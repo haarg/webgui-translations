@@ -1,0 +1,76 @@
+package WebGUI::i18n::Arabic::Asset_MultiSearch;
+
+our $I18N = {
+	'cache timeout help' => {
+		message => q|بما ان جميع المستخدمين سيرون هذا الاصل بنفس الشكل, من الممكن ان نزيد من وقت التكييش لكي نرفع الاداء. كم من الوقت يجب تحديده؟<br />|,
+		lastUpdated => 1164725161
+	},
+
+	'search' => {
+		message => q|بحث|,
+		lastUpdated => 1164725450
+	},
+
+	'for' => {
+		message => q|من اجل<br />|,
+		lastUpdated => 1164725170
+	},
+
+	'multisearch template body' => {
+		message => q|النموذج متعدد البحث له كل المتغيرات المستخدمة بالوبجيكت, و ايضا هذه<br />|,
+		lastUpdated => 1164725426
+	},
+
+	'MultiSearch Template' => {
+		message => q|نموذج متعدد البحث<br />|,
+		lastUpdated => 1164725019
+	},
+
+	'submit' => {
+		message => q|زر اضف بالعلامة الدولية لكلمة &quot;اضف&quot;<br />|,
+		lastUpdated => 1164725491
+	},
+
+	'for.variable' => {
+		message => q|علامة دولية لكلمة &quot;من اجل&quot;|,
+		lastUpdated => 1164725193
+	},
+
+	'assetName' => {
+		message => q|بحث متعدد<br />|,
+		lastUpdated => 1164725076
+	},
+
+	'search.variable' => {
+		message => q|علامة دولية للكلمة &quot;بحث&quot;<br />|,
+		lastUpdated => 1164725466
+	},
+
+	'multisearch template title' => {
+		message => q|متغيرات النموذج متعدد البحث<br />|,
+		lastUpdated => 1164725443
+	},
+
+	'multisearch add/edit body' => {
+		message => q|الوبجيكت متعدد البحث هو وبجيكت بسيط يسمح للمستخدم ان يبحث في العديد من محركات البحث. تظهر الاجابات في نافذة جديدة.<br />|,
+		lastUpdated => 1164725273
+	},
+
+	'cache timeout' => {
+		message => q|<p>كيش تايم اوت&nbsp;</p>|,
+		lastUpdated => 1164725095
+	},
+
+	'MultiSearch Template description' => {
+		message => q|اختر نموذج لكي تظهر شكل الباحث المتعدد للمستخدم|,
+		lastUpdated => 1164725064
+	},
+
+	'multisearch add/edit title' => {
+		message => q|وبجيكت اضف/عدل متعدد البحث<br />|,
+		lastUpdated => 1164725337
+	},
+
+};
+
+1;
