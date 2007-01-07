@@ -147,8 +147,8 @@ our $I18N = {
 	},
 
 	'add ad space body' => {
-		message => q|asdf|,
-		lastUpdated => 1168192946
+		message => q|adfsasdf|,
+		lastUpdated => 1168194732
 	},
 
 	'width' => {
