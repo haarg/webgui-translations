@@ -2,7 +2,7 @@ package WebGUI::i18n::RedNeck::AdSpace;
 
 our $I18N = {
 	'is active' => {
-		message => q|ix|,
+		message => q|x|,
 		lastUpdated => 
 	},
 
