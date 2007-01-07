@@ -12,8 +12,8 @@ our $I18N = {
 	},
 
 	'add an ad' => {
-		message => q||,
-		lastUpdated => 
+		message => q|adfs|,
+		lastUpdated => 1168193127
 	},
 
 	'image help' => {
@@ -147,8 +147,8 @@ our $I18N = {
 	},
 
 	'add ad space body' => {
-		message => q||,
-		lastUpdated => 
+		message => q|asdf|,
+		lastUpdated => 1168192946
 	},
 
 	'width' => {
