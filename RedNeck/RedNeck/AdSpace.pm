@@ -247,8 +247,8 @@ our $I18N = {
 	},
 
 	'add ad space' => {
-		message => q||,
-		lastUpdated => 
+		message => q|dss|,
+		lastUpdated => 1168192916
 	},
 
 	'edit advertisement' => {
