@@ -197,8 +197,8 @@ our $I18N = {
 	},
 
 	'ad text help' => {
-		message => q|xx|,
-		lastUpdated => 1168192836
+		message => q|asfdxx|,
+		lastUpdated => 1168194657
 	},
 
 	'rich' => {
