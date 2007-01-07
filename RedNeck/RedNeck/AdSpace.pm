@@ -61,6 +61,11 @@ our $I18N = {
 		lastUpdated => 
 	},
 
+	'manage ad spaces title' => {
+		message => q||,
+		lastUpdated => 
+	},
+
 	'text color help' => {
 		message => q||,
 		lastUpdated => 
@@ -192,8 +197,8 @@ our $I18N = {
 	},
 
 	'ad text help' => {
-		message => q||,
-		lastUpdated => 
+		message => q|xx|,
+		lastUpdated => 1168192836
 	},
 
 	'rich' => {
