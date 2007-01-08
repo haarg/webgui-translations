@@ -1,132 +1,87 @@
-package WebGUI::i18n::RedNeck::AdSpace;
+package WebGUI::i18n::RedNeck::Auth;
 
 our $I18N = {
-	'is active' => {
-		message => q|b|,
-		lastUpdated => 
-	},
-
-	'priority' => {
+	'login.form.header' => {
 		message => q||,
 		lastUpdated => 
 	},
 
-	'add an ad' => {
-		message => q|adfs|,
-		lastUpdated => 1
-	},
-
-	'image help' => {
+	'create.form.header' => {
 		message => q||,
 		lastUpdated => 
 	},
 
-	'text color' => {
+	'anon reg template body' => {
 		message => q||,
 		lastUpdated => 
 	},
 
-	'edit ad space' => {
+	'create.form.profile.id.formElement' => {
 		message => q||,
 		lastUpdated => 
 	},
 
-	'ad text' => {
-		message => q|Putter In|,
-		lastUpdated => 1154457613
-	},
-
-	'url' => {
+	'display account template title' => {
 		message => q||,
 		lastUpdated => 
 	},
 
-	'background color' => {
-		message => q|dfs|,
-		lastUpdated => 1168200602
-	},
-
-	'edit advertisement body' => {
+	'account.options' => {
 		message => q||,
 		lastUpdated => 
 	},
 
-	'manage ad spaces' => {
+	'create.form.profile' => {
 		message => q||,
 		lastUpdated => 
 	},
 
-	'title help' => {
+	'login template title' => {
 		message => q||,
 		lastUpdated => 
 	},
 
-	'manage ad spaces title' => {
+	'no.url' => {
 		message => q||,
 		lastUpdated => 
 	},
 
-	'text color help' => {
+	'login.form.hidden' => {
 		message => q||,
 		lastUpdated => 
 	},
 
-	'description help' => {
+	'account.form.header' => {
 		message => q||,
 		lastUpdated => 
 	},
 
-	'border color help' => {
+	'profile.required' => {
 		message => q||,
 		lastUpdated => 
 	},
 
-	'rich help' => {
+	'account.form.submit' => {
 		message => q||,
 		lastUpdated => 
 	},
 
-	'name' => {
+	'no.label' => {
 		message => q||,
 		lastUpdated => 
 	},
 
-	'border color' => {
-		message => q|dsa|,
-		lastUpdated => 1168201548
-	},
-
-	'description' => {
+	'login.form.password.label' => {
 		message => q||,
 		lastUpdated => 
 	},
 
-	'priority help' => {
+	'yes.label' => {
 		message => q||,
 		lastUpdated => 
 	},
 
-	'height help' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'width help' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'clicks bought' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'ad id' => {
-		message => q|Varment|,
-		lastUpdated => 1168201533
-	},
-
-	'used' => {
+	'login.url' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -136,27 +91,67 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'type' => {
+	'createAccount.url' => {
 		message => q||,
 		lastUpdated => 
 	},
 
-	'type help' => {
+	'deactivate account template body' => {
 		message => q||,
 		lastUpdated => 
 	},
 
-	'add ad space body' => {
-		message => q|adfsasdf|,
-		lastUpdated => 1168194732
-	},
-
-	'width' => {
+	'anon reg template title' => {
 		message => q||,
 		lastUpdated => 
 	},
 
-	'impressions bought' => {
+	'account.form.karma' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'login.form.footer' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'anonymousRegistration.isAllowed' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'account.form.footer' => {
+		message => q|The required form elements that go after the display account page form.|,
+		lastUpdated => 1168203209
+	},
+
+	'login.form.password' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'create.form.profile.id.required' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'create.form.profile.id.formElement.label' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'login template body' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'yes.url' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'create.form.submit' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -166,97 +161,62 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'is active help' => {
+	'login.form.username' => {
 		message => q||,
 		lastUpdated => 
 	},
 
-	'confirm ad space delete' => {
+	'account.form.karma.label' => {
 		message => q||,
 		lastUpdated => 
 	},
 
-	'name help' => {
+	'deactivate account template title' => {
 		message => q||,
 		lastUpdated => 
 	},
 
-	'url help' => {
+	'profile.formElement.label' => {
 		message => q||,
 		lastUpdated => 
 	},
 
-	'text' => {
+	'profile.formElement' => {
 		message => q||,
 		lastUpdated => 
 	},
 
-	'edit this ad space' => {
+	'login.form.username.label' => {
 		message => q||,
 		lastUpdated => 
 	},
 
-	'ad text help' => {
-		message => q|asfdxx|,
-		lastUpdated => 1168194657
-	},
-
-	'rich' => {
+	'create.form.footer' => {
 		message => q||,
 		lastUpdated => 
 	},
 
-	'background color help' => {
-		message => q|asdf|,
-		lastUpdated => 1168200609
-	},
-
-	'edit ad space body' => {
+	'question' => {
 		message => q||,
 		lastUpdated => 
 	},
 
-	'confirm ad delete' => {
+	'createAccount.label' => {
 		message => q||,
 		lastUpdated => 
 	},
 
-	'ad space id' => {
-		message => q|afdsjklfdaslkjafds|,
-		lastUpdated => 1149209612
-	},
-
-	'clicks bought help' => {
+	'login.form.submit' => {
 		message => q||,
 		lastUpdated => 
 	},
 
-	'height' => {
+	'display account template body' => {
 		message => q||,
 		lastUpdated => 
 	},
 
-	'image' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'macro code prompt' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'add ad space' => {
-		message => q|dss|,
-		lastUpdated => 1168192916
-	},
-
-	'edit advertisement' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'impressions bought help' => {
+	'login.label' => {
 		message => q||,
 		lastUpdated => 
 	},

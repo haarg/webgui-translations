@@ -2,8 +2,8 @@ package WebGUI::i18n::RedNeck::Form_Captcha;
 
 our $I18N = {
 	'topicName' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Captcha|,
+		lastUpdated => 1168204516
 	},
 
 	'verify your humanity' => {
