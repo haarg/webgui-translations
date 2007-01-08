@@ -33,7 +33,7 @@ our $I18N = {
 
 	'ad text' => {
 		message => q|Putter In|,
-		lastUpdated => 1154457613
+		lastUpdated => 1168222922
 	},
 
 	'url' => {
