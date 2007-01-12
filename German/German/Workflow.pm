@@ -7,8 +7,8 @@ our $I18N = {
 	},
 
 	'disabled' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Deaktiviert|,
+		lastUpdated => 1168590636
 	},
 
 	'is enabled help' => {
@@ -17,8 +17,8 @@ our $I18N = {
 	},
 
 	'object type' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Objekt Typ|,
+		lastUpdated => 1168590697
 	},
 
 	'topicName' => {
@@ -32,13 +32,13 @@ our $I18N = {
 	},
 
 	'run' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Start|,
+		lastUpdated => 1168590704
 	},
 
 	'no object' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Kein Objekt|,
+		lastUpdated => 1168590690
 	},
 
 	'show running workflows body' => {
@@ -62,8 +62,8 @@ our $I18N = {
 	},
 
 	'enabled' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Aktiviert|,
+		lastUpdated => 1168590671
 	},
 
 	'is serial' => {
@@ -82,8 +82,8 @@ our $I18N = {
 	},
 
 	'workflowId' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Workflow ID|,
+		lastUpdated => 1168590647
 	},
 
 	'title help' => {
@@ -112,8 +112,8 @@ our $I18N = {
 	},
 
 	'add a new workflow' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Neuen Workflow hinzuf&uuml;gen|,
+		lastUpdated => 1168590624
 	},
 
 	'is singleton help' => {
@@ -122,8 +122,8 @@ our $I18N = {
 	},
 
 	'description' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Beschreibung|,
+		lastUpdated => 1168590678
 	},
 
 	'manage workflow help body' => {

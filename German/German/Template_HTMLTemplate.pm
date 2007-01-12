@@ -2,8 +2,8 @@ package WebGUI::i18n::German::Template_HTMLTemplate;
 
 our $I18N = {
 	'templateParserName' => {
-		message => q||,
-		lastUpdated => 
+		message => q|HTML Template|,
+		lastUpdated => 1168593203
 	},
 
 	'html template body' => {

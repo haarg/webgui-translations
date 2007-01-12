@@ -21,6 +21,11 @@ our $I18N = {
 		lastUpdated => 
 	},
 
+	'displayLastReply' => {
+		message => q||,
+		lastUpdated => 
+	},
+
 	'karma spent to rate' => {
 		message => q||,
 		lastUpdated => 
@@ -79,6 +84,11 @@ our $I18N = {
 	'read more' => {
 		message => q|mehr...|,
 		lastUpdated => 1157904425
+	},
+
+	'max image size help' => {
+		message => q||,
+		lastUpdated => 
 	},
 
 	'compensation.label' => {
@@ -357,11 +367,16 @@ our $I18N = {
 	},
 
 	'allow replies' => {
-		message => q|Antworten zulassen.<br />|,
-		lastUpdated => 1157903695
+		message => q|Antworten zulassen.|,
+		lastUpdated => 1168223728
 	},
 
 	'status' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'thumbnail size help' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -816,6 +831,11 @@ our $I18N = {
 		lastUpdated => 
 	},
 
+	'thumbnail size' => {
+		message => q||,
+		lastUpdated => 
+	},
+
 	'generator' => {
 		message => q||,
 		lastUpdated => 
@@ -1047,6 +1067,11 @@ our $I18N = {
 	},
 
 	'synopsis.label' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'max image size' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -1387,8 +1412,8 @@ our $I18N = {
 	},
 
 	'ascending' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Aufsteigend|,
+		lastUpdated => 1168223695
 	},
 
 	'collaboration template title' => {

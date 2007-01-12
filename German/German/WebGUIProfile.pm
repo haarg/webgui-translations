@@ -1,9 +1,14 @@
 package WebGUI::i18n::German::WebGUIProfile;
 
 our $I18N = {
-	'897a' => {
+	'requiredForPasswordRecovery hoverHelp' => {
 		message => q||,
 		lastUpdated => 
+	},
+
+	'897a' => {
+		message => q|Editierbar?|,
+		lastUpdated => 1168591164
 	},
 
 	'897a description' => {
@@ -22,6 +27,11 @@ our $I18N = {
 	},
 
 	'489' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'requiredForPasswordRecovery label' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -62,13 +72,13 @@ our $I18N = {
 	},
 
 	'787' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Dieses Profilfeld bearbeiten.|,
+		lastUpdated => 1168591139
 	},
 
 	'790' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Diese Profilkategorie löschen.|,
+		lastUpdated => 1168591153
 	},
 
 	'466' => {
@@ -82,8 +92,8 @@ our $I18N = {
 	},
 
 	'471' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Userprofil Feld bearbeiten|,
+		lastUpdated => 1168591075
 	},
 
 	'474 description' => {
@@ -136,6 +146,11 @@ our $I18N = {
 		lastUpdated => 
 	},
 
+	'showAtRegistration label' => {
+		message => q||,
+		lastUpdated => 
+	},
+
 	'492' => {
 		message => q||,
 		lastUpdated => 
@@ -177,8 +192,8 @@ our $I18N = {
 	},
 
 	'672' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Benutzerprofil Einstellungen, Bearbeiten|,
+		lastUpdated => 1168591091
 	},
 
 	'487' => {
@@ -187,6 +202,11 @@ our $I18N = {
 	},
 
 	'473' => {
+		message => q|Sichtbar?|,
+		lastUpdated => 1168591115
+	},
+
+	'showAtRegistration hoverHelp' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -196,9 +216,19 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'472' => {
+	'forceImageOnly label' => {
 		message => q||,
 		lastUpdated => 
+	},
+
+	'forceImageOnly hoverHelp' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'472' => {
+		message => q|Beschriftung|,
+		lastUpdated => 1168591106
 	},
 
 	'897' => {
@@ -217,6 +247,11 @@ our $I18N = {
 	},
 
 	'470 description' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'forceImageOnly description' => {
 		message => q||,
 		lastUpdated => 
 	},

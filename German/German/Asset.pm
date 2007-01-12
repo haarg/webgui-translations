@@ -31,6 +31,11 @@ our $I18N = {
 		lastUpdated => 1153238397
 	},
 
+	'newWindow' => {
+		message => q||,
+		lastUpdated => 
+	},
+
 	'871 description' => {
 		message => q|W&auml;hlen Sie die Gruppe aus, die dieses Asset bearbeiten darf. Die Gruppe, die die Berechtigung zum Bearbeiten hat, kann das Asset auch sehen.  |,
 		lastUpdated => 1153127085
@@ -44,6 +49,11 @@ our $I18N = {
 	'view' => {
 		message => q|Betrachten|,
 		lastUpdated => 1153261929
+	},
+
+	'isHidden' => {
+		message => q||,
+		lastUpdated => 
 	},
 
 	'export information' => {
@@ -99,6 +109,11 @@ our $I18N = {
 	'delete' => {
 		message => q|Löschen|,
 		lastUpdated => 1153244271
+	},
+
+	'title' => {
+		message => q||,
+		lastUpdated => 
 	},
 
 	'revised by' => {
@@ -159,6 +174,11 @@ our $I18N = {
 	'purge trash after help' => {
 		message => q|<p>Wie lange soll ein Asset im M&uuml;lleimer bleiben, bis es entfernt wird? </p><p>Beachten Sie: Wenn es entfernt wird, werden alle Versionen und Nachfahren ebenso entfernt. </p>|,
 		lastUpdated => 1158614384
+	},
+
+	'rootUrl symlinking default' => {
+		message => q||,
+		lastUpdated => 
 	},
 
 	'assets' => {
@@ -231,9 +251,24 @@ our $I18N = {
 		lastUpdated => 1153242259
 	},
 
+	'synopsis' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'extraHeadTags' => {
+		message => q||,
+		lastUpdated => 
+	},
+
 	'duplicate' => {
 		message => q|Duplizieren|,
 		lastUpdated => 1153244554
+	},
+
+	'isPrototype' => {
+		message => q||,
+		lastUpdated => 
 	},
 
 	'1083' => {
@@ -264,6 +299,11 @@ our $I18N = {
 	'demote' => {
 		message => q|Nach unten verschieben|,
 		lastUpdated => 1153244443
+	},
+
+	'extrasUploads form option symlink' => {
+		message => q||,
+		lastUpdated => 
 	},
 
 	'change url' => {
@@ -331,6 +371,16 @@ our $I18N = {
 		lastUpdated => 1153641285
 	},
 
+	'assetSize' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'status' => {
+		message => q||,
+		lastUpdated => 
+	},
+
 	'manage versions body' => {
 		message => q||,
 		lastUpdated => 
@@ -344,6 +394,11 @@ our $I18N = {
 	'purge revision after' => {
 		message => q|Alte Veresion aufr&auml;umen nach|,
 		lastUpdated => 1158614430
+	},
+
+	'asset template asset var title' => {
+		message => q||,
+		lastUpdated => 
 	},
 
 	'1082' => {
@@ -366,6 +421,16 @@ our $I18N = {
 		lastUpdated => 1153127002
 	},
 
+	'isPackage' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'rootUrl form option symlinkDefault' => {
+		message => q||,
+		lastUpdated => 
+	},
+
 	'Metadata Description description' => {
 		message => q|<p>Eine optional Beschreibung f&uuml;r diese Metadaten-Eigenschaft. Dieser Text wird als Mouseover-Text im Asset-Eigenschaften Kafteireiter angezeigt.<br /></p>|,
 		lastUpdated => 1153237772
@@ -374,6 +439,11 @@ our $I18N = {
 	'asset fields title' => {
 		message => q|Asset, gemeinsame Felder<br />|,
 		lastUpdated => 1153238895
+	},
+
+	'could not rmdir' => {
+		message => q||,
+		lastUpdated => 
 	},
 
 	'Delete Metadata field' => {
@@ -446,6 +516,11 @@ our $I18N = {
 		lastUpdated => 1153244460
 	},
 
+	'extrasUploads form option none' => {
+		message => q||,
+		lastUpdated => 
+	},
+
 	'99' => {
 		message => q|Titel|,
 		lastUpdated => 1153127771
@@ -456,6 +531,16 @@ our $I18N = {
 		lastUpdated => 1153201518
 	},
 
+	'could not unlink' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'url' => {
+		message => q||,
+		lastUpdated => 
+	},
+
 	'Page Export body' => {
 		message => q|<p>Die Funktion &quot;Seite exportieren&quot; erm&ouml;glicht es, WebGUI-Seiten als statische HTML-Seiten zu exportieren. Damit diese Funktionalit&auml;t aktiv ist, muss die Variable &quot;exportPath&quot; in der WebGUI-Konfigurationsdatei gesetzt sein.</p>|,
 		lastUpdated => 1153238050
@@ -464,6 +549,11 @@ our $I18N = {
 	'Class Icon' => {
 		message => q|Class Icon<br />|,
 		lastUpdated => 1153128167
+	},
+
+	'groupIdEdit' => {
+		message => q||,
+		lastUpdated => 
 	},
 
 	'Class Icon help' => {
@@ -495,6 +585,11 @@ our $I18N = {
 		message => q|%-s konnte wegen %-s nich angelegt werden.
 Dies bedeutet in der REgel, dass Sie eine seite anlegen möchtgen, die den selben Namen wie der Ordner hat.|,
 		lastUpdated => 1153244031
+	},
+
+	'could not create' => {
+		message => q||,
+		lastUpdated => 
 	},
 
 	'purge trash after' => {
@@ -549,12 +644,17 @@ Dies bedeutet in der REgel, dass Sie eine seite anlegen möchtgen, die den selbe
 
 	'108 description' => {
 		message => q|<p>Wer ein Asset erstellt hat ist i.d.R. dessen Eigent&uuml;mer. Dieser Benutzer hat alle Rechte zum Editieren und Betrachten des Assets.</p><p><strong>Hinweis:</strong> Der Eigent&uuml;mer kann durch einen Administrator ge&auml;ndert werden.<br /></p>|,
-		lastUpdated => 1153126400
+		lastUpdated => 1168209321
 	},
 
 	'make prototype description' => {
 		message => q|<p>Dieses Asset als Inhalts-Prototyp definieren, so dass es auf Ihrer Site von anderen eingesetzt werden kann.</p>|,
 		lastUpdated => 1154467385
+	},
+
+	'rootUrl form option none' => {
+		message => q||,
+		lastUpdated => 
 	},
 
 	'edit' => {
@@ -593,6 +693,11 @@ Normalerweise müßten Sie den URL in der letzen Revision des Assets ändern und
 		lastUpdated => 1153243341
 	},
 
+	'rootUrl form label' => {
+		message => q||,
+		lastUpdated => 
+	},
+
 	'174' => {
 		message => q|Titel anzeigen?|,
 		lastUpdated => 1153126792
@@ -616,6 +721,16 @@ Normalerweise müßten Sie den URL in der letzen Revision des Assets ändern und
 	'prototype using title' => {
 		message => q|Inhalts-Prototypen, Verwendung|,
 		lastUpdated => 1153263257
+	},
+
+	'encryptPage' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'asset template asset var body' => {
+		message => q||,
+		lastUpdated => 
 	},
 
 	'ago' => {
@@ -663,6 +778,11 @@ Normalerweise müßten Sie den URL in der letzen Revision des Assets ändern und
 		lastUpdated => 1153126715
 	},
 
+	'extrasUploads form label' => {
+		message => q||,
+		lastUpdated => 
+	},
+
 	'done' => {
 		message => q|Fertig|,
 		lastUpdated => 1153244542
@@ -671,6 +791,11 @@ Normalerweise müßten Sie den URL in der letzen Revision des Assets ändern und
 	'lock' => {
 		message => q|Sperren|,
 		lastUpdated => 1153262959
+	},
+
+	'rootUrl default not present' => {
+		message => q||,
+		lastUpdated => 
 	},
 
 	'Metadata' => {
@@ -691,6 +816,16 @@ Normalerweise müßten Sie den URL in der letzen Revision des Assets ändern und
 	'package corrupt' => {
 		message => q|<p>Das Paket das Sie importieren wollten enth&auml;lt Fehler. Es wurde bis zum Auftreten des Fehlers importiert. Um dies r&uuml;ckg&auml;nig zu machen, kehren Sie zur letzten Versionierungsmarkierung zur&uuml;ck. </p>|,
 		lastUpdated => 1154467531
+	},
+
+	'ownerUserId' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'could not symlink' => {
+		message => q||,
+		lastUpdated => 
 	},
 
 	'content profiling' => {
@@ -738,9 +873,29 @@ Normalerweise müßten Sie den URL in der letzen Revision des Assets ändern und
 		lastUpdated => 
 	},
 
+	'groupIdView' => {
+		message => q||,
+		lastUpdated => 
+	},
+
 	'Depth description' => {
 		message => q|Definiert die Tiefe, bis zu welcher der Seitenbaum exportiert werden soll. Bei einem Wert von 0 wird nur die aktuelle Seite exportiert.  |,
 		lastUpdated => 1153128570
+	},
+
+	'extrasUploads symlinking' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'extrasUploads form hoverHelp' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'menuTitle' => {
+		message => q||,
+		lastUpdated => 
 	},
 
 	'make prototype' => {
@@ -771,6 +926,11 @@ Normalerweise müßten Sie den URL in der letzen Revision des Assets ändern und
 	'purge' => {
 		message => q|Leeren|,
 		lastUpdated => 1154466874
+	},
+
+	'rootUrl form hoverHelp' => {
+		message => q||,
+		lastUpdated => 
 	},
 
 	'105' => {

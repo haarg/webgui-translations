@@ -132,8 +132,8 @@ our $I18N = {
 	},
 
 	'select' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Wählen|,
+		lastUpdated => 1168593222
 	},
 
 	'list transactions title' => {
