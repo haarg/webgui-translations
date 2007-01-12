@@ -847,8 +847,8 @@ our $I18N = {
 	},
 
 	'bad user privileges' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Y'all ain&'t supposed ta be lookin' here. |,
+		lastUpdated => 1168551383
 	},
 
 	'directory index description' => {
