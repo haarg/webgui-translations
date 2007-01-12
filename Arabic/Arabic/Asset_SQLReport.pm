@@ -42,8 +42,8 @@ our $I18N = {
 	},
 
 	'71' => {
-		message => q||,
-		lastUpdated => 
+		message => q|  <p dir="rtl" class="MsoNormal"><span>تقارير الاس كيو ال هي بالتأكيد أقوى الوبجيكتس في سباق ويب جوي. هي تسمح للمستخدم بان يطلب بيانات من أي قاعدة بيانات له اتصال عليها. هذا الأمر جيد جدا من اجل احضار بيانات المبيعات من قاعدة البيانات الخاصة بك أو أيضا يقوم باختصار المنتديات على موقعك.</span></p>  <p dir="rtl" class="MsoNormal"><span>&nbsp;</span></p>  <p dir="rtl" class="MsoNormal"><span>تدعيم الطلب المتداخل</span></p>  <p dir="rtl" class="MsoNormal"><span>وبجيكت تقرير الاس كيو ال يقوم بتدعيم 5 طلبات متداخلة على الأكثر (طلب اساسي و 4 طلبات اساسية). كل من الطلبات اللاحقة يتم تنفيذه لكل سطر من الطلب السابق. على سبيل المثال, إذا كان لديك طلبين (1 و 2) سيتم تنفيذ طلب 2 لكل سطر مرجوع في الطلب الأول. من الممن أن تستخدم </span><span>placeholder parameters</span><span> لكي تكون طلبات ثانوية ببيانات من الطلبات السابقة.</span></p>  <p dir="rtl" class="MsoNormal"><span>&nbsp;</span></p>  <p dir="rtl" class="MsoNormal"><span>تقارير الاس كيو ال هي وبجيكتس و اصول, و بالتالي فانها تتشارك خواص الاثنين. تقارير الاس كي وال لديها هذه الخواص الفريدة.</span></p>  |,
+		lastUpdated => 1168442373
 	},
 
 	'assetName' => {
@@ -102,8 +102,8 @@ our $I18N = {
 	},
 
 	'debug placeholder parameters' => {
-		message => q||,
-		lastUpdated => 
+		message => q|اخلي من الاخطاء: شغل Placeholder parameters:|,
+		lastUpdated => 1168442573
 	},
 
 	'download template description' => {
@@ -117,8 +117,8 @@ our $I18N = {
 	},
 
 	'4 description' => {
-		message => q||,
-		lastUpdated => 
+		message => q|  <p dir="rtl" class="MsoNormal"><span>هذا طلب اس كي وال اعتيادي, إذا كنت غير ذي معرفة بالاس كي وال فمن الاكيد انكلا تريد استخدام هذا الوبجيكت. </span></p>  <p dir="rtl" class="MsoNormal"><span>&nbsp;</span></p>  <p dir="rtl" class="MsoNormal"><span>علامة استفهام ؟ في الطلب و هي تظهر </span><span>placeholder</span><span>. ضع في الاعتبار أن ؟ ليست فقط مقتصرة على علامات التنصيص, حتى عندما يمثل </span><span>placeholder</span><span> سلسلة.</span></p>  <p dir="rtl" class="MsoNormal"><span>&nbsp;</span></p>  <p dir="rtl" class="MsoNormal"><span>كلمات المفاتيح المسموح لها يتم تعريفها في وصلة خواص قاعدة البيانات. كلمات المفاتيح لقاعدة البيانات للويب جوي هي, اختر, اشرح, و اظهر.</span></p>  |,
+		lastUpdated => 1168441276
 	},
 
 	'14' => {
@@ -162,8 +162,8 @@ our $I18N = {
 	},
 
 	'Placeholder Parameters' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Placeholder Parameters|,
+		lastUpdated => 1168442502
 	},
 
 	'queryN.columns_loop' => {
@@ -177,8 +177,8 @@ our $I18N = {
 	},
 
 	'download usergroup' => {
-		message => q||,
-		lastUpdated => 
+		message => q|حمل مجموعة المستخدمين<br />|,
+		lastUpdated => 1168442843
 	},
 
 	'queryN.row.number' => {
@@ -272,8 +272,8 @@ our $I18N = {
 	},
 
 	'column.number' => {
-		message => q||,
-		lastUpdated => 
+		message => q|عدد صحيح يبدأ ب1 و يعد خلال عدد العمدان<br />|,
+		lastUpdated => 1168442540
 	},
 
 	'8' => {
@@ -297,8 +297,8 @@ our $I18N = {
 	},
 
 	'73' => {
-		message => q||,
-		lastUpdated => 
+		message => q|  <p dir="rtl" class="MsoNormal"><span>المتغيرات التالية ستكون متوفرة في تقارير الاس كيو ال:</span></p>  <p dir="rtl" class="MsoNormal"><span>&nbsp;</span></p>  <p dir="rtl" class="MsoNormal"><span>لمتغيرات لاي طلبات ثانوية سيكون لديها نفس الضبط مثل الطلب الأول, و لكن سيتم عملها </span><span>queryN</span><span> حيث تذهب </span><span>N</span><span> من 2 إلى 5</span></p>  |,
+		lastUpdated => 1168442493
 	},
 
 	'download usergroup description' => {

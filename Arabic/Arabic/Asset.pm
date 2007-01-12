@@ -31,6 +31,11 @@ our $I18N = {
 		lastUpdated => 1161266407
 	},
 
+	'newWindow' => {
+		message => q|علامة ستصبح حقيقية اذا تم ضبط الاصل على ان يفتح في نافذة جديدة<br />|,
+		lastUpdated => 1168439667
+	},
+
 	'871 description' => {
 		message => q|<p>اختر المجموعة التي من الممكن ان تعدل هذا الاصل. المجموعة التي لها حق التعديل من الممكن ان تطلع علىهذا&nbsp;الاصل.</p>|,
 		lastUpdated => 1162830538
@@ -44,6 +49,11 @@ our $I18N = {
 	'view' => {
 		message => q|<p>اظهر</p>|,
 		lastUpdated => 1163437988
+	},
+
+	'isHidden' => {
+		message => q|علامة ستكون حقيقية اا تم ضبط الاصل على الا يظهر في التصفح<br />|,
+		lastUpdated => 1168439519
 	},
 
 	'export information' => {
@@ -99,6 +109,11 @@ our $I18N = {
 	'delete' => {
 		message => q|مسح|,
 		lastUpdated => 1161267775
+	},
+
+	'title' => {
+		message => q|هنوان الاصل<br />|,
+		lastUpdated => 1168439825
 	},
 
 	'revised by' => {
@@ -158,7 +173,7 @@ our $I18N = {
 
 	'purge trash after help' => {
 		message => q|كم من الوقت يجب ابقاء الاصل في سلة اللمهملات قبل ان يعتبر قديما بما فيه الكفاية و ينظف؟ ضع في الاعتبار انه عندما ينظف كل مراجعاته و تابعاته سوف تنظف ايضا.|,
-		lastUpdated => 1163436919
+		lastUpdated => 1168439698
 	},
 
 	'rootUrl symlinking default' => {
@@ -236,9 +251,24 @@ our $I18N = {
 		lastUpdated => 1162916369
 	},
 
+	'synopsis' => {
+		message => q|شرح بسيط لمحتويات الاصل<br />|,
+		lastUpdated => 1168439817
+	},
+
+	'extraHeadTags' => {
+		message => q|  <p dir="rtl" class="MsoNormal"><span>الاكواد الاضافية التي سيتم اضافتها إلى مقدمة الصفحة التي تحتوي الاصل. من الممكن أن تضاف هذه اعتياديا و في هذه الحالة ليس من الضروري أن تضيفها بنفسك, الا إذا كنت تريد أن يكونوا هناك مرتين.</span></p>  |,
+		lastUpdated => 1168439429
+	},
+
 	'duplicate' => {
 		message => q|<p>قم بعمل نسخة ثانية</p>|,
 		lastUpdated => 1163432598
+	},
+
+	'isPrototype' => {
+		message => q|علامة ستسبححقيقية اذا تم ضبط الاصل على ان يكون نموذج اولي<br />|,
+		lastUpdated => 1168439620
 	},
 
 	'1083' => {
@@ -292,8 +322,8 @@ our $I18N = {
 	},
 
 	'895' => {
-		message => q||,
-		lastUpdated => 1162831501
+		message => q|انتهى وقت الذاكرة المؤقتة<br />|,
+		lastUpdated => 1168438797
 	},
 
 	'Export as user' => {
@@ -341,6 +371,16 @@ our $I18N = {
 		lastUpdated => 1163433595
 	},
 
+	'assetSize' => {
+		message => q|ما هو حجم الاصل بالبايت. مجموع كل خانات قاعدة البيانات و المرفقات.<br /> |,
+		lastUpdated => 1168439281
+	},
+
+	'status' => {
+		message => q|مع كامل الاحترام لتحكم النسخة, حالة هذا الاصل. واقعيا هذه في الخيوط الانجليزية &quot;تم تصديقه&quot;, &quot;في الانتظار&quot;, &quot;تم عمله&quot;<br /> |,
+		lastUpdated => 1168439797
+	},
+
 	'manage versions body' => {
 		message => q|<p>هذه الشاشة تريك قائمة من النسخ للاصل الحالي. تريك ايضا التاريخ التي فتحت او تم عملها فيه, من الذي يملك العلامة لهذه النسخة, و اسم علامة النسخة. الايقونات ستمكنك من ان تطهر المراجعة و ان تحذفها من النظام او ان تظهر هذه النسخة المحددة من الاصل. اسم علامة الاصل هو رابط سياخذك الى ادر المراجعات في شاشة العلامة.</p>|,
 		lastUpdated => 1166024079
@@ -354,6 +394,11 @@ our $I18N = {
 	'purge revision after' => {
 		message => q|نظف المراجعات القديمة بعد|,
 		lastUpdated => 1163436624
+	},
+
+	'asset template asset var title' => {
+		message => q|نموذج الاصل متغيرات الاصل<br /> |,
+		lastUpdated => 1168439233
 	},
 
 	'1082' => {
@@ -374,6 +419,11 @@ our $I18N = {
 	'487' => {
 		message => q|<p>القيم الممكنة</p>|,
 		lastUpdated => 1162830268
+	},
+
+	'isPackage' => {
+		message => q|علامة ستكون حقيقية اذا تم ضبط الاصل على ان يكون باكيدج<br />|,
+		lastUpdated => 1168439568
 	},
 
 	'rootUrl form option symlinkDefault' => {
@@ -438,7 +488,7 @@ our $I18N = {
 
 	'Field Name description' => {
 		message => q|<p>اسم خاصية الميتاداتا. يجب ان يكون فريدا من نوعه. </p><p>من المستحسن ان تستخدم الحروف من A-Z و الارقام من 0-9 او الشرطة على السطر _ لاسماء المجالات.</p>|,
-		lastUpdated => 1162914659
+		lastUpdated => 1168438846
 	},
 
 	'940' => {
@@ -486,6 +536,11 @@ our $I18N = {
 		lastUpdated => 1166023887
 	},
 
+	'url' => {
+		message => q|رابط الاصل<br />|,
+		lastUpdated => 1168439833
+	},
+
 	'Page Export body' => {
 		message => q|<p>خاصية تصدير الصفحة تسمح لك ان تصدر صفحات الويب جيو اي الى ملفات HTML ثابتة على القرص. &quot;طريق التصدير&quot; المتغير في ملف هيئة&nbsp;الويب جي يو اي يجب ان يكون مسموح له بهذه الوظيفة لكي يكون موجودا.</p>|,
 		lastUpdated => 1162914952
@@ -494,6 +549,11 @@ our $I18N = {
 	'Class Icon' => {
 		message => q|<p>ايقونة الصنف</p>|,
 		lastUpdated => 1161183438
+	},
+
+	'groupIdEdit' => {
+		message => q|هوية المجموعة المسموح لها بتعديل هذا الاصل |,
+		lastUpdated => 1168439479
 	},
 
 	'Class Icon help' => {
@@ -661,6 +721,16 @@ our $I18N = {
 		lastUpdated => 1163436470
 	},
 
+	'encryptPage' => {
+		message => q|علامة ستصبح حقيقية اذا تم ضبط هذا الاصل لكي يخدم على SSL |,
+		lastUpdated => 1168439332
+	},
+
+	'asset template asset var body' => {
+		message => q|  <p dir="rtl" class="MsoNormal"><span>متغيرات النموذج هذه معروفة لتقريبا كل الاصول. العديد منها خواص الاصل الداخلية و التي تتحكم في السلوك و من الممكن أن لا تكون مفيدة للنموذج. مثال على ذلك من الممكن أن يكون هوية النموذج التي تستخدم لكي تظهر الاصل. بناء على ما إذا كان المستخدم قد ملأ الخانات, من الممكن أن يكونوا فارغين.</span></p>  |,
+		lastUpdated => 1168439216
+	},
+
 	'ago' => {
 		message => q|من قبل|,
 		lastUpdated => 1161266478
@@ -746,9 +816,14 @@ our $I18N = {
 		lastUpdated => 1163436335
 	},
 
+	'ownerUserId' => {
+		message => q|هوية المستخدم المالك لهذا الاصل<br />|,
+		lastUpdated => 1168439688
+	},
+
 	'could not symlink' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Could not symlink %s to %s: %s|,
+		lastUpdated => 1168439293
 	},
 
 	'content profiling' => {
@@ -787,13 +862,18 @@ our $I18N = {
 	},
 
 	'896' => {
-		message => q||,
-		lastUpdated => 1162831543
+		message => q|انتهى وقت الذاكرة المؤقتة (الزوار)<br />|,
+		lastUpdated => 1168438840
 	},
 
 	'metadata manage body' => {
 		message => q|<span><font size="3"><font face="Times New Roman">نظام عمل ملفات المحتوى في ويب جوي ( و المعروف ايضا كنظام كلمات بحث) يسمح لك بتعريف المحتوى. كلمات البحث هي معلومات عن المحتوى, و معرفة بشكل ازواج من تقييم-الخواص.</font></font></span><span><font face="Times New Roman" size="3">&nbsp;</font></span><span><font size="3"><font face="Times New Roman">امثلة على كلمات البحث:</font></font></span><span><font size="3"><font face="Times New Roman">نوع المحتوى: رياضة</font></font></span><span><font size="3"><font face="Times New Roman">محتوى للكبار: لا</font></font></span><span><font size="3"><font face="Times New Roman">المصدر: جريدة</font></font></span><span><font face="Times New Roman" size="3">&nbsp;</font></span><span><font size="3"><font face="Times New Roman">في المثال (المصدر:جريدة) كلمات البحث هذه لها خاصية تسمى المصدر و لها قيمة جريدة.</font></font></span><span><font face="Times New Roman" size="3">&nbsp;</font></span><font size="3"><font face="Times New Roman"><span>خواص كلمات البحث معرفة عالميا, في حين ان قيم كلمات البحث يتم ضبطها لكل اصل واقع تحت الزر &quot;ميتا </span><span>META</span><span>&quot; في خواص الاصل.</span></font></font><span><font face="Times New Roman" size="3">&nbsp;</font></span><span><font face="Times New Roman" size="3">&nbsp;</font></span><font size="3"><font face="Times New Roman"><span>قبل ان تتمكن من استخدام كلمات البحث في الويب جوي, يجب ان تقوم بتشغيل كلمات البحث في ضبط الويب جوي (زر المحتوى</span><span>(</span><span></span></font></font><span><font face="Times New Roman" size="3">&nbsp;</font></span><span><font size="3"><font face="Times New Roman">استخدامات كلمات البحث:</font></font></span><span><font face="Times New Roman" size="3">&nbsp;</font></span><strong><span><font size="3"><font face="Times New Roman">باسيف بروفايلينج:</font></font></span></strong><span><font size="3"><font face="Times New Roman">عندما يتم تشغيل الباسيف بروفايلينج, كل وبجيكت يتم اظهاره بالمستخدم سيتم تشغيله. القائم بجداول الويب جوي يقوم بتلخيص معلومات الملفات بشكل دوري. هذا في الاساس نوع من تقييم المادة مبني على محل اهتمام المستخدم.</font></font></span><font size="3"><font face="Times New Roman"><span>في العادة يعمل المختصر مرة واحدة في اليوم. و على اي حال من الممكن تغيير هذا بضبط: </span><strong><span>passiveProfileInterval = &lt;number of seconds&gt;</span></strong><span> في ملفات الضبط الخاصة بويب جوي.</span></font></font><strong><span><font size="3"><font face="Times New Roman">تقييم محل الاهتمام:</font></font></span></strong><font size="3"><font face="Times New Roman"><span>كلمات البحث هي تركيبة بحفظ الملفات<span>&nbsp; </span>و التي تنتج معلومات اماكن الاهتمام الخاصة بالمستخدم. من الممكن ان تقوم باسترجاع خواص كلمات البحث بـالماكرهات </span><span>^AOIRank(); and ^AOIHits();</span><span>.</span></font></font><strong><span><font size="3"><font face="Times New Roman">اظهر المادة بناء على المقومات:</font></font></span></strong><span><font size="3"><font face="Times New Roman">الوبجيكت بروكسي يسمح لك باختيار المادة بناء على المقومات مثل:</font></font></span><span><font size="3"><font face="Times New Roman">نوع المادة: رياضة و مصدر != جريدة.</font></font></span><span><font face="Times New Roman" size="3">&nbsp;</font></span><font size="3"><font face="Times New Roman"><span>من الممكن ان تستخدم الماكروهات الخاصة بمناطق الاهتمام و التي تم شرحها في المقومات السابقة, و بناء عليه فمن الممكن ان تظهر مادة مبنية على مناطق اهتمام المستخدم. مثال: </span><span>type = ^AOIRank(contenttype);</span><span></span></font></font><span><font face="Times New Roman" size="3">&nbsp;</font></span><span><font size="3"><font face="Times New Roman">اظهر:</font></font></span><font size="3"><font face="Times New Roman"><span>يتم اظهار اماكن كلمات البحث لنماذج الاصول كاسماء الخواص. و بناء على ذلك يمكنك بالفعل ان تظهر كلمات البحث للصفحة التي تم عملها باستخدام متغيرات النموذج مثل: <span>&nbsp;</span></span><span>&lt;tmpl_var <em>propertyname</em>&gt;</span><span></span></font></font><span><font face="Times New Roman" size="3">&nbsp;</font></span><span><font size="3"><font face="Times New Roman">كلمات البحث:</font></font></span><font size="3"><font face="Times New Roman"><span>بما ان كلمات البحث يتم اظهارها لمتغيرات النماذج, من الممكن ان تستخدمهم في </span><span>Head Block</span><span> من اشكال النماذج لكي تقوم بعمل كلمات بحث من معلومات البحث, متضمنة الاكواد من </span><span>Dublin Core standard</span><span>.</span></font></font>|,
 		lastUpdated => 1166025419
+	},
+
+	'groupIdView' => {
+		message => q|هوية المجموعة المسموح لها برؤية هذا الاصل<br />|,
+		lastUpdated => 1168439495
 	},
 
 	'Depth description' => {
@@ -809,6 +889,11 @@ our $I18N = {
 	'extrasUploads form hoverHelp' => {
 		message => q|ما العمل الذي تريده بخصوص هذه الزيادات و دلائل الرفع, و التي غالبا ما يتم الاشارة لها في اجزاء من الموقع. symlink تعني استخدام رابط رمزي (و هو ليس موجود على كل الانظمة) للدليل الاصلي. لا شيء من هذا يعني عمل لا شيء, و تجاهل الزيادات و دلائل الرفع, هذا ربما سيتسبب في اشارات لهم لكي تكسر في الموقع المصدر الا اذا قمت بتجهيز القوائم.|,
 		lastUpdated => 1163435211
+	},
+
+	'menuTitle' => {
+		message => q|عنوان الاصل المستخدم في التصفح<br />|,
+		lastUpdated => 1168439639
 	},
 
 	'make prototype' => {

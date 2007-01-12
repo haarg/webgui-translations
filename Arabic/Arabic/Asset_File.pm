@@ -21,6 +21,11 @@ our $I18N = {
 		lastUpdated => 1164212191
 	},
 
+	'file template asset var title' => {
+		message => q|نموذج ملف, متغيرات الاصل<br />|,
+		lastUpdated => 1168440095
+	},
+
 	'assetName' => {
 		message => q|ملف|,
 		lastUpdated => 1164210527
@@ -56,9 +61,19 @@ our $I18N = {
 		lastUpdated => 1164210607
 	},
 
+	'templateId' => {
+		message => q|هوية النموذج المستخدم لاظهار هذا الملف<br />|,
+		lastUpdated => 1168440171
+	},
+
+	'cacheTimeout' => {
+		message => q|طول الوقت المحدد للذاكرة المؤقتة|,
+		lastUpdated => 1168440012
+	},
+
 	'new file description' => {
 		message => q|ادخل الرابط الى الملف, او استخدم زر &quot;تصفح&quot; لكي تجد الملف على لقرص الصلب الخاص بك و الذي تريد ان ترفعه.<br />|,
-		lastUpdated => 1164212102
+		lastUpdated => 1168440022
 	},
 
 	'file template body' => {
@@ -77,13 +92,18 @@ our $I18N = {
 	},
 
 	'file add/edit body' => {
-		message => q|<p align="right">&nbsp;اصول الملفات هي الملفات على موقعك و الموجودة للمستخدم لكي يحملها. اذا كنت تريد ان تجد ملفات متعددة, حاول ان تستخدم فايل بايل است. </p><p align="right">بما ان الملفات اصول, اذا لها كل الخواص التي تملكها الاصول. في ما ياتي الخواص التي تملكها اصول الور الخاصة. &nbsp;</p><p>&nbsp;</p>|,
-		lastUpdated => 1164213054
+		message => q|<p align="&quot;right&quot;">&nbsp;اصول الملفات هي الملفات على موقعك و الموجودة للمستخدم لكي يحملها. اذا كنت تريد ان تجد ملفات متعددة, حاول ان تستخدم فايل بايل است. </p><p align="&quot;right&quot;">بما ان الملفات اصول, اذا لها كل الخواص التي تملكها الاصول. في ما ياتي الخواص التي تملكها اصول الور الخاصة. &nbsp;</p><p>&nbsp;</p>|,
+		lastUpdated => 1168439930
 	},
 
 	'filename' => {
 		message => q|اسم الملف<br />|,
 		lastUpdated => 1164210793
+	},
+
+	'file template asset var body' => {
+		message => q|المتغيرات التالية&nbsp; متوفرة في&nbsp; نماذج الملفات. من الممكن ان يكونوا مفيدين او لا <br />|,
+		lastUpdated => 1168440081
 	},
 
 	'new file' => {
@@ -98,7 +118,12 @@ our $I18N = {
 
 	'storageId' => {
 		message => q|الهوية الداخلية للتخزين المستخدمة لهذا الملف.<br />|,
-		lastUpdated => 1164210849
+		lastUpdated => 1168440027
+	},
+
+	'filename var' => {
+		message => q|اسم الملف الذي يحمله هذا الاصل. لا يتضمن خذا المسار الى الملف |,
+		lastUpdated => 1168440128
 	},
 
 };

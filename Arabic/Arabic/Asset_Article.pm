@@ -162,8 +162,8 @@ our $I18N = {
 	},
 
 	'cache timeout' => {
-		message => q||,
-		lastUpdated => 1163516755
+		message => q|انتهى وقت الذاكرة المؤقتة<br />|,
+		lastUpdated => 1168439861
 	},
 
 	'templateId' => {

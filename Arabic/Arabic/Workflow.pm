@@ -42,8 +42,8 @@ our $I18N = {
 	},
 
 	'show running workflows body' => {
-		message => q||,
-		lastUpdated => 
+		message => q|  <p dir="rtl" class="MsoNormal"><span>هذه الشاشة قد تساعدك على تصحيح الاخطاء في سريانات العمل بان تظهر أي من هذه الانشطة تعمل الآن. يتم اظهار الانشطة في جدول تبعا للعنوان, و تاريخ بدأ العمل. إذا كان لسريان العمل حالة معرفة, سيتم اظهار هذه الحالة أيضا, بالإضافة إلى آخر تاريخ لتحديث هذه الحالة.</span></p>  <p dir="rtl" class="MsoNormal"><span>&nbsp;</span></p>  <p dir="rtl" class="MsoNormal"><span>الشاشة لن تقوم بالتحديث تلقائيا. لكي تحدثالانشطة التي تعمل, قم باعادة تحميل الصفحة.</span></p>  |,
+		lastUpdated => 1168362848
 	},
 
 	'edit workflow body' => {
@@ -72,8 +72,8 @@ our $I18N = {
 	},
 
 	'object type help' => {
-		message => q||,
-		lastUpdated => 
+		message => q|ما هي الاشياء التي تريد سريان العمل هذا ان يدير؟<br />|,
+		lastUpdated => 1168362566
 	},
 
 	'edit workflow' => {
@@ -87,13 +87,13 @@ our $I18N = {
 	},
 
 	'title help' => {
-		message => q||,
-		lastUpdated => 
+		message => q|علامة مقروءة لكي يتم التعرف ببساطة على ما يقوم به سريان العمل.<br />|,
+		lastUpdated => 1168362881
 	},
 
 	'object type help2' => {
-		message => q||,
-		lastUpdated => 
+		message => q|نوع سريان العمل الذي اخترت ان تضيفه<br />|,
+		lastUpdated => 1168362587
 	},
 
 	'is enabled' => {
@@ -117,8 +117,8 @@ our $I18N = {
 	},
 
 	'is singleton help' => {
-		message => q||,
-		lastUpdated => 
+		message => q|  <p dir="rtl" class="MsoNormal"><span>إذا تم اختيار نعم, سيتم تشغيل واحدة فقط من مهمات سريان العمل هذا في الوقت الواحد. في العموم سيكون هذا فكرة سيئة بالنسبة لانشطة التصديق, و لكنها فكرة جيدة بالنسبة لانشطة سريان العمل الخاصة بتحميل البريد من الخادم المنفصل, لكي يتم تلافي التكرار.</span></p>  |,
+		lastUpdated => 1168361996
 	},
 
 	'description' => {
@@ -127,8 +127,8 @@ our $I18N = {
 	},
 
 	'manage workflow help body' => {
-		message => q||,
-		lastUpdated => 
+		message => q|  <p dir="rtl" class="MsoNormal"><span>هذه هي الشاشة الام للتحكم في نشطة سريان العمل. كل سريانات العمل المضبوطة سيتم اظهارها في جدول تبعا لعنوان سريان العمل, هذا بالإضافة إلى ايقونات لكي تعدل و تمسح سريان العمل و حالة سريان العمل, فعال أم مغلق. يوجد وصلات لاضافة شريانات عمل جديدة و أن تظهر السريانات التي تعمل حاليا.</span></p>  <p dir="rtl" class="MsoNormal"><span>&nbsp;</span></p>  <p dir="rtl" class="MsoNormal"><span>يتم الوصول إلى شاشة التحكم من خلال لوحة التحكم.</span></p>  |,
+		lastUpdated => 1168362526
 	},
 
 	'is singleton' => {

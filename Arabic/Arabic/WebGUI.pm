@@ -37,8 +37,8 @@ our $I18N = {
 	},
 
 	'959' => {
-		message => q||,
-		lastUpdated => 
+		message => q|افرغ لوحة القص الخاصة بالنظام<br />|,
+		lastUpdated => 1168364185
 	},
 
 	'show all fields' => {
@@ -47,13 +47,13 @@ our $I18N = {
 	},
 
 	'882' => {
-		message => q||,
-		lastUpdated => 
+		message => q|نظام المحرر<br />|,
+		lastUpdated => 1168363640
 	},
 
 	'cache type' => {
-		message => q||,
-		lastUpdated => 
+		message => q|نوع الذاكرة المخفية<br />|,
+		lastUpdated => 1168366321
 	},
 
 	'331' => {
@@ -82,8 +82,8 @@ our $I18N = {
 	},
 
 	'84' => {
-		message => q||,
-		lastUpdated => 
+		message => q|اسم المجموعة<br />|,
+		lastUpdated => 1168363056
 	},
 
 	'437' => {
@@ -132,13 +132,13 @@ our $I18N = {
 	},
 
 	'pagination.pageLoop' => {
-		message => q||,
-		lastUpdated => 
+		message => q|تماما مثل pagination.pageList بفرق انها مقسومة الى عناصر فردية<br />|,
+		lastUpdated => 1168368296
 	},
 
 	'978' => {
-		message => q||,
-		lastUpdated => 
+		message => q|تم اضافة المستخدمين بنجاح<br />|,
+		lastUpdated => 1168364412
 	},
 
 	'728' => {
@@ -157,8 +157,8 @@ our $I18N = {
 	},
 
 	'948' => {
-		message => q||,
-		lastUpdated => 
+		message => q|لوحة القص<br />|,
+		lastUpdated => 1168363991
 	},
 
 	'325' => {
@@ -172,8 +172,8 @@ our $I18N = {
 	},
 
 	'889' => {
-		message => q||,
-		lastUpdated => 
+		message => q|صفحات الشكل, الصفحات<br />|,
+		lastUpdated => 1168363806
 	},
 
 	'572' => {
@@ -187,8 +187,8 @@ our $I18N = {
 	},
 
 	'968' => {
-		message => q||,
-		lastUpdated => 
+		message => q|لوحة القص, فارغة<br />|,
+		lastUpdated => 1168364270
 	},
 
 	'540' => {
@@ -197,8 +197,8 @@ our $I18N = {
 	},
 
 	'pagination.lastPageUrl' => {
-		message => q||,
-		lastUpdated => 
+		message => q|مكون الرابط الخاص ب pagination.lastPageانكسر|,
+		lastUpdated => 1168368531
 	},
 
 	'58' => {
@@ -217,8 +217,8 @@ our $I18N = {
 	},
 
 	'861' => {
-		message => q||,
-		lastUpdated => 
+		message => q|اظهر ملف المستخدم؟<br />|,
+		lastUpdated => 1168363359
 	},
 
 	'manage users in group body' => {
@@ -252,8 +252,8 @@ our $I18N = {
 	},
 
 	'982' => {
-		message => q||,
-		lastUpdated => 
+		message => q|اضف وصلة قاعدة بيانات<br />|,
+		lastUpdated => 1168364437
 	},
 
 	'139' => {
@@ -262,8 +262,8 @@ our $I18N = {
 	},
 
 	'859' => {
-		message => q||,
-		lastUpdated => 
+		message => q|التوقيع|,
+		lastUpdated => 1168363268
 	},
 
 	'739' => {
@@ -272,8 +272,8 @@ our $I18N = {
 	},
 
 	'992' => {
-		message => q||,
-		lastUpdated => 
+		message => q|العنوان|,
+		lastUpdated => 1168364629
 	},
 
 	'418' => {
@@ -322,8 +322,8 @@ our $I18N = {
 	},
 
 	'993' => {
-		message => q||,
-		lastUpdated => 
+		message => q|DSN|,
+		lastUpdated => 1168364638
 	},
 
 	'364' => {
@@ -337,13 +337,13 @@ our $I18N = {
 	},
 
 	'950' => {
-		message => q||,
-		lastUpdated => 
+		message => q|افرغ لوحة القص<br />|,
+		lastUpdated => 1168364033
 	},
 
 	'cache statistics' => {
-		message => q||,
-		lastUpdated => 
+		message => q|احصائيات الذاكرة المؤقتة<br />|,
+		lastUpdated => 1168366309
 	},
 
 	'486' => {
@@ -372,8 +372,8 @@ our $I18N = {
 	},
 
 	'976' => {
-		message => q||,
-		lastUpdated => 
+		message => q|اذف مستخدمين<br />|,
+		lastUpdated => 1168364384
 	},
 
 	'1000' => {
@@ -382,13 +382,13 @@ our $I18N = {
 	},
 
 	'choose an asset' => {
-		message => q||,
-		lastUpdated => 
+		message => q|اختر اصل<br />|,
+		lastUpdated => 1168366373
 	},
 
 	'pagination.firstPage' => {
-		message => q||,
-		lastUpdated => 
+		message => q|  <p dir="rtl" class="MsoNormal"><span>وصلة إلى الصفحة الأولى في المتصفح</span></p>  |,
+		lastUpdated => 1168366555
 	},
 
 	'43' => {
@@ -422,8 +422,8 @@ our $I18N = {
 	},
 
 	'943' => {
-		message => q||,
-		lastUpdated => 
+		message => q|صندوق العلامة<br />|,
+		lastUpdated => 1168363941
 	},
 
 	'unknown user' => {
@@ -467,8 +467,8 @@ our $I18N = {
 	},
 
 	'999' => {
-		message => q||,
-		lastUpdated => 
+		message => q|وصلة قاعدة الييانات, امسح<br />|,
+		lastUpdated => 1168364713
 	},
 
 	'61' => {
@@ -492,8 +492,8 @@ our $I18N = {
 	},
 
 	'admin console template' => {
-		message => q||,
-		lastUpdated => 
+		message => q|نموذج لوحة التحكم<br />|,
+		lastUpdated => 1168366150
 	},
 
 	'1035' => {
@@ -517,8 +517,8 @@ our $I18N = {
 	},
 
 	'862' => {
-		message => q||,
-		lastUpdated => 
+		message => q|ملف المستخدم هذا ليس عاما<br />|,
+		lastUpdated => 1168363372
 	},
 
 	'480' => {
@@ -542,8 +542,8 @@ our $I18N = {
 	},
 
 	'87' => {
-		message => q||,
-		lastUpdated => 
+		message => q|عدل المجموعة<br />|,
+		lastUpdated => 1168363542
 	},
 
 	'77' => {
@@ -562,8 +562,8 @@ our $I18N = {
 	},
 
 	'pagination.lastPage' => {
-		message => q||,
-		lastUpdated => 
+		message => q|وصلة الى اخر صفحة في المصفح<br />|,
+		lastUpdated => 1168366770
 	},
 
 	'39' => {
@@ -572,8 +572,8 @@ our $I18N = {
 	},
 
 	'account' => {
-		message => q||,
-		lastUpdated => 
+		message => q|حساب|,
+		lastUpdated => 1168366131
 	},
 
 	'1004 description' => {
@@ -607,8 +607,8 @@ our $I18N = {
 	},
 
 	'881' => {
-		message => q||,
-		lastUpdated => 
+		message => q|لا شيء<br />|,
+		lastUpdated => 1168363628
 	},
 
 	'312' => {
@@ -662,8 +662,8 @@ our $I18N = {
 	},
 
 	'authentication' => {
-		message => q||,
-		lastUpdated => 
+		message => q|توثيق|,
+		lastUpdated => 1168366236
 	},
 
 	'734' => {
@@ -682,8 +682,8 @@ our $I18N = {
 	},
 
 	'965' => {
-		message => q||,
-		lastUpdated => 
+		message => q|سلة المهملات الخاصة بالنظام<br />|,
+		lastUpdated => 1168364233
 	},
 
 	'824' => {
@@ -727,8 +727,8 @@ our $I18N = {
 	},
 
 	'pagination.pageCount.isMultiple' => {
-		message => q||,
-		lastUpdated => 
+		message => q|علامة تحدد ما اذا كان هناك اكثر من صفحة |,
+		lastUpdated => 1168366861
 	},
 
 	'496' => {
@@ -737,8 +737,8 @@ our $I18N = {
 	},
 
 	'Enable Metadata description' => {
-		message => q||,
-		lastUpdated => 
+		message => q|يقوم هذا بتشغيل الميتاداتا على الاصول&nbsp; التي من الممكن ان تدخل فيها الميتاداتا و يتم متابعتها بالويب جوي.<br />|,
+		lastUpdated => 1168365910
 	},
 
 	'605' => {
@@ -807,8 +807,8 @@ our $I18N = {
 	},
 
 	'975' => {
-		message => q||,
-		lastUpdated => 
+		message => q|المستخدمون يستطيعون ازالة انفسهم؟<br />|,
+		lastUpdated => 1168364374
 	},
 
 	'465 description' => {
@@ -847,8 +847,8 @@ our $I18N = {
 	},
 
 	'pagination.nextPage' => {
-		message => q||,
-		lastUpdated => 
+		message => q|وصلة الى الصفحة التالية في المصفح الموجود في الصفحة الحالية<br />|,
+		lastUpdated => 1168366817
 	},
 
 	'445' => {
@@ -957,18 +957,18 @@ our $I18N = {
 	},
 
 	'868' => {
-		message => q||,
-		lastUpdated => 
+		message => q|ارسل رسالة ترحيب؟<br />|,
+		lastUpdated => 1168363525
 	},
 
 	'color' => {
-		message => q||,
-		lastUpdated => 
+		message => q|اللون|,
+		lastUpdated => 1168366431
 	},
 
 	'990' => {
-		message => q||,
-		lastUpdated => 
+		message => q|عدل وصلةقاعدة البيانات<br />|,
+		lastUpdated => 1168364602
 	},
 
 	'349' => {
@@ -977,8 +977,8 @@ our $I18N = {
 	},
 
 	'983' => {
-		message => q||,
-		lastUpdated => 
+		message => q|عدل وصلة قاعدة البيانات هذه<br />|,
+		lastUpdated => 1168364450
 	},
 
 	'138' => {
@@ -1017,8 +1017,8 @@ our $I18N = {
 	},
 
 	'860' => {
-		message => q||,
-		lastUpdated => 
+		message => q|اظهر عنوان البريد الالكتروني؟<br />|,
+		lastUpdated => 1168363344
 	},
 
 	'346' => {
@@ -1047,13 +1047,13 @@ our $I18N = {
 	},
 
 	'codearea' => {
-		message => q||,
-		lastUpdated => 
+		message => q|كود المنطقة<br />|,
+		lastUpdated => 1168366425
 	},
 
 	'856' => {
-		message => q||,
-		lastUpdated => 
+		message => q|ليس لديك خواص الحساب لكي تعدل في هذا الوقت<br />|,
+		lastUpdated => 1168363210
 	},
 
 	'grouping edit body' => {
@@ -1112,8 +1112,8 @@ our $I18N = {
 	},
 
 	'company' => {
-		message => q||,
-		lastUpdated => 
+		message => q|الشركة|,
+		lastUpdated => 1168366450
 	},
 
 	'126' => {
@@ -1142,13 +1142,13 @@ our $I18N = {
 	},
 
 	'pagination.nextPageText' => {
-		message => q||,
-		lastUpdated => 
+		message => q|<div align="&quot;right&quot;">مكون نصي من pagination.nextPage انكسر&nbsp; <br /></div>|,
+		lastUpdated => 1168368467
 	},
 
 	'button' => {
-		message => q||,
-		lastUpdated => 
+		message => q|زر|,
+		lastUpdated => 1168366289
 	},
 
 	'810' => {
@@ -1192,13 +1192,13 @@ our $I18N = {
 	},
 
 	'977' => {
-		message => q||,
-		lastUpdated => 
+		message => q|هل المجموعة مديرة؟<br />|,
+		lastUpdated => 1168364398
 	},
 
 	'99' => {
-		message => q||,
-		lastUpdated => 
+		message => q|العنوان|,
+		lastUpdated => 1168364585
 	},
 
 	'526' => {
@@ -1222,8 +1222,8 @@ our $I18N = {
 	},
 
 	'869' => {
-		message => q||,
-		lastUpdated => 
+		message => q|رسالة ترحيب<br />|,
+		lastUpdated => 1168363533
 	},
 
 	'help contents' => {
@@ -1302,8 +1302,8 @@ our $I18N = {
 	},
 
 	'991' => {
-		message => q||,
-		lastUpdated => 
+		message => q|هوية وصلة قاعدة البيانات<br />|,
+		lastUpdated => 1168364620
 	},
 
 	'167' => {
@@ -1372,8 +1372,8 @@ our $I18N = {
 	},
 
 	'969' => {
-		message => q||,
-		lastUpdated => 
+		message => q|اذا اخترت ان تفرغ لوحة القص سيتم نقل كل شيء فيها الى سلة المهملات.<br />|,
+		lastUpdated => 1168364302
 	},
 
 	'radio' => {
@@ -1407,8 +1407,8 @@ our $I18N = {
 	},
 
 	'967' => {
-		message => q||,
-		lastUpdated => 
+		message => q|افرغ سلة المهملات الخاصة بالنظام<br />|,
+		lastUpdated => 1168364251
 	},
 
 	'322' => {
@@ -1437,8 +1437,8 @@ our $I18N = {
 	},
 
 	'984' => {
-		message => q||,
-		lastUpdated => 
+		message => q|انقل وصلة قاعدة البيانات هذه<br />|,
+		lastUpdated => 1168364464
 	},
 
 	'1039' => {
@@ -1472,13 +1472,13 @@ our $I18N = {
 	},
 
 	'960' => {
-		message => q||,
-		lastUpdated => 
+		message => q|سلة المهملات, ادر<br />|,
+		lastUpdated => 1168364198
 	},
 
 	'cancel' => {
-		message => q||,
-		lastUpdated => 
+		message => q|الغي|,
+		lastUpdated => 1168366338
 	},
 
 	'818' => {
@@ -1502,8 +1502,8 @@ our $I18N = {
 	},
 
 	'941' => {
-		message => q||,
-		lastUpdated => 
+		message => q|قائمة علامات<br />|,
+		lastUpdated => 1168363915
 	},
 
 	'manage groups in group body' => {
@@ -1532,8 +1532,8 @@ our $I18N = {
 	},
 
 	'951' => {
-		message => q||,
-		lastUpdated => 
+		message => q|هل انت متاكد من انك تريد افراغ لوحة القص فيسلة المهملات<br />|,
+		lastUpdated => 1168364057
 	},
 
 	'show performance indicators' => {
@@ -1542,8 +1542,8 @@ our $I18N = {
 	},
 
 	'85' => {
-		message => q||,
-		lastUpdated => 
+		message => q|الشرح|,
+		lastUpdated => 1168363185
 	},
 
 	'809' => {
@@ -1557,8 +1557,8 @@ our $I18N = {
 	},
 
 	'9' => {
-		message => q||,
-		lastUpdated => 
+		message => q|اظهر لوحة القص<br />|,
+		lastUpdated => 1168363867
 	},
 
 	'425' => {
@@ -1597,13 +1597,13 @@ our $I18N = {
 	},
 
 	'90' => {
-		message => q||,
-		lastUpdated => 
+		message => q|اضف مجموعة جديدة<br />|,
+		lastUpdated => 1168363878
 	},
 
 	'pagination.isLastPage' => {
-		message => q||,
-		lastUpdated => 
+		message => q|علامة تحدد ما اذا كانت الصفحة الحالية هي الصفحة الاخيرة<br />|,
+		lastUpdated => 1168366756
 	},
 
 	'565' => {
@@ -1627,8 +1627,8 @@ our $I18N = {
 	},
 
 	'891' => {
-		message => q||,
-		lastUpdated => 
+		message => q|فقط اوقف الماكروهات<br />|,
+		lastUpdated => 1168363845
 	},
 
 	'1045' => {
@@ -1662,8 +1662,8 @@ our $I18N = {
 	},
 
 	'872' => {
-		message => q||,
-		lastUpdated => 
+		message => q|من الممكن ان يظهر؟<br />|,
+		lastUpdated => 1168363569
 	},
 
 	'image manager' => {
@@ -1702,13 +1702,13 @@ our $I18N = {
 	},
 
 	'combobox' => {
-		message => q||,
-		lastUpdated => 
+		message => q|صندوق كومبو<br />|,
+		lastUpdated => 1168366442
 	},
 
 	'994' => {
-		message => q||,
-		lastUpdated => 
+		message => q|مستخدم قاعدة البيانات<br />|,
+		lastUpdated => 1168364650
 	},
 
 	'395' => {
@@ -1717,8 +1717,8 @@ our $I18N = {
 	},
 
 	'89' => {
-		message => q||,
-		lastUpdated => 
+		message => q|مجموعات|,
+		lastUpdated => 1168363814
 	},
 
 	'175' => {
@@ -1732,8 +1732,8 @@ our $I18N = {
 	},
 
 	'988' => {
-		message => q||,
-		lastUpdated => 
+		message => q|هل انت متاكد من انك تريد مسح وصلة قاعدة البيانات هذه؟<br />|,
+		lastUpdated => 1168364538
 	},
 
 	'35' => {
@@ -1767,8 +1767,8 @@ our $I18N = {
 	},
 
 	'93' => {
-		message => q||,
-		lastUpdated => 
+		message => q|المساعدة|,
+		lastUpdated => 1168363904
 	},
 
 	'expire groupings' => {
@@ -1777,8 +1777,8 @@ our $I18N = {
 	},
 
 	'865' => {
-		message => q||,
-		lastUpdated => 
+		message => q|اخطر المستخدم عم الانتهاء؟<br />|,
+		lastUpdated => 1168363485
 	},
 
 	'int slider' => {
@@ -1787,8 +1787,8 @@ our $I18N = {
 	},
 
 	'pagination.pageList' => {
-		message => q||,
-		lastUpdated => 
+		message => q|قائمة بوصلات الى كل الصفحات في المصفح<br />|,
+		lastUpdated => 1168366879
 	},
 
 	'538 description' => {
@@ -1812,8 +1812,8 @@ our $I18N = {
 	},
 
 	'886' => {
-		message => q||,
-		lastUpdated => 
+		message => q|اخفي من التصفح؟<br />|,
+		lastUpdated => 1168363770
 	},
 
 	'73' => {
@@ -1847,8 +1847,8 @@ our $I18N = {
 	},
 
 	'944' => {
-		message => q||,
-		lastUpdated => 
+		message => q|رمز المنطقة البريدية<br />|,
+		lastUpdated => 1168363962
 	},
 
 	'user' => {
@@ -1877,8 +1877,8 @@ our $I18N = {
 	},
 
 	'957' => {
-		message => q||,
-		lastUpdated => 
+		message => q|لوحة القص, ادر<br />|,
+		lastUpdated => 1168364117
 	},
 
 	'622' => {
@@ -1897,8 +1897,8 @@ our $I18N = {
 	},
 
 	'contains' => {
-		message => q||,
-		lastUpdated => 
+		message => q|يتضمن|,
+		lastUpdated => 1168366460
 	},
 
 	'819' => {
@@ -1912,8 +1912,8 @@ our $I18N = {
 	},
 
 	'970' => {
-		message => q||,
-		lastUpdated => 
+		message => q|اضبط الوقت<br />|,
+		lastUpdated => 1168364314
 	},
 
 	'link enter alert' => {
@@ -1927,8 +1927,8 @@ our $I18N = {
 	},
 
 	'858' => {
-		message => q||,
-		lastUpdated => 
+		message => q|المعروف بكذا<br />|,
+		lastUpdated => 1168363238
 	},
 
 	'104' => {
@@ -1942,8 +1942,8 @@ our $I18N = {
 	},
 
 	'954' => {
-		message => q||,
-		lastUpdated => 
+		message => q|قم بادارة لوحة القص الخاصة بالنظام<br />|,
+		lastUpdated => 1168364085
 	},
 
 	'submit' => {
@@ -1957,13 +1957,13 @@ our $I18N = {
 	},
 
 	'pagination.previousPageText' => {
-		message => q||,
-		lastUpdated => 
+		message => q|<div align="&quot;right&quot;">مكون نصي من pagination.previousPage انكسر&nbsp; <br /></div>|,
+		lastUpdated => 1168368505
 	},
 
 	'985' => {
-		message => q||,
-		lastUpdated => 
+		message => q|امسح وصلة قاعدة البيانات هذه<br />|,
+		lastUpdated => 1168364479
 	},
 
 	'945 description' => {
@@ -1972,8 +1972,8 @@ our $I18N = {
 	},
 
 	'971' => {
-		message => q||,
-		lastUpdated => 
+		message => q|الوقت|,
+		lastUpdated => 1168364321
 	},
 
 	'754' => {
@@ -1992,8 +1992,8 @@ our $I18N = {
 	},
 
 	'847' => {
-		message => q||,
-		lastUpdated => 
+		message => q|ارجع الى الصفة السابقة<br />|,
+		lastUpdated => 1168363073
 	},
 
 	'159' => {
@@ -2017,13 +2017,13 @@ our $I18N = {
 	},
 
 	'body.content' => {
-		message => q||,
-		lastUpdated => 
+		message => q|المادة الموجودة على الصفحة الحالية<br />|,
+		lastUpdated => 1168366279
 	},
 
 	'pagination.pageLoop.upTo20' => {
-		message => q||,
-		lastUpdated => 
+		message => q|تماما مثل pagination.pageList.upTo20 بفرق انها مفصولة الى عناصر فردية<br /> |,
+		lastUpdated => 1168368348
 	},
 
 	'555' => {
@@ -2067,8 +2067,8 @@ our $I18N = {
 	},
 
 	'pagination.firstPageUrl' => {
-		message => q||,
-		lastUpdated => 
+		message => q|مكون الرابط الخاص ب pagination.firstPageانكسر|,
+		lastUpdated => 1168368569
 	},
 
 	'554' => {
@@ -2077,8 +2077,8 @@ our $I18N = {
 	},
 
 	'content' => {
-		message => q||,
-		lastUpdated => 
+		message => q|المادة|,
+		lastUpdated => 1168366474
 	},
 
 	'starts with' => {
@@ -2097,8 +2097,8 @@ our $I18N = {
 	},
 
 	'880' => {
-		message => q||,
-		lastUpdated => 
+		message => q|اخر محررين|,
+		lastUpdated => 1168363621
 	},
 
 	'433' => {
@@ -2107,8 +2107,8 @@ our $I18N = {
 	},
 
 	'pagination.previousPageUrl' => {
-		message => q||,
-		lastUpdated => 
+		message => q|مكون الرابط الخاص ب pagination.previousPageانكسر|,
+		lastUpdated => 1168368563
 	},
 
 	'74' => {
@@ -2127,8 +2127,8 @@ our $I18N = {
 	},
 
 	'986' => {
-		message => q||,
-		lastUpdated => 
+		message => q|ارجع الى وصلات قاعدة البيانات<br />|,
+		lastUpdated => 1168364495
 	},
 
 	'890' => {
@@ -2162,8 +2162,8 @@ our $I18N = {
 	},
 
 	'871' => {
-		message => q||,
-		lastUpdated => 
+		message => q|من الممكن ان يعدل؟<br />|,
+		lastUpdated => 1168363560
 	},
 
 	'misc' => {
@@ -2212,13 +2212,13 @@ our $I18N = {
 	},
 
 	'827' => {
-		message => q||,
-		lastUpdated => 
+		message => q|نموذج وبجيكت<br />|,
+		lastUpdated => 1168363026
 	},
 
 	'91' => {
-		message => q||,
-		lastUpdated => 
+		message => q|الصفحة السابقة<br />|,
+		lastUpdated => 1168363887
 	},
 
 	'1086' => {
@@ -2247,8 +2247,8 @@ our $I18N = {
 	},
 
 	'867' => {
-		message => q||,
-		lastUpdated => 
+		message => q|فقدان الصلاحية<br />|,
+		lastUpdated => 1168363513
 	},
 
 	'422' => {
@@ -2317,8 +2317,8 @@ our $I18N = {
 	},
 
 	'866' => {
-		message => q||,
-		lastUpdated => 
+		message => q|رسالة اخطار الانتهاء<br />|,
+		lastUpdated => 1168363497
 	},
 
 	'768' => {
@@ -2342,8 +2342,8 @@ our $I18N = {
 	},
 
 	'893' => {
-		message => q||,
-		lastUpdated => 
+		message => q|خواص الوبجيكت<br />|,
+		lastUpdated => 1168363855
 	},
 
 	'338' => {
@@ -2362,8 +2362,8 @@ our $I18N = {
 	},
 
 	'870' => {
-		message => q||,
-		lastUpdated => 
+		message => q|اهلا|,
+		lastUpdated => 1168363549
 	},
 
 	'995 description' => {
@@ -2412,8 +2412,8 @@ our $I18N = {
 	},
 
 	'avatar' => {
-		message => q||,
-		lastUpdated => 
+		message => q|تجسيد|,
+		lastUpdated => 1168366261
 	},
 
 	'1085' => {
@@ -2422,13 +2422,13 @@ our $I18N = {
 	},
 
 	'pagination.nextPageUrl' => {
-		message => q||,
-		lastUpdated => 
+		message => q|مكون الرابط الخاص ب pagination.nextPageانكسر|,
+		lastUpdated => 1168368549
 	},
 
 	'changeUrl workflow' => {
-		message => q||,
-		lastUpdated => 
+		message => q|غير نشاط سريان العمل الخاص الرابط<br />|,
+		lastUpdated => 1168366362
 	},
 
 	'363' => {
@@ -2462,13 +2462,13 @@ our $I18N = {
 	},
 
 	'pagination.pageList.upTo20' => {
-		message => q||,
-		lastUpdated => 
+		message => q|قائمة بالعشرين الاقرب الى المصفح الموجود في الصفحة الحالية. اذا كنت في صفحة 60 <br />, سترى وصلات ل 50-70<br />|,
+		lastUpdated => 1168368260
 	},
 
 	'997' => {
-		message => q||,
-		lastUpdated => 
+		message => q|وصلات قاعدة البيانات, ادر<br /> |,
+		lastUpdated => 1168364681
 	},
 
 	'36' => {
@@ -2537,13 +2537,13 @@ our $I18N = {
 	},
 
 	'942' => {
-		message => q||,
-		lastUpdated => 
+		message => q|قائمة راديو<br />|,
+		lastUpdated => 1168363926
 	},
 
 	'955' => {
-		message => q||,
-		lastUpdated => 
+		message => q|لوحة القص الخاصة بالنظام<br />|,
+		lastUpdated => 1168364099
 	},
 
 	'974 description' => {
@@ -2592,13 +2592,13 @@ our $I18N = {
 	},
 
 	'998' => {
-		message => q||,
-		lastUpdated => 
+		message => q|وصلة قاعدة البيانات, اضف/عدل<br />|,
+		lastUpdated => 1168364698
 	},
 
 	'95' => {
-		message => q||,
-		lastUpdated => 
+		message => q|دليل المساعدة<br />|,
+		lastUpdated => 1168364022
 	},
 
 	'user function style description' => {
@@ -2632,8 +2632,8 @@ our $I18N = {
 	},
 
 	'pagination.firstPageText' => {
-		message => q||,
-		lastUpdated => 
+		message => q|<div align="right">مكون نصي من pagination.firstPage انكسر&nbsp; <br /></div>|,
+		lastUpdated => 1168366648
 	},
 
 	'753' => {
@@ -2662,8 +2662,8 @@ our $I18N = {
 	},
 
 	'pagination.previousPage' => {
-		message => q||,
-		lastUpdated => 
+		message => q|وصلة الى الصفحة السابقة في المصفح الموجود في الصفحة الحالية<br />|,
+		lastUpdated => 1168368417
 	},
 
 	'default version tag workflow' => {
@@ -2672,18 +2672,18 @@ our $I18N = {
 	},
 
 	'987' => {
-		message => q||,
-		lastUpdated => 
+		message => q|امسح وصلة قاعدة البيانات<br />|,
+		lastUpdated => 1168364508
 	},
 
 	'Select State' => {
-		message => q||,
-		lastUpdated => 
+		message => q|اختر الولاية<br />|,
+		lastUpdated => 1168366124
 	},
 
 	'857' => {
-		message => q||,
-		lastUpdated => 
+		message => q|عنوان الاي بي<br />|,
+		lastUpdated => 1168363220
 	},
 
 	'1010' => {
@@ -2697,8 +2697,8 @@ our $I18N = {
 	},
 
 	'964' => {
-		message => q||,
-		lastUpdated => 
+		message => q|ادر سلة المهملات الخاصة بالنظام<br />|,
+		lastUpdated => 1168364217
 	},
 
 	'65' => {
@@ -2707,8 +2707,8 @@ our $I18N = {
 	},
 
 	'Illegal Warning' => {
-		message => q||,
-		lastUpdated => 
+		message => q|  <p dir="rtl" class="MsoNormal"><span>تشغيل هذه الخاصية غير قانوني في بعض الدول, مثل استراليا. بالإضافة, بعض الدول تتطلب أن تضع تحذيرا على موقعك إذا قمت بتشغيل هذه الخاصية. استشر السلطات المحلية من اجل القوانين المحلية. </span><span>Plain Black Corporation</span><span> ليست مسؤولة عن انشطتك غير القانونية, بغض النظر عن الاهمال أو قصد الايذاء.</span></p>  |,
+		lastUpdated => 1168366111
 	},
 
 	'367 description' => {
@@ -2742,8 +2742,8 @@ our $I18N = {
 	},
 
 	'86' => {
-		message => q||,
-		lastUpdated => 
+		message => q|هل انت متاكد من انك تريد مسح هذه المجموعة؟ ضع في الاعتبار ان مسح هذه المجموعة سيكون دائم و سيقوم بمسح كل المتعلقات بها.<br />|,
+		lastUpdated => 1168363327
 	},
 
 	'792' => {
@@ -2777,8 +2777,8 @@ our $I18N = {
 	},
 
 	'pagination.pageNumber' => {
-		message => q||,
-		lastUpdated => 
+		message => q|رقم الصفحة الحالية<br />|,
+		lastUpdated => 1168368364
 	},
 
 	'729' => {
@@ -2802,13 +2802,13 @@ our $I18N = {
 	},
 
 	'885' => {
-		message => q||,
-		lastUpdated => 
+		message => q|اسمح للمستخدمين باغلاق حساباتهم؟<br />|,
+		lastUpdated => 1168363756
 	},
 
 	'884' => {
-		message => q||,
-		lastUpdated => 
+		message => q|ظهور مفاجيء<br />|,
+		lastUpdated => 1168363677
 	},
 
 	'147' => {
@@ -2827,8 +2827,8 @@ our $I18N = {
 	},
 
 	'863' => {
-		message => q||,
-		lastUpdated => 
+		message => q|امسح الموازن<br />|,
+		lastUpdated => 1168363395
 	},
 
 	'531' => {
@@ -2887,13 +2887,13 @@ our $I18N = {
 	},
 
 	'Enable Metadata' => {
-		message => q||,
-		lastUpdated => 
+		message => q|شغل الميتاداتا؟<br />|,
+		lastUpdated => 1168364726
 	},
 
 	'974' => {
-		message => q||,
-		lastUpdated => 
+		message => q|المستخدمين يستطيعون اضافة انفسهم؟<br />|,
+		lastUpdated => 1168364355
 	},
 
 	'420' => {
@@ -2912,8 +2912,8 @@ our $I18N = {
 	},
 
 	'952' => {
-		message => q||,
-		lastUpdated => 
+		message => q|تاريخ لوحة القص<br />|,
+		lastUpdated => 1168364068
 	},
 
 	'487' => {
@@ -3002,18 +3002,18 @@ our $I18N = {
 	},
 
 	'pagination.lastPageText' => {
-		message => q||,
-		lastUpdated => 
+		message => q|<div align="&quot;right&quot;">مكون نصي من pagination.firstPage انكسر&nbsp; <br /></div>|,
+		lastUpdated => 1168368439
 	},
 
 	'92' => {
-		message => q||,
-		lastUpdated => 
+		message => q|الصفحة التالية<br />|,
+		lastUpdated => 1168363896
 	},
 
 	'879' => {
-		message => q||,
-		lastUpdated => 
+		message => q|معدل كلاسيكي (انترنت اكسبلورر +)<br />|,
+		lastUpdated => 1168363592
 	},
 
 	'539 description' => {
@@ -3027,13 +3027,13 @@ our $I18N = {
 	},
 
 	'980' => {
-		message => q||,
-		lastUpdated => 
+		message => q|افرغ هذا الملف<br />|,
+		lastUpdated => 1168364424
 	},
 
 	'pagination.pageCount' => {
-		message => q||,
-		lastUpdated => 
+		message => q|العدد الاجمالي للصفحات<br />|,
+		lastUpdated => 1168366836
 	},
 
 	'864 description' => {
@@ -3057,13 +3057,13 @@ our $I18N = {
 	},
 
 	'995' => {
-		message => q||,
-		lastUpdated => 
+		message => q|كلمة السر لقاعدة البيانات<br />|,
+		lastUpdated => 1168364664
 	},
 
 	'837' => {
-		message => q||,
-		lastUpdated => 
+		message => q|ملف, اضف/عدل<br />|,
+		lastUpdated => 1168363046
 	},
 
 	'149' => {
@@ -3092,8 +3092,8 @@ our $I18N = {
 	},
 
 	'allowed keywords' => {
-		message => q||,
-		lastUpdated => 
+		message => q|كلمات البحث المسموحة<br />|,
+		lastUpdated => 1168366171
 	},
 
 	'482' => {
@@ -3102,13 +3102,13 @@ our $I18N = {
 	},
 
 	'949' => {
-		message => q||,
-		lastUpdated => 
+		message => q|قم بادارة لوحة القص<br />|,
+		lastUpdated => 1168364004
 	},
 
 	'Enable passive profiling' => {
-		message => q||,
-		lastUpdated => 
+		message => q|شغل تسجيل التاريخ؟<br />|,
+		lastUpdated => 1168365934
 	},
 
 	'530' => {
@@ -3167,8 +3167,8 @@ our $I18N = {
 	},
 
 	'88' => {
-		message => q||,
-		lastUpdated => 
+		message => q|المستخدمون في المجموعة<br />|,
+		lastUpdated => 1168363603
 	},
 
 	'user profiling' => {
@@ -3192,8 +3192,8 @@ our $I18N = {
 	},
 
 	'pagination.pageList.upTo10' => {
-		message => q||,
-		lastUpdated => 
+		message => q|قائمة بالعشرة الاقرب الى المصفح الموجود في الصفحة الحالية. اذا كنت في صفحة <br />, سترى وصلات ل-<br />15-25|,
+		lastUpdated => 1168368178
 	},
 
 	'403' => {
@@ -3207,8 +3207,8 @@ our $I18N = {
 	},
 
 	'clear cache' => {
-		message => q||,
-		lastUpdated => 
+		message => q|نظف الذاكرة المخفية<br />|,
+		lastUpdated => 1168366414
 	},
 
 	'75' => {
@@ -3227,8 +3227,8 @@ our $I18N = {
 	},
 
 	'848' => {
-		message => q||,
-		lastUpdated => 
+		message => q|يوجد خطأ بناء جملة في هذا النموذج, من فضلك صحح الخطأ<br />|,
+		lastUpdated => 1168363178
 	},
 
 	'421' => {
@@ -3267,8 +3267,8 @@ our $I18N = {
 	},
 
 	'864' => {
-		message => q||,
-		lastUpdated => 
+		message => q|انهي اخطار المعادلين<br />|,
+		lastUpdated => 1168363683
 	},
 
 	'1016' => {
@@ -3297,13 +3297,13 @@ our $I18N = {
 	},
 
 	'972' => {
-		message => q||,
-		lastUpdated => 
+		message => q|الوقت و التاريخ|,
+		lastUpdated => 1168364333
 	},
 
 	'pagination.pageLoop.upTo10' => {
-		message => q||,
-		lastUpdated => 
+		message => q|تماما مثل pagination.pageList.upTo10 بفرق انها مفصولة الى عناصر فردية<br />|,
+		lastUpdated => 1168368334
 	},
 
 	'webgui tips body' => {
@@ -3332,8 +3332,8 @@ our $I18N = {
 	},
 
 	'pagination.isFirstPage' => {
-		message => q||,
-		lastUpdated => 
+		message => q|علامة تحدد ما اذا كانت الصفحة الحالية هي الصفحة الاولى<br /> |,
+		lastUpdated => 1168366719
 	},
 
 	'164' => {
@@ -3347,8 +3347,8 @@ our $I18N = {
 	},
 
 	'945' => {
-		message => q||,
-		lastUpdated => 
+		message => q|فلتر الخدش<br />|,
+		lastUpdated => 1168363982
 	},
 
 };
