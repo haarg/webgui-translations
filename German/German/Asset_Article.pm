@@ -91,14 +91,14 @@ our $I18N = {
 		lastUpdated => 1157928120
 	},
 
-	'link url description' => {
-		message => q|Wenn Sie den Linktitel eingegeben haben, erg&auml;nzen Sie nun hier den URL. |,
-		lastUpdated => 1157928720
-	},
-
 	'new.template' => {
 		message => q|<p>Artikel haben die Eigenschaft, dass sie ihr Template &auml;ndern k&ouml;nnen. So k&ouml;nnen Sie ihren Besuchern unterschiedliche Ansichten des Arikels anbieten. Dazu erstellen Sie einen Link, bei dem die URL folgenderma&szlig;en aufgebaut ist (ersetzen Sie <em>999</em> durch die ID des Templates, das sie nutzen m&ouml;chten):</p>&lt;a href=&quot;&lt;tmpl_var new.template&gt;<em>999</em>&quot;&gt;Lesen Sie weiter...&lt;/a&gt;|,
 		lastUpdated => 1157928957
+	},
+
+	'link url description' => {
+		message => q|Wenn Sie den Linktitel eingegeben haben, erg&auml;nzen Sie nun hier den URL. |,
+		lastUpdated => 1157928720
 	},
 
 	'image.url' => {
@@ -111,19 +111,34 @@ our $I18N = {
 		lastUpdated => 1152970181
 	},
 
+	'article asset template variables body' => {
+		message => q|Jedes Asset bietet ihren Templates einen Satz an Variablen, die auf den Asset Eigenschaften basieren. Einige dieser Variablen k&ouml;nnen n&uuml;tzlich sein, andere nicht. |,
+		lastUpdated => 1168851450
+	},
+
+	'storageId' => {
+		message => q|Die ID des Speicher Objekts f&uuml;r dieses Asset, das f&uuml;r die Speicherung von Anh&auml;ngen benutzt wird.<br />|,
+		lastUpdated => 1168851572
+	},
+
 	'cache timeout help' => {
 		message => q|<p>Da alle Nutzer dieses Asset in gleicher Darstellung sehen, kann es &uuml;ber einen langen Zeitraum gecached werden um die Performance zu steigern. Wie lange soll es gecached werden?</p><br />|,
 		lastUpdated => 1157930787
 	},
 
-	'description.first.2sentences' => {
-		message => q|Die ersten beiden S&auml;tze der Beschreibung. S&auml;tze sind definiert durch die Anzahl der Punkte im Text.|,
-		lastUpdated => 1157928492
-	},
-
 	'description.first.3sentences' => {
 		message => q|Die ersten drei S&auml;tze der Beschreibung. S&auml;tze sind definiert durch die Anzahl der Punkte im Text.|,
 		lastUpdated => 1157928503
+	},
+
+	'article asset template variables title' => {
+		message => q|Artikel Template Variablen.<br />|,
+		lastUpdated => 1168851472
+	},
+
+	'description.first.2sentences' => {
+		message => q|Die ersten beiden S&auml;tze der Beschreibung. S&auml;tze sind definiert durch die Anzahl der Punkte im Text.|,
+		lastUpdated => 1157928492
 	},
 
 	'description.first.50words' => {
@@ -151,6 +166,11 @@ our $I18N = {
 		lastUpdated => 1157927744
 	},
 
+	'templateId' => {
+		message => q|Die ID des Templates, das f&uuml;r die Anzeige des Assets benutzt wird.<br />|,
+		lastUpdated => 1168851601
+	},
+
 	'attachments' => {
 		message => q|Anh&auml;nge|,
 		lastUpdated => 1157927601
@@ -169,6 +189,11 @@ our $I18N = {
 	'description.first.100words' => {
 		message => q|Die ersten 100 W&ouml;rter der Beschreibung. Ein Wort ist definiert als Zeichenkette, getrennt durch Leerzeichen. Daher z&auml;hlen auch HTML-Entities und -Tags als Wort.|,
 		lastUpdated => 1157928278
+	},
+
+	'cacheTimeout' => {
+		message => q|Zeitspanne, in der der Artikel gecached wird.<br />|,
+		lastUpdated => 1168851516
 	},
 
 	'12' => {
@@ -191,14 +216,14 @@ our $I18N = {
 		lastUpdated => 1152969935
 	},
 
-	'description.first.25words' => {
-		message => q|Die ersten 25 W&ouml;rter der Beschreibung. Ein Wort ist definiert als Zeichenkette, getrennt durch Leerzeichen. Daher z&auml;hlen auch HTML-Entities und -Tags als Wort.|,
-		lastUpdated => 1157928333
-	},
-
 	'attachment.url' => {
 		message => q|Die URL zum Download des Anhangs.|,
 		lastUpdated => 1152970040
+	},
+
+	'description.first.25words' => {
+		message => q|Die ersten 25 W&ouml;rter der Beschreibung. Ein Wort ist definiert als Zeichenkette, getrennt durch Leerzeichen. Daher z&auml;hlen auch HTML-Entities und -Tags als Wort.|,
+		lastUpdated => 1157928333
 	},
 
 	'image.thumbnail' => {

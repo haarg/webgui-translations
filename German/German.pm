@@ -25,6 +25,7 @@ $value =~ s/\/\//\//g; #removes double /
 
 
 
+
 ##<-- end transliteration -->##
 
  	    $value =~ s/\s+$//;                     #removes trailing whitespace

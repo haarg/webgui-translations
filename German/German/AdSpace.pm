@@ -127,8 +127,8 @@ our $I18N = {
 	},
 
 	'used' => {
-		message => q|Verwendet|,
-		lastUpdated => 1153201368
+		message => q|verwendet|,
+		lastUpdated => 1168792168
 	},
 
 	'title' => {

@@ -22,6 +22,11 @@ our $I18N = {
 		lastUpdated => 1153683910
 	},
 
+	'file template asset var title' => {
+		message => q|Datei Template, Asset Variablen|,
+		lastUpdated => 1168851803
+	},
+
 	'assetName' => {
 		message => q|Datei|,
 		lastUpdated => 1153265568
@@ -57,6 +62,16 @@ our $I18N = {
 		lastUpdated => 1153681349
 	},
 
+	'templateId' => {
+		message => q|Die ID des Templates, das f&uuml;r die Anzeige des Assets benutzt wird.|,
+		lastUpdated => 1168851670
+	},
+
+	'cacheTimeout' => {
+		message => q|Die Zeitspanne in der Asset gecached wird.<br />|,
+		lastUpdated => 1168851729
+	},
+
 	'new file description' => {
 		message => q|<p>Geben Sie den Pfad zu einer Datei ein oder benutzen Sie den AuswahlButton, um eine Datei auf ihrer lokalen Festplatte f&uuml;r den Upload auszuw&auml;hlen.</p>|,
 		lastUpdated => 1153684036
@@ -87,6 +102,11 @@ our $I18N = {
 		lastUpdated => 1153265828
 	},
 
+	'file template asset var body' => {
+		message => q|Die folgenden Variablen sind in Datei Templates verf&uuml;gbar. K&ouml;nnen n&uuml;tzlich sein oder auch nicht.|,
+		lastUpdated => 1168851781
+	},
+
 	'new file' => {
 		message => q|Neue Datei zum Upload|,
 		lastUpdated => 1153265859
@@ -100,6 +120,11 @@ our $I18N = {
 	'storageId' => {
 		message => q|Die interne storageID der Datei.|,
 		lastUpdated => 1153265966
+	},
+
+	'filename var' => {
+		message => q|Der Name der Datei, die dieses Asset enth&auml;lt. Beinhaltet nicht den Pfad zu der Datei.<br />|,
+		lastUpdated => 1168851849
 	},
 
 };

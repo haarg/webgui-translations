@@ -32,8 +32,8 @@ our $I18N = {
 	},
 
 	'newWindow' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Boolscher Wert, der wahr ist wenn das Asset in einem neuen Browser Fenster ge&ouml;ffnet wird.<br />|,
+		lastUpdated => 1168851321
 	},
 
 	'871 description' => {
@@ -52,8 +52,8 @@ our $I18N = {
 	},
 
 	'isHidden' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Boolscher Wert, der wahr ist wenn das Asset in der Navigation nicht angezeigt wird.<br />|,
+		lastUpdated => 1168850568
 	},
 
 	'export information' => {
@@ -112,8 +112,8 @@ our $I18N = {
 	},
 
 	'title' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Titel des Assets.<br />|,
+		lastUpdated => 1168847980
 	},
 
 	'revised by' => {
@@ -177,8 +177,8 @@ our $I18N = {
 	},
 
 	'rootUrl symlinking default' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Symlinking extras und uploads Verzeichnis.|,
+		lastUpdated => 1168848184
 	},
 
 	'assets' => {
@@ -252,13 +252,13 @@ our $I18N = {
 	},
 
 	'synopsis' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Kurze Beschreibung des Inhalts des Assets.<br />|,
+		lastUpdated => 1168848005
 	},
 
 	'extraHeadTags' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Zus&auml;tzliche Tags, die dem Header der Seite hinzugef&uuml;gt wird, die das Asset enth&auml;lt. Diese werden standardm&auml;ssig hinzugef&uuml;gt, so dass Sie sie nicht extra hinzuf&uuml;gen m&uuml;ssen, ausser Sie wollen, dass sie zweimal vorhanden sind. |,
+		lastUpdated => 1168849557
 	},
 
 	'duplicate' => {
@@ -267,8 +267,8 @@ our $I18N = {
 	},
 
 	'isPrototype' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Boolscher Wert, der wahr ist wenn das Asset ein Prototy ist.<br />|,
+		lastUpdated => 1168850664
 	},
 
 	'1083' => {
@@ -372,18 +372,18 @@ our $I18N = {
 	},
 
 	'assetSize' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Gr&ouml;&szlig;e dieses Assets in Bytes. Summe aus allen Datenbankfeldern und Anh&auml;ngen.<br />|,
+		lastUpdated => 1168847931
 	},
 
 	'status' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Status des Assets bez&uuml;glich der Versionskontrolle. Typischerweise ist dies &quot;approved&quot;, &quot;pending&quot; oder &quot;committed&quot;.<br />|,
+		lastUpdated => 1168848118
 	},
 
 	'manage versions body' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Diese Seite listet alle Versionen auf, die committed worden sind. Aufgef&uuml;hrt werden das Datum an dem die Version committed oder er&ouml;ffnet wurde, wer den Tag der Version besitzt und den Namen des Version Tags. Verschiedene Icons erlauben es Ihnen, eine Revision zu l&ouml;schen und vom System zu entfernen oder diese Version des Assets zu betrachten. Der Version Tag Name in der Liste ist ein Link, der Sie zur &quot;Verwalte Revisions in Tag&quot; Seite f&uuml;hrt. |,
+		lastUpdated => 1168851110
 	},
 
 	'954' => {
@@ -397,8 +397,8 @@ our $I18N = {
 	},
 
 	'asset template asset var title' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Asset Template Asset Variablen.<br />|,
+		lastUpdated => 1168849012
 	},
 
 	'1082' => {
@@ -422,13 +422,13 @@ our $I18N = {
 	},
 
 	'isPackage' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Boolscher Wert, der wahr ist wenn das Asset ein Paket ist.<br />|,
+		lastUpdated => 1168850624
 	},
 
 	'rootUrl form option symlinkDefault' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Symlink Standardwert.<br />|,
+		lastUpdated => 1168848239
 	},
 
 	'Metadata Description description' => {
@@ -537,8 +537,8 @@ our $I18N = {
 	},
 
 	'url' => {
-		message => q||,
-		lastUpdated => 
+		message => q|URL des Assets.|,
+		lastUpdated => 1168847957
 	},
 
 	'Page Export body' => {
@@ -552,8 +552,8 @@ our $I18N = {
 	},
 
 	'groupIdEdit' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Die ID der Gruppe, die das Asset editieren darf.|,
+		lastUpdated => 1168850456
 	},
 
 	'Class Icon help' => {
@@ -724,13 +724,13 @@ Normalerweise müßten Sie den URL in der letzen Revision des Assets ändern und
 	},
 
 	'encryptPage' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Boolscher Wert, der wahr ist wenn die Seite via SSL verschl&uuml;sselt werden soll.<br />|,
+		lastUpdated => 1168849373
 	},
 
 	'asset template asset var body' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Diese Template Variablen haben fast alle Assets gemeinsam. Viele von diesen sind interne Asset Eigenschaften, die das Verhalten beeinflussen und wahrscheinlich nicht sehr n&uuml;tzlich f&uuml;r Templates sind. Ein Beispiel k&ouml;nnte die ID eines Templates sein, die f&uuml;r die Darstellung desselben benutzt wird. Abh&auml;ngig davon, ob ein Benutzer diese Felder gef&uuml;llt hat oder nicht, k&ouml;nnen diese entweder einen Wert besitzen oder auch nicht. |,
+		lastUpdated => 1168848984
 	},
 
 	'ago' => {
@@ -779,8 +779,8 @@ Normalerweise müßten Sie den URL in der letzen Revision des Assets ändern und
 	},
 
 	'extrasUploads form label' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Extras und uploads Verzeichnis.|,
+		lastUpdated => 1168850375
 	},
 
 	'done' => {
@@ -819,8 +819,8 @@ Normalerweise müßten Sie den URL in der letzen Revision des Assets ändern und
 	},
 
 	'ownerUserId' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Die ID des Benutzers, der das Asset besitzt.<br />|,
+		lastUpdated => 1168848754
 	},
 
 	'could not symlink' => {
@@ -874,8 +874,8 @@ Normalerweise müßten Sie den URL in der letzen Revision des Assets ändern und
 	},
 
 	'groupIdView' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Die ID der Gruppe, die das Asset betrachten darf.<br />|,
+		lastUpdated => 1168850517
 	},
 
 	'Depth description' => {
@@ -884,18 +884,18 @@ Normalerweise müßten Sie den URL in der letzen Revision des Assets ändern und
 	},
 
 	'extrasUploads symlinking' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Symlinking extras und uploads Verzeichnis.<br />|,
+		lastUpdated => 1168850421
 	},
 
 	'extrasUploads form hoverHelp' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Welche Aktionen sollen bez&uuml;glich extras und uploads Verzeichnis, die oftmals von Teilen der Seite referenziert werden, ausgef&uuml;hrt werden. Symlink bedeutet, dass ein symbolischer Link (nicht verf&uuml;gbar auf allen Systemen) auf das originale Verzeichnis benutzt wird. None bedeutet nichts, d.h. extras und uploads Verzeichnis werden ignoriert; sehr warscheinlich werden Referenzen darauf nicht mehr funktionieren ausser Sie haben die Verzeichnisse vorher schon vorbereitet.&nbsp; |,
+		lastUpdated => 1168850347
 	},
 
 	'menuTitle' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Der Titel des Assets, der in der Navigation angezeigt wird.<br />|,
+		lastUpdated => 1168851139
 	},
 
 	'make prototype' => {
@@ -909,8 +909,8 @@ Normalerweise müßten Sie den URL in der letzen Revision des Assets ändern und
 	},
 
 	'prototype using body' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Falls Sie Assets ben&ouml;tigen, die eine bestimmte Konfiguration aufweisen, k&ouml;nnte ein Prototyp f&uuml;r Sie n&uuml;tzlich sein. Wenn Sie ein Asset als Prototy definieren, k&ouml;nnen Sie neue Eintr&auml;ge in Ihrem Add content Men&uuml; erstellen, die so konfiguriert sind wie sie wollen. Wenn Sie zum Beispiel ein Collaboration System als Photogalerie benutzen wollen, k&ouml;nnen Sie eine Photogallerie erstellen und diese als Prototyp deklarieren. Von nun an k&ouml;nnen Sie diese Photogallerie ganz einfach &uuml;ber &quot;Add content &gt; New Content &gt; Photogallerie&quot; einf&uuml;gen. |,
+		lastUpdated => 1168848703
 	},
 
 	'asset id' => {
@@ -919,8 +919,8 @@ Normalerweise müßten Sie den URL in der letzen Revision des Assets ändern und
 	},
 
 	'metadata edit property' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Metadaten bearbeiten|,
+		lastUpdated => 1168851230
 	},
 
 	'purge' => {
@@ -984,8 +984,8 @@ Normalerweise müßten Sie den URL in der letzen Revision des Assets ändern und
 	},
 
 	'metadata edit property body' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Sie k&ouml;nnen so viele Metadaten zu einem Wobject hinzuf&uuml;gen wie Sie wollen.<br /> |,
+		lastUpdated => 1168851269
 	},
 
 	'purge revision prompt' => {
