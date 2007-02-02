@@ -517,8 +517,8 @@ our $I18N = {
 	},
 
 	'extrasUploads form option none' => {
-		message => q||,
-		lastUpdated => 
+		message => q|None|,
+		lastUpdated => 1170409641
 	},
 
 	'99' => {

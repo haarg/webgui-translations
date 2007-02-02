@@ -2,23 +2,23 @@ package WebGUI::i18n::German::Icon;
 
 our $I18N = {
 	'Move Up' => {
-		message => q|nach oben |,
-		lastUpdated => 1152948780
+		message => q|Nach oben |,
+		lastUpdated => 1170449017
 	},
 
 	'Move Left' => {
 		message => q|Nach links|,
-		lastUpdated => 1152948742
+		lastUpdated => 1170448991
 	},
 
 	'Export help' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Hilfe exportieren|,
+		lastUpdated => 1170448920
 	},
 
 	'Create Shortcut help' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Verkn&uuml;pfung Hilfe erstellen|,
+		lastUpdated => 1170448707
 	},
 
 	'Page Settings' => {
@@ -32,13 +32,13 @@ our $I18N = {
 	},
 
 	'Move To Bottom' => {
-		message => q|Ganz nach unten<br />|,
-		lastUpdated => 1152948760
+		message => q|Ganz nach unten|,
+		lastUpdated => 1170449006
 	},
 
 	'Create Shortcut' => {
-		message => q|Verkn&uuml;pfung erstellen<br />|,
-		lastUpdated => 1152948498
+		message => q|Verkn&uuml;pfung erstellen|,
+		lastUpdated => 1170448668
 	},
 
 	'Cut' => {
@@ -47,23 +47,23 @@ our $I18N = {
 	},
 
 	'Cut help' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Hilfe ausschneiden|,
+		lastUpdated => 1170448722
 	},
 
 	'Move To Top' => {
-		message => q|Ganz nach oben<br />|,
-		lastUpdated => 1152948767
+		message => q|Ganz nach oben|,
+		lastUpdated => 1170449001
 	},
 
 	'Delete' => {
 		message => q|L&ouml;schen|,
-		lastUpdated => 1152948514
+		lastUpdated => 1170448730
 	},
 
 	'Edit help' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Hilfe bearbeiten|,
+		lastUpdated => 1170448907
 	},
 
 	'locked' => {
@@ -92,33 +92,33 @@ our $I18N = {
 	},
 
 	'Delete help' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Hilfe l&ouml;schen|,
+		lastUpdated => 1170448742
 	},
 
 	'locked help' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Hilfe gesperrt|,
+		lastUpdated => 1170448630
 	},
 
 	'Move Down' => {
-		message => q|Nach unten<br />|,
-		lastUpdated => 1152948732
+		message => q|Nach unten|,
+		lastUpdated => 1170448986
 	},
 
 	'Move Right' => {
-		message => q|Nach rechts<br />|,
-		lastUpdated => 1152948748
+		message => q|Nach rechts|,
+		lastUpdated => 1170448997
 	},
 
 	'Copy help' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Hilfe kopieren|,
+		lastUpdated => 1170448654
 	},
 
 	'Drag' => {
-		message => q|Nehmen|,
-		lastUpdated => 1152948703
+		message => q|Ziehen|,
+		lastUpdated => 1170448896
 	},
 
 	'Export' => {
