@@ -306,6 +306,11 @@ our $I18N = {
 		lastUpdated => 
 	},
 
+	'bare insufficient' => {
+		message => q||,
+		lastUpdated => 
+	},
+
 	'145' => {
 		message => q||,
 		lastUpdated => 
@@ -673,7 +678,7 @@ our $I18N = {
 
 	'1' => {
 		message => q|Inhalt hinzuf&uuml;gen|,
-		lastUpdated => 1168866563
+		lastUpdated => 1170449449
 	},
 
 	'144' => {
@@ -3022,8 +3027,8 @@ our $I18N = {
 	},
 
 	'10' => {
-		message => q||,
-		lastUpdated => 
+		message => q|M&uuml;lleimer verwalten|,
+		lastUpdated => 1170449465
 	},
 
 	'980' => {

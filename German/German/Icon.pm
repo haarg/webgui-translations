@@ -12,13 +12,13 @@ our $I18N = {
 	},
 
 	'Export help' => {
-		message => q|Hilfe exportieren|,
-		lastUpdated => 1170448920
+		message => q|Falls f&uuml;r diese Seite ein Export Pfad in der WebGUI Konfigurationsdatei definiert wurde, wird ein zus&auml;tzliches Symbol in der Werkzeugleiste angezeigt. Wird dieses Symbol selektiert, wird der Inhalt dieses Assets in ein HTML Dokument exportiert. |,
+		lastUpdated => 1170450766
 	},
 
 	'Create Shortcut help' => {
-		message => q|Verkn&uuml;pfung Hilfe erstellen|,
-		lastUpdated => 1170448707
+		message => q|Erstellt eine Verkn&uuml;pfung zu diesem Asset in der Zwischenablage. Da keine Verkn&uuml;pfungen von einer Verkn&uuml;pfung erstellt werden k&ouml;nnen, wird dieses Symbol bei Verkn&uuml;pfung-Assets nicht angezeigt. |,
+		lastUpdated => 1170449948
 	},
 
 	'Page Settings' => {
@@ -38,7 +38,7 @@ our $I18N = {
 
 	'Create Shortcut' => {
 		message => q|Verkn&uuml;pfung erstellen|,
-		lastUpdated => 1170448668
+		lastUpdated => 1170449971
 	},
 
 	'Cut' => {
@@ -47,8 +47,8 @@ our $I18N = {
 	},
 
 	'Cut help' => {
-		message => q|Hilfe ausschneiden|,
-		lastUpdated => 1170448722
+		message => q|Schneidet dieses Asset aus und platziert es in der Zwischenablage. |,
+		lastUpdated => 1170449614
 	},
 
 	'Move To Top' => {
@@ -62,8 +62,8 @@ our $I18N = {
 	},
 
 	'Edit help' => {
-		message => q|Hilfe bearbeiten|,
-		lastUpdated => 1170448907
+		message => q|Eigenschaften dieses Assets bearbeiten. Dieses Symbol wird nur angezeigt, wenn das Asset nicht gesperrt ist, oder, wenn es nicht gesperrt ist und Sie benutzen den &lt;Tag&gt;, unter Welchem das Asset bearbeitet wurde.|,
+		lastUpdated => 1170450518
 	},
 
 	'locked' => {
@@ -72,33 +72,33 @@ our $I18N = {
 	},
 
 	'Wobject Settings' => {
-		message => q|Asset-Einstellungen|,
-		lastUpdated => 1152948809
+		message => q|Asset Einstellungen|,
+		lastUpdated => 1170450835
 	},
 
 	'Copy' => {
 		message => q|Kopieren|,
-		lastUpdated => 1152948481
+		lastUpdated => 1170449954
 	},
 
 	'Edit' => {
 		message => q|Bearbeiten|,
-		lastUpdated => 1152948713
+		lastUpdated => 1170450378
 	},
 
 	'Manage' => {
 		message => q|Verwalten|,
-		lastUpdated => 1152948726
+		lastUpdated => 1170450771
 	},
 
 	'Delete help' => {
-		message => q|Hilfe l&ouml;schen|,
-		lastUpdated => 1170448742
+		message => q|Verschiebt dieses Asset in den M&uuml;lleimer. Dieses Symbol wird nur angezeigt, wenn das Asset nicht gesperrt ist, oder, wenn es nicht gesperrt ist und Sie benutzen den &lt;Tag&gt;, unter Welchem das Asset bearbeitet wurde. |,
+		lastUpdated => 1170450368
 	},
 
 	'locked help' => {
-		message => q|Hilfe gesperrt|,
-		lastUpdated => 1170448630
+		message => q|Zeigt eine Liste aller Revisionen dieses Assets. Dieses Symbol wird nur angezeigt, wenn das Asset nicht gesperrt ist, oder, wenn es nicht gesperrt ist und Sie benutzen den &lt;Tag&gt;, unter Welchem das Asset bearbeitet wurde.|,
+		lastUpdated => 1170450937
 	},
 
 	'Move Down' => {
@@ -112,18 +112,18 @@ our $I18N = {
 	},
 
 	'Copy help' => {
-		message => q|Hilfe kopieren|,
-		lastUpdated => 1170448654
+		message => q|Erstellt eine Kopie dieses Assets in der Zwischenablage.<br />|,
+		lastUpdated => 1170449962
 	},
 
 	'Drag' => {
 		message => q|Ziehen|,
-		lastUpdated => 1170448896
+		lastUpdated => 1170450373
 	},
 
 	'Export' => {
 		message => q|Exportieren|,
-		lastUpdated => 1152948719
+		lastUpdated => 1170450523
 	},
 
 };
