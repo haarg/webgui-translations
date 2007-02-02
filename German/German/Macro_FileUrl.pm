@@ -22,8 +22,8 @@ our $I18N = {
 	},
 
 	'macroName' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Datei-URL|,
+		lastUpdated => 1168865965
 	},
 
 	'file url body' => {

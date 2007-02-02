@@ -51,6 +51,11 @@ our $I18N = {
 		lastUpdated => 
 	},
 
+	'displayTemplateId' => {
+		message => q||,
+		lastUpdated => 
+	},
+
 	'stocks.net.icon' => {
 		message => q||,
 		lastUpdated => 
@@ -87,6 +92,16 @@ our $I18N = {
 	},
 
 	'stocks.nav' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'stock data asset template variables body' => {
+		message => q|Jedes Asset bietet ihren Templates einen Satz an Variablen, die auf den Asset Eigenschaften basieren. Einige dieser Variablen k&ouml;nnen n&uuml;tzlich sein, andere nicht.|,
+		lastUpdated => 1170406626
+	},
+
+	'source' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -147,6 +162,11 @@ our $I18N = {
 	},
 
 	'stocks.year_range' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'defaultStocks' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -227,8 +247,8 @@ our $I18N = {
 	},
 
 	'assetName' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Bestandsdaten|,
+		lastUpdated => 1170406657
 	},
 
 	'editUrl' => {
@@ -291,6 +311,11 @@ our $I18N = {
 		lastUpdated => 
 	},
 
+	'failover' => {
+		message => q||,
+		lastUpdated => 
+	},
+
 	'symbol_header' => {
 		message => q||,
 		lastUpdated => 
@@ -314,6 +339,16 @@ our $I18N = {
 	'no_symbol' => {
 		message => q||,
 		lastUpdated => 
+	},
+
+	'templateId' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'stock data asset template variables title' => {
+		message => q|Bestandsdaten Asset Template Variablen<br />|,
+		lastUpdated => 1170406674
 	},
 
 	'default_stock_description' => {

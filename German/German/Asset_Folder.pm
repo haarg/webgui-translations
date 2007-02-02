@@ -66,6 +66,11 @@ our $I18N = {
 		lastUpdated => 1166610844
 	},
 
+	'visitorCacheTimeout' => {
+		message => q|Wie lange soll Asset gecached werden (in Sekunden).<br /> |,
+		lastUpdated => 1168865553
+	},
+
 	'folder add/edit title' => {
 		message => q|Ordner, Hinzuf&uuml;gen/Bearbeiten<br />|,
 		lastUpdated => 1166611227
@@ -91,9 +96,14 @@ our $I18N = {
 		lastUpdated => 1166612052
 	},
 
+	'asset template variables body' => {
+		message => q|Jedes Asset bietet ihren Templates einen Satz an Variablen, die auf den Asset Eigenschaften basieren. Einige dieser Variablen k&ouml;nnen n&uuml;tzlich sein, andere nicht.|,
+		lastUpdated => 1168864845
+	},
+
 	'folder icon.big' => {
-		message => q||,
-		lastUpdated => 
+		message => q|gro&szlig;es Ordner-Icon<br />|,
+		lastUpdated => 1168942038
 	},
 
 	'isImage' => {
@@ -117,13 +127,18 @@ our $I18N = {
 	},
 
 	'folder icon.small' => {
-		message => q||,
-		lastUpdated => 
+		message => q|kleines Ornder-Icon<br />|,
+		lastUpdated => 1168942060
 	},
 
 	'folder url' => {
 		message => q|URL des Ordners.|,
 		lastUpdated => 1166611282
+	},
+
+	'asset template variables title' => {
+		message => q|Ordner Asset Template Variablen|,
+		lastUpdated => 1168865650
 	},
 
 	'size' => {
@@ -136,6 +151,11 @@ our $I18N = {
 		lastUpdated => 1166610512
 	},
 
+	'templateId' => {
+		message => q|Die ID des Templates, das f&uuml;r die Anzeige des Ordnerinhalts benutzt wird.|,
+		lastUpdated => 1168865626
+	},
+
 	'847' => {
 		message => q|Gehe zur&uuml;ck zur aktuellen Seite.|,
 		lastUpdated => 1166611849
@@ -144,6 +164,11 @@ our $I18N = {
 	'canView' => {
 		message => q|Bedingung, die anzeigt, ob der aktuelle Benutzer dieses Asset ansehen kann.<br />|,
 		lastUpdated => 1166610749
+	},
+
+	'sortAlphabetically' => {
+		message => q|Bedingung, die anzeigt, da&szlig; Unterordner und Dateien alphabetisch geordnet werden.<br />|,
+		lastUpdated => 1168865522
 	},
 
 	'file.url' => {

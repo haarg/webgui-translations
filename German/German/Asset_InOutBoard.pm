@@ -31,6 +31,16 @@ our $I18N = {
 		lastUpdated => 
 	},
 
+	'in out board asset template variables title' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'reportTemplateId' => {
+		message => q||,
+		lastUpdated => 
+	},
+
 	'Department' => {
 		message => q||,
 		lastUpdated => 
@@ -51,12 +61,27 @@ our $I18N = {
 		lastUpdated => 
 	},
 
+	'paginateAfter' => {
+		message => q||,
+		lastUpdated => 
+	},
+
 	'16' => {
 		message => q||,
 		lastUpdated => 
 	},
 
 	'13 description' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'reportTitleLabel' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'inOutTemplateId' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -77,6 +102,11 @@ our $I18N = {
 	},
 
 	'In Out Template description' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'selectDelegatesLabel' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -116,6 +146,11 @@ our $I18N = {
 		lastUpdated => 
 	},
 
+	'select delegates label' => {
+		message => q||,
+		lastUpdated => 
+	},
+
 	'16 description' => {
 		message => q||,
 		lastUpdated => 
@@ -142,6 +177,11 @@ our $I18N = {
 	},
 
 	'12' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'viewReportLabel' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -176,6 +216,11 @@ our $I18N = {
 		lastUpdated => 
 	},
 
+	'report title' => {
+		message => q||,
+		lastUpdated => 
+	},
+
 	'createdBy' => {
 		message => q||,
 		lastUpdated => 
@@ -206,6 +251,11 @@ our $I18N = {
 		lastUpdated => 
 	},
 
+	'view report label' => {
+		message => q||,
+		lastUpdated => 
+	},
+
 	'in/out status delegates subtext' => {
 		message => q||,
 		lastUpdated => 
@@ -222,6 +272,11 @@ our $I18N = {
 	},
 
 	'In Out Template' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'statusList' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -351,9 +406,19 @@ our $I18N = {
 		lastUpdated => 
 	},
 
+	'reportViewerGroup' => {
+		message => q||,
+		lastUpdated => 
+	},
+
 	'3' => {
 		message => q||,
 		lastUpdated => 
+	},
+
+	'in out board asset template variables body' => {
+		message => q|Jedes Asset bietet ihren Templates einen Satz an Variablen, die auf den Asset Eigenschaften basieren. Einige dieser Variablen k&ouml;nnen n&uuml;tzlich sein, andere nicht.|,
+		lastUpdated => 1170409144
 	},
 
 	'updatedBy.label' => {

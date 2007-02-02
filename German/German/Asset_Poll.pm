@@ -27,8 +27,8 @@ our $I18N = {
 	},
 
 	'assetName' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Befragung|,
+		lastUpdated => 1170408943
 	},
 
 	'10 description' => {
@@ -41,12 +41,32 @@ our $I18N = {
 		lastUpdated => 
 	},
 
+	'hasImageGraph' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'poll asset template variables body' => {
+		message => q|Jedes Asset bietet ihren Templates einen Satz an Variablen, die auf den Asset Eigenschaften basieren. Einige dieser Variablen k&ouml;nnen n&uuml;tzlich sein, andere nicht.|,
+		lastUpdated => 1170408914
+	},
+
 	'72' => {
 		message => q||,
 		lastUpdated => 
 	},
 
+	'generateGraph' => {
+		message => q||,
+		lastUpdated => 
+	},
+
 	'canVote' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'graphConfiguration' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -57,6 +77,16 @@ our $I18N = {
 	},
 
 	'74' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'voteGroup' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'active' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -101,6 +131,11 @@ our $I18N = {
 		lastUpdated => 
 	},
 
+	'aN' => {
+		message => q||,
+		lastUpdated => 
+	},
+
 	'11' => {
 		message => q||,
 		lastUpdated => 
@@ -131,6 +166,16 @@ our $I18N = {
 		lastUpdated => 
 	},
 
+	'karmaPerVote' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'templateId' => {
+		message => q||,
+		lastUpdated => 
+	},
+
 	'6 description' => {
 		message => q||,
 		lastUpdated => 
@@ -151,6 +196,11 @@ our $I18N = {
 		lastUpdated => 
 	},
 
+	'graphUrl' => {
+		message => q||,
+		lastUpdated => 
+	},
+
 	'form.submit' => {
 		message => q||,
 		lastUpdated => 
@@ -161,9 +211,19 @@ our $I18N = {
 		lastUpdated => 
 	},
 
+	'randomizeAnswers' => {
+		message => q||,
+		lastUpdated => 
+	},
+
 	'12' => {
 		message => q||,
 		lastUpdated => 
+	},
+
+	'poll asset template variables title' => {
+		message => q|Befragung Asset Template Variablen<br />|,
+		lastUpdated => 1170408960
 	},
 
 	'question' => {
@@ -177,6 +237,11 @@ our $I18N = {
 	},
 
 	'4' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'graphWidth' => {
 		message => q||,
 		lastUpdated => 
 	},

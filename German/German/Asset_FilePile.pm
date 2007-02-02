@@ -13,7 +13,7 @@ our $I18N = {
 
 	'108 description' => {
 		message => q|<p>Wer ein Asset erstellt hat ist i.d.R. dessen Eigent&uuml;mer. Dieser Benutzer hat alle Rechte zum Editieren und Betrachten des Assets.</p><strong>Hinweis:</strong> Der Eigent&uuml;mer kann durch einen Administrator ge&auml;ndert werden.|,
-		lastUpdated => 1153680945
+		lastUpdated => 1168864790
 	},
 
 	'assetName' => {

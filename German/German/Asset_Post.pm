@@ -31,6 +31,11 @@ our $I18N = {
 		lastUpdated => 
 	},
 
+	'relativeUrl' => {
+		message => q||,
+		lastUpdated => 
+	},
+
 	'newWindow' => {
 		message => q||,
 		lastUpdated => 
@@ -62,6 +67,11 @@ our $I18N = {
 	},
 
 	'hasRated' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'formatted.content' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -327,8 +337,8 @@ our $I18N = {
 	},
 
 	'post template variables body' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Die folgenden Variablen sind in alle Post Templates und in den Templates des Collaboration Systems verf&uuml;gbar.<br />|,
+		lastUpdated => 1170408828
 	},
 
 	'userDefined3' => {
@@ -342,6 +352,11 @@ our $I18N = {
 	},
 
 	'875' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'post asset variables body' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -522,6 +537,11 @@ our $I18N = {
 	},
 
 	'post template variables title' => {
+		message => q|Post Template Variablen<br />|,
+		lastUpdated => 1170408865
+	},
+
+	'post asset variables title' => {
 		message => q||,
 		lastUpdated => 
 	},

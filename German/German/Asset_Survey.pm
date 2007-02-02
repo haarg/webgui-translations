@@ -1,22 +1,12 @@
 package WebGUI::i18n::German::Asset_Survey;
 
 our $I18N = {
-	'duration.minutes' => {
-		message => q||,
-		lastUpdated => 
-	},
-
 	'84 description' => {
 		message => q||,
 		lastUpdated => 
 	},
 
 	'32' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'questions.correct.count' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -36,11 +26,6 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'85 description' => {
-		message => q||,
-		lastUpdated => 
-	},
-
 	'export.questions.label' => {
 		message => q||,
 		lastUpdated => 
@@ -51,17 +36,12 @@ our $I18N = {
 		lastUpdated => 
 	},
 
+	'questionsPerPage' => {
+		message => q||,
+		lastUpdated => 
+	},
+
 	'response.user.label' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'18' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'question.count' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -71,17 +51,12 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'13 description' => {
-		message => q||,
-		lastUpdated => 
-	},
-
 	'16' => {
 		message => q||,
 		lastUpdated => 
 	},
 
-	'44' => {
+	'groupToViewReports' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -101,52 +76,7 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'27' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'form.header' => {
-		message => q||,
-		lastUpdated => 
-	},
-
 	'57' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'start.newresponse.url' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'question.comment' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'744' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'questions.correct.percent.label' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'20' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'cannot delete the last answer' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'user.canRespondAgain' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -171,17 +101,7 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'question.allowComment' => {
-		message => q||,
-		lastUpdated => 
-	},
-
 	'35' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'duration.label' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -206,11 +126,6 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'78' => {
-		message => q||,
-		lastUpdated => 
-	},
-
 	'export.composite.url' => {
 		message => q||,
 		lastUpdated => 
@@ -222,16 +137,6 @@ our $I18N = {
 	},
 
 	'thanks.quiz.label' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'106' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'65' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -251,11 +156,6 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'user.canTakeSurvey' => {
-		message => q||,
-		lastUpdated => 
-	},
-
 	'form.submit' => {
 		message => q||,
 		lastUpdated => 
@@ -266,17 +166,12 @@ our $I18N = {
 		lastUpdated => 
 	},
 
+	'responseTemplateId' => {
+		message => q||,
+		lastUpdated => 
+	},
+
 	'15' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'81' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'60' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -301,11 +196,6 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'86' => {
-		message => q||,
-		lastUpdated => 
-	},
-
 	'62' => {
 		message => q||,
 		lastUpdated => 
@@ -314,6 +204,11 @@ our $I18N = {
 	'quiz.noprivs.label' => {
 		message => q||,
 		lastUpdated => 
+	},
+
+	'survey asset template variables body' => {
+		message => q|Jedes Asset bietet ihren Templates einen Satz an Variablen, die auf den Asset Eigenschaften basieren. Einige dieser Variablen k&ouml;nnen n&uuml;tzlich sein, andere nicht.|,
+		lastUpdated => 1170406588
 	},
 
 	'answer.response.percent' => {
@@ -326,57 +221,12 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'17' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'2' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'questions.correct.count.label' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'question.question' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'start.date.epoch' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'82' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'questions.total' => {
-		message => q||,
-		lastUpdated => 
-	},
-
 	'survey.noprivs.label' => {
 		message => q||,
 		lastUpdated => 
 	},
 
-	'show.comments.label' => {
-		message => q||,
-		lastUpdated => 
-	},
-
 	'export.answers.label' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'question_loop' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -391,22 +241,7 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'question.add.url' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'69' => {
-		message => q||,
-		lastUpdated => 
-	},
-
 	'report response.count.label' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'duration.minutes.label' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -421,22 +256,7 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'questions.correct.percent' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'view template description' => {
-		message => q||,
-		lastUpdated => 
-	},
-
 	'question.edit.question' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'user.canViewReports' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -447,11 +267,6 @@ our $I18N = {
 	},
 
 	'1090' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'15 description' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -471,27 +286,7 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'export.questions.url' => {
-		message => q||,
-		lastUpdated => 
-	},
-
 	'what next question description' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'end.date.label' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'79' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'response template' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -511,7 +306,7 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'14 description' => {
+	'templateId' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -522,21 +317,6 @@ our $I18N = {
 	},
 
 	'questions.sofar.label' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'response.count' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'21 description' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'answer' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -561,11 +341,6 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'1087' => {
-		message => q||,
-		lastUpdated => 
-	},
-
 	'37' => {
 		message => q||,
 		lastUpdated => 
@@ -581,37 +356,12 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'33' => {
-		message => q||,
-		lastUpdated => 
-	},
-
 	'21' => {
 		message => q||,
 		lastUpdated => 
 	},
 
-	'63' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'7' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'26' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'80' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'end.date.epoch' => {
+	'mode' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -621,22 +371,7 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'response.label' => {
-		message => q||,
-		lastUpdated => 
-	},
-
 	'report.overview.label' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'answer_loop' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'72' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -676,11 +411,6 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'response.id' => {
-		message => q||,
-		lastUpdated => 
-	},
-
 	'61' => {
 		message => q||,
 		lastUpdated => 
@@ -701,22 +431,17 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'83 description' => {
-		message => q||,
-		lastUpdated => 
-	},
-
 	'survey.url' => {
 		message => q||,
 		lastUpdated => 
 	},
 
-	'start.time.human' => {
+	'groupToTakeSurvey' => {
 		message => q||,
 		lastUpdated => 
 	},
 
-	'11 description' => {
+	'survey asset template variables title' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -726,17 +451,7 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'10' => {
-		message => q||,
-		lastUpdated => 
-	},
-
 	'response_loop' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'question.comment.field' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -761,17 +476,7 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'section.add.label' => {
-		message => q||,
-		lastUpdated => 
-	},
-
 	'107' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'48' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -806,11 +511,6 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'50' => {
-		message => q||,
-		lastUpdated => 
-	},
-
 	'39' => {
 		message => q||,
 		lastUpdated => 
@@ -822,11 +522,6 @@ our $I18N = {
 	},
 
 	'64' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'question.isCorrect' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -846,6 +541,11 @@ our $I18N = {
 		lastUpdated => 
 	},
 
+	'defaultSectionId' => {
+		message => q||,
+		lastUpdated => 
+	},
+
 	'thanks.survey.label' => {
 		message => q||,
 		lastUpdated => 
@@ -856,22 +556,7 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'8 description' => {
-		message => q||,
-		lastUpdated => 
-	},
-
 	'answer.label' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'56' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'what next answer description' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -881,22 +566,7 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'66' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'19' => {
-		message => q||,
-		lastUpdated => 
-	},
-
 	'export.answers.url' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'54' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -906,32 +576,7 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'question.isRadioList' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'questions.sofar.count' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'question.response.total' => {
-		message => q||,
-		lastUpdated => 
-	},
-
 	'export.responses.url' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'70' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'assetName' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -946,37 +591,7 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'section.questions_loop' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'1088' => {
-		message => q||,
-		lastUpdated => 
-	},
-
 	'report.gradebook.label' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'88' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'question.answer.field' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'end.time.human' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'30' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -987,31 +602,6 @@ our $I18N = {
 	},
 
 	'25' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'81 description' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'28' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'duration.seconds' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'40' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'75' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -1041,17 +631,7 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'59' => {
-		message => q||,
-		lastUpdated => 
-	},
-
 	'gradebook template description' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'53' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -1091,17 +671,7 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'13' => {
-		message => q||,
-		lastUpdated => 
-	},
-
 	'section.edit_loop' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'105' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -1111,27 +681,12 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'section.edit.controls' => {
-		message => q||,
-		lastUpdated => 
-	},
-
 	'report.overview.url' => {
 		message => q||,
 		lastUpdated => 
 	},
 
-	'report answer.label' => {
-		message => q||,
-		lastUpdated => 
-	},
-
 	'response.percent.label' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'85' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -1146,22 +701,7 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'3' => {
-		message => q||,
-		lastUpdated => 
-	},
-
 	'51' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'9' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'response.isComplete' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -1171,7 +711,547 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'what next description' => {
+	'show.responses.label' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'export.composite.label' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'duration.minutes' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'questions.correct.count' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'85 description' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'18' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'question.count' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'13 description' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'44' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'27' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'form.header' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'start.newresponse.url' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'question.comment' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'20' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'questions.correct.percent.label' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'744' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'user.canRespondAgain' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'cannot delete the last answer' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'question.allowComment' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'duration.label' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'78' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'106' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'65' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'user.canTakeSurvey' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'maxResponsesPerUser' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'81' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'60' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'86' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'2' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'17' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'questions.correct.count.label' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'question.question' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'82' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'start.date.epoch' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'questions.total' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'question_loop' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'show.comments.label' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'question.add.url' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'69' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'duration.minutes.label' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'questions.correct.percent' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'view template description' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'user.canViewReports' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'15 description' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'export.questions.url' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'end.date.label' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'79' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'response template' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'14 description' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'response.count' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'21 description' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'answer' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'1087' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'33' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'63' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'7' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'80' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'26' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'end.date.epoch' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'response.label' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'answer_loop' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'72' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'response.id' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'83 description' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'11 description' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'start.time.human' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'10' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'Survey_id' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'question.comment.field' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'section.add.label' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'48' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'questionOrder' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'50' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'question.isCorrect' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'8 description' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'56' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'66' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'what next answer description' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'19' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'54' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'questions.sofar.count' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'question.isRadioList' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'70' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'question.response.total' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'assetName' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'section.questions_loop' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'88' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'1088' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'question.answer.field' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'30' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'end.time.human' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'overviewTemplateId' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'81 description' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'28' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'75' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'40' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'duration.seconds' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'anonymous' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'59' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'53' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'13' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'105' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'section.edit.controls' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'report answer.label' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'85' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'3' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'9' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'gradebookTemplateId' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'response.isComplete' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -1181,7 +1261,7 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'show.responses.label' => {
+	'what next description' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -1191,17 +1271,12 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'745' => {
-		message => q||,
-		lastUpdated => 
-	},
-
 	'34' => {
 		message => q||,
 		lastUpdated => 
 	},
 
-	'export.composite.label' => {
+	'745' => {
 		message => q||,
 		lastUpdated => 
 	},

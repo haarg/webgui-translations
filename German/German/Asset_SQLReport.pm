@@ -1,6 +1,11 @@
 package WebGUI::i18n::German::Asset_SQLReport;
 
 our $I18N = {
+	'dbQuery4' => {
+		message => q||,
+		lastUpdated => 
+	},
+
 	'Prequery statements' => {
 		message => q||,
 		lastUpdated => 
@@ -11,22 +16,7 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'row.field.__NAME__.value' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'Prequery not allowed' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'Placeholder Parameters description' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'72 description' => {
+	'download type' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -36,24 +26,9 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'assetName' => {
-		message => q|SQL-Report<br />|,
-		lastUpdated => 1157856414
-	},
-
-	'row.number' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'17' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'rows_loop' => {
-		message => q||,
-		lastUpdated => 
+	'sql report asset template variables body' => {
+		message => q|Jedes Asset bietet ihren Templates einen Satz an Variablen, die auf den Asset Eigenschaften basieren. Einige dieser Variablen k&ouml;nnen n&uuml;tzlich sein, andere nicht.|,
+		lastUpdated => 1170407994
 	},
 
 	'rows.count' => {
@@ -61,7 +36,7 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'queryN.rows_loop' => {
+	'databaseLinkId4' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -76,22 +51,22 @@ our $I18N = {
 		lastUpdated => 
 	},
 
+	'paginateAfter' => {
+		message => q||,
+		lastUpdated => 
+	},
+
 	'16' => {
 		message => q||,
 		lastUpdated => 
 	},
 
-	'Add another query' => {
+	'download template description' => {
 		message => q||,
 		lastUpdated => 
 	},
 
-	'queryN.hasNest' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'debug placeholder parameters' => {
+	'dbQuery3' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -106,7 +81,7 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'14' => {
+	'debugMode' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -116,17 +91,17 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'field.name' => {
-		message => q||,
-		lastUpdated => 
-	},
-
 	'Prequery error' => {
 		message => q||,
 		lastUpdated => 
 	},
 
-	'row.field_loop' => {
+	'dbQuery2' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'placeholderParams2' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -137,11 +112,6 @@ our $I18N = {
 	},
 
 	'rows.count.isZero' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'Placeholder Parameters' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -161,17 +131,27 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'15 description' => {
+	'databaseLinkId3' => {
 		message => q||,
 		lastUpdated => 
 	},
 
-	'queryN.row.field_loop' => {
+	'preprocessMacros3' => {
 		message => q||,
 		lastUpdated => 
 	},
 
-	'cache timeout' => {
+	'download filename' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'download template' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'download mimetype description' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -191,6 +171,11 @@ our $I18N = {
 		lastUpdated => 
 	},
 
+	'dbQuery1' => {
+		message => q||,
+		lastUpdated => 
+	},
+
 	'field.value' => {
 		message => q||,
 		lastUpdated => 
@@ -201,17 +186,12 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'14 description' => {
+	'cacheTimeout' => {
 		message => q||,
 		lastUpdated => 
 	},
 
-	'column.name' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'queryN.rows.count.isZero.label' => {
+	'prequeryStatements1' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -231,17 +211,7 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'8' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'4' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'field.number' => {
+	'preprocessMacros5' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -262,6 +232,241 @@ our $I18N = {
 	},
 
 	'queryN.rows.count' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'placeholderParams4' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'download mimetype' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'row.field.__NAME__.value' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'72 description' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'Placeholder Parameters description' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'Prequery not allowed' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'assetName' => {
+		message => q|SQL-Report<br />|,
+		lastUpdated => 1157856414
+	},
+
+	'placeholderParams1' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'17' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'row.number' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'rows_loop' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'prequeryStatements5' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'queryN.rows_loop' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'queryN.hasNest' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'Add another query' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'debug placeholder parameters' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'dbQuery5' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'prequeryStatements3' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'14' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'field.name' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'row.field_loop' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'download type description' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'placeholderParams5' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'preprocessMacros4' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'Placeholder Parameters' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'sql report asset template variables title' => {
+		message => q|SQL-Report Asset Template Variablen|,
+		lastUpdated => 1170408024
+	},
+
+	'prequeryStatements2' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'15 description' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'download usergroup' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'queryN.row.field_loop' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'databaseLinkId1' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'download filename description' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'preprocessMacros2' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'cache timeout' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'preprocessMacros1' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'databaseLinkId5' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'templateId' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'14 description' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'column.name' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'databaseLinkId2' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'queryN.rows.count.isZero.label' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'8' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'4' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'field.number' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'placeholderParams3' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'download usergroup description' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'prequeryStatements4' => {
 		message => q||,
 		lastUpdated => 
 	},

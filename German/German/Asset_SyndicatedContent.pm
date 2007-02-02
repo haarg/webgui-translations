@@ -1,6 +1,16 @@
 package WebGUI::i18n::German::Asset_SyndicatedContent;
 
 our $I18N = {
+	'displayMode' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'rssUrl' => {
+		message => q||,
+		lastUpdated => 
+	},
+
 	'rss.url.2.0' => {
 		message => q||,
 		lastUpdated => 
@@ -36,6 +46,11 @@ our $I18N = {
 		lastUpdated => 
 	},
 
+	'syndicated content asset template variables body' => {
+		message => q|Jedes Asset bietet ihren Templates einen Satz an Variablen, die auf den Asset Eigenschaften basieren. Einige dieser Variablen k&ouml;nnen n&uuml;tzlich sein, andere nicht.|,
+		lastUpdated => 1170406531
+	},
+
 	'displayModeLabel' => {
 		message => q||,
 		lastUpdated => 
@@ -44,6 +59,11 @@ our $I18N = {
 	'channel.link' => {
 		message => q||,
 		lastUpdated => 
+	},
+
+	'syndicated content asset template variables title' => {
+		message => q|Syndizierte Inhalte Asset Template Variablen|,
+		lastUpdated => 1170406566
 	},
 
 	'1' => {
@@ -71,6 +91,11 @@ our $I18N = {
 		lastUpdated => 
 	},
 
+	'process macros in rss url' => {
+		message => q||,
+		lastUpdated => 
+	},
+
 	'rssTabName' => {
 		message => q||,
 		lastUpdated => 
@@ -87,6 +112,11 @@ our $I18N = {
 	},
 
 	'description' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'hasTerms' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -141,7 +171,17 @@ our $I18N = {
 		lastUpdated => 
 	},
 
+	'process macros in rss url description' => {
+		message => q||,
+		lastUpdated => 
+	},
+
 	'cache timeout' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'templateId' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -156,12 +196,22 @@ our $I18N = {
 		lastUpdated => 
 	},
 
+	'cacheTimeout' => {
+		message => q||,
+		lastUpdated => 
+	},
+
 	'3' => {
 		message => q||,
 		lastUpdated => 
 	},
 
 	'grouped' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'maxHeadlines' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -187,6 +237,11 @@ our $I18N = {
 	},
 
 	'73' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'processMacrosInRssUrl' => {
 		message => q||,
 		lastUpdated => 
 	},

@@ -11,6 +11,11 @@ our $I18N = {
 		lastUpdated => 
 	},
 
+	'defaultView var desc' => {
+		message => q||,
+		lastUpdated => 
+	},
+
 	'90' => {
 		message => q||,
 		lastUpdated => 
@@ -116,6 +121,11 @@ our $I18N = {
 		lastUpdated => 
 	},
 
+	'acknowledgement var desc' => {
+		message => q||,
+		lastUpdated => 
+	},
+
 	'record.data.name' => {
 		message => q||,
 		lastUpdated => 
@@ -162,6 +172,11 @@ our $I18N = {
 	},
 
 	'record.edit.icon' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'acknowlegementTemplateId' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -226,6 +241,11 @@ our $I18N = {
 		lastUpdated => 
 	},
 
+	'groupToViewEntries' => {
+		message => q||,
+		lastUpdated => 
+	},
+
 	'62' => {
 		message => q||,
 		lastUpdated => 
@@ -242,6 +262,11 @@ our $I18N = {
 	},
 
 	'tab.field.isRequired' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'mail attachments description' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -291,6 +316,16 @@ our $I18N = {
 		lastUpdated => 
 	},
 
+	'mailData' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'mailAttachments' => {
+		message => q||,
+		lastUpdated => 
+	},
+
 	'canEdit' => {
 		message => q||,
 		lastUpdated => 
@@ -306,12 +341,22 @@ our $I18N = {
 		lastUpdated => 
 	},
 
+	'listTemplateId' => {
+		message => q||,
+		lastUpdated => 
+	},
+
 	'field.subtext' => {
 		message => q||,
 		lastUpdated => 
 	},
 
 	'744 description' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'mail attachments' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -377,6 +422,16 @@ our $I18N = {
 	},
 
 	'23' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'delete.label' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'templateId' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -451,6 +506,11 @@ our $I18N = {
 		lastUpdated => 
 	},
 
+	'javascript.confirmation.deleteOne' => {
+		message => q||,
+		lastUpdated => 
+	},
+
 	'7' => {
 		message => q||,
 		lastUpdated => 
@@ -502,6 +562,11 @@ our $I18N = {
 	},
 
 	'tab.field.isDisplayed' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'delete.url' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -666,9 +731,14 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'assetName' => {
+	'emailTemplateId' => {
 		message => q||,
 		lastUpdated => 
+	},
+
+	'assetName' => {
+		message => q|Daten-Formular|,
+		lastUpdated => 1170409301
 	},
 
 	'edit.url' => {
@@ -686,12 +756,17 @@ our $I18N = {
 		lastUpdated => 
 	},
 
+	'delete file' => {
+		message => q||,
+		lastUpdated => 
+	},
+
 	'100' => {
 		message => q||,
 		lastUpdated => 
 	},
 
-	'addTab.url' => {
+	'25' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -701,7 +776,7 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'25' => {
+	'addTab.url' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -786,6 +861,11 @@ our $I18N = {
 		lastUpdated => 
 	},
 
+	'data form asset template variables body' => {
+		message => q|Jedes Asset bietet ihren Templates einen Satz an Variablen, die auf den Asset Eigenschaften basieren. Einige dieser Variablen k&ouml;nnen n&uuml;tzlich sein, andere nicht.|,
+		lastUpdated => 1170409282
+	},
+
 	'record.data.isMailField' => {
 		message => q||,
 		lastUpdated => 
@@ -844,6 +924,11 @@ our $I18N = {
 	'editField vertical label description' => {
 		message => q||,
 		lastUpdated => 
+	},
+
+	'data form asset template variables title' => {
+		message => q|Daten-Formular Asset Template Variablen<br />|,
+		lastUpdated => 1170409323
 	},
 
 	'4' => {

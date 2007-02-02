@@ -71,6 +71,11 @@ our $I18N = {
 		lastUpdated => 
 	},
 
+	'productNumber' => {
+		message => q||,
+		lastUpdated => 
+	},
+
 	'20' => {
 		message => q||,
 		lastUpdated => 
@@ -141,6 +146,11 @@ our $I18N = {
 		lastUpdated => 
 	},
 
+	'cacheTimeout' => {
+		message => q||,
+		lastUpdated => 
+	},
+
 	'benefit_loop' => {
 		message => q||,
 		lastUpdated => 
@@ -194,6 +204,11 @@ our $I18N = {
 	'10 description' => {
 		message => q||,
 		lastUpdated => 
+	},
+
+	'product asset template variables title' => {
+		message => q|Produkt Asset Template Variablen<br />|,
+		lastUpdated => 1170408760
 	},
 
 	'24 description' => {
@@ -252,6 +267,11 @@ our $I18N = {
 	},
 
 	'23' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'templateId' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -336,6 +356,11 @@ our $I18N = {
 		lastUpdated => 
 	},
 
+	'manual' => {
+		message => q||,
+		lastUpdated => 
+	},
+
 	'63' => {
 		message => q||,
 		lastUpdated => 
@@ -371,6 +396,16 @@ our $I18N = {
 		lastUpdated => 
 	},
 
+	'brochure' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'product asset template variables body' => {
+		message => q|Jedes Asset bietet ihren Templates einen Satz an Variablen, die auf den Asset Eigenschaften basieren. Einige dieser Variablen k&ouml;nnen n&uuml;tzlich sein, andere nicht.|,
+		lastUpdated => 1170408745
+	},
+
 	'thumbnail2' => {
 		message => q||,
 		lastUpdated => 
@@ -397,6 +432,11 @@ our $I18N = {
 	},
 
 	'10' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'warranty' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -542,6 +582,11 @@ our $I18N = {
 	},
 
 	'manual.icon' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'price' => {
 		message => q||,
 		lastUpdated => 
 	},

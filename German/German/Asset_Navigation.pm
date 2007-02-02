@@ -6,7 +6,17 @@ our $I18N = {
 		lastUpdated => 
 	},
 
+	'showUnprivilegedPages' => {
+		message => q||,
+		lastUpdated => 
+	},
+
 	'32' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'showHiddenPages' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -66,6 +76,11 @@ our $I18N = {
 		lastUpdated => 
 	},
 
+	'mimeType variable' => {
+		message => q||,
+		lastUpdated => 
+	},
+
 	'page.hasViewableChildren' => {
 		message => q||,
 		lastUpdated => 
@@ -87,6 +102,11 @@ our $I18N = {
 	},
 
 	'currentPage.url' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'showSystemPages' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -117,11 +137,6 @@ our $I18N = {
 	},
 
 	'page.newWindow' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'1095' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -162,11 +177,6 @@ our $I18N = {
 	},
 
 	'Start Point Type' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'1094' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -221,6 +231,16 @@ our $I18N = {
 		lastUpdated => 
 	},
 
+	'navigation asset template variables title' => {
+		message => q|Navigation Asset Template Variablen<br />|,
+		lastUpdated => 1170408994
+	},
+
+	'startPoint' => {
+		message => q||,
+		lastUpdated => 
+	},
+
 	'page.parent.assetId' => {
 		message => q||,
 		lastUpdated => 
@@ -232,6 +252,11 @@ our $I18N = {
 	},
 
 	'currentPage.isHome' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'reversePageLoop' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -321,6 +346,11 @@ our $I18N = {
 		lastUpdated => 
 	},
 
+	'assetsToInclude' => {
+		message => q||,
+		lastUpdated => 
+	},
+
 	'30' => {
 		message => q||,
 		lastUpdated => 
@@ -342,6 +372,11 @@ our $I18N = {
 	},
 
 	'currentPage.assetId' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'descendantEndPoint' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -372,6 +407,11 @@ our $I18N = {
 	},
 
 	'page.absDepth' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'ancestorEndPoint' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -461,6 +501,16 @@ our $I18N = {
 		lastUpdated => 
 	},
 
+	'startType' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'templateId' => {
+		message => q||,
+		lastUpdated => 
+	},
+
 	'page.ownerUserId' => {
 		message => q||,
 		lastUpdated => 
@@ -489,6 +539,11 @@ our $I18N = {
 	'page.isUtility' => {
 		message => q||,
 		lastUpdated => 
+	},
+
+	'navigation asset template variables body' => {
+		message => q|Jedes Asset bietet ihren Templates einen Satz an Variablen, die auf den Asset Eigenschaften basieren. Einige dieser Variablen k&ouml;nnen n&uuml;tzlich sein, andere nicht.|,
+		lastUpdated => 1170408978
 	},
 
 	'page.parent.ownerUserId' => {

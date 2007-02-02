@@ -12,8 +12,8 @@ our $I18N = {
 	},
 
 	'trash after help' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Wie lange soll der Inhalt im Clipboard bleiben bis es in der Papierkorb verschoben wird? |,
+		lastUpdated => 1168943481
 	},
 
 	'activityName' => {

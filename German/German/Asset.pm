@@ -172,8 +172,8 @@ our $I18N = {
 	},
 
 	'purge trash after help' => {
-		message => q|<p>Wie lange soll ein Asset im M&uuml;lleimer bleiben, bis es entfernt wird? </p><p>Beachten Sie: Wenn es entfernt wird, werden alle Versionen und Nachfahren ebenso entfernt. </p>|,
-		lastUpdated => 1158614384
+		message => q|Wie lange soll ein Asset im M&uuml;lleimer bleiben, bis es entfernt wird? Beachten Sie: Wenn es entfernt wird, werden ebenso alle Versionen und Nachfahren entfernt.|,
+		lastUpdated => 1168963936
 	},
 
 	'rootUrl symlinking default' => {
@@ -302,8 +302,8 @@ our $I18N = {
 	},
 
 	'extrasUploads form option symlink' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Symlink|,
+		lastUpdated => 1168956794
 	},
 
 	'change url' => {
@@ -442,8 +442,8 @@ our $I18N = {
 	},
 
 	'could not rmdir' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Verzeichnis %s konnte nicht gelöscht werden: %s|,
+		lastUpdated => 1168956560
 	},
 
 	'Delete Metadata field' => {
@@ -472,8 +472,8 @@ our $I18N = {
 	},
 
 	'extra head tags description' => {
-		message => q|<p>Diese Tags werden im &lt;head&gt;-Bereich jeder Seite erg&auml;nzt, auf der dieses Asset erscheint.</p><br />|,
-		lastUpdated => 1153262944
+		message => q|Diese Tags werden im &lt;head&gt;-Bereich jeder Seite erg&auml;nzt, auf der dieses Asset erscheint.|,
+		lastUpdated => 1168956669
 	},
 
 	'411 description' => {
@@ -487,8 +487,8 @@ our $I18N = {
 	},
 
 	'Field Name description' => {
-		message => q|Der Name dieser Metadaten Eigenschaft. Er muss eindeutig sein. Es wird empfohlen, nur Buchstaben (a-z), Zahlen (0-9) oder Unterstriche (_) f&uuml;r die Feldnamen zu verwenden.<br />|,
-		lastUpdated => 1153201462
+		message => q|Der Name dieser Metadaten Eigenschaft. Er muss eindeutig sein. Es wird empfohlen, nur Buchstaben (a-z), Zahlen (0-9) oder Unterstriche (_) f&uuml;r die Feldnamen zu verwenden.|,
+		lastUpdated => 1168956349
 	},
 
 	'940' => {
@@ -532,8 +532,8 @@ our $I18N = {
 	},
 
 	'could not unlink' => {
-		message => q||,
-		lastUpdated => 
+		message => q|%s konnte nicht gelöscht werden: %s|,
+		lastUpdated => 1168956589
 	},
 
 	'url' => {
@@ -557,8 +557,8 @@ our $I18N = {
 	},
 
 	'Class Icon help' => {
-		message => q|<p>Bei jedem Asset wird auch ein Call Icon angezigt. Die meisten Class-Icons sind eindeutig einem Asset zugeordnet und sind kleinere Versionen der Icons, die in der Admin-Konsole angezeigt werden, um der Seite ein neues Asset hinzuzuf&uuml;gen. Beim Klick auf das Class-Icon erscheint ein Men&uuml; mit erweiterten Editierfunktionen. </p>|,
-		lastUpdated => 1153128485
+		message => q|Bei jedem Asset wird auch ein Class Icon angezigt. Die meisten Class-Icons sind eindeutig einem Asset zugeordnet und sind kleinere Versionen der Icons, die in der Admin-Konsole angezeigt werden, um der Seite ein neues Asset hinzuzuf&uuml;gen. Beim Klick auf das Class-Icon erscheint ein Men&uuml; mit erweiterten Editierfunktionen.|,
+		lastUpdated => 1168956398
 	},
 
 	'tag name' => {
@@ -588,8 +588,8 @@ Dies bedeutet in der REgel, dass Sie eine seite anlegen möchtgen, die den selbe
 	},
 
 	'could not create' => {
-		message => q||,
-		lastUpdated => 
+		message => q|%s konnte nicht erzeugt werden: %s|,
+		lastUpdated => 1168956497
 	},
 
 	'purge trash after' => {
@@ -628,8 +628,8 @@ Dies bedeutet in der REgel, dass Sie eine seite anlegen möchtgen, die den selbe
 	},
 
 	'make package description' => {
-		message => q|<p>Viele WebGUI Aufgaben wiederholen sich regelm&auml;&szlig;ig. Durch das Erstellen eines Pakets automatisieren Sie Aufgaben wie das Erstellen eines Assets oder dem Vornehmen aller Asset-Einstellungen, dieses vorkonfigurierte Asset kann danach als Paket &uuml;berall auf der Site wieder verwendet werden. Wenn Sie diese Asset als Paket verf&uuml;gbar machen wollen, w&auml;hlen Sie &quot;Ja&quot; aus. </p>|,
-		lastUpdated => 1153642013
+		message => q|<p>Viele WebGUI Aufgaben wiederholen sich regelm&auml;&szlig;ig. Durch das Erstellen eines Pakets automatisieren Sie Aufgaben, wie das Erstellen eines Assets oder Mengen davon. Vorkonfigurierte Assets k&ouml;nnen danach &uuml;berall auf der Site wiederverwendet werden. Wenn Sie diese Asset als Paket verf&uuml;gbar machen wollen, w&auml;hlen Sie &quot;Ja&quot; aus.|,
+		lastUpdated => 1168963847
 	},
 
 	'duplicateField' => {
@@ -668,8 +668,8 @@ Dies bedeutet in der REgel, dass Sie eine seite anlegen möchtgen, die den selbe
 	},
 
 	'asset toolbar body' => {
-		message => q|<p>Wenn Sie beim Betrachten eines Assets editierberechtigt sind und der Admin Modus aktiviert ist, wird eine Leiste mit Icons angezeigt, &uuml;ber die Sie das Asset editieren und ver&auml;ndern k&ouml;nnen.</p>|,
-		lastUpdated => 1153242485
+		message => q|Wenn Sie beim Betrachten eines Assets editierberechtigt sind und der Admin Modus aktiviert ist, wird eine Leiste mit Icons angezeigt, &uuml;ber die Sie das Asset editieren und ver&auml;ndern k&ouml;nnen.|,
+		lastUpdated => 1168956463
 	},
 
 	'size' => {
@@ -689,13 +689,13 @@ Normalerweise müßten Sie den URL in der letzen Revision des Assets ändern und
 	},
 
 	'confirm change url message' => {
-		message => q|Setzen Sie diesen Wert auf "Ja", um zu bestätigen, dass Sie diesen URL dauerhaft ändern möchten. Auf diese Weise löschen Sie alle alten Versionen dieses Assets.|,
-		lastUpdated => 1153243341
+		message => q|Setzen Sie diesen Wert auf &quot;Ja&quot;, um zu bestätigen, dass Sie diesen URL dauerhaft ändern möchten. Auf diese Weise löschen Sie alle alten Versionen dieses Assets.|,
+		lastUpdated => 1168956429
 	},
 
 	'rootUrl form label' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Root URL|,
+		lastUpdated => 1168963969
 	},
 
 	'174' => {
@@ -824,8 +824,8 @@ Normalerweise müßten Sie den URL in der letzen Revision des Assets ändern und
 	},
 
 	'could not symlink' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Symlink von %s nach %s konnte nicht erzeugt werden: %s|,
+		lastUpdated => 1168956612
 	},
 
 	'content profiling' => {

@@ -116,6 +116,11 @@ our $I18N = {
 		lastUpdated => 
 	},
 
+	'sql form asset template variables title' => {
+		message => q|SQL-Formular Asset Template Variablen<br />|,
+		lastUpdated => 1170408073
+	},
+
 	'field.__FIELDNAME__.formElement' => {
 		message => q||,
 		lastUpdated => 
@@ -241,6 +246,11 @@ our $I18N = {
 		lastUpdated => 
 	},
 
+	'tableName' => {
+		message => q||,
+		lastUpdated => 
+	},
+
 	'edit field title' => {
 		message => q||,
 		lastUpdated => 
@@ -312,6 +322,11 @@ our $I18N = {
 	},
 
 	'efs join populate error' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'defaultView' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -451,6 +466,11 @@ our $I18N = {
 		lastUpdated => 
 	},
 
+	'databaseLinkId' => {
+		message => q||,
+		lastUpdated => 
+	},
+
 	'ef join constraint' => {
 		message => q||,
 		lastUpdated => 
@@ -466,7 +486,17 @@ our $I18N = {
 		lastUpdated => 
 	},
 
+	'maxFileSize' => {
+		message => q||,
+		lastUpdated => 
+	},
+
 	'lr used regexes' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'sendMailTo' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -696,6 +726,11 @@ our $I18N = {
 		lastUpdated => 
 	},
 
+	'alterGroupId' => {
+		message => q||,
+		lastUpdated => 
+	},
+
 	'normalSearch.url' => {
 		message => q||,
 		lastUpdated => 
@@ -771,6 +806,11 @@ our $I18N = {
 		lastUpdated => 
 	},
 
+	'formId' => {
+		message => q||,
+		lastUpdated => 
+	},
+
 	'field.searchForm2' => {
 		message => q||,
 		lastUpdated => 
@@ -826,6 +866,11 @@ our $I18N = {
 		lastUpdated => 
 	},
 
+	'sql form asset template variables body' => {
+		message => q|Jedes Asset bietet ihren Templates einen Satz an Variablen, die auf den Asset Eigenschaften basieren. Einige dieser Variablen k&ouml;nnen n&uuml;tzlich sein, andere nicht.|,
+		lastUpdated => 1170408055
+	},
+
 	'_csf normal and trash' => {
 		message => q||,
 		lastUpdated => 
@@ -842,6 +887,11 @@ our $I18N = {
 	},
 
 	's query error' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'submitGroupId' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -912,8 +962,8 @@ our $I18N = {
 	},
 
 	'assetName' => {
-		message => q||,
-		lastUpdated => 
+		message => q|SQL-Formular|,
+		lastUpdated => 1170408100
 	},
 
 	'ef fulltext description' => {
@@ -1021,6 +1071,11 @@ our $I18N = {
 		lastUpdated => 
 	},
 
+	'searchTemplateId' => {
+		message => q||,
+		lastUpdated => 
+	},
+
 	'cancel' => {
 		message => q||,
 		lastUpdated => 
@@ -1107,6 +1162,11 @@ our $I18N = {
 	},
 
 	'field.conditionalForm' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'editTemplateId' => {
 		message => q||,
 		lastUpdated => 
 	},

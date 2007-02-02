@@ -17,18 +17,22 @@ our $I18N = {
 	},
 
 	'object type' => {
-		message => q|Objekt Typ|,
-		lastUpdated => 1168590697
+		message => q|Objektart|,
+		lastUpdated => 1168867484
 	},
 
 	'topicName' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Workflow|,
+		lastUpdated => 1168867163
 	},
 
 	'is serial help' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Bei &quot;Ja&quot; kann nur eine Instanz dieses Workflows zu einem Zeitpunkt ablaufen. Neue Instanzen werden in einer
+Warteschlange gespeichert und laufen ab, sobald die aktuelle
+endet. Dies ist im allgemeinen f&uuml;r ein Workflow nicht
+sinnvoll, au&szlig;er die verschiedenen Instanzen operieren
+&uuml;ber dieselben Daten.|,
+		lastUpdated => 1168866940
 	},
 
 	'run' => {
@@ -42,8 +46,10 @@ our $I18N = {
 	},
 
 	'show running workflows body' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Diese Seite kann beim Auffinden von Problemen helfen, indem alle gerade laufenden Workflos angezeigt werden. Sie werden in einer Tabelle mit ihrem Namen und der Startzeit abgezeugt. Nimmt der
+Workflow derzeit einen definierten Zustand ein, wird auch der
+und die Zeit, an welchem der Zustand erreicht wurde, angezeigt.|,
+		lastUpdated => 1168867398
 	},
 
 	'edit workflow body' => {
@@ -57,8 +63,8 @@ our $I18N = {
 	},
 
 	'manage workflows' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Alle Workflows verwalten.|,
+		lastUpdated => 1168867508
 	},
 
 	'enabled' => {
@@ -67,13 +73,13 @@ our $I18N = {
 	},
 
 	'is serial' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Nicht gleichzeitig?|,
+		lastUpdated => 1168866739
 	},
 
 	'object type help' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Welche Objektarten soll dieser Workflow verarbeiten k&ouml;nnen?|,
+		lastUpdated => 1168867435
 	},
 
 	'edit workflow' => {
@@ -87,18 +93,19 @@ our $I18N = {
 	},
 
 	'title help' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Ein menschenlesbarer Text, der einfach beschreibt, was
+der Workflow macht.|,
+		lastUpdated => 1168867153
 	},
 
 	'object type help2' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Die Art des Workflows, der hinzugef&uuml;gt werden soll.|,
+		lastUpdated => 1168867468
 	},
 
 	'is enabled' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Aktiviert?|,
+		lastUpdated => 1168866675
 	},
 
 	'confirm delete activity' => {
@@ -117,8 +124,10 @@ our $I18N = {
 	},
 
 	'is singleton help' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Bei &quot;Ja&quot; kann nur eine Instanz dieses Workflows zu einem Zeitpunkt erzeugt werden. Dies ist im allgemeinen f&uuml;r ein Workflow nicht
+sinnvoll, au&szlig;er z.B. f&uuml;r solche, die EMails
+von entfernten Rechnern herunterladen.|,
+		lastUpdated => 1168867021
 	},
 
 	'description' => {
@@ -132,8 +141,8 @@ our $I18N = {
 	},
 
 	'is singleton' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Unikat?|,
+		lastUpdated => 1168867095
 	},
 
 	'title' => {
@@ -142,8 +151,8 @@ our $I18N = {
 	},
 
 	'show running workflows' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Laufende Workflows anzeigen.|,
+		lastUpdated => 1168867206
 	},
 
 };

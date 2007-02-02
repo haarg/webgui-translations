@@ -51,12 +51,27 @@ our $I18N = {
 		lastUpdated => 
 	},
 
+	'managerViewTemplateId' => {
+		message => q||,
+		lastUpdated => 
+	},
+
 	'form.hours' => {
 		message => q||,
 		lastUpdated => 
 	},
 
 	'edit project tasks hoverhelp' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'time tracking asset template variables body' => {
+		message => q|Jedes Asset bietet ihren Templates einen Satz an Variablen, die auf den Asset Eigenschaften basieren. Einige dieser Variablen k&ouml;nnen n&uuml;tzlich sein, andere nicht.|,
+		lastUpdated => 1170406462
+	},
+
+	'time.report.totalHours.label' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -107,6 +122,16 @@ our $I18N = {
 	},
 
 	'form.comments' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'project.task.array' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'timeRowTemplateId' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -162,6 +187,11 @@ our $I18N = {
 	},
 
 	'time.report.hours.label' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'groupToManage' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -277,6 +307,11 @@ our $I18N = {
 	},
 
 	'time.save.label' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'pmIntegration' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -416,6 +451,11 @@ our $I18N = {
 		lastUpdated => 
 	},
 
+	'time tracking asset template variables title' => {
+		message => q||,
+		lastUpdated => 
+	},
+
 	'form.footer' => {
 		message => q||,
 		lastUpdated => 
@@ -427,6 +467,11 @@ our $I18N = {
 	},
 
 	'userViewTemplate hoverhelp' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'userViewTemplateId' => {
 		message => q||,
 		lastUpdated => 
 	},

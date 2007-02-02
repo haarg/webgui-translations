@@ -192,8 +192,8 @@ our $I18N = {
 	},
 
 	'user.canPost' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Bedingung, die wahr ist wenn aktueller Benutzer Beitr&auml;ge zu diesem Collaboration Asset hinzuf&uuml;gen darf. |,
+		lastUpdated => 1168864679
 	},
 
 	'unsubscribe' => {
@@ -256,14 +256,19 @@ our $I18N = {
 		lastUpdated => 
 	},
 
+	'attachment_thumbnail' => {
+		message => q||,
+		lastUpdated => 
+	},
+
 	'avatar.url' => {
 		message => q||,
 		lastUpdated => 
 	},
 
 	'user' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Benutzer |,
+		lastUpdated => 1168864618
 	},
 
 	'id' => {
@@ -347,8 +352,8 @@ our $I18N = {
 	},
 
 	'attachment.length' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Gr&ouml;&szlig;e Anhang in Bytes.<br />|,
+		lastUpdated => 1168864467
 	},
 
 	'sortby.views.url' => {
@@ -542,8 +547,8 @@ our $I18N = {
 	},
 
 	'attachments/post description' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Wie viele Anh&auml;nge d&uuml;rfen pro Beitrag hinzugef&uuml;gt werden?<br />|,
+		lastUpdated => 1168864580
 	},
 
 	'post template description' => {
@@ -612,8 +617,8 @@ our $I18N = {
 	},
 
 	'collaboration post list template variables body' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Diese Variablen sind in verschiedenen Templates, die vom Collaboration Sytem genutzt werden, verf&uuml;gbar. |,
+		lastUpdated => 1170409387
 	},
 
 	'url.label' => {
@@ -627,8 +632,8 @@ our $I18N = {
 	},
 
 	'attachment.path' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Pfad im Dateisystem zu diesem Anhang.<br />|,
+		lastUpdated => 1168864489
 	},
 
 	'answer.label' => {
@@ -812,8 +817,8 @@ our $I18N = {
 	},
 
 	'attachment.url' => {
-		message => q||,
-		lastUpdated => 
+		message => q|URL zu diesem Anhang.<br />|,
+		lastUpdated => 1168864504
 	},
 
 	'stick.label' => {
@@ -867,8 +872,8 @@ our $I18N = {
 	},
 
 	'who posts' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Wer darf Beitr&auml;ge ver&ouml;ffentlichen?<br />|,
+		lastUpdated => 1168864738
 	},
 
 	'delete' => {
@@ -1012,8 +1017,8 @@ our $I18N = {
 	},
 
 	'who posts description' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Gruppe, die Beitr&auml;ge ver&ouml;ffentlichen darf.<br />|,
+		lastUpdated => 1168864750
 	},
 
 	'isThird' => {
@@ -1027,8 +1032,8 @@ our $I18N = {
 	},
 
 	'attachments/post' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Anh&auml;nge pro Beitrag.<br />|,
+		lastUpdated => 1168864556
 	},
 
 	'require subscription for email posting help' => {
@@ -1172,8 +1177,8 @@ our $I18N = {
 	},
 
 	'attachmentLoop' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Schleife, die alle Anh&auml;nge in diesem Beitrag enth&auml;lt.|,
+		lastUpdated => 1168864543
 	},
 
 	'next.label' => {
@@ -1232,8 +1237,8 @@ our $I18N = {
 	},
 
 	'archive after' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Archiviere nach<br />|,
+		lastUpdated => 1168864145
 	},
 
 	'isFifth' => {
@@ -1387,8 +1392,8 @@ our $I18N = {
 	},
 
 	'assetName' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Collaboration System<br />|,
+		lastUpdated => 1168864424
 	},
 
 	'edit.url' => {
@@ -1497,8 +1502,8 @@ our $I18N = {
 	},
 
 	'archive' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Archivieren|,
+		lastUpdated => 1168864134
 	},
 
 	'karma/post description' => {
@@ -1542,8 +1547,8 @@ our $I18N = {
 	},
 
 	'archive after description' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Zeitspanne nach dem letzten Update eines Betrags, nachdem dieser archiviert wird.<br />|,
+		lastUpdated => 1168864357
 	},
 
 	'subscribe.label' => {

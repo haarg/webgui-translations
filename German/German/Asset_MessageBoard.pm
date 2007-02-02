@@ -61,6 +61,11 @@ our $I18N = {
 		lastUpdated => 
 	},
 
+	'visitorCacheTimeout' => {
+		message => q||,
+		lastUpdated => 
+	},
+
 	'75' => {
 		message => q||,
 		lastUpdated => 
@@ -91,17 +96,17 @@ our $I18N = {
 		lastUpdated => 
 	},
 
+	'message board asset template variables title' => {
+		message => q||,
+		lastUpdated => 
+	},
+
 	'forum.views' => {
 		message => q||,
 		lastUpdated => 
 	},
 
 	'forum.lastpost.url' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'default.title' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -156,14 +161,14 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'default.description' => {
+	'forum.title' => {
 		message => q||,
 		lastUpdated => 
 	},
 
-	'forum.title' => {
-		message => q||,
-		lastUpdated => 
+	'message board asset template variables body' => {
+		message => q|Jedes Asset bietet ihren Templates einen Satz an Variablen, die auf den Asset Eigenschaften basieren. Einige dieser Variablen k&ouml;nnen n&uuml;tzlich sein, andere nicht.|,
+		lastUpdated => 1170409070
 	},
 
 	'rating' => {
@@ -197,6 +202,11 @@ our $I18N = {
 	},
 
 	'visitor cache timeout' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'templateId' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -252,11 +262,6 @@ our $I18N = {
 	},
 
 	'76' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'default.controls' => {
 		message => q||,
 		lastUpdated => 
 	},

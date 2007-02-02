@@ -12,8 +12,8 @@ our $I18N = {
 	},
 
 	'assetName' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Bild|,
+		lastUpdated => 1170409158
 	},
 
 	'new height' => {
@@ -77,6 +77,11 @@ our $I18N = {
 	},
 
 	'thumbnailSize' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'image template asset var body' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -162,6 +167,11 @@ our $I18N = {
 	},
 
 	'parameters variable' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'image template asset var title' => {
 		message => q||,
 		lastUpdated => 
 	},

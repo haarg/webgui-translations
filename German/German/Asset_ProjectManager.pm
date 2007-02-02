@@ -1,9 +1,24 @@
 package WebGUI::i18n::German::Asset_ProjectManager;
 
 our $I18N = {
+	'task resource label' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'task_end_label' => {
+		message => q||,
+		lastUpdated => 
+	},
+
 	'day.number' => {
 		message => q||,
 		lastUpdated => 
+	},
+
+	'project manager asset template variables body' => {
+		message => q|Jedes Asset bietet ihren Templates einen Satz an Variablen, die auf den Asset Eigenschaften basieren. Einige dieser Variablen k&ouml;nnen n&uuml;tzlich sein, andere nicht.|,
+		lastUpdated => 1170408703
 	},
 
 	'pm add/edit title' => {
@@ -16,12 +31,37 @@ our $I18N = {
 		lastUpdated => 
 	},
 
+	'resourceKind' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'project.cost.data.int' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'empty.colspan' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'project manager asset template variables title' => {
+		message => q|Projektmanagementsystem Asset Template Variablen<br />|,
+		lastUpdated => 1170408733
+	},
+
 	'sunday label' => {
 		message => q||,
 		lastUpdated => 
 	},
 
 	'gantt chart template vars body' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'project.startDate.label' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -36,7 +76,22 @@ our $I18N = {
 		lastUpdated => 
 	},
 
+	'form.resourceDiv' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'notFoundMessage' => {
+		message => q||,
+		lastUpdated => 
+	},
+
 	'project name label' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'canEditProjects' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -46,7 +101,27 @@ our $I18N = {
 		lastUpdated => 
 	},
 
+	'odd' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'callback' => {
+		message => q||,
+		lastUpdated => 
+	},
+
 	'pm add/edit body' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'title' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'project.edit.url' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -76,12 +151,17 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'form.milestone' => {
+	'form.start' => {
 		message => q||,
 		lastUpdated => 
 	},
 
-	'form.start' => {
+	'opTitle' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'resourcePopupTemplateId' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -106,6 +186,11 @@ our $I18N = {
 		lastUpdated => 
 	},
 
+	'project.create.label' => {
+		message => q||,
+		lastUpdated => 
+	},
+
 	'form.save' => {
 		message => q||,
 		lastUpdated => 
@@ -121,6 +206,11 @@ our $I18N = {
 		lastUpdated => 
 	},
 
+	'resourceIcon' => {
+		message => q||,
+		lastUpdated => 
+	},
+
 	'task.end' => {
 		message => q||,
 		lastUpdated => 
@@ -131,7 +221,17 @@ our $I18N = {
 		lastUpdated => 
 	},
 
+	'form.seqNum' => {
+		message => q||,
+		lastUpdated => 
+	},
+
 	'task.back.url' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'previousSearch' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -186,6 +286,16 @@ our $I18N = {
 		lastUpdated => 
 	},
 
+	'hiddenFields' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'resourceId' => {
+		message => q||,
+		lastUpdated => 
+	},
+
 	'task resources label' => {
 		message => q||,
 		lastUpdated => 
@@ -196,12 +306,37 @@ our $I18N = {
 		lastUpdated => 
 	},
 
+	'selfUrl' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'project.delete.warning' => {
+		message => q||,
+		lastUpdated => 
+	},
+
 	'task.start' => {
 		message => q||,
 		lastUpdated => 
 	},
 
+	'task_predecessor_label' => {
+		message => q||,
+		lastUpdated => 
+	},
+
 	'project new label' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'task_complete_label' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'project.cost.label' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -256,6 +391,11 @@ our $I18N = {
 		lastUpdated => 
 	},
 
+	'task_start_label' => {
+		message => q||,
+		lastUpdated => 
+	},
+
 	'tuesday.label' => {
 		message => q||,
 		lastUpdated => 
@@ -266,7 +406,22 @@ our $I18N = {
 		lastUpdated => 
 	},
 
+	'form.addUser.id' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'task save label' => {
+		message => q||,
+		lastUpdated => 
+	},
+
 	'hours label' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'form.addGroup.id' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -276,12 +431,52 @@ our $I18N = {
 		lastUpdated => 
 	},
 
+	'project.startDate.data' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'projectDisplayTemplateId' => {
+		message => q||,
+		lastUpdated => 
+	},
+
 	'task previousPredecessor error' => {
 		message => q||,
 		lastUpdated => 
 	},
 
+	'doingSearch' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'form.taskType' => {
+		message => q||,
+		lastUpdated => 
+	},
+
 	'project action label' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'resourceDiv' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'task_duration_label' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'foundResults' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'project.name.label' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -306,12 +501,37 @@ our $I18N = {
 		lastUpdated => 
 	},
 
+	'task predecessor label' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'ganttChartTemplateId' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'searchText' => {
+		message => q||,
+		lastUpdated => 
+	},
+
 	'task name error' => {
 		message => q||,
 		lastUpdated => 
 	},
 
 	'ganttChartTemplate hoverhelp' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'project.endDate.label' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'project dashboard template title' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -331,6 +551,31 @@ our $I18N = {
 		lastUpdated => 
 	},
 
+	'form.addGroup.link' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'project.complete.data.int' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'task.row.id' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'project.complete.label' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'editTaskTemplateId' => {
+		message => q||,
+		lastUpdated => 
+	},
+
 	'form.footer' => {
 		message => q||,
 		lastUpdated => 
@@ -341,7 +586,22 @@ our $I18N = {
 		lastUpdated => 
 	},
 
+	'resourceName' => {
+		message => q||,
+		lastUpdated => 
+	},
+
 	'resourcePopupTemplate hoverhelp' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'project dashboard template body' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'project.actions.label' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -352,6 +612,11 @@ our $I18N = {
 	},
 
 	'thursday label' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'project.view.url' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -371,6 +636,11 @@ our $I18N = {
 		lastUpdated => 
 	},
 
+	'project.complete.data.float' => {
+		message => q||,
+		lastUpdated => 
+	},
+
 	'task name label' => {
 		message => q||,
 		lastUpdated => 
@@ -386,7 +656,17 @@ our $I18N = {
 		lastUpdated => 
 	},
 
+	'taskType timed label' => {
+		message => q||,
+		lastUpdated => 
+	},
+
 	'project complete label' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'add resource popup template title' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -406,6 +686,11 @@ our $I18N = {
 		lastUpdated => 
 	},
 
+	'taskType milestone label' => {
+		message => q||,
+		lastUpdated => 
+	},
+
 	'form.greaterThan.error' => {
 		message => q||,
 		lastUpdated => 
@@ -416,7 +701,27 @@ our $I18N = {
 		lastUpdated => 
 	},
 
+	'form.addUser.link' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'form.lagTime' => {
+		message => q||,
+		lastUpdated => 
+	},
+
 	'task end error' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'opCallbackJs' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'add resource popup template body' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -426,7 +731,22 @@ our $I18N = {
 		lastUpdated => 
 	},
 
+	'opIcon' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'project.delete.url' => {
+		message => q||,
+		lastUpdated => 
+	},
+
 	'project description hoverhelp' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'task_save_label' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -481,7 +801,12 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'task.number.id' => {
+	'project.create' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'task_lagTime_label' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -501,7 +826,17 @@ our $I18N = {
 		lastUpdated => 
 	},
 
+	'project.cost.data.float' => {
+		message => q||,
+		lastUpdated => 
+	},
+
 	'form.start.error' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'task untimedPredecessor error' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -511,7 +846,27 @@ our $I18N = {
 		lastUpdated => 
 	},
 
+	'list resource popup template title' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'noProjects' => {
+		message => q||,
+		lastUpdated => 
+	},
+
 	'edit form.header' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'task_resource_label' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'exclude' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -531,6 +886,11 @@ our $I18N = {
 		lastUpdated => 
 	},
 
+	'foundMessage' => {
+		message => q||,
+		lastUpdated => 
+	},
+
 	'project manager label' => {
 		message => q||,
 		lastUpdated => 
@@ -542,6 +902,11 @@ our $I18N = {
 	},
 
 	'task.edit.url' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'groupToAdd' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -566,12 +931,32 @@ our $I18N = {
 		lastUpdated => 
 	},
 
+	'project.name.data' => {
+		message => q||,
+		lastUpdated => 
+	},
+
 	'view project template vars body' => {
 		message => q||,
 		lastUpdated => 
 	},
 
 	'task.start.label' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'project.endDate.data' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'project.description.data' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'N_A' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -606,7 +991,17 @@ our $I18N = {
 		lastUpdated => 
 	},
 
+	'project.edit.title' => {
+		message => q||,
+		lastUpdated => 
+	},
+
 	'task.duration' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'form.lagTime.units' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -636,6 +1031,11 @@ our $I18N = {
 		lastUpdated => 
 	},
 
+	'projectDashboardTemplateId' => {
+		message => q||,
+		lastUpdated => 
+	},
+
 	'target budget hoverhelp' => {
 		message => q||,
 		lastUpdated => 
@@ -656,6 +1056,11 @@ our $I18N = {
 		lastUpdated => 
 	},
 
+	'project.loop' => {
+		message => q||,
+		lastUpdated => 
+	},
+
 	'extras.base' => {
 		message => q||,
 		lastUpdated => 
@@ -666,7 +1071,22 @@ our $I18N = {
 		lastUpdated => 
 	},
 
+	'list resource popup template body' => {
+		message => q||,
+		lastUpdated => 
+	},
+
 	'edit project' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'assetExtras' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'project.delete.title' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -686,6 +1106,11 @@ our $I18N = {
 		lastUpdated => 
 	},
 
+	'resourceLoop' => {
+		message => q||,
+		lastUpdated => 
+	},
+
 	'project name hoverhelp' => {
 		message => q||,
 		lastUpdated => 
@@ -697,6 +1122,11 @@ our $I18N = {
 	},
 
 	'edit form.footer' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'task lag time label' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -726,12 +1156,27 @@ our $I18N = {
 		lastUpdated => 
 	},
 
+	'form.addUser.text' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'task_name_label' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'taskType progressive label' => {
+		message => q||,
+		lastUpdated => 
+	},
+
 	'project delete warning' => {
 		message => q||,
 		lastUpdated => 
 	},
 
-	'form.resource' => {
+	'form.addGroup.text' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -741,7 +1186,17 @@ our $I18N = {
 		lastUpdated => 
 	},
 
+	'resourceListTemplateId' => {
+		message => q||,
+		lastUpdated => 
+	},
+
 	'project manager hoverhelp' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'func' => {
 		message => q||,
 		lastUpdated => 
 	},

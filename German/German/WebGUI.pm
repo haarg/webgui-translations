@@ -112,8 +112,8 @@ our $I18N = {
 	},
 
 	'1021' => {
-		message => q|Nachricht bewerten|,
-		lastUpdated => 1168590981
+		message => q||,
+		lastUpdated => 
 	},
 
 	'135 description' => {
@@ -227,8 +227,8 @@ our $I18N = {
 	},
 
 	'337' => {
-		message => q|Homepage URL|,
-		lastUpdated => 1168590844
+		message => q||,
+		lastUpdated => 
 	},
 
 	'76' => {
@@ -302,13 +302,13 @@ our $I18N = {
 	},
 
 	'348' => {
-		message => q|Name|,
-		lastUpdated => 1168590819
+		message => q||,
+		lastUpdated => 
 	},
 
 	'145' => {
-		message => q|WebGUI Build Version|,
-		lastUpdated => 1168590834
+		message => q||,
+		lastUpdated => 
 	},
 
 	'preview' => {
@@ -512,8 +512,8 @@ our $I18N = {
 	},
 
 	'342' => {
-		message => q|Benutzerdaten bearbeiten.|,
-		lastUpdated => 1168590881
+		message => q||,
+		lastUpdated => 
 	},
 
 	'862' => {
@@ -647,8 +647,8 @@ our $I18N = {
 	},
 
 	'1084' => {
-		message => q|Standard Toolbar der Sprache benutzen|,
-		lastUpdated => 1168590773
+		message => q||,
+		lastUpdated => 
 	},
 
 	'370' => {
@@ -672,8 +672,8 @@ our $I18N = {
 	},
 
 	'1' => {
-		message => q|Inhalt hinzuf&uuml;gen ...<br />|,
-		lastUpdated => 1149227115
+		message => q|Inhalt hinzuf&uuml;gen|,
+		lastUpdated => 1168866563
 	},
 
 	'144' => {
@@ -722,8 +722,8 @@ our $I18N = {
 	},
 
 	'392' => {
-		message => q|Diese Datei löschen?|,
-		lastUpdated => 1168590902
+		message => q||,
+		lastUpdated => 
 	},
 
 	'pagination.pageCount.isMultiple' => {
@@ -1487,8 +1487,8 @@ our $I18N = {
 	},
 
 	'130' => {
-		message => q|Maximale Größe des Anhangs|,
-		lastUpdated => 1168590791
+		message => q||,
+		lastUpdated => 
 	},
 
 	'543' => {
@@ -1852,8 +1852,8 @@ our $I18N = {
 	},
 
 	'user' => {
-		message => q|Benutzer|,
-		lastUpdated => 1168590745
+		message => q||,
+		lastUpdated => 
 	},
 
 	'732' => {
@@ -2042,8 +2042,8 @@ our $I18N = {
 	},
 
 	'37' => {
-		message => q|Zugriff verweigert!|,
-		lastUpdated => 1168590861
+		message => q||,
+		lastUpdated => 
 	},
 
 	'335' => {
@@ -2147,8 +2147,8 @@ our $I18N = {
 	},
 
 	'1008' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Text und HTML gemischt|,
+		lastUpdated => 1168866586
 	},
 
 	'1027' => {
@@ -2347,8 +2347,8 @@ our $I18N = {
 	},
 
 	'338' => {
-		message => q|Profil bearbeiten|,
-		lastUpdated => 1168590944
+		message => q||,
+		lastUpdated => 
 	},
 
 	'576' => {
@@ -2687,8 +2687,8 @@ our $I18N = {
 	},
 
 	'1010' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Text|,
+		lastUpdated => 1168866547
 	},
 
 	'707' => {
@@ -3022,8 +3022,8 @@ our $I18N = {
 	},
 
 	'10' => {
-		message => q|Verwalten M&uuml;lleimer |,
-		lastUpdated => 1149227132
+		message => q||,
+		lastUpdated => 
 	},
 
 	'980' => {
@@ -3162,8 +3162,8 @@ our $I18N = {
 	},
 
 	'1047' => {
-		message => q|Inhaltsfilter hinzufügen.|,
-		lastUpdated => 1168590999
+		message => q||,
+		lastUpdated => 
 	},
 
 	'88' => {
@@ -3172,13 +3172,13 @@ our $I18N = {
 	},
 
 	'user profiling' => {
-		message => q|User Profile|,
-		lastUpdated => 1168590932
+		message => q||,
+		lastUpdated => 
 	},
 
 	'1009' => {
-		message => q||,
-		lastUpdated => 
+		message => q|HTML|,
+		lastUpdated => 1168866572
 	},
 
 	'groups default title' => {

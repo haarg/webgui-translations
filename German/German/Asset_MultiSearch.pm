@@ -8,12 +8,7 @@ our $I18N = {
 
 	'search' => {
 		message => q|Suche|,
-		lastUpdated => 1157856297
-	},
-
-	'for' => {
-		message => q||,
-		lastUpdated => 
+		lastUpdated => 1170409041
 	},
 
 	'multisearch template body' => {
@@ -37,13 +32,13 @@ our $I18N = {
 	},
 
 	'assetName' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Multi-Suche|,
+		lastUpdated => 1170409054
 	},
 
-	'search.variable' => {
-		message => q||,
-		lastUpdated => 
+	'multi search asset template variables body' => {
+		message => q|Jedes Asset bietet ihren Templates einen Satz an Variablen, die auf den Asset Eigenschaften basieren. Einige dieser Variablen k&ouml;nnen n&uuml;tzlich sein, andere nicht.|,
+		lastUpdated => 1170409017
 	},
 
 	'multisearch template title' => {
@@ -57,6 +52,31 @@ our $I18N = {
 	},
 
 	'cache timeout' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'multi search asset template variables title' => {
+		message => q|Multi -Suche Asset Template Variablen<br />|,
+		lastUpdated => 1170409061
+	},
+
+	'templateId' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'cacheTimeout' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'for' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'search.variable' => {
 		message => q||,
 		lastUpdated => 
 	},

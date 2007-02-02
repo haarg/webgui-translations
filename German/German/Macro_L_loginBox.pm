@@ -17,8 +17,8 @@ our $I18N = {
 	},
 
 	'customText' => {
-		message => q|Text der an das Makro übergeben wird, um azuzeigen, dass der Benutzer angemeldet ist.|,
-		lastUpdated => 1157909236
+		message => q|Text der an das Makro übergeben wird, um anzuzeigen, dass der Benutzer angemeldet ist.|,
+		lastUpdated => 1168878412
 	},
 
 	'48' => {

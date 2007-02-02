@@ -74,7 +74,7 @@ our $I18N = {
 
 	'new file description' => {
 		message => q|<p>Geben Sie den Pfad zu einer Datei ein oder benutzen Sie den AuswahlButton, um eine Datei auf ihrer lokalen Festplatte f&uuml;r den Upload auszuw&auml;hlen.</p>|,
-		lastUpdated => 1153684036
+		lastUpdated => 1168863218
 	},
 
 	'file template body' => {
@@ -94,7 +94,7 @@ our $I18N = {
 
 	'file add/edit body' => {
 		message => q|<p>Datei-Assets sind Dateien Ihrer Site, die f&uuml;r die Nutzer zum Downlaod zur Verf&uuml;gung stehen. Wenn Sie mehrere Dateien verf&uuml;gbar machen wollen, probieren Sie das Dateiauswahl-Asset.</p>Da auch Dateien Assets darstellen, k&ouml;nnen sie alle Eigenschaften haben, die auch Assets besitzen. Hier finden Sie die Eigenschaften, die speziell f&uuml;r beim Grafiken-Asset zur Verf&uuml;gung stehen:|,
-		lastUpdated => 1153683523
+		lastUpdated => 1168863213
 	},
 
 	'filename' => {
@@ -119,7 +119,7 @@ our $I18N = {
 
 	'storageId' => {
 		message => q|Die interne storageID der Datei.|,
-		lastUpdated => 1153265966
+		lastUpdated => 1168863222
 	},
 
 	'filename var' => {
