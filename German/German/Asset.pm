@@ -2,13 +2,13 @@ package WebGUI::i18n::German::Asset;
 
 our $I18N = {
 	'lock help' => {
-		message => q|<p>Sichern Sie sich eine Kopie dieses Assets zur Bearbeitung. Dies sperrt das Asset f&uuml;r jeden, der nicht unter der aktuellen Versionsmarkierung arbeitet. Diese Option wird nur angezeigt, wenn das Asset nicht bereits gesperrt ist.<br /></p>|,
-		lastUpdated => 1153641438
+		message => q|Sichern Sie sich eine Kopie dieses Assets zur Bearbeitung. Dies sperrt das Asset f&uuml;r jeden, der nicht unter der aktuellen Versionsmarkierung arbeitet. Diese Option wird nur angezeigt, wenn das Asset nicht bereits gesperrt ist.|,
+		lastUpdated => 1170458679
 	},
 
 	'make package' => {
-		message => q|Paket erzeugen?<br />|,
-		lastUpdated => 1153641604
+		message => q|Paket erzeugen?|,
+		lastUpdated => 1170458694
 	},
 
 	'959' => {
@@ -17,33 +17,33 @@ our $I18N = {
 	},
 
 	'parent url' => {
-		message => q|Eltern-URL|,
-		lastUpdated => 1153263301
+		message => q|Elternteil URL|,
+		lastUpdated => 1170458428
 	},
 
 	'Export as user description' => {
-		message => q|F&uuml;hrt einen Seitenexport unter dieser Benutzerkennung durch. Standard ist &quot;Besucher&quot;.<br />|,
-		lastUpdated => 1153128670
+		message => q|<p>F&uuml;hrt einen Seitenexport unter dieser Benutzerkennung durch. Standard ist &quot;Besucher&quot;.</p>|,
+		lastUpdated => 1170453810
 	},
 
 	'Uploads URL' => {
-		message => q|Uploads URL<br />|,
-		lastUpdated => 1153238397
+		message => q|Uploads URL|,
+		lastUpdated => 1170454199
 	},
 
 	'newWindow' => {
-		message => q|Boolscher Wert, der wahr ist wenn das Asset in einem neuen Browser Fenster ge&ouml;ffnet wird.<br />|,
-		lastUpdated => 1168851321
+		message => q|Boolscher Wert, der wahr ist, wenn das Asset in einem neuen Browser Fenster ge&ouml;ffnet wird.|,
+		lastUpdated => 1170458894
 	},
 
 	'871 description' => {
-		message => q|W&auml;hlen Sie die Gruppe aus, die dieses Asset bearbeiten darf. Die Gruppe, die die Berechtigung zum Bearbeiten hat, kann das Asset auch sehen.  |,
-		lastUpdated => 1153127085
+		message => q|<p>W&auml;hlen Sie die Gruppe aus, die dieses Asset bearbeiten darf. Die Gruppe, die die Berechtigung zum Bearbeiten hat, kann das Asset auch sehen. <br /></p>|,
+		lastUpdated => 1170452259
 	},
 
 	'add the missing page' => {
-		message => q|Die fehlende Seite hinzuf&uuml;gen<br />|,
-		lastUpdated => 1153238512
+		message => q|Die fehlende Seite hinzuf&uuml;gen.|,
+		lastUpdated => 1170454236
 	},
 
 	'view' => {
@@ -52,23 +52,23 @@ our $I18N = {
 	},
 
 	'isHidden' => {
-		message => q|Boolscher Wert, der wahr ist wenn das Asset in der Navigation nicht angezeigt wird.<br />|,
-		lastUpdated => 1168850568
+		message => q|Boolscher Wert, der wahr ist, wenn das Asset in der Navigation nicht angezeigt wird.|,
+		lastUpdated => 1170458448
 	},
 
 	'export information' => {
-		message => q|%d Seiten in %d Sekunden exportiert.|,
-		lastUpdated => 1153261875
+		message => q|<p>%d Seiten in %d Sekunden exportiert.</p>|,
+		lastUpdated => 1170457581
 	},
 
 	'controls' => {
-		message => q|Dies sind die Icons und URLs für das Editieren, Ausschneiden, Kopieren, Löschen und neu Anordnen des Assets.|,
-		lastUpdated => 1153243841
+		message => q|Dies sind die Symbole und URLs f&uuml;r das Editieren, Ausschneiden, Kopieren, L&ouml;schen und Neuanordnen des Assets.|,
+		lastUpdated => 1170455252
 	},
 
 	'encrypt page description' => {
-		message => q|Soll die Seite, die dieses Asset enth&auml;lt, &uuml;ber eine SSL-Verbindung ausgeliefert werden? |,
-		lastUpdated => 1153261792
+		message => q|<p>Soll die Seite, die dieses Asset enth&auml;lt, &uuml;ber eine SSL-Verbindung &uuml;bertragen werden?</p>|,
+		lastUpdated => 1170457440
 	},
 
 	'asset' => {
@@ -77,28 +77,28 @@ our $I18N = {
 	},
 
 	'save and commit' => {
-		message => q|Speichern und Commit<br />|,
-		lastUpdated => 1160304650
+		message => q|Speichern und &Uuml;bertragen (Commit)|,
+		lastUpdated => 1170456962
 	},
 
 	'asset list body' => {
-		message => q|Folgende Assets stehen zur Verf&uuml;gung: |,
-		lastUpdated => 1153242183
+		message => q|<p>Folgende Assets stehen zur Verf&uuml;gung:</p>|,
+		lastUpdated => 1170454342
 	},
 
 	'872' => {
-		message => q|Wer kann das Asset sehen?<br />|,
-		lastUpdated => 1153127110
+		message => q|Wer kann das Asset sehen?|,
+		lastUpdated => 1170451365
 	},
 
 	'Data Type description' => {
-		message => q|W&auml;hlen Sie die Art des Formularelements f&uuml;r dieses Feld aus.<br />|,
-		lastUpdated => 1153128258
+		message => q|<p>W&auml;hlen Sie die Art des Formularelements f&uuml;r dieses Feld aus.</p>|,
+		lastUpdated => 1170453634
 	},
 
 	'promote help' => {
-		message => q|Dieses Asset auf der Seite um eine Position nach oben verschieben.<br />|,
-		lastUpdated => 1154467190
+		message => q|Dieses Asset auf der Seite um eine Position nach oben verschieben.|,
+		lastUpdated => 1170457638
 	},
 
 	'properties' => {
@@ -107,13 +107,13 @@ our $I18N = {
 	},
 
 	'delete' => {
-		message => q|Löschen|,
-		lastUpdated => 1153244271
+		message => q|L&ouml;schen|,
+		lastUpdated => 1170455432
 	},
 
 	'title' => {
-		message => q|Titel des Assets.<br />|,
-		lastUpdated => 1168847980
+		message => q|Titel des Assets|,
+		lastUpdated => 1170456818
 	},
 
 	'revised by' => {
@@ -132,13 +132,13 @@ our $I18N = {
 	},
 
 	'Edit Metadata' => {
-		message => q|Metadaten-Eigenschaft editieren.<br />|,
-		lastUpdated => 1153128592
+		message => q|Metadaten Eigenschaft editieren|,
+		lastUpdated => 1170453761
 	},
 
 	'extra head tags' => {
-		message => q|Zus&auml;tzliche &lt;head&gt;-Elemente (tags)<br />|,
-		lastUpdated => 1153262251
+		message => q|Zus&auml;tzliche &lt;head&gt;-Elemente (tags)|,
+		lastUpdated => 1170457602
 	},
 
 	'Depth' => {
@@ -147,23 +147,23 @@ our $I18N = {
 	},
 
 	'964' => {
-		message => q|System-M&uuml;lleimer verwalten.<br />|,
-		lastUpdated => 1153127732
+		message => q|System-M&uuml;lleimer verwalten.|,
+		lastUpdated => 1170452763
 	},
 
 	'412 description' => {
-		message => q|Eine Kurzbeschreibung dieses Asstes. |,
-		lastUpdated => 1153126915
+		message => q|<p>Eine Kurzbeschreibung dieses Assets.</p>|,
+		lastUpdated => 1170451766
 	},
 
 	'Export Page' => {
-		message => q|Seite exportieren<br />|,
-		lastUpdated => 1153128606
+		message => q|Seite exportieren|,
+		lastUpdated => 1170453772
 	},
 
 	'create package' => {
-		message => q|Als Paket zur Verfügung stellen?|,
-		lastUpdated => 1153244202
+		message => q|Als Paket zur Verf&uuml;gung stellen?|,
+		lastUpdated => 1170455393
 	},
 
 	'locked' => {
@@ -183,27 +183,27 @@ our $I18N = {
 
 	'assets' => {
 		message => q|Assets|,
-		lastUpdated => 1153242323
+		lastUpdated => 1170454599
 	},
 
 	'886' => {
-		message => q|Nicht in der Navigation anzeigen. |,
-		lastUpdated => 1153127235
+		message => q|Von der Navigation verbergen? |,
+		lastUpdated => 1170452411
 	},
 
 	'view help' => {
-		message => q|Die meisten Asstes sind Teil eines Container-Assets, z.B. einer Seite oder einem Ordner. Diese Option ermöglicht es, das Asset alleine zu betrachten.|,
-		lastUpdated => 1153263200
+		message => q|Die meisten Asstes sind Teil eines Container-Assets, z.B. einer Seite oder einem Ordner. Diese Option erm&ouml;glicht es, das Asset alleine zu betrachten.|,
+		lastUpdated => 1170456757
 	},
 
 	'deleteConfirm' => {
-		message => q|Diese Metadaten-Eigenschaft wirklich löschen?|,
-		lastUpdated => 1153244305
+		message => q|Diese Metadaten Eigenschaft wirklich l&ouml;schen?|,
+		lastUpdated => 1170455449
 	},
 
 	'manage help' => {
-		message => q|<p>Ruft den Asset Manager auf und zeigt das aktuelle Asset und evtl. Kinder an. </p>|,
-		lastUpdated => 1153641529
+		message => q|Ruft den Asset Manager auf und zeigt das aktuelle Asset und evtl. Kinder an.|,
+		lastUpdated => 1170458775
 	},
 
 	'1079' => {
@@ -212,23 +212,23 @@ our $I18N = {
 	},
 
 	'edit branch body' => {
-		message => q|<p>Mit &quot;Zweig bearbeiten&quot; &auml;ndern Sie ganze Asset-B&auml;ume. Ge&auml;ndert werden kann z.B. wer Assets betrachten darf und wer sie bearbeiten darf oder es k&ouml;nnen Auslieferungs-Optionen wie Templates,&nbsp; SSL-Modus oder das Erscheinen in der Navigation ge&auml;ndert werden. Das Formular erm&ouml;glicht keine &Auml;nderungen an Assets f&uuml;r die man keine &Auml;nderungsrechte besitzt. </p><p>Jedes Feld hat einen Ja/Nein-Button, mit dem die Rekursive &Auml;nderung best&auml;tigt werden muss. Bearbeiten Sie einfach alle Felder, die Sie &auml;ndern m&ouml;chten, w&auml;hlen dann &quot;Ja&quot; bei der &Auml;nderungs-Best&auml;tigung und speichern dann ihre &Auml;nderungen.</p>|,
-		lastUpdated => 1153641219
+		message => q|<p>Mit &quot;Zweig bearbeiten&quot; &auml;ndern Sie ganze Asset-B&auml;ume. Ge&auml;ndert werden kann z.B. wer Assets betrachten darf und wer sie bearbeiten darf oder es k&ouml;nnen Auslieferungs-Optionen wie Templates,&nbsp; SSL-Modus oder das Erscheinen in der Navigation ge&auml;ndert werden. Das Formular erm&ouml;glicht keine &Auml;nderungen an Assets f&uuml;r die man keine &Auml;nderungsrechte besitzt. </p><p>Jedes Feld hat einen Ja/Nein-Button, mit dem die Rekursive &Auml;nderung best&auml;tigt werden muss. Bearbeiten Sie einfach alle Felder, die Sie &auml;ndern m&ouml;chten, w&auml;hlen dann &quot;Ja&quot; bei der &Auml;nderungsbest&auml;tigung und speichern dann ihre &Auml;nderungen.</p>|,
+		lastUpdated => 1170455632
 	},
 
 	'edit branch url help' => {
-		message => q||,
-		lastUpdated => 
+		message => q|<p>Sie k&ouml;nnen den URL auf zwei Arten &auml;ndern. &Uuml;ber den Basis URL (links Feld) oder &uuml;ber den Datei URL (rechtes Feld). F&uuml;r den Basis URL gibt es drei Optionen:</p> <dl> <dt>Elternteil URL</dt> <dd>Dieser URL beginnt mit dem URL des Elternteils.</dd> <dt>Spezifizierte Basis<br /> </dt> <dd>Enter in a new base URL via the field that appears when Specified Base is selected.</dd> <dt>Nichts</dt> <dd>Allen Assets einen &quot;top-level&quot; haben lassen.</dd> </dl> <p>Es gibt auch drei Optionen f&uuml;r den Datei URL:</p> <dl> <dt>Men&uuml; Titel</dt> <dd>Der neue URL basiert auf dem Men&uuml; Titel Feld des Assets.</dd> <dt>Titel</dt> <dd>Der neue URL basiert auf dem Titel Feld des Assets.</dd> <dt>Aktueller URL</dt> <dd>Der neue URL basiert auf dem vorhandenen URL des Assets.</dd> </dl>|,
+		lastUpdated => 1170456717
 	},
 
 	'asset id description' => {
 		message => q|<p>Dies ist der eindeutige Bezeichner von WebGUI f&uuml;r dieses Asset. Normale Benutzer werden diese Asset ID nie ben&ouml;tigen, fortgeschrittene Anwender k&ouml;nnen sie z.B. bei eigenen SQL-Reports einsetzen. Die Asset ID kann nicht ge&auml;ndert werden.</p>|,
-		lastUpdated => 1157829366
+		lastUpdated => 1170454315
 	},
 
 	'Possible Values description' => {
-		message => q|<p>Dieses Feld wird nur f&uuml;r die die Datentypen &quot;Radio List&quot; und &quot;Select List&quot; genutzt. Geben Sie die Werte, die erscheinen sollen, zeilenweise ein. </p>|,
-		lastUpdated => 1153238174
+		message => q|<p>Dieses Feld wird nur f&uuml;r die Datentypen &quot;Radio List&quot; und &quot;Select List&quot; genutzt. Geben Sie die Werte zeilenweise ein, die erscheinen sollen.</p>|,
+		lastUpdated => 1170454113
 	},
 
 	'restore' => {
@@ -237,8 +237,8 @@ our $I18N = {
 	},
 
 	'Extras URL description' => {
-		message => q|Definiert den Extras URL. Standard ist der Wert f&uuml;r extrasURL aus der Webgui Konfigurationsdatei. |,
-		lastUpdated => 1153128777
+		message => q|<p>Definiert den Extras URL. Standard ist der Wert f&uuml;r extrasURL aus der WebGUI Konfigurationsdatei.</p>|,
+		lastUpdated => 1170453858
 	},
 
 	'copy' => {
@@ -247,13 +247,13 @@ our $I18N = {
 	},
 
 	'asset template body' => {
-		message => q|Diese Variable wird in jedem Template eingef&uuml;gt:<br />|,
-		lastUpdated => 1153242259
+		message => q|<p>Diese Variable wird in jedem Template eingef&uuml;gt:</p>|,
+		lastUpdated => 1170454454
 	},
 
 	'synopsis' => {
-		message => q|Kurze Beschreibung des Inhalts des Assets.<br />|,
-		lastUpdated => 1168848005
+		message => q|Kurze Beschreibung des Inhalts des Assets.|,
+		lastUpdated => 1170456848
 	},
 
 	'extraHeadTags' => {
@@ -267,8 +267,8 @@ our $I18N = {
 	},
 
 	'isPrototype' => {
-		message => q|Boolscher Wert, der wahr ist wenn das Asset ein Prototy ist.<br />|,
-		lastUpdated => 1168850664
+		message => q|Boolscher Wert, der wahr ist, wenn das Asset ein Prototy ist.|,
+		lastUpdated => 1170458637
 	},
 
 	'1083' => {
@@ -277,18 +277,18 @@ our $I18N = {
 	},
 
 	'Field Id' => {
-		message => q|Feld ID<br /> |,
-		lastUpdated => 1153201397
+		message => q|Feld ID|,
+		lastUpdated => 1170453868
 	},
 
 	'create shortcut' => {
-		message => q|Verknüpfung erstellen|,
-		lastUpdated => 1153244226
+		message => q|Verkn&uuml;pfung erstellen|,
+		lastUpdated => 1170455406
 	},
 
 	'Extras URL' => {
-		message => q|Extras URL<br />|,
-		lastUpdated => 1153128696
+		message => q|Extras URL|,
+		lastUpdated => 1170453822
 	},
 
 	'966' => {
@@ -303,7 +303,7 @@ our $I18N = {
 
 	'extrasUploads form option symlink' => {
 		message => q|Symlink|,
-		lastUpdated => 1168956794
+		lastUpdated => 1170458623
 	},
 
 	'change url' => {
@@ -312,23 +312,23 @@ our $I18N = {
 	},
 
 	'purge revision after help' => {
-		message => q|<p>Wie lange sollen alte Versionen eines Asset aufgehoben werden? Alte Versionen sind Versionen, die vom Nutzer nicht mehr gesehen werden aber im Versionierungssystem f&uuml;r ein Rollback nach wie vor vorhanden sind.</p><br />|,
-		lastUpdated => 1158614554
+		message => q|Wie lange sollen alte Versionen eines Asset aufgehoben werden? Alte Versionen sind Versionen, die vom Nutzer nicht mehr gesehen werden aber im Versionierungssystem f&uuml;r ein Rollback nach wie vor vorhanden sind.|,
+		lastUpdated => 1170457373
 	},
 
 	'committed versions' => {
-		message => q|Eingefügte Versionen|,
-		lastUpdated => 1153243150
+		message => q|Festgelegte Versionen|,
+		lastUpdated => 1170454956
 	},
 
 	'895' => {
 		message => q|Cache Timeout|,
-		lastUpdated => 1153127302
+		lastUpdated => 1170452523
 	},
 
 	'Export as user' => {
-		message => q|Exportieren als Benutzer<br />|,
-		lastUpdated => 1153128627
+		message => q|Exportieren als Benutzer|,
+		lastUpdated => 1170453781
 	},
 
 	'revisions help' => {
@@ -337,8 +337,8 @@ our $I18N = {
 	},
 
 	'asset list title' => {
-		message => q|Asset, Liste der verf&uuml;gbaren<br />|,
-		lastUpdated => 1153242208
+		message => q|Liste der verf&uuml;gbaren Assets|,
+		lastUpdated => 1170454376
 	},
 
 	'type' => {
@@ -347,8 +347,8 @@ our $I18N = {
 	},
 
 	'Add new field description' => {
-		message => q|Ein Formular zum Hinzuf&uuml;gen neuer Metadaten-Felder zu diesem Asset &ouml;ffnen.<br />|,
-		lastUpdated => 1153128147
+		message => q|<p>&Ouml;ffnet ein Formular zum Hinzuf&uuml;gen neuer Metadaten-Felder zu diesem Asset.</p>|,
+		lastUpdated => 1170453034
 	},
 
 	'104' => {
@@ -367,38 +367,38 @@ our $I18N = {
 	},
 
 	'edit branch help' => {
-		message => q|<p>Die &quot;Zweig bearbeiten&quot; Maske anzeigen, um &Auml;nderungen an diesem Asset und allen Assets unterhalb durchzuf&uuml;hren.</p>|,
-		lastUpdated => 1153641285
+		message => q|Die &quot;Zweig bearbeiten&quot; Maske anzeigen, um &Auml;nderungen an diesem Asset und allen Assets unterhalb durchzuf&uuml;hren.|,
+		lastUpdated => 1170455697
 	},
 
 	'assetSize' => {
-		message => q|Gr&ouml;&szlig;e dieses Assets in Bytes. Summe aus allen Datenbankfeldern und Anh&auml;ngen.<br />|,
-		lastUpdated => 1168847931
+		message => q|Gr&ouml;&szlig;e dieses Assets in Bytes. Summe aus allen Datenbankfeldern und Anh&auml;ngen.|,
+		lastUpdated => 1170454592
 	},
 
 	'status' => {
-		message => q|Status des Assets bez&uuml;glich der Versionskontrolle. Typischerweise ist dies &quot;approved&quot;, &quot;pending&quot; oder &quot;committed&quot;.<br />|,
-		lastUpdated => 1168848118
+		message => q|Status des Assets bez&uuml;glich der Versionskontrolle. Typischerweise ist dies &quot;approved&quot;, &quot;pending&quot; oder &quot;committed&quot;.|,
+		lastUpdated => 1170456862
 	},
 
 	'manage versions body' => {
-		message => q|Diese Seite listet alle Versionen auf, die committed worden sind. Aufgef&uuml;hrt werden das Datum an dem die Version committed oder er&ouml;ffnet wurde, wer den Tag der Version besitzt und den Namen des Version Tags. Verschiedene Icons erlauben es Ihnen, eine Revision zu l&ouml;schen und vom System zu entfernen oder diese Version des Assets zu betrachten. Der Version Tag Name in der Liste ist ein Link, der Sie zur &quot;Verwalte Revisions in Tag&quot; Seite f&uuml;hrt. |,
-		lastUpdated => 1168851110
+		message => q|<p>Diese Seite listet alle Versionen auf, die committed worden sind. Aufgef&uuml;hrt werden das Datum an dem die Version committed oder er&ouml;ffnet wurde, wer den Tag der Version besitzt und den Namen des Version Tags. Verschiedene Icons erlauben es Ihnen, eine Revision zu l&ouml;schen und vom System zu entfernen oder diese Version des Assets zu betrachten. Der Version Tag Name in der Liste ist ein Link, der Sie zur &quot;Verwalte Revisions in Tag&quot; Seite f&uuml;hrt.</p>|,
+		lastUpdated => 1170458756
 	},
 
 	'954' => {
-		message => q|System-Zwischenablage verwalten.<br />|,
-		lastUpdated => 1153127683
+		message => q|System-Zwischenablage verwalten.|,
+		lastUpdated => 1170452734
 	},
 
 	'purge revision after' => {
-		message => q|Alte Veresion aufr&auml;umen nach|,
-		lastUpdated => 1158614430
+		message => q|Alte Version aufr&auml;umen nach|,
+		lastUpdated => 1170457483
 	},
 
 	'asset template asset var title' => {
-		message => q|Asset Template Asset Variablen.<br />|,
-		lastUpdated => 1168849012
+		message => q|Asset Template Asset Variablen|,
+		lastUpdated => 1170454433
 	},
 
 	'1082' => {
@@ -417,43 +417,43 @@ our $I18N = {
 	},
 
 	'487' => {
-		message => q|Erlaubte Werte|,
-		lastUpdated => 1153127002
+		message => q|M&ouml;gliche Werte|,
+		lastUpdated => 1170451857
 	},
 
 	'isPackage' => {
-		message => q|Boolscher Wert, der wahr ist wenn das Asset ein Paket ist.<br />|,
-		lastUpdated => 1168850624
+		message => q|Boolscher Wert, der wahr ist, wenn das Asset ein Paket ist.|,
+		lastUpdated => 1170458463
 	},
 
 	'rootUrl form option symlinkDefault' => {
-		message => q|Symlink Standardwert.<br />|,
-		lastUpdated => 1168848239
+		message => q|Symlink Standardwert.|,
+		lastUpdated => 1170451334
 	},
 
 	'Metadata Description description' => {
-		message => q|<p>Eine optional Beschreibung f&uuml;r diese Metadaten-Eigenschaft. Dieser Text wird als Mouseover-Text im Asset-Eigenschaften Kafteireiter angezeigt.<br /></p>|,
-		lastUpdated => 1153237772
+		message => q|<p>Eine optional Beschreibung f&uuml;r diese Metadaten Eigenschaft. Dieser Text wird als Mouseover-Text im Asset-Eigenschaften Karteireiter angezeigt.</p>|,
+		lastUpdated => 1170453986
 	},
 
 	'asset fields title' => {
-		message => q|Asset, gemeinsame Felder<br />|,
-		lastUpdated => 1153238895
+		message => q|Asset, gemeinsame Felder|,
+		lastUpdated => 1170454277
 	},
 
 	'could not rmdir' => {
-		message => q|Verzeichnis %s konnte nicht gelöscht werden: %s|,
-		lastUpdated => 1168956560
+		message => q|Verzeichnis %s konnte nicht gel&ouml;scht werden: %s|,
+		lastUpdated => 1170455352
 	},
 
 	'Delete Metadata field' => {
-		message => q|Metadaten-Eintrag l&ouml;schen<br />|,
-		lastUpdated => 1153128318
+		message => q|Metadaten Eigenschaft l&ouml;schen|,
+		lastUpdated => 1170453667
 	},
 
 	'950' => {
-		message => q|Zwischenablage leeren.<br />|,
-		lastUpdated => 1153127585
+		message => q|Zwischenablage leeren.|,
+		lastUpdated => 1170452675
 	},
 
 	'486' => {
@@ -472,28 +472,28 @@ our $I18N = {
 	},
 
 	'extra head tags description' => {
-		message => q|Diese Tags werden im &lt;head&gt;-Bereich jeder Seite erg&auml;nzt, auf der dieses Asset erscheint.|,
-		lastUpdated => 1168956669
+		message => q|<p>Diese Tags werden im &lt;head&gt;-Bereich jeder Seite erg&auml;nzt, auf der dieses Asset erscheint.</p>|,
+		lastUpdated => 1170457628
 	},
 
 	'411 description' => {
-		message => q|Ein kurzer Titel, der in der Navigation erscheinen soll. Wenn Sie ihn leer lassen, wird hier der Titel eingef&uuml;gt. |,
-		lastUpdated => 1153126882
+		message => q|<p>Ein kurzer Titel, der in der Navigation erscheinen soll. Wenn Sie ihn leer lassen, wird hier der <strong>Titel</strong> eingef&uuml;gt.</p>|,
+		lastUpdated => 1170451743
 	},
 
 	'purge old trash' => {
-		message => q|Alten Abfall entfernen<br />|,
-		lastUpdated => 1158614406
+		message => q|Alten Abfall entfernen|,
+		lastUpdated => 1170457685
 	},
 
 	'Field Name description' => {
-		message => q|Der Name dieser Metadaten Eigenschaft. Er muss eindeutig sein. Es wird empfohlen, nur Buchstaben (a-z), Zahlen (0-9) oder Unterstriche (_) f&uuml;r die Feldnamen zu verwenden.|,
-		lastUpdated => 1168956349
+		message => q|<p>Der Name dieser Metadaten Eigenschaft. Er muss eindeutig sein.<br />Es wird empfohlen, nur Buchstaben (a-z), Zahlen (0-9) oder Unterstriche (_) f&uuml;r die Feldnamen zu verwenden.</p>|,
+		lastUpdated => 1170453914
 	},
 
 	'940' => {
-		message => q|In neuem Fenster &ouml;ffnen?<br />|,
-		lastUpdated => 1153127363
+		message => q|In neuem Fenster &ouml;ffnen?|,
+		lastUpdated => 1170451385
 	},
 
 	'43' => {
@@ -507,8 +507,8 @@ our $I18N = {
 	},
 
 	'886 description' => {
-		message => q|W&auml;hlen Sie hier aus, ob das Asset in Navigation und Sitemap angezeigt werden soll. |,
-		lastUpdated => 1153127284
+		message => q|W&auml;hlen Sie hier aus, ob das Asset in der Navigation und Sitemap angezeigt werden soll oder nicht. |,
+		lastUpdated => 1170452445
 	},
 
 	'directory index' => {
@@ -517,8 +517,8 @@ our $I18N = {
 	},
 
 	'extrasUploads form option none' => {
-		message => q|None|,
-		lastUpdated => 1170409641
+		message => q|Nichts|,
+		lastUpdated => 1170458615
 	},
 
 	'99' => {
@@ -527,13 +527,13 @@ our $I18N = {
 	},
 
 	'Page Export Status' => {
-		message => q|Seiten Export Status<br />|,
-		lastUpdated => 1153201518
+		message => q|Seiten Export Status|,
+		lastUpdated => 1170454010
 	},
 
 	'could not unlink' => {
-		message => q|%s konnte nicht gelöscht werden: %s|,
-		lastUpdated => 1168956589
+		message => q|%s konnte nicht gel&ouml;scht werden: %s|,
+		lastUpdated => 1170455376
 	},
 
 	'url' => {
@@ -542,13 +542,13 @@ our $I18N = {
 	},
 
 	'Page Export body' => {
-		message => q|<p>Die Funktion &quot;Seite exportieren&quot; erm&ouml;glicht es, WebGUI-Seiten als statische HTML-Seiten zu exportieren. Damit diese Funktionalit&auml;t aktiv ist, muss die Variable &quot;exportPath&quot; in der WebGUI-Konfigurationsdatei gesetzt sein.</p>|,
-		lastUpdated => 1153238050
+		message => q|<p>Die Funktion &quot;Seite exportieren&quot; erm&ouml;glicht es, WebGUI-Seiten als statische HTML-Seiten zu exportieren. Damit diese Funktionalit&auml;t aktiv ist, muss die Variable &quot;exportPath&quot; in der WebGUI Konfigurationsdatei gesetzt sein.</p>|,
+		lastUpdated => 1170454051
 	},
 
 	'Class Icon' => {
-		message => q|Class Icon<br />|,
-		lastUpdated => 1153128167
+		message => q|Kategoriensymbol|,
+		lastUpdated => 1170453489
 	},
 
 	'groupIdEdit' => {
@@ -557,8 +557,8 @@ our $I18N = {
 	},
 
 	'Class Icon help' => {
-		message => q|Bei jedem Asset wird auch ein Class Icon angezigt. Die meisten Class-Icons sind eindeutig einem Asset zugeordnet und sind kleinere Versionen der Icons, die in der Admin-Konsole angezeigt werden, um der Seite ein neues Asset hinzuzuf&uuml;gen. Beim Klick auf das Class-Icon erscheint ein Men&uuml; mit erweiterten Editierfunktionen.|,
-		lastUpdated => 1168956398
+		message => q|<p>Bei jedem Asset wird auch ein Kategoriensymbol angezigt. Die meisten Kategoriensymbole sind eindeutig einem Asset zugeordnet und sind kleinere Versionen der Symbole, die in der Admin-Konsole im Men&uuml; Neuer Inhalt angezeigt werden. Beim Klick auf das Kategoriensymbol erscheint ein Men&uuml; mit erweiterten Editierfunktionen.</p>|,
+		lastUpdated => 1170453597
 	},
 
 	'tag name' => {
@@ -567,8 +567,8 @@ our $I18N = {
 	},
 
 	'change' => {
-		message => q|Rekursiv ver&auml;ndern?<br />|,
-		lastUpdated => 1153242580
+		message => q|Rekursiv &auml;ndern?|,
+		lastUpdated => 1170454642
 	},
 
 	'current url' => {
@@ -582,9 +582,9 @@ our $I18N = {
 	},
 
 	'could not create path' => {
-		message => q|%-s konnte wegen %-s nich angelegt werden.
-Dies bedeutet in der REgel, dass Sie eine seite anlegen möchtgen, die den selben Namen wie der Ordner hat.|,
-		lastUpdated => 1153244031
+		message => q|%-s konnte wegen %-s nich angelegt werden.<br />
+Dies bedeutet in der Regel, dass Sie eine Seite anlegen m&ouml;chtgen, die den selben Namen wie der Ordner hat.|,
+		lastUpdated => 1170455322
 	},
 
 	'could not create' => {
@@ -593,13 +593,13 @@ Dies bedeutet in der REgel, dass Sie eine seite anlegen möchtgen, die den selbe
 	},
 
 	'purge trash after' => {
-		message => q|M&uuml;lleimer leeren nach<br />|,
-		lastUpdated => 1158614242
+		message => q|M&uuml;lleimer leeren nach|,
+		lastUpdated => 1170457321
 	},
 
 	'Add new field' => {
-		message => q|Neuen Metadaten-Eintrag hinzuf&uuml;gen. |,
-		lastUpdated => 1153128304
+		message => q|Neuen Metadaten-Eintrag hinzuf&uuml;gen.|,
+		lastUpdated => 1170452938
 	},
 
 	'871' => {
@@ -608,13 +608,13 @@ Dies bedeutet in der REgel, dass Sie eine seite anlegen möchtgen, die den selbe
 	},
 
 	'Page Export' => {
-		message => q|Seite, Exportieren<br />|,
-		lastUpdated => 1153201503
+		message => q|Seite, Exportieren|,
+		lastUpdated => 1170453999
 	},
 
 	'over max assets' => {
-		message => q|<p>Der Administrator hat die Anzahl der zul&auml;ssigen Assets dieser Site begrenzt und Sie haben das Limit &uuml;berschritten. L&ouml;schen Sie einige alte Assets, um wieder neue hinzuf&uuml;gen zu k&ouml;nnen.<br /></p>|,
-		lastUpdated => 1153262197
+		message => q|Der Administrator hat die Anzahl der zul&auml;ssigen Assets dieser Site begrenzt und Sie haben das Limit &uuml;berschritten. L&ouml;schen Sie einige alte Assets, um wieder neue hinzuf&uuml;gen zu k&ouml;nnen.|,
+		lastUpdated => 1170458914
 	},
 
 	'manage' => {
@@ -633,18 +633,18 @@ Dies bedeutet in der REgel, dass Sie eine seite anlegen möchtgen, die den selbe
 	},
 
 	'duplicateField' => {
-		message => q|<p><strong>Fehler: Feldname &quot;%field%&quot; wird bereits benutzt.</strong></p><br />|,
-		lastUpdated => 1153262877
+		message => q|<p><strong>Fehler: Feldname &quot;%field%&quot; wird bereits benutzt.</strong></p>|,
+		lastUpdated => 1170455532
 	},
 
 	'edit branch' => {
-		message => q|Zweig bearbeiten<br />|,
-		lastUpdated => 1153640732
+		message => q|Zweig bearbeiten|,
+		lastUpdated => 1170455549
 	},
 
 	'108 description' => {
-		message => q|<p>Wer ein Asset erstellt hat ist i.d.R. dessen Eigent&uuml;mer. Dieser Benutzer hat alle Rechte zum Editieren und Betrachten des Assets.</p><p><strong>Hinweis:</strong> Der Eigent&uuml;mer kann durch einen Administrator ge&auml;ndert werden.<br /></p>|,
-		lastUpdated => 1168209321
+		message => q|<p>Wer ein Asset erstellt hat, ist in der Regel dessen Eigent&uuml;mer. Dieser Benutzer hat alle Rechte zum Editieren und Betrachten des Assets.</p><p><strong>Hinweis:</strong> Der Eigent&uuml;mer kann durch einen Administrator ge&auml;ndert werden.</p>|,
+		lastUpdated => 1170451700
 	},
 
 	'make prototype description' => {
@@ -653,8 +653,8 @@ Dies bedeutet in der REgel, dass Sie eine seite anlegen möchtgen, die den selbe
 	},
 
 	'rootUrl form option none' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Nichts|,
+		lastUpdated => 1170451292
 	},
 
 	'edit' => {
@@ -668,8 +668,8 @@ Dies bedeutet in der REgel, dass Sie eine seite anlegen möchtgen, die den selbe
 	},
 
 	'asset toolbar body' => {
-		message => q|Wenn Sie beim Betrachten eines Assets editierberechtigt sind und der Admin Modus aktiviert ist, wird eine Leiste mit Icons angezeigt, &uuml;ber die Sie das Asset editieren und ver&auml;ndern k&ouml;nnen.|,
-		lastUpdated => 1168956463
+		message => q|<p>Wenn Sie beim Betrachten eines Assets editierberechtigt sind und der Admin Modus aktiviert ist, wird eine Werkzeugleiste mit Symbolen angezeigt, &uuml;ber die Sie das Asset bearbeiten und ver&auml;ndern k&ouml;nnen.</p>|,
+		lastUpdated => 1170454539
 	},
 
 	'size' => {
@@ -678,9 +678,9 @@ Dies bedeutet in der REgel, dass Sie eine seite anlegen möchtgen, die den selbe
 	},
 
 	'change url body' => {
-		message => q|Angenommen, Sie möchten ein neues Asset an die Stelle eines alten Assets einfügen und den URL des alten Assets für das neue verwenden:
-Normalerweise müßten Sie den URL in der letzen Revision des Assets ändern und dann jede Revision des alten Assets bereinigen (weil die alten Revisionen des alten Assets den selben URL besitzen). Die Funktion "URL ändern" erleichert Ihnen diese Arbeit: geben Sie den neuen URL für das alte Asset ein und die Arbeit wird erledigt.|,
-		lastUpdated => 1153243005
+		message => q|<p>Angenommen, Sie m&ouml;chten ein neues Asset an die Stelle eines alten Assets einf&uuml;gen und den URL des alten Assets für das neue verwenden:
+Normalerweise m&uuml;ssten Sie den URL in der letzen Revision des Assets &auml;ndern und dann jede Revision des alten Assets bereinigen (weil die alten Revisionen des alten Assets den selben URL besitzen). Die Funktion &quot;URL &auml;ndern&quot; erleichert Ihnen diese Arbeit: geben Sie den neuen URL für das alte Asset ein und die Arbeit wird erledigt.</p>|,
+		lastUpdated => 1170454792
 	},
 
 	'107' => {
@@ -689,8 +689,8 @@ Normalerweise müßten Sie den URL in der letzen Revision des Assets ändern und
 	},
 
 	'confirm change url message' => {
-		message => q|Setzen Sie diesen Wert auf &quot;Ja&quot;, um zu bestätigen, dass Sie diesen URL dauerhaft ändern möchten. Auf diese Weise löschen Sie alle alten Versionen dieses Assets.|,
-		lastUpdated => 1168956429
+		message => q|Setzen Sie diesen Wert auf &quot;Ja&quot;, um zu best&auml;tigen, dass Sie diesen URL dauerhaft &auml;ndern m&ouml;chten. Auf diese Weise l&ouml;schen Sie alle alten Versionen dieses Assets.|,
+		lastUpdated => 1170455023
 	},
 
 	'rootUrl form label' => {
@@ -724,13 +724,13 @@ Normalerweise müßten Sie den URL in der letzen Revision des Assets ändern und
 	},
 
 	'encryptPage' => {
-		message => q|Boolscher Wert, der wahr ist wenn die Seite via SSL verschl&uuml;sselt werden soll.<br />|,
-		lastUpdated => 1168849373
+		message => q|Boolscher Wert, der wahr ist, wenn die Seite via SSL verschl&uuml;sselt &uuml;bertragen werden soll.|,
+		lastUpdated => 1170457535
 	},
 
 	'asset template asset var body' => {
-		message => q|Diese Template Variablen haben fast alle Assets gemeinsam. Viele von diesen sind interne Asset Eigenschaften, die das Verhalten beeinflussen und wahrscheinlich nicht sehr n&uuml;tzlich f&uuml;r Templates sind. Ein Beispiel k&ouml;nnte die ID eines Templates sein, die f&uuml;r die Darstellung desselben benutzt wird. Abh&auml;ngig davon, ob ein Benutzer diese Felder gef&uuml;llt hat oder nicht, k&ouml;nnen diese entweder einen Wert besitzen oder auch nicht. |,
-		lastUpdated => 1168848984
+		message => q|<p>Diese Template Variablen haben fast alle Assets gemeinsam. Viele von diesen sind interne Asset Eigenschaften, die das Verhalten beeinflussen und wahrscheinlich nicht sehr n&uuml;tzlich f&uuml;r Templates sind. Ein Beispiel k&ouml;nnte die ID eines Templates sein, die f&uuml;r die Darstellung desselben benutzt wird. Abh&auml;ngig davon, ob ein Benutzer diese Felder gef&uuml;llt hat oder nicht, k&ouml;nnen Diese entweder einen Wert besitzen oder auch nicht.</p>|,
+		lastUpdated => 1170454418
 	},
 
 	'ago' => {
@@ -739,8 +739,8 @@ Normalerweise müßten Sie den URL in der letzen Revision des Assets ändern und
 	},
 
 	'encrypt page' => {
-		message => q|Inhalt verschl&uuml;sseln?<br />|,
-		lastUpdated => 1153261735
+		message => q|Inhalt verschl&uuml;sseln?|,
+		lastUpdated => 1170457382
 	},
 
 	'revision date' => {
@@ -749,23 +749,23 @@ Normalerweise müßten Sie den URL in der letzen Revision des Assets ändern und
 	},
 
 	'specified base' => {
-		message => q|Angegebene Basis<br />|,
-		lastUpdated => 1158614578
+		message => q|Angegebene Basis|,
+		lastUpdated => 1170456876
 	},
 
 	'Uploads URL description' => {
-		message => q|<p>Definiert den Uploads URL. Vorgabe ist der konfigurierte Wert f&uuml;r uploadsURL aus der WebGUI-Konfigurationsdatei.</p>|,
-		lastUpdated => 1153238481
+		message => q|<p>Definiert den Uploads URL. Vorgabe ist der konfigurierte Wert f&uuml;r uploadsURL aus der WebGUI Konfigurationsdatei.</p>|,
+		lastUpdated => 1170454219
 	},
 
 	'949' => {
-		message => q|Zwischenablage verwalten<br />|,
-		lastUpdated => 1153127571
+		message => q|Zwischenablage verwalten.|,
+		lastUpdated => 1170452686
 	},
 
 	'asset template title' => {
-		message => q|Asset Template-Variablen<br />|,
-		lastUpdated => 1153242285
+		message => q|Asset Template Variablen|,
+		lastUpdated => 1170454468
 	},
 
 	'demote help' => {
@@ -774,13 +774,13 @@ Normalerweise müßten Sie den URL in der letzen Revision des Assets ändern und
 	},
 
 	'104 description' => {
-		message => q|Die eindeutige URL dieses Asset. Wenn Sie das Feld leer lassen, dann wird die URL automatisch aus der &uuml;bergeordneten URL und dem <strong>Menutitel</strong> gebildet.  |,
-		lastUpdated => 1153126715
+		message => q|<p>Die eindeutige URL dieses Asset. Wenn Sie das Feld leer lassen, dann wird die URL automatisch aus der &uuml;bergeordneten URL und dem <strong>Menutitel</strong> gebildet.</p>|,
+		lastUpdated => 1170451499
 	},
 
 	'extrasUploads form label' => {
-		message => q|Extras und uploads Verzeichnis.|,
-		lastUpdated => 1168850375
+		message => q|Extras und uploads Verzeichnisse|,
+		lastUpdated => 1170458600
 	},
 
 	'done' => {
@@ -794,8 +794,8 @@ Normalerweise müßten Sie den URL in der letzen Revision des Assets ändern und
 	},
 
 	'rootUrl default not present' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Nicht Symlinking Standart Asset; nicht in exportierten Unterb&auml;umen enthalten.<br /> |,
+		lastUpdated => 1170457242
 	},
 
 	'Metadata' => {
@@ -804,23 +804,23 @@ Normalerweise müßten Sie den URL in der letzen Revision des Assets ändern und
 	},
 
 	'Field name' => {
-		message => q|Feldname |,
-		lastUpdated => 1153201474
+		message => q|Feldname|,
+		lastUpdated => 1170453943
 	},
 
 	'missing page query' => {
-		message => q|<p>Die Seite, die Sie aufgerufen haben, exisitert nicht. Was m&ouml;chten Sie tun?&nbsp;</p>|,
-		lastUpdated => 1153641566
+		message => q|Die Seite, die Sie aufgerufen haben, exisitert nicht. Was m&ouml;chten Sie tun?|,
+		lastUpdated => 1170458876
 	},
 
 	'package corrupt' => {
-		message => q|<p>Das Paket das Sie importieren wollten enth&auml;lt Fehler. Es wurde bis zum Auftreten des Fehlers importiert. Um dies r&uuml;ckg&auml;nig zu machen, kehren Sie zur letzten Versionierungsmarkierung zur&uuml;ck. </p>|,
-		lastUpdated => 1154467531
+		message => q|Das Paket das Sie importieren wollten enth&auml;lt Fehler. Es wurde bis zum Auftreten des Fehlers importiert. Um dies r&uuml;ckg&auml;nig zu machen, kehren Sie zur letzten Versionierungsmarkierung zur&uuml;ck.|,
+		lastUpdated => 1170458491
 	},
 
 	'ownerUserId' => {
-		message => q|Die ID des Benutzers, der das Asset besitzt.<br />|,
-		lastUpdated => 1168848754
+		message => q|Die ID des Benutzers, der das Asset besitzt.|,
+		lastUpdated => 1170458568
 	},
 
 	'could not symlink' => {
@@ -839,28 +839,28 @@ Normalerweise müßten Sie den URL in der letzen Revision des Assets ändern und
 	},
 
 	'errorEmptyField' => {
-		message => q|<strong>Fehler: Feldname darf nciht leer sein.</strong>|,
-		lastUpdated => 1153261829
+		message => q|<p><strong>Fehler: Feldname darf nicht leer sein.</strong></p>|,
+		lastUpdated => 1170457562
 	},
 
 	'purge old asset revisions' => {
-		message => q|Alte Asset-Versionen l&ouml;schen<br />|,
-		lastUpdated => 1154466912
+		message => q|Alte Asset Revisionen l&ouml;schen|,
+		lastUpdated => 1170457719
 	},
 
 	'bad user privileges' => {
-		message => q|Der Benutzer hat keine Berechtigung, diese Seite zu betrachten.<br />|,
-		lastUpdated => 1153242541
+		message => q|Der Benutzer hat keine Berechtigung, diese Seite zu betrachten.|,
+		lastUpdated => 1170454618
 	},
 
 	'directory index description' => {
-		message => q|Wenn der URL des Assets, das exportiert werden soll, ein Verzeichnis daarstellt, wird der Verzeichnisindex angehängt.|,
-		lastUpdated => 1153244531
+		message => q|<p>Wenn der URL des Assets, das exportiert werden soll, ein Verzeichnis darstellt, wird der Verzeichnisindex angeh&auml;ngt.</p>|,
+		lastUpdated => 1170455501
 	},
 
 	'promote' => {
-		message => q||,
-		lastUpdated => 
+		message => q|F&ouml;rdern|,
+		lastUpdated => 1170458411
 	},
 
 	'896' => {
@@ -874,33 +874,33 @@ Normalerweise müßten Sie den URL in der letzen Revision des Assets ändern und
 	},
 
 	'groupIdView' => {
-		message => q|Die ID der Gruppe, die das Asset betrachten darf.<br />|,
-		lastUpdated => 1168850517
+		message => q|Die ID der Gruppe, die das Asset betrachten darf.|,
+		lastUpdated => 1170457657
 	},
 
 	'Depth description' => {
-		message => q|Definiert die Tiefe, bis zu welcher der Seitenbaum exportiert werden soll. Bei einem Wert von 0 wird nur die aktuelle Seite exportiert.  |,
-		lastUpdated => 1153128570
+		message => q|<p>Definiert die Tiefe, bis zu welcher der Seitenbaum exportiert werden soll. Bei einem Wert von 0 wird nur die aktuelle Seite exportiert.</p>|,
+		lastUpdated => 1170453740
 	},
 
 	'extrasUploads symlinking' => {
-		message => q|Symlinking extras und uploads Verzeichnis.<br />|,
-		lastUpdated => 1168850421
+		message => q|Symlinking extras und uploads Verzeichnis.|,
+		lastUpdated => 1170458554
 	},
 
 	'extrasUploads form hoverHelp' => {
-		message => q|Welche Aktionen sollen bez&uuml;glich extras und uploads Verzeichnis, die oftmals von Teilen der Seite referenziert werden, ausgef&uuml;hrt werden. Symlink bedeutet, dass ein symbolischer Link (nicht verf&uuml;gbar auf allen Systemen) auf das originale Verzeichnis benutzt wird. None bedeutet nichts, d.h. extras und uploads Verzeichnis werden ignoriert; sehr warscheinlich werden Referenzen darauf nicht mehr funktionieren ausser Sie haben die Verzeichnisse vorher schon vorbereitet.&nbsp; |,
-		lastUpdated => 1168850347
+		message => q|Welche Aktionen sollen bez&uuml;glich extras und uploads Verzeichnis, die oftmals von Teilen der Seite referenziert werden, ausgef&uuml;hrt werden. Symlink bedeutet, dass ein symbolischer Link (nicht verf&uuml;gbar auf allen Systemen) auf das originale Verzeichnis benutzt wird. None bedeutet nichts tun, d.h. extras und uploads Verzeichnis werden ignoriert; sehr warscheinlich werden Referenzen darauf nicht mehr funktionieren ausser Sie haben die Verzeichnisse vorher schon vorbereitet.|,
+		lastUpdated => 1170458540
 	},
 
 	'menuTitle' => {
-		message => q|Der Titel des Assets, der in der Navigation angezeigt wird.<br />|,
-		lastUpdated => 1168851139
+		message => q|Der Titel des Assets, der in der Navigation angezeigt wird.|,
+		lastUpdated => 1170458788
 	},
 
 	'make prototype' => {
-		message => q|Prototyp erstellen?<br />|,
-		lastUpdated => 1154467269
+		message => q|Prototyp erstellen?|,
+		lastUpdated => 1170458719
 	},
 
 	'topicName' => {
@@ -909,13 +909,18 @@ Normalerweise müßten Sie den URL in der letzen Revision des Assets ändern und
 	},
 
 	'prototype using body' => {
-		message => q|Falls Sie Assets ben&ouml;tigen, die eine bestimmte Konfiguration aufweisen, k&ouml;nnte ein Prototyp f&uuml;r Sie n&uuml;tzlich sein. Wenn Sie ein Asset als Prototy definieren, k&ouml;nnen Sie neue Eintr&auml;ge in Ihrem Add content Men&uuml; erstellen, die so konfiguriert sind wie sie wollen. Wenn Sie zum Beispiel ein Collaboration System als Photogalerie benutzen wollen, k&ouml;nnen Sie eine Photogallerie erstellen und diese als Prototyp deklarieren. Von nun an k&ouml;nnen Sie diese Photogallerie ganz einfach &uuml;ber &quot;Add content &gt; New Content &gt; Photogallerie&quot; einf&uuml;gen. |,
-		lastUpdated => 1168848703
+		message => q|<p>
+Falls Sie Assets ben&ouml;tigen, die eine bestimmte Konfiguration aufweisen, k&ouml;nnte ein Prototyp f&uuml;r Sie n&uuml;tzlich sein. Wenn Sie ein Asset als Prototy definieren, k&ouml;nnen Sie neue Eintr&auml;ge in Ihrem Add content Men&uuml; erstellen, die so konfiguriert sind wie sie wollen. Wenn Sie zum Beispiel ein Collaboration System als Photogalerie benutzen wollen, k&ouml;nnen Sie eine Photogallerie erstellen und diese als Prototyp deklarieren. Von nun an k&ouml;nnen Sie diese Photogallerie ganz einfach &uuml;ber &quot;Add content &gt; New Content &gt; Photogallerie&quot; einf&uuml;gen.
+</p>
+<p>
+Der Titel des Assets wird wie der Name des Inhalts-Prototypen im Men&uuml; Inhalt hinzuf&uuml;gen verwendet. Wenn Sie den Titel Ihres Prototyps so einstellen, dass er gleich ist wie der Name eines Assets (Artikel, DataForm, etc.), dann wird im Men&uuml; das WebGUI Standart Asset ersetzt.
+</p>|,
+		lastUpdated => 1170458352
 	},
 
 	'asset id' => {
-		message => q|Asset ID<br />|,
-		lastUpdated => 1153238942
+		message => q|Asset ID|,
+		lastUpdated => 1170454286
 	},
 
 	'metadata edit property' => {
@@ -929,8 +934,8 @@ Normalerweise müßten Sie den URL in der letzen Revision des Assets ändern und
 	},
 
 	'rootUrl form hoverHelp' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Welche T&auml;tigkeit, zum betreffend Fragen zum Wurzel URL zu nehmen. Symlink R&uuml;ckstellung bedeutet, eine symbolische Verbindung von der Akte des Index root URL zur Index Datei des Standard Wertes herzustellen (nicht auf allen Systemen vorhanden). Keines bedeutet, nichts zu tun, das normalerweise Fragen zum root URL veranla&szlig;t, im exportierten Aufstellungsort zur&uuml;ckgewiesen zu werden.|,
+		lastUpdated => 1170457162
 	},
 
 	'105' => {
@@ -944,13 +949,13 @@ Normalerweise müßten Sie den URL in der letzen Revision des Assets ändern und
 	},
 
 	'asset toolbar title' => {
-		message => q|Asset Toolbar<br />|,
-		lastUpdated => 1153242310
+		message => q|Asset Werkzeugleiste|,
+		lastUpdated => 1170454556
 	},
 
 	'951' => {
-		message => q|Sind Sie sicher, dass Sie den Inhalt der Zwischenablage in den M&uuml;lleimer verschieben m&ouml;chten?<br /> |,
-		lastUpdated => 1153127643
+		message => q|Sind Sie sicher, dass Sie den Inhalt der Zwischenablage in den M&uuml;lleimer verschieben m&ouml;chten?|,
+		lastUpdated => 1170452722
 	},
 
 	'85' => {
@@ -964,13 +969,13 @@ Normalerweise müßten Sie den URL in der letzen Revision des Assets ändern und
 	},
 
 	'872 description' => {
-		message => q|<p>W&auml;hlen sie die Gruppe, die dieses Asset sehen darf. Wenn Besucher <strong>und</strong> registrierte Nutzer das Asset sehen k&ouml;nnen sollen, w&auml;hlen Sie hier die Gruppe &quot;Everybody&quot;.</p>|,
-		lastUpdated => 1153127208
+		message => q|<p>W&auml;hlen sie die Gruppe, die dieses Asset sehen darf. Sollen Besucher <strong>und</strong> registrierte Nutzer das Asset sehen k&ouml;nnen, w&auml;hlen Sie die Gruppe &quot;Everybody&quot; aus.</p>|,
+		lastUpdated => 1170452378
 	},
 
 	'99 description' => {
-		message => q|<p>Der Title dieses Assets. Er sollte den Inhalt beschreiben, aber nicht sehr lang sein. Wir er leer gelassen, wird als Standard &quot;Ohne Titel&quot; eingef&uuml;gt. &nbsp;</p><p><em>Hinweis:</em> Geben Sie <strong>immer</strong> einen Titel an, selbst wenn Sie ihn im Asset-Template nicht nutzen. An&nbsp; mehreren Stellen, wie z.B. dem Seitenbaum, der Zwischenablage und dem M&uuml;lleimer unterscheiden sich Assets nur anhand ihres Titels.<br /></p> |,
-		lastUpdated => 1153128009
+		message => q|<p>Der Title dieses Assets. Er sollte den Inhalt beschreiben, aber nicht sehr lang sein. Wird er leer gelassen, wird als Standard &quot;Untitled&quot; eingef&uuml;gt.</p><p><em>Hinweis:</em> Geben Sie <strong>immer</strong> einen Titel an, selbst wenn Sie ihn im Asset-Template nicht nutzen. An mehreren Stellen, wie z.B. dem Seitenbaum, der Zwischenablage und dem M&uuml;lleimer unterscheiden sich Assets nur anhand ihres Titels.</p>|,
+		lastUpdated => 1170452922
 	},
 
 	'packages' => {
@@ -979,23 +984,23 @@ Normalerweise müßten Sie den URL in der letzen Revision des Assets ändern und
 	},
 
 	'change url help' => {
-		message => q|Zeit die "URL ändern"-Seite für dieses Asset an.|,
-		lastUpdated => 1153243043
+		message => q|Zeigt die &quot;URL ändern&quot; Seite für dieses Asset an.|,
+		lastUpdated => 1170454842
 	},
 
 	'metadata edit property body' => {
-		message => q|Sie k&ouml;nnen so viele Metadaten zu einem Wobject hinzuf&uuml;gen wie Sie wollen.<br /> |,
-		lastUpdated => 1168851269
+		message => q|<p>Sie k&ouml;nnen so viele Metadaten zu einem Asset hinzuf&uuml;gen wie Sie wollen.</p>|,
+		lastUpdated => 1170458832
 	},
 
 	'purge revision prompt' => {
-		message => q|<p>Sind Sie sicher, dass Sie diese Version von diesem Asset l&ouml;schen m&ouml;chten? Nach dem L&ouml;schen kann sie NICHT wieder hergestellt werden!</p>|,
-		lastUpdated => 1154467100
+		message => q|Sind Sie sicher, dass Sie diese Version von diesem Asset l&ouml;schen m&ouml;chten? Nach dem L&ouml;schen kann sie NICHT wieder hergestellt werden!|,
+		lastUpdated => 1170457353
 	},
 
 	'411' => {
-		message => q|Menutitel|,
-		lastUpdated => 1153126805
+		message => q|Men&uuml;titel|,
+		lastUpdated => 1170451647
 	},
 
 };
