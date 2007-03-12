@@ -2,8 +2,8 @@ package WebGUI::i18n::Arabic::Asset_EventManagementSystem;
 
 our $I18N = {
 	'add/edit event metadata field' => {
-		message => q||,
-		lastUpdated => 
+		message => q|اضف/عدل مجال ميتاداتا الحدث<br />|,
+		lastUpdated => 1169130787
 	},
 
 	'you' => {
@@ -17,8 +17,8 @@ our $I18N = {
 	},
 
 	'add/edit event required events' => {
-		message => q||,
-		lastUpdated => 
+		message => q|الاحداث المطلوبة<br />|,
+		lastUpdated => 1169130960
 	},
 
 	'seatsRemaining' => {
@@ -27,8 +27,8 @@ our $I18N = {
 	},
 
 	'confirm delete prerequisite set' => {
-		message => q||,
-		lastUpdated => 
+		message => q|هل انت متاكد من انك تريد مسح مجموعة المتطلبات هذه؟ هذه ايضا ستفصلاي حدث يتطلب مجموعة المتطلبات هذه.<br />|,
+		lastUpdated => 1169131706
 	},
 
 	'manageToolbar' => {
@@ -42,18 +42,18 @@ our $I18N = {
 	},
 
 	'datePurchasedHuman' => {
-		message => q||,
-		lastUpdated => 
+		message => q|التاريخ و الوقت الذي بدأ فيه هذا الشراء في شكل ادمي مقروأ<br />|,
+		lastUpdated => 1169135653
 	},
 
 	'add/edit event required events description' => {
-		message => q||,
-		lastUpdated => 
+		message => q|  <p style="text-align: left; direction: ltr; unicode-bidi: embed" class="MsoNormal"><span>من الممكن أن تطلب أن يكون المستخدم مسجل لاحداث محددة قبل أن يسمح له بان يسجل للحدث</span><span></span></p>  |,
+		lastUpdated => 1169131004
 	},
 
 	'created by description' => {
-		message => q||,
-		lastUpdated => 
+		message => q|المستخدم الذي قام بعمل هوية العلامة التجارية هذه<br />|,
+		lastUpdated => 1169131985
 	},
 
 	'discount pass type description' => {
@@ -77,13 +77,13 @@ our $I18N = {
 	},
 
 	'Event Number' => {
-		message => q||,
-		lastUpdated => 
+		message => q|رقم الحدث|,
+		lastUpdated => 1169129235
 	},
 
 	'add prerequisite set' => {
-		message => q||,
-		lastUpdated => 
+		message => q|اضف مجموعة متطلبات اساسية |,
+		lastUpdated => 1169130117
 	},
 
 	'you do not have any events to display' => {
@@ -102,8 +102,8 @@ our $I18N = {
 	},
 
 	'checkout.url' => {
-		message => q||,
-		lastUpdated => 
+		message => q|الرابط الذي ياخذك الى شاشة المستخدم التي تظهر عربة التسوق<br />|,
+		lastUpdated => 1169131474
 	},
 
 	'add discount pass' => {
@@ -147,8 +147,8 @@ our $I18N = {
 	},
 
 	'add/edit event maximum attendees' => {
-		message => q||,
-		lastUpdated => 
+		message => q|العدد الاقصى للحضور|,
+		lastUpdated => 1169130728
 	},
 
 	'refresh events list' => {
@@ -172,8 +172,8 @@ our $I18N = {
 	},
 
 	'add/edit event description' => {
-		message => q||,
-		lastUpdated => 
+		message => q|الشرح|,
+		lastUpdated => 1169130295
 	},
 
 	'manageEvents.label' => {
@@ -182,8 +182,8 @@ our $I18N = {
 	},
 
 	'User sub events small resultset' => {
-		message => q||,
-		lastUpdated => 
+		message => q|من الممكن ان تختار من الاحداث الثانوية التالية. من الممكن ان تقلل حجم قائمة الاحداث باستخدام خواص الفلتر المتقدم او العادي الموجودة اعلاه|,
+		lastUpdated => 1169130044
 	},
 
 	'sku' => {
@@ -197,8 +197,8 @@ our $I18N = {
 	},
 
 	'defines discount pass' => {
-		message => q||,
-		lastUpdated => 
+		message => q|  <p dir="rtl" class="MsoNormal"><span>هذا الحدث يعبر عن تخفيض.</span></p>  <p dir="rtl" class="MsoNormal"><span>إذا قام المستخدم باضافة هذا الحدث إلى العربة, الخصم المتعلق بالحدث سوف يعمل (حين الخروج) لاي من الاحداث التي هي اعضاء في الخصم.</span></p>  |,
+		lastUpdated => 1169132237
 	},
 
 	'paginate after description' => {
@@ -207,8 +207,8 @@ our $I18N = {
 	},
 
 	'add/edit event title' => {
-		message => q||,
-		lastUpdated => 
+		message => q|عنوان الحدث<br />|,
+		lastUpdated => 1169131113
 	},
 
 	'name.label' => {
@@ -232,23 +232,23 @@ our $I18N = {
 	},
 
 	'add/edit event template description' => {
-		message => q||,
-		lastUpdated => 
+		message => q|  <p dir="rtl" class="MsoNormal"><span>يقوم بالتحكم في الشكل الخارجي, المظهر الخاص بحدث مفرد في نظام ادارة الاحداث.</span></p>  |,
+		lastUpdated => 1169131099
 	},
 
 	'create a badge for someone else' => {
-		message => q||,
-		lastUpdated => 
+		message => q|قم بعمل شارة لاحد اخر<br />|,
+		lastUpdated => 1169131763
 	},
 
 	'add/edit event image description' => {
-		message => q||,
-		lastUpdated => 
+		message => q|صورة تعبر عن الحدث لتظهر لزوار الموقع<br />|,
+		lastUpdated => 1169130716
 	},
 
 	'add/edit event return to manage events' => {
-		message => q||,
-		lastUpdated => 
+		message => q|ارجع الى ادارة الاحداث<br />|,
+		lastUpdated => 1169131018
 	},
 
 	'edit registrant body' => {
@@ -267,8 +267,8 @@ our $I18N = {
 	},
 
 	'add/edit event price description' => {
-		message => q||,
-		lastUpdated => 
+		message => q|تكلفة حضور الحدث<br />|,
+		lastUpdated => 1169130949
 	},
 
 	'manage purchases template help title' => {
@@ -282,8 +282,8 @@ our $I18N = {
 	},
 
 	'add/edit event error' => {
-		message => q||,
-		lastUpdated => 
+		message => q|خطأ|,
+		lastUpdated => 1169130392
 	},
 
 	'edit discount pass' => {
@@ -322,8 +322,8 @@ our $I18N = {
 	},
 
 	'description' => {
-		message => q||,
-		lastUpdated => 
+		message => q|شرح هذا الحدث<br />|,
+		lastUpdated => 1169132253
 	},
 
 	'new price' => {
@@ -357,8 +357,8 @@ our $I18N = {
 	},
 
 	'add/edit event template' => {
-		message => q||,
-		lastUpdated => 
+		message => q|نموذج الحدث<br />|,
+		lastUpdated => 1169131052
 	},
 
 	'error' => {
@@ -367,8 +367,8 @@ our $I18N = {
 	},
 
 	'add/edit event operator description' => {
-		message => q||,
-		lastUpdated => 
+		message => q|  <p dir="rtl" class="MsoNormal"><span>بما أن الاحداث المطلوبة تضاف إلى الحدث, من الممكن أن تحدد أن كل الاحداث مطلوبة و, أو أن أي من الاحداث مطلوب.</span></p>  |,
+		lastUpdated => 1169130917
 	},
 
 	'group to approve events description' => {
@@ -422,13 +422,13 @@ our $I18N = {
 	},
 
 	'add/edit event add another prerequisite' => {
-		message => q||,
-		lastUpdated => 
+		message => q|اضف متطلب اساسي اخر<br />|,
+		lastUpdated => 1169130268
 	},
 
 	'add/edit event operator' => {
-		message => q||,
-		lastUpdated => 
+		message => q|المشغل|,
+		lastUpdated => 1169130847
 	},
 
 	'global metadata' => {
@@ -437,8 +437,8 @@ our $I18N = {
 	},
 
 	'Pagination variables' => {
-		message => q||,
-		lastUpdated => 
+		message => q|المتغيرات المشتركة في نموذج التصفيح<br />|,
+		lastUpdated => 1169129951
 	},
 
 	'you do not have any metadata fields to display' => {
@@ -452,13 +452,13 @@ our $I18N = {
 	},
 
 	'add/edit event maximum attendees description' => {
-		message => q||,
-		lastUpdated => 
+		message => q|بناء على حجم الغرفة, الكراسي, العمال و المتطلبات الاخرى, عدد الناس الذي يمكنهم حضور الحدث<br />|,
+		lastUpdated => 1169130764
 	},
 
 	'add/edit event description description' => {
-		message => q||,
-		lastUpdated => 
+		message => q|تفاصيل الحدث الخاص بك, مثل المكان, الوقت, و عن ماذا الحدث<br />|,
+		lastUpdated => 1169130325
 	},
 
 	'operator type description' => {
@@ -467,8 +467,8 @@ our $I18N = {
 	},
 
 	'add registrant' => {
-		message => q||,
-		lastUpdated => 
+		message => q|اضف مسجل العلامات التجارية<br />|,
+		lastUpdated => 1169130195
 	},
 
 	'manage events' => {
@@ -487,18 +487,18 @@ our $I18N = {
 	},
 
 	'add/edit event image' => {
-		message => q||,
-		lastUpdated => 
+		message => q|صورة الحدث<br />|,
+		lastUpdated => 1169130683
 	},
 
 	'add/edit event help title' => {
-		message => q||,
-		lastUpdated => 
+		message => q|اضف عدل حدث<br />|,
+		lastUpdated => 1169130672
 	},
 
 	'add/edit event end date' => {
-		message => q||,
-		lastUpdated => 
+		message => q|تاريخ نهاية الحدث<br />|,
+		lastUpdated => 1169130337
 	},
 
 	'associated user description' => {
@@ -527,8 +527,8 @@ our $I18N = {
 	},
 
 	'add to badge message' => {
-		message => q||,
-		lastUpdated => 
+		message => q|e%sتم اضافته الى شارتك بنجاح<br />|,
+		lastUpdated => 1169130223
 	},
 
 	'view purchase template description' => {
@@ -537,8 +537,8 @@ our $I18N = {
 	},
 
 	'User sub events large resultset' => {
-		message => q||,
-		lastUpdated => 
+		message => q|من الممكن ايضا ان تختار من الاحداث الثانوية الاتية. بسبب العدد الكبير من الاحداث الثانوية لا يتم اظهار اي منها, من فضلك صغر من حجم النتائج باستخدام خواص الفلتر العادي او المتقدم الموجودة اعلاه.|,
+		lastUpdated => 1169130014
 	},
 
 	'search.formFooter' => {
@@ -552,8 +552,8 @@ our $I18N = {
 	},
 
 	'continue' => {
-		message => q||,
-		lastUpdated => 
+		message => q|اكمل|,
+		lastUpdated => 1169131715
 	},
 
 	'price' => {
@@ -627,18 +627,18 @@ our $I18N = {
 	},
 
 	'confirm delete purchase' => {
-		message => q||,
-		lastUpdated => 
+		message => q|هل انت متاكد من انك تريد مسح هذا العنصر من عربتك؟ اي تعديلات تقوم بعملها في الشارة الحالية التي تعدلها سوف تفقد.<br />|,
+		lastUpdated => 1169132088
 	},
 
 	'add/edit useSalesTax' => {
-		message => q||,
-		lastUpdated => 
+		message => q|استخدم ضريبة المبيعات؟<br />|,
+		lastUpdated => 1169131327
 	},
 
 	'add/edit help title' => {
-		message => q||,
-		lastUpdated => 
+		message => q|اضف/عدل نظام ادارة احداث<br />|,
+		lastUpdated => 1169131301
 	},
 
 	'ends.label' => {
@@ -662,8 +662,8 @@ our $I18N = {
 	},
 
 	'add/edit event help body' => {
-		message => q||,
-		lastUpdated => 
+		message => q|  <p dir="rtl" class="MsoNormal"><span>في هذا النموذج ستقوم بعمل حدث للبيع على الموقع. كل حدث يكون شبيه جدا بعلامة وصل بين المنتج و مدير المنتج و بين حدث في اجندة الاحداث. ستعطي للحدث عنوان, شرح, سعر, و نموذج لاظهار الحدث للمستخدم و متى يبدأ و ينتهي الحدث. يوجد أيضا العديد من المجالات لأنظمة ادارة الاحداث لتعريف العدد الاقصى للحضور و هل يوجد أي احداث أخرى تعتبر متطلب اساسي لهذا الحدث.</span></p>  |,
+		lastUpdated => 1169130659
 	},
 
 	'null field error' => {
@@ -672,8 +672,8 @@ our $I18N = {
 	},
 
 	'checkout.label' => {
-		message => q||,
-		lastUpdated => 
+		message => q|علامة تتماشى مع رابط الخروج. كلمة التدويل &quot;خروج&quot;<br />|,
+		lastUpdated => 1169131444
 	},
 
 	'operator type' => {
@@ -682,8 +682,8 @@ our $I18N = {
 	},
 
 	'add/edit approve event' => {
-		message => q||,
-		lastUpdated => 
+		message => q|صدق على الحدث<br />|,
+		lastUpdated => 1169130254
 	},
 
 	'discount pass type' => {
@@ -712,8 +712,8 @@ our $I18N = {
 	},
 
 	'created by' => {
-		message => q||,
-		lastUpdated => 
+		message => q|تم عمله بواسطة<br />|,
+		lastUpdated => 1169131917
 	},
 
 	'discount pass id' => {
@@ -727,8 +727,8 @@ our $I18N = {
 	},
 
 	'continue.url' => {
-		message => q||,
-		lastUpdated => 
+		message => q|الرابط لاضافة هذا الحدث الى العربة<br />|,
+		lastUpdated => 1169131738
 	},
 
 	'registration info message' => {
@@ -762,8 +762,8 @@ our $I18N = {
 	},
 
 	'confirm delete event metadata' => {
-		message => q||,
-		lastUpdated => 
+		message => q|هل انت متاكد انك تريد مسح مجال الميتاداتا هذا؟ قيم الميتاداتا لهذا المجال ستمسح من كل الاحداث, بما في ذلك الاحداث الموجودة في وبجيكتس نظام ادارة الاحداث التي تم ضبطها لان تستخدم ميتاداتا عالمية.<br />|,
+		lastUpdated => 1169131604
 	},
 
 	'amount off' => {
@@ -772,8 +772,8 @@ our $I18N = {
 	},
 
 	'checkout template description' => {
-		message => q||,
-		lastUpdated => 
+		message => q|تتحكم في الشكل الخارجي, المنظر, و المظهر الخاص بشاشة الخروج في نظام ادارة الاحداث<br />|,
+		lastUpdated => 1169131415
 	},
 
 	'calendarJS' => {
@@ -792,8 +792,8 @@ our $I18N = {
 	},
 
 	'add/edit event metadata field body' => {
-		message => q||,
-		lastUpdated => 
+		message => q|هذه الشاشة تسمح لك باضافة مجال ميتاداتا جديد لحدث ما او ان تقوم باعادة ضبط مجالات الميتاداتا الموجودة|,
+		lastUpdated => 1169130837
 	},
 
 	'type label here' => {
@@ -807,13 +807,13 @@ our $I18N = {
 	},
 
 	'add/edit event what next' => {
-		message => q||,
-		lastUpdated => 
+		message => q|ماذا بعد؟<br />|,
+		lastUpdated => 1169131134
 	},
 
 	'checkout' => {
-		message => q||,
-		lastUpdated => 
+		message => q|اخرج|,
+		lastUpdated => 1169131364
 	},
 
 	'reset user' => {
@@ -842,8 +842,8 @@ our $I18N = {
 	},
 
 	'Admin manage sub events large resultset' => {
-		message => q||,
-		lastUpdated => 
+		message => q|<p>من الممكن ان تدير الاحداث التالية. بسبب العدد الكبير من الاحداث الثانوية لا يتم اظهار اي منها, من فضلك صغر من حجم النتائج باستخدام خواص الفلتر العادي او المتقدم الموجودة اعلاه.</p><p>&nbsp;</p>|,
+		lastUpdated => 1169129174
 	},
 
 	'tmplVar sku template' => {
@@ -867,8 +867,8 @@ our $I18N = {
 	},
 
 	'checkout template' => {
-		message => q||,
-		lastUpdated => 
+		message => q|نموذج الخروج<br />|,
+		lastUpdated => 1169131374
 	},
 
 	'weight' => {
@@ -882,8 +882,8 @@ our $I18N = {
 	},
 
 	'add to cart' => {
-		message => q||,
-		lastUpdated => 
+		message => q|اضف الى الشارة<br />|,
+		lastUpdated => 1169130234
 	},
 
 	'sold out' => {
@@ -892,8 +892,8 @@ our $I18N = {
 	},
 
 	'add/edit event what next description' => {
-		message => q||,
-		lastUpdated => 
+		message => q|بعد ان تفرغ من ملء هذا النموذج, من الممكن ان تضيف حدث جديدمطلوب, او ببساطة تحفظ الضبط الخاص بك و ترجع الى صفحة مدير الاحداث<br />|,
+		lastUpdated => 1169131195
 	},
 
 	'forced narrowing' => {
@@ -917,8 +917,8 @@ our $I18N = {
 	},
 
 	'city' => {
-		message => q||,
-		lastUpdated => 
+		message => q|المدينة|,
+		lastUpdated => 1169131481
 	},
 
 	'scheduling conflict message' => {
@@ -942,18 +942,18 @@ our $I18N = {
 	},
 
 	'add/edit event title description' => {
-		message => q||,
-		lastUpdated => 
+		message => q|ادخل اسم او عنوان الحدث<br />|,
+		lastUpdated => 1169131125
 	},
 
 	'continue.label' => {
-		message => q||,
-		lastUpdated => 
+		message => q|العلامة المدولة &quot;اكمل&quot; للذهاب الى continue.url.|,
+		lastUpdated => 1169132032
 	},
 
 	'confirm delete event' => {
-		message => q||,
-		lastUpdated => 
+		message => q|هل انت متاكد انك تريد مسح هذا الحدث؟<br />|,
+		lastUpdated => 1169131499
 	},
 
 	'message' => {
@@ -977,8 +977,8 @@ our $I18N = {
 	},
 
 	'Admin manage sub events small resultset' => {
-		message => q||,
-		lastUpdated => 
+		message => q|من الممكن ان تدير الاحداث التالية. من الممكن ان تقلل حجم قائمة الاحداث باستخدام خواص الفلتر المتقدم او العادي الموجودة اعلاه<br />|,
+		lastUpdated => 1169130358
 	},
 
 	'manage event metadata' => {
@@ -987,13 +987,13 @@ our $I18N = {
 	},
 
 	'Unlink User' => {
-		message => q||,
-		lastUpdated => 
+		message => q|افصل المستخدم<br />|,
+		lastUpdated => 1169129963
 	},
 
 	'add/edit event start date' => {
-		message => q||,
-		lastUpdated => 
+		message => q|تاريخ بدأ الحدث<br />|,
+		lastUpdated => 1169131028
 	},
 
 	'auto search description' => {
@@ -1032,8 +1032,8 @@ our $I18N = {
 	},
 
 	'add new event metadata field' => {
-		message => q||,
-		lastUpdated => 
+		message => q|اضف مجال ميتاداتا للحدث جديد<br />|,
+		lastUpdated => 1169130067
 	},
 
 	'managePurchases.url' => {
@@ -1042,13 +1042,13 @@ our $I18N = {
 	},
 
 	'add/edit event end date description' => {
-		message => q||,
-		lastUpdated => 
+		message => q|الوقت و التاريخ الذي ينتهي فيه الحدث<br />|,
+		lastUpdated => 1169130353
 	},
 
 	'createdByUserId' => {
-		message => q||,
-		lastUpdated => 
+		message => q|هوية المستخدم الذي قام بعمل هذه الشارة<br /> |,
+		lastUpdated => 1169132096
 	},
 
 	'starts.label' => {
@@ -1087,8 +1087,8 @@ our $I18N = {
 	},
 
 	'confirm delete prerequisite' => {
-		message => q||,
-		lastUpdated => 
+		message => q|هل انت متاكد من انك تريد مسح التطلب هذا؟ |,
+		lastUpdated => 1169131644
 	},
 
 	'addEvent.label' => {
@@ -1097,8 +1097,8 @@ our $I18N = {
 	},
 
 	'discount amount' => {
-		message => q||,
-		lastUpdated => 
+		message => q|حجم التخفيض<br />|,
+		lastUpdated => 1169132663
 	},
 
 	'country' => {
@@ -1157,8 +1157,8 @@ our $I18N = {
 	},
 
 	'create a badge for myself' => {
-		message => q||,
-		lastUpdated => 
+		message => q|قم بعمل شارة لنفسي<br />|,
+		lastUpdated => 1169131751
 	},
 
 	'scheduling conflict continue' => {
@@ -1177,8 +1177,8 @@ our $I18N = {
 	},
 
 	'create new user' => {
-		message => q||,
-		lastUpdated => 
+		message => q|قم بعمل مستخدم جديد<br />|,
+		lastUpdated => 1169131906
 	},
 
 	'assetName' => {
@@ -1212,8 +1212,8 @@ our $I18N = {
 	},
 
 	'add/edit event assigned prerequisites' => {
-		message => q||,
-		lastUpdated => 
+		message => q|المتطلبات الاساسية المحددة<br />|,
+		lastUpdated => 1169130287
 	},
 
 	'search.data.url' => {
@@ -1237,8 +1237,8 @@ our $I18N = {
 	},
 
 	'add/edit event start date description' => {
-		message => q||,
-		lastUpdated => 
+		message => q|الوقت و التاريخ الذي يبدأ فيه الحدث<br />|,
+		lastUpdated => 1169131042
 	},
 
 	'assigned discount pass description' => {

@@ -11,11 +11,6 @@ our $I18N = {
 		lastUpdated => 1164725450
 	},
 
-	'for' => {
-		message => q|من اجل<br />|,
-		lastUpdated => 1164725170
-	},
-
 	'multisearch template body' => {
 		message => q|النموذج متعدد البحث له كل المتغيرات المستخدمة بالوبجيكت, و ايضا هذه<br />|,
 		lastUpdated => 1164725426
@@ -41,9 +36,9 @@ our $I18N = {
 		lastUpdated => 1164725076
 	},
 
-	'search.variable' => {
-		message => q|علامة دولية للكلمة &quot;بحث&quot;<br />|,
-		lastUpdated => 1164725466
+	'multi search asset template variables body' => {
+		message => q|كل من الاصول يوفر مجموعة من المتغيرات لاغلب النماذج بناء على الخواص الداخلية للاصل. بعض هذه المتغيرات من الممكن ان يكون مفيد جدا, الاخرى لا تكون مفيدة<br />|,
+		lastUpdated => 1172758755
 	},
 
 	'multisearch template title' => {
@@ -59,6 +54,31 @@ our $I18N = {
 	'cache timeout' => {
 		message => q|<p>كيش تايم اوت&nbsp;</p>|,
 		lastUpdated => 1164725095
+	},
+
+	'multi search asset template variables title' => {
+		message => q|متغيرات نموذج اصل البحث المتعدد<br />|,
+		lastUpdated => 1172758790
+	},
+
+	'templateId' => {
+		message => q|هوية النموذج المستخدم لاظهار هذا الاصل.<br />|,
+		lastUpdated => 1172758831
+	},
+
+	'cacheTimeout' => {
+		message => q|كمية الوقت في الثواني لكي يتم ترك الخارج من هذا البحث في الذاكرة المؤقتة|,
+		lastUpdated => 1172758731
+	},
+
+	'for' => {
+		message => q|من اجل<br />|,
+		lastUpdated => 1164725170
+	},
+
+	'search.variable' => {
+		message => q|علامة دولية للكلمة &quot;بحث&quot;<br />|,
+		lastUpdated => 1164725466
 	},
 
 	'MultiSearch Template description' => {

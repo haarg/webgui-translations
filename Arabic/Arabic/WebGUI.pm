@@ -42,8 +42,8 @@ our $I18N = {
 	},
 
 	'show all fields' => {
-		message => q||,
-		lastUpdated => 
+		message => q|اظهر كل المجالات<br />|,
+		lastUpdated => 1171460046
 	},
 
 	'882' => {
@@ -92,8 +92,8 @@ our $I18N = {
 	},
 
 	'glossary title' => {
-		message => q||,
-		lastUpdated => 
+		message => q|قاموس الويب جوي<br />|,
+		lastUpdated => 1171896215
 	},
 
 	'451' => {
@@ -127,8 +127,8 @@ our $I18N = {
 	},
 
 	'help toc' => {
-		message => q||,
-		lastUpdated => 
+		message => q|جدول المكونات<br />|,
+		lastUpdated => 1171896824
 	},
 
 	'pagination.pageLoop' => {
@@ -147,13 +147,13 @@ our $I18N = {
 	},
 
 	'float' => {
-		message => q||,
-		lastUpdated => 
+		message => q|رقم (عشري)<br />|,
+		lastUpdated => 1171896198
 	},
 
 	'purge workflow' => {
-		message => q||,
-		lastUpdated => 
+		message => q|نظف سريان العمل<br />|,
+		lastUpdated => 1171459826
 	},
 
 	'948' => {
@@ -222,8 +222,8 @@ our $I18N = {
 	},
 
 	'manage users in group body' => {
-		message => q||,
-		lastUpdated => 
+		message => q|استخدم هذا النموذج لتضيف و تلغي المستخدمين من المجموعة<br />|,
+		lastUpdated => 1171897209
 	},
 
 	'337' => {
@@ -306,14 +306,19 @@ our $I18N = {
 		lastUpdated => 1167241699
 	},
 
+	'bare insufficient' => {
+		message => q||,
+		lastUpdated => 
+	},
+
 	'145' => {
 		message => q|نسخة بناء ويب جوي<br />|,
 		lastUpdated => 1167239497
 	},
 
 	'preview' => {
-		message => q||,
-		lastUpdated => 
+		message => q|اعرض|,
+		lastUpdated => 1171459806
 	},
 
 	'142 description' => {
@@ -417,8 +422,8 @@ our $I18N = {
 	},
 
 	'manage users in group title' => {
-		message => q||,
-		lastUpdated => 
+		message => q|المستخدمين في المجموعة<br />|,
+		lastUpdated => 1171897297
 	},
 
 	'943' => {
@@ -427,8 +432,8 @@ our $I18N = {
 	},
 
 	'unknown user' => {
-		message => q||,
-		lastUpdated => 
+		message => q|مستخدم غير معروف<br /> |,
+		lastUpdated => 1171891181
 	},
 
 	'460' => {
@@ -462,8 +467,8 @@ our $I18N = {
 	},
 
 	'fieldtype' => {
-		message => q||,
-		lastUpdated => 
+		message => q|نوع المجال<br />|,
+		lastUpdated => 1171896148
 	},
 
 	'999' => {
@@ -502,8 +507,8 @@ our $I18N = {
 	},
 
 	'settings help' => {
-		message => q||,
-		lastUpdated => 
+		message => q|الضبط يمكنك من ان تحدد القيم الاعتيادية للويب جوي لمقابلة احتياجاتك الخاصة.<br />|,
+		lastUpdated => 1171460018
 	},
 
 	'452' => {
@@ -582,8 +587,8 @@ our $I18N = {
 	},
 
 	'mail return path' => {
-		message => q||,
-		lastUpdated => 
+		message => q|طريق الرجوع<br />|,
+		lastUpdated => 1171897115
 	},
 
 	'64' => {
@@ -597,8 +602,8 @@ our $I18N = {
 	},
 
 	'password clear text' => {
-		message => q||,
-		lastUpdated => 
+		message => q|يظهر في نص واضح حتى تضمن انك كتبته بشكل صحيح.<br />|,
+		lastUpdated => 1171459787
 	},
 
 	'12' => {
@@ -672,8 +677,8 @@ our $I18N = {
 	},
 
 	'1' => {
-		message => q|اضف مادة<br />|,
-		lastUpdated => 1166719725
+		message => q|<div style="border-right: medium none; padding-right: 0in; border-top: medium none; padding-left: 0in; padding-bottom: 1pt; border-left: medium none; padding-top: 0in; border-bottom: windowtext 1pt solid"><span class="postbody"><span style="font-family: Verdana"><font size="3">Warm welcome to Alnemat TheGrace Arabic Christian Internet Magazine, We love you! Please visit us at: </font></span></span><span style="font-family: Verdana"><br /><font size="3"><span>&nbsp;</span><br /><span class="postbody"><span style="font-family: Verdana"><a href="http://www.thegrace.net/" target="_blank"><span style="font-family: &#39;Times New Roman&#39;"><font color="#800080">http://www.TheGrace.net</font></span></a> </span></span><br /><br /><span class="postbody"><span style="font-family: Verdana"><a href="http://www.thegrace.org/" target="_blank"><span style="font-family: &#39;Times New Roman&#39;"><font color="#800080">http://www.TheGrace.org</font></span></a> </span></span></font></span><span class="postbody"><span style="font-family: Verdana"><a href="http://www.thegrace.com/" target="_blank"><span style="font-family: &#39;Times New Roman&#39;"><font size="3" color="#800080">http://www.TheGrace.com</font></span></a><font size="3"> </font></span></span><font size="3"><font face="Times New Roman"><span class="postbody"><span>نتمنى لكم</span></span><span class="postbody"><span> </span></span><span class="postbody"><span>الفرح</span></span><span class="postbody"><span> </span></span><span class="postbody"><span>و</span></span><span class="postbody"><span>السلام</span></span><span class="postbody"><span> </span></span><span class="postbody"><span>والمحبة</span></span><span class="postbody"><span> </span></span><span class="postbody"><span>ل</span></span><span class="postbody"><span>أ</span></span><span class="postbody"><span>ن السلام افضل من الحرب والمحبة افضل من الكراهية</span></span><span class="postbody"><span> </span></span><span class="postbody"><span>كما ان النور أفضل من الظلمة</span></span><span class="postbody"><span style="font-family: Verdana"></span></span></font></font><font size="3"><strong><span style="font-family: &#39;Traditional Arabic&#39;">سلام لكم في </span></strong><strong><span style="font-family: &#39;Traditional Arabic&#39;">محبة الله</span></strong><strong><span style="font-family: &#39;Traditional Arabic&#39;">.</span></strong><strong><span style="font-family: &#39;Traditional Arabic&#39;">نتأمل زياراتكم الكريمة لموقع النعمة موقع مجلة النعمة يقدم كلمة الله الكتاب المقدس الإنجيل رسالة السيد يسوع المسيح </span></strong><strong><span><span><font face="Times New Roman">&nbsp;</font></span></span></strong><strong><span style="font-family: &#39;Traditional Arabic&#39;">قراءات مختارة مواضيع مصيرية قصص واقعية شهادات شخصية ترانيم </span></strong><strong><span style="font-family: &#39;Traditional Arabic&#39;">ممتازة</span></strong><strong><span style="font-family: &#39;Traditional Arabic&#39;"> ردود مؤكدة كتب بنّاءة رسوم </span></strong><strong><span style="font-family: &#39;Traditional Arabic&#39;">تسالي </span></strong><strong><span style="font-family: &#39;Traditional Arabic&#39;">تأمل</span></strong><strong><span style="font-family: &#39;Traditional Arabic&#39;">ات يوميات</span></strong></font><span style="font-family: Verdana"><font size="3"> <br /><span class="postbody"><span style="font-family: Verdana">Bible in Arabic Audio Read search Studys Stories Testimonies Hymns and Poems Answers Books Links Daily devotions Acappella Music Graphics /Alnemat Journal Arabe Chr&eacute;tien La Gr&acirc;ce la Revue Arabe sur Internet offre La Sainte Bible Al-Injil L&#39;Evangile de J&eacute;sus Christ gratuit, Bienvenue a La Gr&acirc;ce.</span></span></font></span><span class="postbody"><span style="font-family: Verdana"></span></span></div><font size="3"><strong><span style="font-family: Arial">Arabic Christian Magazine The Grace offering the Arabic Bible </span></strong><strong><span style="font-family: Arial">النعمة تقدم الإنجيل الكتاب المقدس</span></strong></font><strong><span style="font-family: Arial"></span></strong>|,
+		lastUpdated => 1172501628
 	},
 
 	'144' => {
@@ -762,8 +767,8 @@ our $I18N = {
 	},
 
 	'link in new window' => {
-		message => q||,
-		lastUpdated => 
+		message => q|افتح الوصلة في نافذة جديدة|,
+		lastUpdated => 1171897044
 	},
 
 	'1005 description' => {
@@ -772,8 +777,8 @@ our $I18N = {
 	},
 
 	'groups to delete' => {
-		message => q||,
-		lastUpdated => 
+		message => q|مجحموعات للمسح<br />|,
+		lastUpdated => 1171896752
 	},
 
 	'1073' => {
@@ -817,8 +822,8 @@ our $I18N = {
 	},
 
 	'link in same window' => {
-		message => q||,
-		lastUpdated => 
+		message => q|افتح الوصلة في نفس النافذة<br />|,
+		lastUpdated => 1171897073
 	},
 
 	'493' => {
@@ -827,23 +832,23 @@ our $I18N = {
 	},
 
 	'trash workflow help' => {
-		message => q||,
-		lastUpdated => 
+		message => q|اي من سريانات العمل يستخدم عندما يوضع شيء في سلة المهملات<br />|,
+		lastUpdated => 1171891155
 	},
 
 	'webgui tips title' => {
-		message => q||,
-		lastUpdated => 
+		message => q|مقتطفات ويب جوي<br />|,
+		lastUpdated => 1171891701
 	},
 
 	'photo' => {
-		message => q||,
-		lastUpdated => 
+		message => q|صورة|,
+		lastUpdated => 1171459795
 	},
 
 	'file' => {
-		message => q||,
-		lastUpdated => 
+		message => q|ملف|,
+		lastUpdated => 1171896156
 	},
 
 	'pagination.nextPage' => {
@@ -867,8 +872,8 @@ our $I18N = {
 	},
 
 	'noldaplink' => {
-		message => q||,
-		lastUpdated => 
+		message => q|No LDAP Connection|,
+		lastUpdated => 1171897341
 	},
 
 	'161' => {
@@ -882,8 +887,8 @@ our $I18N = {
 	},
 
 	'default version tag workflow help' => {
-		message => q||,
-		lastUpdated => 
+		message => q|ما هو سريان العمل المطلوب عندما يقوم المستخدم بانشاء نسخ الكود الخاصة بهم.<br />|,
+		lastUpdated => 1171896029
 	},
 
 	'125 description' => {
@@ -932,8 +937,8 @@ our $I18N = {
 	},
 
 	'grouping edit title' => {
-		message => q||,
-		lastUpdated => 
+		message => q|مجموعة, عدل|,
+		lastUpdated => 1171896713
 	},
 
 	'369 description' => {
@@ -997,8 +1002,8 @@ our $I18N = {
 	},
 
 	'messaging' => {
-		message => q||,
-		lastUpdated => 
+		message => q|المراسلة|,
+		lastUpdated => 1171897306
 	},
 
 	'724' => {
@@ -1037,8 +1042,8 @@ our $I18N = {
 	},
 
 	'groups to add' => {
-		message => q||,
-		lastUpdated => 
+		message => q|مجموعات للاضافة<br />|,
+		lastUpdated => 1171896742
 	},
 
 	'323' => {
@@ -1057,8 +1062,8 @@ our $I18N = {
 	},
 
 	'grouping edit body' => {
-		message => q||,
-		lastUpdated => 
+		message => q|من الممكن ان تضبط كم من الوقت يبقى المستخدم في المجموعة, او ان تجعلهم مديري مجموعة.<br /> |,
+		lastUpdated => 1171896688
 	},
 
 	'69' => {
@@ -1072,8 +1077,8 @@ our $I18N = {
 	},
 
 	'removeLabel' => {
-		message => q||,
-		lastUpdated => 
+		message => q|اخرج|,
+		lastUpdated => 1171459886
 	},
 
 	'756' => {
@@ -1082,8 +1087,8 @@ our $I18N = {
 	},
 
 	'hexadecimal' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Hexadecimal|,
+		lastUpdated => 1171896840
 	},
 
 	'446' => {
@@ -1172,8 +1177,8 @@ our $I18N = {
 	},
 
 	'default rich editor' => {
-		message => q||,
-		lastUpdated => 
+		message => q|المعدل الغني الاعتيادي<br /> |,
+		lastUpdated => 1171891934
 	},
 
 	'660' => {
@@ -1187,8 +1192,8 @@ our $I18N = {
 	},
 
 	'default rich editor description' => {
-		message => q||,
-		lastUpdated => 
+		message => q|<p>&nbsp;هذا هو ضبط المعدل الغني الذي سيستخدم اعتياديا عندما يكون مطلوب. من الممكن اعادة ضبط هذا الموضوع في بعض الاحيان مثل النظام التعاوني.<br /></p><p>&nbsp;</p>|,
+		lastUpdated => 1171895958
 	},
 
 	'977' => {
@@ -1227,8 +1232,8 @@ our $I18N = {
 	},
 
 	'help contents' => {
-		message => q||,
-		lastUpdated => 
+		message => q|مكونات المساعدة<br />|,
+		lastUpdated => 1171896776
 	},
 
 	'533' => {
@@ -1312,13 +1317,13 @@ our $I18N = {
 	},
 
 	'help index' => {
-		message => q||,
-		lastUpdated => 
+		message => q|اجندة|,
+		lastUpdated => 1171896785
 	},
 
 	'group' => {
-		message => q||,
-		lastUpdated => 
+		message => q|مجموعة|,
+		lastUpdated => 1171896255
 	},
 
 	'360' => {
@@ -1342,8 +1347,8 @@ our $I18N = {
 	},
 
 	'country' => {
-		message => q||,
-		lastUpdated => 
+		message => q|البلد|,
+		lastUpdated => 1171891774
 	},
 
 	'50 description' => {
@@ -1377,8 +1382,8 @@ our $I18N = {
 	},
 
 	'radio' => {
-		message => q||,
-		lastUpdated => 
+		message => q|زر راديو<br />|,
+		lastUpdated => 1171459849
 	},
 
 	'1076' => {
@@ -1462,8 +1467,8 @@ our $I18N = {
 	},
 
 	'interval' => {
-		message => q||,
-		lastUpdated => 
+		message => q|مرحلة|,
+		lastUpdated => 1171896987
 	},
 
 	'699' => {
@@ -1497,8 +1502,8 @@ our $I18N = {
 	},
 
 	'topicName' => {
-		message => q||,
-		lastUpdated => 
+		message => q|ويب جوي<br />|,
+		lastUpdated => 1171891107
 	},
 
 	'941' => {
@@ -1527,8 +1532,8 @@ our $I18N = {
 	},
 
 	'debug ip description' => {
-		message => q||,
-		lastUpdated => 
+		message => q|سيقوم هذا بحد تصحيح الاخطاء و الاداء الخارج الى عنوان اي بي محدد مجال اي بي محدد. ادخل السب نت الذي تريد ان يكون قادرا على الاطلاع على خارج التصحيح في شكلCIDR.<br />|,
+		lastUpdated => 1171891914
 	},
 
 	'951' => {
@@ -1537,8 +1542,8 @@ our $I18N = {
 	},
 
 	'show performance indicators' => {
-		message => q||,
-		lastUpdated => 
+		message => q|اظهر عدادات الاداء؟<br />|,
+		lastUpdated => 1171460104
 	},
 
 	'85' => {
@@ -1567,8 +1572,8 @@ our $I18N = {
 	},
 
 	'packages' => {
-		message => q||,
-		lastUpdated => 
+		message => q|<p>المجموعات</p><p>&nbsp;</p>|,
+		lastUpdated => 1171897354
 	},
 
 	'leftovers from settings stored for later' => {
@@ -1667,8 +1672,8 @@ our $I18N = {
 	},
 
 	'image manager' => {
-		message => q||,
-		lastUpdated => 
+		message => q|مدير الصور<br />|,
+		lastUpdated => 1171896951
 	},
 
 	'316' => {
@@ -1677,8 +1682,8 @@ our $I18N = {
 	},
 
 	'target description' => {
-		message => q||,
-		lastUpdated => 
+		message => q|اختر اذا ما ستفتح الوصلة في نفس النافذة او في نافذة جديدة اذا تم النقر عليها<br />|,
+		lastUpdated => 1171460243
 	},
 
 	'163' => {
@@ -1687,18 +1692,18 @@ our $I18N = {
 	},
 
 	'trash' => {
-		message => q||,
-		lastUpdated => 
+		message => q|سلة المهملات<br />|,
+		lastUpdated => 1171891118
 	},
 
 	'manage cache' => {
-		message => q||,
-		lastUpdated => 
+		message => q|الذاكرة المؤقتة<br />|,
+		lastUpdated => 1171897173
 	},
 
 	'read only' => {
-		message => q||,
-		lastUpdated => 
+		message => q|قراءة فقط<br />|,
+		lastUpdated => 1171459863
 	},
 
 	'combobox' => {
@@ -1757,8 +1762,8 @@ our $I18N = {
 	},
 
 	'pagination.url' => {
-		message => q||,
-		lastUpdated => 
+		message => q|رابط الصفحة في مسلسل الصفحات<br />|,
+		lastUpdated => 1171459752
 	},
 
 	'434' => {
@@ -1772,8 +1777,8 @@ our $I18N = {
 	},
 
 	'expire groupings' => {
-		message => q||,
-		lastUpdated => 
+		message => q|انهي مجموعات المستخدم<br />|,
+		lastUpdated => 1171896138
 	},
 
 	'865' => {
@@ -1782,8 +1787,8 @@ our $I18N = {
 	},
 
 	'int slider' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Int slider|,
+		lastUpdated => 1171896976
 	},
 
 	'pagination.pageList' => {
@@ -1807,8 +1812,8 @@ our $I18N = {
 	},
 
 	'image' => {
-		message => q||,
-		lastUpdated => 
+		message => q|صورة|,
+		lastUpdated => 1171896875
 	},
 
 	'886' => {
@@ -1852,8 +1857,8 @@ our $I18N = {
 	},
 
 	'user' => {
-		message => q||,
-		lastUpdated => 
+		message => q|مستخدم|,
+		lastUpdated => 1171891403
 	},
 
 	'732' => {
@@ -1917,13 +1922,13 @@ our $I18N = {
 	},
 
 	'link enter alert' => {
-		message => q||,
-		lastUpdated => 
+		message => q|يجب ان تدخل وصلة رابط<br />|,
+		lastUpdated => 1171897009
 	},
 
 	'debug ip' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Debug IP|,
+		lastUpdated => 1171891802
 	},
 
 	'858' => {
@@ -1947,8 +1952,8 @@ our $I18N = {
 	},
 
 	'submit' => {
-		message => q||,
-		lastUpdated => 
+		message => q|ادخل|,
+		lastUpdated => 1171460188
 	},
 
 	'314' => {
@@ -1982,8 +1987,8 @@ our $I18N = {
 	},
 
 	'page statistics' => {
-		message => q||,
-		lastUpdated => 
+		message => q|احصائيات الصفحة<br />|,
+		lastUpdated => 1171898028
 	},
 
 	'355' => {
@@ -2082,8 +2087,8 @@ our $I18N = {
 	},
 
 	'starts with' => {
-		message => q||,
-		lastUpdated => 
+		message => q|يبدأ ب<br />|,
+		lastUpdated => 1171460178
 	},
 
 	'552' => {
@@ -2092,8 +2097,8 @@ our $I18N = {
 	},
 
 	'hex slider' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Hex slider|,
+		lastUpdated => 1171896833
 	},
 
 	'880' => {
@@ -2157,8 +2162,8 @@ our $I18N = {
 	},
 
 	'user function style' => {
-		message => q||,
-		lastUpdated => 
+		message => q|شكل اداء المستخدم<br />|,
+		lastUpdated => 1171891425
 	},
 
 	'871' => {
@@ -2167,8 +2172,8 @@ our $I18N = {
 	},
 
 	'misc' => {
-		message => q||,
-		lastUpdated => 
+		message => q|متنوع|,
+		lastUpdated => 1171897330
 	},
 
 	'1044' => {
@@ -2187,8 +2192,8 @@ our $I18N = {
 	},
 
 	'pages' => {
-		message => q||,
-		lastUpdated => 
+		message => q|الصفحات|,
+		lastUpdated => 1171898055
 	},
 
 	'118 description' => {
@@ -2267,8 +2272,8 @@ our $I18N = {
 	},
 
 	'trash workflow' => {
-		message => q||,
-		lastUpdated => 
+		message => q|سريان عمل سلة المهملات<br />|,
+		lastUpdated => 1171891130
 	},
 
 	'731' => {
@@ -2282,8 +2287,8 @@ our $I18N = {
 	},
 
 	'link settings' => {
-		message => q||,
-		lastUpdated => 
+		message => q|ضبط الوصلات<br />|,
+		lastUpdated => 1171897087
 	},
 
 	'668' => {
@@ -2382,13 +2387,13 @@ our $I18N = {
 	},
 
 	'pagination.text' => {
-		message => q||,
-		lastUpdated => 
+		message => q|رقم الصغحة في مسلسل الصفحات.<br />|,
+		lastUpdated => 1171459737
 	},
 
 	'ui' => {
-		message => q||,
-		lastUpdated => 
+		message => q|UI|,
+		lastUpdated => 1171891166
 	},
 
 	'623' => {
@@ -2397,13 +2402,13 @@ our $I18N = {
 	},
 
 	'content filters' => {
-		message => q||,
-		lastUpdated => 
+		message => q|فلاتر المادة<br />|,
+		lastUpdated => 1171891766
 	},
 
 	'insert a link' => {
-		message => q||,
-		lastUpdated => 
+		message => q|ادخل وصلة<br />|,
+		lastUpdated => 1171896963
 	},
 
 	'328' => {
@@ -2477,8 +2482,8 @@ our $I18N = {
 	},
 
 	'settings' => {
-		message => q||,
-		lastUpdated => 
+		message => q|الضبط|,
+		lastUpdated => 1171459963
 	},
 
 	'groups default body' => {
@@ -2522,8 +2527,8 @@ our $I18N = {
 	},
 
 	'select slider' => {
-		message => q||,
-		lastUpdated => 
+		message => q|اختر سلايدر<br />|,
+		lastUpdated => 1171459955
 	},
 
 	'705' => {
@@ -2567,8 +2572,8 @@ our $I18N = {
 	},
 
 	'target' => {
-		message => q||,
-		lastUpdated => 
+		message => q|الهدف|,
+		lastUpdated => 1171460196
 	},
 
 	'125' => {
@@ -2602,8 +2607,8 @@ our $I18N = {
 	},
 
 	'user function style description' => {
-		message => q||,
-		lastUpdated => 
+		message => q|يعرف اي شكل يجب ان يستخدم في عمليات الويب جوي عندما تكون متوفرة للمستخدم|,
+		lastUpdated => 1171891632
 	},
 
 	'313' => {
@@ -2612,8 +2617,8 @@ our $I18N = {
 	},
 
 	'webgui' => {
-		message => q||,
-		lastUpdated => 
+		message => q|ويب جوي<br />|,
+		lastUpdated => 1171891650
 	},
 
 	'551' => {
@@ -2652,8 +2657,8 @@ our $I18N = {
 	},
 
 	'url extension description' => {
-		message => q||,
-		lastUpdated => 
+		message => q|<p>اضف بعدا جديدا مثل اتش تي ام ال او بي اتش بي او ايه اس بي الى كل صفحة جديدة تضاف الى الويب جوي</p><p>&nbsp;</p><p>ملاحظة: لا تضف النقطة &quot;.&quot; عندما تدخل البعد بحث يظهر البعد &quot;HTML&quot; او &quot;ASP&quot;&nbsp;</p>|,
+		lastUpdated => 1171891374
 	},
 
 	'697' => {
@@ -2667,8 +2672,8 @@ our $I18N = {
 	},
 
 	'default version tag workflow' => {
-		message => q||,
-		lastUpdated => 
+		message => q|سريان عمل نسخة الكود الاعتيادية. |,
+		lastUpdated => 1171895988
 	},
 
 	'987' => {
@@ -2737,8 +2742,8 @@ our $I18N = {
 	},
 
 	'group email title' => {
-		message => q||,
-		lastUpdated => 
+		message => q|مجموعة, بريد الكتروني<br />|,
+		lastUpdated => 1171896635
 	},
 
 	'86' => {
@@ -2762,8 +2767,8 @@ our $I18N = {
 	},
 
 	'profile' => {
-		message => q||,
-		lastUpdated => 
+		message => q|ملف|,
+		lastUpdated => 1171459815
 	},
 
 	'371' => {
@@ -2857,8 +2862,8 @@ our $I18N = {
 	},
 
 	'group email body' => {
-		message => q||,
-		lastUpdated => 
+		message => q|يقوم هذا بعمل شكل بسيط من طرق الاتصال بالمستخدم في كل مجموعات الاعضاء في وقت واحد.<br />|,
+		lastUpdated => 1171896621
 	},
 
 	'735' => {
@@ -2872,8 +2877,8 @@ our $I18N = {
 	},
 
 	'tinymce' => {
-		message => q||,
-		lastUpdated => 
+		message => q|TinyMCE (IE, mozilla)|,
+		lastUpdated => 1171891095
 	},
 
 	'613' => {
@@ -2902,8 +2907,8 @@ our $I18N = {
 	},
 
 	'show performance indicators description' => {
-		message => q||,
-		lastUpdated => 
+		message => q|هذا سوف يظهر الوقت بالثانية الذي تم استهلاكه لبناء كل عنصر على الصفحة. انه مفيد لحل مشكلات الاداء<br />|,
+		lastUpdated => 1171460163
 	},
 
 	'702' => {
@@ -2927,8 +2932,8 @@ our $I18N = {
 	},
 
 	'select' => {
-		message => q||,
-		lastUpdated => 
+		message => q|اختر|,
+		lastUpdated => 1171459897
 	},
 
 	'636' => {
@@ -2952,8 +2957,8 @@ our $I18N = {
 	},
 
 	'hidden' => {
-		message => q||,
-		lastUpdated => 
+		message => q|مخفي|,
+		lastUpdated => 1171896847
 	},
 
 	'63' => {
@@ -2982,8 +2987,8 @@ our $I18N = {
 	},
 
 	'mail return path help' => {
-		message => q||,
-		lastUpdated => 
+		message => q|لاي بريد يجب ان ترسل الرسائل العاجزة عن الارسال؟|,
+		lastUpdated => 1171897145
 	},
 
 	'457' => {
@@ -2997,8 +3002,8 @@ our $I18N = {
 	},
 
 	'ends with' => {
-		message => q||,
-		lastUpdated => 
+		message => q|ينتهي بـ<br />|,
+		lastUpdated => 1171896119
 	},
 
 	'pagination.lastPageText' => {
@@ -3077,13 +3082,13 @@ our $I18N = {
 	},
 
 	'hidden list' => {
-		message => q||,
-		lastUpdated => 
+		message => q|قائمة مخفية<br />|,
+		lastUpdated => 1171896858
 	},
 
 	'edit user karma body' => {
-		message => q||,
-		lastUpdated => 
+		message => q|كل تعديلات الكرما من تتم اوتوماتيكيا بناء على ما يقوم به المستخدم على موقعك. على اي حال, من الممكن ايضا تعديل الكرما عن طريق المديرين.<br />|,
+		lastUpdated => 1171896108
 	},
 
 	'406' => {
@@ -3137,8 +3142,8 @@ our $I18N = {
 	},
 
 	'show my fields' => {
-		message => q||,
-		lastUpdated => 
+		message => q|اظهر المجالات التي يسمح بها اليو اي الخاص بي|,
+		lastUpdated => 1171460090
 	},
 
 	'54' => {
@@ -3152,8 +3157,8 @@ our $I18N = {
 	},
 
 	'done' => {
-		message => q||,
-		lastUpdated => 
+		message => q|تم عمله<br />|,
+		lastUpdated => 1171896037
 	},
 
 	'70' => {
@@ -3172,8 +3177,8 @@ our $I18N = {
 	},
 
 	'user profiling' => {
-		message => q||,
-		lastUpdated => 
+		message => q|عمل ملفات المستخدمين<br />|,
+		lastUpdated => 1171891642
 	},
 
 	'1009' => {
@@ -3182,8 +3187,8 @@ our $I18N = {
 	},
 
 	'groups default title' => {
-		message => q||,
-		lastUpdated => 
+		message => q|مجموعات, اعتياديه<br />|,
+		lastUpdated => 1171896731
 	},
 
 	'141' => {
@@ -3277,8 +3282,8 @@ our $I18N = {
 	},
 
 	'help' => {
-		message => q||,
-		lastUpdated => 
+		message => q|مساعدة|,
+		lastUpdated => 1171896762
 	},
 
 	'318' => {
@@ -3287,8 +3292,8 @@ our $I18N = {
 	},
 
 	'url extension' => {
-		message => q||,
-		lastUpdated => 
+		message => q|بعد الرابط<br />|,
+		lastUpdated => 1171891194
 	},
 
 	'105' => {
@@ -3307,13 +3312,13 @@ our $I18N = {
 	},
 
 	'webgui tips body' => {
-		message => q||,
-		lastUpdated => 
+		message => q|<p>هذه بعض المقتطفات المهمة عن الويب جوي: </p><p>&nbsp;</p><p><strong>Dumping a whole WebGUI site statically.</strong><br /> <em>Len Kranendonk</em> Get a copy of wget and use this: wget -p -r --html-extension -k http://the.webgui.site<br /> -p will fetch all page requisites (images, css, etc)<br /> -r is for recursively downloading all pages<br /> --html-extension will add .html to all pages. This is needed to avoid duplicate page /directory names ( /home and /home/contact).<br /> -k will convert all URLs to local URLs <br /></p>|,
+		lastUpdated => 1171891679
 	},
 
 	'databases' => {
-		message => q||,
-		lastUpdated => 
+		message => q|قواعد البيانات<br />|,
+		lastUpdated => 1171891788
 	},
 
 	'146' => {

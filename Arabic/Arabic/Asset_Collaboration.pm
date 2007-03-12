@@ -22,13 +22,13 @@ our $I18N = {
 	},
 
 	'displayLastReply' => {
-		message => q||,
-		lastUpdated => 
+		message => q|  <p dir="rtl" class="MsoNormal"><span>شرط سيتحقق إذا تم ضبط النظام التعاوني على اظهار اخر الردود. إذا كان هذا المتغير حقيقيا, إذا في النموذج التعاوني, سيتم تشغيل متغيرات الرد الاخير.</span></p>  |,
+		lastUpdated => 1172065102
 	},
 
 	'karma spent to rate' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Karma Spent To Rate|,
+		lastUpdated => 1172065180
 	},
 
 	'isSecond' => {
@@ -47,13 +47,13 @@ our $I18N = {
 	},
 
 	'timeUpdated.human' => {
-		message => q||,
-		lastUpdated => 
+		message => q|الوقت الذي تم فيه اخر تعديل للاضافة, في طريقة ادمية مقروءة<br />|,
+		lastUpdated => 1172069749
 	},
 
 	'transfer karma' => {
-		message => q||,
-		lastUpdated => 
+		message => q|تحويل الكرما<br />|,
+		lastUpdated => 1172069847
 	},
 
 	'job.requirements.label' => {
@@ -62,8 +62,8 @@ our $I18N = {
 	},
 
 	'subject' => {
-		message => q||,
-		lastUpdated => 
+		message => q|العوان|,
+		lastUpdated => 1172067814
 	},
 
 	'get mail interval' => {
@@ -77,13 +77,13 @@ our $I18N = {
 	},
 
 	'unlock.label' => {
-		message => q||,
-		lastUpdated => 
+		message => q|كلمة &quot;ارفع الاغلاق&quot; |,
+		lastUpdated => 1172755846
 	},
 
 	'read more' => {
-		message => q||,
-		lastUpdated => 
+		message => q|اقرأ المزيد<br />|,
+		lastUpdated => 1172065650
 	},
 
 	'max image size help' => {
@@ -97,33 +97,33 @@ our $I18N = {
 	},
 
 	'title' => {
-		message => q||,
-		lastUpdated => 
+		message => q|عنوان|,
+		lastUpdated => 1172069761
 	},
 
 	'pubDate' => {
-		message => q||,
-		lastUpdated => 
+		message => q|التاريخ الذي تم فيه عمل العنصر<br />|,
+		lastUpdated => 1172065432
 	},
 
 	'user.isModerator' => {
-		message => q||,
-		lastUpdated => 
+		message => q|شرط سيتحقق اذا كان المستخدم الحالي مدير لهذا الاصل<br />|,
+		lastUpdated => 1172756221
 	},
 
 	'user defined 3' => {
-		message => q||,
-		lastUpdated => 
+		message => q|مستخدم معرف 3<br /> |,
+		lastUpdated => 1172756114
 	},
 
 	'sortby.title.url' => {
-		message => q||,
-		lastUpdated => 
+		message => q|<img src="file:///C:/DOCUME%7E1/MSabry/LOCALS%7E1/Temp/moz-screenshot.jpg" alt="" /><img src="file:///C:/DOCUME%7E1/MSabry/LOCALS%7E1/Temp/moz-screenshot-1.jpg" alt="" /><div align="right">الرابط لتصنيف و اظهار قائمة من الاضافات بناء على العنوان.<br /></div>|,
+		lastUpdated => 1172067716
 	},
 
 	'reply.label' => {
-		message => q||,
-		lastUpdated => 
+		message => q|كلمة &quot;رد&quot;|,
+		lastUpdated => 1172066056
 	},
 
 	'author' => {
@@ -132,8 +132,8 @@ our $I18N = {
 	},
 
 	'rating_loop' => {
-		message => q||,
-		lastUpdated => 
+		message => q|الحلقة التي تجرى مرة لكل نقطة من التقييم تحصل عليها الاضافة<br />|,
+		lastUpdated => 1172065606
 	},
 
 	'collaboration template body' => {
@@ -142,8 +142,8 @@ our $I18N = {
 	},
 
 	'previous' => {
-		message => q||,
-		lastUpdated => 
+		message => q|السابق|,
+		lastUpdated => 1172065405
 	},
 
 	'job.header.label' => {
@@ -152,8 +152,8 @@ our $I18N = {
 	},
 
 	'sticky' => {
-		message => q||,
-		lastUpdated => 
+		message => q|اجعلة ملصقا<br />|,
+		lastUpdated => 1172067807
 	},
 
 	'compensation' => {
@@ -167,8 +167,8 @@ our $I18N = {
 	},
 
 	'posts/page description' => {
-		message => q||,
-		lastUpdated => 
+		message => q|عدد الاضافات التي تظهر في كل صفحة من نموذج السلسلة. ضبط الرقم على مستوى عالي جدا من الممكن ان يبطئ من انشاء الصفحة و تحميلها.<br />|,
+		lastUpdated => 1172065380
 	},
 
 	'by.label' => {
@@ -192,13 +192,13 @@ our $I18N = {
 	},
 
 	'user.canPost' => {
-		message => q||,
-		lastUpdated => 
+		message => q|شرط سيتحقق اذا كان المستخدم الحالي قادر على اضافة اشياء الى النظام التعاوني<br />|,
+		lastUpdated => 1172756175
 	},
 
 	'unsubscribe' => {
-		message => q||,
-		lastUpdated => 
+		message => q|انهي الاشتراك<br />|,
+		lastUpdated => 1172755930
 	},
 
 	'image' => {
@@ -212,23 +212,23 @@ our $I18N = {
 	},
 
 	'rejected because no user account' => {
-		message => q||,
-		lastUpdated => 
+		message => q|ليس مسموح لك بالاضافة لاننا لم نتمكن من ايجاد حسابك. ربما ان عنوان البريد هذا غير مرتبط بحسابك. |,
+		lastUpdated => 1172065931
 	},
 
 	'visitor cache timeout help' => {
-		message => q||,
-		lastUpdated => 
+		message => q|بما ان كل الزوار سيرو هذا الاصل بنفس الشكل, من الممكن ان يترك في الذاكرة المؤقتة من اجل رفع الاداء. كم من الوقت سيترك في الذاكرة؟ |,
+		lastUpdated => 1172756695
 	},
 
 	'unsubscribe.label' => {
-		message => q||,
-		lastUpdated => 
+		message => q|كلمة &quot;انهي الاشتراك&quot;<br />|,
+		lastUpdated => 1172755941
 	},
 
 	'user.isVisitor' => {
-		message => q||,
-		lastUpdated => 
+		message => q|شرط سيتحقق اذا كان هذا زائر<br />|,
+		lastUpdated => 1172756493
 	},
 
 	'critical.label' => {
@@ -237,13 +237,13 @@ our $I18N = {
 	},
 
 	'use preview' => {
-		message => q||,
-		lastUpdated => 
+		message => q|استخدم المعاينة؟<br />|,
+		lastUpdated => 1172756005
 	},
 
 	'sortby.username.url' => {
-		message => q||,
-		lastUpdated => 
+		message => q|<div align="right">الرابط لتصنيف و اظهار قائمة من الاضافات بناء على اسم المستخدم.<br /></div>|,
+		lastUpdated => 1172067733
 	},
 
 	'karma rank' => {
@@ -252,8 +252,13 @@ our $I18N = {
 	},
 
 	'replies' => {
-		message => q||,
-		lastUpdated => 
+		message => q|الردود|,
+		lastUpdated => 1172066029
+	},
+
+	'attachment_thumbnail' => {
+		message => q|  <p dir="rtl" class="MsoNormal"><span>الرابط إلى الصورة الصغيرة لهذه المرفقة. الملفات سوف تظهر عن طريق ايقونة بناء على نوعهم. الصور سيكون لها صورة صغيرة حقيقية.</span><span></span></p>  |,
+		lastUpdated => 1172064892
 	},
 
 	'avatar.url' => {
@@ -262,8 +267,8 @@ our $I18N = {
 	},
 
 	'user' => {
-		message => q||,
-		lastUpdated => 
+		message => q|مستخدم|,
+		lastUpdated => 1172756075
 	},
 
 	'id' => {
@@ -297,8 +302,8 @@ our $I18N = {
 	},
 
 	'item_loop' => {
-		message => q||,
-		lastUpdated => 
+		message => q|الحلقة فوق الاضافات سوف يتم تحويلها الى RSS Feed<br />|,
+		lastUpdated => 1172065149
 	},
 
 	'posts/page' => {
@@ -322,8 +327,8 @@ our $I18N = {
 	},
 
 	'system template' => {
-		message => q||,
-		lastUpdated => 
+		message => q|نموذج نظام تعاوني<br />|,
+		lastUpdated => 1172068090
 	},
 
 	'mail account help' => {
@@ -332,8 +337,8 @@ our $I18N = {
 	},
 
 	'preview' => {
-		message => q||,
-		lastUpdated => 
+		message => q|اعرض |,
+		lastUpdated => 1172065397
 	},
 
 	'cosmetic.label' => {
@@ -352,8 +357,8 @@ our $I18N = {
 	},
 
 	'sortby.views.url' => {
-		message => q||,
-		lastUpdated => 
+		message => q|<div align="right">الرابط لتصنيف و اظهار قائمة من الاضافات بناء على عدد مرات القراءة.<br /></div>|,
+		lastUpdated => 1172067755
 	},
 
 	'collaboration add/edit body' => {
@@ -372,13 +377,13 @@ our $I18N = {
 	},
 
 	'status' => {
-		message => q||,
-		lastUpdated => 
+		message => q|الحالة|,
+		lastUpdated => 1172067762
 	},
 
 	'thumbnail size help' => {
-		message => q||,
-		lastUpdated => 
+		message => q|  <p dir="rtl" class="MsoNormal"><span>اضبط حجم الصورة الصغرى للنظام التعاوني. إذا قمت بضبط هذا على 0 إذا سيستخدم الحجم الاعتيادي الموجود في الضبط الأصلي. أيضا تغيير الضبط لا يقوم بتغيير حجم الصورة الصغيرة بشكل ارتجاعي في النظام التعاوني. يجب أن تعيد حفظ كل اضافة لكي يحدث التغيير.</span></p>  |,
+		lastUpdated => 1172069341
 	},
 
 	'addquestion' => {
@@ -387,8 +392,8 @@ our $I18N = {
 	},
 
 	'sort by description' => {
-		message => q||,
-		lastUpdated => 
+		message => q|اعتياديا, كل الاضافات تظهر بترتيب. استخدم هذا المجال لكي تختار خاصية التصنيف. من الممكن اختيار العديد من الخواص<br />|,
+		lastUpdated => 1172067409
 	},
 
 	'content filter description' => {
@@ -397,8 +402,8 @@ our $I18N = {
 	},
 
 	'readmore.label' => {
-		message => q||,
-		lastUpdated => 
+		message => q|جملة &quot;اقرأ المزيد&quot;<br />|,
+		lastUpdated => 1172065663
 	},
 
 	'guid' => {
@@ -412,8 +417,8 @@ our $I18N = {
 	},
 
 	'system template description' => {
-		message => q||,
-		lastUpdated => 
+		message => q|هذه هو النموذج الاصلي للاصل التعاوني |,
+		lastUpdated => 1172068549
 	},
 
 	'collaboration add/edit title' => {
@@ -432,8 +437,8 @@ our $I18N = {
 	},
 
 	'unsubscribe.url' => {
-		message => q||,
-		lastUpdated => 
+		message => q|الرابط الى انهاء اشتراك المستخدم الحالي من هذا الاصل<br /> |,
+		lastUpdated => 1172755968
 	},
 
 	'body.label' => {
@@ -442,8 +447,8 @@ our $I18N = {
 	},
 
 	'thumbnail' => {
-		message => q||,
-		lastUpdated => 
+		message => q|الصورة الصغيرة<br />|,
+		lastUpdated => 1172068667
 	},
 
 	'closed' => {
@@ -457,18 +462,18 @@ our $I18N = {
 	},
 
 	'search.url' => {
-		message => q||,
-		lastUpdated => 
+		message => q|الرابط للدخول على نموذج البحث لهذا الاصل التعاوني.<br />|,
+		lastUpdated => 1172066814
 	},
 
 	'replies.label' => {
-		message => q||,
-		lastUpdated => 
+		message => q|كلمة &quot;الردود&quot;<br />|,
+		lastUpdated => 1172066040
 	},
 
 	'notification template' => {
-		message => q|نموذج تحذير<br />|,
-		lastUpdated => 1164124456
+		message => q|نظام تعاوني, نموذج تحذير<br />|,
+		lastUpdated => 1172065275
 	},
 
 	'close.label' => {
@@ -477,13 +482,13 @@ our $I18N = {
 	},
 
 	'rich editor' => {
-		message => q||,
-		lastUpdated => 
+		message => q|المعدل الغني|,
+		lastUpdated => 1172066324
 	},
 
 	'responses.label' => {
-		message => q||,
-		lastUpdated => 
+		message => q|كلمة &quot;الردود&quot;<br />|,
+		lastUpdated => 1172066314
 	},
 
 	'addquestion.label' => {
@@ -497,8 +502,8 @@ our $I18N = {
 	},
 
 	'sortby.date.url' => {
-		message => q||,
-		lastUpdated => 
+		message => q|رابط للتصنيف و اظهار قائمة من الاضافات بتاريخ ادخالهم<br />|,
+		lastUpdated => 1172067480
 	},
 
 	'edit timeout description' => {
@@ -527,13 +532,13 @@ our $I18N = {
 	},
 
 	'rate' => {
-		message => q||,
-		lastUpdated => 
+		message => q|قيم|,
+		lastUpdated => 1172065538
 	},
 
 	'question.header.label' => {
-		message => q||,
-		lastUpdated => 
+		message => q|الجملة &quot;عدل السؤال&quot;|,
+		lastUpdated => 1172065522
 	},
 
 	'job.description.label' => {
@@ -567,8 +572,8 @@ our $I18N = {
 	},
 
 	'rejected because not allowed' => {
-		message => q||,
-		lastUpdated => 
+		message => q|غير مسموح لك بان ترسل رسائل لانك لا تملك الصلاحيات الكافية, او انك غير مشترك في هذه المناقشة.<br />|,
+		lastUpdated => 1172065983
 	},
 
 	'edit job' => {
@@ -602,13 +607,13 @@ our $I18N = {
 	},
 
 	'tmplVar url' => {
-		message => q||,
-		lastUpdated => 
+		message => q|الرابط لهذه الاضافة<br />|,
+		lastUpdated => 1172069838
 	},
 
 	'user defined 2' => {
-		message => q||,
-		lastUpdated => 
+		message => q|مستخدم معرف 2<br />|,
+		lastUpdated => 1172756096
 	},
 
 	'collaboration post list template variables body' => {
@@ -617,13 +622,13 @@ our $I18N = {
 	},
 
 	'url.label' => {
-		message => q||,
-		lastUpdated => 
+		message => q|كلمة &quot;رابط&quot;|,
+		lastUpdated => 1172755984
 	},
 
 	'unstick' => {
-		message => q||,
-		lastUpdated => 
+		message => q|اخرج من اللصق |,
+		lastUpdated => 1172755865
 	},
 
 	'attachment.path' => {
@@ -637,8 +642,8 @@ our $I18N = {
 	},
 
 	'use preview description' => {
-		message => q||,
-		lastUpdated => 
+		message => q|اختر نعم لكي تظهر معاينة للاضافة للمستخدم قبل ادخالها. في خلال اظهار المعاينة, لا يمكن تعديل او الغاء الاضافة.<br />|,
+		lastUpdated => 1172756064
 	},
 
 	'approval workflow description' => {
@@ -652,8 +657,8 @@ our $I18N = {
 	},
 
 	'user.isPoster' => {
-		message => q||,
-		lastUpdated => 
+		message => q|شرط يحدد ان المستخدم الحالي اضاف اضافة&nbsp; |,
+		lastUpdated => 1172756262
 	},
 
 	'closed.label' => {
@@ -663,7 +668,7 @@ our $I18N = {
 
 	'display last reply description' => {
 		message => q|اذا تم اختيار نعم, متغيرات النموذج ستضاف لكي تسمح باظهار الاضافة الاخيرة.<br />|,
-		lastUpdated => 1164038540
+		lastUpdated => 1172065159
 	},
 
 	'lock' => {
@@ -687,18 +692,18 @@ our $I18N = {
 	},
 
 	'unarchive' => {
-		message => q||,
-		lastUpdated => 
+		message => q|لا تارشف<br />|,
+		lastUpdated => 1172069857
 	},
 
 	'rejected' => {
-		message => q||,
-		lastUpdated => 
+		message => q|مرفوض|,
+		lastUpdated => 1172065672
 	},
 
 	'rating.label' => {
-		message => q||,
-		lastUpdated => 
+		message => q|كلمة &quot;التقييم&quot;<br />|,
+		lastUpdated => 1172065565
 	},
 
 	'feed description' => {
@@ -707,18 +712,18 @@ our $I18N = {
 	},
 
 	'rss template description' => {
-		message => q||,
-		lastUpdated => 
+		message => q|النموذج المستخدم لعمل ال XML للrss feed&nbsp; على هذا الاصل. |,
+		lastUpdated => 1172066418
 	},
 
 	'thumbnail.label' => {
-		message => q||,
-		lastUpdated => 
+		message => q|كلمة &quot;الصورة الصغرى&quot;<br />|,
+		lastUpdated => 1172069353
 	},
 
 	'user defined 1' => {
-		message => q||,
-		lastUpdated => 
+		message => q|مستخدم معرف 1<br />|,
+		lastUpdated => 1172756086
 	},
 
 	'get mail' => {
@@ -737,18 +742,18 @@ our $I18N = {
 	},
 
 	'responses' => {
-		message => q||,
-		lastUpdated => 
+		message => q|الردود|,
+		lastUpdated => 1172066305
 	},
 
 	'title.label' => {
-		message => q||,
-		lastUpdated => 
+		message => q|كلمة &quot;عنوان&quot;<br />|,
+		lastUpdated => 1172069775
 	},
 
 	'subject.label' => {
-		message => q||,
-		lastUpdated => 
+		message => q|كلمة &quot;الموضوع&quot;|,
+		lastUpdated => 1172067837
 	},
 
 	'collaboration post list template variables title' => {
@@ -777,8 +782,8 @@ our $I18N = {
 	},
 
 	'webMaster' => {
-		message => q||,
-		lastUpdated => 
+		message => q|البريد الخاص بالشخص المسؤول عن المسائل التقنية المتعلقة بالrss feed. <br />|,
+		lastUpdated => 1172756858
 	},
 
 	'lastReply.userProfile.url' => {
@@ -787,18 +792,18 @@ our $I18N = {
 	},
 
 	'status.label' => {
-		message => q||,
-		lastUpdated => 
+		message => q|كلمة &quot;الحالة&quot;<br />|,
+		lastUpdated => 1172067771
 	},
 
 	'rate.label' => {
-		message => q||,
-		lastUpdated => 
+		message => q|كلمة &quot;قيم&quot;<br />|,
+		lastUpdated => 1172065547
 	},
 
 	'question' => {
-		message => q||,
-		lastUpdated => 
+		message => q|سؤال|,
+		lastUpdated => 1172065508
 	},
 
 	'back.label' => {
@@ -807,8 +812,8 @@ our $I18N = {
 	},
 
 	'severity.label' => {
-		message => q||,
-		lastUpdated => 
+		message => q|كلمة &quot;الشدة&quot;<br />|,
+		lastUpdated => 1172067315
 	},
 
 	'attachment.url' => {
@@ -817,23 +822,23 @@ our $I18N = {
 	},
 
 	'stick.label' => {
-		message => q||,
-		lastUpdated => 
+		message => q|جملة &quot;اجعل ملصقا&quot;<br />|,
+		lastUpdated => 1172067794
 	},
 
 	'rating_loop.count' => {
-		message => q||,
-		lastUpdated => 
+		message => q|متغير الفهرس لـ<strong>rating_loop</strong>.|,
+		lastUpdated => 1172065641
 	},
 
 	'thread template' => {
-		message => q||,
-		lastUpdated => 
+		message => q|نظام تعاوني, نموذج سلسلة<br />|,
+		lastUpdated => 1172068576
 	},
 
 	'thumbnail size' => {
-		message => q||,
-		lastUpdated => 
+		message => q|حجم الصورة الصغرى<br />|,
+		lastUpdated => 1172069033
 	},
 
 	'generator' => {
@@ -842,8 +847,8 @@ our $I18N = {
 	},
 
 	'user defined 5' => {
-		message => q||,
-		lastUpdated => 
+		message => q|مستخدم معرف 5<br />|,
+		lastUpdated => 1172756133
 	},
 
 	'form.header' => {
@@ -852,8 +857,8 @@ our $I18N = {
 	},
 
 	'subscribe' => {
-		message => q||,
-		lastUpdated => 
+		message => q|اشترك|,
+		lastUpdated => 1172067878
 	},
 
 	'display last reply' => {
@@ -867,8 +872,8 @@ our $I18N = {
 	},
 
 	'who posts' => {
-		message => q||,
-		lastUpdated => 
+		message => q|من الممكن ان يضيف؟<br />|,
+		lastUpdated => 1172756870
 	},
 
 	'delete' => {
@@ -887,8 +892,8 @@ our $I18N = {
 	},
 
 	'views' => {
-		message => q||,
-		lastUpdated => 
+		message => q|عدد الزيارات|,
+		lastUpdated => 1172756550
 	},
 
 	'lastReply.url' => {
@@ -962,18 +967,18 @@ our $I18N = {
 	},
 
 	'synopsis' => {
-		message => q||,
-		lastUpdated => 
+		message => q|تلخيص|,
+		lastUpdated => 1172068069
 	},
 
 	'sortby.karmaRank.url' => {
-		message => q||,
-		lastUpdated => 
+		message => q|الرابط لتصنيف و اظهار قائمة من الاضافات بكمية الكرما التي حولها المستخدمون الى السلسلة.<br />|,
+		lastUpdated => 1172067516
 	},
 
 	'rss template' => {
-		message => q||,
-		lastUpdated => 
+		message => q|نظام تعاوني, نموذج ار اس اس<br />|,
+		lastUpdated => 1172066381
 	},
 
 	'lastReply.timeSubmitted.human' => {
@@ -987,13 +992,13 @@ our $I18N = {
 	},
 
 	'sort order' => {
-		message => q||,
-		lastUpdated => 
+		message => q|نظام التصنيف<br />|,
+		lastUpdated => 1172067422
 	},
 
 	'sortby.rating.url' => {
-		message => q||,
-		lastUpdated => 
+		message => q|<div align="right">الرابط لتصنيف و اظهار قائمة من الاضافات بناء على التقييم الخاص بهم.<br /></div>|,
+		lastUpdated => 1172067598
 	},
 
 	'collab link' => {
@@ -1007,13 +1012,13 @@ our $I18N = {
 	},
 
 	'rss.url' => {
-		message => q||,
-		lastUpdated => 
+		message => q|الرابط لتحميل الrss لهذا الاصل<br />|,
+		lastUpdated => 1172066443
 	},
 
 	'who posts description' => {
-		message => q||,
-		lastUpdated => 
+		message => q|المجموعة المسموح لها بادخال الاضافات الى الاصل.<br />|,
+		lastUpdated => 1172756902
 	},
 
 	'isThird' => {
@@ -1032,18 +1037,18 @@ our $I18N = {
 	},
 
 	'require subscription for email posting help' => {
-		message => q||,
-		lastUpdated => 
+		message => q|اذا تم ضبط هذا على نعم, اذا فلا يمكن للمستخدم ان يضيف الا اذا كان في مجموعة اضافة, و لكن يجب ايضا ان يكون مشتركا في النظام التعاوني او في السلسلة من اجل ان يضيفه.|,
+		lastUpdated => 1172066294
 	},
 
 	'require subscription for email posting' => {
-		message => q||,
-		lastUpdated => 
+		message => q|اطلب الاشتراك من اجل اضضافت البريد؟<br />|,
+		lastUpdated => 1172066092
 	},
 
 	'mail prefix help' => {
-		message => q||,
-		lastUpdated => 
+		message => q|  <p dir="rtl" class="MsoNormal"><span>السلسلة سوف يتم تعليقها في مساحة الموضوع في كل الرسائل الخارجة من النظام التعاوني.</span><span></span></p>  |,
+		lastUpdated => 1172065253
 	},
 
 	'collaboration search template body' => {
@@ -1052,13 +1057,13 @@ our $I18N = {
 	},
 
 	'post template' => {
-		message => q|نموذج الاضافة<br />|,
-		lastUpdated => 1164124577
+		message => q|نظام تعاوني, نموذج الاضافة<br />|,
+		lastUpdated => 1172065295
 	},
 
 	'question.label' => {
-		message => q||,
-		lastUpdated => 
+		message => q|كلمة &quot;سؤال&quot;<br />|,
+		lastUpdated => 1172065531
 	},
 
 	'lastReply.title' => {
@@ -1067,8 +1072,8 @@ our $I18N = {
 	},
 
 	'synopsis.label' => {
-		message => q||,
-		lastUpdated => 
+		message => q|كلمة &quot;تلخيص&quot;<br />|,
+		lastUpdated => 1172068079
 	},
 
 	'max image size' => {
@@ -1077,13 +1082,13 @@ our $I18N = {
 	},
 
 	'rating' => {
-		message => q||,
-		lastUpdated => 
+		message => q|التقييم|,
+		lastUpdated => 1172065555
 	},
 
 	'thread template description' => {
-		message => q||,
-		lastUpdated => 
+		message => q|النموذج لاظهار السلسلة<br />|,
+		lastUpdated => 1172068592
 	},
 
 	'close' => {
@@ -1097,18 +1102,18 @@ our $I18N = {
 	},
 
 	'visitorName.label' => {
-		message => q||,
-		lastUpdated => 
+		message => q|جملة &quot;اسم المستخدم&quot;<br />|,
+		lastUpdated => 1172756712
 	},
 
 	'severity' => {
-		message => q||,
-		lastUpdated => 
+		message => q|الشدة|,
+		lastUpdated => 1172066864
 	},
 
 	'unstick.label' => {
-		message => q||,
-		lastUpdated => 
+		message => q|كلمة &quot;اخرج من اللصق&quot;<br />|,
+		lastUpdated => 1172755920
 	},
 
 	'contentType' => {
@@ -1122,8 +1127,8 @@ our $I18N = {
 	},
 
 	'sortby.replies.url' => {
-		message => q||,
-		lastUpdated => 
+		message => q|<div align="right">الرابط لتصنيف و اظهار قائمة من الاضافات بناء على عدد الردود على الاضافة&nbsp; .<br /></div>|,
+		lastUpdated => 1172067630
 	},
 
 	'answer' => {
@@ -1142,8 +1147,8 @@ our $I18N = {
 	},
 
 	'search template description' => {
-		message => q||,
-		lastUpdated => 
+		message => q|النموذج الخاص بالاصل التعاوني و النتائج.|,
+		lastUpdated => 1172066615
 	},
 
 	'karma rating multiplier' => {
@@ -1152,18 +1157,18 @@ our $I18N = {
 	},
 
 	'user.hasRead' => {
-		message => q||,
-		lastUpdated => 
+		message => q|شرط يحد ما اذا قرأ المستخدم هذه السلسلة<br />|,
+		lastUpdated => 1172756197
 	},
 
 	'user.isSubscribed' => {
-		message => q||,
-		lastUpdated => 
+		message => q|شرط سيتحقق اذا اشترك المستخدم في النظام التعاوني<br />|,
+		lastUpdated => 1172756440
 	},
 
 	'sequence' => {
-		message => q||,
-		lastUpdated => 
+		message => q|متتالية|,
+		lastUpdated => 1172066834
 	},
 
 	'edit.label' => {
@@ -1202,13 +1207,13 @@ our $I18N = {
 	},
 
 	'sort order description' => {
-		message => q||,
-		lastUpdated => 
+		message => q|صنف بنظان تصاعدي او تنازلي<br />|,
+		lastUpdated => 1172067443
 	},
 
 	'url' => {
-		message => q||,
-		lastUpdated => 
+		message => q|رابط|,
+		lastUpdated => 1172755974
 	},
 
 	'mail address help' => {
@@ -1216,14 +1221,19 @@ our $I18N = {
 		lastUpdated => 1164123688
 	},
 
+	'collaborationAssetId' => {
+		message => q|  <p dir="rtl" class="MsoNormal"><span>هوية الاصل لهذا النظام التعاوني. على عكس هوية الاصل المتغيرة, هذا لن يتم اعادة كتابته من هويات الاصول داخل السلاسل أو الاضافات.</span></p>  |,
+		lastUpdated => 1172065001
+	},
+
 	'user defined 4' => {
-		message => q||,
-		lastUpdated => 
+		message => q|مستخدم معرف 4<br />|,
+		lastUpdated => 1172756123
 	},
 
 	'unlock' => {
-		message => q||,
-		lastUpdated => 
+		message => q|افتح|,
+		lastUpdated => 1172069873
 	},
 
 	'mail password' => {
@@ -1277,13 +1287,13 @@ our $I18N = {
 	},
 
 	'sortby.lastreply.url' => {
-		message => q||,
-		lastUpdated => 
+		message => q|<div align="right">الرابط لتصنيف و اظهار قائمة من الاضافات بتاريخ اخر تعديل.<br /></div>|,
+		lastUpdated => 1172067576
 	},
 
 	'search.label' => {
-		message => q||,
-		lastUpdated => 
+		message => q|كلمة &quot;ابحث&quot;<br />|,
+		lastUpdated => 1172066629
 	},
 
 	'karma scale' => {
@@ -1302,8 +1312,8 @@ our $I18N = {
 	},
 
 	'threads/page description' => {
-		message => q||,
-		lastUpdated => 
+		message => q|عدد السلاسل التي تظهر في كل صفحة من نموذج النظام. ضبط هذا الرقم على مستوى عالي قد يبطئ من عمل و تحميل الصفحة. |,
+		lastUpdated => 1172068656
 	},
 
 	'edit' => {
@@ -1312,13 +1322,13 @@ our $I18N = {
 	},
 
 	'tmplVar status' => {
-		message => q||,
-		lastUpdated => 
+		message => q|حالة هذه الاضافة<br />|,
+		lastUpdated => 1172069786
 	},
 
 	'subscribe.url' => {
-		message => q||,
-		lastUpdated => 
+		message => q|الرابط لاشتراك المستخدم الحالي لهذا الاصل التعاوني. عندما يتم ادخال مادة جديدة الى الاصل التعاوني, سيتم اخطار المستخدم.<br />|,
+		lastUpdated => 1172068024
 	},
 
 	'layout.flat.label' => {
@@ -1327,13 +1337,13 @@ our $I18N = {
 	},
 
 	'userProfile.url' => {
-		message => q||,
-		lastUpdated => 
+		message => q|الرابط الى ملف المستخدم الذي ادخل هذه الاضافة<br />|,
+		lastUpdated => 1172756537
 	},
 
 	'previous.label' => {
-		message => q||,
-		lastUpdated => 
+		message => q|كلمة &quot;السابق&quot;<br />|,
+		lastUpdated => 1172065416
 	},
 
 	'karma rating multiplier description' => {
@@ -1347,8 +1357,8 @@ our $I18N = {
 	},
 
 	'user.label' => {
-		message => q||,
-		lastUpdated => 
+		message => q|كلمة &quot;مستخدم&quot;<br />|,
+		lastUpdated => 1172756503
 	},
 
 	'lastReply' => {
@@ -1357,13 +1367,13 @@ our $I18N = {
 	},
 
 	'timeSubmitted.human' => {
-		message => q||,
-		lastUpdated => 
+		message => q|الوت الذي اضيفت فيه هذه الاضافة في شكل ادمي مقروء<br /> |,
+		lastUpdated => 1172069382
 	},
 
 	'enable avatars description' => {
 		message => q|اختر نعم لكي تظهر الصور الشخصية للمستخدمين في النظام التعاوني. مكان الصورة الشخصية في ملف المستخدم يجب ان يتم تشغيله, و سيجب على المستخدمين ان يقوموا بتحميل صورة شخصية لكي تظهر في الخانة المخصصة لها.<br />|,
-		lastUpdated => 1164040214
+		lastUpdated => 1172065165
 	},
 
 	'description.label' => {
@@ -1372,13 +1382,13 @@ our $I18N = {
 	},
 
 	'submission.header.label' => {
-		message => q||,
-		lastUpdated => 
+		message => q|جملة &quot;عدل الادخال&quot;<br />|,
+		lastUpdated => 1172067869
 	},
 
 	'search' => {
-		message => q||,
-		lastUpdated => 
+		message => q|ابحث|,
+		lastUpdated => 1172066499
 	},
 
 	'message.header.label' => {
@@ -1397,13 +1407,13 @@ our $I18N = {
 	},
 
 	'threads/page' => {
-		message => q||,
-		lastUpdated => 
+		message => q|السلاسل في الصفحة<br />|,
+		lastUpdated => 1172068605
 	},
 
 	'sort by' => {
-		message => q||,
-		lastUpdated => 
+		message => q|صنف ب<br />|,
+		lastUpdated => 1172067349
 	},
 
 	'location' => {
@@ -1427,8 +1437,8 @@ our $I18N = {
 	},
 
 	'search template' => {
-		message => q||,
-		lastUpdated => 
+		message => q|نظام تعاوني, نموذج بحث<br />|,
+		lastUpdated => 1172066543
 	},
 
 	'edit question' => {
@@ -1457,8 +1467,8 @@ our $I18N = {
 	},
 
 	'visitor' => {
-		message => q||,
-		lastUpdated => 
+		message => q|اسم المستخدم<br />|,
+		lastUpdated => 1172756570
 	},
 
 	'job requirements' => {
@@ -1477,18 +1487,18 @@ our $I18N = {
 	},
 
 	'tmplVar thumbnail' => {
-		message => q||,
-		lastUpdated => 
+		message => q|اذا كان لهذه الاضافة مرفقات, الرابط للصورة الصغيرة للصورة الاولى المرفقة.<br />|,
+		lastUpdated => 1172069826
 	},
 
 	'query.form' => {
-		message => q||,
-		lastUpdated => 
+		message => q|نموذج اتش تي ام ال لاضافة المجال حيث يجب ان يتباين كل المدخل في صفحات متباينة.  |,
+		lastUpdated => 1172065502
 	},
 
 	'visitor cache timeout' => {
-		message => q||,
-		lastUpdated => 
+		message => q|انتهاء وقت الذاكرة المؤقتة للمستخدم<br />|,
+		lastUpdated => 1172756590
 	},
 
 	'minor.label' => {
@@ -1507,8 +1517,8 @@ our $I18N = {
 	},
 
 	'rich editor description' => {
-		message => q||,
-		lastUpdated => 
+		message => q|اختر &quot;نعم&quot; لكي تشغل المحرر المتقدم في الاضافات<br />|,
+		lastUpdated => 1172066364
 	},
 
 	'lastReply.username' => {
@@ -1522,13 +1532,13 @@ our $I18N = {
 	},
 
 	'views.label' => {
-		message => q||,
-		lastUpdated => 
+		message => q|كلمة &quot;الزيارات&quot;<br />|,
+		lastUpdated => 1172756561
 	},
 
 	'reply' => {
-		message => q||,
-		lastUpdated => 
+		message => q|رد|,
+		lastUpdated => 1172066047
 	},
 
 	'edit link' => {
@@ -1547,8 +1557,8 @@ our $I18N = {
 	},
 
 	'subscribe.label' => {
-		message => q||,
-		lastUpdated => 
+		message => q|كلمة &quot;اشترك&quot;<br />|,
+		lastUpdated => 1172067903
 	},
 
 };

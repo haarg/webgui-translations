@@ -91,6 +91,11 @@ our $I18N = {
 		lastUpdated => 1164210777
 	},
 
+	'file not found' => {
+		message => q|  <p dir="rtl" class="MsoNormal"><span>غير موجود</span></p>  <p dir="rtl" class="MsoNormal"><span>الرابط المطلوب </span><span>%s</span><span> غير موجود على هذا الخادم</span></p>  |,
+		lastUpdated => 1172062931
+	},
+
 	'file add/edit body' => {
 		message => q|<p align="&quot;right&quot;">&nbsp;اصول الملفات هي الملفات على موقعك و الموجودة للمستخدم لكي يحملها. اذا كنت تريد ان تجد ملفات متعددة, حاول ان تستخدم فايل بايل است. </p><p align="&quot;right&quot;">بما ان الملفات اصول, اذا لها كل الخواص التي تملكها الاصول. في ما ياتي الخواص التي تملكها اصول الور الخاصة. &nbsp;</p><p>&nbsp;</p>|,
 		lastUpdated => 1168439930
