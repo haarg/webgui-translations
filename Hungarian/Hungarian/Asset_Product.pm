@@ -2,8 +2,8 @@ package WebGUI::i18n::Hungarian::Asset_Product;
 
 our $I18N = {
 	'27 description' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Az adott műszaki adat &eacute;rt&eacute;ke. P&eacute;ld&aacute;ul: ha cimkek&eacute;nt a magass&aacute;got v&aacute;lasztja, akkor adjon meg egy sz&aacute;mszerű &eacute;rt&eacute;ket, mint p&eacute;ld&aacute;ul &quot;18&quot;. |,
+		lastUpdated => 1169034903
 	},
 
 	'32' => {
@@ -12,8 +12,8 @@ our $I18N = {
 	},
 
 	'manual.url' => {
-		message => q||,
-		lastUpdated => 
+		message => q|A k&eacute;zik&ouml;nyv let&ouml;lt&eacute;shez mutat&oacute; URL.|,
+		lastUpdated => 1170167384
 	},
 
 	'18' => {
@@ -22,13 +22,13 @@ our $I18N = {
 	},
 
 	'warranty.url' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Hivatkoz&aacute;s a garancia let&ouml;lt&eacute;s&eacute;hez. |,
+		lastUpdated => 1169035759
 	},
 
 	'13 description' => {
-		message => q||,
-		lastUpdated => 
+		message => q|A term&eacute;k bros&uacute;r&aacute;ja|,
+		lastUpdated => 1169034095
 	},
 
 	'16' => {
@@ -67,8 +67,13 @@ our $I18N = {
 	},
 
 	'57' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Biztos, hogy t&ouml;r&ouml;lni szeretn&eacute; ezt a sablont, &eacute;s be akarja &aacute;ll&iacute;tani, hogy az &ouml;sszes term&eacute;k az alap&eacute;rtelmezett sablont alkalmazza?<br />|,
+		lastUpdated => 1169035723
+	},
+
+	'productNumber' => {
+		message => q|Ezen term&eacute;k sz&aacute;ma, SKU, ISBN, vagy b&aacute;rmilyen m&aacute;s azonos&iacute;t&oacute;ja.   |,
+		lastUpdated => 1170167267
 	},
 
 	'20' => {
@@ -122,8 +127,8 @@ our $I18N = {
 	},
 
 	'29 description' => {
-		message => q||,
-		lastUpdated => 
+		message => q|A műszaki adat m&eacute;rt&eacute;kegys&eacute;ge. P&eacute;ld&aacute;ul, ha a magass&aacute;got v&aacute;lasztja, a m&eacute;rt&eacute;kegys&eacute;g a &quot;m&eacute;ter&quot; lehet.|,
+		lastUpdated => 1169034999
 	},
 
 	'relatedproduct.controls' => {
@@ -137,6 +142,11 @@ our $I18N = {
 	},
 
 	'specification.label' => {
+		message => q|A term&eacute;kjellemző c&iacute;mk&eacute;je, pl.: magass&aacute;g.|,
+		lastUpdated => 1169036283
+	},
+
+	'cacheTimeout' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -177,8 +187,8 @@ our $I18N = {
 	},
 
 	'warranty.icon' => {
-		message => q||,
-		lastUpdated => 
+		message => q|A garancia ikonj&aacute;ra mutat&oacute; hivatkoz&aacute;s.<br />|,
+		lastUpdated => 1169035826
 	},
 
 	'17' => {
@@ -187,8 +197,8 @@ our $I18N = {
 	},
 
 	'2' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Biztos, hogy t&ouml;r&ouml;lni akarja a kapcsolatot ehhez a tartoz&eacute;khoz? |,
+		lastUpdated => 1169034324
 	},
 
 	'10 description' => {
@@ -196,14 +206,19 @@ our $I18N = {
 		lastUpdated => 1156261577
 	},
 
+	'product asset template variables title' => {
+		message => q|Term&eacute;k Eszk&ouml;z Sablon V&aacute;ltoz&oacute;i|,
+		lastUpdated => 1170167327
+	},
+
 	'24 description' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Ha most szeretne egy m&aacute;sik jellemzőt hozz&aacute;adni, v&aacute;lassza az &quot;Igen&quot; gombot.<br />|,
+		lastUpdated => 1169034626
 	},
 
 	'51 description' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Adjon meg egy &uacute;j előnyt, vagy v&aacute;lasszon egyet a m&aacute;r felvettek k&ouml;z&uuml;l.<br /> |,
+		lastUpdated => 1169035583
 	},
 
 	'14' => {
@@ -212,8 +227,8 @@ our $I18N = {
 	},
 
 	'28 description' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Ha szeretne egy m&aacute;sik műszaki adatot megadni, v&aacute;lassza az &quot;Igen&quot; gombot. |,
+		lastUpdated => 1169034944
 	},
 
 	'49' => {
@@ -222,13 +237,13 @@ our $I18N = {
 	},
 
 	'manual.label' => {
-		message => q||,
-		lastUpdated => 
+		message => q|A k&eacute;zik&ouml;nyv URL-&eacute;nek leford&iacute;tott cimk&eacute;je.|,
+		lastUpdated => 1170167416
 	},
 
 	'feature.feature' => {
-		message => q||,
-		lastUpdated => 
+		message => q|A term&eacute;kjellemző sz&ouml;vege.|,
+		lastUpdated => 1170167551
 	},
 
 	'24' => {
@@ -242,13 +257,13 @@ our $I18N = {
 	},
 
 	'15 description' => {
-		message => q||,
-		lastUpdated => 
+		message => q|A term&eacute;k garanci&aacute;ja|,
+		lastUpdated => 1169034213
 	},
 
 	'18 description' => {
-		message => q||,
-		lastUpdated => 
+		message => q|V&aacute;lassza az &quot;Igen&quot; gombot, ha szeretne tov&aacute;bbi tartoz&eacute;kot hozz&aacute;adni. |,
+		lastUpdated => 1169034489
 	},
 
 	'23' => {
@@ -256,9 +271,14 @@ our $I18N = {
 		lastUpdated => 1156261651
 	},
 
+	'templateId' => {
+		message => q|A sablon azonos&iacute;t&oacute;ja, amelyet az Eszk&ouml;z megjelen&iacute;t&eacute;s&eacute;hez alkalmaznak.|,
+		lastUpdated => 1170167189
+	},
+
 	'14 description' => {
-		message => q||,
-		lastUpdated => 
+		message => q|A term&eacute;k k&eacute;zik&ouml;nyve, kezel&eacute;si vagy jav&iacute;t&aacute;si k&eacute;zik&ouml;nyv (&uacute;tmutat&oacute;)<br />|,
+		lastUpdated => 1169034195
 	},
 
 	'benefit.benefit' => {
@@ -267,13 +287,13 @@ our $I18N = {
 	},
 
 	'deleteImage' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Csatolt F&aacute;jl T&ouml;rl&eacute;se|,
+		lastUpdated => 1170167580
 	},
 
 	'21 description' => {
-		message => q||,
-		lastUpdated => 
+		message => q|V&aacute;lassza az &quot;Igen&quot; gombot, ha szeretne tov&aacute;bbi kapcsol&oacute;d&oacute; term&eacute;ket hozz&aacute;adni.|,
+		lastUpdated => 1169034508
 	},
 
 	'accessory.title' => {
@@ -297,8 +317,8 @@ our $I18N = {
 	},
 
 	'warranty.label' => {
-		message => q||,
-		lastUpdated => 
+		message => q|A garancia let&ouml;lt&eacute;s hivatkoz&aacute;s&aacute;nak cimk&eacute;je.<br />|,
+		lastUpdated => 1169035793
 	},
 
 	'specification.units' => {
@@ -317,8 +337,8 @@ our $I18N = {
 	},
 
 	'5' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Biztos, hogy t&ouml;r&ouml;lni akarja ezt a műszaki adatot?<br />|,
+		lastUpdated => 1169035327
 	},
 
 	'33' => {
@@ -332,6 +352,11 @@ our $I18N = {
 	},
 
 	'17 description' => {
+		message => q|V&aacute;lasszon a m&aacute;r felvett term&eacute;kek list&aacute;j&aacute;b&oacute;l|,
+		lastUpdated => 1169033951
+	},
+
+	'manual' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -371,34 +396,49 @@ our $I18N = {
 		lastUpdated => 1156277750
 	},
 
+	'brochure' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'product asset template variables body' => {
+		message => q||,
+		lastUpdated => 
+	},
+
 	'thumbnail2' => {
 		message => q|A term&eacute;khez felt&ouml;lt&ouml;tt b&eacute;lyegk&eacute;pre mutat&oacute; link (2. k&eacute;p)|,
 		lastUpdated => 1156262628
 	},
 
 	'relatedproduct.loop' => {
-		message => q||,
-		lastUpdated => 
+		message => q|A term&eacute;k &ouml;sszes kapcsol&oacute;d&oacute; term&eacute;k&eacute;t tartalmaz&oacute; hurok. |,
+		lastUpdated => 1169036414
 	},
 
 	'specification_loop' => {
-		message => q||,
-		lastUpdated => 
+		message => q|A term&eacute;khez kapcsol&oacute;d&oacute; term&eacute;kjellemzők list&aacute;ja.|,
+		lastUpdated => 1169035858
 	},
 
 	'feature_loop' => {
-		message => q||,
-		lastUpdated => 
+		message => q|A term&eacute;k &ouml;sszes jellemzőj&eacute;t tartalmaz&oacute; hurok.|,
+		lastUpdated => 1170167523
 	},
 
 	'11 description' => {
-		message => q||,
-		lastUpdated => 
+		message => q|A term&eacute;k sz&aacute;ma, SKU, ISBN, vagy a term&eacute;k b&aacute;rmilyen azonos&iacute;t&oacute;ja|,
+		lastUpdated => 1169034001
 	},
 
 	'10' => {
 		message => q|&Aacute;r|,
 		lastUpdated => 1156261265
+	},
+
+	'warranty' => {
+		message => q||,
+		lastUpdated => 
 	},
 
 	'cache timeout help' => {
@@ -422,8 +462,8 @@ our $I18N = {
 	},
 
 	'52 description' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Ha most szeretne egy m&aacute;sik előny hozz&aacute;adni, v&aacute;lassza az &quot;Igen&quot; gombot.<br />|,
+		lastUpdated => 1169035622
 	},
 
 	'brochure.label' => {
@@ -437,18 +477,18 @@ our $I18N = {
 	},
 
 	'50' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Az előny&ouml;k &aacute;ltal&aacute;ban a term&eacute;k jellemzőiből sz&aacute;rmaznak. Pontosan ez&eacute;rt olyan j&oacute; a term&eacute;ke. Ha szeretne előny&ouml;ket hozz&aacute;adni, akkor adjon meg n&eacute;h&aacute;ny term&eacute;kjellemzőt is.<br />|,
+		lastUpdated => 1169035538
 	},
 
 	'39' => {
-		message => q||,
-		lastUpdated => 
+		message => q|A WebGUI be&eacute;p&iacute;tett term&eacute;kkezelő rendszerrel rendelkezik, amely lehetőv&eacute; tesz, hogy term&eacute;keit &eacute;s szolg&aacute;ltat&aacute;sait gyorsan &eacute;s k&ouml;nnyen el&eacute;rhetőv&eacute; tegye a honlapj&aacute;n.|,
+		lastUpdated => 1169035114
 	},
 
 	'41' => {
-		message => q|A term&eacute;kjellemzők seg&iacute;tenek a term&eacute;kek &eacute;rt&eacute;kes&iacute;t&eacute;s&eacute;t azzal, hogy okot adnak a vevőnek, hogy mi&eacute;rt pont ezt a term&eacute;ket v&aacute;lassza. A term&eacute;kjellemzők &aacute;ltal&aacute;ban előny&ouml;ket is jelentenek, &iacute;gy &eacute;rdemes a term&eacute;k előnyeit is felsorolni az előny&ouml;k c&iacute;msz&oacute;n&aacute;l. |,
-		lastUpdated => 1156262492
+		message => q|A term&eacute;kjellemzők a term&eacute;kek &eacute;rt&eacute;kes&iacute;t&eacute;s&eacute;t seg&iacute;tik, p&eacute;ld&aacute;ul megindokolj&aacute;k a vevőnek, hogy mi&eacute;rt pont ezt a term&eacute;ket v&aacute;lassza. A term&eacute;kjellemzők &aacute;ltal&aacute;ban előny&ouml;ket is jelentenek, &iacute;gy &eacute;rdemes a term&eacute;k előnyeit is felsorolni az előny&ouml;k c&iacute;msz&oacute;n&aacute;l. |,
+		lastUpdated => 1169034415
 	},
 
 	'52' => {
@@ -497,13 +537,13 @@ our $I18N = {
 	},
 
 	'specification.specification' => {
-		message => q||,
-		lastUpdated => 
+		message => q|A term&eacute;kjellemző sz&ouml;vege.|,
+		lastUpdated => 1169036221
 	},
 
 	'26 description' => {
-		message => q||,
-		lastUpdated => 
+		message => q|A műszaki adat t&iacute;pusa. P&eacute;ld&aacute;ul: magass&aacute;g, s&uacute;ly, vagy sz&iacute;n. Kiv&aacute;laszthat egyet egy m&aacute;sik term&eacute;k adataib&oacute;l, vagy felvehet egy &uacute;j adatot is.|,
+		lastUpdated => 1169034737
 	},
 
 	'25' => {
@@ -527,8 +567,8 @@ our $I18N = {
 	},
 
 	'23 description' => {
-		message => q||,
-		lastUpdated => 
+		message => q|&Iacute;rjon be egy &uacute;j jellemzőt, vagy v&aacute;lasszon ki egy jellemzőt, amelyet a rendszerben tal&aacute;lhat&oacute; m&aacute;s term&eacute;khez m&aacute;r megadott.<br />|,
+		lastUpdated => 1169034585
 	},
 
 	'59' => {
@@ -542,8 +582,13 @@ our $I18N = {
 	},
 
 	'manual.icon' => {
-		message => q||,
-		lastUpdated => 
+		message => q|A k&eacute;zik&ouml;nyv ikonj&aacute;ra mutat&oacute; URL.<br />|,
+		lastUpdated => 1170167448
+	},
+
+	'price' => {
+		message => q|A term&eacute;k &aacute;ra.|,
+		lastUpdated => 1170167344
 	},
 
 	'53' => {
@@ -557,8 +602,8 @@ our $I18N = {
 	},
 
 	'relatedproduct.url' => {
-		message => q||,
-		lastUpdated => 
+		message => q|A kapcsol&oacute;d&oacute; term&eacute;kre mutat&oacute; hivatkoz&aacute;s.<br />|,
+		lastUpdated => 1169036345
 	},
 
 	'42' => {
@@ -602,8 +647,8 @@ our $I18N = {
 	},
 
 	'3' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Biztos, hogy t&ouml;r&ouml;lni akarja ezt a jellemzőt?<br /> |,
+		lastUpdated => 1169035023
 	},
 
 	'addbenefit.label' => {
@@ -627,8 +672,8 @@ our $I18N = {
 	},
 
 	'4' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Biztos, hogy t&ouml;r&ouml;lni akarja a kapcsolatot ehhez a kapcsol&oacute;d&oacute; term&eacute;khez?<br />|,
+		lastUpdated => 1169035286
 	},
 
 	'34' => {
@@ -642,8 +687,8 @@ our $I18N = {
 	},
 
 	'relatedproduct.title' => {
-		message => q||,
-		lastUpdated => 
+		message => q|A kapcsol&oacute;d&oacute; term&eacute;k neve.|,
+		lastUpdated => 1169036374
 	},
 
 };
