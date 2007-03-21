@@ -572,8 +572,8 @@ our $I18N = {
 	},
 
 	'current url' => {
-		message => q||,
-		lastUpdated => 
+		message => q|yur place|,
+		lastUpdated => 1168978674
 	},
 
 	'108' => {
