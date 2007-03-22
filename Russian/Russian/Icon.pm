@@ -11,6 +11,16 @@ our $I18N = {
 		lastUpdated => 1149245068
 	},
 
+	'Export help' => {
+		message => q|Помощь по экспортированию|,
+		lastUpdated => 1169414092
+	},
+
+	'Create Shortcut help' => {
+		message => q|Помощь по созданию ярлыка|,
+		lastUpdated => 1169413861
+	},
+
 	'Page Settings' => {
 		message => q|Настройки страницы|,
 		lastUpdated => 1149245134
@@ -36,6 +46,11 @@ our $I18N = {
 		lastUpdated => 1149244987
 	},
 
+	'Cut help' => {
+		message => q|Помощь по вырезанию|,
+		lastUpdated => 1169413981
+	},
+
 	'Move To Top' => {
 		message => q|На самый верх|,
 		lastUpdated => 1149245104
@@ -44,6 +59,11 @@ our $I18N = {
 	'Delete' => {
 		message => q|Удалить|,
 		lastUpdated => 1149244996
+	},
+
+	'Edit help' => {
+		message => q|Помощь по редактированию|,
+		lastUpdated => 1169414040
 	},
 
 	'locked' => {
@@ -71,6 +91,16 @@ our $I18N = {
 		lastUpdated => 1149245038
 	},
 
+	'Delete help' => {
+		message => q|Помощь по удалению|,
+		lastUpdated => 1169414007
+	},
+
+	'locked help' => {
+		message => q|Помощь по заблокированию|,
+		lastUpdated => 1169414141
+	},
+
 	'Move Down' => {
 		message => q|Переместить вниз|,
 		lastUpdated => 1149245056
@@ -79,6 +109,11 @@ our $I18N = {
 	'Move Right' => {
 		message => q|Переместить вправо|,
 		lastUpdated => 1149245080
+	},
+
+	'Copy help' => {
+		message => q|Помощь по копированию|,
+		lastUpdated => 1169413801
 	},
 
 	'Drag' => {
