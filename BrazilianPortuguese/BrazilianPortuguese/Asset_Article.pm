@@ -1,69 +1,29 @@
 package WebGUI::i18n::BrazilianPortuguese::Asset_Article;
 
 our $I18N = {
-	'1' => {
-		message => q|Artigo|,
-		lastUpdated => 1079993665
+	'description.first.sentence' => {
+		message => q||,
+		lastUpdated => 
 	},
 
-	'10' => {
-		message => q|Converter quebras de linha (CR) ?|,
-		lastUpdated => 1080057575
+	'article template description' => {
+		message => q||,
+		lastUpdated => 
 	},
 
-	'11' => {
-		message => q|(escolha Sim apenas se não estiver adicionando &lt;br&gt; manualmente.)|,
-		lastUpdated => 1080057611
+	'linkTitle' => {
+		message => q||,
+		lastUpdated => 
 	},
 
-	'12' => {
-		message => q|Editar Artigo|,
-		lastUpdated => 1080057623
+	'71' => {
+		message => q||,
+		lastUpdated => 
 	},
 
-	'13' => {
-		message => q|Apagar|,
-		lastUpdated => 1080057633
-	},
-
-	'22' => {
-		message => q|Autor|,
-		lastUpdated => 1080057640
-	},
-
-	'23' => {
-		message => q|Data|,
-		lastUpdated => 1080057645
-	},
-
-	'24' => {
-		message => q|Responder|,
-		lastUpdated => 1080325768
-	},
-
-	'28' => {
-		message => q|Ver Respostas|,
-		lastUpdated => 1080057740
-	},
-
-	'3' => {
-		message => q|Data de Início|,
-		lastUpdated => 1080057747
-	},
-
-	'4' => {
-		message => q|Data de Término|,
-		lastUpdated => 1080057774
-	},
-
-	'6' => {
-		message => q|Imagem|,
-		lastUpdated => 1080057781
-	},
-
-	'61' => {
-		message => q|Artigo, Adicionar/Editar|,
-		lastUpdated => 1080057793
+	'description.first.10words' => {
+		message => q||,
+		lastUpdated => 
 	},
 
 	'7' => {
@@ -71,9 +31,174 @@ our $I18N = {
 		lastUpdated => 1080057801
 	},
 
+	'assetName' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'description.first.2paragraphs' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'description.first.paragraph' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'description.full' => {
+		message => q||,
+		lastUpdated => 
+	},
+
 	'72' => {
 		message => q|Modelo de Artigo|,
 		lastUpdated => 1080057819
+	},
+
+	'url' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'attachments help' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'28' => {
+		message => q|Ver Respostas|,
+		lastUpdated => 1080057740
+	},
+
+	'description.first.4sentences' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'iconUrl' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'61' => {
+		message => q|Artigo, Adicionar/Editar|,
+		lastUpdated => 1080057793
+	},
+
+	'description' => {
+		message => q|descriÃ§Ã£o|,
+		lastUpdated => 1168971013
+	},
+
+	'new.template' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'link url description' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'image.url' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'isImage' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'article asset template variables body' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'storageId' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'cache timeout help' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'description.first.3sentences' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'article asset template variables title' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'description.first.2sentences' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'description.first.50words' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'description.first.75words' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'linkURL' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'attachment.icon' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'cache timeout' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'templateId' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'attachments' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'thumbnailUrl' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'attachment_loop' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'description.first.100words' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'cacheTimeout' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'12' => {
+		message => q|Editar Artigo|,
+		lastUpdated => 1080057623
 	},
 
 	'8' => {
@@ -81,9 +206,39 @@ our $I18N = {
 		lastUpdated => 1080057830
 	},
 
-	'9' => {
-		message => q|Anexo|,
-		lastUpdated => 1080300689
+	'filename' => {
+		message => q|nome do arquivo|,
+		lastUpdated => 1168971028
+	},
+
+	'73' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'attachment.url' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'description.first.25words' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'image.thumbnail' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'attachment.name' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'link title description' => {
+		message => q||,
+		lastUpdated => 
 	},
 
 };
