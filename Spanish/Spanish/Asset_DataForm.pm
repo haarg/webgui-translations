@@ -11,6 +11,11 @@ our $I18N = {
 		lastUpdated => 
 	},
 
+	'defaultView var desc' => {
+		message => q||,
+		lastUpdated => 
+	},
+
 	'90' => {
 		message => q||,
 		lastUpdated => 
@@ -27,8 +32,8 @@ our $I18N = {
 	},
 
 	'102' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Editar Pesta&ntilde;a|,
+		lastUpdated => 1169582131
 	},
 
 	'confirm delete one' => {
@@ -116,6 +121,11 @@ our $I18N = {
 		lastUpdated => 
 	},
 
+	'acknowledgement var desc' => {
+		message => q||,
+		lastUpdated => 
+	},
+
 	'record.data.name' => {
 		message => q||,
 		lastUpdated => 
@@ -166,6 +176,11 @@ our $I18N = {
 		lastUpdated => 
 	},
 
+	'acknowlegementTemplateId' => {
+		message => q||,
+		lastUpdated => 
+	},
+
 	'29' => {
 		message => q||,
 		lastUpdated => 
@@ -212,8 +227,8 @@ our $I18N = {
 	},
 
 	'101' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Etiqueta|,
+		lastUpdated => 1169582107
 	},
 
 	'76' => {
@@ -222,6 +237,11 @@ our $I18N = {
 	},
 
 	'86' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'groupToViewEntries' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -242,6 +262,11 @@ our $I18N = {
 	},
 
 	'tab.field.isRequired' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'mail attachments description' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -291,6 +316,16 @@ our $I18N = {
 		lastUpdated => 
 	},
 
+	'mailData' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'mailAttachments' => {
+		message => q||,
+		lastUpdated => 
+	},
+
 	'canEdit' => {
 		message => q||,
 		lastUpdated => 
@@ -306,12 +341,22 @@ our $I18N = {
 		lastUpdated => 
 	},
 
+	'listTemplateId' => {
+		message => q||,
+		lastUpdated => 
+	},
+
 	'field.subtext' => {
 		message => q||,
 		lastUpdated => 
 	},
 
 	'744 description' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'mail attachments' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -347,8 +392,8 @@ our $I18N = {
 	},
 
 	'104' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Pesta&ntilde;a|,
+		lastUpdated => 1169582186
 	},
 
 	'record.delete.icon' => {
@@ -377,6 +422,16 @@ our $I18N = {
 	},
 
 	'23' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'delete.label' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'templateId' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -451,6 +506,11 @@ our $I18N = {
 		lastUpdated => 
 	},
 
+	'javascript.confirmation.deleteOne' => {
+		message => q||,
+		lastUpdated => 
+	},
+
 	'7' => {
 		message => q||,
 		lastUpdated => 
@@ -506,6 +566,11 @@ our $I18N = {
 		lastUpdated => 
 	},
 
+	'delete.url' => {
+		message => q||,
+		lastUpdated => 
+	},
+
 	'record.data.label' => {
 		message => q||,
 		lastUpdated => 
@@ -537,8 +602,8 @@ our $I18N = {
 	},
 
 	'103' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Agregar pesta&ntilde;a|,
+		lastUpdated => 1169582158
 	},
 
 	'error_loop' => {
@@ -547,8 +612,8 @@ our $I18N = {
 	},
 
 	'10' => {
-		message => q|Formulario|,
-		lastUpdated => 1161029238
+		message => q|De|,
+		lastUpdated => 1169581777
 	},
 
 	'tab.field.label' => {
@@ -666,6 +731,11 @@ our $I18N = {
 		lastUpdated => 
 	},
 
+	'emailTemplateId' => {
+		message => q||,
+		lastUpdated => 
+	},
+
 	'assetName' => {
 		message => q||,
 		lastUpdated => 
@@ -686,12 +756,17 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'100' => {
+	'delete file' => {
 		message => q||,
 		lastUpdated => 
 	},
 
-	'addTab.url' => {
+	'100' => {
+		message => q|&iquest;Est&aacute; seguro que desea borrar  la pesta&ntilde;a?|,
+		lastUpdated => 1169582073
+	},
+
+	'25' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -701,7 +776,7 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'25' => {
+	'addTab.url' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -786,6 +861,11 @@ our $I18N = {
 		lastUpdated => 
 	},
 
+	'data form asset template variables body' => {
+		message => q||,
+		lastUpdated => 
+	},
+
 	'record.data.isMailField' => {
 		message => q||,
 		lastUpdated => 
@@ -842,6 +922,11 @@ our $I18N = {
 	},
 
 	'editField vertical label description' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'data form asset template variables title' => {
 		message => q||,
 		lastUpdated => 
 	},
