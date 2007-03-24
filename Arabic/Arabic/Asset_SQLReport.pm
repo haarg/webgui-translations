@@ -1,9 +1,9 @@
 package WebGUI::i18n::Arabic::Asset_SQLReport;
 
 our $I18N = {
-	'download mimetype' => {
-		message => q||,
-		lastUpdated => 
+	'dbQuery4' => {
+		message => q|طلب قاعدة البيانات الرابع<br />|,
+		lastUpdated => 1174311180
 	},
 
 	'Prequery statements' => {
@@ -12,33 +12,13 @@ our $I18N = {
 	},
 
 	'hasNest' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'row.field.__NAME__.value' => {
-		message => q||,
-		lastUpdated => 
+		message => q|علامة تحد ما اذا ارجع الطلب الثاني اي نتائج<br />|,
+		lastUpdated => 1174311254
 	},
 
 	'download type' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'Prequery not allowed' => {
-		message => q|تصريح ما قبل الطلب غبر مسموح<br />|,
-		lastUpdated => 1164905534
-	},
-
-	'Placeholder Parameters description' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'72 description' => {
-		message => q|اختر نموذج لكي تظهر نتائج تقرير الاس كيو ال<br />|,
-		lastUpdated => 1164905405
+		message => q|نوع التحميل<br />|,
+		lastUpdated => 1174311587
 	},
 
 	'71' => {
@@ -46,22 +26,7 @@ our $I18N = {
 		lastUpdated => 1168442373
 	},
 
-	'assetName' => {
-		message => q|تقرير اس كيو ال<br />|,
-		lastUpdated => 1164905561
-	},
-
-	'row.number' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'17' => {
-		message => q|استعلام|,
-		lastUpdated => 1164905314
-	},
-
-	'rows_loop' => {
+	'sql report asset template variables body' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -71,9 +36,9 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'queryN.rows_loop' => {
-		message => q||,
-		lastUpdated => 
+	'databaseLinkId4' => {
+		message => q|المعرف الذي يشرح اي من فواعد البيانات سيتم تنفيذ الطلب الرابع ضدها|,
+		lastUpdated => 1174311122
 	},
 
 	'18' => {
@@ -86,29 +51,24 @@ our $I18N = {
 		lastUpdated => 1164905373
 	},
 
+	'paginateAfter' => {
+		message => q||,
+		lastUpdated => 
+	},
+
 	'16' => {
 		message => q|صحح الاخطاء؟|,
 		lastUpdated => 1164905261
 	},
 
-	'Add another query' => {
-		message => q|اضف طلب اخر<br />|,
-		lastUpdated => 1164905436
-	},
-
-	'queryN.hasNest' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'debug placeholder parameters' => {
-		message => q|اخلي من الاخطاء: شغل Placeholder parameters:|,
-		lastUpdated => 1168442573
-	},
-
 	'download template description' => {
-		message => q||,
-		lastUpdated => 
+		message => q|النموذج المستخدم لعمل ملف التحميل<br />|,
+		lastUpdated => 1174311577
+	},
+
+	'dbQuery3' => {
+		message => q|طلب قاعدة البيانات الثلث<br />|,
+		lastUpdated => 1174311168
 	},
 
 	'61' => {
@@ -121,22 +81,12 @@ our $I18N = {
 		lastUpdated => 1168441276
 	},
 
-	'14' => {
-		message => q|رقم الصفحات بعد<br />|,
-		lastUpdated => 1164905112
+	'debugMode' => {
+		message => q|شرط يحدد اذا كان لتقرير الاس كيو ال معلومات اصلاح في النتائج |,
+		lastUpdated => 1174311525
 	},
 
 	'queryN.count.isZero' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'field.name' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'download type description' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -146,7 +96,12 @@ our $I18N = {
 		lastUpdated => 1164905518
 	},
 
-	'row.field_loop' => {
+	'dbQuery2' => {
+		message => q|طلب قاعدة البيانات الثاني|,
+		lastUpdated => 1174311156
+	},
+
+	'placeholderParams2' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -161,11 +116,6 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'Placeholder Parameters' => {
-		message => q|Placeholder Parameters|,
-		lastUpdated => 1168442502
-	},
-
 	'queryN.columns_loop' => {
 		message => q||,
 		lastUpdated => 
@@ -176,22 +126,17 @@ our $I18N = {
 		lastUpdated => 1164904671
 	},
 
-	'download usergroup' => {
-		message => q|حمل مجموعة المستخدمين<br />|,
-		lastUpdated => 1168442843
-	},
-
 	'queryN.row.number' => {
 		message => q||,
 		lastUpdated => 
 	},
 
-	'15 description' => {
-		message => q|اذا كنت تستخدم الماكروز الخاصة بويب جيو اي في طلبك يجب عليك ان تعلم هذا الصندوق. |,
-		lastUpdated => 1164905242
+	'databaseLinkId3' => {
+		message => q|المعرف الذي يشرح اي من فواعد البيانات سيتم تنفيذ الطلب الثالث ضدها|,
+		lastUpdated => 1174311105
 	},
 
-	'queryN.row.field_loop' => {
+	'preprocessMacros3' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -201,24 +146,14 @@ our $I18N = {
 		lastUpdated => 1164905759
 	},
 
-	'download filename description' => {
-		message => q|اسم الملف الموجود على ملف التحميل,اذا ترك فارغا سيتم ملؤه اوتوماتيكيا<br />|,
-		lastUpdated => 1164905798
-	},
-
 	'download template' => {
 		message => q|حمل النموذج<br />|,
 		lastUpdated => 1164905813
 	},
 
-	'cache timeout' => {
-		message => q|كيش تايم اوت<br />|,
-		lastUpdated => 1164905571
-	},
-
 	'download mimetype description' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Mime-Type للنموذج الذي تم تحميله<br />|,
+		lastUpdated => 1174311555
 	},
 
 	'16 description' => {
@@ -236,9 +171,14 @@ our $I18N = {
 		lastUpdated => 1164905742
 	},
 
+	'dbQuery1' => {
+		message => q|طلب قاعدة البيانات الاول<br />|,
+		lastUpdated => 1174311143
+	},
+
 	'field.value' => {
-		message => q||,
-		lastUpdated => 
+		message => q|البيانات الموجودة في هذا المجال<br />|,
+		lastUpdated => 1174311778
 	},
 
 	'cache timeout description' => {
@@ -246,17 +186,12 @@ our $I18N = {
 		lastUpdated => 1164905617
 	},
 
-	'14 description' => {
-		message => q|كم من السطور من المفترض ان تظهر قبل ان قسم النتائج الى صفحات مختلفة؟ بمعنى اخر, كم عدد السطور الموجودة في الصفحة.<br />|,
-		lastUpdated => 1164905163
+	'cacheTimeout' => {
+		message => q|كمية الوقت بالثواني الذي سيبقى الخارج فيه في الذاكرة المؤقتة<br />|,
+		lastUpdated => 1174311284
 	},
 
-	'column.name' => {
-		message => q|اسم هذا العمود تم ارجاعه من الطلب|,
-		lastUpdated => 1164905635
-	},
-
-	'queryN.rows.count.isZero.label' => {
+	'prequeryStatements1' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -276,6 +211,236 @@ our $I18N = {
 		lastUpdated => 1168442540
 	},
 
+	'preprocessMacros5' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'rows.count.isZero.label' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'73' => {
+		message => q|  <p dir="rtl" class="MsoNormal"><span>المتغيرات التالية ستكون متوفرة في تقارير الاس كيو ال:</span></p>  <p dir="rtl" class="MsoNormal"><span>&nbsp;</span></p>  <p dir="rtl" class="MsoNormal"><span>لمتغيرات لاي طلبات ثانوية سيكون لديها نفس الضبط مثل الطلب الأول, و لكن سيتم عملها </span><span>queryN</span><span> حيث تذهب </span><span>N</span><span> من 2 إلى 5</span></p>  |,
+		lastUpdated => 1168442493
+	},
+
+	'Prequery statements description' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'queryN.rows.count' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'placeholderParams4' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'download mimetype' => {
+		message => q|حمل الـ Mime-Type|,
+		lastUpdated => 1174311537
+	},
+
+	'row.field.__NAME__.value' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'72 description' => {
+		message => q|اختر نموذج لكي تظهر نتائج تقرير الاس كيو ال<br />|,
+		lastUpdated => 1164905405
+	},
+
+	'Placeholder Parameters description' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'Prequery not allowed' => {
+		message => q|تصريح ما قبل الطلب غبر مسموح<br />|,
+		lastUpdated => 1164905534
+	},
+
+	'assetName' => {
+		message => q|تقرير اس كيو ال<br />|,
+		lastUpdated => 1164905561
+	},
+
+	'placeholderParams1' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'17' => {
+		message => q|استعلام|,
+		lastUpdated => 1164905314
+	},
+
+	'row.number' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'rows_loop' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'prequeryStatements5' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'queryN.rows_loop' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'queryN.hasNest' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'Add another query' => {
+		message => q|اضف طلب اخر<br />|,
+		lastUpdated => 1164905436
+	},
+
+	'debug placeholder parameters' => {
+		message => q|اخلي من الاخطاء: شغل Placeholder parameters:|,
+		lastUpdated => 1168442573
+	},
+
+	'dbQuery5' => {
+		message => q|طلب قاعدة البيانات الخامس<br />|,
+		lastUpdated => 1174311197
+	},
+
+	'prequeryStatements3' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'14' => {
+		message => q|رقم الصفحات بعد<br />|,
+		lastUpdated => 1164905112
+	},
+
+	'field.name' => {
+		message => q|اسم المجال الذي تم ارجاعه عن طريق التقرير|,
+		lastUpdated => 1174311742
+	},
+
+	'row.field_loop' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'download type description' => {
+		message => q|نوع التحميل الذي سيتم عمله<br />|,
+		lastUpdated => 1174311603
+	},
+
+	'placeholderParams5' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'preprocessMacros4' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'Placeholder Parameters' => {
+		message => q|Placeholder Parameters|,
+		lastUpdated => 1168442502
+	},
+
+	'sql report asset template variables title' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'prequeryStatements2' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'15 description' => {
+		message => q|اذا كنت تستخدم الماكروز الخاصة بويب جيو اي في طلبك يجب عليك ان تعلم هذا الصندوق. |,
+		lastUpdated => 1164905242
+	},
+
+	'download usergroup' => {
+		message => q|حمل مجموعة المستخدمين<br />|,
+		lastUpdated => 1168442843
+	},
+
+	'queryN.row.field_loop' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'databaseLinkId1' => {
+		message => q|المعرف الذي يشرح اي من فواعد البيانات سيتم تنفيذ الطلب ضدها<br />|,
+		lastUpdated => 1174311067
+	},
+
+	'download filename description' => {
+		message => q|اسم الملف الموجود على ملف التحميل,اذا ترك فارغا سيتم ملؤه اوتوماتيكيا<br />|,
+		lastUpdated => 1164905798
+	},
+
+	'preprocessMacros2' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'cache timeout' => {
+		message => q|كيش تايم اوت<br />|,
+		lastUpdated => 1164905571
+	},
+
+	'preprocessMacros1' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'databaseLinkId5' => {
+		message => q|المعرف الذي يشرح اي من فواعد البيانات سيتم تنفيذ الطلب الخامس ضدها|,
+		lastUpdated => 1174311130
+	},
+
+	'templateId' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'14 description' => {
+		message => q|كم من السطور من المفترض ان تظهر قبل ان قسم النتائج الى صفحات مختلفة؟ بمعنى اخر, كم عدد السطور الموجودة في الصفحة.<br />|,
+		lastUpdated => 1164905163
+	},
+
+	'column.name' => {
+		message => q|اسم هذا العمود تم ارجاعه من الطلب|,
+		lastUpdated => 1164905635
+	},
+
+	'databaseLinkId2' => {
+		message => q|المعرف الذي يشرح اي من فواعد البيانات سيتم تنفيذ الطلب الثاني ضدها|,
+		lastUpdated => 1174311097
+	},
+
+	'queryN.rows.count.isZero.label' => {
+		message => q||,
+		lastUpdated => 
+	},
+
 	'8' => {
 		message => q|عدل تقرير الاس كيو ال<br />|,
 		lastUpdated => 1164905424
@@ -291,27 +456,17 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'rows.count.isZero.label' => {
+	'placeholderParams3' => {
 		message => q||,
 		lastUpdated => 
-	},
-
-	'73' => {
-		message => q|  <p dir="rtl" class="MsoNormal"><span>المتغيرات التالية ستكون متوفرة في تقارير الاس كيو ال:</span></p>  <p dir="rtl" class="MsoNormal"><span>&nbsp;</span></p>  <p dir="rtl" class="MsoNormal"><span>لمتغيرات لاي طلبات ثانوية سيكون لديها نفس الضبط مثل الطلب الأول, و لكن سيتم عملها </span><span>queryN</span><span> حيث تذهب </span><span>N</span><span> من 2 إلى 5</span></p>  |,
-		lastUpdated => 1168442493
 	},
 
 	'download usergroup description' => {
-		message => q||,
-		lastUpdated => 
+		message => q|مجموعة لمستخدمين المسمو لهم بتحميل التقرير<br />|,
+		lastUpdated => 1174311718
 	},
 
-	'Prequery statements description' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'queryN.rows.count' => {
+	'prequeryStatements4' => {
 		message => q||,
 		lastUpdated => 
 	},

@@ -7,8 +7,8 @@ our $I18N = {
 	},
 
 	'trash clipboard body' => {
-		message => q|  <p dir="rtl" class="MsoNormal"><span>نشاط سريان العمل هذا سوف يحول كل الاصول من لوحة القص إلى سلة المهملات بعد أن يتم تركها في اللوحة لمدة محددة.</span></p>  <p dir="rtl" class="MsoNormal"><span>&nbsp;</span></p>  <p dir="rtl" class="MsoNormal"><span>ياتي الويب جيو أي بسريان عمل اعتيادي ينقل كل الاصول من لوحة القص إلى سلة المهملات إذا تم تركها في سلة المهملات لمدة 30 يوما.</span></p>  |,
-		lastUpdated => 1165944188
+		message => q|  <p dir="&quot;rtl&quot;" class="&quot;MsoNormal&quot;"><span>نشاط سريان العمل هذا سوف يحول كل الاصول من لوحة القص إلى سلة المهملات بعد أن يتم تركها في اللوحة لمدة محددة.</span></p>  <p dir="&quot;rtl&quot;" class="&quot;MsoNormal&quot;"><span>&nbsp;</span></p>  <p dir="&quot;rtl&quot;" class="&quot;MsoNormal&quot;"><span>ياتي الويب جيو أي بسريان عمل اعتيادي ينقل كل الاصول من لوحة القص إلى سلة المهملات إذا تم تركها في سلة المهملات لمدة 30 يوما.</span></p>  |,
+		lastUpdated => 1174401125
 	},
 
 	'trash after help' => {

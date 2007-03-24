@@ -97,8 +97,8 @@ our $I18N = {
 	},
 
 	'all' => {
-		message => q||,
-		lastUpdated => 
+		message => q|الكل|,
+		lastUpdated => 1173714532
 	},
 
 	'checkout.url' => {
@@ -162,8 +162,8 @@ our $I18N = {
 	},
 
 	'address' => {
-		message => q||,
-		lastUpdated => 
+		message => q|العنوان|,
+		lastUpdated => 1173714506
 	},
 
 	'None' => {
@@ -216,6 +216,11 @@ our $I18N = {
 		lastUpdated => 
 	},
 
+	'checkout template help body' => {
+		message => q||,
+		lastUpdated => 
+	},
+
 	'templateId' => {
 		message => q||,
 		lastUpdated => 
@@ -257,6 +262,11 @@ our $I18N = {
 	},
 
 	'global prerequisite' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'tmplVar isError' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -332,8 +342,8 @@ our $I18N = {
 	},
 
 	'add/edit useSalesTax description' => {
-		message => q||,
-		lastUpdated => 
+		message => q|هل يجب تطبيق ضريبة المبيعات على ها الحدث؟ |,
+		lastUpdated => 1173713437
 	},
 
 	'manageEvents.url' => {
@@ -447,8 +457,8 @@ our $I18N = {
 	},
 
 	'appUrl' => {
-		message => q||,
-		lastUpdated => 
+		message => q|رابط يعود الى الصفحة الرئيسية من الاصل<br /> |,
+		lastUpdated => 1173715683
 	},
 
 	'add/edit event maximum attendees description' => {
@@ -517,8 +527,8 @@ our $I18N = {
 	},
 
 	'allowed sub events' => {
-		message => q||,
-		lastUpdated => 
+		message => q|من الممكن ايضا ان تحضر هذه الاحداث التابعة بناء على الاحداث الموجودة حاليا في عربة التسوق<br />|,
+		lastUpdated => 1173715637
 	},
 
 	'pass name' => {
@@ -562,8 +572,8 @@ our $I18N = {
 	},
 
 	'addEvent.url' => {
-		message => q||,
-		lastUpdated => 
+		message => q|رابط لاخذ المستخدم الى الشاشة لاضافة حدث جديد<br />|,
+		lastUpdated => 1173714469
 	},
 
 	'startDate' => {
@@ -647,8 +657,8 @@ our $I18N = {
 	},
 
 	'assigned discount pass' => {
-		message => q||,
-		lastUpdated => 
+		message => q|تصريح التخفيض الموجه<br />|,
+		lastUpdated => 1173715826
 	},
 
 	'edit prerequisite set body' => {
@@ -737,8 +747,8 @@ our $I18N = {
 	},
 
 	'and' => {
-		message => q||,
-		lastUpdated => 
+		message => q|و|,
+		lastUpdated => 1173715659
 	},
 
 	'purchase.wantToSearch.url' => {
@@ -767,13 +777,18 @@ our $I18N = {
 	},
 
 	'amount off' => {
-		message => q||,
-		lastUpdated => 
+		message => q|الكمية المقتطعة<br />|,
+		lastUpdated => 1173715653
 	},
 
 	'checkout template description' => {
 		message => q|تتحكم في الشكل الخارجي, المنظر, و المظهر الخاص بشاشة الخروج في نظام ادارة الاحداث<br />|,
 		lastUpdated => 1169131415
+	},
+
+	'tmplLoop errorLoop' => {
+		message => q||,
+		lastUpdated => 
 	},
 
 	'calendarJS' => {
@@ -866,6 +881,11 @@ our $I18N = {
 		lastUpdated => 
 	},
 
+	'tmplVar error' => {
+		message => q||,
+		lastUpdated => 
+	},
+
 	'checkout template' => {
 		message => q|نموذج الخروج<br />|,
 		lastUpdated => 1169131374
@@ -932,6 +952,11 @@ our $I18N = {
 	},
 
 	'approve event' => {
+		message => q|صدق على الحدث<br />|,
+		lastUpdated => 1173715712
+	},
+
+	'checkout template help title' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -967,8 +992,8 @@ our $I18N = {
 	},
 
 	'approved' => {
-		message => q||,
-		lastUpdated => 
+		message => q|تم تصديقه<br />|,
+		lastUpdated => 1173715786
 	},
 
 	'search template description' => {
@@ -1017,8 +1042,8 @@ our $I18N = {
 	},
 
 	'addToBadgeMessage' => {
-		message => q||,
-		lastUpdated => 
+		message => q|رسالة من النظام اذا تم اضافة بادج بنجاح الى الحركة<br />|,
+		lastUpdated => 1173714498
 	},
 
 	'registrationId' => {
@@ -1092,8 +1117,8 @@ our $I18N = {
 	},
 
 	'addEvent.label' => {
-		message => q||,
-		lastUpdated => 
+		message => q|علامة دولية لتظهر للمستخدم وصلة اضافة حدث |,
+		lastUpdated => 1173714445
 	},
 
 	'discount amount' => {
@@ -1132,8 +1157,8 @@ our $I18N = {
 	},
 
 	'any' => {
-		message => q||,
-		lastUpdated => 
+		message => q|اي|,
+		lastUpdated => 1173715666
 	},
 
 	'basicSearch.formHeader' => {
@@ -1142,8 +1167,8 @@ our $I18N = {
 	},
 
 	'approve event description' => {
-		message => q||,
-		lastUpdated => 
+		message => q|من الممكن ان تصدق على الاحداث و بالتالي من الممكن ان تدخل الاحداث المصدقة فعليا او ان تعدل مباشرة تصديق الاحداث<br />|,
+		lastUpdated => 1173715767
 	},
 
 	'pass name description' => {
@@ -1172,8 +1197,8 @@ our $I18N = {
 	},
 
 	'advSearch.formHeader' => {
-		message => q||,
-		lastUpdated => 
+		message => q|مقدمة النموذج للبحث المتقدم<br />|,
+		lastUpdated => 1173714523
 	},
 
 	'create new user' => {
@@ -1182,8 +1207,8 @@ our $I18N = {
 	},
 
 	'assetName' => {
-		message => q||,
-		lastUpdated => 
+		message => q|نظام ادارة الاحداث<br />|,
+		lastUpdated => 1173715807
 	},
 
 	'manage purchases template description' => {
@@ -1242,8 +1267,8 @@ our $I18N = {
 	},
 
 	'assigned discount pass description' => {
-		message => q||,
-		lastUpdated => 
+		message => q|تصريح التفيض, اذا كان هناك, الذي سينطبق على هذا الحدث|,
+		lastUpdated => 1173715862
 	},
 
 	'display template description' => {
@@ -1312,8 +1337,8 @@ our $I18N = {
 	},
 
 	'approval' => {
-		message => q||,
-		lastUpdated => 
+		message => q|تصديق|,
+		lastUpdated => 1173715704
 	},
 
 	'manage prerequisite sets' => {
