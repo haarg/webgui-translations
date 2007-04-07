@@ -1,0 +1,6 @@
+package WebGUI::i18n::Hick::Macro_PageTitle;
+
+our $I18N = {
+};
+
+1;
