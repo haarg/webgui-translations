@@ -6,22 +6,12 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'login.form.header' => {
-		message => q||,
-		lastUpdated => 
-	},
-
 	'21' => {
 		message => q||,
 		lastUpdated => 
 	},
 
 	'recover.form.submit' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'create.form.header' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -71,17 +61,12 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'account.options' => {
-		message => q||,
-		lastUpdated => 
-	},
-
 	'18' => {
 		message => q||,
 		lastUpdated => 
 	},
 
-	'create.form.profile' => {
+	'password recovery no results' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -106,6 +91,11 @@ our $I18N = {
 		lastUpdated => 1157552303
 	},
 
+	'recoverFormUsernameLabel' => {
+		message => q||,
+		lastUpdated => 
+	},
+
 	'recover.message' => {
 		message => q||,
 		lastUpdated => 
@@ -126,17 +116,17 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'login.form.password.label' => {
-		message => q||,
-		lastUpdated => 
-	},
-
 	'recoverPassword.label' => {
 		message => q||,
 		lastUpdated => 
 	},
 
 	'create.form.password.label' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'recoverFormProfile formElement' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -166,7 +156,7 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'account.form.karma' => {
+	'deactivate account template body' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -174,6 +164,16 @@ our $I18N = {
 	'11' => {
 		message => q|Nuova password|,
 		lastUpdated => 1156595261
+	},
+
+	'password recovery multiple results' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'recoverFormProfile id' => {
+		message => q||,
+		lastUpdated => 
 	},
 
 	'expired template body' => {
@@ -186,12 +186,17 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'login.form.password' => {
+	'create.form.passwordConfirm' => {
 		message => q||,
 		lastUpdated => 
 	},
 
-	'create.form.passwordConfirm' => {
+	'recoverFormProfile label' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'webguiPasswordRecovery hoverHelp' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -201,22 +206,17 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'account.form.karma.label' => {
+	'require username for password recovery' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'deactivate account template title' => {
 		message => q||,
 		lastUpdated => 
 	},
 
 	'login template' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'profile.formElement.label' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'profile.formElement' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -232,11 +232,6 @@ our $I18N = {
 	},
 
 	'use captcha' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'login.form.submit' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -326,16 +321,6 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'account.form.header' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'login.form.hidden' => {
-		message => q||,
-		lastUpdated => 
-	},
-
 	'validate email' => {
 		message => q||,
 		lastUpdated => 
@@ -346,12 +331,12 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'recoverPassword.url' => {
+	'recoverFormUsername' => {
 		message => q||,
 		lastUpdated => 
 	},
 
-	'account.form.submit' => {
+	'recoverPassword.url' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -361,15 +346,14 @@ our $I18N = {
 		lastUpdated => 
 	},
 
+	'email address validation email body' => {
+		message => q|Benvenuto/a! Per favore clicca sul seguente link per attivare il tuo account.|,
+		lastUpdated => 1173107482
+	},
+
 	'login.form.email.label' => {
 		message => q||,
 		lastUpdated => 
-	},
-
-	'email address validation email body' => {
-		message => q|Benvenuto!
-Per favore clicca sul seguente link per attivare il tuo account.|,
-		lastUpdated => 1156593847
 	},
 
 	'no registration hack' => {
@@ -378,6 +362,11 @@ Per favore clicca sul seguente link per attivare il tuo account.|,
 	},
 
 	'create.form.oldPassword' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'password recovery no username' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -422,17 +411,7 @@ Per favore clicca sul seguente link per attivare il tuo account.|,
 		lastUpdated => 
 	},
 
-	'login.form.footer' => {
-		message => q||,
-		lastUpdated => 
-	},
-
 	'anonymousRegistration.isAllowed' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'account.form.footer' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -452,11 +431,6 @@ Per favore clicca sul seguente link per attivare il tuo account.|,
 		lastUpdated => 
 	},
 
-	'create.form.submit' => {
-		message => q||,
-		lastUpdated => 
-	},
-
 	'captcha label' => {
 		message => q|Inserisci il codice di controllo|,
 		lastUpdated => 1157550102
@@ -472,17 +446,7 @@ Per favore clicca sul seguente link per attivare il tuo account.|,
 		lastUpdated => 1156595345
 	},
 
-	'login.form.username' => {
-		message => q||,
-		lastUpdated => 
-	},
-
 	'13' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'login.form.username.label' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -497,11 +461,6 @@ Per favore clicca sul seguente link per attivare il tuo account.|,
 		lastUpdated => 
 	},
 
-	'create.form.footer' => {
-		message => q||,
-		lastUpdated => 
-	},
-
 	'account template' => {
 		message => q||,
 		lastUpdated => 
@@ -510,6 +469,11 @@ Per favore clicca sul seguente link per attivare il tuo account.|,
 	'3' => {
 		message => q|Le tue password non corrispondono. Per favore riprova.|,
 		lastUpdated => 1156595366
+	},
+
+	'recoverFormProfile' => {
+		message => q||,
+		lastUpdated => 
 	},
 
 	'9' => {
@@ -548,6 +512,11 @@ Per favore clicca sul seguente link per attivare il tuo account.|,
 	},
 
 	'display account template body' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'webguiPasswordRecoveryRequireUsername hoverHelp' => {
 		message => q||,
 		lastUpdated => 
 	},

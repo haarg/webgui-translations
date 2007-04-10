@@ -21,6 +21,11 @@ our $I18N = {
 		lastUpdated => 1156938781
 	},
 
+	'displayLastReply' => {
+		message => q||,
+		lastUpdated => 
+	},
+
 	'karma spent to rate' => {
 		message => q||,
 		lastUpdated => 
@@ -249,6 +254,11 @@ our $I18N = {
 	'replies' => {
 		message => q|Risposte|,
 		lastUpdated => 1157482777
+	},
+
+	'attachment_thumbnail' => {
+		message => q||,
+		lastUpdated => 
 	},
 
 	'avatar.url' => {
@@ -1211,6 +1221,11 @@ our $I18N = {
 		lastUpdated => 
 	},
 
+	'collaborationAssetId' => {
+		message => q||,
+		lastUpdated => 
+	},
+
 	'user defined 4' => {
 		message => q||,
 		lastUpdated => 
@@ -1347,8 +1362,8 @@ our $I18N = {
 	},
 
 	'lastReply' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Ultima risposta|,
+		lastUpdated => 1174234798
 	},
 
 	'timeSubmitted.human' => {
@@ -1447,8 +1462,8 @@ our $I18N = {
 	},
 
 	'lastReply.label' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Ultima risposta|,
+		lastUpdated => 1174234814
 	},
 
 	'visitor' => {

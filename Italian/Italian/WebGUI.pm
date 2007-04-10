@@ -306,6 +306,11 @@ our $I18N = {
 		lastUpdated => 1156596488
 	},
 
+	'bare insufficient' => {
+		message => q||,
+		lastUpdated => 
+	},
+
 	'145' => {
 		message => q||,
 		lastUpdated => 
@@ -2377,8 +2382,8 @@ our $I18N = {
 	},
 
 	'1078' => {
-		message => q||,
-		lastUpdated => 
+		message => q|C&#39;&egrave; gi&agrave; un utente con l&#39;indirizzo email che hai inserito. Per favore completa nuovamente la form e clicca &quot;Invia&quot; se vuoi creare questo utente in ogni caso.|,
+		lastUpdated => 1173107073
 	},
 
 	'pagination.text' => {

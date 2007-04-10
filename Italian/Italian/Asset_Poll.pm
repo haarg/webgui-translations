@@ -41,12 +41,32 @@ our $I18N = {
 		lastUpdated => 
 	},
 
+	'hasImageGraph' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'poll asset template variables body' => {
+		message => q||,
+		lastUpdated => 
+	},
+
 	'72' => {
 		message => q||,
 		lastUpdated => 
 	},
 
+	'generateGraph' => {
+		message => q||,
+		lastUpdated => 
+	},
+
 	'canVote' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'graphConfiguration' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -57,6 +77,16 @@ our $I18N = {
 	},
 
 	'74' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'voteGroup' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'active' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -101,9 +131,14 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'11' => {
+	'aN' => {
 		message => q||,
 		lastUpdated => 
+	},
+
+	'11' => {
+		message => q|Vota|,
+		lastUpdated => 1172424076
 	},
 
 	'20 description' => {
@@ -131,6 +166,16 @@ our $I18N = {
 		lastUpdated => 
 	},
 
+	'karmaPerVote' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'templateId' => {
+		message => q||,
+		lastUpdated => 
+	},
+
 	'6 description' => {
 		message => q||,
 		lastUpdated => 
@@ -151,6 +196,11 @@ our $I18N = {
 		lastUpdated => 
 	},
 
+	'graphUrl' => {
+		message => q||,
+		lastUpdated => 
+	},
+
 	'form.submit' => {
 		message => q|Vota|,
 		lastUpdated => 1156590506
@@ -161,7 +211,17 @@ our $I18N = {
 		lastUpdated => 
 	},
 
+	'randomizeAnswers' => {
+		message => q||,
+		lastUpdated => 
+	},
+
 	'12' => {
+		message => q|Voti totali|,
+		lastUpdated => 1172424028
+	},
+
+	'poll asset template variables title' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -177,6 +237,11 @@ our $I18N = {
 	},
 
 	'4' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'graphWidth' => {
 		message => q||,
 		lastUpdated => 
 	},
