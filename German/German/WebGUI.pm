@@ -837,8 +837,8 @@ our $I18N = {
 	},
 
 	'webgui tips title' => {
-		message => q||,
-		lastUpdated => 
+		message => q|WebGUI Tipps|,
+		lastUpdated => 1172825335
 	},
 
 	'photo' => {
