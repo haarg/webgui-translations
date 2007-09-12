@@ -2,18 +2,18 @@ package WebGUI::i18n::Dutch::AdminConsole;
 
 our $I18N = {
 	'toggle off' => {
-		message => q|Verberg beheer console<br />|,
-		lastUpdated => 1168560976
+		message => q|Verberg admin console.|,
+		lastUpdated => 1146664741
 	},
 
 	'toggle on' => {
-		message => q|Vertoon beheer console<br />|,
-		lastUpdated => 1168560995
+		message => q|Toon admin console.|,
+		lastUpdated => 1166194705
 	},
 
 	'admin console' => {
-		message => q|Beheer console<br />|,
-		lastUpdated => 1168560955
+		message => q|Admin Console|,
+		lastUpdated => 1146664699
 	},
 
 };
