@@ -1,11 +1,6 @@
 package WebGUI::i18n::Dutch::Asset_Matrix;
 
 our $I18N = {
-	'listing add/edit help body' => {
-		message => q|In dit formulier kunt u een nieuwe lijst toevoegen aan de matrix of een bestaande wijzigen.|,
-		lastUpdated => 1156342105
-	},
-
 	'clicks' => {
 		message => q|Het totaal aantal klikken dat deze lijst heeft ontvangen.|,
 		lastUpdated => 1152627675
@@ -56,11 +51,6 @@ our $I18N = {
 		lastUpdated => 1152627934
 	},
 
-	'matrix template help body' => {
-		message => q|De volgende variabelen zijn beschikbaar in het standaard Matrix sjabloon:|,
-		lastUpdated => 1156342661
-	},
-
 	'main template description' => {
 		message => q|Selecteer een sjabloon voor het weergeven van de standaardweergave van de Matrix.|,
 		lastUpdated => 1156342419
@@ -79,11 +69,6 @@ our $I18N = {
 	'count' => {
 		message => q|De som van alle stemmen voor de beste lijst in deze categorie.|,
 		lastUpdated => 1152628171
-	},
-
-	'ratings detail template help body' => {
-		message => q|Onderstaande variabelen worden gebruikt in het waarderingsdetail sjabloon:|,
-		lastUpdated => 1156344607
 	},
 
 	'form.header' => {
@@ -116,11 +101,6 @@ our $I18N = {
 		lastUpdated => 1152629440
 	},
 
-	'search template help body' => {
-		message => q|De volgende variabelen zijn beschikbaar in het matrix zoek-sjabloon.|,
-		lastUpdated => 1156344792
-	},
-
 	'user.canApprove' => {
 		message => q|Een variabele die bepaalt of de huidige gebruikers rechten heeft om een lijst goed te keuren zodat deze gepubliceerd wordt.|,
 		lastUpdated => 1156345222
@@ -149,11 +129,6 @@ our $I18N = {
 	'rating_loop' => {
 		message => q|Deze lus bevat alle categori&#235;n binnen de huidige Matrix.|,
 		lastUpdated => 1156344541
-	},
-
-	'field add/edit help title' => {
-		message => q|Matrix veld, toevoegen/bewerken|,
-		lastUpdated => 1152629264
 	},
 
 	'productName' => {
@@ -224,11 +199,6 @@ our $I18N = {
 	'best_rating_loop' => {
 		message => q|Een lus die alle categorie&euml;n voor deze matrix en hun beste beoordelingen bevat. |,
 		lastUpdated => 1156340944
-	},
-
-	'comparison template help body' => {
-		message => q|De volgende sjabloon-variabelen zijn beschikbaar in het vergelijkingssjabloon. |,
-		lastUpdated => 1156330998
 	},
 
 	'visitor cache timeout help' => {
@@ -355,7 +325,7 @@ Een lijst waaruit u een keuze kunt maken
 
 	'comparison template help title' => {
 		message => q|Matrix vergelijkingstabel|,
-		lastUpdated => 1156332212
+		lastUpdated => 1190025810
 	},
 
 	'tmplVar worst.url' => {
@@ -559,11 +529,6 @@ Voor de selectielijst mag er maar &#233;&#233;n waarde worden ingevuld. De gebru
 		lastUpdated => 1156344946
 	},
 
-	'detail template help body' => {
-		message => q|Onderstaande variabelen zijn beschikbaar in het detail sjabloon:|,
-		lastUpdated => 1156339883
-	},
-
 	'lastupdated_loop' => {
 		message => q|Een lus met de data waarop iedere lijst voor het laatst gewijzigd is.|,
 		lastUpdated => 1156341995
@@ -694,14 +659,14 @@ Voor de selectielijst mag er maar &#233;&#233;n waarde worden ingevuld. De gebru
 		lastUpdated => 1152628427
 	},
 
-	'detail template description' => {
-		message => q|Selecteer een sjabloon die gebruikt wordt voor het weergeven van gedetailleerde informatie over de lijst.|,
-		lastUpdated => 1156339180
-	},
-
 	'max comparisons privileged description' => {
 		message => q|Hier kunt u invullen hoeveel vergelijkingen er tegelijkertijd gedaan mogen worden door gebruikers met extra privileges.|,
 		lastUpdated => 1156343560
+	},
+
+	'detail template description' => {
+		message => q|Selecteer een sjabloon die gebruikt wordt voor het weergeven van gedetailleerde informatie over de lijst.|,
+		lastUpdated => 1156339180
 	},
 
 	'detail template' => {
@@ -722,11 +687,6 @@ Voor de selectielijst mag er maar &#233;&#233;n waarde worden ingevuld. De gebru
 	'category listing description' => {
 		message => q|De beshrijving die de gebruiker zegt wat dit veld weergeeft. |,
 		lastUpdated => 1156326215
-	},
-
-	'field add/edit help body' => {
-		message => q|<p>Op dit formulier kunt u een veld aan de matrix toevoegen. Dit bepaalt een nieuw kenmerk of prestatie-criterium, dat zal worden gebruikt om alle producten in de matrix te beoordelen. Dit lijkt erg op het toevoegen van velden aan een Dataformulier-asset.</p>|,
-		lastUpdated => 1156342403
 	},
 
 	'compares' => {
@@ -754,11 +714,6 @@ Voor de selectielijst mag er maar &#233;&#233;n waarde worden ingevuld. De gebru
 		lastUpdated => 1156344673
 	},
 
-	'rating group description' => {
-		message => q|Deze groep mag lijsten in de matrix beoordelen.|,
-		lastUpdated => 1152628961
-	},
-
 	'row_loop' => {
 		message => q|Een lus met de data van het product voor dit veld in deze categorie.|,
 		lastUpdated => 1156344654
@@ -767,6 +722,11 @@ Voor de selectielijst mag er maar &#233;&#233;n waarde worden ingevuld. De gebru
 	'tmplVar best.url' => {
 		message => q|De URL van de lijst met de beste waardering van deze categorie.|,
 		lastUpdated => 1156344820
+	},
+
+	'rating group description' => {
+		message => q|Deze groep mag lijsten in de matrix beoordelen.|,
+		lastUpdated => 1152628961
 	},
 
 	'lastUpdated.epoch' => {
@@ -819,11 +779,6 @@ Voor de selectielijst mag er maar &#233;&#233;n waarde worden ingevuld. De gebru
 		lastUpdated => 1156344596
 	},
 
-	'add/edit help body' => {
-		message => q|De matrix stelt je in staat een krachtig vergelijkingssysteem op te zetten voor alle typen objecten of services.|,
-		lastUpdated => 1152630150
-	},
-
 	'max comparisons privileged' => {
 		message => q|Max. aantal vergelijkingen (voor gebruikers met privileges)|,
 		lastUpdated => 1156343542
@@ -856,7 +811,7 @@ Voor de selectielijst mag er maar &#233;&#233;n waarde worden ingevuld. De gebru
 
 	'matrix template help title' => {
 		message => q|Matrix standaard sjabloon|,
-		lastUpdated => 1156342675
+		lastUpdated => 1190025805
 	},
 
 	'field label' => {
@@ -871,7 +826,7 @@ Voor de selectielijst mag er maar &#233;&#233;n waarde worden ingevuld. De gebru
 
 	'search template help title' => {
 		message => q|Matrix Zoek Sjabloon|,
-		lastUpdated => 1156344768
+		lastUpdated => 1190025796
 	},
 
 	'label' => {
@@ -944,11 +899,6 @@ Voor de selectielijst mag er maar &#233;&#233;n waarde worden ingevuld. De gebru
 		lastUpdated => 1156344885
 	},
 
-	'listing add/edit help title' => {
-		message => q|Matrix lijst, Toevoegen/wijzigen|,
-		lastUpdated => 1156342123
-	},
-
 	'tmplVar best.name' => {
 		message => q|De naam van de lijst die de beste beoordeling in deze categorie heeft.|,
 		lastUpdated => 1156344841
@@ -1017,11 +967,6 @@ Voor de selectielijst mag er maar &#233;&#233;n waarde worden ingevuld. De gebru
 	'best.compares.count' => {
 		message => q|Het aantal vergelijkingen van de lijst met de meeste vergelijkingen. |,
 		lastUpdated => 1156275902
-	},
-
-	'add/edit help title' => {
-		message => q|Matrix, toevoegen/bewerken|,
-		lastUpdated => 1152629130
 	},
 
 	'tmplVar best.category' => {

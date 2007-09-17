@@ -36,6 +36,11 @@ our $I18N = {
 		lastUpdated => 1170686157
 	},
 
+	'keywords' => {
+		message => q|trefwoorden|,
+		lastUpdated => 1190028040
+	},
+
 	'871 description' => {
 		message => q|Selecteer welke groep het object kan wijzigen. Deze groep kan automatisch de asset zien. Wanneer dit niet wordt ingesteld, wordt dit automatisch de groep die het bovenliggende object kan wijzigen.|,
 		lastUpdated => 1189121367
@@ -79,11 +84,6 @@ our $I18N = {
 	'save and commit' => {
 		message => q|opslaan en toepassen|,
 		lastUpdated => 1155829051
-	},
-
-	'asset list body' => {
-		message => q|Dit zijn de beschikbare Assets |,
-		lastUpdated => 1146830057
 	},
 
 	'872' => {
@@ -141,6 +141,11 @@ our $I18N = {
 		lastUpdated => 1146831812
 	},
 
+	'default value' => {
+		message => q|Standaard waarde(n)|,
+		lastUpdated => 1190028085
+	},
+
 	'Depth' => {
 		message => q|Diepte|,
 		lastUpdated => 1146581003
@@ -169,6 +174,11 @@ our $I18N = {
 	'locked' => {
 		message => q|Vergrendeld|,
 		lastUpdated => 1146831911
+	},
+
+	'with children' => {
+		message => q|Met kinderen|,
+		lastUpdated => 1190028016
 	},
 
 	'purge trash after help' => {
@@ -211,13 +221,6 @@ our $I18N = {
 		lastUpdated => 1166435446
 	},
 
-	'edit branch body' => {
-		message => q|Met deze functie kunt u wijzigingen doorvoeren voor de gehele boomstructuur. Hierbij valt te denken aan privileges voor wie de asset mag zien, wie de asset mag wijzigen of andere functies. Alleen de functies die gewijzigd mogen worden zijn zichtbaar.<BR>
-<BR>
-Elk veld heeft een ja/nee knop om aan te kunnen geven of de wijzigingen recursief doorgevoerd moeten worden.Wijzig de gewenste velden, klik op ja en klik vervolgens op bewaar om de wijzigingen door te voeren.|,
-		lastUpdated => 1166204072
-	},
-
 	'edit branch url help' => {
 		message => q|<p>De opgebouwde url staat uit twee gedeeltes. Voor het eerste gedeelte zijn er drie opties:</p><p>Bovenliggende url<br />&nbsp;&nbsp;&nbsp;&nbsp; begin de url met de url van de bovenliggende asset</p><p>Gespecificeerde url<br />&nbsp;&nbsp;&nbsp; Vul een zelf gespecifeerde url in om de url van de asset mee te beginnen</p><p>Geen<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Indien u kiest voor &quot;none&quot; dan wordt de url alleen opgebouwd uit het tweede gedeelte. De url komt dan &nbsp;&nbsp;&nbsp; &nbsp; gelijk achter de domeinnaam.</p><p>&nbsp;</p><p>Er zijn ook drie opties voor het tweede gedeelte:</p><p>Menutitel<br />&nbsp;&nbsp;&nbsp; De url wordt gebaseerd op de menutitel.</p><p>Titel<br />&nbsp;&nbsp;&nbsp; De url wordt gebaseerd op de titel.</p><p>Huidige url<br />&nbsp;&nbsp;&nbsp;&nbsp; De url wordt gebaseerd op de huidige url.</p><p>Alle url&#39;s worden automatisch aangepast om leestekens die problemen kunnen geven in een url te vervangen. </p>|,
 		lastUpdated => 1148990694
@@ -246,11 +249,6 @@ Elk veld heeft een ja/nee knop om aan te kunnen geven of de wijzigingen recursie
 	'copy' => {
 		message => q|Kopieer|,
 		lastUpdated => 1146830577
-	},
-
-	'asset template body' => {
-		message => q|Deze variabele bevindt zich in elke template:|,
-		lastUpdated => 1149845318
 	},
 
 	'synopsis' => {
@@ -348,6 +346,11 @@ Elk veld heeft een ja/nee knop om aan te kunnen geven of de wijzigingen recursie
 		lastUpdated => 1146833363
 	},
 
+	'with descendants' => {
+		message => q|Met nakomelingen|,
+		lastUpdated => 1190028008
+	},
+
 	'Add new field description' => {
 		message => q|Open een formulier waar nieuwe metadata kan worden toegevoegd aan deze asset.|,
 		lastUpdated => 1146580924
@@ -383,11 +386,6 @@ Elk veld heeft een ja/nee knop om aan te kunnen geven of de wijzigingen recursie
 		lastUpdated => 1170686328
 	},
 
-	'manage versions body' => {
-		message => q|Hier vindt u alle versies van de asset samen met de datum van goedkeuring, de eigenaar van de versie en de naam van de versie tag. Door middel van de icoontjes kunt u versies verwijderen of bekijken. Door te klikken op de versie tag komt in het scherm om alle revisies te bekijken. |,
-		lastUpdated => 1166188196
-	},
-
 	'954' => {
 		message => q|Beheer systeem klembord|,
 		lastUpdated => 1146580710
@@ -406,11 +404,6 @@ Elk veld heeft een ja/nee knop om aan te kunnen geven of de wijzigingen recursie
 	'1082' => {
 		message => q|Klembord|,
 		lastUpdated => 1146578806
-	},
-
-	'asset fields body' => {
-		message => q|Dit zijn de eigenschappen waarover alle assets beschikken |,
-		lastUpdated => 1146829897
 	},
 
 	'cut' => {
@@ -438,14 +431,14 @@ Elk veld heeft een ja/nee knop om aan te kunnen geven of de wijzigingen recursie
 		lastUpdated => 1146581529
 	},
 
-	'asset fields title' => {
-		message => q|Asset, Standaard velden|,
-		lastUpdated => 1146829916
-	},
-
 	'could not rmdir' => {
 		message => q|Kan de map %s: %s niet verwijderen.|,
 		lastUpdated => 1166187519
+	},
+
+	'default value description' => {
+		message => q|De standaard waarde voor dit veld. Als er meerdere standaard waarden zijn, zoals bij een checkboxlijst, geef er dan een per regel.|,
+		lastUpdated => 1190028073
 	},
 
 	'Delete Metadata field' => {
@@ -461,6 +454,11 @@ Elk veld heeft een ja/nee knop om aan te kunnen geven of de wijzigingen recursie
 	'486' => {
 		message => q|Type|,
 		lastUpdated => 1146580011
+	},
+
+	'this asset only' => {
+		message => q|Alleen dit object (asset)|,
+		lastUpdated => 1190028028
 	},
 
 	'import' => {
@@ -541,11 +539,6 @@ Elk veld heeft een ja/nee knop om aan te kunnen geven of de wijzigingen recursie
 	'url' => {
 		message => q|De URL van het asset.|,
 		lastUpdated => 1170686364
-	},
-
-	'Page Export body' => {
-		message => q|Met de exporteerfunctie kunnen WebGUI pagina's worden opgeslagen als statische HTML bestanden. Hiervoor moet het "exportPath" in het configuratiebestand worden toegekend.|,
-		lastUpdated => 1146581724
 	},
 
 	'Class Icon' => {
@@ -668,19 +661,9 @@ Elk veld heeft een ja/nee knop om aan te kunnen geven of de wijzigingen recursie
 		lastUpdated => 1146833333
 	},
 
-	'asset toolbar body' => {
-		message => q|Indien u rechten heeft voor het wijzigen van een asset en u heeft de beheermode aan dan ziet u een werkbalk om de Asset aan te passen. |,
-		lastUpdated => 1166187475
-	},
-
 	'size' => {
 		message => q|Grootte|,
 		lastUpdated => 1146833342
-	},
-
-	'change url body' => {
-		message => q|Als u een nieuwe asset wil plaatsen met dezelfde URL als een oude asset dan moet u normaal gesproken het oude asset verwijderen en alle revisies van de desbetreffende asset verwijderen. Met &quot;URL Wijzigen&quot; kunt u gemakkelijk de URL wijzigen. De URL wordt dan automatisch aangepast. |,
-		lastUpdated => 1148988796
 	},
 
 	'107' => {
@@ -726,11 +709,6 @@ Elk veld heeft een ja/nee knop om aan te kunnen geven of de wijzigingen recursie
 	'encryptPage' => {
 		message => q|Een booleaanse variabele (waar/niet waar) die waar is als dit asset is ingesteld op "weergeven via SSL (beveiligde verbinding)".|,
 		lastUpdated => 1170685765
-	},
-
-	'asset template asset var body' => {
-		message => q|Deze sjabloonvariabelen zijn beschikbaar in vrijwel elk asset. Veel van deze variabelen worden gebruikt door het systeem zelf om het gedrag van het asset te bepalen en zijn niet erg bruikbaar in sjablonen. Een voorbeeld is de ID van sjablonen, die gebruikt worden om het asset weer te geven. Sommige variabelen kunnen ook leeg zijn, wanneer de gebruiker bepaalde velden niet heeft ingevuld. |,
-		lastUpdated => 1170685497
 	},
 
 	'ago' => {
@@ -868,11 +846,6 @@ Elk veld heeft een ja/nee knop om aan te kunnen geven of de wijzigingen recursie
 		lastUpdated => 1146580430
 	},
 
-	'metadata manage body' => {
-		message => q||,
-		lastUpdated => 1166188830
-	},
-
 	'groupIdView' => {
 		message => q|De ID van de groep die dit asset mag bekijken. |,
 		lastUpdated => 1170685883
@@ -908,13 +881,6 @@ Elk veld heeft een ja/nee knop om aan te kunnen geven of de wijzigingen recursie
 		lastUpdated => 1146833355
 	},
 
-	'prototype using body' => {
-		message => q|Om een object snel opnieuw met dezelfde instellingen te gebruiken - dezelfde templates bijvoorbeeld - kan een prototype gemaakt worden. Door een prototype te maken van het object kunnen nieuwe versies van het object op de site geplaatst worden met precies dezelfde instellingen. Het orgineel blijft ook beschikbaar. Bijvoorbeeld: wanneer het Samenwerk Systeem (Collaboration System) vaak wordt gebruikt als foto-album, dan is het handig om een foto-album als prototype in te stellen. Het object verschijnt dan onder die naam in het menu "Nieuw toevoegen". Vanaf dat moment kan het met een enkele klik met die instellingen op de site geplaatst worden. 
-
-De titel van het object dat tot prototype wordt gemaakt, is de naam waaronder het object in het "Nieuw toevoegen" menu verschijnt. Wanneer de titel identiek is aan het orginele object, dan vervangt het prototype het orginele object. Wanneer een prototype wordt toegevoegd aan een bestaande pagina dat zal het de rechten en stijl overnemen van die pagina. De instellingen van het orginele prototype worden overschreven. Dit kan leiden tot veranderingen in uiterlijk.|,
-		lastUpdated => 1189122392
-	},
-
 	'asset id' => {
 		message => q|Asset ID|,
 		lastUpdated => 1146829926
@@ -943,11 +909,6 @@ De titel van het object dat tot prototype wordt gemaakt, is de naam waaronder he
 	'1073' => {
 		message => q|Stijl sjabloon|,
 		lastUpdated => 1146578572
-	},
-
-	'asset toolbar title' => {
-		message => q|Asset werkbalk|,
-		lastUpdated => 1148988496
 	},
 
 	'951' => {
@@ -985,11 +946,6 @@ Opmerking: Het is van belang om altijd de titel op te geven. Zelfs als het templ
 	'change url help' => {
 		message => q|Laat het scherm zien voor het wijzigen van de URL van deze asset.|,
 		lastUpdated => 1148988883
-	},
-
-	'metadata edit property body' => {
-		message => q|Er kunnen onbeperkt Metadata velden aan een Wobject worden toegekend. |,
-		lastUpdated => 1146832546
 	},
 
 	'purge revision prompt' => {

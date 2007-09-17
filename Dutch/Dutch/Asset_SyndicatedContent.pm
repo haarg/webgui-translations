@@ -26,17 +26,6 @@ our $I18N = {
 		lastUpdated => 1153386028
 	},
 
-	'71' => {
-		message => q|Syndicated content is informatie vanuit andere sites waarbij gebruik wordt gemaakt van RDF of RSS. Hiermee kunt u nieuws halen van bijvoorbeeld Tweakers.net of nu.nl.<br />
-<br />
-Echter kunt u de informatie ook weer publiceren. U kunt dus informatie van meerdere sites verzamelen, vervolgens eventueel filteren op bepaalde zoektermen, en deze informatie vervolgens als RSS aanbieden op uw site. Bekijk voor meer informatie hierover de handleiding van het Syndicated Content sjabloon.<br />
-<br />
-De syndicated content is zowel een Wobject als een Asset, hierdoor beschikt hij over de eigenschappen van beide. Daarnaast beschikt hij over de volgende eigenschappen:
-
-|,
-		lastUpdated => 1170692130
-	},
-
 	'rss.url.0.91' => {
 		message => q|De inhoud van dit wobject als RSS 0.91 feed.|,
 		lastUpdated => 1152862098
@@ -47,14 +36,14 @@ De syndicated content is zowel een Wobject als een Asset, hierdoor beschikt hij 
 		lastUpdated => 1153385985
 	},
 
+	'descriptionFirst2sentences' => {
+		message => q|De eerste twee zinnen van de beschrijving|,
+		lastUpdated => 1190025384
+	},
+
 	'site_link' => {
 		message => q|Link naar de source van de RSS feed.|,
 		lastUpdated => 1152862010
-	},
-
-	'syndicated content asset template variables body' => {
-		message => q|Elk asset maakt een set variabelen beschikbaar die gebruikt kunnen worden in de meeste van zijn sjablonen. Deze variabelen zijn gebaseerd op intern gebruikte eigenschappen, daarom zijn niet alle variabelen even bruikbaar voor sjablonen. |,
-		lastUpdated => 1170692443
 	},
 
 	'displayModeLabel' => {
@@ -115,19 +104,24 @@ dan zullen alle items met "linux", "Windows XP" en "Google" die staan in de tite
 		lastUpdated => 1156410562
 	},
 
+	'descriptionFirst50words' => {
+		message => q|De eerste 50 woorden van de beschrijving|,
+		lastUpdated => 1190025358
+	},
+
 	'process macros in rss url' => {
 		message => q|Macro's verwerken in RSS URL's|,
 		lastUpdated => 1166198463
 	},
 
+	'descriptionFirst3sentences' => {
+		message => q|De eerste drie zinnen van de beschrijving|,
+		lastUpdated => 1190025375
+	},
+
 	'rssTabName' => {
 		message => q|RSS|,
 		lastUpdated => 1152862016
-	},
-
-	'61' => {
-		message => q|Syndicatated Content, toevoegen/wijzigen|,
-		lastUpdated => 1153386298
 	},
 
 	'item_loop' => {
@@ -148,6 +142,11 @@ dan zullen alle items met "linux", "Windows XP" en "Google" die staan in de tite
 	'site_title' => {
 		message => q|De titel van de RSS feed waaruit dit item komt.|,
 		lastUpdated => 1152861994
+	},
+
+	'descriptionFirst100words' => {
+		message => q|De eerste 100 woorden van de beschrijving|,
+		lastUpdated => 1190025418
 	},
 
 	'hasTermsLabel' => {
@@ -180,9 +179,19 @@ dan zullen alle items met "linux", "Windows XP" en "Google" die staan in de tite
 		lastUpdated => 1156409576
 	},
 
+	'descriptionFirst2paragraphs' => {
+		message => q|De eerste twee alinea's van de beschrijving|,
+		lastUpdated => 1190025394
+	},
+
 	'channel.title' => {
 		message => q|De titel van de Syndicated content. Deze is hetzelfde als de titel van het Syndicated content object wanneer u zelf een RSS bestand aanmaakt.|,
 		lastUpdated => 1156409734
+	},
+
+	'descriptionFirstParagraph' => {
+		message => q|De eerste alinea van de beschrijving|,
+		lastUpdated => 1190025337
 	},
 
 	'displayModeSubtext' => {
@@ -203,6 +212,11 @@ dan zullen alle items met "linux", "Windows XP" en "Google" die staan in de tite
 	'cache timeout' => {
 		message => q|Cache timeout|,
 		lastUpdated => 1153386004
+	},
+
+	'descriptionFirst75words' => {
+		message => q|De eerste 75 woorden van de beschrijving|,
+		lastUpdated => 1190025349
 	},
 
 	'templateId' => {
@@ -235,9 +249,24 @@ dan zullen alle items met "linux", "Windows XP" en "Google" die staan in de tite
 		lastUpdated => 1153386195
 	},
 
+	'descriptionFirst4sentences' => {
+		message => q|De eerste vier zinnen van de beschrijving|,
+		lastUpdated => 1190025367
+	},
+
 	'maxHeadlines' => {
 		message => q|Het maximum aantal koppen dat wordt weergegeven. |,
 		lastUpdated => 1170692326
+	},
+
+	'descriptionFirstSentence' => {
+		message => q|De eerste zin van een beschrijving|,
+		lastUpdated => 1190025328
+	},
+
+	'descriptionFirst25words' => {
+		message => q|De eerste 25 woorden van de beschrijving|,
+		lastUpdated => 1190025402
 	},
 
 	'new_rss_site' => {
@@ -260,13 +289,9 @@ dan zullen alle items met "linux", "Windows XP" en "Google" die staan in de tite
 		lastUpdated => 1153385972
 	},
 
-	'73' => {
-		message => q|De volgende variabelen zijn beschikbaar in het Syndicated Content sjabloon:<br />
-<br />
-RSS bestanden worden geconverteerd naar HTML via XSLT stylesheets om in de browser het bestand te kunnen lezen. Deze XSLT stylesheets zijn opgeslagen in het WebGUI collateral systeem als snippets.
-
-|,
-		lastUpdated => 1156409527
+	'descriptionFirst10words' => {
+		message => q|De eerste tien woorden van de beschrijving|,
+		lastUpdated => 1190025410
 	},
 
 	'processMacrosInRssUrl' => {

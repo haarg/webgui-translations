@@ -51,11 +51,6 @@ our $I18N = {
 		lastUpdated => 1153907399
 	},
 
-	'help manage commerce title' => {
-		message => q|Handel, beheren|,
-		lastUpdated => 1154296864
-	},
-
 	'checkout canceled template' => {
 		message => q|&#39;Afrekenen geannuleerd&#39;-sjabloon |,
 		lastUpdated => 1153843454
@@ -73,7 +68,7 @@ our $I18N = {
 
 	'help cancel checkout template title' => {
 		message => q|Verwijder afreken-sjabloon|,
-		lastUpdated => 1153932676
+		lastUpdated => 1190024508
 	},
 
 	'payment plugin' => {
@@ -111,14 +106,14 @@ our $I18N = {
 		lastUpdated => 1154439870
 	},
 
-	'help manage pending transactions body' => {
-		message => q|Alle transacties die zijn gekenmerkt als 'in wachtrij' staan in dit overzicht. Transacties zijn gekenmerkt als 'in wachtrij' als bepaalde extra controle gewenst is. Bijvoorbeeld als een transactie mogelijk frauduleus is. Transacties in de wachtrij kunnen ook transacties zijn, die nog moeten worden bevestigd door iets (soortgelijks) als APN van PayPal. Indien u heeft gecontroleerd dat de transactie legitiem is, kunt u klikken op de link 'voltooi transactie'.|,
-		lastUpdated => 1166632270
-	},
-
 	'pending' => {
 		message => q|In wachtrij|,
 		lastUpdated => 1154358208
+	},
+
+	'username' => {
+		message => q|Gebruiker|,
+		lastUpdated => 1190024522
 	},
 
 	'normalItems' => {
@@ -351,13 +346,6 @@ our $I18N = {
 		lastUpdated => 1166632091
 	},
 
-	'help checkout confirm template body' => {
-		message => q|Dit sjabloon maakt onderscheid tussen normale en terugkerende producten. Een normaal product is een artikel waarvoor éénmaal betaald wordt. Terugkerende producten worden eens per periode betaald, zoals een abonnement.<br />
-<br />
-De volgende sjabloon-variabelen zijn beschikbaar in dit sjabloon: <br />|,
-		lastUpdated => 1166632700
-	},
-
 	'init date' => {
 		message => q|Begindatum|,
 		lastUpdated => 1154340268
@@ -418,11 +406,6 @@ De volgende sjabloon-variabelen zijn beschikbaar in dit sjabloon: <br />|,
 		lastUpdated => 1154429936
 	},
 
-	'help checkout error template body' => {
-		message => q|<p>De volgende sjabloon-variabelen zijn beschikbaar in dit sjabloon:</p>|,
-		lastUpdated => 1154286459
-	},
-
 	'confirm checkout template' => {
 		message => q|&#39;Bevestig afrekenen&#39;-sjabloon |,
 		lastUpdated => 1153906014
@@ -431,6 +414,11 @@ De volgende sjabloon-variabelen zijn beschikbaar in dit sjabloon: <br />|,
 	'connection error' => {
 		message => q|Fout in de verbinding|,
 		lastUpdated => 1153907072
+	},
+
+	'label' => {
+		message => q|Label|,
+		lastUpdated => 1190024607
 	},
 
 	'no shipping plugins selected' => {
@@ -448,9 +436,9 @@ De volgende sjabloon-variabelen zijn beschikbaar in dit sjabloon: <br />|,
 		lastUpdated => 1154359468
 	},
 
-	'help select payment template body' => {
-		message => q|In dit sjabloon zijn de volgende sjabloon-variabelen beschikbaar:|,
-		lastUpdated => 1154339501
+	'label hoverhelp' => {
+		message => q|Label, beschrijving in de eigen taal van de gebruiker, om de betalingsplugins weer te geven aan gebruikers. Dit label wordt weergegeven wanneer de gebruiker kan kiezen uit meerdere betalingsproviders.|,
+		lastUpdated => 1190024600
 	},
 
 	'status' => {
@@ -493,11 +481,6 @@ De volgende sjabloon-variabelen zijn beschikbaar in dit sjabloon: <br />|,
 		lastUpdated => 1154358199
 	},
 
-	'help manage commerce body' => {
-		message => q|Het handelssysteem van WebGUI is zeer veelzijdig aanpasbaar. U kunt de volgende eigenschappen instellen: |,
-		lastUpdated => 1154296794
-	},
-
 	'help select payment template title' => {
 		message => q|&#39;Kies betaalmethode&#39;-sjabloon|,
 		lastUpdated => 1154339781
@@ -508,11 +491,6 @@ De volgende sjabloon-variabelen zijn beschikbaar in dit sjabloon: <br />|,
 		lastUpdated => 1154361993
 	},
 
-	'help manage pending transactions title' => {
-		message => q|Maak een overzicht van transacties in wachtrij|,
-		lastUpdated => 1154339040
-	},
-
 	'checkout select payment template description' => {
 		message => q|Dit is het sjabloon dat de gebruiker ziet wanneer hij een betaalmethode kiest na bevestiging om af te rekenen. |,
 		lastUpdated => 1153844008
@@ -521,11 +499,6 @@ De volgende sjabloon-variabelen zijn beschikbaar in dit sjabloon: <br />|,
 	'quantity' => {
 		message => q|Het aantal van deze producten in het winkelwagentje.|,
 		lastUpdated => 1166632411
-	},
-
-	'help cancel checkout template body' => {
-		message => q|De volgende sjabloon-variabele is beschikbaar in dit sjabloon |,
-		lastUpdated => 1153932593
 	},
 
 	'daily report email' => {
@@ -548,14 +521,14 @@ De volgende sjabloon-variabelen zijn beschikbaar in dit sjabloon: <br />|,
 		lastUpdated => 1154435202
 	},
 
-	'recurringItems' => {
-		message => q|Het aantal terugkerende items in het winkelwagentje |,
-		lastUpdated => 1154427513
-	},
-
 	'commerce settings' => {
 		message => q|Handel|,
 		lastUpdated => 1153904192
+	},
+
+	'recurringItems' => {
+		message => q|Het aantal terugkerende items in het winkelwagentje |,
+		lastUpdated => 1154427513
 	},
 
 	'salesTax' => {

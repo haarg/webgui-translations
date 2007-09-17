@@ -3,12 +3,7 @@ package WebGUI::i18n::Dutch::Asset_StockData;
 our $I18N = {
 	'help_stock_list_template' => {
 		message => q|Aandelenlijst-sjabloon|,
-		lastUpdated => 1154622281
-	},
-
-	'help_stock_list_template_description' => {
-		message => q|Het volgende beschrijft de lijst van beschikbare sjabloon-variabelen om aandelenlijst-sjablonen te bouwen|,
-		lastUpdated => 1154622379
+		lastUpdated => 1190025438
 	},
 
 	'failover_label' => {
@@ -96,11 +91,6 @@ our $I18N = {
 		lastUpdated => 1154711784
 	},
 
-	'stock data asset template variables body' => {
-		message => q|Elk object maakt een set variabelen beschikbaar aan de templates die bij het object horen. Deze zijn gebaseerd op kenmerken van het object. Sommige zijn bruikbaarder dan andere.|,
-		lastUpdated => 1189373125
-	},
-
 	'source' => {
 		message => q|De internetlocatie die gebruikt wordt als informatiebron voor de aandeleninformatie.|,
 		lastUpdated => 1189373091
@@ -186,19 +176,19 @@ our $I18N = {
 		lastUpdated => 1154695940
 	},
 
-	'lastUpdate.default' => {
-		message => q|standaard datum- en tijd-formaat voor de datum en het tijdstip waarop aandelen werden bijgewerkt door de terugkerende bronnen |,
-		lastUpdated => 1154693733
-	},
-
 	'isVisitor' => {
 		message => q|Of de huidige gebruiker wel of geen bezoeker is. Dit komt terug als waar als de gebruiker authentiek verklaard is tegen het systeem. |,
 		lastUpdated => 1154622706
 	},
 
+	'lastUpdate.default' => {
+		message => q|standaard datum- en tijd-formaat voor de datum en het tijdstip waarop aandelen werden bijgewerkt door de terugkerende bronnen |,
+		lastUpdated => 1154693733
+	},
+
 	'help_stock_list_display_template' => {
-		message => q|&#39;Aandelenlijst tonen&#39;-sjabloon|,
-		lastUpdated => 1154615164
+		message => q|template Aandelenlijst tonen|,
+		lastUpdated => 1190025449
 	},
 
 	'stocks.pe' => {
@@ -224,11 +214,6 @@ our $I18N = {
 	'default_stock_label_description' => {
 		message => q|Voer een lijst van standaard-aandelen in (&eacute;&eacute;n per regel) om te laten zien ingeval de gebruiker niet ingelogd is, of ingeval hij de aandelenlijst niet heeft gepersonaliseerd. |,
 		lastUpdated => 1154529345
-	},
-
-	'help_add_edit_stock_description' => {
-		message => q|Op de &#39;aandelen bewerken&#39;-pagina kunt u uw aandelenlijsten naar wens aanpassen. Toevoegen aan, verwijderen van, en het ordenen van uw gepersonaliseerde aandelenlijst om op de site te laten zien. |,
-		lastUpdated => 1154610444
 	},
 
 	'stocks.p_change' => {
@@ -276,29 +261,9 @@ our $I18N = {
 		lastUpdated => 1154786008
 	},
 
-	'help_add_edit_stock_title' => {
-		message => q|Aandelenlijst, aandelen toevoegen/bewerken|,
-		lastUpdated => 1154610768
-	},
-
-	'help_stock_list_display_template_description' => {
-		message => q|Het volgende beschrijft de lijst van beschikbare sjabloon-variabelen om aandelenlijst-sjablonen te bouwen |,
-		lastUpdated => 1154622245
-	},
-
-	'help_add_edit_stocklist_title' => {
-		message => q|Aandelenlijst, toevoegen/bewerken |,
-		lastUpdated => 1154612869
-	},
-
 	'stocks.time' => {
 		message => q|Laatste handelsdatum|,
 		lastUpdated => 1154783333
-	},
-
-	'help_add_edit_stocklist_body' => {
-		message => q|Aandelenlijsten stellen gebruikers in staat aandelen op uw site te vinden. Gegevens worden opgehaald uit verschillende bronnen op het internet en in tabel-formaat weergegeven. Deze applicatie stelt elke geregistreerde gebruiker in staat aandelenlijsten te bewerken en een standaard aandelenlijst in te stellen voor bezoekers die er zelf geen hebben bewerkt.  |,
-		lastUpdated => 1170691910
 	},
 
 	'symbol_exists' => {
@@ -371,14 +336,14 @@ our $I18N = {
 		lastUpdated => 1154694591
 	},
 
-	'symbol_label_description' => {
-		message => q|Voer een geldig aandeel-symbool in. Als uw symbool niet gevonden kan worden, neem dan contact op met uw admin. Waarschijnlijk beperkt uw site zich tot aandelen van een bepaalde markt (VS, Europese markt, enzovoorts) |,
-		lastUpdated => 1154786165
-	},
-
 	'stock.display.url' => {
 		message => q|Algemene URL naar de pagina die details van afzonderlijke aandelen laat zien. Aan het eind van deze URL moet een aandelensymbool worden toegevoegd. |,
 		lastUpdated => 1154693995
+	},
+
+	'symbol_label_description' => {
+		message => q|Voer een geldig aandeel-symbool in. Als uw symbool niet gevonden kan worden, neem dan contact op met uw admin. Waarschijnlijk beperkt uw site zich tot aandelen van een bepaalde markt (VS, Europese markt, enzovoorts) |,
+		lastUpdated => 1154786165
 	},
 
 	'template_label' => {

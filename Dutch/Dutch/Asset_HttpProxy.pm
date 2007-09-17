@@ -36,6 +36,14 @@ our $I18N = {
 		lastUpdated => 1189349262
 	},
 
+	'url pattern filter hover help' => {
+		message => q|Geef een zoekpatroon in per regel (PERL reguliere expressies mogen gebruikt worden). Deze worden weggefilterd wanneer de url worden herschreven. Voorbeeld:
+
+Ex: /bms/documents
+/bms/documents/document_\\d+\\.pdf|,
+		lastUpdated => 1190025930
+	},
+
 	'timeout' => {
 		message => q|De hoeveelheid tijd, in seconden, die gewacht wordt voordat wordt opgegeven een externe pagina op te vragen.|,
 		lastUpdated => 1189349232
@@ -116,19 +124,9 @@ our $I18N = {
 		lastUpdated => 1166194988
 	},
 
-	'10' => {
-		message => q|HTTP proxy, toevoegen/bewerken|,
-		lastUpdated => 1152626818
-	},
-
 	'no recursion' => {
 		message => q|Foutmelding: HttpProxy can niet recursief zijn eigen inhoud opvragen.|,
 		lastUpdated => 1166194972
-	},
-
-	'11' => {
-		message => q|<p>Het HTTP proxy wobject is een krachtig werktuig. Er kunnen externe sites en applicaties opgenomen worden in de site. Als er bijvoorbeeld een webmail systeem is dat door de bedrijfsleiding opgevraagd moet kunnen worden via intranet, kan de HTTP proxy gebruikt worden om dit te bereiken.</p><p>&nbsp;</p><p><em>Let op: De <strong>Zoek naar</strong> en <strong>Stop bij</strong> strings zitten in de inhoud in het standaard sjabloon. Dit kan veranderd worden door een eigen sjabloon te maken.</em> <br /></p>|,
-		lastUpdated => 1155562582
 	},
 
 	'rewriteUrls' => {
@@ -259,14 +257,19 @@ Probeer <a href="%s">hier</a> het scherm rechtstreeks op te vragen.
 		lastUpdated => 1152627416
 	},
 
-	'5' => {
-		message => q|Proxy-en van andere domeinen toestaan?|,
-		lastUpdated => 1152627065
+	'url pattern filter label' => {
+		message => q|URL patroon filter|,
+		lastUpdated => 1190025839
 	},
 
 	'header' => {
 		message => q|De koptekst van de geproxiede URL.|,
 		lastUpdated => 1155563030
+	},
+
+	'5' => {
+		message => q|Proxy-en van andere domeinen toestaan?|,
+		lastUpdated => 1152627065
 	},
 
 };

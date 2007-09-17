@@ -56,11 +56,6 @@ our $I18N = {
 		lastUpdated => 1152618784
 	},
 
-	'LDAPLink_990' => {
-		message => q|Bewerk LDAP connectie|,
-		lastUpdated => 1152617283
-	},
-
 	'title' => {
 		message => q|Standaard titel van de pagina.|,
 		lastUpdated => 1152620517
@@ -133,7 +128,7 @@ our $I18N = {
 
 	'auth login template title' => {
 		message => q|Login LDAP authenticatie sjabloon|,
-		lastUpdated => 1152618754
+		lastUpdated => 1190025171
 	},
 
 	'LDAPLink_12' => {
@@ -166,11 +161,6 @@ our $I18N = {
 		lastUpdated => 1152620381
 	},
 
-	'auth login template body' => {
-		message => q|De volgende sjabloon variabelen zijn beschikbaar binnen de Login LDAP authenticatie sjablonen.|,
-		lastUpdated => 1152618728
-	},
-
 	'LDAPLink_1' => {
 		message => q|Uitvoerings fout (1)|,
 		lastUpdated => 1152615053
@@ -193,7 +183,7 @@ our $I18N = {
 
 	'display account template title' => {
 		message => q|Sjabloon voor het tonen van accounts van de LDAP authenticatie.|,
-		lastUpdated => 1152619515
+		lastUpdated => 1190025189
 	},
 
 	'ldap link name blank' => {
@@ -233,7 +223,7 @@ our $I18N = {
 
 	'anon reg template title' => {
 		message => q|Anononiem LDAP registratie authenticatie sjabloon|,
-		lastUpdated => 1152618637
+		lastUpdated => 1190025162
 	},
 
 	'LDAPLink_80' => {
@@ -336,11 +326,6 @@ our $I18N = {
 		lastUpdated => 1152611754
 	},
 
-	'anon reg template body' => {
-		message => q|De volgende sjabloonvariabelen zien beschkbaar voor de anonieme LDAP registratie authenticatie sjablonen|,
-		lastUpdated => 1152618608
-	},
-
 	'LDAPLink_67' => {
 		message => q|Niet toegestaan door RDN (67)|,
 		lastUpdated => 1152616881
@@ -386,24 +371,19 @@ our $I18N = {
 		lastUpdated => 1156345109
 	},
 
-	'ldap connection add/edit body' => {
-		message => q||,
-		lastUpdated => 1152619574
-	},
-
 	'create.form.password.label' => {
 		message => q|Standaard tekst voor het wachtwoord formulier veld.|,
 		lastUpdated => 1152619151
 	},
 
-	'LDAPLink_1079' => {
-		message => q|Geldig|,
-		lastUpdated => 1152615316
-	},
-
 	'LDAPLink_993' => {
 		message => q|LDAP URL|,
 		lastUpdated => 1152617420
+	},
+
+	'LDAPLink_1079' => {
+		message => q|Geldig|,
+		lastUpdated => 1152615316
 	},
 
 	'LDAPLink_ldapGroup' => {
@@ -424,11 +404,6 @@ our $I18N = {
 	'ldap password name blank' => {
 		message => q|Het LDAP wachtwoord naam veld mag niet worden leeg gelaten.|,
 		lastUpdated => 1152619671
-	},
-
-	'deactivate account template body' => {
-		message => q|De volgende variabelen zijn beschikbaar voor de sjablonen LDAP Authenticatie: Deactiveer Login|,
-		lastUpdated => 1166625365
 	},
 
 	'account.form.karma' => {
@@ -468,7 +443,7 @@ our $I18N = {
 
 	'deactivate account template title' => {
 		message => q|Sjabloon LDAP Authenticatie: Deactiveer Login|,
-		lastUpdated => 1166625395
+		lastUpdated => 1190025180
 	},
 
 	'login template' => {
@@ -689,11 +664,6 @@ our $I18N = {
 	'4' => {
 		message => q|Connectie DN|,
 		lastUpdated => 1152611471
-	},
-
-	'display account template body' => {
-		message => q|De volgende sjabloon variabelen zijn beschikbaar binnen de sjablonen voor het tonen van accounts van de LDAP authenticatie. |,
-		lastUpdated => 1152619475
 	},
 
 	'LDAPLink_0' => {

@@ -36,9 +36,19 @@ our $I18N = {
 		lastUpdated => 1150099963
 	},
 
+	'enable metadata description' => {
+		message => q|Selecteer "Ja" om metadata beschikbaar te maken in bijdragen en om passief profielen te maken. Dit heeft een negatief effect op de performance van het Samenwerk Systeem. Metadata moet in de instellingen insteld zijn. |,
+		lastUpdated => 1189453681
+	},
+
 	'controls' => {
 		message => q|<div class="&quot;&quot;helpIndent&quot;&quot;"><p>Een aantal ikonen waarmee deze post verwijderd of opnieuw gerangschikt kan worden.</p></div>|,
 		lastUpdated => 1150099933
+	},
+
+	'who threads' => {
+		message => q|Wie kan reageren op deze bijdrage?|,
+		lastUpdated => 1190027774
 	},
 
 	'docs' => {
@@ -138,11 +148,6 @@ Nadat u deze instelling wijzigt worden niet alle  bestaande foto's opnieuw verkl
 	'rating_loop' => {
 		message => q|<div class="&quot;&quot;helpIndent&quot;&quot;"><p>Een proces (<em>en:</em>loop) dat voor ieder score van een post draait. </p></div>|,
 		lastUpdated => 1150098864
-	},
-
-	'collaboration template body' => {
-		message => q|<p>In het collaboratie sjabloon zijn de volgende varaiabelen beschikbaar:</p>|,
-		lastUpdated => 1150102452
 	},
 
 	'previous' => {
@@ -260,6 +265,11 @@ Nadat u deze instelling wijzigt worden niet alle  bestaande foto's opnieuw verkl
 		lastUpdated => 1147705653
 	},
 
+	'use captcha hover help' => {
+		message => q|Geef aan of gebruikers moeten bewijzen mensen te zijn door in te tikken wat er op een plaatje staat.|,
+		lastUpdated => 1190027819
+	},
+
 	'attachment_thumbnail' => {
 		message => q|De URL van de thumbnail van deze bijlage. Bestanden worden weergegeven door middel van een icoon, dat hoort bij het type bestand. Afbeeldingen hebben een echte thumbnail.|,
 		lastUpdated => 1189122590
@@ -365,14 +375,14 @@ Nadat u deze instelling wijzigt worden niet alle  bestaande foto's opnieuw verkl
 		lastUpdated => 1150101466
 	},
 
-	'collaboration add/edit body' => {
-		message => q|<p>Met deze Asset kunnen posts van gebruikers en inhoudbeheerders opgeslagen worden. Afhankelijk van de configuratie en het gebruikte sjabloon kunnen hier berichtenborden, fotoalbums, weblogs FAQ lijsten en meer mee gecre&euml;erd worden.</p> <p> Bij het verwijderen van een post uit het collabratie asset, wordt het in de prullebak gedaan en alle antwoorden bij die post worden verwijderd uit het collaboratie asset. Ook wordt de teller gereduceerd. De verwijderde post kan hersteld worden en alle antwoorden worden dan tegelijkertijd hersteld. Het is echter niet mogelijk alleen de antwoorden op de post te herstellen zonder de originele post te herstellen.</p> <p>Collaboratie assets hebben de eigenschappen van assets en wobjects, alsmede de volgende eigenschappen:</p>|,
-		lastUpdated => 1147696295
-	},
-
 	'add' => {
 		message => q|Toevoegen|,
 		lastUpdated => 1147186773
+	},
+
+	'subscription group label' => {
+		message => q|Groep om bijdragen per email te ontvangen|,
+		lastUpdated => 1190027950
 	},
 
 	'allow replies' => {
@@ -420,14 +430,14 @@ Nadat u deze instelling wijzigt worden niet alle  bestaande foto's opnieuw verkl
 		lastUpdated => 1150098761
 	},
 
+	'who threads description' => {
+		message => q|De groep die nieuwe bijdragen mag starten bij dit object. (Asset)|,
+		lastUpdated => 1190027754
+	},
+
 	'system template description' => {
 		message => q|Dit is het hoofdsjabloon voor de collaboratie asset.|,
 		lastUpdated => 1147704684
-	},
-
-	'collaboration add/edit title' => {
-		message => q|Collaboratie, toevoegen/bewerken|,
-		lastUpdated => 1147696323
 	},
 
 	'delete.label' => {
@@ -502,7 +512,7 @@ Nadat u deze instelling wijzigt worden niet alle  bestaande foto's opnieuw verkl
 
 	'collaboration template labels title' => {
 		message => q|Labels voor het collaboratie sjabloon|,
-		lastUpdated => 1147957578
+		lastUpdated => 1190027850
 	},
 
 	'sortby.date.url' => {
@@ -620,11 +630,6 @@ Nadat u deze instelling wijzigt worden niet alle  bestaande foto's opnieuw verkl
 		lastUpdated => 1147704083
 	},
 
-	'collaboration post list template variables body' => {
-		message => q|<p>Deze variabelen zijn beschikbaar in in verscheidene sjablonen die door het collaboratie asset gebruikt worden:</p>|,
-		lastUpdated => 1150102509
-	},
-
 	'url.label' => {
 		message => q|De afkorting &quot;URL&quot;. |,
 		lastUpdated => 1150724164
@@ -683,11 +688,6 @@ Nadat u deze instelling wijzigt worden niet alle  bestaande foto's opnieuw verkl
 	'critical' => {
 		message => q|Kritiek (werkt meestal niet)|,
 		lastUpdated => 1147957346
-	},
-
-	'collaboration template labels body' => {
-		message => q|<p>Deze labels zijn beschikbaar in sjablonen van verscheidene assets en wobjects, maar niet elke hoeft nuttig te zijn. Raadpleeg de sjabloon documentatie van het de asset en wobject voor de gebruikte labels.</p>|,
-		lastUpdated => 1150724390
 	},
 
 	'lastReply.user.isVisitor' => {
@@ -768,6 +768,16 @@ Nadat u deze instelling wijzigt worden niet alle  bestaande foto's opnieuw verkl
 	'lock.label' => {
 		message => q|Het woord &quot;Afsluiten&quot;.|,
 		lastUpdated => 1150723122
+	},
+
+	'captcha label' => {
+		message => q|Wat staat er op deze afbeelding?|,
+		lastUpdated => 1190027832
+	},
+
+	'subscription group hoverHelp' => {
+		message => q|Beheer de gebruikers met een abonnement op dit Collaboration System|,
+		lastUpdated => 1190027992
 	},
 
 	'item description' => {
@@ -955,6 +965,11 @@ Nadat u deze instelling wijzigt worden niet alle  bestaande foto's opnieuw verkl
 		lastUpdated => 1147706162
 	},
 
+	'thread approval workflow' => {
+		message => q|workflow Goedkeuring bericht (thread)|,
+		lastUpdated => 1190027918
+	},
+
 	'descending' => {
 		message => q|Dalend|,
 		lastUpdated => 1147956689
@@ -1053,11 +1068,6 @@ Nadat u deze instelling wijzigt worden niet alle  bestaande foto's opnieuw verkl
 	'mail prefix help' => {
 		message => q|Dit zal voor het onderwerp gezet worden bij alle uit dit collaboratie systeem gezonden emails.|,
 		lastUpdated => 1147707741
-	},
-
-	'collaboration search template body' => {
-		message => q|<p>In het collaboratie zoek sjabloon zijn de volgende variabelen beschikbaar:</p>|,
-		lastUpdated => 1150102475
 	},
 
 	'post template' => {
@@ -1192,7 +1202,7 @@ Nadat u deze instelling wijzigt worden niet alle  bestaande foto's opnieuw verkl
 
 	'collaboration rss template title' => {
 		message => q|RSS collaboratie sjabloon|,
-		lastUpdated => 1147702483
+		lastUpdated => 1190027838
 	},
 
 	'attachment.label' => {
@@ -1277,7 +1287,7 @@ Nadat u deze instelling wijzigt worden niet alle  bestaande foto's opnieuw verkl
 
 	'collaboration search template title' => {
 		message => q|Collaboratie zoek sjabloon|,
-		lastUpdated => 1147958985
+		lastUpdated => 1190027844
 	},
 
 	'layout.label' => {
@@ -1407,6 +1417,11 @@ Gebruik van avatars vermindert de snelheid van het collaboratiesysteem.|,
 		lastUpdated => 1147685484
 	},
 
+	'enable metadata' => {
+		message => q|Metadata beschikbaar maken in bijdragen?|,
+		lastUpdated => 1189453585
+	},
+
 	'edit.url' => {
 		message => q|<div class="&quot;&quot;helpIndent&quot;&quot;"><p>De URL waar deze post bewerkt kan worden. </p></div>|,
 		lastUpdated => 1150099907
@@ -1425,6 +1440,11 @@ Gebruik van avatars vermindert de snelheid van het collaboratiesysteem.|,
 	'location' => {
 		message => q|Locatie|,
 		lastUpdated => 1147187671
+	},
+
+	'use captcha label' => {
+		message => q|Gebruik captcha bij post?|,
+		lastUpdated => 1190027789
 	},
 
 	'ascending' => {
@@ -1480,11 +1500,6 @@ Gebruik van avatars vermindert de snelheid van het collaboratiesysteem.|,
 	'job requirements' => {
 		message => q|Taak vereisten|,
 		lastUpdated => 1147953534
-	},
-
-	'collaboration rss template body' => {
-		message => q|<p>Met het collaboratie RSS sjabloon kan de geproduceerde XML als een RSS toevoer in een collaboratiegebruikt worden. Voor een geldige RSS toevoer, moet dit sjabloon voldoen aan de &lt;a xhref=&quot;http://blogs.law.harvard.edu/tech/rss&quot;&gt; RSS 2.0 specificaties&lt;/a&gt;. De volgende variabelen zijn beschikbaar in de collaboratie asset:</p>|,
-		lastUpdated => 1150102490
 	},
 
 	'mail' => {
@@ -1555,6 +1570,11 @@ Gebruik van avatars vermindert de snelheid van het collaboratiesysteem.|,
 	'mail account' => {
 		message => q|Account|,
 		lastUpdated => 1147707754
+	},
+
+	'thread approval workflow description' => {
+		message => q|Kies een workflow om uit te voeren na het toevoegen van een nieuw bericht (thread). |,
+		lastUpdated => 1190027888
 	},
 
 	'archive after description' => {

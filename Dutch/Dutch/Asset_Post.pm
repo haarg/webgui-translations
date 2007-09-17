@@ -51,6 +51,11 @@ our $I18N = {
 		lastUpdated => 1152804329
 	},
 
+	'unsubscribeLinkText' => {
+		message => q|Het label in de eigen taal van de bezoeker, om aan te geven "geen reacties meer per email ontvangen".|,
+		lastUpdated => 1190025625
+	},
+
 	'threadId' => {
 		message => q|De ID van de thread die dit bericht bevat |,
 		lastUpdated => 1152836978
@@ -91,6 +96,11 @@ our $I18N = {
 		lastUpdated => 1152818813
 	},
 
+	'meta_X_value' => {
+		message => q|De waarde voor een specifiek metadata veld, bepaald door zijn naam. X is de naam van het metadataveld, waarbij spaties in de naam worden vervangen door liggende streepjes. (underscores)|,
+		lastUpdated => 1189458176
+	},
+
 	'delete.url' => {
 		message => q|Een URL om dit bericht te verwijderen. |,
 		lastUpdated => 1152801697
@@ -99,6 +109,11 @@ our $I18N = {
 	'form.header' => {
 		message => q|Code die nodig is om het reactieformulier voor het bericht te starten|,
 		lastUpdated => 1152802617
+	},
+
+	'name' => {
+		message => q|Het label voor dit metadata veld. Metadata labels zijn niet beschikbaar in de eigen taal van de gebruiker.|,
+		lastUpdated => 1189458271
 	},
 
 	'new file description' => {
@@ -236,19 +251,29 @@ our $I18N = {
 		lastUpdated => 1152727625
 	},
 
+	'meta_loop' => {
+		message => q|Een loop die de metadata labels en velden bevat voor dit bericht. Als metadata niet beschikbaar is voor de site als geheel, of wanneer metadata niet beschikbaar is voor dit Samenwerk Systeem (Collaboration System) of er is geen metadata gedefinieerd voor de site, dan is deze loop leeg.|,
+		lastUpdated => 1189458247
+	},
+
 	'userProfile.url' => {
 		message => q|Een URL naar het profiel van de eigenaar van het bericht |,
 		lastUpdated => 1152837659
 	},
 
-	'notification.subscription.message' => {
-		message => q|Ge&iuml;nternationaliseerde boodschap dat er een nieuw bericht is geplaatst in een thread waar de gebruiker op geabonneerd is. |,
-		lastUpdated => 1152818017
-	},
-
 	'userDefinedN.form.float' => {
 		message => q|Voor elke vijf door de gebruiker gedefinieerde velden een formulier-widget voor een float |,
 		lastUpdated => 1152838509
+	},
+
+	'meta_X_form' => {
+		message => q|Het formulier voor een specifiek metadata veld, gedefinieerd door zijn naam. X is de naam van het metadataveld, waarbij spaties in de naam worden omgezet in liggende streepjes. (underscores)|,
+		lastUpdated => 1189458136
+	},
+
+	'notify.subscription.message' => {
+		message => q|Het bericht in de eigen taal van de bezoeker waarin wordt aangegeven dat een nieuwe reactie geplaatst bij een bericht waarop de gebruiker is geabonneerd.|,
+		lastUpdated => 1190025744
 	},
 
 	'attachment_loop' => {
@@ -336,11 +361,6 @@ our $I18N = {
 		lastUpdated => 1152727950
 	},
 
-	'post template variables body' => {
-		message => q|De volgende variabelen zijn beschikbaar in alle sjablonen voor het Collaboratiesysteem. Geïnternationaliseerde labels voor de actie-URL's (beantwoorden, verwijderen, enzovoorts) worden verstrekt in de serie van collaboratie-sjabloon-labels. |,
-		lastUpdated => 1166196017
-	},
-
 	'userDefined3' => {
 		message => q|De waarde van de derde door de gebruiker gedefinieerde variabele |,
 		lastUpdated => 1152838277
@@ -354,11 +374,6 @@ our $I18N = {
 	'875' => {
 		message => q|Er is een nieuw bericht geplaatst op een van uw abonnementen. |,
 		lastUpdated => 1152727239
-	},
-
-	'post asset variables body' => {
-		message => q|Onderstaande variabelen worden gebruikt in de sjablonen voor het Collaboratie systeem.|,
-		lastUpdated => 1166195969
 	},
 
 	'edit.url' => {
@@ -396,6 +411,11 @@ our $I18N = {
 		lastUpdated => 1152808524
 	},
 
+	'field' => {
+		message => q|Het formulier element om dit metadata element mee in te geven.|,
+		lastUpdated => 1189458088
+	},
+
 	'karmaIsEnabled' => {
 		message => q|Een voorwaarde die waar is als karma mogelijk is gemaakt in de WebGUI-instellingen in de admin console voor deze site. |,
 		lastUpdated => 1152808668
@@ -409,6 +429,11 @@ our $I18N = {
 	'dateUpdated.human' => {
 		message => q|De datum waarop het bericht voor het laatst is aangepast, in leesbaar formaat.|,
 		lastUpdated => 1152801625
+	},
+
+	'value' => {
+		message => q|De waarde van dit metadataveld voor dit bericht.|,
+		lastUpdated => 1189458289
 	},
 
 	'rate.url.thumbsUp' => {
@@ -469,11 +494,6 @@ our $I18N = {
 	'rating' => {
 		message => q|Een ander woord voor waardering|,
 		lastUpdated => 1152822893
-	},
-
-	'add/edit post template body' => {
-		message => q|Aanvullend op de gewone berichtensjabloon-variabelen, heeft het toevoegen/bewerken-berichtensjaboon de volgende variabelen: |,
-		lastUpdated => 1152727412
 	},
 
 	'Edited_on' => {
@@ -539,6 +559,11 @@ our $I18N = {
 	'post template variables title' => {
 		message => q|Bericht-sjabloon-variabelen|,
 		lastUpdated => 1152818474
+	},
+
+	'unsubscribeUrl' => {
+		message => q|De URL om geen reacties meer per email te ontvangen. |,
+		lastUpdated => 1190025590
 	},
 
 	'post asset variables title' => {

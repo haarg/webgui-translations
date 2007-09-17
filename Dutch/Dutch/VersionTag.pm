@@ -1,11 +1,6 @@
 package WebGUI::i18n::Dutch::VersionTag;
 
 our $I18N = {
-	'manage committed versions body' => {
-		message => q|<p>Dit scherm bevat een lijst met alle uitgevoerde versie tags in WebGUI, informatie over de tags en een interface waarmee ze beheerd kunnen worden.</p><p>De naam van de tag is ook een link waar getoond wordt welk werk er uit is gevoerd in de tag. De datum waarop de tag is uitgevoerd en de gebruikersnaam vande gebruiker die de tag heeft uitgevoerd&nbsp; worden ook getoond. Er is ook een link waarmee de tag ongedaan gemaakt kan worden.<br /></p>|,
-		lastUpdated => 1154343402
-	},
-
 	'approval message help' => {
 		message => q|Typ een bericht dat aan de beoordeler verzonden wordt, samen met de link om goed te keuren en de tag data.|,
 		lastUpdated => 1154341613
@@ -19,16 +14,6 @@ our $I18N = {
 	'approve/deny' => {
 		message => q|Goedkeuren/afkeuren|,
 		lastUpdated => 1154341644
-	},
-
-	'commit version tag body' => {
-		message => q|Het uitvoeren van de versie tag maakt het de versie die momenteel gebruikt en op de website getoond wordt.|,
-		lastUpdated => 1154342513
-	},
-
-	'manage version tags' => {
-		message => q|Beheer versie tags|,
-		lastUpdated => 1154343575
 	},
 
 	'comments' => {
@@ -111,6 +96,11 @@ our $I18N = {
 		lastUpdated => 1154342633
 	},
 
+	'bad commit' => {
+		message => q|Er is een fout opgetreden bij het publiceren van deze versie. Neem contact op met de systeembeheerder.|,
+		lastUpdated => 1190023761
+	},
+
 	'workflow' => {
 		message => q|Workflow|,
 		lastUpdated => 1154348092
@@ -139,11 +129,6 @@ our $I18N = {
 	'approve/deny help' => {
 		message => q|Wilt u deze tag goed of afkeuren?|,
 		lastUpdated => 1154341670
-	},
-
-	'edit version tag body' => {
-		message => q|In dit scherm kan een nieuwe versie tag gemaakt worden, die op de site gebruikt kan worden. Ook kan een bestaande versie tag bewerkt worden. Leden van de Versie tag beheer groep kunnen ook bepalen hoe de versie tag behandeld wordt met een workflow en welke groep kan bewerken onder deze tag.|,
-		lastUpdated => 1154347539
 	},
 
 	'version tag name' => {
@@ -176,11 +161,6 @@ our $I18N = {
 		lastUpdated => 1154347969
 	},
 
-	'manage pending versions body' => {
-		message => q|Op dit scherm staat een lijst met wachtende versie tags, gesorteerd op naam. Versie tags wachten als ze uitgevoerd zijn en op goedkeuring wachten of als ze zich in het proces bevinden waarin ze ontgrendeld worden om herbewerkt te worden. Elke naam is een link naar een lijst met de veranderingen in die tag. |,
-		lastUpdated => 1154347473
-	},
-
 	'topicName' => {
 		message => q|Versie controle|,
 		lastUpdated => 1154347743
@@ -204,15 +184,6 @@ our $I18N = {
 	'request approval for version tag' => {
 		message => q|Verzoek goedkeuring versie tag|,
 		lastUpdated => 1154347398
-	},
-
-	'manage version tags body' => {
-		message => q|Dit scherm bevat alle versie tags in WebGUI die niet uitgevoerd zijn met hun status en een interface waarmee ze beheerd kunnen worden. Als u momenteel zelf onder een bepaalde tag werkt, deze naam duidelijk getoond.<br />
-<br />
-Met de iconen naast elke tag kunnen de versies bewerkt of verwijderd worden. De naam van de tag is een link waarmee het gedane werk in de tag beheerd kan worden. Ook worden de datum waarop de tag gemaakt is en de gebruikersnaam van degene die de tag gemaakt heeft getoond. Verder is er een link waarmee de tag uitgevoerd kan worden.<br />
-<br />
-Er is voorzien in links waarmee een versie tag van iemand anders ingesteld kan worden als de nieuwe versie tag.  Vanaf dat moment wordt al het werk met de nieuwe tag gedaan.|,
-		lastUpdated => 1166635966
 	},
 
 	'rollback version tag' => {

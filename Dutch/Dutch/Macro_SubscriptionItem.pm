@@ -1,23 +1,9 @@
 package WebGUI::i18n::Dutch::Macro_SubscriptionItem;
 
 our $I18N = {
-	'subscription item body' => {
-		message => q|<p><strong>&#94;SubscriptionItem(<em>subscriptionId</em>,[<em>templateId</em>]);</strong><br />
-Deze macro wordt gebruikt om informatie weer te geven over periodiek betaalde items van de site. Het accepteert twee argumenten, de ID van het item en een optioneel sjabloon om te gebruiken in plaats van het standaard-sjabloon, gespecificeerd door een sjabloon-ID uit van de soort Macro/SubscriptionItem.</p>
-
-<p>Deze macro kan worden genest in andere macro's.</p>
-
-<p>Deze variabelen zijn beschikbaar in het sjabloon:
-<ul>
-<li><tmpl_var price></li>
-<li><tmpl_var url></li>
-</ul></p>|,
-		lastUpdated => 1181418321
-	},
-
 	'subscription item title' => {
 		message => q|Inschrijving-item-macro|,
-		lastUpdated => 1155420339
+		lastUpdated => 1190023923
 	},
 
 	'name' => {

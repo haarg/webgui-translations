@@ -28,19 +28,7 @@ our $I18N = {
 
 	'login box title' => {
 		message => q|Login-box-macro|,
-		lastUpdated => 1155311025
-	},
-
-	'login box body' => {
-		message => q|<p><strong>&#94;L; or &#94;L(); - Login Box</strong><br />
-Een klein login-formulier. Deze macro neemt tot drie parameters op. De eerste wordt gebruikt om de breedte van de login-box in te stellen: &#94;L(20);. De tweede stelt de boodschap in die wordt weergegeven nadat een gebruiker is ingelogd. &#94;L(20,"Hi &#94;a(&#94;@;);. Click %here% if you wanna log out!");. Tekst tussen procent-tekens (%) wordt vervangen door een link naar de uitlog-operatie. De derde parameter is het ID van een sjabloon in de Macro/L_loginBox-naamruimte om het standaard-sjabloon te vervangen. De variabelen hieronder zijn beschikbaar voor gebruik in het sjabloon: </p>
-
-<p><strong>Opmerkingen:</strong>
-<ul>
-<li>De .loginBox CSS class is verbonden aan deze macro.</li>
-<li>Deze macro kan niet worden genest in andere macro's.</li>
-</ul></p>|,
-		lastUpdated => 1181420640
+		lastUpdated => 1190024024
 	},
 
 	'account.create.url' => {

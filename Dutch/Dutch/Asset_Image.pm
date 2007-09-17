@@ -1,14 +1,29 @@
 package WebGUI::i18n::Dutch::Asset_Image;
 
 our $I18N = {
-	'image template body' => {
-		message => q|De volgende variabelen zijn beschikbaar in de sjablonen van de Image asset:|,
-		lastUpdated => 1149859404
+	'fileUrl' => {
+		message => q|De url van het bestand. |,
+		lastUpdated => 1149859141
+	},
+
+	'image size' => {
+		message => q|Afbeelding grootte|,
+		lastUpdated => 1149859338
+	},
+
+	'menuTitle' => {
+		message => q|Hier kan de menutitel worden ingevuld. Deze wordt weergegeven in de navigatiemenu&#39;s. Als er geen naam wordt ingevuld dan wordt hier automatisch de bestandsnaam ingevuld. |,
+		lastUpdated => 1149859549
 	},
 
 	'thumbnail size' => {
 		message => q|Thumbnail grootte|,
 		lastUpdated => 1149860040
+	},
+
+	'Thumbnail description' => {
+		message => q|Als een afbeelding is toegevoegd dan verschijnt hier een thumbnail van het origineel. |,
+		lastUpdated => 1149859027
 	},
 
 	'assetName' => {
@@ -46,9 +61,24 @@ our $I18N = {
 		lastUpdated => 1149859758
 	},
 
-	'image add/edit title' => {
-		message => q|Afbeelding, Toevoegen/wijzigen|,
-		lastUpdated => 1149859327
+	'thumbnail' => {
+		message => q|Thumbnail|,
+		lastUpdated => 1149860029
+	},
+
+	'resize image' => {
+		message => q|Afbeelding aanpassen|,
+		lastUpdated => 1149859852
+	},
+
+	'new height description' => {
+		message => q|Vul hier de gewenste hoogte in pixels in van de afbeelding. Als u 0 invult dan wordt de afbeelding naar verhouding gewijzigd op basis van de breedte.  |,
+		lastUpdated => 1149859718
+	},
+
+	'edit image' => {
+		message => q|Wijzig afbeelding|,
+		lastUpdated => 1149859101
 	},
 
 	'new file description' => {
@@ -56,9 +86,14 @@ our $I18N = {
 		lastUpdated => 1149859625
 	},
 
-	'resize image body' => {
-		message => q|Hiermee kunt u de afbeelding vergroten of verkleinen. Vul een nieuwe breedte en hoogte, of &eacute;&eacute;n van beide in en de afbeelding wordt aangepast. Als u bij &eacute;&eacute;n van de velden 0 invult dan berekent hij automatisch het aantal pixels. |,
-		lastUpdated => 1149859978
+	'Thumbnail size description' => {
+		message => q|Een thumbnail van de afbeelding wordt automatisch aangemaakt. Standaard wordt als grootte van de thumbnail de instelling die in de beheer module kan worden ingevuld gebruikt. Hier kan een andere grootte worden ingegeven.|,
+		lastUpdated => 1149859048
+	},
+
+	'image template title' => {
+		message => q|Afbeelding sjabloon|,
+		lastUpdated => 1190025819
 	},
 
 	'image template description' => {
@@ -76,14 +111,24 @@ our $I18N = {
 		lastUpdated => 1149859766
 	},
 
+	'filename' => {
+		message => q|De naam van de afbeelding.|,
+		lastUpdated => 1149859160
+	},
+
+	'parameters variable' => {
+		message => q|Alle parameters die zijn ingevuld toen de afbeelding werd geupload.|,
+		lastUpdated => 1149859795
+	},
+
 	'thumbnailSize' => {
 		message => q|Een integer met de langste zijde van de afbeelding.|,
 		lastUpdated => 1149860082
 	},
 
-	'image template asset var body' => {
-		message => q|De volgende variabelen zijn beschikbaar in Afbeeldingssjablonen. Veel van deze variabelen worden intern gebruikt, ze zijn daarom niet allemaal even bruikbaar. |,
-		lastUpdated => 1170688026
+	'image template asset var title' => {
+		message => q|Afbeeldingssjabloon, asset variabelen|,
+		lastUpdated => 1170688039
 	},
 
 	'title' => {
@@ -99,81 +144,6 @@ our $I18N = {
 	'image size description' => {
 		message => q|Huidige grootte van de afbeelding, breedte en hoogte, in pixels. |,
 		lastUpdated => 1149859366
-	},
-
-	'image size' => {
-		message => q|Afbeelding grootte|,
-		lastUpdated => 1149859338
-	},
-
-	'fileUrl' => {
-		message => q|De url van het bestand. |,
-		lastUpdated => 1149859141
-	},
-
-	'menuTitle' => {
-		message => q|Hier kan de menutitel worden ingevuld. Deze wordt weergegeven in de navigatiemenu&#39;s. Als er geen naam wordt ingevuld dan wordt hier automatisch de bestandsnaam ingevuld. |,
-		lastUpdated => 1149859549
-	},
-
-	'Thumbnail description' => {
-		message => q|Als een afbeelding is toegevoegd dan verschijnt hier een thumbnail van het origineel. |,
-		lastUpdated => 1149859027
-	},
-
-	'resize image' => {
-		message => q|Afbeelding aanpassen|,
-		lastUpdated => 1149859852
-	},
-
-	'thumbnail' => {
-		message => q|Thumbnail|,
-		lastUpdated => 1149860029
-	},
-
-	'new height description' => {
-		message => q|Vul hier de gewenste hoogte in pixels in van de afbeelding. Als u 0 invult dan wordt de afbeelding naar verhouding gewijzigd op basis van de breedte.  |,
-		lastUpdated => 1149859718
-	},
-
-	'edit image' => {
-		message => q|Wijzig afbeelding|,
-		lastUpdated => 1149859101
-	},
-
-	'Thumbnail size description' => {
-		message => q|Een thumbnail van de afbeelding wordt automatisch aangemaakt. Standaard wordt als grootte van de thumbnail de instelling die in de beheer module kan worden ingevuld gebruikt. Hier kan een andere grootte worden ingegeven.|,
-		lastUpdated => 1149859048
-	},
-
-	'image template title' => {
-		message => q|Afbeelding sjabloon|,
-		lastUpdated => 1149859499
-	},
-
-	'resize image title' => {
-		message => q|Afbeelding, aanpassen|,
-		lastUpdated => 1149859993
-	},
-
-	'image add/edit body' => {
-		message => q|<p>Met de Image asset kunt u afbeeldingen opslaan die u op uw site wilt gebruiken.</p><p>De Image asset heeft dezelfde eigenschappen als de File asset. Onderstaande eigenschappen zijn specifiek voor de Image asset:&nbsp;</p>|,
-		lastUpdated => 1149859315
-	},
-
-	'filename' => {
-		message => q|De naam van de afbeelding.|,
-		lastUpdated => 1149859160
-	},
-
-	'parameters variable' => {
-		message => q|Alle parameters die zijn ingevuld toen de afbeelding werd geupload.|,
-		lastUpdated => 1149859795
-	},
-
-	'image template asset var title' => {
-		message => q|Afbeeldingssjabloon, asset variabelen|,
-		lastUpdated => 1170688039
 	},
 
 };

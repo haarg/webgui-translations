@@ -31,14 +31,19 @@ our $I18N = {
 		lastUpdated => 1149502764
 	},
 
-	'add/edit body' => {
-		message => q|De zoek assets kan WebGUI inhoud doorzoeken. Zoek assets hebben de wobject en asset eigenschappen, alsmede de eigenschappen hieronder vermeld. |,
-		lastUpdated => 1149502742
-	},
-
 	'synopsis' => {
 		message => q|De samenvatting van het object (asset) dat gevonden werd in de zoekopdracht.|,
 		lastUpdated => 1189372784
+	},
+
+	'no_results' => {
+		message => q|Een label, beschrijving in de eigen taal van de gebruiker, om aan te geven dat er geen resultaten werden gevonden.|,
+		lastUpdated => 1190025496
+	},
+
+	'assetId' => {
+		message => q|De assetId van het object (asset) dat gevonden werd bij het zoeken.|,
+		lastUpdated => 1190025532
 	},
 
 	'url' => {
@@ -49,11 +54,6 @@ our $I18N = {
 	'searchRoot' => {
 		message => q|De ID van het object (asset) waar de zoekopdracht begint.|,
 		lastUpdated => 1189372765
-	},
-
-	'search template body' => {
-		message => q|<p>De volgende sjabloon variabelen zijn beschikbaar voor het zoek asset. Al deze variabelen zijn vereist.</p>|,
-		lastUpdated => 1149857990
 	},
 
 	'form_submit' => {
@@ -91,14 +91,9 @@ our $I18N = {
 		lastUpdated => 1149502911
 	},
 
-	'add/edit title' => {
-		message => q|Toevoegen/bewerken zoeken|,
-		lastUpdated => 1149502758
-	},
-
-	'search asset template variables body' => {
-		message => q|Elk object (asset) maakt een aantal variabelen beschikbaar aan de bijbehorende templates. Deze zijn gebaseerd op kenmerken van het object. Sommige zijn bruikbaarder dan andere.|,
-		lastUpdated => 1189372731
+	'results_found' => {
+		message => q|Een voorwaardelijke variabele die waar is als er resultaten zijn gevonden.|,
+		lastUpdated => 1190025469
 	},
 
 	'form_header' => {
@@ -114,6 +109,11 @@ our $I18N = {
 	'search template description' => {
 		message => q|Een sjabloon waarmee het zoekformulier en de resultaten getoond worden.|,
 		lastUpdated => 1149503306
+	},
+
+	'no results' => {
+		message => q|Geen resultaten|,
+		lastUpdated => 1190025508
 	},
 
 	'title' => {

@@ -48,7 +48,7 @@ our $I18N = {
 
 	'file template title' => {
 		message => q|Bestand sjabloon|,
-		lastUpdated => 1148997998
+		lastUpdated => 1190025940
 	},
 
 	'current file description' => {
@@ -76,11 +76,6 @@ our $I18N = {
 		lastUpdated => 1166194795
 	},
 
-	'file template body' => {
-		message => q|<p>De volgende variabelen zijn beschikbaar in het Bestand sjabloon:</p><p><strong>fileSize</strong><br />De grootte (in bytes/kilobytes/megabytes,etc) van het bestand.</p><p><strong>fileIcon&nbsp;</strong><br />Het icoon wat bij het type bestand hoort.</p><p><strong>fileUrl</strong> <br />De url van het bestand.</p><p><strong>controls</strong><br />De werkbalk voor het wijzigen van de asset.</p><p><strong>filename</strong> <br />De naam van het bestand.<br /><br /><strong>storageId<br /></strong>De interne id van het bestand.</p><p><strong>title</strong><br />De titel van het bestand. Als er geen ingevoerd is dan wordt standaard de bestandsnaam gebruikt.</p><p><strong>menuTitle<br /></strong>De menutitel die in de navigatie wordt weergegeven. Als er geen ingevoerd is dan wordt standaard de bestandsnaam gebruikt. </p>|,
-		lastUpdated => 1148997832
-	},
-
 	'fileIcon' => {
 		message => q|Het bijpassende icoon voor het bestand|,
 		lastUpdated => 1149235077
@@ -97,19 +92,9 @@ Het opgevraagde URL %s is niet gevonden op deze server.|,
 		lastUpdated => 1181652596
 	},
 
-	'file add/edit body' => {
-		message => q|<p>De Asset "Bestand" kan gebruikt worden om bestanden te uploaden zodat andere gebruikers deze kunnen downloaden. Om meerdere bestanden tegelijk te uploaden kan de Asset "Bestanden" worden gebruikt.</p><p>Omdat de bestanden op zich ook assets zijn bevatten deze dezelfde eigenschappen als andere assets. Hieronder volgen de eigenschappen die specifiek zijn voor Image assets. </p>|,
-		lastUpdated => 1166194786
-	},
-
 	'filename' => {
 		message => q|De bestandsnaam|,
 		lastUpdated => 1149235120
-	},
-
-	'file template asset var body' => {
-		message => q|De volgende variabelen zijn beschikbaar in Bestandssjablonen. Niet alle variabelen zijn even bruikbaar.|,
-		lastUpdated => 1170686465
 	},
 
 	'new file' => {

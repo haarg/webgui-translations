@@ -3,7 +3,7 @@ package WebGUI::i18n::Dutch::WebGUI;
 our $I18N = {
 	'559' => {
 		message => q|Uitvoeren bij registratie|,
-		lastUpdated => 1155889529
+		lastUpdated => 1190023707
 	},
 
 	'84 description' => {
@@ -81,19 +81,29 @@ our $I18N = {
 		lastUpdated => 1154094405
 	},
 
+	'settings groupIdAdminWorkflowRun label' => {
+		message => q|Workflow (run)|,
+		lastUpdated => 1190022516
+	},
+
+	'settings groupIdAdminCache hoverHelp' => {
+		message => q|Groep om de cache te zien en wissen|,
+		lastUpdated => 1190023225
+	},
+
 	'84' => {
 		message => q|Groepsnaam|,
 		lastUpdated => 1154095541
 	},
 
+	'skip commit comments' => {
+		message => q|Commentaar bij publicatie overslaan?|,
+		lastUpdated => 1189454344
+	},
+
 	'437' => {
 		message => q|Statistieken|,
 		lastUpdated => 1154076193
-	},
-
-	'glossary title' => {
-		message => q|WebGUI vakwoordenlijst|,
-		lastUpdated => 1156170130
 	},
 
 	'451' => {
@@ -111,9 +121,19 @@ our $I18N = {
 		lastUpdated => 1154076786
 	},
 
+	'settings groupIdAdminTransactionLog hoverHelp' => {
+		message => q|Groep die transacties kan beheren|,
+		lastUpdated => 1190022722
+	},
+
 	'1021' => {
 		message => q|Beoordeel bericht|,
 		lastUpdated => 1153750564
+	},
+
+	'private message to label' => {
+		message => q|Aan|,
+		lastUpdated => 1189454808
 	},
 
 	'135 description' => {
@@ -158,6 +178,11 @@ Als er een server voor het verzenden van email op dezelfde machine staat als de 
 		lastUpdated => 1166636365
 	},
 
+	'private message reply title' => {
+		message => q|Bericht beantwoorden|,
+		lastUpdated => 1189454283
+	},
+
 	'948' => {
 		message => q|Klembord|,
 		lastUpdated => 1154097274
@@ -171,6 +196,11 @@ Als er een server voor het verzenden van email op dezelfde machine staat als de 
 	'378' => {
 		message => q|Gebruikers identificatie|,
 		lastUpdated => 1154074880
+	},
+
+	'view inbox template description' => {
+		message => q|Kies een template om de inbox weer te geven.|,
+		lastUpdated => 1189454548
 	},
 
 	'889' => {
@@ -188,14 +218,14 @@ Als er een server voor het verzenden van email op dezelfde machine staat als de 
 		lastUpdated => 1154074502
 	},
 
-	'968' => {
-		message => q|Klembord, legen|,
-		lastUpdated => 1156171619
-	},
-
 	'540' => {
 		message => q|Karma per login|,
 		lastUpdated => 1154077604
+	},
+
+	'private message prev label' => {
+		message => q|Vorige|,
+		lastUpdated => 1189454245
 	},
 
 	'pagination.lastPageUrl' => {
@@ -223,9 +253,9 @@ Als er een server voor het verzenden van email op dezelfde machine staat als de 
 		lastUpdated => 1154096083
 	},
 
-	'manage users in group body' => {
-		message => q|Gebruik dit formulier voor het in veelvoud toevoegen of verwijderen van gebruikers van een groep.|,
-		lastUpdated => 1156168913
+	'settings groupIdAdminStatistics label' => {
+		message => q|Statistieken|,
+		lastUpdated => 1190022759
 	},
 
 	'337' => {
@@ -263,6 +293,11 @@ Als er een server voor het verzenden van email op dezelfde machine staat als de 
 		lastUpdated => 1153751617
 	},
 
+	'auto request commit' => {
+		message => q|Automatisch wijzigen publiceren?|,
+		lastUpdated => 1189453983
+	},
+
 	'859' => {
 		message => q|Handtekening|,
 		lastUpdated => 1154095967
@@ -271,6 +306,16 @@ Als er een server voor het verzenden van email op dezelfde machine staat als de 
 	'739' => {
 		message => q|Niveau gebruikers interface (UI level)|,
 		lastUpdated => 1154094558
+	},
+
+	'settings groupIdAdminSubscription hoverHelp' => {
+		message => q|Groep die abonnementen kan beheren|,
+		lastUpdated => 1190022748
+	},
+
+	'private message error' => {
+		message => q|Fout bij bericht|,
+		lastUpdated => 1189454011
 	},
 
 	'992' => {
@@ -313,6 +358,11 @@ Als er een server voor het verzenden van email op dezelfde machine staat als de 
 		lastUpdated => 1181337052
 	},
 
+	'editSettings error occurred' => {
+		message => q|De volgende fouten treden op wanneer getracht wordt de instellingen te bewaren:|,
+		lastUpdated => 1190023515
+	},
+
 	'145' => {
 		message => q|WebGUI versie|,
 		lastUpdated => 1153751838
@@ -333,14 +383,14 @@ Als er een server voor het verzenden van email op dezelfde machine staat als de 
 		lastUpdated => 1156498708
 	},
 
+	'settings groupIdAdminAdSpace label' => {
+		message => q|Advertentieruimte|,
+		lastUpdated => 1190023236
+	},
+
 	'364' => {
 		message => q|Zoek|,
 		lastUpdated => 1154074711
-	},
-
-	'653' => {
-		message => q|Pagina, verwijderen|,
-		lastUpdated => 1154092109
 	},
 
 	'950' => {
@@ -351,6 +401,11 @@ Als er een server voor het verzenden van email op dezelfde machine staat als de 
 	'cache statistics' => {
 		message => q|Cache statistieken|,
 		lastUpdated => 1156170702
+	},
+
+	'settings groupIdAdminProfileSettings label' => {
+		message => q|Gebruikers profielen|,
+		lastUpdated => 1190022854
 	},
 
 	'486' => {
@@ -383,11 +438,14 @@ Als er een server voor het verzenden van email op dezelfde machine staat als de 
 		lastUpdated => 1156498454
 	},
 
-	'1000' => {
-		message => q|Database Links - koppelingen met een andere database dan de WebGUI database - maken het mogelijk voor een beheerder (admin) om diverse veelgebruikte databases toegankelijk te maken voor gebruik in SQL Reports en dergelijke. Als een databasekoppeling beschikbaar is hoeft een gebruiker die een SQL Report maakt geen kennis te hebben van DSN, gebruiker en wachtwoord.<br />
-<br />
-Let op: elke koppeling met een externe database die je als beheerder maakt, wordt beschikbaar voor alle content managers. Hoewel ze geen kennis kunnen nemen van de DSN en de gebruiker/wachtwoord combinatie, kunnen deze gebruikers wel sql-commando's als 'show', 'select' of 'describe' uitvoeren in de database.|,
-		lastUpdated => 1166785182
+	'wiki help label leadin' => {
+		message => q|Voor meer hulp, bezoek de |,
+		lastUpdated => 1190022502
+	},
+
+	'settings groupIdAdminSpectre hoverHelp' => {
+		message => q|Groep die de status van Spectre kan zien.|,
+		lastUpdated => 1190022801
 	},
 
 	'choose an asset' => {
@@ -425,9 +483,9 @@ Let op: elke koppeling met een externe database die je als beheerder maakt, word
 		lastUpdated => 1155889152
 	},
 
-	'manage users in group title' => {
-		message => q|Gebruikers in groep|,
-		lastUpdated => 1156168846
+	'settings groupIdAdminReplacements label' => {
+		message => q|Content Filters|,
+		lastUpdated => 1190022815
 	},
 
 	'943' => {
@@ -475,11 +533,6 @@ Let op: elke koppeling met een externe database die je als beheerder maakt, word
 		lastUpdated => 1156170177
 	},
 
-	'999' => {
-		message => q|Database link, verwijderen|,
-		lastUpdated => 1156171394
-	},
-
 	'61' => {
 		message => q|Vernieuw account informatie|,
 		lastUpdated => 1154091540
@@ -488,11 +541,6 @@ Let op: elke koppeling met een externe database die je als beheerder maakt, word
 	'430' => {
 		message => q|Laatste pagina beeld|,
 		lastUpdated => 1155888548
-	},
-
-	'replacements edit body' => {
-		message => q|<p>Veel assets kunnen HTML en javascript dat door gebruikers is ingevoerd controleren, maar diet is beperkt tot de het bereik van de asset en de inhoud kan hioer niet mee gecontroleerd worden. WebGUI heeft een site-breed systeem (Inhoud filtering) dat dit verzorgt.</p><p>Het lijkt sterk op de Zoek en vervang functie van tekstverwerkers. Eerst moet een string ingevoerd worden, waarnaar gezocht wordt. Daarna moet de vervangende string ingevoerd worden.&nbsp;</p><p>&nbsp;</p><p>Meestal worden hiermee beledigende termen zoals slang, vloeken of rasistische leuzen verwijderd. Het kan ook gebruikt worden voor het voorverwerken van macros in de tekst. Zie voor voorbeelden de standaard vervangingen die meegeleverd zijn met WebGUI.&nbsp;</p><p>Alleen admin gebruikers kunnen de inhoud filtering configureren.&nbsp;</p>|,
-		lastUpdated => 1156167607
 	},
 
 	'379' => {
@@ -510,9 +558,9 @@ Let op: elke koppeling met een externe database die je als beheerder maakt, word
 		lastUpdated => 1153750618
 	},
 
-	'settings help' => {
-		message => q|Instellingen waarmee de standaard waarden van WebGUI&nbsp; aangepast kunnen worden naar persoonlijke wensen. Deze staan hieronder gesorteerd op tabs:|,
-		lastUpdated => 1154097847
+	'deactivateAccount success' => {
+		message => q|Het account %s is gedeactiveerd.|,
+		lastUpdated => 1189453847
 	},
 
 	'452' => {
@@ -530,6 +578,11 @@ Let op: elke koppeling met een externe database die je als beheerder maakt, word
 		lastUpdated => 1154096103
 	},
 
+	'additional parameters' => {
+		message => q|Additionele database parameters|,
+		lastUpdated => 1190023689
+	},
+
 	'480' => {
 		message => q|Email adres|,
 		lastUpdated => 1154076936
@@ -538,6 +591,11 @@ Let op: elke koppeling met een externe database die je als beheerder maakt, word
 	'341' => {
 		message => q|Bewerk profiel|,
 		lastUpdated => 1153753484
+	},
+
+	'invite a friend' => {
+		message => q|Nodig iemand uit.|,
+		lastUpdated => 1189453793
 	},
 
 	'438' => {
@@ -630,6 +688,16 @@ Let op: elke koppeling met een externe database die je als beheerder maakt, word
 		lastUpdated => 1154093964
 	},
 
+	'settings groupIdAdminUser hoverHelp' => {
+		message => q|Group die gebruikers kan beheren. Deze kan gebruikers toevoegen en wijzigen.|,
+		lastUpdated => 1190022696
+	},
+
+	'private message next label' => {
+		message => q|Volgende|,
+		lastUpdated => 1189454178
+	},
+
 	'45' => {
 		message => q|Nee, ik heb een vergissing begaan.|,
 		lastUpdated => 1154076684
@@ -645,11 +713,9 @@ Let op: elke koppeling met een externe database die je als beheerder maakt, word
 		lastUpdated => 1154075626
 	},
 
-	'1002' => {
-		message => q|Wanneer een databaselink verwijderd wordt, werkt geen van de SQL verslagen die met die link werkt. Een lijst met alle betrokken verslagen wordt getoond op het bevestigingsscherm.<br />
-<br />
-Net zoals met alle verwijder-acties, wordt hier gevraagd of er verder gegaan moet worden met het verwijderen. Wanneer er "Ja" geselecteerd wordt, wordt het verwijderen voortgezet en is herstel onmogelijk. Bij het antwoord "nee" zal men teruggaan naar het vorige scherm.|,
-		lastUpdated => 1166785255
+	'settings groupIdAdminProductManager hoverHelp' => {
+		message => q|Groep die producten kan beheren|,
+		lastUpdated => 1190022903
 	},
 
 	'866 description' => {
@@ -747,6 +813,11 @@ Net zoals met alle verwijder-acties, wordt hier gevraagd of er verder gegaan moe
 		lastUpdated => 1155889117
 	},
 
+	'settings groupIdAdminProfileSettings hoverHelp' => {
+		message => q|Groep die het gebruikersprofiel kan beheren.|,
+		lastUpdated => 1190022875
+	},
+
 	'Enable Metadata description' => {
 		message => q|Dit zet de metadata tab van assets aan, zodat metadata kan worden ingevoerd en bijgehouden door WebGUI.|,
 		lastUpdated => 1156171359
@@ -757,24 +828,54 @@ Net zoals met alle verwijder-acties, wordt hier gevraagd of er verder gegaan moe
 		lastUpdated => 1154091517
 	},
 
+	'private message message label' => {
+		message => q|Bericht|,
+		lastUpdated => 1189454170
+	},
+
+	'private message no user' => {
+		message => q|Er is geen gebruiker geselecteerd waarnaar het bericht verzonden moet worden.|,
+		lastUpdated => 1189454237
+	},
+
 	'813' => {
 		message => q|Groepen in deze groep|,
 		lastUpdated => 1154095301
 	},
 
+	'settings groupIdAdminGroup label' => {
+		message => q|Groepen|,
+		lastUpdated => 1190023034
+	},
+
 	'head.tags' => {
-		message => q|<p>Tags die automatisch gegenereerd worden, zodat het cache naar behoren functioneerd. Zo kunnen zoekmachines de site beter vinden en ook is het nuttig voor andere automatische functionaliteiten. Dit moet in de &lt;head&gt;&lt;/head&gt; sectie van de stijl staan.</p><p>Het volgende wordt gesuggereerd voor het &lt;title&gt;&lt;/title&gt; gedeelte van de stijl:</p><p>&lt;tmpl_var session.page.title&gt; - &lt;tmpl_var session.setting.companyName&gt;</p><p>Dit specifieke voorbeeld zorgt voor een goede rangschikking in zoekmachines.&nbsp;</p>|,
-		lastUpdated => 1156169818
+		message => q|Tags die automatisch gegenereerd worden. Deze tags zorgen ervoor dat 
+<ul><li>de cache naar behoren functioneert</li>
+<li>zoekmachines de site beter vinden</li>
+<li>en andere automatische functionaliteiten</li></ul>
+Dit moet in de <head></head> sectie van de stijl staan.
+
+Het volgende wordt aangeraden voor het <title></title> gedeelte van de stijl:
+
+^PageTitle(); - ^c();
+
+Dit specifieke voorbeeld zorgt voor een goede vindbaarheid in zoekmachines.|,
+		lastUpdated => 1190023420
 	},
 
 	'42' => {
-		message => q|Altublieft bevestigen|,
+		message => q|Alstublieft bevestigen|,
 		lastUpdated => 1154075980
 	},
 
 	'link in new window' => {
 		message => q|Link openen in nieuw venster|,
 		lastUpdated => 1156169413
+	},
+
+	'settings groupIdAdminHelp hoverHelp' => {
+		message => q|Groep die de help kan zien|,
+		lastUpdated => 1190022984
 	},
 
 	'1005 description' => {
@@ -815,9 +916,19 @@ Deze groep zou dan "Werknemers in HMO 1" genoemd kunnen worden en zou je de moge
 		lastUpdated => 1154095341
 	},
 
+	'Enable user invitations description' => {
+		message => q|Maak het mogelijk voor gebruikers om email te sturen naar hun vrienden en bekenden, om ze uit te nodigen om een account aan te maken op deze site.|,
+		lastUpdated => 1189453779
+	},
+
 	'456' => {
 		message => q|Terug naar lijst van gebruikers|,
 		lastUpdated => 1154076821
+	},
+
+	'private message status unread' => {
+		message => q|Ongelezen|,
+		lastUpdated => 1189454770
 	},
 
 	'1051 description' => {
@@ -850,9 +961,9 @@ Deze groep zou dan "Werknemers in HMO 1" genoemd kunnen worden en zou je de moge
 		lastUpdated => 1166637218
 	},
 
-	'webgui tips title' => {
-		message => q|WebGUI tips|,
-		lastUpdated => 1154097499
+	'permissions' => {
+		message => q|Rechten|,
+		lastUpdated => 1190023731
 	},
 
 	'photo' => {
@@ -885,6 +996,11 @@ Deze groep zou dan "Werknemers in HMO 1" genoemd kunnen worden en zou je de moge
 		lastUpdated => 1153753306
 	},
 
+	'allow private messages label' => {
+		message => q|Kunnen gebruikers elkaar priveberichten sturen?|,
+		lastUpdated => 1189453815
+	},
+
 	'noldaplink' => {
 		message => q|Er is geen LDAP verbinding|,
 		lastUpdated => 1156168830
@@ -903,6 +1019,11 @@ Deze groep zou dan "Werknemers in HMO 1" genoemd kunnen worden en zou je de moge
 	'default version tag workflow help' => {
 		message => q|Welke workflow moet standaard gebruikt worden wanneer gebruikers hun eigen versie tags maken? |,
 		lastUpdated => 1156170239
+	},
+
+	'settings groupIdAdminWorkflowRun hoverHelp' => {
+		message => q|De groep die workflows mag draaien vanuit de admin console|,
+		lastUpdated => 1190022544
 	},
 
 	'125 description' => {
@@ -925,15 +1046,6 @@ Deze groep zou dan "Werknemers in HMO 1" genoemd kunnen worden en zou je de moge
 		lastUpdated => 1154094718
 	},
 
-	'content filter body' => {
-		message => q|WebGUI heeft vele functionaliteiten voor het accepteren van inhoud van buiten, zoals gebruikers die op berichtenborden kunnen schrijven of data die van externe websites gehaald wordt via bijvoorbeeld HttpProxy of syndicated content assets. Dit brengt ook een risico voor de site met zich mee.<br />
-<br />
-Om dit probleem op te lossen hebbenveel assets een <strong>^International("418","WebGUI");</strong> eigenschap die op verschillende niveaux inhoud filtert. Deze leggen zichzelf uit:<br />
-<br />
-<dl><dt>^International("420","WebGUI");</dt><dd>Geen filtering. Alle originele inhoud wordt getoond.</dd><dt>^International("891","WebGUI");</dt><dd>Negeert WebGUI macros. In plaats van het tonen van de uitvoer van het macro, wordt het macro zelf getoond.</dd><dt>^International("526","WebGUI");</dt><dd>Negeert WebGUI macros Verwijdert de inhoud van <script> tags en verwijdert Javascript velden uit HTML tags.</dd><dt>^International("421","WebGUI");</dt><dd>Verwijderd alles behalve tags voor dikgedrukt, schuin, afbreken van regels enz. </dd><dt>^International("419","WebGUI");</dt><dd>Haalt zoveel mogelijk weg en levert simpele, oude veilige tekst.</dd></dl>|,
-		lastUpdated => 1166636301
-	},
-
 	'1011' => {
 		message => q|Code|,
 		lastUpdated => 1153750539
@@ -954,9 +1066,9 @@ Om dit probleem op te lossen hebbenveel assets een <strong>^International("418",
 		lastUpdated => 1154090798
 	},
 
-	'grouping edit title' => {
-		message => q|Groepvorming, bewerken|,
-		lastUpdated => 1156169936
+	'settings groupIdAdminUserAdd label' => {
+		message => q|Gebruikers (alleen toevoegen)|,
+		lastUpdated => 1190022620
 	},
 
 	'369 description' => {
@@ -999,9 +1111,19 @@ Om dit probleem op te lossen hebbenveel assets een <strong>^International("418",
 		lastUpdated => 1153753595
 	},
 
+	'private message no self error' => {
+		message => q|Het is niet mogelijk om berichten naar jezelf te sturen.|,
+		lastUpdated => 1189454205
+	},
+
 	'983' => {
 		message => q|Bewerk deze database link.|,
 		lastUpdated => 1156172062
+	},
+
+	'settings groupIdAdminVersionTag label' => {
+		message => q|Versie tags|,
+		lastUpdated => 1190022590
 	},
 
 	'138' => {
@@ -1032,11 +1154,6 @@ Om dit probleem op te lossen hebbenveel assets een <strong>^International("418",
 	'432' => {
 		message => q|Verloopt|,
 		lastUpdated => 1154076147
-	},
-
-	'1074' => {
-		message => q|Stijl sjablonen zijn een speciaal type sjabloon binnen WebGUI. Zij zorgen ervoor dat de inhoud gescheiden blijft van de layout van de site. De volgende variabelen zijn beschikbaar in stijl sjablonen: |,
-		lastUpdated => 1153750959
 	},
 
 	'860' => {
@@ -1079,62 +1196,29 @@ Om dit probleem op te lossen hebbenveel assets een <strong>^International("418",
 		lastUpdated => 1154095759
 	},
 
-	'grouping edit body' => {
-		message => q|Hier kan ingesteld worden hoe lang een gebruiker tot een groep behoort of een gebruiker tot groep beheerder te benoemen.|,
-		lastUpdated => 1156169998
-	},
-
 	'69' => {
 		message => q|Neem contact op met de systeembeheerder voor assistentie.|,
 		lastUpdated => 1154092328
 	},
 
-	'glossary body' => {
-		message => q|<strong>Assets</strong><br />
-<br />
-Alles binnen WebGUI is een asset: bestanden, afbeeldingen, fora, draden in fora, berichten in draden, sjablonen, wobjecten (zoals artikelen, dataforms, evenementenkalenders enz.) en meer.<br />
-<br />
-<strong>captcha</strong><br />
-<br />
-Een afbeelding die een bericht toont met lijnen en schaduw, zodat het moeilijk wordt voor een computer om karakters te herkennen. Dit wordt door WebGUI gebruikt voor het voorkomen dat programma's automatisch een login kunnen aanmaken. <br />
-<br />
-<strong>Afgesloten</strong><br />
-<br />
-Wanneer posts of draden afgesloten zijn, kunnen geen berichten worden toegevoegd of bewerkt.<br />
-<br />
-<strong>Macros</strong><br />
-<br />
-Met macros kan dynamisache inhoud gemaakt worden binnen inhoud die anders onveranderlijk zou zijn. Bijvoorbeeld het tonen van de datum of de naam van de gebruiker kan gedaan worden met macros.<br />
-<br />
-<strong>Wachtwoorden</strong><br />
-<br />
-De geldigheid van een wachtwoord in WebGUI hangt of van het type authenticatie systeem dat gebruikt wordt. Dit is standaard ingesteld op de WebGUI authenticatie. Hierin kunnen alle karakters worden gebruikt zolang ze voldoen aan de lengte (hoeveelheid karakters) die door de beheerder is ingesteld.<br />
-<br />
-<strong>Bij voorkeur bovenaan (sticky)</strong><br />
-<br />
-Wanneer posts of draden ingesteld staan op "bij voorkeur bovenaan" (make sticky), zullen ze bovenaan de lijst in een forum verschijnen.<br />
-<br />
-<strong>Niveau gebruikers interface (UI level)</strong><br />
-<br />
-De asset en wobject bewerkings schermen kunnen voor WebGUI inhoud beheerders en beheerders geconfigureerd worden zodat ze makkelijker te gebruiken zijn. Dit wordt gebaseerd op het niveau van ge gebruikers interface. Het niveau kan door  beheerders worden aangepast in het gebruikersprofiel. Gebruikers in de admin groep hebben automatisch een niveau van 9, zodat ze volledige toegang hebben tot alle mogelijkheden van de site.<br />
-<br />
-<strong>Gebruikersnamen</strong><br />
-<br />
-WebGUI gebruikersnamen kunnen niet beginnen met "lege" karakters (spaties, tabs, enz.) en kunnen alleen van letters, cijfers, strepen, lage strepen, punten, komma's of apenstaarten.<br />
-<br />
-<strong>Versie tag</strong><br />
-<br />
-Elke versie in WebGUI krijgt een versie tag toegewezen. In de standaard versie controle instelling is de tag de datum en tijd waarop de tag is gemaakt.<br />
-<br />
-<strong>Wobjecten</strong><br />
-<br />
-Als assets dingen binnen WebGUI zijn, zijn wobjecten dingen die iets doen. Artikelen worden gebruikt voor het weergeven van inhoud, dataforms verzamelen data van gebruikers (en sturen eventueel een kopie per email) en berichtenborden zijn fora voor gebruikers. Er zijn veel verschillende wobjecten in WebGUI.|,
-		lastUpdated => 1166636601
-	},
-
 	'removeLabel' => {
 		message => q|verwijder|,
 		lastUpdated => 1156950388
+	},
+
+	'private message status read' => {
+		message => q|Gelezen|,
+		lastUpdated => 1189454556
+	},
+
+	'settings groupIdAdminStatistics hoverHelp' => {
+		message => q|Groep om statistieken te bekijken|,
+		lastUpdated => 1190022772
+	},
+
+	'settings groupIdAdminSubscription label' => {
+		message => q|Abonnementen|,
+		lastUpdated => 1190022735
 	},
 
 	'756' => {
@@ -1155,6 +1239,16 @@ Als assets dingen binnen WebGUI zijn, zijn wobjecten dingen die iets doen. Artik
 	'559 description' => {
 		message => q|Als hier een workflow is gekozen, wordt deze uitgevoerd, iedere keer dat een gebruiker zich anoniem registreert.|,
 		lastUpdated => 1155889574
+	},
+
+	'view inbox message template description' => {
+		message => q|Kies een template om berichten in de inbox weer te geven.|,
+		lastUpdated => 1189454524
+	},
+
+	'run on admin update user help' => {
+		message => q|Draaien wanneer een admin gebruikersgegevens wijzigt.|,
+		lastUpdated => 1190023449
 	},
 
 	'352' => {
@@ -1190,11 +1284,6 @@ Als assets dingen binnen WebGUI zijn, zijn wobjecten dingen die iets doen. Artik
 	'369' => {
 		message => q|Verloop datum|,
 		lastUpdated => 1154074755
-	},
-
-	'961' => {
-		message => q|<p>De prullenmand is een aparte lokatie in het systeem waar verwijderde inhoud tijdelijk wordt opgeslagen. Objecten in de prullenmand kunnen verplaatst worden naar het klembord of op hun oude lokatie worden hersteld.</p><p><strong>Titel</strong></p><p>De naam van het object in de prullenmand. Het object kan bekeken worden door de titel te selecteren.</p><p><strong>Type</strong></p><p>Het type inhoud, bijvoorbeeld een pagina, artikel, evenementenkalender enz.</p><p><strong>Laatst vernieuwd</strong></p><p>De datum en tijd waarop het object aan de prullenmand is toegevoegd.</p><p><strong>Grootte</strong></p><p>De grootte van de asset</p><p>Let erop dat wanneer assets in de prullenmand zitten, hun URL&#39;s nog steeds actief zijn binnen het WebGUI systeem. Als een pagina met eenzelfde URL wordt gemaakt, wordt het URL van de nieuwe pagina aangepast, zodat deze uniek is.</p><p>Het is niet langer mogelijk objecten handmatig uit de prullenmand te verwijderen in verband met versies. Objecten in de prullenmand worden automatisch verwijderd uit het systeem na de ingestelde tijd. Deze periode wordt ingesteld in het configuratiebestand, TrashExpiredContent_offset.</p><p>Om een asset echt uit het systeem te verwijderen kunnen alle uitgaves teruggedraaid worden onder de kop &quot;Inhoud versies&quot;.&nbsp;</p>|,
-		lastUpdated => 1156498281
 	},
 
 	'483' => {
@@ -1237,11 +1326,6 @@ Als assets dingen binnen WebGUI zijn, zijn wobjecten dingen die iets doen. Artik
 		lastUpdated => 1156170382
 	},
 
-	'660' => {
-		message => q|Groepen, beheren|,
-		lastUpdated => 1154092188
-	},
-
 	'428' => {
 		message => q|Gebruiker (identificatie)|,
 		lastUpdated => 1154076086
@@ -1260,6 +1344,11 @@ Als assets dingen binnen WebGUI zijn, zijn wobjecten dingen die iets doen. Artik
 	'99' => {
 		message => q|Titel|,
 		lastUpdated => 1156172221
+	},
+
+	'settings groupIdAdminLDAPLink label' => {
+		message => q|LDAP|,
+		lastUpdated => 1190022944
 	},
 
 	'526' => {
@@ -1322,9 +1411,9 @@ Als assets dingen binnen WebGUI zijn, zijn wobjecten dingen die iets doen. Artik
 		lastUpdated => 1153751114
 	},
 
-	'1001' => {
-		message => q|De database link is opgebouwd uit de volgende velden:|,
-		lastUpdated => 1153750193
+	'send private message' => {
+		message => q|Verzend bericht|,
+		lastUpdated => 1189454219
 	},
 
 	'556' => {
@@ -1352,6 +1441,11 @@ Als assets dingen binnen WebGUI zijn, zijn wobjecten dingen die iets doen. Artik
 		lastUpdated => 1154095331
 	},
 
+	'skip commit comments help' => {
+		message => q|Wilt u de mogelijkheid krijgen commentaar toe te voegen bij publicatie van wijzigingen?|,
+		lastUpdated => 1189454387
+	},
+
 	'142' => {
 		message => q|Sessie timeout|,
 		lastUpdated => 1155886575
@@ -1372,6 +1466,11 @@ Als assets dingen binnen WebGUI zijn, zijn wobjecten dingen die iets doen. Artik
 		lastUpdated => 1153752041
 	},
 
+	'settings groupIdAdminTransactionLog label' => {
+		message => q|Transacties|,
+		lastUpdated => 1190022707
+	},
+
 	'help index' => {
 		message => q|Index|,
 		lastUpdated => 1156169834
@@ -1385,44 +1484,6 @@ Als assets dingen binnen WebGUI zijn, zijn wobjecten dingen die iets doen. Artik
 	'360' => {
 		message => q|&Eacute;&eacute;n boven drie|,
 		lastUpdated => 1155887539
-	},
-
-	'610' => {
-		message => q|Bekijk "Beheer gebruikers" voor meer informatie.
-<br /><br />
-<b>Gebruikersnaam</b><br />
-De gebruikersnaam is uniek. Dit is tevens de naam waarmee de gebruiker op de site bekend is. Administrators hebben alle rechten binnen WebGUI. Hierdoor zijn ze ook in staat om gebruikersnamen te wijzigen. Let daarom op dat bij het wijzigen of aanmaken van een gebruiker dat deze uniek is.
-<br />
-<br />
-<b>Authenticatie Methode</b><br />
-Zie "Wijzig instellingen" voor meer informatie.
-<br />
-<br />
-<b>Wachtwoord</b> *W<br />
-Een wachtwoord wordt gebruikt om zeker te weten dat de gebruiker is wie zegt dat hij/zij is.
-<br />
-<br />
-<b>Wachtwoord Timeout<b/> *W<br />
-De periode tot het wachtwoord van de gebruiker verloopt en door de gebruiker veranderd moet worden.<br />
-<br />
-<b>Gebruiker toestaan om de gebruikersnaam te wijzigen?<b/> *W<br />
-Mag de gebruiker zijn gebruikersnaam wijzigen?<br />
-<br />
-<b>Gebruiker toestaan om wachtwoord te wijzigen</b> *W<br />
-Mag de gebruiker zijn wachtwoord wijzigen?<br />
-<br >
-<b>LDAP Connectie</b> *L<br />
-Selecteer &#233;&#233;n van de beschikbare LDAP connecties voor het inloggen van de gebruiker<br />
-<br />
-<b>LDAP URL</b> *L<br />
-Zie "Wijzig instellingen" voor meer informatie.<br />
-<br />
-<b>Connect DN</b> *L<br />
-De Connect DN is de cn (common name, oftewel standaard naam) van een bepaalde gebruiker in de LDAP database. Bijvorbeeld cn=Jan Jansen. Dit is dus de gebruikersnaam in de LDAP database die gebruikt wordt om deze gebruiker in WebGUI te laten inloggen.<br />
-<br />
-*W beschikbaar in de WebGUI authenticatie<br />
-*L beschikbaar in LDAP authenticatie. |,
-		lastUpdated => 1156411712
 	},
 
 	'514' => {
@@ -1445,13 +1506,6 @@ De Connect DN is de cn (common name, oftewel standaard naam) van een bepaalde ge
 		lastUpdated => 1154077074
 	},
 
-	'615' => {
-		message => q|Groepen worden gebruikt om bepaalde rechten te geven binnen WebGUI. Wanneer u bijvoorbeeld een website maakt voor een school. Dan maakt u voor iedere klas een aparte groep. Vervolgens kunt u iedere groep &#233;&#233;n specifieke pagina gegeven met informatie alleen voor die klas.<br />
-<br />
-De pagina geeft alle groepen weer die u mag wijzigen. u kunt tevens de groepen binnen de groep bekijken. De zoekfunctie gebruikt SQL functies zoals '%' in plaats van de gebruikelijke zoekfuncties gebruikt door zoekmachines.|,
-		lastUpdated => 1156412752
-	},
-
 	'50' => {
 		message => q|Gebruikersnaam|,
 		lastUpdated => 1154077061
@@ -1465,11 +1519,6 @@ De pagina geeft alle groepen weer die u mag wijzigen. u kunt tevens de groepen b
 	'885 description' => {
 		message => q|Is het gewenst dat gebruikers de middelen hebben waarmee ze hunb account kunnen deactiveren zonder uw tussenkomst?|,
 		lastUpdated => 1154097066
-	},
-
-	'969' => {
-		message => q|Als ervoor gekozen wordt het klembord te legen, worden alle objecten die erin zitten naar de prullenmand verplaatst.|,
-		lastUpdated => 1156171669
 	},
 
 	'radio' => {
@@ -1497,11 +1546,6 @@ De pagina geeft alle groepen weer die u mag wijzigen. u kunt tevens de groepen b
 		lastUpdated => 1154076578
 	},
 
-	'658' => {
-		message => q|Gebruikers, beheren|,
-		lastUpdated => 1154092158
-	},
-
 	'967' => {
 		message => q|Leeg systeem prullenmand|,
 		lastUpdated => 1156171536
@@ -1510,6 +1554,11 @@ De pagina geeft alle groepen weer die u mag wijzigen. u kunt tevens de groepen b
 	'322' => {
 		message => q|Pieper|,
 		lastUpdated => 1153753206
+	},
+
+	'settings groupIdAdminCommerce hoverHelp' => {
+		message => q|Groep die de Webwinkel instellingen kan beheren|,
+		lastUpdated => 1190023199
 	},
 
 	'164 description' => {
@@ -1566,14 +1615,14 @@ Afhankelijk van welke authenticatie modules geïnstalleerd zijn in het systeem, 
 		lastUpdated => 1156169457
 	},
 
+	'settings groupIdAdminLDAPLink hoverHelp' => {
+		message => q|Groep die LDAP links kan beheren|,
+		lastUpdated => 1190022957
+	},
+
 	'699' => {
 		message => q|Eerste dag van de week|,
 		lastUpdated => 1154092805
-	},
-
-	'960' => {
-		message => q|Prullenbak, beheren|,
-		lastUpdated => 1154097467
 	},
 
 	'cancel' => {
@@ -1584,6 +1633,11 @@ Afhankelijk van welke authenticatie modules geïnstalleerd zijn in het systeem, 
 	'818' => {
 		message => q|Gedeactiveerd|,
 		lastUpdated => 1154095364
+	},
+
+	'user email template' => {
+		message => q|Template Nodig iemand uit|,
+		lastUpdated => 1189454406
 	},
 
 	'130' => {
@@ -1606,14 +1660,14 @@ Afhankelijk van welke authenticatie modules geïnstalleerd zijn in het systeem, 
 		lastUpdated => 1156171712
 	},
 
-	'manage groups in group body' => {
-		message => q|<p>Met dit formulier kunnen groepen worden toegevoegd aan of verwijderd van deze groep. Als dit met verscheidene groepen wordt gedaan, kan hiermee een hierarchie van groepen gemaakt worden (als in een soort boomstructuur) met ouder groepen en kinder groepen. De privileges van ouder groepen worden overgenomen door de kinder groepen.</p><p>WebGUI voorkomt het maken van cirkulaire structuren, die een oneindige kring zouden kunnen maken bij het afdalen in de groepenstructuur.&nbsp;</p>|,
-		lastUpdated => 1156169104
-	},
-
 	'354' => {
 		message => q|Bekijk inbox|,
 		lastUpdated => 1154074576
+	},
+
+	'private message sent' => {
+		message => q|Het bericht is verzonden.|,
+		lastUpdated => 1189454301
 	},
 
 	'461' => {
@@ -1621,24 +1675,29 @@ Afhankelijk van welke authenticatie modules geïnstalleerd zijn in het systeem, 
 		lastUpdated => 1154076853
 	},
 
-	'583' => {
-		message => q|Maximale grootte afbeelding|,
-		lastUpdated => 1154091303
-	},
-
 	'debug ip description' => {
 		message => q|Dit beperkt de uitvoer van debugging tot een spicifiek IP adres of IP bereik. Kies het subnet dat debugging in CIDR formaat kan bekijken. Bijvoorbeeld: 10.0.0.0/24. Meer CIDR adressen kunnen opgegeven worden, deze dienen gescheiden te worden door komma's.|,
 		lastUpdated => 1166636313
 	},
 
-	'951' => {
-		message => q|Weet u zeker dat u het klembord wilt legen in de prullenmand?|,
-		lastUpdated => 1156171919
+	'583' => {
+		message => q|Maximale grootte afbeelding|,
+		lastUpdated => 1154091303
+	},
+
+	'settings groupIdAdminGraphics hoverHelp' => {
+		message => q|Groep die fonts en palletten kan beheren|,
+		lastUpdated => 1190023086
 	},
 
 	'show performance indicators' => {
 		message => q|Prestatie indicatoren tonen?|,
 		lastUpdated => 1155908281
+	},
+
+	'951' => {
+		message => q|Weet u zeker dat u het klembord wilt legen in de prullenmand?|,
+		lastUpdated => 1156171919
 	},
 
 	'85' => {
@@ -1669,11 +1728,6 @@ Afhankelijk van welke authenticatie modules geïnstalleerd zijn in het systeem, 
 	'packages' => {
 		message => q|Pakketten|,
 		lastUpdated => 1155907695
-	},
-
-	'leftovers from settings stored for later' => {
-		message => q|<h2>WebGUI Authenticatie Opties</h2>    <p><strong>Minimale wachtwoordlengte</strong><br /> Stel de minimumlengte in, die wachtwoorden kunnen hebben. Indien 0, is er geen minimumlengte.</p><p><strong>Wachtwoord time-out</strong><br /> Stel in hoe lang het duurt voordat het wachtwoord van een gebruiker verloopt en hij het moet veranderen. </p>  <p><strong>Wachtwoord laten verlopen op initiatief van de gebruiker?</strong><br />Moet het wachtwoord van een gebruiker verlopen als hij wordt gemaakt door een beheerder die een verandering forceert? </p>  <p><strong>Stuur welkomstboodschap?</strong><br /> Wilt u WebGUI gebruikers automatisch een welkomstboodschap laten sturen, als zij zich inschrijven voor uw site?  </p>  <p><strong>LET OP:</strong> In aanvulling op de boodschap die u hieronder specificeert, zal de account-informatie van de gebruiker worden ingesloten in de boodschap. </p>  <p><strong>W</strong><strong>elkomstboodschap</strong> <br /> Type de boodschap die u wilt sturen naar gebruikers bij registratie.&nbsp; </p>  <p><strong>Gebruikers hun gebruikersnaam laten veranderen?</strong><br />Moeten gebruikers hun gebruikersnamen kunnen veranderen? </p>  <p><strong>Gebruikers wachtwoorden laten veranderen?</strong><br />Moeten gebruikers hun wachtwoord kunnen veranderen? </p>  <p><strong>Wachtwoord terughalen toestaan?</strong><br />Moeten gebruikers hun wachtwoorden kunnen terughalen? </p>  <p><strong>Wachtwoord terughalen-boodschap</strong><br /> Type een boodschap die zal worden gestuurd naar gebruikers als zij hun WebGUI-wachtwoord willen terughalen. </p>  <p><strong>Valideer e-mailadressen</strong><br /> Alvorens een gebruikers-account wordt geactiveerd, is vereist dat zij klikken op een link die naar hun e-mailaccount is gestuurd. </p>  <p><strong>Gebruik captcha-beeld</strong><br />Vereist dat de gebruiker de data van een captcha-beeld invoert, voordat hij een account activeert.&nbsp; </p>  <p><strong>Account-sjabloon</strong><br />Sjabloon te gebruiken om een gebruikers-account weer te geven.&nbsp; </p>  <p><strong>Maak </strong><strong>account-sjabloon</strong><br />Sjabloon te gebruiken om het formulier te laten zien waarmee u een account maakt. </p>  <p><strong>Verlopen wachtwoord-sjabloon</strong><br /> Sjabloon te gebruiken om de gebruiker te informeren dat zijn wachtwoord verlopen is.&nbsp; </p>  <strong>Login-sjabloon</strong><br />Sjabloon te gebruiken om login-informatie aan een gebruiker te laten zien als een operatie, in tegenstelling tot binnen een pagina via een macro. <p>&nbsp;</p><p><strong>Wachtwoord terughalen-sjabloon</strong><br />Sjabloon, gebruikt om een formulier weer te geven aan de gebruiker om hun wachtwoord terug te halen, als de eigenschap is ingeschakeld.&nbsp; </p>  <h2>LDAP Authenticatie Opties</h2>  <p><strong>LDAP-verbinding</strong><br />Kies welke van de geconfigureerde LDAP-verbindingen worden gebruikt om gebruikers authentiek te verklaren. </p>|,
-		lastUpdated => 1156462440
 	},
 
 	'745' => {
@@ -1711,13 +1765,9 @@ Afhankelijk van welke authenticatie modules geïnstalleerd zijn in het systeem, 
 		lastUpdated => 1154091138
 	},
 
-	'620' => {
-		message => q|Met deze functie verwijder je een groep. Gebruikers in die groep worden verwijderd uit deze groep, maar de gebruikers zelf worden niet verwijderd. 
-
-Elk object (asset) dat deze groep gebruikte verliest de privileges die bij deze groep hoorden. Hierdoor kunnen gebruikers bepaalde pagina's wellicht niet meer zien als de verwijderde groep nog in gebruik was.
-
-Zoals bij elke verwijderactie krijgt u de vraag of u het zeker weet. Als u ja selecteert dan wordt de groep verwijderd en kunt u deze actie niet meer ongedaan maken. Als u nee selecteert dan keert u terug naar het vorige scherm.|,
-		lastUpdated => 1181335661
+	'private message status replied' => {
+		message => q|Beantwoord|,
+		lastUpdated => 1189454732
 	},
 
 	'977 description' => {
@@ -1753,6 +1803,11 @@ Zoals bij elke verwijderactie krijgt u de vraag of u het zeker weet. Als u ja se
 	'1069' => {
 		message => q|Te gebruiken host|,
 		lastUpdated => 1153750780
+	},
+
+	'user email template description' => {
+		message => q|Het template dat gebruikt wordt om de uitnodigingsemail samen te stellen.|,
+		lastUpdated => 1189454434
 	},
 
 	'57' => {
@@ -1820,6 +1875,14 @@ Zoals bij elke verwijderactie krijgt u de vraag of u het zeker weet. Als u ja se
 		lastUpdated => 1154075422
 	},
 
+	'additional parameters help' => {
+		message => q|Specificeer additionele parameters voor de verbinding met de externe database. Gebruik een regel voor elke parameter, voorbeeld:
+
+LongReadLen=1024
+LongTruncOk=1|,
+		lastUpdated => 1190023675
+	},
+
 	'89' => {
 		message => q|Groepen|,
 		lastUpdated => 1154097108
@@ -1840,6 +1903,11 @@ Zoals bij elke verwijderactie krijgt u de vraag of u het zeker weet. Als u ja se
 		lastUpdated => 1156172206
 	},
 
+	'private message title' => {
+		message => q|Verstuur bericht|,
+		lastUpdated => 1189454801
+	},
+
 	'35' => {
 		message => q|Administratieve functie|,
 		lastUpdated => 1153753616
@@ -1850,14 +1918,14 @@ Zoals bij elke verwijderactie krijgt u de vraag of u het zeker weet. Als u ja se
 		lastUpdated => 1155886558
 	},
 
+	'settings groupIdAdminDatabaseLink label' => {
+		message => q|Database link|,
+		lastUpdated => 1190023096
+	},
+
 	'347' => {
 		message => q|Bekijk profiel van|,
 		lastUpdated => 1153753570
-	},
-
-	'665' => {
-		message => q|Groep, verwijderen|,
-		lastUpdated => 1154092220
 	},
 
 	'pagination.url' => {
@@ -1925,6 +1993,11 @@ Zoals bij elke verwijderactie krijgt u de vraag of u het zeker weet. Als u ja se
 		lastUpdated => 1154094105
 	},
 
+	'settings groupIdAdminGroup hoverHelp' => {
+		message => q|Groep om alle groepen te beheren|,
+		lastUpdated => 1190023051
+	},
+
 	'67' => {
 		message => q|Maak een nieuwe account aan|,
 		lastUpdated => 1154092263
@@ -1960,6 +2033,16 @@ Zoals bij elke verwijderactie krijgt u de vraag of u het zeker weet. Als u ja se
 		lastUpdated => 1154097569
 	},
 
+	'settings groupIdAdminWorkflow label' => {
+		message => q|Workflow|,
+		lastUpdated => 1190022557
+	},
+
+	'settings groupIdAdminGroupAdmin label' => {
+		message => q|Groepen (beperkt)|,
+		lastUpdated => 1190023001
+	},
+
 	'732' => {
 		message => q|3 rekruut|,
 		lastUpdated => 1154094498
@@ -1980,20 +2063,9 @@ Zoals bij elke verwijderactie krijgt u de vraag of u het zeker weet. Als u ja se
 		lastUpdated => 1156499131
 	},
 
-	'957' => {
-		message => q|Klembord, beheren|,
-		lastUpdated => 1154097437
-	},
-
-	'622' => {
-		message => q|Hier kan een nieuwe groep gedefiniëerd worden of een bestaande groep bewerkt. Het lidmaatschap van een groep is erg flexibel en wordt gecontroleerd met één of meer van de volgende functies en eigenschappen:
-
-<ul><li>Voeg gebruikers direct toe aan een groep</li><li>Via lidmaatschap van een LDAP groep</li><li>Met een database zoekopdracht</li><li>Via een IP adres</li></ul>
-
-Groepen kunnen ook zo ingesteld worden dat gebruikers zichzelf kunnen toevoegen of verwijderen van de groep. Het is niet aanbevolen dat gebruikers zichzelf kunnen toevoegen aan standaard WebGUI groepen zoals beheerders of inhoud beheerders. 
-
-Er kunnen geen eigen profielvelden worden toegevoegd aan groepen. Mocht je eigen profielvelden willen toevoegen, dan kunnen deze aan elke gebruiker worden toegevoegd via Gebruikers Profielen in het Admin Menu.|,
-		lastUpdated => 1181336005
+	'allow access from macros' => {
+		message => q|Toegang toestaan voor macro's?|,
+		lastUpdated => 1190023602
 	},
 
 	'361' => {
@@ -2096,6 +2168,11 @@ Er kunnen geen eigen profielvelden worden toegevoegd aan groepen. Mocht je eigen
 		lastUpdated => 1156168809
 	},
 
+	'settings groupIdAdminLoginHistory label' => {
+		message => q|Login historie|,
+		lastUpdated => 1190022917
+	},
+
 	'355' => {
 		message => q|Standaard|,
 		lastUpdated => 1154074585
@@ -2121,6 +2198,11 @@ Er kunnen geen eigen profielvelden worden toegevoegd aan groepen. Mocht je eigen
 		lastUpdated => 1154093161
 	},
 
+	'private message blocked error' => {
+		message => q|Deze gebruiker wil geen berichten.|,
+		lastUpdated => 1189453918
+	},
+
 	'326' => {
 		message => q|Postcode huis|,
 		lastUpdated => 1153753255
@@ -2141,11 +2223,6 @@ Er kunnen geen eigen profielvelden worden toegevoegd aan groepen. Mocht je eigen
 		lastUpdated => 1154077750
 	},
 
-	'681' => {
-		message => q|Pakketten, gebruik|,
-		lastUpdated => 1154092288
-	},
-
 	'1017' => {
 		message => q|Laatste antwoord|,
 		lastUpdated => 1153750554
@@ -2161,14 +2238,14 @@ Er kunnen geen eigen profielvelden worden toegevoegd aan groepen. Mocht je eigen
 		lastUpdated => 1153753463
 	},
 
+	'private message from label' => {
+		message => q|Van|,
+		lastUpdated => 1189454163
+	},
+
 	'1029' => {
 		message => q|Bewerkt op|,
 		lastUpdated => 1153750601
-	},
-
-	'698' => {
-		message => q|<p>Karma is een methode waarmee de activiteit van de gebruikers bijgehouden kan worden. Mogelijk kunnen ze beloond of bestraft worden voor hun activiteit. Wanneer karma is aangezet, zal opvallen dat veel menus in WebGUI veranderen om de karma weer te geven.</p><p>Er kan bijgehouden worden of gebruikers inloggen en hoeveel ze bijdragen aan de site. Gebruikers kunnen toegang krijgen tot extra functies als ze genoeg karma hebben.</p><p>Meer informatie over karma is te vinden in <a href="http://www.plainblack.com/ruling_webgui">Ruling WebGUI</a>.&nbsp;</p>|,
-		lastUpdated => 1154092789
 	},
 
 	'538' => {
@@ -2201,6 +2278,11 @@ Er kunnen geen eigen profielvelden worden toegevoegd aan groepen. Mocht je eigen
 		lastUpdated => 1154077705
 	},
 
+	'allow access from macros help' => {
+		message => q|Is het macro's toegestaan deze externe database te benaderen?|,
+		lastUpdated => 1190023573
+	},
+
 	'hex slider' => {
 		message => q|Hex slider|,
 		lastUpdated => 1156414603
@@ -2214,6 +2296,16 @@ Er kunnen geen eigen profielvelden worden toegevoegd aan groepen. Mocht je eigen
 	'433' => {
 		message => q|User agent|,
 		lastUpdated => 1155889217
+	},
+
+	'settings groupIdAdminWorkflow hoverHelp' => {
+		message => q|Group die workflows kan beheren|,
+		lastUpdated => 1190022574
+	},
+
+	'settings groupIdAdminLoginHistory hoverHelp' => {
+		message => q|Groep die de login historie kan inzien|,
+		lastUpdated => 1190022931
 	},
 
 	'pagination.previousPageUrl' => {
@@ -2301,16 +2393,19 @@ Er kunnen geen eigen profielvelden worden toegevoegd aan groepen. Mocht je eigen
 		lastUpdated => 1154097910
 	},
 
+	'editSettings done' => {
+		message => q|Instellingen bewaard!|,
+		lastUpdated => 1190023548
+	},
+
 	'118 description' => {
 		message => q|Is het gewenst dat bezoekers van de site zichzelf kunnen registreren? |,
 		lastUpdated => 1155886267
 	},
 
-	'612' => {
-		message => q|Het verwijderen van een gebruiker is niet nodig. Om ervoor te zorgen dat een gebruiker niet kan inloogen kunt u het beste het wachtwoord van de gebruiker wijzigen. Als u echt een gebruiker wilt verwijderen dan heeft dit een aantal consequenties. Zo blijft alle ingevulde data van de gebruiker in bijvoorbeeld het collaboration systeem bestaan. Echter wanneer een gebruiker op het profiel klikt van de gebruiker dan krijgt deze een foutmelding. Mocht de verwijderde gebruiker uiteindelijk toch weer toegang willen dan is de enige optie de gebruiker handmatig toe te voegen aan de tabel "users" in de desbetreffende WebGUI database.<br />
-<br />
-Zoals bij alle verwijderacties krijgt u de vraag of u het zeker weet. Als u ja selecteert dan wordt de gebruiker verwijdert en kunt u dit niet meer ongedaan maken. Selecteert u nee dan keert u terug naar het vorige scherm.|,
-		lastUpdated => 1156412254
+	'settings groupIdAdminAdSpace hoverHelp' => {
+		message => q|Groep die advertenties kan beheren|,
+		lastUpdated => 1190023249
 	},
 
 	'126 description' => {
@@ -2328,14 +2423,14 @@ Zoals bij alle verwijderacties krijgt u de vraag of u het zeker weet. Als u ja s
 		lastUpdated => 1154095510
 	},
 
+	'settings groupIdAdminProductManager label' => {
+		message => q|Producten|,
+		lastUpdated => 1190022886
+	},
+
 	'91' => {
 		message => q|Vorige pagina|,
 		lastUpdated => 1154097213
-	},
-
-	'1086' => {
-		message => q|Veel wobjects hebben eigenschappen waarmee een paginaverdeeld kan worden in meer paginas. Alhoewel sommige wobjects hun eigen variabelen hiervoor hebben gedefinieerd, gebruiken de meesten een algemene set van variabelen voor het afbreken van paginas: |,
-		lastUpdated => 1153751266
 	},
 
 	'701' => {
@@ -2380,6 +2475,11 @@ De verstrekte informatie is niet gelijk aan de accountinformatie. |,
 		lastUpdated => 1154091072
 	},
 
+	'settings groupIdAdminUserAdd hoverHelp' => {
+		message => q|Groep die (alleen) nieuwe gebruikers kan toevoegen|,
+		lastUpdated => 1190022659
+	},
+
 	'trash workflow' => {
 		message => q|Workflow Prullebak|,
 		lastUpdated => 1166637174
@@ -2400,11 +2500,6 @@ De verstrekte informatie is niet gelijk aan de accountinformatie. |,
 		lastUpdated => 1156169374
 	},
 
-	'668' => {
-		message => q|Style sheets, gebruik|,
-		lastUpdated => 1154092248
-	},
-
 	'52' => {
 		message => q|login|,
 		lastUpdated => 1158564580
@@ -2413,11 +2508,6 @@ De verstrekte informatie is niet gelijk aan de accountinformatie. |,
 	'750' => {
 		message => q|Verwijder deze gebruiker.|,
 		lastUpdated => 1154094806
-	},
-
-	'657' => {
-		message => q|Gebruiker, verwijderen|,
-		lastUpdated => 1154092145
 	},
 
 	'229' => {
@@ -2440,8 +2530,13 @@ De verstrekte informatie is niet gelijk aan de accountinformatie. |,
 		lastUpdated => 1154094928
 	},
 
+	'settings groupIdAdminGroupAdmin hoverHelp' => {
+		message => q|Groep die groepen kan beheren waarvan de gebruiker beheerder is. |,
+		lastUpdated => 1190023024
+	},
+
 	'68' => {
-		message => q|De gegevens waarmee u probeerde in te loggen zijn niet correct.&nbsp;&Oacute;f u heeft een niet bestaande gebruikersnaam ingevoerd, &oacute;f het paswoord dat u hebt ingetyped klopt niet. |,
+		message => q|De gegevens waarmee u probeerde in te loggen zijn niet correct.&nbsp;&Oacute;f u heeft een niet bestaande gebruikersnaam ingevoerd, &oacute;f het wachtwoord dat u hebt ingetyped klopt niet. |,
 		lastUpdated => 1152526116
 	},
 
@@ -2500,50 +2595,19 @@ De verstrekte informatie is niet gelijk aan de accountinformatie. |,
 		lastUpdated => 1181337135
 	},
 
+	'settings groupIdAdminCommerce label' => {
+		message => q|Webwinkel|,
+		lastUpdated => 1190023178
+	},
+
 	'ui' => {
 		message => q|UI (gebruikers interface)|,
 		lastUpdated => 1154097618
 	},
 
-	'623' => {
-		message => q|<a href="http://www.w3.org/Style/CSS/">Cascading Style Sheets (CSS)</a> zijn een ideale manier om het design van een website te veranderen. Binnen WebGUI wordt er uitgebreid gebruik gemaakt van CSS.<br />
-<br >
-Als u niet bekend bent met CSS, <a href="http://www.plainblack.com/">Plainblack</a> levert trainingen in XHTML en CSS. Bovendien heeft Bradsoft een zeer uitgebreide CSS editor gemaakt genaamd <a href="http://www.bradsoft.com/topstyle/index.asp">Top Style</a>.<br />
-<br />
-De volgende lijst met stijlen worden gebruikt binnen de standaard layout van WebGUI. Ze kunnen uiteraard gewijzigd worden binnen de verschillende sjablonen waarin de stijlen worden gebruikt.<br />
-<br />
-<b>A</b><br />
-De diverse links op de site.<br />
-<br />
-<b>BODY</b><br />
-De standaard instelling van alle pagina's binnen een stijl.<br />
-<br />
-<b>H1</b><br />
-De koptekst op alle pagina's.<br />
-<br />
-<b>.content</b><br />
-Het gedeelte waar de inhoud van de pagina verschijnt.<br />
-<br />
-<b>.formDescription</b><br />
-De beschrijving van alle elementen binnen een formulier<br />
-<br />
-<b>.formSubtext</b><br />
-De tekst onder sommige elementen binnen een formulier.<br />
-<br />
-<b>.highlight</b>
-Zodra een item actief is wordt dit vaak aangegeven met een kleur. Hiervoor wordt deze stijl gebruikt.<br />
-<br />
-<b>.pagination</b><br />
-The stijl voor de links met Vorige en Volgende bij een Asset met meerdere pagina's.<br />
-<br />
-<b>.tableData</b><br />
-De rijen van een tabel zoals bij een forum.<br />
-<br />
-<b>.tableHeader</b><br />
-De eerste regel binnen een tabel met de omschrijving van de velden.<br />
-<br />
-Let op: Sommige wobjects en macro's hebben een eigen  unieke stijlen. Deze staan gedocumenteerd in de helpfunctie van de desbetreffende wobjects of macro's.|,
-		lastUpdated => 1156413650
+	'run on admin create user help' => {
+		message => q|Draaien wanneer een admin een gebruiker aanmaakt.|,
+		lastUpdated => 1190023488
 	},
 
 	'content filters' => {
@@ -2569,6 +2633,11 @@ Let op: Sommige wobjects en macro's hebben een eigen  unieke stijlen. Deze staan
 	'1085' => {
 		message => q|Sjabloon variabelen voor pagina afbreken|,
 		lastUpdated => 1153751151
+	},
+
+	'Enable user invitations' => {
+		message => q|Kunnen gebruikers andere gebruikers uitnodigen om te registreren?|,
+		lastUpdated => 1189453733
 	},
 
 	'pagination.nextPageUrl' => {
@@ -2616,11 +2685,6 @@ Let op: Sommige wobjects en macro's hebben een eigen  unieke stijlen. Deze staan
 		lastUpdated => 1156168537
 	},
 
-	'997' => {
-		message => q|Database link, beheren|,
-		lastUpdated => 1156171434
-	},
-
 	'36' => {
 		message => q|U moet een beheeder zijn om deze functie uit te kunnen voeren. Neem contact op met een beheerder.|,
 		lastUpdated => 1154074662
@@ -2629,53 +2693,6 @@ Let op: Sommige wobjects en macro's hebben een eigen  unieke stijlen. Deze staan
 	'settings' => {
 		message => q|Instellingen|,
 		lastUpdated => 1154097754
-	},
-
-	'groups default body' => {
-		message => q|Verschillende groepen zijn in WebGUI ingebouwd:<br />
-<br />
-<strong>Beheerders</strong><br />
-<br />
-Beheerders zijn gebruikers met onbeperkte privileges binnen WebGUI. Een gebruiker zou alleen toegevoegd moeten worden aan de beheerders groep als ze overzicht hebben over het systeem. Gewoonlijk zitten er &eacute;&eacute;n tot drie mensen in deze groep. Wanneer een persoon aan deze groep is toegevoegd, wordt het niveau van zijn of haar gebruikers-interface automatisch ingesteld op de maximale waarde van 9.<br />
-<br />
-<strong>Inhoud beheerders</strong><br />
-<br />
-Inhoud beheerders hebben in principe de mogelijkheid tot het toevoegen, bewerken en verwijderen van inhoud op de site. In het ideale geval wordt de inhoud beheer groep niet gebruikt om te bepalen of een gebruiker een specifiek deel van de site mag bewerken. Hiervoor kunt u zelf groepen aanmaken, die vervolgens lid gemaakt worden van de groep inhoud beheerders. Gebruikers die lid zijn deze zelfgemaakte groep zijn dan automatisch ook lid van de groep inhoud beheerder, zonder dat ze direct alle content op de site mogen bewerken.<br />
-<br />
-<strong>Iedereen</strong><br />
-<br />
-Iedereen is een aparte groep waar niemand ooit echt aan toegevoegd wordt, maar iedereen die lid is van de site toe behoort. Wanneer een (gedeelte van) de site open moet staan voor bezoekers en geregistreerde gebruikers kan deze groep daarvoor gebruikt worden.<br />
-<br />
-<strong>Exporteer beheerders</strong><br />
-<br />
-Leden van deze groep kunnen pagina's naar een schijf exporteren.<br />
-<br />
-<strong>Pakket beheerders</strong><br />
-<br />
-Gebruikers die pakketten kunnen toevoegen, bewerken en verwijderen  in wobjecten of pagina's.<br />
-<br />
-<strong>Geregistreerde gebruikers</strong><br />
-<br />
-Wanneer gebruikers aan het systeem worden toegevoegd, worden ze in de geregistreerde gebruikers groep gezet. Een gebruikermoet alleen verwijderd worden van de groep als de account is verwijderd of als een gebruiker, die voor problemen zorgt, bestraft wordt.<br />
-<br />
-<strong>Vervangende beheerders</strong><br />
-<br />
-Gebruikers in deze groep kunnen nieuwe gebruikers toevoegen, maar kunnen geen gebruikers bewerken.<br />
-<br />
-<strong>beheerders stijl-sjablonen</strong><br />
-<br />
-Gebruikers die stijlen kunnen bewerken. Deze privileges stellen de gebruiker er niet toe in staat stijlen toe te kennen aan een pagina, maar kunnen de stijlen alleen definiëren voor later gebruik.<br />
-<br />
-<strong>Sjabloon beheerders</strong></p><p>Gebruikers die sjablonen voor de site kunnen bewerken. <br />
-<br />
-<strong>Zet admin aan</strong><br />
-<br />
-De gebruikers in deze groep kunnen de admin modus aanzetten.<br />
-<br />
-<strong>Bezoekers</strong><br />
-<br />
-Bezoekers zijn gebruikers die niet met een account van het systeem ingelogd zijn. Ook kan een geregistreerde gebruiker gestraft worden door deze uit de geregistreerde gebruikers groep te halen en toe te voegen aan de bezoekers groep.|,
-		lastUpdated => 1166637127
 	},
 
 	'748' => {
@@ -2696,13 +2713,6 @@ Bezoekers zijn gebruikers die niet met een account van het systeem ingelogd zijn
 	'317' => {
 		message => q|<a href="http://www.icq.com">ICQ</a> UIN|,
 		lastUpdated => 1153752878
-	},
-
-	'608' => {
-		message => q|Het verwijderen van een pagina kan een chaos veroorzaken als men onzeker is over wat men doet. Bij het verwijderen van een pagina wordt ook de inhoud, alle subpagina's en hun inhoud verwijderd. Zorg dat de inhoud die bewaard moet bliojven verplaatst wordt voordat de pagina wordt verwijderd.
-
-Net zoals bij elke verwijderingsproces, wordt hier ook gevraagd of u zeker bent of u wilt doorgaan met verwijderen. ALs het antwoord jas is, zal het verwijderen verder gaan en is er geen herstel mogelijk. Als nee wordt geantwoord, gaat u terug naar het vorige scherm.|,
-		lastUpdated => 1181333199
 	},
 
 	'169' => {
@@ -2765,6 +2775,16 @@ Net zoals bij elke verwijderingsproces, wordt hier ook gevraagd of u zeker bent 
 		lastUpdated => 1154097663
 	},
 
+	'settings groupIdAdminActiveSessions label' => {
+		message => q|Actieve sessies|,
+		lastUpdated => 1190023260
+	},
+
+	'settings groupIdAdminCache label' => {
+		message => q|Cache|,
+		lastUpdated => 1190023208
+	},
+
 	'125' => {
 		message => q|Bedrijfsnaam|,
 		lastUpdated => 1153751319
@@ -2775,19 +2795,19 @@ Net zoals bij elke verwijderingsproces, wordt hier ook gevraagd of u zeker bent 
 		lastUpdated => 1154076246
 	},
 
+	'send private message template' => {
+		message => q|Verstuur (prive) bericht template|,
+		lastUpdated => 1189454271
+	},
+
+	'run on admin create user' => {
+		message => q|Bij het aanmaken van een nieuwe gebruiker (admin)|,
+		lastUpdated => 1190023534
+	},
+
 	'1007' => {
 		message => q|Type inhoud|,
 		lastUpdated => 1155761245
-	},
-
-	'667' => {
-		message => q|Groep, toevoegen/bewerken|,
-		lastUpdated => 1154092235
-	},
-
-	'998' => {
-		message => q|Database link, toevoegen/bewerken|,
-		lastUpdated => 1156171415
 	},
 
 	'95' => {
@@ -2848,11 +2868,6 @@ Net zoals bij elke verwijderingsproces, wordt hier ook gevraagd of u zeker bent 
 	'url extension description' => {
 		message => q|<p>Voeg een extentie zoals html, php of asp toe aan het URL van een pagina wanneer dezegemaakt wordt.</p><p><strong>N.B.:</strong> Zet hier geen punt bij. Het veld moet als volgt ingevuld worden : &quot;html&quot; en NIET &quot;.html&quot;. <br /></p>|,
 		lastUpdated => 1155908424
-	},
-
-	'697' => {
-		message => q|Karma, gebruik|,
-		lastUpdated => 1154092344
 	},
 
 	'pagination.previousPage' => {
@@ -2917,9 +2932,24 @@ Net zoals bij elke verwijderingsproces, wordt hier ook gevraagd of u zeker bent 
 		lastUpdated => 1155886156
 	},
 
+	'settings groupIdAdminCron label' => {
+		message => q|Cron|,
+		lastUpdated => 1190023126
+	},
+
+	'private message submit label' => {
+		message => q|Verstuur|,
+		lastUpdated => 1189454792
+	},
+
 	'81' => {
 		message => q|De account is met succes vernieuwd!|,
 		lastUpdated => 1154095205
+	},
+
+	'view inbox message template' => {
+		message => q|template voor bericht in inbox|,
+		lastUpdated => 1189454509
 	},
 
 	'824 description' => {
@@ -2930,11 +2960,6 @@ Net zoals bij elke verwijderingsproces, wordt hier ook gevraagd of u zeker bent 
 	'321' => {
 		message => q|Mobiele telefoon|,
 		lastUpdated => 1153753178
-	},
-
-	'group email title' => {
-		message => q|Groep, Email|,
-		lastUpdated => 1156170013
 	},
 
 	'86' => {
@@ -2972,6 +2997,11 @@ Net zoals bij elke verwijderingsproces, wordt hier ook gevraagd of u zeker bent 
 		lastUpdated => 1166435901
 	},
 
+	'user invitations email exists description' => {
+		message => q|Dit is het bericht dat wordt weergegeven aan gebruikers die trachten iemand uit te nodigen wiens emailadres al bekend is op op het systeem.|,
+		lastUpdated => 1189454489
+	},
+
 	'pagination.pageNumber' => {
 		message => q|Het nummer van de huidige pagina.|,
 		lastUpdated => 1156168072
@@ -2995,6 +3025,11 @@ Net zoals bij elke verwijderingsproces, wordt hier ook gevraagd of u zeker bent 
 	'808' => {
 		message => q|<p>Email deze groep.&nbsp;</p>|,
 		lastUpdated => 1154095167
+	},
+
+	'settings groupIdAdminUser label' => {
+		message => q|Gebruikers|,
+		lastUpdated => 1190022669
 	},
 
 	'885' => {
@@ -3052,11 +3087,6 @@ Net zoals bij elke verwijderingsproces, wordt hier ook gevraagd of u zeker bent 
 		lastUpdated => 1153750764
 	},
 
-	'group email body' => {
-		message => q|Dit zorgt voor een makkelijke manier om alle leden van een groep tegelijkertijd te contacteren.|,
-		lastUpdated => 1156170077
-	},
-
 	'735' => {
 		message => q|6 professioneel|,
 		lastUpdated => 1154094360
@@ -3070,23 +3100,6 @@ Net zoals bij elke verwijderingsproces, wordt hier ook gevraagd of u zeker bent 
 	'tinymce' => {
 		message => q|TinyMCE (IE, mozilla)|,
 		lastUpdated => 1154097655
-	},
-
-	'613' => {
-		message => q|Gebruikers zijn de spil in het systeem bij het geven van bepaalde rechten. Standaard zijn er twee gebruikers in het syteem. De Admin en de Bezoeker.<br />
-<br />
-<b>Admin</b><br />
-Deze gebruiker heeft alle rechten binnen WebGUI. Alle mogelijkheden binnen WebGUI zijn dus door Admin uit te voeren.<br />
-<br />
-<b>Bezoeker</b><br />
-De bezoeker is het tegenovergestelde van Admin. Deze gebruiker heeft geen rechten. Iedere bezoeker die niet is ingelogd wordt gezien als "Bezoeker"<br />
-<br />
-<b>Voeg een gebruiker toe</b><br />
-Door hierop te klikken komt u in het scherm waar u een gebruiker kunt toevoegen<br />
-<br />
-<b>Zoeken</b><br />
-U kunt zoeken naar gebruikers aan de hand van hun emailadres of de gebruikersnaam. U kunt ook zoeken op gedeeltes van bovenstaande velden.|,
-		lastUpdated => 1156412522
 	},
 
 	'1043' => {
@@ -3119,9 +3132,19 @@ U kunt zoeken naar gebruikers aan de hand van hun emailadres of de gebruikersnaa
 		lastUpdated => 1154092859
 	},
 
+	'user invitations email exists' => {
+		message => q|bericht "emailadres bestaat"|,
+		lastUpdated => 1189454456
+	},
+
 	'952' => {
 		message => q|Datum klembord|,
 		lastUpdated => 1154097385
+	},
+
+	'private message subject label' => {
+		message => q|Onderwerp|,
+		lastUpdated => 1189454782
 	},
 
 	'487' => {
@@ -3139,9 +3162,9 @@ U kunt zoeken naar gebruikers aan de hand van hun emailadres of de gebruikersnaa
 		lastUpdated => 1154097777
 	},
 
-	'636' => {
-		message => q| <p>Pakketten zijn groepen van assets die zijn voor-gedefinieerd om samen te worden hergegroepeerd. Het werkt precies hetzelfde als het klembord, behalve dat u de assets niet hoeft te knippen of te kopi&euml;ren alvorens de assets op andere delen van de site te hergroeperen, of te plakken.</p><p>Pakketten zijn vaak gedefinieerd om de last van eentonige taken te verminderen. Een pakket-beheerder ziet de noodzaak om een pakket aan te maken van diverse pagina&#39;s en een berichtenbord, een FAQ, een peiling, omdat die taak vaak wordt gebruikt.</p><p>Om&nbsp; pakketten te defini&euml;ren of te verwijderen moet u in de pakket beheer-groep of in de beheermodes-groep zijn.</p><p>Om een pakket aan te maken moet u simpelweg deze stappen volgen. Ga naar de tab &#39;metadata&#39; van elk asset&#39;s toevoegen/bewerken-formulier en kies &#39;pakket maken?&#39;. Het pakket bestaat uit die asset en alle assets daaronder.</p><p>Om een pakket op te stellen:&nbsp;</p><div> <ol><li>Ga in uw browser naar een pagina op de site waar u het pakket wilt opstellen.</li><li>Zet de beheermode aan.</li><li>Kies de pakket-tab uit de beheerbalk.</li><li>Klik op de naam van het pakket om op te stellen. <br /></li></ol></div>Alle asset-URL&#39;s in het pakket zullen uniek worden gemaakt zodra ze zijn opgesteld.|,
-		lastUpdated => 1156456186
+	'auto request commit help' => {
+		message => q|Zouden wijzigingen automatisch moeten worden gepubliceerd? Indien deze optie is geselecteerd, hoeft niet meer op "Publiceer" geklikt te worden. Wanneer deze optie wordt gebruikt samen met "Geen commentaar bij publiceren wijzigingen" en een realtime publicatieproces (workflow) wordt in feite het versiebeheer en workflow proces verborgen voor de gebruiker.|,
+		lastUpdated => 1189454151
 	},
 
 	'561' => {
@@ -3159,6 +3182,11 @@ U kunt zoeken naar gebruikers aan de hand van hun emailadres of de gebruikersnaa
 		lastUpdated => 1154074594
 	},
 
+	'settings groupIdAdminVersionTag hoverHelp' => {
+		message => q|Group die versies kan beheren|,
+		lastUpdated => 1190022602
+	},
+
 	'hidden' => {
 		message => q|Verborgen|,
 		lastUpdated => 1156169538
@@ -3169,19 +3197,24 @@ U kunt zoeken naar gebruikers aan de hand van hun emailadres of de gebruikersnaa
 		lastUpdated => 1158564908
 	},
 
-	'455' => {
-		message => q|Bewerk het profiel van de gebruiker|,
-		lastUpdated => 1154076807
-	},
-
 	'1050 description' => {
 		message => q|De string waarnaar gezocht wordt. Alle interpunctie wordt genegeerd. |,
 		lastUpdated => 1155885909
 	},
 
+	'455' => {
+		message => q|Bewerk het profiel van de gebruiker|,
+		lastUpdated => 1154076807
+	},
+
 	'80' => {
 		message => q|De account is met succes aangemaakt!|,
 		lastUpdated => 1154095103
+	},
+
+	'settings groupIdAdminReplacements hoverHelp' => {
+		message => q|Groep die de content filters kan beheren|,
+		lastUpdated => 1190022841
 	},
 
 	'336' => {
@@ -3199,14 +3232,34 @@ U kunt zoeken naar gebruikers aan de hand van hun emailadres of de gebruikersnaa
 		lastUpdated => 1154076835
 	},
 
+	'view inbox template' => {
+		message => q|Inbox template|,
+		lastUpdated => 1189454537
+	},
+
 	'821' => {
 		message => q|Alles|,
 		lastUpdated => 1157105223
 	},
 
+	'wiki help target' => {
+		message => q|WebGUI Community Wiki|,
+		lastUpdated => 1190022485
+	},
+
+	'run on admin update user' => {
+		message => q|Wanneer Gebruikersgegevens gewijzigd worden (Admin)|,
+		lastUpdated => 1190023471
+	},
+
 	'ends with' => {
 		message => q|Eindigt met|,
 		lastUpdated => 1154097957
+	},
+
+	'send private message template description' => {
+		message => q|Kies een template om berichten te verzenden.|,
+		lastUpdated => 1189454321
 	},
 
 	'pagination.lastPageText' => {
@@ -3217,6 +3270,11 @@ U kunt zoeken naar gebruikers aan de hand van hun emailadres of de gebruikersnaa
 	'92' => {
 		message => q|Volgende pagina|,
 		lastUpdated => 1154097224
+	},
+
+	'settings groupIdAdminDatabaseLink hoverHelp' => {
+		message => q|Groep die links met externe databases kan beheren|,
+		lastUpdated => 1190023116
 	},
 
 	'879' => {
@@ -3234,9 +3292,9 @@ U kunt zoeken naar gebruikers aan de hand van hun emailadres of de gebruikersnaa
 		lastUpdated => 1181336975
 	},
 
-	'10' => {
-		message => q|Beheer prullenbak|,
-		lastUpdated => 1153750143
+	'pagination.pageCount' => {
+		message => q|Het totale aantal pagina&#39;s.|,
+		lastUpdated => 1156168615
 	},
 
 	'980' => {
@@ -3244,9 +3302,9 @@ U kunt zoeken naar gebruikers aan de hand van hun emailadres of de gebruikersnaa
 		lastUpdated => 1156171817
 	},
 
-	'pagination.pageCount' => {
-		message => q|Het totale aantal pagina&#39;s.|,
-		lastUpdated => 1156168615
+	'10' => {
+		message => q|Beheer prullenbak|,
+		lastUpdated => 1153750143
 	},
 
 	'864 description' => {
@@ -3257,11 +3315,6 @@ U kunt zoeken naar gebruikers aan de hand van hun emailadres of de gebruikersnaa
 	'992 description' => {
 		message => q|Een titel van de database link.|,
 		lastUpdated => 1156498696
-	},
-
-	'419' => {
-		message => q|Verwijder alles behalve de tekst.|,
-		lastUpdated => 1154075957
 	},
 
 	'958' => {
@@ -3289,6 +3342,11 @@ U kunt zoeken naar gebruikers aan de hand van hun emailadres of de gebruikersnaa
 		lastUpdated => 1181336390
 	},
 
+	'419' => {
+		message => q|Verwijder alles behalve de tekst.|,
+		lastUpdated => 1154075957
+	},
+
 	'995' => {
 		message => q|Database wachtwoord|,
 		lastUpdated => 1156462489
@@ -3314,14 +3372,19 @@ U kunt zoeken naar gebruikers aan de hand van hun emailadres of de gebruikersnaa
 		lastUpdated => 1156169525
 	},
 
-	'edit user karma body' => {
-		message => q|De meeste karma aanpassingen woreden automatisch gedaan naar aanleiding vanwat de gebruiker doet op de website. Karma kan echter ook aangepast worden door beheerders.|,
-		lastUpdated => 1156499235
+	'settings groupIdAdminHelp label' => {
+		message => q|Help|,
+		lastUpdated => 1190022965
 	},
 
 	'406' => {
 		message => q|Miniatuur grootte|,
 		lastUpdated => 1154075647
+	},
+
+	'settings groupIdAdminSpectre label' => {
+		message => q|Spectre|,
+		lastUpdated => 1190022781
 	},
 
 	'allowed keywords' => {
@@ -3344,14 +3407,9 @@ U kunt zoeken naar gebruikers aan de hand van hun emailadres of de gebruikersnaa
 		lastUpdated => 1156171308
 	},
 
-	'530' => {
-		message => q|met al deze woorden|,
-		lastUpdated => 1154077373
-	},
-
-	'499' => {
-		message => q|Wobject identificatie|,
-		lastUpdated => 1154077050
+	'557 description' => {
+		message => q|De reden waarom de karma van de gebruiker is gewijzigd.|,
+		lastUpdated => 1154090828
 	},
 
 	'56' => {
@@ -3359,9 +3417,14 @@ U kunt zoeken naar gebruikers aan de hand van hun emailadres of de gebruikersnaa
 		lastUpdated => 1154090883
 	},
 
-	'557 description' => {
-		message => q|De reden waarom de karma van de gebruiker is gewijzigd.|,
-		lastUpdated => 1154090828
+	'499' => {
+		message => q|Wobject identificatie|,
+		lastUpdated => 1154077050
+	},
+
+	'530' => {
+		message => q|met al deze woorden|,
+		lastUpdated => 1154077373
 	},
 
 	'66' => {
@@ -3414,19 +3477,14 @@ U kunt zoeken naar gebruikers aan de hand van hun emailadres of de gebruikersnaa
 		lastUpdated => 1153750522
 	},
 
-	'groups default title' => {
-		message => q|Groepen, standaard|,
-		lastUpdated => 1156169906
+	'pagination.pageList.upTo10' => {
+		message => q|Een lijst met links naar de 10 dichtstbijzijnde paginas (ten opzichte van de huidige pagina) in het pagina overzicht. Als de huidige pagina nummer 20 is, dan worden dus links naar de pagina&#39;s 15 tot en met 25 getoond.|,
+		lastUpdated => 1156168562
 	},
 
 	'141' => {
 		message => q|Niet gevonden pagina|,
 		lastUpdated => 1153751653
-	},
-
-	'pagination.pageList.upTo10' => {
-		message => q|Een lijst met links naar de 10 dichtstbijzijnde paginas (ten opzichte van de huidige pagina) in het pagina overzicht. Als de huidige pagina nummer 20 is, dan worden dus links naar de pagina&#39;s 15 tot en met 25 getoond.|,
-		lastUpdated => 1156168562
 	},
 
 	'403' => {
@@ -3452,11 +3510,6 @@ U kunt zoeken naar gebruikers aan de hand van hun emailadres of de gebruikersnaa
 	'134' => {
 		message => q|Wachtwoord herstel bericht|,
 		lastUpdated => 1153751587
-	},
-
-	'655' => {
-		message => q|Gebruiker, toevoegen/bewerken |,
-		lastUpdated => 1154092129
 	},
 
 	'848' => {
@@ -3487,6 +3540,21 @@ U kunt zoeken naar gebruikers aan de hand van hun emailadres of de gebruikersnaa
 	'50 setup description' => {
 		message => q|De gebuikersnaam voor de beheer account. Deze komt standaard op Admin.|,
 		lastUpdated => 1154077108
+	},
+
+	'private message unread display message' => {
+		message => q|%s ongelezen berichten|,
+		lastUpdated => 1189454824
+	},
+
+	'private message date label' => {
+		message => q|Datum|,
+		lastUpdated => 1189453962
+	},
+
+	'settings groupIdAdminGraphics label' => {
+		message => q|Afbeeldingen|,
+		lastUpdated => 1190023062
 	},
 
 	'1070' => {
@@ -3539,9 +3607,9 @@ U kunt zoeken naar gebruikers aan de hand van hun emailadres of de gebruikersnaa
 		lastUpdated => 1156168160
 	},
 
-	'webgui tips body' => {
-		message => q|<p>Dit zijn willekeurige stukken informatie die over WebGUI verzameld zijn:</p><p><strong>Hoe kan een hele WebGUI site ergens statisch neergezet worden</strong></p><p><em>Len Kranendonk:</em></p><p>Installeer een kopie van wget en gebruik dew volgende commando&#39;s:</p><p>wget -p -r --html-extension -k http://de.webgui.site</p><p>-p haalt alle vereisten voor de pagina op (afbeeldingen, css enz.)</p><p>-r download alle pagina&#39;s, ook de onderliggende.</p><p>--html-extension voegt .html toe aan alle pagina&#39;s. Zo wordt het dupliceren van pagina namen voorkomen (bijvoorbeeld /home en /home/contact)</p><p>-k converteert alle URL&#39;s naar lokale URL&#39;s&nbsp;</p>|,
-		lastUpdated => 1156165980
+	'settings groupIdAdminCron hoverHelp' => {
+		message => q|Groep die ingeroosterde workflows kan beheren|,
+		lastUpdated => 1190023149
 	},
 
 	'databases' => {
@@ -3577,6 +3645,11 @@ U kunt zoeken naar gebruikers aan de hand van hun emailadres of de gebruikersnaa
 	'807' => {
 		message => q|Beheer de groepen binnen deze groep.|,
 		lastUpdated => 1154095136
+	},
+
+	'settings groupIdAdminActiveSessions hoverHelp' => {
+		message => q|Groep die actieve sessies kan zien en mag verwijderen|,
+		lastUpdated => 1190023283
 	},
 
 	'945' => {

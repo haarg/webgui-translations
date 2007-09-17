@@ -91,9 +91,19 @@ our $I18N = {
 		lastUpdated => 1189336934
 	},
 
+	'image.url' => {
+		message => q|De URL naar de eerste afbeelding die is bijgevoegd bij de bijdrage.|,
+		lastUpdated => 1190027519
+	},
+
 	'endDate' => {
 		message => q|De datum waarop deze gebeurtenis eindigt.|,
 		lastUpdated => 1189336147
+	},
+
+	'isImage' => {
+		message => q|Een voorwaardelijke variabele die aangeeft of de bijlage een afbeelding is of niet.|,
+		lastUpdated => 1190027493
 	},
 
 	'startDateYear' => {
@@ -119,6 +129,11 @@ our $I18N = {
 	'startDateHms' => {
 		message => q|De starttijd voor deze gebeurtenis, in het formaat hh:mm:ss. Hierbij is hh het uur, mm de minuut en ss de seconde.|,
 		lastUpdated => 1189338379
+	},
+
+	'attachment.icon' => {
+		message => q|Een icoon die het bestandstype aangeeft van de bijlage.|,
+		lastUpdated => 1190027722
 	},
 
 	'endDateMonthName' => {
@@ -156,6 +171,11 @@ our $I18N = {
 		lastUpdated => 1189347787
 	},
 
+	'attachment_loop' => {
+		message => q|Een loop waarin alle bestanden en afbeeldingen beschikbaar zijn die horen bij deze bijdrage.|,
+		lastUpdated => 1190027668
+	},
+
 	'startDateDayAbbr' => {
 		message => q|De afkorting van de naam van de dag waarop deze gebeurtenis start.|,
 		lastUpdated => 1189338209
@@ -181,6 +201,11 @@ our $I18N = {
 		lastUpdated => 1189347975
 	},
 
+	'filename' => {
+		message => q|De naam van deze bijlage.|,
+		lastUpdated => 1190027612
+	},
+
 	'formRecurEnd' => {
 		message => q|Het HTML datumformulier waarmee kan worden aangegeven wanneer een terugkerende gebeurtenis eindigt, wanneer deze ooit eindigt.|,
 		lastUpdated => 1189337418
@@ -194,6 +219,11 @@ our $I18N = {
 	'event asset template variables title' => {
 		message => q|Gebeurtenis object template variabelen|,
 		lastUpdated => 1189336810
+	},
+
+	'attachment.name' => {
+		message => q|De naam van de eerste bijlage bij deze bijdrage.|,
+		lastUpdated => 1190027709
 	},
 
 	'event view template variables body' => {
@@ -246,6 +276,11 @@ our $I18N = {
 		lastUpdated => 1189336141
 	},
 
+	'formAttachments' => {
+		message => q|HTML formulier om bestanden bij te voegen of te verwijderen bij deze gebeurtenis.|,
+		lastUpdated => 1190027605
+	},
+
 	'linkUrl' => {
 		message => q|Een URL van uit de set van gerelateerde links.|,
 		lastUpdated => 1189337959
@@ -254,6 +289,11 @@ our $I18N = {
 	'isPublic' => {
 		message => q|Een voorwaardelijke variabele die waar is als de gebeurtenis door iedereen mag worden gezien. (De groep die de gebeurtenis mag bekijken is "Everyone".)|,
 		lastUpdated => 1189337932
+	},
+
+	'canEdit' => {
+		message => q|Deze variabele waarde is waar als de huidige gebruiker deze gebeurtenis kan bewerken.|,
+		lastUpdated => 1190027634
 	},
 
 	'formErrors' => {
@@ -341,6 +381,11 @@ our $I18N = {
 		lastUpdated => 1189337828
 	},
 
+	'icon' => {
+		message => q|Een icoon die het bestandstype aangeeft voor deze bijlage.|,
+		lastUpdated => 1190027554
+	},
+
 	'nextUrl' => {
 		message => q|De URL naar de eerstvolgende gebeurtenis in de kalender. |,
 		lastUpdated => 1189338014
@@ -369,11 +414,6 @@ our $I18N = {
 	'formEndDate' => {
 		message => q|Een HTML formulier om de einddatum van een gebeurtenis toe te voegen of te wijzigen.|,
 		lastUpdated => 1189337046
-	},
-
-	'add/edit body' => {
-		message => q|De weergave waarin een gebeurtenis kan worden bewerkt en/of toegevoegd is templatable. De template-variabele die beschikbaar zijn staan hieronder.|,
-		lastUpdated => 1189336046
 	},
 
 	'endDateDayOfWeek' => {
@@ -406,6 +446,11 @@ our $I18N = {
 		lastUpdated => 1189336606
 	},
 
+	'thumbnail' => {
+		message => q|Een thumbnail van deze bijlage, indien van toepassing.|,
+		lastUpdated => 1190027477
+	},
+
 	'startDateDayOfWeek' => {
 		message => q|De dag van de week waarin deze gebeurtenis start. Dit is een nummer van 1 tot en met 7.|,
 		lastUpdated => 1189338274
@@ -426,6 +471,11 @@ our $I18N = {
 		lastUpdated => 1189338227
 	},
 
+	'attachment_url' => {
+		message => q|De URL om de bijlage te downloaden.|,
+		lastUpdated => 1190027646
+	},
+
 	'message' => {
 		message => q|Een foutmelding.|,
 		lastUpdated => 1189337980
@@ -441,9 +491,24 @@ our $I18N = {
 		lastUpdated => 1189338046
 	},
 
+	'formGroupToView' => {
+		message => q|HTML formulier waarmee de groep gekozen kan worden die dit event mag zien. |,
+		lastUpdated => 1190027583
+	},
+
 	'startDateDmy' => {
 		message => q|De startdatum van deze gebeurtenis in het formaat dd-mm-yyyy. Hierbij is yyyy het jaar, mm de maand en dd de dag.|,
 		lastUpdated => 1189338305
+	},
+
+	'attachment.url' => {
+		message => q|De URL om de eerste bijlage bij deze drage te downloaden.|,
+		lastUpdated => 1190027691
+	},
+
+	'image.thumbnail' => {
+		message => q|Een thumbnail van de afbeelding die is bijgevoegd bij het bericht.|,
+		lastUpdated => 1190027536
 	},
 
 };

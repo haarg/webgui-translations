@@ -11,6 +11,11 @@ our $I18N = {
 		lastUpdated => 1166546756
 	},
 
+	'recent changes template body' => {
+		message => q|Deze variabelen zijn beschikbaar in het sjabloon om het overzicht van recente wijzigingen in pagina's van de Wiki weer te geven. |,
+		lastUpdated => 1166547403
+	},
+
 	'pageTemplateId' => {
 		message => q|De ID van het template dat gebruikt wordt om de pagina's in de Wiki weer te geven.|,
 		lastUpdated => 1166547305
@@ -24,6 +29,26 @@ our $I18N = {
 	'approvalWorkflow' => {
 		message => q|De ID van de workflow die wordt gebruikt om Wiki-pagina's goed te keuren.|,
 		lastUpdated => 1166544929
+	},
+
+	'approval workflow' => {
+		message => q|Goedkeuringsworkflow|,
+		lastUpdated => 1166544838
+	},
+
+	'searchResults' => {
+		message => q|Een loop die alle zoekresultaten bevat.|,
+		lastUpdated => 1166616204
+	},
+
+	'search template body' => {
+		message => q|Deze variabelen zijn beschikbaar in het sjabloon om de zoek-pagina weer te geven in de Wiki.|,
+		lastUpdated => 1166613643
+	},
+
+	'recent changes template title' => {
+		message => q|Wiki Master, Sjabloon Recente Wijzigingen|,
+		lastUpdated => 1166547421
 	},
 
 	'recentChangesTemplateId' => {
@@ -51,9 +76,39 @@ our $I18N = {
 		lastUpdated => 1166618766
 	},
 
+	'actionN unprotected' => {
+		message => q|Onbeveiligd|,
+		lastUpdated => 1166543598
+	},
+
+	'mostPopularCountFront hoverHelp' => {
+		message => q|Maximaal aantal meest populaire pagina's om weer te geven op de voorpagina.|,
+		lastUpdated => 1166546658
+	},
+
+	'description' => {
+		message => q|De beschrijving van voor deze Wiki. Titels of urls in deze beschrijving van pagina's in deze Wiki worden herkend en omgezet in links naar die pagina's. Deze sjabloonvariabele zal elke andere beschikbare variabele met dezelfde naam in dit template overschrijven. |,
+		lastUpdated => 1166545204
+	},
+
 	'canAddPages variable' => {
 		message => q|Een binaire variabele die waar is wanneer een gebruiker nieuwe pagina's mag toevoegen en pagina's mag bewerken in de wiki.|,
 		lastUpdated => 1180653672
+	},
+
+	'performSearch' => {
+		message => q|De constante "1".|,
+		lastUpdated => 1166547358
+	},
+
+	'recentChangesTemplateId label' => {
+		message => q|Sjabloon Recente Wijzigingen|,
+		lastUpdated => 1166547836
+	},
+
+	'frontPageTemplateId hoverHelp' => {
+		message => q|Welk sjabloon gebruikt moet worden voor de voorpagina.|,
+		lastUpdated => 1166545749
 	},
 
 	'addPageLabel variable' => {
@@ -86,14 +141,39 @@ our $I18N = {
 		lastUpdated => 1166547722
 	},
 
+	'filter code description' => {
+		message => q|Stelt het niveau van HTML filtering in die wordt uitgevoerd op elke bijdrage aan een wiki pagina.|,
+		lastUpdated => 1180654274
+	},
+
 	'groupToEditPages' => {
 		message => q|De ID van de groep die pagina's kan bewerken.|,
 		lastUpdated => 1166546017
 	},
 
+	'canAdminister' => {
+		message => q|Een voorwaardelijke variabele die aangeeft of de huidige gebruiker de wiki kan beheren.|,
+		lastUpdated => 1189373985
+	},
+
 	'notWhatYouWantedLabel' => {
 		message => q|Heeft u niet gevonden wat u zocht?|,
 		lastUpdated => 1166779989
+	},
+
+	'pageEditTemplateId' => {
+		message => q|De ID van het sjabloon dat het scherm om Wiki-pagina's te bewerken weergeeft.|,
+		lastUpdated => 1166546974
+	},
+
+	'listPages title' => {
+		message => q|Overzicht pagina's|,
+		lastUpdated => 1166546114
+	},
+
+	'mostPopularTemplateId label' => {
+		message => q|Sjabloon Meest Pupulair|,
+		lastUpdated => 1166546804
 	},
 
 	'wikiHomeLabel variable' => {
@@ -103,7 +183,12 @@ our $I18N = {
 
 	'front page template title' => {
 		message => q|Wiki, Sjabloon voorpagina|,
-		lastUpdated => 1166545285
+		lastUpdated => 1190025229
+	},
+
+	'pageTemplateId hoverHelp' => {
+		message => q|Template waarmee de pagina's worden weergegeven.|,
+		lastUpdated => 1166547338
 	},
 
 	'groupToAdminister hoverHelp' => {
@@ -116,9 +201,19 @@ our $I18N = {
 		lastUpdated => 1166547696
 	},
 
+	'asset description' => {
+		message => q|Een wiki is een webapplicatie waarmee webdocumenten gezamenlijk kunnen worden bewerkt. Traditioneel gebruiken wikies de wiki opmaaktaal. Echter deze wordt niet als eenvoudiger ervaren dan HTML. Daarom gebruikt WebGUI een online tekstverwerker om gebruikers te helpen keurig opgemaakte tekst te publiceren.|,
+		lastUpdated => 1180653605
+	},
+
 	'canAddPages' => {
 		message => q|Variabele die aangeeft wie nieuwe pagina's mag toevoegen.|,
 		lastUpdated => 1180653637
+	},
+
+	'searchSubmit' => {
+		message => q|Een knop (submit button) om de zoekactie uit te voeren, met een - in meerdere talen beschikbaar - label.|,
+		lastUpdated => 1166616285
 	},
 
 	'mostPopularUrl' => {
@@ -131,9 +226,24 @@ our $I18N = {
 		lastUpdated => 1166545774
 	},
 
+	'allow attachments help' => {
+		message => q|Toestaan om bijlagen mee te sturen?|,
+		lastUpdated => 1190025295
+	},
+
 	'mostPopularCount hoverHelp' => {
 		message => q|Maximaal aantal pagina's om weer te geven op de pagina Meest Populair.|,
 		lastUpdated => 1166546615
+	},
+
+	'searchTemplateId hoverHelp' => {
+		message => q|Welk template wordt gebruikt om de zoekresultaten weer te geven.|,
+		lastUpdated => 1166617695
+	},
+
+	'groupToEditPages hoverHelp' => {
+		message => q|Kies een groep van gebruikers die de pagina's in deze Wiki mag bewerken. Deze groep mag in principe geen pagina's of revisies verwijderen of beveiligde pagina's wijzigen. |,
+		lastUpdated => 1166546088
 	},
 
 	'recent changes title' => {
@@ -151,9 +261,44 @@ our $I18N = {
 		lastUpdated => 1180654028
 	},
 
+	'approval workflow description' => {
+		message => q|Kies een workflow om uit te voeren wanneer een pagina wordt toegevoegd.|,
+		lastUpdated => 1166544893
+	},
+
+	'allow attachments' => {
+		message => q|Aantal bijlagen dat meegestuurd kan worden|,
+		lastUpdated => 1190025307
+	},
+
+	'actionN protected' => {
+		message => q|Beveiligd|,
+		lastUpdated => 1166543583
+	},
+
+	'pageEditTemplateId hoverHelp' => {
+		message => q|Welk template wordt gebruikt om pagina's te bewerken?|,
+		lastUpdated => 1166547011
+	},
+
 	'searchTemplateId label' => {
 		message => q|Sjabloon Zoeken|,
 		lastUpdated => 1166617707
+	},
+
+	'assetName' => {
+		message => q|Wiki|,
+		lastUpdated => 1166544934
+	},
+
+	'most popular variables title' => {
+		message => q|Wiki Master, variabelen Meest Populair|,
+		lastUpdated => 1166546538
+	},
+
+	'restoreLabel' => {
+		message => q|Terugzetten|,
+		lastUpdated => 1189374058
 	},
 
 	'frontPageTemplateId label' => {
@@ -161,14 +306,14 @@ our $I18N = {
 		lastUpdated => 1166545763
 	},
 
-	'wiki master asset variables body' => {
-		message => q|Deze variabelen zijn beschikbaar in de meeste Wiki-sjablonen. Niet alle variabelen zijn even nuttig in elk sjabloon.|,
-		lastUpdated => 1166618711
-	},
-
 	'recent changes url' => {
 		message => q|De url van de recent gewijzigde pagina.|,
 		lastUpdated => 1166547494
+	},
+
+	'func view link text' => {
+		message => q|Terug naar de voorpagina|,
+		lastUpdated => 1166545814
 	},
 
 	'nothingFoundLabel variable' => {
@@ -191,14 +336,39 @@ our $I18N = {
 		lastUpdated => 1166547977
 	},
 
+	'most popular title' => {
+		message => q|De titel van een pagina uit de verzameling meest populaire pagina's.|,
+		lastUpdated => 1166546406
+	},
+
+	'pageTemplateId label' => {
+		message => q|Sjabloon Pagina|,
+		lastUpdated => 1166547346
+	},
+
+	'byKeywordTemplateId hoverHelp' => {
+		message => q|Welk template moet gebruikt worden om een lijst van pagina's weer te geven die gerelateerd zijn aan een specifiek trefwoord.|,
+		lastUpdated => 1190025268
+	},
+
 	'recent changes variables title' => {
-		message => q|Wiki Master, variableen Recente Wijzigingen|,
-		lastUpdated => 1166547605
+		message => q|Wiki Master, variabelen Recente Wijzigingen|,
+		lastUpdated => 1190025217
 	},
 
 	'search template title' => {
 		message => q|Wiki Master, Sjabloon Zoeken|,
 		lastUpdated => 1166613657
+	},
+
+	'search title variable' => {
+		message => q|De titel van een pagina die wordt weergegeven in de zoekresultaten.|,
+		lastUpdated => 1166613675
+	},
+
+	'pageHistoryTemplateId' => {
+		message => q|De ID van het template om de lijst met wijzigingen weer te geven op een pagina binnen de Wiki.|,
+		lastUpdated => 1166547247
 	},
 
 	'func recentChanges link text' => {
@@ -216,6 +386,11 @@ our $I18N = {
 		lastUpdated => 1166779959
 	},
 
+	'notWhatYouWanted variable' => {
+		message => q|Een - in meerdere talen beschikbaar - label om de gebruiker te vragen of hij niet vond wat hij zocht.|,
+		lastUpdated => 1166546895
+	},
+
 	'recent changes username' => {
 		message => q|De naam van de gebruiker die de pagina recent heeft gewijzigd.|,
 		lastUpdated => 1166547538
@@ -226,9 +401,29 @@ our $I18N = {
 		lastUpdated => 1166546104
 	},
 
+	'searchTemplateId' => {
+		message => q|De ID van het sjabloon om een zoekpagina weer te geven waarmee gezicht kan worden naar pagina's binnen de betreffende Wiki.|,
+		lastUpdated => 1166616660
+	},
+
+	'addPageUrl' => {
+		message => q|Een URL die de gebruiker een nieuwe pagina aan laat maken.|,
+		lastUpdated => 1166544670
+	},
+
 	'most popular template title' => {
 		message => q|Wiki Master, sjabloon meest populair |,
 		lastUpdated => 1166546386
+	},
+
+	'searchUrl' => {
+		message => q|De URL naar de zoekpagina's van deze WIKI|,
+		lastUpdated => 1166780044
+	},
+
+	'byKeywordTemplateId label' => {
+		message => q|Op trefwoord template|,
+		lastUpdated => 1190025246
 	},
 
 	'useContentFilter' => {
@@ -251,6 +446,26 @@ our $I18N = {
 		lastUpdated => 1166616001
 	},
 
+	'recentChangesTemplateId hoverHelp' => {
+		message => q|Welk sjabloon wordt gebruikt om de recente wijzigingen weer te geven.|,
+		lastUpdated => 1166547825
+	},
+
+	'search url variable' => {
+		message => q|De (volledige) URL van een pagina die wordt weergegeven in de zoekresultaten.|,
+		lastUpdated => 1166613732
+	},
+
+	'mostPopularCount label' => {
+		message => q|Aantal Meest Populair|,
+		lastUpdated => 1166546636
+	},
+
+	'pageHistoryTemplateId label' => {
+		message => q|Sjabloon Pagina Historie|,
+		lastUpdated => 1166547287
+	},
+
 	'recent changes restore url' => {
 		message => q|De URL om deze pagina terug te zetten, zodat deze bekeken kan worden, wanneer deze in de prullebak staat of op het klembord.|,
 		lastUpdated => 1189374045
@@ -259,6 +474,21 @@ our $I18N = {
 	'max image size' => {
 		message => q|Maximale grootte afbeelding.|,
 		lastUpdated => 1166546129
+	},
+
+	'func listPages link text' => {
+		message => q|Overzicht pagina's|,
+		lastUpdated => 1166545787
+	},
+
+	'searchQuery' => {
+		message => q|HTML code voor een tekstveld waarin zoektermen kunnen worden ingevoerd.|,
+		lastUpdated => 1166616139
+	},
+
+	'resultsLabel' => {
+		message => q|Resultaten|,
+		lastUpdated => 1166547890
 	},
 
 	'resultsLabel variable' => {
@@ -276,9 +506,19 @@ our $I18N = {
 		lastUpdated => 1180654215
 	},
 
-	'search box variables body' => {
-		message => q|Deze variabelen zijn beschikbaar in de meeste Wiki-sjablonen om een zoekveld te maken.|,
-		lastUpdated => 1166548080
+	'richEditor hoverHelp' => {
+		message => q|Welke editor wordt gebruikt om pagina's in deze Wiki te bewerken.|,
+		lastUpdated => 1166547970
+	},
+
+	'recent changes is available' => {
+		message => q|Een voorwaardelijke variabele die aangeeft of een pagina bechikbaar is om te bekijken of in de prullebak staat of op het klembord.|,
+		lastUpdated => 1189374011
+	},
+
+	'searchLabel variable' => {
+		message => q|De beschrijving voor deze Wiki. Titels en urls in deze beschrijving worden omgezet naar links naar de betreffende pagina's wanneer ze tot deze Wiki behoren en worden herkend.|,
+		lastUpdated => 1166616062
 	},
 
 	'actionN created' => {
@@ -296,14 +536,49 @@ our $I18N = {
 		lastUpdated => 1166547373
 	},
 
+	'actionN trashed' => {
+		message => q|Verwijderd|,
+		lastUpdated => 1166543589
+	},
+
+	'wikiHomeUrl' => {
+		message => q|Een URL naar de Wiki startpagina.|,
+		lastUpdated => 1166618815
+	},
+
+	'searchFormHeader' => {
+		message => q|HTML code van het formulier voor het zoekveld.|,
+		lastUpdated => 1166613754
+	},
+
+	'recentChangesLabel' => {
+		message => q|Een - in meerdere talen beschikbaar - label voor de variabele recentChangesUrl.|,
+		lastUpdated => 1166547765
+	},
+
 	'pageHistoryTemplateId hoverHelp' => {
 		message => q|Sjabloon om de paginahistorie weer te geven. |,
 		lastUpdated => 1166547275
 	},
 
+	'most popular title variable' => {
+		message => q|De - in meerdere talen beschikbare - titel voor het sjabloon Meest Populair. |,
+		lastUpdated => 1166546460
+	},
+
 	'maxImageSize' => {
 		message => q|De maximale grootte van afbeeldingen in deze Wiki.|,
 		lastUpdated => 1166546316
+	},
+
+	'most popular url' => {
+		message => q|De url van een pagina uit de verzameling van meest populaire pagina's. |,
+		lastUpdated => 1166546478
+	},
+
+	'mostPopularCountFront label' => {
+		message => q|Aantal pagina's Meest Populair op voorpagina.|,
+		lastUpdated => 1166546710
 	},
 
 	'richEditor' => {
@@ -316,9 +591,19 @@ our $I18N = {
 		lastUpdated => 1166547740
 	},
 
+	'func search link text' => {
+		message => q|Zoek binnen de pagina's|,
+		lastUpdated => 1166545806
+	},
+
 	'mostPopularLabel' => {
 		message => q|Een - in meerdere talen beschikbaar - label voor de variabele mostPopularUrl|,
 		lastUpdated => 1166546737
+	},
+
+	'nothingFoundLabel' => {
+		message => q|Geen resultaten gevonden.|,
+		lastUpdated => 1166546916
 	},
 
 	'recentChangesCount hoverHelp' => {
@@ -349,306 +634,6 @@ our $I18N = {
 	'search box variables title' => {
 		message => q|Wiki Master, variabelen Zoekveld.|,
 		lastUpdated => 1166548096
-	},
-
-	'recent changes template body' => {
-		message => q|Deze variabelen zijn beschikbaar in het sjabloon om het overzicht van recente wijzigingen in pagina's van de Wiki weer te geven. |,
-		lastUpdated => 1166547403
-	},
-
-	'approval workflow' => {
-		message => q|Goedkeuringsworkflow|,
-		lastUpdated => 1166544838
-	},
-
-	'searchResults' => {
-		message => q|Een loop die alle zoekresultaten bevat.|,
-		lastUpdated => 1166616204
-	},
-
-	'recent changes template title' => {
-		message => q|Wiki Master, Sjabloon Recente Wijzigingen|,
-		lastUpdated => 1166547421
-	},
-
-	'search template body' => {
-		message => q|Deze variabelen zijn beschikbaar in het sjabloon om de zoek-pagina weer te geven in de Wiki.|,
-		lastUpdated => 1166613643
-	},
-
-	'actionN unprotected' => {
-		message => q|Onbeveiligd|,
-		lastUpdated => 1166543598
-	},
-
-	'mostPopularCountFront hoverHelp' => {
-		message => q|Maximaal aantal meest populaire pagina's om weer te geven op de voorpagina.|,
-		lastUpdated => 1166546658
-	},
-
-	'description' => {
-		message => q|De beschrijving van voor deze Wiki. Titels of urls in deze beschrijving van pagina's in deze Wiki worden herkend en omgezet in links naar die pagina's. Deze sjabloonvariabele zal elke andere beschikbare variabele met dezelfde naam in dit template overschrijven. |,
-		lastUpdated => 1166545204
-	},
-
-	'frontPageTemplateId hoverHelp' => {
-		message => q|Welk sjabloon gebruikt moet worden voor de voorpagina.|,
-		lastUpdated => 1166545749
-	},
-
-	'recentChangesTemplateId label' => {
-		message => q|Sjabloon Recente Wijzigingen|,
-		lastUpdated => 1166547836
-	},
-
-	'performSearch' => {
-		message => q|De constante "1".|,
-		lastUpdated => 1166547358
-	},
-
-	'filter code description' => {
-		message => q|Stelt het niveau van HTML filtering in die wordt uitgevoerd op elke bijdrage aan een wiki pagina.|,
-		lastUpdated => 1180654274
-	},
-
-	'front page template body' => {
-		message => q|Dit sjabloon is het basissjabloon en geeft weer wat de meeste gebruikers zullen zien als ze de Wiki bekijken.|,
-		lastUpdated => 1166545269
-	},
-
-	'canAdminister' => {
-		message => q|Een voorwaardelijke variabele die aangeeft of de huidige gebruiker de wiki kan beheren.|,
-		lastUpdated => 1189373985
-	},
-
-	'pageEditTemplateId' => {
-		message => q|De ID van het sjabloon dat het scherm om Wiki-pagina's te bewerken weergeeft.|,
-		lastUpdated => 1166546974
-	},
-
-	'mostPopularTemplateId label' => {
-		message => q|Sjabloon Meest Pupulair|,
-		lastUpdated => 1166546804
-	},
-
-	'listPages title' => {
-		message => q|Overzicht pagina's|,
-		lastUpdated => 1166546114
-	},
-
-	'pageTemplateId hoverHelp' => {
-		message => q|Template waarmee de pagina's worden weergegeven.|,
-		lastUpdated => 1166547338
-	},
-
-	'asset description' => {
-		message => q|Een wiki is een webapplicatie waarmee webdocumenten gezamenlijk kunnen worden bewerkt. Traditioneel gebruiken wikies de wiki opmaaktaal. Echter deze wordt niet als eenvoudiger ervaren dan HTML. Daarom gebruikt WebGUI een online tekstverwerker om gebruikers te helpen keurig opgemaakte tekst te publiceren.|,
-		lastUpdated => 1180653605
-	},
-
-	'searchSubmit' => {
-		message => q|Een knop (submit button) om de zoekactie uit te voeren, met een - in meerdere talen beschikbaar - label.|,
-		lastUpdated => 1166616285
-	},
-
-	'groupToEditPages hoverHelp' => {
-		message => q|Kies een groep van gebruikers die de pagina's in deze Wiki mag bewerken. Deze groep mag in principe geen pagina's of revisies verwijderen of beveiligde pagina's wijzigen. |,
-		lastUpdated => 1166546088
-	},
-
-	'searchTemplateId hoverHelp' => {
-		message => q|Welk template wordt gebruikt om de zoekresultaten weer te geven.|,
-		lastUpdated => 1166617695
-	},
-
-	'add/edit title' => {
-		message => q|Wiki, Toevoegen/Bewerken|,
-		lastUpdated => 1166544570
-	},
-
-	'approval workflow description' => {
-		message => q|Kies een workflow om uit te voeren wanneer een pagina wordt toegevoegd.|,
-		lastUpdated => 1166544893
-	},
-
-	'actionN protected' => {
-		message => q|Beveiligd|,
-		lastUpdated => 1166543583
-	},
-
-	'pageEditTemplateId hoverHelp' => {
-		message => q|Welk template wordt gebruikt om pagina's te bewerken?|,
-		lastUpdated => 1166547011
-	},
-
-	'assetName' => {
-		message => q|Wiki|,
-		lastUpdated => 1166544934
-	},
-
-	'restoreLabel' => {
-		message => q|Terugzetten|,
-		lastUpdated => 1189374058
-	},
-
-	'most popular variables title' => {
-		message => q|Wiki Master, variabelen Meest Populair|,
-		lastUpdated => 1166546538
-	},
-
-	'func view link text' => {
-		message => q|Terug naar de voorpagina|,
-		lastUpdated => 1166545814
-	},
-
-	'most popular title' => {
-		message => q|De titel van een pagina uit de verzameling meest populaire pagina's.|,
-		lastUpdated => 1166546406
-	},
-
-	'pageTemplateId label' => {
-		message => q|Sjabloon Pagina|,
-		lastUpdated => 1166547346
-	},
-
-	'recent changes variables body' => {
-		message => q|Deze variabelen zijn beschikbaar in de meeste Wiki-sjablonen om de link naar recent gewijzigde pagina's weer te geven.|,
-		lastUpdated => 1166547577
-	},
-
-	'pageHistoryTemplateId' => {
-		message => q|De ID van het template om de lijst met wijzigingen weer te geven op een pagina binnen de Wiki.|,
-		lastUpdated => 1166547247
-	},
-
-	'search title variable' => {
-		message => q|De titel van een pagina die wordt weergegeven in de zoekresultaten.|,
-		lastUpdated => 1166613675
-	},
-
-	'notWhatYouWanted variable' => {
-		message => q|Een - in meerdere talen beschikbaar - label om de gebruiker te vragen of hij niet vond wat hij zocht.|,
-		lastUpdated => 1166546895
-	},
-
-	'searchTemplateId' => {
-		message => q|De ID van het sjabloon om een zoekpagina weer te geven waarmee gezicht kan worden naar pagina's binnen de betreffende Wiki.|,
-		lastUpdated => 1166616660
-	},
-
-	'addPageUrl' => {
-		message => q|Een URL die de gebruiker een nieuwe pagina aan laat maken.|,
-		lastUpdated => 1166544670
-	},
-
-	'searchUrl' => {
-		message => q|De URL naar de zoekpagina's van deze WIKI|,
-		lastUpdated => 1166780044
-	},
-
-	'recentChangesTemplateId hoverHelp' => {
-		message => q|Welk sjabloon wordt gebruikt om de recente wijzigingen weer te geven.|,
-		lastUpdated => 1166547825
-	},
-
-	'mostPopularCount label' => {
-		message => q|Aantal Meest Populair|,
-		lastUpdated => 1166546636
-	},
-
-	'pageHistoryTemplateId label' => {
-		message => q|Sjabloon Pagina Historie|,
-		lastUpdated => 1166547287
-	},
-
-	'search url variable' => {
-		message => q|De (volledige) URL van een pagina die wordt weergegeven in de zoekresultaten.|,
-		lastUpdated => 1166613732
-	},
-
-	'func listPages link text' => {
-		message => q|Overzicht pagina's|,
-		lastUpdated => 1166545787
-	},
-
-	'add/edit body' => {
-		message => q|De Wiki is erg vergelijkbaar met het Collaboratie Systeem. De Wiki beheert de Wiki-pagina's die eraan worden toegevoegd. Deze velden zijn beschikbaar om de Wiki te configureren en op maat te maken. |,
-		lastUpdated => 1166544559
-	},
-
-	'resultsLabel' => {
-		message => q|Resultaten|,
-		lastUpdated => 1166547890
-	},
-
-	'searchQuery' => {
-		message => q|HTML code voor een tekstveld waarin zoektermen kunnen worden ingevoerd.|,
-		lastUpdated => 1166616139
-	},
-
-	'richEditor hoverHelp' => {
-		message => q|Welke editor wordt gebruikt om pagina's in deze Wiki te bewerken.|,
-		lastUpdated => 1166547970
-	},
-
-	'recent changes is available' => {
-		message => q|Een voorwaardelijke variabele die aangeeft of een pagina bechikbaar is om te bekijken of in de prullebak staat of op het klembord.|,
-		lastUpdated => 1189374011
-	},
-
-	'searchLabel variable' => {
-		message => q|De beschrijving voor deze Wiki. Titels en urls in deze beschrijving worden omgezet naar links naar de betreffende pagina's wanneer ze tot deze Wiki behoren en worden herkend.|,
-		lastUpdated => 1166616062
-	},
-
-	'actionN trashed' => {
-		message => q|Verwijderd|,
-		lastUpdated => 1166543589
-	},
-
-	'most popular variables body' => {
-		message => q|Deze variabelen zijn beschikbaar in de meeste Wiki-sjablonen om links weer te geven naar de Wiki-pagina's die het meest populair zijn.|,
-		lastUpdated => 1166546519
-	},
-
-	'wikiHomeUrl' => {
-		message => q|Een URL naar de Wiki startpagina.|,
-		lastUpdated => 1166618815
-	},
-
-	'recentChangesLabel' => {
-		message => q|Een - in meerdere talen beschikbaar - label voor de variabele recentChangesUrl.|,
-		lastUpdated => 1166547765
-	},
-
-	'searchFormHeader' => {
-		message => q|HTML code van het formulier voor het zoekveld.|,
-		lastUpdated => 1166613754
-	},
-
-	'most popular title variable' => {
-		message => q|De - in meerdere talen beschikbare - titel voor het sjabloon Meest Populair. |,
-		lastUpdated => 1166546460
-	},
-
-	'most popular url' => {
-		message => q|De url van een pagina uit de verzameling van meest populaire pagina's. |,
-		lastUpdated => 1166546478
-	},
-
-	'mostPopularCountFront label' => {
-		message => q|Aantal pagina's Meest Populair op voorpagina.|,
-		lastUpdated => 1166546710
-	},
-
-	'func search link text' => {
-		message => q|Zoek binnen de pagina's|,
-		lastUpdated => 1166545806
-	},
-
-	'nothingFoundLabel' => {
-		message => q|Geen resultaten gevonden.|,
-		lastUpdated => 1166546916
 	},
 
 };

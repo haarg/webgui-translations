@@ -36,11 +36,6 @@ our $I18N = {
 		lastUpdated => 1154947614
 	},
 
-	'zip archive add/edit title' => {
-		message => q|Zip-archief, toevoegen/bewerken|,
-		lastUpdated => 1154949903
-	},
-
 	'noFileSpecified' => {
 		message => q|Fout: Geen bestand opgegeven.|,
 		lastUpdated => 1189374072
@@ -64,11 +59,6 @@ our $I18N = {
 	'error' => {
 		message => q|Alle fouten, gerapporteerd tijdens upload of uitpakken|,
 		lastUpdated => 1154948620
-	},
-
-	'zip archive add/edit body' => {
-		message => q|Zip-archief objecten zijn assets waarmee u statische content - als zip- of tar-bestand - kunt plaatsten, zoals html-pagina's met foto's. Deze worden weergegeven buiten de WebGUI-context, maar behouden de WebGUI bestandsbeveiliging. Het achief wordt uitgepakt in een folder in een WebGUI map voor statische content. De gebruiker wordt verwezen naar de startpagina wanneer op de link wordt geklikt.|,
-		lastUpdated => 1180655073
 	},
 
 	'unzip_error' => {
@@ -98,7 +88,7 @@ our $I18N = {
 
 	'zip archive template title' => {
 		message => q|Zip-archief, sjabloon|,
-		lastUpdated => 1154949956
+		lastUpdated => 1190025199
 	},
 
 	'noFileSpecified var' => {

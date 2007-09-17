@@ -11,11 +11,6 @@ our $I18N = {
 		lastUpdated => 1148307315
 	},
 
-	'view purchase template help body' => {
-		message => q|<p>Met dit sjabloon wordt de stijl beheerd van het scherm waar gebruikers en beheerders een aankoop kunnen bekijken of bewerken in het evenementen beheersysteem.</p>  <p>Behalve de sjabloon variabelen hierinder zijn ook de varaiabelen van het evenementen beheersysteem asset beschikbaar.</p>|,
-		lastUpdated => 1150098402
-	},
-
 	'add/edit event required events' => {
 		message => q|vereiste evenementen|,
 		lastUpdated => 1148289701
@@ -66,11 +61,6 @@ our $I18N = {
 		lastUpdated => 1149859714
 	},
 
-	'search template help body' => {
-		message => q|<p>Met dit sjabloon kan de stijl beheerd worden van het scherm waar de gebruikers en beheerders een aankoop kunnen bekijken of bewerken.</p>|,
-		lastUpdated => 1150098366
-	},
-
 	'numberOfSearchResults' => {
 		message => q|<p>Het aantal gevonden resultaten. </p>|,
 		lastUpdated => 1149861941
@@ -104,6 +94,11 @@ our $I18N = {
 	'checkout.url' => {
 		message => q|De URL voor het weergeven van de winkelwagen van de gebruiker.|,
 		lastUpdated => 1166194438
+	},
+
+	'choose a file to import' => {
+		message => q|Kies een bestand om te importeren|,
+		lastUpdated => 1190027343
 	},
 
 	'add discount pass' => {
@@ -146,6 +141,11 @@ our $I18N = {
 		lastUpdated => 1148893624
 	},
 
+	'export error' => {
+		message => q|Er is een fout opgetreden in de exportprocedure|,
+		lastUpdated => 1190027361
+	},
+
 	'add/edit event maximum attendees' => {
 		message => q|Maximum aantal deelnemers|,
 		lastUpdated => 1148289076
@@ -156,14 +156,29 @@ our $I18N = {
 		lastUpdated => 1148893935
 	},
 
+	'no' => {
+		message => q|nee|,
+		lastUpdated => 1190026100
+	},
+
 	'discount pass id description' => {
 		message => q|Er wordt intern een unieke identificatiecode gebruikt voor deze koringspas. Bij het aanmaken van een nieuwe pas, zal dit het woord &quot;Nieuw&quot; zijn. |,
 		lastUpdated => 1148296750
 	},
 
+	'import hoverhelp first line' => {
+		message => q|Als de eerste regel van het te importeren bestand veldnamen bevat in plaats van records klik hier 'ja' anders 'nee'.|,
+		lastUpdated => 1190026489
+	},
+
 	'address' => {
 		message => q|Adres|,
 		lastUpdated => 1148290710
+	},
+
+	'overwritten' => {
+		message => q|overschreven|,
+		lastUpdated => 1190026021
 	},
 
 	'None' => {
@@ -216,11 +231,6 @@ our $I18N = {
 		lastUpdated => 1149862027
 	},
 
-	'checkout template help body' => {
-		message => q|Het checkout template controleert welke elementen weergegeven worden tijdens de checkout procedure van het Conferentie systeem. (Event Management System) Dit moet niet worden verward met het betaal-gedeelte van de checkout procedure, waarin de gebruiker zijn betalingsgegevens invoert. Dit template verwerkt de informatie van van gebruikers voor de conferentie, controleert of er geen overlap is tussen lezingen in het schema en of de verplichte onderdelen zijn opgenomen, die mogelijk niet geselecteerd zijn door de gebruiker.|,
-		lastUpdated => 1189348410
-	},
-
 	'templateId' => {
 		message => q|Het gebruikte sjabloon voor het weergeven van dit evenement als dit opgevraagd wordt.|,
 		lastUpdated => 1149862868
@@ -256,14 +266,14 @@ our $I18N = {
 		lastUpdated => 1148289822
 	},
 
-	'edit registrant body' => {
-		message => q||,
-		lastUpdated => 1148299296
-	},
-
 	'global prerequisite' => {
 		message => q|Algemene vereisten|,
 		lastUpdated => 1148303651
+	},
+
+	'yes' => {
+		message => q|ja|,
+		lastUpdated => 1190025955
 	},
 
 	'tmplVar isError' => {
@@ -279,6 +289,11 @@ our $I18N = {
 	'add/edit event price description' => {
 		message => q|De deelnemenersbijdrage voor dit evenement.|,
 		lastUpdated => 1148289685
+	},
+
+	'what about duplicates' => {
+		message => q|Wat doen we met dubbelingen?|,
+		lastUpdated => 1190025968
 	},
 
 	'manage purchases template help title' => {
@@ -306,9 +321,14 @@ our $I18N = {
 		lastUpdated => 1148307358
 	},
 
-	'edit discount pass body' => {
-		message => q|In dit scherm kunnen nieuwe kortingspassen gemaakt worden, die gekocht kunnen worden of de bestaande passen kunnen bewerkt worden. |,
-		lastUpdated => 1148298487
+	'import need dup key' => {
+		message => q|Er moet ten minste een dubbele sleutel checkbox aangevinkt zijn.|,
+		lastUpdated => 1190026246
+	},
+
+	'import invalid status' => {
+		message => q|Record %d heeft een ongeledige Status (%s). Geldige waarden zijn: Goedgekeurd, Afgebroken, Geweigerd, Wachtend. |,
+		lastUpdated => 1190026387
 	},
 
 	'no sets to display' => {
@@ -364,6 +384,11 @@ our $I18N = {
 	'canReturnTransaction' => {
 		message => q|Een functie die klopt als elke aankoop teruggestuurd kan worden.|,
 		lastUpdated => 1149862610
+	},
+
+	'import field is duplicate key title' => {
+		message => q|Veld is een dubbele sleutel|,
+		lastUpdated => 1190027196
 	},
 
 	'add/edit event template' => {
@@ -436,6 +461,11 @@ our $I18N = {
 		lastUpdated => 1148287923
 	},
 
+	'import ok' => {
+		message => q|Alle %d records werden succesvol verwerkt. %d aangemaakt, %d witregels, %d dubbelingen %s.|,
+		lastUpdated => 1190026211
+	},
+
 	'add/edit event operator' => {
 		message => q|Bestuurder|,
 		lastUpdated => 1148289526
@@ -449,6 +479,11 @@ our $I18N = {
 	'Pagination variables' => {
 		message => q|Standaard variabelen voor afbreken paginas|,
 		lastUpdated => 1149853427
+	},
+
+	'import record parse error' => {
+		message => q|Is is een fout opgetreden bij het verwerken van record %d: '%s'|,
+		lastUpdated => 1190026161
 	},
 
 	'you do not have any metadata fields to display' => {
@@ -501,11 +536,6 @@ our $I18N = {
 		lastUpdated => 1148288960
 	},
 
-	'add/edit event help title' => {
-		message => q|Evenement toevoegen/bewerken|,
-		lastUpdated => 1148288929
-	},
-
 	'add/edit event end date' => {
 		message => q|Einddatum van het evenement|,
 		lastUpdated => 1148288465
@@ -531,6 +561,11 @@ our $I18N = {
 		lastUpdated => 1148290975
 	},
 
+	'skipped' => {
+		message => q|overgeslagen|,
+		lastUpdated => 1190025991
+	},
+
 	'pass name' => {
 		message => q|Naam kortingspas|,
 		lastUpdated => 1148307603
@@ -554,6 +589,11 @@ our $I18N = {
 	'search.formFooter' => {
 		message => q|<p>Code voor voetnoot voor beide typen zoekopdrachten. </p>|,
 		lastUpdated => 1149861308
+	},
+
+	'error no colon' => {
+		message => q|Fout|,
+		lastUpdated => 1190027389
 	},
 
 	'price.label' => {
@@ -611,6 +651,11 @@ our $I18N = {
 		lastUpdated => 1148304378
 	},
 
+	'no import took place' => {
+		message => q|Er werden geen records geimporteerd. Er waren fouten in de input:|,
+		lastUpdated => 1190026091
+	},
+
 	'purchasesLoop' => {
 		message => q|<p>Deze kring bevat alle goedgekeurde evenementen, zodat gebruikers hun aankopen kunnen bekijken.</p>|,
 		lastUpdated => 1149860927
@@ -646,9 +691,9 @@ our $I18N = {
 		lastUpdated => 1166194084
 	},
 
-	'add/edit help title' => {
-		message => q|Evenementen beheersysteem toevoegen/bewerken|,
-		lastUpdated => 1148290701
+	'import field is duplicate key description' => {
+		message => q|Om goed met dubbelingen om te gaan, moet het systeem in staat zijn dubbelingen te herkennen. Door deze checkboxen aan te vinken, weet het systeem welk veld het moet worden bekeken om te zien of het een dubbeling betreft. |,
+		lastUpdated => 1190027290
 	},
 
 	'ends.label' => {
@@ -661,19 +706,9 @@ our $I18N = {
 		lastUpdated => 1148291814
 	},
 
-	'edit prerequisite set body' => {
-		message => q|<p>Met dit scherm kunnen vereisten voor een evenement gedefinie&euml;erd worden en de vbestaande vereisten van een evenement kunnen worden aangepast.</p><p>Er bestaan twee catergorie&euml;n evenementen, wat betreft vereisten. Dat zijn degene die vereisten bevatten (Exclusieve evenementen) en degene die geen vereisten hebben (Hoofd evenementen). Alleen Hoofd evenementen kunnen dienen als vereisten. Het toevoegen van een vereiste aan een hoofd evenement verandert deze in een exclusief evenement en kan niet langer als hoofdevenement gebruikt worden.</p>|,
-		lastUpdated => 1148299255
-	},
-
 	'manage registrants' => {
 		message => q|Beheer deelnemers|,
 		lastUpdated => 1148306547
-	},
-
-	'add/edit event help body' => {
-		message => q|Met dit formulier kan een verkoop evenement op de site aangemaakt worden. Elk evenement lijkt erg op een kruising tussen een product uit het productenbeheer en een evenement in de evenementenkalender. Voer een titel, omschrijving, begin-en einddatum en een sjabloon, waarmee het evenement getoond moet worden in. Ook zijn er diverse velden, specifiek voor het evenementbeheer systeem, waarmee het maximum aantal deelnemers ingevoerd kan worden en gekeken kan worden of er andere evenementen zijn die vereist zijn voor dit evenement. |,
-		lastUpdated => 1148288896
 	},
 
 	'null field error' => {
@@ -761,6 +796,11 @@ our $I18N = {
 		lastUpdated => 1148287635
 	},
 
+	'import file contains field description' => {
+		message => q|Vink de checkboxes naast de velden aan welke moeten worden opgenomen in het te importeren bestand. De velden moeten in de aangegeven volgorde staan en alle verplichte velden moeten aangevinkt zijn en ingevuld om het importeren goed te laten gaan.|,
+		lastUpdated => 1190027186
+	},
+
 	'paginateBar' => {
 		message => q|<p>Een balk waarmee de gebruiker door de evenementen kan bladeren als er verschillende pagina&#39;s met evenementen zijn. </p>|,
 		lastUpdated => 1149861646
@@ -806,9 +846,9 @@ our $I18N = {
 		lastUpdated => 1149860757
 	},
 
-	'add/edit event metadata field body' => {
-		message => q|Met dit scherm kan een nieuw metadataveld aan een evenement toe worden gevoegd of kunnen bestaande metadatavelden opnieuw geconfigureerd worden.|,
-		lastUpdated => 1148289338
+	'import invalid template' => {
+		message => q|Record %d heeft een ongeledige Event Template Name value (%s). Het van toepassing zijnde Event template moet aangemaakt zijn voorafgaand aan de import.|,
+		lastUpdated => 1190026343
 	},
 
 	'type label here' => {
@@ -821,6 +861,11 @@ our $I18N = {
 		lastUpdated => 1149861816
 	},
 
+	'reset user' => {
+		message => q|Ken beginwaarden toe aan gebruiker|,
+		lastUpdated => 1148309951
+	},
+
 	'add/edit event what next' => {
 		message => q|Hoe wilt u verdergaan?|,
 		lastUpdated => 1148290086
@@ -831,9 +876,9 @@ our $I18N = {
 		lastUpdated => 1148295345
 	},
 
-	'reset user' => {
-		message => q|Ken beginwaarden toe aan gebruiker|,
-		lastUpdated => 1148309951
+	'skip' => {
+		message => q|overslaan|,
+		lastUpdated => 1190026000
 	},
 
 	'purchaseUrl' => {
@@ -861,6 +906,16 @@ our $I18N = {
 		lastUpdated => 1148287015
 	},
 
+	'import hoverhelp file' => {
+		message => q|Upload een komma-gescheiden bestand (CSV) om gebeurtenissen te importeren. (Rekenbladen, zoals Excel, kunnen bestanden bewaren als CSV bestand.) De velden moeten komma-gescheiden zijn, met dubbele aanhalingstekens ("") om de veldwaarden die komma's bevatten. Dubbele aanhalingstekens binnen de waarde worden geescaped met een ander dubbel aanhalingsteken (""). Het bestand wordt gecontroleerd op het aantal velden en verplichte velden voor er iets wordt geimporteerd. Als er fouten worden gevonden, dan wordt dat gemeld en wordt er niets geimporteerd. Tot de controle behoort niet of LDAP, externe databases, of templates geldig zijn. Het formaat van speciale velden is zoals het is voor export. Bij vragen over hoe een veld moet worden geformatteerd om geimporteerd te worden, kijk dan naar hoe het wordt geexporteerd. Velden met lijsten met meerdere waardes moeten worden samengevoegd in hetzelfde CSV veld gescheiden met een punt-komma (;). |,
+		lastUpdated => 1190026817
+	},
+
+	'import hoverhelp dups' => {
+		message => q|Het systeem zal gebruiken wat er wordt opgegeven onder "Veld is dubbele sleutel" als het veld om vast te stellen of er dubbelingen zijn gevonden. Wanneer een dubbeling is gevonden, bepaalt dit keuzeveld wat er met de dubbeling gebeurt. Dit is hetzij het overslaan van het inkomende record, hetzij het overschrijven van het oude record. Alle velden in overschreven records worden overschreven, onafhankelijk van de vraag of ze aanwezig zijn in het inkomende record of niet. |,
+		lastUpdated => 1190027058
+	},
+
 	'tmplVar sku template' => {
 		message => q|De SKU sjablonen die gebruikt worden voor het genereren van de SKU van dit evenement.|,
 		lastUpdated => 1150097992
@@ -879,6 +934,11 @@ our $I18N = {
 	'title.url' => {
 		message => q|Een URL waar een lijst met evenementen die dit evenement bevatten getoond wordt.|,
 		lastUpdated => 1166194684
+	},
+
+	'import form header' => {
+		message => q|Met gebruik van dit formulier kun je data importeren, direct in dit EMS. Wees er zeker van dat velden zijn gespecificeerd in de volgorde zoals beneden weergegeven.|,
+		lastUpdated => 1190027103
 	},
 
 	'tmplVar error' => {
@@ -906,6 +966,11 @@ our $I18N = {
 		lastUpdated => 1148287884
 	},
 
+	'import other line' => {
+		message => q|Record %d was %s.|,
+		lastUpdated => 1190026173
+	},
+
 	'sold out' => {
 		message => q|Uitverkocht|,
 		lastUpdated => 1148307782
@@ -914,6 +979,16 @@ our $I18N = {
 	'add/edit event what next description' => {
 		message => q|Na het invullen van dit formulier kan er nog een vereist evenement toegevoegd worden of de instellingen kunnen opgeslagen worden en kan er terug gegaan worden naar het evenementenbeheer. |,
 		lastUpdated => 1148290187
+	},
+
+	'import events' => {
+		message => q|Importeer events|,
+		lastUpdated => 1190027313
+	},
+
+	'check required fields' => {
+		message => q|Deze verplichte velden werden niet meegestuurd:|,
+		lastUpdated => 1190027331
 	},
 
 	'forced narrowing' => {
@@ -939,6 +1014,11 @@ our $I18N = {
 	'city' => {
 		message => q|Stad|,
 		lastUpdated => 1148295432
+	},
+
+	'field count mismatch' => {
+		message => q|Record %d heeft %d velden, niet %d zoals aangegeven door de checkboxes.|,
+		lastUpdated => 1190027426
 	},
 
 	'scheduling conflict message' => {
@@ -1031,6 +1111,11 @@ our $I18N = {
 		lastUpdated => 1149860821
 	},
 
+	'import file contains field title' => {
+		message => q|Bestand bevat veld|,
+		lastUpdated => 1190027115
+	},
+
 	'manage purchases' => {
 		message => q|Beheer verkopen|,
 		lastUpdated => 1148304821
@@ -1061,6 +1146,11 @@ our $I18N = {
 		lastUpdated => 1148287668
 	},
 
+	'import blank line' => {
+		message => q|Record %d was leeg (overgeslagen).|,
+		lastUpdated => 1190027443
+	},
+
 	'managePurchases.url' => {
 		message => q|<p>Een URL dat de gebruiker meeneemt naar het scherm waar aankopen beheerd kunnen worden (bijv.: toegevoegd, goedgekeurd, verwijderd). </p>|,
 		lastUpdated => 1149861764
@@ -1076,9 +1166,19 @@ our $I18N = {
 		lastUpdated => 1149862637
 	},
 
+	'null field error recnum' => {
+		message => q|Het %s veld kan niet leeggelaten worden (entry %d).|,
+		lastUpdated => 1190026065
+	},
+
 	'starts.label' => {
 		message => q|<p>Het label &quot;Begint&quot;.</p>|,
 		lastUpdated => 1149862053
+	},
+
+	'enter import file' => {
+		message => q|Geef een bestand om te importeren op.|,
+		lastUpdated => 1190027379
 	},
 
 	'tmplVar weight' => {
@@ -1096,19 +1196,14 @@ our $I18N = {
 		lastUpdated => 1149862825
 	},
 
-	'viewPurchaseTitle' => {
-		message => q|Een label voor de titel van dit scherm.|,
-		lastUpdated => 1149862711
-	},
-
-	'event template help body' => {
-		message => q|<p>Dit sjabloon wordt gebruikt voor het tonen van de inhoud van een enkel evenement aan de gebruiker.</p>|,
-		lastUpdated => 1150098324
-	},
-
 	'eventIsFull' => {
 		message => q|Een indicator die waar is als er geen plaatsen voor het evenement over zijn.|,
 		lastUpdated => 1166194498
+	},
+
+	'viewPurchaseTitle' => {
+		message => q|Een label voor de titel van dit scherm.|,
+		lastUpdated => 1149862711
 	},
 
 	'confirm delete prerequisite' => {
@@ -1166,14 +1261,14 @@ our $I18N = {
 		lastUpdated => 1149861249
 	},
 
-	'approve event description' => {
-		message => q|Evenementen kunnen goedgekeurd worden, zodat goedgekeurde evenmenten ingevoerd kunnen worden of de goedkeuring van evenementen kan direct bewerkt worden.|,
-		lastUpdated => 1148291769
-	},
-
 	'pass name description' => {
 		message => q|De naam van de kortingspas. In het systeem wordt dit gebruikt voor referentie naar deze pas en de bijbehorende kortingen, dus kies een omschrijvende naam. Dit veld kan niet leeggelaten worden.|,
 		lastUpdated => 1148307741
+	},
+
+	'approve event description' => {
+		message => q|Evenementen kunnen goedgekeurd worden, zodat goedgekeurde evenmenten ingevoerd kunnen worden of de goedkeuring van evenementen kan direct bewerkt worden.|,
+		lastUpdated => 1148291769
 	},
 
 	'missing prerequisites message' => {
@@ -1196,14 +1291,14 @@ our $I18N = {
 		lastUpdated => 1149862748
 	},
 
-	'advSearch.formHeader' => {
-		message => q|<p>Koptekst voor een geavanceerde zoekopdracht. </p>|,
-		lastUpdated => 1149861271
-	},
-
 	'create new user' => {
 		message => q|M&nbsp;&nbsp;&nbsp; aak nieuwe gebruiker aan.|,
 		lastUpdated => 1148296004
+	},
+
+	'advSearch.formHeader' => {
+		message => q|<p>Koptekst voor een geavanceerde zoekopdracht. </p>|,
+		lastUpdated => 1149861271
 	},
 
 	'assetName' => {
@@ -1231,9 +1326,9 @@ our $I18N = {
 		lastUpdated => 1149860007
 	},
 
-	'add/edit help body' => {
-		message => q|<p>Het evenementen beheersysteem verzorgt registratie en betalingen van evenementen binnen WebGUI. Het evenementenbeheer kan toebedeeld worden aan twee groepen, de ene kan evenementen toevoegen en de ander kan ze goedkeuren. Ook kunnen er verscheidene sjablonen aangemaakt worden, waarmee de lijst met evenementen en het uitschrijf formulier getoond worden.</p><p>&nbsp;</p><p>Elk evenement dat te koop is, is een product uit het commercie systeem.&nbsp;</p>|,
-		lastUpdated => 1148295334
+	'import invalid prereq' => {
+		message => q|Record %d heeft een ongeledige Prerequisite Set Name value (%s). De bijbehorende Prerequisite Set moet aangemaakt worden voor de import.|,
+		lastUpdated => 1190026450
 	},
 
 	'add/edit event assigned prerequisites' => {
@@ -1246,14 +1341,14 @@ our $I18N = {
 		lastUpdated => 1149862180
 	},
 
-	'manage discount pass body' => {
-		message => q|Met het kortingspas beheerscherm kunnen de kortingspassen van elk evenementen beheersysteem assets op de site beheerd worden. Elke gebruiker die evenementen kan toevoegen heeft ook toegang tot dit scherm. Elke pas kan verwijderd of bewerkt worden met behulp van de lijst met getoonde passen. Gebruik de link aan de rechterzijde voor het aanmaken van een nieuwe pas. |,
-		lastUpdated => 1148304683
-	},
-
 	'purchase.url' => {
 		message => q|<p>Het URL waar de gebruiker zich in kan schrijven voor dit evenement en het toe kan voegen aan hun winkelwagen. Het URL zal leeg zijn als het evenement volgeboekt is.</p>|,
 		lastUpdated => 1149860726
+	},
+
+	'ignore first line' => {
+		message => q|Negeer de eerste regel?|,
+		lastUpdated => 1190027452
 	},
 
 	'search template help title' => {
@@ -1291,14 +1386,14 @@ our $I18N = {
 		lastUpdated => 1148307437
 	},
 
-	'template help body' => {
-		message => q|Met dit sjabloon wordt de stijl van de hoofdpagina van het evenementen beheersysteem bepaald. Hier worden producten getoond en een link waarmee de evenementen beheerd kunnen worden in het systeem.|,
-		lastUpdated => 1166194662
-	},
-
 	'email address' => {
 		message => q|Email adres|,
 		lastUpdated => 1148299310
+	},
+
+	'meta hover help' => {
+		message => q|Dit veld is maatwerk. Vraag een beheerder om hulp.|,
+		lastUpdated => 1190026129
 	},
 
 	'events_loop' => {
@@ -1311,19 +1406,29 @@ our $I18N = {
 		lastUpdated => 1148308110
 	},
 
-	'manage purchases template help body' => {
-		message => q|<p>Dit sjabloon wordt gebruikt voor het weergeven van het scherm van het evenementen beheersysteem waar gebruikers hun aankopen kunnen beheren.</p>|,
-		lastUpdated => 1150098342
-	},
-
 	'seats available' => {
 		message => q|Aantal beschikbare plaatsen|,
 		lastUpdated => 1148307662
 	},
 
+	'export events' => {
+		message => q|Exporteer events|,
+		lastUpdated => 1190027401
+	},
+
 	'save approvals' => {
 		message => q|Bewaar goedkeuringen |,
 		lastUpdated => 1148307808
+	},
+
+	'overwrite' => {
+		message => q|overschrijven|,
+		lastUpdated => 1190026038
+	},
+
+	'short title' => {
+		message => q|titel|,
+		lastUpdated => 1190026010
 	},
 
 	'paginate after' => {
@@ -1364,6 +1469,11 @@ our $I18N = {
 	'search.formSubmit' => {
 		message => q|<p>Een knop waarmee de zoek data van de gebruiker ingevoerd wordt. De knop zal het internationale woord Filter bevatten. </p>|,
 		lastUpdated => 1149861326
+	},
+
+	'import missing required' => {
+		message => q|Record %d had geen ingevuld %s. Dit is een verplicht veld.|,
+		lastUpdated => 1190026274
 	},
 
 };

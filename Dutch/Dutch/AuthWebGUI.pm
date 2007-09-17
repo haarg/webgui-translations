@@ -1,6 +1,11 @@
 package WebGUI::i18n::Dutch::AuthWebGUI;
 
 our $I18N = {
+	'new password label' => {
+		message => q|Nieuw wachtwoord|,
+		lastUpdated => 1190024946
+	},
+
 	'expired.message' => {
 		message => q|Een willekeurig bericht, teruggebracht door het systeem. Normaal gesproken weergegeven nadat het formulier is verzonden. |,
 		lastUpdated => 1156034889
@@ -19,11 +24,6 @@ our $I18N = {
 	'7' => {
 		message => q|Wachtwoorden moeten minimaal het aantal karakters hebben van: |,
 		lastUpdated => 1155558075
-	},
-
-	'anon reg template body' => {
-		message => q|De volgende sjabloon-variabelen zijn beschikbaar voor WebGUI authenticatie anonieme registratie-sjablonen. |,
-		lastUpdated => 1155917592
 	},
 
 	'account.form.passwordConfirm.label' => {
@@ -111,6 +111,11 @@ our $I18N = {
 		lastUpdated => 1155917795
 	},
 
+	'email recover password start message' => {
+		message => q|Geef hieronder hetzij uw emailadres hetzij uw gebruikersnaam om uw wachtwoord opnieuw op te vragen.|,
+		lastUpdated => 1190025102
+	},
+
 	'20' => {
 		message => q|Wijzigen wachtwoord toestaan?|,
 		lastUpdated => 1155557910
@@ -129,6 +134,16 @@ our $I18N = {
 	'recoverFormProfile formElement' => {
 		message => q|Een formulier-element voor het profielveld. |,
 		lastUpdated => 1166625917
+	},
+
+	'setting passwordRecoveryType email' => {
+		message => q|Emailadres|,
+		lastUpdated => 1190024708
+	},
+
+	'recover password not found' => {
+		message => q|Er is geen gebruiker gevonden bij de gegevens die zijn opgegeven.|,
+		lastUpdated => 1190024732
 	},
 
 	'10' => {
@@ -156,14 +171,14 @@ our $I18N = {
 		lastUpdated => 1156034652
 	},
 
-	'deactivate account template body' => {
-		message => q|De volgende variabelen zijn beschikbaar voor het sjabloon WebGUI Authenticatie: Deactiveer Login|,
-		lastUpdated => 1166625704
-	},
-
 	'11' => {
 		message => q|Nieuwe wachtwoord|,
 		lastUpdated => 1155557698
+	},
+
+	'recover password email text3' => {
+		message => q|Als u niet heeft verzocht uw wachtwoord opnieuw in te stellen, neemt u dan contact op ment de systeembeheerder door dit bericht te beantwoorden.|,
+		lastUpdated => 1190024771
 	},
 
 	'password recovery multiple results' => {
@@ -176,14 +191,14 @@ our $I18N = {
 		lastUpdated => 1166625932
 	},
 
-	'expired template body' => {
-		message => q|De volgende sjabloon-variabelen zijn beschikbaar voor WebGUI authenticatie wachtwoord verlopen-sjablonen|,
-		lastUpdated => 1156025202
-	},
-
 	'account.form.username' => {
 		message => q|Standaard gebruikersnaam-formulierveld.|,
 		lastUpdated => 1155900542
+	},
+
+	'setting passwordRecoveryType profile' => {
+		message => q|Profielveld|,
+		lastUpdated => 1190024693
 	},
 
 	'create.form.passwordConfirm' => {
@@ -201,6 +216,21 @@ our $I18N = {
 		lastUpdated => 1166626275
 	},
 
+	'recover password email text1' => {
+		message => q|Uw verzoek om het wachtwoord opnieuw in te stellen is ontvangen|,
+		lastUpdated => 1190024840
+	},
+
+	'setting passwordRecoveryType none' => {
+		message => q|Nee|,
+		lastUpdated => 1190024700
+	},
+
+	'new password verify' => {
+		message => q|Nieuw wachtwoord (ter bevestiging)|,
+		lastUpdated => 1190024938
+	},
+
 	'expired.form.footer' => {
 		message => q|De vereiste formulier-onderdelen die na het wachtwoord verlopen pagina-formulier komen. |,
 		lastUpdated => 1156034519
@@ -211,6 +241,11 @@ our $I18N = {
 		lastUpdated => 1166626081
 	},
 
+	'error password nonWordCharacters' => {
+		message => q|Wachtwoorden moeten ten minste %s vreemde tekens bevatten (zoals "!", "@" of "$").|,
+		lastUpdated => 1190025075
+	},
+
 	'deactivate account template title' => {
 		message => q|Sjabloon WebGUI Authenticatie: Deactiveer Login|,
 		lastUpdated => 1166625726
@@ -219,6 +254,11 @@ our $I18N = {
 	'login template' => {
 		message => q|Login-sjabloon|,
 		lastUpdated => 1156034900
+	},
+
+	'error passwordRecoveryType no profile fields required' => {
+		message => q|Wachtwoorden kunnen niet worden opgegevraagd aan de hand van profielvelden, omdat geen enkel profielveld is ingesteld als verplicht om het wachtwoord opnieuw te mogen instellen.|,
+		lastUpdated => 1190025001
 	},
 
 	'12' => {
@@ -239,6 +279,11 @@ our $I18N = {
 	'check email for validation' => {
 		message => q|Controleer alstublieft uw e-mail om uw account te activeren.|,
 		lastUpdated => 1155917843
+	},
+
+	'email password recovery end message' => {
+		message => q|Geef hieronder een nieuw wachtwoord op voor uw account|,
+		lastUpdated => 1190025148
 	},
 
 	'login.label' => {
@@ -266,6 +311,11 @@ our $I18N = {
 		lastUpdated => 1154000828
 	},
 
+	'new password help' => {
+		message => q|Geef hier uw nieuwe wachtwoord|,
+		lastUpdated => 1190024958
+	},
+
 	'displayTitle' => {
 		message => q|Standaard pagina-titel |,
 		lastUpdated => 1156023671
@@ -286,6 +336,11 @@ our $I18N = {
 		lastUpdated => 1156034627
 	},
 
+	'setting webguiNonWordCharacters' => {
+		message => q|Minimaal aantal vreemde tekens in wachtwoord|,
+		lastUpdated => 1190024684
+	},
+
 	'17' => {
 		message => q|Wachtwoord gewijzigd|,
 		lastUpdated => 1155557826
@@ -301,6 +356,11 @@ our $I18N = {
 		lastUpdated => 1156034562
 	},
 
+	'error password requiredDigits' => {
+		message => q|Wachtwoorden moeten ten minste %s cijfers bevatten.|,
+		lastUpdated => 1190025049
+	},
+
 	'display account template title' => {
 		message => q|WebGUI authenticatie weergave account-sjabloon |,
 		lastUpdated => 1156023652
@@ -309,6 +369,11 @@ our $I18N = {
 	'1' => {
 		message => q|WebGUI authenticatie opties|,
 		lastUpdated => 1155557680
+	},
+
+	'password recovery email label' => {
+		message => q|Emailadres|,
+		lastUpdated => 1190024884
 	},
 
 	'account.message' => {
@@ -321,9 +386,24 @@ our $I18N = {
 		lastUpdated => 1156035103
 	},
 
+	'password recovery login label' => {
+		message => q|Loginnaam|,
+		lastUpdated => 1190024863
+	},
+
 	'validate email' => {
 		message => q|E-mailadressen bevestigen?|,
 		lastUpdated => 1154000540
+	},
+
+	'password recovery login hoverHelp' => {
+		message => q|Geef uw gebruikersnaam in |,
+		lastUpdated => 1190024874
+	},
+
+	'setting webguiRequiredMixedCase' => {
+		message => q|Aantal verplichte hoofdletters in het wachtwoord|,
+		lastUpdated => 1190024642
 	},
 
 	'create.form.password' => {
@@ -366,6 +446,11 @@ our $I18N = {
 		lastUpdated => 1155922668
 	},
 
+	'new password verify help' => {
+		message => q|Wachtwoord (ter bevestiging)|,
+		lastUpdated => 1190024920
+	},
+
 	'password recovery no username' => {
 		message => q|Voor het herstellen van uw wachtwoord is de gebruikersnaam vereist.|,
 		lastUpdated => 1166780076
@@ -386,6 +471,11 @@ our $I18N = {
 		lastUpdated => 1156035552
 	},
 
+	'password recovery email hoverHelp' => {
+		message => q|Geef uw emailadres in|,
+		lastUpdated => 1190024896
+	},
+
 	'account.noform' => {
 		message => q|Geeft aan of het account-weergave-formulier al dan niet enkele zichtbare velden heeft. |,
 		lastUpdated => 1155906705
@@ -394,6 +484,11 @@ our $I18N = {
 	'createAccount.url' => {
 		message => q|URL voor de anonieme registratie-pagina|,
 		lastUpdated => 1156022002
+	},
+
+	'email recover password finish message1' => {
+		message => q|Een email is verzonden naar |,
+		lastUpdated => 1190025130
 	},
 
 	'account.form.username.label' => {
@@ -426,9 +521,9 @@ our $I18N = {
 		lastUpdated => 1156034449
 	},
 
-	'login template body' => {
-		message => q|De volgende sjabloon-variabelen zijn beschikbaar voor WebGUI authenticatie login-sjablonen.|,
-		lastUpdated => 1156035080
+	'email recover password finish message2' => {
+		message => q|met instructies om uw wachtwoord opnieuw in te stellen.|,
+		lastUpdated => 1190025120
 	},
 
 	'captcha label' => {
@@ -481,6 +576,16 @@ our $I18N = {
 		lastUpdated => 1155558138
 	},
 
+	'recover password email text2' => {
+		message => q|Klik op de link hieronder om de site te bezoeken en daar uw wachtwoord opnieuw in te stellen.|,
+		lastUpdated => 1190024797
+	},
+
+	'setting webguiRequiredDigits' => {
+		message => q|Minimaal aantal cijfers in wachtwoord|,
+		lastUpdated => 1190024663
+	},
+
 	'expired.form.hidden' => {
 		message => q|Verborgen formulier-velden die vereist zijn om het formulier te versturen.  |,
 		lastUpdated => 1156034602
@@ -511,9 +616,9 @@ our $I18N = {
 		lastUpdated => 1156035792
 	},
 
-	'display account template body' => {
-		message => q|De volgende sjabloon-variabelen zijn beschikbaar voor de WebGUI authenticatie weergave account-sjablonen.|,
-		lastUpdated => 1156022052
+	'error password requiredMixedCase' => {
+		message => q|Wachtwoorden moeten ten minste %s hoofdletters bevatten en ten minste een onderkast karakter.|,
+		lastUpdated => 1190025033
 	},
 
 	'webguiPasswordRecoveryRequireUsername hoverHelp' => {
@@ -521,9 +626,9 @@ our $I18N = {
 		lastUpdated => 1166627245
 	},
 
-	'recovery template body' => {
-		message => q|De volgende template variabelen zijn beschikbaar, voor de templates voor het terugwinnen van het wachtwoord.|,
-		lastUpdated => 1154000907
+	'recover password banner' => {
+		message => q|Wachtwoord opnieuw opvragen|,
+		lastUpdated => 1190024852
 	},
 
 	'5' => {

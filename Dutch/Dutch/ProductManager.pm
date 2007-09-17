@@ -6,19 +6,9 @@ our $I18N = {
 		lastUpdated => 1166627292
 	},
 
-	'help list products body' => {
-		message => q|<p><strong>Overzicht</strong></p><p>Naast inschrijvingen heeft WebGUI ook producten. Op deze manier kunnen producten makkelijk verkocht worden. Er kan een basisproduct gedefini&euml;erd worden dat uitgebreid kan worden met extra parameters. WebGUI genereerd alle mogelijke samenstellingen van de producten en berekent de prijs, het gewicht en de SKU aan de hand van de ingestelde waarden.</p><p>Stel dat u t-shirts wilt verkopen in de maten S, M, L en XL en de kleuren blauw en grijs. XL t-shirts zijn &euro;1.50 duurder.</p><p>Voeg een product genaamd t-shirt toe en geef deze de parameters kleur en maat. Aan de kleur parameter&nbsp; kunnen nu de opties blauw en grijs worden toegevoegd en aan de maat parameter S, M, L en XL. De prijs aanpassing bij de XL optie wordt op 1.50 gezet.</p><p>Er zijn nu acht varianten van het product t-shirt binnen een korte tijd gemaakt.</p><p>Als de blauwe t-shirts op zijn, kan deze variant uitgezet worden.</p><p>&nbsp;</p><p><strong>Gebruik</strong></p><p>Nieuwe producten kunnen gemaakt worden via de link &quot;Voeg nieuw product toe&quot; in het menu aan de rechterkant. Een bestaand product kan beheert worden door de bewerk knop aan te klikken. Deze staat links van het product. Met de knop Verwijderen kan het product uit WebGUI gehaald worden. </p>|,
-		lastUpdated => 1154339837
-	},
-
 	'edit product title error' => {
 		message => q|Er moet een titel van het product worden ingevoerd.|,
 		lastUpdated => 1154335541
-	},
-
-	'help manage product title' => {
-		message => q|Beheer product|,
-		lastUpdated => 1154339918
 	},
 
 	'edit product' => {
@@ -36,11 +26,6 @@ our $I18N = {
 		lastUpdated => 1166634826
 	},
 
-	'help edit parameter body' => {
-		message => q|<p>Parameters definieren de variabele eigenschappen van het product, zoals de kleur of de afmetingen. Een parameter heeft alleen een naam. Deze naam wordt ook gebruikt voor de naam van de sjabloon variabele die naar deze parameter verwijst in het SKU sjabloon.</p><p>Bij het toevoegen van een nieuwe parameter, wordt het SKU sjabloon bewerkingsscherm getoond, waar op opslaan kan worden geklikt. Zo kan deze parameter toegevoegd worden aan het SKU sjabloon van dit product.</p><p>Bij het bewerken van een bestaande parameter moet het SKU sjabloon automatisch vernieuwd worden en wordt u teruggebracht naar het scherm voor productbeheer na het klikken op &quot;Opslaan&quot;.</p>|,
-		lastUpdated => 1154336345
-	},
-
 	'group id description' => {
 		message => q|Voeg kopers van dit product toe aan deze groep. Selecteer "everyone" (iedereen) om dit uit te schakelen.|,
 		lastUpdated => 1166634146
@@ -54,16 +39,6 @@ our $I18N = {
 	'edit option parameterId error' => {
 		message => q|Er is geen identificatie van de parameter opgegeven.|,
 		lastUpdated => 1154333589
-	},
-
-	'help edit variant body' => {
-		message => q|<p>WebGUI genereerd automatisch de prijs, het gewicht en de SKU voor de varianten van een product. Meestal is dit gewenst, maar soms moet&nbsp;&eacute;&eacute;n van deze eigenschappen gewijzigd worden. Dit kan bijvoorbeeld het geval zijn bij kortingen voor bepaalde varianten.</p><p>In dit scherm kunnen deze wijzigingen aangebracht worden. Voor lege velden van het formulier berekent WebGUI automatisch de waarde, terwijl die velden die data bevatten de bijbehorende eigenschappen op die waarde zetten.</p><p>Wanneer een veld gewijzigd is, maar het terug wil zetten op de gegenereerde waarde kan het veld leeggemaakt worden. Dan zal WebGUI de waarde opnieuw berekenen. Een veld dat alleen spaties bevat wordt niet als leeg beschouwd.</p><p>De wijzigingen die voor een variant van het product kunnen worden aangebracht zijn:&nbsp;</p>|,
-		lastUpdated => 1154338997
-	},
-
-	'help edit parameter title' => {
-		message => q|Bewerk parameter|,
-		lastUpdated => 1154336359
 	},
 
 	'edit option value error' => {
@@ -101,11 +76,6 @@ our $I18N = {
 		lastUpdated => 1166627305
 	},
 
-	'help edit product title' => {
-		message => q|Bewerk product|,
-		lastUpdated => 1154336577
-	},
-
 	'list variants' => {
 		message => q|Varianten lijst|,
 		lastUpdated => 1154339947
@@ -139,39 +109,6 @@ our $I18N = {
 	'sku override description' => {
 		message => q|De SKU van deze variant van het product.|,
 		lastUpdated => 1166634792
-	},
-
-	'help manage product body' => {
-		message => q|Het producten-beheer-menu laat u de eigenschappen van uw product inspecteren en bewerken.<br />
-<br />
-<strong>Overzicht</strong><br />
-<br />
-Producten bestaan uit basale eigenschappen met parameters met diverse opties. De eigenschappen zijn de basis van uw product. Zij bepalen de standaard prijs, het gewicht, SKU en SKU-samenstelling van het product en al zijn varianten.<br />
-<br />
-<strong>Eigenschappen</strong><br />
-<br />
-De eigenschappen-sectie laat de basale waarden voor uw product zien. Elke product-configuratie die u verkoopt is gebaseerd op deze eigenschappen. Bewerkers stellen opties in die gerelateerd zijn aan deze waarden. U kunt eigenschappen bewerken door de bewerk-knop erboven te klikken.<br />
-<br />
-<strong>Parameters</strong><br />
-<br />
-Parameters zijn de verschillende vormen waarin uw product verschijnt, zoals 'kleur' en 'maat' voor een T-shirt.  U kunt een parameter toevoegen om deze vormen te bepalen door op de 'Parameter toevoegen'-link te klikken. Het bewerken of verwijderen van een parameter vindt plaats door de bewerk- respectievelijk verwijder-knop links van de parameter te klikken.<br />
-<br />
-Als u een parameter wilt toevoegen, wordt u naar het SKU-sjabloon-bewerken-scherm gebracht zodra u op 'bewaren' klikt. Hiermee kunt u deze paramater aan het SKU-sjabloon van het product toevoegen.<br />
-<br />
-Als u een parameter bewerkt om de naam te veranderen, moet het SKU-sjabloon automatische worden geüpdate en zult u worden teruggebracht naar het producten-beheer-scherm nadat u 'bewaren' heeft geklikt.<br />
-<br />
-<strong>Opties</strong><br />
-<br />
-Een optie is een waarde die een parameter kan aannemen, zoals 'blauw', of 'grijs' en 'groot' en 'klein'. Opties laten u ook wijzigende factoren in te stellen voor prijs, gewicht en SKU. Deze wijzigende factoren voegen toe aan de basis prijs, het gewicht en SKU, zoals bepaald in de eigenschappen van uw product. Een wijzigende prijs-factor van 5.00 voor 'Regenboog' verhoogt de prijs van regenboog-gekleurde T-shirts met $5.00.<br />
-<br />
-Om een optie toe te voegen aan een bestaande parameter, klik op de 'Optie toevoegen'-link direct eronder.<br />
-<br />
-Een optie kan worden bewerkt door de bewerk-knop links te klikken. De verwijder-knop links van een optie laat u die optie verwijderen.<br />
-<br />
-<strong>Lijst varianten</strong><br />
-<br />
-Deze menu-optie kan worden gevonden in het menu aan de rechterkant, en laat u alle product-varianten zien die mogelijk zijn met de gegeven opties. Ook kunt hier de automatisch gegeneerde prijs, gewicht en SKU-waarden veranderen en de beschikbaarheid van een product-variant instellen.|,
-		lastUpdated => 1166634742
 	},
 
 	'weight override' => {
@@ -229,11 +166,6 @@ De complete lijst met beschikbare sjabloon variabelen wordt ook bovenaan het for
 		lastUpdated => 1154340669
 	},
 
-	'help edit variant title' => {
-		message => q|Bewerk product variant|,
-		lastUpdated => 1154339014
-	},
-
 	'price description' => {
 		message => q|De standaard prijs van het product.|,
 		lastUpdated => 1154340120
@@ -254,11 +186,6 @@ De complete lijst met beschikbare sjabloon variabelen wordt ook bovenaan het for
 		lastUpdated => 1166627288
 	},
 
-	'help edit option title' => {
-		message => q|Bewerk optie|,
-		lastUpdated => 1154335920
-	},
-
 	'template description' => {
 		message => q|Het standaard sjabloon dat voor het product wordt gebruikt. |,
 		lastUpdated => 1154340747
@@ -267,25 +194,6 @@ De complete lijst met beschikbare sjabloon variabelen wordt ook bovenaan het for
 	'confirm delete product' => {
 		message => q|Weet u zeker dat u dit product wilt verwijderen? |,
 		lastUpdated => 1156086197
-	},
-
-	'help list variants body' => {
-		message => q|<strong>Overzicht</strong><br />
-<br />
-Product-varianten zijn wat klanten uiteindelijk kunnen kopen. Dit scherm laat alle mogelijke configuraties van parameters en opties zien, die daarom bepalen welke product-varianten u uiteindelijk kunt verkopen.<br /> 
-<br />
-<strong>De varianten-lijst</strong><br />
-<br />
-De lijst laat alle product-varianten zien. De kolommen links geven de configuratie van de product-variant aan, die aan de rechterkant geven de prijs, het gewicht, SKU en beschikbaarheid aan. Waarden gemarkeerd met een asterisk ('*') worden overschreven via de bewerkfunctie van de variant (zie onder).<br />
-<br />
-<strong>Gebruik</strong><br />
-<br />
-Afgezien van het inspecteren van varianten, kunt u twee dingen in dit scherm doen.<br />
-<br />
-Ten eerste kunt u de beschikbaarheid van bepaalde varianten instellen. Dit gebeurt met controle-hokjes in de kolom 'beschikbaar'. Als een hokje is aangevinkt, betekent dat dat het product ernaast beschikbaar is voor verkoop. Natuurlijk is het niet beschikbaar als het hokje leeg is. Als u enige veranderingen maakt in de hokjes, dient u op de 'bewaar'-knop te klikken die onderaan en bovenaan het scherm staat.<br />
-<br />
-U kunt varianten ook bewerken door hun automatisch gegenereerde waarden te overschrijven voor prijs, gewicht en SKU. Om dit te doen kunt u simpelweg op de bewerk-knop drukken naast de variant die u wilt bewerken.|,
-		lastUpdated => 1166634580
 	},
 
 	'lifetime' => {
@@ -303,16 +211,6 @@ U kunt varianten ook bewerken door hun automatisch gegenereerde waarden te overs
 		lastUpdated => 1154339990
 	},
 
-	'help list variants title' => {
-		message => q|Lijst product varianten|,
-		lastUpdated => 1154339895
-	},
-
-	'help list products title' => {
-		message => q|Product lijst|,
-		lastUpdated => 1154339859
-	},
-
 	'weight' => {
 		message => q|Gewicht|,
 		lastUpdated => 1154340830
@@ -321,16 +219,6 @@ U kunt varianten ook bewerken door hun automatisch gegenereerde waarden te overs
 	'edit option weight modifier' => {
 		message => q|Aanpassing gewicht|,
 		lastUpdated => 1154335307
-	},
-
-	'help edit product body' => {
-		message => q|De eigenschappen sectie laat de basiswaarden van het product zien. Elke product variant die verkocht word, wordt op deze waarden gebaseerd. Aanpassingen die in de opties staan zijn relatief ten opzichte van deze waarden. De eigenschappen van een product zijn:|,
-		lastUpdated => 1154336539
-	},
-
-	'edit option weight modifier description' => {
-		message => q|Het gewicht dat toegevoegd wordt aan het standaard gewicht voor varianten van het product die deze optie bevatten.|,
-		lastUpdated => 1154335359
 	},
 
 	'template' => {
@@ -346,6 +234,11 @@ U kunt varianten ook bewerken door hun automatisch gegenereerde waarden te overs
 	'edit parameter name description' => {
 		message => q|De naam van deze parameter|,
 		lastUpdated => 1154335401
+	},
+
+	'edit option weight modifier description' => {
+		message => q|Het gewicht dat toegevoegd wordt aan het standaard gewicht voor varianten van het product die deze optie bevatten.|,
+		lastUpdated => 1154335359
 	},
 
 	'manage products' => {
@@ -443,19 +336,14 @@ U kunt varianten ook bewerken door hun automatisch gegenereerde waarden te overs
 		lastUpdated => 1166634778
 	},
 
-	'topicName' => {
-		message => q|Product beheer|,
-		lastUpdated => 1154340804
-	},
-
 	'add option' => {
 		message => q|Optie toevoegen|,
 		lastUpdated => 1154333404
 	},
 
-	'help edit option body' => {
-		message => q|<p>Opties zijn de waardn die een parameter aan kan nemen, zoals blauw, rood of grijs.</p><p>Opties kunnen verscheidene&nbsp; aanpassingen hebben.<br /></p>|,
-		lastUpdated => 1154335900
+	'topicName' => {
+		message => q|Product beheer|,
+		lastUpdated => 1154340804
 	},
 
 	'available description' => {
@@ -491,6 +379,11 @@ U kunt varianten ook bewerken door hun automatisch gegenereerde waarden te overs
 	'add parameter' => {
 		message => q|Parameter toevoegen|,
 		lastUpdated => 1154333417
+	},
+
+	'productId' => {
+		message => q|Product ID|,
+		lastUpdated => 1190023890
 	},
 
 	'group expires offset' => {

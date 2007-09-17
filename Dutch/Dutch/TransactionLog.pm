@@ -71,6 +71,11 @@ our $I18N = {
 		lastUpdated => 1152604719
 	},
 
+	'username' => {
+		message => q|Gebruiker|,
+		lastUpdated => 1190023786
+	},
+
 	'itemId' => {
 		message => q|De interne WebGUI identificatie die aan dit object verbonden is. |,
 		lastUpdated => 1152604172
@@ -171,11 +176,6 @@ our $I18N = {
 		lastUpdated => 1152603385
 	},
 
-	'help purchase history template body' => {
-		message => q|De volgende sjabloon variabelen zijn beschikbaar in dit sjabloon:|,
-		lastUpdated => 1152604012
-	},
-
 	'shipping status' => {
 		message => q|Verzendstatus|,
 		lastUpdated => 1152604746
@@ -193,7 +193,7 @@ our $I18N = {
 
 	'help purchase history template title' => {
 		message => q|Bekijk aankoophistorie sjabloon|,
-		lastUpdated => 1152604033
+		lastUpdated => 1190023774
 	},
 
 	'itemType' => {
