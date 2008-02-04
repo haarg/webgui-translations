@@ -1,4 +1,4 @@
-package WebGUI::i18n::polish;
+package WebGUI::i18n::Polish;
 
 use strict;
 
