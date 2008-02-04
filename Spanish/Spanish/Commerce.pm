@@ -51,11 +51,6 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'help manage commerce title' => {
-		message => q||,
-		lastUpdated => 
-	},
-
 	'checkout canceled template' => {
 		message => q||,
 		lastUpdated => 
@@ -111,12 +106,12 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'help manage pending transactions body' => {
+	'pending' => {
 		message => q||,
 		lastUpdated => 
 	},
 
-	'pending' => {
+	'username' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -232,8 +227,8 @@ our $I18N = {
 	},
 
 	'enable' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Habilitar|,
+		lastUpdated => 1199913869
 	},
 
 	'shopping cart empty' => {
@@ -351,11 +346,6 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'help checkout confirm template body' => {
-		message => q||,
-		lastUpdated => 
-	},
-
 	'init date' => {
 		message => q||,
 		lastUpdated => 
@@ -416,17 +406,17 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'help checkout error template body' => {
-		message => q||,
-		lastUpdated => 
-	},
-
 	'confirm checkout template' => {
 		message => q||,
 		lastUpdated => 
 	},
 
 	'connection error' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'label' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -446,7 +436,7 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'help select payment template body' => {
+	'label hoverhelp' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -491,11 +481,6 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'help manage commerce body' => {
-		message => q||,
-		lastUpdated => 
-	},
-
 	'help select payment template title' => {
 		message => q||,
 		lastUpdated => 
@@ -506,22 +491,12 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'help manage pending transactions title' => {
-		message => q||,
-		lastUpdated => 
-	},
-
 	'checkout select payment template description' => {
 		message => q||,
 		lastUpdated => 
 	},
 
 	'quantity' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'help cancel checkout template body' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -546,12 +521,12 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'recurringItems' => {
+	'commerce settings' => {
 		message => q||,
 		lastUpdated => 
 	},
 
-	'commerce settings' => {
+	'recurringItems' => {
 		message => q||,
 		lastUpdated => 
 	},

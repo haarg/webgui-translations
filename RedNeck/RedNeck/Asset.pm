@@ -31,7 +31,17 @@ our $I18N = {
 		lastUpdated => 
 	},
 
+	'make asset exportable' => {
+		message => q||,
+		lastUpdated => 
+	},
+
 	'newWindow' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'keywords' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -77,11 +87,6 @@ our $I18N = {
 	},
 
 	'save and commit' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'asset list body' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -141,6 +146,11 @@ our $I18N = {
 		lastUpdated => 
 	},
 
+	'default value' => {
+		message => q||,
+		lastUpdated => 
+	},
+
 	'Depth' => {
 		message => q||,
 		lastUpdated => 
@@ -169,6 +179,11 @@ our $I18N = {
 	'locked' => {
 		message => q||,
 		lastUpdated => 
+	},
+
+	'with children' => {
+		message => q|It gots kids.|,
+		lastUpdated => 1201804321
 	},
 
 	'purge trash after help' => {
@@ -201,6 +216,11 @@ our $I18N = {
 		lastUpdated => 
 	},
 
+	'make asset exportable description' => {
+		message => q||,
+		lastUpdated => 
+	},
+
 	'manage help' => {
 		message => q||,
 		lastUpdated => 
@@ -209,11 +229,6 @@ our $I18N = {
 	'1079' => {
 		message => q|Printubul Stahl|,
 		lastUpdated => 1168191753
-	},
-
-	'edit branch body' => {
-		message => q||,
-		lastUpdated => 
 	},
 
 	'edit branch url help' => {
@@ -242,11 +257,6 @@ our $I18N = {
 	},
 
 	'copy' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'asset template body' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -346,6 +356,11 @@ our $I18N = {
 		lastUpdated => 
 	},
 
+	'with descendants' => {
+		message => q||,
+		lastUpdated => 
+	},
+
 	'Add new field description' => {
 		message => q||,
 		lastUpdated => 
@@ -381,11 +396,6 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'manage versions body' => {
-		message => q||,
-		lastUpdated => 
-	},
-
 	'954' => {
 		message => q||,
 		lastUpdated => 
@@ -402,11 +412,6 @@ our $I18N = {
 	},
 
 	'1082' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'asset fields body' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -436,12 +441,12 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'asset fields title' => {
+	'could not rmdir' => {
 		message => q||,
 		lastUpdated => 
 	},
 
-	'could not rmdir' => {
+	'default value description' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -457,6 +462,11 @@ our $I18N = {
 	},
 
 	'486' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'this asset only' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -537,11 +547,6 @@ our $I18N = {
 	},
 
 	'url' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'Page Export body' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -666,17 +671,7 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'asset toolbar body' => {
-		message => q||,
-		lastUpdated => 
-	},
-
 	'size' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'change url body' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -722,11 +717,6 @@ our $I18N = {
 	},
 
 	'encryptPage' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'asset template asset var body' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -866,11 +856,6 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'metadata manage body' => {
-		message => q||,
-		lastUpdated => 
-	},
-
 	'groupIdView' => {
 		message => q||,
 		lastUpdated => 
@@ -906,11 +891,6 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'prototype using body' => {
-		message => q||,
-		lastUpdated => 
-	},
-
 	'asset id' => {
 		message => q||,
 		lastUpdated => 
@@ -939,11 +919,6 @@ our $I18N = {
 	'1073' => {
 		message => q|Stahl Template|,
 		lastUpdated => 1168191737
-	},
-
-	'asset toolbar title' => {
-		message => q||,
-		lastUpdated => 
 	},
 
 	'951' => {
@@ -977,11 +952,6 @@ our $I18N = {
 	},
 
 	'change url help' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'metadata edit property body' => {
 		message => q||,
 		lastUpdated => 
 	},

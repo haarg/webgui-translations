@@ -2,13 +2,13 @@ package WebGUI::i18n::German::AdminConsole;
 
 our $I18N = {
 	'toggle off' => {
-		message => q|Adminkonsole ausschalten|,
-		lastUpdated => 1153263055
+		message => q|Adminkonsole verbergen|,
+		lastUpdated => 1178613601
 	},
 
 	'toggle on' => {
-		message => q|Adminkonsole anschalten|,
-		lastUpdated => 1153263063
+		message => q|Adminkonsole anzeigen|,
+		lastUpdated => 1178613620
 	},
 
 	'admin console' => {

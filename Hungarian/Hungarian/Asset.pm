@@ -2,13 +2,13 @@ package WebGUI::i18n::Hungarian::Asset;
 
 our $I18N = {
 	'lock help' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Ha az Eszk&ouml;z m&aacute;solat&aacute;t szerkeszti, az lez&aacute;rja az Eszk&ouml;zt mindenki m&aacute;s előtt, aki nem a jelenlegi verzi&oacute; cimk&eacute;t haszn&aacute;lja. Ez a lehetős&eacute;g csak akkor jelenik meg, ha az Eszk&ouml;z jelenleg nincs lez&aacute;rva.|,
+		lastUpdated => 1178865413
 	},
 
 	'make package' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Csomag k&eacute;sz&iacute;t&eacute;se?|,
+		lastUpdated => 1178702672
 	},
 
 	'959' => {
@@ -17,8 +17,8 @@ our $I18N = {
 	},
 
 	'parent url' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Sz&uuml;lő URL|,
+		lastUpdated => 1178746303
 	},
 
 	'Export as user description' => {
@@ -27,13 +27,18 @@ our $I18N = {
 	},
 
 	'Uploads URL' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Felt&ouml;lt&eacute;sek URL|,
+		lastUpdated => 1178695339
 	},
 
 	'newWindow' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Egy boolean, amely akkor igaz, ha az Eszk&ouml;z az be&aacute;ll&iacute;t&aacute;sai alapj&aacute;n &uacute;j b&ouml;ng&eacute;sző ablakban ny&iacute;lik meg.|,
+		lastUpdated => 1178702799
+	},
+
+	'keywords' => {
+		message => q|Kulcsszavak|,
+		lastUpdated => 1185963667
 	},
 
 	'871 description' => {
@@ -52,38 +57,33 @@ our $I18N = {
 	},
 
 	'isHidden' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Egy boolean, amely akkor igaz, ha az Eszk&ouml;z be&aacute;ll&iacute;t&aacute;sa szerint nem jelenik meg a Navig&aacute;ci&oacute;ban.|,
+		lastUpdated => 1178745998
 	},
 
 	'export information' => {
-		message => q||,
-		lastUpdated => 
+		message => q|%d oldal export&aacute;lva %d m&aacute;sodperc alatt.|,
+		lastUpdated => 1178702375
 	},
 
 	'controls' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Azok az ikonok &eacute;s URL-ek, amelyek lehetőv&eacute; teszik az Eszk&ouml;z szerkeszt&eacute;s&eacute;t, kiv&aacute;g&aacute;s&aacute;t, m&aacute;sol&aacute;s&aacute;t, t&ouml;rl&eacute;s&eacute;t &eacute;s &aacute;trendez&eacute;s&eacute;t. |,
+		lastUpdated => 1178696972
 	},
 
 	'encrypt page description' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Az eszk&ouml;z tartalmaz&oacute; oldal SSL kapcsolaton kereszt&uuml;l legyen el&eacute;rhető?|,
+		lastUpdated => 1181548396
 	},
 
 	'asset' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Eszk&ouml;z|,
+		lastUpdated => 1178695496
 	},
 
 	'save and commit' => {
 		message => q|ment &eacute;s v&eacute;grehajt|,
 		lastUpdated => 1168943810
-	},
-
-	'asset list body' => {
-		message => q||,
-		lastUpdated => 
 	},
 
 	'872' => {
@@ -97,8 +97,8 @@ our $I18N = {
 	},
 
 	'promote help' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Az Eszk&ouml;zt egy hellyel feljebb mozgatja.|,
+		lastUpdated => 1178865309
 	},
 
 	'properties' => {
@@ -127,8 +127,8 @@ our $I18N = {
 	},
 
 	'could not open path' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Nem lehet megnyitni %-s, mivel %-s|,
+		lastUpdated => 1178697153
 	},
 
 	'Edit Metadata' => {
@@ -137,8 +137,13 @@ our $I18N = {
 	},
 
 	'extra head tags' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Tov&aacute;bbi &lt;head&gt; elemek (tag-ek).|,
+		lastUpdated => 1178702431
+	},
+
+	'default value' => {
+		message => q|Alap&eacute;rtelmezett &eacute;rt&eacute;k(ek)|,
+		lastUpdated => 1185963493
 	},
 
 	'Depth' => {
@@ -162,28 +167,33 @@ our $I18N = {
 	},
 
 	'create package' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Legyen el&eacute;rhető csomagk&eacute;nt?|,
+		lastUpdated => 1178697328
 	},
 
 	'locked' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Lez&aacute;rva|,
+		lastUpdated => 1178702654
+	},
+
+	'with children' => {
+		message => q|Gyermekkel|,
+		lastUpdated => 1192374715
 	},
 
 	'purge trash after help' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Mennyi ideig maradjon egy eszk&ouml;z akuk&aacute;ban, mielőtt el&eacute;g r&eacute;ginek bizonyul az &uuml;r&iacute;t&eacute;shez? Amikor &uuml;r&iacute;t&eacute;sre ker&uuml;l, akkor minden jav&iacute;t&aacute;sa &eacute;s lesz&aacute;rmazottja t&ouml;rl&eacute;sre ker&uuml;l. |,
+		lastUpdated => 1178867010
 	},
 
 	'rootUrl symlinking default' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Extr&aacute;k &eacute;s felt&ouml;lt&eacute;si k&ouml;nyvt&aacute;rak symlinkel&eacute;se.<br />|,
+		lastUpdated => 1178746207
 	},
 
 	'assets' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Eszk&ouml;z&ouml;k|,
+		lastUpdated => 1178696265
 	},
 
 	'886' => {
@@ -192,18 +202,18 @@ our $I18N = {
 	},
 
 	'view help' => {
-		message => q|s&uacute;g&oacute; megtekint&eacute;se<br />|,
-		lastUpdated => 1168941773
+		message => q|s&uacute;g&oacute; megtekint&eacute;se|,
+		lastUpdated => 1184842857
 	},
 
 	'deleteConfirm' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Biztos, hogy t&ouml;r&ouml;lni akarja ezt a Metadata tulajdons&aacute;got? |,
+		lastUpdated => 1178698491
 	},
 
 	'manage help' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Megjelen&iacute;ti az Eszk&ouml;zkezelőt, hogy megmutassa az Eszk&ouml;z l&eacute;tező gyermekeit.|,
+		lastUpdated => 1178866385
 	},
 
 	'1079' => {
@@ -211,24 +221,19 @@ our $I18N = {
 		lastUpdated => 1169050500
 	},
 
-	'edit branch body' => {
-		message => q||,
-		lastUpdated => 
-	},
-
 	'edit branch url help' => {
-		message => q||,
-		lastUpdated => 
+		message => q|<p>Az URL-t k&eacute;t r&eacute;szletben lehet megv&aacute;ltoztatni, az alap URL-t (bal oldalimező) &eacute;s a f&aacute;jl URL-t (jobb oldali mező).  Az alap URL-nek h&aacute;rom opci&oacute;ja van:</p>  <div> <dl> <dt>Sz&uuml;lő URL (Parent URL)</dt> <dd>Ezt az URL-t a sz&uuml;lő URL-&eacute;vel kell kezdeni.</dd> <dt>Meghat&aacute;rozott Alap (Specified Base)</dt> <dd>Adjon meg &uacute;j alap URL-t a megjelenő mezőben, ha a Meghat&aacute;rozott Alap ki van v&aacute;lasztva.</dd> <dt>Semmi (None)</dt> <dd>az &ouml;sszes Eszk&ouml;znek &quot;felső szintű&quot; URL-e lesz.</dd> </dl> </div> <p>A f&aacute;jl URL-j&eacute;nek is h&aacute;rom opci&oacute;ja van:</p>  <div> <dl> <dt>Men&uuml; C&iacute;m (Menu Title)</dt> <dd>Az &uacute;j URL az Eszk&ouml;z Men&uuml; C&iacute;m mezőj&eacute;n alapul.</dd> <dt>C&iacute;m (Title)</dt> <dd>Az &uacute;j URL az Eszk&ouml;z C&iacute;m mezőj&eacute;n alapul.</dd> <dt>Jelenlegi URL (Current URL)</dt> <dd>Az &uacute;j URL az Eszk&ouml;z jelenlegi URL-j&eacute;n alapul.</dd> </dl> </div> <p>Az &uacute;j URL-eket feldolgozza a makeUrlCompliant funkci&oacute;, amely az oldal nyelv&eacute;től f&uuml;gg.</p> |,
+		lastUpdated => 1192375372
 	},
 
 	'asset id description' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Ez egy egyedi azonos&iacute;t&oacute;, amely alapj&aacute;n a WebGUI nyomonk&ouml;veti az adott Eszk&ouml;zt. Az &aacute;tlagos felhaszn&aacute;l&oacute;nak nem kell t&ouml;rődnie az Asset ID-val, azonban bizonyos felhaszn&aacute;l&oacute;knak sz&uuml;ks&eacute;ge lehet r&aacute; olyan esetekben, mint p&eacute;ld&aacute;ul az SQL Jelent&eacute;sek. Az Asset ID nem szerkeszthető.|,
+		lastUpdated => 1178695695
 	},
 
 	'Possible Values description' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Ez a mező csak R&aacute;di&oacute; Lista &eacute;s Kiv&aacute;laszt&aacute;si Lista adatt&iacute;pusokn&aacute;l alkalmazhat&oacute;. Adja meg a megjelen&iacute;teni k&iacute;v&aacute;nt &eacute;rt&eacute;keket, soronk&eacute;nt egyet. |,
+		lastUpdated => 1178695295
 	},
 
 	'restore' => {
@@ -237,8 +242,8 @@ our $I18N = {
 	},
 
 	'Extras URL description' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Be&aacute;ll&iacute;tja az Extr&aacute;k URL-t. Alap&eacute;rtelmezettk&eacute;nt be&aacute;ll&iacute;tja a WebGUI config f&aacute;jlban megadott extrasURL-t.|,
+		lastUpdated => 1178695987
 	},
 
 	'copy' => {
@@ -246,29 +251,24 @@ our $I18N = {
 		lastUpdated => 1168943541
 	},
 
-	'asset template body' => {
-		message => q||,
-		lastUpdated => 
-	},
-
 	'synopsis' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Az Eszk&ouml;z tartalm&aacute;nak r&ouml;vid le&iacute;r&aacute;sa.|,
+		lastUpdated => 1178702872
 	},
 
 	'extraHeadTags' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Tov&aacute;bbi tag-ek, amelyek hozz&aacute;ad&aacute;sra ker&uuml;lnek az eszk&ouml;zt tartalmaz&oacute; oldal fejr&eacute;sz&eacute;be. Ezek alap&eacute;rtelmez&eacute;sben csatol&aacute;sra ker&uuml;lnek, nem kell &ouml;n&aacute;ll&oacute;an hozz&aacute;fűzni, hacsak nem akarja, hogy k&eacute;tszer jelenjenek meg. |,
+		lastUpdated => 1178702591
 	},
 
 	'duplicate' => {
-		message => q||,
-		lastUpdated => 
+		message => q|M&aacute;solat|,
+		lastUpdated => 1177862594
 	},
 
 	'isPrototype' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Egy boolean, amely akkor igaz, ha az Eszk&ouml;z protot&iacute;pusnak van be&aacute;ll&iacute;tva.|,
+		lastUpdated => 1178746128
 	},
 
 	'1083' => {
@@ -282,13 +282,13 @@ our $I18N = {
 	},
 
 	'create shortcut' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Hivatkoz&aacute;s L&eacute;trehoz&aacute;sa|,
+		lastUpdated => 1178697346
 	},
 
 	'Extras URL' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Extr&aacute;k URL|,
+		lastUpdated => 1178695027
 	},
 
 	'966' => {
@@ -297,33 +297,33 @@ our $I18N = {
 	},
 
 	'demote' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Lejjebb|,
+		lastUpdated => 1178698598
 	},
 
 	'extrasUploads form option symlink' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Symlink|,
+		lastUpdated => 1178867061
 	},
 
 	'change url' => {
-		message => q||,
-		lastUpdated => 
+		message => q|URL Megv&aacute;ltoztat&aacute;sa|,
+		lastUpdated => 1178696432
 	},
 
 	'purge revision after help' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Mediig t&aacute;rolja egy eszk&ouml;z r&eacute;gijav&iacute;t&aacute;sait? A r&eacute;gi eszk&ouml;zjav&iacute;t&aacute;sok azok, amelyeket a felhaszn&aacute;l&oacute;k nem tekinthetnek meg, de megőrz&eacute;sre ker&uuml;lnek a rendszer vissza&aacute;ll&iacute;t&aacute;s &eacute;rdek&eacute;ben.|,
+		lastUpdated => 1178866809
 	},
 
 	'committed versions' => {
-		message => q||,
-		lastUpdated => 
+		message => q|J&oacute;v&aacute;hagyott V&aacute;ltozatok|,
+		lastUpdated => 1178696795
 	},
 
 	'895' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Cache Kifut&aacute;sa|,
+		lastUpdated => 1178694990
 	},
 
 	'Export as user' => {
@@ -332,18 +332,23 @@ our $I18N = {
 	},
 
 	'revisions help' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Az eszk&ouml;z &ouml;sszes jav&iacute;t&aacute;s&aacute;r&oacute;l k&eacute;sz&iacute;tett lista.|,
+		lastUpdated => 1178746161
 	},
 
 	'asset list title' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Eszk&ouml;z, El&eacute;rhetők List&aacute;ja|,
+		lastUpdated => 1178695752
 	},
 
 	'type' => {
 		message => q|t&iacute;pus|,
 		lastUpdated => 1168941708
+	},
+
+	'with descendants' => {
+		message => q|Ut&oacute;dokkal|,
+		lastUpdated => 1192374742
 	},
 
 	'Add new field description' => {
@@ -367,23 +372,18 @@ our $I18N = {
 	},
 
 	'edit branch help' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Megjelen&iacute;ti a 'Csoport Szerkeszt&eacute;se' kezelőfel&uuml;letet, hogy m&oacute;dos&iacute;thassa az Eszk&ouml;zt &eacute;s az alatta tal&aacute;lhat&oacute; Eszk&ouml;z&ouml;ket. |,
+		lastUpdated => 1186078750
 	},
 
 	'assetSize' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Mekkora az eszk&ouml;z m&eacute;rete byte-okban. Az &ouml;sszes adatb&aacute;zis mező &eacute;s csatolm&aacute;ny &ouml;sszege.|,
+		lastUpdated => 1178696249
 	},
 
 	'status' => {
 		message => q|&aacute;llapot|,
 		lastUpdated => 1168943720
-	},
-
-	'manage versions body' => {
-		message => q||,
-		lastUpdated => 
 	},
 
 	'954' => {
@@ -392,23 +392,18 @@ our $I18N = {
 	},
 
 	'purge revision after' => {
-		message => q||,
-		lastUpdated => 
+		message => q|R&eacute;gi Jav&iacute;t&aacute;sok &Uuml;r&iacute;t&eacute;se Ezut&aacute;n|,
+		lastUpdated => 1178866845
 	},
 
 	'asset template asset var title' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Eszk&ouml;z Sablon Eszk&ouml;z V&aacute;ltoz&oacute;k|,
+		lastUpdated => 1178695926
 	},
 
 	'1082' => {
 		message => q|V&aacute;g&oacute;lap|,
 		lastUpdated => 1169050705
-	},
-
-	'asset fields body' => {
-		message => q||,
-		lastUpdated => 
 	},
 
 	'cut' => {
@@ -422,28 +417,28 @@ our $I18N = {
 	},
 
 	'isPackage' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Egy boolean, amely akkor igaz, ha az Eszk&ouml;z Csomagnak van be&aacute;ll&iacute;tva.|,
+		lastUpdated => 1178746088
 	},
 
 	'rootUrl form option symlinkDefault' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Symlink Alap&eacute;rtelmez&eacute;s|,
+		lastUpdated => 1178746230
 	},
 
 	'Metadata Description description' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'asset fields title' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Le&iacute;r&aacute;s a metaadat tulajdons&aacute;gaihoz. Ez a sz&ouml;veg a <em>&#39;Tulajdons&aacute;gok&#39;</em> f&uuml;lben jelenik meg. |,
+		lastUpdated => 1177862469
 	},
 
 	'could not rmdir' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Nem lehet elt&aacute;vol&iacute;tani a k&ouml;nyvt&aacute;rat a %s: %s|,
+		lastUpdated => 1178697189
+	},
+
+	'default value description' => {
+		message => q|Ennek a mezőnek az alap&eacute;rtelmezett &eacute;rt&eacute;ke(i). Ha t&ouml;bb &eacute;rt&eacute;ket adsz meg, &iacute;rd őket &uacute;j sorba!|,
+		lastUpdated => 1185963614
 	},
 
 	'Delete Metadata field' => {
@@ -461,19 +456,24 @@ our $I18N = {
 		lastUpdated => 1169051117
 	},
 
+	'this asset only' => {
+		message => q|Csak ez a tartalom|,
+		lastUpdated => 1185978709
+	},
+
 	'import' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Import|,
+		lastUpdated => 1178702119
 	},
 
 	'confirm change' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Biztos benne?|,
+		lastUpdated => 1178696817
 	},
 
 	'extra head tags description' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Ezek a tag-ek hozz&aacute;ad&aacute;sra ker&uuml;lnek minden oldal &lt;head&gt; elem&eacute;be, ahol az eszk&ouml;z megjelenik. |,
+		lastUpdated => 1178702494
 	},
 
 	'411 description' => {
@@ -482,8 +482,8 @@ our $I18N = {
 	},
 
 	'purge old trash' => {
-		message => q||,
-		lastUpdated => 
+		message => q|R&eacute;gi Szem&eacute;t &Uuml;r&iacute;t&eacute;se|,
+		lastUpdated => 1178866664
 	},
 
 	'Field Name description' => {
@@ -502,8 +502,8 @@ our $I18N = {
 	},
 
 	'rank' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Rang|,
+		lastUpdated => 1178702929
 	},
 
 	'886 description' => {
@@ -512,13 +512,13 @@ our $I18N = {
 	},
 
 	'directory index' => {
-		message => q||,
-		lastUpdated => 
+		message => q|K&ouml;nyvt&aacute;r Index|,
+		lastUpdated => 1178698614
 	},
 
 	'extrasUploads form option none' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Egy sem.|,
+		lastUpdated => 1178867084
 	},
 
 	'99' => {
@@ -527,23 +527,18 @@ our $I18N = {
 	},
 
 	'Page Export Status' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Oldal Export&aacute;l&aacute;s Helyzete|,
+		lastUpdated => 1178695093
 	},
 
 	'could not unlink' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Nem lehet unlink %s: %s|,
+		lastUpdated => 1178697255
 	},
 
 	'url' => {
 		message => q|url|,
 		lastUpdated => 1168943672
-	},
-
-	'Page Export body' => {
-		message => q||,
-		lastUpdated => 
 	},
 
 	'Class Icon' => {
@@ -552,8 +547,8 @@ our $I18N = {
 	},
 
 	'groupIdEdit' => {
-		message => q||,
-		lastUpdated => 
+		message => q|A csoport azonos&iacute;t&oacute;ja, amely szerkesztheti az Eszk&ouml;zt.|,
+		lastUpdated => 1178746956
 	},
 
 	'Class Icon help' => {
@@ -562,18 +557,18 @@ our $I18N = {
 	},
 
 	'tag name' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Tag N&eacute;v|,
+		lastUpdated => 1178702850
 	},
 
 	'change' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Ism&eacute;tlődően v&aacute;ltoztat?|,
+		lastUpdated => 1178696397
 	},
 
 	'current url' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Jelenlegi URL|,
+		lastUpdated => 1178697392
 	},
 
 	'108' => {
@@ -582,18 +577,18 @@ our $I18N = {
 	},
 
 	'could not create path' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Nem lehet l&eacute;trehozni %-s, mivel %-s<p>Ez nagy val&oacute;sz&iacute;nűs&eacute;ggel azt jelenti, hogy m&aacute;r l&eacute;tezik egy oldal ugyanazzal a n&eacute;vvel, mint a mapp&aacute;nak, amelyet l&eacute;tre k&iacute;v&aacute;n hozni.</p>|,
+		lastUpdated => 1186078669
 	},
 
 	'could not create' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Nem lehet l&eacute;trehozni %s: %s|,
+		lastUpdated => 1178697021
 	},
 
 	'purge trash after' => {
-		message => q||,
-		lastUpdated => 
+		message => q|R&eacute;gi Szem&eacute;t T&ouml;rl&eacute;se Ennyi Idő Ut&aacute;n|,
+		lastUpdated => 1178866918
 	},
 
 	'Add new field' => {
@@ -607,53 +602,53 @@ our $I18N = {
 	},
 
 	'Page Export' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Oldal, Export&aacute;l&aacute;s|,
+		lastUpdated => 1178695072
 	},
 
 	'over max assets' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Az adminisztr&aacute;tora korl&aacute;tozta az oldalon elhelyezhető eszk&ouml;z&ouml;k sz&aacute;m&aacute;t, &eacute;s &ouml;n el&eacute;rte ezt a hat&aacute;rt. Ha &uacute;j eszk&ouml;z&ouml;ket k&iacute;v&aacute;n hozz&aacute;adni, t&ouml;r&ouml;lj&ouml;n a r&eacute;giek k&ouml;z&uuml;l.|,
+		lastUpdated => 1178866496
 	},
 
 	'manage' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Rendez&eacute;s|,
+		lastUpdated => 1178702704
 	},
 
 	'none' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Egysem.|,
+		lastUpdated => 1178702814
 	},
 
 	'make package description' => {
-		message => q||,
-		lastUpdated => 
+		message => q|T&ouml;bb WebGUI feladadat ism&eacute;tlődik. Az ilyen feladatok automatiz&aacute;l&aacute;s&aacute;hoz, mint p&eacute;ld&aacute;ul egy Eszk&ouml;z l&eacute;trehoz&eacute;sa, vagy egy Ezsk&ouml;z csoport l&eacute;trehoz&aacute;sa &uacute;gy t&ouml;rt&eacute;nhet, meg, hogy csomagot hoz l&eacute;tre, amelyet az eg&eacute;sz honlapon haszn&aacute;lhat. V&aacute;lassza az igent, ha azt k&iacute;v&aacute;nja, hogy az Eszk&ouml;z el&eacute;rhető legyen csomagk&eacute;nt. |,
+		lastUpdated => 1178866283
 	},
 
 	'duplicateField' => {
-		message => q||,
-		lastUpdated => 
+		message => q|&lt;b&gt;Hiba: A &quot;%field%&quot; mezőn&eacute;v m&aacute;r foglalt.&lt;/b&gt;|,
+		lastUpdated => 1178698772
 	},
 
 	'edit branch' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Csoport Szerkeszt&eacute;se|,
+		lastUpdated => 1178867130
 	},
 
 	'108 description' => {
-		message => q|<p>Az elem tulajdonosa &aacute;ltal&aacute;ban az a l&eacute;trehoz&oacute; szem&eacute;ly. Ez a felhaszn&aacute;l&oacute; az elem teljes szerkeszt&eacute;si &eacute;s betekint&eacute;si jogaival rendelkezik.</p><p>&lt;b&gt;Megjegyz&eacute;s:&lt;/b&gt; A tulajdonost csak az adminisztr&aacute;tor v&aacute;ltoztathatja meg.</p>|,
-		lastUpdated => 1169052411
+		message => q|Az elem tulajdonosa &aacute;ltal&aacute;ban az a l&eacute;trehoz&oacute; szem&eacute;ly. Ez a felhaszn&aacute;l&oacute; az elem teljes szerkeszt&eacute;si &eacute;s betekint&eacute;si jogaival rendelkezik.<p>&lt;b&gt;Megjegyz&eacute;s:&lt;/b&gt; A tulajdonost csak az adminisztr&aacute;tor v&aacute;ltoztathatja meg.</p>|,
+		lastUpdated => 1177862259
 	},
 
 	'make prototype description' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Az Eszk&ouml;zt Tartalom Protot&iacute;pusnak &aacute;ll&iacute;tja be, hogy m&aacute;sok is alkalmazhass&aacute;k az oldal&aacute;n.|,
+		lastUpdated => 1178866327
 	},
 
 	'rootUrl form option none' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Egy sem.|,
+		lastUpdated => 1178746258
 	},
 
 	'edit' => {
@@ -666,19 +661,9 @@ our $I18N = {
 		lastUpdated => 1168943767
 	},
 
-	'asset toolbar body' => {
-		message => q||,
-		lastUpdated => 
-	},
-
 	'size' => {
 		message => q|m&eacute;ret|,
 		lastUpdated => 1168943747
-	},
-
-	'change url body' => {
-		message => q||,
-		lastUpdated => 
 	},
 
 	'107' => {
@@ -687,18 +672,18 @@ our $I18N = {
 	},
 
 	'confirm change url message' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Ha az &#39;Igen&#39;-t v&aacute;lasztja, akkor v&eacute;glegesen megv&aacute;ltoztatja az URL-t, ezzel t&ouml;r&ouml;lve az eszk&ouml;z kor&aacute;bbi fel&uuml;lvizsg&aacute;latait. |,
+		lastUpdated => 1178696882
 	},
 
 	'rootUrl form label' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Gy&ouml;k&eacute;r URL|,
+		lastUpdated => 1178746271
 	},
 
 	'174' => {
-		message => q|C&iacute;m megjelen&iacute;t&eacute;se?<br />|,
-		lastUpdated => 1169050781
+		message => q|C&iacute;m megjelen&iacute;t&eacute;se?|,
+		lastUpdated => 1177862198
 	},
 
 	'940 description' => {
@@ -707,38 +692,33 @@ our $I18N = {
 	},
 
 	'last updated' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Utols&oacute; Friss&iacute;t&eacute;s|,
+		lastUpdated => 1178746324
 	},
 
 	'Select' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Kiv&aacute;laszt...|,
+		lastUpdated => 1178695310
 	},
 
 	'prototype using title' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Tartalom Protot&iacute;pus, Alkalmaz&aacute;s |,
+		lastUpdated => 1178866608
 	},
 
 	'encryptPage' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'asset template asset var body' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Egy boolean, amely akkor igaz, ha az Eszk&ouml;z SSL kapcsolaton kereszt&uuml;l &eacute;rhető el. |,
+		lastUpdated => 1181548341
 	},
 
 	'ago' => {
-		message => q||,
-		lastUpdated => 
+		message => q|&oacute;ta|,
+		lastUpdated => 1178695484
 	},
 
 	'encrypt page' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Tartalom titkos&iacute;t&aacute;sa?|,
+		lastUpdated => 1178702249
 	},
 
 	'revision date' => {
@@ -747,13 +727,13 @@ our $I18N = {
 	},
 
 	'specified base' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Meghat&aacute;rozott Alap|,
+		lastUpdated => 1178702903
 	},
 
 	'Uploads URL description' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Be&aacute;ll&iacute;tja a Felt&ouml;lt&eacute;sek URL-j&eacute;t. Alap&eacute;rtelmezettk&eacute;nt be&aacute;ll&iacute;tja a WebGUI config f&aacute;jlban be&aacute;ll&iacute;tott uploadsURL-t. |,
+		lastUpdated => 1178695448
 	},
 
 	'949' => {
@@ -762,13 +742,13 @@ our $I18N = {
 	},
 
 	'asset template title' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Eszk&ouml;z Sablon V&aacute;ltoz&oacute; |,
+		lastUpdated => 1178696034
 	},
 
 	'demote help' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Az Eszk&ouml;zt az oldalon egy hellyel lejjebb helyezi az oldalon.|,
+		lastUpdated => 1178698584
 	},
 
 	'104 description' => {
@@ -777,8 +757,8 @@ our $I18N = {
 	},
 
 	'extrasUploads form label' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Extr&aacute;k &eacute;s felt&ouml;lt&eacute;si k&ouml;nyvt&aacute;rak.|,
+		lastUpdated => 1178867104
 	},
 
 	'done' => {
@@ -787,13 +767,13 @@ our $I18N = {
 	},
 
 	'lock' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Lez&aacute;r|,
+		lastUpdated => 1178702633
 	},
 
 	'rootUrl default not present' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Nincs symlink az alap&eacute;rtelmezett eszk&ouml;zh&ouml;z; nincs benne az export&aacute;lt al-fastrukt&uacute;r&aacute;ban.|,
+		lastUpdated => 1178865669
 	},
 
 	'Metadata' => {
@@ -807,28 +787,28 @@ our $I18N = {
 	},
 
 	'missing page query' => {
-		message => q||,
-		lastUpdated => 
+		message => q|A megtekinteni k&iacute;v&aacute;nt oldal nem l&eacute;tezik. Mit szeretne tenni?|,
+		lastUpdated => 1178746356
 	},
 
 	'package corrupt' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Az import&aacute;lni pr&oacute;b&aacute;lt csomag hib&aacute;snak tűnik. A hiba pontj&aacute;ig az import&aacute;l&aacute;s megt&ouml;rt&eacute;nt. Amennyiben nem akarja ezt a r&eacute;szt haszn&aacute;lni, g&ouml;rd&iacute;tse vissza a jelenlegi verzi&oacute; jel&ouml;l&eacute;st. |,
+		lastUpdated => 1181546204
 	},
 
 	'ownerUserId' => {
-		message => q||,
-		lastUpdated => 
+		message => q|A felhaszn&aacute;l&oacute; azonos&iacute;t&oacute;ja, aki az Eszk&ouml;zt birtokolja.|,
+		lastUpdated => 1178866586
 	},
 
 	'could not symlink' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Nem lehet symlink %s a %s: %s -hoz|,
+		lastUpdated => 1178697235
 	},
 
 	'content profiling' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Tartalom K&ouml;vet&eacute;s|,
+		lastUpdated => 1178696908
 	},
 
 	'965' => {
@@ -837,43 +817,38 @@ our $I18N = {
 	},
 
 	'errorEmptyField' => {
-		message => q||,
-		lastUpdated => 
+		message => q|&lt;b&gt;Hiba: a Mező nem lehet &uuml;res.&lt;/b&gt;<br />|,
+		lastUpdated => 1178702318
 	},
 
 	'purge old asset revisions' => {
-		message => q||,
-		lastUpdated => 
+		message => q|R&eacute;gi Eszk&ouml;z Jav&iacute;t&aacute;sok &Uuml;r&iacute;t&eacute;se|,
+		lastUpdated => 1178866647
 	},
 
 	'bad user privileges' => {
-		message => q||,
-		lastUpdated => 
+		message => q|A felhaszn&aacute;l&oacute; nem jogosult az oldal megtekint&eacute;s&eacute;re.|,
+		lastUpdated => 1178696292
 	},
 
 	'directory index description' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Ha az export&aacute;land&oacute; Eszk&ouml;z URL-e &uacute;gy n&eacute;z ki mint egy k&ouml;nyvt&aacute;r, akkor a k&ouml;nyvt&aacute;r index csatol&aacute;sra ker&uuml;l.|,
+		lastUpdated => 1178698724
 	},
 
 	'promote' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Feljebb|,
+		lastUpdated => 1178702945
 	},
 
 	'896' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'metadata manage body' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Cache Kifut&aacute;sa (L&aacute;togat&oacute;k)|,
+		lastUpdated => 1178695007
 	},
 
 	'groupIdView' => {
-		message => q||,
-		lastUpdated => 
+		message => q|A csoport azonos&iacute;t&oacute;ja, amely enged&eacute;llyel tekintheti meg az Eszk&ouml;zt.|,
+		lastUpdated => 1178746916
 	},
 
 	'Depth description' => {
@@ -882,53 +857,48 @@ our $I18N = {
 	},
 
 	'extrasUploads symlinking' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Extr&aacute;k &eacute;s felt&ouml;lt&eacute;si k&ouml;nyvt&aacute;rak symlinkel&eacute;se.|,
+		lastUpdated => 1178867046
 	},
 
 	'extrasUploads form hoverHelp' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Milyen l&eacute;p&eacute;seket tegyen az extr&aacute;k &eacute;s felt&ouml;lt&eacute;sek k&ouml;nyvt&aacute;r vonatkoz&aacute;s&aacute;ban, amelyre &aacute;ltal&aacute;ban az oldal r&eacute;szei utalnak. A Symlink egy szimbolikus link haszn&aacute;lat&aacute;t jelenti (nem &eacute;rhető el minden rendszeren) az eredeti k&ouml;nyvt&aacute;rhoz. Az Egyik sem azt jelenti, hogy nem tesz semmit, &eacute;s figyelmen k&iacute;v&uuml;l hagyja az extr&aacute;k &eacute;s felt&ouml;lt&eacute;sek k&ouml;nyvt&aacute;rat; ez val&oacute;sz&iacute;nűleg azt okozza, hogy a r&aacute;juk mutat&oacute; hivatkoz&aacute;sok t&ouml;r&ouml;ttek lesznek az export&aacute;lt oldalon, ha csak nem k&eacute;sz&iacute;tette el előre a k&ouml;nyvt&aacute;rakat. |,
+		lastUpdated => 1181548291
 	},
 
 	'menuTitle' => {
-		message => q||,
-		lastUpdated => 
+		message => q|A Navig&aacute;ci&oacute;ban haszn&aacute;lt Eszk&ouml;z neve.|,
+		lastUpdated => 1178702730
 	},
 
 	'make prototype' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Protot&iacute;pus k&eacute;sz&iacute;t&eacute;se?|,
+		lastUpdated => 1178702690
 	},
 
 	'topicName' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'prototype using body' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Eszk&ouml;z&ouml;k|,
+		lastUpdated => 1178694923
 	},
 
 	'asset id' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Asset ID|,
+		lastUpdated => 1178695565
 	},
 
 	'metadata edit property' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Metadata, Szerkeszt&eacute;s|,
+		lastUpdated => 1178866424
 	},
 
 	'purge' => {
-		message => q||,
-		lastUpdated => 
+		message => q|&Uuml;r&iacute;t&eacute;s|,
+		lastUpdated => 1178866626
 	},
 
 	'rootUrl form hoverHelp' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Mit tegyen a root URL lek&eacute;rdez&eacute;sei eset&eacute;n. Az Alap&eacute;rtelmezett Symlink azt jelenti, hogy egy szimbolikus linket k&eacute;sz&iacute;t a gy&ouml;k&eacute;r URL index f&aacute;jlr&oacute;l az alap&eacute;rtelmezett eszk&ouml;z (nem &eacute;rhető el minden rendszeren) index f&aacute;jlj&aacute;hoz. A semmi azt jelenti, hogy nem kell semnmit tenni, ami azt eredm&eacute;nyezi, hogy a gy&ouml;k&eacute;r URl lek&eacute;rdez&eacute;seit visszautas&iacute;tj&aacute;k az export&aacute;lt honlapon. |,
+		lastUpdated => 1178865615
 	},
 
 	'105' => {
@@ -939,11 +909,6 @@ our $I18N = {
 	'1073' => {
 		message => q|St&iacute;lus Sablon|,
 		lastUpdated => 1169050458
-	},
-
-	'asset toolbar title' => {
-		message => q||,
-		lastUpdated => 
 	},
 
 	'951' => {
@@ -957,8 +922,8 @@ our $I18N = {
 	},
 
 	'exporting page' => {
-		message => q||,
-		lastUpdated => 
+		message => q|%-s oldal export&aacute;l&aacute;sa....|,
+		lastUpdated => 1178702402
 	},
 
 	'872 description' => {
@@ -967,33 +932,28 @@ our $I18N = {
 	},
 
 	'99 description' => {
-		message => q|<p>Az elem neve. Legyen le&iacute;r&oacute;, de ne t&uacute;l hossz&uacute;. Ha &uuml;resen marad, akkor az &eacute;rt&eacute;ke &quot;Untitled&quot; lesz.</p><p>&lt;i&gt;Megjegyz&eacute;s:&lt;/i&gt;&nbsp; Mindig hat&aacute;rozza meg az elemnev&eacute;t, m&eacute;g akkor is, ha az elem nem fogja alkalmazni. Az oldalon t&ouml;bb helyen is, p&eacute;ld&aacute;ulaz Oldalf&aacute;ban, V&aacute;g&oacute;lapon vagy Lomt&aacute;rban, a &lt;b&gt;C&iacute;m&lt;/b&gt; k&uuml;l&ouml;nb&ouml;zteti meg az elemet a t&ouml;bbi elemtől.</p>|,
-		lastUpdated => 1169052358
+		message => q|Az elem neve. Legyen le&iacute;r&oacute;, de ne t&uacute;l hossz&uacute;. Ha &uuml;resen marad, akkor az &eacute;rt&eacute;ke &quot;Untitled&quot; lesz.<p>&lt;i&gt;Megjegyz&eacute;s:&lt;/i&gt;&nbsp; Mindig hat&aacute;rozza meg az elemnev&eacute;t, m&eacute;g akkor is, ha az elem nem fogja alkalmazni. Az oldalon t&ouml;bb helyen is, p&eacute;ld&aacute;ulaz Oldalf&aacute;ban, V&aacute;g&oacute;lapon vagy Lomt&aacute;rban, a &lt;b&gt;C&iacute;m&lt;/b&gt; k&uuml;l&ouml;nb&ouml;zteti meg az elemet a t&ouml;bbi elemtől.</p>|,
+		lastUpdated => 1177862227
 	},
 
 	'packages' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Csomagok|,
+		lastUpdated => 1178702834
 	},
 
 	'change url help' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'metadata edit property body' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Megjelen&iacute;ti az Eszk&ouml;zh&ouml;z tartoz&oacute; URL Megv&aacute;ltoztat&aacute;sa k&eacute;pernyőt.|,
+		lastUpdated => 1178696725
 	},
 
 	'purge revision prompt' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Biztos, hogy t&ouml;r&ouml;lni k&iacute;v&aacute;nja ennek az eszk&ouml;znek ezt a jav&iacute;t&aacute;s&aacute;t? A t&ouml;rl&eacute;s ut&aacute;n NEM LEHET vissza&aacute;ll&iacute;tani.|,
+		lastUpdated => 1178866891
 	},
 
 	'411' => {
-		message => q|Men&uuml; N&eacute;v<br />|,
-		lastUpdated => 1169050824
+		message => q|Men&uuml; N&eacute;v|,
+		lastUpdated => 1177862205
 	},
 
 };

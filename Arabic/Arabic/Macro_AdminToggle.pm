@@ -17,8 +17,8 @@ our $I18N = {
 	},
 
 	'admin toggle title' => {
-		message => q|ماكرو توصيل الادمين<br />|,
-		lastUpdated => 1170246399
+		message => q|متغيرات نموذج ماكرو توصيل الادمين|,
+		lastUpdated => 1201008852
 	},
 
 	'macroName' => {
@@ -29,11 +29,6 @@ our $I18N = {
 	'toggle.text' => {
 		message => q|العلامة الدولية لتشغيل او اغلاق الادمين (بناء على حالة الماكرو) او النص الذي يوفر الماكرو<br />|,
 		lastUpdated => 1170246537
-	},
-
-	'admin toggle body' => {
-		message => q|  <p style="text-align: left; direction: ltr; unicode-bidi: embed" class="MsoNormal"><span>^AdminToggle();<span></span></span></p>  <p style="text-align: left; direction: ltr; unicode-bidi: embed" class="MsoNormal"><span>^AdminToggle([enable admin], [disable admin], [template name]);</span></p>  <p dir="rtl" class="MsoNormal"><span>تقوم بتثبيت وصلة على الصفحة المرئية لمديري المادة و المشرفين. تقوم الوصلة بتشغيل و إغلاق الادمين. من الممكن اختياريا أن تحدد رسائل أخرى لكي تظهر مثل هذا: </span><span>^AdminToggle(&quot;Edit On&quot;,&quot;Edit Off&quot;);</span><span> هذا الماكرو اختياريا يقوم بأخذ حد متوسط آخر و يسمح لك يتحديد اسم نموذج بديل في مساحة الاسم الخاصة بالماكرو/تحم الادمين. </span></p>  <p dir="rtl" class="MsoNormal"><span>&nbsp;</span></p>  <p dir="rtl" class="MsoNormal"><span>هذه الماكروهات من الممكن أن تكون متداخلة مع ماكروهات أخرى إذا كان النص خالي من الفواصل و الاقواس.</span></p>  <p dir="rtl" class="MsoNormal"><span>&nbsp;</span></p>  <p dir="rtl" class="MsoNormal"><span>المتغيرات آلاتية متوفرة في النموذج:</span></p>  |,
-		lastUpdated => 1170246378
 	},
 
 };

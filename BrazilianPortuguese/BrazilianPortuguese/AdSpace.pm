@@ -46,11 +46,6 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'edit advertisement body' => {
-		message => q||,
-		lastUpdated => 
-	},
-
 	'manage ad spaces' => {
 		message => q||,
 		lastUpdated => 
@@ -61,14 +56,9 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'manage ad spaces title' => {
-		message => q||,
-		lastUpdated => 
-	},
-
 	'text color help' => {
-		message => q||,
-		lastUpdated => 
+		message => q|O valor hexadecimal da cor do texto neste an&uacute;ncio.|,
+		lastUpdated => 1198000615
 	},
 
 	'description help' => {
@@ -87,18 +77,18 @@ our $I18N = {
 	},
 
 	'name' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Nome|,
+		lastUpdated => 1197658894
 	},
 
 	'border color' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Cor da Borda|,
+		lastUpdated => 1197658828
 	},
 
 	'description' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Descri&ccedil;&atilde;o|,
+		lastUpdated => 1197658812
 	},
 
 	'priority help' => {
@@ -122,8 +112,8 @@ our $I18N = {
 	},
 
 	'ad id' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Id do An&uacute;ncio|,
+		lastUpdated => 1198000541
 	},
 
 	'used' => {
@@ -132,13 +122,13 @@ our $I18N = {
 	},
 
 	'title' => {
-		message => q||,
-		lastUpdated => 
+		message => q|T&iacute;tulo|,
+		lastUpdated => 1197658931
 	},
 
 	'type' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Tipo|,
+		lastUpdated => 1197658954
 	},
 
 	'type help' => {
@@ -152,8 +142,8 @@ our $I18N = {
 	},
 
 	'width' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Largura|,
+		lastUpdated => 1197680576
 	},
 
 	'impressions bought' => {
@@ -187,8 +177,8 @@ our $I18N = {
 	},
 
 	'text' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Texto|,
+		lastUpdated => 1197658911
 	},
 
 	'edit this ad space' => {
@@ -211,11 +201,6 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'edit ad space body' => {
-		message => q||,
-		lastUpdated => 
-	},
-
 	'confirm ad delete' => {
 		message => q||,
 		lastUpdated => 
@@ -232,13 +217,13 @@ our $I18N = {
 	},
 
 	'height' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Altura|,
+		lastUpdated => 1197680565
 	},
 
 	'image' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Imagem|,
+		lastUpdated => 1197658852
 	},
 
 	'macro code prompt' => {

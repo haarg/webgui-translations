@@ -17,13 +17,13 @@ our $I18N = {
 	},
 
 	'sort alphabetically' => {
-		message => q|Alphabetische Sortierung?<br />|,
-		lastUpdated => 1166611439
+		message => q|Alphabetische Sortierung?|,
+		lastUpdated => 1178864503
 	},
 
 	'add file label' => {
-		message => q|Dateien hinzuf&uuml;gen.<br />|,
-		lastUpdated => 1166611755
+		message => q|Dateien hinzuf&uuml;gen.|,
+		lastUpdated => 1178864405
 	},
 
 	'synopsis' => {
@@ -42,13 +42,13 @@ our $I18N = {
 	},
 
 	'controls' => {
-		message => q|Editier Kontroll Balken f&uuml;r dieses Kind.<br />|,
-		lastUpdated => 1166611882
+		message => q|Editier Kontroll Balken f&uuml;r dieses Kind.|,
+		lastUpdated => 1178864428
 	},
 
 	'id' => {
-		message => q|assetId des Assets.<br />|,
-		lastUpdated => 1166611319
+		message => q|assetId des Assets.|,
+		lastUpdated => 1178864489
 	},
 
 	'folder template title' => {
@@ -71,19 +71,14 @@ our $I18N = {
 		lastUpdated => 1168865553
 	},
 
-	'folder add/edit title' => {
-		message => q|Ordner, Hinzuf&uuml;gen/Bearbeiten<br />|,
-		lastUpdated => 1166611227
-	},
-
 	'folder template description' => {
 		message => q|Dieses Men&uuml; erlaubt das Ausw&auml;hlen eines Templates f&uuml;r die Darstellung der Ordner Inhalte.<br />|,
 		lastUpdated => 1166611976
 	},
 
 	'addFile.url' => {
-		message => q|URL zum Hinzuf&uuml;gen von Dateien zum Ordner.<br /> |,
-		lastUpdated => 1166611817
+		message => q|URL zum Hinzuf&uuml;gen von Dateien zum Ordner.|,
+		lastUpdated => 1178864411
 	},
 
 	'sort alphabetically help' => {
@@ -102,8 +97,8 @@ our $I18N = {
 	},
 
 	'folder icon.big' => {
-		message => q|gro&szlig;es Ordner-Icon<br />|,
-		lastUpdated => 1168942038
+		message => q|gro&szlig;es Ordner Icon|,
+		lastUpdated => 1178864463
 	},
 
 	'isImage' => {
@@ -112,13 +107,18 @@ our $I18N = {
 	},
 
 	'type' => {
-		message => q|<p>Typ dieses Assets.<br /></p>|,
-		lastUpdated => 1166611641
+		message => q|Typ dieses Assets.|,
+		lastUpdated => 1178864511
 	},
 
 	'title' => {
 		message => q|Titel|,
 		lastUpdated => 1166610587
+	},
+
+	'folder menuTitle' => {
+		message => q|Der Me&uuml;titel des Ordners.|,
+		lastUpdated => 1201601414
 	},
 
 	'addFile.label' => {
@@ -127,13 +127,18 @@ our $I18N = {
 	},
 
 	'folder icon.small' => {
-		message => q|kleines Ornder-Icon<br />|,
-		lastUpdated => 1168942060
+		message => q|kleines Ordner Icon|,
+		lastUpdated => 1178864452
 	},
 
 	'folder url' => {
 		message => q|URL des Ordners.|,
 		lastUpdated => 1166611282
+	},
+
+	'menuTitle' => {
+		message => q|Der Men&uuml;titel des Assets.|,
+		lastUpdated => 1201601432
 	},
 
 	'asset template variables title' => {
@@ -142,13 +147,13 @@ our $I18N = {
 	},
 
 	'size' => {
-		message => q|Gr&ouml;&szlig;e des Assets, formatiert.<br />|,
-		lastUpdated => 1166611418
+		message => q|Gr&ouml;&szlig;e des Assets, formatiert.|,
+		lastUpdated => 1178864496
 	},
 
 	'visitor cache timeout' => {
-		message => q|Cache Timeout f&uuml;r Besucher<br />|,
-		lastUpdated => 1166610512
+		message => q|Cache Timeout f&uuml;r Besucher|,
+		lastUpdated => 1178864522
 	},
 
 	'templateId' => {
@@ -177,23 +182,18 @@ our $I18N = {
 	},
 
 	'folder title' => {
-		message => q|Titel des Ordners.<br />|,
-		lastUpdated => 1166612005
+		message => q|Titel des Ordners.|,
+		lastUpdated => 1178864471
 	},
 
 	'icon.big' => {
-		message => q|URL zum Icon, das das Asset repr&auml;sentiert.<br />|,
-		lastUpdated => 1166612031
+		message => q|URL zum Icon, das das Asset repr&auml;sentiert.|,
+		lastUpdated => 1178864480
 	},
 
 	'subfolder_loop' => {
 		message => q|Schleife, die alle Kinder des Ordners enth&auml;lt, die selbst wieder Ordner sind.<br />|,
 		lastUpdated => 1166611564
-	},
-
-	'folder add/edit body' => {
-		message => q|<p>Ordner Assets werden zur Darstellung von Listen von Assets und Unterordnern benutzt. Vergleichbar mit einem Dateibrowser eines Betriebssystems.</p><p>Ordner sind Wobjects, weswegen sie die gleichen Eigenschaften wie Wobjects und Assets besitzen. Ordner besitzen also diese Eigenschaften und Funktionen:</p><p>&nbsp;</p>|,
-		lastUpdated => 1166611199
 	},
 
 	'file_loop' => {
@@ -217,8 +217,8 @@ our $I18N = {
 	},
 
 	'823' => {
-		message => q|Gehe zur neuen Seite.<br />|,
-		lastUpdated => 1166611833
+		message => q|Gehe zur neuen Seite.|,
+		lastUpdated => 1178864398
 	},
 
 };

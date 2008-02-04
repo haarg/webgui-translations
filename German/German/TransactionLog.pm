@@ -7,13 +7,13 @@ our $I18N = {
 	},
 
 	'cancel error' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Ein Fehler ist beim Abbrechen der wiederkehrenden Transaktion aufgetreten. Bitte wenden Sie sich an ihren Administrator. Fehler:|,
+		lastUpdated => 1180021206
 	},
 
 	'delivered' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Abgeliefert|,
+		lastUpdated => 1180021341
 	},
 
 	'historyLoop' => {
@@ -28,7 +28,7 @@ our $I18N = {
 
 	'amount.template' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 1180021090
 	},
 
 	'init date' => {
@@ -37,13 +37,13 @@ our $I18N = {
 	},
 
 	'completion date' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Abschluss Datum|,
+		lastUpdated => 1180021273
 	},
 
 	'completionDate' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Das Datum, an dem die Transaktion best&auml;tigt wurde.|,
+		lastUpdated => 1180021332
 	},
 
 	'pending' => {
@@ -62,8 +62,8 @@ our $I18N = {
 	},
 
 	'errorMessage' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Fehlermeldung, den Abbruch einer wiederkehrenden Transaktion betreffend.|,
+		lastUpdated => 1180021371
 	},
 
 	'shipping cost' => {
@@ -77,8 +77,8 @@ our $I18N = {
 	},
 
 	'cannot cancel' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Sie k&ouml;nnen eine nicht wiederkehrende Transaktion nicht abbrechen.|,
+		lastUpdated => 1180021249
 	},
 
 	'selection message' => {
@@ -117,8 +117,8 @@ our $I18N = {
 	},
 
 	'canCancel' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Bedingung, die anzeigt, ob diese Transaktion abgebrochen werden kann. Dies trifft nur auf wiederkehrende Bezahlungen zu, die bis jetzt noch nicht abgebrochen wurden.|,
+		lastUpdated => 1180021149
 	},
 
 	'initDate' => {
@@ -127,8 +127,8 @@ our $I18N = {
 	},
 
 	'completed' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Abgeschlossen|,
+		lastUpdated => 1180021264
 	},
 
 	'select' => {
@@ -157,8 +157,8 @@ our $I18N = {
 	},
 
 	'userId' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Die interne WebGUI user ID des Benutzers, der diese Transaktion ausgef&uuml;hrt hat.|,
+		lastUpdated => 1180021407
 	},
 
 	'quantity' => {
@@ -183,7 +183,7 @@ our $I18N = {
 
 	'amount' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 1180021095
 	},
 
 	'itemName' => {

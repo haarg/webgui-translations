@@ -17,6 +17,11 @@ our $I18N = {
 	},
 
 	'redeem code failure' => {
+		message => q|Sie haben einen falschen, schon benutzten oder abgelaufenen Code eingegeben. Bitte geben Sie weiter unten einen neuen Code ein.|,
+		lastUpdated => 1180020408
+	},
+
+	'useSalesTax description' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -32,8 +37,8 @@ our $I18N = {
 	},
 
 	'delete batch confirm' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Wollen Sie diesen Batch wirklich l&ouml;schen?|,
+		lastUpdated => 1180020218
 	},
 
 	'code' => {
@@ -76,12 +81,12 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'subscription price description' => {
+	'manage subscriptions' => {
 		message => q||,
 		lastUpdated => 
 	},
 
-	'manage subscriptions' => {
+	'subscription price description' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -97,8 +102,8 @@ our $I18N = {
 	},
 
 	'association' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Verbunden mit Bestellung|,
+		lastUpdated => 1180020081
 	},
 
 	'noc description' => {
@@ -117,8 +122,8 @@ our $I18N = {
 	},
 
 	'redeem code ask for code' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Bitte geben Sie weiter unten ihren Bestellugscode ein.|,
+		lastUpdated => 1180020428
 	},
 
 	'delete codes' => {
@@ -127,13 +132,13 @@ our $I18N = {
 	},
 
 	'add subscription' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Eine neue Bestellung hinzuf&uuml;gen|,
+		lastUpdated => 1180018677
 	},
 
 	'batch description description' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Batchbeschreibung|,
+		lastUpdated => 1180020126
 	},
 
 	'code description' => {
@@ -152,13 +157,13 @@ our $I18N = {
 	},
 
 	'help create batch title' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Bestellung, Generiere einen Bestellungscode Batch|,
+		lastUpdated => 1180020300
 	},
 
 	'batch id' => {
-		message => q||,
-		lastUpdated => 
+		message => q|BatchId|,
+		lastUpdated => 1180020139
 	},
 
 	'help redeem code template title' => {
@@ -197,8 +202,8 @@ our $I18N = {
 	},
 
 	'generate batch' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Generiere einen Bestellungscode Batch|,
+		lastUpdated => 1180020249
 	},
 
 	'help edit subscription title' => {
@@ -222,8 +227,8 @@ our $I18N = {
 	},
 
 	'redeem code' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Quittieren Sie den Bestellungscode.|,
+		lastUpdated => 1180018767
 	},
 
 	'subscription name description' => {
@@ -232,8 +237,8 @@ our $I18N = {
 	},
 
 	'help create batch body' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Generiere einen Bestellungscode Batch.|,
+		lastUpdated => 1180020276
 	},
 
 	'listSubscriptionCodes title' => {
@@ -272,8 +277,8 @@ our $I18N = {
 	},
 
 	'creation date' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Erzeugungsdatum|,
+		lastUpdated => 1180020197
 	},
 
 	'execute on subscription' => {
@@ -307,8 +312,8 @@ our $I18N = {
 	},
 
 	'no subscriptions' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Es bestehen noch keine Bestellungen. Sie können Bestellungen hinzufügen, in dem Sie die 'Bestellung hinzufügen' Option im Menü auf der rechten Bildschirmseite verwenden.|,
+		lastUpdated => 1180018850
 	},
 
 	'subscription description description' => {
@@ -332,8 +337,8 @@ our $I18N = {
 	},
 
 	'create batch error' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Ein Fehler ist aufgetreten:|,
+		lastUpdated => 1180020163
 	},
 
 	'select' => {
@@ -361,9 +366,14 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'create batch menu' => {
+	'useSalesTax' => {
 		message => q||,
 		lastUpdated => 
+	},
+
+	'create batch menu' => {
+		message => q|Generiere einen Bestellungscode Batch|,
+		lastUpdated => 1180020186
 	},
 
 };

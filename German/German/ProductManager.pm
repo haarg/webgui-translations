@@ -1,17 +1,12 @@
 package WebGUI::i18n::German::ProductManager;
 
 our $I18N = {
-	'help list products body' => {
-		message => q||,
-		lastUpdated => 
+	'2 years' => {
+		message => q|2 Jahre|,
+		lastUpdated => 1192966895
 	},
 
 	'edit product title error' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'help manage product title' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -26,7 +21,12 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'help edit parameter body' => {
+	'useSalesTax description' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'group id description' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -37,16 +37,6 @@ our $I18N = {
 	},
 
 	'edit option parameterId error' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'help edit variant body' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'help edit parameter title' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -63,7 +53,7 @@ our $I18N = {
 
 	'description' => {
 		message => q|Beschreibung|,
-		lastUpdated => 1157929071
+		lastUpdated => 1193133713
 	},
 
 	'properties' => {
@@ -81,9 +71,9 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'help edit product title' => {
-		message => q||,
-		lastUpdated => 
+	'6 months' => {
+		message => q|6 Monate|,
+		lastUpdated => 1192966920
 	},
 
 	'list variants' => {
@@ -92,8 +82,8 @@ our $I18N = {
 	},
 
 	'title' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Titel|,
+		lastUpdated => 1193133796
 	},
 
 	'edit product price error' => {
@@ -121,12 +111,12 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'help manage product body' => {
+	'weight override' => {
 		message => q||,
 		lastUpdated => 
 	},
 
-	'weight override' => {
+	'group expires offset description' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -146,17 +136,23 @@ our $I18N = {
 		lastUpdated => 
 	},
 
+	'5 years' => {
+		message => q|5 Jahre
+|,
+		lastUpdated => 1192966910
+	},
+
 	'edit parameter name error' => {
 		message => q||,
 		lastUpdated => 
 	},
 
-	'sku template description' => {
+	'group id' => {
 		message => q||,
 		lastUpdated => 
 	},
 
-	'help edit variant title' => {
+	'sku template description' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -171,9 +167,14 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'help edit option title' => {
-		message => q||,
-		lastUpdated => 
+	'10 years' => {
+		message => q|10 Jahre|,
+		lastUpdated => 1192966882
+	},
+
+	'1 month' => {
+		message => q|1 Monat|,
+		lastUpdated => 1192966859
 	},
 
 	'template description' => {
@@ -186,9 +187,9 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'help list variants body' => {
-		message => q||,
-		lastUpdated => 
+	'lifetime' => {
+		message => q|Lebensdauer|,
+		lastUpdated => 1192966939
 	},
 
 	'edit option value description' => {
@@ -201,19 +202,9 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'help list variants title' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'help list products title' => {
-		message => q||,
-		lastUpdated => 
-	},
-
 	'weight' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Gewicht|,
+		lastUpdated => 1193133806
 	},
 
 	'edit option weight modifier' => {
@@ -221,14 +212,9 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'help edit product body' => {
-		message => q||,
-		lastUpdated => 
-	},
-
 	'template' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Template|,
+		lastUpdated => 1192966953
 	},
 
 	'list variants label' => {
@@ -257,8 +243,8 @@ our $I18N = {
 	},
 
 	'add product' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Neues Produkt hinzufügen|,
+		lastUpdated => 1193133770
 	},
 
 	'edit option sku modifier' => {
@@ -291,6 +277,11 @@ our $I18N = {
 		lastUpdated => 
 	},
 
+	'1 year' => {
+		message => q|1 Jahr|,
+		lastUpdated => 1192966871
+	},
+
 	'edit option price modifier' => {
 		message => q||,
 		lastUpdated => 
@@ -309,6 +300,11 @@ our $I18N = {
 	'sku description' => {
 		message => q||,
 		lastUpdated => 
+	},
+
+	'3 years' => {
+		message => q|3 Jahre|,
+		lastUpdated => 1192966902
 	},
 
 	'edit sku composition label' => {
@@ -331,17 +327,12 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'topicName' => {
-		message => q||,
-		lastUpdated => 
-	},
-
 	'add option' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Option hinzufügen|,
+		lastUpdated => 1193133736
 	},
 
-	'help edit option body' => {
+	'topicName' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -357,8 +348,8 @@ our $I18N = {
 	},
 
 	'available' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Erhältlich|,
+		lastUpdated => 1193133783
 	},
 
 	'edit option sku modifier description' => {
@@ -377,6 +368,21 @@ our $I18N = {
 	},
 
 	'add parameter' => {
+		message => q|Parameter hinzufügen|,
+		lastUpdated => 1193133752
+	},
+
+	'productId' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'group expires offset' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'useSalesTax' => {
 		message => q||,
 		lastUpdated => 
 	},

@@ -31,9 +31,19 @@ our $I18N = {
 		lastUpdated => 1161266407
 	},
 
+	'make asset exportable' => {
+		message => q|اجعل هذا الاصل قابل للتصدير|,
+		lastUpdated => 1201201016
+	},
+
 	'newWindow' => {
 		message => q|علامة ستصبح حقيقية اذا تم ضبط الاصل على ان يفتح في نافذة جديدة<br />|,
 		lastUpdated => 1168439667
+	},
+
+	'keywords' => {
+		message => q|<p>كلمات المفاتيح</p><p>علامة للخاصية التي تربط الاصول بكلمات المفاتيح&nbsp;</p>|,
+		lastUpdated => 1201002255
 	},
 
 	'871 description' => {
@@ -81,11 +91,6 @@ our $I18N = {
 		lastUpdated => 1163437927
 	},
 
-	'asset list body' => {
-		message => q|<p>هذه الاصول متوفرة للاستخدام على موقعك</p>|,
-		lastUpdated => 1162916311
-	},
-
 	'872' => {
 		message => q|<p>من الذي يمكنه الاطلاع؟</p>|,
 		lastUpdated => 1162830564
@@ -94,11 +99,6 @@ our $I18N = {
 	'Data Type description' => {
 		message => q|<p>اختر نوع نموذج العنصر لهذا المجال.</p>|,
 		lastUpdated => 1162833093
-	},
-
-	'file exists when making directory index' => {
-		message => q|  <p dir="rtl" class="MsoNormal"><span>لا يمكن عمل </span><span>%-s because %-s</span><span></span></p>  <p dir="rtl" class="MsoNormal"><span>هذا من المحتمل أن يعني ان لديك هذا الرابط بالفعل. تبديل رابط الصفحة لكي لا ينتهي باندكس الدليل الخاص بك سيصلح المشكلة.</span></p>  |,
-		lastUpdated => 1172064642
 	},
 
 	'promote help' => {
@@ -146,6 +146,11 @@ our $I18N = {
 		lastUpdated => 1163434891
 	},
 
+	'default value' => {
+		message => q|القيمة الاعتيادية او القيم الاعتيادية|,
+		lastUpdated => 1201002137
+	},
+
 	'Depth' => {
 		message => q|<p>العمق</p>|,
 		lastUpdated => 1162914192
@@ -174,6 +179,11 @@ our $I18N = {
 	'locked' => {
 		message => q|مغلقة|,
 		lastUpdated => 1161268237
+	},
+
+	'with children' => {
+		message => q|لها اولاد|,
+		lastUpdated => 1201002419
 	},
 
 	'purge trash after help' => {
@@ -206,6 +216,11 @@ our $I18N = {
 		lastUpdated => 1163432308
 	},
 
+	'make asset exportable description' => {
+		message => q|هل سيصبح هذا الاصل قابل للتصدير؟ هذا الاصل وكل الاصول الاباء له يجب ان تكون قابلة للتصدير من اجل ان يتم تصدير هذا الاصل|,
+		lastUpdated => 1201201280
+	},
+
 	'manage help' => {
 		message => q|<p>اظهر مدير الاصول الذي يقوم باظهار اولاد الاصل اذا وجدوا.</p>|,
 		lastUpdated => 1163435800
@@ -214,11 +229,6 @@ our $I18N = {
 	'1079' => {
 		message => q|<p>اسلوب قابل للطباعة</p>|,
 		lastUpdated => 1162829280
-	},
-
-	'edit branch body' => {
-		message => q|<p>تعديل الفرع يسمح لك بعمل تغييرات في شجرة الاصول كلها. من الممكن ان تغير من من حقه الاطلاع على الاصول, الذين من حقهم تعديل النماذج او اي من <em>خواص</em> الاظهار الاخرى مثل الاس اس ال او اذا كنت تريد اخفائها من تصفح الاصول. لن يعطيك الشكل اذن تعديل&nbsp;للاصول التي ليست عندك.</p><p>&nbsp;</p><p>كل مجال له زر نعم ولا لكي تاكد انك تريد التغيير في الحال. قم بتعديل المجالات التي تريد تغييرها ببساطة و اختر نعم من تاكيد التغيير, ثم انقر على زر الحفظ عندما تنتهي.</p>|,
-		lastUpdated => 1163433487
 	},
 
 	'edit branch url help' => {
@@ -249,11 +259,6 @@ our $I18N = {
 	'copy' => {
 		message => q|نسخ|,
 		lastUpdated => 1161267580
-	},
-
-	'asset template body' => {
-		message => q|<p>هذا المتغير يتم ادخاله في كل نموذج.</p>|,
-		lastUpdated => 1162916369
 	},
 
 	'synopsis' => {
@@ -351,6 +356,11 @@ our $I18N = {
 		lastUpdated => 1161265989
 	},
 
+	'with descendants' => {
+		message => q|مع مستندات|,
+		lastUpdated => 1201002436
+	},
+
 	'Add new field description' => {
 		message => q|<p>قم بفتح نموذج حيث يمكن اضافة الميتاداتا للاصل.</p>|,
 		lastUpdated => 1162832643
@@ -386,11 +396,6 @@ our $I18N = {
 		lastUpdated => 1168439797
 	},
 
-	'manage versions body' => {
-		message => q|<p>هذه الشاشة تريك قائمة من النسخ للاصل الحالي. تريك ايضا التاريخ التي فتحت او تم عملها فيه, من الذي يملك العلامة لهذه النسخة, و اسم علامة النسخة. الايقونات ستمكنك من ان تطهر المراجعة و ان تحذفها من النظام او ان تظهر هذه النسخة المحددة من الاصل. اسم علامة الاصل هو رابط سياخذك الى ادر المراجعات في شاشة العلامة.</p>|,
-		lastUpdated => 1166024079
-	},
-
 	'954' => {
 		message => q|<p>ادر لوحة القص الخاصة بالنظام.</p>|,
 		lastUpdated => 1162832061
@@ -409,11 +414,6 @@ our $I18N = {
 	'1082' => {
 		message => q|<p>لوحة القص</p>|,
 		lastUpdated => 1162829912
-	},
-
-	'asset fields body' => {
-		message => q|<p>هذه هي الخواص الاساسية التي تتشاركها كل الاصول.</p>|,
-		lastUpdated => 1162915531
 	},
 
 	'cut' => {
@@ -441,14 +441,14 @@ our $I18N = {
 		lastUpdated => 1162914781
 	},
 
-	'asset fields title' => {
-		message => q|<p>المجالات المشتركة, الاصول</p>|,
-		lastUpdated => 1162915570
-	},
-
 	'could not rmdir' => {
 		message => q|لم يتمكن من ازالة الدليل في&nbsp; %s:%s|,
 		lastUpdated => 1162917908
+	},
+
+	'default value description' => {
+		message => q|القيمة الاعتيادية لهذا المجال. اذا كان هناك اكثر من قيمة اعتيادية كما هو الحال في قائمة صناديق الاختيار, ادخل كل قيمة في سطر مستقل|,
+		lastUpdated => 1201002207
 	},
 
 	'Delete Metadata field' => {
@@ -464,6 +464,11 @@ our $I18N = {
 	'486' => {
 		message => q|<p>نوع البيانات</p>|,
 		lastUpdated => 1162830250
+	},
+
+	'this asset only' => {
+		message => q|هذا الاصل فقط|,
+		lastUpdated => 1201002273
 	},
 
 	'import' => {
@@ -544,11 +549,6 @@ our $I18N = {
 	'url' => {
 		message => q|رابط الاصل<br />|,
 		lastUpdated => 1168439833
-	},
-
-	'Page Export body' => {
-		message => q|<p>خاصية تصدير الصفحة تسمح لك ان تصدر صفحات الويب جيو اي الى ملفات HTML ثابتة على القرص. &quot;طريق التصدير&quot; المتغير في ملف هيئة&nbsp;الويب جي يو اي يجب ان يكون مسموح له بهذه الوظيفة لكي يكون موجودا.</p>|,
-		lastUpdated => 1162914952
 	},
 
 	'Class Icon' => {
@@ -671,19 +671,9 @@ our $I18N = {
 		lastUpdated => 1161268646
 	},
 
-	'asset toolbar body' => {
-		message => q|<p>عندما تطلع على اصل في حالة الادارة, و اذا كان لديك صلاحيات التعديل للاصل و في حالة تشغيل حالة الادارة , سوف يقوم الاصل باظهار شريط ادوات بايقونات تحكم تسمح لك بالاضافة و تعديل هذا الاصل.</p>|,
-		lastUpdated => 1166023724
-	},
-
 	'size' => {
 		message => q|الحجم|,
 		lastUpdated => 1161268628
-	},
-
-	'change url body' => {
-		message => q|<p>فرضا انك تريد وضع اصل جديد في مكان الاصل القديم و ان تستخدم الرابط القديم للاصل الجديد. عادة, يجب عليك ان تغير الرابط في المراجعة الاخيرة للاصل و ان تغير كل و جميع المراجعات من الاصل القديم (بما ان المراجعات القديمة من نفس الاصل نحمل الرابط القديم). تغيير الرابط يسمح لك ان تقوم بهذا بسهولة. ادخل الرابط الجديد للاصل القديم و سوف تقوم بعمل كل المطلوب لك.</p>|,
-		lastUpdated => 1162917391
 	},
 
 	'107' => {
@@ -729,11 +719,6 @@ our $I18N = {
 	'encryptPage' => {
 		message => q|علامة ستصبح حقيقية اذا تم ضبط هذا الاصل لكي يخدم على SSL |,
 		lastUpdated => 1168439332
-	},
-
-	'asset template asset var body' => {
-		message => q|  <p dir="rtl" class="MsoNormal"><span>متغيرات النموذج هذه معروفة لتقريبا كل الاصول. العديد منها خواص الاصل الداخلية و التي تتحكم في السلوك و من الممكن أن لا تكون مفيدة للنموذج. مثال على ذلك من الممكن أن يكون هوية النموذج التي تستخدم لكي تظهر الاصل. بناء على ما إذا كان المستخدم قد ملأ الخانات, من الممكن أن يكونوا فارغين.</span></p>  |,
-		lastUpdated => 1168439216
 	},
 
 	'ago' => {
@@ -871,11 +856,6 @@ our $I18N = {
 		lastUpdated => 1168438840
 	},
 
-	'metadata manage body' => {
-		message => q|<span><font size="3"><font face="Times New Roman">نظام عمل ملفات المحتوى في ويب جوي ( و المعروف ايضا كنظام كلمات بحث) يسمح لك بتعريف المحتوى. كلمات البحث هي معلومات عن المحتوى, و معرفة بشكل ازواج من تقييم-الخواص.</font></font></span><span><font face="Times New Roman" size="3">&nbsp;</font></span><span><font size="3"><font face="Times New Roman">امثلة على كلمات البحث:</font></font></span><span><font size="3"><font face="Times New Roman">نوع المحتوى: رياضة</font></font></span><span><font size="3"><font face="Times New Roman">محتوى للكبار: لا</font></font></span><span><font size="3"><font face="Times New Roman">المصدر: جريدة</font></font></span><span><font face="Times New Roman" size="3">&nbsp;</font></span><span><font size="3"><font face="Times New Roman">في المثال (المصدر:جريدة) كلمات البحث هذه لها خاصية تسمى المصدر و لها قيمة جريدة.</font></font></span><span><font face="Times New Roman" size="3">&nbsp;</font></span><font size="3"><font face="Times New Roman"><span>خواص كلمات البحث معرفة عالميا, في حين ان قيم كلمات البحث يتم ضبطها لكل اصل واقع تحت الزر &quot;ميتا </span><span>META</span><span>&quot; في خواص الاصل.</span></font></font><span><font face="Times New Roman" size="3">&nbsp;</font></span><span><font face="Times New Roman" size="3">&nbsp;</font></span><font size="3"><font face="Times New Roman"><span>قبل ان تتمكن من استخدام كلمات البحث في الويب جوي, يجب ان تقوم بتشغيل كلمات البحث في ضبط الويب جوي (زر المحتوى</span><span>(</span><span></span></font></font><span><font face="Times New Roman" size="3">&nbsp;</font></span><span><font size="3"><font face="Times New Roman">استخدامات كلمات البحث:</font></font></span><span><font face="Times New Roman" size="3">&nbsp;</font></span><strong><span><font size="3"><font face="Times New Roman">باسيف بروفايلينج:</font></font></span></strong><span><font size="3"><font face="Times New Roman">عندما يتم تشغيل الباسيف بروفايلينج, كل وبجيكت يتم اظهاره بالمستخدم سيتم تشغيله. القائم بجداول الويب جوي يقوم بتلخيص معلومات الملفات بشكل دوري. هذا في الاساس نوع من تقييم المادة مبني على محل اهتمام المستخدم.</font></font></span><font size="3"><font face="Times New Roman"><span>في العادة يعمل المختصر مرة واحدة في اليوم. و على اي حال من الممكن تغيير هذا بضبط: </span><strong><span>passiveProfileInterval = &lt;number of seconds&gt;</span></strong><span> في ملفات الضبط الخاصة بويب جوي.</span></font></font><strong><span><font size="3"><font face="Times New Roman">تقييم محل الاهتمام:</font></font></span></strong><font size="3"><font face="Times New Roman"><span>كلمات البحث هي تركيبة بحفظ الملفات<span>&nbsp; </span>و التي تنتج معلومات اماكن الاهتمام الخاصة بالمستخدم. من الممكن ان تقوم باسترجاع خواص كلمات البحث بـالماكرهات </span><span>^AOIRank(); and ^AOIHits();</span><span>.</span></font></font><strong><span><font size="3"><font face="Times New Roman">اظهر المادة بناء على المقومات:</font></font></span></strong><span><font size="3"><font face="Times New Roman">الوبجيكت بروكسي يسمح لك باختيار المادة بناء على المقومات مثل:</font></font></span><span><font size="3"><font face="Times New Roman">نوع المادة: رياضة و مصدر != جريدة.</font></font></span><span><font face="Times New Roman" size="3">&nbsp;</font></span><font size="3"><font face="Times New Roman"><span>من الممكن ان تستخدم الماكروهات الخاصة بمناطق الاهتمام و التي تم شرحها في المقومات السابقة, و بناء عليه فمن الممكن ان تظهر مادة مبنية على مناطق اهتمام المستخدم. مثال: </span><span>type = ^AOIRank(contenttype);</span><span></span></font></font><span><font face="Times New Roman" size="3">&nbsp;</font></span><span><font size="3"><font face="Times New Roman">اظهر:</font></font></span><font size="3"><font face="Times New Roman"><span>يتم اظهار اماكن كلمات البحث لنماذج الاصول كاسماء الخواص. و بناء على ذلك يمكنك بالفعل ان تظهر كلمات البحث للصفحة التي تم عملها باستخدام متغيرات النموذج مثل: <span>&nbsp;</span></span><span>&lt;tmpl_var <em>propertyname</em>&gt;</span><span></span></font></font><span><font face="Times New Roman" size="3">&nbsp;</font></span><span><font size="3"><font face="Times New Roman">كلمات البحث:</font></font></span><font size="3"><font face="Times New Roman"><span>بما ان كلمات البحث يتم اظهارها لمتغيرات النماذج, من الممكن ان تستخدمهم في </span><span>Head Block</span><span> من اشكال النماذج لكي تقوم بعمل كلمات بحث من معلومات البحث, متضمنة الاكواد من </span><span>Dublin Core standard</span><span>.</span></font></font>|,
-		lastUpdated => 1166025419
-	},
-
 	'groupIdView' => {
 		message => q|هوية المجموعة المسموح لها برؤية هذا الاصل<br />|,
 		lastUpdated => 1168439495
@@ -911,11 +891,6 @@ our $I18N = {
 		lastUpdated => 1163437975
 	},
 
-	'prototype using body' => {
-		message => q|<span><font size="3"><font face="&quot;&quot;Times&quot;">من المحتمل انك اذا اردت ان يتم ضبط الاصول بشكل ما, انك ستجد البروتوتايب مفيدة. اذا قمت بضبط الاصل على انه نموذج اولي من الممكن ان تقوم بعمل اشياء في قائمة اضافة المادة الخاصة بك مثلما تريدها تماما. على سبيل المثال, اذا كنت تقوم باستخدام النظام التعاوني على انه ملف للصور, قم اذا بعمل ملف للصور و سجله على انه نموذج اولي. و من هنا يمكنك فقط ان تقوم بالضغط على (اضف محتوى - محتوى جديد &ndash; ملف الصور).</font></font></span><span><font face="&quot;&quot;Times&quot;" size="3">&nbsp;</font></span><span><font size="3"><font face="&quot;&quot;Times&quot;">عنوان الاصل يستخدم كاسم لتعريف النموذج الاولي في قائمة اضافة المادة. اذا قمت بضبط عنوان النموذج الاولي الخاص بك لكي يكون نفس الاسم الخاص بالاصل (مقال, قائمة معلومات,...) فانها ستقوم حينها باستبدال الشكل الاعتيادي لقائمة الويب جوي.</font></font></span>|,
-		lastUpdated => 1172064655
-	},
-
 	'asset id' => {
 		message => q|رمز الاصل|,
 		lastUpdated => 1161266929
@@ -944,11 +919,6 @@ our $I18N = {
 	'1073' => {
 		message => q|<p>نموذج الاسلوب</p>|,
 		lastUpdated => 1162828833
-	},
-
-	'asset toolbar title' => {
-		message => q|عنوان شريط ادوات الاصول|,
-		lastUpdated => 1161267140
 	},
 
 	'951' => {
@@ -984,11 +954,6 @@ our $I18N = {
 	'change url help' => {
 		message => q|<p>افتح شاشة تغيير الرابط لهذا الاصل.</p>|,
 		lastUpdated => 1162917430
-	},
-
-	'metadata edit property body' => {
-		message => q|من الممكن ان تضيف خواص ميتاداتا كما تريد الى اي Wobject كما تريد.|,
-		lastUpdated => 1163436056
 	},
 
 	'purge revision prompt' => {

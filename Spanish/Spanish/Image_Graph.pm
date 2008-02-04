@@ -2,8 +2,8 @@ package WebGUI::i18n::Spanish::Image_Graph;
 
 our $I18N = {
 	'palette' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Paleta|,
+		lastUpdated => 1199915431
 	},
 
 	'label font' => {
@@ -12,8 +12,8 @@ our $I18N = {
 	},
 
 	'image width' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Ancho de imagen|,
+		lastUpdated => 1199915465
 	},
 
 	'image height description' => {
@@ -37,8 +37,8 @@ our $I18N = {
 	},
 
 	'image height' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Altura de imagen|,
+		lastUpdated => 1199915453
 	},
 
 	'label offset description' => {

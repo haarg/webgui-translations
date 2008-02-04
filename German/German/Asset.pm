@@ -31,9 +31,19 @@ our $I18N = {
 		lastUpdated => 1170454199
 	},
 
+	'make asset exportable' => {
+		message => q|Asset exportierbar?|,
+		lastUpdated => 1201601501
+	},
+
 	'newWindow' => {
 		message => q|Boolscher Wert, der wahr ist, wenn das Asset in einem neuen Browser Fenster ge&ouml;ffnet wird.|,
 		lastUpdated => 1170458894
+	},
+
+	'keywords' => {
+		message => q|Stichwort|,
+		lastUpdated => 1192785225
 	},
 
 	'871 description' => {
@@ -79,11 +89,6 @@ our $I18N = {
 	'save and commit' => {
 		message => q|Speichern und &Uuml;bertragen (Commit)|,
 		lastUpdated => 1170456962
-	},
-
-	'asset list body' => {
-		message => q|<p>Folgende Assets stehen zur Verf&uuml;gung:</p>|,
-		lastUpdated => 1170454342
 	},
 
 	'872' => {
@@ -141,6 +146,11 @@ our $I18N = {
 		lastUpdated => 1170457602
 	},
 
+	'default value' => {
+		message => q|Voreinstellung|,
+		lastUpdated => 1192785177
+	},
+
 	'Depth' => {
 		message => q|Tiefe|,
 		lastUpdated => 1153128502
@@ -169,6 +179,11 @@ our $I18N = {
 	'locked' => {
 		message => q|Gesperrt|,
 		lastUpdated => 1153262993
+	},
+
+	'with children' => {
+		message => q|Mit Kindern|,
+		lastUpdated => 1192798281
 	},
 
 	'purge trash after help' => {
@@ -201,6 +216,11 @@ our $I18N = {
 		lastUpdated => 1170455449
 	},
 
+	'make asset exportable description' => {
+		message => q|Soll dieses Asset exportierbar sein? Dieses Asset und alle sein Vorg&auml;nger m&uuml;ssen exportierbar sein, damit dieses Asset exportiert werden kann.|,
+		lastUpdated => 1201601557
+	},
+
 	'manage help' => {
 		message => q|Ruft den Asset Manager auf und zeigt das aktuelle Asset und evtl. Kinder an.|,
 		lastUpdated => 1170458775
@@ -209,11 +229,6 @@ our $I18N = {
 	'1079' => {
 		message => q|Style Druckversion|,
 		lastUpdated => 1153126758
-	},
-
-	'edit branch body' => {
-		message => q|<p>Mit &quot;Zweig bearbeiten&quot; &auml;ndern Sie ganze Asset-B&auml;ume. Ge&auml;ndert werden kann z.B. wer Assets betrachten darf und wer sie bearbeiten darf oder es k&ouml;nnen Auslieferungs-Optionen wie Templates,&nbsp; SSL-Modus oder das Erscheinen in der Navigation ge&auml;ndert werden. Das Formular erm&ouml;glicht keine &Auml;nderungen an Assets f&uuml;r die man keine &Auml;nderungsrechte besitzt. </p><p>Jedes Feld hat einen Ja/Nein-Button, mit dem die Rekursive &Auml;nderung best&auml;tigt werden muss. Bearbeiten Sie einfach alle Felder, die Sie &auml;ndern m&ouml;chten, w&auml;hlen dann &quot;Ja&quot; bei der &Auml;nderungsbest&auml;tigung und speichern dann ihre &Auml;nderungen.</p>|,
-		lastUpdated => 1170455632
 	},
 
 	'edit branch url help' => {
@@ -244,11 +259,6 @@ our $I18N = {
 	'copy' => {
 		message => q|Kopieren|,
 		lastUpdated => 1153243924
-	},
-
-	'asset template body' => {
-		message => q|<p>Diese Variable wird in jedem Template eingef&uuml;gt:</p>|,
-		lastUpdated => 1170454454
 	},
 
 	'synopsis' => {
@@ -346,6 +356,11 @@ our $I18N = {
 		lastUpdated => 1153261940
 	},
 
+	'with descendants' => {
+		message => q|Mit Nachkommen|,
+		lastUpdated => 1192798267
+	},
+
 	'Add new field description' => {
 		message => q|<p>&Ouml;ffnet ein Formular zum Hinzuf&uuml;gen neuer Metadaten-Felder zu diesem Asset.</p>|,
 		lastUpdated => 1170453034
@@ -381,11 +396,6 @@ our $I18N = {
 		lastUpdated => 1170456862
 	},
 
-	'manage versions body' => {
-		message => q|<p>Diese Seite listet alle Versionen auf, die committed worden sind. Aufgef&uuml;hrt werden das Datum an dem die Version committed oder er&ouml;ffnet wurde, wer den Tag der Version besitzt und den Namen des Version Tags. Verschiedene Icons erlauben es Ihnen, eine Revision zu l&ouml;schen und vom System zu entfernen oder diese Version des Assets zu betrachten. Der Version Tag Name in der Liste ist ein Link, der Sie zur &quot;Verwalte Revisions in Tag&quot; Seite f&uuml;hrt.</p>|,
-		lastUpdated => 1170458756
-	},
-
 	'954' => {
 		message => q|System-Zwischenablage verwalten.|,
 		lastUpdated => 1170452734
@@ -404,11 +414,6 @@ our $I18N = {
 	'1082' => {
 		message => q|Zwischenablage|,
 		lastUpdated => 1153126771
-	},
-
-	'asset fields body' => {
-		message => q|<p>Folgende grundlegende Eigenschaften gelten f&uuml;r alle Assets:</p>|,
-		lastUpdated => 1153238614
 	},
 
 	'cut' => {
@@ -436,14 +441,14 @@ our $I18N = {
 		lastUpdated => 1170453986
 	},
 
-	'asset fields title' => {
-		message => q|Asset, gemeinsame Felder|,
-		lastUpdated => 1170454277
-	},
-
 	'could not rmdir' => {
 		message => q|Verzeichnis %s konnte nicht gel&ouml;scht werden: %s|,
 		lastUpdated => 1170455352
+	},
+
+	'default value description' => {
+		message => q|Beschreibung zur Voreinstellung|,
+		lastUpdated => 1192785202
 	},
 
 	'Delete Metadata field' => {
@@ -459,6 +464,11 @@ our $I18N = {
 	'486' => {
 		message => q|Datentyp|,
 		lastUpdated => 1153126990
+	},
+
+	'this asset only' => {
+		message => q|Nur dieser Asset|,
+		lastUpdated => 1192798167
 	},
 
 	'import' => {
@@ -497,8 +507,8 @@ our $I18N = {
 	},
 
 	'43' => {
-		message => q|Sind Sie sicher, dass Sie diesen Inhalt l&ouml;schen m&ouml;chten? <br />Achtung: Dieser Vorgang unterliegt <strong>nicht</strong> der Versionierung und wird unverz&uuml;glich durchgef&uuml;hrt!  |,
-		lastUpdated => 1153126950
+		message => q|Sind Sie sicher, dass Sie diesen Inhalt l&ouml;schen m&ouml;chten? Achtung: Dieser Vorgang unterliegt nicht der Versionierung und wird unverz&uuml;glich durchgef&uuml;hrt!  |,
+		lastUpdated => 1178863872
 	},
 
 	'rank' => {
@@ -539,11 +549,6 @@ our $I18N = {
 	'url' => {
 		message => q|URL des Assets.|,
 		lastUpdated => 1168847957
-	},
-
-	'Page Export body' => {
-		message => q|<p>Die Funktion &quot;Seite exportieren&quot; erm&ouml;glicht es, WebGUI-Seiten als statische HTML-Seiten zu exportieren. Damit diese Funktionalit&auml;t aktiv ist, muss die Variable &quot;exportPath&quot; in der WebGUI Konfigurationsdatei gesetzt sein.</p>|,
-		lastUpdated => 1170454051
 	},
 
 	'Class Icon' => {
@@ -667,20 +672,9 @@ Dies bedeutet in der Regel, dass Sie eine Seite anlegen m&ouml;chtgen, die den s
 		lastUpdated => 1153261991
 	},
 
-	'asset toolbar body' => {
-		message => q|<p>Wenn Sie beim Betrachten eines Assets editierberechtigt sind und der Admin Modus aktiviert ist, wird eine Werkzeugleiste mit Symbolen angezeigt, &uuml;ber die Sie das Asset bearbeiten und ver&auml;ndern k&ouml;nnen.</p>|,
-		lastUpdated => 1170454539
-	},
-
 	'size' => {
 		message => q|Gr&ouml;&szlig;e|,
 		lastUpdated => 1153261973
-	},
-
-	'change url body' => {
-		message => q|<p>Angenommen, Sie m&ouml;chten ein neues Asset an die Stelle eines alten Assets einf&uuml;gen und den URL des alten Assets für das neue verwenden:
-Normalerweise m&uuml;ssten Sie den URL in der letzen Revision des Assets &auml;ndern und dann jede Revision des alten Assets bereinigen (weil die alten Revisionen des alten Assets den selben URL besitzen). Die Funktion &quot;URL &auml;ndern&quot; erleichert Ihnen diese Arbeit: geben Sie den neuen URL für das alte Asset ein und die Arbeit wird erledigt.</p>|,
-		lastUpdated => 1170454792
 	},
 
 	'107' => {
@@ -726,11 +720,6 @@ Normalerweise m&uuml;ssten Sie den URL in der letzen Revision des Assets &auml;n
 	'encryptPage' => {
 		message => q|Boolscher Wert, der wahr ist, wenn die Seite via SSL verschl&uuml;sselt &uuml;bertragen werden soll.|,
 		lastUpdated => 1170457535
-	},
-
-	'asset template asset var body' => {
-		message => q|<p>Diese Template Variablen haben fast alle Assets gemeinsam. Viele von diesen sind interne Asset Eigenschaften, die das Verhalten beeinflussen und wahrscheinlich nicht sehr n&uuml;tzlich f&uuml;r Templates sind. Ein Beispiel k&ouml;nnte die ID eines Templates sein, die f&uuml;r die Darstellung desselben benutzt wird. Abh&auml;ngig davon, ob ein Benutzer diese Felder gef&uuml;llt hat oder nicht, k&ouml;nnen Diese entweder einen Wert besitzen oder auch nicht.</p>|,
-		lastUpdated => 1170454418
 	},
 
 	'ago' => {
@@ -868,11 +857,6 @@ Normalerweise m&uuml;ssten Sie den URL in der letzen Revision des Assets &auml;n
 		lastUpdated => 1153127343
 	},
 
-	'metadata manage body' => {
-		message => q||,
-		lastUpdated => 
-	},
-
 	'groupIdView' => {
 		message => q|Die ID der Gruppe, die das Asset betrachten darf.|,
 		lastUpdated => 1170457657
@@ -908,16 +892,6 @@ Normalerweise m&uuml;ssten Sie den URL in der letzen Revision des Assets &auml;n
 		lastUpdated => 1153261956
 	},
 
-	'prototype using body' => {
-		message => q|<p>
-Falls Sie Assets ben&ouml;tigen, die eine bestimmte Konfiguration aufweisen, k&ouml;nnte ein Prototyp f&uuml;r Sie n&uuml;tzlich sein. Wenn Sie ein Asset als Prototy definieren, k&ouml;nnen Sie neue Eintr&auml;ge in Ihrem Add content Men&uuml; erstellen, die so konfiguriert sind wie sie wollen. Wenn Sie zum Beispiel ein Collaboration System als Photogalerie benutzen wollen, k&ouml;nnen Sie eine Photogallerie erstellen und diese als Prototyp deklarieren. Von nun an k&ouml;nnen Sie diese Photogallerie ganz einfach &uuml;ber &quot;Add content &gt; New Content &gt; Photogallerie&quot; einf&uuml;gen.
-</p>
-<p>
-Der Titel des Assets wird wie der Name des Inhalts-Prototypen im Men&uuml; Inhalt hinzuf&uuml;gen verwendet. Wenn Sie den Titel Ihres Prototyps so einstellen, dass er gleich ist wie der Name eines Assets (Artikel, DataForm, etc.), dann wird im Men&uuml; das WebGUI Standart Asset ersetzt.
-</p>|,
-		lastUpdated => 1170458352
-	},
-
 	'asset id' => {
 		message => q|Asset ID|,
 		lastUpdated => 1170454286
@@ -948,11 +922,6 @@ Der Titel des Assets wird wie der Name des Inhalts-Prototypen im Men&uuml; Inhal
 		lastUpdated => 1153126742
 	},
 
-	'asset toolbar title' => {
-		message => q|Asset Werkzeugleiste|,
-		lastUpdated => 1170454556
-	},
-
 	'951' => {
 		message => q|Sind Sie sicher, dass Sie den Inhalt der Zwischenablage in den M&uuml;lleimer verschieben m&ouml;chten?|,
 		lastUpdated => 1170452722
@@ -975,7 +944,7 @@ Der Titel des Assets wird wie der Name des Inhalts-Prototypen im Men&uuml; Inhal
 
 	'99 description' => {
 		message => q|<p>Der Title dieses Assets. Er sollte den Inhalt beschreiben, aber nicht sehr lang sein. Wird er leer gelassen, wird als Standard &quot;Untitled&quot; eingef&uuml;gt.</p><p><em>Hinweis:</em> Geben Sie <strong>immer</strong> einen Titel an, selbst wenn Sie ihn im Asset-Template nicht nutzen. An mehreren Stellen, wie z.B. dem Seitenbaum, der Zwischenablage und dem M&uuml;lleimer unterscheiden sich Assets nur anhand ihres Titels.</p>|,
-		lastUpdated => 1170452922
+		lastUpdated => 1178788228
 	},
 
 	'packages' => {
@@ -986,11 +955,6 @@ Der Titel des Assets wird wie der Name des Inhalts-Prototypen im Men&uuml; Inhal
 	'change url help' => {
 		message => q|Zeigt die &quot;URL ändern&quot; Seite für dieses Asset an.|,
 		lastUpdated => 1170454842
-	},
-
-	'metadata edit property body' => {
-		message => q|<p>Sie k&ouml;nnen so viele Metadaten zu einem Asset hinzuf&uuml;gen wie Sie wollen.</p>|,
-		lastUpdated => 1170458832
 	},
 
 	'purge revision prompt' => {

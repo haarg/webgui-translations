@@ -2,8 +2,8 @@ package WebGUI::i18n::German::Asset_Search;
 
 our $I18N = {
 	'search asset template variables title' => {
-		message => q|Suche Asset Template Variablen<br />|,
-		lastUpdated => 1170407318
+		message => q|Suche Asset Template Variablen|,
+		lastUpdated => 1180009185
 	},
 
 	'search' => {
@@ -12,8 +12,8 @@ our $I18N = {
 	},
 
 	'search template' => {
-		message => q|Suche Template<br />|,
-		lastUpdated => 1170407710
+		message => q|Suche Template|,
+		lastUpdated => 1180009218
 	},
 
 	'classLimiter' => {
@@ -31,19 +31,29 @@ our $I18N = {
 		lastUpdated => 1152970201
 	},
 
-	'add/edit body' => {
-		message => q|Das Suche Asset wird zur Suche von WebGUI Inhalten benutzt. Zus&auml;tzlich zu den Eigenschaften, die unten aufgef&uuml;hrt sind, haben Suche Assets die Eigenschaften von Wobjects und Assets.<br />|,
-		lastUpdated => 1170407408
+	'synopsis' => {
+		message => q|Die Zusammenfassung des Assets, das gefunden wurde.|,
+		lastUpdated => 1179837930
+	},
+
+	'no_results' => {
+		message => q|Ein internationalisiertes Label, das dem Benutzer mitteilt, dass keine Suchergebnisse vorliegen.|,
+		lastUpdated => 1199979135
+	},
+
+	'assetId' => {
+		message => q|Die assetId des Assets, das gefunden wurde.|,
+		lastUpdated => 1199979047
+	},
+
+	'url' => {
+		message => q|URL zum Asset, das gefunden wurde.|,
+		lastUpdated => 1179837959
 	},
 
 	'searchRoot' => {
-		message => q|Die ID des Assets, bei dem die Suche beginnt.<br />|,
-		lastUpdated => 1170407845
-	},
-
-	'search template body' => {
-		message => q|Die folgenden Template Variablen sind f&uuml;r Suche Asset Templates verf&uuml;gbar. Alle dieser Variablen sind erforderlich. |,
-		lastUpdated => 1170407791
+		message => q|Die ID des Assets, bei dem die Suche beginnt.|,
+		lastUpdated => 1180009192
 	},
 
 	'form_submit' => {
@@ -72,8 +82,8 @@ our $I18N = {
 	},
 
 	'form_footer' => {
-		message => q|HTML Code f&uuml;r das Ende des Such Formulars<br />|,
-		lastUpdated => 1170407973
+		message => q|HTML Code f&uuml;r das Ende des Such Formulars|,
+		lastUpdated => 1180009211
 	},
 
 	'search root description' => {
@@ -81,19 +91,14 @@ our $I18N = {
 		lastUpdated => 1170407701
 	},
 
-	'add/edit title' => {
-		message => q|Hinzuf&uuml;gen/Bearbeiten Suche<br />|,
-		lastUpdated => 1170407428
-	},
-
-	'search asset template variables body' => {
-		message => q|Jedes Asset bietet ihren Templates einen Satz an Variablen, die auf den Asset Eigenschaften basieren. Einige dieser Variablen k&ouml;nnen n&uuml;tzlich sein, andere nicht.|,
-		lastUpdated => 1170407306
+	'results_found' => {
+		message => q|Eine bedingte Variable, die wahr ist, falls Suchergebnisse vorliegen.|,
+		lastUpdated => 1199979186
 	},
 
 	'form_header' => {
-		message => q|HTML Code f&uuml;r Beginn des Such Formulars<br />|,
-		lastUpdated => 1170407953
+		message => q|HTML Code f&uuml;r Beginn des Such Formulars|,
+		lastUpdated => 1180009206
 	},
 
 	'form_keywords' => {
@@ -104,6 +109,16 @@ our $I18N = {
 	'search template description' => {
 		message => q|Ein Template, das das Suchformular und die Suchresultate darstellt.<br />|,
 		lastUpdated => 1170407825
+	},
+
+	'no results' => {
+		message => q|Keine Suchergebnisse.|,
+		lastUpdated => 1199979064
+	},
+
+	'title' => {
+		message => q|Der Titel des Assets, das gefunden wurde.|,
+		lastUpdated => 1179837943
 	},
 
 };

@@ -42,8 +42,8 @@ our $I18N = {
 	},
 
 	'show all fields' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Mostrar todos los campos|,
+		lastUpdated => 1199917161
 	},
 
 	'882' => {
@@ -81,17 +81,27 @@ our $I18N = {
 		lastUpdated => 
 	},
 
+	'settings groupIdAdminWorkflowRun label' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'settings groupIdAdminCache hoverHelp' => {
+		message => q||,
+		lastUpdated => 
+	},
+
 	'84' => {
 		message => q||,
 		lastUpdated => 
 	},
 
-	'437' => {
+	'skip commit comments' => {
 		message => q||,
 		lastUpdated => 
 	},
 
-	'glossary title' => {
+	'437' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -111,7 +121,17 @@ our $I18N = {
 		lastUpdated => 
 	},
 
+	'settings groupIdAdminTransactionLog hoverHelp' => {
+		message => q||,
+		lastUpdated => 
+	},
+
 	'1021' => {
+		message => q|Califica Mensaje|,
+		lastUpdated => 1199971642
+	},
+
+	'private message to label' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -156,6 +176,11 @@ our $I18N = {
 		lastUpdated => 
 	},
 
+	'private message reply title' => {
+		message => q||,
+		lastUpdated => 
+	},
+
 	'948' => {
 		message => q||,
 		lastUpdated => 
@@ -167,6 +192,11 @@ our $I18N = {
 	},
 
 	'378' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'view inbox template description' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -186,12 +216,12 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'968' => {
+	'540' => {
 		message => q||,
 		lastUpdated => 
 	},
 
-	'540' => {
+	'private message prev label' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -221,7 +251,7 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'manage users in group body' => {
+	'settings groupIdAdminStatistics label' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -261,12 +291,27 @@ our $I18N = {
 		lastUpdated => 
 	},
 
+	'auto request commit' => {
+		message => q||,
+		lastUpdated => 
+	},
+
 	'859' => {
 		message => q||,
 		lastUpdated => 
 	},
 
 	'739' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'settings groupIdAdminSubscription hoverHelp' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'private message error' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -306,6 +351,16 @@ our $I18N = {
 		lastUpdated => 
 	},
 
+	'bare insufficient' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'editSettings error occurred' => {
+		message => q||,
+		lastUpdated => 
+	},
+
 	'145' => {
 		message => q||,
 		lastUpdated => 
@@ -326,12 +381,12 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'364' => {
+	'settings groupIdAdminAdSpace label' => {
 		message => q||,
 		lastUpdated => 
 	},
 
-	'653' => {
+	'364' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -342,6 +397,11 @@ our $I18N = {
 	},
 
 	'cache statistics' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'settings groupIdAdminProfileSettings label' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -376,7 +436,12 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'1000' => {
+	'wiki help label leadin' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'settings groupIdAdminSpectre hoverHelp' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -416,7 +481,7 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'manage users in group title' => {
+	'settings groupIdAdminReplacements label' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -427,8 +492,8 @@ our $I18N = {
 	},
 
 	'unknown user' => {
-		message => q||,
-		lastUpdated => 
+		message => q|usuario desconocido|,
+		lastUpdated => 1200060327
 	},
 
 	'460' => {
@@ -466,22 +531,12 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'999' => {
-		message => q||,
-		lastUpdated => 
-	},
-
 	'61' => {
 		message => q||,
 		lastUpdated => 
 	},
 
 	'430' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'replacements edit body' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -497,11 +552,11 @@ our $I18N = {
 	},
 
 	'1035' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Plantilla de Notificaci&oacute;n|,
+		lastUpdated => 1199971835
 	},
 
-	'settings help' => {
+	'deactivateAccount success' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -521,12 +576,22 @@ our $I18N = {
 		lastUpdated => 
 	},
 
+	'additional parameters' => {
+		message => q|par&aacute;metros adicionales de base de datos|,
+		lastUpdated => 1199912687
+	},
+
 	'480' => {
 		message => q||,
 		lastUpdated => 
 	},
 
 	'341' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'invite a friend' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -572,8 +637,8 @@ our $I18N = {
 	},
 
 	'account' => {
-		message => q||,
-		lastUpdated => 
+		message => q|cuenta|,
+		lastUpdated => 1199911383
 	},
 
 	'1004 description' => {
@@ -621,6 +686,16 @@ our $I18N = {
 		lastUpdated => 
 	},
 
+	'settings groupIdAdminUser hoverHelp' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'private message next label' => {
+		message => q||,
+		lastUpdated => 
+	},
+
 	'45' => {
 		message => q||,
 		lastUpdated => 
@@ -636,7 +711,7 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'1002' => {
+	'settings groupIdAdminProductManager hoverHelp' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -662,8 +737,8 @@ our $I18N = {
 	},
 
 	'authentication' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Autenticaci&oacute;n|,
+		lastUpdated => 1199912861
 	},
 
 	'734' => {
@@ -672,8 +747,8 @@ our $I18N = {
 	},
 
 	'1' => {
-		message => q|Agregar contenido...<br />|,
-		lastUpdated => 1169610659
+		message => q|Agregar contenido...|,
+		lastUpdated => 1200060195
 	},
 
 	'144' => {
@@ -736,6 +811,11 @@ our $I18N = {
 		lastUpdated => 
 	},
 
+	'settings groupIdAdminProfileSettings hoverHelp' => {
+		message => q||,
+		lastUpdated => 
+	},
+
 	'Enable Metadata description' => {
 		message => q||,
 		lastUpdated => 
@@ -746,7 +826,22 @@ our $I18N = {
 		lastUpdated => 
 	},
 
+	'private message message label' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'private message no user' => {
+		message => q||,
+		lastUpdated => 
+	},
+
 	'813' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'settings groupIdAdminGroup label' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -762,6 +857,11 @@ our $I18N = {
 	},
 
 	'link in new window' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'settings groupIdAdminHelp hoverHelp' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -796,7 +896,17 @@ our $I18N = {
 		lastUpdated => 
 	},
 
+	'Enable user invitations description' => {
+		message => q||,
+		lastUpdated => 
+	},
+
 	'456' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'private message status unread' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -831,7 +941,7 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'webgui tips title' => {
+	'permissions' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -866,6 +976,11 @@ our $I18N = {
 		lastUpdated => 
 	},
 
+	'allow private messages label' => {
+		message => q||,
+		lastUpdated => 
+	},
+
 	'noldaplink' => {
 		message => q||,
 		lastUpdated => 
@@ -882,6 +997,11 @@ our $I18N = {
 	},
 
 	'default version tag workflow help' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'settings groupIdAdminWorkflowRun hoverHelp' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -906,11 +1026,6 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'content filter body' => {
-		message => q||,
-		lastUpdated => 
-	},
-
 	'1011' => {
 		message => q|C&oacute;digo|,
 		lastUpdated => 1169610732
@@ -931,7 +1046,7 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'grouping edit title' => {
+	'settings groupIdAdminUserAdd label' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -976,7 +1091,17 @@ our $I18N = {
 		lastUpdated => 
 	},
 
+	'private message no self error' => {
+		message => q||,
+		lastUpdated => 
+	},
+
 	'983' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'settings groupIdAdminVersionTag label' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -1007,11 +1132,6 @@ our $I18N = {
 	},
 
 	'432' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'1074' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -1056,22 +1176,27 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'grouping edit body' => {
-		message => q||,
-		lastUpdated => 
-	},
-
 	'69' => {
 		message => q||,
 		lastUpdated => 
 	},
 
-	'glossary body' => {
+	'removeLabel' => {
 		message => q||,
 		lastUpdated => 
 	},
 
-	'removeLabel' => {
+	'private message status read' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'settings groupIdAdminStatistics hoverHelp' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'settings groupIdAdminSubscription label' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -1096,6 +1221,16 @@ our $I18N = {
 		lastUpdated => 
 	},
 
+	'view inbox message template description' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'run on admin update user help' => {
+		message => q||,
+		lastUpdated => 
+	},
+
 	'352' => {
 		message => q||,
 		lastUpdated => 
@@ -1107,13 +1242,13 @@ our $I18N = {
 	},
 
 	'1006' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Encriptar login?|,
+		lastUpdated => 1199918295
 	},
 
 	'company' => {
-		message => q||,
-		lastUpdated => 
+		message => q|compa&ntilde;ia|,
+		lastUpdated => 1199911262
 	},
 
 	'126' => {
@@ -1127,11 +1262,6 @@ our $I18N = {
 	},
 
 	'369' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'961' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -1176,11 +1306,6 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'660' => {
-		message => q||,
-		lastUpdated => 
-	},
-
 	'428' => {
 		message => q||,
 		lastUpdated => 
@@ -1197,6 +1322,11 @@ our $I18N = {
 	},
 
 	'99' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'settings groupIdAdminLDAPLink label' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -1261,9 +1391,9 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'1001' => {
-		message => q||,
-		lastUpdated => 
+	'send private message' => {
+		message => q|Enviar mensaje privado|,
+		lastUpdated => 1199917200
 	},
 
 	'556' => {
@@ -1291,6 +1421,11 @@ our $I18N = {
 		lastUpdated => 
 	},
 
+	'skip commit comments help' => {
+		message => q||,
+		lastUpdated => 
+	},
+
 	'142' => {
 		message => q||,
 		lastUpdated => 
@@ -1311,6 +1446,11 @@ our $I18N = {
 		lastUpdated => 
 	},
 
+	'settings groupIdAdminTransactionLog label' => {
+		message => q||,
+		lastUpdated => 
+	},
+
 	'help index' => {
 		message => q||,
 		lastUpdated => 
@@ -1326,11 +1466,6 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'610' => {
-		message => q||,
-		lastUpdated => 
-	},
-
 	'514' => {
 		message => q||,
 		lastUpdated => 
@@ -1342,16 +1477,11 @@ our $I18N = {
 	},
 
 	'country' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Pa&iacute;s|,
+		lastUpdated => 1199912724
 	},
 
 	'50 description' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'615' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -1367,11 +1497,6 @@ our $I18N = {
 	},
 
 	'885 description' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'969' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -1401,17 +1526,17 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'658' => {
-		message => q||,
-		lastUpdated => 
-	},
-
 	'967' => {
 		message => q||,
 		lastUpdated => 
 	},
 
 	'322' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'settings groupIdAdminCommerce hoverHelp' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -1442,13 +1567,13 @@ our $I18N = {
 	},
 
 	'1039' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Atr&aacute;s|,
+		lastUpdated => 1199971850
 	},
 
 	'1005' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Consulta SQL|,
+		lastUpdated => 1199917917
 	},
 
 	'40' => {
@@ -1466,12 +1591,12 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'699' => {
+	'settings groupIdAdminLDAPLink hoverHelp' => {
 		message => q||,
 		lastUpdated => 
 	},
 
-	'960' => {
+	'699' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -1484,6 +1609,11 @@ our $I18N = {
 	'818' => {
 		message => q||,
 		lastUpdated => 
+	},
+
+	'user email template' => {
+		message => q|Plantilla de email invitaci&oacute;n de usuario|,
+		lastUpdated => 1199917291
 	},
 
 	'130' => {
@@ -1506,12 +1636,12 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'manage groups in group body' => {
+	'354' => {
 		message => q||,
 		lastUpdated => 
 	},
 
-	'354' => {
+	'private message sent' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -1521,22 +1651,27 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'583' => {
-		message => q||,
-		lastUpdated => 
-	},
-
 	'debug ip description' => {
 		message => q||,
 		lastUpdated => 
 	},
 
-	'951' => {
+	'583' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'settings groupIdAdminGraphics hoverHelp' => {
 		message => q||,
 		lastUpdated => 
 	},
 
 	'show performance indicators' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'951' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -1567,11 +1702,6 @@ our $I18N = {
 	},
 
 	'packages' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'leftovers from settings stored for later' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -1611,7 +1741,7 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'620' => {
+	'private message status replied' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -1622,8 +1752,8 @@ our $I18N = {
 	},
 
 	'1004' => {
-		message => q||,
-		lastUpdated => 
+		message => q|¿Cuánto tiempo mantener grupos en caché?|,
+		lastUpdated => 1190393530
 	},
 
 	'891' => {
@@ -1632,8 +1762,8 @@ our $I18N = {
 	},
 
 	'1045' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Anidadas|,
+		lastUpdated => 1199974304
 	},
 
 	'532' => {
@@ -1647,6 +1777,11 @@ our $I18N = {
 	},
 
 	'1069' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'user email template description' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -1687,8 +1822,8 @@ our $I18N = {
 	},
 
 	'trash' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Papelera|,
+		lastUpdated => 1200060382
 	},
 
 	'manage cache' => {
@@ -1697,8 +1832,8 @@ our $I18N = {
 	},
 
 	'read only' => {
-		message => q||,
-		lastUpdated => 
+		message => q|S&oacute;lo lectura|,
+		lastUpdated => 1199917477
 	},
 
 	'combobox' => {
@@ -1712,6 +1847,11 @@ our $I18N = {
 	},
 
 	'395' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'additional parameters help' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -1736,6 +1876,11 @@ our $I18N = {
 		lastUpdated => 
 	},
 
+	'private message title' => {
+		message => q||,
+		lastUpdated => 
+	},
+
 	'35' => {
 		message => q||,
 		lastUpdated => 
@@ -1746,12 +1891,12 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'347' => {
+	'settings groupIdAdminDatabaseLink label' => {
 		message => q||,
 		lastUpdated => 
 	},
 
-	'665' => {
+	'347' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -1821,6 +1966,11 @@ our $I18N = {
 		lastUpdated => 
 	},
 
+	'settings groupIdAdminGroup hoverHelp' => {
+		message => q||,
+		lastUpdated => 
+	},
+
 	'67' => {
 		message => q||,
 		lastUpdated => 
@@ -1852,6 +2002,16 @@ our $I18N = {
 	},
 
 	'user' => {
+		message => q|Usuario|,
+		lastUpdated => 1199912737
+	},
+
+	'settings groupIdAdminWorkflow label' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'settings groupIdAdminGroupAdmin label' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -1876,12 +2036,7 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'957' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'622' => {
+	'allow access from macros' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -1932,8 +2087,8 @@ our $I18N = {
 	},
 
 	'104' => {
-		message => q||,
-		lastUpdated => 
+		message => q|URL|,
+		lastUpdated => 1199971863
 	},
 
 	'412' => {
@@ -1947,8 +2102,8 @@ our $I18N = {
 	},
 
 	'submit' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Enviar|,
+		lastUpdated => 1199917218
 	},
 
 	'314' => {
@@ -1986,6 +2141,11 @@ our $I18N = {
 		lastUpdated => 
 	},
 
+	'settings groupIdAdminLoginHistory label' => {
+		message => q||,
+		lastUpdated => 
+	},
+
 	'355' => {
 		message => q||,
 		lastUpdated => 
@@ -2011,6 +2171,11 @@ our $I18N = {
 		lastUpdated => 
 	},
 
+	'private message blocked error' => {
+		message => q||,
+		lastUpdated => 
+	},
+
 	'326' => {
 		message => q||,
 		lastUpdated => 
@@ -2031,14 +2196,9 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'681' => {
-		message => q||,
-		lastUpdated => 
-	},
-
 	'1017' => {
-		message => q||,
-		lastUpdated => 
+		message => q|&Uacute;ltima Respuesta|,
+		lastUpdated => 1199971411
 	},
 
 	'37' => {
@@ -2051,14 +2211,14 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'1029' => {
+	'private message from label' => {
 		message => q||,
 		lastUpdated => 
 	},
 
-	'698' => {
-		message => q||,
-		lastUpdated => 
+	'1029' => {
+		message => q|Editado en|,
+		lastUpdated => 1199971793
 	},
 
 	'538' => {
@@ -2091,6 +2251,11 @@ our $I18N = {
 		lastUpdated => 
 	},
 
+	'allow access from macros help' => {
+		message => q||,
+		lastUpdated => 
+	},
+
 	'hex slider' => {
 		message => q||,
 		lastUpdated => 
@@ -2102,6 +2267,16 @@ our $I18N = {
 	},
 
 	'433' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'settings groupIdAdminWorkflow hoverHelp' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'settings groupIdAdminLoginHistory hoverHelp' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -2147,13 +2322,13 @@ our $I18N = {
 	},
 
 	'1008' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Mezclar texto y HTML|,
+		lastUpdated => 1199918740
 	},
 
 	'1027' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Usar filtros de contenido?|,
+		lastUpdated => 1199971752
 	},
 
 	'user function style' => {
@@ -2172,8 +2347,8 @@ our $I18N = {
 	},
 
 	'1044' => {
-		message => q|Plantilla de b&uacute;squeda<br /> |,
-		lastUpdated => 1169610759
+		message => q|Plantilla de b&uacute;squeda |,
+		lastUpdated => 1200060287
 	},
 
 	'admin console template description' => {
@@ -2191,12 +2366,17 @@ our $I18N = {
 		lastUpdated => 
 	},
 
+	'editSettings done' => {
+		message => q||,
+		lastUpdated => 
+	},
+
 	'118 description' => {
 		message => q||,
 		lastUpdated => 
 	},
 
-	'612' => {
+	'settings groupIdAdminAdSpace hoverHelp' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -2216,12 +2396,12 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'91' => {
+	'settings groupIdAdminProductManager label' => {
 		message => q||,
 		lastUpdated => 
 	},
 
-	'1086' => {
+	'91' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -2266,6 +2446,11 @@ our $I18N = {
 		lastUpdated => 
 	},
 
+	'settings groupIdAdminUserAdd hoverHelp' => {
+		message => q||,
+		lastUpdated => 
+	},
+
 	'trash workflow' => {
 		message => q||,
 		lastUpdated => 
@@ -2286,22 +2471,12 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'668' => {
-		message => q||,
-		lastUpdated => 
-	},
-
 	'52' => {
 		message => q||,
 		lastUpdated => 
 	},
 
 	'750' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'657' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -2322,6 +2497,11 @@ our $I18N = {
 	},
 
 	'768' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'settings groupIdAdminGroupAdmin hoverHelp' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -2386,12 +2566,17 @@ our $I18N = {
 		lastUpdated => 
 	},
 
+	'settings groupIdAdminCommerce label' => {
+		message => q||,
+		lastUpdated => 
+	},
+
 	'ui' => {
 		message => q||,
 		lastUpdated => 
 	},
 
-	'623' => {
+	'run on admin create user help' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -2417,6 +2602,11 @@ our $I18N = {
 	},
 
 	'1085' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'Enable user invitations' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -2466,11 +2656,6 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'997' => {
-		message => q||,
-		lastUpdated => 
-	},
-
 	'36' => {
 		message => q||,
 		lastUpdated => 
@@ -2479,11 +2664,6 @@ our $I18N = {
 	'settings' => {
 		message => q|Herramientas|,
 		lastUpdated => 1169610715
-	},
-
-	'groups default body' => {
-		message => q||,
-		lastUpdated => 
 	},
 
 	'748' => {
@@ -2502,11 +2682,6 @@ our $I18N = {
 	},
 
 	'317' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'608' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -2571,6 +2746,16 @@ our $I18N = {
 		lastUpdated => 
 	},
 
+	'settings groupIdAdminActiveSessions label' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'settings groupIdAdminCache label' => {
+		message => q||,
+		lastUpdated => 
+	},
+
 	'125' => {
 		message => q||,
 		lastUpdated => 
@@ -2581,19 +2766,19 @@ our $I18N = {
 		lastUpdated => 
 	},
 
+	'send private message template' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'run on admin create user' => {
+		message => q||,
+		lastUpdated => 
+	},
+
 	'1007' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'667' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'998' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Tipo de contenido|,
+		lastUpdated => 1199918499
 	},
 
 	'95' => {
@@ -2612,8 +2797,8 @@ our $I18N = {
 	},
 
 	'webgui' => {
-		message => q||,
-		lastUpdated => 
+		message => q|WebGUI|,
+		lastUpdated => 1199917234
 	},
 
 	'551' => {
@@ -2656,11 +2841,6 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'697' => {
-		message => q||,
-		lastUpdated => 
-	},
-
 	'pagination.previousPage' => {
 		message => q||,
 		lastUpdated => 
@@ -2687,8 +2867,8 @@ our $I18N = {
 	},
 
 	'1010' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Texto|,
+		lastUpdated => 1199971317
 	},
 
 	'707' => {
@@ -2721,7 +2901,22 @@ our $I18N = {
 		lastUpdated => 
 	},
 
+	'settings groupIdAdminCron label' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'private message submit label' => {
+		message => q||,
+		lastUpdated => 
+	},
+
 	'81' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'view inbox message template' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -2732,11 +2927,6 @@ our $I18N = {
 	},
 
 	'321' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'group email title' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -2776,6 +2966,11 @@ our $I18N = {
 		lastUpdated => 
 	},
 
+	'user invitations email exists description' => {
+		message => q||,
+		lastUpdated => 
+	},
+
 	'pagination.pageNumber' => {
 		message => q||,
 		lastUpdated => 
@@ -2801,6 +2996,11 @@ our $I18N = {
 		lastUpdated => 
 	},
 
+	'settings groupIdAdminUser label' => {
+		message => q||,
+		lastUpdated => 
+	},
+
 	'885' => {
 		message => q||,
 		lastUpdated => 
@@ -2822,8 +3022,8 @@ our $I18N = {
 	},
 
 	'1046' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Archivado|,
+		lastUpdated => 1199974577
 	},
 
 	'863' => {
@@ -2856,11 +3056,6 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'group email body' => {
-		message => q||,
-		lastUpdated => 
-	},
-
 	'735' => {
 		message => q||,
 		lastUpdated => 
@@ -2872,11 +3067,6 @@ our $I18N = {
 	},
 
 	'tinymce' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'613' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -2911,7 +3101,17 @@ our $I18N = {
 		lastUpdated => 
 	},
 
+	'user invitations email exists' => {
+		message => q||,
+		lastUpdated => 
+	},
+
 	'952' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'private message subject label' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -2927,11 +3127,11 @@ our $I18N = {
 	},
 
 	'select' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Seleccionar|,
+		lastUpdated => 1199917137
 	},
 
-	'636' => {
+	'auto request commit help' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -2951,6 +3151,11 @@ our $I18N = {
 		lastUpdated => 
 	},
 
+	'settings groupIdAdminVersionTag hoverHelp' => {
+		message => q||,
+		lastUpdated => 
+	},
+
 	'hidden' => {
 		message => q||,
 		lastUpdated => 
@@ -2961,17 +3166,22 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'455' => {
-		message => q||,
-		lastUpdated => 
-	},
-
 	'1050 description' => {
 		message => q||,
 		lastUpdated => 
 	},
 
+	'455' => {
+		message => q||,
+		lastUpdated => 
+	},
+
 	'80' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'settings groupIdAdminReplacements hoverHelp' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -2991,12 +3201,32 @@ our $I18N = {
 		lastUpdated => 
 	},
 
+	'view inbox template' => {
+		message => q||,
+		lastUpdated => 
+	},
+
 	'821' => {
 		message => q||,
 		lastUpdated => 
 	},
 
+	'wiki help target' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'run on admin update user' => {
+		message => q||,
+		lastUpdated => 
+	},
+
 	'ends with' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'send private message template description' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -3011,6 +3241,11 @@ our $I18N = {
 		lastUpdated => 
 	},
 
+	'settings groupIdAdminDatabaseLink hoverHelp' => {
+		message => q||,
+		lastUpdated => 
+	},
+
 	'879' => {
 		message => q||,
 		lastUpdated => 
@@ -3021,12 +3256,7 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'10' => {
-		message => q|Administrar papelera.<br />|,
-		lastUpdated => 1169610677
-	},
-
-	'980' => {
+	'asset locked' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -3034,6 +3264,16 @@ our $I18N = {
 	'pagination.pageCount' => {
 		message => q||,
 		lastUpdated => 
+	},
+
+	'980' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'10' => {
+		message => q|Administrar papelera.|,
+		lastUpdated => 1200060251
 	},
 
 	'864 description' => {
@@ -3046,12 +3286,12 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'419' => {
+	'958' => {
 		message => q||,
 		lastUpdated => 
 	},
 
-	'958' => {
+	'419' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -3081,12 +3321,17 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'edit user karma body' => {
+	'settings groupIdAdminHelp label' => {
 		message => q||,
 		lastUpdated => 
 	},
 
 	'406' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'settings groupIdAdminSpectre label' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -3111,12 +3356,7 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'530' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'499' => {
+	'557 description' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -3126,7 +3366,12 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'557 description' => {
+	'499' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'530' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -3162,8 +3407,8 @@ our $I18N = {
 	},
 
 	'1047' => {
-		message => q||,
-		lastUpdated => 
+		message => q|A&ntilde;adir un filtro de contenidos.|,
+		lastUpdated => 1199975778
 	},
 
 	'88' => {
@@ -3177,21 +3422,16 @@ our $I18N = {
 	},
 
 	'1009' => {
-		message => q||,
-		lastUpdated => 
+		message => q|HTML|,
+		lastUpdated => 1199971289
 	},
 
-	'groups default title' => {
+	'pagination.pageList.upTo10' => {
 		message => q||,
 		lastUpdated => 
 	},
 
 	'141' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'pagination.pageList.upTo10' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -3217,11 +3457,6 @@ our $I18N = {
 	},
 
 	'134' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'655' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -3256,6 +3491,21 @@ our $I18N = {
 		lastUpdated => 
 	},
 
+	'private message unread display message' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'private message date label' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'settings groupIdAdminGraphics label' => {
+		message => q||,
+		lastUpdated => 
+	},
+
 	'1070' => {
 		message => q||,
 		lastUpdated => 
@@ -3272,13 +3522,13 @@ our $I18N = {
 	},
 
 	'1016' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Respuestas|,
+		lastUpdated => 1199971371
 	},
 
 	'help' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Ayuda|,
+		lastUpdated => 1199993596
 	},
 
 	'318' => {
@@ -3306,7 +3556,7 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'webgui tips body' => {
+	'settings groupIdAdminCron hoverHelp' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -3342,6 +3592,11 @@ our $I18N = {
 	},
 
 	'807' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'settings groupIdAdminActiveSessions hoverHelp' => {
 		message => q||,
 		lastUpdated => 
 	},

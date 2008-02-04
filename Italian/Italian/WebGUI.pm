@@ -3026,6 +3026,11 @@ our $I18N = {
 		lastUpdated => 
 	},
 
+	'asset locked' => {
+		message => q||,
+		lastUpdated => 
+	},
+
 	'10' => {
 		message => q||,
 		lastUpdated => 
@@ -3277,8 +3282,8 @@ our $I18N = {
 	},
 
 	'1016' => {
-		message => q|Risposte|,
-		lastUpdated => 1156600423
+		message => q|Commenti|,
+		lastUpdated => 1182968187
 	},
 
 	'help' => {

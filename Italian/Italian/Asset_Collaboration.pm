@@ -252,8 +252,8 @@ our $I18N = {
 	},
 
 	'replies' => {
-		message => q|Risposte|,
-		lastUpdated => 1157482777
+		message => q|Commenti/Risposte|,
+		lastUpdated => 1177002048
 	},
 
 	'attachment_thumbnail' => {
@@ -467,8 +467,8 @@ our $I18N = {
 	},
 
 	'replies.label' => {
-		message => q|Risposte|,
-		lastUpdated => 1157482787
+		message => q|Commenti/Risposte|,
+		lastUpdated => 1177002073
 	},
 
 	'notification template' => {

@@ -6,7 +6,7 @@ our $LANGUAGE = {
 	label => 'French',
 	toolbar => 'Français',
 	languageAbbreviation => 'fr',
-	locale => 'CA',
+	locale => 'FR',
 };
 
 sub makeUrlCompliant {

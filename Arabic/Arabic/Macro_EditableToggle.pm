@@ -7,8 +7,8 @@ our $I18N = {
 	},
 
 	'editable toggle title' => {
-		message => q|ماكرو توجل قابل للتعديل<br />|,
-		lastUpdated => 1170351284
+		message => q|&nbsp;متغيرات نموذج ماكرو توجل قابل للتعديل|,
+		lastUpdated => 1201008865
 	},
 
 	'toggle.url' => {
@@ -24,11 +24,6 @@ our $I18N = {
 	'macroName' => {
 		message => q|توجل قابل لتعديل<br />|,
 		lastUpdated => 1170351298
-	},
-
-	'editable toggle body' => {
-		message => q|  <p dir="rtl" class="MsoNormal"><span>^EditableToggle; or ^EditableToggle();</span><span></span></p>  <p dir="rtl" class="MsoNormal"><span>تماما مثل حالة الادمين, بفرق أن الحالة تظهر فقط إذا كان للمستخدم الحق في تغيير الاصل الحالي. هذا الماكرو يأخذ ثلاثة نطاقات. الأول هو علامة ل&quot;شغل الادمين&quot;, الثاني هو علامة ل&quot;اوقف الادمين&quot; و الثالث هو اسم النموذج في الماكرو/عدل أو اضبط حالة لكي يستبدل النموذج الاعتيادي.</span></p>  <p dir="rtl" class="MsoNormal"><span>&nbsp;</span></p>  <p dir="rtl" class="MsoNormal"><span>هذا الماكرو لا يمكن أن يتشابك في داخل الماكروهات الأخرى.</span></p>  <p dir="rtl" class="MsoNormal"><span>&nbsp;</span></p>  <p dir="rtl" class="MsoNormal"><span>المتغيرات التالية متوفرة في النموذج.</span></p>  |,
-		lastUpdated => 1170351239
 	},
 
 	'toggle.text' => {

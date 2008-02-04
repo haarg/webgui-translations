@@ -46,22 +46,12 @@ our $I18N = {
 		lastUpdated => 1168200602
 	},
 
-	'edit advertisement body' => {
-		message => q||,
-		lastUpdated => 
-	},
-
 	'manage ad spaces' => {
 		message => q||,
 		lastUpdated => 
 	},
 
 	'title help' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'manage ad spaces title' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -211,11 +201,6 @@ our $I18N = {
 		lastUpdated => 1168200609
 	},
 
-	'edit ad space body' => {
-		message => q||,
-		lastUpdated => 
-	},
-
 	'confirm ad delete' => {
 		message => q||,
 		lastUpdated => 
@@ -237,8 +222,8 @@ our $I18N = {
 	},
 
 	'image' => {
-		message => q||,
-		lastUpdated => 
+		message => q|pitchure|,
+		lastUpdated => 1201355812
 	},
 
 	'macro code prompt' => {

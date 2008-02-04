@@ -7,8 +7,8 @@ our $I18N = {
 	},
 
 	'content' => {
-		message => q|Der verarbeitete (rendered) Inhalt diese Assets.<br />|,
-		lastUpdated => 1170405606
+		message => q|Der verarbeitete (rendered) Inhalt diese Assets.|,
+		lastUpdated => 1178864154
 	},
 
 	'assetsToHide' => {
@@ -48,37 +48,37 @@ our $I18N = {
 
 	'assets to hide description' => {
 		message => q|Diese Liste enth&auml;lt ein Auswahlfeld f&uuml;r jedes Asset auf der Seite. W&auml;hlen Sie hier die Assets aus, die nicht auf der Seite dargestellt werden sollen. |,
-		lastUpdated => 1149227009
+		lastUpdated => 1178864160
 	},
 
 	'id' => {
-		message => q|Die Asset ID dieses Assets.<br />|,
-		lastUpdated => 1170405932
+		message => q|Die Asset ID dieses Assets.|,
+		lastUpdated => 1178864167
 	},
 
 	'templateId' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Die ID des Templates, das f&uuml;r die Anzeige dieses Assets benutzt wird.|,
+		lastUpdated => 1178864374
 	},
 
 	'position1_loop' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Jede Position in dem Template hat eine Schleife, die einen Satz an Assets enth&auml;lt, die angezeigt werden. Assets, die nicht an einer bestimmten Stelle platziert wurden, werden an Position 1 gesetzt.|,
+		lastUpdated => 1178864308
 	},
 
 	'847' => {
-		message => q|Zur&uuml;ck zur aktuellen Seite.<br />|,
-		lastUpdated => 1149226926
+		message => q|Zur&uuml;ck zur aktuellen Seite.|,
+		lastUpdated => 1178864141
 	},
 
 	'assets to hide' => {
-		message => q|Assets zum Verbergen<br />|,
-		lastUpdated => 1149226952
+		message => q|Assets zum Verbergen|,
+		lastUpdated => 1178864147
 	},
 
 	'layout template body' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Die folgenden Variablen sind in Seitenlayout Templates verf&uuml;gbar:|,
+		lastUpdated => 1178864216
 	},
 
 	'layout asset template variables body' => {
@@ -87,13 +87,13 @@ our $I18N = {
 	},
 
 	'showAdmin' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Bedingung, die angibt, ob sich der aktuelle Benutzer im Admin Modus befindet und dieses Asset bearbeiten kann.|,
+		lastUpdated => 1178864350
 	},
 
 	'layout template title' => {
-		message => q|Seitenlayout Template<br />|,
-		lastUpdated => 1149227057
+		message => q|Seitenlayout Template|,
+		lastUpdated => 1178864208
 	},
 
 	'template description' => {
@@ -102,8 +102,8 @@ our $I18N = {
 	},
 
 	'823' => {
-		message => q|Zur neuen Seite gehen.<br />|,
-		lastUpdated => 1149226911
+		message => q|Zur neuen Seite gehen.|,
+		lastUpdated => 1178864135
 	},
 
 };

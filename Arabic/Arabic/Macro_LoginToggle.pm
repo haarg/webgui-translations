@@ -6,9 +6,9 @@ our $I18N = {
 		lastUpdated => 1173201346
 	},
 
-	'login toggle body' => {
-		message => q||,
-		lastUpdated => 
+	'toggle.url' => {
+		message => q|الرابط للدخول او الخروج|,
+		lastUpdated => 1201009027
 	},
 
 	'717' => {
@@ -22,8 +22,13 @@ our $I18N = {
 	},
 
 	'login toggle title' => {
-		message => q|ماكرو عمل دخول<br />|,
-		lastUpdated => 1173201373
+		message => q|متغيرات نموذج ماكرو عمل دخول|,
+		lastUpdated => 1201008977
+	},
+
+	'toggle.text' => {
+		message => q|العلامة الدولية للدخول او الخروج (تبعا لحالة الماكرو) او النص الذي تضيفه الى الماكرو|,
+		lastUpdated => 1201009014
 	},
 
 };

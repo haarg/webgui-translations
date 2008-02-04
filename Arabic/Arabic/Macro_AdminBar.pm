@@ -6,14 +6,29 @@ our $I18N = {
 		lastUpdated => 1168966919
 	},
 
+	'macroName' => {
+		message => q|شريط الادارة|,
+		lastUpdated => 1168967086
+	},
+
+	'name' => {
+		message => q|اسم جافاسكريبت لهذه الطبقة<br />|,
+		lastUpdated => 1168967032
+	},
+
+	'12' => {
+		message => q|اغلق الادمين<br />|,
+		lastUpdated => 1168966794
+	},
+
 	'1082' => {
 		message => q|لوحة القص<br />|,
 		lastUpdated => 1168966727
 	},
 
 	'admin bar title' => {
-		message => q|ماكرو شريط التحكم<br />|,
-		lastUpdated => 1168966846
+		message => q|&nbsp;متغيرات نموذج ماكرو شريط التحكم|,
+		lastUpdated => 1201008829
 	},
 
 	'376' => {
@@ -26,44 +41,14 @@ our $I18N = {
 		lastUpdated => 1168966825
 	},
 
-	'url' => {
-		message => q|وصلة رابط لهذا العنصر<br />|,
-		lastUpdated => 1168967064
-	},
-
-	'1083' => {
-		message => q|مادة جديدة<br />|,
-		lastUpdated => 1168966754
-	},
-
-	'name' => {
-		message => q|اسم جافاسكريبت لهذه الطبقة<br />|,
-		lastUpdated => 1168967032
-	},
-
-	'admin bar body' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'macroName' => {
-		message => q|شريط الادارة|,
-		lastUpdated => 1168967086
-	},
-
-	'12' => {
-		message => q|اغلق الادمين<br />|,
-		lastUpdated => 1168966794
-	},
-
 	'adminbar_loop' => {
 		message => q|سلسلة متضمنة القوائم المختلفة للبيانات التي يجب ان تظهر<br />|,
 		lastUpdated => 1168966873
 	},
 
-	'title' => {
-		message => q|عنوان موصل و ظاهر لهذا العنصر<br />|,
-		lastUpdated => 1168967050
+	'url' => {
+		message => q|وصلة رابط لهذا العنصر<br />|,
+		lastUpdated => 1168967064
 	},
 
 	'label' => {
@@ -71,14 +56,24 @@ our $I18N = {
 		lastUpdated => 1168966980
 	},
 
-	'items' => {
-		message => q|سلسلة متضمنة قائمة بكل العناصر في هذه الطبقة<br />|,
-		lastUpdated => 1168966945
+	'title' => {
+		message => q|عنوان موصل و ظاهر لهذا العنصر<br />|,
+		lastUpdated => 1168967050
+	},
+
+	'1083' => {
+		message => q|مادة جديدة<br />|,
+		lastUpdated => 1168966754
 	},
 
 	'commit my changes' => {
 		message => q|شغل تغيراتي<br />|,
 		lastUpdated => 1168966895
+	},
+
+	'items' => {
+		message => q|سلسلة متضمنة قائمة بكل العناصر في هذه الطبقة<br />|,
+		lastUpdated => 1168966945
 	},
 
 };

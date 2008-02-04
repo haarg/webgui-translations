@@ -46,6 +46,16 @@ our $I18N = {
 		lastUpdated => 1173102800
 	},
 
+	'formUserDefinedN' => {
+		message => q|كل واحد من المجالات المعرفة للمستخدمين الخمسة, نموذج من سطر واح للنص|,
+		lastUpdated => 1201005369
+	},
+
+	'urlParent' => {
+		message => q|الرابط الى الاجندة التي تحتوي الحدث|,
+		lastUpdated => 1177045860
+	},
+
 	'url' => {
 		message => q|الرابط لهذا الحدث<br />|,
 		lastUpdated => 1173107133
@@ -86,9 +96,19 @@ our $I18N = {
 		lastUpdated => 1173103431
 	},
 
+	'image.url' => {
+		message => q|الرابط الى الصورة الاولى المرفقة بهذه الاضافة|,
+		lastUpdated => 1201005725
+	},
+
 	'endDate' => {
 		message => q|تاريخ انتهاء هذا الحدث<br />|,
 		lastUpdated => 1173101792
+	},
+
+	'isImage' => {
+		message => q|شرط يحدد ما اذا كانت هذه المرفقة صورة|,
+		lastUpdated => 1201005749
 	},
 
 	'startDateYear' => {
@@ -116,9 +136,19 @@ our $I18N = {
 		lastUpdated => 1173106250
 	},
 
+	'attachment.icon' => {
+		message => q|ايقونة تعرف نوع الملف في هذه المرفقة|,
+		lastUpdated => 1201004911
+	},
+
 	'endDateMonthName' => {
 		message => q|اسم الشهر الذي ينتهي فيه الحدث<br /> |,
 		lastUpdated => 1173102633
+	},
+
+	'formUserDefinedN_yesNo' => {
+		message => q|لكل من مجالات التعريف للمستخدمين الخمسة, نموذج قطعة لمجال نعم/لا|,
+		lastUpdated => 1201005624
 	},
 
 	'formStartDate' => {
@@ -151,6 +181,11 @@ our $I18N = {
 		lastUpdated => 1173106719
 	},
 
+	'attachment_loop' => {
+		message => q|دورة تحتوي على كل المرفقات من ملفات او صور في هذه الاضافة|,
+		lastUpdated => 1201005136
+	},
+
 	'startDateDayAbbr' => {
 		message => q|اختصار اسم اليوم الذي يبدأ فيه الحدث<br />|,
 		lastUpdated => 1173105339
@@ -176,6 +211,11 @@ our $I18N = {
 		lastUpdated => 1173107451
 	},
 
+	'filename' => {
+		message => q|اسم هذه المرفقة|,
+		lastUpdated => 1201005209
+	},
+
 	'formRecurEnd' => {
 		message => q|نموذج تاريخ اتش تي ام ال للادخال عند انتهاء الحدث الحالي<br />|,
 		lastUpdated => 1173103712
@@ -189,6 +229,11 @@ our $I18N = {
 	'event asset template variables title' => {
 		message => q|متغيرات نموذج اصل الحدث<br />|,
 		lastUpdated => 1173103093
+	},
+
+	'attachment.name' => {
+		message => q|اسم المرفقة الاولى الموجودة في هذه الاضافة|,
+		lastUpdated => 1201004945
 	},
 
 	'event view template variables body' => {
@@ -241,6 +286,11 @@ our $I18N = {
 		lastUpdated => 1173101816
 	},
 
+	'formAttachments' => {
+		message => q|نموذج اتش تي ام ال لاضافة او ازالة الملفات من هذا الحدث|,
+		lastUpdated => 1201005244
+	},
+
 	'linkUrl' => {
 		message => q|رابط من مجموعة الوصلات المتعلقة<br />|,
 		lastUpdated => 1173105070
@@ -249,6 +299,11 @@ our $I18N = {
 	'isPublic' => {
 		message => q|شرط سيتحقق اذا كانت المجموعة التي ترى هذا الحدث الكل<br />|,
 		lastUpdated => 1173105022
+	},
+
+	'canEdit' => {
+		message => q|يتحقق هذا المتغير اذا كان يمكن للمستخدم الحالي التعديل في هذا الحدث|,
+		lastUpdated => 1201005184
 	},
 
 	'formErrors' => {
@@ -276,6 +331,11 @@ our $I18N = {
 		lastUpdated => 1173103331
 	},
 
+	'formUserDefinedN_htmlarea' => {
+		message => q|لكل من مجالات التعريف للمستخدمين الخمسة, نموذج قطعو لاجل WYSIWIG HTML area|,
+		lastUpdated => 1201005558
+	},
+
 	'endDateHourM' => {
 		message => q|بناء على وقت حدوث الحدث في النهار او اليل, ستظهر العلامات صباحا او مساء<br /> |,
 		lastUpdated => 1173102539
@@ -284,6 +344,11 @@ our $I18N = {
 	'endDateDayOfMonth' => {
 		message => q|اليوم من الشهر الذي ينتهي فيه الحدث, رقم من 1 الى 31<br />|,
 		lastUpdated => 1173101860
+	},
+
+	'urlSearch' => {
+		message => q|الرابط الى نموذج البحث من الاجندة التي تحتوي هذا الحدث|,
+		lastUpdated => 1177045884
 	},
 
 	'formFooter' => {
@@ -296,14 +361,14 @@ our $I18N = {
 		lastUpdated => 1173105236
 	},
 
-	'formLocation' => {
-		message => q|اتش تي ام ال لادخال او تعديل مكان الحدث<br /> |,
-		lastUpdated => 1173103663
-	},
-
 	'endDateEpoch' => {
 		message => q|تاريخ ووقت انتهاء الحدث في شكل ايبوش<br />|,
 		lastUpdated => 1173101972
+	},
+
+	'formLocation' => {
+		message => q|اتش تي ام ال لادخال او تعديل مكان الحدث<br /> |,
+		lastUpdated => 1173103663
 	},
 
 	'urlWeek' => {
@@ -331,6 +396,11 @@ our $I18N = {
 		lastUpdated => 1173104359
 	},
 
+	'icon' => {
+		message => q|الايقونة التي تظهر نوع الملف الموجود في هذه المرفقة|,
+		lastUpdated => 1201005652
+	},
+
 	'nextUrl' => {
 		message => q|رابط لك يأخذ المستخدم الى الحدث التالي على الاجندة, بالتاريخ و الوقت<br />|,
 		lastUpdated => 1173105132
@@ -356,14 +426,19 @@ our $I18N = {
 		lastUpdated => 1173102566
 	},
 
+	'formUserDefinedN_float' => {
+		message => q|لكل واحد من مجالات التعريف للمستخدمين الخمسة, نموذج للطفو|,
+		lastUpdated => 1201005403
+	},
+
+	'formUserDefinedN_textarea' => {
+		message => q|لكل من مجالات التعريف للمستخدمين الخمسة, نموذج قطعة لمساحة النص|,
+		lastUpdated => 1201005595
+	},
+
 	'formEndDate' => {
 		message => q|اتش تي ام ال لادخال او تعديل تاريخ انتهاء الحدث<br />|,
 		lastUpdated => 1173103552
-	},
-
-	'add/edit body' => {
-		message => q|هذا الاصل ليس له اي توثيق او تدويل<br />|,
-		lastUpdated => 1173107473
 	},
 
 	'endDateDayOfWeek' => {
@@ -396,14 +471,19 @@ our $I18N = {
 		lastUpdated => 1173102668
 	},
 
-	'startDateDayOfWeek' => {
-		message => q|اليوم من الاسبوع الذي يبدأ فيه الحدث, رقم من 1 الى 7 |,
-		lastUpdated => 1173106079
+	'thumbnail' => {
+		message => q|الصورة الصغيرة لهذه المرفقة, اذا كان بالمكان تطبيقها|,
+		lastUpdated => 1201005320
 	},
 
 	'isOneDay' => {
 		message => q|شرط سيتحقق اذا بدأ الحدث و انتهى في نفس اليوم<br />|,
 		lastUpdated => 1173104995
+	},
+
+	'startDateDayOfWeek' => {
+		message => q|اليوم من الاسبوع الذي يبدأ فيه الحدث, رقم من 1 الى 7 |,
+		lastUpdated => 1173106079
 	},
 
 	'startDateHour24' => {
@@ -414,6 +494,11 @@ our $I18N = {
 	'startDateDayName' => {
 		message => q|اسم اليوم الذي يبدأ فيه الحدث<br />|,
 		lastUpdated => 1173105352
+	},
+
+	'attachment_url' => {
+		message => q|الرابط لتحميل هذه المرفقة|,
+		lastUpdated => 1201005156
 	},
 
 	'message' => {
@@ -431,9 +516,24 @@ our $I18N = {
 		lastUpdated => 1173105161
 	},
 
+	'formGroupToView' => {
+		message => q|نموذج اتش تي ام ال لاختيار اي مجموعة يمكنها الاطلاع على هذا الحدث|,
+		lastUpdated => 1201005282
+	},
+
 	'startDateDmy' => {
 		message => q|تاريخ بدأ الحدث في شكل يوم-شهر-سنة<br />|,
 		lastUpdated => 1173106139
+	},
+
+	'attachment.url' => {
+		message => q|الرابط لتحميل المرفقة الازلى في هذه الاضافة|,
+		lastUpdated => 1201005101
+	},
+
+	'image.thumbnail' => {
+		message => q|صورة صغيرة للصورة المرفقة بهذه الاضافة|,
+		lastUpdated => 1201005677
 	},
 
 };

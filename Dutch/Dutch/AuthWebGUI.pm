@@ -212,8 +212,8 @@ our $I18N = {
 	},
 
 	'webguiPasswordRecovery hoverHelp' => {
-		message => q|Selecteer hier "Ja" om gebruikers toe te staan met een specifieke combinatie van gegevens uit hun profiel hun wachtwoord opnieuw op te vragen. Voordat deze optie ook daadwerkelijk werkt, moet bij ten minste &eacute;&eacute;n profielveld de optie "Verplicht voor opvragen wachtwoord" geselecteerd zijn. Het is zeer aan te raden meerdere profielvelden te kiezen, om gokken te ontmoedigen. Bedenk: iedereen die alle velden voor een gebruiker te weten kan komen of kan raden heeft de mogelijkheid het wachtwoord voor deze gebruiker opnieuw in te stellen.|,
-		lastUpdated => 1166626275
+		message => q|Selecteer hier &quot;Profiel veld&quot; om gebruikers toe te staan met een specifieke combinatie van gegevens uit hun profiel hun wachtwoord opnieuw op te vragen. Voordat deze optie ook daadwerkelijk werkt, moet bij ten minste &eacute;&eacute;n profielveld de optie &quot;Verplicht voor opvragen wachtwoord&quot; geselecteerd zijn. Het is zeer aan te raden meerdere profielvelden te kiezen, om gokken te ontmoedigen. Bedenk: iedereen die alle velden voor een gebruiker te weten kan komen of kan raden heeft de mogelijkheid het wachtwoord voor deze gebruiker opnieuw in te stellen. Selecteer E-mail om gebruikers een e-mail te kunnen zenden met een link via welke ze hun wachtwoord opnieuw kunnen instellen.|,
+		lastUpdated => 1199787271
 	},
 
 	'recover password email text1' => {

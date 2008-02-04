@@ -31,6 +31,11 @@ our $I18N = {
 		lastUpdated => 1146581876
 	},
 
+	'make asset exportable' => {
+		message => q|Deze Asset exporteerbaar maken?|,
+		lastUpdated => 1201182758
+	},
+
 	'newWindow' => {
 		message => q|Een booleaanse variabele (waar/niet-waar) die waar is als het asset is ingesteld op "open in nieuw venster".|,
 		lastUpdated => 1170686157
@@ -209,6 +214,11 @@ our $I18N = {
 	'deleteConfirm' => {
 		message => q|Weet u zeker dat u dit Metadata veld wilt verwijderen?|,
 		lastUpdated => 1146831249
+	},
+
+	'make asset exportable description' => {
+		message => q|Zal deze Asset exporteerbaar zijn? Deze Asset en al zijn ouder Assets moeten exporteerbaar zijn, voordat deze Asset exporteerbaar is.|,
+		lastUpdated => 1201182821
 	},
 
 	'manage help' => {

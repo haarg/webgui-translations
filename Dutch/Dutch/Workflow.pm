@@ -150,8 +150,8 @@ our $I18N = {
 	},
 
 	'spectre not running error' => {
-		message => q|Spectre draait niet. Niet mogelijk om workflow informatie op te vragen.|,
-		lastUpdated => 1190021873
+		message => q|Spectre draait <strong>niet</strong>. Niet mogelijk om gedetailleerde workflow informatie op te vragen.|,
+		lastUpdated => 1199099018
 	},
 
 	'singleton' => {

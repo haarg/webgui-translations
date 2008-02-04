@@ -2,8 +2,8 @@ package WebGUI::i18n::Hungarian::Asset_Article;
 
 our $I18N = {
 	'description.first.sentence' => {
-		message => q||,
-		lastUpdated => 
+		message => q|A le&iacute;r&aacute;s első mondata. A mondatt a sz&ouml;vegben tal&aacute;lt sz&uuml;netek alapj&aacute;n ker&uuml;l meghat&aacute;roz&aacute;sra.|,
+		lastUpdated => 1178703683
 	},
 
 	'article template description' => {
@@ -12,18 +12,18 @@ our $I18N = {
 	},
 
 	'linkTitle' => {
-		message => q||,
-		lastUpdated => 
+		message => q|A cikkhez adott link c&iacute;me.|,
+		lastUpdated => 1178703295
 	},
 
 	'71' => {
-		message => q|<p>A Cikk eszk&ouml;z a WebGUI erőss&eacute;ge. A statikus tartalom legt&ouml;bb r&eacute;sz&eacute;t a Cikk eszk&ouml;zzel lehet hozz&aacute;adni. A Cikkek Wobject-ek, &iacute;gy meg&ouml;r&ouml;klik a Wobjectek &eacute;s az Eszk&ouml;z&ouml;k tulajdons&aacute;gait.</p><p>MEGJEGYZ&Eacute;S: T&ouml;bb oldalas cikket hozhatunk l&eacute;tre akkor, ha t&ouml;rdelő jelet (^-;) a cikk tetszőleges ponjain elhelyezz&uuml;k. Ez a Nyomtat&aacute;si St&iacute;lus (Make Page Printable) kiv&eacute;tel&eacute;vel, minden helyzetben műk&ouml;dik.&nbsp;</p>|,
-		lastUpdated => 1170168519
+		message => q|A Cikk eszk&ouml;z a WebGUI erőss&eacute;ge. A statikus tartalom legt&ouml;bb r&eacute;sz&eacute;t a Cikk eszk&ouml;zzel lehet hozz&aacute;adni. A Cikkek Wobject-ek, &iacute;gy meg&ouml;r&ouml;klik a Wobjectek &eacute;s az Eszk&ouml;z&ouml;k tulajdons&aacute;gait.<p>MEGJEGYZ&Eacute;S: T&ouml;bb oldalas cikket hozhatunk l&eacute;tre akkor, ha t&ouml;rdelő jelet (^-;) a cikk tetszőleges ponjain elhelyezz&uuml;k. Ez a Nyomtat&aacute;si St&iacute;lus (Make Page Printable) kiv&eacute;tel&eacute;vel, minden helyzetben műk&ouml;dik.</p>|,
+		lastUpdated => 1177616340
 	},
 
 	'description.first.10words' => {
-		message => q||,
-		lastUpdated => 
+		message => q|A le&iacute;r&aacute;s első 10 szava. A szavak sz&oacute;k&ouml;zzel elv&aacute;lasztott karakterek, &iacute;gy a HTML bejegyz&eacute;sek &eacute;s tag-ek nem sz&aacute;m&iacute;tanak sz&oacute;nak.|,
+		lastUpdated => 1178703908
 	},
 
 	'7' => {
@@ -32,23 +32,23 @@ our $I18N = {
 	},
 
 	'assetName' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Cikk|,
+		lastUpdated => 1178704123
 	},
 
 	'description.first.2paragraphs' => {
-		message => q||,
-		lastUpdated => 
+		message => q|A le&iacute;r&aacute;s első k&eacute;t bekezd&eacute;se. Egy bekezd&eacute;st a sz&ouml;vegben tal&aacute;lhat&oacute; kocsi visszat&eacute;r&eacute;sek hat&aacute;rozznak meg.|,
+		lastUpdated => 1178704081
 	},
 
 	'description.first.paragraph' => {
-		message => q||,
-		lastUpdated => 
+		message => q|A le&iacute;r&aacute;s első bekezd&eacute;se. Az első bekezd&eacute;st a sz&ouml;vegben tal&aacute;lhat&oacute; első kocsi visszat&eacute;r&eacute;s hat&aacute;rozza meg.|,
+		lastUpdated => 1178704037
 	},
 
 	'description.full' => {
-		message => q||,
-		lastUpdated => 
+		message => q|A teljes le&iacute;r&aacute;s oldalt&ouml;r&eacute;s n&eacute;lk&uuml;l.|,
+		lastUpdated => 1178703631
 	},
 
 	'72' => {
@@ -57,13 +57,13 @@ our $I18N = {
 	},
 
 	'url' => {
-		message => q||,
-		lastUpdated => 
+		message => q|A f&aacute;jl let&ouml;lt&eacute;s&eacute;re mutat&oacute; url. |,
+		lastUpdated => 1178702978
 	},
 
 	'attachments help' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Csatoljon f&aacute;jlokat &eacute;s k&eacute;peket k&ouml;zvetlen&uuml;l a Cikkhez. Vegye figyelembe, hogy ezek a f&aacute;jlok nem lesznek hozz&aacute;f&eacute;rhetők az eszk&ouml;zkezelőn kereszt&uuml;l m&aacute;s eszk&ouml;z&ouml;k r&eacute;sz&eacute;re.|,
+		lastUpdated => 1178704308
 	},
 
 	'28' => {
@@ -72,13 +72,13 @@ our $I18N = {
 	},
 
 	'description.first.4sentences' => {
-		message => q||,
-		lastUpdated => 
+		message => q|A le&iacute;r&aacute;s első n&eacute;gy mondata. A mondat a sz&ouml;vegben tal&aacute;lt sz&uuml;netek alapj&aacute;n ker&uuml;l meghat&aacute;roz&aacute;sra.|,
+		lastUpdated => 1178704019
 	},
 
 	'iconUrl' => {
-		message => q||,
-		lastUpdated => 
+		message => q|A f&aacute;jlt&iacute;pus ikonj&aacute;ra mutat&oacute; hivatkoz&aacute;s. |,
+		lastUpdated => 1178703593
 	},
 
 	'61' => {
@@ -87,28 +87,28 @@ our $I18N = {
 	},
 
 	'description' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Az le&iacute;r&aacute;s oldalt&ouml;r&eacute;sekkel. |,
+		lastUpdated => 1178704112
 	},
 
 	'new.template' => {
-		message => q||,
-		lastUpdated => 
+		message => q|<p>A Cikkek k&eacute;pesek megv&aacute;ltoztatni a sablonjaikat, &iacute;gy megengedheti a felhaszn&aacute;l&oacute;kat, hogy a cikket k&uuml;l&ouml;nb&ouml;ző n&eacute;zetekben tekints&eacute;k meg. Ezt &uacute;gy teheti meg, ha egy ehhez hasonl&oacute; URL-el linket hoz l&eacute;tre (helyettes&iacute;tse a 999-et a haszn&aacute;lni k&iacute;v&aacute;nt sablon azonos&iacute;t&oacute;j&aacute;val):</p><p>&lt;a href=&quot;&lt;tmpl_var new.template&gt;999&quot;&gt;Tov&aacute;bb...&lt;/a&gt;</p>|,
+		lastUpdated => 1178703241
 	},
 
 	'link url description' => {
-		message => q||,
-		lastUpdated => 
+		message => q|<p>Ha megadta a link c&iacute;m&eacute;t, most adja meg az URL-t (uniform resource locater) itt.</p><p>&lt;i&gt;P&eacute;lda:&lt;/i&gt; http://www.google.com</p>|,
+		lastUpdated => 1178703364
 	},
 
 	'image.url' => {
-		message => q||,
-		lastUpdated => 
+		message => q|A csatolt k&eacute;phez mutat&oacute; URL.|,
+		lastUpdated => 1178703469
 	},
 
 	'isImage' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Egy boolean, amely jelzi, hogy ez k&eacute;p vagy sem.|,
+		lastUpdated => 1178703453
 	},
 
 	'article asset template variables body' => {
@@ -117,18 +117,18 @@ our $I18N = {
 	},
 
 	'storageId' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Az Eszk&ouml;z t&aacute;rol&oacute; objektum&aacute;nak azonos&iacute;t&oacute;ja, amely a csatolm&aacute;nyokat t&aacute;rolja.|,
+		lastUpdated => 1178703091
 	},
 
 	'cache timeout help' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Mivel minden felhaszn&aacute;l&oacute; ugyan&uacute;gy l&aacute;tja ezt az eszk&ouml;zt, ez&eacute;rt hosszabb időre a cache-be ker&uuml;lhet, hogy a&nbsp; teljes&iacute;tm&eacute;ny&nbsp; javulhasson.&nbsp; Meddig maradjon a cache-ben?|,
+		lastUpdated => 1178704454
 	},
 
 	'description.first.3sentences' => {
-		message => q||,
-		lastUpdated => 
+		message => q|A le&iacute;r&aacute;s első h&aacute;rom mondata. A mondat a sz&ouml;vegben tal&aacute;lt sz&uuml;netek alapj&aacute;n ker&uuml;l meghat&aacute;roz&aacute;sra.|,
+		lastUpdated => 1178704005
 	},
 
 	'article asset template variables title' => {
@@ -137,63 +137,63 @@ our $I18N = {
 	},
 
 	'description.first.2sentences' => {
-		message => q||,
-		lastUpdated => 
+		message => q|A le&iacute;r&aacute;s első k&eacute;t mondata. A mondat a sz&ouml;vegben tal&aacute;lt sz&uuml;netek alapj&aacute;n ker&uuml;l meghat&aacute;roz&aacute;sra.|,
+		lastUpdated => 1178703988
 	},
 
 	'description.first.50words' => {
-		message => q||,
-		lastUpdated => 
+		message => q|A le&iacute;r&aacute;s első 50 szava. A szavak sz&oacute;k&ouml;zzel elv&aacute;lasztott karakterek, &iacute;gy a HTML bejegyz&eacute;sek &eacute;s tag-ek nem sz&aacute;m&iacute;tanak sz&oacute;nak.|,
+		lastUpdated => 1178703874
 	},
 
 	'description.first.75words' => {
-		message => q||,
-		lastUpdated => 
+		message => q|A le&iacute;r&aacute;s első 75 szava. A szavak sz&oacute;k&ouml;zzel elv&aacute;lasztott karakterek, &iacute;gy a HTML bejegyz&eacute;sek &eacute;s tag-ek nem sz&aacute;m&iacute;tanak sz&oacute;nak. |,
+		lastUpdated => 1178703856
 	},
 
 	'linkURL' => {
-		message => q||,
-		lastUpdated => 
+		message => q|A cikkhez adott link URL-je.|,
+		lastUpdated => 1178703275
 	},
 
 	'attachment.icon' => {
-		message => q||,
-		lastUpdated => 
+		message => q|A csatolm&aacute;ny t&iacute;pus ikonj&aacute;ra mutat&oacute; URL.|,
+		lastUpdated => 1178704150
 	},
 
 	'cache timeout' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Cache Kifut&aacute;sa|,
+		lastUpdated => 1178704368
 	},
 
 	'templateId' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Az Eszk&ouml;z megjelen&iacute;t&eacute;s&eacute;re haszn&aacute;lt sablon azonos&iacute;t&oacute;ja.|,
+		lastUpdated => 1178703038
 	},
 
 	'attachments' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Csatolm&aacute;nyok|,
+		lastUpdated => 1178704218
 	},
 
 	'thumbnailUrl' => {
-		message => q||,
-		lastUpdated => 
+		message => q|A f&aacute;jl előn&eacute;zeti k&eacute;p&eacute;re mutat&oacute; url.|,
+		lastUpdated => 1178702997
 	},
 
 	'attachment_loop' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Az &ouml;sszes csatolm&aacute;nyt tartalmaz&oacute; hurok.|,
+		lastUpdated => 1178704205
 	},
 
 	'description.first.100words' => {
-		message => q||,
-		lastUpdated => 
+		message => q|A le&iacute;r&aacute;s első 100 szava. A szavak sz&oacute;k&ouml;zzel elv&aacute;lasztott karakterek, &iacute;gy a HTML bejegyz&eacute;sek &eacute;s tag-ek nem sz&aacute;m&iacute;tanak sz&oacute;nak.|,
+		lastUpdated => 1178703920
 	},
 
 	'cacheTimeout' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Az időtartam, am&iacute;g a cikk a cache-ben lesz.|,
+		lastUpdated => 1178704482
 	},
 
 	'12' => {
@@ -202,13 +202,13 @@ our $I18N = {
 	},
 
 	'8' => {
-		message => q|Link URL<br />|,
-		lastUpdated => 1170323554
+		message => q|Link URL|,
+		lastUpdated => 1177604213
 	},
 
 	'filename' => {
-		message => q||,
-		lastUpdated => 
+		message => q|A f&aacute;jl neve.|,
+		lastUpdated => 1178703605
 	},
 
 	'73' => {
@@ -217,28 +217,28 @@ our $I18N = {
 	},
 
 	'attachment.url' => {
-		message => q||,
-		lastUpdated => 
+		message => q|A csatolm&aacute;ny let&ouml;lt&eacute;s&eacute;nek URL-je.|,
+		lastUpdated => 1178704184
 	},
 
 	'description.first.25words' => {
-		message => q||,
-		lastUpdated => 
+		message => q|A le&iacute;r&aacute;s első 25 szava. A szavak sz&oacute;k&ouml;zzel elv&aacute;lasztott karakterek, &iacute;gy a HTML bejegyz&eacute;sek &eacute;s tag-ek nem sz&aacute;m&iacute;tanak sz&oacute;nak.|,
+		lastUpdated => 1178703896
 	},
 
 	'image.thumbnail' => {
-		message => q||,
-		lastUpdated => 
+		message => q|A csatolt k&eacute;p előn&eacute;zet&eacute;re mutat&oacute; URL.|,
+		lastUpdated => 1178703491
 	},
 
 	'attachment.name' => {
-		message => q||,
-		lastUpdated => 
+		message => q|A csatolm&aacute;ny f&aacute;jlneve.|,
+		lastUpdated => 1178704166
 	},
 
 	'link title description' => {
-		message => q||,
-		lastUpdated => 
+		message => q|<p>Ha szeretne linket hozz&aacute;adni a cikk&eacute;hez, akkor ebbe a mezőbe &iacute;rja a linknev&eacute;t:</p><p>&lt;i&gt;P&eacute;ld&aacute;ul:&lt;/i&gt; Google</p>|,
+		lastUpdated => 1178703426
 	},
 
 };

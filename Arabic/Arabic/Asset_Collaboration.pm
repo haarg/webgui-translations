@@ -36,9 +36,19 @@ our $I18N = {
 		lastUpdated => 1164041545
 	},
 
+	'enable metadata description' => {
+		message => q|اختر نعم لكي تتمكن من تشغيل الاضافات التي تحتوي على ميتا داتا لكي يتم عمل ملفات سلبية لها. هذا يؤثر على اداء النظام التعاوني. يجب ايضا ان يتم تشغيل الميتا داتا في الموقع ككل من خلال ضبط الموقع.|,
+		lastUpdated => 1201002637
+	},
+
 	'controls' => {
 		message => q|مجموعة من ايقونات التعديل لكي تمسح او تعيد طلب هذه الاضافة<br />|,
 		lastUpdated => 1163693693
+	},
+
+	'who threads' => {
+		message => q|من يمكنه ان يضيف خيط؟|,
+		lastUpdated => 1201002926
 	},
 
 	'docs' => {
@@ -134,11 +144,6 @@ our $I18N = {
 	'rating_loop' => {
 		message => q|الحلقة التي تجرى مرة لكل نقطة من التقييم تحصل عليها الاضافة<br />|,
 		lastUpdated => 1172065606
-	},
-
-	'collaboration template body' => {
-		message => q|هذه المتغيراتمتوفرة في نموذج التعاون<br />|,
-		lastUpdated => 1163693497
 	},
 
 	'previous' => {
@@ -256,6 +261,11 @@ our $I18N = {
 		lastUpdated => 1172066029
 	},
 
+	'use captcha hover help' => {
+		message => q|اختر اذا ما كنت تريد ان يعرف المستخدم انسانيته قبل ان يتمكن من الاضافة في هذا النظام التعاوني|,
+		lastUpdated => 1201002886
+	},
+
 	'attachment_thumbnail' => {
 		message => q|  <p dir="rtl" class="MsoNormal"><span>الرابط إلى الصورة الصغيرة لهذه المرفقة. الملفات سوف تظهر عن طريق ايقونة بناء على نوعهم. الصور سيكون لها صورة صغيرة حقيقية.</span><span></span></p>  |,
 		lastUpdated => 1172064892
@@ -361,14 +371,14 @@ our $I18N = {
 		lastUpdated => 1172067755
 	},
 
-	'collaboration add/edit body' => {
-		message => q|<span><font size="3"><font face="Times New Roman">يستخدم الاصل لكي يقوم باحتواء العديد من الاضافات التي تم ادخالها عن طريق المستخدمين و مديري المادة. بناء على الطريقة التي تم ضبطها بها و النماذج التي تم استخدامها, من الممكن ان تستخدم لبناء المنتديات, البومات الصور, ملفات التاريخ, قوائم الاسئلة المتكطررة بكثرة, و العديد من الادوات الاخرى على موقعك.</font></font></span><span><font face="Times New Roman" size="3">&nbsp;</font></span><span><font size="3"><font face="Times New Roman">عندما يتم مسح اضافة من الاصل التعاوني,<span>&nbsp; </span>يتم ارسالها الى سلة المهملات و كل الردود عليها و الابناء يتم ازالتها من الاصل التعاوني, و يتم اعادة ضبط عداد الردود. من الممكن استعادة الرد الذذي قمت بحذفه من سلة المهملات. هذا ايضا سيقوم باعادة كل الردود التي تم ارسالها لهذه الاضافة. على اي حال, لا يمكن استعادة ابناء الاضافة بشكل مباشر, بدون استعادة الاضافة التي تم التخلص منها في الاصل.</font></font></span><span><font face="Times New Roman" size="3">&nbsp;</font></span><span><font size="3"><font face="Times New Roman">الاصول التعاونية لديها خواص الاصول و الوبجيكتس, و ايضا الخواص المذكورة في الاسفل:</font></font></span>|,
-		lastUpdated => 1166027194
-	},
-
 	'add' => {
 		message => q|اضف|,
 		lastUpdated => 1163688660
+	},
+
+	'subscription group label' => {
+		message => q|مجموعة الاشتراك|,
+		lastUpdated => 1201002758
 	},
 
 	'allow replies' => {
@@ -416,14 +426,14 @@ our $I18N = {
 		lastUpdated => 1164124672
 	},
 
+	'who threads description' => {
+		message => q|المجموعة التي يمكنها ان تضيف خيط قي هذا الاصل|,
+		lastUpdated => 1201002949
+	},
+
 	'system template description' => {
 		message => q|هذه هو النموذج الاصلي للاصل التعاوني |,
 		lastUpdated => 1172068549
-	},
-
-	'collaboration add/edit title' => {
-		message => q|تعاون, اضف/عدل|,
-		lastUpdated => 1163693257
 	},
 
 	'delete.label' => {
@@ -497,8 +507,8 @@ our $I18N = {
 	},
 
 	'collaboration template labels title' => {
-		message => q|علامات نماذج التعاون<br />|,
-		lastUpdated => 1163693514
+		message => q|علامات نماذج التعاون|,
+		lastUpdated => 1201002972
 	},
 
 	'sortby.date.url' => {
@@ -616,11 +626,6 @@ our $I18N = {
 		lastUpdated => 1172756096
 	},
 
-	'collaboration post list template variables body' => {
-		message => q|هذه المتغيرات متوفرة في العديد من النماذج المستخدة بالاصول التعاونية.<br />|,
-		lastUpdated => 1163693366
-	},
-
 	'url.label' => {
 		message => q|كلمة &quot;رابط&quot;|,
 		lastUpdated => 1172755984
@@ -679,11 +684,6 @@ our $I18N = {
 	'critical' => {
 		message => q|حرج (لا يعمل غالبا)|,
 		lastUpdated => 1163693927
-	},
-
-	'collaboration template labels body' => {
-		message => q|<span><font size="3"><font face="Times New Roman">هذه العلامات موجودة في النماذج الخاصة بالعديد من الاصول و الوبجيكتس, و لكن لا تعد كل هذه المتغيرات مفيدة. من فضلك ارجع الى توثيق النموذج الخاص بهذا الاصل او الوبجيكت من اجل ان تعرف ما الذي يستخدم.</font></font></span>|,
-		lastUpdated => 1166027434
 	},
 
 	'lastReply.user.isVisitor' => {
@@ -764,6 +764,16 @@ our $I18N = {
 	'lock.label' => {
 		message => q|كلمة &quot;اغلق&quot;<br />|,
 		lastUpdated => 1164123486
+	},
+
+	'captcha label' => {
+		message => q|اثبت انك انسان|,
+		lastUpdated => 1201002519
+	},
+
+	'subscription group hoverHelp' => {
+		message => q|قم بادارة المستخدمين في هذه مجموعة الاشتراك لهذا النظام التعاوني|,
+		lastUpdated => 1201002742
 	},
 
 	'item description' => {
@@ -951,6 +961,11 @@ our $I18N = {
 		lastUpdated => 1164124520
 	},
 
+	'thread approval workflow' => {
+		message => q|سريان عمل توثيق الخيط|,
+		lastUpdated => 1201002794
+	},
+
 	'descending' => {
 		message => q|تنازلي|,
 		lastUpdated => 1164038293
@@ -1049,11 +1064,6 @@ our $I18N = {
 	'mail prefix help' => {
 		message => q|  <p dir="rtl" class="MsoNormal"><span>السلسلة سوف يتم تعليقها في مساحة الموضوع في كل الرسائل الخارجة من النظام التعاوني.</span><span></span></p>  |,
 		lastUpdated => 1172065253
-	},
-
-	'collaboration search template body' => {
-		message => q|هذه المتغيرات متوفرة على تعاون نموذج البحث |,
-		lastUpdated => 1163693453
 	},
 
 	'post template' => {
@@ -1187,8 +1197,8 @@ our $I18N = {
 	},
 
 	'collaboration rss template title' => {
-		message => q|نموذج تعاون RSS<br />|,
-		lastUpdated => 1163693412
+		message => q|نموذج تعاون RSS|,
+		lastUpdated => 1201002958
 	},
 
 	'attachment.label' => {
@@ -1272,8 +1282,8 @@ our $I18N = {
 	},
 
 	'collaboration search template title' => {
-		message => q|نموذج بحث تعاوني<br />|,
-		lastUpdated => 1163693468
+		message => q|نموذج بحث تعاوني|,
+		lastUpdated => 1201002965
 	},
 
 	'layout.label' => {
@@ -1401,6 +1411,11 @@ our $I18N = {
 		lastUpdated => 1163691385
 	},
 
+	'enable metadata' => {
+		message => q|شغل الميتا داتا في الاضافات؟|,
+		lastUpdated => 1201002553
+	},
+
 	'edit.url' => {
 		message => q|الرابط لتعديل هذه الاضافة.<br />|,
 		lastUpdated => 1164039448
@@ -1419,6 +1434,11 @@ our $I18N = {
 	'location' => {
 		message => q|المكان|,
 		lastUpdated => 1164123449
+	},
+
+	'use captcha label' => {
+		message => q|Use Post Captcha|,
+		lastUpdated => 1201002908
 	},
 
 	'ascending' => {
@@ -1476,11 +1496,6 @@ our $I18N = {
 		lastUpdated => 1164041908
 	},
 
-	'collaboration rss template body' => {
-		message => q|<font size="3"><font face="Times New Roman"><span>النموذج التعاوني </span><span>RSS</span><span> موجود لكي يسمح بضبط الـ</span><span>XML</span><span> الذي ينتج كـ</span><span>RSS Feed</span><span> للاتعاوني. لكي تقوم بانتاج </span><span>RSS Feed</span><span> مسموح به, يجب ان يتماشى هذا النموذج مع </span><span>RSS 2.0 Specification</span><span>. هذه المتغيرات موجودة في نموذج الـ</span><span>RSS</span><span> التعاوني.</span></font></font>|,
-		lastUpdated => 1166027328
-	},
-
 	'mail' => {
 		message => q|بريد|,
 		lastUpdated => 1164123493
@@ -1517,8 +1532,8 @@ our $I18N = {
 	},
 
 	'rich editor description' => {
-		message => q|اختر &quot;نعم&quot; لكي تشغل المحرر المتقدم في الاضافات<br />|,
-		lastUpdated => 1172066364
+		message => q|اختر &quot;نعم&quot; لكي تشغل المحرر المتقدم في الاضافات|,
+		lastUpdated => 1201002979
 	},
 
 	'lastReply.username' => {
@@ -1549,6 +1564,11 @@ our $I18N = {
 	'mail account' => {
 		message => q|حساب|,
 		lastUpdated => 1164123500
+	},
+
+	'thread approval workflow description' => {
+		message => q|اختر سريان عمل لكي يتم تنفيذه في كل خيط حينما يتم ادخاله|,
+		lastUpdated => 1201002828
 	},
 
 	'archive after description' => {

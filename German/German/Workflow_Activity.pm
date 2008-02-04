@@ -2,58 +2,58 @@ package WebGUI::i18n::German::Workflow_Activity;
 
 our $I18N = {
 	'title help' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Geben Sie hier eine Namen ein, der den Nutzen der Aktivit&auml;t beschreibt.|,
+		lastUpdated => 1179846402
 	},
 
 	'description help' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Beschreiben Sie hier, welchen Zweck diese Aktivit&auml;t hat und was sie im Detail tut.|,
+		lastUpdated => 1179846338
 	},
 
 	'add/edit workflow activity body' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Die meisten Workflow Aktivit&auml;ten haben diese Basisfelder und Eigenschaften:|,
+		lastUpdated => 1179846287
 	},
 
 	'add/edit workflow activity' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Workflow Aktivit&auml;t hinzuf&uuml;gen/bearbeiten|,
+		lastUpdated => 1179846258
 	},
 
 	'description' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Beschreibung|,
+		lastUpdated => 1179846293
 	},
 
 	'topicName' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Workflow Aktivit&auml;ten|,
+		lastUpdated => 1179846667
 	},
 
 	'activity enabled header' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Aktivit&auml;t aktiviert?|,
+		lastUpdated => 1179846227
 	},
 
 	'activities list body' => {
-		message => q||,
-		lastUpdated => 
+		message => q|<p>Eine Workflow Aktivit&auml;t zur Nutzung auf ihrer Site verf&uuml;gbar zu machen erfordert zwei Schritte:&nbsp;</p> <div> <ol><li>Die Aktivit&auml;t muss im WebGUI Source Kode Verzeichnis abgelegt werden: lib/WebGUI/Workflow/Activities.</li><li>Die Aktivit&auml;t muss in der Sektion &quot;workflowActivities&quot; in ihrer WebGUI.conf Datei aktiviert werden.</li></ol> </div> <p>Die folgende Tabelle zeigt die auf ihrem System installierten und in ihrer Konfigdatei konfigurierten Aktivit&auml;ten. Dies sagt aber nichts dar&uuml;ber aus, ob die Aktivit&auml;t in einem Workflow genutzt wird.</p>|,
+		lastUpdated => 1179846212
 	},
 
 	'title' => {
 		message => q|Titel|,
-		lastUpdated => 1164282426
+		lastUpdated => 1179846360
 	},
 
 	'activity name' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Name der Aktivit&auml;t|,
+		lastUpdated => 1179846238
 	},
 
 	'list of installed activities' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Liste der installierten Workflow Aktivit&auml;ten|,
+		lastUpdated => 1179846356
 	},
 
 };

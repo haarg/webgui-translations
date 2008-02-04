@@ -1,14 +1,29 @@
 package WebGUI::i18n::German::Asset_Image;
 
 our $I18N = {
-	'image template body' => {
-		message => q||,
-		lastUpdated => 
+	'fileUrl' => {
+		message => q|Die URL zu der Datei.|,
+		lastUpdated => 1178698209
+	},
+
+	'image size' => {
+		message => q|Gr&ouml;&szlig;e des Bildes|,
+		lastUpdated => 1178698427
+	},
+
+	'menuTitle' => {
+		message => q|Der Men&uuml;titel. Wird dargestellt in der Navigation und wird von ihnen manuell gesetzt wenn das Bild hochgeladen wird oder automatisch vom System(Dateiname), wenn kein Men&uuml;titel manuell eingegeben wurde.|,
+		lastUpdated => 1178698796
 	},
 
 	'thumbnail size' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Thumbnail Gr&ouml;&szlig;e |,
+		lastUpdated => 1178699397
+	},
+
+	'Thumbnail description' => {
+		message => q|Falls zur Zeit ein Bild in diesem Asset gespeichert ist, so wird hier ein sogenanntes Thumbnail(Vorschaubild) angezeigt.|,
+		lastUpdated => 1178697957
 	},
 
 	'assetName' => {
@@ -17,163 +32,118 @@ our $I18N = {
 	},
 
 	'new height' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Neue H&ouml;he|,
+		lastUpdated => 1178698874
 	},
 
 	'Parameters description' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Dies ist ein Satz von zus&auml;tzlichen Parametern f&uuml;r das <IMG> Tag, das f&uuml;r das Bild generiert wird. Sie k&ouml;nnen dies nutzen, um zum Beispiel das alignment oder einen alternativen Text(Barrierefreiheit) anzugeben.|,
+		lastUpdated => 1178697898
 	},
 
 	'controls' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Symbolleiste f&uuml;r das Bearbeiten der Datei.|,
+		lastUpdated => 1178698160
 	},
 
 	'new width' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Neue Breite|,
+		lastUpdated => 1178698902
 	},
 
 	'thumbnail variable' => {
-		message => q||,
-		lastUpdated => 
+		message => q|URL zum Thumbnail dieses Bildes|,
+		lastUpdated => 1178699421
 	},
 
 	'new width description' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'image add/edit title' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'new file description' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'resize image body' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'image template description' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'fileIcon' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'parameters' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'thumbnailSize' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'image template asset var body' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'title' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'storageId' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'image size description' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'image size' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'fileUrl' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'menuTitle' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'Thumbnail description' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'resize image' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Neue Breite des Bildes|,
+		lastUpdated => 1178698914
 	},
 
 	'thumbnail' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Thumbnail|,
+		lastUpdated => 1178699366
+	},
+
+	'resize image' => {
+		message => q|Gr&ouml;&szlig;e des Bildes anpassen|,
+		lastUpdated => 1178699014
 	},
 
 	'new height description' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Neue H&ouml;he des Bildes|,
+		lastUpdated => 1178698893
 	},
 
 	'edit image' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Bild bearbeiten|,
+		lastUpdated => 1178698172
+	},
+
+	'new file description' => {
+		message => q|Geben Sie hier den Pfad zur hochzuladenden Datei an oder benutzen Sie die "Browse" Schaltfl&auml;che, um die hochzuladenden Datei auf ihrem Computer zu suchen.|,
+		lastUpdated => 1178698860
 	},
 
 	'Thumbnail size description' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Ein Thumbnail des Bildes wird erzeugt und f&uuml;r die Benutzung in Templates zur Verf&uuml;gung gestellt. Die l&auml;ngere Seite des Thumbnails wird auf diese Gr&ouml;&szlig;e in Pixeln gesetzt. Standard ist die systemweite Einstellung.|,
+		lastUpdated => 1178698112
 	},
 
 	'image template title' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Bild, Template Variable|,
+		lastUpdated => 1192978200
 	},
 
-	'resize image title' => {
-		message => q||,
-		lastUpdated => 
+	'image template description' => {
+		message => q|Bild Templates erlauben ihnen die Darstellung von Informationen &uuml;ber Bilder wie zum Beispiel Thumbnails, Dateinamen oder das Bild selbst.|,
+		lastUpdated => 1178698666
 	},
 
-	'image add/edit body' => {
-		message => q||,
-		lastUpdated => 
+	'fileIcon' => {
+		message => q|Das Icon, das den Typ der Datei beschreibt.|,
+		lastUpdated => 1178698196
+	},
+
+	'parameters' => {
+		message => q|Parameter|,
+		lastUpdated => 1178698923
 	},
 
 	'filename' => {
-		message => q|Der Name f&uuml;r das Bild<br />|,
-		lastUpdated => 1164282653
+		message => q|Der Name f&uuml;r das Bild|,
+		lastUpdated => 1178697727
 	},
 
 	'parameters variable' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Irgendein zus&auml;tzlicher IMG Tag Parameter, der beim Hochladen des Bildes eingegeben wurde.|,
+		lastUpdated => 1178698978
+	},
+
+	'thumbnailSize' => {
+		message => q|Ein Integer Wert, der die L&auml;nge der l&auml;ngsten Seite des Bildes beinhaltet.|,
+		lastUpdated => 1178699467
 	},
 
 	'image template asset var title' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Bild Template, Asset Variablen|,
+		lastUpdated => 1178698573
+	},
+
+	'title' => {
+		message => q|Titel des Bildes, der beim hochladen gesetzt wurde oder der Dateiname, falls beim hochladen kein Titel gesetzt wurde.|,
+		lastUpdated => 1178699512
+	},
+
+	'storageId' => {
+		message => q|Interne Speicher ID f&uuml;r diese Datei.|,
+		lastUpdated => 1178699356
+	},
+
+	'image size description' => {
+		message => q|Aktuelle Gr&ouml;&szlig;e des Bildes, Breite und H&ouml;he gemessen in Pixel|,
+		lastUpdated => 1178698470
 	},
 
 };

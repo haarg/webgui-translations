@@ -71,11 +71,6 @@ our $I18N = {
 		lastUpdated => 1169052010
 	},
 
-	'folder add/edit title' => {
-		message => q|مجلد, اضف/عدل<br />|,
-		lastUpdated => 1169050254
-	},
-
 	'folder template description' => {
 		message => q|هذه القائمة تسمح لك باختيار نموذج خارجي لكي تحدد الشكل الذي سيظهر لمحتويات المجلد<br />|,
 		lastUpdated => 1169051405
@@ -121,6 +116,11 @@ our $I18N = {
 		lastUpdated => 1169051784
 	},
 
+	'folder menuTitle' => {
+		message => q|عنوان القائمة لهذ الملف|,
+		lastUpdated => 1201201470
+	},
+
 	'addFile.label' => {
 		message => q|العلامة العالمية لاضافة الملفات الى المجلدات<br />|,
 		lastUpdated => 1169049503
@@ -134,6 +134,11 @@ our $I18N = {
 	'folder url' => {
 		message => q|الرابط الى المجلد<br />|,
 		lastUpdated => 1169051440
+	},
+
+	'menuTitle' => {
+		message => q|عنوان القائمة لهذا الاصل|,
+		lastUpdated => 1201201483
 	},
 
 	'asset template variables title' => {
@@ -189,11 +194,6 @@ our $I18N = {
 	'subfolder_loop' => {
 		message => q|سلسلة تحتوي على كل اصول المجلدات و التي هي ابناء المجلد. نظام المجلدات سيحدد عن طريق علامة الترتيب الابجدي في شاشة التعديل<br />|,
 		lastUpdated => 1169051713
-	},
-
-	'folder add/edit body' => {
-		message => q|مجلدات الاصول تستخدم لاظهار قوائم من الاصول و المجلدات الثانوية مثل متصفح الملفات في نظام التشغيل. المجلدات وبجيكت و بالتالي لها كل خواص الاصول و الوبجيكتس, للمجلدات الخواص التالية الفريدة<br /> |,
-		lastUpdated => 1169050242
 	},
 
 	'file_loop' => {

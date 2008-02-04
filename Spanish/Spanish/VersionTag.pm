@@ -1,11 +1,6 @@
 package WebGUI::i18n::Spanish::VersionTag;
 
 our $I18N = {
-	'manage committed versions body' => {
-		message => q||,
-		lastUpdated => 
-	},
-
 	'approval message help' => {
 		message => q||,
 		lastUpdated => 
@@ -19,16 +14,6 @@ our $I18N = {
 	'approve/deny' => {
 		message => q|Aprobar/Rechazar|,
 		lastUpdated => 1169610611
-	},
-
-	'commit version tag body' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'manage version tags' => {
-		message => q||,
-		lastUpdated => 
 	},
 
 	'comments' => {
@@ -107,6 +92,11 @@ our $I18N = {
 	},
 
 	'created by' => {
+		message => q|Creado Por|,
+		lastUpdated => 1199913087
+	},
+
+	'bad commit' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -141,11 +131,6 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'edit version tag body' => {
-		message => q||,
-		lastUpdated => 
-	},
-
 	'version tag name' => {
 		message => q||,
 		lastUpdated => 
@@ -176,11 +161,6 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'manage pending versions body' => {
-		message => q||,
-		lastUpdated => 
-	},
-
 	'topicName' => {
 		message => q||,
 		lastUpdated => 
@@ -202,11 +182,6 @@ our $I18N = {
 	},
 
 	'request approval for version tag' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'manage version tags body' => {
 		message => q||,
 		lastUpdated => 
 	},

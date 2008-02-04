@@ -7,13 +7,8 @@ our $I18N = {
 	},
 
 	'you' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'view purchase template help body' => {
-		message => q||,
-		lastUpdated => 
+		message => q|انت|,
+		lastUpdated => 1177443589
 	},
 
 	'add/edit event required events' => {
@@ -22,8 +17,8 @@ our $I18N = {
 	},
 
 	'seatsRemaining' => {
-		message => q||,
-		lastUpdated => 
+		message => q|عدد باقي الكراسي المتوفرة لهذا الحدث<br />|,
+		lastUpdated => 1177442403
 	},
 
 	'confirm delete prerequisite set' => {
@@ -32,13 +27,13 @@ our $I18N = {
 	},
 
 	'manageToolbar' => {
-		message => q||,
-		lastUpdated => 
+		message => q|مود لشريط ادوات بايقونات للمسح, التعديل, او اعادة ترتيب الاحداث<br />|,
+		lastUpdated => 1177438755
 	},
 
 	'display template' => {
-		message => q||,
-		lastUpdated => 
+		message => q|نموذج العرض<br />|,
+		lastUpdated => 1177436330
 	},
 
 	'datePurchasedHuman' => {
@@ -57,23 +52,18 @@ our $I18N = {
 	},
 
 	'discount pass type description' => {
-		message => q||,
-		lastUpdated => 
+		message => q|  <p dir="rtl" class="MsoNormal"><span>عرف اذا ما كان هذا الحدث يستخدم بطاقة خصم, واذا كان يستخدم واحدة, عرف اذا ما كانت واحدة أو عضو في مجموعة يستخدم هذه البطاقة. مثلا, من الممكن ان تقوم بعمل بطاقة خصم تسمى &quot;كذا&quot; بمبلغ 50 دولار. كل مرة تكلف 25 دولار, ومن الممكن ان تضاف إلى عربة المستخدم ويتم الخصم اذا اشترى المستخدم بطاقة كذا.</span></p>  |,
+		lastUpdated => 1178217196
 	},
 
 	'title' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'search template help body' => {
-		message => q||,
-		lastUpdated => 
+		message => q|عنوان هذا الحدث<br />|,
+		lastUpdated => 1177442902
 	},
 
 	'numberOfSearchResults' => {
-		message => q||,
-		lastUpdated => 
+		message => q|عدد النتائج من البحث الحالي<br />|,
+		lastUpdated => 1177438990
 	},
 
 	'Event Number' => {
@@ -87,13 +77,13 @@ our $I18N = {
 	},
 
 	'you do not have any events to display' => {
-		message => q||,
-		lastUpdated => 
+		message => q|ليس لديك اي احداث للعرض<br />|,
+		lastUpdated => 1177443562
 	},
 
 	'canManageEvents' => {
-		message => q||,
-		lastUpdated => 
+		message => q|علم يحدد اذا كان المستخدم الحالي مصرح بادارة الاحداث.<br />|,
+		lastUpdated => 1177436975
 	},
 
 	'all' => {
@@ -106,44 +96,54 @@ our $I18N = {
 		lastUpdated => 1169131474
 	},
 
+	'choose a file to import' => {
+		message => q|اختر ملف للتوريد|,
+		lastUpdated => 1201201580
+	},
+
 	'add discount pass' => {
 		message => q|اضف تصريح تخفيض<br />|,
 		lastUpdated => 1168525715
 	},
 
 	'canReturn' => {
-		message => q||,
-		lastUpdated => 
+		message => q|علامة تحدد اذا كان يمكن للمستخدم الحالي اعادة الاحداث في الشراء. المستخدمين الذي يمكنهم اضافة الاحداث يقعون في هذه المجموعة.<br />|,
+		lastUpdated => 1177437027
 	},
 
 	'managePurchasesTitle' => {
-		message => q||,
-		lastUpdated => 
+		message => q|العلامة الدولية لعنوان هذه الشاشة<br />|,
+		lastUpdated => 1177438728
 	},
 
 	'seats.label' => {
-		message => q||,
-		lastUpdated => 
+		message => q|العلامة الدولية &quot;كراسي&quot; |,
+		lastUpdated => 1177442379
 	},
 
 	'isAdvSearch' => {
-		message => q||,
-		lastUpdated => 
+		message => q|علامة تحدد اذا تم طلب نموذج بحث متقدم<br />|,
+		lastUpdated => 1177438292
 	},
 
 	'cancel registration' => {
-		message => q||,
-		lastUpdated => 
+		message => q|الغي الاشتراك<br />|,
+		lastUpdated => 1177437440
 	},
 
 	'image' => {
-		message => q||,
-		lastUpdated => 
+		message => q|الصورة الموجودة لتمثيل الحدث<br />|,
+		lastUpdated => 1177438264
 	},
 
 	'prereq set name field description' => {
-		message => q||,
-		lastUpdated => 
+		message => q|اسم شرحي لمجموعة الشروط<br />|,
+		lastUpdated => 1177440027
+	},
+
+	'export error' => {
+		message => q|يوجد خطأ ما في عملية التصدير|,
+		lastUpdated => 1201201654
 	},
 
 	'add/edit event maximum attendees' => {
@@ -152,18 +152,33 @@ our $I18N = {
 	},
 
 	'refresh events list' => {
-		message => q||,
-		lastUpdated => 
+		message => q|اعد تحميل قائمة الاحداث<br />|,
+		lastUpdated => 1177441304
+	},
+
+	'no' => {
+		message => q|لا|,
+		lastUpdated => 1201801457
 	},
 
 	'discount pass id description' => {
-		message => q||,
-		lastUpdated => 
+		message => q|معرف فريد يستخدم داخليا لبطاقة التخفيض هذه. عندما يتم عمل بطاقة تخفيض جديدة ستكون هذه كلمة &quot;جديد&quot;<br />|,
+		lastUpdated => 1177436261
+	},
+
+	'import hoverhelp first line' => {
+		message => q|اذا كان السطر الاول من توريدك يحتوي على اسماء بدلا من سجلات الاحداث, اختر نعم. ما دون ذلك اختر لا.|,
+		lastUpdated => 1201801184
 	},
 
 	'address' => {
 		message => q|العنوان|,
 		lastUpdated => 1173714506
+	},
+
+	'overwritten' => {
+		message => q|تم نسخها|,
+		lastUpdated => 1201201884
 	},
 
 	'None' => {
@@ -177,8 +192,8 @@ our $I18N = {
 	},
 
 	'manageEvents.label' => {
-		message => q||,
-		lastUpdated => 
+		message => q|علامة دولية لعرض وصلة ادارة الاحداث للمستخدم<br />|,
+		lastUpdated => 1177438537
 	},
 
 	'User sub events small resultset' => {
@@ -187,13 +202,13 @@ our $I18N = {
 	},
 
 	'sku' => {
-		message => q||,
-		lastUpdated => 
+		message => q|SKU|,
+		lastUpdated => 1177442446
 	},
 
 	'status' => {
-		message => q||,
-		lastUpdated => 
+		message => q|الحالة|,
+		lastUpdated => 1177442751
 	},
 
 	'defines discount pass' => {
@@ -202,8 +217,8 @@ our $I18N = {
 	},
 
 	'paginate after description' => {
-		message => q||,
-		lastUpdated => 
+		message => q|عدد الاحداث للعرض في الصفحة|,
+		lastUpdated => 1177439815
 	},
 
 	'add/edit event title' => {
@@ -212,28 +227,23 @@ our $I18N = {
 	},
 
 	'name.label' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'checkout template help body' => {
-		message => q||,
-		lastUpdated => 
+		message => q|العلامة الدولية &quot;حدث&quot;<br /> |,
+		lastUpdated => 1177438881
 	},
 
 	'templateId' => {
-		message => q||,
-		lastUpdated => 
+		message => q|النموذج المستخدم لتشكيل هذا الحدث اذا سيتم عرضه.<br />|,
+		lastUpdated => 1177442893
 	},
 
 	'edit registrant' => {
-		message => q||,
-		lastUpdated => 
+		message => q|عدلا المسجل<br />|,
+		lastUpdated => 1177436458
 	},
 
 	'view purchase' => {
-		message => q||,
-		lastUpdated => 
+		message => q|اعرض الشراء<br />|,
+		lastUpdated => 1177443319
 	},
 
 	'add/edit event template description' => {
@@ -256,24 +266,24 @@ our $I18N = {
 		lastUpdated => 1169131018
 	},
 
-	'edit registrant body' => {
-		message => q||,
-		lastUpdated => 
+	'global prerequisite' => {
+		message => q|الشروط العالمية<br />|,
+		lastUpdated => 1177438179
 	},
 
-	'global prerequisite' => {
-		message => q||,
-		lastUpdated => 
+	'yes' => {
+		message => q|نعم|,
+		lastUpdated => 1201201816
 	},
 
 	'tmplVar isError' => {
-		message => q||,
-		lastUpdated => 
+		message => q|متغير النموذج هذا مستخدم داخل عبارة tmpl_if ويتخحقق اذا كان هناك خطأ تشغيل باشارة معلومات اشتراك. هذا المتغير يتم بحثه فقط اذا كان متغير نموذج الاشتراك حقيقي.<br />|,
+		lastUpdated => 1177443202
 	},
 
 	'phone number' => {
-		message => q||,
-		lastUpdated => 
+		message => q|رقم الهاتف<br />|,
+		lastUpdated => 1177440014
 	},
 
 	'add/edit event price description' => {
@@ -281,14 +291,19 @@ our $I18N = {
 		lastUpdated => 1169130949
 	},
 
+	'what about duplicates' => {
+		message => q|ماذا عن التكرار؟|,
+		lastUpdated => 1201201831
+	},
+
 	'manage purchases template help title' => {
-		message => q||,
-		lastUpdated => 
+		message => q|نموذج ادارة مشتريات لنظام ادارة الاحداث<br />|,
+		lastUpdated => 1177438497
 	},
 
 	'discount amount description' => {
-		message => q||,
-		lastUpdated => 
+		message => q|  <p dir="rtl" class="MsoNormal"><span>مجال الكمية من الممكن ان يحتمل العديد من الوحدات المختلفة, بناء على نوع بطاقة الخصم. نوع &quot;نسبة الخصم&quot; يكون دائما نسبة مؤية (10% تخفيض تعني 10). السعر الجديد و كمية الخصم هي كمية المال. الكمية الاعتيادية تكون 0.00.</span></p>  |,
+		lastUpdated => 1178217021
 	},
 
 	'add/edit event error' => {
@@ -297,38 +312,43 @@ our $I18N = {
 	},
 
 	'edit discount pass' => {
-		message => q||,
-		lastUpdated => 
+		message => q|عدل بطاقة الخصم<br />|,
+		lastUpdated => 1177436369
 	},
 
 	'weight description' => {
-		message => q||,
-		lastUpdated => 
+		message => q|وزن اي شيء يمكن ان ينتسب الى الحدث الخاص بك<br />|,
+		lastUpdated => 1177443537
 	},
 
-	'edit discount pass body' => {
-		message => q||,
-		lastUpdated => 
+	'import need dup key' => {
+		message => q|يجب ان تختار على الاقل صندوق واحد لتكرار المفتاح|,
+		lastUpdated => 1201801308
+	},
+
+	'import invalid status' => {
+		message => q|السجل س% يحتوي على قيمة حالة غير مقبولة.&nbsp; القيم المقبولة هي تم توثيقه, لاغي, غير مقبول, في الانتظار.|,
+		lastUpdated => 1201801250
 	},
 
 	'no sets to display' => {
-		message => q||,
-		lastUpdated => 
+		message => q|لا يوجد لديك اي مجموعات شروط&nbsp; للعرض <br />|,
+		lastUpdated => 1177439950
 	},
 
 	'ends' => {
-		message => q||,
-		lastUpdated => 
+		message => q|ينتهي|,
+		lastUpdated => 1177436563
 	},
 
 	'group to add events description' => {
-		message => q||,
-		lastUpdated => 
+		message => q|اعضاء المجموعة المختارة سيتمكنون من اضافة الاحداث الى نظام ادارة الاحداث. الاحداث المضافة لن تتوفر للشراء قبل التصديق عليها من قبل مجموعة التصديق.<br />|,
+		lastUpdated => 1177438114
 	},
 
 	'event template help title' => {
-		message => q||,
-		lastUpdated => 
+		message => q|نموذج الحدث لنظام ادارة الاحداث<br />|,
+		lastUpdated => 1177437588
 	},
 
 	'description' => {
@@ -337,8 +357,8 @@ our $I18N = {
 	},
 
 	'new price' => {
-		message => q||,
-		lastUpdated => 
+		message => q|السعر الجديد<br />|,
+		lastUpdated => 1177438889
 	},
 
 	'add/edit useSalesTax description' => {
@@ -347,23 +367,28 @@ our $I18N = {
 	},
 
 	'manageEvents.url' => {
-		message => q||,
-		lastUpdated => 
+		message => q|الرابط ليأخذ المستخدم الى شاشة ادارة الاحداث<br />|,
+		lastUpdated => 1177438561
 	},
 
 	'endDate' => {
-		message => q||,
-		lastUpdated => 
+		message => q|تاريخ ووقت انتهاء الحدث, بطريقة ايبوش<br />|,
+		lastUpdated => 1177436516
 	},
 
 	'endDate.human' => {
-		message => q||,
-		lastUpdated => 
+		message => q|تاريخ ووقت انتهاء الحدث في شكل بشري مقروء<br />|,
+		lastUpdated => 1177436534
 	},
 
 	'canReturnTransaction' => {
-		message => q||,
-		lastUpdated => 
+		message => q|علامة تتحقق اذا يمكن اعادة اي شراء<br />|,
+		lastUpdated => 1177437430
+	},
+
+	'import field is duplicate key title' => {
+		message => q|المجال يقوم تاعادة المفتاح|,
+		lastUpdated => 1201801114
 	},
 
 	'add/edit event template' => {
@@ -372,8 +397,8 @@ our $I18N = {
 	},
 
 	'error' => {
-		message => q||,
-		lastUpdated => 
+		message => q|خطأ|,
+		lastUpdated => 1177437535
 	},
 
 	'add/edit event operator description' => {
@@ -382,58 +407,63 @@ our $I18N = {
 	},
 
 	'group to approve events description' => {
-		message => q||,
-		lastUpdated => 
+		message => q|اعضاء المجموعة المختارة سيمكنهم التصديق على الاحداث في الانتظار حتى تتوفر للشراء<br />|,
+		lastUpdated => 1177438160
 	},
 
 	'template help title' => {
-		message => q||,
-		lastUpdated => 
+		message => q|نموذج نظام ادارة الاحداث<br />|,
+		lastUpdated => 1177442821
 	},
 
 	'events required by description' => {
-		message => q||,
-		lastUpdated => 
+		message => q|ضع علامة بجانب الاحداث التي تعتبر جزء من مجموعة الشروط<br />|,
+		lastUpdated => 1177437666
 	},
 
 	'sku template description' => {
-		message => q||,
-		lastUpdated => 
+		message => q|هذا المجال يعرف كيف يتم عمل متغير SKU لكل منتج. الشياق مماثل لشياق النماذج العادية<br />|,
+		lastUpdated => 1177442647
 	},
 
 	'global metadata description' => {
-		message => q||,
-		lastUpdated => 
+		message => q|  <p dir="rtl" class="MsoNormal"><span>ما اذا يجب ان تستخدم كل مجالات الميتاداتا الاخرى لنظام ادارة الاحداث عند ربط الميتاداتا بالاحداث وعند البحث عن حدث.</span></p>  <p dir="rtl" class="MsoNormal"><span>&nbsp;</span></p>  <p dir="rtl" class="MsoNormal"><span>قائمة مجالات الميتاداتا في شاشة الادارة لهذا الاصل ستظل محدودة على هؤلاء الذي تم عملهم من هذا النظام.</span></p>  |,
+		lastUpdated => 1178217456
 	},
 
 	'ems.wobject.dir' => {
-		message => q||,
-		lastUpdated => 
+		message => q|الرابط لمساحة EventManagementSystem في دليل اضافات ويب جوي<br />|,
+		lastUpdated => 1177436498
 	},
 
 	'type name here' => {
-		message => q||,
-		lastUpdated => 
+		message => q|اكتب الاسم هنا<br />|,
+		lastUpdated => 1177443297
 	},
 
 	'userId' => {
-		message => q||,
-		lastUpdated => 
+		message => q|هوية المستخدم الذي سيستخدم هذه الشارة<br />|,
+		lastUpdated => 1177443311
 	},
 
 	'starts' => {
-		message => q||,
-		lastUpdated => 
+		message => q|يبدأ|,
+		lastUpdated => 1177442728
 	},
 
 	'zip code' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Zip Code|,
+		lastUpdated => 1177443584
 	},
 
 	'add/edit event add another prerequisite' => {
 		message => q|اضف متطلب اساسي اخر<br />|,
 		lastUpdated => 1169130268
+	},
+
+	'import ok' => {
+		message => q|كل سجلات س% تم تفعيلها بنجاح. س% تم عملها, س% سطور فارغة, س% تكرار س%|,
+		lastUpdated => 1201801360
 	},
 
 	'add/edit event operator' => {
@@ -442,8 +472,8 @@ our $I18N = {
 	},
 
 	'global metadata' => {
-		message => q||,
-		lastUpdated => 
+		message => q|استخدم ميتادتا الاحداث العالمية<br />|,
+		lastUpdated => 1177438030
 	},
 
 	'Pagination variables' => {
@@ -451,9 +481,14 @@ our $I18N = {
 		lastUpdated => 1169129951
 	},
 
+	'import record parse error' => {
+		message => q|لم يكن هناك خطأ في معالجة السجل س%:د%|,
+		lastUpdated => 1201801401
+	},
+
 	'you do not have any metadata fields to display' => {
-		message => q||,
-		lastUpdated => 
+		message => q|ليس لديك اي مجالات ميتاداتا للعرض<br />|,
+		lastUpdated => 1177443576
 	},
 
 	'appUrl' => {
@@ -472,8 +507,8 @@ our $I18N = {
 	},
 
 	'operator type description' => {
-		message => q||,
-		lastUpdated => 
+		message => q|ما اذا كانت كل او اي من الاحداث المختارة مطلوبة<br />|,
+		lastUpdated => 1177439736
 	},
 
 	'add registrant' => {
@@ -482,28 +517,23 @@ our $I18N = {
 	},
 
 	'manage events' => {
-		message => q||,
-		lastUpdated => 
+		message => q|قم بادارة الاحداث<br />|,
+		lastUpdated => 1177438345
 	},
 
 	'state' => {
-		message => q||,
-		lastUpdated => 
+		message => q|الحالة|,
+		lastUpdated => 1177442746
 	},
 
 	'percent off' => {
-		message => q||,
-		lastUpdated => 
+		message => q|نسبة الخصم|,
+		lastUpdated => 1177440002
 	},
 
 	'add/edit event image' => {
 		message => q|صورة الحدث<br />|,
 		lastUpdated => 1169130683
-	},
-
-	'add/edit event help title' => {
-		message => q|اضف عدل حدث<br />|,
-		lastUpdated => 1169130672
 	},
 
 	'add/edit event end date' => {
@@ -512,18 +542,18 @@ our $I18N = {
 	},
 
 	'associated user description' => {
-		message => q||,
-		lastUpdated => 
+		message => q|  <p dir="rtl" class="MsoNormal"><span>من لاممكن ان تربط هذا المشارك بمشترك من قاعدة بيانات المستخدمين في ويب جوي وان يتم ترتيب معلومات تسجيلهم مع ملف الويب جوي. دبلا من ذلك, من الممكن ان تقوم بعمل مستخدم ويب جوي جديد. اذا قمت بهذا سيتم عمل ملف المستخدم بمعلومات التسجيل الخاصة بهم.</span></p>  |,
+		lastUpdated => 1178216654
 	},
 
 	'prereq set name field label' => {
-		message => q||,
-		lastUpdated => 
+		message => q|اسم مجموعة الشروط<br />|,
+		lastUpdated => 1177440037
 	},
 
 	'event' => {
-		message => q||,
-		lastUpdated => 
+		message => q|حدث|,
+		lastUpdated => 1177437541
 	},
 
 	'allowed sub events' => {
@@ -531,9 +561,14 @@ our $I18N = {
 		lastUpdated => 1173715637
 	},
 
+	'skipped' => {
+		message => q|تم تعديتها|,
+		lastUpdated => 1201201845
+	},
+
 	'pass name' => {
-		message => q||,
-		lastUpdated => 
+		message => q|اسم بطاقة الخصم<br />|,
+		lastUpdated => 1177439878
 	},
 
 	'add to badge message' => {
@@ -542,8 +577,8 @@ our $I18N = {
 	},
 
 	'view purchase template description' => {
-		message => q||,
-		lastUpdated => 
+		message => q|يتحكم في الشكل الخارجي, المنظر, ومظهر شاشة عرض الشراء في نظام ادارة الاحداث.<br />|,
+		lastUpdated => 1177443464
 	},
 
 	'User sub events large resultset' => {
@@ -552,13 +587,18 @@ our $I18N = {
 	},
 
 	'search.formFooter' => {
-		message => q||,
-		lastUpdated => 
+		message => q|كود نهاية النموذج لاي من انواع البحث<br />|,
+		lastUpdated => 1177442321
+	},
+
+	'error no colon' => {
+		message => q|خطأ|,
+		lastUpdated => 1201201612
 	},
 
 	'price.label' => {
-		message => q||,
-		lastUpdated => 
+		message => q|العلامة الدولية &quot;السعر&quot;<br />|,
+		lastUpdated => 1177440068
 	},
 
 	'continue' => {
@@ -567,8 +607,8 @@ our $I18N = {
 	},
 
 	'price' => {
-		message => q||,
-		lastUpdated => 
+		message => q|السعر|,
+		lastUpdated => 1177440043
 	},
 
 	'addEvent.url' => {
@@ -577,63 +617,68 @@ our $I18N = {
 	},
 
 	'startDate' => {
-		message => q||,
-		lastUpdated => 
+		message => q|تاريخ بدء الحدث والوقت في شكل ايبوش<br />|,
+		lastUpdated => 1177442671
 	},
 
 	'events required by this prerequisite set' => {
-		message => q||,
-		lastUpdated => 
+		message => q|الاحداث المطلوبة من مجموعة الشروط<br />|,
+		lastUpdated => 1177437851
 	},
 
 	'tmplVar price' => {
-		message => q||,
-		lastUpdated => 
+		message => q|سعر هذا الحدث<br />|,
+		lastUpdated => 1177443211
 	},
 
 	'assigned prerequisite set description' => {
-		message => q||,
-		lastUpdated => 
+		message => q|مجموعة الشروط التي يتطلبها هذا الحدث من اجل ان يضاف الى العلامة<br />|,
+		lastUpdated => 1177436723
 	},
 
 	'transactionId' => {
-		message => q||,
-		lastUpdated => 
+		message => q|معرف فريد للعملية في قاعدة البيانات<br />|,
+		lastUpdated => 1177443278
 	},
 
 	'global prerequisite description' => {
-		message => q||,
-		lastUpdated => 
+		message => q|  <p dir="rtl" class="MsoNormal"><span>اذا تم الضبط على نعم, من الممكن ان تربط احداث تابعة لمرحلة اخرى لاصل نظام ادارة الاحداث كشروط لاي من الاحداث المعرفة في هذه المرحلة من الاصل. اذا تم الضبط على لا, فقط الاحداث التي يتم تعريفها في هذه المرحلة من الاصل<span>&nbsp; </span>من الممكن ان تستخدم كشروط</span></p>  |,
+		lastUpdated => 1178217572
 	},
 
 	'last name' => {
-		message => q||,
-		lastUpdated => 
+		message => q|الاسم الاخير<br />|,
+		lastUpdated => 1177438300
+	},
+
+	'no import took place' => {
+		message => q|لم يتم توريد اي سجلات. توجد اخطاء في المدخلات|,
+		lastUpdated => 1201201933
 	},
 
 	'purchasesLoop' => {
-		message => q||,
-		lastUpdated => 
+		message => q|الدورة تحتوي كل الاشتراكات المضمنة في هذا الشراء<br /> |,
+		lastUpdated => 1177441291
 	},
 
 	'assigned prerequisite set' => {
-		message => q||,
-		lastUpdated => 
+		message => q|مجموعة الشروط المسبقة المرتبطة<br />|,
+		lastUpdated => 1177436643
 	},
 
 	'manage purchases template' => {
-		message => q||,
-		lastUpdated => 
+		message => q|نموذج ادارة المشتروات<br />|,
+		lastUpdated => 1177438391
 	},
 
 	'associated user' => {
-		message => q||,
-		lastUpdated => 
+		message => q|المستخدم المنتسب|,
+		lastUpdated => 1177436745
 	},
 
 	'search.filters.options' => {
-		message => q||,
-		lastUpdated => 
+		message => q|جافاسكريبت لبحث الواجهة الخارجية للاحداث بناء على خواصهم و الميتاداتا<br />|,
+		lastUpdated => 1177442300
 	},
 
 	'confirm delete purchase' => {
@@ -646,14 +691,14 @@ our $I18N = {
 		lastUpdated => 1169131327
 	},
 
-	'add/edit help title' => {
-		message => q|اضف/عدل نظام ادارة احداث<br />|,
-		lastUpdated => 1169131301
+	'import field is duplicate key description' => {
+		message => q||,
+		lastUpdated => 
 	},
 
 	'ends.label' => {
-		message => q||,
-		lastUpdated => 
+		message => q|العلامة الدولية لكلمة &quot;ينتهي&quot;<br />|,
+		lastUpdated => 1177437529
 	},
 
 	'assigned discount pass' => {
@@ -661,24 +706,14 @@ our $I18N = {
 		lastUpdated => 1173715826
 	},
 
-	'edit prerequisite set body' => {
-		message => q||,
-		lastUpdated => 
-	},
-
 	'manage registrants' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'add/edit event help body' => {
-		message => q|  <p dir="rtl" class="MsoNormal"><span>في هذا النموذج ستقوم بعمل حدث للبيع على الموقع. كل حدث يكون شبيه جدا بعلامة وصل بين المنتج و مدير المنتج و بين حدث في اجندة الاحداث. ستعطي للحدث عنوان, شرح, سعر, و نموذج لاظهار الحدث للمستخدم و متى يبدأ و ينتهي الحدث. يوجد أيضا العديد من المجالات لأنظمة ادارة الاحداث لتعريف العدد الاقصى للحضور و هل يوجد أي احداث أخرى تعتبر متطلب اساسي لهذا الحدث.</span></p>  |,
-		lastUpdated => 1169130659
+		message => q|قم بادارة المسجلين<br />|,
+		lastUpdated => 1177438510
 	},
 
 	'null field error' => {
-		message => q||,
-		lastUpdated => 
+		message => q|مجال %s لا يمكن ان يكون فارغا<br />|,
+		lastUpdated => 1177438976
 	},
 
 	'checkout.label' => {
@@ -687,8 +722,8 @@ our $I18N = {
 	},
 
 	'operator type' => {
-		message => q||,
-		lastUpdated => 
+		message => q|نوع المشغل<br />|,
+		lastUpdated => 1177439021
 	},
 
 	'add/edit approve event' => {
@@ -697,28 +732,28 @@ our $I18N = {
 	},
 
 	'discount pass type' => {
-		message => q||,
-		lastUpdated => 
+		message => q|نوع بطاقة الخصم<br />|,
+		lastUpdated => 1177436321
 	},
 
 	'pending' => {
-		message => q||,
-		lastUpdated => 
+		message => q|في الانتظار<br />|,
+		lastUpdated => 1177439945
 	},
 
 	'view purchase template help title' => {
-		message => q||,
-		lastUpdated => 
+		message => q|نموذج عرض شراء نظام ادارة الاحداث<br />|,
+		lastUpdated => 1177443459
 	},
 
 	'first name' => {
-		message => q||,
-		lastUpdated => 
+		message => q|الاسم الاول<br />|,
+		lastUpdated => 1177437962
 	},
 
 	'select one or more' => {
-		message => q||,
-		lastUpdated => 
+		message => q|اختر واحد او اكثر<br />|,
+		lastUpdated => 1177442440
 	},
 
 	'created by' => {
@@ -727,13 +762,13 @@ our $I18N = {
 	},
 
 	'discount pass id' => {
-		message => q||,
-		lastUpdated => 
+		message => q|هوية تمرير التخفيض |,
+		lastUpdated => 1177436197
 	},
 
 	'startDateHuman' => {
-		message => q||,
-		lastUpdated => 
+		message => q|تاريخ البدأ لهذا الحدث في شكل ادمي مقروء<br />|,
+		lastUpdated => 1177442721
 	},
 
 	'continue.url' => {
@@ -742,8 +777,8 @@ our $I18N = {
 	},
 
 	'registration info message' => {
-		message => q||,
-		lastUpdated => 
+		message => q|  <p dir="&quot;rtl&quot;" class="&quot;MsoNormal&quot;"><span>ادخل شارة/معلومات اتصال لسلسلة الاحداث التي تضيفها الان إلى العربة. </span></p>  <p dir="&quot;rtl&quot;" class="&quot;MsoNormal&quot;"><span>&nbsp;</span></p>  <p dir="&quot;rtl&quot;" class="&quot;MsoNormal&quot;"><span>اذا قمت بتسجيل الدخول, من الممكن ان تختار تعديل ملف المستخدم الخاص بك بهذه المعلومات باختيار اسمك من الصندوق التحتي, واذا كان اسمك غير موجودا, اختر &quot;عمل شارة لنفسي&quot;.</span></p>  <p dir="&quot;rtl&quot;" class="&quot;MsoNormal&quot;"><span>&nbsp;</span></p>  <p dir="&quot;rtl&quot;" class="&quot;MsoNormal&quot;"><span>اذا كنت تقوم بالشراء لاي شخص اخر, اختر اسمهم واختر &quot;عمل جديد لشخص اخر&quot; من الصندوق. اذا كنت تضيف عناصر إلى الشراء السابق, هذه الشارة تكون مختارة بالفعل, ولا يمكن تغييرها. اذا قمت بعمل أي تغييرات في هذا النموذج الخاص بالشارة الموجودة بالفعل, سيتم تحديث معلوماتهم.</span></p>  |,
+		lastUpdated => 1178218001
 	},
 
 	'and' => {
@@ -752,8 +787,8 @@ our $I18N = {
 	},
 
 	'purchase.wantToSearch.url' => {
-		message => q||,
-		lastUpdated => 
+		message => q|الرابط للبحث عن احداث مطلوبة لهذا الحدث. اذا كان الحدث ممتلئ, هذا المتغير سيكون فارغا. <br />|,
+		lastUpdated => 1177441171
 	},
 
 	'add event' => {
@@ -761,14 +796,19 @@ our $I18N = {
 		lastUpdated => 1168525694
 	},
 
-	'paginateBar' => {
+	'import file contains field description' => {
 		message => q||,
 		lastUpdated => 
 	},
 
+	'paginateBar' => {
+		message => q|شريط لمساعدة المستخدم خلال مجوعات الاحداث اذا كانت هناك عدد من صفحات الاحداث.<br />|,
+		lastUpdated => 1177439867
+	},
+
 	'badge id' => {
-		message => q||,
-		lastUpdated => 
+		message => q|هوية الشاره<br />|,
+		lastUpdated => 1177436808
 	},
 
 	'confirm delete event metadata' => {
@@ -787,38 +827,43 @@ our $I18N = {
 	},
 
 	'tmplLoop errorLoop' => {
-		message => q||,
-		lastUpdated => 
+		message => q|دورة تحتوي رسائل الخطأ المتعلقة باكمال نموذج استراك المستخدم لكل شارة. هذه الدورة تحتوي فقط على رسائل اذا كان <strong>isError</strong> حقيقيا<br />|,
+		lastUpdated => 1177443001
 	},
 
 	'calendarJS' => {
-		message => q||,
-		lastUpdated => 
+		message => q|تاج سكريبت مبني على مختار اجندة الجافا سكريبت<br />|,
+		lastUpdated => 1177436859
 	},
 
 	'tmplVar sku' => {
-		message => q||,
-		lastUpdated => 
+		message => q|SKU لهذا الحدث<br />|,
+		lastUpdated => 1177443222
 	},
 
 	'purchase.message' => {
-		message => q||,
-		lastUpdated => 
+		message => q|رسالة تسأل المستخدم اذا كانوا يريدون رؤية الاحداث الثانوية في هذا الحدث. اذا كان الحدث ممتلئ, سيكون المتغير فارغا. <br />|,
+		lastUpdated => 1177440150
 	},
 
-	'add/edit event metadata field body' => {
-		message => q|هذه الشاشة تسمح لك باضافة مجال ميتاداتا جديد لحدث ما او ان تقوم باعادة ضبط مجالات الميتاداتا الموجودة|,
-		lastUpdated => 1169130837
+	'import invalid template' => {
+		message => q||,
+		lastUpdated => 
 	},
 
 	'type label here' => {
-		message => q||,
-		lastUpdated => 
+		message => q|اكتب العلامة هنا<br />|,
+		lastUpdated => 1177443288
 	},
 
 	'noSearchDialog' => {
-		message => q||,
-		lastUpdated => 
+		message => q|علامة تحدد اذا طلب المستخدم عدم عرض اي بحث بان يضبط كتغير النموذد &quot;hide&quot;<br />|,
+		lastUpdated => 1177438954
+	},
+
+	'reset user' => {
+		message => q|اعد ضبط المستخدم<br />|,
+		lastUpdated => 1177441378
 	},
 
 	'add/edit event what next' => {
@@ -831,29 +876,29 @@ our $I18N = {
 		lastUpdated => 1169131364
 	},
 
-	'reset user' => {
-		message => q||,
-		lastUpdated => 
+	'skip' => {
+		message => q|تخطى|,
+		lastUpdated => 1201201857
 	},
 
 	'purchaseUrl' => {
-		message => q||,
-		lastUpdated => 
+		message => q|الرابط لعرض التفاصيل لهذا الشراء<br />|,
+		lastUpdated => 1177441207
 	},
 
 	'tmplVar event' => {
-		message => q||,
-		lastUpdated => 
+		message => q|معلومات حدث واحد تم عمله بنموذج الحدث الخاص به.<br />|,
+		lastUpdated => 1177443115
 	},
 
 	'startDate.human' => {
-		message => q||,
-		lastUpdated => 
+		message => q|تاريخ ووقت بدأ الحدث في شكل ادمي قروء<br />|,
+		lastUpdated => 1177442702
 	},
 
 	'group to approve events' => {
-		message => q||,
-		lastUpdated => 
+		message => q|مجموعة التصديق على الاحداث<br />|,
+		lastUpdated => 1177438126
 	},
 
 	'Admin manage sub events large resultset' => {
@@ -861,29 +906,44 @@ our $I18N = {
 		lastUpdated => 1169129174
 	},
 
-	'tmplVar sku template' => {
+	'import hoverhelp file' => {
 		message => q||,
 		lastUpdated => 
+	},
+
+	'import hoverhelp dups' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'tmplVar sku template' => {
+		message => q|نموذج SKU المستخدم لعمل الSKU لهذا الحدث<br />|,
+		lastUpdated => 1177443242
 	},
 
 	'manage prerequisites' => {
-		message => q||,
-		lastUpdated => 
+		message => q|قم بادارة الشروط لهذا الحدث<br />|,
+		lastUpdated => 1177438367
 	},
 
 	'manage discount passes' => {
-		message => q||,
-		lastUpdated => 
+		message => q|قم بادارة بطاقات الخصم<br />|,
+		lastUpdated => 1177438318
 	},
 
 	'title.url' => {
+		message => q|الرابط لعرض قائمة بالاحداث التي تحتوي هذا الحدث<br />|,
+		lastUpdated => 1177442922
+	},
+
+	'import form header' => {
 		message => q||,
 		lastUpdated => 
 	},
 
 	'tmplVar error' => {
-		message => q||,
-		lastUpdated => 
+		message => q|يحتوي على رسالة خطأ دولية تخبر المستخدم ان مجالات محددة لا يمكن ان تكون فارغة. اسم المجال المعاد في هذه الرسالة هو العلامة الدولية للمجال الي ترك فارغا. <br />|,
+		lastUpdated => 1177443089
 	},
 
 	'checkout template' => {
@@ -892,13 +952,13 @@ our $I18N = {
 	},
 
 	'weight' => {
-		message => q||,
-		lastUpdated => 
+		message => q|الوزن|,
+		lastUpdated => 1177443520
 	},
 
 	'edit prerequisite set' => {
-		message => q||,
-		lastUpdated => 
+		message => q|عدل مجموعة الشروط<br />|,
+		lastUpdated => 1177436433
 	},
 
 	'add to cart' => {
@@ -906,9 +966,14 @@ our $I18N = {
 		lastUpdated => 1169130234
 	},
 
+	'import other line' => {
+		message => q|السجل س% كان س%|,
+		lastUpdated => 1201801371
+	},
+
 	'sold out' => {
-		message => q||,
-		lastUpdated => 
+		message => q|تم بيعه<br />|,
+		lastUpdated => 1177442654
 	},
 
 	'add/edit event what next description' => {
@@ -916,24 +981,34 @@ our $I18N = {
 		lastUpdated => 1169131195
 	},
 
+	'import events' => {
+		message => q|قم يتوريد الاحداث|,
+		lastUpdated => 1201801089
+	},
+
+	'check required fields' => {
+		message => q|لم تقم تضم هذه المجالات المطلوبة|,
+		lastUpdated => 1201201563
+	},
+
 	'forced narrowing' => {
-		message => q||,
-		lastUpdated => 
+		message => q|نتيجة لعدد الشروط الكبير لم يتم عرض اي منها حاليا, من فضلك ضيق حجم النتائج باستخدام خيارات الفلتر المتقمة و العادية.<br />|,
+		lastUpdated => 1177438013
 	},
 
 	'numberRegistered' => {
-		message => q||,
-		lastUpdated => 
+		message => q|عدد الاشخاص الذي تم تسجيلهم حاليا في هذا الحدث<br />|,
+		lastUpdated => 1177439010
 	},
 
 	'sku template' => {
-		message => q||,
-		lastUpdated => 
+		message => q|نموذج SKU<br />|,
+		lastUpdated => 1177442498
 	},
 
 	'option to narrow' => {
-		message => q||,
-		lastUpdated => 
+		message => q|من الممكن ان تضيق قائمة الشروط المعروضة باستخدام اختيارات الفلتر المتقدمة او العادية<br />|,
+		lastUpdated => 1177439776
 	},
 
 	'city' => {
@@ -941,14 +1016,19 @@ our $I18N = {
 		lastUpdated => 1169131481
 	},
 
+	'field count mismatch' => {
+		message => q|الشجل d% له عدد D% من الملفات. d% ليس كما ذكرتها في صناديق الاختيار التي نقرت عليها|,
+		lastUpdated => 1201201766
+	},
+
 	'scheduling conflict message' => {
-		message => q||,
-		lastUpdated => 
+		message => q|لديك تضارب جداول. من فضلك الغي واحد من الاحداث ادناه من عربتك لكي تحل المشكلة |,
+		lastUpdated => 1177441481
 	},
 
 	'managePurchases.label' => {
-		message => q||,
-		lastUpdated => 
+		message => q|علامة دولية لعرض وصلة ادارة المشتريات الى المستخدم<br />|,
+		lastUpdated => 1177438616
 	},
 
 	'approve event' => {
@@ -957,13 +1037,13 @@ our $I18N = {
 	},
 
 	'checkout template help title' => {
-		message => q||,
-		lastUpdated => 
+		message => q|نموذج الخروج لنظام ادارة الاحداث<br />|,
+		lastUpdated => 1177437472
 	},
 
 	'which badge' => {
-		message => q||,
-		lastUpdated => 
+		message => q|اي شارة<br />|,
+		lastUpdated => 1177443544
 	},
 
 	'add/edit event title description' => {
@@ -982,13 +1062,13 @@ our $I18N = {
 	},
 
 	'message' => {
-		message => q||,
-		lastUpdated => 
+		message => q|رسالة من النظام عن عدد و نوع النتائج التي تم عرضها<br />|,
+		lastUpdated => 1177438800
 	},
 
 	'price must be greater than zero' => {
-		message => q||,
-		lastUpdated => 
+		message => q|يجب ان يكون السعر اكثر من 0<br />|,
+		lastUpdated => 1177440054
 	},
 
 	'approved' => {
@@ -997,8 +1077,8 @@ our $I18N = {
 	},
 
 	'search template description' => {
-		message => q||,
-		lastUpdated => 
+		message => q|يتحكم في الشكل الخارجي, المنظر, ومظهر صفحة البحث في نظام ادارة الاحداث.<br />|,
+		lastUpdated => 1177442181
 	},
 
 	'Admin manage sub events small resultset' => {
@@ -1007,8 +1087,8 @@ our $I18N = {
 	},
 
 	'manage event metadata' => {
-		message => q||,
-		lastUpdated => 
+		message => q|قم بادارة ميتاداتا الاحداث<br />|,
+		lastUpdated => 1177438334
 	},
 
 	'Unlink User' => {
@@ -1022,23 +1102,28 @@ our $I18N = {
 	},
 
 	'auto search description' => {
-		message => q||,
-		lastUpdated => 
+		message => q|اجعل هذا يظهر كمجال فلتر اعتياديا في صفحة البحث المتقدم<br />|,
+		lastUpdated => 1177436787
 	},
 
 	'purchase.wantToContinue.url' => {
-		message => q||,
-		lastUpdated => 
+		message => q|رابط لاضافة هذا الحدث الى العربة. اذا كان الحدث ممتلئ, سيكون هذا المتغير فارغا.<br />|,
+		lastUpdated => 1177440301
+	},
+
+	'import file contains field title' => {
+		message => q|يحتوي الملف على مجال|,
+		lastUpdated => 1201801130
 	},
 
 	'manage purchases' => {
-		message => q||,
-		lastUpdated => 
+		message => q|قم بادارة المشتريات<br />|,
+		lastUpdated => 1177438623
 	},
 
 	'purchase.label' => {
-		message => q||,
-		lastUpdated => 
+		message => q|العلامة الدولية &quot;Add To Cart&quot;. اذا كان الحدث ممتلئ, سيكون هذا المتغير فارغا<br />|,
+		lastUpdated => 1177440108
 	},
 
 	'addToBadgeMessage' => {
@@ -1047,13 +1132,13 @@ our $I18N = {
 	},
 
 	'registrationId' => {
-		message => q||,
-		lastUpdated => 
+		message => q|هوية اشتراك المستخدم لهذا الحدث<br />|,
+		lastUpdated => 1177441355
 	},
 
 	'auto search' => {
-		message => q||,
-		lastUpdated => 
+		message => q|مجال البحث المبدئي<br />|,
+		lastUpdated => 1177436760
 	},
 
 	'add new event metadata field' => {
@@ -1061,9 +1146,14 @@ our $I18N = {
 		lastUpdated => 1169130067
 	},
 
+	'import blank line' => {
+		message => q|التسجيل س% كان فارغا (تم اهماله)|,
+		lastUpdated => 1201801070
+	},
+
 	'managePurchases.url' => {
-		message => q||,
-		lastUpdated => 
+		message => q|الرابط ليأخذ المستخدم الى الشاشة حيث يمكن ادارة المشتريات. <br />|,
+		lastUpdated => 1177438714
 	},
 
 	'add/edit event end date description' => {
@@ -1076,39 +1166,44 @@ our $I18N = {
 		lastUpdated => 1169132096
 	},
 
+	'null field error recnum' => {
+		message => q|لا يمكن لمجال س% ان يكون فارغا (السجل ي%)|,
+		lastUpdated => 1201801484
+	},
+
 	'starts.label' => {
-		message => q||,
-		lastUpdated => 
+		message => q|العلامة الدولية &quot;بدأ&quot;<br /> |,
+		lastUpdated => 1177442741
+	},
+
+	'enter import file' => {
+		message => q|من فضلك ادخل ملف جديد للتوريد|,
+		lastUpdated => 1201201602
 	},
 
 	'tmplVar weight' => {
-		message => q||,
-		lastUpdated => 
+		message => q|الوزن النتسب لمواد هذا الحدث<br />|,
+		lastUpdated => 1177443257
 	},
 
 	'canAddEvents' => {
-		message => q||,
-		lastUpdated => 
+		message => q|علامة تحدد ما اذا المستخدم الحالي مسموح له باضافة حدث. المديرين, صاحب هذه العملية, والمستخدم الذي اضاف الاشتراك او المستخدم الذي تم الاشرات له يمكنهم اضافة الاحداث.|,
+		lastUpdated => 1177436953
 	},
 
 	'returned' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'viewPurchaseTitle' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'event template help body' => {
-		message => q||,
-		lastUpdated => 
+		message => q|علامة ستكون مساوية ل1 اذا تماعادة الحدث من المستخدم<br />|,
+		lastUpdated => 1177441412
 	},
 
 	'eventIsFull' => {
-		message => q||,
-		lastUpdated => 
+		message => q|علامة تتحقق اذا لم يكن هناك اي مقاعد باقية في الحدث<br />|,
+		lastUpdated => 1177437634
+	},
+
+	'viewPurchaseTitle' => {
+		message => q|العلامة الدولية لعنوان هذه الشاشة<br />|,
+		lastUpdated => 1177443514
 	},
 
 	'confirm delete prerequisite' => {
@@ -1132,28 +1227,28 @@ our $I18N = {
 	},
 
 	'tmplVar approved' => {
-		message => q||,
-		lastUpdated => 
+		message => q|علامة ستكون مساوية ل1 اذا تم التصديق على هذا الحدث<br />|,
+		lastUpdated => 1177443022
 	},
 
 	'filter' => {
-		message => q||,
-		lastUpdated => 
+		message => q|فلتر|,
+		lastUpdated => 1177437952
 	},
 
 	'endDateHuman' => {
-		message => q||,
-		lastUpdated => 
+		message => q|تاريخ ووقت انتهاء ها الحدث في شكل ايبوش<br />|,
+		lastUpdated => 1177436557
 	},
 
 	'eventIsApproved' => {
-		message => q||,
-		lastUpdated => 
+		message => q|علامة تتحقق اذا تم التصديق على الحدث<br />|,
+		lastUpdated => 1177437606
 	},
 
 	'group to add events' => {
-		message => q||,
-		lastUpdated => 
+		message => q|مجموعة اضافة الاحداث<br />|,
+		lastUpdated => 1177438057
 	},
 
 	'any' => {
@@ -1162,8 +1257,13 @@ our $I18N = {
 	},
 
 	'basicSearch.formHeader' => {
-		message => q||,
-		lastUpdated => 
+		message => q|مقدمة نموذج لبحث مبدئي<br />|,
+		lastUpdated => 1177437449
+	},
+
+	'pass name description' => {
+		message => q|اسم بطاقة الخصم الخاصة بك. هذا الاسم سيستخدم للاشارة الى البطاقة في النظام و كم الخصم الذي توفره لذا كن متأكدا من اختيار اسم شرحي. لا يمكن ترك هذه المساحة فارغة.<br />|,
+		lastUpdated => 1177439937
 	},
 
 	'approve event description' => {
@@ -1171,14 +1271,9 @@ our $I18N = {
 		lastUpdated => 1173715767
 	},
 
-	'pass name description' => {
-		message => q||,
-		lastUpdated => 
-	},
-
 	'missing prerequisites message' => {
-		message => q||,
-		lastUpdated => 
+		message => q|بعض الاحداث التي اخترتها تتطلب حضور حدث اخر. من فضلك وفي الشروط في القائمة ادناه  <br />|,
+		lastUpdated => 1177438865
 	},
 
 	'create a badge for myself' => {
@@ -1187,23 +1282,23 @@ our $I18N = {
 	},
 
 	'scheduling conflict continue' => {
-		message => q||,
-		lastUpdated => 
+		message => q|انقر هنا لتكمل<br />|,
+		lastUpdated => 1177441439
 	},
 
 	'regLoop' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'advSearch.formHeader' => {
-		message => q|مقدمة النموذج للبحث المتقدم<br />|,
-		lastUpdated => 1173714523
+		message => q|هذه الدروة تحتوي كل الاحداث المتضمنة في هذا التسجيل<br />|,
+		lastUpdated => 1177441329
 	},
 
 	'create new user' => {
 		message => q|قم بعمل مستخدم جديد<br />|,
 		lastUpdated => 1169131906
+	},
+
+	'advSearch.formHeader' => {
+		message => q|مقدمة النموذج للبحث المتقدم<br />|,
+		lastUpdated => 1173714523
 	},
 
 	'assetName' => {
@@ -1212,26 +1307,26 @@ our $I18N = {
 	},
 
 	'manage purchases template description' => {
-		message => q||,
-		lastUpdated => 
+		message => q|يتحكم في الشكل الخارجي, المنظر, ومظهر شاشة ادارة المشتروات في نظام ادارة الاحداث.<br />|,
+		lastUpdated => 1177438435
 	},
 
 	'or' => {
-		message => q||,
-		lastUpdated => 
+		message => q|او|,
+		lastUpdated => 1177439782
 	},
 
 	'canReturnItinerary' => {
-		message => q||,
-		lastUpdated => 
+		message => q|علامة تحدد ما اذا يمكن ارجاع الحدث<br />|,
+		lastUpdated => 1177437304
 	},
 
 	'maximumAttendees' => {
-		message => q||,
-		lastUpdated => 
+		message => q|عدد الاشخاص المسموح لهم بحضور هذا الحدث<br />|,
+		lastUpdated => 1177438778
 	},
 
-	'add/edit help body' => {
+	'import invalid prereq' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -1242,23 +1337,23 @@ our $I18N = {
 	},
 
 	'search.data.url' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'manage discount pass body' => {
-		message => q||,
-		lastUpdated => 
+		message => q|الرابط لهذا الاصل<br />|,
+		lastUpdated => 1177442829
 	},
 
 	'purchase.url' => {
-		message => q||,
-		lastUpdated => 
+		message => q|رابط للمستخدم لكي يشترك بهذا الحدث ويضيفه الى عربة التسوق الخاصة به. اذا كان الحدث ممتلئ, سيكون الرابط فارغا. <br />|,
+		lastUpdated => 1177440193
+	},
+
+	'ignore first line' => {
+		message => q|اهمل السطر الاول؟|,
+		lastUpdated => 1201801000
 	},
 
 	'search template help title' => {
-		message => q||,
-		lastUpdated => 
+		message => q|نموذج بحث نظام ادارة الاحداث<br />|,
+		lastUpdated => 1177442253
 	},
 
 	'add/edit event start date description' => {
@@ -1272,68 +1367,78 @@ our $I18N = {
 	},
 
 	'display template description' => {
-		message => q||,
-		lastUpdated => 
+		message => q|يتحكم في الشكل الخارجي, المنظر, ومظهر نظام ادارة الاحداث.<br />|,
+		lastUpdated => 1177436357
 	},
 
 	'search template' => {
-		message => q||,
-		lastUpdated => 
+		message => q|نموذج بحث<br />|,
+		lastUpdated => 1177442147
 	},
 
 	'sku description' => {
-		message => q||,
-		lastUpdated => 
+		message => q|رقم SKU لينسب الى الحدث. معرف فريد عالمي يتم عمله اعتياديا<br />|,
+		lastUpdated => 1177442491
 	},
 
 	'view purchase template' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'template help body' => {
-		message => q||,
-		lastUpdated => 
+		message => q|اعرض نموذج الشراء<br />|,
+		lastUpdated => 1177443329
 	},
 
 	'email address' => {
-		message => q||,
-		lastUpdated => 
+		message => q|عنوان البريد الالكتروني<br />|,
+		lastUpdated => 1177436475
+	},
+
+	'meta hover help' => {
+		message => q|هذا مجال اعتيادي, من فضلك اتصل بالمشرف للمساعدة|,
+		lastUpdated => 1201801452
 	},
 
 	'events_loop' => {
-		message => q||,
-		lastUpdated => 
+		message => q|هذه الدورة تحتوي كل الاحداث التي تم التصديق عليها حتى يتمكن المستخدمين من الاشتراك.<br />|,
+		lastUpdated => 1177437941
 	},
 
 	'select one' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'manage purchases template help body' => {
-		message => q||,
-		lastUpdated => 
+		message => q|اختر واحد<br />|,
+		lastUpdated => 1177442431
 	},
 
 	'seats available' => {
-		message => q||,
-		lastUpdated => 
+		message => q|الكراسي المتوفرة<br />|,
+		lastUpdated => 1177442363
+	},
+
+	'export events' => {
+		message => q|صدر الاحداث|,
+		lastUpdated => 1201201668
 	},
 
 	'save approvals' => {
-		message => q||,
-		lastUpdated => 
+		message => q|احفظ التصديقات|,
+		lastUpdated => 1177441426
+	},
+
+	'overwrite' => {
+		message => q|انسخ|,
+		lastUpdated => 1201201898
+	},
+
+	'short title' => {
+		message => q|العنوان|,
+		lastUpdated => 1201201866
 	},
 
 	'paginate after' => {
-		message => q||,
-		lastUpdated => 
+		message => q|قم بالتصفيح بعد<br />|,
+		lastUpdated => 1177439794
 	},
 
 	'discount pass member' => {
-		message => q||,
-		lastUpdated => 
+		message => q|<p>هذ الحدث عضو في بطاقة التخفيض. </p><p>بطاقة التخفيض المختارة يجب ان تطبق على هذا الحدث اذا كان الاثنان في عربة المستخدم.&nbsp;</p>|,
+		lastUpdated => 1177436311
 	},
 
 	'approval' => {
@@ -1342,28 +1447,33 @@ our $I18N = {
 	},
 
 	'manage prerequisite sets' => {
-		message => q||,
-		lastUpdated => 
+		message => q|قم بادارة مجموعات الشروط<br />|,
+		lastUpdated => 1177438355
 	},
 
 	'productId' => {
-		message => q||,
-		lastUpdated => 
+		message => q|المعرف الفريد لهذا المنتج<br />|,
+		lastUpdated => 1177440080
 	},
 
 	'managePrereqsMessage' => {
-		message => q||,
-		lastUpdated => 
+		message => q|استخدم النموذج ادناه لاضافة الشروط المنتسبة لـ%s|,
+		lastUpdated => 1177438592
 	},
 
 	'see available subevents' => {
-		message => q||,
-		lastUpdated => 
+		message => q|هل تريد ان تتطلع على الاحداث الثانوية المتوفرة؟<br />|,
+		lastUpdated => 1177442425
 	},
 
 	'search.formSubmit' => {
-		message => q||,
-		lastUpdated => 
+		message => q|زر لادخال بيانات بحث المستخدم. سيحتوي الزر على الكلمة الدولية &quot;فلتر&quot;<br />|,
+		lastUpdated => 1177442353
+	},
+
+	'import missing required' => {
+		message => q|<p>السجل س% لم يكن له س%, وهو مجال مطلوب </p>|,
+		lastUpdated => 1201801281
 	},
 
 };

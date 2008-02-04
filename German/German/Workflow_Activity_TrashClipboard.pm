@@ -7,8 +7,8 @@ our $I18N = {
 	},
 
 	'trash clipboard body' => {
-		message => q||,
-		lastUpdated => 
+		message => q|<p>Diese Workflow Aktivit&auml;t verschiebt alle Assets von der Zwischenablage in den M&uuml;lleimer nachdem diese f&uuml;r eine bestimmte Zeit dort gelegen haben. Dies betrifft nur Assets, die schon committed wurden. Uncommitted Assets bleiben in der Zwischenablage bis sie committed wurden und l&auml;nger als eine bestimmte Zeit dort gelegen haben.</p><p>Es existiert in WebGUI ein Standard Workflow, der alle Assets von der Zwischenablage in den M&uuml;lleimer verschiebt, die dort l&auml;nger als 30 Tage gelegen haben. </p>|,
+		lastUpdated => 1179909724
 	},
 
 	'trash after help' => {

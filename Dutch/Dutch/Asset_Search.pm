@@ -71,6 +71,11 @@ our $I18N = {
 		lastUpdated => 1149857980
 	},
 
+	'useContainers help' => {
+		message => q|Zet dit op &quot;Ja&quot; als de zoekresultaten volledige pagina's moeten geven in plaats van losse Assets.|,
+		lastUpdated => 1201183635
+	},
+
 	'templateId' => {
 		message => q|De ID van het template dat gebruikt wordt om het Zoekobject weer te geven.|,
 		lastUpdated => 1189372805
@@ -84,6 +89,11 @@ our $I18N = {
 	'form_footer' => {
 		message => q|<p><strong>form_footer*</strong><br />HTML code waarmee het zoekformulier beeindigd wordt.&nbsp;</p>|,
 		lastUpdated => 1149857902
+	},
+
+	'useContainers' => {
+		message => q|Containers URL's&nbsp; gebruiken in de resultaten?|,
+		lastUpdated => 1201183583
 	},
 
 	'search root description' => {

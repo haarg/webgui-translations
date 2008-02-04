@@ -2,33 +2,28 @@ package WebGUI::i18n::German::Macro_r_printable;
 
 our $I18N = {
 	'printable.url' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'printable body' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Die URL, um die Seite druckbar darzustellen.|,
+		lastUpdated => 1178780897
 	},
 
 	'53' => {
-		message => q|Druckansicht der Seite<br />|,
-		lastUpdated => 1157929236
+		message => q|Mache Seite druckbar|,
+		lastUpdated => 1192967123
 	},
 
 	'printable.text' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Der &uuml;bersetzte Label f&uuml;r den ausdruckbaren Link bzw. der Text, den Sie dem Makro als Argument &uuml;bergeben haben.|,
+		lastUpdated => 1178780881
 	},
 
 	'macroName' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Mache Seite druckbar|,
+		lastUpdated => 1192967106
 	},
 
 	'printable title' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Mache Seite druckbar Makro Template Variable|,
+		lastUpdated => 1192967077
 	},
 
 };

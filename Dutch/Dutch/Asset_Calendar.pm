@@ -16,6 +16,11 @@ our $I18N = {
 		lastUpdated => 1189120594
 	},
 
+	'print' => {
+		message => q|Printen|,
+		lastUpdated => 1199098719
+	},
+
 	'templateIdEventEdit description' => {
 		message => q|Het template om een gebeurtenis te bewerken.|,
 		lastUpdated => 1166193992
@@ -54,6 +59,11 @@ our $I18N = {
 	'templateIdPrintMonth label' => {
 		message => q|Maandweergave printen template|,
 		lastUpdated => 1166194148
+	},
+
+	'sortEventsBy value sequencenumber' => {
+		message => q|Sorteer op rangnummer.|,
+		lastUpdated => 1201182909
 	},
 
 	'events weekVar' => {
@@ -116,9 +126,9 @@ our $I18N = {
 		lastUpdated => 1189121030
 	},
 
-	'help add/edit body' => {
-		message => q|Dit object is niet gedocumenteerd.|,
-		lastUpdated => 1189119923
+	'add event' => {
+		message => q|Voeg evenement toe|,
+		lastUpdated => 1199098698
 	},
 
 	'view calendar day title' => {
@@ -386,6 +396,11 @@ our $I18N = {
 		lastUpdated => 1166193517
 	},
 
+	'sortEventsBy description' => {
+		message => q|De volgorde waarin dagelijkse gebeurtenissen worden weergegeven.|,
+		lastUpdated => 1201182867
+	},
+
 	'startDayOfMonth' => {
 		message => q|De dag van de maand waarin deze week begint. Dit is een geheel getal van 1 tot 31.|,
 		lastUpdated => 1189120438
@@ -401,14 +416,14 @@ our $I18N = {
 		lastUpdated => 1189119883
 	},
 
-	'templateIdPrintDay label' => {
-		message => q|Printen dagweergave template|,
-		lastUpdated => 1166194098
-	},
-
 	'extrasUrl' => {
 		message => q|Een URL naar de WebGUI extras directory.|,
 		lastUpdated => 1189119909
+	},
+
+	'templateIdPrintDay label' => {
+		message => q|Printen dagweergave template|,
+		lastUpdated => 1166194098
 	},
 
 	'hour12' => {
@@ -421,6 +436,11 @@ our $I18N = {
 		lastUpdated => 1166194112
 	},
 
+	'sortEventsBy value time' => {
+		message => q|Sorteer op start of einddatum.|,
+		lastUpdated => 1201182925
+	},
+
 	'paramType' => {
 		message => q|De tijdseenheid waarin de kalender wordt bekeken. Dit kan "dag", "week" of "maand" zijn.|,
 		lastUpdated => 1189120368
@@ -429,11 +449,6 @@ our $I18N = {
 	'defaultView value day' => {
 		message => q|Dag|,
 		lastUpdated => 1166193508
-	},
-
-	'help add/edit title' => {
-		message => q|Kalender, Nieuw/Bewerken|,
-		lastUpdated => 1189119943
 	},
 
 	'endYear' => {
@@ -454,6 +469,11 @@ our $I18N = {
 	'dayName' => {
 		message => q|De naam van de huidige dag.|,
 		lastUpdated => 1189118985
+	},
+
+	'sortEventsBy label' => {
+		message => q|Dagelijkse gebeurtenissen sorteer volgorde|,
+		lastUpdated => 1201182888
 	},
 
 	'pageNextStart' => {
@@ -499,6 +519,11 @@ our $I18N = {
 	'monthName' => {
 		message => q|De naam van deze maand.|,
 		lastUpdated => 1189120138
+	},
+
+	'iCal' => {
+		message => q|iCal|,
+		lastUpdated => 1199098707
 	},
 
 	'templateIdDay description' => {

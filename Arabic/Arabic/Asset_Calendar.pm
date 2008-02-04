@@ -6,9 +6,19 @@ our $I18N = {
 		lastUpdated => 1168525599
 	},
 
+	'endMonth' => {
+		message => q|الرقم (1-12) من الشهر الذي ينتهي فيه هذا الاسبوع.|,
+		lastUpdated => 1177045691
+	},
+
 	'urlDay' => {
 		message => q|الرابط لاظهار اليوم الواحد من الاجندة<br />|,
 		lastUpdated => 1172753519
+	},
+
+	'print' => {
+		message => q|اطبع|,
+		lastUpdated => 1201002492
 	},
 
 	'templateIdEventEdit description' => {
@@ -24,6 +34,11 @@ our $I18N = {
 	'adminControls' => {
 		message => q|هذه هي الايقونات و الروابط التي تتيح التعديل, القص, النسخ, المسح, و اعادة تنظيم الاصل<br />|,
 		lastUpdated => 1172670289
+	},
+
+	'workflow generateRecurringEvents' => {
+		message => q|قم بعمل الاحداث المتكررة|,
+		lastUpdated => 1177045775
 	},
 
 	'pagePrevStart' => {
@@ -46,9 +61,19 @@ our $I18N = {
 		lastUpdated => 1172753351
 	},
 
+	'sortEventsBy value sequencenumber' => {
+		message => q|رتب بالاراقام التتابعية|,
+		lastUpdated => 1201201423
+	},
+
 	'events weekVar' => {
 		message => q|هذه السلسلة تحتوي على كل الاحداث لهذا اليوم<br />|,
 		lastUpdated => 1172672198
+	},
+
+	'workflow generateRecurringEvents description' => {
+		message => q|هذا النشاط يقوم بعمل الاحداث المتكررة للاجندات. هذا النشاط ايضا يحتفظ بالاحداث المتكررة للمستقبل.|,
+		lastUpdated => 1177045822
 	},
 
 	'hours' => {
@@ -101,9 +126,9 @@ our $I18N = {
 		lastUpdated => 1172754851
 	},
 
-	'help add/edit body' => {
-		message => q|ها الاصل غير موثق<br />|,
-		lastUpdated => 1172672306
+	'add event' => {
+		message => q|اضف حدث|,
+		lastUpdated => 1201002458
 	},
 
 	'view calendar day title' => {
@@ -114,6 +139,11 @@ our $I18N = {
 	'templateIdEvent description' => {
 		message => q|النموذج لاظهار التفاصيل الخاصة بحدث معين<br />|,
 		lastUpdated => 1172753089
+	},
+
+	'urlIcal' => {
+		message => q|الرابط الى iCal feed للاجندة, بدأ من هذا الشهر.|,
+		lastUpdated => 1177045759
 	},
 
 	'templateIdPrintMonth description' => {
@@ -356,9 +386,19 @@ our $I18N = {
 		lastUpdated => 1172753585
 	},
 
+	'startMonth' => {
+		message => q|الرقم (1-12) من الشهر الذي يبدأ فيه هذا الاسبوع.|,
+		lastUpdated => 1177045727
+	},
+
 	'defaultView value week' => {
 		message => q|اسبوع|,
 		lastUpdated => 1172671017
+	},
+
+	'sortEventsBy description' => {
+		message => q|الترتيب الذي يتم عرض الاحداث اليومية بها|,
+		lastUpdated => 1201201316
 	},
 
 	'startDayOfMonth' => {
@@ -376,14 +416,14 @@ our $I18N = {
 		lastUpdated => 1172672171
 	},
 
-	'templateIdPrintDay label' => {
-		message => q|نموذج طباعة اليوم<br />|,
-		lastUpdated => 1172753276
-	},
-
 	'extrasUrl' => {
 		message => q|الرابط الى دليل اضافات الويب جوي |,
 		lastUpdated => 1172672227
+	},
+
+	'templateIdPrintDay label' => {
+		message => q|نموذج طباعة اليوم<br />|,
+		lastUpdated => 1172753276
 	},
 
 	'hour12' => {
@@ -396,6 +436,11 @@ our $I18N = {
 		lastUpdated => 1172753302
 	},
 
+	'sortEventsBy value time' => {
+		message => q|رتب بتاريخ البداية/النهاية|,
+		lastUpdated => 1201201439
+	},
+
 	'paramType' => {
 		message => q|المظهر الحالي للاجندة, واحد من السلاسل يوم, شهر, سنة<br />|,
 		lastUpdated => 1172752716
@@ -404,11 +449,6 @@ our $I18N = {
 	'defaultView value day' => {
 		message => q|يوم|,
 		lastUpdated => 1172671001
-	},
-
-	'help add/edit title' => {
-		message => q|الاجندة, اضف/ عدل<br />|,
-		lastUpdated => 1172672320
 	},
 
 	'endYear' => {
@@ -429,6 +469,11 @@ our $I18N = {
 	'dayName' => {
 		message => q|اسم اليوم الحالي |,
 		lastUpdated => 1172670322
+	},
+
+	'sortEventsBy label' => {
+		message => q|طريقة ترتيب الاحداث اليومية|,
+		lastUpdated => 1201201401
 	},
 
 	'pageNextStart' => {
@@ -474,6 +519,11 @@ our $I18N = {
 	'monthName' => {
 		message => q|اسم هذا الشهر<br />|,
 		lastUpdated => 1172752488
+	},
+
+	'iCal' => {
+		message => q|iCal|,
+		lastUpdated => 1201002483
 	},
 
 	'templateIdDay description' => {

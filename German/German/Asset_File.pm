@@ -48,8 +48,8 @@ our $I18N = {
 	},
 
 	'file template title' => {
-		message => q|Dateitemplate|,
-		lastUpdated => 1153265986
+		message => q|Dateitemplate Variable|,
+		lastUpdated => 1192818738
 	},
 
 	'current file description' => {
@@ -77,11 +77,6 @@ our $I18N = {
 		lastUpdated => 1168863218
 	},
 
-	'file template body' => {
-		message => q|Die folgenden Variablen sind im Datei-Template verf&uuml;gbar:<br />|,
-		lastUpdated => 1153683586
-	},
-
 	'fileIcon' => {
 		message => q|Das Icon, das den Dateityp repräsentiert.|,
 		lastUpdated => 1153265768
@@ -92,19 +87,14 @@ our $I18N = {
 		lastUpdated => 1153265809
 	},
 
-	'file add/edit body' => {
-		message => q|<p>Datei-Assets sind Dateien Ihrer Site, die f&uuml;r die Nutzer zum Downlaod zur Verf&uuml;gung stehen. Wenn Sie mehrere Dateien verf&uuml;gbar machen wollen, probieren Sie das Dateiauswahl-Asset.</p>Da auch Dateien Assets darstellen, k&ouml;nnen sie alle Eigenschaften haben, die auch Assets besitzen. Hier finden Sie die Eigenschaften, die speziell f&uuml;r beim Grafiken-Asset zur Verf&uuml;gung stehen:|,
-		lastUpdated => 1168863213
+	'file not found' => {
+		message => q|<h1>Nicht gefunden </h1>Die angeforderte URL %s wurde auf dem Server nicht gefunden.|,
+		lastUpdated => 1178720983
 	},
 
 	'filename' => {
 		message => q|Der Dateiname|,
 		lastUpdated => 1153265828
-	},
-
-	'file template asset var body' => {
-		message => q|Die folgenden Variablen sind in Datei Templates verf&uuml;gbar. K&ouml;nnen n&uuml;tzlich sein oder auch nicht.|,
-		lastUpdated => 1168851781
 	},
 
 	'new file' => {

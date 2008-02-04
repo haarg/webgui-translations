@@ -27,13 +27,8 @@ our $I18N = {
 	},
 
 	'login box title' => {
-		message => q|Anmelde-Box-Makro|,
-		lastUpdated => 1157909287
-	},
-
-	'login box body' => {
-		message => q|<p><strong>^L; oder ^L(); - Login Box</strong></p><p>Ein kleines Anmeldeformular. Dieses Makro kann bis zu drei Parameter enthalten. </p><p>Das erste definiert die Breite der Login Box: ^L(20);.</p><p>Das zweite definiert die Meldung, die nach dem Nutzerlogin angezeigt wird: ^L(20,&quot;Hallo ^a(^@;);. Klicken Sie %hier% wenn Sie sich abmelden wollen!&quot;);. Text zwischen Prozentzeichen (%) wird mit dem Link zur Abmeldefunktion verkn&uuml;pft.</p><p>Mit dem dritte Parameter wird die Tempalte-ID im Macro/L_loginBox Namensraum angegeben, um das STandard-Template zu ersetzen. Die unten stehenden Variablen stehen im Template zur Verf&uuml;gung.</p>  <p><strong>Anmerkung:</strong> Die Syle-Klasse .loginBox ist mit diesem Makro verkn&uuml;pft. </p>|,
-		lastUpdated => 1157909734
+		message => q|Anmelde-Box Makro Template Variable|,
+		lastUpdated => 1192966833
 	},
 
 	'account.create.url' => {

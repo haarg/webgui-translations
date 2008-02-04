@@ -71,6 +71,11 @@ our $I18N = {
 		lastUpdated => 1174395707
 	},
 
+	'username' => {
+		message => q|مستخدم|,
+		lastUpdated => 1201009218
+	},
+
 	'itemId' => {
 		message => q|هوية الويب جوي الداخلية المتعلقة بهذا العنصر<br />|,
 		lastUpdated => 1174390790
@@ -171,11 +176,6 @@ our $I18N = {
 		lastUpdated => 1174389657
 	},
 
-	'help purchase history template body' => {
-		message => q|المتغيرات التالية متوفرة على النموذج<br />|,
-		lastUpdated => 1174390682
-	},
-
 	'shipping status' => {
 		message => q|حالة الشحن<br />|,
 		lastUpdated => 1174395715
@@ -192,8 +192,8 @@ our $I18N = {
 	},
 
 	'help purchase history template title' => {
-		message => q|اعرض نموذج تاريخ الشراء<br />|,
-		lastUpdated => 1174390698
+		message => q|&nbsp;متغيرات نموذج اعرض نموذج تاريخ الشراء|,
+		lastUpdated => 1201009209
 	},
 
 	'itemType' => {

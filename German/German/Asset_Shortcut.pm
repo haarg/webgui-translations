@@ -12,8 +12,8 @@ our $I18N = {
 	},
 
 	'7' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Titel &uuml;berschreiben?|,
+		lastUpdated => 1178710279
 	},
 
 	'disable content lock' => {
@@ -32,13 +32,13 @@ our $I18N = {
 	},
 
 	'Field' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Feld|,
+		lastUpdated => 1178710585
 	},
 
 	'1 description' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Geben sie den Link des zu spiegelnden Assets an.|,
+		lastUpdated => 1178710140
 	},
 
 	'fieldName' => {
@@ -47,18 +47,18 @@ our $I18N = {
 	},
 
 	'9 description' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Setzen Sie hier "Ja", falls die Beschreibung des Shortcuts anstatt der Beschreibung des originalen Assets benutzt werden soll.|,
+		lastUpdated => 1178710420
 	},
 
 	'New value' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Neuer Wert|,
+		lastUpdated => 1178710685
 	},
 
 	'Back to Edit Shortcut' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Zur&uuml;ck zum Bearbeiten des Shortcuts|,
+		lastUpdated => 1178710511
 	},
 
 	'override asset template' => {
@@ -72,8 +72,8 @@ our $I18N = {
 	},
 
 	'Edit Field Directly' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Bearbeite Feld direkt|,
+		lastUpdated => 1178710560
 	},
 
 	'shortcut template title' => {
@@ -112,8 +112,8 @@ our $I18N = {
 	},
 
 	'Default Value for this field' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Standard Wert dieses Feldes.|,
+		lastUpdated => 1178710540
 	},
 
 	'Replacement value' => {
@@ -152,8 +152,8 @@ our $I18N = {
 	},
 
 	'8 description' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Setzen Sie hier "Ja", falls der Men&uuml;titel des Shortcuts anstatt des Men&uuml;titels des originale Assets benutzt werden soll.|,
+		lastUpdated => 1178710494
 	},
 
 	'Manage Shortcut Overrides' => {
@@ -182,13 +182,13 @@ our $I18N = {
 	},
 
 	'show reload icon' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Zeige Reload Icon?|,
+		lastUpdated => 1178710810
 	},
 
 	'Criteria' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Merkmale|,
+		lastUpdated => 1179838332
 	},
 
 	'Criteria description' => {
@@ -197,8 +197,8 @@ our $I18N = {
 	},
 
 	'assetName' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Shortcut|,
+		lastUpdated => 1178710891
 	},
 
 	'shortcut.label' => {
@@ -207,8 +207,8 @@ our $I18N = {
 	},
 
 	'2' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Shortcut bearbeiten|,
+		lastUpdated => 1178710206
 	},
 
 	'equal to' => {
@@ -217,18 +217,18 @@ our $I18N = {
 	},
 
 	'10 description' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Setzen Sie hier "Ja", wenn das Template des Shortcuts an statt des originalen Templates benutzt werden soll.|,
+		lastUpdated => 1178710195
 	},
 
 	'1' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Zu spiegelndes Asset|,
+		lastUpdated => 1178710118
 	},
 
 	'Manage Profile Fields' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Verwalte Profil Felder|,
+		lastUpdated => 1178710642
 	},
 
 	'This is the example output of the field when parsed for user preference macros' => {
@@ -252,8 +252,8 @@ our $I18N = {
 	},
 
 	'Label for This Field.' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Label f&uuml;r dieses Feld.|,
+		lastUpdated => 1178710631
 	},
 
 	'not equal to' => {
@@ -277,18 +277,18 @@ our $I18N = {
 	},
 
 	'Original Value' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Originalwert|,
+		lastUpdated => 1178710703
 	},
 
 	'OR' => {
-		message => q||,
-		lastUpdated => 
+		message => q|ODER|,
+		lastUpdated => 1178710693
 	},
 
 	'Possible Values' => {
-		message => q||,
-		lastUpdated => 
+		message => q|M&ouml;gliche Werte|,
+		lastUpdated => 1178710733
 	},
 
 	'show reload icon description' => {
@@ -297,8 +297,8 @@ our $I18N = {
 	},
 
 	'7 description' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Setzen Sie hier &quot;Ja&quot;, falls der Titel des Shortcuts anstatt des Titels des originalen Assets benutzt werden soll.|,
+		lastUpdated => 1178710432
 	},
 
 	'pref fields to show description' => {
@@ -307,8 +307,8 @@ our $I18N = {
 	},
 
 	'Possible values for this Field Only applies to selectList and checkList' => {
-		message => q||,
-		lastUpdated => 
+		message => q|M&ouml;gliche Werte f&uuml;r dieses Feld. Nur wirksam in selectList und checkList.|,
+		lastUpdated => 1178710858
 	},
 
 	'override asset template description' => {
@@ -347,13 +347,13 @@ our $I18N = {
 	},
 
 	'Hover Help Description for this Field' => {
-		message => q||,
-		lastUpdated => 
+		message => q|"Hover" Hilfe (Beschreibung) f&uuml;r dieses Feld.|,
+		lastUpdated => 1178710617
 	},
 
 	'9' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Beschreibung &uuml;berschreiben?|,
+		lastUpdated => 1178710373
 	},
 
 	'Resolve Multiples' => {
@@ -362,8 +362,8 @@ our $I18N = {
 	},
 
 	'8' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Men&uuml;titel &uuml;berschreiben?|,
+		lastUpdated => 1178710449
 	},
 
 	'Most Recent' => {
@@ -372,8 +372,8 @@ our $I18N = {
 	},
 
 	'4' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Spiegeln des Assets fehlgeschlagen. Vielleicht wurde das originale Asset gel&ouml;scht.|,
+		lastUpdated => 1178710240
 	},
 
 	'Shortcut by alternate criteria description' => {
@@ -392,8 +392,8 @@ our $I18N = {
 	},
 
 	'5' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Shortcut hinzuf&uuml;gen/bearbeiten|,
+		lastUpdated => 1178710256
 	},
 
 };

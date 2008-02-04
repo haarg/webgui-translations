@@ -47,8 +47,8 @@ our $I18N = {
 	},
 
 	'file template title' => {
-		message => q|نموذج الملف<br />|,
-		lastUpdated => 1164210721
+		message => q|نموذج الملف|,
+		lastUpdated => 1201003925
 	},
 
 	'current file description' => {
@@ -76,11 +76,6 @@ our $I18N = {
 		lastUpdated => 1168440022
 	},
 
-	'file template body' => {
-		message => q|المتغيرات التالية متوفرة في نماذج الملف.<br />|,
-		lastUpdated => 1164210707
-	},
-
 	'fileIcon' => {
 		message => q|الايقونة التي تشرح نوع الملف.<br />|,
 		lastUpdated => 1164210740
@@ -96,19 +91,9 @@ our $I18N = {
 		lastUpdated => 1172062931
 	},
 
-	'file add/edit body' => {
-		message => q|<p align="&quot;right&quot;">&nbsp;اصول الملفات هي الملفات على موقعك و الموجودة للمستخدم لكي يحملها. اذا كنت تريد ان تجد ملفات متعددة, حاول ان تستخدم فايل بايل است. </p><p align="&quot;right&quot;">بما ان الملفات اصول, اذا لها كل الخواص التي تملكها الاصول. في ما ياتي الخواص التي تملكها اصول الور الخاصة. &nbsp;</p><p>&nbsp;</p>|,
-		lastUpdated => 1168439930
-	},
-
 	'filename' => {
 		message => q|اسم الملف<br />|,
 		lastUpdated => 1164210793
-	},
-
-	'file template asset var body' => {
-		message => q|المتغيرات التالية&nbsp; متوفرة في&nbsp; نماذج الملفات. من الممكن ان يكونوا مفيدين او لا <br />|,
-		lastUpdated => 1168440081
 	},
 
 	'new file' => {

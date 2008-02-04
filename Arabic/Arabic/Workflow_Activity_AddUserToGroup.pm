@@ -18,7 +18,7 @@ our $I18N = {
 
 	'group help' => {
 		message => q|اختر المجموعة التي سيضاف اليها هذا المستخدم|,
-		lastUpdated => 1166630561
+		lastUpdated => 1176923568
 	},
 
 	'activityName' => {

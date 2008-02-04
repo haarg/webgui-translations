@@ -12,8 +12,8 @@ our $I18N = {
 	},
 
 	'expire offset' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Ablauf Zeitabstand|,
+		lastUpdated => 1179847227
 	},
 
 	'group help' => {

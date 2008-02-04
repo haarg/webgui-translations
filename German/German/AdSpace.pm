@@ -12,13 +12,13 @@ our $I18N = {
 	},
 
 	'add an ad' => {
-		message => q|Banner hinzuf&uuml;gen<br />|,
-		lastUpdated => 1152969695
+		message => q|Banner hinzuf&uuml;gen|,
+		lastUpdated => 1178626502
 	},
 
 	'image help' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Die Bilddatei, die auf jedem Banner gezeigt wird.|,
+		lastUpdated => 1192818913
 	},
 
 	'text color' => {
@@ -32,8 +32,8 @@ our $I18N = {
 	},
 
 	'ad text' => {
-		message => q|Banner Text<br />|,
-		lastUpdated => 1152969767
+		message => q|Banner Text|,
+		lastUpdated => 1178626479
 	},
 
 	'url' => {
@@ -46,29 +46,19 @@ our $I18N = {
 		lastUpdated => 1152969669
 	},
 
-	'edit advertisement body' => {
-		message => q||,
-		lastUpdated => 
-	},
-
 	'manage ad spaces' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Werbeplatz konfigurieren.|,
+		lastUpdated => 1193070194
 	},
 
 	'title help' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'manage ad spaces title' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Ein menschlich lesbares Label.|,
+		lastUpdated => 1192819001
 	},
 
 	'text color help' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Der Hex-Wert der Farbe des Textes in diesem Textbanner.|,
+		lastUpdated => 1192819317
 	},
 
 	'description help' => {
@@ -77,13 +67,13 @@ our $I18N = {
 	},
 
 	'border color help' => {
-		message => q|Der HEX-Wert der Rahmenfarbe um das Text-Banner<br />|,
-		lastUpdated => 1153201231
+		message => q|Der HEX-Wert der Rahmenfarbe um das Text-Banner|,
+		lastUpdated => 1178626511
 	},
 
 	'rich help' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Plaziere den Code hier, der verwendet wird, um das Banner zu erzeugen.|,
+		lastUpdated => 1192819282
 	},
 
 	'name' => {
@@ -102,8 +92,8 @@ our $I18N = {
 	},
 
 	'priority help' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Ein skalierender Mechanismus um zu bestimmen, wie oft ein Banner angezeigt werden sollte. Je kleiner diese Zahl desto öfter wird es angezeigt. Das hat keinen Effekt auf Seiten mit wenig Traffic. Wenn Banner A einen Rang 0 hat und banner B einen Rang 10, und die Seite-Durchschnitte ungefähr ein Impression pro Sekunde hat, wird Banner A ungefähr 100mal öfter angezeigt als Banner B. Beachten Sie, dass dieser skalierende Mechanismus, kein exaktes Verhältnis darstellt. Je stärker der Traffic auf der Seite ist, desto ist der Vorrang-Einfluss.|,
+		lastUpdated => 1193079674
 	},
 
 	'height help' => {
@@ -117,8 +107,8 @@ our $I18N = {
 	},
 
 	'clicks bought' => {
-		message => q|erworbene Klicks <br />|,
-		lastUpdated => 1153201253
+		message => q|erworbene Klicks|,
+		lastUpdated => 1178626519
 	},
 
 	'ad id' => {
@@ -142,8 +132,8 @@ our $I18N = {
 	},
 
 	'type help' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Welcher Bannertyp läuft?|,
+		lastUpdated => 1192819054
 	},
 
 	'add ad space body' => {
@@ -157,8 +147,8 @@ our $I18N = {
 	},
 
 	'impressions bought' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Gekaufte Impressions|,
+		lastUpdated => 1193070013
 	},
 
 	'topicName' => {
@@ -167,8 +157,8 @@ our $I18N = {
 	},
 
 	'is active help' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Soll das Banner in die Rotation eingefügt werden ?|,
+		lastUpdated => 1193070049
 	},
 
 	'confirm ad space delete' => {
@@ -177,13 +167,13 @@ our $I18N = {
 	},
 
 	'name help' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Dieser String wird in der Kombination mit dem AdSpace Makro verwendet, um Banner auf der Seite zu setzen. Er sollte keine Leerzeichen und nur alphanumerische Zeichen enthalten.|,
+		lastUpdated => 1193070319
 	},
 
 	'url help' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Die URL, mit der sich dieses Banner verbindet. Beachte, dass dies nicht für Rich Media-Banner verwendet wird.|,
+		lastUpdated => 1192819200
 	},
 
 	'text' => {
@@ -192,8 +182,8 @@ our $I18N = {
 	},
 
 	'edit this ad space' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Editiere diesen Bannertext.|,
+		lastUpdated => 1192818823
 	},
 
 	'ad text help' => {
@@ -202,18 +192,13 @@ our $I18N = {
 	},
 
 	'rich' => {
-		message => q|Rich Media<br />|,
-		lastUpdated => 1153201292
+		message => q|Rich Media|,
+		lastUpdated => 1178626551
 	},
 
 	'background color help' => {
 		message => q|Der HEX-Wert der Hintergrundfarbe f&uuml;r dieses Text-Banner<br />|,
 		lastUpdated => 1153201091
-	},
-
-	'edit ad space body' => {
-		message => q||,
-		lastUpdated => 
 	},
 
 	'confirm ad delete' => {
@@ -242,13 +227,13 @@ our $I18N = {
 	},
 
 	'macro code prompt' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Verwenden Sie diesen Code, um den Banner-Platz zu setzen:|,
+		lastUpdated => 1193070110
 	},
 
 	'add ad space' => {
-		message => q|Werbeplatz hinzuf&uuml;gen<br />|,
-		lastUpdated => 1154464762
+		message => q|Werbeplatz hinzuf&uuml;gen|,
+		lastUpdated => 1178626491
 	},
 
 	'edit advertisement' => {
@@ -257,8 +242,8 @@ our $I18N = {
 	},
 
 	'impressions bought help' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Wie viele Impressions (individuelle Anzeigen der Banner) hat der Inserent gekauft? Wenn mehrere Klicks gekauft wurden, können Sie es bei Null lassen.|,
+		lastUpdated => 1193069994
 	},
 
 };

@@ -7,13 +7,13 @@ our $I18N = {
 	},
 
 	'html template body' => {
-		message => q||,
-		lastUpdated => 
+		message => q|HTML Template ist der Standard Template Parser von WebGUI. Die gesamte Dokumentation &uuml;ber Templates in der Online Hilfe handelt dar&uuml;ber.|,
+		lastUpdated => 1180020618
 	},
 
 	'html template title' => {
-		message => q|HTML Template<br />|,
-		lastUpdated => 1164887151
+		message => q|HTML Template|,
+		lastUpdated => 1180020624
 	},
 
 };

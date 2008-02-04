@@ -7,8 +7,8 @@ our $I18N = {
 	},
 
 	'department' => {
-		message => q||,
-		lastUpdated => 
+		message => q|متغير يحدد القسم التابع له المستخدم. اذا لم يتم نسب قم الى المستخدم, علامة دولية &quot;لا قسم&quot; ستستخدم<br /> |,
+		lastUpdated => 1177444206
 	},
 
 	'21' => {
@@ -17,33 +17,33 @@ our $I18N = {
 	},
 
 	'7' => {
-		message => q||,
-		lastUpdated => 
+		message => q|لا قسم<br />|,
+		lastUpdated => 1177443942
 	},
 
 	'form' => {
-		message => q||,
-		lastUpdated => 
+		message => q|متغير يحتوي على اتش تي ام ال لعرض نموذج ادخال الدخول والخروج لتحديث الحالة للمستخدم الحالي او اي مستخدم اخر<br /> |,
+		lastUpdated => 1177444441
 	},
 
 	'message.label' => {
-		message => q||,
-		lastUpdated => 
+		message => q|العلامة الدولية لعمود &quot;Message&quot; في التقرير<br />|,
+		lastUpdated => 1177444898
 	},
 
 	'in out board asset template variables title' => {
-		message => q||,
-		lastUpdated => 
+		message => q|متغيرات نموذج اصل لوحة الدخول والخروج|,
+		lastUpdated => 1177444508
 	},
 
 	'reportTemplateId' => {
-		message => q||,
-		lastUpdated => 
+		message => q|هوية النموذج المستخدم لعرض تقارير لوحة الدخول والخروج.<br />|,
+		lastUpdated => 1177445230
 	},
 
 	'Department' => {
-		message => q||,
-		lastUpdated => 
+		message => q|القسم|,
+		lastUpdated => 1177443961
 	},
 
 	'18' => {
@@ -52,8 +52,8 @@ our $I18N = {
 	},
 
 	'all departments' => {
-		message => q||,
-		lastUpdated => 
+		message => q|كل الاقسام<br />|,
+		lastUpdated => 1177444024
 	},
 
 	'1 description' => {
@@ -62,8 +62,8 @@ our $I18N = {
 	},
 
 	'paginateAfter' => {
-		message => q||,
-		lastUpdated => 
+		message => q|عدد السطور التي يجب عرضها في الصفحة الواحدة في لوحة الدخول والخروج الرئيسية<br />|,
+		lastUpdated => 1177445161
 	},
 
 	'16' => {
@@ -77,53 +77,53 @@ our $I18N = {
 	},
 
 	'reportTitleLabel' => {
-		message => q||,
-		lastUpdated => 
+		message => q|العنوان الدولي لتقرير لوحة الدخول والخروج<br />|,
+		lastUpdated => 1177445252
 	},
 
 	'inOutTemplateId' => {
-		message => q||,
-		lastUpdated => 
+		message => q|هوية النموذج المستخدم لعرض الشاشة الرئيسية للوحة الدخول والخروج.<br />|,
+		lastUpdated => 1177444836
 	},
 
 	'inOutGroup' => {
-		message => q||,
-		lastUpdated => 
+		message => q|هوية المجموعة المسموح لها باستخدام لوحة الدخول والخروج<br />|,
+		lastUpdated => 1177444687
 	},
 
 	'dateStamp' => {
-		message => q||,
-		lastUpdated => 
+		message => q|متغير يحدد التاريح الذي تم فيه اخر تحديث لحالة المستخدم |,
+		lastUpdated => 1177444137
 	},
 
 	'username.label' => {
-		message => q||,
-		lastUpdated => 
+		message => q|العلامة الدولية لعمود اسم المستخدم في التقرير<br />|,
+		lastUpdated => 1177445700
 	},
 
 	'In Out Template description' => {
-		message => q||,
-		lastUpdated => 
+		message => q|اختر نموذج لعرض لوحة الدخول والخروج للمستخدمين<br />|,
+		lastUpdated => 1177444211
 	},
 
 	'selectDelegatesLabel' => {
-		message => q||,
-		lastUpdated => 
+		message => q|العنوان الدولي للرابط لاختيار المندوبين<br />|,
+		lastUpdated => 1177445336
 	},
 
 	'HR' => {
-		message => q||,
-		lastUpdated => 
+		message => q|الموارد البشرية|,
+		lastUpdated => 1177443972
 	},
 
 	'IT' => {
-		message => q||,
-		lastUpdated => 
+		message => q|تكنواوجيا المعلومات<br />|,
+		lastUpdated => 1177443980
 	},
 
 	'username' => {
-		message => q||,
-		lastUpdated => 
+		message => q|متغير يعيد اسم المستخدم. اذا تم ملأ مجالات الاسم الاول والاخير في ملف المستخدم, سيتم اعادة هذا, مادون ذلك, سيتم اعادة اسم المستخدم في الويب جوي. i.e., &quot;John Doe&quot; vs &quot;Jdoe&quot;|,
+		lastUpdated => 1177445743
 	},
 
 	'20' => {
@@ -137,8 +137,8 @@ our $I18N = {
 	},
 
 	'paginateBar' => {
-		message => q||,
-		lastUpdated => 
+		message => q|متغير يعيد الاتش تي امن ال المطلوب لعمل Traditional Pagination Bar|,
+		lastUpdated => 1177444965
 	},
 
 	'11' => {
@@ -147,8 +147,8 @@ our $I18N = {
 	},
 
 	'select delegates label' => {
-		message => q||,
-		lastUpdated => 
+		message => q|اختر مندوبين<br />|,
+		lastUpdated => 1177445319
 	},
 
 	'16 description' => {
@@ -157,13 +157,13 @@ our $I18N = {
 	},
 
 	'6 description' => {
-		message => q||,
-		lastUpdated => 
+		message => q|من الممكن ان تدخل اسباب تغير الحالة هنا (ميعاد طبيب الخ)<br /> |,
+		lastUpdated => 1177443928
 	},
 
 	'report rows_loop' => {
-		message => q||,
-		lastUpdated => 
+		message => q|دورة تحتوي سطور البيانات لتقرير لوحة الدخول والخروج<br />|,
+		lastUpdated => 1177444998
 	},
 
 	'12 description' => {
@@ -172,8 +172,8 @@ our $I18N = {
 	},
 
 	'filter departments description' => {
-		message => q||,
-		lastUpdated => 
+		message => q|كل لوحة دخول وخروج من الممكن ان تضبط لخدمة اقسام متعددة. اعتياديا يتم اظهار كل الاقسام في التقرير. اختر اسم اي قسم لكي يتم تحديد العرض على هذا القسم. |,
+		lastUpdated => 1177444398
 	},
 
 	'12' => {
@@ -182,8 +182,8 @@ our $I18N = {
 	},
 
 	'viewReportLabel' => {
-		message => q||,
-		lastUpdated => 
+		message => q|العنوان الدولي لرابط الاطلاع على التقارير<br />|,
+		lastUpdated => 1177445723
 	},
 
 	'15' => {
@@ -192,43 +192,43 @@ our $I18N = {
 	},
 
 	'viewReportURL' => {
-		message => q||,
-		lastUpdated => 
+		message => q|الرابط الموصل الى صفحة عرض التقارير<br />|,
+		lastUpdated => 1177445737
 	},
 
 	'selectDelegatesURL' => {
-		message => q||,
-		lastUpdated => 
+		message => q|الرابط الذي يوصل الى نموذج حيث يمكن للمستخدمين اختيار مندوبين|,
+		lastUpdated => 1177445361
 	},
 
 	'delegate description' => {
-		message => q||,
-		lastUpdated => 
+		message => q|اختر اسم من القائمة لتعديل الحالة لاي شخص غيرك<br />|,
+		lastUpdated => 1177444168
 	},
 
 	'19' => {
-		message => q||,
-		lastUpdated => 1173721450
+		message => q|  <p dir="rtl" class="MsoNormal"><span>تستخدم لوحة الدخول والخروج لمتابعة اذا كان الاشخاص داخل أو خارج المكتب. تعرض اللوحة حالة الدخول و الخروج لكل مستخدمي ويب جوي وتقوم بتسجيل سبب رحيل المستخدم ووقت الخروج ووقت رجوعهم. يمكن الاطلاع على السجل بطريقتين. الاول هو تلخيص للحالة لكل المستخدمين في المجموعات المضبوطة على لوحة الدخول والخروج. الثانية هي تقرير كامل عن تاريخ لكل تغييرات الحالة لهؤلاء المستخدمين. هذا التقرير من الممكن ان يضبط على صلاحيات اطلاع معينة و ممكن تغيير نماذجه. </span></p>  <p dir="rtl" class="MsoNormal"><span>&nbsp;</span></p>  <p dir="rtl" class="MsoNormal"><span>المستخدمين في اللوحة من الممكن ان يختاروا مستخمين اخرين أو زملاء لتحديث حالتهم.</span></p>  |,
+		lastUpdated => 1177443857
 	},
 
 	'updatedBy label' => {
-		message => q||,
-		lastUpdated => 
+		message => q|تم تعديله بـ<br />|,
+		lastUpdated => 1177445501
 	},
 
 	'report title' => {
-		message => q||,
-		lastUpdated => 
+		message => q|تقرير لوحة الدخول والخروج<br />|,
+		lastUpdated => 1177445018
 	},
 
 	'createdBy' => {
-		message => q||,
-		lastUpdated => 
+		message => q|متغير يحدد اي مستخدم, كان المستخدم او زميل له, غير الحالة<br />|,
+		lastUpdated => 1177444086
 	},
 
 	'assetName' => {
-		message => q||,
-		lastUpdated => 
+		message => q|لوحة الدخول والخروج<br />|,
+		lastUpdated => 1177444034
 	},
 
 	'2' => {
@@ -242,23 +242,23 @@ our $I18N = {
 	},
 
 	'rows_loop' => {
-		message => q||,
-		lastUpdated => 
+		message => q|دورة تحتوي سطور البيانات في لوحة الدخول والخروج|,
+		lastUpdated => 1177445292
 	},
 
 	'deptHasChanged' => {
-		message => q||,
-		lastUpdated => 
+		message => q|علامة قيمة تحد ما اذا كان سطر البيانات هذا خاص بقسم غير السطور السابقة. |,
+		lastUpdated => 1177444300
 	},
 
 	'view report label' => {
-		message => q||,
-		lastUpdated => 
+		message => q|اعرض التقرير<br />|,
+		lastUpdated => 1177445708
 	},
 
 	'in/out status delegates subtext' => {
-		message => q||,
-		lastUpdated => 
+		message => q|من الممكن اختيار العديد من المستخدمين ليكونوا مندوبين. سيتمكن المندوبين من تعديل حالتك.<br />|,
+		lastUpdated => 1177444665
 	},
 
 	'1' => {
@@ -267,58 +267,58 @@ our $I18N = {
 	},
 
 	'message label' => {
-		message => q||,
-		lastUpdated => 
+		message => q|رسالة|,
+		lastUpdated => 1177444878
 	},
 
 	'In Out Template' => {
-		message => q||,
-		lastUpdated => 
+		message => q|نموذج دخول/خروج<br />|,
+		lastUpdated => 1177443990
 	},
 
 	'statusList' => {
-		message => q||,
-		lastUpdated => 
+		message => q|خيط بكل حالات اللوحة الممكنة مفصولة بسطور جديدة<br />|,
+		lastUpdated => 1177445491
 	},
 
 	'select delegate' => {
-		message => q||,
-		lastUpdated => 
+		message => q|لوحة الدخول والخروج, اختر مندوب|,
+		lastUpdated => 1177445307
 	},
 
 	'delegate' => {
-		message => q||,
-		lastUpdated => 
+		message => q|عدل الحالة لـ:<br />|,
+		lastUpdated => 1177444147
 	},
 
 	'report.form' => {
-		message => q||,
-		lastUpdated => 
+		message => q|متغير يحتوي نموذج اتش تي ام ال لتحديد النطاق, بالتاريخ او القسم, للتقرير.<br />|,
+		lastUpdated => 1177445154
 	},
 
 	'showReport' => {
-		message => q||,
-		lastUpdated => 
+		message => q|علامة تحدد ما اذا سيتم ضبط متغير <em>rows_loop</em>|,
+		lastUpdated => 1177445379
 	},
 
 	'filter departments' => {
-		message => q||,
-		lastUpdated => 
+		message => q|نقي الاقسام:|,
+		lastUpdated => 1177444332
 	},
 
 	'displayForm' => {
-		message => q||,
-		lastUpdated => 
+		message => q|علامة تحدد ما اذا سيتم ضبط متغير <em>form</em> |,
+		lastUpdated => 1177444320
 	},
 
 	'5 description' => {
-		message => q||,
-		lastUpdated => 
+		message => q|من الممكن ان تختار حالة واحدة من القائمة. اذا اردت ان تشرح سبب الحالة, استخدم مجال &quot;ماذا يحدث&quot;<br />|,
+		lastUpdated => 1177443892
 	},
 
 	'Regular Staff' => {
-		message => q||,
-		lastUpdated => 
+		message => q|موظف عادي<br />|,
+		lastUpdated => 1177444017
 	},
 
 	'14' => {
@@ -327,18 +327,18 @@ our $I18N = {
 	},
 
 	'inOutGroup description' => {
-		message => q||,
-		lastUpdated => 
+		message => q|اي مجموعة مسموح لهم باستخدام لوحة الدخول والخروج لتغيير حالتهم؟ |,
+		lastUpdated => 1177444810
 	},
 
 	'myself' => {
-		message => q||,
-		lastUpdated => 
+		message => q|انا|,
+		lastUpdated => 1177444904
 	},
 
 	'date.label' => {
-		message => q||,
-		lastUpdated => 
+		message => q|العلامة الدولية لعمود التاريخ في التقرير<br />|,
+		lastUpdated => 1177444113
 	},
 
 	'3 description' => {
@@ -347,18 +347,18 @@ our $I18N = {
 	},
 
 	'username label' => {
-		message => q||,
-		lastUpdated => 
+		message => q|اسم المستخدم<br />|,
+		lastUpdated => 1177445682
 	},
 
 	'canViewReport' => {
-		message => q||,
-		lastUpdated => 
+		message => q|علامة تحدد ما اذا سيتم ضبط متغير <em>viewReportURL</em> |,
+		lastUpdated => 1177444055
 	},
 
 	'status' => {
-		message => q||,
-		lastUpdated => 
+		message => q|متغير يعيد حالة المستخدم. تعرف حالة المستخدم بثائمة الحالة في خواص الوبجيكت. اذا لم يتم ضبط حالة للمستخدم الحالي سيتم اعادة &#39;Never Checked In&#39; |,
+		lastUpdated => 1177445445
 	},
 
 	'22' => {
@@ -377,18 +377,18 @@ our $I18N = {
 	},
 
 	'date label' => {
-		message => q||,
-		lastUpdated => 
+		message => q|التاريخ|,
+		lastUpdated => 1177444096
 	},
 
 	'status.label' => {
-		message => q||,
-		lastUpdated => 
+		message => q|العلامة الدولية لعمود الحالة في التقرير &quot;Status&quot;|,
+		lastUpdated => 1177445464
 	},
 
 	'in/out status delegates description' => {
-		message => q||,
-		lastUpdated => 
+		message => q|استخدم هذا النموذج لاختيار الاخرين لتغير حالتك على اللوحة. سيتم اختيار كل المستخمين الذين اخترتهم بالفعل. لالغاء مستخدم, الغي الاختيار الخاص به.<br />|,
+		lastUpdated => 1177444634
 	},
 
 	'14 description' => {
@@ -397,18 +397,18 @@ our $I18N = {
 	},
 
 	'6' => {
-		message => q||,
-		lastUpdated => 
+		message => q|ماذا يحدث؟<br />|,
+		lastUpdated => 1177443901
 	},
 
 	'in/out status delegates' => {
-		message => q||,
-		lastUpdated => 
+		message => q|مندوبي حالة الدخول والخروج<br />|,
+		lastUpdated => 1177444553
 	},
 
 	'reportViewerGroup' => {
-		message => q||,
-		lastUpdated => 
+		message => q|هوية المجموعة المسموح لها بالاطلاع على التقارير<br />|,
+		lastUpdated => 1177445272
 	},
 
 	'3' => {
@@ -417,23 +417,23 @@ our $I18N = {
 	},
 
 	'in out board asset template variables body' => {
-		message => q||,
-		lastUpdated => 
+		message => q|كل اصل يوفر مجموعة من المتغيرات لاغلب النماذج بناء على الخواص الداخلية للاصل. بعض هذه المتغيرات ممكن ان يكون مفيدا والبعض الاخر قد لا يكون.<br />|,
+		lastUpdated => 1177444484
 	},
 
 	'updatedBy.label' => {
-		message => q||,
-		lastUpdated => 
+		message => q|العلامة الدولية لعمود &quot;Updated By&quot; في التقرير<br />|,
+		lastUpdated => 1177445526
 	},
 
 	'message' => {
-		message => q||,
-		lastUpdated => 
+		message => q|متغير يعيد ادخالات المستخدجم في مجال &quot;What&#39;s going on?&quot; في حين تغيير الحالة<br />|,
+		lastUpdated => 1177444872
 	},
 
 	'8' => {
-		message => q||,
-		lastUpdated => 
+		message => q|تقرير سجل االحلة<br />|,
+		lastUpdated => 1177443954
 	},
 
 	'4' => {

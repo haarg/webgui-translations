@@ -16,16 +16,6 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'project manager asset template variables body' => {
-		message => q|Jedes Asset bietet ihren Templates einen Satz an Variablen, die auf den Asset Eigenschaften basieren. Einige dieser Variablen k&ouml;nnen n&uuml;tzlich sein, andere nicht.|,
-		lastUpdated => 1170408703
-	},
-
-	'pm add/edit title' => {
-		message => q||,
-		lastUpdated => 
-	},
-
 	'user add popup hover' => {
 		message => q||,
 		lastUpdated => 
@@ -56,11 +46,6 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'gantt chart template vars body' => {
-		message => q||,
-		lastUpdated => 
-	},
-
 	'project.startDate.label' => {
 		message => q||,
 		lastUpdated => 
@@ -82,6 +67,11 @@ our $I18N = {
 	},
 
 	'notFoundMessage' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'task predecessor edit label' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -111,22 +101,12 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'pm add/edit body' => {
-		message => q||,
-		lastUpdated => 
-	},
-
 	'title' => {
 		message => q||,
 		lastUpdated => 
 	},
 
 	'project.edit.url' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'project edit body' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -596,11 +576,6 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'project dashboard template body' => {
-		message => q||,
-		lastUpdated => 
-	},
-
 	'project.actions.label' => {
 		message => q||,
 		lastUpdated => 
@@ -821,11 +796,6 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'edit task template vars body' => {
-		message => q||,
-		lastUpdated => 
-	},
-
 	'project.cost.data.float' => {
 		message => q||,
 		lastUpdated => 
@@ -936,11 +906,6 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'view project template vars body' => {
-		message => q||,
-		lastUpdated => 
-	},
-
 	'task.start.label' => {
 		message => q||,
 		lastUpdated => 
@@ -957,8 +922,8 @@ our $I18N = {
 	},
 
 	'N_A' => {
-		message => q||,
-		lastUpdated => 
+		message => q|N/A|,
+		lastUpdated => 1192797998
 	},
 
 	'form.previousPredecessor.error' => {

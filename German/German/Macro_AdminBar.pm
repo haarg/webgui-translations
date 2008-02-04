@@ -2,8 +2,23 @@ package WebGUI::i18n::German::Macro_AdminBar;
 
 our $I18N = {
 	'icon' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Die URL eines Icons, das mit diesem Element assoziiert ist.|,
+		lastUpdated => 1178783587
+	},
+
+	'macroName' => {
+		message => q|AdminBar|,
+		lastUpdated => 1178783664
+	},
+
+	'name' => {
+		message => q|Ein Javascript freundlicher Name f&uuml;r diese Kategorie.|,
+		lastUpdated => 1178783688
+	},
+
+	'12' => {
+		message => q|Admin aus!|,
+		lastUpdated => 1178783433
 	},
 
 	'1082' => {
@@ -12,8 +27,8 @@ our $I18N = {
 	},
 
 	'admin bar title' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Admin Bar Makro Template Variable|,
+		lastUpdated => 1192967158
 	},
 
 	'376' => {
@@ -22,63 +37,43 @@ our $I18N = {
 	},
 
 	'399' => {
-		message => q|Diese Seite validieren<br />|,
-		lastUpdated => 1164154707
-	},
-
-	'url' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'1083' => {
-		message => q|Neuer Inhalt<br />|,
-		lastUpdated => 1164154662
-	},
-
-	'name' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'admin bar body' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'macroName' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'12' => {
-		message => q|Admin aus!<br />|,
-		lastUpdated => 1164154683
+		message => q|Diese Seite validieren.|,
+		lastUpdated => 1178783446
 	},
 
 	'adminbar_loop' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Ein Schleife, die verschieden Datenlisten zur Anzeige enth&auml;lt.|,
+		lastUpdated => 1178783479
 	},
 
-	'title' => {
-		message => q||,
-		lastUpdated => 
+	'url' => {
+		message => q|Die Link URL dieses Elements.|,
+		lastUpdated => 1178783718
 	},
 
 	'label' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Titel-Label f&uuml;r diese Kategorie.|,
+		lastUpdated => 1178783659
 	},
 
-	'items' => {
-		message => q||,
-		lastUpdated => 
+	'title' => {
+		message => q|Der anzeigbare Link Titel dieses Elements.|,
+		lastUpdated => 1178783706
+	},
+
+	'1083' => {
+		message => q|Neuer Inhalt|,
+		lastUpdated => 1178783428
 	},
 
 	'commit my changes' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Meine &Auml;nderungen &uuml;bernehmen (commit)|,
+		lastUpdated => 1178783562
+	},
+
+	'items' => {
+		message => q|Eine Schleife, die eine Liste von Elementen enth&auml;lt, die dieser Kategorie angeh&ouml;ren.|,
+		lastUpdated => 1178783622
 	},
 
 };

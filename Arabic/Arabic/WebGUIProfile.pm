@@ -27,8 +27,8 @@ our $I18N = {
 	},
 
 	'489' => {
-		message => q||,
-		lastUpdated => 
+		message => q|تصنيف الملف<br />|,
+		lastUpdated => 1177177645
 	},
 
 	'requiredForPasswordRecovery label' => {
@@ -47,8 +47,8 @@ our $I18N = {
 	},
 
 	'488 description' => {
-		message => q||,
-		lastUpdated => 
+		message => q|  <p dir="rtl" class="MsoNormal"><span>هذه المساحة يجب ان تستخدم فقط اذا استخدمت مساحة القيم الممكنه اعلاه و التي تقول انك يجب ان تستخدم هذه القيم فقط مع: </span></p>  <p dir="rtl" class="MsoNormal"><span>&nbsp;</span></p>  <p dir="rtl" class="MsoNormal"><span>Checkbox List<br /> Combo Box<br /> Hidden List<br /> Radio List<br /> Select Box<br /> Select List<br /> <!--[if !supportLineBreakNewLine]--><br /> <!--[endif]--></span><span></span></p>  <p dir="rtl" class="MsoNormal"><span>لا</span><span> </span><span>يجب ان تستخدم اي من مجالات الملف الاخرى نفس القيمة والا سيتم تجاهلها</span><span>.</span><span> اذا قمت بادخال القيم الاعتيادية, يجب ان يقوموا بالاشارة مباشرة الى الى واحدة او اكثر من مفاتيح القيم الممكنة كما يلي: </span></p>  <p dir="rtl" class="MsoNormal"><span>&nbsp;</span></p>  <p dir="rtl" class="MsoNormal"><span style="font-size: 10pt; font-family: &quot;Courier New&quot;">[&quot;key1&quot;,&quot;key2&quot;,...]</span><span style="font-size: 10pt; font-family: &quot;Courier New&quot;"></span></p>  <p dir="rtl" class="MsoNormal"><span><br /> Brackets, quotes and all.<br /> <!--[if !supportLineBreakNewLine]--><br /> <!--[endif]--></span><span></span></p>  <p dir="rtl" class="MsoNormal"><span>&nbsp;</span></p>  <p dir="rtl" class="MsoNormal"><span>اذا كنت تريد صبط القيمة الاتيادية لاي مجال اخر. قم بعمل المجال من دون ضبط هذه المساحة, ثم اذهب الى ملف الزائر و احفظ القيمة التي تريد عرضها اعتياديا في اي مجال مكون مجددا. هذا سينتهي بالنتيجة المرجوة ان تجد المجال الاعتيادي مضبوط في اي وقت تقوم بعمل مستخدم جديد.</span></p>  |,
+		lastUpdated => 1177177637
 	},
 
 	'486 description' => {
@@ -62,8 +62,8 @@ our $I18N = {
 	},
 
 	'637' => {
-		message => q||,
-		lastUpdated => 
+		message => q|  <p dir="&quot;rtl&quot;" class="&quot;MsoNormal&quot;"><span>الاسم الاول</span></p>  <p dir="&quot;rtl&quot;" class="&quot;MsoNormal&quot;"><span>اسم المستخدم</span></p>  <p dir="&quot;rtl&quot;" class="&quot;MsoNormal&quot;"><span>&nbsp;</span></p>  <p dir="&quot;rtl&quot;" class="&quot;MsoNormal&quot;"><span>الاسم الوسط</span></p>  <p dir="&quot;rtl&quot;" class="&quot;MsoNormal&quot;"><span>الاسم الوسط للمستخدم</span></p>  <p dir="&quot;rtl&quot;" class="&quot;MsoNormal&quot;"><span>&nbsp;</span></p>  <p dir="&quot;rtl&quot;" class="&quot;MsoNormal&quot;"><span>الاسم الاخير</span></p>  <p dir="&quot;rtl&quot;" class="&quot;MsoNormal&quot;"><span>الاسم الاخير أو اسم العائلة للمستخدم</span></p>  <p dir="&quot;rtl&quot;" class="&quot;MsoNormal&quot;"><span>&nbsp;</span></p>  <p dir="&quot;rtl&quot;" class="&quot;MsoNormal&quot;"><span>البريد الالكتروني</span></p>  <p dir="&quot;rtl&quot;" class="&quot;MsoNormal&quot;"><span>عنوان البري الالكتروني للمستخدم. يجب ان يتم تحديد هذا اذا سيشترك المستخدم في عمليات تتطلب البريد الالكتروني</span></p>  <p dir="&quot;rtl&quot;" class="&quot;MsoNormal&quot;"><span>&nbsp;</span></p>  <p dir="&quot;rtl&quot;" class="&quot;MsoNormal&quot;"><strong><span>ICQ UIN</span></strong></p>  <p dir="&quot;rtl&quot;" class="&quot;MsoNormal&quot;"><span>رقم هوية المستخدم على شبكة ال</span><span>ICQ</span><span>. </span><span>ICQ</span><span> هي شبكة تراسل فوري معروفة جدا.</span></p>  <p dir="&quot;rtl&quot;" class="&quot;MsoNormal&quot;"><span>&nbsp;</span></p>  <p dir="&quot;rtl&quot;" class="&quot;MsoNormal&quot;"><strong><span>AIM Id</span></strong></p>  <p dir="&quot;rtl&quot;" class="&quot;MsoNormal&quot;"><span>هوية الحساب على نظام </span><a href="%22http://www.aim.com/%22"><span>AOL Instant Messenger</span></a></p>  <p dir="&quot;rtl&quot;" class="&quot;MsoNormal&quot;"><span>&nbsp;</span></p>  <p dir="&quot;rtl&quot;" class="&quot;MsoNormal&quot;"><span>هوية </span><span>MSN messenger</span></p>  <p dir="&quot;rtl&quot;" class="&quot;MsoNormal&quot;"><span>هوية الحساب على </span><span>MSN Messenger</span></p>  <p dir="&quot;rtl&quot;" class="&quot;MsoNormal&quot;"><span>&nbsp;</span></p>  <p dir="&quot;rtl&quot;" class="&quot;MsoNormal&quot;"><span>هوية </span><span>Yahoo Messenger</span></p>  <p dir="&quot;rtl&quot;" class="&quot;MsoNormal&quot;"><span>هوية الحساب على </span><span>Yahoo Messenger</span></p>  <p dir="&quot;rtl&quot;" class="&quot;MsoNormal&quot;"><span>&nbsp;</span></p>  <p dir="&quot;rtl&quot;" class="&quot;MsoNormal&quot;"><span>الهاتف المحمول</span></p>  <p dir="&quot;rtl&quot;" class="&quot;MsoNormal&quot;"><span>رقم الهاتف النقال للمستخدم</span></p>  <p dir="&quot;rtl&quot;" class="&quot;MsoNormal&quot;"><span>&nbsp;</span></p>  <p dir="&quot;rtl&quot;" class="&quot;MsoNormal&quot;"><span>البيجر</span></p>  <p dir="&quot;rtl&quot;" class="&quot;MsoNormal&quot;"><span>رقم البيجر للمستخدم</span></p>  <p dir="&quot;rtl&quot;" class="&quot;MsoNormal&quot;"><span>&nbsp;</span></p>  <p dir="&quot;rtl&quot;" class="&quot;MsoNormal&quot;"><span>البريد الالكتروني لبوابة البيجر</span></p>  <p dir="&quot;rtl&quot;" class="&quot;MsoNormal&quot;"><span>بريد المستخدم الالكتروني للبيجر</span></p>  <p dir="&quot;rtl&quot;" class="&quot;MsoNormal&quot;"><span>&nbsp;</span></p>  <p dir="&quot;rtl&quot;" class="&quot;MsoNormal&quot;"><span>معلومات المنزل</span></p>  <p dir="&quot;rtl&quot;" class="&quot;MsoNormal&quot;"><span>عنوان البريد أو الشارع لمنزل المستخدم</span></p>  <p dir="&quot;rtl&quot;" class="&quot;MsoNormal&quot;"><span>&nbsp;</span></p>  <p dir="&quot;rtl&quot;" class="&quot;MsoNormal&quot;"><span>معلومات العمل</span></p>  <p dir="&quot;rtl&quot;" class="&quot;MsoNormal&quot;"><span>عنوان البريد أو الشارع لشركة المستخدم</span></p>  <p dir="&quot;rtl&quot;" class="&quot;MsoNormal&quot;"><span>&nbsp;</span></p>  <p dir="&quot;rtl&quot;" class="&quot;MsoNormal&quot;"><span>النوع</span></p>  <p dir="&quot;rtl&quot;" class="&quot;MsoNormal&quot;"><span>نوع المستخدم</span></p>  <p dir="&quot;rtl&quot;" class="&quot;MsoNormal&quot;"><span>&nbsp;</span></p>  <p dir="&quot;rtl&quot;" class="&quot;MsoNormal&quot;"><span>تاريخ الميلاد</span></p>  <p dir="&quot;rtl&quot;" class="&quot;MsoNormal&quot;"><span>تاريخ ميلاد المستخدم</span></p>  <p dir="&quot;rtl&quot;" class="&quot;MsoNormal&quot;"><span>&nbsp;</span></p>  <p dir="&quot;rtl&quot;" class="&quot;MsoNormal&quot;"><span>اللغة</span></p>  <p dir="&quot;rtl&quot;" class="&quot;MsoNormal&quot;"><span>الغة التي ستستخدم لاظهار الرسائل المتعلقة بالنظام</span></p>  <p dir="&quot;rtl&quot;" class="&quot;MsoNormal&quot;"><span>&nbsp;</span></p>  <p dir="&quot;rtl&quot;" class="&quot;MsoNormal&quot;"><strong><span>Time Offset</span></strong></p>  <p dir="&quot;rtl&quot;" class="&quot;MsoNormal&quot;"><span>عدد من الساعات (زائد أو ناقص) يحدد اختلاف وقت المستخدم عن الخادم. يستخدم هذا لضبط المناطق الزمنية.</span></p>  <p dir="&quot;rtl&quot;" class="&quot;MsoNormal&quot;"><span>&nbsp;</span></p>  <p dir="&quot;rtl&quot;" class="&quot;MsoNormal&quot;"><span>اليوم الاول من الاسبوع</span></p>  <p dir="&quot;rtl&quot;" class="&quot;MsoNormal&quot;"><span>اليوم الاول من الاسبوع في الاجندة المحلية للمستخدم. مثلا, في الولايات المتحدة اليوم الاول من الاسبوع هو الاحد ولكن في العديد من الاماكن في اوروبا اليوم الاول من الاسبوع هو الاثنين. </span></p>  <p dir="&quot;rtl&quot;" class="&quot;MsoNormal&quot;"><span>&nbsp;</span></p>  <p dir="&quot;rtl&quot;" class="&quot;MsoNormal&quot;"><span>شكل التاريخ</span></p>  <p dir="&quot;rtl&quot;" class="&quot;MsoNormal&quot;"><span>في أي شكل يجب ان يظهر التاريخ على الموقع؟</span></p>  <p dir="&quot;rtl&quot;" class="&quot;MsoNormal&quot;"><span>&nbsp;</span></p>  <p dir="&quot;rtl&quot;" class="&quot;MsoNormal&quot;"><span>شكل الوقت</span></p>  <p dir="&quot;rtl&quot;" class="&quot;MsoNormal&quot;"><span>في أي شكل يجب ان يظهر الوقت على الموقع؟</span></p>  <p dir="&quot;rtl&quot;" class="&quot;MsoNormal&quot;"><span>&nbsp;</span></p>  <p dir="&quot;rtl&quot;" class="&quot;MsoNormal&quot;"><span>الشكل الخارجي للمناقشة</span></p>  <p dir="&quot;rtl&quot;" class="&quot;MsoNormal&quot;"><span>هل يجب ان يكون الشكل الخارجي للمناقشات مسطح ام بخيوط؟ المسطح يضع الردود في صفحة واحدة بالترتيب الذي تم عملهم به. بخيوط يظهر النظام الترتيبي للردود بمجرد ان يتم عملهم.</span></p>  <p dir="&quot;rtl&quot;" class="&quot;MsoNormal&quot;"><span>&nbsp;</span></p>  <p dir="&quot;rtl&quot;" class="&quot;MsoNormal&quot;"><span>اخطارات صندوق الوارد</span></p>  <p dir="&quot;rtl&quot;" class="&quot;MsoNormal&quot;"><span>كيف يتم اخطار المستخدم عندما يتلقى رسالة ويب جوي جديدة</span></p>  <p dir="&quot;rtl&quot;" class="&quot;MsoNormal&quot;"><span>&nbsp;</span></p>  |,
+		lastUpdated => 1178374855
 	},
 
 	'788' => {
@@ -117,8 +117,8 @@ our $I18N = {
 	},
 
 	'489 description' => {
-		message => q||,
-		lastUpdated => 
+		message => q|اختر تصنيف لتضع المجال تحته|,
+		lastUpdated => 1177177960
 	},
 
 	'user profile category add/edit title' => {
@@ -132,8 +132,8 @@ our $I18N = {
 	},
 
 	'627' => {
-		message => q||,
-		lastUpdated => 
+		message => q|  <p dir="&quot;rtl&quot;" class="&quot;MsoNormal&quot;"><span>الملفات تستخدم لتوسيع المعلومات عن مستخدم محدد. في بعض الحالات تكون الملفات مهمة في موقعك, و في حالات اخرى قد لا تكون. نظام الملفات قابل للتوسيع كليا. من الممكن ان تضيف اي كم من المعلومات تريده الى ملفات مستخدميك.</span></p>  <p dir="&quot;rtl&quot;" class="&quot;MsoNormal&quot;"><span>&nbsp;</span></p>  <p dir="&quot;rtl&quot;" class="&quot;MsoNormal&quot;"><span>اذا اردت ان تغير الضبط الاعتيادي للمستخدمين الجدد على موقعك, عدل ملف المستخدم للمستخدم الزائر.</span></p>  |,
+		lastUpdated => 1177178177
 	},
 
 	'897 description' => {
@@ -187,8 +187,8 @@ our $I18N = {
 	},
 
 	'487 description' => {
-		message => q||,
-		lastUpdated => 
+		message => q|  <p dir="rtl" class="MsoNormal"><span>هذه المساحة يجب ان تستخدم فقط في المجالات الاتية: </span></p>  <p dir="rtl" class="MsoNormal"><span>&nbsp;</span></p>  <p dir="rtl" class="MsoNormal"><span>Checkbox List<br /> Combo Box<br /> Hidden List<br /> Radio List<br /> Select Box<br /> Select List<br /> <!--[if !supportLineBreakNewLine]--><br /> <!--[endif]--></span><span></span></p>  <p dir="rtl" class="MsoNormal"><span>لا يجب ان تستخدم اي من مجالات الملف الاخرى نفس القيمة والا سيتم تجاهلها.</span></p>  <p dir="rtl" class="MsoNormal"><span>اذا ادخلت قائمة قيم ممكنة, يجب تشكيلها كما يلي:</span></p>  <p dir="rtl" class="MsoNormal"><span>&nbsp;</span></p>  <p style="text-align: left; direction: ltr; unicode-bidi: embed" class="MsoNormal"><span style="font-size: 10pt; font-family: &quot;Courier New&quot;">{</span></p>  <p style="text-align: left; direction: ltr; unicode-bidi: embed" class="MsoNormal"><span style="font-size: 10pt; font-family: &quot;Courier New&quot;"><span>&nbsp;&nbsp; </span>&quot;key1&quot;=&gt;&quot;value1&quot;,</span></p>  <p style="text-align: left; direction: ltr; unicode-bidi: embed" class="MsoNormal"><span style="font-size: 10pt; font-family: &quot;Courier New&quot;"><span>&nbsp;&nbsp; </span>&quot;key2&quot;=&gt;&quot;value2&quot;,</span></p>  <p style="text-align: left; direction: ltr; unicode-bidi: embed" class="MsoNormal"><span style="font-size: 10pt; font-family: &quot;Courier New&quot;"><span>&nbsp;&nbsp; </span>&quot;key3&quot;=&gt;&quot;value3&quot;</span></p>  <p style="text-align: left; direction: ltr; unicode-bidi: embed" class="MsoNormal"><span style="font-size: 10pt; font-family: &quot;Courier New&quot;"><span>&nbsp;</span><span>&nbsp; </span>...</span></p>  <p style="text-align: left; direction: ltr; unicode-bidi: embed" class="MsoNormal"><span style="font-size: 10pt; font-family: &quot;Courier New&quot;">}</span></p>  <p dir="rtl" class="MsoNormal"><span>&nbsp;</span></p>  <p dir="rtl" class="MsoNormal"><span>كل العلامات (&quot; </span><span>}</span><span>). ببساطة استبدل </span><span>&quot;key1&quot;/&quot;value1&quot;</span><span> بازواج </span><span>name/value</span><span> الخاصة بك.</span></p>  |,
+		lastUpdated => 1177177339
 	},
 
 	'672' => {

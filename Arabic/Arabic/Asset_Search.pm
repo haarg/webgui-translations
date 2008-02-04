@@ -31,14 +31,19 @@ our $I18N = {
 		lastUpdated => 1168962795
 	},
 
-	'add/edit body' => {
-		message => q|اصل البحث يستخدم للبحث في المادة الخاصة بالويب جوي. بالاضافة الى الخواص الموجودة ادناه, اصول البحث ايضا تحتوي على خواص الوبجيكتس&nbsp; الاصول الاخرى<br />|,
-		lastUpdated => 1168963246
-	},
-
 	'synopsis' => {
 		message => q|الاختصارات عن الاصل التي وجدت في البحث<br />|,
 		lastUpdated => 1172758483
+	},
+
+	'no_results' => {
+		message => q|علامة دولية تخبر المستخدم انه لم توجد اي نتائج|,
+		lastUpdated => 1201005922
+	},
+
+	'assetId' => {
+		message => q|هوية الاصل الخاصة بالاصل الذي يوجد في كل بحث|,
+		lastUpdated => 1201005886
 	},
 
 	'url' => {
@@ -49,11 +54,6 @@ our $I18N = {
 	'searchRoot' => {
 		message => q|هوية الاصل الذي سيبدأ فيه الاصل<br />|,
 		lastUpdated => 1172758219
-	},
-
-	'search template body' => {
-		message => q|متغيرات النموذج التية متوفرة لنماذج اصول البحث. كل هذه المتغيرات مفروضة<br />|,
-		lastUpdated => 1168963213
 	},
 
 	'form_submit' => {
@@ -71,6 +71,11 @@ our $I18N = {
 		lastUpdated => 1168963115
 	},
 
+	'useContainers help' => {
+		message => q|اذبط هذا على نعم اذا اردت ان ترجع نتائج البحث في شكل صفحات كاملة بدلا من اصول فردية|,
+		lastUpdated => 1201200968
+	},
+
 	'templateId' => {
 		message => q|هوية النموذج المستخدم لاظهار اصل البحث<br />|,
 		lastUpdated => 1172758523
@@ -86,19 +91,19 @@ our $I18N = {
 		lastUpdated => 1168963004
 	},
 
+	'useContainers' => {
+		message => q|استخدم الروابط الحاوية في النتائج؟|,
+		lastUpdated => 1201200821
+	},
+
 	'search root description' => {
 		message => q|الاصل الذي اخترته و كل الاصول التي تليه سوف يتم بحثها<br />|,
 		lastUpdated => 1168963161
 	},
 
-	'add/edit title' => {
-		message => q|اضف/عدل بحث<br />|,
-		lastUpdated => 1168962788
-	},
-
-	'search asset template variables body' => {
-		message => q|كل من الاصول يوفر مجموعة من المتغيرات لاغلب النماذج بناء على الخواص الداخلية للاصل. بعض هذه المتغيرات من الممكن ان يكون مفيد جدا, الاخرى لا تكون مفيدة<br />|,
-		lastUpdated => 1172758187
+	'results_found' => {
+		message => q|متغير شرطي سيتحقق اذا تم ايجاد اي نتائج|,
+		lastUpdated => 1201005948
 	},
 
 	'form_header' => {
@@ -114,6 +119,11 @@ our $I18N = {
 	'search template description' => {
 		message => q|نموذج لاظهار نموذج البحث و النتائج<br />|,
 		lastUpdated => 1168963237
+	},
+
+	'no results' => {
+		message => q|لم توجد اي نتائج|,
+		lastUpdated => 1201005899
 	},
 
 	'title' => {

@@ -1,11 +1,6 @@
 package WebGUI::i18n::German::Asset_Matrix;
 
 our $I18N = {
-	'listing add/edit help body' => {
-		message => q||,
-		lastUpdated => 
-	},
-
 	'clicks' => {
 		message => q||,
 		lastUpdated => 
@@ -56,11 +51,6 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'matrix template help body' => {
-		message => q||,
-		lastUpdated => 
-	},
-
 	'main template description' => {
 		message => q||,
 		lastUpdated => 
@@ -81,11 +71,6 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'ratings detail template help body' => {
-		message => q||,
-		lastUpdated => 
-	},
-
 	'form.header' => {
 		message => q||,
 		lastUpdated => 
@@ -97,8 +82,8 @@ our $I18N = {
 	},
 
 	'name' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Produktname|,
+		lastUpdated => 1192797209
 	},
 
 	'edit listing' => {
@@ -112,11 +97,6 @@ our $I18N = {
 	},
 
 	'ratings' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'search template help body' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -147,11 +127,6 @@ our $I18N = {
 	},
 
 	'rating_loop' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'field add/edit help title' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -226,11 +201,6 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'comparison template help body' => {
-		message => q||,
-		lastUpdated => 
-	},
-
 	'visitor cache timeout help' => {
 		message => q||,
 		lastUpdated => 
@@ -277,8 +247,8 @@ our $I18N = {
 	},
 
 	'no' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Nein|,
+		lastUpdated => 1192797177
 	},
 
 	'privileged group description' => {
@@ -307,8 +277,8 @@ our $I18N = {
 	},
 
 	'value' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Wert des Feldes|,
+		lastUpdated => 1192797371
 	},
 
 	'general comment' => {
@@ -482,8 +452,8 @@ our $I18N = {
 	},
 
 	'your email' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Emailadresse|,
+		lastUpdated => 1192797322
 	},
 
 	'tmplVar pending.productName' => {
@@ -497,13 +467,13 @@ our $I18N = {
 	},
 
 	'yes' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Ja|,
+		lastUpdated => 1192797163
 	},
 
 	'text area' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Textbereich|,
+		lastUpdated => 1192797270
 	},
 
 	'category description' => {
@@ -536,11 +506,6 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'detail template help body' => {
-		message => q||,
-		lastUpdated => 
-	},
-
 	'lastupdated_loop' => {
 		message => q||,
 		lastUpdated => 
@@ -557,8 +522,8 @@ our $I18N = {
 	},
 
 	'url' => {
-		message => q||,
-		lastUpdated => 
+		message => q|URL|,
+		lastUpdated => 1192797234
 	},
 
 	'best.views.name' => {
@@ -667,16 +632,16 @@ our $I18N = {
 	},
 
 	'text' => {
+		message => q|Text|,
+		lastUpdated => 1192797250
+	},
+
+	'max comparisons privileged description' => {
 		message => q||,
 		lastUpdated => 
 	},
 
 	'detail template description' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'max comparisons privileged description' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -697,11 +662,6 @@ our $I18N = {
 	},
 
 	'category listing description' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'field add/edit help body' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -731,17 +691,17 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'rating group description' => {
-		message => q||,
-		lastUpdated => 
-	},
-
 	'row_loop' => {
 		message => q||,
 		lastUpdated => 
 	},
 
 	'tmplVar best.url' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'rating group description' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -792,11 +752,6 @@ our $I18N = {
 	},
 
 	'ratings detail template help title' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'add/edit help body' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -921,11 +876,6 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'listing add/edit help title' => {
-		message => q||,
-		lastUpdated => 
-	},
-
 	'tmplVar best.name' => {
 		message => q||,
 		lastUpdated => 
@@ -996,19 +946,14 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'add/edit help title' => {
-		message => q||,
-		lastUpdated => 
-	},
-
 	'tmplVar best.category' => {
 		message => q||,
 		lastUpdated => 
 	},
 
 	'comment' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Kommentar|,
+		lastUpdated => 1192797072
 	},
 
 	'lastUpdated.date' => {

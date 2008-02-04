@@ -2,13 +2,13 @@ package WebGUI::i18n::Spanish::Icon;
 
 our $I18N = {
 	'Move Up' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Mover arriba|,
+		lastUpdated => 1199915732
 	},
 
 	'Move Left' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Mover a la izquierda|,
+		lastUpdated => 1199915798
 	},
 
 	'Export help' => {
@@ -57,8 +57,8 @@ our $I18N = {
 	},
 
 	'Delete' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Borrar|,
+		lastUpdated => 1178294757
 	},
 
 	'Edit help' => {
@@ -82,8 +82,8 @@ our $I18N = {
 	},
 
 	'Edit' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Editar|,
+		lastUpdated => 1199915634
 	},
 
 	'Manage' => {
@@ -102,13 +102,13 @@ our $I18N = {
 	},
 
 	'Move Down' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Mover abajo|,
+		lastUpdated => 1199915778
 	},
 
 	'Move Right' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Mover a la derecha|,
+		lastUpdated => 1199915808
 	},
 
 	'Copy help' => {
@@ -122,8 +122,8 @@ our $I18N = {
 	},
 
 	'Export' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Exportar|,
+		lastUpdated => 1199915645
 	},
 
 };

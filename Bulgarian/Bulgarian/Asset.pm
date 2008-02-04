@@ -31,9 +31,19 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'871 description' => {
+	'newWindow' => {
 		message => q||,
 		lastUpdated => 
+	},
+
+	'keywords' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'871 description' => {
+		message => q|Изберете група, която може да редактира този компонент (asset). Групата с присвоени права за редактиране може също да вижда компонента (asset). Тове ще се прехвърли по подразбиране на групата, която може да редактира родителите на този компонент (asset).|,
+		lastUpdated => 1194728615
 	},
 
 	'add the missing page' => {
@@ -42,6 +52,11 @@ our $I18N = {
 	},
 
 	'view' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'isHidden' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -71,11 +86,6 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'asset list body' => {
-		message => q||,
-		lastUpdated => 
-	},
-
 	'872' => {
 		message => q||,
 		lastUpdated => 
@@ -101,14 +111,19 @@ our $I18N = {
 		lastUpdated => 
 	},
 
+	'title' => {
+		message => q||,
+		lastUpdated => 
+	},
+
 	'revised by' => {
 		message => q||,
 		lastUpdated => 
 	},
 
 	'11' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Изчистване на кошчето.|,
+		lastUpdated => 1194728050
 	},
 
 	'could not open path' => {
@@ -126,6 +141,11 @@ our $I18N = {
 		lastUpdated => 
 	},
 
+	'default value' => {
+		message => q||,
+		lastUpdated => 
+	},
+
 	'Depth' => {
 		message => q||,
 		lastUpdated => 
@@ -137,8 +157,8 @@ our $I18N = {
 	},
 
 	'412 description' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Кратоко описание на този компонент (asset).|,
+		lastUpdated => 1194728273
 	},
 
 	'Export Page' => {
@@ -152,6 +172,11 @@ our $I18N = {
 	},
 
 	'locked' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'with children' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -192,13 +217,8 @@ our $I18N = {
 	},
 
 	'1079' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'edit branch body' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Стил за печатане|,
+		lastUpdated => 1194727626
 	},
 
 	'edit branch url help' => {
@@ -231,7 +251,12 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'asset template body' => {
+	'synopsis' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'extraHeadTags' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -241,9 +266,14 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'1083' => {
+	'isPrototype' => {
 		message => q||,
 		lastUpdated => 
+	},
+
+	'1083' => {
+		message => q|Ново съдържание|,
+		lastUpdated => 1194727996
 	},
 
 	'Field Id' => {
@@ -316,6 +346,11 @@ our $I18N = {
 		lastUpdated => 
 	},
 
+	'with descendants' => {
+		message => q||,
+		lastUpdated => 
+	},
+
 	'Add new field description' => {
 		message => q||,
 		lastUpdated => 
@@ -332,8 +367,8 @@ our $I18N = {
 	},
 
 	'412' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Резюме|,
+		lastUpdated => 1194728239
 	},
 
 	'edit branch help' => {
@@ -341,7 +376,12 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'manage versions body' => {
+	'assetSize' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'status' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -356,14 +396,14 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'1082' => {
+	'asset template asset var title' => {
 		message => q||,
 		lastUpdated => 
 	},
 
-	'asset fields body' => {
-		message => q||,
-		lastUpdated => 
+	'1082' => {
+		message => q|Клипборд|,
+		lastUpdated => 1194727983
 	},
 
 	'cut' => {
@@ -372,6 +412,11 @@ our $I18N = {
 	},
 
 	'487' => {
+		message => q|Възможни стойностти|,
+		lastUpdated => 1194728442
+	},
+
+	'isPackage' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -386,12 +431,12 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'asset fields title' => {
+	'could not rmdir' => {
 		message => q||,
 		lastUpdated => 
 	},
 
-	'could not rmdir' => {
+	'default value description' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -407,6 +452,11 @@ our $I18N = {
 	},
 
 	'486' => {
+		message => q|Тип на данните|,
+		lastUpdated => 1194728421
+	},
+
+	'this asset only' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -427,8 +477,8 @@ our $I18N = {
 	},
 
 	'411 description' => {
-		message => q||,
-		lastUpdated => 
+		message => q|По-кратко заглавие, което ще се покаже в навигацията. Ако се остави празно, по-подразбиране ще бъде <strong>Заглавието</strong>.|,
+		lastUpdated => 1194728209
 	},
 
 	'purge old trash' => {
@@ -447,8 +497,8 @@ our $I18N = {
 	},
 
 	'43' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Сигурни ли сте, че искате да изтриете това съдържание? Имайте предвид, че тази промяне не се следи от системата за версии и ще бъде извършена веднага.|,
+		lastUpdated => 1194728366
 	},
 
 	'rank' => {
@@ -486,12 +536,17 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'Page Export body' => {
+	'url' => {
 		message => q||,
 		lastUpdated => 
 	},
 
 	'Class Icon' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'groupIdEdit' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -517,8 +572,8 @@ our $I18N = {
 	},
 
 	'108' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Собственик|,
+		lastUpdated => 1194727647
 	},
 
 	'could not create path' => {
@@ -542,8 +597,8 @@ our $I18N = {
 	},
 
 	'871' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Кой може да редактира?|,
+		lastUpdated => 1194728466
 	},
 
 	'Page Export' => {
@@ -582,8 +637,8 @@ our $I18N = {
 	},
 
 	'108 description' => {
-		message => q||,
-		lastUpdated => 
+		message => q|<p>Собственик на компонента (asset) обикновенно е този, който е създал&nbsp; компонента (asset). Този потребител винаги има&nbsp; пълните права за&nbsp; редактиране и&nbsp; преглед на&nbsp; компонента (asset). Това е по подразбиране и на родителя на компонента (asset).</p><p><strong>Забележка:</strong> Собственика може да бъде сменен от администратора</p>|,
+		lastUpdated => 1194727949
 	},
 
 	'make prototype description' => {
@@ -606,24 +661,14 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'asset toolbar body' => {
-		message => q||,
-		lastUpdated => 
-	},
-
 	'size' => {
 		message => q||,
 		lastUpdated => 
 	},
 
-	'change url body' => {
-		message => q||,
-		lastUpdated => 
-	},
-
 	'107' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Сигурност|,
+		lastUpdated => 1194727454
 	},
 
 	'confirm change url message' => {
@@ -637,8 +682,8 @@ our $I18N = {
 	},
 
 	'174' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Показване на заглавието?|,
+		lastUpdated => 1194728089
 	},
 
 	'940 description' => {
@@ -657,6 +702,11 @@ our $I18N = {
 	},
 
 	'prototype using title' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'encryptPage' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -746,6 +796,11 @@ our $I18N = {
 		lastUpdated => 
 	},
 
+	'ownerUserId' => {
+		message => q||,
+		lastUpdated => 
+	},
+
 	'could not symlink' => {
 		message => q||,
 		lastUpdated => 
@@ -791,7 +846,7 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'metadata manage body' => {
+	'groupIdView' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -811,17 +866,17 @@ our $I18N = {
 		lastUpdated => 
 	},
 
+	'menuTitle' => {
+		message => q||,
+		lastUpdated => 
+	},
+
 	'make prototype' => {
 		message => q||,
 		lastUpdated => 
 	},
 
 	'topicName' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'prototype using body' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -852,13 +907,8 @@ our $I18N = {
 	},
 
 	'1073' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'asset toolbar title' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Шаблон на стила|,
+		lastUpdated => 1194727587
 	},
 
 	'951' => {
@@ -867,8 +917,8 @@ our $I18N = {
 	},
 
 	'85' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Описание|,
+		lastUpdated => 1194728452
 	},
 
 	'exporting page' => {
@@ -896,19 +946,14 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'metadata edit property body' => {
-		message => q||,
-		lastUpdated => 
-	},
-
 	'purge revision prompt' => {
 		message => q||,
 		lastUpdated => 
 	},
 
 	'411' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Заглавие на менюто|,
+		lastUpdated => 1194728107
 	},
 
 };

@@ -1,11 +1,6 @@
 package WebGUI::i18n::Arabic::VersionTag;
 
 our $I18N = {
-	'manage committed versions body' => {
-		message => q||,
-		lastUpdated => 
-	},
-
 	'approval message help' => {
 		message => q|اكتب رسالة سترسل الى المصدقين بجانب وصلة تصديق و بيانات الكود|,
 		lastUpdated => 1174396184
@@ -19,16 +14,6 @@ our $I18N = {
 	'approve/deny' => {
 		message => q|صدق/ارفض|,
 		lastUpdated => 1174396379
-	},
-
-	'commit version tag body' => {
-		message => q|تنفيذ كود النسخة سيجعل محتواهاهو المحتوى الخالي للنسخة و هو المستخدم و الظاهر على موقعك الان |,
-		lastUpdated => 1174396965
-	},
-
-	'manage version tags' => {
-		message => q|قم بادارة اكواد النسخة<br />|,
-		lastUpdated => 1174398176
 	},
 
 	'comments' => {
@@ -111,6 +96,11 @@ our $I18N = {
 		lastUpdated => 1174397057
 	},
 
+	'bad commit' => {
+		message => q|حدث شيء سيء في حين محاولة&nbsp; تنفيذ المحتوى الخاص بك. من فضلك اتصل بمسؤول النظام.|,
+		lastUpdated => 1201009267
+	},
+
 	'workflow' => {
 		message => q|سريان العمل<br /> |,
 		lastUpdated => 1174400374
@@ -139,11 +129,6 @@ our $I18N = {
 	'approve/deny help' => {
 		message => q|هل تريد ان تصدق على او ان ترفض هذا الكود؟<br />|,
 		lastUpdated => 1174396399
-	},
-
-	'edit version tag body' => {
-		message => q||,
-		lastUpdated => 
 	},
 
 	'version tag name' => {
@@ -176,11 +161,6 @@ our $I18N = {
 		lastUpdated => 1174399232
 	},
 
-	'manage pending versions body' => {
-		message => q||,
-		lastUpdated => 
-	},
-
 	'topicName' => {
 		message => q|ادارة النسخة<br />|,
 		lastUpdated => 1174398936
@@ -204,11 +184,6 @@ our $I18N = {
 	'request approval for version tag' => {
 		message => q|اطلب التصديق على كود النسخة<br />|,
 		lastUpdated => 1174398663
-	},
-
-	'manage version tags body' => {
-		message => q||,
-		lastUpdated => 
 	},
 
 	'rollback version tag' => {

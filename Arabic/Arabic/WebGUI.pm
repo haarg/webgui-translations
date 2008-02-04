@@ -2,13 +2,13 @@ package WebGUI::i18n::Arabic::WebGUI;
 
 our $I18N = {
 	'559' => {
-		message => q|شغل في خلال التسجيل<br />|,
-		lastUpdated => 1167319174
+		message => q|شغل عمل المستخدمين (مستخدم)|,
+		lastUpdated => 1201009311
 	},
 
 	'84 description' => {
-		message => q||,
-		lastUpdated => 
+		message => q|اسم المجموعة. من الافضل ان يكون الاسم شرحيا حتى تعرف ما هي بمجرد نظرة.<br />|,
+		lastUpdated => 1177777755
 	},
 
 	'127' => {
@@ -81,19 +81,29 @@ our $I18N = {
 		lastUpdated => 1167320404
 	},
 
+	'settings groupIdAdminWorkflowRun label' => {
+		message => q|سريان العمل (شغل)|,
+		lastUpdated => 1201534857
+	},
+
+	'settings groupIdAdminCache hoverHelp' => {
+		message => q|المجموعة التي يمكنها الاطلاع على ومسح الذاكرة المؤقتة|,
+		lastUpdated => 1201531858
+	},
+
 	'84' => {
 		message => q|اسم المجموعة<br />|,
 		lastUpdated => 1168363056
 	},
 
+	'skip commit comments' => {
+		message => q|تلافى تعليقات التنفيذ؟|,
+		lastUpdated => 1201534875
+	},
+
 	'437' => {
 		message => q|الاحصائيات|,
 		lastUpdated => 1167245038
-	},
-
-	'glossary title' => {
-		message => q|قاموس الويب جوي<br />|,
-		lastUpdated => 1171896215
 	},
 
 	'451' => {
@@ -102,8 +112,8 @@ our $I18N = {
 	},
 
 	'changeUrl workflow help' => {
-		message => q||,
-		lastUpdated => 
+		message => q|اي سريان عمل يجب ان يعمل حين تغيير رابط الاصل|,
+		lastUpdated => 1178463281
 	},
 
 	'454' => {
@@ -111,9 +121,19 @@ our $I18N = {
 		lastUpdated => 1167245318
 	},
 
+	'settings groupIdAdminTransactionLog hoverHelp' => {
+		message => q|المجموعة التي تجير التحركات|,
+		lastUpdated => 1201534631
+	},
+
 	'1021' => {
 		message => q|قيم الرسالة<br />|,
 		lastUpdated => 1167150076
+	},
+
+	'private message to label' => {
+		message => q|الى|,
+		lastUpdated => 1201531438
 	},
 
 	'135 description' => {
@@ -122,8 +142,8 @@ our $I18N = {
 	},
 
 	'540 description' => {
-		message => q||,
-		lastUpdated => 
+		message => q|كمية الكرما التي ستعطى للمستخدم عندما يسجل الدخول. هذا يعمل فقط اذا تم تشغيل الكرما|,
+		lastUpdated => 1177776909
 	},
 
 	'help toc' => {
@@ -156,6 +176,11 @@ our $I18N = {
 		lastUpdated => 1171459826
 	},
 
+	'private message reply title' => {
+		message => q|رد على الرسالة|,
+		lastUpdated => 1201531348
+	},
+
 	'948' => {
 		message => q|لوحة القص<br />|,
 		lastUpdated => 1168363991
@@ -169,6 +194,11 @@ our $I18N = {
 	'378' => {
 		message => q|هوية المستخدم<br />|,
 		lastUpdated => 1167244105
+	},
+
+	'view inbox template description' => {
+		message => q|اختر نموذج لعرض صندو الوارد|,
+		lastUpdated => 1201535115
 	},
 
 	'889' => {
@@ -186,14 +216,14 @@ our $I18N = {
 		lastUpdated => 1167241735
 	},
 
-	'968' => {
-		message => q|لوحة القص, فارغة<br />|,
-		lastUpdated => 1168364270
-	},
-
 	'540' => {
 		message => q|عدد الكرمات في الصفحة<br />|,
 		lastUpdated => 1167319019
+	},
+
+	'private message prev label' => {
+		message => q|السابق|,
+		lastUpdated => 1201531337
 	},
 
 	'pagination.lastPageUrl' => {
@@ -221,9 +251,9 @@ our $I18N = {
 		lastUpdated => 1168363359
 	},
 
-	'manage users in group body' => {
-		message => q|استخدم هذا النموذج لتضيف و تلغي المستخدمين من المجموعة<br />|,
-		lastUpdated => 1171897209
+	'settings groupIdAdminStatistics label' => {
+		message => q|الاحصائيات|,
+		lastUpdated => 1201534597
 	},
 
 	'337' => {
@@ -261,6 +291,11 @@ our $I18N = {
 		lastUpdated => 1167239424
 	},
 
+	'auto request commit' => {
+		message => q|اطلب التنفيذ تلقائيا؟|,
+		lastUpdated => 1201530783
+	},
+
 	'859' => {
 		message => q|التوقيع|,
 		lastUpdated => 1168363268
@@ -269,6 +304,16 @@ our $I18N = {
 	'739' => {
 		message => q|مستوى UI<br />|,
 		lastUpdated => 1167320429
+	},
+
+	'settings groupIdAdminSubscription hoverHelp' => {
+		message => q|المجموعة التي ستدير لاشتراكات|,
+		lastUpdated => 1201534611
+	},
+
+	'private message error' => {
+		message => q|خطأ في الرسالة|,
+		lastUpdated => 1201531262
 	},
 
 	'992' => {
@@ -307,8 +352,13 @@ our $I18N = {
 	},
 
 	'bare insufficient' => {
-		message => q||,
-		lastUpdated => 
+		message => q|ليس لديك الصلاحيات الكافية للقيام بهذه العملية. من فضلك سجل الدخول ببريد له صلاحيات كافية قبل محاولة هذه العملية<br />|,
+		lastUpdated => 1178463341
+	},
+
+	'editSettings error occurred' => {
+		message => q|الاخطاء التالية حدثت بينما تحاول حفظ الضبط|,
+		lastUpdated => 1201530841
 	},
 
 	'145' => {
@@ -322,8 +372,8 @@ our $I18N = {
 	},
 
 	'142 description' => {
-		message => q||,
-		lastUpdated => 
+		message => q|كم الوقت الذي تبقى فيه حلقة المستخدم نشطه (قبل ان يحتاج الى تسجيل الدخول مرة اخرى). هذا الوقت يتم اعادة ضبطه كل مرة يفتح فيها المستخدم صفحة جديدة. بناء عليه اذا قمت بضبط الوقت على 8 ساعات, سيطر المستخدم ان يعيد تسجيل الدخول اذا لم يزر اي صفحة في الموقع لمدة ثماني ساعات. |,
+		lastUpdated => 1177184122
 	},
 
 	'993' => {
@@ -331,14 +381,14 @@ our $I18N = {
 		lastUpdated => 1168364638
 	},
 
+	'settings groupIdAdminAdSpace label' => {
+		message => q|مساحة الاعلان|,
+		lastUpdated => 1201531836
+	},
+
 	'364' => {
 		message => q|ابحث|,
 		lastUpdated => 1167243939
-	},
-
-	'653' => {
-		message => q|صفحة, امسح.<br />|,
-		lastUpdated => 1167319726
 	},
 
 	'950' => {
@@ -349,6 +399,11 @@ our $I18N = {
 	'cache statistics' => {
 		message => q|احصائيات الذاكرة المؤقتة<br />|,
 		lastUpdated => 1168366309
+	},
+
+	'settings groupIdAdminProfileSettings label' => {
+		message => q|ملفات المستخدم|,
+		lastUpdated => 1201534462
 	},
 
 	'486' => {
@@ -381,9 +436,14 @@ our $I18N = {
 		lastUpdated => 1168364384
 	},
 
-	'1000' => {
-		message => q|  <p style="text-align: right; direction: rtl; unicode-bidi: embed" dir="rtl"><span>وصلات قاعدة البيانات تسمح لمدير الويب جوي أن يضيف قواعد البيانات المستخدمة عموما للاستخدام في تقارير السيكول. يحرر هذا الموضوع محرر تقرير السيكول من أن يضطر إلى معرفة أو ادخال </span><span>DSN</span><span>, مستخدم أو كلمة سر. </span></p>  <p style="text-align: right; direction: rtl; unicode-bidi: embed" dir="rtl"><span>كن على علم أن وصلات قاعدة البيانات التي تقوم بعملها هنا ستكون متوفرة إلى كل محرري المادة. في حين انهم لن يكونوا قادرين على رؤية معلومات اتصال قاعدة البيانات, سيكونوا قادرين على تنفيذ أي اختيار, اظهار, أو اوامر الشرح على قاعدة البيانات.</span></p>  |,
-		lastUpdated => 1167147151
+	'wiki help label leadin' => {
+		message => q|للمزذد من المساعدة قم بزيارة ....|,
+		lastUpdated => 1201535135
+	},
+
+	'settings groupIdAdminSpectre hoverHelp' => {
+		message => q|المجموعة التي ستطلع على حالة سبكتر|,
+		lastUpdated => 1201534572
 	},
 
 	'choose an asset' => {
@@ -421,9 +481,9 @@ our $I18N = {
 		lastUpdated => 1167318717
 	},
 
-	'manage users in group title' => {
-		message => q|المستخدمين في المجموعة<br />|,
-		lastUpdated => 1171897297
+	'settings groupIdAdminReplacements label' => {
+		message => q|فلاتر المادة|,
+		lastUpdated => 1201534554
 	},
 
 	'943' => {
@@ -456,6 +516,11 @@ our $I18N = {
 		lastUpdated => 1167240870
 	},
 
+	'user profile field private message allow label' => {
+		message => q|اسمح للكل|,
+		lastUpdated => 1201535025
+	},
+
 	'244' => {
 		message => q|المحرر|,
 		lastUpdated => 1167240513
@@ -471,11 +536,6 @@ our $I18N = {
 		lastUpdated => 1171896148
 	},
 
-	'999' => {
-		message => q|وصلة قاعدة الييانات, امسح<br />|,
-		lastUpdated => 1168364713
-	},
-
 	'61' => {
 		message => q|حدث معلومات الحساب<br />|,
 		lastUpdated => 1167319495
@@ -484,11 +544,6 @@ our $I18N = {
 	'430' => {
 		message => q|اخر اطلاع على الصفحة<br />|,
 		lastUpdated => 1167244853
-	},
-
-	'replacements edit body' => {
-		message => q||,
-		lastUpdated => 
 	},
 
 	'379' => {
@@ -506,9 +561,9 @@ our $I18N = {
 		lastUpdated => 1167150174
 	},
 
-	'settings help' => {
-		message => q|الضبط يمكنك من ان تحدد القيم الاعتيادية للويب جوي لمقابلة احتياجاتك الخاصة.<br />|,
-		lastUpdated => 1171460018
+	'deactivateAccount success' => {
+		message => q|تم عدم تفعيل s%|,
+		lastUpdated => 1201530804
 	},
 
 	'452' => {
@@ -526,6 +581,11 @@ our $I18N = {
 		lastUpdated => 1168363372
 	},
 
+	'additional parameters' => {
+		message => q|باراميترز اضافية لقاعدة البيانات|,
+		lastUpdated => 1201530625
+	},
+
 	'480' => {
 		message => q|عنوان البري الالكتروني<br />|,
 		lastUpdated => 1167246126
@@ -534,6 +594,11 @@ our $I18N = {
 	'341' => {
 		message => q|عدل الملف<br />|,
 		lastUpdated => 1167241124
+	},
+
+	'invite a friend' => {
+		message => q|ادعو مستخدم|,
+		lastUpdated => 1201531038
 	},
 
 	'438' => {
@@ -552,8 +617,8 @@ our $I18N = {
 	},
 
 	'77' => {
-		message => q||,
-		lastUpdated => 
+		message => q|<p>اسم الحساب مستخدم بالفعل. من فضلك جرب اسم مستخدم اخر. الاتي بعض الاقتراحات: </p><p> %sToo<br /> %s2<br /> %s_%d <br /></p>|,
+		lastUpdated => 1177777656
 	},
 
 	'444' => {
@@ -562,8 +627,8 @@ our $I18N = {
 	},
 
 	'865 description' => {
-		message => q||,
-		lastUpdated => 
+		message => q|اضبط هذه القيمة على نعم اذا اردت ان يتصل الويب جوي بالمستخدم عندما يكون على وشك الانتهاء من المجموعة<br />|,
+		lastUpdated => 1178462636
 	},
 
 	'pagination.lastPage' => {
@@ -622,8 +687,18 @@ our $I18N = {
 	},
 
 	'707 description' => {
-		message => q||,
-		lastUpdated => 
+		message => q|اظهر معلومات حل المشكلات في مخرجات الويب جوي. هذا مفيد لمطوري ويب جوي, ومن الممكن ان يكون مهما للمديرين الذين يحاولون تحديد مشكلة.<br />|,
+		lastUpdated => 1177777543
+	},
+
+	'settings groupIdAdminUser hoverHelp' => {
+		message => q|المجموعة التي ستدير المستخدمين. من الممكن ان تضيف وتعدل مستخدمين|,
+		lastUpdated => 1201534671
+	},
+
+	'private message next label' => {
+		message => q|التالي|,
+		lastUpdated => 1201531280
 	},
 
 	'45' => {
@@ -641,14 +716,14 @@ our $I18N = {
 		lastUpdated => 1167244291
 	},
 
-	'1002' => {
-		message => q|<p>عندما تقوم بمسح اي وصلة قاعدة بيانات, كل تقارير السيكول التي تستخدم هذه الوصلة ستتوقف. ستظهر قائمة بكل التقارير المتاثرة على شاشة التاكيد. </p><p>&nbsp;كما يحدث في كل عملية مسح, تسال اذا كنت متاكدا من اكمال عملية المسح. اا اجبت بنعم, سيتم المسح ولا يمكن استرجاع الاشياء. اذا اجبت بلا, سيتم ارجاعك الى الشاشة السابقة.</p>|,
-		lastUpdated => 1167147392
+	'settings groupIdAdminProductManager hoverHelp' => {
+		message => q|المجموعة التي ستدير المنتجات|,
+		lastUpdated => 1201534385
 	},
 
 	'866 description' => {
-		message => q||,
-		lastUpdated => 
+		message => q|اكتب رسالة تريد ارسالها الى المستخمين تخبرهم عن وقت انتهاء اشتراكهم|,
+		lastUpdated => 1178462662
 	},
 
 	'1084' => {
@@ -677,8 +752,8 @@ our $I18N = {
 	},
 
 	'1' => {
-		message => q|<div style="border-right: medium none; padding-right: 0in; border-top: medium none; padding-left: 0in; padding-bottom: 1pt; border-left: medium none; padding-top: 0in; border-bottom: windowtext 1pt solid"><span class="postbody"><span style="font-family: Verdana"><font size="3">Warm welcome to Alnemat TheGrace Arabic Christian Internet Magazine, We love you! Please visit us at: </font></span></span><span style="font-family: Verdana"><br /><font size="3"><span>&nbsp;</span><br /><span class="postbody"><span style="font-family: Verdana"><a href="http://www.thegrace.net/" target="_blank"><span style="font-family: &#39;Times New Roman&#39;"><font color="#800080">http://www.TheGrace.net</font></span></a> </span></span><br /><br /><span class="postbody"><span style="font-family: Verdana"><a href="http://www.thegrace.org/" target="_blank"><span style="font-family: &#39;Times New Roman&#39;"><font color="#800080">http://www.TheGrace.org</font></span></a> </span></span></font></span><span class="postbody"><span style="font-family: Verdana"><a href="http://www.thegrace.com/" target="_blank"><span style="font-family: &#39;Times New Roman&#39;"><font size="3" color="#800080">http://www.TheGrace.com</font></span></a><font size="3"> </font></span></span><font size="3"><font face="Times New Roman"><span class="postbody"><span>نتمنى لكم</span></span><span class="postbody"><span> </span></span><span class="postbody"><span>الفرح</span></span><span class="postbody"><span> </span></span><span class="postbody"><span>و</span></span><span class="postbody"><span>السلام</span></span><span class="postbody"><span> </span></span><span class="postbody"><span>والمحبة</span></span><span class="postbody"><span> </span></span><span class="postbody"><span>ل</span></span><span class="postbody"><span>أ</span></span><span class="postbody"><span>ن السلام افضل من الحرب والمحبة افضل من الكراهية</span></span><span class="postbody"><span> </span></span><span class="postbody"><span>كما ان النور أفضل من الظلمة</span></span><span class="postbody"><span style="font-family: Verdana"></span></span></font></font><font size="3"><strong><span style="font-family: &#39;Traditional Arabic&#39;">سلام لكم في </span></strong><strong><span style="font-family: &#39;Traditional Arabic&#39;">محبة الله</span></strong><strong><span style="font-family: &#39;Traditional Arabic&#39;">.</span></strong><strong><span style="font-family: &#39;Traditional Arabic&#39;">نتأمل زياراتكم الكريمة لموقع النعمة موقع مجلة النعمة يقدم كلمة الله الكتاب المقدس الإنجيل رسالة السيد يسوع المسيح </span></strong><strong><span><span><font face="Times New Roman">&nbsp;</font></span></span></strong><strong><span style="font-family: &#39;Traditional Arabic&#39;">قراءات مختارة مواضيع مصيرية قصص واقعية شهادات شخصية ترانيم </span></strong><strong><span style="font-family: &#39;Traditional Arabic&#39;">ممتازة</span></strong><strong><span style="font-family: &#39;Traditional Arabic&#39;"> ردود مؤكدة كتب بنّاءة رسوم </span></strong><strong><span style="font-family: &#39;Traditional Arabic&#39;">تسالي </span></strong><strong><span style="font-family: &#39;Traditional Arabic&#39;">تأمل</span></strong><strong><span style="font-family: &#39;Traditional Arabic&#39;">ات يوميات</span></strong></font><span style="font-family: Verdana"><font size="3"> <br /><span class="postbody"><span style="font-family: Verdana">Bible in Arabic Audio Read search Studys Stories Testimonies Hymns and Poems Answers Books Links Daily devotions Acappella Music Graphics /Alnemat Journal Arabe Chr&eacute;tien La Gr&acirc;ce la Revue Arabe sur Internet offre La Sainte Bible Al-Injil L&#39;Evangile de J&eacute;sus Christ gratuit, Bienvenue a La Gr&acirc;ce.</span></span></font></span><span class="postbody"><span style="font-family: Verdana"></span></span></div><font size="3"><strong><span style="font-family: Arial">Arabic Christian Magazine The Grace offering the Arabic Bible </span></strong><strong><span style="font-family: Arial">النعمة تقدم الإنجيل الكتاب المقدس</span></strong></font><strong><span style="font-family: Arial"></span></strong>|,
-		lastUpdated => 1172501628
+		message => q|<div><span class="&quot;postbody&quot;"><span><font size="&quot;3&quot;">Warm welcome to Alnemat TheGrace Arabic Christian Internet Magazine, We love you! Please visit us at: </font></span></span><span><br /><font size="&quot;3&quot;"><span>&nbsp;</span><br /><span class="&quot;postbody&quot;"><span><a href="&quot;http://www.thegrace.net/&quot;" target="&quot;_blank&quot;"><span><font color="#000080">http://www.TheGrace.net</font></span></a> </span></span><br /><br /><span class="&quot;postbody&quot;"><span><a href="&quot;http://www.thegrace.org/&quot;" target="&quot;_blank&quot;"><span><font color="#000080">http://www.TheGrace.org</font></span></a> </span></span></font></span><span class="&quot;postbody&quot;"><span><a href="&quot;http://www.thegrace.com/&quot;" target="&quot;_blank&quot;"><span><font size="&quot;3&quot;" color="#000080">http://www.TheGrace.com</font></span></a><font size="&quot;3&quot;"> </font></span></span><font size="&quot;3&quot;"><font face="&quot;Times"><span class="&quot;postbody&quot;"><span>نتمنى لكم</span></span><span class="&quot;postbody&quot;"><span> </span></span><span class="&quot;postbody&quot;"><span>الفرح</span></span><span class="&quot;postbody&quot;"><span> </span></span><span class="&quot;postbody&quot;"><span>و</span></span><span class="&quot;postbody&quot;"><span>السلام</span></span><span class="&quot;postbody&quot;"><span> </span></span><span class="&quot;postbody&quot;"><span>والمحبة</span></span><span class="&quot;postbody&quot;"><span> </span></span><span class="&quot;postbody&quot;"><span>ل</span></span><span class="&quot;postbody&quot;"><span>أ</span></span><span class="&quot;postbody&quot;"><span>ن السلام افضل من الحرب والمحبة افضل من الكراهية</span></span><span class="&quot;postbody&quot;"><span> </span></span><span class="&quot;postbody&quot;"><span>كما ان النور أفضل من الظلمة</span></span><span class="&quot;postbody&quot;"></span></font></font><font size="&quot;3&quot;"><strong><span>سلام لكم في </span></strong><strong><span>محبة الله</span></strong><strong><span>.</span></strong><strong><span>نتأمل زياراتكم الكريمة لموقع النعمة موقع مجلة النعمة يقدم كلمة الله الكتاب المقدس الإنجيل رسالة السيد يسوع المسيح </span></strong><strong><span><span><font face="&quot;Times">&nbsp;</font></span></span></strong><strong><span>قراءات مختارة مواضيع مصيرية قصص واقعية شهادات شخصية ترانيم </span></strong><strong><span>ممتازة</span></strong><strong><span> ردود مؤكدة كتب بنّاءة رسوم </span></strong><strong><span>تسالي </span></strong><strong><span>تأمل</span></strong><strong><span>ات يوميات</span></strong></font><span><font size="&quot;3&quot;"> <br /><span class="&quot;postbody&quot;"><span>Bible in Arabic Audio Read search Studys Stories Testimonies Hymns and Poems Answers Books Links Daily devotions Acappella Music Graphics /Alnemat Journal Arabe Chr&eacute;tien La Gr&acirc;ce la Revue Arabe sur Internet offre La Sainte Bible Al-Injil L'Evangile de J&eacute;sus Christ gratuit, Bienvenue a La Gr&acirc;ce.</span></span></font></span><span class="&quot;postbody&quot;"></span></div><font size="&quot;3&quot;"><strong><span>Arabic Christian Magazine The Grace offering the Arabic Bible </span></strong><strong><span>النعمة تقدم الإنجيل الكتاب المقدس</span></strong></font><strong></strong>|,
+		lastUpdated => 1187523888
 	},
 
 	'144' => {
@@ -702,8 +777,8 @@ our $I18N = {
 	},
 
 	'857 description' => {
-		message => q||,
-		lastUpdated => 
+		message => q|  <p dir="rtl" class="MsoNormal"><span>حدد عنوان ال</span><span>IP</span><span> في شكل </span><span>CIDR</span><span>. العناوين المتعددة من الممكن ان يتم ادخالها اذا تم فصلهم بفواصل. المسافات, التابات و </span><span>carriage returns</span><span> والسطور الجديدة سيتم اهمالها.</span></p>  <p dir="rtl" class="MsoNormal"><span>&nbsp;</span></p>  <p style="text-align: right; direction: rtl; unicode-bidi: embed" dir="rtl"><em><span>IP Mask Example:</span></em><span> 10.0.0.32/27, 192.168.0.1/30 </span></p>  |,
+		lastUpdated => 1178467107
 	},
 
 	'1075' => {
@@ -712,8 +787,8 @@ our $I18N = {
 	},
 
 	'381' => {
-		message => q||,
-		lastUpdated => 
+		message => q|تلقى ويب جوي رسالة بتشكيل خاطئ ولم يتمكن من الاكمال.&nbsp; ارسال Proprietary characters خلال نموذج يتسبب في هذا. من فضلك انقر زر العودة و حاول مرة اخرى.<br />|,
+		lastUpdated => 1177184419
 	},
 
 	'581' => {
@@ -722,8 +797,8 @@ our $I18N = {
 	},
 
 	'418 description' => {
-		message => q||,
-		lastUpdated => 
+		message => q|اختر مستوى فلترة الاتش تي ام ال الذي تريده على المحتوى الموسط.<br />|,
+		lastUpdated => 1177184644
 	},
 
 	'392' => {
@@ -741,6 +816,11 @@ our $I18N = {
 		lastUpdated => 1167318617
 	},
 
+	'settings groupIdAdminProfileSettings hoverHelp' => {
+		message => q|المجموعة التي ستدير مجالات ملف المستخدم|,
+		lastUpdated => 1201534453
+	},
+
 	'Enable Metadata description' => {
 		message => q|يقوم هذا بتشغيل الميتاداتا على الاصول&nbsp; التي من الممكن ان تدخل فيها الميتاداتا و يتم متابعتها بالويب جوي.<br />|,
 		lastUpdated => 1168365910
@@ -751,14 +831,29 @@ our $I18N = {
 		lastUpdated => 1167319479
 	},
 
+	'private message message label' => {
+		message => q|رسالة|,
+		lastUpdated => 1201531274
+	},
+
+	'private message no user' => {
+		message => q|لم تقم باختيار مستخدم لترسل له رسالة خاصة|,
+		lastUpdated => 1201531330
+	},
+
 	'813' => {
 		message => q|المجموعات في هذه المجموعة<br />|,
 		lastUpdated => 1167321607
 	},
 
+	'settings groupIdAdminGroup label' => {
+		message => q|المجموعات|,
+		lastUpdated => 1201533063
+	},
+
 	'head.tags' => {
-		message => q||,
-		lastUpdated => 
+		message => q|  <p dir="&quot;rtl&quot;" class="&quot;MsoNormal&quot;"><span>الاكواد التي يقوم ويب جوي بعملها اوتوماتيكيا لك من اجل ان تتم اعمال الذاكرة المؤقتة كما يجب, محركات البحث من الممكن ان تجدك بشكل افضل, والعمليات الالية الاخرى المفيدة. هذا يجب ان يكون في جزء </span><span>&lt;head&gt; &lt;/head&gt;</span><span> من الشكل العام. </span></p>  <p dir="&quot;rtl&quot;" class="&quot;MsoNormal&quot;"><span>&nbsp;</span></p>  <p dir="&quot;rtl&quot;" class="&quot;MsoNormal&quot;"><span>نقترح استخدام شيء مثل </span><span>&lt;title&gt; &lt;/title&gt;</span><span> في هذا الجزء من الشكل: </span></p>  <p dir="&quot;rtl&quot;" class="&quot;MsoNormal&quot;"><span><br /> &lt;tmpl_var session.page.title&gt; - &lt;tmpl_var session.setting.companyName&gt; <br /> <br /> That particular example will help you get good ranking on search engines.</span></p>  |,
+		lastUpdated => 1201530871
 	},
 
 	'42' => {
@@ -771,9 +866,14 @@ our $I18N = {
 		lastUpdated => 1171897044
 	},
 
+	'settings groupIdAdminHelp hoverHelp' => {
+		message => q|المجموعة التي مكنها الاطلاع على المساعدة|,
+		lastUpdated => 1201534307
+	},
+
 	'1005 description' => {
-		message => q||,
-		lastUpdated => 
+		message => q|  <p dir="rtl" class="MsoNormal"><span>العديد من المنظمات لها قواعد بيانات خارجية تحدد المستخدمين على المجموعات, مثلا من الممكن ان تحدد قاعدة بيانات الموارد البشرية هوية الموظف على خريطة الرعاية الصحية. لكي يتم تأكيد المستخدمين ضد قاعدة بيانات خارجية, يجب ان تقوم ببناء جملة </span><span>SQL</span><span> ستعيد قائمة هويات المستخدمين لويب جوي للمستخدمين في المجموعة. من الممكن ان تستخدم الماكروهات في هذا الطلب للوصول على البيانات في ملف المستخدم لويب جوي, مثل هوية المستخدم. هذا مثال على الكشف عن المستخدم ضد قاعدة بيانات موارد بشرية خيالية. يتخيل هذا انك قمت بعمل مجال ملف ويب جوي اضافي يسمى </span><span>employeeId</span><span>.</span></p>  <p style="text-align: right; direction: rtl; unicode-bidi: embed" dir="rtl"><span>select userId from employees, health_plans, empl_plan_map<br /> where employees.employee_id = ^User(&quot;employeeId&quot;);<br /> and health_plans.plan_name = &#39;HMO 1&#39;<br /> and employees.employee_id = empl_plan_map.employee_id<br /> and health_plans.health_plan_id = empl_plan_mp.health_plan_id</span><span></span></p>  <p style="text-align: right; direction: rtl; unicode-bidi: embed" dir="rtl"><span>من الممكن ان تسمى هذه المجموعة &quot;</span><span> </span><span>Employees in HMO 1</span><span>&quot; وستسمح لك بتحديد أي صفحة أو وبجيكت لفقط هؤلاء المستخدمين الموجودين في خطة الرعاية الصحية في قاعدة البيانات الخارجية.</span></p>  |,
+		lastUpdated => 1178465185
 	},
 
 	'groups to delete' => {
@@ -801,9 +901,19 @@ our $I18N = {
 		lastUpdated => 1167321635
 	},
 
+	'Enable user invitations description' => {
+		message => q|مكن المستخدمين من ارسال رسائل بريدية الى اصدقائهم, تدعوهم الى ان يأتوا ويقوموا بعمل حساب لهم على هذا الموقع|,
+		lastUpdated => 1201530525
+	},
+
 	'456' => {
 		message => q|ارجع الى قائمة المستخدمين<br />|,
 		lastUpdated => 1167245342
+	},
+
+	'private message status unread' => {
+		message => q|لم تقرأ|,
+		lastUpdated => 1201531411
 	},
 
 	'1051 description' => {
@@ -817,8 +927,8 @@ our $I18N = {
 	},
 
 	'465 description' => {
-		message => q||,
-		lastUpdated => 
+		message => q|كم من الحروف يمكن عرضها في المرة الواحدة في صناديق النص الموجودة على الموقع<br />|,
+		lastUpdated => 1177184674
 	},
 
 	'link in same window' => {
@@ -836,9 +946,9 @@ our $I18N = {
 		lastUpdated => 1171891155
 	},
 
-	'webgui tips title' => {
-		message => q|مقتطفات ويب جوي<br />|,
-		lastUpdated => 1171891701
+	'permissions' => {
+		message => q|السماحات|,
+		lastUpdated => 1201531113
 	},
 
 	'photo' => {
@@ -861,6 +971,11 @@ our $I18N = {
 		lastUpdated => 1167245176
 	},
 
+	'account.options' => {
+		message => q|دورة تحتوي على كل الخيارات لروابط حسابات المستخدمين المختلفة|,
+		lastUpdated => 1201530597
+	},
+
 	'1026' => {
 		message => q|شغل التعديل الغني؟<br />|,
 		lastUpdated => 1167150090
@@ -869,6 +984,11 @@ our $I18N = {
 	'329' => {
 		message => q|عنولن العمل<br />|,
 		lastUpdated => 1167240921
+	},
+
+	'allow private messages label' => {
+		message => q|خيارات الرسالة الخاصة|,
+		lastUpdated => 1201530769
 	},
 
 	'noldaplink' => {
@@ -891,6 +1011,11 @@ our $I18N = {
 		lastUpdated => 1171896029
 	},
 
+	'settings groupIdAdminWorkflowRun hoverHelp' => {
+		message => q|المجموعة المسموح لها بتشغيل سريان العمل من لوحة التحكم|,
+		lastUpdated => 1201534849
+	},
+
 	'125 description' => {
 		message => q|اسم شركتك. سوف تظهر في كل الرسائل و في كل مكان تستخدم فيه ماكرو الشكل الخاص باسم الشركة.<br />|,
 		lastUpdated => 1167153079
@@ -911,24 +1036,19 @@ our $I18N = {
 		lastUpdated => 1167320611
 	},
 
-	'content filter body' => {
-		message => q||,
-		lastUpdated => 
-	},
-
 	'1011' => {
 		message => q|كود|,
 		lastUpdated => 1167150039
 	},
 
 	'556 description' => {
-		message => q||,
-		lastUpdated => 
+		message => q|كم كرما يجب ان تضاف او تنقص من كرما المستخدم؟<br />|,
+		lastUpdated => 1177776933
 	},
 
 	'84 description groupings' => {
-		message => q||,
-		lastUpdated => 
+		message => q|اسم المجموعة<br />|,
+		lastUpdated => 1177777763
 	},
 
 	'557' => {
@@ -936,14 +1056,14 @@ our $I18N = {
 		lastUpdated => 1167319113
 	},
 
-	'grouping edit title' => {
-		message => q|مجموعة, عدل|,
-		lastUpdated => 1171896713
+	'settings groupIdAdminUserAdd label' => {
+		message => q|المستخدمين (اضف فقط)|,
+		lastUpdated => 1201534714
 	},
 
 	'369 description' => {
-		message => q||,
-		lastUpdated => 
+		message => q|متى ينتهي اشتراك المستخدم في هذه المجموعة.<br />|,
+		lastUpdated => 1177184282
 	},
 
 	'700' => {
@@ -981,9 +1101,19 @@ our $I18N = {
 		lastUpdated => 1167241712
 	},
 
+	'private message no self error' => {
+		message => q|لا يمكنك ارسال رسائل خاصة لنفسك|,
+		lastUpdated => 1201531303
+	},
+
 	'983' => {
 		message => q|عدل وصلة قاعدة البيانات هذه<br />|,
 		lastUpdated => 1168364450
+	},
+
+	'settings groupIdAdminVersionTag label' => {
+		message => q|علامات النسخة|,
+		lastUpdated => 1201534744
 	},
 
 	'138' => {
@@ -1014,11 +1144,6 @@ our $I18N = {
 	'432' => {
 		message => q|ينتهي|,
 		lastUpdated => 1167244879
-	},
-
-	'1074' => {
-		message => q|  <p dir="rtl" class="MsoNormal"><span>نماذج الشكل هي نوع خاص من النماذج في الويب جوي. هي تسمح لك أن تبقي المادة منفصلة من شكل و احساس موقعك. متغيرات النماذج آلاتية متوفرة في نماذج الشكل:</span></p>  |,
-		lastUpdated => 1167151098
 	},
 
 	'860' => {
@@ -1061,24 +1186,29 @@ our $I18N = {
 		lastUpdated => 1168363210
 	},
 
-	'grouping edit body' => {
-		message => q|من الممكن ان تضبط كم من الوقت يبقى المستخدم في المجموعة, او ان تجعلهم مديري مجموعة.<br /> |,
-		lastUpdated => 1171896688
-	},
-
 	'69' => {
 		message => q|من فضلك اتصل بمدير النظام من اجل المساعدة<br />|,
 		lastUpdated => 1167319980
 	},
 
-	'glossary body' => {
-		message => q||,
-		lastUpdated => 
-	},
-
 	'removeLabel' => {
 		message => q|اخرج|,
 		lastUpdated => 1171459886
+	},
+
+	'private message status read' => {
+		message => q|اقرأ|,
+		lastUpdated => 1201531365
+	},
+
+	'settings groupIdAdminStatistics hoverHelp' => {
+		message => q|المجموعة التي ستطلع على الاحصائيات|,
+		lastUpdated => 1201534590
+	},
+
+	'settings groupIdAdminSubscription label' => {
+		message => q|الاشتراكات|,
+		lastUpdated => 1201534617
 	},
 
 	'756' => {
@@ -1097,8 +1227,18 @@ our $I18N = {
 	},
 
 	'559 description' => {
-		message => q||,
-		lastUpdated => 
+		message => q|اذا تم اهتيار سريان عمل هنا, سيتم تنفيذه كل مرة يسجل في المستخدم بشكل مجهول. |,
+		lastUpdated => 1177776989
+	},
+
+	'view inbox message template description' => {
+		message => q|اختر نموذج لعرض الرسائل في صنجوق الوارد|,
+		lastUpdated => 1201535087
+	},
+
+	'run on admin update user help' => {
+		message => q|شغل عندما يقوم مشرف بتعديل مستخدم|,
+		lastUpdated => 1201531523
 	},
 
 	'352' => {
@@ -1112,8 +1252,8 @@ our $I18N = {
 	},
 
 	'1006' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Encrypt Login?|,
+		lastUpdated => 1177183839
 	},
 
 	'company' => {
@@ -1136,11 +1276,6 @@ our $I18N = {
 		lastUpdated => 1167244013
 	},
 
-	'961' => {
-		message => q||,
-		lastUpdated => 
-	},
-
 	'483' => {
 		message => q|نعم او لا<br />|,
 		lastUpdated => 1167318265
@@ -1149,6 +1284,11 @@ our $I18N = {
 	'pagination.nextPageText' => {
 		message => q|<div align="&quot;right&quot;">مكون نصي من pagination.nextPage انكسر&nbsp; <br /></div>|,
 		lastUpdated => 1168368467
+	},
+
+	'account options template variables' => {
+		message => q|متعيرات نموذج خيارات الحساب|,
+		lastUpdated => 1201530545
 	},
 
 	'button' => {
@@ -1181,11 +1321,6 @@ our $I18N = {
 		lastUpdated => 1171891934
 	},
 
-	'660' => {
-		message => q|مجموعات, ادر<br />|,
-		lastUpdated => 1167319779
-	},
-
 	'428' => {
 		message => q|هوية المستخدم<br />|,
 		lastUpdated => 1167244765
@@ -1204,6 +1339,11 @@ our $I18N = {
 	'99' => {
 		message => q|العنوان|,
 		lastUpdated => 1168364585
+	},
+
+	'settings groupIdAdminLDAPLink label' => {
+		message => q|LADP|,
+		lastUpdated => 1201534344
 	},
 
 	'526' => {
@@ -1247,13 +1387,13 @@ our $I18N = {
 	},
 
 	'527 description' => {
-		message => q||,
-		lastUpdated => 
+		message => q|  <p dir="rtl" class="MsoNormal"><span>بعض المواقع الصغيرة جدا ليس لها صفحة رئيسية, ولكن يحبون استخدام واحدة من الصفحات الاخرى مصل &quot;من نحن&quot; أو &quot;معلومات الشركة&quot; لكي تكون صفحة رئيسية. لهذا السبب, من الممكن ان تضبط الصفحة اعتيادية في موقعك لان تكون أي صفحة في الموقع. هذه ستكون الصفحة التي يذهب اليها الناس اذا قاموا بكتابة الرابط فقط. </span><a href="http://www.mywebguisite.com/"><span>http://www.mywebguisite.com</span></a><span>, أو اذا قاموا بالنفر على وصلة الصفحة الرئيسية المعمولة من </span><span>AssetProxy</span><span> الخاص باصل التصفح.</span></p>  |,
+		lastUpdated => 1177776810
 	},
 
 	'811 description' => {
-		message => q||,
-		lastUpdated => 
+		message => q|من من هذه الرسالة  |,
+		lastUpdated => 1177777676
 	},
 
 	'1006 description' => {
@@ -1266,14 +1406,19 @@ our $I18N = {
 		lastUpdated => 1167151594
 	},
 
-	'1001' => {
-		message => q|الاماكن التالية تكون وصلة قاعدة بيانات.<br />|,
-		lastUpdated => 1167147183
+	'send private message' => {
+		message => q|ارسل رسالة خاصة|,
+		lastUpdated => 1201531546
 	},
 
 	'556' => {
 		message => q|الكمية|,
 		lastUpdated => 1167319107
+	},
+
+	'options.display' => {
+		message => q|وصلة اتش تي ام ال كاملة, بعلامة دولية, من اجل خيارات الحساب الفردي مثل تعديل الملف او الاطلاع عليه او الوصول الى بريد المستخدم وهكذا|,
+		lastUpdated => 1201531099
 	},
 
 	'462' => {
@@ -1296,6 +1441,11 @@ our $I18N = {
 		lastUpdated => 1167321627
 	},
 
+	'skip commit comments help' => {
+		message => q|هل تريد ان يتم تخيرك لاضافة تعليقات على المادة التي تنفذها؟|,
+		lastUpdated => 1201534910
+	},
+
 	'142' => {
 		message => q|انتهى وقت الحلقة<br />|,
 		lastUpdated => 1167239471
@@ -1316,6 +1466,11 @@ our $I18N = {
 		lastUpdated => 1167240258
 	},
 
+	'settings groupIdAdminTransactionLog label' => {
+		message => q|التحركات المالية|,
+		lastUpdated => 1201534640
+	},
+
 	'help index' => {
 		message => q|اجندة|,
 		lastUpdated => 1171896785
@@ -1329,11 +1484,6 @@ our $I18N = {
 	'360' => {
 		message => q|واحد على ثلاثة<br />|,
 		lastUpdated => 1167241859
-	},
-
-	'610' => {
-		message => q||,
-		lastUpdated => 
 	},
 
 	'514' => {
@@ -1352,13 +1502,8 @@ our $I18N = {
 	},
 
 	'50 description' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'615' => {
-		message => q||,
-		lastUpdated => 1167319516
+		message => q|اسم المستخدم<br />|,
+		lastUpdated => 1177184684
 	},
 
 	'50' => {
@@ -1372,13 +1517,8 @@ our $I18N = {
 	},
 
 	'885 description' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'969' => {
-		message => q|اذا اخترت ان تفرغ لوحة القص سيتم نقل كل شيء فيها الى سلة المهملات.<br />|,
-		lastUpdated => 1168364302
+		message => q|هل ترغب في امداد مستخدميك بامكانية ايقاف حسابهم بدون تدخلك؟<br />|,
+		lastUpdated => 1178463104
 	},
 
 	'radio' => {
@@ -1406,11 +1546,6 @@ our $I18N = {
 		lastUpdated => 1167245196
 	},
 
-	'658' => {
-		message => q|المستخدمين, ادر<br />|,
-		lastUpdated => 1167319763
-	},
-
 	'967' => {
 		message => q|افرغ سلة المهملات الخاصة بالنظام<br />|,
 		lastUpdated => 1168364251
@@ -1421,9 +1556,14 @@ our $I18N = {
 		lastUpdated => 1167240853
 	},
 
+	'settings groupIdAdminCommerce hoverHelp' => {
+		message => q|المجموعة التي ستقوم بادارة ضبط التجارة|,
+		lastUpdated => 1201532914
+	},
+
 	'164 description' => {
-		message => q||,
-		lastUpdated => 
+		message => q|  <p dir="rtl" class="MsoNormal"><span>قم بضبط طريقة التوثيق الاعتيادية للحسابات الجديدة. الطرق الموجودة اعتياديا هي ويب جوي أو </span><span>LADP</span><span>. توثيق ويب جوي يعني ان المستخدمين سيتم توثيقهم باستخدام اسم المستخدم وكلمة السر الموجودة في قاعدة بيانات ويب جوي. </span><span>LADP</span><span> يعني ان المستخدمين سيتم توثيقهم باستخدام خادم </span><span>LADP</span><span> خارجي. من الممكن ان تتوفر طرق توثيق اخرى بكتابة برنامج توثيق مخصص. </span></p>  <p dir="rtl" class="MsoNormal"><span>&nbsp;</span></p>  <p dir="rtl" class="MsoNormal"><span>ملاحظة: </span></p>  <p dir="rtl" class="MsoNormal"><span>ضبط التوثيق ممكن تخصيصه بطريقة مستخدم بمستخدم. </span></p>  <p dir="rtl" class="MsoNormal"><span>بناء على اشكال التوثيق التي قمت بتنصيبها على النظام الخاص بك, سترى أي عدد من الاختيارات بعد هذه النقطة.</span></p>  |,
+		lastUpdated => 1177776634
 	},
 
 	'353' => {
@@ -1437,8 +1577,8 @@ our $I18N = {
 	},
 
 	'863 description' => {
-		message => q||,
-		lastUpdated => 
+		message => q|  <p dir="rtl" class="MsoNormal"><span>فرق عدد الايام من تاريخ الانتهاء إلى تاريخ مسح المجموعة من النظام. من الممكن ان تضبط هذا على أي رقم صحيح مسموح به. مثلا اضبط هذا على &quot;0&quot; اذا اردت ان تمسح المجموعة في نفس الويم الذي تنتهي فيه المجموعة. اضبطه على &quot;-7&quot; أو &quot;7&quot; اذا اردت المجموعة ان تمسح بعد أو قبل اريخ الانتهاء بسبعة ايام بالتتابع.</span></p>  |,
+		lastUpdated => 1178467256
 	},
 
 	'984' => {
@@ -1471,14 +1611,14 @@ our $I18N = {
 		lastUpdated => 1171896987
 	},
 
+	'settings groupIdAdminLDAPLink hoverHelp' => {
+		message => q|المجموعة التي ستدير وصلات ال ايه دي بي|,
+		lastUpdated => 1201534335
+	},
+
 	'699' => {
 		message => q|اليوم الاول من اسبوع<br />|,
 		lastUpdated => 1167320006
-	},
-
-	'960' => {
-		message => q|سلة المهملات, ادر<br />|,
-		lastUpdated => 1168364198
 	},
 
 	'cancel' => {
@@ -1486,9 +1626,19 @@ our $I18N = {
 		lastUpdated => 1168366338
 	},
 
+	'user profile field friend availability' => {
+		message => q|هل انت موجود لكي يتم اضافتك كصديق؟|,
+		lastUpdated => 1201535017
+	},
+
 	'818' => {
 		message => q|تم ايقافه<br />|,
 		lastUpdated => 1167321650
+	},
+
+	'user email template' => {
+		message => q|نموذج بريد دعوات المستخدمين|,
+		lastUpdated => 1201534925
 	},
 
 	'130' => {
@@ -1511,14 +1661,14 @@ our $I18N = {
 		lastUpdated => 1168363915
 	},
 
-	'manage groups in group body' => {
-		message => q||,
-		lastUpdated => 
-	},
-
 	'354' => {
 		message => q|اظهر صندوق البريد الوارد<br />|,
 		lastUpdated => 1167241779
+	},
+
+	'private message sent' => {
+		message => q|تم ارسال رسالتك الخاصة|,
+		lastUpdated => 1201531359
 	},
 
 	'461' => {
@@ -1526,24 +1676,29 @@ our $I18N = {
 		lastUpdated => 1167245467
 	},
 
-	'583' => {
-		message => q|الحجم الاقصى للصورة<br />|,
-		lastUpdated => 1167319422
-	},
-
 	'debug ip description' => {
 		message => q|سيقوم هذا بحد تصحيح الاخطاء و الاداء الخارج الى عنوان اي بي محدد مجال اي بي محدد. ادخل السب نت الذي تريد ان يكون قادرا على الاطلاع على خارج التصحيح في شكلCIDR.<br />|,
 		lastUpdated => 1171891914
 	},
 
-	'951' => {
-		message => q|هل انت متاكد من انك تريد افراغ لوحة القص فيسلة المهملات<br />|,
-		lastUpdated => 1168364057
+	'583' => {
+		message => q|الحجم الاقصى للصورة<br />|,
+		lastUpdated => 1167319422
+	},
+
+	'settings groupIdAdminGraphics hoverHelp' => {
+		message => q|المجموعة التي ستيدر حالة الاحرف والالوان|,
+		lastUpdated => 1201533026
 	},
 
 	'show performance indicators' => {
 		message => q|اظهر عدادات الاداء؟<br />|,
 		lastUpdated => 1171460104
+	},
+
+	'951' => {
+		message => q|هل انت متاكد من انك تريد افراغ لوحة القص فيسلة المهملات<br />|,
+		lastUpdated => 1168364057
 	},
 
 	'85' => {
@@ -1576,11 +1731,6 @@ our $I18N = {
 		lastUpdated => 1171897354
 	},
 
-	'leftovers from settings stored for later' => {
-		message => q||,
-		lastUpdated => 
-	},
-
 	'745' => {
 		message => q|ارجع الى الصفحة<br />|,
 		lastUpdated => 1167320625
@@ -1597,8 +1747,8 @@ our $I18N = {
 	},
 
 	'230 description' => {
-		message => q||,
-		lastUpdated => 
+		message => q|الرسالة التي سترسل الى اعضاء المجموعة. سترسل الرسالة في شكل اتش تي ام ال. لا يمكن وضع مرفقات.<br />|,
+		lastUpdated => 1177184177
 	},
 
 	'90' => {
@@ -1611,19 +1761,24 @@ our $I18N = {
 		lastUpdated => 1168366756
 	},
 
+	'private message delete text' => {
+		message => q|امسح|,
+		lastUpdated => 1201531254
+	},
+
 	'565' => {
 		message => q|من الذي يمكنه الاشراف؟<br />|,
 		lastUpdated => 1167319303
 	},
 
-	'620' => {
-		message => q||,
-		lastUpdated => 
+	'private message status replied' => {
+		message => q|تم الرد|,
+		lastUpdated => 1201531372
 	},
 
 	'977 description' => {
-		message => q||,
-		lastUpdated => 
+		message => q|اضبط هذا على نعم لتجعل هذا المستخدم مدير مجموعة. مديري المجموعات لديهم القدرة على اضافة وحذف المستخدمين من مجموعاتهم<br />|,
+		lastUpdated => 1178463229
 	},
 
 	'1004' => {
@@ -1656,6 +1811,11 @@ our $I18N = {
 		lastUpdated => 1167150389
 	},
 
+	'user email template description' => {
+		message => q|النموذج المستخدم لبناء بريد الدعوة للمستخدم|,
+		lastUpdated => 1201534948
+	},
+
 	'57' => {
 		message => q|هذا مهم فقط اذا كنت تريد استخدام الخواص التي تتطلب البريد الالكتروني<br />|,
 		lastUpdated => 1167319340
@@ -1666,6 +1826,11 @@ our $I18N = {
 		lastUpdated => 1167243999
 	},
 
+	'user profile field private message allow none label' => {
+		message => q|لا تسمح لاحد|,
+		lastUpdated => 1201535037
+	},
+
 	'872' => {
 		message => q|من الممكن ان يظهر؟<br />|,
 		lastUpdated => 1168363569
@@ -1674,6 +1839,11 @@ our $I18N = {
 	'image manager' => {
 		message => q|مدير الصور<br />|,
 		lastUpdated => 1171896951
+	},
+
+	'high user count' => {
+		message => q|يوجد اكثر من 250 مستخدم. من فضلك استخدم البحث لتجد المستخدم.|,
+		lastUpdated => 1201531027
 	},
 
 	'316' => {
@@ -1721,6 +1891,11 @@ our $I18N = {
 		lastUpdated => 1167244196
 	},
 
+	'additional parameters help' => {
+		message => q|<p>حدد الباراميترز لاضافية لقاعدة لوصلة قاعدة البيانات الخاصة بك. استخدم واحد ف كل سطر وافصل اسم الباراميتر عن القيمة بعلامة محددة مثل::</p><p>&nbsp;</p><p>LongReadLen=1024<br /> LongTruncOk=1 </p>|,
+		lastUpdated => 1201530713
+	},
+
 	'89' => {
 		message => q|مجموعات|,
 		lastUpdated => 1168363814
@@ -1732,13 +1907,18 @@ our $I18N = {
 	},
 
 	'allowed keywords description' => {
-		message => q||,
-		lastUpdated => 
+		message => q|يمكنك ادخال التصاريح المسموحة الى وصلة قاعدة البيانات هذه. اختيار امن (للقراءة فقط) هو SELECT, DESCRIBE and SHOW. كلمات البحث المختلفة جيب ان تفصل بمسافات بيضاء|,
+		lastUpdated => 1178463427
 	},
 
 	'988' => {
 		message => q|هل انت متاكد من انك تريد مسح وصلة قاعدة البيانات هذه؟<br />|,
 		lastUpdated => 1168364538
+	},
+
+	'private message title' => {
+		message => q|ارسل رسالة خاصة|,
+		lastUpdated => 1201531434
 	},
 
 	'35' => {
@@ -1747,18 +1927,18 @@ our $I18N = {
 	},
 
 	'141 description' => {
-		message => q||,
-		lastUpdated => 
+		message => q|اذا لم توجد الصفحة التي يطلبها المستخدم على النظام, من الممكن ان يعاد توجيه المستخدم الى الصفحة الرئيسية او الى صفحة خطأ حيث سيمكنهم محاولة ايجاد ما كانوا يبحثون عنه. قرر انت ما هو الاحخسن لمستخدميك.<br />|,
+		lastUpdated => 1177183993
+	},
+
+	'settings groupIdAdminDatabaseLink label' => {
+		message => q|وصلة قاعدة بيانات|,
+		lastUpdated => 1201533003
 	},
 
 	'347' => {
 		message => q|اظهر الملف لـ<br />|,
 		lastUpdated => 1167241693
-	},
-
-	'665' => {
-		message => q|مجموعة, امسح<br />|,
-		lastUpdated => 1167319802
 	},
 
 	'pagination.url' => {
@@ -1797,8 +1977,8 @@ our $I18N = {
 	},
 
 	'538 description' => {
-		message => q||,
-		lastUpdated => 
+		message => q|اذا قمت بتشغيل الكرما, سيمكنك ضبط هذه القيمة. Karma Threshold هي قيمة الكرما التي يجب ان تكون لدى المستخدم ليعتبر جزء من هذه المجموعة.<br />|,
+		lastUpdated => 1177776867
 	},
 
 	'442' => {
@@ -1824,6 +2004,11 @@ our $I18N = {
 	'73' => {
 		message => q|ادخل|,
 		lastUpdated => 1167320281
+	},
+
+	'settings groupIdAdminGroup hoverHelp' => {
+		message => q|المجموعة التي ستدير كل المجموعات|,
+		lastUpdated => 1201533054
 	},
 
 	'67' => {
@@ -1861,14 +2046,24 @@ our $I18N = {
 		lastUpdated => 1171891403
 	},
 
+	'settings groupIdAdminWorkflow label' => {
+		message => q|سريان العمل|,
+		lastUpdated => 1201534827
+	},
+
+	'settings groupIdAdminGroupAdmin label' => {
+		message => q|مجموعات (محدد)|,
+		lastUpdated => 1201533119
+	},
+
 	'732' => {
 		message => q|3 جديد<br />|,
 		lastUpdated => 1167320343
 	},
 
 	'51 description' => {
-		message => q||,
-		lastUpdated => 
+		message => q|كلمة السر لحساب المدير. لا تنسى ان تغير هذا من الاعتيادي |,
+		lastUpdated => 1177184762
 	},
 
 	'811' => {
@@ -1877,18 +2072,13 @@ our $I18N = {
 	},
 
 	'994 description' => {
-		message => q||,
-		lastUpdated => 
+		message => q|اسم المستخدم الذي تستخدمه للاتصال بDSN&nbsp; |,
+		lastUpdated => 1178463565
 	},
 
-	'957' => {
-		message => q|لوحة القص, ادر<br />|,
-		lastUpdated => 1168364117
-	},
-
-	'622' => {
-		message => q||,
-		lastUpdated => 
+	'allow access from macros' => {
+		message => q|اسمح للاتصال عن طريق الماكروهات|,
+		lastUpdated => 1201530730
 	},
 
 	'361' => {
@@ -1912,8 +2102,8 @@ our $I18N = {
 	},
 
 	'purge workflow help' => {
-		message => q||,
-		lastUpdated => 
+		message => q|اي سريان عمل يجب ان يعمل عندما يتم تنظيف الاصل<br />|,
+		lastUpdated => 1178463683
 	},
 
 	'970' => {
@@ -1972,8 +2162,8 @@ our $I18N = {
 	},
 
 	'945 description' => {
-		message => q||,
-		lastUpdated => 
+		message => q|  <p style="text-align: right; direction: rtl; unicode-bidi: embed" dir="rtl"><span>من الممكن ان يتم ربط مستخدم ديناميكيا بمجموعة بمتغير بحث في حلقته. متغيرات البحث من الممكن ان يتم ضبطها بشكل برمجي من خلال الانترنت. لكي تقوم بضبط متغير البحث من خلال الانترنت, الصق الاتي في نهاية أي رابط </span></p>  <p style="text-align: right; direction: rtl; unicode-bidi: embed" dir="rtl"><em><span>?op=setScratch&amp;scratchName=somename&amp;scratchValue=somevalue</span></em><span> </span><span></span></p>  <p style="text-align: right; direction: rtl; unicode-bidi: embed" dir="rtl"><span>بما انك قمت بهذا, عندما ينقر مستخدم على الوصلة سيضاف متغير بحث إلى حلقتهم باسم &quot;</span><span>www_somename</span><span>&quot;</span><span> و قيمة &quot;</span><span> </span><span>somevalue</span><span>&quot;. </span><span>&quot;www_&quot;</span><span> يتم ضبطها مسبقا لمنع طلبات الانترنت من اعادة كتابة متغيرات سكراتش التي تم ضبطها بشكل برمجي. </span><span></span></p>  <p style="text-align: right; direction: rtl; unicode-bidi: embed" dir="rtl"><span>لكي تضيف فلتر بحث اضف ببساطة سطر إلى مجال </span><span>scratch filter</span><span> ويكون شكله: </span><em><span>www_somename=somevalue</span></em><span> </span><span></span></p>  <p style="text-align: right; direction: rtl; unicode-bidi: embed" dir="rtl"><span>العديد من الفلاتر من الممكن ان يتم ضبطها بربط ازواج الاسم والقيمة بعلامة </span><span>;</span><span> </span><span></span></p>  <p style="text-align: right; direction: rtl; unicode-bidi: embed" dir="rtl"><em><span>www_somename=somevalue;otherName=otherValue</span></em><span> </span><span></span></p>  |,
+		lastUpdated => 1178469646
 	},
 
 	'971' => {
@@ -1989,6 +2179,11 @@ our $I18N = {
 	'page statistics' => {
 		message => q|احصائيات الصفحة<br />|,
 		lastUpdated => 1171898028
+	},
+
+	'settings groupIdAdminLoginHistory label' => {
+		message => q|تاريخ الدخول|,
+		lastUpdated => 1201534370
 	},
 
 	'355' => {
@@ -2016,6 +2211,11 @@ our $I18N = {
 		lastUpdated => 1167320071
 	},
 
+	'private message blocked error' => {
+		message => q|المستخدم لا يرغب في استقبال رسائل خاصة|,
+		lastUpdated => 1201531133
+	},
+
 	'326' => {
 		message => q|زيب كود المنزل<br />|,
 		lastUpdated => 1167240897
@@ -2036,11 +2236,6 @@ our $I18N = {
 		lastUpdated => 1167319098
 	},
 
-	'681' => {
-		message => q|المجموعات, مستخدمة<br />|,
-		lastUpdated => 1167319956
-	},
-
 	'1017' => {
 		message => q|الرد الاخير|,
 		lastUpdated => 1167150060
@@ -2056,14 +2251,14 @@ our $I18N = {
 		lastUpdated => 1167241023
 	},
 
+	'private message from label' => {
+		message => q|نموذج|,
+		lastUpdated => 1201531268
+	},
+
 	'1029' => {
 		message => q|عدل في<br />|,
 		lastUpdated => 1167150155
-	},
-
-	'698' => {
-		message => q||,
-		lastUpdated => 
 	},
 
 	'538' => {
@@ -2074,6 +2269,11 @@ our $I18N = {
 	'pagination.firstPageUrl' => {
 		message => q|مكون الرابط الخاص ب pagination.firstPageانكسر|,
 		lastUpdated => 1168368569
+	},
+
+	'high group count' => {
+		message => q|يوجد اكثر من 250 مجموعة. من فضلك استخدم البحث لتد هذه المجموعة.|,
+		lastUpdated => 1201530997
 	},
 
 	'554' => {
@@ -2096,6 +2296,11 @@ our $I18N = {
 		lastUpdated => 1167319070
 	},
 
+	'allow access from macros help' => {
+		message => q|هل يسمح للماكروهات بالاتصال بهذا الـDatabaseLink؟|,
+		lastUpdated => 1201530759
+	},
+
 	'hex slider' => {
 		message => q|Hex slider|,
 		lastUpdated => 1171896833
@@ -2109,6 +2314,16 @@ our $I18N = {
 	'433' => {
 		message => q|وكيل المستخدم<br />|,
 		lastUpdated => 1167244893
+	},
+
+	'settings groupIdAdminWorkflow hoverHelp' => {
+		message => q|المجموعة التي ستدير سريان العمل|,
+		lastUpdated => 1201534781
+	},
+
+	'settings groupIdAdminLoginHistory hoverHelp' => {
+		message => q|المجموعة التي يمكنها الاطلاع على تاريخ الدخول|,
+		lastUpdated => 1201534362
 	},
 
 	'pagination.previousPageUrl' => {
@@ -2137,8 +2352,8 @@ our $I18N = {
 	},
 
 	'890' => {
-		message => q||,
-		lastUpdated => 
+		message => q|  <p dir="rtl" class="MsoNormal"><span>للويب جوي نظام ثانوي يمكنه عمل نوافذ. سترى هذا في النماذج المعقدة مثل تعديل الصفحات. من اجل ان تجعل نظام النزافذ الداخلية بشكل جيد ويتماشى مع موقعك ستحتاج إلى اضافة قسم إلى لوحة الشكل الخاصة بشكل موقعك. </span></p>  <p dir="rtl" class="MsoNormal"><span>طبقات لوحة الشكل الاتية متوفرة:</span></p>  <p dir="rtl" class="MsoNormal"><strong><span>.tab</span></strong><span></span></p>  <p dir="rtl" class="MsoNormal"><span>المظهر الاعتيادي لكل نافذة داخلية</span></p>  <p dir="rtl" class="MsoNormal"><strong><span>div.tabs</span></strong><span></span></p>  <p dir="rtl" class="MsoNormal"><span>يقوم هذا اضا بضبط بعض الخواص لكل النوافذ الداخلية. هذا يجب استخدامه لعلامات النص في النافذة الداخلية.</span></p>  <p dir="rtl" class="MsoNormal"><strong><span>.tabBody</span></strong><span></span></p>  <p dir="rtl" class="MsoNormal"><span>مساحة المحتوى في كل نافذة داخلية. هذا المكان الذي سيظهر فيه النموذج. لاحظ انه من اجل احسن النتائج يجب ان يتماشى لون الخلفية لهذا مع لون الخلفية ل</span><span>.tabActive</span><span>.</span></p>  <p dir="rtl" class="MsoNormal"><strong><span>.tabHover</span></strong><span></span></p>  <p dir="rtl" class="MsoNormal"><span>شكل النافذة الداخلة عندما تتحرك الفأرة عليها.</span></p>  <p dir="rtl" class="MsoNormal"><strong><span>.tabActive</span></strong><span></span></p>  <p dir="rtl" class="MsoNormal"><span>شكل النافذة المرئية حاليا</span></p>  <p dir="rtl" class="MsoNormal"><span>&nbsp;</span></p>  <p dir="rtl" class="MsoNormal"><span>أمتلة:</span></p>  <p dir="rtl" class="MsoNormal"><span>من الممكن ان تستخدم هذه بدلا من عمل الشكل الخاص بك اذا اردت. أو استخدم هذه فقط كارشادات لعمل الشكل الخاص بك.</span></p>  <p style="text-align: left; direction: ltr; unicode-bidi: embed" class="MsoNormal">&nbsp;</p>  <p style="text-align: left; direction: ltr; unicode-bidi: embed" class="MsoNormal">&nbsp;</p>  <p style="text-align: left; direction: ltr; unicode-bidi: embed" class="MsoNormal"><strong>White or Light Colored Styles</strong> </p>  <p style="text-align: left; direction: ltr; unicode-bidi: embed" class="MsoNormal"><span style="font-size: 10pt; font-family: &quot;Courier New&quot;">.tab {</span></p>  <p style="text-align: left; direction: ltr; unicode-bidi: embed" class="MsoNormal"><span style="font-size: 10pt; font-family: &quot;Courier New&quot;"><span>&nbsp; </span>border: 1px solid black;</span></p>  <p style="text-align: left; direction: ltr; unicode-bidi: embed" class="MsoNormal"><span style="font-size: 10pt; font-family: &quot;Courier New&quot;"><span>&nbsp;&nbsp; </span>background-color: #eeeeee;</span></p>  <p style="text-align: left; direction: ltr; unicode-bidi: embed" class="MsoNormal"><span style="font-size: 10pt; font-family: &quot;Courier New&quot;">}</span></p>  <p style="text-align: left; direction: ltr; unicode-bidi: embed" class="MsoNormal"><span style="font-size: 10pt; font-family: &quot;Courier New&quot;">.tabBody {</span></p>  <p style="text-align: left; direction: ltr; unicode-bidi: embed" class="MsoNormal"><span style="font-size: 10pt; font-family: &quot;Courier New&quot;"><span>&nbsp;&nbsp; </span>border: 1px solid black;</span></p>  <p style="text-align: left; direction: ltr; unicode-bidi: embed" class="MsoNormal"><span style="font-size: 10pt; font-family: &quot;Courier New&quot;"><span>&nbsp;&nbsp; </span>border-top: 1px solid black;</span></p>  <p style="text-align: left; direction: ltr; unicode-bidi: embed" class="MsoNormal"><span style="font-size: 10pt; font-family: &quot;Courier New&quot;"><span>&nbsp;&nbsp; </span>border-left: 1px solid black;</span></p>  <p style="text-align: left; direction: ltr; unicode-bidi: embed" class="MsoNormal"><span style="font-size: 10pt; font-family: &quot;Courier New&quot;"><span>&nbsp;&nbsp; </span>background-color: #dddddd; </span></p>  <p style="text-align: left; direction: ltr; unicode-bidi: embed" class="MsoNormal"><span style="font-size: 10pt; font-family: &quot;Courier New&quot;">}</span></p>  <p style="text-align: left; direction: ltr; unicode-bidi: embed" class="MsoNormal"><span style="font-size: 10pt; font-family: &quot;Courier New&quot;">div.tabs {</span></p>  <p style="text-align: left; direction: ltr; unicode-bidi: embed" class="MsoNormal"><span style="font-size: 10pt; font-family: &quot;Courier New&quot;"><span>&nbsp;&nbsp;&nbsp; </span>line-height: 15px;</span></p>  <p style="text-align: left; direction: ltr; unicode-bidi: embed" class="MsoNormal"><span style="font-size: 10pt; font-family: &quot;Courier New&quot;"><span>&nbsp;&nbsp;&nbsp; </span>font-size: 14px;</span></p>  <p style="text-align: left; direction: ltr; unicode-bidi: embed" class="MsoNormal"><span style="font-size: 10pt; font-family: &quot;Courier New&quot;">}</span></p>  <p style="text-align: left; direction: ltr; unicode-bidi: embed" class="MsoNormal"><span style="font-size: 10pt; font-family: &quot;Courier New&quot;">.tabHover {</span></p>  <p style="text-align: left; direction: ltr; unicode-bidi: embed" class="MsoNormal"><span style="font-size: 10pt; font-family: &quot;Courier New&quot;"><span>&nbsp;&nbsp; </span>background-color: #cccccc;</span></p>  <p style="text-align: left; direction: ltr; unicode-bidi: embed" class="MsoNormal"><span style="font-size: 10pt; font-family: &quot;Courier New&quot;">}</span></p>  <p style="text-align: left; direction: ltr; unicode-bidi: embed" class="MsoNormal"><span style="font-size: 10pt; font-family: &quot;Courier New&quot;">.tabActive { </span></p>  <p style="text-align: left; direction: ltr; unicode-bidi: embed" class="MsoNormal"><span style="font-size: 10pt; font-family: &quot;Courier New&quot;"><span>&nbsp;&nbsp; </span>background-color: #dddddd; </span></p>  <p style="text-align: left; direction: ltr; unicode-bidi: embed" class="MsoNormal"><span style="font-size: 10pt; font-family: &quot;Courier New&quot;">}</span></p>  <p style="text-align: left; direction: ltr; unicode-bidi: embed" class="MsoNormal">&nbsp;</p>  <p style="text-align: left; direction: ltr; unicode-bidi: embed" class="MsoNormal">&nbsp;</p>  <p style="text-align: left; direction: ltr; unicode-bidi: embed" class="MsoNormal"><strong>Black or Dark Colored Styles</strong> </p>  <p style="text-align: left; direction: ltr; unicode-bidi: embed" class="MsoNormal"><span style="font-size: 10pt; font-family: &quot;Courier New&quot;">.tab {</span></p>  <p style="text-align: left; direction: ltr; unicode-bidi: embed" class="MsoNormal"><span style="font-size: 10pt; font-family: &quot;Courier New&quot;"><span>&nbsp; </span>border: 1px solid white;</span></p>  <p style="text-align: left; direction: ltr; unicode-bidi: embed" class="MsoNormal"><span style="font-size: 10pt; font-family: &quot;Courier New&quot;"><span>&nbsp;&nbsp; </span>background-color: #333333;</span></p>  <p style="text-align: left; direction: ltr; unicode-bidi: embed" class="MsoNormal"><span style="font-size: 10pt; font-family: &quot;Courier New&quot;">}</span></p>  <p style="text-align: left; direction: ltr; unicode-bidi: embed" class="MsoNormal"><span style="font-size: 10pt; font-family: &quot;Courier New&quot;">.tabBody {</span></p>  <p style="text-align: left; direction: ltr; unicode-bidi: embed" class="MsoNormal"><span style="font-size: 10pt; font-family: &quot;Courier New&quot;"><span>&nbsp;&nbsp; </span>border: 1px solid white;</span></p>  <p style="text-align: left; direction: ltr; unicode-bidi: embed" class="MsoNormal"><span style="font-size: 10pt; font-family: &quot;Courier New&quot;"><span>&nbsp;&nbsp; </span>border-top: 1px solid white;</span></p>  <p style="text-align: left; direction: ltr; unicode-bidi: embed" class="MsoNormal"><span style="font-size: 10pt; font-family: &quot;Courier New&quot;"><span>&nbsp;&nbsp; </span>border-left: 1px solid white;</span></p>  <p style="text-align: left; direction: ltr; unicode-bidi: embed" class="MsoNormal"><span style="font-size: 10pt; font-family: &quot;Courier New&quot;"><span>&nbsp;&nbsp; </span>background-color: #444444; </span></p>  <p style="text-align: left; direction: ltr; unicode-bidi: embed" class="MsoNormal"><span style="font-size: 10pt; font-family: &quot;Courier New&quot;">}</span></p>  <p style="text-align: left; direction: ltr; unicode-bidi: embed" class="MsoNormal"><span style="font-size: 10pt; font-family: &quot;Courier New&quot;">div.tabs {</span></p>  <p style="text-align: left; direction: ltr; unicode-bidi: embed" class="MsoNormal"><span style="font-size: 10pt; font-family: &quot;Courier New&quot;"><span>&nbsp;&nbsp;&nbsp; </span>line-height: 15px;</span></p>  <p style="text-align: left; direction: ltr; unicode-bidi: embed" class="MsoNormal"><span style="font-size: 10pt; font-family: &quot;Courier New&quot;"><span>&nbsp;&nbsp;&nbsp; </span>font-size: 14px;</span></p>  <p style="text-align: left; direction: ltr; unicode-bidi: embed" class="MsoNormal"><span style="font-size: 10pt; font-family: &quot;Courier New&quot;">}</span></p>  <p style="text-align: left; direction: ltr; unicode-bidi: embed" class="MsoNormal"><span style="font-size: 10pt; font-family: &quot;Courier New&quot;">.tabHover {</span></p>  <p style="text-align: left; direction: ltr; unicode-bidi: embed" class="MsoNormal"><span style="font-size: 10pt; font-family: &quot;Courier New&quot;"><span>&nbsp;&nbsp; </span>background-color: #555555;</span></p>  <p style="text-align: left; direction: ltr; unicode-bidi: embed" class="MsoNormal"><span style="font-size: 10pt; font-family: &quot;Courier New&quot;">}</span></p>  <p style="text-align: left; direction: ltr; unicode-bidi: embed" class="MsoNormal"><span style="font-size: 10pt; font-family: &quot;Courier New&quot;">.tabActive { </span></p>  <p style="text-align: left; direction: ltr; unicode-bidi: embed" class="MsoNormal"><span style="font-size: 10pt; font-family: &quot;Courier New&quot;"><span>&nbsp;&nbsp; </span>background-color: #444444; </span></p>  <p style="text-align: left; direction: ltr; unicode-bidi: embed" class="MsoNormal"><span style="font-size: 10pt; font-family: &quot;Courier New&quot;">}</span></p>  |,
+		lastUpdated => 1178729491
 	},
 
 	'440' => {
@@ -2182,8 +2397,8 @@ our $I18N = {
 	},
 
 	'admin console template description' => {
-		message => q||,
-		lastUpdated => 
+		message => q|الشكل الخارجي للاستخدام في لوحة التحكم|,
+		lastUpdated => 1178463479
 	},
 
 	'1072' => {
@@ -2196,14 +2411,19 @@ our $I18N = {
 		lastUpdated => 1171898055
 	},
 
+	'editSettings done' => {
+		message => q|تم حفظ الضبط|,
+		lastUpdated => 1201530817
+	},
+
 	'118 description' => {
 		message => q|هل تريد ان تمكين زوار موقعك من تسجيل نفسهم؟<br />|,
 		lastUpdated => 1167152699
 	},
 
-	'612' => {
-		message => q||,
-		lastUpdated => 
+	'settings groupIdAdminAdSpace hoverHelp' => {
+		message => q|المجموعة التي ستدير الاعلانات|,
+		lastUpdated => 1201531826
 	},
 
 	'126 description' => {
@@ -2212,8 +2432,8 @@ our $I18N = {
 	},
 
 	'991 description' => {
-		message => q||,
-		lastUpdated => 
+		message => q|معرف فريد لوصلة قاعدة البيانات المستخدمه داخليا من الويب جوي<br />|,
+		lastUpdated => 1178463610
 	},
 
 	'827' => {
@@ -2221,14 +2441,14 @@ our $I18N = {
 		lastUpdated => 1168363026
 	},
 
+	'settings groupIdAdminProductManager label' => {
+		message => q|المنتجات|,
+		lastUpdated => 1201534392
+	},
+
 	'91' => {
 		message => q|الصفحة السابقة<br />|,
 		lastUpdated => 1168363887
-	},
-
-	'1086' => {
-		message => q|  <p dir="rtl" class="MsoNormal"><span>العديد من الوبجيكتس لها خواص ترتيب الصفحات. بالرغم من أن بعض الوبجيكتس تعرف متغيرات ترتيب الصفحات الخاصة بها, الاغلب تستخدم مجموعة مشتركة من متغيرات ترتيب الصفحات. </span></p>  |,
-		lastUpdated => 1167151792
 	},
 
 	'701' => {
@@ -2271,6 +2491,11 @@ our $I18N = {
 		lastUpdated => 1167319273
 	},
 
+	'settings groupIdAdminUserAdd hoverHelp' => {
+		message => q|المجموعة التي يمكنها فقط ان تضيف مستخدمين جدد|,
+		lastUpdated => 1201534696
+	},
+
 	'trash workflow' => {
 		message => q|سريان عمل سلة المهملات<br />|,
 		lastUpdated => 1171891130
@@ -2282,18 +2507,13 @@ our $I18N = {
 	},
 
 	'41' => {
-		message => q||,
-		lastUpdated => 
+		message => q|انت تحاول ان تزيل مكون مهم في نظام الويب جوي. اذا كان مسموح لك بالاكما من الممكن ان يتوقف الويب جوي عن العمل<br /> |,
+		lastUpdated => 1177184610
 	},
 
 	'link settings' => {
 		message => q|ضبط الوصلات<br />|,
 		lastUpdated => 1171897087
-	},
-
-	'668' => {
-		message => q|صفحات الشكل, تستخدم<br />|,
-		lastUpdated => 1167319852
 	},
 
 	'52' => {
@@ -2304,11 +2524,6 @@ our $I18N = {
 	'750' => {
 		message => q|امسح هذا المستخدم<br />|,
 		lastUpdated => 1167320701
-	},
-
-	'657' => {
-		message => q|مستخدم, امسح<br />|,
-		lastUpdated => 1167319751
 	},
 
 	'229' => {
@@ -2331,6 +2546,11 @@ our $I18N = {
 		lastUpdated => 1167320858
 	},
 
+	'settings groupIdAdminGroupAdmin hoverHelp' => {
+		message => q|المجموعة التي ستدير المجموعات الني يكون المستخدم فيها مشرف|,
+		lastUpdated => 1201533107
+	},
+
 	'68' => {
 		message => q|معلومات الحساب التي ادخلتها غير مقبولة. اما ان الحساب غير موجود او ان اسم المستخدم او كلمة السر خطأ<br />|,
 		lastUpdated => 1167319939
@@ -2342,8 +2562,8 @@ our $I18N = {
 	},
 
 	'400 description' => {
-		message => q||,
-		lastUpdated => 
+		message => q|بعض الشركات عندها خادمات وسيطة تسبب مشاكل مع الويب جوي. اذا كنت تعاني مشاكل مع الويب جوي, ولديك خادم وسيط, يجب ان تضبط الضبط على نعم. ضع في الاعتبار ان روابط الويب جوي لن تكون صديقه للمستخدم بعد تشغيل هذه الخاصية.<br />|,
+		lastUpdated => 1177184502
 	},
 
 	'893' => {
@@ -2372,8 +2592,8 @@ our $I18N = {
 	},
 
 	'995 description' => {
-		message => q||,
-		lastUpdated => 
+		message => q|كلمة السر التي تستخدمها للاتصال بDSN<br />|,
+		lastUpdated => 1178463532
 	},
 
 	'484' => {
@@ -2391,14 +2611,19 @@ our $I18N = {
 		lastUpdated => 1171459737
 	},
 
+	'settings groupIdAdminCommerce label' => {
+		message => q|التجارة|,
+		lastUpdated => 1201532928
+	},
+
 	'ui' => {
 		message => q|UI|,
 		lastUpdated => 1171891166
 	},
 
-	'623' => {
-		message => q||,
-		lastUpdated => 
+	'run on admin create user help' => {
+		message => q|شغل عندما يقوم مشرف بعمل مستخدم|,
+		lastUpdated => 1201531492
 	},
 
 	'content filters' => {
@@ -2426,6 +2651,11 @@ our $I18N = {
 		lastUpdated => 1167151650
 	},
 
+	'Enable user invitations' => {
+		message => q|شغل دعوات المستخدم|,
+		lastUpdated => 1201197083
+	},
+
 	'pagination.nextPageUrl' => {
 		message => q|مكون الرابط الخاص ب pagination.nextPageانكسر|,
 		lastUpdated => 1168368549
@@ -2442,8 +2672,8 @@ our $I18N = {
 	},
 
 	'583 description' => {
-		message => q||,
-		lastUpdated => 
+		message => q|  <p dir="rtl" class="MsoNormal"><span>اذا تم رفع صور على نظامك اكبر من الحجم الاقصى, سيتم تعديل حجمها إلى الحجم الاقصى. يقاس الحجم الاقصى بالبكسيل للجانب الاطول للصورة ليعرف ان الصورة قد وصلت إلى الحد المطلوب.</span></p>  |,
+		lastUpdated => 1177777107
 	},
 
 	'127 description' => {
@@ -2471,11 +2701,6 @@ our $I18N = {
 		lastUpdated => 1168368260
 	},
 
-	'997' => {
-		message => q|وصلات قاعدة البيانات, ادر<br /> |,
-		lastUpdated => 1168364681
-	},
-
 	'36' => {
 		message => q|يجب ان تكون مديرا لكي تقوم بهذه الخاصية. من فضلك اتصل باحد مديريك|,
 		lastUpdated => 1167241843
@@ -2484,11 +2709,6 @@ our $I18N = {
 	'settings' => {
 		message => q|الضبط|,
 		lastUpdated => 1171459963
-	},
-
-	'groups default body' => {
-		message => q||,
-		lastUpdated => 
 	},
 
 	'748' => {
@@ -2509,11 +2729,6 @@ our $I18N = {
 	'317' => {
 		message => q|<a href="http://www.icq.com/">ICQ</a> UIN|,
 		lastUpdated => 1167240813
-	},
-
-	'608' => {
-		message => q||,
-		lastUpdated => 
 	},
 
 	'169' => {
@@ -2552,13 +2767,13 @@ our $I18N = {
 	},
 
 	'974 description' => {
-		message => q||,
-		lastUpdated => 
+		message => q|هل ترغب في السماح للمستخدمين بأضافة انفسهم الى مجموعة؟ انظر ماكرو GroupAdd لمزيد من المعلومات<br />|,
+		lastUpdated => 1178463146
 	},
 
 	'85 description' => {
-		message => q||,
-		lastUpdated => 
+		message => q|الشرح المطول للمجموعة حتىيعرف لمشرفين ومديري المادة فائدة هذه المجموعة<br /> |,
+		lastUpdated => 1177777806
 	},
 
 	'407' => {
@@ -2576,6 +2791,16 @@ our $I18N = {
 		lastUpdated => 1171460196
 	},
 
+	'settings groupIdAdminActiveSessions label' => {
+		message => q|الحلقات الفاعلة|,
+		lastUpdated => 1201531814
+	},
+
+	'settings groupIdAdminCache label' => {
+		message => q|الذاكرة المؤقتة|,
+		lastUpdated => 1201531866
+	},
+
 	'125' => {
 		message => q|اسم الشركة<br />|,
 		lastUpdated => 1167152755
@@ -2586,19 +2811,19 @@ our $I18N = {
 		lastUpdated => 1167245089
 	},
 
+	'send private message template' => {
+		message => q|نموذج ارسال رسالة خاصة|,
+		lastUpdated => 1201531564
+	},
+
+	'run on admin create user' => {
+		message => q|في حين عمل المستخدم (مشرف)|,
+		lastUpdated => 1201531476
+	},
+
 	'1007' => {
 		message => q|نوع المادة<br />|,
 		lastUpdated => 1167150003
-	},
-
-	'667' => {
-		message => q|مجموعة, اضف/عدل|,
-		lastUpdated => 1167319815
-	},
-
-	'998' => {
-		message => q|وصلة قاعدة البيانات, اضف/عدل<br />|,
-		lastUpdated => 1168364698
 	},
 
 	'95' => {
@@ -2608,7 +2833,7 @@ our $I18N = {
 
 	'user function style description' => {
 		message => q|يعرف اي شكل يجب ان يستخدم في عمليات الويب جوي عندما تكون متوفرة للمستخدم|,
-		lastUpdated => 1171891632
+		lastUpdated => 1201534953
 	},
 
 	'313' => {
@@ -2659,11 +2884,6 @@ our $I18N = {
 	'url extension description' => {
 		message => q|<p>اضف بعدا جديدا مثل اتش تي ام ال او بي اتش بي او ايه اس بي الى كل صفحة جديدة تضاف الى الويب جوي</p><p>&nbsp;</p><p>ملاحظة: لا تضف النقطة &quot;.&quot; عندما تدخل البعد بحث يظهر البعد &quot;HTML&quot; او &quot;ASP&quot;&nbsp;</p>|,
 		lastUpdated => 1171891374
-	},
-
-	'697' => {
-		message => q|كرما, تستخدم<br />|,
-		lastUpdated => 1167319992
 	},
 
 	'pagination.previousPage' => {
@@ -2717,8 +2937,8 @@ our $I18N = {
 	},
 
 	'367 description' => {
-		message => q||,
-		lastUpdated => 
+		message => q|<p>كمية الوقت التي سيبقى فيها المستخدم عضو في المجموعة قبل ان يتم ازالته منها. هذا مفيد جدا لمواقع الاشتراك حيث يكون للمستخدمين صلاحيات محددة لمدة محددة من الوقت. </p><p>ملاحظة: يمكن تجاوز هذا بشكل مستخدم بمستخدم.&nbsp;</p>|,
+		lastUpdated => 1177184263
 	},
 
 	'1069 description' => {
@@ -2726,24 +2946,34 @@ our $I18N = {
 		lastUpdated => 1167150856
 	},
 
+	'settings groupIdAdminCron label' => {
+		message => q|Cron|,
+		lastUpdated => 1201532976
+	},
+
+	'private message submit label' => {
+		message => q|ادخل|,
+		lastUpdated => 1201531425
+	},
+
 	'81' => {
 		message => q|تم تحديث الحساب بنجاح<br />|,
 		lastUpdated => 1167321139
 	},
 
+	'view inbox message template' => {
+		message => q|نموذج رسالة صنجوق الوارد|,
+		lastUpdated => 1201535067
+	},
+
 	'824 description' => {
-		message => q||,
-		lastUpdated => 
+		message => q|سيتم عمل المؤخرة للماركوهات&nbsp; وسيتم ارفاقها بكل بريد يتم ارساله من هذا المكان في ويب جوي<br />|,
+		lastUpdated => 1177777721
 	},
 
 	'321' => {
 		message => q|الهاتف النقال<br />|,
 		lastUpdated => 1167240845
-	},
-
-	'group email title' => {
-		message => q|مجموعة, بريد الكتروني<br />|,
-		lastUpdated => 1171896635
 	},
 
 	'86' => {
@@ -2757,8 +2987,8 @@ our $I18N = {
 	},
 
 	'975 description' => {
-		message => q||,
-		lastUpdated => 
+		message => q|هل ترغب في السماح للمستخدمين بازالة انفسهم من هذه المجموعة؟ انظر ماكرو GroupDelete للمزيد من المعلومات |,
+		lastUpdated => 1178463184
 	},
 
 	'823' => {
@@ -2779,6 +3009,11 @@ our $I18N = {
 	'1079' => {
 		message => q|شكل قابل للطباعة<br />|,
 		lastUpdated => 1167151586
+	},
+
+	'user invitations email exists description' => {
+		message => q|تظهر هذه الرسالة عندما يكون البريد المرسل له الدعوة موجود بالفعل في النظام|,
+		lastUpdated => 1201534996
 	},
 
 	'pagination.pageNumber' => {
@@ -2804,6 +3039,11 @@ our $I18N = {
 	'808' => {
 		message => q|ارسل هذه المجموعة<br />|,
 		lastUpdated => 1167321087
+	},
+
+	'settings groupIdAdminUser label' => {
+		message => q|المستخدمين|,
+		lastUpdated => 1201534679
 	},
 
 	'885' => {
@@ -2852,18 +3092,13 @@ our $I18N = {
 	},
 
 	'56 description' => {
-		message => q||,
-		lastUpdated => 
+		message => q|عنوان البرد الالكتروني للمدير. من الممكن ان يستخدم لارسال اخطارات ادارية.<br />|,
+		lastUpdated => 1177777019
 	},
 
 	'1052' => {
 		message => q|عدل فلتر المادة<br />|,
 		lastUpdated => 1167150374
-	},
-
-	'group email body' => {
-		message => q|يقوم هذا بعمل شكل بسيط من طرق الاتصال بالمستخدم في كل مجموعات الاعضاء في وقت واحد.<br />|,
-		lastUpdated => 1171896621
 	},
 
 	'735' => {
@@ -2879,11 +3114,6 @@ our $I18N = {
 	'tinymce' => {
 		message => q|TinyMCE (IE, mozilla)|,
 		lastUpdated => 1171891095
-	},
-
-	'613' => {
-		message => q||,
-		lastUpdated => 
 	},
 
 	'1043' => {
@@ -2916,9 +3146,19 @@ our $I18N = {
 		lastUpdated => 1167320049
 	},
 
+	'user invitations email exists' => {
+		message => q|رسالة ان البريد موجود|,
+		lastUpdated => 1201534966
+	},
+
 	'952' => {
 		message => q|تاريخ لوحة القص<br />|,
 		lastUpdated => 1168364068
+	},
+
+	'private message subject label' => {
+		message => q|العنوان|,
+		lastUpdated => 1201531418
 	},
 
 	'487' => {
@@ -2936,7 +3176,7 @@ our $I18N = {
 		lastUpdated => 1171459897
 	},
 
-	'636' => {
+	'auto request commit help' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -2947,13 +3187,18 @@ our $I18N = {
 	},
 
 	'Enable passive profiling description' => {
-		message => q||,
-		lastUpdated => 
+		message => q|يستخدم بالارتباط مع الميتاداتا, يبقى هذا تسجيل من كل وبجيكت يتم الاطلاع عليه من المستخدم<br />|,
+		lastUpdated => 1178463513
 	},
 
 	'357' => {
 		message => q|الاخبار|,
 		lastUpdated => 1167241793
+	},
+
+	'settings groupIdAdminVersionTag hoverHelp' => {
+		message => q|المجموعة التي ستدير علامات النسخة|,
+		lastUpdated => 1201534735
 	},
 
 	'hidden' => {
@@ -2966,19 +3211,29 @@ our $I18N = {
 		lastUpdated => 1167319678
 	},
 
-	'455' => {
-		message => q|عدل ملف المستخدم<br />|,
-		lastUpdated => 1167245329
-	},
-
 	'1050 description' => {
 		message => q|خيط لكي تبحث عن. كل علامة الترقيم سيتم تركها<br />|,
 		lastUpdated => 1167150335
 	},
 
+	'455' => {
+		message => q|عدل ملف المستخدم<br />|,
+		lastUpdated => 1167245329
+	},
+
+	'user profile field private message friends only label' => {
+		message => q|اسمح لاصدقائي فقط|,
+		lastUpdated => 1201535048
+	},
+
 	'80' => {
 		message => q|تم عمل الحساب بنجاح!<br />|,
 		lastUpdated => 1167320960
+	},
+
+	'settings groupIdAdminReplacements hoverHelp' => {
+		message => q|المجموعة التي ستدير فلاتر المادة|,
+		lastUpdated => 1201534545
 	},
 
 	'336' => {
@@ -2996,14 +3251,34 @@ our $I18N = {
 		lastUpdated => 1167245352
 	},
 
+	'view inbox template' => {
+		message => q|نموذج صنجوق الوارد|,
+		lastUpdated => 1201535097
+	},
+
 	'821' => {
 		message => q|اي|,
 		lastUpdated => 1167321742
 	},
 
+	'wiki help target' => {
+		message => q|WebGUI Community Wiki|,
+		lastUpdated => 1201535145
+	},
+
+	'run on admin update user' => {
+		message => q|في حين تعديل مستخدم (مشرف)|,
+		lastUpdated => 1201531508
+	},
+
 	'ends with' => {
 		message => q|ينتهي بـ<br />|,
 		lastUpdated => 1171896119
+	},
+
+	'send private message template description' => {
+		message => q|اختر نموذج لارسال الرسائل الخاصة|,
+		lastUpdated => 1201531583
 	},
 
 	'pagination.lastPageText' => {
@@ -3016,24 +3291,24 @@ our $I18N = {
 		lastUpdated => 1168363896
 	},
 
+	'settings groupIdAdminDatabaseLink hoverHelp' => {
+		message => q|المجموعة التي ستدير وصلات قاعدة البيانات|,
+		lastUpdated => 1201532994
+	},
+
 	'879' => {
 		message => q|معدل كلاسيكي (انترنت اكسبلورر +)<br />|,
 		lastUpdated => 1168363592
 	},
 
 	'539 description' => {
-		message => q||,
-		lastUpdated => 
+		message => q|هل يجب تشغيل الكرما<br />|,
+		lastUpdated => 1177776880
 	},
 
-	'10' => {
-		message => q|قم بادارة سلة المهملات<br />|,
-		lastUpdated => 1166719739
-	},
-
-	'980' => {
-		message => q|افرغ هذا الملف<br />|,
-		lastUpdated => 1168364424
+	'asset locked' => {
+		message => q|هذا الاصل مغلق للتعديل تحت كود نسخة غير هذا الذي تستخدمه<br />|,
+		lastUpdated => 1178463462
 	},
 
 	'pagination.pageCount' => {
@@ -3041,24 +3316,34 @@ our $I18N = {
 		lastUpdated => 1168366836
 	},
 
+	'980' => {
+		message => q|افرغ هذا الملف<br />|,
+		lastUpdated => 1168364424
+	},
+
+	'10' => {
+		message => q|قم بادارة سلة المهملات<br />|,
+		lastUpdated => 1166719739
+	},
+
 	'864 description' => {
-		message => q||,
-		lastUpdated => 
+		message => q|  <p dir="&quot;rtl&quot;" class="&quot;msonormal0&quot;"><span>فرق عدد الايام من تاريخ</span><span> </span><span>الانتهاء إلى تاريخ الاخطار. من الممكن ان تضبط هذا على أي</span><span> </span><span>رقم صحيح مسموح به. مثلا اضبط هذا على &quot;0&quot; اذا اردت ان يرسل الاخطار في</span><span> </span><span>نفس اليوم الذي تنتهي فيه المجموعة. اضبطه على &quot;-7&quot; أو &quot;7&quot; اذا اردت</span><span> </span><span><span>&nbsp;</span>الاخطار ان يرسل </span><span>بعد أو قبل اريخ الانتهاء بسبعة ايام بالتتابع</span><span>.</span></p>  |,
+		lastUpdated => 1178470388
 	},
 
 	'992 description' => {
-		message => q||,
-		lastUpdated => 
+		message => q|عنوان لوصلة قاعدة البيانات<br />|,
+		lastUpdated => 1178463585
+	},
+
+	'958' => {
+		message => q|  <p dir="&quot;rtl&quot;" class="&quot;MsoNormal&quot;"><span>لوحة القص هي نظام خاص لاي من المحتوى من الممكن ان تقص أو تنسخ. المحتوى في لحة القص ممكن ان يتم نسخه في أي مكان اخر. </span></p>  <p dir="&quot;rtl&quot;" class="&quot;MsoNormal&quot;"><span>&nbsp;</span></p>  <p dir="&quot;rtl&quot;" class="&quot;MsoNormal&quot;"><span>من الممكن ادارة محتويات لوحة القص كل على انفراد. من الممكن ان تمسح أو تنسخ أي من العناصر باختيار الايقونة المناسبة. من الممكن أيضا ان تفرغ المحتويات كلها إلى سلة المهملات باختيار تفريغ لوحة القص من القائمة.</span></p>  <p dir="&quot;rtl&quot;" class="&quot;MsoNormal&quot;"><span>&nbsp;</span></p>  <p dir="&quot;rtl&quot;" class="&quot;MsoNormal&quot;"><span>لوحة القص ستظهر فقط الاصول التي قمت بوضعها هناك أو الموجودة حاليا تحت كود النسخة الخاص بك.</span></p>  <p dir="&quot;rtl&quot;" class="&quot;MsoNormal&quot;"><span>&nbsp;</span></p>  <p dir="&quot;rtl&quot;" class="&quot;MsoNormal&quot;"><span>اذا كنت مشرفا, من الممكن ان تصل إلى لوحة القص الخاصة بالنظام, والتي ستظهر كل الاصول من أي مستخدم والتي تم تنفيذها أو موجودة حاليا تحت كود النسخة.</span></p>  <p dir="&quot;rtl&quot;" class="&quot;MsoNormal&quot;"><span>&nbsp;</span></p>  <p dir="&quot;rtl&quot;" class="&quot;MsoNormal&quot;"><strong><span>Title</span></strong></p>  <p dir="&quot;rtl&quot;" class="&quot;MsoNormal&quot;"><span>الاسم العنصر في لوحة القص. من الممكن ان تطلع على العنصر باختيار الاسم. </span></p>  <p dir="&quot;rtl&quot;" class="&quot;MsoNormal&quot;"><strong><span>Type</span></strong></p>  <p dir="&quot;rtl&quot;" class="&quot;MsoNormal&quot;"><span>نوع المحتوى, صفحة, مقال,اجندة احداث, الخ.</span></p>  <p dir="&quot;rtl&quot;" class="&quot;MsoNormal&quot;"><strong><span>Clipboard Date</span></strong></p>  <p dir="&quot;rtl&quot;" class="&quot;MsoNormal&quot;"><span>التاريخ والوقت الذي تمت في الاضافة الى لوحة القص.</span></p>  <p dir="&quot;rtl&quot;" class="&quot;MsoNormal&quot;"><strong><span>Previous Location</span></strong></p>  <p dir="&quot;rtl&quot;" class="&quot;MsoNormal&quot;"><span>المكان الذي وجد فيه العنصر مسبقا, من الممكن ان تطلع على المكان السابق بالنقر على المكان.</span></p>  <p dir="&quot;rtl&quot;" class="&quot;MsoNormal&quot;"><strong><span>Username</span></strong></p>  <p dir="&quot;rtl&quot;" class="&quot;MsoNormal&quot;"><span>اسم المستخدم للشخص الذي وضع العنصر في لوحة القص. هذا المجال الاختياري مرئي فقط في بيئات لوحات القص المشتركة أو عندما يقوم المشرف بادارة لوحة القص.</span></p>  |,
+		lastUpdated => 1178731042
 	},
 
 	'419' => {
 		message => q|لغي اي شيء ماعدا هذا النص<br />|,
 		lastUpdated => 1167244435
-	},
-
-	'958' => {
-		message => q||,
-		lastUpdated => 
 	},
 
 	'995' => {
@@ -3086,14 +3371,19 @@ our $I18N = {
 		lastUpdated => 1171896858
 	},
 
-	'edit user karma body' => {
-		message => q|كل تعديلات الكرما من تتم اوتوماتيكيا بناء على ما يقوم به المستخدم على موقعك. على اي حال, من الممكن ايضا تعديل الكرما عن طريق المديرين.<br />|,
-		lastUpdated => 1171896108
+	'settings groupIdAdminHelp label' => {
+		message => q|المساعدة|,
+		lastUpdated => 1201534317
 	},
 
 	'406' => {
 		message => q|حجم الصورة الصغيرة<br />|,
 		lastUpdated => 1167244302
+	},
+
+	'settings groupIdAdminSpectre label' => {
+		message => q|سبكتر|,
+		lastUpdated => 1201534577
 	},
 
 	'allowed keywords' => {
@@ -3116,14 +3406,9 @@ our $I18N = {
 		lastUpdated => 1168365934
 	},
 
-	'530' => {
-		message => q|بكل الكلمات<br />|,
-		lastUpdated => 1167318882
-	},
-
-	'499' => {
-		message => q|هوية الوبجيكت<br />|,
-		lastUpdated => 1167318628
+	'557 description' => {
+		message => q|السبب الذي تغيرت من اجله كرما المستخدم.<br />|,
+		lastUpdated => 1177776953
 	},
 
 	'56' => {
@@ -3131,9 +3416,14 @@ our $I18N = {
 		lastUpdated => 1167319220
 	},
 
-	'557 description' => {
-		message => q||,
-		lastUpdated => 
+	'499' => {
+		message => q|هوية الوبجيكت<br />|,
+		lastUpdated => 1167318628
+	},
+
+	'530' => {
+		message => q|بكل الكلمات<br />|,
+		lastUpdated => 1167318882
 	},
 
 	'66' => {
@@ -3186,19 +3476,14 @@ our $I18N = {
 		lastUpdated => 1167150026
 	},
 
-	'groups default title' => {
-		message => q|مجموعات, اعتياديه<br />|,
-		lastUpdated => 1171896731
+	'pagination.pageList.upTo10' => {
+		message => q|قائمة بالعشرة الاقرب الى المصفح الموجود في الصفحة الحالية. اذا كنت في صفحة <br />, سترى وصلات ل-<br />15-25|,
+		lastUpdated => 1168368178
 	},
 
 	'141' => {
 		message => q|لم توجد الصفحة<br />|,
 		lastUpdated => 1167239454
-	},
-
-	'pagination.pageList.upTo10' => {
-		message => q|قائمة بالعشرة الاقرب الى المصفح الموجود في الصفحة الحالية. اذا كنت في صفحة <br />, سترى وصلات ل-<br />15-25|,
-		lastUpdated => 1168368178
 	},
 
 	'403' => {
@@ -3207,8 +3492,8 @@ our $I18N = {
 	},
 
 	'883' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Inline (اذا امكن تشغيله)<br />|,
+		lastUpdated => 1178463074
 	},
 
 	'clear cache' => {
@@ -3224,11 +3509,6 @@ our $I18N = {
 	'134' => {
 		message => q|قم باستعادة رسالة كلمة السر|,
 		lastUpdated => 1167238218
-	},
-
-	'655' => {
-		message => q|مستخدم, اضف\عدل<br />|,
-		lastUpdated => 1167319741
 	},
 
 	'848' => {
@@ -3252,13 +3532,28 @@ our $I18N = {
 	},
 
 	'406 description' => {
-		message => q||,
-		lastUpdated => 
+		message => q|عندما ترفع الصور على النظام, سيتم عمل صور صغيرة منهم مباشرة بناء على المواصفات المحددة هنا. الا اذا كانت هناك استثناءات لصورة, الصورة الصغيرة تقاس بالبكسيل.<br />|,
+		lastUpdated => 1177184562
 	},
 
 	'50 setup description' => {
-		message => q||,
-		lastUpdated => 
+		message => q|اسم المستخدم لحساب المدير الخاص بك. يكون اعتياديا ADMIN<br />|,
+		lastUpdated => 1177184707
+	},
+
+	'private message unread display message' => {
+		message => q|s%رسائل غير مقروءة|,
+		lastUpdated => 1201531455
+	},
+
+	'private message date label' => {
+		message => q|التاريخ|,
+		lastUpdated => 1201531140
+	},
+
+	'settings groupIdAdminGraphics label' => {
+		message => q|الجرافيكس|,
+		lastUpdated => 1201533033
 	},
 
 	'1070' => {
@@ -3311,9 +3606,9 @@ our $I18N = {
 		lastUpdated => 1168368334
 	},
 
-	'webgui tips body' => {
-		message => q|<p>هذه بعض المقتطفات المهمة عن الويب جوي: </p><p>&nbsp;</p><p><strong>Dumping a whole WebGUI site statically.</strong><br /> <em>Len Kranendonk</em> Get a copy of wget and use this: wget -p -r --html-extension -k http://the.webgui.site<br /> -p will fetch all page requisites (images, css, etc)<br /> -r is for recursively downloading all pages<br /> --html-extension will add .html to all pages. This is needed to avoid duplicate page /directory names ( /home and /home/contact).<br /> -k will convert all URLs to local URLs <br /></p>|,
-		lastUpdated => 1171891679
+	'settings groupIdAdminCron hoverHelp' => {
+		message => q|المجموعة التي ستقوم بادارة سريانات العمل المجدولة|,
+		lastUpdated => 1201532967
 	},
 
 	'databases' => {
@@ -3327,13 +3622,13 @@ our $I18N = {
 	},
 
 	'38' => {
-		message => q||,
-		lastUpdated => 
+		message => q|لا يوجد لديك الصلاحيات الكافية للقيام بهذه العملية. من فضلك سجل الدخول بحساب له صلاحيات كافية قبل محاولة هذه العملية.<br />|,
+		lastUpdated => 1177184335
 	},
 
 	'993 description' => {
-		message => q||,
-		lastUpdated => 
+		message => q|  <p dir="&quot;rtl&quot;" class="&quot;MsoNormal&quot;"><strong><span>D</span></strong><span>ata <strong>S</strong>ource <strong>N</strong>ame</span><span> <span>هو معرف فريد يستخدمه </span></span><span>Perl</span><span> لشرح موقع قاعدة البيانات الخاصة بك. تأخذ شكل: </span></p>  <p dir="&quot;rtl&quot;" class="&quot;MsoNormal&quot;"><span>DBI:[driver]:[database name]:[host].</span></p>  <p dir="&quot;rtl&quot;" class="&quot;MsoNormal&quot;"><span>&nbsp;</span></p>  <p dir="&quot;rtl&quot;" class="&quot;MsoNormal&quot;"><span>مثال: </span><span>DBI:mysql:WebGUI:localhost</span></p>  <p dir="&quot;rtl&quot;" class="&quot;MsoNormal&quot;"><span>هذه بعض الامثلة على قواعد بيانات اخرى. </span></p>  <p dir="&quot;ltr&quot;" class="&quot;MsoNormal&quot;"><a href="%22http://search.cpan.org/author/TIMB/DBD-Oracle-1.14/Oracle.pm#CONNECTING_TO_ORACLE%22">Oracle</a>:</p>  <p dir="&quot;ltr&quot;" class="&quot;MsoNormal&quot;">DBI:Oracle:SID<br /> DBD::Oracle must be installed.<br /> You must be using mod_perl and configure <strong>PerlSetEnv ORACLE_HOME /home/oracle/product/8.1.7</strong> in httpd.conf. Without setting ORACLE_HOME, you can connect using DBI:Oracle:host=myhost.com;sid=SID </p>  <p dir="&quot;ltr&quot;" class="&quot;MsoNormal&quot;"><a href="%22http://search.cpan.org/author/OYAMA/DBD-PgPP-0.04/PgPP.pm#THE_DBI_CLASS%22">PostgreSQL</a>:</p>  <p dir="&quot;ltr&quot;" class="&quot;MsoNormal&quot;">DBI:PgPP:dbname=DBNAME[;host=hOST]<br /> DBD::PgPP must be installed. </p>  <p dir="&quot;ltr&quot;" class="&quot;MsoNormal&quot;"><a href="%22http://search.cpan.org/author/MEWP/DBD-Sybase-1.00/Sybase.pm#Specifying_other_connection_specific_parameters%22">Sybase</a>:</p>  <p dir="&quot;ltr&quot;" class="&quot;MsoNormal&quot;">DBI:Sybase:[server=SERVERNAME][database=DATABASE]<br /> DBD::Sybase must be installed.<br /> You must be using mod_perl and configure <strong>PerlSetEnv SYBASE /opt/sybase/11.0.2</strong> in httpd.conf. </p>  <p dir="&quot;ltr&quot;" class="&quot;MsoNormal&quot;"><span>&nbsp;</span></p>  |,
+		lastUpdated => 1178731794
 	},
 
 	'pagination.isFirstPage' => {
@@ -3349,6 +3644,11 @@ our $I18N = {
 	'807' => {
 		message => q|ادر المجموعات في هذه المجوعة<br />|,
 		lastUpdated => 1167321063
+	},
+
+	'settings groupIdAdminActiveSessions hoverHelp' => {
+		message => q|المجموعة التي يمكنها الاطلاع على وانهاء الحلقات الفاعلة|,
+		lastUpdated => 1201531804
 	},
 
 	'945' => {

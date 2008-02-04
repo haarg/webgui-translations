@@ -2,8 +2,8 @@ package WebGUI::i18n::Hungarian::Asset_Layout;
 
 our $I18N = {
 	'dragger.init' => {
-		message => q||,
-		lastUpdated => 
+		message => q|HTML &eacute;s Javascript sz&uuml;ks&eacute;ges a kattints &eacute;s h&uacute;zd műk&ouml;d&eacute;s&eacute;hez. Ha a showAdmin hamis, ez a v&aacute;ltoz&oacute; &uuml;res.|,
+		lastUpdated => 1192404420
 	},
 
 	'content' => {
@@ -27,23 +27,13 @@ our $I18N = {
 	},
 
 	'contentPositions' => {
-		message => q||,
-		lastUpdated => 
+		message => q|String, amely az eszk&ouml;z megjelen&iacute;t&eacute;s&eacute;re szolg&aacute;l&oacute; k&uuml;l&ouml;nb&ouml;ző helyeket tartalmazza, &eacute;s melyik eszk&ouml;z, melyik helyre megy a megfelelő sorrendben.|,
+		lastUpdated => 1192404565
 	},
 
 	'dragger.icon' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'layout add/edit body' => {
-		message => q|<p>Az Oldal Elrendez&eacute;s Eszk&ouml;zt t&ouml;bbEszk&ouml;z egyidejű megjelen&iacute;t&eacute;s&eacute;re alkalmazzuk, mint p&eacute;ld&aacute;ul az Oldal Elrendez&eacute;sekben a WebGUI 5-&ouml;s verzi&oacute;j&aacute;ban. Az Oldal Elrendez&eacute;s Eszk&ouml;z egy t&ouml;bb tartalom ter&uuml;lettel rendelkező sablonb&oacute;l &aacute;ll, &eacute;s az Oldal Elrendez&eacute;s gyermek Eszk&ouml;zeit ezekben a ter&uuml;letekben helyezhetj&uuml;k el.</p><p>Az Oldal Elrendez&eacute;s Eszk&ouml;z&ouml;k egyben Wobjectek &eacute;s Eszk&ouml;z&ouml;k, &eacute;s mindkettő tulajdons&aacute;g&aacute;val rendelkeznek. Az Oldal Elrendez&eacute;s Eszk&ouml;z&ouml;k az al&aacute;bbi egyedi tulajdons&aacute;gokkal rendelkeznek:</p>|,
-		lastUpdated => 1170327280
-	},
-
-	'layout add/edit title' => {
-		message => q|Oldal Elrendez&eacute;s, Hozz&aacute;ad&aacute;s/Szerkeszt&eacute;s|,
-		lastUpdated => 1170327305
+		message => q|<p>Egy ikon, amelyet az Eszk&ouml;z helyzet&eacute;nek megv&aacute;ltoztat&aacute;s&aacute;ra alkalmazunk az eg&eacute;r kattints &eacute;s h&uacute;zd interf&eacute;sze seg&iacute;ts&eacute;g&eacute;vel. Ha a showAdmin hamis, ez a v&aacute;ltoz&oacute; &uuml;res.</p>|,
+		lastUpdated => 1192404494
 	},
 
 	'assets to hide description' => {
@@ -81,14 +71,14 @@ our $I18N = {
 		lastUpdated => 1170327425
 	},
 
-	'layout asset template variables body' => {
-		message => q|Minden eszk&ouml;z a belső eszk&ouml;z tulajdons&aacute;gok alapj&aacute;n egy csoport v&aacute;ltoz&oacute;t rendel a sablonjaihoz. A v&aacute;ltoz&oacute;k k&ouml;z&ouml;tt van olyan, amely hasznos lehet, &eacute;s van olyan, ami nem.|,
-		lastUpdated => 1170327357
-	},
-
 	'showAdmin' => {
 		message => q|Felt&eacute;tel, amely megmutatja, hogy a jelenlegi felhaszn&aacute;l&oacute; bekapcsolta-e az Admin M&oacute;dot, &eacute;s szerkesztheti-e ezt az Eszk&ouml;zt.|,
 		lastUpdated => 1170327600
+	},
+
+	'layout asset template variables body' => {
+		message => q|Minden eszk&ouml;z a belső eszk&ouml;z tulajdons&aacute;gok alapj&aacute;n egy csoport v&aacute;ltoz&oacute;t rendel a sablonjaihoz. A v&aacute;ltoz&oacute;k k&ouml;z&ouml;tt van olyan, amely hasznos lehet, &eacute;s van olyan, ami nem.|,
+		lastUpdated => 1170327357
 	},
 
 	'layout template title' => {

@@ -27,18 +27,18 @@ our $I18N = {
 	},
 
 	'sql report asset template variables body' => {
-		message => q||,
-		lastUpdated => 
+		message => q|كل اصل يوفر مجموعة من المتغيرات لاغلب النماذج بناء على الخواص الداخلية للاصل. بعضها يكون مفيدا و البعض الاخر لايكون مفيدا<br />|,
+		lastUpdated => 1177446686
 	},
 
 	'rows.count' => {
-		message => q||,
-		lastUpdated => 
+		message => q|اجمالي عدد السطور المعاده من الطلب<br />|,
+		lastUpdated => 1177446726
 	},
 
 	'databaseLinkId4' => {
 		message => q|المعرف الذي يشرح اي من فواعد البيانات سيتم تنفيذ الطلب الرابع ضدها|,
-		lastUpdated => 1174311122
+		lastUpdated => 1178737002
 	},
 
 	'18' => {
@@ -52,8 +52,8 @@ our $I18N = {
 	},
 
 	'paginateAfter' => {
-		message => q||,
-		lastUpdated => 
+		message => q|عدد السطور او المدخلات التي تعرض في كل صفحة من التقرير<br />|,
+		lastUpdated => 1177445925
 	},
 
 	'16' => {
@@ -87,8 +87,8 @@ our $I18N = {
 	},
 
 	'queryN.count.isZero' => {
-		message => q||,
-		lastUpdated => 
+		message => q|علامة تحدد ان queryN اعاد 0 من السطور<br />|,
+		lastUpdated => 1177446302
 	},
 
 	'Prequery error' => {
@@ -102,8 +102,8 @@ our $I18N = {
 	},
 
 	'placeholderParams2' => {
-		message => q||,
-		lastUpdated => 
+		message => q|علامة تحدد ما اذا كان الطلب الثاني سيحتوي ماكروهات تم عملها فبل ان ينفذ.<br /> |,
+		lastUpdated => 1177445981
 	},
 
 	'10' => {
@@ -112,13 +112,13 @@ our $I18N = {
 	},
 
 	'rows.count.isZero' => {
-		message => q||,
-		lastUpdated => 
+		message => q|علامة تحدد ان الطلب اعاد 0 من السطور<br />|,
+		lastUpdated => 1177446620
 	},
 
 	'queryN.columns_loop' => {
-		message => q||,
-		lastUpdated => 
+		message => q|دورة تحتوي معلومات عن كل عمود لـqueryN|,
+		lastUpdated => 1177446275
 	},
 
 	'11' => {
@@ -127,8 +127,8 @@ our $I18N = {
 	},
 
 	'queryN.row.number' => {
-		message => q||,
-		lastUpdated => 
+		message => q|عدد صحيح يبدأ بواحد ويعد خلال القائمة الكلية للسطور<br />|,
+		lastUpdated => 1177446440
 	},
 
 	'databaseLinkId3' => {
@@ -137,8 +137,8 @@ our $I18N = {
 	},
 
 	'preprocessMacros3' => {
-		message => q||,
-		lastUpdated => 
+		message => q|علامة تحدد ما اذا كان الطلب الثالث سيحتوي ماكروهات تم عملها فبل ان ينفذ.<br />  |,
+		lastUpdated => 1177446051
 	},
 
 	'download filename' => {
@@ -162,8 +162,8 @@ our $I18N = {
 	},
 
 	'queryN.row.field.__NAME__.value' => {
-		message => q||,
-		lastUpdated => 
+		message => q|البيانات لمجال محدد في هذا السطر حيث ان __NAME__ هو اسم المجال كما تم اعادتها من الطلب |,
+		lastUpdated => 1177446532
 	},
 
 	'columns_loop' => {
@@ -192,8 +192,8 @@ our $I18N = {
 	},
 
 	'prequeryStatements1' => {
-		message => q||,
-		lastUpdated => 
+		message => q|المجموعة الاولى من جمل SQL ما قبل الطلب<br /> |,
+		lastUpdated => 1177446156
 	},
 
 	'12' => {
@@ -212,13 +212,13 @@ our $I18N = {
 	},
 
 	'preprocessMacros5' => {
-		message => q||,
-		lastUpdated => 
+		message => q|علامة تحدد ما اذا كان الطلب الخامس سيحتوي ماكروهات تم عملها فبل ان ينفذ.<br />  |,
+		lastUpdated => 1177446069
 	},
 
 	'rows.count.isZero.label' => {
-		message => q||,
-		lastUpdated => 
+		message => q|العلامة الاعتيادة لـrows.count.isZero|,
+		lastUpdated => 1177446634
 	},
 
 	'73' => {
@@ -227,18 +227,18 @@ our $I18N = {
 	},
 
 	'Prequery statements description' => {
-		message => q||,
-		lastUpdated => 
+		message => q|  <p dir="rtl" class="MsoNormal"><span>جمل ما قبل الطلب هي جمل </span><span>SQL</span><span> يتم تنفيذها قبل الطلب الحقيقي. من الممكن ان تستخدمها مثلا لضبط المتغيرات التي تريد استخدامها في الطلب الحقيقي. مثلا: </span></p>  <p dir="rtl" class="MsoNormal"><span>set @myVariable := 1</span><span></span></p>  <p dir="rtl" class="MsoNormal"><span>&nbsp;</span></p>  <p dir="rtl" class="MsoNormal"><span>جمل ما قبل الطلب تنفصل عن بعضها بالمرجعات ولا يمكنها استخدام </span><span>placeholders</span><span>. من الممكن ان تستخدم الماكروهات في جمل ما قبل الطلب. لاحظ ان هذه الجمل مرئية فقط في الطلب التي تتبعه ويمكنك فقط استخدام الجمل المسموحة من قبل وصلة قاعدة البيانات.</span></p>  |,
+		lastUpdated => 1178726881
 	},
 
 	'queryN.rows.count' => {
-		message => q||,
-		lastUpdated => 
+		message => q|اجمالي عدد السطور العائدة من queryN|,
+		lastUpdated => 1177446457
 	},
 
 	'placeholderParams4' => {
-		message => q||,
-		lastUpdated => 
+		message => q|علامة تحدد ما اذا كان الطلب الرابع سيحتوي ماكروهات تم عملها فبل ان ينفذ.<br />  |,
+		lastUpdated => 1177446004
 	},
 
 	'download mimetype' => {
@@ -247,8 +247,8 @@ our $I18N = {
 	},
 
 	'row.field.__NAME__.value' => {
-		message => q||,
-		lastUpdated => 
+		message => q|البيانات لمجال محدد في هذا السطر حيث ان __NAME__ هو اسم المجال كما تم اعادتها من الطلب  |,
+		lastUpdated => 1177446538
 	},
 
 	'72 description' => {
@@ -257,8 +257,8 @@ our $I18N = {
 	},
 
 	'Placeholder Parameters description' => {
-		message => q||,
-		lastUpdated => 
+		message => q|  <p style="text-align: left; direction: ltr; unicode-bidi: embed" class="MsoNormal"><span>&nbsp;</span></p>  <p dir="rtl" class="MsoNormal"><span>Placeholders</span><span> <span>تسمى أيضا صانعات الباراميترز, وتستخدم في تحديد القيم في طلب </span></span><span>SQL</span><span> الذي سيتم تقديمه لاحقا, قبل ان يتم نتفيذ الجملة. </span></p>  <p dir="rtl" class="MsoNormal"><span>توجد اربعة انواع مدخلات:</span></p>  <p dir="rtl" class="MsoNormal"><span>عدد صحيح:</span></p>  <p dir="rtl" class="MsoNormal"><span>رقم بسيط</span></p>  <p dir="rtl" class="MsoNormal"><span>نموذج:</span></p>  <p dir="rtl" class="MsoNormal"><span>مجالات نموذج تبدأ بـ &quot;</span><span> </span><span>form:</span><span>&quot;</span></p>  <p dir="rtl" class="MsoNormal"><span>نتائج طلب:</span></p>  <p dir="rtl" class="MsoNormal"><span>نتائج الطلب تبدأ بـ</span><span>&quot;query1:&quot;</span><span> من خلال </span><span>&quot;query4:&quot;</span><span>. نتائج الطلب يتم عملها ببيانات من الطلبات السابقة. بناء على ذلك عندما يبدأ الطلب الثاني يمكنه ان يستخدم النتائج التي عادت من الطلب 1. عندما يتم عمل طلب 5 من الممكن ان تستخدم نتائج الطلبات 1 الى4.</span></p>  <p dir="rtl" class="MsoNormal"><span>خيط:</span></p>  <p dir="rtl" class="MsoNormal"><span>أي شيء اخر هو خيط.</span></p>  <p dir="rtl" class="MsoNormal"><span>&nbsp;</span></p>  <p dir="rtl" class="MsoNormal"><span>مثال:</span></p>  <p style="text-align: left; direction: ltr; unicode-bidi: embed" class="MsoNormal">Query: select * from some_table where some_field = ? and some_other_field &lt; ?<br /> Placeholder Parameters: query1:pageId<br /> form:field1</p>  <p dir="rtl" class="MsoNormal"><span>في هذا المثال علامة السؤال الاول ستحتوي على قيمة المجال ل</span><span> </span><span>pageId</span><span> في الطلب 1, بينما علامة السؤال الثاني ستحتوي على متغير النموذج </span><span>&quot;field1&quot;</span><span>.</span></p>  <p dir="rtl" class="MsoNormal"><span>ضع </span><span>Placeholder Parameter</span><span> واحد في كل سطر. المسافات البيضاء السابقة واللاحقة سيتم ازالتها من كل باراميتر.</span></p>  |,
+		lastUpdated => 1178736983
 	},
 
 	'Prequery not allowed' => {
@@ -272,8 +272,8 @@ our $I18N = {
 	},
 
 	'placeholderParams1' => {
-		message => q||,
-		lastUpdated => 
+		message => q|علامة تحدد ما اذا كان الطلب الاول يحتوي ماكروهات تم عملها فبل ان ينفذ.<br />|,
+		lastUpdated => 1177445965
 	},
 
 	'17' => {
@@ -282,28 +282,28 @@ our $I18N = {
 	},
 
 	'row.number' => {
-		message => q||,
-		lastUpdated => 
+		message => q|عدد صحيح يبدأ بواحد ويعد خلال القائمة الكلية للسطور<br />|,
+		lastUpdated => 1177446586
 	},
 
 	'rows_loop' => {
-		message => q||,
-		lastUpdated => 
+		message => q|دورة تحتوي البيانات العائدة من الطلب<br />|,
+		lastUpdated => 1177446649
 	},
 
 	'prequeryStatements5' => {
-		message => q||,
-		lastUpdated => 
+		message => q|المجموعة الخامسة من جمل SQL ما قبل الطلب<br />|,
+		lastUpdated => 1177446198
 	},
 
 	'queryN.rows_loop' => {
-		message => q||,
-		lastUpdated => 
+		message => q|دورة تحتوي على البيانات العائدة من queryN|,
+		lastUpdated => 1177446500
 	},
 
 	'queryN.hasNest' => {
-		message => q||,
-		lastUpdated => 
+		message => q|علامة تحدد ما اذا اعاد queryN+1 اي نتائج. هذا المتغير سيكون دائما خاطئ لـquery5 |,
+		lastUpdated => 1177446353
 	},
 
 	'Add another query' => {
@@ -322,8 +322,8 @@ our $I18N = {
 	},
 
 	'prequeryStatements3' => {
-		message => q||,
-		lastUpdated => 
+		message => q|المجموعة الثالثة من جمل SQL ما قبل الطلب<br />  |,
+		lastUpdated => 1177446173
 	},
 
 	'14' => {
@@ -337,8 +337,8 @@ our $I18N = {
 	},
 
 	'row.field_loop' => {
-		message => q||,
-		lastUpdated => 
+		message => q|دورة تحتوي على كل المجالات لهذا السطر<br />|,
+		lastUpdated => 1177446560
 	},
 
 	'download type description' => {
@@ -347,13 +347,13 @@ our $I18N = {
 	},
 
 	'placeholderParams5' => {
-		message => q||,
-		lastUpdated => 
+		message => q|علامة تحدد ما اذا كان الطلب الخامس سيحتوي ماكروهات تم عملها فبل ان ينفذ.<br />  |,
+		lastUpdated => 1177446011
 	},
 
 	'preprocessMacros4' => {
-		message => q||,
-		lastUpdated => 
+		message => q|علامة تحدد ما اذا كان الطلب الرابع سيحتوي ماكروهات تم عملها فبل ان ينفذ.<br />  |,
+		lastUpdated => 1177446060
 	},
 
 	'Placeholder Parameters' => {
@@ -362,13 +362,13 @@ our $I18N = {
 	},
 
 	'sql report asset template variables title' => {
-		message => q||,
-		lastUpdated => 
+		message => q|متغيرات نموذج اصل تقرير SQL<br />|,
+		lastUpdated => 1177446701
 	},
 
 	'prequeryStatements2' => {
-		message => q||,
-		lastUpdated => 
+		message => q|المجموعة الثانية من جمل SQL ما قبل الطلب<br />  |,
+		lastUpdated => 1177446165
 	},
 
 	'15 description' => {
@@ -382,8 +382,8 @@ our $I18N = {
 	},
 
 	'queryN.row.field_loop' => {
-		message => q||,
-		lastUpdated => 
+		message => q|دورة تحتوي كل المجالات في السطر<br />|,
+		lastUpdated => 1177446410
 	},
 
 	'databaseLinkId1' => {
@@ -397,8 +397,8 @@ our $I18N = {
 	},
 
 	'preprocessMacros2' => {
-		message => q||,
-		lastUpdated => 
+		message => q|علامة تحدد ما اذا كان الطلب الثاني سيحتوي ماكروهات تم عملها فبل ان ينفذ.<br />  |,
+		lastUpdated => 1177446038
 	},
 
 	'cache timeout' => {
@@ -407,8 +407,8 @@ our $I18N = {
 	},
 
 	'preprocessMacros1' => {
-		message => q||,
-		lastUpdated => 
+		message => q|علامة تحدد ما اذا كان الطلب الاول سيحتوي ماكروهات تم عملها فبل ان ينفذ.<br />  |,
+		lastUpdated => 1177446086
 	},
 
 	'databaseLinkId5' => {
@@ -417,8 +417,8 @@ our $I18N = {
 	},
 
 	'templateId' => {
-		message => q||,
-		lastUpdated => 
+		message => q|هوية النموذج لعرض تقرير SQL للمستخدم<br />|,
+		lastUpdated => 1177446720
 	},
 
 	'14 description' => {
@@ -437,8 +437,8 @@ our $I18N = {
 	},
 
 	'queryN.rows.count.isZero.label' => {
-		message => q||,
-		lastUpdated => 
+		message => q|العلامة الاعتيادية لـrows.count.isZero|,
+		lastUpdated => 1177446476
 	},
 
 	'8' => {
@@ -452,13 +452,13 @@ our $I18N = {
 	},
 
 	'field.number' => {
-		message => q||,
-		lastUpdated => 
+		message => q|عدد صحيح يبدأ من 1 ويعد خلال عدد المجالات الموجودة في هذا السطر. هذا تماما مثل column.number في column_loop|,
+		lastUpdated => 1177445902
 	},
 
 	'placeholderParams3' => {
-		message => q||,
-		lastUpdated => 
+		message => q|علامة تحدد ما اذا كان الطلب الثالث سيحتوي ماكروهات تم عملها فبل ان ينفذ.<br />  |,
+		lastUpdated => 1177445994
 	},
 
 	'download usergroup description' => {
@@ -467,8 +467,8 @@ our $I18N = {
 	},
 
 	'prequeryStatements4' => {
-		message => q||,
-		lastUpdated => 
+		message => q|المجموعة الرابعة من جمل SQL ما قبل الطلب<br />  |,
+		lastUpdated => 1177446181
 	},
 
 };

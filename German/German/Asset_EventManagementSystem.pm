@@ -2,16 +2,11 @@ package WebGUI::i18n::German::Asset_EventManagementSystem;
 
 our $I18N = {
 	'add/edit event metadata field' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Hinzuf&uuml;gen/Editieren Termin Metadaten Feld|,
+		lastUpdated => 1199975532
 	},
 
 	'you' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'view purchase template help body' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -66,19 +61,14 @@ our $I18N = {
 		lastUpdated => 1164282621
 	},
 
-	'search template help body' => {
-		message => q||,
-		lastUpdated => 
-	},
-
 	'numberOfSearchResults' => {
 		message => q||,
 		lastUpdated => 
 	},
 
 	'Event Number' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Termin Nummer|,
+		lastUpdated => 1180436974
 	},
 
 	'add prerequisite set' => {
@@ -102,6 +92,11 @@ our $I18N = {
 	},
 
 	'checkout.url' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'choose a file to import' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -146,12 +141,22 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'add/edit event maximum attendees' => {
+	'export error' => {
 		message => q||,
 		lastUpdated => 
 	},
 
+	'add/edit event maximum attendees' => {
+		message => q|Maximale Anzahl Teilnehmer|,
+		lastUpdated => 1199975457
+	},
+
 	'refresh events list' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'no' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -161,19 +166,29 @@ our $I18N = {
 		lastUpdated => 
 	},
 
+	'import hoverhelp first line' => {
+		message => q||,
+		lastUpdated => 
+	},
+
 	'address' => {
 		message => q||,
 		lastUpdated => 
 	},
 
-	'None' => {
+	'overwritten' => {
 		message => q||,
 		lastUpdated => 
 	},
 
+	'None' => {
+		message => q|Keine|,
+		lastUpdated => 1180436978
+	},
+
 	'add/edit event description' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Beschreibung|,
+		lastUpdated => 1199975329
 	},
 
 	'manageEvents.label' => {
@@ -182,8 +197,8 @@ our $I18N = {
 	},
 
 	'User sub events small resultset' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Sie k&ouml;nnen auch aus den folgenden Unter-Terminen w&auml;hlen. Sie k&ouml;nnen die Ergebnisse durch die weiter oben aufgef&uuml;hrten Filteroptionen eingrenzen. |,
+		lastUpdated => 1180437168
 	},
 
 	'sku' => {
@@ -207,8 +222,8 @@ our $I18N = {
 	},
 
 	'add/edit event title' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Termin Titel|,
+		lastUpdated => 1199975706
 	},
 
 	'name.label' => {
@@ -247,16 +262,21 @@ our $I18N = {
 	},
 
 	'add/edit event return to manage events' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'edit registrant body' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Zur Verwaltung der Termine zur&uuml;ckkehren|,
+		lastUpdated => 1199975639
 	},
 
 	'global prerequisite' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'yes' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'tmplVar isError' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -267,6 +287,11 @@ our $I18N = {
 	},
 
 	'add/edit event price description' => {
+		message => q|Teilnahmekosten.|,
+		lastUpdated => 1199975564
+	},
+
+	'what about duplicates' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -282,8 +307,8 @@ our $I18N = {
 	},
 
 	'add/edit event error' => {
-		message => q||,
-		lastUpdated => 
+		message => q|FEHLER|,
+		lastUpdated => 1199975419
 	},
 
 	'edit discount pass' => {
@@ -296,7 +321,12 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'edit discount pass body' => {
+	'import need dup key' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'import invalid status' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -356,9 +386,14 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'add/edit event template' => {
+	'import field is duplicate key title' => {
 		message => q||,
 		lastUpdated => 
+	},
+
+	'add/edit event template' => {
+		message => q|Termin Template|,
+		lastUpdated => 1199975693
 	},
 
 	'error' => {
@@ -422,6 +457,11 @@ our $I18N = {
 	},
 
 	'add/edit event add another prerequisite' => {
+		message => q|F&uuml;ge eine andere Voraussetzung hinzu|,
+		lastUpdated => 1199975297
+	},
+
+	'import ok' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -437,6 +477,11 @@ our $I18N = {
 	},
 
 	'Pagination variables' => {
+		message => q|Allgemeine Seitenaufteilung Template Variablen.|,
+		lastUpdated => 1180437029
+	},
+
+	'import record parse error' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -452,13 +497,13 @@ our $I18N = {
 	},
 
 	'add/edit event maximum attendees description' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Die Anzahl der maximalen Teilnehmer, abgeleitet von Raumgr&ouml;sse, Personal und anderer Faktoren.|,
+		lastUpdated => 1199975508
 	},
 
 	'add/edit event description description' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Details des Termins z.B. Ort, Zeit und Thema.|,
+		lastUpdated => 1199975378
 	},
 
 	'operator type description' => {
@@ -491,14 +536,9 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'add/edit event help title' => {
-		message => q||,
-		lastUpdated => 
-	},
-
 	'add/edit event end date' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Enddatum Termin|,
+		lastUpdated => 1199975388
 	},
 
 	'associated user description' => {
@@ -521,6 +561,11 @@ our $I18N = {
 		lastUpdated => 
 	},
 
+	'skipped' => {
+		message => q||,
+		lastUpdated => 
+	},
+
 	'pass name' => {
 		message => q||,
 		lastUpdated => 
@@ -537,11 +582,16 @@ our $I18N = {
 	},
 
 	'User sub events large resultset' => {
+		message => q|Sie k&ouml;nnen auch aus den folgenden Unter-Terminen w&auml;hlen. Auf Grund der vielen Unter-Terminen k&ouml;nnen nicht alle dargestellt werden. Bitte grenzen Sie die Ergebnisse durch die weiter oben aufgef&uuml;hrten Filteroptionen ein. |,
+		lastUpdated => 1180437188
+	},
+
+	'search.formFooter' => {
 		message => q||,
 		lastUpdated => 
 	},
 
-	'search.formFooter' => {
+	'error no colon' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -601,6 +651,11 @@ our $I18N = {
 		lastUpdated => 
 	},
 
+	'no import took place' => {
+		message => q||,
+		lastUpdated => 
+	},
+
 	'purchasesLoop' => {
 		message => q||,
 		lastUpdated => 
@@ -636,7 +691,7 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'add/edit help title' => {
+	'import field is duplicate key description' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -651,17 +706,7 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'edit prerequisite set body' => {
-		message => q||,
-		lastUpdated => 
-	},
-
 	'manage registrants' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'add/edit event help body' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -682,8 +727,8 @@ our $I18N = {
 	},
 
 	'add/edit approve event' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Termin best&auml;tigen|,
+		lastUpdated => 1199975274
 	},
 
 	'discount pass type' => {
@@ -747,6 +792,11 @@ our $I18N = {
 	},
 
 	'add event' => {
+		message => q|Termin hinzuf&uuml;gen|,
+		lastUpdated => 1180437201
+	},
+
+	'import file contains field description' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -776,6 +826,11 @@ our $I18N = {
 		lastUpdated => 
 	},
 
+	'tmplLoop errorLoop' => {
+		message => q||,
+		lastUpdated => 
+	},
+
 	'calendarJS' => {
 		message => q||,
 		lastUpdated => 
@@ -791,7 +846,7 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'add/edit event metadata field body' => {
+	'import invalid template' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -806,9 +861,14 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'add/edit event what next' => {
+	'reset user' => {
 		message => q||,
 		lastUpdated => 
+	},
+
+	'add/edit event what next' => {
+		message => q|Was kommt als n&auml;chstes?|,
+		lastUpdated => 1199975744
 	},
 
 	'checkout' => {
@@ -816,7 +876,7 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'reset user' => {
+	'skip' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -842,6 +902,16 @@ our $I18N = {
 	},
 
 	'Admin manage sub events large resultset' => {
+		message => q|Sie k&ouml;nnen die folgenden Termine verwalten. Da zu viele Unter-Termine vorhanden sind, k&ouml;nnen nicht alle Termine dargestellt werden. Bitte grenzen Sie die Ergebnisse durch die weiter oben aufgef&uuml;hrten Filteroptionen ein. |,
+		lastUpdated => 1180436914
+	},
+
+	'import hoverhelp file' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'import hoverhelp dups' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -866,6 +936,16 @@ our $I18N = {
 		lastUpdated => 
 	},
 
+	'import form header' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'tmplVar error' => {
+		message => q||,
+		lastUpdated => 
+	},
+
 	'checkout template' => {
 		message => q||,
 		lastUpdated => 
@@ -886,12 +966,27 @@ our $I18N = {
 		lastUpdated => 
 	},
 
+	'import other line' => {
+		message => q||,
+		lastUpdated => 
+	},
+
 	'sold out' => {
 		message => q||,
 		lastUpdated => 
 	},
 
 	'add/edit event what next description' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'import events' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'check required fields' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -921,6 +1016,11 @@ our $I18N = {
 		lastUpdated => 
 	},
 
+	'field count mismatch' => {
+		message => q||,
+		lastUpdated => 
+	},
+
 	'scheduling conflict message' => {
 		message => q||,
 		lastUpdated => 
@@ -936,14 +1036,19 @@ our $I18N = {
 		lastUpdated => 
 	},
 
+	'checkout template help title' => {
+		message => q||,
+		lastUpdated => 
+	},
+
 	'which badge' => {
 		message => q||,
 		lastUpdated => 
 	},
 
 	'add/edit event title description' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Geben Sie den Namen oder den Titel des Termins ein.|,
+		lastUpdated => 1199975730
 	},
 
 	'continue.label' => {
@@ -977,8 +1082,8 @@ our $I18N = {
 	},
 
 	'Admin manage sub events small resultset' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Sie k&ouml;nnen die folgenden Termine verwalten. Sie k&ouml;nnen die Ergebnisse durch die weiter oben aufgef&uuml;hrten Filteroptionen eingrenzen. |,
+		lastUpdated => 1180436966
 	},
 
 	'manage event metadata' => {
@@ -987,13 +1092,13 @@ our $I18N = {
 	},
 
 	'Unlink User' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Unlink Benutzer|,
+		lastUpdated => 1180437040
 	},
 
 	'add/edit event start date' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Termin Startdatum|,
+		lastUpdated => 1199975663
 	},
 
 	'auto search description' => {
@@ -1002,6 +1107,11 @@ our $I18N = {
 	},
 
 	'purchase.wantToContinue.url' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'import file contains field title' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -1032,6 +1142,11 @@ our $I18N = {
 	},
 
 	'add new event metadata field' => {
+		message => q|Neues Termin Metadaten Feld hinzuf&uuml;gen|,
+		lastUpdated => 1180437219
+	},
+
+	'import blank line' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -1042,8 +1157,8 @@ our $I18N = {
 	},
 
 	'add/edit event end date description' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Zeit und Datum, an dem der Termin endet.|,
+		lastUpdated => 1199975412
 	},
 
 	'createdByUserId' => {
@@ -1051,7 +1166,17 @@ our $I18N = {
 		lastUpdated => 
 	},
 
+	'null field error recnum' => {
+		message => q||,
+		lastUpdated => 
+	},
+
 	'starts.label' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'enter import file' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -1071,17 +1196,12 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'viewPurchaseTitle' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'event template help body' => {
-		message => q||,
-		lastUpdated => 
-	},
-
 	'eventIsFull' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'viewPurchaseTitle' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -1141,12 +1261,12 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'approve event description' => {
+	'pass name description' => {
 		message => q||,
 		lastUpdated => 
 	},
 
-	'pass name description' => {
+	'approve event description' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -1171,12 +1291,12 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'advSearch.formHeader' => {
+	'create new user' => {
 		message => q||,
 		lastUpdated => 
 	},
 
-	'create new user' => {
+	'advSearch.formHeader' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -1206,7 +1326,7 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'add/edit help body' => {
+	'import invalid prereq' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -1221,12 +1341,12 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'manage discount pass body' => {
+	'purchase.url' => {
 		message => q||,
 		lastUpdated => 
 	},
 
-	'purchase.url' => {
+	'ignore first line' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -1237,8 +1357,8 @@ our $I18N = {
 	},
 
 	'add/edit event start date description' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Zeit und Datum des Terminbeginns.|,
+		lastUpdated => 1199975684
 	},
 
 	'assigned discount pass description' => {
@@ -1266,12 +1386,12 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'template help body' => {
+	'email address' => {
 		message => q||,
 		lastUpdated => 
 	},
 
-	'email address' => {
+	'meta hover help' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -1286,17 +1406,27 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'manage purchases template help body' => {
-		message => q||,
-		lastUpdated => 
-	},
-
 	'seats available' => {
 		message => q||,
 		lastUpdated => 
 	},
 
+	'export events' => {
+		message => q||,
+		lastUpdated => 
+	},
+
 	'save approvals' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'overwrite' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'short title' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -1337,6 +1467,11 @@ our $I18N = {
 	},
 
 	'search.formSubmit' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'import missing required' => {
 		message => q||,
 		lastUpdated => 
 	},

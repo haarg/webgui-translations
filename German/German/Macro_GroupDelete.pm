@@ -1,29 +1,24 @@
 package WebGUI::i18n::German::Macro_GroupDelete;
 
 our $I18N = {
-	'group delete body' => {
-		message => q||,
-		lastUpdated => 
-	},
-
 	'group.text' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Der angegebene Text f&uuml;r den Link, auf den der Benutzer klicken muss.|,
+		lastUpdated => 1178787318
 	},
 
 	'group.url' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Die URL zur Aktion, um den Benutzer aus der Gruppe zu entfernen.|,
+		lastUpdated => 1178787368
 	},
 
 	'group delete title' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Group Delete Makro Template Variable|,
+		lastUpdated => 1192967209
 	},
 
 	'macroName' => {
-		message => q|Gruppe l&ouml;schen<br />|,
-		lastUpdated => 1164887843
+		message => q|Group Delete|,
+		lastUpdated => 1178787272
 	},
 
 };

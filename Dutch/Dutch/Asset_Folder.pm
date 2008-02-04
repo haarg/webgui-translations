@@ -71,11 +71,6 @@ our $I18N = {
 		lastUpdated => 1170687953
 	},
 
-	'folder add/edit title' => {
-		message => q|Map, toevoegen/bewerken|,
-		lastUpdated => 1147966228
-	},
-
 	'folder template description' => {
 		message => q|Dit menu stelt u ertoe in staat een sjabloon te kiezen waarmee de stijl van de map inhoud bepaald wordt.|,
 		lastUpdated => 1147965240
@@ -121,6 +116,11 @@ our $I18N = {
 		lastUpdated => 1147964869
 	},
 
+	'folder menuTitle' => {
+		message => q|De menu titel van deze map.|,
+		lastUpdated => 1201182950
+	},
+
 	'addFile.label' => {
 		message => q|Het internationale label voor het toevoegen van bestanden aan een map.|,
 		lastUpdated => 1147960754
@@ -134,6 +134,11 @@ our $I18N = {
 	'folder url' => {
 		message => q|De URL van de map|,
 		lastUpdated => 1147964883
+	},
+
+	'menuTitle' => {
+		message => q|De menu titel van deze Asset|,
+		lastUpdated => 1201182969
 	},
 
 	'asset template variables title' => {
@@ -189,12 +194,6 @@ our $I18N = {
 	'subfolder_loop' => {
 		message => q|Een ketting die alle map assets bevat die kinderen zijn van de map.|,
 		lastUpdated => 1147965062
-	},
-
-	'folder add/edit body' => {
-		message => q|<p>Map assets worden gebruik voor het tonen van lijsten met asstes en submappen, net zoals een map verkenner in een besturingssysteem.</p>
-<p>Mappen zijn wobjects, dus hebben ze ook dezelfde eigenschappen als wobjects en assets. Ook hebben ze deze unieke eigenschappen en functies:</0>|,
-		lastUpdated => 1147966378
 	},
 
 	'file_loop' => {

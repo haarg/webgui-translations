@@ -1,59 +1,44 @@
 package WebGUI::i18n::Arabic::Workflow;
 
 our $I18N = {
-	'add a new workflow body' => {
-		message => q|  <p dir="rtl" class="MsoNormal"><span>إضافة سريان عمل يتطلب خطوتين:</span></p>  <p dir="rtl" class="MsoNormal"><span>&nbsp;</span></p>  <ol style="margin-top: 0in"><li class="MsoNormal"><span>اختر نوع سريان العمل الذي سيضاف      في هذه الشاشة.</span></li><li class="MsoNormal"><span>عدل سريان العمل و اصف إليه النشاطات      في الشاشة التالية.</span><span></span></li></ol>  <p dir="rtl" class="MsoNormal"><span>&nbsp;</span></p>  <p dir="rtl" class="MsoNormal"><span>أنواع سريان العمل, و أنواع النشاطات التي من الممكن أن تضاف إليه, يتم ضبطها في ملف </span><span>WebGUI.conf</span><span>.</span></p>  |,
-		lastUpdated => 1166717347
+	'workflow type count' => {
+		message => q|<h2>%d %s Workflows</h2>|,
+		lastUpdated => 1201197056
 	},
 
-	'disabled' => {
-		message => q|تم ايقافه<br />|,
-		lastUpdated => 1166717728
+	'edit priority unknown error' => {
+		message => q|يوجد خطأ غير معروف حين تحديث اولوية سريان العمل. من فضلك اعد المحاولة لاحقا.|,
+		lastUpdated => 1201195225
 	},
 
-	'is enabled help' => {
-		message => q|اذا تم ضبطه على نعم سيتمكن النظام من تشيل عمليات تابعة لنظام سريان العمل هذا |,
-		lastUpdated => 1166719129
+	'mode' => {
+		message => q|الوضع|,
+		lastUpdated => 1201195454
 	},
 
-	'object type' => {
-		message => q|نوع الشيء<br />|,
-		lastUpdated => 1166719631
+	'parallel' => {
+		message => q|موازي|,
+		lastUpdated => 1201195471
 	},
 
-	'topicName' => {
-		message => q|سريان العمل<br />|,
-		lastUpdated => 1166719680
+	'edit priority bad request' => {
+		message => q|لقد قمت بعمل طلب سيء|,
+		lastUpdated => 1201194955
 	},
 
-	'is serial help' => {
-		message => q|  <p dir="rtl" class="MsoNormal"><span>إذا تم اختيار نعم سيتم تشغيل واحدة فقط من عمليات سريان العمل في الوقت الواحد, بينما يتم جمع العمليات الأخرى و تنتظر لكي تتم العملية الحالية. هذا غالبا ما يكون امر سيء لسريان العمل, و لكن من الممكن أن يكون جيدا إذا كان هناك العديد من العمليات<span>&nbsp; </span>التي تتطلب العمل على نفس البيانات.</span></p>  |,
-		lastUpdated => 1166719551
+	'edit priority instance not found error' => {
+		message => q|لم استطع ايجاد سريان العمل هذا. من الممكن ان يكون انهى عمله.|,
+		lastUpdated => 1201195044
 	},
 
-	'run' => {
-		message => q|شغل|,
-		lastUpdated => 1166719645
+	'last state header' => {
+		message => q|الحالة الاخيرة|,
+		lastUpdated => 1201195444
 	},
 
-	'no object' => {
-		message => q|لا شيء<br />|,
-		lastUpdated => 1166719592
-	},
-
-	'show running workflows body' => {
-		message => q|  <p dir="rtl" class="MsoNormal"><span>هذه الشاشة قد تساعدك على تصحيح الاخطاء في سريانات العمل بان تظهر أي من هذه الانشطة تعمل الآن. يتم اظهار الانشطة في جدول تبعا للعنوان, و تاريخ بدأ العمل. إذا كان لسريان العمل حالة معرفة, سيتم اظهار هذه الحالة أيضا, بالإضافة إلى آخر تاريخ لتحديث هذه الحالة.</span></p>  <p dir="rtl" class="MsoNormal"><span>&nbsp;</span></p>  <p dir="rtl" class="MsoNormal"><span>الشاشة لن تقوم بالتحديث تلقائيا. لكي تحدثالانشطة التي تعمل, قم باعادة تحميل الصفحة.</span></p>  |,
-		lastUpdated => 1168362848
-	},
-
-	'edit workflow body' => {
-		message => q|  <p dir="rtl" class="MsoNormal"><span>بما انك اخترت نوع سريان العمل الذي تريد أن تعمله, ستقوم بتعديل سريان العمل و النشاطات المضافة إليه.</span></p>  <p dir="rtl" class="MsoNormal"><span>&nbsp;</span></p>  <p dir="rtl" class="MsoNormal"><span>الاماكن الموجودة في العمودين هي مجموعة الانشطة المتوفرة لكي تضاف, الانشطة, ايا كانت, و التي ستضاف إلى سريان العمل.</span></p>  <p dir="rtl" class="MsoNormal"><span>&nbsp;</span></p>  <p dir="rtl" class="MsoNormal"><span>لكي تضيف نشاطا جديدا لسريان العمل, انقر على اسم النشاط. سوف ياخذك هذا إلى الشاشة لكي تقوم بضبط النشاط في هذا السريان.</span></p>  <p dir="rtl" class="MsoNormal"><span>&nbsp;</span></p>  <p dir="rtl" class="MsoNormal"><span>النشاطات التي تمت ضبطها يتم اظهارها بترتيب الاسماء لكي يتم تنفيذها بترتيب. الايقونات الموجودة بجانب اسم النشاط تسمح باعادة الترتيب, التعديل, المسح من سريان العمل.</span></p>  |,
-		lastUpdated => 1166718287
-	},
-
-	'are you sure you want to delete this workflow' => {
-		message => q|هل انت متاكد من انك تريد مسح سريان العمل هذا و كا العمليات التي تعمل بناء عليه؟<br />|,
-		lastUpdated => 1166717393
+	'edit priority success' => {
+		message => q|تم تحديث اولوية سريان العمل بنجاح|,
+		lastUpdated => 1201195185
 	},
 
 	'manage workflows' => {
@@ -64,16 +49,6 @@ our $I18N = {
 	'enabled' => {
 		message => q|تم تشغيله |,
 		lastUpdated => 1166719073
-	},
-
-	'is serial' => {
-		message => q|هل هو مسلسل؟<br />|,
-		lastUpdated => 1166719251
-	},
-
-	'object type help' => {
-		message => q|ما هي الاشياء التي تريد سريان العمل هذا ان يدير؟<br />|,
-		lastUpdated => 1168362566
 	},
 
 	'edit workflow' => {
@@ -91,6 +66,126 @@ our $I18N = {
 		lastUpdated => 1168362881
 	},
 
+	'serial' => {
+		message => q|مسلسل|,
+		lastUpdated => 1201195613
+	},
+
+	'description help' => {
+		message => q|<span style="font-size: 12pt; font-family: &quot;Times New Roman&quot;">أملئ الشرح المفصل لماذا يقوم بعمله سريان العمل و ماذا يستخدم من اجله هذا السريان من اجل الرجوع إليه مستقبلا.</span>|,
+		lastUpdated => 1166717719
+	},
+
+	'edit priority no spectre error' => {
+		message => q|<p>سبكتر لا يعمل</p><p>لا يمكن الحصول على معلومات سريان العمل&nbsp;</p>|,
+		lastUpdated => 1201195138
+	},
+
+	'add a new workflow' => {
+		message => q|اضف سريان عمل جديد<br />|,
+		lastUpdated => 1166717178
+	},
+
+	'description' => {
+		message => q|الشرح|,
+		lastUpdated => 1166717428
+	},
+
+	'mode help' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'title' => {
+		message => q|العنوان|,
+		lastUpdated => 1166719654
+	},
+
+	'edit priority setting error' => {
+		message => q|يوجد خطأ في ضبط الاولوية الجديدة|,
+		lastUpdated => 1201195167
+	},
+
+	'realtime' => {
+		message => q|ريالتايم|,
+		lastUpdated => 1201195605
+	},
+
+	'disabled' => {
+		message => q|تم ايقافه<br />|,
+		lastUpdated => 1166717728
+	},
+
+	'title header' => {
+		message => q|عنوان|,
+		lastUpdated => 1201197049
+	},
+
+	'is enabled help' => {
+		message => q|اذا تم ضبطه على نعم سيتمكن النظام من تشيل عمليات تابعة لنظام سريان العمل هذا |,
+		lastUpdated => 1166719129
+	},
+
+	'object type' => {
+		message => q|نوع الشيء<br />|,
+		lastUpdated => 1166719631
+	},
+
+	'last run time header' => {
+		message => q|اخر زمن للعمل|,
+		lastUpdated => 1201195250
+	},
+
+	'priority header' => {
+		message => q|الاولوية الحالية/الاصليه|,
+		lastUpdated => 1201195487
+	},
+
+	'spectre not running error' => {
+		message => q|<p>سبكتر لا يعمل</p><p>لا يمكن الحصول على معلومات سريان العمل المفصلة&nbsp;</p>|,
+		lastUpdated => 1201197032
+	},
+
+	'singleton' => {
+		message => q|Singleton|,
+		lastUpdated => 1201195621
+	},
+
+	'topicName' => {
+		message => q|سريان العمل<br />|,
+		lastUpdated => 1166719680
+	},
+
+	'activity header' => {
+		message => q|النشاط الحالي|,
+		lastUpdated => 1201194903
+	},
+
+	'run' => {
+		message => q|شغل|,
+		lastUpdated => 1166719645
+	},
+
+	'no object' => {
+		message => q|لا شيء<br />|,
+		lastUpdated => 1166719592
+	},
+
+	'edit priority update priority' => {
+		message => q|حدث الاولوية|,
+		lastUpdated => 1201195235
+	},
+
+	'are you sure you want to delete this workflow' => {
+		message => q|هل انت متاكد من انك تريد مسح سريان العمل هذا و كا العمليات التي تعمل بناء عليه؟<br />|,
+		lastUpdated => 1166717393
+	},
+
+	'object type help' => {
+		message => q|ما هي الاشياء التي تريد سريان العمل هذا ان يدير؟<br />|,
+		lastUpdated => 1168362566
+	},
+
 	'object type help2' => {
 		message => q|نوع سريان العمل الذي اخترت ان تضيفه<br />|,
 		lastUpdated => 1168362587
@@ -106,44 +201,24 @@ our $I18N = {
 		lastUpdated => 1166717421
 	},
 
-	'description help' => {
-		message => q|<span style="font-size: 12pt; font-family: &quot;Times New Roman&quot;">أملئ الشرح المفصل لماذا يقوم بعمله سريان العمل و ماذا يستخدم من اجله هذا السريان من اجل الرجوع إليه مستقبلا.</span>|,
-		lastUpdated => 1166717719
+	'edit priority cancel' => {
+		message => q|الغي|,
+		lastUpdated => 1201194964
 	},
 
-	'add a new workflow' => {
-		message => q|اضف سريان عمل جديد<br />|,
-		lastUpdated => 1166717178
-	},
-
-	'is singleton help' => {
-		message => q|  <p dir="rtl" class="MsoNormal"><span>إذا تم اختيار نعم, سيتم تشغيل واحدة فقط من مهمات سريان العمل هذا في الوقت الواحد. في العموم سيكون هذا فكرة سيئة بالنسبة لانشطة التصديق, و لكنها فكرة جيدة بالنسبة لانشطة سريان العمل الخاصة بتحميل البريد من الخادم المنفصل, لكي يتم تلافي التكرار.</span></p>  |,
-		lastUpdated => 1168361996
-	},
-
-	'description' => {
-		message => q|الشرح|,
-		lastUpdated => 1166717428
-	},
-
-	'manage workflow help body' => {
-		message => q|  <p dir="rtl" class="MsoNormal"><span>هذه هي الشاشة الام للتحكم في نشطة سريان العمل. كل سريانات العمل المضبوطة سيتم اظهارها في جدول تبعا لعنوان سريان العمل, هذا بالإضافة إلى ايقونات لكي تعدل و تمسح سريان العمل و حالة سريان العمل, فعال أم مغلق. يوجد وصلات لاضافة شريانات عمل جديدة و أن تظهر السريانات التي تعمل حاليا.</span></p>  <p dir="rtl" class="MsoNormal"><span>&nbsp;</span></p>  <p dir="rtl" class="MsoNormal"><span>يتم الوصول إلى شاشة التحكم من خلال لوحة التحكم.</span></p>  |,
-		lastUpdated => 1168362526
-	},
-
-	'is singleton' => {
-		message => q|هل هو احادي؟<br />|,
-		lastUpdated => 1166719576
-	},
-
-	'title' => {
-		message => q|العنوان|,
-		lastUpdated => 1166719654
+	'edit priority no info error' => {
+		message => q|سبكتر يعمل ولكنني لم اتمكن من تحديث الاولوية|,
+		lastUpdated => 1201195073
 	},
 
 	'show running workflows' => {
 		message => q|اظهر سريانات العمل التي تعمل<br />|,
-		lastUpdated => 1166719670
+		lastUpdated => 1180698479
+	},
+
+	'spectre no info error' => {
+		message => q|سبكتر يعمل لكن لم اتمكن من ايجاد المعلومات المفصلة عن سريان العمل|,
+		lastUpdated => 1201195650
 	},
 
 };

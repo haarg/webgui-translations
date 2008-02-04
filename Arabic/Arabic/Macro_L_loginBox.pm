@@ -27,13 +27,8 @@ our $I18N = {
 	},
 
 	'login box title' => {
-		message => q|ماكرو صندوق الدخول<br />|,
-		lastUpdated => 1173201180
-	},
-
-	'login box body' => {
-		message => q|  <p dir="rtl" class="MsoNormal"><span>^L; or ^L(); - Login Box</span><span></span></p>  <p dir="rtl" class="MsoNormal"><span>نموذج دخول صغير. هذا الماكرو يذهب الى ثلاثى ابعاد, الاول يستخدم لضبط عرض صناديق النص لادخال اسم المستخدم ك كلمة المرور:</span><span> </span><span>: ^L(20);</span><span>. هذا العرض يقاس ب2/3 اذا كان المستخدم يعمل من خلال متصفح الانترنت </span><span>IE</span><span> نظرا لاختلافات الطرق التي ترسم بها الصناديق في المتصفحات المختلفة. الطريقة الثانية هي لضبط الرسائل التي تعرض بعد ان يدخل المستخدم: </span><span>^L(20,&quot;Hi ^a(^@;);. Click %here% if you have to scoot!&quot;);</span><span>. الص بين العلامات المئوية يستبدل بوصلة للقيام بعملية الخروج. الاستخدام الثالث هو هوية النموذج في مساحة الاسم الخاصة ب</span><span> </span><span>Macro/L_loginBo</span><span> لكي تستبدل النموذج الاعتيادي. المتغيرات ادناه متوفرة للستخدام في النموذج.</span></p>  <p dir="rtl" class="MsoNormal"><span>&nbsp;</span></p>  <p dir="rtl" class="MsoNormal"><span>ملاحظات:</span></p>  <p dir="rtl" class="MsoNormal"><span>نموذج الشكل </span><span>.loginBox</span><span> مرتبطة بهذا الماكرو.</span></p>  <p dir="rtl" class="MsoNormal"><span>هذا الماكرو لا يمكن دمجه في ماكروهات اخرى.</span></p>  |,
-		lastUpdated => 1173201160
+		message => q|&nbsp;متغيرات نموذج ماكرو صندوق الدخول|,
+		lastUpdated => 1201008931
 	},
 
 	'account.create.url' => {

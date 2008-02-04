@@ -7,13 +7,13 @@ our $I18N = {
 	},
 
 	'article template description' => {
-		message => q|<p>F&uuml;r das Layout w&auml;hlen Sie ein Template aus der Liste aus. Jedes WObject kann nur Templates aus dem eigenen Namensraum nutzen. So k&ouml;nnen z.B: Artikel nur Templates aus demArtikel-Namensraum nutzen, ein Seitenlayout nur Template aus dem Seiten-Namensraum.&nbsp;</p>|,
-		lastUpdated => 1157927562
+		message => q|F&uuml;r das Layout w&auml;hlen Sie ein Template aus der Liste aus. Jedes WObject kann nur Templates aus dem eigenen Namensraum nutzen. So k&ouml;nnen z.B: Artikel nur Templates aus demArtikel-Namensraum nutzen, ein Seitenlayout nur Template aus dem Seiten-Namensraum.&nbsp;|,
+		lastUpdated => 1182331219
 	},
 
 	'linkTitle' => {
-		message => q|Der Titel des Links im Artikel.<br />|,
-		lastUpdated => 1152970089
+		message => q|Der Titel des Links im Artikel.|,
+		lastUpdated => 1182331184
 	},
 
 	'71' => {
@@ -52,8 +52,8 @@ our $I18N = {
 	},
 
 	'72' => {
-		message => q|Artikel Template<br />|,
-		lastUpdated => 1152969901
+		message => q|Artikel Template|,
+		lastUpdated => 1182331121
 	},
 
 	'url' => {
@@ -62,8 +62,8 @@ our $I18N = {
 	},
 
 	'attachments help' => {
-		message => q|<p>H&auml;ngen Sie Dateien und Bilder direkt an diesen Arikel an. Beachten Sie, dass diese Dateien nicht &uuml;ber den Asset-Manager oder f&uuml;r andere Assets erreichbar sind. </p>|,
-		lastUpdated => 1157927691
+		message => q|H&auml;ngen Sie Dateien und Bilder direkt an diesen Arikel an. Beachten Sie, dass diese Dateien nicht &uuml;ber den Asset-Manager oder f&uuml;r andere Assets erreichbar sind.|,
+		lastUpdated => 1182330964
 	},
 
 	'28' => {
@@ -87,8 +87,8 @@ our $I18N = {
 	},
 
 	'description' => {
-		message => q|Die paginierte Beschreibung<br />|,
-		lastUpdated => 1157928120
+		message => q|Die paginierte Beschreibung|,
+		lastUpdated => 1182331163
 	},
 
 	'new.template' => {
@@ -102,8 +102,8 @@ our $I18N = {
 	},
 
 	'image.url' => {
-		message => q|Der URL des angeh&auml;ngten Bildes.<br />|,
-		lastUpdated => 1157928599
+		message => q|Der URL des angeh&auml;ngten Bildes.|,
+		lastUpdated => 1182331177
 	},
 
 	'isImage' => {
@@ -122,8 +122,8 @@ our $I18N = {
 	},
 
 	'cache timeout help' => {
-		message => q|<p>Da alle Nutzer dieses Asset in gleicher Darstellung sehen, kann es &uuml;ber einen langen Zeitraum gecached werden um die Performance zu steigern. Wie lange soll es gecached werden?</p><br />|,
-		lastUpdated => 1157930787
+		message => q|Da alle Nutzer dieses Asset in gleicher Darstellung sehen, kann es &uuml;ber einen langen Zeitraum gecached werden um die Performance zu steigern. Wie lange soll es gecached werden?|,
+		lastUpdated => 1182331230
 	},
 
 	'description.first.3sentences' => {
@@ -132,8 +132,8 @@ our $I18N = {
 	},
 
 	'article asset template variables title' => {
-		message => q|Artikel Template Variablen.<br />|,
-		lastUpdated => 1168851472
+		message => q|Artikel Template Variablen.|,
+		lastUpdated => 1182331128
 	},
 
 	'description.first.2sentences' => {
@@ -152,13 +152,13 @@ our $I18N = {
 	},
 
 	'linkURL' => {
-		message => q|Die URL f&uuml;r den Link im Artikel.<br />|,
-		lastUpdated => 1152970105
+		message => q|Die URL f&uuml;r den Link im Artikel.|,
+		lastUpdated => 1182331191
 	},
 
 	'attachment.icon' => {
-		message => q|Die URL zum Symbol f&uuml;r diesen Anhangtyp.<br />|,
-		lastUpdated => 1152970005
+		message => q|Die URL zum Symbol f&uuml;r diesen Anhangtyp.|,
+		lastUpdated => 1182331138
 	},
 
 	'cache timeout' => {
@@ -192,8 +192,8 @@ our $I18N = {
 	},
 
 	'cacheTimeout' => {
-		message => q|Zeitspanne, in der der Artikel gecached wird.<br />|,
-		lastUpdated => 1168851516
+		message => q|Zeitspanne, in der der Artikel gecached wird.|,
+		lastUpdated => 1182331154
 	},
 
 	'12' => {
@@ -207,8 +207,8 @@ our $I18N = {
 	},
 
 	'filename' => {
-		message => q|Der Name der Datei.<br />|,
-		lastUpdated => 1152970064
+		message => q|Der Name der Datei.|,
+		lastUpdated => 1182331170
 	},
 
 	'73' => {
@@ -232,13 +232,13 @@ our $I18N = {
 	},
 
 	'attachment.name' => {
-		message => q|Der Dateiname f&uuml;r diesen Anhang.<br />|,
-		lastUpdated => 1152970025
+		message => q|Der Dateiname f&uuml;r diesen Anhang.|,
+		lastUpdated => 1182331146
 	},
 
 	'link title description' => {
-		message => q|Wenn Sie einen Link anden Artikel anf&uuml;gen m&ouml;chten, geben Sie den Linktitle in diesem Feld ein.<br />|,
-		lastUpdated => 1157928653
+		message => q|Wenn Sie einen Link an den Artikel anf&uuml;gen m&ouml;chten, geben Sie den Linktitel in diesem Feld ein.|,
+		lastUpdated => 1182330948
 	},
 
 };

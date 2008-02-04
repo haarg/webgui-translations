@@ -47,8 +47,8 @@ our $I18N = {
 	},
 
 	'add palette' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Adicionar una nueva paleta|,
+		lastUpdated => 1199915368
 	},
 
 	'palette name' => {
@@ -87,8 +87,8 @@ our $I18N = {
 	},
 
 	'color name' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Nombre de color|,
+		lastUpdated => 1199915385
 	},
 
 	'add color' => {
@@ -97,8 +97,8 @@ our $I18N = {
 	},
 
 	'add font' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Adicionar nueva fuente|,
+		lastUpdated => 1199915357
 	},
 
 	'manage palettes' => {

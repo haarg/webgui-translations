@@ -1,11 +1,6 @@
 package WebGUI::i18n::Arabic::Macro_GroupDelete;
 
 our $I18N = {
-	'group delete body' => {
-		message => q||,
-		lastUpdated => 
-	},
-
 	'group.text' => {
 		message => q|خيط النص الموجود لكي ينقر عليه المستخدم|,
 		lastUpdated => 1170940329
@@ -17,8 +12,8 @@ our $I18N = {
 	},
 
 	'group delete title' => {
-		message => q|ماكرو مسح المجموعة<br />|,
-		lastUpdated => 1170940302
+		message => q|&nbsp;متغيرات نموذج ماكرو مسح المجموعة|,
+		lastUpdated => 1201008894
 	},
 
 	'macroName' => {

@@ -2,8 +2,8 @@ package WebGUI::i18n::Dutch::Asset_Navigation;
 
 our $I18N = {
 	'' => {
-		message => q||,
-		lastUpdated => 1151070606
+		message => q|&nbsp;|,
+		lastUpdated => 1199788175
 	},
 
 	'showUnprivilegedPages' => {
@@ -226,11 +226,6 @@ our $I18N = {
 		lastUpdated => 1166195507
 	},
 
-	'1093' => {
-		message => q|<p>Met de vavigation assets kunnen links gemaakt worden zodat de gebruikers door de pagina kunnen bladeren. Een navigatie formulier kan naar persoonlijke wensen worden aangepas, zodat gekozen kan worden welke paginas en hoe deze in de navigatie getoond worden. Enkele van de standaard navigatie sjablonen in WebGUI zijn vertikaal, horizontaal en kruimelspoor. Deze sjablonen kunnen aangepast worden met CSS, zodat ze binnen het ontwerp van de site passen. Dit zorgt ervoor dat de sjablonen niet herschreven hoeven worden.</p><p>&nbsp;</p><p>Er kan XML uitvoer gegenereerd worden met de navigatie asset&nbsp; door een sjabloon te maken en het MIMI type goed in te stellen. Dit kan nuttig zijn voor het bouwen van een Google sitekaart van je site.  </p>|,
-		lastUpdated => 1149260094
-	},
-
 	'navigation asset template variables title' => {
 		message => q|Menu asset sjabloonvariabelen|,
 		lastUpdated => 1170690376
@@ -314,11 +309,6 @@ our $I18N = {
 	'Ancestors' => {
 		message => q|Voorouders|,
 		lastUpdated => 1151063682
-	},
-
-	'1098' => {
-		message => q|Navigatie, Toevoegen/bewerken|,
-		lastUpdated => 1150103910
 	},
 
 	'Descendant End Point description' => {

@@ -206,6 +206,11 @@ our $I18N = {
 		lastUpdated => 1152830197
 	},
 
+	'help url.raw' => {
+		message => q|Het URL van de post Asset zonder het id aan het einde. Dit is nuttig voor het uitvoeren van andere functies op de post zoals &quot;func=promote&quot; of &quot;func&quot;demote&quot;.|,
+		lastUpdated => 1199787080
+	},
+
 	'dateSubmitted' => {
 		message => q|De datum waarop het bericht is geplaatst, in epoch-formaat.|,
 		lastUpdated => 1152801532

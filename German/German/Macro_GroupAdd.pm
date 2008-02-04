@@ -2,28 +2,23 @@ package WebGUI::i18n::German::Macro_GroupAdd;
 
 our $I18N = {
 	'group.text' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Der angegebene Text f&uuml;r den Link, auf den der Benutzer klicken muss.|,
+		lastUpdated => 1178787331
 	},
 
 	'group.url' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Die URL zur Aktion, um den Benutzer der Gruppe hinzuzuf&uuml;gen.|,
+		lastUpdated => 1178786862
 	},
 
 	'macroName' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Group Add|,
+		lastUpdated => 1178786867
 	},
 
 	'group add title' => {
-		message => q|Gruppe hinzuf&uuml;gen-Makro<br />|,
-		lastUpdated => 1164887189
-	},
-
-	'group add body' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Group Add Makro Template Variable|,
+		lastUpdated => 1192967201
 	},
 
 };

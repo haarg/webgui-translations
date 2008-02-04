@@ -26,11 +26,6 @@ our $I18N = {
 		lastUpdated => 1149845853
 	},
 
-	'71' => {
-		message => q|<p>Deze Asset wordt gebruikt voor het weergeven of versturen van ingevulde data. U kunt zelf velden toevoegen, meerdere tabbladen aanmaken en de ingevulde data automatisch e-mailen.&nbsp;</p><p>Om alle mogelijkheden van het dataformulier te ontdekken kunt u het beste de documentatie van de dataformulier sjabloon bekijken. Hierin worden alle variabele weergegeven.<br /></p>|,
-		lastUpdated => 1146837610
-	},
-
 	'102' => {
 		message => q|Wijzig tabblad|,
 		lastUpdated => 1149847003
@@ -99,11 +94,6 @@ our $I18N = {
 	'86 description' => {
 		message => q|Laat alle ingevulde data zien.|,
 		lastUpdated => 1146837942
-	},
-
-	'89' => {
-		message => q|Onderstaande variabelen zijn beschikbaar voor de sjablonen van de lijst met ingevulde dataformulieren. |,
-		lastUpdated => 1149845569
 	},
 
 	'javascript.confirmation.deleteAll' => {
@@ -244,11 +234,6 @@ our $I18N = {
 	'groupToViewEntries' => {
 		message => q|Het ID van de groep die alle ingevulde formulieren mogen bekijken wanneer het formulier in de standaard weergave is.|,
 		lastUpdated => 1166193628
-	},
-
-	'62' => {
-		message => q|Dataformulier velden, Toevoegen/Wijzigen|,
-		lastUpdated => 1146836668
 	},
 
 	'105 description' => {
@@ -541,11 +526,6 @@ our $I18N = {
 		lastUpdated => 1149855361
 	},
 
-	'72' => {
-		message => q|U kunt onbeperkt velden toevoegen aan het dataformulier.|,
-		lastUpdated => 1146836896
-	},
-
 	'tab.sequence' => {
 		message => q|Een nummer die aangeeft welk tabblad dit is.|,
 		lastUpdated => 1149858112
@@ -579,11 +559,6 @@ our $I18N = {
 	'addField.url' => {
 		message => q|De url om een nieuw veld aan het formulier toe te voegen.|,
 		lastUpdated => 1149845623
-	},
-
-	'61' => {
-		message => q|Dataformulier, Toevoegen/wijzigen|,
-		lastUpdated => 1146836650
 	},
 
 	'data list' => {
@@ -766,14 +741,14 @@ our $I18N = {
 		lastUpdated => 1149847022
 	},
 
-	'25' => {
-		message => q|Standaardwaarde(n)|,
-		lastUpdated => 1146836475
-	},
-
 	'deleteAllEntries.label' => {
 		message => q|Het standaard label van de deleteAllEntrie.url variabele.|,
 		lastUpdated => 1155554284
+	},
+
+	'25' => {
+		message => q|Standaardwaarde(n)|,
+		lastUpdated => 1146836475
 	},
 
 	'addTab.url' => {
@@ -804,11 +779,6 @@ our $I18N = {
 	'75' => {
 		message => q|Vereist|,
 		lastUpdated => 1146837174
-	},
-
-	'83' => {
-		message => q|Onderstaande variabelen zijn beschikbaar voor de sjablonen van het dataformulier. |,
-		lastUpdated => 1166193216
 	},
 
 	'record.data_loop' => {
@@ -844,6 +814,11 @@ our $I18N = {
 	'field.name' => {
 		message => q|De naam van het veld.|,
 		lastUpdated => 1149848014
+	},
+
+	'canViewEntries' => {
+		message => q|Deze sjabloon variabele is waar wanneer de huidige gebruiker is toegestaan de lijst met ingezonden formulieren van het DataForm te bekijken.|,
+		lastUpdated => 1199098812
 	},
 
 	'field.controls' => {
@@ -954,6 +929,11 @@ our $I18N = {
 	'76 description' => {
 		message => q|Exporteer de data van het dataformulier naar een tab gescheiden bestand.|,
 		lastUpdated => 1146837212
+	},
+
+	'record_data_type' => {
+		message => q|Het data type wat bij dit veld hoort.|,
+		lastUpdated => 1199098836
 	},
 
 	'tab.field.isMailField' => {

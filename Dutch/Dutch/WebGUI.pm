@@ -518,6 +518,11 @@ Als er een server voor het verzenden van email op dezelfde machine staat als de 
 		lastUpdated => 1153753234
 	},
 
+	'user profile field private message allow label' => {
+		message => q|Laat iedereen toe.|,
+		lastUpdated => 1201183481
+	},
+
 	'244' => {
 		message => q|Auteur|,
 		lastUpdated => 1153752282
@@ -932,8 +937,8 @@ Deze groep zou dan "Werknemers in HMO 1" genoemd kunnen worden en zou je de moge
 	},
 
 	'1051 description' => {
-		message => q|De tekst diede gezochte string moet vervangen.|,
-		lastUpdated => 1155886006
+		message => q|De tekst die de gezochte string moet vervangen.|,
+		lastUpdated => 1199694533
 	},
 
 	'975' => {
@@ -984,6 +989,11 @@ Deze groep zou dan "Werknemers in HMO 1" genoemd kunnen worden en zou je de moge
 	'445' => {
 		message => q|Voorkeuren|,
 		lastUpdated => 1154076547
+	},
+
+	'account.options' => {
+		message => q|Een loop die de opties bevat voor de verschillende gebruikers account toegangs links.|,
+		lastUpdated => 1201183256
 	},
 
 	'1026' => {
@@ -1296,6 +1306,11 @@ Deze groep zou dan "Werknemers in HMO 1" genoemd kunnen worden en zou je de moge
 		lastUpdated => 1156168223
 	},
 
+	'account options template variables' => {
+		message => q|Account opties sjabloon variabelen|,
+		lastUpdated => 1201183057
+	},
+
 	'button' => {
 		message => q|Knop|,
 		lastUpdated => 1154098030
@@ -1419,6 +1434,11 @@ Deze groep zou dan "Werknemers in HMO 1" genoemd kunnen worden en zou je de moge
 	'556' => {
 		message => q|Hoeveelheid|,
 		lastUpdated => 1154077761
+	},
+
+	'options.display' => {
+		message => q|Een volledige HTML link, met geinternationaliseerd label, voor individuele account opties, zoals het bewerken van een profiel, het bekijken van een profiel, het kunnen bekijken van de inbox van een gebruiker en meer.|,
+		lastUpdated => 1201183342
 	},
 
 	'462' => {
@@ -1630,6 +1650,11 @@ Afhankelijk van welke authenticatie modules geïnstalleerd zijn in het systeem, 
 		lastUpdated => 1156755450
 	},
 
+	'user profile field friend availability' => {
+		message => q|Wil je als vriend toegevoegd kunnen worden?|,
+		lastUpdated => 1201183427
+	},
+
 	'818' => {
 		message => q|Gedeactiveerd|,
 		lastUpdated => 1154095364
@@ -1760,6 +1785,11 @@ Afhankelijk van welke authenticatie modules geïnstalleerd zijn in het systeem, 
 		lastUpdated => 1156168774
 	},
 
+	'private message delete text' => {
+		message => q|verwijder|,
+		lastUpdated => 1201183398
+	},
+
 	'565' => {
 		message => q|Wie kan modereren?|,
 		lastUpdated => 1154091138
@@ -1820,6 +1850,11 @@ Afhankelijk van welke authenticatie modules geïnstalleerd zijn in het systeem, 
 		lastUpdated => 1154074742
 	},
 
+	'user profile field private message allow none label' => {
+		message => q|Laat niemand toe.|,
+		lastUpdated => 1201183501
+	},
+
 	'872' => {
 		message => q|Wie kan bekijken?|,
 		lastUpdated => 1154096928
@@ -1828,6 +1863,11 @@ Afhankelijk van welke authenticatie modules geïnstalleerd zijn in het systeem, 
 	'image manager' => {
 		message => q|Afbeeldings beheer|,
 		lastUpdated => 1156169500
+	},
+
+	'high user count' => {
+		message => q|Er zijn meer dan 250 gebruikers. Gebruik alstublieft de zoekfunctie om gebruikers te vinden.|,
+		lastUpdated => 1201183382
 	},
 
 	'316' => {
@@ -2256,6 +2296,11 @@ LongTruncOk=1|,
 	'pagination.firstPageUrl' => {
 		message => q|De losse URL component van pagination.firstPage.|,
 		lastUpdated => 1156168325
+	},
+
+	'high group count' => {
+		message => q|Er zijn meer dan 250 groepen. Gebruik alstublieft de zoekfunctie om een groep te vinden.|,
+		lastUpdated => 1201183036
 	},
 
 	'554' => {
@@ -2816,8 +2861,8 @@ De verstrekte informatie is niet gelijk aan de accountinformatie. |,
 	},
 
 	'user function style description' => {
-		message => q|Dit bepaalt welke stijl gebruikt wordt voor WebGUI processen (profiel bewerking, berichten logboek enz.) op het moment dat ze beschikbaar zijn voor een gebruiker.|,
-		lastUpdated => 1156166066
+		message => q|Dit bepaalt welke stijl gebruikt wordt voor WebGUI processen (profiel bewerking, berichten logboek enz.) op het moment dat ze beschikbaar zijn voor een gebruiker. Alleen sjablonen die ingezonden zijn, zijn toegestaan.|,
+		lastUpdated => 1199694399
 	},
 
 	'313' => {
@@ -3205,6 +3250,11 @@ De verstrekte informatie is niet gelijk aan de accountinformatie. |,
 	'455' => {
 		message => q|Bewerk het profiel van de gebruiker|,
 		lastUpdated => 1154076807
+	},
+
+	'user profile field private message friends only label' => {
+		message => q|Laat alleen toe vanuit mijn vrienden.|,
+		lastUpdated => 1201183527
 	},
 
 	'80' => {

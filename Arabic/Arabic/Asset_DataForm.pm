@@ -26,11 +26,6 @@ our $I18N = {
 		lastUpdated => 1168523669
 	},
 
-	'71' => {
-		message => q|  <p dir="rtl" class="MsoNormal"><span>هذا الاصل يقوم بعمل نموذج مبسط لادخال البيانات و متعدد الاستخدامات. من الممكن ان تضيف مجالات اضافية الى نموذج البيانات, عمل تابات متعددة, استخدام نموذج البيانات كنموذج انترنت و بوابة بريد, او ببساطة لكي تقوم بعمل الجداول على موقعك.</span></p>  <p dir="rtl" class="MsoNormal"><span>&nbsp;</span></p>  <p dir="rtl" class="MsoNormal"><span>وبجيكت نموذج البيانات خاص في ان بعض التحكمات فقط تظهر على النموذج. كن متأكدا من قراءة التوثيق الخاص بنموذج البيانات و ان تدخل المتغيرات لكي تشغل هذه الخواص.</span></p>  <p dir="rtl" class="MsoNormal"><span>&nbsp;</span></p>  <p dir="rtl" class="MsoNormal"><span>نماذج البيانات تعد وبجيكتس, و بهذا فانها ترث خواص الوبجيكتس و الاصول, لهم ايضا خواص فريدة :</span></p>  |,
-		lastUpdated => 1173025620
-	},
-
 	'102' => {
 		message => q|عدل التاب<br />|,
 		lastUpdated => 1168519848
@@ -99,11 +94,6 @@ our $I18N = {
 	'86 description' => {
 		message => q|قم بعمل قائمة بكل البيانات التي تم ادخالها في نموذج البيانات<br />|,
 		lastUpdated => 1173029094
-	},
-
-	'89' => {
-		message => q|المتغيرات الاتية متوفرة لنموذج قائمة نموذج البيانات<br />|,
-		lastUpdated => 1168520580
 	},
 
 	'javascript.confirmation.deleteAll' => {
@@ -244,11 +234,6 @@ our $I18N = {
 	'groupToViewEntries' => {
 		message => q|هوية المجموعة للمجموعة التي يمكنها الاطلاع على قائمة بكل البيانات التي تم ادخالهاا الى نموذج البيانات و هي في حالة النموذج<br />|,
 		lastUpdated => 1173629451
-	},
-
-	'62' => {
-		message => q|مجالات نموذج البيانات, اضف/عدل<br />|,
-		lastUpdated => 1168520236
 	},
 
 	'105 description' => {
@@ -541,11 +526,6 @@ our $I18N = {
 		lastUpdated => 1173031719
 	},
 
-	'72' => {
-		message => q|من الممكن ان تضيف اي عدد تريده من المجالات الى نموذج البيانات<br />|,
-		lastUpdated => 1168520277
-	},
-
 	'tab.sequence' => {
 		message => q|رقم يحدد اي تاب هذا (الاول, الثاني, الخ)<br />|,
 		lastUpdated => 1173030449
@@ -579,11 +559,6 @@ our $I18N = {
 	'addField.url' => {
 		message => q|الرابط الذي يستخدمه مديري المادة لاضافة مجال جديد الى النموذج<br />|,
 		lastUpdated => 1168523590
-	},
-
-	'61' => {
-		message => q|نموذج بيانات, اضف/ عدل<br />|,
-		lastUpdated => 1168520219
 	},
 
 	'data list' => {
@@ -622,8 +597,8 @@ our $I18N = {
 	},
 
 	'field_loop' => {
-		message => q||,
-		lastUpdated => 
+		message => q|  <p dir="rtl" class="MsoNormal"><span>دورة تحتوي على كل معلومات المجال. من خارج دورة </span><span>field_loop</span><span> يمكن ايضا الوصول الى مجالات النموذج مباشرة. لكي تقوم بعمل هذا يجب ان تستخدم هذه المتغيرات, نادهم باستخدام </span><span>field.noloop.fieldName.property</span><span>, حيث ان </span><span>fieldname</span><span> <span>هي اسم المجال (ليست العلامة) و الخاصية هي اي احد من الخواص المتوفرة من </span></span><span>field_loop</span><span>. اذا ارت كدو النموذج لمجال </span><span>&#39;name&#39;</span><span> يجب ان تستخدم </span><span>field.noloop.name.form</span><span> من اي مكان في نموذجك. اذا اردت ان تعرف اذا كان المجال مطلوبا استخدم </span><span>field.noloop.name.isRequired.</span><span></span></p>  |,
+		lastUpdated => 1177181119
 	},
 
 	'field.tid' => {
@@ -766,14 +741,14 @@ our $I18N = {
 		lastUpdated => 1168519787
 	},
 
-	'25' => {
-		message => q|القيمة الاعتيادية<br />|,
-		lastUpdated => 1168520083
-	},
-
 	'deleteAllEntries.label' => {
 		message => q|العلامة الاعتيادية للمتغير deleteAllEntries.url|,
 		lastUpdated => 1168524543
+	},
+
+	'25' => {
+		message => q|القيمة الاعتيادية<br />|,
+		lastUpdated => 1168520083
 	},
 
 	'addTab.url' => {
@@ -804,11 +779,6 @@ our $I18N = {
 	'75' => {
 		message => q|مطلوب|,
 		lastUpdated => 1168520354
-	},
-
-	'83' => {
-		message => q|متغيرات النموذج الاتية متوفرة لنموذج نموذج البيانات لكي يتم انشاء النماذج, لاظهار البيانات و لارسال الرسائل.<br />|,
-		lastUpdated => 1168520473
 	},
 
 	'record.data_loop' => {
@@ -844,6 +814,11 @@ our $I18N = {
 	'field.name' => {
 		message => q|اسم هذا المجال<br />|,
 		lastUpdated => 1173629019
+	},
+
+	'canViewEntries' => {
+		message => q|متغير النموذج هذا يتحقق عندما يسمح للمستخدم الحالي ان يطلع على قائمة مدخلات DataForm|,
+		lastUpdated => 1201003085
 	},
 
 	'field.controls' => {
@@ -954,6 +929,11 @@ our $I18N = {
 	'76 description' => {
 		message => q|استورد البيانات نت نموذج البيانات في شكل تاب <br />|,
 		lastUpdated => 1173028531
+	},
+
+	'record_data_type' => {
+		message => q|نوع البيانات المرتبط بهذا المجال|,
+		lastUpdated => 1201003907
 	},
 
 	'tab.field.isMailField' => {

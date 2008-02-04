@@ -7,8 +7,8 @@ our $I18N = {
 	},
 
 	'Create new folder' => {
-		message => q|Neuen Ordner erstellen<br />|,
-		lastUpdated => 1157856068
+		message => q|Neuen Ordner erstellen|,
+		lastUpdated => 1178782198
 	},
 
 	'Upload new image' => {

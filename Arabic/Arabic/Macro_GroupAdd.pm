@@ -17,13 +17,8 @@ our $I18N = {
 	},
 
 	'group add title' => {
-		message => q|ماكرو اضف مجموعة<br />|,
-		lastUpdated => 1170940079
-	},
-
-	'group add body' => {
-		message => q||,
-		lastUpdated => 
+		message => q|&nbsp;متغيرات نموذج ماكرو اضف مجموعة|,
+		lastUpdated => 1201008878
 	},
 
 };

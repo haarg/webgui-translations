@@ -3,11 +3,36 @@ package WebGUI::i18n::Spanish;
 use strict;
 
 our $LANGUAGE = {
+	label => 'Español',
+	toolbar => 'bullet',
+	languageAbbreviation => 'es',
+	locale => 'ES',
 };
 
 sub makeUrlCompliant {
          my $value = shift;
 ##<-- start transliteration -->##
+$value =~ s/á/a/;
+$value =~ s/é/e/;
+$value =~ s/í/i/;
+$value =~ s/ó/o/;
+$value =~ s/ú/u/;
+$value =~ s/ñ/n/;
+$value =~ s/Á/A/;
+$value =~ s/É/E/;
+$value =~ s/Í/I/;
+$value =~ s/Ó/O/;
+$value =~ s/Ú/U/;
+$value =~ s/Ñ/N/;
+
+$value =~ s/^\s+//;
+$value =~ s/^\\//;
+$value =~ s/ /_/g;
+$value =~ s/\.\$//;
+$value =~ s/[^A-Za-z0-9\-\.\_\/]//g;
+$value =~ s/^\///;
+$value =~ s/\/\//\//g;
+
 
 ##<-- end transliteration -->##
 

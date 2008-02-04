@@ -37,8 +37,8 @@ our $I18N = {
 	},
 
 	'assetName' => {
-		message => q|Syndizierte Inhalte<br />|,
-		lastUpdated => 1157856518
+		message => q|Syndizierte Inhalte|,
+		lastUpdated => 1179838422
 	},
 
 	'site_link' => {

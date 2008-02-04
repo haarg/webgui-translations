@@ -82,8 +82,8 @@ our $I18N = {
 	},
 
 	'new file description' => {
-		message => q|<p>Het pad naar de afbeelding. Klik op &quot;Bladeren&quot; om in uw computer te zoeken naar de afbeelding die u wilt uploaden. </p>|,
-		lastUpdated => 1149859625
+		message => q|Het pad naar de afbeelding. Klik op &quot;Bladeren&quot; om in uw computer te zoeken naar de afbeelding die u wilt uploaden.|,
+		lastUpdated => 1201265463
 	},
 
 	'Thumbnail size description' => {

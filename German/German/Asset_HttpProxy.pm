@@ -2,38 +2,43 @@ package WebGUI::i18n::German::Asset_HttpProxy;
 
 our $I18N = {
 	'filterHtml' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Grad an Filterung von HTML, der f&uuml;r den eingebunden Inhalt gesetzt ist.|,
+		lastUpdated => 1178697128
 	},
 
 	'content' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Der Inhalt der eingebundenen Seite. Wenn <strong>Suche nach</strong> und <strong>Stopp bei</strong> Eigneschaften gesetzt sind dann enth&auml; der Inhalt keines davon.|,
+		lastUpdated => 1178697036
 	},
 
 	'assetName' => {
-		message => q|HTTP Proxy<br />|,
-		lastUpdated => 1168866638
+		message => q|HTTP Proxy|,
+		lastUpdated => 1178697633
 	},
 
 	'2' => {
-		message => q|HTTP Proxy bearbeiten<br />|,
-		lastUpdated => 1168866203
+		message => q|HTTP Proxy bearbeiten|,
+		lastUpdated => 1178697600
 	},
 
 	'searchFor' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Ein Suchstring, der den Startpunkt f&uuml;r dargestellten Inhalt definiert.|,
+		lastUpdated => 1178697402
 	},
 
 	'1' => {
-		message => q|URL zum Proxy<br />|,
-		lastUpdated => 1164282638
+		message => q|URL zum Proxy|,
+		lastUpdated => 1178697575
 	},
 
 	'useAmpersand' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Eine Bedingung, die wahr ist, wenn der HttpProxy so eingestellt ist, dass er Parameter in der URL aneinanderkettet.|,
+		lastUpdated => 1178697561
+	},
+
+	'url pattern filter hover help' => {
+		message => q|Geben Sie ein Muster pro Zeile ein (Perl Ausdr&uuml;cke sind g&uuml;ltig), zur Filterung beim Umschreiben der URL.|,
+		lastUpdated => 1192965099
 	},
 
 	'timeout' => {
@@ -42,8 +47,8 @@ our $I18N = {
 	},
 
 	'1 description' => {
-		message => q|Start URL f&uuml;r diesen Proxy.<br />|,
-		lastUpdated => 1168865677
+		message => q|Start URL f&uuml;r diesen Proxy.|,
+		lastUpdated => 1178697585
 	},
 
 	'13 description' => {
@@ -62,8 +67,8 @@ our $I18N = {
 	},
 
 	'proxiedUrl' => {
-		message => q|Einzubindende URL.<br />|,
-		lastUpdated => 1170404465
+		message => q|URL der einzubindenden Seite.|,
+		lastUpdated => 1178697675
 	},
 
 	'http proxy asset template variables title' => {
@@ -72,18 +77,18 @@ our $I18N = {
 	},
 
 	'http proxy template title' => {
-		message => q|HTTP Proxy Template<br />|,
-		lastUpdated => 1168866767
+		message => q|HTTP Proxy Template|,
+		lastUpdated => 1178697648
 	},
 
 	'fetch page error' => {
-		message => q||,
-		lastUpdated => 
+		message => q|<p><strong>Einbinden von <a href=&quot;%s&quot;>%s</a> fehlgeschlagen</strong></p><p>GET Status Zeile: %s&nbsp;</p>|,
+		lastUpdated => 1178696996
 	},
 
 	'content.leading' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Irgendein Text vor der Zeichenkette <strong>Suche nach</strong>|,
+		lastUpdated => 1178697055
 	},
 
 	'4 description' => {
@@ -97,8 +102,8 @@ our $I18N = {
 	},
 
 	'cookieJarStorageId' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Die ID des Speicher Objektes wo Cookies gespeichert werden.|,
+		lastUpdated => 1178696882
 	},
 
 	'removeStyle' => {
@@ -107,8 +112,8 @@ our $I18N = {
 	},
 
 	'14' => {
-		message => q|Stop bei<br />|,
-		lastUpdated => 1168866152
+		message => q|Stopp bei|,
+		lastUpdated => 1178696788
 	},
 
 	'use ampersand help' => {
@@ -116,19 +121,9 @@ our $I18N = {
 		lastUpdated => 1170404917
 	},
 
-	'10' => {
-		message => q|HTTP Proxy, Hinzuf&uuml;gen/Bearbeiten|,
-		lastUpdated => 1168865765
-	},
-
 	'no recursion' => {
 		message => q|Fehler: HttpProxy kann seinen eigenen Inhalt nicht rekursiv einbinden.<br />|,
 		lastUpdated => 1170404441
-	},
-
-	'11' => {
-		message => q|<p>HTTP Proxy Wobject ist ein sehr m&auml;chtiges Werkzeug. Es dient dazu, externe Seiten und Anwendungen in die eigenen Seiten einzubetten. Haben Sie zum Beispiel ein Webmail System, das Sie in Ihrem Intranet f&uuml;r Ihre Mitarbeiter zur Verf&uuml;gung stellen wollen, dann k&ouml;nnen Sie den HTTP Proxy benutzen um dies zu erreichen.&nbsp;</p><p>&nbsp;</p><pre>Note: The Search for and Stop at strings are included in the content in the default template. You can change this by creating your own template.<br /></pre><p>&nbsp;</p>|,
-		lastUpdated => 1168865999
 	},
 
 	'rewriteUrls' => {
@@ -142,18 +137,18 @@ our $I18N = {
 	},
 
 	'stopAt' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Ein Suchstring, der den Stopppunkt f&uuml;r dargestellten Inhalt definiert.|,
+		lastUpdated => 1178697465
 	},
 
 	'cache timeout' => {
-		message => q|Cache Timeout<br />|,
-		lastUpdated => 1168866650
+		message => q|Cache Timeout|,
+		lastUpdated => 1178697640
 	},
 
 	'13' => {
-		message => q|Suche nach<br />|,
-		lastUpdated => 1168866053
+		message => q|Suche nach|,
+		lastUpdated => 1178697592
 	},
 
 	'http proxy asset template variables body' => {
@@ -162,8 +157,8 @@ our $I18N = {
 	},
 
 	'no frame error message' => {
-		message => q||,
-		lastUpdated => 
+		message => q|<h1>HttpProxy: Can&#39;t display frames</h1>Try fetching it directly <a href="%s">here.</a>|,
+		lastUpdated => 1178697297
 	},
 
 	'templateId' => {
@@ -197,23 +192,23 @@ our $I18N = {
 	},
 
 	'may not leave error message' => {
-		message => q||,
-		lastUpdated => 
+		message => q|<h1>Sie d%uuml;rfen %s nicht verlassen</h1>|,
+		lastUpdated => 1178697220
 	},
 
 	'12 description' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Hier auf Nein wechseln wenn eine externe Seite "tief" verlinkt werden soll.|,
+		lastUpdated => 1178696537
 	},
 
 	'content.trailing' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Irgendein Text nach der Zeichenkette <strong>Stopp bei</strong>|,
+		lastUpdated => 1178697069
 	},
 
 	'9' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Cookie Gef&auml;ngnis|,
+		lastUpdated => 1178696555
 	},
 
 	'12' => {
@@ -227,8 +222,8 @@ our $I18N = {
 	},
 
 	'use ampersand' => {
-		message => q|Benutze Kaufmannsund (&amp;) als Trennzeichen.<br />|,
-		lastUpdated => 1170404768
+		message => q|Benutze Kaufmannsund (&amp;) als Trennzeichen.|,
+		lastUpdated => 1178697685
 	},
 
 	'8' => {
@@ -247,23 +242,28 @@ our $I18N = {
 	},
 
 	'stop.at' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Die Zeichenkette die f&uuml;r den Stopp der Inhaltssuche benutzt wird.|,
+		lastUpdated => 1178697437
 	},
 
 	'search.for' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Die Zeichenkette die f&uuml;r den Start der Inhaltssuche benutzt wird.|,
+		lastUpdated => 1178697356
 	},
 
-	'5' => {
-		message => q|Proxying von anderen Domains erlauben?<br />|,
-		lastUpdated => 1168866320
+	'url pattern filter label' => {
+		message => q|URL Muster-Filter|,
+		lastUpdated => 1192965149
 	},
 
 	'header' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Der Header der URL der eingebundenen Seite.|,
+		lastUpdated => 1178697155
+	},
+
+	'5' => {
+		message => q|Einbinden anderer Domains erlauben?|,
+		lastUpdated => 1178697626
 	},
 
 };

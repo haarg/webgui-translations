@@ -27,8 +27,8 @@ our $I18N = {
 	},
 
 	'118' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Анонимна регистрация|,
+		lastUpdated => 1194730678
 	},
 
 	'443' => {
@@ -81,17 +81,27 @@ our $I18N = {
 		lastUpdated => 
 	},
 
+	'settings groupIdAdminWorkflowRun label' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'settings groupIdAdminCache hoverHelp' => {
+		message => q||,
+		lastUpdated => 
+	},
+
 	'84' => {
 		message => q||,
 		lastUpdated => 
 	},
 
-	'437' => {
+	'skip commit comments' => {
 		message => q||,
 		lastUpdated => 
 	},
 
-	'glossary title' => {
+	'437' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -111,7 +121,17 @@ our $I18N = {
 		lastUpdated => 
 	},
 
+	'settings groupIdAdminTransactionLog hoverHelp' => {
+		message => q||,
+		lastUpdated => 
+	},
+
 	'1021' => {
+		message => q|Оцени съобщението|,
+		lastUpdated => 1194729991
+	},
+
+	'private message to label' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -156,6 +176,11 @@ our $I18N = {
 		lastUpdated => 
 	},
 
+	'private message reply title' => {
+		message => q||,
+		lastUpdated => 
+	},
+
 	'948' => {
 		message => q||,
 		lastUpdated => 
@@ -167,6 +192,11 @@ our $I18N = {
 	},
 
 	'378' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'view inbox template description' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -186,12 +216,12 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'968' => {
+	'540' => {
 		message => q||,
 		lastUpdated => 
 	},
 
-	'540' => {
+	'private message prev label' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -221,7 +251,7 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'manage users in group body' => {
+	'settings groupIdAdminStatistics label' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -261,12 +291,27 @@ our $I18N = {
 		lastUpdated => 
 	},
 
+	'auto request commit' => {
+		message => q||,
+		lastUpdated => 
+	},
+
 	'859' => {
 		message => q||,
 		lastUpdated => 
 	},
 
 	'739' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'settings groupIdAdminSubscription hoverHelp' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'private message error' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -306,6 +351,16 @@ our $I18N = {
 		lastUpdated => 
 	},
 
+	'bare insufficient' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'editSettings error occurred' => {
+		message => q||,
+		lastUpdated => 
+	},
+
 	'145' => {
 		message => q||,
 		lastUpdated => 
@@ -326,12 +381,12 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'364' => {
+	'settings groupIdAdminAdSpace label' => {
 		message => q||,
 		lastUpdated => 
 	},
 
-	'653' => {
+	'364' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -342,6 +397,11 @@ our $I18N = {
 	},
 
 	'cache statistics' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'settings groupIdAdminProfileSettings label' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -376,9 +436,14 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'1000' => {
-		message => q|Връзките към Базите данни позволяват на админстратора на&nbsp; WebGUI да добавя често използваните бази данни при работа с SQL Reports. Това освобождава авторите на SQL Report от необходимостта да знаят или да въвеждат DSN, потребител , или парола. <p>Внимавайте защото всяка връзка към база данни, която създадете ще бъде достъпна за всички автори на съдържание. Въпреки, че те няма да могат да виждат информация за връзката с базата данни, те ще могат да&nbsp; изпълняват произвални команди select, show, или describe върху тази база данни. </p>|,
-		lastUpdated => 1168806470
+	'wiki help label leadin' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'settings groupIdAdminSpectre hoverHelp' => {
+		message => q||,
+		lastUpdated => 
 	},
 
 	'choose an asset' => {
@@ -416,7 +481,7 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'manage users in group title' => {
+	'settings groupIdAdminReplacements label' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -466,22 +531,12 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'999' => {
-		message => q||,
-		lastUpdated => 
-	},
-
 	'61' => {
 		message => q||,
 		lastUpdated => 
 	},
 
 	'430' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'replacements edit body' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -497,11 +552,11 @@ our $I18N = {
 	},
 
 	'1035' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Шаблон за потвърждение|,
+		lastUpdated => 1194730136
 	},
 
-	'settings help' => {
+	'deactivateAccount success' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -521,6 +576,11 @@ our $I18N = {
 		lastUpdated => 
 	},
 
+	'additional parameters' => {
+		message => q||,
+		lastUpdated => 
+	},
+
 	'480' => {
 		message => q||,
 		lastUpdated => 
@@ -531,14 +591,19 @@ our $I18N = {
 		lastUpdated => 
 	},
 
+	'invite a friend' => {
+		message => q||,
+		lastUpdated => 
+	},
+
 	'438' => {
 		message => q||,
 		lastUpdated => 
 	},
 
 	'107' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Сигурност|,
+		lastUpdated => 1194730215
 	},
 
 	'87' => {
@@ -621,6 +686,16 @@ our $I18N = {
 		lastUpdated => 
 	},
 
+	'settings groupIdAdminUser hoverHelp' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'private message next label' => {
+		message => q||,
+		lastUpdated => 
+	},
+
 	'45' => {
 		message => q|Не, направих грешка.|,
 		lastUpdated => 1168808084
@@ -636,7 +711,7 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'1002' => {
+	'settings groupIdAdminProductManager hoverHelp' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -647,8 +722,8 @@ our $I18N = {
 	},
 
 	'1084' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Използвай тулбара по подразбиране за моя език|,
+		lastUpdated => 1194730627
 	},
 
 	'370' => {
@@ -702,8 +777,8 @@ our $I18N = {
 	},
 
 	'1075' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Връзка към база данни|,
+		lastUpdated => 1194730336
 	},
 
 	'381' => {
@@ -736,6 +811,11 @@ our $I18N = {
 		lastUpdated => 
 	},
 
+	'settings groupIdAdminProfileSettings hoverHelp' => {
+		message => q||,
+		lastUpdated => 
+	},
+
 	'Enable Metadata description' => {
 		message => q||,
 		lastUpdated => 
@@ -746,7 +826,22 @@ our $I18N = {
 		lastUpdated => 
 	},
 
+	'private message message label' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'private message no user' => {
+		message => q||,
+		lastUpdated => 
+	},
+
 	'813' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'settings groupIdAdminGroup label' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -766,6 +861,11 @@ our $I18N = {
 		lastUpdated => 
 	},
 
+	'settings groupIdAdminHelp hoverHelp' => {
+		message => q||,
+		lastUpdated => 
+	},
+
 	'1005 description' => {
 		message => q||,
 		lastUpdated => 
@@ -777,8 +877,8 @@ our $I18N = {
 	},
 
 	'1073' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Шаблон за стила|,
+		lastUpdated => 1194730322
 	},
 
 	'436' => {
@@ -796,7 +896,17 @@ our $I18N = {
 		lastUpdated => 
 	},
 
+	'Enable user invitations description' => {
+		message => q||,
+		lastUpdated => 
+	},
+
 	'456' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'private message status unread' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -831,7 +941,7 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'webgui tips title' => {
+	'permissions' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -857,11 +967,16 @@ our $I18N = {
 	},
 
 	'1026' => {
+		message => q|Позволен ли е rich edit?|,
+		lastUpdated => 1194730021
+	},
+
+	'329' => {
 		message => q||,
 		lastUpdated => 
 	},
 
-	'329' => {
+	'allow private messages label' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -886,6 +1001,11 @@ our $I18N = {
 		lastUpdated => 
 	},
 
+	'settings groupIdAdminWorkflowRun hoverHelp' => {
+		message => q||,
+		lastUpdated => 
+	},
+
 	'125 description' => {
 		message => q||,
 		lastUpdated => 
@@ -906,14 +1026,9 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'content filter body' => {
-		message => q||,
-		lastUpdated => 
-	},
-
 	'1011' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Код|,
+		lastUpdated => 1194729945
 	},
 
 	'556 description' => {
@@ -931,7 +1046,7 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'grouping edit title' => {
+	'settings groupIdAdminUserAdd label' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -976,7 +1091,17 @@ our $I18N = {
 		lastUpdated => 
 	},
 
+	'private message no self error' => {
+		message => q||,
+		lastUpdated => 
+	},
+
 	'983' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'settings groupIdAdminVersionTag label' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -1007,11 +1132,6 @@ our $I18N = {
 	},
 
 	'432' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'1074' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -1056,22 +1176,27 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'grouping edit body' => {
-		message => q||,
-		lastUpdated => 
-	},
-
 	'69' => {
 		message => q||,
 		lastUpdated => 
 	},
 
-	'glossary body' => {
+	'removeLabel' => {
 		message => q||,
 		lastUpdated => 
 	},
 
-	'removeLabel' => {
+	'private message status read' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'settings groupIdAdminStatistics hoverHelp' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'settings groupIdAdminSubscription label' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -1096,6 +1221,16 @@ our $I18N = {
 		lastUpdated => 
 	},
 
+	'view inbox message template description' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'run on admin update user help' => {
+		message => q||,
+		lastUpdated => 
+	},
+
 	'352' => {
 		message => q||,
 		lastUpdated => 
@@ -1107,8 +1242,8 @@ our $I18N = {
 	},
 
 	'1006' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Да се криптира ли логин-а?|,
+		lastUpdated => 1194729750
 	},
 
 	'company' => {
@@ -1127,11 +1262,6 @@ our $I18N = {
 	},
 
 	'369' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'961' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -1176,11 +1306,6 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'660' => {
-		message => q||,
-		lastUpdated => 
-	},
-
 	'428' => {
 		message => q||,
 		lastUpdated => 
@@ -1197,6 +1322,11 @@ our $I18N = {
 	},
 
 	'99' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'settings groupIdAdminLDAPLink label' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -1252,18 +1382,18 @@ our $I18N = {
 	},
 
 	'1006 description' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Системата да използва ли HTTPS протокола за логин формата? Бележка: Включването на тази опция ще криптира не само логин формата, но и всички страници след нея.|,
+		lastUpdated => 1194729854
 	},
 
 	'108' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Собственик|,
+		lastUpdated => 1194730582
 	},
 
-	'1001' => {
-		message => q|Следващите полета създават връзка към База данни.<br />|,
-		lastUpdated => 1168806518
+	'send private message' => {
+		message => q||,
+		lastUpdated => 
 	},
 
 	'556' => {
@@ -1291,6 +1421,11 @@ our $I18N = {
 		lastUpdated => 
 	},
 
+	'skip commit comments help' => {
+		message => q||,
+		lastUpdated => 
+	},
+
 	'142' => {
 		message => q||,
 		lastUpdated => 
@@ -1311,6 +1446,11 @@ our $I18N = {
 		lastUpdated => 
 	},
 
+	'settings groupIdAdminTransactionLog label' => {
+		message => q||,
+		lastUpdated => 
+	},
+
 	'help index' => {
 		message => q||,
 		lastUpdated => 
@@ -1322,11 +1462,6 @@ our $I18N = {
 	},
 
 	'360' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'610' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -1351,11 +1486,6 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'615' => {
-		message => q||,
-		lastUpdated => 
-	},
-
 	'50' => {
 		message => q||,
 		lastUpdated => 
@@ -1371,19 +1501,14 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'969' => {
-		message => q||,
-		lastUpdated => 
-	},
-
 	'radio' => {
 		message => q||,
 		lastUpdated => 
 	},
 
 	'1076' => {
-		message => q||,
-		lastUpdated => 
+		message => q|WebGUI база данни|,
+		lastUpdated => 1194730354
 	},
 
 	'510' => {
@@ -1392,16 +1517,11 @@ our $I18N = {
 	},
 
 	'1077' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Функцията, която се опитахте да извикате, не е налична за този модул за идентификация|,
+		lastUpdated => 1194730408
 	},
 
 	'449' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'658' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -1412,6 +1532,11 @@ our $I18N = {
 	},
 
 	'322' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'settings groupIdAdminCommerce hoverHelp' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -1442,13 +1567,13 @@ our $I18N = {
 	},
 
 	'1039' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Назад|,
+		lastUpdated => 1194730147
 	},
 
 	'1005' => {
-		message => q||,
-		lastUpdated => 
+		message => q|SQL заявка|,
+		lastUpdated => 1194729721
 	},
 
 	'40' => {
@@ -1466,12 +1591,12 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'699' => {
+	'settings groupIdAdminLDAPLink hoverHelp' => {
 		message => q||,
 		lastUpdated => 
 	},
 
-	'960' => {
+	'699' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -1482,6 +1607,11 @@ our $I18N = {
 	},
 
 	'818' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'user email template' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -1506,12 +1636,12 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'manage groups in group body' => {
+	'354' => {
 		message => q||,
 		lastUpdated => 
 	},
 
-	'354' => {
+	'private message sent' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -1521,22 +1651,27 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'583' => {
-		message => q||,
-		lastUpdated => 
-	},
-
 	'debug ip description' => {
 		message => q||,
 		lastUpdated => 
 	},
 
-	'951' => {
+	'583' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'settings groupIdAdminGraphics hoverHelp' => {
 		message => q||,
 		lastUpdated => 
 	},
 
 	'show performance indicators' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'951' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -1567,11 +1702,6 @@ our $I18N = {
 	},
 
 	'packages' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'leftovers from settings stored for later' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -1611,7 +1741,7 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'620' => {
+	'private message status replied' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -1622,8 +1752,8 @@ our $I18N = {
 	},
 
 	'1004' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Колко дълго да се кешират групите?|,
+		lastUpdated => 1194729664
 	},
 
 	'891' => {
@@ -1632,8 +1762,8 @@ our $I18N = {
 	},
 
 	'1045' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Вместени|,
+		lastUpdated => 1194730176
 	},
 
 	'532' => {
@@ -1647,6 +1777,11 @@ our $I18N = {
 	},
 
 	'1069' => {
+		message => q|Хост за изпозване|,
+		lastUpdated => 1194730203
+	},
+
+	'user email template description' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -1716,6 +1851,11 @@ our $I18N = {
 		lastUpdated => 
 	},
 
+	'additional parameters help' => {
+		message => q||,
+		lastUpdated => 
+	},
+
 	'89' => {
 		message => q||,
 		lastUpdated => 
@@ -1736,6 +1876,11 @@ our $I18N = {
 		lastUpdated => 
 	},
 
+	'private message title' => {
+		message => q||,
+		lastUpdated => 
+	},
+
 	'35' => {
 		message => q|Административна функция|,
 		lastUpdated => 1168807508
@@ -1746,12 +1891,12 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'347' => {
+	'settings groupIdAdminDatabaseLink label' => {
 		message => q||,
 		lastUpdated => 
 	},
 
-	'665' => {
+	'347' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -1821,6 +1966,11 @@ our $I18N = {
 		lastUpdated => 
 	},
 
+	'settings groupIdAdminGroup hoverHelp' => {
+		message => q||,
+		lastUpdated => 
+	},
+
 	'67' => {
 		message => q||,
 		lastUpdated => 
@@ -1856,6 +2006,16 @@ our $I18N = {
 		lastUpdated => 1168805880
 	},
 
+	'settings groupIdAdminWorkflow label' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'settings groupIdAdminGroupAdmin label' => {
+		message => q||,
+		lastUpdated => 
+	},
+
 	'732' => {
 		message => q||,
 		lastUpdated => 
@@ -1876,12 +2036,7 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'957' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'622' => {
+	'allow access from macros' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -1986,6 +2141,11 @@ our $I18N = {
 		lastUpdated => 
 	},
 
+	'settings groupIdAdminLoginHistory label' => {
+		message => q||,
+		lastUpdated => 
+	},
+
 	'355' => {
 		message => q||,
 		lastUpdated => 
@@ -2011,6 +2171,11 @@ our $I18N = {
 		lastUpdated => 
 	},
 
+	'private message blocked error' => {
+		message => q||,
+		lastUpdated => 
+	},
+
 	'326' => {
 		message => q||,
 		lastUpdated => 
@@ -2031,14 +2196,9 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'681' => {
-		message => q||,
-		lastUpdated => 
-	},
-
 	'1017' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Последен отговор|,
+		lastUpdated => 1194729974
 	},
 
 	'37' => {
@@ -2051,14 +2211,14 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'1029' => {
+	'private message from label' => {
 		message => q||,
 		lastUpdated => 
 	},
 
-	'698' => {
-		message => q||,
-		lastUpdated => 
+	'1029' => {
+		message => q|Редактирано на|,
+		lastUpdated => 1194730071
 	},
 
 	'538' => {
@@ -2091,6 +2251,11 @@ our $I18N = {
 		lastUpdated => 
 	},
 
+	'allow access from macros help' => {
+		message => q||,
+		lastUpdated => 
+	},
+
 	'hex slider' => {
 		message => q||,
 		lastUpdated => 
@@ -2102,6 +2267,16 @@ our $I18N = {
 	},
 
 	'433' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'settings groupIdAdminWorkflow hoverHelp' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'settings groupIdAdminLoginHistory hoverHelp' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -2147,13 +2322,13 @@ our $I18N = {
 	},
 
 	'1008' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Смесен Text и HTML|,
+		lastUpdated => 1194729906
 	},
 
 	'1027' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Да се използват ли филтрите за съдържание?|,
+		lastUpdated => 1194730048
 	},
 
 	'user function style' => {
@@ -2182,8 +2357,8 @@ our $I18N = {
 	},
 
 	'1072' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Този и-мейл адрес вече се използва. Моля използвайте друг и-мейл адрес.|,
+		lastUpdated => 1194730545
 	},
 
 	'pages' => {
@@ -2191,12 +2366,17 @@ our $I18N = {
 		lastUpdated => 1168805918
 	},
 
+	'editSettings done' => {
+		message => q||,
+		lastUpdated => 
+	},
+
 	'118 description' => {
 		message => q||,
 		lastUpdated => 
 	},
 
-	'612' => {
+	'settings groupIdAdminAdSpace hoverHelp' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -2216,12 +2396,12 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'91' => {
+	'settings groupIdAdminProductManager label' => {
 		message => q||,
 		lastUpdated => 
 	},
 
-	'1086' => {
+	'91' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -2266,6 +2446,11 @@ our $I18N = {
 		lastUpdated => 
 	},
 
+	'settings groupIdAdminUserAdd hoverHelp' => {
+		message => q||,
+		lastUpdated => 
+	},
+
 	'trash workflow' => {
 		message => q||,
 		lastUpdated => 
@@ -2286,22 +2471,12 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'668' => {
-		message => q||,
-		lastUpdated => 
-	},
-
 	'52' => {
 		message => q||,
 		lastUpdated => 
 	},
 
 	'750' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'657' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -2322,6 +2497,11 @@ our $I18N = {
 	},
 
 	'768' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'settings groupIdAdminGroupAdmin hoverHelp' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -2377,11 +2557,16 @@ our $I18N = {
 	},
 
 	'1078' => {
+		message => q|Вече има потребител на тази система с и-мейл адрес, който сте въвели. Моля попълнете отново формата и натиснете &quot;Запази&quot; ако още искате да създадете този потребител|,
+		lastUpdated => 1194730510
+	},
+
+	'pagination.text' => {
 		message => q||,
 		lastUpdated => 
 	},
 
-	'pagination.text' => {
+	'settings groupIdAdminCommerce label' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -2391,7 +2576,7 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'623' => {
+	'run on admin create user help' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -2417,6 +2602,11 @@ our $I18N = {
 	},
 
 	'1085' => {
+		message => q|Променливи от шаблона за страниране|,
+		lastUpdated => 1194730663
+	},
+
+	'Enable user invitations' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -2466,22 +2656,12 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'997' => {
-		message => q||,
-		lastUpdated => 
-	},
-
 	'36' => {
 		message => q|Вие трябва да сте администратор за да изпълните тази функция. Моля свържете се с някой от Вашите администратори. |,
 		lastUpdated => 1168807571
 	},
 
 	'settings' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'groups default body' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -2502,11 +2682,6 @@ our $I18N = {
 	},
 
 	'317' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'608' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -2571,6 +2746,16 @@ our $I18N = {
 		lastUpdated => 
 	},
 
+	'settings groupIdAdminActiveSessions label' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'settings groupIdAdminCache label' => {
+		message => q||,
+		lastUpdated => 
+	},
+
 	'125' => {
 		message => q||,
 		lastUpdated => 
@@ -2581,19 +2766,19 @@ our $I18N = {
 		lastUpdated => 1168808052
 	},
 
+	'send private message template' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'run on admin create user' => {
+		message => q||,
+		lastUpdated => 
+	},
+
 	'1007' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'667' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'998' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Тип на съдържанието|,
+		lastUpdated => 1194729870
 	},
 
 	'95' => {
@@ -2656,11 +2841,6 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'697' => {
-		message => q||,
-		lastUpdated => 
-	},
-
 	'pagination.previousPage' => {
 		message => q||,
 		lastUpdated => 
@@ -2687,8 +2867,8 @@ our $I18N = {
 	},
 
 	'1010' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Text|,
+		lastUpdated => 1194729930
 	},
 
 	'707' => {
@@ -2721,7 +2901,22 @@ our $I18N = {
 		lastUpdated => 
 	},
 
+	'settings groupIdAdminCron label' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'private message submit label' => {
+		message => q||,
+		lastUpdated => 
+	},
+
 	'81' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'view inbox message template' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -2732,11 +2927,6 @@ our $I18N = {
 	},
 
 	'321' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'group email title' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -2772,6 +2962,11 @@ our $I18N = {
 	},
 
 	'1079' => {
+		message => q|Стил за печат|,
+		lastUpdated => 1194730567
+	},
+
+	'user invitations email exists description' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -2797,6 +2992,11 @@ our $I18N = {
 	},
 
 	'808' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'settings groupIdAdminUser label' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -2856,11 +3056,6 @@ our $I18N = {
 		lastUpdated => 1168807287
 	},
 
-	'group email body' => {
-		message => q||,
-		lastUpdated => 
-	},
-
 	'735' => {
 		message => q||,
 		lastUpdated => 
@@ -2872,11 +3067,6 @@ our $I18N = {
 	},
 
 	'tinymce' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'613' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -2911,7 +3101,17 @@ our $I18N = {
 		lastUpdated => 
 	},
 
+	'user invitations email exists' => {
+		message => q||,
+		lastUpdated => 
+	},
+
 	'952' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'private message subject label' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -2922,8 +3122,8 @@ our $I18N = {
 	},
 
 	'1071' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Env HTTP Хост|,
+		lastUpdated => 1194730259
 	},
 
 	'select' => {
@@ -2931,7 +3131,7 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'636' => {
+	'auto request commit help' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -2951,6 +3151,11 @@ our $I18N = {
 		lastUpdated => 
 	},
 
+	'settings groupIdAdminVersionTag hoverHelp' => {
+		message => q||,
+		lastUpdated => 
+	},
+
 	'hidden' => {
 		message => q||,
 		lastUpdated => 
@@ -2961,17 +3166,22 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'455' => {
-		message => q||,
-		lastUpdated => 
-	},
-
 	'1050 description' => {
 		message => q|Стринг за търсене. Всички препинателни знаци ще бъдат запазени. |,
 		lastUpdated => 1168807168
 	},
 
+	'455' => {
+		message => q||,
+		lastUpdated => 
+	},
+
 	'80' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'settings groupIdAdminReplacements hoverHelp' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -2991,12 +3201,32 @@ our $I18N = {
 		lastUpdated => 
 	},
 
+	'view inbox template' => {
+		message => q||,
+		lastUpdated => 
+	},
+
 	'821' => {
 		message => q||,
 		lastUpdated => 
 	},
 
+	'wiki help target' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'run on admin update user' => {
+		message => q||,
+		lastUpdated => 
+	},
+
 	'ends with' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'send private message template description' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -3011,6 +3241,11 @@ our $I18N = {
 		lastUpdated => 
 	},
 
+	'settings groupIdAdminDatabaseLink hoverHelp' => {
+		message => q||,
+		lastUpdated => 
+	},
+
 	'879' => {
 		message => q||,
 		lastUpdated => 
@@ -3021,7 +3256,12 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'10' => {
+	'asset locked' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'pagination.pageCount' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -3031,9 +3271,9 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'pagination.pageCount' => {
-		message => q||,
-		lastUpdated => 
+	'10' => {
+		message => q|Управление на кошчето.|,
+		lastUpdated => 1194729633
 	},
 
 	'864 description' => {
@@ -3046,12 +3286,12 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'419' => {
+	'958' => {
 		message => q||,
 		lastUpdated => 
 	},
 
-	'958' => {
+	'419' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -3081,12 +3321,17 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'edit user karma body' => {
+	'settings groupIdAdminHelp label' => {
 		message => q||,
 		lastUpdated => 
 	},
 
 	'406' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'settings groupIdAdminSpectre label' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -3111,12 +3356,7 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'530' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'499' => {
+	'557 description' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -3126,7 +3366,12 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'557 description' => {
+	'499' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'530' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -3147,8 +3392,8 @@ our $I18N = {
 	},
 
 	'1030' => {
-		message => q||,
-		lastUpdated => 
+		message => q|от|,
+		lastUpdated => 1194730082
 	},
 
 	'done' => {
@@ -3177,21 +3422,16 @@ our $I18N = {
 	},
 
 	'1009' => {
-		message => q||,
-		lastUpdated => 
+		message => q|HTML|,
+		lastUpdated => 1194729919
 	},
 
-	'groups default title' => {
+	'pagination.pageList.upTo10' => {
 		message => q||,
 		lastUpdated => 
 	},
 
 	'141' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'pagination.pageList.upTo10' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -3217,11 +3457,6 @@ our $I18N = {
 	},
 
 	'134' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'655' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -3256,9 +3491,24 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'1070' => {
+	'private message unread display message' => {
 		message => q||,
 		lastUpdated => 
+	},
+
+	'private message date label' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'settings groupIdAdminGraphics label' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'1070' => {
+		message => q|Конфигуриране на името на сайта|,
+		lastUpdated => 1194730235
 	},
 
 	'703' => {
@@ -3272,8 +3522,8 @@ our $I18N = {
 	},
 
 	'1016' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Отговори|,
+		lastUpdated => 1194729960
 	},
 
 	'help' => {
@@ -3306,7 +3556,7 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'webgui tips body' => {
+	'settings groupIdAdminCron hoverHelp' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -3342,6 +3592,11 @@ our $I18N = {
 	},
 
 	'807' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'settings groupIdAdminActiveSessions hoverHelp' => {
 		message => q||,
 		lastUpdated => 
 	},

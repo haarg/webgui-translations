@@ -46,6 +46,11 @@ our $I18N = {
 		lastUpdated => 1189336683
 	},
 
+	'formUserDefinedN' => {
+		message => q|Dit is een formulier met een enekele tekstregel voor elk van de 5 Gebruiker Gedefinieerde velden.|,
+		lastUpdated => 1199699412
+	},
+
 	'urlParent' => {
 		message => q|De URL om de kalender weer te geven waartoe deze gebeurtenis behoort.|,
 		lastUpdated => 1189348017
@@ -139,6 +144,11 @@ our $I18N = {
 	'endDateMonthName' => {
 		message => q|De naam van de maand waarin deze gebeurtenis eindigt.|,
 		lastUpdated => 1189336585
+	},
+
+	'formUserDefinedN_yesNo' => {
+		message => q|Een ja/nee veld voor elk van de vijf door een Gebruiker Gedefinieerde velden.|,
+		lastUpdated => 1199700220
 	},
 
 	'formStartDate' => {
@@ -321,6 +331,11 @@ our $I18N = {
 		lastUpdated => 1189336840
 	},
 
+	'formUserDefinedN_htmlarea' => {
+		message => q|Een formulier functie voor een HTML WYSIWIG veld in elk van de vijf door Gebruiker Gedefinieerde velden.|,
+		lastUpdated => 1199700085
+	},
+
 	'endDateHourM' => {
 		message => q|De tekst "am" of "pm" wanneer de gebeurtenis in respectievelijk de ochtend of de middag plaatsvindt. |,
 		lastUpdated => 1189336482
@@ -346,14 +361,14 @@ our $I18N = {
 		lastUpdated => 1189338124
 	},
 
-	'formLocation' => {
-		message => q|De HTML om de locatie van een gebeurtenis in te voeren of te wijzigen.|,
-		lastUpdated => 1189337229
-	},
-
 	'endDateEpoch' => {
 		message => q|De einddatum van deze gebeurtenis in epoch formaat. (Dat is het aantal seconden sinds 1 januari 1970 Zulu-tijd.)|,
 		lastUpdated => 1189336355
+	},
+
+	'formLocation' => {
+		message => q|De HTML om de locatie van een gebeurtenis in te voeren of te wijzigen.|,
+		lastUpdated => 1189337229
 	},
 
 	'urlWeek' => {
@@ -411,6 +426,16 @@ our $I18N = {
 		lastUpdated => 1189336513
 	},
 
+	'formUserDefinedN_float' => {
+		message => q|Voor elk van de vijf door Gebruiker Gedefinieerde velden, een formulier fuctie voor een float.|,
+		lastUpdated => 1199786835
+	},
+
+	'formUserDefinedN_textarea' => {
+		message => q|Een tekst gebied formulier onderdeel, voor elk van de vijf door een Gebruiker Gedefineerde velden.|,
+		lastUpdated => 1199700143
+	},
+
 	'formEndDate' => {
 		message => q|Een HTML formulier om de einddatum van een gebeurtenis toe te voegen of te wijzigen.|,
 		lastUpdated => 1189337046
@@ -451,14 +476,14 @@ our $I18N = {
 		lastUpdated => 1190027477
 	},
 
-	'startDateDayOfWeek' => {
-		message => q|De dag van de week waarin deze gebeurtenis start. Dit is een nummer van 1 tot en met 7.|,
-		lastUpdated => 1189338274
-	},
-
 	'isOneDay' => {
 		message => q|Een voorwaardelijke variabele die waar is wanneer de gebeurtenis op dezelfde dag start en eindigt. |,
 		lastUpdated => 1189337886
+	},
+
+	'startDateDayOfWeek' => {
+		message => q|De dag van de week waarin deze gebeurtenis start. Dit is een nummer van 1 tot en met 7.|,
+		lastUpdated => 1189338274
 	},
 
 	'startDateHour24' => {
