@@ -1,4 +1,4 @@
-package WebGUI::i18n::polish::Form_CheckList;
+package WebGUI::i18n::Polish::Form_CheckList;
 
 our $I18N = {
 };

@@ -1,4 +1,4 @@
-package WebGUI::i18n::polish::Macro_SQL;
+package WebGUI::i18n::Polish::Macro_SQL;
 
 our $I18N = {
 };

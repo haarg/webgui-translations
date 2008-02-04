@@ -1,4 +1,4 @@
-package WebGUI::i18n::polish::Image_Graph;
+package WebGUI::i18n::Polish::Image_Graph;
 
 our $I18N = {
 };

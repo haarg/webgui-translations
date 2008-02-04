@@ -1,4 +1,4 @@
-package WebGUI::i18n::polish::Asset_Matrix;
+package WebGUI::i18n::Polish::Asset_Matrix;
 
 our $I18N = {
 	'clicks' => {

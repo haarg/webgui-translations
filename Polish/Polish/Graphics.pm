@@ -1,4 +1,4 @@
-package WebGUI::i18n::polish::Graphics;
+package WebGUI::i18n::Polish::Graphics;
 
 our $I18N = {
 	'stroke alpha' => {

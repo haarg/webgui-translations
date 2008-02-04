@@ -1,4 +1,4 @@
-package WebGUI::i18n::polish::Asset_GalleryAlbum;
+package WebGUI::i18n::Polish::Asset_GalleryAlbum;
 
 our $I18N = {
 };

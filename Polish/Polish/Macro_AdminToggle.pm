@@ -1,4 +1,4 @@
-package WebGUI::i18n::polish::Macro_AdminToggle;
+package WebGUI::i18n::Polish::Macro_AdminToggle;
 
 our $I18N = {
 };

@@ -1,4 +1,4 @@
-package WebGUI::i18n::polish::Macro_SubscriptionItem;
+package WebGUI::i18n::Polish::Macro_SubscriptionItem;
 
 our $I18N = {
 };

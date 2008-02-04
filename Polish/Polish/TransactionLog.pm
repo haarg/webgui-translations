@@ -1,4 +1,4 @@
-package WebGUI::i18n::polish::TransactionLog;
+package WebGUI::i18n::Polish::TransactionLog;
 
 our $I18N = {
 };

@@ -1,4 +1,4 @@
-package WebGUI::i18n::polish::Asset_RSSFromParent;
+package WebGUI::i18n::Polish::Asset_RSSFromParent;
 
 our $I18N = {
 };

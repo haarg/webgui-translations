@@ -1,4 +1,4 @@
-package WebGUI::i18n::polish::VersionTag;
+package WebGUI::i18n::Polish::VersionTag;
 
 our $I18N = {
 };

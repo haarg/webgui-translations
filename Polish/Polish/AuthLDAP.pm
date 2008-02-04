@@ -1,4 +1,4 @@
-package WebGUI::i18n::polish::AuthLDAP;
+package WebGUI::i18n::Polish::AuthLDAP;
 
 our $I18N = {
 };

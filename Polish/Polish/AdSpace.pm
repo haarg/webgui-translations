@@ -1,4 +1,4 @@
-package WebGUI::i18n::polish::AdSpace;
+package WebGUI::i18n::Polish::AdSpace;
 
 our $I18N = {
 	'is active' => {

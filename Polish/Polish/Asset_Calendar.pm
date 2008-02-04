@@ -1,4 +1,4 @@
-package WebGUI::i18n::polish::Asset_Calendar;
+package WebGUI::i18n::Polish::Asset_Calendar;
 
 our $I18N = {
 };

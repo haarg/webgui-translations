@@ -1,4 +1,4 @@
-package WebGUI::i18n::polish::AdminConsole;
+package WebGUI::i18n::Polish::AdminConsole;
 
 our $I18N = {
 	'toggle off' => {

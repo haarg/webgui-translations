@@ -1,4 +1,4 @@
-package WebGUI::i18n::polish::Macro_Product;
+package WebGUI::i18n::Polish::Macro_Product;
 
 our $I18N = {
 };

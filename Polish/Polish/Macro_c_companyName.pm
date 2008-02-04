@@ -1,4 +1,4 @@
-package WebGUI::i18n::polish::Macro_c_companyName;
+package WebGUI::i18n::Polish::Macro_c_companyName;
 
 our $I18N = {
 };

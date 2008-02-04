@@ -1,4 +1,4 @@
-package WebGUI::i18n::polish::Asset_WeatherData;
+package WebGUI::i18n::Polish::Asset_WeatherData;
 
 our $I18N = {
 };

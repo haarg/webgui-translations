@@ -1,4 +1,4 @@
-package WebGUI::i18n::polish::Macro_AdminBar;
+package WebGUI::i18n::Polish::Macro_AdminBar;
 
 our $I18N = {
 	'icon' => {

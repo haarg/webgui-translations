@@ -1,4 +1,4 @@
-package WebGUI::i18n::polish::Asset_RichEdit;
+package WebGUI::i18n::Polish::Asset_RichEdit;
 
 our $I18N = {
 };

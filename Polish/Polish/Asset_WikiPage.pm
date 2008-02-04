@@ -1,4 +1,4 @@
-package WebGUI::i18n::polish::Asset_WikiPage;
+package WebGUI::i18n::Polish::Asset_WikiPage;
 
 our $I18N = {
 	'history actionTaken' => {

@@ -1,4 +1,4 @@
-package WebGUI::i18n::polish::Workflow;
+package WebGUI::i18n::Polish::Workflow;
 
 our $I18N = {
 };

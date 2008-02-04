@@ -1,4 +1,4 @@
-package WebGUI::i18n::polish::Asset_DataForm;
+package WebGUI::i18n::Polish::Asset_DataForm;
 
 our $I18N = {
 };

@@ -1,4 +1,4 @@
-package WebGUI::i18n::polish::Asset_MessageBoard;
+package WebGUI::i18n::Polish::Asset_MessageBoard;
 
 our $I18N = {
 };

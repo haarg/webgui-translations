@@ -1,4 +1,4 @@
-package WebGUI::i18n::polish::Workflow_Activity_GetCsPost;
+package WebGUI::i18n::Polish::Workflow_Activity_GetCsPost;
 
 our $I18N = {
 };

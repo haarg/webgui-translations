@@ -1,4 +1,4 @@
-package WebGUI::i18n::polish::Operation_FormHelpers;
+package WebGUI::i18n::Polish::Operation_FormHelpers;
 
 our $I18N = {
 };

@@ -1,4 +1,4 @@
-package WebGUI::i18n::polish::Macro_EditableToggle;
+package WebGUI::i18n::Polish::Macro_EditableToggle;
 
 our $I18N = {
 };

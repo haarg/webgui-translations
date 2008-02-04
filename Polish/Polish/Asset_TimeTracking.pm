@@ -1,4 +1,4 @@
-package WebGUI::i18n::polish::Asset_TimeTracking;
+package WebGUI::i18n::Polish::Asset_TimeTracking;
 
 our $I18N = {
 };

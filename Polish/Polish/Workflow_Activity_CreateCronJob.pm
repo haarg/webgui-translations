@@ -1,4 +1,4 @@
-package WebGUI::i18n::polish::Workflow_Activity_CreateCronJob;
+package WebGUI::i18n::Polish::Workflow_Activity_CreateCronJob;
 
 our $I18N = {
 };

@@ -1,4 +1,4 @@
-package WebGUI::i18n::polish::Asset_Thread;
+package WebGUI::i18n::Polish::Asset_Thread;
 
 our $I18N = {
 };

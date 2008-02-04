@@ -1,4 +1,4 @@
-package WebGUI::i18n::polish::Macro_RandomAssetProxy;
+package WebGUI::i18n::Polish::Macro_RandomAssetProxy;
 
 our $I18N = {
 };

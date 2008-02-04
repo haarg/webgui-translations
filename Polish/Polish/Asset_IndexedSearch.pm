@@ -1,4 +1,4 @@
-package WebGUI::i18n::polish::Asset_IndexedSearch;
+package WebGUI::i18n::Polish::Asset_IndexedSearch;
 
 our $I18N = {
 };

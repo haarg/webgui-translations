@@ -1,4 +1,4 @@
-package WebGUI::i18n::polish::CommerceShippingPerTransaction;
+package WebGUI::i18n::Polish::CommerceShippingPerTransaction;
 
 our $I18N = {
 };

@@ -1,4 +1,4 @@
-package WebGUI::i18n::polish::Asset_Redirect;
+package WebGUI::i18n::Polish::Asset_Redirect;
 
 our $I18N = {
 };

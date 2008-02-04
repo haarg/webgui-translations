@@ -1,4 +1,4 @@
-package WebGUI::i18n::polish::Asset_WikiMaster;
+package WebGUI::i18n::Polish::Asset_WikiMaster;
 
 our $I18N = {
 };

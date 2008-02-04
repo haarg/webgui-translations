@@ -1,4 +1,4 @@
-package WebGUI::i18n::polish::Workflow_Activity_ExpireGroupings;
+package WebGUI::i18n::Polish::Workflow_Activity_ExpireGroupings;
 
 our $I18N = {
 };

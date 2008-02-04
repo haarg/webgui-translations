@@ -1,4 +1,4 @@
-package WebGUI::i18n::polish::Asset_HttpProxy;
+package WebGUI::i18n::Polish::Asset_HttpProxy;
 
 our $I18N = {
 };

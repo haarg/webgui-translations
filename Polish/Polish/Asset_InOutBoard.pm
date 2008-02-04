@@ -1,4 +1,4 @@
-package WebGUI::i18n::polish::Asset_InOutBoard;
+package WebGUI::i18n::Polish::Asset_InOutBoard;
 
 our $I18N = {
 };

@@ -1,4 +1,4 @@
-package WebGUI::i18n::polish::Invite;
+package WebGUI::i18n::Polish::Invite;
 
 our $I18N = {
 };

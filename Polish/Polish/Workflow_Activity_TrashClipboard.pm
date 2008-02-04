@@ -1,4 +1,4 @@
-package WebGUI::i18n::polish::Workflow_Activity_TrashClipboard;
+package WebGUI::i18n::Polish::Workflow_Activity_TrashClipboard;
 
 our $I18N = {
 };

@@ -1,4 +1,4 @@
-package WebGUI::i18n::polish::CommercePaymentCheck;
+package WebGUI::i18n::Polish::CommercePaymentCheck;
 
 our $I18N = {
 };

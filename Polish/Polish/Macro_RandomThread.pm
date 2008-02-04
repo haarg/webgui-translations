@@ -1,4 +1,4 @@
-package WebGUI::i18n::polish::Macro_RandomThread;
+package WebGUI::i18n::Polish::Macro_RandomThread;
 
 our $I18N = {
 };

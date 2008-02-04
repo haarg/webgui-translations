@@ -1,4 +1,4 @@
-package WebGUI::i18n::polish::Workflow_Cron;
+package WebGUI::i18n::Polish::Workflow_Cron;
 
 our $I18N = {
 };

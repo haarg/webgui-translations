@@ -1,4 +1,4 @@
-package WebGUI::i18n::polish::Form_MimeType;
+package WebGUI::i18n::Polish::Form_MimeType;
 
 our $I18N = {
 };

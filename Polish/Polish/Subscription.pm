@@ -1,4 +1,4 @@
-package WebGUI::i18n::polish::Subscription;
+package WebGUI::i18n::Polish::Subscription;
 
 our $I18N = {
 	'subscription description' => {

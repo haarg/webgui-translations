@@ -1,4 +1,4 @@
-package WebGUI::i18n::polish::Asset_SQLReport;
+package WebGUI::i18n::Polish::Asset_SQLReport;
 
 our $I18N = {
 };

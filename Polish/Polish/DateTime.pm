@@ -1,4 +1,4 @@
-package WebGUI::i18n::polish::DateTime;
+package WebGUI::i18n::Polish::DateTime;
 
 our $I18N = {
 };

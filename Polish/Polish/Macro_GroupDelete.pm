@@ -1,4 +1,4 @@
-package WebGUI::i18n::polish::Macro_GroupDelete;
+package WebGUI::i18n::Polish::Macro_GroupDelete;
 
 our $I18N = {
 };

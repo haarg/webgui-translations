@@ -1,4 +1,4 @@
-package WebGUI::i18n::polish::Asset_ZipArchive;
+package WebGUI::i18n::Polish::Asset_ZipArchive;
 
 our $I18N = {
 };

@@ -1,4 +1,4 @@
-package WebGUI::i18n::polish::Form_HTMLArea;
+package WebGUI::i18n::Polish::Form_HTMLArea;
 
 our $I18N = {
 };

@@ -1,4 +1,4 @@
-package WebGUI::i18n::polish::Asset_Shortcut;
+package WebGUI::i18n::Polish::Asset_Shortcut;
 
 our $I18N = {
 };

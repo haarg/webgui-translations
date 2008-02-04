@@ -1,4 +1,4 @@
-package WebGUI::i18n::polish::AuthWebGUI;
+package WebGUI::i18n::Polish::AuthWebGUI;
 
 our $I18N = {
 };

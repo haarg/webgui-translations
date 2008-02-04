@@ -1,4 +1,4 @@
-package WebGUI::i18n::polish::Macro_FileUrl;
+package WebGUI::i18n::Polish::Macro_FileUrl;
 
 our $I18N = {
 };

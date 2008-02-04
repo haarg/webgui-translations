@@ -1,4 +1,4 @@
-package WebGUI::i18n::polish::Asset_ProjectManager;
+package WebGUI::i18n::Polish::Asset_ProjectManager;
 
 our $I18N = {
 };

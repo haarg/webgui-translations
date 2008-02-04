@@ -1,4 +1,4 @@
-package WebGUI::i18n::polish::Macro_GroupText;
+package WebGUI::i18n::Polish::Macro_GroupText;
 
 our $I18N = {
 };

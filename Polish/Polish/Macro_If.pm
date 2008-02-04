@@ -1,4 +1,4 @@
-package WebGUI::i18n::polish::Macro_If;
+package WebGUI::i18n::Polish::Macro_If;
 
 our $I18N = {
 };
