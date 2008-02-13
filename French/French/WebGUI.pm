@@ -12,8 +12,8 @@ our $I18N = {
 	},
 
 	'127' => {
-		message => q||,
-		lastUpdated => 
+		message => q|URL de la soci&eacute;t&eacute;|,
+		lastUpdated => 1202832889
 	},
 
 	'1049' => {
@@ -32,8 +32,8 @@ our $I18N = {
 	},
 
 	'443' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Coordonn&eacute;es personnelles|,
+		lastUpdated => 1202575283
 	},
 
 	'959' => {
@@ -47,8 +47,8 @@ our $I18N = {
 	},
 
 	'882' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Mode Edition|,
+		lastUpdated => 1202913043
 	},
 
 	'cache type' => {
@@ -57,23 +57,23 @@ our $I18N = {
 	},
 
 	'331' => {
-		message => q||,
-		lastUpdated => 
+		message => q|R&eacute;gion|,
+		lastUpdated => 1202558008
 	},
 
 	'358' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Colonne de gauche|,
+		lastUpdated => 1202557581
 	},
 
 	'1050' => {
-		message => q|Recherche De|,
-		lastUpdated => 1201305827
+		message => q|Recherche de|,
+		lastUpdated => 1202557909
 	},
 
 	'560' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Approuv&eacute;|,
+		lastUpdated => 1202912657
 	},
 
 	'737' => {
@@ -159,8 +159,8 @@ our $I18N = {
 	},
 
 	'978' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Ajout de l'utilisateur r&eacute;ussi.|,
+		lastUpdated => 1202912187
 	},
 
 	'728' => {
@@ -189,8 +189,8 @@ our $I18N = {
 	},
 
 	'325' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Province|,
+		lastUpdated => 1202556474
 	},
 
 	'378' => {
@@ -214,8 +214,8 @@ our $I18N = {
 	},
 
 	'350' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Termin&eacute;|,
+		lastUpdated => 1202557303
 	},
 
 	'540' => {
@@ -239,8 +239,8 @@ our $I18N = {
 	},
 
 	'431' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Adresse IP|,
+		lastUpdated => 1202558807
 	},
 
 	'527' => {
@@ -249,8 +249,8 @@ our $I18N = {
 	},
 
 	'861' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Rendre le profil public?|,
+		lastUpdated => 1202912754
 	},
 
 	'settings groupIdAdminStatistics label' => {
@@ -259,8 +259,8 @@ our $I18N = {
 	},
 
 	'337' => {
-		message => q||,
-		lastUpdated => 
+		message => q|URL Page personnelle|,
+		lastUpdated => 1202556870
 	},
 
 	'76' => {
@@ -269,8 +269,8 @@ our $I18N = {
 	},
 
 	'340' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Femme|,
+		lastUpdated => 1202556920
 	},
 
 	'62' => {
@@ -289,8 +289,8 @@ our $I18N = {
 	},
 
 	'139' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Non|,
+		lastUpdated => 1202913130
 	},
 
 	'auto request commit' => {
@@ -329,28 +329,28 @@ our $I18N = {
 	},
 
 	'168' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Modification de l'utilisateur|,
+		lastUpdated => 1202558191
 	},
 
 	'706' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Heure(s)|,
+		lastUpdated => 1202558362
 	},
 
 	'14' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Voir les soumissions en instance.|,
+		lastUpdated => 1202913416
 	},
 
 	'135' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Serveur SMTP|,
+		lastUpdated => 1202832872
 	},
 
 	'348' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Nom|,
+		lastUpdated => 1202557238
 	},
 
 	'bare insufficient' => {
@@ -364,8 +364,8 @@ our $I18N = {
 	},
 
 	'145' => {
-		message => q||,
-		lastUpdated => 
+		message => q|WebGUIBuild Version|,
+		lastUpdated => 1202832471
 	},
 
 	'preview' => {
@@ -389,8 +389,8 @@ our $I18N = {
 	},
 
 	'364' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Rechercher|,
+		lastUpdated => 1202557790
 	},
 
 	'950' => {
@@ -409,13 +409,13 @@ our $I18N = {
 	},
 
 	'486' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Liste|,
+		lastUpdated => 1202831678
 	},
 
 	'160' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Date de publication|,
+		lastUpdated => 1202832342
 	},
 
 	'509' => {
@@ -464,13 +464,13 @@ our $I18N = {
 	},
 
 	'485' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Bool&eacute;enne (Bo&icirc;te &agrave; cocher: Checkbox)|,
+		lastUpdated => 1202831654
 	},
 
 	'391' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Effacer les fichiers attach&eacute;s.|,
+		lastUpdated => 1202558629
 	},
 
 	'743' => {
@@ -504,8 +504,8 @@ our $I18N = {
 	},
 
 	'119' => {
-		message => q||,
-		lastUpdated => 
+		message => q|M&eacute;thode d'autentification (par d&eacute;faut)|,
+		lastUpdated => 1202832524
 	},
 
 	'453' => {
@@ -514,8 +514,8 @@ our $I18N = {
 	},
 
 	'324' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Ville|,
+		lastUpdated => 1202556378
 	},
 
 	'user profile field private message allow label' => {
@@ -529,8 +529,8 @@ our $I18N = {
 	},
 
 	'351' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Message|,
+		lastUpdated => 1202557316
 	},
 
 	'fieldtype' => {
@@ -559,8 +559,8 @@ our $I18N = {
 	},
 
 	'1035' => {
-		message => q|Modèle D'Avis|,
-		lastUpdated => 1201306603
+		message => q|Mod&egrave;le d'avis|,
+		lastUpdated => 1202556196
 	},
 
 	'deactivateAccount success' => {
@@ -574,13 +574,13 @@ our $I18N = {
 	},
 
 	'342' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Modifier les informations du compte.|,
+		lastUpdated => 1202557051
 	},
 
 	'862' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Le profil de cet utilisateur n'est pas public.|,
+		lastUpdated => 1202912970
 	},
 
 	'additional parameters' => {
@@ -589,13 +589,13 @@ our $I18N = {
 	},
 
 	'480' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Adresse email|,
+		lastUpdated => 1202831485
 	},
 
 	'341' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Modification du profil.|,
+		lastUpdated => 1202556986
 	},
 
 	'invite a friend' => {
@@ -639,8 +639,8 @@ our $I18N = {
 	},
 
 	'39' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Vous n'avez pas l'autorisation d'acc&eacute;der &agrave; cette page.|,
+		lastUpdated => 1202558672
 	},
 
 	'account' => {
@@ -674,8 +674,8 @@ our $I18N = {
 	},
 
 	'12' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Fermer le mode Admin.|,
+		lastUpdated => 1202832504
 	},
 
 	'881' => {
@@ -714,8 +714,8 @@ our $I18N = {
 	},
 
 	'405' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Derni&egrave;re page|,
+		lastUpdated => 1202557806
 	},
 
 	'settings groupIdAdminProductManager hoverHelp' => {
@@ -739,8 +739,8 @@ our $I18N = {
 	},
 
 	'309' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Autoriser le vrai nom?|,
+		lastUpdated => 1202556290
 	},
 
 	'authentication' => {
@@ -754,8 +754,8 @@ our $I18N = {
 	},
 
 	'1' => {
-		message => q|Ajoutez le contenu|,
-		lastUpdated => 1201303597
+		message => q|Ajouter du contenu...|,
+		lastUpdated => 1202576676
 	},
 
 	'144' => {
@@ -784,8 +784,8 @@ our $I18N = {
 	},
 
 	'1075' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Lien de Base de donn&eacute;es|,
+		lastUpdated => 1202832542
 	},
 
 	'381' => {
@@ -804,8 +804,8 @@ our $I18N = {
 	},
 
 	'392' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Effacer ce fichier?|,
+		lastUpdated => 1202558074
 	},
 
 	'pagination.pageCount.isMultiple' => {
@@ -814,8 +814,8 @@ our $I18N = {
 	},
 
 	'496' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Editeur &agrave; utiliser|,
+		lastUpdated => 1202831812
 	},
 
 	'settings groupIdAdminProfileSettings hoverHelp' => {
@@ -829,8 +829,8 @@ our $I18N = {
 	},
 
 	'605' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Ajouter un groupe|,
+		lastUpdated => 1202912227
 	},
 
 	'private message message label' => {
@@ -939,8 +939,8 @@ our $I18N = {
 	},
 
 	'493' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Retour au site.|,
+		lastUpdated => 1202831772
 	},
 
 	'trash workflow help' => {
@@ -954,8 +954,8 @@ our $I18N = {
 	},
 
 	'photo' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Photo|,
+		lastUpdated => 1202575190
 	},
 
 	'file' => {
@@ -969,8 +969,8 @@ our $I18N = {
 	},
 
 	'445' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Pr&eacute;f&eacute;rences|,
+		lastUpdated => 1202912259
 	},
 
 	'account.options' => {
@@ -986,8 +986,8 @@ our $I18N = {
 	},
 
 	'329' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Adresse du travail|,
+		lastUpdated => 1202557984
 	},
 
 	'allow private messages label' => {
@@ -1001,8 +1001,8 @@ our $I18N = {
 	},
 
 	'161' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Publi&eacute; par|,
+		lastUpdated => 1202832355
 	},
 
 	'582' => {
@@ -1071,13 +1071,13 @@ our $I18N = {
 	},
 
 	'700' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Jour(s)|,
+		lastUpdated => 1202558289
 	},
 
 	'475' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Texte|,
+		lastUpdated => 1202557746
 	},
 
 	'441' => {
@@ -1101,8 +1101,8 @@ our $I18N = {
 	},
 
 	'349' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Derni&egrave;re version disponible|,
+		lastUpdated => 1202913326
 	},
 
 	'private message no self error' => {
@@ -1121,8 +1121,8 @@ our $I18N = {
 	},
 
 	'138' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Oui|,
+		lastUpdated => 1202913107
 	},
 
 	'751' => {
@@ -1151,18 +1151,18 @@ our $I18N = {
 	},
 
 	'860' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Rendre visible votre adresse email?|,
+		lastUpdated => 1202575473
 	},
 
 	'346' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Cette utilisateur n'est plus membre de notre site. Nous avons aucune information sur lui.|,
+		lastUpdated => 1202557191
 	},
 
 	'1075 description' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Si vous voulez avoir ce groupe d'utilisateurs utilisant une base de donn&eacute;es externe, choisissez le lien de base de donn&eacute;es pour utiliser.|,
+		lastUpdated => 1202832649
 	},
 
 	'333' => {
@@ -1176,8 +1176,8 @@ our $I18N = {
 	},
 
 	'323' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Adresse r&eacute;sidentielle|,
+		lastUpdated => 1202556329
 	},
 
 	'codearea' => {
@@ -1246,8 +1246,8 @@ our $I18N = {
 	},
 
 	'352' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Date|,
+		lastUpdated => 1202557325
 	},
 
 	'130 description' => {
@@ -1256,8 +1256,8 @@ our $I18N = {
 	},
 
 	'1006' => {
-		message => q|Chiffrez l'ouverture?|,
-		lastUpdated => 1201304426
+		message => q|Encrypter l'identifiant?|,
+		lastUpdated => 1202912785
 	},
 
 	'company' => {
@@ -1266,13 +1266,13 @@ our $I18N = {
 	},
 
 	'126' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Adresse Email de la soci&eacute;t&eacute;|,
+		lastUpdated => 1202832906
 	},
 
 	'426' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Historique des connexions|,
+		lastUpdated => 1202913467
 	},
 
 	'369' => {
@@ -1281,8 +1281,8 @@ our $I18N = {
 	},
 
 	'483' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Oui ou Non|,
+		lastUpdated => 1202831586
 	},
 
 	'pagination.nextPageText' => {
@@ -1316,8 +1316,8 @@ our $I18N = {
 	},
 
 	'170' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Rechercher|,
+		lastUpdated => 1202832366
 	},
 
 	'default rich editor' => {
@@ -1386,8 +1386,8 @@ our $I18N = {
 	},
 
 	'359' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Colonne de droite|,
+		lastUpdated => 1202557593
 	},
 
 	'527 description' => {
@@ -1401,13 +1401,13 @@ our $I18N = {
 	},
 
 	'1006 description' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Le syst&egrave;me doit-il utiliser un protocole HTTPS pour l'identification? Noter que si cette option est activ&eacute;e, toutes les pages seront crypt&eacute;es et non pas seulement le login.|,
+		lastUpdated => 1202556147
 	},
 
 	'108' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Propri&eacute;taire|,
+		lastUpdated => 1202832829
 	},
 
 	'send private message' => {
@@ -1456,8 +1456,8 @@ our $I18N = {
 	},
 
 	'330' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Ville|,
+		lastUpdated => 1202557966
 	},
 
 	'991' => {
@@ -1466,8 +1466,8 @@ our $I18N = {
 	},
 
 	'167' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Etes-vous certain de vouloir effacer cet utilisateur? Attention, toutes les informations associ&eacute;es &agrave; l'utilisateur seront perdues.|,
+		lastUpdated => 1202558150
 	},
 
 	'settings groupIdAdminTransactionLog label' => {
@@ -1506,13 +1506,13 @@ our $I18N = {
 	},
 
 	'50 description' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Le nom de l'utilisateur.|,
+		lastUpdated => 1202831880
 	},
 
 	'50' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Nom d'utilisateur|,
+		lastUpdated => 1202831850
 	},
 
 	'476' => {
@@ -1531,8 +1531,8 @@ our $I18N = {
 	},
 
 	'1076' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Base de donn&eacute;es Webgui|,
+		lastUpdated => 1202832664
 	},
 
 	'510' => {
@@ -1541,8 +1541,8 @@ our $I18N = {
 	},
 
 	'1077' => {
-		message => q||,
-		lastUpdated => 
+		message => q|La fonction que vous essayez d'appeler n'est pas disponible pour ce module authentification.|,
+		lastUpdated => 1202832725
 	},
 
 	'449' => {
@@ -1556,8 +1556,8 @@ our $I18N = {
 	},
 
 	'322' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Pager|,
+		lastUpdated => 1202555907
 	},
 
 	'settings groupIdAdminCommerce hoverHelp' => {
@@ -1571,8 +1571,8 @@ our $I18N = {
 	},
 
 	'353' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Vous n'avez aucun message dans votre bo&icirc;te de reception.|,
+		lastUpdated => 1202557363
 	},
 
 	'575' => {
@@ -1601,13 +1601,13 @@ our $I18N = {
 	},
 
 	'40' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Composant vital|,
+		lastUpdated => 1202558738
 	},
 
 	'310' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Autoriser des informations compl&eacute;mentaires?|,
+		lastUpdated => 1202556607
 	},
 
 	'interval' => {
@@ -1621,13 +1621,13 @@ our $I18N = {
 	},
 
 	'699' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Premier jour de la semaine|,
+		lastUpdated => 1202558457
 	},
 
 	'cancel' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Annuler|,
+		lastUpdated => 1202912136
 	},
 
 	'user profile field friend availability' => {
@@ -1666,8 +1666,8 @@ our $I18N = {
 	},
 
 	'354' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Voir la bo&icirc;te de messages.|,
+		lastUpdated => 1202557508
 	},
 
 	'private message sent' => {
@@ -1722,7 +1722,7 @@ our $I18N = {
 
 	'9' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 1202831471
 	},
 
 	'425' => {
@@ -1826,8 +1826,8 @@ our $I18N = {
 	},
 
 	'368' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Assigner un groupe &agrave; cet utilisateur.|,
+		lastUpdated => 1202558555
 	},
 
 	'user profile field private message allow none label' => {
@@ -1836,8 +1836,8 @@ our $I18N = {
 	},
 
 	'872' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Qui peut le voir?|,
+		lastUpdated => 1202912695
 	},
 
 	'image manager' => {
@@ -1861,8 +1861,8 @@ our $I18N = {
 	},
 
 	'163' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Ajouter un utilisateur|,
+		lastUpdated => 1202832484
 	},
 
 	'trash' => {
@@ -1891,8 +1891,8 @@ our $I18N = {
 	},
 
 	'395' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Rajouter une nouvelle image.|,
+		lastUpdated => 1202558760
 	},
 
 	'additional parameters help' => {
@@ -1906,8 +1906,8 @@ our $I18N = {
 	},
 
 	'175' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Activez les macros?|,
+		lastUpdated => 1202832414
 	},
 
 	'allowed keywords description' => {
@@ -1926,8 +1926,8 @@ our $I18N = {
 	},
 
 	'35' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Fonction administrative|,
+		lastUpdated => 1202557282
 	},
 
 	'141 description' => {
@@ -1941,8 +1941,8 @@ our $I18N = {
 	},
 
 	'347' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Voir le profil de|,
+		lastUpdated => 1202557224
 	},
 
 	'pagination.url' => {
@@ -1951,8 +1951,8 @@ our $I18N = {
 	},
 
 	'434' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Statut|,
+		lastUpdated => 1202912612
 	},
 
 	'93' => {
@@ -2031,13 +2031,13 @@ our $I18N = {
 	},
 
 	'327' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Pays|,
+		lastUpdated => 1202556679
 	},
 
 	'320' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Identifiant Yahoo! Messenger|,
+		lastUpdated => 1202555757
 	},
 
 	'944' => {
@@ -2101,8 +2101,8 @@ our $I18N = {
 	},
 
 	'819' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Auto-d&eacute;sactiv&eacute;|,
+		lastUpdated => 1202912938
 	},
 
 	'purge workflow help' => {
@@ -2126,8 +2126,8 @@ our $I18N = {
 	},
 
 	'858' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Alias|,
+		lastUpdated => 1202575145
 	},
 
 	'104' => {
@@ -2191,8 +2191,8 @@ our $I18N = {
 	},
 
 	'355' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Par d&eacute;faut|,
+		lastUpdated => 1202557525
 	},
 
 	'847' => {
@@ -2201,8 +2201,8 @@ our $I18N = {
 	},
 
 	'159' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Bo&icirc;te de reception|,
+		lastUpdated => 1202832325
 	},
 
 	'553' => {
@@ -2211,8 +2211,8 @@ our $I18N = {
 	},
 
 	'704' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Seconde(s)|,
+		lastUpdated => 1202558339
 	},
 
 	'private message blocked error' => {
@@ -2221,8 +2221,8 @@ our $I18N = {
 	},
 
 	'326' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Code postal|,
+		lastUpdated => 1202556662
 	},
 
 	'body.content' => {
@@ -2251,8 +2251,8 @@ our $I18N = {
 	},
 
 	'335' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Genre|,
+		lastUpdated => 1202556792
 	},
 
 	'private message from label' => {
@@ -2346,8 +2346,8 @@ our $I18N = {
 	},
 
 	'334' => {
-		message => q||,
-		lastUpdated => 
+		message => q|T&eacute;l&eacute;phone au travail|,
+		lastUpdated => 1202913367
 	},
 
 	'986' => {
@@ -2406,8 +2406,8 @@ our $I18N = {
 	},
 
 	'1072' => {
-		message => q|L'adresse e-mail est déjà utilisée. S’il vous plaît utiliser une autre adresse.|,
-		lastUpdated => 1201306711
+		message => q|L'adresse e-mail est d&eacute;j&agrave; utilis&eacute;e. SVP, utiliser une autre adresse.|,
+		lastUpdated => 1202556414
 	},
 
 	'pages' => {
@@ -2456,8 +2456,8 @@ our $I18N = {
 	},
 
 	'701' => {
-		message => q||,
-		lastUpdated => 
+		message => q|semaine(s)|,
+		lastUpdated => 1202558273
 	},
 
 	'820' => {
@@ -2466,13 +2466,13 @@ our $I18N = {
 	},
 
 	'174' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Afficher le titre?|,
+		lastUpdated => 1202832381
 	},
 
 	'481' => {
-		message => q||,
-		lastUpdated => 
+		message => q|T&eacute;l&eacute;phone|,
+		lastUpdated => 1202831501
 	},
 
 	'867' => {
@@ -2531,8 +2531,8 @@ our $I18N = {
 	},
 
 	'229' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Sujet|,
+		lastUpdated => 1202913430
 	},
 
 	'104 description' => {
@@ -2576,13 +2576,13 @@ our $I18N = {
 	},
 
 	'338' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Modifier le profil|,
+		lastUpdated => 1202557019
 	},
 
 	'576' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Effacer|,
+		lastUpdated => 1202912763
 	},
 
 	'738' => {
@@ -2601,13 +2601,13 @@ our $I18N = {
 	},
 
 	'484' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Choisissez la Liste|,
+		lastUpdated => 1202831757
 	},
 
 	'1078' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 1202832797
 	},
 
 	'pagination.text' => {
@@ -2621,8 +2621,8 @@ our $I18N = {
 	},
 
 	'ui' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Information utilisateur (UI)|,
+		lastUpdated => 1202558247
 	},
 
 	'run on admin create user help' => {
@@ -2641,8 +2641,8 @@ our $I18N = {
 	},
 
 	'328' => {
-		message => q||,
-		lastUpdated => 
+		message => q|T&eacute;l&eacute;phone r&eacute;sidentiel|,
+		lastUpdated => 1202556711
 	},
 
 	'avatar' => {
@@ -2706,8 +2706,8 @@ our $I18N = {
 	},
 
 	'36' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Vous devais posseder des droits pour cette fonction. SVP, contacter votre administrateur.|,
+		lastUpdated => 1202557719
 	},
 
 	'settings' => {
@@ -2726,8 +2726,8 @@ our $I18N = {
 	},
 
 	'439' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Informations personnelles|,
+		lastUpdated => 1202575108
 	},
 
 	'317' => {
@@ -2736,13 +2736,13 @@ our $I18N = {
 	},
 
 	'169' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Rajouter un nouvel utilisateur.|,
+		lastUpdated => 1202558527
 	},
 
 	'411' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Titre Menu|,
+		lastUpdated => 1202913276
 	},
 
 	'select slider' => {
@@ -2751,13 +2751,13 @@ our $I18N = {
 	},
 
 	'705' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Minutes(s)|,
+		lastUpdated => 1202558350
 	},
 
 	'478' => {
-		message => q||,
-		lastUpdated => 
+		message => q|URL|,
+		lastUpdated => 1202557777
 	},
 
 	'942' => {
@@ -2781,13 +2781,13 @@ our $I18N = {
 	},
 
 	'407' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Cliquez ici pour s'enregistrer.|,
+		lastUpdated => 1202913525
 	},
 
 	'537' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Karma|,
+		lastUpdated => 1202832940
 	},
 
 	'target' => {
@@ -2841,8 +2841,8 @@ our $I18N = {
 	},
 
 	'313' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Autoriser d'autres informations?|,
+		lastUpdated => 1202556636
 	},
 
 	'webgui' => {
@@ -2856,8 +2856,8 @@ our $I18N = {
 	},
 
 	'529' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Resultats par page|,
+		lastUpdated => 1202913198
 	},
 
 	'229 description' => {
@@ -2876,8 +2876,8 @@ our $I18N = {
 	},
 
 	'343' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Voir le profil.|,
+		lastUpdated => 1202557070
 	},
 
 	'504' => {
@@ -2911,8 +2911,8 @@ our $I18N = {
 	},
 
 	'857' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Adresse IP|,
+		lastUpdated => 1202912707
 	},
 
 	'1010' => {
@@ -2921,8 +2921,8 @@ our $I18N = {
 	},
 
 	'707' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Afficher le debuggeur?|,
+		lastUpdated => 1202558388
 	},
 
 	'964' => {
@@ -2961,8 +2961,8 @@ our $I18N = {
 	},
 
 	'81' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Compte mis &agrave; jour avec succ&egrave;s!|,
+		lastUpdated => 1202913092
 	},
 
 	'view inbox message template' => {
@@ -2976,8 +2976,8 @@ our $I18N = {
 	},
 
 	'321' => {
-		message => q||,
-		lastUpdated => 
+		message => q|T&eacute;l&eacute;phone portable|,
+		lastUpdated => 1202555777
 	},
 
 	'86' => {
@@ -2996,8 +2996,8 @@ our $I18N = {
 	},
 
 	'823' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Allez &agrave; la nouvelle page.|,
+		lastUpdated => 1202912735
 	},
 
 	'profile' => {
@@ -3011,8 +3011,8 @@ our $I18N = {
 	},
 
 	'1079' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Style imprimable|,
+		lastUpdated => 1202832817
 	},
 
 	'user invitations email exists description' => {
@@ -3031,8 +3031,8 @@ our $I18N = {
 	},
 
 	'2' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Page|,
+		lastUpdated => 1202913142
 	},
 
 	'435' => {
@@ -3061,13 +3061,13 @@ our $I18N = {
 	},
 
 	'147' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Modules (Assets)|,
+		lastUpdated => 1202832293
 	},
 
 	'339' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Homme|,
+		lastUpdated => 1202556910
 	},
 
 	'1046' => {
@@ -3086,13 +3086,13 @@ our $I18N = {
 	},
 
 	'345' => {
-		message => q||,
-		lastUpdated => 
+		message => q|N'est pas un mmbre|,
+		lastUpdated => 1202913351
 	},
 
 	'319' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Identifiant MSN Messenger|,
+		lastUpdated => 1202555724
 	},
 
 	'56 description' => {
@@ -3146,8 +3146,8 @@ our $I18N = {
 	},
 
 	'702' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Mois|,
+		lastUpdated => 1202558261
 	},
 
 	'user invitations email exists' => {
@@ -3166,8 +3166,8 @@ our $I18N = {
 	},
 
 	'487' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Choisissez la bo&icirc;te|,
+		lastUpdated => 1202831732
 	},
 
 	'1071' => {
@@ -3196,8 +3196,8 @@ our $I18N = {
 	},
 
 	'357' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Nouvaut&eacute;s|,
+		lastUpdated => 1202557543
 	},
 
 	'settings groupIdAdminVersionTag hoverHelp' => {
@@ -3216,8 +3216,8 @@ our $I18N = {
 	},
 
 	'1050 description' => {
-		message => q|Texte à rechercher. Toute la ponctuation sera échappée.|,
-		lastUpdated => 1201305882
+		message => q|Texte &agrave; rechercher. Aucune ponctuation ne sera prise en compte.|,
+		lastUpdated => 1202557898
 	},
 
 	'455' => {
@@ -3241,8 +3241,8 @@ our $I18N = {
 	},
 
 	'336' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Date de naissance|,
+		lastUpdated => 1202556809
 	},
 
 	'mail return path help' => {
@@ -3251,8 +3251,8 @@ our $I18N = {
 	},
 
 	'457' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Modifier cet utilisateur.|,
+		lastUpdated => 1202912675
 	},
 
 	'view inbox template' => {
@@ -3321,13 +3321,13 @@ our $I18N = {
 	},
 
 	'980' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Vider ce dossier.|,
+		lastUpdated => 1202913025
 	},
 
 	'10' => {
-		message => q|Contrôlez Le Détritus|,
-		lastUpdated => 1201303627
+		message => q|G&eacute;rer la poubelle.|,
+		lastUpdated => 1202576694
 	},
 
 	'864 description' => {
@@ -3361,8 +3361,8 @@ our $I18N = {
 	},
 
 	'149' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Utilisateurs|,
+		lastUpdated => 1202832309
 	},
 
 	'304' => {
@@ -3381,8 +3381,8 @@ our $I18N = {
 	},
 
 	'406' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Taille de la miniature (Thumbnail)|,
+		lastUpdated => 1202912641
 	},
 
 	'settings groupIdAdminSpectre label' => {
@@ -3396,8 +3396,8 @@ our $I18N = {
 	},
 
 	'482' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Nombre (Interger)|,
+		lastUpdated => 1202831555
 	},
 
 	'949' => {
@@ -3421,8 +3421,8 @@ our $I18N = {
 	},
 
 	'499' => {
-		message => q||,
-		lastUpdated => 
+		message => q|ID Wobject|,
+		lastUpdated => 1202831825
 	},
 
 	'530' => {
@@ -3441,8 +3441,8 @@ our $I18N = {
 	},
 
 	'54' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Cr&eacute;er un compte|,
+		lastUpdated => 1202558432
 	},
 
 	'1030' => {
@@ -3456,8 +3456,8 @@ our $I18N = {
 	},
 
 	'70' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Erreur|,
+		lastUpdated => 1202558312
 	},
 
 	'1047' => {
@@ -3486,8 +3486,8 @@ our $I18N = {
 	},
 
 	'141' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Page indisponible|,
+		lastUpdated => 1202913450
 	},
 
 	'403' => {
@@ -3541,8 +3541,8 @@ our $I18N = {
 	},
 
 	'50 setup description' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Le nom pour compte admin. Par d&eacute;faut : Admin|,
+		lastUpdated => 1202831919
 	},
 
 	'private message unread display message' => {
@@ -3566,8 +3566,8 @@ our $I18N = {
 	},
 
 	'703' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Ann&eacute;e(s)|,
+		lastUpdated => 1202558326
 	},
 
 	'864' => {
@@ -3586,8 +3586,8 @@ our $I18N = {
 	},
 
 	'318' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Identitiant AIM|,
+		lastUpdated => 1202555687
 	},
 
 	'url extension' => {
@@ -3601,8 +3601,8 @@ our $I18N = {
 	},
 
 	'972' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Date et Heure|,
+		lastUpdated => 1202912917
 	},
 
 	'pagination.pageLoop.upTo10' => {
@@ -3621,8 +3621,8 @@ our $I18N = {
 	},
 
 	'146' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Sessions actives|,
+		lastUpdated => 1202557933
 	},
 
 	'38' => {

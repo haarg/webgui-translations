@@ -31,6 +31,11 @@ our $I18N = {
 		lastUpdated => 1186474274
 	},
 
+	'make asset exportable' => {
+		message => q||,
+		lastUpdated => 
+	},
+
 	'newWindow' => {
 		message => q||,
 		lastUpdated => 
@@ -211,6 +216,11 @@ our $I18N = {
 		lastUpdated => 
 	},
 
+	'make asset exportable description' => {
+		message => q||,
+		lastUpdated => 
+	},
+
 	'manage help' => {
 		message => q||,
 		lastUpdated => 
@@ -317,8 +327,8 @@ our $I18N = {
 	},
 
 	'committed versions' => {
-		message => q|Versions commit&eacute;es|,
-		lastUpdated => 1186483764
+		message => q|Versions accept&eacute;es|,
+		lastUpdated => 1202822423
 	},
 
 	'895' => {

@@ -32,18 +32,18 @@ our $I18N = {
 	},
 
 	'dragger.icon' => {
-		message => q|Une icône qui peut être utilisée pour changer la position de l'actif à la souris en cliquant et en le faisant glisser. Si showAdmin est fausse, cette variable est vide.|,
-		lastUpdated => 1201307237
+		message => q|Ic&ocirc;ne permettant de changer la position le module via un glisser-d&eacute;placer. En mode showadmin off, elle n'apparait pas.|,
+		lastUpdated => 1202581231
 	},
 
 	'assets to hide description' => {
-		message => q|Cette liste contient une case à cocher pour chaque enfant de l'actif mise en page. Cochez la case pour tout actif que vous n'avez pas à afficher dans la mise en page actif.|,
-		lastUpdated => 1201732781
+		message => q|Liste de case-&agrave;-cocher pour chaque module-enfant de la page. Cochez la case correspondant au module pour qu'il n'apparaisse pas dans la page.|,
+		lastUpdated => 1202580973
 	},
 
 	'id' => {
-		message => q|L'identifiant de l'actif.|,
-		lastUpdated => 1201307307
+		message => q|L'ID du module|,
+		lastUpdated => 1202581016
 	},
 
 	'templateId' => {
@@ -57,13 +57,13 @@ our $I18N = {
 	},
 
 	'847' => {
-		message => q|Revenir à la page actuelle.|,
-		lastUpdated => 1201306954
+		message => q|Revenir &agrave; la page actuelle.|,
+		lastUpdated => 1202771326
 	},
 
 	'assets to hide' => {
-		message => q|Actifs à cacher|,
-		lastUpdated => 1201307080
+		message => q|Modules &agrave; cacher|,
+		lastUpdated => 1202580739
 	},
 
 	'layout template body' => {
@@ -82,8 +82,8 @@ our $I18N = {
 	},
 
 	'layout template title' => {
-		message => q|Modèle de mise en page|,
-		lastUpdated => 1201307544
+		message => q|Mod&egrave;le de mise en page|,
+		lastUpdated => 1202581281
 	},
 
 	'template description' => {
@@ -92,8 +92,8 @@ our $I18N = {
 	},
 
 	'823' => {
-		message => q|Accédez à la nouvelle page.|,
-		lastUpdated => 1201306931
+		message => q|Aller &agrave; la nouvelle page.|,
+		lastUpdated => 1202771312
 	},
 
 };

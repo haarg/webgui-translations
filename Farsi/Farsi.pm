@@ -3,6 +3,10 @@ package WebGUI::i18n::Farsi;
 use strict;
 
 our $LANGUAGE = {
+	label => 'Persian',
+	toolbar => '',
+	languageAbbreviation => 'fa',
+	locale => 'IR',
 };
 
 sub makeUrlCompliant {

@@ -112,8 +112,8 @@ our $I18N = {
 	},
 
 	'helpvar url_yes' => {
-		message => q|Bvestig het verwijderen van het album.|,
-		lastUpdated => 1201266222
+		message => q|Bevestig het verwijderen van het album.|,
+		lastUpdated => 1202912447
 	},
 
 	'help addArchive title' => {

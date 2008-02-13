@@ -322,8 +322,8 @@ our $I18N = {
 	},
 
 	'best.clicks.name' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Der Name des Listings, das die meisten Klicks hat.|,
+		lastUpdated => 1202816257
 	},
 
 	'manufacturerUrl' => {
@@ -342,8 +342,8 @@ our $I18N = {
 	},
 
 	'show ratings' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Bewertungen anzeigen|,
+		lastUpdated => 1202812306
 	},
 
 	'free' => {
@@ -447,13 +447,13 @@ our $I18N = {
 	},
 
 	'best.clicks.count' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Die Anzahl der Klicks des Listings, das die meisten Klicks hat.|,
+		lastUpdated => 1202816280
 	},
 
 	'your email' => {
-		message => q|Emailadresse|,
-		lastUpdated => 1192797322
+		message => q|E-Mail-Adresse|,
+		lastUpdated => 1202812354
 	},
 
 	'tmplVar pending.productName' => {
@@ -592,8 +592,8 @@ our $I18N = {
 	},
 
 	'best.posts.url' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Die URL des Listings, das die meisten Foreneintr&auml;ge hat.|,
+		lastUpdated => 1202816469
 	},
 
 	'field.list.url' => {
@@ -607,8 +607,8 @@ our $I18N = {
 	},
 
 	'best.compares.url' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Die URL des Listings, das die meisten Vergleiche hat.|,
+		lastUpdated => 1202816436
 	},
 
 	'tmplVar category' => {
@@ -742,8 +742,8 @@ our $I18N = {
 	},
 
 	'best.updated.date' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Das Datum des aktuellsten Listings.|,
+		lastUpdated => 1202816569
 	},
 
 	'best.updated.url' => {
@@ -797,8 +797,8 @@ our $I18N = {
 	},
 
 	'CATEGORY_NAME_loop' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Ein &quot;loop&quot; wird f&uuml;r jede Kategorie in dieser Matrix erstellt. Der Name des loops ergibt sich aus dem Namen der Kategorie, wobei alle Leerzeichen in Bindestriche umgewandelt und ein &quot;_loop&quot; am Ende angeh&auml;ngt wird. Wenn Sie also eine Kategorie namens &quot;Bells and Whistles&quot; haben, wird der loop dazu &quot;bells-and-whistles_loop&quot; hei&szlig;en.|,
+		lastUpdated => 1202812528
 	},
 
 	'search template help title' => {
@@ -842,8 +842,8 @@ our $I18N = {
 	},
 
 	'best.clicks.url' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Die URL des Listings, das die meisten Klicks hat.|,
+		lastUpdated => 1202816315
 	},
 
 	'compare.form' => {
@@ -862,8 +862,8 @@ our $I18N = {
 	},
 
 	'best.compares.name' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Der Name des Listings, das die meisten Vergleiche hat.|,
+		lastUpdated => 1202816392
 	},
 
 	'tmplVar last.url' => {
@@ -942,8 +942,8 @@ our $I18N = {
 	},
 
 	'best.compares.count' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Die Anzahl der Vergleiche des Listings, das die meisten Vergleiche hat.|,
+		lastUpdated => 1202816359
 	},
 
 	'tmplVar best.category' => {
@@ -953,7 +953,7 @@ our $I18N = {
 
 	'comment' => {
 		message => q|Kommentar|,
-		lastUpdated => 1192797072
+		lastUpdated => 1202812266
 	},
 
 	'lastUpdated.date' => {

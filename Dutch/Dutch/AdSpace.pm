@@ -121,6 +121,11 @@ our $I18N = {
 		lastUpdated => 1201436328
 	},
 
+	'error heading' => {
+		message => q|Er is een fout opgetreden met uw Advertentie Ruimte:|,
+		lastUpdated => 1202466302
+	},
+
 	'title' => {
 		message => q|Titel|,
 		lastUpdated => 1201436166
@@ -187,8 +192,8 @@ our $I18N = {
 	},
 
 	'ad text help' => {
-		message => q|Voer hier uw advertentietekst in met ten hoogste 255 tekens. Denk er aan dat afhankelijk van de grootte van de advertentie, tekst kan wegvallen. Aanbevolen wordt een lengte van 60 tekens of minder.|,
-		lastUpdated => 1201434037
+		message => q|Voer hier uw advertentietekst in met maximaal 255 tekens. Denk er aan dat afhankelijk van de grootte van de advertentie, tekst kan wegvallen. Aanbevolen wordt een lengte van 60 tekens of minder.|,
+		lastUpdated => 1202466312
 	},
 
 	'rich' => {
@@ -209,6 +214,11 @@ our $I18N = {
 	'ad space id' => {
 		message => q|Advertentieruimte Id|,
 		lastUpdated => 1201434180
+	},
+
+	'error invalid characters' => {
+		message => q|Er zijn ongeldige tekens in het titel veld. Gebruikt u alstublieft alleen letters, nummers en spaties.|,
+		lastUpdated => 1202466291
 	},
 
 	'clicks bought help' => {

@@ -121,6 +121,11 @@ our $I18N = {
 		lastUpdated => 1168792168
 	},
 
+	'error heading' => {
+		message => q|Es gab einen Fehler mit Ihrem Werbeplatz:|,
+		lastUpdated => 1202816619
+	},
+
 	'title' => {
 		message => q|Titel|,
 		lastUpdated => 1153201335
@@ -209,6 +214,11 @@ our $I18N = {
 	'ad space id' => {
 		message => q|Werbeplatz-ID|,
 		lastUpdated => 1154464706
+	},
+
+	'error invalid characters' => {
+		message => q||,
+		lastUpdated => 
 	},
 
 	'clicks bought help' => {

@@ -122,8 +122,8 @@ our $I18N = {
 	},
 
 	'title' => {
-		message => q||,
-		lastUpdated => 
+		message => q|name|,
+		lastUpdated => 1202282489
 	},
 
 	'type' => {
@@ -192,8 +192,8 @@ our $I18N = {
 	},
 
 	'rich' => {
-		message => q||,
-		lastUpdated => 
+		message => q|thievin'|,
+		lastUpdated => 1202282463
 	},
 
 	'background color help' => {
@@ -207,8 +207,8 @@ our $I18N = {
 	},
 
 	'ad space id' => {
-		message => q|afdsjklfdaslkjafds|,
-		lastUpdated => 1149209612
+		message => q|where dem vermin go|,
+		lastUpdated => 1202282407
 	},
 
 	'clicks bought help' => {

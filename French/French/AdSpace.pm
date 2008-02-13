@@ -2,8 +2,8 @@ package WebGUI::i18n::French::AdSpace;
 
 our $I18N = {
 	'is active' => {
-		message => q|Est active ?|,
-		lastUpdated => 1186403113
+		message => q|Actif?|,
+		lastUpdated => 1202835211
 	},
 
 	'priority' => {
@@ -121,6 +121,11 @@ our $I18N = {
 		lastUpdated => 1186403771
 	},
 
+	'error heading' => {
+		message => q||,
+		lastUpdated => 
+	},
+
 	'title' => {
 		message => q|Titre|,
 		lastUpdated => 1186403599
@@ -209,6 +214,11 @@ our $I18N = {
 	'ad space id' => {
 		message => q|Id de l'espace de pub|,
 		lastUpdated => 1186401619
+	},
+
+	'error invalid characters' => {
+		message => q||,
+		lastUpdated => 
 	},
 
 	'clicks bought help' => {

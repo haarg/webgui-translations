@@ -2,263 +2,263 @@ package WebGUI::i18n::French::Asset_MessageBoard;
 
 our $I18N = {
 	'forum.lastpost.user.isVisitor' => {
-		message => q|Indique si le dernier auteur &eacute;tait un visiteur.|,
-		lastUpdated => 1201949062
+		message => q|Valeur conditionnelle indiquant si le dernier auteur a avoir posté à un statut visiteur.|,
+		lastUpdated => 1202749069
 	},
 
 	'forum.user.canView' => {
-		message => q|Indique si l'utilisateur peut voir ce forum.|,
-		lastUpdated => 1201948485
+		message => q|Valeur conditionnelle indiquant si l'utilisateur est autoriser lire les messages de ce forum.|,
+		lastUpdated => 1202749577
 	},
 
 	'forum.rating' => {
-		message => q|Moyenne des notations de tous les messages pour ce forum.|,
-		lastUpdated => 1201948832
+		message => q|Note moyenne de tous les messages de ce forum.|,
+		lastUpdated => 1202749161
 	},
 
 	'assetName' => {
-		message => q|Modules Forums|,
-		lastUpdated => 1201949379
+		message => q|Message Board|,
+		lastUpdated => 1202748049
 	},
 
 	'replies' => {
-		message => q|R&eacute;ponses|,
-		lastUpdated => 1201948850
+		message => q|Réponses|,
+		lastUpdated => 1202751313
 	},
 
 	'forum.add.url' => {
-		message => q|Url&nbsp; qui ajoute un forum &agrave; ce module.|,
-		lastUpdated => 1201949406
+		message => q|Url de rajout d'un forum à ce Message Board.|,
+		lastUpdated => 1202751283
 	},
 
 	'forum.add.label' => {
-		message => q|Etiquette par d&eacute;faut pour ajouter forum.ajout.url|,
-		lastUpdated => 1201902813
+		message => q|Etiquette par défaut pour forum.add.url|,
+		lastUpdated => 1202748356
 	},
 
 	'forum.lastpost.user.alias' => {
 		message => q|Alias de la derni&egrave;re personne ayant publi&eacute;e.|,
-		lastUpdated => 1201948430
+		lastUpdated => 1202748825
 	},
 
 	'forum.controls' => {
-		message => q|Controles d'&eacute;dition de ce forum.|,
-		lastUpdated => 1201949434
+		message => q|Contrôles d'édition de ce forum.|,
+		lastUpdated => 1202750518
 	},
 
 	'74' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Liste des variables utlisables dans les feuilles de style Message Board|,
+		lastUpdated => 1202748196
 	},
 
 	'forum.replies' => {
-		message => q|r&eacute;ponses|,
-		lastUpdated => 1201901345
+		message => q|Nombre de réponses à tous les messages (et discusions collatérales) recu dans ce forum.|,
+		lastUpdated => 1202749389
 	},
 
 	'visitorCacheTimeout' => {
-		message => q|Temps pendant lequel cet article sera cach&eacute; pour les visiteurs.|,
-		lastUpdated => 1201949273
+		message => q|Laps de temps durant lequel cet article sera placé dans la mémoire cache pour les visiteurs.|,
+		lastUpdated => 1202753856
 	},
 
 	'75' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Ajouter un forum|,
+		lastUpdated => 1202747950
 	},
 
 	'lastpost.label' => {
-		message => q|L'&eacute;tiquette par d&eacute;faut pour la colonne du dernier post.|,
-		lastUpdated => 1201948737
+		message => q|L'étiquette par défaut pour la colonne du dernier message posté.|,
+		lastUpdated => 1202750367
 	},
 
 	'areMultipleForums' => {
-		message => q|Indique si il y plus d'un forum.|,
-		lastUpdated => 1201949330
+		message => q|Valeur Conditionnelle indiquant si il existe plus d'un forum.|,
+		lastUpdated => 1202748043
 	},
 
 	'rating.label' => {
-		message => q|L'&eacute;tiquette par d&eacute;faut pour la colonne notation.|,
-		lastUpdated => 1201948773
+		message => q|L'étiquette par défaut de la colonne notation.|,
+		lastUpdated => 1202750379
 	},
 
 	'forum.lastpost.date' => {
-		message => q|La date du dernier message dans ce forum.|,
-		lastUpdated => 1201903003
+		message => q|La date du dernier message posté dans ce forum. (Format humanisé)|,
+		lastUpdated => 1202749895
 	},
 
 	'message board asset template variables title' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Variables utilisables dans le mod&egrave;le de mise en page Message Board|,
+		lastUpdated => 1202822250
 	},
 
 	'forum.views' => {
-		message => q|Vus|,
-		lastUpdated => 1201948957
+		message => q|Nombre total de fois que les messages ont été lus sur ce forum.|,
+		lastUpdated => 1202749667
 	},
 
 	'forum.lastpost.url' => {
-		message => q|L'url pour voir le dernier message dans ce forum.|,
-		lastUpdated => 1201902993
+		message => q|L'url pour atteindre le dernier message posté dans ce forum.|,
+		lastUpdated => 1202748811
 	},
 
 	'forum.lastpost.subject' => {
-		message => q|Le sujet du dernier message dans ce forum.|,
-		lastUpdated => 1201903013
+		message => q|Le sujet du dernier message posté dans ce forum.|,
+		lastUpdated => 1202748732
 	},
 
 	'title' => {
 		message => q|Sujet|,
-		lastUpdated => 1201948634
+		lastUpdated => 1202751334
 	},
 
 	'forum.count' => {
-		message => q||,
-		lastUpdated => 1201902748
+		message => q|Variable (integer) du nombre de forum(s) présent(s) utilisé dans une boucle. (template language loop).|,
+		lastUpdated => 1202751016
 	},
 
 	'forum.lastpost.time' => {
-		message => q|L'heure du dernier message dans ce forum.|,
-		lastUpdated => 1201903022
+		message => q|L'heure du dernier message posté dans ce forum. (Format humanisé)|,
+		lastUpdated => 1202748776
 	},
 
 	'forum.threads' => {
-		message => q|Nombre total de branches dans ce forum.|,
-		lastUpdated => 1201902656
+		message => q|Nombre total de discussions dans ce forum.|,
+		lastUpdated => 1202822278
 	},
 
 	'forum_loop' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Boucle (loop) contenant les données pour chaques forums dans ce Message Board.|,
+		lastUpdated => 1202749770
 	},
 
 	'title.label' => {
-		message => q|L'&eacute;tiquette par d&eacute;faut pour la colonne du sujet.|,
-		lastUpdated => 1201948668
+		message => q|L'étiquette par défaut pour la colonne du sujet.|,
+		lastUpdated => 1202751103
 	},
 
 	'forum.lastpost.epoch' => {
-		message => q||,
-		lastUpdated => 
+		message => q|La date du dernier message posté dans ce forum. (Format epoch)|,
+		lastUpdated => 1202748719
 	},
 
 	'threads.label' => {
-		message => q|L'&eacute;tiquette par d&eacute;faut pour la colonne arbres.|,
-		lastUpdated => 1201948717
+		message => q|L'&eacute;tiquette par d&eacute;faut pour la colonne 'Discussions'.|,
+		lastUpdated => 1202822166
 	},
 
 	'73 description' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Choisir un mod&egrave;le de mise en page pour votre Message Board|,
+		lastUpdated => 1202822084
 	},
 
 	'forum.title' => {
-		message => q|sujet|,
-		lastUpdated => 1201901356
+		message => q|Le titre de ce forum.|,
+		lastUpdated => 1202749425
 	},
 
 	'message board asset template variables body' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Chaque module 'asset' produit un ensemble de variable(s) utilisables au sein son mod&egrave;le de mise en page associ&eacute;e 'Template'. Elles repr&eacute;sentent les propri&eacute;t&eacute;s propres du module. Certaines sont utiles, d'autres moins.|,
+		lastUpdated => 1202822230
 	},
 
 	'rating' => {
 		message => q|Notation|,
-		lastUpdated => 1201902607
+		lastUpdated => 1202822265
 	},
 
 	'forum.url' => {
-		message => q|url|,
-		lastUpdated => 1201901599
+		message => q|L'adresse url pour voir ce forum.<br /> |,
+		lastUpdated => 1202646277
 	},
 
 	'lastpost' => {
-		message => q|dernier post|,
-		lastUpdated => 1201901616
+		message => q|Dernier message|,
+		lastUpdated => 1202749909
 	},
 
 	'views' => {
 		message => q|Vus|,
-		lastUpdated => 1201948967
+		lastUpdated => 1202751037
 	},
 
 	'default.listing' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Un forum completement cr&eacute;&eacute; utilisant le mod&egrave;le de mise en page Forum.|,
+		lastUpdated => 1202822125
 	},
 
 	'forum.lastpost.user.profile' => {
-		message => q|Url du profil du dernier auteur.|,
-		lastUpdated => 1201949115
+		message => q|Url du profil du dernier auteur à poster un message.|,
+		lastUpdated => 1202749123
 	},
 
 	'visitor cache timeout' => {
-		message => q|Timeout du Cache Visiteur|,
-		lastUpdated => 1201902190
+		message => q|Timeout de la mémoire cache Visiteur|,
+		lastUpdated => 1202753862
 	},
 
 	'templateId' => {
-		message => q|Id du template utilis&eacute; pour afficher ce module.|,
-		lastUpdated => 1201949300
+		message => q|Id du mod&egrave;le de mise en page de ce module.|,
+		lastUpdated => 1202822190
 	},
 
 	'6' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Editer Message Board|,
+		lastUpdated => 1202748062
 	},
 
 	'forum.lastpost.user.hasread' => {
-		message => q|Bool&eacute;en indiquant si l'utilisateur a lu le dernier message du forum.|,
-		lastUpdated => 1201948532
+		message => q|Variable booléenne indiquant si l'utilisateur a lu le dernier message posté du forum.|,
+		lastUpdated => 1202748937
 	},
 
 	'forum.lastpost.user.name' => {
-		message => q|Le nom du dernier auteur.|,
-		lastUpdated => 1201949075
+		message => q|Le nom d'utilisateur du dernier auteur à poster un message.|,
+		lastUpdated => 1202749100
 	},
 
 	'threads' => {
-		message => q|Arbres|,
-		lastUpdated => 1201948682
+		message => q|Discussions|,
+		lastUpdated => 1202822157
 	},
 
 	'forum.user.canPost' => {
-		message => q|Indique si l'utilisateur peut poster sur ce forum.|,
-		lastUpdated => 1201902710
+		message => q|Valeur conditionnelle indiquant si l'utilisateur est autoriser poster sur ce forum.|,
+		lastUpdated => 1202749550
 	},
 
 	'views.label' => {
-		message => q|L'&eacute;tiquette par d&eacute;faut pour la colonne vus.|,
-		lastUpdated => 1201948948
+		message => q|L'étiquette par défaut de la colonne vus.|,
+		lastUpdated => 1202751057
 	},
 
 	'forum.lastpost.user.id' => {
-		message => q|Userid du dernier auteur.|,
-		lastUpdated => 1201949027
+		message => q|Userid du dernier auteur à avoir posté un message.|,
+		lastUpdated => 1202748989
 	},
 
 	'replies.label' => {
-		message => q|L'&eacute;tiquette par d&eacute;faut pour la colonne r&eacute;ponses.|,
-		lastUpdated => 1201948881
+		message => q|L'étiquette par défaut pour la colonne réponses.|,
+		lastUpdated => 1202751322
 	},
 
 	'73' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Mod&egrave;le de mise en page du Message board (template)|,
+		lastUpdated => 1202822069
 	},
 
 	'visitor cache timeout help' => {
-		message => q|Comme tout les visiteurs peuvent voir ce module en m&ecirc;me temps il peut &ecirc;tre cach&eacute; pour augmenter les performances. Combien de temps le cache t-on ?|,
-		lastUpdated => 1201949223
+		message => q|Afin d'augmenter les performances d'accès à ce module par les visiteurs, nous pouvons le placer en mémoire cache. Combien de temps le place-t-on dans la mémoire cache?|,
+		lastUpdated => 1202753908
 	},
 
 	'76' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Êtes-vous sûr de vouloir effacer ce forum et tous les messages associés?|,
+		lastUpdated => 1202751366
 	},
 
 	'forum.description' => {
 		message => q|La description de ce forum.|,
-		lastUpdated => 1201902873
+		lastUpdated => 1202748609
 	},
 
 };

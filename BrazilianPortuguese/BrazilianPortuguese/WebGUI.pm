@@ -6,19 +6,19 @@ our $I18N = {
 		lastUpdated => 1080223421
 	},
 
-	'32' => {
-		message => q|Sexta-feira|,
-		lastUpdated => 1080086128
+	'84 description' => {
+		message => q||,
+		lastUpdated => 
 	},
 
 	'127' => {
-		message => q|URL da Instituição|,
-		lastUpdated => 1080085704
+		message => q|URL da Institui&ccedil;&atilde;o|,
+		lastUpdated => 1202601432
 	},
 
 	'1049' => {
-		message => q|ID da Substituição|,
-		lastUpdated => 1080210161
+		message => q|ID do Filtro de Conte&uacute;do|,
+		lastUpdated => 1202599848
 	},
 
 	'71' => {
@@ -27,8 +27,8 @@ our $I18N = {
 	},
 
 	'118' => {
-		message => q|Registro Anônimo|,
-		lastUpdated => 1080085525
+		message => q|Registro An&ocirc;nimo|,
+		lastUpdated => 1202600498
 	},
 
 	'443' => {
@@ -41,24 +41,29 @@ our $I18N = {
 		lastUpdated => 1080299234
 	},
 
+	'show all fields' => {
+		message => q||,
+		lastUpdated => 
+	},
+
 	'882' => {
 		message => q|Modo de Edição|,
 		lastUpdated => 1080242479
 	},
 
+	'cache type' => {
+		message => q||,
+		lastUpdated => 
+	},
+
 	'331' => {
-		message => q|Estado (Trabalho)|,
-		lastUpdated => 1080209468
+		message => q|Estado (Profissional)|,
+		lastUpdated => 1202602869
 	},
 
 	'358' => {
-		message => q|Coluna à Esquerda|,
-		lastUpdated => 1080209882
-	},
-
-	'1065' => {
-		message => q|Modelo de Mensagem do Fórum|,
-		lastUpdated => 1080084390
+		message => q|Coluna &agrave; Esquerda|,
+		lastUpdated => 1202603115
 	},
 
 	'1050' => {
@@ -76,24 +81,14 @@ our $I18N = {
 		lastUpdated => 1080229436
 	},
 
-	'767' => {
-		message => q|ID no Repositório|,
-		lastUpdated => 1080231496
+	'settings groupIdAdminWorkflowRun label' => {
+		message => q||,
+		lastUpdated => 
 	},
 
-	'580' => {
-		message => q|Sua mensagem não foi aprovada.|,
-		lastUpdated => 1080223734
-	},
-
-	'798' => {
-		message => q|Título da Página|,
-		lastUpdated => 1080232122
-	},
-
-	'898' => {
-		message => q|Ícone do Site|,
-		lastUpdated => 1080297890
+	'settings groupIdAdminCache hoverHelp' => {
+		message => q||,
+		lastUpdated => 
 	},
 
 	'84' => {
@@ -101,19 +96,9 @@ our $I18N = {
 		lastUpdated => 1080234889
 	},
 
-	'1020' => {
-		message => q|Relevância|,
-		lastUpdated => 1080083099
-	},
-
-	'1031' => {
-		message => q|Modelo de Fórum|,
-		lastUpdated => 1080083574
-	},
-
-	'512' => {
-		message => q|Ir para a próxima discussão|,
-		lastUpdated => 1080222610
+	'skip commit comments' => {
+		message => q||,
+		lastUpdated => 
 	},
 
 	'437' => {
@@ -121,24 +106,14 @@ our $I18N = {
 		lastUpdated => 1080211865
 	},
 
-	'463' => {
-		message => q|Linhas Nas Áreas de Texto|,
-		lastUpdated => 1080222076
-	},
-
-	'517' => {
-		message => q|Desabilitar Modo Administrativo!|,
-		lastUpdated => 1080222717
-	},
-
-	'458' => {
-		message => q|Editar os grupos deste usuário.|,
-		lastUpdated => 1080221632
-	},
-
 	'451' => {
 		message => q|é obrigatório.|,
 		lastUpdated => 1080221398
+	},
+
+	'changeUrl workflow help' => {
+		message => q||,
+		lastUpdated => 
 	},
 
 	'454' => {
@@ -146,7 +121,7 @@ our $I18N = {
 		lastUpdated => 1096250736
 	},
 
-	'846' => {
+	'settings groupIdAdminTransactionLog hoverHelp' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -156,22 +131,27 @@ our $I18N = {
 		lastUpdated => 1080083124
 	},
 
-	'634' => {
+	'private message to label' => {
 		message => q||,
 		lastUpdated => 
 	},
 
-	'31' => {
-		message => q|Quinta-feira|,
-		lastUpdated => 1080086118
+	'135 description' => {
+		message => q| <p>Este &eacute; o endere&ccedil;o do seu servidor de email local. &Eacute; necess&aacute;rio para todas as fun&ccedil;&otilde;es que necessitem de email (por exemplo, recupera&ccedil;&atilde;o de senha). </p><p>Se o WebGUI estiver rodando em uma m&aacute;quina onde tamb&eacute;m haja rodando um servidor sendmail, voce pode especificar o caminho para o mesmo, o que em v&aacute;rios sistemas Linux costuma ser &quot;/usr/lib/sendmail&quot;.</p>|,
+		lastUpdated => 1202601910
 	},
 
-	'578' => {
-		message => q|Existe uma mensagem aguardando sua aprovação.|,
-		lastUpdated => 1080223707
+	'540 description' => {
+		message => q||,
+		lastUpdated => 
 	},
 
-	'934' => {
+	'help toc' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'pagination.pageLoop' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -191,19 +171,19 @@ our $I18N = {
 		lastUpdated => 1096242003
 	},
 
-	'Depth' => {
-		message => q|Profundidade|,
-		lastUpdated => 1096241538
+	'purge workflow' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'private message reply title' => {
+		message => q||,
+		lastUpdated => 
 	},
 
 	'948' => {
 		message => q|Gerenciar Área de Transferência|,
 		lastUpdated => 1080298798
-	},
-
-	'29' => {
-		message => q|Terça-feira|,
-		lastUpdated => 1080086100
 	},
 
 	'325' => {
@@ -214,6 +194,11 @@ our $I18N = {
 	'378' => {
 		message => q|ID do Usuário|,
 		lastUpdated => 1080210143
+	},
+
+	'view inbox template description' => {
+		message => q||,
+		lastUpdated => 
 	},
 
 	'889' => {
@@ -231,34 +216,24 @@ our $I18N = {
 		lastUpdated => 1080209744
 	},
 
-	'968' => {
-		message => q|Área de Transferência, Esvaziar|,
-		lastUpdated => 1080299524
-	},
-
-	'675' => {
-		message => q|Buscador, Usando|,
-		lastUpdated => 1080302295
-	},
-
 	'540' => {
 		message => q|<i>Karma</i> Por Login|,
 		lastUpdated => 1080223177
 	},
 
+	'private message prev label' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'pagination.lastPageUrl' => {
+		message => q||,
+		lastUpdated => 
+	},
+
 	'58' => {
 		message => q|Eu já tenho uma conta.|,
 		lastUpdated => 1080235554
-	},
-
-	'15' => {
-		message => q|Janeiro|,
-		lastUpdated => 1080086192
-	},
-
-	'684' => {
-		message => q|Modelo, Adicionar/Editar|,
-		lastUpdated => 1080302428
 	},
 
 	'431' => {
@@ -276,14 +251,14 @@ our $I18N = {
 		lastUpdated => 1080236148
 	},
 
-	'337' => {
-		message => q|Página Pessoal|,
-		lastUpdated => 1080209522
+	'settings groupIdAdminStatistics label' => {
+		message => q||,
+		lastUpdated => 
 	},
 
-	'101' => {
-		message => q|Você tem certeza de que quer apagar esta página, seu conteúdo, e tudo o que está abaixo dela, na árvore do site?|,
-		lastUpdated => 1080300826
+	'337' => {
+		message => q|P&aacute;gina Pessoal|,
+		lastUpdated => 1202602827
 	},
 
 	'76' => {
@@ -311,34 +286,14 @@ our $I18N = {
 		lastUpdated => 1096242240
 	},
 
-	'833' => {
-		message => q|Arquivo, Adicionar/Editar|,
-		lastUpdated => 1080234821
-	},
-
 	'139' => {
-		message => q|Não|,
-		lastUpdated => 1080085795
+		message => q|N&atilde;o|,
+		lastUpdated => 1202601918
 	},
 
-	'825' => {
-		message => q|Modelo, Linguagem|,
-		lastUpdated => 1080234726
-	},
-
-	'917' => {
-		message => q|Adicionar um componente ao tema.|,
-		lastUpdated => 1080298309
-	},
-
-	'495' => {
-		message => q|htmlArea (Internet Explorer 5.5+)|,
-		lastUpdated => 1080222364
-	},
-
-	'926' => {
-		message => q|Este tema foi criado em uma versão do WebGUI mais recente do que a que está instalada em seu sistema. Para prosseguir com a instalação do tema, você deve atualizar o WebGUI.|,
-		lastUpdated => 1080298593
+	'auto request commit' => {
+		message => q||,
+		lastUpdated => 
 	},
 
 	'859' => {
@@ -351,19 +306,14 @@ our $I18N = {
 		lastUpdated => 1080229472
 	},
 
-	'1083' => {
-		message => q|Novo Conteúdo|,
-		lastUpdated => 1080085133
+	'settings groupIdAdminSubscription hoverHelp' => {
+		message => q||,
+		lastUpdated => 
 	},
 
-	'966' => {
-		message => q|Você tem certeza de que quer excluir este item permanentemente?|,
-		lastUpdated => 1080299395
-	},
-
-	'662' => {
-		message => q|Configurações, Gerenciar|,
-		lastUpdated => 1080302141
+	'private message error' => {
+		message => q||,
+		lastUpdated => 
 	},
 
 	'992' => {
@@ -371,34 +321,14 @@ our $I18N = {
 		lastUpdated => 1080300042
 	},
 
-	'Page to export' => {
-		message => q|Página a exportar|,
-		lastUpdated => 1096241898
-	},
-
 	'418' => {
 		message => q|Filtrar Conteúdo|,
 		lastUpdated => 1080211054
 	},
 
-	'783' => {
-		message => q|Tipo|,
-		lastUpdated => 1080231954
-	},
-
-	'758' => {
-		message => q|Adicionar uma pasta.|,
-		lastUpdated => 1080231232
-	},
-
-	'933' => {
-		message => q|Tema, Editar|,
-		lastUpdated => 1080300178
-	},
-
 	'168' => {
-		message => q|Editar Usuário|,
-		lastUpdated => 1080301149
+		message => q|Editar Usu&aacute;rio|,
+		lastUpdated => 1202602328
 	},
 
 	'706' => {
@@ -407,8 +337,8 @@ our $I18N = {
 	},
 
 	'14' => {
-		message => q|Ver contribuições pendentes.|,
-		lastUpdated => 1080085815
+		message => q|Ver contribui&ccedil;&otilde;es pendentes.|,
+		lastUpdated => 1202601932
 	},
 
 	'135' => {
@@ -421,39 +351,29 @@ our $I18N = {
 		lastUpdated => 1080209693
 	},
 
+	'bare insufficient' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'editSettings error occurred' => {
+		message => q||,
+		lastUpdated => 
+	},
+
 	'145' => {
-		message => q|Versão do WebGUI|,
-		lastUpdated => 1080085960
+		message => q|Vers&atilde;o do WebGUI|,
+		lastUpdated => 1202602222
 	},
 
-	'49' => {
-		message => q|Clique <a href="^/;?op=logout">aqui</a> para sair.|,
-		lastUpdated => 1080235625
-	},
-
-	'834' => {
+	'preview' => {
 		message => q||,
 		lastUpdated => 
 	},
 
-	'772' => {
-		message => q|Editar Arquivo|,
-		lastUpdated => 1080231723
-	},
-
-	'124' => {
-		message => q|Editar Dados da Instituição|,
-		lastUpdated => 1080085638
-	},
-
-	'627' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'1090' => {
-		message => q||,
-		lastUpdated => 
+	'142 description' => {
+		message => q|Quanto tempo a sess&atilde;o do usu&aacute;rio permanece ativa (at&eacute; que seja necess&aacute;rio fazer o login outra vez). Este contador &eacute; zerado toda vez que o usu&aacute;rio acessa uma p&aacute;gina no site. Por exemplo, para um tempo limite de 8 horas, o usu&aacute;rio ter&aacute; que logar outra vez caso n&atilde;o tenha visitado o site num per&iacute;odo de 8 horas.|,
+		lastUpdated => 1202602201
 	},
 
 	'993' => {
@@ -461,14 +381,9 @@ our $I18N = {
 		lastUpdated => 1080300049
 	},
 
-	'715' => {
-		message => q|URL Para Redirecionamento|,
-		lastUpdated => 1080228932
-	},
-
-	'23' => {
-		message => q|Setembro|,
-		lastUpdated => 1080300706
+	'settings groupIdAdminAdSpace label' => {
+		message => q||,
+		lastUpdated => 
 	},
 
 	'364' => {
@@ -476,24 +391,19 @@ our $I18N = {
 		lastUpdated => 1080209974
 	},
 
-	'388' => {
-		message => q|Adicionado Em|,
-		lastUpdated => 1081178394
+	'950' => {
+		message => q|Esvaziar área de transferência.|,
+		lastUpdated => 1080298814
 	},
 
-	'1068' => {
+	'cache statistics' => {
 		message => q||,
 		lastUpdated => 
 	},
 
-	'653' => {
-		message => q|Página, Apagar|,
-		lastUpdated => 1080228725
-	},
-
-	'950' => {
-		message => q|Esvaziar área de transferência.|,
-		lastUpdated => 1080298814
+	'settings groupIdAdminProfileSettings label' => {
+		message => q||,
+		lastUpdated => 
 	},
 
 	'486' => {
@@ -511,14 +421,9 @@ our $I18N = {
 		lastUpdated => 1080222566
 	},
 
-	'1025' => {
-		message => q|Registrar datas de edição nas mensagens ?|,
-		lastUpdated => 1080222674
-	},
-
 	'367' => {
-		message => q|Tempo para Expiração|,
-		lastUpdated => 1080210015
+		message => q|Tempo de Expira&ccedil;&atilde;o|,
+		lastUpdated => 1202603244
 	},
 
 	'8' => {
@@ -531,22 +436,22 @@ our $I18N = {
 		lastUpdated => 1080299604
 	},
 
-	'716' => {
-		message => q|Login|,
-		lastUpdated => 1080228937
-	},
-
-	'1048' => {
-		message => q|Gerenciar substituições.|,
-		lastUpdated => 1080084067
-	},
-
-	'1000' => {
+	'wiki help label leadin' => {
 		message => q||,
 		lastUpdated => 
 	},
 
-	'1061' => {
+	'settings groupIdAdminSpectre hoverHelp' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'choose an asset' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'pagination.firstPage' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -554,11 +459,6 @@ our $I18N = {
 	'43' => {
 		message => q|Você tem certeza de que quer apagar este conteúdo?|,
 		lastUpdated => 1080235693
-	},
-
-	'940' => {
-		message => q|Abrir em uma nova janela?|,
-		lastUpdated => 1080298958
 	},
 
 	'485' => {
@@ -576,29 +476,24 @@ our $I18N = {
 		lastUpdated => 1080229629
 	},
 
-	'778' => {
-		message => q|Descrição da Pasta|,
-		lastUpdated => 1080231898
-	},
-
-	'685' => {
-		message => q|Modelo, Apagar|,
-		lastUpdated => 1080302420
-	},
-
-	'21' => {
-		message => q|Julho|,
-		lastUpdated => 1080086249
-	},
-
 	'523' => {
 		message => q|Notificação|,
 		lastUpdated => 1080222805
 	},
 
+	'settings groupIdAdminReplacements label' => {
+		message => q||,
+		lastUpdated => 
+	},
+
 	'943' => {
 		message => q|<i>Checkbox</i>|,
 		lastUpdated => 1080298761
+	},
+
+	'unknown user' => {
+		message => q||,
+		lastUpdated => 
 	},
 
 	'460' => {
@@ -607,8 +502,8 @@ our $I18N = {
 	},
 
 	'119' => {
-		message => q|Método de Autenticação (Padrão)|,
-		lastUpdated => 1080085539
+		message => q|M&eacute;todo de Autentica&ccedil;&atilde;o (Padr&atilde;o)|,
+		lastUpdated => 1202600569
 	},
 
 	'453' => {
@@ -621,9 +516,9 @@ our $I18N = {
 		lastUpdated => 1080209369
 	},
 
-	'Page Export Status' => {
-		message => q|Estado da Exportação de Página|,
-		lastUpdated => 1096241887
+	'user profile field private message allow label' => {
+		message => q||,
+		lastUpdated => 
 	},
 
 	'244' => {
@@ -631,34 +526,14 @@ our $I18N = {
 		lastUpdated => 1080301536
 	},
 
-	'637' => {
-		message => q||,
-		lastUpdated => 
-	},
-
 	'351' => {
 		message => q|Mensagem|,
 		lastUpdated => 1080209752
 	},
 
-	'1040' => {
-		message => q|Fechar|,
-		lastUpdated => 1080083830
-	},
-
-	'410' => {
-		message => q|Gerenciar raízes.|,
-		lastUpdated => 1080210971
-	},
-
-	'488' => {
-		message => q|Valor(es) Padrão(ões)|,
-		lastUpdated => 1080222309
-	},
-
-	'999' => {
-		message => q|Vínculo com Banco de Dados, Apagar|,
-		lastUpdated => 1096242340
+	'fieldtype' => {
+		message => q||,
+		lastUpdated => 
 	},
 
 	'61' => {
@@ -666,34 +541,9 @@ our $I18N = {
 		lastUpdated => 1080235640
 	},
 
-	'752' => {
-		message => q|Ver o perfil deste usuário.|,
-		lastUpdated => 1080230707
-	},
-
-	'1012' => {
-		message => q|Fechar esta discussão?|,
-		lastUpdated => 1080082922
-	},
-
 	'430' => {
 		message => q|Última Página Vista|,
 		lastUpdated => 1080211413
-	},
-
-	'835' => {
-		message => q|<i>Snippet</i>, Adicionar/Editar|,
-		lastUpdated => 1080234840
-	},
-
-	'447' => {
-		message => q|Gerenciar árvore de páginas.|,
-		lastUpdated => 1080221288
-	},
-
-	'536' => {
-		message => q|Um novo usuário se inscreveu no site: ^@; .|,
-		lastUpdated => 1080223061
 	},
 
 	'379' => {
@@ -701,24 +551,19 @@ our $I18N = {
 		lastUpdated => 1080210249
 	},
 
-	'1032' => {
-		message => q|Modelo de Discussão|,
-		lastUpdated => 1080083587
-	},
-
-	'901' => {
-		message => q|Adicionar um novo tema.|,
-		lastUpdated => 1080298158
+	'admin console template' => {
+		message => q||,
+		lastUpdated => 
 	},
 
 	'1035' => {
-		message => q|Modelo de Notificação|,
-		lastUpdated => 1080083642
+		message => q|Modelo de Notifica&ccedil;&atilde;o|,
+		lastUpdated => 1202599696
 	},
 
-	'342' => {
-		message => q|Editar informações da conta.|,
-		lastUpdated => 1080209563
+	'deactivateAccount success' => {
+		message => q||,
+		lastUpdated => 
 	},
 
 	'452' => {
@@ -726,19 +571,19 @@ our $I18N = {
 		lastUpdated => 1080221416
 	},
 
+	'342' => {
+		message => q|Editar informa&ccedil;&otilde;es da conta.|,
+		lastUpdated => 1202602972
+	},
+
 	'862' => {
 		message => q|O perfil deste usuário não está disponível publicamente.|,
 		lastUpdated => 1080300338
 	},
 
-	'579' => {
-		message => q|Sua mensagem foi aprovada.|,
-		lastUpdated => 1080223715
-	},
-
-	'341' => {
-		message => q|Editar perfil.|,
-		lastUpdated => 1080209548
+	'additional parameters' => {
+		message => q||,
+		lastUpdated => 
 	},
 
 	'480' => {
@@ -746,9 +591,14 @@ our $I18N = {
 		lastUpdated => 1080222160
 	},
 
-	'107' => {
-		message => q|Permissões|,
-		lastUpdated => 1080084557
+	'341' => {
+		message => q|Editar perfil.|,
+		lastUpdated => 1080209548
+	},
+
+	'invite a friend' => {
+		message => q||,
+		lastUpdated => 
 	},
 
 	'438' => {
@@ -756,14 +606,9 @@ our $I18N = {
 		lastUpdated => 1080211887
 	},
 
-	'535' => {
-		message => q|Quem Notificar Sobre Novos Usuários|,
-		lastUpdated => 1080223530
-	},
-
-	'1056' => {
-		message => q|Modelo de Fórum|,
-		lastUpdated => 1080084210
+	'107' => {
+		message => q|Seguran&ccedil;a|,
+		lastUpdated => 1202600195
 	},
 
 	'87' => {
@@ -776,39 +621,39 @@ our $I18N = {
 		lastUpdated => 1080300674
 	},
 
-	'1022' => {
-		message => q|Acompanhar esta discussão|,
-		lastUpdated => 1080083189
-	},
-
 	'444' => {
 		message => q|Informações Demográficas|,
 		lastUpdated => 1080220889
 	},
 
-	'683' => {
-		message => q|Modelos, Gerenciar|,
-		lastUpdated => 1080302397
+	'865 description' => {
+		message => q||,
+		lastUpdated => 
 	},
 
-	'508' => {
-		message => q|Gerenciar modelos.|,
-		lastUpdated => 1080310948
-	},
-
-	'541' => {
-		message => q|<i>Karma</i> por Mensagem Postada|,
-		lastUpdated => 1080223186
-	},
-
-	'953' => {
-		message => q|Local Anterior|,
-		lastUpdated => 1080299102
+	'pagination.lastPage' => {
+		message => q||,
+		lastUpdated => 
 	},
 
 	'39' => {
 		message => q|Você não tem permissão para acessar esta página.|,
 		lastUpdated => 1080235898
+	},
+
+	'account' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'1004 description' => {
+		message => q|Em sites maiores, utilizando grupos externos, podem haver penalidades de performance devido ao acesso &agrave; bancos de dados externos para a verifica&ccedil;&atilde;o dos membros dos grupos. Este par&acirc;metro define a dura&ccedil;&atilde;o do cache do WebGUI para essas consultas externas, de forma a reduzir essa penalidade.|,
+		lastUpdated => 1202598674
+	},
+
+	'mail return path' => {
+		message => q||,
+		lastUpdated => 
 	},
 
 	'64' => {
@@ -821,24 +666,14 @@ our $I18N = {
 		lastUpdated => 1080223402
 	},
 
-	'1089' => {
-		message => q|Modelo de Resposta Submetida ao Questionário|,
-		lastUpdated => 1080085321
+	'password clear text' => {
+		message => q||,
+		lastUpdated => 
 	},
 
 	'12' => {
 		message => q|Desabilitar modo administrativo.|,
 		lastUpdated => 1080085577
-	},
-
-	'417' => {
-		message => q|<h1>Violação de Segurança</h1>Você tentou acessar um recurso não associado à esta página. Este incidente foi registrado e reportado aos administradores.|,
-		lastUpdated => 1081178461
-	},
-
-	'765' => {
-		message => q|Apagar este item.|,
-		lastUpdated => 1080231470
 	},
 
 	'881' => {
@@ -851,14 +686,19 @@ our $I18N = {
 		lastUpdated => 1080301797
 	},
 
-	'784' => {
-		message => q|<i>Thumbnail</i>|,
-		lastUpdated => 1080232040
+	'707 description' => {
+		message => q||,
+		lastUpdated => 
 	},
 
-	'897' => {
-		message => q|<i>Favicon</i>|,
-		lastUpdated => 1080297912
+	'settings groupIdAdminUser hoverHelp' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'private message next label' => {
+		message => q||,
+		lastUpdated => 
 	},
 
 	'45' => {
@@ -866,19 +706,29 @@ our $I18N = {
 		lastUpdated => 1080235536
 	},
 
-	'405' => {
-		message => q|Última Pagina|,
-		lastUpdated => 1080210800
-	},
-
 	'507' => {
 		message => q|Editar Modelos|,
 		lastUpdated => 1080222532
 	},
 
-	'1002' => {
+	'405' => {
+		message => q|Última Pagina|,
+		lastUpdated => 1080210800
+	},
+
+	'settings groupIdAdminProductManager hoverHelp' => {
 		message => q||,
 		lastUpdated => 
+	},
+
+	'866 description' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'1084' => {
+		message => q|Use a barra de ferramentas padr&atilde;o para o meu idioma.|,
+		lastUpdated => 1202600472
 	},
 
 	'370' => {
@@ -886,22 +736,12 @@ our $I18N = {
 		lastUpdated => 1080210071
 	},
 
-	'1084' => {
-		message => q|Padrão|,
-		lastUpdated => 1080085149
-	},
-
 	'309' => {
 		message => q|Habilitar nome real?|,
 		lastUpdated => 1080301739
 	},
 
-	'762' => {
-		message => q|Adicionar um arquivo.|,
-		lastUpdated => 1080231309
-	},
-
-	'638' => {
+	'authentication' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -911,39 +751,14 @@ our $I18N = {
 		lastUpdated => 1080229417
 	},
 
-	'875' => {
-		message => q|Uma nova mensagem foi enviada para uma das discussões que você está acompanhando.|,
-		lastUpdated => 1080242219
-	},
-
 	'1' => {
-		message => q|Adicionar conteúdo...|,
-		lastUpdated => 1080082521
-	},
-
-	'116' => {
-		message => q|Selecione "Sim" para substituir as permissões de todas as páginas e wobjects abaixo da página atual por essas permissões.|,
-		lastUpdated => 1080085490
-	},
-
-	'506' => {
-		message => q|Gerenciar Modelos|,
-		lastUpdated => 1080222525
+		message => q|Adicionar conte&uacute;do...|,
+		lastUpdated => 1202598382
 	},
 
 	'144' => {
-		message => q|Ver estatísticas.|,
-		lastUpdated => 1080085909
-	},
-
-	'100' => {
-		message => q|<i>Meta Tags</i>|,
-		lastUpdated => 1080082560
-	},
-
-	'914' => {
-		message => q|Imagem|,
-		lastUpdated => 1080298694
+		message => q|Ver estat&iacute;sticas.|,
+		lastUpdated => 1202602209
 	},
 
 	'965' => {
@@ -961,6 +776,11 @@ our $I18N = {
 		lastUpdated => 1080302155
 	},
 
+	'857 description' => {
+		message => q||,
+		lastUpdated => 
+	},
+
 	'1075' => {
 		message => q|Link com Banco de Dados|,
 		lastUpdated => 1080084839
@@ -971,32 +791,22 @@ our $I18N = {
 		lastUpdated => 1080210417
 	},
 
-	'800' => {
-		message => q|Visitantes Únicos|,
-		lastUpdated => 1080233127
-	},
-
 	'581' => {
 		message => q|Adicionar Novo Valor|,
 		lastUpdated => 1080223745
 	},
 
-	'308' => {
-		message => q|Editar Configurações do Perfil|,
-		lastUpdated => 1080301622
+	'418 description' => {
+		message => q||,
+		lastUpdated => 
 	},
 
-	'906' => {
-		message => q|URL do Designer|,
-		lastUpdated => 1080298254
+	'392' => {
+		message => q||,
+		lastUpdated => 
 	},
 
-	'Metadata, Manage' => {
-		message => q|Metadados, Gerenciar|,
-		lastUpdated => 1096241859
-	},
-
-	'metadata manage body' => {
+	'pagination.pageCount.isMultiple' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -1006,9 +816,14 @@ our $I18N = {
 		lastUpdated => 1080222405
 	},
 
-	'678' => {
-		message => q|Raiz, Gerenciar|,
-		lastUpdated => 1080302322
+	'settings groupIdAdminProfileSettings hoverHelp' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'Enable Metadata description' => {
+		message => q||,
+		lastUpdated => 
 	},
 
 	'605' => {
@@ -1016,14 +831,14 @@ our $I18N = {
 		lastUpdated => 1080228303
 	},
 
-	'607' => {
+	'private message message label' => {
 		message => q||,
 		lastUpdated => 
 	},
 
-	'773' => {
-		message => q|Arquivo|,
-		lastUpdated => 1080231729
+	'private message no user' => {
+		message => q||,
+		lastUpdated => 
 	},
 
 	'813' => {
@@ -1031,34 +846,39 @@ our $I18N = {
 		lastUpdated => 1080233435
 	},
 
+	'settings groupIdAdminGroup label' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'head.tags' => {
+		message => q||,
+		lastUpdated => 
+	},
+
 	'42' => {
 		message => q|Por Favor, Confirme|,
 		lastUpdated => 1080235488
 	},
 
-	'22' => {
-		message => q|Agosto|,
-		lastUpdated => 1080086260
+	'link in new window' => {
+		message => q||,
+		lastUpdated => 
 	},
 
-	'759' => {
-		message => q|Editar esta pasta.|,
-		lastUpdated => 1080231245
+	'settings groupIdAdminHelp hoverHelp' => {
+		message => q||,
+		lastUpdated => 
 	},
 
-	'851' => {
-		message => q|Editar este modelo.|,
-		lastUpdated => 1080302835
+	'1005 description' => {
+		message => q|<p>Muitas empresas possuem bancos de dados externos que permitem associar usu&aacute;rios a grupos no WebGUI. </p><p>Por exemplo, um banco de dados de Recursos Humanos pode conter a informa&ccedil;&atilde;o necess&aacute;ria para associar o Id de um funcion&aacute;rio na empresa com o tipo de plano de sa&uacute;de que ele possui com a mesma. Essa consulta pode ser feita usando uma Query SQL. Para construir a Query, podem ser usados macros do WebGUI para buscar os dados necess&aacute;rios do perfil do usu&aacute;rio. </p><p>No exemplo ficcional, vamos supor que tenha sido criado no perfil de usu&aacute;rios o campo employeeId. Esta ent&atilde;o seria a SQL Query necess&aacute;ria para consultar o banco de dados do setor de RH sobre esse usu&aacute;rio: </p> <blockquote><p> select userId from employees, health_plans, empl_plan_map<br /> where employees.employee_id = ^User(&quot;employeeId&quot;);<br /> and health_plans.plan_name = 'HMO 1'<br /> and employees.employee_id = empl_plan_map.employee_id<br /> and health_plans.health_plan_id = empl_plan_mp.health_plan_id;<br /> </p></blockquote> <p>Esse grupo pode ser chamado de &quot;Employees in HMO 1&quot;, e permite que no site qualquer p&aacute;gina ou wobject seja restrito apenas aos usu&aacute;rios que, no banco de dados externo, s&atilde;o parte desse grupo. </p>|,
+		lastUpdated => 1202599276
 	},
 
-	'399' => {
-		message => q|Validar esta página.|,
-		lastUpdated => 1080210674
-	},
-
-	'927' => {
-		message => q|Importar Tema|,
-		lastUpdated => 1080298609
+	'groups to delete' => {
+		message => q||,
+		lastUpdated => 
 	},
 
 	'1073' => {
@@ -1071,11 +891,6 @@ our $I18N = {
 		lastUpdated => 1080211844
 	},
 
-	'94' => {
-		message => q|Veja também|,
-		lastUpdated => 1080298705
-	},
-
 	'51' => {
 		message => q|Senha|,
 		lastUpdated => 1080235438
@@ -1086,9 +901,9 @@ our $I18N = {
 		lastUpdated => 1080233476
 	},
 
-	'Metadata, Edit property' => {
-		message => q|Meta-dados, Editar campo|,
-		lastUpdated => 1096241846
+	'Enable user invitations description' => {
+		message => q||,
+		lastUpdated => 
 	},
 
 	'456' => {
@@ -1096,19 +911,14 @@ our $I18N = {
 		lastUpdated => 1080221608
 	},
 
-	'1062' => {
-		message => q|Modelo de Notificação do Fórum|,
-		lastUpdated => 1080084340
+	'private message status unread' => {
+		message => q||,
+		lastUpdated => 
 	},
 
-	'652' => {
-		message => q|Configurações de Usuários, Editar|,
-		lastUpdated => 1080228708
-	},
-
-	'874' => {
-		message => q|Cancelar acompanhamento da discussão|,
-		lastUpdated => 1080242147
+	'1051 description' => {
+		message => q|O que voc&ecirc; quer que seja usado para substituir.|,
+		lastUpdated => 1202600042
 	},
 
 	'975' => {
@@ -1116,9 +926,14 @@ our $I18N = {
 		lastUpdated => 1080299596
 	},
 
-	'171' => {
-		message => q|Edição <i>WYSIWYG</i>|,
-		lastUpdated => 1080301207
+	'465 description' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'link in same window' => {
+		message => q||,
+		lastUpdated => 
 	},
 
 	'493' => {
@@ -1126,29 +941,29 @@ our $I18N = {
 		lastUpdated => 1080222343
 	},
 
-	'1033' => {
-		message => q|Modelo de Mensagem|,
-		lastUpdated => 1080083610
+	'trash workflow help' => {
+		message => q||,
+		lastUpdated => 
 	},
 
-	'916' => {
-		message => q|<i>Snippet</i>|,
-		lastUpdated => 1080298602
+	'permissions' => {
+		message => q||,
+		lastUpdated => 
 	},
 
-	'386' => {
-		message => q|Editar Imagem|,
-		lastUpdated => 1080210595
+	'photo' => {
+		message => q||,
+		lastUpdated => 
 	},
 
-	'Uploads URL' => {
-		message => q|URL da pasta Uploads|,
-		lastUpdated => 1096241947
+	'file' => {
+		message => q||,
+		lastUpdated => 
 	},
 
-	'796' => {
-		message => q|Ver estatísticas de páginas.|,
-		lastUpdated => 1080232108
+	'pagination.nextPage' => {
+		message => q||,
+		lastUpdated => 
 	},
 
 	'445' => {
@@ -1156,30 +971,29 @@ our $I18N = {
 		lastUpdated => 1080220910
 	},
 
-	'1026' => {
-		message => q|Habilitar edição <i>WYSIWYG</i>?<BR>
-<i>(Rich Edit)</i>|,
-		lastUpdated => 1080083489
-	},
-
-	'844' => {
+	'account.options' => {
 		message => q||,
 		lastUpdated => 
 	},
 
+	'1026' => {
+		message => q|Habilitar editor <em>WYSIWYG</em>? <em>(Rich Edit)</em>|,
+		lastUpdated => 1202599652
+	},
+
 	'329' => {
-		message => q|Endereço (Trabalho)|,
-		lastUpdated => 1080209423
+		message => q|Endere&ccedil;o (Profissional)|,
+		lastUpdated => 1202602884
 	},
 
-	'525' => {
-		message => q|Editar Configurações de Conteúdo|,
-		lastUpdated => 1080222817
+	'allow private messages label' => {
+		message => q||,
+		lastUpdated => 
 	},
 
-	'27' => {
-		message => q|Domingo|,
-		lastUpdated => 1080086155
+	'noldaplink' => {
+		message => q||,
+		lastUpdated => 
 	},
 
 	'161' => {
@@ -1187,29 +1001,29 @@ our $I18N = {
 		lastUpdated => 1080300895
 	},
 
-	'775' => {
-		message => q|Você tem certeza de que quer apagar esta pasta, e mover todo o seu conteúdo para a pasta que a contém ?|,
-		lastUpdated => 1080231877
-	},
-
 	'582' => {
 		message => q|Deixar Em Branco|,
 		lastUpdated => 1080223755
 	},
 
-	'919' => {
-		message => q|Editar este tema.|,
-		lastUpdated => 1080298417
+	'default version tag workflow help' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'settings groupIdAdminWorkflowRun hoverHelp' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'125 description' => {
+		message => q|O nome da sua institui&ccedil;&atilde;o. Ser&aacute; usado em emails, e pelo macro Company Name.|,
+		lastUpdated => 1202600660
 	},
 
 	'746' => {
 		message => q|Ícones Para a Barra de Ferramentas|,
 		lastUpdated => 1080230608
-	},
-
-	'534' => {
-		message => q|Notificar quando houverem novos usuários?|,
-		lastUpdated => 1080222983
 	},
 
 	'400' => {
@@ -1222,24 +1036,19 @@ our $I18N = {
 		lastUpdated => 1080230552
 	},
 
-	'20' => {
-		message => q|Junho|,
-		lastUpdated => 1080086241
+	'1011' => {
+		message => q|C&oacute;digo-Fonte|,
+		lastUpdated => 1202599592
 	},
 
-	'888' => {
-		message => q|Tamanho da Amostra de <i>Snippet</i>|,
-		lastUpdated => 1080297966
-	},
-
-	'633' => {
+	'556 description' => {
 		message => q||,
 		lastUpdated => 
 	},
 
-	'1011' => {
-		message => q|Código Fonte|,
-		lastUpdated => 1080082906
+	'84 description groupings' => {
+		message => q||,
+		lastUpdated => 
 	},
 
 	'557' => {
@@ -1247,9 +1056,14 @@ our $I18N = {
 		lastUpdated => 1080223388
 	},
 
-	'1019' => {
-		message => q|Voltar à lista de discussões|,
-		lastUpdated => 1080083020
+	'settings groupIdAdminUserAdd label' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'369 description' => {
+		message => q||,
+		lastUpdated => 
 	},
 
 	'700' => {
@@ -1272,39 +1086,24 @@ our $I18N = {
 		lastUpdated => 1080242055
 	},
 
+	'color' => {
+		message => q||,
+		lastUpdated => 
+	},
+
 	'990' => {
 		message => q|Editar Vínculo com Banco de Dados|,
 		lastUpdated => 1096242293
 	},
 
-	'Forum, Threads Per Page' => {
-		message => q|Discussões Por Página|,
-		lastUpdated => 1096241783
+	'349' => {
+		message => q|Ultima vers&atilde;o dispon&iacute;vel|,
+		lastUpdated => 1202603030
 	},
 
-	'932' => {
+	'private message no self error' => {
 		message => q||,
 		lastUpdated => 
-	},
-
-	'672' => {
-		message => q|Configurações de Perfil, Editar|,
-		lastUpdated => 1080302264
-	},
-
-	'764' => {
-		message => q|Editar este item.|,
-		lastUpdated => 1080231461
-	},
-
-	'349' => {
-		message => q|Ultima versão disponível|,
-		lastUpdated => 1080209701
-	},
-
-	'769' => {
-		message => q|Arquivar na Pasta|,
-		lastUpdated => 1080231685
 	},
 
 	'983' => {
@@ -1312,9 +1111,9 @@ our $I18N = {
 		lastUpdated => 1096242248
 	},
 
-	'515' => {
-		message => q|Registrar datas de edição nas mensagens ?|,
-		lastUpdated => 1080222691
+	'settings groupIdAdminVersionTag label' => {
+		message => q||,
+		lastUpdated => 
 	},
 
 	'138' => {
@@ -1322,24 +1121,19 @@ our $I18N = {
 		lastUpdated => 1080085788
 	},
 
-	'853' => {
-		message => q|Apagar este modelo.|,
-		lastUpdated => 1080302853
-	},
-
 	'751' => {
 		message => q|Assumir a identidade deste usuário.|,
 		lastUpdated => 1080230698
 	},
 
-	'606' => {
-		message => q||,
-		lastUpdated => 
-	},
-
 	'60' => {
 		message => q|Você tem certeza de que quer desativar sua conta? Se prosseguir, os dados da sua conta serão perdidos permanentemente.|,
 		lastUpdated => 1080301132
+	},
+
+	'messaging' => {
+		message => q||,
+		lastUpdated => 
 	},
 
 	'724' => {
@@ -1352,84 +1146,39 @@ our $I18N = {
 		lastUpdated => 1080211451
 	},
 
-	'1067' => {
-		message => q|Modelo de Buscador do Fórum|,
-		lastUpdated => 1080084475
-	},
-
-	'519' => {
-		message => q|Não quero ser notificado.|,
-		lastUpdated => 1080222766
-	},
-
 	'860' => {
 		message => q|Tornar o endereço de email visível públicamente?|,
 		lastUpdated => 1080241944
 	},
 
-	'1074' => {
-		message => q||,
-		lastUpdated => 
-	},
-
 	'346' => {
-		message => q|Esse usuário não é mais um membro deste site. Não possuímos nenhuma informação adicional sobre ele.|,
-		lastUpdated => 1080209672
+		message => q|Esse usu&aacute;rio n&atilde;o &eacute; mais um membro deste site. N&atilde;o possu&iacute;mos nenhuma informa&ccedil;&atilde;o adicional sobre o mesmo.|,
+		lastUpdated => 1202603016
 	},
 
-	'17' => {
-		message => q|Março|,
-		lastUpdated => 1080086219
-	},
-
-	'1063' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'911' => {
-		message => q|Componente|,
-		lastUpdated => 1080298267
-	},
-
-	'427' => {
-		message => q|Layouts|,
-		lastUpdated => 1080211319
-	},
-
-	'677' => {
-		message => q|Wobject, Adicionar/Editar|,
-		lastUpdated => 1080302313
-	},
-
-	'907' => {
-		message => q|Você tem certeza de que quer apagar este tema?|,
-		lastUpdated => 1080298210
-	},
-
-	'Forum, use preview' => {
-		message => q|Usar Pré-Visualização de Mensagem ?|,
-		lastUpdated => 1096241807
-	},
-
-	'82' => {
-		message => q|Funções administrativas...|,
-		lastUpdated => 1080234626
+	'1075 description' => {
+		message => q|Se voc&ecirc; quer que usu&aacute;rios deste grupo sejam validados utilizando um banco de dados externo, selecione qual Link com Banco de Dados deve ser utilizado.|,
+		lastUpdated => 1202600334
 	},
 
 	'333' => {
-		message => q|País (Trabalho)|,
-		lastUpdated => 1080209486
+		message => q|Pa&iacute;s (Profissional)|,
+		lastUpdated => 1202602859
+	},
+
+	'groups to add' => {
+		message => q||,
+		lastUpdated => 
 	},
 
 	'323' => {
-		message => q|Endereço (Residencial)|,
-		lastUpdated => 1080209440
+		message => q|Endere&ccedil;o (Residencial)|,
+		lastUpdated => 1202602904
 	},
 
-	'895' => {
-		message => q|Duração do Cache|,
-		lastUpdated => 1080298022
+	'codearea' => {
+		message => q||,
+		lastUpdated => 
 	},
 
 	'856' => {
@@ -1437,19 +1186,29 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'Export as user' => {
-		message => q|Exportar como usuário|,
-		lastUpdated => 1096241562
-	},
-
 	'69' => {
 		message => q|Por favor, procure a assistência de seu administrador.|,
 		lastUpdated => 1080300553
 	},
 
-	'664' => {
-		message => q|Wobject, Apagar|,
-		lastUpdated => 1080302191
+	'removeLabel' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'private message status read' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'settings groupIdAdminStatistics hoverHelp' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'settings groupIdAdminSubscription label' => {
+		message => q||,
+		lastUpdated => 
 	},
 
 	'756' => {
@@ -1457,29 +1216,54 @@ our $I18N = {
 		lastUpdated => 1080230769
 	},
 
+	'hexadecimal' => {
+		message => q||,
+		lastUpdated => 
+	},
+
 	'446' => {
 		message => q|URL Site Profissional|,
 		lastUpdated => 1080220939
 	},
 
-	'617' => {
+	'559 description' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'view inbox message template description' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'run on admin update user help' => {
 		message => q||,
 		lastUpdated => 
 	},
 
 	'352' => {
-		message => q|Data de Recebimento|,
-		lastUpdated => 1080321285
+		message => q|Data|,
+		lastUpdated => 1202603055
+	},
+
+	'130 description' => {
+		message => q|O tamanho (em kilobytes) m&aacute;ximo para anexos no site. Devido &agrave; natureza do protocolo HTTP, 100MB &eacute; um limite pr&aacute;tico para receber uploads pela interface do WebGUI.|,
+		lastUpdated => 1202601707
 	},
 
 	'1006' => {
 		message => q|Encriptar Login?|,
-		lastUpdated => 1080082814
+		lastUpdated => 1202599287
+	},
+
+	'company' => {
+		message => q||,
+		lastUpdated => 
 	},
 
 	'126' => {
-		message => q|Endereço de Email Institucional|,
-		lastUpdated => 1080085685
+		message => q|Endere&ccedil;o de Email Institucional|,
+		lastUpdated => 1202601046
 	},
 
 	'426' => {
@@ -1487,39 +1271,9 @@ our $I18N = {
 		lastUpdated => 1080211395
 	},
 
-	'1034' => {
-		message => q|Modelo de Formulário de Mensagem|,
-		lastUpdated => 1080083629
-	},
-
-	'542' => {
-		message => q|Anterior.|,
-		lastUpdated => 1080223193
-	},
-
 	'369' => {
 		message => q|Data de Expiração|,
 		lastUpdated => 1080210057
-	},
-
-	'996' => {
-		message => q|Gerenciar Vínculos com Banco de Dados|,
-		lastUpdated => 1096242311
-	},
-
-	'651' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'961' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'956' => {
-		message => q|Você tem certeza de que quer enviar este item da área de transferência para a lixeira?|,
-		lastUpdated => 1080299041
 	},
 
 	'483' => {
@@ -1527,34 +1281,29 @@ our $I18N = {
 		lastUpdated => 1080222186
 	},
 
-	'498' => {
-		message => q|Data de Término|,
-		lastUpdated => 1080222413
-	},
-
-	'629' => {
+	'pagination.nextPageText' => {
 		message => q||,
 		lastUpdated => 
 	},
 
-	'947' => {
-		message => q|Usar área de tranferência compartilhada?|,
-		lastUpdated => 1080298970
+	'account options template variables' => {
+		message => q||,
+		lastUpdated => 
 	},
 
-	'1087' => {
-		message => q|Modelo do Relatório do Registro de Pontuações|,
-		lastUpdated => 1080085259
-	},
-
-	'372' => {
-		message => q|Editar Grupos do Usuário|,
-		lastUpdated => 1080210090
+	'button' => {
+		message => q||,
+		lastUpdated => 
 	},
 
 	'810' => {
 		message => q|enviar|,
 		lastUpdated => 1080233403
+	},
+
+	'372' => {
+		message => q|Editar Grupos do Usuário|,
+		lastUpdated => 1080210090
 	},
 
 	'574' => {
@@ -1564,22 +1313,12 @@ our $I18N = {
 
 	'170' => {
 		message => q|buscar|,
-		lastUpdated => 1080301176
+		lastUpdated => 1202602317
 	},
 
-	'33' => {
-		message => q|Sábado|,
-		lastUpdated => 1080086139
-	},
-
-	'660' => {
-		message => q|Grupos, Gerenciar|,
-		lastUpdated => 1080302166
-	},
-
-	'920' => {
-		message => q|Exportar este tema.|,
-		lastUpdated => 1080298297
+	'default rich editor' => {
+		message => q||,
+		lastUpdated => 
 	},
 
 	'428' => {
@@ -1587,19 +1326,9 @@ our $I18N = {
 		lastUpdated => 1080211328
 	},
 
-	'7' => {
-		message => q|Gerenciar usuários.|,
-		lastUpdated => 1080300365
-	},
-
-	'26' => {
-		message => q|Dezembro|,
-		lastUpdated => 1080300731
-	},
-
-	'887' => {
-		message => q|Midas (Mozilla 1.3+)|,
-		lastUpdated => 1080297983
+	'default rich editor description' => {
+		message => q||,
+		lastUpdated => 
 	},
 
 	'977' => {
@@ -1612,14 +1341,9 @@ our $I18N = {
 		lastUpdated => 1080300197
 	},
 
-	'566' => {
-		message => q|Tempo Limite para Edição|,
-		lastUpdated => 1082635160
-	},
-
-	'72' => {
-		message => q|recuperar|,
-		lastUpdated => 1080229021
+	'settings groupIdAdminLDAPLink label' => {
+		message => q||,
+		lastUpdated => 
 	},
 
 	'526' => {
@@ -1627,14 +1351,14 @@ our $I18N = {
 		lastUpdated => 1080222838
 	},
 
-	'500' => {
-		message => q|ID da Página|,
-		lastUpdated => 1080222436
+	'72' => {
+		message => q|recuperar|,
+		lastUpdated => 1080229021
 	},
 
-	'869' => {
-		message => q|Mensagem de Boas Vindas|,
-		lastUpdated => 1080241975
+	'566' => {
+		message => q|Tempo Limite para Edição|,
+		lastUpdated => 1082635160
 	},
 
 	'806' => {
@@ -1642,9 +1366,14 @@ our $I18N = {
 		lastUpdated => 1080233291
 	},
 
-	'359' => {
-		message => q|Coluna à Direita|,
-		lastUpdated => 1080209893
+	'869' => {
+		message => q|Mensagem de Boas Vindas|,
+		lastUpdated => 1080241975
+	},
+
+	'help contents' => {
+		message => q||,
+		lastUpdated => 
 	},
 
 	'533' => {
@@ -1652,17 +1381,32 @@ our $I18N = {
 		lastUpdated => 1080222961
 	},
 
-	'918' => {
-		message => q|Apagar este tema.|,
-		lastUpdated => 1080298402
+	'359' => {
+		message => q|Coluna &agrave; Direita|,
+		lastUpdated => 1202603120
+	},
+
+	'527 description' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'811 description' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'1006 description' => {
+		message => q|O sistema deve usar HTTPS (HTTP+SSL) para o formul&aacute;rio de login? Note que selecionar essa op&ccedil;&atilde;o ir&aacute; encriptar n&atilde;o apenas o formul&aacute;rio de login, mas tamb&eacute;m toda pagina acessada depois do login pelo usu&aacute;rio.|,
+		lastUpdated => 1202599568
 	},
 
 	'108' => {
-		message => q|Responsável|,
-		lastUpdated => 1080085032
+		message => q|Dono|,
+		lastUpdated => 1202600450
 	},
 
-	'1001' => {
+	'send private message' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -1672,24 +1416,19 @@ our $I18N = {
 		lastUpdated => 1080223382
 	},
 
-	'1053' => {
-		message => q|Gerenciar Substituições|,
-		lastUpdated => 1080084154
-	},
-
-	'717' => {
-		message => q|Logout|,
-		lastUpdated => 1080228943
-	},
-
-	'232' => {
-		message => q|(sem assunto)|,
-		lastUpdated => 1080301308
+	'options.display' => {
+		message => q||,
+		lastUpdated => 
 	},
 
 	'462' => {
 		message => q|Formato da Hora|,
 		lastUpdated => 1080221767
+	},
+
+	'232' => {
+		message => q|(sem assunto)|,
+		lastUpdated => 1080301308
 	},
 
 	'477' => {
@@ -1702,39 +1441,19 @@ our $I18N = {
 		lastUpdated => 1080233468
 	},
 
-	'843' => {
-		message => q|Macros de Usuário|,
-		lastUpdated => 1080234920
-	},
-
-	'671' => {
-		message => q|Wobjects, Usando|,
-		lastUpdated => 1080302250
-	},
-
-	'330' => {
-		message => q|Cidade (Trabalho)|,
-		lastUpdated => 1080209453
-	},
-
-	'142' => {
-		message => q|Tempo Limite de Sessão|,
-		lastUpdated => 1080085869
-	},
-
-	'632' => {
+	'skip commit comments help' => {
 		message => q||,
 		lastUpdated => 
 	},
 
-	'394' => {
-		message => q|Gerenciar repositório.|,
-		lastUpdated => 1080210650
+	'142' => {
+		message => q|Tempo Limite de Sess&atilde;o|,
+		lastUpdated => 1202602083
 	},
 
-	'167' => {
-		message => q|Você tem certeza de que quer apagar este usuário? Se prosseguir, todos os dados da conta do usuário serão perdidos permanentemente.|,
-		lastUpdated => 1080301136
+	'330' => {
+		message => q|Cidade (Profissional)|,
+		lastUpdated => 1202602877
 	},
 
 	'991' => {
@@ -1742,14 +1461,29 @@ our $I18N = {
 		lastUpdated => 1096242298
 	},
 
-	'48' => {
-		message => q|Olá|,
-		lastUpdated => 1080235432
+	'167' => {
+		message => q|Voc&ecirc; tem certeza de que quer apagar este usu&aacute;rio? Aten&ccedil;&atilde;o: se prosseguir, todos os dados da conta do mesmo ser&atilde;o perdidos permanentemente.|,
+		lastUpdated => 1202602358
+	},
+
+	'settings groupIdAdminTransactionLog label' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'help index' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'group' => {
+		message => q||,
+		lastUpdated => 
 	},
 
 	'360' => {
-		message => q|Um Sobre Três|,
-		lastUpdated => 1080209914
+		message => q|Um Sobre Tr&ecirc;s|,
+		lastUpdated => 1202603162
 	},
 
 	'514' => {
@@ -1757,37 +1491,17 @@ our $I18N = {
 		lastUpdated => 1080222651
 	},
 
-	'610' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'Page, Export body' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'663' => {
-		message => q|Configurações de Mensagens, Editar|,
-		lastUpdated => 1080302181
-	},
-
 	'725' => {
 		message => q|Seu nome de usuário não pode ser deixado em branco.|,
 		lastUpdated => 1080229273
 	},
 
-	'931' => {
-		message => q|Temas, Gerenciar|,
-		lastUpdated => 1080235040
+	'country' => {
+		message => q||,
+		lastUpdated => 
 	},
 
-	'513' => {
-		message => q|Ir para a discussão anterior|,
-		lastUpdated => 1080222631
-	},
-
-	'615' => {
+	'50 description' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -1802,14 +1516,14 @@ our $I18N = {
 		lastUpdated => 1080222060
 	},
 
-	'854' => {
-		message => q|Listar todos os modelos dessa classe.|,
-		lastUpdated => 1080302884
+	'885 description' => {
+		message => q||,
+		lastUpdated => 
 	},
 
-	'969' => {
-		message => q|Caso você decida esvaziar sua área de transferência, todos os itens nela contidos serão movidos para a lixeira.|,
-		lastUpdated => 1080299438
+	'radio' => {
+		message => q||,
+		lastUpdated => 
 	},
 
 	'1076' => {
@@ -1817,34 +1531,19 @@ our $I18N = {
 		lastUpdated => 1080084869
 	},
 
-	'766' => {
-		message => q|Voltar à lista do repositório.|,
-		lastUpdated => 1080231484
-	},
-
 	'510' => {
 		message => q|Plano|,
 		lastUpdated => 1080222591
 	},
 
-	'797' => {
-		message => q|Ver estatísticas de tráfego.|,
-		lastUpdated => 1080233114
-	},
-
 	'1077' => {
-		message => q|A função que você está tentando invocar não está disponível para este módulo de autenticação.|,
-		lastUpdated => 1080084930
+		message => q|A fun&ccedil;&atilde;o invocada n&atilde;o est&aacute; dispon&iacute;vel para este m&oacute;dulo de autentica&ccedil;&atilde;o.|,
+		lastUpdated => 1202600392
 	},
 
 	'449' => {
 		message => q|Informações Diversas|,
 		lastUpdated => 1080221326
-	},
-
-	'658' => {
-		message => q|Usuários, Gerenciar|,
-		lastUpdated => 1080302122
 	},
 
 	'967' => {
@@ -1857,24 +1556,19 @@ our $I18N = {
 		lastUpdated => 1080209340
 	},
 
-	'469' => {
-		message => q|ID|,
-		lastUpdated => 1080221867
+	'settings groupIdAdminCommerce hoverHelp' => {
+		message => q||,
+		lastUpdated => 
 	},
 
-	'682' => {
-		message => q|Perfil do Usuário, Editar|,
-		lastUpdated => 1080309794
+	'164 description' => {
+		message => q|<p>Determina o m&eacute;todo de autentica&ccedil;&atilde;o para novos usu&aacute;rios. As duas op&ccedil;&otilde;es dispon&iacute;veis por padr&atilde;o s&atilde;o WebGUI e LDAP. Na autentica&ccedil;&atilde;o via WebGUI os usu&aacute;rios ser&atilde;o autenticados usando o login e senha armazenados no banco do dados do WebGUI. Na autentica&ccedil;&atilde;o via LDAP, um diret&oacute;rio LDAP externo &eacute; usado para verificar as credenciais dos usu&aacute;rios. Outros m&eacute;todos podem ser acrescentados, atrav&eacute;s de plugins de autentica&ccedil;&atilde;o customizados. </p> <p><em>NOTAS:</em> </p> <p>Configura&ccedil;&otilde;es de autentica&ccedil;&atilde;o podem ser ajustadas para cada usu&aacute;rio. </p> <p>As op&ccedil;&otilde;es vis&iacute;veis a partir deste ponto depende de quais m&oacute;dulos de autentica&ccedil;&atilde;o voc&ecirc; tem instalados em seu sistema.</p>|,
+		lastUpdated => 1202602618
 	},
 
 	'353' => {
-		message => q|Não há nenhuma mensagem em sua Caixa de Entrada no momento.|,
-		lastUpdated => 1080209804
-	},
-
-	'635' => {
-		message => q||,
-		lastUpdated => 
+		message => q|N&atilde;o h&aacute; nenhuma mensagem em sua Caixa de Entrada no momento.|,
+		lastUpdated => 1202603093
 	},
 
 	'575' => {
@@ -1882,7 +1576,7 @@ our $I18N = {
 		lastUpdated => 1080223574
 	},
 
-	'1088' => {
+	'863 description' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -1892,34 +1586,14 @@ our $I18N = {
 		lastUpdated => 1096242253
 	},
 
-	'946' => {
-		message => q|Usar lixeira compartilhada?|,
-		lastUpdated => 1080235089
-	},
-
 	'1039' => {
 		message => q|Voltar|,
 		lastUpdated => 1080083818
 	},
 
-	'979' => {
-		message => q|Você tem certeza de que quer apagar todos os itens desta pasta ? Eles não poderão ser recuperados depois de apagados. Itens em subpastas não serão apagados.|,
-		lastUpdated => 1080299775
-	},
-
 	'1005' => {
-		message => q|Consulta SQL|,
-		lastUpdated => 1080084144
-	},
-
-	'28' => {
-		message => q|Segunda-feira|,
-		lastUpdated => 1080086087
-	},
-
-	'310' => {
-		message => q|Habilitar informações extras para contato?|,
-		lastUpdated => 1080301914
+		message => q|Query SQL|,
+		lastUpdated => 1202598696
 	},
 
 	'40' => {
@@ -1927,14 +1601,34 @@ our $I18N = {
 		lastUpdated => 1080221425
 	},
 
+	'310' => {
+		message => q|Habilitar informa&ccedil;&otilde;es extras para contato?|,
+		lastUpdated => 1202602721
+	},
+
+	'interval' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'settings groupIdAdminLDAPLink hoverHelp' => {
+		message => q||,
+		lastUpdated => 
+	},
+
 	'699' => {
 		message => q|Primeiro Dia da Semana|,
 		lastUpdated => 1080302479
 	},
 
-	'960' => {
-		message => q|Lixeira, Gerenciar|,
-		lastUpdated => 1080299243
+	'cancel' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'user profile field friend availability' => {
+		message => q||,
+		lastUpdated => 
 	},
 
 	'818' => {
@@ -1942,29 +1636,14 @@ our $I18N = {
 		lastUpdated => 1080233490
 	},
 
+	'user email template' => {
+		message => q||,
+		lastUpdated => 
+	},
+
 	'130' => {
-		message => q|Tamanho Máximo para Anexos|,
-		lastUpdated => 1080085733
-	},
-
-	'387' => {
-		message => q|Adicionado Por|,
-		lastUpdated => 1081178405
-	},
-
-	'53' => {
-		message => q|Versão Para Impressão|,
-		lastUpdated => 1080236033
-	},
-
-	'1038' => {
-		message => q|Desfazer <i>sticky</i>|,
-		lastUpdated => 1081178131
-	},
-
-	'245' => {
-		message => q|Data|,
-		lastUpdated => 1080301552
+		message => q|Tamanho M&aacute;ximo de Anexos|,
+		lastUpdated => 1202601521
 	},
 
 	'543' => {
@@ -1972,12 +1651,7 @@ our $I18N = {
 		lastUpdated => 1080223208
 	},
 
-	'626' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'826' => {
+	'topicName' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -1992,9 +1666,19 @@ our $I18N = {
 		lastUpdated => 1080209835
 	},
 
+	'private message sent' => {
+		message => q||,
+		lastUpdated => 
+	},
+
 	'461' => {
 		message => q|Formato da Data|,
 		lastUpdated => 1080221757
+	},
+
+	'debug ip description' => {
+		message => q||,
+		lastUpdated => 
 	},
 
 	'583' => {
@@ -2002,25 +1686,20 @@ our $I18N = {
 		lastUpdated => 1080223767
 	},
 
-	'1064' => {
-		message => q|Enviar uma Mensagem|,
-		lastUpdated => 1080084373
+	'settings groupIdAdminGraphics hoverHelp' => {
+		message => q||,
+		lastUpdated => 
 	},
 
-	'782' => {
-		message => q|Qualquer|,
-		lastUpdated => 1080231949
+	'show performance indicators' => {
+		message => q||,
+		lastUpdated => 
 	},
 
 	'951' => {
 		message => q|Você tem certeza de que quer enviar todo o 
 conteúdo da área de transferência para a lixeira?|,
 		lastUpdated => 1080299010
-	},
-
-	'757' => {
-		message => q|Gerenciar Repositório|,
-		lastUpdated => 1080231225
 	},
 
 	'85' => {
@@ -2034,8 +1713,8 @@ conteúdo da área de transferência para a lixeira?|,
 	},
 
 	'332' => {
-		message => q|CEP (Trabalho)|,
-		lastUpdated => 1080209477
+		message => q|CEP (Profissional)|,
+		lastUpdated => 1202602864
 	},
 
 	'9' => {
@@ -2048,14 +1727,14 @@ conteúdo da área de transferência para a lixeira?|,
 		lastUpdated => 1080211301
 	},
 
+	'packages' => {
+		message => q||,
+		lastUpdated => 
+	},
+
 	'745' => {
 		message => q|Voltar para a página.|,
 		lastUpdated => 1080230561
-	},
-
-	'832' => {
-		message => q||,
-		lastUpdated => 
 	},
 
 	'736' => {
@@ -2068,14 +1747,9 @@ conteúdo da área de transferência para a lixeira?|,
 		lastUpdated => 1080223168
 	},
 
-	'781' => {
-		message => q|<i>Snippet</i>|,
-		lastUpdated => 1080231942
-	},
-
-	'828' => {
-		message => q||,
-		lastUpdated => 
+	'230 description' => {
+		message => q|A mensagem ser&aacute; enviada para todos os membros do grupo, em formato HTML. N&atilde;o &eacute; poss&iacute;vel incluir anexos.|,
+		lastUpdated => 1202602780
 	},
 
 	'90' => {
@@ -2083,9 +1757,14 @@ conteúdo da área de transferência para a lixeira?|,
 		lastUpdated => 1080298147
 	},
 
-	'102' => {
-		message => q|Editar Página|,
-		lastUpdated => 1080083005
+	'pagination.isLastPage' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'private message delete text' => {
+		message => q||,
+		lastUpdated => 
 	},
 
 	'565' => {
@@ -2093,24 +1772,19 @@ conteúdo da área de transferência para a lixeira?|,
 		lastUpdated => 1080223547
 	},
 
-	'620' => {
+	'private message status replied' => {
 		message => q||,
 		lastUpdated => 
 	},
 
-	'520' => {
-		message => q|Quero ser notificado via email.|,
-		lastUpdated => 1080222776
+	'977 description' => {
+		message => q||,
+		lastUpdated => 
 	},
 
 	'1004' => {
-		message => q|Manter cache de grupos externos por quanto tempo?|,
-		lastUpdated => 1080082611
-	},
-
-	'937' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Expirar cache de grupos depois de quanto tempo?|,
+		lastUpdated => 1202598444
 	},
 
 	'891' => {
@@ -2133,29 +1807,14 @@ conteúdo da área de transferência para a lixeira?|,
 		lastUpdated => 1080229372
 	},
 
-	'16' => {
-		message => q|Fevereiro|,
-		lastUpdated => 1080086201
-	},
-
-	'921' => {
-		message => q|Arquivo de Pacote do Tema|,
-		lastUpdated => 1080298380
-	},
-
 	'1069' => {
 		message => q|Usar Host HTTP|,
-		lastUpdated => 1080084455
+		lastUpdated => 1202600184
 	},
 
-	'1013' => {
-		message => q|Tornar <i>sticky</i>?|,
-		lastUpdated => 1080083763
-	},
-
-	'233' => {
-		message => q|<i>(fim da mensagem)</i>|,
-		lastUpdated => 1080301513
+	'user email template description' => {
+		message => q||,
+		lastUpdated => 
 	},
 
 	'57' => {
@@ -2168,9 +1827,9 @@ conteúdo da área de transferência para a lixeira?|,
 		lastUpdated => 1080210046
 	},
 
-	'424' => {
-		message => q|Ver histórico de acessos.|,
-		lastUpdated => 1080211388
+	'user profile field private message allow none label' => {
+		message => q||,
+		lastUpdated => 
 	},
 
 	'872' => {
@@ -2178,17 +1837,47 @@ conteúdo da área de transferência para a lixeira?|,
 		lastUpdated => 1080242062
 	},
 
+	'image manager' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'high user count' => {
+		message => q||,
+		lastUpdated => 
+	},
+
 	'316' => {
-		message => q|Último Nome|,
-		lastUpdated => 1080301862
+		message => q|&Uacute;ltimo Nome|,
+		lastUpdated => 1202602701
+	},
+
+	'target description' => {
+		message => q||,
+		lastUpdated => 
 	},
 
 	'163' => {
-		message => q|Adicionar Usuário|,
-		lastUpdated => 1080300991
+		message => q|Adicionar Usu&aacute;rio|,
+		lastUpdated => 1202602633
 	},
 
-	'Page, Export' => {
+	'trash' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'manage cache' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'read only' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'combobox' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -2203,9 +1892,9 @@ conteúdo da área de transferência para a lixeira?|,
 		lastUpdated => 1080210658
 	},
 
-	'HTMLArea 3' => {
-		message => q|HTMLArea 3 (IE, mozilla)|,
-		lastUpdated => 1096241826
+	'additional parameters help' => {
+		message => q||,
+		lastUpdated => 
 	},
 
 	'89' => {
@@ -2215,10 +1904,10 @@ conteúdo da área de transferência para a lixeira?|,
 
 	'175' => {
 		message => q|Processar macros?|,
-		lastUpdated => 1080301256
+		lastUpdated => 1202602306
 	},
 
-	'611' => {
+	'allowed keywords description' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -2228,19 +1917,24 @@ conteúdo da área de transferência para a lixeira?|,
 		lastUpdated => 1096242287
 	},
 
+	'private message title' => {
+		message => q||,
+		lastUpdated => 
+	},
+
 	'35' => {
-		message => q|Função Administrativa|,
-		lastUpdated => 1080209729
+		message => q|Fun&ccedil;&atilde;o Administrativa|,
+		lastUpdated => 1202603045
 	},
 
-	'11' => {
-		message => q|Esvaziar lixeira.|,
-		lastUpdated => 1080085392
+	'141 description' => {
+		message => q|Se uma p&aacute;gina n&atilde;o &eacute; encontrada no sistema, o visitante pode ser redirecionado para a p&aacute;gina padr&atilde;o (Home) ou para uma p&aacute;gina que pode ser usada para ajudar o usu&aacute;rio a encontrar o que ele estava procurando. Voc&ecirc; &eacute; quem decide o que &eacute; melhor para seus visitantes.|,
+		lastUpdated => 1202602053
 	},
 
-	'492' => {
-		message => q|Lista de campos do Perfil.|,
-		lastUpdated => 1080222336
+	'settings groupIdAdminDatabaseLink label' => {
+		message => q||,
+		lastUpdated => 
 	},
 
 	'347' => {
@@ -2248,19 +1942,9 @@ conteúdo da área de transferência para a lixeira?|,
 		lastUpdated => 1080209686
 	},
 
-	'842' => {
+	'pagination.url' => {
 		message => q||,
 		lastUpdated => 
-	},
-
-	'511' => {
-		message => q|Hierárquico|,
-		lastUpdated => 1080222599
-	},
-
-	'665' => {
-		message => q|Grupo, Apagar|,
-		lastUpdated => 1080302200
 	},
 
 	'434' => {
@@ -2273,9 +1957,9 @@ conteúdo da área de transferência para a lixeira?|,
 		lastUpdated => 1080298636
 	},
 
-	'899' => {
-		message => q|Gerenciar Temas|,
-		lastUpdated => 1080297919
+	'expire groupings' => {
+		message => q||,
+		lastUpdated => 
 	},
 
 	'865' => {
@@ -2283,24 +1967,19 @@ conteúdo da área de transferência para a lixeira?|,
 		lastUpdated => 1080241961
 	},
 
-	'Export Page' => {
-		message => q|Exportar Página|,
-		lastUpdated => 1096241555
+	'int slider' => {
+		message => q||,
+		lastUpdated => 
 	},
 
-	'904' => {
-		message => q|Nome do Tema|,
-		lastUpdated => 1080298289
+	'pagination.pageList' => {
+		message => q||,
+		lastUpdated => 
 	},
 
-	'374' => {
-		message => q|Gerenciar pacotes.|,
-		lastUpdated => 1080210110
-	},
-
-	'930' => {
-		message => q|Ver Tema|,
-		lastUpdated => 1080298631
+	'538 description' => {
+		message => q||,
+		lastUpdated => 
 	},
 
 	'442' => {
@@ -2313,9 +1992,9 @@ conteúdo da área de transferência para a lixeira?|,
 		lastUpdated => 1080211361
 	},
 
-	'1091' => {
-		message => q|Modelo de Relatório do Sumário Estatístico|,
-		lastUpdated => 1080085374
+	'image' => {
+		message => q||,
+		lastUpdated => 
 	},
 
 	'886' => {
@@ -2328,14 +2007,9 @@ conteúdo da área de transferência para a lixeira?|,
 		lastUpdated => 1080229505
 	},
 
-	'409' => {
-		message => q|Adicionar uma nova raiz.|,
-		lastUpdated => 1080210946
-	},
-
-	'642' => {
-		message => q|Página, Adicionar/Editar|,
-		lastUpdated => 1080228677
+	'settings groupIdAdminGroup hoverHelp' => {
+		message => q||,
+		lastUpdated => 
 	},
 
 	'67' => {
@@ -2343,24 +2017,9 @@ conteúdo da área de transferência para a lixeira?|,
 		lastUpdated => 1080236131
 	},
 
-	'1028' => {
-		message => q|Moderar mensagens?|,
-		lastUpdated => 1080083523
-	},
-
 	'812' => {
 		message => q|Sua mensagem foi enviada.|,
 		lastUpdated => 1080233420
-	},
-
-	'795' => {
-		message => q|Raízes|,
-		lastUpdated => 1080232113
-	},
-
-	'1098' => {
-		message => q|Navegação, Adicionar/Editar|,
-		lastUpdated => 1080316500
 	},
 
 	'794' => {
@@ -2368,29 +2027,14 @@ conteúdo da área de transferência para a lixeira?|,
 		lastUpdated => 1080232094
 	},
 
-	'1059' => {
-		message => q||,
-		lastUpdated => 
-	},
-
 	'327' => {
-		message => q|País (Residencial)|,
-		lastUpdated => 1080209402
-	},
-
-	'939' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'1080' => {
-		message => q|Usar estilo administrativo?|,
-		lastUpdated => 1080085068
+		message => q|Pa&iacute;s (Residencial)|,
+		lastUpdated => 1202602894
 	},
 
 	'320' => {
-		message => q|Identidade <a href="http://messenger.yahoo.com/" target="_blank">Yahoo! Messenger</a>|,
-		lastUpdated => 1080210217
+		message => q|Id <a href="%22http://messenger.yahoo.com/%22" target="&quot;_blank&quot;">Yahoo! Messenger</a>|,
+		lastUpdated => 1202602915
 	},
 
 	'944' => {
@@ -2398,24 +2042,29 @@ conteúdo da área de transferência para a lixeira?|,
 		lastUpdated => 1080298777
 	},
 
+	'user' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'settings groupIdAdminWorkflow label' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'settings groupIdAdminGroupAdmin label' => {
+		message => q||,
+		lastUpdated => 
+	},
+
 	'732' => {
 		message => q|3 Amador|,
 		lastUpdated => 1080229397
 	},
 
-	'674' => {
-		message => q|Configurações Diversas, Editar|,
-		lastUpdated => 1080302282
-	},
-
-	'Extras URL' => {
-		message => q|URL da pasta Extras|,
-		lastUpdated => 1096241950
-	},
-
-	'913' => {
-		message => q|Modelo|,
-		lastUpdated => 1080298273
+	'51 description' => {
+		message => q||,
+		lastUpdated => 
 	},
 
 	'811' => {
@@ -2423,19 +2072,19 @@ conteúdo da área de transferência para a lixeira?|,
 		lastUpdated => 1080233409
 	},
 
-	'957' => {
-		message => q|Área de Transferência, Gerenciar|,
-		lastUpdated => 1080299201
+	'994 description' => {
+		message => q||,
+		lastUpdated => 
 	},
 
-	'622' => {
+	'allow access from macros' => {
 		message => q||,
 		lastUpdated => 
 	},
 
 	'361' => {
-		message => q|Três Sobre Um|,
-		lastUpdated => 1080209928
+		message => q|Tr&ecirc;s Sobre Um|,
+		lastUpdated => 1202603169
 	},
 
 	'465' => {
@@ -2453,24 +2102,24 @@ conteúdo da área de transferência para a lixeira?|,
 		lastUpdated => 1080233506
 	},
 
+	'purge workflow help' => {
+		message => q||,
+		lastUpdated => 
+	},
+
 	'970' => {
 		message => q|ajuste de hora...|,
 		lastUpdated => 1080299492
 	},
 
-	'776' => {
-		message => q|Editar Pasta|,
-		lastUpdated => 1080231885
+	'link enter alert' => {
+		message => q||,
+		lastUpdated => 
 	},
 
-	'894' => {
-		message => q|Habilitar discussão?|,
-		lastUpdated => 1080298035
-	},
-
-	'24' => {
-		message => q|Outubro|,
-		lastUpdated => 1080300715
+	'debug ip' => {
+		message => q||,
+		lastUpdated => 
 	},
 
 	'858' => {
@@ -2478,14 +2127,9 @@ conteúdo da área de transferência para a lixeira?|,
 		lastUpdated => 1080303127
 	},
 
-	'140' => {
-		message => q|Editar Configurações Diversas|,
-		lastUpdated => 1080085834
-	},
-
 	'104' => {
-		message => q|URL da Página|,
-		lastUpdated => 1080083596
+		message => q|URL|,
+		lastUpdated => 1202599723
 	},
 
 	'412' => {
@@ -2498,19 +2142,9 @@ conteúdo da área de transferência para a lixeira?|,
 		lastUpdated => 1080299173
 	},
 
-	'385' => {
-		message => q|Parâmetros|,
-		lastUpdated => 1080210443
-	},
-
-	'502' => {
-		message => q|Você tem certeza de que quer apagar este layout e configurar todas as páginas que o estejam utilizando para o layout padrão ?|,
-		lastUpdated => 1080222477
-	},
-
-	'307' => {
-		message => q|Usar <i>meta tags</i> padrão?|,
-		lastUpdated => 1080301605
+	'submit' => {
+		message => q||,
+		lastUpdated => 
 	},
 
 	'314' => {
@@ -2518,9 +2152,9 @@ conteúdo da área de transferência para a lixeira?|,
 		lastUpdated => 1080301876
 	},
 
-	'801' => {
-		message => q|Interações com Wobjects|,
-		lastUpdated => 1080233262
+	'pagination.previousPageText' => {
+		message => q||,
+		lastUpdated => 
 	},
 
 	'985' => {
@@ -2528,14 +2162,14 @@ conteúdo da área de transferência para a lixeira?|,
 		lastUpdated => 1096242259
 	},
 
+	'945 description' => {
+		message => q||,
+		lastUpdated => 
+	},
+
 	'971' => {
 		message => q|Hora|,
 		lastUpdated => 1080299535
-	},
-
-	'830' => {
-		message => q||,
-		lastUpdated => 
 	},
 
 	'754' => {
@@ -2543,24 +2177,24 @@ conteúdo da área de transferência para a lixeira?|,
 		lastUpdated => 1080230762
 	},
 
+	'page statistics' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'settings groupIdAdminLoginHistory label' => {
+		message => q||,
+		lastUpdated => 
+	},
+
 	'355' => {
-		message => q|Padrão|,
-		lastUpdated => 1080209843
+		message => q|Padr&atilde;o|,
+		lastUpdated => 1202603102
 	},
 
 	'847' => {
 		message => q|Voltar para a página atual.|,
 		lastUpdated => 1080234984
-	},
-
-	'747' => {
-		message => q|Nomes de usuário podem conter apenas caracteres alfa-numéricos.|,
-		lastUpdated => 1080230624
-	},
-
-	'479' => {
-		message => q|Data|,
-		lastUpdated => 1080222151
 	},
 
 	'159' => {
@@ -2578,14 +2212,24 @@ conteúdo da área de transferência para a lixeira?|,
 		lastUpdated => 1080302538
 	},
 
+	'private message blocked error' => {
+		message => q||,
+		lastUpdated => 
+	},
+
 	'326' => {
 		message => q|CEP (Residencial)|,
 		lastUpdated => 1080209391
 	},
 
-	'1003' => {
-		message => q|Habilitar permissões de wobjects?|,
-		lastUpdated => 1080300772
+	'body.content' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'pagination.pageLoop.upTo20' => {
+		message => q||,
+		lastUpdated => 
 	},
 
 	'555' => {
@@ -2593,34 +2237,9 @@ conteúdo da área de transferência para a lixeira?|,
 		lastUpdated => 1080223366
 	},
 
-	'1037' => {
-		message => q|Tornar <i>sticky</i>|,
-		lastUpdated => 1080083770
-	},
-
-	'47' => {
-		message => q|Início|,
-		lastUpdated => 1080235444
-	},
-
-	'1054' => {
-		message => q|Propriedades do Fórum (Discussão)|,
-		lastUpdated => 1080084180
-	},
-
-	'681' => {
-		message => q|Pacotes, Criando|,
-		lastUpdated => 1080302354
-	},
-
-	'619' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'335' => {
-		message => q|Gênero|,
-		lastUpdated => 1080209500
+	'1017' => {
+		message => q|&Uacute;ltima Resposta|,
+		lastUpdated => 1202599610
 	},
 
 	'37' => {
@@ -2628,14 +2247,14 @@ conteúdo da área de transferência para a lixeira?|,
 		lastUpdated => 1080235394
 	},
 
-	'1017' => {
-		message => q|Última Resposta|,
-		lastUpdated => 1080082975
+	'335' => {
+		message => q|G&ecirc;nero|,
+		lastUpdated => 1202602840
 	},
 
-	'855' => {
-		message => q|Listar todos os modelos.|,
-		lastUpdated => 1080302895
+	'private message from label' => {
+		message => q||,
+		lastUpdated => 
 	},
 
 	'1029' => {
@@ -2643,24 +2262,19 @@ conteúdo da área de transferência para a lixeira?|,
 		lastUpdated => 1080083537
 	},
 
-	'698' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'5' => {
-		message => q|Gerenciar grupos.|,
-		lastUpdated => 1080235423
-	},
-
-	'1057' => {
-		message => q||,
-		lastUpdated => 
-	},
-
 	'538' => {
 		message => q|<i>Karma</i> Mínimo|,
 		lastUpdated => 1080223159
+	},
+
+	'pagination.firstPageUrl' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'high group count' => {
+		message => q||,
+		lastUpdated => 
 	},
 
 	'554' => {
@@ -2668,14 +2282,9 @@ conteúdo da área de transferência para a lixeira?|,
 		lastUpdated => 1080223306
 	},
 
-	'679' => {
-		message => q|Configurações de Conteúdo, Editar|,
-		lastUpdated => 1080302336
-	},
-
-	'680' => {
-		message => q|Pacote, Adicionar|,
-		lastUpdated => 1080302344
+	'content' => {
+		message => q||,
+		lastUpdated => 
 	},
 
 	'starts with' => {
@@ -2688,29 +2297,14 @@ conteúdo da área de transferência para a lixeira?|,
 		lastUpdated => 1080223256
 	},
 
-	'831' => {
-		message => q|Macros de Repositório|,
-		lastUpdated => 1080234788
+	'allow access from macros help' => {
+		message => q||,
+		lastUpdated => 
 	},
 
-	'521' => {
-		message => q|Quero ser notificado com email para meu pager.|,
-		lastUpdated => 1080222787
-	},
-
-	'162' => {
-		message => q|Você tem certeza de que quer apagar todas as páginas e wobjects da lixeira? Eles não poderão ser recuperados depois de apagados.|,
-		lastUpdated => 1080300979
-	},
-
-	'433' => {
-		message => q|<i>User Agent</i>|,
-		lastUpdated => 1080211465
-	},
-
-	'780' => {
-		message => q|Arquivo|,
-		lastUpdated => 1080231932
+	'hex slider' => {
+		message => q||,
+		lastUpdated => 
 	},
 
 	'880' => {
@@ -2718,9 +2312,24 @@ conteúdo da área de transferência para a lixeira?|,
 		lastUpdated => 1080242462
 	},
 
-	'240' => {
-		message => q|ID da Mensagem:|,
-		lastUpdated => 1080301524
+	'433' => {
+		message => q|<i>User Agent</i>|,
+		lastUpdated => 1080211465
+	},
+
+	'settings groupIdAdminWorkflow hoverHelp' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'settings groupIdAdminLoginHistory hoverHelp' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'pagination.previousPageUrl' => {
+		message => q||,
+		lastUpdated => 
 	},
 
 	'74' => {
@@ -2728,19 +2337,19 @@ conteúdo da área de transferência para a lixeira?|,
 		lastUpdated => 1080229518
 	},
 
+	'240' => {
+		message => q|ID da Mensagem:|,
+		lastUpdated => 1080301524
+	},
+
 	'334' => {
-		message => q|Telefone (Trabalho)|,
-		lastUpdated => 1080209493
+		message => q|Telefone (Profissional)|,
+		lastUpdated => 1202602847
 	},
 
-	'440' => {
-		message => q|Informações Para Contato|,
-		lastUpdated => 1080211879
-	},
-
-	'786' => {
-		message => q||,
-		lastUpdated => 
+	'986' => {
+		message => q|Voltar aos vínculos com banco de dados.|,
+		lastUpdated => 1096242267
 	},
 
 	'890' => {
@@ -2748,9 +2357,9 @@ conteúdo da área de transferência para a lixeira?|,
 		lastUpdated => 
 	},
 
-	'986' => {
-		message => q|Voltar aos vínculos com banco de dados.|,
-		lastUpdated => 1096242267
+	'440' => {
+		message => q|Informações Para Contato|,
+		lastUpdated => 1080211879
 	},
 
 	'230' => {
@@ -2764,23 +2373,13 @@ conteúdo da área de transferência para a lixeira?|,
 	},
 
 	'1027' => {
-		message => q|Habilitar substituições ?|,
-		lastUpdated => 1080083446
+		message => q|Usar filtros de conte&uacute;do?|,
+		lastUpdated => 1202599672
 	},
 
-	'103' => {
-		message => q|Propriedades da Página|,
-		lastUpdated => 1080083550
-	},
-
-	'922' => {
-		message => q|Criado Com|,
-		lastUpdated => 1080298428
-	},
-
-	'841' => {
-		message => q|Macro de Navegação|,
-		lastUpdated => 1080234910
+	'user function style' => {
+		message => q||,
+		lastUpdated => 
 	},
 
 	'871' => {
@@ -2788,29 +2387,54 @@ conteúdo da área de transferência para a lixeira?|,
 		lastUpdated => 1080241983
 	},
 
+	'misc' => {
+		message => q||,
+		lastUpdated => 
+	},
+
 	'1044' => {
 		message => q|Modelo de Resultados de Busca|,
 		lastUpdated => 1080083896
 	},
 
-	'423' => {
-		message => q|Ver sessões ativas.|,
-		lastUpdated => 1080211273
-	},
-
-	'1072' => {
-		message => q|O endereço de email já está em uso. Por favor, utilize um endereço de email diferente.|,
-		lastUpdated => 1080084812
-	},
-
-	'612' => {
+	'admin console template description' => {
 		message => q||,
 		lastUpdated => 
 	},
 
-	'902' => {
-		message => q|Editar Tema|,
-		lastUpdated => 1080298199
+	'1072' => {
+		message => q|Esse endere&ccedil;o de email j&aacute; est&aacute; em uso. Por favor, utilize um endere&ccedil;o de email diferente.|,
+		lastUpdated => 1202600260
+	},
+
+	'pages' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'editSettings done' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'118 description' => {
+		message => q|Voc&ecirc; quer que visitantes possam registrar a si pr&oacute;prios no site?|,
+		lastUpdated => 1202600555
+	},
+
+	'settings groupIdAdminAdSpace hoverHelp' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'126 description' => {
+		message => q|Um endere&ccedil;o de email geral para a sua institui&ccedil;&atilde;o. Esse endere&ccedil;o ser&aacute; utilizado para enviar todas as mensagens autom&aacute;ticas do WebGUI para os usu&aacute;rios, al&eacute;m de ser usado pelo macro Company Email Address.|,
+		lastUpdated => 1202601475
+	},
+
+	'991 description' => {
+		message => q||,
+		lastUpdated => 
 	},
 
 	'827' => {
@@ -2818,9 +2442,9 @@ conteúdo da área de transferência para a lixeira?|,
 		lastUpdated => 1080234742
 	},
 
-	'936' => {
-		message => q|Tema, Importar|,
-		lastUpdated => 1080298715
+	'settings groupIdAdminProductManager label' => {
+		message => q||,
+		lastUpdated => 
 	},
 
 	'91' => {
@@ -2828,29 +2452,24 @@ conteúdo da área de transferência para a lixeira?|,
 		lastUpdated => 1080298166
 	},
 
-	'1086' => {
-		message => q||,
-		lastUpdated => 
-	},
-
 	'701' => {
 		message => q|Semana(s)|,
 		lastUpdated => 1080302497
 	},
 
-	'481' => {
-		message => q|Telefone|,
-		lastUpdated => 1080222170
-	},
-
-	'174' => {
-		message => q|Exibir o título?|,
-		lastUpdated => 1080301245
-	},
-
 	'820' => {
 		message => q|Sua conta não está ativada. Você não poderá usar essa conta até que ela seja ativada, o que pode ser feito apenas pelo administrador.|,
 		lastUpdated => 1080302742
+	},
+
+	'174' => {
+		message => q|Exibir o t&iacute;tulo?|,
+		lastUpdated => 1202602313
+	},
+
+	'481' => {
+		message => q|Telefone|,
+		lastUpdated => 1080222170
 	},
 
 	'867' => {
@@ -2863,19 +2482,9 @@ conteúdo da área de transferência para a lixeira?|,
 		lastUpdated => 1080211381
 	},
 
-	'564' => {
-		message => q|Quem pode postar?|,
-		lastUpdated => 1080223476
-	},
-
 	'817' => {
 		message => q|Ativo|,
 		lastUpdated => 1080233482
-	},
-
-	'905' => {
-		message => q|Designer do Tema|,
-		lastUpdated => 1080298262
 	},
 
 	'563' => {
@@ -2883,9 +2492,14 @@ conteúdo da área de transferência para a lixeira?|,
 		lastUpdated => 1080223448
 	},
 
-	'41' => {
-		message => q|Você está tentando apagar um <strong>componente essencial</strong> para o funcionamento do WebGUI. Se você prosseguir o WebGUI poderá não funcionar mais.|,
-		lastUpdated => 1080325643
+	'settings groupIdAdminUserAdd hoverHelp' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'trash workflow' => {
+		message => q||,
+		lastUpdated => 
 	},
 
 	'731' => {
@@ -2893,14 +2507,14 @@ conteúdo da área de transferência para a lixeira?|,
 		lastUpdated => 1080229382
 	},
 
-	'668' => {
-		message => q|Folhas de Estilo (CSS), Usando|,
-		lastUpdated => 1080302224
+	'41' => {
+		message => q|Você está tentando apagar um <strong>componente essencial</strong> para o funcionamento do WebGUI. Se você prosseguir o WebGUI poderá não funcionar mais.|,
+		lastUpdated => 1080325643
 	},
 
-	'encrypt page' => {
-		message => q|Encriptar página ?|,
-		lastUpdated => 1096241971
+	'link settings' => {
+		message => q||,
+		lastUpdated => 
 	},
 
 	'52' => {
@@ -2913,19 +2527,14 @@ conteúdo da área de transferência para a lixeira?|,
 		lastUpdated => 1080230673
 	},
 
-	'657' => {
-		message => q|Usuário, Apagar|,
-		lastUpdated => 1080302110
-	},
-
-	'774' => {
-		message => q|Você tem certeza de que quer apagar este conteúdo do repositório? Ele não poderá se recuperado depois de ser apagado.|,
-		lastUpdated => 1080231838
-	},
-
 	'229' => {
 		message => q|Assunto|,
-		lastUpdated => 1080301265
+		lastUpdated => 1202602297
+	},
+
+	'104 description' => {
+		message => q|Entre com o URL para o link|,
+		lastUpdated => 1202599749
 	},
 
 	'866' => {
@@ -2938,19 +2547,9 @@ conteúdo da área de transferência para a lixeira?|,
 		lastUpdated => 1080231504
 	},
 
-	'1092' => {
+	'settings groupIdAdminGroupAdmin hoverHelp' => {
 		message => q||,
 		lastUpdated => 
-	},
-
-	'503' => {
-		message => q|ID do Modelo|,
-		lastUpdated => 1080222500
-	},
-
-	'770' => {
-		message => q|Editar <i>Snippet</i>|,
-		lastUpdated => 1080231705
 	},
 
 	'68' => {
@@ -2963,14 +2562,9 @@ conteúdo da área de transferência para a lixeira?|,
 		lastUpdated => 1080301848
 	},
 
-	'1097' => {
+	'400 description' => {
 		message => q||,
 		lastUpdated => 
-	},
-
-	'338' => {
-		message => q|Editar Perfil|,
-		lastUpdated => 1080209530
 	},
 
 	'893' => {
@@ -2978,34 +2572,14 @@ conteúdo da área de transferência para a lixeira?|,
 		lastUpdated => 1080297992
 	},
 
+	'338' => {
+		message => q|Editar Perfil|,
+		lastUpdated => 1080209530
+	},
+
 	'576' => {
 		message => q|Apagar|,
 		lastUpdated => 1080223579
-	},
-
-	'761' => {
-		message => q|Adicionar uma imagem.|,
-		lastUpdated => 1080231262
-	},
-
-	'838' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'616' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'640' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'25' => {
-		message => q|Novembro|,
-		lastUpdated => 1080300723
 	},
 
 	'738' => {
@@ -3018,39 +2592,49 @@ conteúdo da área de transferência para a lixeira?|,
 		lastUpdated => 1080242134
 	},
 
+	'995 description' => {
+		message => q||,
+		lastUpdated => 
+	},
+
 	'484' => {
 		message => q|Lista de Seleção|,
 		lastUpdated => 1080222196
 	},
 
-	'1036' => {
-		message => q|Discussões|,
-		lastUpdated => 1080083655
-	},
-
 	'1078' => {
-		message => q|Já existe um usuário neste sistema com o endereço de email que você forneceu. Confirme caso, ainda assim, você deseje criar este usuário.|,
-		lastUpdated => 1081178249
+		message => q|J&aacute; existe no sistema um usu&aacute;rio com esse endere&ccedil;o de email. Confirme caso, ainda assim, voc&ecirc; quer criar este usu&aacute;rio.|,
+		lastUpdated => 1202600433
 	},
 
-	'896' => {
-		message => q|Duração do Cache (Visitantes)|,
-		lastUpdated => 1080297941
-	},
-
-	'928' => {
-		message => q|Você quer importar este tema?|,
-		lastUpdated => 1080298623
-	},
-
-	'623' => {
+	'pagination.text' => {
 		message => q||,
 		lastUpdated => 
 	},
 
-	'962' => {
-		message => q|Gerenciar Lixeira|,
-		lastUpdated => 1080299313
+	'settings groupIdAdminCommerce label' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'ui' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'run on admin create user help' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'content filters' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'insert a link' => {
+		message => q||,
+		lastUpdated => 
 	},
 
 	'328' => {
@@ -3058,39 +2642,44 @@ conteúdo da área de transferência para a lixeira?|,
 		lastUpdated => 1080209411
 	},
 
+	'avatar' => {
+		message => q||,
+		lastUpdated => 
+	},
+
 	'1085' => {
-		message => q|Variáveis do Modelo de Paginação|,
-		lastUpdated => 1080085174
+		message => q|Vari&aacute;veis do Modelo de Pagina&ccedil;&atilde;o|,
+		lastUpdated => 1202600485
 	},
 
-	'777' => {
-		message => q|ID da Pasta|,
-		lastUpdated => 1080231891
+	'Enable user invitations' => {
+		message => q||,
+		lastUpdated => 
 	},
 
-	'143' => {
-		message => q|Gerenciar Configurações|,
-		lastUpdated => 1080085882
+	'pagination.nextPageUrl' => {
+		message => q||,
+		lastUpdated => 
 	},
 
-	'464' => {
-		message => q|Colunas (Caracteres) nas Áreas de Texto|,
-		lastUpdated => 1080222091
+	'changeUrl workflow' => {
+		message => q||,
+		lastUpdated => 
 	},
 
 	'363' => {
-		message => q|Posição no Layout da Página|,
-		lastUpdated => 1080209968
+		message => q|Posi&ccedil;&atilde;o no Layout da P&aacute;gina|,
+		lastUpdated => 1202603217
 	},
 
-	'46' => {
-		message => q|Minha Conta|,
-		lastUpdated => 1080235528
+	'583 description' => {
+		message => q||,
+		lastUpdated => 
 	},
 
-	'733' => {
-		message => q|4 Hábil|,
-		lastUpdated => 1080229410
+	'127 description' => {
+		message => q|<p>O URL prim&aacute;rio para a sua institui&ccedil;&atilde;o. Esse UR ser&aacute; utilizado em todas as mensagens autom&aacute;ticas do WebGUI para os usu&aacute;rios, al&eacute;m de ser usado pelo macro Company URL.</p>|,
+		lastUpdated => 1202601514
 	},
 
 	'1051' => {
@@ -3098,39 +2687,29 @@ conteúdo da área de transferência para a lixeira?|,
 		lastUpdated => 1080084123
 	},
 
+	'733' => {
+		message => q|4 Hábil|,
+		lastUpdated => 1080229410
+	},
+
 	'562' => {
 		message => q|Pendente|,
 		lastUpdated => 1080223440
 	},
 
-	'630' => {
+	'pagination.pageList.upTo20' => {
 		message => q||,
 		lastUpdated => 
 	},
 
 	'36' => {
-		message => q|Essa função pode ser realizada apenas por um administrador. Contate seu administrador.|,
-		lastUpdated => 1080235382
+		message => q|Essa fun&ccedil;&atilde;o pode ser realizada apenas por um administrador. Por gentileza, contate um administrador.|,
+		lastUpdated => 1202603154
 	},
 
-	'997' => {
-		message => q|Vínculos com Banco de Dados, Gerenciar|,
-		lastUpdated => 1096242321
-	},
-
-	'518' => {
-		message => q|Notificações da Caixa de Entrada|,
-		lastUpdated => 1080222741
-	},
-
-	'497' => {
-		message => q|Data de Início|,
-		lastUpdated => 1080222422
-	},
-
-	'472' => {
-		message => q|Título|,
-		lastUpdated => 1080323520
+	'settings' => {
+		message => q||,
+		lastUpdated => 
 	},
 
 	'748' => {
@@ -3138,14 +2717,14 @@ conteúdo da área de transferência para a lixeira?|,
 		lastUpdated => 1080230652
 	},
 
-	'439' => {
-		message => q|Dados Pessoais|,
-		lastUpdated => 1080220843
-	},
-
 	'362' => {
 		message => q|Lado a Lado|,
 		lastUpdated => 1080209939
+	},
+
+	'439' => {
+		message => q|Dados Pessoais|,
+		lastUpdated => 1080220843
 	},
 
 	'317' => {
@@ -3153,9 +2732,9 @@ conteúdo da área de transferência para a lixeira?|,
 		lastUpdated => 1080301964
 	},
 
-	'608' => {
-		message => q||,
-		lastUpdated => 
+	'169' => {
+		message => q|Adicionar um novo usu&aacute;rio.|,
+		lastUpdated => 1202602322
 	},
 
 	'411' => {
@@ -3163,9 +2742,9 @@ conteúdo da área de transferência para a lixeira?|,
 		lastUpdated => 1080210998
 	},
 
-	'169' => {
-		message => q|Adicionar um novo usuário.|,
-		lastUpdated => 1080301163
+	'select slider' => {
+		message => q||,
+		lastUpdated => 
 	},
 
 	'705' => {
@@ -3178,19 +2757,9 @@ conteúdo da área de transferência para a lixeira?|,
 		lastUpdated => 1080222146
 	},
 
-	'384' => {
-		message => q|Arquivo|,
-		lastUpdated => 1080210436
-	},
-
-	'892' => {
-		message => q|Discussão|,
-		lastUpdated => 1080297973
-	},
-
-	'836' => {
-		message => q||,
-		lastUpdated => 
+	'942' => {
+		message => q|Lista de <i>Radio</i>|,
+		lastUpdated => 1080298748
 	},
 
 	'955' => {
@@ -3198,14 +2767,14 @@ conteúdo da área de transferência para a lixeira?|,
 		lastUpdated => 1080298842
 	},
 
-	'942' => {
-		message => q|Lista de <i>Radio</i>|,
-		lastUpdated => 1080298748
+	'974 description' => {
+		message => q||,
+		lastUpdated => 
 	},
 
-	'537' => {
-		message => q|<i>Karma</i>|,
-		lastUpdated => 1080223080
+	'85 description' => {
+		message => q||,
+		lastUpdated => 
 	},
 
 	'407' => {
@@ -3213,34 +2782,29 @@ conteúdo da área de transferência para a lixeira?|,
 		lastUpdated => 1088695344
 	},
 
-	'18' => {
-		message => q|Abril|,
-		lastUpdated => 1080086227
+	'537' => {
+		message => q|<i>Karma</i>|,
+		lastUpdated => 1080223080
 	},
 
-	'376' => {
-		message => q|Pacote|,
-		lastUpdated => 1080210119
-	},
-
-	'Forum, Post Preview Template Title' => {
+	'target' => {
 		message => q||,
 		lastUpdated => 
 	},
 
-	'522' => {
-		message => q|Quero ser notificado via ICQ.|,
-		lastUpdated => 1080222797
+	'settings groupIdAdminActiveSessions label' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'settings groupIdAdminCache label' => {
+		message => q||,
+		lastUpdated => 
 	},
 
 	'125' => {
-		message => q|Nome da Instituição|,
-		lastUpdated => 1080085653
-	},
-
-	'785' => {
-		message => q|Repositório, Gerenciar|,
-		lastUpdated => 1080232053
+		message => q|Nome da Institui&ccedil;&atilde;o|,
+		lastUpdated => 1202600579
 	},
 
 	'44' => {
@@ -3248,19 +2812,19 @@ conteúdo da área de transferência para a lixeira?|,
 		lastUpdated => 1080236020
 	},
 
-	'1018' => {
-		message => q|Iniciar nova discussão|,
-		lastUpdated => 1080082995
+	'send private message template' => {
+		message => q||,
+		lastUpdated => 
 	},
 
-	'667' => {
-		message => q|Grupo, Adicionar/Editar|,
-		lastUpdated => 1080302211
+	'run on admin create user' => {
+		message => q||,
+		lastUpdated => 
 	},
 
 	'1007' => {
-		message => q|Tipo de Conteúdo|,
-		lastUpdated => 1080082842
+		message => q|Tipo de Conte&uacute;do|,
+		lastUpdated => 1202599484
 	},
 
 	'95' => {
@@ -3268,14 +2832,9 @@ conteúdo da área de transferência para a lixeira?|,
 		lastUpdated => 1080298824
 	},
 
-	'998' => {
-		message => q|vínculo com Banco de Dados, Adicionar/Editar|,
-		lastUpdated => 1096242329
-	},
-
-	'923' => {
-		message => q|Versão do Tema|,
-		lastUpdated => 1080300171
+	'user function style description' => {
+		message => q||,
+		lastUpdated => 
 	},
 
 	'313' => {
@@ -3283,14 +2842,9 @@ conteúdo da área de transferência para a lixeira?|,
 		lastUpdated => 1080301811
 	},
 
-	'231' => {
-		message => q|Postando Mensagem...|,
-		lastUpdated => 1080301296
-	},
-
-	'779' => {
-		message => q|Imagem|,
-		lastUpdated => 1080231921
+	'webgui' => {
+		message => q||,
+		lastUpdated => 
 	},
 
 	'551' => {
@@ -3303,19 +2857,14 @@ conteúdo da área de transferência para a lixeira?|,
 		lastUpdated => 1080222882
 	},
 
-	'148' => {
-		message => q|Wobjects|,
-		lastUpdated => 1080085994
+	'229 description' => {
+		message => q|O assunto do email.|,
+		lastUpdated => 1202602294
 	},
 
-	'504' => {
-		message => q|Modelo|,
-		lastUpdated => 1080222506
-	},
-
-	'343' => {
-		message => q|Ver perfil.|,
-		lastUpdated => 1080209572
+	'pagination.firstPageText' => {
+		message => q||,
+		lastUpdated => 
 	},
 
 	'753' => {
@@ -3323,19 +2872,29 @@ conteúdo da área de transferência para a lixeira?|,
 		lastUpdated => 1080230714
 	},
 
-	'697' => {
-		message => q|<i>Karma</i>, Usando|,
-		lastUpdated => 1080302454
+	'343' => {
+		message => q|Ver perfil.|,
+		lastUpdated => 1080209572
 	},
 
-	'981' => {
-		message => q|Gerenciar vínculos com bancos de dados.|,
-		lastUpdated => 1096242234
+	'504' => {
+		message => q|Modelo|,
+		lastUpdated => 1080222506
 	},
 
-	'1058' => {
-		message => q|Modelo de Mensagem do Fórum|,
-		lastUpdated => 1080084241
+	'url extension description' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'pagination.previousPage' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'default version tag workflow' => {
+		message => q||,
+		lastUpdated => 
 	},
 
 	'987' => {
@@ -3343,19 +2902,14 @@ conteúdo da área de transferência para a lixeira?|,
 		lastUpdated => 1096242277
 	},
 
+	'Select State' => {
+		message => q||,
+		lastUpdated => 
+	},
+
 	'857' => {
 		message => q|Endereço IP|,
 		lastUpdated => 1080302918
-	},
-
-	'707' => {
-		message => q|Exibir informações para <i>debugging</i>?|,
-		lastUpdated => 1080228891
-	},
-
-	'106' => {
-		message => q|Escolha "Sim" para alterar todas as páginas abaixo da página atual para este estilo.|,
-		lastUpdated => 1080084305
 	},
 
 	'1010' => {
@@ -3363,14 +2917,14 @@ conteúdo da área de transferência para a lixeira?|,
 		lastUpdated => 1080082883
 	},
 
+	'707' => {
+		message => q|Exibir informações para <i>debugging</i>?|,
+		lastUpdated => 1080228891
+	},
+
 	'964' => {
 		message => q|Gerenciar lixeira do sistema.|,
 		lastUpdated => 1080299302
-	},
-
-	'1096' => {
-		message => q|Modelo de Navegação|,
-		lastUpdated => 1080316519
 	},
 
 	'65' => {
@@ -3378,19 +2932,29 @@ conteúdo da área de transferência para a lixeira?|,
 		lastUpdated => 1080228763
 	},
 
-	'935' => {
-		message => q|O arquivo que você transferiu não aparenta ser um arquivo de tema válido.|,
-		lastUpdated => 1080235031
-	},
-
-	'1093' => {
+	'Illegal Warning' => {
 		message => q||,
 		lastUpdated => 
 	},
 
-	'1023' => {
-		message => q|Cancelar acompanhamento desta discussão|,
-		lastUpdated => 1080083213
+	'367 description' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'1069 description' => {
+		message => q|Selecione o nome de host que o WebGUI ir&aacute; utilizar para criar URLs. Sitename (Arquivo de configura&ccedil;&atilde;o) ir&aacute; usar a vari&aacute;vel &quot;sitename&quot; do arquivo de configura&ccedil;&atilde;o. Env HTTP Host ir&aacute; usar a vari&aacute;vel de ambiente &quot;HTTP_HOST&quot; informada pelo servidor web (apache).|,
+		lastUpdated => 1202600226
+	},
+
+	'settings groupIdAdminCron label' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'private message submit label' => {
+		message => q||,
+		lastUpdated => 
 	},
 
 	'81' => {
@@ -3398,14 +2962,14 @@ conteúdo da área de transferência para a lixeira?|,
 		lastUpdated => 1080234649
 	},
 
-	'908' => {
-		message => q|Você tem certeza de que quer remover este componente deste tema?|,
-		lastUpdated => 1080298492
+	'view inbox message template' => {
+		message => q||,
+		lastUpdated => 
 	},
 
-	'459' => {
-		message => q|Editar o perfil deste usuário.|,
-		lastUpdated => 1080221642
+	'824 description' => {
+		message => q||,
+		lastUpdated => 
 	},
 
 	'321' => {
@@ -3413,9 +2977,9 @@ conteúdo da área de transferência para a lixeira?|,
 		lastUpdated => 1080209329
 	},
 
-	'624' => {
-		message => q||,
-		lastUpdated => 
+	'86' => {
+		message => q|Você tem certeza de que quer apagar este grupo ? Ao apagar o grupo, você também irá apagar todos as permissões associadas à ele.|,
+		lastUpdated => 1080236771
 	},
 
 	'792' => {
@@ -3423,9 +2987,9 @@ conteúdo da área de transferência para a lixeira?|,
 		lastUpdated => 1080232075
 	},
 
-	'86' => {
-		message => q|Você tem certeza de que quer apagar este grupo ? Ao apagar o grupo, você também irá apagar todos as permissões associadas à ele.|,
-		lastUpdated => 1080236771
+	'975 description' => {
+		message => q||,
+		lastUpdated => 
 	},
 
 	'823' => {
@@ -3433,14 +2997,9 @@ conteúdo da área de transferência para a lixeira?|,
 		lastUpdated => 1080234638
 	},
 
-	'903' => {
-		message => q|ID do Tema|,
-		lastUpdated => 1080298345
-	},
-
-	'656' => {
-		message => q|Dados da Instituição, Editar|,
-		lastUpdated => 1080302095
+	'profile' => {
+		message => q||,
+		lastUpdated => 
 	},
 
 	'371' => {
@@ -3449,18 +3008,18 @@ conteúdo da área de transferência para a lixeira?|,
 	},
 
 	'1079' => {
-		message => q|Estilo Para Impressão|,
-		lastUpdated => 1080085010
+		message => q|Estilo Para Impress&atilde;o|,
+		lastUpdated => 1202600443
 	},
 
-	'Alternate style' => {
-		message => q|Estilo alternativo|,
-		lastUpdated => 1096241524
+	'user invitations email exists description' => {
+		message => q||,
+		lastUpdated => 
 	},
 
-	'1041' => {
-		message => q|Reabrir|,
-		lastUpdated => 1080083846
+	'pagination.pageNumber' => {
+		message => q||,
+		lastUpdated => 
 	},
 
 	'729' => {
@@ -3468,14 +3027,9 @@ conteúdo da área de transferência para a lixeira?|,
 		lastUpdated => 1080229360
 	},
 
-	'771' => {
-		message => q|<i>Snippet</i>|,
-		lastUpdated => 1080231713
-	},
-
 	'2' => {
-		message => q|Página|,
-		lastUpdated => 1080086165
+		message => q|P&aacute;gina|,
+		lastUpdated => 1202602302
 	},
 
 	'435' => {
@@ -3488,19 +3042,9 @@ conteúdo da área de transferência para a lixeira?|,
 		lastUpdated => 1080233377
 	},
 
-	'401' => {
-		message => q|Você tem certeza de que quer apagar esta mensagem, e todas as outras mensagens abaixo dela, nesta discussão ?|,
-		lastUpdated => 1080210767
-	},
-
-	'845' => {
-		message => q|Macros de Layout|,
-		lastUpdated => 1080234954
-	},
-
-	'924' => {
-		message => q|Importar um tema.|,
-		lastUpdated => 1080298410
+	'settings groupIdAdminUser label' => {
+		message => q||,
+		lastUpdated => 
 	},
 
 	'885' => {
@@ -3514,13 +3058,8 @@ conteúdo da área de transferência para a lixeira?|,
 	},
 
 	'147' => {
-		message => q|Páginas|,
-		lastUpdated => 1080085984
-	},
-
-	'973' => {
-		message => q|Se acessado via proxy, usar endereço de IP real do cliente?|,
-		lastUpdated => 1080299560
+		message => q|Assets|,
+		lastUpdated => 1202602234
 	},
 
 	'339' => {
@@ -3533,19 +3072,9 @@ conteúdo da área de transferência para a lixeira?|,
 		lastUpdated => 1080084036
 	},
 
-	'760' => {
-		message => q|Apagar esta pasta.|,
-		lastUpdated => 1080231252
-	},
-
 	'863' => {
 		message => q|Apagar Em|,
 		lastUpdated => 1080300308
-	},
-
-	'749' => {
-		message => q|Registrar estatísticas de páginas?|,
-		lastUpdated => 1080230666
 	},
 
 	'531' => {
@@ -3553,39 +3082,24 @@ conteúdo da área de transferência para a lixeira?|,
 		lastUpdated => 1080222924
 	},
 
-	'829' => {
-		message => q|Modelo de Página|,
-		lastUpdated => 1080234768
-	},
-
 	'345' => {
-		message => q|Não é Membro|,
-		lastUpdated => 1080209611
+		message => q|N&atilde;o &eacute; Membro|,
+		lastUpdated => 1202602985
 	},
 
 	'319' => {
-		message => q|Identidade <a href="http://messenger.msn.com/" target="_blank">MSN Messenger</a>|,
-		lastUpdated => 1080210212
+		message => q|Id <a href="%22http://messenger.msn.com/%22" target="&quot;_blank&quot;">MSN Messenger</a>|,
+		lastUpdated => 1202602922
 	},
 
-	'915' => {
-		message => q|Arquivo|,
-		lastUpdated => 1080298283
-	},
-
-	'Forum, Preview Heading' => {
-		message => q|Pré-Visualização da Mensagem|,
-		lastUpdated => 1096241768
+	'56 description' => {
+		message => q||,
+		lastUpdated => 
 	},
 
 	'1052' => {
-		message => q|Editar Substituição|,
-		lastUpdated => 1080084134
-	},
-
-	'404' => {
-		message => q|Primeira Página|,
-		lastUpdated => 1080210793
+		message => q|Editar Filtro de Conte&uacute;do|,
+		lastUpdated => 1202600056
 	},
 
 	'735' => {
@@ -3593,29 +3107,24 @@ conteúdo da área de transferência para a lixeira?|,
 		lastUpdated => 1080229426
 	},
 
-	'613' => {
+	'404' => {
+		message => q|Primeira Página|,
+		lastUpdated => 1080210793
+	},
+
+	'tinymce' => {
 		message => q||,
 		lastUpdated => 
 	},
 
-	'516' => {
-		message => q|Habilitar Modo Administrativo!|,
-		lastUpdated => 1080222710
-	},
-
 	'1043' => {
-		message => q|Arquivar Após|,
-		lastUpdated => 1080083879
+		message => q|Arquivar Ap&oacute;s|,
+		lastUpdated => 1202599783
 	},
 
-	'669' => {
-		message => q|Macros, Usando|,
-		lastUpdated => 1080302231
-	},
-
-	'420' => {
-		message => q|Deixar como foi submetido.|,
-		lastUpdated => 1080211141
+	'Enable Metadata' => {
+		message => q||,
+		lastUpdated => 
 	},
 
 	'974' => {
@@ -3623,12 +3132,12 @@ conteúdo da área de transferência para a lixeira?|,
 		lastUpdated => 1080299583
 	},
 
-	'1082' => {
-		message => q|Área de Transferência|,
-		lastUpdated => 1080085115
+	'420' => {
+		message => q|Deixar como foi submetido.|,
+		lastUpdated => 1080211141
 	},
 
-	'1066' => {
+	'show performance indicators description' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -3638,7 +3147,7 @@ conteúdo da área de transferência para a lixeira?|,
 		lastUpdated => 1080302520
 	},
 
-	'639' => {
+	'user invitations email exists' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -3648,14 +3157,9 @@ conteúdo da área de transferência para a lixeira?|,
 		lastUpdated => 1080299135
 	},
 
-	'989' => {
-		message => q|na página|,
-		lastUpdated => 1080300002
-	},
-
-	'494' => {
-		message => q|RealObjects edit-on Pro 2.x|,
-		lastUpdated => 1080222357
+	'private message subject label' => {
+		message => q||,
+		lastUpdated => 
 	},
 
 	'487' => {
@@ -3664,23 +3168,18 @@ conteúdo da área de transferência para a lixeira?|,
 	},
 
 	'1071' => {
-		message => q|<i>Env HTTP Host</i>|,
-		lastUpdated => 1080084720
+		message => q|Env HTTP Host|,
+		lastUpdated => 1202600235
 	},
 
-	'636' => {
+	'select' => {
 		message => q||,
 		lastUpdated => 
 	},
 
-	'873' => {
-		message => q|Acompanhar a discussão|,
-		lastUpdated => 1080242010
-	},
-
-	'577' => {
-		message => q|Responder|,
-		lastUpdated => 1080223643
+	'auto request commit help' => {
+		message => q||,
+		lastUpdated => 
 	},
 
 	'561' => {
@@ -3688,29 +3187,24 @@ conteúdo da área de transferência para a lixeira?|,
 		lastUpdated => 1080223434
 	},
 
-	'448' => {
-		message => q|Árvore de Páginas|,
-		lastUpdated => 1080221298
+	'Enable passive profiling description' => {
+		message => q||,
+		lastUpdated => 
 	},
 
 	'357' => {
-		message => q|Notícias|,
-		lastUpdated => 1080209860
+		message => q|Not&iacute;cias|,
+		lastUpdated => 1202603109
 	},
 
-	'Forum, Post Preview Template' => {
-		message => q|Modelo de Pré-Visualização de Mensagem|,
-		lastUpdated => 1096241753
+	'settings groupIdAdminVersionTag hoverHelp' => {
+		message => q||,
+		lastUpdated => 
 	},
 
-	'117' => {
-		message => q|Editar Configurações do Usuário|,
-		lastUpdated => 1080085510
-	},
-
-	'852' => {
-		message => q|Copiar este modelo.|,
-		lastUpdated => 1080302844
+	'hidden' => {
+		message => q||,
+		lastUpdated => 
 	},
 
 	'63' => {
@@ -3718,9 +3212,19 @@ conteúdo da área de transferência para a lixeira?|,
 		lastUpdated => 1080236106
 	},
 
+	'1050 description' => {
+		message => q|A sequ&ecirc;ncia de caracteres a ser buscada.|,
+		lastUpdated => 1202599989
+	},
+
 	'455' => {
 		message => q|Editar o Perfil do Usuário|,
 		lastUpdated => 1080221579
+	},
+
+	'user profile field private message friends only label' => {
+		message => q||,
+		lastUpdated => 
 	},
 
 	'80' => {
@@ -3728,9 +3232,19 @@ conteúdo da área de transferência para a lixeira?|,
 		lastUpdated => 1080234699
 	},
 
+	'settings groupIdAdminReplacements hoverHelp' => {
+		message => q||,
+		lastUpdated => 
+	},
+
 	'336' => {
 		message => q|Data de Nascimento|,
 		lastUpdated => 1080209507
+	},
+
+	'mail return path help' => {
+		message => q||,
+		lastUpdated => 
 	},
 
 	'457' => {
@@ -3738,19 +3252,24 @@ conteúdo da área de transferência para a lixeira?|,
 		lastUpdated => 1080221619
 	},
 
+	'view inbox template' => {
+		message => q||,
+		lastUpdated => 
+	},
+
 	'821' => {
 		message => q|Qualquer|,
 		lastUpdated => 1080234607
 	},
 
-	'696' => {
-		message => q|Lixeira, Esvaziar|,
-		lastUpdated => 1080302441
+	'wiki help target' => {
+		message => q||,
+		lastUpdated => 
 	},
 
-	'963' => {
-		message => q|Adicionado à Lixeira Em|,
-		lastUpdated => 1080299290
+	'run on admin update user' => {
+		message => q||,
+		lastUpdated => 
 	},
 
 	'ends with' => {
@@ -3758,7 +3277,12 @@ conteúdo da área de transferência para a lixeira?|,
 		lastUpdated => 1096241990
 	},
 
-	'Forum, Post Preview Template Body' => {
+	'send private message template description' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'pagination.lastPageText' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -3768,19 +3292,29 @@ conteúdo da área de transferência para a lixeira?|,
 		lastUpdated => 1080325607
 	},
 
+	'settings groupIdAdminDatabaseLink hoverHelp' => {
+		message => q||,
+		lastUpdated => 
+	},
+
 	'879' => {
 		message => q|Editor Clássico (Internet Explorer 5+)|,
 		lastUpdated => 1080242408
 	},
 
-	'938' => {
-		message => q|Tema, Apagar|,
-		lastUpdated => 1080235049
+	'539 description' => {
+		message => q||,
+		lastUpdated => 
 	},
 
-	'10' => {
-		message => q|Gerenciar lixeira.|,
-		lastUpdated => 1080082539
+	'asset locked' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'pagination.pageCount' => {
+		message => q||,
+		lastUpdated => 
 	},
 
 	'980' => {
@@ -3788,44 +3322,29 @@ conteúdo da área de transferência para a lixeira?|,
 		lastUpdated => 1080299786
 	},
 
-	'1095' => {
+	'10' => {
+		message => q|Gerenciar lixeira.|,
+		lastUpdated => 1202598404
+	},
+
+	'864 description' => {
 		message => q||,
 		lastUpdated => 
 	},
 
-	'1081' => {
-		message => q|Estilo Administrativo|,
-		lastUpdated => 1080085102
-	},
-
-	'505' => {
-		message => q|Adicionar um novo modelo.|,
-		lastUpdated => 1080222518
-	},
-
-	'670' => {
-		message => q|Imagem, Adicionar/Editar|,
-		lastUpdated => 1080302241
-	},
-
-	'929' => {
-		message => q|Importar!|,
-		lastUpdated => 1080298680
-	},
-
-	'1094' => {
-		message => q|Navegação, Gerenciar|,
-		lastUpdated => 1080316547
-	},
-
-	'419' => {
-		message => q|Preservar apenas o texto.|,
-		lastUpdated => 1080211086
+	'992 description' => {
+		message => q||,
+		lastUpdated => 
 	},
 
 	'958' => {
 		message => q||,
 		lastUpdated => 
+	},
+
+	'419' => {
+		message => q|Preservar apenas o texto.|,
+		lastUpdated => 1080211086
 	},
 
 	'995' => {
@@ -3838,19 +3357,9 @@ conteúdo da área de transferência para a lixeira?|,
 		lastUpdated => 1080302774
 	},
 
-	'133' => {
-		message => q|Editar Configurações de Mensagens|,
-		lastUpdated => 1080085756
-	},
-
-	'625' => {
-		message => q||,
-		lastUpdated => 
-	},
-
 	'149' => {
-		message => q|Usuários|,
-		lastUpdated => 1080086004
+		message => q|Usu&aacute;rios|,
+		lastUpdated => 1202602644
 	},
 
 	'304' => {
@@ -3858,9 +3367,29 @@ conteúdo da área de transferência para a lixeira?|,
 		lastUpdated => 1080301579
 	},
 
+	'hidden list' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'settings groupIdAdminHelp label' => {
+		message => q||,
+		lastUpdated => 
+	},
+
 	'406' => {
 		message => q|Tamanho do <i>Thumbnail</i>|,
 		lastUpdated => 1080210831
+	},
+
+	'settings groupIdAdminSpectre label' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'allowed keywords' => {
+		message => q||,
+		lastUpdated => 
 	},
 
 	'482' => {
@@ -3873,14 +3402,14 @@ conteúdo da área de transferência para a lixeira?|,
 		lastUpdated => 1080299053
 	},
 
-	'530' => {
-		message => q|com <strong>todas</a> as palavras|,
-		lastUpdated => 1080222910
+	'Enable passive profiling' => {
+		message => q||,
+		lastUpdated => 
 	},
 
-	'499' => {
-		message => q|ID do Wobject|,
-		lastUpdated => 1080222430
+	'557 description' => {
+		message => q||,
+		lastUpdated => 
 	},
 
 	'56' => {
@@ -3888,14 +3417,24 @@ conteúdo da área de transferência para a lixeira?|,
 		lastUpdated => 1080235654
 	},
 
+	'499' => {
+		message => q|ID do Wobject|,
+		lastUpdated => 1080222430
+	},
+
+	'530' => {
+		message => q|com <strong>todas</a> as palavras|,
+		lastUpdated => 1080222910
+	},
+
 	'66' => {
 		message => q|Entrar|,
 		lastUpdated => 1080236123
 	},
 
-	'19' => {
-		message => q|Maio|,
-		lastUpdated => 1080086234
+	'show my fields' => {
+		message => q||,
+		lastUpdated => 
 	},
 
 	'54' => {
@@ -3908,14 +3447,9 @@ conteúdo da área de transferência para a lixeira?|,
 		lastUpdated => 1080083558
 	},
 
-	'763' => {
-		message => q|Adicionar um <i>snippet</i>.|,
-		lastUpdated => 1080231441
-	},
-
-	'470' => {
-		message => q|Nome|,
-		lastUpdated => 1080221872
+	'done' => {
+		message => q||,
+		lastUpdated => 
 	},
 
 	'70' => {
@@ -3923,24 +3457,9 @@ conteúdo da área de transferência para a lixeira?|,
 		lastUpdated => 1080300562
 	},
 
-	'839' => {
-		message => q|Macros de Programação|,
-		lastUpdated => 1080234863
-	},
-
 	'1047' => {
-		message => q|Adicionar uma substituição.|,
-		lastUpdated => 1080084050
-	},
-
-	'1055' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'793' => {
-		message => q|Conteúdo do Repositório|,
-		lastUpdated => 1080232088
+		message => q|Adicionar um filtro de conte&uacute;do.|,
+		lastUpdated => 1202599815
 	},
 
 	'88' => {
@@ -3948,24 +3467,24 @@ conteúdo da área de transferência para a lixeira?|,
 		lastUpdated => 1080236271
 	},
 
+	'user profiling' => {
+		message => q||,
+		lastUpdated => 
+	},
+
 	'1009' => {
 		message => q|HTML|,
 		lastUpdated => 1080082622
 	},
 
-	'30' => {
-		message => q|Quarta-feira|,
-		lastUpdated => 1080086109
+	'pagination.pageList.upTo10' => {
+		message => q||,
+		lastUpdated => 
 	},
 
 	'141' => {
-		message => q|Página Não Encontrada|,
-		lastUpdated => 1080085851
-	},
-
-	'909' => {
-		message => q|Adicionar Componente ao Tema|,
-		lastUpdated => 1080298328
+		message => q|P&aacute;gina N&atilde;o Encontrada|,
+		lastUpdated => 1202601941
 	},
 
 	'403' => {
@@ -3978,24 +3497,19 @@ conteúdo da área de transferência para a lixeira?|,
 		lastUpdated => 1080242500
 	},
 
+	'clear cache' => {
+		message => q||,
+		lastUpdated => 
+	},
+
 	'75' => {
 		message => q|Os dados da sua conta foram enviados para o seu endereço de email.|,
 		lastUpdated => 1080229544
 	},
 
 	'134' => {
-		message => q|Mensagem de Recuperação de Senha|,
-		lastUpdated => 1080085771
-	},
-
-	'618' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'655' => {
-		message => q|Usuário, Adicionar/Editar|,
-		lastUpdated => 1080302048
+		message => q|Mensagem de Recupera&ccedil;&atilde;o de Senha|,
+		lastUpdated => 1202601718
 	},
 
 	'848' => {
@@ -4018,19 +3532,34 @@ conteúdo da área de transferência para a lixeira?|,
 		lastUpdated => 1080221351
 	},
 
-	'1060' => {
-		message => q|Modelo de Discussão do Fórum|,
-		lastUpdated => 1080084320
+	'406 description' => {
+		message => q||,
+		lastUpdated => 
 	},
 
-	'1024' => {
-		message => q|Filtrar Mensagens|,
-		lastUpdated => 1080083238
+	'50 setup description' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'private message unread display message' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'private message date label' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'settings groupIdAdminGraphics label' => {
+		message => q||,
+		lastUpdated => 
 	},
 
 	'1070' => {
-		message => q|Sitename (Arquivo de configuração)|,
-		lastUpdated => 1080084695
+		message => q|Sitename (Arquivo de configura&ccedil;&atilde;o)|,
+		lastUpdated => 1202600211
 	},
 
 	'703' => {
@@ -4043,19 +3572,19 @@ conteúdo da área de transferência para a lixeira?|,
 		lastUpdated => 1080300290
 	},
 
-	'900' => {
-		message => q|Gerenciar temas.|,
-		lastUpdated => 1080298013
-	},
-
 	'1016' => {
 		message => q|Respostas|,
 		lastUpdated => 1080082962
 	},
 
+	'help' => {
+		message => q||,
+		lastUpdated => 
+	},
+
 	'318' => {
-		message => q|Identidade <a href="http://www.aol.com/aim/homenew.adp" target="_blank">AIM</a>|,
-		lastUpdated => 1080210201
+		message => q|Id <a href="%22http://www.aol.com/aim/homenew.adp%22" target="&quot;_blank&quot;">AIM</a>|,
+		lastUpdated => 1202602691
 	},
 
 	'url extension' => {
@@ -4063,19 +3592,9 @@ conteúdo da área de transferência para a lixeira?|,
 		lastUpdated => 1096242087
 	},
 
-	'13' => {
-		message => q|Ver índice da ajuda.|,
-		lastUpdated => 1080085717
-	},
-
-	'799' => {
-		message => q|<i>Page Views</i>|,
-		lastUpdated => 1080232137
-	},
-
 	'105' => {
-		message => q|Layout|,
-		lastUpdated => 1080084097
+		message => q|Exibir|,
+		lastUpdated => 1202599865
 	},
 
 	'972' => {
@@ -4083,29 +3602,24 @@ conteúdo da área de transferência para a lixeira?|,
 		lastUpdated => 1080297659
 	},
 
-	'925' => {
-		message => q|Há outra versão deste tema instalada no sistema. É preciso removê-la antes de instalar esta versão.|,
-		lastUpdated => 1080298474
+	'pagination.pageLoop.upTo10' => {
+		message => q||,
+		lastUpdated => 
 	},
 
-	'840' => {
+	'settings groupIdAdminCron hoverHelp' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'databases' => {
 		message => q||,
 		lastUpdated => 
 	},
 
 	'146' => {
-		message => q|Sessões Ativas|,
-		lastUpdated => 1080085969
-	},
-
-	'1042' => {
-		message => q|Mensagens Por Página|,
-		lastUpdated => 1080083866
-	},
-
-	'408' => {
-		message => q|Gerenciar Raízes|,
-		lastUpdated => 1080210938
+		message => q|Sess&otilde;es Ativas|,
+		lastUpdated => 1202602229
 	},
 
 	'38' => {
@@ -4113,39 +3627,29 @@ conteúdo da área de transferência para a lixeira?|,
 		lastUpdated => 1080236011
 	},
 
-	'356' => {
-		message => q|Modelo|,
-		lastUpdated => 1080209851
-	},
-
-	'802' => {
-		message => q|O WebGUI não está registrando estatísticas de páginas atualmente. Esse recurso pode ser habilitado nas configurações do site.|,
-		lastUpdated => 1080302646
-	},
-
-	'4' => {
-		message => q|Gerenciar configurações.|,
-		lastUpdated => 1080235414
-	},
-
-	'metadata edit property body' => {
+	'993 description' => {
 		message => q||,
 		lastUpdated => 
 	},
 
-	'528' => {
-		message => q|Nome do Modelo|,
-		lastUpdated => 1080222867
+	'pagination.isFirstPage' => {
+		message => q||,
+		lastUpdated => 
 	},
 
 	'164' => {
-		message => q|Método de Autenticação|,
-		lastUpdated => 1080301003
+		message => q|M&eacute;todo de Autentica&ccedil;&atilde;o|,
+		lastUpdated => 1202602628
 	},
 
 	'807' => {
 		message => q|Gerenciar grupos neste grupo.|,
 		lastUpdated => 1080233362
+	},
+
+	'settings groupIdAdminActiveSessions hoverHelp' => {
+		message => q||,
+		lastUpdated => 
 	},
 
 	'945' => {

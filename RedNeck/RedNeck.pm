@@ -5,8 +5,8 @@ use strict;
 our $LANGUAGE = {
 	label => 'Red Neck',
 	toolbar => 'bullet',
-	languageAbbreviation => 'en',
-	locale => 'US',
+	languageAbbreviation => 'rn',
+	locale => 'pl',
 };
 
 sub makeUrlCompliant {
@@ -19,6 +19,9 @@ $value =~ s/\.\$//;
 $value =~ s/[^A-Za-z0-9\-\.\_\/]//g;
 $value =~ s/^\///;
 $value =~ s/\/\//\//g;
+$value =~ s//_/g;
+
+
 ##<-- end transliteration -->##
 
  	    $value =~ s/\s+$//;                     #removes trailing whitespace
