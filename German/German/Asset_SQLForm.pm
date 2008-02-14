@@ -1,12 +1,13 @@
 package WebGUI::i18n::German::Asset_SQLForm;
 
+
 our $I18N = {
-	'' => {
+	'ef summary length' => {
 		message => q||,
 		lastUpdated => 
 	},
 
-	'ef summary length' => {
+	'' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -26,17 +27,12 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'edit field type description' => {
+	'change field warning' => {
 		message => q||,
 		lastUpdated => 
 	},
 
 	'superSearch.label' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'change field warning' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -52,11 +48,6 @@ our $I18N = {
 	},
 
 	'showFieldsDefined' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'edit field description' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -81,22 +72,22 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'record.updateDate' => {
-		message => q||,
-		lastUpdated => 
-	},
-
 	'er regex' => {
 		message => q||,
 		lastUpdated => 
 	},
 
-	's purge' => {
+	'record.updateDate' => {
 		message => q||,
 		lastUpdated => 
 	},
 
 	'ef join values description' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	's purge' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -256,11 +247,6 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'sqlform description' => {
-		message => q||,
-		lastUpdated => 
-	},
-
 	'manage field types' => {
 		message => q||,
 		lastUpdated => 
@@ -369,16 +355,6 @@ our $I18N = {
 	'ef required description' => {
 		message => q||,
 		lastUpdated => 
-	},
-
-	'search template help' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'sql form asset template variables body' => {
-		message => q|Jedes Asset bietet ihren Templates einen Satz an Variablen, die auf den Asset Eigenschaften basieren. Einige dieser Variablen k&ouml;nnen n&uuml;tzlich sein, andere nicht.|,
-		lastUpdated => 1179919984
 	},
 
 	'_csf normal and trash' => {
@@ -542,11 +518,6 @@ our $I18N = {
 	},
 
 	'header.sort.url' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'edit sqlform' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -966,11 +937,6 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'edit template help' => {
-		message => q||,
-		lastUpdated => 
-	},
-
 	's mode' => {
 		message => q||,
 		lastUpdated => 
@@ -1121,11 +1087,6 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'advanced search template help body' => {
-		message => q||,
-		lastUpdated => 
-	},
-
 	'ef required' => {
 		message => q||,
 		lastUpdated => 
@@ -1231,11 +1192,6 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'edit regex description' => {
-		message => q||,
-		lastUpdated => 
-	},
-
 	'ef regex' => {
 		message => q||,
 		lastUpdated => 
@@ -1281,12 +1237,12 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'searchForm' => {
+	'field.searchForm1' => {
 		message => q||,
 		lastUpdated => 
 	},
 
-	'field.searchForm1' => {
+	'searchForm' => {
 		message => q||,
 		lastUpdated => 
 	},

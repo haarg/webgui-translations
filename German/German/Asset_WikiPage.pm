@@ -1,5 +1,6 @@
 package WebGUI::i18n::German::Asset_WikiPage;
 
+
 our $I18N = {
 	'history actionTaken' => {
 		message => q|Die in dieser Revision ausgef&uuml;hrte Aktion, meistens "Bearbeitet".|,
@@ -16,9 +17,9 @@ our $I18N = {
 		lastUpdated => 1180589735
 	},
 
-	'history date' => {
-		message => q||,
-		lastUpdated => 
+	'assetName' => {
+		message => q|Wiki Seite|,
+		lastUpdated => 1180589608
 	},
 
 	'viewLabel variable' => {
@@ -26,9 +27,9 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'assetName' => {
-		message => q|Wiki Seite|,
-		lastUpdated => 1180589608
+	'history date' => {
+		message => q||,
+		lastUpdated => 
 	},
 
 	'deleteConfirmation' => {
@@ -46,9 +47,9 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'delete confirmation' => {
-		message => q|Diese Revision l&ouml;schen?|,
-		lastUpdated => 1180589851
+	'recentChangesUrl' => {
+		message => q||,
+		lastUpdated => 
 	},
 
 	'history body' => {
@@ -56,9 +57,9 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'recentChangesUrl' => {
-		message => q||,
-		lastUpdated => 
+	'delete confirmation' => {
+		message => q|Diese Revision l&ouml;schen?|,
+		lastUpdated => 1180589851
 	},
 
 	'historyLabel variable' => {
@@ -81,9 +82,9 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'actionTakenBy' => {
-		message => q|Die ID des Benutzers, der die Seite zuletzt bearbeitet hat.|,
-		lastUpdated => 1180589552
+	'attachmentLabel' => {
+		message => q|Anh&auml;nge|,
+		lastUpdated => 1180589632
 	},
 
 	'mostPopularLabel variable' => {
@@ -91,19 +92,19 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'attachmentLabel' => {
-		message => q|Anh&auml;nge|,
-		lastUpdated => 1180589632
-	},
-
-	'deleteLabel variable' => {
-		message => q|Internaltionalisiertes Label f&uuml;r deleteUrl.|,
-		lastUpdated => 1180589917
+	'actionTakenBy' => {
+		message => q|Die ID des Benutzers, der die Seite zuletzt bearbeitet hat.|,
+		lastUpdated => 1180589552
 	},
 
 	'formFooter' => {
 		message => q|HTML Kode f&uuml;r den Abschluss des Bearbeiten Seite Formulars.|,
 		lastUpdated => 1180590118
+	},
+
+	'deleteLabel variable' => {
+		message => q|Internaltionalisiertes Label f&uuml;r deleteUrl.|,
+		lastUpdated => 1180589917
 	},
 
 	'contentLabel variable' => {
@@ -116,12 +117,12 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'storageId' => {
+	'protectQuestionLabel' => {
 		message => q||,
 		lastUpdated => 
 	},
 
-	'protectQuestionLabel' => {
+	'storageId' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -146,6 +147,11 @@ our $I18N = {
 		lastUpdated => 1180590139
 	},
 
+	'historyUrl' => {
+		message => q||,
+		lastUpdated => 
+	},
+
 	'viewLabel' => {
 		message => q||,
 		lastUpdated => 
@@ -161,14 +167,9 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'historyUrl' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'formProtect' => {
-		message => q|HTML Kode f&uuml;r einen "Checkbutton", um festzulegen, ob eine Seite gesch&uuml;tzt sein soll oder nicht. Gesch&uuml;tzte Seiten k&ouml;nnen nur von Benutzern mit administrativen Rechten ge&auml;ndert werden.|,
-		lastUpdated => 1180590214
+	'deleteUrl' => {
+		message => q|URL zum l&ouml;schen dieser Seite.|,
+		lastUpdated => 1180589933
 	},
 
 	'canAdminister' => {
@@ -176,14 +177,9 @@ our $I18N = {
 		lastUpdated => 1180589691
 	},
 
-	'deleteUrl' => {
-		message => q|URL zum l&ouml;schen dieser Seite.|,
-		lastUpdated => 1180589933
-	},
-
-	'add/edit body' => {
-		message => q||,
-		lastUpdated => 
+	'formProtect' => {
+		message => q|HTML Kode f&uuml;r einen "Checkbutton", um festzulegen, ob eine Seite gesch&uuml;tzt sein soll oder nicht. Gesch&uuml;tzte Seiten k&ouml;nnen nur von Benutzern mit administrativen Rechten ge&auml;ndert werden.|,
+		lastUpdated => 1180590214
 	},
 
 	'views' => {
@@ -196,12 +192,17 @@ our $I18N = {
 		lastUpdated => 
 	},
 
+	'page received' => {
+		message => q||,
+		lastUpdated => 
+	},
+
 	'delete page confirmation' => {
 		message => q|Diese Wiki Seite l&ouml;schen?|,
 		lastUpdated => 1180589864
 	},
 
-	'page received' => {
+	'searchLabel variable' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -211,9 +212,9 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'searchLabel variable' => {
-		message => q||,
-		lastUpdated => 
+	'formTitle' => {
+		message => q|HTML Kode f&uuml;r ein Formular zur Eingabe oder &Auml;nderung des Titels einer Seite.|,
+		lastUpdated => 1180617134
 	},
 
 	'content variable' => {
@@ -221,22 +222,17 @@ our $I18N = {
 		lastUpdated => 1180589812
 	},
 
-	'formTitle' => {
-		message => q|HTML Kode f&uuml;r ein Formular zur Eingabe oder &Auml;nderung des Titels einer Seite.|,
-		lastUpdated => 1180617134
-	},
-
 	'wikiHomeUrl' => {
 		message => q||,
 		lastUpdated => 
 	},
 
-	'vars title' => {
+	'recentChangesLabel' => {
 		message => q||,
 		lastUpdated => 
 	},
 
-	'recentChangesLabel' => {
+	'vars title' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -251,12 +247,12 @@ our $I18N = {
 		lastUpdated => 1180589602
 	},
 
-	'isNew' => {
+	'view title' => {
 		message => q||,
 		lastUpdated => 
 	},
 
-	'view title' => {
+	'isNew' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -266,17 +262,12 @@ our $I18N = {
 		lastUpdated => 1180590079
 	},
 
-	'history toolbar' => {
-		message => q||,
-		lastUpdated => 
-	},
-
 	'titleLabel' => {
 		message => q||,
 		lastUpdated => 
 	},
 
-	'history interval' => {
+	'history toolbar' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -286,12 +277,17 @@ our $I18N = {
 		lastUpdated => 1180590028
 	},
 
-	'protectQuestionLabel variable' => {
+	'history interval' => {
 		message => q||,
 		lastUpdated => 
 	},
 
 	'view body' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'protectQuestionLabel variable' => {
 		message => q||,
 		lastUpdated => 
 	},

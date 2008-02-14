@@ -1,17 +1,13 @@
 package WebGUI::i18n::Croatian::Commerce;
 
-our $I18N = {
-	'transaction error' => {
-		message => q||,
-		lastUpdated => 
-	},
 
+our $I18N = {
 	'no payment gateway' => {
 		message => q||,
 		lastUpdated => 
 	},
 
-	'change payment gateway' => {
+	'transaction error' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -21,12 +17,12 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'form' => {
+	'change payment gateway' => {
 		message => q||,
 		lastUpdated => 
 	},
 
-	'failed payment plugins' => {
+	'form' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -36,12 +32,12 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'checkout select shipping template' => {
+	'failed payment plugins' => {
 		message => q||,
 		lastUpdated => 
 	},
 
-	'change shipping method' => {
+	'checkout select shipping template' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -51,7 +47,7 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'help manage commerce title' => {
+	'change shipping method' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -61,7 +57,7 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'no shipping methods available' => {
+	'help cancel checkout template title' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -71,7 +67,7 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'help cancel checkout template title' => {
+	'no shipping methods available' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -96,7 +92,7 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'select payment gateway' => {
+	'transaction error template description' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -106,12 +102,7 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'transaction error template description' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'help manage pending transactions body' => {
+	'select payment gateway' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -126,12 +117,12 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'enable sales tax' => {
+	'shipping plugin label description' => {
 		message => q||,
 		lastUpdated => 
 	},
 
-	'shipping plugin label description' => {
+	'enable sales tax' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -141,12 +132,12 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'normalItemLoop' => {
+	'monthly' => {
 		message => q||,
 		lastUpdated => 
 	},
 
-	'monthly' => {
+	'normalItemLoop' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -176,17 +167,12 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'formSubmit' => {
-		message => q||,
-		lastUpdated => 
-	},
-
 	'help checkout error template title' => {
 		message => q||,
 		lastUpdated => 
 	},
 
-	'ok' => {
+	'formSubmit' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -196,17 +182,12 @@ our $I18N = {
 		lastUpdated => 
 	},
 
+	'ok' => {
+		message => q||,
+		lastUpdated => 
+	},
+
 	'quarterly' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'gateway message' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'list pending transactions' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -216,12 +197,22 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'error' => {
+	'list pending transactions' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'gateway message' => {
 		message => q||,
 		lastUpdated => 
 	},
 
 	'daily report email description' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'error' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -236,12 +227,12 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'shopping cart empty' => {
+	'namespace' => {
 		message => q||,
 		lastUpdated => 
 	},
 
-	'namespace' => {
+	'shopping cart empty' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -251,22 +242,12 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'view shopping cart template' => {
-		message => q||,
-		lastUpdated => 
-	},
-
 	'help checkout confirm template title' => {
 		message => q||,
 		lastUpdated => 
 	},
 
-	'checkout' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'no payment plugins selected' => {
+	'view shopping cart template' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -276,12 +257,17 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'pluginsAvailable' => {
+	'no payment plugins selected' => {
 		message => q||,
 		lastUpdated => 
 	},
 
-	'enable sales tax description' => {
+	'checkout' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'pluginsAvailable' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -291,7 +277,7 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'select shipping method' => {
+	'enable sales tax description' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -301,17 +287,7 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'payment gateway select' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'recurringItemLoop' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'status codes information' => {
+	'select shipping method' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -321,12 +297,27 @@ our $I18N = {
 		lastUpdated => 
 	},
 
+	'status codes information' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'recurringItemLoop' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'payment gateway select' => {
+		message => q||,
+		lastUpdated => 
+	},
+
 	'transaction error template' => {
 		message => q||,
 		lastUpdated => 
 	},
 
-	'checkout confirm title' => {
+	'transaction error title' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -336,7 +327,7 @@ our $I18N = {
 		lastUpdated => 1168622810
 	},
 
-	'transaction error title' => {
+	'checkout confirm title' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -351,17 +342,12 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'help checkout confirm template body' => {
+	'totalSalesTax' => {
 		message => q||,
 		lastUpdated => 
 	},
 
 	'init date' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'totalSalesTax' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -376,12 +362,12 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'view shopping cart' => {
+	'totalPrice' => {
 		message => q||,
 		lastUpdated => 
 	},
 
-	'totalPrice' => {
+	'view shopping cart' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -401,27 +387,12 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'shipping tab' => {
-		message => q||,
-		lastUpdated => 
-	},
-
 	'formFooter' => {
 		message => q||,
 		lastUpdated => 
 	},
 
-	'shipping plugin label' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'help checkout error template body' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'confirm checkout template' => {
+	'shipping tab' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -431,7 +402,12 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'no shipping plugins selected' => {
+	'confirm checkout template' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'shipping plugin label' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -441,22 +417,22 @@ our $I18N = {
 		lastUpdated => 
 	},
 
+	'no shipping plugins selected' => {
+		message => q||,
+		lastUpdated => 
+	},
+
 	'pluginLoop' => {
 		message => q||,
 		lastUpdated => 
 	},
 
-	'help select payment template body' => {
+	'gateway' => {
 		message => q||,
 		lastUpdated => 
 	},
 
 	'status' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'gateway' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -476,12 +452,12 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'topicName' => {
+	'salesTaxRate' => {
 		message => q||,
 		lastUpdated => 
 	},
 
-	'salesTaxRate' => {
+	'topicName' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -491,7 +467,7 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'help manage commerce body' => {
+	'purchase history template description' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -501,12 +477,7 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'purchase history template description' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'help manage pending transactions title' => {
+	'quantity' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -516,22 +487,12 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'quantity' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'help cancel checkout template body' => {
+	'message' => {
 		message => q||,
 		lastUpdated => 
 	},
 
 	'daily report email' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'message' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -546,12 +507,12 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'recurringItems' => {
+	'commerce settings' => {
 		message => q||,
 		lastUpdated => 
 	},
 
-	'commerce settings' => {
+	'recurringItems' => {
 		message => q||,
 		lastUpdated => 
 	},

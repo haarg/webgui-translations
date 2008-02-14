@@ -1,14 +1,15 @@
 package WebGUI::i18n::Arabic::Asset_Survey;
 
-our $I18N = {
-	'84 description' => {
-		message => q|اقصى عدد مرات ممكن ان يحاول المستخدم الوصول الى الاجابة الصحيحة فيها. اعتياديا يكون 1<br />|,
-		lastUpdated => 1177274645
-	},
 
+our $I18N = {
 	'32' => {
 		message => q|خطأ|,
 		lastUpdated => 1177273001
+	},
+
+	'84 description' => {
+		message => q|اقصى عدد مرات ممكن ان يحاول المستخدم الوصول الى الاجابة الصحيحة فيها. اعتياديا يكون 1<br />|,
+		lastUpdated => 1177274645
 	},
 
 	'90' => {
@@ -26,14 +27,14 @@ our $I18N = {
 		lastUpdated => 1177272312
 	},
 
-	'export.questions.label' => {
-		message => q|العلامة الاعتيادية export.questions.url|,
-		lastUpdated => 1177275613
-	},
-
 	'user.isFirstResponse' => {
 		message => q|علامة تحدد ما اذا كان هذا هو الرد الاول للمستخدم<br />|,
 		lastUpdated => 1177772638
+	},
+
+	'export.questions.label' => {
+		message => q|العلامة الاعتيادية export.questions.url|,
+		lastUpdated => 1177275613
 	},
 
 	'questionsPerPage' => {
@@ -61,14 +62,14 @@ our $I18N = {
 		lastUpdated => 1177447745
 	},
 
-	'export.responses.label' => {
-		message => q|العلامة الدولية لـexport.responses.url|,
-		lastUpdated => 1177275626
-	},
-
 	'55' => {
 		message => q|اعرض الردود<br />|,
 		lastUpdated => 1177273590
+	},
+
+	'export.responses.label' => {
+		message => q|العلامة الدولية لـexport.responses.url|,
+		lastUpdated => 1177275626
 	},
 
 	'84' => {
@@ -81,19 +82,14 @@ our $I18N = {
 		lastUpdated => 1177273603
 	},
 
-	'89' => {
-		message => q|متغيرات النموذج الاتية متوفرة على الاستطلاع<br />|,
-		lastUpdated => 1177274684
+	'title' => {
+		message => q|العنوان الاعتيادي للتقرير<br />|,
+		lastUpdated => 1177772553
 	},
 
 	'answer.comment' => {
 		message => q|تعليق|,
 		lastUpdated => 1177274737
-	},
-
-	'title' => {
-		message => q|العنوان الاعتيادي للتقرير<br />|,
-		lastUpdated => 1177772553
 	},
 
 	'31' => {
@@ -176,9 +172,9 @@ our $I18N = {
 		lastUpdated => 1177272267
 	},
 
-	'1091' => {
-		message => q|نموذج تقرير النظرة العامة الاحصائية<br />|,
-		lastUpdated => 1177272207
+	'101' => {
+		message => q|اضف مساحة نص للاجابة<br />|,
+		lastUpdated => 1177272134
 	},
 
 	'73' => {
@@ -186,9 +182,9 @@ our $I18N = {
 		lastUpdated => 1177273706
 	},
 
-	'101' => {
-		message => q|اضف مساحة نص للاجابة<br />|,
-		lastUpdated => 1177272134
+	'1091' => {
+		message => q|نموذج تقرير النظرة العامة الاحصائية<br />|,
+		lastUpdated => 1177272207
 	},
 
 	'76' => {
@@ -196,19 +192,14 @@ our $I18N = {
 		lastUpdated => 1177274568
 	},
 
-	'62' => {
-		message => q|صدر الاجابات<br />|,
-		lastUpdated => 1177273728
-	},
-
 	'quiz.noprivs.label' => {
 		message => q|رسالة تخبر المستخدم ان ليس له الصلاحيات الكافية لأخذ هذا السؤال<br />|,
 		lastUpdated => 1177448738
 	},
 
-	'survey asset template variables body' => {
-		message => q|كل اصل يوفر مجموعة من المتغيرات لاغلب النماذج بناء على الخواص الداخلية للاصل. بعضها من الممكن ان يكون مفيدا والبعض الاخر قد لا يكون.<br />|,
-		lastUpdated => 1177772408
+	'62' => {
+		message => q|صدر الاجابات<br />|,
+		lastUpdated => 1177273728
 	},
 
 	'answer.response.percent' => {
@@ -266,16 +257,6 @@ our $I18N = {
 		lastUpdated => 1177272154
 	},
 
-	'1090' => {
-		message => q|متغيرات النموذج الاتية متوفرة لعرض رد الفعل الفردي.<br />|,
-		lastUpdated => 1177272200
-	},
-
-	'question add/edit body' => {
-		message => q|يمدك وبجيكت ويب جويلاستطلاع بانواع كثيرة من الاسئلة, مثل متعددة الاختيارات, الاسئلة ذات العلامات مثل اسئلة الصح والخطا, والعديد من الاجابات الطويلة. يمكن ايضا تغيير ترتيب الاسئلة بعد ادخالهم.<br />|,
-		lastUpdated => 1177448166
-	},
-
 	'question.response' => {
 		message => q|رد المستخدم لهذا السؤال<br />|,
 		lastUpdated => 1177448390
@@ -326,14 +307,14 @@ our $I18N = {
 		lastUpdated => 1177273538
 	},
 
-	'8' => {
-		message => q|ترتيب الاسئلة<br />|,
-		lastUpdated => 1177274591
-	},
-
 	'section.edit.sectionName' => {
 		message => q|اسم هذا القسم من الاسئلة<br />|,
 		lastUpdated => 1177772203
+	},
+
+	'8' => {
+		message => q|ترتيب الاسئلة<br />|,
+		lastUpdated => 1177274591
 	},
 
 	'start.newresponse.label' => {
@@ -416,11 +397,6 @@ our $I18N = {
 		lastUpdated => 1177273633
 	},
 
-	'answer add/edit body' => {
-		message => q|بناء على نوع السؤال, من الممكن ان تدخل اكثر من اجابة لكل سؤال.<br />|,
-		lastUpdated => 1177274730
-	},
-
 	'end.date.human' => {
 		message => q|العرض البشري للتاريخ الذي اتم فيه المستخدم الرد<br />|,
 		lastUpdated => 1177275568
@@ -459,11 +435,6 @@ our $I18N = {
 	'answer.isCorrect' => {
 		message => q|علامة تحدد ما اذا كانت الاجابة تحمل علامة صحيحة<br />|,
 		lastUpdated => 1177274743
-	},
-
-	'91' => {
-		message => q|متغيرات النمذج الاتية متوفرة في كل نماذج الاستطلاع|,
-		lastUpdated => 1177274704
 	},
 
 	'overview template description' => {
@@ -571,11 +542,6 @@ our $I18N = {
 		lastUpdated => 1177275595
 	},
 
-	'1092' => {
-		message => q|المتغيرات التالية متوفرة في هذا النموذج:|,
-		lastUpdated => 1177272213
-	},
-
 	'export.responses.url' => {
 		message => q|الرابط لعمل tab delimited file يحتوي على كل الردود على الاسئلة في هذا الاستطلاع<br />|,
 		lastUpdated => 1177275632
@@ -656,14 +622,14 @@ our $I18N = {
 		lastUpdated => 1177273067
 	},
 
-	'46' => {
-		message => q|شكرا على اكمالك للاستطلاع<br />|,
-		lastUpdated => 1177273532
-	},
-
 	'section.edit.id' => {
 		message => q|هوية فريدة لهذا القسم<br />|,
 		lastUpdated => 1177772274
+	},
+
+	'46' => {
+		message => q|شكرا على اكمالك للاستطلاع<br />|,
+		lastUpdated => 1177273532
 	},
 
 	'start.date.label' => {
@@ -676,14 +642,14 @@ our $I18N = {
 		lastUpdated => 1177772201
 	},
 
-	'6' => {
-		message => q|عشوائي|,
-		lastUpdated => 1177273622
-	},
-
 	'report.overview.url' => {
 		message => q|الرابط لعرض النظرة العامة الاحصائية لهذا الاستطلاع|,
 		lastUpdated => 1177772257
+	},
+
+	'6' => {
+		message => q|عشوائي|,
+		lastUpdated => 1177273622
 	},
 
 	'response.percent.label' => {
@@ -691,14 +657,14 @@ our $I18N = {
 		lastUpdated => 1177772227
 	},
 
-	'start.date.human' => {
-		message => q|العرض البشري للتاريخ الذي بدأ فيه المستخدم في الرد<br />|,
-		lastUpdated => 1177772191
-	},
-
 	'36' => {
 		message => q|غير موافق بعض الشيء<br />|,
 		lastUpdated => 1177273025
+	},
+
+	'start.date.human' => {
+		message => q|العرض البشري للتاريخ الذي بدأ فيه المستخدم في الرد<br />|,
+		lastUpdated => 1177772191
 	},
 
 	'51' => {
@@ -1146,11 +1112,6 @@ our $I18N = {
 		lastUpdated => 1177274677
 	},
 
-	'1088' => {
-		message => q|متغيرات النموذج الاتية متوفرة على تقرير Gradebook للاستطلاع|,
-		lastUpdated => 1177272189
-	},
-
 	'question.answer.field' => {
 		message => q|مجال النموذج المحتوي على الاجابات الممكنة لهذا السؤال<br />|,
 		lastUpdated => 1177448067
@@ -1236,11 +1197,6 @@ our $I18N = {
 		lastUpdated => 1177274651
 	},
 
-	'3' => {
-		message => q|&nbsp;استطلاع, اضف/عدل|,
-		lastUpdated => 1177272983
-	},
-
 	'9' => {
 		message => q|اشتطلاع|,
 		lastUpdated => 1177274690
@@ -1264,11 +1220,6 @@ our $I18N = {
 	'what next description' => {
 		message => q|بعد عمل استطلاع جديد, من الممكن ان تبدأ اضافة الاسئلة او ان تذهب الى الصفحة التي اضيف فيها الاستطلاع<br /> |,
 		lastUpdated => 1177772758
-	},
-
-	'4' => {
-		message => q|<p>الاستطلاعات تسمح لك بجمع المعلومات من مستخدميك. في حالة استطلاعات ويب جوي, يمكنك ايضا استخدامها لاختبار معرفة مستخدميك</p><p>الاستطلاعات وبجيكتس و اصول, لذا فهي تحمل خواص الاصول و الوبجيكتس, هذه بعض الخواص الفريدة:&nbsp;</p>|,
-		lastUpdated => 1177273048
 	},
 
 	'34' => {

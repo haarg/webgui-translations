@@ -1,24 +1,20 @@
 package WebGUI::i18n::Dutch::Asset_MessageBoard;
 
+
 our $I18N = {
 	'forum.lastpost.user.isVisitor' => {
 		message => q|Bepaald of het laatste bericht is gepost door een bezoeker.  |,
 		lastUpdated => 1149862306
 	},
 
-	'71' => {
-		message => q|Een berichtenbord kan meerdere fora bevatten. Een berichtenbord kan gebruikt worden voor het samenwerken met een grote groep gebruikers via internet of een intranet.  |,
-		lastUpdated => 1189366313
+	'forum.rating' => {
+		message => q|De gemiddelde waardering van alle berichten in dit forum.|,
+		lastUpdated => 1149862652
 	},
 
 	'forum.user.canView' => {
 		message => q|Bepaald of de gebruiker het forum kan bekijken. |,
 		lastUpdated => 1149862803
-	},
-
-	'forum.rating' => {
-		message => q|De gemiddelde waardering van alle berichten in dit forum.|,
-		lastUpdated => 1149862652
 	},
 
 	'assetName' => {
@@ -41,14 +37,14 @@ our $I18N = {
 		lastUpdated => 1149861179
 	},
 
-	'forum.lastpost.user.alias' => {
-		message => q|De alias van de gebruiker van het laatste bericht. |,
-		lastUpdated => 1149862339
-	},
-
 	'forum.controls' => {
 		message => q|De werkbalk voor het wijzigen van het forum. |,
 		lastUpdated => 1149861214
+	},
+
+	'forum.lastpost.user.alias' => {
+		message => q|De alias van de gebruiker van het laatste bericht. |,
+		lastUpdated => 1149862339
 	},
 
 	'74' => {
@@ -76,11 +72,6 @@ our $I18N = {
 		lastUpdated => 1149863646
 	},
 
-	'61' => {
-		message => q|Berichtenbord, Toevoegen/wijzigen|,
-		lastUpdated => 1149860767
-	},
-
 	'areMultipleForums' => {
 		message => q|Bepaald of er meerdere fora zijn.|,
 		lastUpdated => 1149861028
@@ -96,14 +87,14 @@ our $I18N = {
 		lastUpdated => 1149862447
 	},
 
-	'message board asset template variables title' => {
-		message => q|Berichtenbord (Message Board) template variabelen|,
-		lastUpdated => 1189366384
-	},
-
 	'forum.views' => {
 		message => q|het totaal van het aantal keer dat alle berichten in dit forum zijn gelezen. |,
 		lastUpdated => 1149863575
+	},
+
+	'message board asset template variables title' => {
+		message => q|Berichtenbord (Message Board) template variabelen|,
+		lastUpdated => 1189366384
 	},
 
 	'forum.lastpost.url' => {
@@ -116,19 +107,19 @@ our $I18N = {
 		lastUpdated => 1149862418
 	},
 
-	'title' => {
-		message => q|Titel|,
-		lastUpdated => 1149863761
-	},
-
 	'forum.count' => {
 		message => q|Het nummer van het forum.|,
 		lastUpdated => 1149861238
 	},
 
-	'forum.lastpost.time' => {
-		message => q|De tijd van het laatste bericht in dit forum. |,
-		lastUpdated => 1149862366
+	'title' => {
+		message => q|Titel|,
+		lastUpdated => 1149863761
+	},
+
+	'forum_loop' => {
+		message => q|Een loop met de data van alle fora in het berichtenbord.  |,
+		lastUpdated => 1149863605
 	},
 
 	'forum.threads' => {
@@ -136,9 +127,9 @@ our $I18N = {
 		lastUpdated => 1149862720
 	},
 
-	'forum_loop' => {
-		message => q|Een loop met de data van alle fora in het berichtenbord.  |,
-		lastUpdated => 1149863605
+	'forum.lastpost.time' => {
+		message => q|De tijd van het laatste bericht in dit forum. |,
+		lastUpdated => 1149862366
 	},
 
 	'title.label' => {
@@ -171,24 +162,24 @@ our $I18N = {
 		lastUpdated => 1189366360
 	},
 
-	'rating' => {
-		message => q|Waardering|,
-		lastUpdated => 1149863655
-	},
-
 	'forum.url' => {
 		message => q|De url om dit forum te bekijken. |,
 		lastUpdated => 1149862750
 	},
 
-	'lastpost' => {
-		message => q|Laatste bericht|,
-		lastUpdated => 1149863617
+	'rating' => {
+		message => q|Waardering|,
+		lastUpdated => 1149863655
 	},
 
 	'views' => {
 		message => q|Bekeken|,
 		lastUpdated => 1149863783
+	},
+
+	'lastpost' => {
+		message => q|Laatste bericht|,
+		lastUpdated => 1149863617
 	},
 
 	'default.listing' => {
@@ -226,14 +217,9 @@ our $I18N = {
 		lastUpdated => 1149862508
 	},
 
-	'threads' => {
-		message => q|Berichten|,
-		lastUpdated => 1149863737
-	},
-
-	'forum.user.canPost' => {
-		message => q|Bepaald of de gebruiker rechten heeft om berichten te plaatsen.|,
-		lastUpdated => 1149862771
+	'forum.lastpost.user.id' => {
+		message => q|Het unieke nummer van de gebruiker van het laatste bericht.|,
+		lastUpdated => 1149862321
 	},
 
 	'views.label' => {
@@ -241,9 +227,14 @@ our $I18N = {
 		lastUpdated => 1149863832
 	},
 
-	'forum.lastpost.user.id' => {
-		message => q|Het unieke nummer van de gebruiker van het laatste bericht.|,
-		lastUpdated => 1149862321
+	'forum.user.canPost' => {
+		message => q|Bepaald of de gebruiker rechten heeft om berichten te plaatsen.|,
+		lastUpdated => 1149862771
+	},
+
+	'threads' => {
+		message => q|Berichten|,
+		lastUpdated => 1149863737
 	},
 
 	'replies.label' => {
@@ -251,14 +242,14 @@ our $I18N = {
 		lastUpdated => 1149863728
 	},
 
-	'73' => {
-		message => q|Berichtenbord sjabloon|,
-		lastUpdated => 1149860910
-	},
-
 	'visitor cache timeout help' => {
 		message => q|Omdat de asset voor alle bezoekers gelijk is kan de asset in de cache worden opgeslagen. Dit komt de snelheid ten goede. Hoe lang moet de asset in de cache worden opgeslagen? |,
 		lastUpdated => 1149863906
+	},
+
+	'73' => {
+		message => q|Berichtenbord sjabloon|,
+		lastUpdated => 1149860910
 	},
 
 	'76' => {

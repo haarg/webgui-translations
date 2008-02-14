@@ -1,5 +1,6 @@
 package WebGUI::i18n::Italian::Macro_EditableToggle;
 
+
 our $I18N = {
 	'516' => {
 		message => q|Abilita l&#39;amministrazione!|,
@@ -16,17 +17,12 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'517' => {
-		message => q||,
-		lastUpdated => 
-	},
-
 	'macroName' => {
 		message => q||,
 		lastUpdated => 
 	},
 
-	'editable toggle body' => {
+	'517' => {
 		message => q||,
 		lastUpdated => 
 	},

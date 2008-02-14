@@ -1,12 +1,8 @@
 package WebGUI::i18n::BrazilianPortuguese::Asset_FilePile;
 
+
 our $I18N = {
 	'upload files description' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'file pile add/edit body' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -16,12 +12,27 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'assetName' => {
+	'upload files' => {
+		message => q|Selecionar arquivos|,
+		lastUpdated => 1168971503
+	},
+
+	'872' => {
+		message => q|Quem pode visualizar?|,
+		lastUpdated => 1168971441
+	},
+
+	'108' => {
+		message => q|Dono|,
+		lastUpdated => 1168971406
+	},
+
+	'872 description' => {
 		message => q||,
 		lastUpdated => 
 	},
 
-	'file pile add/edit title' => {
+	'assetName' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -31,34 +42,14 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'940 description' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'upload files' => {
-		message => q|Selecionar arquivos|,
-		lastUpdated => 1168971503
-	},
-
-	'872 description' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'108' => {
-		message => q|Dono|,
-		lastUpdated => 1168971406
-	},
-
-	'872' => {
-		message => q|Quem pode visualizar?|,
-		lastUpdated => 1168971441
-	},
-
 	'871' => {
 		message => q|Quem pode editar?|,
 		lastUpdated => 1168971423
+	},
+
+	'940 description' => {
+		message => q||,
+		lastUpdated => 
 	},
 
 	'886' => {

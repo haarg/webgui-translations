@@ -1,14 +1,10 @@
 package WebGUI::i18n::Arabic::Asset_Thread;
 
+
 our $I18N = {
 	'user.isSubscribed' => {
 		message => q|شرط سيتحقق اذا كان المستخدم الحالي مشترك في الخيط.|,
 		lastUpdated => 1177060430
-	},
-
-	'layout.isThreaded' => {
-		message => q|شرط يحدد ما اذا كان النموذج الحالي مخيط|,
-		lastUpdated => 1177059107
 	},
 
 	'thread template title' => {
@@ -16,14 +12,19 @@ our $I18N = {
 		lastUpdated => 1177059256
 	},
 
-	'assetName' => {
-		message => q|خيط|,
-		lastUpdated => 1177056532
+	'layout.isThreaded' => {
+		message => q|شرط يحدد ما اذا كان النموذج الحالي مخيط|,
+		lastUpdated => 1177059107
 	},
 
 	'archive.url' => {
 		message => q|الرابط لوضع هذا الخيط في الارشيف|,
 		lastUpdated => 1177056525
+	},
+
+	'assetName' => {
+		message => q|خيط|,
+		lastUpdated => 1177056532
 	},
 
 	'replies' => {
@@ -71,11 +72,6 @@ our $I18N = {
 		lastUpdated => 1177060419
 	},
 
-	'thread template body' => {
-		message => q|المتغيرات التالية متوفرة على نموذج الخيط. بالاضافة الى ذلك, كل المتغيرات من نموذج الاضافات يمكن استخدامها. العلامات للروابط من اجل العمليات مثل unlock.url, stick.url توفرا العلامات التعاونية. متغيرات نموذج التصفيح متوفرة ايضا لعرض العديد من الصفحات للاضافات و الخيوط. |,
-		lastUpdated => 1177059232
-	},
-
 	'collaboration.description' => {
 		message => q|شرح النظام التعاوني الحاوي لهذه الاضافة.|,
 		lastUpdated => 1177056537
@@ -91,14 +87,14 @@ our $I18N = {
 		lastUpdated => 1177056602
 	},
 
-	'collaboration.url' => {
-		message => q|الرابط لاعادتك للنظام التعاوني الحاوي لهذه الاضافة|,
-		lastUpdated => 1177056548
-	},
-
 	'depth' => {
 		message => q|رقم يحدد عدد دورة  indent_loop|,
 		lastUpdated => 1177056553
+	},
+
+	'collaboration.url' => {
+		message => q|الرابط لاعادتك للنظام التعاوني الحاوي لهذه الاضافة|,
+		lastUpdated => 1177056548
 	},
 
 	'isSticky' => {
@@ -106,14 +102,14 @@ our $I18N = {
 		lastUpdated => 1177056614
 	},
 
-	'isLocked variable' => {
-		message => q|علامة ستتحقق اذا كان الخيط مغلقا|,
-		lastUpdated => 1177056609
-	},
-
 	'thumbsDown.icon.url' => {
 		message => q|الرابط الى علامة الابهام الى الاسفل.|,
 		lastUpdated => 1177059264
+	},
+
+	'isLocked variable' => {
+		message => q|علامة ستتحقق اذا كان الخيط مغلقا|,
+		lastUpdated => 1177056609
 	},
 
 	'user.isModerator' => {
@@ -156,9 +152,9 @@ our $I18N = {
 		lastUpdated => 1177059172
 	},
 
-	'subscriptionGroupId' => {
-		message => q|هوية المجموعة المحفوظة للمستخدمين المشتركين في هذا الخيط.|,
-		lastUpdated => 1177059198
+	'repliesAllowed' => {
+		message => q|شرط يحدد ما اذا كانت الردود مسموحة في هذا الخيط.|,
+		lastUpdated => 1177059160
 	},
 
 	'karmaScale' => {
@@ -166,14 +162,14 @@ our $I18N = {
 		lastUpdated => 1177056671
 	},
 
-	'repliesAllowed' => {
-		message => q|شرط يحدد ما اذا كانت الردود مسموحة في هذا الخيط.|,
-		lastUpdated => 1177059160
+	'subscriptionGroupId' => {
+		message => q|هوية المجموعة المحفوظة للمستخدمين المشتركين في هذا الخيط.|,
+		lastUpdated => 1177059198
 	},
 
-	'next.url' => {
-		message => q|الرابط ليأخذك الى الخيط التالي|,
-		lastUpdated => 1177059136
+	'post_loop' => {
+		message => q|دورة تحتوي كل الاضافات لهذا الخيط. كل اضافة في هذه الدورة تحتوي ايا على مجموعة من متغيرات النموذج الخاصة بها.|,
+		lastUpdated => 1177059143
 	},
 
 	'subscribe.url' => {
@@ -181,9 +177,9 @@ our $I18N = {
 		lastUpdated => 1177059191
 	},
 
-	'post_loop' => {
-		message => q|دورة تحتوي كل الاضافات لهذا الخيط. كل اضافة في هذه الدورة تحتوي ايا على مجموعة من متغيرات النموذج الخاصة بها.|,
-		lastUpdated => 1177059143
+	'next.url' => {
+		message => q|الرابط ليأخذك الى الخيط التالي|,
+		lastUpdated => 1177059136
 	},
 
 	'userProfile.url' => {
@@ -206,14 +202,14 @@ our $I18N = {
 		lastUpdated => 1177056687
 	},
 
-	'indent_loop' => {
-		message => q|دورة تجري depth مرات|,
-		lastUpdated => 1177056563
-	},
-
 	'user.canPost' => {
 		message => q|شرط يحدد ما اذا كان المتخدم الحالي قادرا على اضافة الاضافاة على الخيط|,
 		lastUpdated => 1177060414
+	},
+
+	'indent_loop' => {
+		message => q|دورة تجري depth مرات|,
+		lastUpdated => 1177056563
 	},
 
 	'search.url' => {
@@ -221,14 +217,14 @@ our $I18N = {
 		lastUpdated => 1177059166
 	},
 
-	'thread asset template title' => {
-		message => q|متغيرات نموذج اصل الخيط|,
-		lastUpdated => 1177059225
-	},
-
 	'karma' => {
 		message => q|يحدد كمية الكرما لهذا الخيط.|,
 		lastUpdated => 1177056634
+	},
+
+	'thread asset template title' => {
+		message => q|متغيرات نموذج اصل الخيط|,
+		lastUpdated => 1177059225
 	},
 
 	'depthX10' => {
@@ -246,24 +242,14 @@ our $I18N = {
 		lastUpdated => 1177059294
 	},
 
-	'isSticky variable' => {
-		message => q|علامة ستتحقق اذا تم ضبط الخيط على ان يكون لاصقا.|,
-		lastUpdated => 1177056709
-	},
-
 	'isArchived' => {
 		message => q|شرط يحدد ما اذا كان الخيط الحالي في الارشيف|,
 		lastUpdated => 1177056568
 	},
 
-	'layout.threaded.url' => {
-		message => q|الرابط لتغيير الشكل الخارجي للاضافات الموجودة في خيوط. هذا ضبط اعتيادي. سيتم عرض الاضافات واحدة في المرة.|,
-		lastUpdated => 1177059120
-	},
-
-	'karmaRank' => {
-		message => q|هذه هي الكرما مقسومة على مستوى الكرما.|,
-		lastUpdated => 1177056666
+	'isSticky variable' => {
+		message => q|علامة ستتحقق اذا تم ضبط الخيط على ان يكون لاصقا.|,
+		lastUpdated => 1177056709
 	},
 
 	'user.isVisitor' => {
@@ -271,9 +257,14 @@ our $I18N = {
 		lastUpdated => 1177060436
 	},
 
-	'thread asset template body' => {
-		message => q|المتغيرات التالية متوفرة في نموذج الخيط, اغلب هذه المتغيرات داخلية وليست مفيدة بشكل كبير.|,
-		lastUpdated => 1177059220
+	'karmaRank' => {
+		message => q|هذه هي الكرما مقسومة على مستوى الكرما.|,
+		lastUpdated => 1177056666
+	},
+
+	'layout.threaded.url' => {
+		message => q|الرابط لتغيير الشكل الخارجي للاضافات الموجودة في خيوط. هذا ضبط اعتيادي. سيتم عرض الاضافات واحدة في المرة.|,
+		lastUpdated => 1177059120
 	},
 
 };

@@ -1,5 +1,6 @@
 package WebGUI::i18n::German::Asset_Dashboard;
 
+
 our $I18N = {
 	'assets to hide' => {
 		message => q|Assets zum Verbergen|,
@@ -9,17 +10,6 @@ our $I18N = {
 	'assetName' => {
 		message => q|Dashboard|,
 		lastUpdated => 1164282567
-	},
-
-	'dashboard add/edit body' => {
-		message => q|Das Dashboard ist ein Container Asset, das sich wie ein Portal verh&auml;lt. Falls der Admin sich im Admin Modus befindet, bearbeitet er die Ansicht von Visitors (Standard Ansicht). Falls sich der Admin nicht im Admin Modus befindet, bearbeitet er seine pers&ouml;nliche Ansicht. Shortcuts sind der Hauptbestandteil eines Dashboards. Siehe auch Shortcut hinzuf&uuml;gen/bearbeiten Dokumentation f&uuml;r Details.<br>
-<strong>HINWEIS</strong>: Auf Grund von Einschr&auml;nkungen des Internet Explorers arbeitet das Dashboard nur eingeschr&auml;nkt mit XHTML. "Strict Compliance" aktiviert. Deshalb sollten ihre Style Templates f&uuml;r Dashboards nicht XHTML strict sein. Ein anderer Workaround ist, falls Sie XHTML strict verwenden, sicherzustellen, dass Sie das Dashboard nicht in einen div Tag integrieren, das eine Breite hat.|,
-		lastUpdated => 1180079089
-	},
-
-	'dashboard add/edit title' => {
-		message => q|Dashboard hinzuf&uuml;gen/bearbeiten|,
-		lastUpdated => 1180079102
 	},
 
 	'dashboard usersGroupId description' => {
@@ -32,6 +22,11 @@ our $I18N = {
 		lastUpdated => 1180079197
 	},
 
+	'dashboard usersGroupId field label' => {
+		message => q|Wer darf personalisieren?|,
+		lastUpdated => 1180079505
+	},
+
 	'assets to hide description' => {
 		message => q|Diese Liste ent&auml;lt ein Auswahlfeld f&uuml;r jedes Asset auf der Seite. W&auml;hlen Sie hier die Assets aus, die nicht auf der Seite dargestellt werden sollen.|,
 		lastUpdated => 1180078717
@@ -40,11 +35,6 @@ our $I18N = {
 	'dashboard template field label' => {
 		message => q|Dashboard Template|,
 		lastUpdated => 1180079239
-	},
-
-	'dashboard usersGroupId field label' => {
-		message => q|Wer darf personalisieren?|,
-		lastUpdated => 1180079505
 	},
 
 	'dashboard adminsGroupId description' => {

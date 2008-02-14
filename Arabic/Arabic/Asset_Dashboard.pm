@@ -1,5 +1,6 @@
 package WebGUI::i18n::Arabic::Asset_Dashboard;
 
+
 our $I18N = {
 	'assets to hide' => {
 		message => q|الاصول التي يجب ان تخفى<br />|,
@@ -9,16 +10,6 @@ our $I18N = {
 	'assetName' => {
 		message => q|لوحة القياس|,
 		lastUpdated => 1164209241
-	},
-
-	'dashboard add/edit body' => {
-		message => q|<p>لوحة القياس هي اصل حاوي يعمل كنافذة اليكترونية. عندما يكون في وضع التحكم, يكون مدير لوحة القياس حقيقيا يعدل رؤية الزائر. عندما لا تكون في وضع التحكم, يعدل رؤيتهم المخصصة. الاختصارات هي المصدر الرئيسي للعمل في لوحة القياس. انظر في توثيق الاختصار الخاص بالاضافة و التعديل للمزيد من المعلومات.</p><p align="&quot;right&quot;">ملحوظة: نظرا للحدود المفروضة في متصفح الانترنت لا تعمل اللوحة جيدا مع واقف الـXHTML. و بناء على هذا نوع الصفحات للوحة القياس يجب ان لا يكون مانعا للـXHTML كن متاكدا ان المتصفح الخاص بك لا يقيد اللوحة بعرض معين.&nbsp;</p><p>&nbsp;</p>|,
-		lastUpdated => 1168439893
-	},
-
-	'dashboard add/edit title' => {
-		message => q|اضافة/تعديل في لوحة القياس<br />|,
-		lastUpdated => 1164209692
 	},
 
 	'dashboard usersGroupId description' => {
@@ -31,6 +22,11 @@ our $I18N = {
 		lastUpdated => 1164209793
 	},
 
+	'dashboard usersGroupId field label' => {
+		message => q|من يستطيع التخصيص؟ |,
+		lastUpdated => 1164210280
+	},
+
 	'assets to hide description' => {
 		message => q|هذه القائمة تحتوي على صندوق العلامات لكل من الاصول الاطفال من نموذج الصفحة الخارجي. اختر في الصندوق كل الاصول التي لا تريدها ان تظهر في الشكل الخارجي للصفحة.<br />|,
 		lastUpdated => 1164209324
@@ -39,11 +35,6 @@ our $I18N = {
 	'dashboard template field label' => {
 		message => q|نموذج لوحة التحكم<br />|,
 		lastUpdated => 1164210297
-	},
-
-	'dashboard usersGroupId field label' => {
-		message => q|من يستطيع التخصيص؟ |,
-		lastUpdated => 1164210280
 	},
 
 	'dashboard adminsGroupId description' => {

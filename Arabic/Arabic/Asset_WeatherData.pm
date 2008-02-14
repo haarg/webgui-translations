@@ -1,14 +1,15 @@
 package WebGUI::i18n::Arabic::Asset_WeatherData;
 
-our $I18N = {
-	'assetName' => {
-		message => q|بيانات الطقس<br />|,
-		lastUpdated => 1168964821
-	},
 
+our $I18N = {
 	'partnerId help' => {
 		message => q|استلمت هذه الهوية في البريد الذي ارسلته لك weather.com&nbsp; بعد الاشتراك من اجل weather xml data feed |,
 		lastUpdated => 1172757373
+	},
+
+	'assetName' => {
+		message => q|بيانات الطقس<br />|,
+		lastUpdated => 1168964821
 	},
 
 	'cityState' => {
@@ -24,11 +25,6 @@ our $I18N = {
 	'Current Weather Conditions Template to use' => {
 		message => q|نموذج حالة الطقس الحالية للاستخدام |,
 		lastUpdated => 1168965187
-	},
-
-	'WeatherData template description' => {
-		message => q|متغيرات النموذج هذه متوفرة في نموذج بيانات الطقس<br />|,
-		lastUpdated => 1168964756
 	},
 
 	'Default Locations' => {
@@ -76,19 +72,14 @@ our $I18N = {
 		lastUpdated => 1168964957
 	},
 
-	'weatherdata asset template variables body' => {
-		message => q|كل اصل يضيف العديد من المتغيرات لاغلب النماذج الخاصة به بناء على الخواص الداخلية للاصل. البعض من هذه المتغيرات من الممكن ان يكون مفيدا و البعض الاخر لا.<br />|,
-		lastUpdated => 1168965164
+	'partnerId' => {
+		message => q|هوية شريك weather.com |,
+		lastUpdated => 1172757316
 	},
 
 	'iconUrl' => {
 		message => q|الرابط للايقونة التي تمثل نظريا حالة السماء<br />|,
 		lastUpdated => 1168964898
-	},
-
-	'partnerId' => {
-		message => q|هوية شريك weather.com |,
-		lastUpdated => 1172757316
 	},
 
 	'Template' => {
@@ -104,16 +95,6 @@ our $I18N = {
 	'you need a weather.com key' => {
 		message => q|انقر هنا للاشتراك مع weather.com من اجل weather xml data feed المجاني, و الذي تريده من اجل الاستخدام في هذا الاصل.<br />|,
 		lastUpdated => 1172757432
-	},
-
-	'weather data add/edit body' => {
-		message => q|وبجيكت بيانات الطقس مفيد لاظهار حالات الطقس الحالية عن مدينة, ولاية او كود منطقة, او سلسلة من المناطق<br />|,
-		lastUpdated => 1168965085
-	},
-
-	'weather data add/edit title' => {
-		message => q|بيانات الطقس, اضف/عدل|,
-		lastUpdated => 1168965100
 	},
 
 	'ourLocations.loop' => {

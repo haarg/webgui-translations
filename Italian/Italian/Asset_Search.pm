@@ -1,17 +1,18 @@
 package WebGUI::i18n::Italian::Asset_Search;
 
+
 our $I18N = {
 	'search' => {
 		message => q|Cerca|,
 		lastUpdated => 1156590527
 	},
 
-	'form_footer' => {
+	'search template' => {
 		message => q||,
 		lastUpdated => 
 	},
 
-	'search template' => {
+	'form_footer' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -21,7 +22,7 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'add/edit title' => {
+	'assetName' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -31,17 +32,7 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'assetName' => {
-		message => q||,
-		lastUpdated => 
-	},
-
 	'form_header' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'add/edit body' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -56,17 +47,12 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'search template body' => {
+	'class limiter description' => {
 		message => q||,
 		lastUpdated => 
 	},
 
 	'form_submit' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'class limiter description' => {
 		message => q||,
 		lastUpdated => 
 	},

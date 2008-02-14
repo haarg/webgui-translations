@@ -1,14 +1,15 @@
 package WebGUI::i18n::Dutch::Asset_SQLForm;
 
-our $I18N = {
-	'' => {
-		message => q||,
-		lastUpdated => 1156509400
-	},
 
+our $I18N = {
 	'ef summary length' => {
 		message => q|Samenvatting lengte|,
 		lastUpdated => 1156507993
+	},
+
+	'' => {
+		message => q||,
+		lastUpdated => 1156509400
 	},
 
 	'ef unsigned label' => {
@@ -26,19 +27,14 @@ our $I18N = {
 		lastUpdated => 1156513538
 	},
 
-	'edit field type description' => {
-		message => q|Veld types zijn een combinatie van een database kolom type en een elementnaam van een formulier. Deze velden worden gebruikt om de basis te vormen voor de velden in het SQLForm. Veld types kunnen alleen worden verwijderd als ze nergens meer worden gebruikt. Dit houdt in dat ze ook verwijderd moeten worden uit SQLForms die nog in de prullenbak staan. |,
-		lastUpdated => 1152863642
+	'change field warning' => {
+		message => q|Het wijzigen van onderstaande eigenschappen kan leiden tot het definitief verliezen van data in dit veld. \n\n \t - Het type database veld \n \t - Het verkleinen van de maximum lengte van een veld \n \t -Het veranderen van het teken \n\n\n Weet u zeker dat u door wilt gaan?|,
+		lastUpdated => 1152862517
 	},
 
 	'superSearch.label' => {
 		message => q|De internationale naam van het geavanceerd zoeken.|,
 		lastUpdated => 1156512782
-	},
-
-	'change field warning' => {
-		message => q|Het wijzigen van onderstaande eigenschappen kan leiden tot het definitief verliezen van data in dit veld. \\n\\n \\t - Het type database veld \\n \\t - Het verkleinen van de maximum lengte van een veld \\n \\t -Het veranderen van het teken \\n\\n\\n Weet u zeker dat u door wilt gaan?|,
-		lastUpdated => 1152862517
 	},
 
 	's normal search' => {
@@ -54,11 +50,6 @@ our $I18N = {
 	'showFieldsDefined' => {
 		message => q|Een conditionele functie die waar is als er minimaal één veld is dat getoond wordt. Met andere woorden, het is onwaar als elk veld, dat geconfigureerd is, niet getoond wordt in de zoekresultaten. |,
 		lastUpdated => 1170691620
-	},
-
-	'edit field description' => {
-		message => q|De velden zijn de basis voor een SQLForm. Elk formulier bestaat uit &eacute;&eacute;n of meer velden. Om velden te defini&euml;ren moet er tenminste &eacute;&eacute;n veld type worden aangemaakt. Meer informatie over veld types vindt u in de helpfunctie bij het kopje &quot;Beheren veld types&quot;.|,
-		lastUpdated => 1152862804
 	},
 
 	'sql form asset template variables title' => {
@@ -81,24 +72,24 @@ our $I18N = {
 		lastUpdated => 1156492546
 	},
 
-	'record.updateDate' => {
-		message => q|De datum waarop dit rapport voor het laatst is bijgewerkt. |,
-		lastUpdated => 1156960250
-	},
-
 	'er regex' => {
 		message => q|Regex|,
 		lastUpdated => 1156507574
 	},
 
-	's purge' => {
-		message => q|<p>Wissen</p>|,
-		lastUpdated => 1156516648
+	'record.updateDate' => {
+		message => q|De datum waarop dit rapport voor het laatst is bijgewerkt. |,
+		lastUpdated => 1156960250
 	},
 
 	'ef join values description' => {
 		message => q|Gebruik deze eigenschap om de waarden te genereren van de opties van optie-gebaseerde fomulier-onderdelen, zoals kies lijst van de tabel definitie. |,
 		lastUpdated => 1170691187
+	},
+
+	's purge' => {
+		message => q|<p>Wissen</p>|,
+		lastUpdated => 1156516648
 	},
 
 	'ef read only' => {
@@ -256,17 +247,6 @@ our $I18N = {
 		lastUpdated => 1156535836
 	},
 
-	'sqlform description' => {
-		message => q|De SQL-formulier-asset laat u dynamisch data-invoer- en -opslagfunctionaliteit in uw site creëren. Alle gegevens worden in de tabel of database van uw keuze gezet. Een willekeurig formulieronderdeel kan worden verbonden aan elk veld en invoerformulieren kunnen op verschillende manieren worden gebouwd om optimale aanpasbaarheid op uw wensen te garanderen.<br />
-<br />
-Het SQL-formulier kan nieuwe tabellen aanmaken, bestaande tabellen importeren en eerder geïmporteerde tabellen opnieuw importeren. Velden kunnen worden verbonden aan andere velden in andere tabellen, op verschillende manieren, waardoor het mogelijk wordt ID's dynamisch op te lossen in waarden, met gebruik van verbindingen, beperkingen toe te voegen aan ingevoerde gegevens of om verschillende SQL-formulieren met elkaar te verbinden.<br />
-<br />
-Gebruikers-invoer kan ook worden gecontroleerd tegen reguliere expressies en handmatige beperkingen die door u zijn vast te stellen. In aanvulling hierop is het mogelijk een autoincrement-vlag en macro's toe te voegen aan de velden - en meer functionaliteit.<br />
-<br />
-Alle ingevoerde gegevens zijn omgezet en een twee-niveaus (verwijderen/wissen) prullenbak is ingebouwd. Drie privilege-lagen zijn beschikbaar om de toegang tot verschillende acties op te delen.|,
-		lastUpdated => 1170691678
-	},
-
 	'manage field types' => {
 		message => q|Beheer veld typen|,
 		lastUpdated => 1156506544
@@ -375,20 +355,6 @@ Alle ingevoerde gegevens zijn omgezet en een twee-niveaus (verwijderen/wissen) p
 	'ef required description' => {
 		message => q|Wanneer deze eigenschap op ja staat zijn gebruikers verplicht een waarde voor dit veld in te vullen tijdens het toevoegen van een record.Als dit op nee staat mogen gebruikers het veld leeg laten.|,
 		lastUpdated => 1156509330
-	},
-
-	'search template help' => {
-		message => q|Het zoeksjabloon van de SQL-formulier-asset geeft u een manier om de weergave van de zoekfunctionaliteit, die het SQL-formulier biedt, aan te passen.<br />
-<br />
-Er zijn twee verschillende zoekmethoden: normaal en geavanceerd, maar beide gebruiken hetzelfde sjabloon. In beide gevallen is een compleet <strong>searchForm</strong> beschikbaar. De afzonderlijke formulieronderdelen zijn ook beschikbaar, maar let erop dat formulieronderdelen worden gebruikt voor zowel de normale als geavanceerde zoekfunctie.<br />
-<br />
-Het sjabloon geeft u variabelen voor de zoekresultaten die hetzelfde zijn voor normale en geavanceerde zoekfunctie:|,
-		lastUpdated => 1170691568
-	},
-
-	'sql form asset template variables body' => {
-		message => q|Elk object (asset) maakt een set template variabelen beschibaar aan de bijbehorende templates gebaseerd op interne kenmerken van het object. Sommige variabelen zijn bruikbaarder dan andere.|,
-		lastUpdated => 1189372115
 	},
 
 	'_csf normal and trash' => {
@@ -558,11 +524,6 @@ De lijst van regexen waar u uit kunt kiezen is vastgelegd in de <strong>Regex ma
 	'header.sort.url' => {
 		message => q|De URL die u op dit veld laat sorteren. |,
 		lastUpdated => 1156633244
-	},
-
-	'edit sqlform' => {
-		message => q|SQLForm, Toevoegen/wijzigen|,
-		lastUpdated => 1152863952
 	},
 
 	'field.__FIELDNAME__.id' => {
@@ -988,17 +949,6 @@ Deze eigenschap is alleen beschikbaar voor numerieke veldtypes, zoals <em>int</e
 		lastUpdated => 1156512577
 	},
 
-	'edit template help' => {
-		message => q|Het SQLForm biedt drie mogelijkheden om formulieren aan te maken. Het verschil is de mate van flexibiliteit. Het nadeel van meer flexibiliteit is echter de complexiteit.<p> </p><p>De volgende drie methoden kunnen worden gebruikt:</p><p><strong>completeForm</strong><br />Met deze variabele worden alle velden automatisch weergegeven in een tabel met een standaard opmaak.<br /><BR>
-<br />
-<strong>formloop</strong><br />
-Met deze variabele worden alle velden automatisch weergegeven in een tabel. Echter kan het formulier wel worden opgemaakt.<br />
-<br />
-<strong>field.__VELDNAAM__.formElement en field.__VELDNAAM__.label</strong><br />
-Met deze laatste variant kan ieder veld op de gewenste locatie worden gezet. Nadeel hiervan is dat de velden niet automatisch zullen verschijnen. Bij het verwijderen en toevoegen van velden moeten deze dus handmatig in het sjabloon worden geplaatst aan de hand van de veldnaam. Als deze variant gebruikt wordt moet er ook gebruikt worden gemaakt van de formHeader en de formFooter variabele.|,
-		lastUpdated => 1170691063
-	},
-
 	's mode' => {
 		message => q|Zoek modus|,
 		lastUpdated => 1156508033
@@ -1151,11 +1101,6 @@ Let erop dat sommige database-typen een grens aan de waarde van deze eigenschap 
 		lastUpdated => 1156507584
 	},
 
-	'advanced search template help body' => {
-		message => q|Deze template variabelen zijn beschikbaar in het template Uitgebreid entries zoeken. |,
-		lastUpdated => 1189371766
-	},
-
 	'ef required' => {
 		message => q|Vereist|,
 		lastUpdated => 1156505977
@@ -1265,11 +1210,6 @@ Let erop dat WebGUI ook een systeem-wijde maximale bestandsgrootte-instelling he
 		lastUpdated => 1170691295
 	},
 
-	'edit regex description' => {
-		message => q|Dit zijn reguliere expressies en strings die een patroon of tekst vertegenwoordigen. De regexes die worden gebruikt in het SQLForm zijn op basis van perl. The syntax van reguliere expressies met perl zijn <a href="http://perldoc.perl.org/perlretut.html" target="_blank">hier</a> te vinden. Reguliere expressies kunnen alleen verwijderd worden als ze niet mee gebruikt worden. Dit betekent dat ze ook niet gebruikt moeten worden in SQLForms die nog in de prullenbak staan. |,
-		lastUpdated => 1152863886
-	},
-
 	'ef regex' => {
 		message => q|Reguliere expressie|,
 		lastUpdated => 1156492517
@@ -1315,14 +1255,14 @@ Let erop dat WebGUI ook een systeem-wijde maximale bestandsgrootte-instelling he
 		lastUpdated => 1156508434
 	},
 
-	'searchForm' => {
-		message => q|Bevat het complete formulier dat gebruikers ertoe in staat stelt te zoeken.|,
-		lastUpdated => 1156512755
-	},
-
 	'field.searchForm1' => {
 		message => q|Het eerste zoek-formulieronderdeel voor dit veld|,
 		lastUpdated => 1156957515
+	},
+
+	'searchForm' => {
+		message => q|Bevat het complete formulier dat gebruikers ertoe in staat stelt te zoeken.|,
+		lastUpdated => 1156512755
 	},
 
 	'record.value.downloadUrl' => {

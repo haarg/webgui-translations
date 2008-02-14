@@ -1,14 +1,15 @@
 package WebGUI::i18n::Hungarian::AdSpace;
 
-our $I18N = {
-	'is active' => {
-		message => q|Akt&iacute;v?|,
-		lastUpdated => 1178782370
-	},
 
+our $I18N = {
 	'priority' => {
 		message => q|Priorit&aacute;s|,
 		lastUpdated => 1178782587
+	},
+
+	'is active' => {
+		message => q|Akt&iacute;v?|,
+		lastUpdated => 1178782370
 	},
 
 	'add an ad' => {
@@ -46,11 +47,6 @@ our $I18N = {
 		lastUpdated => 1178781474
 	},
 
-	'edit advertisement body' => {
-		message => q|Ezen a k&eacute;pernyőn &aacute;ll&iacute;thatja be a hirdetőt&aacute;bl&aacute;ra ker&uuml;lő hirdet&eacute;st. Be&aacute;ll&iacute;that olyan fizikai tulajdons&aacute;gokat, mint a sz&iacute;nek, k&eacute;pek, megjelen&iacute;tendő sz&ouml;veg &eacute;s url, megadhatja milyen gyakran jelenjen meg a hirdet&eacute;s, illetve aktiv&aacute;lhatja vagy kikapcsolhatja a hirdet&eacute;st. A hirdet&eacute;sek az adott hirdetőt&aacute;bl&aacute;hoz tartoznak. |,
-		lastUpdated => 1178782161
-	},
-
 	'manage ad spaces' => {
 		message => q|Hirdetőt&aacute;bl&aacute;k Rendez&eacute;se|,
 		lastUpdated => 1178782446
@@ -61,14 +57,14 @@ our $I18N = {
 		lastUpdated => 1178783152
 	},
 
-	'manage ad spaces title' => {
-		message => q|Hirdetőt&aacute;bl&aacute;k Rendez&eacute;se|,
-		lastUpdated => 1178782462
-	},
-
 	'text color help' => {
 		message => q|A hirdet&eacute;s sz&ouml;vegsz&iacute;ne hex &eacute;rt&eacute;kben.|,
 		lastUpdated => 1178783121
+	},
+
+	'rich help' => {
+		message => q|Illessze be a k&oacute;dot, amellyel a bemutatand&oacute; hirdet&eacute;s elk&eacute;sz&uuml;l.|,
+		lastUpdated => 1178783066
 	},
 
 	'description help' => {
@@ -81,11 +77,6 @@ our $I18N = {
 		lastUpdated => 1178781559
 	},
 
-	'rich help' => {
-		message => q|Illessze be a k&oacute;dot, amellyel a bemutatand&oacute; hirdet&eacute;s elk&eacute;sz&uuml;l.|,
-		lastUpdated => 1178783066
-	},
-
 	'name' => {
 		message => q|N&eacute;v|,
 		lastUpdated => 1178782472
@@ -96,14 +87,14 @@ our $I18N = {
 		lastUpdated => 1178781531
 	},
 
-	'description' => {
-		message => q|Le&iacute;r&aacute;s|,
-		lastUpdated => 1178781761
-	},
-
 	'priority help' => {
 		message => q|Egy m&eacute;rce, amelynek a seg&iacute;ts&eacute;g&eacute;vel meghat&aacute;rozhat&oacute;, hogy milyen gyakran jelenjen meg egy hirdet&eacute;s. Min&eacute;l alacsonyabb a sz&aacute;ma, ann&aacute;l gyakrabban gyakrabban jelenik meg. Ennek nincs befoly&aacute;sa az alacsony forgalm&uacute; oldalakra. Ha az A hirdet&eacute;s priorit&aacute;sa 0, a B hirdet&eacute;s&eacute; pedig 10, &eacute;s az oldal &aacute;tlaga 1 megjelen&iacute;t&eacute;s m&aacute;sodpercenk&eacute;nt, akkor az A hirdet&eacute;s mintegy 100-szor t&ouml;bb alkalommal jelenik meg, mint a B. Mivel azonban ez egy m&eacute;rt&eacute;k, ez nem pontos ar&aacute;nysz&aacute;m. Min&eacute;l nagyobb egy oldal forgalma, ann&aacute;l nagyob befoly&aacute;sa van a priorit&aacute;snak. |,
 		lastUpdated => 1178782971
+	},
+
+	'description' => {
+		message => q|Le&iacute;r&aacute;s|,
+		lastUpdated => 1178781761
 	},
 
 	'height help' => {
@@ -111,14 +102,14 @@ our $I18N = {
 		lastUpdated => 1178782211
 	},
 
-	'width help' => {
-		message => q|Milyen sz&eacute;les legyen a hirdetőt&aacute;bla (pixelben).|,
-		lastUpdated => 1178783322
-	},
-
 	'clicks bought' => {
 		message => q|Megv&aacute;s&aacute;rolt Kattint&aacute;sok|,
 		lastUpdated => 1178781698
+	},
+
+	'width help' => {
+		message => q|Milyen sz&eacute;les legyen a hirdetőt&aacute;bla (pixelben).|,
+		lastUpdated => 1178783322
 	},
 
 	'ad id' => {
@@ -131,14 +122,14 @@ our $I18N = {
 		lastUpdated => 1178783287
 	},
 
-	'title' => {
-		message => q|C&iacute;m|,
-		lastUpdated => 1178783130
-	},
-
 	'type' => {
 		message => q|T&iacute;pus|,
 		lastUpdated => 1178783177
+	},
+
+	'title' => {
+		message => q|C&iacute;m|,
+		lastUpdated => 1178783130
 	},
 
 	'type help' => {
@@ -176,14 +167,9 @@ our $I18N = {
 		lastUpdated => 1178781751
 	},
 
-	'name help' => {
-		message => q|Ezt a stringet az AdSpace makr&oacute;val kombin&aacute;lva haszn&aacute;lj&aacute;, hogy hirdet&eacute;st lehessen elhelyezni az oldalon. Nem tartalmazhat sz&oacute;k&ouml;z&ouml;ket, &eacute;s csak alfa-numerikus karakterekből &aacute;llhat. |,
-		lastUpdated => 1178782576
-	},
-
-	'url help' => {
-		message => q|Az URL, amelyhez a hirdet&eacute;s kapcsol&oacute;dik. Ez nem ker&uuml;l alkalmaz&aacute;sra a Bő M&eacute;dia hirdet&eacute;sekn&eacute;l.|,
-		lastUpdated => 1178783258
+	'edit this ad space' => {
+		message => q|Ezen hirdetőt&aacute;bla szerkeszt&eacute;se.|,
+		lastUpdated => 1178782180
 	},
 
 	'text' => {
@@ -191,14 +177,14 @@ our $I18N = {
 		lastUpdated => 1178783076
 	},
 
-	'edit this ad space' => {
-		message => q|Ezen hirdetőt&aacute;bla szerkeszt&eacute;se.|,
-		lastUpdated => 1178782180
+	'url help' => {
+		message => q|Az URL, amelyhez a hirdet&eacute;s kapcsol&oacute;dik. Ez nem ker&uuml;l alkalmaz&aacute;sra a Bő M&eacute;dia hirdet&eacute;sekn&eacute;l.|,
+		lastUpdated => 1178783258
 	},
 
-	'ad text help' => {
-		message => q|A hirdet&eacute;sben maximum 255 karakternyi sz&ouml;veg jelen&iacute;thető meg. A hirdet&eacute;s m&eacute;ret&eacute;től f&uuml;ggően lehet, hogy l&aacute;tszik a teljes sz&ouml;veg, mivel az t&uacute;l hossz&uacute;. A hirdet&eacute;s aj&aacute;nlott hossza 60 karakter, vagy ann&aacute;l kevesebb.|,
-		lastUpdated => 1178781299
+	'name help' => {
+		message => q|Ezt a stringet az AdSpace makr&oacute;val kombin&aacute;lva haszn&aacute;lj&aacute;, hogy hirdet&eacute;st lehessen elhelyezni az oldalon. Nem tartalmazhat sz&oacute;k&ouml;z&ouml;ket, &eacute;s csak alfa-numerikus karakterekből &aacute;llhat. |,
+		lastUpdated => 1178782576
 	},
 
 	'rich' => {
@@ -206,14 +192,14 @@ our $I18N = {
 		lastUpdated => 1178783029
 	},
 
+	'ad text help' => {
+		message => q|A hirdet&eacute;sben maximum 255 karakternyi sz&ouml;veg jelen&iacute;thető meg. A hirdet&eacute;s m&eacute;ret&eacute;től f&uuml;ggően lehet, hogy l&aacute;tszik a teljes sz&ouml;veg, mivel az t&uacute;l hossz&uacute;. A hirdet&eacute;s aj&aacute;nlott hossza 60 karakter, vagy ann&aacute;l kevesebb.|,
+		lastUpdated => 1178781299
+	},
+
 	'background color help' => {
 		message => q|A hirdet&eacute;s sz&ouml;veg&eacute;nek h&aacute;tt&eacute;rsz&iacute;ne hex &eacute;rt&eacute;kben. |,
 		lastUpdated => 1178781510
-	},
-
-	'edit ad space body' => {
-		message => q|Ezen a k&eacute;pernyőn be&aacute;ll&iacute;tja azt a ter&uuml;letet, amely a hirdet&eacute;st tartalmazza (hirdetőt&aacute;bla), &eacute;s az AdSpace makr&oacute;val be&aacute;gyazza az oldalba (<strong>^AdSpace();</strong>). Amikor egy megl&eacute;vő hirdetőt&aacute;bl&aacute;t szerkeszt, megjelenik a hirdetőt&aacute;bla előn&eacute;zete, azoknak a hirdet&eacute;seknek a list&aacute;j&aacute;val, amelyek a t&aacute;bl&aacute;n szerepelnek majd. Az ikonok a list&aacute;ban lehetőv&eacute; teszik a hirdet&eacute;sek szerkeszt&eacute;s&eacute;t vagy t&ouml;rl&eacute;s&eacute;t. |,
-		lastUpdated => 1178782020
 	},
 
 	'confirm ad delete' => {

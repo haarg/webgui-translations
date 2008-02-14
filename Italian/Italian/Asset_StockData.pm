@@ -1,12 +1,8 @@
 package WebGUI::i18n::Italian::Asset_StockData;
 
+
 our $I18N = {
 	'help_stock_list_template' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'help_stock_list_template_description' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -76,12 +72,12 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'stocks.symbol' => {
+	'extrasFolder' => {
 		message => q||,
 		lastUpdated => 
 	},
 
-	'extrasFolder' => {
+	'stocks.symbol' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -156,12 +152,7 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'stocks.year_low' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'stocks.day_range' => {
+	'isVisitor' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -171,7 +162,12 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'isVisitor' => {
+	'stocks.year_low' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'stocks.day_range' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -202,11 +198,6 @@ our $I18N = {
 	},
 
 	'default_stock_label_description' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'help_add_edit_stock_description' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -256,27 +247,7 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'help_add_edit_stock_title' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'help_stock_list_display_template_description' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'help_add_edit_stocklist_title' => {
-		message => q||,
-		lastUpdated => 
-	},
-
 	'stocks.time' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'help_add_edit_stocklist_body' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -321,12 +292,12 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'stocks.success' => {
+	'stocks.net.noChange' => {
 		message => q||,
 		lastUpdated => 
 	},
 
-	'stocks.net.noChange' => {
+	'stocks.success' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -336,12 +307,12 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'symbol_label_description' => {
+	'stock.display.url' => {
 		message => q||,
 		lastUpdated => 
 	},
 
-	'stock.display.url' => {
+	'symbol_label_description' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -351,12 +322,12 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'no_symbol_error' => {
+	'stocks.open' => {
 		message => q||,
 		lastUpdated => 
 	},
 
-	'stocks.open' => {
+	'no_symbol_error' => {
 		message => q||,
 		lastUpdated => 
 	},

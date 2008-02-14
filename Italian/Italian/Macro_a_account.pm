@@ -1,12 +1,13 @@
 package WebGUI::i18n::Italian::Macro_a_account;
 
+
 our $I18N = {
-	'account body' => {
+	'account.text' => {
 		message => q||,
 		lastUpdated => 
 	},
 
-	'account.text' => {
+	'account.url' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -14,11 +15,6 @@ our $I18N = {
 	'46' => {
 		message => q|Il mio account|,
 		lastUpdated => 1156608592
-	},
-
-	'account.url' => {
-		message => q||,
-		lastUpdated => 
 	},
 
 	'macroName' => {

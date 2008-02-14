@@ -1,22 +1,18 @@
 package WebGUI::i18n::Italian::Asset_MessageBoard;
 
+
 our $I18N = {
 	'forum.lastpost.user.isVisitor' => {
 		message => q||,
 		lastUpdated => 
 	},
 
-	'71' => {
+	'forum.rating' => {
 		message => q||,
 		lastUpdated => 
 	},
 
 	'forum.user.canView' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'forum.rating' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -41,12 +37,12 @@ our $I18N = {
 		lastUpdated => 1157034746
 	},
 
-	'forum.lastpost.user.alias' => {
+	'forum.controls' => {
 		message => q||,
 		lastUpdated => 
 	},
 
-	'forum.controls' => {
+	'forum.lastpost.user.alias' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -67,11 +63,6 @@ our $I18N = {
 	},
 
 	'lastpost.label' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'61' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -101,12 +92,12 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'default.title' => {
+	'forum.lastpost.subject' => {
 		message => q||,
 		lastUpdated => 
 	},
 
-	'forum.lastpost.subject' => {
+	'forum.count' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -116,12 +107,7 @@ our $I18N = {
 		lastUpdated => 1157034835
 	},
 
-	'forum.count' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'forum.lastpost.time' => {
+	'forum_loop' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -131,7 +117,7 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'forum_loop' => {
+	'forum.lastpost.time' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -156,12 +142,12 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'default.description' => {
+	'forum.title' => {
 		message => q||,
 		lastUpdated => 
 	},
 
-	'forum.title' => {
+	'forum.url' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -171,19 +157,14 @@ our $I18N = {
 		lastUpdated => 1157034811
 	},
 
-	'forum.url' => {
-		message => q||,
-		lastUpdated => 
+	'views' => {
+		message => q|Visite|,
+		lastUpdated => 1157034871
 	},
 
 	'lastpost' => {
 		message => q|Ultimo post|,
 		lastUpdated => 1157034798
-	},
-
-	'views' => {
-		message => q|Visite|,
-		lastUpdated => 1157034871
 	},
 
 	'default.listing' => {
@@ -216,12 +197,7 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'threads' => {
-		message => q|Discussioni|,
-		lastUpdated => 1157034826
-	},
-
-	'forum.user.canPost' => {
+	'forum.lastpost.user.id' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -231,17 +207,17 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'forum.lastpost.user.id' => {
+	'forum.user.canPost' => {
 		message => q||,
 		lastUpdated => 
+	},
+
+	'threads' => {
+		message => q|Discussioni|,
+		lastUpdated => 1157034826
 	},
 
 	'replies.label' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'73' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -251,14 +227,14 @@ our $I18N = {
 		lastUpdated => 
 	},
 
+	'73' => {
+		message => q||,
+		lastUpdated => 
+	},
+
 	'76' => {
 		message => q|Sei sicuro di voler cancellare questo forum e tutti i post che contiene?|,
 		lastUpdated => 1157034710
-	},
-
-	'default.controls' => {
-		message => q||,
-		lastUpdated => 
 	},
 
 	'forum.description' => {

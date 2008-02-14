@@ -1,19 +1,15 @@
 package WebGUI::i18n::Finnish::Asset_Survey;
 
-our $I18N = {
-	'32' => {
-		message => q|Epätosi|,
-		lastUpdated => 1037710998
-	},
 
+our $I18N = {
 	'33' => {
 		message => q|Täysin samaa mieltä|,
 		lastUpdated => 1043671072
 	},
 
-	'21' => {
-		message => q|Siirry|,
-		lastUpdated => 1037710485
+	'32' => {
+		message => q|Epätosi|,
+		lastUpdated => 1037710998
 	},
 
 	'63' => {
@@ -21,19 +17,24 @@ our $I18N = {
 		lastUpdated => 1037711408
 	},
 
+	'21' => {
+		message => q|Siirry|,
+		lastUpdated => 1037710485
+	},
+
 	'7' => {
 		message => q|Vastausten ohjaama|,
 		lastUpdated => 1040046523
 	},
 
-	'26' => {
-		message => q|Lisää yleisimmin (aina/ei koskaan) vastausten skaala.|,
-		lastUpdated => 1042619546
-	},
-
 	'80' => {
 		message => q|sekunnit|,
 		lastUpdated => 1043668733
+	},
+
+	'26' => {
+		message => q|Lisää yleisimmin (aina/ei koskaan) vastausten skaala.|,
+		lastUpdated => 1042619546
 	},
 
 	'18' => {
@@ -181,9 +182,9 @@ our $I18N = {
 		lastUpdated => 1037711258
 	},
 
-	'45' => {
-		message => q|Haluatko varmasti poistaa tämän kysymyksen ja sen vastaukset?|,
-		lastUpdated => 1065224034
+	'66' => {
+		message => q|Vastaukset|,
+		lastUpdated => 1037819690
 	},
 
 	'73' => {
@@ -191,14 +192,14 @@ our $I18N = {
 		lastUpdated => 1037819596
 	},
 
-	'66' => {
-		message => q|Vastaukset|,
-		lastUpdated => 1037819690
+	'45' => {
+		message => q|Haluatko varmasti poistaa tämän kysymyksen ja sen vastaukset?|,
+		lastUpdated => 1065224034
 	},
 
-	'86' => {
-		message => q|Eteneminen|,
-		lastUpdated => 1083592968
+	'76' => {
+		message => q|Aloitusaika|,
+		lastUpdated => 1043668794
 	},
 
 	'19' => {
@@ -206,9 +207,9 @@ our $I18N = {
 		lastUpdated => 1037710446
 	},
 
-	'76' => {
-		message => q|Aloitusaika|,
-		lastUpdated => 1043668794
+	'86' => {
+		message => q|Eteneminen|,
+		lastUpdated => 1083592968
 	},
 
 	'62' => {
@@ -239,11 +240,6 @@ our $I18N = {
 	'2' => {
 		message => q|Muokkaa kyselyä|,
 		lastUpdated => 1043669924
-	},
-
-	'1' => {
-		message => q|Kysely|,
-		lastUpdated => 1040040184
 	},
 
 	'30' => {
@@ -326,14 +322,14 @@ our $I18N = {
 		lastUpdated => 1043669853
 	},
 
-	'13' => {
-		message => q|Kuka voi katsoa vastauksia?|,
-		lastUpdated => 1043670262
-	},
-
 	'23' => {
 		message => q|Lisää uusi vastaus.|,
 		lastUpdated => 1037710859
+	},
+
+	'13' => {
+		message => q|Kuka voi katsoa vastauksia?|,
+		lastUpdated => 1043670262
 	},
 
 	'6' => {
@@ -346,9 +342,9 @@ our $I18N = {
 		lastUpdated => 1043671174
 	},
 
-	'3' => {
-		message => q|Kysely, Lisää/Muokkaa|,
-		lastUpdated => 1043669812
+	'51' => {
+		message => q|Kommentoi?|,
+		lastUpdated => 1037711202
 	},
 
 	'9' => {
@@ -356,24 +352,19 @@ our $I18N = {
 		lastUpdated => 1040046537
 	},
 
-	'51' => {
-		message => q|Kommentoi?|,
-		lastUpdated => 1037711202
-	},
-
 	'47' => {
 		message => q|Olet suorittanut tämän kyselyn.|,
 		lastUpdated => 1043669200
 	},
 
-	'38' => {
-		message => q|Täysin eri mieltä|,
-		lastUpdated => 1043671188
-	},
-
 	'8' => {
 		message => q|Kysymysten järjestys|,
 		lastUpdated => 1037711450
+	},
+
+	'38' => {
+		message => q|Täysin eri mieltä|,
+		lastUpdated => 1043671188
 	},
 
 	'34' => {

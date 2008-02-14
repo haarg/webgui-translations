@@ -1,5 +1,6 @@
 package WebGUI::i18n::Croatian::Asset;
 
+
 our $I18N = {
 	'lock help' => {
 		message => q||,
@@ -16,7 +17,7 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'parent url' => {
+	'Uploads URL' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -26,7 +27,7 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'Uploads URL' => {
+	'parent url' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -51,12 +52,7 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'isHidden' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'export information' => {
+	'encrypt page description' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -66,12 +62,12 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'encrypt page description' => {
+	'export information' => {
 		message => q||,
 		lastUpdated => 
 	},
 
-	'asset' => {
+	'isHidden' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -81,17 +77,17 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'asset list body' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'872' => {
+	'asset' => {
 		message => q||,
 		lastUpdated => 
 	},
 
 	'Data Type description' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'872' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -156,17 +152,17 @@ our $I18N = {
 		lastUpdated => 
 	},
 
+	'locked' => {
+		message => q||,
+		lastUpdated => 
+	},
+
 	'Export Page' => {
 		message => q||,
 		lastUpdated => 
 	},
 
 	'create package' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'locked' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -186,12 +182,12 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'886' => {
+	'view help' => {
 		message => q||,
 		lastUpdated => 
 	},
 
-	'view help' => {
+	'886' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -207,11 +203,6 @@ our $I18N = {
 	},
 
 	'1079' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'edit branch body' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -242,11 +233,6 @@ our $I18N = {
 	},
 
 	'copy' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'asset template body' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -316,17 +302,12 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'committed versions' => {
-		message => q||,
-		lastUpdated => 
-	},
-
 	'895' => {
 		message => q||,
 		lastUpdated => 
 	},
 
-	'Export as user' => {
+	'committed versions' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -336,7 +317,7 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'asset list title' => {
+	'Export as user' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -346,7 +327,17 @@ our $I18N = {
 		lastUpdated => 
 	},
 
+	'asset list title' => {
+		message => q||,
+		lastUpdated => 
+	},
+
 	'Add new field description' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'revisions' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -356,7 +347,7 @@ our $I18N = {
 		lastUpdated => 1168623106
 	},
 
-	'revisions' => {
+	'edit branch help' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -366,12 +357,7 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'edit branch help' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'assetSize' => {
+	'954' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -381,12 +367,7 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'manage versions body' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'954' => {
+	'assetSize' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -406,11 +387,6 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'asset fields body' => {
-		message => q||,
-		lastUpdated => 
-	},
-
 	'cut' => {
 		message => q||,
 		lastUpdated => 
@@ -421,12 +397,12 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'isPackage' => {
+	'rootUrl form option symlinkDefault' => {
 		message => q||,
 		lastUpdated => 
 	},
 
-	'rootUrl form option symlinkDefault' => {
+	'isPackage' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -436,17 +412,12 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'asset fields title' => {
+	'Delete Metadata field' => {
 		message => q||,
 		lastUpdated => 
 	},
 
 	'could not rmdir' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'Delete Metadata field' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -461,12 +432,12 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'import' => {
+	'confirm change' => {
 		message => q||,
 		lastUpdated => 
 	},
 
-	'confirm change' => {
+	'import' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -491,12 +462,12 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'940' => {
+	'43' => {
 		message => q||,
 		lastUpdated => 
 	},
 
-	'43' => {
+	'940' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -537,11 +508,6 @@ our $I18N = {
 	},
 
 	'url' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'Page Export body' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -656,27 +622,12 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'edit' => {
-		message => q||,
-		lastUpdated => 
-	},
-
 	'select all' => {
 		message => q||,
 		lastUpdated => 
 	},
 
-	'asset toolbar body' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'size' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'change url body' => {
+	'edit' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -686,17 +637,22 @@ our $I18N = {
 		lastUpdated => 
 	},
 
+	'size' => {
+		message => q||,
+		lastUpdated => 
+	},
+
 	'confirm change url message' => {
 		message => q||,
 		lastUpdated => 
 	},
 
-	'rootUrl form label' => {
+	'174' => {
 		message => q||,
 		lastUpdated => 
 	},
 
-	'174' => {
+	'rootUrl form label' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -726,17 +682,7 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'asset template asset var body' => {
-		message => q||,
-		lastUpdated => 
-	},
-
 	'ago' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'encrypt page' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -746,7 +692,7 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'specified base' => {
+	'encrypt page' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -756,12 +702,17 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'949' => {
+	'specified base' => {
 		message => q||,
 		lastUpdated => 
 	},
 
 	'asset template title' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'949' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -816,12 +767,12 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'ownerUserId' => {
+	'could not symlink' => {
 		message => q||,
 		lastUpdated => 
 	},
 
-	'could not symlink' => {
+	'ownerUserId' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -866,11 +817,6 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'metadata manage body' => {
-		message => q||,
-		lastUpdated => 
-	},
-
 	'groupIdView' => {
 		message => q||,
 		lastUpdated => 
@@ -891,22 +837,17 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'menuTitle' => {
-		message => q||,
-		lastUpdated => 
-	},
-
 	'make prototype' => {
 		message => q||,
 		lastUpdated => 
 	},
 
-	'topicName' => {
+	'menuTitle' => {
 		message => q||,
 		lastUpdated => 
 	},
 
-	'prototype using body' => {
+	'topicName' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -926,7 +867,7 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'rootUrl form hoverHelp' => {
+	'1073' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -936,12 +877,7 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'1073' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'asset toolbar title' => {
+	'rootUrl form hoverHelp' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -971,17 +907,12 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'packages' => {
-		message => q||,
-		lastUpdated => 
-	},
-
 	'change url help' => {
 		message => q||,
 		lastUpdated => 
 	},
 
-	'metadata edit property body' => {
+	'packages' => {
 		message => q||,
 		lastUpdated => 
 	},

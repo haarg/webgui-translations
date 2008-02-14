@@ -1,19 +1,15 @@
 package WebGUI::i18n::Arabic::Asset_Shortcut;
 
+
 our $I18N = {
-	'shortcut template body' => {
-		message => q|هذه المتغيرات متوفرة في نماذج الوصلة المختصرة:|,
-		lastUpdated => 1176891015
+	'7' => {
+		message => q|اجتز العنوان|,
+		lastUpdated => 1176890437
 	},
 
 	'no metadata yet' => {
 		message => q|لم يتم تعريف ميتاداتا حتى الان. انقر هنا لتعرف استخدامات الميتاداتا|,
 		lastUpdated => 1176890940
-	},
-
-	'7' => {
-		message => q|اجتز العنوان|,
-		lastUpdated => 1176890437
 	},
 
 	'disable content lock' => {
@@ -81,14 +77,14 @@ our $I18N = {
 		lastUpdated => 1176891021
 	},
 
-	'New Override Value' => {
-		message => q|قيمة اجتياز جديدة|,
-		lastUpdated => 1176890662
-	},
-
 	'shortcut.properties' => {
 		message => q|اي خواص يتم عملها لهذه الوصلة ستكون متوفرة على النموذج بإسمها.|,
 		lastUpdated => 1176891056
+	},
+
+	'New Override Value' => {
+		message => q|قيمة اجتياز جديدة|,
+		lastUpdated => 1176890662
 	},
 
 	'Manage User Preferences' => {
@@ -166,14 +162,14 @@ our $I18N = {
 		lastUpdated => 1176890963
 	},
 
-	'Type of Field' => {
-		message => q|نوع المجال|,
-		lastUpdated => 1176890815
-	},
-
 	'shortcut.content' => {
 		message => q|المحتوى من الاصل الذي تم عمل مراه  له. اذا تم السماح لاي اجتيازات في هذه الوصلة اذا سيتم استخدام اجتياز المادة بدلا من المحتوى من الاصل المراه.|,
 		lastUpdated => 1176891036
+	},
+
+	'Type of Field' => {
+		message => q|نوع المجال|,
+		lastUpdated => 1176890815
 	},
 
 	'edit delete fieldname' => {
@@ -276,11 +272,6 @@ our $I18N = {
 		lastUpdated => 1176890477
 	},
 
-	'field add/edit body' => {
-		message => q|  <p dir="rtl" class="MsoNormal"><span>افضليات المستخدم هي مفتاح التخصيص للوصلة المختصرة, والمفتاح لعمل </span><span>dashboard</span><span> مخصصة. من الممكن ان تقوم بعمل مجال افضليات مستخدم من واحد من الانواع الاربعة: نص, مساحة نص, قائمة صناديق اختيار, قائمة اختيار. اذا كانت خاصتك من نوع القائمة, من الممكن ان تضع الاختيارات الممكنة في صناديق الاختيار الممكنة, وكل منها سيكون هو ادخاله الخاص في قائمة من هذا النوع (اختر: اختر واحدة, أو ضع علامة: اختر واحدة, الكل أو ولا واحدة.)</span></p>  <p dir="rtl" class="MsoNormal"><span>&nbsp;</span></p>  <p dir="rtl" class="MsoNormal"><span>من الممكن ان تستخدم مجال افضليات المستخدم لعمل قائمة من النماذج التي يمكن للمستخدم الاختيار منها, اختيارات الافضلية مثل انظمة القياس المختلفة أو اي نوع اخر. مجالات افضليات المستخدم هي </span><span>asset-(shortcut-)</span><span> محددة, بينما مجالات ملف المستخدم تكون على مستوى الموقع. </span><span>سيتم عرض افضليات المستخدم لمجالات الاجتياز الخاصة بك في شكل </span><span>##userPref:myUserPrefField##</span><span> <span>و سيتم عرضها في أي مكان اخر كمتغيرات عادية </span></span><span>(&lt;tmpl_var myUserPrefField&gt;)</span><span>.</span></p>  |,
-		lastUpdated => 1178732612
-	},
-
 	'Original Value' => {
 		message => q|القسمة الحقيقية|,
 		lastUpdated => 1176890679
@@ -331,11 +322,6 @@ our $I18N = {
 		lastUpdated => 1176890521
 	},
 
-	'6' => {
-		message => q|  <p dir="rtl" class="MsoNormal"><span>مع الوصلة المختصرة يمكنك ان تعمل مراه من الاصل في مكان اخر. هذا مفيد اذا اردت ان تستخدم نفس المادة في اماكن مختلفة من موقعك. </span></p>  <p dir="rtl" class="MsoNormal"><span>&nbsp;</span></p>  <p dir="rtl" class="MsoNormal"><span>ملاحظات:</span></p>  <p dir="rtl" class="MsoNormal"><span>الوصلة المختصرة ليست موجودة في قائمة اضف محتوى, ولكن بدلا من ذلك متوفرة في ايقونة الوصلة المختصرة في كل شريط اجوات لكل اصل. </span></p>  <p dir="rtl" class="MsoNormal"><span>&nbsp;</span></p>  <p dir="rtl" class="MsoNormal"><span>الاجتيازات:</span></p>  <p dir="rtl" class="MsoNormal"><span>من الممكن أيضا ان تقوم بعمل اجتيازات وافضليات مستخدم. النسخة المعدلة 6.8 قامت بتحويل ضبط الاجتيازات الخاص بك إلى اجتيازات. سترى هذه على شريط الاجتيازات. من الممكن أيضا ان تطلع عليهم بالنقر على &quot;قم بادارة الاجتيازات&quot; في القائمة اليمنى في حين تعديل وصلة مختصرة. قائمة المجالات هي قائمة خواص الاصول ذات الوصلات المحتصرة. اذا تم اجتياز واحد منها, يتم عرض قيمها على اليمين ومن الممكن ان تعجل أو سميح الاجتياز بالنقر على الايقونات. اذا لم يكن هناك أي اجتياز, من الممكن ان تنقر على تعديل لتعدل هذه الخاصية. </span></p>  <p dir="rtl" class="MsoNormal"><span>&nbsp;</span></p>  <p dir="rtl" class="MsoNormal"><span>مجالات افضليات المستخدم</span></p>  <p dir="rtl" class="MsoNormal"><span>من الممكن </span></p>  |,
-		lastUpdated => 1178737701
-	},
-
 	'Use this field to edit the override using the native form handler for this field type' => {
 		message => q|استخدم هذا المجال لتعديل الاجتياز باستخدام native form handler لنوع المجال هذا.|,
 		lastUpdated => 1176890822
@@ -346,19 +332,14 @@ our $I18N = {
 		lastUpdated => 1176890733
 	},
 
-	'field add/edit title' => {
-		message => q|اضف/عدل مفضلات المستخدم|,
-		lastUpdated => 1176890882
-	},
-
 	'Hover Help Description for this Field' => {
 		message => q|حم على المساعدة (الشرح) لهذا المجال|,
 		lastUpdated => 1176890609
 	},
 
-	'9' => {
-		message => q|شرح الاجتياز؟|,
-		lastUpdated => 1176890464
+	'field add/edit title' => {
+		message => q|اضف/عدل مفضلات المستخدم|,
+		lastUpdated => 1176890882
 	},
 
 	'Resolve Multiples' => {
@@ -366,19 +347,24 @@ our $I18N = {
 		lastUpdated => 1176890760
 	},
 
+	'9' => {
+		message => q|شرح الاجتياز؟|,
+		lastUpdated => 1176890464
+	},
+
 	'8' => {
 		message => q|عنوان عرض الاجتياز؟|,
 		lastUpdated => 1176890452
 	},
 
-	'Most Recent' => {
-		message => q|الاحدث|,
-		lastUpdated => 1176890652
-	},
-
 	'4' => {
 		message => q|لقد فشل عمل مرآه للاصل. من الممكن ان الاصل الاصلي قد تم مسحه|,
 		lastUpdated => 1176890409
+	},
+
+	'Most Recent' => {
+		message => q|الاحدث|,
+		lastUpdated => 1176890652
 	},
 
 	'Shortcut by alternate criteria description' => {
@@ -394,11 +380,6 @@ our $I18N = {
 	'Edit User Preference Field' => {
 		message => q|عدل مجال مفضلات المستخدم|,
 		lastUpdated => 1176890544
-	},
-
-	'5' => {
-		message => q|وصلة مختصرة, اضف/عدل|,
-		lastUpdated => 1176890417
 	},
 
 };

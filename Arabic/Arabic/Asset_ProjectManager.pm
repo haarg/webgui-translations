@@ -1,9 +1,10 @@
 package WebGUI::i18n::Arabic::Asset_ProjectManager;
 
+
 our $I18N = {
-	'task resource label' => {
-		message => q|مصدر|,
-		lastUpdated => 1178124020
+	'day.number' => {
+		message => q|رقم هذا اليوم من الاسبوع, عدد صحيح بين 1 و 7<br />|,
+		lastUpdated => 1178115272
 	},
 
 	'task_end_label' => {
@@ -11,19 +12,9 @@ our $I18N = {
 		lastUpdated => 1177953802
 	},
 
-	'day.number' => {
-		message => q|رقم هذا اليوم من الاسبوع, عدد صحيح بين 1 و 7<br />|,
-		lastUpdated => 1178115272
-	},
-
-	'project manager asset template variables body' => {
-		message => q|كل اصل يوفر مجموعة من المتغيرات لاغلب نماذجه بناء على الخواص الداخلية للاصل. بعضها يكون مفيدا والبعض الاخر لا يكون مفيدا. |,
-		lastUpdated => 1178120909
-	},
-
-	'pm add/edit title' => {
-		message => q|اضف/عدل مدير المشاريع<br />|,
-		lastUpdated => 1178118133
+	'task resource label' => {
+		message => q|مصدر|,
+		lastUpdated => 1178124020
 	},
 
 	'user add popup hover' => {
@@ -36,19 +27,14 @@ our $I18N = {
 		lastUpdated => 1178123450
 	},
 
-	'project.cost.data.int' => {
-		message => q|تكلفة المشروع كعدد صحيح مع ادحال الفواصل<br />|,
-		lastUpdated => 1178121767
-	},
-
 	'empty.colspan' => {
 		message => q|عدد الاعمدة التي سيتم تمديها, اعتياديا يكون 5, اذا كان <strong>canEditProjects</strong> متحققا ستصبح 6<br />|,
 		lastUpdated => 1178115582
 	},
 
-	'project manager asset template variables title' => {
-		message => q|متغيرات نموذج اصل مدير المشاريع<br />|,
-		lastUpdated => 1178120926
+	'project.cost.data.int' => {
+		message => q|تكلفة المشروع كعدد صحيح مع ادحال الفواصل<br />|,
+		lastUpdated => 1178121767
 	},
 
 	'sunday label' => {
@@ -56,9 +42,9 @@ our $I18N = {
 		lastUpdated => 1178123812
 	},
 
-	'gantt chart template vars body' => {
-		message => q|هذه المتغيرات متوفرة في نموذج Gantt Chart |,
-		lastUpdated => 1178117425
+	'project manager asset template variables title' => {
+		message => q|متغيرات نموذج اصل مدير المشاريع<br />|,
+		lastUpdated => 1178120926
 	},
 
 	'project.startDate.label' => {
@@ -96,19 +82,14 @@ our $I18N = {
 		lastUpdated => 1178121041
 	},
 
-	'canEditProjects' => {
-		message => q|شرط سيتحقق اذا كان للمستخدم الحالي الحق في الاطلاع على المشاريع او ادارة المشاريع<br /> |,
-		lastUpdated => 1178115189
-	},
-
 	'project description label' => {
 		message => q|شرح المشروع<br />|,
 		lastUpdated => 1178118458
 	},
 
-	'odd' => {
-		message => q|هذا سيتحقق للسطور الفردية في القائمة. هذا يستخدم لعمل العرض الجميل بسطور متناوبة|,
-		lastUpdated => 1178118015
+	'canEditProjects' => {
+		message => q|شرط سيتحقق اذا كان للمستخدم الحالي الحق في الاطلاع على المشاريع او ادارة المشاريع<br /> |,
+		lastUpdated => 1178115189
 	},
 
 	'callback' => {
@@ -116,14 +97,9 @@ our $I18N = {
 		lastUpdated => 1178115155
 	},
 
-	'pm add/edit body' => {
-		message => q|مدير المشاريع يوفر واجهة لكي تقوم بعمل المشاريع, اضف مهمات اليها وراقب حالتها في مراحل العمل<br />|,
-		lastUpdated => 1178118119
-	},
-
-	'title' => {
-		message => q|الرسالة الدولية لاي من اضافة المستخدمين او اضافة المجموعات<br />|,
-		lastUpdated => 1177953975
+	'odd' => {
+		message => q|هذا سيتحقق للسطور الفردية في القائمة. هذا يستخدم لعمل العرض الجميل بسطور متناوبة|,
+		lastUpdated => 1178118015
 	},
 
 	'project.edit.url' => {
@@ -131,9 +107,9 @@ our $I18N = {
 		lastUpdated => 1178122051
 	},
 
-	'project edit body' => {
-		message => q|  <p dir="rtl" class="MsoNormal"><span>شاشة تعديل المشروع, ستقوم بتعريف مشروع جديد أو ان تعدل مشروع موجود بالفعل باعطاء معلومات عامة عن المشروع, بما في ذلك اسم, شرح مجموعة المستخدمين المسموح لهم بادارة المشروع والميزانية المستهدفة</span></p>  |,
-		lastUpdated => 1178118566
+	'title' => {
+		message => q|الرسالة الدولية لاي من اضافة المستخدمين او اضافة المجموعات<br />|,
+		lastUpdated => 1177953975
 	},
 
 	'thursday.label' => {
@@ -161,19 +137,14 @@ our $I18N = {
 		lastUpdated => 1178117249
 	},
 
-	'opTitle' => {
-		message => q|العنوان لهذا النموذج<br />|,
-		lastUpdated => 1178118066
-	},
-
 	'resourcePopupTemplateId' => {
 		message => q|هوية النموذج لعرض نافذة لاختيار المصادر في مدير المشاريع<br />|,
 		lastUpdated => 1178123730
 	},
 
-	'form.percentComplete' => {
-		message => q|عنصر نموذد لادخال الكم المنتهي من المشروع, كنسبة مؤية<br />|,
-		lastUpdated => 1178116240
+	'opTitle' => {
+		message => q|العنوان لهذا النموذج<br />|,
+		lastUpdated => 1178118066
 	},
 
 	'edit task template vars title' => {
@@ -181,9 +152,9 @@ our $I18N = {
 		lastUpdated => 1178115475
 	},
 
-	'task end label' => {
-		message => q|انهي|,
-		lastUpdated => 1178123911
+	'form.percentComplete' => {
+		message => q|عنصر نموذد لادخال الكم المنتهي من المشروع, كنسبة مؤية<br />|,
+		lastUpdated => 1178116240
 	},
 
 	'project cost label' => {
@@ -191,14 +162,9 @@ our $I18N = {
 		lastUpdated => 1178118248
 	},
 
-	'project.create.label' => {
-		message => q|العلامة الدولية لتتماشى مع رابط <strong>project.create</strong>|,
-		lastUpdated => 1178121824
-	},
-
-	'form.save' => {
-		message => q|زر لحفظ البيانات التي تم ادخالها في النموذج<br />|,
-		lastUpdated => 1178116494
+	'task end label' => {
+		message => q|انهي|,
+		lastUpdated => 1178123911
 	},
 
 	'form.duration' => {
@@ -206,14 +172,24 @@ our $I18N = {
 		lastUpdated => 1178115915
 	},
 
+	'form.save' => {
+		message => q|زر لحفظ البيانات التي تم ادخالها في النموذج<br />|,
+		lastUpdated => 1178116494
+	},
+
+	'project.create.label' => {
+		message => q|العلامة الدولية لتتماشى مع رابط <strong>project.create</strong>|,
+		lastUpdated => 1178121824
+	},
+
 	'resourceListTemplate label' => {
 		message => q|النموذج الاعتيادي لقائمة المصادر |,
 		lastUpdated => 1178123512
 	},
 
-	'resourceIcon' => {
-		message => q|اسم ايقونة هذا المصدر, محددة لنوع المصدر<br />|,
-		lastUpdated => 1178123416
+	'project observer hoverhelp' => {
+		message => q|اختر مجموعة من المستخدمين الذين يمكنهم مطالعة المشاريع. مطالعي المشاريع سيمكنهم ان يروا المشاريع في قائمة اصول ادارة المشاريع, وسيمكنهم الاطلاع على النظرة العامة للمهمات.<br />|,
+		lastUpdated => 1178121559
 	},
 
 	'task.end' => {
@@ -221,9 +197,9 @@ our $I18N = {
 		lastUpdated => 1177954580
 	},
 
-	'project observer hoverhelp' => {
-		message => q|اختر مجموعة من المستخدمين الذين يمكنهم مطالعة المشاريع. مطالعي المشاريع سيمكنهم ان يروا المشاريع في قائمة اصول ادارة المشاريع, وسيمكنهم الاطلاع على النظرة العامة للمهمات.<br />|,
-		lastUpdated => 1178121559
+	'resourceIcon' => {
+		message => q|اسم ايقونة هذا المصدر, محددة لنوع المصدر<br />|,
+		lastUpdated => 1178123416
 	},
 
 	'form.seqNum' => {
@@ -236,24 +212,24 @@ our $I18N = {
 		lastUpdated => 1177954309
 	},
 
-	'previousSearch' => {
-		message => q|نسخة اتش تي ام ال مشكلة لبيانات التي ادخلها المستخدم للبحث السابف<br />|,
-		lastUpdated => 1178118215
-	},
-
 	'task start label' => {
 		message => q|بدء|,
 		lastUpdated => 1178124322
 	},
 
-	'group add popup searchText' => {
-		message => q|ابحث عن مجموعة:<br />|,
-		lastUpdated => 1178117543
+	'previousSearch' => {
+		message => q|نسخة اتش تي ام ال مشكلة لبيانات التي ادخلها المستخدم للبحث السابف<br />|,
+		lastUpdated => 1178118215
 	},
 
 	'task invalidMove error' => {
 		message => q|تاريخ البدء الذي اخترته من اجل هذه الهمة بكا ان تاريخ انهاء السلف لن يتم ملاقاته. اما ان ترفع قيد السلف من هذه المهمة او غير تاريخ الانهاء للسلف لتجعل هذا التاريخ مسموح به.<br />|,
 		lastUpdated => 1178124164
+	},
+
+	'group add popup searchText' => {
+		message => q|ابحث عن مجموعة:<br />|,
+		lastUpdated => 1178117543
 	},
 
 	'task.loop' => {
@@ -271,19 +247,14 @@ our $I18N = {
 		lastUpdated => 1177954459
 	},
 
-	'hours label abbrev' => {
-		message => q|ساعات|,
-		lastUpdated => 1178117675
-	},
-
 	'projectDashboardTemplate label' => {
 		message => q|نموذج عرض مدير المشروعات الاعتيادي<br /> |,
 		lastUpdated => 1178123226
 	},
 
-	'month.name' => {
-		message => q|اسم الشهر الحالي<br />|,
-		lastUpdated => 1178117908
+	'hours label abbrev' => {
+		message => q|ساعات|,
+		lastUpdated => 1178117675
 	},
 
 	'editTaskTemplate label' => {
@@ -291,14 +262,14 @@ our $I18N = {
 		lastUpdated => 1178115506
 	},
 
+	'month.name' => {
+		message => q|اسم الشهر الحالي<br />|,
+		lastUpdated => 1178117908
+	},
+
 	'hiddenFields' => {
 		message => q|مجالات النموذج الاضافية المخبئة يجب ان تضاف الى النموذح لكي يعمل بشكل صحيح<br />|,
 		lastUpdated => 1178117663
-	},
-
-	'resourceId' => {
-		message => q|المعرف الفريد لهذا المصدر<br />|,
-		lastUpdated => 1178123428
 	},
 
 	'task resources label' => {
@@ -306,19 +277,14 @@ our $I18N = {
 		lastUpdated => 1178124031
 	},
 
+	'resourceId' => {
+		message => q|المعرف الفريد لهذا المصدر<br />|,
+		lastUpdated => 1178123428
+	},
+
 	'task noPredecessor error' => {
 		message => q|السلف الذي تم ادخاله غير موجود<br />|,
 		lastUpdated => 1178123989
-	},
-
-	'selfUrl' => {
-		message => q|رابط بشكل اتش تي ام ال لمدير المشاريع هذا. هذا لعرض فقط ليس للوصل<br />|,
-		lastUpdated => 1178123807
-	},
-
-	'project.delete.warning' => {
-		message => q|رسالة دولية تستخدم في النموذج الاعتيادي كجافا سكريبت بوب اب |,
-		lastUpdated => 1178121939
 	},
 
 	'task.start' => {
@@ -326,9 +292,14 @@ our $I18N = {
 		lastUpdated => 1177954738
 	},
 
-	'task_predecessor_label' => {
-		message => q|الكلمة الدولية &quot;سلف&quot;<br />|,
-		lastUpdated => 1177953862
+	'project.delete.warning' => {
+		message => q|رسالة دولية تستخدم في النموذج الاعتيادي كجافا سكريبت بوب اب |,
+		lastUpdated => 1178121939
+	},
+
+	'selfUrl' => {
+		message => q|رابط بشكل اتش تي ام ال لمدير المشاريع هذا. هذا لعرض فقط ليس للوصل<br />|,
+		lastUpdated => 1178123807
 	},
 
 	'project new label' => {
@@ -336,14 +307,9 @@ our $I18N = {
 		lastUpdated => 1178121049
 	},
 
-	'task_complete_label' => {
-		message => q|الكلمة الدولية &quot;مكتمل&quot;<br />|,
-		lastUpdated => 1177953778
-	},
-
-	'project.cost.label' => {
-		message => q|العلامة الدولية &quot;التكلفة المقربة&quot;<br />|,
-		lastUpdated => 1178121786
+	'task_predecessor_label' => {
+		message => q|الكلمة الدولية &quot;سلف&quot;<br />|,
+		lastUpdated => 1177953862
 	},
 
 	'no projects' => {
@@ -351,14 +317,14 @@ our $I18N = {
 		lastUpdated => 1178117918
 	},
 
-	'project.resources.label' => {
-		message => q|اذا كان المستخدم عضو في مجموعة اضافة المشاريع, ستكون هذه العلامة الدولية لـ<strong>project.resources.label</strong>|,
-		lastUpdated => 1178123047
+	'project.cost.label' => {
+		message => q|العلامة الدولية &quot;التكلفة المقربة&quot;<br />|,
+		lastUpdated => 1178121786
 	},
 
-	'form.end' => {
-		message => q|عنصر نموذج لتاريخ انهاء المهمة<br />|,
-		lastUpdated => 1178115944
+	'task_complete_label' => {
+		message => q|الكلمة الدولية &quot;مكتمل&quot;<br />|,
+		lastUpdated => 1177953778
 	},
 
 	'duration units label' => {
@@ -366,19 +332,19 @@ our $I18N = {
 		lastUpdated => 1178115386
 	},
 
+	'form.end' => {
+		message => q|عنصر نموذج لتاريخ انهاء المهمة<br />|,
+		lastUpdated => 1178115944
+	},
+
+	'project.resources.label' => {
+		message => q|اذا كان المستخدم عضو في مجموعة اضافة المشاريع, ستكون هذه العلامة الدولية لـ<strong>project.resources.label</strong>|,
+		lastUpdated => 1178123047
+	},
+
 	'create project' => {
 		message => q|قم بعمل مشروع جديد<br />|,
 		lastUpdated => 1178115199
-	},
-
-	'group add popup notFoundMessage' => {
-		message => q|لم توجد اي مجموعات متوافقة<br />|,
-		lastUpdated => 1178117533
-	},
-
-	'resource none' => {
-		message => q|لا يوجد مصدر<br />|,
-		lastUpdated => 1178123345
 	},
 
 	'project observer label' => {
@@ -386,9 +352,14 @@ our $I18N = {
 		lastUpdated => 1178121577
 	},
 
-	'user add popup title' => {
-		message => q|ابحث عن مستخدم<br />|,
-		lastUpdated => 1177954097
+	'resource none' => {
+		message => q|لا يوجد مصدر<br />|,
+		lastUpdated => 1178123345
+	},
+
+	'group add popup notFoundMessage' => {
+		message => q|لم توجد اي مجموعات متوافقة<br />|,
+		lastUpdated => 1178117533
 	},
 
 	'project.resources.url' => {
@@ -396,14 +367,14 @@ our $I18N = {
 		lastUpdated => 1178123097
 	},
 
+	'user add popup title' => {
+		message => q|ابحث عن مستخدم<br />|,
+		lastUpdated => 1177954097
+	},
+
 	'task_start_label' => {
 		message => q|الكلمة الدولية &quot;بدء&quot;<br /> |,
 		lastUpdated => 1177953900
-	},
-
-	'tuesday.label' => {
-		message => q|الحرف الاول من يوم الثلاثاء بالانجليزية, دولي.<br />  |,
-		lastUpdated => 1177954041
 	},
 
 	'projectDisplayTemplate hoverhelp' => {
@@ -411,14 +382,9 @@ our $I18N = {
 		lastUpdated => 1178123293
 	},
 
-	'form.addUser.id' => {
-		message => q|معرف فريد للوصلة التي تقوم بعمل نافذة اضف مستخدم.<br />|,
-		lastUpdated => 1178115815
-	},
-
-	'task save label' => {
-		message => q|احفظ|,
-		lastUpdated => 1178124053
+	'tuesday.label' => {
+		message => q|الحرف الاول من يوم الثلاثاء بالانجليزية, دولي.<br />  |,
+		lastUpdated => 1177954041
 	},
 
 	'hours label' => {
@@ -426,9 +392,14 @@ our $I18N = {
 		lastUpdated => 1178117668
 	},
 
-	'form.addGroup.id' => {
-		message => q|معرف فريد الى الوصلة التي تقوم بعمل نافذة اضف مجموعة<br />|,
-		lastUpdated => 1178115686
+	'task save label' => {
+		message => q|احفظ|,
+		lastUpdated => 1178124053
+	},
+
+	'form.addUser.id' => {
+		message => q|معرف فريد للوصلة التي تقوم بعمل نافذة اضف مستخدم.<br />|,
+		lastUpdated => 1178115815
 	},
 
 	'saturday.label' => {
@@ -436,9 +407,9 @@ our $I18N = {
 		lastUpdated => 1178123755
 	},
 
-	'project.startDate.data' => {
-		message => q|تاريخ بدء المشروع في شكل سنة-شهر-يوم. اذا لم يتم ضبط تاريخ البدء سيتم عمل رسالة دولية قصيرة. |,
-		lastUpdated => 1178123140
+	'form.addGroup.id' => {
+		message => q|معرف فريد الى الوصلة التي تقوم بعمل نافذة اضف مجموعة<br />|,
+		lastUpdated => 1178115686
 	},
 
 	'projectDisplayTemplateId' => {
@@ -446,14 +417,19 @@ our $I18N = {
 		lastUpdated => 1178123326
 	},
 
+	'project.startDate.data' => {
+		message => q|تاريخ بدء المشروع في شكل سنة-شهر-يوم. اذا لم يتم ضبط تاريخ البدء سيتم عمل رسالة دولية قصيرة. |,
+		lastUpdated => 1178123140
+	},
+
 	'task previousPredecessor error' => {
 		message => q|السلف يجب ان يكون مهمة سابقة<br />|,
 		lastUpdated => 1178124014
 	},
 
-	'doingSearch' => {
-		message => q|شرط يتحقق اذا تم تسمية هذه النافذة جزء من نموذج البحث<br />|,
-		lastUpdated => 1178115328
+	'project action label' => {
+		message => q|الحركات|,
+		lastUpdated => 1178118227
 	},
 
 	'form.taskType' => {
@@ -461,9 +437,9 @@ our $I18N = {
 		lastUpdated => 1178117138
 	},
 
-	'project action label' => {
-		message => q|الحركات|,
-		lastUpdated => 1178118227
+	'doingSearch' => {
+		message => q|شرط يتحقق اذا تم تسمية هذه النافذة جزء من نموذج البحث<br />|,
+		lastUpdated => 1178115328
 	},
 
 	'resourceDiv' => {
@@ -496,9 +472,9 @@ our $I18N = {
 		lastUpdated => 1177954477
 	},
 
-	'project end date label' => {
-		message => q|انهي|,
-		lastUpdated => 1178118582
+	'task predecessor label' => {
+		message => q|Pred|,
+		lastUpdated => 1178124000
 	},
 
 	'project edit title' => {
@@ -506,9 +482,9 @@ our $I18N = {
 		lastUpdated => 1178118576
 	},
 
-	'task predecessor label' => {
-		message => q|Pred|,
-		lastUpdated => 1178124000
+	'project end date label' => {
+		message => q|انهي|,
+		lastUpdated => 1178118582
 	},
 
 	'ganttChartTemplateId' => {
@@ -516,14 +492,14 @@ our $I18N = {
 		lastUpdated => 1178117499
 	},
 
-	'searchText' => {
-		message => q|رالسة دولية للبحث عن مستخدمين او مجموعات<br />|,
-		lastUpdated => 1178123776
-	},
-
 	'task name error' => {
 		message => q|يجب ادخال اسم المهمة من اجل اتمام الحفظ<br />|,
 		lastUpdated => 1178123964
+	},
+
+	'searchText' => {
+		message => q|رالسة دولية للبحث عن مستخدمين او مجموعات<br />|,
+		lastUpdated => 1178123776
 	},
 
 	'ganttChartTemplate hoverhelp' => {
@@ -536,9 +512,9 @@ our $I18N = {
 		lastUpdated => 1178122831
 	},
 
-	'project dashboard template title' => {
-		message => q|مدير المشاريع, نموذج العرض الاعتيادي |,
-		lastUpdated => 1178118373
+	'friday label' => {
+		message => q|F|,
+		lastUpdated => 1178117202
 	},
 
 	'monday.label' => {
@@ -546,9 +522,9 @@ our $I18N = {
 		lastUpdated => 1178117898
 	},
 
-	'friday label' => {
-		message => q|F|,
-		lastUpdated => 1178117202
+	'project dashboard template title' => {
+		message => q|مدير المشاريع, نموذج العرض الاعتيادي |,
+		lastUpdated => 1178118373
 	},
 
 	'task back label' => {
@@ -556,14 +532,14 @@ our $I18N = {
 		lastUpdated => 1178123867
 	},
 
-	'form.addGroup.link' => {
-		message => q|الوصلة الكاملة للمجيء بنافذة اضف مجموعة<br />|,
-		lastUpdated => 1178115722
-	},
-
 	'project.complete.data.int' => {
 		message => q|نسبة الانتهاء من المشروع, كعدد صحيح |,
 		lastUpdated => 1178121711
+	},
+
+	'form.addGroup.link' => {
+		message => q|الوصلة الكاملة للمجيء بنافذة اضف مجموعة<br />|,
+		lastUpdated => 1178115722
 	},
 
 	'task.row.id' => {
@@ -571,9 +547,9 @@ our $I18N = {
 		lastUpdated => 1177954696
 	},
 
-	'project.complete.label' => {
-		message => q|العلامة الدولية &quot;% Complete&quot;|,
-		lastUpdated => 1178121726
+	'form.footer' => {
+		message => q|ا1ا كان المستخدم في مجموعة اضافة المشاريع, سيحتوي هذا المتغير على كود نموذج اتش تي ام ال على علامة تعديل مهمات العمل<br />|,
+		lastUpdated => 1178115994
 	},
 
 	'editTaskTemplateId' => {
@@ -581,9 +557,9 @@ our $I18N = {
 		lastUpdated => 1178115527
 	},
 
-	'form.footer' => {
-		message => q|ا1ا كان المستخدم في مجموعة اضافة المشاريع, سيحتوي هذا المتغير على كود نموذج اتش تي ام ال على علامة تعديل مهمات العمل<br />|,
-		lastUpdated => 1178115994
+	'project.complete.label' => {
+		message => q|العلامة الدولية &quot;% Complete&quot;|,
+		lastUpdated => 1178121726
 	},
 
 	'task duration label' => {
@@ -591,19 +567,14 @@ our $I18N = {
 		lastUpdated => 1178123881
 	},
 
-	'resourceName' => {
-		message => q|نسخة الاتش تي ام ال من اسم المصدر, ما اذا كان مستخدم او مجموعة<br />|,
-		lastUpdated => 1178123649
-	},
-
 	'resourcePopupTemplate hoverhelp' => {
 		message => q|نموذج ليستخدم نوافذ اختيار مصادر المهمة<br />|,
 		lastUpdated => 1178123680
 	},
 
-	'project dashboard template body' => {
-		message => q|العرض الاعتيادي للنموذج الذي يوجد فيه متغيرات النموذج<br />|,
-		lastUpdated => 1178118356
+	'resourceName' => {
+		message => q|نسخة الاتش تي ام ال من اسم المصدر, ما اذا كان مستخدم او مجموعة<br />|,
+		lastUpdated => 1178123649
 	},
 
 	'project.actions.label' => {
@@ -631,14 +602,14 @@ our $I18N = {
 		lastUpdated => 1178117512
 	},
 
-	'form.duration.units' => {
-		message => q|عنصر نموذج لوحدات المدة للمهمة<br />|,
-		lastUpdated => 1178115931
-	},
-
 	'days label' => {
 		message => q|الايام|,
 		lastUpdated => 1178115279
+	},
+
+	'form.duration.units' => {
+		message => q|عنصر نموذج لوحدات المدة للمهمة<br />|,
+		lastUpdated => 1178115931
 	},
 
 	'project.complete.data.float' => {
@@ -661,14 +632,14 @@ our $I18N = {
 		lastUpdated => 1178123927
 	},
 
-	'taskType timed label' => {
-		message => q|موقوت|,
-		lastUpdated => 1177953763
-	},
-
 	'project complete label' => {
 		message => q|% تم عمله<br />|,
 		lastUpdated => 1178118236
+	},
+
+	'taskType timed label' => {
+		message => q|موقوت|,
+		lastUpdated => 1177953763
 	},
 
 	'add resource popup template title' => {
@@ -676,14 +647,14 @@ our $I18N = {
 		lastUpdated => 1178115102
 	},
 
-	'ganttChartTemplate label' => {
-		message => q|نموذج gantt chart الاعتيادي|,
-		lastUpdated => 1178117480
-	},
-
 	'form.name.error' => {
 		message => q|رسالة الخطأ الدولية لاسم مهمة مفقود<br />|,
 		lastUpdated => 1178116216
+	},
+
+	'ganttChartTemplate label' => {
+		message => q|نموذج gantt chart الاعتيادي|,
+		lastUpdated => 1178117480
 	},
 
 	'task.dependants' => {
@@ -691,14 +662,14 @@ our $I18N = {
 		lastUpdated => 1177954405
 	},
 
-	'taskType milestone label' => {
-		message => q|Milestone|,
-		lastUpdated => 1177954763
-	},
-
 	'form.greaterThan.error' => {
 		message => q|رسالة الخطا الدولية لادخال تاريخ البدء بعد تاريخ الانتهاء|,
 		lastUpdated => 1178116023
+	},
+
+	'taskType milestone label' => {
+		message => q|Milestone|,
+		lastUpdated => 1177954763
 	},
 
 	'form.invalidMove.error' => {
@@ -711,14 +682,14 @@ our $I18N = {
 		lastUpdated => 1178115831
 	},
 
-	'form.lagTime' => {
-		message => q|عنصر نموذج لادخال الوقت لهذه المهمة<br />|,
-		lastUpdated => 1178116156
-	},
-
 	'task end error' => {
 		message => q|تاريخ الانتهاء يجب ان يدخل من اجل اتمام الحفظ<br />|,
 		lastUpdated => 1178123905
+	},
+
+	'form.lagTime' => {
+		message => q|عنصر نموذج لادخال الوقت لهذه المهمة<br />|,
+		lastUpdated => 1178116156
 	},
 
 	'opCallbackJs' => {
@@ -726,14 +697,14 @@ our $I18N = {
 		lastUpdated => 1178118041
 	},
 
-	'add resource popup template body' => {
-		message => q|هذا النموذج يعرض نافذة جديدة لاضافة اما مستخدمين او مجموعة لمهمة جديدة. بناء على الذي يتم اضافته, متغيرات النموذج خصوصا العلامات ستحتوي على معلومات. |,
-		lastUpdated => 1178115065
-	},
-
 	'projectDisplayTemplate label' => {
 		message => q|النموذج الاعتيادي لعرض المشروع |,
 		lastUpdated => 1178123306
+	},
+
+	'add resource popup template body' => {
+		message => q|هذا النموذج يعرض نافذة جديدة لاضافة اما مستخدمين او مجموعة لمهمة جديدة. بناء على الذي يتم اضافته, متغيرات النموذج خصوصا العلامات ستحتوي على معلومات. |,
+		lastUpdated => 1178115065
 	},
 
 	'opIcon' => {
@@ -741,24 +712,14 @@ our $I18N = {
 		lastUpdated => 1178118055
 	},
 
-	'project.delete.url' => {
-		message => q|اذا كان للمستخدم تصريح بتعديل المشاريع, اذا سيكون لهذا المتغير رابط لمسح المشروع.<br />|,
-		lastUpdated => 1178121886
-	},
-
 	'project description hoverhelp' => {
 		message => q|ادخل شرح للمشروع|,
 		lastUpdated => 1178118429
 	},
 
-	'task_save_label' => {
-		message => q|الكلمة الدولية &quot;حفظ&quot;<br />|,
-		lastUpdated => 1177953886
-	},
-
-	'daysLoop' => {
-		message => q|الحرف الاول ليوم السبت, دولي<br />|,
-		lastUpdated => 1178115303
+	'project.delete.url' => {
+		message => q|اذا كان للمستخدم تصريح بتعديل المشاريع, اذا سيكون لهذا المتغير رابط لمسح المشروع.<br />|,
+		lastUpdated => 1178121886
 	},
 
 	'resourcePopupTemplate label' => {
@@ -766,9 +727,14 @@ our $I18N = {
 		lastUpdated => 1178123699
 	},
 
-	'friday.label' => {
-		message => q|الحرف الاول من يوم الجمعة بالانجليزية, دولي<br />|,
-		lastUpdated => 1178117220
+	'daysLoop' => {
+		message => q|الحرف الاول ليوم السبت, دولي<br />|,
+		lastUpdated => 1178115303
+	},
+
+	'task_save_label' => {
+		message => q|الكلمة الدولية &quot;حفظ&quot;<br />|,
+		lastUpdated => 1177953886
 	},
 
 	'project id hoverhelp' => {
@@ -776,9 +742,14 @@ our $I18N = {
 		lastUpdated => 1178118610
 	},
 
-	'user add popup notFoundMessage' => {
-		message => q|لم يوجد اي مستخدم متوافق<br />|,
-		lastUpdated => 1177954078
+	'friday.label' => {
+		message => q|الحرف الاول من يوم الجمعة بالانجليزية, دولي<br />|,
+		lastUpdated => 1178117220
+	},
+
+	'projectDashboardTemplate hoverhelp' => {
+		message => q|النموذج الذي سيستخدم للعرض الرئيسي لتطبيق ادارة المشاريع<br />|,
+		lastUpdated => 1178123204
 	},
 
 	'resource add opTitle' => {
@@ -786,9 +757,9 @@ our $I18N = {
 		lastUpdated => 1178123335
 	},
 
-	'projectDashboardTemplate hoverhelp' => {
-		message => q|النموذج الذي سيستخدم للعرض الرئيسي لتطبيق ادارة المشاريع<br />|,
-		lastUpdated => 1178123204
+	'user add popup notFoundMessage' => {
+		message => q|لم يوجد اي مستخدم متوافق<br />|,
+		lastUpdated => 1177954078
 	},
 
 	'editTaskTemplate hoverhelp' => {
@@ -826,19 +797,14 @@ our $I18N = {
 		lastUpdated => 1177954204
 	},
 
-	'edit task template vars body' => {
-		message => q|هذه المتغيرات متوفرة في نموذج تعدل المهمة<br />|,
-		lastUpdated => 1178115462
+	'form.start.error' => {
+		message => q|رسالة الخطا الدولية لعدم ادخال تاريخ انتهاء<br />|,
+		lastUpdated => 1178117125
 	},
 
 	'project.cost.data.float' => {
 		message => q|تكلفة المشروع بفواصل مدخلة<br />|,
 		lastUpdated => 1178121744
-	},
-
-	'form.start.error' => {
-		message => q|رسالة الخطا الدولية لعدم ادخال تاريخ انتهاء<br />|,
-		lastUpdated => 1178117125
 	},
 
 	'task untimedPredecessor error' => {
@@ -856,29 +822,14 @@ our $I18N = {
 		lastUpdated => 1178118139
 	},
 
-	'noProjects' => {
-		message => q|شرط يتحقق اذا لم تكن هناك اي مشاريع في مدير المشاريع<br />|,
-		lastUpdated => 1178117936
-	},
-
 	'edit form.header' => {
 		message => q|كود لعمل نموذج تعديل المهمة. ترك هذا المتغير سيمنع النموذج من العمل<br />|,
 		lastUpdated => 1178115430
 	},
 
-	'task_resource_label' => {
-		message => q|الكلمة الدولية &quot;مصدر&quot;<br />|,
-		lastUpdated => 1177953875
-	},
-
-	'exclude' => {
-		message => q|النسخة المشكلة من HTML للبيانات التي ادخلها المستخدم للاشياء التي سستبعد من البحث<br />|,
-		lastUpdated => 1178115629
-	},
-
-	'group add popup hover' => {
-		message => q|اضف مجموعة الى المهمة<br />|,
-		lastUpdated => 1178117521
+	'noProjects' => {
+		message => q|شرط يتحقق اذا لم تكن هناك اي مشاريع في مدير المشاريع<br />|,
+		lastUpdated => 1178117936
 	},
 
 	'task.dependants.label' => {
@@ -886,19 +837,24 @@ our $I18N = {
 		lastUpdated => 1177954384
 	},
 
+	'group add popup hover' => {
+		message => q|اضف مجموعة الى المهمة<br />|,
+		lastUpdated => 1178117521
+	},
+
+	'exclude' => {
+		message => q|النسخة المشكلة من HTML للبيانات التي ادخلها المستخدم للاشياء التي سستبعد من البحث<br />|,
+		lastUpdated => 1178115629
+	},
+
+	'task_resource_label' => {
+		message => q|الكلمة الدولية &quot;مصدر&quot;<br />|,
+		lastUpdated => 1177953875
+	},
+
 	'form.name' => {
 		message => q|عنصر نموذج لكي يدخل المستخدم او يعدل اسم المهمة<br />|,
 		lastUpdated => 1178116198
-	},
-
-	'foundMessage' => {
-		message => q|رسالة الخطا الدولية لعما علامات المستخدمين او المجموعات التي وجدت<br />|,
-		lastUpdated => 1178117168
-	},
-
-	'project manager label' => {
-		message => q|مجموعة مديري المشاريع<br />|,
-		lastUpdated => 1178121014
 	},
 
 	'groupToAdd hoverhelp' => {
@@ -906,14 +862,24 @@ our $I18N = {
 		lastUpdated => 1178117620
 	},
 
+	'project manager label' => {
+		message => q|مجموعة مديري المشاريع<br />|,
+		lastUpdated => 1178121014
+	},
+
+	'foundMessage' => {
+		message => q|رسالة الخطا الدولية لعما علامات المستخدمين او المجموعات التي وجدت<br />|,
+		lastUpdated => 1178117168
+	},
+
 	'task.edit.url' => {
 		message => q|اذا كان ممكن للمستخدمين اضافة مهمات لهذا المشروع, اذا سيحتوي هذا على علامة دولية لتتماشى مع <strong>task.edit.url</strong>|,
 		lastUpdated => 1177954526
 	},
 
-	'groupToAdd' => {
-		message => q|هوية المجموعة المسموح لها بادارة مدير المشاريع هذا<br />|,
-		lastUpdated => 1178117572
+	'task.name' => {
+		message => q|اسم هذه المهمة<br />|,
+		lastUpdated => 1177954653
 	},
 
 	'assetName' => {
@@ -921,9 +887,9 @@ our $I18N = {
 		lastUpdated => 1178115133
 	},
 
-	'task.name' => {
-		message => q|اسم هذه المهمة<br />|,
-		lastUpdated => 1177954653
+	'groupToAdd' => {
+		message => q|هوية المجموعة المسموح لها بادارة مدير المشاريع هذا<br />|,
+		lastUpdated => 1178117572
 	},
 
 	'task samePredecessor error' => {
@@ -941,29 +907,9 @@ our $I18N = {
 		lastUpdated => 1178123116
 	},
 
-	'view project template vars body' => {
-		message => q|نموذج عرض المشروع له هذه المتغيرات<br />|,
-		lastUpdated => 1177954117
-	},
-
 	'task.start.label' => {
 		message => q|الكلمة الدولية &quot;بدء&quot;<br />|,
 		lastUpdated => 1177954749
-	},
-
-	'project.endDate.data' => {
-		message => q|تاريخ بدء المشروع في شكل سنة-شهر-يوم. اذا لم يتم ضبط تاريخ البدء سيتم عمل رسالة دولية قصيرة. |,
-		lastUpdated => 1178122808
-	},
-
-	'project.description.data' => {
-		message => q|شرح المشروع<br />|,
-		lastUpdated => 1178121949
-	},
-
-	'N_A' => {
-		message => q|N/A|,
-		lastUpdated => 1178114944
 	},
 
 	'form.previousPredecessor.error' => {
@@ -971,14 +917,24 @@ our $I18N = {
 		lastUpdated => 1178116447
 	},
 
+	'N_A' => {
+		message => q|N/A|,
+		lastUpdated => 1178114944
+	},
+
+	'project.description.data' => {
+		message => q|شرح المشروع<br />|,
+		lastUpdated => 1178121949
+	},
+
+	'project.endDate.data' => {
+		message => q|تاريخ بدء المشروع في شكل سنة-شهر-يوم. اذا لم يتم ضبط تاريخ البدء سيتم عمل رسالة دولية قصيرة. |,
+		lastUpdated => 1178122808
+	},
+
 	'form.dependants' => {
 		message => q|عنصر النموذج لادخال في المهمة التي تعتمد عليها هذه المهمة, بالرقم <br />|,
 		lastUpdated => 1178115903
-	},
-
-	'task start error' => {
-		message => q|يجب ادخال تاريخ البدء من اجل اتمام الحفظ<br />|,
-		lastUpdated => 1178124071
 	},
 
 	'project delete title' => {
@@ -986,9 +942,9 @@ our $I18N = {
 		lastUpdated => 1178118386
 	},
 
-	'group add popup title' => {
-		message => q|ابحث عن مجموعه<br />|,
-		lastUpdated => 1178117553
+	'task start error' => {
+		message => q|يجب ادخال تاريخ البدء من اجل اتمام الحفظ<br />|,
+		lastUpdated => 1178124071
 	},
 
 	'task.isMilestone' => {
@@ -996,9 +952,9 @@ our $I18N = {
 		lastUpdated => 1177954614
 	},
 
-	'project.edit.title' => {
-		message => q|العلامة الدولية &quot;عدل مشروع&quot;<br />|,
-		lastUpdated => 1178122003
+	'group add popup title' => {
+		message => q|ابحث عن مجموعه<br />|,
+		lastUpdated => 1178117553
 	},
 
 	'task.duration' => {
@@ -1006,14 +962,14 @@ our $I18N = {
 		lastUpdated => 1177954767
 	},
 
-	'form.lagTime.units' => {
-		message => q|عنصر نموذج لوحدات وقتlag&nbsp; الخاص بالمهمة<br /> |,
-		lastUpdated => 1178116180
+	'project.edit.title' => {
+		message => q|العلامة الدولية &quot;عدل مشروع&quot;<br />|,
+		lastUpdated => 1178122003
 	},
 
-	'monday label' => {
-		message => q|M|,
-		lastUpdated => 1178117871
+	'project.hoursPerDay' => {
+		message => q|عدد الساعات التي تمثل يوم كامل من العمل لهذا المشروع<br />|,
+		lastUpdated => 1178122894
 	},
 
 	'saturday label' => {
@@ -1021,9 +977,14 @@ our $I18N = {
 		lastUpdated => 1178123735
 	},
 
-	'project.hoursPerDay' => {
-		message => q|عدد الساعات التي تمثل يوم كامل من العمل لهذا المشروع<br />|,
-		lastUpdated => 1178122894
+	'monday label' => {
+		message => q|M|,
+		lastUpdated => 1178117871
+	},
+
+	'form.lagTime.units' => {
+		message => q|عنصر نموذج لوحدات وقتlag&nbsp; الخاص بالمهمة<br /> |,
+		lastUpdated => 1178116180
 	},
 
 	'gantt chart template vars title' => {
@@ -1061,14 +1022,14 @@ our $I18N = {
 		lastUpdated => 1177954597
 	},
 
-	'project.loop' => {
-		message => q|دورة تحتوي كل المشاريع التي مسموح للمستخدم الاتي برؤيتها<br />|,
-		lastUpdated => 1178122984
-	},
-
 	'extras.base' => {
 		message => q|الرابط الى اعلى دليل الاضافات<br />|,
 		lastUpdated => 1178115658
+	},
+
+	'project.loop' => {
+		message => q|دورة تحتوي كل المشاريع التي مسموح للمستخدم الاتي برؤيتها<br />|,
+		lastUpdated => 1178122984
 	},
 
 	'project.ganttChart' => {
@@ -1091,14 +1052,14 @@ our $I18N = {
 		lastUpdated => 1178115124
 	},
 
-	'project.delete.title' => {
-		message => q|العلامة الدولية &quot;امسح المشروع&quot;<br />|,
-		lastUpdated => 1178121838
-	},
-
 	'extras' => {
 		message => q|الرابط الى دليل الاضافات في مدير المشاريع<br />|,
 		lastUpdated => 1178115729
+	},
+
+	'project.delete.title' => {
+		message => q|العلامة الدولية &quot;امسح المشروع&quot;<br />|,
+		lastUpdated => 1178121838
 	},
 
 	'hours per day label' => {
@@ -1116,14 +1077,14 @@ our $I18N = {
 		lastUpdated => 1178123564
 	},
 
-	'project name hoverhelp' => {
-		message => q|ادخل اسم المشروع<br /> |,
-		lastUpdated => 1178121030
-	},
-
 	'task.back.label' => {
 		message => q|علامة لتتماشى مع الوصلة العائدة الى هذه الشاشة<br />|,
 		lastUpdated => 1177954295
+	},
+
+	'project name hoverhelp' => {
+		message => q|ادخل اسم المشروع<br /> |,
+		lastUpdated => 1178121030
 	},
 
 	'edit form.footer' => {
@@ -1141,14 +1102,14 @@ our $I18N = {
 		lastUpdated => 1177954676
 	},
 
-	'project start task label' => {
-		message => q|بدأ المشروع<br />|,
-		lastUpdated => 1178121595
-	},
-
 	'resourceListTemplate hoverhelp' => {
 		message => q|النموذج الذي سيستخدم لعرض قوائم المصادر. مستخدم من نموذج نافذة المصادر و نموذج تعديل المهمة<br />|,
 		lastUpdated => 1178123492
+	},
+
+	'project start task label' => {
+		message => q|بدأ المشروع<br />|,
+		lastUpdated => 1178121595
 	},
 
 	'groupToAdd label' => {
@@ -1161,14 +1122,9 @@ our $I18N = {
 		lastUpdated => 1177954176
 	},
 
-	'form.addUser.text' => {
-		message => q|معرف فريد للوصلة التي تقوم بعمل نافذة اضف مجموعة<br />|,
-		lastUpdated => 1178115854
-	},
-
-	'task_name_label' => {
-		message => q|الكلمة الدولية &quot;اسم المهمة&quot;<br />|,
-		lastUpdated => 1177953844
+	'project delete warning' => {
+		message => q|هل انت متأكد انك تريد مسح هذا المشروع وكل المهمات المرتبطة به؟<br />|,
+		lastUpdated => 1178118413
 	},
 
 	'taskType progressive label' => {
@@ -1176,14 +1132,14 @@ our $I18N = {
 		lastUpdated => 1177953748
 	},
 
-	'project delete warning' => {
-		message => q|هل انت متأكد انك تريد مسح هذا المشروع وكل المهمات المرتبطة به؟<br />|,
-		lastUpdated => 1178118413
+	'task_name_label' => {
+		message => q|الكلمة الدولية &quot;اسم المهمة&quot;<br />|,
+		lastUpdated => 1177953844
 	},
 
-	'form.addGroup.text' => {
-		message => q|العلامة الدولية لـ &quot;Add Group To Task&quot;|,
-		lastUpdated => 1178115781
+	'form.addUser.text' => {
+		message => q|معرف فريد للوصلة التي تقوم بعمل نافذة اضف مجموعة<br />|,
+		lastUpdated => 1178115854
 	},
 
 	'project start date label' => {
@@ -1191,14 +1147,19 @@ our $I18N = {
 		lastUpdated => 1178121585
 	},
 
-	'resourceListTemplateId' => {
-		message => q|هوية النموذج لعرض نافذة بقائمة المصادر في مدير المشاريع<br />|,
-		lastUpdated => 1178123538
+	'form.addGroup.text' => {
+		message => q|العلامة الدولية لـ &quot;Add Group To Task&quot;|,
+		lastUpdated => 1178115781
 	},
 
 	'project manager hoverhelp' => {
 		message => q|اختر مجموعة من المستخدمين الذين يمكنهم ادارة هذا المشروع .مديرين المشروعات سيسمح لهم بتعديل مهمات المشاريع<br />|,
 		lastUpdated => 1178120998
+	},
+
+	'resourceListTemplateId' => {
+		message => q|هوية النموذج لعرض نافذة بقائمة المصادر في مدير المشاريع<br />|,
+		lastUpdated => 1178123538
 	},
 
 	'func' => {

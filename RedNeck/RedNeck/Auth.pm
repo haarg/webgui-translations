@@ -1,5 +1,6 @@
 package WebGUI::i18n::RedNeck::Auth;
 
+
 our $I18N = {
 	'login.form.header' => {
 		message => q||,
@@ -7,11 +8,6 @@ our $I18N = {
 	},
 
 	'create.form.header' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'anon reg template body' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -41,7 +37,7 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'no.url' => {
+	'account.form.header' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -51,7 +47,7 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'account.form.header' => {
+	'no.url' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -76,12 +72,12 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'yes.label' => {
+	'login.url' => {
 		message => q||,
 		lastUpdated => 
 	},
 
-	'login.url' => {
+	'yes.label' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -92,11 +88,6 @@ our $I18N = {
 	},
 
 	'createAccount.url' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'deactivate account template body' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -141,11 +132,6 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'login template body' => {
-		message => q||,
-		lastUpdated => 
-	},
-
 	'yes.url' => {
 		message => q||,
 		lastUpdated => 
@@ -176,7 +162,7 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'profile.formElement.label' => {
+	'login.form.username.label' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -186,7 +172,7 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'login.form.username.label' => {
+	'profile.formElement.label' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -196,7 +182,7 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'question' => {
+	'login.form.submit' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -206,12 +192,7 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'login.form.submit' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'display account template body' => {
+	'question' => {
 		message => q||,
 		lastUpdated => 
 	},

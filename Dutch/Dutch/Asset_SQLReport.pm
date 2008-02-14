@@ -1,5 +1,6 @@
 package WebGUI::i18n::Dutch::Asset_SQLReport;
 
+
 our $I18N = {
 	'dbQuery4' => {
 		message => q|De vierde database zoekopdracht.|,
@@ -21,34 +22,19 @@ our $I18N = {
 		lastUpdated => 1166198103
 	},
 
-	'71' => {
-		message => q|SQL-rapporten zijn wellicht de krachtigste wobjects in het WebGUI-arsenaal. Zij laten een gebruiker een query maken van gegevens uit elke database waar zij toegang toe hebben. Dit is uitstekend voor verkoopcijfers uit uw accounting database of zelfs om alle berichtenborden van uw website samen te vatten.<br />
-<br />
-<strong>Genestelde query ondersteuning</strong><br />
-Het SQL-rapport-wobject ondersteunt tot vijf genestelde queries (een basisquery en vier subqueries). Elk opvolgende query wordt uitgevoerd voor elke rij in de vorige query-resultaten. Bijvoorbeeld, als u twee queries heeft: query1 en query2, dan wordt query2 eenmaal uitgevoerd voor elke rij die is teruggekomen in query1. U kunt parameters voor willekeurige tekens gebruiken om subqueries op te stellen met gegevens van vorige queries.<br />
-<br />
-SQL-rapporten zijn wobjects en assets, dus zij delen de eigenschappen van beide. SQL-rapporten hebben ook deze unieke eigenschappen:|,
-		lastUpdated => 1170691735
-	},
-
-	'sql report asset template variables body' => {
-		message => q|Elk object (asset) maakt een aantal variabelen beschikbaar voor de bijbehorende templates gebaseerd op interne kenmerken van het object. Sommige variabelen zijn bruikbaarder dan andere.|,
-		lastUpdated => 1189372619
-	},
-
 	'rows.count' => {
 		message => q|Het totaal aantal rijen die worden teruggebracht door de query. |,
 		lastUpdated => 1155824614
 	},
 
-	'databaseLinkId4' => {
-		message => q|De ID die beschijft op welke database de vierde zoekopdracht wordt uitgevoerd.|,
-		lastUpdated => 1189372282
-	},
-
 	'18' => {
 		message => q|Er waren geen resultaten voor deze query.|,
 		lastUpdated => 1155578365
+	},
+
+	'databaseLinkId4' => {
+		message => q|De ID die beschijft op welke database de vierde zoekopdracht wordt uitgevoerd.|,
+		lastUpdated => 1189372282
 	},
 
 	'72' => {
@@ -74,11 +60,6 @@ SQL-rapporten zijn wobjects en assets, dus zij delen de eigenschappen van beide.
 	'dbQuery3' => {
 		message => q|De derde database zoekopdracht.|,
 		lastUpdated => 1189372319
-	},
-
-	'61' => {
-		message => q|SQL-rapport, toevoegen/bewerken |,
-		lastUpdated => 1155740606
 	},
 
 	'4 description' => {
@@ -111,14 +92,14 @@ SQL-rapporten zijn wobjects en assets, dus zij delen de eigenschappen van beide.
 		lastUpdated => 1189372430
 	},
 
-	'10' => {
-		message => q|<strong>Debug</strong>: Fout: De gespecificeerde SQL heeft een verkeerd formaat.|,
-		lastUpdated => 1155562418
-	},
-
 	'rows.count.isZero' => {
 		message => q|Een booleaan die aangeeft dat de query nul rijen heeft teruggebracht.|,
 		lastUpdated => 1155829079
+	},
+
+	'10' => {
+		message => q|<strong>Debug</strong>: Fout: De gespecificeerde SQL heeft een verkeerd formaat.|,
+		lastUpdated => 1155562418
 	},
 
 	'queryN.columns_loop' => {
@@ -166,19 +147,19 @@ SQL-rapporten zijn wobjects en assets, dus zij delen de eigenschappen van beide.
 		lastUpdated => 1155577647
 	},
 
-	'queryN.row.field.__NAME__.value' => {
-		message => q|De gegevens voor een bepaald veld in deze rij waar _NAAM_ de naam van het veld is zoals teruggebracht door de query. |,
-		lastUpdated => 1155823779
-	},
-
 	'columns_loop' => {
 		message => q|Een loop die informatie over elke kolom bevat.|,
 		lastUpdated => 1155811479
 	},
 
-	'dbQuery1' => {
-		message => q|De eerste database zoekopdracht.|,
-		lastUpdated => 1189372301
+	'queryN.row.field.__NAME__.value' => {
+		message => q|De gegevens voor een bepaald veld in deze rij waar _NAAM_ de naam van het veld is zoals teruggebracht door de query. |,
+		lastUpdated => 1155823779
+	},
+
+	'cache timeout description' => {
+		message => q|Hoe lang zullen wij de resultaten van de query voor u opslaan, alvorens ze weer op te halen? |,
+		lastUpdated => 1155809626
 	},
 
 	'field.value' => {
@@ -186,9 +167,9 @@ SQL-rapporten zijn wobjects en assets, dus zij delen de eigenschappen van beide.
 		lastUpdated => 1155821072
 	},
 
-	'cache timeout description' => {
-		message => q|Hoe lang zullen wij de resultaten van de query voor u opslaan, alvorens ze weer op te halen? |,
-		lastUpdated => 1155809626
+	'dbQuery1' => {
+		message => q|De eerste database zoekopdracht.|,
+		lastUpdated => 1189372301
 	},
 
 	'cacheTimeout' => {
@@ -206,14 +187,14 @@ SQL-rapporten zijn wobjects en assets, dus zij delen de eigenschappen van beide.
 		lastUpdated => 1155564001
 	},
 
-	'15' => {
-		message => q|Macro&#39;s op query voorbewerken?|,
-		lastUpdated => 1155572075
-	},
-
 	'column.number' => {
 		message => q|Een integer die begint met 1 en het aantal kolommen door-telt. |,
 		lastUpdated => 1155811454
+	},
+
+	'15' => {
+		message => q|Macro&#39;s op query voorbewerken?|,
+		lastUpdated => 1155572075
 	},
 
 	'preprocessMacros5' => {
@@ -224,11 +205,6 @@ SQL-rapporten zijn wobjects en assets, dus zij delen de eigenschappen van beide.
 	'rows.count.isZero.label' => {
 		message => q|Het standaard-label voor rijen.tellen.isNul. |,
 		lastUpdated => 1155829073
-	},
-
-	'73' => {
-		message => q|<p>De volgende variabelen zijn beschikbaar gemaakt in SQL-rapporten:</p><p>Variabelen voor alle subqueries zullen precies hezelfde formaat hebben als de eerste query, maar zullen voorag zijn ingesteld met queryN, waar N varieert van 2 tot 5.  </p>|,
-		lastUpdated => 1155747763
 	},
 
 	'Prequery statements description' => {
@@ -345,14 +321,14 @@ De prequery-aanvragen zijn van elkaar gescheiden door enters en kunnen geen will
 		lastUpdated => 1155811593
 	},
 
-	'row.field_loop' => {
-		message => q|Een loop die alle velden voor deze rij bevat. |,
-		lastUpdated => 1155824488
-	},
-
 	'download type description' => {
 		message => q|Het type download wat aangemaakt moet worden.|,
 		lastUpdated => 1166198118
+	},
+
+	'row.field_loop' => {
+		message => q|Een loop die alle velden voor deze rij bevat. |,
+		lastUpdated => 1155824488
 	},
 
 	'placeholderParams5' => {
@@ -380,14 +356,14 @@ De prequery-aanvragen zijn van elkaar gescheiden door enters en kunnen geen will
 		lastUpdated => 1189372560
 	},
 
-	'15 description' => {
-		message => q|Als u WebGUI-macro&#39;s gebruikt in uw query, dient u deze box te controleren. |,
-		lastUpdated => 1155577300
-	},
-
 	'download usergroup' => {
 		message => q|Download gebruikers groep|,
 		lastUpdated => 1166198128
+	},
+
+	'15 description' => {
+		message => q|Als u WebGUI-macro&#39;s gebruikt in uw query, dient u deze box te controleren. |,
+		lastUpdated => 1155577300
 	},
 
 	'queryN.row.field_loop' => {
@@ -405,14 +381,14 @@ De prequery-aanvragen zijn van elkaar gescheiden door enters en kunnen geen will
 		lastUpdated => 1166197956
 	},
 
-	'preprocessMacros2' => {
-		message => q|Een voorwaardelijke variabele die aangeeft of in de tweede zoekopdracht macro's moeten worden verwerkt voordat deze moet worden uitgevoerd.|,
-		lastUpdated => 1189372507
-	},
-
 	'cache timeout' => {
 		message => q|Cache time-out|,
 		lastUpdated => 1155809069
+	},
+
+	'preprocessMacros2' => {
+		message => q|Een voorwaardelijke variabele die aangeeft of in de tweede zoekopdracht macro's moeten worden verwerkt voordat deze moet worden uitgevoerd.|,
+		lastUpdated => 1189372507
 	},
 
 	'preprocessMacros1' => {

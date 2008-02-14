@@ -1,5 +1,6 @@
 package WebGUI::i18n::German::Asset_SQLReport;
 
+
 our $I18N = {
 	'dbQuery4' => {
 		message => q||,
@@ -21,27 +22,17 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'71' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'sql report asset template variables body' => {
-		message => q|Jedes Asset bietet ihren Templates einen Satz an Variablen, die auf den Asset Eigenschaften basieren. Einige dieser Variablen k&ouml;nnen n&uuml;tzlich sein, andere nicht.|,
-		lastUpdated => 1170407994
-	},
-
 	'rows.count' => {
 		message => q||,
 		lastUpdated => 
 	},
 
-	'databaseLinkId4' => {
+	'18' => {
 		message => q||,
 		lastUpdated => 
 	},
 
-	'18' => {
+	'databaseLinkId4' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -67,11 +58,6 @@ our $I18N = {
 	},
 
 	'dbQuery3' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'61' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -106,12 +92,12 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'10' => {
+	'rows.count.isZero' => {
 		message => q||,
 		lastUpdated => 
 	},
 
-	'rows.count.isZero' => {
+	'10' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -161,17 +147,17 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'queryN.row.field.__NAME__.value' => {
-		message => q||,
-		lastUpdated => 
-	},
-
 	'columns_loop' => {
 		message => q||,
 		lastUpdated => 
 	},
 
-	'dbQuery1' => {
+	'queryN.row.field.__NAME__.value' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'cache timeout description' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -181,7 +167,7 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'cache timeout description' => {
+	'dbQuery1' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -201,12 +187,12 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'15' => {
+	'column.number' => {
 		message => q||,
 		lastUpdated => 
 	},
 
-	'column.number' => {
+	'15' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -217,11 +203,6 @@ our $I18N = {
 	},
 
 	'rows.count.isZero.label' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'73' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -336,12 +317,12 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'row.field_loop' => {
+	'download type description' => {
 		message => q||,
 		lastUpdated => 
 	},
 
-	'download type description' => {
+	'row.field_loop' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -371,12 +352,12 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'15 description' => {
+	'download usergroup' => {
 		message => q||,
 		lastUpdated => 
 	},
 
-	'download usergroup' => {
+	'15 description' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -396,12 +377,12 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'preprocessMacros2' => {
+	'cache timeout' => {
 		message => q||,
 		lastUpdated => 
 	},
 
-	'cache timeout' => {
+	'preprocessMacros2' => {
 		message => q||,
 		lastUpdated => 
 	},

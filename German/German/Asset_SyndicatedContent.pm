@@ -1,17 +1,8 @@
 package WebGUI::i18n::German::Asset_SyndicatedContent;
 
+
 our $I18N = {
 	'displayMode' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'rssUrl' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'rss.url.2.0' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -21,17 +12,17 @@ our $I18N = {
 		lastUpdated => 
 	},
 
+	'rss.url.2.0' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'rssUrl' => {
+		message => q||,
+		lastUpdated => 
+	},
+
 	'72 description' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'71' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'rss.url.0.91' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -41,17 +32,12 @@ our $I18N = {
 		lastUpdated => 1179838422
 	},
 
-	'site_link' => {
+	'rss.url.0.91' => {
 		message => q||,
 		lastUpdated => 
 	},
 
-	'syndicated content asset template variables body' => {
-		message => q|Jedes Asset bietet ihren Templates einen Satz an Variablen, die auf den Asset Eigenschaften basieren. Einige dieser Variablen k&ouml;nnen n&uuml;tzlich sein, andere nicht.|,
-		lastUpdated => 1170406531
-	},
-
-	'displayModeLabel' => {
+	'site_link' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -61,9 +47,9 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'syndicated content asset template variables title' => {
-		message => q|Syndizierte Inhalte Asset Template Variablen|,
-		lastUpdated => 1170406566
+	'displayModeLabel' => {
+		message => q||,
+		lastUpdated => 
 	},
 
 	'1' => {
@@ -71,12 +57,17 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'1 description' => {
+	'syndicated content asset template variables title' => {
+		message => q|Syndizierte Inhalte Asset Template Variablen|,
+		lastUpdated => 1170406566
+	},
+
+	'72' => {
 		message => q||,
 		lastUpdated => 
 	},
 
-	'72' => {
+	'1 description' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -101,11 +92,6 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'61' => {
-		message => q||,
-		lastUpdated => 
-	},
-
 	'item_loop' => {
 		message => q||,
 		lastUpdated => 
@@ -126,12 +112,12 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'hasTermsLabel' => {
+	'rss.url' => {
 		message => q||,
 		lastUpdated => 
 	},
 
-	'rss.url' => {
+	'hasTermsLabel' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -141,12 +127,12 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'3 description' => {
+	'interleaved' => {
 		message => q||,
 		lastUpdated => 
 	},
 
-	'interleaved' => {
+	'3 description' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -181,12 +167,12 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'templateId' => {
+	'displayModeLabel description' => {
 		message => q||,
 		lastUpdated => 
 	},
 
-	'displayModeLabel description' => {
+	'templateId' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -196,7 +182,7 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'cacheTimeout' => {
+	'grouped' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -206,7 +192,7 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'grouped' => {
+	'cacheTimeout' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -221,22 +207,17 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'rss.url.0.9' => {
-		message => q||,
-		lastUpdated => 
-	},
-
 	'4' => {
 		message => q||,
 		lastUpdated => 
 	},
 
-	'RSS Feed Title Suffix' => {
+	'rss.url.0.9' => {
 		message => q||,
 		lastUpdated => 
 	},
 
-	'73' => {
+	'RSS Feed Title Suffix' => {
 		message => q||,
 		lastUpdated => 
 	},

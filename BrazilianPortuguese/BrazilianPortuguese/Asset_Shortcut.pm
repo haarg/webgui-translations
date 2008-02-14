@@ -1,19 +1,15 @@
 package WebGUI::i18n::BrazilianPortuguese::Asset_Shortcut;
 
-our $I18N = {
-	'Random' => {
-		message => q|Aleatório|,
-		lastUpdated => 1096146760
-	},
 
+our $I18N = {
 	'Criteria' => {
 		message => q|Condição|,
 		lastUpdated => 1096146867
 	},
 
-	'Resolve Multiples?' => {
-		message => q|Resolver Múltiplos ?|,
-		lastUpdated => 1096146881
+	'Random' => {
+		message => q|Aleatório|,
+		lastUpdated => 1096146760
 	},
 
 	'7' => {
@@ -21,9 +17,9 @@ our $I18N = {
 		lastUpdated => 1081178694
 	},
 
-	'2' => {
-		message => q|Editar Proxy de Wobject|,
-		lastUpdated => 1080082499
+	'isnt' => {
+		message => q|não é|,
+		lastUpdated => 1096146723
 	},
 
 	'is' => {
@@ -31,9 +27,9 @@ our $I18N = {
 		lastUpdated => 1096146727
 	},
 
-	'isnt' => {
-		message => q|não é|,
-		lastUpdated => 1096146723
+	'2' => {
+		message => q|Editar Proxy de Wobject|,
+		lastUpdated => 1080082499
 	},
 
 	'equal to' => {
@@ -46,29 +42,14 @@ our $I18N = {
 		lastUpdated => 1080082331
 	},
 
-	'6' => {
-		message => q||,
-		lastUpdated => 
-	},
-
 	'greater than' => {
 		message => q|maior que|,
 		lastUpdated => 1096146735
 	},
 
-	'3' => {
-		message => q|Proxy de Wobject|,
-		lastUpdated => 1080082486
-	},
-
 	'9' => {
 		message => q|Desconsiderar descrição?|,
 		lastUpdated => 1081178727
-	},
-
-	'Proxy by alternate criteria?' => {
-		message => q|Proxy por condições personalizadas ?|,
-		lastUpdated => 1096146862
 	},
 
 	'not equal to' => {
@@ -81,19 +62,14 @@ our $I18N = {
 		lastUpdated => 1096146719
 	},
 
-	'AND' => {
-		message => q|E|,
-		lastUpdated => 1096146788
-	},
-
 	'8' => {
 		message => q|Desconsiderar "Exibir Título" ?|,
 		lastUpdated => 1081178716
 	},
 
-	'Most Recent' => {
-		message => q|Mais Recente|,
-		lastUpdated => 1096146773
+	'AND' => {
+		message => q|E|,
+		lastUpdated => 1096146788
 	},
 
 	'4' => {
@@ -101,19 +77,14 @@ our $I18N = {
 		lastUpdated => 1080082478
 	},
 
-	'10' => {
-		message => q|Desconsiderar modelo?|,
-		lastUpdated => 1081178706
+	'Most Recent' => {
+		message => q|Mais Recente|,
+		lastUpdated => 1096146773
 	},
 
 	'OR' => {
 		message => q|OU|,
 		lastUpdated => 1096146768
-	},
-
-	'5' => {
-		message => q|Proxy de Wobject, Adicionar/Editar|,
-		lastUpdated => 1080082444
 	},
 
 };

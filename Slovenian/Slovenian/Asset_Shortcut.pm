@@ -1,17 +1,13 @@
 package WebGUI::i18n::Slovenian::Asset_Shortcut;
 
+
 our $I18N = {
-	'shortcut template body' => {
+	'7' => {
 		message => q||,
 		lastUpdated => 
 	},
 
 	'no metadata yet' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'7' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -81,12 +77,12 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'New Override Value' => {
+	'shortcut.properties' => {
 		message => q||,
 		lastUpdated => 
 	},
 
-	'shortcut.properties' => {
+	'New Override Value' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -166,12 +162,12 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'Type of Field' => {
+	'shortcut.content' => {
 		message => q||,
 		lastUpdated => 
 	},
 
-	'shortcut.content' => {
+	'Type of Field' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -271,11 +267,6 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'field add/edit body' => {
-		message => q||,
-		lastUpdated => 
-	},
-
 	'Original Value' => {
 		message => q||,
 		lastUpdated => 
@@ -326,11 +317,6 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'6' => {
-		message => q||,
-		lastUpdated => 
-	},
-
 	'Use this field to edit the override using the native form handler for this field type' => {
 		message => q||,
 		lastUpdated => 
@@ -341,17 +327,12 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'field add/edit title' => {
-		message => q||,
-		lastUpdated => 
-	},
-
 	'Hover Help Description for this Field' => {
 		message => q||,
 		lastUpdated => 
 	},
 
-	'9' => {
+	'field add/edit title' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -361,17 +342,22 @@ our $I18N = {
 		lastUpdated => 
 	},
 
+	'9' => {
+		message => q||,
+		lastUpdated => 
+	},
+
 	'8' => {
 		message => q||,
 		lastUpdated => 
 	},
 
-	'Most Recent' => {
+	'4' => {
 		message => q||,
 		lastUpdated => 
 	},
 
-	'4' => {
+	'Most Recent' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -387,11 +373,6 @@ our $I18N = {
 	},
 
 	'Edit User Preference Field' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'5' => {
 		message => q||,
 		lastUpdated => 
 	},

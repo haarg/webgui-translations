@@ -1,7 +1,8 @@
 package WebGUI::i18n::BrazilianPortuguese::Macro_Product;
 
+
 our $I18N = {
-	'sku' => {
+	'variant.price' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -11,7 +12,7 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'variant.price' => {
+	'sku' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -71,11 +72,6 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'product body' => {
-		message => q||,
-		lastUpdated => 
-	},
-
 	'productId' => {
 		message => q||,
 		lastUpdated => 
@@ -101,14 +97,14 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'price' => {
-		message => q|O custo do produto|,
-		lastUpdated => 1168971812
-	},
-
 	'title' => {
 		message => q||,
 		lastUpdated => 
+	},
+
+	'price' => {
+		message => q|O custo do produto|,
+		lastUpdated => 1168971812
 	},
 
 	'variantLoop' => {

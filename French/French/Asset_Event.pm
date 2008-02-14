@@ -1,14 +1,10 @@
 package WebGUI::i18n::French::Asset_Event;
 
-our $I18N = {
-	'add/edit body' => {
-		message => q|ajouter / &eacute;diter le contenu<br />|,
-		lastUpdated => 1170784058
-	},
 
-	'assetName' => {
-		message => q|nom|,
-		lastUpdated => 1170784096
+our $I18N = {
+	'locale' => {
+		message => q|repr&eacute;sentation des dates<br />|,
+		lastUpdated => 1170784155
 	},
 
 	'add/edit title' => {
@@ -16,9 +12,9 @@ our $I18N = {
 		lastUpdated => 1170784078
 	},
 
-	'locale' => {
-		message => q|repr&eacute;sentation des dates<br />|,
-		lastUpdated => 1170784155
+	'assetName' => {
+		message => q|nom|,
+		lastUpdated => 1170784096
 	},
 
 };

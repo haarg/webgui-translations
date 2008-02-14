@@ -1,5 +1,6 @@
 package WebGUI::i18n::Dutch::Asset_Poll;
 
+
 our $I18N = {
 	'form.end' => {
 		message => q|Met deze variabele wordt het formulier van de peiling afgesloten |,
@@ -11,19 +12,14 @@ our $I18N = {
 		lastUpdated => 1151500125
 	},
 
-	'71' => {
-		message => q|Peilingen kunnen je een indruk geven van de mening van bezoekers over allerlei onderwerpen. Een peiling is zowel een toepassing als een object en heeft daarom de eigenschappen van beide. Peilingen hebben de volgende unieke eigenschappen:|,
-		lastUpdated => 1150812350
+	'7' => {
+		message => q|antwoorden |,
+		lastUpdated => 1151499932
 	},
 
 	'generate graph description' => {
 		message => q|Selecteer &#39;aan&#39; bij dit keuzerondje om een plaatje te laten weergeven als grafiek.&nbsp;|,
 		lastUpdated => 1150813781
-	},
-
-	'7' => {
-		message => q|antwoorden |,
-		lastUpdated => 1151499932
 	},
 
 	'assetName' => {
@@ -41,9 +37,9 @@ our $I18N = {
 		lastUpdated => 1150813372
 	},
 
-	'hasImageGraph' => {
-		message => q|Een voorwaardelijke variabele die waar is als er een grafiek beschikbaar is.|,
-		lastUpdated => 1189366761
+	'72' => {
+		message => q|Antwoorden in willekeurige volgorde weergeven?|,
+		lastUpdated => 1150812366
 	},
 
 	'poll asset template variables body' => {
@@ -51,14 +47,9 @@ our $I18N = {
 		lastUpdated => 1189366811
 	},
 
-	'72' => {
-		message => q|Antwoorden in willekeurige volgorde weergeven?|,
-		lastUpdated => 1150812366
-	},
-
-	'generateGraph' => {
-		message => q|Een voorwaardelijke variabele die waar is als de poll is ingesteld om een grafiek weer te geven.|,
-		lastUpdated => 1189366655
+	'hasImageGraph' => {
+		message => q|Een voorwaardelijke variabele die waar is als er een grafiek beschikbaar is.|,
+		lastUpdated => 1189366761
 	},
 
 	'canVote' => {
@@ -66,9 +57,9 @@ our $I18N = {
 		lastUpdated => 1150813449
 	},
 
-	'graphConfiguration' => {
-		message => q|Het type grafiek.|,
-		lastUpdated => 1189366663
+	'generateGraph' => {
+		message => q|Een voorwaardelijke variabele die waar is als de poll is ingesteld om een grafiek weer te geven.|,
+		lastUpdated => 1189366655
 	},
 
 	'answer.form' => {
@@ -76,9 +67,9 @@ our $I18N = {
 		lastUpdated => 1150812863
 	},
 
-	'74' => {
-		message => q|De volgende variabelen zijn beschikbaar in sjablonen voor de peiling: |,
-		lastUpdated => 1150812622
+	'graphConfiguration' => {
+		message => q|Het type grafiek.|,
+		lastUpdated => 1189366663
 	},
 
 	'voteGroup' => {
@@ -91,24 +82,19 @@ our $I18N = {
 		lastUpdated => 1189366633
 	},
 
-	'61' => {
-		message => q|peiling, toevoegen/bewerken|,
-		lastUpdated => 1150812144
-	},
-
 	'answer.number' => {
 		message => q|Het nummer van dit antwoord, zoals 1, 2, 3, etc.|,
 		lastUpdated => 1151499983
 	},
 
-	'5 description' => {
-		message => q|Dit is de breedte van de grafiek die de resultaten van de peiling laat zien. Deze breedte is uitgedrukt in pixels (beeldschermpunten). Zonder wijziging is deze breedte 150 pixels.|,
-		lastUpdated => 1151499889
-	},
-
 	'4 description' => {
 		message => q|Kies een groep die mag stemmen in deze peiling. Zonder wijziging kan de groep &#39;iedereen&#39; stemmen.&nbsp;|,
 		lastUpdated => 1150811991
+	},
+
+	'5 description' => {
+		message => q|Dit is de breedte van de grafiek die de resultaten van de peiling laat zien. Deze breedte is uitgedrukt in pixels (beeldschermpunten). Zonder wijziging is deze breedte 150 pixels.|,
+		lastUpdated => 1151499889
 	},
 
 	'20' => {
@@ -156,14 +142,14 @@ our $I18N = {
 		lastUpdated => 1150813055
 	},
 
-	'form.start' => {
-		message => q|Met deze variabele wordt het formulier voorde peiling gestart.|,
-		lastUpdated => 1150813594
-	},
-
 	'7 description' => {
 		message => q|Geef de antwoorden waaruit mensen kunnen kiezen. Geef &eacute;&eacute;n antwoord per regel. Maximaal kunnen er 20 mogelijke antwoorden ingevoerd worden.|,
 		lastUpdated => 1151500112
+	},
+
+	'form.start' => {
+		message => q|Met deze variabele wordt het formulier voorde peiling gestart.|,
+		lastUpdated => 1150813594
 	},
 
 	'karmaPerVote' => {
@@ -171,14 +157,14 @@ our $I18N = {
 		lastUpdated => 1189366780
 	},
 
-	'templateId' => {
-		message => q|De ID van het template dat gebruikt wordt om dit object (asset) weer te geven.|,
-		lastUpdated => 1189366882
-	},
-
 	'6 description' => {
 		message => q|Wat is de vraag die je wil stellen in de peiling? |,
 		lastUpdated => 1150812131
+	},
+
+	'templateId' => {
+		message => q|De ID van het template dat gebruikt wordt om dit object (asset) weer te geven.|,
+		lastUpdated => 1189366882
 	},
 
 	'6' => {
@@ -196,9 +182,9 @@ our $I18N = {
 		lastUpdated => 1151500022
 	},
 
-	'graphUrl' => {
-		message => q|De URL naar de grafiek van de resultaten van de poll. Deze variabele is alleen beschikbaar als de poll is ingesteld om een grafiek weer te geven en als de configuratie van de grafiek klopt.|,
-		lastUpdated => 1189366718
+	'9' => {
+		message => q|bewerk peiling|,
+		lastUpdated => 1151499973
 	},
 
 	'form.submit' => {
@@ -206,14 +192,9 @@ our $I18N = {
 		lastUpdated => 1150813574
 	},
 
-	'9' => {
-		message => q|bewerk peiling|,
-		lastUpdated => 1151499973
-	},
-
-	'randomizeAnswers' => {
-		message => q|Een voorwaardelijke variabele die waar is als de peiling was ingesteld om antwoorden in willekeurige volgorde weer te geven.|,
-		lastUpdated => 1189366858
+	'graphUrl' => {
+		message => q|De URL naar de grafiek van de resultaten van de poll. Deze variabele is alleen beschikbaar als de poll is ingesteld om een grafiek weer te geven en als de configuratie van de grafiek klopt.|,
+		lastUpdated => 1189366718
 	},
 
 	'12' => {
@@ -221,9 +202,14 @@ our $I18N = {
 		lastUpdated => 1146235911
 	},
 
-	'poll asset template variables title' => {
-		message => q|Poll object (asset) template variabelen|,
-		lastUpdated => 1189366823
+	'randomizeAnswers' => {
+		message => q|Een voorwaardelijke variabele die waar is als de peiling was ingesteld om antwoorden in willekeurige volgorde weer te geven.|,
+		lastUpdated => 1189366858
+	},
+
+	'8' => {
+		message => q|(Voer &eacute;&eacute;n antwoord in per regel en niet meer dan 20.) |,
+		lastUpdated => 1150812654
 	},
 
 	'question' => {
@@ -231,9 +217,9 @@ our $I18N = {
 		lastUpdated => 1189366832
 	},
 
-	'8' => {
-		message => q|(Voer &eacute;&eacute;n antwoord in per regel en niet meer dan 20.) |,
-		lastUpdated => 1150812654
+	'poll asset template variables title' => {
+		message => q|Poll object (asset) template variabelen|,
+		lastUpdated => 1189366823
 	},
 
 	'4' => {
@@ -246,14 +232,14 @@ our $I18N = {
 		lastUpdated => 1189366733
 	},
 
-	'generate graph' => {
-		message => q|Maak een plaatje als grafiek.|,
-		lastUpdated => 1151500052
-	},
-
 	'answer.percent' => {
 		message => q|Het percentage van de gevallen waarin voor dit antwoord is gekozen. |,
 		lastUpdated => 1151499994
+	},
+
+	'generate graph' => {
+		message => q|Maak een plaatje als grafiek.|,
+		lastUpdated => 1151500052
 	},
 
 	'73' => {
@@ -261,14 +247,14 @@ our $I18N = {
 		lastUpdated => 1150812544
 	},
 
-	'responses.total' => {
-		message => q|Het totaal aantal stemmen dat is uitgebracht in deze peiling.|,
-		lastUpdated => 1151500069
-	},
-
 	'responses.label' => {
 		message => q|De tekst - label - die aan het totaal aantal stemmen vooraf gaat: &quot;Totaal aantal stemmen:&quot; |,
 		lastUpdated => 1150813849
+	},
+
+	'responses.total' => {
+		message => q|Het totaal aantal stemmen dat is uitgebracht in deze peiling.|,
+		lastUpdated => 1151500069
 	},
 
 	'5' => {

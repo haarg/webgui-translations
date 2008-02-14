@@ -1,19 +1,15 @@
 package WebGUI::i18n::German::Asset_Shortcut;
 
+
 our $I18N = {
-	'shortcut template body' => {
-		message => q||,
-		lastUpdated => 
+	'7' => {
+		message => q|Titel &uuml;berschreiben?|,
+		lastUpdated => 1178710279
 	},
 
 	'no metadata yet' => {
 		message => q||,
 		lastUpdated => 
-	},
-
-	'7' => {
-		message => q|Titel &uuml;berschreiben?|,
-		lastUpdated => 1178710279
 	},
 
 	'disable content lock' => {
@@ -81,12 +77,12 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'New Override Value' => {
+	'shortcut.properties' => {
 		message => q||,
 		lastUpdated => 
 	},
 
-	'shortcut.properties' => {
+	'New Override Value' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -166,12 +162,12 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'Type of Field' => {
+	'shortcut.content' => {
 		message => q||,
 		lastUpdated => 
 	},
 
-	'shortcut.content' => {
+	'Type of Field' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -271,11 +267,6 @@ our $I18N = {
 		lastUpdated => 1157856426
 	},
 
-	'field add/edit body' => {
-		message => q||,
-		lastUpdated => 
-	},
-
 	'Original Value' => {
 		message => q|Originalwert|,
 		lastUpdated => 1178710703
@@ -326,11 +317,6 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'6' => {
-		message => q||,
-		lastUpdated => 
-	},
-
 	'Use this field to edit the override using the native form handler for this field type' => {
 		message => q||,
 		lastUpdated => 
@@ -341,19 +327,14 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'field add/edit title' => {
-		message => q||,
-		lastUpdated => 
-	},
-
 	'Hover Help Description for this Field' => {
 		message => q|"Hover" Hilfe (Beschreibung) f&uuml;r dieses Feld.|,
 		lastUpdated => 1178710617
 	},
 
-	'9' => {
-		message => q|Beschreibung &uuml;berschreiben?|,
-		lastUpdated => 1178710373
+	'field add/edit title' => {
+		message => q||,
+		lastUpdated => 
 	},
 
 	'Resolve Multiples' => {
@@ -361,19 +342,24 @@ our $I18N = {
 		lastUpdated => 
 	},
 
+	'9' => {
+		message => q|Beschreibung &uuml;berschreiben?|,
+		lastUpdated => 1178710373
+	},
+
 	'8' => {
 		message => q|Men&uuml;titel &uuml;berschreiben?|,
 		lastUpdated => 1178710449
 	},
 
-	'Most Recent' => {
-		message => q||,
-		lastUpdated => 
-	},
-
 	'4' => {
 		message => q|Spiegeln des Assets fehlgeschlagen. Vielleicht wurde das originale Asset gel&ouml;scht.|,
 		lastUpdated => 1178710240
+	},
+
+	'Most Recent' => {
+		message => q||,
+		lastUpdated => 
 	},
 
 	'Shortcut by alternate criteria description' => {
@@ -389,11 +375,6 @@ our $I18N = {
 	'Edit User Preference Field' => {
 		message => q||,
 		lastUpdated => 
-	},
-
-	'5' => {
-		message => q|Shortcut hinzuf&uuml;gen/bearbeiten|,
-		lastUpdated => 1178710256
 	},
 
 };

@@ -1,14 +1,10 @@
 package WebGUI::i18n::German::Asset_Thread;
 
+
 our $I18N = {
 	'user.isSubscribed' => {
 		message => q|Bediungung, die wahr ist, falls der aktuelle Benutzer diesen Thread abonniert hat.|,
 		lastUpdated => 1179842121
-	},
-
-	'layout.isThreaded' => {
-		message => q|Bedingung, die angibt, ob das aktuelle Layout threaded ist.|,
-		lastUpdated => 1179841096
 	},
 
 	'thread template title' => {
@@ -16,14 +12,19 @@ our $I18N = {
 		lastUpdated => 1179841816
 	},
 
-	'assetName' => {
-		message => q|Thread|,
-		lastUpdated => 1179839013
+	'layout.isThreaded' => {
+		message => q|Bedingung, die angibt, ob das aktuelle Layout threaded ist.|,
+		lastUpdated => 1179841096
 	},
 
 	'archive.url' => {
 		message => q|URL, um diesen Thread zu archivieren.|,
 		lastUpdated => 1179839008
+	},
+
+	'assetName' => {
+		message => q|Thread|,
+		lastUpdated => 1179839013
 	},
 
 	'replies' => {
@@ -71,11 +72,6 @@ our $I18N = {
 		lastUpdated => 1179842071
 	},
 
-	'thread template body' => {
-		message => q|Die folgenden Variablen sind im Thread Template verf&uuml;gbar. Zus&auml;tzlich k&ouml;nnen alle Variablen des Post Templates benutzt werden. Labels f&uuml;r URL f&uuml;r Aktionen wie <strong>unlock.url</strong>, <strong>stick.url</strong>, etc. werden von den Collaboration Labels zur Verf&uuml;gung gestellt. Die Seitenaufteilung Template Variablen zur Anzeige von mehreren Seiten sind dar&uuml;berhinaus auch verf&uuml;gbar.|,
-		lastUpdated => 1179841807
-	},
-
 	'collaboration.description' => {
 		message => q|Die Beschreibung des Collaboration Systems, dem dieser Post zugeordnet ist.|,
 		lastUpdated => 1179839125
@@ -91,14 +87,14 @@ our $I18N = {
 		lastUpdated => 1179839779
 	},
 
-	'collaboration.url' => {
-		message => q|URL, um zum Collaboration System zur&uuml;ckzukehren, dem dieser Post zugeordnet ist.|,
-		lastUpdated => 1179839166
-	},
-
 	'depth' => {
 		message => q|Nummer, die die Anzahl der Schleifendurchg&auml;nge von <strong>indent_loop</strong> angibt.|,
 		lastUpdated => 1179839333
+	},
+
+	'collaboration.url' => {
+		message => q|URL, um zum Collaboration System zur&uuml;ckzukehren, dem dieser Post zugeordnet ist.|,
+		lastUpdated => 1179839166
 	},
 
 	'isSticky' => {
@@ -106,14 +102,14 @@ our $I18N = {
 		lastUpdated => 1179840717
 	},
 
-	'isLocked variable' => {
-		message => q|Boolsche Variable, die wahr ist, falls der Thread gesperrt war.|,
-		lastUpdated => 1179840693
-	},
-
 	'thumbsDown.icon.url' => {
 		message => q|URL zum thumbs down Icon.|,
 		lastUpdated => 1179841838
+	},
+
+	'isLocked variable' => {
+		message => q|Boolsche Variable, die wahr ist, falls der Thread gesperrt war.|,
+		lastUpdated => 1179840693
 	},
 
 	'user.isModerator' => {
@@ -156,9 +152,9 @@ our $I18N = {
 		lastUpdated => 1179841512
 	},
 
-	'subscriptionGroupId' => {
-		message => q|Die ID der Gruppe, die f&uuml;r die Abonnenten dieses Threads reserviert ist.|,
-		lastUpdated => 1179841560
+	'repliesAllowed' => {
+		message => q|Bedingung, die anzeigt, ob in diesem Thread Antworten erlaubt sind.|,
+		lastUpdated => 1179841423
 	},
 
 	'karmaScale' => {
@@ -166,14 +162,14 @@ our $I18N = {
 		lastUpdated => 1179840915
 	},
 
-	'repliesAllowed' => {
-		message => q|Bedingung, die anzeigt, ob in diesem Thread Antworten erlaubt sind.|,
-		lastUpdated => 1179841423
+	'subscriptionGroupId' => {
+		message => q|Die ID der Gruppe, die f&uuml;r die Abonnenten dieses Threads reserviert ist.|,
+		lastUpdated => 1179841560
 	},
 
-	'next.url' => {
-		message => q|URL zum n&auml;chsten Thread.|,
-		lastUpdated => 1179841321
+	'post_loop' => {
+		message => q|Schleife, die alle Posts dieses Threads enth&auml;lt. Jeder Post in der Schleife besitzt seinen eigenen Satz an Post Template Variablen.|,
+		lastUpdated => 1179841375
 	},
 
 	'subscribe.url' => {
@@ -181,9 +177,9 @@ our $I18N = {
 		lastUpdated => 1179841528
 	},
 
-	'post_loop' => {
-		message => q|Schleife, die alle Posts dieses Threads enth&auml;lt. Jeder Post in der Schleife besitzt seinen eigenen Satz an Post Template Variablen.|,
-		lastUpdated => 1179841375
+	'next.url' => {
+		message => q|URL zum n&auml;chsten Thread.|,
+		lastUpdated => 1179841321
 	},
 
 	'userProfile.url' => {
@@ -206,14 +202,14 @@ our $I18N = {
 		lastUpdated => 1179841013
 	},
 
-	'indent_loop' => {
-		message => q|Schleife, die <strong>depth</strong> mal durchlaufen wird.|,
-		lastUpdated => 1179839327
-	},
-
 	'user.canPost' => {
 		message => q|Bediungung, die anzeigt, ob der aktuelle Benutzer Posts zu diesem Thread hinzuf&uuml;gen darf.|,
 		lastUpdated => 1179842030
+	},
+
+	'indent_loop' => {
+		message => q|Schleife, die <strong>depth</strong> mal durchlaufen wird.|,
+		lastUpdated => 1179839327
 	},
 
 	'search.url' => {
@@ -221,14 +217,14 @@ our $I18N = {
 		lastUpdated => 1179841462
 	},
 
-	'thread asset template title' => {
-		message => q|Thread Asset Template Variablen.|,
-		lastUpdated => 1179841621
-	},
-
 	'karma' => {
 		message => q|Zeight an, wieviel Karma dieser Thread besitzt|,
 		lastUpdated => 1178626813
+	},
+
+	'thread asset template title' => {
+		message => q|Thread Asset Template Variablen.|,
+		lastUpdated => 1179841621
 	},
 
 	'depthX10' => {
@@ -246,24 +242,14 @@ our $I18N = {
 		lastUpdated => 1179841931
 	},
 
-	'isSticky variable' => {
-		message => q|Boolsche Variable, die wahr ist, falls der Thread als &quot;sticky&quot; markiert war.|,
-		lastUpdated => 1179840744
-	},
-
 	'isArchived' => {
 		message => q|Bedingung, die angibt, ob der aktuelle Thread archiviert ist.|,
 		lastUpdated => 1179839373
 	},
 
-	'layout.threaded.url' => {
-		message => q|URL, um das Layout auf threaded umzustellen. Dies ist das Standard Layout. Posts werden einzeln dargestellt.|,
-		lastUpdated => 1179841236
-	},
-
-	'karmaRank' => {
-		message => q|Dies ist das Karma, das durch die Karma Anzeige getrennt ist.|,
-		lastUpdated => 1179840846
+	'isSticky variable' => {
+		message => q|Boolsche Variable, die wahr ist, falls der Thread als &quot;sticky&quot; markiert war.|,
+		lastUpdated => 1179840744
 	},
 
 	'user.isVisitor' => {
@@ -271,9 +257,14 @@ our $I18N = {
 		lastUpdated => 1179842139
 	},
 
-	'thread asset template body' => {
-		message => q|Die folgenden Variablen sind im Thread Template verf&uuml;gbar. Die meisten davon sind interne Variablen und nicht sehr n&uuml;tzlich.|,
-		lastUpdated => 1179841606
+	'karmaRank' => {
+		message => q|Dies ist das Karma, das durch die Karma Anzeige getrennt ist.|,
+		lastUpdated => 1179840846
+	},
+
+	'layout.threaded.url' => {
+		message => q|URL, um das Layout auf threaded umzustellen. Dies ist das Standard Layout. Posts werden einzeln dargestellt.|,
+		lastUpdated => 1179841236
 	},
 
 };

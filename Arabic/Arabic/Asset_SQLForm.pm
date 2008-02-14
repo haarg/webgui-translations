@@ -1,14 +1,15 @@
 package WebGUI::i18n::Arabic::Asset_SQLForm;
 
-our $I18N = {
-	'' => {
-		message => q||,
-		lastUpdated => 
-	},
 
+our $I18N = {
 	'ef summary length' => {
 		message => q|طول الاختصار<br />|,
 		lastUpdated => 1177857666
+	},
+
+	'' => {
+		message => q||,
+		lastUpdated => 
 	},
 
 	'ef unsigned label' => {
@@ -26,19 +27,14 @@ our $I18N = {
 		lastUpdated => 1177866045
 	},
 
-	'edit field type description' => {
-		message => q|  <p dir="rtl" class="MsoNormal"><span>انواع المجال هي مزيج بين نوع عمود قاعدة البيانات وعنصر نموذج لمدخلات البيانات. انواع المجالات هذه تستخدم لتعريف قواعد المجالات في </span><span>SQLForm</span><span> الخاص بك. انواع المجالات من الممكن ان تمسح فقط اذا لم يكونوا في الاستخدام من </span><span>SQLForm</span><span> في النظام. ضع في الاعتبار ان هذا أيضا يتضمن اصول </span><span>SQLForm</span><span> الموجودة في سلة المهملات و سيتم تنظيفها.</span></p>  |,
-		lastUpdated => 1177856760
+	'change field warning' => {
+		message => q|تغيير الخواص التالية من الممكن ان يسبب فقدان تام للبيانات في هذا المجال field:\n\n \t.. نوع مجال قاعدة البيانات .\n \t. انقاص طول المجال الاقصى .\n \t. تغيير العلامة .\n\n\n. هل تريد الاستمرار؟|,
+		lastUpdated => 1177854061
 	},
 
 	'superSearch.label' => {
 		message => q|الاسم الدول للبحث المتقدم<br />|,
 		lastUpdated => 1177866906
-	},
-
-	'change field warning' => {
-		message => q|تغيير الخواص التالية من الممكن ان يسبب فقدان تام للبيانات في هذا المجال field:\n\n \t.. نوع مجال قاعدة البيانات .\n \t. انقاص طول المجال الاقصى .\n \t. تغيير العلامة .\n\n\n. هل تريد الاستمرار؟|,
-		lastUpdated => 1177854061
 	},
 
 	's normal search' => {
@@ -54,11 +50,6 @@ our $I18N = {
 	'showFieldsDefined' => {
 		message => q|شرط يتحقق اذا كانت هناك مجلات معرفة ومعروضة. بكلمات اخرى, هذا يكون خاطئ اذا كان كل مجال مضبوط لن يتم عرضه في نتائج البحث.&nbsp; |,
 		lastUpdated => 1177866712
-	},
-
-	'edit field description' => {
-		message => q|  <p dir="rtl" class="MsoNormal"><span>المجالات هي قواعد </span><span>SQLForms</span><span>. كل نموذج يتكون من مجال أو اكثر. من فضلك انك لكي تعرف المجالات, يجب على الاقل تعريف مجال واحد. لمعلومات عن انواع المجالات انظر قسم ادارة انواع المجالات </span><strong><span>Manage field types</span></strong><span></span></p>  |,
-		lastUpdated => 1177854155
 	},
 
 	'sql form asset template variables title' => {
@@ -81,24 +72,24 @@ our $I18N = {
 		lastUpdated => 1177857144
 	},
 
-	'record.updateDate' => {
-		message => q|تاريخ اخر مرة تم تعديل هذا التسجيل فيه<br />|,
-		lastUpdated => 1177863902
-	},
-
 	'er regex' => {
 		message => q|Regex|,
 		lastUpdated => 1177859227
 	},
 
-	's purge' => {
-		message => q|<p>نظف</p><p>&nbsp;</p>|,
-		lastUpdated => 1177865496
+	'record.updateDate' => {
+		message => q|تاريخ اخر مرة تم تعديل هذا التسجيل فيه<br />|,
+		lastUpdated => 1177863902
 	},
 
 	'ef join values description' => {
 		message => q|استخدم هذه الخاصية لكي تقوم بعمل قيم للاختيارات والاختيارات المعتمدة على عناصر النماذج. مثل قائمة اختيار, من جدول التعريف<br />|,
 		lastUpdated => 1177857436
+	},
+
+	's purge' => {
+		message => q|<p>نظف</p><p>&nbsp;</p>|,
+		lastUpdated => 1177865496
 	},
 
 	'ef read only' => {
@@ -256,11 +247,6 @@ our $I18N = {
 		lastUpdated => 1177861124
 	},
 
-	'sqlform description' => {
-		message => q|  <p dir="&quot;rtl&quot;" class="&quot;MsoNormal&quot;"><span>اصل </span><span>SQLForm</span><span> يسمح لك بعمل بيانات ادخال ديناميكية وخاصية تخزين في موقعك. كل البيانات ستم وضعها في جدول من اختيارك في قاعدة البيانات التي تختارها. عنصر نموذج عشوائي من الممكن ان يربط بكل مجال ونماذج المدخلات من الممكن ان تبنى في طرق مختلفة لكي تتأكد من احسن سبل التأقلم مع احتياجاتك. </span></p>  <p dir="&quot;rtl&quot;" class="&quot;MsoNormal&quot;"><span>&nbsp;</span></p>  <p dir="&quot;rtl&quot;" class="&quot;MsoNormal&quot;"><span>خواص </span><span>SQLForm</span><span> هي عمل جداول جديدة, استيراد الجداول الموجودة و اعادة استيراد الجداول التي تم استيرادها مسبقا. من الممكن وصل المجالات بمجالات اخرى في جداول اخرى بطرق متعددة, مما يجعل حل الهويات للقيم ممكنا, اضافة قيود على البيانات التي تم ادخالها أو وصل العديد من </span><span>SQLForm</span><span> ببعضها. </span></p>  <p dir="&quot;rtl&quot;" class="&quot;MsoNormal&quot;"><span>&nbsp;</span></p>  <p dir="&quot;rtl&quot;" class="&quot;MsoNormal&quot;"><span>مدخلات المستخدم من الممكن ان تفحص ضد المصطلحات العادية والقيود اليدوية التي قمت انت بعملها. هذا بالاضافة إلى انه من الممكن ان تضيف علم </span><span>autoincrement</span><span> وماكروهات إلى المجالات, بين اعمال اخرى. </span></p>  <p dir="&quot;rtl&quot;" class="&quot;MsoNormal&quot;"><span>&nbsp;</span></p>  <p dir="&quot;rtl&quot;" class="&quot;MsoNormal&quot;"><span>كل البيانات التي تم ادخالها هي منسخة ومن توجد سلة مهملات من مستويين في داخلها(مسح/تنظيف). ثلاثة طبقات من الصلاحيات متوفرة لقسم الاتصال إلى حركات مختلفة.</span></p>  |,
-		lastUpdated => 1178726679
-	},
-
 	'manage field types' => {
 		message => q|قم بادارة انواع المجالات<br />|,
 		lastUpdated => 1177863321
@@ -369,16 +355,6 @@ our $I18N = {
 	'ef required description' => {
 		message => q|ضبط هذه الخاصية على نعهم سيجبر المستخمين على ملا القيمة لهذا المجال في حين اضافة التسجيل. اذا تم الضبط على لا يمكن للمستخدمين تركه فارغا<br />|,
 		lastUpdated => 1177857572
-	},
-
-	'search template help' => {
-		message => q|  <p dir="rtl" class="MsoNormal"><span>نموذج البحث الخاص باصل </span><span>SQLForm</span><span> يوفر لك طريقة لتخصيص منظر عملية البحث التي يقوم بها </span><span>SQLForm</span><span>. </span></p>  <p dir="rtl" class="MsoNormal"><span>&nbsp;</span></p>  <p dir="rtl" class="MsoNormal"><span>توجد طريقتين منفصلتين للبحث, البحث العادي والمتقدم, لكن الاثنين يستخدمون نفس النموذج. في كلا الحالتين يتوفر نموذج بحث كامل. عناصر نموذج البحث الفردية موجودة أيضا, لكن لاحظ ان عناصر نموذج مختلفة تستخدم للبحث العادي والمتقدم.</span></p>  <p dir="rtl" class="MsoNormal"><span>&nbsp;</span></p>  <p dir="rtl" class="MsoNormal"><span>النموذج يوفر متغيرات لنتائج البحث وهي متماثلة في كلا البحث العادي أو المتقدم:</span></p>  |,
-		lastUpdated => 1178725409
-	},
-
-	'sql form asset template variables body' => {
-		message => q|كل اصل يوفر مجموعة من المتغيرات لاغلب النماذج بناء على الخواص الداخلية للاصل. بعضها يمكن ان يكون مفيدا او لا يكون مفيد<br />|,
-		lastUpdated => 1177866824
 	},
 
 	'_csf normal and trash' => {
@@ -544,11 +520,6 @@ our $I18N = {
 	'header.sort.url' => {
 		message => q|الرابط الذي يسمح لك بالترتيب في هذا المجال<br />|,
 		lastUpdated => 1177861512
-	},
-
-	'edit sqlform' => {
-		message => q|SQLForm, اضف/عدل<br />|,
-		lastUpdated => 1177857118
 	},
 
 	'field.__FIELDNAME__.id' => {
@@ -966,11 +937,6 @@ our $I18N = {
 		lastUpdated => 1177865639
 	},
 
-	'edit template help' => {
-		message => q|  <p style="text-align: right; direction: rtl; unicode-bidi: embed" dir="rtl"><span>يوفر </span><span>SQLForm</span><span> لك ثلاث طرق لبناء سجل مدخلات وتعديل النماذج, موفرا ايضا ثلاث مستويات من المرونة. ضع في الاعتبار ان المرونة الاعلى لها ايضا عيب التعقيد الاكثر. </span></p>  <p style="text-align: right; direction: rtl; unicode-bidi: embed" dir="rtl"><span>الثلاث طرق التي يمكنك استخدمها هي </span><span>completeForm, formloop or manual placement</span><span> للعناصر باستخدام </span><span>field.__FIELDNAME__.formElement and field.__FIELDNAME__.label</span><span>. </span></p>  <p style="text-align: right; direction: rtl; unicode-bidi: embed" dir="rtl"><span>completeForm</span><span> يقوم بالتحكم في مكان كل شيء تريده في الجدول, اوتوماتيكيا باستخدام الشكل الاعتيادي. </span></p>  <p style="text-align: right; direction: rtl; unicode-bidi: embed" dir="rtl"><span>Formloop</span><span> <span>يقوم بالتحكم في مكان كل شيء في الجدول, اوتوماتيكيا. يسمح لك هذا ببعض المرونة في شكل النموذج الخاص بك.</span></span></p>  <p style="text-align: right; direction: rtl; unicode-bidi: embed" dir="rtl"><span>اخيرا يوجد خيار وضع كل مجال منفصل يدويا. هذا يسمح لك بتعريف الترتيب ومكان كل عنصر نموذج. لاحظ على أي حال, ان استخدام هذه الطريقة لن يتبع التغيرات اوتوماتيكيا التي تقوم بعملها لـ</span><span> </span><span>SQLForm</span><span>. اذا اضفت أو مسحت أو عدلت اسم مجال يجب ان تحدث النموذج باليد. استخدام هذه الطريقة أيضا يتطلب استخدام </span><span>formHeader and formFooter</span><span>. يجب ان تستخدم متغيرات النموذج الاثنين الاتية:</span></p>  |,
-		lastUpdated => 1178471906
-	},
-
 	's mode' => {
 		message => q|نظام البحث<br />|,
 		lastUpdated => 1177864434
@@ -1121,11 +1087,6 @@ our $I18N = {
 		lastUpdated => 1177861886
 	},
 
-	'advanced search template help body' => {
-		message => q|متغيرات النموذج هذه متوفرة في نموذج سجل البحث المتقدم<br />|,
-		lastUpdated => 1177854031
-	},
-
 	'ef required' => {
 		message => q|مطلوب|,
 		lastUpdated => 1177857523
@@ -1231,11 +1192,6 @@ our $I18N = {
 		lastUpdated => 1178725217
 	},
 
-	'edit regex description' => {
-		message => q|  <p style="text-align: left; direction: ltr; unicode-bidi: embed" class="MsoNormal"><span>المصطلحات الاعادية هي خيوط تمثل نظام النص. النوع الذي يستخدم في </span>SQLForm<span> هي </span>perl-variant<span>. سياق مصطلحات </span>perl-style<span> من الممكن ان تجده هنا. للتأكد من صحة البيانات, المصطلحات من الممكن مسحها اذا لم تكن تستخدم من أي </span>SQLForm<span> في النظام. لاحظ ان هذا يتضمن أيضا </span>SQLForm<span> الموجودة في سلة المهملات والتي لم يتم تنظيفها بعد.</span></p>  |,
-		lastUpdated => 1178218545
-	},
-
 	'ef regex' => {
 		message => q|Regex|,
 		lastUpdated => 1177857514
@@ -1281,14 +1237,14 @@ our $I18N = {
 		lastUpdated => 1177866850
 	},
 
-	'searchForm' => {
-		message => q|يحتوي على نموذج كامل يسمح للمستخدمين باليحث<br />|,
-		lastUpdated => 1177865676
-	},
-
 	'field.searchForm1' => {
 		message => q|عنصر نموذج البحث الاول لهذا المجال<br />|,
 		lastUpdated => 1177860053
+	},
+
+	'searchForm' => {
+		message => q|يحتوي على نموذج كامل يسمح للمستخدمين باليحث<br />|,
+		lastUpdated => 1177865676
 	},
 
 	'record.value.downloadUrl' => {

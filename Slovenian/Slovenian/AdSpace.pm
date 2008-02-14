@@ -1,12 +1,13 @@
 package WebGUI::i18n::Slovenian::AdSpace;
 
+
 our $I18N = {
-	'is active' => {
+	'priority' => {
 		message => q||,
 		lastUpdated => 
 	},
 
-	'priority' => {
+	'is active' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -46,11 +47,6 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'edit advertisement body' => {
-		message => q||,
-		lastUpdated => 
-	},
-
 	'manage ad spaces' => {
 		message => q||,
 		lastUpdated => 
@@ -61,12 +57,12 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'manage ad spaces title' => {
+	'text color help' => {
 		message => q||,
 		lastUpdated => 
 	},
 
-	'text color help' => {
+	'rich help' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -81,11 +77,6 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'rich help' => {
-		message => q||,
-		lastUpdated => 
-	},
-
 	'name' => {
 		message => q||,
 		lastUpdated => 
@@ -96,12 +87,12 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'description' => {
+	'priority help' => {
 		message => q||,
 		lastUpdated => 
 	},
 
-	'priority help' => {
+	'description' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -111,12 +102,12 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'width help' => {
+	'clicks bought' => {
 		message => q||,
 		lastUpdated => 
 	},
 
-	'clicks bought' => {
+	'width help' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -131,12 +122,12 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'title' => {
+	'type' => {
 		message => q||,
 		lastUpdated => 
 	},
 
-	'type' => {
+	'title' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -176,12 +167,7 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'name help' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'url help' => {
+	'edit this ad space' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -191,12 +177,12 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'edit this ad space' => {
+	'url help' => {
 		message => q||,
 		lastUpdated => 
 	},
 
-	'ad text help' => {
+	'name help' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -206,12 +192,12 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'background color help' => {
+	'ad text help' => {
 		message => q||,
 		lastUpdated => 
 	},
 
-	'edit ad space body' => {
+	'background color help' => {
 		message => q||,
 		lastUpdated => 
 	},

@@ -1,12 +1,8 @@
 package WebGUI::i18n::German::Subscription;
 
+
 our $I18N = {
 	'subscription description' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'help manage batch title' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -36,14 +32,14 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'delete batch confirm' => {
-		message => q|Wollen Sie diesen Batch wirklich l&ouml;schen?|,
-		lastUpdated => 1180020218
-	},
-
 	'code' => {
 		message => q||,
 		lastUpdated => 
+	},
+
+	'delete batch confirm' => {
+		message => q|Wollen Sie diesen Batch wirklich l&ouml;schen?|,
+		lastUpdated => 1180020218
 	},
 
 	'redeem code success' => {
@@ -156,11 +152,6 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'help create batch title' => {
-		message => q|Bestellung, Generiere einen Bestellungscode Batch|,
-		lastUpdated => 1180020300
-	},
-
 	'batch id' => {
 		message => q|BatchId|,
 		lastUpdated => 1180020139
@@ -206,22 +197,12 @@ our $I18N = {
 		lastUpdated => 1180020249
 	},
 
-	'help edit subscription title' => {
-		message => q||,
-		lastUpdated => 
-	},
-
 	'selection used' => {
 		message => q||,
 		lastUpdated => 
 	},
 
 	'batch description' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'help manage batch body' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -236,22 +217,12 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'help create batch body' => {
-		message => q|Generiere einen Bestellungscode Batch.|,
-		lastUpdated => 1180020276
-	},
-
 	'listSubscriptionCodes title' => {
 		message => q||,
 		lastUpdated => 
 	},
 
 	'subscription group description' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'help edit subscription body' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -271,22 +242,12 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'help manage subscription codes title' => {
-		message => q||,
-		lastUpdated => 
-	},
-
 	'creation date' => {
 		message => q|Erzeugungsdatum|,
 		lastUpdated => 1180020197
 	},
 
 	'execute on subscription' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'help manage subscriptions title' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -331,7 +292,7 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'dateUsed' => {
+	'select' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -341,22 +302,12 @@ our $I18N = {
 		lastUpdated => 1180020163
 	},
 
-	'select' => {
+	'dateUsed' => {
 		message => q||,
 		lastUpdated => 
 	},
 
 	'list codes in batch' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'help manage subscription codes body' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'help manage subscriptions body' => {
 		message => q||,
 		lastUpdated => 
 	},

@@ -1,5 +1,6 @@
 package WebGUI::i18n::Slovenian::Asset_Layout;
 
+
 our $I18N = {
 	'dragger.init' => {
 		message => q||,
@@ -11,9 +12,9 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'assetsToHide' => {
-		message => q||,
-		lastUpdated => 
+	'assetName' => {
+		message => q|Stran|,
+		lastUpdated => 1180371100
 	},
 
 	'layout asset template variables title' => {
@@ -21,12 +22,7 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'assetName' => {
-		message => q|Stran|,
-		lastUpdated => 1180371100
-	},
-
-	'contentPositions' => {
+	'assetsToHide' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -36,12 +32,7 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'layout add/edit body' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'layout add/edit title' => {
+	'contentPositions' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -56,12 +47,12 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'templateId' => {
+	'position1_loop' => {
 		message => q||,
 		lastUpdated => 
 	},
 
-	'position1_loop' => {
+	'templateId' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -81,12 +72,12 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'layout asset template variables body' => {
+	'showAdmin' => {
 		message => q||,
 		lastUpdated => 
 	},
 
-	'showAdmin' => {
+	'layout asset template variables body' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -96,12 +87,12 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'template description' => {
+	'823' => {
 		message => q||,
 		lastUpdated => 
 	},
 
-	'823' => {
+	'template description' => {
 		message => q||,
 		lastUpdated => 
 	},

@@ -1,5 +1,6 @@
 package WebGUI::i18n::Arabic::Asset_WikiPage;
 
+
 our $I18N = {
 	'history actionTaken' => {
 		message => q|الحركة التي تم عملها في هذه المراجعة, عادة ستكون هذه "Edit"|,
@@ -16,9 +17,9 @@ our $I18N = {
 		lastUpdated => 1177166321
 	},
 
-	'history date' => {
-		message => q|تاريخ عمل هذه المراجعة للصفحة.|,
-		lastUpdated => 1177166435
+	'assetName' => {
+		message => q|Wiki Page|,
+		lastUpdated => 1177166305
 	},
 
 	'viewLabel variable' => {
@@ -26,9 +27,9 @@ our $I18N = {
 		lastUpdated => 1177167420
 	},
 
-	'assetName' => {
-		message => q|Wiki Page|,
-		lastUpdated => 1177166305
+	'history date' => {
+		message => q|تاريخ عمل هذه المراجعة للصفحة.|,
+		lastUpdated => 1177166435
 	},
 
 	'deleteConfirmation' => {
@@ -46,9 +47,9 @@ our $I18N = {
 		lastUpdated => 1177166389
 	},
 
-	'delete confirmation' => {
-		message => q|امسح هذه النسخة؟|,
-		lastUpdated => 1177166451
+	'recentChangesUrl' => {
+		message => q|الرابط لاخذ المستخدم الى الشاشة حيث توجد قائمة بكل التعديلات و التغييرات لصفحات في هذا الويكي|,
+		lastUpdated => 1177167225
 	},
 
 	'history body' => {
@@ -56,9 +57,9 @@ our $I18N = {
 		lastUpdated => 1177166430
 	},
 
-	'recentChangesUrl' => {
-		message => q|الرابط لاخذ المستخدم الى الشاشة حيث توجد قائمة بكل التعديلات و التغييرات لصفحات في هذا الويكي|,
-		lastUpdated => 1177167225
+	'delete confirmation' => {
+		message => q|امسح هذه النسخة؟|,
+		lastUpdated => 1177166451
 	},
 
 	'historyLabel variable' => {
@@ -81,9 +82,9 @@ our $I18N = {
 		lastUpdated => 1177167169
 	},
 
-	'actionTakenBy' => {
-		message => q|هوية المستخدم الذي قام باخر تعديل للصفحة.|,
-		lastUpdated => 1177166290
+	'attachmentLabel' => {
+		message => q|المرفقات|,
+		lastUpdated => 1177166311
 	},
 
 	'mostPopularLabel variable' => {
@@ -91,19 +92,19 @@ our $I18N = {
 		lastUpdated => 1177167194
 	},
 
-	'attachmentLabel' => {
-		message => q|المرفقات|,
-		lastUpdated => 1177166311
-	},
-
-	'deleteLabel variable' => {
-		message => q|علامة دولية تتماشى مع deleteUrl|,
-		lastUpdated => 1177166359
+	'actionTakenBy' => {
+		message => q|هوية المستخدم الذي قام باخر تعديل للصفحة.|,
+		lastUpdated => 1177166290
 	},
 
 	'formFooter' => {
 		message => q|HTML code لانهاء النموذج لنموذج تعديل الصفحة.|,
 		lastUpdated => 1177166399
+	},
+
+	'deleteLabel variable' => {
+		message => q|علامة دولية تتماشى مع deleteUrl|,
+		lastUpdated => 1177166359
 	},
 
 	'contentLabel variable' => {
@@ -116,14 +117,14 @@ our $I18N = {
 		lastUpdated => 1177167245
 	},
 
-	'storageId' => {
-		message => q|هوية الشيء المستخدم لتخزين المرفقات لهذه الصفحة.|,
-		lastUpdated => 1177167241
-	},
-
 	'protectQuestionLabel' => {
 		message => q|احمي هذه الصفحة من التعديل؟|,
 		lastUpdated => 1177167207
+	},
+
+	'storageId' => {
+		message => q|هوية الشيء المستخدم لتخزين المرفقات لهذه الصفحة.|,
+		lastUpdated => 1177167241
 	},
 
 	'deleteLabel' => {
@@ -146,6 +147,11 @@ our $I18N = {
 		lastUpdated => 1177166404
 	},
 
+	'historyUrl' => {
+		message => q|الرابط لاخذ المستخدم الى شاشة يتاريخ التعديلات و التغييرات في هذه الصفحة.|,
+		lastUpdated => 1177167179
+	},
+
 	'viewLabel' => {
 		message => q|اعرض|,
 		lastUpdated => 1177167282
@@ -161,14 +167,9 @@ our $I18N = {
 		lastUpdated => 1177167255
 	},
 
-	'historyUrl' => {
-		message => q|الرابط لاخذ المستخدم الى شاشة يتاريخ التعديلات و التغييرات في هذه الصفحة.|,
-		lastUpdated => 1177167179
-	},
-
-	'formProtect' => {
-		message => q|كود اتش تي ام ال لزر يحدد ما اذا يجب ان تكون الصفحة محمية. الصفحات المحمية يمكن تعديلها فقط من هؤلاء الحاملين لصلاحيات ادارية للويكي.|,
-		lastUpdated => 1177166409
+	'deleteUrl' => {
+		message => q|الرابط لمسح هذه الصفحة.|,
+		lastUpdated => 1177166365
 	},
 
 	'canAdminister' => {
@@ -176,14 +177,9 @@ our $I18N = {
 		lastUpdated => 1177166316
 	},
 
-	'deleteUrl' => {
-		message => q|الرابط لمسح هذه الصفحة.|,
-		lastUpdated => 1177166365
-	},
-
-	'add/edit body' => {
-		message => q|شاشة الاضافة و التعديل لهذا الصفحة تم عمل نموذج لها. المجالات التي يراها المستخدم لن يكون لها hoverHelp. المتغيرات المتوفرة على هذا النموذج موجودة ادناه.|,
-		lastUpdated => 1177166295
+	'formProtect' => {
+		message => q|كود اتش تي ام ال لزر يحدد ما اذا يجب ان تكون الصفحة محمية. الصفحات المحمية يمكن تعديلها فقط من هؤلاء الحاملين لصلاحيات ادارية للويكي.|,
+		lastUpdated => 1177166409
 	},
 
 	'views' => {
@@ -196,19 +192,14 @@ our $I18N = {
 		lastUpdated => 1177167457
 	},
 
-	'delete page confirmation' => {
-		message => q|wiki page؟امسح هذه الـ|,
-		lastUpdated => 1177166345
-	},
-
 	'page received' => {
 		message => q|تم استلام صفحتك و يتم عملها حتى يمكن اضافتها الى الموقع. ستكون متوفرة لمزيد من التعديلات بعد عملها. من فضلك انتظر.|,
 		lastUpdated => 1177167203
 	},
 
-	'vars body' => {
-		message => q|هذه المتغيرات متوفرة في نموذج WikiPage . انها معتمدة على الخواص الداخلية للاصل و من الممكن ان تكون او لا تكون مفيدة.|,
-		lastUpdated => 1177167261
+	'delete page confirmation' => {
+		message => q|wiki page؟امسح هذه الـ|,
+		lastUpdated => 1177166345
 	},
 
 	'searchLabel variable' => {
@@ -216,9 +207,9 @@ our $I18N = {
 		lastUpdated => 1177167231
 	},
 
-	'content variable' => {
-		message => q|المحتوى النيئ لـWikiPage. بدون اي عناوين او وصلات مشغله. لا يجب ان ترى محتويات هذا المتغير بما انه سيكون قي اجتيز من النموذج.|,
-		lastUpdated => 1177166326
+	'vars body' => {
+		message => q|هذه المتغيرات متوفرة في نموذج WikiPage . انها معتمدة على الخواص الداخلية للاصل و من الممكن ان تكون او لا تكون مفيدة.|,
+		lastUpdated => 1177167261
 	},
 
 	'formTitle' => {
@@ -226,19 +217,24 @@ our $I18N = {
 		lastUpdated => 1177166420
 	},
 
+	'content variable' => {
+		message => q|المحتوى النيئ لـWikiPage. بدون اي عناوين او وصلات مشغله. لا يجب ان ترى محتويات هذا المتغير بما انه سيكون قي اجتيز من النموذج.|,
+		lastUpdated => 1177166326
+	},
+
 	'wikiHomeUrl' => {
 		message => q| الرابط لاعادة المستخدم الى الصفحة الاولى للـWiki |,
 		lastUpdated => 1177167438
 	},
 
-	'vars title' => {
-		message => q|متغيرات نموذج اصل WikiPage |,
-		lastUpdated => 1177167266
-	},
-
 	'recentChangesLabel' => {
 		message => q|العلامة الدولية للاستخدام مع recentChangesUrl|,
 		lastUpdated => 1177167219
+	},
+
+	'vars title' => {
+		message => q|متغيرات نموذج اصل WikiPage |,
+		lastUpdated => 1177167266
 	},
 
 	'mostPopularUrl' => {
@@ -251,14 +247,14 @@ our $I18N = {
 		lastUpdated => 1177166300
 	},
 
-	'isNew' => {
-		message => q|علامة تتحقق اذا كانت هذه الصحة جديدة|,
-		lastUpdated => 1177167184
-	},
-
 	'view title' => {
 		message => q|Wiki Page, اعرض النموذج.|,
 		lastUpdated => 1177167277
+	},
+
+	'isNew' => {
+		message => q|علامة تتحقق اذا كانت هذه الصحة جديدة|,
+		lastUpdated => 1177167184
 	},
 
 	'formContent' => {
@@ -266,19 +262,14 @@ our $I18N = {
 		lastUpdated => 1177166394
 	},
 
-	'history toolbar' => {
-		message => q|شريط ادوات بايقونات للمسح, التعديل, او للاطلع على المراجعات لهذه الصفحة.|,
-		lastUpdated => 1177167159
-	},
-
 	'titleLabel' => {
 		message => q|عنوان|,
 		lastUpdated => 1177167294
 	},
 
-	'history interval' => {
-		message => q|منذ متى تم تنفيذ هذه الصفحة.|,
-		lastUpdated => 1177167149
+	'history toolbar' => {
+		message => q|شريط ادوات بايقونات للمسح, التعديل, او للاطلع على المراجعات لهذه الصفحة.|,
+		lastUpdated => 1177167159
 	},
 
 	'editLabel variable' => {
@@ -286,14 +277,19 @@ our $I18N = {
 		lastUpdated => 1177166384
 	},
 
-	'protectQuestionLabel variable' => {
-		message => q|العلامة الدولية لتتماشى مع formProtect.|,
-		lastUpdated => 1177167212
+	'history interval' => {
+		message => q|منذ متى تم تنفيذ هذه الصفحة.|,
+		lastUpdated => 1177167149
 	},
 
 	'view body' => {
 		message => q|المتغيرات  المتوفرة للاستخدام في هذا النموذج موجوة ادناه:|,
 		lastUpdated => 1177167272
+	},
+
+	'protectQuestionLabel variable' => {
+		message => q|العلامة الدولية لتتماشى مع formProtect.|,
+		lastUpdated => 1177167212
 	},
 
 	'history title' => {

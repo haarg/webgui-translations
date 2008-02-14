@@ -1,5 +1,6 @@
 package WebGUI::i18n::German::Workflow_Activity_TrashExpiredEvents;
 
+
 our $I18N = {
 	'trash after' => {
 		message => q|L&ouml;sche nach|,
@@ -14,11 +15,6 @@ our $I18N = {
 	'activityName' => {
 		message => q|L&ouml;sche abgelaufene Termine|,
 		lastUpdated => 1179908847
-	},
-
-	'trash expired events body' => {
-		message => q|Diese Workflow Aktivit&auml;t verschiebt alle Termine eines Kalenders nach einem benutzerdefinierten Interval (ausgehend vom Enddatum) in den M&uuml;lleimer.|,
-		lastUpdated => 1179909349
 	},
 
 };

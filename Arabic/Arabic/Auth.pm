@@ -1,5 +1,6 @@
 package WebGUI::i18n::Arabic::Auth;
 
+
 our $I18N = {
 	'login.form.header' => {
 		message => q|عناصر النموذح المطلوبة التي تأتي في بداية صفحة تسجيل الدخول|,
@@ -9,11 +10,6 @@ our $I18N = {
 	'create.form.header' => {
 		message => q|عناصر النموذج المطلوبة التي تأتي في مقدمة صفحة التسجيل المجهول.|,
 		lastUpdated => 1177174543
-	},
-
-	'anon reg template body' => {
-		message => q|متغيرات النموذج الاتية متوفرة في كل نماذج التسجيل المجهول.|,
-		lastUpdated => 1177174524
 	},
 
 	'create.form.profile.id.formElement' => {
@@ -41,9 +37,9 @@ our $I18N = {
 		lastUpdated => 1177174619
 	},
 
-	'no.url' => {
-		message => q|الرابط لترك حساب المستخدم وحده|,
-		lastUpdated => 1177174966
+	'account.form.header' => {
+		message => q|عناصر النموذج المطلوبة التي تأتي في اعلى صفحة عرض الحساب.|,
+		lastUpdated => 1177174496
 	},
 
 	'login.form.hidden' => {
@@ -51,9 +47,9 @@ our $I18N = {
 		lastUpdated => 1177174636
 	},
 
-	'account.form.header' => {
-		message => q|عناصر النموذج المطلوبة التي تأتي في اعلى صفحة عرض الحساب.|,
-		lastUpdated => 1177174496
+	'no.url' => {
+		message => q|الرابط لترك حساب المستخدم وحده|,
+		lastUpdated => 1177174966
 	},
 
 	'profile.required' => {
@@ -76,14 +72,14 @@ our $I18N = {
 		lastUpdated => 1177174931
 	},
 
-	'yes.label' => {
-		message => q|"Yes"العلامة الدولية لـ|,
-		lastUpdated => 1177175002
-	},
-
 	'login.url' => {
 		message => q|الرابط الى صفحة تسجيل الدخول|,
 		lastUpdated => 1177175021
+	},
+
+	'yes.label' => {
+		message => q|"Yes"العلامة الدولية لـ|,
+		lastUpdated => 1177175002
 	},
 
 	'title' => {
@@ -94,11 +90,6 @@ our $I18N = {
 	'createAccount.url' => {
 		message => q|الرابط الى صفحة التسجيل المجهول|,
 		lastUpdated => 1177174582
-	},
-
-	'deactivate account template body' => {
-		message => q|متغيرات النموذج الاتية متوفرة على نماذج Authentication Deactivate account|,
-		lastUpdated => 1177174594
 	},
 
 	'anon reg template title' => {
@@ -141,11 +132,6 @@ our $I18N = {
 		lastUpdated => 1177174560
 	},
 
-	'login template body' => {
-		message => q|متغيرات النموذج الاتية متوفرة على نموذج توثيق تسجيل الدخول|,
-		lastUpdated => 1177174614
-	},
-
 	'yes.url' => {
 		message => q|الرابط لايقاف حساب المستخدم|,
 		lastUpdated => 1177175006
@@ -176,9 +162,9 @@ our $I18N = {
 		lastUpdated => 1177174598
 	},
 
-	'profile.formElement.label' => {
-		message => q|علامة النص الاعتيادية لعنصر نموذج المستخدم|,
-		lastUpdated => 1177174977
+	'login.form.username.label' => {
+		message => q|النص الاعتيادي لمجال اسم المستخدم في النموذج|,
+		lastUpdated => 1177174946
 	},
 
 	'profile.formElement' => {
@@ -186,9 +172,9 @@ our $I18N = {
 		lastUpdated => 1177174972
 	},
 
-	'login.form.username.label' => {
-		message => q|النص الاعتيادي لمجال اسم المستخدم في النموذج|,
-		lastUpdated => 1177174946
+	'profile.formElement.label' => {
+		message => q|علامة النص الاعتيادية لعنصر نموذج المستخدم|,
+		lastUpdated => 1177174977
 	},
 
 	'create.form.footer' => {
@@ -196,9 +182,9 @@ our $I18N = {
 		lastUpdated => 1177174538
 	},
 
-	'question' => {
-		message => q|الرابط لترك حساب المستخدم وحده|,
-		lastUpdated => 1177174989
+	'login.form.submit' => {
+		message => q|زر الادخال الاعتيادي لنموذج تسجيل الدخول|,
+		lastUpdated => 1177174936
 	},
 
 	'createAccount.label' => {
@@ -206,14 +192,9 @@ our $I18N = {
 		lastUpdated => 1177174576
 	},
 
-	'login.form.submit' => {
-		message => q|زر الادخال الاعتيادي لنموذج تسجيل الدخول|,
-		lastUpdated => 1177174936
-	},
-
-	'display account template body' => {
-		message => q|متغيرات النموذج الاتية متوفرة على نموذح توثيق عرض الحساب|,
-		lastUpdated => 1177174603
+	'question' => {
+		message => q|الرابط لترك حساب المستخدم وحده|,
+		lastUpdated => 1177174989
 	},
 
 	'login.label' => {

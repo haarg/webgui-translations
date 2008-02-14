@@ -1,14 +1,15 @@
 package WebGUI::i18n::German::TransactionLog;
 
-our $I18N = {
-	'itemLoop' => {
-		message => q||,
-		lastUpdated => 
-	},
 
+our $I18N = {
 	'cancel error' => {
 		message => q|Ein Fehler ist beim Abbrechen der wiederkehrenden Transaktion aufgetreten. Bitte wenden Sie sich an ihren Administrator. Fehler:|,
 		lastUpdated => 1180021206
+	},
+
+	'itemLoop' => {
+		message => q||,
+		lastUpdated => 
 	},
 
 	'delivered' => {
@@ -171,12 +172,12 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'help purchase history template body' => {
+	'shipping status' => {
 		message => q||,
 		lastUpdated => 
 	},
 
-	'shipping status' => {
+	'itemName' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -184,11 +185,6 @@ our $I18N = {
 	'amount' => {
 		message => q||,
 		lastUpdated => 1180021095
-	},
-
-	'itemName' => {
-		message => q||,
-		lastUpdated => 
 	},
 
 	'help purchase history template title' => {

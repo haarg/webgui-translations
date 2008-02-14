@@ -1,5 +1,6 @@
 package WebGUI::i18n::German::Asset_WSClient;
 
+
 our $I18N = {
 	'27 description' => {
 		message => q||,
@@ -11,17 +12,12 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'cacheTTL' => {
-		message => q||,
-		lastUpdated => 
-	},
-
 	'21' => {
 		message => q||,
 		lastUpdated => 
 	},
 
-	'71' => {
+	'cacheTTL' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -41,12 +37,12 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'paginateVar' => {
+	'72' => {
 		message => q||,
 		lastUpdated => 
 	},
 
-	'72' => {
+	'paginateVar' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -56,12 +52,12 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'16' => {
+	'13 description' => {
 		message => q||,
 		lastUpdated => 
 	},
 
-	'13 description' => {
+	'16' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -76,12 +72,12 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'61' => {
+	'4 description' => {
 		message => q||,
 		lastUpdated => 
 	},
 
-	'4 description' => {
+	'20' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -92,11 +88,6 @@ our $I18N = {
 	},
 
 	'debugMode' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'20' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -142,11 +133,6 @@ our $I18N = {
 	},
 
 	'8 description' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'73' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -199,11 +185,6 @@ our $I18N = {
 	'28' => {
 		message => q||,
 		lastUpdated => 
-	},
-
-	'ws client asset template variables body' => {
-		message => q|Jedes Asset bietet ihren Templates einen Satz an Variablen, die auf den Asset Eigenschaften basieren. Einige dieser Variablen k&ouml;nnen n&uuml;tzlich sein, andere nicht.|,
-		lastUpdated => 1170406448
 	},
 
 	'5 description' => {
@@ -321,12 +302,12 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'results' => {
+	'5' => {
 		message => q||,
 		lastUpdated => 
 	},
 
-	'5' => {
+	'results' => {
 		message => q||,
 		lastUpdated => 
 	},

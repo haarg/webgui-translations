@@ -1,12 +1,8 @@
 package WebGUI::i18n::Italian::Macro_L_loginBox;
 
+
 our $I18N = {
 	'username.form' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'logout.label' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -16,7 +12,17 @@ our $I18N = {
 		lastUpdated => 
 	},
 
+	'logout.label' => {
+		message => q||,
+		lastUpdated => 
+	},
+
 	'customText' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'login box title' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -26,22 +32,12 @@ our $I18N = {
 		lastUpdated => 1156595570
 	},
 
-	'login box title' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'login box body' => {
+	'form.login' => {
 		message => q||,
 		lastUpdated => 
 	},
 
 	'account.create.url' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'form.login' => {
 		message => q||,
 		lastUpdated => 
 	},

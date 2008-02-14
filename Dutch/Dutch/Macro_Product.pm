@@ -1,9 +1,10 @@
 package WebGUI::i18n::Dutch::Macro_Product;
 
+
 our $I18N = {
-	'sku' => {
-		message => q|De basis SKU van dit product|,
-		lastUpdated => 1154354109
+	'variant.price' => {
+		message => q|De prijs van deze variant van het product.|,
+		lastUpdated => 1154354460
 	},
 
 	'variant.weight' => {
@@ -11,9 +12,9 @@ our $I18N = {
 		lastUpdated => 1154355494
 	},
 
-	'variant.price' => {
-		message => q|De prijs van deze variant van het product.|,
-		lastUpdated => 1154354460
+	'sku' => {
+		message => q|De basis SKU van dit product|,
+		lastUpdated => 1154354109
 	},
 
 	'variant.addToCart.label' => {
@@ -71,11 +72,6 @@ our $I18N = {
 		lastUpdated => 1154354542
 	},
 
-	'product body' => {
-		message => q|<p><strong>&#94;Product(SKU of product identificatie, [sjabloon identificatie]);</strong></p><p>Dit macro zoekt een product op uit het product beheer op SKU of product identificatieen zorgt ervoor dat er informatie over getoond kan worden. Als de SKU of de product identificatei niet gevonden wordt, wordt het bericht &#94;International("kan product niet vinden","Macro_Product"); getoond.</p><p>Het macro heeft nog een optioneel argument: een ander sjabloon in de Macro/Product namespace voor het bewerken van informatie over het product. De volgende variabelen zijn beschikbaar in het sjabloon. </p>|,
-		lastUpdated => 1181419682
-	},
-
 	'productId' => {
 		message => q|De unieke identificatie van dit product|,
 		lastUpdated => 1154354069
@@ -101,14 +97,14 @@ our $I18N = {
 		lastUpdated => 1154353526
 	},
 
-	'price' => {
-		message => q|De basiskosten van het product|,
-		lastUpdated => 1154353601
-	},
-
 	'title' => {
 		message => q|De titel van dit product|,
 		lastUpdated => 1154354129
+	},
+
+	'price' => {
+		message => q|De basiskosten van het product|,
+		lastUpdated => 1154353601
 	},
 
 	'variantLoop' => {

@@ -1,14 +1,10 @@
 package WebGUI::i18n::BrazilianPortuguese::Asset_WSClient;
 
+
 our $I18N = {
 	'35' => {
 		message => q|Nenhum modelo especificado, utilizando modelo padrão.|,
 		lastUpdated => 1080082063
-	},
-
-	'11' => {
-		message => q|Executar por padrão?|,
-		lastUpdated => 1080080886
 	},
 
 	'32' => {
@@ -16,14 +12,14 @@ our $I18N = {
 		lastUpdated => 1080082124
 	},
 
+	'11' => {
+		message => q|Executar por padrão?|,
+		lastUpdated => 1080080886
+	},
+
 	'21' => {
 		message => q|Esta consulta não retornou nenhum resultado.|,
 		lastUpdated => 1080081574
-	},
-
-	'71' => {
-		message => q||,
-		lastUpdated => 
 	},
 
 	'26' => {
@@ -41,11 +37,6 @@ our $I18N = {
 		lastUpdated => 1080081640
 	},
 
-	'1' => {
-		message => q|Cliente de <i>Web Services</i>|,
-		lastUpdated => 1080080842
-	},
-
 	'72' => {
 		message => q|Modelo de Cliente de <i>Web Services</i>|,
 		lastUpdated => 1080317404
@@ -56,9 +47,9 @@ our $I18N = {
 		lastUpdated => 1080081963
 	},
 
-	'23' => {
-		message => q|O URI/WSDL especificado está em um formato impróprio.|,
-		lastUpdated => 1080081690
+	'13' => {
+		message => q|Paginar Após|,
+		lastUpdated => 1080081466
 	},
 
 	'16' => {
@@ -66,9 +57,9 @@ our $I18N = {
 		lastUpdated => 1080081522
 	},
 
-	'13' => {
-		message => q|Paginar Após|,
-		lastUpdated => 1080081466
+	'23' => {
+		message => q|O URI/WSDL especificado está em um formato impróprio.|,
+		lastUpdated => 1080081690
 	},
 
 	'29' => {
@@ -76,14 +67,14 @@ our $I18N = {
 		lastUpdated => 1096145973
 	},
 
-	'27' => {
-		message => q|Cache expira em|,
-		lastUpdated => 1096145991
-	},
-
 	'25' => {
 		message => q|Houve um problema na chamada do SOAP:|,
 		lastUpdated => 1080082003
+	},
+
+	'27' => {
+		message => q|Cache expira em|,
+		lastUpdated => 1096145991
 	},
 
 	'28' => {
@@ -96,11 +87,6 @@ our $I18N = {
 		lastUpdated => 1080081923
 	},
 
-	'61' => {
-		message => q|Cliente de <i>Web Services</i>, Adicionar/Editar|,
-		lastUpdated => 1080082163
-	},
-
 	'9' => {
 		message => q|<i>Debug</i>?|,
 		lastUpdated => 1080317385
@@ -111,9 +97,9 @@ our $I18N = {
 		lastUpdated => 1080080947
 	},
 
-	'20' => {
-		message => q|Editar Cliente de <i>Web Services</i>|,
-		lastUpdated => 1080081554
+	'14' => {
+		message => q|Variável a ser paginada|,
+		lastUpdated => 1080082222
 	},
 
 	'15' => {
@@ -121,9 +107,9 @@ our $I18N = {
 		lastUpdated => 1080081504
 	},
 
-	'14' => {
-		message => q|Variável a ser paginada|,
-		lastUpdated => 1080082222
+	'20' => {
+		message => q|Editar Cliente de <i>Web Services</i>|,
+		lastUpdated => 1080081554
 	},
 
 	'8' => {
@@ -139,11 +125,6 @@ our $I18N = {
 	'24' => {
 		message => q|SOAP retornado do tipo:|,
 		lastUpdated => 1080081753
-	},
-
-	'73' => {
-		message => q||,
-		lastUpdated => 
 	},
 
 	'19' => {

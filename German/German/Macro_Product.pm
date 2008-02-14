@@ -1,9 +1,10 @@
 package WebGUI::i18n::German::Macro_Product;
 
+
 our $I18N = {
-	'sku' => {
-		message => q|Die Basis SKU (Stock Keeping Unit) dieses Produkts.|,
-		lastUpdated => 1178783060
+	'variant.price' => {
+		message => q|Der Preis dieser Produktvariante.|,
+		lastUpdated => 1178782821
 	},
 
 	'variant.weight' => {
@@ -11,9 +12,9 @@ our $I18N = {
 		lastUpdated => 1178782859
 	},
 
-	'variant.price' => {
-		message => q|Der Preis dieser Produktvariante.|,
-		lastUpdated => 1178782821
+	'sku' => {
+		message => q|Die Basis SKU (Stock Keeping Unit) dieses Produkts.|,
+		lastUpdated => 1178783060
 	},
 
 	'variant.addToCart.label' => {
@@ -71,11 +72,6 @@ our $I18N = {
 		lastUpdated => 1178782840
 	},
 
-	'product body' => {
-		message => q|<p><strong>^Product(<em>SKU oder productId</em>, [<em>templateId</em>]);</strong><br /> Dieses Makros sucht an Hand der SKU oder der productId ein Produkt im Produkt Manager und erlaubt es, Informationen dar&uuml;ber darzustellen. Falls die SKU oder die productId nicht gefunden werden k&ouml;nnen, wird die Nachricht ^International(&quot;cannot find product&quot;,&quot;Macro_Product&quot;); angezeigt.</p><p>Dieses Makro akzeptiert ein optionales Argument, ein alternatives Template aus dem Macro/Product Namensbereich, um die Informationen &uuml;ber dieses Produkt zu formatieren. Die folgenden Variablen sind f&uuml;r das Template verf&uuml;gbar:&nbsp;</p> |,
-		lastUpdated => 1178782582
-	},
-
 	'productId' => {
 		message => q|Der eindeutige Bezeichner dieses Produkts.|,
 		lastUpdated => 1178782605
@@ -101,14 +97,14 @@ our $I18N = {
 		lastUpdated => 1178782315
 	},
 
-	'price' => {
-		message => q|Die Basiskosten dieses Produkts.|,
-		lastUpdated => 1178782997
-	},
-
 	'title' => {
 		message => q|Der Titel f&uuml;r dieses Produkt.|,
 		lastUpdated => 1178782635
+	},
+
+	'price' => {
+		message => q|Die Basiskosten dieses Produkts.|,
+		lastUpdated => 1178782997
 	},
 
 	'variantLoop' => {

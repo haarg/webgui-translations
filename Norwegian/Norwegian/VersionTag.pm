@@ -1,19 +1,10 @@
 package WebGUI::i18n::Norwegian::VersionTag;
 
-our $I18N = {
-	'manage committed versions body' => {
-		message => q||,
-		lastUpdated => 
-	},
 
+our $I18N = {
 	'approval message help' => {
 		message => q|godkjennings melding hjelp<br />|,
 		lastUpdated => 1170002066
-	},
-
-	'manage pending versions' => {
-		message => q||,
-		lastUpdated => 
 	},
 
 	'approve/deny' => {
@@ -21,12 +12,7 @@ our $I18N = {
 		lastUpdated => 1170002132
 	},
 
-	'commit version tag body' => {
-		message => q|bekreft versjons merke body<br />|,
-		lastUpdated => 1170003343
-	},
-
-	'manage version tags' => {
+	'manage pending versions' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -91,14 +77,14 @@ our $I18N = {
 		lastUpdated => 1170003981
 	},
 
-	'committed versions' => {
-		message => q|bekreftede versjoner<br />|,
-		lastUpdated => 1170003560
-	},
-
 	'rollback version tag confirm' => {
 		message => q||,
 		lastUpdated => 
+	},
+
+	'committed versions' => {
+		message => q|bekreftede versjoner<br />|,
+		lastUpdated => 1170003560
 	},
 
 	'tag creator' => {
@@ -111,24 +97,24 @@ our $I18N = {
 		lastUpdated => 1170003708
 	},
 
-	'workflow' => {
-		message => q||,
-		lastUpdated => 
-	},
-
 	'commit' => {
 		message => q|bekreft|,
 		lastUpdated => 1170003212
 	},
 
-	'comments help' => {
-		message => q|kommentar hjelp<br />|,
-		lastUpdated => 1170003171
+	'workflow' => {
+		message => q||,
+		lastUpdated => 
 	},
 
 	'who to notify' => {
 		message => q||,
 		lastUpdated => 
+	},
+
+	'comments help' => {
+		message => q|kommentar hjelp<br />|,
+		lastUpdated => 1170003171
 	},
 
 	'add a version tag' => {
@@ -139,11 +125,6 @@ our $I18N = {
 	'approve/deny help' => {
 		message => q|godkjenn/avsl&aring; hjelp<br />|,
 		lastUpdated => 1170002174
-	},
-
-	'edit version tag body' => {
-		message => q||,
-		lastUpdated => 
 	},
 
 	'version tag name' => {
@@ -176,12 +157,7 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'manage pending versions body' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'topicName' => {
+	'notify about version tag' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -191,7 +167,12 @@ our $I18N = {
 		lastUpdated => 1170002093
 	},
 
-	'notify about version tag' => {
+	'topicName' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'request approval for version tag' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -201,17 +182,12 @@ our $I18N = {
 		lastUpdated => 1170004322
 	},
 
-	'request approval for version tag' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'manage version tags body' => {
-		message => q||,
-		lastUpdated => 
-	},
-
 	'rollback version tag' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'group to approve' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -221,9 +197,9 @@ our $I18N = {
 		lastUpdated => 1170003262
 	},
 
-	'group to approve' => {
-		message => q||,
-		lastUpdated => 
+	'back to home' => {
+		message => q|tilbake|,
+		lastUpdated => 1170002794
 	},
 
 	'pending versions' => {
@@ -231,12 +207,12 @@ our $I18N = {
 		lastUpdated => 1170004240
 	},
 
-	'back to home' => {
-		message => q|tilbake|,
-		lastUpdated => 1170002794
+	'trash version tag' => {
+		message => q||,
+		lastUpdated => 
 	},
 
-	'trash version tag' => {
+	'export version tag to html' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -246,17 +222,7 @@ our $I18N = {
 		lastUpdated => 1170003634
 	},
 
-	'export version tag to html' => {
-		message => q||,
-		lastUpdated => 
-	},
-
 	'unlock version tag' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'manage committed versions' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -264,6 +230,11 @@ our $I18N = {
 	'do on deny help' => {
 		message => q|hendelse ved avslag hjelp<br />|,
 		lastUpdated => 1170004054
+	},
+
+	'manage committed versions' => {
+		message => q||,
+		lastUpdated => 
 	},
 
 	'group to use' => {
@@ -281,9 +252,9 @@ our $I18N = {
 		lastUpdated => 1170003846
 	},
 
-	'purge revision prompt' => {
-		message => q||,
-		lastUpdated => 
+	'notify message' => {
+		message => q|informere beskjed<br />|,
+		lastUpdated => 1170004299
 	},
 
 	'group to use help' => {
@@ -291,9 +262,9 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'notify message' => {
-		message => q|informere beskjed<br />|,
-		lastUpdated => 1170004299
+	'purge revision prompt' => {
+		message => q||,
+		lastUpdated => 
 	},
 
 	'manage versions' => {

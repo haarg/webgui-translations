@@ -1,5 +1,6 @@
 package WebGUI::i18n::Dutch::Asset_RichEdit;
 
+
 our $I18N = {
 	'disable rich edit' => {
 		message => q|Rich Editor uitschakelen?|,
@@ -11,24 +12,24 @@ our $I18N = {
 		lastUpdated => 1156405712
 	},
 
-	'styleselect' => {
-		message => q|Zet stijl|,
-		lastUpdated => 1156405859
-	},
-
 	'underline' => {
 		message => q|Onderstrepen|,
 		lastUpdated => 1156405997
 	},
 
-	'print' => {
-		message => q|Printen|,
-		lastUpdated => 1156405329
+	'styleselect' => {
+		message => q|Zet stijl|,
+		lastUpdated => 1156405859
 	},
 
 	'italic' => {
 		message => q|Cursief|,
 		lastUpdated => 1156404642
+	},
+
+	'print' => {
+		message => q|Printen|,
+		lastUpdated => 1156405329
 	},
 
 	'save' => {
@@ -41,6 +42,16 @@ our $I18N = {
 		lastUpdated => 1156403446
 	},
 
+	'toolbar buttons' => {
+		message => q|Werkbalk knoppen|,
+		lastUpdated => 1156405908
+	},
+
+	'left to right' => {
+		message => q|Links naar rechts|,
+		lastUpdated => 1156404830
+	},
+
 	'code' => {
 		message => q|Bron bekijken/bewerken|,
 		lastUpdated => 1156173449
@@ -49,16 +60,6 @@ our $I18N = {
 	'formatselect' => {
 		message => q|Zet formaat|,
 		lastUpdated => 1156404147
-	},
-
-	'left to right' => {
-		message => q|Links naar rechts|,
-		lastUpdated => 1156404830
-	},
-
-	'toolbar buttons' => {
-		message => q|Werkbalk knoppen|,
-		lastUpdated => 1156405908
 	},
 
 	'elements description' => {
@@ -81,9 +82,9 @@ our $I18N = {
 		lastUpdated => 1156405581
 	},
 
-	'row 3' => {
-		message => q|Rij 3|,
-		lastUpdated => 1156405720
+	'bullist' => {
+		message => q|Opsommingtekens|,
+		lastUpdated => 1156403520
 	},
 
 	'indent' => {
@@ -91,9 +92,9 @@ our $I18N = {
 		lastUpdated => 1156404533
 	},
 
-	'bullist' => {
-		message => q|Opsommingtekens|,
-		lastUpdated => 1156403520
+	'row 3' => {
+		message => q|Rij 3|,
+		lastUpdated => 1156405720
 	},
 
 	'remove line breaks' => {
@@ -106,14 +107,14 @@ our $I18N = {
 		lastUpdated => 1156405185
 	},
 
-	'top' => {
-		message => q|Bovenaan|,
-		lastUpdated => 1156405982
-	},
-
 	'directionality' => {
 		message => q|Tekstrichting|,
 		lastUpdated => 1156403640
+	},
+
+	'top' => {
+		message => q|Bovenaan|,
+		lastUpdated => 1156405982
 	},
 
 	'css file description' => {
@@ -181,24 +182,24 @@ our $I18N = {
 		lastUpdated => 1166199713
 	},
 
-	'using rich edit' => {
-		message => q|Vragen gebruik Rich Editor?|,
-		lastUpdated => 1156406136
-	},
-
 	'bottom' => {
 		message => q|Onderaan|,
 		lastUpdated => 1156405990
 	},
 
-	'editor height description' => {
-		message => q|De hoogte van de editor, inclusief de knoppen, in pixels.|,
-		lastUpdated => 1156403757
+	'using rich edit' => {
+		message => q|Vragen gebruik Rich Editor?|,
+		lastUpdated => 1156406136
 	},
 
 	'image' => {
 		message => q|Afbeelding|,
 		lastUpdated => 1156404507
+	},
+
+	'editor height description' => {
+		message => q|De hoogte van de editor, inclusief de knoppen, in pixels.|,
+		lastUpdated => 1156403757
 	},
 
 	'toolbar buttons description' => {
@@ -281,11 +282,6 @@ our $I18N = {
 		lastUpdated => 1156405849
 	},
 
-	'rich edit add/edit body' => {
-		message => q|Hiermee kunt u de Rich Editor aanpassen en meerdere configuraties maken voor gebruik binnen het collaberatiesysteem.|,
-		lastUpdated => 1156405529
-	},
-
 	'row 1' => {
 		message => q|Rij 1|,
 		lastUpdated => 1156405704
@@ -321,9 +317,9 @@ our $I18N = {
 		lastUpdated => 1156405573
 	},
 
-	'rich edit add/edit title' => {
-		message => q|Rich Editor, Wijzigen/toevoegen|,
-		lastUpdated => 1156405543
+	'justifyfull' => {
+		message => q|Uitvullen|,
+		lastUpdated => 1156404794
 	},
 
 	'source editor height' => {
@@ -331,19 +327,14 @@ our $I18N = {
 		lastUpdated => 1156405791
 	},
 
-	'justifyfull' => {
-		message => q|Uitvullen|,
-		lastUpdated => 1156404794
+	'advhr' => {
+		message => q|Uitgebreide horizontale lijn|,
+		lastUpdated => 1156403426
 	},
 
 	'outdent' => {
 		message => q|Uitspringen|,
 		lastUpdated => 1156405065
-	},
-
-	'advhr' => {
-		message => q|Uitgebreide horizontale lijn|,
-		lastUpdated => 1156403426
 	},
 
 	'justifycenter' => {
@@ -356,19 +347,14 @@ our $I18N = {
 		lastUpdated => 1156405447
 	},
 
-	'no dictionaries' => {
-		message => q|Er zijn geen woordenboeken gedfinieerd. Zolang er nog geen woordenboek is ingesteld kan spellingscontrole  niet worden gebruikt.|,
-		lastUpdated => 1166199676
-	},
-
 	'hr' => {
 		message => q|Horizontale lijn|,
 		lastUpdated => 1156404473
 	},
 
-	'source editor width description' => {
-		message => q|De breedte van de ruimte in de Rich Editor waar de gebruiker de html code kan invoeren, gegeven in pixels.|,
-		lastUpdated => 1156405841
+	'no dictionaries' => {
+		message => q|Er zijn geen woordenboeken gedfinieerd. Zolang er nog geen woordenboek is ingesteld kan spellingscontrole  niet worden gebruikt.|,
+		lastUpdated => 1166199676
 	},
 
 	'preview' => {
@@ -376,14 +362,14 @@ our $I18N = {
 		lastUpdated => 1156405321
 	},
 
-	'charmap' => {
-		message => q|Speciaal karakter|,
-		lastUpdated => 1156403553
+	'source editor width description' => {
+		message => q|De breedte van de ruimte in de Rich Editor waar de gebruiker de html code kan invoeren, gegeven in pixels.|,
+		lastUpdated => 1156405841
 	},
 
-	'enable context menu' => {
-		message => q|Contextmenu activeren.|,
-		lastUpdated => 1155914580
+	'pagetree' => {
+		message => q|WebGUI pagina link|,
+		lastUpdated => 1156405087
 	},
 
 	'pasteword' => {
@@ -391,9 +377,14 @@ our $I18N = {
 		lastUpdated => 1156405197
 	},
 
-	'pagetree' => {
-		message => q|WebGUI pagina link|,
-		lastUpdated => 1156405087
+	'enable context menu' => {
+		message => q|Contextmenu activeren.|,
+		lastUpdated => 1155914580
+	},
+
+	'charmap' => {
+		message => q|Speciaal karakter|,
+		lastUpdated => 1156403553
 	},
 
 	'inserttime' => {
@@ -431,14 +422,14 @@ our $I18N = {
 		lastUpdated => 1156178109
 	},
 
-	'no wrap description' => {
-		message => q|Deze functie voorkomt dat zinnen automatisch op een nieuwe regel verschijnen in de editor.|,
-		lastUpdated => 1156405023
-	},
-
 	'toolbar location' => {
 		message => q|Werkbalk lokatie|,
 		lastUpdated => 1156405943
+	},
+
+	'no wrap description' => {
+		message => q|Deze functie voorkomt dat zinnen automatisch op een nieuwe regel verschijnen in de editor.|,
+		lastUpdated => 1156405023
 	},
 
 	'source editor width' => {
@@ -461,14 +452,14 @@ our $I18N = {
 		lastUpdated => 1156405311
 	},
 
-	'fontselect' => {
-		message => q|Lettertype|,
-		lastUpdated => 1156404111
-	},
-
 	'link' => {
 		message => q|Link toevoegen|,
 		lastUpdated => 1156404847
+	},
+
+	'fontselect' => {
+		message => q|Lettertype|,
+		lastUpdated => 1156404111
 	},
 
 	'emotions' => {
@@ -501,14 +492,14 @@ our $I18N = {
 		lastUpdated => 1156404158
 	},
 
-	'directionality description' => {
-		message => q|Met deze functie kunt u instellen of de taal van links naar rechts of van rechts naar links is.|,
-		lastUpdated => 1156403687
-	},
-
 	'insertdate' => {
 		message => q|Datum invoegen|,
 		lastUpdated => 1156404604
+	},
+
+	'directionality description' => {
+		message => q|Met deze functie kunt u instellen of de taal van links naar rechts of van rechts naar links is.|,
+		lastUpdated => 1156403687
 	},
 
 };

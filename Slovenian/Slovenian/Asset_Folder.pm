@@ -1,7 +1,13 @@
 package WebGUI::i18n::Slovenian::Asset_Folder;
 
+
 our $I18N = {
 	'What Next description' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'folder template body' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -9,11 +15,6 @@ our $I18N = {
 	'assetName' => {
 		message => q|Mapa|,
 		lastUpdated => 1178732289
-	},
-
-	'folder template body' => {
-		message => q||,
-		lastUpdated => 
 	},
 
 	'sort alphabetically' => {
@@ -41,12 +42,12 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'controls' => {
+	'id' => {
 		message => q||,
 		lastUpdated => 
 	},
 
-	'id' => {
+	'controls' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -69,11 +70,6 @@ our $I18N = {
 	'visitorCacheTimeout' => {
 		message => q||,
 		lastUpdated => 
-	},
-
-	'folder add/edit title' => {
-		message => q|Mapa, Dodaj/Uredi|,
-		lastUpdated => 1178732182
 	},
 
 	'folder template description' => {
@@ -106,12 +102,7 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'isImage' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'type' => {
+	'addFile.label' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -121,7 +112,12 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'addFile.label' => {
+	'type' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'isImage' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -166,7 +162,7 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'sortAlphabetically' => {
+	'folder title' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -176,7 +172,7 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'folder title' => {
+	'sortAlphabetically' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -191,22 +187,17 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'folder add/edit body' => {
-		message => q||,
-		lastUpdated => 
-	},
-
 	'file_loop' => {
 		message => q||,
 		lastUpdated => 
 	},
 
-	'thumbnail.url' => {
+	'visitor cache timeout help' => {
 		message => q||,
 		lastUpdated => 
 	},
 
-	'visitor cache timeout help' => {
+	'thumbnail.url' => {
 		message => q||,
 		lastUpdated => 
 	},

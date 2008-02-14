@@ -1,5 +1,6 @@
 package WebGUI::i18n::Italian::Asset_Poll;
 
+
 our $I18N = {
 	'form.end' => {
 		message => q||,
@@ -11,17 +12,12 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'71' => {
+	'7' => {
 		message => q||,
 		lastUpdated => 
 	},
 
 	'generate graph description' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'7' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -41,7 +37,7 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'hasImageGraph' => {
+	'72' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -51,12 +47,7 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'72' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'generateGraph' => {
+	'hasImageGraph' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -66,7 +57,7 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'graphConfiguration' => {
+	'generateGraph' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -76,7 +67,7 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'74' => {
+	'graphConfiguration' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -91,22 +82,17 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'61' => {
-		message => q||,
-		lastUpdated => 
-	},
-
 	'answer.number' => {
 		message => q||,
 		lastUpdated => 
 	},
 
-	'5 description' => {
+	'4 description' => {
 		message => q||,
 		lastUpdated => 
 	},
 
-	'4 description' => {
+	'5 description' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -156,12 +142,12 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'form.start' => {
+	'7 description' => {
 		message => q||,
 		lastUpdated => 
 	},
 
-	'7 description' => {
+	'form.start' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -171,12 +157,12 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'templateId' => {
+	'6 description' => {
 		message => q||,
 		lastUpdated => 
 	},
 
-	'6 description' => {
+	'templateId' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -196,7 +182,7 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'graphUrl' => {
+	'9' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -206,12 +192,7 @@ our $I18N = {
 		lastUpdated => 1156590506
 	},
 
-	'9' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'randomizeAnswers' => {
+	'graphUrl' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -221,7 +202,12 @@ our $I18N = {
 		lastUpdated => 1172424028
 	},
 
-	'poll asset template variables title' => {
+	'randomizeAnswers' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'8' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -231,7 +217,7 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'8' => {
+	'poll asset template variables title' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -246,12 +232,12 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'generate graph' => {
+	'answer.percent' => {
 		message => q||,
 		lastUpdated => 
 	},
 
-	'answer.percent' => {
+	'generate graph' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -261,12 +247,12 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'responses.total' => {
+	'responses.label' => {
 		message => q||,
 		lastUpdated => 
 	},
 
-	'responses.label' => {
+	'responses.total' => {
 		message => q||,
 		lastUpdated => 
 	},

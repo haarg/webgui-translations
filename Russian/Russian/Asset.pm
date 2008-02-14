@@ -1,5 +1,6 @@
 package WebGUI::i18n::Russian::Asset;
 
+
 our $I18N = {
 	'make package' => {
 		message => q||,
@@ -11,12 +12,12 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'Export as user description' => {
+	'Uploads URL' => {
 		message => q||,
 		lastUpdated => 
 	},
 
-	'Uploads URL' => {
+	'Export as user description' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -42,11 +43,6 @@ our $I18N = {
 	},
 
 	'asset' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'asset list body' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -176,11 +172,6 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'asset template body' => {
-		message => q||,
-		lastUpdated => 
-	},
-
 	'duplicate' => {
 		message => q||,
 		lastUpdated => 
@@ -271,11 +262,6 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'manage versions body' => {
-		message => q||,
-		lastUpdated => 
-	},
-
 	'954' => {
 		message => q||,
 		lastUpdated => 
@@ -291,11 +277,6 @@ our $I18N = {
 		lastUpdated => 1149246274
 	},
 
-	'asset fields body' => {
-		message => q||,
-		lastUpdated => 
-	},
-
 	'cut' => {
 		message => q||,
 		lastUpdated => 
@@ -307,11 +288,6 @@ our $I18N = {
 	},
 
 	'Metadata Description description' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'asset fields title' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -331,12 +307,12 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'import' => {
+	'confirm change' => {
 		message => q||,
 		lastUpdated => 
 	},
 
-	'confirm change' => {
+	'import' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -361,12 +337,12 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'940' => {
+	'43' => {
 		message => q||,
 		lastUpdated => 
 	},
 
-	'43' => {
+	'940' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -392,11 +368,6 @@ our $I18N = {
 	},
 
 	'Page Export Status' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'Page Export body' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -626,11 +597,6 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'metadata manage body' => {
-		message => q||,
-		lastUpdated => 
-	},
-
 	'Depth description' => {
 		message => q||,
 		lastUpdated => 
@@ -642,11 +608,6 @@ our $I18N = {
 	},
 
 	'topicName' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'prototype using body' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -666,14 +627,14 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'105' => {
-		message => q|Визуализация|,
-		lastUpdated => 1149246149
-	},
-
 	'1073' => {
 		message => q|Шаблон стиля (для страницы)|,
 		lastUpdated => 1149246176
+	},
+
+	'105' => {
+		message => q|Визуализация|,
+		lastUpdated => 1149246149
 	},
 
 	'951' => {
@@ -702,11 +663,6 @@ our $I18N = {
 	},
 
 	'packages' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'metadata edit property body' => {
 		message => q||,
 		lastUpdated => 
 	},

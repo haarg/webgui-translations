@@ -1,12 +1,18 @@
 package WebGUI::i18n::Italian::Asset_Post;
 
+
 our $I18N = {
+	'dateUpdated' => {
+		message => q||,
+		lastUpdated => 
+	},
+
 	'post received' => {
 		message => q|Il tuo post &egrave; stato ricevuto.<div>A seconda delle impostazioni, la pubblicazione sar&agrave; istantanea o richieder&agrave; l&#39;approvazione di un moderatore.</div>|,
 		lastUpdated => 1157560733
 	},
 
-	'dateUpdated' => {
+	'userDefinedN.form.textarea' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -16,7 +22,7 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'userDefinedN.form.textarea' => {
+	'content' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -24,11 +30,6 @@ our $I18N = {
 	'523' => {
 		message => q|Notifica|,
 		lastUpdated => 1157560779
-	},
-
-	'content' => {
-		message => q||,
-		lastUpdated => 
 	},
 
 	'newWindow' => {
@@ -56,12 +57,12 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'isHidden' => {
+	'hasRated' => {
 		message => q||,
 		lastUpdated => 
 	},
 
-	'hasRated' => {
+	'isHidden' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -91,12 +92,12 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'new file description' => {
+	'sticky.form' => {
 		message => q||,
 		lastUpdated => 
 	},
 
-	'sticky.form' => {
+	'new file description' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -121,12 +122,12 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'image.url' => {
+	'isNewThread' => {
 		message => q||,
 		lastUpdated => 
 	},
 
-	'isNewThread' => {
+	'image.url' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -136,12 +137,7 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'title' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'isImage' => {
+	'preview.userDefinedN' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -151,17 +147,22 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'preview.userDefinedN' => {
+	'isImage' => {
 		message => q||,
 		lastUpdated => 
 	},
 
-	'storageId' => {
+	'title' => {
 		message => q||,
 		lastUpdated => 
 	},
 
 	'user.isModerator' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'storageId' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -181,22 +182,22 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'dateSubmitted' => {
-		message => q||,
-		lastUpdated => 
-	},
-
 	'attachment.form' => {
 		message => q||,
 		lastUpdated => 
 	},
 
-	'reply.withQuote.url' => {
+	'dateSubmitted' => {
 		message => q||,
 		lastUpdated => 
 	},
 
 	'karmaScale.form' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'reply.withQuote.url' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -211,12 +212,12 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'reply.url' => {
+	'usePreview' => {
 		message => q||,
 		lastUpdated => 
 	},
 
-	'usePreview' => {
+	'reply.url' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -227,11 +228,6 @@ our $I18N = {
 	},
 
 	'userProfile.url' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'notification.subscription.message' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -271,12 +267,12 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'filename' => {
+	'lock.form' => {
 		message => q||,
 		lastUpdated => 
 	},
 
-	'lock.form' => {
+	'filename' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -291,7 +287,7 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'attachment.name' => {
+	'user.isVisitor' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -301,7 +297,7 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'user.isVisitor' => {
+	'attachment.name' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -326,7 +322,7 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'post template variables body' => {
+	'isThread' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -336,7 +332,7 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'isThread' => {
+	'edit.url' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -344,11 +340,6 @@ our $I18N = {
 	'875' => {
 		message => q|Un nuovo messaggio &egrave; stato inviato in una delle tue iscrizioni.|,
 		lastUpdated => 1157560838
-	},
-
-	'edit.url' => {
-		message => q||,
-		lastUpdated => 
 	},
 
 	'reply.content' => {
@@ -361,12 +352,12 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'ownerUserId' => {
+	'extraHeadTags' => {
 		message => q||,
 		lastUpdated => 
 	},
 
-	'extraHeadTags' => {
+	'ownerUserId' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -411,12 +402,12 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'notification template body' => {
+	'groupIdView' => {
 		message => q||,
 		lastUpdated => 
 	},
 
-	'groupIdView' => {
+	'notification template body' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -426,9 +417,9 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'assetSize' => {
-		message => q||,
-		lastUpdated => 
+	'status' => {
+		message => q|Stato|,
+		lastUpdated => 1157561314
 	},
 
 	'menuTitle' => {
@@ -436,14 +427,9 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'status' => {
-		message => q|Stato|,
-		lastUpdated => 1157561314
-	},
-
-	'By' => {
-		message => q|di|,
-		lastUpdated => 1157561932
+	'assetSize' => {
+		message => q||,
+		lastUpdated => 
 	},
 
 	'user.canEdit' => {
@@ -451,12 +437,12 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'rating' => {
-		message => q||,
-		lastUpdated => 
+	'By' => {
+		message => q|di|,
+		lastUpdated => 1157561932
 	},
 
-	'add/edit post template body' => {
+	'rating' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -471,12 +457,12 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'isPackage' => {
+	'userDefinedN.form.yesNo' => {
 		message => q||,
 		lastUpdated => 
 	},
 
-	'userDefinedN.form.yesNo' => {
+	'isPackage' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -486,17 +472,12 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'contentType' => {
-		message => q||,
-		lastUpdated => 
-	},
-
 	'dateSubmitted.human' => {
 		message => q||,
 		lastUpdated => 
 	},
 
-	'thumbnail' => {
+	'contentType' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -506,7 +487,7 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'userDefined4' => {
+	'thumbnail' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -516,12 +497,17 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'subscribe.form' => {
+	'userDefined4' => {
 		message => q||,
 		lastUpdated => 
 	},
 
 	'post template variables title' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'subscribe.form' => {
 		message => q||,
 		lastUpdated => 
 	},

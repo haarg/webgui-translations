@@ -1,14 +1,10 @@
 package WebGUI::i18n::Dutch::Asset_Thread;
 
+
 our $I18N = {
 	'user.isSubscribed' => {
 		message => q|Een voorwaarde die waar is als de huidige gebruiker geabonneerd is op de thread|,
 		lastUpdated => 1153541585
-	},
-
-	'layout.isThreaded' => {
-		message => q|Een voorwaarde die aangeeft of de huidige lay-out &#39;threaded&#39; is|,
-		lastUpdated => 1153526576
 	},
 
 	'thread template title' => {
@@ -16,14 +12,19 @@ our $I18N = {
 		lastUpdated => 1153534286
 	},
 
-	'assetName' => {
-		message => q|Thread|,
-		lastUpdated => 1153241694
+	'layout.isThreaded' => {
+		message => q|Een voorwaarde die aangeeft of de huidige lay-out &#39;threaded&#39; is|,
+		lastUpdated => 1153526576
 	},
 
 	'archive.url' => {
 		message => q|De URL om deze thread te archiveren|,
 		lastUpdated => 1153241551
+	},
+
+	'assetName' => {
+		message => q|Thread|,
+		lastUpdated => 1153241694
 	},
 
 	'replies' => {
@@ -71,11 +72,6 @@ our $I18N = {
 		lastUpdated => 1153541540
 	},
 
-	'thread template body' => {
-		message => q|De variabelen hieronder zijn beschikbaar in het thread-sjabloon. Daarbij kunnen alle variabelen van het berichtensjabloon worden gebruikt. Labels voor URL&#39;s voor acties zoals &#39;unlock URL&#39;, &#39;stick URL&#39; worden geleverd door de collaboratie labels. De paginering-sjabloon-variabelen zijn ook beschikbaar om meervoudige pagina&#39;s van berichten en threads weer te geven. |,
-		lastUpdated => 1153534272
-	},
-
 	'collaboration.description' => {
 		message => q|De beschrijving van het collaboratiesysteem waar dit bericht deel van is|,
 		lastUpdated => 1153241735
@@ -91,14 +87,14 @@ our $I18N = {
 		lastUpdated => 1170692515
 	},
 
-	'collaboration.url' => {
-		message => q|De URL die u terugleidt naar het collaboratie systeem waar dit bericht deel van is |,
-		lastUpdated => 1153265062
-	},
-
 	'depth' => {
 		message => q|Een getal dat de loop-telling aangeeft van de &#39;indent_loop&#39;|,
 		lastUpdated => 1153328954
+	},
+
+	'collaboration.url' => {
+		message => q|De URL die u terugleidt naar het collaboratie systeem waar dit bericht deel van is |,
+		lastUpdated => 1153265062
 	},
 
 	'isSticky' => {
@@ -106,14 +102,14 @@ our $I18N = {
 		lastUpdated => 1153523574
 	},
 
-	'isLocked variable' => {
-		message => q|Een variabele (waar/niet-waar) die aangeeft of de discussieboom (thread) was gesloten of niet.|,
-		lastUpdated => 1170692551
-	},
-
 	'thumbsDown.icon.url' => {
 		message => q|De URL naar het &#39;thumbs down&#39;-icoon |,
 		lastUpdated => 1153534310
+	},
+
+	'isLocked variable' => {
+		message => q|Een variabele (waar/niet-waar) die aangeeft of de discussieboom (thread) was gesloten of niet.|,
+		lastUpdated => 1170692551
 	},
 
 	'user.isModerator' => {
@@ -156,9 +152,9 @@ our $I18N = {
 		lastUpdated => 1176471764
 	},
 
-	'subscriptionGroupId' => {
-		message => q|Het groeps-ID dat gereserveerd is voor gebruikers die zich aangemeld hebben voor een bericht|,
-		lastUpdated => 1176474798
+	'repliesAllowed' => {
+		message => q|Een voorwaarde die aangeeft dat antwoorden in deze thread zijn toegestaan|,
+		lastUpdated => 1153533683
 	},
 
 	'karmaScale' => {
@@ -166,14 +162,14 @@ our $I18N = {
 		lastUpdated => 1153525911
 	},
 
-	'repliesAllowed' => {
-		message => q|Een voorwaarde die aangeeft dat antwoorden in deze thread zijn toegestaan|,
-		lastUpdated => 1153533683
+	'subscriptionGroupId' => {
+		message => q|Het groeps-ID dat gereserveerd is voor gebruikers die zich aangemeld hebben voor een bericht|,
+		lastUpdated => 1176474798
 	},
 
-	'next.url' => {
-		message => q|De URL om u naar de volgende thread te brengen |,
-		lastUpdated => 1153530108
+	'post_loop' => {
+		message => q|Een loop die alle berichten voor deze thread bevat. Elk bericht in de loop bevat ook een set eigen berichtensjabloon-variabelen. |,
+		lastUpdated => 1153530835
 	},
 
 	'subscribe.url' => {
@@ -181,9 +177,9 @@ our $I18N = {
 		lastUpdated => 1153533903
 	},
 
-	'post_loop' => {
-		message => q|Een loop die alle berichten voor deze thread bevat. Elk bericht in de loop bevat ook een set eigen berichtensjabloon-variabelen. |,
-		lastUpdated => 1153530835
+	'next.url' => {
+		message => q|De URL om u naar de volgende thread te brengen |,
+		lastUpdated => 1153530108
 	},
 
 	'userProfile.url' => {
@@ -206,14 +202,14 @@ our $I18N = {
 		lastUpdated => 1153526402
 	},
 
-	'indent_loop' => {
-		message => q|Een loop die het aantal malen diepte regelt. |,
-		lastUpdated => 1153384295
-	},
-
 	'user.canPost' => {
 		message => q|Een voorwaarde die aangeeft dat de huidige gebruiker berichten kan toevoegen aan deze thread |,
 		lastUpdated => 1153541509
+	},
+
+	'indent_loop' => {
+		message => q|Een loop die het aantal malen diepte regelt. |,
+		lastUpdated => 1153384295
 	},
 
 	'search.url' => {
@@ -221,14 +217,14 @@ our $I18N = {
 		lastUpdated => 1153533847
 	},
 
-	'thread asset template title' => {
-		message => q|Draad Object Sjabloon Variabelen (Thread Asset Template Variables)|,
-		lastUpdated => 1180650654
-	},
-
 	'karma' => {
 		message => q|Geeft de hoeveeheid karma van deze thread aan |,
 		lastUpdated => 1153524148
+	},
+
+	'thread asset template title' => {
+		message => q|Draad Object Sjabloon Variabelen (Thread Asset Template Variables)|,
+		lastUpdated => 1180650654
 	},
 
 	'depthX10' => {
@@ -246,24 +242,14 @@ our $I18N = {
 		lastUpdated => 1153534392
 	},
 
-	'isSticky variable' => {
-		message => q|Een variabele (waar/niet-waar) die aangeeft of een discussieboom (thread) bij voorkeur bovenaan moet staan.|,
-		lastUpdated => 1170695209
-	},
-
 	'isArchived' => {
 		message => q|Een voorwaarde die aangeeft of de huidige thread gearchiveerd is. |,
 		lastUpdated => 1153385281
 	},
 
-	'layout.threaded.url' => {
-		message => q|Een URL om de lay-out te veranderen in &#39;threaded&#39; berichten. Dit is de standaard instelling. Berichten zullen individueel worden weergegeven. |,
-		lastUpdated => 1153527776
-	},
-
-	'karmaRank' => {
-		message => q|Dit is karma, verdeeld in een karma-schaal |,
-		lastUpdated => 1153525793
+	'isSticky variable' => {
+		message => q|Een variabele (waar/niet-waar) die aangeeft of een discussieboom (thread) bij voorkeur bovenaan moet staan.|,
+		lastUpdated => 1170695209
 	},
 
 	'user.isVisitor' => {
@@ -271,9 +257,14 @@ our $I18N = {
 		lastUpdated => 1153541609
 	},
 
-	'thread asset template body' => {
-		message => q|De volgende variabelen zijn beschikbaar in het draad sjabloon (Thread template). De meeste zijn interne variabelen en niet buitengewoon bruikbaar.|,
-		lastUpdated => 1180650616
+	'karmaRank' => {
+		message => q|Dit is karma, verdeeld in een karma-schaal |,
+		lastUpdated => 1153525793
+	},
+
+	'layout.threaded.url' => {
+		message => q|Een URL om de lay-out te veranderen in &#39;threaded&#39; berichten. Dit is de standaard instelling. Berichten zullen individueel worden weergegeven. |,
+		lastUpdated => 1153527776
 	},
 
 };

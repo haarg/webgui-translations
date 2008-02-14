@@ -1,5 +1,6 @@
 package WebGUI::i18n::BrazilianPortuguese::AuthWebGUI;
 
+
 our $I18N = {
 	'recovery template title' => {
 		message => q||,
@@ -16,19 +17,14 @@ our $I18N = {
 		lastUpdated => 1080061856
 	},
 
-	'anon reg template body' => {
-		message => q||,
-		lastUpdated => 
+	'17' => {
+		message => q|Senha Atualizada|,
+		lastUpdated => 1080060123
 	},
 
 	'2' => {
 		message => q|Senha (confirmar)|,
 		lastUpdated => 1080060244
-	},
-
-	'17' => {
-		message => q|Senha Atualizada|,
-		lastUpdated => 1080060123
 	},
 
 	'1' => {
@@ -51,14 +47,14 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'16' => {
-		message => q|Prazo de Expiração de Senha|,
-		lastUpdated => 1080060115
-	},
-
 	'password recovery template' => {
 		message => q||,
 		lastUpdated => 
+	},
+
+	'16' => {
+		message => q|Prazo de Expiração de Senha|,
+		lastUpdated => 1080060115
 	},
 
 	'email address validation email subject' => {
@@ -81,9 +77,9 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'14' => {
-		message => q|Tamanho mínimo da senha|,
-		lastUpdated => 1080059960
+	'email address validation email body' => {
+		message => q||,
+		lastUpdated => 
 	},
 
 	'20' => {
@@ -91,9 +87,9 @@ our $I18N = {
 		lastUpdated => 1080060268
 	},
 
-	'email address validation email body' => {
-		message => q||,
-		lastUpdated => 
+	'14' => {
+		message => q|Tamanho mínimo da senha|,
+		lastUpdated => 1080059960
 	},
 
 	'no registration hack' => {
@@ -116,22 +112,12 @@ our $I18N = {
 		lastUpdated => 1080059910
 	},
 
-	'expired template body' => {
-		message => q||,
-		lastUpdated => 
-	},
-
 	'expired password template' => {
 		message => q||,
 		lastUpdated => 
 	},
 
 	'expired template title' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'login template body' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -166,14 +152,14 @@ our $I18N = {
 		lastUpdated => 1080083479
 	},
 
-	'account template' => {
-		message => q||,
-		lastUpdated => 
-	},
-
 	'3' => {
 		message => q|As senhas não coincidem. Por favor, tente outra vez.|,
 		lastUpdated => 1080064815
+	},
+
+	'account template' => {
+		message => q||,
+		lastUpdated => 
 	},
 
 	'9' => {
@@ -186,14 +172,14 @@ our $I18N = {
 		lastUpdated => 1080059932
 	},
 
-	'15' => {
-		message => q|Tamanho Mínimo da Senha|,
-		lastUpdated => 1080059976
-	},
-
 	'use captcha' => {
 		message => q||,
 		lastUpdated => 
+	},
+
+	'15' => {
+		message => q|Tamanho Mínimo da Senha|,
+		lastUpdated => 1080059976
 	},
 
 	'8' => {
@@ -201,29 +187,19 @@ our $I18N = {
 		lastUpdated => 1080061775
 	},
 
-	'4' => {
-		message => q|Sua senha não pode ser deixada em branco.|,
-		lastUpdated => 1080061617
-	},
-
 	'check email for validation' => {
 		message => q||,
 		lastUpdated => 
 	},
 
-	'display account template body' => {
-		message => q||,
-		lastUpdated => 
+	'4' => {
+		message => q|Sua senha não pode ser deixada em branco.|,
+		lastUpdated => 1080061617
 	},
 
 	'19' => {
 		message => q|Usuários Podem Alterar o Nome de Usuário (login)?|,
 		lastUpdated => 1080060210
-	},
-
-	'recovery template body' => {
-		message => q||,
-		lastUpdated => 
 	},
 
 	'5' => {

@@ -1,14 +1,15 @@
 package WebGUI::i18n::Arabic::Asset_TimeTracking;
 
-our $I18N = {
-	'time.add.row.label' => {
-		message => q|عبارة "اضف سطر", دولية|,
-		lastUpdated => 1177096082
-	},
 
+our $I18N = {
 	'Project Management Integration' => {
 		message => q|تكامل ادارة المشاريع|,
 		lastUpdated => 1177093406
+	},
+
+	'time.add.row.label' => {
+		message => q|عبارة "اضف سطر", دولية|,
+		lastUpdated => 1177096082
 	},
 
 	'manage project available task label' => {
@@ -16,14 +17,14 @@ our $I18N = {
 		lastUpdated => 1177095347
 	},
 
-	'time report task label' => {
-		message => q|مهمة|,
-		lastUpdated => 1177096057
-	},
-
 	'No  name was entered for new task' => {
 		message => q|لم يتم ادخال اسم للمهمة الجديدة|,
 		lastUpdated => 1177093401
+	},
+
+	'time report task label' => {
+		message => q|مهمة|,
+		lastUpdated => 1177096057
 	},
 
 	'manage project name label' => {
@@ -36,29 +37,14 @@ our $I18N = {
 		lastUpdated => 1177096144
 	},
 
-	'You may not submit more hours than are available during any given week.' => {
-		message => q|من الممكن ان تدخل ساعات اكثر من المتوفرة خلال اي من الاسابيع.|,
-		lastUpdated => 1177093444
-	},
-
 	'New Task Name' => {
 		message => q|اسم مهمة جديدة|,
 		lastUpdated => 1177093396
 	},
 
-	'user view template body' => {
-		message => q|هذه المتغيرات متوفرة على نموذج عرض المستخدم في اصل متابعة الوقت.|,
-		lastUpdated => 1177096846
-	},
-
-	'managerViewTemplateId' => {
-		message => q|نموذج سيستخدم لعرض هذا الاصل لمدير|,
-		lastUpdated => 1177095386
-	},
-
-	'form.hours' => {
-		message => q|اذا كان التقرير بعلامة مكتمل, هذا المتغير سيحتوي عدد ساعات العمل على مهمة لمشروع في يوم واحد. اذا لم تتم المهمة, اذا سيحتوي هذا المتغير كود نموذج على لمساحوة رقم من اجل ان يدخل المستخدم رقم متوسط لعدد الساعات المستهلكة.|,
-		lastUpdated => 1177095282
+	'You may not submit more hours than are available during any given week.' => {
+		message => q|من الممكن ان تدخل ساعات اكثر من المتوفرة خلال اي من الاسابيع.|,
+		lastUpdated => 1177093444
 	},
 
 	'edit project tasks hoverhelp' => {
@@ -66,14 +52,14 @@ our $I18N = {
 		lastUpdated => 1177093502
 	},
 
-	'time tracking asset template variables body' => {
-		message => q|كل اصل يوفر مجموعة من المتغيرات للنماذج بناء على الخواص الداخلية للاصل, بعضها يكون مفيدا و البعض الاخر لا.|,
-		lastUpdated => 1177096072
+	'form.hours' => {
+		message => q|اذا كان التقرير بعلامة مكتمل, هذا المتغير سيحتوي عدد ساعات العمل على مهمة لمشروع في يوم واحد. اذا لم تتم المهمة, اذا سيحتوي هذا المتغير كود نموذج على لمساحوة رقم من اجل ان يدخل المستخدم رقم متوسط لعدد الساعات المستهلكة.|,
+		lastUpdated => 1177095282
 	},
 
-	'time.report.totalHours.label' => {
-		message => q|عبارة "اجمالي الساعات", دولية|,
-		lastUpdated => 1177096133
+	'managerViewTemplateId' => {
+		message => q|نموذج سيستخدم لعرض هذا الاصل لمدير|,
+		lastUpdated => 1177095386
 	},
 
 	'Choose yes to pull projects and task information from the various project management assets on your site' => {
@@ -81,14 +67,19 @@ our $I18N = {
 		lastUpdated => 1177093391
 	},
 
-	'row.id' => {
-		message => q|المعرف الفريد لهذا السطر row_rowNum|,
-		lastUpdated => 1177096028
+	'time.report.totalHours.label' => {
+		message => q|عبارة "اجمالي الساعات", دولية|,
+		lastUpdated => 1177096133
 	},
 
 	'time report project label' => {
 		message => q|مشروع|,
 		lastUpdated => 1177096052
+	},
+
+	'row.id' => {
+		message => q|المعرف الفريد لهذا السطر row_rowNum|,
+		lastUpdated => 1177096028
 	},
 
 	'edit project id hoverhelp' => {
@@ -99,11 +90,6 @@ our $I18N = {
 	'report.isComplete' => {
 		message => q|علامة ستتحقق اذا كان النموذج مكتملا|,
 		lastUpdated => 1177096015
-	},
-
-	'time row template body' => {
-		message => q|هذه المتغيرات متوفرة على نموذج سطر الوقت لاصل متابعة الوقت.|,
-		lastUpdated => 1177096062
 	},
 
 	'form.header' => {
@@ -126,19 +112,14 @@ our $I18N = {
 		lastUpdated => 1177095260
 	},
 
-	'project.task.array' => {
-		message => q|جافا سكريبت يحتوي على بيانات عن المشروع و المهمات|,
-		lastUpdated => 1177096010
-	},
-
 	'timeRowTemplateId' => {
 		message => q|هوية النموذج الذي يقوم بعمل سطر واحد في نفس الورقة|,
 		lastUpdated => 1177096150
 	},
 
-	'manage projects body' => {
-		message => q|شاشة ادارة المشاريع تسمح لك باضافة مشاريع جديدة لاصل متابعة الوقت حتى يتمكن المستخدمين من متابعة الوقت المخصص للمهمات المطلوبة منهم. المشاريع التي تمت اضافتها بالفعل الى الاصل تعرض في جدول, مع المهمات المرتبطة بها و المصادر, كل مشروع ايضا له وصلات لتعديل او مسح المشروع.|,
-		lastUpdated => 1177095362
+	'project.task.array' => {
+		message => q|جافا سكريبت يحتوي على بيانات عن المشروع و المهمات|,
+		lastUpdated => 1177096010
 	},
 
 	'form.taskEntryId' => {
@@ -191,24 +172,14 @@ our $I18N = {
 		lastUpdated => 1177096111
 	},
 
-	'groupToManage' => {
-		message => q|هوية المجموعة التي يمكنها الاطلاع على كل شرائح الوقت و تسجيلات الوقت المعدلة و المكتمله.|,
-		lastUpdated => 1177095314
-	},
-
 	'project manage label' => {
 		message => q|قم بادارة المشاريع|,
 		lastUpdated => 1177095403
 	},
 
-	'edit projects body' => {
-		message => q|في هذه الشاشة اما ستعجل مشروع موجود بالفعل, او ان تضبط مشروع جديد. كل مشروع له اسم مشروع, قائمة بالمستخدمين الممكن ان يعملوا عليه و على قاءمة المهمات.
-
-المشتخدمين متمثلين في اي مستخدم ويب جوي مصرح له. استخدم قائمة الاختيار لاضافة او حذف المستخدمين من قائمة المصادر. 
-
-المهمات هي فردية لكل مشروع, وتتكون من اسم فقط. لاضافة مهمة جديدة الى المشروع, ادخل اسم مهمة واضغط زر الادخال. لتحذف مهمة استخدم زر المسح المجاور للمهمة التي تريد مسحها في قائمة المهمات.
-|,
-		lastUpdated => 1177093514
+	'groupToManage' => {
+		message => q|هوية المجموعة التي يمكنها الاطلاع على كل شرائح الوقت و تسجيلات الوقت المعدلة و المكتمله.|,
+		lastUpdated => 1177095314
 	},
 
 	'time.report.comments.label' => {
@@ -216,14 +187,14 @@ our $I18N = {
 		lastUpdated => 1177096089
 	},
 
-	'edit project id label' => {
-		message => q|هوية المشروع|,
-		lastUpdated => 1177093464
-	},
-
 	'groupToManage hoverhelp' => {
 		message => q|المجموعة التي يمكنها الاطلاع على كل سجلات الوقت و التسجيلات المحدثة و المكتمله.|,
 		lastUpdated => 1177095319
+	},
+
+	'edit project id label' => {
+		message => q|هوية المشروع|,
+		lastUpdated => 1177093464
 	},
 
 	'js.alert.validate.incomplete.error' => {
@@ -306,11 +277,6 @@ our $I18N = {
 		lastUpdated => 1177096879
 	},
 
-	'timetracking add/edit body' => {
-		message => q|اصل متابعة الوقت يسمح لك بتعريف مجموعة من المهمات و من ثم كيفية اتمامهم في مقابل تقريب اصلي للمهمة.|,
-		lastUpdated => 1177096166
-	},
-
 	'time.save.label' => {
 		message => q|عبارة "اضف سطر", دولية|,
 		lastUpdated => 1177096139
@@ -326,14 +292,14 @@ our $I18N = {
 		lastUpdated => 1177093427
 	},
 
-	'Are you sure you want to delete this activity' => {
-		message => q|هل انت متأكد انك تريد مسح هذا النشاط؟|,
-		lastUpdated => 1177093380
-	},
-
 	'Tasks' => {
 		message => q|المهمات|,
 		lastUpdated => 1177093422
+	},
+
+	'Are you sure you want to delete this activity' => {
+		message => q|هل انت متأكد انك تريد مسح هذا النشاط؟|,
+		lastUpdated => 1177093380
 	},
 
 	'edit project name hoverhelp' => {
@@ -341,19 +307,14 @@ our $I18N = {
 		lastUpdated => 1177093475
 	},
 
-	'Report Complete' => {
-		message => q|التقرير مكتمل|,
-		lastUpdated => 1177093410
-	},
-
 	'Add' => {
 		message => q|اضف|,
 		lastUpdated => 1177093369
 	},
 
-	'edit project resource hoverhelp' => {
-		message => q|اختر المصادر التي تريد ان تجعلها قالة لادخال الوقت لهذا المشروع.|,
-		lastUpdated => 1177093486
+	'Report Complete' => {
+		message => q|التقرير مكتمل|,
+		lastUpdated => 1177093410
 	},
 
 	'time report date label' => {
@@ -361,9 +322,9 @@ our $I18N = {
 		lastUpdated => 1177096037
 	},
 
-	'js.alert.removeRow.error' => {
-		message => q|خطأ دولي يعرض عندما يطلب مسح السطر الوحيد|,
-		lastUpdated => 1177095331
+	'edit project resource hoverhelp' => {
+		message => q|اختر المصادر التي تريد ان تجعلها قالة لادخال الوقت لهذا المشروع.|,
+		lastUpdated => 1177093486
 	},
 
 	'edit project screen label' => {
@@ -371,14 +332,19 @@ our $I18N = {
 		lastUpdated => 1177093497
 	},
 
-	'Choose One' => {
-		message => q|اختر واحدا|,
-		lastUpdated => 1177093385
+	'js.alert.removeRow.error' => {
+		message => q|خطأ دولي يعرض عندما يطلب مسح السطر الوحيد|,
+		lastUpdated => 1177095331
 	},
 
 	'time report header' => {
 		message => q|ادخال الوقت للاسبوع الذي سينتهي %s|,
 		lastUpdated => 1177096042
+	},
+
+	'Choose One' => {
+		message => q|اختر واحدا|,
+		lastUpdated => 1177093385
 	},
 
 	'form.project' => {
@@ -391,14 +357,14 @@ our $I18N = {
 		lastUpdated => 1177096828
 	},
 
-	'time.report.complete.label' => {
-		message => q|عبارة "التقرير مكتمكل", دولية|,
-		lastUpdated => 1177096094
-	},
-
 	'Save' => {
 		message => q|احفظ|,
 		lastUpdated => 1177093417
+	},
+
+	'time.report.complete.label' => {
+		message => q|عبارة "التقرير مكتمكل", دولية|,
+		lastUpdated => 1177096094
 	},
 
 	'report.nextWeek.url' => {
@@ -421,19 +387,14 @@ our $I18N = {
 		lastUpdated => 1177095287
 	},
 
-	'extras' => {
-		message => q|الرابط الى مساحة متابعة الوقت في دليل الاضافات, wobject/TimeTracking|,
-		lastUpdated => 1177095254
-	},
-
 	'managerViewTemplate hoverhelp' => {
 		message => q|النموذج المستخدم لاطلاع المدير على تطبيق متابعة الوقت|,
 		lastUpdated => 1177095375
 	},
 
-	'timetracking add/edit title' => {
-		message => q|اضف/عدل متابعة وقت|,
-		lastUpdated => 1177096831
+	'extras' => {
+		message => q|الرابط الى مساحة متابعة الوقت في دليل الاضافات, wobject/TimeTracking|,
+		lastUpdated => 1177095254
 	},
 
 	'form.task' => {
@@ -456,14 +417,14 @@ our $I18N = {
 		lastUpdated => 1177096047
 	},
 
-	'time tracking asset template variables title' => {
-		message => q|متغيرات نموذج اصل نظام متابعة الوقت|,
-		lastUpdated => 1177096077
-	},
-
 	'form.footer' => {
 		message => q|اتش تي ام ال و جافا سكريبت مطلوبين لانهاء هذا النموذج.|,
 		lastUpdated => 1177095272
+	},
+
+	'time tracking asset template variables title' => {
+		message => q|متغيرات نموذج اصل نظام متابعة الوقت|,
+		lastUpdated => 1177096077
 	},
 
 	'timeRowTemplateId hoverhelp' => {
@@ -476,24 +437,24 @@ our $I18N = {
 		lastUpdated => 1177096857
 	},
 
-	'userViewTemplateId' => {
-		message => q|النموذج الذي سيستخدم لعرض هذا الاصل لمستخدم عام.|,
-		lastUpdated => 1177096867
-	},
-
 	'time.report.header' => {
 		message => q|المقدمة لتقرير الوقت الذي يعرض تاريخ الانتهاء من هذا الاسبوع|,
 		lastUpdated => 1177096105
 	},
 
-	'entry.hours' => {
-		message => q|form.hours باستثناء انها دائما تحتوي على عدد الساعات المدخلة من المستخدم التي تم العمل فيها على مهمة خلال يوم واحد. اذا لم يتم ادخال عدد ساعات سيكون هذا مساوي لـ0. هذا مماثل لـ|,
-		lastUpdated => 1177093519
+	'userViewTemplateId' => {
+		message => q|النموذج الذي سيستخدم لعرض هذا الاصل لمستخدم عام.|,
+		lastUpdated => 1177096867
 	},
 
 	'edit project resource label' => {
 		message => q|مصدر المشروع|,
 		lastUpdated => 1177093492
+	},
+
+	'entry.hours' => {
+		message => q|form.hours باستثناء انها دائما تحتوي على عدد الساعات المدخلة من المستخدم التي تم العمل فيها على مهمة خلال يوم واحد. اذا لم يتم ادخال عدد ساعات سيكون هذا مساوي لـ0. هذا مماثل لـ|,
+		lastUpdated => 1177093519
 	},
 
 };

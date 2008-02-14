@@ -1,5 +1,6 @@
 package WebGUI::i18n::Dutch::Asset_Product;
 
+
 our $I18N = {
 	'27 description' => {
 		message => q|De actuele waarde van de specificatie. Bijvoorbeeld, als u hoogte als label kiest, dan kunt u een waarde invoeren zoals &#39;18&#39;.|,
@@ -41,24 +42,19 @@ our $I18N = {
 		lastUpdated => 1153237907
 	},
 
-	'44' => {
-		message => q|Product-accessoire, toevoegen/verwijderen |,
-		lastUpdated => 1153226934
-	},
-
 	'accessory.url' => {
 		message => q|De URL naar het verwante accessoire|,
 		lastUpdated => 1153235563
 	},
 
-	'55' => {
-		message => q|Een voordeel toevoegen |,
-		lastUpdated => 1153234276
-	},
-
 	'brochure.url' => {
 		message => q|De URL om de brochure te downloaden |,
 		lastUpdated => 1153238749
+	},
+
+	'55' => {
+		message => q|Een voordeel toevoegen |,
+		lastUpdated => 1153234276
 	},
 
 	'27' => {
@@ -86,14 +82,14 @@ our $I18N = {
 		lastUpdated => 1153237841
 	},
 
-	'31' => {
-		message => q|Specificaties|,
-		lastUpdated => 1153088786
-	},
-
 	'brochure.icon' => {
 		message => q|De URL naar het icoon voor de brochure |,
 		lastUpdated => 1153238469
+	},
+
+	'31' => {
+		message => q|Specificaties|,
+		lastUpdated => 1153088786
 	},
 
 	'35' => {
@@ -231,11 +227,6 @@ our $I18N = {
 		lastUpdated => 1153087989
 	},
 
-	'49' => {
-		message => q|Product-voordeel, toevoegen/bewerken |,
-		lastUpdated => 1153230654
-	},
-
 	'manual.label' => {
 		message => q|Het vertaalde label voor de URL van de handleiding|,
 		lastUpdated => 1153241026
@@ -301,11 +292,6 @@ our $I18N = {
 		lastUpdated => 1153235461
 	},
 
-	'47' => {
-		message => q|Verwante producten zijn producten die vergelijkbaar met of aanvullend aan andere producten zijn. |,
-		lastUpdated => 1153230313
-	},
-
 	'8' => {
 		message => q|Product-afbeelding 2|,
 		lastUpdated => 1153235011
@@ -331,11 +317,6 @@ our $I18N = {
 		lastUpdated => 1153090219
 	},
 
-	'43' => {
-		message => q|Specificaties zijn de technische details van uw product |,
-		lastUpdated => 1153226911
-	},
-
 	'5' => {
 		message => q|Weet u zeker dat u deze specificatie wilt verwijderen? |,
 		lastUpdated => 1153233224
@@ -359,11 +340,6 @@ our $I18N = {
 	'manual' => {
 		message => q|De unieke identificatie (ID) voor het storage object voor de handleiding van het product.|,
 		lastUpdated => 1189367295
-	},
-
-	'63' => {
-		message => q|Het nu volgende is de lijst van sjabloon-variabelen, beschikbaar in de product-sjablonen |,
-		lastUpdated => 1153234805
 	},
 
 	'21' => {
@@ -476,21 +452,6 @@ our $I18N = {
 		lastUpdated => 1153237660
 	},
 
-	'50' => {
-		message => q|Voordelen zijn vaak het resultaat van de eigenschappen van uw producten. Zij maken uw product zo goed. Als u voordelen toevoegt, moet u wellicht ook overwegen enkele eigenschappen toe te voegen. |,
-		lastUpdated => 1153234044
-	},
-
-	'39' => {
-		message => q|WebGUI heeft een product management systeem gebouwd dat u in staat stelt uw producten en diensten snel en makkelijk op uw site te publiceren |,
-		lastUpdated => 1153090309
-	},
-
-	'41' => {
-		message => q|Eigenschappen zijn 'verkooppunten' voor uw product, redenen om uw product te kopen. Eigenschappen hebben vaak voordeel tot gevolg, dus wellicht wilt u ook voordelen van dit product noemen.|,
-		lastUpdated => 1170690567
-	},
-
 	'52' => {
 		message => q|Een ander voordeel toevoegen?|,
 		lastUpdated => 1153234206
@@ -504,11 +465,6 @@ our $I18N = {
 	'56' => {
 		message => q|Een product-sjabloon toevoegen|,
 		lastUpdated => 1153234299
-	},
-
-	'45' => {
-		message => q|Accessoires zijn producten die andere producten aanvullen|,
-		lastUpdated => 1153228029
 	},
 
 	'19' => {
@@ -556,11 +512,6 @@ our $I18N = {
 		lastUpdated => 1153087956
 	},
 
-	'40' => {
-		message => q|Product-eigenschap, toevoegen/verwijderen|,
-		lastUpdated => 1153152444
-	},
-
 	'addbenefit.url' => {
 		message => q|De URL om een voordeel aan dit product toe te voegen|,
 		lastUpdated => 1153237704
@@ -606,11 +557,6 @@ our $I18N = {
 		lastUpdated => 1153241268
 	},
 
-	'42' => {
-		message => q|Product-specificatie, toevoegen/verwijderen|,
-		lastUpdated => 1153152698
-	},
-
 	'22' => {
 		message => q|Bewerk eigenschap|,
 		lastUpdated => 1152899646
@@ -619,11 +565,6 @@ our $I18N = {
 	'cache timeout' => {
 		message => q|Cache time-out|,
 		lastUpdated => 1153238847
-	},
-
-	'46' => {
-		message => q|Product (verwant), toevoegen/bewerken|,
-		lastUpdated => 1153229687
 	},
 
 	'13' => {
@@ -641,14 +582,14 @@ our $I18N = {
 		lastUpdated => 1153234426
 	},
 
-	'36' => {
-		message => q|Voeg een accessoire toe |,
-		lastUpdated => 1153090201
-	},
-
 	'3' => {
 		message => q|Weet u zeker dat u deze eigenschap wilt verwijderen?|,
 		lastUpdated => 1153088673
+	},
+
+	'36' => {
+		message => q|Voeg een accessoire toe |,
+		lastUpdated => 1153090201
 	},
 
 	'addbenefit.label' => {
@@ -656,19 +597,14 @@ our $I18N = {
 		lastUpdated => 1153237682
 	},
 
-	'51' => {
-		message => q|Voordeel|,
-		lastUpdated => 1153234059
-	},
-
 	'9' => {
 		message => q|Product-afbeelding 3|,
 		lastUpdated => 1153235043
 	},
 
-	'38' => {
-		message => q|Product, toevoegen/bewerken |,
-		lastUpdated => 1153090241
+	'51' => {
+		message => q|Voordeel|,
+		lastUpdated => 1153234059
 	},
 
 	'4' => {

@@ -1,17 +1,8 @@
 package WebGUI::i18n::Norwegian::WebGUI;
 
+
 our $I18N = {
 	'559' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'84 description' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'127' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -21,12 +12,12 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'71' => {
+	'127' => {
 		message => q||,
 		lastUpdated => 
 	},
 
-	'118' => {
+	'84 description' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -36,7 +27,22 @@ our $I18N = {
 		lastUpdated => 
 	},
 
+	'118' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'71' => {
+		message => q||,
+		lastUpdated => 
+	},
+
 	'959' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'882' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -46,12 +52,7 @@ our $I18N = {
 		lastUpdated => 1170005752
 	},
 
-	'882' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'cache type' => {
+	'358' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -61,7 +62,7 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'358' => {
+	'cache type' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -71,12 +72,12 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'560' => {
+	'737' => {
 		message => q||,
 		lastUpdated => 
 	},
 
-	'737' => {
+	'560' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -91,17 +92,12 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'glossary title' => {
+	'changeUrl workflow help' => {
 		message => q||,
 		lastUpdated => 
 	},
 
 	'451' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'changeUrl workflow help' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -176,17 +172,12 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'572' => {
-		message => q||,
-		lastUpdated => 
-	},
-
 	'350' => {
 		message => q||,
 		lastUpdated => 
 	},
 
-	'968' => {
+	'572' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -196,17 +187,12 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'pagination.lastPageUrl' => {
-		message => q||,
-		lastUpdated => 
-	},
-
 	'58' => {
 		message => q||,
 		lastUpdated => 
 	},
 
-	'431' => {
+	'pagination.lastPageUrl' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -216,12 +202,12 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'861' => {
+	'431' => {
 		message => q||,
 		lastUpdated => 
 	},
 
-	'manage users in group body' => {
+	'861' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -231,22 +217,22 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'76' => {
-		message => q||,
-		lastUpdated => 
-	},
-
 	'340' => {
 		message => q||,
 		lastUpdated => 
 	},
 
-	'62' => {
+	'76' => {
 		message => q||,
 		lastUpdated => 
 	},
 
 	'311' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'62' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -336,11 +322,6 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'653' => {
-		message => q||,
-		lastUpdated => 
-	},
-
 	'950' => {
 		message => q||,
 		lastUpdated => 
@@ -356,22 +337,12 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'160' => {
-		message => q||,
-		lastUpdated => 
-	},
-
 	'509' => {
 		message => q||,
 		lastUpdated => 
 	},
 
-	'367' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'8' => {
+	'160' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -381,12 +352,17 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'1000' => {
+	'8' => {
 		message => q||,
 		lastUpdated => 
 	},
 
-	'choose an asset' => {
+	'367' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'43' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -396,7 +372,7 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'43' => {
+	'choose an asset' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -417,11 +393,6 @@ our $I18N = {
 	},
 
 	'523' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'manage users in group title' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -471,22 +442,12 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'999' => {
-		message => q||,
-		lastUpdated => 
-	},
-
 	'61' => {
 		message => q||,
 		lastUpdated => 
 	},
 
 	'430' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'replacements edit body' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -504,11 +465,6 @@ our $I18N = {
 	'1035' => {
 		message => q||,
 		lastUpdated => 
-	},
-
-	'settings help' => {
-		message => q|innstillinger hjelp<br />|,
-		lastUpdated => 1170005917
 	},
 
 	'452' => {
@@ -641,22 +597,17 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'1002' => {
-		message => q||,
-		lastUpdated => 
-	},
-
 	'866 description' => {
 		message => q||,
 		lastUpdated => 
 	},
 
-	'1084' => {
+	'370' => {
 		message => q||,
 		lastUpdated => 
 	},
 
-	'370' => {
+	'1084' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -731,12 +682,12 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'pagination.pageCount.isMultiple' => {
+	'496' => {
 		message => q||,
 		lastUpdated => 
 	},
 
-	'496' => {
+	'pagination.pageCount.isMultiple' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -756,12 +707,12 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'head.tags' => {
+	'42' => {
 		message => q||,
 		lastUpdated => 
 	},
 
-	'42' => {
+	'head.tags' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -791,12 +742,12 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'51' => {
+	'816' => {
 		message => q||,
 		lastUpdated => 
 	},
 
-	'816' => {
+	'51' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -816,7 +767,7 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'465 description' => {
+	'493' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -826,17 +777,12 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'493' => {
+	'465 description' => {
 		message => q||,
 		lastUpdated => 
 	},
 
 	'trash workflow help' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'webgui tips title' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -911,11 +857,6 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'content filter body' => {
-		message => q||,
-		lastUpdated => 
-	},
-
 	'1011' => {
 		message => q|Kode|,
 		lastUpdated => 1170007497
@@ -932,11 +873,6 @@ our $I18N = {
 	},
 
 	'557' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'grouping edit title' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -1016,11 +952,6 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'1074' => {
-		message => q||,
-		lastUpdated => 
-	},
-
 	'860' => {
 		message => q||,
 		lastUpdated => 
@@ -1061,17 +992,7 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'grouping edit body' => {
-		message => q||,
-		lastUpdated => 
-	},
-
 	'69' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'glossary body' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -1136,11 +1057,6 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'961' => {
-		message => q||,
-		lastUpdated => 
-	},
-
 	'483' => {
 		message => q||,
 		lastUpdated => 
@@ -1177,11 +1093,6 @@ our $I18N = {
 	},
 
 	'default rich editor' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'660' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -1266,11 +1177,6 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'1001' => {
-		message => q|De f&oslash;lgende felt beskriver en Database Link<br />|,
-		lastUpdated => 1170007866
-	},
-
 	'556' => {
 		message => q||,
 		lastUpdated => 
@@ -1296,17 +1202,12 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'142' => {
-		message => q||,
-		lastUpdated => 
-	},
-
 	'330' => {
 		message => q||,
 		lastUpdated => 
 	},
 
-	'991' => {
+	'142' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -1316,14 +1217,9 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'help index' => {
-		message => q|hjelp indeks<br />|,
-		lastUpdated => 1170006022
-	},
-
-	'group' => {
-		message => q|gruppe|,
-		lastUpdated => 1170004901
+	'991' => {
+		message => q||,
+		lastUpdated => 
 	},
 
 	'360' => {
@@ -1331,9 +1227,14 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'610' => {
-		message => q||,
-		lastUpdated => 
+	'group' => {
+		message => q|gruppe|,
+		lastUpdated => 1170004901
+	},
+
+	'help index' => {
+		message => q|hjelp indeks<br />|,
+		lastUpdated => 1170006022
 	},
 
 	'514' => {
@@ -1346,19 +1247,14 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'country' => {
-		message => q|land|,
-		lastUpdated => 1170004856
-	},
-
 	'50 description' => {
 		message => q||,
 		lastUpdated => 
 	},
 
-	'615' => {
-		message => q||,
-		lastUpdated => 
+	'country' => {
+		message => q|land|,
+		lastUpdated => 1170004856
 	},
 
 	'50' => {
@@ -1372,11 +1268,6 @@ our $I18N = {
 	},
 
 	'885 description' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'969' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -1406,11 +1297,6 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'658' => {
-		message => q||,
-		lastUpdated => 
-	},
-
 	'967' => {
 		message => q||,
 		lastUpdated => 
@@ -1421,12 +1307,12 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'164 description' => {
+	'353' => {
 		message => q||,
 		lastUpdated => 
 	},
 
-	'353' => {
+	'164 description' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -1436,12 +1322,12 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'863 description' => {
+	'984' => {
 		message => q||,
 		lastUpdated => 
 	},
 
-	'984' => {
+	'863 description' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -1456,12 +1342,12 @@ our $I18N = {
 		lastUpdated => 1170007697
 	},
 
-	'40' => {
+	'310' => {
 		message => q||,
 		lastUpdated => 
 	},
 
-	'310' => {
+	'40' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -1472,11 +1358,6 @@ our $I18N = {
 	},
 
 	'699' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'960' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -1511,11 +1392,6 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'manage groups in group body' => {
-		message => q||,
-		lastUpdated => 
-	},
-
 	'354' => {
 		message => q||,
 		lastUpdated => 
@@ -1526,22 +1402,22 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'583' => {
-		message => q||,
-		lastUpdated => 
-	},
-
 	'debug ip description' => {
 		message => q||,
 		lastUpdated => 
 	},
 
-	'951' => {
+	'583' => {
 		message => q||,
 		lastUpdated => 
 	},
 
 	'show performance indicators' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'951' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -1576,11 +1452,6 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'leftovers from settings stored for later' => {
-		message => q||,
-		lastUpdated => 
-	},
-
 	'745' => {
 		message => q||,
 		lastUpdated => 
@@ -1591,12 +1462,12 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'539' => {
+	'230 description' => {
 		message => q||,
 		lastUpdated => 
 	},
 
-	'230 description' => {
+	'539' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -1612,11 +1483,6 @@ our $I18N = {
 	},
 
 	'565' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'620' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -1756,11 +1622,6 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'665' => {
-		message => q||,
-		lastUpdated => 
-	},
-
 	'pagination.url' => {
 		message => q||,
 		lastUpdated => 
@@ -1877,16 +1738,6 @@ our $I18N = {
 	},
 
 	'994 description' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'957' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'622' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -2036,11 +1887,6 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'681' => {
-		message => q||,
-		lastUpdated => 
-	},
-
 	'1017' => {
 		message => q|Siste Svar<br />|,
 		lastUpdated => 1170007372
@@ -2059,11 +1905,6 @@ our $I18N = {
 	'1029' => {
 		message => q|Redigert|,
 		lastUpdated => 1170008237
-	},
-
-	'698' => {
-		message => q||,
-		lastUpdated => 
 	},
 
 	'538' => {
@@ -2201,11 +2042,6 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'612' => {
-		message => q||,
-		lastUpdated => 
-	},
-
 	'126 description' => {
 		message => q||,
 		lastUpdated => 
@@ -2222,11 +2058,6 @@ our $I18N = {
 	},
 
 	'91' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'1086' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -2291,22 +2122,12 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'668' => {
-		message => q||,
-		lastUpdated => 
-	},
-
 	'52' => {
 		message => q||,
 		lastUpdated => 
 	},
 
 	'750' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'657' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -2396,11 +2217,6 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'623' => {
-		message => q||,
-		lastUpdated => 
-	},
-
 	'content filters' => {
 		message => q||,
 		lastUpdated => 
@@ -2471,11 +2287,6 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'997' => {
-		message => q||,
-		lastUpdated => 
-	},
-
 	'36' => {
 		message => q||,
 		lastUpdated => 
@@ -2484,11 +2295,6 @@ our $I18N = {
 	'settings' => {
 		message => q|innstillinger|,
 		lastUpdated => 1170004795
-	},
-
-	'groups default body' => {
-		message => q||,
-		lastUpdated => 
 	},
 
 	'748' => {
@@ -2507,11 +2313,6 @@ our $I18N = {
 	},
 
 	'317' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'608' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -2561,12 +2362,12 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'407' => {
+	'537' => {
 		message => q||,
 		lastUpdated => 
 	},
 
-	'537' => {
+	'407' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -2591,27 +2392,17 @@ our $I18N = {
 		lastUpdated => 1170007587
 	},
 
-	'667' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'998' => {
-		message => q||,
-		lastUpdated => 
-	},
-
 	'95' => {
 		message => q||,
 		lastUpdated => 
 	},
 
-	'user function style description' => {
+	'313' => {
 		message => q||,
 		lastUpdated => 
 	},
 
-	'313' => {
+	'user function style description' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -2641,7 +2432,7 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'753' => {
+	'504' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -2651,17 +2442,12 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'504' => {
+	'753' => {
 		message => q||,
 		lastUpdated => 
 	},
 
 	'url extension description' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'697' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -2681,12 +2467,17 @@ our $I18N = {
 		lastUpdated => 
 	},
 
+	'857' => {
+		message => q||,
+		lastUpdated => 
+	},
+
 	'Select State' => {
 		message => q||,
 		lastUpdated => 
 	},
 
-	'857' => {
+	'707' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -2694,11 +2485,6 @@ our $I18N = {
 	'1010' => {
 		message => q|Tekst|,
 		lastUpdated => 1170007511
-	},
-
-	'707' => {
-		message => q||,
-		lastUpdated => 
 	},
 
 	'964' => {
@@ -2711,12 +2497,12 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'Illegal Warning' => {
+	'367 description' => {
 		message => q||,
 		lastUpdated => 
 	},
 
-	'367 description' => {
+	'Illegal Warning' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -2731,22 +2517,12 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'824 description' => {
-		message => q||,
-		lastUpdated => 
-	},
-
 	'321' => {
 		message => q||,
 		lastUpdated => 
 	},
 
-	'group email title' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'86' => {
+	'824 description' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -2756,7 +2532,7 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'975 description' => {
+	'86' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -2766,14 +2542,19 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'profile' => {
-		message => q|profil|,
-		lastUpdated => 1170004880
+	'975 description' => {
+		message => q||,
+		lastUpdated => 
 	},
 
 	'371' => {
 		message => q||,
 		lastUpdated => 
+	},
+
+	'profile' => {
+		message => q|profil|,
+		lastUpdated => 1170004880
 	},
 
 	'1079' => {
@@ -2861,7 +2642,7 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'group email body' => {
+	'404' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -2871,17 +2652,7 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'404' => {
-		message => q||,
-		lastUpdated => 
-	},
-
 	'tinymce' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'613' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -2896,17 +2667,12 @@ our $I18N = {
 		lastUpdated => 1170005960
 	},
 
-	'974' => {
-		message => q||,
-		lastUpdated => 
-	},
-
 	'420' => {
 		message => q||,
 		lastUpdated => 
 	},
 
-	'show performance indicators description' => {
+	'974' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -2916,12 +2682,12 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'952' => {
+	'show performance indicators description' => {
 		message => q||,
 		lastUpdated => 
 	},
 
-	'487' => {
+	'952' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -2931,14 +2697,14 @@ our $I18N = {
 		lastUpdated => 
 	},
 
+	'487' => {
+		message => q||,
+		lastUpdated => 
+	},
+
 	'select' => {
 		message => q|velg|,
 		lastUpdated => 1170004645
-	},
-
-	'636' => {
-		message => q||,
-		lastUpdated => 
 	},
 
 	'561' => {
@@ -2966,12 +2732,12 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'455' => {
+	'1050 description' => {
 		message => q||,
 		lastUpdated => 
 	},
 
-	'1050 description' => {
+	'455' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -3026,9 +2792,9 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'10' => {
-		message => q|H&aring;ndtere s&oslash;ppel|,
-		lastUpdated => 1170007251
+	'pagination.pageCount' => {
+		message => q||,
+		lastUpdated => 
 	},
 
 	'980' => {
@@ -3036,9 +2802,9 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'pagination.pageCount' => {
-		message => q||,
-		lastUpdated => 
+	'10' => {
+		message => q|H&aring;ndtere s&oslash;ppel|,
+		lastUpdated => 1170007251
 	},
 
 	'864 description' => {
@@ -3051,12 +2817,12 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'419' => {
+	'958' => {
 		message => q||,
 		lastUpdated => 
 	},
 
-	'958' => {
+	'419' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -3086,17 +2852,7 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'edit user karma body' => {
-		message => q||,
-		lastUpdated => 
-	},
-
 	'406' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'allowed keywords' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -3106,22 +2862,17 @@ our $I18N = {
 		lastUpdated => 
 	},
 
+	'allowed keywords' => {
+		message => q||,
+		lastUpdated => 
+	},
+
 	'949' => {
 		message => q||,
 		lastUpdated => 
 	},
 
-	'Enable passive profiling' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'530' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'499' => {
+	'557 description' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -3131,7 +2882,17 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'557 description' => {
+	'499' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'530' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'Enable passive profiling' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -3176,27 +2937,22 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'user profiling' => {
-		message => q||,
-		lastUpdated => 
-	},
-
 	'1009' => {
 		message => q|HTML|,
 		lastUpdated => 1170007526
 	},
 
-	'groups default title' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'141' => {
+	'user profiling' => {
 		message => q||,
 		lastUpdated => 
 	},
 
 	'pagination.pageList.upTo10' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'141' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -3211,7 +2967,7 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'clear cache' => {
+	'134' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -3221,12 +2977,7 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'134' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'655' => {
+	'clear cache' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -3236,12 +2987,12 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'421' => {
+	'59' => {
 		message => q||,
 		lastUpdated => 
 	},
 
-	'59' => {
+	'421' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -3251,12 +3002,12 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'406 description' => {
+	'50 setup description' => {
 		message => q||,
 		lastUpdated => 
 	},
 
-	'50 setup description' => {
+	'406 description' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -3281,9 +3032,9 @@ our $I18N = {
 		lastUpdated => 1170007465
 	},
 
-	'help' => {
-		message => q|hjelp|,
-		lastUpdated => 1170004741
+	'url extension' => {
+		message => q||,
+		lastUpdated => 
 	},
 
 	'318' => {
@@ -3291,19 +3042,9 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'url extension' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'105' => {
-		message => q|Vis|,
-		lastUpdated => 1170007339
-	},
-
-	'972' => {
-		message => q||,
-		lastUpdated => 
+	'help' => {
+		message => q|hjelp|,
+		lastUpdated => 1170004741
 	},
 
 	'pagination.pageLoop.upTo10' => {
@@ -3311,9 +3052,14 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'webgui tips body' => {
+	'972' => {
 		message => q||,
 		lastUpdated => 
+	},
+
+	'105' => {
+		message => q|Vis|,
+		lastUpdated => 1170007339
 	},
 
 	'databases' => {

@@ -1,14 +1,10 @@
 package WebGUI::i18n::German::Workflow_Activity_AddUserToGroup;
 
+
 our $I18N = {
 	'group' => {
 		message => q|Gruppe|,
 		lastUpdated => 1168863616
-	},
-
-	'add user to group body' => {
-		message => q|Dieser Workflow f&uuml;gt einer bestimmten Gruppe einen Benutzer zu. |,
-		lastUpdated => 1168863548
 	},
 
 	'expire offset' => {

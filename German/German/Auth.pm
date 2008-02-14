@@ -1,5 +1,6 @@
 package WebGUI::i18n::German::Auth;
 
+
 our $I18N = {
 	'login.form.header' => {
 		message => q|Die erforderlichen Formular Elemente, die vor dem Login Formular stehen.|,
@@ -9,11 +10,6 @@ our $I18N = {
 	'create.form.header' => {
 		message => q|Die erforderlichen Formular Elemente, die vor dem Anonyme Registrierung Formular stehen.|,
 		lastUpdated => 1178868686
-	},
-
-	'anon reg template body' => {
-		message => q|Die folgenden Template Variablen sin in allen Anonyme Registrierung Templates verf&uuml;gbar.|,
-		lastUpdated => 1178868590
 	},
 
 	'create.form.profile.id.formElement' => {
@@ -41,9 +37,9 @@ our $I18N = {
 		lastUpdated => 1178869236
 	},
 
-	'no.url' => {
-		message => q|URL to leave the user's account alone|,
-		lastUpdated => 1178869685
+	'account.form.header' => {
+		message => q|Die erforderlichen Formular Elemente, die vor dem Anzeige Account Formular stehen.|,
+		lastUpdated => 1178868479
 	},
 
 	'login.form.hidden' => {
@@ -51,9 +47,9 @@ our $I18N = {
 		lastUpdated => 1178869351
 	},
 
-	'account.form.header' => {
-		message => q|Die erforderlichen Formular Elemente, die vor dem Anzeige Account Formular stehen.|,
-		lastUpdated => 1178868479
+	'no.url' => {
+		message => q|URL to leave the user's account alone|,
+		lastUpdated => 1178869685
 	},
 
 	'profile.required' => {
@@ -76,14 +72,14 @@ our $I18N = {
 		lastUpdated => 1178869387
 	},
 
-	'yes.label' => {
-		message => q|Internationalisiertes Label f&uuml;r "Yes".|,
-		lastUpdated => 1178869631
-	},
-
 	'login.url' => {
 		message => q|URL zur Login Seite.|,
 		lastUpdated => 1178869482
+	},
+
+	'yes.label' => {
+		message => q|Internationalisiertes Label f&uuml;r "Yes".|,
+		lastUpdated => 1178869631
 	},
 
 	'title' => {
@@ -94,11 +90,6 @@ our $I18N = {
 	'createAccount.url' => {
 		message => q|URL der Anonyme Registrierung Seite.|,
 		lastUpdated => 1178869085
-	},
-
-	'deactivate account template body' => {
-		message => q|Die folgenden Variablen sind f&uuml;r alle Authentifizierung Deaktivierung Account Templates verf&uuml;gbar.|,
-		lastUpdated => 1178869135
 	},
 
 	'anon reg template title' => {
@@ -141,11 +132,6 @@ our $I18N = {
 		lastUpdated => 1178868942
 	},
 
-	'login template body' => {
-		message => q|Die folgenden Variablen sind in allen Authentifizierung Login Templates verf&uuml;gbar.|,
-		lastUpdated => 1178869231
-	},
-
 	'yes.url' => {
 		message => q|URL zur Deaktivierung des Benutzer Accounts.|,
 		lastUpdated => 1178869647
@@ -176,9 +162,9 @@ our $I18N = {
 		lastUpdated => 1178869142
 	},
 
-	'profile.formElement.label' => {
-		message => q|Standard Text Label f&uuml;r ein Profil Formular Element.|,
-		lastUpdated => 1178869560
+	'login.form.username.label' => {
+		message => q|Standard Text f&uuml;r das Benutzername Formular Feld|,
+		lastUpdated => 1178869451
 	},
 
 	'profile.formElement' => {
@@ -186,9 +172,9 @@ our $I18N = {
 		lastUpdated => 1178869534
 	},
 
-	'login.form.username.label' => {
-		message => q|Standard Text f&uuml;r das Benutzername Formular Feld|,
-		lastUpdated => 1178869451
+	'profile.formElement.label' => {
+		message => q|Standard Text Label f&uuml;r ein Profil Formular Element.|,
+		lastUpdated => 1178869560
 	},
 
 	'create.form.footer' => {
@@ -196,9 +182,9 @@ our $I18N = {
 		lastUpdated => 1178868672
 	},
 
-	'question' => {
-		message => q|URL to leave the user's account alone|,
-		lastUpdated => 1178869690
+	'login.form.submit' => {
+		message => q|Die Standard Abschicken (Submit) Schaltfl&auml;che f&uuml;r das Login Formular.|,
+		lastUpdated => 1178869417
 	},
 
 	'createAccount.label' => {
@@ -206,14 +192,9 @@ our $I18N = {
 		lastUpdated => 1178869066
 	},
 
-	'login.form.submit' => {
-		message => q|Die Standard Abschicken (Submit) Schaltfl&auml;che f&uuml;r das Login Formular.|,
-		lastUpdated => 1178869417
-	},
-
-	'display account template body' => {
-		message => q|Die folgenden Template Variablen sind in Authentifizierung Anzeige Account Templates verf&uuml;gbar.|,
-		lastUpdated => 1178869184
+	'question' => {
+		message => q|URL to leave the user's account alone|,
+		lastUpdated => 1178869690
 	},
 
 	'login.label' => {

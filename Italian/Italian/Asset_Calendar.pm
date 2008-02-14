@@ -1,5 +1,6 @@
 package WebGUI::i18n::Italian::Asset_Calendar;
 
+
 our $I18N = {
 	'templateIdWeek description' => {
 		message => q||,
@@ -11,22 +12,22 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'assetName' => {
-		message => q|Calendario|,
-		lastUpdated => 1168266935
-	},
-
 	'locale' => {
 		message => q|it|,
 		lastUpdated => 1168267097
 	},
 
-	'templateIdEventEdit description' => {
+	'assetName' => {
+		message => q|Calendario|,
+		lastUpdated => 1168266935
+	},
+
+	'subscriberNotifyOffset label' => {
 		message => q||,
 		lastUpdated => 
 	},
 
-	'subscriberNotifyOffset label' => {
+	'templateIdEventEdit description' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -46,6 +47,11 @@ our $I18N = {
 		lastUpdated => 
 	},
 
+	'defaultDate value last' => {
+		message => q|L&#39;ultimo evento nel calendario|,
+		lastUpdated => 1168267225
+	},
+
 	'templateIdPrintMonth label' => {
 		message => q||,
 		lastUpdated => 
@@ -54,11 +60,6 @@ our $I18N = {
 	'groupIdEventEdit description' => {
 		message => q|I membri di questo gruppo possono aggiungere e modificare Eventi in questo calendario.|,
 		lastUpdated => 1168267330
-	},
-
-	'defaultDate value last' => {
-		message => q|L&#39;ultimo evento nel calendario|,
-		lastUpdated => 1168267225
 	},
 
 	'templateIdSearch description' => {
@@ -86,7 +87,12 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'templateIdPrintWeek description' => {
+	'defaultDate value current' => {
+		message => q|La data corrente|,
+		lastUpdated => 1168267259
+	},
+
+	'subscriberNotifyOffset description' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -96,14 +102,9 @@ our $I18N = {
 		lastUpdated => 1168267189
 	},
 
-	'subscriberNotifyOffset description' => {
+	'templateIdPrintWeek description' => {
 		message => q||,
 		lastUpdated => 
-	},
-
-	'defaultDate value current' => {
-		message => q|La data corrente|,
-		lastUpdated => 1168267259
 	},
 
 	'templateIdPrintDay description' => {
@@ -122,11 +123,6 @@ our $I18N = {
 	},
 
 	'templateIdEvent description' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'add/edit body' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -171,7 +167,7 @@ our $I18N = {
 		lastUpdated => 1168267137
 	},
 
-	'add/edit title' => {
+	'templateIdWeek label' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -181,19 +177,9 @@ our $I18N = {
 		lastUpdated => 1168267238
 	},
 
-	'templateIdWeek label' => {
-		message => q||,
-		lastUpdated => 
-	},
-
 	'defaultView label' => {
 		message => q|Vista predefinita|,
 		lastUpdated => 1168267157
-	},
-
-	'visitorCacheTimeout label' => {
-		message => q||,
-		lastUpdated => 
 	},
 
 	'templateIdEventEdit label' => {
@@ -201,14 +187,19 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'groupIdEventEdit label' => {
-		message => q|Chi pu&ograve; aggiungere/modificare Eventi?|,
-		lastUpdated => 1168267349
+	'visitorCacheTimeout label' => {
+		message => q||,
+		lastUpdated => 
 	},
 
 	'templateIdMonth description' => {
 		message => q||,
 		lastUpdated => 
+	},
+
+	'groupIdEventEdit label' => {
+		message => q|Chi pu&ograve; aggiungere/modificare Eventi?|,
+		lastUpdated => 1168267349
 	},
 
 	'templateIdDay description' => {

@@ -1,5 +1,6 @@
 package WebGUI::i18n::Arabic::Asset_SQLReport;
 
+
 our $I18N = {
 	'dbQuery4' => {
 		message => q|طلب قاعدة البيانات الرابع<br />|,
@@ -21,29 +22,19 @@ our $I18N = {
 		lastUpdated => 1174311587
 	},
 
-	'71' => {
-		message => q|  <p dir="rtl" class="MsoNormal"><span>تقارير الاس كيو ال هي بالتأكيد أقوى الوبجيكتس في سباق ويب جوي. هي تسمح للمستخدم بان يطلب بيانات من أي قاعدة بيانات له اتصال عليها. هذا الأمر جيد جدا من اجل احضار بيانات المبيعات من قاعدة البيانات الخاصة بك أو أيضا يقوم باختصار المنتديات على موقعك.</span></p>  <p dir="rtl" class="MsoNormal"><span>&nbsp;</span></p>  <p dir="rtl" class="MsoNormal"><span>تدعيم الطلب المتداخل</span></p>  <p dir="rtl" class="MsoNormal"><span>وبجيكت تقرير الاس كيو ال يقوم بتدعيم 5 طلبات متداخلة على الأكثر (طلب اساسي و 4 طلبات اساسية). كل من الطلبات اللاحقة يتم تنفيذه لكل سطر من الطلب السابق. على سبيل المثال, إذا كان لديك طلبين (1 و 2) سيتم تنفيذ طلب 2 لكل سطر مرجوع في الطلب الأول. من الممن أن تستخدم </span><span>placeholder parameters</span><span> لكي تكون طلبات ثانوية ببيانات من الطلبات السابقة.</span></p>  <p dir="rtl" class="MsoNormal"><span>&nbsp;</span></p>  <p dir="rtl" class="MsoNormal"><span>تقارير الاس كيو ال هي وبجيكتس و اصول, و بالتالي فانها تتشارك خواص الاثنين. تقارير الاس كي وال لديها هذه الخواص الفريدة.</span></p>  |,
-		lastUpdated => 1168442373
-	},
-
-	'sql report asset template variables body' => {
-		message => q|كل اصل يوفر مجموعة من المتغيرات لاغلب النماذج بناء على الخواص الداخلية للاصل. بعضها يكون مفيدا و البعض الاخر لايكون مفيدا<br />|,
-		lastUpdated => 1177446686
-	},
-
 	'rows.count' => {
 		message => q|اجمالي عدد السطور المعاده من الطلب<br />|,
 		lastUpdated => 1177446726
 	},
 
-	'databaseLinkId4' => {
-		message => q|المعرف الذي يشرح اي من فواعد البيانات سيتم تنفيذ الطلب الرابع ضدها|,
-		lastUpdated => 1178737002
-	},
-
 	'18' => {
 		message => q|لا يوجد اي نتائج على هذا الطلب<br />|,
 		lastUpdated => 1164905331
+	},
+
+	'databaseLinkId4' => {
+		message => q|المعرف الذي يشرح اي من فواعد البيانات سيتم تنفيذ الطلب الرابع ضدها|,
+		lastUpdated => 1178737002
 	},
 
 	'72' => {
@@ -69,11 +60,6 @@ our $I18N = {
 	'dbQuery3' => {
 		message => q|طلب قاعدة البيانات الثلث<br />|,
 		lastUpdated => 1174311168
-	},
-
-	'61' => {
-		message => q|تقرير اس كيو ال, اضف/عدل<br />|,
-		lastUpdated => 1164905357
 	},
 
 	'4 description' => {
@@ -106,14 +92,14 @@ our $I18N = {
 		lastUpdated => 1177445981
 	},
 
-	'10' => {
-		message => q|خطأ: الـSQL المحدد يعتبر لغة غير مناسبة<br />|,
-		lastUpdated => 1164904652
-	},
-
 	'rows.count.isZero' => {
 		message => q|علامة تحدد ان الطلب اعاد 0 من السطور<br />|,
 		lastUpdated => 1177446620
+	},
+
+	'10' => {
+		message => q|خطأ: الـSQL المحدد يعتبر لغة غير مناسبة<br />|,
+		lastUpdated => 1164904652
 	},
 
 	'queryN.columns_loop' => {
@@ -161,19 +147,19 @@ our $I18N = {
 		lastUpdated => 1164905299
 	},
 
-	'queryN.row.field.__NAME__.value' => {
-		message => q|البيانات لمجال محدد في هذا السطر حيث ان __NAME__ هو اسم المجال كما تم اعادتها من الطلب |,
-		lastUpdated => 1177446532
-	},
-
 	'columns_loop' => {
 		message => q|سلسلة تحتوي على معلومات عن كل عمود<br />|,
 		lastUpdated => 1164905742
 	},
 
-	'dbQuery1' => {
-		message => q|طلب قاعدة البيانات الاول<br />|,
-		lastUpdated => 1174311143
+	'queryN.row.field.__NAME__.value' => {
+		message => q|البيانات لمجال محدد في هذا السطر حيث ان __NAME__ هو اسم المجال كما تم اعادتها من الطلب |,
+		lastUpdated => 1177446532
+	},
+
+	'cache timeout description' => {
+		message => q|كم من الوقت يفترض ان نبقي نتائج الطلب قبل ان تظهر ثانية؟<br />|,
+		lastUpdated => 1164905617
 	},
 
 	'field.value' => {
@@ -181,9 +167,9 @@ our $I18N = {
 		lastUpdated => 1174311778
 	},
 
-	'cache timeout description' => {
-		message => q|كم من الوقت يفترض ان نبقي نتائج الطلب قبل ان تظهر ثانية؟<br />|,
-		lastUpdated => 1164905617
+	'dbQuery1' => {
+		message => q|طلب قاعدة البيانات الاول<br />|,
+		lastUpdated => 1174311143
 	},
 
 	'cacheTimeout' => {
@@ -201,14 +187,14 @@ our $I18N = {
 		lastUpdated => 1164904700
 	},
 
-	'15' => {
-		message => q|صنع الماكروز مسبقا عند الطلب.<br />|,
-		lastUpdated => 1164905193
-	},
-
 	'column.number' => {
 		message => q|عدد صحيح يبدأ ب1 و يعد خلال عدد العمدان<br />|,
 		lastUpdated => 1168442540
+	},
+
+	'15' => {
+		message => q|صنع الماكروز مسبقا عند الطلب.<br />|,
+		lastUpdated => 1164905193
 	},
 
 	'preprocessMacros5' => {
@@ -219,11 +205,6 @@ our $I18N = {
 	'rows.count.isZero.label' => {
 		message => q|العلامة الاعتيادة لـrows.count.isZero|,
 		lastUpdated => 1177446634
-	},
-
-	'73' => {
-		message => q|  <p dir="rtl" class="MsoNormal"><span>المتغيرات التالية ستكون متوفرة في تقارير الاس كيو ال:</span></p>  <p dir="rtl" class="MsoNormal"><span>&nbsp;</span></p>  <p dir="rtl" class="MsoNormal"><span>لمتغيرات لاي طلبات ثانوية سيكون لديها نفس الضبط مثل الطلب الأول, و لكن سيتم عملها </span><span>queryN</span><span> حيث تذهب </span><span>N</span><span> من 2 إلى 5</span></p>  |,
-		lastUpdated => 1168442493
 	},
 
 	'Prequery statements description' => {
@@ -336,14 +317,14 @@ our $I18N = {
 		lastUpdated => 1174311742
 	},
 
-	'row.field_loop' => {
-		message => q|دورة تحتوي على كل المجالات لهذا السطر<br />|,
-		lastUpdated => 1177446560
-	},
-
 	'download type description' => {
 		message => q|نوع التحميل الذي سيتم عمله<br />|,
 		lastUpdated => 1174311603
+	},
+
+	'row.field_loop' => {
+		message => q|دورة تحتوي على كل المجالات لهذا السطر<br />|,
+		lastUpdated => 1177446560
 	},
 
 	'placeholderParams5' => {
@@ -371,14 +352,14 @@ our $I18N = {
 		lastUpdated => 1177446165
 	},
 
-	'15 description' => {
-		message => q|اذا كنت تستخدم الماكروز الخاصة بويب جيو اي في طلبك يجب عليك ان تعلم هذا الصندوق. |,
-		lastUpdated => 1164905242
-	},
-
 	'download usergroup' => {
 		message => q|حمل مجموعة المستخدمين<br />|,
 		lastUpdated => 1168442843
+	},
+
+	'15 description' => {
+		message => q|اذا كنت تستخدم الماكروز الخاصة بويب جيو اي في طلبك يجب عليك ان تعلم هذا الصندوق. |,
+		lastUpdated => 1164905242
 	},
 
 	'queryN.row.field_loop' => {
@@ -396,14 +377,14 @@ our $I18N = {
 		lastUpdated => 1164905798
 	},
 
-	'preprocessMacros2' => {
-		message => q|علامة تحدد ما اذا كان الطلب الثاني سيحتوي ماكروهات تم عملها فبل ان ينفذ.<br />  |,
-		lastUpdated => 1177446038
-	},
-
 	'cache timeout' => {
 		message => q|كيش تايم اوت<br />|,
 		lastUpdated => 1164905571
+	},
+
+	'preprocessMacros2' => {
+		message => q|علامة تحدد ما اذا كان الطلب الثاني سيحتوي ماكروهات تم عملها فبل ان ينفذ.<br />  |,
+		lastUpdated => 1177446038
 	},
 
 	'preprocessMacros1' => {

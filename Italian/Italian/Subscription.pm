@@ -1,12 +1,8 @@
 package WebGUI::i18n::Italian::Subscription;
 
+
 our $I18N = {
 	'subscription description' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'help manage batch title' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -151,11 +147,6 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'help create batch title' => {
-		message => q||,
-		lastUpdated => 
-	},
-
 	'batch id' => {
 		message => q||,
 		lastUpdated => 
@@ -201,22 +192,12 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'help edit subscription title' => {
-		message => q||,
-		lastUpdated => 
-	},
-
 	'selection used' => {
 		message => q||,
 		lastUpdated => 
 	},
 
 	'batch description' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'help manage batch body' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -231,22 +212,12 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'help create batch body' => {
-		message => q||,
-		lastUpdated => 
-	},
-
 	'listSubscriptionCodes title' => {
 		message => q||,
 		lastUpdated => 
 	},
 
 	'subscription group description' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'help edit subscription body' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -266,22 +237,12 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'help manage subscription codes title' => {
-		message => q||,
-		lastUpdated => 
-	},
-
 	'creation date' => {
 		message => q||,
 		lastUpdated => 
 	},
 
 	'execute on subscription' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'help manage subscriptions title' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -326,7 +287,7 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'dateUsed' => {
+	'select' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -336,22 +297,12 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'select' => {
+	'dateUsed' => {
 		message => q||,
 		lastUpdated => 
 	},
 
 	'list codes in batch' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'help manage subscription codes body' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'help manage subscriptions body' => {
 		message => q||,
 		lastUpdated => 
 	},

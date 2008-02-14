@@ -1,5 +1,6 @@
 package WebGUI::i18n::German::Asset_Article;
 
+
 our $I18N = {
 	'description.first.sentence' => {
 		message => q|Der erste Satz der Beschreibung. S&auml;tze sind definiert durch die Anzahl der Punkte im Text.|,
@@ -16,9 +17,9 @@ our $I18N = {
 		lastUpdated => 1182331184
 	},
 
-	'71' => {
-		message => q|<p>&quot;Artikel&quot; sind das Schweizer Offiziersmesser in WebGUI. Die meisten statischen Inhalte k&ouml;nnen mit einem Artikel eingef&uuml;gt werden.. Artikel sind &quot;WObjects&quot;, daher erben sie die die Eigenschaften von WObjects und Assets.</p><p>Hinweis: Einen mehrseiten Artikel erstellen Sie mit der Seitenumbruch-Markierung (^-;) an den entsprechenden Stellenim Artikel. Der Seitenumbruch ist im Make Page Printable Syle nicht aktiv.</p><br />|,
-		lastUpdated => 1157927399
+	'7' => {
+		message => q|Link Text|,
+		lastUpdated => 1153126076
 	},
 
 	'description.first.10words' => {
@@ -26,19 +27,14 @@ our $I18N = {
 		lastUpdated => 1157928320
 	},
 
-	'7' => {
-		message => q|Link Text|,
-		lastUpdated => 1153126076
-	},
-
 	'assetName' => {
 		message => q|Artikel|,
 		lastUpdated => 1152969958
 	},
 
-	'description.first.2paragraphs' => {
-		message => q|Die ersten beiden Abs&auml;tze der Beschreibung. Abs&auml;tze sind definiert durch die Anzahl der Zeilenumbr&uuml;che im Text.|,
-		lastUpdated => 1157928433
+	'description.full' => {
+		message => q|Die ganze Beschreibung ohne Seitenumbruch.|,
+		lastUpdated => 1157928555
 	},
 
 	'description.first.paragraph' => {
@@ -46,9 +42,9 @@ our $I18N = {
 		lastUpdated => 1157928453
 	},
 
-	'description.full' => {
-		message => q|Die ganze Beschreibung ohne Seitenumbruch.|,
-		lastUpdated => 1157928555
+	'description.first.2paragraphs' => {
+		message => q|Die ersten beiden Abs&auml;tze der Beschreibung. Abs&auml;tze sind definiert durch die Anzahl der Zeilenumbr&uuml;che im Text.|,
+		lastUpdated => 1157928433
 	},
 
 	'72' => {
@@ -81,19 +77,9 @@ our $I18N = {
 		lastUpdated => 1157927731
 	},
 
-	'61' => {
-		message => q|Artikel, Hinzuf&uuml;gen/Bearbeiten|,
-		lastUpdated => 1152969878
-	},
-
 	'description' => {
 		message => q|Die paginierte Beschreibung|,
 		lastUpdated => 1182331163
-	},
-
-	'new.template' => {
-		message => q|<p>Artikel haben die Eigenschaft, dass sie ihr Template &auml;ndern k&ouml;nnen. So k&ouml;nnen Sie ihren Besuchern unterschiedliche Ansichten des Arikels anbieten. Dazu erstellen Sie einen Link, bei dem die URL folgenderma&szlig;en aufgebaut ist (ersetzen Sie <em>999</em> durch die ID des Templates, das sie nutzen m&ouml;chten):</p>&lt;a href=&quot;&lt;tmpl_var new.template&gt;<em>999</em>&quot;&gt;Lesen Sie weiter...&lt;/a&gt;|,
-		lastUpdated => 1157928957
 	},
 
 	'link url description' => {
@@ -101,19 +87,24 @@ our $I18N = {
 		lastUpdated => 1157928720
 	},
 
+	'new.template' => {
+		message => q|<p>Artikel haben die Eigenschaft, dass sie ihr Template &auml;ndern k&ouml;nnen. So k&ouml;nnen Sie ihren Besuchern unterschiedliche Ansichten des Arikels anbieten. Dazu erstellen Sie einen Link, bei dem die URL folgenderma&szlig;en aufgebaut ist (ersetzen Sie <em>999</em> durch die ID des Templates, das sie nutzen m&ouml;chten):</p>&lt;a href=&quot;&lt;tmpl_var new.template&gt;<em>999</em>&quot;&gt;Lesen Sie weiter...&lt;/a&gt;|,
+		lastUpdated => 1157928957
+	},
+
 	'image.url' => {
 		message => q|Der URL des angeh&auml;ngten Bildes.|,
 		lastUpdated => 1182331177
 	},
 
-	'isImage' => {
-		message => q|Eine boolesche Variable die zeigt ob ein Bild gesetzt ist oder nicht.<br />|,
-		lastUpdated => 1152970181
-	},
-
 	'article asset template variables body' => {
 		message => q|Jedes Asset bietet ihren Templates einen Satz an Variablen, die auf den Asset Eigenschaften basieren. Einige dieser Variablen k&ouml;nnen n&uuml;tzlich sein, andere nicht. |,
 		lastUpdated => 1168851450
+	},
+
+	'isImage' => {
+		message => q|Eine boolesche Variable die zeigt ob ein Bild gesetzt ist oder nicht.<br />|,
+		lastUpdated => 1152970181
 	},
 
 	'storageId' => {
@@ -176,9 +167,9 @@ our $I18N = {
 		lastUpdated => 1157927601
 	},
 
-	'thumbnailUrl' => {
-		message => q|Der URL zum Vorschaubild f&uuml;r diese Datei.|,
-		lastUpdated => 1157928984
+	'description.first.100words' => {
+		message => q|Die ersten 100 W&ouml;rter der Beschreibung. Ein Wort ist definiert als Zeichenkette, getrennt durch Leerzeichen. Daher z&auml;hlen auch HTML-Entities und -Tags als Wort.|,
+		lastUpdated => 1157928278
 	},
 
 	'attachment_loop' => {
@@ -186,9 +177,9 @@ our $I18N = {
 		lastUpdated => 1157927592
 	},
 
-	'description.first.100words' => {
-		message => q|Die ersten 100 W&ouml;rter der Beschreibung. Ein Wort ist definiert als Zeichenkette, getrennt durch Leerzeichen. Daher z&auml;hlen auch HTML-Entities und -Tags als Wort.|,
-		lastUpdated => 1157928278
+	'thumbnailUrl' => {
+		message => q|Der URL zum Vorschaubild f&uuml;r diese Datei.|,
+		lastUpdated => 1157928984
 	},
 
 	'cacheTimeout' => {
@@ -211,9 +202,9 @@ our $I18N = {
 		lastUpdated => 1182331170
 	},
 
-	'73' => {
-		message => q|Die folgenden Template Variablen sind im Artikel Template verf&uuml;gbar.<br />|,
-		lastUpdated => 1152969935
+	'description.first.25words' => {
+		message => q|Die ersten 25 W&ouml;rter der Beschreibung. Ein Wort ist definiert als Zeichenkette, getrennt durch Leerzeichen. Daher z&auml;hlen auch HTML-Entities und -Tags als Wort.|,
+		lastUpdated => 1157928333
 	},
 
 	'attachment.url' => {
@@ -221,9 +212,9 @@ our $I18N = {
 		lastUpdated => 1152970040
 	},
 
-	'description.first.25words' => {
-		message => q|Die ersten 25 W&ouml;rter der Beschreibung. Ein Wort ist definiert als Zeichenkette, getrennt durch Leerzeichen. Daher z&auml;hlen auch HTML-Entities und -Tags als Wort.|,
-		lastUpdated => 1157928333
+	'73' => {
+		message => q|Die folgenden Template Variablen sind im Artikel Template verf&uuml;gbar.<br />|,
+		lastUpdated => 1152969935
 	},
 
 	'image.thumbnail' => {

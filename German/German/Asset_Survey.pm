@@ -1,14 +1,15 @@
 package WebGUI::i18n::German::Asset_Survey;
 
-our $I18N = {
-	'84 description' => {
-		message => q|Die Anzahl der Versuche, die ein Benutzer zur Verf&uuml;gung hat, um eine richtige Antwort auf eine bestimmte Frage zu geben. Der Standard ist 1.|,
-		lastUpdated => 1178876480
-	},
 
+our $I18N = {
 	'32' => {
 		message => q|Falsch|,
 		lastUpdated => 1178874677
+	},
+
+	'84 description' => {
+		message => q|Die Anzahl der Versuche, die ein Benutzer zur Verf&uuml;gung hat, um eine richtige Antwort auf eine bestimmte Frage zu geben. Der Standard ist 1.|,
+		lastUpdated => 1178876480
 	},
 
 	'90' => {
@@ -26,14 +27,14 @@ our $I18N = {
 		lastUpdated => 1178870200
 	},
 
-	'export.questions.label' => {
-		message => q|Das Standard Label f&uuml;r export.questions.url.|,
-		lastUpdated => 1179731936
-	},
-
 	'user.isFirstResponse' => {
 		message => q|Bedingung, die anzeigt, ob dies die erste Benutzerantwort dieses Benutzers ist.|,
 		lastUpdated => 1179742171
+	},
+
+	'export.questions.label' => {
+		message => q|Das Standard Label f&uuml;r export.questions.url.|,
+		lastUpdated => 1179731936
 	},
 
 	'questionsPerPage' => {
@@ -61,14 +62,14 @@ our $I18N = {
 		lastUpdated => 1179732365
 	},
 
-	'export.responses.label' => {
-		message => q|Das Standard Label f&uuml;r export.responses.url.|,
-		lastUpdated => 1179732001
-	},
-
 	'55' => {
 		message => q|Benutzerantworten ansehen.|,
 		lastUpdated => 1178875394
+	},
+
+	'export.responses.label' => {
+		message => q|Das Standard Label f&uuml;r export.responses.url.|,
+		lastUpdated => 1179732001
 	},
 
 	'84' => {
@@ -81,19 +82,14 @@ our $I18N = {
 		lastUpdated => 1178875238
 	},
 
-	'89' => {
-		message => q|Die folgenden Template Variablen sind f&uuml;r eine Umfrage verf&uuml;gbar:|,
-		lastUpdated => 1178876603
+	'title' => {
+		message => q|Der Standardname f&uuml;r diesen Report|,
+		lastUpdated => 1178870111
 	},
 
 	'answer.comment' => {
 		message => q|Ein Kommentar.|,
 		lastUpdated => 1178876817
-	},
-
-	'title' => {
-		message => q|Der Standardname f&uuml;r diesen Report|,
-		lastUpdated => 1178870111
 	},
 
 	'31' => {
@@ -176,9 +172,9 @@ our $I18N = {
 		lastUpdated => 1178871088
 	},
 
-	'1091' => {
-		message => q|Statistischer &Uuml;berblick Report Template|,
-		lastUpdated => 1178870445
+	'101' => {
+		message => q|Eine "Text Bereich Antwort" hinzuf&uuml;gen|,
+		lastUpdated => 1178870179
 	},
 
 	'73' => {
@@ -186,9 +182,9 @@ our $I18N = {
 		lastUpdated => 1178875608
 	},
 
-	'101' => {
-		message => q|Eine "Text Bereich Antwort" hinzuf&uuml;gen|,
-		lastUpdated => 1178870179
+	'1091' => {
+		message => q|Statistischer &Uuml;berblick Report Template|,
+		lastUpdated => 1178870445
 	},
 
 	'76' => {
@@ -196,19 +192,14 @@ our $I18N = {
 		lastUpdated => 1178875963
 	},
 
-	'62' => {
-		message => q|Antworten exportieren.|,
-		lastUpdated => 1178875340
-	},
-
 	'quiz.noprivs.label' => {
 		message => q|Nachricht, die dem Benutzer anzeigt, dass er nicht die n&ouml;tigen Rechte besitzt, um an diesem Quiz teilzunehmen.|,
 		lastUpdated => 1179738100
 	},
 
-	'survey asset template variables body' => {
-		message => q|Jedes Asset bietet ihren Templates einen Satz an Variablen, die auf den Asset Eigenschaften basieren. Einige dieser Variablen k&ouml;nnen n&uuml;tzlich sein, andere nicht.|,
-		lastUpdated => 1170406588
+	'62' => {
+		message => q|Antworten exportieren.|,
+		lastUpdated => 1178875340
 	},
 
 	'answer.response.percent' => {
@@ -266,16 +257,6 @@ our $I18N = {
 		lastUpdated => 1178870236
 	},
 
-	'1090' => {
-		message => q|Die folgenden Variablen sind verf&uuml;gbar, um eine individuelle Antwort darzustellen.|,
-		lastUpdated => 1178870421
-	},
-
-	'question add/edit body' => {
-		message => q|WebGUIs Umfrage Wobject bietet ihnen viele Arten von Fragen, wie zum Beispiel multiple choice, boolean (a oder b, Ja oder Nein, True oder False, usw.) und verschiedene Arten von "essay" Antworten. Die Reihenfolge der Fragen kann ausserdem nach deren Erzeugung ge&auml;ndert werden.|,
-		lastUpdated => 1179733373
-	},
-
 	'question.response' => {
 		message => q|Die Benutzerantwort zu dieser Frage.|,
 		lastUpdated => 1179737592
@@ -326,14 +307,14 @@ our $I18N = {
 		lastUpdated => 1178875057
 	},
 
-	'8' => {
-		message => q|Reihenfolge Fragen|,
-		lastUpdated => 1178876004
-	},
-
 	'section.edit.sectionName' => {
 		message => q|Der Name dieser Sektion von Fragen.|,
 		lastUpdated => 1179741298
+	},
+
+	'8' => {
+		message => q|Reihenfolge Fragen|,
+		lastUpdated => 1178876004
 	},
 
 	'start.newresponse.label' => {
@@ -416,11 +397,6 @@ our $I18N = {
 		lastUpdated => 1178875328
 	},
 
-	'answer add/edit body' => {
-		message => q|Abh&auml;ngig von dem Fragentyp k&ouml;nnen Sie mehr als eine Antwort pro Frage definieren.|,
-		lastUpdated => 1178876806
-	},
-
 	'end.date.human' => {
 		message => q|Datum, an dem der Benutzer seine Benutzerantwort abgeschlossen hat, im "human readable" Format.|,
 		lastUpdated => 1179731617
@@ -459,11 +435,6 @@ our $I18N = {
 	'answer.isCorrect' => {
 		message => q|Bedingung, die angibt, ob die Antwort als richtig markiert ist.|,
 		lastUpdated => 1178876851
-	},
-
-	'91' => {
-		message => q|Die folgenden Template Variablen sind in allen Umfrage Templates verf&uuml;gbar.|,
-		lastUpdated => 1178876680
 	},
 
 	'overview template description' => {
@@ -571,11 +542,6 @@ our $I18N = {
 		lastUpdated => 1179731916
 	},
 
-	'1092' => {
-		message => q|Die folgenden Variablen sind in diesem Template verf&uuml;gbar:|,
-		lastUpdated => 1178870467
-	},
-
 	'export.responses.url' => {
 		message => q|Url, die eine Datei erzeugt, die alle Benutzerantworten zu den Fragen dieser Umfrage enth&auml;lt. Einzelne Felder durch Tabulatoren voneinander getrennt.|,
 		lastUpdated => 1179732051
@@ -656,14 +622,14 @@ our $I18N = {
 		lastUpdated => 1178874912
 	},
 
-	'46' => {
-		message => q|Danke, dass Sie sich f&uuml;r die Teilnahme an der Umfrage Zeit genommen haben.|,
-		lastUpdated => 1178875045
-	},
-
 	'section.edit.id' => {
 		message => q|Die eindeutige ID dieser Sektion.|,
 		lastUpdated => 1179741284
+	},
+
+	'46' => {
+		message => q|Danke, dass Sie sich f&uuml;r die Teilnahme an der Umfrage Zeit genommen haben.|,
+		lastUpdated => 1178875045
 	},
 
 	'start.date.label' => {
@@ -676,14 +642,14 @@ our $I18N = {
 		lastUpdated => 1179741426
 	},
 
-	'6' => {
-		message => q|Zuf&auml;llig|,
-		lastUpdated => 1178875291
-	},
-
 	'report.overview.url' => {
 		message => q|URL, die zur Anzeige der statistischen &Uuml;bersicht dieser Umfrage benutzt wird.|,
 		lastUpdated => 1179740716
+	},
+
+	'6' => {
+		message => q|Zuf&auml;llig|,
+		lastUpdated => 1178875291
 	},
 
 	'response.percent.label' => {
@@ -691,14 +657,14 @@ our $I18N = {
 		lastUpdated => 1179741028
 	},
 
-	'start.date.human' => {
-		message => q|Datum, an dem der Benutzer die Benutzerantwort abgeschlossen hat, im &quot;human-readable&quot; Format.|,
-		lastUpdated => 1179741596
-	},
-
 	'36' => {
 		message => q|Stimme ein wenig nicht zu|,
 		lastUpdated => 1178874745
+	},
+
+	'start.date.human' => {
+		message => q|Datum, an dem der Benutzer die Benutzerantwort abgeschlossen hat, im &quot;human-readable&quot; Format.|,
+		lastUpdated => 1179741596
 	},
 
 	'51' => {
@@ -1146,11 +1112,6 @@ our $I18N = {
 		lastUpdated => 1178876562
 	},
 
-	'1088' => {
-		message => q|Die folgenden Template Variablen sind im Gradebook Report der Umfrage verf&uuml;gbar.|,
-		lastUpdated => 1178870366
-	},
-
 	'question.answer.field' => {
 		message => q|Das Formular Feld f&uuml;r die m&ouml;glichen Antworten auf diese Frage.|,
 		lastUpdated => 1179733487
@@ -1236,11 +1197,6 @@ our $I18N = {
 		lastUpdated => 1178876494
 	},
 
-	'3' => {
-		message => q|Umfrage hinzuf&uuml;gen/bearbeiten|,
-		lastUpdated => 1178874648
-	},
-
 	'9' => {
 		message => q|Umfrage|,
 		lastUpdated => 1178876611
@@ -1264,11 +1220,6 @@ our $I18N = {
 	'what next description' => {
 		message => q|Nachdem Sie die Umfrage erstellt haben k&ouml;nnen Sie beginnen, Fragen hinzuzuf&uml;gen oder zur&uuml;ck zur Seite gehen, die die Umfrage enth&auuml;lt.|,
 		lastUpdated => 1179742390
-	},
-
-	'4' => {
-		message => q|<p>Umfragen erlauben es ihnen, Informationen von ihren Benutzern zu sammeln. Im Falle von WebGUI Umfragen k&ouml;nnen Sie das Wissen ihrer Benutzer testen.</p><p>Umfragen sind Wobjects und Assets, deshalb haben Sie die gleichen Eigenschaften. Umfragen haben zus&auml;tzlich diese Eigenschaften:&nbsp;</p>|,
-		lastUpdated => 1178874882
 	},
 
 	'34' => {

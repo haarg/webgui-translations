@@ -1,5 +1,6 @@
 package WebGUI::i18n::RedNeck::Asset_Calendar;
 
+
 our $I18N = {
 	'templateIdWeek description' => {
 		message => q||,
@@ -11,7 +12,7 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'urlDay' => {
+	'subscriberNotifyOffset label' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -21,7 +22,7 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'subscriberNotifyOffset label' => {
+	'urlDay' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -46,12 +47,12 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'urlAdd' => {
+	'templateIdPrintMonth label' => {
 		message => q||,
 		lastUpdated => 
 	},
 
-	'templateIdPrintMonth label' => {
+	'urlAdd' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -81,7 +82,7 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'templateIdPrintWeek description' => {
+	'defaultDate value current' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -91,7 +92,7 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'defaultDate value current' => {
+	'templateIdPrintWeek description' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -106,17 +107,12 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'pagePrevUrl weekVar' => {
-		message => q||,
-		lastUpdated => 
-	},
-
 	'view calendar title' => {
 		message => q||,
 		lastUpdated => 
 	},
 
-	'help add/edit body' => {
+	'pagePrevUrl weekVar' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -161,22 +157,22 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'paramStart' => {
-		message => q||,
-		lastUpdated => 
-	},
-
 	'templateIdPrintEvent label' => {
 		message => q||,
 		lastUpdated => 
 	},
 
-	'pagePrevUrl dayVar' => {
+	'paramStart' => {
 		message => q||,
 		lastUpdated => 
 	},
 
 	'defaultView value month' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'pagePrevUrl dayVar' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -191,22 +187,12 @@ our $I18N = {
 		lastUpdated => 1177704606
 	},
 
-	'visitorCacheTimeout label' => {
-		message => q||,
-		lastUpdated => 
-	},
-
 	'templateIdEventEdit label' => {
 		message => q||,
 		lastUpdated => 
 	},
 
-	'dayAbbr' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'hourM' => {
+	'visitorCacheTimeout label' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -216,12 +202,22 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'endMonthName' => {
+	'hourM' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'dayAbbr' => {
 		message => q||,
 		lastUpdated => 
 	},
 
 	'groupIdEventEdit label' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'endMonthName' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -321,22 +317,22 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'epoch' => {
-		message => q||,
-		lastUpdated => 
-	},
-
 	'templateIdDay label' => {
 		message => q||,
 		lastUpdated => 
 	},
 
-	'dayOfMonth' => {
+	'epoch' => {
 		message => q||,
 		lastUpdated => 
 	},
 
 	'templateIdMonth label' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'dayOfMonth' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -351,12 +347,12 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'view calendar week body' => {
+	'subscriberNotifyOffset description' => {
 		message => q||,
 		lastUpdated => 
 	},
 
-	'subscriberNotifyOffset description' => {
+	'view calendar week body' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -366,17 +362,12 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'templateIdPrintDay description' => {
-		message => q||,
-		lastUpdated => 
-	},
-
 	'urlWeek' => {
 		message => q||,
 		lastUpdated => 
 	},
 
-	'startMonth' => {
+	'templateIdPrintDay description' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -386,7 +377,7 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'startDayOfMonth' => {
+	'startMonth' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -396,17 +387,22 @@ our $I18N = {
 		lastUpdated => 
 	},
 
+	'startDayOfMonth' => {
+		message => q||,
+		lastUpdated => 
+	},
+
 	'events dayVar' => {
 		message => q||,
 		lastUpdated => 
 	},
 
-	'templateIdPrintDay label' => {
+	'extrasUrl' => {
 		message => q||,
 		lastUpdated => 
 	},
 
-	'extrasUrl' => {
+	'templateIdPrintDay label' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -427,11 +423,6 @@ our $I18N = {
 	},
 
 	'defaultView value day' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'help add/edit title' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -461,22 +452,22 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'templateIdWeek label' => {
-		message => q||,
-		lastUpdated => 
-	},
-
 	'defaultDate value first' => {
 		message => q||,
 		lastUpdated => 
 	},
 
-	'startMonthAbbr' => {
+	'templateIdWeek label' => {
 		message => q||,
 		lastUpdated => 
 	},
 
 	'defaultView label' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'startMonthAbbr' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -491,12 +482,12 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'pageNextUrl weekVar' => {
+	'monthName' => {
 		message => q||,
 		lastUpdated => 
 	},
 
-	'monthName' => {
+	'pageNextUrl weekVar' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -506,12 +497,12 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'dmy' => {
+	'view calendar body' => {
 		message => q||,
 		lastUpdated => 
 	},
 
-	'view calendar body' => {
+	'dmy' => {
 		message => q||,
 		lastUpdated => 
 	},

@@ -1,12 +1,13 @@
 package WebGUI::i18n::Croatian::Macro_a_account;
 
+
 our $I18N = {
-	'account body' => {
+	'account.text' => {
 		message => q||,
 		lastUpdated => 
 	},
 
-	'account.text' => {
+	'account.url' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -14,11 +15,6 @@ our $I18N = {
 	'46' => {
 		message => q|Moj korisnički račun|,
 		lastUpdated => 1170255002
-	},
-
-	'account.url' => {
-		message => q||,
-		lastUpdated => 
 	},
 
 	'macroName' => {

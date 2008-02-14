@@ -1,5 +1,6 @@
 package WebGUI::i18n::Dutch::Asset_WikiPage;
 
+
 our $I18N = {
 	'history actionTaken' => {
 		message => q|De actie die is ondernomen in de revisie. Normaal gesproken is dit "Wijzig".|,
@@ -16,9 +17,9 @@ our $I18N = {
 		lastUpdated => 1180654432
 	},
 
-	'history date' => {
-		message => q|De datum dat deze revisie is doorgevoerd.|,
-		lastUpdated => 1166780954
+	'assetName' => {
+		message => q|Wiki-pagina|,
+		lastUpdated => 1166618825
 	},
 
 	'viewLabel variable' => {
@@ -26,9 +27,9 @@ our $I18N = {
 		lastUpdated => 1166782809
 	},
 
-	'assetName' => {
-		message => q|Wiki-pagina|,
-		lastUpdated => 1166618825
+	'history date' => {
+		message => q|De datum dat deze revisie is doorgevoerd.|,
+		lastUpdated => 1166780954
 	},
 
 	'deleteConfirmation' => {
@@ -46,9 +47,9 @@ our $I18N = {
 		lastUpdated => 1166619122
 	},
 
-	'delete confirmation' => {
-		message => q|Weet u zeker dat u deze revisie wilt verwijderen?|,
-		lastUpdated => 1166780467
+	'recentChangesUrl' => {
+		message => q|De URL voor de weergave van het overzicht met de meest recente wijzigingen.|,
+		lastUpdated => 1166782653
 	},
 
 	'history body' => {
@@ -56,9 +57,9 @@ our $I18N = {
 		lastUpdated => 1166780935
 	},
 
-	'recentChangesUrl' => {
-		message => q|De URL voor de weergave van het overzicht met de meest recente wijzigingen.|,
-		lastUpdated => 1166782653
+	'delete confirmation' => {
+		message => q|Weet u zeker dat u deze revisie wilt verwijderen?|,
+		lastUpdated => 1166780467
 	},
 
 	'historyLabel variable' => {
@@ -81,9 +82,9 @@ our $I18N = {
 		lastUpdated => 1166619131
 	},
 
-	'actionTakenBy' => {
-		message => q|De ID van de gebruiker die de pagina het laatst heeft bewerkt.|,
-		lastUpdated => 1180654418
+	'attachmentLabel' => {
+		message => q|Bijlage(n)|,
+		lastUpdated => 1166618848
 	},
 
 	'mostPopularLabel variable' => {
@@ -91,19 +92,19 @@ our $I18N = {
 		lastUpdated => 1166782335
 	},
 
-	'attachmentLabel' => {
-		message => q|Bijlage(n)|,
-		lastUpdated => 1166618848
-	},
-
-	'deleteLabel variable' => {
-		message => q|De vertaling voor de tekst van de deleteUrl.|,
-		lastUpdated => 1166780488
+	'actionTakenBy' => {
+		message => q|De ID van de gebruiker die de pagina het laatst heeft bewerkt.|,
+		lastUpdated => 1180654418
 	},
 
 	'formFooter' => {
 		message => q|Dit is de HTML code voor het einde van het formulier om de pagina te wijzigen.|,
 		lastUpdated => 1166780640
+	},
+
+	'deleteLabel variable' => {
+		message => q|De vertaling voor de tekst van de deleteUrl.|,
+		lastUpdated => 1166780488
 	},
 
 	'contentLabel variable' => {
@@ -116,14 +117,14 @@ our $I18N = {
 		lastUpdated => 1166782716
 	},
 
-	'storageId' => {
-		message => q|De ID van het object dat gebruikt wordt om bijlagen op te slaan voor deze wikipagina.|,
-		lastUpdated => 1180654508
-	},
-
 	'protectQuestionLabel' => {
 		message => q|Deze pagina beveiligen tegen bewerken? |,
 		lastUpdated => 1166619268
+	},
+
+	'storageId' => {
+		message => q|De ID van het object dat gebruikt wordt om bijlagen op te slaan voor deze wikipagina.|,
+		lastUpdated => 1180654508
 	},
 
 	'deleteLabel' => {
@@ -146,6 +147,11 @@ our $I18N = {
 		lastUpdated => 1166780682
 	},
 
+	'historyUrl' => {
+		message => q|De URL voor de weergave van de historie. Op deze pagina staan alle gedane wijzigingen aan deze pagina.|,
+		lastUpdated => 1166781184
+	},
+
 	'viewLabel' => {
 		message => q|Bekijk|,
 		lastUpdated => 1166782778
@@ -161,14 +167,9 @@ our $I18N = {
 		lastUpdated => 1166782733
 	},
 
-	'historyUrl' => {
-		message => q|De URL voor de weergave van de historie. Op deze pagina staan alle gedane wijzigingen aan deze pagina.|,
-		lastUpdated => 1166781184
-	},
-
-	'formProtect' => {
-		message => q|De HTML code voor een checkbutton waarmee kan worden bepaald of de pagina beschermd moet worden. Beschermde pagina's kunnen alleen gewijzigd worden door gebruikers met rechten om een Wiki te wijzigen.|,
-		lastUpdated => 1166780811
+	'deleteUrl' => {
+		message => q|De URL om deze pagina te verwijderen.|,
+		lastUpdated => 1166780501
 	},
 
 	'canAdminister' => {
@@ -176,14 +177,9 @@ our $I18N = {
 		lastUpdated => 1166780369
 	},
 
-	'deleteUrl' => {
-		message => q|De URL om deze pagina te verwijderen.|,
-		lastUpdated => 1166780501
-	},
-
-	'add/edit body' => {
-		message => q|Het formulier voor het toevoegen of wijzigen van deze Asset heeft een sjabloon zodat het formulier te layouten is. De velden hebben geen hoverHelp. De beschikbare variabelen voor het sjabloon zijn: |,
-		lastUpdated => 1166780289
+	'formProtect' => {
+		message => q|De HTML code voor een checkbutton waarmee kan worden bepaald of de pagina beschermd moet worden. Beschermde pagina's kunnen alleen gewijzigd worden door gebruikers met rechten om een Wiki te wijzigen.|,
+		lastUpdated => 1166780811
 	},
 
 	'views' => {
@@ -196,19 +192,14 @@ our $I18N = {
 		lastUpdated => 1166782832
 	},
 
-	'delete page confirmation' => {
-		message => q|Wilt u deze Wiki pagina verwijderen?|,
-		lastUpdated => 1181652503
-	},
-
 	'page received' => {
 		message => q|De wijzigingen zijn ontvangen en worden verwerkt, zodat ze gepubliceerd kunnen worden. De pagina is weer beschikbaar voor verdere wijzigingen wanneer deze wijzigingen zijn verwerkt. Een ogenblik geduld a.u.b.|,
 		lastUpdated => 1166619242
 	},
 
-	'vars body' => {
-		message => q|Deze variabelen zijn beschikbaar in het wikipagina sjabloon. Ze zijn gebaseerd op kenmerken van het object en verschillen in bruikbaarheid.|,
-		lastUpdated => 1180654544
+	'delete page confirmation' => {
+		message => q|Wilt u deze Wiki pagina verwijderen?|,
+		lastUpdated => 1181652503
 	},
 
 	'searchLabel variable' => {
@@ -216,9 +207,9 @@ our $I18N = {
 		lastUpdated => 1166782681
 	},
 
-	'content variable' => {
-		message => q|De onbewerkte inhoud van de wikipagina, waarin nog geen titels of links zijn bewerkt. Als het goed is zie je nooit de inhoud van deze variabele, omdat deze wordt overschreven in het sjabloon.|,
-		lastUpdated => 1180654490
+	'vars body' => {
+		message => q|Deze variabelen zijn beschikbaar in het wikipagina sjabloon. Ze zijn gebaseerd op kenmerken van het object en verschillen in bruikbaarheid.|,
+		lastUpdated => 1180654544
 	},
 
 	'formTitle' => {
@@ -226,19 +217,24 @@ our $I18N = {
 		lastUpdated => 1166780864
 	},
 
+	'content variable' => {
+		message => q|De onbewerkte inhoud van de wikipagina, waarin nog geen titels of links zijn bewerkt. Als het goed is zie je nooit de inhoud van deze variabele, omdat deze wordt overschreven in het sjabloon.|,
+		lastUpdated => 1180654490
+	},
+
 	'wikiHomeUrl' => {
 		message => q|De URL voor de weergave van de Wiki beginpagina.|,
 		lastUpdated => 1166782855
 	},
 
-	'vars title' => {
-		message => q|Sjabloonvariabelen voor het wikipagina object.|,
-		lastUpdated => 1180654560
-	},
-
 	'recentChangesLabel' => {
 		message => q|Een - in meerdere talen beschikbaar - label voor de variabele "recentChangesUrl" (url naar recente wijzigingen).|,
 		lastUpdated => 1166782702
+	},
+
+	'vars title' => {
+		message => q|Sjabloonvariabelen voor het wikipagina object.|,
+		lastUpdated => 1180654560
 	},
 
 	'mostPopularUrl' => {
@@ -251,14 +247,14 @@ our $I18N = {
 		lastUpdated => 1166780304
 	},
 
-	'isNew' => {
-		message => q|Een variabele die waar is al de Wiki pagina nieuw is.|,
-		lastUpdated => 1166782283
-	},
-
 	'view title' => {
 		message => q|Titel weergeven?|,
 		lastUpdated => 1166782763
+	},
+
+	'isNew' => {
+		message => q|Een variabele die waar is al de Wiki pagina nieuw is.|,
+		lastUpdated => 1166782283
 	},
 
 	'formContent' => {
@@ -266,19 +262,14 @@ our $I18N = {
 		lastUpdated => 1166780608
 	},
 
-	'history toolbar' => {
-		message => q|Een werkbalk waarmee de revisie verwijdert, gewijzigd of bekeken kan worden.|,
-		lastUpdated => 1166781114
-	},
-
 	'titleLabel' => {
 		message => q|Titel|,
 		lastUpdated => 1166619272
 	},
 
-	'history interval' => {
-		message => q|De tijd die is verstreken sinds de pagina is ingevoerd.|,
-		lastUpdated => 1166780979
+	'history toolbar' => {
+		message => q|Een werkbalk waarmee de revisie verwijdert, gewijzigd of bekeken kan worden.|,
+		lastUpdated => 1166781114
 	},
 
 	'editLabel variable' => {
@@ -286,14 +277,19 @@ our $I18N = {
 		lastUpdated => 1166780568
 	},
 
-	'protectQuestionLabel variable' => {
-		message => q|De tekst die gebruikt wordt voor de URL om een vraag te beschermen.|,
-		lastUpdated => 1166782575
+	'history interval' => {
+		message => q|De tijd die is verstreken sinds de pagina is ingevoerd.|,
+		lastUpdated => 1166780979
 	},
 
 	'view body' => {
 		message => q|Bekijk content|,
 		lastUpdated => 1166782752
+	},
+
+	'protectQuestionLabel variable' => {
+		message => q|De tekst die gebruikt wordt voor de URL om een vraag te beschermen.|,
+		lastUpdated => 1166782575
 	},
 
 	'history title' => {

@@ -1,9 +1,10 @@
 package WebGUI::i18n::Arabic::Macro_Product;
 
+
 our $I18N = {
-	'sku' => {
-		message => q|SKU المبدأي للمنتج<br />|,
-		lastUpdated => 1174389129
+	'variant.price' => {
+		message => q|سعر بديل المنتج هذا<br />|,
+		lastUpdated => 1174389361
 	},
 
 	'variant.weight' => {
@@ -11,9 +12,9 @@ our $I18N = {
 		lastUpdated => 1174389405
 	},
 
-	'variant.price' => {
-		message => q|سعر بديل المنتج هذا<br />|,
-		lastUpdated => 1174389361
+	'sku' => {
+		message => q|SKU المبدأي للمنتج<br />|,
+		lastUpdated => 1174389129
 	},
 
 	'variant.addToCart.label' => {
@@ -71,11 +72,6 @@ our $I18N = {
 		lastUpdated => 1174389393
 	},
 
-	'product body' => {
-		message => q|  <p dir="&quot;rtl&quot;" class="&quot;MsoNormal&quot;"><span>^Product(SKU or productId, [templateId]);</span></p>  <p dir="&quot;rtl&quot;" class="&quot;MsoNormal&quot;"><span>يقوم هذا الماكرو بالبحث عن منتج في مدير المنتجات باستخدام الـ</span><span>SKU</span><span> او هوية المنتج و يسمح بعرض معلومات عنه. اذا لا يمكن ايجاد الـ</span><span>SKU</span><span> او </span><span>productId</span><span>, سيتم عرض الرسالة الدولية </span><span>^International(&quot;cannot find product&quot;,&quot;Macro_Product&quot;);</span><span>.</span></p>  <p dir="&quot;rtl&quot;" class="&quot;MsoNormal&quot;"><span>&nbsp;</span></p>  <p dir="&quot;rtl&quot;" class="&quot;MsoNormal&quot;"><span>يأخذ الماكرو مدخل واحد اختياري, نموذج بديل في مساحة اسم </span><span>Macro/Product</span><span> ليقوم بتشكيل المعلومات عن المنتج. المغيرات التالية متوفرة على النموذج:</span></p>  |,
-		lastUpdated => 1177181814
-	},
-
 	'productId' => {
 		message => q|المعرف الفريد لهذا المنتج |,
 		lastUpdated => 1174389115
@@ -101,14 +97,14 @@ our $I18N = {
 		lastUpdated => 1174388960
 	},
 
-	'price' => {
-		message => q|التكلفة المبدأية للمنتج |,
-		lastUpdated => 1174389012
-	},
-
 	'title' => {
 		message => q|عنوان عذا المنتج|,
 		lastUpdated => 1174389139
+	},
+
+	'price' => {
+		message => q|التكلفة المبدأية للمنتج |,
+		lastUpdated => 1174389012
 	},
 
 	'variantLoop' => {

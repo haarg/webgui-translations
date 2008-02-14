@@ -1,17 +1,18 @@
 package WebGUI::i18n::Swedish::Asset_Folder;
 
+
 our $I18N = {
 	'What Next description' => {
 		message => q||,
 		lastUpdated => 
 	},
 
-	'assetName' => {
+	'folder template body' => {
 		message => q||,
 		lastUpdated => 
 	},
 
-	'folder template body' => {
+	'assetName' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -41,12 +42,12 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'controls' => {
+	'id' => {
 		message => q||,
 		lastUpdated => 
 	},
 
-	'id' => {
+	'controls' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -67,11 +68,6 @@ our $I18N = {
 	},
 
 	'visitorCacheTimeout' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'folder add/edit title' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -106,12 +102,7 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'isImage' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'type' => {
+	'addFile.label' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -121,7 +112,12 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'addFile.label' => {
+	'type' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'isImage' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -166,9 +162,9 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'sortAlphabetically' => {
-		message => q||,
-		lastUpdated => 
+	'folder title' => {
+		message => q|Mappens titel<br />|,
+		lastUpdated => 1168617733
 	},
 
 	'file.url' => {
@@ -176,9 +172,9 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'folder title' => {
-		message => q|Mappens titel<br />|,
-		lastUpdated => 1168617733
+	'sortAlphabetically' => {
+		message => q||,
+		lastUpdated => 
 	},
 
 	'icon.big' => {
@@ -191,22 +187,17 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'folder add/edit body' => {
-		message => q||,
-		lastUpdated => 
-	},
-
 	'file_loop' => {
 		message => q||,
 		lastUpdated => 
 	},
 
-	'thumbnail.url' => {
+	'visitor cache timeout help' => {
 		message => q||,
 		lastUpdated => 
 	},
 
-	'visitor cache timeout help' => {
+	'thumbnail.url' => {
 		message => q||,
 		lastUpdated => 
 	},

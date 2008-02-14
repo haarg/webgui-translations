@@ -1,24 +1,20 @@
 package WebGUI::i18n::German::Asset_MessageBoard;
 
+
 our $I18N = {
 	'forum.lastpost.user.isVisitor' => {
 		message => q|Bedingung, die anzeigt, ob der letzte Poster ein Visitor war.|,
 		lastUpdated => 1179824170
 	},
 
-	'71' => {
-		message => q|Message Boards k&ouml;nnen ein oder mehrere Foren und/oder Discussion Boards enthalten. Dies ist eine gute M&ouml;glichkeit, um die Community zu integrieren. Viele Firmen benutzen Message Boards, um intern an Projekten zusammenzuarbeiten.|,
-		lastUpdated => 1179823569
+	'forum.rating' => {
+		message => q|Durchschnittsbewertung alle Posts in dem Forum.|,
+		lastUpdated => 1179824214
 	},
 
 	'forum.user.canView' => {
 		message => q|Bedingung, die anzeigt, ob der Benuzter dieses Forum ansehen darf.|,
 		lastUpdated => 1179824376
-	},
-
-	'forum.rating' => {
-		message => q|Durchschnittsbewertung alle Posts in dem Forum.|,
-		lastUpdated => 1179824214
 	},
 
 	'assetName' => {
@@ -41,14 +37,14 @@ our $I18N = {
 		lastUpdated => 1179823780
 	},
 
-	'forum.lastpost.user.alias' => {
-		message => q|Aktueller Alias des letzten Posters.|,
-		lastUpdated => 1179824117
-	},
-
 	'forum.controls' => {
 		message => q|Bedienelemente zum Bearbeiten dieses Forums.|,
 		lastUpdated => 1179823842
+	},
+
+	'forum.lastpost.user.alias' => {
+		message => q|Aktueller Alias des letzten Posters.|,
+		lastUpdated => 1179824117
 	},
 
 	'74' => {
@@ -76,11 +72,6 @@ our $I18N = {
 		lastUpdated => 1179824553
 	},
 
-	'61' => {
-		message => q|Message Board hinzuf&uuml;gen/bearbeiten|,
-		lastUpdated => 1179823424
-	},
-
 	'areMultipleForums' => {
 		message => q|Bedingung, die anzeigt, ob ein Forum existiert oder mehrere.|,
 		lastUpdated => 1179823724
@@ -96,14 +87,14 @@ our $I18N = {
 		lastUpdated => 1179824009
 	},
 
-	'message board asset template variables title' => {
-		message => q|Message Board Asset Template Variablen|,
-		lastUpdated => 1179824568
-	},
-
 	'forum.views' => {
 		message => q|Gesamtanzahl aller Ansichten in diesem Forum (Wie oft wurden die Posts in diesem Forum von Besuchern angesehen?).|,
 		lastUpdated => 1179824467
+	},
+
+	'message board asset template variables title' => {
+		message => q|Message Board Asset Template Variablen|,
+		lastUpdated => 1179824568
 	},
 
 	'forum.lastpost.url' => {
@@ -116,19 +107,19 @@ our $I18N = {
 		lastUpdated => 1179824050
 	},
 
-	'title' => {
-		message => q|Titel|,
-		lastUpdated => 1157856286
-	},
-
 	'forum.count' => {
 		message => q|Schleifenindex f&uuml;r Anzahl Foren.|,
 		lastUpdated => 1179823965
 	},
 
-	'forum.lastpost.time' => {
-		message => q|Zeitpunkt des letzten Posts in diesem Forum, im "human-readable" Format.|,
-		lastUpdated => 1179824082
+	'title' => {
+		message => q|Titel|,
+		lastUpdated => 1157856286
+	},
+
+	'forum_loop' => {
+		message => q|Schleife, die die Daten f&uuml;r alle Foren eines Message Boards enth&auml;lt.|,
+		lastUpdated => 1179824515
 	},
 
 	'forum.threads' => {
@@ -136,9 +127,9 @@ our $I18N = {
 		lastUpdated => 1179824307
 	},
 
-	'forum_loop' => {
-		message => q|Schleife, die die Daten f&uuml;r alle Foren eines Message Boards enth&auml;lt.|,
-		lastUpdated => 1179824515
+	'forum.lastpost.time' => {
+		message => q|Zeitpunkt des letzten Posts in diesem Forum, im "human-readable" Format.|,
+		lastUpdated => 1179824082
 	},
 
 	'title.label' => {
@@ -171,24 +162,24 @@ our $I18N = {
 		lastUpdated => 1170409070
 	},
 
-	'rating' => {
-		message => q|Bewertung|,
-		lastUpdated => 1179824575
-	},
-
 	'forum.url' => {
 		message => q|URL zum Ansehen dieses Forums.|,
 		lastUpdated => 1179824334
 	},
 
-	'lastpost' => {
-		message => q|Letzter Post|,
-		lastUpdated => 1179824525
+	'rating' => {
+		message => q|Bewertung|,
+		lastUpdated => 1179824575
 	},
 
 	'views' => {
 		message => q|Ansichten|,
 		lastUpdated => 1179824686
+	},
+
+	'lastpost' => {
+		message => q|Letzter Post|,
+		lastUpdated => 1179824525
 	},
 
 	'default.listing' => {
@@ -226,14 +217,9 @@ our $I18N = {
 		lastUpdated => 1179824182
 	},
 
-	'threads' => {
-		message => q|Threads|,
-		lastUpdated => 1179824645
-	},
-
-	'forum.user.canPost' => {
-		message => q|Bedingung, die anzeigt, ob der Benutzer in diesem Forum posten darf.|,
-		lastUpdated => 1179824356
+	'forum.lastpost.user.id' => {
+		message => q|Die userid des letzten Posters.|,
+		lastUpdated => 1179824153
 	},
 
 	'views.label' => {
@@ -241,9 +227,14 @@ our $I18N = {
 		lastUpdated => 1179824703
 	},
 
-	'forum.lastpost.user.id' => {
-		message => q|Die userid des letzten Posters.|,
-		lastUpdated => 1179824153
+	'forum.user.canPost' => {
+		message => q|Bedingung, die anzeigt, ob der Benutzer in diesem Forum posten darf.|,
+		lastUpdated => 1179824356
+	},
+
+	'threads' => {
+		message => q|Threads|,
+		lastUpdated => 1179824645
 	},
 
 	'replies.label' => {
@@ -251,14 +242,14 @@ our $I18N = {
 		lastUpdated => 1179824620
 	},
 
-	'73' => {
-		message => q|Message Board Template|,
-		lastUpdated => 1179823578
-	},
-
 	'visitor cache timeout help' => {
 		message => q|Alle Visitor sehen dieses Asset auf die gleiche Weise, man kann es also cachen, um die Performance zu erh&ouml;hen. Wie lange soll dieses Asset gecached werden?|,
 		lastUpdated => 1179824794
+	},
+
+	'73' => {
+		message => q|Message Board Template|,
+		lastUpdated => 1179823578
 	},
 
 	'76' => {

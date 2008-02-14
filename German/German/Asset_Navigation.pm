@@ -1,14 +1,10 @@
 package WebGUI::i18n::German::Asset_Navigation;
 
+
 our $I18N = {
 	'' => {
 		message => q||,
 		lastUpdated => 
-	},
-
-	'showUnprivilegedPages' => {
-		message => q|Falls wahr, werden auch Seiten angezeigt, die der aktuelle Benutzer eigentlich gar nicht sehen darf.|,
-		lastUpdated => 1178718246
 	},
 
 	'32' => {
@@ -16,14 +12,19 @@ our $I18N = {
 		lastUpdated => 1178712152
 	},
 
-	'showHiddenPages' => {
-		message => q|Falls wahr, dann werden von der Navigation auch versteckte Seiten angezeigt (Seiten, deren Von der Navigation verbergen auf "Ja" gestellt ist).|,
-		lastUpdated => 1178718182
+	'showUnprivilegedPages' => {
+		message => q|Falls wahr, werden auch Seiten angezeigt, die der aktuelle Benutzer eigentlich gar nicht sehen darf.|,
+		lastUpdated => 1178718246
 	},
 
 	'page.parent.newWindow' => {
 		message => q|Bedingung, die angibt, ob die Mutter dieser Seite in einem neuen Fenster ge&ouml;ffnet werden soll.|,
 		lastUpdated => 1178717617
+	},
+
+	'showHiddenPages' => {
+		message => q|Falls wahr, dann werden von der Navigation auch versteckte Seiten angezeigt (Seiten, deren Von der Navigation verbergen auf "Ja" gestellt ist).|,
+		lastUpdated => 1178718182
 	},
 
 	'Ancestor End Point' => {
@@ -36,14 +37,14 @@ our $I18N = {
 		lastUpdated => 1178718005
 	},
 
-	'currentPage.hasViewableSiblings' => {
-		message => q|Bedingung, die angibt, ob die aktuelle Seite Siblings (Seiten auf der gleiche Ebene) hat, die der aktuelle Benutzer sehen darf.|,
-		lastUpdated => 1178714794
-	},
-
 	'Descendants' => {
 		message => q|Descendants|,
 		lastUpdated => 1178712407
+	},
+
+	'currentPage.hasViewableSiblings' => {
+		message => q|Bedingung, die angibt, ob die aktuelle Seite Siblings (Seiten auf der gleiche Ebene) hat, die der aktuelle Benutzer sehen darf.|,
+		lastUpdated => 1178714794
 	},
 
 	'page.inBranch' => {
@@ -91,14 +92,14 @@ our $I18N = {
 		lastUpdated => 1178718042
 	},
 
-	'indent' => {
-		message => q|Eine Zahl, die den loop count angibt (Anzahl der Schleifendurchg&auml;nge).|,
-		lastUpdated => 1178715919
-	},
-
 	'Infinity' => {
 		message => q|Unendlich|,
 		lastUpdated => 1178712416
+	},
+
+	'indent' => {
+		message => q|Eine Zahl, die den loop count angibt (Anzahl der Schleifendurchg&auml;nge).|,
+		lastUpdated => 1178715919
 	},
 
 	'currentPage.url' => {
@@ -111,14 +112,14 @@ our $I18N = {
 		lastUpdated => 1178718212
 	},
 
-	'page.title' => {
-		message => q|Der Titel dieser Seite.|,
-		lastUpdated => 1178717868
-	},
-
 	'Relative To Current URL' => {
 		message => q|Relativ zur aktuelle URL|,
 		lastUpdated => 1178712453
+	},
+
+	'page.title' => {
+		message => q|Der Titel dieser Seite.|,
+		lastUpdated => 1178717868
 	},
 
 	'mimeType' => {
@@ -126,14 +127,14 @@ our $I18N = {
 		lastUpdated => 1178715934
 	},
 
-	'page.indent_loop' => {
-		message => q|Schleife, die <strong>page.relDepth</strong> mal durchlaufen wird.|,
-		lastUpdated => 1178716924
-	},
-
 	'31' => {
 		message => q|Zeige versteckte Seiten|,
 		lastUpdated => 1178711806
+	},
+
+	'page.indent_loop' => {
+		message => q|Schleife, die <strong>page.relDepth</strong> mal durchlaufen wird.|,
+		lastUpdated => 1178716924
 	},
 
 	'page.newWindow' => {
@@ -161,19 +162,14 @@ our $I18N = {
 		lastUpdated => 1178711793
 	},
 
-	'page.isChild' => {
-		message => q|Bedingung, die angibt, ob diese Seite eine Tochter der aktuellen Seite ist.|,
-		lastUpdated => 1178717018
-	},
-
 	'page.assetId' => {
 		message => q|Die assetId dieser Seite.|,
 		lastUpdated => 1178716125
 	},
 
-	'page.isRankedLast' => {
-		message => q|Diese Eigenschaft ist wahr, falls diese Seite die letzte dieser Ebene ist (d.h. hat keine rechte Schwester).|,
-		lastUpdated => 1178717275
+	'page.isChild' => {
+		message => q|Bedingung, die angibt, ob diese Seite eine Tochter der aktuellen Seite ist.|,
+		lastUpdated => 1178717018
 	},
 
 	'Start Point Type' => {
@@ -181,19 +177,14 @@ our $I18N = {
 		lastUpdated => 1178713010
 	},
 
+	'page.isRankedLast' => {
+		message => q|Diese Eigenschaft ist wahr, falls diese Seite die letzte dieser Ebene ist (d.h. hat keine rechte Schwester).|,
+		lastUpdated => 1178717275
+	},
+
 	'Start Point Type description' => {
 		message => q|An welchem Punkt soll die Navigation beginnen, w&auml;hlen Sie eine Seite an Hand einer bestimmten URL, relativ zur aktuellen URL oder eine Seite relativ zur Wurzel(Root)-Seite.|,
 		lastUpdated => 1178713147
-	},
-
-	'page.isTopOfBranch' => {
-		message => q|Bedingung, die angibt, ob diese Seite eine Top Seite ist (Tochter von Root).|,
-		lastUpdated => 1178717382
-	},
-
-	'Relatives To Include description' => {
-		message => q|<p>Das Navigation Asset kann Seiten ausfiltern, die Sie nicht in der Navi aufgelistet haben wollen. W&auml;hlen Sie alle Klassen von Seiten, die aufgelistet werden sollen:</p><p>Ancestors<br />&nbsp;&nbsp;&nbsp;&nbsp; Seiten &uuml;berhalb der aktuellen Seite im &quot;page tree&quot; <br />Self<br />&nbsp;&nbsp;&nbsp; Die aktuelle Seite.<br />Siblings<br />&nbsp;&nbsp;&nbsp;&nbsp; Seiten auf der selben Ebene wie die aktuelle Seite. <br />Descendents<br />&nbsp;&nbsp;&nbsp; Seiten unterhalb der aktuellen Seite im &quot;page tree&quot;.<br />Pegigree<br />&nbsp;&nbsp;&nbsp; Wenn eine andere Startseite genutzt wird, so w&auml;hlt diese Option die Ancestors, Siblings und Descendents dieser Seite. </p>|,
-		lastUpdated => 1178712921
 	},
 
 	'1096' => {
@@ -201,19 +192,29 @@ our $I18N = {
 		lastUpdated => 1178711451
 	},
 
+	'Relatives To Include description' => {
+		message => q|<p>Das Navigation Asset kann Seiten ausfiltern, die Sie nicht in der Navi aufgelistet haben wollen. W&auml;hlen Sie alle Klassen von Seiten, die aufgelistet werden sollen:</p><p>Ancestors<br />&nbsp;&nbsp;&nbsp;&nbsp; Seiten &uuml;berhalb der aktuellen Seite im &quot;page tree&quot; <br />Self<br />&nbsp;&nbsp;&nbsp; Die aktuelle Seite.<br />Siblings<br />&nbsp;&nbsp;&nbsp;&nbsp; Seiten auf der selben Ebene wie die aktuelle Seite. <br />Descendents<br />&nbsp;&nbsp;&nbsp; Seiten unterhalb der aktuellen Seite im &quot;page tree&quot;.<br />Pegigree<br />&nbsp;&nbsp;&nbsp; Wenn eine andere Startseite genutzt wird, so w&auml;hlt diese Option die Ancestors, Siblings und Descendents dieser Seite. </p>|,
+		lastUpdated => 1178712921
+	},
+
+	'page.isTopOfBranch' => {
+		message => q|Bedingung, die angibt, ob diese Seite eine Top Seite ist (Tochter von Root).|,
+		lastUpdated => 1178717382
+	},
+
 	'page.isRankedFirst' => {
 		message => q|Diese Eigenschaft ist wahr, falls diese Seite die erste auf dieser Ebene ist (d.h. hat keine linke Schwester).|,
 		lastUpdated => 1178717287
 	},
 
-	'page.indent' => {
-		message => q|Variable, die die Einr&uuml;ckung der aktuellen Seite enth&auml;lt. Der Standard ist drei Leerzeichen. Benutzen Sie <strong>page.indent_loop</strong>, falls Sie eine flexiblere Einr&uuml;ckung ben&ouml;tigen.|,
-		lastUpdated => 1178716892
-	},
-
 	'Pedigree' => {
 		message => q|Pedigree|,
 		lastUpdated => 1178712440
+	},
+
+	'page.indent' => {
+		message => q|Variable, die die Einr&uuml;ckung der aktuellen Seite enth&auml;lt. Der Standard ist drei Leerzeichen. Benutzen Sie <strong>page.indent_loop</strong>, falls Sie eine flexiblere Einr&uuml;ckung ben&ouml;tigen.|,
+		lastUpdated => 1178716892
 	},
 
 	'mimeType description' => {
@@ -226,24 +227,9 @@ our $I18N = {
 		lastUpdated => 1178715798
 	},
 
-	'1093' => {
-		message => q|<p>Mit Navigation Assets k&ouml;nnen Sie Ansammlungen von Links erstellen, die es ihren Benutzern erm&ouml;glicht, auf ihrer Seite zu navigieren. Sie k&ouml;nnen eine Navigation konfigurieren, z.B. welche Seiten und wie diese von der Navigation dargestellt werden. Einige Standard Navigationen in WebGUI sind &quot;vertical&quot;, &quot;horizontal&quot; und &quot;crumbtrail&quot;. Diese Templates k&ouml;nnen oft durch CSS angepasst werden, um dem Style ihrer Seite zu entsprechen. Dies erspart einem das Umschreiben der Templates.</p><p>Das Navigation Asset kann auch dazu genutzt werden, XML Ausgaben zu erzeugen. Sie m&uuml;ssen nur den MIME Typ entsprechend setzen. Dies kann n&uuml;tzlich sein, um eine Google Sitemap oder RSS Feeds zu erstellen.&nbsp;</p>|,
-		lastUpdated => 1178711424
-	},
-
 	'navigation asset template variables title' => {
 		message => q|Navigation Asset Template Variablen<br />|,
 		lastUpdated => 1170408994
-	},
-
-	'startPoint' => {
-		message => q|Abh&auml;ngig vom Starttyp; dies gibt an von welcher Seite an die Navigation Assets auflistet.|,
-		lastUpdated => 1178718297
-	},
-
-	'page.parent.assetId' => {
-		message => q|Die assetId der Mutter dieser Seite.|,
-		lastUpdated => 1178717568
 	},
 
 	'page_loop' => {
@@ -251,19 +237,24 @@ our $I18N = {
 		lastUpdated => 1178717915
 	},
 
+	'page.parent.assetId' => {
+		message => q|Die assetId der Mutter dieser Seite.|,
+		lastUpdated => 1178717568
+	},
+
+	'startPoint' => {
+		message => q|Abh&auml;ngig vom Starttyp; dies gibt an von welcher Seite an die Navigation Assets auflistet.|,
+		lastUpdated => 1178718297
+	},
+
 	'currentPage.isHome' => {
 		message => q|Bedingung, die angibt, ob die aktuelle Seite die Standard Seite dieser Homepage ist.|,
 		lastUpdated => 1178715640
 	},
 
-	'reversePageLoop' => {
-		message => q|Ist die Navigation so eingestellt, dass Sie Assets von oben nach unten (r&uuml;ckw&auml;rts) oder von oben nach unten darstellt. Falls wahr, dann von unten nach oben.|,
-		lastUpdated => 1178718117
-	},
-
-	'page.depthDiff_loop' => {
-		message => q|Schleife, die <strong>page.depthDiff</strong> mal durchlaufen wird, wenn <strong>page.depthDiff</strong> > 0 ist. Diese Schleife besitzt keine Schleifenvariablen.|,
-		lastUpdated => 1178716349
+	'currentPage.menuTitle' => {
+		message => q|Men&uuml;titel der aktuellen Seite|,
+		lastUpdated => 1178715662
 	},
 
 	'page.hasChild' => {
@@ -271,9 +262,14 @@ our $I18N = {
 		lastUpdated => 1178716568
 	},
 
-	'currentPage.menuTitle' => {
-		message => q|Men&uuml;titel der aktuellen Seite|,
-		lastUpdated => 1178715662
+	'page.depthDiff_loop' => {
+		message => q|Schleife, die <strong>page.depthDiff</strong> mal durchlaufen wird, wenn <strong>page.depthDiff</strong> > 0 ist. Diese Schleife besitzt keine Schleifenvariablen.|,
+		lastUpdated => 1178716349
+	},
+
+	'reversePageLoop' => {
+		message => q|Ist die Navigation so eingestellt, dass Sie Assets von oben nach unten (r&uuml;ckw&auml;rts) oder von oben nach unten darstellt. Falls wahr, dann von unten nach oben.|,
+		lastUpdated => 1178718117
 	},
 
 	'page.parent.menuTitle' => {
@@ -311,19 +307,14 @@ our $I18N = {
 		lastUpdated => 1178713354
 	},
 
-	'Ancestors' => {
-		message => q|Ancestors|,
-		lastUpdated => 1178712331
-	},
-
-	'1098' => {
-		message => q|Navigation hinzuf&uuml;gen/bearbeiten|,
-		lastUpdated => 1178711630
-	},
-
 	'Descendant End Point description' => {
 		message => q|Wie viele Ebenen unter dem Startpunkt soll die Navigation enden. D.h. wie viele Ebenen soll die Navigation - ausgehend vom Startpunkt - darstellen.|,
 		lastUpdated => 1178712397
+	},
+
+	'Ancestors' => {
+		message => q|Ancestors|,
+		lastUpdated => 1178712331
 	},
 
 	'Start Point description' => {
@@ -346,14 +337,14 @@ our $I18N = {
 		lastUpdated => 1178711602
 	},
 
-	'assetsToInclude' => {
-		message => q||,
-		lastUpdated => 
-	},
-
 	'30' => {
 		message => q|Zeige auch Systemseiten|,
 		lastUpdated => 1178711814
+	},
+
+	'assetsToInclude' => {
+		message => q||,
+		lastUpdated => 
 	},
 
 	'currentPage.synopsis' => {
@@ -401,14 +392,14 @@ our $I18N = {
 		lastUpdated => 1178717934
 	},
 
-	'page.isCurrent' => {
-		message => q|Bedingung, die angibt, ob diese Seite die aktuelle Seite ist.|,
-		lastUpdated => 1178717094
-	},
-
 	'page.absDepth' => {
 		message => q|Die absolute Tiefe dieser Seite (relativ zur Wurzel [Root]).|,
 		lastUpdated => 1178716115
+	},
+
+	'page.isCurrent' => {
+		message => q|Bedingung, die angibt, ob diese Seite die aktuelle Seite ist.|,
+		lastUpdated => 1178717094
 	},
 
 	'ancestorEndPoint' => {
@@ -426,14 +417,14 @@ our $I18N = {
 		lastUpdated => 1178717193
 	},
 
-	'currentPage.parentId' => {
-		message => q|Die assetId des Parents der aktuellen Seite.|,
-		lastUpdated => 1178715740
-	},
-
 	'page.parentId' => {
 		message => q|Die assetId der Elternseite dieser Seite.|,
 		lastUpdated => 1178717765
+	},
+
+	'currentPage.parentId' => {
+		message => q|Die assetId des Parents der aktuellen Seite.|,
+		lastUpdated => 1178715740
 	},
 
 	'page.isDescendent' => {
@@ -441,14 +432,14 @@ our $I18N = {
 		lastUpdated => 1178717153
 	},
 
-	'Specific URL' => {
-		message => q|Bestimmte URL|,
-		lastUpdated => 1178712991
-	},
-
 	'currentPage.newWindow' => {
 		message => q|Bedingung, die angibt, ob die aktuelle Seite in einem neuen Fenster ge&ouml;ffnet werden soll.|,
 		lastUpdated => 1178715691
+	},
+
+	'Specific URL' => {
+		message => q|Bestimmte URL|,
+		lastUpdated => 1178712991
 	},
 
 	'Descendant End Point' => {
@@ -456,14 +447,14 @@ our $I18N = {
 		lastUpdated => 1178712345
 	},
 
-	'22' => {
-		message => q|Navigation bearbeiten|,
-		lastUpdated => 1178711639
-	},
-
 	'page.isSystem' => {
 		message => q|Bedingung, die angibt, ob diese Seite eine Systemseite ist (M&uuml;lleimer, Zwischenablage, etc.).|,
 		lastUpdated => 1178717339
+	},
+
+	'22' => {
+		message => q|Navigation bearbeiten|,
+		lastUpdated => 1178711639
 	},
 
 	'page.menuTitle' => {
@@ -471,24 +462,14 @@ our $I18N = {
 		lastUpdated => 1178717518
 	},
 
-	'1096 description' => {
-		message => q|W&auml;hlen Sie ein Template, das f&uuml;r die Darstellung ihrer Navigation benutzt wird|,
-		lastUpdated => 1178711490
-	},
-
 	'page.relDepth' => {
 		message => q|Die relative Tiefe dieser Seite (relativ zum Startpunkt).|,
 		lastUpdated => 1178717814
 	},
 
-	'page.parent.rank' => {
-		message => q|Der Rang der Mutter dieser Seite.|,
-		lastUpdated => 1178717672
-	},
-
-	'Relatives To Include' => {
-		message => q||,
-		lastUpdated => 1178712911
+	'1096 description' => {
+		message => q|W&auml;hlen Sie ein Template, das f&uuml;r die Darstellung ihrer Navigation benutzt wird|,
+		lastUpdated => 1178711490
 	},
 
 	'page.synopsis' => {
@@ -496,14 +477,24 @@ our $I18N = {
 		lastUpdated => 1178717854
 	},
 
+	'Relatives To Include' => {
+		message => q||,
+		lastUpdated => 1178712911
+	},
+
+	'page.parent.rank' => {
+		message => q|Der Rang der Mutter dieser Seite.|,
+		lastUpdated => 1178717672
+	},
+
 	'currentPage.hasViewableChildren' => {
 		message => q|Bedingung, die angibt, ob die aktuelle Seite Kindseiten (untergeordnete Seite) besitzt, die der aktuelle Benutzer sehen darf.|,
 		lastUpdated => 1178713423
 	},
 
-	'startType' => {
-		message => q|Zeichenkette, die beschreibt, wie der Navigation mitgeteilt wird, wo sie beginnen soll darzustellende Assets zu finden: "specificUrl", "relativeToCurrentUrl", "relativeToRoot"|,
-		lastUpdated => 1178718408
+	'page.ownerUserId' => {
+		message => q|Die userId des Besitzers dieser Seite.|,
+		lastUpdated => 1178717556
 	},
 
 	'templateId' => {
@@ -511,9 +502,9 @@ our $I18N = {
 		lastUpdated => 1178718435
 	},
 
-	'page.ownerUserId' => {
-		message => q|Die userId des Besitzers dieser Seite.|,
-		lastUpdated => 1178717556
+	'startType' => {
+		message => q|Zeichenkette, die beschreibt, wie der Navigation mitgeteilt wird, wo sie beginnen soll darzustellende Assets zu finden: "specificUrl", "relativeToCurrentUrl", "relativeToRoot"|,
+		lastUpdated => 1178718408
 	},
 
 	'31 description' => {
@@ -531,19 +522,19 @@ our $I18N = {
 		lastUpdated => 1178717076
 	},
 
-	'page.isAncestor' => {
-		message => q|Bedingung, die angibt, ob diese Seite ein Ancestor der aktuellen Seite ist.|,
-		lastUpdated => 1178716959
-	},
-
 	'page.isUtility' => {
 		message => q|Bedingung, die angibt, ob diese Seite ein Utility Asset ist. Utility Assets sind Assets, die typischerweise nicht direkt angesehen werden k&ouml;nnen wie z.B. Bilder, Dateien, Templates und Rich Editoren.|,
 		lastUpdated => 1178717466
 	},
 
-	'navigation asset template variables body' => {
-		message => q|Jedes Asset bietet ihren Templates einen Satz an Variablen, die auf den Asset Eigenschaften basieren. Einige dieser Variablen k&ouml;nnen n&uuml;tzlich sein, andere nicht.|,
-		lastUpdated => 1170408978
+	'page.isAncestor' => {
+		message => q|Bedingung, die angibt, ob diese Seite ein Ancestor der aktuellen Seite ist.|,
+		lastUpdated => 1178716959
+	},
+
+	'page.inBranchRoot' => {
+		message => q|Bedingung, die wahr ist, falls die Seite ein Descendant der Root Seite der aktuellen Seite ist.|,
+		lastUpdated => 1178716760
 	},
 
 	'page.parent.ownerUserId' => {
@@ -551,9 +542,9 @@ our $I18N = {
 		lastUpdated => 1178717638
 	},
 
-	'page.inBranchRoot' => {
-		message => q|Bedingung, die wahr ist, falls die Seite ein Descendant der Root Seite der aktuellen Seite ist.|,
-		lastUpdated => 1178716760
+	'navigation asset template variables body' => {
+		message => q|Jedes Asset bietet ihren Templates einen Satz an Variablen, die auf den Asset Eigenschaften basieren. Einige dieser Variablen k&ouml;nnen n&uuml;tzlich sein, andere nicht.|,
+		lastUpdated => 1170408978
 	},
 
 	'currentPage.rank' => {

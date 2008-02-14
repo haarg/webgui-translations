@@ -1,12 +1,13 @@
 package WebGUI::i18n::Italian::Asset_InOutBoard;
 
+
 our $I18N = {
-	'17 description' => {
+	'department' => {
 		message => q||,
 		lastUpdated => 
 	},
 
-	'department' => {
+	'17 description' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -16,12 +17,12 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'7' => {
+	'form' => {
 		message => q||,
 		lastUpdated => 
 	},
 
-	'form' => {
+	'7' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -36,7 +37,7 @@ our $I18N = {
 		lastUpdated => 1156615849
 	},
 
-	'18' => {
+	'1 description' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -46,17 +47,12 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'1 description' => {
+	'13 description' => {
 		message => q||,
 		lastUpdated => 
 	},
 
 	'16' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'13 description' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -81,12 +77,7 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'HR' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'IT' => {
+	'20' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -96,7 +87,12 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'20' => {
+	'IT' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'HR' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -162,11 +158,6 @@ our $I18N = {
 	},
 
 	'delegate description' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'19' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -321,17 +312,17 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'date label' => {
-		message => q||,
-		lastUpdated => 
-	},
-
 	'status.label' => {
 		message => q||,
 		lastUpdated => 
 	},
 
-	'in/out status delegates description' => {
+	'date label' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'6' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -341,7 +332,7 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'6' => {
+	'in/out status delegates description' => {
 		message => q||,
 		lastUpdated => 
 	},

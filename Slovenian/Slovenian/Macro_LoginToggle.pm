@@ -1,14 +1,10 @@
 package WebGUI::i18n::Slovenian::Macro_LoginToggle;
 
+
 our $I18N = {
 	'716' => {
 		message => q|Prijavi se|,
 		lastUpdated => 1178485771
-	},
-
-	'login toggle body' => {
-		message => q||,
-		lastUpdated => 
 	},
 
 	'717' => {

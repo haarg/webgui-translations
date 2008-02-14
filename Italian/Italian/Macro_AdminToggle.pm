@@ -1,5 +1,6 @@
 package WebGUI::i18n::Italian::Macro_AdminToggle;
 
+
 our $I18N = {
 	'516' => {
 		message => q|Abilita l&#39;amministrazione!|,
@@ -11,7 +12,7 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'517' => {
+	'macroName' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -21,17 +22,12 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'macroName' => {
+	'517' => {
 		message => q||,
 		lastUpdated => 
 	},
 
 	'toggle.text' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'admin toggle body' => {
 		message => q||,
 		lastUpdated => 
 	},

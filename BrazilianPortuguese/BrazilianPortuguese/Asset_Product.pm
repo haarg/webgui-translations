@@ -1,24 +1,20 @@
 package WebGUI::i18n::BrazilianPortuguese::Asset_Product;
 
-our $I18N = {
-	'32' => {
-		message => q|Acessórios|,
-		lastUpdated => 1080072429
-	},
 
+our $I18N = {
 	'33' => {
 		message => q|Produtos Relacionados|,
 		lastUpdated => 1080072436
 	},
 
+	'32' => {
+		message => q|Acessórios|,
+		lastUpdated => 1080072429
+	},
+
 	'21' => {
 		message => q|Adicionar outro produto relacionado?|,
 		lastUpdated => 1080072226
-	},
-
-	'63' => {
-		message => q||,
-		lastUpdated => 
 	},
 
 	'7' => {
@@ -31,19 +27,14 @@ our $I18N = {
 		lastUpdated => 1080323512
 	},
 
-	'2' => {
-		message => q|Você tem certeza de que quer apagar o relacionamento para este acessório?|,
-		lastUpdated => 1080072205
-	},
-
 	'17' => {
 		message => q|Acessório|,
 		lastUpdated => 1080072150
 	},
 
-	'1' => {
-		message => q|Produto|,
-		lastUpdated => 1080072012
+	'2' => {
+		message => q|Você tem certeza de que quer apagar o relacionamento para este acessório?|,
+		lastUpdated => 1080072205
 	},
 
 	'18' => {
@@ -59,11 +50,6 @@ our $I18N = {
 	'16' => {
 		message => q|Adicionar Acessório|,
 		lastUpdated => 1080072142
-	},
-
-	'44' => {
-		message => q|Acessório de Produto, Adicionar/Editar|,
-		lastUpdated => 1080072568
 	},
 
 	'55' => {
@@ -91,9 +77,9 @@ our $I18N = {
 		lastUpdated => 1080073320
 	},
 
-	'40' => {
-		message => q|Característica do Produto, Adicionar/Editar|,
-		lastUpdated => 1080072516
+	'20' => {
+		message => q|Produto Relacionado|,
+		lastUpdated => 1080072214
 	},
 
 	'14' => {
@@ -101,19 +87,9 @@ our $I18N = {
 		lastUpdated => 1080072129
 	},
 
-	'20' => {
-		message => q|Produto Relacionado|,
-		lastUpdated => 1080072214
-	},
-
 	'59' => {
 		message => q|Nome|,
 		lastUpdated => 1080073340
-	},
-
-	'49' => {
-		message => q|Vantagem do Produto, Adicionar/Editar|,
-		lastUpdated => 1096145828
 	},
 
 	'24' => {
@@ -151,29 +127,19 @@ our $I18N = {
 		lastUpdated => 1080231782
 	},
 
-	'42' => {
-		message => q|Especificação do Produto, Adicionar/Editar|,
-		lastUpdated => 1080072536
-	},
-
 	'22' => {
 		message => q|Editar Característica|,
 		lastUpdated => 1080072376
 	},
 
-	'46' => {
-		message => q|Produto (Relacionado), Adicionar/Editar|,
-		lastUpdated => 1080072590
+	'13' => {
+		message => q|Material Informativo|,
+		lastUpdated => 1080072123
 	},
 
 	'23' => {
 		message => q|Característica|,
 		lastUpdated => 1080072396
-	},
-
-	'13' => {
-		message => q|Material Informativo|,
-		lastUpdated => 1080072123
 	},
 
 	'29' => {
@@ -186,14 +152,9 @@ our $I18N = {
 		lastUpdated => 1080073351
 	},
 
-	'50' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'39' => {
-		message => q||,
-		lastUpdated => 
+	'36' => {
+		message => q|Adicionar um acessório.|,
+		lastUpdated => 1080072464
 	},
 
 	'3' => {
@@ -201,9 +162,9 @@ our $I18N = {
 		lastUpdated => 1080072338
 	},
 
-	'36' => {
-		message => q|Adicionar um acessório.|,
-		lastUpdated => 1080072464
+	'51' => {
+		message => q|Vantagem|,
+		lastUpdated => 1080073148
 	},
 
 	'9' => {
@@ -211,19 +172,9 @@ our $I18N = {
 		lastUpdated => 1080073444
 	},
 
-	'51' => {
-		message => q|Vantagem|,
-		lastUpdated => 1080073148
-	},
-
 	'58' => {
 		message => q|Editar Modelo de Produto|,
 		lastUpdated => 1080073330
-	},
-
-	'41' => {
-		message => q||,
-		lastUpdated => 
 	},
 
 	'15' => {
@@ -231,9 +182,9 @@ our $I18N = {
 		lastUpdated => 1080072134
 	},
 
-	'47' => {
-		message => q||,
-		lastUpdated => 
+	'52' => {
+		message => q|Adicionar outra vantagem?|,
+		lastUpdated => 1080073171
 	},
 
 	'8' => {
@@ -241,24 +192,14 @@ our $I18N = {
 		lastUpdated => 1080073436
 	},
 
-	'52' => {
-		message => q|Adicionar outra vantagem?|,
-		lastUpdated => 1080073171
-	},
-
-	'38' => {
-		message => q|Produto, Adicionar/Editar|,
-		lastUpdated => 1080072478
+	'60' => {
+		message => q|Modelo|,
+		lastUpdated => 1080073385
 	},
 
 	'4' => {
 		message => q|Você tem certeza de que quer apagar o relacionamento para este produto relacionado?|,
 		lastUpdated => 1080072501
-	},
-
-	'60' => {
-		message => q|Modelo|,
-		lastUpdated => 1080073385
 	},
 
 	'34' => {
@@ -276,19 +217,9 @@ our $I18N = {
 		lastUpdated => 1080072471
 	},
 
-	'45' => {
-		message => q||,
-		lastUpdated => 
-	},
-
 	'19' => {
 		message => q|Adicionar Produto Relacionado|,
 		lastUpdated => 1080072171
-	},
-
-	'43' => {
-		message => q||,
-		lastUpdated => 
 	},
 
 	'62' => {
@@ -296,14 +227,14 @@ our $I18N = {
 		lastUpdated => 1080073396
 	},
 
-	'5' => {
-		message => q|Você tem certeza de que quer apagar esta especificação?|,
-		lastUpdated => 1080072655
-	},
-
 	'54' => {
 		message => q|Vantagens|,
 		lastUpdated => 1080073233
+	},
+
+	'5' => {
+		message => q|Você tem certeza de que quer apagar esta especificação?|,
+		lastUpdated => 1080072655
 	},
 
 };

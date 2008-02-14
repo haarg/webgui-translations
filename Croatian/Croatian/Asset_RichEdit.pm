@@ -1,5 +1,6 @@
 package WebGUI::i18n::Croatian::Asset_RichEdit;
 
+
 our $I18N = {
 	'disable rich edit' => {
 		message => q||,
@@ -11,22 +12,22 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'styleselect' => {
-		message => q||,
-		lastUpdated => 
-	},
-
 	'underline' => {
 		message => q||,
 		lastUpdated => 
 	},
 
-	'print' => {
+	'styleselect' => {
 		message => q||,
 		lastUpdated => 
 	},
 
 	'italic' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'print' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -41,12 +42,7 @@ our $I18N = {
 		lastUpdated => 1180017361
 	},
 
-	'code' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'formatselect' => {
+	'toolbar buttons' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -56,7 +52,12 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'toolbar buttons' => {
+	'code' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'formatselect' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -81,7 +82,7 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'row 3' => {
+	'bullist' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -91,7 +92,7 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'bullist' => {
+	'row 3' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -106,12 +107,12 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'top' => {
+	'directionality' => {
 		message => q||,
 		lastUpdated => 
 	},
 
-	'directionality' => {
+	'top' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -181,22 +182,22 @@ our $I18N = {
 		lastUpdated => 1180017331
 	},
 
-	'using rich edit' => {
-		message => q||,
-		lastUpdated => 
-	},
-
 	'bottom' => {
 		message => q||,
 		lastUpdated => 
 	},
 
-	'editor height description' => {
+	'using rich edit' => {
 		message => q||,
 		lastUpdated => 
 	},
 
 	'image' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'editor height description' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -281,11 +282,6 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'rich edit add/edit body' => {
-		message => q||,
-		lastUpdated => 
-	},
-
 	'row 1' => {
 		message => q||,
 		lastUpdated => 
@@ -321,7 +317,7 @@ our $I18N = {
 		lastUpdated => 1180017350
 	},
 
-	'rich edit add/edit title' => {
+	'justifyfull' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -331,19 +327,14 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'justifyfull' => {
-		message => q||,
-		lastUpdated => 
+	'advhr' => {
+		message => q|dfdfdf|,
+		lastUpdated => 1180017355
 	},
 
 	'outdent' => {
 		message => q||,
 		lastUpdated => 
-	},
-
-	'advhr' => {
-		message => q|dfdfdf|,
-		lastUpdated => 1180017355
 	},
 
 	'justifycenter' => {
@@ -356,17 +347,12 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'no dictionaries' => {
-		message => q||,
-		lastUpdated => 
-	},
-
 	'hr' => {
 		message => q||,
 		lastUpdated => 
 	},
 
-	'source editor width description' => {
+	'no dictionaries' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -376,7 +362,17 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'charmap' => {
+	'source editor width description' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'pagetree' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'pasteword' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -386,12 +382,7 @@ our $I18N = {
 		lastUpdated => 1180017343
 	},
 
-	'pasteword' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'pagetree' => {
+	'charmap' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -431,12 +422,12 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'no wrap description' => {
+	'toolbar location' => {
 		message => q||,
 		lastUpdated => 
 	},
 
-	'toolbar location' => {
+	'no wrap description' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -461,12 +452,12 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'fontselect' => {
+	'link' => {
 		message => q||,
 		lastUpdated => 
 	},
 
-	'link' => {
+	'fontselect' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -501,12 +492,12 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'directionality description' => {
+	'insertdate' => {
 		message => q||,
 		lastUpdated => 
 	},
 
-	'insertdate' => {
+	'directionality description' => {
 		message => q||,
 		lastUpdated => 
 	},

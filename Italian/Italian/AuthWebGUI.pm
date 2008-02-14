@@ -1,12 +1,13 @@
 package WebGUI::i18n::Italian::AuthWebGUI;
 
+
 our $I18N = {
-	'expired.message' => {
+	'21' => {
 		message => q||,
 		lastUpdated => 
 	},
 
-	'21' => {
+	'expired.message' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -21,11 +22,6 @@ our $I18N = {
 		lastUpdated => 1156595463
 	},
 
-	'anon reg template body' => {
-		message => q||,
-		lastUpdated => 
-	},
-
 	'account.form.passwordConfirm.label' => {
 		message => q||,
 		lastUpdated => 1156595496
@@ -36,12 +32,12 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'create.message' => {
+	'expired.form.passwordConfirm.label' => {
 		message => q||,
 		lastUpdated => 
 	},
 
-	'expired.form.passwordConfirm.label' => {
+	'create.message' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -56,12 +52,12 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'account.nofields' => {
+	'18' => {
 		message => q||,
 		lastUpdated => 
 	},
 
-	'18' => {
+	'account.nofields' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -71,17 +67,12 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'16' => {
-		message => q||,
-		lastUpdated => 
-	},
-
 	'password recovery template' => {
 		message => q||,
 		lastUpdated => 
 	},
 
-	'account.form.password' => {
+	'16' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -89,6 +80,11 @@ our $I18N = {
 	'email address validation email subject' => {
 		message => q|Attivazione account La mela di Newton|,
 		lastUpdated => 1157552303
+	},
+
+	'account.form.password' => {
+		message => q||,
+		lastUpdated => 
 	},
 
 	'recoverFormUsernameLabel' => {
@@ -101,14 +97,14 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'create account template' => {
-		message => q||,
-		lastUpdated => 
-	},
-
 	'captcha failure' => {
 		message => q|Devi inserire i sei caratteri che vedi nell&#39;immagine. Si tratta di un controllo per stabilire l&#39;autenticit&agrave; della registrazione.|,
 		lastUpdated => 1157550302
+	},
+
+	'create account template' => {
+		message => q||,
+		lastUpdated => 
 	},
 
 	'20' => {
@@ -131,12 +127,7 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'10' => {
-		message => q|Vecchia password|,
-		lastUpdated => 1156595254
-	},
-
-	'account.form.passwordConfirm' => {
+	'title' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -146,17 +137,17 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'title' => {
+	'account.form.passwordConfirm' => {
 		message => q||,
 		lastUpdated => 
+	},
+
+	'10' => {
+		message => q|Vecchia password|,
+		lastUpdated => 1156595254
 	},
 
 	'expired.form.password.label' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'deactivate account template body' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -166,17 +157,12 @@ our $I18N = {
 		lastUpdated => 1156595261
 	},
 
-	'password recovery multiple results' => {
-		message => q||,
-		lastUpdated => 
-	},
-
 	'recoverFormProfile id' => {
 		message => q||,
 		lastUpdated => 
 	},
 
-	'expired template body' => {
+	'password recovery multiple results' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -186,7 +172,7 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'create.form.passwordConfirm' => {
+	'webguiPasswordRecovery hoverHelp' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -196,7 +182,7 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'webguiPasswordRecovery hoverHelp' => {
+	'create.form.passwordConfirm' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -211,12 +197,12 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'deactivate account template title' => {
+	'login template' => {
 		message => q||,
 		lastUpdated => 
 	},
 
-	'login template' => {
+	'deactivate account template title' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -226,12 +212,12 @@ our $I18N = {
 		lastUpdated => 1156595275
 	},
 
-	'15' => {
+	'use captcha' => {
 		message => q||,
 		lastUpdated => 
 	},
 
-	'use captcha' => {
+	'15' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -326,12 +312,12 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'create.form.password' => {
+	'recoverFormUsername' => {
 		message => q||,
 		lastUpdated => 
 	},
 
-	'recoverFormUsername' => {
+	'create.form.password' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -341,7 +327,7 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'14' => {
+	'login.form.email.label' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -351,12 +337,7 @@ our $I18N = {
 		lastUpdated => 1173107482
 	},
 
-	'login.form.email.label' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'no registration hack' => {
+	'14' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -366,7 +347,7 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'password recovery no username' => {
+	'no registration hack' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -376,12 +357,17 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'create.form.username' => {
+	'password recovery no username' => {
 		message => q||,
 		lastUpdated => 
 	},
 
 	'login.url' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'create.form.username' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -396,7 +382,7 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'account.form.username.label' => {
+	'recover.form.hidden' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -406,7 +392,7 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'recover.form.hidden' => {
+	'account.form.username.label' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -426,24 +412,19 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'login template body' => {
-		message => q||,
-		lastUpdated => 
-	},
-
 	'captcha label' => {
 		message => q|Inserisci il codice di controllo|,
 		lastUpdated => 1157550102
 	},
 
-	'topicName' => {
-		message => q||,
-		lastUpdated => 
-	},
-
 	'22' => {
 		message => q|Non ci sono campi da aggiornare.|,
 		lastUpdated => 1156595345
+	},
+
+	'topicName' => {
+		message => q||,
+		lastUpdated => 
 	},
 
 	'13' => {
@@ -461,14 +442,14 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'account template' => {
-		message => q||,
-		lastUpdated => 
-	},
-
 	'3' => {
 		message => q|Le tue password non corrispondono. Per favore riprova.|,
 		lastUpdated => 1156595366
+	},
+
+	'account template' => {
+		message => q||,
+		lastUpdated => 
 	},
 
 	'recoverFormProfile' => {
@@ -481,12 +462,17 @@ our $I18N = {
 		lastUpdated => 
 	},
 
+	'recover.form.header' => {
+		message => q||,
+		lastUpdated => 
+	},
+
 	'expired.form.hidden' => {
 		message => q||,
 		lastUpdated => 
 	},
 
-	'recover.form.header' => {
+	'createAccount.label' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -496,7 +482,7 @@ our $I18N = {
 		lastUpdated => 1156595476
 	},
 
-	'createAccount.label' => {
+	'recover.form.footer' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -506,22 +492,7 @@ our $I18N = {
 		lastUpdated => 1156595400
 	},
 
-	'recover.form.footer' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'display account template body' => {
-		message => q||,
-		lastUpdated => 
-	},
-
 	'webguiPasswordRecoveryRequireUsername hoverHelp' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'recovery template body' => {
 		message => q||,
 		lastUpdated => 
 	},

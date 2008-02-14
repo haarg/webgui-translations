@@ -1,5 +1,6 @@
 package WebGUI::i18n::BrazilianPortuguese::Asset_Calendar;
 
+
 our $I18N = {
 	'templateIdWeek description' => {
 		message => q||,
@@ -11,22 +12,22 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'assetName' => {
-		message => q|Calendário|,
-		lastUpdated => 1168971352
-	},
-
 	'locale' => {
 		message => q|pt_BR|,
 		lastUpdated => 1168971381
 	},
 
-	'templateIdEventEdit description' => {
+	'assetName' => {
+		message => q|Calendário|,
+		lastUpdated => 1168971352
+	},
+
+	'subscriberNotifyOffset label' => {
 		message => q||,
 		lastUpdated => 
 	},
 
-	'subscriberNotifyOffset label' => {
+	'templateIdEventEdit description' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -46,17 +47,17 @@ our $I18N = {
 		lastUpdated => 
 	},
 
+	'defaultDate value last' => {
+		message => q||,
+		lastUpdated => 
+	},
+
 	'templateIdPrintMonth label' => {
 		message => q||,
 		lastUpdated => 
 	},
 
 	'groupIdEventEdit description' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'defaultDate value last' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -86,12 +87,7 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'templateIdPrintWeek description' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'defaultView description' => {
+	'defaultDate value current' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -101,7 +97,12 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'defaultDate value current' => {
+	'defaultView description' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'templateIdPrintWeek description' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -122,11 +123,6 @@ our $I18N = {
 	},
 
 	'templateIdEvent description' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'add/edit body' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -171,17 +167,12 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'add/edit title' => {
-		message => q|Calendário, Adicionar/Editar|,
-		lastUpdated => 1168971346
-	},
-
-	'defaultDate value first' => {
+	'templateIdWeek label' => {
 		message => q||,
 		lastUpdated => 
 	},
 
-	'templateIdWeek label' => {
+	'defaultDate value first' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -191,22 +182,22 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'visitorCacheTimeout label' => {
-		message => q||,
-		lastUpdated => 
-	},
-
 	'templateIdEventEdit label' => {
 		message => q||,
 		lastUpdated => 
 	},
 
-	'groupIdEventEdit label' => {
+	'visitorCacheTimeout label' => {
 		message => q||,
 		lastUpdated => 
 	},
 
 	'templateIdMonth description' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'groupIdEventEdit label' => {
 		message => q||,
 		lastUpdated => 
 	},

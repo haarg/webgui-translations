@@ -1,14 +1,15 @@
 package WebGUI::i18n::German::Asset_InOutBoard;
 
-our $I18N = {
-	'17 description' => {
-		message => q|Mittels des Enddatums k&ouml;nne Sie die Gr&ouml;&szlig;e ihres Reports verringern. &Auml;nderungen nach dem Enddatum werden im Report nicht angezeigt.|,
-		lastUpdated => 1180083674
-	},
 
+our $I18N = {
 	'department' => {
 		message => q|Variable, die die Abteilung des Benutzers zur&uuml;ckgibt. Falls keine Abteilung f&uuml;r diesen Benutzer definiert ist, wird ein internationaliertes Label f&uuml;r "No Department" zur&uuml;ckgegeben.|,
 		lastUpdated => 1180084910
+	},
+
+	'17 description' => {
+		message => q|Mittels des Enddatums k&ouml;nne Sie die Gr&ouml;&szlig;e ihres Reports verringern. &Auml;nderungen nach dem Enddatum werden im Report nicht angezeigt.|,
+		lastUpdated => 1180083674
 	},
 
 	'21' => {
@@ -16,14 +17,14 @@ our $I18N = {
 		lastUpdated => 1180084254
 	},
 
-	'7' => {
-		message => q|Keine Abteilung|,
-		lastUpdated => 1180084527
-	},
-
 	'form' => {
 		message => q|Variable, die HTML f&uuml;r die Anzeige eines In/Out Formulareintrages f&uuml;r die Aktualisierung des Status des aktuellen oder eines anderen Benutzers enth&auml;lt.|,
 		lastUpdated => 1180085252
+	},
+
+	'7' => {
+		message => q|Keine Abteilung|,
+		lastUpdated => 1180084527
 	},
 
 	'message.label' => {
@@ -46,9 +47,9 @@ our $I18N = {
 		lastUpdated => 1180084550
 	},
 
-	'18' => {
-		message => q|In/Out Board hinzuf&uuml;gen/bearbeiten|,
-		lastUpdated => 1180083208
+	'1 description' => {
+		message => q|Die Status Liste erlaubt es ihnen, die Stati der Benutzer anzupassen. Zum Beispiel die Stati 'In' oder 'Out'.|,
+		lastUpdated => 1180082838
 	},
 
 	'all departments' => {
@@ -56,19 +57,9 @@ our $I18N = {
 		lastUpdated => 1180084618
 	},
 
-	'1 description' => {
-		message => q|Die Status Liste erlaubt es ihnen, die Stati der Benutzer anzupassen. Zum Beispiel die Stati 'In' oder 'Out'.|,
-		lastUpdated => 1180082838
-	},
-
 	'paginateAfter' => {
 		message => q|Anzahl der Reihen, die auf einer Seite im Haupt In/Out Board dargestellt werden sollen.|,
 		lastUpdated => 1180085648
-	},
-
-	'16' => {
-		message => q|Startdatum|,
-		lastUpdated => 1180083102
 	},
 
 	'13 description' => {
@@ -76,19 +67,19 @@ our $I18N = {
 		lastUpdated => 1180082960
 	},
 
+	'16' => {
+		message => q|Startdatum|,
+		lastUpdated => 1180083102
+	},
+
 	'reportTitleLabel' => {
 		message => q|Das internationalisierte Label f&uuml;r den In/Out Board Report.|,
 		lastUpdated => 1180085940
 	},
 
-	'inOutTemplateId' => {
-		message => q|Die ID des Templates, das f&uuml;r die Anzeige des In/Out Boards benutzt wird (main screen).|,
-		lastUpdated => 1180085535
-	},
-
-	'inOutGroup' => {
-		message => q|Die ID der Gruppe, die dieses In/Out Board nutzen darf.|,
-		lastUpdated => 1180085457
+	'username.label' => {
+		message => q|Das interantionalisierte Label f&uuml;r die "Username" Spalte des Reports.|,
+		lastUpdated => 1180086832
 	},
 
 	'dateStamp' => {
@@ -96,9 +87,14 @@ our $I18N = {
 		lastUpdated => 1180084796
 	},
 
-	'username.label' => {
-		message => q|Das interantionalisierte Label f&uuml;r die "Username" Spalte des Reports.|,
-		lastUpdated => 1180086832
+	'inOutGroup' => {
+		message => q|Die ID der Gruppe, die dieses In/Out Board nutzen darf.|,
+		lastUpdated => 1180085457
+	},
+
+	'inOutTemplateId' => {
+		message => q|Die ID des Templates, das f&uuml;r die Anzeige des In/Out Boards benutzt wird (main screen).|,
+		lastUpdated => 1180085535
 	},
 
 	'In Out Template description' => {
@@ -111,14 +107,9 @@ our $I18N = {
 		lastUpdated => 1180086153
 	},
 
-	'HR' => {
-		message => q|HR|,
-		lastUpdated => 1180084559
-	},
-
-	'IT' => {
-		message => q|IT|,
-		lastUpdated => 1180084565
+	'20' => {
+		message => q|In/Out Board Template|,
+		lastUpdated => 1180083721
 	},
 
 	'username' => {
@@ -126,9 +117,14 @@ our $I18N = {
 		lastUpdated => 1180086794
 	},
 
-	'20' => {
-		message => q|In/Out Board Template|,
-		lastUpdated => 1180083721
+	'IT' => {
+		message => q|IT|,
+		lastUpdated => 1180084565
+	},
+
+	'HR' => {
+		message => q|HR|,
+		lastUpdated => 1180084559
 	},
 
 	'10' => {
@@ -171,19 +167,19 @@ our $I18N = {
 		lastUpdated => 1180082935
 	},
 
-	'filter departments description' => {
-		message => q|Jedes In/Out Board kann f&uuml;r mehrere Abteilungen konfiguriert sein. Standardm&auml;&szlig;ig werden alle Abteilungen im Report angezeigt. Sie k&ouml;nnen aber eine Abteilung ausw&auml;hlen, um den Status Report nur f&uuml;r diese Abteilung ausgeben zu lassen.|,
-		lastUpdated => 1180085142
-	},
-
 	'12' => {
 		message => q|Seitenaufteilung nach|,
 		lastUpdated => 1180082860
 	},
 
-	'viewReportLabel' => {
-		message => q|Der internationalisierte Titel f&uuml;r die URL zum Anschauen des Reports.|,
-		lastUpdated => 1180086860
+	'filter departments description' => {
+		message => q|Jedes In/Out Board kann f&uuml;r mehrere Abteilungen konfiguriert sein. Standardm&auml;&szlig;ig werden alle Abteilungen im Report angezeigt. Sie k&ouml;nnen aber eine Abteilung ausw&auml;hlen, um den Status Report nur f&uuml;r diese Abteilung ausgeben zu lassen.|,
+		lastUpdated => 1180085142
+	},
+
+	'viewReportURL' => {
+		message => q|URL zum Anschauen der Report Seite.|,
+		lastUpdated => 1180086886
 	},
 
 	'15' => {
@@ -191,9 +187,9 @@ our $I18N = {
 		lastUpdated => 1180083064
 	},
 
-	'viewReportURL' => {
-		message => q|URL zum Anschauen der Report Seite.|,
-		lastUpdated => 1180086886
+	'viewReportLabel' => {
+		message => q|Der internationalisierte Titel f&uuml;r die URL zum Anschauen des Reports.|,
+		lastUpdated => 1180086860
 	},
 
 	'selectDelegatesURL' => {
@@ -204,11 +200,6 @@ our $I18N = {
 	'delegate description' => {
 		message => q|W&auml;hlen Sie einen Namen aus der Liste, falls Sie den Status eines anderen Benutzers &auml;ndern wollen.|,
 		lastUpdated => 1180084843
-	},
-
-	'19' => {
-		message => q|<p>Ein In/Out Board gibt ihnen eine &Uuml;berblick dar&uuml;ber, ob Personen aktuell im B&uuml;ro sind oder nicht (in/out of office). Es zeigt den aktuellen In/Out Status aller WebGUI Benuzter und protokolliert au&szlig;erdem den Grund, warum eine Person gegangen ist, die Zeit, zu der Sie gegangen ist und die R&uuml;ckkehrzeit. Das Protokoll kann auf zwei Arten dargestellt werden. Die erste Form ist eine Zusammenfassung des aktuellen Status aller Benutzer in der Gruppe, f&uuml;r die dieses In/Out Board konfiguriert wurde. Die zweite Form ist ein kompletter Report der Historie aller Status&auml;nderungen dieser Benutzer. Dieser Report kann so aufgesetzt werden, dass nicht jeder darauf zugreifen kann. Au&szlig;erdem kann man dessen Anzeige mittels Templates anpassen.</p><p>Benutzer eines In/Out Boards k&ouml;nnen andere Benutzer bestimmen, die ihren Status &auml;ndern d&uuml;rfen (Delegates). <br /></p>|,
-		lastUpdated => 1180083660
 	},
 
 	'updatedBy label' => {
@@ -316,14 +307,14 @@ our $I18N = {
 		lastUpdated => 1180084445
 	},
 
-	'Regular Staff' => {
-		message => q|regul&auml;rer Angestellter|,
-		lastUpdated => 1180084606
-	},
-
 	'14' => {
 		message => q|Teile Report in Seiten auf nach|,
 		lastUpdated => 1180082985
+	},
+
+	'Regular Staff' => {
+		message => q|regul&auml;rer Angestellter|,
+		lastUpdated => 1180084606
 	},
 
 	'inOutGroup description' => {
@@ -346,14 +337,14 @@ our $I18N = {
 		lastUpdated => 1180084356
 	},
 
-	'username label' => {
-		message => q|Benutzername|,
-		lastUpdated => 1180086802
-	},
-
 	'canViewReport' => {
 		message => q|Bedingung, die anzeigt, ob die viewReportURL Variable gesetzt wird.|,
 		lastUpdated => 1180084654
+	},
+
+	'username label' => {
+		message => q|Benutzername|,
+		lastUpdated => 1180086802
 	},
 
 	'status' => {
@@ -366,19 +357,14 @@ our $I18N = {
 		lastUpdated => 1180084272
 	},
 
-	'23' => {
-		message => q|Die folgenden Variablen werden vom In/Out Board Report Template zur Verf&uuml;gung gestellt:|,
-		lastUpdated => 1180084301
-	},
-
 	'13' => {
 		message => q|Report Template|,
 		lastUpdated => 1180010973
 	},
 
-	'date label' => {
-		message => q|Datum|,
-		lastUpdated => 1180084716
+	'23' => {
+		message => q|Die folgenden Variablen werden vom In/Out Board Report Template zur Verf&uuml;gung gestellt:|,
+		lastUpdated => 1180084301
 	},
 
 	'status.label' => {
@@ -386,14 +372,9 @@ our $I18N = {
 		lastUpdated => 1180086624
 	},
 
-	'in/out status delegates description' => {
-		message => q|Benutzen Sie dieses Formular, um Benutzer auszuw&auml;hlen, die ihren Status im In/Out Board &auml;ndern d&uuml;rfen. Alle Benutzer, die sie schon ausgew&auml;hlt haben sind vorgew&auml;hlt. Um Benutzer zu entfernen, entfernen Sie deren Markierung.|,
-		lastUpdated => 1180085395
-	},
-
-	'14 description' => {
-		message => q|W&auml;hlen Sie, wie viele Zeilen des Reports auf einer Seite dargestellt werden sollen. Es werden ihnen Links zur Verf&uuml;gung gestellt, um die anderen Seiten des Reports erreichen zu k&ouml;nnen.|,
-		lastUpdated => 1180083051
+	'date label' => {
+		message => q|Datum|,
+		lastUpdated => 1180084716
 	},
 
 	'6' => {
@@ -401,19 +382,29 @@ our $I18N = {
 		lastUpdated => 1180084435
 	},
 
+	'14 description' => {
+		message => q|W&auml;hlen Sie, wie viele Zeilen des Reports auf einer Seite dargestellt werden sollen. Es werden ihnen Links zur Verf&uuml;gung gestellt, um die anderen Seiten des Reports erreichen zu k&ouml;nnen.|,
+		lastUpdated => 1180083051
+	},
+
+	'in/out status delegates description' => {
+		message => q|Benutzen Sie dieses Formular, um Benutzer auszuw&auml;hlen, die ihren Status im In/Out Board &auml;ndern d&uuml;rfen. Alle Benutzer, die sie schon ausgew&auml;hlt haben sind vorgew&auml;hlt. Um Benutzer zu entfernen, entfernen Sie deren Markierung.|,
+		lastUpdated => 1180085395
+	},
+
 	'in/out status delegates' => {
 		message => q|In/Out Status Delegierte|,
 		lastUpdated => 1180086184
 	},
 
-	'reportViewerGroup' => {
-		message => q|Die ID der Gruppe, die den Report anschauen darf.|,
-		lastUpdated => 1180085956
-	},
-
 	'3' => {
 		message => q|Wer darf Reports anschauen?|,
 		lastUpdated => 1180084315
+	},
+
+	'reportViewerGroup' => {
+		message => q|Die ID der Gruppe, die den Report anschauen darf.|,
+		lastUpdated => 1180085956
 	},
 
 	'in out board asset template variables body' => {

@@ -1,7 +1,8 @@
 package WebGUI::i18n::Finnish::Asset_Collaboration;
 
+
 our $I18N = {
-	'rich edit description' => {
+	'job title' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -9,11 +10,6 @@ our $I18N = {
 	'thread template' => {
 		message => q|Ketjupohja|,
 		lastUpdated => 1110889579
-	},
-
-	'job title' => {
-		message => q||,
-		lastUpdated => 
 	},
 
 	'date' => {
@@ -39,11 +35,6 @@ our $I18N = {
 	'subject' => {
 		message => q|Aihe|,
 		lastUpdated => 1110889158
-	},
-
-	'deny' => {
-		message => q|Kiellä|,
-		lastUpdated => 1110888368
 	},
 
 	'display last reply' => {
@@ -81,21 +72,6 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'who moderates' => {
-		message => q|Kuka valvoo?|,
-		lastUpdated => 1110889726
-	},
-
-	'all' => {
-		message => q|Kaikki sanat|,
-		lastUpdated => 1110888194
-	},
-
-	'collaboration template body' => {
-		message => q||,
-		lastUpdated => 
-	},
-
 	'previous' => {
 		message => q|Edellinen|,
 		lastUpdated => 1110888873
@@ -129,11 +105,6 @@ our $I18N = {
 	'unsubscribe' => {
 		message => q|Poista tilaus|,
 		lastUpdated => 1110889646
-	},
-
-	'editTimeout description' => {
-		message => q||,
-		lastUpdated => 
 	},
 
 	'karma spent to rate description' => {
@@ -181,11 +152,6 @@ our $I18N = {
 		lastUpdated => 1110888829
 	},
 
-	'moderate description' => {
-		message => q||,
-		lastUpdated => 
-	},
-
 	'replies' => {
 		message => q|Vastaukset|,
 		lastUpdated => 1110889001
@@ -226,11 +192,6 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'word' => {
-		message => q||,
-		lastUpdated => 
-	},
-
 	'attachments/post' => {
 		message => q|Liitteitä per posti|,
 		lastUpdated => 1110888278
@@ -246,19 +207,9 @@ our $I18N = {
 		lastUpdated => 1118609810
 	},
 
-	'collaboration add/edit body' => {
-		message => q||,
-		lastUpdated => 
-	},
-
 	'add' => {
 		message => q|Lisää|,
 		lastUpdated => 1110888167
-	},
-
-	'collaboration search template body' => {
-		message => q||,
-		lastUpdated => 
 	},
 
 	'allow replies' => {
@@ -274,11 +225,6 @@ our $I18N = {
 	'status' => {
 		message => q|Tila|,
 		lastUpdated => 1110889143
-	},
-
-	'atleastone' => {
-		message => q|Ainakin yksi|,
-		lastUpdated => 1110888241
 	},
 
 	'thread template description' => {
@@ -311,16 +257,6 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'collaboration add/edit title' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'phrase' => {
-		message => q||,
-		lastUpdated => 
-	},
-
 	'contentType' => {
 		message => q|Sisällön tyyppi|,
 		lastUpdated => 1110888350
@@ -341,11 +277,6 @@ our $I18N = {
 		lastUpdated => 1110888285
 	},
 
-	'start date' => {
-		message => q|Alkamis päivämäärä|,
-		lastUpdated => 1110889135
-	},
-
 	'message' => {
 		message => q|Viesti|,
 		lastUpdated => 1110888749
@@ -356,14 +287,14 @@ our $I18N = {
 		lastUpdated => 1110888667
 	},
 
-	'search template description' => {
-		message => q||,
-		lastUpdated => 
-	},
-
 	'notification template' => {
 		message => q|Huomautus pohja|,
 		lastUpdated => 1110888817
+	},
+
+	'search template description' => {
+		message => q||,
+		lastUpdated => 
 	},
 
 	'karma rating multiplier' => {
@@ -384,11 +315,6 @@ our $I18N = {
 	'sequence' => {
 		message => q||,
 		lastUpdated => 
-	},
-
-	'moderate' => {
-		message => q|Valvo postauksia|,
-		lastUpdated => 1110888772
 	},
 
 	'rate' => {
@@ -456,11 +382,6 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'endDate' => {
-		message => q|Päättymis päivä|,
-		lastUpdated => 1110888620
-	},
-
 	'edit timeout' => {
 		message => q|Muokkaa aikakatkaisua|,
 		lastUpdated => 1110888576
@@ -516,17 +437,7 @@ our $I18N = {
 		lastUpdated => 1110888322
 	},
 
-	'approve' => {
-		message => q|Hyväksy|,
-		lastUpdated => 1110888221
-	},
-
 	'user defined 2' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'collaboration post list template variables body' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -539,11 +450,6 @@ our $I18N = {
 	'unstick' => {
 		message => q|Poista pysyvyys|,
 		lastUpdated => 1110889630
-	},
-
-	'exactPhrase' => {
-		message => q|Täsmällinen lause|,
-		lastUpdated => 1110888657
 	},
 
 	'lastReply' => {
@@ -571,17 +477,7 @@ our $I18N = {
 		lastUpdated => 1110888741
 	},
 
-	'delete file warning' => {
-		message => q||,
-		lastUpdated => 
-	},
-
 	'assetName' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'collaboration template labels body' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -646,14 +542,14 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'job requirements' => {
-		message => q||,
-		lastUpdated => 
-	},
-
 	'visitor' => {
 		message => q|Vierailijan nimi|,
 		lastUpdated => 1110889698
+	},
+
+	'job requirements' => {
+		message => q||,
+		lastUpdated => 
 	},
 
 	'karma/post description' => {
@@ -661,19 +557,9 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'without' => {
-		message => q|Ilman|,
-		lastUpdated => 1110889747
-	},
-
 	'nested' => {
 		message => q|Sisäkkäinen|,
 		lastUpdated => 1110888790
-	},
-
-	'reply' => {
-		message => q|Vastaa|,
-		lastUpdated => 1110889008
 	},
 
 	'question' => {
@@ -681,9 +567,9 @@ our $I18N = {
 		lastUpdated => 1110888881
 	},
 
-	'who moderates description' => {
-		message => q||,
-		lastUpdated => 
+	'reply' => {
+		message => q|Vastaa|,
+		lastUpdated => 1110889008
 	},
 
 	'edit link' => {
@@ -694,11 +580,6 @@ our $I18N = {
 	'archive after description' => {
 		message => q||,
 		lastUpdated => 
-	},
-
-	'results' => {
-		message => q|Tulokset|,
-		lastUpdated => 1110889062
 	},
 
 };

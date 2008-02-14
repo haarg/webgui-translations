@@ -1,5 +1,6 @@
 package WebGUI::i18n::German::Asset_WeatherData;
 
+
 our $I18N = {
 	'assetName' => {
 		message => q||,
@@ -17,11 +18,6 @@ our $I18N = {
 	},
 
 	'WeatherData template title' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'WeatherData template description' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -66,27 +62,12 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'weatherdata asset template variables body' => {
-		message => q|Jedes Asset bietet ihren Templates einen Satz an Variablen, die auf den Asset Eigenschaften basieren. Einige dieser Variablen k&ouml;nnen n&uuml;tzlich sein, andere nicht.|,
-		lastUpdated => 1170406433
-	},
-
 	'iconUrl' => {
 		message => q||,
 		lastUpdated => 
 	},
 
 	'Template' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'weather data add/edit body' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'weather data add/edit title' => {
 		message => q||,
 		lastUpdated => 
 	},

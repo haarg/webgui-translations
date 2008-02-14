@@ -1,12 +1,13 @@
 package WebGUI::i18n::Danish::AdSpace;
 
+
 our $I18N = {
-	'is active' => {
+	'priority' => {
 		message => q||,
 		lastUpdated => 
 	},
 
-	'priority' => {
+	'is active' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -42,11 +43,6 @@ our $I18N = {
 	},
 
 	'background color' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'edit advertisement body' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -91,12 +87,12 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'description' => {
+	'priority help' => {
 		message => q||,
 		lastUpdated => 
 	},
 
-	'priority help' => {
+	'description' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -106,12 +102,12 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'width help' => {
+	'clicks bought' => {
 		message => q||,
 		lastUpdated => 
 	},
 
-	'clicks bought' => {
+	'width help' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -126,12 +122,12 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'title' => {
+	'type' => {
 		message => q||,
 		lastUpdated => 
 	},
 
-	'type' => {
+	'title' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -171,12 +167,7 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'name help' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'url help' => {
+	'edit this ad space' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -186,7 +177,17 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'edit this ad space' => {
+	'url help' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'name help' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'rich' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -196,17 +197,7 @@ our $I18N = {
 		lastUpdated => 1149242628
 	},
 
-	'rich' => {
-		message => q||,
-		lastUpdated => 
-	},
-
 	'background color help' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'edit ad space body' => {
 		message => q||,
 		lastUpdated => 
 	},

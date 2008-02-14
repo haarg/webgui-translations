@@ -1,5 +1,6 @@
 package WebGUI::i18n::Croatian::Asset_Article;
 
+
 our $I18N = {
 	'description.first.sentence' => {
 		message => q||,
@@ -16,9 +17,9 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'71' => {
-		message => q||,
-		lastUpdated => 
+	'7' => {
+		message => q|Naziv linka|,
+		lastUpdated => 1168623164
 	},
 
 	'description.first.10words' => {
@@ -26,17 +27,12 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'7' => {
-		message => q|Naziv linka|,
-		lastUpdated => 1168623164
-	},
-
 	'assetName' => {
 		message => q|Članak|,
 		lastUpdated => 1168623236
 	},
 
-	'description.first.2paragraphs' => {
+	'description.full' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -46,7 +42,7 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'description.full' => {
+	'description.first.2paragraphs' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -81,17 +77,7 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'61' => {
-		message => q|Članak, dodaj/uredi|,
-		lastUpdated => 1168623155
-	},
-
 	'description' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'new.template' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -101,17 +87,22 @@ our $I18N = {
 		lastUpdated => 
 	},
 
+	'new.template' => {
+		message => q||,
+		lastUpdated => 
+	},
+
 	'image.url' => {
 		message => q||,
 		lastUpdated => 
 	},
 
-	'isImage' => {
+	'article asset template variables body' => {
 		message => q||,
 		lastUpdated => 
 	},
 
-	'article asset template variables body' => {
+	'isImage' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -176,7 +167,7 @@ our $I18N = {
 		lastUpdated => 1168623305
 	},
 
-	'thumbnailUrl' => {
+	'description.first.100words' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -186,7 +177,7 @@ our $I18N = {
 		lastUpdated => 1168623295
 	},
 
-	'description.first.100words' => {
+	'thumbnailUrl' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -211,9 +202,9 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'73' => {
-		message => q|Sljedeće varijable dostupne su u predlošku za članak.|,
-		lastUpdated => 1168623204
+	'description.first.25words' => {
+		message => q||,
+		lastUpdated => 
 	},
 
 	'attachment.url' => {
@@ -221,9 +212,9 @@ our $I18N = {
 		lastUpdated => 1168623285
 	},
 
-	'description.first.25words' => {
-		message => q||,
-		lastUpdated => 
+	'73' => {
+		message => q|Sljedeće varijable dostupne su u predlošku za članak.|,
+		lastUpdated => 1168623204
 	},
 
 	'image.thumbnail' => {

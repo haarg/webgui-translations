@@ -1,11 +1,7 @@
 package WebGUI::i18n::Slovenian::Workflow_Activity_CleanLoginHistory;
 
-our $I18N = {
-	'clean login history body' => {
-		message => q||,
-		lastUpdated => 
-	},
 
+our $I18N = {
 	'age to delete help' => {
 		message => q||,
 		lastUpdated => 

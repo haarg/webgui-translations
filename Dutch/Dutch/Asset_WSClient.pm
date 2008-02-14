@@ -1,5 +1,6 @@
 package WebGUI::i18n::Dutch::Asset_WSClient;
 
+
 our $I18N = {
 	'27 description' => {
 		message => q|Het aantal seconden dat een SOAP uitvoer opgeslagen wordt in het cache geheugen. Als dit op 1 gezet wordt, wordt dit praktisch gezien overgeslagen. |,
@@ -11,19 +12,14 @@ our $I18N = {
 		lastUpdated => 1152532718
 	},
 
-	'cacheTTL' => {
-		message => q|Het aantal seconden dat de resultaten van de SOAP service in de cache worden bewaard.|,
-		lastUpdated => 1180652191
-	},
-
 	'21' => {
 		message => q|Er zijn geen resultaten gevonden voor deze zoekopdracht.|,
 		lastUpdated => 1152532064
 	},
 
-	'71' => {
-		message => q|<p>Een web services client zorgt ervoor dat een gebruiker data op kan vragen bij elke SOAP server waartope ze toegang hebben. Dit wobject is in ontwikkeling en zou alleen toegankelijk gemaakt moeten worden voor zeer vertrouwde beheerders.</p><p>Een paar handigheden...</p><ul><li>Wanneer een SOAP oproep verwerkt moet worden (bijvoorbeeld een die een waarde insteld of verniewd op de SOAP server), maar daarna wilt verwijzen naar een compleet andere pagina, voeg dan een formulier invoer&nbsp; &quot;redirectURL&quot;. De waarde van de redirectURL kan elke geldige URI zijn, die begrepen wordt door een webbrowser.</li><li>Voor het aanroepen van een SOAP wobject datniet standaard uitgevoerd wordt, kan een parameter targetWobject=<em>call</em> in het formulier gezet worden, waarbij call de SOAP methode is.</li><li>Voor het compleet negeren van een SOAP wobject, inclusief enige gecachede uitvoer, voer een formulier parameter disableWobjects=<em>call</em> in, waarbij call de SOAP methode is. </li></ul>|,
-		lastUpdated => 1152533637
+	'cacheTTL' => {
+		message => q|Het aantal seconden dat de resultaten van de SOAP service in de cache worden bewaard.|,
+		lastUpdated => 1180652191
 	},
 
 	'26' => {
@@ -41,14 +37,14 @@ our $I18N = {
 		lastUpdated => 1180652281
 	},
 
-	'paginateVar' => {
-		message => q|Geeft aan welke variabele in de SOAP data die wordt ontvangen ook wordt gebruikt voor de paginering.|,
-		lastUpdated => 1180652490
-	},
-
 	'72' => {
 		message => q|Web services client sjabloon|,
 		lastUpdated => 1152533654
+	},
+
+	'paginateVar' => {
+		message => q|Geeft aan welke variabele in de SOAP data die wordt ontvangen ook wordt gebruikt voor de paginering.|,
+		lastUpdated => 1180652490
 	},
 
 	'paginateAfter' => {
@@ -56,14 +52,14 @@ our $I18N = {
 		lastUpdated => 1180652410
 	},
 
-	'16' => {
-		message => q|HTTP header override|,
-		lastUpdated => 1152530864
-	},
-
 	'13 description' => {
 		message => q|Hoeveel rijen mogen er getoond worden voordat de resultaten verdeeld worden over verschillende pagina&#39;s. Met andere woorden: hoeveel rijen moeten er per pagina getoond worden? |,
 		lastUpdated => 1152529875
+	},
+
+	'16' => {
+		message => q|HTTP header override|,
+		lastUpdated => 1152530864
 	},
 
 	'9 description' => {
@@ -76,14 +72,14 @@ our $I18N = {
 		lastUpdated => 1152532271
 	},
 
-	'61' => {
-		message => q|Web services client, toevoegen/bewerken|,
-		lastUpdated => 1152533006
-	},
-
 	'4 description' => {
 		message => q|De SOAP methode is de naam van de functie die opgeroepen wordt door de SOAP server. Er kunnen extra parameters meegegeven worden in het SOAP oproep parameterveld hieronder. |,
 		lastUpdated => 1152532854
+	},
+
+	'20' => {
+		message => q|Bewerk Web Services Client|,
+		lastUpdated => 1152532032
 	},
 
 	'uri' => {
@@ -94,11 +90,6 @@ our $I18N = {
 	'debugMode' => {
 		message => q|Een binaire variabele die aangeeft of foutmeldingen moeten worden weergegeven of niet.|,
 		lastUpdated => 1180652238
-	},
-
-	'20' => {
-		message => q|Bewerk Web Services Client|,
-		lastUpdated => 1152532032
 	},
 
 	'11 description' => {
@@ -144,11 +135,6 @@ our $I18N = {
 	'8 description' => {
 		message => q|Wanneer WebGUI macros gebruikt worden in de zoekopdracht, is het gewenst dit vak aan te vinken.  |,
 		lastUpdated => 1152533813
-	},
-
-	'73' => {
-		message => q|Dit is de lijst met de sjabloon variabelen, die beschikbaar zijn voor de Web services client sjablonen.|,
-		lastUpdated => 1152533736
 	},
 
 	'19' => {
@@ -199,11 +185,6 @@ our $I18N = {
 	'28' => {
 		message => q|Cache|,
 		lastUpdated => 1152532341
-	},
-
-	'ws client asset template variables body' => {
-		message => q|Elk object (asset) maakt een set variabelen beschikbaar in de meeste van de bijbehorende sjablonen. Deze zijn gebaseerd op interne eigenschappen. Sommige zijn bruikbaarder dan andere.|,
-		lastUpdated => 1180652915
 	},
 
 	'5 description' => {
@@ -325,14 +306,14 @@ Of je een scalar, hash of array moet gebruiken is geheel afhankelijk van wat de 
 		lastUpdated => 1152531984
 	},
 
-	'results' => {
-		message => q|Deze loop bevat alle resultaten uit de SOAP aanroep. Binnen deze loop, kunnen specifieke data-elementen worden gebruikt door ze aan te roepen met de namen die hiervoor zijn gegeven door de SOAP server. (misschien "localTime" voor een vraag naar tijd)|,
-		lastUpdated => 1180652754
-	},
-
 	'5' => {
 		message => q|SOAP oproep parameters|,
 		lastUpdated => 1152532867
+	},
+
+	'results' => {
+		message => q|Deze loop bevat alle resultaten uit de SOAP aanroep. Binnen deze loop, kunnen specifieke data-elementen worden gebruikt door ze aan te roepen met de namen die hiervoor zijn gegeven door de SOAP server. (misschien "localTime" voor een vraag naar tijd)|,
+		lastUpdated => 1180652754
 	},
 
 };

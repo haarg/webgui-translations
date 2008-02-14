@@ -1,5 +1,6 @@
 package WebGUI::i18n::Dutch::Workflow_Activity_TrashExpiredEvents;
 
+
 our $I18N = {
 	'trash after' => {
 		message => q|Een label - in meerdere talen beschikbaar - voor de workflow activiteit die bepaalt hoe lang verlopen gebeurtenissen bewaard blijven.|,
@@ -14,11 +15,6 @@ our $I18N = {
 	'activityName' => {
 		message => q|Verlopen evenementen opruimen|,
 		lastUpdated => 1155548382
-	},
-
-	'trash expired events body' => {
-		message => q|<p>Deze workflow activiteit verplaatst alle evenementen naar de prullenmand na een interval (vanaf de einddatum) dat door de gebruiker is gespecificeerd.</p><p>Het standaard interval is dertig dagen.&nbsp;</p>|,
-		lastUpdated => 1155548364
 	},
 
 };

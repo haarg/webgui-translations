@@ -1,24 +1,20 @@
 package WebGUI::i18n::Finnish::Macro_L_loginBox;
 
-our $I18N = {
-	'login box body' => {
-		message => q||,
-		lastUpdated => 
-	},
 
+our $I18N = {
 	'49' => {
 		message => q|Kirjaudu ulos tästä.|,
 		lastUpdated => 1118607938
 	},
 
-	'48' => {
-		message => q|Hei|,
-		lastUpdated => 1118607735
-	},
-
 	'login box title' => {
 		message => q||,
 		lastUpdated => 
+	},
+
+	'48' => {
+		message => q|Hei|,
+		lastUpdated => 1118607735
 	},
 
 };

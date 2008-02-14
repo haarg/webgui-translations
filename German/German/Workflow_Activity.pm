@@ -1,5 +1,6 @@
 package WebGUI::i18n::German::Workflow_Activity;
 
+
 our $I18N = {
 	'title help' => {
 		message => q|Geben Sie hier eine Namen ein, der den Nutzen der Aktivit&auml;t beschreibt.|,
@@ -9,16 +10,6 @@ our $I18N = {
 	'description help' => {
 		message => q|Beschreiben Sie hier, welchen Zweck diese Aktivit&auml;t hat und was sie im Detail tut.|,
 		lastUpdated => 1179846338
-	},
-
-	'add/edit workflow activity body' => {
-		message => q|Die meisten Workflow Aktivit&auml;ten haben diese Basisfelder und Eigenschaften:|,
-		lastUpdated => 1179846287
-	},
-
-	'add/edit workflow activity' => {
-		message => q|Workflow Aktivit&auml;t hinzuf&uuml;gen/bearbeiten|,
-		lastUpdated => 1179846258
 	},
 
 	'description' => {

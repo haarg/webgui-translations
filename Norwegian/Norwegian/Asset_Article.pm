@@ -1,5 +1,6 @@
 package WebGUI::i18n::Norwegian::Asset_Article;
 
+
 our $I18N = {
 	'description.first.sentence' => {
 		message => q||,
@@ -16,7 +17,7 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'71' => {
+	'7' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -26,17 +27,12 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'7' => {
-		message => q||,
-		lastUpdated => 
-	},
-
 	'assetName' => {
 		message => q||,
 		lastUpdated => 
 	},
 
-	'description.first.2paragraphs' => {
+	'description.full' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -46,7 +42,7 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'description.full' => {
+	'description.first.2paragraphs' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -81,22 +77,17 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'61' => {
-		message => q||,
-		lastUpdated => 
-	},
-
 	'description' => {
 		message => q|beskrivelse|,
 		lastUpdated => 1169942836
 	},
 
-	'new.template' => {
+	'link url description' => {
 		message => q||,
 		lastUpdated => 
 	},
 
-	'link url description' => {
+	'new.template' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -106,12 +97,12 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'isImage' => {
+	'article asset template variables body' => {
 		message => q||,
 		lastUpdated => 
 	},
 
-	'article asset template variables body' => {
+	'isImage' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -176,7 +167,7 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'thumbnailUrl' => {
+	'description.first.100words' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -186,7 +177,7 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'description.first.100words' => {
+	'thumbnailUrl' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -211,7 +202,7 @@ our $I18N = {
 		lastUpdated => 1169942809
 	},
 
-	'73' => {
+	'description.first.25words' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -221,7 +212,7 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'description.first.25words' => {
+	'73' => {
 		message => q||,
 		lastUpdated => 
 	},

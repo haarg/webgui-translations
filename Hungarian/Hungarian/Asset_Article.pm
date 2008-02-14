@@ -1,5 +1,6 @@
 package WebGUI::i18n::Hungarian::Asset_Article;
 
+
 our $I18N = {
 	'description.first.sentence' => {
 		message => q|A le&iacute;r&aacute;s első mondata. A mondatt a sz&ouml;vegben tal&aacute;lt sz&uuml;netek alapj&aacute;n ker&uuml;l meghat&aacute;roz&aacute;sra.|,
@@ -16,9 +17,9 @@ our $I18N = {
 		lastUpdated => 1178703295
 	},
 
-	'71' => {
-		message => q|A Cikk eszk&ouml;z a WebGUI erőss&eacute;ge. A statikus tartalom legt&ouml;bb r&eacute;sz&eacute;t a Cikk eszk&ouml;zzel lehet hozz&aacute;adni. A Cikkek Wobject-ek, &iacute;gy meg&ouml;r&ouml;klik a Wobjectek &eacute;s az Eszk&ouml;z&ouml;k tulajdons&aacute;gait.<p>MEGJEGYZ&Eacute;S: T&ouml;bb oldalas cikket hozhatunk l&eacute;tre akkor, ha t&ouml;rdelő jelet (^-;) a cikk tetszőleges ponjain elhelyezz&uuml;k. Ez a Nyomtat&aacute;si St&iacute;lus (Make Page Printable) kiv&eacute;tel&eacute;vel, minden helyzetben műk&ouml;dik.</p>|,
-		lastUpdated => 1177616340
+	'7' => {
+		message => q|Link N&eacute;v|,
+		lastUpdated => 1170168249
 	},
 
 	'description.first.10words' => {
@@ -26,19 +27,14 @@ our $I18N = {
 		lastUpdated => 1178703908
 	},
 
-	'7' => {
-		message => q|Link N&eacute;v|,
-		lastUpdated => 1170168249
-	},
-
 	'assetName' => {
 		message => q|Cikk|,
 		lastUpdated => 1178704123
 	},
 
-	'description.first.2paragraphs' => {
-		message => q|A le&iacute;r&aacute;s első k&eacute;t bekezd&eacute;se. Egy bekezd&eacute;st a sz&ouml;vegben tal&aacute;lhat&oacute; kocsi visszat&eacute;r&eacute;sek hat&aacute;rozznak meg.|,
-		lastUpdated => 1178704081
+	'description.full' => {
+		message => q|A teljes le&iacute;r&aacute;s oldalt&ouml;r&eacute;s n&eacute;lk&uuml;l.|,
+		lastUpdated => 1178703631
 	},
 
 	'description.first.paragraph' => {
@@ -46,9 +42,9 @@ our $I18N = {
 		lastUpdated => 1178704037
 	},
 
-	'description.full' => {
-		message => q|A teljes le&iacute;r&aacute;s oldalt&ouml;r&eacute;s n&eacute;lk&uuml;l.|,
-		lastUpdated => 1178703631
+	'description.first.2paragraphs' => {
+		message => q|A le&iacute;r&aacute;s első k&eacute;t bekezd&eacute;se. Egy bekezd&eacute;st a sz&ouml;vegben tal&aacute;lhat&oacute; kocsi visszat&eacute;r&eacute;sek hat&aacute;rozznak meg.|,
+		lastUpdated => 1178704081
 	},
 
 	'72' => {
@@ -81,19 +77,9 @@ our $I18N = {
 		lastUpdated => 1178703593
 	},
 
-	'61' => {
-		message => q|Cikk, Hozz&aacute;ad&aacute;s/Szerkeszt&eacute;s|,
-		lastUpdated => 1170168228
-	},
-
 	'description' => {
 		message => q|Az le&iacute;r&aacute;s oldalt&ouml;r&eacute;sekkel. |,
 		lastUpdated => 1178704112
-	},
-
-	'new.template' => {
-		message => q|<p>A Cikkek k&eacute;pesek megv&aacute;ltoztatni a sablonjaikat, &iacute;gy megengedheti a felhaszn&aacute;l&oacute;kat, hogy a cikket k&uuml;l&ouml;nb&ouml;ző n&eacute;zetekben tekints&eacute;k meg. Ezt &uacute;gy teheti meg, ha egy ehhez hasonl&oacute; URL-el linket hoz l&eacute;tre (helyettes&iacute;tse a 999-et a haszn&aacute;lni k&iacute;v&aacute;nt sablon azonos&iacute;t&oacute;j&aacute;val):</p><p>&lt;a href=&quot;&lt;tmpl_var new.template&gt;999&quot;&gt;Tov&aacute;bb...&lt;/a&gt;</p>|,
-		lastUpdated => 1178703241
 	},
 
 	'link url description' => {
@@ -101,19 +87,24 @@ our $I18N = {
 		lastUpdated => 1178703364
 	},
 
+	'new.template' => {
+		message => q|<p>A Cikkek k&eacute;pesek megv&aacute;ltoztatni a sablonjaikat, &iacute;gy megengedheti a felhaszn&aacute;l&oacute;kat, hogy a cikket k&uuml;l&ouml;nb&ouml;ző n&eacute;zetekben tekints&eacute;k meg. Ezt &uacute;gy teheti meg, ha egy ehhez hasonl&oacute; URL-el linket hoz l&eacute;tre (helyettes&iacute;tse a 999-et a haszn&aacute;lni k&iacute;v&aacute;nt sablon azonos&iacute;t&oacute;j&aacute;val):</p><p>&lt;a href=&quot;&lt;tmpl_var new.template&gt;999&quot;&gt;Tov&aacute;bb...&lt;/a&gt;</p>|,
+		lastUpdated => 1178703241
+	},
+
 	'image.url' => {
 		message => q|A csatolt k&eacute;phez mutat&oacute; URL.|,
 		lastUpdated => 1178703469
 	},
 
-	'isImage' => {
-		message => q|Egy boolean, amely jelzi, hogy ez k&eacute;p vagy sem.|,
-		lastUpdated => 1178703453
-	},
-
 	'article asset template variables body' => {
 		message => q|Minden eszk&ouml;z a belső eszk&ouml;z tulajdons&aacute;gok alapj&aacute;n egy csoport v&aacute;ltoz&oacute;t rendel a sablonjaihoz. A v&aacute;ltoz&oacute;k k&ouml;z&ouml;tt van olyan, amely hasznos lehet, &eacute;s van olyan, ami nem. |,
 		lastUpdated => 1170324173
+	},
+
+	'isImage' => {
+		message => q|Egy boolean, amely jelzi, hogy ez k&eacute;p vagy sem.|,
+		lastUpdated => 1178703453
 	},
 
 	'storageId' => {
@@ -176,9 +167,9 @@ our $I18N = {
 		lastUpdated => 1178704218
 	},
 
-	'thumbnailUrl' => {
-		message => q|A f&aacute;jl előn&eacute;zeti k&eacute;p&eacute;re mutat&oacute; url.|,
-		lastUpdated => 1178702997
+	'description.first.100words' => {
+		message => q|A le&iacute;r&aacute;s első 100 szava. A szavak sz&oacute;k&ouml;zzel elv&aacute;lasztott karakterek, &iacute;gy a HTML bejegyz&eacute;sek &eacute;s tag-ek nem sz&aacute;m&iacute;tanak sz&oacute;nak.|,
+		lastUpdated => 1178703920
 	},
 
 	'attachment_loop' => {
@@ -186,9 +177,9 @@ our $I18N = {
 		lastUpdated => 1178704205
 	},
 
-	'description.first.100words' => {
-		message => q|A le&iacute;r&aacute;s első 100 szava. A szavak sz&oacute;k&ouml;zzel elv&aacute;lasztott karakterek, &iacute;gy a HTML bejegyz&eacute;sek &eacute;s tag-ek nem sz&aacute;m&iacute;tanak sz&oacute;nak.|,
-		lastUpdated => 1178703920
+	'thumbnailUrl' => {
+		message => q|A f&aacute;jl előn&eacute;zeti k&eacute;p&eacute;re mutat&oacute; url.|,
+		lastUpdated => 1178702997
 	},
 
 	'cacheTimeout' => {
@@ -211,9 +202,9 @@ our $I18N = {
 		lastUpdated => 1178703605
 	},
 
-	'73' => {
-		message => q|Az al&aacute;bbi sablon v&aacute;ltoz&oacute;k &eacute;rhetők el a cikk sablonokban.|,
-		lastUpdated => 1170323540
+	'description.first.25words' => {
+		message => q|A le&iacute;r&aacute;s első 25 szava. A szavak sz&oacute;k&ouml;zzel elv&aacute;lasztott karakterek, &iacute;gy a HTML bejegyz&eacute;sek &eacute;s tag-ek nem sz&aacute;m&iacute;tanak sz&oacute;nak.|,
+		lastUpdated => 1178703896
 	},
 
 	'attachment.url' => {
@@ -221,9 +212,9 @@ our $I18N = {
 		lastUpdated => 1178704184
 	},
 
-	'description.first.25words' => {
-		message => q|A le&iacute;r&aacute;s első 25 szava. A szavak sz&oacute;k&ouml;zzel elv&aacute;lasztott karakterek, &iacute;gy a HTML bejegyz&eacute;sek &eacute;s tag-ek nem sz&aacute;m&iacute;tanak sz&oacute;nak.|,
-		lastUpdated => 1178703896
+	'73' => {
+		message => q|Az al&aacute;bbi sablon v&aacute;ltoz&oacute;k &eacute;rhetők el a cikk sablonokban.|,
+		lastUpdated => 1170323540
 	},
 
 	'image.thumbnail' => {

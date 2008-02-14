@@ -1,12 +1,8 @@
 package WebGUI::i18n::Finnish::Asset_RSSCapable;
 
-our $I18N = {
-	'rssTemplateId hoverHelp' => {
-		message => q||,
-		lastUpdated => 
-	},
 
-	'rssTemplateId label' => {
+our $I18N = {
+	'rssEnabled label' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -16,17 +12,12 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'rssEnabled label' => {
+	'rssTemplateId label' => {
 		message => q||,
 		lastUpdated => 
 	},
 
-	'rss capable body' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'rss capable title' => {
+	'rssTemplateId hoverHelp' => {
 		message => q||,
 		lastUpdated => 
 	},

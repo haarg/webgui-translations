@@ -1,5 +1,6 @@
 package WebGUI::i18n::German::AuthLDAP;
 
+
 our $I18N = {
 	'sync profiles to ldap' => {
 		message => q|Synchronisiere Profile mit LDAP|,
@@ -54,11 +55,6 @@ our $I18N = {
 	'create account template' => {
 		message => q|Erstelle Account Template|,
 		lastUpdated => 1178632312
-	},
-
-	'LDAPLink_990' => {
-		message => q|LDAP Verbindung bearbeiten|,
-		lastUpdated => 1178630598
 	},
 
 	'title' => {
@@ -164,11 +160,6 @@ our $I18N = {
 	'login.message' => {
 		message => q|Irgendeine Nachricht, die vom System zur&uuml;ckgegeben wird. Normalerweise dargestellt nachdem das Formular abgeschickt wurde.|,
 		lastUpdated => 1178633139
-	},
-
-	'auth login template body' => {
-		message => q|Die folgenden Template Variablen sind f&uuml;r die LDAP Authentifizierung Login Templates verf&uuml;gbar.|,
-		lastUpdated => 1178632279
 	},
 
 	'LDAPLink_1' => {
@@ -336,11 +327,6 @@ our $I18N = {
 		lastUpdated => 1178629277
 	},
 
-	'anon reg template body' => {
-		message => q|Die folgenden Template Variablen sind f&uuml;r die LDAP Authentifizierung Anonyme Registrierung Templates verf&uuml;gbar.|,
-		lastUpdated => 1178632187
-	},
-
 	'LDAPLink_67' => {
 		message => q|Not Allowed On RDN (67)|,
 		lastUpdated => 1180087468
@@ -388,11 +374,6 @@ ou=People,dc=example,dc=com|,
 		lastUpdated => 1180087679
 	},
 
-	'ldap connection add/edit body' => {
-		message => q||,
-		lastUpdated => 
-	},
-
 	'create.form.password.label' => {
 		message => q|Standard Text f&uuml;r Passwort Formular Feld.|,
 		lastUpdated => 1178632553
@@ -426,11 +407,6 @@ ou=People,dc=example,dc=com|,
 	'ldap password name blank' => {
 		message => q|Das LDAP Passwort Name Feld darf nicht leer sein.|,
 		lastUpdated => 1178632904
-	},
-
-	'deactivate account template body' => {
-		message => q|Die folgenden Variable sind f&uuml;r die LDAP Authentifizierung Deaktivierung Account Templates verf&uuml;gbar.|,
-		lastUpdated => 1178632655
 	},
 
 	'account.form.karma' => {
@@ -650,14 +626,14 @@ uid=jdoe,ou=people,dc=example,dc=com|,
 		lastUpdated => 1178628724
 	},
 
-	'global recursive filter label description' => {
-		message => q||,
-		lastUpdated => 
-	},
-
 	'6' => {
 		message => q|LDAP Identit&auml;t (Standard)|,
 		lastUpdated => 1178628838
+	},
+
+	'global recursive filter label description' => {
+		message => q||,
+		lastUpdated => 
 	},
 
 	'LDAPLink_49' => {
@@ -665,9 +641,9 @@ uid=jdoe,ou=people,dc=example,dc=com|,
 		lastUpdated => 1180087329
 	},
 
-	'ldap identity name blank' => {
-		message => q|Das LDAP Identit&auml;tsname Feld darf nicht leer sein.|,
-		lastUpdated => 1178632863
+	'LDAPLink_1076' => {
+		message => q|WebGUI LDAP Verbindung|,
+		lastUpdated => 1178630795
 	},
 
 	'3' => {
@@ -675,9 +651,9 @@ uid=jdoe,ou=people,dc=example,dc=com|,
 		lastUpdated => 1178628772
 	},
 
-	'LDAPLink_1076' => {
-		message => q|WebGUI LDAP Verbindung|,
-		lastUpdated => 1178630795
+	'ldap identity name blank' => {
+		message => q|Das LDAP Identit&auml;tsname Feld darf nicht leer sein.|,
+		lastUpdated => 1178632863
 	},
 
 	'9' => {
@@ -693,11 +669,6 @@ uid=jdoe,ou=people,dc=example,dc=com|,
 	'4' => {
 		message => q|Verbindungs DN|,
 		lastUpdated => 1178628784
-	},
-
-	'display account template body' => {
-		message => q|Die folgenden Template Variablen sind f&uuml;r die LDAP Authentifizierung Anzeige Account Templates verf&uuml;gbar.|,
-		lastUpdated => 1178632727
 	},
 
 	'LDAPLink_0' => {

@@ -1,11 +1,7 @@
 package WebGUI::i18n::Swedish::Asset_Image;
 
-our $I18N = {
-	'image template body' => {
-		message => q||,
-		lastUpdated => 
-	},
 
+our $I18N = {
 	'thumbnail size' => {
 		message => q||,
 		lastUpdated => 
@@ -46,17 +42,7 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'image add/edit title' => {
-		message => q||,
-		lastUpdated => 
-	},
-
 	'new file description' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'resize image body' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -77,11 +63,6 @@ our $I18N = {
 	},
 
 	'thumbnailSize' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'image template asset var body' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -147,16 +128,6 @@ our $I18N = {
 	},
 
 	'image template title' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'resize image title' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'image add/edit body' => {
 		message => q||,
 		lastUpdated => 
 	},

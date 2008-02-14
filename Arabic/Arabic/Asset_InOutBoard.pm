@@ -1,14 +1,15 @@
 package WebGUI::i18n::Arabic::Asset_InOutBoard;
 
-our $I18N = {
-	'17 description' => {
-		message => q|مثل تاريخ البدأ, تاريخ الانتهاء من الممكن ان يساعد في حد حجم التقرير بعدم اظهار التغيرات التي تحدث بعد التاريخ الذي اخترته.<br />|,
-		lastUpdated => 1173721413
-	},
 
+our $I18N = {
 	'department' => {
 		message => q|متغير يحدد القسم التابع له المستخدم. اذا لم يتم نسب قم الى المستخدم, علامة دولية &quot;لا قسم&quot; ستستخدم<br /> |,
 		lastUpdated => 1177444206
+	},
+
+	'17 description' => {
+		message => q|مثل تاريخ البدأ, تاريخ الانتهاء من الممكن ان يساعد في حد حجم التقرير بعدم اظهار التغيرات التي تحدث بعد التاريخ الذي اخترته.<br />|,
+		lastUpdated => 1173721413
 	},
 
 	'21' => {
@@ -16,14 +17,14 @@ our $I18N = {
 		lastUpdated => 1173721546
 	},
 
-	'7' => {
-		message => q|لا قسم<br />|,
-		lastUpdated => 1177443942
-	},
-
 	'form' => {
 		message => q|متغير يحتوي على اتش تي ام ال لعرض نموذج ادخال الدخول والخروج لتحديث الحالة للمستخدم الحالي او اي مستخدم اخر<br /> |,
 		lastUpdated => 1177444441
+	},
+
+	'7' => {
+		message => q|لا قسم<br />|,
+		lastUpdated => 1177443942
 	},
 
 	'message.label' => {
@@ -46,9 +47,9 @@ our $I18N = {
 		lastUpdated => 1177443961
 	},
 
-	'18' => {
-		message => q|لوحة في الداخل/في الخارج, اضف/عدل|,
-		lastUpdated => 1173721441
+	'1 description' => {
+		message => q|قائمة الحالة تسمح لك ان تضبط ما هي حالات المستخدم. على سبيل المثال في الداخل او في الخارج.<br />|,
+		lastUpdated => 1173720949
 	},
 
 	'all departments' => {
@@ -56,19 +57,9 @@ our $I18N = {
 		lastUpdated => 1177444024
 	},
 
-	'1 description' => {
-		message => q|قائمة الحالة تسمح لك ان تضبط ما هي حالات المستخدم. على سبيل المثال في الداخل او في الخارج.<br />|,
-		lastUpdated => 1173720949
-	},
-
 	'paginateAfter' => {
 		message => q|عدد السطور التي يجب عرضها في الصفحة الواحدة في لوحة الدخول والخروج الرئيسية<br />|,
 		lastUpdated => 1177445161
-	},
-
-	'16' => {
-		message => q|تاريخ البدأ<br />|,
-		lastUpdated => 1173721254
 	},
 
 	'13 description' => {
@@ -76,19 +67,19 @@ our $I18N = {
 		lastUpdated => 1173721159
 	},
 
+	'16' => {
+		message => q|تاريخ البدأ<br />|,
+		lastUpdated => 1173721254
+	},
+
 	'reportTitleLabel' => {
 		message => q|العنوان الدولي لتقرير لوحة الدخول والخروج<br />|,
 		lastUpdated => 1177445252
 	},
 
-	'inOutTemplateId' => {
-		message => q|هوية النموذج المستخدم لعرض الشاشة الرئيسية للوحة الدخول والخروج.<br />|,
-		lastUpdated => 1177444836
-	},
-
-	'inOutGroup' => {
-		message => q|هوية المجموعة المسموح لها باستخدام لوحة الدخول والخروج<br />|,
-		lastUpdated => 1177444687
+	'username.label' => {
+		message => q|العلامة الدولية لعمود اسم المستخدم في التقرير<br />|,
+		lastUpdated => 1177445700
 	},
 
 	'dateStamp' => {
@@ -96,9 +87,14 @@ our $I18N = {
 		lastUpdated => 1177444137
 	},
 
-	'username.label' => {
-		message => q|العلامة الدولية لعمود اسم المستخدم في التقرير<br />|,
-		lastUpdated => 1177445700
+	'inOutGroup' => {
+		message => q|هوية المجموعة المسموح لها باستخدام لوحة الدخول والخروج<br />|,
+		lastUpdated => 1177444687
+	},
+
+	'inOutTemplateId' => {
+		message => q|هوية النموذج المستخدم لعرض الشاشة الرئيسية للوحة الدخول والخروج.<br />|,
+		lastUpdated => 1177444836
 	},
 
 	'In Out Template description' => {
@@ -111,14 +107,9 @@ our $I18N = {
 		lastUpdated => 1177445336
 	},
 
-	'HR' => {
-		message => q|الموارد البشرية|,
-		lastUpdated => 1177443972
-	},
-
-	'IT' => {
-		message => q|تكنواوجيا المعلومات<br />|,
-		lastUpdated => 1177443980
+	'20' => {
+		message => q|لوحة في الداخل/في الخارج, نموذج<br />|,
+		lastUpdated => 1173721510
 	},
 
 	'username' => {
@@ -126,9 +117,14 @@ our $I18N = {
 		lastUpdated => 1177445743
 	},
 
-	'20' => {
-		message => q|لوحة في الداخل/في الخارج, نموذج<br />|,
-		lastUpdated => 1173721510
+	'IT' => {
+		message => q|تكنواوجيا المعلومات<br />|,
+		lastUpdated => 1177443980
+	},
+
+	'HR' => {
+		message => q|الموارد البشرية|,
+		lastUpdated => 1177443972
 	},
 
 	'10' => {
@@ -171,19 +167,19 @@ our $I18N = {
 		lastUpdated => 1173721117
 	},
 
-	'filter departments description' => {
-		message => q|كل لوحة دخول وخروج من الممكن ان تضبط لخدمة اقسام متعددة. اعتياديا يتم اظهار كل الاقسام في التقرير. اختر اسم اي قسم لكي يتم تحديد العرض على هذا القسم. |,
-		lastUpdated => 1177444398
-	},
-
 	'12' => {
 		message => q|قم بالتصفيح بعد<br />|,
 		lastUpdated => 1173720987
 	},
 
-	'viewReportLabel' => {
-		message => q|العنوان الدولي لرابط الاطلاع على التقارير<br />|,
-		lastUpdated => 1177445723
+	'filter departments description' => {
+		message => q|كل لوحة دخول وخروج من الممكن ان تضبط لخدمة اقسام متعددة. اعتياديا يتم اظهار كل الاقسام في التقرير. اختر اسم اي قسم لكي يتم تحديد العرض على هذا القسم. |,
+		lastUpdated => 1177444398
+	},
+
+	'viewReportURL' => {
+		message => q|الرابط الموصل الى صفحة عرض التقارير<br />|,
+		lastUpdated => 1177445737
 	},
 
 	'15' => {
@@ -191,9 +187,9 @@ our $I18N = {
 		lastUpdated => 1173721246
 	},
 
-	'viewReportURL' => {
-		message => q|الرابط الموصل الى صفحة عرض التقارير<br />|,
-		lastUpdated => 1177445737
+	'viewReportLabel' => {
+		message => q|العنوان الدولي لرابط الاطلاع على التقارير<br />|,
+		lastUpdated => 1177445723
 	},
 
 	'selectDelegatesURL' => {
@@ -204,11 +200,6 @@ our $I18N = {
 	'delegate description' => {
 		message => q|اختر اسم من القائمة لتعديل الحالة لاي شخص غيرك<br />|,
 		lastUpdated => 1177444168
-	},
-
-	'19' => {
-		message => q|  <p dir="rtl" class="MsoNormal"><span>تستخدم لوحة الدخول والخروج لمتابعة اذا كان الاشخاص داخل أو خارج المكتب. تعرض اللوحة حالة الدخول و الخروج لكل مستخدمي ويب جوي وتقوم بتسجيل سبب رحيل المستخدم ووقت الخروج ووقت رجوعهم. يمكن الاطلاع على السجل بطريقتين. الاول هو تلخيص للحالة لكل المستخدمين في المجموعات المضبوطة على لوحة الدخول والخروج. الثانية هي تقرير كامل عن تاريخ لكل تغييرات الحالة لهؤلاء المستخدمين. هذا التقرير من الممكن ان يضبط على صلاحيات اطلاع معينة و ممكن تغيير نماذجه. </span></p>  <p dir="rtl" class="MsoNormal"><span>&nbsp;</span></p>  <p dir="rtl" class="MsoNormal"><span>المستخدمين في اللوحة من الممكن ان يختاروا مستخمين اخرين أو زملاء لتحديث حالتهم.</span></p>  |,
-		lastUpdated => 1177443857
 	},
 
 	'updatedBy label' => {
@@ -316,14 +307,14 @@ our $I18N = {
 		lastUpdated => 1177443892
 	},
 
-	'Regular Staff' => {
-		message => q|موظف عادي<br />|,
-		lastUpdated => 1177444017
-	},
-
 	'14' => {
 		message => q|قم بتصفيح التقرير بعد<br />|,
 		lastUpdated => 1173721173
+	},
+
+	'Regular Staff' => {
+		message => q|موظف عادي<br />|,
+		lastUpdated => 1177444017
 	},
 
 	'inOutGroup description' => {
@@ -346,14 +337,14 @@ our $I18N = {
 		lastUpdated => 1173721800
 	},
 
-	'username label' => {
-		message => q|اسم المستخدم<br />|,
-		lastUpdated => 1177445682
-	},
-
 	'canViewReport' => {
 		message => q|علامة تحدد ما اذا سيتم ضبط متغير <em>viewReportURL</em> |,
 		lastUpdated => 1177444055
+	},
+
+	'username label' => {
+		message => q|اسم المستخدم<br />|,
+		lastUpdated => 1177445682
 	},
 
 	'status' => {
@@ -366,19 +357,14 @@ our $I18N = {
 		lastUpdated => 1173721564
 	},
 
-	'23' => {
-		message => q|المتغيرات التالية متوفرة من نموذج التقرير لوحة في الداخل/في الخارج<br /> |,
-		lastUpdated => 1173721898
-	},
-
 	'13' => {
 		message => q|نموذج التقرير<br />|,
 		lastUpdated => 1173721137
 	},
 
-	'date label' => {
-		message => q|التاريخ|,
-		lastUpdated => 1177444096
+	'23' => {
+		message => q|المتغيرات التالية متوفرة من نموذج التقرير لوحة في الداخل/في الخارج<br /> |,
+		lastUpdated => 1173721898
 	},
 
 	'status.label' => {
@@ -386,14 +372,9 @@ our $I18N = {
 		lastUpdated => 1177445464
 	},
 
-	'in/out status delegates description' => {
-		message => q|استخدم هذا النموذج لاختيار الاخرين لتغير حالتك على اللوحة. سيتم اختيار كل المستخمين الذين اخترتهم بالفعل. لالغاء مستخدم, الغي الاختيار الخاص به.<br />|,
-		lastUpdated => 1177444634
-	},
-
-	'14 description' => {
-		message => q|اختر عدد السطور التي تريد اظهارها في كل صفحة من صفحات التقرير. سيتم تزويدك بوصلات لكي تصل الى الصفحات الاضافية في التقرير. |,
-		lastUpdated => 1173721232
+	'date label' => {
+		message => q|التاريخ|,
+		lastUpdated => 1177444096
 	},
 
 	'6' => {
@@ -401,19 +382,29 @@ our $I18N = {
 		lastUpdated => 1177443901
 	},
 
+	'14 description' => {
+		message => q|اختر عدد السطور التي تريد اظهارها في كل صفحة من صفحات التقرير. سيتم تزويدك بوصلات لكي تصل الى الصفحات الاضافية في التقرير. |,
+		lastUpdated => 1173721232
+	},
+
+	'in/out status delegates description' => {
+		message => q|استخدم هذا النموذج لاختيار الاخرين لتغير حالتك على اللوحة. سيتم اختيار كل المستخمين الذين اخترتهم بالفعل. لالغاء مستخدم, الغي الاختيار الخاص به.<br />|,
+		lastUpdated => 1177444634
+	},
+
 	'in/out status delegates' => {
 		message => q|مندوبي حالة الدخول والخروج<br />|,
 		lastUpdated => 1177444553
 	},
 
-	'reportViewerGroup' => {
-		message => q|هوية المجموعة المسموح لها بالاطلاع على التقارير<br />|,
-		lastUpdated => 1177445272
-	},
-
 	'3' => {
 		message => q|من الممكن ان يطلع على التقرير؟<br />|,
 		lastUpdated => 1173721666
+	},
+
+	'reportViewerGroup' => {
+		message => q|هوية المجموعة المسموح لها بالاطلاع على التقارير<br />|,
+		lastUpdated => 1177445272
 	},
 
 	'in out board asset template variables body' => {

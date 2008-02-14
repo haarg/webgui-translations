@@ -1,5 +1,6 @@
 package WebGUI::i18n::Arabic::Asset_MultiSearch;
 
+
 our $I18N = {
 	'cache timeout help' => {
 		message => q|بما ان جميع المستخدمين سيرون هذا الاصل بنفس الشكل, من الممكن ان نزيد من وقت التكييش لكي نرفع الاداء. كم من الوقت يجب تحديده؟<br />|,
@@ -11,14 +12,14 @@ our $I18N = {
 		lastUpdated => 1164725450
 	},
 
-	'multisearch template body' => {
-		message => q|النموذج متعدد البحث له كل المتغيرات المستخدمة بالوبجيكت, و ايضا هذه<br />|,
-		lastUpdated => 1164725426
-	},
-
 	'MultiSearch Template' => {
 		message => q|نموذج متعدد البحث<br />|,
 		lastUpdated => 1164725019
+	},
+
+	'multisearch template body' => {
+		message => q|النموذج متعدد البحث له كل المتغيرات المستخدمة بالوبجيكت, و ايضا هذه<br />|,
+		lastUpdated => 1164725426
 	},
 
 	'submit' => {
@@ -26,19 +27,14 @@ our $I18N = {
 		lastUpdated => 1164725491
 	},
 
-	'for.variable' => {
-		message => q|علامة دولية لكلمة &quot;من اجل&quot;|,
-		lastUpdated => 1164725193
-	},
-
 	'assetName' => {
 		message => q|بحث متعدد<br />|,
 		lastUpdated => 1164725076
 	},
 
-	'multi search asset template variables body' => {
-		message => q|كل من الاصول يوفر مجموعة من المتغيرات لاغلب النماذج بناء على الخواص الداخلية للاصل. بعض هذه المتغيرات من الممكن ان يكون مفيد جدا, الاخرى لا تكون مفيدة<br />|,
-		lastUpdated => 1172758755
+	'for.variable' => {
+		message => q|علامة دولية لكلمة &quot;من اجل&quot;|,
+		lastUpdated => 1164725193
 	},
 
 	'multisearch template title' => {
@@ -46,9 +42,9 @@ our $I18N = {
 		lastUpdated => 1164725443
 	},
 
-	'multisearch add/edit body' => {
-		message => q|الوبجيكت متعدد البحث هو وبجيكت بسيط يسمح للمستخدم ان يبحث في العديد من محركات البحث. تظهر الاجابات في نافذة جديدة.<br />|,
-		lastUpdated => 1164725273
+	'multi search asset template variables body' => {
+		message => q|كل من الاصول يوفر مجموعة من المتغيرات لاغلب النماذج بناء على الخواص الداخلية للاصل. بعض هذه المتغيرات من الممكن ان يكون مفيد جدا, الاخرى لا تكون مفيدة<br />|,
+		lastUpdated => 1172758755
 	},
 
 	'cache timeout' => {
@@ -84,11 +80,6 @@ our $I18N = {
 	'MultiSearch Template description' => {
 		message => q|اختر نموذج لكي تظهر شكل الباحث المتعدد للمستخدم|,
 		lastUpdated => 1164725064
-	},
-
-	'multisearch add/edit title' => {
-		message => q|وبجيكت اضف/عدل متعدد البحث<br />|,
-		lastUpdated => 1164725337
 	},
 
 };

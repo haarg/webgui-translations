@@ -1,19 +1,20 @@
 package WebGUI::i18n::BrazilianPortuguese::Asset_Survey;
 
-our $I18N = {
-	'33' => {
-		message => q|Concordo Fortemente|,
-		lastUpdated => 1080074653
-	},
 
+our $I18N = {
 	'32' => {
 		message => q|Falso|,
 		lastUpdated => 1080074590
 	},
 
-	'63' => {
-		message => q|Exportar perguntas.|,
-		lastUpdated => 1080075673
+	'33' => {
+		message => q|Concordo Fortemente|,
+		lastUpdated => 1080074653
+	},
+
+	'21' => {
+		message => q|Ir Para|,
+		lastUpdated => 1080074419
 	},
 
 	'90' => {
@@ -21,9 +22,9 @@ our $I18N = {
 		lastUpdated => 1080076352
 	},
 
-	'21' => {
-		message => q|Ir Para|,
-		lastUpdated => 1080074419
+	'63' => {
+		message => q|Exportar perguntas.|,
+		lastUpdated => 1080075673
 	},
 
 	'71' => {
@@ -36,14 +37,14 @@ our $I18N = {
 		lastUpdated => 1081177973
 	},
 
-	'80' => {
-		message => q|segundos|,
-		lastUpdated => 1080076000
-	},
-
 	'26' => {
 		message => q|Adicionar uma resposta do tipo escala de frequência (sempre/nunca).|,
 		lastUpdated => 1080074491
+	},
+
+	'80' => {
+		message => q|segundos|,
+		lastUpdated => 1080076000
 	},
 
 	'18' => {
@@ -71,6 +72,11 @@ our $I18N = {
 		lastUpdated => 1081177908
 	},
 
+	'84' => {
+		message => q|Máximo de Respostas Submetidas Por Usuário|,
+		lastUpdated => 1080076130
+	},
+
 	'74' => {
 		message => q|Voce tem certeza de que quer apagar todos os dados submetidos?|,
 		lastUpdated => 1081178049
@@ -79,11 +85,6 @@ our $I18N = {
 	'27' => {
 		message => q|Adicionar uma resposta do tipo escala de opinião (concordo/discordo).|,
 		lastUpdated => 1080074506
-	},
-
-	'84' => {
-		message => q|Máximo de Respostas Submetidas Por Usuário|,
-		lastUpdated => 1080076130
 	},
 
 	'57' => {
@@ -106,11 +107,6 @@ our $I18N = {
 		lastUpdated => 1096145932
 	},
 
-	'89' => {
-		message => q||,
-		lastUpdated => 
-	},
-
 	'10' => {
 		message => q|Teste|,
 		lastUpdated => 1080074979
@@ -129,11 +125,6 @@ our $I18N = {
 	'11' => {
 		message => q|Modo|,
 		lastUpdated => 1080074192
-	},
-
-	'91' => {
-		message => q||,
-		lastUpdated => 
 	},
 
 	'78' => {
@@ -156,14 +147,14 @@ our $I18N = {
 		lastUpdated => 1080075974
 	},
 
-	'29' => {
-		message => q|Adicionar uma resposta textual.|,
-		lastUpdated => 1080074536
-	},
-
 	'65' => {
 		message => q|Exportar sumário composto.|,
 		lastUpdated => 1080075710
+	},
+
+	'29' => {
+		message => q|Adicionar uma resposta textual.|,
+		lastUpdated => 1080074536
 	},
 
 	'50' => {
@@ -181,9 +172,9 @@ our $I18N = {
 		lastUpdated => 1081177872
 	},
 
-	'58' => {
-		message => q|Sumário Estatístico|,
-		lastUpdated => 1080075586
+	'12' => {
+		message => q|Quem pode responder?|,
+		lastUpdated => 1080223492
 	},
 
 	'41' => {
@@ -191,9 +182,9 @@ our $I18N = {
 		lastUpdated => 1080074743
 	},
 
-	'12' => {
-		message => q|Quem pode responder?|,
-		lastUpdated => 1080223492
+	'58' => {
+		message => q|Sumário Estatístico|,
+		lastUpdated => 1080075586
 	},
 
 	'15' => {
@@ -201,14 +192,14 @@ our $I18N = {
 		lastUpdated => 1080083504
 	},
 
-	'52' => {
-		message => q|Pontuação|,
-		lastUpdated => 1080075341
-	},
-
 	'81' => {
 		message => q|Habilitar respostas anônimas (usuários não registrados)?|,
 		lastUpdated => 1080083497
+	},
+
+	'52' => {
+		message => q|Pontuação|,
+		lastUpdated => 1080075341
 	},
 
 	'60' => {
@@ -221,9 +212,9 @@ our $I18N = {
 		lastUpdated => 1080075486
 	},
 
-	'73' => {
-		message => q|Apagar todos os dados submetidos.|,
-		lastUpdated => 1081177991
+	'45' => {
+		message => q|Você tem certeza de que quer apagar esta resposta, e os dados submetidos à ela?|,
+		lastUpdated => 1081177853
 	},
 
 	'66' => {
@@ -231,14 +222,14 @@ our $I18N = {
 		lastUpdated => 1081177920
 	},
 
-	'45' => {
-		message => q|Você tem certeza de que quer apagar esta resposta, e os dados submetidos à ela?|,
-		lastUpdated => 1081177853
+	'73' => {
+		message => q|Apagar todos os dados submetidos.|,
+		lastUpdated => 1081177991
 	},
 
-	'76' => {
-		message => q|Hora de Início|,
-		lastUpdated => 1080075964
+	'86' => {
+		message => q|Progresso|,
+		lastUpdated => 1080076277
 	},
 
 	'19' => {
@@ -246,9 +237,9 @@ our $I18N = {
 		lastUpdated => 1080074383
 	},
 
-	'86' => {
-		message => q|Progresso|,
-		lastUpdated => 1080076277
+	'76' => {
+		message => q|Hora de Início|,
+		lastUpdated => 1080075964
 	},
 
 	'62' => {
@@ -281,11 +272,6 @@ our $I18N = {
 		lastUpdated => 1080074348
 	},
 
-	'1' => {
-		message => q|Questionário|,
-		lastUpdated => 1080073984
-	},
-
 	'88' => {
 		message => q|Modelo de Questionário|,
 		lastUpdated => 1080076319
@@ -311,6 +297,11 @@ our $I18N = {
 		lastUpdated => 1080074572
 	},
 
+	'40' => {
+		message => q|Sempre|,
+		lastUpdated => 1080074721
+	},
+
 	'83' => {
 		message => q|Perguntas Por Página|,
 		lastUpdated => 1080076092
@@ -321,24 +312,19 @@ our $I18N = {
 		lastUpdated => 1080075950
 	},
 
-	'40' => {
-		message => q|Sempre|,
-		lastUpdated => 1080074721
-	},
-
 	'14' => {
 		message => q|Pergunta|,
 		lastUpdated => 1080074253
 	},
 
-	'59' => {
-		message => q|Ver sumário estatístico.|,
-		lastUpdated => 1080075599
-	},
-
 	'69' => {
 		message => q|Apagar os dados submetidos por este usuário.|,
 		lastUpdated => 1081178025
+	},
+
+	'59' => {
+		message => q|Ver sumário estatístico.|,
+		lastUpdated => 1080075599
 	},
 
 	'49' => {
@@ -361,14 +347,14 @@ our $I18N = {
 		lastUpdated => 1080075991
 	},
 
-	'22' => {
-		message => q|Tipo de Resposta|,
-		lastUpdated => 1080074276
-	},
-
 	'42' => {
 		message => q|Ocasionalmente|,
 		lastUpdated => 1080074751
+	},
+
+	'22' => {
+		message => q|Tipo de Resposta|,
+		lastUpdated => 1080074276
 	},
 
 	'46' => {
@@ -376,14 +362,14 @@ our $I18N = {
 		lastUpdated => 1080074945
 	},
 
-	'23' => {
-		message => q|Adicionar uma nova resposta.|,
-		lastUpdated => 1080074428
-	},
-
 	'13' => {
 		message => q|Quem tem acesso aos relatórios?|,
 		lastUpdated => 1080223502
+	},
+
+	'23' => {
+		message => q|Adicionar uma nova resposta.|,
+		lastUpdated => 1080074428
 	},
 
 	'6' => {
@@ -401,9 +387,9 @@ our $I18N = {
 		lastUpdated => 1080074673
 	},
 
-	'3' => {
-		message => q|Questionário, Adicionar/Editar|,
-		lastUpdated => 1080074549
+	'9' => {
+		message => q|Questionário|,
+		lastUpdated => 1080076330
 	},
 
 	'51' => {
@@ -411,19 +397,9 @@ our $I18N = {
 		lastUpdated => 1080075018
 	},
 
-	'9' => {
-		message => q|Questionário|,
-		lastUpdated => 1080076330
-	},
-
 	'47' => {
 		message => q|Você completou o teste.|,
 		lastUpdated => 1080074983
-	},
-
-	'38' => {
-		message => q|Discordo Fortemente|,
-		lastUpdated => 1080074699
 	},
 
 	'8' => {
@@ -431,9 +407,9 @@ our $I18N = {
 		lastUpdated => 1080076140
 	},
 
-	'4' => {
-		message => q||,
-		lastUpdated => 
+	'38' => {
+		message => q|Discordo Fortemente|,
+		lastUpdated => 1080074699
 	},
 
 	'34' => {

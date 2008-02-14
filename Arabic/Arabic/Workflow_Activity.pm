@@ -1,5 +1,6 @@
 package WebGUI::i18n::Arabic::Workflow_Activity;
 
+
 our $I18N = {
 	'title help' => {
 		message => q|ضع ايما في هذا المكان يعرف عمل هذا النشاط |,
@@ -9,16 +10,6 @@ our $I18N = {
 	'description help' => {
 		message => q|ضع شرحا مطولا هنا لكيفية عمل هذا النشاط<br />|,
 		lastUpdated => 1166716383
-	},
-
-	'add/edit workflow activity body' => {
-		message => q|اغللب انشطة سريان العمل لها هذه الخواص و الاماكن.<br />|,
-		lastUpdated => 1166716343
-	},
-
-	'add/edit workflow activity' => {
-		message => q|نشاط سريان العمل اضف/عدل<br />|,
-		lastUpdated => 1166716271
 	},
 
 	'description' => {

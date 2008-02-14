@@ -1,14 +1,10 @@
 package WebGUI::i18n::Dutch::Subscription;
 
+
 our $I18N = {
 	'subscription description' => {
 		message => q|Beschrijving|,
 		lastUpdated => 1155822356
-	},
-
-	'help manage batch title' => {
-		message => q|Inschrijving, beheer inschrijvingscode-batches|,
-		lastUpdated => 1155746707
 	},
 
 	'code length description' => {
@@ -36,14 +32,14 @@ our $I18N = {
 		lastUpdated => 1155823972
 	},
 
-	'delete batch confirm' => {
-		message => q|Weet u zeker dat u deze batch wilt verwijderen? |,
-		lastUpdated => 1155741538
-	},
-
 	'code' => {
 		message => q|Code|,
 		lastUpdated => 1155739003
+	},
+
+	'delete batch confirm' => {
+		message => q|Weet u zeker dat u deze batch wilt verwijderen? |,
+		lastUpdated => 1155741538
 	},
 
 	'redeem code success' => {
@@ -156,11 +152,6 @@ our $I18N = {
 		lastUpdated => 1155821538
 	},
 
-	'help create batch title' => {
-		message => q|Inschrijving, cre&euml;er batches met inschrijvingscodes|,
-		lastUpdated => 1155742613
-	},
-
 	'batch id' => {
 		message => q|Batch ID|,
 		lastUpdated => 1155738951
@@ -206,11 +197,6 @@ our $I18N = {
 		lastUpdated => 1155742531
 	},
 
-	'help edit subscription title' => {
-		message => q|Inschrijving, toevoegen/bewerken|,
-		lastUpdated => 1155745865
-	},
-
 	'selection used' => {
 		message => q|Gebruiksdatum tussen|,
 		lastUpdated => 1155822337
@@ -219,11 +205,6 @@ our $I18N = {
 	'batch description' => {
 		message => q|Batch beschrijving|,
 		lastUpdated => 1155738855
-	},
-
-	'help manage batch body' => {
-		message => q|Inschrijvingscode-batches zijn opslagruimten voor inschrijvingscodes. Inschrijvingscodes worden altijd gegenereerd in batches, zelfs als er slechts &eacute;&eacute;n code in een batch zit. Alle codes in dezellfde batch delen dezelfde eigenschappen, behalve de statusvlag.|,
-		lastUpdated => 1155746605
 	},
 
 	'redeem code' => {
@@ -236,11 +217,6 @@ our $I18N = {
 		lastUpdated => 1155824070
 	},
 
-	'help create batch body' => {
-		message => q|Genereer een batch met inschrijvingscodes.|,
-		lastUpdated => 1155742575
-	},
-
 	'listSubscriptionCodes title' => {
 		message => q|Beheer inschrijvingscodes|,
 		lastUpdated => 1155809294
@@ -249,11 +225,6 @@ our $I18N = {
 	'subscription group description' => {
 		message => q|Als een gebruiker het tarief heeft betaald, zal hij/zij worden toegevoegd aan deze groep. |,
 		lastUpdated => 1180655411
-	},
-
-	'help edit subscription body' => {
-		message => q|Een inschrijving geeft de gebruiker een stuk inhoud waar hij/zij voor betaald heeft. Het volgende is de lijst van eigenschappen bij elke beschrijving.|,
-		lastUpdated => 1180655393
 	},
 
 	'codes expire' => {
@@ -271,11 +242,6 @@ our $I18N = {
 		lastUpdated => 1155809992
 	},
 
-	'help manage subscription codes title' => {
-		message => q|Inschrijving, beheer inschrijvingscodes|,
-		lastUpdated => 1155747477
-	},
-
 	'creation date' => {
 		message => q|Aanmaakdatum|,
 		lastUpdated => 1155740793
@@ -284,11 +250,6 @@ our $I18N = {
 	'execute on subscription' => {
 		message => q|Uitvoeren op inschrijving|,
 		lastUpdated => 1155741590
-	},
-
-	'help manage subscriptions title' => {
-		message => q|Inschrijvingen, beheren|,
-		lastUpdated => 1155754776
 	},
 
 	'status' => {
@@ -331,9 +292,9 @@ our $I18N = {
 		lastUpdated => 1155824078
 	},
 
-	'dateUsed' => {
-		message => q|Datum van gebruik |,
-		lastUpdated => 1155740803
+	'select' => {
+		message => q|Geef selectie weer|,
+		lastUpdated => 1155821398
 	},
 
 	'create batch error' => {
@@ -341,24 +302,14 @@ our $I18N = {
 		lastUpdated => 1155740742
 	},
 
-	'select' => {
-		message => q|Geef selectie weer|,
-		lastUpdated => 1155821398
+	'dateUsed' => {
+		message => q|Datum van gebruik |,
+		lastUpdated => 1155740803
 	},
 
 	'list codes in batch' => {
 		message => q|Zet de codes in deze batch in een lijst|,
 		lastUpdated => 1155809038
-	},
-
-	'help manage subscription codes body' => {
-		message => q|A subscription code is een string van karakters, die gebonden is aan een set van inschrijvingen. Een gebruiker kan zo&#39;n code behouden, en zo zichzelf voor een termijn inschrijven op alle inschrijvingen waar de code mee verbonden is, gebruikmakend van de link &#39;Behoud een inschrijvingscode&#39; in zijn account-menu. Let op dat voor het behouden van een inschrijvingscode geen geld in rekening wordt gebracht. |,
-		lastUpdated => 1155747331
-	},
-
-	'help manage subscriptions body' => {
-		message => q|Inschrijvingen stellen u in staat toegang tot uw gebruikersgroep te verkopen op een inschrijvingsbasis. U kunt de inschrijvingen gebruiken om inhoud te verkopen aan uw gebruikers door deze inhoud alleen zichtbaar te maken voor de groep waar mensen zich aan toevoegen door zich in te schrijven.|,
-		lastUpdated => 1180655404
 	},
 
 	'subscription karma description' => {

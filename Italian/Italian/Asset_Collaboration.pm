@@ -1,5 +1,6 @@
 package WebGUI::i18n::Italian::Asset_Collaboration;
 
+
 our $I18N = {
 	'add.label' => {
 		message => q|Aggiungi|,
@@ -41,12 +42,12 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'docs' => {
+	'timeUpdated.human' => {
 		message => q||,
 		lastUpdated => 
 	},
 
-	'timeUpdated.human' => {
+	'docs' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -76,14 +77,14 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'unlock.label' => {
-		message => q||,
-		lastUpdated => 
-	},
-
 	'read more' => {
 		message => q|Continua...|,
 		lastUpdated => 1157631835
+	},
+
+	'unlock.label' => {
+		message => q||,
+		lastUpdated => 
 	},
 
 	'max image size help' => {
@@ -101,12 +102,12 @@ our $I18N = {
 		lastUpdated => 1157639885
 	},
 
-	'pubDate' => {
+	'user.isModerator' => {
 		message => q||,
 		lastUpdated => 
 	},
 
-	'user.isModerator' => {
+	'pubDate' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -136,11 +137,6 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'collaboration template body' => {
-		message => q||,
-		lastUpdated => 
-	},
-
 	'previous' => {
 		message => q|Precedente|,
 		lastUpdated => 1157483014
@@ -166,17 +162,12 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'posts/page description' => {
-		message => q||,
-		lastUpdated => 
-	},
-
 	'by.label' => {
 		message => q|Di|,
 		lastUpdated => 1157631905
 	},
 
-	'back.url' => {
+	'posts/page description' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -186,12 +177,12 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'lastReply.dateSubmitted.human' => {
+	'back.url' => {
 		message => q||,
 		lastUpdated => 
 	},
 
-	'user.canPost' => {
+	'lastReply.dateSubmitted.human' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -201,12 +192,17 @@ our $I18N = {
 		lastUpdated => 
 	},
 
+	'user.canPost' => {
+		message => q||,
+		lastUpdated => 
+	},
+
 	'image' => {
 		message => q||,
 		lastUpdated => 
 	},
 
-	'fatal' => {
+	'visitor cache timeout help' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -216,7 +212,7 @@ our $I18N = {
 		lastUpdated => 1157312045
 	},
 
-	'visitor cache timeout help' => {
+	'fatal' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -316,19 +312,19 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'by' => {
-		message => q|Di|,
-		lastUpdated => 1157631895
-	},
-
 	'cosmetic' => {
 		message => q||,
 		lastUpdated => 
 	},
 
-	'system template' => {
-		message => q||,
-		lastUpdated => 
+	'by' => {
+		message => q|Di|,
+		lastUpdated => 1157631895
+	},
+
+	'preview' => {
+		message => q|anteprima|,
+		lastUpdated => 1156938804
 	},
 
 	'mail account help' => {
@@ -336,9 +332,9 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'preview' => {
-		message => q|anteprima|,
-		lastUpdated => 1156938804
+	'system template' => {
+		message => q||,
+		lastUpdated => 
 	},
 
 	'cosmetic.label' => {
@@ -361,17 +357,12 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'collaboration add/edit body' => {
-		message => q||,
-		lastUpdated => 
-	},
-
 	'add' => {
 		message => q|Aggiungi|,
 		lastUpdated => 1156938183
 	},
 
-	'allow replies' => {
+	'thumbnail size help' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -381,7 +372,7 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'thumbnail size help' => {
+	'allow replies' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -406,27 +397,12 @@ our $I18N = {
 		lastUpdated => 1157631844
 	},
 
-	'guid' => {
-		message => q||,
-		lastUpdated => 
-	},
-
 	'post_loop' => {
 		message => q||,
 		lastUpdated => 
 	},
 
-	'system template description' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'collaboration add/edit title' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'delete.label' => {
+	'guid' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -436,7 +412,22 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'unsubscribe.url' => {
+	'delete.label' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'system template description' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'closed' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'thumbnail' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -446,12 +437,7 @@ our $I18N = {
 		lastUpdated => 1157639768
 	},
 
-	'thumbnail' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'closed' => {
+	'unsubscribe.url' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -476,17 +462,17 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'close.label' => {
-		message => q||,
-		lastUpdated => 
-	},
-
 	'rich editor' => {
 		message => q||,
 		lastUpdated => 
 	},
 
-	'responses.label' => {
+	'close.label' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'collaboration template labels title' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -496,7 +482,7 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'collaboration template labels title' => {
+	'responses.label' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -616,11 +602,6 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'collaboration post list template variables body' => {
-		message => q||,
-		lastUpdated => 
-	},
-
 	'url.label' => {
 		message => q||,
 		lastUpdated => 
@@ -641,12 +622,12 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'use preview description' => {
+	'approval workflow description' => {
 		message => q||,
 		lastUpdated => 
 	},
 
-	'approval workflow description' => {
+	'use preview description' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -681,11 +662,6 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'collaboration template labels body' => {
-		message => q||,
-		lastUpdated => 
-	},
-
 	'lastReply.user.isVisitor' => {
 		message => q||,
 		lastUpdated => 
@@ -706,12 +682,12 @@ our $I18N = {
 		lastUpdated => 1157482809
 	},
 
-	'feed description' => {
+	'rss template description' => {
 		message => q||,
 		lastUpdated => 
 	},
 
-	'rss template description' => {
+	'feed description' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -736,19 +712,14 @@ our $I18N = {
 		lastUpdated => 1156938503
 	},
 
-	'mail password help' => {
-		message => q||,
-		lastUpdated => 
-	},
-
 	'responses' => {
 		message => q||,
 		lastUpdated => 
 	},
 
-	'title.label' => {
-		message => q|Titolo|,
-		lastUpdated => 1157639897
+	'mail password help' => {
+		message => q||,
+		lastUpdated => 
 	},
 
 	'subject.label' => {
@@ -756,9 +727,9 @@ our $I18N = {
 		lastUpdated => 1156938448
 	},
 
-	'collaboration post list template variables title' => {
-		message => q||,
-		lastUpdated => 
+	'title.label' => {
+		message => q|Titolo|,
+		lastUpdated => 1157639897
 	},
 
 	'lock.label' => {
@@ -766,7 +737,7 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'item description' => {
+	'collaboration post list template variables title' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -776,17 +747,22 @@ our $I18N = {
 		lastUpdated => 1157640046
 	},
 
+	'item description' => {
+		message => q||,
+		lastUpdated => 
+	},
+
 	'job description' => {
 		message => q||,
 		lastUpdated => 
 	},
 
-	'webMaster' => {
+	'lastReply.userProfile.url' => {
 		message => q||,
 		lastUpdated => 
 	},
 
-	'lastReply.userProfile.url' => {
+	'webMaster' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -1051,11 +1027,6 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'collaboration search template body' => {
-		message => q||,
-		lastUpdated => 
-	},
-
 	'post template' => {
 		message => q||,
 		lastUpdated => 
@@ -1296,12 +1267,17 @@ our $I18N = {
 		lastUpdated => 1157459856
 	},
 
+	'allow replies description' => {
+		message => q||,
+		lastUpdated => 
+	},
+
 	'karma scale' => {
 		message => q||,
 		lastUpdated => 
 	},
 
-	'allow replies description' => {
+	'threads/page description' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -1311,7 +1287,7 @@ our $I18N = {
 		lastUpdated => 1157483226
 	},
 
-	'threads/page description' => {
+	'tmplVar status' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -1321,12 +1297,12 @@ our $I18N = {
 		lastUpdated => 1156938464
 	},
 
-	'tmplVar status' => {
+	'subscribe.url' => {
 		message => q||,
 		lastUpdated => 
 	},
 
-	'subscribe.url' => {
+	'userProfile.url' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -1334,11 +1310,6 @@ our $I18N = {
 	'layout.flat.label' => {
 		message => q|Elenco|,
 		lastUpdated => 1157483260
-	},
-
-	'userProfile.url' => {
-		message => q||,
-		lastUpdated => 
 	},
 
 	'previous.label' => {
@@ -1361,19 +1332,19 @@ our $I18N = {
 		lastUpdated => 1157311933
 	},
 
-	'lastReply' => {
-		message => q|Ultima risposta|,
-		lastUpdated => 1174234798
-	},
-
 	'timeSubmitted.human' => {
 		message => q||,
 		lastUpdated => 
 	},
 
-	'enable avatars description' => {
-		message => q||,
-		lastUpdated => 
+	'lastReply' => {
+		message => q|Ultima risposta|,
+		lastUpdated => 1174234798
+	},
+
+	'submission.header.label' => {
+		message => q|Modifica articolo|,
+		lastUpdated => 1157639745
 	},
 
 	'description.label' => {
@@ -1381,9 +1352,9 @@ our $I18N = {
 		lastUpdated => 1157639982
 	},
 
-	'submission.header.label' => {
-		message => q|Modifica articolo|,
-		lastUpdated => 1157639745
+	'enable avatars description' => {
+		message => q||,
+		lastUpdated => 
 	},
 
 	'search' => {
@@ -1436,12 +1407,12 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'search template' => {
+	'edit question' => {
 		message => q||,
 		lastUpdated => 
 	},
 
-	'edit question' => {
+	'search template' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -1466,17 +1437,17 @@ our $I18N = {
 		lastUpdated => 1174234814
 	},
 
-	'visitor' => {
-		message => q|Tuo nome|,
-		lastUpdated => 1161979981
-	},
-
 	'job requirements' => {
 		message => q||,
 		lastUpdated => 
 	},
 
-	'collaboration rss template body' => {
+	'visitor' => {
+		message => q|Tuo nome|,
+		lastUpdated => 1161979981
+	},
+
+	'tmplVar thumbnail' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -1486,17 +1457,12 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'tmplVar thumbnail' => {
+	'visitor cache timeout' => {
 		message => q||,
 		lastUpdated => 
 	},
 
 	'query.form' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'visitor cache timeout' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -1526,14 +1492,14 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'nested' => {
-		message => q|Annidato|,
-		lastUpdated => 1157483246
-	},
-
 	'views.label' => {
 		message => q|Consultazioni|,
 		lastUpdated => 1157312198
+	},
+
+	'nested' => {
+		message => q|Annidato|,
+		lastUpdated => 1157483246
 	},
 
 	'reply' => {
@@ -1546,12 +1512,12 @@ our $I18N = {
 		lastUpdated => 1157640415
 	},
 
-	'mail account' => {
+	'archive after description' => {
 		message => q||,
 		lastUpdated => 
 	},
 
-	'archive after description' => {
+	'mail account' => {
 		message => q||,
 		lastUpdated => 
 	},

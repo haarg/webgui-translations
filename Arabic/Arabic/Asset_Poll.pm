@@ -1,5 +1,6 @@
 package WebGUI::i18n::Arabic::Asset_Poll;
 
+
 our $I18N = {
 	'form.end' => {
 		message => q|نهاية نموذج التصويت|,
@@ -11,19 +12,14 @@ our $I18N = {
 		lastUpdated => 1177010482
 	},
 
-	'71' => {
-		message => q|الاستطلاعات يمكن استخدامها لجمع الانطباعات من المستخدمين حول امور مختلفة. التصويتات وبجيكتس و اصول و بالتالي لها الخواص المبدأية لكلاهما. للتصويتات ايضا الخواص الفريدة:|,
-		lastUpdated => 1177010469
+	'7' => {
+		message => q|الاجوبة|,
+		lastUpdated => 1177010459
 	},
 
 	'generate graph description' => {
 		message => q|اضبط هذا على تشغيل من اجل عمل صورة الرسم البياني|,
 		lastUpdated => 1177011164
-	},
-
-	'7' => {
-		message => q|الاجوبة|,
-		lastUpdated => 1177010459
 	},
 
 	'assetName' => {
@@ -41,9 +37,9 @@ our $I18N = {
 		lastUpdated => 1177011130
 	},
 
-	'hasImageGraph' => {
-		message => q|A.|,
-		lastUpdated => 1177011193
+	'72' => {
+		message => q|اخلط الاجابات عشوائيا؟|,
+		lastUpdated => 1177010474
 	},
 
 	'poll asset template variables body' => {
@@ -51,14 +47,9 @@ our $I18N = {
 		lastUpdated => 1177011204
 	},
 
-	'72' => {
-		message => q|اخلط الاجابات عشوائيا؟|,
-		lastUpdated => 1177010474
-	},
-
-	'generateGraph' => {
-		message => q|شرط سيتحقق اذا تم ضبط التصويت على عرض رسم بياني|,
-		lastUpdated => 1177011170
+	'hasImageGraph' => {
+		message => q|A.|,
+		lastUpdated => 1177011193
 	},
 
 	'canVote' => {
@@ -66,9 +57,9 @@ our $I18N = {
 		lastUpdated => 1177011137
 	},
 
-	'graphConfiguration' => {
-		message => q|نوع الرسم البياني|,
-		lastUpdated => 1177011175
+	'generateGraph' => {
+		message => q|شرط سيتحقق اذا تم ضبط التصويت على عرض رسم بياني|,
+		lastUpdated => 1177011170
 	},
 
 	'answer.form' => {
@@ -76,9 +67,9 @@ our $I18N = {
 		lastUpdated => 1177010559
 	},
 
-	'74' => {
-		message => q|المتغيرات التالية متوفرة على نموذج التصويت|,
-		lastUpdated => 1177010497
+	'graphConfiguration' => {
+		message => q|نوع الرسم البياني|,
+		lastUpdated => 1177011175
 	},
 
 	'voteGroup' => {
@@ -91,24 +82,19 @@ our $I18N = {
 		lastUpdated => 1177010523
 	},
 
-	'61' => {
-		message => q|تصويت, اضف/عدل|,
-		lastUpdated => 1177010453
-	},
-
 	'answer.number' => {
 		message => q|رقم هذه الاجابة, مثل 1 2 3 الخ|,
 		lastUpdated => 1177011100
 	},
 
-	'5 description' => {
-		message => q|عرض الرسم البياني لنتائج التصويت. يقاس العرض بالبكسيل. العرض الاعتيادي 150 بكسيل.|,
-		lastUpdated => 1177010431
-	},
-
 	'4 description' => {
 		message => q|اختر مجموعة تستطيع التصويت على هذا الاستطلاع. المجموعة الاعتيادية هي الجميع.|,
 		lastUpdated => 1177010420
+	},
+
+	'5 description' => {
+		message => q|عرض الرسم البياني لنتائج التصويت. يقاس العرض بالبكسيل. العرض الاعتيادي 150 بكسيل.|,
+		lastUpdated => 1177010431
 	},
 
 	'20' => {
@@ -156,14 +142,14 @@ our $I18N = {
 		lastUpdated => 1177010535
 	},
 
-	'form.start' => {
-		message => q|بداية نموذج التصويت|,
-		lastUpdated => 1177011148
-	},
-
 	'7 description' => {
 		message => q|ادخل الاجابات الممكنة لسؤالك. ادخل اجابة واحدة في السطر. التصويتات قادرة على حمل 20 اجابة فقط. |,
 		lastUpdated => 1177010462
+	},
+
+	'form.start' => {
+		message => q|بداية نموذج التصويت|,
+		lastUpdated => 1177011148
 	},
 
 	'karmaPerVote' => {
@@ -171,14 +157,14 @@ our $I18N = {
 		lastUpdated => 1177011199
 	},
 
-	'templateId' => {
-		message => q|هوية النموذج المستخدم لعرض الاصل|,
-		lastUpdated => 1177011245
-	},
-
 	'6 description' => {
 		message => q|ما السؤال الذي تريد ان تسأله للمستخدمين؟|,
 		lastUpdated => 1177010447
+	},
+
+	'templateId' => {
+		message => q|هوية النموذج المستخدم لعرض الاصل|,
+		lastUpdated => 1177011245
 	},
 
 	'6' => {
@@ -196,9 +182,9 @@ our $I18N = {
 		lastUpdated => 1177011124
 	},
 
-	'graphUrl' => {
-		message => q|الرابط الى الرسم البياني لنتائج التصويت. هذا سيمكن ضبطه فقط اذا تم ضبط التصويت على ان يقوم بعمل رسم بياني و كان ضبط الرسم البياني مصرح به.|,
-		lastUpdated => 1177011181
+	'9' => {
+		message => q|عدل التصويت|,
+		lastUpdated => 1177010508
 	},
 
 	'form.submit' => {
@@ -206,14 +192,9 @@ our $I18N = {
 		lastUpdated => 1177011154
 	},
 
-	'9' => {
-		message => q|عدل التصويت|,
-		lastUpdated => 1177010508
-	},
-
-	'randomizeAnswers' => {
-		message => q|شرط سيتحقق اذا تم ضبط التصويت على خلط الاجابات المعروضة|,
-		lastUpdated => 1177011220
+	'graphUrl' => {
+		message => q|الرابط الى الرسم البياني لنتائج التصويت. هذا سيمكن ضبطه فقط اذا تم ضبط التصويت على ان يقوم بعمل رسم بياني و كان ضبط الرسم البياني مصرح به.|,
+		lastUpdated => 1177011181
 	},
 
 	'12' => {
@@ -221,9 +202,14 @@ our $I18N = {
 		lastUpdated => 1177010389
 	},
 
-	'poll asset template variables title' => {
-		message => q|كتغيرات نموذج اصل التصويت|,
-		lastUpdated => 1177011209
+	'randomizeAnswers' => {
+		message => q|شرط سيتحقق اذا تم ضبط التصويت على خلط الاجابات المعروضة|,
+		lastUpdated => 1177011220
+	},
+
+	'8' => {
+		message => q|ادخل اجابة واحدة في السطر, لا تزد عن 20|,
+		lastUpdated => 1177010503
 	},
 
 	'question' => {
@@ -231,9 +217,9 @@ our $I18N = {
 		lastUpdated => 1177011215
 	},
 
-	'8' => {
-		message => q|ادخل اجابة واحدة في السطر, لا تزد عن 20|,
-		lastUpdated => 1177010503
+	'poll asset template variables title' => {
+		message => q|كتغيرات نموذج اصل التصويت|,
+		lastUpdated => 1177011209
 	},
 
 	'4' => {
@@ -246,14 +232,14 @@ our $I18N = {
 		lastUpdated => 1177011188
 	},
 
-	'generate graph' => {
-		message => q|قم بعمل صورة رسم بياني|,
-		lastUpdated => 1177011159
-	},
-
 	'answer.percent' => {
 		message => q|نسبة الاصوات التي حصلت عليها هذه الاجابة|,
 		lastUpdated => 1177011107
+	},
+
+	'generate graph' => {
+		message => q|قم بعمل صورة رسم بياني|,
+		lastUpdated => 1177011159
 	},
 
 	'73' => {
@@ -261,14 +247,14 @@ our $I18N = {
 		lastUpdated => 1177010485
 	},
 
-	'responses.total' => {
-		message => q|اجمالي عدد الاصوات التي تلقتاها التصويت|,
-		lastUpdated => 1177011235
-	},
-
 	'responses.label' => {
 		message => q|العلامة لاجمالي الردود "اجمالي الاصوات"|,
 		lastUpdated => 1177011229
+	},
+
+	'responses.total' => {
+		message => q|اجمالي عدد الاصوات التي تلقتاها التصويت|,
+		lastUpdated => 1177011235
 	},
 
 	'5' => {

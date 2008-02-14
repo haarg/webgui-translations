@@ -1,5 +1,6 @@
 package WebGUI::i18n::Italian::Asset_Dashboard;
 
+
 our $I18N = {
 	'assets to hide' => {
 		message => q|Widget da nascondere.|,
@@ -7,16 +8,6 @@ our $I18N = {
 	},
 
 	'assetName' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'dashboard add/edit body' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'dashboard add/edit title' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -31,17 +22,17 @@ our $I18N = {
 		lastUpdated => 
 	},
 
+	'dashboard usersGroupId field label' => {
+		message => q||,
+		lastUpdated => 
+	},
+
 	'assets to hide description' => {
 		message => q||,
 		lastUpdated => 
 	},
 
 	'dashboard template field label' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'dashboard usersGroupId field label' => {
 		message => q||,
 		lastUpdated => 
 	},

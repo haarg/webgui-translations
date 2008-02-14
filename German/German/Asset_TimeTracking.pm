@@ -1,12 +1,13 @@
 package WebGUI::i18n::German::Asset_TimeTracking;
 
+
 our $I18N = {
-	'time.add.row.label' => {
+	'Project Management Integration' => {
 		message => q||,
 		lastUpdated => 
 	},
 
-	'Project Management Integration' => {
+	'time.add.row.label' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -16,12 +17,12 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'time report task label' => {
+	'No  name was entered for new task' => {
 		message => q||,
 		lastUpdated => 
 	},
 
-	'No  name was entered for new task' => {
+	'time report task label' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -36,27 +37,12 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'You may not submit more hours than are available during any given week.' => {
-		message => q||,
-		lastUpdated => 
-	},
-
 	'New Task Name' => {
 		message => q||,
 		lastUpdated => 
 	},
 
-	'user view template body' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'managerViewTemplateId' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'form.hours' => {
+	'You may not submit more hours than are available during any given week.' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -66,12 +52,12 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'time tracking asset template variables body' => {
-		message => q|Jedes Asset bietet ihren Templates einen Satz an Variablen, die auf den Asset Eigenschaften basieren. Einige dieser Variablen k&ouml;nnen n&uuml;tzlich sein, andere nicht.|,
-		lastUpdated => 1170406462
+	'form.hours' => {
+		message => q||,
+		lastUpdated => 
 	},
 
-	'time.report.totalHours.label' => {
+	'managerViewTemplateId' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -81,12 +67,17 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'row.id' => {
+	'time.report.totalHours.label' => {
 		message => q||,
 		lastUpdated => 
 	},
 
 	'time report project label' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'row.id' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -97,11 +88,6 @@ our $I18N = {
 	},
 
 	'report.isComplete' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'time row template body' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -126,17 +112,12 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'project.task.array' => {
-		message => q||,
-		lastUpdated => 
-	},
-
 	'timeRowTemplateId' => {
 		message => q||,
 		lastUpdated => 
 	},
 
-	'manage projects body' => {
+	'project.task.array' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -191,17 +172,12 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'groupToManage' => {
-		message => q||,
-		lastUpdated => 
-	},
-
 	'project manage label' => {
 		message => q||,
 		lastUpdated => 
 	},
 
-	'edit projects body' => {
+	'groupToManage' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -211,12 +187,12 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'edit project id label' => {
+	'groupToManage hoverhelp' => {
 		message => q||,
 		lastUpdated => 
 	},
 
-	'groupToManage hoverhelp' => {
+	'edit project id label' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -301,11 +277,6 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'timetracking add/edit body' => {
-		message => q||,
-		lastUpdated => 
-	},
-
 	'time.save.label' => {
 		message => q||,
 		lastUpdated => 
@@ -321,12 +292,12 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'Are you sure you want to delete this activity' => {
+	'Tasks' => {
 		message => q||,
 		lastUpdated => 
 	},
 
-	'Tasks' => {
+	'Are you sure you want to delete this activity' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -336,17 +307,12 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'Report Complete' => {
-		message => q||,
-		lastUpdated => 
-	},
-
 	'Add' => {
 		message => q||,
 		lastUpdated => 
 	},
 
-	'edit project resource hoverhelp' => {
+	'Report Complete' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -356,7 +322,7 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'js.alert.removeRow.error' => {
+	'edit project resource hoverhelp' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -366,12 +332,17 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'Choose One' => {
+	'js.alert.removeRow.error' => {
 		message => q||,
 		lastUpdated => 
 	},
 
 	'time report header' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'Choose One' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -386,14 +357,14 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'time.report.complete.label' => {
-		message => q||,
-		lastUpdated => 
-	},
-
 	'Save' => {
 		message => q|Speichern|,
 		lastUpdated => 1157856592
+	},
+
+	'time.report.complete.label' => {
+		message => q||,
+		lastUpdated => 
 	},
 
 	'report.nextWeek.url' => {
@@ -416,17 +387,12 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'extras' => {
-		message => q||,
-		lastUpdated => 
-	},
-
 	'managerViewTemplate hoverhelp' => {
 		message => q||,
 		lastUpdated => 
 	},
 
-	'timetracking add/edit title' => {
+	'extras' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -451,12 +417,12 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'time tracking asset template variables title' => {
+	'form.footer' => {
 		message => q||,
 		lastUpdated => 
 	},
 
-	'form.footer' => {
+	'time tracking asset template variables title' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -471,22 +437,22 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'userViewTemplateId' => {
-		message => q||,
-		lastUpdated => 
-	},
-
 	'time.report.header' => {
 		message => q||,
 		lastUpdated => 
 	},
 
-	'entry.hours' => {
+	'userViewTemplateId' => {
 		message => q||,
 		lastUpdated => 
 	},
 
 	'edit project resource label' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'entry.hours' => {
 		message => q||,
 		lastUpdated => 
 	},

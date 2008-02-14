@@ -1,5 +1,6 @@
 package WebGUI::i18n::BrazilianPortuguese::Asset_Poll;
 
+
 our $I18N = {
 	'form.end' => {
 		message => q||,
@@ -11,19 +12,14 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'71' => {
-		message => q||,
-		lastUpdated => 
+	'7' => {
+		message => q|Respostas|,
+		lastUpdated => 1080069287
 	},
 
 	'generate graph description' => {
 		message => q||,
 		lastUpdated => 
-	},
-
-	'7' => {
-		message => q|Respostas|,
-		lastUpdated => 1080069287
 	},
 
 	'assetName' => {
@@ -54,16 +50,6 @@ our $I18N = {
 	'answer.form' => {
 		message => q||,
 		lastUpdated => 
-	},
-
-	'74' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'61' => {
-		message => q|Enquete, Adicionar/Editar |,
-		lastUpdated => 1080069279
 	},
 
 	'answer.number' => {
@@ -166,14 +152,14 @@ our $I18N = {
 		lastUpdated => 1080069199
 	},
 
-	'question' => {
-		message => q||,
-		lastUpdated => 
-	},
-
 	'8' => {
 		message => q|(Entre com até 20 respostas, uma resposta por linha.)|,
 		lastUpdated => 1080069377
+	},
+
+	'question' => {
+		message => q||,
+		lastUpdated => 
 	},
 
 	'4' => {
@@ -181,12 +167,12 @@ our $I18N = {
 		lastUpdated => 1080069242
 	},
 
-	'generate graph' => {
+	'answer.percent' => {
 		message => q||,
 		lastUpdated => 
 	},
 
-	'answer.percent' => {
+	'generate graph' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -196,12 +182,12 @@ our $I18N = {
 		lastUpdated => 1080069328
 	},
 
-	'responses.total' => {
+	'responses.label' => {
 		message => q||,
 		lastUpdated => 
 	},
 
-	'responses.label' => {
+	'responses.total' => {
 		message => q||,
 		lastUpdated => 
 	},

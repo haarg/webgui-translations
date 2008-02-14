@@ -1,5 +1,6 @@
 package WebGUI::i18n::Dutch::Asset_Article;
 
+
 our $I18N = {
 	'description.first.sentence' => {
 		message => q|De eerste zin in de beschrijving. Een zin wordt bepaald door het aantal punten te tellen die in de tekst werden gevonden.|,
@@ -16,11 +17,9 @@ our $I18N = {
 		lastUpdated => 1151824935
 	},
 
-	'71' => {
-		message => q|Artikels zijn het Zwitserse zakmes van WegGUI. De meeste stukken statische inhoud kunnen toegevoegd worden via het Artikel. Artikels zijn Wobjects, ze erven bijgevolg de eigenschappen van beide Wobjects en Assets.
-
-Noot: men kan een artikel van meerdere pagina's creëren door een scheidingsteken (^-;) op verschillende plaatsen doorheen het artikel te plaatsen. Dit zal functioneren, tenzij men een Creëer Een Afdrukbare Pagina stijl gebruikt.|,
-		lastUpdated => 1151701589
+	'7' => {
+		message => q|Link Titel|,
+		lastUpdated => 1151701312
 	},
 
 	'description.first.10words' => {
@@ -28,19 +27,14 @@ Noot: men kan een artikel van meerdere pagina's creëren door een scheidingsteke
 		lastUpdated => 1151703218
 	},
 
-	'7' => {
-		message => q|Link Titel|,
-		lastUpdated => 1151701312
-	},
-
 	'assetName' => {
 		message => q|Artikel|,
 		lastUpdated => 1151702223
 	},
 
-	'description.first.2paragraphs' => {
-		message => q|De twee eerste paragrafen van de beschrijving. Een paragraaf wordt bepaald door het aantal carriage returns die in de tekst werden gevonden.|,
-		lastUpdated => 1151742348
+	'description.full' => {
+		message => q|De volledige beschrijving zonder enige paginering.|,
+		lastUpdated => 1151742560
 	},
 
 	'description.first.paragraph' => {
@@ -48,9 +42,9 @@ Noot: men kan een artikel van meerdere pagina's creëren door een scheidingsteke
 		lastUpdated => 1151742482
 	},
 
-	'description.full' => {
-		message => q|De volledige beschrijving zonder enige paginering.|,
-		lastUpdated => 1151742560
+	'description.first.2paragraphs' => {
+		message => q|De twee eerste paragrafen van de beschrijving. Een paragraaf wordt bepaald door het aantal carriage returns die in de tekst werden gevonden.|,
+		lastUpdated => 1151742348
 	},
 
 	'72' => {
@@ -83,21 +77,9 @@ Noot: men kan een artikel van meerdere pagina's creëren door een scheidingsteke
 		lastUpdated => 1151743427
 	},
 
-	'61' => {
-		message => q|Artikel, Toevoegen/Editeren|,
-		lastUpdated => 1151701297
-	},
-
 	'description' => {
 		message => q|De gepagineerde beschrijving.|,
 		lastUpdated => 1151703033
-	},
-
-	'new.template' => {
-		message => q|Artikels hebben een speciale mogelijkheid om hun sjabloon te wijzigen zodat je gebruikers verschillende opmaken van het artikel kan laten zien. Je kan dit bewerkstelligen door een link te creëren met een URL als volgt (vervang 999 met het sjabloon ID dat je wenst te gebruiken):
-
-<a href="<tmpl_var new.template>999">Lees meer...</a>|,
-		lastUpdated => 1151825152
 	},
 
 	'link url description' => {
@@ -107,19 +89,26 @@ Voorbeeld: http://www.google.com|,
 		lastUpdated => 1151824901
 	},
 
+	'new.template' => {
+		message => q|Artikels hebben een speciale mogelijkheid om hun sjabloon te wijzigen zodat je gebruikers verschillende opmaken van het artikel kan laten zien. Je kan dit bewerkstelligen door een link te creëren met een URL als volgt (vervang 999 met het sjabloon ID dat je wenst te gebruiken):
+
+<a href="<tmpl_var new.template>999">Lees meer...</a>|,
+		lastUpdated => 1151825152
+	},
+
 	'image.url' => {
 		message => q|De URL naar de bijgevoegde afbeelding.|,
 		lastUpdated => 1151744832
 	},
 
-	'isImage' => {
-		message => q|Een Booleaanse aanduiding van of dit een afbeelding is of niet.|,
-		lastUpdated => 1151744873
-	},
-
 	'article asset template variables body' => {
 		message => q|Ieder Asset heeft bepaalde variabelen binnen de templates betreffende de eigenschappen van een Asset. Sommige zullen bruikbaar zijn, anderen niet.|,
 		lastUpdated => 1166193319
+	},
+
+	'isImage' => {
+		message => q|Een Booleaanse aanduiding van of dit een afbeelding is of niet.|,
+		lastUpdated => 1151744873
 	},
 
 	'storageId' => {
@@ -182,9 +171,9 @@ Voorbeeld: http://www.google.com|,
 		lastUpdated => 1151702420
 	},
 
-	'thumbnailUrl' => {
-		message => q|De URL voor de mini-weergave van dit bestand.|,
-		lastUpdated => 1151836528
+	'description.first.100words' => {
+		message => q|De eerste 100 woorden in de beschrijving. Woorden worden gedefiniëerd als karakters geschieden door spaties, dus HTML entiteiten en tags tellen als woorden.|,
+		lastUpdated => 1151703145
 	},
 
 	'attachment_loop' => {
@@ -192,9 +181,9 @@ Voorbeeld: http://www.google.com|,
 		lastUpdated => 1151702401
 	},
 
-	'description.first.100words' => {
-		message => q|De eerste 100 woorden in de beschrijving. Woorden worden gedefiniëerd als karakters geschieden door spaties, dus HTML entiteiten en tags tellen als woorden.|,
-		lastUpdated => 1151703145
+	'thumbnailUrl' => {
+		message => q|De URL voor de mini-weergave van dit bestand.|,
+		lastUpdated => 1151836528
 	},
 
 	'cacheTimeout' => {
@@ -217,9 +206,9 @@ Voorbeeld: http://www.google.com|,
 		lastUpdated => 1151743390
 	},
 
-	'73' => {
-		message => q|De volgende sjabloon variabelen zijn beschikbaar voor artikel sjablonen.|,
-		lastUpdated => 1151701934
+	'description.first.25words' => {
+		message => q|De eerste 25 woorden in de beschrijving. Woorden worden gedefiniëerd als karakters geschieden door spaties, dus HTML entiteiten en tags tellen als woorden.|,
+		lastUpdated => 1151742286
 	},
 
 	'attachment.url' => {
@@ -227,9 +216,9 @@ Voorbeeld: http://www.google.com|,
 		lastUpdated => 1151702382
 	},
 
-	'description.first.25words' => {
-		message => q|De eerste 25 woorden in de beschrijving. Woorden worden gedefiniëerd als karakters geschieden door spaties, dus HTML entiteiten en tags tellen als woorden.|,
-		lastUpdated => 1151742286
+	'73' => {
+		message => q|De volgende sjabloon variabelen zijn beschikbaar voor artikel sjablonen.|,
+		lastUpdated => 1151701934
 	},
 
 	'image.thumbnail' => {

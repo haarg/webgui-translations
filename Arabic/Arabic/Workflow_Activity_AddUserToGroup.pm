@@ -1,14 +1,10 @@
 package WebGUI::i18n::Arabic::Workflow_Activity_AddUserToGroup;
 
+
 our $I18N = {
 	'group' => {
 		message => q|مجموعة|,
 		lastUpdated => 1166630539
-	},
-
-	'add user to group body' => {
-		message => q|يضيف سريان العمل هذا المستخدم الى مجموعة محددة<br />|,
-		lastUpdated => 1166630447
 	},
 
 	'expire offset' => {

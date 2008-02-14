@@ -1,11 +1,7 @@
 package WebGUI::i18n::German::Workflow_Activity_CleanLoginHistory;
 
-our $I18N = {
-	'clean login history body' => {
-		message => q|Dieser Workflow arbeitet sich durch die Tabelle des Benutzerlogin Logs in der WebGUI Datenbank und entfernt Elemente, deren Alter die konfigurierte Grenze &uuml;berschritten hat.|,
-		lastUpdated => 1179904470
-	},
 
+our $I18N = {
 	'age to delete help' => {
 		message => q|Welches Alter m&uuml;ssen Login Elemente haben, damit diese von der Login Historie gel&ouml;scht werden d&uuml;rfen?|,
 		lastUpdated => 1179904397

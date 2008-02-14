@@ -1,27 +1,23 @@
 package WebGUI::i18n::Slovenian::Asset_Snippet;
 
+
 our $I18N = {
-	'snippet description' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'snippet add/edit body' => {
-		message => q||,
-		lastUpdated => 
-	},
-
 	'cache timeout help' => {
 		message => q||,
 		lastUpdated => 
 	},
 
-	'process as template description' => {
+	'snippet description' => {
 		message => q||,
 		lastUpdated => 
 	},
 
 	'process as template' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'process as template description' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -37,11 +33,6 @@ our $I18N = {
 	},
 
 	'cache timeout' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'snippet add/edit title' => {
 		message => q||,
 		lastUpdated => 
 	},

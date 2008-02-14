@@ -1,5 +1,6 @@
 package WebGUI::i18n::German::Asset_Poll;
 
+
 our $I18N = {
 	'form.end' => {
 		message => q|Ende des Abstimmungsformulars.|,
@@ -11,19 +12,14 @@ our $I18N = {
 		lastUpdated => 1179827962
 	},
 
-	'71' => {
-		message => q|Abstimmungen k&ouml;nnen benutzt werden, um die Meinung ihrer Benutzer zu einem bestimmten Thema einzuholen. Abstimmungen sind Wobjects und Assets, haben also die gleichen Basiseigenschaften wie diese. Dar&uuml;berhinaus haben Abstimmungen noch diese Eigenschaften:|,
-		lastUpdated => 1179827531
+	'7' => {
+		message => q|Antworten|,
+		lastUpdated => 1179826428
 	},
 
 	'generate graph description' => {
 		message => q|Setzen Sie hier "on", um die Generierung des Graphen zu aktivieren.|,
 		lastUpdated => 1179828541
-	},
-
-	'7' => {
-		message => q|Antworten|,
-		lastUpdated => 1179826428
 	},
 
 	'assetName' => {
@@ -41,9 +37,9 @@ our $I18N = {
 		lastUpdated => 1179828406
 	},
 
-	'hasImageGraph' => {
-		message => q|A.|,
-		lastUpdated => 1179828684
+	'72' => {
+		message => q|Antworten zuf&auml;llig anordnen?|,
+		lastUpdated => 1179827551
 	},
 
 	'poll asset template variables body' => {
@@ -51,14 +47,9 @@ our $I18N = {
 		lastUpdated => 1179825467
 	},
 
-	'72' => {
-		message => q|Antworten zuf&auml;llig anordnen?|,
-		lastUpdated => 1179827551
-	},
-
-	'generateGraph' => {
-		message => q|Bedingung, die wahr ist, falls die Abstimmung die Generierung eines Graphen aktiviert hat.|,
-		lastUpdated => 1179828582
+	'hasImageGraph' => {
+		message => q|A.|,
+		lastUpdated => 1179828684
 	},
 
 	'canVote' => {
@@ -66,9 +57,9 @@ our $I18N = {
 		lastUpdated => 1179828436
 	},
 
-	'graphConfiguration' => {
-		message => q|Typ des Graphen.|,
-		lastUpdated => 1179828591
+	'generateGraph' => {
+		message => q|Bedingung, die wahr ist, falls die Abstimmung die Generierung eines Graphen aktiviert hat.|,
+		lastUpdated => 1179828582
 	},
 
 	'answer.form' => {
@@ -76,9 +67,9 @@ our $I18N = {
 		lastUpdated => 1179828240
 	},
 
-	'74' => {
-		message => q|Die folgenden Variablen sind im Abstimmung Template verf&uuml;gbar:|,
-		lastUpdated => 1179828014
+	'graphConfiguration' => {
+		message => q|Typ des Graphen.|,
+		lastUpdated => 1179828591
 	},
 
 	'voteGroup' => {
@@ -91,24 +82,19 @@ our $I18N = {
 		lastUpdated => 1179828223
 	},
 
-	'61' => {
-		message => q|Abstimmung hinzuf&uuml;gen/bearbeiten|,
-		lastUpdated => 1179826423
-	},
-
 	'answer.number' => {
 		message => q|Die Nummer dieser Antwort. 1,2,3...|,
 		lastUpdated => 1179828326
 	},
 
-	'5 description' => {
-		message => q|Die Breite des Graphen in Pixel, der das Abstimmungsergebnis darstellt. Standard ist 150 Pixel.|,
-		lastUpdated => 1179825917
-	},
-
 	'4 description' => {
 		message => q|W&auml;hlen Sie eine Gruppe, deren Mitglieder abstimmen d&uuml;rfen. Standard ist die Gruppe Everyone.|,
 		lastUpdated => 1179825846
+	},
+
+	'5 description' => {
+		message => q|Die Breite des Graphen in Pixel, der das Abstimmungsergebnis darstellt. Standard ist 150 Pixel.|,
+		lastUpdated => 1179825917
 	},
 
 	'20' => {
@@ -156,14 +142,14 @@ our $I18N = {
 		lastUpdated => 1179828298
 	},
 
-	'form.start' => {
-		message => q|Anfang des Abstimmungsformulars.|,
-		lastUpdated => 1179828462
-	},
-
 	'7 description' => {
 		message => q|Geben Sie die m&ouml;glichen Antworten zu ihren Fragen ein. Nur eine Antwort pro Zeile eingeben. H&ouml;chsten 20 Antworten m&ouml;glich.|,
 		lastUpdated => 1179826488
+	},
+
+	'form.start' => {
+		message => q|Anfang des Abstimmungsformulars.|,
+		lastUpdated => 1179828462
 	},
 
 	'karmaPerVote' => {
@@ -171,14 +157,14 @@ our $I18N = {
 		lastUpdated => 1179828709
 	},
 
-	'templateId' => {
-		message => q|Die ID des Templates f&uuml;r die Anzeige dieses Assets.|,
-		lastUpdated => 1179828830
-	},
-
 	'6 description' => {
 		message => q|Welche Frage wollen Sie ihren Benutzern stellen?|,
 		lastUpdated => 1179826408
+	},
+
+	'templateId' => {
+		message => q|Die ID des Templates f&uuml;r die Anzeige dieses Assets.|,
+		lastUpdated => 1179828830
 	},
 
 	'6' => {
@@ -196,9 +182,9 @@ our $I18N = {
 		lastUpdated => 1179828374
 	},
 
-	'graphUrl' => {
-		message => q|URL zum Graphen des Abstimmungsergebnisses. Nur gesetzt, falls die Generierung des Graphen aktiviert wurde und die Graphkonfiguration g&uuml;ltig ist.|,
-		lastUpdated => 1179828667
+	'9' => {
+		message => q|Abstimmung bearbeiten|,
+		lastUpdated => 1179828136
 	},
 
 	'form.submit' => {
@@ -206,14 +192,9 @@ our $I18N = {
 		lastUpdated => 1179828505
 	},
 
-	'9' => {
-		message => q|Abstimmung bearbeiten|,
-		lastUpdated => 1179828136
-	},
-
-	'randomizeAnswers' => {
-		message => q|Bedingung, die wahr ist, falls die Antworten der Abstimmung zuf&auml;llig angeordnet werden.|,
-		lastUpdated => 1179828765
+	'graphUrl' => {
+		message => q|URL zum Graphen des Abstimmungsergebnisses. Nur gesetzt, falls die Generierung des Graphen aktiviert wurde und die Graphkonfiguration g&uuml;ltig ist.|,
+		lastUpdated => 1179828667
 	},
 
 	'12' => {
@@ -221,9 +202,14 @@ our $I18N = {
 		lastUpdated => 1179825637
 	},
 
-	'poll asset template variables title' => {
-		message => q|Abstimmung Asset Template Variablen|,
-		lastUpdated => 1179825559
+	'randomizeAnswers' => {
+		message => q|Bedingung, die wahr ist, falls die Antworten der Abstimmung zuf&auml;llig angeordnet werden.|,
+		lastUpdated => 1179828765
+	},
+
+	'8' => {
+		message => q|(Geben Sie eine Antwort pro Zeile ein. Nie mehr als 20.)|,
+		lastUpdated => 1179828041
 	},
 
 	'question' => {
@@ -231,9 +217,9 @@ our $I18N = {
 		lastUpdated => 1179828726
 	},
 
-	'8' => {
-		message => q|(Geben Sie eine Antwort pro Zeile ein. Nie mehr als 20.)|,
-		lastUpdated => 1179828041
+	'poll asset template variables title' => {
+		message => q|Abstimmung Asset Template Variablen|,
+		lastUpdated => 1179825559
 	},
 
 	'4' => {
@@ -246,14 +232,14 @@ our $I18N = {
 		lastUpdated => 1179828679
 	},
 
-	'generate graph' => {
-		message => q|Generiere Graph|,
-		lastUpdated => 1179828515
-	},
-
 	'answer.percent' => {
 		message => q|Anteil der Stimmen f&uuml;r diese Antwort.|,
 		lastUpdated => 1179828344
+	},
+
+	'generate graph' => {
+		message => q|Generiere Graph|,
+		lastUpdated => 1179828515
 	},
 
 	'73' => {
@@ -261,14 +247,14 @@ our $I18N = {
 		lastUpdated => 1179827971
 	},
 
-	'responses.total' => {
-		message => q|Gesamtanzahl an Stimmen, die abgegeben wurden.|,
-		lastUpdated => 1179828814
-	},
-
 	'responses.label' => {
 		message => q|Das Label f&uuml;r die Gesamtbenutzerantworten. "Total Votes"|,
 		lastUpdated => 1179828795
+	},
+
+	'responses.total' => {
+		message => q|Gesamtanzahl an Stimmen, die abgegeben wurden.|,
+		lastUpdated => 1179828814
 	},
 
 	'5' => {

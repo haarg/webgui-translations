@@ -1,5 +1,6 @@
 package WebGUI::i18n::Italian::Asset_DataForm;
 
+
 our $I18N = {
 	'27 description' => {
 		message => q||,
@@ -17,11 +18,6 @@ our $I18N = {
 	},
 
 	'date' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'71' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -96,11 +92,6 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'89' => {
-		message => q||,
-		lastUpdated => 
-	},
-
 	'javascript.confirmation.deleteAll' => {
 		message => q||,
 		lastUpdated => 
@@ -166,17 +157,17 @@ our $I18N = {
 		lastUpdated => 
 	},
 
+	'back.url' => {
+		message => q||,
+		lastUpdated => 
+	},
+
 	'29' => {
 		message => q||,
 		lastUpdated => 
 	},
 
 	'record.edit.url' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'back.url' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -196,12 +187,17 @@ our $I18N = {
 		lastUpdated => 
 	},
 
+	'87 description' => {
+		message => q||,
+		lastUpdated => 
+	},
+
 	'81' => {
 		message => q||,
 		lastUpdated => 
 	},
 
-	'87 description' => {
+	'101' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -211,22 +207,12 @@ our $I18N = {
 		lastUpdated => 1157661144
 	},
 
-	'101' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'76' => {
-		message => q||,
-		lastUpdated => 
-	},
-
 	'86' => {
 		message => q||,
 		lastUpdated => 
 	},
 
-	'62' => {
+	'76' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -356,22 +342,22 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'79' => {
-		message => q||,
-		lastUpdated => 
-	},
-
 	'field.label' => {
 		message => q||,
 		lastUpdated => 
 	},
 
-	'Field Position description' => {
+	'79' => {
 		message => q||,
 		lastUpdated => 
 	},
 
 	'editField vertical subtext' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'Field Position description' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -401,17 +387,12 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'no tab' => {
-		message => q||,
-		lastUpdated => 
-	},
-
 	'tab_loop' => {
 		message => q||,
 		lastUpdated => 
 	},
 
-	'record.submissionDate.human' => {
+	'no tab' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -421,12 +402,17 @@ our $I18N = {
 		lastUpdated => 
 	},
 
+	'record.submissionDate.human' => {
+		message => q||,
+		lastUpdated => 
+	},
+
 	'editField vertical label' => {
 		message => q||,
 		lastUpdated => 
 	},
 
-	'field.isDisplayed' => {
+	'confirm delete all' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -436,7 +422,7 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'confirm delete all' => {
+	'field.isDisplayed' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -481,11 +467,6 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'72' => {
-		message => q||,
-		lastUpdated => 
-	},
-
 	'tab.sequence' => {
 		message => q||,
 		lastUpdated => 
@@ -512,11 +493,6 @@ our $I18N = {
 	},
 
 	'addField.url' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'61' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -651,12 +627,12 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'19' => {
+	'104 description' => {
 		message => q||,
 		lastUpdated => 
 	},
 
-	'104 description' => {
+	'19' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -691,7 +667,7 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'addTab.url' => {
+	'25' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -701,12 +677,7 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'25' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'81 description' => {
+	'addTab.url' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -716,7 +687,7 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'28' => {
+	'81 description' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -726,12 +697,12 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'75' => {
+	'28' => {
 		message => q||,
 		lastUpdated => 
 	},
 
-	'83' => {
+	'75' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -741,7 +712,7 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'record.username' => {
+	'error.message' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -751,17 +722,17 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'error.message' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'export.tab.url' => {
+	'record.username' => {
 		message => q||,
 		lastUpdated => 
 	},
 
 	'tab.label' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'export.tab.url' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -801,12 +772,12 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'13' => {
+	'tab.field.controls' => {
 		message => q||,
 		lastUpdated => 
 	},
 
-	'tab.field.controls' => {
+	'13' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -826,12 +797,12 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'3' => {
+	'field.isMailField' => {
 		message => q||,
 		lastUpdated => 
 	},
 
-	'field.isMailField' => {
+	'3' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -846,14 +817,14 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'4' => {
-		message => q||,
-		lastUpdated => 
-	},
-
 	'back.label' => {
 		message => q|Torna indietro|,
 		lastUpdated => 1158570593
+	},
+
+	'4' => {
+		message => q||,
+		lastUpdated => 
 	},
 
 	'745' => {
@@ -861,12 +832,12 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'record.delete.url' => {
+	'76 description' => {
 		message => q||,
 		lastUpdated => 
 	},
 
-	'76 description' => {
+	'record.delete.url' => {
 		message => q||,
 		lastUpdated => 
 	},

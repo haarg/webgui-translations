@@ -1,12 +1,8 @@
 package WebGUI::i18n::German::Asset_StockData;
 
+
 our $I18N = {
 	'help_stock_list_template' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'help_stock_list_template_description' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -81,12 +77,12 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'stocks.symbol' => {
+	'extrasFolder' => {
 		message => q||,
 		lastUpdated => 
 	},
 
-	'extrasFolder' => {
+	'stocks.symbol' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -94,11 +90,6 @@ our $I18N = {
 	'stocks.nav' => {
 		message => q||,
 		lastUpdated => 
-	},
-
-	'stock data asset template variables body' => {
-		message => q|Jedes Asset bietet ihren Templates einen Satz an Variablen, die auf den Asset Eigenschaften basieren. Einige dieser Variablen k&ouml;nnen n&uuml;tzlich sein, andere nicht.|,
-		lastUpdated => 1170406626
 	},
 
 	'source' => {
@@ -166,22 +157,17 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'defaultStocks' => {
-		message => q||,
-		lastUpdated => 
-	},
-
 	'lastUpdate.intl' => {
 		message => q||,
 		lastUpdated => 
 	},
 
-	'stocks.year_low' => {
+	'defaultStocks' => {
 		message => q||,
 		lastUpdated => 
 	},
 
-	'stocks.day_range' => {
+	'isVisitor' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -191,7 +177,12 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'isVisitor' => {
+	'stocks.day_range' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'stocks.year_low' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -222,11 +213,6 @@ our $I18N = {
 	},
 
 	'default_stock_label_description' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'help_add_edit_stock_description' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -276,27 +262,7 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'help_add_edit_stock_title' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'help_stock_list_display_template_description' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'help_add_edit_stocklist_title' => {
-		message => q||,
-		lastUpdated => 
-	},
-
 	'stocks.time' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'help_add_edit_stocklist_body' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -316,17 +282,12 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'symbol_header' => {
-		message => q||,
-		lastUpdated => 
-	},
-
 	'stocks.low' => {
 		message => q||,
 		lastUpdated => 
 	},
 
-	'stocks.ask' => {
+	'symbol_header' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -336,12 +297,12 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'no_symbol' => {
+	'stocks.ask' => {
 		message => q||,
 		lastUpdated => 
 	},
 
-	'templateId' => {
+	'no_symbol' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -351,12 +312,12 @@ our $I18N = {
 		lastUpdated => 1170406674
 	},
 
-	'default_stock_description' => {
+	'templateId' => {
 		message => q||,
 		lastUpdated => 
 	},
 
-	'stocks.success' => {
+	'default_stock_description' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -366,12 +327,12 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'stocks.bid' => {
+	'stocks.success' => {
 		message => q||,
 		lastUpdated => 
 	},
 
-	'symbol_label_description' => {
+	'stocks.bid' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -381,17 +342,22 @@ our $I18N = {
 		lastUpdated => 
 	},
 
+	'symbol_label_description' => {
+		message => q||,
+		lastUpdated => 
+	},
+
 	'template_label' => {
 		message => q||,
 		lastUpdated => 
 	},
 
-	'no_symbol_error' => {
+	'stocks.open' => {
 		message => q||,
 		lastUpdated => 
 	},
 
-	'stocks.open' => {
+	'no_symbol_error' => {
 		message => q||,
 		lastUpdated => 
 	},

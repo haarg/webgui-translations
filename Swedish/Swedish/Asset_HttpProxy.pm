@@ -1,5 +1,6 @@
 package WebGUI::i18n::Swedish::Asset_HttpProxy;
 
+
 our $I18N = {
 	'content' => {
 		message => q||,
@@ -71,17 +72,7 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'10' => {
-		message => q||,
-		lastUpdated => 
-	},
-
 	'no recursion' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'11' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -176,12 +167,12 @@ our $I18N = {
 		lastUpdated => 1169049624
 	},
 
-	'5' => {
+	'header' => {
 		message => q||,
 		lastUpdated => 
 	},
 
-	'header' => {
+	'5' => {
 		message => q||,
 		lastUpdated => 
 	},

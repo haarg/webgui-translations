@@ -1,19 +1,20 @@
 package WebGUI::i18n::Finnish::Asset_SQLReport;
 
+
 our $I18N = {
-	'61' => {
-		message => q|SQL kysely, Lisää/Muokkaa|,
-		lastUpdated => 1110982033
+	'11' => {
+		message => q|<b>Virheenselvitys:</b> Virhe: Kyselyssä on virhe.|,
+		lastUpdated => 1043672375
 	},
 
-	'Placeholder Parameters' => {
-		message => q||,
-		lastUpdated => 
+	'17' => {
+		message => q|<b>Virheenselvitys:</b> Kysely:|,
+		lastUpdated => 1043672415
 	},
 
-	'71' => {
-		message => q||,
-		lastUpdated => 1036528060
+	'18' => {
+		message => q|Kysely ei tuottanut tulosta.|,
+		lastUpdated => 1048552282
 	},
 
 	'72' => {
@@ -21,9 +22,9 @@ our $I18N = {
 		lastUpdated => 1110982051
 	},
 
-	'73' => {
-		message => q||,
-		lastUpdated => 
+	'16' => {
+		message => q|Virheenselvitys?|,
+		lastUpdated => 1043672190
 	},
 
 	'Add another query' => {
@@ -31,29 +32,9 @@ our $I18N = {
 		lastUpdated => 1110982059
 	},
 
-	'1' => {
-		message => q|SQL-kysely|,
-		lastUpdated => 1040046921
-	},
-
 	'debug placeholder parameters' => {
 		message => q||,
 		lastUpdated => 
-	},
-
-	'4' => {
-		message => q|Kysely|,
-		lastUpdated => 1033387485
-	},
-
-	'10' => {
-		message => q|<b>Virheenselvitys:</b> Virhe: SQL kysely on väärin muotoiltu.|,
-		lastUpdated => 1043672355
-	},
-
-	'11' => {
-		message => q|<b>Virheenselvitys:</b> Virhe: Kyselyssä on virhe.|,
-		lastUpdated => 1043672375
 	},
 
 	'12' => {
@@ -66,29 +47,29 @@ our $I18N = {
 		lastUpdated => 1043672512
 	},
 
-	'8' => {
-		message => q|Muokkaa SQL-kyselyä|,
-		lastUpdated => 1033387498
-	},
-
 	'15' => {
 		message => q|Esikäsittele makrot kyselyssä?|,
 		lastUpdated => 1033387474
 	},
 
-	'16' => {
-		message => q|Virheenselvitys?|,
-		lastUpdated => 1043672190
+	'8' => {
+		message => q|Muokkaa SQL-kyselyä|,
+		lastUpdated => 1033387498
 	},
 
-	'17' => {
-		message => q|<b>Virheenselvitys:</b> Kysely:|,
-		lastUpdated => 1043672415
+	'4' => {
+		message => q|Kysely|,
+		lastUpdated => 1033387485
 	},
 
-	'18' => {
-		message => q|Kysely ei tuottanut tulosta.|,
-		lastUpdated => 1048552282
+	'10' => {
+		message => q|<b>Virheenselvitys:</b> Virhe: SQL kysely on väärin muotoiltu.|,
+		lastUpdated => 1043672355
+	},
+
+	'Placeholder Parameters' => {
+		message => q||,
+		lastUpdated => 
 	},
 
 };

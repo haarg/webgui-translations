@@ -1,5 +1,6 @@
 package WebGUI::i18n::Dutch::Auth;
 
+
 our $I18N = {
 	'login.form.header' => {
 		message => q|De verplichte formulier-elementen die bovenaan de pagina Login behoren te staan.|,
@@ -9,11 +10,6 @@ our $I18N = {
 	'create.form.header' => {
 		message => q|De verplichte formulierelementen die bovenaan de pagian Anonieme Registratie behoren te staan.|,
 		lastUpdated => 1166622637
-	},
-
-	'anon reg template body' => {
-		message => q|De volgende variabelen zijn beschikbaar in alle sjablonen voor Anonieme Registratie.|,
-		lastUpdated => 1166622522
 	},
 
 	'create.form.profile.id.formElement' => {
@@ -41,9 +37,9 @@ our $I18N = {
 		lastUpdated => 1166623654
 	},
 
-	'no.url' => {
-		message => q|De URL om geen wijzigingen aan te brengen in de logingegevens van de gebruiker. |,
-		lastUpdated => 1166623975
+	'account.form.header' => {
+		message => q|De verplichte formulier-elementen die bovenaan de pagina "Weergeven Inloggevens" komen.|,
+		lastUpdated => 1166619658
 	},
 
 	'login.form.hidden' => {
@@ -51,9 +47,9 @@ our $I18N = {
 		lastUpdated => 1166623748
 	},
 
-	'account.form.header' => {
-		message => q|De verplichte formulier-elementen die bovenaan de pagina "Weergeven Inloggevens" komen.|,
-		lastUpdated => 1166619658
+	'no.url' => {
+		message => q|De URL om geen wijzigingen aan te brengen in de logingegevens van de gebruiker. |,
+		lastUpdated => 1166623975
 	},
 
 	'profile.required' => {
@@ -76,14 +72,14 @@ our $I18N = {
 		lastUpdated => 1166623802
 	},
 
-	'yes.label' => {
-		message => q|Label - in meerdere talen beschikbaar - voor "Ja".|,
-		lastUpdated => 1166624177
-	},
-
 	'login.url' => {
 		message => q|De URL naar de login pagina.|,
 		lastUpdated => 1166623910
+	},
+
+	'yes.label' => {
+		message => q|Label - in meerdere talen beschikbaar - voor "Ja".|,
+		lastUpdated => 1166624177
 	},
 
 	'title' => {
@@ -94,11 +90,6 @@ our $I18N = {
 	'createAccount.url' => {
 		message => q|De URL naar de pagina Anonieme Registratie.|,
 		lastUpdated => 1166623105
-	},
-
-	'deactivate account template body' => {
-		message => q|Deze variabelen zijn beschikbaar in alle sjablonen Authenticatie: Deactiveer Login.|,
-		lastUpdated => 1166623222
 	},
 
 	'anon reg template title' => {
@@ -141,11 +132,6 @@ our $I18N = {
 		lastUpdated => 1166623049
 	},
 
-	'login template body' => {
-		message => q|De volgende variabelen zijn beschikbaar voor alle sjablonen Authenticatie: Login.|,
-		lastUpdated => 1166623642
-	},
-
 	'yes.url' => {
 		message => q|URL om de login van de gebruiker te deactiveren.|,
 		lastUpdated => 1166624193
@@ -176,9 +162,9 @@ our $I18N = {
 		lastUpdated => 1166623209
 	},
 
-	'profile.formElement.label' => {
-		message => q|Standaard label - in meerdere talen beschikbaar - voor het formulier-element Profiel. |,
-		lastUpdated => 1166624050
+	'login.form.username.label' => {
+		message => q|Standaard label - in meerdere talen beschikbaar - voor het formulierveld gebruikersnaam.|,
+		lastUpdated => 1166623874
 	},
 
 	'profile.formElement' => {
@@ -186,9 +172,9 @@ our $I18N = {
 		lastUpdated => 1166624005
 	},
 
-	'login.form.username.label' => {
-		message => q|Standaard label - in meerdere talen beschikbaar - voor het formulierveld gebruikersnaam.|,
-		lastUpdated => 1166623874
+	'profile.formElement.label' => {
+		message => q|Standaard label - in meerdere talen beschikbaar - voor het formulier-element Profiel. |,
+		lastUpdated => 1166624050
 	},
 
 	'create.form.footer' => {
@@ -196,9 +182,9 @@ our $I18N = {
 		lastUpdated => 1166622613
 	},
 
-	'question' => {
-		message => q|URL waarmee de logingegevens van een gebruiker niet gewijzigd worden.|,
-		lastUpdated => 1166624143
+	'login.form.submit' => {
+		message => q|De standaard verzendknop voor het login formulier.|,
+		lastUpdated => 1166623815
 	},
 
 	'createAccount.label' => {
@@ -206,14 +192,9 @@ our $I18N = {
 		lastUpdated => 1166623091
 	},
 
-	'login.form.submit' => {
-		message => q|De standaard verzendknop voor het login formulier.|,
-		lastUpdated => 1166623815
-	},
-
-	'display account template body' => {
-		message => q|De volgende variabelen zijn beschikbaar in sjablonen Authenticatie: Logingegevens Weergeven. |,
-		lastUpdated => 1166623299
+	'question' => {
+		message => q|URL waarmee de logingegevens van een gebruiker niet gewijzigd worden.|,
+		lastUpdated => 1166624143
 	},
 
 	'login.label' => {

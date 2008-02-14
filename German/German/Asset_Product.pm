@@ -1,5 +1,6 @@
 package WebGUI::i18n::German::Asset_Product;
 
+
 our $I18N = {
 	'27 description' => {
 		message => q||,
@@ -41,22 +42,17 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'44' => {
-		message => q||,
-		lastUpdated => 
-	},
-
 	'accessory.url' => {
 		message => q||,
 		lastUpdated => 
 	},
 
-	'55' => {
+	'brochure.url' => {
 		message => q||,
 		lastUpdated => 
 	},
 
-	'brochure.url' => {
+	'55' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -86,12 +82,12 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'31' => {
+	'brochure.icon' => {
 		message => q||,
 		lastUpdated => 
 	},
 
-	'brochure.icon' => {
+	'31' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -231,11 +227,6 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'49' => {
-		message => q||,
-		lastUpdated => 
-	},
-
 	'manual.label' => {
 		message => q||,
 		lastUpdated => 
@@ -301,11 +292,6 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'47' => {
-		message => q||,
-		lastUpdated => 
-	},
-
 	'8' => {
 		message => q||,
 		lastUpdated => 
@@ -331,11 +317,6 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'43' => {
-		message => q||,
-		lastUpdated => 
-	},
-
 	'5' => {
 		message => q||,
 		lastUpdated => 
@@ -357,11 +338,6 @@ our $I18N = {
 	},
 
 	'manual' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'63' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -476,21 +452,6 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'50' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'39' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'41' => {
-		message => q||,
-		lastUpdated => 
-	},
-
 	'52' => {
 		message => q||,
 		lastUpdated => 
@@ -502,11 +463,6 @@ our $I18N = {
 	},
 
 	'56' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'45' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -556,11 +512,6 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'40' => {
-		message => q||,
-		lastUpdated => 
-	},
-
 	'addbenefit.url' => {
 		message => q||,
 		lastUpdated => 
@@ -606,22 +557,12 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'42' => {
-		message => q||,
-		lastUpdated => 
-	},
-
 	'22' => {
 		message => q||,
 		lastUpdated => 
 	},
 
 	'cache timeout' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'46' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -641,12 +582,12 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'36' => {
+	'3' => {
 		message => q||,
 		lastUpdated => 
 	},
 
-	'3' => {
+	'36' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -656,17 +597,12 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'51' => {
-		message => q||,
-		lastUpdated => 
-	},
-
 	'9' => {
 		message => q||,
 		lastUpdated => 
 	},
 
-	'38' => {
+	'51' => {
 		message => q||,
 		lastUpdated => 
 	},

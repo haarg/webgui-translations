@@ -1,14 +1,10 @@
 package WebGUI::i18n::Arabic::Asset_RSSCapable;
 
-our $I18N = {
-	'rssTemplateId hoverHelp' => {
-		message => q|النموذج المستخدم للRSS feed لهذا الاصل. |,
-		lastUpdated => 1164725914
-	},
 
-	'rssTemplateId label' => {
-		message => q|نموذج RSS<br />|,
-		lastUpdated => 1164725924
+our $I18N = {
+	'rssEnabled label' => {
+		message => q|قم بتشغيل الRSS<br />|,
+		lastUpdated => 1164725866
 	},
 
 	'rssEnabled hoverHelp' => {
@@ -16,19 +12,14 @@ our $I18N = {
 		lastUpdated => 1164725852
 	},
 
-	'rssEnabled label' => {
-		message => q|قم بتشغيل الRSS<br />|,
-		lastUpdated => 1164725866
+	'rssTemplateId label' => {
+		message => q|نموذج RSS<br />|,
+		lastUpdated => 1164725924
 	},
 
-	'rss capable body' => {
-		message => q|هذا الاصل يستخدم لكي يسمحللاصول الاخرى ان يعملوا اضافات الٌٍٍRSS الاخرى باستخدامRSSFromParent Asset. كمدير للمادة او مدير لن تستخدم هذا الاصل اطلاقا على الاغلب.<br />|,
-		lastUpdated => 1164725691
-	},
-
-	'rss capable title' => {
-		message => q|قادر على الRSS<br />|,
-		lastUpdated => 1164725704
+	'rssTemplateId hoverHelp' => {
+		message => q|النموذج المستخدم للRSS feed لهذا الاصل. |,
+		lastUpdated => 1164725914
 	},
 
 	'assetName' => {

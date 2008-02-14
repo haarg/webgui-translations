@@ -1,14 +1,15 @@
 package WebGUI::i18n::Dutch::Asset_Survey;
 
-our $I18N = {
-	'84 description' => {
-		message => q|Het aantal keren dat de gebruiker kan proberen het goede antwoord te geven op elke vraag. Zonder wijziging staat dit op 1.|,
-		lastUpdated => 1152285235
-	},
 
+our $I18N = {
 	'32' => {
 		message => q|Niet waar|,
 		lastUpdated => 1151325914
+	},
+
+	'84 description' => {
+		message => q|Het aantal keren dat de gebruiker kan proberen het goede antwoord te geven op elke vraag. Zonder wijziging staat dit op 1.|,
+		lastUpdated => 1152285235
 	},
 
 	'90' => {
@@ -26,14 +27,14 @@ our $I18N = {
 		lastUpdated => 1151072849
 	},
 
-	'export.questions.label' => {
-		message => q|Het standaard label voor export.questions.url.|,
-		lastUpdated => 1152520520
-	},
-
 	'user.isFirstResponse' => {
 		message => q|Een functie die aangeeft of dit de eerste reactie van deze gebruiker is.|,
 		lastUpdated => 1152526163
+	},
+
+	'export.questions.label' => {
+		message => q|Het standaard label voor export.questions.url.|,
+		lastUpdated => 1152520520
 	},
 
 	'questionsPerPage' => {
@@ -61,14 +62,14 @@ our $I18N = {
 		lastUpdated => 1189373294
 	},
 
-	'export.responses.label' => {
-		message => q|Het standaard label voor export.responses.url.|,
-		lastUpdated => 1152520594
-	},
-
 	'55' => {
 		message => q|Bekijk reacties|,
 		lastUpdated => 1152281923
+	},
+
+	'export.responses.label' => {
+		message => q|Het standaard label voor export.responses.url.|,
+		lastUpdated => 1152520594
 	},
 
 	'84' => {
@@ -81,19 +82,14 @@ our $I18N = {
 		lastUpdated => 1152281958
 	},
 
-	'89' => {
-		message => q|De volgende sjabloon variabelen zijn beschikbaar in de enqu&ecirc;te:|,
-		lastUpdated => 1152522587
+	'title' => {
+		message => q|De standaard titel voor het rapport.|,
+		lastUpdated => 1152525887
 	},
 
 	'answer.comment' => {
 		message => q|Commentaar|,
 		lastUpdated => 1152285551
-	},
-
-	'title' => {
-		message => q|De standaard titel voor het rapport.|,
-		lastUpdated => 1152525887
 	},
 
 	'31' => {
@@ -176,9 +172,9 @@ our $I18N = {
 		lastUpdated => 1151074389
 	},
 
-	'1091' => {
-		message => q|Statistisch overzicht sjabloon|,
-		lastUpdated => 1151073555
+	'101' => {
+		message => q|Voeg een tekst gebied voor een antwoord toe.|,
+		lastUpdated => 1151072833
 	},
 
 	'73' => {
@@ -186,9 +182,9 @@ our $I18N = {
 		lastUpdated => 1152284344
 	},
 
-	'101' => {
-		message => q|Voeg een tekst gebied voor een antwoord toe.|,
-		lastUpdated => 1151072833
+	'1091' => {
+		message => q|Statistisch overzicht sjabloon|,
+		lastUpdated => 1151073555
 	},
 
 	'76' => {
@@ -196,19 +192,14 @@ our $I18N = {
 		lastUpdated => 1152284785
 	},
 
-	'62' => {
-		message => q|Exporteer antwoorden.|,
-		lastUpdated => 1152282307
-	},
-
 	'quiz.noprivs.label' => {
 		message => q|Een bericht waarin de gebruiker vermeld wordt dat deze niet de benodigde privileges heeft voor deelname aan deze quiz.|,
 		lastUpdated => 1152523575
 	},
 
-	'survey asset template variables body' => {
-		message => q|Elk object (asset) maakt een aantal variabelen beschikbaar aan de bijbehorende templates. Deze zijn gebaseerd op de kenmerken van het object. Sommige zijn bruikbaarder dan andere.|,
-		lastUpdated => 1189373520
+	'62' => {
+		message => q|Exporteer antwoorden.|,
+		lastUpdated => 1152282307
 	},
 
 	'answer.response.percent' => {
@@ -266,16 +257,6 @@ our $I18N = {
 		lastUpdated => 1151072944
 	},
 
-	'1090' => {
-		message => q|Hieronder staan de variabelen die beschikbaar zijn van het tonen van losse reacties. |,
-		lastUpdated => 1151073514
-	},
-
-	'question add/edit body' => {
-		message => q|De wobjecten in de enqu&ecirc;te van WebGUI geven vele soorten vragen zoals meerkeuze, tweekeuze (zoals ja/nee en goed/fout antwoorden)en verschillende soorten tekstantwoorden. De volgorde van de vragen kan ook veranderd worden nadat deze zijn ingevoerd.|,
-		lastUpdated => 1152521856
-	},
-
 	'question.response' => {
 		message => q|Het antwoord van de gebruiker op deze vraag. |,
 		lastUpdated => 1152523088
@@ -326,14 +307,14 @@ our $I18N = {
 		lastUpdated => 1151651512
 	},
 
-	'8' => {
-		message => q|Volgorde van de vragen|,
-		lastUpdated => 1152284834
-	},
-
 	'section.edit.sectionName' => {
 		message => q|De naam van deze sectie met vragen.|,
 		lastUpdated => 1166198338
+	},
+
+	'8' => {
+		message => q|Volgorde van de vragen|,
+		lastUpdated => 1152284834
 	},
 
 	'start.newresponse.label' => {
@@ -416,11 +397,6 @@ our $I18N = {
 		lastUpdated => 1152282292
 	},
 
-	'answer add/edit body' => {
-		message => q|Afhankelijk van het type vraag kan er meer dan 1 antwoord per vraag ingevoerd worden. |,
-		lastUpdated => 1152285535
-	},
-
 	'end.date.human' => {
 		message => q|De normaal leesbare afbeelding van de datum waarop de gebruiker deze reactie afmaakte.|,
 		lastUpdated => 1152519254
@@ -459,11 +435,6 @@ our $I18N = {
 	'answer.isCorrect' => {
 		message => q|Een functie die aangeeft of dit antwoord correct is.|,
 		lastUpdated => 1152285571
-	},
-
-	'91' => {
-		message => q|De volgende sjabloon variabelen zijn beschikbaar in alle enqu&ecirc;te sjablonen.|,
-		lastUpdated => 1152285475
 	},
 
 	'overview template description' => {
@@ -571,11 +542,6 @@ our $I18N = {
 		lastUpdated => 1152520573
 	},
 
-	'1092' => {
-		message => q|Dit zijn de variabelen die beschikbaar zijn in dit sjabloon:|,
-		lastUpdated => 1151073582
-	},
-
 	'export.responses.url' => {
 		message => q|De URL waar een bestand gemaakt wordt met alle antwoorden op de vragen in deze enqu&ecirc;te.|,
 		lastUpdated => 1152520632
@@ -656,14 +622,14 @@ our $I18N = {
 		lastUpdated => 1151326283
 	},
 
-	'46' => {
-		message => q|Dank u voor het invullen van onze enqu&ecirc;te.|,
-		lastUpdated => 1151335269
-	},
-
 	'section.edit.id' => {
 		message => q|Het unieke ID voor deze sectie.|,
 		lastUpdated => 1166198320
+	},
+
+	'46' => {
+		message => q|Dank u voor het invullen van onze enqu&ecirc;te.|,
+		lastUpdated => 1151335269
 	},
 
 	'start.date.label' => {
@@ -676,14 +642,14 @@ our $I18N = {
 		lastUpdated => 1166198364
 	},
 
-	'6' => {
-		message => q|Willekeurig|,
-		lastUpdated => 1152282003
-	},
-
 	'report.overview.url' => {
 		message => q|De URL waar het statistisch overzicht van deze enqu&ecirc;te bekeken kan worden.|,
 		lastUpdated => 1152523788
+	},
+
+	'6' => {
+		message => q|Willekeurig|,
+		lastUpdated => 1152282003
 	},
 
 	'response.percent.label' => {
@@ -691,14 +657,14 @@ our $I18N = {
 		lastUpdated => 1152524912
 	},
 
-	'start.date.human' => {
-		message => q|De normaal leesbare versie van de datum waarop de gebruiker is begonnen met het beantwoorden.|,
-		lastUpdated => 1152525658
-	},
-
 	'36' => {
 		message => q|Enigszins oneens|,
 		lastUpdated => 1151326027
+	},
+
+	'start.date.human' => {
+		message => q|De normaal leesbare versie van de datum waarop de gebruiker is begonnen met het beantwoorden.|,
+		lastUpdated => 1152525658
 	},
 
 	'51' => {
@@ -1146,11 +1112,6 @@ our $I18N = {
 		lastUpdated => 1152285338
 	},
 
-	'1088' => {
-		message => q|De volgende sjabloon variabelen zijn beschikbaar in het uitslagen verslag van de enqu&ecirc;te: |,
-		lastUpdated => 1151073412
-	},
-
 	'question.answer.field' => {
 		message => q|Het veld in het formulier waar de mogelijke antwoorden op deze vraag staan.|,
 		lastUpdated => 1152522137
@@ -1236,11 +1197,6 @@ our $I18N = {
 		lastUpdated => 1152285152
 	},
 
-	'3' => {
-		message => q|Enqu&ecirc;te, toevoegen/bewerken|,
-		lastUpdated => 1151076044
-	},
-
 	'9' => {
 		message => q|Enqu&ecirc;te|,
 		lastUpdated => 1152285394
@@ -1264,13 +1220,6 @@ our $I18N = {
 	'what next description' => {
 		message => q|Na het aanmaken van een enquête, kan er begonnen worden met het toevoegen van vragen of teruggegaan worden naar de pagina waar de enquête aan toegevoegd is.|,
 		lastUpdated => 1170691950
-	},
-
-	'4' => {
-		message => q|Met enquêtes kan informatie van de gebruikers ingewonnen worden. Met de WebGUI enquêtes kan ook de kennis van de gebruikers getest worden.<br />
-<br />
-Enquêtes zijn Assets en Wobjecten, en hebben dus ook de eigenschappen va beiden. Enquêtes hebben ook nog de volgende eigenschappen:|,
-		lastUpdated => 1170691931
 	},
 
 	'34' => {

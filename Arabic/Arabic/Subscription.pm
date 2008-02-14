@@ -1,14 +1,10 @@
 package WebGUI::i18n::Arabic::Subscription;
 
+
 our $I18N = {
 	'subscription description' => {
 		message => q|شرح|,
 		lastUpdated => 1177264134
-	},
-
-	'help manage batch title' => {
-		message => q|اشتراك, قم بادارة باتشات اكواد الاشتراك<br />|,
-		lastUpdated => 1177263172
 	},
 
 	'code length description' => {
@@ -36,14 +32,14 @@ our $I18N = {
 		lastUpdated => 1177264175
 	},
 
-	'delete batch confirm' => {
-		message => q|هل انت متأكد انك تريد مسح هذا الباتش؟<br />|,
-		lastUpdated => 1177261934
-	},
-
 	'code' => {
 		message => q|كود|,
 		lastUpdated => 1177261793
+	},
+
+	'delete batch confirm' => {
+		message => q|هل انت متأكد انك تريد مسح هذا الباتش؟<br />|,
+		lastUpdated => 1177261934
 	},
 
 	'redeem code success' => {
@@ -156,11 +152,6 @@ our $I18N = {
 		lastUpdated => 1177264107
 	},
 
-	'help create batch title' => {
-		message => q|اشتراك, قم بعمل باتشات من اكواد الاشتراك<br />|,
-		lastUpdated => 1177262015
-	},
-
 	'batch id' => {
 		message => q|هوية الباتش<br />|,
 		lastUpdated => 1177261786
@@ -206,11 +197,6 @@ our $I18N = {
 		lastUpdated => 1177262001
 	},
 
-	'help edit subscription title' => {
-		message => q|اشتراك, اضف/عدل|,
-		lastUpdated => 1177263157
-	},
-
 	'selection used' => {
 		message => q|تاريخ الاستخدام بين<br />|,
 		lastUpdated => 1177264124
@@ -219,11 +205,6 @@ our $I18N = {
 	'batch description' => {
 		message => q|شرح الباتش<br />|,
 		lastUpdated => 1177262042
-	},
-
-	'help manage batch body' => {
-		message => q|باتشات اكواد الاشتراك هي حاويات لاكواد الاشتراك. اكواد الاشتراك دائما ما يتم عملها في باتش, حتى لو كان هناك كود واحد داخل الباتش. كل الاكواد في الباتش الواحد تتشارك الخواص نفسها, باستثناء علم الحالة. <br /> |,
-		lastUpdated => 1177263163
 	},
 
 	'redeem code' => {
@@ -236,11 +217,6 @@ our $I18N = {
 		lastUpdated => 1177264182
 	},
 
-	'help create batch body' => {
-		message => q|قم بعمل باتش من اكواد الاشتراك<br />|,
-		lastUpdated => 1177262008
-	},
-
 	'listSubscriptionCodes title' => {
 		message => q|قم بادارة اكواد الاشتراك|,
 		lastUpdated => 1177263217
@@ -249,11 +225,6 @@ our $I18N = {
 	'subscription group description' => {
 		message => q|عندما يدفع المستخدم الاشتراك سيتم اضافته الى هذه المجموعة<br />|,
 		lastUpdated => 1177264160
-	},
-
-	'help edit subscription body' => {
-		message => q|الاشتراك سيسمح للمستخخدم قطعة من المحتوى قاموا بالدفع لها. التالي قائمة من الخواص المرتبطة بكل شرح: |,
-		lastUpdated => 1177262023
 	},
 
 	'codes expire' => {
@@ -271,11 +242,6 @@ our $I18N = {
 		lastUpdated => 1177263239
 	},
 
-	'help manage subscription codes title' => {
-		message => q|اشتراك, قم بادارة اكواد الاشتراك<br />|,
-		lastUpdated => 1177263185
-	},
-
 	'creation date' => {
 		message => q|تاريخ العمل<br />|,
 		lastUpdated => 1177261852
@@ -284,11 +250,6 @@ our $I18N = {
 	'execute on subscription' => {
 		message => q|نفذ على الاشتراك<br />|,
 		lastUpdated => 1177261963
-	},
-
-	'help manage subscriptions title' => {
-		message => q|الاشتراكات, ادر<br />|,
-		lastUpdated => 1177263196
 	},
 
 	'status' => {
@@ -331,9 +292,9 @@ our $I18N = {
 		lastUpdated => 1177264188
 	},
 
-	'dateUsed' => {
-		message => q|تاريخ الاستخدام<br />|,
-		lastUpdated => 1177261858
+	'select' => {
+		message => q|اظهر الاختيار|,
+		lastUpdated => 1177263330
 	},
 
 	'create batch error' => {
@@ -341,24 +302,14 @@ our $I18N = {
 		lastUpdated => 1177261840
 	},
 
-	'select' => {
-		message => q|اظهر الاختيار|,
-		lastUpdated => 1177263330
+	'dateUsed' => {
+		message => q|تاريخ الاستخدام<br />|,
+		lastUpdated => 1177261858
 	},
 
 	'list codes in batch' => {
 		message => q|قم بعمل قائمة بالاكواد في هذا الاشتراك<br />|,
 		lastUpdated => 1177263212
-	},
-
-	'help manage subscription codes body' => {
-		message => q|  <p dir="rtl" class="MsoNormal"><span>كود الاشتراك هو خيط من الحروف مرتبطة بمجموعة من الاشتراكات. من الممكن ان يقوم المستخدم بتحويل هذا الكود, و بالتالي يجعل نفسه مشتركا في كل الاشتراكات المرتبط بها الكود, باستخدام وصلة </span><span>&#39;Redeem a subscription code&#39;</span><span> في هذه القائمة. ضع في العتبار انه عند تحويل كود الاشتراك لا يطلب منك دفع اي مبالغ.</span><span></span></p>  |,
-		lastUpdated => 1177263178
-	},
-
-	'help manage subscriptions body' => {
-		message => q|الاشتراكات تسمح لك بأن تبيع مجموعات اتصال لمستخدميك بناء على نظام الاستراكات. لكي تبيع المحتوى لمستخدميك, اضبط المحتوى على ان يستطسع مجموعة واحدة الاطلاع عليه, ومن ثم اضبط المجموعة التي يستخدمها الاشتراك.<br /> |,
-		lastUpdated => 1177263190
 	},
 
 	'subscription karma description' => {

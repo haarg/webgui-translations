@@ -1,5 +1,6 @@
 package WebGUI::i18n::Dutch::Asset_Dashboard;
 
+
 our $I18N = {
 	'assets to hide' => {
 		message => q|Te verbergen assets|,
@@ -9,18 +10,6 @@ our $I18N = {
 	'assetName' => {
 		message => q|Dashboard|,
 		lastUpdated => 1152624242
-	},
-
-	'dashboard add/edit body' => {
-		message => q|<p>Het dashboard is een asset die objecten bevat en funtioneert als een poort. In de admin modus bewerkt het dashboard beheer de manier waarop bezoekers de site te zien krijgen. Wanneer de admin modus niet aanstaat, bewerkt het dashboard het zicht op een persoonlijke manier. Snelkoppelingen zijn de blangrtijkste functionaliteit van het dashboard. Zie voor meer details de Snelkoppeling toevoegen/bewerken documentatie.</p><p><strong>N.B.:</strong> Door bepaalde beperkingen in internet explorer werkt het dashboard niet goed samen als XHTML strict compliance aanstaat. Daarom moeten de stijl sjablonen van de dashboard pagina&#39;s niet XHTML strict zijn. Een andere manier om dit te omzeilen is dat als XHTML strict compliance gebruikt wordt, er zeker van te zijn dat binnen de eigen compliance ook niet het dashboard beperkt wordt met een div tag waar een breedte aan verbonden zit. </p>
-<p>Let op!<br />
-Door een beperking in Internet Explorer werkt het Dashboard niet helemaal correct als u XHTML strict als document type heeft opgegeven. Als u toch het Dashboard wenst te gebruiken met XHTML strict als document type dan dient u te voorkomen dat er een DIV met een gezette breedte om het Dashboard heen wordt geplaatst.|,
-		lastUpdated => 1166193195
-	},
-
-	'dashboard add/edit title' => {
-		message => q|Dashboard toevoegen/bewerken|,
-		lastUpdated => 1152624178
 	},
 
 	'dashboard usersGroupId description' => {
@@ -33,6 +22,11 @@ Door een beperking in Internet Explorer werkt het Dashboard niet helemaal correc
 		lastUpdated => 1152861653
 	},
 
+	'dashboard usersGroupId field label' => {
+		message => q|Wie kan personaliseren?|,
+		lastUpdated => 1152862184
+	},
+
 	'assets to hide description' => {
 		message => q|Deze lijst bevat een vak voor elk type asset van de pagina layout dat aangevinkt kan worden. Vink dit vak aan bij elke asset die niet getoond moet worden in de pagina layout asset. |,
 		lastUpdated => 1152623534
@@ -41,11 +35,6 @@ Door een beperking in Internet Explorer werkt het Dashboard niet helemaal correc
 	'dashboard template field label' => {
 		message => q|Dashboard sjabloon|,
 		lastUpdated => 1152861678
-	},
-
-	'dashboard usersGroupId field label' => {
-		message => q|Wie kan personaliseren?|,
-		lastUpdated => 1152862184
 	},
 
 	'dashboard adminsGroupId description' => {

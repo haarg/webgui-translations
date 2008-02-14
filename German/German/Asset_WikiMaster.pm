@@ -1,5 +1,6 @@
 package WebGUI::i18n::German::Asset_WikiMaster;
 
+
 our $I18N = {
 	'mostPopular' => {
 		message => q||,
@@ -161,11 +162,6 @@ our $I18N = {
 		lastUpdated => 1180529742
 	},
 
-	'wiki master asset variables body' => {
-		message => q||,
-		lastUpdated => 
-	},
-
 	'recent changes url' => {
 		message => q||,
 		lastUpdated => 
@@ -276,11 +272,6 @@ our $I18N = {
 		lastUpdated => 1180529247
 	},
 
-	'search box variables body' => {
-		message => q||,
-		lastUpdated => 
-	},
-
 	'actionN created' => {
 		message => q|Erzeugt|,
 		lastUpdated => 1180528449
@@ -316,12 +307,12 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'mostPopularLabel' => {
+	'recentChangesCount hoverHelp' => {
 		message => q||,
 		lastUpdated => 
 	},
 
-	'recentChangesCount hoverHelp' => {
+	'mostPopularLabel' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -341,12 +332,12 @@ our $I18N = {
 		lastUpdated => 1180528552
 	},
 
-	'searchFormFooter' => {
+	'search box variables title' => {
 		message => q||,
 		lastUpdated => 
 	},
 
-	'search box variables title' => {
+	'searchFormFooter' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -411,11 +402,6 @@ our $I18N = {
 		lastUpdated => 1180529531
 	},
 
-	'front page template body' => {
-		message => q|Dies ist das Haupt Template des Wiki. Die meisten Benutzer sehen dieses, wenn Sie ein Wiki Asset ansehen.|,
-		lastUpdated => 1180529657
-	},
-
 	'canAdminister' => {
 		message => q|Boolsche Variable, die angibt, ob der aktuelle Benutzer das Wiki administrieren darf.|,
 		lastUpdated => 1180529100
@@ -461,11 +447,6 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'add/edit title' => {
-		message => q|Wiki hinzuf&uuml;gen/bearbeiten|,
-		lastUpdated => 1180528664
-	},
-
 	'approval workflow description' => {
 		message => q|W&auml;hlen Sie einen Workflow, der jedesmal ausgef&uuml;hrt werden soll, wenn eine neue Seite hinzugef&uuml;gt wird.|,
 		lastUpdated => 1180528823
@@ -507,11 +488,6 @@ our $I18N = {
 	},
 
 	'pageTemplateId label' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'recent changes variables body' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -571,11 +547,6 @@ our $I18N = {
 		lastUpdated => 1180529762
 	},
 
-	'add/edit body' => {
-		message => q|Das Wiki ist dem Collaboration System sehr &auml;hnlich. Es verwaltet Wiki Seiten, die dem Wiki hinzugef&uuml;gt werden. Diese Felder sind f&uuml;r die Konfiguration und Anpassung des Wikis verf&uuml;gbar.|,
-		lastUpdated => 1180528642
-	},
-
 	'resultsLabel' => {
 		message => q||,
 		lastUpdated => 
@@ -604,11 +575,6 @@ our $I18N = {
 	'actionN trashed' => {
 		message => q|Gel&ouml;scht|,
 		lastUpdated => 1180528477
-	},
-
-	'most popular variables body' => {
-		message => q||,
-		lastUpdated => 
 	},
 
 	'wikiHomeUrl' => {

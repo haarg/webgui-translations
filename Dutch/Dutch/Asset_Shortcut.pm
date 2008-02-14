@@ -1,19 +1,15 @@
 package WebGUI::i18n::Dutch::Asset_Shortcut;
 
+
 our $I18N = {
-	'shortcut template body' => {
-		message => q|Deze variabelen zijn beschikbaar binnen Snelkoppeling sjablonen:|,
-		lastUpdated => 1152539867
+	'7' => {
+		message => q|Override titel?|,
+		lastUpdated => 1151910311
 	},
 
 	'no metadata yet' => {
 		message => q|Nog geen metadata gedefinieerd. <a href="%s">Klik hier</a> om metadata te definieren.|,
 		lastUpdated => 1151656095
-	},
-
-	'7' => {
-		message => q|Override titel?|,
-		lastUpdated => 1151910311
 	},
 
 	'disable content lock' => {
@@ -81,14 +77,14 @@ our $I18N = {
 		lastUpdated => 1151657730
 	},
 
-	'New Override Value' => {
-		message => q|Nieuwe override waarde|,
-		lastUpdated => 1151910531
-	},
-
 	'shortcut.properties' => {
 		message => q|Alle eigenschappen die zijn toegekend aan deze Snelkoppeling zullen in de template toegankelijk via hun naam.|,
 		lastUpdated => 1151657748
+	},
+
+	'New Override Value' => {
+		message => q|Nieuwe override waarde|,
+		lastUpdated => 1151910531
 	},
 
 	'Manage User Preferences' => {
@@ -167,14 +163,14 @@ our $I18N = {
 		lastUpdated => 1151656144
 	},
 
-	'Type of Field' => {
-		message => q|Type veld|,
-		lastUpdated => 1151657611
-	},
-
 	'shortcut.content' => {
 		message => q|De content van de gespiegelde asset. Als er overrides in de Snelkoppeling aangezet zijn, dan zal de override content gebruikt worden in plaats van de originele content uit de gespiegelde asset.|,
 		lastUpdated => 1152539750
+	},
+
+	'Type of Field' => {
+		message => q|Type veld|,
+		lastUpdated => 1151657611
 	},
 
 	'edit delete fieldname' => {
@@ -272,11 +268,6 @@ our $I18N = {
 		lastUpdated => 1151657326
 	},
 
-	'field add/edit body' => {
-		message => q|<p>Gebruikersvoorkeuren zijn de sleutel naar de personalisering van een snelkoppeling, alsook de sleutel naar het maken van een gepersonaliseerd dashboard. U kunt een gebruikersvoorkeur-veld aanmaken van een uit vier soorten: tekst, tekstRuimte, checkList, en selectList. Als uw soort &#39;list&#39; is, dan kunt u de mogelijke keuzes in de Mogelijke keuzes-box zetten, en elke zal zijn eigen entry hebben in een lijst van dat type (selecteer: kies een, of: kies geen of een willekeurige of allemaal). </p><p>U kunt een gebruikersvoorkeur-veld gebruiken om een lijst sjablonen te genereren waaruit de gebruiker kan kiezen, een keuze voor een ander soort voorkeur, zoals VS of metrische eenheden-formaat, of een willekeurige andere gebruikersvoorkeur. Gebruikersvoorkeur-velden zijn asset-(snelkoppelings-)specifiek,&nbsp; terwijl gebruikersprofiel-velden site-breed zijn. De gebruikersvoorkeur-velden zullen worden weergegeven aan uw overschrijf-velden in het formaat ##userPref:myUserPrefField##, en zullen op alle andere plekken&nbsp; worden weergegeven als normale sjabloon-variabelen (&lt;tmpl_var myUserPrefField&gt;).</p>|,
-		lastUpdated => 1155836173
-	},
-
 	'Original Value' => {
 		message => q|Originele waarde|,
 		lastUpdated => 1151657428
@@ -327,11 +318,6 @@ our $I18N = {
 		lastUpdated => 1151910398
 	},
 
-	'6' => {
-		message => q|TODO <p>Met behulp van een Snelkoppeling (ook wel&nbsp;Shortcut genoemd) kan je een asset spiegelen op een andere lokatie. Dit is nuttig wanneer je content op verschillende plaatsen wilt hergebruiken op een site.</p><p><strong>OPMERKINGEN:</strong></p><p>De Snelkoppeling is niet beschikbaar via de standaard &quot;Content toevoegen&quot; optie in de Admin balk, maar alleen via het Snelkoppeling icoon bij elke asset.</p><p><strong>Overrides</strong></p><p>Het is mogelijk om overrides en gebruikers voorkeuren in te stellen. Overrides zijn terug te vinden in de Overrides tab. Daarnaast zijn ze ook te vinden via &quot;Beheer overrides&quot; in het menu aan de rechterkant gedurende het wijzigen van een Snelkoppeling. De lijst van velden is&nbsp;een lijst van de instellingen van het gespiegelde asset. Indien een instelling op &#39;override&#39; staat, dan wordt de vervangings waarde&nbsp;getoont aan de rechterkant, deze kan vervolgens gewijzigd of verwijderd worden met behulp van de icoontjes. Instellingen waarvoor nog geen override is hebben een knop &quot;Wijzigen&quot; waarmee een override gecreerd kan worden.</p><p><strong>Gebruikers voorkeur velden</strong></p><p>Het is ook mogelijk om velden met gebruikers voorkeuren te cre&euml;ren. Deze velden worden automatisch gegenereerd voor eindgebruikers op de Dashlets van het Dashboard. Ze worden getoont als een gebruiker op de groene Wijzigknop klikt op de titelbalk van het Dashlet. Er zijn verschillende typen gebruikers voorkeur velden mogelijk: text, textlist (meervoudige tekst box), selectList (drop-down lijst met 1 keuzemogelijkhead) en checkList (lijst van vinkvakjes, met meerdere keuzemogelijkheden). De possibleValues (mogelijke waarden) zijn in te stellen&nbsp;tijdens het wijzigen van&nbsp;een gebruikers voorkeur veld. </p><p><strong>Chaining</strong></p><p>&nbsp;</p><p><strong>Velden</strong></p><p>&nbsp;</p>|,
-		lastUpdated => 1152541761
-	},
-
 	'Use this field to edit the override using the native form handler for this field type' => {
 		message => q|Gebruik dit veld om het overschrijven te bewerken, gebruikmakend van de bronformulier-beheerder voor dit veld-type |,
 		lastUpdated => 1155831664
@@ -342,19 +328,14 @@ our $I18N = {
 		lastUpdated => 1151655817
 	},
 
-	'field add/edit title' => {
-		message => q|Toevoegen/wijzigen gebruikersvoorkeur|,
-		lastUpdated => 1151657655
-	},
-
 	'Hover Help Description for this Field' => {
 		message => q|Hover omschrijving voor dit veld|,
 		lastUpdated => 1151910497
 	},
 
-	'9' => {
-		message => q|Override omschrijving?|,
-		lastUpdated => 1151910330
+	'field add/edit title' => {
+		message => q|Toevoegen/wijzigen gebruikersvoorkeur|,
+		lastUpdated => 1151657655
 	},
 
 	'Resolve Multiples' => {
@@ -362,19 +343,24 @@ our $I18N = {
 		lastUpdated => 1153385934
 	},
 
+	'9' => {
+		message => q|Override omschrijving?|,
+		lastUpdated => 1151910330
+	},
+
 	'8' => {
 		message => q|Override titel laten zien?|,
 		lastUpdated => 1151910320
 	},
 
-	'Most Recent' => {
-		message => q|Meest recent|,
-		lastUpdated => 1151657400
-	},
-
 	'4' => {
 		message => q|Het spiegelen van de asset is mislukt. Wellicht is de originele asset verwijderd.|,
 		lastUpdated => 1151657484
+	},
+
+	'Most Recent' => {
+		message => q|Meest recent|,
+		lastUpdated => 1151657400
 	},
 
 	'Shortcut by alternate criteria description' => {
@@ -390,11 +376,6 @@ our $I18N = {
 	'Edit User Preference Field' => {
 		message => q|Wijzigen gebruikers voorkeur veld|,
 		lastUpdated => 1151910449
-	},
-
-	'5' => {
-		message => q|Snelkoppeling, toevoegen/wijzigen|,
-		lastUpdated => 1151657531
 	},
 
 };

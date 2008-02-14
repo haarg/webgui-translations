@@ -1,14 +1,15 @@
 package WebGUI::i18n::Dutch::Asset_WeatherData;
 
-our $I18N = {
-	'assetName' => {
-		message => q|WeerData|,
-		lastUpdated => 1152540361
-	},
 
+our $I18N = {
 	'partnerId help' => {
 		message => q|Deze ID ontvang je in een email van weather.dcom na registratie voor de Weather XML Data Feed.|,
 		lastUpdated => 1189373922
+	},
+
+	'assetName' => {
+		message => q|WeerData|,
+		lastUpdated => 1152540361
 	},
 
 	'cityState' => {
@@ -24,11 +25,6 @@ our $I18N = {
 	'Current Weather Conditions Template to use' => {
 		message => q|Te gebruiken sjbaloon voor huidige weerscondities|,
 		lastUpdated => 1152540622
-	},
-
-	'WeatherData template description' => {
-		message => q|Deze sjabloon variabelen zijn beschikbaar binnen het WeerData sjabloon:|,
-		lastUpdated => 1152540451
 	},
 
 	'Default Locations' => {
@@ -76,19 +72,14 @@ our $I18N = {
 		lastUpdated => 1152540254
 	},
 
-	'weatherdata asset template variables body' => {
-		message => q|Elk object (asset) maakt een set variabelen beschikbaar in de meeste van de bijbehorende sjablonen. Deze variabelen zijn gebaseerd op kenmerken van het object. Niet alle variabelen zijn even bruikbaar.|,
-		lastUpdated => 1180653291
+	'partnerId' => {
+		message => q|De Partner Id van Weather.com|,
+		lastUpdated => 1189373895
 	},
 
 	'iconUrl' => {
 		message => q|De URL van het icoon dat de luchtconditie aangeeft.|,
 		lastUpdated => 1152540306
-	},
-
-	'partnerId' => {
-		message => q|De Partner Id van Weather.com|,
-		lastUpdated => 1189373895
 	},
 
 	'Template' => {
@@ -104,16 +95,6 @@ our $I18N = {
 	'you need a weather.com key' => {
 		message => q|Klik hier om te registreren bij weather.com om een gratis Weather XML Data Feed te ontvangen. Deze heb je nodig om dit object (asset) te kunnen gebruiken.|,
 		lastUpdated => 1189373961
-	},
-
-	'weather data add/edit body' => {
-		message => q|Het WeerData wobject is nuttig om de huidige weerscondities te laten zien binnen een stad/provincie of postcode gebried, of binnen een serie locaties.|,
-		lastUpdated => 1152540226
-	},
-
-	'weather data add/edit title' => {
-		message => q|WeerData toevoegen/bewerken|,
-		lastUpdated => 1152540239
 	},
 
 	'ourLocations.loop' => {

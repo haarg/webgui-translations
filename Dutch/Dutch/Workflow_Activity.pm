@@ -1,5 +1,6 @@
 package WebGUI::i18n::Dutch::Workflow_Activity;
 
+
 our $I18N = {
 	'title help' => {
 		message => q|Vul hier een naam in die beschrijft wat deze activiteit doet.|,
@@ -9,16 +10,6 @@ our $I18N = {
 	'description help' => {
 		message => q|Hier kan een lange omschrijving ingevoerd worden waarmee de activiteit uitgelegd wordt.|,
 		lastUpdated => 1166637835
-	},
-
-	'add/edit workflow activity body' => {
-		message => q|Toevoegen/bewerken workflow activiteit|,
-		lastUpdated => 1166637830
-	},
-
-	'add/edit workflow activity' => {
-		message => q|Workflow activiteit, toevoegen/bewerken|,
-		lastUpdated => 1154351703
 	},
 
 	'description' => {
