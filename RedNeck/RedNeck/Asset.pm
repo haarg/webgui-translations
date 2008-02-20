@@ -582,8 +582,8 @@ our $I18N = {
 	},
 
 	'108' => {
-		message => q|Owner|,
-		lastUpdated => 1168191767
+		message => q|Ownur|,
+		lastUpdated => 1203223348
 	},
 
 	'could not create path' => {

@@ -82,8 +82,8 @@ our $I18N = {
 	},
 
 	'border color' => {
-		message => q|dsa|,
-		lastUpdated => 1168201548
+		message => q|border color|,
+		lastUpdated => 1203545579
 	},
 
 	'description' => {
@@ -117,6 +117,11 @@ our $I18N = {
 	},
 
 	'used' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'error heading' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -209,6 +214,11 @@ our $I18N = {
 	'ad space id' => {
 		message => q|where dem vermin go|,
 		lastUpdated => 1202282407
+	},
+
+	'error invalid characters' => {
+		message => q||,
+		lastUpdated => 
 	},
 
 	'clicks bought help' => {
