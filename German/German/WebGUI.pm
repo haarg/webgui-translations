@@ -516,6 +516,11 @@ our $I18N = {
 		lastUpdated => 1178186438
 	},
 
+	'user profile field private message allow label' => {
+		message => q||,
+		lastUpdated => 
+	},
+
 	'244' => {
 		message => q|Autor|,
 		lastUpdated => 1178185129
@@ -966,6 +971,11 @@ our $I18N = {
 		lastUpdated => 1178193283
 	},
 
+	'account.options' => {
+		message => q||,
+		lastUpdated => 
+	},
+
 	'1026' => {
 		message => q|Rich Edit erlauben?|,
 		lastUpdated => 1178615097
@@ -1151,6 +1161,11 @@ our $I18N = {
 		lastUpdated => 1178181599
 	},
 
+	'broken spectre title' => {
+		message => q||,
+		lastUpdated => 
+	},
+
 	'333' => {
 		message => q|Land|,
 		lastUpdated => 1178186400
@@ -1272,6 +1287,11 @@ our $I18N = {
 	},
 
 	'pagination.nextPageText' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'account options template variables' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -1399,6 +1419,11 @@ our $I18N = {
 	'556' => {
 		message => q|Menge|,
 		lastUpdated => 1178194952
+	},
+
+	'options.display' => {
+		message => q||,
+		lastUpdated => 
 	},
 
 	'462' => {
@@ -1606,6 +1631,11 @@ our $I18N = {
 		lastUpdated => 1178547643
 	},
 
+	'user profile field friend availability' => {
+		message => q||,
+		lastUpdated => 
+	},
+
 	'818' => {
 		message => q|Deaktiviert|,
 		lastUpdated => 1178530829
@@ -1736,6 +1766,11 @@ our $I18N = {
 		lastUpdated => 1180013355
 	},
 
+	'private message delete text' => {
+		message => q||,
+		lastUpdated => 
+	},
+
 	'565' => {
 		message => q|Wer darf moderieren?|,
 		lastUpdated => 1178617656
@@ -1771,6 +1806,11 @@ our $I18N = {
 		lastUpdated => 1179994697
 	},
 
+	'broken spectre body' => {
+		message => q||,
+		lastUpdated => 
+	},
+
 	'730' => {
 		message => q|1 Novice|,
 		lastUpdated => 1178617908
@@ -1796,6 +1836,11 @@ our $I18N = {
 		lastUpdated => 1178616284
 	},
 
+	'user profile field private message allow none label' => {
+		message => q||,
+		lastUpdated => 
+	},
+
 	'872' => {
 		message => q|Wer darf anschauen?|,
 		lastUpdated => 1178618317
@@ -1804,6 +1849,11 @@ our $I18N = {
 	'image manager' => {
 		message => q|Bild Verwalter|,
 		lastUpdated => 1178619160
+	},
+
+	'high user count' => {
+		message => q||,
+		lastUpdated => 
 	},
 
 	'316' => {
@@ -2014,6 +2064,11 @@ our $I18N = {
 	'settings groupIdAdminGroupAdmin label' => {
 		message => q||,
 		lastUpdated => 
+	},
+
+	'username no html' => {
+		message => q|Ihrer Benutzername kann weder HTML noch WebGUI Makros enthalten.|,
+		lastUpdated => 1203221901
 	},
 
 	'732' => {
@@ -2227,6 +2282,11 @@ our $I18N = {
 	},
 
 	'pagination.firstPageUrl' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'high group count' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -3028,8 +3088,8 @@ our $I18N = {
 	},
 
 	'863' => {
-		message => q||,
-		lastUpdated => 1178538317
+		message => q|Ausgleich von der Streichung|,
+		lastUpdated => 1203221590
 	},
 
 	'531' => {
@@ -3177,6 +3237,11 @@ our $I18N = {
 		lastUpdated => 1178617276
 	},
 
+	'user profile field private message friends only label' => {
+		message => q||,
+		lastUpdated => 
+	},
+
 	'80' => {
 		message => q|Account wurde erfogreich angelegt!|,
 		lastUpdated => 1178530510
@@ -3208,8 +3273,8 @@ our $I18N = {
 	},
 
 	'821' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Irgendein|,
+		lastUpdated => 1203221229
 	},
 
 	'wiki help target' => {

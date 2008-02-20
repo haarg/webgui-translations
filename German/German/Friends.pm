@@ -12,8 +12,8 @@ our $I18N = {
 	},
 
 	'remove' => {
-		message => q||,
-		lastUpdated => 
+		message => q|entfernen|,
+		lastUpdated => 1203222634
 	},
 
 	'friends' => {
@@ -67,8 +67,8 @@ our $I18N = {
 	},
 
 	'name' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Der Name von diesem Freund.|,
+		lastUpdated => 1203222362
 	},
 
 	'add to friends list' => {
@@ -152,8 +152,8 @@ our $I18N = {
 	},
 
 	'see my friends' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Meine Freunde sehen|,
+		lastUpdated => 1203222711
 	},
 
 	'already a friend' => {
@@ -207,8 +207,8 @@ our $I18N = {
 	},
 
 	'no friends' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Du hast keine Freunde angemeldet.|,
+		lastUpdated => 1203222482
 	},
 
 	'profileUrl' => {
@@ -242,8 +242,8 @@ our $I18N = {
 	},
 
 	'my friends' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Meine Freunde|,
+		lastUpdated => 1203222390
 	},
 
 	'manage friends template title' => {
