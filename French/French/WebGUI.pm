@@ -649,8 +649,8 @@ our $I18N = {
 	},
 
 	'1004 description' => {
-		message => q|Les grands emplacements employant des données externes de groupe font beaucoup d'appels à la base de données externe. Pour aider à réduire la charge, vous pouvez choisir combien de temps vous voudriez cacher les résultats de la question externe de base de données dans la base de données de WebGUI. Cacher plus avançé de fond peut être inclus dans un futur dégagement de WebGUI.|,
-		lastUpdated => 1201304310
+		message => q||,
+		lastUpdated => 1203637930
 	},
 
 	'mail return path' => {
@@ -785,7 +785,7 @@ our $I18N = {
 
 	'1075' => {
 		message => q|Lien de Base de donn&eacute;es|,
-		lastUpdated => 1202832542
+		lastUpdated => 1203638135
 	},
 
 	'381' => {
@@ -884,8 +884,8 @@ our $I18N = {
 	},
 
 	'1073' => {
-		message => q|Modèle de style|,
-		lastUpdated => 1201306742
+		message => q|Gabarit|,
+		lastUpdated => 1203638082
 	},
 
 	'436' => {
@@ -979,10 +979,8 @@ our $I18N = {
 	},
 
 	'1026' => {
-		message => q|Permettez l'édition riche?
-
-|,
-		lastUpdated => 1201305104
+		message => q|Permettez l'&eacute;dition de texte enrichi?  |,
+		lastUpdated => 1203638040
 	},
 
 	'329' => {
@@ -1171,8 +1169,8 @@ our $I18N = {
 	},
 
 	'333' => {
-		message => q|Pays (travail)|,
-		lastUpdated => 1203355947
+		message => q|Pays|,
+		lastUpdated => 1203638164
 	},
 
 	'groups to add' => {
@@ -1791,8 +1789,8 @@ our $I18N = {
 	},
 
 	'1004' => {
-		message => q|Stockez les groupes pour combien de temps?|,
-		lastUpdated => 1201304176
+		message => q|Combien de temps stockez les groupes?|,
+		lastUpdated => 1203637852
 	},
 
 	'891' => {
@@ -3076,8 +3074,8 @@ our $I18N = {
 	},
 
 	'147' => {
-		message => q|Modules (Assets)|,
-		lastUpdated => 1202832293
+		message => q|Modules|,
+		lastUpdated => 1203638152
 	},
 
 	'339' => {
@@ -3101,8 +3099,8 @@ our $I18N = {
 	},
 
 	'345' => {
-		message => q|N'est pas un mmbre|,
-		lastUpdated => 1202913351
+		message => q|N'est pas un membre|,
+		lastUpdated => 1203638190
 	},
 
 	'319' => {
@@ -3136,8 +3134,8 @@ our $I18N = {
 	},
 
 	'1043' => {
-		message => q|Archives après|,
-		lastUpdated => 1201305507
+		message => q|Archiver apr&egrave;s|,
+		lastUpdated => 1203638122
 	},
 
 	'Enable Metadata' => {
