@@ -27,8 +27,8 @@ our $I18N = {
 	},
 
 	'118' => {
-		message => q|Connexion anonyme|,
-		lastUpdated => 1203534546
+		message => q|Connection anonyme|,
+		lastUpdated => 1203637700
 	},
 
 	'443' => {
@@ -219,8 +219,8 @@ our $I18N = {
 	},
 
 	'540' => {
-		message => q|Karma par connexion|,
-		lastUpdated => 1203534592
+		message => q|Karma par connection|,
+		lastUpdated => 1203637724
 	},
 
 	'private message prev label' => {
@@ -1276,8 +1276,8 @@ our $I18N = {
 	},
 
 	'426' => {
-		message => q|Historique des connexions|,
-		lastUpdated => 1203624929
+		message => q|Historique des connections|,
+		lastUpdated => 1203637624
 	},
 
 	'369' => {
@@ -2001,8 +2001,8 @@ our $I18N = {
 	},
 
 	'429' => {
-		message => q|L'heure de la connexion|,
-		lastUpdated => 1203534581
+		message => q|L'heure de la connection|,
+		lastUpdated => 1203637711
 	},
 
 	'image' => {
@@ -2016,8 +2016,8 @@ our $I18N = {
 	},
 
 	'73' => {
-		message => q|Connexion.|,
-		lastUpdated => 1203534616
+		message => q|Connection.|,
+		lastUpdated => 1203637745
 	},
 
 	'settings groupIdAdminGroup hoverHelp' => {
@@ -2201,8 +2201,8 @@ our $I18N = {
 	},
 
 	'settings groupIdAdminLoginHistory label' => {
-		message => q|Historiques des connexions|,
-		lastUpdated => 1203534654
+		message => q|Historiques des connections|,
+		lastUpdated => 1203637757
 	},
 
 	'355' => {
@@ -2341,8 +2341,8 @@ our $I18N = {
 	},
 
 	'settings groupIdAdminLoginHistory hoverHelp' => {
-		message => q|Groupe pouvant voir l'historique des connexions.|,
-		lastUpdated => 1203534631
+		message => q|Groupe pouvant voir l'historique des connections.|,
+		lastUpdated => 1203637644
 	},
 
 	'pagination.previousPageUrl' => {
@@ -2496,8 +2496,8 @@ our $I18N = {
 	},
 
 	'422' => {
-		message => q|<p>La connexion a &eacute;chou&eacute;e.</p><p>Les informations transmises ne correspondent pas avec un compte existant.</p>|,
-		lastUpdated => 1203534570
+		message => q|<p>La connection a &eacute;chou&eacute;e.</p><p>Les informations transmises ne correspondent pas avec un compte existant.</p>|,
+		lastUpdated => 1203637688
 	},
 
 	'817' => {
@@ -3446,8 +3446,8 @@ our $I18N = {
 	},
 
 	'66' => {
-		message => q|Connexion |,
-		lastUpdated => 1203534604
+		message => q|Connection |,
+		lastUpdated => 1203637734
 	},
 
 	'show my fields' => {
