@@ -2,13 +2,13 @@ package WebGUI::i18n::French::Macros;
 
 our $I18N = {
 	'macro disabled' => {
-		message => q|Cette macro n'est pas active dans le fichier de configuration actuelle de WEBGUI et ne peut être utilisée dans ce site.|,
-		lastUpdated => 1202582776
+		message => q|Cette macro n'est pas active dans le fichier de configuration actuelle de WEBGUI et ne peut &ecirc;tre utilis&eacute;e dans ce site.|,
+		lastUpdated => 1203631306
 	},
 
 	'macros list body' => {
 		message => q|<p>Il y a 2 fa&ccedil;ons de rendre disponible une macro sur votre site:</p><p>1- La macro doit &ecirc;tre mise dans le r&eacute;pertoire des macros de WebGUI :ib/WebGUI/Macros/.</p><p>2- La macro doit &ecirc;tre activ&eacute;e dans le fichier de configuration de WebGUI WebGUI.conf, dans la section &quot;macros&quot;. Dans cette section, vous pouvez donner un raccouri pour le nom de votre macro.</p><p>&nbsp;La liste suivante montre toutes les macros install&eacute;es sur votre site et disponbles dans le fichier de config WebGUI.conf. </p>|,
-		lastUpdated => 1203451987
+		lastUpdated => 1203631319
 	},
 
 	'macro enabled' => {
@@ -18,7 +18,7 @@ our $I18N = {
 
 	'macro shortcut' => {
 		message => q|Raccourci de la macro|,
-		lastUpdated => 1202582839
+		lastUpdated => 1203631335
 	},
 
 	'macro enabled header' => {
