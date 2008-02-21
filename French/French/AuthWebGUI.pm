@@ -87,8 +87,8 @@ our $I18N = {
 	},
 
 	'email address validation email subject' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Activation de compte|,
+		lastUpdated => 1203627373
 	},
 
 	'recoverFormUsernameLabel' => {
@@ -112,8 +112,8 @@ our $I18N = {
 	},
 
 	'email recover password start message' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Saissir votre adresse email ou votre nom d'utilisateur pour effectuer la r&eacute;cup&eacute;ration de m&ocirc;t de passe.|,
+		lastUpdated => 1203627625
 	},
 
 	'20' => {
@@ -232,8 +232,8 @@ our $I18N = {
 	},
 
 	'expired.form.footer' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Les &eacute;l&eacute;ments de formulaire requis allant apr&egrave;s la page d'expiration du m&ocirc;t de passe.|,
+		lastUpdated => 1203628163
 	},
 
 	'require username for password recovery' => {
@@ -242,13 +242,13 @@ our $I18N = {
 	},
 
 	'error password nonWordCharacters' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Le m&ocirc;t de passe doit avoir au moins %s caract&egrave;res non-alphab&eacute;tique (comme '!', '@' ou '$').|,
+		lastUpdated => 1203627866
 	},
 
 	'deactivate account template title' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Gabarit WebGUI de d&eacute;sactivation du compte.|,
+		lastUpdated => 1203627226
 	},
 
 	'login template' => {
@@ -257,8 +257,8 @@ our $I18N = {
 	},
 
 	'error passwordRecoveryType no profile fields required' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Ne peut pas activer la r&eacute;cup&eacute;ration de m&ocirc;t de passe WebGUI: Il n'existe pas de champ requis dans le profil utilisateur pour cet r&eacute;cup&eacute;ration.|,
+		lastUpdated => 1203628025
 	},
 
 	'12' => {
@@ -282,8 +282,8 @@ our $I18N = {
 	},
 
 	'email password recovery end message' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Saissir un nouveau m&ocirc;t de passe pour votre compte.|,
+		lastUpdated => 1203627424
 	},
 
 	'login.label' => {
@@ -352,18 +352,18 @@ our $I18N = {
 	},
 
 	'expired.form.header' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Les &eacute;l&eacute;ments de formulaire requis allant au d&eacute;but de la page d'expiration du m&ocirc;t de passe.|,
+		lastUpdated => 1203628186
 	},
 
 	'error password requiredDigits' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Le m&ocirc;t de passe doit avoir au moins %s chiffre(s).|,
+		lastUpdated => 1203627853
 	},
 
 	'display account template title' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Gabarit WebGUI de d&eacute;sactivation du compte|,
+		lastUpdated => 1203627254
 	},
 
 	'1' => {
@@ -427,8 +427,8 @@ our $I18N = {
 	},
 
 	'email address validation email body' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Bienvenu sur notre site. Cliquez sur le lien suivant pour activer votre compte.|,
+		lastUpdated => 1203627385
 	},
 
 	'login.form.email.label' => {
@@ -482,13 +482,13 @@ our $I18N = {
 	},
 
 	'createAccount.url' => {
-		message => q||,
-		lastUpdated => 
+		message => q|URL vers la page enresitrement anonyme|,
+		lastUpdated => 1203627146
 	},
 
 	'email recover password finish message1' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Un message a &eacute;t&eacute; envoy&eacute; &agrave;|,
+		lastUpdated => 1203627473
 	},
 
 	'account.form.username.label' => {
@@ -512,18 +512,18 @@ our $I18N = {
 	},
 
 	'expired password template' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Gabarit de l'expiration du m&ocirc;t de passe|,
+		lastUpdated => 1203628063
 	},
 
 	'expired template title' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Gabarit Webgui d'expiration du m&ocirc;t de passe|,
+		lastUpdated => 1203628093
 	},
 
 	'email recover password finish message2' => {
-		message => q||,
-		lastUpdated => 
+		message => q|pour instruction de remettre &agrave; jour votre m&ocirc;t de passe.|,
+		lastUpdated => 1203627541
 	},
 
 	'captcha label' => {
@@ -587,8 +587,8 @@ our $I18N = {
 	},
 
 	'expired.form.hidden' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Champs cach&eacute; requis pour le formulaire de soumission (form submittal).|,
+		lastUpdated => 1203628229
 	},
 
 	'recover.form.header' => {
@@ -602,8 +602,8 @@ our $I18N = {
 	},
 
 	'createAccount.label' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Etiquette par d&eacute;faut pour le lien enregistration anonyme.|,
+		lastUpdated => 1203627310
 	},
 
 	'4' => {
@@ -617,8 +617,8 @@ our $I18N = {
 	},
 
 	'error password requiredMixedCase' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Le m&ocirc;t de passe doit avoir au moins %s caract&egrave;res majuscules et au moins un caract&egrave;re minuscule.|,
+		lastUpdated => 1203627843
 	},
 
 	'webguiPasswordRecoveryRequireUsername hoverHelp' => {

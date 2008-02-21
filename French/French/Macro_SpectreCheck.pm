@@ -3,7 +3,7 @@ package WebGUI::i18n::French::Macro_SpectreCheck;
 our $I18N = {
 	'spectre is down' => {
 		message => q|Spectre est indisponible|,
-		lastUpdated => 1203374278
+		lastUpdated => 1203627013
 	},
 
 	'macroName' => {
