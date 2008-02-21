@@ -22,8 +22,8 @@ our $I18N = {
 	},
 
 	'71' => {
-		message => q|R&eacute;cup&eacute;rer le m&ocirc;t de passe|,
-		lastUpdated => 1203357845
+		message => q|R&eacute;cup&eacute;rer le mot de passe|,
+		lastUpdated => 1203624986
 	},
 
 	'118' => {
@@ -894,8 +894,8 @@ our $I18N = {
 	},
 
 	'51' => {
-		message => q|M&ocirc;t de passe|,
-		lastUpdated => 1203357073
+		message => q|Mot de passe|,
+		lastUpdated => 1203624941
 	},
 
 	'816' => {
@@ -1276,8 +1276,8 @@ our $I18N = {
 	},
 
 	'426' => {
-		message => q|Historique des connecions|,
-		lastUpdated => 1203426537
+		message => q|Historique des connexions|,
+		lastUpdated => 1203624929
 	},
 
 	'369' => {
@@ -2081,8 +2081,8 @@ our $I18N = {
 	},
 
 	'51 description' => {
-		message => q|Le m&ocirc;t de passe pour l'administrateur. Ne pas oublier de changer la valeur par d&eacute;faut &agrave; la cr&eacute;ation!|,
-		lastUpdated => 1203368531
+		message => q|Le mot de passe pour l'administrateur. Ne pas oublier de changer la valeur par d&eacute;faut &agrave; la cr&eacute;ation!|,
+		lastUpdated => 1203624955
 	},
 
 	'811' => {
@@ -2611,8 +2611,8 @@ our $I18N = {
 	},
 
 	'995 description' => {
-		message => q|Le m&ocirc;t de passe pour se connecter au DSN.|,
-		lastUpdated => 1203363638
+		message => q|Le mot de passe pour se connecter au DSN.|,
+		lastUpdated => 1203625029
 	},
 
 	'484' => {
@@ -3366,8 +3366,8 @@ our $I18N = {
 	},
 
 	'995' => {
-		message => q|M&ocirc;t de passe DATABASE|,
-		lastUpdated => 1203363584
+		message => q|Mot de passe DATABASE|,
+		lastUpdated => 1203625001
 	},
 
 	'837' => {
@@ -3541,8 +3541,8 @@ our $I18N = {
 	},
 
 	'59' => {
-		message => q|J'ai oubli&eacute; mon m&ocirc;t de passe.|,
-		lastUpdated => 1203357499
+		message => q|J'ai oubli&eacute; mon mot de passe.|,
+		lastUpdated => 1203624969
 	},
 
 	'450' => {
