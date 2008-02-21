@@ -3,12 +3,12 @@ package WebGUI::i18n::French::Macro_r_printable;
 our $I18N = {
 	'printable.url' => {
 		message => q|L'URL pour rendre la page imprimable.|,
-		lastUpdated => 1203454212
+		lastUpdated => 1203622415
 	},
 
 	'53' => {
 		message => q|Rendre la page imprimable|,
-		lastUpdated => 1202830652
+		lastUpdated => 1203622282
 	},
 
 	'printable.text' => {
@@ -18,12 +18,12 @@ our $I18N = {
 
 	'macroName' => {
 		message => q|Rendre la page imprimable|,
-		lastUpdated => 1203454419
+		lastUpdated => 1203622287
 	},
 
 	'printable title' => {
-		message => q|Variables du mod&egrave;le de mise en page de la macro : Rendre la page imprimable (Make Page Printable)|,
-		lastUpdated => 1203453636
+		message => q|Variables du gabarit de la macro 'Rendre la page imprimable' (Make Page Printable)|,
+		lastUpdated => 1203622334
 	},
 
 };
