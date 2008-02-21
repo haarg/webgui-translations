@@ -3,7 +3,7 @@ package WebGUI::i18n::French::Workflow_Activity;
 our $I18N = {
 	'title help' => {
 		message => q|Mettre un nom ipour identifier l'activit&eacute;.|,
-		lastUpdated => 1203072141
+		lastUpdated => 1203631943
 	},
 
 	'description help' => {
@@ -17,8 +17,8 @@ our $I18N = {
 	},
 
 	'topicName' => {
-		message => q|Activit&eacute;s du gestionnaire de t&acirc;ches|,
-		lastUpdated => 1203071957
+		message => q|Activit&eacute;s du flux de t&acirc;ches|,
+		lastUpdated => 1203631932
 	},
 
 	'activity enabled header' => {
@@ -28,12 +28,12 @@ our $I18N = {
 
 	'activities list body' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 1203631988
 	},
 
 	'title' => {
 		message => q|Titre|,
-		lastUpdated => 1203072022
+		lastUpdated => 1203631949
 	},
 
 	'list of installed activities' => {
