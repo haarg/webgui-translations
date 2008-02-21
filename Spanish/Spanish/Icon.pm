@@ -12,18 +12,18 @@ our $I18N = {
 	},
 
 	'Export help' => {
-		message => q||,
-		lastUpdated => 
+		message => q|<p>Ayuda exportar</p>|,
+		lastUpdated => 1203580068
 	},
 
 	'Create Shortcut help' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Ayuda crear acceso directo|,
+		lastUpdated => 1203579874
 	},
 
 	'Page Settings' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Ajuste de pagina|,
+		lastUpdated => 1203579995
 	},
 
 	'View' => {
@@ -32,8 +32,8 @@ our $I18N = {
 	},
 
 	'Move To Bottom' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Mover para abajo|,
+		lastUpdated => 1203579895
 	},
 
 	'Create Shortcut' => {
@@ -47,13 +47,13 @@ our $I18N = {
 	},
 
 	'Cut help' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Ayuda copiar|,
+		lastUpdated => 1203580008
 	},
 
 	'Move To Top' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Mover para ariba|,
+		lastUpdated => 1203579908
 	},
 
 	'Delete' => {
@@ -62,8 +62,8 @@ our $I18N = {
 	},
 
 	'Edit help' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Ayuda editar|,
+		lastUpdated => 1203580058
 	},
 
 	'locked' => {
@@ -72,8 +72,8 @@ our $I18N = {
 	},
 
 	'Wobject Settings' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Wobject ajustes|,
+		lastUpdated => 1203580113
 	},
 
 	'Copy' => {
@@ -92,13 +92,13 @@ our $I18N = {
 	},
 
 	'Delete help' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Ayuda borrar|,
+		lastUpdated => 1203580086
 	},
 
 	'locked help' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Ayuda cerrado|,
+		lastUpdated => 1203580098
 	},
 
 	'Move Down' => {
@@ -112,13 +112,13 @@ our $I18N = {
 	},
 
 	'Copy help' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Ayuda para copiar|,
+		lastUpdated => 1203579842
 	},
 
 	'Drag' => {
-		message => q||,
-		lastUpdated => 
+		message => q|<p>arrastrar</p>|,
+		lastUpdated => 1203580046
 	},
 
 	'Export' => {
