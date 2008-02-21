@@ -7,8 +7,8 @@ our $I18N = {
 	},
 
 	'selectAll label' => {
-		message => q|S&eacute;lectionner tout|,
-		lastUpdated => 1203424067
+		message => q|Tout s&eacute;lectionner|,
+		lastUpdated => 1203622710
 	},
 
 };

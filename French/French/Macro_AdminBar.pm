@@ -2,8 +2,8 @@ package WebGUI::i18n::French::Macro_AdminBar;
 
 our $I18N = {
 	'icon' => {
-		message => q|L'URL de l'ic&ocirc;ne associ&eacute; &agrave; cet objet.|,
-		lastUpdated => 1203454968
+		message => q|L'URL de l'ic&ocirc;ne associ&eacute;e &agrave; cet objet.|,
+		lastUpdated => 1203624145
 	},
 
 	'macroName' => {
@@ -13,7 +13,7 @@ our $I18N = {
 
 	'name' => {
 		message => q|Un nom compatible javascript pour cette cat&eacute;gorie.|,
-		lastUpdated => 1203455256
+		lastUpdated => 1203624137
 	},
 
 	'12' => {
@@ -23,42 +23,42 @@ our $I18N = {
 
 	'1082' => {
 		message => q|Presse-papier|,
-		lastUpdated => 1203454571
+		lastUpdated => 1203623961
 	},
 
 	'admin bar title' => {
-		message => q|Variables du mod&egrave;le de mise en page de la macro : Barre Administrateur.|,
-		lastUpdated => 1203454805
+		message => q|Variables du gabarit de la macro 'Barre Administrateur'.|,
+		lastUpdated => 1203624157
 	},
 
 	'376' => {
 		message => q|Package|,
-		lastUpdated => 1203454536
+		lastUpdated => 1203623955
 	},
 
 	'399' => {
 		message => q|Valider cette page.|,
-		lastUpdated => 1203454560
+		lastUpdated => 1203623999
 	},
 
 	'adminbar_loop' => {
-		message => q|Une boucle contenant les listes diff&eacute;rentes de donn&eacute;es pour afficher.|,
-		lastUpdated => 1203454762
+		message => q|Une boucle contenant les listes de donn&eacute;es pour afficher.|,
+		lastUpdated => 1203624150
 	},
 
 	'url' => {
 		message => q|Le lien URL pour cet objet.|,
-		lastUpdated => 1203454607
+		lastUpdated => 1203624191
 	},
 
 	'label' => {
-		message => q|le titre de l'&eacute;tiquette pour cette cat&eacute;gorie.|,
-		lastUpdated => 1203454730
+		message => q|Le titre de l'&eacute;tiquette pour cette cat&eacute;gorie.|,
+		lastUpdated => 1203624106
 	},
 
 	'title' => {
 		message => q|Le titre du lien affichable pour cet objet.|,
-		lastUpdated => 1203454648
+		lastUpdated => 1203624179
 	},
 
 	'1083' => {
@@ -68,12 +68,12 @@ our $I18N = {
 
 	'commit my changes' => {
 		message => q|Commettre mes changements|,
-		lastUpdated => 1203454930
+		lastUpdated => 1203624048
 	},
 
 	'items' => {
 		message => q|Une boucle contenant la liste des objets dans cette cat&eacute;gorie.|,
-		lastUpdated => 1203455223
+		lastUpdated => 1203624078
 	},
 
 };

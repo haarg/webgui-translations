@@ -7,8 +7,8 @@ our $I18N = {
 	},
 
 	'editable toggle title' => {
-		message => q|Variable du mod&egrave;le de mise en page de la macro 'boite de connexion'|,
-		lastUpdated => 1202830295
+		message => q|Variable du gabarit de la macro 'bo&icirc;te de connection'|,
+		lastUpdated => 1203624242
 	},
 
 	'toggle.url' => {
@@ -22,13 +22,13 @@ our $I18N = {
 	},
 
 	'macroName' => {
-		message => q|Bo&icirc;te de connexion|,
-		lastUpdated => 1202830310
+		message => q|Bo&icirc;te de connection|,
+		lastUpdated => 1203624251
 	},
 
 	'toggle.text' => {
-		message => q|Nom internationnal pour passer 'on' ou 'off' le mode Admin (d&eacute;pend de l'&eacute;tat de la macro et du texte contenu dans celle-ci)|,
-		lastUpdated => 1203071467
+		message => q|Etiquette pour passer en mode Admin ou le fermer (d&eacute;pend de l'&eacute;tat de la macro), ou du texte contenu dans celle-ci.|,
+		lastUpdated => 1203624331
 	},
 
 };

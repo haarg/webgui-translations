@@ -7,8 +7,8 @@ our $I18N = {
 	},
 
 	'toggle.url' => {
-		message => q||,
-		lastUpdated => 
+		message => q|L'URL pour activer ou d&eacute;sactiver le mode Admin.|,
+		lastUpdated => 1203623029
 	},
 
 	'517' => {
@@ -17,18 +17,18 @@ our $I18N = {
 	},
 
 	'admin toggle title' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Variables du gabarit de la macro 'Admin toggle' c'est-&agrave;-dire la bo&icirc;te de choix Admin|,
+		lastUpdated => 1203622918
 	},
 
 	'macroName' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Admin Toggle|,
+		lastUpdated => 1203622942
 	},
 
 	'toggle.text' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Etiquette pour passer ou fermer le mode Admin (d&eacute;pend de l'&eacute;tat de la macro), ou du texte que vous avez fourni dans la macro.|,
+		lastUpdated => 1203623002
 	},
 
 };

@@ -2,18 +2,18 @@ package WebGUI::i18n::French::Macro_H_homeLink;
 
 our $I18N = {
 	'home link title' => {
-		message => q|Variables du mod&egrave;le de mise en page de la macro Accueil|,
-		lastUpdated => 1202830620
+		message => q|Variables du gabarit de la macro Accueil (homeLink)|,
+		lastUpdated => 1203623073
 	},
 
 	'homeLink.text' => {
-		message => q|L'&eacute;tiquette traduite pour le lien vers la page d'accueil ou le texte que vous fournissez &agrave; la macro.|,
-		lastUpdated => 1203455338
+		message => q|L'&eacute;tiquette pour le lien vers la page d'accueil ou le texte que vous avez plac&eacute; &agrave; la macro.|,
+		lastUpdated => 1203623117
 	},
 
 	'macroName' => {
-		message => q|Lien Accueil|,
-		lastUpdated => 1203455305
+		message => q|Lien page d'accueil|,
+		lastUpdated => 1203623191
 	},
 
 	'homeLink.url' => {
@@ -23,7 +23,7 @@ our $I18N = {
 
 	'47' => {
 		message => q|Accueil|,
-		lastUpdated => 1202830589
+		lastUpdated => 1203623199
 	},
 
 };

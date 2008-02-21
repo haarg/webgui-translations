@@ -2,8 +2,8 @@ package WebGUI::i18n::French::Macro_SubscriptionItem;
 
 our $I18N = {
 	'subscription item title' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Variables du gabarit 'objet &agrave; souscription'.|,
+		lastUpdated => 1203623908
 	},
 
 	'name' => {
@@ -17,8 +17,8 @@ our $I18N = {
 	},
 
 	'macroName' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Objet &agrave; souscription|,
+		lastUpdated => 1203623883
 	},
 
 	'price' => {
@@ -28,7 +28,7 @@ our $I18N = {
 
 	'description' => {
 		message => q|La description de l'objet.|,
-		lastUpdated => 1203423942
+		lastUpdated => 1203623860
 	},
 
 };

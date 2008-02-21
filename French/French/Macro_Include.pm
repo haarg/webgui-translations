@@ -3,17 +3,17 @@ package WebGUI::i18n::French::Macro_Include;
 our $I18N = {
 	'include title' => {
 		message => q|Macro inclure|,
-		lastUpdated => 1202830524
+		lastUpdated => 1203623213
 	},
 
 	'not found' => {
 		message => q|LE FICHIER INCLUS N'EXISTE PAS|,
-		lastUpdated => 1202830560
+		lastUpdated => 1203623226
 	},
 
 	'security' => {
 		message => q|VIOLATION DE SECURITE|,
-		lastUpdated => 1202830576
+		lastUpdated => 1203623234
 	},
 
 	'macroName' => {
