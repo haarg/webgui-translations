@@ -272,8 +272,8 @@ our $I18N = {
 	},
 
 	'use captcha' => {
-		message => q|Utiliser un image captcha?|,
-		lastUpdated => 1203630518
+		message => q|Utiliser une image captcha?|,
+		lastUpdated => 1203633158
 	},
 
 	'check email for validation' => {
