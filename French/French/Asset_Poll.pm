@@ -217,8 +217,8 @@ our $I18N = {
 	},
 
 	'8' => {
-		message => q|(Enter une r&eacute;ponse par ligne. Pasplus de 20.)|,
-		lastUpdated => 1203371759
+		message => q|(Enter une r&eacute;ponse par ligne. Pas plus de 20.)|,
+		lastUpdated => 1203633602
 	},
 
 	'4' => {
