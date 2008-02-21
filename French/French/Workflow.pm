@@ -12,8 +12,8 @@ our $I18N = {
 	},
 
 	'mode' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Mode|,
+		lastUpdated => 1203259620
 	},
 
 	'parallel' => {

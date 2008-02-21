@@ -38,7 +38,7 @@ our $I18N = {
 
 	'you have not been added' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 1203426134
 	},
 
 	'default friend comments' => {
@@ -67,8 +67,8 @@ our $I18N = {
 	},
 
 	'name' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Le nom de cet ami|,
+		lastUpdated => 1203426186
 	},
 
 	'add to friends list' => {
@@ -192,8 +192,8 @@ our $I18N = {
 	},
 
 	'offline' => {
-		message => q||,
-		lastUpdated => 
+		message => q|D&eacute;connect&eacute;|,
+		lastUpdated => 1203426398
 	},
 
 	'friend request description' => {
@@ -217,13 +217,13 @@ our $I18N = {
 	},
 
 	'messageForm' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Code HTML (text form) du corps (body) des emails &agrave; envoyer &agrave; vos amis.|,
+		lastUpdated => 1203426364
 	},
 
 	'online' => {
-		message => q||,
-		lastUpdated => 
+		message => q|connect&eacute;|,
+		lastUpdated => 1203426388
 	},
 
 	'deny unanswered friends' => {
@@ -242,8 +242,8 @@ our $I18N = {
 	},
 
 	'my friends' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Mes amis|,
+		lastUpdated => 1203426173
 	},
 
 	'manage friends template title' => {

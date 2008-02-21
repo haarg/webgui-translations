@@ -7,18 +7,18 @@ our $I18N = {
 	},
 
 	'no filename' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Le module que vous demandez n'a pas propri&eacute;t&eacute; nom de fichier.|,
+		lastUpdated => 1203259846
 	},
 
 	'no storage' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Le module que vous demandez ne contient pas de fichier.|,
+		lastUpdated => 1203259907
 	},
 
 	'macroName' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Url Fichier|,
+		lastUpdated => 1203259683
 	},
 
 };

@@ -37,8 +37,8 @@ our $I18N = {
 	},
 
 	'77 description' => {
-		message => q||,
-		lastUpdated => 
+		message => q|C'est la description texte pour pour que l'utilisateur sache &agrave; quoi correspond lechamp.|,
+		lastUpdated => 1203431237
 	},
 
 	'tab.controls' => {
@@ -77,8 +77,8 @@ our $I18N = {
 	},
 
 	'20' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Modifier le champ|,
+		lastUpdated => 1203072560
 	},
 
 	'744' => {
@@ -277,13 +277,13 @@ our $I18N = {
 	},
 
 	'17' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Message envoy&eacute;|,
+		lastUpdated => 1203072645
 	},
 
 	'2' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Le sujet de votre email|,
+		lastUpdated => 1203072606
 	},
 
 	'form.send' => {
@@ -352,8 +352,8 @@ our $I18N = {
 	},
 
 	'14' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Sujet|,
+		lastUpdated => 1203072630
 	},
 
 	'tab.field.value' => {
@@ -437,8 +437,8 @@ our $I18N = {
 	},
 
 	'8' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Largueur|,
+		lastUpdated => 1203431280
 	},
 
 	'no tab' => {
@@ -487,8 +487,8 @@ our $I18N = {
 	},
 
 	'21' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Nom du champ|,
+		lastUpdated => 1203072549
 	},
 
 	'javascript.confirmation.deleteOne' => {
@@ -632,8 +632,8 @@ our $I18N = {
 	},
 
 	'77' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Etiquette|,
+		lastUpdated => 1203431154
 	},
 
 	'16 description' => {
@@ -673,7 +673,7 @@ our $I18N = {
 
 	'8 description' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 1203431294
 	},
 
 	'go to form' => {

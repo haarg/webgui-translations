@@ -2,8 +2,8 @@ package WebGUI::i18n::French::AuthWebGUI;
 
 our $I18N = {
 	'new password label' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Nouveau m&ocirc;t de passe|,
+		lastUpdated => 1203373285
 	},
 
 	'expired.message' => {
@@ -97,8 +97,8 @@ our $I18N = {
 	},
 
 	'recover.message' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Un message renvoy&eacute; par le syst&egrave;me. Normalement affich&eacute; apr&egrave;s que le formulaire soit envoy&eacute;.|,
+		lastUpdated => 1203373088
 	},
 
 	'create account template' => {
@@ -162,8 +162,8 @@ our $I18N = {
 	},
 
 	'title' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Titre de la page par d&eacute;faut.|,
+		lastUpdated => 1203373108
 	},
 
 	'expired.form.password.label' => {
@@ -312,13 +312,13 @@ our $I18N = {
 	},
 
 	'new password help' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Entrez le nouveau m&ocirc;t de passe ici|,
+		lastUpdated => 1203372981
 	},
 
 	'displayTitle' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Titre de la page par d&eacute;faut.|,
+		lastUpdated => 1203373165
 	},
 
 	'create.form.oldPassword.label' => {
@@ -467,8 +467,8 @@ our $I18N = {
 	},
 
 	'login.url' => {
-		message => q||,
-		lastUpdated => 
+		message => q|URL de la page de connexion.|,
+		lastUpdated => 1203535262
 	},
 
 	'password recovery email hoverHelp' => {
@@ -532,8 +532,8 @@ our $I18N = {
 	},
 
 	'topicName' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Autentification WebGUI|,
+		lastUpdated => 1203373141
 	},
 
 	'22' => {

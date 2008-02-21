@@ -218,7 +218,7 @@ our $I18N = {
 
 	'forceImageOnly description' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 1203368025
 	},
 
 };

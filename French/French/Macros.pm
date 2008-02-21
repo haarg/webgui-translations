@@ -7,8 +7,8 @@ our $I18N = {
 	},
 
 	'macros list body' => {
-		message => q||,
-		lastUpdated => 
+		message => q|<p>Il y a 2 fa&ccedil;ons de rendre disponible une macro sur votre site:</p><p>1- La macro doit &ecirc;tre mise dans le r&eacute;pertoire des macros de WebGUI :ib/WebGUI/Macros/.</p><p>2- La macro doit &ecirc;tre activ&eacute;e dans le fichier de configuration de WebGUI WebGUI.conf, dans la section &quot;macros&quot;. Dans cette section, vous pouvez donner un raccouri pour le nom de votre macro.</p><p>&nbsp;La liste suivante montre toutes les macros install&eacute;es sur votre site et disponbles dans le fichier de config WebGUI.conf. </p>|,
+		lastUpdated => 1203451987
 	},
 
 	'macro enabled' => {
@@ -42,8 +42,8 @@ our $I18N = {
 	},
 
 	'macros using body' => {
-		message => q||,
-		lastUpdated => 
+		message => q|<p>Les Macros dans WebGUI sont utilis&eacute;es pour cr&eacute;er du contenu dynamique. Par exemple,si vous voulez afficher quelu tilisateur est connect&eacute; sur toutes les page ou bien des menus dynamiquemes ou des fils d'ariane. </p><p>Les macros commencent toujour par un accent circonflexe (^) et est suivi par au moins un caract&egrave;re et termin&eacute;e un point virgule (;). Certaines macros sont appel&eacute;es avec l'extention suivante : <strong>^x</strong>(&quot;<em>config</em>&quot;);. Lorsqu'il y a plusieurs arguments, ils sont s&eacute;par&eacute;s par une virgle <strong>^x</strong>(<em>&quot;Premier argument&quot;,2</em>);</p><p>Vous pouvez nicher une macro dans une macro, seulement si elle ne contient pas de &quot;&quot; ou de virgule. Vous devez suivre le guide suivant:</p><p>-Les macros contenant des code javascript ou du code HTML ne peuvent &ecirc;tre encapsuler.</p><p>-Les macros qui retournent du contenu contenant des &quot;&quot; ou des virgules peuvent &ecirc;tre utilis&eacute;es maiscela reste dangeuruex.&nbsp;</p>|,
+		lastUpdated => 1203453561
 	},
 
 	'macros using title' => {

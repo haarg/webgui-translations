@@ -7,18 +7,18 @@ our $I18N = {
 	},
 
 	'homeLink.text' => {
-		message => q||,
-		lastUpdated => 
+		message => q|L'&eacute;tiquette traduite pour le lien vers la page d'accueil ou le texte que vous fournissez &agrave; la macro.|,
+		lastUpdated => 1203455338
 	},
 
 	'macroName' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Lien Accueil|,
+		lastUpdated => 1203455305
 	},
 
 	'homeLink.url' => {
-		message => q||,
-		lastUpdated => 
+		message => q|L'URL pour la page d'accueil.|,
+		lastUpdated => 1203455295
 	},
 
 	'47' => {

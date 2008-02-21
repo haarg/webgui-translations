@@ -22,8 +22,8 @@ our $I18N = {
 	},
 
 	'assetName' => {
-		message => q|Mise en page|,
-		lastUpdated => 1201307003
+		message => q|Page|,
+		lastUpdated => 1203093060
 	},
 
 	'contentPositions' => {

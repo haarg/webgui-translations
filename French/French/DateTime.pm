@@ -32,8 +32,8 @@ our $I18N = {
 	},
 
 	'december' => {
-		message => q|d&eacute;cembre|,
-		lastUpdated => 1202575535
+		message => q|decembre|,
+		lastUpdated => 1202919968
 	},
 
 	'january' => {
@@ -82,8 +82,8 @@ our $I18N = {
 	},
 
 	'august' => {
-		message => q|ao&ucirc;t|,
-		lastUpdated => 1202575528
+		message => q|aout|,
+		lastUpdated => 1202919992
 	},
 
 	'november' => {
@@ -92,8 +92,8 @@ our $I18N = {
 	},
 
 	'february' => {
-		message => q|f&eacute;vrier|,
-		lastUpdated => 1202912053
+		message => q|fevrier|,
+		lastUpdated => 1202919981
 	},
 
 	'september' => {

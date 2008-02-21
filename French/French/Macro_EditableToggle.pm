@@ -12,8 +12,8 @@ our $I18N = {
 	},
 
 	'toggle.url' => {
-		message => q||,
-		lastUpdated => 
+		message => q|L'URL pour activer ou d&eacute;sactiver le mode Admin.|,
+		lastUpdated => 1203071497
 	},
 
 	'517' => {
@@ -27,8 +27,8 @@ our $I18N = {
 	},
 
 	'toggle.text' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Nom internationnal pour passer 'on' ou 'off' le mode Admin (d&eacute;pend de l'&eacute;tat de la macro et du texte contenu dans celle-ci)|,
+		lastUpdated => 1203071467
 	},
 
 };

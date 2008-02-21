@@ -7,8 +7,8 @@ our $I18N = {
 	},
 
 	'84 description' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Un nom pour ce groupe. C'est mieux si le nom est descriptif ainsi vous savez de qui il s'agit facilement.|,
+		lastUpdated => 1203362811
 	},
 
 	'127' => {
@@ -22,13 +22,13 @@ our $I18N = {
 	},
 
 	'71' => {
-		message => q||,
-		lastUpdated => 
+		message => q|R&eacute;cup&eacute;rer le m&ocirc;t de passe|,
+		lastUpdated => 1203357845
 	},
 
 	'118' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Connexion anonyme|,
+		lastUpdated => 1203534546
 	},
 
 	'443' => {
@@ -37,13 +37,13 @@ our $I18N = {
 	},
 
 	'959' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Vider le presse-papier syst&egrave;me.|,
+		lastUpdated => 1203358191
 	},
 
 	'show all fields' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Voir tous les champs.|,
+		lastUpdated => 1203364005
 	},
 
 	'882' => {
@@ -52,8 +52,8 @@ our $I18N = {
 	},
 
 	'cache type' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Type de cache|,
+		lastUpdated => 1203270790
 	},
 
 	'331' => {
@@ -77,38 +77,38 @@ our $I18N = {
 	},
 
 	'737' => {
-		message => q||,
-		lastUpdated => 
+		message => q|8 Ma&icirc;tre|,
+		lastUpdated => 1203362160
 	},
 
 	'settings groupIdAdminWorkflowRun label' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Flux de t&acirc;ches (actif)|,
+		lastUpdated => 1203456918
 	},
 
 	'settings groupIdAdminCache hoverHelp' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Groupe pouve voir et vider le cache.|,
+		lastUpdated => 1203363943
 	},
 
 	'84' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Nom du groupe|,
+		lastUpdated => 1203362751
 	},
 
 	'skip commit comments' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Ne pas donner de commentaires?|,
+		lastUpdated => 1203457207
 	},
 
 	'437' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Statistiques|,
+		lastUpdated => 1203369576
 	},
 
 	'451' => {
-		message => q||,
-		lastUpdated => 
+		message => q|est n&eacute;cessaire.|,
+		lastUpdated => 1203359317
 	},
 
 	'changeUrl workflow help' => {
@@ -117,13 +117,13 @@ our $I18N = {
 	},
 
 	'454' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Derni&egrave;re mise &agrave; jour|,
+		lastUpdated => 1203365228
 	},
 
 	'settings groupIdAdminTransactionLog hoverHelp' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Groupe g&eacute;rant les transactions.|,
+		lastUpdated => 1203457664
 	},
 
 	'1021' => {
@@ -134,8 +134,8 @@ our $I18N = {
 	},
 
 	'private message to label' => {
-		message => q||,
-		lastUpdated => 
+		message => q|&agrave;|,
+		lastUpdated => 1203421924
 	},
 
 	'135 description' => {
@@ -164,28 +164,28 @@ our $I18N = {
 	},
 
 	'728' => {
-		message => q||,
-		lastUpdated => 
+		message => q|&Ecirc;tes-vous certain de vouloir effacer ce fichier?|,
+		lastUpdated => 1203360589
 	},
 
 	'float' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Nombre (d&eacute;cimal)|,
+		lastUpdated => 1203365573
 	},
 
 	'purge workflow' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Purger le flux de t&acirc;ches|,
+		lastUpdated => 1203364299
 	},
 
 	'private message reply title' => {
-		message => q||,
-		lastUpdated => 
+		message => q|R&eacute;pondre au message|,
+		lastUpdated => 1203421794
 	},
 
 	'948' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Presse-papier|,
+		lastUpdated => 1203360523
 	},
 
 	'325' => {
@@ -194,8 +194,8 @@ our $I18N = {
 	},
 
 	'378' => {
-		message => q||,
-		lastUpdated => 
+		message => q|ID de l'utilisateur|,
+		lastUpdated => 1203361362
 	},
 
 	'view inbox template description' => {
@@ -204,13 +204,13 @@ our $I18N = {
 	},
 
 	'889' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Style, onglets|,
+		lastUpdated => 1203369185
 	},
 
 	'572' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Approuver|,
+		lastUpdated => 1203361841
 	},
 
 	'350' => {
@@ -219,13 +219,13 @@ our $I18N = {
 	},
 
 	'540' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Karma par connexion|,
+		lastUpdated => 1203534592
 	},
 
 	'private message prev label' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Pr&eacute;c&eacute;dent|,
+		lastUpdated => 1203421778
 	},
 
 	'pagination.lastPageUrl' => {
@@ -234,8 +234,8 @@ our $I18N = {
 	},
 
 	'58' => {
-		message => q||,
-		lastUpdated => 
+		message => q|J'ai d&eacute;j&agrave; un compte.|,
+		lastUpdated => 1203357546
 	},
 
 	'431' => {
@@ -244,8 +244,8 @@ our $I18N = {
 	},
 
 	'527' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Page d'accueil par d&eacute;faut|,
+		lastUpdated => 1203365376
 	},
 
 	'861' => {
@@ -254,8 +254,8 @@ our $I18N = {
 	},
 
 	'settings groupIdAdminStatistics label' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Statistiques|,
+		lastUpdated => 1203456470
 	},
 
 	'337' => {
@@ -264,8 +264,8 @@ our $I18N = {
 	},
 
 	'76' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Cet adresse email n'existe pas dans notre base de donn&eacute;es.|,
+		lastUpdated => 1203362316
 	},
 
 	'340' => {
@@ -274,18 +274,18 @@ our $I18N = {
 	},
 
 	'62' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Sauver|,
+		lastUpdated => 1203357183
 	},
 
 	'311' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Autoris&eacute; les informations concernant la maison?|,
+		lastUpdated => 1203364973
 	},
 
 	'982' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Ajouter un lien base de donn&eacute;es.|,
+		lastUpdated => 1203359901
 	},
 
 	'139' => {
@@ -299,33 +299,33 @@ our $I18N = {
 	},
 
 	'859' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Signature|,
+		lastUpdated => 1203360660
 	},
 
 	'739' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Niveau UI|,
+		lastUpdated => 1203362210
 	},
 
 	'settings groupIdAdminSubscription hoverHelp' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Groupe g&eacute;rant lessouscriptions.|,
+		lastUpdated => 1203457582
 	},
 
 	'private message error' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Message d'erreur|,
+		lastUpdated => 1203421663
 	},
 
 	'992' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Titre|,
+		lastUpdated => 1203360477
 	},
 
 	'418' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Filtrer le contenu|,
+		lastUpdated => 1203369755
 	},
 
 	'168' => {
@@ -369,8 +369,8 @@ our $I18N = {
 	},
 
 	'preview' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Pr&eacute;visualisation|,
+		lastUpdated => 1203364267
 	},
 
 	'142 description' => {
@@ -379,13 +379,13 @@ our $I18N = {
 	},
 
 	'993' => {
-		message => q||,
-		lastUpdated => 
+		message => q|DSN|,
+		lastUpdated => 1203363241
 	},
 
 	'settings groupIdAdminAdSpace label' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Espace PUB|,
+		lastUpdated => 1203363918
 	},
 
 	'364' => {
@@ -394,8 +394,8 @@ our $I18N = {
 	},
 
 	'950' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Vider le presse-papier.|,
+		lastUpdated => 1203270615
 	},
 
 	'cache statistics' => {
@@ -404,8 +404,8 @@ our $I18N = {
 	},
 
 	'settings groupIdAdminProfileSettings label' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Profil utilisateur (gestion)|,
+		lastUpdated => 1203457797
 	},
 
 	'486' => {
@@ -430,12 +430,12 @@ our $I18N = {
 
 	'8' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 1203369447
 	},
 
 	'976' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Ajouter des utilisateurs|,
+		lastUpdated => 1203359472
 	},
 
 	'wiki help label leadin' => {
@@ -444,23 +444,23 @@ our $I18N = {
 	},
 
 	'settings groupIdAdminSpectre hoverHelp' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Groupe pouvant voir le statut de Spectre|,
+		lastUpdated => 1203457243
 	},
 
 	'choose an asset' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Choissir un module|,
+		lastUpdated => 1203369043
 	},
 
 	'pagination.firstPage' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Un lien vers la premi&egrave;re page dans le paginateur.|,
+		lastUpdated => 1203458147
 	},
 
 	'43' => {
-		message => q||,
-		lastUpdated => 
+		message => q|&Ecirc;tes-vous s&ucirc;r de vouloir effacer ce contenu?|,
+		lastUpdated => 1203369999
 	},
 
 	'485' => {
@@ -474,28 +474,28 @@ our $I18N = {
 	},
 
 	'743' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Vous devez sp&eacute;cifier une adresse email valide afin de pouvoir r&eacute;cup&eacute;rer votre m&ocirc;t de passe.|,
+		lastUpdated => 1203359391
 	},
 
 	'523' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Notification|,
+		lastUpdated => 1203365320
 	},
 
 	'settings groupIdAdminReplacements label' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Filtres de contenu|,
+		lastUpdated => 1203456827
 	},
 
 	'943' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Bo&icirc;te &agrave; cocher|,
+		lastUpdated => 1203369092
 	},
 
 	'unknown user' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Utilisateur inconnu|,
+		lastUpdated => 1203364200
 	},
 
 	'460' => {
@@ -509,8 +509,8 @@ our $I18N = {
 	},
 
 	'453' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Date de cr&eacute;ation|,
+		lastUpdated => 1203365192
 	},
 
 	'324' => {
@@ -534,23 +534,23 @@ our $I18N = {
 	},
 
 	'fieldtype' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Type de champ|,
+		lastUpdated => 1203271931
 	},
 
 	'61' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Mettre &agrave; jour les informations du compte|,
+		lastUpdated => 1203357171
 	},
 
 	'430' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Derni&egrave;re page vue|,
+		lastUpdated => 1203361661
 	},
 
 	'379' => {
-		message => q||,
-		lastUpdated => 
+		message => q|ID du groupe|,
+		lastUpdated => 1203365050
 	},
 
 	'admin console template' => {
@@ -569,8 +569,8 @@ our $I18N = {
 	},
 
 	'452' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Attendez SVP...|,
+		lastUpdated => 1203365172
 	},
 
 	'342' => {
@@ -599,13 +599,13 @@ our $I18N = {
 	},
 
 	'invite a friend' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Inviter un ami|,
+		lastUpdated => 1203365601
 	},
 
 	'438' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Votre nom|,
+		lastUpdated => 1203369701
 	},
 
 	'107' => {
@@ -614,13 +614,13 @@ our $I18N = {
 	},
 
 	'87' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Modifier le groupe|,
+		lastUpdated => 1203270928
 	},
 
 	'77' => {
-		message => q||,
-		lastUpdated => 
+		message => q|<p>Ce compte est d&eacute;j&agrave; utilis&eacute; par un autre membre de ce site. Essayez avec un autre nom. Quelques suggestions:<br />%sToo<br /> %s2<br /> %s_%d </p>|,
+		lastUpdated => 1203362448
 	},
 
 	'444' => {
@@ -634,8 +634,8 @@ our $I18N = {
 	},
 
 	'pagination.lastPage' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Un lien vers la derni&egrave;re page dans le paginateur.|,
+		lastUpdated => 1203458371
 	},
 
 	'39' => {
@@ -644,8 +644,8 @@ our $I18N = {
 	},
 
 	'account' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Compte|,
+		lastUpdated => 1203358958
 	},
 
 	'1004 description' => {
@@ -659,13 +659,13 @@ our $I18N = {
 	},
 
 	'64' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Se d&eacute;connecter.|,
+		lastUpdated => 1203426525
 	},
 
 	'558' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Modifier le karma de l'utilisateur|,
+		lastUpdated => 1203365415
 	},
 
 	'password clear text' => {
@@ -679,38 +679,38 @@ our $I18N = {
 	},
 
 	'881' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Aucun|,
+		lastUpdated => 1203368937
 	},
 
 	'312' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Autoriser les informations concernant le travail?|,
+		lastUpdated => 1203357111
 	},
 
 	'707 description' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Monter les informations du d&eacute;buggeur dans WebGUI. C'est indispensable pour les d&eacute;veloppeurs mais aussi tr&egrave;s utile pour l'administrateur essayant de corriger un probl&egrave;me.|,
+		lastUpdated => 1203360807
 	},
 
 	'settings groupIdAdminUser hoverHelp' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Groupe g&eacute;rant les utilisateurs (ajouter, modifier les utilisateurs).|,
+		lastUpdated => 1203457282
 	},
 
 	'private message next label' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Suivant|,
+		lastUpdated => 1203421686
 	},
 
 	'45' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Non, j'ai fait une erreur.|,
+		lastUpdated => 1203356947
 	},
 
 	'507' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Modifier le mod&egrave;le?|,
+		lastUpdated => 1203361067
 	},
 
 	'405' => {
@@ -719,8 +719,8 @@ our $I18N = {
 	},
 
 	'settings groupIdAdminProductManager hoverHelp' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Groupe g&eacute;rant les produits|,
+		lastUpdated => 1203457565
 	},
 
 	'866 description' => {
@@ -729,8 +729,8 @@ our $I18N = {
 	},
 
 	'1084' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Utiliser la barre d'outils par d&eacute;faut pour ma langue|,
+		lastUpdated => 1203355676
 	},
 
 	'370' => {
@@ -744,13 +744,13 @@ our $I18N = {
 	},
 
 	'authentication' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Autentification|,
+		lastUpdated => 1203369004
 	},
 
 	'734' => {
-		message => q||,
-		lastUpdated => 
+		message => q|5 Adepte|,
+		lastUpdated => 1203362091
 	},
 
 	'1' => {
@@ -759,23 +759,23 @@ our $I18N = {
 	},
 
 	'144' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Voir les statistiques.|,
+		lastUpdated => 1203355824
 	},
 
 	'965' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Poubelle syst&egrave;me|,
+		lastUpdated => 1203360608
 	},
 
 	'824' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Pied de l'email (Footer)|,
+		lastUpdated => 1203362740
 	},
 
 	'661' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Propri&eacute;t&eacute;s du fichier, modifier|,
+		lastUpdated => 1203361023
 	},
 
 	'857 description' => {
@@ -794,8 +794,8 @@ our $I18N = {
 	},
 
 	'581' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Ajouter une nouvelle valeur|,
+		lastUpdated => 1203357598
 	},
 
 	'418 description' => {
@@ -819,13 +819,13 @@ our $I18N = {
 	},
 
 	'settings groupIdAdminProfileSettings hoverHelp' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Groupe g&eacute;rant les champs du profil utilisateur.|,
+		lastUpdated => 1203457630
 	},
 
 	'Enable Metadata description' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Cela active l'onglet m&eacute;tadonn&eacute;e des modules ainsi elles peuvent &ecirc;tre ajout&eacute;s et utilis&eacute;es par WebGUI.|,
+		lastUpdated => 1203363751
 	},
 
 	'605' => {
@@ -834,23 +834,23 @@ our $I18N = {
 	},
 
 	'private message message label' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Message|,
+		lastUpdated => 1203421678
 	},
 
 	'private message no user' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Vous n'avez pas s&eacute;lectionner l'utilisateur auquel envoyer un message priv&eacute;|,
+		lastUpdated => 1203421769
 	},
 
 	'813' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Groupes dans ce groupe|,
+		lastUpdated => 1203358697
 	},
 
 	'settings groupIdAdminGroup label' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Groupes|,
+		lastUpdated => 1203456417
 	},
 
 	'head.tags' => {
@@ -859,8 +859,8 @@ our $I18N = {
 	},
 
 	'42' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Confirmer|,
+		lastUpdated => 1203369770
 	},
 
 	'link in new window' => {
@@ -869,8 +869,8 @@ our $I18N = {
 	},
 
 	'settings groupIdAdminHelp hoverHelp' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Groupe pouvant voir l'aide.|,
+		lastUpdated => 1203457545
 	},
 
 	'1005 description' => {
@@ -879,8 +879,8 @@ our $I18N = {
 	},
 
 	'groups to delete' => {
-		message => q||,
-		lastUpdated => 
+		message => q|GROUPES A EFFACER|,
+		lastUpdated => 1203364482
 	},
 
 	'1073' => {
@@ -889,18 +889,18 @@ our $I18N = {
 	},
 
 	'436' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Finir la session|,
+		lastUpdated => 1203368447
 	},
 
 	'51' => {
-		message => q||,
-		lastUpdated => 
+		message => q|M&ocirc;t de passe|,
+		lastUpdated => 1203357073
 	},
 
 	'816' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Statut|,
+		lastUpdated => 1203361077
 	},
 
 	'Enable user invitations description' => {
@@ -909,23 +909,23 @@ our $I18N = {
 	},
 
 	'456' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Retour &agrave; la liste des utilisateurs.|,
+		lastUpdated => 1203359414
 	},
 
 	'private message status unread' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Non lu|,
+		lastUpdated => 1203421872
 	},
 
 	'1051 description' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Par quoi voulez-vous remplacer la chaine de caract&egrave;re?|,
+		lastUpdated => 1203355627
 	},
 
 	'975' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Les utilisateurs peuvent-ils s'effacer eux-m&ecirc;me?|,
+		lastUpdated => 1203358862
 	},
 
 	'465 description' => {
@@ -944,13 +944,13 @@ our $I18N = {
 	},
 
 	'trash workflow help' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Le flux de t&acirc;ches lanc&eacute; quand un module est plac&eacute; dans la poubelle.|,
+		lastUpdated => 1203456171
 	},
 
 	'permissions' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Permissions|,
+		lastUpdated => 1203458244
 	},
 
 	'photo' => {
@@ -959,8 +959,8 @@ our $I18N = {
 	},
 
 	'file' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Fichier|,
+		lastUpdated => 1203271708
 	},
 
 	'pagination.nextPage' => {
@@ -975,7 +975,7 @@ our $I18N = {
 
 	'account.options' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 1203457904
 	},
 
 	'1026' => {
@@ -986,13 +986,13 @@ our $I18N = {
 	},
 
 	'329' => {
-		message => q|Adresse du travail|,
-		lastUpdated => 1202557984
+		message => q|Adresse (travail)|,
+		lastUpdated => 1203356015
 	},
 
 	'allow private messages label' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Options des messages priv&eacute;s|,
+		lastUpdated => 1203457926
 	},
 
 	'noldaplink' => {
@@ -1006,8 +1006,8 @@ our $I18N = {
 	},
 
 	'582' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Laisser vide|,
+		lastUpdated => 1203361265
 	},
 
 	'default version tag workflow help' => {
@@ -1016,8 +1016,8 @@ our $I18N = {
 	},
 
 	'settings groupIdAdminWorkflowRun hoverHelp' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Groupe pouvant lancer un flux de t&acirc;che &agrave; partir de la console d'administration.|,
+		lastUpdated => 1203457319
 	},
 
 	'125 description' => {
@@ -1026,8 +1026,8 @@ our $I18N = {
 	},
 
 	'746' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Ic&ocirc;nes du la barre d'outils|,
+		lastUpdated => 1203359655
 	},
 
 	'400' => {
@@ -1036,8 +1036,8 @@ our $I18N = {
 	},
 
 	'744' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Que faire ensuite?|,
+		lastUpdated => 1203359546
 	},
 
 	'1011' => {
@@ -1051,18 +1051,18 @@ our $I18N = {
 	},
 
 	'84 description groupings' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Le nom du groupe.|,
+		lastUpdated => 1203362838
 	},
 
 	'557' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Description|,
+		lastUpdated => 1203368624
 	},
 
 	'settings groupIdAdminUserAdd label' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Utilisateurs (Ajouter seulement)|,
+		lastUpdated => 1203456553
 	},
 
 	'369 description' => {
@@ -1077,7 +1077,7 @@ our $I18N = {
 
 	'475' => {
 		message => q|Texte|,
-		lastUpdated => 1202557746
+		lastUpdated => 1203357885
 	},
 
 	'441' => {
@@ -1086,18 +1086,18 @@ our $I18N = {
 	},
 
 	'868' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Envoyer le message de bienvenue?|,
+		lastUpdated => 1203358473
 	},
 
 	'color' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Couleur|,
+		lastUpdated => 1203357926
 	},
 
 	'990' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Modifier le lien vers la base de donn&eacute;es|,
+		lastUpdated => 1203270588
 	},
 
 	'349' => {
@@ -1106,18 +1106,18 @@ our $I18N = {
 	},
 
 	'private message no self error' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Vous ne pouvez pas vous envoyer de messages priv&eacute;s.|,
+		lastUpdated => 1203421719
 	},
 
 	'983' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Modifier ce lien base de donn&eacute;es.|,
+		lastUpdated => 1203360453
 	},
 
 	'settings groupIdAdminVersionTag label' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Tags de version|,
+		lastUpdated => 1203456608
 	},
 
 	'138' => {
@@ -1126,23 +1126,23 @@ our $I18N = {
 	},
 
 	'751' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Devenir cet utilisateur.|,
+		lastUpdated => 1203361231
 	},
 
 	'60' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Etes-vous certain de vouloir d&eacute;sactiver votre compte? Les informations seront perdues d&eacute;finitivement.|,
+		lastUpdated => 1203357478
 	},
 
 	'messaging' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 1203458078
 	},
 
 	'724' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Votre nom ne peut commencer ou finir par des espaces ou tabulations.|,
+		lastUpdated => 1203359873
 	},
 
 	'432' => {
@@ -1165,24 +1165,29 @@ our $I18N = {
 		lastUpdated => 1202832649
 	},
 
-	'333' => {
+	'broken spectre title' => {
 		message => q||,
 		lastUpdated => 
+	},
+
+	'333' => {
+		message => q|Pays (travail)|,
+		lastUpdated => 1203355947
 	},
 
 	'groups to add' => {
-		message => q||,
-		lastUpdated => 
+		message => q|GROUPES A AJOUTER|,
+		lastUpdated => 1203364468
 	},
 
 	'323' => {
-		message => q|Adresse r&eacute;sidentielle|,
-		lastUpdated => 1202556329
+		message => q|Adresse (personnelle)|,
+		lastUpdated => 1203356780
 	},
 
 	'codearea' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Zone Code|,
+		lastUpdated => 1203370171
 	},
 
 	'856' => {
@@ -1191,33 +1196,33 @@ our $I18N = {
 	},
 
 	'69' => {
-		message => q||,
-		lastUpdated => 
+		message => q|SVP, contacter votre administrateur pour une assistance.|,
+		lastUpdated => 1203357140
 	},
 
 	'removeLabel' => {
-		message => q||,
-		lastUpdated => 
+		message => q|retirer|,
+		lastUpdated => 1203423624
 	},
 
 	'private message status read' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Lu|,
+		lastUpdated => 1203421820
 	},
 
 	'settings groupIdAdminStatistics hoverHelp' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Groupe pouvant voir les statistiques.|,
+		lastUpdated => 1203457649
 	},
 
 	'settings groupIdAdminSubscription label' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Souscriptions|,
+		lastUpdated => 1203456849
 	},
 
 	'756' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Retour &agrave; la liste des groupes.|,
+		lastUpdated => 1203362278
 	},
 
 	'hexadecimal' => {
@@ -1226,13 +1231,13 @@ our $I18N = {
 	},
 
 	'446' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Adresse Web (travail)|,
+		lastUpdated => 1203357054
 	},
 
 	'559 description' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 1203368641
 	},
 
 	'view inbox message template description' => {
@@ -1261,8 +1266,8 @@ our $I18N = {
 	},
 
 	'company' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Soci&eacute;t&eacute;|,
+		lastUpdated => 1203364658
 	},
 
 	'126' => {
@@ -1271,8 +1276,8 @@ our $I18N = {
 	},
 
 	'426' => {
-		message => q|Historique des connexions|,
-		lastUpdated => 1202913467
+		message => q|Historique des connecions|,
+		lastUpdated => 1203426537
 	},
 
 	'369' => {
@@ -1296,23 +1301,23 @@ our $I18N = {
 	},
 
 	'button' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Bouton|,
+		lastUpdated => 1203360160
 	},
 
 	'810' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Envoyer|,
+		lastUpdated => 1203357949
 	},
 
 	'372' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Modifier les groupes d'utilisateurs|,
+		lastUpdated => 1203361347
 	},
 
 	'574' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 1203361978
 	},
 
 	'170' => {
@@ -1321,13 +1326,13 @@ our $I18N = {
 	},
 
 	'default rich editor' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Editeur de texte enrichi par d&eacute;faut|,
+		lastUpdated => 1203458023
 	},
 
 	'428' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Utilisateur (ID)|,
+		lastUpdated => 1203369955
 	},
 
 	'default rich editor description' => {
@@ -1336,28 +1341,28 @@ our $I18N = {
 	},
 
 	'977' => {
-		message => q||,
-		lastUpdated => 
+		message => q|est le groupe admin?|,
+		lastUpdated => 1203363230
 	},
 
 	'99' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Titre|,
+		lastUpdated => 1203359912
 	},
 
 	'settings groupIdAdminLDAPLink label' => {
-		message => q||,
-		lastUpdated => 
+		message => q|LDAP|,
+		lastUpdated => 1203456798
 	},
 
 	'526' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Retirer le JavaScript et le macros n&eacute;fastes.|,
+		lastUpdated => 1203365356
 	},
 
 	'72' => {
-		message => q||,
-		lastUpdated => 
+		message => q|r&eacute;cup&eacute;rer|,
+		lastUpdated => 1203359722
 	},
 
 	'566' => {
@@ -1366,13 +1371,13 @@ our $I18N = {
 	},
 
 	'806' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Effacer ce groupe.|,
+		lastUpdated => 1203361090
 	},
 
 	'869' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Message de bienvenue|,
+		lastUpdated => 1203358248
 	},
 
 	'help contents' => {
@@ -1392,12 +1397,12 @@ our $I18N = {
 
 	'527 description' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 1203368582
 	},
 
 	'811 description' => {
-		message => q||,
-		lastUpdated => 
+		message => q|L'origine de l'email.|,
+		lastUpdated => 1203362555
 	},
 
 	'1006 description' => {
@@ -1411,13 +1416,13 @@ our $I18N = {
 	},
 
 	'send private message' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Envoyer un message priv&eacute;.|,
+		lastUpdated => 1203364352
 	},
 
 	'556' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Montant|,
+		lastUpdated => 1203360232
 	},
 
 	'options.display' => {
@@ -1426,28 +1431,28 @@ our $I18N = {
 	},
 
 	'462' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Format de l'heure|,
+		lastUpdated => 1203357007
 	},
 
 	'232' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Pas de sujet|,
+		lastUpdated => 1203355782
 	},
 
 	'477' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Zone HTML|,
+		lastUpdated => 1203369540
 	},
 
 	'815' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Le fichier que vous transmettez est trop lourd.|,
+		lastUpdated => 1203360216
 	},
 
 	'skip commit comments help' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Voulez-vous que l'on vous demande d'ajouter un commentaire pour commetre le contenu?|,
+		lastUpdated => 1203457526
 	},
 
 	'142' => {
@@ -1461,8 +1466,8 @@ our $I18N = {
 	},
 
 	'991' => {
-		message => q||,
-		lastUpdated => 
+		message => q|ID du lien base de donn&eacute;es|,
+		lastUpdated => 1203458585
 	},
 
 	'167' => {
@@ -1471,18 +1476,18 @@ our $I18N = {
 	},
 
 	'settings groupIdAdminTransactionLog label' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Transactions|,
+		lastUpdated => 1203456861
 	},
 
 	'help index' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Index|,
+		lastUpdated => 1203458033
 	},
 
 	'group' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Groupe|,
+		lastUpdated => 1203364443
 	},
 
 	'360' => {
@@ -1491,18 +1496,18 @@ our $I18N = {
 	},
 
 	'514' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Vus|,
+		lastUpdated => 1203357559
 	},
 
 	'725' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Votre nom ne peut &ecirc;tre laiss&eacute; vide.|,
+		lastUpdated => 1203359937
 	},
 
 	'country' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Pays|,
+		lastUpdated => 1203365525
 	},
 
 	'50 description' => {
@@ -1516,18 +1521,18 @@ our $I18N = {
 	},
 
 	'476' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Emplacement pour le texte|,
+		lastUpdated => 1203359513
 	},
 
 	'885 description' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Voulez-vous fournir &agrave; vos utilisateurs un moyen de d&eacute;sactiverr leur compte sans votre intervention ?|,
+		lastUpdated => 1203369372
 	},
 
 	'radio' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Bouton radio|,
+		lastUpdated => 1203364323
 	},
 
 	'1076' => {
@@ -1546,13 +1551,13 @@ our $I18N = {
 	},
 
 	'449' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Informations compl&eacute;mentaires|,
+		lastUpdated => 1203365156
 	},
 
 	'967' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Vider la poubelle syst&egrave;me.|,
+		lastUpdated => 1203360630
 	},
 
 	'322' => {
@@ -1561,8 +1566,8 @@ our $I18N = {
 	},
 
 	'settings groupIdAdminCommerce hoverHelp' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Groupe g&eacute;rant les param&egrave;tres Commerce.|,
+		lastUpdated => 1203456262
 	},
 
 	'164 description' => {
@@ -1576,8 +1581,8 @@ our $I18N = {
 	},
 
 	'575' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Modifier|,
+		lastUpdated => 1203365442
 	},
 
 	'863 description' => {
@@ -1586,8 +1591,8 @@ our $I18N = {
 	},
 
 	'984' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Copier ce lien base de donn&eacute;es.|,
+		lastUpdated => 1203360424
 	},
 
 	'1039' => {
@@ -1611,13 +1616,13 @@ our $I18N = {
 	},
 
 	'interval' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Intervalle|,
+		lastUpdated => 1203365586
 	},
 
 	'settings groupIdAdminLDAPLink hoverHelp' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Groupe g&eacute;rant les liens LDAP.|,
+		lastUpdated => 1203457605
 	},
 
 	'699' => {
@@ -1636,33 +1641,33 @@ our $I18N = {
 	},
 
 	'818' => {
-		message => q||,
-		lastUpdated => 
+		message => q|D&eacute;sactiv&eacute;|,
+		lastUpdated => 1203362967
 	},
 
 	'user email template' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Mod&egrave;le de mise en page du message Email pour inviter un utilisateur|,
+		lastUpdated => 1203455660
 	},
 
 	'130' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Taille max. des attachements|,
+		lastUpdated => 1203355801
 	},
 
 	'543' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Ajour un nouvelle image au groupe.|,
+		lastUpdated => 1203357710
 	},
 
 	'topicName' => {
-		message => q||,
-		lastUpdated => 
+		message => q|WebGUI|,
+		lastUpdated => 1203271744
 	},
 
 	'941' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Liste de bo&icirc;tes &agrave; cocher|,
+		lastUpdated => 1203358160
 	},
 
 	'354' => {
@@ -1671,93 +1676,93 @@ our $I18N = {
 	},
 
 	'private message sent' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Votre message priv&eacute; a &eacute;t&eacute; envoy&eacute;.|,
+		lastUpdated => 1203421813
 	},
 
 	'461' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Format de la date|,
+		lastUpdated => 1203356991
 	},
 
 	'debug ip description' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 1203364836
 	},
 
 	'583' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Taille max. des images|,
+		lastUpdated => 1203361302
 	},
 
 	'settings groupIdAdminGraphics hoverHelp' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Groupe g&eacute;rant les polices et les palettes.|,
+		lastUpdated => 1203456361
 	},
 
 	'show performance indicators' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Voir les indicateurs de performance?|,
+		lastUpdated => 1203364077
 	},
 
 	'951' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Etes-vous s&ucirc;r de vouloir vider le presse-papier dans la poubelle?|,
+		lastUpdated => 1203270659
 	},
 
 	'85' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Description|,
+		lastUpdated => 1203363036
 	},
 
 	'809' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Envoyer email au groupe|,
+		lastUpdated => 1203363023
 	},
 
 	'332' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Code postal (travail)|,
+		lastUpdated => 1203356691
 	},
 
 	'9' => {
-		message => q||,
-		lastUpdated => 1202831471
+		message => q|Voir le presse-papier.|,
+		lastUpdated => 1203358040
 	},
 
 	'425' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Sessions actives|,
+		lastUpdated => 1203369942
 	},
 
 	'packages' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Packages|,
+		lastUpdated => 1203458422
 	},
 
 	'745' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Retour &agrave; la page.|,
+		lastUpdated => 1203359581
 	},
 
 	'736' => {
-		message => q||,
-		lastUpdated => 
+		message => q|7 Expert|,
+		lastUpdated => 1203362142
 	},
 
 	'539' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Activer le Karma?|,
+		lastUpdated => 1203368597
 	},
 
 	'230 description' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Ce message sera envoy&eacute; &agrave; tous les membres de ce groupe. Le message est envoy&eacute; en format HTML. Pas d'attachement possible.|,
+		lastUpdated => 1203364943
 	},
 
 	'90' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Ajouter un groupe.|,
+		lastUpdated => 1203358067
 	},
 
 	'pagination.isLastPage' => {
@@ -1766,18 +1771,18 @@ our $I18N = {
 	},
 
 	'private message delete text' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Effacer|,
+		lastUpdated => 1203421638
 	},
 
 	'565' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Qui peut-&ecirc;tre mod&eacute;rateur?|,
+		lastUpdated => 1203270885
 	},
 
 	'private message status replied' => {
-		message => q||,
-		lastUpdated => 
+		message => q|R&eacute;pondu|,
+		lastUpdated => 1203421958
 	},
 
 	'977 description' => {
@@ -1791,8 +1796,8 @@ our $I18N = {
 	},
 
 	'891' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Seulement les macros n&eacute;fastes.|,
+		lastUpdated => 1203358335
 	},
 
 	'1045' => {
@@ -1805,9 +1810,14 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'730' => {
+	'broken spectre body' => {
 		message => q||,
 		lastUpdated => 
+	},
+
+	'730' => {
+		message => q|1 Novice|,
+		lastUpdated => 1203361998
 	},
 
 	'1069' => {
@@ -1816,13 +1826,13 @@ our $I18N = {
 	},
 
 	'user email template description' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Le mod&egrave;le de mise en page utilis&eacute; pour construire l'email d'invitation d'un utilisateur.|,
+		lastUpdated => 1203455808
 	},
 
 	'57' => {
-		message => q||,
-		lastUpdated => 
+		message => q|C'est seulement n&eacute;cessaire si vous voulez utiliser les fonctions n&eacute;cessitant une adresse Email.|,
+		lastUpdated => 1203357685
 	},
 
 	'368' => {
@@ -1856,8 +1866,8 @@ our $I18N = {
 	},
 
 	'target description' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Choisir si le lien cliqu&eacute; s'ouvrira dans la m&ecirc;me fen&ecirc;tre ou une autre.|,
+		lastUpdated => 1203456992
 	},
 
 	'163' => {
@@ -1866,8 +1876,8 @@ our $I18N = {
 	},
 
 	'trash' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Poubelle|,
+		lastUpdated => 1203271726
 	},
 
 	'manage cache' => {
@@ -1876,18 +1886,18 @@ our $I18N = {
 	},
 
 	'read only' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Lecture seulement|,
+		lastUpdated => 1203364423
 	},
 
 	'combobox' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Combo Box|,
+		lastUpdated => 1203458007
 	},
 
 	'994' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Utilisateur Database|,
+		lastUpdated => 1203363564
 	},
 
 	'395' => {
@@ -1901,8 +1911,8 @@ our $I18N = {
 	},
 
 	'89' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Groupes|,
+		lastUpdated => 1203363154
 	},
 
 	'175' => {
@@ -1916,13 +1926,13 @@ our $I18N = {
 	},
 
 	'988' => {
-		message => q||,
-		lastUpdated => 
+		message => q|&Ecirc;tes-vous s&ucirc;r de vouloir effacer ce lien base de donn&eacute;es?|,
+		lastUpdated => 1203360318
 	},
 
 	'private message title' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Envoyer un message priv&eacute;|,
+		lastUpdated => 1203421913
 	},
 
 	'35' => {
@@ -1936,8 +1946,8 @@ our $I18N = {
 	},
 
 	'settings groupIdAdminDatabaseLink label' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Liens Base dedonn&eacute;es|,
+		lastUpdated => 1203456329
 	},
 
 	'347' => {
@@ -1946,8 +1956,8 @@ our $I18N = {
 	},
 
 	'pagination.url' => {
-		message => q||,
-		lastUpdated => 
+		message => q|L'URL de la page dans la boucle page.|,
+		lastUpdated => 1203458215
 	},
 
 	'434' => {
@@ -1956,8 +1966,8 @@ our $I18N = {
 	},
 
 	'93' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Aide|,
+		lastUpdated => 1203358119
 	},
 
 	'expire groupings' => {
@@ -1966,18 +1976,18 @@ our $I18N = {
 	},
 
 	'865' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Notifier &agrave; l'utilisateur le d&eacute;lai d'expiration?|,
+		lastUpdated => 1203368926
 	},
 
 	'int slider' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Int slider|,
+		lastUpdated => 1203458068
 	},
 
 	'pagination.pageList' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Un liste de liens vers toutes les pages dans le paginateur.|,
+		lastUpdated => 1203458193
 	},
 
 	'538 description' => {
@@ -1986,48 +1996,48 @@ our $I18N = {
 	},
 
 	'442' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Informations (travail)|,
+		lastUpdated => 1203365135
 	},
 
 	'429' => {
-		message => q||,
-		lastUpdated => 
+		message => q|L'heure de la connexion|,
+		lastUpdated => 1203534581
 	},
 
 	'image' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Image|,
+		lastUpdated => 1203364633
 	},
 
 	'886' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Cacher de la navigation?|,
+		lastUpdated => 1203363130
 	},
 
 	'73' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Connexion.|,
+		lastUpdated => 1203534616
 	},
 
 	'settings groupIdAdminGroup hoverHelp' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Groupe g&eacute;rant tous les groupes.|,
+		lastUpdated => 1203456408
 	},
 
 	'67' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Cr&eacute;er un compte.|,
+		lastUpdated => 1203360676
 	},
 
 	'812' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Votre message a &eacute;t&eacute; envoy&eacute;.|,
+		lastUpdated => 1203358674
 	},
 
 	'794' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Packages|,
+		lastUpdated => 1203362473
 	},
 
 	'327' => {
@@ -2041,43 +2051,48 @@ our $I18N = {
 	},
 
 	'944' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Code postal|,
+		lastUpdated => 1203360491
 	},
 
 	'user' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Utilisateur|,
+		lastUpdated => 1203271911
 	},
 
 	'settings groupIdAdminWorkflow label' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Flux de t&acirc;ches|,
+		lastUpdated => 1203456638
 	},
 
 	'settings groupIdAdminGroupAdmin label' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Groupes (limit&eacute;)|,
+		lastUpdated => 1203457820
+	},
+
+	'username no html' => {
+		message => q|Votre nom d'utilisateur (username) nepeut contenir du code HTML ou des macros WebGUI.|,
+		lastUpdated => 1203455763
 	},
 
 	'732' => {
-		message => q||,
-		lastUpdated => 
+		message => q|3 Rooky|,
+		lastUpdated => 1203362033
 	},
 
 	'51 description' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Le m&ocirc;t de passe pour l'administrateur. Ne pas oublier de changer la valeur par d&eacute;faut &agrave; la cr&eacute;ation!|,
+		lastUpdated => 1203368531
 	},
 
 	'811' => {
-		message => q||,
-		lastUpdated => 
+		message => q|De|,
+		lastUpdated => 1203358650
 	},
 
 	'994 description' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Le nom pour se connecter au DSN.|,
+		lastUpdated => 1203363619
 	},
 
 	'allow access from macros' => {
@@ -2091,13 +2106,13 @@ our $I18N = {
 	},
 
 	'465' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Taille de la bo&icirc;te texte|,
+		lastUpdated => 1203365253
 	},
 
 	'contains' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Contient|,
+		lastUpdated => 1203458503
 	},
 
 	'819' => {
@@ -2106,13 +2121,13 @@ our $I18N = {
 	},
 
 	'purge workflow help' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Quel flux de t&acirc;ches lancer quand le module est purg&eacute;?|,
+		lastUpdated => 1203423610
 	},
 
 	'970' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Mettre &agrave; l'heure|,
+		lastUpdated => 1203360650
 	},
 
 	'link enter alert' => {
@@ -2121,8 +2136,8 @@ our $I18N = {
 	},
 
 	'debug ip' => {
-		message => q||,
-		lastUpdated => 
+		message => q|IP pour d&eacute;bugger|,
+		lastUpdated => 1203364699
 	},
 
 	'858' => {
@@ -2136,18 +2151,18 @@ our $I18N = {
 	},
 
 	'412' => {
-		message => q||,
-		lastUpdated => 
+		message => q|R&eacute;sum&eacute;|,
+		lastUpdated => 1203369636
 	},
 
 	'954' => {
-		message => q||,
-		lastUpdated => 
+		message => q|G&eacute;rer le presse-papier syst&egrave;me.|,
+		lastUpdated => 1203270723
 	},
 
 	'submit' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Envoyer|,
+		lastUpdated => 1203455400
 	},
 
 	'314' => {
@@ -2161,8 +2176,8 @@ our $I18N = {
 	},
 
 	'985' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Effacer ce lien base de donn&eacute;es.|,
+		lastUpdated => 1203360389
 	},
 
 	'945 description' => {
@@ -2171,23 +2186,23 @@ our $I18N = {
 	},
 
 	'971' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Heure|,
+		lastUpdated => 1203360403
 	},
 
 	'754' => {
-		message => q||,
-		lastUpdated => 
+		message => q|G&eacute;rer les utilisateurs de ce groupe.|,
+		lastUpdated => 1203362258
 	},
 
 	'page statistics' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Statistiques de la page|,
+		lastUpdated => 1203458476
 	},
 
 	'settings groupIdAdminLoginHistory label' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Historiques des connexions|,
+		lastUpdated => 1203534654
 	},
 
 	'355' => {
@@ -2196,8 +2211,8 @@ our $I18N = {
 	},
 
 	'847' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Retour &agrave; la page actuelle.|,
+		lastUpdated => 1203362853
 	},
 
 	'159' => {
@@ -2206,8 +2221,8 @@ our $I18N = {
 	},
 
 	'553' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Statut|,
+		lastUpdated => 1203369486
 	},
 
 	'704' => {
@@ -2216,8 +2231,8 @@ our $I18N = {
 	},
 
 	'private message blocked error' => {
-		message => q||,
-		lastUpdated => 
+		message => q|L'utilisateur ne souhaite pas recevoir de messages priv&eacute;s.|,
+		lastUpdated => 1203364253
 	},
 
 	'326' => {
@@ -2226,8 +2241,8 @@ our $I18N = {
 	},
 
 	'body.content' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Le contenu de la page actuelle.|,
+		lastUpdated => 1203457960
 	},
 
 	'pagination.pageLoop.upTo20' => {
@@ -2236,8 +2251,8 @@ our $I18N = {
 	},
 
 	'555' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Modifier le karma de l'utilisateur.|,
+		lastUpdated => 1203359447
 	},
 
 	'1017' => {
@@ -2246,8 +2261,8 @@ our $I18N = {
 	},
 
 	'37' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Permission non accord&eacute;e!|,
+		lastUpdated => 1203356844
 	},
 
 	'335' => {
@@ -2256,8 +2271,8 @@ our $I18N = {
 	},
 
 	'private message from label' => {
-		message => q||,
-		lastUpdated => 
+		message => q|De|,
+		lastUpdated => 1203421670
 	},
 
 	'1029' => {
@@ -2276,8 +2291,8 @@ our $I18N = {
 	},
 
 	'high group count' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Il y a plus de 250 groupes. Utilisez 'Recherche' pour trouver un groupe.|,
+		lastUpdated => 1203364623
 	},
 
 	'554' => {
@@ -2286,18 +2301,18 @@ our $I18N = {
 	},
 
 	'content' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Contenu|,
+		lastUpdated => 1203458494
 	},
 
 	'starts with' => {
-		message => q||,
-		lastUpdated => 
+		message => q|D&eacute;marrant par|,
+		lastUpdated => 1203423697
 	},
 
 	'552' => {
-		message => q||,
-		lastUpdated => 
+		message => q|En attente|,
+		lastUpdated => 1203368613
 	},
 
 	'allow access from macros help' => {
@@ -2306,13 +2321,13 @@ our $I18N = {
 	},
 
 	'hex slider' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Hex slider|,
+		lastUpdated => 1203458048
 	},
 
 	'880' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 1203368949
 	},
 
 	'433' => {
@@ -2321,13 +2336,13 @@ our $I18N = {
 	},
 
 	'settings groupIdAdminWorkflow hoverHelp' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Groupe g&eacute;rant les flux de t&acirc;ches|,
+		lastUpdated => 1203456626
 	},
 
 	'settings groupIdAdminLoginHistory hoverHelp' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Groupe pouvant voir l'historique des connexions.|,
+		lastUpdated => 1203534631
 	},
 
 	'pagination.previousPageUrl' => {
@@ -2336,23 +2351,23 @@ our $I18N = {
 	},
 
 	'74' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Information du compte|,
+		lastUpdated => 1203359335
 	},
 
 	'240' => {
-		message => q||,
-		lastUpdated => 
+		message => q|ID du message:|,
+		lastUpdated => 1203355858
 	},
 
 	'334' => {
-		message => q|T&eacute;l&eacute;phone au travail|,
-		lastUpdated => 1202913367
+		message => q|T&eacute;l&eacute;phone (travail)|,
+		lastUpdated => 1203356102
 	},
 
 	'986' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Retour aux liens base de donn&eacute;es.|,
+		lastUpdated => 1203360367
 	},
 
 	'890' => {
@@ -2361,13 +2376,13 @@ our $I18N = {
 	},
 
 	'440' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Informations Contact|,
+		lastUpdated => 1203361627
 	},
 
 	'230' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Message|,
+		lastUpdated => 1203271497
 	},
 
 	'1008' => {
@@ -2381,18 +2396,18 @@ our $I18N = {
 	},
 
 	'user function style' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Style de Fonction d'Utilisateur|,
+		lastUpdated => 1203455697
 	},
 
 	'871' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Qui peut modifier?|,
+		lastUpdated => 1203358012
 	},
 
 	'misc' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Divers|,
+		lastUpdated => 1203458111
 	},
 
 	'1044' => {
@@ -2411,8 +2426,8 @@ our $I18N = {
 	},
 
 	'pages' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Pages|,
+		lastUpdated => 1203365614
 	},
 
 	'editSettings done' => {
@@ -2421,13 +2436,13 @@ our $I18N = {
 	},
 
 	'118 description' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Voulez-vous que les visiteurs de votre site puissent s'enregister eux-m&ecirc;me?|,
+		lastUpdated => 1203361461
 	},
 
 	'settings groupIdAdminAdSpace hoverHelp' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Groupe g&eacute;rant les publicit&eacute;s.|,
+		lastUpdated => 1203363884
 	},
 
 	'126 description' => {
@@ -2441,18 +2456,18 @@ our $I18N = {
 	},
 
 	'827' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Mod&egrave;le de mise en page Wobjet|,
+		lastUpdated => 1203362937
 	},
 
 	'settings groupIdAdminProductManager label' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Produits|,
+		lastUpdated => 1203456679
 	},
 
 	'91' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Page pr&eacute;c&eacute;dente|,
+		lastUpdated => 1203358086
 	},
 
 	'701' => {
@@ -2461,8 +2476,8 @@ our $I18N = {
 	},
 
 	'820' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Votre compte est d&eacute;sactiv&eacute;. Contactez l'administrateur.|,
+		lastUpdated => 1203358772
 	},
 
 	'174' => {
@@ -2476,58 +2491,58 @@ our $I18N = {
 	},
 
 	'867' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Perte de privil&egrave;ge|,
+		lastUpdated => 1203369203
 	},
 
 	'422' => {
-		message => q||,
-		lastUpdated => 
+		message => q|<p>La connexion a &eacute;chou&eacute;e.</p><p>Les informations transmises ne correspondent pas avec un compte existant.</p>|,
+		lastUpdated => 1203534570
 	},
 
 	'817' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Actif|,
+		lastUpdated => 1203361102
 	},
 
 	'563' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Statut par d&eacute;faut|,
+		lastUpdated => 1203270854
 	},
 
 	'settings groupIdAdminUserAdd hoverHelp' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Groupe pouvant seulement ajouter des nouveaux utilisateurs.|,
+		lastUpdated => 1203456536
 	},
 
 	'trash workflow' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Poubelle du flux de t&acirc;ches|,
+		lastUpdated => 1203455419
 	},
 
 	'731' => {
-		message => q||,
-		lastUpdated => 
+		message => q|2 Entrain&eacute;|,
+		lastUpdated => 1203362017
 	},
 
 	'41' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Vous &ecirc;tes en train de retirer un composant vital pour WebGui. WebGui risque de cesser de fonctionner.|,
+		lastUpdated => 1203361530
 	},
 
 	'link settings' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Param&egrave;tres du lien|,
+		lastUpdated => 1203458463
 	},
 
 	'52' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Identifiant|,
+		lastUpdated => 1203365294
 	},
 
 	'750' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Effecer cet utilisateur.|,
+		lastUpdated => 1203361042
 	},
 
 	'229' => {
@@ -2541,28 +2556,28 @@ our $I18N = {
 	},
 
 	'866' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Message de la notification du d&eacute;lai d'expiration|,
+		lastUpdated => 1203369325
 	},
 
 	'768' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Nom|,
+		lastUpdated => 1203362325
 	},
 
 	'settings groupIdAdminGroupAdmin hoverHelp' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Groupe g&eacute;rant les groupes (dont celui de l'administrateur)|,
+		lastUpdated => 1203457875
 	},
 
 	'68' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Les informations sont invalides. Le compte n'existe pas, ou bien, le nom de l'utilisateur et le m&ocirc;t de passe sont incorrects.|,
+		lastUpdated => 1203357419
 	},
 
 	'315' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Surnom|,
+		lastUpdated => 1203356059
 	},
 
 	'400 description' => {
@@ -2571,8 +2586,8 @@ our $I18N = {
 	},
 
 	'893' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Propri&eacute;t&eacute;s Wobjet|,
+		lastUpdated => 1203358226
 	},
 
 	'338' => {
@@ -2586,18 +2601,18 @@ our $I18N = {
 	},
 
 	'738' => {
-		message => q||,
-		lastUpdated => 
+		message => q|9 Gourou|,
+		lastUpdated => 1203362192
 	},
 
 	'870' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Bienvenue|,
+		lastUpdated => 1203357992
 	},
 
 	'995 description' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Le m&ocirc;t de passe pour se connecter au DSN.|,
+		lastUpdated => 1203363638
 	},
 
 	'484' => {
@@ -2606,18 +2621,18 @@ our $I18N = {
 	},
 
 	'1078' => {
-		message => q||,
-		lastUpdated => 1202832797
+		message => q|Il existe d&eacute;j&agrave; un utilisateur avec l'adresse email que vous avez saissi. SVP, remplissez le formulaire and pressez &quot;sauver&quot; si vous souhaitez encore cr&eacute;er ce compte.|,
+		lastUpdated => 1203355537
 	},
 
 	'pagination.text' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Le num&eacute;ro d'une page dans la boucle page.|,
+		lastUpdated => 1203458333
 	},
 
 	'settings groupIdAdminCommerce label' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Commerce|,
+		lastUpdated => 1203456191
 	},
 
 	'ui' => {
@@ -2631,8 +2646,8 @@ our $I18N = {
 	},
 
 	'content filters' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Filtres du contenu|,
+		lastUpdated => 1203458529
 	},
 
 	'insert a link' => {
@@ -2641,13 +2656,13 @@ our $I18N = {
 	},
 
 	'328' => {
-		message => q|T&eacute;l&eacute;phone r&eacute;sidentiel|,
-		lastUpdated => 1202556711
+		message => q|T&eacute;l&eacute;phone (maison)|,
+		lastUpdated => 1203356714
 	},
 
 	'avatar' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Avatar|,
+		lastUpdated => 1203271944
 	},
 
 	'1085' => {
@@ -2691,13 +2706,13 @@ our $I18N = {
 	},
 
 	'733' => {
-		message => q||,
-		lastUpdated => 
+		message => q|4 Adroit|,
+		lastUpdated => 1203362074
 	},
 
 	'562' => {
-		message => q||,
-		lastUpdated => 
+		message => q|En attente|,
+		lastUpdated => 1203270828
 	},
 
 	'pagination.pageList.upTo20' => {
@@ -2711,18 +2726,18 @@ our $I18N = {
 	},
 
 	'settings' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Param&egrave;tres|,
+		lastUpdated => 1203363843
 	},
 
 	'748' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Nombre d'utilisateurs|,
+		lastUpdated => 1203359697
 	},
 
 	'362' => {
-		message => q||,
-		lastUpdated => 
+		message => q|C&ocirc;te &agrave; c&ocirc;te|,
+		lastUpdated => 1203365014
 	},
 
 	'439' => {
@@ -2731,8 +2746,8 @@ our $I18N = {
 	},
 
 	'317' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Identifiant ICQ|,
+		lastUpdated => 1203271515
 	},
 
 	'169' => {
@@ -2766,18 +2781,18 @@ our $I18N = {
 	},
 
 	'955' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Presse-papier syst&egrave;me|,
+		lastUpdated => 1203270739
 	},
 
 	'974 description' => {
-		message => q||,
-		lastUpdated => 
+		message => q|<p>Voulez-vous que les utilisateurs s'ajoutent eux-m&ecirc;me &agrave; ce groupe? Voir la macro GroupAdd pour plus d'info.</p>|,
+		lastUpdated => 1203361206
 	},
 
 	'85 description' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Un plus longue description du groupe ainsi lesa dministrateurs et les personnes du CMS (ou vous si vous oubliez) sauront quel est le sujet de ce groupe.|,
+		lastUpdated => 1203368888
 	},
 
 	'407' => {
@@ -2791,18 +2806,18 @@ our $I18N = {
 	},
 
 	'target' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Cible|,
+		lastUpdated => 1203364169
 	},
 
 	'settings groupIdAdminActiveSessions label' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Sessions actives|,
+		lastUpdated => 1203363861
 	},
 
 	'settings groupIdAdminCache label' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Cache|,
+		lastUpdated => 1203363952
 	},
 
 	'125' => {
@@ -2811,13 +2826,13 @@ our $I18N = {
 	},
 
 	'44' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Oui, je suis s&ucirc;r.|,
+		lastUpdated => 1203361546
 	},
 
 	'send private message template' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Mod&egrave;le de mise en page pour envoie de message priv&eacute;|,
+		lastUpdated => 1203364381
 	},
 
 	'run on admin create user' => {
@@ -2831,13 +2846,13 @@ our $I18N = {
 	},
 
 	'95' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Index de l'aide|,
+		lastUpdated => 1203270764
 	},
 
 	'user function style description' => {
-		message => q||,
-		lastUpdated => 
+		message => q|D&eacute;finit quel style va &ecirc;tre utilis&eacute;s pour cr&eacute;er des op&eacute;rations WebGUI (l'&eacute;dition du profil, lmessage de connection, etc.) quand ils sont disponibles pour un utilisateur. Seulement les gabarits qui ont &eacute;t&eacute; commis sont permis.|,
+		lastUpdated => 1203455982
 	},
 
 	'313' => {
@@ -2846,13 +2861,13 @@ our $I18N = {
 	},
 
 	'webgui' => {
-		message => q||,
-		lastUpdated => 
+		message => q|WebGUI|,
+		lastUpdated => 1203271761
 	},
 
 	'551' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Remarquer|,
+		lastUpdated => 1203370120
 	},
 
 	'529' => {
@@ -2861,18 +2876,18 @@ our $I18N = {
 	},
 
 	'229 description' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Le sujet du message|,
+		lastUpdated => 1203359810
 	},
 
 	'pagination.firstPageText' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 1203458163
 	},
 
 	'753' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Modifier ce groupe.|,
+		lastUpdated => 1203362241
 	},
 
 	'343' => {
@@ -2881,13 +2896,13 @@ our $I18N = {
 	},
 
 	'504' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Mod&egrave;le de mise en page|,
+		lastUpdated => 1203360824
 	},
 
 	'url extension description' => {
-		message => q||,
-		lastUpdated => 
+		message => q|<p>Ajouter une extension &quot;html&quot;, &quot;php&quot;, ou &quot;asp&quot; &agrave; chaque ULD de nouvelle page cr&eacute;&eacute;e.</p><p>NOTE : Ne pas rajouter le point &quot;.&quot; dans ce cham. Exemple &quot;HRML&quot; et pas &quot;.HTML&quot;. </p>|,
+		lastUpdated => 1203455615
 	},
 
 	'pagination.previousPage' => {
@@ -2901,13 +2916,13 @@ our $I18N = {
 	},
 
 	'987' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Effacer lien base de donn&eacute;es|,
+		lastUpdated => 1203360337
 	},
 
 	'Select State' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 1203368983
 	},
 
 	'857' => {
@@ -2926,13 +2941,13 @@ our $I18N = {
 	},
 
 	'964' => {
-		message => q||,
-		lastUpdated => 
+		message => q|G&eacute;rer la poubelle syst&egrave;me.|,
+		lastUpdated => 1203360251
 	},
 
 	'65' => {
-		message => q||,
-		lastUpdated => 
+		message => q|SVP, d&eacute;sactivez mon compte d&eacute;finitivement.|,
+		lastUpdated => 1203357334
 	},
 
 	'Illegal Warning' => {
@@ -2951,13 +2966,13 @@ our $I18N = {
 	},
 
 	'settings groupIdAdminCron label' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Cron|,
+		lastUpdated => 1203456291
 	},
 
 	'private message submit label' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Soumettre|,
+		lastUpdated => 1203421894
 	},
 
 	'81' => {
@@ -2971,8 +2986,8 @@ our $I18N = {
 	},
 
 	'824 description' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Ce pied d'email (footer) sera utiliser par les macros et attach&eacute; &agrave; tous les emails envoy&eacute;s par cette instance de WebGUI.|,
+		lastUpdated => 1203362696
 	},
 
 	'321' => {
@@ -2981,13 +2996,13 @@ our $I18N = {
 	},
 
 	'86' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Etes-vous s&ucirc;r de vouloir effacer ce groupe? Prenez garde qu'effacer un groupe est d&eacute;finitif et retirera tous ses privil&egrave;ges.|,
+		lastUpdated => 1203358449
 	},
 
 	'792' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Mod&egrave;les|,
+		lastUpdated => 1203362982
 	},
 
 	'975 description' => {
@@ -3001,8 +3016,8 @@ our $I18N = {
 	},
 
 	'profile' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Profil|,
+		lastUpdated => 1203364281
 	},
 
 	'371' => {
@@ -3021,13 +3036,13 @@ our $I18N = {
 	},
 
 	'pagination.pageNumber' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Le num&eacute;ro de la page actuelle.|,
+		lastUpdated => 1203458346
 	},
 
 	'729' => {
-		message => q||,
-		lastUpdated => 
+		message => q|0 D&eacute;butant|,
+		lastUpdated => 1203360564
 	},
 
 	'2' => {
@@ -3036,28 +3051,28 @@ our $I18N = {
 	},
 
 	'435' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Signature de la session|,
+		lastUpdated => 1203361320
 	},
 
 	'808' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Envoyer email &agrave; ce groupe.|,
+		lastUpdated => 1203363007
 	},
 
 	'settings groupIdAdminUser label' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Utilisateurs|,
+		lastUpdated => 1203456766
 	},
 
 	'885' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Autoriser les utilisateurs &agrave; d&eacute;sactiver leur compte?|,
+		lastUpdated => 1203363115
 	},
 
 	'884' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Pop Up|,
+		lastUpdated => 1203363087
 	},
 
 	'147' => {
@@ -3096,8 +3111,8 @@ our $I18N = {
 	},
 
 	'56 description' => {
-		message => q||,
-		lastUpdated => 
+		message => q|L'email de l'admin. C'est utilis&eacute; pour envoyer de notifications administratives.|,
+		lastUpdated => 1203368756
 	},
 
 	'1052' => {
@@ -3106,18 +3121,18 @@ our $I18N = {
 	},
 
 	'735' => {
-		message => q||,
-		lastUpdated => 
+		message => q|6 Pro|,
+		lastUpdated => 1203362126
 	},
 
 	'404' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Premi&egrave;re page|,
+		lastUpdated => 1203358982
 	},
 
 	'tinymce' => {
-		message => q||,
-		lastUpdated => 
+		message => q|TinyMCE (IE, mozilla)|,
+		lastUpdated => 1203364187
 	},
 
 	'1043' => {
@@ -3126,23 +3141,23 @@ our $I18N = {
 	},
 
 	'Enable Metadata' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Activer les m&eacute;tadonn&eacute;es?|,
+		lastUpdated => 1203363658
 	},
 
 	'974' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Les utilisateurs peuvent-ils s'ajouter eux-m&ecirc;me?|,
+		lastUpdated => 1203271013
 	},
 
 	'420' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Ne retirer rien.|,
+		lastUpdated => 1203369688
 	},
 
 	'show performance indicators description' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Cela montrera le temps (en secondes) pris pour construire chaque objet de la page. C'est utilise pour d&eacute;bugger les probl&egrave;mes de performance.|,
+		lastUpdated => 1203364154
 	},
 
 	'702' => {
@@ -3156,13 +3171,13 @@ our $I18N = {
 	},
 
 	'952' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Date du presse-papier|,
+		lastUpdated => 1203270687
 	},
 
 	'private message subject label' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Sujet|,
+		lastUpdated => 1203421881
 	},
 
 	'487' => {
@@ -3176,8 +3191,8 @@ our $I18N = {
 	},
 
 	'select' => {
-		message => q||,
-		lastUpdated => 
+		message => q|s&eacute;lectionner|,
+		lastUpdated => 1203364336
 	},
 
 	'auto request commit help' => {
@@ -3186,8 +3201,8 @@ our $I18N = {
 	},
 
 	'561' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Interdit|,
+		lastUpdated => 1203270809
 	},
 
 	'Enable passive profiling description' => {
@@ -3201,18 +3216,18 @@ our $I18N = {
 	},
 
 	'settings groupIdAdminVersionTag hoverHelp' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Groupe g&eacute;rant les tags de version|,
+		lastUpdated => 1203456587
 	},
 
 	'hidden' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Cach&eacute;|,
+		lastUpdated => 1203364527
 	},
 
 	'63' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Passez en mode Admin.|,
+		lastUpdated => 1203357224
 	},
 
 	'1050 description' => {
@@ -3221,8 +3236,8 @@ our $I18N = {
 	},
 
 	'455' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Modifier le profil de l'utilisateur|,
+		lastUpdated => 1203368475
 	},
 
 	'user profile field private message friends only label' => {
@@ -3231,13 +3246,13 @@ our $I18N = {
 	},
 
 	'80' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Cr&eacute;ation du compte avec succ&egrave;s!|,
+		lastUpdated => 1203358542
 	},
 
 	'settings groupIdAdminReplacements hoverHelp' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Groupe g&eacute;rant les filtres de contenu.|,
+		lastUpdated => 1203457692
 	},
 
 	'336' => {
@@ -3261,8 +3276,8 @@ our $I18N = {
 	},
 
 	'821' => {
-		message => q||,
-		lastUpdated => 
+		message => q|N'importe qui|,
+		lastUpdated => 1203362583
 	},
 
 	'wiki help target' => {
@@ -3276,13 +3291,13 @@ our $I18N = {
 	},
 
 	'ends with' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Finissant par|,
+		lastUpdated => 1203423662
 	},
 
 	'send private message template description' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Choissir un mod&egrave;le pour envoyer les messages priv&eacute;s|,
+		lastUpdated => 1203364408
 	},
 
 	'pagination.lastPageText' => {
@@ -3291,18 +3306,18 @@ our $I18N = {
 	},
 
 	'92' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Page suivante|,
+		lastUpdated => 1203358100
 	},
 
 	'settings groupIdAdminDatabaseLink hoverHelp' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Groupe g&eacute;rant les liens base dedonn&eacute;es.|,
+		lastUpdated => 1203456311
 	},
 
 	'879' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Editeur classique (Internet Explorer 5+)|,
+		lastUpdated => 1203270972
 	},
 
 	'539 description' => {
@@ -3312,12 +3327,12 @@ our $I18N = {
 
 	'asset locked' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 1203363773
 	},
 
 	'pagination.pageCount' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Le nombre total de pages.|,
+		lastUpdated => 1203458410
 	},
 
 	'980' => {
@@ -3341,8 +3356,8 @@ our $I18N = {
 	},
 
 	'958' => {
-		message => q||,
-		lastUpdated => 
+		message => q|<p>Le presse-papier est un endroit sp&eacute;cial du syst&egrave;me dans lequel du contenu peut &ecirc;tre temporairement copier ou couper. Son contenu peut alors &ecirc;tre coller &agrave; un nouvel emplacement.</p><p>Le contenu du presse-papier doit &ecirc;tre g&eacute;rer individuellement. Vous pouvez effacer ou coller un objet en s&eacute;lectionnant l'icone appropri&eacute;e. Vous pouvez aussi vider entierement le contenu en choisissant 'vider le presse-papier'.</p><p>Le presse-papier n'affiche que les objets que vousavez mis dedans et sous &nbsp;</p><p>&nbsp;</p>|,
+		lastUpdated => 1203271485
 	},
 
 	'419' => {
@@ -3351,13 +3366,13 @@ our $I18N = {
 	},
 
 	'995' => {
-		message => q||,
-		lastUpdated => 
+		message => q|M&ocirc;t de passe DATABASE|,
+		lastUpdated => 1203363584
 	},
 
 	'837' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Dossier, ajouter/modifier|,
+		lastUpdated => 1203360274
 	},
 
 	'149' => {
@@ -3371,13 +3386,13 @@ our $I18N = {
 	},
 
 	'hidden list' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Liste cach&eacute;e|,
+		lastUpdated => 1203364549
 	},
 
 	'settings groupIdAdminHelp label' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Aide|,
+		lastUpdated => 1203457223
 	},
 
 	'406' => {
@@ -3386,8 +3401,8 @@ our $I18N = {
 	},
 
 	'settings groupIdAdminSpectre label' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Spectre|,
+		lastUpdated => 1203456459
 	},
 
 	'allowed keywords' => {
@@ -3401,8 +3416,8 @@ our $I18N = {
 	},
 
 	'949' => {
-		message => q||,
-		lastUpdated => 
+		message => q|G&eacute;rer le presse-papier.|,
+		lastUpdated => 1203360547
 	},
 
 	'Enable passive profiling' => {
@@ -3411,13 +3426,13 @@ our $I18N = {
 	},
 
 	'557 description' => {
-		message => q||,
-		lastUpdated => 
+		message => q|La raison pour laquelle le karma de l'utilisateur a &eacute;t&eacute; chang&eacute;.|,
+		lastUpdated => 1203368715
 	},
 
 	'56' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Adresse Email|,
+		lastUpdated => 1203357527
 	},
 
 	'499' => {
@@ -3426,18 +3441,18 @@ our $I18N = {
 	},
 
 	'530' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Avec <strong>tous </strong>les mots|,
+		lastUpdated => 1203361386
 	},
 
 	'66' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Connexion |,
+		lastUpdated => 1203534604
 	},
 
 	'show my fields' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Voir les champs que mon niveau UI autorise|,
+		lastUpdated => 1203364045
 	},
 
 	'54' => {
@@ -3451,8 +3466,8 @@ our $I18N = {
 	},
 
 	'done' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Fait|,
+		lastUpdated => 1203365548
 	},
 
 	'70' => {
@@ -3466,8 +3481,8 @@ our $I18N = {
 	},
 
 	'88' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Utilisateurs de le groupe|,
+		lastUpdated => 1203363067
 	},
 
 	'user profiling' => {
@@ -3491,48 +3506,48 @@ our $I18N = {
 	},
 
 	'403' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Pref&eacute;re ne pas dire.|,
+		lastUpdated => 1203365089
 	},
 
 	'883' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Inline (lorsque c'est support&eacute;)|,
+		lastUpdated => 1203358306
 	},
 
 	'clear cache' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Vider le cache|,
+		lastUpdated => 1203369057
 	},
 
 	'75' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Les informations de votre compte vous ont &eacute;t&eacute; envoy&eacute; par email.|,
+		lastUpdated => 1203359780
 	},
 
 	'134' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Message pour la r&eacute;cup&eacute;ration du m&ocirc;t de passe|,
+		lastUpdated => 1203355982
 	},
 
 	'848' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Il y a une erreur de syntaxe dans ce mod&egrave;le. |,
+		lastUpdated => 1203362910
 	},
 
 	'421' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Retirer tout sauf le formattage de base.|,
+		lastUpdated => 1203369809
 	},
 
 	'59' => {
-		message => q||,
-		lastUpdated => 
+		message => q|J'ai oubli&eacute; mon m&ocirc;t de passe.|,
+		lastUpdated => 1203357499
 	},
 
 	'450' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Travail (soci&eacute;t&eacute;)|,
+		lastUpdated => 1203359038
 	},
 
 	'406 description' => {
@@ -3546,18 +3561,18 @@ our $I18N = {
 	},
 
 	'private message unread display message' => {
-		message => q||,
-		lastUpdated => 
+		message => q|%s messages non lus|,
+		lastUpdated => 1203421975
 	},
 
 	'private message date label' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Date|,
+		lastUpdated => 1203421629
 	},
 
 	'settings groupIdAdminGraphics label' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Graphiques|,
+		lastUpdated => 1203456373
 	},
 
 	'1070' => {
@@ -3571,8 +3586,8 @@ our $I18N = {
 	},
 
 	'864' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Notification du d&eacute;lai d'expiration|,
+		lastUpdated => 1203369265
 	},
 
 	'1016' => {
@@ -3581,8 +3596,8 @@ our $I18N = {
 	},
 
 	'help' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Aide|,
+		lastUpdated => 1203364516
 	},
 
 	'318' => {
@@ -3591,8 +3606,8 @@ our $I18N = {
 	},
 
 	'url extension' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Extension URL|,
+		lastUpdated => 1203360145
 	},
 
 	'105' => {
@@ -3611,13 +3626,13 @@ our $I18N = {
 	},
 
 	'settings groupIdAdminCron hoverHelp' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Groupe g&eacute;rant les taches plannifi&eacute;es.|,
+		lastUpdated => 1203456244
 	},
 
 	'databases' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Bases de donn&eacute;es|,
+		lastUpdated => 1203365540
 	},
 
 	'146' => {
@@ -3626,13 +3641,13 @@ our $I18N = {
 	},
 
 	'38' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Vous n'&ecirc;tes pas autoris&eacute; &agrave; effectuer cette op&eacute;ration. Connectez-vous avec un compte poss&eacute;dant les privil&egrave;ges requis pour cette op&eacute;ration.|,
+		lastUpdated => 1203361814
 	},
 
 	'993 description' => {
-		message => q||,
-		lastUpdated => 
+		message => q|<strong>D</strong>ata <strong>S</strong>ource <strong>N</strong>ame est l'unique identifiant que PERL utilise pour localiser votre base de donn&eacute;es. Il prend la forme suivante :<br /><br />DBI:[driver]:[database name]:[host].<br /><br /><em>Example:</em> DBI:mysql:WebGUI:localhost<br /><br />Quelques examples pour les autres bases de donn&eacute;es :<br /><dl><dt><a href="http://search.cpan.org/author/TIMB/DBD-Oracle-1.14/Oracle.pm#CONNECTING_TO_ORACLE">Oracle</a>:</dt><dd>DBI:Oracle:SID<br /> DBD::Oracle doit &ecirc;tre install&eacute;.<br />Vous devez utiliser mod_perl et configurer <strong>PerlSetEnv ORACLE_HOME /home/oracle/product/8.1.7</strong> dans httpd.conf. Sans mettre les parametres ORACLE_HOME, vous ne pouvez pas vous connecter DBI:Oracle:host=myhost.com;sid=SID </dd><dt><a href="http://search.cpan.org/author/OYAMA/DBD-PgPP-0.04/PgPP.pm#THE_DBI_CLASS">PostgreSQL</a>:</dt><dd>DBI:PgPP:dbname=DBNAME[;host=hOST]<br /> DBD::PgPP doit &ecirc;tre install&eacute;. </dd><dt><a href="http://search.cpan.org/author/MEWP/DBD-Sybase-1.00/Sybase.pm#Specifying_other_connection_specific_parameters">Sybase</a>:</dt><dd>DBI:Sybase:[server=SERVERNAME][database=DATABASE]<br /> DBD::Sybase doit &ecirc;tre install&eacute;.<br />Vous devez utiliser mod_perl et configurer <strong>PerlSetEnv SYBASE /opt/sybase/11.0.2</strong> dans httpd.conf.</dd></dl>|,
+		lastUpdated => 1203363540
 	},
 
 	'pagination.isFirstPage' => {
@@ -3641,18 +3656,18 @@ our $I18N = {
 	},
 
 	'164' => {
-		message => q||,
-		lastUpdated => 
+		message => q|M&eacute;thode d'autentification|,
+		lastUpdated => 1203364870
 	},
 
 	'807' => {
-		message => q||,
-		lastUpdated => 
+		message => q|G&eacute;rer les groupes au sein de ce groupe.|,
+		lastUpdated => 1203362519
 	},
 
 	'settings groupIdAdminActiveSessions hoverHelp' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Groupe pouvant voir et mettre fin aux sessions actives.|,
+		lastUpdated => 1203363828
 	},
 
 	'945' => {

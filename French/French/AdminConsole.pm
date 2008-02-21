@@ -12,8 +12,8 @@ our $I18N = {
 	},
 
 	'admin console' => {
-		message => q|Console d'administration|,
-		lastUpdated => 1186403846
+		message => q|Console administration|,
+		lastUpdated => 1203461346
 	},
 
 };

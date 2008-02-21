@@ -222,8 +222,8 @@ our $I18N = {
 	},
 
 	'visitor cache timeout help' => {
-		message => q|Afin d'augmenter les performances d'acc&egrave;s &agrave; ce module par les visiteurs, nous pouvons le placer en m&eacute;moire cache. Combien de temps le place-t-on dans la m&eacute;moire cache?|,
-		lastUpdated => 1202807177
+		message => q|Afin d'augmenter les performances d'acc&egrave;s &agrave; ce module par les visiteurs, nous pouvons le placer dans le cache. Combien de temps le place-t-on dans la m&eacute;moire cache?|,
+		lastUpdated => 1203428432
 	},
 
 	'unsubscribe.label' => {
@@ -1512,8 +1512,8 @@ our $I18N = {
 	},
 
 	'visitor cache timeout' => {
-		message => q|Timeout m&eacute;moire cache visiteur|,
-		lastUpdated => 1202807117
+		message => q|Timeout cache visiteur|,
+		lastUpdated => 1203428380
 	},
 
 	'minor.label' => {

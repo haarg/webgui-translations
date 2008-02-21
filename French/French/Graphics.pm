@@ -3,7 +3,7 @@ package WebGUI::i18n::French::Graphics;
 our $I18N = {
 	'stroke alpha' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 1203371275
 	},
 
 	'fill alpha' => {
@@ -12,8 +12,8 @@ our $I18N = {
 	},
 
 	'font name description' => {
-		message => q||,
-		lastUpdated => 
+		message => q|L'&eacute;tiquette de la police utilisable dans l'interface.|,
+		lastUpdated => 1203371323
 	},
 
 	'stroke color description' => {
@@ -27,18 +27,18 @@ our $I18N = {
 	},
 
 	'font file description' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Le fichier contenant la police de caract&egrave;res. Doit &ecirc;tre un fichier TrueType (.ttf).|,
+		lastUpdated => 1203371260
 	},
 
 	'stroke alpha description' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 1203371164
 	},
 
 	'fill color' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Couleur de remplissage|,
+		lastUpdated => 1203371213
 	},
 
 	'stroke color' => {
@@ -52,18 +52,18 @@ our $I18N = {
 	},
 
 	'palette name' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Nom de la palette|,
+		lastUpdated => 1203370988
 	},
 
 	'font name' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Nom de la police|,
+		lastUpdated => 1203371094
 	},
 
 	'font file' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Fichier de la police|,
+		lastUpdated => 1203371187
 	},
 
 	'color name description' => {
@@ -77,13 +77,13 @@ our $I18N = {
 	},
 
 	'palette name description' => {
-		message => q||,
-		lastUpdated => 
+		message => q|L'&eacute;tiquette par laquelle cette palette sera identifi&eacute;e dans l'interface.|,
+		lastUpdated => 1203371063
 	},
 
 	'manage graphics' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Graphiques|,
+		lastUpdated => 1203370965
 	},
 
 	'color name' => {
@@ -102,13 +102,13 @@ our $I18N = {
 	},
 
 	'manage palettes' => {
-		message => q||,
-		lastUpdated => 
+		message => q|G&eacute;rer les palettes|,
+		lastUpdated => 1203370977
 	},
 
 	'manage fonts' => {
-		message => q||,
-		lastUpdated => 
+		message => q|G&eacute;rer les polices|,
+		lastUpdated => 1203370952
 	},
 
 };

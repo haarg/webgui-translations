@@ -3,7 +3,7 @@ package WebGUI::i18n::French::AdSpace;
 our $I18N = {
 	'is active' => {
 		message => q|Actif?|,
-		lastUpdated => 1202835211
+		lastUpdated => 1203370807
 	},
 
 	'priority' => {
@@ -73,7 +73,7 @@ our $I18N = {
 
 	'rich help' => {
 		message => q|Placer ici le code qui sera utiliser pour g&eacute;n&eacute;rer la pub &agrave; afficher.|,
-		lastUpdated => 1186403526
+		lastUpdated => 1203370797
 	},
 
 	'name' => {
@@ -102,8 +102,8 @@ our $I18N = {
 	},
 
 	'width help' => {
-		message => q|Largeur (en pixels) que doit avoir cet espace de pub.|,
-		lastUpdated => 1186403809
+		message => q|Largeur (en pixels) de cet espace de pub.|,
+		lastUpdated => 1203370591
 	},
 
 	'clicks bought' => {
@@ -112,18 +112,18 @@ our $I18N = {
 	},
 
 	'ad id' => {
-		message => q|Id de la pub|,
-		lastUpdated => 1186401529
+		message => q|Id de la publicit&eacute;|,
+		lastUpdated => 1203370658
 	},
 
 	'used' => {
-		message => q|Utilis&eacute;e|,
-		lastUpdated => 1186403771
+		message => q|Utilis&eacute;|,
+		lastUpdated => 1203370642
 	},
 
 	'error heading' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Debut de message d'erreur|,
+		lastUpdated => 1203159509
 	},
 
 	'title' => {
@@ -138,7 +138,7 @@ our $I18N = {
 
 	'type help' => {
 		message => q|Quel type de pub utilisons nous ?|,
-		lastUpdated => 1186403685
+		lastUpdated => 1203370890
 	},
 
 	'add ad space body' => {
@@ -148,7 +148,7 @@ our $I18N = {
 
 	'width' => {
 		message => q|Largeur|,
-		lastUpdated => 1186403779
+		lastUpdated => 1203370597
 	},
 
 	'impressions bought' => {
@@ -193,7 +193,7 @@ our $I18N = {
 
 	'ad text help' => {
 		message => q|<p>Entre SVP jusqu'a 255 caract&egrave;res de texte que vous voudriez voir appara&icirc;tre dans cette pub. Gardez &agrave; l'esprit que selon la taille de votre pub, le texte pourra ne pas &ecirc;tre affich&eacute; dans son int&eacute;gralit&eacute; s'il est trop long. Nous recommandons de le garder &agrave; moins de 60 caract&egrave;res.</p>|,
-		lastUpdated => 1186402060
+		lastUpdated => 1203370858
 	},
 
 	'rich' => {
@@ -207,18 +207,18 @@ our $I18N = {
 	},
 
 	'confirm ad delete' => {
-		message => q|Etes-vous certain de vouloir supprimer cette pub ?|,
-		lastUpdated => 1186402515
+		message => q|Etes-vous s&ucirc;r de vouloir supprimer cette pub?|,
+		lastUpdated => 1203370739
 	},
 
 	'ad space id' => {
 		message => q|Id de l'espace de pub|,
-		lastUpdated => 1186401619
+		lastUpdated => 1203370689
 	},
 
 	'error invalid characters' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Il y a des caract&egrave;res invalides dans le champ titre. SVP, utilisez seulement des lettres, chiffres ou espaces.|,
+		lastUpdated => 1203370566
 	},
 
 	'clicks bought help' => {

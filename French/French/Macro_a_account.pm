@@ -2,8 +2,8 @@ package WebGUI::i18n::French::Macro_a_account;
 
 our $I18N = {
 	'account.text' => {
-		message => q||,
-		lastUpdated => 
+		message => q|'&eacute;tiquette pour le lienCompte (Account) ou le texte que vous avez plac&eacute; dans la macro.|,
+		lastUpdated => 1203454443
 	},
 
 	'46' => {
@@ -22,8 +22,8 @@ our $I18N = {
 	},
 
 	'account title' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Variables du mod&egrave;le de mise en page de la macro Compte (Account)|,
+		lastUpdated => 1203454292
 	},
 
 };

@@ -3,7 +3,7 @@ package WebGUI::i18n::French::Macro_LoginToggle;
 our $I18N = {
 	'716' => {
 		message => q|Connexion|,
-		lastUpdated => 1202823862
+		lastUpdated => 1203535189
 	},
 
 	'toggle.url' => {
@@ -13,7 +13,7 @@ our $I18N = {
 
 	'717' => {
 		message => q|D&eacute;connexion|,
-		lastUpdated => 1202823871
+		lastUpdated => 1203535198
 	},
 
 	'macroName' => {
@@ -23,7 +23,7 @@ our $I18N = {
 
 	'login toggle title' => {
 		message => q|Variables du mod&egrave;le de mise en page de la macro 'Login Toggle' (bo&icirc;te de connexion)|,
-		lastUpdated => 1202824031
+		lastUpdated => 1203535213
 	},
 
 	'toggle.text' => {
