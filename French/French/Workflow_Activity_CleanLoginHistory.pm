@@ -2,18 +2,18 @@ package WebGUI::i18n::French::Workflow_Activity_CleanLoginHistory;
 
 our $I18N = {
 	'age to delete help' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Quel d&eacute;lai doit &ecirc;tre atteint, pour qu'il soit possible d'effacer les enregistrements de l'historique des connections des utilisateurs?|,
+		lastUpdated => 1203686007
 	},
 
 	'age to delete' => {
-		message => q||,
-		lastUpdated => 
+		message => q|D&eacute;lai avant d'effacer|,
+		lastUpdated => 1203686020
 	},
 
 	'activityName' => {
-		message => q|Effacer l'historique des logins|,
-		lastUpdated => 1202580298
+		message => q|Effacer l'historique des connections|,
+		lastUpdated => 1203686032
 	},
 
 };

@@ -17,8 +17,8 @@ our $I18N = {
 	},
 
 	'size limit help' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Quelle taille max. le cache doit atteindre pour autoriser WebGUI &agrave; les consid&eacute;rer comme cache ancien?|,
+		lastUpdated => 1203685500
 	},
 
 };
