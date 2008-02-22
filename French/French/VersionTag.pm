@@ -12,8 +12,8 @@ our $I18N = {
 	},
 
 	'approve/deny' => {
-		message => q|Approuver/Nier|,
-		lastUpdated => 1203468752
+		message => q|Approuver/Refuser|,
+		lastUpdated => 1203653842
 	},
 
 	'comments' => {
@@ -127,8 +127,8 @@ our $I18N = {
 	},
 
 	'approve/deny help' => {
-		message => q|Voulez-vous approuver ou nier ce tag?|,
-		lastUpdated => 1203468853
+		message => q|Voulez-vous approuver ou refuser ce tag?|,
+		lastUpdated => 1203653871
 	},
 
 	'version tag name' => {
