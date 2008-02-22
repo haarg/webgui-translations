@@ -295,7 +295,7 @@ our $I18N = {
 
 	'auto request commit' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 1203638487
 	},
 
 	'859' => {
@@ -554,8 +554,8 @@ our $I18N = {
 	},
 
 	'admin console template' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Gabarit de la console d'administration|,
+		lastUpdated => 1203638456
 	},
 
 	'1035' => {
@@ -994,8 +994,8 @@ our $I18N = {
 	},
 
 	'noldaplink' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Pas de connection LDAP|,
+		lastUpdated => 1203638572
 	},
 
 	'161' => {
@@ -1134,8 +1134,8 @@ our $I18N = {
 	},
 
 	'messaging' => {
-		message => q||,
-		lastUpdated => 1203458078
+		message => q|Message|,
+		lastUpdated => 1203638550
 	},
 
 	'724' => {
@@ -1379,8 +1379,8 @@ our $I18N = {
 	},
 
 	'help contents' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Contenu de l'aide|,
+		lastUpdated => 1203638527
 	},
 
 	'533' => {
@@ -1824,8 +1824,8 @@ our $I18N = {
 	},
 
 	'user email template description' => {
-		message => q|Le mod&egrave;le de mise en page utilis&eacute; pour construire l'email d'invitation d'un utilisateur.|,
-		lastUpdated => 1203455808
+		message => q|Le gabarit utilis&eacute; pour construire l'email d'invitation &agrave; un utilisateur.|,
+		lastUpdated => 1203638610
 	},
 
 	'57' => {
@@ -2349,8 +2349,8 @@ our $I18N = {
 	},
 
 	'74' => {
-		message => q|Information du compte|,
-		lastUpdated => 1203359335
+		message => q|Informations du compte|,
+		lastUpdated => 1203638422
 	},
 
 	'240' => {
