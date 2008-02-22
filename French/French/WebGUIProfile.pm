@@ -52,8 +52,8 @@ our $I18N = {
 	},
 
 	'user profiling' => {
-		message => q|Profil de l'utilisateur|,
-		lastUpdated => 1202577627
+		message => q|Profil utilisateur|,
+		lastUpdated => 1203677663
 	},
 
 	'788' => {
@@ -137,8 +137,8 @@ our $I18N = {
 	},
 
 	'topicName' => {
-		message => q|Profil de l'utilisateur|,
-		lastUpdated => 1202577641
+		message => q|Profil utilisateur|,
+		lastUpdated => 1203677653
 	},
 
 	'475 description' => {
@@ -187,8 +187,8 @@ our $I18N = {
 	},
 
 	'forceImageOnly hoverHelp' => {
-		message => q|Si 'Yes', uniquement des fichiers de type image ne pourront &ecirc;tre uploader dans le champ.|,
-		lastUpdated => 1202580110
+		message => q|Si 'Oui', uniquement des fichiers de type image ne pourront &ecirc;tre upload&eacute; dans le champ.|,
+		lastUpdated => 1203677693
 	},
 
 	'472' => {
