@@ -559,8 +559,8 @@ our $I18N = {
 	},
 
 	'1035' => {
-		message => q|Mod&egrave;le d'avis|,
-		lastUpdated => 1202556196
+		message => q|Gabarit de notification|,
+		lastUpdated => 1203675548
 	},
 
 	'deactivateAccount success' => {
@@ -980,7 +980,7 @@ our $I18N = {
 
 	'1026' => {
 		message => q|Permettez l'&eacute;dition de texte enrichi?  |,
-		lastUpdated => 1203638040
+		lastUpdated => 1203675502
 	},
 
 	'329' => {
@@ -1029,8 +1029,8 @@ our $I18N = {
 	},
 
 	'400' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Pr&eacute;venir du Proxy Caching|,
+		lastUpdated => 1203675774
 	},
 
 	'744' => {
@@ -1040,7 +1040,7 @@ our $I18N = {
 
 	'1011' => {
 		message => q|code|,
-		lastUpdated => 1201304589
+		lastUpdated => 1203675477
 	},
 
 	'556 description' => {
@@ -1279,8 +1279,8 @@ our $I18N = {
 	},
 
 	'369' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Date d'expiration|,
+		lastUpdated => 1203675684
 	},
 
 	'483' => {
@@ -1404,8 +1404,8 @@ our $I18N = {
 	},
 
 	'1006 description' => {
-		message => q|Le syst&egrave;me doit-il utiliser un protocole HTTPS pour l'identification? Noter que si cette option est activ&eacute;e, toutes les pages seront crypt&eacute;es et non pas seulement le login.|,
-		lastUpdated => 1202556147
+		message => q|Le syst&egrave;me doit-il utiliser le protocole HTTPS pour l'identification? Noter que si cette option est activ&eacute;e, toutes les pages seront crypt&eacute;es et pas seulement la connection.|,
+		lastUpdated => 1203675409
 	},
 
 	'108' => {
@@ -1454,8 +1454,8 @@ our $I18N = {
 	},
 
 	'142' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Timeout de la session|,
+		lastUpdated => 1203675649
 	},
 
 	'330' => {
@@ -1799,8 +1799,8 @@ our $I18N = {
 	},
 
 	'1045' => {
-		message => q|Niché|,
-		lastUpdated => 1201305542
+		message => q|Nich&eacute;|,
+		lastUpdated => 1203675615
 	},
 
 	'532' => {
@@ -2274,8 +2274,8 @@ our $I18N = {
 	},
 
 	'1029' => {
-		message => q|Édité à|,
-		lastUpdated => 1201305148
+		message => q|Modifi&eacute; &agrave;|,
+		lastUpdated => 1203675521
 	},
 
 	'538' => {
@@ -2384,8 +2384,8 @@ our $I18N = {
 	},
 
 	'1008' => {
-		message => q|texte et HTML mélangés|,
-		lastUpdated => 1201304552
+		message => q|Texte et HTML|,
+		lastUpdated => 1203675464
 	},
 
 	'1027' => {
@@ -2409,8 +2409,8 @@ our $I18N = {
 	},
 
 	'1044' => {
-		message => q|Modèle De Recherche|,
-		lastUpdated => 1201306586
+		message => q|Gabarit de recherche|,
+		lastUpdated => 1203675598
 	},
 
 	'admin console template description' => {
@@ -2539,8 +2539,8 @@ our $I18N = {
 	},
 
 	'750' => {
-		message => q|Effecer cet utilisateur.|,
-		lastUpdated => 1203361042
+		message => q|Effacer cet utilisateur.|,
+		lastUpdated => 1203675823
 	},
 
 	'229' => {
@@ -2550,7 +2550,7 @@ our $I18N = {
 
 	'104 description' => {
 		message => q|Entrez un URL pour votre lien|,
-		lastUpdated => 1201305477
+		lastUpdated => 1203675568
 	},
 
 	'866' => {
@@ -2839,8 +2839,8 @@ our $I18N = {
 	},
 
 	'1007' => {
-		message => q|genre de contenu|,
-		lastUpdated => 1201304521
+		message => q|Type de contenu|,
+		lastUpdated => 1203675422
 	},
 
 	'95' => {
@@ -3114,8 +3114,8 @@ our $I18N = {
 	},
 
 	'1052' => {
-		message => q|Éditez Le Filtre Content|,
-		lastUpdated => 1201305930
+		message => q|Modifier le Filtre de contentu|,
+		lastUpdated => 1203675330
 	},
 
 	'735' => {
@@ -3135,7 +3135,7 @@ our $I18N = {
 
 	'1043' => {
 		message => q|Archiver apr&egrave;s|,
-		lastUpdated => 1203638122
+		lastUpdated => 1203675579
 	},
 
 	'Enable Metadata' => {
@@ -3239,8 +3239,8 @@ our $I18N = {
 	},
 
 	'user profile field private message friends only label' => {
-		message => q|Auriser seulement mes amis |,
-		lastUpdated => 1203674532
+		message => q|Autoriser seulement mes amis |,
+		lastUpdated => 1203675853
 	},
 
 	'80' => {
