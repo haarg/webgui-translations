@@ -87,8 +87,8 @@ our $I18N = {
 	},
 
 	'description' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Opis|,
+		lastUpdated => 1203347055
 	},
 
 	'priority help' => {
@@ -121,6 +121,11 @@ our $I18N = {
 		lastUpdated => 
 	},
 
+	'error heading' => {
+		message => q||,
+		lastUpdated => 
+	},
+
 	'title' => {
 		message => q||,
 		lastUpdated => 
@@ -142,8 +147,8 @@ our $I18N = {
 	},
 
 	'width' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Szerokość|,
+		lastUpdated => 1203347025
 	},
 
 	'impressions bought' => {
@@ -207,6 +212,11 @@ our $I18N = {
 	},
 
 	'ad space id' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'error invalid characters' => {
 		message => q||,
 		lastUpdated => 
 	},

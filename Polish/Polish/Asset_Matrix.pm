@@ -247,8 +247,8 @@ our $I18N = {
 	},
 
 	'no' => {
-		message => q||,
-		lastUpdated => 
+		message => q|nie|,
+		lastUpdated => 1203346859
 	},
 
 	'privileged group description' => {
@@ -272,8 +272,8 @@ our $I18N = {
 	},
 
 	'id' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Unikalny identyfikator|,
+		lastUpdated => 1203346906
 	},
 
 	'value' => {
@@ -467,8 +467,8 @@ our $I18N = {
 	},
 
 	'yes' => {
-		message => q||,
-		lastUpdated => 
+		message => q|tak|,
+		lastUpdated => 1203346834
 	},
 
 	'text area' => {
