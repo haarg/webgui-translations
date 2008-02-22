@@ -272,8 +272,8 @@ our $I18N = {
 	},
 
 	'locale' => {
-		message => q|repr&eacute;sentation des dates<br />|,
-		lastUpdated => 1170784155
+		message => q|en_US|,
+		lastUpdated => 1203638671
 	},
 
 	'formDescription' => {
@@ -312,8 +312,8 @@ our $I18N = {
 	},
 
 	'location' => {
-		message => q||,
-		lastUpdated => 
+		message => q|L'endroit de l'&eacute;v&eacute;nement.|,
+		lastUpdated => 1203638694
 	},
 
 	'formRelatedLinks' => {
@@ -502,8 +502,8 @@ our $I18N = {
 	},
 
 	'message' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Un message d'erreur.|,
+		lastUpdated => 1203638710
 	},
 
 	'formCancel' => {
