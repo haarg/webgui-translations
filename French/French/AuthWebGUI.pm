@@ -247,8 +247,8 @@ our $I18N = {
 	},
 
 	'deactivate account template title' => {
-		message => q|Gabarit WebGUI de d&eacute;sactivation du compte|,
-		lastUpdated => 1203639210
+		message => q|Gabarit de d&eacute;sactivation du compte WebGUI |,
+		lastUpdated => 1203639536
 	},
 
 	'login template' => {
@@ -362,8 +362,8 @@ our $I18N = {
 	},
 
 	'display account template title' => {
-		message => q|Gabarit WebGUI de d&eacute;sactivation du compte|,
-		lastUpdated => 1203627254
+		message => q|Gabarit de d&eacute;sactivation du compte WebGUI |,
+		lastUpdated => 1203639553
 	},
 
 	'1' => {
@@ -497,8 +497,8 @@ our $I18N = {
 	},
 
 	'anon reg template title' => {
-		message => q|Gabarit WebGUI d'engeristrement anonyme|,
-		lastUpdated => 1203639305
+		message => q|Gabarit d'engeristrement anonyme WebGUI |,
+		lastUpdated => 1203639518
 	},
 
 	'recover.form.hidden' => {
@@ -517,8 +517,8 @@ our $I18N = {
 	},
 
 	'expired template title' => {
-		message => q|Gabarit Webgui d'expiration du m&ocirc;t de passe|,
-		lastUpdated => 1203639178
+		message => q|Gabarit d'expiration du m&ocirc;t de passe WebGUI |,
+		lastUpdated => 1203639570
 	},
 
 	'email recover password finish message2' => {
