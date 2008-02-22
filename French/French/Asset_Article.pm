@@ -3,12 +3,12 @@ package WebGUI::i18n::French::Asset_Article;
 our $I18N = {
 	'description.first.sentence' => {
 		message => q|La premi&egrave;re phrase dans la description. |,
-		lastUpdated => 1203255871
+		lastUpdated => 1203652792
 	},
 
 	'article template description' => {
-		message => q||,
-		lastUpdated => 
+		message => q|S&eacute;l&eacute;ctionner le gabarit dans la liste pour afficher votre Wobjet. Chaque Wobjet peut seulement utilise les gabarits que pour son type. Par example, les articles ne epuvent utiliser que les gabarits d'article.|,
+		lastUpdated => 1203652600
 	},
 
 	'linkTitle' => {
@@ -23,7 +23,7 @@ our $I18N = {
 
 	'7' => {
 		message => q|Titre du lien|,
-		lastUpdated => 1203254117
+		lastUpdated => 1203651905
 	},
 
 	'assetName' => {
@@ -38,32 +38,32 @@ our $I18N = {
 
 	'description.first.paragraph' => {
 		message => q|Le premier paragraphe de la description. Le premier paragraphe est d&eacute;termin&eacute; par le premier retour de chariot trouv&eacute; dans le texte.|,
-		lastUpdated => 1203255398
+		lastUpdated => 1203652810
 	},
 
 	'description.full' => {
 		message => q|La description compl&egrave;te sans aucune pagination.|,
-		lastUpdated => 1203255146
+		lastUpdated => 1203652784
 	},
 
 	'72' => {
-		message => q|Mod&egrave;le de mise en page de l'article|,
-		lastUpdated => 1203254156
+		message => q|Gabarit de l'article|,
+		lastUpdated => 1203651918
 	},
 
 	'url' => {
 		message => q|L'url pour t&eacute;l&eacute;charger le fichier.|,
-		lastUpdated => 1203254265
+		lastUpdated => 1203652617
 	},
 
 	'attachments help' => {
-		message => q|Fichiers et images directement attach&eacute;s &agrave; cet article. Ces fichiers ne seront pas accessibles par le gestionnaire de module aux autres modules.|,
-		lastUpdated => 1203256040
+		message => q|Fichiers et images directement attach&eacute;s &agrave; cet article. Ces fichiers ne seront pas accessibles par le gestionnaire de module par les autres modules.|,
+		lastUpdated => 1203652956
 	},
 
 	'28' => {
 		message => q|Voir les reponses|,
-		lastUpdated => 1203254090
+		lastUpdated => 1203651899
 	},
 
 	'description.first.4sentences' => {
@@ -72,13 +72,13 @@ our $I18N = {
 	},
 
 	'iconUrl' => {
-		message => q|L'url pointant sur l'icone de ce fichier.|,
-		lastUpdated => 1203255085
+		message => q|L'url pointant sur l'ic&ocirc;ne de ce fichier.|,
+		lastUpdated => 1203652747
 	},
 
 	'description' => {
 		message => q|La description pagin&eacute;e.|,
-		lastUpdated => 1203255747
+		lastUpdated => 1203652819
 	},
 
 	'link url description' => {
@@ -87,33 +87,33 @@ our $I18N = {
 	},
 
 	'new.template' => {
-		message => q|<p>Les articles ont la possibilit&eacute; de changer de mod&egrave;le de mise en page (template) ainsi vous pouvez autoriser les utilisateurs &agrave; voir l'articles diff&eacute;rement. Pour se faire, cr&eacute;ez un lien comme ci-dessous (replacez 999 avec l'id du mod&egrave;le de mise en page que vous voulez utiliser):</p><p>&lt;a href=&quot;&lt;tmpl_var new.template&gt;999&quot;&gt;En savoir plus...&lt;/a&gt; </p>|,
-		lastUpdated => 1203254749
+		message => q|<p>Les articles ont la possibilit&eacute; de changer de gabarit ainsi vous pouvez autoriser les utilisateurs &agrave; voir l'articles diff&eacute;rement. Pour se faire, cr&eacute;ez un lien comme ci-dessous (replacez 999 avec l'id du gabarit  que vous voulez utiliser):</p><p>&lt;a href=&quot;&lt;tmpl_var new.template&gt;999&quot;&gt;En savoir plus...&lt;/a&gt; </p>|,
+		lastUpdated => 1203652698
 	},
 
 	'image.url' => {
 		message => q|L'url de l'image attach&eacute;e.|,
-		lastUpdated => 1203255006
+		lastUpdated => 1203652766
 	},
 
 	'isImage' => {
-		message => q|Valeur bool&eacute;enne indiquant si c'est une image ou non|,
-		lastUpdated => 1203254987
+		message => q|Valeur bool&eacute;enne indiquant si c'est une image ou pas.|,
+		lastUpdated => 1203652733
 	},
 
 	'article asset template variables body' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Chaque module poss&egrave;de un jeu de variables utilisable dans ses gabarits bas&eacute; les propri&eacute;t&eacute;s internes du module. Certaines sont des variables utiles, d'autre le sont moins.|,
+		lastUpdated => 1203653369
 	},
 
 	'storageId' => {
 		message => q|L'ID de l'objet de stockage de ce module, utilis&eacute; pour stocker tous les attachements.|,
-		lastUpdated => 1203254439
+		lastUpdated => 1203652660
 	},
 
 	'cache timeout help' => {
-		message => q|Afin d'augmenter les performances d'acc&egrave;s &agrave; ce module par les utilisateurs, nous pouvons le placer en m&eacute;moire cache. Combien de temps le place-t-on dans la m&eacute;moire cache?|,
-		lastUpdated => 1203256220
+		message => q|Afin d'augmenter les performances d'acc&egrave;s &agrave; ce module par les utilisateurs, nous pouvons le placer le cache. Combien de temps le place-t-on dans le cache?|,
+		lastUpdated => 1203652879
 	},
 
 	'article asset template variables title' => {
@@ -143,32 +143,32 @@ our $I18N = {
 
 	'linkURL' => {
 		message => q|L'url pour le lien ajout&eacute; &agrave; l'article.|,
-		lastUpdated => 1203254786
+		lastUpdated => 1203652709
 	},
 
 	'attachment.icon' => {
-		message => q|L'url de l'image de l'icone pour ce type d'attachement.|,
-		lastUpdated => 1203255643
+		message => q|L'url de l'image de l'ic&ocirc;ne pour ce type d'attachement.|,
+		lastUpdated => 1203653036
 	},
 
 	'cache timeout' => {
-		message => q|Timeout de la m&eacute;moire cache.|,
-		lastUpdated => 1203256126
+		message => q|Timeout du cache|,
+		lastUpdated => 1203652910
 	},
 
 	'templateId' => {
-		message => q|L'ID de ce mod&egrave;le de mise en page pour afficher ce module.|,
-		lastUpdated => 1203254328
+		message => q|L'ID de ce gabarit pour afficher ce module.|,
+		lastUpdated => 1203652645
 	},
 
 	'attachments' => {
 		message => q|Attachements|,
-		lastUpdated => 1203255727
+		lastUpdated => 1203652968
 	},
 
 	'thumbnailUrl' => {
 		message => q|L'url de la miniature (thumbnail) de ce fichier.|,
-		lastUpdated => 1203254297
+		lastUpdated => 1203652630
 	},
 
 	'attachment_loop' => {
@@ -182,28 +182,28 @@ our $I18N = {
 	},
 
 	'cacheTimeout' => {
-		message => q|P&eacute;riode durant laquelle cet article sera dans la m&eacute;moire cache.|,
-		lastUpdated => 1203256092
+		message => q|P&eacute;riode durant laquelle cet article sera dans le cache.|,
+		lastUpdated => 1203652853
 	},
 
 	'12' => {
 		message => q|Modifier l'article|,
-		lastUpdated => 1203254073
+		lastUpdated => 1203651890
 	},
 
 	'8' => {
 		message => q|Lier l'URL|,
-		lastUpdated => 1203371814
+		lastUpdated => 1203651959
 	},
 
 	'filename' => {
 		message => q|Le nom du fichier.|,
-		lastUpdated => 1203255105
+		lastUpdated => 1203652774
 	},
 
 	'73' => {
-		message => q|Les variables suivantes sont utilisables dans les mod&egrave;les de mise en page de l'article.|,
-		lastUpdated => 1203254213
+		message => q|Les variables suivantes sont utilisables dans les gabarits de l'article.|,
+		lastUpdated => 1203651941
 	},
 
 	'attachment.url' => {

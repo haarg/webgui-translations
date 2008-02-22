@@ -563,7 +563,7 @@ our $I18N = {
 
 	'Class Icon help' => {
 		message => q|Chaque module affichera aussi un ic&ocirc;ne de classe. chaque ic&ocirc;ne de classe est propre au module, et est une plus petite version de l'ic&ocirc;ne affich&eacute;e dans le menu nouveau contenu de la console d'administration. Cliquer sur l'ic&ocirc;ne de classe pour afficher un menu d&eacute;roulant avec des options d'&eacute;dition compl&eacute;mentaires.|,
-		lastUpdated => 1203646744
+		lastUpdated => 1203653085
 	},
 
 	'tag name' => {
