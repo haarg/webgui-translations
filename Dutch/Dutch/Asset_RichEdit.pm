@@ -222,8 +222,8 @@ our $I18N = {
 	},
 
 	'elements subtext' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Moeten op 1 regel staan, geen regelovergangen en met de volgende opmaak: label1[eigenschap1&brvbar;eigenschap2],tabel2[eigenschap1].|,
+		lastUpdated => 1204038846
 	},
 
 	'search' => {
