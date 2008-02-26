@@ -1,6 +1,5 @@
 package WebGUI::i18n::Dutch::Asset_Redirect;
 
-
 our $I18N = {
 	'edit the redirect properties' => {
 		message => q|Bewerk de eigenschappen van het doorleiden|,
@@ -8,8 +7,8 @@ our $I18N = {
 	},
 
 	'redirect url' => {
-		message => q|Doorleid URL|,
-		lastUpdated => 1151071756
+		message => q|URL Doorsturen|,
+		lastUpdated => 1203625485
 	},
 
 	'assetName' => {

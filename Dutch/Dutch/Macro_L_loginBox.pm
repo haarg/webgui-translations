@@ -76,6 +76,11 @@ our $I18N = {
 		lastUpdated => 1155310651
 	},
 
+	'helpvar form.returnUrl' => {
+		message => q|Als dit onzichtbare formulier element aanwezig is, zal de gebruiker na de login worden teruggestuurd naar de huidige pagina|,
+		lastUpdated => 1203437238
+	},
+
 	'password.form' => {
 		message => q|Formulier-onderdeel voor het wachtwoord |,
 		lastUpdated => 1155311228

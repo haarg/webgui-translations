@@ -1181,6 +1181,11 @@ Deze groep zou dan "Werknemers in HMO 1" genoemd kunnen worden en zou je de moge
 		lastUpdated => 1155886231
 	},
 
+	'broken spectre title' => {
+		message => q|Kan niet verbinden met Spectre.|,
+		lastUpdated => 1203543674
+	},
+
 	'333' => {
 		message => q|Land werk|,
 		lastUpdated => 1155887510
@@ -1825,6 +1830,11 @@ Afhankelijk van welke authenticatie modules geïnstalleerd zijn in het systeem, 
 		lastUpdated => 1154077425
 	},
 
+	'broken spectre body' => {
+		message => q|De inzending is geannuleerd, omdat WebGUI niet kan communiceren met Spectre. Herstel het Spectre probleem en probeer het opnieuw te versturen.|,
+		lastUpdated => 1203543659
+	},
+
 	'730' => {
 		message => q|1 leerling|,
 		lastUpdated => 1154094453
@@ -2081,6 +2091,11 @@ LongTruncOk=1|,
 	'settings groupIdAdminGroupAdmin label' => {
 		message => q|Groepen (beperkt)|,
 		lastUpdated => 1190023001
+	},
+
+	'username no html' => {
+		message => q|Uw gebruikersnaam kan geen HTML code of WebGUI macros bevatten.|,
+		lastUpdated => 1203543709
 	},
 
 	'732' => {
@@ -2631,8 +2646,8 @@ De verstrekte informatie is niet gelijk aan de accountinformatie. |,
 	},
 
 	'1078' => {
-		message => q|Er is al een gebruiker in dit systeem met het ingevoerde email adres. Druk op opslaan als deze gebruiker nog steeds aangemaakt moet worden. |,
-		lastUpdated => 1153751082
+		message => q|Er is al een gebruiker in dit systeem met het ingevoerde email adres. |,
+		lastUpdated => 1204018854
 	},
 
 	'pagination.text' => {

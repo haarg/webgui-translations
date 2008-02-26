@@ -1,505 +1,504 @@
 package WebGUI::i18n::Dutch::Asset_RichEdit;
 
-
 our $I18N = {
 	'disable rich edit' => {
-		message => q|Rich Editor uitschakelen?|,
-		lastUpdated => 1156403697
+		message => q||,
+		lastUpdated => 
 	},
 
 	'row 2' => {
-		message => q|Rij 2|,
-		lastUpdated => 1156405712
-	},
-
-	'underline' => {
-		message => q|Onderstrepen|,
-		lastUpdated => 1156405997
+		message => q||,
+		lastUpdated => 
 	},
 
 	'styleselect' => {
-		message => q|Zet stijl|,
-		lastUpdated => 1156405859
+		message => q||,
+		lastUpdated => 
 	},
 
-	'italic' => {
-		message => q|Cursief|,
-		lastUpdated => 1156404642
+	'underline' => {
+		message => q||,
+		lastUpdated => 
 	},
 
 	'print' => {
-		message => q|Printen|,
-		lastUpdated => 1156405329
+		message => q||,
+		lastUpdated => 
+	},
+
+	'italic' => {
+		message => q||,
+		lastUpdated => 
 	},
 
 	'save' => {
-		message => q|Opslaan|,
-		lastUpdated => 1156405727
+		message => q||,
+		lastUpdated => 
 	},
 
 	'anchor' => {
-		message => q|Webkoppeling|,
-		lastUpdated => 1156403446
-	},
-
-	'toolbar buttons' => {
-		message => q|Werkbalk knoppen|,
-		lastUpdated => 1156405908
-	},
-
-	'left to right' => {
-		message => q|Links naar rechts|,
-		lastUpdated => 1156404830
+		message => q|Anker|,
+		lastUpdated => 1203625539
 	},
 
 	'code' => {
-		message => q|Bron bekijken/bewerken|,
-		lastUpdated => 1156173449
+		message => q|Bron Weergeven/Bewerken|,
+		lastUpdated => 1203625664
 	},
 
 	'formatselect' => {
-		message => q|Zet formaat|,
-		lastUpdated => 1156404147
+		message => q||,
+		lastUpdated => 
+	},
+
+	'left to right' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'toolbar buttons' => {
+		message => q||,
+		lastUpdated => 
 	},
 
 	'elements description' => {
-		message => q|Een lijst van alle HTML elementen die zijn toegestaan binnen de Rich Editor. Alle andere elementen zullen worden verwijderd. Om alle elementen toe te staan vult u *[*] in.|,
-		lastUpdated => 1156403953
+		message => q||,
+		lastUpdated => 
 	},
 
 	'elements' => {
-		message => q|Geldige elementen|,
-		lastUpdated => 1156403892
+		message => q||,
+		lastUpdated => 
 	},
 
 	'tablecontrols' => {
-		message => q|Tabel eigenschappen|,
-		lastUpdated => 1156405896
+		message => q||,
+		lastUpdated => 
 	},
 
 	'right to left' => {
-		message => q|Rechts naar links|,
-		lastUpdated => 1156405581
-	},
-
-	'bullist' => {
-		message => q|Opsommingtekens|,
-		lastUpdated => 1156403520
-	},
-
-	'indent' => {
-		message => q|Inspringen|,
-		lastUpdated => 1156404533
+		message => q||,
+		lastUpdated => 
 	},
 
 	'row 3' => {
-		message => q|Rij 3|,
-		lastUpdated => 1156405720
+		message => q||,
+		lastUpdated => 
+	},
+
+	'indent' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'bullist' => {
+		message => q|Bullet lijst|,
+		lastUpdated => 1203625645
 	},
 
 	'remove line breaks' => {
-		message => q|Verwijder enters van HTML?|,
-		lastUpdated => 1156405405
+		message => q||,
+		lastUpdated => 
 	},
 
 	'pastetext' => {
-		message => q|Plakken als tekst zonder opmaak|,
-		lastUpdated => 1156405185
-	},
-
-	'directionality' => {
-		message => q|Tekstrichting|,
-		lastUpdated => 1156403640
+		message => q||,
+		lastUpdated => 
 	},
 
 	'top' => {
-		message => q|Bovenaan|,
-		lastUpdated => 1156405982
+		message => q||,
+		lastUpdated => 
+	},
+
+	'directionality' => {
+		message => q||,
+		lastUpdated => 
 	},
 
 	'css file description' => {
-		message => q|Selecteer een CSS bestand voor de editor. Als er geen CSS bestand is geselecteerd dan wordt het standaard CSS bestand gebruikt.|,
-		lastUpdated => 1156403631
+		message => q||,
+		lastUpdated => 
 	},
 
 	'insertImage' => {
-		message => q|WebGUI afbeelding|,
-		lastUpdated => 1156404591
+		message => q||,
+		lastUpdated => 
 	},
 
 	'use br description' => {
-		message => q|Als u een <br /> wilt plaatsen in plaats van een <p> dan kunt u deze optie aanzetten. |,
-		lastUpdated => 1170690874
+		message => q||,
+		lastUpdated => 
 	},
 
 	'preformatted description' => {
-		message => q|Normaal gesproken worden alle witruimtes zoals meerdere spaties, tabs en enters gezien als &#233;&#233;n spatie. Als deze optie aanstaat dan worden alle witruimtes behouden.|,
-		lastUpdated => 1156405301
+		message => q||,
+		lastUpdated => 
 	},
 
 	'backcolor' => {
 		message => q|Achtergrondkleur|,
-		lastUpdated => 1156403485
+		lastUpdated => 1203625549
 	},
 
 	'justifyleft' => {
-		message => q|Links uitlijnen|,
-		lastUpdated => 1156404810
+		message => q||,
+		lastUpdated => 
 	},
 
 	'using rich edit description' => {
-		message => q|Hiermee wordt de gebruiker elke keer gevraagd of hij een editor of een gewoon invoerveld wil gebruiken.|,
-		lastUpdated => 1170690952
+		message => q||,
+		lastUpdated => 
 	},
 
 	'justifyright' => {
-		message => q|Rechts uitlijnen|,
-		lastUpdated => 1156404819
+		message => q||,
+		lastUpdated => 
 	},
 
 	'rich edit edit config' => {
-		message => q|Wijzig Rich Editor configuratie|,
-		lastUpdated => 1156405561
+		message => q||,
+		lastUpdated => 
 	},
 
 	'visualaid' => {
-		message => q|Tabelweergave voorzien van lijnen?|,
-		lastUpdated => 1156406192
+		message => q||,
+		lastUpdated => 
 	},
 
 	'numlist' => {
-		message => q|Genummerde lijst|,
-		lastUpdated => 1156405045
+		message => q||,
+		lastUpdated => 
 	},
 
 	'bold' => {
 		message => q|Vet|,
-		lastUpdated => 1156405691
+		lastUpdated => 1203625556
 	},
 
 	'Server Side Spell Checker' => {
-		message => q|Server side spellingscontrole|,
-		lastUpdated => 1166199713
-	},
-
-	'bottom' => {
-		message => q|Onderaan|,
-		lastUpdated => 1156405990
+		message => q|Server spellingscontrole|,
+		lastUpdated => 1203625532
 	},
 
 	'using rich edit' => {
-		message => q|Vragen gebruik Rich Editor?|,
-		lastUpdated => 1156406136
+		message => q||,
+		lastUpdated => 
 	},
 
-	'image' => {
-		message => q|Afbeelding|,
-		lastUpdated => 1156404507
+	'bottom' => {
+		message => q|Voet|,
+		lastUpdated => 1203625567
 	},
 
 	'editor height description' => {
-		message => q|De hoogte van de editor, inclusief de knoppen, in pixels.|,
-		lastUpdated => 1156403757
+		message => q||,
+		lastUpdated => 
+	},
+
+	'image' => {
+		message => q||,
+		lastUpdated => 
 	},
 
 	'toolbar buttons description' => {
-		message => q|Geeft weer welke knoppen er in de editor gebruikt worden. Om een knoppenbalk te verwijderen, deselecteer je alle buttons in de column van die knoppenbalk. Opmerking: ook andere velden kunnen ook buttons toevoegen aan een knoppenbalk zoals "Enable Context Menu" (activeer contextmenu).|,
-		lastUpdated => 1170690864
+		message => q||,
+		lastUpdated => 
 	},
 
 	'enable context menu description' => {
-		message => q|Voeg het context menu toe aan rij 1 van de werkbalk.|,
-		lastUpdated => 1156404102
+		message => q||,
+		lastUpdated => 
 	},
 
 	'removeformat' => {
-		message => q|Verwijder opmaak|,
-		lastUpdated => 1156405438
+		message => q||,
+		lastUpdated => 
 	},
 
 	'iespell' => {
-		message => q|Spellingscontrole (alleen voor IE)|,
-		lastUpdated => 1156404496
+		message => q||,
+		lastUpdated => 
 	},
 
 	'elements subtext' => {
-		message => q|De elementen moeten op 1 regel worden gezet, zonder enters met het formaat: tag1[att1\|attr2],tag2[attr1].|,
-		lastUpdated => 1156404067
+		message => q||,
+		lastUpdated => 
 	},
 
 	'search' => {
-		message => q|Zoeken|,
-		lastUpdated => 1156405734
+		message => q||,
+		lastUpdated => 
 	},
 
 	'forecolor' => {
-		message => q|Voorgrondkleur|,
-		lastUpdated => 1156404134
+		message => q||,
+		lastUpdated => 
 	},
 
 	'paste' => {
-		message => q|Plakken|,
-		lastUpdated => 1156405170
+		message => q||,
+		lastUpdated => 
 	},
 
 	'assetName' => {
-		message => q|Rich Edit|,
-		lastUpdated => 1156403478
+		message => q|Rich edit|,
+		lastUpdated => 1203625634
 	},
 
 	'editor width description' => {
-		message => q|De breedte van de editor, inclusief de knoppen, in pixels.|,
-		lastUpdated => 1156403883
+		message => q||,
+		lastUpdated => 
 	},
 
 	'editor width' => {
-		message => q|Editor breedte|,
-		lastUpdated => 1156403791
+		message => q||,
+		lastUpdated => 
 	},
 
 	'no wrap' => {
-		message => q|Tekstterugloop|,
-		lastUpdated => 1156405035
+		message => q||,
+		lastUpdated => 
 	},
 
 	'copy' => {
-		message => q|Kopieer|,
-		lastUpdated => 1156403576
+		message => q|Kopieren|,
+		lastUpdated => 1203625689
 	},
 
 	'redo' => {
-		message => q|Opnieuw uitvoeren|,
-		lastUpdated => 1156405378
+		message => q||,
+		lastUpdated => 
 	},
 
 	'unlink' => {
-		message => q|Link ongedaan maken|,
-		lastUpdated => 1156406013
+		message => q||,
+		lastUpdated => 
 	},
 
 	'strikethrough' => {
-		message => q|Doorstrepen|,
-		lastUpdated => 1156405849
+		message => q||,
+		lastUpdated => 
 	},
 
 	'row 1' => {
-		message => q|Rij 1|,
-		lastUpdated => 1156405704
+		message => q||,
+		lastUpdated => 
 	},
 
 	'sup' => {
-		message => q|Verhogen|,
-		lastUpdated => 1156405884
+		message => q||,
+		lastUpdated => 
 	},
 
 	'cleanup' => {
-		message => q|Code opruimen|,
-		lastUpdated => 1156403561
+		message => q|Code opschonen|,
+		lastUpdated => 1203625596
 	},
 
 	'use br' => {
-		message => q|Gebruik <br /> in plaats van <p> bij een enter?|,
-		lastUpdated => 1156406038
+		message => q||,
+		lastUpdated => 
 	},
 
 	'collateral' => {
 		message => q|WebGUI Macro|,
-		lastUpdated => 1156403570
+		lastUpdated => 1203625675
 	},
 
 	'undo' => {
-		message => q|Ongedaan maken|,
-		lastUpdated => 1156406004
+		message => q||,
+		lastUpdated => 
 	},
 
 	'flash' => {
-		message => q|Flash film|,
-		lastUpdated => 1156405573
-	},
-
-	'justifyfull' => {
-		message => q|Uitvullen|,
-		lastUpdated => 1156404794
+		message => q||,
+		lastUpdated => 
 	},
 
 	'source editor height' => {
-		message => q|Editor hoogte html code|,
-		lastUpdated => 1156405791
+		message => q||,
+		lastUpdated => 
 	},
 
-	'advhr' => {
-		message => q|Uitgebreide horizontale lijn|,
-		lastUpdated => 1156403426
+	'justifyfull' => {
+		message => q||,
+		lastUpdated => 
 	},
 
 	'outdent' => {
-		message => q|Uitspringen|,
-		lastUpdated => 1156405065
+		message => q||,
+		lastUpdated => 
+	},
+
+	'advhr' => {
+		message => q|Geavanceerde Horizontale Lijn|,
+		lastUpdated => 1203625623
 	},
 
 	'justifycenter' => {
-		message => q|Centreren|,
-		lastUpdated => 1156404786
+		message => q||,
+		lastUpdated => 
 	},
 
 	'replace' => {
-		message => q|Zoeken en vervangen|,
-		lastUpdated => 1156405447
-	},
-
-	'hr' => {
-		message => q|Horizontale lijn|,
-		lastUpdated => 1156404473
+		message => q||,
+		lastUpdated => 
 	},
 
 	'no dictionaries' => {
-		message => q|Er zijn geen woordenboeken gedfinieerd. Zolang er nog geen woordenboek is ingesteld kan spellingscontrole  niet worden gebruikt.|,
-		lastUpdated => 1166199676
+		message => q||,
+		lastUpdated => 
 	},
 
-	'preview' => {
-		message => q|Voorbeeldweergave|,
-		lastUpdated => 1156405321
+	'hr' => {
+		message => q||,
+		lastUpdated => 
 	},
 
 	'source editor width description' => {
-		message => q|De breedte van de ruimte in de Rich Editor waar de gebruiker de html code kan invoeren, gegeven in pixels.|,
-		lastUpdated => 1156405841
+		message => q||,
+		lastUpdated => 
 	},
 
-	'pagetree' => {
-		message => q|WebGUI pagina link|,
-		lastUpdated => 1156405087
-	},
-
-	'pasteword' => {
-		message => q|Plakken vanuit Microsoft Word|,
-		lastUpdated => 1156405197
-	},
-
-	'enable context menu' => {
-		message => q|Contextmenu activeren.|,
-		lastUpdated => 1155914580
+	'preview' => {
+		message => q||,
+		lastUpdated => 
 	},
 
 	'charmap' => {
-		message => q|Speciaal karakter|,
-		lastUpdated => 1156403553
+		message => q|<p>Speciaal teken</p>|,
+		lastUpdated => 1203625588
+	},
+
+	'enable context menu' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'pasteword' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'pagetree' => {
+		message => q||,
+		lastUpdated => 
 	},
 
 	'inserttime' => {
-		message => q|Tijd invoegen|,
-		lastUpdated => 1156404612
+		message => q||,
+		lastUpdated => 
 	},
 
 	'source editor height description' => {
-		message => q|De hoogte van het veld van de Rich Editor waar de gebruiker de html code kan invoeren, gegeven in pixels.|,
-		lastUpdated => 1156405783
+		message => q||,
+		lastUpdated => 
 	},
 
 	'editor height' => {
-		message => q|Editor hoogte|,
-		lastUpdated => 1156403728
+		message => q||,
+		lastUpdated => 
 	},
 
 	'css file' => {
-		message => q|CSS bestand|,
-		lastUpdated => 1156403584
+		message => q|CSS Bestand|,
+		lastUpdated => 1203625696
 	},
 
 	'remove line breaks description' => {
-		message => q|Deze functie verwijdert enters van gegenereerde HTML.|,
-		lastUpdated => 1156405426
+		message => q||,
+		lastUpdated => 
 	},
 
 	'fontsizeselect' => {
-		message => q|Lettergrootte|,
-		lastUpdated => 1156404119
+		message => q||,
+		lastUpdated => 
 	},
 
 	'cut' => {
 		message => q|Knippen|,
-		lastUpdated => 1156178109
-	},
-
-	'toolbar location' => {
-		message => q|Werkbalk lokatie|,
-		lastUpdated => 1156405943
+		lastUpdated => 1203625711
 	},
 
 	'no wrap description' => {
-		message => q|Deze functie voorkomt dat zinnen automatisch op een nieuwe regel verschijnen in de editor.|,
-		lastUpdated => 1156405023
+		message => q||,
+		lastUpdated => 
+	},
+
+	'toolbar location' => {
+		message => q||,
+		lastUpdated => 
 	},
 
 	'source editor width' => {
-		message => q|Editor breedte html code|,
-		lastUpdated => 1156405806
+		message => q||,
+		lastUpdated => 
 	},
 
 	'help' => {
-		message => q|Helpfunctie|,
-		lastUpdated => 1156404452
+		message => q||,
+		lastUpdated => 
 	},
 
 	'disable rich edit description' => {
-		message => q|Met deze instelling schakelt u de rich editor uit voor de gehele site.|,
-		lastUpdated => 1156403721
+		message => q||,
+		lastUpdated => 
 	},
 
 	'preformatted' => {
-		message => q|Witruimtes behouden?|,
-		lastUpdated => 1156405311
-	},
-
-	'link' => {
-		message => q|Link toevoegen|,
-		lastUpdated => 1156404847
+		message => q||,
+		lastUpdated => 
 	},
 
 	'fontselect' => {
-		message => q|Lettertype|,
-		lastUpdated => 1156404111
+		message => q||,
+		lastUpdated => 
+	},
+
+	'link' => {
+		message => q||,
+		lastUpdated => 
 	},
 
 	'emotions' => {
-		message => q|Smileys|,
-		lastUpdated => 1156404081
+		message => q||,
+		lastUpdated => 
 	},
 
 	'zoom' => {
-		message => q|Inzoomen (alleen IE)|,
-		lastUpdated => 1156406208
+		message => q||,
+		lastUpdated => 
 	},
 
 	'toolbar location description' => {
-		message => q|Geef aan of de knoppenbalken boven of onder de editor geplaatst moet worden.|,
-		lastUpdated => 1170690801
+		message => q||,
+		lastUpdated => 
 	},
 
 	'sub' => {
-		message => q|Verlagen|,
-		lastUpdated => 1156405878
+		message => q||,
+		lastUpdated => 
 	},
 
 	'button' => {
 		message => q|Knop|,
-		lastUpdated => 1156405687
+		lastUpdated => 1203625574
 	},
 
 	'fullscreen' => {
-		message => q|Volledig scherm|,
-		lastUpdated => 1156404158
-	},
-
-	'insertdate' => {
-		message => q|Datum invoegen|,
-		lastUpdated => 1156404604
+		message => q||,
+		lastUpdated => 
 	},
 
 	'directionality description' => {
-		message => q|Met deze functie kunt u instellen of de taal van links naar rechts of van rechts naar links is.|,
-		lastUpdated => 1156403687
+		message => q||,
+		lastUpdated => 
+	},
+
+	'insertdate' => {
+		message => q||,
+		lastUpdated => 
 	},
 
 };

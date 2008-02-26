@@ -81,6 +81,11 @@ our $I18N = {
 		lastUpdated => 1201188253
 	},
 
+	'template listFilesForUser albums files' => {
+		message => q|bestanden|,
+		lastUpdated => 1203437623
+	},
+
 	'templateIdDeleteAlbum label' => {
 		message => q|Sjabloon voor het verwijderen van albums|,
 		lastUpdated => 1201192473
@@ -211,6 +216,11 @@ our $I18N = {
 		lastUpdated => 1201191641
 	},
 
+	'template galleryalbum url' => {
+		message => q|Bekijk album|,
+		lastUpdated => 1203437616
+	},
+
 	'imageThumbnailSize description' => {
 		message => q|De grootte van miniaturen van afbeeldingen in de galerie. Standaard komt deze op de grootte die gedefinieerd is bij de instellingen van de site.|,
 		lastUpdated => 1201192956
@@ -271,6 +281,11 @@ our $I18N = {
 		lastUpdated => 1201191702
 	},
 
+	'template url_listFilesForCurrentUser' => {
+		message => q|Mijn Galerie|,
+		lastUpdated => 1203437710
+	},
+
 	'helpvar user_albums' => {
 		message => q|Dit is de loop door de albums van de gebruiker. Alle albums van de gebruiker worden meegenomen.|,
 		lastUpdated => 1201270532
@@ -289,6 +304,11 @@ our $I18N = {
 	'helpvar searchForm_keywords' => {
 		message => q|Zoek op trefwoord|,
 		lastUpdated => 1201269868
+	},
+
+	'template url_search' => {
+		message => q|Geavanceerd zoeken|,
+		lastUpdated => 1203437671
 	},
 
 	'helpvar url_listAlbums' => {
@@ -441,6 +461,11 @@ our $I18N = {
 		lastUpdated => 1201705660
 	},
 
+	'template url_addAlbum' => {
+		message => q|Voeg een Album toe.|,
+		lastUpdated => 1204031025
+	},
+
 	'templateIdViewThumbnails description' => {
 		message => q|Toon alle afbeeldingen in een album als hun miniatuur.|,
 		lastUpdated => 1201190467
@@ -506,6 +531,11 @@ our $I18N = {
 		lastUpdated => 1201269931
 	},
 
+	'template listFilesForUser albums title' => {
+		message => q|Albums|,
+		lastUpdated => 1203437704
+	},
+
 	'template search title' => {
 		message => q|Uitgebreid zoeken|,
 		lastUpdated => 1201705693
@@ -564,6 +594,11 @@ our $I18N = {
 	'helpvar url_listAlbumsRss' => {
 		message => q|URL naar de RSS feed van de lijst met albums.|,
 		lastUpdated => 1201270323
+	},
+
+	'template listFilesForUser title' => {
+		message => q|%s's Galerie|,
+		lastUpdated => 1203437694
 	},
 
 	'groupIdModerator label' => {

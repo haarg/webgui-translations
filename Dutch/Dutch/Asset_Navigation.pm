@@ -349,7 +349,7 @@ our $I18N = {
 
 	'currentPage.synopsis' => {
 		message => q|De samenvatting van de huidige pagina.|,
-		lastUpdated => 1166195498
+		lastUpdated => 1203437774
 	},
 
 	'page.rank' => {
@@ -484,7 +484,7 @@ our $I18N = {
 
 	'page.synopsis' => {
 		message => q|De samenvatting van deze pagina|,
-		lastUpdated => 1150729125
+		lastUpdated => 1203437763
 	},
 
 	'currentPage.hasViewableChildren' => {
@@ -514,7 +514,7 @@ our $I18N = {
 
 	'page.parent.synopsis' => {
 		message => q|De samenvatting van de moeder van deze pagina.|,
-		lastUpdated => 1151069896
+		lastUpdated => 1203437770
 	},
 
 	'page.isContainer' => {
