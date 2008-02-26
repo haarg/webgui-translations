@@ -73,8 +73,8 @@ our $I18N = {
 	},
 
 	'controls' => {
-		message => q|These are the icons and URLs that allow editing, cutting, copying, deleting and reordering the Asset.|,
-		lastUpdated => 1148840768
+		message => q|To są ikony i adresy URL pozwalające edytować, wycinać, copiować, us&oacute;wać i zmieniać kolejność Zasob&oacute;w/Assets.|,
+		lastUpdated => 1204058999
 	},
 
 	'encrypt page description' => {
@@ -114,7 +114,7 @@ our $I18N = {
 
 	'delete' => {
 		message => q|Usuń|,
-		lastUpdated => 0
+		lastUpdated => 1204059652
 	},
 
 	'title' => {
@@ -133,10 +133,8 @@ our $I18N = {
 	},
 
 	'could not open path' => {
-		message => q|
-Couldn't open %-s because %-s <br />
-|,
-		lastUpdated => 1129436544
+		message => q|Nie można otworzyć %-s ponieważ %-s <br /> |,
+		lastUpdated => 1204059267
 	},
 
 	'Edit Metadata' => {
@@ -150,8 +148,8 @@ Couldn't open %-s because %-s <br />
 	},
 
 	'default value' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Domyślna wartość(ści)|,
+		lastUpdated => 1204059505
 	},
 
 	'Depth' => {
@@ -175,8 +173,8 @@ Couldn't open %-s because %-s <br />
 	},
 
 	'create package' => {
-		message => q|Make available as package?|,
-		lastUpdated => 1106762073
+		message => q|Uczynić dostępne jako pakiet?|,
+		lastUpdated => 1204059417
 	},
 
 	'locked' => {
@@ -200,8 +198,8 @@ Couldn't open %-s because %-s <br />
 	},
 
 	'assets' => {
-		message => q|Zasoby|,
-		lastUpdated => 1099344172
+		message => q|Zasoby/Assets|,
+		lastUpdated => 1204058591
 	},
 
 	'886' => {
@@ -284,7 +282,7 @@ Couldn't open %-s because %-s <br />
 
 	'copy' => {
 		message => q|Kopiuj|,
-		lastUpdated => 0
+		lastUpdated => 1204059010
 	},
 
 	'synopsis' => {
@@ -318,8 +316,8 @@ Couldn't open %-s because %-s <br />
 	},
 
 	'create shortcut' => {
-		message => q|Utwórz skrót|,
-		lastUpdated => 0
+		message => q|Utw&oacute;rz skr&oacute;t|,
+		lastUpdated => 1204059441
 	},
 
 	'Extras URL' => {
@@ -344,7 +342,7 @@ Couldn't open %-s because %-s <br />
 
 	'change url' => {
 		message => q|Zmiana URL|,
-		lastUpdated => 0
+		lastUpdated => 1204058676
 	},
 
 	'purge revision after help' => {
@@ -353,8 +351,8 @@ Couldn't open %-s because %-s <br />
 	},
 
 	'committed versions' => {
-		message => q|Committed Versions|,
-		lastUpdated => 0
+		message => q|Wersje Zatwierdzone|,
+		lastUpdated => 1204058739
 	},
 
 	'895' => {
@@ -373,8 +371,8 @@ Couldn't open %-s because %-s <br />
 	},
 
 	'asset list title' => {
-		message => q|Asset, List of Available|,
-		lastUpdated => 1112220921
+		message => q|Zas&oacute;b/Asset, Lista dostępu|,
+		lastUpdated => 1204057692
 	},
 
 	'type' => {
@@ -413,8 +411,8 @@ Couldn't open %-s because %-s <br />
 	},
 
 	'assetSize' => {
-		message => q|How big this asset is in bytes.  The sum of all database fields and attachments.|,
-		lastUpdated => 1160773957
+		message => q|Jak duży w bajtach jest ten zas&oacute;b/asset.  Suma wszystkich p&oacute;l bazy danych i załącznik&oacute;w.|,
+		lastUpdated => 1204058573
 	},
 
 	'status' => {
@@ -433,8 +431,8 @@ Couldn't open %-s because %-s <br />
 	},
 
 	'asset template asset var title' => {
-		message => q|Asset Template Asset Variables|,
-		lastUpdated => 1100463645
+		message => q|Szablon Zasobu/Asset Zmienne Zasobu/Asset|,
+		lastUpdated => 1204057845
 	},
 
 	'1082' => {
@@ -444,7 +442,7 @@ Couldn't open %-s because %-s <br />
 
 	'cut' => {
 		message => q|Wytnij|,
-		lastUpdated => 0
+		lastUpdated => 1204059477
 	},
 
 	'487' => {
@@ -468,13 +466,13 @@ Couldn't open %-s because %-s <br />
 	},
 
 	'could not rmdir' => {
-		message => q|Could not remove directory at %s: %s|,
-		lastUpdated => 1160773957
+		message => q|Nie można usunąć katalogu %s: %s|,
+		lastUpdated => 1204059300
 	},
 
 	'default value description' => {
-		message => q||,
-		lastUpdated => 
+		message => q|<p>Domyślna wartość dla tego pola. W przypadku wielu domyślnych wartości, jak ma to miejsce w Check Box List, należy wprowadzić jedną wartość w linii.</p>|,
+		lastUpdated => 1204059603
 	},
 
 	'Delete Metadata field' => {
@@ -504,7 +502,7 @@ Couldn't open %-s because %-s <br />
 
 	'confirm change' => {
 		message => q|Jeteś pewny?|,
-		lastUpdated => 0
+		lastUpdated => 1204058798
 	},
 
 	'extra head tags description' => {
@@ -568,8 +566,8 @@ Couldn't open %-s because %-s <br />
 	},
 
 	'could not unlink' => {
-		message => q|Could not unlink %s: %s|,
-		lastUpdated => 1160773957
+		message => q|Nie można odłączyć link %s: %s|,
+		lastUpdated => 1204059363
 	},
 
 	'url' => {
@@ -599,12 +597,12 @@ Couldn't open %-s because %-s <br />
 
 	'change' => {
 		message => q|Zmienić rekurencyjnie?|,
-		lastUpdated => 1099344172
+		lastUpdated => 1204058662
 	},
 
 	'current url' => {
-		message => q|Current URL|,
-		lastUpdated => 0
+		message => q|Aktualny URL|,
+		lastUpdated => 1204059463
 	},
 
 	'108' => {
@@ -613,16 +611,13 @@ Couldn't open %-s because %-s <br />
 	},
 
 	'could not create path' => {
-		message => q|
-Couldn't create %-s because %-s <br />
-This most likely means that you have a page with the same name as folder that you're trying to create.<br />
-|,
-		lastUpdated => 1129436410
+		message => q|Nie można utworzyć %-s ponieważ %-s <br /> Oznacza to prawdopodobnie, że posiadasz stronę z tą samą nazwą co folder kt&oacute;ry pr&oacute;bujesz utworzyć.<br /> |,
+		lastUpdated => 1204059164
 	},
 
 	'could not create' => {
-		message => q|Could not create %s: %s|,
-		lastUpdated => 1160773957
+		message => q|Nie można utworzyć %s: %s|,
+		lastUpdated => 1204059044
 	},
 
 	'purge trash after' => {
@@ -713,8 +708,8 @@ throughout the site.  Check yes if you want this Asset to be available as a pack
 	},
 
 	'confirm change url message' => {
-		message => q|Ustawienie na 'Yes' potwierdzi, że zamierzasz permanentnie zmienić ten adres URL, a co za tym idzie usunąć wszystkie stare rewizje tego zasobu.|,
-		lastUpdated => 1165449241
+		message => q|Ustawienie na 'Tak' potwierdzi, że zamierzasz permanentnie zmienić ten adres URL, a co za tym idzie usunąć wszystkie stare rewizje tego zasobu.|,
+		lastUpdated => 1204058827
 	},
 
 	'rootUrl form label' => {
@@ -783,8 +778,8 @@ throughout the site.  Check yes if you want this Asset to be available as a pack
 	},
 
 	'asset template title' => {
-		message => q|Asset Template Variables|,
-		lastUpdated => 1100463645
+		message => q|Zmienne Szablonu Zasobu/Asset|,
+		lastUpdated => 1204058387
 	},
 
 	'demote help' => {
@@ -843,13 +838,13 @@ throughout the site.  Check yes if you want this Asset to be available as a pack
 	},
 
 	'could not symlink' => {
-		message => q|Could not symlink %s to %s: %s|,
-		lastUpdated => 1160773957
+		message => q|Nie można podlinkować %s do %s: %s|,
+		lastUpdated => 1204059326
 	},
 
 	'content profiling' => {
-		message => q|Content Profiling|,
-		lastUpdated => 1089039511
+		message => q|Dostosowanie Kontentu|,
+		lastUpdated => 1204058910
 	},
 
 	'965' => {
@@ -868,8 +863,8 @@ throughout the site.  Check yes if you want this Asset to be available as a pack
 	},
 
 	'bad user privileges' => {
-		message => q|User has no privileges to view this page.<br />|,
-		lastUpdated => 1129420080
+		message => q|Użytkownik nie posiada uprawnień dla wyświetlenia tej strony.|,
+		lastUpdated => 1204058649
 	},
 
 	'directory index description' => {
@@ -985,7 +980,7 @@ be appended to it.</p>|,
 
 	'change url help' => {
 		message => q|Aktywowanie zmiany URL dla tego zasobu.|,
-		lastUpdated => 0
+		lastUpdated => 1204058691
 	},
 
 	'purge revision prompt' => {
