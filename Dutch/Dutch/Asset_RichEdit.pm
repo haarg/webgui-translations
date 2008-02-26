@@ -7,23 +7,23 @@ our $I18N = {
 	},
 
 	'row 2' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Rij 2|,
+		lastUpdated => 1204037484
 	},
 
 	'styleselect' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Stijl toepassen|,
+		lastUpdated => 1204037311
 	},
 
 	'underline' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Onderstrepen|,
+		lastUpdated => 1204036582
 	},
 
 	'print' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Afdrukken|,
+		lastUpdated => 1204037640
 	},
 
 	'italic' => {
@@ -32,8 +32,8 @@ our $I18N = {
 	},
 
 	'save' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Opslaan / versturen|,
+		lastUpdated => 1204037468
 	},
 
 	'anchor' => {
@@ -57,8 +57,8 @@ our $I18N = {
 	},
 
 	'toolbar buttons' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Taakbalk knoppen|,
+		lastUpdated => 1204037258
 	},
 
 	'elements description' => {
@@ -72,18 +72,18 @@ our $I18N = {
 	},
 
 	'tablecontrols' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Tabel bewerkingen|,
+		lastUpdated => 1204037272
 	},
 
 	'right to left' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Rechts naar links|,
+		lastUpdated => 1204037502
 	},
 
 	'row 3' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Rij 3|,
+		lastUpdated => 1204037476
 	},
 
 	'indent' => {
@@ -97,18 +97,18 @@ our $I18N = {
 	},
 
 	'remove line breaks' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Regelovergangen uit HTML verwijderen?|,
+		lastUpdated => 1204037618
 	},
 
 	'pastetext' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Plakken als gewone tekst|,
+		lastUpdated => 1204038040
 	},
 
 	'top' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Bovenkant|,
+		lastUpdated => 1204036829
 	},
 
 	'directionality' => {
@@ -127,13 +127,13 @@ our $I18N = {
 	},
 
 	'use br description' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Gebruik break labels &lt;BR&gt; in plaats van paragraaf labels &lt;P&gt; wanneer een nieuwe regel wordt gemaakt met een enter.|,
+		lastUpdated => 1204036479
 	},
 
 	'preformatted description' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Normaal gesproken worden meerdere spaties, tabs en regelovergangen in HTML gezien als enkele spaties. Als deze optie op Ja wordt gezet worden deze tekens allemaal afgebeeld.|,
+		lastUpdated => 1204037794
 	},
 
 	'backcolor' => {
@@ -147,8 +147,8 @@ our $I18N = {
 	},
 
 	'using rich edit description' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Vraag de gebruiker of deze de Rich editor wilt gebruiken, elke keer dat dit formulier geopend wordt.|,
+		lastUpdated => 1204036362
 	},
 
 	'justifyright' => {
@@ -157,18 +157,18 @@ our $I18N = {
 	},
 
 	'rich edit edit config' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Bewerk de configuratie van de Rich editor|,
+		lastUpdated => 1204037525
 	},
 
 	'visualaid' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Zet visuele ondersteuning bij tabellen aan/uit|,
+		lastUpdated => 1204036281
 	},
 
 	'numlist' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Genummerde lijst|,
+		lastUpdated => 1204038119
 	},
 
 	'bold' => {
@@ -182,13 +182,13 @@ our $I18N = {
 	},
 
 	'using rich edit' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Gebruiker vragen over gebruik, Rich edit?|,
+		lastUpdated => 1204036383
 	},
 
 	'bottom' => {
-		message => q|Voet|,
-		lastUpdated => 1203625567
+		message => q|Onderkant|,
+		lastUpdated => 1204037005
 	},
 
 	'editor height description' => {
@@ -202,18 +202,18 @@ our $I18N = {
 	},
 
 	'toolbar buttons description' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Laat zien welke taakbalk knoppen gebruikt worden in welke taakbalk van de editor. Om een taakbalk te verwijderen, kontvink alle knoppen in die taakbalk kolom. Let erop dat andere velden ook knoppen kunnen toevoegen, zoals het context menu.|,
+		lastUpdated => 1204037246
 	},
 
 	'enable context menu description' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Voegt het context menu toe aan de eerste rij van de taakbalk|,
+		lastUpdated => 1204037089
 	},
 
 	'removeformat' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Verwijder bewerkingen|,
+		lastUpdated => 1204037560
 	},
 
 	'iespell' => {
@@ -227,8 +227,8 @@ our $I18N = {
 	},
 
 	'search' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Zoeken|,
+		lastUpdated => 1204037452
 	},
 
 	'forecolor' => {
@@ -237,8 +237,8 @@ our $I18N = {
 	},
 
 	'paste' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Plakken|,
+		lastUpdated => 1204038048
 	},
 
 	'assetName' => {
@@ -257,8 +257,8 @@ our $I18N = {
 	},
 
 	'no wrap' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Tekst in editor niet afbreken?|,
+		lastUpdated => 1204038554
 	},
 
 	'copy' => {
@@ -267,28 +267,28 @@ our $I18N = {
 	},
 
 	'redo' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Opnieuw|,
+		lastUpdated => 1204037630
 	},
 
 	'unlink' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Link verwijderen|,
+		lastUpdated => 1204036564
 	},
 
 	'strikethrough' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Doorstrepen|,
+		lastUpdated => 1204037323
 	},
 
 	'row 1' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Rij 1|,
+		lastUpdated => 1204037492
 	},
 
 	'sup' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Bovenschrift|,
+		lastUpdated => 1204037283
 	},
 
 	'cleanup' => {
@@ -297,8 +297,8 @@ our $I18N = {
 	},
 
 	'use br' => {
-		message => q||,
-		lastUpdated => 
+		message => q|&lt;br &frasl;&gt; gebruiken bij 'Enter' in plaats van &lt;p&gt;?|,
+		lastUpdated => 1204036548
 	},
 
 	'collateral' => {
@@ -307,8 +307,8 @@ our $I18N = {
 	},
 
 	'undo' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Ongedaan maken|,
+		lastUpdated => 1204036573
 	},
 
 	'flash' => {
@@ -317,8 +317,8 @@ our $I18N = {
 	},
 
 	'source editor height' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Hoogte code editor|,
+		lastUpdated => 1204037445
 	},
 
 	'justifyfull' => {
@@ -327,8 +327,8 @@ our $I18N = {
 	},
 
 	'outdent' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Uitspringen|,
+		lastUpdated => 1204038104
 	},
 
 	'advhr' => {
@@ -342,8 +342,8 @@ our $I18N = {
 	},
 
 	'replace' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Zoek en vervang|,
+		lastUpdated => 1204037541
 	},
 
 	'no dictionaries' => {
@@ -357,13 +357,13 @@ our $I18N = {
 	},
 
 	'source editor width description' => {
-		message => q||,
-		lastUpdated => 
+		message => q|De breedte (in pixels) van het vlak in de rich editor waar de gebruiker code kan plaatsen.|,
+		lastUpdated => 1204037368
 	},
 
 	'preview' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Afdrukvoorbeeld|,
+		lastUpdated => 1204037704
 	},
 
 	'charmap' => {
@@ -372,18 +372,18 @@ our $I18N = {
 	},
 
 	'enable context menu' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Context menu activeren|,
+		lastUpdated => 1204037058
 	},
 
 	'pasteword' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Plakken vanuit Word|,
+		lastUpdated => 1204038025
 	},
 
 	'pagetree' => {
-		message => q||,
-		lastUpdated => 
+		message => q|WebGUI paginaboom link|,
+		lastUpdated => 1204038062
 	},
 
 	'inserttime' => {
@@ -392,8 +392,8 @@ our $I18N = {
 	},
 
 	'source editor height description' => {
-		message => q||,
-		lastUpdated => 
+		message => q|De hoogte (in pixels) van het vlak in de rich editor waar de gebruiker code in kan voeren.|,
+		lastUpdated => 1204037430
 	},
 
 	'editor height' => {
@@ -407,8 +407,8 @@ our $I18N = {
 	},
 
 	'remove line breaks description' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Verwijdert regelovergangen uit de gegenereerde HTML.|,
+		lastUpdated => 1204037598
 	},
 
 	'fontsizeselect' => {
@@ -422,18 +422,18 @@ our $I18N = {
 	},
 
 	'no wrap description' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Voorkomt woord afbreken in de editor|,
+		lastUpdated => 1204038534
 	},
 
 	'toolbar location' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Locatie taakbalk|,
+		lastUpdated => 1204037116
 	},
 
 	'source editor width' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Breedte code editor|,
+		lastUpdated => 1204037393
 	},
 
 	'help' => {
@@ -447,8 +447,8 @@ our $I18N = {
 	},
 
 	'preformatted' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Witruimtes behouden?|,
+		lastUpdated => 1204038012
 	},
 
 	'fontselect' => {
@@ -462,8 +462,8 @@ our $I18N = {
 	},
 
 	'emotions' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Smileys|,
+		lastUpdated => 1204037031
 	},
 
 	'zoom' => {
@@ -472,13 +472,13 @@ our $I18N = {
 	},
 
 	'toolbar location description' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Stel in waar de taakbalken moeten staan, aan de boven -of onderkant.|,
+		lastUpdated => 1204036993
 	},
 
 	'sub' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Onderschrift|,
+		lastUpdated => 1204037292
 	},
 
 	'button' => {
