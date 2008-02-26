@@ -2,8 +2,8 @@ package WebGUI::i18n::Dutch::Asset_RichEdit;
 
 our $I18N = {
 	'disable rich edit' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Deze Rich editor uitschakelen?|,
+		lastUpdated => 1204032842
 	},
 
 	'row 2' => {
@@ -62,13 +62,13 @@ our $I18N = {
 	},
 
 	'elements description' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Een lijst van HTML labels en bijbehorende attributen die de rich editor accepteert. Alle andere worden verwijderd. Om alles te accpeteren kan dit op *[*] gezet worden.|,
+		lastUpdated => 1204035235
 	},
 
 	'elements' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Geldige elementen|,
+		lastUpdated => 1204035156
 	},
 
 	'tablecontrols' => {
@@ -112,13 +112,13 @@ our $I18N = {
 	},
 
 	'directionality' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Tekst richting|,
+		lastUpdated => 1204031578
 	},
 
 	'css file description' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Specificeert een CSS bestand, dat gebruikt wordt om de inhoud te layouten. Als er geen bestand is gespecificeerd, wordt een standaard gebruikt.|,
+		lastUpdated => 1204031565
 	},
 
 	'insertImage' => {
@@ -192,8 +192,8 @@ our $I18N = {
 	},
 
 	'editor height description' => {
-		message => q||,
-		lastUpdated => 
+		message => q|De hoogte in pixels van de gehele Rich editor, inclusief bewerkings knoppen.|,
+		lastUpdated => 1204033024
 	},
 
 	'image' => {
@@ -247,13 +247,13 @@ our $I18N = {
 	},
 
 	'editor width description' => {
-		message => q||,
-		lastUpdated => 
+		message => q|De breedte in pixels van de gehele editor, inclusief bewerk knoppen.|,
+		lastUpdated => 1204035144
 	},
 
 	'editor width' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Breedte editor|,
+		lastUpdated => 1204035104
 	},
 
 	'no wrap' => {
@@ -397,8 +397,8 @@ our $I18N = {
 	},
 
 	'editor height' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Hoogte editor|,
+		lastUpdated => 1204032953
 	},
 
 	'css file' => {
@@ -442,8 +442,8 @@ our $I18N = {
 	},
 
 	'disable rich edit description' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Dit is een hoofdschakelaar voor het deactiveren van de Rich editor en zal de Rich edit over de hele site uitschakelen zonder tussenkomst van gebrui.kers|,
+		lastUpdated => 1204032909
 	},
 
 	'preformatted' => {
@@ -467,8 +467,8 @@ our $I18N = {
 	},
 
 	'zoom' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Vergroten (alleen IE)|,
+		lastUpdated => 1204031489
 	},
 
 	'toolbar location description' => {
@@ -492,8 +492,8 @@ our $I18N = {
 	},
 
 	'directionality description' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Deze functie stelt u in staat talen die van links naar rechts danwel van rechts naar links lopen goed weer te geven.|,
+		lastUpdated => 1204032821
 	},
 
 	'insertdate' => {
