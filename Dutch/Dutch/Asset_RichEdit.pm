@@ -27,8 +27,8 @@ our $I18N = {
 	},
 
 	'italic' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Schuin|,
+		lastUpdated => 1204035946
 	},
 
 	'save' => {
@@ -47,13 +47,13 @@ our $I18N = {
 	},
 
 	'formatselect' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Pas format toe|,
+		lastUpdated => 1204035600
 	},
 
 	'left to right' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Links naar rechts|,
+		lastUpdated => 1204036006
 	},
 
 	'toolbar buttons' => {
@@ -87,8 +87,8 @@ our $I18N = {
 	},
 
 	'indent' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Inspringen|,
+		lastUpdated => 1204035901
 	},
 
 	'bullist' => {
@@ -122,8 +122,8 @@ our $I18N = {
 	},
 
 	'insertImage' => {
-		message => q||,
-		lastUpdated => 
+		message => q|WebGUI afbeelding|,
+		lastUpdated => 1204035912
 	},
 
 	'use br description' => {
@@ -142,8 +142,8 @@ our $I18N = {
 	},
 
 	'justifyleft' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Links uitgelijnd|,
+		lastUpdated => 1204035984
 	},
 
 	'using rich edit description' => {
@@ -152,8 +152,8 @@ our $I18N = {
 	},
 
 	'justifyright' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Rechts uitgelijnd|,
+		lastUpdated => 1204035994
 	},
 
 	'rich edit edit config' => {
@@ -197,8 +197,8 @@ our $I18N = {
 	},
 
 	'image' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Afbeelding|,
+		lastUpdated => 1204035892
 	},
 
 	'toolbar buttons description' => {
@@ -217,8 +217,8 @@ our $I18N = {
 	},
 
 	'iespell' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Spellingscontrole (alleen IE)|,
+		lastUpdated => 1204035882
 	},
 
 	'elements subtext' => {
@@ -232,8 +232,8 @@ our $I18N = {
 	},
 
 	'forecolor' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Voorgrond kleur|,
+		lastUpdated => 1204035563
 	},
 
 	'paste' => {
@@ -312,8 +312,8 @@ our $I18N = {
 	},
 
 	'flash' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Flash film|,
+		lastUpdated => 1204035526
 	},
 
 	'source editor height' => {
@@ -322,8 +322,8 @@ our $I18N = {
 	},
 
 	'justifyfull' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Volledig uitgelijnd|,
+		lastUpdated => 1204035973
 	},
 
 	'outdent' => {
@@ -337,8 +337,8 @@ our $I18N = {
 	},
 
 	'justifycenter' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Gecentreerd|,
+		lastUpdated => 1204035955
 	},
 
 	'replace' => {
@@ -347,13 +347,13 @@ our $I18N = {
 	},
 
 	'no dictionaries' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Er zijn nog geen woordenboeken ingesteld. Spellingscontrole kan niet worden aangezet voordat er minimaal 1 woordenboek is ingesteld.|,
+		lastUpdated => 1204036182
 	},
 
 	'hr' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Voeg horizontale lijn toe|,
+		lastUpdated => 1204035867
 	},
 
 	'source editor width description' => {
@@ -387,8 +387,8 @@ our $I18N = {
 	},
 
 	'inserttime' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Voeg tijd in|,
+		lastUpdated => 1204035933
 	},
 
 	'source editor height description' => {
@@ -412,8 +412,8 @@ our $I18N = {
 	},
 
 	'fontsizeselect' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Lettergrootte|,
+		lastUpdated => 1204035552
 	},
 
 	'cut' => {
@@ -437,8 +437,8 @@ our $I18N = {
 	},
 
 	'help' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Help|,
+		lastUpdated => 1204035846
 	},
 
 	'disable rich edit description' => {
@@ -452,13 +452,13 @@ our $I18N = {
 	},
 
 	'fontselect' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Lettertype|,
+		lastUpdated => 1204035541
 	},
 
 	'link' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Creeer hyperlink|,
+		lastUpdated => 1204036100
 	},
 
 	'emotions' => {
@@ -487,8 +487,8 @@ our $I18N = {
 	},
 
 	'fullscreen' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Volledig scherm|,
+		lastUpdated => 1204035837
 	},
 
 	'directionality description' => {
@@ -497,8 +497,8 @@ our $I18N = {
 	},
 
 	'insertdate' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Voeg datum in|,
+		lastUpdated => 1204035923
 	},
 
 };
