@@ -13,7 +13,7 @@ our $I18N = {
 
 	'linkTitle' => {
 		message => q|Tytuł linku dołączonego do artykułu.|,
-		lastUpdated => 1148960553
+		lastUpdated => 1204241199
 	},
 
 	'description.first.10words' => {
@@ -38,7 +38,7 @@ our $I18N = {
 
 	'description.first.paragraph' => {
 		message => q|Pierwszy paragraf opisu.|,
-		lastUpdated => 1148960553
+		lastUpdated => 1204241150
 	},
 
 	'description.full' => {
@@ -67,13 +67,13 @@ our $I18N = {
 	},
 
 	'description.first.4sentences' => {
-		message => q|Pierwsze cztery zdania z opisu. Można je wskazać poprzez liczenie odcinków tekstu - np. separowanych kropką.|,
-		lastUpdated => 1148960553
+		message => q|Pierwsze cztery zdania z opisu. Można je wskazać poprzez liczenie odcink&oacute;w tekstu - np. separowanych kropką.|,
+		lastUpdated => 1204241103
 	},
 
 	'iconUrl' => {
 		message => q|URL do ikonki tego pliku.|,
-		lastUpdated => 1148960553
+		lastUpdated => 1204241162
 	},
 
 	'description' => {
@@ -82,9 +82,8 @@ our $I18N = {
 	},
 
 	'link url description' => {
-		message => q|<p>Jeśli dodałeś tytuł linku, dodaj w tym miejscu właściwy URL.</p>
-<p><i>Example:</i> http://www.google.com</p>|,
-		lastUpdated => 1146508836
+		message => q|<p>Jeśli dodałeś tytuł linku, dodaj w tym miejscu właściwy URL.</p> <p><em>Example:</em> http://www.google.com</p>|,
+		lastUpdated => 1204241190
 	},
 
 	'new.template' => {
@@ -133,18 +132,18 @@ our $I18N = {
 	},
 
 	'description.first.50words' => {
-		message => q|Pierwsze 50 znaków opisu.|,
-		lastUpdated => 1148960553
+		message => q|Pierwsze 50 sł&oacute;w opisu. Słowa definiuje się jako znaki oddzielone białymi znakami. Dlatego też znaczniki HTML liczone są jako słowa.|,
+		lastUpdated => 1204241123
 	},
 
 	'description.first.75words' => {
-		message => q|Pierwsze 75 znaków opisu.|,
-		lastUpdated => 1148960553
+		message => q|Pierwsze 75 sł&oacute;w opisu. Słowa definiuje się jako znaki oddzielone białymi znakami. Dlatego też znaczniki HTML liczone są jako słowa.|,
+		lastUpdated => 1204241137
 	},
 
 	'linkURL' => {
 		message => q|URL linku dołączonego do artykułu.|,
-		lastUpdated => 1148960553
+		lastUpdated => 1204241207
 	},
 
 	'attachment.icon' => {
@@ -199,7 +198,7 @@ our $I18N = {
 
 	'filename' => {
 		message => q|Nazwa pliku.|,
-		lastUpdated => 1148960553
+		lastUpdated => 1204241156
 	},
 
 	'73' => {
@@ -219,7 +218,7 @@ our $I18N = {
 
 	'image.thumbnail' => {
 		message => q|URL do miniaturki załączonego obrazka.|,
-		lastUpdated => 1148960553
+		lastUpdated => 1204241170
 	},
 
 	'attachment.name' => {
@@ -228,9 +227,8 @@ our $I18N = {
 	},
 
 	'link title description' => {
-		message => q|<p>Jeśli chcesz dodać link do Artykułu, wprowadź tytuł linku w tym polu.</p>
-<p><i>Example:</i> Google</p>|,
-		lastUpdated => 1146514089
+		message => q|<p>Jeśli chcesz dodać link do Artykułu, wprowadź tytuł linku w tym polu.</p> <p><em>Example:</em> Google</p>|,
+		lastUpdated => 1204241182
 	},
 
 };

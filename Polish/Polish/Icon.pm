@@ -12,8 +12,8 @@ our $I18N = {
 	},
 
 	'Export help' => {
-		message => q||,
-		lastUpdated => 
+		message => q|<p>Jeśli zdefiniowano scieżkę do katalogu export w pliku konfiguracyjnym WebGUI dla tego serwisu, nowa pozycja menu będzie dodana do paska narzędziowego. Wybranie tej pozycji aktywuje Eksport tego Zasobu/Asset.</p>|,
+		lastUpdated => 1204242521
 	},
 
 	'Create Shortcut help' => {
