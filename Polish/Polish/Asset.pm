@@ -58,7 +58,7 @@ our $I18N = {
 
 	'view' => {
 		message => q|Pokaż|,
-		lastUpdated => 0
+		lastUpdated => 1204236187
 	},
 
 	'isHidden' => {
@@ -67,9 +67,8 @@ our $I18N = {
 	},
 
 	'export information' => {
-		message => q|
-<p>Exported %d pages in %d seconds.</p>|,
-		lastUpdated => 1129436684
+		message => q|<p>Wyeksportowano %d stron w %d sekund.</p>|,
+		lastUpdated => 1204235891
 	},
 
 	'controls' => {
@@ -78,8 +77,8 @@ our $I18N = {
 	},
 
 	'encrypt page description' => {
-		message => q|<p>Should the page containing this asset be served over SSL?</p>|,
-		lastUpdated => 1146629489
+		message => q|<p>Czy strona zawierająca ten zas&oacute;b/asset ma być szyfrowana w SSL?</p>|,
+		lastUpdated => 1204235720
 	},
 
 	'asset' => {
@@ -119,7 +118,7 @@ our $I18N = {
 
 	'title' => {
 		message => q|Tytuł zasobu|,
-		lastUpdated => 1160773957
+		lastUpdated => 1204236151
 	},
 
 	'revised by' => {
@@ -143,8 +142,8 @@ our $I18N = {
 	},
 
 	'extra head tags' => {
-		message => q|Extra &lt;head&gt; elements (tags)|,
-		lastUpdated => 1126381168
+		message => q|Ekstra elementy &lt;head&gt;&nbsp; (tags)|,
+		lastUpdated => 1204235935
 	},
 
 	'default value' => {
@@ -183,8 +182,8 @@ our $I18N = {
 	},
 
 	'with children' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Z Dziećmi|,
+		lastUpdated => 1204236321
 	},
 
 	'purge trash after help' => {
@@ -208,13 +207,13 @@ our $I18N = {
 	},
 
 	'view help' => {
-		message => q|Most Assets are viewed as part of a container Asset like a Page or Folder.  This option will allow you to view the Asset standalone.|,
-		lastUpdated => 0
+		message => q|Wiele Zasob&oacute;w/Assets pokazywanych jest jako część pojemnika - zasobu typu Strona lub Folder.&nbsp; Ta opcja pozwoli wyświetlić Zas&oacute;b samodzielnie.|,
+		lastUpdated => 1204236297
 	},
 
 	'deleteConfirm' => {
-		message => q|Are you certain you want to delete this Metadata property ?|,
-		lastUpdated => 1089039511
+		message => q|Czy jesteś pewny, że chcesz usunąć własność Metadata ?|,
+		lastUpdated => 1204234553
 	},
 
 	'make asset exportable description' => {
@@ -233,31 +232,8 @@ our $I18N = {
 	},
 
 	'edit branch url help' => {
-		message => q|<p>You can change the URL via two parts, the base URL (the left field) and the file url (the right field).  For the base URL, there are three options:</p>
-<div>
-<dl>
-<dt>Parent URL</dt>
-<dd>Start this URL with the URL of the parent.</dd>
-<dt>Specified Base</dt>
-<dd>Enter in a new base URL via the field that appears when Specified Base is selected.</dd>
-<dt>None</dt>
-<dd>Make all Assets have a "top-level" URL.</dd>
-</dl>
-</div>
-<p>There are also three options for the file URL:</p>
-<div>
-<dl>
-<dt>Menu Title</dt>
-<dd>The new URL will be based on the Asset's Menu Title field.</dd>
-<dt>Title</dt>
-<dd>The new URL will be based on the Asset's Title field.</dd>
-<dt>Current URL</dt>
-<dd>The new URL will be based on the Asset's present URL.</dd>
-</dl>
-</div>
-<p>New URLs will be passed through the makeUrlCompliant function that is specific to the default language for your site.</p>
-|,
-		lastUpdated => 0
+		message => q|<p>Adres URL możesz zmienić wykorzystując dwie sekcje: adres serwera (lewa sekcja) i ścieżka pliku (prawa sekcja). Dla sekcji adresu serwera dostępne są trzy opcje:</p><p>Adres URL rodzica</p><p>&nbsp;&nbsp;&nbsp; Startuje ten adres URL z adresem rodzica</p><p>Określony</p><p>&nbsp;&nbsp;&nbsp; Wprowadź nową bazę adresu w polu, kt&oacute;re pojawi się kiedy Specified Base zostanie wybrane.</p><p>Żaden</p><p>&nbsp;&nbsp;&nbsp; Wszystkie Zasoby/Asset mają mieć adres URL &quot;top-level&quot; .</p><p>&nbsp;</p><p>Dostępne są r&oacute;wnież trzy opcje dla adresu pliku:&nbsp; </p><p>Tytuł w menu</p><p>&nbsp;&nbsp;&nbsp; Nowy adres URL będzie bazował na polu tytułu dla menu zasobu&nbsp;</p><p> Title</p><p>&nbsp;&nbsp;&nbsp; Nowy adres URL będzie bazował na polu tytułu.</p><p>Aktualny adres URL</p><p>&nbsp;&nbsp;&nbsp;  Nowy adres URL będzie bazował na aktualnym adresie zasobu</p><p>&nbsp;</p><p>Nowe adresy URL będą przekazane przez funkcję makeUrlCompliant, kt&oacute;ra jest specyficzna dla każdego języka. </p><p>&nbsp;</p>|,
+		lastUpdated => 1204235640
 	},
 
 	'asset id description' => {
@@ -291,13 +267,13 @@ our $I18N = {
 	},
 
 	'extraHeadTags' => {
-		message => q|Extra tags that will be added to the header of the page containing the Asset.  These will be included by default so you do not need to add them youself, unless you want them to be in there twice.|,
-		lastUpdated => 1160773957
+		message => q|<p>Dodatkowe znaczniki będą dodane do nagł&oacute;wka stron zawierających Zas&oacute;b/Asset. Znacznki będą dodane domyślnie, więc nie musisz dodawać ich samemu. Chyba, że chcesz aby wystąpiły dwa razy.</p>|,
+		lastUpdated => 1204236136
 	},
 
 	'duplicate' => {
 		message => q|Duplikuj|,
-		lastUpdated => 0
+		lastUpdated => 1204234753
 	},
 
 	'isPrototype' => {
@@ -332,7 +308,7 @@ our $I18N = {
 
 	'demote' => {
 		message => q|Zdegraduj|,
-		lastUpdated => 0
+		lastUpdated => 1204234568
 	},
 
 	'extrasUploads form option symlink' => {
@@ -377,12 +353,12 @@ our $I18N = {
 
 	'type' => {
 		message => q|Typ|,
-		lastUpdated => 0
+		lastUpdated => 1204236176
 	},
 
 	'with descendants' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Z Potomkami|,
+		lastUpdated => 1204236353
 	},
 
 	'Add new field description' => {
@@ -406,8 +382,8 @@ our $I18N = {
 	},
 
 	'edit branch help' => {
-		message => q|Bring up the Edit Branch interface, to make changes to this Asset and Assets below it|,
-		lastUpdated => 0
+		message => q|Uruchom interfejs Edycji Gałęzi by wykonać zmiany na tym Zasobie/Asset i Zasobach poniżej|,
+		lastUpdated => 1204234926
 	},
 
 	'assetSize' => {
@@ -491,8 +467,8 @@ our $I18N = {
 	},
 
 	'this asset only' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Tylko Ten Zas&oacute;b/Asset|,
+		lastUpdated => 1204236397
 	},
 
 	'import' => {
@@ -506,8 +482,8 @@ our $I18N = {
 	},
 
 	'extra head tags description' => {
-		message => q|<p>These tags will be added to the &lt;head&gt; section of each page on which the asset appears.</p>|,
-		lastUpdated => 1165510986
+		message => q|<p>Te znaczniki będą dodane do sekcji &lt;head&gt; w każdej stronie, na kt&oacute;rej pojawi się Zas&oacute;b/Asset.</p>|,
+		lastUpdated => 1204236011
 	},
 
 	'411 description' => {
@@ -546,8 +522,8 @@ our $I18N = {
 	},
 
 	'directory index' => {
-		message => q|Directory Index|,
-		lastUpdated => 1118896675
+		message => q|Indeks Katalogu|,
+		lastUpdated => 1204234596
 	},
 
 	'extrasUploads form option none' => {
@@ -572,7 +548,7 @@ our $I18N = {
 
 	'url' => {
 		message => q|Adres URL zasobu.|,
-		lastUpdated => 1160773957
+		lastUpdated => 1204236181
 	},
 
 	'Class Icon' => {
@@ -663,13 +639,13 @@ throughout the site.  Check yes if you want this Asset to be available as a pack
 	},
 
 	'duplicateField' => {
-		message => q|<p><b>Error: Fieldname "%field%" is already in use.</b></p>|,
-		lastUpdated => 1089039511
+		message => q|<p><strong>Błąd: Pole &quot;%field%&quot; jest już w użyciu.</strong></p>|,
+		lastUpdated => 1204234792
 	},
 
 	'edit branch' => {
-		message => q|Edit Branch|,
-		lastUpdated => 0
+		message => q|Edycja Gałęzi|,
+		lastUpdated => 1204234834
 	},
 
 	'108 description' => {
@@ -689,7 +665,7 @@ throughout the site.  Check yes if you want this Asset to be available as a pack
 
 	'edit' => {
 		message => q|Edytuj|,
-		lastUpdated => 0
+		lastUpdated => 1204234798
 	},
 
 	'select all' => {
@@ -743,8 +719,8 @@ throughout the site.  Check yes if you want this Asset to be available as a pack
 	},
 
 	'encryptPage' => {
-		message => q|A boolean that will be true if this Asset is set to be served over SSL.|,
-		lastUpdated => 1160773957
+		message => q|<p>Jeśli Zas&oacute;b/Asset ma być szyfrowany przez SSL należy utsawić wartość TRUE.</p>|,
+		lastUpdated => 1204235816
 	},
 
 	'ago' => {
@@ -754,7 +730,7 @@ throughout the site.  Check yes if you want this Asset to be available as a pack
 
 	'encrypt page' => {
 		message => q|Szyfrować kontent?|,
-		lastUpdated => 1092748557
+		lastUpdated => 1204235649
 	},
 
 	'revision date' => {
@@ -783,8 +759,8 @@ throughout the site.  Check yes if you want this Asset to be available as a pack
 	},
 
 	'demote help' => {
-		message => q|Przesuń ten zasób do dołu o jedno miejsce na stronie.|,
-		lastUpdated => 0
+		message => q|Przesuń ten zas&oacute;b do dołu o jedno miejsce na stronie.|,
+		lastUpdated => 1204234578
 	},
 
 	'104 description' => {
@@ -798,8 +774,8 @@ throughout the site.  Check yes if you want this Asset to be available as a pack
 	},
 
 	'done' => {
-		message => q|DONE<br />|,
-		lastUpdated => 1129420080
+		message => q|ZROBIONE|,
+		lastUpdated => 1204234746
 	},
 
 	'lock' => {
@@ -853,8 +829,8 @@ throughout the site.  Check yes if you want this Asset to be available as a pack
 	},
 
 	'errorEmptyField' => {
-		message => q|<p><b>Error: Field name may not be empty.</b></p>|,
-		lastUpdated => 1089039511
+		message => q|<p><strong>Błąd: Nazwa pola nie może być pusta.</strong></p>|,
+		lastUpdated => 1204235848
 	},
 
 	'purge old asset revisions' => {
@@ -868,9 +844,8 @@ throughout the site.  Check yes if you want this Asset to be available as a pack
 	},
 
 	'directory index description' => {
-		message => q|<p>If the URL of the Asset to be exported looks like a directory, the directory index will
-be appended to it.</p>|,
-		lastUpdated => 1121361557
+		message => q|<p>Jeśli adres URL eksportowanego Zasob/Asset wygląda jak katalog, dodany będzie indeks katalogu do niego.</p>|,
+		lastUpdated => 1204234735
 	},
 
 	'promote' => {
@@ -914,8 +889,8 @@ be appended to it.</p>|,
 	},
 
 	'topicName' => {
-		message => q|Assets|,
-		lastUpdated => 1128920336
+		message => q|Zasoby/Assets|,
+		lastUpdated => 1204236170
 	},
 
 	'asset id' => {
@@ -959,8 +934,8 @@ be appended to it.</p>|,
 	},
 
 	'exporting page' => {
-		message => q|Exporting page %-s ......|,
-		lastUpdated => 1129420080
+		message => q|Eksport strony %-s ......|,
+		lastUpdated => 1204235907
 	},
 
 	'872 description' => {

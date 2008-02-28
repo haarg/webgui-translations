@@ -12,7 +12,22 @@ our $LANGUAGE = {
 sub makeUrlCompliant {
          my $value = shift;
 ##<-- start transliteration -->##
-
+$value =~ s/ą/a/;
+$value =~ s/Ą/A/;
+$value =~ s/ć/c/;
+$value =~ s/Ć/C/;
+$value =~ s/Ę/E/;
+$value =~ s/ę/e/;
+$value =~ s/ł/l/;
+$value =~ s/Ł/L/;
+$value =~ s/ń/n/;
+$value =~ s/Ń/N/;
+$value =~ s/ś/s/;
+$value =~ s/Ś/S/;
+$value =~ s/ź/z/;
+$value =~ s/Ź/Z/;
+$value =~ s/ż/z/;
+$value =~ s/Ż/Z/;
 ##<-- end transliteration -->##
 
  	    $value =~ s/\s+$//;                     #removes trailing whitespace
