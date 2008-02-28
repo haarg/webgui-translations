@@ -8,7 +8,7 @@ our $I18N = {
 
 	'make package' => {
 		message => q|Utworzyć pakiet?|,
-		lastUpdated => 1099344172
+		lastUpdated => 1204238904
 	},
 
 	'959' => {
@@ -88,7 +88,7 @@ our $I18N = {
 
 	'save and commit' => {
 		message => q|zapisz &amp; zatwierdź|,
-		lastUpdated => 0
+		lastUpdated => 1204239547
 	},
 
 	'872' => {
@@ -102,13 +102,13 @@ our $I18N = {
 	},
 
 	'promote help' => {
-		message => q|Przesuń ten zasób do góry o jedno miejsce na stronie.|,
-		lastUpdated => 0
+		message => q|Przesuń ten zas&oacute;b do g&oacute;ry o jedno miejsce na stronie.|,
+		lastUpdated => 1204239751
 	},
 
 	'properties' => {
 		message => q|Własności|,
-		lastUpdated => 1099344172
+		lastUpdated => 1204239369
 	},
 
 	'delete' => {
@@ -123,7 +123,7 @@ our $I18N = {
 
 	'revised by' => {
 		message => q|Zrewidowany przez|,
-		lastUpdated => 0
+		lastUpdated => 1204239455
 	},
 
 	'11' => {
@@ -187,8 +187,8 @@ our $I18N = {
 	},
 
 	'purge trash after help' => {
-		message => q|Jak długo zasób powinien pozostać w koszu aby zostać uznanym za stary śmieć do usunięcia? Zauważ, że kiedy zostanie usunięty wszystkie rewizje i potomki zostaną również usunięte.|,
-		lastUpdated => 1167187074
+		message => q|Jak długo zas&oacute;b powinien pozostać w koszu aby zostać uznanym za stary śmieć do usunięcia? Zauważ, że kiedy zostanie usunięty, wszystkie rewizje i potomki zostaną r&oacute;wnież usunięte.|,
+		lastUpdated => 1204239429
 	},
 
 	'rootUrl symlinking default' => {
@@ -247,8 +247,8 @@ our $I18N = {
 	},
 
 	'restore' => {
-		message => q|Przywróć|,
-		lastUpdated => 0
+		message => q|Przywr&oacute;ć|,
+		lastUpdated => 1204239448
 	},
 
 	'Extras URL description' => {
@@ -322,8 +322,8 @@ our $I18N = {
 	},
 
 	'purge revision after help' => {
-		message => q|How long should old revisions of an asset be kept? Old asset revisions are those that are no longer viewable by users, but are kept in the versioning system for rollbacks.|,
-		lastUpdated => 0
+		message => q|Jak długo powiny być przechowywane stare rewizje zasobu/asset? Stare rewizje zasobu to te, kt&oacute;re nie były od dłuższego czasu oglądane przez użytkownik&oacute;w, ale są przechowywane w systemie wersji dla cofnięcia zmian.|,
+		lastUpdated => 1204239675
 	},
 
 	'committed versions' => {
@@ -343,7 +343,7 @@ our $I18N = {
 
 	'revisions help' => {
 		message => q|Pokaż listę wszystkich rewizji dla tego zasobu.|,
-		lastUpdated => 0
+		lastUpdated => 1204239475
 	},
 
 	'asset list title' => {
@@ -373,7 +373,7 @@ our $I18N = {
 
 	'revisions' => {
 		message => q|Rewizje|,
-		lastUpdated => 0
+		lastUpdated => 1204239468
 	},
 
 	'412' => {
@@ -402,8 +402,8 @@ our $I18N = {
 	},
 
 	'purge revision after' => {
-		message => q|Wyczyść stare rewizje zasobów po|,
-		lastUpdated => 0
+		message => q|Wyczyść stare rewizje zasob&oacute;w po|,
+		lastUpdated => 1204239571
 	},
 
 	'asset template asset var title' => {
@@ -493,7 +493,7 @@ our $I18N = {
 
 	'purge old trash' => {
 		message => q|Wyczyść stare śmieci|,
-		lastUpdated => 0
+		lastUpdated => 1204239565
 	},
 
 	'Field Name description' => {
@@ -512,8 +512,8 @@ our $I18N = {
 	},
 
 	'rank' => {
-		message => q|Tanga|,
-		lastUpdated => 0
+		message => q|Ranga|,
+		lastUpdated => 1204239441
 	},
 
 	'886 description' => {
@@ -568,7 +568,7 @@ our $I18N = {
 
 	'tag name' => {
 		message => q|Nazwa przywieszki|,
-		lastUpdated => 0
+		lastUpdated => 1204239512
 	},
 
 	'change' => {
@@ -598,7 +598,7 @@ our $I18N = {
 
 	'purge trash after' => {
 		message => q|Wyczyść stare śmieci po|,
-		lastUpdated => 0
+		lastUpdated => 1204239405
 	},
 
 	'Add new field' => {
@@ -617,13 +617,13 @@ our $I18N = {
 	},
 
 	'over max assets' => {
-		message => q|Twój administrator założył limit ilości zasobów jakie możesz zamieścić w serwisie WWW i został przekroczony ten limit. Usuń kilka starych zasobów w celu dodania nowych.|,
-		lastUpdated => 0
+		message => q|Tw&oacute;j administrator określił limit ilości zasob&oacute;w jakie możesz zamieścić w serwisie WWW. Niestety limit został przekroczony. Usuń kilka starych zasob&oacute;w w celu dodania nowych.|,
+		lastUpdated => 1204239811
 	},
 
 	'manage' => {
 		message => q|Zarządzaj|,
-		lastUpdated => 0
+		lastUpdated => 1204239696
 	},
 
 	'none' => {
@@ -632,10 +632,8 @@ our $I18N = {
 	},
 
 	'make package description' => {
-		message => q|<p>Many WebGUI tasks are very repetitive.  Automating such tasks in WebGUI, such as
-creating an Asset, or sets of Assets, is done by creating a package that can be reused
-throughout the site.  Check yes if you want this Asset to be available as a package.</p>|,
-		lastUpdated => 1165365151
+		message => q|<p>Wiele zadań powtarza się w WebGUI. Automatyzacja takich zadań,&nbsp; jak utworzenie Zasobu/Asset lub wykonanie r&oacute;żnych ustawień wykonywane są przez utowrzone pakiety, kt&oacute;re następnie mogą być wieloktronie użyte w serwisie. Wybierz Tak, jeśli chcesz aby ten Zas&oacute;b był dostępny w pakiecie. </p>|,
+		lastUpdated => 1204239142
 	},
 
 	'duplicateField' => {
@@ -654,8 +652,8 @@ throughout the site.  Check yes if you want this Asset to be available as a pack
 	},
 
 	'make prototype description' => {
-		message => q|<p>Set this Asset to be a Content Prototype so that others can use it on your site.</p>|,
-		lastUpdated => 1119149899
+		message => q|<p>Ustaw ten Zas&oacute;b/Asset jako Prototyp Kontentu aby inni mogli użyć go w twoim serwisie.</p>|,
+		lastUpdated => 1204239231
 	},
 
 	'rootUrl form option none' => {
@@ -670,12 +668,12 @@ throughout the site.  Check yes if you want this Asset to be available as a pack
 
 	'select all' => {
 		message => q|Wybierz wszystko|,
-		lastUpdated => 1099344172
+		lastUpdated => 1204239503
 	},
 
 	'size' => {
 		message => q|Rozmiar|,
-		lastUpdated => 0
+		lastUpdated => 1204239497
 	},
 
 	'107' => {
@@ -689,8 +687,8 @@ throughout the site.  Check yes if you want this Asset to be available as a pack
 	},
 
 	'rootUrl form label' => {
-		message => q|Root URL|,
-		lastUpdated => 1160773957
+		message => q|Adres URL korzenia|,
+		lastUpdated => 1204239536
 	},
 
 	'174' => {
@@ -705,7 +703,7 @@ throughout the site.  Check yes if you want this Asset to be available as a pack
 
 	'last updated' => {
 		message => q|Ostatnio aktualizowany|,
-		lastUpdated => 0
+		lastUpdated => 1204238894
 	},
 
 	'Select' => {
@@ -735,7 +733,7 @@ throughout the site.  Check yes if you want this Asset to be available as a pack
 
 	'revision date' => {
 		message => q|Data rewizji|,
-		lastUpdated => 0
+		lastUpdated => 1204239462
 	},
 
 	'specified base' => {
@@ -799,13 +797,13 @@ throughout the site.  Check yes if you want this Asset to be available as a pack
 	},
 
 	'missing page query' => {
-		message => q|Strona, którą żądasz nie istnieje. Co chciałbyś zrobić?|,
-		lastUpdated => 0
+		message => q|Strona, kt&oacute;rej zażądano nie istnieje. Co chciałbyś zrobić?|,
+		lastUpdated => 1204239742
 	},
 
 	'package corrupt' => {
-		message => q|Pakiet, który próbujesz zaimportować wydaje się być zepsuty. Import przebiegnie do miejsca w którym wykryto błąd. Jeśli nie chcesz zaimportowanej części z pakietu wykonaj wycofanie twojej przywieszki wersji.|,
-		lastUpdated => 0
+		message => q|Pakiet, kt&oacute;ry pr&oacute;bujesz zaimportować wydaje się być zepsuty. Import przebiegnie do miejsca, w kt&oacute;rym wykryto błąd. Jeśli nie chcesz zaimportowanej części pakietu wykonaj wycofanie twojej przywieszki wersji.|,
+		lastUpdated => 1204239848
 	},
 
 	'ownerUserId' => {
@@ -834,8 +832,8 @@ throughout the site.  Check yes if you want this Asset to be available as a pack
 	},
 
 	'purge old asset revisions' => {
-		message => q|Wyczyścić stare rewizje zasobów|,
-		lastUpdated => 0
+		message => q|Wyczyścić stare rewizje zasob&oacute;w|,
+		lastUpdated => 1204239557
 	},
 
 	'bad user privileges' => {
@@ -850,7 +848,7 @@ throughout the site.  Check yes if you want this Asset to be available as a pack
 
 	'promote' => {
 		message => q|Promuj|,
-		lastUpdated => 0
+		lastUpdated => 1204239758
 	},
 
 	'896' => {
@@ -885,7 +883,7 @@ throughout the site.  Check yes if you want this Asset to be available as a pack
 
 	'make prototype' => {
 		message => q|Utworzyć prototyp?|,
-		lastUpdated => 1099344172
+		lastUpdated => 1204239150
 	},
 
 	'topicName' => {
@@ -905,7 +903,7 @@ throughout the site.  Check yes if you want this Asset to be available as a pack
 
 	'purge' => {
 		message => q|Wyczyść|,
-		lastUpdated => 0
+		lastUpdated => 1204239376
 	},
 
 	'rootUrl form hoverHelp' => {
@@ -950,7 +948,7 @@ throughout the site.  Check yes if you want this Asset to be available as a pack
 
 	'packages' => {
 		message => q|Pakiety|,
-		lastUpdated => 1099344172
+		lastUpdated => 1204239857
 	},
 
 	'change url help' => {
@@ -959,8 +957,8 @@ throughout the site.  Check yes if you want this Asset to be available as a pack
 	},
 
 	'purge revision prompt' => {
-		message => q|Czy na pewno życzysz sobie usunąć rewizję dla tego zasobu? Po usunięciu nię bęidze możliwe przywrócenie.|,
-		lastUpdated => 0
+		message => q|Czy na pewno życzysz sobie usunąć rewizję dla tego zasobu? Po usunięciu nię będzie możliwe przywr&oacute;cenie.|,
+		lastUpdated => 1204239398
 	},
 
 	'411' => {
