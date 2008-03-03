@@ -107,8 +107,8 @@ our $I18N = {
 	},
 
 	'451' => {
-		message => q|is vereist.|,
-		lastUpdated => 1154076728
+		message => q|Is vereist.|,
+		lastUpdated => 1204556794
 	},
 
 	'changeUrl workflow help' => {
@@ -436,11 +436,6 @@ Als er een server voor het verzenden van email op dezelfde machine staat als de 
 	'976' => {
 		message => q|Gebruikers toevoegen|,
 		lastUpdated => 1156498454
-	},
-
-	'wiki help label leadin' => {
-		message => q|Voor meer hulp, bezoek de |,
-		lastUpdated => 1190022502
 	},
 
 	'settings groupIdAdminSpectre hoverHelp' => {
@@ -1172,8 +1167,8 @@ Deze groep zou dan "Werknemers in HMO 1" genoemd kunnen worden en zou je de moge
 	},
 
 	'346' => {
-		message => q|deze gebruiker is geen lid meer van onze site. We hebben geen verdere informatie over deze gebruiker.|,
-		lastUpdated => 1153753556
+		message => q|Deze gebruiker is geen lid meer van onze site. We hebben geen verdere informatie over deze gebruiker.|,
+		lastUpdated => 1204556733
 	},
 
 	'1075 description' => {
@@ -1651,8 +1646,8 @@ Afhankelijk van welke authenticatie modules geïnstalleerd zijn in het systeem, 
 	},
 
 	'cancel' => {
-		message => q|annuleren|,
-		lastUpdated => 1156755450
+		message => q|Annuleren|,
+		lastUpdated => 1204556861
 	},
 
 	'user profile field friend availability' => {
@@ -2394,8 +2389,8 @@ LongTruncOk=1|,
 	},
 
 	'890' => {
-		message => q|<p>WebGUI heeft een sub-suysteem dat tabs kan maken. Deze zijn te vinden in complexe formulieren zoals pagina bewerking. Om dit systeem goed te laten werken dient een extra sectie aan de stylesheet van de stijl worden toegvoegd, speciaal voor de tabs.</p><p>De volgende stylesheet klassen zijn beschikbaar:</p><p><strong>.tab</strong></p><p>Het standaard&nbsp; uiterlijk van elke tab.</p><p><strong>div.tabs</strong></p><p>Dit stelt enkele eigenschappen in die voor elke tab gelden. Dit wordt gebruikt voor de tekstlabels van de tabs.</p><p><strong>.tabBody</strong></p><p>Het inhoud gebied van elke tab. Hier verschijnt het formulier. Voor optimaal resultaat moet de achtergrondkleur gelijk zijn aan die van .tabActive.</p><p><strong>.tabHover</strong></p><p>Het uiterlijk van een tab als de muis erboven zweeft.</p><p><strong>.tabActive</strong></p><p>Het uiterlijk van de tab die zichtbaar is.&nbsp;</p><p><em>Voorbeelden:</em></p><p>Deze voorbeelden kunnen, indien verkozen boven het zelf maken, gebruikt worden. Of ze kunnen als gids dienen bij het maken van een eigen stylesheet.</p><p><strong>Wit of lichtgekleurde stijlen</strong> <br /></p><pre>.tab {<br />  border: 1px solid black;<br />   background-color: #eeeeee;<br />}<br />.tabBody {<br />   border: 1px solid black;<br />   border-top: 1px solid black;<br />   border-left: 1px solid black;<br />   background-color: #dddddd; <br />}<br />div.tabs {<br />    line-height: 15px;<br />    font-size: 14px;<br />}<br />.tabHover {<br />   background-color: #cccccc;<br />}<br />.tabActive { <br />   background-color: #dddddd; <br />}<br /></pre><p>&nbsp;</p><p><strong>Zwart of donker gekleurde stijlen</strong>&nbsp;</p><pre>.tab {<br />  border: 1px solid white;<br />   background-color: #333333;<br />}<br />.tabBody {<br />   border: 1px solid white;<br />   border-top: 1px solid white;<br />   border-left: 1px solid white;<br />   background-color: #444444; <br />}<br />div.tabs {<br />    line-height: 15px;<br />    font-size: 14px;<br />}<br />.tabHover {<br />   background-color: #555555;<br />}<br />.tabActive { <br />   background-color: #444444; <br />}<br /></pre><p>&nbsp;</p>|,
-		lastUpdated => 1156493646
+		message => q|<p>WebGUI heeft een sub-systeem dat tabs kan maken. Deze zijn te vinden in complexe formulieren zoals pagina bewerking. Om dit systeem goed te laten werken dient een extra sectie aan de stylesheet van de stijl worden toegvoegd, speciaal voor de tabs.</p><p>De volgende stylesheet klassen zijn beschikbaar:</p><p><strong>.tab</strong></p><p>Het standaard&nbsp; uiterlijk van elke tab.</p><p><strong>div.tabs</strong></p><p>Dit stelt enkele eigenschappen in die voor elke tab gelden. Dit wordt gebruikt voor de tekstlabels van de tabs.</p><p><strong>.tabBody</strong></p><p>Het inhoud gebied van elke tab. Hier verschijnt het formulier. Voor optimaal resultaat moet de achtergrondkleur gelijk zijn aan die van .tabActive.</p><p><strong>.tabHover</strong></p><p>Het uiterlijk van een tab als de muis erboven zweeft.</p><p><strong>.tabActive</strong></p><p>Het uiterlijk van de tab die zichtbaar is.&nbsp;</p><p><em>Voorbeelden:</em></p><p>Deze voorbeelden kunnen, indien verkozen boven het zelf maken, gebruikt worden. Of ze kunnen als gids dienen bij het maken van een eigen stylesheet.</p><p><strong>Wit of lichtgekleurde stijlen</strong> </p><pre>.tab {<br />  border: 1px solid black;<br />   background-color: #eeeeee;<br />}<br />.tabBody {<br />   border: 1px solid black;<br />   border-top: 1px solid black;<br />   border-left: 1px solid black;<br />   background-color: #dddddd; <br />}<br />div.tabs {<br />    line-height: 15px;<br />    font-size: 14px;<br />}<br />.tabHover {<br />   background-color: #cccccc;<br />}<br />.tabActive { <br />   background-color: #dddddd; <br />}<br /></pre><p>&nbsp;</p><p><strong>Zwart of donker gekleurde stijlen</strong>&nbsp;</p><pre>.tab {<br />  border: 1px solid white;<br />   background-color: #333333;<br />}<br />.tabBody {<br />   border: 1px solid white;<br />   border-top: 1px solid white;<br />   border-left: 1px solid white;<br />   background-color: #444444; <br />}<br />div.tabs {<br />    line-height: 15px;<br />    font-size: 14px;<br />}<br />.tabHover {<br />   background-color: #555555;<br />}<br />.tabActive { <br />   background-color: #444444; <br />}<br /></pre><p>&nbsp;</p>|,
+		lastUpdated => 1204556842
 	},
 
 	'440' => {
@@ -2551,8 +2546,8 @@ De verstrekte informatie is niet gelijk aan de accountinformatie. |,
 	},
 
 	'41' => {
-		message => q|U probeert een vitaal onderdeel van hetWebGUI systeem te verwijderen. Als u zou kunnen doorgaan, zouWebGUI op kunnen houden met functioneren.|,
-		lastUpdated => 1154075859
+		message => q|U probeert een vitaal onderdeel van het WebGUI systeem te verwijderen. Als u zou kunnen doorgaan, zou WebGUI op kunnen houden met functioneren.|,
+		lastUpdated => 1204556774
 	},
 
 	'link settings' => {
@@ -2746,8 +2741,8 @@ De verstrekte informatie is niet gelijk aan de accountinformatie. |,
 	},
 
 	'36' => {
-		message => q|U moet een beheeder zijn om deze functie uit te kunnen voeren. Neem contact op met een beheerder.|,
-		lastUpdated => 1154074662
+		message => q|U moet een beheerder zijn om deze functie uit te kunnen voeren. Neem contact op met een beheerder.|,
+		lastUpdated => 1204556754
 	},
 
 	'settings' => {
@@ -3307,11 +3302,6 @@ De verstrekte informatie is niet gelijk aan de accountinformatie. |,
 		lastUpdated => 1157105223
 	},
 
-	'wiki help target' => {
-		message => q|WebGUI Community Wiki|,
-		lastUpdated => 1190022485
-	},
-
 	'run on admin update user' => {
 		message => q|Wanneer Gebruikersgegevens gewijzigd worden (Admin)|,
 		lastUpdated => 1190023471
@@ -3500,6 +3490,11 @@ De verstrekte informatie is niet gelijk aan de accountinformatie. |,
 	'show my fields' => {
 		message => q|Toon de velden die toegestaan zijn op mijn gebruikers interface niveau.|,
 		lastUpdated => 1155908246
+	},
+
+	'external help' => {
+		message => q|Voor meer hulp, bezoek de <a href="http://www.webgui-help.nl" target="_blank">WebGUI help site</a>.|,
+		lastUpdated => 1204556949
 	},
 
 	'54' => {
