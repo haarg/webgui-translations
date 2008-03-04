@@ -3444,8 +3444,8 @@ our $I18N = {
 	},
 
 	'66' => {
-		message => q|Connection |,
-		lastUpdated => 1203637734
+		message => q|Connexion |,
+		lastUpdated => 1204201073
 	},
 
 	'show my fields' => {

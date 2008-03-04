@@ -342,8 +342,8 @@ our $I18N = {
 	},
 
 	'30' => {
-		message => q|Monter les pages syst&egrave;me?|,
-		lastUpdated => 1203633527
+		message => q|Montrer les pages syst&egrave;me?|,
+		lastUpdated => 1204675054
 	},
 
 	'currentPage.synopsis' => {
