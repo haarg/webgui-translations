@@ -2,8 +2,8 @@ package WebGUI::i18n::French::AuthWebGUI;
 
 our $I18N = {
 	'new password label' => {
-		message => q|Nouveau m&ocirc;t de passe|,
-		lastUpdated => 1203373285
+		message => q|Nouveau mot de passe|,
+		lastUpdated => 1204840161
 	},
 
 	'expired.message' => {
@@ -32,8 +32,8 @@ our $I18N = {
 	},
 
 	'expired.form.passwordConfirm' => {
-		message => q|Champ par d&eacute;faut de 'confirmation du m&ocirc;t de passe'.|,
-		lastUpdated => 1203628419
+		message => q|Champ par d&eacute;faut de 'confirmation du mot de passe'.|,
+		lastUpdated => 1204840179
 	},
 
 	'create.message' => {
@@ -47,8 +47,8 @@ our $I18N = {
 	},
 
 	'create.form.passwordConfirm.label' => {
-		message => q|Texte par d&eacute;faut du champ confirmation de m&ocirc;t de passe.|,
-		lastUpdated => 1203626038
+		message => q|Texte par d&eacute;faut du champ confirmation de mot de passe.|,
+		lastUpdated => 1204839980
 	},
 
 	'account.form.password.label' => {
@@ -77,8 +77,8 @@ our $I18N = {
 	},
 
 	'password recovery template' => {
-		message => q|Gabarit de r&eacute;cup&eacute;ration de m&ocirc;t de passe|,
-		lastUpdated => 1203639255
+		message => q|Gabarit de r&eacute;cup&eacute;ration de mot de passe|,
+		lastUpdated => 1204840268
 	},
 
 	'account.form.password' => {
@@ -112,8 +112,8 @@ our $I18N = {
 	},
 
 	'email recover password start message' => {
-		message => q|Saissir votre adresse email ou votre nom d'utilisateur pour effectuer la r&eacute;cup&eacute;ration de m&ocirc;t de passe.|,
-		lastUpdated => 1203627625
+		message => q|Saisir votre adresse email ou votre nom d'utilisateur pour effectuer la r&eacute;cup&eacute;ration de mot de passe.|,
+		lastUpdated => 1204840051
 	},
 
 	'20' => {
@@ -127,8 +127,8 @@ our $I18N = {
 	},
 
 	'create.form.password.label' => {
-		message => q|Texte par d&eacute;faut du champ pour le m&ocirc;t de passe.|,
-		lastUpdated => 1203625987
+		message => q|<p>Texte par d&eacute;faut du champ pour le mot de passe.</p>|,
+		lastUpdated => 1204839963
 	},
 
 	'recoverFormProfile formElement' => {
@@ -142,8 +142,8 @@ our $I18N = {
 	},
 
 	'recover password not found' => {
-		message => q|Nous n'avons aucune information d'utilisateur avec les information que vous avez saissi.|,
-		lastUpdated => 1203629686
+		message => q|Nous n'avons aucune information d'utilisateur avec les information que vous avez saisies.|,
+		lastUpdated => 1204840336
 	},
 
 	'10' => {
@@ -167,8 +167,8 @@ our $I18N = {
 	},
 
 	'expired.form.password.label' => {
-		message => q|Texte par d&eacute;faut pour le champ 'm&ocirc;t de passe'.|,
-		lastUpdated => 1203628367
+		message => q|Texte par d&eacute;faut pour le champ 'mot de passe'.|,
+		lastUpdated => 1204840170
 	},
 
 	'11' => {
@@ -177,8 +177,8 @@ our $I18N = {
 	},
 
 	'recover password email text3' => {
-		message => q|Si vous n'avez pas demand&eacute; de r&eacute;cup&eacute;rer votre m&ocirc;t de passe, svp, contactez votre administrateur syst&egrave;me &agrave; ce sujet.|,
-		lastUpdated => 1203629532
+		message => q|Si vous n'avez pas demand&eacute; de r&eacute;cup&eacute;rer votre mot de passe, svp, contactez votre administrateur syst&egrave;me &agrave; ce sujet.|,
+		lastUpdated => 1204840316
 	},
 
 	'password recovery multiple results' => {
@@ -202,8 +202,8 @@ our $I18N = {
 	},
 
 	'create.form.passwordConfirm' => {
-		message => q|Champ par d&eacute;faut pour la confirmation de m&ocirc;t de passe.|,
-		lastUpdated => 1203626015
+		message => q|Champ par d&eacute;faut pour la confirmation de mot de passe.|,
+		lastUpdated => 1204839971
 	},
 
 	'recoverFormProfile label' => {
@@ -212,13 +212,13 @@ our $I18N = {
 	},
 
 	'webguiPasswordRecovery hoverHelp' => {
-		message => q|<p>Selectionner &quot;le champ du profil&quot; pour permettre aux utilisateurs connaissant une combinaison particuli&egrave;re de champs de leur profil. Pour prendre effet, au moins un champ du profil doit avoir son drapeau (flag) 'n&eacute;cessaire &agrave; la r&eacute;cup&eacute;ration de m&ocirc;t de passe' allum&eacute;. Il est recommand&eacute; d'en avoir plusieurs; l'utilisation d'un seul est facilement hackable. Souvenez-vous que si quelqu'un d&eacute;couvre tous les champs pour un utilisateur, il pourra changer le m&ocirc;t de passe. Selectionner 'Email' pour permettre aux utilistaurs de recevoir un email et alors un lien pour changer leur m&ocirc;t de passe. </p>|,
-		lastUpdated => 1203631030
+		message => q|<p>Selectionner &quot;le champ du profil&quot; pour permettre aux utilisateurs connaissant une combinaison particuli&egrave;re de champs de leur profil. Pour prendre effet, au moins un champ du profil doit avoir son drapeau (flag) 'n&eacute;cessaire &agrave; la r&eacute;cup&eacute;ration de mot de passe' allum&eacute;. Il est recommand&eacute; d'en avoir plusieurs; l'utilisation d'un seul est facilement hackable. Souvenez-vous que si quelqu'un d&eacute;couvre tous les champs pour un utilisateur, il pourra changer le mot de passe. Selectionner 'Email' pour permettre aux utilistaurs de recevoir un email et alors un lien pour changer leur mot de passe. </p>|,
+		lastUpdated => 1204840433
 	},
 
 	'recover password email text1' => {
-		message => q|Vous avez re&ccedil;u votre requ&ecirc;te pour changer le m&ocirc;t de passe|,
-		lastUpdated => 1203629399
+		message => q|Vous avez re&ccedil;u votre requ&ecirc;te pour changer le mot de passe|,
+		lastUpdated => 1204840301
 	},
 
 	'setting passwordRecoveryType none' => {
@@ -227,8 +227,8 @@ our $I18N = {
 	},
 
 	'new password verify' => {
-		message => q|V&eacute;rification du nouveau m&ocirc;t de passe|,
-		lastUpdated => 1203628733
+		message => q|V&eacute;rification du nouveau mot de passe|,
+		lastUpdated => 1204840197
 	},
 
 	'expired.form.footer' => {
@@ -242,8 +242,8 @@ our $I18N = {
 	},
 
 	'error password nonWordCharacters' => {
-		message => q|Le m&ocirc;t de passe doit avoir au moins %s caract&egrave;res non-alphab&eacute;tique (comme '!', '@' ou '$').|,
-		lastUpdated => 1203627866
+		message => q|Le mot de passe doit avoir au moins %s caract&egrave;res non-alphab&eacute;tique (comme '!', '@' ou '$').|,
+		lastUpdated => 1204840063
 	},
 
 	'deactivate account template title' => {
@@ -257,8 +257,8 @@ our $I18N = {
 	},
 
 	'error passwordRecoveryType no profile fields required' => {
-		message => q|Ne peut pas activer la r&eacute;cup&eacute;ration de m&ocirc;t de passe WebGUI: Il n'existe pas de champ requis dans le profil utilisateur pour cet r&eacute;cup&eacute;ration.|,
-		lastUpdated => 1203628025
+		message => q|Ne peut pas activer la r&eacute;cup&eacute;ration de mot de passe WebGUI: Il n'existe pas de champ requis dans le profil utilisateur pour cet r&eacute;cup&eacute;ration.|,
+		lastUpdated => 1204840090
 	},
 
 	'12' => {
@@ -282,8 +282,8 @@ our $I18N = {
 	},
 
 	'email password recovery end message' => {
-		message => q|Saissir un nouveau m&ocirc;t de passe pour votre compte.|,
-		lastUpdated => 1203627424
+		message => q|Saisir un nouveau mot de passe pour votre compte.|,
+		lastUpdated => 1204840001
 	},
 
 	'login.label' => {
@@ -307,13 +307,13 @@ our $I18N = {
 	},
 
 	'recovery template title' => {
-		message => q|Gabarit r&eacute;cup&eacute;ration de m&ocirc;t de passe WebGUI|,
-		lastUpdated => 1203630294
+		message => q|Gabarit r&eacute;cup&eacute;ration de mot de passe WebGUI|,
+		lastUpdated => 1204840383
 	},
 
 	'new password help' => {
-		message => q|Entrez le nouveau m&ocirc;t de passe ici|,
-		lastUpdated => 1203372981
+		message => q|Entrez le nouveau mot de passe ici|,
+		lastUpdated => 1204840189
 	},
 
 	'displayTitle' => {
@@ -322,8 +322,8 @@ our $I18N = {
 	},
 
 	'create.form.oldPassword.label' => {
-		message => q|Texte par d&eacute;faut du champ de l'ancien m&ocirc;t de passe.|,
-		lastUpdated => 1203625944
+		message => q|<p>Texte par d&eacute;faut du champ de l'ancien mot de passe.</p>|,
+		lastUpdated => 1204839947
 	},
 
 	'create.form.username.label' => {
@@ -332,8 +332,8 @@ our $I18N = {
 	},
 
 	'expired.form.password' => {
-		message => q|Champ par d&eacute;faut pour le m&ocirc;t de passe.|,
-		lastUpdated => 1203628336
+		message => q|Champ par d&eacute;faut pour le mot de passe.|,
+		lastUpdated => 1204840150
 	},
 
 	'setting webguiNonWordCharacters' => {
@@ -357,8 +357,8 @@ our $I18N = {
 	},
 
 	'error password requiredDigits' => {
-		message => q|Le m&ocirc;t de passe doit avoir au moins %s chiffre(s).|,
-		lastUpdated => 1203627853
+		message => q|Le mot de passe doit avoir au moins %s chiffre(s).|,
+		lastUpdated => 1204840071
 	},
 
 	'display account template title' => {
@@ -397,18 +397,18 @@ our $I18N = {
 	},
 
 	'password recovery login hoverHelp' => {
-		message => q|Sassir votre nom d'utilisateur|,
-		lastUpdated => 1203628885
+		message => q|Sasir votre nom d'utilisateur|,
+		lastUpdated => 1204840248
 	},
 
 	'setting webguiRequiredMixedCase' => {
-		message => q|Nombre de caract&egrave;res majuscules dans le m&ocirc;t de passe|,
-		lastUpdated => 1203630477
+		message => q|Nombre de caract&egrave;res majuscules dans le mot de passe|,
+		lastUpdated => 1204840400
 	},
 
 	'create.form.password' => {
-		message => q|Champ par d&eacute;faut pour le m&ocirc;t de passe.|,
-		lastUpdated => 1203625962
+		message => q|Champ par d&eacute;faut pour le mot de passe.|,
+		lastUpdated => 1204839954
 	},
 
 	'recoverFormUsername' => {
@@ -417,8 +417,8 @@ our $I18N = {
 	},
 
 	'recoverPassword.url' => {
-		message => q|URL pour la page r&eacute;cup&eacute;ration de m&ocirc;t de passe.|,
-		lastUpdated => 1203630263
+		message => q|URL pour la page r&eacute;cup&eacute;ration de mot de passe.|,
+		lastUpdated => 1204840375
 	},
 
 	'14' => {
@@ -447,13 +447,13 @@ our $I18N = {
 	},
 
 	'new password verify help' => {
-		message => q|Saissir votre m&ocirc;t de passe pour v&eacute;rification|,
-		lastUpdated => 1203628768
+		message => q|Saisir votre mot de passe pour v&eacute;rification|,
+		lastUpdated => 1204840214
 	},
 
 	'password recovery no username' => {
-		message => q|La r&eacute;cup&eacute;ration de m&ocirc;t de passe requiert un nom d'utilisateur.|,
-		lastUpdated => 1203629249
+		message => q|La r&eacute;cup&eacute;ration de mot de passe requiert un nom d'utilisateur.|,
+		lastUpdated => 1204840259
 	},
 
 	'create.form.hidden' => {
@@ -463,7 +463,7 @@ our $I18N = {
 
 	'create.form.username' => {
 		message => q|Champ par d&eacute;faut pour le nom d'utilisateur.|,
-		lastUpdated => 1203626065
+		lastUpdated => 1204839985
 	},
 
 	'login.url' => {
@@ -472,8 +472,8 @@ our $I18N = {
 	},
 
 	'password recovery email hoverHelp' => {
-		message => q|Saissir votre adresse Email|,
-		lastUpdated => 1203628869
+		message => q|Saisir votre adresse Email|,
+		lastUpdated => 1204840220
 	},
 
 	'account.noform' => {
@@ -488,7 +488,7 @@ our $I18N = {
 
 	'email recover password finish message1' => {
 		message => q|Un message a &eacute;t&eacute; envoy&eacute; &agrave;|,
-		lastUpdated => 1203627473
+		lastUpdated => 1204840009
 	},
 
 	'account.form.username.label' => {
@@ -503,7 +503,7 @@ our $I18N = {
 
 	'recover.form.hidden' => {
 		message => q|Champs de formulaire cach&eacute;s requis pour envoyer le formulaire.|,
-		lastUpdated => 1203629859
+		lastUpdated => 1204840365
 	},
 
 	'anonymousRegistration.isAllowed' => {
@@ -512,18 +512,18 @@ our $I18N = {
 	},
 
 	'expired password template' => {
-		message => q|Gabarit de l'expiration du m&ocirc;t de passe|,
-		lastUpdated => 1203639159
+		message => q|Gabarit de l'expiration du mot de passe|,
+		lastUpdated => 1204840097
 	},
 
 	'expired template title' => {
-		message => q|Gabarit d'expiration du m&ocirc;t de passe WebGUI |,
-		lastUpdated => 1203639570
+		message => q|Gabarit d'expiration du mot de passe WebGUI |,
+		lastUpdated => 1204840113
 	},
 
 	'email recover password finish message2' => {
-		message => q|pour instruction de remettre &agrave; jour votre m&ocirc;t de passe.|,
-		lastUpdated => 1203627541
+		message => q|pour instruction de remettre &agrave; jour votre mot de passe.|,
+		lastUpdated => 1204840028
 	},
 
 	'captcha label' => {
@@ -577,13 +577,13 @@ our $I18N = {
 	},
 
 	'recover password email text2' => {
-		message => q|Utilisez ce lien suivant pour changer votre m&ocirc;t de passe.|,
-		lastUpdated => 1203629442
+		message => q|Utilisez ce lien suivant pour changer votre mot de passe.|,
+		lastUpdated => 1204840289
 	},
 
 	'setting webguiRequiredDigits' => {
-		message => q|Nombre de chiffre(s) dans le m&ocirc;t de passe|,
-		lastUpdated => 1203630445
+		message => q|Nombre de chiffre(s) dans le mot de passe|,
+		lastUpdated => 1204840392
 	},
 
 	'expired.form.hidden' => {
@@ -592,8 +592,8 @@ our $I18N = {
 	},
 
 	'recover.form.header' => {
-		message => q|Les &eacute;l&eacute;ments du formulaire requis allant au d&eacute;but de la page r&eacute;cup&eacute;ration de m&ocirc;t de passe.<br /> |,
-		lastUpdated => 1203629797
+		message => q|Les &eacute;l&eacute;ments du formulaire requis allant au d&eacute;but de la page r&eacute;cup&eacute;ration de mot de passe.<br /> |,
+		lastUpdated => 1204840360
 	},
 
 	'8' => {
@@ -612,28 +612,28 @@ our $I18N = {
 	},
 
 	'recover.form.footer' => {
-		message => q|Les &eacute;l&eacute;ments du formulaire requis allant apr&egrave;s le formulaire de la page r&eacute;cup&eacute;ration de m&ocirc;t de passe.|,
-		lastUpdated => 1203629763
+		message => q|Les &eacute;l&eacute;ments du formulaire requis allant apr&egrave;s le formulaire de la page r&eacute;cup&eacute;ration de mot de passe.|,
+		lastUpdated => 1204840352
 	},
 
 	'error password requiredMixedCase' => {
-		message => q|Le m&ocirc;t de passe doit avoir au moins %s caract&egrave;res majuscules et au moins un caract&egrave;re minuscule.|,
-		lastUpdated => 1203627843
+		message => q|Le mot de passe doit avoir au moins %s caract&egrave;res majuscules et au moins un caract&egrave;re minuscule.|,
+		lastUpdated => 1204840078
 	},
 
 	'webguiPasswordRecoveryRequireUsername hoverHelp' => {
-		message => q|S&eacute;lectionner 'OUI' si vous voulez que les utilisateurs saississent leur nom d'utilisateur pour la r&eacute;cup&eacute;ration de m&ocirc;t de passe. Autrement, il pourront changer leur m&ocirc;t de passe et se connecter eux-m&ecirc;me en connaissant seuelement les autres champs du profil n&eacute;cessaire &agrave; la r&eacute;cup&eacute;ration du m&ocirc;t de passe, et m&ecirc;me si ils ont oubli&eacute; leur nom d'utilisateur.|,
-		lastUpdated => 1203631220
+		message => q|S&eacute;lectionner 'OUI' si vous voulez que les utilisateurs saississent leur nom d'utilisateur pour la r&eacute;cup&eacute;ration de mot de passe. Autrement, il pourront changer leur mot de passe et se connecter eux-m&ecirc;me en connaissant seuelement les autres champs du profil n&eacute;cessaire &agrave; la r&eacute;cup&eacute;ration du mot de passe, et m&ecirc;me si ils ont oubli&eacute; leur nom d'utilisateur.|,
+		lastUpdated => 1204840456
 	},
 
 	'recover password banner' => {
-		message => q|R&eacute;cup&eacute;ration de m&ocirc;t de passe|,
-		lastUpdated => 1203629297
+		message => q|R&eacute;cup&eacute;ration de mot de passe|,
+		lastUpdated => 1204840277
 	},
 
 	'5' => {
-		message => q|Votre mot de passe ne peut &ecirc;tre 'm&ocirc;t de passe' ou 'password'.|,
-		lastUpdated => 1204836209
+		message => q|Votre mot de passe ne peut &ecirc;tre 'mot de passe' ou 'password'.|,
+		lastUpdated => 1204840138
 	},
 
 };
