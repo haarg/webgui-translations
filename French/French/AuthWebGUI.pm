@@ -13,7 +13,7 @@ our $I18N = {
 
 	'21' => {
 		message => q|Autoriser l'utilisateur &agrave; changer le nom d'utilisateur?|,
-		lastUpdated => 1203624729
+		lastUpdated => 1204836177
 	},
 
 	'recover.form.submit' => {
@@ -22,13 +22,13 @@ our $I18N = {
 	},
 
 	'7' => {
-		message => q|Le nombre de caract&egrave;res minimum du m&ocirc;t de passe est : <br /> |,
-		lastUpdated => 1203624983
+		message => q|Le nombre de caract&egrave;res minimum du mot de passe est : <br /> |,
+		lastUpdated => 1204836244
 	},
 
 	'account.form.passwordConfirm.label' => {
-		message => q|Texte par d&eacute;faut du champ 'confirmation de m&ocirc;t de passe'.|,
-		lastUpdated => 1203625242
+		message => q|Texte par d&eacute;faut du champ 'confirmation de mot de passe'.|,
+		lastUpdated => 1204836294
 	},
 
 	'expired.form.passwordConfirm' => {
@@ -52,8 +52,8 @@ our $I18N = {
 	},
 
 	'account.form.password.label' => {
-		message => q|Texte par d&eacute;faut du champ 'm&ocirc;t de passe' (password).|,
-		lastUpdated => 1203625160
+		message => q|Texte par d&eacute;faut du champ 'mot de passe' (password).|,
+		lastUpdated => 1204836278
 	},
 
 	'account.nofields' => {
@@ -62,8 +62,8 @@ our $I18N = {
 	},
 
 	'18' => {
-		message => q|Autoriser les utilisateurs &agrave; changer le m&ocirc;t de passe?|,
-		lastUpdated => 1203624689
+		message => q|Autoriser les utilisateurs &agrave; changer le mot de passe?|,
+		lastUpdated => 1204836148
 	},
 
 	'password recovery no results' => {
@@ -72,8 +72,8 @@ our $I18N = {
 	},
 
 	'16' => {
-		message => q|D&eacute;lai d'expiration du m&ocirc;t de passe|,
-		lastUpdated => 1203624640
+		message => q|D&eacute;lai d'expiration du mot de passe|,
+		lastUpdated => 1204836132
 	},
 
 	'password recovery template' => {
@@ -82,8 +82,8 @@ our $I18N = {
 	},
 
 	'account.form.password' => {
-		message => q|Champ par d&eacute;faut de 'm&ocirc;t de passe' (password).|,
-		lastUpdated => 1203625119
+		message => q|Champ par d&eacute;faut de 'mot de passe' (password).|,
+		lastUpdated => 1204836271
 	},
 
 	'email address validation email subject' => {
@@ -117,8 +117,8 @@ our $I18N = {
 	},
 
 	'20' => {
-		message => q|Autoriser l'utilisateur &agrave; changer le m&ocirc;t de passe?|,
-		lastUpdated => 1203624720
+		message => q|Autoriser l'utilisateur &agrave; changer le mot de passe?|,
+		lastUpdated => 1204836171
 	},
 
 	'recoverPassword.label' => {
@@ -147,13 +147,13 @@ our $I18N = {
 	},
 
 	'10' => {
-		message => q|Ancien m&ocirc;t de passe|,
-		lastUpdated => 1203624515
+		message => q|Ancien mot de passe|,
+		lastUpdated => 1204836056
 	},
 
 	'account.form.passwordConfirm' => {
-		message => q|Champ par d&eacute;faut de 'confirmation de m&ocirc;t de passe'.|,
-		lastUpdated => 1203625200
+		message => q|Champ par d&eacute;faut de 'confirmation de mot de passe'.|,
+		lastUpdated => 1204836287
 	},
 
 	'login.form.email' => {
@@ -172,8 +172,8 @@ our $I18N = {
 	},
 
 	'11' => {
-		message => q|Nouveau m&ocirc;t de passe|,
-		lastUpdated => 1203624521
+		message => q|Nouveau mot de passe|,
+		lastUpdated => 1204836065
 	},
 
 	'recover password email text3' => {
@@ -182,8 +182,8 @@ our $I18N = {
 	},
 
 	'password recovery multiple results' => {
-		message => q|D&eacute;sol&eacute;, la r&eacute;cup&eacute;ration de m&ocirc;t de passe n'est pas possible pour ce compte. Contactez votre administrateur.|,
-		lastUpdated => 1203628946
+		message => q|D&eacute;sol&eacute;, la r&eacute;cup&eacute;ration de mot de passe n'est pas possible pour ce compte. Contactez votre administrateur.|,
+		lastUpdated => 1204836339
 	},
 
 	'recoverFormProfile id' => {
@@ -193,7 +193,7 @@ our $I18N = {
 
 	'account.form.username' => {
 		message => q|Champ par d&eacute;faut de 'nom d'utilisateur'.|,
-		lastUpdated => 1203625284
+		lastUpdated => 1204836299
 	},
 
 	'setting passwordRecoveryType profile' => {
@@ -262,13 +262,13 @@ our $I18N = {
 	},
 
 	'12' => {
-		message => q|Utilisez un m&ocirc;t de passe diff&eacute;rent de l'ancien|,
-		lastUpdated => 1203624562
+		message => q|Utilisez un mot de passe diff&eacute;rent de l'ancien|,
+		lastUpdated => 1204836099
 	},
 
 	'15' => {
-		message => q|Nombre de caract&egrave;res minimim du m&ocirc;t de passe|,
-		lastUpdated => 1203624625
+		message => q|Nombre de caract&egrave;res minimim du mot de passe|,
+		lastUpdated => 1204836125
 	},
 
 	'use captcha' => {
@@ -342,13 +342,13 @@ our $I18N = {
 	},
 
 	'17' => {
-		message => q|Mise &agrave; jour du m&ocirc;t de passe|,
-		lastUpdated => 1203624679
+		message => q|Mise &agrave; jour du mot de passe|,
+		lastUpdated => 1204836139
 	},
 
 	'2' => {
-		message => q|Confirmation du m&ocirc;t de passe|,
-		lastUpdated => 1203624711
+		message => q|Confirmation du mot de passe|,
+		lastUpdated => 1204836163
 	},
 
 	'expired.form.header' => {
@@ -422,8 +422,8 @@ our $I18N = {
 	},
 
 	'14' => {
-		message => q|Nombre de caract&egrave;res minimim du m&ocirc;t de passe|,
-		lastUpdated => 1203624610
+		message => q|Nombre de caract&egrave;res minimim du mot de passe|,
+		lastUpdated => 1204836119
 	},
 
 	'email address validation email body' => {
@@ -442,8 +442,8 @@ our $I18N = {
 	},
 
 	'create.form.oldPassword' => {
-		message => q|Champ par d&eacute;faut pour l'ancien m&ocirc;t de passe.|,
-		lastUpdated => 1203625916
+		message => q|Champ par d&eacute;faut pour l'ancien mot de passe.|,
+		lastUpdated => 1204836322
 	},
 
 	'new password verify help' => {
@@ -493,7 +493,7 @@ our $I18N = {
 
 	'account.form.username.label' => {
 		message => q|Texte par d&eacute;faut du champ 'nom d'utilisateur'.|,
-		lastUpdated => 1203625317
+		lastUpdated => 1204836303
 	},
 
 	'anon reg template title' => {
@@ -538,17 +538,17 @@ our $I18N = {
 
 	'22' => {
 		message => q|Il n'y a rien &agrave; mettre &agrave; jour.|,
-		lastUpdated => 1203624740
+		lastUpdated => 1204836182
 	},
 
 	'13' => {
-		message => q|Autoriser la r&eacute;cup&eacute;ration du m&ocirc;t de passe?|,
-		lastUpdated => 1203624598
+		message => q|Autoriser la r&eacute;cup&eacute;ration du mot de passe?|,
+		lastUpdated => 1204836109
 	},
 
 	'6' => {
-		message => q|Autoriser la r&eacute;cup&eacute;ration du m&ocirc;t de passe?|,
-		lastUpdated => 1203624945
+		message => q|Autoriser la r&eacute;cup&eacute;ration du mot de passe?|,
+		lastUpdated => 1204836220
 	},
 
 	'recoverPassword.isAllowed' => {
@@ -562,8 +562,8 @@ our $I18N = {
 	},
 
 	'3' => {
-		message => q|M&ocirc;t de passe incorrect. Merci de r&eacute;essayer pour vous connecter.|,
-		lastUpdated => 1203624754
+		message => q|Mot de passe incorrect. Merci de r&eacute;essayer pour vous connecter.|,
+		lastUpdated => 1204836194
 	},
 
 	'recoverFormProfile' => {
@@ -572,8 +572,8 @@ our $I18N = {
 	},
 
 	'9' => {
-		message => q|Expiration des m&ocirc;ts de passe &agrave; la cr&eacute;ation de compte?|,
-		lastUpdated => 1203625041
+		message => q|Expiration des mots de passe &agrave; la cr&eacute;ation de compte?|,
+		lastUpdated => 1204836261
 	},
 
 	'recover password email text2' => {
@@ -597,8 +597,8 @@ our $I18N = {
 	},
 
 	'8' => {
-		message => q|Votre m&ocirc;t de passe a expir&eacute;|,
-		lastUpdated => 1203624991
+		message => q|Votre mot de passe a expir&eacute;|,
+		lastUpdated => 1204836253
 	},
 
 	'createAccount.label' => {
@@ -607,8 +607,8 @@ our $I18N = {
 	},
 
 	'4' => {
-		message => q|Votre m&ocirc;t de passe ne peut &ecirc;tre vide.|,
-		lastUpdated => 1202823501
+		message => q|Votre mot de passe ne peut &ecirc;tre vide.|,
+		lastUpdated => 1204836202
 	},
 
 	'recover.form.footer' => {
@@ -632,8 +632,8 @@ our $I18N = {
 	},
 
 	'5' => {
-		message => q|Votre m&ocirc;t de passe ne peut &ecirc;tre 'm&ocirc;t de passe' ou 'password'.|,
-		lastUpdated => 1203624932
+		message => q|Votre mot de passe ne peut &ecirc;tre 'm&ocirc;t de passe' ou 'password'.|,
+		lastUpdated => 1204836209
 	},
 
 };
