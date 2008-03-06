@@ -27,8 +27,8 @@ our $I18N = {
 	},
 
 	'118' => {
-		message => q|Connection anonyme|,
-		lastUpdated => 1203637700
+		message => q|Connexion anonyme|,
+		lastUpdated => 1204823789
 	},
 
 	'443' => {
@@ -219,8 +219,8 @@ our $I18N = {
 	},
 
 	'540' => {
-		message => q|Karma par connection|,
-		lastUpdated => 1203637724
+		message => q|Karma par connexion|,
+		lastUpdated => 1204823843
 	},
 
 	'private message prev label' => {
@@ -436,11 +436,6 @@ our $I18N = {
 	'976' => {
 		message => q|Ajouter des utilisateurs|,
 		lastUpdated => 1203359472
-	},
-
-	'wiki help label leadin' => {
-		message => q|Pour plus d'aide, allez voir le|,
-		lastUpdated => 1203674777
 	},
 
 	'settings groupIdAdminSpectre hoverHelp' => {
@@ -660,7 +655,7 @@ our $I18N = {
 
 	'64' => {
 		message => q|Se d&eacute;connecter.|,
-		lastUpdated => 1203426525
+		lastUpdated => 1204823853
 	},
 
 	'558' => {
@@ -994,8 +989,8 @@ our $I18N = {
 	},
 
 	'noldaplink' => {
-		message => q|Pas de connection LDAP|,
-		lastUpdated => 1203638572
+		message => q|Pas de connexion LDAP|,
+		lastUpdated => 1204823899
 	},
 
 	'161' => {
@@ -1164,8 +1159,8 @@ our $I18N = {
 	},
 
 	'broken spectre title' => {
-		message => q|Connection &agrave; SPECTRE impossible|,
-		lastUpdated => 1203671507
+		message => q|Connexion &agrave; SPECTRE impossible|,
+		lastUpdated => 1204823884
 	},
 
 	'333' => {
@@ -1274,8 +1269,8 @@ our $I18N = {
 	},
 
 	'426' => {
-		message => q|Historique des connections|,
-		lastUpdated => 1203637624
+		message => q|Historique des connexions|,
+		lastUpdated => 1204823823
 	},
 
 	'369' => {
@@ -1999,8 +1994,8 @@ our $I18N = {
 	},
 
 	'429' => {
-		message => q|L'heure de la connection|,
-		lastUpdated => 1203637711
+		message => q|L'heure de la connexion|,
+		lastUpdated => 1204823834
 	},
 
 	'image' => {
@@ -2014,8 +2009,8 @@ our $I18N = {
 	},
 
 	'73' => {
-		message => q|Connection.|,
-		lastUpdated => 1203637745
+		message => q|Connexion.|,
+		lastUpdated => 1204823867
 	},
 
 	'settings groupIdAdminGroup hoverHelp' => {
@@ -2199,8 +2194,8 @@ our $I18N = {
 	},
 
 	'settings groupIdAdminLoginHistory label' => {
-		message => q|Historiques des connections|,
-		lastUpdated => 1203637757
+		message => q|Historiques des connexions|,
+		lastUpdated => 1204823928
 	},
 
 	'355' => {
@@ -2339,8 +2334,8 @@ our $I18N = {
 	},
 
 	'settings groupIdAdminLoginHistory hoverHelp' => {
-		message => q|Groupe pouvant voir l'historique des connections.|,
-		lastUpdated => 1203637644
+		message => q|Groupe pouvant voir l'historique des connexions.|,
+		lastUpdated => 1204823913
 	},
 
 	'pagination.previousPageUrl' => {
@@ -2494,8 +2489,8 @@ our $I18N = {
 	},
 
 	'422' => {
-		message => q|<p>La connection a &eacute;chou&eacute;e.</p><p>Les informations transmises ne correspondent pas avec un compte existant.</p>|,
-		lastUpdated => 1203637688
+		message => q|<p>La connexion a &eacute;chou&eacute;e.</p><p>Les informations transmises ne correspondent pas avec un compte existant.</p>|,
+		lastUpdated => 1204823812
 	},
 
 	'817' => {
@@ -3278,11 +3273,6 @@ our $I18N = {
 		lastUpdated => 1203362583
 	},
 
-	'wiki help target' => {
-		message => q|Wiki de la communaut&eacute; WebGUI|,
-		lastUpdated => 1203674799
-	},
-
 	'run on admin update user' => {
 		message => q||,
 		lastUpdated => 
@@ -3451,6 +3441,11 @@ our $I18N = {
 	'show my fields' => {
 		message => q|Voir les champs que mon niveau UI autorise|,
 		lastUpdated => 1203674045
+	},
+
+	'external help' => {
+		message => q||,
+		lastUpdated => 
 	},
 
 	'54' => {

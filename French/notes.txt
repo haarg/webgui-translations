@@ -1,0 +1,7 @@
+bonjour, je m'appelle cyrille <colin@univ-metz.fr> je propose que nous mettions ici les termes communs a tout les modules ou les questions relatives à certaine traduction.
+
+
+***************
+
+Template = ?? j'ai vu gabarit
+Asset = Module
