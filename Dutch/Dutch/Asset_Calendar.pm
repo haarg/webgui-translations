@@ -103,7 +103,7 @@ our $I18N = {
 
 	'helpvar url_nextPage' => {
 		message => q|Het URL naar de volgende pagina. Als er geen volgende pagina is, bestaat deze variabele niet.|,
-		lastUpdated => 1204300201
+		lastUpdated => 1204900802
 	},
 
 	'help view list title' => {
@@ -513,7 +513,7 @@ our $I18N = {
 
 	'helpvar dateTime end' => {
 		message => q|Een set van datum/tijd variabelen met het voorvoegsel &quot;end&quot;. Zie Kalender datum/tijd variabelen voor meer informatie.|,
-		lastUpdated => 1204301222
+		lastUpdated => 1204900795
 	},
 
 	'editor' => {
@@ -562,8 +562,8 @@ our $I18N = {
 	},
 
 	'help calendar dateTime body' => {
-		message => q|<p>Deze variabelen zijn beschikbaar voor de meeste datum en tijd objecten in de Kalender.</p><p>Let op: soms hebben deze variabelen een voorvoegsel zoals &quot;start&quot; of &quot;end&quot;. In dat geval wordt de eerste letter van de variablen hieronder een hoofdlette, dus &quot;monthName&quot; met het voorvoegsel &quot;start&quot; wordt &quot;startMonthName&quot;.  </p>|,
-		lastUpdated => 1204301645
+		message => q|<p>Deze variabelen zijn beschikbaar voor de meeste datum en tijd objecten in de Kalender.</p><p>Let op: soms hebben deze variabelen een voorvoegsel zoals &quot;start&quot; of &quot;end&quot;. In dat geval wordt de eerste letter van de variabelen hieronder een hoofdlette, dus &quot;monthName&quot; met het voorvoegsel &quot;start&quot; wordt &quot;startMonthName&quot;.  </p>|,
+		lastUpdated => 1204900785
 	},
 
 	'helpvar dateTime dayOfWeek' => {

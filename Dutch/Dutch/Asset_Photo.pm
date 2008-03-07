@@ -46,6 +46,11 @@ our $I18N = {
 		lastUpdated => 1201262962
 	},
 
+	'editCommentSave message' => {
+		message => q|Het commentaar is vernieuwd. <a href="%s">Terug naar foto</a>.|,
+		lastUpdated => 1204901066
+	},
+
 	'helpvar exif_' => {
 		message => q|Er kan met een naam verwezen worden naar elke EXIF tag.|,
 		lastUpdated => 1201264050
@@ -69,6 +74,11 @@ our $I18N = {
 	'template creationDate' => {
 		message => q|Geupload op|,
 		lastUpdated => 1203437396
+	},
+
+	'helpvar errors' => {
+		message => q|Een functie die de foutberichten aan de gebruiker laat zien.|,
+		lastUpdated => 1204901200
 	},
 
 	'helpvar url_listFilesForOwner' => {
@@ -129,6 +139,11 @@ our $I18N = {
 	'template url_album' => {
 		message => q|Terug naar album|,
 		lastUpdated => 1203437259
+	},
+
+	'commentForm error no commentId' => {
+		message => q|Er was geen commentaar ID gegeven. Dit duidt op een probleem met het sjabloon. Licht een beheerder in.|,
+		lastUpdated => 1204901022
 	},
 
 	'helpvar form_synopsis' => {
@@ -231,6 +246,11 @@ our $I18N = {
 		lastUpdated => 1203437289
 	},
 
+	'help editComment body' => {
+		message => q|De variabelen zijn beschikbaar voor de foto commentaar bewerk pagina.|,
+		lastUpdated => 1204901124
+	},
+
 	'assetName' => {
 		message => q|Foto|,
 		lastUpdated => 1201193472
@@ -244,6 +264,11 @@ our $I18N = {
 	'helpvar url_demote' => {
 		message => q|Het URL om de foto in rang te laten dalen. Brengt de gebruiker direct terug naar het bewerkingsformulier van het bovenliggende galerie album.|,
 		lastUpdated => 1201264177
+	},
+
+	'helpvar error' => {
+		message => q|Het i18n fouten bericht|,
+		lastUpdated => 1204901170
 	},
 
 	'helpvar numberOfComments' => {
@@ -316,9 +341,19 @@ our $I18N = {
 		lastUpdated => 1203437416
 	},
 
+	'template error happened' => {
+		message => q|Een fout is opgetreden tijdens het verwerken van het aanvraag.|,
+		lastUpdated => 1204901353
+	},
+
 	'helpvar form_parentId' => {
 		message => q|Selecteer in welk album de snelkoppeling gemaakt moet worden.|,
 		lastUpdated => 1201263729
+	},
+
+	'help editComment title' => {
+		message => q|Foto commentaar bewerk sjabloon|,
+		lastUpdated => 1204901153
 	},
 
 	'editForm title label' => {
@@ -424,6 +459,11 @@ our $I18N = {
 	'template assetName' => {
 		message => q|Foto|,
 		lastUpdated => 1204031395
+	},
+
+	'commentForm error no bodyText' => {
+		message => q|Er was geen tekst ingevoerd. Voer tekst in om commentaar te geven.|,
+		lastUpdated => 1204900977
 	},
 
 	'template url_makeShortcut' => {
