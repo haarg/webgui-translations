@@ -42,8 +42,8 @@ our $I18N = {
 	},
 
 	'keywords' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Słowa kluczowe|,
+		lastUpdated => 1204872247
 	},
 
 	'871 description' => {

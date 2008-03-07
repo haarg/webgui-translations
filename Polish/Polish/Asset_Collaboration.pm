@@ -12,8 +12,8 @@ our $I18N = {
 	},
 
 	'date' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Data|,
+		lastUpdated => 1204872295
 	},
 
 	'message.label' => {
@@ -42,8 +42,8 @@ our $I18N = {
 	},
 
 	'controls' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Zestaw ikonek zarządzania do usunięcia lub zmiany porządku w wiadomości.|,
+		lastUpdated => 1204873275
 	},
 
 	'who threads' => {
@@ -92,8 +92,8 @@ our $I18N = {
 	},
 
 	'read more' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Czytaj więcej|,
+		lastUpdated => 1204886798
 	},
 
 	'max image size help' => {
@@ -102,8 +102,8 @@ our $I18N = {
 	},
 
 	'compensation.label' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Słowo &quot;Kompensata&quot;.|,
+		lastUpdated => 1204873062
 	},
 
 	'title' => {
@@ -112,8 +112,8 @@ our $I18N = {
 	},
 
 	'pubDate' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Data publikacji.|,
+		lastUpdated => 1204886522
 	},
 
 	'user.isModerator' => {
@@ -132,8 +132,8 @@ our $I18N = {
 	},
 
 	'reply.label' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Słowo &quot;Odpowiedź&quot;.|,
+		lastUpdated => 1204889764
 	},
 
 	'author' => {
@@ -142,13 +142,13 @@ our $I18N = {
 	},
 
 	'rating_loop' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Pętla dla poszczeg&oacute;lnych punkt&oacute;w oceny dla wiadomości.|,
+		lastUpdated => 1204886747
 	},
 
 	'previous' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Poprzedni|,
+		lastUpdated => 1204886488
 	},
 
 	'job.header.label' => {
@@ -162,18 +162,18 @@ our $I18N = {
 	},
 
 	'compensation' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Kompensata|,
+		lastUpdated => 1204873049
 	},
 
 	'post.label' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Słowo &quot;Wiadomość&quot;.|,
+		lastUpdated => 1204886348
 	},
 
 	'posts/page description' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Liczba wiadomości wyświetlanych na każdej stronie w szablonie wątku. Ustawienie większej liczby wiadomości może op&oacute;źnić generowanie strony.|,
+		lastUpdated => 1204886466
 	},
 
 	'by.label' => {
@@ -217,8 +217,8 @@ our $I18N = {
 	},
 
 	'rejected because no user account' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Ponieważ nie jesteś naszym użytkownikiem i nie posiadasz konta nie możesz wysyłać wiadomości. Być może też nie skojarzyłeś tego adresu e-mail z kontem w systemie. |,
+		lastUpdated => 1204888591
 	},
 
 	'visitor cache timeout help' => {
@@ -237,8 +237,8 @@ our $I18N = {
 	},
 
 	'critical.label' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Słowo &quot;Krytyczny (w większości nie pracuje)&quot;.|,
+		lastUpdated => 1204873456
 	},
 
 	'use preview' => {
@@ -257,8 +257,8 @@ our $I18N = {
 	},
 
 	'replies' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Odpowiedzi|,
+		lastUpdated => 1204889723
 	},
 
 	'use captcha hover help' => {
@@ -297,8 +297,8 @@ our $I18N = {
 	},
 
 	'dateUpdated.human' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Data aktualizacji wiadomości w czytelnej dla człowieka postaci.|,
+		lastUpdated => 1204872394
 	},
 
 	'mail server help' => {
@@ -317,13 +317,13 @@ our $I18N = {
 	},
 
 	'posts/page' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Liczba wiadomości na stronę|,
+		lastUpdated => 1204886401
 	},
 
 	'default karma scale' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Domyślna Skala dla Karmy|,
+		lastUpdated => 1204872422
 	},
 
 	'by' => {
@@ -332,8 +332,8 @@ our $I18N = {
 	},
 
 	'cosmetic' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Kosmetyka (błędy ortograficzne, problemy z formatowaniem)|,
+		lastUpdated => 1204873366
 	},
 
 	'system template' => {
@@ -347,18 +347,18 @@ our $I18N = {
 	},
 
 	'preview' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Podgląd|,
+		lastUpdated => 1204886478
 	},
 
 	'cosmetic.label' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Słowo &quot;Kosmetyka (błędy ortograficzne, problemy z formatowaniem)&quot;.|,
+		lastUpdated => 1204873387
 	},
 
 	'date.label' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Słowo &quot;Data&quot;.|,
+		lastUpdated => 1204872335
 	},
 
 	'attachment.length' => {
@@ -407,13 +407,13 @@ our $I18N = {
 	},
 
 	'content filter description' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Wybierz &quot;Tak&quot; aby filtrować kontent w każedj wiadomości. |,
+		lastUpdated => 1204873168
 	},
 
 	'readmore.label' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Fraza &quot;Czytaj więcej&quot;.|,
+		lastUpdated => 1204886838
 	},
 
 	'guid' => {
@@ -422,8 +422,8 @@ our $I18N = {
 	},
 
 	'post_loop' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Lista zawierająca wiadomości Zasobu Wsp&oacute;łpracy.|,
+		lastUpdated => 1204886377
 	},
 
 	'who threads description' => {
@@ -477,8 +477,8 @@ our $I18N = {
 	},
 
 	'replies.label' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Słowo &quot;Odpowiedzi&quot;.|,
+		lastUpdated => 1204889736
 	},
 
 	'notification template' => {
@@ -507,8 +507,8 @@ our $I18N = {
 	},
 
 	'collaboration template labels title' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Etykiety Zmiennych Szablonu Systemu Wsp&oacute;łpracy|,
+		lastUpdated => 1204872837
 	},
 
 	'sortby.date.url' => {
@@ -522,13 +522,13 @@ our $I18N = {
 	},
 
 	'post title' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Tytuł wiadomości (komunikatu).|,
+		lastUpdated => 1204886329
 	},
 
 	'content' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Przeformatowany kontent wiadomości.|,
+		lastUpdated => 1204873108
 	},
 
 	'form.search' => {
@@ -542,13 +542,13 @@ our $I18N = {
 	},
 
 	'rate' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Wskaźnik|,
+		lastUpdated => 1204886645
 	},
 
 	'question.header.label' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Fraza &quot;Edycja Pytania&quot;.|,
+		lastUpdated => 1204886604
 	},
 
 	'job.description.label' => {
@@ -582,8 +582,8 @@ our $I18N = {
 	},
 
 	'rejected because not allowed' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Nie możesz wysyłać wiadomości ponieważ posiadasz niewystarczające uprawnienia lub nie jesteś subskrybentem dyskusji.|,
+		lastUpdated => 1204888525
 	},
 
 	'edit job' => {
@@ -592,8 +592,8 @@ our $I18N = {
 	},
 
 	'date submitted' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Data Wysłania|,
+		lastUpdated => 1204872311
 	},
 
 	'edit submission' => {
@@ -682,8 +682,8 @@ our $I18N = {
 	},
 
 	'critical' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Krytyczny (w większości nie pracuje)|,
+		lastUpdated => 1204873443
 	},
 
 	'lastReply.user.isVisitor' => {
@@ -697,13 +697,13 @@ our $I18N = {
 	},
 
 	'rejected' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Odrzucono|,
+		lastUpdated => 1204887751
 	},
 
 	'rating.label' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Słowo &quot;Ocena&quot;.|,
+		lastUpdated => 1204886690
 	},
 
 	'feed description' => {
@@ -807,13 +807,13 @@ our $I18N = {
 	},
 
 	'rate.label' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Słowo &quot;Wskaźnik&quot;.|,
+		lastUpdated => 1204886657
 	},
 
 	'question' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Pytanie|,
+		lastUpdated => 1204886532
 	},
 
 	'back.label' => {
@@ -837,8 +837,8 @@ our $I18N = {
 	},
 
 	'rating_loop.count' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Zmienna indeksowa dla <strong>rating_loop</strong>.|,
+		lastUpdated => 1204886786
 	},
 
 	'thread template' => {
@@ -892,8 +892,8 @@ our $I18N = {
 	},
 
 	'date updated' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Data Aktualizacji|,
+		lastUpdated => 1204872324
 	},
 
 	'add.url' => {
@@ -947,8 +947,8 @@ our $I18N = {
 	},
 
 	'content filter' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Używać filtr kontentu?|,
+		lastUpdated => 1204873124
 	},
 
 	'feed title' => {
@@ -1058,7 +1058,7 @@ our $I18N = {
 
 	'require subscription for email posting' => {
 		message => q|Wymagana subskrypcja dla odpowiedzi elektroniczną pocztą?|,
-		lastUpdated => 1204792016
+		lastUpdated => 1204886821
 	},
 
 	'mail prefix help' => {
@@ -1072,8 +1072,8 @@ our $I18N = {
 	},
 
 	'question.label' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Słowo &quot;Pytanie&quot;.|,
+		lastUpdated => 1204886618
 	},
 
 	'lastReply.title' => {
@@ -1092,8 +1092,8 @@ our $I18N = {
 	},
 
 	'rating' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Ocena|,
+		lastUpdated => 1204886677
 	},
 
 	'thread template description' => {
@@ -1107,8 +1107,8 @@ our $I18N = {
 	},
 
 	'default karma scale help' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Domyślna wartość, kt&oacute;ra będzie powiązana ze polem skali karmy w wątkach. Skala Karmy jest mechanizmem porządkującym według wagi trudności, komplikacji etc.|,
+		lastUpdated => 1204872712
 	},
 
 	'visitorName.label' => {
@@ -1127,13 +1127,13 @@ our $I18N = {
 	},
 
 	'contentType' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Typ kontentu|,
+		lastUpdated => 1204873201
 	},
 
 	'dateSubmitted.human' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Data wysłania wiadomości w czytenej dla człowieka postaci.|,
+		lastUpdated => 1204872367
 	},
 
 	'sortby.replies.url' => {
@@ -1197,8 +1197,8 @@ our $I18N = {
 	},
 
 	'collaboration rss template title' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Zmienne Szablonu Systemu Wsp&oacute;łpracy RSS|,
+		lastUpdated => 1204872772
 	},
 
 	'attachment.label' => {
@@ -1232,8 +1232,8 @@ our $I18N = {
 	},
 
 	'collaborationAssetId' => {
-		message => q||,
-		lastUpdated => 
+		message => q|assetId tego Systemu Wsp&oacute;łpracy. Inaczej niż zmienna assetId, ta nie może być nadpisana&nbsp;  przez wewmętrzne wartości assetId wątk&oacute;w.|,
+		lastUpdated => 1204873019
 	},
 
 	'user defined 4' => {
@@ -1282,8 +1282,8 @@ our $I18N = {
 	},
 
 	'collaboration search template title' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Zmienne Szablonu Szukania Systemu Wsp&oacute;łpracy|,
+		lastUpdated => 1204872807
 	},
 
 	'layout.label' => {
@@ -1352,8 +1352,8 @@ our $I18N = {
 	},
 
 	'previous.label' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Słowo &quot;Poprzedni&quot;.|,
+		lastUpdated => 1204886500
 	},
 
 	'karma rating multiplier description' => {
@@ -1447,8 +1447,8 @@ our $I18N = {
 	},
 
 	'collaboration template title' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Zmienne Szablonu Systemu Wsp&oacute;łpracy|,
+		lastUpdated => 1204872878
 	},
 
 	'lastBuildDate' => {
@@ -1552,8 +1552,8 @@ our $I18N = {
 	},
 
 	'reply' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Odpowiedź|,
+		lastUpdated => 1204889751
 	},
 
 	'edit link' => {

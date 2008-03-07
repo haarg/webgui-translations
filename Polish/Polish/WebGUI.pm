@@ -13,7 +13,7 @@ our $I18N = {
 
 	'127' => {
 		message => q|Adres URL przedsiębiorstwa|,
-		lastUpdated => 1031514049
+		lastUpdated => 1204891039
 	},
 
 	'1049' => {
@@ -28,7 +28,7 @@ our $I18N = {
 
 	'118' => {
 		message => q|Rejestracja anonimowa|,
-		lastUpdated => 1031514049
+		lastUpdated => 1204890729
 	},
 
 	'443' => {
@@ -127,8 +127,8 @@ our $I18N = {
 	},
 
 	'1021' => {
-		message => q|Rate Message|,
-		lastUpdated => 1065356764
+		message => q|Ocena wiadomości|,
+		lastUpdated => 1204890142
 	},
 
 	'private message to label' => {
@@ -137,9 +137,8 @@ our $I18N = {
 	},
 
 	'135 description' => {
-		message => q|<p>This is the address of your local mail server. It is needed for all features that use the Internet email system (such as password recovery).</p>
-<p>Optionally, if you are running a sendmail server on the same machine as WebGUI, you can also specify a path to your sendmail executable. On most Linux systems this can be found at "/usr/lib/sendmail".</p>|,
-		lastUpdated => 1120239343
+		message => q|<p>Adres twojego lokalnego serwera elektronicznej poczty. Potrzebny jest dla wszystkich funkcji korzystających z systemu elektronicznej poczty w Internecie (jak przykładowo odzyskanie hasła).</p><p>Opcjonalnie, jeśli uruchomiono serwer pocztowy na tej samej maszynie co WebGUI można podać ścieżkę do programu wykonalnego. Na większości Linuxach będzie to program &quot;/usr/lib/sendmail&quot;.</p>|,
+		lastUpdated => 1204891526
 	},
 
 	'540 description' => {
@@ -289,7 +288,7 @@ our $I18N = {
 
 	'139' => {
 		message => q|Nie|,
-		lastUpdated => 1031514049
+		lastUpdated => 1204891540
 	},
 
 	'auto request commit' => {
@@ -338,13 +337,13 @@ our $I18N = {
 	},
 
 	'14' => {
-		message => q|View pending submissions.|,
-		lastUpdated => 1031514049
+		message => q|Pokaż oczekujące zgłoszenia.|,
+		lastUpdated => 1204891592
 	},
 
 	'135' => {
 		message => q|Serwer SMTP|,
-		lastUpdated => 1031514049
+		lastUpdated => 1204891337
 	},
 
 	'348' => {
@@ -499,7 +498,7 @@ our $I18N = {
 
 	'119' => {
 		message => q|Metoda autoryzacji (domyślnie)|,
-		lastUpdated => 1031514049
+		lastUpdated => 1204890801
 	},
 
 	'453' => {
@@ -553,8 +552,8 @@ our $I18N = {
 	},
 
 	'1035' => {
-		message => q|Notification Template|,
-		lastUpdated => 1066034661
+		message => q|Szablon Powiadomienia|,
+		lastUpdated => 1204890217
 	},
 
 	'deactivateAccount success' => {
@@ -604,7 +603,7 @@ our $I18N = {
 
 	'107' => {
 		message => q|Bezpieczeństwo|,
-		lastUpdated => 1031514049
+		lastUpdated => 1204890466
 	},
 
 	'87' => {
@@ -675,7 +674,7 @@ Ustaw tą wartoś na Tak, jeśli chcesz aby WebGUI informowało użytkownika o f
 
 	'12' => {
 		message => q|Wyłącz tryb administracyjny.|,
-		lastUpdated => 1031514049
+		lastUpdated => 1204890809
 	},
 
 	'881' => {
@@ -732,7 +731,7 @@ Wprowadź tekst wiadomości jaka ma być wysłana do użytkownika w celu poinfor
 
 	'1084' => {
 		message => q|Użyj domyślnego paska narzędzi dla mojego języka|,
-		lastUpdated => 1161300438
+		lastUpdated => 1204890643
 	},
 
 	'370' => {
@@ -757,7 +756,7 @@ Wprowadź tekst wiadomości jaka ma być wysłana do użytkownika w celu poinfor
 
 	'1' => {
 		message => q|Dodaj zawartość...|,
-		lastUpdated => 1204533452
+		lastUpdated => 1204890103
 	},
 
 	'144' => {
@@ -792,7 +791,7 @@ Wprowadź adres IP w formacie CIDR. Można wprowadzić wiele adresów jeśli zos
 
 	'1075' => {
 		message => q|Link bazy danych|,
-		lastUpdated => 1056151382
+		lastUpdated => 1204890515
 	},
 
 	'381' => {
@@ -912,7 +911,7 @@ Ta grupa może być następnie nazwana &quot;Pracownicy w HMO 1&quot; i może po
 
 	'1073' => {
 		message => q|Szablon stylu|,
-		lastUpdated => 1070027660
+		lastUpdated => 1204890507
 	},
 
 	'436' => {
@@ -1006,8 +1005,8 @@ Ta grupa może być następnie nazwana &quot;Pracownicy w HMO 1&quot; i może po
 	},
 
 	'1026' => {
-		message => q|Bogaty edytor dostępny?|,
-		lastUpdated => 1065966219
+		message => q|Edytor bogaty dostępny?|,
+		lastUpdated => 1204890168
 	},
 
 	'329' => {
@@ -1046,8 +1045,8 @@ Ta grupa może być następnie nazwana &quot;Pracownicy w HMO 1&quot; i może po
 	},
 
 	'125 description' => {
-		message => q|The name of your company. It will appear on all emails and anywhere you use the Company Name style macro.|,
-		lastUpdated => 1120239343
+		message => q|Nazwa twojego przedsiębiorstwa. Będzie pojawiać się na wszystkich listach elektronicznych ioraz wszędzie, gdzie zastosowano makro Company Name.|,
+		lastUpdated => 1204890890
 	},
 
 	'746' => {
@@ -1067,7 +1066,7 @@ Ta grupa może być następnie nazwana &quot;Pracownicy w HMO 1&quot; i może po
 
 	'1011' => {
 		message => q|Kod|,
-		lastUpdated => 1060433339
+		lastUpdated => 1204889975
 	},
 
 	'556 description' => {
@@ -1147,7 +1146,7 @@ Ta grupa może być następnie nazwana &quot;Pracownicy w HMO 1&quot; i może po
 
 	'138' => {
 		message => q|Tak|,
-		lastUpdated => 1031514049
+		lastUpdated => 1204891533
 	},
 
 	'751' => {
@@ -1186,9 +1185,8 @@ Ta grupa może być następnie nazwana &quot;Pracownicy w HMO 1&quot; i może po
 	},
 
 	'1075 description' => {
-		message => q|<p>Jeśli chciałbyś mieć walidację użytkowników dla tej grupy wykorzystującą zewętrzną bazę danych wskaż link bazy danych.
-</p>|,
-		lastUpdated => 1120448672
+		message => q|<p>Wskaż link bazy danych jeśli chciałbyś zastosować walidację użytkownik&oacute;w dla tej grupy wykorzystującą zewętrzną bazę danych. </p>|,
+		lastUpdated => 1204890558
 	},
 
 	'broken spectre title' => {
@@ -1282,13 +1280,13 @@ Ta grupa może być następnie nazwana &quot;Pracownicy w HMO 1&quot; i może po
 	},
 
 	'130 description' => {
-		message => q|The size (in kilobytes) of the maximum allowable attachment to be uploaded to your system. Due to the nature of the HTTP Protocol, 100MB is the largest practical file size you can expect to upload via WebGUI's web interface. |,
-		lastUpdated => 1120239343
+		message => q|Maksymalny rozmiar (w kilobajtach) dozwolonego do załączenia pliku. Biorąc pod uwagę budowę protokołu HTTP, rozmiar 100MB uznaje się za maksymalnie praktyczny.<br /> |,
+		lastUpdated => 1204891309
 	},
 
 	'1006' => {
 		message => q|Szyfrować sesję?|,
-		lastUpdated => 1057208065
+		lastUpdated => 1204889815
 	},
 
 	'company' => {
@@ -1298,7 +1296,7 @@ Ta grupa może być następnie nazwana &quot;Pracownicy w HMO 1&quot; i może po
 
 	'126' => {
 		message => q|Adres e-mail firmowy|,
-		lastUpdated => 1031514049
+		lastUpdated => 1204890899
 	},
 
 	'426' => {
@@ -1432,13 +1430,13 @@ Ta grupa może być następnie nazwana &quot;Pracownicy w HMO 1&quot; i może po
 	},
 
 	'1006 description' => {
-		message => q|Should the system use the HTTPS protocol for the login form?  Note that setting this option to true will encrypt not only the login form, but all pages after that as well.|,
-		lastUpdated => 1163457062
+		message => q|Czy system powinien używać protokołu HTTPS dla formularza logowania? Zauważ, że ustawienie tej wartości spowoduje zaszyfrowanie nie tylko formularza logowania, ale całych stron.|,
+		lastUpdated => 1204889921
 	},
 
 	'108' => {
 		message => q|Właściciel|,
-		lastUpdated => 1031514049
+		lastUpdated => 1204890634
 	},
 
 	'send private message' => {
@@ -1563,7 +1561,7 @@ Ta grupa może być następnie nazwana &quot;Pracownicy w HMO 1&quot; i może po
 
 	'1076' => {
 		message => q|Baza danych WebGUI|,
-		lastUpdated => 1070899134
+		lastUpdated => 1204890577
 	},
 
 	'510' => {
@@ -1572,8 +1570,8 @@ Ta grupa może być następnie nazwana &quot;Pracownicy w HMO 1&quot; i może po
 	},
 
 	'1077' => {
-		message => q|Funkcja jaką próbujesz wywołać jest niedostępna w tym module autoryzacji|,
-		lastUpdated => 1067951805
+		message => q|Funkcja jaką pr&oacute;bujesz wywołać jest niedostępna w tym module autoryzacji|,
+		lastUpdated => 1204890589
 	},
 
 	'449' => {
@@ -1629,8 +1627,8 @@ Różnica w liczbie dni od dnia wygaśnięcia ważności grupowania w celu usuni
 	},
 
 	'1039' => {
-		message => q|Powrót|,
-		lastUpdated => 1204541804
+		message => q|Powr&oacute;t|,
+		lastUpdated => 1204890227
 	},
 
 	'1005' => {
@@ -1685,7 +1683,7 @@ Różnica w liczbie dni od dnia wygaśnięcia ważności grupowania w celu usuni
 
 	'130' => {
 		message => q|Maksymalny rozmiar załącznika|,
-		lastUpdated => 1031514049
+		lastUpdated => 1204891157
 	},
 
 	'543' => {
@@ -1856,7 +1854,7 @@ Różnica w liczbie dni od dnia wygaśnięcia ważności grupowania w celu usuni
 
 	'1069' => {
 		message => q|Jak użyć|,
-		lastUpdated => 1066641432
+		lastUpdated => 1204890269
 	},
 
 	'user email template description' => {
@@ -1975,8 +1973,8 @@ Różnica w liczbie dni od dnia wygaśnięcia ważności grupowania w celu usuni
 	},
 
 	'141 description' => {
-		message => q|If a page that a user requests is not found in the system, the user can either be redirected to the home page or to an error page where they can attempt to find what they were looking for. You decide which is better for your users. |,
-		lastUpdated => 1120239343
+		message => q|<p>Jeśli użytkownik zarządał nieistniejącej strony może być przekierowany do storny domowej lub strony błędu, gdzie następnie może pr&oacute;bować namierzyć poszukiwanej treści. Ty decydujesz jak będzie lepiej dla twoich użytkownik&oacute;w.</p>|,
+		lastUpdated => 1204891748
 	},
 
 	'settings groupIdAdminDatabaseLink label' => {
@@ -2183,7 +2181,7 @@ Ieśli włączyłeś Karmę w serwisie możesz ustalić wartość progu dla grup
 
 	'104' => {
 		message => q|URL|,
-		lastUpdated => 1031514049
+		lastUpdated => 1204890234
 	},
 
 	'412' => {
@@ -2311,7 +2309,7 @@ Aby zdefiniować filtr zmiennych scratch dodaj linię do filtru i wprowadź pola
 
 	'1017' => {
 		message => q|Ostatnia odpowiedź|,
-		lastUpdated => 1031514049
+		lastUpdated => 1204890121
 	},
 
 	'37' => {
@@ -2331,7 +2329,7 @@ Aby zdefiniować filtr zmiennych scratch dodaj linię do filtru i wprowadź pola
 
 	'1029' => {
 		message => q|Edytowano w|,
-		lastUpdated => 1047842180
+		lastUpdated => 1204890187
 	},
 
 	'538' => {
@@ -2522,13 +2520,13 @@ div.tabs {
 	},
 
 	'1008' => {
-		message => q|Mieszanina Tekstu u HTML|,
-		lastUpdated => 1060433234
+		message => q|Mieszanina Tekstu i HTML|,
+		lastUpdated => 1204889950
 	},
 
 	'1027' => {
-		message => q|Użyć filtrów kontentu?|,
-		lastUpdated => 1099434667
+		message => q|Użyć filtr&oacute;w kontentu?|,
+		lastUpdated => 1204890180
 	},
 
 	'user function style' => {
@@ -2558,7 +2556,7 @@ div.tabs {
 
 	'1072' => {
 		message => q|Adres e-mail jest już w użyciu. Proszę wprowadzić inny.|,
-		lastUpdated => 1068703399
+		lastUpdated => 1204890499
 	},
 
 	'pages' => {
@@ -2572,8 +2570,8 @@ div.tabs {
 	},
 
 	'118 description' => {
-		message => q|Do you wish visitors to your site to be able to register themselves?|,
-		lastUpdated => 1120239343
+		message => q|Czy zezwalasz na anonimową rejestrację użytkownik&oacute;w?|,
+		lastUpdated => 1204890792
 	},
 
 	'settings groupIdAdminAdSpace hoverHelp' => {
@@ -2582,8 +2580,8 @@ div.tabs {
 	},
 
 	'126 description' => {
-		message => q|A general email address at your company. This is the address that all automated messages will come from. It can also be used via Company Email Address style macro.|,
-		lastUpdated => 1120239343
+		message => q|Gł&oacute;wnu adres e-mail twojego przedsiębiorstwa. Adres będzie wykorzystany we wszystkich listach elektronicznych wychodzących z systemu. Będzie r&oacute;wnież użyty w miejscach, gdzie zastosowano makro Company Email Address.|,
+		lastUpdated => 1204891026
 	},
 
 	'991 description' => {
@@ -2688,7 +2686,7 @@ div.tabs {
 
 	'104 description' => {
 		message => q|Wprowadź adres URL dla twojego linku|,
-		lastUpdated => 1121298520
+		lastUpdated => 1204890242
 	},
 
 	'866' => {
@@ -2757,9 +2755,8 @@ div.tabs {
 	},
 
 	'1078' => {
-		message => q|Istnieje już w systemie użytkownik z wprowadzonym adresem e-mail.
-		Proszę poprawić dane w formularzu i ponownie wywołać utworzenie konta dla użytkownika|,
-		lastUpdated => 1067951807
+		message => q|Istnieje już w systemie użytkownik z wprowadzonym adresem e-mail. 		Proszę poprawić dane w formularzu i ponownie wywołać utworzenie konta dla użytkownika|,
+		lastUpdated => 1204890606
 	},
 
 	'pagination.text' => {
@@ -2803,8 +2800,8 @@ div.tabs {
 	},
 
 	'1085' => {
-		message => q|Pagination Template Variables|,
-		lastUpdated => 1078243385
+		message => q|Zmienne Szablonu Podziału na podstrony|,
+		lastUpdated => 1204890701
 	},
 
 	'Enable user invitations' => {
@@ -2833,8 +2830,8 @@ div.tabs {
 	},
 
 	'127 description' => {
-		message => q|The primary URL of your company. This will appear on all automated emails sent from the WebGUI system. It is also available via the Company URL style macro.|,
-		lastUpdated => 1120239343
+		message => q|Gł&oacute;wny adres URL strony przedsiębiorstwa. Adres URL pojawi się na wszystkich automatycznie generownych przez system listach elektronicznych. Dostępny jest r&oacute;wnież poprzez makro Company URL.|,
+		lastUpdated => 1204891150
 	},
 
 	'1051' => {
@@ -2960,7 +2957,7 @@ div.tabs {
 
 	'125' => {
 		message => q|Nazwa przedsiębiorstwa|,
-		lastUpdated => 1031514049
+		lastUpdated => 1204890815
 	},
 
 	'44' => {
@@ -2979,8 +2976,8 @@ div.tabs {
 	},
 
 	'1007' => {
-		message => q|Content Type|,
-		lastUpdated => 1060432032
+		message => q|Typ Kontentu|,
+		lastUpdated => 1204889938
 	},
 
 	'95' => {
@@ -3072,8 +3069,8 @@ div.tabs {
 	},
 
 	'1010' => {
-		message => q|Text|,
-		lastUpdated => 1060433369
+		message => q|Tekst|,
+		lastUpdated => 1204889969
 	},
 
 	'707' => {
@@ -3106,8 +3103,8 @@ Okres czasu przez jaki użytkownik należy do tej grupy zanim zostanie z niej us
 	},
 
 	'1069 description' => {
-		message => q|Select which host to use by default when generating URLs. Config Sitename will use the "sitename" variable from your config file. And Env HTTP Host will use the "HTTP_HOST" environment variable provided by the web server.|,
-		lastUpdated => 1120239343
+		message => q|<p>Wybierz kt&oacute;ry serwer użyć domyślnie przy generowaniu adres&oacute;w URL. Konfiguracja serwisu stosuje parametr &quot;sitename&quot; z pliku konfiguracyjnego. Jeśli wybrano &quot;Env HTTP&quot; wykorzystywana jest zmienna środowiskowa &quot;HTTP_HOST&quot; dostarczona przez serwer WWW.</p>|,
+		lastUpdated => 1204890458
 	},
 
 	'settings groupIdAdminCron label' => {
@@ -3172,8 +3169,8 @@ Okres czasu przez jaki użytkownik należy do tej grupy zanim zostanie z niej us
 	},
 
 	'1079' => {
-		message => q|Printable Style|,
-		lastUpdated => 1073152790
+		message => q|Styl drukowalny|,
+		lastUpdated => 1204890625
 	},
 
 	'user invitations email exists description' => {
@@ -3282,8 +3279,8 @@ Okres czasu przez jaki użytkownik należy do tej grupy zanim zostanie z niej us
 	},
 
 	'1043' => {
-		message => q|Archive After|,
-		lastUpdated => 1066394455
+		message => q|Archiwizuj po|,
+		lastUpdated => 1204890261
 	},
 
 	'Enable Metadata' => {
@@ -3333,7 +3330,7 @@ Okres czasu przez jaki użytkownik należy do tej grupy zanim zostanie z niej us
 
 	'1071' => {
 		message => q|Env HTTP Host|,
-		lastUpdated => 1066641511
+		lastUpdated => 1204890489
 	},
 
 	'select' => {
@@ -3484,7 +3481,7 @@ a user.|,
 
 	'10' => {
 		message => q|Zarządzanie koszem.|,
-		lastUpdated => 1031514049
+		lastUpdated => 1204889804
 	},
 
 	'864 description' => {
@@ -3627,8 +3624,8 @@ or are under your current version tag.</p>
 	},
 
 	'1030' => {
-		message => q|by|,
-		lastUpdated => 1047842270
+		message => q|przez|,
+		lastUpdated => 1204890199
 	},
 
 	'done' => {
@@ -3658,7 +3655,7 @@ or are under your current version tag.</p>
 
 	'1009' => {
 		message => q|HTML|,
-		lastUpdated => 1060433286
+		lastUpdated => 1204889957
 	},
 
 	'pagination.pageList.upTo10' => {
@@ -3667,8 +3664,8 @@ or are under your current version tag.</p>
 	},
 
 	'141' => {
-		message => q|Not Found Page|,
-		lastUpdated => 1031514049
+		message => q|Strona nieznaleziona.|,
+		lastUpdated => 1204891642
 	},
 
 	'403' => {
@@ -3692,8 +3689,8 @@ or are under your current version tag.</p>
 	},
 
 	'134' => {
-		message => q|Recover Password Message|,
-		lastUpdated => 1031514049
+		message => q|Komunikat Odzyskania Hasła|,
+		lastUpdated => 1204891330
 	},
 
 	'848' => {
@@ -3742,8 +3739,8 @@ or are under your current version tag.</p>
 	},
 
 	'1070' => {
-		message => q|Config Sitename|,
-		lastUpdated => 1066641473
+		message => q|Konfiguracja Serwisu|,
+		lastUpdated => 1204890483
 	},
 
 	'703' => {
@@ -3758,7 +3755,7 @@ or are under your current version tag.</p>
 
 	'1016' => {
 		message => q|Odpowiedzi|,
-		lastUpdated => 1031514049
+		lastUpdated => 1204890113
 	},
 
 	'help' => {
