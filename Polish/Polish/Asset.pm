@@ -2,8 +2,8 @@ package WebGUI::i18n::Polish::Asset;
 
 our $I18N = {
 	'lock help' => {
-		message => q|Chwyć kopię tego zasobu dla edycji, co zablokuje zasób dla wszystkich nie używających aktualnej przywieszki rewizji.  Ta opcja jest wyświetlana wyłącznie jeśli zasób nie jest aktualnie zablokowany.|,
-		lastUpdated => 0
+		message => q|Przejmij kopię tego zasobu dla edycji. Nastąpi blokada zasobu dla wszystkich nie używających Twojej aktualnej wersjji.  Opcja ta jest wyświetlana wyłącznie jeśli zasób nie jest aktualnie zablokowany.|,
+		lastUpdated => 1204531968
 	},
 
 	'make package' => {
@@ -107,8 +107,8 @@ our $I18N = {
 	},
 
 	'properties' => {
-		message => q|Własności|,
-		lastUpdated => 1204239369
+		message => q|<p>Właściwości</p>|,
+		lastUpdated => 1204532063
 	},
 
 	'delete' => {
@@ -127,8 +127,8 @@ our $I18N = {
 	},
 
 	'11' => {
-		message => q|Opr&oacute;żnij śmietnik.|,
-		lastUpdated => 1203963216
+		message => q|Opr&oacute;żnij kosz.|,
+		lastUpdated => 1204271937
 	},
 
 	'could not open path' => {
@@ -157,8 +157,8 @@ our $I18N = {
 	},
 
 	'964' => {
-		message => q|Zarządzaj śmietnikiem systemowym.|,
-		lastUpdated => 1203964178
+		message => q|Zarządzaj koszem systemowym.|,
+		lastUpdated => 1204271962
 	},
 
 	'412 description' => {
@@ -473,7 +473,7 @@ our $I18N = {
 
 	'import' => {
 		message => q|Import|,
-		lastUpdated => 0
+		lastUpdated => 1204532163
 	},
 
 	'confirm change' => {
@@ -767,8 +767,8 @@ our $I18N = {
 	},
 
 	'extrasUploads form label' => {
-		message => q|Extras and uploads directories|,
-		lastUpdated => 1160773957
+		message => q|Katalogi dla dodatków i przesłanych plików|,
+		lastUpdated => 1204272091
 	},
 
 	'done' => {
@@ -847,8 +847,8 @@ our $I18N = {
 	},
 
 	'promote' => {
-		message => q|Promuj|,
-		lastUpdated => 1204239758
+		message => q|<p>Przesuń wyżej</p>|,
+		lastUpdated => 1204532027
 	},
 
 	'896' => {
@@ -877,8 +877,8 @@ our $I18N = {
 	},
 
 	'menuTitle' => {
-		message => q|The title of the Asset used in Navigations.|,
-		lastUpdated => 1160773957
+		message => q|Tytuł Zasobu używany w Nawigatorach.|,
+		lastUpdated => 1204532201
 	},
 
 	'make prototype' => {
