@@ -499,8 +499,8 @@ our $I18N = {
 	},
 
 	'119' => {
-		message => q|M&eacute;thode d'autentification (par d&eacute;faut)|,
-		lastUpdated => 1202832524
+		message => q|M&eacute;thode d'authentification (par d&eacute;faut)|,
+		lastUpdated => 1204903375
 	},
 
 	'453' => {
@@ -739,8 +739,8 @@ our $I18N = {
 	},
 
 	'authentication' => {
-		message => q|Autentification|,
-		lastUpdated => 1203369004
+		message => q|Authentification|,
+		lastUpdated => 1204903395
 	},
 
 	'734' => {
@@ -2714,8 +2714,8 @@ our $I18N = {
 	},
 
 	'36' => {
-		message => q|Vous devais posseder des droits pour cette fonction. SVP, contacter votre administrateur.|,
-		lastUpdated => 1202557719
+		message => q|Vous devez poss&eacute;der des droits pour cette fonction. SVP, contacter votre administrateur.|,
+		lastUpdated => 1204902850
 	},
 
 	'settings' => {
@@ -3649,8 +3649,8 @@ our $I18N = {
 	},
 
 	'164' => {
-		message => q|M&eacute;thode d'autentification|,
-		lastUpdated => 1203364870
+		message => q|M&eacute;thode d'authentification|,
+		lastUpdated => 1204903383
 	},
 
 	'807' => {
