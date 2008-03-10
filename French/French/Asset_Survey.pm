@@ -12,8 +12,8 @@ our $I18N = {
 	},
 
 	'32' => {
-		message => q|Faux|,
-		lastUpdated => 1205010729
+		message => q|Non|,
+		lastUpdated => 1205167656
 	},
 
 	'questions.correct.count' => {
@@ -172,8 +172,8 @@ our $I18N = {
 	},
 
 	'31' => {
-		message => q|Vrai|,
-		lastUpdated => 1205010721
+		message => q|Oui|,
+		lastUpdated => 1205167646
 	},
 
 	'question.allowComment' => {
