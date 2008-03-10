@@ -2529,8 +2529,8 @@ our $I18N = {
 	},
 
 	'52' => {
-		message => q|Identifiant|,
-		lastUpdated => 1203365294
+		message => q|Connexion|,
+		lastUpdated => 1205148910
 	},
 
 	'750' => {
