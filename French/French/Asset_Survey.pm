@@ -7,8 +7,8 @@ our $I18N = {
 	},
 
 	'84 description' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Le nombre de fois qu'un utilisateur pourra tenter d'avoir la bonne r&eacute;ponse &agrave; chaque question. 1 par d&eacute;faut.|,
+		lastUpdated => 1205167158
 	},
 
 	'32' => {
@@ -22,8 +22,8 @@ our $I18N = {
 	},
 
 	'90' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Variables du gabarit questionnaire|,
+		lastUpdated => 1205167301
 	},
 
 	'71' => {
@@ -37,8 +37,8 @@ our $I18N = {
 	},
 
 	'85 description' => {
-		message => q||,
-		lastUpdated => 
+		message => q|le Nombre de questions pos&eacute;es &agrave; chaque utilisateur.|,
+		lastUpdated => 1205167210
 	},
 
 	'export.questions.label' => {
@@ -107,8 +107,8 @@ our $I18N = {
 	},
 
 	'84' => {
-		message => q||,
-		lastUpdated => 
+		message => q|R&eacute;ponses max par utilisateur|,
+		lastUpdated => 1205167099
 	},
 
 	'27' => {
@@ -137,8 +137,8 @@ our $I18N = {
 	},
 
 	'744' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Que faire apr&egrave;s ?|,
+		lastUpdated => 1205166471
 	},
 
 	'questions.correct.percent.label' => {
@@ -212,8 +212,8 @@ our $I18N = {
 	},
 
 	'78' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Temps Total|,
+		lastUpdated => 1205166536
 	},
 
 	'export.composite.url' => {
@@ -287,8 +287,8 @@ our $I18N = {
 	},
 
 	'81' => {
-		message => q||,
-		lastUpdated => 
+		message => q|R&eacute;ponses anonymes ?|,
+		lastUpdated => 1205166767
 	},
 
 	'60' => {
@@ -302,8 +302,8 @@ our $I18N = {
 	},
 
 	'73' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Effacer toutes les r&eacute;ponses.|,
+		lastUpdated => 1205166356
 	},
 
 	'101' => {
@@ -312,13 +312,13 @@ our $I18N = {
 	},
 
 	'76' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Heure de d&eacute;but|,
+		lastUpdated => 1205166515
 	},
 
 	'86' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Progression|,
+		lastUpdated => 1205167220
 	},
 
 	'62' => {
@@ -367,8 +367,8 @@ our $I18N = {
 	},
 
 	'82' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Terminer le questionnaire|,
+		lastUpdated => 1205167019
 	},
 
 	'questions.total' => {
@@ -492,8 +492,8 @@ our $I18N = {
 	},
 
 	'79' => {
-		message => q||,
-		lastUpdated => 
+		message => q|minutes|,
+		lastUpdated => 1205166546
 	},
 
 	'response template' => {
@@ -557,8 +557,8 @@ our $I18N = {
 	},
 
 	'8' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Ordre des questions|,
+		lastUpdated => 1205166562
 	},
 
 	'section.edit.sectionName' => {
@@ -622,8 +622,8 @@ our $I18N = {
 	},
 
 	'80' => {
-		message => q||,
-		lastUpdated => 
+		message => q|secondes|,
+		lastUpdated => 1205166751
 	},
 
 	'end.date.epoch' => {
@@ -652,8 +652,8 @@ our $I18N = {
 	},
 
 	'72' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Etes-vous certain de vouloir effacer les r&eacute;ponses de cet utilisateur ?|,
+		lastUpdated => 1205166339
 	},
 
 	'106 description' => {
@@ -677,8 +677,8 @@ our $I18N = {
 	},
 
 	'74' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Etes-vous certain de vouloir effacer toutes les r&eacute;ponses ?|,
+		lastUpdated => 1205166459
 	},
 
 	'question.add.label' => {
@@ -712,8 +712,8 @@ our $I18N = {
 	},
 
 	'83 description' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Le nombre de questions qui seront affich&eacute;es par page. 1 par d&eacute;faut.|,
+		lastUpdated => 1205167070
 	},
 
 	'survey.url' => {
@@ -797,13 +797,13 @@ our $I18N = {
 	},
 
 	'87' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Cliquer ici pour r&eacute;pondre &agrave; nouveau.|,
+		lastUpdated => 1205167242
 	},
 
 	'77' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Heure de fin|,
+		lastUpdated => 1205166524
 	},
 
 	'mode.isSurvey' => {
@@ -887,8 +887,8 @@ our $I18N = {
 	},
 
 	'8 description' => {
-		message => q||,
-		lastUpdated => 
+		message => q|L'ordre dans lequel les questions seront pos&eacute;es. S&eacute;quentielle affichera les questions dans l'ordre o&ugrave; vous les avez rentr&eacute;es. Al&eacute;atoire affichera les questions al&eacute;atoirement. &quot;Suivant R&eacute;ponse&quot; affichera les questions suivant les r&eacute;ponses de l'utilisateur.|,
+		lastUpdated => 1205166744
 	},
 
 	'answer.label' => {
@@ -982,8 +982,8 @@ our $I18N = {
 	},
 
 	'88' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Gabarit questionnaire|,
+		lastUpdated => 1205167255
 	},
 
 	'question.answer.field' => {
@@ -1017,8 +1017,8 @@ our $I18N = {
 	},
 
 	'81 description' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Permet de choisir si le questionnaire conservera des informations sur l'utilisateur et ses r&eacute;ponses. Si laiss&eacute; &agrave; la valeur par d&eacute;faut &quot;Non&quot;, le questionnaire enregistrera l'adresse IP aussi bien que l'ID et le nom d'utilisateur Webgui si l'utilisateur est connect&eacute;. Ces informations seront donc disponibles dans le r&eacute;sultat du questionnaire. Si le choix est &quot;Oui&quot; les champs seront remplies avec des valeurs qui ne permettront pas d'identifier l'utilisateur.|,
+		lastUpdated => 1205166998
 	},
 
 	'28' => {
@@ -1037,13 +1037,13 @@ our $I18N = {
 	},
 
 	'83' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Questions par page|,
+		lastUpdated => 1205167032
 	},
 
 	'75' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Editer cette question.|,
+		lastUpdated => 1205166494
 	},
 
 	'anonymous' => {
@@ -1162,8 +1162,8 @@ our $I18N = {
 	},
 
 	'85' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Questions par r&eacute;ponse|,
+		lastUpdated => 1205167172
 	},
 
 	'start.date.human' => {
@@ -1187,8 +1187,8 @@ our $I18N = {
 	},
 
 	'9' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Questionnaire|,
+		lastUpdated => 1205167263
 	},
 
 	'response.isComplete' => {
@@ -1217,8 +1217,8 @@ our $I18N = {
 	},
 
 	'745' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Retourner &agrave; la page.|,
+		lastUpdated => 1205166483
 	},
 
 	'34' => {
