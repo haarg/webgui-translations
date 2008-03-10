@@ -1107,8 +1107,8 @@ our $I18N = {
 	},
 
 	'46' => {
-		message => q|Merci de prendre le temps de compl&eacute;ter le questionnaire.|,
-		lastUpdated => 1205011796
+		message => q|Merci d'avoir pris le temps de compl&eacute;ter le questionnaire.|,
+		lastUpdated => 1205175378
 	},
 
 	'section.edit.id' => {
