@@ -17,8 +17,8 @@ our $I18N = {
 	},
 
 	'image help' => {
-		message => q||,
-		lastUpdated => 
+		message => q|<div id="result_box" dir="ltr">La magen que se mostrar&aacute; en cada impresi&oacute;n del anuncio.</div>|,
+		lastUpdated => 1204300564
 	},
 
 	'text color' => {
@@ -27,8 +27,8 @@ our $I18N = {
 	},
 
 	'edit ad space' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Editar espacio publicitario|,
+		lastUpdated => 1204300286
 	},
 
 	'ad text' => {
@@ -47,33 +47,33 @@ our $I18N = {
 	},
 
 	'manage ad spaces' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Administrar espacios publicitarios.|,
+		lastUpdated => 1204300826
 	},
 
 	'title help' => {
-		message => q||,
-		lastUpdated => 
+		message => q|<div id="result_box" dir="ltr">Una etiqueta legible.</div>|,
+		lastUpdated => 1204303197
 	},
 
 	'text color help' => {
-		message => q||,
-		lastUpdated => 
+		message => q|El valor hexadecimal del color del texto en este anuncio de texto.|,
+		lastUpdated => 1204303179
 	},
 
 	'description help' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Una descripci&oacute;n completa de donde se ubicar&aacute; este espacio publicitario en el sitio.|,
+		lastUpdated => 1204300209
 	},
 
 	'border color help' => {
-		message => q||,
-		lastUpdated => 
+		message => q|<div id="result_box" dir="ltr">El valor hexadecimal del color del borde, que se utilizar&aacute; alrededor de este anuncio de texto.</div>|,
+		lastUpdated => 1204299881
 	},
 
 	'rich help' => {
-		message => q||,
-		lastUpdated => 
+		message => q|<div id="result_box" dir="ltr">Coloque el c&oacute;digo que se utilizar&aacute; para generar el anuncio que se mostrar&aacute;.</div>|,
+		lastUpdated => 1204303130
 	},
 
 	'name' => {
@@ -92,23 +92,23 @@ our $I18N = {
 	},
 
 	'priority help' => {
-		message => q||,
-		lastUpdated => 
+		message => q|<div id="result_box" dir="ltr">Un mecanismo de escala para determinar la frecuencia que un anuncio debe mostrarse. Mientras m&aacute;s bajo el n&uacute;mero con m&aacute;s frecuencia se mostrar&aacute;. Esto realmente no afecta a los sitios de bajo tr&aacute;fico. Si el anuncio A tiene la prioridad 0 y el anuncio B tiene una prioridad de 10, y el sitio tiene un promedio de impresi&oacute;n por segundo entonces el anuncio A se mostrar&aacute; alrededor de 100 veces m&aacute;s que el anuncio B. Tenga en cuenta que esta propiedad es un mecanismo de ampliaci&oacute;n , No se trata de un ratio exacto. Lo m&aacute;s grave es el tr&aacute;fico en el sitio, el m&aacute;s prioritario es el impacto.</div>|,
+		lastUpdated => 1204301616
 	},
 
 	'height help' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Qu&eacute; altura (en p&iacute;xeles) deber&iacute;a tener el espacio publicitario.|,
+		lastUpdated => 1204300500
 	},
 
 	'width help' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Qu&eacute; ancho (en p&iacute;xeles) deber&iacute;a tener el espacio publicitario.|,
+		lastUpdated => 1204303486
 	},
 
 	'clicks bought' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Clics Comprados|,
+		lastUpdated => 1204299900
 	},
 
 	'ad id' => {
@@ -119,6 +119,11 @@ our $I18N = {
 	'used' => {
 		message => q|usado|,
 		lastUpdated => 1198398997
+	},
+
+	'error heading' => {
+		message => q|Aqu&iacute; se produjo un error con tu espacio publicitario:|,
+		lastUpdated => 1204300425
 	},
 
 	'title' => {
@@ -132,13 +137,13 @@ our $I18N = {
 	},
 
 	'type help' => {
-		message => q||,
-		lastUpdated => 
+		message => q|<div id="&quot;result_box&quot;" dir="&quot;ltr&quot;">&iquest;Qu&eacute; tipo de anuncios estamos corriendo?</div>|,
+		lastUpdated => 1204303292
 	},
 
 	'add ad space body' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Esta pantalla le proporciona una lista de todos los espacios publicitarios que se han creado en WebGUI. Los iconos junto a cada espacio publicitario le permite editar o borrar un espacio publicitario. Tambi&eacute;n existe un enlace en la pantalla para a&ntilde;adir nuevos espacios publicitarios.|,
+		lastUpdated => 1204299637
 	},
 
 	'width' => {
@@ -147,33 +152,33 @@ our $I18N = {
 	},
 
 	'impressions bought' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Impresiones Compradas|,
+		lastUpdated => 1204300623
 	},
 
 	'topicName' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Publicidad|,
+		lastUpdated => 1204303236
 	},
 
 	'is active help' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Deber&iacute;a incluirse este anuncio en la rotaci&oacute;n?|,
+		lastUpdated => 1204300774
 	},
 
 	'confirm ad space delete' => {
-		message => q||,
-		lastUpdated => 
+		message => q|<div id="result_box" dir="ltr">&iquest;Est&aacute;s seguro que quieres eliminar este espacio para anuncios y todos los anuncios que se le atribuyen?</div>|,
+		lastUpdated => 1204300128
 	},
 
 	'name help' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Esta cadena se utiliza en combinaci&oacute;n con la macro AdSpace lugar a la publicaci&oacute;n de anuncios en el sitio. No debe incluir espacios, y s&oacute;lo caracteres alfanum&eacute;ricos.|,
+		lastUpdated => 1204300870
 	},
 
 	'url help' => {
-		message => q||,
-		lastUpdated => 
+		message => q|<div id="result_box" dir="ltr">La URL a la que este anuncio estar&aacute; vinculado. Tenga en cuenta que no ser&aacute; utilizada para los anuncios Rich Media.</div>|,
+		lastUpdated => 1204303437
 	},
 
 	'text' => {
@@ -182,23 +187,23 @@ our $I18N = {
 	},
 
 	'edit this ad space' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Edit this ad space.|,
+		lastUpdated => 1204300327
 	},
 
 	'ad text help' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Por favor, escriba un m&aacute;ximo de 255 caracteres de texto que le guatar&iacute;a ver aparecer en este anuncio. Tenga en cuenta que dependiendo del tama&ntilde;o de su anuncio, toda la cantidad de texto no puede ser visto si es largo. Se recomienda mantenerlo a 60 caracteres o menos.|,
+		lastUpdated => 1204299479
 	},
 
 	'rich' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Rich Media|,
+		lastUpdated => 1204303446
 	},
 
 	'background color help' => {
-		message => q||,
-		lastUpdated => 
+		message => q|El valor hexadecimal del color del fondo en el presente anuncio de texto.|,
+		lastUpdated => 1204299837
 	},
 
 	'confirm ad delete' => {
@@ -211,9 +216,14 @@ our $I18N = {
 		lastUpdated => 1199992779
 	},
 
+	'error invalid characters' => {
+		message => q|Hay caracteres no v&aacute;lidos en el campo t&iacute;tulo. Por favor, utilice s&oacute;lo letras, n&uacute;meros y espacios.|,
+		lastUpdated => 1204300458
+	},
+
 	'clicks bought help' => {
-		message => q||,
-		lastUpdated => 
+		message => q|<div id="result_box" dir="ltr">&iquest;Cu&aacute;ntos clics ha comprado el anunciante? Si se adquiri&oacute; un n&uacute;mero de impresiones puede dejar &eacute;sta en cero.</div>|,
+		lastUpdated => 1204300096
 	},
 
 	'height' => {
@@ -227,23 +237,23 @@ our $I18N = {
 	},
 
 	'macro code prompt' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Utilice este c&oacute;digo para colocar este espacio publicitario:|,
+		lastUpdated => 1204300809
 	},
 
 	'add ad space' => {
-		message => q||,
-		lastUpdated => 
+		message => q|<div id="result_box" dir="ltr">A&ntilde;adir espacio publicitario.</div>|,
+		lastUpdated => 1204299508
 	},
 
 	'edit advertisement' => {
-		message => q||,
-		lastUpdated => 
+		message => q|<div id="result_box" dir="ltr">Editar Publicidad</div>|,
+		lastUpdated => 1204300309
 	},
 
 	'impressions bought help' => {
-		message => q||,
-		lastUpdated => 
+		message => q|&iquest;Cu&aacute;ntas impresiones (muestra individual de los anuncios), ha comprado el anunciante? Si se adquiri&oacute; un n&uacute;mero de clics, puede dejar &eacute;ste en cero.|,
+		lastUpdated => 1204300677
 	},
 
 };

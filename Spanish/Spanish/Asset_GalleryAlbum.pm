@@ -61,6 +61,11 @@ our $I18N = {
 		lastUpdated => 
 	},
 
+	'editForm description label' => {
+		message => q||,
+		lastUpdated => 
+	},
+
 	'addArchive error too big' => {
 		message => q|El archivo que est&aacute; intentando subir es demasiado grande. Por favor intente de nuevo.|,
 		lastUpdated => 1203365573
@@ -96,6 +101,11 @@ our $I18N = {
 		lastUpdated => 
 	},
 
+	'template upload archive' => {
+		message => q||,
+		lastUpdated => 
+	},
+
 	'helpvar canEdit' => {
 		message => q||,
 		lastUpdated => 
@@ -107,6 +117,11 @@ our $I18N = {
 	},
 
 	'helpvar form_archive' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'template upload type' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -152,6 +167,11 @@ our $I18N = {
 	},
 
 	'help delete title' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'template add' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -216,17 +236,32 @@ our $I18N = {
 		lastUpdated => 
 	},
 
+	'template edit' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'addArchive file' => {
+		message => q|Archivo|,
+		lastUpdated => 1205251947
+	},
+
+	'template addArchive title' => {
+		message => q||,
+		lastUpdated => 
+	},
+
 	'cancel' => {
 		message => q|Cancelar|,
 		lastUpdated => 1203365582
 	},
 
-	'helpvar rssDate' => {
+	'template file numberOfComments' => {
 		message => q||,
 		lastUpdated => 
 	},
 
-	'template file numberOfComments' => {
+	'helpvar rssDate' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -242,6 +277,11 @@ our $I18N = {
 	},
 
 	'helpvar isAlbumThumbnail' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'editForm title label' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -277,6 +317,11 @@ our $I18N = {
 	},
 
 	'help viewRss title' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'addArchive keywords' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -326,12 +371,42 @@ our $I18N = {
 		lastUpdated => 
 	},
 
+	'template assetName' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'template upload single' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'helpvar isNewAlbum' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'template addArchive body' => {
+		message => q||,
+		lastUpdated => 
+	},
+
 	'template url_thumbnails' => {
 		message => q||,
 		lastUpdated => 
 	},
 
+	'editForm assetIdThumbnail label' => {
+		message => q||,
+		lastUpdated => 
+	},
+
 	'helpvar file_loop edit' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'addArchive friendsOnly' => {
 		message => q||,
 		lastUpdated => 
 	},

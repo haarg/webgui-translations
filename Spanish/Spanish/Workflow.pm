@@ -12,13 +12,13 @@ our $I18N = {
 	},
 
 	'mode' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Modo|,
+		lastUpdated => 1204314445
 	},
 
 	'parallel' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Paralelo|,
+		lastUpdated => 1204314576
 	},
 
 	'edit priority bad request' => {
@@ -82,8 +82,8 @@ our $I18N = {
 	},
 
 	'add a new workflow' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Adicionar un nuevo flujo de trabajo|,
+		lastUpdated => 1204314068
 	},
 
 	'description' => {
@@ -157,13 +157,13 @@ our $I18N = {
 	},
 
 	'activity header' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Actividad Actual|,
+		lastUpdated => 1204314051
 	},
 
 	'run' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Correr|,
+		lastUpdated => 1204314369
 	},
 
 	'no object' => {
@@ -177,8 +177,8 @@ our $I18N = {
 	},
 
 	'are you sure you want to delete this workflow' => {
-		message => q||,
-		lastUpdated => 
+		message => q|&iquest;Est&aacute; seguro de que desea borrar este flujo de trabajo y todas las instancias que est&aacute;n corriendo?|,
+		lastUpdated => 1204314355
 	},
 
 	'object type help' => {

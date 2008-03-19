@@ -31,6 +31,11 @@ our $I18N = {
 		lastUpdated => 1190392528
 	},
 
+	'make asset exportable' => {
+		message => q||,
+		lastUpdated => 
+	},
+
 	'newWindow' => {
 		message => q||,
 		lastUpdated => 
@@ -52,13 +57,13 @@ our $I18N = {
 	},
 
 	'view' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Vista|,
+		lastUpdated => 1204557258
 	},
 
 	'isHidden' => {
-		message => q||,
-		lastUpdated => 
+		message => q|esta oculto|,
+		lastUpdated => 1204778862
 	},
 
 	'export information' => {
@@ -177,8 +182,8 @@ our $I18N = {
 	},
 
 	'with children' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Con Hijos|,
+		lastUpdated => 1204557120
 	},
 
 	'purge trash after help' => {
@@ -209,6 +214,11 @@ our $I18N = {
 	'deleteConfirm' => {
 		message => q|Esta seguro que desea eliminar esta propiedad de Metadatos?|,
 		lastUpdated => 1186067934
+	},
+
+	'make asset exportable description' => {
+		message => q||,
+		lastUpdated => 
 	},
 
 	'manage help' => {
@@ -342,13 +352,13 @@ our $I18N = {
 	},
 
 	'type' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Tipo|,
+		lastUpdated => 1204557487
 	},
 
 	'with descendants' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Con Descendientes|,
+		lastUpdated => 1204557015
 	},
 
 	'Add new field description' => {
@@ -557,8 +567,8 @@ our $I18N = {
 	},
 
 	'tag name' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Nombre de Etiqueta|,
+		lastUpdated => 1204557545
 	},
 
 	'change' => {
@@ -657,13 +667,13 @@ our $I18N = {
 	},
 
 	'select all' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Seleccionar Todo|,
+		lastUpdated => 1204560022
 	},
 
 	'size' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Tama&ntilde;o|,
+		lastUpdated => 1204558335
 	},
 
 	'107' => {
@@ -727,8 +737,8 @@ our $I18N = {
 	},
 
 	'specified base' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Base Especificada|,
+		lastUpdated => 1204558325
 	},
 
 	'Uploads URL description' => {

@@ -17,13 +17,13 @@ our $I18N = {
 	},
 
 	'12' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Ocultal panel de administraci&oacute;n.|,
+		lastUpdated => 1204316255
 	},
 
 	'1082' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Portapapeles|,
+		lastUpdated => 1204315447
 	},
 
 	'admin bar title' => {
@@ -32,18 +32,18 @@ our $I18N = {
 	},
 
 	'376' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Paquete|,
+		lastUpdated => 1204316271
 	},
 
 	'399' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Validar esta p&aacute;gina.|,
+		lastUpdated => 1204316299
 	},
 
 	'adminbar_loop' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Un bucle que contenga las diferentes listas de datos para mostrar.|,
+		lastUpdated => 1204316348
 	},
 
 	'url' => {
@@ -62,8 +62,8 @@ our $I18N = {
 	},
 
 	'1083' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Nuevo Contenido|,
+		lastUpdated => 1204315472
 	},
 
 	'commit my changes' => {
@@ -72,8 +72,8 @@ our $I18N = {
 	},
 
 	'items' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Un bucle que contiene la lista de los art&iacute;culos de esta categor&iacute;a.|,
+		lastUpdated => 1204316989
 	},
 
 };
