@@ -28,6 +28,15 @@ $value =~ s/ź/z/;
 $value =~ s/Ź/Z/;
 $value =~ s/ż/z/;
 $value =~ s/Ż/Z/;
+
+$value =~ s/^\s+//;
+$value =~ s/^\\//;
+$value =~ s/ /_/g;
+$value =~ s/\.\$//;
+$value =~ s/[^A-Za-z0-9\-\.\_\/]//g;
+$value =~ s/^\///;
+$value =~ s/\/\//\//g;
+
 ##<-- end transliteration -->##
 
  	    $value =~ s/\s+$//;                     #removes trailing whitespace
