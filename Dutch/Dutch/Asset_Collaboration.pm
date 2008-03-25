@@ -761,8 +761,8 @@ Nadat u deze instelling wijzigt worden niet alle  bestaande foto's opnieuw verkl
 	},
 
 	'collaboration post list template variables title' => {
-		message => q|Collaborate, variabelen van het ost lijst sjabloon|,
-		lastUpdated => 1147700238
+		message => q|Collaborate, variabelen van het post lijst sjabloon|,
+		lastUpdated => 1206008794
 	},
 
 	'lock.label' => {
@@ -1538,8 +1538,8 @@ Gebruik van avatars vermindert de snelheid van het collaboratiesysteem.|,
 	},
 
 	'rich editor description' => {
-		message => q|Selecteer &quot;Ja&quot;, zodat &quot;Rich editing&quot; bewerken van de post mogelijk is. |,
-		lastUpdated => 1147705561
+		message => q|Selecteer de Rich editor die gebruikt wordt voor posts. |,
+		lastUpdated => 1206008906
 	},
 
 	'lastReply.username' => {

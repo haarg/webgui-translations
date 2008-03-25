@@ -51,9 +51,19 @@ our $I18N = {
 		lastUpdated => 1189121195
 	},
 
+	'subscribe' => {
+		message => q|Inschrijven|,
+		lastUpdated => 1205852537
+	},
+
 	'helpvar newDay' => {
 		message => q|Deze variabele is waar wanneer het huidige evenement op een andere dag is dan het vorige evenement.|,
 		lastUpdated => 1204300440
+	},
+
+	'previous week' => {
+		message => q|Vorige week|,
+		lastUpdated => 1205852510
 	},
 
 	'mdy' => {
@@ -96,6 +106,11 @@ our $I18N = {
 		lastUpdated => 1189120971
 	},
 
+	'previous day' => {
+		message => q|Vorige dag|,
+		lastUpdated => 1205852487
+	},
+
 	'helpvar dateTime dayOfMonth' => {
 		message => q|Het nummer van de dag in de maand|,
 		lastUpdated => 1204301364
@@ -114,6 +129,11 @@ our $I18N = {
 	'templateIdEvent description' => {
 		message => q|Het template dat de details van een gebeurtenis weergeeft.|,
 		lastUpdated => 1166193944
+	},
+
+	'next day' => {
+		message => q|Volgende dag|,
+		lastUpdated => 1205852417
 	},
 
 	'workflow updateFeeds description' => {
@@ -221,6 +241,11 @@ our $I18N = {
 		lastUpdated => 1189120394
 	},
 
+	'end date' => {
+		message => q|Einddatum|,
+		lastUpdated => 1205831420
+	},
+
 	'workflow updateFeeds' => {
 		message => q|Bijwerken kalenderfeeds|,
 		lastUpdated => 1166194315
@@ -311,9 +336,19 @@ our $I18N = {
 		lastUpdated => 1166194112
 	},
 
+	'previous page' => {
+		message => q|Vorige pagina|,
+		lastUpdated => 1205852502
+	},
+
 	'paramType' => {
 		message => q|De tijdseenheid waarin de kalender wordt bekeken. Dit kan "dag", "week" of "maand" zijn.|,
 		lastUpdated => 1189120368
+	},
+
+	'label search' => {
+		message => q|Zoeken|,
+		lastUpdated => 1205852429
 	},
 
 	'endYear' => {
@@ -344,6 +379,11 @@ our $I18N = {
 	'defaultDate value first' => {
 		message => q|De eerste gebeurtenis in de kalender|,
 		lastUpdated => 1166193442
+	},
+
+	'start date' => {
+		message => q|Startdatum|,
+		lastUpdated => 1205852527
 	},
 
 	'startMonthAbbr' => {
@@ -491,6 +531,11 @@ our $I18N = {
 		lastUpdated => 1204299357
 	},
 
+	'keyword' => {
+		message => q|Trefwoord|,
+		lastUpdated => 1205852741
+	},
+
 	'help event variables title' => {
 		message => q|Kalender evenement variabelen|,
 		lastUpdated => 1204299649
@@ -509,6 +554,11 @@ our $I18N = {
 	'templateIdPrintMonth description' => {
 		message => q|Dit template print de kalender in maand-weergave.|,
 		lastUpdated => 1166194136
+	},
+
+	'next page' => {
+		message => q|Volgende pagina|,
+		lastUpdated => 1205852440
 	},
 
 	'helpvar dateTime end' => {
@@ -571,6 +621,11 @@ our $I18N = {
 		lastUpdated => 1204301350
 	},
 
+	'label week' => {
+		message => q|week|,
+		lastUpdated => 1205836435
+	},
+
 	'locale' => {
 		message => q|en_US|,
 		lastUpdated => 1166193580
@@ -579,6 +634,11 @@ our $I18N = {
 	'assetName' => {
 		message => q|Kalender|,
 		lastUpdated => 1166193349
+	},
+
+	'page x of x' => {
+		message => q|Weergeven pagina %s van %s|,
+		lastUpdated => 1205852478
 	},
 
 	'endMonthAbbr' => {
@@ -636,6 +696,11 @@ our $I18N = {
 		lastUpdated => 1189119012
 	},
 
+	'label day' => {
+		message => q|Dag|,
+		lastUpdated => 1205852408
+	},
+
 	'templateIdPrintWeek label' => {
 		message => q|Week-weergave printen template|,
 		lastUpdated => 1166194172
@@ -671,6 +736,21 @@ our $I18N = {
 		lastUpdated => 1189119883
 	},
 
+	'search results' => {
+		message => q|Zoekresultaten|,
+		lastUpdated => 1205852519
+	},
+
+	'label month' => {
+		message => q|Maand|,
+		lastUpdated => 1205852423
+	},
+
+	'current' => {
+		message => q|huidig|,
+		lastUpdated => 1205831409
+	},
+
 	'sortEventsBy value time' => {
 		message => q|Sorteer op start of einddatum.|,
 		lastUpdated => 1201182925
@@ -704,6 +784,11 @@ our $I18N = {
 	'templateIdWeek label' => {
 		message => q|Week-weergave template|,
 		lastUpdated => 1166194243
+	},
+
+	'next week' => {
+		message => q|Volgende week|,
+		lastUpdated => 1205852449
 	},
 
 	'templateIdMonth description' => {

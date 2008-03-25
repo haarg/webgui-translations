@@ -11,6 +11,11 @@ our $I18N = {
 		lastUpdated => 1189337787
 	},
 
+	'link description' => {
+		message => q|Link omschrijving|,
+		lastUpdated => 1205852918
+	},
+
 	'formRecurPattern' => {
 		message => q|HTML en javascript voor een formulier dat weergeeft hoe een gebeurtenis zich herhaalt.|,
 		lastUpdated => 1189337447
@@ -21,6 +26,16 @@ our $I18N = {
 		lastUpdated => 1189336557
 	},
 
+	'scheduled' => {
+		message => q|Ingeplanned|,
+		lastUpdated => 1205853111
+	},
+
+	'print' => {
+		message => q|Afdrukken|,
+		lastUpdated => 1205852994
+	},
+
 	'urlDay' => {
 		message => q|De URL waarmee alle gebeurtenissen op een dag weer te geven in deze kalender.|,
 		lastUpdated => 1189347951
@@ -29,11 +44,6 @@ our $I18N = {
 	'endDateYear' => {
 		message => q|Het jaar waarin deze gebeurtenis eindigt in vier cijfers.|,
 		lastUpdated => 1189336623
-	},
-
-	'startDateHour' => {
-		message => q|Het uur waarop deze gebeurtenis start.|,
-		lastUpdated => 1189338392
 	},
 
 	'recurId' => {
@@ -56,39 +66,9 @@ our $I18N = {
 		lastUpdated => 1189348017
 	},
 
-	'url' => {
-		message => q|De URL voor deze gebeurtenis.|,
-		lastUpdated => 1189347908
-	},
-
 	'startDateHourM' => {
 		message => q|Afhankeljik van of de gebeurtenis plaatsvindt in de morgen of de middag, bevat deze variabele de tekst "am" of "pm".|,
 		lastUpdated => 1189338451
-	},
-
-	'startTime' => {
-		message => q|De datum waarmee deze gebeurtenis start|,
-		lastUpdated => 1189347893
-	},
-
-	'dateSpan' => {
-		message => q|Een vriendelijke weergave van de start- en einddata en tijden van deze gebeurtenis.|,
-		lastUpdated => 1189336080
-	},
-
-	'event common template variables title' => {
-		message => q|Gebeurtenis overeenkomstige template variabelen.|,
-		lastUpdated => 1189336857
-	},
-
-	'description' => {
-		message => q|De beschrijving van deze gebeurtenis.|,
-		lastUpdated => 1189336107
-	},
-
-	'endDateMonthAbbr' => {
-		message => q|De afkorting van de naam van de maand waarin deze gebeurtenis eindigt.|,
-		lastUpdated => 1189336571
 	},
 
 	'feedId' => {
@@ -96,19 +76,19 @@ our $I18N = {
 		lastUpdated => 1189336934
 	},
 
-	'image.url' => {
-		message => q|De URL naar de eerste afbeelding die is bijgevoegd bij de bijdrage.|,
-		lastUpdated => 1190027519
+	'link view group' => {
+		message => q|Bezichtig groep|,
+		lastUpdated => 1205852936
 	},
 
-	'endDate' => {
-		message => q|De datum waarop deze gebeurtenis eindigt.|,
-		lastUpdated => 1189336147
+	'delete' => {
+		message => q|Verwijderen|,
+		lastUpdated => 1205852796
 	},
 
-	'isImage' => {
-		message => q|Een voorwaardelijke variabele die aangeeft of de bijlage een afbeelding is of niet.|,
-		lastUpdated => 1190027493
+	'start' => {
+		message => q|Start|,
+		lastUpdated => 1205853126
 	},
 
 	'startDateYear' => {
@@ -126,9 +106,9 @@ our $I18N = {
 		lastUpdated => 1189337200
 	},
 
-	'endDateYmd' => {
-		message => q|Het jaar waarin deze gebeurtenis eindigt in yyyy-mm-dd formaat. Hierbij is yyyy het jaar, mm de maand en dd de dag.|,
-		lastUpdated => 1189336667
+	'time' => {
+		message => q|Tijd|,
+		lastUpdated => 1205853150
 	},
 
 	'startDateHms' => {
@@ -151,54 +131,14 @@ our $I18N = {
 		lastUpdated => 1199700220
 	},
 
-	'formStartDate' => {
-		message => q|Het HTML formulier-element om de startdatum van een gebeurtenis in te geven of te wijzigen. |,
-		lastUpdated => 1189337656
-	},
-
-	'startDateMinute' => {
-		message => q|De minuut, weergegeven met twee cijfers, waarmee deze gebeurtenis start.|,
-		lastUpdated => 1189347758
-	},
-
-	'event view template variables title' => {
-		message => q|Gebeurtenis weergave template variabelen.|,
-		lastUpdated => 1189336902
-	},
-
-	'formTitle' => {
-		message => q|Het HTML formulier-element waarmee de titel van de gebeurtenis kan worden ingevoerd of gewijzigd.|,
-		lastUpdated => 1189337810
-	},
-
-	'endDateHour' => {
-		message => q|Het uur waarin deze gebeurtenis eindigt.|,
-		lastUpdated => 1189336406
-	},
-
 	'startDateMonthAbbr' => {
 		message => q|De afkorting van de naam van maand waarin deze gebeurtenis start.|,
 		lastUpdated => 1189347787
 	},
 
-	'attachment_loop' => {
-		message => q|Een loop waarin alle bestanden en afbeeldingen beschikbaar zijn die horen bij deze bijdrage.|,
-		lastUpdated => 1190027668
-	},
-
 	'startDateDayAbbr' => {
 		message => q|De afkorting van de naam van de dag waarop deze gebeurtenis start.|,
 		lastUpdated => 1189338209
-	},
-
-	'startDateYmd' => {
-		message => q|De startdatum van deze gebeurtenis, in yyyy-mm-dd formaat. Waarbij yyyy het jaar is, mm de maand en dd de dag.|,
-		lastUpdated => 1189347882
-	},
-
-	'add/edit title' => {
-		message => q|Gebeurtenis, Toevoegen/Wijzigen|,
-		lastUpdated => 1166194025
 	},
 
 	'endDateDmy' => {
@@ -216,29 +156,9 @@ our $I18N = {
 		lastUpdated => 1190027612
 	},
 
-	'formRecurEnd' => {
-		message => q|Het HTML datumformulier waarmee kan worden aangegeven wanneer een terugkerende gebeurtenis eindigt, wanneer deze ooit eindigt.|,
-		lastUpdated => 1189337418
-	},
-
-	'startDateDayOfMonth' => {
-		message => q|De dag van de maand waarin deze gebeurtenis start. Dit is een nummer van 1 tot en met 31.|,
-		lastUpdated => 1189338249
-	},
-
 	'event asset template variables title' => {
 		message => q|Gebeurtenis object template variabelen|,
 		lastUpdated => 1189336810
-	},
-
-	'attachment.name' => {
-		message => q|De naam van de eerste bijlage bij deze bijdrage.|,
-		lastUpdated => 1190027709
-	},
-
-	'event view template variables body' => {
-		message => q|Deze template variabelen worden gebruik in het template dat de gebeurtenis laat zien aan de gebruikers.|,
-		lastUpdated => 1189336886
 	},
 
 	'endDateHms' => {
@@ -246,24 +166,9 @@ our $I18N = {
 		lastUpdated => 1189336392
 	},
 
-	'endDateHour24' => {
-		message => q|Het uur, van een 24 uurs klok, waarin deze gebeurtenis eindigt.|,
-		lastUpdated => 1189336427
-	},
-
-	'relatedLinks assetVar' => {
-		message => q|De orginele, onverwerkte, relevante links uit het formulier. Dit zijn alle links als tekst, samengevoegd met enters.|,
-		lastUpdated => 1189338180
-	},
-
 	'isAllDay' => {
 		message => q|Een voorwaardelijke variabele die waar is wanneer de gebeurtenis de gehele dag duurt. |,
 		lastUpdated => 1189337850
-	},
-
-	'assetName' => {
-		message => q|Gebeurtenis|,
-		lastUpdated => 1153759908
 	},
 
 	'event asset template variables body' => {
@@ -271,19 +176,14 @@ our $I18N = {
 		lastUpdated => 1189336743
 	},
 
-	'locale' => {
-		message => q|nl_NL|,
-		lastUpdated => 1166194041
-	},
-
 	'formDescription' => {
 		message => q|Een HTML formulier om beschrijvingen van gebeurtenissen toe te voegen of te wijzigen.|,
 		lastUpdated => 1189337015
 	},
 
-	'endDateDayAbbr' => {
-		message => q|De afkorting van de naam van de dag waarop deze gebeurtenis eindigt.|,
-		lastUpdated => 1189336141
+	'end date' => {
+		message => q|Einddatum|,
+		lastUpdated => 1205852833
 	},
 
 	'formAttachments' => {
@@ -306,16 +206,6 @@ our $I18N = {
 		lastUpdated => 1190027634
 	},
 
-	'formErrors' => {
-		message => q|Deze loop bevat fouten die mogelijk voorgekomen zijn bij het verwerken van de gegevens uit het formulier waarmee de gebeurtenis is toegevoegd of gewijzigd.|,
-		lastUpdated => 1189337145
-	},
-
-	'location' => {
-		message => q|De locatie van deze gebeurtenis.|,
-		lastUpdated => 1189337971
-	},
-
 	'formRelatedLinks' => {
 		message => q|Een HTML text-element om de URL's voor de websites met meer informatie over de gebeurtenis in te geven. Per regel kan een link worden gegeven.|,
 		lastUpdated => 1189337567
@@ -336,36 +226,6 @@ our $I18N = {
 		lastUpdated => 1199700085
 	},
 
-	'endDateHourM' => {
-		message => q|De tekst "am" of "pm" wanneer de gebeurtenis in respectievelijk de ochtend of de middag plaatsvindt. |,
-		lastUpdated => 1189336482
-	},
-
-	'endDateDayOfMonth' => {
-		message => q|De dag van de maand waarop deze gebeurtenis eindigt. Dit is een nummer van 1 tot en met 31.|,
-		lastUpdated => 1189336188
-	},
-
-	'urlSearch' => {
-		message => q|De URL om het zoekfunctie weer te geven van de kalender waartoe deze gebeurtenis behoort.|,
-		lastUpdated => 1189348038
-	},
-
-	'formFooter' => {
-		message => q|De HTML voor het einde van het formulier waarmee een gebeurtenis wordt toegevoegd of gewijzigd.|,
-		lastUpdated => 1189337168
-	},
-
-	'relatedLinks' => {
-		message => q|In deze loop zijn alle links beschikbaar uit de verzameling relevante links van deze gebeurtenis.|,
-		lastUpdated => 1189338124
-	},
-
-	'endDateEpoch' => {
-		message => q|De einddatum van deze gebeurtenis in epoch formaat. (Dat is het aantal seconden sinds 1 januari 1970 Zulu-tijd.)|,
-		lastUpdated => 1189336355
-	},
-
 	'formLocation' => {
 		message => q|De HTML om de locatie van een gebeurtenis in te voeren of te wijzigen.|,
 		lastUpdated => 1189337229
@@ -381,21 +241,6 @@ our $I18N = {
 		lastUpdated => 1189337491
 	},
 
-	'startDate' => {
-		message => q|De datum waarop deze gebeurtenis start.|,
-		lastUpdated => 1189338192
-	},
-
-	'formMenuTitle' => {
-		message => q|Deze variabele geeft het stukje HTML weer waarmee de menu-titel van de gebeurtenis kan worden toegevoegd of gewijzigd. |,
-		lastUpdated => 1189337318
-	},
-
-	'groupToView' => {
-		message => q|De ID van de groep die de gebeurtenis mag bekijken.|,
-		lastUpdated => 1189337828
-	},
-
 	'icon' => {
 		message => q|Een icoon die het bestandstype aangeeft voor deze bijlage.|,
 		lastUpdated => 1190027554
@@ -404,16 +249,6 @@ our $I18N = {
 	'nextUrl' => {
 		message => q|De URL naar de eerstvolgende gebeurtenis in de kalender. |,
 		lastUpdated => 1189338014
-	},
-
-	'formEndTime' => {
-		message => q|HTML formulier om de eindtijd van een gebeurtenis toe te voegen of te wijzigen.|,
-		lastUpdated => 1189337066
-	},
-
-	'UserDefinedN' => {
-		message => q|De waarde van dit veld. Er zijn vijf "UserDefined" velden, UserDefined1 tot en met UserDefined5, waarin willekeurige gegevens gestopt kunnen wodren. |,
-		lastUpdated => 1189335973
 	},
 
 	'endDateDayName' => {
@@ -431,24 +266,14 @@ our $I18N = {
 		lastUpdated => 1199786835
 	},
 
-	'formUserDefinedN_textarea' => {
-		message => q|Een tekst gebied formulier onderdeel, voor elk van de vijf door een Gebruiker Gedefineerde velden.|,
-		lastUpdated => 1199700143
+	'add related link' => {
+		message => q|Voeg een nieuw gerelateerde link toe|,
+		lastUpdated => 1205852766
 	},
 
 	'formEndDate' => {
 		message => q|Een HTML formulier om de einddatum van een gebeurtenis toe te voegen of te wijzigen.|,
 		lastUpdated => 1189337046
-	},
-
-	'endDateDayOfWeek' => {
-		message => q|De dag van de week waarin deze gebeurtenis eindigt. Dit is een nummer van 1 tot en met 7.|,
-		lastUpdated => 1189336215
-	},
-
-	'formStartTime' => {
-		message => q|Het HTML formulier element waarmee de startdatum van de gebeurtenis kan worden ingegeven of gewijzigd.|,
-		lastUpdated => 1189337691
 	},
 
 	'feedUid' => {
@@ -461,19 +286,24 @@ our $I18N = {
 		lastUpdated => 1189337614
 	},
 
-	'startDateMdy' => {
-		message => q|De startdatum van deze gebeurtenis in mm-dd-yyyy formaat. Hierbij is mm de maand, dd de dag en yyyy het jaar.|,
-		lastUpdated => 1189347737
+	'exclude dates' => {
+		message => q|Sluit data uit|,
+		lastUpdated => 1205852876
 	},
 
-	'endDateSecond' => {
-		message => q|De seconde, weergegeven met twee cijfers, waarin deze gebeurtenis eindigt.|,
-		lastUpdated => 1189336606
+	'recurrence pattern' => {
+		message => q|Herhalingspatroon|,
+		lastUpdated => 1205853016
 	},
 
 	'thumbnail' => {
 		message => q|Een thumbnail van deze bijlage, indien van toepassing.|,
 		lastUpdated => 1190027477
+	},
+
+	'attachments' => {
+		message => q|Bijlagen|,
+		lastUpdated => 1205852775
 	},
 
 	'isOneDay' => {
@@ -486,19 +316,9 @@ our $I18N = {
 		lastUpdated => 1189338274
 	},
 
-	'startDateHour24' => {
-		message => q|Het uur, op een 24 uurs klok, waarop deze gebeurtenis start.|,
-		lastUpdated => 1189338410
-	},
-
-	'startDateDayName' => {
-		message => q|De naam van de dag waarop de gebeurtenis start.|,
-		lastUpdated => 1189338227
-	},
-
-	'attachment_url' => {
-		message => q|De URL om de bijlage te downloaden.|,
-		lastUpdated => 1190027646
+	'start date' => {
+		message => q|Startdatum|,
+		lastUpdated => 1205853135
 	},
 
 	'message' => {
@@ -526,14 +346,334 @@ our $I18N = {
 		lastUpdated => 1189338305
 	},
 
-	'attachment.url' => {
-		message => q|De URL om de eerste bijlage bij deze drage te downloaden.|,
-		lastUpdated => 1190027691
+	'recurrence range' => {
+		message => q|Herhalingsbereik|,
+		lastUpdated => 1205853032
 	},
 
 	'image.thumbnail' => {
 		message => q|Een thumbnail van de afbeelding die is bijgevoegd bij het bericht.|,
 		lastUpdated => 1190027536
+	},
+
+	'startDateHour' => {
+		message => q|Het uur waarop deze gebeurtenis start.|,
+		lastUpdated => 1189338392
+	},
+
+	'include dates' => {
+		message => q|Voeg data toe|,
+		lastUpdated => 1205853234
+	},
+
+	'url' => {
+		message => q|De URL voor deze gebeurtenis.|,
+		lastUpdated => 1189347908
+	},
+
+	'startTime' => {
+		message => q|De datum waarmee deze gebeurtenis start|,
+		lastUpdated => 1189347893
+	},
+
+	'dateSpan' => {
+		message => q|Een vriendelijke weergave van de start- en einddata en tijden van deze gebeurtenis.|,
+		lastUpdated => 1189336080
+	},
+
+	'event common template variables title' => {
+		message => q|Gebeurtenis overeenkomstige template variabelen.|,
+		lastUpdated => 1189336857
+	},
+
+	'endDateMonthAbbr' => {
+		message => q|De afkorting van de naam van de maand waarin deze gebeurtenis eindigt.|,
+		lastUpdated => 1189336571
+	},
+
+	'description' => {
+		message => q|Omschrijving|,
+		lastUpdated => 1205852812
+	},
+
+	'recurrence' => {
+		message => q|Herhaling|,
+		lastUpdated => 1205853004
+	},
+
+	'endDate' => {
+		message => q|De datum waarop deze gebeurtenis eindigt.|,
+		lastUpdated => 1189336147
+	},
+
+	'image.url' => {
+		message => q|De URL naar de eerste afbeelding die is bijgevoegd bij de bijdrage.|,
+		lastUpdated => 1190027519
+	},
+
+	'isImage' => {
+		message => q|Een voorwaardelijke variabele die aangeeft of de bijlage een afbeelding is of niet.|,
+		lastUpdated => 1190027493
+	},
+
+	'event title' => {
+		message => q|Titel evenement|,
+		lastUpdated => 1205852860
+	},
+
+	'errors' => {
+		message => q|Fouten!|,
+		lastUpdated => 1205852841
+	},
+
+	'endDateYmd' => {
+		message => q|Het jaar waarin deze gebeurtenis eindigt in yyyy-mm-dd formaat. Hierbij is yyyy het jaar, mm de maand en dd de dag.|,
+		lastUpdated => 1189336667
+	},
+
+	'edit' => {
+		message => q|Bewerken|,
+		lastUpdated => 1205852819
+	},
+
+	'startDateMinute' => {
+		message => q|De minuut, weergegeven met twee cijfers, waarmee deze gebeurtenis start.|,
+		lastUpdated => 1189347758
+	},
+
+	'formStartDate' => {
+		message => q|Het HTML formulier-element om de startdatum van een gebeurtenis in te geven of te wijzigen. |,
+		lastUpdated => 1189337656
+	},
+
+	'event view template variables title' => {
+		message => q|Gebeurtenis weergave template variabelen.|,
+		lastUpdated => 1189336902
+	},
+
+	'event details' => {
+		message => q|Details evenement|,
+		lastUpdated => 1205852851
+	},
+
+	'formTitle' => {
+		message => q|Het HTML formulier-element waarmee de titel van de gebeurtenis kan worden ingevoerd of gewijzigd.|,
+		lastUpdated => 1189337810
+	},
+
+	'endDateHour' => {
+		message => q|Het uur waarin deze gebeurtenis eindigt.|,
+		lastUpdated => 1189336406
+	},
+
+	'previous event' => {
+		message => q|Vorige evenement|,
+		lastUpdated => 1205852984
+	},
+
+	'attachment_loop' => {
+		message => q|Een loop waarin alle bestanden en afbeeldingen beschikbaar zijn die horen bij deze bijdrage.|,
+		lastUpdated => 1190027668
+	},
+
+	'add/edit title' => {
+		message => q|Gebeurtenis, Toevoegen/Wijzigen|,
+		lastUpdated => 1166194025
+	},
+
+	'startDateYmd' => {
+		message => q|De startdatum van deze gebeurtenis, in yyyy-mm-dd formaat. Waarbij yyyy het jaar is, mm de maand en dd de dag.|,
+		lastUpdated => 1189347882
+	},
+
+	'tab event' => {
+		message => q|Evenement|,
+		lastUpdated => 1205853142
+	},
+
+	'formRecurEnd' => {
+		message => q|Het HTML datumformulier waarmee kan worden aangegeven wanneer een terugkerende gebeurtenis eindigt, wanneer deze ooit eindigt.|,
+		lastUpdated => 1189337418
+	},
+
+	'startDateDayOfMonth' => {
+		message => q|De dag van de maand waarin deze gebeurtenis start. Dit is een nummer van 1 tot en met 31.|,
+		lastUpdated => 1189338249
+	},
+
+	'endDateHour24' => {
+		message => q|Het uur, van een 24 uurs klok, waarin deze gebeurtenis eindigt.|,
+		lastUpdated => 1189336427
+	},
+
+	'event view template variables body' => {
+		message => q|Deze template variabelen worden gebruik in het template dat de gebeurtenis laat zien aan de gebruikers.|,
+		lastUpdated => 1189336886
+	},
+
+	'attachment.name' => {
+		message => q|De naam van de eerste bijlage bij deze bijdrage.|,
+		lastUpdated => 1190027709
+	},
+
+	'relatedLinks assetVar' => {
+		message => q|De orginele, onverwerkte, relevante links uit het formulier. Dit zijn alle links als tekst, samengevoegd met enters.|,
+		lastUpdated => 1189338180
+	},
+
+	'related material' => {
+		message => q|Verwant materiaal|,
+		lastUpdated => 1205853066
+	},
+
+	'locale' => {
+		message => q|nl_NL|,
+		lastUpdated => 1166194041
+	},
+
+	'assetName' => {
+		message => q|Gebeurtenis|,
+		lastUpdated => 1153759908
+	},
+
+	'endDateDayAbbr' => {
+		message => q|De afkorting van de naam van de dag waarop deze gebeurtenis eindigt.|,
+		lastUpdated => 1189336141
+	},
+
+	'group to view' => {
+		message => q|Groep om dit evenement te bezichtigen|,
+		lastUpdated => 1205852896
+	},
+
+	'formErrors' => {
+		message => q|Deze loop bevat fouten die mogelijk voorgekomen zijn bij het verwerken van de gegevens uit het formulier waarmee de gebeurtenis is toegevoegd of gewijzigd.|,
+		lastUpdated => 1189337145
+	},
+
+	'next event' => {
+		message => q|Volgende evenement|,
+		lastUpdated => 1205852973
+	},
+
+	'location' => {
+		message => q|Locatie|,
+		lastUpdated => 1205852946
+	},
+
+	'end' => {
+		message => q|Einde|,
+		lastUpdated => 1205852825
+	},
+
+	'endDateDayOfMonth' => {
+		message => q|De dag van de maand waarop deze gebeurtenis eindigt. Dit is een nummer van 1 tot en met 31.|,
+		lastUpdated => 1189336188
+	},
+
+	'endDateHourM' => {
+		message => q|De tekst "am" of "pm" wanneer de gebeurtenis in respectievelijk de ochtend of de middag plaatsvindt. |,
+		lastUpdated => 1189336482
+	},
+
+	'formFooter' => {
+		message => q|De HTML voor het einde van het formulier waarmee een gebeurtenis wordt toegevoegd of gewijzigd.|,
+		lastUpdated => 1189337168
+	},
+
+	'urlSearch' => {
+		message => q|De URL om het zoekfunctie weer te geven van de kalender waartoe deze gebeurtenis behoort.|,
+		lastUpdated => 1189348038
+	},
+
+	'endDateEpoch' => {
+		message => q|De einddatum van deze gebeurtenis in epoch formaat. (Dat is het aantal seconden sinds 1 januari 1970 Zulu-tijd.)|,
+		lastUpdated => 1189336355
+	},
+
+	'relatedLinks' => {
+		message => q|In deze loop zijn alle links beschikbaar uit de verzameling relevante links van deze gebeurtenis.|,
+		lastUpdated => 1189338124
+	},
+
+	'formMenuTitle' => {
+		message => q|Deze variabele geeft het stukje HTML weer waarmee de menu-titel van de gebeurtenis kan worden toegevoegd of gewijzigd. |,
+		lastUpdated => 1189337318
+	},
+
+	'startDate' => {
+		message => q|De datum waarop deze gebeurtenis start.|,
+		lastUpdated => 1189338192
+	},
+
+	'groupToView' => {
+		message => q|De ID van de groep die de gebeurtenis mag bekijken.|,
+		lastUpdated => 1189337828
+	},
+
+	'formEndTime' => {
+		message => q|HTML formulier om de eindtijd van een gebeurtenis toe te voegen of te wijzigen.|,
+		lastUpdated => 1189337066
+	},
+
+	'UserDefinedN' => {
+		message => q|De waarde van dit veld. Er zijn vijf "UserDefined" velden, UserDefined1 tot en met UserDefined5, waarin willekeurige gegevens gestopt kunnen wodren. |,
+		lastUpdated => 1189335973
+	},
+
+	'formUserDefinedN_textarea' => {
+		message => q|Een tekst gebied formulier onderdeel, voor elk van de vijf door een Gebruiker Gedefineerde velden.|,
+		lastUpdated => 1199700143
+	},
+
+	'endDateDayOfWeek' => {
+		message => q|De dag van de week waarin deze gebeurtenis eindigt. Dit is een nummer van 1 tot en met 7.|,
+		lastUpdated => 1189336215
+	},
+
+	'attachments for event' => {
+		message => q|Bijlagen voor dit evenement|,
+		lastUpdated => 1205852787
+	},
+
+	'formStartTime' => {
+		message => q|Het HTML formulier element waarmee de startdatum van de gebeurtenis kan worden ingegeven of gewijzigd.|,
+		lastUpdated => 1189337691
+	},
+
+	'endDateSecond' => {
+		message => q|De seconde, weergegeven met twee cijfers, waarin deze gebeurtenis eindigt.|,
+		lastUpdated => 1189336606
+	},
+
+	'startDateMdy' => {
+		message => q|De startdatum van deze gebeurtenis in mm-dd-yyyy formaat. Hierbij is mm de maand, dd de dag en yyyy het jaar.|,
+		lastUpdated => 1189347737
+	},
+
+	'short title' => {
+		message => q|Korte titel|,
+		lastUpdated => 1205853119
+	},
+
+	'startDateHour24' => {
+		message => q|Het uur, op een 24 uurs klok, waarop deze gebeurtenis start.|,
+		lastUpdated => 1189338410
+	},
+
+	'startDateDayName' => {
+		message => q|De naam van de dag waarop de gebeurtenis start.|,
+		lastUpdated => 1189338227
+	},
+
+	'attachment_url' => {
+		message => q|De URL om de bijlage te downloaden.|,
+		lastUpdated => 1190027646
+	},
+
+	'attachment.url' => {
+		message => q|De URL om de eerste bijlage bij deze drage te downloaden.|,
+		lastUpdated => 1190027691
 	},
 
 };

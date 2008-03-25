@@ -47,8 +47,8 @@ our $I18N = {
 	},
 
 	'created by description' => {
-		message => q|De grbruiker die de de identiteit van deze deelnemer heeft aangemaakt.|,
-		lastUpdated => 1148296077
+		message => q|De gebruiker die de de identiteit van deze deelnemer heeft aangemaakt.|,
+		lastUpdated => 1206008735
 	},
 
 	'discount pass type description' => {

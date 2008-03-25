@@ -1,6 +1,5 @@
 package WebGUI::i18n::Dutch::Asset_Layout;
 
-
 our $I18N = {
 	'dragger.init' => {
 		message => q|Voor het werken van de klik en sleep functies is HTML enJavascript nodig. Deze variabele is leeg als admin niet getoond wordt.|,
@@ -12,9 +11,9 @@ our $I18N = {
 		lastUpdated => 1149258297
 	},
 
-	'assetName' => {
-		message => q|Pagina layout|,
-		lastUpdated => 1148916634
+	'assetsToHide' => {
+		message => q|De asset-ID's van alle assets die niet afbeeld zouden moeten worden in dit asset. Deze ID's worden gescheiden door "\n", waarmee een nieuwe regel wordt aangeduid in *nix (unix, linux, ...) systemen. |,
+		lastUpdated => 1170688133
 	},
 
 	'layout asset template variables title' => {
@@ -22,9 +21,14 @@ our $I18N = {
 		lastUpdated => 1170689046
 	},
 
-	'assetsToHide' => {
-		message => q|De asset-ID's van alle assets die niet afbeeld zouden moeten worden in dit asset. Deze ID's worden gescheiden door "\n", waarmee een nieuwe regel wordt aangeduid in *nix (unix, linux, ...) systemen. |,
-		lastUpdated => 1170688133
+	'assetName' => {
+		message => q|Pagina layout|,
+		lastUpdated => 1148916634
+	},
+
+	'contentPositions' => {
+		message => q|Een variabele (string) die de verschillende plaatsen bevat waarop assets weergegeven kunnen worden en welke assets op welke plaats moeten staan en in welke volgorde.|,
+		lastUpdated => 1170688337
 	},
 
 	'dragger.icon' => {
@@ -32,9 +36,14 @@ our $I18N = {
 		lastUpdated => 1149258233
 	},
 
-	'contentPositions' => {
-		message => q|Een variabele (string) die de verschillende plaatsen bevat waarop assets weergegeven kunnen worden en welke assets op welke plaats moeten staan en in welke volgorde.|,
-		lastUpdated => 1170688337
+	'asset order label' => {
+		message => q|Voeg nieuwe assets toe|,
+		lastUpdated => 1205853348
+	},
+
+	'asset order hoverhelp' => {
+		message => q|Kies of nieuwe of ongepostioneerde assets bovenaan of onderaan de eerst inhoud positie op de pagina worden toegevoegd.|,
+		lastUpdated => 1205853332
 	},
 
 	'assets to hide description' => {
@@ -47,14 +56,24 @@ our $I18N = {
 		lastUpdated => 1149258041
 	},
 
-	'position1_loop' => {
-		message => q|Elke positie in het sjabloon heeft een kring, die de set met asstes bevat die daarbinnen getoond moeten worden. Assets die niet specifiek een plaats toegekend hebben gekregen worden in positie 1 gezet.|,
-		lastUpdated => 1149257560
+	'asset order desc' => {
+		message => q|Tot bovenaan|,
+		lastUpdated => 1205853269
 	},
 
 	'templateId' => {
 		message => q|De ID van het sjabloon dat gebruikt wordt om dit asset weer te geven.|,
 		lastUpdated => 1170689067
+	},
+
+	'position1_loop' => {
+		message => q|Elke positie in het sjabloon heeft een kring, die de set met asstes bevat die daarbinnen getoond moeten worden. Assets die niet specifiek een plaats toegekend hebben gekregen worden in positie 1 gezet.|,
+		lastUpdated => 1149257560
+	},
+
+	'asset order asc' => {
+		message => q|Tot onderaan|,
+		lastUpdated => 1205853260
 	},
 
 	'847' => {
@@ -87,14 +106,14 @@ our $I18N = {
 		lastUpdated => 1175508682
 	},
 
-	'823' => {
-		message => q|Ga naar de nieuwe pagina.|,
-		lastUpdated => 1148916608
-	},
-
 	'template description' => {
 		message => q|Kies een sjabloon uit de lijst voor het tonen van de inhoud van de Pagina layout asset en de de onderliggende elementen.|,
 		lastUpdated => 1150445573
+	},
+
+	'823' => {
+		message => q|Ga naar de nieuwe pagina.|,
+		lastUpdated => 1148916608
 	},
 
 };

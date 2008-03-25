@@ -97,8 +97,8 @@ our $I18N = {
 	},
 
 	'search root description' => {
-		message => q|De geselcteerde asset en alle assets hieronder worden doorzocht |,
-		lastUpdated => 1149502911
+		message => q|De geselecteerde asset en alle assets hieronder worden doorzocht |,
+		lastUpdated => 1205852651
 	},
 
 	'results_found' => {
