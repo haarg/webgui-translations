@@ -12,8 +12,8 @@ our $I18N = {
 	},
 
 	'32' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Falso|,
+		lastUpdated => 1206647451
 	},
 
 	'questions.correct.count' => {
@@ -47,8 +47,8 @@ our $I18N = {
 	},
 
 	'user.isFirstResponse' => {
-		message => q||,
-		lastUpdated => 
+		message => q|<div id="result_box" dir="ltr">Un valor booleano que indique si esta es la primera respuesta para este usuario.</div>|,
+		lastUpdated => 1206719021
 	},
 
 	'questionsPerPage' => {
@@ -92,8 +92,8 @@ our $I18N = {
 	},
 
 	'44' => {
-		message => q||,
-		lastUpdated => 
+		message => q|&iquest;Est&aacute; seguro de que desea borrar esta pregunta, y sus respuestas?|,
+		lastUpdated => 1206649219
 	},
 
 	'export.responses.label' => {
@@ -102,8 +102,8 @@ our $I18N = {
 	},
 
 	'55' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Ver Respuestas.|,
+		lastUpdated => 1206649891
 	},
 
 	'84' => {
@@ -112,8 +112,8 @@ our $I18N = {
 	},
 
 	'27' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Adicionar una opini&oacute;n (acuerdo/desacuerdo) escala de respuesta.|,
+		lastUpdated => 1206646482
 	},
 
 	'form.header' => {
@@ -122,8 +122,8 @@ our $I18N = {
 	},
 
 	'57' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Comentarios|,
+		lastUpdated => 1206650166
 	},
 
 	'start.newresponse.url' => {
@@ -157,8 +157,8 @@ our $I18N = {
 	},
 
 	'user.canRespondAgain' => {
-		message => q||,
-		lastUpdated => 
+		message => q|<div id="result_box" dir="ltr">Un valor booleano que indica si el usuario est&aacute; autorizado a responder a esta encuesta de nuevo.</div>|,
+		lastUpdated => 1206719112
 	},
 
 	'answer.comment' => {
@@ -167,13 +167,13 @@ our $I18N = {
 	},
 
 	'title' => {
-		message => q||,
-		lastUpdated => 
+		message => q|El t&iacute;tulo por defecto del reporte.|,
+		lastUpdated => 1206719160
 	},
 
 	'31' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Verdadero|,
+		lastUpdated => 1206647436
 	},
 
 	'question.allowComment' => {
@@ -182,8 +182,8 @@ our $I18N = {
 	},
 
 	'35' => {
-		message => q||,
-		lastUpdated => 
+		message => q|algo deacuerdo|,
+		lastUpdated => 1206648938
 	},
 
 	'duration.label' => {
@@ -227,8 +227,8 @@ our $I18N = {
 	},
 
 	'thanks.quiz.label' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Un mensaje de agradecimiento al usuario por completar el quiz.|,
+		lastUpdated => 1206719202
 	},
 
 	'106' => {
@@ -242,8 +242,8 @@ our $I18N = {
 	},
 
 	'29' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Adicionar una respuesta de texto.|,
+		lastUpdated => 1206646547
 	},
 
 	'duration.seconds.label' => {
@@ -262,8 +262,8 @@ our $I18N = {
 	},
 
 	'user.canTakeSurvey' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Un valor booleano que indica si el usuario actual tiene los derechos para realizar la encuesta.|,
+		lastUpdated => 1206719086
 	},
 
 	'form.submit' => {
@@ -292,8 +292,8 @@ our $I18N = {
 	},
 
 	'60' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Volver a la encuesta.|,
+		lastUpdated => 1206650962
 	},
 
 	'1091' => {
@@ -307,8 +307,8 @@ our $I18N = {
 	},
 
 	'101' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Adicionar un Text Area para la respuesta|,
+		lastUpdated => 1206631800
 	},
 
 	'76' => {
@@ -322,8 +322,8 @@ our $I18N = {
 	},
 
 	'62' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Exportar respuestas.|,
+		lastUpdated => 1206650990
 	},
 
 	'quiz.noprivs.label' => {
@@ -337,13 +337,13 @@ our $I18N = {
 	},
 
 	'67' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Usuario|,
+		lastUpdated => 1206658046
 	},
 
 	'17' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Pregunta de Encuesta, Adicionar/Editar|,
+		lastUpdated => 1206645980
 	},
 
 	'2' => {
@@ -377,8 +377,8 @@ our $I18N = {
 	},
 
 	'survey.noprivs.label' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Un mensaje indicando al usuario que no tiene los privilegios necesarios para realizar esta encuesta.|,
+		lastUpdated => 1206720745
 	},
 
 	'show.comments.label' => {
@@ -427,13 +427,13 @@ our $I18N = {
 	},
 
 	'49' => {
-		message => q||,
-		lastUpdated => 
+		message => q|<div id="result_box" dir="ltr">No puede realizar el quiz en este momento.</div>|,
+		lastUpdated => 1206649523
 	},
 
 	'24' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Adicionar respuesta de selecci&oacute;n m&uacute;ltiple.|,
+		lastUpdated => 1206646302
 	},
 
 	'questions.correct.percent' => {
@@ -442,8 +442,8 @@ our $I18N = {
 	},
 
 	'view template description' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Esta plantilla se utiliza para mostrar la encuesta en s&iacute;.|,
+		lastUpdated => 1206715333
 	},
 
 	'question.edit.question' => {
@@ -452,8 +452,8 @@ our $I18N = {
 	},
 
 	'user.canViewReports' => {
-		message => q||,
-		lastUpdated => 
+		message => q|<div id="result_box" dir="ltr">Un valor booleano que indica si el usuario tiene privilegios para ver los informes de la encuesta.</div>|,
+		lastUpdated => 1206719063
 	},
 
 	'104' => {
@@ -472,8 +472,8 @@ our $I18N = {
 	},
 
 	'view template' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Ver plantilla|,
+		lastUpdated => 1206715348
 	},
 
 	'export.questions.url' => {
@@ -482,8 +482,8 @@ our $I18N = {
 	},
 
 	'what next question description' => {
-		message => q||,
-		lastUpdated => 
+		message => q|<div id="result_box" dir="ltr">Despu&eacute;s de definir la pregunta, puede suministrar una respuesta: <br /> <br />&nbsp;&nbsp;&nbsp;&nbsp; * Varias opciones <br />&nbsp;&nbsp;&nbsp;&nbsp; * Texto <br />&nbsp;&nbsp;&nbsp;&nbsp; * Frecuencia <br />&nbsp;&nbsp;&nbsp;&nbsp; * Opini&oacute;n <br />&nbsp;&nbsp;&nbsp;&nbsp; * O puede regresar a la encuesta</div>|,
+		lastUpdated => 1206713929
 	},
 
 	'end.date.label' => {
@@ -502,8 +502,8 @@ our $I18N = {
 	},
 
 	'23' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Adicionar una nueva respuesta.|,
+		lastUpdated => 1206646274
 	},
 
 	'delete.label' => {
@@ -517,13 +517,13 @@ our $I18N = {
 	},
 
 	'templateId' => {
-		message => q||,
-		lastUpdated => 
+		message => q|El ID de la plantilla para mostrar la encuesta.|,
+		lastUpdated => 1206719297
 	},
 
 	'14 description' => {
-		message => q||,
-		lastUpdated => 
+		message => q|<div id="result_box" dir="ltr">Esta es la pregunta que el usuario se preguntar&aacute;.</div>|,
+		lastUpdated => 1206645914
 	},
 
 	'form.footer' => {
@@ -542,8 +542,8 @@ our $I18N = {
 	},
 
 	'21 description' => {
-		message => q||,
-		lastUpdated => 
+		message => q|<div id="result_box" dir="ltr">Se utiliza para definir la pregunta que sigue a &eacute;ste, cuando la pregunta para la encuesta se pone en &quot;respuesta&quot;.</div>|,
+		lastUpdated => 1206646105
 	},
 
 	'answer' => {
@@ -552,8 +552,8 @@ our $I18N = {
 	},
 
 	'47' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Usted ha completado este quiz.|,
+		lastUpdated => 1206649323
 	},
 
 	'8' => {
@@ -572,28 +572,28 @@ our $I18N = {
 	},
 
 	'1087' => {
-		message => q||,
-		lastUpdated => 
+		message => q|<div id="result_box" dir="ltr">Plantilla de reporte de notas</div>|,
+		lastUpdated => 1206632298
 	},
 
 	'37' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Desacuerdo|,
+		lastUpdated => 1206648976
 	},
 
 	'43' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Nunca|,
+		lastUpdated => 1206649093
 	},
 
 	'5' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Secuencial|,
+		lastUpdated => 1206649546
 	},
 
 	'33' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Totalmente de acuerdo|,
+		lastUpdated => 1206648407
 	},
 
 	'21' => {
@@ -602,13 +602,13 @@ our $I18N = {
 	},
 
 	'63' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Exportar preguntas.|,
+		lastUpdated => 1206651557
 	},
 
 	'mode' => {
-		message => q||,
-		lastUpdated => 
+		message => q|El modo de la encuesta se publicar&aacute;, ya sea &quot;encuesta&quot; o &quot;quiz&quot;.|,
+		lastUpdated => 1206720832
 	},
 
 	'7' => {
@@ -617,8 +617,8 @@ our $I18N = {
 	},
 
 	'26' => {
-		message => q||,
-		lastUpdated => 
+		message => q|A&ntilde;adir una frecuencia (siempre/nunca) escala de respuestas.|,
+		lastUpdated => 1206646450
 	},
 
 	'80' => {
@@ -657,8 +657,8 @@ our $I18N = {
 	},
 
 	'106 description' => {
-		message => q||,
-		lastUpdated => 
+		message => q|En cu&aacute;l secci&oacute;n debe ser a&ntilde;adida la pregunta?|,
+		lastUpdated => 1206631918
 	},
 
 	'question.id' => {
@@ -717,8 +717,8 @@ our $I18N = {
 	},
 
 	'survey.url' => {
-		message => q||,
-		lastUpdated => 
+		message => q|La URL para ver la encuesta. Usualmente utilizado para volver a la encuesta despu&eacute;s de examinar un informe.|,
+		lastUpdated => 1206719336
 	},
 
 	'groupToTakeSurvey' => {
@@ -792,8 +792,8 @@ our $I18N = {
 	},
 
 	'48' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Actualmente no puedes participar en esta encuesta.|,
+		lastUpdated => 1206649394
 	},
 
 	'87' => {
@@ -832,13 +832,13 @@ our $I18N = {
 	},
 
 	'50' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Siguiente|,
+		lastUpdated => 1206649555
 	},
 
 	'39' => {
-		message => q||,
-		lastUpdated => 
+		message => q|No aplica|,
+		lastUpdated => 1206649041
 	},
 
 	'12 description' => {
@@ -857,8 +857,8 @@ our $I18N = {
 	},
 
 	'1089' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Plantilla de Respuesta de la Encuesta|,
+		lastUpdated => 1206645724
 	},
 
 	'12' => {
@@ -867,8 +867,8 @@ our $I18N = {
 	},
 
 	'41' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Frecuentemente|,
+		lastUpdated => 1206649067
 	},
 
 	'defaultSectionId' => {
@@ -877,13 +877,13 @@ our $I18N = {
 	},
 
 	'thanks.survey.label' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Un mensaje de agradecimiento al usuario por completar la encuesta.|,
+		lastUpdated => 1206719225
 	},
 
 	'52' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Puntaje|,
+		lastUpdated => 1206649795
 	},
 
 	'8 description' => {
@@ -897,18 +897,18 @@ our $I18N = {
 	},
 
 	'56' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Ver comentarios.|,
+		lastUpdated => 1206650097
 	},
 
 	'what next answer description' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Despu&eacute;s de definir la respuesta, puede a&ntilde;adir una respuesta a esta pregunta, otra pregunta, adem&aacute;s, editar la pregunta actual o volver a la p&aacute;gina que contiene la Encuesta.|,
+		lastUpdated => 1206714725
 	},
 
 	'45' => {
-		message => q||,
-		lastUpdated => 
+		message => q|<div id="result_box" dir="ltr">No, he cometido un error.</div>|,
+		lastUpdated => 1206649254
 	},
 
 	'66' => {
@@ -927,8 +927,8 @@ our $I18N = {
 	},
 
 	'54' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Porcentaje|,
+		lastUpdated => 1206649879
 	},
 
 	'question.isRadioList' => {
@@ -997,8 +997,8 @@ our $I18N = {
 	},
 
 	'30' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Adicionar una nueva pregunta.|,
+		lastUpdated => 1206647425
 	},
 
 	'overviewTemplateId' => {
@@ -1007,13 +1007,13 @@ our $I18N = {
 	},
 
 	'100' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Adicionar una &aacute;rea html para la respuesta|,
+		lastUpdated => 1206630469
 	},
 
 	'25' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Adicionar respuesta verdadero/falso.|,
+		lastUpdated => 1206646320
 	},
 
 	'81 description' => {
@@ -1022,8 +1022,8 @@ our $I18N = {
 	},
 
 	'28' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Adicionar una pregunta.|,
+		lastUpdated => 1206646516
 	},
 
 	'duration.seconds' => {
@@ -1032,8 +1032,8 @@ our $I18N = {
 	},
 
 	'40' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Siempre|,
+		lastUpdated => 1206649057
 	},
 
 	'83' => {
@@ -1082,8 +1082,8 @@ our $I18N = {
 	},
 
 	'53' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Respuestas|,
+		lastUpdated => 1206649854
 	},
 
 	'survey.label' => {
@@ -1097,18 +1097,18 @@ our $I18N = {
 	},
 
 	'22' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Tipo de Respuesta|,
+		lastUpdated => 1206646143
 	},
 
 	'42' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Ocasionalmente|,
+		lastUpdated => 1206649080
 	},
 
 	'46' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Gracias por tu tiempo para completar nuestra encuesta.|,
+		lastUpdated => 1206649298
 	},
 
 	'section.edit.id' => {
@@ -1137,8 +1137,8 @@ our $I18N = {
 	},
 
 	'6' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Aleatorio|,
+		lastUpdated => 1206650822
 	},
 
 	'section.edit.controls' => {
@@ -1172,8 +1172,8 @@ our $I18N = {
 	},
 
 	'36' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Algo desacuerdo|,
+		lastUpdated => 1206648962
 	},
 
 	'gradebookTemplateId' => {
@@ -1182,8 +1182,8 @@ our $I18N = {
 	},
 
 	'51' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Comentarios?|,
+		lastUpdated => 1206649783
 	},
 
 	'9' => {
@@ -1202,13 +1202,13 @@ our $I18N = {
 	},
 
 	'what next description' => {
-		message => q||,
-		lastUpdated => 
+		message => q|<div id="result_box" dir="ltr">Despu&eacute;s de crear una nueva encuesta, puede empezar a a&ntilde;adir preguntas o volver a la p&aacute;gina en la que se a&ntilde;adi&oacute; la encuesta.</div>|,
+		lastUpdated => 1206714039
 	},
 
 	'38' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Totalmente en desacuerdo|,
+		lastUpdated => 1206649004
 	},
 
 	'show.responses.label' => {
@@ -1222,8 +1222,8 @@ our $I18N = {
 	},
 
 	'34' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Deacuerdo|,
+		lastUpdated => 1206648912
 	},
 
 	'export.composite.label' => {

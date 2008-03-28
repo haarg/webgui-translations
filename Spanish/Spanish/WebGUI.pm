@@ -12,13 +12,13 @@ our $I18N = {
 	},
 
 	'127' => {
-		message => q||,
-		lastUpdated => 
+		message => q|URL de la Compa&ntilde;&iacute;a|,
+		lastUpdated => 1206739234
 	},
 
 	'1049' => {
-		message => q||,
-		lastUpdated => 
+		message => q|ID Filtro de Contenidos|,
+		lastUpdated => 1206738995
 	},
 
 	'71' => {
@@ -27,8 +27,8 @@ our $I18N = {
 	},
 
 	'118' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Registro An&oacute;nimo|,
+		lastUpdated => 1206739199
 	},
 
 	'443' => {
@@ -67,8 +67,8 @@ our $I18N = {
 	},
 
 	'1050' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Buscar|,
+		lastUpdated => 1206739047
 	},
 
 	'560' => {
@@ -267,8 +267,8 @@ our $I18N = {
 	},
 
 	'340' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Femenino|,
+		lastUpdated => 1206736877
 	},
 
 	'62' => {
@@ -342,8 +342,8 @@ our $I18N = {
 	},
 
 	'135' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Servidot SMTP|,
+		lastUpdated => 1206739320
 	},
 
 	'348' => {
@@ -436,11 +436,6 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'wiki help label leadin' => {
-		message => q||,
-		lastUpdated => 
-	},
-
 	'settings groupIdAdminSpectre hoverHelp' => {
 		message => q||,
 		lastUpdated => 
@@ -502,8 +497,8 @@ our $I18N = {
 	},
 
 	'119' => {
-		message => q||,
-		lastUpdated => 
+		message => q|M&eacute;todo de Autenticaci&oacute;n (defecto)|,
+		lastUpdated => 1206739138
 	},
 
 	'453' => {
@@ -672,8 +667,8 @@ our $I18N = {
 	},
 
 	'12' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Ocultar panel administrativo|,
+		lastUpdated => 1206739073
 	},
 
 	'881' => {
@@ -757,8 +752,8 @@ our $I18N = {
 	},
 
 	'144' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Ver estad&iacute;sticas.|,
+		lastUpdated => 1206739372
 	},
 
 	'965' => {
@@ -1267,8 +1262,8 @@ our $I18N = {
 	},
 
 	'126' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Correo de la Compa&ntilde;&iacute;a|,
+		lastUpdated => 1206739155
 	},
 
 	'426' => {
@@ -1452,8 +1447,8 @@ our $I18N = {
 	},
 
 	'142' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Sesion Expirada|,
+		lastUpdated => 1206739359
 	},
 
 	'330' => {
@@ -1647,8 +1642,8 @@ our $I18N = {
 	},
 
 	'130' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Tama&ntilde;o M&aacute;ximo de los adjuntos|,
+		lastUpdated => 1206739258
 	},
 
 	'543' => {
@@ -1867,8 +1862,8 @@ our $I18N = {
 	},
 
 	'163' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Adicionar Usuario|,
+		lastUpdated => 1206739790
 	},
 
 	'trash' => {
@@ -2212,8 +2207,8 @@ our $I18N = {
 	},
 
 	'159' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Bandeja de entrada|,
+		lastUpdated => 1206739751
 	},
 
 	'553' => {
@@ -2817,8 +2812,8 @@ our $I18N = {
 	},
 
 	'125' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Nombre de Compa&ntilde;&iacute;a|,
+		lastUpdated => 1206739117
 	},
 
 	'44' => {
@@ -3077,8 +3072,8 @@ our $I18N = {
 	},
 
 	'339' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Masculino|,
+		lastUpdated => 1206736553
 	},
 
 	'1046' => {
@@ -3276,11 +3271,6 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'wiki help target' => {
-		message => q||,
-		lastUpdated => 
-	},
-
 	'run on admin update user' => {
 		message => q||,
 		lastUpdated => 
@@ -3372,8 +3362,8 @@ our $I18N = {
 	},
 
 	'149' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Usuarios|,
+		lastUpdated => 1206739737
 	},
 
 	'304' => {
@@ -3451,6 +3441,11 @@ our $I18N = {
 		lastUpdated => 
 	},
 
+	'external help' => {
+		message => q||,
+		lastUpdated => 
+	},
+
 	'54' => {
 		message => q||,
 		lastUpdated => 
@@ -3497,8 +3492,8 @@ our $I18N = {
 	},
 
 	'141' => {
-		message => q||,
-		lastUpdated => 
+		message => q|P&aacute;gina no encontrada|,
+		lastUpdated => 1206739346
 	},
 
 	'403' => {
@@ -3522,8 +3517,8 @@ our $I18N = {
 	},
 
 	'134' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Mensaje de Recuperar Contrase&ntilde;a|,
+		lastUpdated => 1206739304
 	},
 
 	'848' => {
@@ -3607,8 +3602,8 @@ our $I18N = {
 	},
 
 	'105' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Mostrar|,
+		lastUpdated => 1206739021
 	},
 
 	'972' => {
@@ -3632,8 +3627,8 @@ our $I18N = {
 	},
 
 	'146' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Sesiones Activas|,
+		lastUpdated => 1206739525
 	},
 
 	'38' => {

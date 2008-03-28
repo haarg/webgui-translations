@@ -717,8 +717,8 @@ our $I18N = {
 	},
 
 	'encryptPage' => {
-		message => q||,
-		lastUpdated => 
+		message => q|P&aacute;gina Encriptada|,
+		lastUpdated => 1206548067
 	},
 
 	'ago' => {

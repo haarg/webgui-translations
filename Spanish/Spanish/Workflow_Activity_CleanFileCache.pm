@@ -17,8 +17,8 @@ our $I18N = {
 	},
 
 	'size limit help' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Ayuda Tama&ntilde;o L&iacute;mite|,
+		lastUpdated => 1206548148
 	},
 
 };

@@ -7,8 +7,8 @@ our $I18N = {
 	},
 
 	'add to friends' => {
-		message => q||,
-		lastUpdated => 
+		message => q|agregar a amigos|,
+		lastUpdated => 1206732726
 	},
 
 	'remove' => {
@@ -67,8 +67,8 @@ our $I18N = {
 	},
 
 	'name' => {
-		message => q||,
-		lastUpdated => 
+		message => q|nombre|,
+		lastUpdated => 1206732760
 	},
 
 	'add to friends list' => {
@@ -222,8 +222,8 @@ our $I18N = {
 	},
 
 	'online' => {
-		message => q||,
-		lastUpdated => 
+		message => q|en l&iacute;nea|,
+		lastUpdated => 1206733067
 	},
 
 	'deny unanswered friends' => {
