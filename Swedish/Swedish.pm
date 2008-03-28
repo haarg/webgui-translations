@@ -12,13 +12,14 @@ our $LANGUAGE = {
 sub makeUrlCompliant {
          my $value = shift;
 ##<-- start transliteration -->##
-$value =~ s/ä/a/g;
-$value =~ s/Ä/A/g;
-$value =~ s/ö/o/g;
-$value =~ s/Ö/O/g;
-$value =~ s/å/a/g;
-$value =~ s/Å/A/g;
-$value =~ s/ /-/g;
+$value =~ s/ä/a/;
+$value =~ s/Ä/A/;
+$value =~ s/ö/o/;
+$value =~ s/Ö/O/;
+$value =~ s/å/a/;
+$value =~ s/Å/A/;
+
+
 
 ##<-- end transliteration -->##
 
