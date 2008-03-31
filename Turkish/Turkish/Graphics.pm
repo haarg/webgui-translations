@@ -47,8 +47,8 @@ our $I18N = {
 	},
 
 	'add palette' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Yeni Palet ekle|,
+		lastUpdated => 1207006154
 	},
 
 	'palette name' => {
@@ -62,8 +62,8 @@ our $I18N = {
 	},
 
 	'font file' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Yazı Tipi Dosyası|,
+		lastUpdated => 1207006169
 	},
 
 	'color name description' => {

@@ -37,8 +37,8 @@ our $I18N = {
 	},
 
 	'Create Shortcut' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Kestirme Yol yarat|,
+		lastUpdated => 1207006209
 	},
 
 	'Cut' => {
