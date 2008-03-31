@@ -22,8 +22,9 @@ our $I18N = {
 	},
 
 	'association description' => {
-		message => q||,
-		lastUpdated => 
+		message => q|	
+Qué suscripción (s) se hacen con los códigos generados.|,
+		lastUpdated => 1206922594
 	},
 
 	'subscription name' => {
@@ -127,8 +128,8 @@ our $I18N = {
 	},
 
 	'add subscription' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Añadir una nueva suscripción|,
+		lastUpdated => 1206922479
 	},
 
 	'batch description description' => {
@@ -137,8 +138,8 @@ our $I18N = {
 	},
 
 	'code description' => {
-		message => q||,
-		lastUpdated => 
+		message => q|El código de suscripción que desea redimir|,
+		lastUpdated => 1206922698
 	},
 
 	'subscription karma' => {

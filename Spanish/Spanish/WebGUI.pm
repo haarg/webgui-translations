@@ -1462,8 +1462,8 @@ our $I18N = {
 	},
 
 	'167' => {
-		message => q||,
-		lastUpdated => 
+		message => q|&iquest;Est&aacute; seguro de que desea eliminar este usuario? Ten en cuenta que toda esta informaci&oacute;n del usuario se perder&aacute;n definitivamente si decide proceder.|,
+		lastUpdated => 1206740297
 	},
 
 	'settings groupIdAdminTransactionLog label' => {
@@ -2252,8 +2252,8 @@ our $I18N = {
 	},
 
 	'37' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Permiso Denegado!|,
+		lastUpdated => 1206741343
 	},
 
 	'335' => {
@@ -2347,8 +2347,8 @@ our $I18N = {
 	},
 
 	'240' => {
-		message => q||,
-		lastUpdated => 
+		message => q|ID de Mensaje:|,
+		lastUpdated => 1206740409
 	},
 
 	'334' => {

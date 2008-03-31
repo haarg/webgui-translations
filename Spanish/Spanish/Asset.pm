@@ -42,8 +42,8 @@ our $I18N = {
 	},
 
 	'keywords' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Palabras clave|,
+		lastUpdated => 1206978231
 	},
 
 	'871 description' => {
@@ -67,8 +67,8 @@ our $I18N = {
 	},
 
 	'export information' => {
-		message => q||,
-		lastUpdated => 
+		message => q|  <p class="MsoNormal"><span>Exportados % de p&aacute;ginas en % de segundos.</span><span></span></p>  |,
+		lastUpdated => 1206892504
 	},
 
 	'controls' => {
@@ -77,8 +77,8 @@ our $I18N = {
 	},
 
 	'encrypt page description' => {
-		message => q||,
-		lastUpdated => 
+		message => q|  <p class="MsoNormal"><span>En caso de que la p&aacute;gina que contiene este activo preste servicio sobre SSL?</span></p>  |,
+		lastUpdated => 1206892383
 	},
 
 	'asset' => {
@@ -142,8 +142,8 @@ our $I18N = {
 	},
 
 	'extra head tags' => {
-		message => q||,
-		lastUpdated => 
+		message => q|  <p class="MsoNormal"><span>Extra &lt;encabezado&gt; elementos (etiquetas)</span></p>  |,
+		lastUpdated => 1206892789
 	},
 
 	'default value' => {
@@ -232,8 +232,8 @@ our $I18N = {
 	},
 
 	'edit branch url help' => {
-		message => q||,
-		lastUpdated => 
+		message => q|<p class="MsoNormal"><span>Puede cambiar la URL a trav&eacute;s de dos partes, la URL base (campo de la izquierda) y el archivo url (el derecho sobre el terreno). Para la URL base, hay tres opciones:</span></p>    <p class="MsoNormal"><span>Matriz URL <br /> Inicio esta URL con la URL de la matriz. <br /></span></p><p class="MsoNormal"><span> Especificado Base <br /> Ingresar en una nueva base de campo a trav&eacute;s de la URL que aparece cuando se selecciona Base especificado.</span></p>    <p class="MsoNormal"><span>Ninguno <br /> Hacer todos los activos de tener un &quot;nivel superior&quot; de URL. <br /></span></p><p class="MsoNormal"><span> Tambi&eacute;n hay tres opciones para el archivo de la URL: <br /> Men&uacute; T&iacute;tulo <br /> La nueva URL se basar&aacute; en el men&uacute; de activos del campo T&iacute;tulo.</span></p>    <p class="MsoNormal"><span>&nbsp;<br />T&iacute;tulo <br /> La nueva URL se basar&aacute; en el T&iacute;tulo de Activos del campo. <br /> URL de la p&aacute;gina actual <br /> La nueva URL se basar&aacute; en el de Activos del presente URL. <br /></span></p><div id="result_box" dir="ltr">Nueva URL se pasa a trav&eacute;s del hacer Url Compatible con la funci&oacute;n que es espec&iacute;fica para el idioma por defecto para su sitio.</div><p class="MsoNormal"><span></span></p>|,
+		lastUpdated => 1206892057
 	},
 
 	'asset id description' => {
@@ -267,8 +267,8 @@ our $I18N = {
 	},
 
 	'extraHeadTags' => {
-		message => q||,
-		lastUpdated => 
+		message => q|  <p class="MsoNormal"><span>Extra etiquetas, que se a&ntilde;adir&aacute;n al encabezado de la p&aacute;gina que contiene los activos. Estos ser&aacute;n incluidos por defecto as&iacute; que no necesita a&ntilde;adir su propia cuenta, a menos que quiera estar dos veces all&iacute;.</span><span></span></p>  |,
+		lastUpdated => 1206893795
 	},
 
 	'duplicate' => {
@@ -277,8 +277,8 @@ our $I18N = {
 	},
 
 	'isPrototype' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Campo booleano, si es verdadero el activo se establece como un prototipo|,
+		lastUpdated => 1206978206
 	},
 
 	'1083' => {
@@ -312,8 +312,8 @@ our $I18N = {
 	},
 
 	'extrasUploads form option symlink' => {
-		message => q||,
-		lastUpdated => 
+		message => q|enlace simb&oacute;lico|,
+		lastUpdated => 1206977652
 	},
 
 	'change url' => {
@@ -427,8 +427,8 @@ our $I18N = {
 	},
 
 	'isPackage' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Campo booleano, si es verdadero el activo se establece como un paquete|,
+		lastUpdated => 1206978187
 	},
 
 	'rootUrl form option symlinkDefault' => {
@@ -482,8 +482,8 @@ our $I18N = {
 	},
 
 	'extra head tags description' => {
-		message => q||,
-		lastUpdated => 
+		message => q|  <p class="MsoNormal"><span>Estas etiquetas se a&ntilde;adir&aacute;n a la secci&oacute;n &lt;encabezado&gt; de cada p&aacute;gina en la que aparece el activo.</span></p>  |,
+		lastUpdated => 1206893690
 	},
 
 	'411 description' => {
@@ -527,8 +527,8 @@ our $I18N = {
 	},
 
 	'extrasUploads form option none' => {
-		message => q||,
-		lastUpdated => 
+		message => q|nada|,
+		lastUpdated => 1206977631
 	},
 
 	'99' => {
@@ -557,8 +557,8 @@ our $I18N = {
 	},
 
 	'groupIdEdit' => {
-		message => q||,
-		lastUpdated => 
+		message => q|El ID del grupo que puede editar este Activo.|,
+		lastUpdated => 1206977881
 	},
 
 	'Class Icon help' => {
@@ -702,13 +702,18 @@ our $I18N = {
 	},
 
 	'last updated' => {
-		message => q||,
-		lastUpdated => 
+		message => q|&uacute;ltimo actualizado|,
+		lastUpdated => 1206978267
 	},
 
 	'Select' => {
 		message => q|Seleccionar ...|,
 		lastUpdated => 1186065954
+	},
+
+	'package extract error' => {
+		message => q||,
+		lastUpdated => 
 	},
 
 	'prototype using title' => {
@@ -767,8 +772,8 @@ our $I18N = {
 	},
 
 	'extrasUploads form label' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Directorios &quot;extras&quot; y &quot;uploads&quot;|,
+		lastUpdated => 1206977585
 	},
 
 	'done' => {
@@ -777,8 +782,8 @@ our $I18N = {
 	},
 
 	'lock' => {
-		message => q||,
-		lastUpdated => 
+		message => q|bloqueado|,
+		lastUpdated => 1206978360
 	},
 
 	'rootUrl default not present' => {
@@ -827,8 +832,8 @@ our $I18N = {
 	},
 
 	'errorEmptyField' => {
-		message => q||,
-		lastUpdated => 
+		message => q|  <p class="MsoNormal"><span>Error: Nombre del campo no puede ser vac&iacute;o.</span></p>  |,
+		lastUpdated => 1206892437
 	},
 
 	'purge old asset revisions' => {
@@ -857,8 +862,8 @@ our $I18N = {
 	},
 
 	'groupIdView' => {
-		message => q||,
-		lastUpdated => 
+		message => q|El ID del grupo que puede ver este Activo.|,
+		lastUpdated => 1206977989
 	},
 
 	'Depth description' => {
@@ -867,13 +872,13 @@ our $I18N = {
 	},
 
 	'extrasUploads symlinking' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Enlaces simb&oacute;licos a los directorios &quot;extras&quot; y &quot;uploads&quot;|,
+		lastUpdated => 1206977698
 	},
 
 	'extrasUploads form hoverHelp' => {
-		message => q||,
-		lastUpdated => 
+		message => q|<p>Que acci&oacute;n tomara al leer los direcorios &quot;extras&quot; y &quot;uploads&quot; , que son definidos en la configuraci&oacute;n del sitio. &quot;Symlink&quot; significa que se suar&aacute; un enlace simb&oacute;lico (no disponible para todos los sistemas) al directorio original. &quot;None&quot; singnifica que no haga ninguna acci&oacute;n e ignore los direcorios &quot;extras&quot; y &quot;uploads&quot;; Esto probablemente puede causar referencias rotas al exportar el sitio a menos que se haya preparado los direcortios. </p><p>What action to take regarding the extras and uploads directories, which are often referenced by parts of the site. Symlink means to use a symbolic link (not available on all systems) to the original directory. None means to do nothing, and ignore the extras and uploads directories; this will probably cause references to them to break in the exported site unless you've prepared the directories already.</p>|,
+		lastUpdated => 1206977551
 	},
 
 	'menuTitle' => {
@@ -932,8 +937,8 @@ our $I18N = {
 	},
 
 	'exporting page' => {
-		message => q||,
-		lastUpdated => 
+		message => q|  <p class="MsoNormal"><span>Exportadortando % de p&aacute;ginas ......</span></p>  |,
+		lastUpdated => 1206892577
 	},
 
 	'872 description' => {

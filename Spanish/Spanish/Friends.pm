@@ -2,8 +2,8 @@ package WebGUI::i18n::Spanish::Friends;
 
 our $I18N = {
 	'invalid invite code' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Codigo de invitacion no valido|,
+		lastUpdated => 1206897672
 	},
 
 	'add to friends' => {
@@ -52,18 +52,18 @@ our $I18N = {
 	},
 
 	'add to friends description' => {
-		message => q||,
-		lastUpdated => 
+		message => q|<div id="result_box" dir="ltr">&iquest;Est&aacute; seguro de que desea a&ntilde;adir como un amigo?</div>|,
+		lastUpdated => 1206894452
 	},
 
 	'checkboxForm' => {
-		message => q||,
-		lastUpdated => 
+		message => q|C&oacute;digo HTML para una casilla. Esta opci&oacute;n se utiliza para seleccionar la p&aacute;gina que desea eliminar, o enviar un correo electr&oacute;nico.|,
+		lastUpdated => 1206894603
 	},
 
 	'does not want to be a friend' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Este usuario prefiere no ser a&ntilde;adido como amigo.|,
+		lastUpdated => 1206896335
 	},
 
 	'name' => {
@@ -72,18 +72,18 @@ our $I18N = {
 	},
 
 	'add to friends list' => {
-		message => q||,
-		lastUpdated => 
+		message => q|A&ntilde;adir esta persona a mi lista de amigos.|,
+		lastUpdated => 1206894502
 	},
 
 	'invalid invite code message' => {
-		message => q||,
-		lastUpdated => 
+		message => q|  <p class="&quot;&quot;MsoNormal&quot;&quot;"><span>El codigo de invitacion en su URL no es valido.</span></p>  |,
+		lastUpdated => 1206897706
 	},
 
 	'friends invitation accepted' => {
-		message => q||,
-		lastUpdated => 
+		message => q|  <p class="MsoNormal"><span>Aceptada invitaci&oacute;n de amigos</span></p>  |,
+		lastUpdated => 1206896706
 	},
 
 	'invitation approval email' => {
@@ -97,8 +97,8 @@ our $I18N = {
 	},
 
 	'formFooter' => {
-		message => q||,
-		lastUpdated => 
+		message => q|C&oacute;digo HTML para poner fin a esta forma.|,
+		lastUpdated => 1206896382
 	},
 
 	'confirm remove friends' => {
@@ -117,8 +117,8 @@ our $I18N = {
 	},
 
 	'formHeader' => {
-		message => q||,
-		lastUpdated => 
+		message => q|<a href="/"></a>HTML necesario para comenzar la forma|,
+		lastUpdated => 1206896418
 	},
 
 	'timeout help' => {
@@ -157,13 +157,13 @@ our $I18N = {
 	},
 
 	'already a friend' => {
-		message => q||,
-		lastUpdated => 
+		message => q|No puede a&ntilde;adir un amigo dos veces.|,
+		lastUpdated => 1206894552
 	},
 
 	'friend request' => {
-		message => q||,
-		lastUpdated => 
+		message => q|  <p class="MsoNormal"><span>Solicitud <span>&nbsp;</span>de un amigo</span></p>  |,
+		lastUpdated => 1206896464
 	},
 
 	'you have been added' => {
@@ -172,8 +172,8 @@ our $I18N = {
 	},
 
 	'manage friends' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Administrar Amigos o enviarles mensajes privados.|,
+		lastUpdated => 1206897624
 	},
 
 	'topicName' => {
@@ -227,8 +227,8 @@ our $I18N = {
 	},
 
 	'deny unanswered friends' => {
-		message => q||,
-		lastUpdated => 
+		message => q|&nbsp;<div id="result_box" dir="ltr">Denegar sin amigos</div>|,
+		lastUpdated => 1206896290
 	},
 
 	'sendMessageButton' => {

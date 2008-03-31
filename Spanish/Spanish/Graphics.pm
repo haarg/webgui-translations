@@ -67,8 +67,8 @@ our $I18N = {
 	},
 
 	'color name description' => {
-		message => q||,
-		lastUpdated => 
+		message => q|El nombre para este color|,
+		lastUpdated => 1206816549
 	},
 
 	'fill color description' => {
@@ -82,8 +82,8 @@ our $I18N = {
 	},
 
 	'manage graphics' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Graficos|,
+		lastUpdated => 1206816615
 	},
 
 	'color name' => {
@@ -107,8 +107,8 @@ our $I18N = {
 	},
 
 	'manage fonts' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Administrar fuentes|,
+		lastUpdated => 1206816596
 	},
 
 };
