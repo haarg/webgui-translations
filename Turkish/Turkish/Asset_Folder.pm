@@ -17,8 +17,8 @@ our $I18N = {
 	},
 
 	'sort alphabetically' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Harf sıralı|,
+		lastUpdated => 1206979480
 	},
 
 	'add file label' => {
