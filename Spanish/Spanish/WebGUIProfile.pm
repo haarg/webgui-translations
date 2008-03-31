@@ -22,8 +22,8 @@ our $I18N = {
 	},
 
 	'473 description' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Esta categor&iacute;a puede ser visible por los usuarios?|,
+		lastUpdated => 1206993428
 	},
 
 	'489' => {
@@ -47,13 +47,13 @@ our $I18N = {
 	},
 
 	'486 description' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Elija el tipo de elemento de formulario para este campo. Tambi&eacute;n puede ser usado para validad cualquier entrada que el usuario pueda suministrar.|,
+		lastUpdated => 1206993706
 	},
 
 	'user profiling' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Perfilamiento de usuario|,
+		lastUpdated => 1206982737
 	},
 
 	'788' => {
@@ -77,23 +77,23 @@ our $I18N = {
 	},
 
 	'488' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Valor(es) por Defecto|,
+		lastUpdated => 1206993825
 	},
 
 	'471' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Editar campo Perfil de Usuario|,
+		lastUpdated => 1206991554
 	},
 
 	'474 description' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Deber&iacute;a obligarse al usuario a llenar este campo?|,
+		lastUpdated => 1206993540
 	},
 
 	'473a description' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Deber&iacute;a este campo se visible para los usuarios?|,
+		lastUpdated => 1206993469
 	},
 
 	'789' => {
@@ -117,8 +117,8 @@ our $I18N = {
 	},
 
 	'showAtRegistration label' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Mostrar al registrarse?|,
+		lastUpdated => 1206983655
 	},
 
 	'492' => {
@@ -127,8 +127,8 @@ our $I18N = {
 	},
 
 	'475' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Nombre del campo|,
+		lastUpdated => 1206993554
 	},
 
 	'491' => {
@@ -137,48 +137,48 @@ our $I18N = {
 	},
 
 	'topicName' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Perfil de Usuario|,
+		lastUpdated => 1206982752
 	},
 
 	'475 description' => {
-		message => q||,
-		lastUpdated => 
+		message => q|El nombre del campo, usado internamente en la base de datos.|,
+		lastUpdated => 1206993612
 	},
 
 	'467' => {
-		message => q||,
-		lastUpdated => 
+		message => q|&iquest;Est&aacute; seguro de que desea eliminar este campo y todos los datos de usuario que se le atribuye?|,
+		lastUpdated => 1206991343
 	},
 
 	'487 description' => {
-		message => q||,
-		lastUpdated => 
+		message => q|<p>Est&aacute; &aacute;rea puede ser usada &uacute;nicamente con los siguientes campos del formulario</p><p>Checkbox List<br /> Combo Box<br /> Hidden List<br /> Radio List<br /> Select Box<br /> Select List</p>|,
+		lastUpdated => 1206993806
 	},
 
 	'474' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Requerido?|,
+		lastUpdated => 1206993481
 	},
 
 	'487' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Posibles Valores|,
+		lastUpdated => 1206993724
 	},
 
 	'473' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Visible?|,
+		lastUpdated => 1206993398
 	},
 
 	'showAtRegistration hoverHelp' => {
-		message => q||,
-		lastUpdated => 
+		message => q|<div id="result_box" dir="ltr">Mostrar una entrada para este campo en la pantalla de registro para el registro de nuevos usuarios. El campo no se requiere actualmente a menos que sea configurado.</div>|,
+		lastUpdated => 1206983644
 	},
 
 	'486' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Tipo de Dato|,
+		lastUpdated => 1206993629
 	},
 
 	'forceImageOnly label' => {
@@ -192,8 +192,8 @@ our $I18N = {
 	},
 
 	'472' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Etiqueta|,
+		lastUpdated => 1206991570
 	},
 
 	'897' => {
@@ -202,18 +202,18 @@ our $I18N = {
 	},
 
 	'472 description' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Una corta y descriptiva etiqueta para mostrarle al usuario. Esto puede ser una llamada a la internacionalizaci&oacute;n del sistema de WebGUI si las etiquetas deben localizarse.|,
+		lastUpdated => 1206993329
 	},
 
 	'473a' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Visible?|,
+		lastUpdated => 1206993440
 	},
 
 	'470 description' => {
-		message => q||,
-		lastUpdated => 
+		message => q|El nombre de esta categor&iacute;a.|,
+		lastUpdated => 1206991478
 	},
 
 	'forceImageOnly description' => {
