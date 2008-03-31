@@ -7,13 +7,13 @@ our $I18N = {
 	},
 
 	'897a' => {
-		message => q||,
-		lastUpdated => 
+		message => q|D&uuml;zeltilebilir mi?|,
+		lastUpdated => 1206999200
 	},
 
 	'897a description' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Bu Alan kullanıcı tarafından d&uuml;zeltilebilmeli mi?|,
+		lastUpdated => 1206999243
 	},
 
 	'470' => {
@@ -22,8 +22,8 @@ our $I18N = {
 	},
 
 	'473 description' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Bu Kategori kullanıcı tarafından g&ouml;r&uuml;lebilir mi?|,
+		lastUpdated => 1206999374
 	},
 
 	'489' => {
@@ -57,18 +57,18 @@ our $I18N = {
 	},
 
 	'788' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Bu Profil alanını sil.|,
+		lastUpdated => 1206999004
 	},
 
 	'787' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Bu Profil alanını d&uuml;zelt.|,
+		lastUpdated => 1206998988
 	},
 
 	'790' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Bu Profil alanını sil.|,
+		lastUpdated => 1206999041
 	},
 
 	'466' => {
@@ -82,23 +82,23 @@ our $I18N = {
 	},
 
 	'471' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Kullanıcı Profili isimli alanı d&uuml;zelt|,
+		lastUpdated => 1206998808
 	},
 
 	'474 description' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Kullanıcı bu alana bilgi girmeye zorlanmalı mıdır?|,
+		lastUpdated => 1206999424
 	},
 
 	'473a description' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Bu Alan kullanılar tarafından g&ouml;r&uuml;lebilir mi?|,
+		lastUpdated => 1206999333
 	},
 
 	'789' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Bu Profil alanını d&uuml;zelt.|,
+		lastUpdated => 1206999024
 	},
 
 	'489 description' => {
@@ -107,13 +107,13 @@ our $I18N = {
 	},
 
 	'490' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Profil kategorisi ekle.|,
+		lastUpdated => 1206998912
 	},
 
 	'897 description' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Kategori kullanıcı tarafından d&uuml;zeltilebilmeli mi?|,
+		lastUpdated => 1206999209
 	},
 
 	'showAtRegistration label' => {
@@ -122,18 +122,18 @@ our $I18N = {
 	},
 
 	'492' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Profil alan listesi|,
+		lastUpdated => 1206998967
 	},
 
 	'475' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Alan Adı|,
+		lastUpdated => 1206999432
 	},
 
 	'491' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Profil Alanı ekle.|,
+		lastUpdated => 1206998927
 	},
 
 	'topicName' => {
@@ -142,8 +142,8 @@ our $I18N = {
 	},
 
 	'475 description' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Alan adı veri tabanında kullanılacaktır.|,
+		lastUpdated => 1206999474
 	},
 
 	'467' => {
@@ -157,8 +157,8 @@ our $I18N = {
 	},
 
 	'474' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Zorunlu mu?|,
+		lastUpdated => 1206999388
 	},
 
 	'487' => {
@@ -167,8 +167,8 @@ our $I18N = {
 	},
 
 	'473' => {
-		message => q||,
-		lastUpdated => 
+		message => q|G&ouml;r&uuml;lebilir mi?|,
+		lastUpdated => 1206999302
 	},
 
 	'showAtRegistration hoverHelp' => {
@@ -177,8 +177,8 @@ our $I18N = {
 	},
 
 	'486' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Data Tipi|,
+		lastUpdated => 1206999485
 	},
 
 	'forceImageOnly label' => {
@@ -192,13 +192,13 @@ our $I18N = {
 	},
 
 	'472' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Etiket|,
+		lastUpdated => 1206998817
 	},
 
 	'897' => {
-		message => q||,
-		lastUpdated => 
+		message => q|D&uuml;zeltilebilir mi?|,
+		lastUpdated => 1206999193
 	},
 
 	'472 description' => {
@@ -207,8 +207,8 @@ our $I18N = {
 	},
 
 	'473a' => {
-		message => q||,
-		lastUpdated => 
+		message => q|G&ouml;r&uuml;lebilir mi?|,
+		lastUpdated => 1206999342
 	},
 
 	'470 description' => {

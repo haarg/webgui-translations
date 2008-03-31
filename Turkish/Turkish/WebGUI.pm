@@ -57,13 +57,13 @@ our $I18N = {
 	},
 
 	'331' => {
-		message => q||,
-		lastUpdated => 
+		message => q|İş Adresi-Eyalet|,
+		lastUpdated => 1206996530
 	},
 
 	'358' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Sol S&uuml;tun|,
+		lastUpdated => 1206997524
 	},
 
 	'1050' => {
@@ -187,13 +187,13 @@ our $I18N = {
 	},
 
 	'325' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Ev Adresi-Eyalet|,
+		lastUpdated => 1206996437
 	},
 
 	'378' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Kullanıcı Kodu|,
+		lastUpdated => 1206999848
 	},
 
 	'view inbox template description' => {
@@ -212,8 +212,8 @@ our $I18N = {
 	},
 
 	'350' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Tamamlandı|,
+		lastUpdated => 1206997116
 	},
 
 	'540' => {
@@ -257,8 +257,8 @@ our $I18N = {
 	},
 
 	'337' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Kullanıcı Sayfa Adresi (URL)|,
+		lastUpdated => 1206996622
 	},
 
 	'76' => {
@@ -267,8 +267,8 @@ our $I18N = {
 	},
 
 	'340' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Kadın|,
+		lastUpdated => 1206996748
 	},
 
 	'62' => {
@@ -277,8 +277,8 @@ our $I18N = {
 	},
 
 	'311' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Ev Bilgilerine izin verilsin mi?|,
+		lastUpdated => 1206997920
 	},
 
 	'982' => {
@@ -327,8 +327,8 @@ our $I18N = {
 	},
 
 	'168' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Kullanıcı d&uuml;zeltme|,
+		lastUpdated => 1206998750
 	},
 
 	'706' => {
@@ -347,8 +347,8 @@ our $I18N = {
 	},
 
 	'348' => {
-		message => q||,
-		lastUpdated => 
+		message => q|İsim|,
+		lastUpdated => 1206997025
 	},
 
 	'bare insufficient' => {
@@ -362,8 +362,8 @@ our $I18N = {
 	},
 
 	'145' => {
-		message => q||,
-		lastUpdated => 
+		message => q|WebGUI S&uuml;r&uuml;m&uuml;|,
+		lastUpdated => 1206998417
 	},
 
 	'preview' => {
@@ -387,8 +387,8 @@ our $I18N = {
 	},
 
 	'364' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Arama|,
+		lastUpdated => 1206997695
 	},
 
 	'950' => {
@@ -412,8 +412,8 @@ our $I18N = {
 	},
 
 	'160' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Sunuş tarihi|,
+		lastUpdated => 1206998545
 	},
 
 	'509' => {
@@ -507,8 +507,8 @@ our $I18N = {
 	},
 
 	'324' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Ev Adresi-Şehir|,
+		lastUpdated => 1206996391
 	},
 
 	'user profile field private message allow label' => {
@@ -517,13 +517,13 @@ our $I18N = {
 	},
 
 	'244' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Yazar|,
+		lastUpdated => 1206997783
 	},
 
 	'351' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Mesaj|,
+		lastUpdated => 1206997124
 	},
 
 	'fieldtype' => {
@@ -542,8 +542,8 @@ our $I18N = {
 	},
 
 	'379' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Grup Kodu|,
+		lastUpdated => 1206999859
 	},
 
 	'admin console template' => {
@@ -567,8 +567,8 @@ our $I18N = {
 	},
 
 	'342' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Hesap Bilgilerini D&uuml;zenle.|,
+		lastUpdated => 1206996811
 	},
 
 	'862' => {
@@ -587,8 +587,8 @@ our $I18N = {
 	},
 
 	'341' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Profili D&uuml;zelt.|,
+		lastUpdated => 1206996776
 	},
 
 	'invite a friend' => {
@@ -677,8 +677,8 @@ our $I18N = {
 	},
 
 	'312' => {
-		message => q||,
-		lastUpdated => 
+		message => q|İş Bilgilerine izin verilsin mi?|,
+		lastUpdated => 1206998029
 	},
 
 	'707 description' => {
@@ -727,13 +727,13 @@ our $I18N = {
 	},
 
 	'370' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Gruplamayı D&uuml;zelt|,
+		lastUpdated => 1206999779
 	},
 
 	'309' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Ger&ccedil;ek İsim kullanılsın mı?|,
+		lastUpdated => 1206997964
 	},
 
 	'authentication' => {
@@ -752,8 +752,8 @@ our $I18N = {
 	},
 
 	'144' => {
-		message => q||,
-		lastUpdated => 
+		message => q|İstatistikleri g&ouml;r.|,
+		lastUpdated => 1206998390
 	},
 
 	'965' => {
@@ -977,8 +977,8 @@ our $I18N = {
 	},
 
 	'329' => {
-		message => q||,
-		lastUpdated => 
+		message => q|İş Adresi|,
+		lastUpdated => 1206996492
 	},
 
 	'allow private messages label' => {
@@ -992,8 +992,8 @@ our $I18N = {
 	},
 
 	'161' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Sunucu:|,
+		lastUpdated => 1206998562
 	},
 
 	'582' => {
@@ -1092,8 +1092,8 @@ our $I18N = {
 	},
 
 	'349' => {
-		message => q||,
-		lastUpdated => 
+		message => q|En son s&uuml;r&uuml;m hazır|,
+		lastUpdated => 1206997070
 	},
 
 	'private message no self error' => {
@@ -1147,8 +1147,8 @@ our $I18N = {
 	},
 
 	'346' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Bu kullanıcı artık sitemiz &uuml;yesi değildir. Kullanıcı hakkında başka bilgi kayıtlı değildir.|,
+		lastUpdated => 1206996956
 	},
 
 	'1075 description' => {
@@ -1162,8 +1162,8 @@ our $I18N = {
 	},
 
 	'333' => {
-		message => q||,
-		lastUpdated => 
+		message => q|İş Adresi-&Uuml;lke|,
+		lastUpdated => 1206996558
 	},
 
 	'groups to add' => {
@@ -1172,8 +1172,8 @@ our $I18N = {
 	},
 
 	'323' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Ev Adresi|,
+		lastUpdated => 1206996359
 	},
 
 	'codearea' => {
@@ -1242,8 +1242,8 @@ our $I18N = {
 	},
 
 	'352' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Tarih|,
+		lastUpdated => 1206997132
 	},
 
 	'130 description' => {
@@ -1302,8 +1302,8 @@ our $I18N = {
 	},
 
 	'372' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Kullanıcının Gruplarını d&uuml;zelt.|,
+		lastUpdated => 1206999836
 	},
 
 	'574' => {
@@ -1312,8 +1312,8 @@ our $I18N = {
 	},
 
 	'170' => {
-		message => q||,
-		lastUpdated => 
+		message => q|arama|,
+		lastUpdated => 1206998126
 	},
 
 	'default rich editor' => {
@@ -1382,8 +1382,8 @@ our $I18N = {
 	},
 
 	'359' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Sağ S&uuml;tun|,
+		lastUpdated => 1206997538
 	},
 
 	'527 description' => {
@@ -1427,8 +1427,8 @@ our $I18N = {
 	},
 
 	'232' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Konusuz|,
+		lastUpdated => 1206997737
 	},
 
 	'477' => {
@@ -1452,8 +1452,8 @@ our $I18N = {
 	},
 
 	'330' => {
-		message => q||,
-		lastUpdated => 
+		message => q|İş Adresi-Şehir|,
+		lastUpdated => 1206996514
 	},
 
 	'991' => {
@@ -1462,8 +1462,8 @@ our $I18N = {
 	},
 
 	'167' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Bu kullanıcıyı silmek istediğinizden emin misiniz? Kullanıcı bilgileri daha sonra kurtarılamaz.|,
+		lastUpdated => 1206998727
 	},
 
 	'settings groupIdAdminTransactionLog label' => {
@@ -1552,8 +1552,8 @@ our $I18N = {
 	},
 
 	'322' => {
-		message => q||,
-		lastUpdated => 
+		message => q|&Ccedil;ağrı Cihazı|,
+		lastUpdated => 1206996348
 	},
 
 	'settings groupIdAdminCommerce hoverHelp' => {
@@ -1567,8 +1567,8 @@ our $I18N = {
 	},
 
 	'353' => {
-		message => q||,
-		lastUpdated => 
+		message => q|'Gelen Kutusu'nda hi&ccedil; mesaj yok.|,
+		lastUpdated => 1206997168
 	},
 
 	'575' => {
@@ -1602,8 +1602,8 @@ our $I18N = {
 	},
 
 	'310' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Ek Kontakt bilgisi kullanılsın mı?|,
+		lastUpdated => 1206997870
 	},
 
 	'interval' => {
@@ -1662,8 +1662,8 @@ our $I18N = {
 	},
 
 	'354' => {
-		message => q||,
-		lastUpdated => 
+		message => q|'Gelen Kutusu'nu g&ouml;r&uuml;nt&uuml;le.|,
+		lastUpdated => 1206997199
 	},
 
 	'private message sent' => {
@@ -1712,8 +1712,8 @@ our $I18N = {
 	},
 
 	'332' => {
-		message => q||,
-		lastUpdated => 
+		message => q|İş Adresi-Posta Kodu|,
+		lastUpdated => 1206996543
 	},
 
 	'9' => {
@@ -1747,8 +1747,8 @@ our $I18N = {
 	},
 
 	'230 description' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Grubun t&uuml;m &uuml;yelerine g&ouml;nderilecek mesaj metni. Be metin HTML bi&ccedil;iminde g&ouml;nderilecektir. Hi&ccedil;bir eklenti kabul edilmez.|,
+		lastUpdated => 1206998367
 	},
 
 	'90' => {
@@ -1812,8 +1812,8 @@ our $I18N = {
 	},
 
 	'1069' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Kullanılacak Host|,
+		lastUpdated => 1206999595
 	},
 
 	'user email template description' => {
@@ -1827,8 +1827,8 @@ our $I18N = {
 	},
 
 	'368' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Bu kullanıcıya yeni grup ekle.|,
+		lastUpdated => 1206999710
 	},
 
 	'user profile field private message allow none label' => {
@@ -1852,8 +1852,8 @@ our $I18N = {
 	},
 
 	'316' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Soyadı|,
+		lastUpdated => 1206996132
 	},
 
 	'target description' => {
@@ -1862,8 +1862,8 @@ our $I18N = {
 	},
 
 	'163' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Kullanıcı ekle|,
+		lastUpdated => 1206998572
 	},
 
 	'trash' => {
@@ -1907,8 +1907,8 @@ our $I18N = {
 	},
 
 	'175' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Makroları &ccedil;alıştır?|,
+		lastUpdated => 1206998176
 	},
 
 	'allowed keywords description' => {
@@ -1927,8 +1927,8 @@ our $I18N = {
 	},
 
 	'35' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Y&ouml;netici Fonksiyonu|,
+		lastUpdated => 1206997101
 	},
 
 	'141 description' => {
@@ -2032,13 +2032,13 @@ our $I18N = {
 	},
 
 	'327' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Ev Adresi-&Uuml;lke|,
+		lastUpdated => 1206996471
 	},
 
 	'320' => {
-		message => q||,
-		lastUpdated => 
+		message => q|<a href="http://messenger.yahoo.com/">Yahoo! Messenger</a> Id|,
+		lastUpdated => 1206996224
 	},
 
 	'944' => {
@@ -2157,8 +2157,8 @@ our $I18N = {
 	},
 
 	'314' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Adı|,
+		lastUpdated => 1206998074
 	},
 
 	'pagination.previousPageText' => {
@@ -2197,8 +2197,8 @@ our $I18N = {
 	},
 
 	'355' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Verilmemiş değer yerine kullanılacak olan|,
+		lastUpdated => 1206997482
 	},
 
 	'847' => {
@@ -2207,8 +2207,8 @@ our $I18N = {
 	},
 
 	'159' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Gelen Kutusu|,
+		lastUpdated => 1206998488
 	},
 
 	'553' => {
@@ -2227,8 +2227,8 @@ our $I18N = {
 	},
 
 	'326' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Ev Adresi-Posta Kodu|,
+		lastUpdated => 1206996454
 	},
 
 	'body.content' => {
@@ -2252,13 +2252,13 @@ our $I18N = {
 	},
 
 	'37' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Hak Red edildi.|,
+		lastUpdated => 1206999761
 	},
 
 	'335' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Cinsiyet|,
+		lastUpdated => 1206996580
 	},
 
 	'private message from label' => {
@@ -2347,13 +2347,13 @@ our $I18N = {
 	},
 
 	'240' => {
-		message => q||,
-		lastUpdated => 
+		message => q|İleti Kodu:|,
+		lastUpdated => 1206997772
 	},
 
 	'334' => {
-		message => q||,
-		lastUpdated => 
+		message => q|İş Telefonu|,
+		lastUpdated => 1206996569
 	},
 
 	'986' => {
@@ -2372,8 +2372,8 @@ our $I18N = {
 	},
 
 	'230' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Mesaj|,
+		lastUpdated => 1206998230
 	},
 
 	'1008' => {
@@ -2472,8 +2472,8 @@ our $I18N = {
 	},
 
 	'174' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Başlık g&ouml;ster?|,
+		lastUpdated => 1206998149
 	},
 
 	'481' => {
@@ -2537,8 +2537,8 @@ our $I18N = {
 	},
 
 	'229' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Konu|,
+		lastUpdated => 1206998191
 	},
 
 	'104 description' => {
@@ -2567,8 +2567,8 @@ our $I18N = {
 	},
 
 	'315' => {
-		message => q||,
-		lastUpdated => 
+		message => q|G&ouml;bek Adı|,
+		lastUpdated => 1206998098
 	},
 
 	'400 description' => {
@@ -2582,8 +2582,8 @@ our $I18N = {
 	},
 
 	'338' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Profili D&uuml;zelt|,
+		lastUpdated => 1206996730
 	},
 
 	'576' => {
@@ -2647,8 +2647,8 @@ our $I18N = {
 	},
 
 	'328' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Ev Telefonu|,
+		lastUpdated => 1206996481
 	},
 
 	'avatar' => {
@@ -2677,8 +2677,8 @@ our $I18N = {
 	},
 
 	'363' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Sayfa Şablon Pozisyonu|,
+		lastUpdated => 1206997687
 	},
 
 	'583 description' => {
@@ -2712,8 +2712,8 @@ our $I18N = {
 	},
 
 	'36' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Bu fonksiyon sadece y&ouml;neticiler tarafından kullanılabilir. L&uuml;tfen bir y&ouml;neticiye danışınız.|,
+		lastUpdated => 1206997625
 	},
 
 	'settings' => {
@@ -2727,8 +2727,8 @@ our $I18N = {
 	},
 
 	'362' => {
-		message => q||,
-		lastUpdated => 
+		message => q|YanYana|,
+		lastUpdated => 1206997665
 	},
 
 	'439' => {
@@ -2737,13 +2737,13 @@ our $I18N = {
 	},
 
 	'317' => {
-		message => q||,
-		lastUpdated => 
+		message => q|<a href="http://www.icq.com/">ICQ</a> UIN|,
+		lastUpdated => 1206996185
 	},
 
 	'169' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Yeni Kullanıcı Ekle.|,
+		lastUpdated => 1206998115
 	},
 
 	'411' => {
@@ -2847,8 +2847,8 @@ our $I18N = {
 	},
 
 	'313' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Diğer Bilgilere izin verilsin mi?|,
+		lastUpdated => 1206998057
 	},
 
 	'webgui' => {
@@ -2867,8 +2867,8 @@ our $I18N = {
 	},
 
 	'229 description' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Elektronik İletinin Konusu.|,
+		lastUpdated => 1206998218
 	},
 
 	'pagination.firstPageText' => {
@@ -2882,8 +2882,8 @@ our $I18N = {
 	},
 
 	'343' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Profili G&ouml;r&uuml;nt&uuml;le.|,
+		lastUpdated => 1206996832
 	},
 
 	'504' => {
@@ -2982,8 +2982,8 @@ our $I18N = {
 	},
 
 	'321' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Cep Telefonu|,
+		lastUpdated => 1206996242
 	},
 
 	'86' => {
@@ -3012,8 +3012,8 @@ our $I18N = {
 	},
 
 	'371' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Gruplama ekle|,
+		lastUpdated => 1206999792
 	},
 
 	'1079' => {
@@ -3037,8 +3037,8 @@ our $I18N = {
 	},
 
 	'2' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Sayfa|,
+		lastUpdated => 1206998184
 	},
 
 	'435' => {
@@ -3067,13 +3067,13 @@ our $I18N = {
 	},
 
 	'147' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Nesneler|,
+		lastUpdated => 1206998467
 	},
 
 	'339' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Erkek|,
+		lastUpdated => 1206996739
 	},
 
 	'1046' => {
@@ -3092,13 +3092,13 @@ our $I18N = {
 	},
 
 	'345' => {
-		message => q||,
-		lastUpdated => 
+		message => q|&Uuml;ye Değil|,
+		lastUpdated => 1206996868
 	},
 
 	'319' => {
-		message => q||,
-		lastUpdated => 
+		message => q|<a href="http://messenger.msn.com/">MSN Messenger</a> Id|,
+		lastUpdated => 1206996213
 	},
 
 	'56 description' => {
@@ -3107,8 +3107,8 @@ our $I18N = {
 	},
 
 	'1052' => {
-		message => q||,
-		lastUpdated => 
+		message => q|İ&ccedil;erik Filtresini D&uuml;zelt|,
+		lastUpdated => 1206999577
 	},
 
 	'735' => {
@@ -3202,8 +3202,8 @@ our $I18N = {
 	},
 
 	'357' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Haberler|,
+		lastUpdated => 1206997491
 	},
 
 	'settings groupIdAdminVersionTag hoverHelp' => {
@@ -3247,8 +3247,8 @@ our $I18N = {
 	},
 
 	'336' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Doğum Tarihi|,
+		lastUpdated => 1206996594
 	},
 
 	'mail return path help' => {
@@ -3362,13 +3362,13 @@ our $I18N = {
 	},
 
 	'149' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Kullanıcılar|,
+		lastUpdated => 1206998476
 	},
 
 	'304' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Lisan|,
+		lastUpdated => 1206997792
 	},
 
 	'hidden list' => {
@@ -3592,8 +3592,8 @@ our $I18N = {
 	},
 
 	'318' => {
-		message => q||,
-		lastUpdated => 
+		message => q|<a href="http://www.aol.com/aim/homenew.adp">AIM</a> Id|,
+		lastUpdated => 1206996203
 	},
 
 	'url extension' => {
@@ -3627,13 +3627,13 @@ our $I18N = {
 	},
 
 	'146' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Aktif Oturumlar|,
+		lastUpdated => 1206998458
 	},
 
 	'38' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 1206999867
 	},
 
 	'993 description' => {
@@ -3647,8 +3647,8 @@ our $I18N = {
 	},
 
 	'164' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Kimlik Denetim Y&ouml;ntemi|,
+		lastUpdated => 1206998620
 	},
 
 	'807' => {
