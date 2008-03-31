@@ -197,8 +197,8 @@ our $I18N = {
 	},
 
 	'view inbox template description' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Seleccione una plantilla para mostrar en la bandeja de entrada|,
+		lastUpdated => 1206978681
 	},
 
 	'889' => {
@@ -1232,8 +1232,8 @@ our $I18N = {
 	},
 
 	'view inbox message template description' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Seleccione una plantilla para mostrar los mensajes en la bandeja de entrada|,
+		lastUpdated => 1206978726
 	},
 
 	'run on admin update user help' => {
@@ -2062,8 +2062,8 @@ our $I18N = {
 	},
 
 	'username no html' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Tu usuario no puede contener HTML o Macros de WebGUI.|,
+		lastUpdated => 1206978771
 	},
 
 	'732' => {
@@ -2972,8 +2972,8 @@ our $I18N = {
 	},
 
 	'view inbox message template' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Plantilla de mensajes de la bandeja de entrada|,
+		lastUpdated => 1206978742
 	},
 
 	'824 description' => {
@@ -3232,8 +3232,8 @@ our $I18N = {
 	},
 
 	'user profile field private message friends only label' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Permitir de mis amigos &uacute;nicamente|,
+		lastUpdated => 1206978973
 	},
 
 	'80' => {
@@ -3262,8 +3262,8 @@ our $I18N = {
 	},
 
 	'view inbox template' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Plantilla de bandeja de entrada|,
+		lastUpdated => 1206978695
 	},
 
 	'821' => {
@@ -3477,8 +3477,8 @@ our $I18N = {
 	},
 
 	'user profiling' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Perfil de usuario|,
+		lastUpdated => 1206978781
 	},
 
 	'1009' => {
