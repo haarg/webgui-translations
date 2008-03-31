@@ -431,6 +431,11 @@ our $I18N = {
 		lastUpdated => 1201191973
 	},
 
+	'error add uncommitted' => {
+		message => q|<h1>Fout!</h1> <p>De versie tag met deze galerie moet eerst uitgevoerd worden, voordat er albums aan toegevoegd kunnen worden.</p>|,
+		lastUpdated => 1206952401
+	},
+
 	'templateIdEditAlbum description' => {
 		message => q|Het sjabloon voor het toevoegen of bewerken van een album.|,
 		lastUpdated => 1201192404

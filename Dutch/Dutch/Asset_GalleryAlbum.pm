@@ -51,6 +51,11 @@ our $I18N = {
 		lastUpdated => 1201266201
 	},
 
+	'template delete message' => {
+		message => q|Weet je zeker dat je deze galerie wilt verwijderen?|,
+		lastUpdated => 1206953175
+	},
+
 	'helpvar url_addPhoto' => {
 		message => q|Het URL waar een foto aan het album toegevoegd kan worden.|,
 		lastUpdated => 1201269270
@@ -114,6 +119,11 @@ our $I18N = {
 	'helpvar fileCount' => {
 		message => q|Het aantal bestanden in dit album|,
 		lastUpdated => 1201266819
+	},
+
+	'template delete yes' => {
+		message => q|Ja|,
+		lastUpdated => 1206953188
 	},
 
 	'helpvar form_archive' => {
@@ -249,6 +259,11 @@ our $I18N = {
 	'template addArchive title' => {
 		message => q|Voeg zip archief toe|,
 		lastUpdated => 1204031209
+	},
+
+	'template delete no' => {
+		message => q|Nee|,
+		lastUpdated => 1206953182
 	},
 
 	'cancel' => {

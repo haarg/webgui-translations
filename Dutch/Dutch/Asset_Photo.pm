@@ -11,6 +11,11 @@ our $I18N = {
 		lastUpdated => 1203437353
 	},
 
+	'helpvar url_searchKeyword' => {
+		message => q|Het URL naar de Galerie zoek pagina met dit trefwoord.|,
+		lastUpdated => 1206954409
+	},
+
 	'helpvar thumbnailUrl' => {
 		message => q|Het URL naar een miniatuur van deze foto.|,
 		lastUpdated => 1201262987
@@ -51,6 +56,11 @@ our $I18N = {
 		lastUpdated => 1204901066
 	},
 
+	'template delete message' => {
+		message => q|Weet je zeker dat je deze galerie wilt verwijderen?|,
+		lastUpdated => 1206957128
+	},
+
 	'helpvar exif_' => {
 		message => q|Er kan met een naam verwezen worden naar elke EXIF tag.|,
 		lastUpdated => 1201264050
@@ -84,6 +94,11 @@ our $I18N = {
 	'helpvar url_listFilesForOwner' => {
 		message => q|Het URL om bestanden en albums in een lijst te zetten, die door de eigenaar van deze foto toegevoegd zijn.|,
 		lastUpdated => 1201262928
+	},
+
+	'helpvar synopsis_text' => {
+		message => q|Het &quot;samenvatting&quot; veld zonder HTML.|,
+		lastUpdated => 1206954236
 	},
 
 	'template location' => {
@@ -156,6 +171,11 @@ our $I18N = {
 		lastUpdated => 1203517035
 	},
 
+	'helpvar keywords' => {
+		message => q|Een functie met alle trefwoorden die bij deze foto horen.|,
+		lastUpdated => 1206954207
+	},
+
 	'helpvar commentLoop creationDate' => {
 		message => q|De creatie datum van het commentaar|,
 		lastUpdated => 1201262722
@@ -164,6 +184,11 @@ our $I18N = {
 	'helpvar commentForm_bodyText' => {
 		message => q|Het hoofdveld van het commentaar. Een Rich editor zoals geconfigureerd in de ouder Asset, de galerie.|,
 		lastUpdated => 1201258284
+	},
+
+	'helpvar url_slideshow' => {
+		message => q|Het URL naar de diavoorstelling van het album waar dit bestand in zit.|,
+		lastUpdated => 1206955061
 	},
 
 	'helpvar form_friendsOnly' => {
@@ -189,6 +214,11 @@ our $I18N = {
 	'help common body' => {
 		message => q|Deze sjabloon variabelen worden gedeeld door alle soorten sjablonen die voor het foto asset gebruikt kunnen worden.|,
 		lastUpdated => 1201252775
+	},
+
+	'helpvar url_thumbnails' => {
+		message => q|Het URL naar de miniaturen van het album waar dit bestand in zit.|,
+		lastUpdated => 1206957089
 	},
 
 	'editForm keywords' => {
@@ -229,6 +259,11 @@ our $I18N = {
 	'help commentForm body' => {
 		message => q|Met deze sjabloon variabelen wordt het formulier gemaakt waar gebruikers commentaar kunnen geven bij fotos.|,
 		lastUpdated => 1201193623
+	},
+
+	'template delete albums' => {
+		message => q|De foto zit momenteel in de volgende albums:|,
+		lastUpdated => 1206957107
 	},
 
 	'helpvar canComment' => {
@@ -351,6 +386,11 @@ our $I18N = {
 		lastUpdated => 1201263729
 	},
 
+	'helpvar url_searchKeywordUser' => {
+		message => q|Een URL naar de Galerie zoek pagina met dit trefwoord. Het beperkt de zoekopdracht tot foto's van deze gebruiker.|,
+		lastUpdated => 1206954468
+	},
+
 	'help editComment title' => {
 		message => q|Foto commentaar bewerk sjabloon|,
 		lastUpdated => 1204901153
@@ -389,6 +429,21 @@ our $I18N = {
 	'template url_delete' => {
 		message => q|Verwijder foto|,
 		lastUpdated => 1203437281
+	},
+
+	'template makeShortcut album' => {
+		message => q|Album|,
+		lastUpdated => 1206957136
+	},
+
+	'helpvar url_album' => {
+		message => q|Het URL van het album waar dit bestand in zit.|,
+		lastUpdated => 1206954258
+	},
+
+	'template makeShortcut file' => {
+		message => q|Bestand|,
+		lastUpdated => 1206957142
 	},
 
 	'helpvar commentForm_end' => {
@@ -451,6 +506,11 @@ our $I18N = {
 		lastUpdated => 1201193924
 	},
 
+	'template makeShortcut title' => {
+		message => q|Kruislings publiceren|,
+		lastUpdated => 1206957168
+	},
+
 	'help commentForm title' => {
 		message => q|Foto - Commentaar formulier|,
 		lastUpdated => 1203517022
@@ -464,6 +524,11 @@ our $I18N = {
 	'commentForm error no bodyText' => {
 		message => q|Er was geen tekst ingevoerd. Voer tekst in om commentaar te geven.|,
 		lastUpdated => 1204900977
+	},
+
+	'helpvar keyword' => {
+		message => q|Het trefwoord|,
+		lastUpdated => 1206953766
 	},
 
 	'template url_makeShortcut' => {

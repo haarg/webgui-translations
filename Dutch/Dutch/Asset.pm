@@ -711,6 +711,11 @@ our $I18N = {
 		lastUpdated => 1146581864
 	},
 
+	'package extract error' => {
+		message => q|Niet in staat om het pakket uit te pakken! Het pakket zou corrupt kunnen zijn of er kan een server fout zijn opgetreden door dat het voorkomen wordt dat pakketten worden ge&iuml;mporteerd.|,
+		lastUpdated => 1206951462
+	},
+
 	'prototype using title' => {
 		message => q|Content prototypes, Gebruik van|,
 		lastUpdated => 1146832840

@@ -407,8 +407,8 @@ our $I18N = {
 	},
 
 	'searchResult_loop' => {
-		message => q|Een fuctie die de zoekresultaten bevat.|,
-		lastUpdated => 1206450392
+		message => q|Een functie die de zoekresultaten bevat.|,
+		lastUpdated => 1206952592
 	},
 
 	'thing_label' => {
