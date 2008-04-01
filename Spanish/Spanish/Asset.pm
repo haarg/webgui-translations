@@ -2,8 +2,8 @@ package WebGUI::i18n::Spanish::Asset;
 
 our $I18N = {
 	'lock help' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Obtener una copia de este Activo para edici&oacute;n, que bloquea el activo para que nadie utilice su actual 'version tag'. Esta opci&oacute;n s&oacute;lo se muestra si el activo no est&aacute; bloqueado.|,
+		lastUpdated => 1207062327
 	},
 
 	'make package' => {
@@ -32,8 +32,8 @@ our $I18N = {
 	},
 
 	'make asset exportable' => {
-		message => q||,
-		lastUpdated => 
+		message => q|&iquest;Hacer este activo exportable?|,
+		lastUpdated => 1207062419
 	},
 
 	'newWindow' => {
@@ -177,8 +177,8 @@ our $I18N = {
 	},
 
 	'locked' => {
-		message => q||,
-		lastUpdated => 
+		message => q|bloqueado|,
+		lastUpdated => 1207062370
 	},
 
 	'with children' => {

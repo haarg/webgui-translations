@@ -3,6 +3,10 @@ package WebGUI::i18n::Spanish;
 use strict;
 
 our $LANGUAGE = {
+	label => 'Spanish',
+	toolbar => '',
+	languageAbbreviation => 'es',
+	locale => 'es',
 };
 
 sub makeUrlCompliant {

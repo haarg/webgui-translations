@@ -27,8 +27,8 @@ our $I18N = {
 	},
 
 	'489' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Perfil de la categor&iacute;a|,
+		lastUpdated => 1207059991
 	},
 
 	'requiredForPasswordRecovery label' => {
@@ -42,8 +42,8 @@ our $I18N = {
 	},
 
 	'488 description' => {
-		message => q||,
-		lastUpdated => 
+		message => q|<p>Esta zona s&oacute;lo debe utilizarse si ha utilizado los posibles valores de la zona por encima de la cual es decir, que s&oacute;lo debe ser utilizada en conjunto con:</p><p> Checkbox List<br /> Combo Box<br /> Hidden List<br /> Radio List<br /> Select Box<br /> Select List</p><p>Ninguno de los otros campos de perfil debe utilizar el valor por defecto, ya que ser&aacute; ignorado. Si entra un valor por defecto, DEBER&Aacute; referenciar directamente a uno o m&aacute;s de sus posibles valores claves de la siguiente manera: </p><pre>[&quot;clave1&quot;,&quot;clave2&quot;,...]</pre><pre>	<br />Entre par&eacute;ntesis, las comillas y todo.</pre><pre>	<br /></pre><div align="justify">Si desea establecer el valor por defecto para cualquier otra campo. Cree el campo sin establecer esta &aacute;rea, y luego entrar en el perfil del visitante y guardar el valor que desea mostrar de forma predeterminada para el nuevo campo. Esto se ver&aacute; en el resultado deseado para el campo establecido por defecto cada vez que cree una cuenta nueva. <br /></div><p>&nbsp;</p>|,
+		lastUpdated => 1207059958
 	},
 
 	'486 description' => {
@@ -62,8 +62,8 @@ our $I18N = {
 	},
 
 	'787' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Editar este campo del perfil.|,
+		lastUpdated => 1207062096
 	},
 
 	'790' => {
@@ -102,13 +102,13 @@ our $I18N = {
 	},
 
 	'489 description' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Seleccione una categor&iacute;a para poner bajo este campo.|,
+		lastUpdated => 1207060054
 	},
 
 	'490' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Adicionar un perfil de categor&iacute;a.|,
+		lastUpdated => 1207060074
 	},
 
 	'897 description' => {
@@ -122,8 +122,8 @@ our $I18N = {
 	},
 
 	'492' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Lista de campos del perfil.|,
+		lastUpdated => 1207061999
 	},
 
 	'475' => {
@@ -132,8 +132,8 @@ our $I18N = {
 	},
 
 	'491' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Adicionar un campo al perfil.|,
+		lastUpdated => 1207061982
 	},
 
 	'topicName' => {
