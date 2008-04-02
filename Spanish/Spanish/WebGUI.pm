@@ -137,8 +137,8 @@ our $I18N = {
 	},
 
 	'135 description' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Esta es la direcci&oacute;n de su servidor de correo local. Es necesario para todos los elementos que utiliza el sistema de correo electr&oacute;nico de Internet (como la recuperaci&oacute;n de la contrase&ntilde;a). <br /> <br /> Opcionalmente, si est&aacute; ejecutando un servidor sendmail en la misma m&aacute;quina como WebGUI, tambi&eacute;n puede especificar una ruta del ejecutable sendmail. En la mayor&iacute;a de sistemas Linux esto se puede encontrar en &quot;/usr/lib/sendmail&quot;.<p>&nbsp;</p><p>&nbsp;</p>|,
+		lastUpdated => 1207146400
 	},
 
 	'540 description' => {
@@ -642,8 +642,8 @@ our $I18N = {
 	},
 
 	'1004 description' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Los grandes sitios usando grupo de datos externos har&aacute;n muchas llamadas a la base de datos externa. Para ayudar a reducir la carga, puede seleccionar el tiempo que desea mantener los resultados de las consultas a la base dedatos externa en cach&eacute; dentro de la base de datos WebGUI. La memoria cach&eacute; m&aacute;s avanzada puede ser incluida en una futura versi&oacute;n de WebGUI.|,
+		lastUpdated => 1207078491
 	},
 
 	'mail return path' => {
@@ -722,8 +722,8 @@ our $I18N = {
 	},
 
 	'1084' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Utilice la barra de herramientas por defecto de mi idioma|,
+		lastUpdated => 1207145448
 	},
 
 	'370' => {
@@ -777,8 +777,8 @@ our $I18N = {
 	},
 
 	'1075' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Link de base de datos|,
+		lastUpdated => 1207087598
 	},
 
 	'381' => {
@@ -877,8 +877,8 @@ our $I18N = {
 	},
 
 	'1073' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Plantilla de estilo|,
+		lastUpdated => 1207087570
 	},
 
 	'436' => {
@@ -1247,8 +1247,8 @@ our $I18N = {
 	},
 
 	'130 description' => {
-		message => q||,
-		lastUpdated => 
+		message => q|El tama&ntilde;o (en kilobytes) del m&aacute;ximo permitido para los adjuntos a ser cargados en el sistema. Debido a la naturaleza del protocolo HTTP, 100MB es el mayor tama&ntilde;o de archivo pr&aacute;ctico que puede esperar para cargar WebGUI a trav&eacute;s de la interfaz web.|,
+		lastUpdated => 1207146082
 	},
 
 	'1006' => {
@@ -1527,8 +1527,8 @@ our $I18N = {
 	},
 
 	'1076' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Base de datos de WebGUI|,
+		lastUpdated => 1207087640
 	},
 
 	'510' => {
@@ -1537,8 +1537,8 @@ our $I18N = {
 	},
 
 	'1077' => {
-		message => q||,
-		lastUpdated => 
+		message => q|La funci&oacute;n que est&aacute; intentando llamar no est&aacute; disponible para este m&oacute;dulo de autenticaci&oacute;n|,
+		lastUpdated => 1207087676
 	},
 
 	'449' => {
@@ -1932,8 +1932,8 @@ our $I18N = {
 	},
 
 	'141 description' => {
-		message => q||,
-		lastUpdated => 
+		message => q|<div id="result_box" dir="ltr">Si una p&aacute;gina en la que un usuario solicita no se encuentra en el sistema, el usuario puede ser redireccionado a la p&aacute;gina principal o a una p&aacute;gina de error en el que puedan tratar de encontrar lo que estaba buscando. Usted decide qu&eacute; es mejor para sus usuarios.</div>|,
+		lastUpdated => 1207147190
 	},
 
 	'settings groupIdAdminDatabaseLink label' => {
@@ -2412,8 +2412,8 @@ our $I18N = {
 	},
 
 	'1072' => {
-		message => q||,
-		lastUpdated => 
+		message => q|La direccion de correo ya est&aacute; en uso. Por favor use una direccion de correo distinta.|,
+		lastUpdated => 1207087377
 	},
 
 	'pages' => {
@@ -2427,8 +2427,8 @@ our $I18N = {
 	},
 
 	'118 description' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Desea que los visitantes de su sitio sean capaz de registrarse por si mismos?|,
+		lastUpdated => 1207145523
 	},
 
 	'settings groupIdAdminAdSpace hoverHelp' => {
@@ -2437,8 +2437,8 @@ our $I18N = {
 	},
 
 	'126 description' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Una direcci&oacute;n de correo electr&oacute;nico general de su compa&ntilde;&iacute;a. Esta es la direcci&oacute;n para todos los mensajes automatizados que vengan. Tambi&eacute;n puede utilizarse a trav&eacute;s de la macro de estilo Direcci&oacute;n de Correo Electr&oacute;nico Empresa.|,
+		lastUpdated => 1207145779
 	},
 
 	'991 description' => {
@@ -2612,8 +2612,8 @@ our $I18N = {
 	},
 
 	'1078' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Ya existe un usuario del sistema con la direcci&oacute;n de correo que usted ha entrado. Por favor recomplete el formulario y presiones &quot;Guardar&quot; si desea crear este usuario|,
+		lastUpdated => 1207087755
 	},
 
 	'pagination.text' => {
@@ -2657,8 +2657,8 @@ our $I18N = {
 	},
 
 	'1085' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Plantilla de Variables de Paginaci&oacute;n|,
+		lastUpdated => 1207145470
 	},
 
 	'Enable user invitations' => {
@@ -2687,13 +2687,13 @@ our $I18N = {
 	},
 
 	'127 description' => {
-		message => q||,
-		lastUpdated => 
+		message => q|La URL primaria de su compa&ntilde;&iacute;a. &Eacute;sta aparecer&aacute; autom&aacute;ticamente en los correos que envies a trav&eacute;s del sistema WebGUI. Tambi&eacute;n est&aacute; disponible a trav&eacute;s de la macro de estilo Company URL.|,
+		lastUpdated => 1207145902
 	},
 
 	'1051' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Reemplazar Con|,
+		lastUpdated => 1207079667
 	},
 
 	'733' => {
@@ -3017,8 +3017,8 @@ our $I18N = {
 	},
 
 	'1079' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Estilo imprimible|,
+		lastUpdated => 1207145389
 	},
 
 	'user invitations email exists description' => {
@@ -3107,8 +3107,8 @@ our $I18N = {
 	},
 
 	'1052' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Editar Filtro de Contenidos|,
+		lastUpdated => 1207079688
 	},
 
 	'735' => {
@@ -3567,8 +3567,8 @@ our $I18N = {
 	},
 
 	'1070' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Configurar el nombre del sitio|,
+		lastUpdated => 1207087259
 	},
 
 	'703' => {

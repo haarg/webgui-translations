@@ -7,8 +7,8 @@ our $I18N = {
 	},
 
 	'make package' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Hacer paquete?|,
+		lastUpdated => 1207148326
 	},
 
 	'959' => {
@@ -37,8 +37,8 @@ our $I18N = {
 	},
 
 	'newWindow' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Un valor booleano que ser&aacute; verdadero si este Activo se abre en una nueva ventana del navegador.|,
+		lastUpdated => 1207149542
 	},
 
 	'keywords' => {
@@ -217,13 +217,13 @@ our $I18N = {
 	},
 
 	'make asset exportable description' => {
-		message => q||,
-		lastUpdated => 
+		message => q|<div id="result_box" dir="ltr">&iquest;Este activo ser&aacute; exportable? Este activo, y todos lo del activo padre, debe ser exportable para que este activo sea exportado.</div>|,
+		lastUpdated => 1207148033
 	},
 
 	'manage help' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Trae al Administrador de Activos y muestra el Activo hijo, si los hay.|,
+		lastUpdated => 1207148853
 	},
 
 	'1079' => {
@@ -617,23 +617,23 @@ our $I18N = {
 	},
 
 	'over max assets' => {
-		message => q||,
-		lastUpdated => 
+		message => q|El administrador ha limitado el n&uacute;mero de activos que puede colocar en su sitio, y usted ha excedido el l&iacute;mite. Eliminar algunos activos antiguos con el fin de a&ntilde;adir m&aacute;s.|,
+		lastUpdated => 1207149827
 	},
 
 	'manage' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Administrar|,
+		lastUpdated => 1207148754
 	},
 
 	'none' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Ninguno.|,
+		lastUpdated => 1207149731
 	},
 
 	'make package description' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Muchas tareas de WebGUI son muy repetitivas. La automatizaci&oacute;n de estas tareas en WebGUI, como la creaci&oacute;n de un de Activo, o conjuntos de Activos, se hace creando un paquete que se puede reutilizar en todo el sitio. Compruebe si quiere que este Activo&nbsp; debe estar disponible como un paquete.|,
+		lastUpdated => 1207148447
 	},
 
 	'duplicateField' => {
@@ -652,8 +652,8 @@ our $I18N = {
 	},
 
 	'make prototype description' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Hacer este Activo un Prototipo de Contenido para que otros puedan utilizarlo en su sitio.|,
+		lastUpdated => 1207148680
 	},
 
 	'rootUrl form option none' => {
@@ -802,18 +802,18 @@ our $I18N = {
 	},
 
 	'missing page query' => {
-		message => q||,
-		lastUpdated => 
+		message => q|<div id="result_box" dir="ltr">La p&aacute;gina que has solicitado no existe. &iquest;Qu&eacute; quieres hacer?</div>|,
+		lastUpdated => 1207149059
 	},
 
 	'package corrupt' => {
-		message => q||,
-		lastUpdated => 
+		message => q|<div id="result_box" dir="ltr">El paquete que trat&oacute; de importar parece estar corrupto. Hemos importado hasta el punto en que se detect&oacute; la corrupci&oacute;n. Si no quiere esta parte, devuelva su version tag actual.</div>|,
+		lastUpdated => 1207154009
 	},
 
 	'ownerUserId' => {
-		message => q||,
-		lastUpdated => 
+		message => q|El ID del usuario due&ntilde;o de este Activo.|,
+		lastUpdated => 1207152913
 	},
 
 	'could not symlink' => {
@@ -882,13 +882,13 @@ our $I18N = {
 	},
 
 	'menuTitle' => {
-		message => q||,
-		lastUpdated => 
+		message => q|El t&iacute;tulo del Activo usado en los navegadores.|,
+		lastUpdated => 1207148873
 	},
 
 	'make prototype' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Hacer prototipo?|,
+		lastUpdated => 1207148611
 	},
 
 	'topicName' => {
@@ -902,8 +902,8 @@ our $I18N = {
 	},
 
 	'metadata edit property' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Metadata, Editar|,
+		lastUpdated => 1207148886
 	},
 
 	'purge' => {

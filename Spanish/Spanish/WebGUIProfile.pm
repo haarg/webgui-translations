@@ -7,13 +7,13 @@ our $I18N = {
 	},
 
 	'897a' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Editable?|,
+		lastUpdated => 1207063580
 	},
 
 	'897a description' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Este campo deber&iacute;a ser editable por los usuarios?|,
+		lastUpdated => 1207063609
 	},
 
 	'470' => {
@@ -57,8 +57,8 @@ our $I18N = {
 	},
 
 	'788' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Borrar este campo del perfil.|,
+		lastUpdated => 1207063489
 	},
 
 	'787' => {
@@ -67,8 +67,8 @@ our $I18N = {
 	},
 
 	'790' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Borrar esta categor&iacute;a de perfil.|,
+		lastUpdated => 1207063527
 	},
 
 	'466' => {
@@ -97,8 +97,8 @@ our $I18N = {
 	},
 
 	'789' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Editar esta categor&iacute;a de perfil.|,
+		lastUpdated => 1207063510
 	},
 
 	'489 description' => {
@@ -112,8 +112,8 @@ our $I18N = {
 	},
 
 	'897 description' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Est&aacute; categor&iacute;a deber&iacute;a ser editable por los usuarios?|,
+		lastUpdated => 1207063570
 	},
 
 	'showAtRegistration label' => {
@@ -197,8 +197,8 @@ our $I18N = {
 	},
 
 	'897' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Editable?|,
+		lastUpdated => 1207063541
 	},
 
 	'472 description' => {
