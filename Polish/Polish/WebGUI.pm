@@ -2,13 +2,13 @@ package WebGUI::i18n::Polish::WebGUI;
 
 our $I18N = {
 	'559' => {
-		message => q|Run On Registration|,
-		lastUpdated => 1031514049
+		message => q|Uruchom przy tworzeniu konta użytkownika|,
+		lastUpdated => 1207313245
 	},
 
 	'84 description' => {
-		message => q|<p>Nazwa dla grupy. Najlepiej, jeśli nazwa jest opisowa</p>|,
-		lastUpdated => 1120448672
+		message => q|<p>Nazwa dla grupy. Najlepiej, jeśli nazwa jest opisowa. </p>|,
+		lastUpdated => 1207317056
 	},
 
 	'127' => {
@@ -23,7 +23,7 @@ our $I18N = {
 
 	'71' => {
 		message => q|Odzyskanie hasła|,
-		lastUpdated => 1031514049
+		lastUpdated => 1207314704
 	},
 
 	'118' => {
@@ -73,12 +73,12 @@ our $I18N = {
 
 	'560' => {
 		message => q|Zatwierdzony|,
-		lastUpdated => 1031514049
+		lastUpdated => 1207313461
 	},
 
 	'737' => {
-		message => q|8 Master|,
-		lastUpdated => 1033836698
+		message => q|8 Mistrz|,
+		lastUpdated => 1207314965
 	},
 
 	'settings groupIdAdminWorkflowRun label' => {
@@ -93,7 +93,7 @@ our $I18N = {
 
 	'84' => {
 		message => q|Nazwa grupy|,
-		lastUpdated => 1031514049
+		lastUpdated => 1207317029
 	},
 
 	'skip commit comments' => {
@@ -163,7 +163,7 @@ our $I18N = {
 
 	'728' => {
 		message => q|Czy jesteś pewny, że chcesz usunąć ten plik??|,
-		lastUpdated => 1031514049
+		lastUpdated => 1207314783
 	},
 
 	'float' => {
@@ -208,7 +208,7 @@ our $I18N = {
 
 	'572' => {
 		message => q|Zatwierdź|,
-		lastUpdated => 1031514049
+		lastUpdated => 1207313730
 	},
 
 	'350' => {
@@ -233,7 +233,7 @@ our $I18N = {
 
 	'58' => {
 		message => q|Mam już konto w serwisie.|,
-		lastUpdated => 1031514049
+		lastUpdated => 1207313756
 	},
 
 	'431' => {
@@ -263,7 +263,7 @@ our $I18N = {
 
 	'76' => {
 		message => q|Nie posiadamy adresu email w naszej bazie danych.|,
-		lastUpdated => 1031514049
+		lastUpdated => 1207315155
 	},
 
 	'340' => {
@@ -273,7 +273,7 @@ our $I18N = {
 
 	'62' => {
 		message => q|zapisz|,
-		lastUpdated => 1031514049
+		lastUpdated => 1207314133
 	},
 
 	'311' => {
@@ -298,12 +298,12 @@ our $I18N = {
 
 	'859' => {
 		message => q|Podpis|,
-		lastUpdated => 1043879866
+		lastUpdated => 1207317996
 	},
 
 	'739' => {
 		message => q|Poziom UI|,
-		lastUpdated => 1033832377
+		lastUpdated => 1207314980
 	},
 
 	'settings groupIdAdminSubscription hoverHelp' => {
@@ -332,8 +332,8 @@ our $I18N = {
 	},
 
 	'706' => {
-		message => q|Godzina(y)|,
-		lastUpdated => 1031514049
+		message => q|Godzina(-ny)|,
+		lastUpdated => 1207314499
 	},
 
 	'14' => {
@@ -427,8 +427,8 @@ our $I18N = {
 	},
 
 	'8' => {
-		message => q|View page not found.|,
-		lastUpdated => 1031514049
+		message => q|Wyświetl nie znaleziono strony.|,
+		lastUpdated => 1207315600
 	},
 
 	'976' => {
@@ -467,8 +467,8 @@ our $I18N = {
 	},
 
 	'743' => {
-		message => q|Musisz wprowadzić poprawny adres e-mail aby przeprowadzić procedurę odzyskania twojego hasła.|,
-		lastUpdated => 1035246389
+		message => q|Aby przeprowadzić procedurę odzyskania twojego hasła musisz wprowadzić poprawny adres e-mail.|,
+		lastUpdated => 1207315022
 	},
 
 	'523' => {
@@ -533,7 +533,7 @@ our $I18N = {
 
 	'61' => {
 		message => q|Aktualizacja ustawień konta|,
-		lastUpdated => 1031514049
+		lastUpdated => 1207314126
 	},
 
 	'430' => {
@@ -612,12 +612,8 @@ our $I18N = {
 	},
 
 	'77' => {
-		message => q|<li>Ta nazwa konta została już użyta i jest wykorzystywana przez innego użytkownika. Proszę wprowadzić inną nazwę. Poniżej prezentujemy kilka sugestii:<br />
-%sToo<br />
-%s2<br />
-%s_%d<br />
-</li>|,
-		lastUpdated => 1140292461
+		message => q|<li>Ta nazwa konta została już użyta i jest wykorzystywana przez innego użytkownika. Proszę wprowadzić inną nazwę. Poniżej prezentujemy kilka sugestii:<br /> %sToo<br /> %s2<br /> %s_%d</li>|,
+		lastUpdated => 1207315178
 	},
 
 	'444' => {
@@ -659,12 +655,12 @@ Ustaw tą wartoś na Tak, jeśli chcesz aby WebGUI informowało użytkownika o f
 
 	'64' => {
 		message => q|Wyloguj.|,
-		lastUpdated => 1031514049
+		lastUpdated => 1207314146
 	},
 
 	'558' => {
 		message => q|Edycja Karmy użytkownika|,
-		lastUpdated => 1031514049
+		lastUpdated => 1207313192
 	},
 
 	'password clear text' => {
@@ -688,8 +684,8 @@ Ustaw tą wartoś na Tak, jeśli chcesz aby WebGUI informowało użytkownika o f
 	},
 
 	'707 description' => {
-		message => q|Show debugging information in WebGUI's output. This is primarily useful for WebGUI developers, but can also be interesting for Administrators trying to troubleshoot a problem.|,
-		lastUpdated => 1120239343
+		message => q|<p>Wyświetlanie komunikat&oacute;w i informacji diagnostycznych. Niezwykle użyteczna funkcja dla webmaster&oacute;w i deweloper&oacute;w. Przydatna może być r&oacute;wnież administratorm pr&oacute;bującym rozwiązań napotakny problem.</p>|,
+		lastUpdated => 1207314695
 	},
 
 	'settings groupIdAdminUser hoverHelp' => {
@@ -750,8 +746,8 @@ Wprowadź tekst wiadomości jaka ma być wysłana do użytkownika w celu poinfor
 	},
 
 	'734' => {
-		message => q|5 Adept/Biegły|,
-		lastUpdated => 1033836678
+		message => q|5 Biegły|,
+		lastUpdated => 1207314934
 	},
 
 	'1' => {
@@ -771,22 +767,17 @@ Wprowadź tekst wiadomości jaka ma być wysłana do użytkownika w celu poinfor
 
 	'824' => {
 		message => q|Stopka listu e-mail|,
-		lastUpdated => 1038708558
+		lastUpdated => 1207316912
 	},
 
 	'661' => {
 		message => q|Ustawienia pliku, Edycja|,
-		lastUpdated => 1031514049
+		lastUpdated => 1207314366
 	},
 
 	'857 description' => {
-		message => q|<p>
-Wprowadź adres IP w formacie CIDR. Można wprowadzić wiele adresów jeśli zostaną oddzielone przecinkami. Spacje, tabulatory i nowe linie będą zignorowane.
-</p>
-<p>
-<i>Przykład adresu IP z maską:</i> 10.0.0.32/27, 192.168.0.1/30
-</p>|,
-		lastUpdated => 1139955354
+		message => q|<p> Wprowadź adres IP w formacie CIDR. Można wprowadzić wiele adres&oacute;w jeśli zostaną oddzielone przecinkami. Spacje, tabulatory i nowe linie będą zignorowane. </p> <p> <em>Przykład adresu IP z maską:</em> 10.0.0.32/27, 192.168.0.1/30 </p>|,
+		lastUpdated => 1207317982
 	},
 
 	'1075' => {
@@ -801,7 +792,7 @@ Wprowadź adres IP w formacie CIDR. Można wprowadzić wiele adresów jeśli zos
 
 	'581' => {
 		message => q|Dodaj nową wartość|,
-		lastUpdated => 1031514049
+		lastUpdated => 1207313763
 	},
 
 	'418 description' => {
@@ -837,7 +828,7 @@ and tracked by WebGUI.|,
 
 	'605' => {
 		message => q|Dodaj grupy|,
-		lastUpdated => 1031514049
+		lastUpdated => 1207314119
 	},
 
 	'private message message label' => {
@@ -852,7 +843,7 @@ and tracked by WebGUI.|,
 
 	'813' => {
 		message => q|Grupy w tej grupie|,
-		lastUpdated => 1037583186
+		lastUpdated => 1207316568
 	},
 
 	'settings groupIdAdminGroup label' => {
@@ -926,7 +917,7 @@ Ta grupa może być następnie nazwana &quot;Pracownicy w HMO 1&quot; i może po
 
 	'816' => {
 		message => q|Status|,
-		lastUpdated => 1038431169
+		lastUpdated => 1207316594
 	},
 
 	'Enable user invitations description' => {
@@ -945,8 +936,8 @@ Ta grupa może być następnie nazwana &quot;Pracownicy w HMO 1&quot; i może po
 	},
 
 	'1051 description' => {
-		message => q|Na co ciąg znaków powinien zostać zamieniony.|,
-		lastUpdated => 1204542059
+		message => q|Na co ciąg znak&oacute;w powinien zostać zamieniony.|,
+		lastUpdated => 1207313055
 	},
 
 	'975' => {
@@ -1031,7 +1022,7 @@ Ta grupa może być następnie nazwana &quot;Pracownicy w HMO 1&quot; i może po
 
 	'582' => {
 		message => q|Pozostawiać puste|,
-		lastUpdated => 1031514049
+		lastUpdated => 1207313772
 	},
 
 	'default version tag workflow help' => {
@@ -1051,7 +1042,7 @@ Ta grupa może być następnie nazwana &quot;Pracownicy w HMO 1&quot; i może po
 
 	'746' => {
 		message => q|Ustawienie ikon paska narzędzi|,
-		lastUpdated => 1036046598
+		lastUpdated => 1207315056
 	},
 
 	'400' => {
@@ -1061,7 +1052,7 @@ Ta grupa może być następnie nazwana &quot;Pracownicy w HMO 1&quot; i może po
 
 	'744' => {
 		message => q|Co dalej?|,
-		lastUpdated => 1035864828
+		lastUpdated => 1207315028
 	},
 
 	'1011' => {
@@ -1071,17 +1062,17 @@ Ta grupa może być następnie nazwana &quot;Pracownicy w HMO 1&quot; i może po
 
 	'556 description' => {
 		message => q|Jak dużo karmy powinno być dodane lub odjęte od karmy użytkownika?|,
-		lastUpdated => 1120768600
+		lastUpdated => 1207313172
 	},
 
 	'84 description groupings' => {
 		message => q|Nazwa grupy.|,
-		lastUpdated => 1122088999
+		lastUpdated => 1207317062
 	},
 
 	'557' => {
 		message => q|Opis|,
-		lastUpdated => 1031514049
+		lastUpdated => 1207313178
 	},
 
 	'settings groupIdAdminUserAdd label' => {
@@ -1095,8 +1086,8 @@ Ta grupa może być następnie nazwana &quot;Pracownicy w HMO 1&quot; i może po
 	},
 
 	'700' => {
-		message => q|Dzień(dni)|,
-		lastUpdated => 1031514049
+		message => q|Dzień(-ni)|,
+		lastUpdated => 1207314538
 	},
 
 	'475' => {
@@ -1151,12 +1142,12 @@ Ta grupa może być następnie nazwana &quot;Pracownicy w HMO 1&quot; i może po
 
 	'751' => {
 		message => q|Stań się tym użytkownikiem.|,
-		lastUpdated => 1036864905
+		lastUpdated => 1207315118
 	},
 
 	'60' => {
-		message => q|Czy jesteś pewny, że chcesz wyłączyć swoje konto? Jeśli kontynujesz towje informacje zostaną utracone.|,
-		lastUpdated => 1031514049
+		message => q|Czy jesteś pewny, że chcesz wyłączyć swoje konto? Jeśli kontynujesz twoje informacje zostaną utracone.|,
+		lastUpdated => 1207314109
 	},
 
 	'messaging' => {
@@ -1165,8 +1156,8 @@ Ta grupa może być następnie nazwana &quot;Pracownicy w HMO 1&quot; i może po
 	},
 
 	'724' => {
-		message => q|Nazwa użytkownika nie może zaczynać się lub kończyć spacjami lub tabulatorami.|,
-		lastUpdated => 1129431859
+		message => q|Nazwa użytkownika nie może zaczynać się, ani kończyć spacjami lub tabulatorami.|,
+		lastUpdated => 1207314735
 	},
 
 	'432' => {
@@ -1176,7 +1167,7 @@ Ta grupa może być następnie nazwana &quot;Pracownicy w HMO 1&quot; i może po
 
 	'860' => {
 		message => q|Uczynić adres e-mail publicznym?|,
-		lastUpdated => 1043879942
+		lastUpdated => 1207318239
 	},
 
 	'346' => {
@@ -1216,12 +1207,12 @@ Ta grupa może być następnie nazwana &quot;Pracownicy w HMO 1&quot; i może po
 
 	'856' => {
 		message => q|Nie posiadasz aktualnie żadnych własności dla konta.|,
-		lastUpdated => 1040340432
+		lastUpdated => 1207317920
 	},
 
 	'69' => {
 		message => q|Skontaktuj się z administratorem w celu uzyskania pomocy.|,
-		lastUpdated => 1031514049
+		lastUpdated => 1207314390
 	},
 
 	'removeLabel' => {
@@ -1245,8 +1236,8 @@ Ta grupa może być następnie nazwana &quot;Pracownicy w HMO 1&quot; i może po
 	},
 
 	'756' => {
-		message => q|Powrót do listy grup.|,
-		lastUpdated => 1036867726
+		message => q|Powr&oacute;t do listy grup.|,
+		lastUpdated => 1207315145
 	},
 
 	'hexadecimal' => {
@@ -1260,8 +1251,8 @@ Ta grupa może być następnie nazwana &quot;Pracownicy w HMO 1&quot; i może po
 	},
 
 	'559 description' => {
-		message => q|If there is a workflow chosen here, it will be executed each time a user registers anonymously.|,
-		lastUpdated => 1141956483
+		message => q|<p>W przypadku ustawienia workfow, odpowiednie działanie będzie uruchamiane każdorazowo podczas anoimowej rejestracji.</p>|,
+		lastUpdated => 1207313390
 	},
 
 	'view inbox message template description' => {
@@ -1331,7 +1322,7 @@ Ta grupa może być następnie nazwana &quot;Pracownicy w HMO 1&quot; i może po
 
 	'810' => {
 		message => q|wyślij|,
-		lastUpdated => 1037579743
+		lastUpdated => 1207316531
 	},
 
 	'372' => {
@@ -1341,7 +1332,7 @@ Ta grupa może być następnie nazwana &quot;Pracownicy w HMO 1&quot; i może po
 
 	'574' => {
 		message => q|Odmawiać|,
-		lastUpdated => 1031514049
+		lastUpdated => 1207313736
 	},
 
 	'170' => {
@@ -1385,18 +1376,18 @@ Ta grupa może być następnie nazwana &quot;Pracownicy w HMO 1&quot; i może po
 	},
 
 	'72' => {
-		message => q|przywróć|,
-		lastUpdated => 1031514049
+		message => q|przywr&oacute;ć|,
+		lastUpdated => 1207314711
 	},
 
 	'566' => {
-		message => q|Edytuj Timeout|,
-		lastUpdated => 1031514049
+		message => q|Edytuj Czas wygaśnięcia (timeout)|,
+		lastUpdated => 1207313638
 	},
 
 	'806' => {
 		message => q|Usuń tą grupę.|,
-		lastUpdated => 1037579396
+		lastUpdated => 1207315616
 	},
 
 	'869' => {
@@ -1426,7 +1417,7 @@ Ta grupa może być następnie nazwana &quot;Pracownicy w HMO 1&quot; i może po
 
 	'811 description' => {
 		message => q|Od kogo e-mail.|,
-		lastUpdated => 1122093200
+		lastUpdated => 1207316543
 	},
 
 	'1006 description' => {
@@ -1446,7 +1437,7 @@ Ta grupa może być następnie nazwana &quot;Pracownicy w HMO 1&quot; i może po
 
 	'556' => {
 		message => q|Ilość|,
-		lastUpdated => 1031514049
+		lastUpdated => 1207313165
 	},
 
 	'options.display' => {
@@ -1470,8 +1461,8 @@ Ta grupa może być następnie nazwana &quot;Pracownicy w HMO 1&quot; i może po
 	},
 
 	'815' => {
-		message => q|Plik, który próbujesz załadować jest zbyt duży.|,
-		lastUpdated => 1038023800
+		message => q|Plik, kt&oacute;ry pr&oacute;bujesz załadować jest zbyt duży.|,
+		lastUpdated => 1207316586
 	},
 
 	'skip commit comments help' => {
@@ -1526,7 +1517,7 @@ Ta grupa może być następnie nazwana &quot;Pracownicy w HMO 1&quot; i może po
 
 	'725' => {
 		message => q|Nazwa użytkownika nie może być pusta.|,
-		lastUpdated => 1031879612
+		lastUpdated => 1207314765
 	},
 
 	'country' => {
@@ -1606,7 +1597,7 @@ Ta grupa może być następnie nazwana &quot;Pracownicy w HMO 1&quot; i może po
 
 	'575' => {
 		message => q|Edytuj|,
-		lastUpdated => 1031514049
+		lastUpdated => 1207313744
 	},
 
 	'863 description' => {
@@ -1653,7 +1644,7 @@ Różnica w liczbie dni od dnia wygaśnięcia ważności grupowania w celu usuni
 
 	'699' => {
 		message => q|Pierwszy dzień tygodnia|,
-		lastUpdated => 1031514049
+		lastUpdated => 1207314396
 	},
 
 	'cancel' => {
@@ -1668,7 +1659,7 @@ Różnica w liczbie dni od dnia wygaśnięcia ważności grupowania w celu usuni
 
 	'818' => {
 		message => q|Deaktywowany|,
-		lastUpdated => 1038431300
+		lastUpdated => 1207316623
 	},
 
 	'user email template' => {
@@ -1718,7 +1709,7 @@ Różnica w liczbie dni od dnia wygaśnięcia ważności grupowania w celu usuni
 
 	'583' => {
 		message => q|Maksymalny rozmiar obrazka|,
-		lastUpdated => 1031514049
+		lastUpdated => 1207313779
 	},
 
 	'settings groupIdAdminGraphics hoverHelp' => {
@@ -1738,12 +1729,12 @@ Różnica w liczbie dni od dnia wygaśnięcia ważności grupowania w celu usuni
 
 	'85' => {
 		message => q|Opis/Treść|,
-		lastUpdated => 1031514049
+		lastUpdated => 1207317840
 	},
 
 	'809' => {
-		message => q|Email Group|,
-		lastUpdated => 1037579611
+		message => q|E-mail Grupy|,
+		lastUpdated => 1207316507
 	},
 
 	'332' => {
@@ -1767,13 +1758,13 @@ Różnica w liczbie dni od dnia wygaśnięcia ważności grupowania w celu usuni
 	},
 
 	'745' => {
-		message => q|Powróć do strony.|,
-		lastUpdated => 1035872437
+		message => q|Powr&oacute;ć do strony.|,
+		lastUpdated => 1207315034
 	},
 
 	'736' => {
 		message => q|7 Ekspert|,
-		lastUpdated => 1033836692
+		lastUpdated => 1207314955
 	},
 
 	'539' => {
@@ -1803,7 +1794,7 @@ Różnica w liczbie dni od dnia wygaśnięcia ważności grupowania w celu usuni
 
 	'565' => {
 		message => q|Kto może moderować?|,
-		lastUpdated => 1031514049
+		lastUpdated => 1207313616
 	},
 
 	'private message status replied' => {
@@ -1844,7 +1835,7 @@ Różnica w liczbie dni od dnia wygaśnięcia ważności grupowania w celu usuni
 
 	'730' => {
 		message => q|1 Nowicjusz|,
-		lastUpdated => 1033836642
+		lastUpdated => 1207314811
 	},
 
 	'1069' => {
@@ -1858,8 +1849,8 @@ Różnica w liczbie dni od dnia wygaśnięcia ważności grupowania w celu usuni
 	},
 
 	'57' => {
-		message => q|Potrzebne jest wyłącznie jeśli życzysz sobie korzystać z właściwości wymagających adresy E-mail.|,
-		lastUpdated => 1031514049
+		message => q|Potrzebne wyłącznie jeśli zamierzasz korzystać z właściwości wymagających adresu E-mail.|,
+		lastUpdated => 1207313723
 	},
 
 	'368' => {
@@ -2044,7 +2035,7 @@ Różnica w liczbie dni od dnia wygaśnięcia ważności grupowania w celu usuni
 
 	'73' => {
 		message => q|Loguj.|,
-		lastUpdated => 1031514049
+		lastUpdated => 1207314804
 	},
 
 	'settings groupIdAdminGroup hoverHelp' => {
@@ -2053,18 +2044,18 @@ Różnica w liczbie dni od dnia wygaśnięcia ważności grupowania w celu usuni
 	},
 
 	'67' => {
-		message => q|Utwórz nowe konto.|,
-		lastUpdated => 1031514049
+		message => q|Utw&oacute;rz nowe konto.|,
+		lastUpdated => 1207314372
 	},
 
 	'812' => {
-		message => q|Twoja wiadomość została wysłana.|,
-		lastUpdated => 1037580328
+		message => q|Wiadomość została wysłana.|,
+		lastUpdated => 1207316555
 	},
 
 	'794' => {
 		message => q|Pakiety|,
-		lastUpdated => 1036971944
+		lastUpdated => 1207315547
 	},
 
 	'327' => {
@@ -2103,8 +2094,8 @@ Różnica w liczbie dni od dnia wygaśnięcia ważności grupowania w celu usuni
 	},
 
 	'732' => {
-		message => q|3 Rookie|,
-		lastUpdated => 1033836660
+		message => q|3 Rekrut|,
+		lastUpdated => 1207314885
 	},
 
 	'51 description' => {
@@ -2114,7 +2105,7 @@ Różnica w liczbie dni od dnia wygaśnięcia ważności grupowania w celu usuni
 
 	'811' => {
 		message => q|Od|,
-		lastUpdated => 1037580145
+		lastUpdated => 1207316538
 	},
 
 	'994 description' => {
@@ -2143,8 +2134,8 @@ Różnica w liczbie dni od dnia wygaśnięcia ważności grupowania w celu usuni
 	},
 
 	'819' => {
-		message => q|Self-Deactivated|,
-		lastUpdated => 1038431323
+		message => q|Deaktywowany przez użytkownika|,
+		lastUpdated => 1207316642
 	},
 
 	'purge workflow help' => {
@@ -2169,7 +2160,7 @@ Różnica w liczbie dni od dnia wygaśnięcia ważności grupowania w celu usuni
 
 	'858' => {
 		message => q|Alias|,
-		lastUpdated => 1043879848
+		lastUpdated => 1207317989
 	},
 
 	'104' => {
@@ -2237,7 +2228,7 @@ Aby zdefiniować filtr zmiennych scratch dodaj linię do filtru i wprowadź pola
 
 	'754' => {
 		message => q|Zarządzanie użytkownikami w tej grupie.|,
-		lastUpdated => 1036866994
+		lastUpdated => 1207315139
 	},
 
 	'page statistics' => {
@@ -2256,8 +2247,8 @@ Aby zdefiniować filtr zmiennych scratch dodaj linię do filtru i wprowadź pola
 	},
 
 	'847' => {
-		message => q|Wróć z powrotem do aktualnej strony.|,
-		lastUpdated => 1039587250
+		message => q|Wr&oacute;ć z powrotem do aktualnej strony.|,
+		lastUpdated => 1207317070
 	},
 
 	'159' => {
@@ -2267,12 +2258,12 @@ Aby zdefiniować filtr zmiennych scratch dodaj linię do filtru i wprowadź pola
 
 	'553' => {
 		message => q|Status|,
-		lastUpdated => 1031514049
+		lastUpdated => 1207313110
 	},
 
 	'704' => {
-		message => q|Sekund|,
-		lastUpdated => 1031514049
+		message => q|Sekunda(-nd)|,
+		lastUpdated => 1207314584
 	},
 
 	'private message blocked error' => {
@@ -2297,7 +2288,7 @@ Aby zdefiniować filtr zmiennych scratch dodaj linię do filtru i wprowadź pola
 
 	'555' => {
 		message => q|Edytuj karmę użytkownika.|,
-		lastUpdated => 1031514049
+		lastUpdated => 1207313158
 	},
 
 	'1017' => {
@@ -2341,8 +2332,8 @@ Aby zdefiniować filtr zmiennych scratch dodaj linię do filtru i wprowadź pola
 	},
 
 	'554' => {
-		message => q|Take Action|,
-		lastUpdated => 1031514049
+		message => q|Wykonaj akcję|,
+		lastUpdated => 1207313150
 	},
 
 	'content' => {
@@ -2356,8 +2347,8 @@ Aby zdefiniować filtr zmiennych scratch dodaj linię do filtru i wprowadź pola
 	},
 
 	'552' => {
-		message => q|Pending|,
-		lastUpdated => 1031514049
+		message => q|Przetwarzany|,
+		lastUpdated => 1207313103
 	},
 
 	'allow access from macros help' => {
@@ -2397,7 +2388,7 @@ Aby zdefiniować filtr zmiennych scratch dodaj linię do filtru i wprowadź pola
 
 	'74' => {
 		message => q|Informacje o koncie|,
-		lastUpdated => 1031514049
+		lastUpdated => 1207314987
 	},
 
 	'240' => {
@@ -2584,7 +2575,7 @@ div.tabs {
 
 	'827' => {
 		message => q|Szablon W-obiektu|,
-		lastUpdated => 1052046436
+		lastUpdated => 1207316988
 	},
 
 	'settings groupIdAdminProductManager label' => {
@@ -2598,13 +2589,13 @@ div.tabs {
 	},
 
 	'701' => {
-		message => q|Tydzień(tygodni)|,
-		lastUpdated => 1031514049
+		message => q|Tydzień(-ni)|,
+		lastUpdated => 1207314566
 	},
 
 	'820' => {
 		message => q|Twoje konto nie jest aktywne. Nie możesz się więc zalogować do czasu aż zostanie aktywowane. A to może wykonać wyłącznie Administrator.|,
-		lastUpdated => 1038431645
+		lastUpdated => 1207316664
 	},
 
 	'174' => {
@@ -2629,12 +2620,12 @@ div.tabs {
 
 	'817' => {
 		message => q|Aktywny|,
-		lastUpdated => 1038431287
+		lastUpdated => 1207316605
 	},
 
 	'563' => {
-		message => q|Domyślny Status|,
-		lastUpdated => 1031514049
+		message => q|Status Domyślny |,
+		lastUpdated => 1207313590
 	},
 
 	'settings groupIdAdminUserAdd hoverHelp' => {
@@ -2648,8 +2639,8 @@ div.tabs {
 	},
 
 	'731' => {
-		message => q|2 Trained|,
-		lastUpdated => 1033836651
+		message => q|2 Wprawny|,
+		lastUpdated => 1207314862
 	},
 
 	'41' => {
@@ -2669,7 +2660,7 @@ div.tabs {
 
 	'750' => {
 		message => q|Usuń tego użytkownika.|,
-		lastUpdated => 1036864742
+		lastUpdated => 1207315112
 	},
 
 	'229' => {
@@ -2689,7 +2680,7 @@ div.tabs {
 
 	'768' => {
 		message => q|Nazwa|,
-		lastUpdated => 1036892946
+		lastUpdated => 1207315162
 	},
 
 	'settings groupIdAdminGroupAdmin hoverHelp' => {
@@ -2699,7 +2690,7 @@ div.tabs {
 
 	'68' => {
 		message => q|Wprowadzone dane są nieprawidłowe. Nie istnieje takie konto lub wprowadzone hasło jest niewłaściwe.|,
-		lastUpdated => 1031514049
+		lastUpdated => 1207314383
 	},
 
 	'315' => {
@@ -2724,12 +2715,12 @@ div.tabs {
 
 	'576' => {
 		message => q|Usuń|,
-		lastUpdated => 1031514049
+		lastUpdated => 1207313750
 	},
 
 	'738' => {
 		message => q|9 Guru|,
-		lastUpdated => 1033836704
+		lastUpdated => 1207314974
 	},
 
 	'870' => {
@@ -2818,8 +2809,8 @@ div.tabs {
 	},
 
 	'583 description' => {
-		message => q|If images are uploaded to your system that are bigger than the max image size, then they will be resized to the max image size. The max image size is measured in pixels and will use the size of the longest side of the image to determine if the limit has been reached. |,
-		lastUpdated => 1120239343
+		message => q|<p>Obrazki większe od maksymalnego rozmiaru (max image size) będą pomniejszone do dopuszczalnej wielkości. Maksymalna wielkość podawana jest w pikselach i dotyczy najdłuższego rozmiaru obrazka. </p>|,
+		lastUpdated => 1207314084
 	},
 
 	'127 description' => {
@@ -2833,13 +2824,13 @@ div.tabs {
 	},
 
 	'733' => {
-		message => q|4 Skilled|,
-		lastUpdated => 1033836668
+		message => q|4 Wykwalifikowany|,
+		lastUpdated => 1207314917
 	},
 
 	'562' => {
-		message => q|Pending|,
-		lastUpdated => 1031514049
+		message => q|Przetwarzany|,
+		lastUpdated => 1207313566
 	},
 
 	'pagination.pageList.upTo20' => {
@@ -2858,8 +2849,8 @@ div.tabs {
 	},
 
 	'748' => {
-		message => q|User Count|,
-		lastUpdated => 1036553016
+		message => q|Licznik Użytkownika|,
+		lastUpdated => 1207315085
 	},
 
 	'362' => {
@@ -2893,8 +2884,8 @@ div.tabs {
 	},
 
 	'705' => {
-		message => q|Minute(s)|,
-		lastUpdated => 1031514049
+		message => q|Minuta(-ut)|,
+		lastUpdated => 1207314598
 	},
 
 	'478' => {
@@ -2920,7 +2911,7 @@ div.tabs {
 
 	'85 description' => {
 		message => q|<p>Dokładny opis grupy, tak aby inni administratorzy i zarządcy kontentu (lub ty sam jeśli zapomnisz) wiedzieli w jakim celu powołano grupę</p>|,
-		lastUpdated => 1120448672
+		lastUpdated => 1207317899
 	},
 
 	'407' => {
@@ -3014,8 +3005,8 @@ div.tabs {
 	},
 
 	'753' => {
-		message => q|Edit this group.|,
-		lastUpdated => 1036866979
+		message => q|Edytuj tą grupę.|,
+		lastUpdated => 1207315131
 	},
 
 	'343' => {
@@ -3057,8 +3048,8 @@ div.tabs {
 	},
 
 	'857' => {
-		message => q|IP Address|,
-		lastUpdated => 1043878310
+		message => q|Adres IP|,
+		lastUpdated => 1207317941
 	},
 
 	'1010' => {
@@ -3067,8 +3058,8 @@ div.tabs {
 	},
 
 	'707' => {
-		message => q|Show debugging?|,
-		lastUpdated => 1031514049
+		message => q|Pokazać komunikaty diagnostyczne?|,
+		lastUpdated => 1207314521
 	},
 
 	'964' => {
@@ -3077,8 +3068,8 @@ div.tabs {
 	},
 
 	'65' => {
-		message => q|Please deactivate my account permanently.|,
-		lastUpdated => 1031514049
+		message => q|Proszę trwale deaktywować moje konto.|,
+		lastUpdated => 1207314198
 	},
 
 	'Illegal Warning' => {
@@ -3107,8 +3098,8 @@ div.tabs {
 	},
 
 	'81' => {
-		message => q|Account updated successfully!|,
-		lastUpdated => 1031514049
+		message => q|Konto zaktualizowane!|,
+		lastUpdated => 1207316524
 	},
 
 	'view inbox message template' => {
@@ -3117,8 +3108,8 @@ div.tabs {
 	},
 
 	'824 description' => {
-		message => q|This footer will be processed for macros and attached to every email sent from this WebGUI instance.|,
-		lastUpdated => 1146455404
+		message => q|Zawartość stopki będzie przetworzona dla makr i dołączona do każdej wysyłanej z WebGUI wiadomości e-mail.|,
+		lastUpdated => 1207316981
 	},
 
 	'321' => {
@@ -3127,13 +3118,13 @@ div.tabs {
 	},
 
 	'86' => {
-		message => q|Are you certain you wish to delete this group? Beware that deleting a group is permanent and will remove all privileges associated with this group.|,
-		lastUpdated => 1031514049
+		message => q|Czy na pewno chcesz usunąć grupę? Pamiętaj, że usunięcie grupy jest nieodwracalne i pociągnie za sobą usunięcie wszystkich powiązanych z grupą przywilej&oacute;w.|,
+		lastUpdated => 1207318122
 	},
 
 	'792' => {
-		message => q|Templates|,
-		lastUpdated => 1036971696
+		message => q|Szablony|,
+		lastUpdated => 1207315540
 	},
 
 	'975 description' => {
@@ -3143,8 +3134,8 @@ div.tabs {
 	},
 
 	'823' => {
-		message => q|Go to the new page.|,
-		lastUpdated => 1038706332
+		message => q|Idź do nowej strony.|,
+		lastUpdated => 1207316684
 	},
 
 	'profile' => {
@@ -3173,8 +3164,8 @@ div.tabs {
 	},
 
 	'729' => {
-		message => q|0 Beginner|,
-		lastUpdated => 1033836631
+		message => q|0 Początkujący|,
+		lastUpdated => 1207314798
 	},
 
 	'2' => {
@@ -3188,8 +3179,8 @@ div.tabs {
 	},
 
 	'808' => {
-		message => q|Email this group.|,
-		lastUpdated => 1037579487
+		message => q|E-mail tej grupy.|,
+		lastUpdated => 1207316487
 	},
 
 	'settings groupIdAdminUser label' => {
@@ -3243,8 +3234,8 @@ div.tabs {
 	},
 
 	'56 description' => {
-		message => q|The email address for the admin.  It can be used to send administrative notices.|,
-		lastUpdated => 1031514049
+		message => q|Adres e-mail administratora. Będzie użyty dla wysyłanych i informacji i ostrzeżeń.|,
+		lastUpdated => 1207313454
 	},
 
 	'1052' => {
@@ -3253,8 +3244,8 @@ div.tabs {
 	},
 
 	'735' => {
-		message => q|6 Professional|,
-		lastUpdated => 1033836686
+		message => q|6 Profesjonalista|,
+		lastUpdated => 1207314947
 	},
 
 	'404' => {
@@ -3293,8 +3284,8 @@ div.tabs {
 	},
 
 	'702' => {
-		message => q|Month(s)|,
-		lastUpdated => 1031514049
+		message => q|Miesiąc(-ce)|,
+		lastUpdated => 1207314552
 	},
 
 	'user invitations email exists' => {
@@ -3333,8 +3324,8 @@ div.tabs {
 	},
 
 	'561' => {
-		message => q|Denied|,
-		lastUpdated => 1031514049
+		message => q|Odrzucony|,
+		lastUpdated => 1207313553
 	},
 
 	'Enable passive profiling description' => {
@@ -3360,7 +3351,7 @@ a user.|,
 
 	'63' => {
 		message => q|Włącz tryb administracyjny.|,
-		lastUpdated => 1031514049
+		lastUpdated => 1207314139
 	},
 
 	'1050 description' => {
@@ -3380,7 +3371,7 @@ a user.|,
 
 	'80' => {
 		message => q|Konto utowrzone pomyślnie!|,
-		lastUpdated => 1031514049
+		lastUpdated => 1207315609
 	},
 
 	'settings groupIdAdminReplacements hoverHelp' => {
@@ -3410,7 +3401,7 @@ a user.|,
 
 	'821' => {
 		message => q|Dowolny|,
-		lastUpdated => 1038432387
+		lastUpdated => 1207316671
 	},
 
 	'run on admin update user' => {
@@ -3518,8 +3509,8 @@ or are under your current version tag.</p>
 	},
 
 	'837' => {
-		message => q|Folder, Add/Edit|,
-		lastUpdated => 1038871918
+		message => q|Folder, Dodanie/Edycja|,
+		lastUpdated => 1207317022
 	},
 
 	'149' => {
@@ -3573,13 +3564,13 @@ or are under your current version tag.</p>
 	},
 
 	'557 description' => {
-		message => q|Powód dla którego karma została zmieniona.|,
-		lastUpdated => 1120768600
+		message => q|Pow&oacute;d dla kt&oacute;rego karma została zmieniona.|,
+		lastUpdated => 1207313185
 	},
 
 	'56' => {
 		message => q|Adres email|,
-		lastUpdated => 1031514049
+		lastUpdated => 1207313396
 	},
 
 	'499' => {
@@ -3594,7 +3585,7 @@ or are under your current version tag.</p>
 
 	'66' => {
 		message => q|Logowanie do systemu|,
-		lastUpdated => 1031514049
+		lastUpdated => 1207314360
 	},
 
 	'show my fields' => {
@@ -3624,7 +3615,7 @@ or are under your current version tag.</p>
 
 	'70' => {
 		message => q|Błąd|,
-		lastUpdated => 1031514049
+		lastUpdated => 1207314402
 	},
 
 	'1047' => {
@@ -3673,8 +3664,8 @@ or are under your current version tag.</p>
 	},
 
 	'75' => {
-		message => q|Dane twojego konta zostały wysłane na twój adres email.|,
-		lastUpdated => 1031514049
+		message => q|Dane twojego konta zostały wysłane na tw&oacute;j adres email.|,
+		lastUpdated => 1207315104
 	},
 
 	'134' => {
@@ -3683,8 +3674,8 @@ or are under your current version tag.</p>
 	},
 
 	'848' => {
-		message => q|Wystąpił błąd w tym szablonie. Proszę go poprawić.|,
-		lastUpdated => 1039892202
+		message => q|Wystąpił błąd w szablonie. Proszę go poprawić.|,
+		lastUpdated => 1207317088
 	},
 
 	'421' => {
@@ -3694,7 +3685,7 @@ or are under your current version tag.</p>
 
 	'59' => {
 		message => q|Zapomniałem moje hasło.|,
-		lastUpdated => 1031514049
+		lastUpdated => 1207314092
 	},
 
 	'450' => {
@@ -3734,7 +3725,7 @@ or are under your current version tag.</p>
 
 	'703' => {
 		message => q|Rok(lata)|,
-		lastUpdated => 1031514049
+		lastUpdated => 1207314461
 	},
 
 	'864' => {
@@ -3834,8 +3825,8 @@ Należy używać mod_perl i ustawić zmienną <b>PerlSetEnv SYBASE /opt/sybase/1
 	},
 
 	'807' => {
-		message => q|Manage the groups in this group.|,
-		lastUpdated => 1037579473
+		message => q|Zarządzanie grupami w tej grupie.|,
+		lastUpdated => 1207315633
 	},
 
 	'settings groupIdAdminActiveSessions hoverHelp' => {

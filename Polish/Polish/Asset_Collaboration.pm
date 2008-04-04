@@ -72,8 +72,8 @@ our $I18N = {
 	},
 
 	'subject' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Temat|,
+		lastUpdated => 1207304476
 	},
 
 	'get mail interval' => {
@@ -87,8 +87,8 @@ our $I18N = {
 	},
 
 	'unlock.label' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Słowo &quot;Odblokuj&quot;.|,
+		lastUpdated => 1207304850
 	},
 
 	'read more' => {
@@ -117,8 +117,8 @@ our $I18N = {
 	},
 
 	'user.isModerator' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Użytkownik jest moderatorem|,
+		lastUpdated => 1207313317
 	},
 
 	'user defined 3' => {
@@ -202,8 +202,8 @@ our $I18N = {
 	},
 
 	'unsubscribe' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Wypisz|,
+		lastUpdated => 1207313122
 	},
 
 	'image' => {
@@ -227,13 +227,13 @@ our $I18N = {
 	},
 
 	'unsubscribe.label' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Słowo &quot;Wypisz&quot;.|,
+		lastUpdated => 1207313134
 	},
 
 	'user.isVisitor' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Użytkownik jest gościem|,
+		lastUpdated => 1207313330
 	},
 
 	'critical.label' => {
@@ -387,8 +387,8 @@ our $I18N = {
 	},
 
 	'status' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Status|,
+		lastUpdated => 1207304466
 	},
 
 	'thumbnail size help' => {
@@ -632,8 +632,8 @@ our $I18N = {
 	},
 
 	'unstick' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Odklej|,
+		lastUpdated => 1207304821
 	},
 
 	'attachment.path' => {
@@ -752,8 +752,8 @@ our $I18N = {
 	},
 
 	'subject.label' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Słowo &quot;Temat&quot;.|,
+		lastUpdated => 1207297482
 	},
 
 	'collaboration post list template variables title' => {
@@ -802,8 +802,8 @@ our $I18N = {
 	},
 
 	'status.label' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Słowo &quot;Status&quot;.|,
+		lastUpdated => 1207297454
 	},
 
 	'rate.label' => {
@@ -832,8 +832,8 @@ our $I18N = {
 	},
 
 	'stick.label' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Słowo &quot;Przyklej&quot;.|,
+		lastUpdated => 1207300436
 	},
 
 	'rating_loop.count' => {
@@ -867,8 +867,8 @@ our $I18N = {
 	},
 
 	'subscribe' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Subskrybuj|,
+		lastUpdated => 1207312993
 	},
 
 	'display last reply' => {
@@ -982,6 +982,11 @@ our $I18N = {
 	},
 
 	'synopsis' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'group to edit hoverhelp' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -1122,8 +1127,8 @@ our $I18N = {
 	},
 
 	'unstick.label' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Słowo &quot;Odklej&quot;.|,
+		lastUpdated => 1207300465
 	},
 
 	'contentType' => {
@@ -1242,8 +1247,8 @@ our $I18N = {
 	},
 
 	'unlock' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Odblokuj|,
+		lastUpdated => 1207304836
 	},
 
 	'mail password' => {
@@ -1302,8 +1307,8 @@ our $I18N = {
 	},
 
 	'search.label' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Słowo &quot;Szukaj&quot;.|,
+		lastUpdated => 1207297246
 	},
 
 	'karma scale' => {
@@ -1347,8 +1352,8 @@ our $I18N = {
 	},
 
 	'userProfile.url' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Adres URL do profilu zarejestrowanego użytkownika.|,
+		lastUpdated => 1207313277
 	},
 
 	'previous.label' => {
@@ -1397,8 +1402,8 @@ our $I18N = {
 	},
 
 	'search' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Szukaj|,
+		lastUpdated => 1207312944
 	},
 
 	'message.header.label' => {
@@ -1452,6 +1457,11 @@ our $I18N = {
 	},
 
 	'lastBuildDate' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'group to edit label' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -1577,8 +1587,8 @@ our $I18N = {
 	},
 
 	'subscribe.label' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Słowo &quot;Subskrybuj&quot;.|,
+		lastUpdated => 1207313087
 	},
 
 };

@@ -67,8 +67,8 @@ our $I18N = {
 	},
 
 	'and' => {
-		message => q||,
-		lastUpdated => 
+		message => q|i|,
+		lastUpdated => 1207312825
 	},
 
 	'subscription group' => {
@@ -97,8 +97,8 @@ our $I18N = {
 	},
 
 	'association' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Powiązanie z subskrypcją|,
+		lastUpdated => 1207312909
 	},
 
 	'noc description' => {
