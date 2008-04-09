@@ -87,8 +87,8 @@ our $I18N = {
 	},
 
 	'visitorName.form' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Una forma en la que el usuario puede introducir su nombre, incluso cuando se trate de un visitante.|,
+		lastUpdated => 1207728975
 	},
 
 	'preview.title' => {
@@ -162,8 +162,8 @@ our $I18N = {
 	},
 
 	'title' => {
-		message => q||,
-		lastUpdated => 
+		message => q|El título del Post.|,
+		lastUpdated => 1207728945
 	},
 
 	'isImage' => {
@@ -262,8 +262,8 @@ our $I18N = {
 	},
 
 	'userProfile.url' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Una URL a la imagen de la titular de la Post.|,
+		lastUpdated => 1207729003
 	},
 
 	'userDefinedN.form.float' => {
@@ -387,8 +387,8 @@ our $I18N = {
 	},
 
 	'reply.content' => {
-		message => q||,
-		lastUpdated => 
+		message => q|El contenido de la postal que se responde a|,
+		lastUpdated => 1207728865
 	},
 
 	'synopsis' => {
@@ -482,8 +482,8 @@ our $I18N = {
 	},
 
 	'status' => {
-		message => q||,
-		lastUpdated => 
+		message => q|La situación de este Post: "Aprobado", "Pendiente" o "Archivado".|,
+		lastUpdated => 1207728898
 	},
 
 	'By' => {

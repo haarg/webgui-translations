@@ -542,8 +542,8 @@ our $I18N = {
 	},
 
 	'rate' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Califique|,
+		lastUpdated => 1207729425
 	},
 
 	'question.header.label' => {
