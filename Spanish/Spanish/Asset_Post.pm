@@ -2,8 +2,8 @@ package WebGUI::i18n::Spanish::Asset_Post;
 
 our $I18N = {
 	'post received' => {
-		message => q||,
-		lastUpdated => 
+		message => q|<p>Su publicaci&oacute;n ha sido recibida y ser&aacute; procesada para ser agregada al sitio.</p><p>Por favor sea paciente.&nbsp;</p>|,
+		lastUpdated => 1207728614
 	},
 
 	'dateUpdated' => {
@@ -127,8 +127,8 @@ our $I18N = {
 	},
 
 	'pending' => {
-		message => q||,
-		lastUpdated => 
+		message => q|En espera|,
+		lastUpdated => 1207728618
 	},
 
 	'username' => {
@@ -252,8 +252,8 @@ our $I18N = {
 	},
 
 	'add/edit post template title' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Publicar Agregar o Editar plantilla|,
+		lastUpdated => 1207728358
 	},
 
 	'meta_loop' => {
@@ -332,8 +332,8 @@ our $I18N = {
 	},
 
 	'attachment.name' => {
-		message => q||,
-		lastUpdated => 
+		message => q|El nombre del primer adjunto encontrado en la publicaci&oacute;n|,
+		lastUpdated => 1207728710
 	},
 
 	'user.isPoster' => {
@@ -357,8 +357,8 @@ our $I18N = {
 	},
 
 	'rating.value' => {
-		message => q||,
-		lastUpdated => 
+		message => q|El puntaje actual de este Post.|,
+		lastUpdated => 1207728530
 	},
 
 	'assetName' => {
@@ -442,8 +442,8 @@ our $I18N = {
 	},
 
 	'rate.url.thumbsUp' => {
-		message => q||,
-		lastUpdated => 
+		message => q|un puntaje positivo|,
+		lastUpdated => 1207728567
 	},
 
 	'archived' => {
@@ -497,8 +497,8 @@ our $I18N = {
 	},
 
 	'rating' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Puntaje|,
+		lastUpdated => 1207728334
 	},
 
 	'Edited_on' => {
@@ -573,7 +573,7 @@ our $I18N = {
 
 	'post asset variables title' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 1207728478
 	},
 
 	'notification template title' => {
@@ -587,8 +587,8 @@ our $I18N = {
 	},
 
 	'rate.url.thumbsDown' => {
-		message => q||,
-		lastUpdated => 
+		message => q|un puntaje negativo|,
+		lastUpdated => 1207728581
 	},
 
 	'attachment.url' => {

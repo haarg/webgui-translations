@@ -147,8 +147,8 @@ our $I18N = {
 	},
 
 	'previous' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Anterior|,
+		lastUpdated => 1207727776
 	},
 
 	'job.header.label' => {
@@ -242,8 +242,8 @@ our $I18N = {
 	},
 
 	'use preview' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Utilizar vista previa?|,
+		lastUpdated => 1207727724
 	},
 
 	'sortby.username.url' => {
@@ -347,8 +347,8 @@ our $I18N = {
 	},
 
 	'preview' => {
-		message => q||,
-		lastUpdated => 
+		message => q|previo|,
+		lastUpdated => 1207727749
 	},
 
 	'cosmetic.label' => {
@@ -437,8 +437,8 @@ our $I18N = {
 	},
 
 	'delete.label' => {
-		message => q||,
-		lastUpdated => 
+		message => q|La palabra "eliminar"|,
+		lastUpdated => 1207727846
 	},
 
 	'auto subscribe to thread help' => {
@@ -522,8 +522,8 @@ our $I18N = {
 	},
 
 	'post title' => {
-		message => q||,
-		lastUpdated => 
+		message => q|El t&iacute;tulo del item|,
+		lastUpdated => 1207728024
 	},
 
 	'content' => {
@@ -647,8 +647,8 @@ our $I18N = {
 	},
 
 	'use preview description' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Seleccione "Sí" para mostrar una vista previa de los envíos a los usuarios antes de presentarlo. Aunque la vista preliminar se muestra, el post puede ser editado o se cancela.|,
+		lastUpdated => 1207728057
 	},
 
 	'approval workflow description' => {
@@ -733,7 +733,7 @@ our $I18N = {
 
 	'edit message' => {
 		message => q|Editar mensaje|,
-		lastUpdated => 1207718968
+		lastUpdated => 1207727876
 	},
 
 	'mail password help' => {
@@ -742,8 +742,8 @@ our $I18N = {
 	},
 
 	'responses' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Respuestas|,
+		lastUpdated => 1207728047
 	},
 
 	'title.label' => {
@@ -882,13 +882,13 @@ our $I18N = {
 	},
 
 	'who posts' => {
-		message => q|&iquest;Quien puede publicar?|,
-		lastUpdated => 1207726361
+		message => q|Quien puede publicar?|,
+		lastUpdated => 1207728109
 	},
 
 	'delete' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Eliminar|,
+		lastUpdated => 1207727825
 	},
 
 	'date updated' => {
@@ -972,8 +972,8 @@ our $I18N = {
 	},
 
 	'next' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Siguiente|,
+		lastUpdated => 1207727486
 	},
 
 	'post' => {
@@ -1097,8 +1097,8 @@ our $I18N = {
 	},
 
 	'rating' => {
-		message => q|Rating|,
-		lastUpdated => 1190390913
+		message => q|Puntaje|,
+		lastUpdated => 1207728095
 	},
 
 	'thread template description' => {
@@ -1152,8 +1152,8 @@ our $I18N = {
 	},
 
 	'message' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Mensaje|,
+		lastUpdated => 1207727963
 	},
 
 	'filter code' => {
@@ -1197,8 +1197,8 @@ our $I18N = {
 	},
 
 	'next.label' => {
-		message => q||,
-		lastUpdated => 
+		message => q|La palabra "siguiente"|,
+		lastUpdated => 1207727930
 	},
 
 	'collaboration rss template title' => {
@@ -1247,8 +1247,8 @@ our $I18N = {
 	},
 
 	'unlock' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Desbloqueo|,
+		lastUpdated => 1207728025
 	},
 
 	'mail password' => {
@@ -1357,8 +1357,8 @@ our $I18N = {
 	},
 
 	'previous.label' => {
-		message => q||,
-		lastUpdated => 
+		message => q|La palabra "anterior".|,
+		lastUpdated => 1207727795
 	},
 
 	'karma rating multiplier description' => {
