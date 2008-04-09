@@ -12,53 +12,54 @@ our $I18N = {
 	},
 
 	'remove' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Eliminar|,
+		lastUpdated => 1207716665
 	},
 
 	'friends' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Un ciclo que contiene información acerca de los amigos y la forma de control para su eliminación, o envío de mensajes a los mismos.|,
+		lastUpdated => 1207718883
 	},
 
 	'not the right user' => {
-		message => q||,
-		lastUpdated => 
+		message => q|	
+El código de invitación que está usando no es para usted.|,
+		lastUpdated => 1207715937
 	},
 
 	'manage friends template' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Administrar plantillas de amigos|,
+		lastUpdated => 1207717402
 	},
 
 	'timeout' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Tiempo de espera|,
+		lastUpdated => 1207716253
 	},
 
 	'you have not been added' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Usted ha negado% s de la solicitud.|,
+		lastUpdated => 1207716939
 	},
 
 	'default friend comments' => {
-		message => q||,
-		lastUpdated => 
+		message => q|% S, que me gustaría que hicieras parte de mi red de amigos. Gracias,% s|,
+		lastUpdated => 1207717586
 	},
 
 	'friends invitation not accepted by user' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Su invitación no ha sido aceptada por% s.|,
+		lastUpdated => 1207717897
 	},
 
 	'add to friends description' => {
-		message => q|<div id="result_box" dir="ltr">&iquest;Est&aacute; seguro de que desea a&ntilde;adir como un amigo?</div>|,
-		lastUpdated => 1206894452
+		message => q|Seguro de que desea añadir como un amigo?|,
+		lastUpdated => 1207719017
 	},
 
 	'checkboxForm' => {
-		message => q|C&oacute;digo HTML para una casilla. Esta opci&oacute;n se utiliza para seleccionar la p&aacute;gina que desea eliminar, o enviar un correo electr&oacute;nico.|,
-		lastUpdated => 1206894603
+		message => q|Código HTML para una casilla. Esta opción se utiliza para seleccionar la página que desea eliminar, o enviar un correo electrónico.|,
+		lastUpdated => 1207719076
 	},
 
 	'does not want to be a friend' => {
@@ -72,43 +73,43 @@ our $I18N = {
 	},
 
 	'add to friends list' => {
-		message => q|A&ntilde;adir esta persona a mi lista de amigos.|,
-		lastUpdated => 1206894502
+		message => q|Añadir esta persona a mi lista de amigos.|,
+		lastUpdated => 1207719035
 	},
 
 	'invalid invite code message' => {
-		message => q|  <p class="&quot;&quot;MsoNormal&quot;&quot;"><span>El codigo de invitacion en su URL no es valido.</span></p>  |,
-		lastUpdated => 1206897706
+		message => q|El codigo de invitacion en su URL no es valido.|,
+		lastUpdated => 1207718945
 	},
 
 	'friends invitation accepted' => {
-		message => q|  <p class="MsoNormal"><span>Aceptada invitaci&oacute;n de amigos</span></p>  |,
-		lastUpdated => 1206896706
+		message => q|Aceptada invitacion de amigos  |,
+		lastUpdated => 1207718978
 	},
 
 	'invitation approval email' => {
-		message => q||,
-		lastUpdated => 
+		message => q|% S ha pedido que te unas a su amigo en este sitio de red% s. % S Por favor, visite la siguiente URL para aceptar o negar la petición:% s|,
+		lastUpdated => 1207717501
 	},
 
 	'send friend email instructions' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Compruebe los amigos a los que desea enviar un mensaje y  después diligencie el siguiente mensaje.|,
+		lastUpdated => 1207716200
 	},
 
 	'formFooter' => {
-		message => q|C&oacute;digo HTML para poner fin a esta forma.|,
-		lastUpdated => 1206896382
+		message => q|Código HTML para poner fin a esta forma.|,
+		lastUpdated => 1207719143
 	},
 
 	'confirm remove friends' => {
-		message => q||,
-		lastUpdated => 
+		message => q|¿Está seguro de que desea eliminar de la lista, el amigo seleccionado?|,
+		lastUpdated => 1207715761
 	},
 
 	'friends invitation not accepted' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Invitación de amigos no aceptada|,
+		lastUpdated => 1207717863
 	},
 
 	'add to friends profile' => {
@@ -117,18 +118,18 @@ our $I18N = {
 	},
 
 	'formHeader' => {
-		message => q|<a href="/"></a>HTML necesario para comenzar la forma|,
-		lastUpdated => 1206896418
+		message => q|HTML necesario para comenzar la forma|,
+		lastUpdated => 1207719154
 	},
 
 	'timeout help' => {
-		message => q||,
-		lastUpdated => 
+		message => q|¿Cuánto tiempo debe esperar una invitación a una red de amigos antes de que quede sin negar automáticamente la solicitud por falta de respuesta?|,
+		lastUpdated => 1207716349
 	},
 
 	'friends network invitation' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Invitación de red de amigos|,
+		lastUpdated => 1207717963
 	},
 
 	'add' => {
@@ -137,8 +138,8 @@ our $I18N = {
 	},
 
 	'status' => {
-		message => q||,
-		lastUpdated => 
+		message => q|El estado del usuario, ya sea en línea (conectado) o fuera de línea (está fuera del sistema)|,
+		lastUpdated => 1207716423
 	},
 
 	'invitation accepted by user' => {
@@ -147,13 +148,13 @@ our $I18N = {
 	},
 
 	'removeFriendButton' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Código HTML a un botón para borrar todos los amigos seleccionados.|,
+		lastUpdated => 1207716736
 	},
 
 	'see my friends' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Ver mis amigos.|,
+		lastUpdated => 1207715986
 	},
 
 	'already a friend' => {
@@ -162,13 +163,13 @@ our $I18N = {
 	},
 
 	'friend request' => {
-		message => q|  <p class="MsoNormal"><span>Solicitud <span>&nbsp;</span>de un amigo</span></p>  |,
-		lastUpdated => 1206896464
+		message => q|Solicitud de un amigo|,
+		lastUpdated => 1207719170
 	},
 
 	'you have been added' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Usted ha sido añadido a% s de la lista de amigos.|,
+		lastUpdated => 1207716501
 	},
 
 	'manage friends' => {
@@ -177,23 +178,23 @@ our $I18N = {
 	},
 
 	'topicName' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Red de amigos|,
+		lastUpdated => 1207716388
 	},
 
 	'send message' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Enviar mensaje|,
+		lastUpdated => 1207716586
 	},
 
 	'manage friends template help' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Cuál plantilla le gustaría utilizar para "Ver mis amigos." En la pantalla de cuenta de usuario?|,
+		lastUpdated => 1207717287
 	},
 
 	'offline' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Fuera de línea|,
+		lastUpdated => 1207716546
 	},
 
 	'friend request description' => {
@@ -202,48 +203,48 @@ our $I18N = {
 	},
 
 	'subjectForm' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Código HTML a una forma de texto para el asunto de los mensajes de correo electrónico a enviar a tus amigos.|,
+		lastUpdated => 1207716835
 	},
 
 	'no friends' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Usted no ha invitado ningún amigo.|,
+		lastUpdated => 1207717051
 	},
 
 	'profileUrl' => {
-		message => q||,
-		lastUpdated => 
+		message => q|La URL para el perfil de usuario de un amigo|,
+		lastUpdated => 1207716905
 	},
 
 	'messageForm' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Código HTML a una forma de texto para el cuerpo de los mensajes de correo electrónico a enviar a tus amigos.|,
+		lastUpdated => 1207717165
 	},
 
 	'online' => {
-		message => q|en l&iacute;nea|,
-		lastUpdated => 1206733067
+		message => q|en linea|,
+		lastUpdated => 1207718897
 	},
 
 	'deny unanswered friends' => {
-		message => q|&nbsp;<div id="result_box" dir="ltr">Denegar sin amigos</div>|,
-		lastUpdated => 1206896290
+		message => q|Denegar amigos sin respuesta|,
+		lastUpdated => 1207719129
 	},
 
 	'sendMessageButton' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Código HTML de un botón para enviar un correo electrónico a algunos amigos.|,
+		lastUpdated => 1207716627
 	},
 
 	'add to friends confirmation' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Un correo electrónico ha sido enviado a % s por su solicitud de ser añadido a su red de amigos.|,
+		lastUpdated => 1207715589
 	},
 
 	'my friends' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Mis amigos|,
+		lastUpdated => 1207717087
 	},
 
 	'manage friends template title' => {

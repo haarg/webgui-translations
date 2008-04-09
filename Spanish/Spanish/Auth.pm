@@ -27,8 +27,8 @@ our $I18N = {
 	},
 
 	'create.form.profile' => {
-		message => q|Un giro visible y que contenga el perfil requerido para los campos de registro anónimo. Estas variables también están disponibles fuera del giro, identificados por id.|,
-		lastUpdated => 1207712562
+		message => q|Un ciclo visible y que contenga el perfil requerido para los campos de registro anónimo. Estas variables también están disponibles fuera del giro, identificados por id.|,
+		lastUpdated => 1207719202
 	},
 
 	'login template title' => {
@@ -37,8 +37,8 @@ our $I18N = {
 	},
 
 	'no.url' => {
-		message => q||,
-		lastUpdated => 
+		message => q|URL para dejar la cuenta del usuario sola|,
+		lastUpdated => 1207715045
 	},
 
 	'login.form.hidden' => {
@@ -52,8 +52,8 @@ our $I18N = {
 	},
 
 	'profile.required' => {
-		message => q|Un valor booleano que ser&aacute; verdadero is el campo del profile es requerido.|,
-		lastUpdated => 1207712292
+		message => q|Un valor booleano que será verdadero si el perfil del campo es obligatorio.|,
+		lastUpdated => 1207719305
 	},
 
 	'account.form.submit' => {
@@ -62,8 +62,8 @@ our $I18N = {
 	},
 
 	'no.label' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Internacionalizada etiqueta de "No".|,
+		lastUpdated => 1207714879
 	},
 
 	'login.form.password.label' => {
@@ -72,18 +72,18 @@ our $I18N = {
 	},
 
 	'yes.label' => {
-		message => q|Tiqueta internacionalizada para el &quot;Si&quot;.|,
-		lastUpdated => 1207712099
+		message => q|Tiqueta internacionalizada para el "sí"|,
+		lastUpdated => 1207719342
 	},
 
 	'login.url' => {
-		message => q||,
-		lastUpdated => 
+		message => q|URL de la página de acceso.|,
+		lastUpdated => 1207714819
 	},
 
 	'title' => {
-		message => q|T&iacute;tulo por defecto para la p&aacute;gina.|,
-		lastUpdated => 1207712166
+		message => q|Título predeterminado para la página.|,
+		lastUpdated => 1207719245
 	},
 
 	'createAccount.url' => {
@@ -112,8 +112,8 @@ our $I18N = {
 	},
 
 	'account.form.footer' => {
-		message => q|Elementos de la forma requeridos que van despu&eacute;s de mostrar la cuenta del formulario de la p&aacute;gina.|,
-		lastUpdated => 1207710270
+		message => q|Elementos de la forma requeridos que van después de mostrar la cuenta del formulario de la página.|,
+		lastUpdated => 1207719383
 	},
 
 	'login.form.password' => {
@@ -132,8 +132,8 @@ our $I18N = {
 	},
 
 	'yes.url' => {
-		message => q|V&iacute;nculo para desactivar la cuenta del usuario.|,
-		lastUpdated => 1207712030
+		message => q|Vínculo para desactivar la cuenta del usuario.|,
+		lastUpdated => 1207719360
 	},
 
 	'create.form.submit' => {
@@ -142,8 +142,8 @@ our $I18N = {
 	},
 
 	'topicName' => {
-		message => q|Autenticaci&oacute;n|,
-		lastUpdated => 1207712133
+		message => q|Autenticación|,
+		lastUpdated => 1207719321
 	},
 
 	'login.form.username' => {
@@ -162,8 +162,8 @@ our $I18N = {
 	},
 
 	'profile.formElement.label' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Texto predeterminado de la etiqueta para el formulario de perfil|,
+		lastUpdated => 1207715326
 	},
 
 	'profile.formElement' => {
@@ -182,8 +182,8 @@ our $I18N = {
 	},
 
 	'question' => {
-		message => q||,
-		lastUpdated => 
+		message => q|URL para dejar la cuenta del usuario sola|,
+		lastUpdated => 1207715396
 	},
 
 	'login.form.submit' => {

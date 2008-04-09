@@ -72,8 +72,8 @@ our $I18N = {
 	},
 
 	'subject' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Asunto|,
+		lastUpdated => 1207719471
 	},
 
 	'get mail interval' => {
@@ -92,8 +92,8 @@ our $I18N = {
 	},
 
 	'read more' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Leer mas|,
+		lastUpdated => 1207718276
 	},
 
 	'max image size help' => {
@@ -107,8 +107,8 @@ our $I18N = {
 	},
 
 	'title' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Titulo|,
+		lastUpdated => 1207718442
 	},
 
 	'pubDate' => {
@@ -132,8 +132,8 @@ our $I18N = {
 	},
 
 	'reply.label' => {
-		message => q||,
-		lastUpdated => 
+		message => q|La palabra &quot;responder&quot;|,
+		lastUpdated => 1207718345
 	},
 
 	'author' => {
@@ -267,8 +267,8 @@ our $I18N = {
 	},
 
 	'attachment_thumbnail' => {
-		message => q||,
-		lastUpdated => 
+		message => q|La URL del thumbnail para este adjunto. Archivos que se representarn por un icono depende del tipo. Las imagenes tentran un verdadero thumbnail|,
+		lastUpdated => 1207718113
 	},
 
 	'avatar.url' => {
@@ -277,8 +277,8 @@ our $I18N = {
 	},
 
 	'user' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Usuario|,
+		lastUpdated => 1207718494
 	},
 
 	'id' => {
@@ -362,8 +362,8 @@ our $I18N = {
 	},
 
 	'attachment.length' => {
-		message => q||,
-		lastUpdated => 
+		message => q|El tama&ntilde;o in este adjunto es en bytes|,
+		lastUpdated => 1207717912
 	},
 
 	'sortby.views.url' => {
@@ -402,8 +402,8 @@ our $I18N = {
 	},
 
 	'sort by description' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Por defecto, todos los post son mostradon en orden. Use este campo para escoger por cual propiedad debe ser ordenado. Se pueden seleccionar multiples criterios|,
+		lastUpdated => 1207718607
 	},
 
 	'content filter description' => {
@@ -477,8 +477,8 @@ our $I18N = {
 	},
 
 	'replies.label' => {
-		message => q||,
-		lastUpdated => 
+		message => q|la palabra &quot;Respuestas&quot;|,
+		lastUpdated => 1207718364
 	},
 
 	'notification template' => {
@@ -537,8 +537,8 @@ our $I18N = {
 	},
 
 	'approval workflow' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Flujo de trabajo de aprobaci&oacute;n|,
+		lastUpdated => 1207717766
 	},
 
 	'rate' => {
@@ -557,8 +557,8 @@ our $I18N = {
 	},
 
 	'attachments/post description' => {
-		message => q||,
-		lastUpdated => 
+		message => q|&iquest;Cuantos adjuntos pueden agregarse por post?|,
+		lastUpdated => 1207718161
 	},
 
 	'post template description' => {
@@ -587,8 +587,8 @@ our $I18N = {
 	},
 
 	'edit job' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Editar trabajo de publicaci&oacute;n|,
+		lastUpdated => 1207718933
 	},
 
 	'date submitted' => {
@@ -597,8 +597,8 @@ our $I18N = {
 	},
 
 	'edit submission' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Editar publicaci&oacute;n|,
+		lastUpdated => 1207719368
 	},
 
 	'filter code description' => {
@@ -637,8 +637,8 @@ our $I18N = {
 	},
 
 	'attachment.path' => {
-		message => q||,
-		lastUpdated => 
+		message => q|La ruta en el sistema de archivos para este adjunto|,
+		lastUpdated => 1207717940
 	},
 
 	'answer.label' => {
@@ -652,8 +652,8 @@ our $I18N = {
 	},
 
 	'approval workflow description' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Escoger un flujo de trabajo para ejecutar por cada post que se ha enviado|,
+		lastUpdated => 1207717846
 	},
 
 	'get cs mail' => {
@@ -732,8 +732,8 @@ our $I18N = {
 	},
 
 	'edit message' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Editar mensaje|,
+		lastUpdated => 1207718968
 	},
 
 	'mail password help' => {
@@ -827,8 +827,8 @@ our $I18N = {
 	},
 
 	'attachment.url' => {
-		message => q||,
-		lastUpdated => 
+		message => q|La URL del adjunto|,
+		lastUpdated => 1207717964
 	},
 
 	'stick.label' => {
@@ -932,8 +932,8 @@ our $I18N = {
 	},
 
 	'edit stamp' => {
-		message => q||,
-		lastUpdated => 
+		message => q|&iquest;Agregar edici&oacute;n de fecha de la publicacion?|,
+		lastUpdated => 1207719040
 	},
 
 	'karma spent to rate description' => {
@@ -977,8 +977,8 @@ our $I18N = {
 	},
 
 	'post' => {
-		message => q|Postear|,
-		lastUpdated => 1190392272
+		message => q|Publicar|,
+		lastUpdated => 1207719445
 	},
 
 	'synopsis' => {
@@ -1192,8 +1192,8 @@ our $I18N = {
 	},
 
 	'attachmentLoop' => {
-		message => q||,
-		lastUpdated => 
+		message => q|El ciclo que contiene todos los adjuntos para este item|,
+		lastUpdated => 1207718016
 	},
 
 	'next.label' => {
@@ -1207,8 +1207,8 @@ our $I18N = {
 	},
 
 	'attachment.label' => {
-		message => q||,
-		lastUpdated => 
+		message => q|La palabra &quot;Adjunto&quot;|,
+		lastUpdated => 1207717870
 	},
 
 	'karma/post' => {
@@ -1332,8 +1332,8 @@ our $I18N = {
 	},
 
 	'edit' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Editar|,
+		lastUpdated => 1207718909
 	},
 
 	'tmplVar status' => {
@@ -1432,8 +1432,8 @@ our $I18N = {
 	},
 
 	'sort by' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Ordenar por|,
+		lastUpdated => 1207718520
 	},
 
 	'location' => {
@@ -1447,8 +1447,8 @@ our $I18N = {
 	},
 
 	'ascending' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Acendiendo|,
+		lastUpdated => 1207717797
 	},
 
 	'collaboration template title' => {
@@ -1472,8 +1472,8 @@ our $I18N = {
 	},
 
 	'edit question' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Editar pregunta|,
+		lastUpdated => 1207718982
 	},
 
 	'job.title.label' => {
@@ -1482,8 +1482,8 @@ our $I18N = {
 	},
 
 	'auto subscribe to thread' => {
-		message => q||,
-		lastUpdated => 
+		message => q|&iexcl;Suscribirse al hilo?|,
+		lastUpdated => 1207718219
 	},
 
 	'link.header.label' => {
@@ -1562,13 +1562,13 @@ our $I18N = {
 	},
 
 	'reply' => {
-		message => q||,
-		lastUpdated => 
+		message => q|responder|,
+		lastUpdated => 1207718302
 	},
 
 	'edit link' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Editar enlace|,
+		lastUpdated => 1207718948
 	},
 
 	'mail account' => {

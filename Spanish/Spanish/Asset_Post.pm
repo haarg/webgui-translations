@@ -27,8 +27,8 @@ our $I18N = {
 	},
 
 	'content' => {
-		message => q||,
-		lastUpdated => 
+		message => q|El contenido o cuerpo de la publicaci&oacute;n|,
+		lastUpdated => 1207720397
 	},
 
 	'relativeUrl' => {
@@ -132,8 +132,8 @@ our $I18N = {
 	},
 
 	'username' => {
-		message => q||,
-		lastUpdated => 
+		message => q|El nombre del usuario que actualiz&oacute; la publicaci&oacute;n por &uacute;ltima vez|,
+		lastUpdated => 1207720286
 	},
 
 	'preview.synopsis' => {
@@ -232,8 +232,8 @@ our $I18N = {
 	},
 
 	'views' => {
-		message => q||,
-		lastUpdated => 
+		message => q|El n&uacute;mero de veces que esta publicaci&oacute;n ha sido vista|,
+		lastUpdated => 1207720321
 	},
 
 	'attachment.icon' => {
@@ -377,8 +377,8 @@ our $I18N = {
 	},
 
 	'875' => {
-		message => q|Un nuevo mensaje ha sido posteado por uno de sus suscriptores.|,
-		lastUpdated => 1207345461
+		message => q|Un nuevo mensaje ha sido publicado por uno de sus suscriptores.|,
+		lastUpdated => 1207720477
 	},
 
 	'edit.url' => {
@@ -437,8 +437,8 @@ our $I18N = {
 	},
 
 	'value' => {
-		message => q||,
-		lastUpdated => 
+		message => q|El valor de este campo metadata para esta publicaci&oacute;n|,
+		lastUpdated => 1207720364
 	},
 
 	'rate.url.thumbsUp' => {
@@ -447,8 +447,8 @@ our $I18N = {
 	},
 
 	'archived' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Archivado|,
+		lastUpdated => 1207719905
 	},
 
 	'isReply' => {
@@ -467,8 +467,8 @@ our $I18N = {
 	},
 
 	'icon' => {
-		message => q||,
-		lastUpdated => 
+		message => q|El icono representando el tipo de archivo del adjunto|,
+		lastUpdated => 1207720440
 	},
 
 	'assetSize' => {
@@ -487,8 +487,8 @@ our $I18N = {
 	},
 
 	'By' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Por|,
+		lastUpdated => 1207719795
 	},
 
 	'user.canEdit' => {
@@ -502,8 +502,8 @@ our $I18N = {
 	},
 
 	'Edited_on' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Editado|,
+		lastUpdated => 1207719877
 	},
 
 	'reply.title' => {
@@ -582,8 +582,8 @@ our $I18N = {
 	},
 
 	'approved' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Aprobado|,
+		lastUpdated => 1207719890
 	},
 
 	'rate.url.thumbsDown' => {
