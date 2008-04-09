@@ -157,8 +157,8 @@ our $I18N = {
 	},
 
 	'sticky' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Hacer pegajoso|,
+		lastUpdated => 1207726186
 	},
 
 	'compensation' => {
@@ -457,8 +457,8 @@ our $I18N = {
 	},
 
 	'thumbnail' => {
-		message => q||,
-		lastUpdated => 
+		message => q|vista en miniatura|,
+		lastUpdated => 1207726218
 	},
 
 	'closed' => {
@@ -677,8 +677,8 @@ our $I18N = {
 	},
 
 	'lock' => {
-		message => q||,
-		lastUpdated => 
+		message => q|bloquear|,
+		lastUpdated => 1207726097
 	},
 
 	'critical' => {
@@ -792,8 +792,8 @@ our $I18N = {
 	},
 
 	'webMaster' => {
-		message => q||,
-		lastUpdated => 
+		message => q|El correo electr&oacute;nico de la persona responsable por los aspectos tecnicos relacionados con esta fuente rss (campo opcional)|,
+		lastUpdated => 1207726329
 	},
 
 	'lastReply.userProfile.url' => {
@@ -832,8 +832,8 @@ our $I18N = {
 	},
 
 	'stick.label' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Hacer pegajoso|,
+		lastUpdated => 1207726164
 	},
 
 	'rating_loop.count' => {
@@ -882,8 +882,8 @@ our $I18N = {
 	},
 
 	'who posts' => {
-		message => q||,
-		lastUpdated => 
+		message => q|&iquest;Quien puede publicar?|,
+		lastUpdated => 1207726361
 	},
 
 	'delete' => {

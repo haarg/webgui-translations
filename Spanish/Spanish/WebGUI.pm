@@ -2,8 +2,8 @@ package WebGUI::i18n::Spanish::WebGUI;
 
 our $I18N = {
 	'559' => {
-		message => q||,
-		lastUpdated => 
+		message => q|En la creaci&oacute;n del usuario|,
+		lastUpdated => 1207725996
 	},
 
 	'84 description' => {
@@ -72,8 +72,8 @@ our $I18N = {
 	},
 
 	'560' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Aprovado|,
+		lastUpdated => 1207726008
 	},
 
 	'737' => {
@@ -162,8 +162,8 @@ our $I18N = {
 	},
 
 	'728' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Est&aacute; seguro que desea eliminar este archivo?|,
+		lastUpdated => 1207726393
 	},
 
 	'float' => {
@@ -332,8 +332,8 @@ our $I18N = {
 	},
 
 	'706' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Hora(s)|,
+		lastUpdated => 1207726260
 	},
 
 	'14' => {
@@ -412,8 +412,8 @@ our $I18N = {
 	},
 
 	'160' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Fecha de envío|,
+		lastUpdated => 1207725387
 	},
 
 	'509' => {
@@ -657,8 +657,8 @@ our $I18N = {
 	},
 
 	'558' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Editar karma de usuarios|,
+		lastUpdated => 1207725974
 	},
 
 	'password clear text' => {
@@ -767,8 +767,8 @@ our $I18N = {
 	},
 
 	'661' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Configuraci&oacute;n de Archivos, Editar|,
+		lastUpdated => 1207726160
 	},
 
 	'857 description' => {
@@ -1047,8 +1047,8 @@ our $I18N = {
 	},
 
 	'557' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Descripci&oacute;n|,
+		lastUpdated => 1207725951
 	},
 
 	'settings groupIdAdminUserAdd label' => {
@@ -1132,8 +1132,8 @@ our $I18N = {
 	},
 
 	'724' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Su nombre de usuario no puede comenzar o terminar con espacios o tabuladores.|,
+		lastUpdated => 1207726334
 	},
 
 	'432' => {
@@ -1192,8 +1192,8 @@ our $I18N = {
 	},
 
 	'removeLabel' => {
-		message => q||,
-		lastUpdated => 
+		message => q|borrar|,
+		lastUpdated => 1207725549
 	},
 
 	'private message status read' => {
@@ -1412,8 +1412,8 @@ our $I18N = {
 	},
 
 	'556' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Cantidad|,
+		lastUpdated => 1207725938
 	},
 
 	'options.display' => {
@@ -1492,8 +1492,8 @@ our $I18N = {
 	},
 
 	'725' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Su nombre de usuario no puede estar en blanco.|,
+		lastUpdated => 1207726356
 	},
 
 	'country' => {
@@ -1647,8 +1647,8 @@ our $I18N = {
 	},
 
 	'543' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Adicionar una imagen de grupo|,
+		lastUpdated => 1207725813
 	},
 
 	'topicName' => {
@@ -1682,8 +1682,8 @@ our $I18N = {
 	},
 
 	'583' => {
-		message => q||,
-		lastUpdated => 
+		message => q|M&aacute;ximo tama&ntilde;o de la imagen|,
+		lastUpdated => 1207726121
 	},
 
 	'settings groupIdAdminGraphics hoverHelp' => {
@@ -1767,8 +1767,8 @@ our $I18N = {
 	},
 
 	'565' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Qui&eacute;n puede moderar?|,
+		lastUpdated => 1207726073
 	},
 
 	'private message status replied' => {
@@ -1807,8 +1807,8 @@ our $I18N = {
 	},
 
 	'730' => {
-		message => q||,
-		lastUpdated => 
+		message => q|1 Noticias|,
+		lastUpdated => 1207726451
 	},
 
 	'1069' => {
@@ -2067,8 +2067,8 @@ our $I18N = {
 	},
 
 	'732' => {
-		message => q||,
-		lastUpdated => 
+		message => q|3 Novato|,
+		lastUpdated => 1207726500
 	},
 
 	'51 description' => {
@@ -2212,13 +2212,13 @@ our $I18N = {
 	},
 
 	'553' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Estado|,
+		lastUpdated => 1207725883
 	},
 
 	'704' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Segundo(s)|,
+		lastUpdated => 1207726233
 	},
 
 	'private message blocked error' => {
@@ -2242,8 +2242,8 @@ our $I18N = {
 	},
 
 	'555' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Editar el karma de este usuario.|,
+		lastUpdated => 1207725926
 	},
 
 	'1017' => {
@@ -2287,8 +2287,8 @@ our $I18N = {
 	},
 
 	'554' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Tomar Acci&oacute;n|,
+		lastUpdated => 1207725900
 	},
 
 	'content' => {
@@ -2302,8 +2302,8 @@ our $I18N = {
 	},
 
 	'552' => {
-		message => q||,
-		lastUpdated => 
+		message => q|En espera|,
+		lastUpdated => 1207725873
 	},
 
 	'allow access from macros help' => {
@@ -2462,8 +2462,8 @@ our $I18N = {
 	},
 
 	'701' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Semana(s)|,
+		lastUpdated => 1207726177
 	},
 
 	'820' => {
@@ -2497,8 +2497,8 @@ our $I18N = {
 	},
 
 	'563' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Estado por defecto|,
+		lastUpdated => 1207726057
 	},
 
 	'settings groupIdAdminUserAdd hoverHelp' => {
@@ -2512,8 +2512,8 @@ our $I18N = {
 	},
 
 	'731' => {
-		message => q||,
-		lastUpdated => 
+		message => q|2 Entrenado|,
+		lastUpdated => 1207726475
 	},
 
 	'41' => {
@@ -2677,8 +2677,8 @@ our $I18N = {
 	},
 
 	'363' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Posición de plantilla de página|,
+		lastUpdated => 1207725472
 	},
 
 	'583 description' => {
@@ -2697,13 +2697,13 @@ our $I18N = {
 	},
 
 	'733' => {
-		message => q||,
-		lastUpdated => 
+		message => q|4 Calificado|,
+		lastUpdated => 1207726523
 	},
 
 	'562' => {
-		message => q||,
-		lastUpdated => 
+		message => q|En espera|,
+		lastUpdated => 1207726044
 	},
 
 	'pagination.pageList.upTo20' => {
@@ -2727,8 +2727,8 @@ our $I18N = {
 	},
 
 	'362' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Uno al lado del otro|,
+		lastUpdated => 1207725427
 	},
 
 	'439' => {
@@ -2757,8 +2757,8 @@ our $I18N = {
 	},
 
 	'705' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Minuto(s)|,
+		lastUpdated => 1207726246
 	},
 
 	'478' => {
@@ -2857,8 +2857,8 @@ our $I18N = {
 	},
 
 	'551' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Aviso|,
+		lastUpdated => 1207725849
 	},
 
 	'529' => {
@@ -2927,8 +2927,8 @@ our $I18N = {
 	},
 
 	'707' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Mostrar depuraci&oacute;n?|,
+		lastUpdated => 1207726291
 	},
 
 	'964' => {
@@ -3032,8 +3032,8 @@ our $I18N = {
 	},
 
 	'729' => {
-		message => q||,
-		lastUpdated => 
+		message => q|0 principiante|,
+		lastUpdated => 1207726423
 	},
 
 	'2' => {
@@ -3067,8 +3067,8 @@ our $I18N = {
 	},
 
 	'147' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Activo|,
+		lastUpdated => 1207725364
 	},
 
 	'339' => {
@@ -3087,8 +3087,8 @@ our $I18N = {
 	},
 
 	'531' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Con la frase exacta|,
+		lastUpdated => 1207725762
 	},
 
 	'345' => {
@@ -3152,8 +3152,8 @@ our $I18N = {
 	},
 
 	'702' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Mes(es)|,
+		lastUpdated => 1207726218
 	},
 
 	'user invitations email exists' => {
@@ -3192,8 +3192,8 @@ our $I18N = {
 	},
 
 	'561' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Negado|,
+		lastUpdated => 1207726033
 	},
 
 	'Enable passive profiling description' => {
@@ -3572,8 +3572,8 @@ our $I18N = {
 	},
 
 	'703' => {
-		message => q||,
-		lastUpdated => 
+		message => q|A&ntilde;o(s)|,
+		lastUpdated => 1207726208
 	},
 
 	'864' => {
