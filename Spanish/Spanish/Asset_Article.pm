@@ -12,8 +12,8 @@ our $I18N = {
 	},
 
 	'linkTitle' => {
-		message => q||,
-		lastUpdated => 
+		message => q|El título del enlace añadido al artículo.|,
+		lastUpdated => 1207721329
 	},
 
 	'description.first.10words' => {
@@ -22,8 +22,8 @@ our $I18N = {
 	},
 
 	'7' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Título Link|,
+		lastUpdated => 1207721779
 	},
 
 	'assetName' => {
@@ -48,13 +48,13 @@ La descripción completa sin ningún tipo de paginación.|,
 	},
 
 	'72' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Artículo plantilla|,
+		lastUpdated => 1207721806
 	},
 
 	'url' => {
-		message => q||,
-		lastUpdated => 
+		message => q|La URL para descargar el archivo.|,
+		lastUpdated => 1207721700
 	},
 
 	'attachments help' => {
@@ -63,8 +63,8 @@ La descripción completa sin ningún tipo de paginación.|,
 	},
 
 	'28' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Ver respuestas|,
+		lastUpdated => 1207721725
 	},
 
 	'description.first.4sentences' => {
@@ -83,23 +83,29 @@ La descripción completa sin ningún tipo de paginación.|,
 	},
 
 	'link url description' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Si añadiste un enlace título, ahora añade la URL aquí 
+
+Ejemplo: http://www.google.com
+|,
+		lastUpdated => 1207721285
 	},
 
 	'new.template' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Articles have the special ability to change their template so that you can allow users to see different views of the article. You do this by creating a link with a URL like this (replace 999 with the template Id you wish to use): <a href="<tmpl_var new.template>999">Read more...</a>	 	
+Artículos especiales tienen la capacidad de cambiar su plantilla para que pueda permitir a los usuarios ver vistas diferentes del artículo. Para ello puede crear un vínculo con una URL como esta (sustituir con 999 ID de la plantilla que desee utilizar):
+
+<A href = "<tmpl_var new.template> 999"> Leer más ...</ a>|,
+		lastUpdated => 1207721449
 	},
 
 	'image.url' => {
-		message => q||,
-		lastUpdated => 
+		message => q|La URL a la imagen adjunta.|,
+		lastUpdated => 1207720986
 	},
 
 	'isImage' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Un valor booleano que indica si se trata de una imagen o no.|,
+		lastUpdated => 1207721107
 	},
 
 	'article asset template variables body' => {
@@ -143,8 +149,8 @@ La descripción completa sin ningún tipo de paginación.|,
 	},
 
 	'linkURL' => {
-		message => q||,
-		lastUpdated => 
+		message => q|La URL para el enlace añadido al artículo.|,
+		lastUpdated => 1207721363
 	},
 
 	'attachment.icon' => {
@@ -158,8 +164,8 @@ La descripción completa sin ningún tipo de paginación.|,
 	},
 
 	'templateId' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Id de que la plantilla utiliza para mostrar este Activo.|,
+		lastUpdated => 1207721576
 	},
 
 	'attachments' => {
@@ -168,8 +174,8 @@ La descripción completa sin ningún tipo de paginación.|,
 	},
 
 	'thumbnailUrl' => {
-		message => q||,
-		lastUpdated => 
+		message => q|La URL de la imagen en miniatura de este archivo.|,
+		lastUpdated => 1207721649
 	},
 
 	'attachment_loop' => {
@@ -188,13 +194,13 @@ La descripción completa sin ningún tipo de paginación.|,
 	},
 
 	'12' => {
-		message => q|Editar Art&iacute;culo|,
-		lastUpdated => 1203369810
+		message => q|Editar Artículo|,
+		lastUpdated => 1207721998
 	},
 
 	'8' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Enlace URL|,
+		lastUpdated => 1207721972
 	},
 
 	'filename' => {
@@ -203,8 +209,8 @@ La descripción completa sin ningún tipo de paginación.|,
 	},
 
 	'73' => {
-		message => q||,
-		lastUpdated => 
+		message => q|La siguiente plantilla está disponible para plantillas de artículo.|,
+		lastUpdated => 1207721928
 	},
 
 	'attachment.url' => {
@@ -218,8 +224,8 @@ La descripción completa sin ningún tipo de paginación.|,
 	},
 
 	'image.thumbnail' => {
-		message => q||,
-		lastUpdated => 
+		message => q|La URL a la miniatura de la imagen adjunta.|,
+		lastUpdated => 1207720871
 	},
 
 	'attachment.name' => {
@@ -228,8 +234,11 @@ La descripción completa sin ningún tipo de paginación.|,
 	},
 
 	'link title description' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Si deseas añadir un enlace a tu artículo, introduce el título de la relación en este campo. 
+
+Ejemplo: Google
+|,
+		lastUpdated => 1207721174
 	},
 
 };
