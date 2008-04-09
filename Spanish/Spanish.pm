@@ -6,7 +6,7 @@ our $LANGUAGE = {
 	label => 'Spanish',
 	toolbar => '',
 	languageAbbreviation => 'es',
-	locale => 'es',
+	locale => 'ES',
 };
 
 sub makeUrlCompliant {

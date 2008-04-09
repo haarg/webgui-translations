@@ -51,7 +51,17 @@ our $I18N = {
 		lastUpdated => 
 	},
 
+	'subscribe' => {
+		message => q||,
+		lastUpdated => 
+	},
+
 	'helpvar newDay' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'previous week' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -96,6 +106,11 @@ our $I18N = {
 		lastUpdated => 1190390488
 	},
 
+	'previous day' => {
+		message => q||,
+		lastUpdated => 
+	},
+
 	'helpvar dateTime dayOfMonth' => {
 		message => q||,
 		lastUpdated => 
@@ -114,6 +129,11 @@ our $I18N = {
 	'templateIdEvent description' => {
 		message => q|El patrón para mostrar los detalles del Evento.|,
 		lastUpdated => 1189606239
+	},
+
+	'next day' => {
+		message => q||,
+		lastUpdated => 
 	},
 
 	'workflow updateFeeds description' => {
@@ -221,6 +241,11 @@ our $I18N = {
 		lastUpdated => 1189605177
 	},
 
+	'end date' => {
+		message => q||,
+		lastUpdated => 
+	},
+
 	'workflow updateFeeds' => {
 		message => q||,
 		lastUpdated => 
@@ -311,9 +336,19 @@ our $I18N = {
 		lastUpdated => 1189607239
 	},
 
+	'previous page' => {
+		message => q||,
+		lastUpdated => 
+	},
+
 	'paramType' => {
 		message => q|La vista por defecto del calendario, una de las cadenas "day", "week", "month".|,
 		lastUpdated => 1189604765
+	},
+
+	'label search' => {
+		message => q||,
+		lastUpdated => 
 	},
 
 	'endYear' => {
@@ -344,6 +379,11 @@ our $I18N = {
 	'defaultDate value first' => {
 		message => q|El primer evento en el calendario|,
 		lastUpdated => 1189595368
+	},
+
+	'start date' => {
+		message => q||,
+		lastUpdated => 
 	},
 
 	'startMonthAbbr' => {
@@ -491,6 +531,11 @@ our $I18N = {
 		lastUpdated => 
 	},
 
+	'keyword' => {
+		message => q||,
+		lastUpdated => 
+	},
+
 	'help event variables title' => {
 		message => q||,
 		lastUpdated => 
@@ -509,6 +554,11 @@ our $I18N = {
 	'templateIdPrintMonth description' => {
 		message => q|Este patrón para imprimir el calendario en formato "mes".|,
 		lastUpdated => 1189607476
+	},
+
+	'next page' => {
+		message => q||,
+		lastUpdated => 
 	},
 
 	'helpvar dateTime end' => {
@@ -571,6 +621,11 @@ our $I18N = {
 		lastUpdated => 
 	},
 
+	'label week' => {
+		message => q||,
+		lastUpdated => 
+	},
+
 	'locale' => {
 		message => q|es_ES|,
 		lastUpdated => 1189598358
@@ -579,6 +634,11 @@ our $I18N = {
 	'assetName' => {
 		message => q|Calendario|,
 		lastUpdated => 1189595121
+	},
+
+	'page x of x' => {
+		message => q||,
+		lastUpdated => 
 	},
 
 	'endMonthAbbr' => {
@@ -636,6 +696,11 @@ our $I18N = {
 		lastUpdated => 1189595210
 	},
 
+	'label day' => {
+		message => q||,
+		lastUpdated => 
+	},
+
 	'templateIdPrintWeek label' => {
 		message => q|Imprimir patrón de "semana"|,
 		lastUpdated => 1189607564
@@ -671,6 +736,21 @@ our $I18N = {
 		lastUpdated => 1189598876
 	},
 
+	'search results' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'label month' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'current' => {
+		message => q|actual|,
+		lastUpdated => 1207239854
+	},
+
 	'sortEventsBy value time' => {
 		message => q||,
 		lastUpdated => 
@@ -704,6 +784,11 @@ our $I18N = {
 	'templateIdWeek label' => {
 		message => q|Patrón de vista "semana"|,
 		lastUpdated => 1189607736
+	},
+
+	'next week' => {
+		message => q||,
+		lastUpdated => 
 	},
 
 	'templateIdMonth description' => {

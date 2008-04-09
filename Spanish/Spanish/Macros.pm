@@ -22,13 +22,13 @@ our $I18N = {
 	},
 
 	'macro enabled header' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Habilitar Macro?|,
+		lastUpdated => 1207257545
 	},
 
 	'topicName' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Macros|,
+		lastUpdated => 1207257695
 	},
 
 	'macro name' => {
@@ -37,8 +37,8 @@ our $I18N = {
 	},
 
 	'macros list title' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Macros, Lista de disponibles|,
+		lastUpdated => 1207257667
 	},
 
 	'macros using body' => {
@@ -47,8 +47,8 @@ our $I18N = {
 	},
 
 	'macros using title' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Macros, Usando|,
+		lastUpdated => 1207257814
 	},
 
 };

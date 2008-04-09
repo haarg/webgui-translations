@@ -17,8 +17,8 @@ our $I18N = {
 	},
 
 	'default invite' => {
-		message => q||,
-		lastUpdated => 
+		message => q|<div id="result_box" dir="ltr">Soy miembro de un sitio que podr&iacute;as encontras cosas muy &uacute;tiles, as&iacute; que te estoy enviando est&aacute; invitacion esperando que te unas. Haz clic en el siguiente enlace para registrarte.</div>|,
+		lastUpdated => 1207258370
 	},
 
 	'topicName' => {

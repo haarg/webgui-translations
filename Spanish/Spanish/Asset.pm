@@ -17,8 +17,8 @@ our $I18N = {
 	},
 
 	'parent url' => {
-		message => q||,
-		lastUpdated => 
+		message => q|URL padre|,
+		lastUpdated => 1207239305
 	},
 
 	'Export as user description' => {
@@ -102,13 +102,13 @@ our $I18N = {
 	},
 
 	'promote help' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Mover este Activo hasta una casilla en la p&aacute;gina.|,
+		lastUpdated => 1207239506
 	},
 
 	'properties' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Propiedades|,
+		lastUpdated => 1207239532
 	},
 
 	'delete' => {
@@ -492,8 +492,8 @@ our $I18N = {
 	},
 
 	'purge old trash' => {
-		message => q||,
-		lastUpdated => 
+		message => q|purgar vieja papelera|,
+		lastUpdated => 1207620463
 	},
 
 	'Field Name description' => {
@@ -712,13 +712,13 @@ our $I18N = {
 	},
 
 	'package extract error' => {
-		message => q||,
-		lastUpdated => 
+		message => q|<div id="result_box" dir="ltr">No se puede extraer paquete! El paquete puede estar corrupto, o puede haber un error preventivo en el servidor de los paquetes a ser importados.</div>|,
+		lastUpdated => 1207239138
 	},
 
 	'prototype using title' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Usando Contenido de Prototipos|,
+		lastUpdated => 1207239622
 	},
 
 	'encryptPage' => {
@@ -837,8 +837,8 @@ our $I18N = {
 	},
 
 	'purge old asset revisions' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Purgar viejas revisiones de Activos|,
+		lastUpdated => 1207239708
 	},
 
 	'bad user privileges' => {
@@ -852,8 +852,8 @@ our $I18N = {
 	},
 
 	'promote' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Promover|,
+		lastUpdated => 1207239383
 	},
 
 	'896' => {
@@ -907,8 +907,8 @@ our $I18N = {
 	},
 
 	'purge' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Purgar|,
+		lastUpdated => 1207239632
 	},
 
 	'rootUrl form hoverHelp' => {
@@ -952,8 +952,8 @@ our $I18N = {
 	},
 
 	'packages' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Paquetes|,
+		lastUpdated => 1207239179
 	},
 
 	'change url help' => {
