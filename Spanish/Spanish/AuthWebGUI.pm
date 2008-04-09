@@ -67,8 +67,8 @@ our $I18N = {
 	},
 
 	'password recovery no results' => {
-		message => q||,
-		lastUpdated => 
+		message => q|No se ha encontrado usuarios que coincidan con los datos sobre el perfil. Por favor, inténtalo de nuevo.|,
+		lastUpdated => 1207723380
 	},
 
 	'16' => {
@@ -77,8 +77,8 @@ our $I18N = {
 	},
 
 	'password recovery template' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Plantilla de recuperación de la contraseña|,
+		lastUpdated => 1207723172
 	},
 
 	'account.form.password' => {
@@ -142,8 +142,8 @@ our $I18N = {
 	},
 
 	'recover password not found' => {
-		message => q||,
-		lastUpdated => 
+		message => q|No tenemos registro de un usuario que coincida con la información que nos ha dado|,
+		lastUpdated => 1207723063
 	},
 
 	'10' => {
@@ -172,18 +172,18 @@ our $I18N = {
 	},
 
 	'11' => {
-		message => q|Nueva contrase&ntilde;a|,
-		lastUpdated => 1207704674
+		message => q|Nueva contraseña|,
+		lastUpdated => 1207723629
 	},
 
 	'recover password email text3' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Si no ha solicitado su contraseña para ser recuperada, por favor, póngase en contacto con el administrador del sistema.|,
+		lastUpdated => 1207723122
 	},
 
 	'password recovery multiple results' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Lo sentimos, la recuperación de la contraseña de esta cuenta no se puede realizar. Póngase en contacto con el administrador.|,
+		lastUpdated => 1207723482
 	},
 
 	'recoverFormProfile id' => {
@@ -217,8 +217,8 @@ our $I18N = {
 	},
 
 	'recover password email text1' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Hemos recibido su solicitud para cambiar la contraseña por|,
+		lastUpdated => 1207722933
 	},
 
 	'setting passwordRecoveryType none' => {
@@ -397,8 +397,8 @@ our $I18N = {
 	},
 
 	'password recovery login hoverHelp' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Introduce aquí tu nombre de usuario|,
+		lastUpdated => 1207723536
 	},
 
 	'setting webguiRequiredMixedCase' => {
@@ -452,8 +452,8 @@ our $I18N = {
 	},
 
 	'password recovery no username' => {
-		message => q||,
-		lastUpdated => 
+		message => q|La contraseña de recuperación requiere un nombre de usuario.|,
+		lastUpdated => 1207723293
 	},
 
 	'create.form.hidden' => {
@@ -472,8 +472,8 @@ our $I18N = {
 	},
 
 	'password recovery email hoverHelp' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Ingrese aquí su dirección de correo electrónico|,
+		lastUpdated => 1207723579
 	},
 
 	'account.noform' => {
@@ -562,8 +562,8 @@ our $I18N = {
 	},
 
 	'3' => {
-		message => q|Las contrase&ntilde;as no coinciden, por favor intente nuevamente|,
-		lastUpdated => 1207705447
+		message => q|Las contraseñas no coinciden, por favor intente nuevamente|,
+		lastUpdated => 1207723651
 	},
 
 	'recoverFormProfile' => {
@@ -577,8 +577,8 @@ our $I18N = {
 	},
 
 	'recover password email text2' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Por favor, utilice el siguiente enlace para visitar el sitio y cambiar su contraseña.|,
+		lastUpdated => 1207723215
 	},
 
 	'setting webguiRequiredDigits' => {
@@ -592,8 +592,8 @@ our $I18N = {
 	},
 
 	'recover.form.header' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Los elementos del formulario que van en la parte superior de la página de recuperación de contraseña.|,
+		lastUpdated => 1207722859
 	},
 
 	'8' => {
@@ -612,8 +612,8 @@ our $I18N = {
 	},
 
 	'recover.form.footer' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Los elementos del formulario que van después de la página de recuperación de la contraseña.|,
+		lastUpdated => 1207723004
 	},
 
 	'error password requiredMixedCase' => {
@@ -627,8 +627,8 @@ our $I18N = {
 	},
 
 	'recover password banner' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Recuperación de la contraseña|,
+		lastUpdated => 1207722800
 	},
 
 	'5' => {

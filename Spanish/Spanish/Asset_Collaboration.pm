@@ -982,8 +982,8 @@ our $I18N = {
 	},
 
 	'synopsis' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Resumen|,
+		lastUpdated => 1207723272
 	},
 
 	'group to edit hoverhelp' => {

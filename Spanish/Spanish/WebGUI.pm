@@ -652,8 +652,8 @@ our $I18N = {
 	},
 
 	'64' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Salir|,
+		lastUpdated => 1207723659
 	},
 
 	'558' => {
@@ -3417,8 +3417,8 @@ our $I18N = {
 	},
 
 	'56' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Direcci&oacute;n de correo electr&oacute;nico|,
+		lastUpdated => 1207723619
 	},
 
 	'499' => {
