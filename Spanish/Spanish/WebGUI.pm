@@ -22,8 +22,8 @@ our $I18N = {
 	},
 
 	'71' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Recuperar contrase&ntilde;a|,
+		lastUpdated => 1207724016
 	},
 
 	'118' => {
@@ -92,8 +92,8 @@ our $I18N = {
 	},
 
 	'84' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Nombre de grupo|,
+		lastUpdated => 1207724435
 	},
 
 	'skip commit comments' => {
@@ -157,8 +157,8 @@ our $I18N = {
 	},
 
 	'978' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Usuario adicionado con &eacute;xito.|,
+		lastUpdated => 1207725144
 	},
 
 	'728' => {
@@ -217,8 +217,8 @@ our $I18N = {
 	},
 
 	'540' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Karma por Ingreso|,
+		lastUpdated => 1207724741
 	},
 
 	'private message prev label' => {
@@ -232,8 +232,8 @@ our $I18N = {
 	},
 
 	'58' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Ya tengo una cuenta|,
+		lastUpdated => 1207724771
 	},
 
 	'431' => {
@@ -262,8 +262,8 @@ our $I18N = {
 	},
 
 	'76' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Esa direcci&oacute;n de correo electr&oacute;nico no est&aacute; en nuestra base de datos.|,
+		lastUpdated => 1207724154
 	},
 
 	'340' => {
@@ -272,8 +272,8 @@ our $I18N = {
 	},
 
 	'62' => {
-		message => q||,
-		lastUpdated => 
+		message => q|guardar|,
+		lastUpdated => 1207724300
 	},
 
 	'311' => {
@@ -337,8 +337,8 @@ our $I18N = {
 	},
 
 	'14' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Ver presentaciones pendientes|,
+		lastUpdated => 1207724058
 	},
 
 	'135' => {
@@ -407,8 +407,8 @@ our $I18N = {
 	},
 
 	'486' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Lista|,
+		lastUpdated => 1207724737
 	},
 
 	'160' => {
@@ -427,8 +427,8 @@ our $I18N = {
 	},
 
 	'8' => {
-		message => q||,
-		lastUpdated => 
+		message => q|La pagina no existe|,
+		lastUpdated => 1207724347
 	},
 
 	'976' => {
@@ -532,8 +532,8 @@ our $I18N = {
 	},
 
 	'61' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Actualizar la informaci&oacute;n de la cuenta|,
+		lastUpdated => 1207724283
 	},
 
 	'430' => {
@@ -607,13 +607,13 @@ our $I18N = {
 	},
 
 	'87' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Editar grupo|,
+		lastUpdated => 1207724472
 	},
 
 	'77' => {
-		message => q||,
-		lastUpdated => 
+		message => q|<p>Ese nombre de cuenta est&aacute; ya en uso por otra persona de este sitio.&nbsp; Por favor ingrese un nombre de usuario diferente.&nbsp; Las siguientes son algunas sugerencias:</p><p> %sToo<br /> %s2<br /> %s_%d </p>|,
+		lastUpdated => 1207724318
 	},
 
 	'444' => {
@@ -702,8 +702,8 @@ our $I18N = {
 	},
 
 	'507' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Editar plantilla|,
+		lastUpdated => 1207725218
 	},
 
 	'405' => {
@@ -807,8 +807,8 @@ our $I18N = {
 	},
 
 	'496' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Editos para usar|,
+		lastUpdated => 1207725025
 	},
 
 	'settings groupIdAdminProfileSettings hoverHelp' => {
@@ -887,8 +887,8 @@ our $I18N = {
 	},
 
 	'51' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Contrase&ntilde;a|,
+		lastUpdated => 1207723918
 	},
 
 	'816' => {
@@ -932,8 +932,8 @@ our $I18N = {
 	},
 
 	'493' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Volver al sitio.|,
+		lastUpdated => 1207724900
 	},
 
 	'trash workflow help' => {
@@ -992,8 +992,8 @@ our $I18N = {
 	},
 
 	'161' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Enviado por|,
+		lastUpdated => 1207725057
 	},
 
 	'582' => {
@@ -1087,8 +1087,8 @@ our $I18N = {
 	},
 
 	'990' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Editar el link de base de datos|,
+		lastUpdated => 1207725182
 	},
 
 	'349' => {
@@ -1122,8 +1122,8 @@ our $I18N = {
 	},
 
 	'60' => {
-		message => q||,
-		lastUpdated => 
+		message => q|&iquest;Est&aacute; seguro que quiere desactivar su cuenta?.&nbsp; Si procede, la informaci&oacute;n de su cuenta se perder&aacute; permanentemente|,
+		lastUpdated => 1207724964
 	},
 
 	'messaging' => {
@@ -1187,8 +1187,8 @@ our $I18N = {
 	},
 
 	'69' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Por favor contacte el administrador del sistema para asistencia.|,
+		lastUpdated => 1207723982
 	},
 
 	'removeLabel' => {
@@ -1337,8 +1337,8 @@ our $I18N = {
 	},
 
 	'99' => {
-		message => q||,
-		lastUpdated => 
+		message => q|T&iacute;tulo|,
+		lastUpdated => 1207724672
 	},
 
 	'settings groupIdAdminLDAPLink label' => {
@@ -1352,8 +1352,8 @@ our $I18N = {
 	},
 
 	'72' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Recuperar|,
+		lastUpdated => 1207724030
 	},
 
 	'566' => {
@@ -1432,8 +1432,8 @@ our $I18N = {
 	},
 
 	'477' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Área HTML|,
+		lastUpdated => 1207724309
 	},
 
 	'815' => {
@@ -1502,18 +1502,18 @@ our $I18N = {
 	},
 
 	'50 description' => {
-		message => q||,
-		lastUpdated => 
+		message => q|El nombre del usuario|,
+		lastUpdated => 1207725152
 	},
 
 	'50' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Nombre de usuario|,
+		lastUpdated => 1207724744
 	},
 
 	'476' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Área de texto|,
+		lastUpdated => 1207724227
 	},
 
 	'885 description' => {
@@ -1562,8 +1562,8 @@ our $I18N = {
 	},
 
 	'164 description' => {
-		message => q|<p>Configura el m&eacute;todo de autenticaci&oacute;n por defecto para nuevas cuentas. Hay dos opciones disponibles por defecto WebGUI y LDAP. Las autenticaciones WebGUI significan que los usuarios se autenticar&aacute;n con el usuario y contrase&ntilde;a almacenados en la base de datos de WebGUI. Las autenticaciones LDAP significan que los usuarios se autenticar&aacute;n con el servidor externo LDAP. Otros m&eacute;todos de autenticaci&oacute;n pueden ser proveidos escribiento un plugin de autenticaci&oacute;n.</p><p>&nbsp;</p><p><strong><em>NOTAS</em></strong>:</p><p>La configuraci&oacute;n de la autenticaci&oacute;n puede ser personalizada por cada usuario en una base. <br /> <br /> Dependiendo de los m&oacute;dulos de autenticaci&oacute;n que ha instalado en su sistema, podr&aacute; ver todas las opciones a partir de este punto. </p>|,
-		lastUpdated => 1207605068
+		message => q|Configura el m&eacute;todo de autenticaci&oacute;n por defecto para nuevas cuentas. Hay dos opciones disponibles por defecto WebGUI y LDAP. Las autenticaciones WebGUI significan que los usuarios se autenticar&aacute;n con el usuario y contrase&ntilde;a almacenados en la base de datos de WebGUI. Las autenticaciones LDAP significan que los usuarios se autenticar&aacute;n con el servidor externo LDAP. Otros m&eacute;todos de autenticaci&oacute;n pueden ser proveidos escribiento un plugin de autenticación.</p><p>&nbsp;</p><p><strong><em>NOTAS</em></strong>:</p><p>La configuración de la autenticación puede ser personalizada por cada usuario en una base. <br /> <br /> Dependiendo de los m&oacute;dulos de autenticación que ha instalado en su sistema, podr&aacute; ver todas las opciones a partir de este punto. </p>|,
+		lastUpdated => 1207724135
 	},
 
 	'353' => {
@@ -1622,8 +1622,8 @@ our $I18N = {
 	},
 
 	'cancel' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Cancelar|,
+		lastUpdated => 1207724670
 	},
 
 	'user profile field friend availability' => {
@@ -1717,8 +1717,8 @@ our $I18N = {
 	},
 
 	'9' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Ver portapapeles|,
+		lastUpdated => 1207724536
 	},
 
 	'425' => {
@@ -1752,8 +1752,8 @@ our $I18N = {
 	},
 
 	'90' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Agregar un nuevo grupo|,
+		lastUpdated => 1207724554
 	},
 
 	'pagination.isLastPage' => {
@@ -1822,8 +1822,8 @@ our $I18N = {
 	},
 
 	'57' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Esto solo es necesario si quiere usar las ventajas que requieren correo|,
+		lastUpdated => 1207724261
 	},
 
 	'368' => {
@@ -1837,8 +1837,8 @@ our $I18N = {
 	},
 
 	'872' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Qui&eacute;n puede ver?|,
+		lastUpdated => 1207724530
 	},
 
 	'image manager' => {
@@ -1957,8 +1957,8 @@ our $I18N = {
 	},
 
 	'93' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Ayuda|,
+		lastUpdated => 1207724608
 	},
 
 	'expire groupings' => {
@@ -1997,8 +1997,8 @@ our $I18N = {
 	},
 
 	'image' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Imagen|,
+		lastUpdated => 1207725214
 	},
 
 	'886' => {
@@ -2007,8 +2007,8 @@ our $I18N = {
 	},
 
 	'73' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Ingresar.|,
+		lastUpdated => 1207724049
 	},
 
 	'settings groupIdAdminGroup hoverHelp' => {
@@ -2017,8 +2017,8 @@ our $I18N = {
 	},
 
 	'67' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Crear una nueva cuenta.|,
+		lastUpdated => 1207723784
 	},
 
 	'812' => {
@@ -2102,8 +2102,8 @@ our $I18N = {
 	},
 
 	'contains' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Contiene|,
+		lastUpdated => 1207724698
 	},
 
 	'819' => {
@@ -2342,8 +2342,8 @@ our $I18N = {
 	},
 
 	'74' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Informaci&oacute;n de la cuenta|,
+		lastUpdated => 1207724072
 	},
 
 	'240' => {
@@ -2392,8 +2392,8 @@ our $I18N = {
 	},
 
 	'871' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Qui&eacute;n puede editar?|,
+		lastUpdated => 1207724498
 	},
 
 	'misc' => {
@@ -2457,8 +2457,8 @@ our $I18N = {
 	},
 
 	'91' => {
-		message => q||,
-		lastUpdated => 
+		message => q|P&aacute;gina anterior|,
+		lastUpdated => 1207724575
 	},
 
 	'701' => {
@@ -2527,8 +2527,8 @@ our $I18N = {
 	},
 
 	'52' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Ingresar|,
+		lastUpdated => 1207724194
 	},
 
 	'750' => {
@@ -2542,8 +2542,8 @@ our $I18N = {
 	},
 
 	'104 description' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Introduce una URL para el enlace|,
+		lastUpdated => 1207723972
 	},
 
 	'866' => {
@@ -2562,8 +2562,8 @@ our $I18N = {
 	},
 
 	'68' => {
-		message => q||,
-		lastUpdated => 
+		message => q|La informaci&oacute;n de la cuenta suministrada es invalida.&nbsp; La cuenta no existe o la combinaci&oacute;n de nombre de usuario y contrase&ntilde;a fue incorrecto.|,
+		lastUpdated => 1207723922
 	},
 
 	'315' => {
@@ -2607,8 +2607,8 @@ our $I18N = {
 	},
 
 	'484' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Seleccione la lista|,
+		lastUpdated => 1207724405
 	},
 
 	'1078' => {
@@ -2837,8 +2837,8 @@ our $I18N = {
 	},
 
 	'95' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Indice de ayuda|,
+		lastUpdated => 1207724629
 	},
 
 	'user function style description' => {
@@ -2887,8 +2887,8 @@ our $I18N = {
 	},
 
 	'504' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Plantilla|,
+		lastUpdated => 1207725205
 	},
 
 	'url extension description' => {
@@ -2937,8 +2937,8 @@ our $I18N = {
 	},
 
 	'65' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Por favor desactivar mi cuenta permanentemente.|,
+		lastUpdated => 1207723709
 	},
 
 	'Illegal Warning' => {
@@ -2967,8 +2967,8 @@ our $I18N = {
 	},
 
 	'81' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Cuenta actualizada con &eacute;xito!|,
+		lastUpdated => 1207724414
 	},
 
 	'view inbox message template' => {
@@ -2987,8 +2987,8 @@ our $I18N = {
 	},
 
 	'86' => {
-		message => q||,
-		lastUpdated => 
+		message => q|&iquest;Est&aacute; seguro qeu desea borrar este grupo? |,
+		lastUpdated => 1207724469
 	},
 
 	'792' => {
@@ -3092,8 +3092,8 @@ our $I18N = {
 	},
 
 	'345' => {
-		message => q||,
-		lastUpdated => 
+		message => q|No es un miembro|,
+		lastUpdated => 1207724181
 	},
 
 	'319' => {
@@ -3172,8 +3172,8 @@ our $I18N = {
 	},
 
 	'487' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Seleccione la casilla|,
+		lastUpdated => 1207724791
 	},
 
 	'1071' => {
@@ -3212,13 +3212,13 @@ our $I18N = {
 	},
 
 	'hidden' => {
-		message => q||,
-		lastUpdated => 
+		message => q|ocultar|,
+		lastUpdated => 1207724066
 	},
 
 	'63' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Mostrar Panel Administrativo|,
+		lastUpdated => 1207723758
 	},
 
 	'1050 description' => {
@@ -3237,8 +3237,8 @@ our $I18N = {
 	},
 
 	'80' => {
-		message => q||,
-		lastUpdated => 
+		message => q|La cuenta se ha creado exitosamente!|,
+		lastUpdated => 1207724373
 	},
 
 	'settings groupIdAdminReplacements hoverHelp' => {
@@ -3292,8 +3292,8 @@ our $I18N = {
 	},
 
 	'92' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Siguiente P&aacute;gina|,
+		lastUpdated => 1207724610
 	},
 
 	'settings groupIdAdminDatabaseLink hoverHelp' => {
@@ -3432,8 +3432,8 @@ our $I18N = {
 	},
 
 	'66' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Ingresar|,
+		lastUpdated => 1207723731
 	},
 
 	'show my fields' => {
@@ -3447,8 +3447,8 @@ our $I18N = {
 	},
 
 	'54' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Crea tu cuenta|,
+		lastUpdated => 1207723854
 	},
 
 	'1030' => {
@@ -3462,8 +3462,8 @@ our $I18N = {
 	},
 
 	'70' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Error|,
+		lastUpdated => 1207723997
 	},
 
 	'1047' => {
@@ -3472,8 +3472,8 @@ our $I18N = {
 	},
 
 	'88' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Usuarios en grupo|,
+		lastUpdated => 1207724559
 	},
 
 	'user profiling' => {
@@ -3512,8 +3512,8 @@ our $I18N = {
 	},
 
 	'75' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Informaci&oacute;n de su cuenta ha sido enviada a su direcci&oacute;n de correo electr&oacute;nico.|,
+		lastUpdated => 1207724115
 	},
 
 	'134' => {
@@ -3532,8 +3532,8 @@ our $I18N = {
 	},
 
 	'59' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Olvid&eacute; mi contrase&ntilde;a|,
+		lastUpdated => 1207724877
 	},
 
 	'450' => {
@@ -3547,8 +3547,8 @@ our $I18N = {
 	},
 
 	'50 setup description' => {
-		message => q||,
-		lastUpdated => 
+		message => q|El nombre de usuario de su cuenta de administrador. Por defecto es Admin|,
+		lastUpdated => 1207725187
 	},
 
 	'private message unread display message' => {
@@ -3622,8 +3622,8 @@ our $I18N = {
 	},
 
 	'databases' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Bases de datos|,
+		lastUpdated => 1207725170
 	},
 
 	'146' => {
@@ -3652,8 +3652,8 @@ our $I18N = {
 	},
 
 	'807' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Administrar los grupos en este grupo.|,
+		lastUpdated => 1207724372
 	},
 
 	'settings groupIdAdminActiveSessions hoverHelp' => {
