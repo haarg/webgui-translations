@@ -177,8 +177,8 @@ our $I18N = {
 	},
 
 	'by.label' => {
-		message => q||,
-		lastUpdated => 
+		message => q|La palabra &quot;Por&quot;.|,
+		lastUpdated => 1207709216
 	},
 
 	'back.url' => {
@@ -986,6 +986,11 @@ our $I18N = {
 		lastUpdated => 
 	},
 
+	'group to edit hoverhelp' => {
+		message => q||,
+		lastUpdated => 
+	},
+
 	'sortby.karmaRank.url' => {
 		message => q||,
 		lastUpdated => 
@@ -1456,6 +1461,11 @@ our $I18N = {
 		lastUpdated => 
 	},
 
+	'group to edit label' => {
+		message => q||,
+		lastUpdated => 
+	},
+
 	'search template' => {
 		message => q||,
 		lastUpdated => 
@@ -1537,8 +1547,8 @@ our $I18N = {
 	},
 
 	'lastReply.username' => {
-		message => q||,
-		lastUpdated => 
+		message => q|El nombre del usuario qui&eacute;n guardo la &uacute;ltima respuesta.|,
+		lastUpdated => 1207709298
 	},
 
 	'nested' => {

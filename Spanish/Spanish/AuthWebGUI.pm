@@ -7,8 +7,8 @@ our $I18N = {
 	},
 
 	'expired.message' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Todos los mensajes devueltos por el sistema, Usualmente se muestran desp&uacute;es que el formulario se ha enviado|,
+		lastUpdated => 1207714334
 	},
 
 	'21' => {
@@ -17,8 +17,8 @@ our $I18N = {
 	},
 
 	'recover.form.submit' => {
-		message => q||,
-		lastUpdated => 
+		message => q|El valor por defecto para el bot&oacute;n enviar&nbsp; en el formulario de recuperaci&oacute;n de contrase&ntilde;a|,
+		lastUpdated => 1207711328
 	},
 
 	'7' => {
@@ -32,8 +32,8 @@ our $I18N = {
 	},
 
 	'expired.form.passwordConfirm' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Campo del formulario por defecto para la confirmaci&oacute;n de la contrase&ntilde;a|,
+		lastUpdated => 1207714197
 	},
 
 	'create.message' => {
@@ -42,8 +42,8 @@ our $I18N = {
 	},
 
 	'expired.form.passwordConfirm.label' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Texto por defecto para el campo de confirmaci&oacute;n de contrase&ntilde;a en el formulario|,
+		lastUpdated => 1207713853
 	},
 
 	'create.form.passwordConfirm.label' => {
@@ -87,18 +87,18 @@ our $I18N = {
 	},
 
 	'email address validation email subject' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Activaci&oacute;n de la cuenta|,
+		lastUpdated => 1207712354
 	},
 
 	'recoverFormUsernameLabel' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Etiqueta para el nombre de usuario en el campo del formulario para recuperar la contrase&ntilde;a.|,
+		lastUpdated => 1207711162
 	},
 
 	'recover.message' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Alg&uacute;n mensaje retornado por el sistema.&nbsp; Usualmente lo muestra despu&eacute;s de guardar el formulario.|,
+		lastUpdated => 1207711548
 	},
 
 	'create account template' => {
@@ -132,13 +132,13 @@ our $I18N = {
 	},
 
 	'recoverFormProfile formElement' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Un elemento del formulario para el campo del profile.|,
+		lastUpdated => 1207711619
 	},
 
 	'setting passwordRecoveryType email' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Direcci&oacute;n de correo electr&oacute;nico|,
+		lastUpdated => 1207711009
 	},
 
 	'recover password not found' => {
@@ -157,8 +157,8 @@ our $I18N = {
 	},
 
 	'login.form.email' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Campo de correo por defecto del formulario.|,
+		lastUpdated => 1207714406
 	},
 
 	'title' => {
@@ -167,8 +167,8 @@ our $I18N = {
 	},
 
 	'expired.form.password.label' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Campo de texto por defecto para la contrase&ntilde;a en el formulario|,
+		lastUpdated => 1207713362
 	},
 
 	'11' => {
@@ -187,8 +187,8 @@ our $I18N = {
 	},
 
 	'recoverFormProfile id' => {
-		message => q||,
-		lastUpdated => 
+		message => q|El ID en el campo del profile.|,
+		lastUpdated => 1207711486
 	},
 
 	'account.form.username' => {
@@ -207,13 +207,13 @@ our $I18N = {
 	},
 
 	'recoverFormProfile label' => {
-		message => q||,
-		lastUpdated => 
+		message => q|La etiqueta para el campo del profile.|,
+		lastUpdated => 1207711359
 	},
 
 	'webguiPasswordRecovery hoverHelp' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Seleccione &quot;campo del perfil&quot; para permitir que los usuarios que conocen a una determinada combinaci&oacute;n de los campos de su perfil para recuperar sus contrase&ntilde;as. Para que esto tenga efecto, por lo menos un campo del perfil debe tener su &quot;requerido para la recuperaci&oacute;n de la contrase&ntilde;a?&quot;. Es muy recomendable para recoger varios campos, como la utilizaci&oacute;n de un &uacute;nico campo suele ser muy f&aacute;cil de romper, recuerda que todo aquel que descubre la totalidad de los campos para un usuario puede restablecer la contrase&ntilde;a de dicho usuario. Seleccione &quot;Correo&quot; para permitir a los usuarios disponer de un correo electr&oacute;nico enviado a ellas con un v&iacute;nculo que les permitir&aacute; restablecer su contrase&ntilde;a. |,
+		lastUpdated => 1207710773
 	},
 
 	'recover password email text1' => {
@@ -222,8 +222,8 @@ our $I18N = {
 	},
 
 	'setting passwordRecoveryType none' => {
-		message => q||,
-		lastUpdated => 
+		message => q|No|,
+		lastUpdated => 1207710990
 	},
 
 	'new password verify' => {
@@ -232,8 +232,8 @@ our $I18N = {
 	},
 
 	'expired.form.footer' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Los elementos requeridos del formulario que van despu&eacute;s del formulario de la p&aacute;gina de la expiraci&oacute;n de la contrase&ntilde;a|,
+		lastUpdated => 1207712883
 	},
 
 	'require username for password recovery' => {
@@ -242,23 +242,23 @@ our $I18N = {
 	},
 
 	'error password nonWordCharacters' => {
-		message => q||,
-		lastUpdated => 
+		message => q|La contrase&ntilde;a debe contener por lo menos %s caracteres no imprimibles (tales como '!', '@' o '$')|,
+		lastUpdated => 1207712517
 	},
 
 	'deactivate account template title' => {
-		message => q||,
-		lastUpdated => 
+		message => q|WebGui Autenticaci&oacute;n, plantilla de desacctivaci&oacute;n de cuenta|,
+		lastUpdated => 1207712019
 	},
 
 	'login template' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Template de acceso|,
+		lastUpdated => 1207711461
 	},
 
 	'error passwordRecoveryType no profile fields required' => {
-		message => q||,
-		lastUpdated => 
+		message => q|No se puede habilitar la recuperaci&oacute;n de contrase&ntilde;as por medio de los campos del perfil, No hay campos en el perfil requeridos para la recuperci&oacute;n de contrase&ntilde;a.|,
+		lastUpdated => 1207712729
 	},
 
 	'12' => {
@@ -282,8 +282,8 @@ our $I18N = {
 	},
 
 	'email password recovery end message' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Ingrese la nueva contrase&ntilde;a para la cuenta|,
+		lastUpdated => 1207712400
 	},
 
 	'login.label' => {
@@ -297,8 +297,8 @@ our $I18N = {
 	},
 
 	'expired.form.submit' => {
-		message => q||,
-		lastUpdated => 
+		message => q|El boton&nbsp; por defecto para el formulario de expiraci&oacute;n de la contrase&ntilde;a|,
+		lastUpdated => 1207714269
 	},
 
 	'login.message' => {
@@ -307,8 +307,8 @@ our $I18N = {
 	},
 
 	'recovery template title' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Template de autenticaci&oacute;n en WebGUI para recuperar contrase&ntilde;a |,
+		lastUpdated => 1207711084
 	},
 
 	'new password help' => {
@@ -332,13 +332,13 @@ our $I18N = {
 	},
 
 	'expired.form.password' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Campo de contrase&ntilde;a del formulario por defecto|,
+		lastUpdated => 1207713211
 	},
 
 	'setting webguiNonWordCharacters' => {
-		message => q||,
-		lastUpdated => 
+		message => q|N&uacute;mero de caracteres sin palabras requeridos en la contrase&ntilde;a|,
+		lastUpdated => 1207710978
 	},
 
 	'17' => {
@@ -352,8 +352,8 @@ our $I18N = {
 	},
 
 	'expired.form.header' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Los elementos requeridos del formulario que van en la tapa de la p&aacute;gina de la expiraci&oacute;n de la contrase&ntilde;a.|,
+		lastUpdated => 1207712935
 	},
 
 	'error password requiredDigits' => {
@@ -362,8 +362,8 @@ our $I18N = {
 	},
 
 	'display account template title' => {
-		message => q||,
-		lastUpdated => 
+		message => q|WebGui Autenticaci&oacute;n, plantilla de detalles de la cuenta de usuario|,
+		lastUpdated => 1207712259
 	},
 
 	'1' => {
@@ -372,8 +372,8 @@ our $I18N = {
 	},
 
 	'password recovery email label' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Direcci&oacute;n de correo|,
+		lastUpdated => 1207713475
 	},
 
 	'account.message' => {
@@ -382,13 +382,13 @@ our $I18N = {
 	},
 
 	'login template title' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Plantilla de Autenticaci&oacute;n de WebGui|,
+		lastUpdated => 1207714371
 	},
 
 	'password recovery login label' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Nombre de usuario|,
+		lastUpdated => 1207713541
 	},
 
 	'validate email' => {
@@ -402,8 +402,8 @@ our $I18N = {
 	},
 
 	'setting webguiRequiredMixedCase' => {
-		message => q||,
-		lastUpdated => 
+		message => q|N&uacute;mero de caracteres en may&uacute;scula requeridos en la contrase&ntilde;a|,
+		lastUpdated => 1207710815
 	},
 
 	'create.form.password' => {
@@ -417,8 +417,8 @@ our $I18N = {
 	},
 
 	'recoverPassword.url' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Direcci&oacute;n para la p&aacute;gina de recuperaci&oacute;n de contrase&ntilde;a.|,
+		lastUpdated => 1207711117
 	},
 
 	'14' => {
@@ -427,13 +427,13 @@ our $I18N = {
 	},
 
 	'email address validation email body' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Bienvenido a nuestro sitio, Por favor haga click en el siguiente enlace para activar su cuenta|,
+		lastUpdated => 1207712332
 	},
 
 	'login.form.email.label' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Texto por defecto para el campo de email en el formulario|,
+		lastUpdated => 1207713892
 	},
 
 	'no registration hack' => {
@@ -447,8 +447,8 @@ our $I18N = {
 	},
 
 	'new password verify help' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Ingrese su contrase&ntilde;a de nuevo para verificaci&oacute;n|,
+		lastUpdated => 1207713440
 	},
 
 	'password recovery no username' => {
@@ -512,13 +512,13 @@ our $I18N = {
 	},
 
 	'expired password template' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Template de expiraci&oacute;n de contrase&ntilde;a|,
+		lastUpdated => 1207712755
 	},
 
 	'expired template title' => {
-		message => q||,
-		lastUpdated => 
+		message => q|WebGui Autenticaci&oacute;n, plantilla de expiraci&oacute;n de la contrase&ntilde;a|,
+		lastUpdated => 1207712794
 	},
 
 	'email recover password finish message2' => {
@@ -567,8 +567,8 @@ our $I18N = {
 	},
 
 	'recoverFormProfile' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Ciclo sobre los campos del profile necesarios para la recuperaci&oacute;n de la contrase&ntilde;a.|,
+		lastUpdated => 1207711692
 	},
 
 	'9' => {
@@ -582,13 +582,13 @@ our $I18N = {
 	},
 
 	'setting webguiRequiredDigits' => {
-		message => q||,
-		lastUpdated => 
+		message => q|N&uacute;mero de d&iacute;gitos requeridos en la contrase&ntilde;a|,
+		lastUpdated => 1207710847
 	},
 
 	'expired.form.hidden' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Campos ocultos del formulario requeridos para el formulario de presentaci&oacute;n|,
+		lastUpdated => 1207713157
 	},
 
 	'recover.form.header' => {
@@ -622,8 +622,8 @@ our $I18N = {
 	},
 
 	'webguiPasswordRecoveryRequireUsername hoverHelp' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Select  &quot;Si&quot; si usted quiere que los usuarios tambi&eacute;n tengan que ingresar el nombre de usuario  para recuperar la contrase&ntilde;a.  De lo contrario, ellos ser&iacute;an capaces de reestablecer su contrase&ntilde;a y ingresar ellos mismos sabiendo solamente que otros campos del profile est&aacute;n habilitados para recuperar la contrase&ntilde;a, incluso si ellos han olvidado su nombre de usuario.|,
+		lastUpdated => 1207710748
 	},
 
 	'recover password banner' => {
