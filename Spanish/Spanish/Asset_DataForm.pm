@@ -1,6 +1,5 @@
 package WebGUI::i18n::Spanish::Asset_DataForm;
 
-
 our $I18N = {
 	'27 description' => {
 		message => q||,
@@ -12,12 +11,12 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'90' => {
+	'defaultView var desc' => {
 		message => q||,
 		lastUpdated => 
 	},
 
-	'defaultView var desc' => {
+	'90' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -48,8 +47,8 @@ our $I18N = {
 	},
 
 	'18' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Regresar!|,
+		lastUpdated => 1207849059
 	},
 
 	'16' => {
@@ -77,12 +76,12 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'744' => {
-		message => q||,
-		lastUpdated => 
+	'20' => {
+		message => q|Editar Campo|,
+		lastUpdated => 1207849139
 	},
 
-	'20' => {
+	'744' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -123,8 +122,8 @@ our $I18N = {
 	},
 
 	'11' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Para|,
+		lastUpdated => 1207848979
 	},
 
 	'entryList.url' => {
@@ -158,8 +157,8 @@ our $I18N = {
 	},
 
 	'106' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Template del Tab|,
+		lastUpdated => 1207848967
 	},
 
 	'record.edit.icon' => {
@@ -167,12 +166,7 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'back.url' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'record.edit.url' => {
+	'acknowlegementTemplateId' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -182,7 +176,12 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'acknowlegementTemplateId' => {
+	'record.edit.url' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'back.url' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -202,12 +201,17 @@ our $I18N = {
 		lastUpdated => 
 	},
 
+	'81' => {
+		message => q||,
+		lastUpdated => 
+	},
+
 	'87 description' => {
 		message => q||,
 		lastUpdated => 
 	},
 
-	'81' => {
+	'73' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -217,7 +221,7 @@ our $I18N = {
 		lastUpdated => 1169582107
 	},
 
-	'73' => {
+	'76' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -227,17 +231,12 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'76' => {
+	'groupToViewEntries' => {
 		message => q||,
 		lastUpdated => 
 	},
 
 	'105 description' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'groupToViewEntries' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -278,13 +277,13 @@ our $I18N = {
 	},
 
 	'17' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Correo electr&oacute;nico enviado|,
+		lastUpdated => 1207849041
 	},
 
 	'2' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Coloque aqu&iacute; el asunto del mensaje|,
+		lastUpdated => 1207849121
 	},
 
 	'form.send' => {
@@ -307,7 +306,7 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'82' => {
+	'mailAttachments' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -317,7 +316,7 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'mailAttachments' => {
+	'82' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -327,12 +326,12 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'field.subtext' => {
+	'listTemplateId' => {
 		message => q||,
 		lastUpdated => 
 	},
 
-	'listTemplateId' => {
+	'field.subtext' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -353,8 +352,8 @@ our $I18N = {
 	},
 
 	'14' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Asunto|,
+		lastUpdated => 1207849013
 	},
 
 	'tab.field.value' => {
@@ -387,22 +386,22 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'field.label' => {
-		message => q||,
-		lastUpdated => 
-	},
-
 	'79' => {
 		message => q||,
 		lastUpdated => 
 	},
 
-	'editField vertical subtext' => {
+	'field.label' => {
 		message => q||,
 		lastUpdated => 
 	},
 
 	'Field Position description' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'editField vertical subtext' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -428,8 +427,8 @@ our $I18N = {
 	},
 
 	'21 description' => {
-		message => q||,
-		lastUpdated => 
+		message => q|El nombre de este campo.&nbsp; Este ser&iacute;a &uacute;nico entre todos los otros campos de su formulario.|,
+		lastUpdated => 1207849212
 	},
 
 	'data form' => {
@@ -442,17 +441,12 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'tab_loop' => {
-		message => q||,
-		lastUpdated => 
-	},
-
 	'no tab' => {
 		message => q||,
 		lastUpdated => 
 	},
 
-	'record_loop' => {
+	'tab_loop' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -462,12 +456,17 @@ our $I18N = {
 		lastUpdated => 
 	},
 
+	'record_loop' => {
+		message => q||,
+		lastUpdated => 
+	},
+
 	'editField vertical label' => {
 		message => q||,
 		lastUpdated => 
 	},
 
-	'confirm delete all' => {
+	'field.isDisplayed' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -477,7 +476,7 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'field.isDisplayed' => {
+	'confirm delete all' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -488,8 +487,8 @@ our $I18N = {
 	},
 
 	'21' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Nombre del Campo|,
+		lastUpdated => 1207849152
 	},
 
 	'javascript.confirmation.deleteOne' => {
@@ -642,12 +641,12 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'field.value' => {
+	'addField.label' => {
 		message => q||,
 		lastUpdated => 
 	},
 
-	'addField.label' => {
+	'field.value' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -663,8 +662,8 @@ our $I18N = {
 	},
 
 	'12' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Cc|,
+		lastUpdated => 1207848990
 	},
 
 	'field.id' => {
@@ -682,22 +681,22 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'25 description' => {
-		message => q||,
-		lastUpdated => 
-	},
-
 	'Field Position' => {
 		message => q||,
 		lastUpdated => 
 	},
 
-	'104 description' => {
+	'25 description' => {
 		message => q||,
 		lastUpdated => 
 	},
 
 	'19' => {
+		message => q|Est&aacute; usted seguro que desea eliminar este campo?|,
+		lastUpdated => 1207849094
+	},
+
+	'104 description' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -742,11 +741,6 @@ our $I18N = {
 		lastUpdated => 1169582073
 	},
 
-	'addTab.url' => {
-		message => q||,
-		lastUpdated => 
-	},
-
 	'deleteAllEntries.label' => {
 		message => q||,
 		lastUpdated => 
@@ -757,7 +751,7 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'epoch' => {
+	'addTab.url' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -767,12 +761,17 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'74 description' => {
+	'epoch' => {
 		message => q||,
 		lastUpdated => 
 	},
 
 	'28' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'74 description' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -787,7 +786,7 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'error.message' => {
+	'record.username' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -797,12 +796,7 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'record.username' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'tab.label' => {
+	'error.message' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -812,7 +806,17 @@ our $I18N = {
 		lastUpdated => 
 	},
 
+	'tab.label' => {
+		message => q||,
+		lastUpdated => 
+	},
+
 	'field.name' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'canViewEntries' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -848,8 +852,13 @@ our $I18N = {
 	},
 
 	'22' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Estado|,
+		lastUpdated => 1207849224
+	},
+
+	'13' => {
+		message => q|Bcc|,
+		lastUpdated => 1207849002
 	},
 
 	'tab.field.controls' => {
@@ -857,14 +866,9 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'13' => {
-		message => q||,
-		lastUpdated => 
-	},
-
 	'105' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Adicionar un Tab|,
+		lastUpdated => 1207848948
 	},
 
 	'6' => {
@@ -877,12 +881,12 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'field.isMailField' => {
+	'3' => {
 		message => q||,
 		lastUpdated => 
 	},
 
-	'3' => {
+	'field.isMailField' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -902,12 +906,12 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'back.label' => {
+	'4' => {
 		message => q||,
 		lastUpdated => 
 	},
 
-	'4' => {
+	'back.label' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -917,12 +921,17 @@ our $I18N = {
 		lastUpdated => 
 	},
 
+	'record.delete.url' => {
+		message => q||,
+		lastUpdated => 
+	},
+
 	'76 description' => {
 		message => q||,
 		lastUpdated => 
 	},
 
-	'record.delete.url' => {
+	'record_data_type' => {
 		message => q||,
 		lastUpdated => 
 	},

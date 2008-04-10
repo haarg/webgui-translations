@@ -242,8 +242,8 @@ our $I18N = {
 	},
 
 	'group to use' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Grupo para usar|,
+		lastUpdated => 1207848303
 	},
 
 	'commit version tag confirm' => {

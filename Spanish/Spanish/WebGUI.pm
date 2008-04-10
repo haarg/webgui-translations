@@ -748,7 +748,7 @@ our $I18N = {
 
 	'1' => {
 		message => q|Agregar contenido...|,
-		lastUpdated => 1200060195
+		lastUpdated => 1207772478
 	},
 
 	'144' => {
@@ -867,8 +867,8 @@ our $I18N = {
 	},
 
 	'1005 description' => {
-		message => q||,
-		lastUpdated => 
+		message => q|<p>Muchas organizaciones tienen bases de datos externas que mapea los usuarios a los grupos, por ejemplo, una base de datos de recursos humanos podr&iacute;a mapear la identificaci&oacute;n de empleados al Plan de Atenci&oacute;n de Salud. Para validar los usuarios contra una base de datos externa, necesita construir una sentencia SQL que retornar&aacute; la lista de WebGUI userIds para los usuarios en el grupo. Puede utilizar macros en esta consulta para acceder a datos del perfil del usuario WebGUI, tales como la identificaci&oacute;n de empleados. Aqu&iacute; hay un ejemplo que comprueba un usuario contra una base de datos de recursos humanos ficticia. Se asume que se ha creado un nuevo campo en el perfil del usuario WebGUI llamado employeeId. </p><p> select userId from employees, health_plans, empl_plan_map<br /> where employees.employee_id = ^User(&quot;employeeId&quot;);<br /> and health_plans.plan_name = 'HMO 1'<br /> and employees.employee_id = empl_plan_map.employee_id<br /> and health_plans.health_plan_id = empl_plan_mp.health_plan_id</p><p>Este grupo podr&iacute;a ser denominado &quot;Personal de la HMO 1&quot;, y podr&iacute;a restringir cualquier p&aacute;gina o wobject s&oacute;lo a los usuarios que forman parte de este plan de salud en la base de datos externa. </p>|,
+		lastUpdated => 1207839763
 	},
 
 	'groups to delete' => {
@@ -972,8 +972,8 @@ our $I18N = {
 	},
 
 	'1026' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Permitir editor de texto enriquecido?|,
+		lastUpdated => 1207841535
 	},
 
 	'329' => {
@@ -1252,8 +1252,8 @@ our $I18N = {
 	},
 
 	'1006' => {
-		message => q|Encriptar login?|,
-		lastUpdated => 1199918295
+		message => q|&iquest;Encriptar login?|,
+		lastUpdated => 1207772514
 	},
 
 	'company' => {
@@ -1397,8 +1397,8 @@ our $I18N = {
 	},
 
 	'1006 description' => {
-		message => q||,
-		lastUpdated => 
+		message => q|<div id="result_box" dir="ltr">Deber&iacute;a el sistema utilizar el protocolo HTTPS para el formulario de acceso? Tenga en cuenta que al establecer esta opci&oacute;n como verdadera no ser&aacute; encriptado &uacute;nicamente el formulario de acceso, pero despu&eacute;s ya no ser&aacute; m&aacute;s HTTPS. </div>|,
+		lastUpdated => 1207841228
 	},
 
 	'108' => {
@@ -2292,8 +2292,8 @@ our $I18N = {
 	},
 
 	'content' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Contenido|,
+		lastUpdated => 1207839032
 	},
 
 	'starts with' => {
@@ -2797,8 +2797,8 @@ our $I18N = {
 	},
 
 	'target' => {
-		message => q||,
-		lastUpdated => 
+		message => q|<p>Target&nbsp;</p>|,
+		lastUpdated => 1207838979
 	},
 
 	'settings groupIdAdminActiveSessions label' => {
@@ -2912,8 +2912,8 @@ our $I18N = {
 	},
 
 	'Select State' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Seleccionar Estado|,
+		lastUpdated => 1207839075
 	},
 
 	'857' => {
@@ -3132,8 +3132,8 @@ our $I18N = {
 	},
 
 	'Enable Metadata' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Habilitar Metadata?|,
+		lastUpdated => 1207839059
 	},
 
 	'974' => {

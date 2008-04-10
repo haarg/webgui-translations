@@ -512,8 +512,8 @@ our $I18N = {
 	},
 
 	'rank' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Puntaje|,
+		lastUpdated => 1207773841
 	},
 
 	'886 description' => {

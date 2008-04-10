@@ -52,8 +52,8 @@ our $I18N = {
 	},
 
 	'subscribe' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Suscribir|,
+		lastUpdated => 1207848883
 	},
 
 	'helpvar newDay' => {
@@ -62,8 +62,8 @@ our $I18N = {
 	},
 
 	'previous week' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Semana Anterior|,
+		lastUpdated => 1207848832
 	},
 
 	'mdy' => {
@@ -107,8 +107,8 @@ our $I18N = {
 	},
 
 	'previous day' => {
-		message => q||,
-		lastUpdated => 
+		message => q|D&iacute;a Anterior|,
+		lastUpdated => 1207848804
 	},
 
 	'helpvar dateTime dayOfMonth' => {
@@ -132,8 +132,8 @@ our $I18N = {
 	},
 
 	'next day' => {
-		message => q||,
-		lastUpdated => 
+		message => q|D&iacute;a Siguiente.|,
+		lastUpdated => 1207848725
 	},
 
 	'workflow updateFeeds description' => {
@@ -242,8 +242,8 @@ our $I18N = {
 	},
 
 	'end date' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Fecha de Fin|,
+		lastUpdated => 1207848919
 	},
 
 	'workflow updateFeeds' => {
@@ -337,8 +337,8 @@ our $I18N = {
 	},
 
 	'previous page' => {
-		message => q||,
-		lastUpdated => 
+		message => q|P&aacute;gina Anterior|,
+		lastUpdated => 1207848818
 	},
 
 	'paramType' => {
@@ -557,8 +557,8 @@ our $I18N = {
 	},
 
 	'next page' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Siguiente P&aacute;gina|,
+		lastUpdated => 1207848746
 	},
 
 	'helpvar dateTime end' => {
@@ -637,8 +637,8 @@ our $I18N = {
 	},
 
 	'page x of x' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Mostrando p&aacute;gina %s de %s|,
+		lastUpdated => 1207848788
 	},
 
 	'endMonthAbbr' => {
@@ -737,8 +737,8 @@ our $I18N = {
 	},
 
 	'search results' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Resultados de la B&uacute;squeda|,
+		lastUpdated => 1207848867
 	},
 
 	'label month' => {
@@ -787,8 +787,8 @@ our $I18N = {
 	},
 
 	'next week' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Semana Siguiente|,
+		lastUpdated => 1207848764
 	},
 
 	'templateIdMonth description' => {

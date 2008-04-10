@@ -113,8 +113,8 @@ El código de invitación que está usando no es para usted.|,
 	},
 
 	'add to friends profile' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Volvel al perfil de %s|,
+		lastUpdated => 1207844653
 	},
 
 	'formHeader' => {
@@ -143,8 +143,8 @@ El código de invitación que está usando no es para usted.|,
 	},
 
 	'invitation accepted by user' => {
-		message => q||,
-		lastUpdated => 
+		message => q|%s acepto tu invitaci&oacute;n.|,
+		lastUpdated => 1207845094
 	},
 
 	'removeFriendButton' => {
@@ -198,8 +198,8 @@ El código de invitación que está usando no es para usted.|,
 	},
 
 	'friend request description' => {
-		message => q||,
-		lastUpdated => 
+		message => q|%s te ha adicionado a su lista de amigos con el siguiente comentario:|,
+		lastUpdated => 1207845047
 	},
 
 	'subjectForm' => {
