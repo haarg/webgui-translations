@@ -27,8 +27,8 @@ our $I18N = {
 	},
 
 	'adminControls' => {
-		message => q|Met deze iconen kun je het object bewerken, knippen, kopi&emplren verwijderen en van plaats veranderen.|,
-		lastUpdated => 1189118951
+		message => q|Met deze iconen kun je het object bewerken, knippen, kopi&euml;ren verwijderen en van plaats veranderen.|,
+		lastUpdated => 1207905593
 	},
 
 	'urlAdd' => {
@@ -37,8 +37,8 @@ our $I18N = {
 	},
 
 	'templateIdPrintMonth label' => {
-		message => q|Maandweergave printen template|,
-		lastUpdated => 1166194148
+		message => q|Maand-weergave printen template|,
+		lastUpdated => 1207916733
 	},
 
 	'events weekVar' => {
@@ -202,8 +202,8 @@ our $I18N = {
 	},
 
 	'urlMonth' => {
-		message => q|De URL om de kalender per maand te bekijken. (In plaats van per dag of maand.)|,
-		lastUpdated => 1189120716
+		message => q|De URL om de kalender per maand te bekijken. (In plaats van per dag of week.)|,
+		lastUpdated => 1207905667
 	},
 
 	'helpvar newMonth' => {
@@ -287,8 +287,8 @@ our $I18N = {
 	},
 
 	'subscriberNotifyOffset description' => {
-		message => q|Het aantal dagen dat vooraf gaat aan een noticatie die aangeeft dat de gebeurtenis plaats gaat vinden. |,
-		lastUpdated => 1166193714
+		message => q|Het aantal dagen dat vooraf gaat aan een notificatie die aangeeft dat de gebeurtenis plaats gaat vinden. |,
+		lastUpdated => 1207916695
 	},
 
 	'editForm templateIdList label' => {
@@ -357,8 +357,8 @@ our $I18N = {
 	},
 
 	'editForm templateIdList description' => {
-		message => q|Dit sjbloon toont de kalender in een lijst layout.|,
-		lastUpdated => 1204299298
+		message => q|Dit sjabloon toont de kalender in een lijst layout.|,
+		lastUpdated => 1207916213
 	},
 
 	'ymd' => {
@@ -612,8 +612,8 @@ our $I18N = {
 	},
 
 	'help calendar dateTime body' => {
-		message => q|<p>Deze variabelen zijn beschikbaar voor de meeste datum en tijd objecten in de Kalender.</p><p>Let op: soms hebben deze variabelen een voorvoegsel zoals &quot;start&quot; of &quot;end&quot;. In dat geval wordt de eerste letter van de variabelen hieronder een hoofdlette, dus &quot;monthName&quot; met het voorvoegsel &quot;start&quot; wordt &quot;startMonthName&quot;.  </p>|,
-		lastUpdated => 1204900785
+		message => q|<p>Deze variabelen zijn beschikbaar voor de meeste datum en tijd objecten in de Kalender.</p><p>Let op: soms hebben deze variabelen een voorvoegsel zoals &quot;start&quot; of &quot;end&quot;. In dat geval wordt de eerste letter van de variabelen hieronder een hoofdletter, dus &quot;monthName&quot; met het voorvoegsel &quot;start&quot; wordt &quot;startMonthName&quot;.  </p>|,
+		lastUpdated => 1207916307
 	},
 
 	'helpvar dateTime dayOfWeek' => {

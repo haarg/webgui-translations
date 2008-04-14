@@ -32,13 +32,13 @@ our $I18N = {
 	},
 
 	'isSecond' => {
-		message => q|<div class="&quot;&quot;helpIndent&quot;&quot;"><p>Een voorwaarde die aangeeft of deze post de tweede is in deze callaborate asset.</p></div>|,
-		lastUpdated => 1150099963
+		message => q|<div class="&quot;&quot;&quot;helpIndent&quot;&quot;&quot;"><p>Een voorwaarde die aangeeft of deze post de tweede is in deze collaboratie asset.</p></div>|,
+		lastUpdated => 1207832552
 	},
 
 	'enable metadata description' => {
-		message => q|Selecteer "Ja" om metadata beschikbaar te maken in bijdragen en om passief profielen te maken. Dit heeft een negatief effect op de performance van het Samenwerk Systeem. Metadata moet in de instellingen insteld zijn. |,
-		lastUpdated => 1189453681
+		message => q|Selecteer &quot;Ja&quot; om metadata beschikbaar te maken in bijdragen en om passief profielen te maken. Dit heeft een negatief effect op de performance van het Samenwerk Systeem. Metadata moet in de instellingen ingesteld zijn. |,
+		lastUpdated => 1207916847
 	},
 
 	'controls' => {
@@ -131,8 +131,8 @@ Nadat u deze instelling wijzigt worden niet alle  bestaande foto's opnieuw verkl
 	},
 
 	'sortby.title.url' => {
-		message => q|<p>Een URL waar de lijst met posts op titel gesorteerd en getoond kunnen worden.</p>|,
-		lastUpdated => 1150101363
+		message => q|<p>Een URL waar de lijst met posts op titel gesorteerd getoond kunnen worden.</p>|,
+		lastUpdated => 1207833863
 	},
 
 	'reply.label' => {
@@ -146,8 +146,8 @@ Nadat u deze instelling wijzigt worden niet alle  bestaande foto's opnieuw verkl
 	},
 
 	'rating_loop' => {
-		message => q|<div class="&quot;&quot;helpIndent&quot;&quot;"><p>Een proces (<em>en:</em>loop) dat voor ieder score van een post draait. </p></div>|,
-		lastUpdated => 1150098864
+		message => q|<div class="&quot;&quot;&quot;helpIndent&quot;&quot;&quot;"><p>Een proces (<em>en:</em>loop) dat voor iedere score van een post draait. </p></div>|,
+		lastUpdated => 1207831977
 	},
 
 	'previous' => {
@@ -176,8 +176,8 @@ Nadat u deze instelling wijzigt worden niet alle  bestaande foto's opnieuw verkl
 	},
 
 	'posts/page description' => {
-		message => q|Het aantal posts op elke pagina in het draad sjabloob. Als dit aantal erg hoog is, kan het genereren van de pagina vertraagd worden.|,
-		lastUpdated => 1147705993
+		message => q|Het aantal posts op elke pagina in het draad sjabloon. Als dit aantal erg hoog is, kan het genereren van de pagina vertraagd worden.|,
+		lastUpdated => 1207824814
 	},
 
 	'by.label' => {
@@ -186,8 +186,8 @@ Nadat u deze instelling wijzigt worden niet alle  bestaande foto's opnieuw verkl
 	},
 
 	'back.url' => {
-		message => q|Een URL terug naar het hoofdscherm van deze callaboratie asset.|,
-		lastUpdated => 1150101600
+		message => q|Een URL terug naar het hoofdscherm van deze collaboratie asset.|,
+		lastUpdated => 1207834098
 	},
 
 	'get mail help' => {
@@ -202,7 +202,7 @@ Nadat u deze instelling wijzigt worden niet alle  bestaande foto's opnieuw verkl
 
 	'user.canPost' => {
 		message => q|<p>Een conditionele functie die waar is als de huidige gebruiker posts kan toevoegen aan dit collaboratie systeem. </p>|,
-		lastUpdated => 1150101129
+		lastUpdated => 1207832472
 	},
 
 	'unsubscribe' => {
@@ -226,8 +226,8 @@ Nadat u deze instelling wijzigt worden niet alle  bestaande foto's opnieuw verkl
 	},
 
 	'visitor cache timeout help' => {
-		message => q|Deze asset wordt gecached voor het verhogen van de prestaties. Dit kan omdat alle bezoekers deze asset op dezelfde manier zien. Hoe lang moet deze asset in het cashe geheugen opgeslagen worden? |,
-		lastUpdated => 1147702706
+		message => q|Deze asset wordt gecached voor het verhogen van de prestaties. Dit kan omdat alle bezoekers deze asset op dezelfde manier zien. Hoe lang moet deze asset in het cache geheugen opgeslagen worden? |,
+		lastUpdated => 1207824613
 	},
 
 	'unsubscribe.label' => {
@@ -251,8 +251,8 @@ Nadat u deze instelling wijzigt worden niet alle  bestaande foto's opnieuw verkl
 	},
 
 	'sortby.username.url' => {
-		message => q|<p>Een URL waar de lijst met posts op gebruikersnaam gesorteerd en getoond kunnen worden.</p>|,
-		lastUpdated => 1150101392
+		message => q|<p>Een URL waar de lijst met posts op gebruikersnaam gesorteerd getoond kunnen worden.</p>|,
+		lastUpdated => 1207833729
 	},
 
 	'karma rank' => {
@@ -276,8 +276,8 @@ Nadat u deze instelling wijzigt worden niet alle  bestaande foto's opnieuw verkl
 	},
 
 	'avatar.url' => {
-		message => q|<div class="&quot;&quot;helpIndent&quot;&quot;"><p>Een URL van de avatar an de eigenaar van deze post, als avatars toegestaan zijn en deze gebruiker er &amp;eacute;&amp;eacute;n heeft.</p></div>|,
-		lastUpdated => 1150100083
+		message => q|<div class="&quot;&quot;&quot;helpIndent&quot;&quot;&quot;"><p>Een URL van de avatar van de eigenaar van deze post, als avatars toegestaan zijn en deze gebruiker er &amp;eacute;&amp;eacute;n heeft.</p></div>|,
+		lastUpdated => 1207833263
 	},
 
 	'user' => {
@@ -371,8 +371,8 @@ Nadat u deze instelling wijzigt worden niet alle  bestaande foto's opnieuw verkl
 	},
 
 	'sortby.views.url' => {
-		message => q|<p>Een URL waar de lijst met posts op het aantal bezichtigingen gesorteerd en getoond kunnen worden. </p>|,
-		lastUpdated => 1150101466
+		message => q|<p>Een URL waar de lijst met posts op het aantal bezichtigingen gesorteerd getoond kunnen worden. </p>|,
+		lastUpdated => 1207833770
 	},
 
 	'add' => {
@@ -411,8 +411,8 @@ Nadat u deze instelling wijzigt worden niet alle  bestaande foto's opnieuw verkl
 	},
 
 	'content filter description' => {
-		message => q|Selecteer &quot;Ja&quot; voor het fiteren van de inhoud van elke post in het vervangingssysteem.|,
-		lastUpdated => 1147957417
+		message => q|Selecteer &quot;Ja&quot; voor het filteren van de inhoud van elke post in het vervangingssysteem.|,
+		lastUpdated => 1207824921
 	},
 
 	'readmore.label' => {
@@ -516,8 +516,8 @@ Nadat u deze instelling wijzigt worden niet alle  bestaande foto's opnieuw verkl
 	},
 
 	'sortby.date.url' => {
-		message => q|<p>Een URL waar de lijst met posts op de datum waarop ze toegevoegd zijn gesorteerd en getoond kunnen worden. </p>|,
-		lastUpdated => 1150101412
+		message => q|<p>Een URL waar de lijst met posts op de datum waarop ze toegevoegd zijn gesorteerd getoond kunnen worden. </p>|,
+		lastUpdated => 1207833817
 	},
 
 	'edit timeout description' => {
@@ -651,8 +651,8 @@ Nadat u deze instelling wijzigt worden niet alle  bestaande foto's opnieuw verkl
 	},
 
 	'use preview description' => {
-		message => q|Selecteer &quot;Ja&quot;, zodat een voorbeeld getoond wordt aan de gebruiker voordat deze zijn post toevoegt. Terwijl dit voorbeeld getoond wordt, kan de post nog bewerkt of terugnemen. |,
-		lastUpdated => 1147704252
+		message => q|Selecteer &quot;Ja&quot;, zodat een voorbeeld getoond wordt aan de gebruiker voordat deze zijn post toevoegt. Terwijl dit voorbeeld getoond wordt, kan de post nog bewerkt of teruggenomen worden. |,
+		lastUpdated => 1207824267
 	},
 
 	'approval workflow description' => {
@@ -801,8 +801,8 @@ Nadat u deze instelling wijzigt worden niet alle  bestaande foto's opnieuw verkl
 	},
 
 	'lastReply.userProfile.url' => {
-		message => q|<div class="&quot;&quot;helpIndent&quot;&quot;"><p>The URL to the Profile of the User who submitted this Post.</p></div>|,
-		lastUpdated => 1150100206
+		message => q|<div class="&quot;&quot;&quot;helpIndent&quot;&quot;&quot;"><p>The URL to the Profile of the User who submitted this Post.</p></div>|,
+		lastUpdated => 1207833386
 	},
 
 	'status.label' => {
@@ -931,8 +931,8 @@ Nadat u deze instelling wijzigt worden niet alle  bestaande foto's opnieuw verkl
 	},
 
 	'isFourth' => {
-		message => q|<div class="&quot;&quot;helpIndent&quot;&quot;"><p>Een voorwaarde die aangeeft of deze post de vierde is in deze callaborate asset.</p></div>|,
-		lastUpdated => 1150100000
+		message => q|<div class="&quot;&quot;&quot;helpIndent&quot;&quot;&quot;"><p>Een voorwaarde die aangeeft of deze post de vierde is in deze collaboratie asset.</p></div>|,
+		lastUpdated => 1207832541
 	},
 
 	'edit stamp' => {
@@ -990,9 +990,14 @@ Nadat u deze instelling wijzigt worden niet alle  bestaande foto's opnieuw verkl
 		lastUpdated => 1147704727
 	},
 
+	'group to edit hoverhelp' => {
+		message => q|De groep die posts mag wijzigen.|,
+		lastUpdated => 1207294838
+	},
+
 	'sortby.karmaRank.url' => {
-		message => q|<p>Een URL waar de lijst met posts gesorteerd en getoond kan worden op volgorde van de hoeveelheid karma die gebruikers aan de draad hebben toegevoegd.</p>|,
-		lastUpdated => 1150101339
+		message => q|<p>Een URL waar de lijst met posts gesorteerd getoond kan worden op volgorde van de hoeveelheid karma die gebruikers aan de draad hebben toegevoegd.</p>|,
+		lastUpdated => 1207833843
 	},
 
 	'rss template' => {
@@ -1016,8 +1021,8 @@ Nadat u deze instelling wijzigt worden niet alle  bestaande foto's opnieuw verkl
 	},
 
 	'sortby.rating.url' => {
-		message => q|<p>Een URL waar de lijst met posts op hun waardering gesorteerd en getoond kunnen worden.    </p>|,
-		lastUpdated => 1150101514
+		message => q|<p>Een URL waar de lijst met posts op hun waardering gesorteerd getoond kunnen worden.    </p>|,
+		lastUpdated => 1207833875
 	},
 
 	'collab link' => {
@@ -1041,8 +1046,8 @@ Nadat u deze instelling wijzigt worden niet alle  bestaande foto's opnieuw verkl
 	},
 
 	'isThird' => {
-		message => q|<div class="&quot;&quot;helpIndent&quot;&quot;"><p>Een voorwaarde die aangeeft of deze post de derde is in deze callaborate asset.</p></div>|,
-		lastUpdated => 1150099983
+		message => q|<div class="&quot;&quot;&quot;helpIndent&quot;&quot;&quot;"><p>Een voorwaarde die aangeeft of deze post de derde is in deze collaboratie asset.</p></div>|,
+		lastUpdated => 1207832564
 	},
 
 	'mail address' => {
@@ -1056,8 +1061,8 @@ Nadat u deze instelling wijzigt worden niet alle  bestaande foto's opnieuw verkl
 	},
 
 	'require subscription for email posting help' => {
-		message => q|Als dit op &quot;Ja &quot; staat, is de gebruiker niet enkel&nbsp; verplicht in de groep te zitten, maar moet ook bij het collavoratie systeem of de draad ingeschreven staan om erin te kunnen posten. |,
-		lastUpdated => 1147959841
+		message => q|Als dit op &quot;Ja &quot; staat, is de gebruiker niet enkel&nbsp; verplicht in de groep te zitten, maar moet ook bij het collaboratie systeem of de draad ingeschreven staan om erin te kunnen posten. |,
+		lastUpdated => 1207825062
 	},
 
 	'require subscription for email posting' => {
@@ -1111,8 +1116,8 @@ Nadat u deze instelling wijzigt worden niet alle  bestaande foto's opnieuw verkl
 	},
 
 	'default karma scale help' => {
-		message => q|Dit is de standaard waarde die toegekend wordt aan het karmaschaal-veld in draden. Karmaschaal is een afweegmechanisme waarmee karma gesorteerd kan worden, zodat het gebruikt kan worden voor hadicaps en moeilijkheidsgraden e.d..  |,
-		lastUpdated => 1147957267
+		message => q|Dit is de standaard waarde die toegekend wordt aan het karmaschaal-veld in draden. Karmaschaal is een afweegmechanisme waarmee karma gesorteerd kan worden, zodat het gebruikt kan worden voor handicaps en moeilijkheidsgraden e.d..  |,
+		lastUpdated => 1207916801
 	},
 
 	'visitorName.label' => {
@@ -1141,8 +1146,8 @@ Nadat u deze instelling wijzigt worden niet alle  bestaande foto's opnieuw verkl
 	},
 
 	'sortby.replies.url' => {
-		message => q|<p>Een URL waar de lijst met posts op het aantal reacties gesorteerd en getoond kunnen worden.    </p>|,
-		lastUpdated => 1150101492
+		message => q|<p>Een URL waar de lijst met posts op het aantal reacties gesorteerd getoond kunnen worden.    </p>|,
+		lastUpdated => 1207833934
 	},
 
 	'answer' => {
@@ -1176,8 +1181,8 @@ Nadat u deze instelling wijzigt worden niet alle  bestaande foto's opnieuw verkl
 	},
 
 	'user.isSubscribed' => {
-		message => q|<p>Een conditionele functie die waar is als de huidige gebruiker in geschreven is bij deze collaboratie asset. </p>|,
-		lastUpdated => 1150101172
+		message => q|<p>Een conditionele functie die waar is als de huidige gebruiker ingeschreven is bij deze collaboratie asset. </p>|,
+		lastUpdated => 1207833470
 	},
 
 	'sequence' => {
@@ -1196,8 +1201,8 @@ Nadat u deze instelling wijzigt worden niet alle  bestaande foto's opnieuw verkl
 	},
 
 	'next.label' => {
-		message => q|Het voord &quot;Volgende&quot;.|,
-		lastUpdated => 1150723397
+		message => q|Het woord &quot;Volgende&quot;.|,
+		lastUpdated => 1207901580
 	},
 
 	'collaboration rss template title' => {
@@ -1261,8 +1266,8 @@ Nadat u deze instelling wijzigt worden niet alle  bestaande foto's opnieuw verkl
 	},
 
 	'isFifth' => {
-		message => q|<div class="&quot;&quot;helpIndent&quot;&quot;"><p>Een voorwaarde die aangeeft of deze post de vijde is in deze callaborate asset.</p></div>|,
-		lastUpdated => 1150100020
+		message => q|<div class="&quot;&quot;&quot;helpIndent&quot;&quot;&quot;"><p>Een voorwaarde die aangeeft of deze post de vijde is in deze collaboratie asset.</p></div>|,
+		lastUpdated => 1207832529
 	},
 
 	'enable avatars' => {
@@ -1301,8 +1306,8 @@ Nadat u deze instelling wijzigt worden niet alle  bestaande foto's opnieuw verkl
 	},
 
 	'sortby.lastreply.url' => {
-		message => q|<p>Een URL waar de lijst met posts op de datum waarop ze het laatst zijn vernieuwd gesorteerd en getoond kunnen worden.</p>|,
-		lastUpdated => 1150101438
+		message => q|<p>Een URL waar de lijst met posts op de datum waarop ze het laatst zijn vernieuwd gesorteerd getoond kunnen worden.</p>|,
+		lastUpdated => 1207833909
 	},
 
 	'search.label' => {
@@ -1341,8 +1346,8 @@ Nadat u deze instelling wijzigt worden niet alle  bestaande foto's opnieuw verkl
 	},
 
 	'subscribe.url' => {
-		message => q|<p>Een URL die de huidige gebruiker kan inschrijven aan deze collaboratie asset. De gebruiker wordt op de hoogte gehouden van nieuwe inhoud in de asset. </p>|,
-		lastUpdated => 1150101266
+		message => q|<p>Een URL die de huidige gebruiker kan inschrijven bij deze collaboratie asset. De gebruiker wordt op de hoogte gehouden van nieuwe inhoud in de asset. </p>|,
+		lastUpdated => 1207833578
 	},
 
 	'layout.flat.label' => {
@@ -1458,8 +1463,13 @@ Gebruik van avatars vermindert de snelheid van het collaboratiesysteem.|,
 	},
 
 	'lastBuildDate' => {
-		message => q|<p>De datum waarop deze toever het laatst is vernieuwd (optioneel veld). </p>|,
-		lastUpdated => 1150100637
+		message => q|<p>De datum waarop deze toevoer het laatst is vernieuwd (optioneel veld). </p>|,
+		lastUpdated => 1207901865
+	},
+
+	'group to edit label' => {
+		message => q|Wijzig posts groep|,
+		lastUpdated => 1207294876
 	},
 
 	'search template' => {
@@ -1508,8 +1518,8 @@ Gebruik van avatars vermindert de snelheid van het collaboratiesysteem.|,
 	},
 
 	'tmplVar thumbnail' => {
-		message => q|Als deze postbijlages heeft, is dit de URL van het miniatuur van de eerst bijlage die een afbeelding is. |,
-		lastUpdated => 1150102420
+		message => q|Als deze post bijlages heeft, is dit de URL van het miniatuur van de eerst bijlage die een afbeelding is. |,
+		lastUpdated => 1207832139
 	},
 
 	'query.form' => {
@@ -1543,8 +1553,8 @@ Gebruik van avatars vermindert de snelheid van het collaboratiesysteem.|,
 	},
 
 	'lastReply.username' => {
-		message => q|<div class="&quot;&quot;helpIndent&quot;&quot;"><p>De naam van de gebruiker die het laatste antwoord heeft gegeten.</p></div>|,
-		lastUpdated => 1150100187
+		message => q|<div class="&quot;&quot;&quot;helpIndent&quot;&quot;&quot;"><p>De naam van de gebruiker die het laatste antwoord heeft gegeven.</p></div>|,
+		lastUpdated => 1207833354
 	},
 
 	'nested' => {

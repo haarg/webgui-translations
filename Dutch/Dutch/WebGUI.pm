@@ -374,8 +374,8 @@ Als er een server voor het verzenden van email op dezelfde machine staat als de 
 	},
 
 	'142 description' => {
-		message => q|De hoeveelheid tijd die een sessie van een gebruiker actief blijft (voordat deze weer opnieuw moet inloggen). Deze timeout wordt op nul gezet, iederekeer dat een gebruiker een pagina opvraagd. Als de timeout bijvoorbeeld op 8 uur staat, moet een gebruiker weer inloggen als deze de site 8 uur lang niet bezocht heeft. |,
-		lastUpdated => 1155886832
+		message => q|De hoeveelheid tijd die een sessie van een gebruiker actief blijft (voordat deze weer opnieuw moet inloggen). Deze timeout wordt op nul gezet, iedere keer dat een gebruiker een pagina opvraagt. Als de timeout bijvoorbeeld op 8 uur staat, moet een gebruiker weer inloggen als deze de site 8 uur lang niet bezocht heeft. |,
+		lastUpdated => 1207820955
 	},
 
 	'993' => {
@@ -411,6 +411,11 @@ Als er een server voor het verzenden van email op dezelfde machine staat als de 
 	'486' => {
 		message => q|Lijst|,
 		lastUpdated => 1154077001
+	},
+
+	'SubscriptionGroup formName' => {
+		message => q|Inschrijvingsgroep|,
+		lastUpdated => 1208183481
 	},
 
 	'160' => {
@@ -684,13 +689,13 @@ Als er een server voor het verzenden van email op dezelfde machine staat als de 
 	},
 
 	'707 description' => {
-		message => q|Laat de debug informatie zien in de uitvoer van WebGUI. Dit is voornamelijk nuttig voor WebGUI ontwikkerlaars, maar kan ook interessant zijn voor beheerders die eenprobleem moeten oplossen.|,
-		lastUpdated => 1154093964
+		message => q|Laat de debug informatie zien in de uitvoer van WebGUI. Dit is voornamelijk nuttig voor WebGUI ontwikkelaars, maar kan ook interessant zijn voor beheerders die een probleem moeten oplossen.|,
+		lastUpdated => 1207820856
 	},
 
 	'settings groupIdAdminUser hoverHelp' => {
-		message => q|Group die gebruikers kan beheren. Deze kan gebruikers toevoegen en wijzigen.|,
-		lastUpdated => 1190022696
+		message => q|Groep die gebruikers kan beheren. Deze kan gebruikers toevoegen en wijzigen.|,
+		lastUpdated => 1207823868
 	},
 
 	'private message next label' => {
@@ -759,8 +764,8 @@ Als er een server voor het verzenden van email op dezelfde machine staat als de 
 	},
 
 	'965' => {
-		message => q|Systeem prullenmand|,
-		lastUpdated => 1156171513
+		message => q|Gemeenschappelijke prullenmand|,
+		lastUpdated => 1208183973
 	},
 
 	'824' => {
@@ -957,8 +962,8 @@ Deze groep zou dan "Werknemers in HMO 1" genoemd kunnen worden en zou je de moge
 	},
 
 	'trash workflow help' => {
-		message => q|Welke workflow (werkschema) gestart wordt wanneer een asset naar de prullebak wordt verplaatst.|,
-		lastUpdated => 1166637218
+		message => q|Welke workflow (werkschema) gestart wordt wanneer een asset naar de prullenbak wordt verplaatst.|,
+		lastUpdated => 1207817381
 	},
 
 	'permissions' => {
@@ -1097,8 +1102,8 @@ Deze groep zou dan "Werknemers in HMO 1" genoemd kunnen worden en zou je de moge
 	},
 
 	'868' => {
-		message => q|Welkomstbericht sturen?|,
-		lastUpdated => 1154096839
+		message => q|Welkomsbericht sturen?|,
+		lastUpdated => 1207821256
 	},
 
 	'color' => {
@@ -1159,6 +1164,11 @@ Deze groep zou dan "Werknemers in HMO 1" genoemd kunnen worden en zou je de moge
 	'432' => {
 		message => q|Verloopt|,
 		lastUpdated => 1154076147
+	},
+
+	'Attachments formName' => {
+		message => q|Bijlagen|,
+		lastUpdated => 1208183457
 	},
 
 	'860' => {
@@ -1336,6 +1346,11 @@ Deze groep zou dan "Werknemers in HMO 1" genoemd kunnen worden en zou je de moge
 		lastUpdated => 1153752084
 	},
 
+	'SelectRichEditor formName' => {
+		message => q|Rich editor|,
+		lastUpdated => 1208183466
+	},
+
 	'default rich editor' => {
 		message => q|Standaard rich editor|,
 		lastUpdated => 1156170382
@@ -1347,8 +1362,8 @@ Deze groep zou dan "Werknemers in HMO 1" genoemd kunnen worden en zou je de moge
 	},
 
 	'default rich editor description' => {
-		message => q|Dit is de configuratie van de rich editor, diestandaard voor de rich editor gebruikt wordt. In bepaalde toepassingen zoals het collaboratie systeem overschreven worden.|,
-		lastUpdated => 1156170366
+		message => q|Dit is de configuratie van de rich editor, die standaard voor de rich editor gebruikt wordt. In bepaalde toepassingen zoals het collaboratie systeem overschreven worden.|,
+		lastUpdated => 1207820758
 	},
 
 	'977' => {
@@ -1387,8 +1402,8 @@ Deze groep zou dan "Werknemers in HMO 1" genoemd kunnen worden en zou je de moge
 	},
 
 	'869' => {
-		message => q|Welkomstbericht|,
-		lastUpdated => 1154096878
+		message => q|Welkomsbericht|,
+		lastUpdated => 1207821273
 	},
 
 	'help contents' => {
@@ -1537,8 +1552,8 @@ Deze groep zou dan "Werknemers in HMO 1" genoemd kunnen worden en zou je de moge
 	},
 
 	'885 description' => {
-		message => q|Is het gewenst dat gebruikers de middelen hebben waarmee ze hunb account kunnen deactiveren zonder uw tussenkomst?|,
-		lastUpdated => 1154097066
+		message => q|Is het gewenst dat gebruikers de middelen hebben waarmee ze hun account kunnen deactiveren zonder uw tussenkomst?|,
+		lastUpdated => 1207821240
 	},
 
 	'radio' => {
@@ -1891,8 +1906,8 @@ Afhankelijk van welke authenticatie modules geïnstalleerd zijn in het systeem, 
 	},
 
 	'trash' => {
-		message => q|Prullenbak|,
-		lastUpdated => 1154097627
+		message => q|Mijn prullenbak|,
+		lastUpdated => 1208183494
 	},
 
 	'manage cache' => {
@@ -2199,8 +2214,8 @@ LongTruncOk=1|,
 	},
 
 	'945 description' => {
-		message => q|<p>Een gebruiker kan dynamisch aan een groep verbonden zijn door een aanvul variabele in de sessie. Deze aanvul variabele kunnen ingeprogrammeerd worden of via het web worden toegevoegd. Zet het volgende aan het einde van het gewenste URL om deze variabele via het web in te stellen:</p><p><em>?op=setScratch&amp;scratchName=naam&amp;scratchValue=waarde</em></p><p>Als dit gebeurt is kan een gebruiker op de link klikken, zodat deze aanvul variabele aan hun sessie wordt toegevoegd. Deze heeft de naam www_naam en een waarde &quot;waarde&quot;. Het www_ wordt voorgevoegd om te voorkomen dat web verzoekende aanvul variabelen die ingeprogrammeerd zijn overschrijven.</p><p>Het instellen van een aanvul filter kan gedaan worden door een regel toe te voegen aan het aanvul filter veld dat er als volgt uitziet:</p><p><em>www_naam=waarde</em></p><p>Meer filters kunnen worden ingesteld door meer naan-waarde combinaties toe te voegen die van de andere paren gescheiden worden door een punt komma.</p><p><em>www_naam=waarde;anderenaam=anderewaarde</em> <br /></p>|,
-		lastUpdated => 1156492755
+		message => q|<p>Een gebruiker kan dynamisch aan een groep verbonden zijn door een aanvul variabele in de sessie. Deze aanvul variabele kunnen ingeprogrammeerd worden of via het web worden toegevoegd. Zet het volgende aan het einde van het gewenste URL om deze variabele via het web in te stellen:</p><p><em>?op=setScratch&amp;scratchName=naam&amp;scratchValue=waarde</em></p><p>Als dit gebeurt is kan een gebruiker op de link klikken, zodat deze aanvul variabele aan hun sessie wordt toegevoegd. Deze heeft de naam www_naam en een waarde &quot;waarde&quot;. Het www_ wordt voorgevoegd om te voorkomen dat web verzoekende aanvul variabelen die ingeprogrammeerd zijn overschrijven.</p><p>Het instellen van een aanvul filter kan gedaan worden door een regel toe te voegen aan het aanvul filter veld dat er als volgt uitziet:</p><p><em>www_naam=waarde</em></p><p>Meer filters kunnen worden ingesteld door meer naam-waarde combinaties toe te voegen die van de andere paren gescheiden worden door een punt komma.</p><p><em>www_naam=waarde;anderenaam=anderewaarde</em> </p>|,
+		lastUpdated => 1207819561
 	},
 
 	'971' => {
@@ -2464,8 +2479,8 @@ LongTruncOk=1|,
 	},
 
 	'126 description' => {
-		message => q|Een algemeen amail adres van het bedrijf. Dit is het adres waar alle automatisch verzonden emails vandaan komen. Het kan ook gebruikt worden via het stijl macro voor email adres bedrijf.|,
-		lastUpdated => 1153751433
+		message => q|Een algemeen email adres van het bedrijf. Dit is het adres waar alle automatisch verzonden emails vandaan komen. Het kan ook gebruikt worden via het stijl macro voor email adres bedrijf.|,
+		lastUpdated => 1207820390
 	},
 
 	'991 description' => {
@@ -2711,8 +2726,8 @@ De verstrekte informatie is niet gelijk aan de accountinformatie. |,
 	},
 
 	'583 description' => {
-		message => q|Wanneer afbeeldingen worden ingeladen die groter zijn dan de maximum grootte afbeelding, worden deze herschaald naar de maximum grootte. De groottewordt gemeten in pixels en gebruikt de langste zijde van de afbeelding voor de bepaling of de afbeelding te groot is.|,
-		lastUpdated => 1154091416
+		message => q|Wanneer afbeeldingen worden ingeladen die groter zijn dan de maximum grootte afbeelding, worden deze herschaald naar de maximum grootte. De grootte wordt gemeten in pixels en gebruikt de langste zijde van de afbeelding voor de bepaling of de afbeelding te groot is.|,
+		lastUpdated => 1207820661
 	},
 
 	'127 description' => {
@@ -2921,8 +2936,8 @@ De verstrekte informatie is niet gelijk aan de accountinformatie. |,
 	},
 
 	'url extension description' => {
-		message => q|<p>Voeg een extentie zoals html, php of asp toe aan het URL van een pagina wanneer dezegemaakt wordt.</p><p><strong>N.B.:</strong> Zet hier geen punt bij. Het veld moet als volgt ingevuld worden : &quot;html&quot; en NIET &quot;.html&quot;. <br /></p>|,
-		lastUpdated => 1155908424
+		message => q|<p>Voeg een extentie zoals html, php of asp toe aan het URL van een pagina wanneer deze gemaakt wordt.</p><p><strong>N.B.:</strong> Zet hier geen punt bij. Het veld moet als volgt ingevuld worden : &quot;html&quot; en NIET &quot;.html&quot;. </p>|,
+		lastUpdated => 1207820583
 	},
 
 	'pagination.previousPage' => {
@@ -3028,8 +3043,8 @@ De verstrekte informatie is niet gelijk aan de accountinformatie. |,
 	},
 
 	'975 description' => {
-		message => q|Het het gewenst dat gebruikers zichzelf van deze groep kunnen verwijderen? Zie het GroupDelete macro voor meer informatie.|,
-		lastUpdated => 1156498437
+		message => q|Is het gewenst dat gebruikers zichzelf van deze groep kunnen verwijderen? Zie het GroupDelete macro voor meer informatie.|,
+		lastUpdated => 1207819756
 	},
 
 	'823' => {
@@ -3238,8 +3253,8 @@ De verstrekte informatie is niet gelijk aan de accountinformatie. |,
 	},
 
 	'settings groupIdAdminVersionTag hoverHelp' => {
-		message => q|Group die versies kan beheren|,
-		lastUpdated => 1190022602
+		message => q|Groep die versies kan beheren|,
+		lastUpdated => 1207823796
 	},
 
 	'hidden' => {
@@ -3373,28 +3388,8 @@ De verstrekte informatie is niet gelijk aan de accountinformatie. |,
 	},
 
 	'958' => {
-		message => q|<p>Het klembord is een aparte lokatie in het systeem, waar inhoud (objecten/assets) tijdelijk bewaard wordt nadat ze zijn geknipt of gekopiëerd. De objecten op het klembord kunnen dan geplakt worden op een nieuwe lokatie.</p>
-
-<p>De objecten op het klembord kunnen individueel beheerd worden. Door het selecteren van het bijbehorende ikoon kan een object verwijderd of geplakt worden. Ook kan de totale inhoud van het klembord naar de prullenmand verplaatst worden door het Leeg klembord optie te kiezen in het menu.</p>
-
-<p>Het klembord bevat alleen objecten die je er zelf hebt gezet in de versie waarin je op dat moment werkt.</p>
-
-<p>Wanneer je Admin bent, kun je het systeemklembord zien. Het systeemklembord bevat alle objecten van elke gebruiker in versies die doorgevoerd zijn of die in de versie zitten waarin je zelf op dat moment werkt.</p>
-
-<p><strong>Titel</strong></p>
-<p>De naam van het object in het klembord. Het item kan bekeken worden door de titel te selecteren. </p>
-
-<p><strong>Type</strong></p>
-<p>Het type inhoud, bijvoorbeeld een pagina, artikel, evenementenkalender enz.</p>
-
-<p><strong>Klembord datum</strong></p>
-<p>De datum en tijd waarop het object in het klembord is gezet.</p>
-
-<p><strong>Vorige lokatie</strong></p>
-<p>De lokatie waar het object hiervoor gevonden kon worden. De vorige lokatie kan bekeken worden door het selecteren van de lokatie.</p>
-
-<p><strong>Gebruikersnaam</strong></p><p>De gebruikersnaam van de persoon die het object in het klembord heeft geplaatst. Dit optionele veld is alleen zichtbaar in de gedeelde klembord omgeving of als een beheerder het systeem klembord gebruikt.</p>|,
-		lastUpdated => 1181336390
+		message => q|<p>Het klembord is een aparte lokatie in het systeem, waar inhoud (objecten/assets) tijdelijk bewaard wordt nadat ze zijn geknipt of gekopi&euml;erd. De objecten op het klembord kunnen dan geplakt worden op een nieuwe lokatie.</p>  <p>De objecten op het klembord kunnen individueel beheerd worden. Door het selecteren van het bijbehorende icoon kan een object verwijderd of geplakt worden. Ook kan de totale inhoud van het klembord naar de prullenmand verplaatst worden door het Leeg klembord optie te kiezen in het menu.</p>  <p>Het klembord bevat alleen objecten die je er zelf hebt gezet in de versie waarin je op dat moment werkt.</p>  <p>Wanneer je Admin bent, kun je het systeemklembord zien. Het systeemklembord bevat alle objecten van elke gebruiker in versies die doorgevoerd zijn of die in de versie zitten waarin je zelf op dat moment werkt.</p>  <p><strong>Titel</strong></p> <p>De naam van het object in het klembord. Het item kan bekeken worden door de titel te selecteren. </p>  <p><strong>Type</strong></p> <p>Het type inhoud, bijvoorbeeld een pagina, artikel, evenementenkalender enz.</p>  <p><strong>Klembord datum</strong></p> <p>De datum en tijd waarop het object in het klembord is gezet.</p>  <p><strong>Vorige lokatie</strong></p> <p>De lokatie waar het object hiervoor gevonden kon worden. De vorige lokatie kan bekeken worden door het selecteren van de lokatie.</p>  <p><strong>Gebruikersnaam</strong></p><p>De gebruikersnaam van de persoon die het object in het klembord heeft geplaatst. Dit optionele veld is alleen zichtbaar in de gedeelde klembord omgeving of als een beheerder het systeem klembord gebruikt.</p>|,
+		lastUpdated => 1207839824
 	},
 
 	'419' => {

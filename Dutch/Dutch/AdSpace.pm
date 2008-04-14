@@ -143,7 +143,7 @@ our $I18N = {
 
 	'add ad space body' => {
 		message => q|Dit scherm geeft een lijst weer met alle aangemaakte advertentieruimtes in WebGUI. De iconen naast iedere advertentieruimte kunnen worden gebruikt om een advertentieruimtes te bewerken of verwijderen. Het scherm bevat ook een link om nieuwe advertentieruimtes toe te voegen. |,
-		lastUpdated => 1201434489
+		lastUpdated => 1207839996
 	},
 
 	'width' => {
@@ -162,8 +162,8 @@ our $I18N = {
 	},
 
 	'is active help' => {
-		message => q|Moet deze advertentie meegnomen worden in de roulatie?|,
-		lastUpdated => 1201435571
+		message => q|Moet deze advertentie meegenomen worden in de roulatie?|,
+		lastUpdated => 1207915377
 	},
 
 	'confirm ad space delete' => {

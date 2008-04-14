@@ -316,6 +316,11 @@ our $I18N = {
 		lastUpdated => 1206449994
 	},
 
+	'other thing missing message' => {
+		message => q|De Thing waar dit veld naar verwijst bestaat niet of heeft geen tabel.|,
+		lastUpdated => 1208183269
+	},
+
 	'search description description' => {
 		message => q|Omschrijving van het zoek scherm|,
 		lastUpdated => 1206448075
@@ -704,11 +709,6 @@ our $I18N = {
 	'view thingy default label' => {
 		message => q|Standaard Thingy|,
 		lastUpdated => 1206449478
-	},
-
-	'search in label' => {
-		message => q|Zoeken in|,
-		lastUpdated => 1206450402
 	},
 
 	'field_isVisible' => {

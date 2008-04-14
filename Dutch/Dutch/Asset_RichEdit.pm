@@ -41,6 +41,11 @@ our $I18N = {
 		lastUpdated => 1203625539
 	},
 
+	'inline popups' => {
+		message => q|Inline popups|,
+		lastUpdated => 1207294895
+	},
+
 	'code' => {
 		message => q|Bron Weergeven/Bewerken|,
 		lastUpdated => 1203625664
@@ -281,6 +286,11 @@ our $I18N = {
 		lastUpdated => 1204037323
 	},
 
+	'media' => {
+		message => q|Embedded Media / Flash|,
+		lastUpdated => 1207294964
+	},
+
 	'row 1' => {
 		message => q|Rij 1|,
 		lastUpdated => 1204037492
@@ -311,11 +321,6 @@ our $I18N = {
 		lastUpdated => 1204036573
 	},
 
-	'flash' => {
-		message => q|Flash film|,
-		lastUpdated => 1204035526
-	},
-
 	'source editor height' => {
 		message => q|Hoogte code editor|,
 		lastUpdated => 1204037445
@@ -324,6 +329,11 @@ our $I18N = {
 	'justifyfull' => {
 		message => q|Volledig uitgelijnd|,
 		lastUpdated => 1204035973
+	},
+
+	'inline popups description' => {
+		message => q|Deze instelling laat popups inline zien, dat wil zeggen dat er geen popup van de browser wordt getoond die eventueel kan worden geblokkeerd door een popup-blocker.|,
+		lastUpdated => 1207294944
 	},
 
 	'outdent' => {
@@ -348,7 +358,7 @@ our $I18N = {
 
 	'no dictionaries' => {
 		message => q|Er zijn nog geen woordenboeken ingesteld. Spellingscontrole kan niet worden aangezet voordat er minimaal 1 woordenboek is ingesteld.|,
-		lastUpdated => 1204036182
+		lastUpdated => 1207829495
 	},
 
 	'hr' => {
@@ -464,11 +474,6 @@ our $I18N = {
 	'emotions' => {
 		message => q|Smileys|,
 		lastUpdated => 1204037031
-	},
-
-	'zoom' => {
-		message => q|Vergroten (alleen IE)|,
-		lastUpdated => 1204031489
 	},
 
 	'toolbar location description' => {

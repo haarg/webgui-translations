@@ -267,8 +267,8 @@ our $I18N = {
 	},
 
 	'checkout canceled template description' => {
-		message => q|Dit is het sjabloon dat de gebruiker ziet als hij de transactie annuleert. Dit gebeurt normaal gesproken alleen met &#39;remote-side&#39; betaalmethoden zoals PayPal. Dit komt omdat eenn &#39;site-side&#39; betaal-methode normaal gesproken een enkelvoudig proces is. |,
-		lastUpdated => 1153843565
+		message => q|Dit is het sjabloon dat de gebruiker ziet als hij de transactie annuleert. Dit gebeurt normaal gesproken alleen met 'remote-side' betaalmethoden zoals PayPal. Dit komt omdat een 'site-side' betaal-methode normaal gesproken een enkelvoudig proces is. |,
+		lastUpdated => 1207819946
 	},
 
 	'pluginsAvailable' => {

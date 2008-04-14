@@ -27,8 +27,8 @@ our $I18N = {
 	},
 
 	'toggle.text' => {
-		message => q|Het labelvoor het aan of uitzetten van de Beheermodus (afhankelijk van de huidige toestand van het macro, of de tekst die meegegeven aan het macro. |,
-		lastUpdated => 1152536932
+		message => q|Het label voor het aan of uitzetten van de Beheermodus (afhankelijk van de huidige toestand van het macro, of de tekst die meegegeven is aan het macro). |,
+		lastUpdated => 1207830395
 	},
 
 };

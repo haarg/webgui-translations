@@ -232,8 +232,8 @@ our $I18N = {
 	},
 
 	'edit branch url help' => {
-		message => q|<p>De opgebouwde url staat uit twee gedeeltes. Voor het eerste gedeelte zijn er drie opties:</p><p>Bovenliggende url<br />&nbsp;&nbsp;&nbsp;&nbsp; begin de url met de url van de bovenliggende asset</p><p>Gespecificeerde url<br />&nbsp;&nbsp;&nbsp; Vul een zelf gespecifeerde url in om de url van de asset mee te beginnen</p><p>Geen<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Indien u kiest voor &quot;none&quot; dan wordt de url alleen opgebouwd uit het tweede gedeelte. De url komt dan &nbsp;&nbsp;&nbsp; &nbsp; gelijk achter de domeinnaam.</p><p>&nbsp;</p><p>Er zijn ook drie opties voor het tweede gedeelte:</p><p>Menutitel<br />&nbsp;&nbsp;&nbsp; De url wordt gebaseerd op de menutitel.</p><p>Titel<br />&nbsp;&nbsp;&nbsp; De url wordt gebaseerd op de titel.</p><p>Huidige url<br />&nbsp;&nbsp;&nbsp;&nbsp; De url wordt gebaseerd op de huidige url.</p><p>Alle url&#39;s worden automatisch aangepast om leestekens die problemen kunnen geven in een url te vervangen. </p>|,
-		lastUpdated => 1148990694
+		message => q|<p>De opgebouwde url bestaat uit twee gedeeltes. Voor het eerste gedeelte zijn er drie opties:</p><p>Bovenliggende url<br />&nbsp;&nbsp;&nbsp;&nbsp; begin de url met de url van de bovenliggende asset</p><p>Gespecificeerde url<br />&nbsp;&nbsp;&nbsp; Vul een zelf gespecifeerde url in om de url van de asset mee te beginnen</p><p>Geen<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Indien u kiest voor &quot;none&quot; dan wordt de url alleen opgebouwd uit het tweede gedeelte. De url komt dan &nbsp;&nbsp;&nbsp; &nbsp; gelijk achter de domeinnaam.</p><p>&nbsp;</p><p>Er zijn ook drie opties voor het tweede gedeelte:</p><p>Menutitel<br />&nbsp;&nbsp;&nbsp; De url wordt gebaseerd op de menutitel.</p><p>Titel<br />&nbsp;&nbsp;&nbsp; De url wordt gebaseerd op de titel.</p><p>Huidige url<br />&nbsp;&nbsp;&nbsp;&nbsp; De url wordt gebaseerd op de huidige url.</p><p>Alle url's worden automatisch aangepast om leestekens die problemen kunnen geven in een url te vervangen. </p>|,
+		lastUpdated => 1207915565
 	},
 
 	'asset id description' => {
@@ -537,8 +537,8 @@ our $I18N = {
 	},
 
 	'Page Export Status' => {
-		message => q|Page Export Status|,
-		lastUpdated => 1146581610
+		message => q|Pagina Export Status|,
+		lastUpdated => 1207915501
 	},
 
 	'could not unlink' => {
@@ -617,8 +617,8 @@ our $I18N = {
 	},
 
 	'over max assets' => {
-		message => q|De Administrator heeft het aantal te plaatsen Assets gelimiteerd. Dit limiet is overschreden. Om toch Assets te kunnen toevoegen dienen oudere Assets te worden verwijderd.|,
-		lastUpdated => 1146832652
+		message => q|De Administrator heeft het aantal te plaatsen Assets gelimiteerd. Deze limiet is overschreden. Om toch Assets te kunnen toevoegen dienen oudere Assets te worden verwijderd.|,
+		lastUpdated => 1207915712
 	},
 
 	'manage' => {
@@ -652,8 +652,8 @@ our $I18N = {
 	},
 
 	'make prototype description' => {
-		message => q|<p>Als u Assets standaard op een bepaalde manier wilt instellen dan zijn prototypes erg handig. Door een Asset als prototype te activeren verschijnt deze in het menu bij de beschikbare Assets. De asset onhoud dan de instellingen, zoals de gekozen template. </p><p>Voor de naam van de Asset in de Assetslijst wordt de Titel gebruikt. Als de titel hetzelfde is als de originele naam, bijvoorbeeld Artikel, dan wordt de originele asset hierdoor vervangen. </p>|,
-		lastUpdated => 1146833989
+		message => q|<p>Als u Assets standaard op een bepaalde manier wilt instellen dan zijn prototypes erg handig. Door een Asset als prototype te activeren verschijnt deze in het menu bij de beschikbare Assets. De asset onthoudt dan de instellingen, zoals de gekozen template. </p><p>Voor de naam van de Asset in de Assetslijst wordt de Titel gebruikt. Als de titel hetzelfde is als de originele naam, bijvoorbeeld Artikel, dan wordt de originele asset hierdoor vervangen. </p>|,
+		lastUpdated => 1207915661
 	},
 
 	'rootUrl form option none' => {
@@ -697,8 +697,8 @@ our $I18N = {
 	},
 
 	'940 description' => {
-		message => q|Klik op "Ja" als u de asset in een nieuw venster wil openen. Hou er dan wel rekening mee dat het mogelijk is dat dit niet werkt in sommige navigatiemenu's, als de gebruiker het gebruik van Javascript uit heeft staan of als de gebruiker een popup blocker geïnstalleerd heeft. Gebruik deze functie zorgvuldig.|,
-		lastUpdated => 1146580612
+		message => q|Klik op &quot;Ja&quot; als u de asset in een nieuw venster wilt openen. Hou er dan wel rekening mee dat het mogelijk is dat dit niet werkt in sommige navigatiemenu's, als de gebruiker het gebruik van Javascript uit heeft staan of als de gebruiker een popup blocker ge&iuml;nstalleerd heeft. Gebruik deze functie zorgvuldig.|,
+		lastUpdated => 1207819061
 	},
 
 	'last updated' => {
@@ -812,8 +812,8 @@ our $I18N = {
 	},
 
 	'ownerUserId' => {
-		message => q|De ID van de gebruiker die eigenaar is van dit asset.|,
-		lastUpdated => 1170686172
+		message => q|De ID van de gebruiker die eigenaar is van deze asset.|,
+		lastUpdated => 1207915759
 	},
 
 	'could not symlink' => {
@@ -942,15 +942,13 @@ our $I18N = {
 	},
 
 	'872 description' => {
-		message => q|Selecteer welke groep dit object mag zien. Om zowel bezoekers als geregistreerde gebruikers het object te laten zien kan 'iedereen' (everybody) gekozen worden. Als dit niet wordt gewijzigd, dan wordt dit standaard ingesteld op de groep die het bovenliggende object mag zien.|,
-		lastUpdated => 1189121457
+		message => q|Selecteer welke groep dit object mag zien. Om zowel bezoekers als geregistreerde gebruikers het object te laten zien kan 'iedereen' (everyone) gekozen worden. Als dit niet wordt gewijzigd, dan wordt dit standaard ingesteld op de groep die het bovenliggende object mag zien.|,
+		lastUpdated => 1207818861
 	},
 
 	'99 description' => {
-		message => q|De titel van het object. Omschrijf het oject met zorg, maar houd het kort. Indien de titel niet wordt ingevuld dan wordt hier "Untitled" ingevuld. Er kunnen geen macro's in de titel worden gebruikt en er kan geen HTML of javascript in gezet worden. 
-
-Opmerking: Het is van belang om altijd de titel op te geven. Zelfs als het template van het asset de titel niet weergeeft. Op verschillende plaatsen in de site, zoals de Verkenner (Asset Manager), het klembord en de prullebak wordt de titel gebruikt om het object te onderscheiden. |,
-		lastUpdated => 1189121697
+		message => q|De titel van het object. Omschrijf het object met zorg, maar houd het kort. Indien de titel niet wordt ingevuld dan wordt hier &quot;Untitled&quot; ingevuld. Er kunnen geen macro's in de titel worden gebruikt en er kan geen HTML of javascript in gezet worden.   Opmerking: Het is van belang om altijd de titel op te geven. Zelfs als het template van het asset de titel niet weergeeft. Op verschillende plaatsen in de site, zoals de Verkenner (Asset Manager), het klembord en de prullenbak wordt de titel gebruikt om het object te onderscheiden. |,
+		lastUpdated => 1207818077
 	},
 
 	'packages' => {

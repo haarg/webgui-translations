@@ -1,6 +1,5 @@
 package WebGUI::i18n::Dutch::Asset_SQLReport;
 
-
 our $I18N = {
 	'dbQuery4' => {
 		message => q|De vierde database zoekopdracht.|,
@@ -27,14 +26,14 @@ our $I18N = {
 		lastUpdated => 1155824614
 	},
 
-	'18' => {
-		message => q|Er waren geen resultaten voor deze query.|,
-		lastUpdated => 1155578365
-	},
-
 	'databaseLinkId4' => {
 		message => q|De ID die beschijft op welke database de vierde zoekopdracht wordt uitgevoerd.|,
 		lastUpdated => 1189372282
+	},
+
+	'18' => {
+		message => q|Er waren geen resultaten voor deze query.|,
+		lastUpdated => 1155578365
 	},
 
 	'72' => {
@@ -92,14 +91,14 @@ our $I18N = {
 		lastUpdated => 1189372430
 	},
 
-	'rows.count.isZero' => {
-		message => q|Een booleaan die aangeeft dat de query nul rijen heeft teruggebracht.|,
-		lastUpdated => 1155829079
-	},
-
 	'10' => {
 		message => q|<strong>Debug</strong>: Fout: De gespecificeerde SQL heeft een verkeerd formaat.|,
 		lastUpdated => 1155562418
+	},
+
+	'rows.count.isZero' => {
+		message => q|Een booleaan die aangeeft dat de query nul rijen heeft teruggebracht.|,
+		lastUpdated => 1155829079
 	},
 
 	'queryN.columns_loop' => {
@@ -143,8 +142,13 @@ our $I18N = {
 	},
 
 	'16 description' => {
-		message => q|Als u debugging- en fout-boodschappen op de pagina wilt weergegeven, controleer deze box.|,
-		lastUpdated => 1155577647
+		message => q|Als u debugging- en fout-boodschappen op de pagina wilt weergeven, controleer deze box.|,
+		lastUpdated => 1207827428
+	},
+
+	'queryN.row.field.__NAME__.value' => {
+		message => q|De gegevens voor een bepaald veld in deze rij waar _NAAM_ de naam van het veld is zoals teruggebracht door de query. |,
+		lastUpdated => 1155823779
 	},
 
 	'columns_loop' => {
@@ -152,9 +156,9 @@ our $I18N = {
 		lastUpdated => 1155811479
 	},
 
-	'queryN.row.field.__NAME__.value' => {
-		message => q|De gegevens voor een bepaald veld in deze rij waar _NAAM_ de naam van het veld is zoals teruggebracht door de query. |,
-		lastUpdated => 1155823779
+	'dbQuery1' => {
+		message => q|De eerste database zoekopdracht.|,
+		lastUpdated => 1189372301
 	},
 
 	'cache timeout description' => {
@@ -165,11 +169,6 @@ our $I18N = {
 	'field.value' => {
 		message => q|De gegevens in dit veld.|,
 		lastUpdated => 1155821072
-	},
-
-	'dbQuery1' => {
-		message => q|De eerste database zoekopdracht.|,
-		lastUpdated => 1189372301
 	},
 
 	'cacheTimeout' => {
@@ -187,14 +186,14 @@ our $I18N = {
 		lastUpdated => 1155564001
 	},
 
-	'column.number' => {
-		message => q|Een integer die begint met 1 en het aantal kolommen door-telt. |,
-		lastUpdated => 1155811454
-	},
-
 	'15' => {
 		message => q|Macro&#39;s op query voorbewerken?|,
 		lastUpdated => 1155572075
+	},
+
+	'column.number' => {
+		message => q|Een integer die begint met 1 en het aantal kolommen door-telt. |,
+		lastUpdated => 1155811454
 	},
 
 	'preprocessMacros5' => {
@@ -242,8 +241,8 @@ De prequery-aanvragen zijn van elkaar gescheiden door enters en kunnen geen will
 	},
 
 	'Placeholder Parameters description' => {
-		message => q|<p>Willekeurige tekens, ook wel parameter-tekens genoemd, worden gebruikt om waarden te indiceren in een SQL-query die later wordt geleverd, alvorens de aanvraag wordt uitgevoered.</p><p>Er zijn vier soorten input:</p> <div> <ul><li><strong>Integer</strong><br />Een eenvoudig getal</li><li><strong>Formulier</strong><br />Formulier-velden beginnen met "form:".</li><li><strong>Query resultaten</strong><br />Query-resultaten beginnen met "query1:" tot "query4:". Query-resultaten worden gegroepeerd met gegevens uit eerder queries. Dus als de tweede query is aangevraagd, kan deze de resultaten gebruiken die terugkomen van query1. Als query5 wordt aangevraagd, kan deze de resultaten gebruiken van queries 1 tot 4.</li><li><strong>String</strong><br />Al het overige is een string</li></ul></div> <p>Voorbeeld:</p> <div class="helpIndent"> <p>Query: kies * van een_tabel waar een_veld = ? en een_ander_veld < ? Willekeurige tekens-parameters: query1:pageIdform:field1</p> </div> <p>In dit voorbeeld bevat het eerste vraagteken de veld-waarde van pageId in query1, terwijl het tweede vraagteken de formulier-variabele "field1" bevat.</p> <p>Plaats een willekeurig teken-parameter op elke lijn.</p>|,
-		lastUpdated => 1166197914
+		message => q|<p>Willekeurige tekens, ook wel parameter-tekens genoemd, worden gebruikt om waarden te indiceren in een SQL-query die later wordt geleverd, alvorens de aanvraag wordt uitgevoerd.</p><p>Er zijn vier soorten input:</p> <div> <ul><li><strong>Integer</strong><br />Een eenvoudig getal</li><li><strong>Formulier</strong><br />Formulier-velden beginnen met &quot;form:&quot;.</li><li><strong>Query resultaten</strong><br />Query-resultaten beginnen met &quot;query1:&quot; tot &quot;query4:&quot;. Query-resultaten worden gegroepeerd met gegevens uit eerdere queries. Dus als de tweede query is aangevraagd, kan deze de resultaten gebruiken die terugkomen van query1. Als query5 wordt aangevraagd, kan deze de resultaten gebruiken van queries 1 tot en met 4.</li><li><strong>String</strong><br />Al het overige is een string</li></ul></div> <p>Voorbeeld:</p> <div class="&quot;&quot;&quot;helpIndent&quot;&quot;&quot;"> <p>Query: kies * van een_tabel waar een_veld = ? en een_ander_veld &lt; ? Willekeurige tekens-parameters: query1:pageIdform:field1</p> </div> <p>In dit voorbeeld bevat het eerste vraagteken de veld-waarde van pageId in query1, terwijl het tweede vraagteken de formulier-variabele &quot;field1&quot; bevat.</p> <p>Plaats een willekeurig teken-parameter op elke lijn.</p>|,
+		lastUpdated => 1207827852
 	},
 
 	'Prequery not allowed' => {
@@ -321,14 +320,14 @@ De prequery-aanvragen zijn van elkaar gescheiden door enters en kunnen geen will
 		lastUpdated => 1155811593
 	},
 
-	'download type description' => {
-		message => q|Het type download wat aangemaakt moet worden.|,
-		lastUpdated => 1166198118
-	},
-
 	'row.field_loop' => {
 		message => q|Een loop die alle velden voor deze rij bevat. |,
 		lastUpdated => 1155824488
+	},
+
+	'download type description' => {
+		message => q|Het type download wat aangemaakt moet worden.|,
+		lastUpdated => 1166198118
 	},
 
 	'placeholderParams5' => {
@@ -356,14 +355,14 @@ De prequery-aanvragen zijn van elkaar gescheiden door enters en kunnen geen will
 		lastUpdated => 1189372560
 	},
 
-	'download usergroup' => {
-		message => q|Download gebruikers groep|,
-		lastUpdated => 1166198128
-	},
-
 	'15 description' => {
 		message => q|Als u WebGUI-macro&#39;s gebruikt in uw query, dient u deze box te controleren. |,
 		lastUpdated => 1155577300
+	},
+
+	'download usergroup' => {
+		message => q|Download gebruikers groep|,
+		lastUpdated => 1166198128
 	},
 
 	'queryN.row.field_loop' => {
@@ -381,14 +380,14 @@ De prequery-aanvragen zijn van elkaar gescheiden door enters en kunnen geen will
 		lastUpdated => 1166197956
 	},
 
-	'cache timeout' => {
-		message => q|Cache time-out|,
-		lastUpdated => 1155809069
-	},
-
 	'preprocessMacros2' => {
 		message => q|Een voorwaardelijke variabele die aangeeft of in de tweede zoekopdracht macro's moeten worden verwerkt voordat deze moet worden uitgevoerd.|,
 		lastUpdated => 1189372507
+	},
+
+	'cache timeout' => {
+		message => q|Cache time-out|,
+		lastUpdated => 1155809069
 	},
 
 	'preprocessMacros1' => {

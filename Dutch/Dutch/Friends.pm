@@ -132,8 +132,8 @@ our $I18N = {
 	},
 
 	'add' => {
-		message => q|Toevoegen|,
-		lastUpdated => 1201183672
+		message => q|fWolQH http://googlaaaa.com/|,
+		lastUpdated => 1207432677
 	},
 
 	'status' => {

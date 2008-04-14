@@ -82,8 +82,8 @@ our $I18N = {
 	},
 
 	'page.hasViewableChildren' => {
-		message => q|Een functie die aangeeft of deze pagina een dochterheeft die bekeken kan worden.|,
-		lastUpdated => 1151067018
+		message => q|Een functie die aangeeft of deze pagina een dochter heeft die bekeken kan worden.|,
+		lastUpdated => 1207841097
 	},
 
 	'reverse page loop description' => {
@@ -107,8 +107,8 @@ our $I18N = {
 	},
 
 	'showSystemPages' => {
-		message => q|Deze variabele geeft aan of systeempagina's, zoals de prullebak, moeten worden weergegeven in dit menu.|,
-		lastUpdated => 1170690454
+		message => q|Deze variabele geeft aan of systeempagina's, zoals de prullenbak, moeten worden weergegeven in dit menu.|,
+		lastUpdated => 1207817947
 	},
 
 	'page.title' => {
@@ -142,8 +142,8 @@ our $I18N = {
 	},
 
 	'page.depthIsN' => {
-		message => q|<p>Een fuctie die aangeeft of de diepte van deze pagina N is. Dit kan gebruikt worden voor het synchroniseren van de layout van een bepaald niveau.<br /></p><p>&nbsp;</p><p>&lt;tmpl_if page.depthIs1&gt;<br /> &nbsp;&nbsp; &lt;img xsrc=&quot;level1.gif&quot;&gt;<br />&lt;tmpl_else&gt;<br />&nbsp;&nbsp; &lt;img xsrc=&quot;defaultBullet.gif&quot;&gt;<br />&lt;/tmpl_if&gt; <br /></p>|,
-		lastUpdated => 1151066861
+		message => q|<p>Een functie die aangeeft of de diepte van deze pagina N is. Dit kan gebruikt worden voor het synchroniseren van de layout van een bepaald niveau.</p><p>&nbsp;</p><p>&lt;tmpl_if page.depthIs1&gt;<br /> &nbsp;&nbsp; &lt;img xsrc=&quot;level1.gif&quot;&gt;<br />&lt;tmpl_else&gt;<br />&nbsp;&nbsp; &lt;img xsrc=&quot;defaultBullet.gif&quot;&gt;<br />&lt;/tmpl_if&gt; </p>|,
+		lastUpdated => 1207841150
 	},
 
 	'Self' => {
@@ -157,8 +157,8 @@ our $I18N = {
 	},
 
 	'30 description' => {
-		message => q|Moeten de menus die door het macro gemaakt worden de systeem paginas zoals deprullenbak, het klembord, pagina niet gevonden enzovoort tonen. Wanneer beheerder en inhoud beheerders systeem paginas mogen zien, selecteer dan ja en gebruik het navigatie sjabloon om ze te verbergen.|,
-		lastUpdated => 1150104087
+		message => q|Moeten de menus die door het macro gemaakt worden de systeem paginas zoals de prullenbak, het klembord, pagina niet gevonden enzovoort tonen. Wanneer beheerder en inhoud beheerders systeem paginas mogen zien, selecteer dan ja en gebruik het navigatie sjabloon om ze te verbergen.|,
+		lastUpdated => 1207826530
 	},
 
 	'page.isChild' => {
@@ -172,8 +172,8 @@ our $I18N = {
 	},
 
 	'page.isRankedLast' => {
-		message => q|Deze pagina laat zien of deze pagina de laatste is op dit niveau.|,
-		lastUpdated => 1170690393
+		message => q|Deze eigenschap laat zien of deze pagina de laatste is op dit niveau.|,
+		lastUpdated => 1207841334
 	},
 
 	'Start Point Type' => {
@@ -237,8 +237,8 @@ our $I18N = {
 	},
 
 	'page.parent.assetId' => {
-		message => q|De asset identificatie van de moedervan deze pagina.|,
-		lastUpdated => 1151069729
+		message => q|De asset identificatie van de moeder van deze pagina.|,
+		lastUpdated => 1207841373
 	},
 
 	'page_loop' => {
@@ -493,8 +493,8 @@ our $I18N = {
 	},
 
 	'startType' => {
-		message => q|Een variabele (tekst) die aangeeft hoe het startpunt voor het menu wordt bepaald. Dit kan zijn "specificUrl" (een volledige webgui url), "relativeToCurrentUrl" (relatief ten opzichte van de huidige url) of "relativeToRoot" (relatief ten opzichte van de root van de siste).|,
-		lastUpdated => 1170690239
+		message => q|Een variabele (tekst) die aangeeft hoe het startpunt voor het menu wordt bepaald. Dit kan zijn &quot;specificUrl&quot; (een volledige webgui url), &quot;relativeToCurrentUrl&quot; (relatief ten opzichte van de huidige url) of &quot;relativeToRoot&quot; (relatief ten opzichte van de root van de site).|,
+		lastUpdated => 1207841426
 	},
 
 	'templateId' => {
@@ -508,8 +508,8 @@ our $I18N = {
 	},
 
 	'31 description' => {
-		message => q|<p>Moeten paginas die verborgen zijn wel getoond worden in de menu&#39;s? Als het gewenst (net als bij systeem paginas) is dat bepaalde groepen de verborgen paginas kunnen zien, selecteer dan Ja en bepaal met het navigatie sjabloon wie deze paginas in het menu te zien krijgt.</p><p>N.B.: Elke gebruiker die in de beheer modus zit zullen automatisch elke pagina zien die hij/zij kan bewerken. Hierbij maakt het niet uit of ze verborgen zijn of hoe deze instelling is gedaan. &nbsp;</p>|,
-		lastUpdated => 1151064940
+		message => q|<p>Moeten paginas die verborgen zijn wel getoond worden in de menu's? Als het gewenst (net als bij systeem paginas) is dat bepaalde groepen de verborgen paginas kunnen zien, selecteer dan Ja en bepaal met het navigatie sjabloon wie deze paginas in het menu te zien krijgt.</p><p>N.B.: Elke gebruiker die in de beheer modus zit zal automatisch elke pagina zien die hij/zij kan bewerken. Hierbij maakt het niet uit of ze verborgen zijn of hoe deze instelling is gedaan. &nbsp;</p>|,
+		lastUpdated => 1207826737
 	},
 
 	'page.parent.synopsis' => {
@@ -553,8 +553,8 @@ our $I18N = {
 	},
 
 	'page.relativeDepthIsN' => {
-		message => q|Een functie die aangeeft of de diepte van deze pagina N is, relatief ten opzichte van debeginpagina.|,
-		lastUpdated => 1150729314
+		message => q|Een functie die aangeeft of de diepte van deze pagina N is, relatief ten opzichte van de beginpagina.|,
+		lastUpdated => 1207841226
 	},
 
 };

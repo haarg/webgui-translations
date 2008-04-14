@@ -1,15 +1,9 @@
 package WebGUI::i18n::Dutch::Asset_RSSCapable;
 
-
 our $I18N = {
-	'rssEnabled label' => {
-		message => q|RSS activeren?|,
-		lastUpdated => 1166197561
-	},
-
-	'rssEnabled hoverHelp' => {
-		message => q|Geef aan of u een RSS bestand wilt genereren voor deze Asset. Als u dit wenst dan wordt de asset: "RSS bovenliggende Asset" aangemaakt onder de huidige Asset. Als u dit niet wenst wordt een eventueel bestaande "RSS bovenliggende Asset" verwijdert of er wordt geen aangemaakt.|,
-		lastUpdated => 1166197718
+	'rssTemplateId hoverHelp' => {
+		message => q|Het sjabloon voor het genereren van het RSS bestand.|,
+		lastUpdated => 1166197708
 	},
 
 	'rssTemplateId label' => {
@@ -17,9 +11,14 @@ our $I18N = {
 		lastUpdated => 1166197742
 	},
 
-	'rssTemplateId hoverHelp' => {
-		message => q|Het sjabloon voor het genereren van het RSS bestand.|,
-		lastUpdated => 1166197708
+	'rssEnabled hoverHelp' => {
+		message => q|Geef aan of u een RSS bestand wilt genereren voor deze Asset. Als u dit wenst dan wordt de asset: &quot;RSS bovenliggende Asset&quot; aangemaakt onder de huidige Asset. Als u dit niet wenst wordt een eventueel bestaande &quot;RSS bovenliggende Asset&quot; verwijderd of er wordt geen aangemaakt.|,
+		lastUpdated => 1207824463
+	},
+
+	'rssEnabled label' => {
+		message => q|RSS activeren?|,
+		lastUpdated => 1166197561
 	},
 
 	'assetName' => {

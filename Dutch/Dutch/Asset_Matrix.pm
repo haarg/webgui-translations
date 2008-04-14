@@ -92,8 +92,8 @@ our $I18N = {
 	},
 
 	'tmplVar class' => {
-		message => q|De stylesheet classname voor dit veld. Deze bestaat uit de waarde van het veld waarbij spaties zijn vervangen door underscores en alle niet alfanumerieke karakters zijn verwijdert.|,
-		lastUpdated => 1156344908
+		message => q|De stylesheet classname voor dit veld. Deze bestaat uit de waarde van het veld waarbij spaties zijn vervangen door underscores en alle niet alfanumerieke karakters zijn verwijderd.|,
+		lastUpdated => 1207840915
 	},
 
 	'ratings' => {
@@ -102,13 +102,13 @@ our $I18N = {
 	},
 
 	'user.canApprove' => {
-		message => q|Een variabele die bepaalt of de huidige gebruikers rechten heeft om een lijst goed te keuren zodat deze gepubliceerd wordt.|,
-		lastUpdated => 1156345222
+		message => q|Een variabele die bepaalt of de huidige gebruikers rechten heeft om een lijst goed te keuren zodat deze gepubliceerd kan worden.|,
+		lastUpdated => 1207840727
 	},
 
 	'tmplVar worst.median' => {
-		message => q|De middelste waarering van de slechtst gewaardeerde lijst in deze categorie.|,
-		lastUpdated => 1156345142
+		message => q|De middelste waardering van de slechtst gewaardeerde lijst in deze categorie.|,
+		lastUpdated => 1207840973
 	},
 
 	'edit matrix' => {
@@ -314,8 +314,8 @@ Een lijst waaruit u een keuze kunt maken
 	},
 
 	'productUrl' => {
-		message => q|De URL van de fabrikant voor dze lijst|,
-		lastUpdated => 1152628827
+		message => q|De URL van de fabrikant voor deze lijst|,
+		lastUpdated => 1207840812
 	},
 
 	'rating timeout privileged description' => {
@@ -504,8 +504,8 @@ Voor de selectielijst mag er maar &#233;&#233;n waarde worden ingevuld. De gebru
 	},
 
 	'detail_loop' => {
-		message => q|Een loop die een lijst met lijsten (listings) bevat, die ten minste tien beoordelingen hebben gehad en die zijn gerangschikt op gemiddled beoordeling. |,
-		lastUpdated => 1156340368
+		message => q|Een loop die een lijst met lijsten (listings) bevat, die ten minste tien beoordelingen hebben gehad en die zijn gerangschikt op een gemiddelde beoordeling. |,
+		lastUpdated => 1207840553
 	},
 
 	'detail template help title' => {
@@ -685,8 +685,8 @@ Voor de selectielijst mag er maar &#233;&#233;n waarde worden ingevuld. De gebru
 	},
 
 	'category listing description' => {
-		message => q|De beshrijving die de gebruiker zegt wat dit veld weergeeft. |,
-		lastUpdated => 1156326215
+		message => q|De beschrijving die de gebruiker zegt wat dit veld weergeeft. |,
+		lastUpdated => 1207840855
 	},
 
 	'compares' => {
@@ -730,8 +730,8 @@ Voor de selectielijst mag er maar &#233;&#233;n waarde worden ingevuld. De gebru
 	},
 
 	'lastUpdated.epoch' => {
-		message => q|De epoch datum waarop deze lijst voro het laatst gewijzigd is.|,
-		lastUpdated => 1156341931
+		message => q|De epoch datum waarop deze lijst voor het laatst gewijzigd is.|,
+		lastUpdated => 1207840771
 	},
 
 	'max comparisons description' => {
@@ -800,8 +800,8 @@ Voor de selectielijst mag er maar &#233;&#233;n waarde worden ingevuld. De gebru
 	},
 
 	'categories subtext' => {
-		message => q|Voer een per regel in, in de volgorde waarin u ze wil laten verschijnen. Let op het inleiden en volgen van witregels. |,
-		lastUpdated => 1156286348
+		message => q|Voer een per regel in, in de volgorde waarin u ze wilt laten verschijnen. Let op het inleiden en volgen van witregels. |,
+		lastUpdated => 1207826140
 	},
 
 	'tmplVar worst.count' => {

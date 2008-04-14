@@ -102,8 +102,8 @@ our $I18N = {
 	},
 
 	'priority help' => {
-		message => q|Dit bepaald de prioriteit van de uit te voeren workflow. Dit blijft meestal op "Normaal" staan. Wanneer de workflow extra haast heeft kan het op hoog ingesteld worden. Wanneer het een onderhoudstaak betreft en het uitgesteld kan worden totdat de server minder druk is, zet het dan op laag. |,
-		lastUpdated => 1166638708
+		message => q|Dit bepaalt de prioriteit van de uit te voeren workflow. Dit blijft meestal op &quot;Normaal&quot; staan. Wanneer de workflow extra haast heeft kan het op hoog ingesteld worden. Wanneer het een onderhoudstaak betreft en het uitgesteld kan worden totdat de server minder druk is, zet het dan op laag. |,
+		lastUpdated => 1207824039
 	},
 
 	'workflow' => {

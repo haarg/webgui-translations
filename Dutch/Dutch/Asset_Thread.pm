@@ -1,15 +1,9 @@
 package WebGUI::i18n::Dutch::Asset_Thread;
 
-
 our $I18N = {
 	'user.isSubscribed' => {
 		message => q|Een voorwaarde die waar is als de huidige gebruiker geabonneerd is op de thread|,
 		lastUpdated => 1153541585
-	},
-
-	'thread template title' => {
-		message => q|Thread-sjabloon|,
-		lastUpdated => 1153534286
 	},
 
 	'layout.isThreaded' => {
@@ -17,14 +11,19 @@ our $I18N = {
 		lastUpdated => 1153526576
 	},
 
-	'archive.url' => {
-		message => q|De URL om deze thread te archiveren|,
-		lastUpdated => 1153241551
+	'thread template title' => {
+		message => q|Thread-sjabloon|,
+		lastUpdated => 1153534286
 	},
 
 	'assetName' => {
 		message => q|Thread|,
 		lastUpdated => 1153241694
+	},
+
+	'archive.url' => {
+		message => q|De URL om deze thread te archiveren|,
+		lastUpdated => 1153241551
 	},
 
 	'replies' => {
@@ -63,8 +62,8 @@ our $I18N = {
 	},
 
 	'karma.transfer.form' => {
-		message => q|Een variabele die een klein formulier weergeeft waarmee een gebruiker een hoeveelheid karma van zijn account naar deze thread over te brengen. |,
-		lastUpdated => 1153525475
+		message => q|Een variabele die een klein formulier weergeeft waarmee een gebruiker een hoeveelheid karma van zijn account naar deze thread over kan brengen. |,
+		lastUpdated => 1207905787
 	},
 
 	'user.canReply' => {
@@ -87,14 +86,14 @@ our $I18N = {
 		lastUpdated => 1170692515
 	},
 
-	'depth' => {
-		message => q|Een getal dat de loop-telling aangeeft van de &#39;indent_loop&#39;|,
-		lastUpdated => 1153328954
-	},
-
 	'collaboration.url' => {
 		message => q|De URL die u terugleidt naar het collaboratie systeem waar dit bericht deel van is |,
 		lastUpdated => 1153265062
+	},
+
+	'depth' => {
+		message => q|Een getal dat de loop-telling aangeeft van de &#39;indent_loop&#39;|,
+		lastUpdated => 1153328954
 	},
 
 	'isSticky' => {
@@ -102,14 +101,14 @@ our $I18N = {
 		lastUpdated => 1153523574
 	},
 
-	'thumbsDown.icon.url' => {
-		message => q|De URL naar het &#39;thumbs down&#39;-icoon |,
-		lastUpdated => 1153534310
-	},
-
 	'isLocked variable' => {
 		message => q|Een variabele (waar/niet-waar) die aangeeft of de discussieboom (thread) was gesloten of niet.|,
 		lastUpdated => 1170692551
+	},
+
+	'thumbsDown.icon.url' => {
+		message => q|De URL naar het &#39;thumbs down&#39;-icoon |,
+		lastUpdated => 1153534310
 	},
 
 	'user.isModerator' => {
@@ -152,9 +151,9 @@ our $I18N = {
 		lastUpdated => 1176471764
 	},
 
-	'repliesAllowed' => {
-		message => q|Een voorwaarde die aangeeft dat antwoorden in deze thread zijn toegestaan|,
-		lastUpdated => 1153533683
+	'subscriptionGroupId' => {
+		message => q|Het groeps-ID dat gereserveerd is voor gebruikers die zich aangemeld hebben voor een bericht|,
+		lastUpdated => 1176474798
 	},
 
 	'karmaScale' => {
@@ -162,14 +161,14 @@ our $I18N = {
 		lastUpdated => 1153525911
 	},
 
-	'subscriptionGroupId' => {
-		message => q|Het groeps-ID dat gereserveerd is voor gebruikers die zich aangemeld hebben voor een bericht|,
-		lastUpdated => 1176474798
+	'repliesAllowed' => {
+		message => q|Een voorwaarde die aangeeft dat antwoorden in deze thread zijn toegestaan|,
+		lastUpdated => 1153533683
 	},
 
-	'post_loop' => {
-		message => q|Een loop die alle berichten voor deze thread bevat. Elk bericht in de loop bevat ook een set eigen berichtensjabloon-variabelen. |,
-		lastUpdated => 1153530835
+	'next.url' => {
+		message => q|De URL om u naar de volgende thread te brengen |,
+		lastUpdated => 1153530108
 	},
 
 	'subscribe.url' => {
@@ -177,9 +176,9 @@ our $I18N = {
 		lastUpdated => 1153533903
 	},
 
-	'next.url' => {
-		message => q|De URL om u naar de volgende thread te brengen |,
-		lastUpdated => 1153530108
+	'post_loop' => {
+		message => q|Een loop die alle berichten voor deze thread bevat. Elk bericht in de loop bevat ook een set eigen berichtensjabloon-variabelen. |,
+		lastUpdated => 1153530835
 	},
 
 	'userProfile.url' => {
@@ -202,14 +201,14 @@ our $I18N = {
 		lastUpdated => 1153526402
 	},
 
-	'user.canPost' => {
-		message => q|Een voorwaarde die aangeeft dat de huidige gebruiker berichten kan toevoegen aan deze thread |,
-		lastUpdated => 1153541509
-	},
-
 	'indent_loop' => {
 		message => q|Een loop die het aantal malen diepte regelt. |,
 		lastUpdated => 1153384295
+	},
+
+	'user.canPost' => {
+		message => q|Een voorwaarde die aangeeft dat de huidige gebruiker berichten kan toevoegen aan deze thread |,
+		lastUpdated => 1153541509
 	},
 
 	'search.url' => {
@@ -217,14 +216,14 @@ our $I18N = {
 		lastUpdated => 1153533847
 	},
 
-	'karma' => {
-		message => q|Geeft de hoeveeheid karma van deze thread aan |,
-		lastUpdated => 1153524148
-	},
-
 	'thread asset template title' => {
 		message => q|Draad Object Sjabloon Variabelen (Thread Asset Template Variables)|,
 		lastUpdated => 1180650654
+	},
+
+	'karma' => {
+		message => q|Geeft de hoeveeheid karma van deze thread aan |,
+		lastUpdated => 1153524148
 	},
 
 	'depthX10' => {
@@ -242,19 +241,19 @@ our $I18N = {
 		lastUpdated => 1153534392
 	},
 
-	'isArchived' => {
-		message => q|Een voorwaarde die aangeeft of de huidige thread gearchiveerd is. |,
-		lastUpdated => 1153385281
-	},
-
 	'isSticky variable' => {
 		message => q|Een variabele (waar/niet-waar) die aangeeft of een discussieboom (thread) bij voorkeur bovenaan moet staan.|,
 		lastUpdated => 1170695209
 	},
 
-	'user.isVisitor' => {
-		message => q|Een voorwaarde die aangeeft dat de huidige gebruiker een bezoeker is|,
-		lastUpdated => 1153541609
+	'isArchived' => {
+		message => q|Een voorwaarde die aangeeft of de huidige thread gearchiveerd is. |,
+		lastUpdated => 1153385281
+	},
+
+	'layout.threaded.url' => {
+		message => q|Een URL om de lay-out te veranderen in &#39;threaded&#39; berichten. Dit is de standaard instelling. Berichten zullen individueel worden weergegeven. |,
+		lastUpdated => 1153527776
 	},
 
 	'karmaRank' => {
@@ -262,9 +261,9 @@ our $I18N = {
 		lastUpdated => 1153525793
 	},
 
-	'layout.threaded.url' => {
-		message => q|Een URL om de lay-out te veranderen in &#39;threaded&#39; berichten. Dit is de standaard instelling. Berichten zullen individueel worden weergegeven. |,
-		lastUpdated => 1153527776
+	'user.isVisitor' => {
+		message => q|Een voorwaarde die aangeeft dat de huidige gebruiker een bezoeker is|,
+		lastUpdated => 1153541609
 	},
 
 };

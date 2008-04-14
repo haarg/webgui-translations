@@ -1,6 +1,5 @@
 package WebGUI::i18n::Dutch::Subscription;
 
-
 our $I18N = {
 	'subscription description' => {
 		message => q|Beschrijving|,
@@ -32,14 +31,14 @@ our $I18N = {
 		lastUpdated => 1155823972
 	},
 
-	'code' => {
-		message => q|Code|,
-		lastUpdated => 1155739003
-	},
-
 	'delete batch confirm' => {
 		message => q|Weet u zeker dat u deze batch wilt verwijderen? |,
 		lastUpdated => 1155741538
+	},
+
+	'code' => {
+		message => q|Code|,
+		lastUpdated => 1155739003
 	},
 
 	'redeem code success' => {
@@ -77,14 +76,14 @@ our $I18N = {
 		lastUpdated => 1155822404
 	},
 
-	'manage subscriptions' => {
-		message => q|Inschrijvingen|,
-		lastUpdated => 1155742970
-	},
-
 	'subscription price description' => {
 		message => q|Prijs te betalen voor de inschrijving. |,
 		lastUpdated => 1155824096
+	},
+
+	'manage subscriptions' => {
+		message => q|Inschrijvingen|,
+		lastUpdated => 1155742970
 	},
 
 	'subscription duration description' => {
@@ -108,8 +107,8 @@ our $I18N = {
 	},
 
 	'help redeem code template body' => {
-		message => q|<p>De volgende sjabloon-variabelen zijn beschikbaar in dit sjaboon:</p><p><strong>batchBeschrijving</strong><br /> De beschrijving van de batch bij de inschrijvingcode.</p><p><strong>boodschap</strong><br /> De boodschap die het resultaat van uw actie geeft. Afhankelijk van wat u gedaan heeft, staat er dat u een code kunt ingeven, dat u de verkeerde code heeft ingevoerd, of dat u succesvol uw code heeft behouden.&nbsp;  </p><p><strong>codeFormulier</strong><br />Het formulier waarin de gebruiker zijn inschrijvingscode kan invoeren. </p>|,
-		lastUpdated => 1155755347
+		message => q|<p>De volgende sjabloon-variabelen zijn beschikbaar in dit sjaboon:</p><p><strong>batchBeschrijving</strong><br /> De beschrijving van de batch bij de inschrijvingscode.</p><p><strong>boodschap</strong><br /> De boodschap die het resultaat van uw actie geeft. Afhankelijk van wat u gedaan heeft, staat er dat u een code kunt ingeven, dat u de verkeerde code heeft ingevoerd, of dat u succesvol uw code heeft behouden.&nbsp;  </p><p><strong>codeFormulier</strong><br />Het formulier waarin de gebruiker zijn inschrijvingscode kan invoeren. </p>|,
+		lastUpdated => 1207829832
 	},
 
 	'edit subscription title' => {
@@ -157,14 +156,14 @@ our $I18N = {
 		lastUpdated => 1155738951
 	},
 
-	'help redeem code template title' => {
-		message => q|<p>Behoud inschrijvingscode-sjabloon</p>|,
-		lastUpdated => 1155809001
-	},
-
 	'manage codes' => {
 		message => q|Beheer inschrijvingscodes |,
 		lastUpdated => 1155809912
+	},
+
+	'help redeem code template title' => {
+		message => q|<p>Behoud inschrijvingscode-sjabloon</p>|,
+		lastUpdated => 1155809001
 	},
 
 	'expire subscription codes' => {
@@ -232,14 +231,14 @@ our $I18N = {
 		lastUpdated => 1155740662
 	},
 
-	'code length error' => {
-		message => q|U moet een inschrijvingscode-lengte invoeren tussen 10 en 64 (grenswaarden inbegrepen).|,
-		lastUpdated => 1155740653
-	},
-
 	'no association error' => {
 		message => q|U moet deze batch ten minste met een inschrijving linken. |,
 		lastUpdated => 1155809992
+	},
+
+	'code length error' => {
+		message => q|U moet een inschrijvingscode-lengte invoeren tussen 10 en 64 (grenswaarden inbegrepen).|,
+		lastUpdated => 1155740653
 	},
 
 	'creation date' => {
@@ -292,9 +291,9 @@ our $I18N = {
 		lastUpdated => 1155824078
 	},
 
-	'select' => {
-		message => q|Geef selectie weer|,
-		lastUpdated => 1155821398
+	'dateUsed' => {
+		message => q|Datum van gebruik |,
+		lastUpdated => 1155740803
 	},
 
 	'create batch error' => {
@@ -302,9 +301,9 @@ our $I18N = {
 		lastUpdated => 1155740742
 	},
 
-	'dateUsed' => {
-		message => q|Datum van gebruik |,
-		lastUpdated => 1155740803
+	'select' => {
+		message => q|Geef selectie weer|,
+		lastUpdated => 1155821398
 	},
 
 	'list codes in batch' => {

@@ -7,8 +7,8 @@ our $I18N = {
 	},
 
 	'formTime' => {
-		message => q|Het HTML formulier element waarmee de start- en eindtijden van de gebeurtenis gewijzigd kunnen worden. Het heeft snelkeuze mogelijkheden voor "de gehele dag", "geen specifieke tijd", en een specfieke start- en eindtijd.|,
-		lastUpdated => 1189337787
+		message => q|Het HTML formulier element waarmee de start- en eindtijden van de gebeurtenis gewijzigd kunnen worden. Het heeft snelkeuze mogelijkheden voor &quot;de gehele dag&quot;, &quot;geen specifieke tijd&quot;, en een specifieke start- en eindtijd.|,
+		lastUpdated => 1207837716
 	},
 
 	'link description' => {
@@ -52,13 +52,13 @@ our $I18N = {
 	},
 
 	'endTime' => {
-		message => q|De datum waarop deze gebeurtenis eindigt.|,
-		lastUpdated => 1189336683
+		message => q|De tijd waarop deze gebeurtenis eindigt.|,
+		lastUpdated => 1207838828
 	},
 
 	'formUserDefinedN' => {
-		message => q|Dit is een formulier met een enekele tekstregel voor elk van de 5 Gebruiker Gedefinieerde velden.|,
-		lastUpdated => 1199699412
+		message => q|Dit is een formulier met een enkele tekstregel voor elk van de 5 Gebruiker Gedefinieerde velden|,
+		lastUpdated => 1207838483
 	},
 
 	'urlParent' => {
@@ -212,8 +212,8 @@ our $I18N = {
 	},
 
 	'startDateMonthName' => {
-		message => q|De naam van de maand waarmee deze gebeurtenis start.|,
-		lastUpdated => 1189347800
+		message => q|De naam van de maand waarin deze gebeurtenis start.|,
+		lastUpdated => 1207837369
 	},
 
 	'event common template variables body' => {
@@ -262,8 +262,8 @@ our $I18N = {
 	},
 
 	'formUserDefinedN_float' => {
-		message => q|Voor elk van de vijf door Gebruiker Gedefinieerde velden, een formulier fuctie voor een float.|,
-		lastUpdated => 1199786835
+		message => q|Voor elk van de vijf door Gebruiker Gedefinieerde velden, een formulier functie voor een float.|,
+		lastUpdated => 1207838498
 	},
 
 	'add related link' => {
@@ -372,8 +372,8 @@ our $I18N = {
 	},
 
 	'startTime' => {
-		message => q|De datum waarmee deze gebeurtenis start|,
-		lastUpdated => 1189347893
+		message => q|De tijd waarop deze gebeurtenis start|,
+		lastUpdated => 1207838785
 	},
 
 	'dateSpan' => {
@@ -617,8 +617,8 @@ our $I18N = {
 	},
 
 	'UserDefinedN' => {
-		message => q|De waarde van dit veld. Er zijn vijf "UserDefined" velden, UserDefined1 tot en met UserDefined5, waarin willekeurige gegevens gestopt kunnen wodren. |,
-		lastUpdated => 1189335973
+		message => q|De waarde van dit veld. Er zijn vijf &quot;UserDefined&quot; velden, UserDefined1 tot en met UserDefined5, waarin willekeurige gegevens gestopt kunnen worden. |,
+		lastUpdated => 1207837642
 	},
 
 	'formUserDefinedN_textarea' => {
@@ -672,8 +672,8 @@ our $I18N = {
 	},
 
 	'attachment.url' => {
-		message => q|De URL om de eerste bijlage bij deze drage te downloaden.|,
-		lastUpdated => 1190027691
+		message => q|De URL om de eerste bijlage bij deze bijdrage te downloaden.|,
+		lastUpdated => 1207837440
 	},
 
 };

@@ -72,8 +72,8 @@ our $I18N = {
 	},
 
 	'hasRated' => {
-		message => q|Een voorwaarde die waar is als de gebruik het bericht al heeft beoordeeld |,
-		lastUpdated => 1152803369
+		message => q|Een voorwaarde die waar is als de gebruiker het bericht al heeft beoordeeld |,
+		lastUpdated => 1207831178
 	},
 
 	'formatted.content' => {
@@ -207,8 +207,8 @@ our $I18N = {
 	},
 
 	'help url.raw' => {
-		message => q|Het URL van de post Asset zonder het id aan het einde. Dit is nuttig voor het uitvoeren van andere functies op de post zoals &quot;func=promote&quot; of &quot;func&quot;demote&quot;.|,
-		lastUpdated => 1199787080
+		message => q|Het URL van de post Asset zonder het id aan het einde. Dit is nuttig voor het uitvoeren van andere functies op de post zoals &quot;func=promote&quot; of &quot;func=demote&quot;.|,
+		lastUpdated => 1207901128
 	},
 
 	'dateSubmitted' => {
@@ -232,8 +232,8 @@ our $I18N = {
 	},
 
 	'views' => {
-		message => q|Het aantal keren dat dicht bericht is bekeken|,
-		lastUpdated => 1152837052
+		message => q|Het aantal keren dat dit bericht is bekeken|,
+		lastUpdated => 1207831259
 	},
 
 	'attachment.icon' => {
@@ -407,8 +407,8 @@ our $I18N = {
 	},
 
 	'avatar.url' => {
-		message => q|Een URL naar de avatar voor de eigenaar vn dit bericht, als avatars mogelijk zijn in het hoofd-besturingssysteem en als de gebruiker een avatar heeft. |,
-		lastUpdated => 1152729450
+		message => q|Een URL naar de avatar voor de eigenaar van dit bericht, als avatars mogelijk zijn in het hoofd-besturingssysteem en als de gebruiker een avatar heeft. |,
+		lastUpdated => 1207830756
 	},
 
 	'isPrototype' => {
@@ -492,8 +492,8 @@ our $I18N = {
 	},
 
 	'user.canEdit' => {
-		message => q|Een voorwaarde de waar is als de gebruiker bezig is een nieuw bericht te plaatsen, in tegenstelling tot het bewerken van een bestaand bericht, en er een thread bestaat, die het bericht bevat|,
-		lastUpdated => 1152837605
+		message => q|Een voorwaarde die waar is als de gebruiker bezig is een nieuw bericht te plaatsen, in tegenstelling tot het bewerken van een bestaand bericht, en er een thread bestaat, die het bericht bevat|,
+		lastUpdated => 1207831161
 	},
 
 	'rating' => {

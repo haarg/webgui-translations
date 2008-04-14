@@ -2,8 +2,8 @@ package WebGUI::i18n::Dutch::Asset_SyndicatedContent;
 
 our $I18N = {
 	'displayMode' => {
-		message => q|Als het asset was ingesteld om RSS koppen te sorteren naar titel van de RSS site waarvan ze afkomstig zijn, dan is zal deze tekstvariabele "grouped" (gegroepeerd) bevatten. In elk ander geval "interleaved". |,
-		lastUpdated => 1170692269
+		message => q|Als het asset was ingesteld om RSS koppen te sorteren naar titel van de RSS site waarvan ze afkomstig zijn, dan zal deze tekstvariabele &quot;grouped&quot; (gegroepeerd) bevatten. In elk ander geval &quot;interleaved&quot;. |,
+		lastUpdated => 1207904554
 	},
 
 	'rssUrl' => {
@@ -67,19 +67,8 @@ our $I18N = {
 	},
 
 	'1 description' => {
-		message => q|Geef de exacte url (inclusief http://) naar het RDF of RSS bestand. De inhoud zal elk uur worden opgevraagd en vernieuwd.<br />
-<br />
-Voorbeelden van syndicated content zijn hier te vinden:<br />
-<ul><li><a href=""http://www.newsisfree.com/"">http://www.newsisfree.com</a> </li>
-<li><a href=""http://www.syndic8.com/"">http://www.syndic8.com</a> </li>
-<li><a href=""http://www.voidstar.com/node.php?id=144"">http://www.voidstar.com/node.php?id=144</a> </li>
-<li><a href=""http://my.userland.com/"">http://my.userland.com</a> </li>
-<li><a href=""http://www.webreference.com/services/news/"">http://www.webreference.com/services/news/</a></li>
-<li><a href=""http://w.moreover.com/"">http://w.moreover.com/</a> </li></ul><br />
-Op dit moment ondersteund WebGUI RSS versies 0.90, 0.91, 1.0, en 2.0. Atom feeds worden niet onderstuend. Andere bestanden die sterk lijken op RSS bestanden werken waarschijnlijk wel. <br />
-<br />
-Om een samengestelde RSS feed te maken (een feed die informatie haalt uit verschillende andere RSS feeds) is het mogelijk om i.p.v. 1 URL een lijst van URLs op te geven, een URL per regel. De items worden gesorteerd op het datum van downloaden.|,
-		lastUpdated => 1170692047
+		message => q|Geef de exacte url (inclusief http://) naar het RDF of RSS bestand. De inhoud zal elk uur worden opgevraagd en vernieuwd.<br /> <br /> Voorbeelden van syndicated content zijn hier te vinden:<br /> <ul><li><a href="%22%22%22http://www.newsisfree.com/%22%22%22">http://www.newsisfree.com</a> </li> <li><a href="%22%22%22http://www.syndic8.com/%22%22%22">http://www.syndic8.com</a> </li> <li><a href="%22%22%22http://www.voidstar.com/node.php?id=144%22%22%22">http://www.voidstar.com/node.php?id=144</a> </li> <li><a href="%22%22%22http://my.userland.com/%22%22%22">http://my.userland.com</a> </li> <li><a href="%22%22%22http://www.webreference.com/services/news/%22%22%22">http://www.webreference.com/services/news/</a></li> <li><a href="%22%22%22http://w.moreover.com/%22%22%22">http://w.moreover.com/</a> </li></ul><br /> Op dit moment ondersteund WebGUI RSS versies 0.90, 0.91, 1.0, en 2.0. Atom feeds worden niet ondersteund. Andere bestanden die sterk lijken op RSS bestanden werken waarschijnlijk wel. <br /> <br /> Om een samengestelde RSS feed te maken (een feed die informatie haalt uit verschillende andere RSS feeds) is het mogelijk om i.p.v. 1 URL een lijst van URLs op te geven, een URL per regel. De items worden gesorteerd op de datum van downloaden.|,
+		lastUpdated => 1207828189
 	},
 
 	'72' => {
@@ -160,13 +149,13 @@ dan zullen alle items met "linux", "Windows XP" en "Google" die staan in de tite
 	},
 
 	'title' => {
-		message => q|De titel van een stuk content. Dit veld wordt bekeken wanneer de woord filter aanstaat.|,
-		lastUpdated => 1152861962
+		message => q|De titel van een stuk content. Dit veld wordt bekeken wanneer het woord filter aanstaat.|,
+		lastUpdated => 1207904387
 	},
 
 	'3 description' => {
-		message => q|Voer het maximale aantal koppen dat getoont mag worden. Voer 0 in om alle headlines te laten zien. Merk op dat nog altijd alle koppen van alle RSS URL's worden opgehaald, ook al worden ze niet afgebeeld. |,
-		lastUpdated => 1170692101
+		message => q|Voer het maximale aantal koppen dat getoond mag worden. Voer 0 in om alle headlines te laten zien. Merk op dat nog altijd alle koppen van alle RSS URL's worden opgehaald, ook al worden ze niet afgebeeld. |,
+		lastUpdated => 1207828366
 	},
 
 	'interleaved' => {
@@ -205,8 +194,8 @@ dan zullen alle items met "linux", "Windows XP" en "Google" die staan in de tite
 	},
 
 	'process macros in rss url description' => {
-		message => q|Als u deze optie inschakelt kunt u Macro's gebruiken binne de URL's.|,
-		lastUpdated => 1166198486
+		message => q|Als u deze optie inschakelt kunt u Macro's gebruiken binnen de URL's.|,
+		lastUpdated => 1207828259
 	},
 
 	'cache timeout' => {
@@ -270,8 +259,8 @@ dan zullen alle items met "linux", "Windows XP" en "Google" die staan in de tite
 	},
 
 	'new_rss_site' => {
-		message => q|Een variabele (te gebruiken als tmpl_if tag)die bepaald of het huidige item van hetzelfde RSS bestand is als het vorige item. Deze optie is zeer bruikbaar als u de bestanden gegroepeerd weergeeft. Hierdoor kunt u bijvoorbeeld per groep de site_title en de site_link weergeven.|,
-		lastUpdated => 1156410724
+		message => q|Een variabele (te gebruiken als tmpl_if tag) die bepaalt of het huidige item van hetzelfde RSS bestand is als het vorige item. Deze optie is zeer bruikbaar als u de bestanden gegroepeerd weergeeft. Hierdoor kunt u bijvoorbeeld per groep de site_title en de site_link weergeven.|,
+		lastUpdated => 1207904293
 	},
 
 	'rss.url.0.9' => {
@@ -290,8 +279,8 @@ dan zullen alle items met "linux", "Windows XP" en "Google" die staan in de tite
 	},
 
 	'descriptionFirst10words' => {
-		message => q|De eerste tien woorden van de beschrijving|,
-		lastUpdated => 1190025410
+		message => q|De eerste 10 woorden van de beschrijving|,
+		lastUpdated => 1207904469
 	},
 
 	'processMacrosInRssUrl' => {

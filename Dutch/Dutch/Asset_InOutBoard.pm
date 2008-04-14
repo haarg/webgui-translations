@@ -1,15 +1,14 @@
 package WebGUI::i18n::Dutch::Asset_InOutBoard;
 
-
 our $I18N = {
-	'department' => {
-		message => q|<p>Een variabele die de afdeling van de gebruiker geeft. Wanneer er geen afdeling toegewezen is aan de gebruiker, wordt een label gebruikt met de informatie dat deze gebruiker niet tot een afdeling behoort. </p>|,
-		lastUpdated => 1155908025
-	},
-
 	'17 description' => {
 		message => q|Zoals de Start Datum, kan de Eind Datum helpen om de omvang van je rapport te beperken door de veranderingen in status van na de datum die je selecteert niet te tonen.|,
 		lastUpdated => 1153763158
+	},
+
+	'department' => {
+		message => q|<p>Een variabele die de afdeling van de gebruiker geeft. Wanneer er geen afdeling toegewezen is aan de gebruiker, wordt een label gebruikt met de informatie dat deze gebruiker niet tot een afdeling behoort. </p>|,
+		lastUpdated => 1155908025
 	},
 
 	'21' => {
@@ -17,14 +16,14 @@ our $I18N = {
 		lastUpdated => 1153764855
 	},
 
-	'form' => {
-		message => q|Een variable die de HTML vevat waarmee de aanwezig/afwezig invoerformulier getoond wordt, zodat de status van de huidige of eenandere gebruiker vernieuwd kan worden.|,
-		lastUpdated => 1155565558
-	},
-
 	'7' => {
 		message => q|Geen Departement|,
 		lastUpdated => 1153927752
+	},
+
+	'form' => {
+		message => q|Een variable die de HTML bevat waarmee het aanwezig/afwezig invoerformulier getoond wordt, zodat de status van de huidige of een andere gebruiker vernieuwd kan worden.|,
+		lastUpdated => 1207830231
 	},
 
 	'message.label' => {
@@ -47,14 +46,14 @@ our $I18N = {
 		lastUpdated => 1155895008
 	},
 
-	'1 description' => {
-		message => q|De status lijst staat je toe aan te passen wat de &quot;toestanden&quot; van een gebruiker zijn, d.i., 'Aanwezig' of 'Afwezig'.|,
-		lastUpdated => 1153764648
-	},
-
 	'all departments' => {
 		message => q|Alle Departementen|,
 		lastUpdated => 1153927907
+	},
+
+	'1 description' => {
+		message => q|De status lijst staat je toe aan te passen wat de &quot;toestanden&quot; van een gebruiker zijn, d.i., 'Aanwezig' of 'Afwezig'.|,
+		lastUpdated => 1153764648
 	},
 
 	'paginateAfter' => {
@@ -62,14 +61,14 @@ our $I18N = {
 		lastUpdated => 1189366138
 	},
 
-	'13 description' => {
-		message => q|Kies een sjabloon voor de weergave van het Aanwezig/Afwezig Bord Rapport.|,
-		lastUpdated => 1166195016
-	},
-
 	'16' => {
 		message => q|Start Datum|,
 		lastUpdated => 1153763000
+	},
+
+	'13 description' => {
+		message => q|Kies een sjabloon voor de weergave van het Aanwezig/Afwezig Bord Rapport.|,
+		lastUpdated => 1166195016
 	},
 
 	'reportTitleLabel' => {
@@ -77,14 +76,9 @@ our $I18N = {
 		lastUpdated => 1189366236
 	},
 
-	'username.label' => {
-		message => q|Internationaal label voor de gebruikersnaam kolom in het verslag.|,
-		lastUpdated => 1155567349
-	},
-
-	'dateStamp' => {
-		message => q|Een variabele die de datum geeft waarop de status van de gebruiker voor het laatst is vernieuwd.|,
-		lastUpdated => 1155563944
+	'inOutTemplateId' => {
+		message => q|De ID van het template dat gebruikt wordt om het hoofdscherm van het aan-/afwezigheidsbord weer te geven. |,
+		lastUpdated => 1189366109
 	},
 
 	'inOutGroup' => {
@@ -92,9 +86,14 @@ our $I18N = {
 		lastUpdated => 1189366075
 	},
 
-	'inOutTemplateId' => {
-		message => q|De ID van het template dat gebruikt wordt om het hoofdscherm van het aan-/afwezigheidsbord weer te geven. |,
-		lastUpdated => 1189366109
+	'dateStamp' => {
+		message => q|Een variabele die de datum geeft waarop de status van de gebruiker voor het laatst is vernieuwd.|,
+		lastUpdated => 1155563944
+	},
+
+	'username.label' => {
+		message => q|Internationaal label voor de gebruikersnaam kolom in het verslag.|,
+		lastUpdated => 1155567349
 	},
 
 	'In Out Template description' => {
@@ -107,14 +106,9 @@ our $I18N = {
 		lastUpdated => 1166195132
 	},
 
-	'20' => {
-		message => q|Aanwezig/Afwezig Bord, Sjabloon|,
-		lastUpdated => 1153764738
-	},
-
-	'username' => {
-		message => q|Een variabele die de gebruikersnaam teruggeeft. Wanneer de voor en achternaamvelden in het profiel van de gebruiker ingevoerd zijn, worden deze gegeven. Anders wordt de WebGUI gebruikersnaam gegeven. Dus Jan Smit of Jsmit. |,
-		lastUpdated => 1166195145
+	'HR' => {
+		message => q|HR|,
+		lastUpdated => 1155895078
 	},
 
 	'IT' => {
@@ -122,9 +116,14 @@ our $I18N = {
 		lastUpdated => 1155895546
 	},
 
-	'HR' => {
-		message => q|HR|,
-		lastUpdated => 1155895078
+	'username' => {
+		message => q|Een variabele die de gebruikersnaam teruggeeft. Wanneer de voor en achternaamvelden in het profiel van de gebruiker ingevoerd zijn, worden deze gegeven. Anders wordt de WebGUI gebruikersnaam gegeven. Dus Jan Smit of Jsmit. |,
+		lastUpdated => 1166195145
+	},
+
+	'20' => {
+		message => q|Aanwezig/Afwezig Bord, Sjabloon|,
+		lastUpdated => 1153764738
 	},
 
 	'10' => {
@@ -169,19 +168,19 @@ our $I18N = {
 		lastUpdated => 1153764657
 	},
 
-	'12' => {
-		message => q|Pagineer Na|,
-		lastUpdated => 1153762542
-	},
-
 	'filter departments description' => {
 		message => q|Elk aanwezig/afwezig bord kan ingesteld worden zodat verscheidene afdelingen er gebruik vankunnen maken. Alleafdelingen worden standaard getoond in het verslag. Selecteer de naam van een afdeling om het verslag te beperken tot het tonen van status veranderingen binnen die afdeling. |,
 		lastUpdated => 1155565330
 	},
 
-	'viewReportURL' => {
-		message => q|De URL die linkt naar de bekijk verslag pagina.|,
-		lastUpdated => 1155567378
+	'12' => {
+		message => q|Pagineer Na|,
+		lastUpdated => 1153762542
+	},
+
+	'viewReportLabel' => {
+		message => q|De tekst voor de URL om het rapport weer te geven.|,
+		lastUpdated => 1166195175
 	},
 
 	'15' => {
@@ -189,9 +188,9 @@ our $I18N = {
 		lastUpdated => 1153762991
 	},
 
-	'viewReportLabel' => {
-		message => q|De tekst voor de URL om het rapport weer te geven.|,
-		lastUpdated => 1166195175
+	'viewReportURL' => {
+		message => q|De URL die linkt naar de bekijk verslag pagina.|,
+		lastUpdated => 1155567378
 	},
 
 	'selectDelegatesURL' => {
@@ -215,8 +214,8 @@ our $I18N = {
 	},
 
 	'createdBy' => {
-		message => q|Een variabele die aangeeft welke gebruiker (de gebruiker zelf of een afgezand) de status van deze gebruiker heeft veranderd. |,
-		lastUpdated => 1155563850
+		message => q|Een variabele die aangeeft welke gebruiker (de gebruiker zelf of een afgezant) de status van deze gebruiker heeft veranderd. |,
+		lastUpdated => 1207829925
 	},
 
 	'assetName' => {
@@ -309,14 +308,14 @@ our $I18N = {
 		lastUpdated => 1153927644
 	},
 
-	'14' => {
-		message => q|Pagineer Rapport Na|,
-		lastUpdated => 1153762741
-	},
-
 	'Regular Staff' => {
 		message => q|Reguliere staf|,
 		lastUpdated => 1155895463
+	},
+
+	'14' => {
+		message => q|Pagineer Rapport Na|,
+		lastUpdated => 1153762741
 	},
 
 	'inOutGroup description' => {
@@ -359,19 +358,14 @@ our $I18N = {
 		lastUpdated => 1153764877
 	},
 
-	'13' => {
-		message => q|Rapport Sjabloon|,
-		lastUpdated => 1153762605
-	},
-
 	'23' => {
 		message => q|De volgende variabelen zijn beschikbaar vanuit het Aanwezig/Afwezig Bord Rapport sjabloon:|,
 		lastUpdated => 1153764910
 	},
 
-	'status.label' => {
-		message => q|Internationaal label voor de status kolom in het verslag.|,
-		lastUpdated => 1155566896
+	'13' => {
+		message => q|Rapport Sjabloon|,
+		lastUpdated => 1153762605
 	},
 
 	'date label' => {
@@ -379,14 +373,9 @@ our $I18N = {
 		lastUpdated => 1155563861
 	},
 
-	'6' => {
-		message => q|Wat gebeurt er?|,
-		lastUpdated => 1153927673
-	},
-
-	'14 description' => {
-		message => q|Selecteer hoeveel lijnen je wil op elke pagina van het rapport. Je krijgt linken om additionele pagina's van het rapport te bekijken.|,
-		lastUpdated => 1153762899
+	'status.label' => {
+		message => q|Internationaal label voor de status kolom in het verslag.|,
+		lastUpdated => 1155566896
 	},
 
 	'in/out status delegates description' => {
@@ -394,19 +383,29 @@ our $I18N = {
 		lastUpdated => 1155565822
 	},
 
+	'14 description' => {
+		message => q|Selecteer hoeveel lijnen je wil op elke pagina van het rapport. Je krijgt linken om additionele pagina's van het rapport te bekijken.|,
+		lastUpdated => 1153762899
+	},
+
+	'6' => {
+		message => q|Wat gebeurt er?|,
+		lastUpdated => 1153927673
+	},
+
 	'in/out status delegates' => {
 		message => q|Annwezig/afwezig status afvaardiging|,
 		lastUpdated => 1155565634
 	},
 
-	'3' => {
-		message => q|Wie kan rapporten bekijken?|,
-		lastUpdated => 1153927417
-	},
-
 	'reportViewerGroup' => {
 		message => q|De ID van de groep die de rapporten mag zien van het aan- en afwezigheidsbord.|,
 		lastUpdated => 1189366270
+	},
+
+	'3' => {
+		message => q|Wie kan rapporten bekijken?|,
+		lastUpdated => 1153927417
 	},
 
 	'in out board asset template variables body' => {

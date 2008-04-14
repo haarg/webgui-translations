@@ -402,8 +402,8 @@ our $I18N = {
 	},
 
 	'searchTemplateId' => {
-		message => q|De ID van het sjabloon om een zoekpagina weer te geven waarmee gezicht kan worden naar pagina's binnen de betreffende Wiki.|,
-		lastUpdated => 1166616660
+		message => q|De ID van het sjabloon om een zoekpagina weer te geven waarmee gezocht kan worden naar pagina's binnen de betreffende Wiki.|,
+		lastUpdated => 1207906673
 	},
 
 	'addPageUrl' => {
@@ -512,8 +512,8 @@ our $I18N = {
 	},
 
 	'recent changes is available' => {
-		message => q|Een voorwaardelijke variabele die aangeeft of een pagina bechikbaar is om te bekijken of in de prullebak staat of op het klembord.|,
-		lastUpdated => 1189374011
+		message => q|Een voorwaardelijke variabele die aangeeft of een pagina bechikbaar is om te bekijken of in de prullenbak staat of op het klembord.|,
+		lastUpdated => 1207817460
 	},
 
 	'searchLabel variable' => {

@@ -72,8 +72,8 @@ our $I18N = {
 	},
 
 	'field.inTab' => {
-		message => q|Bepaald of het veld zich in een tabblad bevindt. |,
-		lastUpdated => 1149847917
+		message => q|Bepaalt of het veld zich in een tabblad bevindt. |,
+		lastUpdated => 1207834292
 	},
 
 	'20' => {
@@ -112,8 +112,8 @@ our $I18N = {
 	},
 
 	'acknowledgement var desc' => {
-		message => q|Dit is de bevesting die de gebruiker krijgt na het versturen van het Dataformulier.|,
-		lastUpdated => 1166193246
+		message => q|Dit is de bevestiging die de gebruiker krijgt na het versturen van het Dataformulier.|,
+		lastUpdated => 1207834587
 	},
 
 	'record.data.name' => {
@@ -247,8 +247,8 @@ our $I18N = {
 	},
 
 	'tab.field.isRequired' => {
-		message => q|Bepaald of het veld vereist is.|,
-		lastUpdated => 1149857164
+		message => q|Bepaalt of het veld vereist is.|,
+		lastUpdated => 1207834337
 	},
 
 	'mail attachments description' => {
@@ -262,8 +262,8 @@ our $I18N = {
 	},
 
 	'field.isRequired' => {
-		message => q|Bepaald of het veld vereist is.|,
-		lastUpdated => 1149847960
+		message => q|Bepaalt of het veld vereist is.|,
+		lastUpdated => 1207834303
 	},
 
 	'tab.field.subtext' => {
@@ -372,8 +372,8 @@ our $I18N = {
 	},
 
 	'field.isHidden' => {
-		message => q|Bepaald of het veld verborgen moet zijn.|,
-		lastUpdated => 1149847929
+		message => q|Bepaalt of het veld verborgen moet zijn.|,
+		lastUpdated => 1207834361
 	},
 
 	'104' => {
@@ -447,8 +447,8 @@ our $I18N = {
 	},
 
 	'tab_loop' => {
-		message => q|Een loop met alle informatie over het tabblad die gefineerd is voor het dataformulier.|,
-		lastUpdated => 1149858201
+		message => q|Een loop met alle informatie over het tabblad die gedefineerd is voor het dataformulier.|,
+		lastUpdated => 1207835263
 	},
 
 	'record.submissionDate.human' => {
@@ -467,8 +467,8 @@ our $I18N = {
 	},
 
 	'field.isDisplayed' => {
-		message => q|Bepaald of het veld weergegeven moet worden. |,
-		lastUpdated => 1149847858
+		message => q|Bepaalt of het veld weergegeven moet worden. |,
+		lastUpdated => 1207834384
 	},
 
 	'tab.field.form' => {
@@ -527,8 +527,8 @@ our $I18N = {
 	},
 
 	'tab.sequence' => {
-		message => q|Een nummer die aangeeft welk tabblad dit is.|,
-		lastUpdated => 1149858112
+		message => q|Een nummer dat aangeeft welk tabblad dit is.|,
+		lastUpdated => 1207835305
 	},
 
 	'74' => {
@@ -542,8 +542,8 @@ our $I18N = {
 	},
 
 	'tab.field.isDisplayed' => {
-		message => q|Bepaald of het veld wordt weergegeven.|,
-		lastUpdated => 1149857109
+		message => q|Bepaalt of het veld wordt weergegeven.|,
+		lastUpdated => 1207834495
 	},
 
 	'delete.url' => {
@@ -572,8 +572,8 @@ our $I18N = {
 	},
 
 	'tab.field.isHidden' => {
-		message => q|Bepaald of het veld verborgen wordt.|,
-		lastUpdated => 1149857125
+		message => q|Bepaalt of het veld verborgen wordt.|,
+		lastUpdated => 1207834422
 	},
 
 	'103' => {
@@ -757,8 +757,8 @@ our $I18N = {
 	},
 
 	'81 description' => {
-		message => q|Selecteer een sjabloon voor het weergeven van de bevesting van de verstuurde data. |,
-		lastUpdated => 1146837723
+		message => q|Selecteer een sjabloon voor het weergeven van de bevestiging van de verstuurde data. |,
+		lastUpdated => 1207916976
 	},
 
 	'epoch' => {
@@ -772,8 +772,8 @@ our $I18N = {
 	},
 
 	'74 description' => {
-		message => q|<p>Als u het dataformulier wilt e-mailen verschijnen er automatisch velden die gebruikt worden voor het e-mailen. Deze velden kunnen niet verwijdert worden maar u kunt ze wel wijzigen.</p><p>Het &quot;aan&quot; veld kan een e-mailadres, een gebruikersnaam of een groep bevatten. Om naar meerdere e-mailadressen te versturen kunt u meerdere adressen achter elkaar typen gescheiden door een komma. <br /> </p>|,
-		lastUpdated => 1146837100
+		message => q|<p>Als u het dataformulier wilt e-mailen verschijnen er automatisch velden die gebruikt worden voor het e-mailen. Deze velden kunnen niet verwijderd worden maar u kunt ze wel wijzigen.</p><p>Het &quot;aan&quot; veld kan een e-mailadres, een gebruikersnaam of een groep bevatten. Om naar meerdere e-mailadressen te versturen kunt u meerdere adressen achter elkaar typen gescheiden door een komma. <br /> </p>|,
+		lastUpdated => 1207825225
 	},
 
 	'75' => {
@@ -842,8 +842,8 @@ our $I18N = {
 	},
 
 	'record.data.isMailField' => {
-		message => q|Bepaald of het veld bestaat voor het e-mailbericht of het dataformulier.|,
-		lastUpdated => 1149851671
+		message => q|Bepaalt of het veld bestaat voor het e-mailbericht of het dataformulier.|,
+		lastUpdated => 1207834442
 	},
 
 	'entryList.label' => {
@@ -887,8 +887,8 @@ our $I18N = {
 	},
 
 	'field.isMailField' => {
-		message => q|Bepaald of het veld alleen gebruikt wordt om het e-mailbericht mee te versturen.|,
-		lastUpdated => 1149847946
+		message => q|Bepaalt of het veld alleen gebruikt wordt om het e-mailbericht mee te versturen.|,
+		lastUpdated => 1207834461
 	},
 
 	'export.tab.label' => {
@@ -937,8 +937,8 @@ our $I18N = {
 	},
 
 	'tab.field.isMailField' => {
-		message => q|Bepaald of het veld wordt gebruikt voor het verzenden van het e-mailbericht. |,
-		lastUpdated => 1149857149
+		message => q|Bepaalt of het veld wordt gebruikt voor het verzenden van het e-mailbericht. |,
+		lastUpdated => 1207834478
 	},
 
 };

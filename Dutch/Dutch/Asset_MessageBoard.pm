@@ -1,20 +1,19 @@
 package WebGUI::i18n::Dutch::Asset_MessageBoard;
 
-
 our $I18N = {
 	'forum.lastpost.user.isVisitor' => {
-		message => q|Bepaald of het laatste bericht is gepost door een bezoeker.  |,
-		lastUpdated => 1149862306
+		message => q|Bepaalt of het laatste bericht is gepost door een bezoeker.  |,
+		lastUpdated => 1207831799
+	},
+
+	'forum.user.canView' => {
+		message => q|Bepaalt of de gebruiker het forum kan bekijken. |,
+		lastUpdated => 1207831674
 	},
 
 	'forum.rating' => {
 		message => q|De gemiddelde waardering van alle berichten in dit forum.|,
 		lastUpdated => 1149862652
-	},
-
-	'forum.user.canView' => {
-		message => q|Bepaald of de gebruiker het forum kan bekijken. |,
-		lastUpdated => 1149862803
 	},
 
 	'assetName' => {
@@ -37,14 +36,14 @@ our $I18N = {
 		lastUpdated => 1149861179
 	},
 
-	'forum.controls' => {
-		message => q|De werkbalk voor het wijzigen van het forum. |,
-		lastUpdated => 1149861214
-	},
-
 	'forum.lastpost.user.alias' => {
 		message => q|De alias van de gebruiker van het laatste bericht. |,
 		lastUpdated => 1149862339
+	},
+
+	'forum.controls' => {
+		message => q|De werkbalk voor het wijzigen van het forum. |,
+		lastUpdated => 1149861214
 	},
 
 	'74' => {
@@ -73,8 +72,8 @@ our $I18N = {
 	},
 
 	'areMultipleForums' => {
-		message => q|Bepaald of er meerdere fora zijn.|,
-		lastUpdated => 1149861028
+		message => q|Bepaalt of er meerdere fora zijn.|,
+		lastUpdated => 1207831765
 	},
 
 	'rating.label' => {
@@ -87,14 +86,14 @@ our $I18N = {
 		lastUpdated => 1149862447
 	},
 
-	'forum.views' => {
-		message => q|het totaal van het aantal keer dat alle berichten in dit forum zijn gelezen. |,
-		lastUpdated => 1149863575
-	},
-
 	'message board asset template variables title' => {
 		message => q|Berichtenbord (Message Board) template variabelen|,
 		lastUpdated => 1189366384
+	},
+
+	'forum.views' => {
+		message => q|het totaal van het aantal keer dat alle berichten in dit forum zijn gelezen. |,
+		lastUpdated => 1149863575
 	},
 
 	'forum.lastpost.url' => {
@@ -107,19 +106,19 @@ our $I18N = {
 		lastUpdated => 1149862418
 	},
 
-	'forum.count' => {
-		message => q|Het nummer van het forum.|,
-		lastUpdated => 1149861238
-	},
-
 	'title' => {
 		message => q|Titel|,
 		lastUpdated => 1149863761
 	},
 
-	'forum_loop' => {
-		message => q|Een loop met de data van alle fora in het berichtenbord.  |,
-		lastUpdated => 1149863605
+	'forum.count' => {
+		message => q|Het nummer van het forum.|,
+		lastUpdated => 1149861238
+	},
+
+	'forum.lastpost.time' => {
+		message => q|De tijd van het laatste bericht in dit forum. |,
+		lastUpdated => 1149862366
 	},
 
 	'forum.threads' => {
@@ -127,9 +126,9 @@ our $I18N = {
 		lastUpdated => 1149862720
 	},
 
-	'forum.lastpost.time' => {
-		message => q|De tijd van het laatste bericht in dit forum. |,
-		lastUpdated => 1149862366
+	'forum_loop' => {
+		message => q|Een loop met de data van alle fora in het berichtenbord.  |,
+		lastUpdated => 1149863605
 	},
 
 	'title.label' => {
@@ -162,24 +161,24 @@ our $I18N = {
 		lastUpdated => 1189366360
 	},
 
-	'forum.url' => {
-		message => q|De url om dit forum te bekijken. |,
-		lastUpdated => 1149862750
-	},
-
 	'rating' => {
 		message => q|Waardering|,
 		lastUpdated => 1149863655
 	},
 
-	'views' => {
-		message => q|Bekeken|,
-		lastUpdated => 1149863783
+	'forum.url' => {
+		message => q|De url om dit forum te bekijken. |,
+		lastUpdated => 1149862750
 	},
 
 	'lastpost' => {
 		message => q|Laatste bericht|,
 		lastUpdated => 1149863617
+	},
+
+	'views' => {
+		message => q|Bekeken|,
+		lastUpdated => 1149863783
 	},
 
 	'default.listing' => {
@@ -217,9 +216,14 @@ our $I18N = {
 		lastUpdated => 1149862508
 	},
 
-	'forum.lastpost.user.id' => {
-		message => q|Het unieke nummer van de gebruiker van het laatste bericht.|,
-		lastUpdated => 1149862321
+	'threads' => {
+		message => q|Berichten|,
+		lastUpdated => 1149863737
+	},
+
+	'forum.user.canPost' => {
+		message => q|Bepaalt of de gebruiker rechten heeft om berichten te plaatsen.|,
+		lastUpdated => 1207831700
 	},
 
 	'views.label' => {
@@ -227,14 +231,9 @@ our $I18N = {
 		lastUpdated => 1149863832
 	},
 
-	'forum.user.canPost' => {
-		message => q|Bepaald of de gebruiker rechten heeft om berichten te plaatsen.|,
-		lastUpdated => 1149862771
-	},
-
-	'threads' => {
-		message => q|Berichten|,
-		lastUpdated => 1149863737
+	'forum.lastpost.user.id' => {
+		message => q|Het unieke nummer van de gebruiker van het laatste bericht.|,
+		lastUpdated => 1149862321
 	},
 
 	'replies.label' => {
@@ -242,14 +241,14 @@ our $I18N = {
 		lastUpdated => 1149863728
 	},
 
-	'visitor cache timeout help' => {
-		message => q|Omdat de asset voor alle bezoekers gelijk is kan de asset in de cache worden opgeslagen. Dit komt de snelheid ten goede. Hoe lang moet de asset in de cache worden opgeslagen? |,
-		lastUpdated => 1149863906
-	},
-
 	'73' => {
 		message => q|Berichtenbord sjabloon|,
 		lastUpdated => 1149860910
+	},
+
+	'visitor cache timeout help' => {
+		message => q|Omdat de asset voor alle bezoekers gelijk is kan de asset in de cache worden opgeslagen. Dit komt de snelheid ten goede. Hoe lang moet de asset in de cache worden opgeslagen? |,
+		lastUpdated => 1149863906
 	},
 
 	'76' => {

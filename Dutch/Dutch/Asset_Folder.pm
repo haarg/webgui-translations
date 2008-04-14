@@ -87,8 +87,8 @@ our $I18N = {
 	},
 
 	'icon.small' => {
-		message => q|Een URL naar een klein ikoon dat de asset representeert.|,
-		lastUpdated => 1147965089
+		message => q|Een URL naar een klein icoon dat de asset representeert.|,
+		lastUpdated => 1207840131
 	},
 
 	'asset template variables body' => {
@@ -187,8 +187,8 @@ our $I18N = {
 	},
 
 	'icon.big' => {
-		message => q|Een URL van een ikoon dat de asset representeert|,
-		lastUpdated => 1147965178
+		message => q|Een URL van een icoon dat de asset representeert|,
+		lastUpdated => 1207840157
 	},
 
 	'subfolder_loop' => {

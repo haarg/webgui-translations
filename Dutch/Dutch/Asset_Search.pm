@@ -62,8 +62,8 @@ our $I18N = {
 	},
 
 	'class limiter description' => {
-		message => q|Dit beperkt de zoekopdracht tot de typen assets die hier geselcteerd worden.|,
-		lastUpdated => 1149502826
+		message => q|Dit beperkt de zoekopdracht tot de typen assets die hier geselecteerd worden.|,
+		lastUpdated => 1207826402
 	},
 
 	'result_set' => {
@@ -98,7 +98,7 @@ our $I18N = {
 
 	'search root description' => {
 		message => q|De geselecteerde asset en alle assets hieronder worden doorzocht |,
-		lastUpdated => 1205852651
+		lastUpdated => 1207826359
 	},
 
 	'results_found' => {

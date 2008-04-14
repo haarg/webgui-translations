@@ -17,8 +17,8 @@ our $I18N = {
 	},
 
 	'image height description' => {
-		message => q|The hoogte van de afbeelding in pixels.|,
-		lastUpdated => 1152530650
+		message => q|De hoogte van de afbeelding in pixels.|,
+		lastUpdated => 1207829058
 	},
 
 	'no graphing plugins' => {

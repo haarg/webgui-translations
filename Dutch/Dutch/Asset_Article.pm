@@ -1,6 +1,5 @@
 package WebGUI::i18n::Dutch::Asset_Article;
 
-
 our $I18N = {
 	'description.first.sentence' => {
 		message => q|De eerste zin in de beschrijving. Een zin wordt bepaald door het aantal punten te tellen die in de tekst werden gevonden.|,
@@ -8,8 +7,8 @@ our $I18N = {
 	},
 
 	'article template description' => {
-		message => q|Kies een sjabloon uit de lijst om je Wobject vorm te geven. Elk Wobject mag enkel sjablonen gebruiken voor zijn eigen namespace. Bevoorbeeld, Artikelen kunnen enkel sjablonen gebruiken van de "Artikel" namespace. Layouts kunnen enkel sjablonen gebruiken van de "pagina" namespace.|,
-		lastUpdated => 1151702214
+		message => q|Kies een sjabloon uit de lijst om je Wobject vorm te geven. Elk Wobject mag enkel sjablonen gebruiken voor zijn eigen namespace. Bijvoorbeeld, Artikelen kunnen enkel sjablonen gebruiken van de &quot;Artikel&quot; namespace. Layouts kunnen enkel sjablonen gebruiken van de &quot;pagina&quot; namespace.|,
+		lastUpdated => 1207915989
 	},
 
 	'linkTitle' => {
@@ -17,14 +16,14 @@ our $I18N = {
 		lastUpdated => 1151824935
 	},
 
-	'7' => {
-		message => q|Link Titel|,
-		lastUpdated => 1151701312
-	},
-
 	'description.first.10words' => {
 		message => q|De eerste 10 woorden in de beschrijving. Woorden worden gedefiniëerd als karakters geschieden door spaties, dus HTML entiteiten en tags tellen als woorden.|,
 		lastUpdated => 1151703218
+	},
+
+	'7' => {
+		message => q|Link Titel|,
+		lastUpdated => 1151701312
 	},
 
 	'assetName' => {
@@ -32,9 +31,9 @@ our $I18N = {
 		lastUpdated => 1151702223
 	},
 
-	'description.full' => {
-		message => q|De volledige beschrijving zonder enige paginering.|,
-		lastUpdated => 1151742560
+	'description.first.2paragraphs' => {
+		message => q|De twee eerste paragrafen van de beschrijving. Een paragraaf wordt bepaald door het aantal carriage returns die in de tekst werden gevonden.|,
+		lastUpdated => 1151742348
 	},
 
 	'description.first.paragraph' => {
@@ -42,9 +41,9 @@ our $I18N = {
 		lastUpdated => 1151742482
 	},
 
-	'description.first.2paragraphs' => {
-		message => q|De twee eerste paragrafen van de beschrijving. Een paragraaf wordt bepaald door het aantal carriage returns die in de tekst werden gevonden.|,
-		lastUpdated => 1151742348
+	'description.full' => {
+		message => q|De volledige beschrijving zonder enige paginering.|,
+		lastUpdated => 1151742560
 	},
 
 	'72' => {
@@ -83,17 +82,13 @@ our $I18N = {
 	},
 
 	'link url description' => {
-		message => q|Als u een titel voor een link toevoegde, kan u hier de URL (uniform resource locator) toevoegen.
-
-Voorbeeld: http://www.google.com|,
-		lastUpdated => 1151824901
+		message => q|Als u een titel voor een link toevoegde, kunt u hier de URL (uniform resource locator) toevoegen.  Voorbeeld: http://www.google.com|,
+		lastUpdated => 1207819358
 	},
 
 	'new.template' => {
-		message => q|Artikels hebben een speciale mogelijkheid om hun sjabloon te wijzigen zodat je gebruikers verschillende opmaken van het artikel kan laten zien. Je kan dit bewerkstelligen door een link te creëren met een URL als volgt (vervang 999 met het sjabloon ID dat je wenst te gebruiken):
-
-<a href="<tmpl_var new.template>999">Lees meer...</a>|,
-		lastUpdated => 1151825152
+		message => q|Artikels hebben een speciale mogelijkheid om hun sjabloon te wijzigen zodat je gebruikers verschillende opmaken van het artikel kan laten zien. Je kunt dit bewerkstelligen door een link te cre&euml;ren met een URL als volgt (vervang 999 met het sjabloon ID dat je wenst te gebruiken):  <a href="%22%3Ctmpl_var">999&quot;&gt;Lees meer...</a>|,
+		lastUpdated => 1207916514
 	},
 
 	'image.url' => {
@@ -101,14 +96,14 @@ Voorbeeld: http://www.google.com|,
 		lastUpdated => 1151744832
 	},
 
-	'article asset template variables body' => {
-		message => q|Ieder Asset heeft bepaalde variabelen binnen de templates betreffende de eigenschappen van een Asset. Sommige zullen bruikbaar zijn, anderen niet.|,
-		lastUpdated => 1166193319
-	},
-
 	'isImage' => {
 		message => q|Een Booleaanse aanduiding van of dit een afbeelding is of niet.|,
 		lastUpdated => 1151744873
+	},
+
+	'article asset template variables body' => {
+		message => q|Ieder Asset heeft bepaalde variabelen binnen de templates betreffende de eigenschappen van een Asset. Sommige zullen bruikbaar zijn, anderen niet.|,
+		lastUpdated => 1166193319
 	},
 
 	'storageId' => {
@@ -117,13 +112,8 @@ Voorbeeld: http://www.google.com|,
 	},
 
 	'cache timeout help' => {
-		message => q|Gezien all gebruikers deze asset op dezelfde manier zullen zien, kunnen we het gedurende langere tijd cachen ter verbetering van de performantie. Hoe lang moeten we het cachen?|,
-		lastUpdated => 1151703017
-	},
-
-	'description.first.3sentences' => {
-		message => q|De eerste drie zinnen in de beschrijving. Een zin wordt bepaald door het aantal punten te tellen die in de tekst werden gevonden.|,
-		lastUpdated => 1151742240
+		message => q|Gezien alle gebruikers deze asset op dezelfde manier zullen zien, kunnen we het gedurende langere tijd cachen ter verbetering van de performantie. Hoe lang moeten we het cachen?|,
+		lastUpdated => 1207916443
 	},
 
 	'article asset template variables title' => {
@@ -134,6 +124,11 @@ Voorbeeld: http://www.google.com|,
 	'description.first.2sentences' => {
 		message => q|De twee eerste zinnen in de beschrijving. Een zin wordt bepaald door het aantal punten te tellen die in de tekst werden gevonden.|,
 		lastUpdated => 1151742247
+	},
+
+	'description.first.3sentences' => {
+		message => q|De eerste drie zinnen in de beschrijving. Een zin wordt bepaald door het aantal punten te tellen die in de tekst werden gevonden.|,
+		lastUpdated => 1151742240
 	},
 
 	'description.first.50words' => {
@@ -171,9 +166,9 @@ Voorbeeld: http://www.google.com|,
 		lastUpdated => 1151702420
 	},
 
-	'description.first.100words' => {
-		message => q|De eerste 100 woorden in de beschrijving. Woorden worden gedefiniëerd als karakters geschieden door spaties, dus HTML entiteiten en tags tellen als woorden.|,
-		lastUpdated => 1151703145
+	'thumbnailUrl' => {
+		message => q|De URL voor de mini-weergave van dit bestand.|,
+		lastUpdated => 1151836528
 	},
 
 	'attachment_loop' => {
@@ -181,9 +176,9 @@ Voorbeeld: http://www.google.com|,
 		lastUpdated => 1151702401
 	},
 
-	'thumbnailUrl' => {
-		message => q|De URL voor de mini-weergave van dit bestand.|,
-		lastUpdated => 1151836528
+	'description.first.100words' => {
+		message => q|De eerste 100 woorden in de beschrijving. Woorden worden gedefiniëerd als karakters geschieden door spaties, dus HTML entiteiten en tags tellen als woorden.|,
+		lastUpdated => 1151703145
 	},
 
 	'cacheTimeout' => {
@@ -206,9 +201,9 @@ Voorbeeld: http://www.google.com|,
 		lastUpdated => 1151743390
 	},
 
-	'description.first.25words' => {
-		message => q|De eerste 25 woorden in de beschrijving. Woorden worden gedefiniëerd als karakters geschieden door spaties, dus HTML entiteiten en tags tellen als woorden.|,
-		lastUpdated => 1151742286
+	'73' => {
+		message => q|De volgende sjabloon variabelen zijn beschikbaar voor artikel sjablonen.|,
+		lastUpdated => 1151701934
 	},
 
 	'attachment.url' => {
@@ -216,9 +211,9 @@ Voorbeeld: http://www.google.com|,
 		lastUpdated => 1151702382
 	},
 
-	'73' => {
-		message => q|De volgende sjabloon variabelen zijn beschikbaar voor artikel sjablonen.|,
-		lastUpdated => 1151701934
+	'description.first.25words' => {
+		message => q|De eerste 25 woorden in de beschrijving. Woorden worden gedefiniëerd als karakters geschieden door spaties, dus HTML entiteiten en tags tellen als woorden.|,
+		lastUpdated => 1151742286
 	},
 
 	'image.thumbnail' => {

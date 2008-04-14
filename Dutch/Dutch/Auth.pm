@@ -1,6 +1,5 @@
 package WebGUI::i18n::Dutch::Auth;
 
-
 our $I18N = {
 	'login.form.header' => {
 		message => q|De verplichte formulier-elementen die bovenaan de pagina Login behoren te staan.|,
@@ -8,8 +7,8 @@ our $I18N = {
 	},
 
 	'create.form.header' => {
-		message => q|De verplichte formulierelementen die bovenaan de pagian Anonieme Registratie behoren te staan.|,
-		lastUpdated => 1166622637
+		message => q|De verplichte formulierelementen die bovenaan de pagina Anonieme Registratie behoren te staan.|,
+		lastUpdated => 1207906306
 	},
 
 	'create.form.profile.id.formElement' => {
@@ -28,8 +27,8 @@ our $I18N = {
 	},
 
 	'create.form.profile' => {
-		message => q|Een loop die de zichtbare en verplichte profielvelden bevat voor anonieme registratie. Deze variabelen zijn ook beschikbaar buiten deze loop; ze kunnen dan worden dan benaderd met hun ID. |,
-		lastUpdated => 1166622719
+		message => q|Een loop die de zichtbare en verplichte profielvelden bevat voor anonieme registratie. Deze variabelen zijn ook beschikbaar buiten deze loop; ze kunnen dan worden benaderd met hun ID. |,
+		lastUpdated => 1207906395
 	},
 
 	'login template title' => {
@@ -37,9 +36,9 @@ our $I18N = {
 		lastUpdated => 1166623654
 	},
 
-	'account.form.header' => {
-		message => q|De verplichte formulier-elementen die bovenaan de pagina "Weergeven Inloggevens" komen.|,
-		lastUpdated => 1166619658
+	'no.url' => {
+		message => q|De URL om geen wijzigingen aan te brengen in de logingegevens van de gebruiker. |,
+		lastUpdated => 1166623975
 	},
 
 	'login.form.hidden' => {
@@ -47,9 +46,9 @@ our $I18N = {
 		lastUpdated => 1166623748
 	},
 
-	'no.url' => {
-		message => q|De URL om geen wijzigingen aan te brengen in de logingegevens van de gebruiker. |,
-		lastUpdated => 1166623975
+	'account.form.header' => {
+		message => q|De verplichte formulier-elementen die bovenaan de pagina "Weergeven Inloggevens" komen.|,
+		lastUpdated => 1166619658
 	},
 
 	'profile.required' => {
@@ -72,14 +71,14 @@ our $I18N = {
 		lastUpdated => 1166623802
 	},
 
-	'login.url' => {
-		message => q|De URL naar de login pagina.|,
-		lastUpdated => 1166623910
-	},
-
 	'yes.label' => {
 		message => q|Label - in meerdere talen beschikbaar - voor "Ja".|,
 		lastUpdated => 1166624177
+	},
+
+	'login.url' => {
+		message => q|De URL naar de login pagina.|,
+		lastUpdated => 1166623910
 	},
 
 	'title' => {
@@ -162,9 +161,9 @@ our $I18N = {
 		lastUpdated => 1166623209
 	},
 
-	'login.form.username.label' => {
-		message => q|Standaard label - in meerdere talen beschikbaar - voor het formulierveld gebruikersnaam.|,
-		lastUpdated => 1166623874
+	'profile.formElement.label' => {
+		message => q|Standaard label - in meerdere talen beschikbaar - voor het formulier-element Profiel. |,
+		lastUpdated => 1166624050
 	},
 
 	'profile.formElement' => {
@@ -172,14 +171,19 @@ our $I18N = {
 		lastUpdated => 1166624005
 	},
 
-	'profile.formElement.label' => {
-		message => q|Standaard label - in meerdere talen beschikbaar - voor het formulier-element Profiel. |,
-		lastUpdated => 1166624050
+	'login.form.username.label' => {
+		message => q|Standaard label - in meerdere talen beschikbaar - voor het formulierveld gebruikersnaam.|,
+		lastUpdated => 1166623874
 	},
 
 	'create.form.footer' => {
 		message => q|De verplichte formulierelementen die volgen op het formulier Anonieme Registratie.|,
 		lastUpdated => 1166622613
+	},
+
+	'question' => {
+		message => q|URL waarmee de logingegevens van een gebruiker niet gewijzigd worden.|,
+		lastUpdated => 1166624143
 	},
 
 	'login.form.submit' => {
@@ -190,11 +194,6 @@ our $I18N = {
 	'createAccount.label' => {
 		message => q|Het standaard label voor anonieme registratie, beschikbaar in meerdere talen. |,
 		lastUpdated => 1166623091
-	},
-
-	'question' => {
-		message => q|URL waarmee de logingegevens van een gebruiker niet gewijzigd worden.|,
-		lastUpdated => 1166624143
 	},
 
 	'login.label' => {

@@ -277,8 +277,8 @@ our $I18N = {
 	},
 
 	'tmplVar isError' => {
-		message => q|Deze variabele wordt gebruikt binnen een tmpl_if statement en is waar als er een foutmelding is ontstaan tijdens de verwerking van de registratie van een deelnemer. Deze varaibele is alleen waar als de "registration" template variabele waar is.|,
-		lastUpdated => 1189348670
+		message => q|Deze variabele wordt gebruikt binnen een tmpl_if statement en is waar als er een foutmelding is ontstaan tijdens de verwerking van de registratie van een deelnemer. Deze variabele is alleen waar als de &quot;registration&quot; template variabele waar is.|,
+		lastUpdated => 1207836110
 	},
 
 	'phone number' => {
@@ -427,8 +427,8 @@ our $I18N = {
 	},
 
 	'global metadata description' => {
-		message => q|<p>Hier kan gekozen worden of alle andere metadata velden ban evenementen beheersystemen gebruikt worden of niet bij het toekennen van metadata aan evenementen en bij het zoeken naar evenementen.</p><p>&nbsp;</p><p>De lijst met metadata velden op het beheer scherm bij deze asset zal nog steeds beperkt zijn tot degene die bij dit beheersysteem aangemaakt zijn.&nbsp;</p>|,
-		lastUpdated => 1148303606
+		message => q|<p>Hier kan gekozen worden of alle andere metadata velden van evenementen beheersystemen gebruikt worden of niet bij het toekennen van metadata aan evenementen en bij het zoeken naar evenementen.</p><p>&nbsp;</p><p>De lijst met metadata velden op het beheer scherm bij deze asset zal nog steeds beperkt zijn tot degene die bij dit beheersysteem aangemaakt zijn.&nbsp;</p>|,
+		lastUpdated => 1207825600
 	},
 
 	'ems.wobject.dir' => {
@@ -632,8 +632,8 @@ our $I18N = {
 	},
 
 	'assigned prerequisite set description' => {
-		message => q|De set van vereisten voor dit evenment voordat dit aan een badge kan worden toegevoegd.|,
-		lastUpdated => 1148292280
+		message => q|De set van vereisten voor dit evenement voordat dit aan een badge kan worden toegevoegd.|,
+		lastUpdated => 1207829640
 	},
 
 	'transactionId' => {
@@ -1127,8 +1127,8 @@ our $I18N = {
 	},
 
 	'addToBadgeMessage' => {
-		message => q|<p>Een bericht van het systeem waarin wordt vermeld of de badge met succes is toegevoegd aan deze transactie. transaction. </p>|,
-		lastUpdated => 1149862133
+		message => q|<p>Een bericht van het systeem waarin wordt vermeld of de badge met succes is toegevoegd aan deze transactie. </p>|,
+		lastUpdated => 1207906900
 	},
 
 	'registrationId' => {

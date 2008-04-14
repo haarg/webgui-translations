@@ -87,8 +87,8 @@ our $I18N = {
 	},
 
 	'868' => {
-		message => q|Welkomstbericht versturen?|,
-		lastUpdated => 1152612459
+		message => q|Welkomsbericht versturen?|,
+		lastUpdated => 1207821380
 	},
 
 	'LDAPLink_104' => {
@@ -222,8 +222,8 @@ our $I18N = {
 	},
 
 	'anon reg template title' => {
-		message => q|Anononiem LDAP registratie authenticatie sjabloon|,
-		lastUpdated => 1190025162
+		message => q|Anoniem LDAP registratie authenticatie sjabloon|,
+		lastUpdated => 1207830625
 	},
 
 	'LDAPLink_80' => {
@@ -337,8 +337,8 @@ our $I18N = {
 	},
 
 	'869' => {
-		message => q|Welkomstbericht|,
-		lastUpdated => 1152612451
+		message => q|Welkomsbericht|,
+		lastUpdated => 1207821389
 	},
 
 	'ldapconnections' => {
@@ -407,8 +407,8 @@ our $I18N = {
 	},
 
 	'account.form.karma' => {
-		message => q|Een formulier eigenschap die alleen leesbaar is, die dehoeveelheid karma van een gebruiker laat zien. Karma is een configureerbare gebruikers instelling die standaard uitstaat.|,
-		lastUpdated => 1152618195
+		message => q|Een formulier eigenschap die alleen leesbaar is, die de hoeveelheid karma van een gebruiker laat zien. Karma is een configureerbare gebruikers instelling die standaard uitstaat.|,
+		lastUpdated => 1207903391
 	},
 
 	'LDAPLink_ldapRecursiveFilterDescription' => {

@@ -32,8 +32,8 @@ our $I18N = {
 	},
 
 	'dragger.icon' => {
-		message => q|Een ikoon waarmee de asset verplaatst kan worden door middel van het klikken en slepen met de muis. Deze variabele is leeg als admin niet getoond wordt. |,
-		lastUpdated => 1149258233
+		message => q|Een icoon waarmee de asset verplaatst kan worden door middel van het klikken en slepen met de muis. Deze variabele is leeg als admin niet getoond wordt. |,
+		lastUpdated => 1207840091
 	},
 
 	'asset order label' => {
@@ -87,8 +87,8 @@ our $I18N = {
 	},
 
 	'layout template body' => {
-		message => q|De volgende variabelen zijn beschikbaarvoor de sjablonen voor pagina layout:|,
-		lastUpdated => 1149257636
+		message => q|De volgende variabelen zijn beschikbaar voor de sjablonen voor pagina layout:|,
+		lastUpdated => 1207901221
 	},
 
 	'showAdmin' => {

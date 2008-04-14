@@ -1,15 +1,14 @@
 package WebGUI::i18n::Dutch::Asset_TimeTracking;
 
-
 our $I18N = {
-	'Project Management Integration' => {
-		message => q|Project management integratie|,
-		lastUpdated => 1151500761
-	},
-
 	'time.add.row.label' => {
 		message => q|De zin &quot;voeg rij toe&quot;, ge&iuml;nternationaliseerd.|,
 		lastUpdated => 1156175237
+	},
+
+	'Project Management Integration' => {
+		message => q|Project management integratie|,
+		lastUpdated => 1151500761
 	},
 
 	'manage project available task label' => {
@@ -17,14 +16,14 @@ our $I18N = {
 		lastUpdated => 1156162036
 	},
 
-	'No  name was entered for new task' => {
-		message => q|Voor deze nieuwe taak is geen naam ingevoerd. |,
-		lastUpdated => 1151500745
-	},
-
 	'time report task label' => {
 		message => q|Taak|,
 		lastUpdated => 1156174038
+	},
+
+	'No  name was entered for new task' => {
+		message => q|Voor deze nieuwe taak is geen naam ingevoerd. |,
+		lastUpdated => 1151500745
 	},
 
 	'manage project name label' => {
@@ -37,24 +36,14 @@ our $I18N = {
 		lastUpdated => 1156185721
 	},
 
-	'New Task Name' => {
-		message => q|naam nieuwe taak|,
-		lastUpdated => 1151500727
-	},
-
 	'You may not submit more hours than are available during any given week.' => {
 		message => q|Het is niet toegestaan om meer uren te registreren dan er beschikbaar zijn gedurende een week. |,
 		lastUpdated => 1151501228
 	},
 
-	'edit project tasks hoverhelp' => {
-		message => q|Voer de taken (één per regel) van het project in waarop je tijd wilt bijhouden in dit project.|,
-		lastUpdated => 1180650719
-	},
-
-	'form.hours' => {
-		message => q|Als het rapport gemarkeerd is als &#39;compleet&#39;, bevat deze variabele het aantal gewerkte uren aan een taak voor een project op een dag. Als de taak niet compleet is, dan bevat deze variabele een formulier-code voor de gebruiker om een drijvend punt-nummer in te voeren voor het aantal gewerkte uren. |,
-		lastUpdated => 1154364889
+	'New Task Name' => {
+		message => q|naam nieuwe taak|,
+		lastUpdated => 1151500727
 	},
 
 	'managerViewTemplateId' => {
@@ -62,9 +51,14 @@ our $I18N = {
 		lastUpdated => 1180651361
 	},
 
-	'Choose yes to pull projects and task information from the various project management assets on your site' => {
-		message => q|Kies &#39;ja&#39; om projecten en taken af te leiden van de verschillende project management-assets op je site.&nbsp;|,
-		lastUpdated => 1151500689
+	'form.hours' => {
+		message => q|Als het rapport gemarkeerd is als &#39;compleet&#39;, bevat deze variabele het aantal gewerkte uren aan een taak voor een project op een dag. Als de taak niet compleet is, dan bevat deze variabele een formulier-code voor de gebruiker om een drijvend punt-nummer in te voeren voor het aantal gewerkte uren. |,
+		lastUpdated => 1154364889
+	},
+
+	'edit project tasks hoverhelp' => {
+		message => q|Voer de taken (één per regel) van het project in waarop je tijd wilt bijhouden in dit project.|,
+		lastUpdated => 1180650719
 	},
 
 	'time.report.totalHours.label' => {
@@ -72,14 +66,19 @@ our $I18N = {
 		lastUpdated => 1180651662
 	},
 
-	'time report project label' => {
-		message => q|Project|,
-		lastUpdated => 1156174027
+	'Choose yes to pull projects and task information from the various project management assets on your site' => {
+		message => q|Kies &#39;ja&#39; om projecten en taken af te leiden van de verschillende project management-assets op je site.&nbsp;|,
+		lastUpdated => 1151500689
 	},
 
 	'row.id' => {
 		message => q|Een unieke identificatie voor deze rij, rij_<em>rijNum</em>|,
 		lastUpdated => 1156172295
+	},
+
+	'time report project label' => {
+		message => q|Project|,
+		lastUpdated => 1156174027
 	},
 
 	'edit project id hoverhelp' => {
@@ -112,14 +111,14 @@ our $I18N = {
 		lastUpdated => 1153743169
 	},
 
-	'timeRowTemplateId' => {
-		message => q|De ID van het sjabloon dat een rij uit de urenregistratie vormt.|,
-		lastUpdated => 1180651767
-	},
-
 	'project.task.array' => {
 		message => q|Een stuk Javascript dat data bevat over de projecten en taken.|,
 		lastUpdated => 1180651480
+	},
+
+	'timeRowTemplateId' => {
+		message => q|De ID van het sjabloon dat een rij uit de urenregistratie vormt.|,
+		lastUpdated => 1180651767
 	},
 
 	'form.taskEntryId' => {
@@ -172,14 +171,14 @@ our $I18N = {
 		lastUpdated => 1156183782
 	},
 
-	'project manage label' => {
-		message => q|Beheer projecten|,
-		lastUpdated => 1156167048
-	},
-
 	'groupToManage' => {
 		message => q|De ID van de groep die alle urenregistraties mag zien en geregistreerde uren kan bijwerken.|,
 		lastUpdated => 1180651308
+	},
+
+	'project manage label' => {
+		message => q|Beheer projecten|,
+		lastUpdated => 1156167048
 	},
 
 	'time.report.comments.label' => {
@@ -187,14 +186,14 @@ our $I18N = {
 		lastUpdated => 1156183687
 	},
 
-	'groupToManage hoverhelp' => {
-		message => q|Groep die alle urenregistraties kan bekijken en geregistreerde uren kan bijwerken. |,
-		lastUpdated => 1180651266
-	},
-
 	'edit project id label' => {
 		message => q|project id|,
 		lastUpdated => 1151501495
+	},
+
+	'groupToManage hoverhelp' => {
+		message => q|Groep die alle urenregistraties kan bekijken en geregistreerde uren kan bijwerken. |,
+		lastUpdated => 1180651266
 	},
 
 	'js.alert.validate.incomplete.error' => {
@@ -223,8 +222,8 @@ our $I18N = {
 	},
 
 	'form.date' => {
-		message => q|Als het verslag afgerond iszal deze variabele het project bevatten waarvoor een status is ingevoerd. Als de taak niet afgerond is zal deze variabele code voor een selctievak in het formulier bevatten, waarmee de gebruiker kan invullen op welke dag de staus informatie wordt ingevoerd.|,
-		lastUpdated => 1153750013
+		message => q|Als het verslag afgerond is zal deze variabele het project bevatten waarvoor een status is ingevoerd. Als de taak niet afgerond is zal deze variabele code voor een selctievak in het formulier bevatten, waarmee de gebruiker kan invullen op welke dag de status informatie wordt ingevoerd.|,
+		lastUpdated => 1207905992
 	},
 
 	'time.report.date.label' => {
@@ -292,14 +291,14 @@ our $I18N = {
 		lastUpdated => 1151500962
 	},
 
-	'Tasks' => {
-		message => q|taken|,
-		lastUpdated => 1151500878
-	},
-
 	'Are you sure you want to delete this activity' => {
 		message => q|Deze activiteit wordt gewist. Zeker weten? |,
 		lastUpdated => 1151500569
+	},
+
+	'Tasks' => {
+		message => q|taken|,
+		lastUpdated => 1151500878
 	},
 
 	'edit project name hoverhelp' => {
@@ -307,19 +306,14 @@ our $I18N = {
 		lastUpdated => 1180650672
 	},
 
-	'Add' => {
-		message => q|nieuw|,
-		lastUpdated => 1151500458
-	},
-
 	'Report Complete' => {
 		message => q|rapport gereed|,
 		lastUpdated => 1151500867
 	},
 
-	'time report date label' => {
-		message => q|Datum|,
-		lastUpdated => 1156173486
+	'Add' => {
+		message => q|nieuw|,
+		lastUpdated => 1151500458
 	},
 
 	'edit project resource hoverhelp' => {
@@ -327,9 +321,9 @@ our $I18N = {
 		lastUpdated => 1180650683
 	},
 
-	'edit project screen label' => {
-		message => q|bewerk project|,
-		lastUpdated => 1152006143
+	'time report date label' => {
+		message => q|Datum|,
+		lastUpdated => 1156173486
 	},
 
 	'js.alert.removeRow.error' => {
@@ -337,14 +331,19 @@ our $I18N = {
 		lastUpdated => 1156161324
 	},
 
-	'time report header' => {
-		message => q|Tijd aanmelding voor week eindigend op %s|,
-		lastUpdated => 1156173647
+	'edit project screen label' => {
+		message => q|bewerk project|,
+		lastUpdated => 1152006143
 	},
 
 	'Choose One' => {
 		message => q|Kies er een|,
 		lastUpdated => 1151500592
+	},
+
+	'time report header' => {
+		message => q|Tijd aanmelding voor week eindigend op %s|,
+		lastUpdated => 1156173647
 	},
 
 	'form.project' => {
@@ -357,14 +356,14 @@ our $I18N = {
 		lastUpdated => 1180651620
 	},
 
-	'Save' => {
-		message => q|bewaar|,
-		lastUpdated => 1151500872
-	},
-
 	'time.report.complete.label' => {
 		message => q|De zin &#39;rapport compleet&#39;, ge&iuml;nternationaliseerd. |,
 		lastUpdated => 1156183711
+	},
+
+	'Save' => {
+		message => q|bewaar|,
+		lastUpdated => 1151500872
 	},
 
 	'report.nextWeek.url' => {
@@ -387,14 +386,14 @@ our $I18N = {
 		lastUpdated => 1154365367
 	},
 
-	'managerViewTemplate hoverhelp' => {
-		message => q|Sjabloon om te gebruiken voor managers om de time tracker-applicatie te bekijken|,
-		lastUpdated => 1156166717
-	},
-
 	'extras' => {
 		message => q|URL naar het Time track gebied in de extras map, wobject/TimeTracking.|,
 		lastUpdated => 1153735051
+	},
+
+	'managerViewTemplate hoverhelp' => {
+		message => q|Sjabloon om te gebruiken voor managers om de time tracker-applicatie te bekijken|,
+		lastUpdated => 1156166717
 	},
 
 	'form.task' => {
@@ -417,14 +416,14 @@ our $I18N = {
 		lastUpdated => 1156174018
 	},
 
-	'form.footer' => {
-		message => q|HTML en javascript zijn nodig omhet invullen van dit formulier te beeindigen.|,
-		lastUpdated => 1153750046
-	},
-
 	'time tracking asset template variables title' => {
 		message => q|Sjabloonvariabelen van het Tijdregistratiesysteem|,
 		lastUpdated => 1180651597
+	},
+
+	'form.footer' => {
+		message => q|HTML en Javascript zijn nodig om het invullen van dit formulier te beeindigen.|,
+		lastUpdated => 1207905900
 	},
 
 	'timeRowTemplateId hoverhelp' => {
@@ -437,24 +436,24 @@ our $I18N = {
 		lastUpdated => 1156187038
 	},
 
-	'time.report.header' => {
-		message => q|Koptekst voor het tijd-rapport dat de einddatum van de week weergeeft. |,
-		lastUpdated => 1156183764
-	},
-
 	'userViewTemplateId' => {
 		message => q|Het sjabloon dat wordt gebruikt om dit asset aan de gemiddelde gebruiker weer te geven.|,
 		lastUpdated => 1180651825
 	},
 
-	'edit project resource label' => {
-		message => q|medewerker |,
-		lastUpdated => 1152006126
+	'time.report.header' => {
+		message => q|Koptekst voor het tijd-rapport dat de einddatum van de week weergeeft. |,
+		lastUpdated => 1156183764
 	},
 
 	'entry.hours' => {
 		message => q|Dit is gelijk aan form.hours, behalve dat het altijd het aantal uren bevat, dat aan deze taak is besteed gedurende een dag, dat in is gevuld door de gebruiker. Wanneer er geen uren worden ingevuld blijft dit op nul staan. |,
 		lastUpdated => 1180650755
+	},
+
+	'edit project resource label' => {
+		message => q|medewerker |,
+		lastUpdated => 1152006126
 	},
 
 };

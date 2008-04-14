@@ -1,15 +1,9 @@
 package WebGUI::i18n::Dutch::Asset_Template;
 
-
 our $I18N = {
 	'site name' => {
 		message => q|Sitenaam|,
 		lastUpdated => 1151504975
-	},
-
-	'style wizard' => {
-		message => q|Style&nbsp;wizard|,
-		lastUpdated => 1151650653
 	},
 
 	'heading' => {
@@ -17,14 +11,19 @@ our $I18N = {
 		lastUpdated => 1151655169
 	},
 
-	'head block' => {
-		message => q|HEAD blok|,
-		lastUpdated => 1151654999
+	'style wizard' => {
+		message => q|Style&nbsp;wizard|,
+		lastUpdated => 1151650653
 	},
 
 	'assetName' => {
 		message => q|Sjabloon|,
 		lastUpdated => 1151504830
+	},
+
+	'head block' => {
+		message => q|HEAD blok|,
+		lastUpdated => 1151654999
 	},
 
 	'header background color' => {
@@ -37,14 +36,14 @@ our $I18N = {
 		lastUpdated => 1151505612
 	},
 
+	'body background color description' => {
+		message => q|De achtergrondkleur voor het body-gedeelte van de pagina.|,
+		lastUpdated => 1207839342
+	},
+
 	'parser description' => {
 		message => q|Waneer in de configuratie meerdere mogelijke sjabloon engines zijn opgeven kunt u hier kiezen naar welke engines deze template moet worden gestuurd.|,
 		lastUpdated => 1151652434
-	},
-
-	'body background color description' => {
-		message => q|The achtergrondkleur voor het body-gedeelte van de pagina.|,
-		lastUpdated => 1151504902
 	},
 
 	'visited link color' => {
@@ -57,14 +56,14 @@ our $I18N = {
 		lastUpdated => 1166198541
 	},
 
-	'template variable title' => {
-		message => q|Sjabloon variabelen|,
-		lastUpdated => 1151502260
-	},
-
 	'template parsers' => {
 		message => q|Template Parsers|,
 		lastUpdated => 1166204250
+	},
+
+	'template variable title' => {
+		message => q|Sjabloon variabelen|,
+		lastUpdated => 1151502260
 	},
 
 	'header text color description' => {
@@ -87,14 +86,14 @@ our $I18N = {
 		lastUpdated => 1166204328
 	},
 
-	'session.user.firstDayOfWeek' => {
-		message => q|De eerste dag van de week zoals ingesteld in het gebruikersprofiel van de huidige gebruiker.|,
-		lastUpdated => 1151505503
-	},
-
 	'template parsers list title' => {
 		message => q|Lijst van template parsers|,
 		lastUpdated => 1166204313
+	},
+
+	'session.user.firstDayOfWeek' => {
+		message => q|De eerste dag van de week zoals ingesteld in het gebruikersprofiel van de huidige gebruiker.|,
+		lastUpdated => 1151505503
 	},
 
 	'choose a layout' => {
@@ -153,8 +152,8 @@ our $I18N = {
 	},
 
 	'session.user.username' => {
-		message => q|The gebruikersnaam van de huidige gebruiker.|,
-		lastUpdated => 1151505472
+		message => q|De gebruikersnaam van de huidige gebruiker.|,
+		lastUpdated => 1207839306
 	},
 
 	'body content' => {
@@ -184,14 +183,14 @@ Alle scratchvariabelen zullen aanwezig zijn in het template volgens deze syntax:
 		lastUpdated => 1151505879
 	},
 
-	'logo description' => {
-		message => q|Dit veld kan gebruikt worden om een logo te uploaden. Het logo moet minder dan 200 pixels breed en minder dan 100 pixels hoog zijn.|,
-		lastUpdated => 1151505885
-	},
-
 	'body text color description' => {
 		message => q|De kleur van de tekst in het body gedeelte.|,
 		lastUpdated => 1151652284
+	},
+
+	'logo description' => {
+		message => q|Dit veld kan gebruikt worden om een logo te uploaden. Het logo moet minder dan 200 pixels breed en minder dan 100 pixels hoog zijn.|,
+		lastUpdated => 1151505885
 	},
 
 	'webgui.version' => {
@@ -204,14 +203,19 @@ Alle scratchvariabelen zullen aanwezig zijn in het template volgens deze syntax:
 		lastUpdated => 1168959904
 	},
 
+	'menu background color description' => {
+		message => q|De achergrondkleur van het menu-gedeelte van de pagina.|,
+		lastUpdated => 1151505923
+	},
+
 	'namespace' => {
 		message => q|Namespace|,
 		lastUpdated => 1151506117
 	},
 
-	'menu background color description' => {
-		message => q|De achergrondkleur van het menu-gedeelte van de pagina.|,
-		lastUpdated => 1151505923
+	'visited link color description' => {
+		message => q|De kleur van bezochte links op de pagina. De standaardkleur is paars.|,
+		lastUpdated => 1151502163
 	},
 
 	'edit template' => {
@@ -219,9 +223,9 @@ Alle scratchvariabelen zullen aanwezig zijn in het template volgens deze syntax:
 		lastUpdated => 1151506214
 	},
 
-	'visited link color description' => {
-		message => q|De kleur van bezochte links op de pagina. De standaardkleur is paars.|,
-		lastUpdated => 1151502163
+	'template parsers list body' => {
+		message => q|De volgende template parsers zijn ge&iuml;nstalleerd op deze site en kunnen worden aangezet voor gebruik.|,
+		lastUpdated => 1166204293
 	},
 
 	'session form variables' => {
@@ -234,14 +238,9 @@ Alle scratchvariabelen zullen aanwezig zijn in het template volgens deze syntax:
 		lastUpdated => 1151505891
 	},
 
-	'template parsers list body' => {
-		message => q|De volgende template parsers zijn ge&iuml;nstalleerd op deze site en kunnen worden aangezet voor gebruik.|,
-		lastUpdated => 1166204293
-	},
-
 	'session.setting.anonymousRegistration' => {
-		message => q|Mag een anonieme gebruikuiker wel of niet zich registreren op de site (uit de WebGUI instellingen).|,
-		lastUpdated => 1151505702
+		message => q|Mag een anonieme gebruiker wel of niet zich registreren op de site (uit de WebGUI instellingen).|,
+		lastUpdated => 1207830048
 	},
 
 	'plugin enabled header' => {
@@ -264,14 +263,14 @@ Alle scratchvariabelen zullen aanwezig zijn in het template volgens deze syntax:
 		lastUpdated => 1151505371
 	},
 
-	'template description' => {
-		message => q|Maak een sjabloon met behulp van sjabloon commando's, variabelen, macro's en HTML.|,
-		lastUpdated => 1151505077
-	},
-
 	'body text color' => {
 		message => q|Tekstkleur body|,
 		lastUpdated => 1151506183
+	},
+
+	'template description' => {
+		message => q|Maak een sjabloon met behulp van sjabloon commando's, variabelen, macro's en HTML.|,
+		lastUpdated => 1151505077
 	},
 
 	'menu background color' => {

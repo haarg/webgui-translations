@@ -1,6 +1,5 @@
 package WebGUI::i18n::Dutch::Workflow_Activity_TrashExpiredEvents;
 
-
 our $I18N = {
 	'trash after' => {
 		message => q|Een label - in meerdere talen beschikbaar - voor de workflow activiteit die bepaalt hoe lang verlopen gebeurtenissen bewaard blijven.|,
@@ -8,8 +7,8 @@ our $I18N = {
 	},
 
 	'trash after help' => {
-		message => q|Hoe lang moeten verlopen gebeurtenissen in de kalender bewaard blijven voordat ze naar de prullebak worden verplaatst?|,
-		lastUpdated => 1166638402
+		message => q|Hoe lang moeten verlopen gebeurtenissen in de kalender bewaard blijven voordat ze naar de prullenbak worden verplaatst?|,
+		lastUpdated => 1207817525
 	},
 
 	'activityName' => {

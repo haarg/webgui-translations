@@ -40,7 +40,7 @@ our $I18N = {
 		message => q|Geef een zoekpatroon in per regel (PERL reguliere expressies mogen gebruikt worden). Deze worden weggefilterd wanneer de url worden herschreven. Voorbeeld:
 
 Ex: /bms/documents
-/bms/documents/document_\\d+\\.pdf|,
+/bms/documents/document_\d+\.pdf|,
 		lastUpdated => 1190025930
 	},
 
@@ -188,8 +188,8 @@ Probeer <a href="%s">hier</a> het scherm rechtstreeks op te vragen.
 	},
 
 	'14 description' => {
-		message => q|Een zoek string die als eindpunt gebruikt wordt. Na dit punt wordt inhoud noet getoond.|,
-		lastUpdated => 1152627017
+		message => q|Een zoek string die als eindpunt gebruikt wordt. Na dit punt wordt inhoud niet getoond.|,
+		lastUpdated => 1207825886
 	},
 
 	'cacheTimeout' => {
@@ -203,8 +203,8 @@ Probeer <a href="%s">hier</a> het scherm rechtstreeks op te vragen.
 	},
 
 	'12 description' => {
-		message => q|Zet dit op Nee wanneer een externe pagina gelinktmoet worden met een compleet URL.|,
-		lastUpdated => 1155562663
+		message => q|Zet dit op Nee wanneer een externe pagina gelinkt moet worden met een compleet URL.|,
+		lastUpdated => 1207825698
 	},
 
 	'content.trailing' => {
@@ -253,8 +253,8 @@ Probeer <a href="%s">hier</a> het scherm rechtstreeks op te vragen.
 	},
 
 	'search.for' => {
-		message => q|De string die gebruikt wordtom te beginnen met het doorzoeken van de inhoud.|,
-		lastUpdated => 1152627416
+		message => q|De string die gebruikt wordt om te beginnen met het doorzoeken van de inhoud.|,
+		lastUpdated => 1207838909
 	},
 
 	'url pattern filter label' => {

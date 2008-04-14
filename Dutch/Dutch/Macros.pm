@@ -7,8 +7,8 @@ our $I18N = {
 	},
 
 	'macros list body' => {
-		message => q|<p>Het maken van een macro om het op een site te gebruiken bestaat uit twee delen.</p><ol><li>Het macro moet in de macro map in de WenGUI broncode staan: lib/WebGUI/Macros/.</li><li>Het macro moet aan staan in het WebGUI.conf bestand, in de macro sectie. In de sectie kan een snelkoppeling toegewezen worden met een andere naam dan die van het macro.</li></ol>&nbsp;|,
-		lastUpdated => 1152544451
+		message => q|<p>Het maken van een macro om het op een site te gebruiken bestaat uit twee delen.</p><ol><li>Het macro moet in de macro map in de WebGUI broncode staan: lib/WebGUI/Macros/.</li><li>Het macro moet aan staan in het WebGUI.conf bestand, in de macro sectie. In de sectie kan een snelkoppeling toegewezen worden met een andere naam dan die van het macro.</li></ol>&nbsp;|,
+		lastUpdated => 1207839455
 	},
 
 	'macro enabled' => {

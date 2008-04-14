@@ -1,15 +1,14 @@
 package WebGUI::i18n::Dutch::Asset_Shortcut;
 
-
 our $I18N = {
-	'7' => {
-		message => q|Override titel?|,
-		lastUpdated => 1151910311
-	},
-
 	'no metadata yet' => {
 		message => q|Nog geen metadata gedefinieerd. <a href="%s">Klik hier</a> om metadata te definieren.|,
 		lastUpdated => 1151656095
+	},
+
+	'7' => {
+		message => q|Override titel?|,
+		lastUpdated => 1151910311
 	},
 
 	'disable content lock' => {
@@ -77,14 +76,14 @@ our $I18N = {
 		lastUpdated => 1151657730
 	},
 
-	'shortcut.properties' => {
-		message => q|Alle eigenschappen die zijn toegekend aan deze Snelkoppeling zullen in de template toegankelijk via hun naam.|,
-		lastUpdated => 1151657748
-	},
-
 	'New Override Value' => {
 		message => q|Nieuwe override waarde|,
 		lastUpdated => 1151910531
+	},
+
+	'shortcut.properties' => {
+		message => q|Alle eigenschappen die zijn toegekend aan deze Snelkoppeling zullen in de template toegankelijk zijn via hun naam.|,
+		lastUpdated => 1207904744
 	},
 
 	'Manage User Preferences' => {
@@ -163,14 +162,14 @@ our $I18N = {
 		lastUpdated => 1151656144
 	},
 
-	'shortcut.content' => {
-		message => q|De content van de gespiegelde asset. Als er overrides in de Snelkoppeling aangezet zijn, dan zal de override content gebruikt worden in plaats van de originele content uit de gespiegelde asset.|,
-		lastUpdated => 1152539750
-	},
-
 	'Type of Field' => {
 		message => q|Type veld|,
 		lastUpdated => 1151657611
+	},
+
+	'shortcut.content' => {
+		message => q|De content van de gespiegelde asset. Als er overrides in de Snelkoppeling aangezet zijn, dan zal de override content gebruikt worden in plaats van de originele content uit de gespiegelde asset.|,
+		lastUpdated => 1152539750
 	},
 
 	'edit delete fieldname' => {
@@ -328,19 +327,14 @@ our $I18N = {
 		lastUpdated => 1151655817
 	},
 
-	'Hover Help Description for this Field' => {
-		message => q|Hover omschrijving voor dit veld|,
-		lastUpdated => 1151910497
-	},
-
 	'field add/edit title' => {
 		message => q|Toevoegen/wijzigen gebruikersvoorkeur|,
 		lastUpdated => 1151657655
 	},
 
-	'Resolve Multiples' => {
-		message => q|Meerdere assets selecteren?|,
-		lastUpdated => 1153385934
+	'Hover Help Description for this Field' => {
+		message => q|Hover omschrijving voor dit veld|,
+		lastUpdated => 1151910497
 	},
 
 	'9' => {
@@ -348,19 +342,24 @@ our $I18N = {
 		lastUpdated => 1151910330
 	},
 
+	'Resolve Multiples' => {
+		message => q|Meerdere assets selecteren?|,
+		lastUpdated => 1153385934
+	},
+
 	'8' => {
 		message => q|Override titel laten zien?|,
 		lastUpdated => 1151910320
 	},
 
-	'4' => {
-		message => q|Het spiegelen van de asset is mislukt. Wellicht is de originele asset verwijderd.|,
-		lastUpdated => 1151657484
-	},
-
 	'Most Recent' => {
 		message => q|Meest recent|,
 		lastUpdated => 1151657400
+	},
+
+	'4' => {
+		message => q|Het spiegelen van de asset is mislukt. Wellicht is de originele asset verwijderd.|,
+		lastUpdated => 1151657484
 	},
 
 	'Shortcut by alternate criteria description' => {
