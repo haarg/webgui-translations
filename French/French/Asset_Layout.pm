@@ -36,6 +36,16 @@ our $I18N = {
 		lastUpdated => 1203634583
 	},
 
+	'asset order label' => {
+		message => q|Ajouter de nouveaux modules|,
+		lastUpdated => 1208173599
+	},
+
+	'asset order hoverhelp' => {
+		message => q||,
+		lastUpdated => 
+	},
+
 	'assets to hide description' => {
 		message => q|Liste de case-&agrave;-cocher pour chaque module-enfant de la page. Cochez la case correspondant au module pour qu'il n'apparaisse pas dans la page.|,
 		lastUpdated => 1203634150
@@ -46,14 +56,24 @@ our $I18N = {
 		lastUpdated => 1203634696
 	},
 
+	'asset order desc' => {
+		message => q|Vers le haut|,
+		lastUpdated => 1208173736
+	},
+
 	'templateId' => {
 		message => q|L'Identifiant du gabarit utilis&eacute; pour afficher ce module.|,
-		lastUpdated => 1203635019
+		lastUpdated => 1208173659
 	},
 
 	'position1_loop' => {
 		message => q|Chaque position dans le gabarit a une boucle contenant l'ensemble des modules devant &ecirc;tre affich&eacute;s. Les modules qui n'ont pas &eacute;t&eacute; sp&eacute;cifiquement positionn&eacute;s sont mis dansla position 1.|,
 		lastUpdated => 1203634088
+	},
+
+	'asset order asc' => {
+		message => q|Vers le bas|,
+		lastUpdated => 1208173727
 	},
 
 	'847' => {
@@ -87,8 +107,8 @@ our $I18N = {
 	},
 
 	'template description' => {
-		message => q|Choisissir un gabarit dans la liste pour afficher le contenu de la page et de ses enfants.|,
-		lastUpdated => 1203633745
+		message => q|Choisir un gabarit dans la liste pour afficher le contenu de la page et de ses enfants.|,
+		lastUpdated => 1208173646
 	},
 
 	'823' => {
