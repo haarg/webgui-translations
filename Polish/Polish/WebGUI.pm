@@ -48,7 +48,7 @@ our $I18N = {
 
 	'882' => {
 		message => q|Tryb edytora|,
-		lastUpdated => 1044705246
+		lastUpdated => 1207321236
 	},
 
 	'cache type' => {
@@ -183,7 +183,7 @@ our $I18N = {
 
 	'948' => {
 		message => q|Schowek|,
-		lastUpdated => 1099360884
+		lastUpdated => 1207321783
 	},
 
 	'325' => {
@@ -202,8 +202,8 @@ our $I18N = {
 	},
 
 	'889' => {
-		message => q|Style Sheets, Tabs|,
-		lastUpdated => 1046067380
+		message => q|Arkusze Styli, Zakładki|,
+		lastUpdated => 1207321539
 	},
 
 	'572' => {
@@ -248,7 +248,7 @@ our $I18N = {
 
 	'861' => {
 		message => q|Uczyńić profil publicznym?|,
-		lastUpdated => 1043879954
+		lastUpdated => 1207320780
 	},
 
 	'settings groupIdAdminStatistics label' => {
@@ -363,7 +363,7 @@ our $I18N = {
 
 	'145' => {
 		message => q|WebGUI Build Version|,
-		lastUpdated => 1031514049
+		lastUpdated => 1207320492
 	},
 
 	'preview' => {
@@ -372,8 +372,8 @@ our $I18N = {
 	},
 
 	'142 description' => {
-		message => q|The amount of time that a user session remains active (before needing to log in again). This timeout is reset each time a user views a page. Therefore if you set the timeout for 8 hours, a user would have to log in again if s/he hadn't visited the site for 8 hours.|,
-		lastUpdated => 1120239343
+		message => q|Czas w jakim użytkownik pozostaje zalogowany (zanim będzie musiał ponownie się zalogować). Przedawnienie sesji jest każdorazowo odliczane na nowo przy każdej wywołanej przez użytkownika stronie. Przykładowo, jeśli ustawisz przedawnienie sesji po 8 godzinach użytkownik będzie musiał zalogować się na nowo jeśli nie wywoła dowolnej strony przed upływem 8 godzin.|,
+		lastUpdated => 1207320729
 	},
 
 	'993' => {
@@ -392,8 +392,8 @@ our $I18N = {
 	},
 
 	'950' => {
-		message => q|Empty clipboard.|,
-		lastUpdated => 1052850265
+		message => q|Wyczyścić schowek.|,
+		lastUpdated => 1207321856
 	},
 
 	'cache statistics' => {
@@ -483,7 +483,7 @@ our $I18N = {
 
 	'943' => {
 		message => q|Checkbox|,
-		lastUpdated => 1051464272
+		lastUpdated => 1207321652
 	},
 
 	'unknown user' => {
@@ -572,8 +572,8 @@ our $I18N = {
 	},
 
 	'862' => {
-		message => q|Profil tego użytkownika nie jest publiczny.|,
-		lastUpdated => 1043881275
+		message => q|Profil tego użytkownika nie jest dostępny publicznie.|,
+		lastUpdated => 1207320806
 	},
 
 	'additional parameters' => {
@@ -608,7 +608,7 @@ our $I18N = {
 
 	'87' => {
 		message => q|Edycja grupy|,
-		lastUpdated => 1031514049
+		lastUpdated => 1207321141
 	},
 
 	'77' => {
@@ -622,10 +622,8 @@ our $I18N = {
 	},
 
 	'865 description' => {
-		message => q|<p>
-Ustaw tą wartoś na Tak, jeśli chcesz aby WebGUI informowało użytkownika o fakcie wygaśnięcia ważności w grupie.
-</p>|,
-		lastUpdated => 1120448672
+		message => q|<p> Ustaw tą wartoś na Tak, jeśli chcesz aby WebGUI informowało użytkownika o fakcie wygaśnięcia ważności w grupie. </p>|,
+		lastUpdated => 1207321057
 	},
 
 	'pagination.lastPage' => {
@@ -675,7 +673,7 @@ Ustaw tą wartoś na Tak, jeśli chcesz aby WebGUI informowało użytkownika o f
 
 	'881' => {
 		message => q|Nic/Żaden|,
-		lastUpdated => 1044705162
+		lastUpdated => 1207321230
 	},
 
 	'312' => {
@@ -719,10 +717,8 @@ Ustaw tą wartoś na Tak, jeśli chcesz aby WebGUI informowało użytkownika o f
 	},
 
 	'866 description' => {
-		message => q|<p>
-Wprowadź tekst wiadomości jaka ma być wysłana do użytkownika w celu poinformowania o wygaśnięciu ważności.
-</p>|,
-		lastUpdated => 1120448672
+		message => q|<p> Wprowadź tekst wiadomości jaka ma być wysłana do użytkownika w celu poinformowania o wygaśnięciu ważności. </p>|,
+		lastUpdated => 1207321078
 	},
 
 	'1084' => {
@@ -757,7 +753,7 @@ Wprowadź tekst wiadomości jaka ma być wysłana do użytkownika w celu poinfor
 
 	'144' => {
 		message => q|Wyświetl statystyki.|,
-		lastUpdated => 1031514049
+		lastUpdated => 1207320484
 	},
 
 	'965' => {
@@ -1102,7 +1098,7 @@ Ta grupa może być następnie nazwana &quot;Pracownicy w HMO 1&quot; i może po
 
 	'868' => {
 		message => q|Wysłać wiadomość powitania?|,
-		lastUpdated => 1044138691
+		lastUpdated => 1207321098
 	},
 
 	'color' => {
@@ -1392,7 +1388,7 @@ Ta grupa może być następnie nazwana &quot;Pracownicy w HMO 1&quot; i może po
 
 	'869' => {
 		message => q|Wiadomość powitalna|,
-		lastUpdated => 1044138730
+		lastUpdated => 1207321134
 	},
 
 	'help contents' => {
@@ -1541,8 +1537,8 @@ Ta grupa może być następnie nazwana &quot;Pracownicy w HMO 1&quot; i może po
 	},
 
 	'885 description' => {
-		message => q|Do you wish to provide your users with a means to deactivate their account without your intervention?|,
-		lastUpdated => 1120239343
+		message => q|Czy pozwalasz użytkownikom deaktywować własne konta bez jakiejkolwiek interwencji?|,
+		lastUpdated => 1207321488
 	},
 
 	'radio' => {
@@ -1601,10 +1597,8 @@ Ta grupa może być następnie nazwana &quot;Pracownicy w HMO 1&quot; i może po
 	},
 
 	'863 description' => {
-		message => q|<p>
-Różnica w liczbie dni od dnia wygaśnięcia ważności grupowania w celu usunięcia grupowania z systemu. Można ustawić dowolną wartość całkowitą. Przykładowo ustaw wartość "0" jeśli chcesz aby WebGUI usunęło grupowanie w dniu wygaśnięcia ważności. Ustaw "-7" jeśli chcesz aby WebGUI usunęło grupowanie 7 dni <b>przed</b> wygaśnięciem ważności. Ustaw "7" jeśli chcesz, aby WebGUI usunęło grupowanie 7 dni <b>po</b> wygaśnięciu ważności.
-</p>|,
-		lastUpdated => 1120448672
+		message => q|<p> R&oacute;żnica w liczbie dni od dnia wygaśnięcia ważności grupowania w celu usunięcia grupowania z systemu. Można ustawić dowolną wartość całkowitą. Przykładowo, ustaw wartość &quot;0&quot; jeśli chcesz aby WebGUI usunęło grupowanie w dniu wygaśnięcia ważności. Ustaw &quot;-7&quot; jeśli chcesz aby WebGUI usunęło grupowanie 7 dni <strong>przed</strong> wygaśnięciem ważności. Ustaw &quot;7&quot; jeśli chcesz, aby WebGUI usunęło grupowanie 7 dni <strong>po</strong> wygaśnięciu ważności. </p>|,
+		lastUpdated => 1207320867
 	},
 
 	'984' => {
@@ -1684,7 +1678,7 @@ Różnica w liczbie dni od dnia wygaśnięcia ważności grupowania w celu usuni
 
 	'941' => {
 		message => q|Checkbox List|,
-		lastUpdated => 1051464113
+		lastUpdated => 1207321639
 	},
 
 	'354' => {
@@ -1724,7 +1718,7 @@ Różnica w liczbie dni od dnia wygaśnięcia ważności grupowania w celu usuni
 
 	'951' => {
 		message => q|Czy na pewno wyczyścić schowek i przenieść jego zawartość do śmietnika?|,
-		lastUpdated => 1052850265
+		lastUpdated => 1207321863
 	},
 
 	'85' => {
@@ -1744,7 +1738,7 @@ Różnica w liczbie dni od dnia wygaśnięcia ważności grupowania w celu usuni
 
 	'9' => {
 		message => q|Wyświetl schowek.|,
-		lastUpdated => 1031514049
+		lastUpdated => 1207321588
 	},
 
 	'425' => {
@@ -1779,7 +1773,7 @@ Różnica w liczbie dni od dnia wygaśnięcia ważności grupowania w celu usuni
 
 	'90' => {
 		message => q|Dodaj nową grupę.|,
-		lastUpdated => 1031514049
+		lastUpdated => 1207321600
 	},
 
 	'pagination.isLastPage' => {
@@ -1815,7 +1809,7 @@ Różnica w liczbie dni od dnia wygaśnięcia ważności grupowania w celu usuni
 
 	'891' => {
 		message => q|Tylko negować makra.|,
-		lastUpdated => 1047838859
+		lastUpdated => 1207321569
 	},
 
 	'1045' => {
@@ -1865,7 +1859,7 @@ Różnica w liczbie dni od dnia wygaśnięcia ważności grupowania w celu usuni
 
 	'872' => {
 		message => q|Kto może oglądać?|,
-		lastUpdated => 1044218038
+		lastUpdated => 1207321165
 	},
 
 	'image manager' => {
@@ -1930,7 +1924,7 @@ Różnica w liczbie dni od dnia wygaśnięcia ważności grupowania w celu usuni
 
 	'89' => {
 		message => q|Grupy|,
-		lastUpdated => 1031514049
+		lastUpdated => 1207321547
 	},
 
 	'175' => {
@@ -1985,7 +1979,7 @@ Różnica w liczbie dni od dnia wygaśnięcia ważności grupowania w celu usuni
 
 	'93' => {
 		message => q|Pomoc|,
-		lastUpdated => 1031514049
+		lastUpdated => 1207321630
 	},
 
 	'expire groupings' => {
@@ -1995,7 +1989,7 @@ Różnica w liczbie dni od dnia wygaśnięcia ważności grupowania w celu usuni
 
 	'865' => {
 		message => q|Informować użytkownika o wygaśnięciu konta?|,
-		lastUpdated => 1044126938
+		lastUpdated => 1207321046
 	},
 
 	'int slider' => {
@@ -2030,7 +2024,7 @@ Różnica w liczbie dni od dnia wygaśnięcia ważności grupowania w celu usuni
 
 	'886' => {
 		message => q|Ukryj z nawigacji?|,
-		lastUpdated => 1044727952
+		lastUpdated => 1207321496
 	},
 
 	'73' => {
@@ -2070,7 +2064,7 @@ Różnica w liczbie dni od dnia wygaśnięcia ważności grupowania w celu usuni
 
 	'944' => {
 		message => q|Kod pocztowy|,
-		lastUpdated => 1051962797
+		lastUpdated => 1207321662
 	},
 
 	'user' => {
@@ -2174,8 +2168,8 @@ Różnica w liczbie dni od dnia wygaśnięcia ważności grupowania w celu usuni
 	},
 
 	'954' => {
-		message => q|Administracja systemowym schowkiem.|,
-		lastUpdated => 1052850265
+		message => q|Administracja schowkiem systemowym.|,
+		lastUpdated => 1207321896
 	},
 
 	'submit' => {
@@ -2199,26 +2193,8 @@ Różnica w liczbie dni od dnia wygaśnięcia ważności grupowania w celu usuni
 	},
 
 	'945 description' => {
-		message => q|<p>
-Użytkownik może być dynamicznie powiązany z grupą przez zmienną scrach podczas sesji. Zmienne scrach mogą być ustawione programowo lub poprzez web. Aby ustawić zmienną przez web popatrz na koniec poniższego adresu URL:
-</p>
-<p><i>?op=setScratch&amp;scratchName=somename&amp;scratchValue=somevalue</i>
-</p>
-<p>
-Kiedy użytkownik kliknie na powyższy link zostanie utworzona zmienna scratch w systemie z nazwą "www_somename" i wartością "somevalue". Człon "www_" jest prefiksem zapobiegającym nadpisaniu innych zmiennych ustawionych programowo.
-</p>
-<p>
-Aby zdefiniować filtr zmiennych scratch dodaj linię do filtru i wprowadź pola w postaci: 
-</p>
-<p><i>www_jakaś_nazwa=jakaś_wartość</i>
-</p>
-<p>Filtry dla wielu zmiennych tworzymy łącząc poszczególne pary średnikami:
-</p>
-<p><i>www_jakaś_zmienna=jakaś_wartość;www_inna_zmienna=inna_wartość</i>
-</p>
-
-|,
-		lastUpdated => 1144345050
+		message => q|<p> Użytkownik może być dynamicznie powiązany z grupą przez zmienną scrach podczas sesji. Zmienne scrach mogą być ustawione programowo lub poprzez web. Aby ustawić zmienną przez web popatrz na koniec poniższego adresu URL: </p> <p><em>?op=setScratch&amp;scratchName=somename&amp;scratchValue=somevalue</em> </p> <p> Kiedy użytkownik kliknie na powyższy link zostanie utworzona zmienna scratch w systemie z nazwą &quot;www_somename&quot; i wartością &quot;somevalue&quot;. Człon &quot;www_&quot; jest prefiksem zapobiegającym nadpisaniu innych zmiennych ustawionych programowo. </p> <p> Aby zdefiniować filtr zmiennych scratch dodaj linię do filtru i wprowadź pola w postaci:  </p> <p><em>www_jakaś_nazwa=jakaś_wartość</em> </p> <p>Filtry dla wielu zmiennych tworzymy łącząc poszczeg&oacute;lne pary średnikami: </p> <p><em>www_jakaś_zmienna=jakaś_wartość;www_inna_zmienna=inna_wartość</em> </p>  |,
+		lastUpdated => 1207321758
 	},
 
 	'971' => {
@@ -2363,7 +2339,7 @@ Aby zdefiniować filtr zmiennych scratch dodaj linię do filtru i wprowadź pola
 
 	'880' => {
 		message => q|Last Resort Editor|,
-		lastUpdated => 1044705137
+		lastUpdated => 1207321222
 	},
 
 	'433' => {
@@ -2407,90 +2383,8 @@ Aby zdefiniować filtr zmiennych scratch dodaj linię do filtru i wprowadź pola
 	},
 
 	'890' => {
-		message => q|<p>
-WebGUI posiada wbudowany mechanizm umożliwiający tworzenie tabel. Możesz zobaczyć to w skomplikowanych formularzach jak edycja parametrów stron. Aby umożliwić ci dopasowanie wygląda tabel do twoich oczekiwań musisz dodać specjalną sekcję w definicji stylu.
-</p>
-
-<p>
-Następujące klasy definicji stylu są dostępne:
-</p>
-
-<p><b>.tab</b><br />
-Domyślny widok każdej zakładki.
-</p>
-
-<p><b>div.tabs</b><br />
-Ta również ustawia kilka własności dla wszystkich zakładek. Powinna być użyta dla etykiety tekstu  w zakładkach.
-</p>
-
-<p><b>.tabBody</b><br />
-Zawartość poszczególnych zakładek. Definiuje miejsce, w którym formularz jest pokazany. Pamiętaj, że dla uzyskania najlepszych rezultatów kolor tła powinien być identyczny jak kolor tła .tabActive.
-</p>
-
-<p><b>.tabHover</b><br />
-Wygląd w momencie, kiedy wskaźnik myszki unosi się nad zakładką.
-</p>
-
-<p><b>.tabActive</b><br />
-Wygląd zakładki, ktra aktualnie jest wyświetlona.
-</p>
-
-<p><i>Przykłady</i><br />
-Jeśli chcesz możesz użyć poniższych zamiast tworzyć własne. Lub użyj ich jako wzorzec startowy dla własnych.
-</p>
-
-<table width="100%"><tr><td valign="top">
-<b>White or Light Colored Styles</b>
-<pre>
-.tab {
-  border: 1px solid black;
-   background-color: #eeeeee;
-}
-.tabBody {
-   border: 1px solid black;
-   border-top: 1px solid black;
-   border-left: 1px solid black;
-   background-color: #dddddd; 
-}
-div.tabs {
-    line-height: 15px;
-    font-size: 14px;
-}
-.tabHover {
-   background-color: #cccccc;
-}
-.tabActive { 
-   background-color: #dddddd; 
-}
-</pre>
-</td><td valign="top">
-<b>Black or Dark Colored Styles</b>
-<pre>
-.tab {
-  border: 1px solid white;
-   background-color: #333333;
-}
-.tabBody {
-   border: 1px solid white;
-   border-top: 1px solid white;
-   border-left: 1px solid white;
-   background-color: #444444; 
-}
-div.tabs {
-    line-height: 15px;
-    font-size: 14px;
-}
-.tabHover {
-   background-color: #555555;
-}
-.tabActive { 
-   background-color: #444444; 
-}
-</pre>
-</td></tr></table>
-
-|,
-		lastUpdated => 1146592150
+		message => q|<p> WebGUI posiada wbudowany mechanizm umożliwiający tworzenie tabel. Możesz zobaczyć to w skomplikowanych formularzach jak edycja parametr&oacute;w stron. Aby umożliwić ci dopasowanie wygląda tabel do twoich oczekiwań musisz dodać specjalną sekcję w definicji stylu. </p>  <p> Następujące klasy definicji stylu są dostępne: </p>  <p><strong>.tab</strong><br /> Domyślny widok każdej zakładki. </p>  <p><strong>div.tabs</strong><br /> Ta r&oacute;wnież ustawia kilka własności dla wszystkich zakładek. Powinna być użyta dla etykiety tekstu  w zakładkach. </p>  <p><strong>.tabBody</strong><br /> Zawartość poszczeg&oacute;lnych zakładek. Definiuje miejsce, w kt&oacute;rym formularz jest pokazany. Pamiętaj, że dla uzyskania najlepszych rezultat&oacute;w kolor tła powinien być identyczny jak kolor tła .tabActive. </p>  <p><strong>.tabHover</strong><br /> Wygląd w momencie, kiedy wskaźnik myszki unosi się nad zakładką. </p>  <p><strong>.tabActive</strong><br /> Wygląd zakładki, ktra aktualnie jest wyświetlona. </p>  <p><em>Przykłady</em><br /> Jeśli chcesz możesz użyć poniższych zamiast tworzyć własne. Lub użyj ich jako wzorzec startowy dla własnych. </p>  <table border="0" width="100%"><tbody><tr><td valign="&quot;top&quot;"> <strong>White or Light Colored Styles</strong> <pre>.tab {<br />  border: 1px solid black;<br />   background-color: #eeeeee;<br />}<br />.tabBody {<br />   border: 1px solid black;<br />   border-top: 1px solid black;<br />   border-left: 1px solid black;<br />   background-color: #dddddd; <br />}<br />div.tabs {<br />    line-height: 15px;<br />    font-size: 14px;<br />}<br />.tabHover {<br />   background-color: #cccccc;<br />}<br />.tabActive { <br />   background-color: #dddddd; <br />}<br /></pre> </td><td valign="&quot;top&quot;"> <strong>Black or Dark Colored Styles</strong> <pre>.tab {<br />  border: 1px solid white;<br />   background-color: #333333;<br />}<br />.tabBody {<br />   border: 1px solid white;<br />   border-top: 1px solid white;<br />   border-left: 1px solid white;<br />   background-color: #444444; <br />}<br />div.tabs {<br />    line-height: 15px;<br />    font-size: 14px;<br />}<br />.tabHover {<br />   background-color: #555555;<br />}<br />.tabActive { <br />   background-color: #444444; <br />}<br /></pre> </td></tr></tbody></table>  |,
+		lastUpdated => 1207321559
 	},
 
 	'440' => {
@@ -2520,7 +2414,7 @@ div.tabs {
 
 	'871' => {
 		message => q|Kto może edytować?|,
-		lastUpdated => 1044218026
+		lastUpdated => 1207321159
 	},
 
 	'misc' => {
@@ -2585,7 +2479,7 @@ div.tabs {
 
 	'91' => {
 		message => q|Poprzednia strona|,
-		lastUpdated => 1031514049
+		lastUpdated => 1207321611
 	},
 
 	'701' => {
@@ -2610,7 +2504,7 @@ div.tabs {
 
 	'867' => {
 		message => q|Utrata przywileju|,
-		lastUpdated => 1044133143
+		lastUpdated => 1207321085
 	},
 
 	'422' => {
@@ -2675,7 +2569,7 @@ div.tabs {
 
 	'866' => {
 		message => q|Tekst powiadomienia o wygaśnięciu ważności|,
-		lastUpdated => 1101775465
+		lastUpdated => 1207321067
 	},
 
 	'768' => {
@@ -2705,7 +2599,7 @@ div.tabs {
 
 	'893' => {
 		message => q|Własności Wobject|,
-		lastUpdated => 1046638419
+		lastUpdated => 1207321577
 	},
 
 	'338' => {
@@ -2725,7 +2619,7 @@ div.tabs {
 
 	'870' => {
 		message => q|Witamy|,
-		lastUpdated => 1044139461
+		lastUpdated => 1207321148
 	},
 
 	'995 description' => {
@@ -2895,12 +2789,12 @@ div.tabs {
 
 	'942' => {
 		message => q|Radio List|,
-		lastUpdated => 1051464141
+		lastUpdated => 1207321646
 	},
 
 	'955' => {
 		message => q|Schowek systemowy|,
-		lastUpdated => 1099360884
+		lastUpdated => 1207321903
 	},
 
 	'974 description' => {
@@ -2965,8 +2859,8 @@ div.tabs {
 	},
 
 	'95' => {
-		message => q|Help Index|,
-		lastUpdated => 1031514049
+		message => q|Indeks Helpu|,
+		lastUpdated => 1207321815
 	},
 
 	'user function style description' => {
@@ -3189,13 +3083,13 @@ div.tabs {
 	},
 
 	'885' => {
-		message => q|Allow users to deactivate their account?|,
-		lastUpdated => 1044708760
+		message => q|Pozwolić użytkownikom samym deaktywować własne konta?|,
+		lastUpdated => 1207321334
 	},
 
 	'884' => {
 		message => q|Pop Up|,
-		lastUpdated => 1044705337
+		lastUpdated => 1207321269
 	},
 
 	'147' => {
@@ -3214,8 +3108,8 @@ div.tabs {
 	},
 
 	'863' => {
-		message => q|Delete Offset|,
-		lastUpdated => 1044126633
+		message => q|Usuń Op&oacute;źnienie|,
+		lastUpdated => 1207320824
 	},
 
 	'531' => {
@@ -3294,8 +3188,8 @@ div.tabs {
 	},
 
 	'952' => {
-		message => q|Clipboard Date|,
-		lastUpdated => 1052850265
+		message => q|Data Schowka|,
+		lastUpdated => 1207321878
 	},
 
 	'private message subject label' => {
@@ -3426,7 +3320,7 @@ a user.|,
 
 	'92' => {
 		message => q|Strona następna|,
-		lastUpdated => 1031514049
+		lastUpdated => 1207321622
 	},
 
 	'settings groupIdAdminDatabaseLink hoverHelp' => {
@@ -3436,7 +3330,7 @@ a user.|,
 
 	'879' => {
 		message => q|Edytor klasyczny (Internet Explorer 5+)|,
-		lastUpdated => 1044705103
+		lastUpdated => 1207321172
 	},
 
 	'539 description' => {
@@ -3465,10 +3359,8 @@ a user.|,
 	},
 
 	'864 description' => {
-		message => q|<p>
-Różnica w liczbie dni dla wysłania powiadomienia o zbliżającym się wygaśnięciu ważności w grupie. Można ustawić dowolną wartość całkowitą. Przykładowo ustaw wartość "0" jeśli chcesz aby WebGUI wysłało powiadomienie w dniu wygaśnięcia ważności. Ustaw "-7" jeśli chcesz aby WebGUI wysłało powiadomienie 7 dni <b>przed</b> wygaśnięciem ważności. Ustaw "7" jeśli chcesz, aby WebGUI wysłało powiadomienie 7 dni <b>po</b> wygaśnięciu ważności.
-</p>|,
-		lastUpdated => 1120448672
+		message => q|<p> R&oacute;żnica w liczbie dni dla wysłania powiadomienia o zbliżającym się wygaśnięciu ważności w grupie. Można ustawić dowolną wartość całkowitą. Przykładowo ustaw wartość &quot;0&quot; jeśli chcesz aby WebGUI wysłało powiadomienie w dniu wygaśnięcia ważności. Ustaw &quot;-7&quot; jeśli chcesz aby WebGUI wysłało powiadomienie 7 dni <strong>przed</strong> wygaśnięciem ważności. Ustaw &quot;7&quot; jeśli chcesz, aby WebGUI wysłało powiadomienie 7 dni <strong>po</strong> wygaśnięciu ważności. </p>|,
+		lastUpdated => 1207321005
 	},
 
 	'992 description' => {
@@ -3555,7 +3447,7 @@ or are under your current version tag.</p>
 
 	'949' => {
 		message => q|Zarządzanie schowkiem.|,
-		lastUpdated => 1052850265
+		lastUpdated => 1207321791
 	},
 
 	'Enable passive profiling' => {
@@ -3624,8 +3516,8 @@ or are under your current version tag.</p>
 	},
 
 	'88' => {
-		message => q|Users In Group|,
-		lastUpdated => 1031514049
+		message => q|Użytkownicy w Grupie|,
+		lastUpdated => 1207321189
 	},
 
 	'user profiling' => {
@@ -3654,8 +3546,8 @@ or are under your current version tag.</p>
 	},
 
 	'883' => {
-		message => q|Inline (when supported)|,
-		lastUpdated => 1044705322
+		message => q|Inline (kiedy wspierany)|,
+		lastUpdated => 1207321261
 	},
 
 	'clear cache' => {
@@ -3729,8 +3621,8 @@ or are under your current version tag.</p>
 	},
 
 	'864' => {
-		message => q|Expire Notification Offset|,
-		lastUpdated => 1044126838
+		message => q|Wiadomość wygaśnięcie dla Przesunięcia|,
+		lastUpdated => 1207320981
 	},
 
 	'1016' => {
@@ -3780,7 +3672,7 @@ or are under your current version tag.</p>
 
 	'146' => {
 		message => q|Sesje aktywne|,
-		lastUpdated => 1031514049
+		lastUpdated => 1207320510
 	},
 
 	'38' => {
@@ -3835,8 +3727,8 @@ Należy używać mod_perl i ustawić zmienną <b>PerlSetEnv SYBASE /opt/sybase/1
 	},
 
 	'945' => {
-		message => q|Scratch Filter|,
-		lastUpdated => 1052560369
+		message => q|Filtr dla Scratch|,
+		lastUpdated => 1207321773
 	},
 
 };
