@@ -97,8 +97,8 @@ our $I18N = {
 	},
 
 	'name' => {
-		message => q||,
-		lastUpdated => 
+		message => q|El nombre de este item.|,
+		lastUpdated => 1207943781
 	},
 
 	'transaction error template description' => {
@@ -132,8 +132,8 @@ our $I18N = {
 	},
 
 	'fourweekly' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Cuatro Semanas|,
+		lastUpdated => 1207943768
 	},
 
 	'normalItemLoop' => {
@@ -212,8 +212,8 @@ our $I18N = {
 	},
 
 	'error' => {
-		message => q||,
-		lastUpdated => 
+		message => q|El texto de error retornado desde el plugin de pago.|,
+		lastUpdated => 1207943133
 	},
 
 	'daily report email description' => {
@@ -412,8 +412,8 @@ our $I18N = {
 	},
 
 	'connection error' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Error de Conexi&oacute;n|,
+		lastUpdated => 1207943064
 	},
 
 	'label' => {
@@ -522,8 +522,8 @@ our $I18N = {
 	},
 
 	'commerce settings' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Comecio (beta)|,
+		lastUpdated => 1207943040
 	},
 
 	'recurringItems' => {

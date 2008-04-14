@@ -47,8 +47,8 @@ our $I18N = {
 	},
 
 	'workflow generateRecurringEvents description' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Esta actividad genera eventos peri&oacute;dicos para calendarios.&nbsp; Esta actividad tambi&eacute;n mantiene eventos peri&oacute;dicos en el futuro.|,
+		lastUpdated => 1207867650
 	},
 
 	'subscribe' => {
@@ -57,8 +57,8 @@ our $I18N = {
 	},
 
 	'helpvar newDay' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Esta variable es verdadera cuando el evento actual es en un d&iacute;a diferente que el anterior evento.|,
+		lastUpdated => 1207867767
 	},
 
 	'previous week' => {
@@ -137,8 +137,8 @@ our $I18N = {
 	},
 
 	'workflow updateFeeds description' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Esta actividad importa eventos de calendario de las fuentes del calendario|,
+		lastUpdated => 1207867540
 	},
 
 	'editForm templateIdPrintList description' => {
@@ -187,8 +187,8 @@ our $I18N = {
 	},
 
 	'visitorCacheTimeout label' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Tiempo l&iacute;mite para la cach&eacute; del visitante|,
+		lastUpdated => 1207867453
 	},
 
 	'dayAbbr' => {
@@ -207,8 +207,8 @@ our $I18N = {
 	},
 
 	'helpvar newMonth' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Esta variable es verdadera cuando el evento actual es en un mes diferente que el anterior evento.|,
+		lastUpdated => 1207867817
 	},
 
 	'helpvar dateTime year' => {
@@ -247,8 +247,8 @@ our $I18N = {
 	},
 
 	'workflow updateFeeds' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Actualizar fuentes de calendario|,
+		lastUpdated => 1207867564
 	},
 
 	'helpvar dateTime dmy' => {
@@ -282,8 +282,8 @@ our $I18N = {
 	},
 
 	'visitorCacheTimeout description' => {
-		message => q||,
-		lastUpdated => 
+		message => q|El n&uacute;mero de minutos antes de que la cach&eacute; del visitante ser&iacute;a refrescada|,
+		lastUpdated => 1207867363
 	},
 
 	'subscriberNotifyOffset description' => {
@@ -312,8 +312,8 @@ our $I18N = {
 	},
 
 	'sortEventsBy description' => {
-		message => q||,
-		lastUpdated => 
+		message => q|El orden en&nbsp; el cual los eventos diarios son mostrados.|,
+		lastUpdated => 1207867024
 	},
 
 	'extrasUrl' => {
@@ -347,8 +347,8 @@ our $I18N = {
 	},
 
 	'label search' => {
-		message => q||,
-		lastUpdated => 
+		message => q|B&uacute;squeda|,
+		lastUpdated => 1207867262
 	},
 
 	'endYear' => {
@@ -382,8 +382,8 @@ our $I18N = {
 	},
 
 	'start date' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Fecha de Inicio|,
+		lastUpdated => 1207867224
 	},
 
 	'startMonthAbbr' => {
@@ -457,8 +457,8 @@ our $I18N = {
 	},
 
 	'workflow generateRecurringEvents' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Generar eventos peri&oacute;dicos|,
+		lastUpdated => 1207867677
 	},
 
 	'templateIdEvent label' => {
@@ -472,8 +472,8 @@ our $I18N = {
 	},
 
 	'sortEventsBy value sequencenumber' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Orden por n&uacute;mero de secuencia.|,
+		lastUpdated => 1207867148
 	},
 
 	'editForm icalInterval description' => {
@@ -532,8 +532,8 @@ our $I18N = {
 	},
 
 	'keyword' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Palabra Clave|,
+		lastUpdated => 1207866967
 	},
 
 	'help event variables title' => {
@@ -622,13 +622,13 @@ our $I18N = {
 	},
 
 	'label week' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Semana|,
+		lastUpdated => 1207867245
 	},
 
 	'locale' => {
 		message => q|es_ES|,
-		lastUpdated => 1189598358
+		lastUpdated => 1207866980
 	},
 
 	'assetName' => {
@@ -697,8 +697,8 @@ our $I18N = {
 	},
 
 	'label day' => {
-		message => q||,
-		lastUpdated => 
+		message => q|D&iacute;a|,
+		lastUpdated => 1207867300
 	},
 
 	'templateIdPrintWeek label' => {
@@ -742,8 +742,8 @@ our $I18N = {
 	},
 
 	'label month' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Mes|,
+		lastUpdated => 1207867286
 	},
 
 	'current' => {
@@ -752,8 +752,8 @@ our $I18N = {
 	},
 
 	'sortEventsBy value time' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Ordenar por fecha de inicio/fecha de termino|,
+		lastUpdated => 1207867202
 	},
 
 	'defaultView value day' => {
@@ -777,8 +777,8 @@ our $I18N = {
 	},
 
 	'sortEventsBy label' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Orden de clasificaci&oacute;n de los eventos diarios|,
+		lastUpdated => 1207867086
 	},
 
 	'templateIdWeek label' => {

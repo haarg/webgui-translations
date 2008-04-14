@@ -402,8 +402,8 @@ our $I18N = {
 	},
 
 	'purge revision after' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Purgar viejas revisiones |,
+		lastUpdated => 1207849725
 	},
 
 	'asset template asset var title' => {

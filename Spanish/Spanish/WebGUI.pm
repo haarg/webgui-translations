@@ -127,8 +127,8 @@ our $I18N = {
 	},
 
 	'1021' => {
-		message => q|Califica Mensaje|,
-		lastUpdated => 1199971642
+		message => q|Calificar Mensaje|,
+		lastUpdated => 1207945962
 	},
 
 	'private message to label' => {
@@ -411,6 +411,11 @@ our $I18N = {
 		lastUpdated => 1207724737
 	},
 
+	'SubscriptionGroup formName' => {
+		message => q||,
+		lastUpdated => 
+	},
+
 	'160' => {
 		message => q|Fecha de envío|,
 		lastUpdated => 1207725387
@@ -582,8 +587,8 @@ our $I18N = {
 	},
 
 	'480' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Direcci&oacute;n de Correo Electr&oacute;nico|,
+		lastUpdated => 1207948297
 	},
 
 	'341' => {
@@ -747,8 +752,8 @@ our $I18N = {
 	},
 
 	'1' => {
-		message => q|Agregar contenido...|,
-		lastUpdated => 1207772478
+		message => q|A&ntilde;adir contenido...|,
+		lastUpdated => 1207945502
 	},
 
 	'144' => {
@@ -757,8 +762,8 @@ our $I18N = {
 	},
 
 	'965' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Papelera de Todos|,
+		lastUpdated => 1208022346
 	},
 
 	'824' => {
@@ -912,8 +917,8 @@ our $I18N = {
 	},
 
 	'1051 description' => {
-		message => q||,
-		lastUpdated => 
+		message => q|<div id="result_box" dir="ltr">La cadena que quires reemplazar con.</div>|,
+		lastUpdated => 1207946281
 	},
 
 	'975' => {
@@ -1141,6 +1146,11 @@ our $I18N = {
 		lastUpdated => 1207686985
 	},
 
+	'Attachments formName' => {
+		message => q||,
+		lastUpdated => 
+	},
+
 	'860' => {
 		message => q||,
 		lastUpdated => 
@@ -1314,6 +1324,11 @@ our $I18N = {
 	'170' => {
 		message => q|buscar|,
 		lastUpdated => 1207605127
+	},
+
+	'SelectRichEditor formName' => {
+		message => q||,
+		lastUpdated => 
 	},
 
 	'default rich editor' => {
@@ -1867,8 +1882,8 @@ our $I18N = {
 	},
 
 	'trash' => {
-		message => q|Papelera|,
-		lastUpdated => 1200060382
+		message => q|Mi Papelera|,
+		lastUpdated => 1208022251
 	},
 
 	'manage cache' => {
@@ -2377,8 +2392,8 @@ our $I18N = {
 	},
 
 	'1008' => {
-		message => q|Mezclar texto y HTML|,
-		lastUpdated => 1199918740
+		message => q|Mezclar Texto y HTML|,
+		lastUpdated => 1207945895
 	},
 
 	'1027' => {
@@ -2477,8 +2492,8 @@ our $I18N = {
 	},
 
 	'481' => {
-		message => q||,
-		lastUpdated => 
+		message => q|N&uacute;mero Telef&oacute;nico|,
+		lastUpdated => 1207948312
 	},
 
 	'867' => {
@@ -2542,8 +2557,8 @@ our $I18N = {
 	},
 
 	'104 description' => {
-		message => q|Introduce una URL para el enlace|,
-		lastUpdated => 1207723972
+		message => q|Introduce una URL para tu enlace|,
+		lastUpdated => 1207946043
 	},
 
 	'866' => {
@@ -2717,8 +2732,8 @@ our $I18N = {
 	},
 
 	'settings' => {
-		message => q|Herramientas|,
-		lastUpdated => 1169610715
+		message => q|Configuraciones|,
+		lastUpdated => 1207947233
 	},
 
 	'748' => {
@@ -2762,8 +2777,8 @@ our $I18N = {
 	},
 
 	'478' => {
-		message => q||,
-		lastUpdated => 
+		message => q|URL|,
+		lastUpdated => 1207948249
 	},
 
 	'942' => {
@@ -3007,8 +3022,8 @@ our $I18N = {
 	},
 
 	'profile' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Perfil|,
+		lastUpdated => 1207947249
 	},
 
 	'371' => {
@@ -3127,8 +3142,8 @@ our $I18N = {
 	},
 
 	'1043' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Archivo Despu&eacute;s|,
+		lastUpdated => 1208147813
 	},
 
 	'Enable Metadata' => {
@@ -3222,8 +3237,8 @@ our $I18N = {
 	},
 
 	'1050 description' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Una cadena a buscar. Todos los signos de&nbsp; puntuaci&oacute;n ser&aacute;n escapados.|,
+		lastUpdated => 1207946210
 	},
 
 	'455' => {
@@ -3397,8 +3412,8 @@ our $I18N = {
 	},
 
 	'482' => {
-		message => q||,
-		lastUpdated => 
+		message => q|N&uacute;mero (Entero)|,
+		lastUpdated => 1207948328
 	},
 
 	'949' => {
@@ -3442,8 +3457,8 @@ our $I18N = {
 	},
 
 	'external help' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Para mas ayuda, visite the <a href="http://www.webgui.org/community-wiki">WebGUI Community Wiki</a>.|,
+		lastUpdated => 1208148086
 	},
 
 	'54' => {

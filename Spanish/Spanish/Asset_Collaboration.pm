@@ -182,8 +182,8 @@ our $I18N = {
 	},
 
 	'back.url' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Una URL para regresar a la vista principal de este sistema de colaboraci&oacute;n de Activos.|,
+		lastUpdated => 1208122897
 	},
 
 	'get mail help' => {
@@ -272,8 +272,8 @@ our $I18N = {
 	},
 
 	'avatar.url' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Una URL al avatar para el propietario de la publicaci&oacute;n, si los avatares est&aacute;n activados y el usuario tiene un avatar.|,
+		lastUpdated => 1208122744
 	},
 
 	'user' => {
@@ -442,8 +442,8 @@ our $I18N = {
 	},
 
 	'auto subscribe to thread help' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Si el usuario no est&aacute; suscrito al sistema de colaborativo, y despu&eacute;s a la CS a trav&eacute;s del correo electr&oacute;nico, en caso de que el sea suscrito? Si esto se define en s&iacute;, lo ser&aacute;. Tenga en cuenta que esta opci&oacute;n s&oacute;lo funciona si el &quot;Al requerir la suscripci&oacute;n de correo electr&oacute;nico para los campos?&quot; Campo est&aacute; establecido en &quot;no&quot;.|,
+		lastUpdated => 1208122592
 	},
 
 	'unsubscribe.url' => {
@@ -452,8 +452,8 @@ our $I18N = {
 	},
 
 	'body.label' => {
-		message => q||,
-		lastUpdated => 
+		message => q|La palabra &quot;Cuerpo&quot;|,
+		lastUpdated => 1208122967
 	},
 
 	'thumbnail' => {
@@ -487,8 +487,8 @@ our $I18N = {
 	},
 
 	'close.label' => {
-		message => q||,
-		lastUpdated => 
+		message => q|La palabra &quot;Cerrado&quot;|,
+		lastUpdated => 1208123015
 	},
 
 	'rich editor' => {
@@ -667,8 +667,8 @@ our $I18N = {
 	},
 
 	'closed.label' => {
-		message => q||,
-		lastUpdated => 
+		message => q|La palabra &quot;Cerrado&quot;|,
+		lastUpdated => 1208123042
 	},
 
 	'display last reply description' => {
@@ -767,8 +767,8 @@ our $I18N = {
 	},
 
 	'captcha label' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Verifique su humanidad|,
+		lastUpdated => 1208122986
 	},
 
 	'subscription group hoverHelp' => {
@@ -817,8 +817,8 @@ our $I18N = {
 	},
 
 	'back.label' => {
-		message => q||,
-		lastUpdated => 
+		message => q|La palabra &quot;Volver&quot;|,
+		lastUpdated => 1208122797
 	},
 
 	'severity.label' => {

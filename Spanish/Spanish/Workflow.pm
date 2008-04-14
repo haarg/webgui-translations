@@ -149,8 +149,8 @@ Descripción|,
 	},
 
 	'singleton' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Singleton|,
+		lastUpdated => 1207942165
 	},
 
 	'topicName' => {
@@ -190,8 +190,8 @@ No Objeto|,
 	},
 
 	'object type help2' => {
-		message => q|El tipo de flujo de trabajo que ha seleccionado añadir.|,
-		lastUpdated => 1206921910
+		message => q|El tipo de flujo de trabajo que ha seleccionado para a&ntilde;adir.|,
+		lastUpdated => 1207941434
 	},
 
 	'is enabled' => {

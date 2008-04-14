@@ -2,8 +2,8 @@ package WebGUI::i18n::Spanish::Workflow_Activity_DecayKarma;
 
 our $I18N = {
 	'decay factor' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Factor Desintegrador|,
+		lastUpdated => 1207942213
 	},
 
 	'minimum karma' => {
@@ -22,8 +22,8 @@ our $I18N = {
 	},
 
 	'minimum karma help' => {
-		message => q||,
-		lastUpdated => 
+		message => q|<div id="result_box" dir="ltr">&iquest;Cu&aacute;l es el monto m&iacute;nimo que el karma del usuario puede decaer?</div>|,
+		lastUpdated => 1207942346
 	},
 
 };
