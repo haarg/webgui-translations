@@ -42,13 +42,13 @@ our $I18N = {
 	},
 
 	'synopsis.form' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Pole formularza dla wprowadzeniu lub edycji streszczenia.|,
+		lastUpdated => 1208172713
 	},
 
 	'isNewPost' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Zmienna warunkowa zwracająca prawdę jeśli użytkownik dodaje nową wiadomość zamiast edytować istniejącą.|,
+		lastUpdated => 1208171716
 	},
 
 	'unsubscribeLinkText' => {
@@ -57,8 +57,8 @@ our $I18N = {
 	},
 
 	'threadId' => {
-		message => q||,
-		lastUpdated => 
+		message => q|ID wątku do kt&oacute;rego należy tak wiadomość.|,
+		lastUpdated => 1208172742
 	},
 
 	'url' => {
@@ -67,13 +67,13 @@ our $I18N = {
 	},
 
 	'isHidden' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Zmienna warunkowa wskazująca czy wiadomość powinna byc ukryta w nawigacji.|,
+		lastUpdated => 1208171415
 	},
 
 	'hasRated' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Warunek jest prawdziwy jeśli użytkownik właśnie ocenił wiadomość.|,
+		lastUpdated => 1208170555
 	},
 
 	'formatted.content' => {
@@ -82,8 +82,8 @@ our $I18N = {
 	},
 
 	'groupIdEdit' => {
-		message => q||,
-		lastUpdated => 
+		message => q|ID grupy uprawnionej do edycji tej wiadomości.|,
+		lastUpdated => 1208172411
 	},
 
 	'visitorName.form' => {
@@ -112,8 +112,8 @@ our $I18N = {
 	},
 
 	'name' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Etykieta dla pola metadanych. Etykiety danych nie są tłumaczone.|,
+		lastUpdated => 1208172750
 	},
 
 	'new file description' => {
@@ -122,8 +122,8 @@ our $I18N = {
 	},
 
 	'sticky.form' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Przycisk Tak/Nie dla przyklejenia wątku. Przyklejne wątki pozostają na początku listy forum.|,
+		lastUpdated => 1208172315
 	},
 
 	'pending' => {
@@ -142,18 +142,18 @@ our $I18N = {
 	},
 
 	'title.form' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Pole formularza dla wprowadzenia lub edycji tytułu. Dostępny jest jednoliniowy edytor pozbawiony formatowania HTML z wyłączonymi makrami. Dla zaawansowanego wprowadzania tekstu użyj title.form.textarea.  |,
+		lastUpdated => 1208173062
 	},
 
 	'image.url' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Adres URL pierwszego zdjęcia dołączonego do wiadomości.|,
+		lastUpdated => 1208170486
 	},
 
 	'isNewThread' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Zmienna warunkowa zwracająca prawdę jeśli użytkownik doddaje nowy wątek.|,
+		lastUpdated => 1208171836
 	},
 
 	'userDefined1' => {
@@ -162,13 +162,13 @@ our $I18N = {
 	},
 
 	'title' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Tytuł wiadomości.|,
+		lastUpdated => 1208172818
 	},
 
 	'isImage' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Zmienna warunkowa wskazująca czy załącznik jest obrazem.|,
+		lastUpdated => 1208171569
 	},
 
 	'userDefinedN.form.htmlarea' => {
@@ -182,8 +182,8 @@ our $I18N = {
 	},
 
 	'storageId' => {
-		message => q||,
-		lastUpdated => 
+		message => q|ID dla Asset przechowującego załączniki wiadomości.|,
+		lastUpdated => 1208172379
 	},
 
 	'user.isModerator' => {
@@ -207,8 +207,8 @@ our $I18N = {
 	},
 
 	'help url.raw' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Adres URL wiadomości bez #id... na końcu. Przydatny do wykonywania innych funkcji na wiadomości, takich jak: func=promote lub func=demote.|,
+		lastUpdated => 1208171095
 	},
 
 	'dateSubmitted' => {
@@ -307,8 +307,8 @@ our $I18N = {
 	},
 
 	'isEdit' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Zmienna warunkowa zwracająca prawdę jeśli użytkownik edytuje istniejącą wiadomość.|,
+		lastUpdated => 1208171484
 	},
 
 	'filename' => {
@@ -372,8 +372,8 @@ our $I18N = {
 	},
 
 	'isThread' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Zmienna warunkowa zwracająca prawdę jeśli użytkownik edytuje pierwszą (gł&oacute;wną) wiadomość w wątku zamiast odpowiadać.|,
+		lastUpdated => 1208172362
 	},
 
 	'875' => {
@@ -392,8 +392,8 @@ our $I18N = {
 	},
 
 	'synopsis' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Streszczenie wiadomości. Jeśli nie wprowadzono streszczenia system spr&oacute;buje pobrać tekst z pola description do wystąpienia markera ^-; Jeśli marker nie zostanie odnaleziony, w&oacute;wczas pobierane jest wszystko aż do napotkania pierwszego przejścia do nowej linii.|,
+		lastUpdated => 1208172684
 	},
 
 	'ownerUserId' => {
@@ -412,8 +412,8 @@ our $I18N = {
 	},
 
 	'isPrototype' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Zmienna warunkowa zwracająca prawdę jeśli wiadomość jest pierwowzorem zawartości.|,
+		lastUpdated => 1208172070
 	},
 
 	'field' => {
@@ -422,8 +422,8 @@ our $I18N = {
 	},
 
 	'karmaIsEnabled' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Zmienna warunkowa zwracająca prawdę jeśli karma została włączona w ustawieniach WebGUI w konsoli administratora tej strony.|,
+		lastUpdated => 1208172626
 	},
 
 	'title.short' => {
@@ -452,8 +452,8 @@ our $I18N = {
 	},
 
 	'isReply' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Zmienna warunkowa zwracająca prawdę jeśli użytkownik odpowiada na istniejącą wiadomość.|,
+		lastUpdated => 1208172107
 	},
 
 	'notification template body' => {
@@ -462,13 +462,13 @@ our $I18N = {
 	},
 
 	'groupIdView' => {
-		message => q||,
-		lastUpdated => 
+		message => q|ID grupy uprawnionej do oglądania tej wiadomości.|,
+		lastUpdated => 1208172435
 	},
 
 	'icon' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Ikona reprezentująca typ pliku załącznika|,
+		lastUpdated => 1208170227
 	},
 
 	'assetSize' => {
@@ -482,8 +482,8 @@ our $I18N = {
 	},
 
 	'status' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Status wiadomości: &quot;Zatwierdzona&quot;,&quot;Przetwarzana&quot;, &quot;Zarchwizowana&quot;.|,
+		lastUpdated => 1208172215
 	},
 
 	'By' => {
@@ -512,8 +512,8 @@ our $I18N = {
 	},
 
 	'isPackage' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Zmienna warunkowa zwracająca prawdę jeśli wiadomość jest pakietem.|,
+		lastUpdated => 1208171964
 	},
 
 	'userDefinedN.form.yesNo' => {
@@ -537,8 +537,8 @@ our $I18N = {
 	},
 
 	'thumbnail' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Miniaturka załącznika, jeśli da się zastosować.|,
+		lastUpdated => 1208172793
 	},
 
 	'form.footer' => {
@@ -557,8 +557,8 @@ our $I18N = {
 	},
 
 	'subscribe.form' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Przycisk Tak/Nie zezwalajcy użytkownikowi dokonać subskrypcji w wątku, do kt&oacute;rego należy ta wiadomość.|,
+		lastUpdated => 1208172452
 	},
 
 	'post template variables title' => {
@@ -597,8 +597,8 @@ our $I18N = {
 	},
 
 	'image.thumbnail' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Miniatura obrazu dołączonego do wiadomości.|,
+		lastUpdated => 1208170440
 	},
 
 };
