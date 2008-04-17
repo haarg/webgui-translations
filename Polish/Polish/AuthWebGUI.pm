@@ -112,8 +112,8 @@ our $I18N = {
 	},
 
 	'email recover password start message' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Wprowadź poniżej adres e-mail lub nazwę konta aby rozpocząć proces odzyskania hasła.|,
+		lastUpdated => 1208239744
 	},
 
 	'20' => {
@@ -232,8 +232,8 @@ our $I18N = {
 	},
 
 	'expired.form.footer' => {
-		message => q|The required form elements that go after the password expiration page form. |,
-		lastUpdated => 1149220347
+		message => q|Wymagane elementy formularza umieszczane za formularzem wygaśnięcia hasła.<br /> |,
+		lastUpdated => 1208240409
 	},
 
 	'require username for password recovery' => {
@@ -242,8 +242,8 @@ our $I18N = {
 	},
 
 	'error password nonWordCharacters' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Hasło musi się składać z przynajmniej %s znak&oacute;w z poza alfabetu łacińskiego (jak '!', '@', or '$').|,
+		lastUpdated => 1208239930
 	},
 
 	'deactivate account template title' => {
@@ -257,8 +257,8 @@ our $I18N = {
 	},
 
 	'error passwordRecoveryType no profile fields required' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Nie można aktywować procedury przywr&oacute;cenia hasła WebGUI przez pole profilu. Nie wskazano żadnego pola w profilu dla procedury przywr&oacute;cenia hasła. |,
+		lastUpdated => 1208240117
 	},
 
 	'12' => {
@@ -282,8 +282,8 @@ our $I18N = {
 	},
 
 	'email password recovery end message' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Wprowadź poniżej nowe hasło dla twojego konta.|,
+		lastUpdated => 1208239601
 	},
 
 	'login.label' => {
@@ -352,13 +352,13 @@ our $I18N = {
 	},
 
 	'expired.form.header' => {
-		message => q|The required form elements that go at the top of the password expiration page.|,
-		lastUpdated => 1149220347
+		message => q|<p>Wymagane elementy formularza umieszczane przed formularzem wygaśnięcia hasła.</p>|,
+		lastUpdated => 1208240440
 	},
 
 	'error password requiredDigits' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Hasło musi posiadać przynamniej %s cyfr.|,
+		lastUpdated => 1208239965
 	},
 
 	'display account template title' => {
@@ -487,8 +487,8 @@ our $I18N = {
 	},
 
 	'email recover password finish message1' => {
-		message => q||,
-		lastUpdated => 
+		message => q|E-mail został wysłany do|,
+		lastUpdated => 1208239642
 	},
 
 	'account.form.username.label' => {
@@ -512,18 +512,18 @@ our $I18N = {
 	},
 
 	'expired password template' => {
-		message => q|Szablon wygaśnięcia hasła|,
-		lastUpdated => 1204241652
+		message => q|Szablon Wygaśnięcia Hasła|,
+		lastUpdated => 1208239754
 	},
 
 	'expired template title' => {
-		message => q|WebGUI Authentication Password Expiration Template|,
-		lastUpdated => 1078857230
+		message => q|Szablon Przedawnienia Hasła Autoryzacji WebGUI|,
+		lastUpdated => 1208240183
 	},
 
 	'email recover password finish message2' => {
-		message => q||,
-		lastUpdated => 
+		message => q|z instrukcjami dla ustawienia nowego hasła.|,
+		lastUpdated => 1208239688
 	},
 
 	'captcha label' => {
@@ -617,8 +617,8 @@ our $I18N = {
 	},
 
 	'error password requiredMixedCase' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Hasło musi posiadać przynajmniej %s wielkich liter i przynajmniej jedną małą literę.&quot;|,
+		lastUpdated => 1208240030
 	},
 
 	'webguiPasswordRecoveryRequireUsername hoverHelp' => {
