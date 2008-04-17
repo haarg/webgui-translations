@@ -22,8 +22,8 @@ our $I18N = {
 	},
 
 	'account title' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Variables del template para la macro cuenta|,
+		lastUpdated => 1208187068
 	},
 
 };

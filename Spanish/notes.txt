@@ -20,8 +20,17 @@ item = item
 
 SQL Query = Consultas SQL
 
+Setup = configurar 
 
+Set = establecer
 
+Proxy = proxy
+
+Pixels = pixeles 
+
+Gateway = Gateway
+
+Macro = Macro
 
 
 
@@ -29,7 +38,6 @@ SQL Query = Consultas SQL
 
 
 Equipo de traducción VCB:
-
 
 
     Lisette Ramirez
@@ -41,14 +49,44 @@ Equipo de traducción VCB:
     Juan Guillermo Gallego
 
     Estiven Restrepo
- 
+
     Camilo Soler
 
 
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 http://www.vcb.com.co -- soporte@vcb.com.co
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

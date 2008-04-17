@@ -52,8 +52,8 @@ our $I18N = {
 	},
 
 	'user profiling' => {
-		message => q|Perfilamiento de usuario|,
-		lastUpdated => 1206982737
+		message => q|Perfil de usuario|,
+		lastUpdated => 1208200111
 	},
 
 	'788' => {

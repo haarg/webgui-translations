@@ -2,8 +2,8 @@ package WebGUI::i18n::Spanish::Macro_L_loginBox;
 
 our $I18N = {
 	'username.form' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Elemento del formulario para el nombre de usuario|,
+		lastUpdated => 1208187156
 	},
 
 	'logout.label' => {
@@ -67,8 +67,8 @@ our $I18N = {
 	},
 
 	'username.label' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Etiqueta internacionalizada para el nombre de usuario|,
+		lastUpdated => 1208187183
 	},
 
 	'hello.label' => {

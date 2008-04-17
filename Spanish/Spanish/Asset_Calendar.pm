@@ -22,8 +22,8 @@ our $I18N = {
 	},
 
 	'helpvar dateTime monthName' => {
-		message => q||,
-		lastUpdated => 
+		message => q|EL nombre del mes (&quot;Enero&quot;)|,
+		lastUpdated => 1208215750
 	},
 
 	'adminControls' => {
@@ -72,8 +72,8 @@ our $I18N = {
 	},
 
 	'helpvar dateTime second' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Los segundos|,
+		lastUpdated => 1208215759
 	},
 
 	'defaultView description' => {
@@ -97,8 +97,8 @@ our $I18N = {
 	},
 
 	'helpvar dateTime minute' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Los minutos|,
+		lastUpdated => 1208215695
 	},
 
 	'view calendar day title' => {
@@ -112,18 +112,18 @@ our $I18N = {
 	},
 
 	'helpvar dateTime dayOfMonth' => {
-		message => q||,
-		lastUpdated => 
+		message => q|El numero de el dia del mes.|,
+		lastUpdated => 1208215351
 	},
 
 	'helpvar url_nextPage' => {
-		message => q||,
-		lastUpdated => 
+		message => q|La direccion URL para la pagina siguiente. Si no hay una pagina siguiente, esta variable no existira. |,
+		lastUpdated => 1208215984
 	},
 
 	'help view list title' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Vista de lista del calendario.|,
+		lastUpdated => 1208215237
 	},
 
 	'templateIdEvent description' => {
@@ -142,8 +142,8 @@ our $I18N = {
 	},
 
 	'editForm templateIdPrintList description' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Esta pplantilla imprime el calendario en forma de lista|,
+		lastUpdated => 1208214731
 	},
 
 	'defaultDate label' => {
@@ -167,8 +167,8 @@ our $I18N = {
 	},
 
 	'helpvar dateTime month' => {
-		message => q||,
-		lastUpdated => 
+		message => q|El numero del mes (01)|,
+		lastUpdated => 1208215716
 	},
 
 	'hour24' => {
@@ -177,8 +177,8 @@ our $I18N = {
 	},
 
 	'editForm icalInterval label' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Intervalo de alimentacion de Calendario.|,
+		lastUpdated => 1208214587
 	},
 
 	'templateIdEventEdit label' => {
@@ -212,13 +212,13 @@ our $I18N = {
 	},
 
 	'helpvar dateTime year' => {
-		message => q||,
-		lastUpdated => 
+		message => q|El a&ntilde;o<span style="font-size: 11pt; line-height: 115%; font-family: 'Calibri','sans-serif'"> </span>|,
+		lastUpdated => 1208215846
 	},
 
 	'helpvar dateTime dayName' => {
-		message => q||,
-		lastUpdated => 
+		message => q|El nombre del dia (Domingo)|,
+		lastUpdated => 1208215289
 	},
 
 	'dayOfWeek' => {
@@ -252,8 +252,8 @@ our $I18N = {
 	},
 
 	'helpvar dateTime dmy' => {
-		message => q||,
-		lastUpdated => 
+		message => q|El dia, mes, y a&ntilde;o en formato UK: DD/MM/AAAA|,
+		lastUpdated => 1208215410
 	},
 
 	'defaultDate value last' => {
@@ -267,8 +267,8 @@ our $I18N = {
 	},
 
 	'helpvar dateTime dayAbbr' => {
-		message => q||,
-		lastUpdated => 
+		message => q|El nombre de dia abreviado (Dom)|,
+		lastUpdated => 1208215275
 	},
 
 	'admin' => {
@@ -292,8 +292,8 @@ our $I18N = {
 	},
 
 	'editForm templateIdList label' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Plantilla de vista de lista|,
+		lastUpdated => 1208214696
 	},
 
 	'urlWeek' => {
@@ -357,8 +357,8 @@ our $I18N = {
 	},
 
 	'editForm templateIdList description' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Esta plantilla muestra el calendario en forma de lista.|,
+		lastUpdated => 1208214676
 	},
 
 	'ymd' => {
@@ -367,8 +367,8 @@ our $I18N = {
 	},
 
 	'helpvar url_previousPage' => {
-		message => q||,
-		lastUpdated => 
+		message => q|La direccion URL de la pagina previa. Si no hay una pagina previa, esta variable no existira. |,
+		lastUpdated => 1208216018
 	},
 
 	'pageNextStart' => {
@@ -402,8 +402,8 @@ our $I18N = {
 	},
 
 	'helpvar dateTime start' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Un juego de varaibles de fecha/hora con el prefijo &quot;start&quot; (iniciar). Vea &quot;las variables de Fecha/Hora del Calendario&quot; para mas informacion.|,
+		lastUpdated => 1208215833
 	},
 
 	'monthAbbr' => {
@@ -422,8 +422,8 @@ our $I18N = {
 	},
 
 	'helpvar dateTime monthAbbr' => {
-		message => q||,
-		lastUpdated => 
+		message => q|El nombre del mes abreviado (&quot;Ene&quot;)|,
+		lastUpdated => 1208215735
 	},
 
 	'templateIdDay description' => {
@@ -437,8 +437,8 @@ our $I18N = {
 	},
 
 	'helpvar dateTime ymd' => {
-		message => q||,
-		lastUpdated => 
+		message => q|El a&ntilde;o, el mes, y el dia en formato ISO: AAAA-MM-DD<span style="font-size: 11pt; line-height: 115%; font-family: 'Calibri','sans-serif'"> </span>|,
+		lastUpdated => 1208215878
 	},
 
 	'endMonth' => {
@@ -452,8 +452,8 @@ our $I18N = {
 	},
 
 	'helpvar dateTime mdy' => {
-		message => q||,
-		lastUpdated => 
+		message => q|El mes, dia y a&ntilde;o en formato US: MM/DD/AAAA<span style="font-size: 11pt; line-height: 115%; font-family: 'Calibri','sans-serif'"> </span>|,
+		lastUpdated => 1208215655
 	},
 
 	'workflow generateRecurringEvents' => {
@@ -477,8 +477,8 @@ our $I18N = {
 	},
 
 	'editForm icalInterval description' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Periodo de tiempo mostrado en el alimentador de calendario.|,
+		lastUpdated => 1208214567
 	},
 
 	'hours' => {
@@ -492,13 +492,13 @@ our $I18N = {
 	},
 
 	'help view list body' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Estas variables estan disponibles para la vista de lista del calendario.|,
+		lastUpdated => 1208215224
 	},
 
 	'editForm listViewPageInterval label' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Listar intervalo de vista de pagina.|,
+		lastUpdated => 1208214652
 	},
 
 	'templateIdPrintWeek description' => {
@@ -507,8 +507,8 @@ our $I18N = {
 	},
 
 	'help event variables body' => {
-		message => q||,
-		lastUpdated => 
+		message => q|<p>Cuando el calendario esta mostrando un evento, adquiere el juego completo de variables de plantillas de eventos, y cambia el nombre un poco. La variable de plantilla de evento &quot;Title&quot; (titulo) se convierte en &quot;eventTitle&quot;. La variable de plantilla de evento &quot;startDate&quot; se convierte en &quot;eventStartDate&quot; y asi continua. </p>|,
+		lastUpdated => 1208215173
 	},
 
 	'endDayName' => {
@@ -527,8 +527,8 @@ our $I18N = {
 	},
 
 	'editForm templateIdPrintList label' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Imprimir plantilla de vista de lista.|,
+		lastUpdated => 1208214750
 	},
 
 	'keyword' => {
@@ -537,13 +537,13 @@ our $I18N = {
 	},
 
 	'help event variables title' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Variables de evento de calendario|,
+		lastUpdated => 1208215200
 	},
 
 	'editForm listViewPageInterval description' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Periodo de tiempo mostrado en una sola pagina de la vista de lista.|,
+		lastUpdated => 1208214623
 	},
 
 	'urlIcal' => {
@@ -562,8 +562,8 @@ our $I18N = {
 	},
 
 	'helpvar dateTime end' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Un juego de variables de fecha/hora con el prefijo &quot;end&quot; (terminar). Vea &quot;Calendar Date/Time Variables&quot; (fecha de calendario/Variables de tiempo) para mas informacion.|,
+		lastUpdated => 1208215494
 	},
 
 	'editor' => {
@@ -602,8 +602,8 @@ our $I18N = {
 	},
 
 	'help calendar dateTime title' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Variables fecha/hora de Calendario |,
+		lastUpdated => 1208214969
 	},
 
 	'year' => {
@@ -612,13 +612,13 @@ our $I18N = {
 	},
 
 	'help calendar dateTime body' => {
-		message => q||,
-		lastUpdated => 
+		message => q|<p>Estas variables estan disponibles para la mayoria de las fechas y horas en el calendario.</p><p>NOTA: Algunas veces estas variables tienen un prefijo como &quot;start&quot; (iniciar) o &quot;end&quot; (finalizar). En ese caso, la primera letra de las variables se pone en mayuscula, de tal manera que &quot;monthName&quot; con un prefijo de &quot;start&quot; se convierte &quot;startMonthName&quot;. </p>|,
+		lastUpdated => 1208214936
 	},
 
 	'helpvar dateTime dayOfWeek' => {
-		message => q||,
-		lastUpdated => 
+		message => q|El numero de el dia de la semana (1 es lunes, 7 es domingo)|,
+		lastUpdated => 1208215342
 	},
 
 	'label week' => {
@@ -667,8 +667,8 @@ our $I18N = {
 	},
 
 	'helpvar newYear' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Esta variable es verdadera cuandoel evento actual esta en un a&ntilde;o diferente al evento previo.&nbsp;<span style="font-size: 11pt; line-height: 115%; font-family: 'Calibri','sans-serif'"> </span>|,
+		lastUpdated => 1208215938
 	},
 
 	'searchButtonLabel' => {
@@ -772,8 +772,8 @@ our $I18N = {
 	},
 
 	'helpvar dateTime epoch' => {
-		message => q||,
-		lastUpdated => 
+		message => q|La fecha de &eacute;poca (numero de segundos desde 1970-01-01 00:00:00). Apropiado para ser usado en el macro de fecha.&nbsp;|,
+		lastUpdated => 1208215597
 	},
 
 	'sortEventsBy label' => {
@@ -802,8 +802,8 @@ our $I18N = {
 	},
 
 	'helpvar dateTime meridiem' => {
-		message => q||,
-		lastUpdated => 
+		message => q|El meridiano (A.M. o P.M)|,
+		lastUpdated => 1208215684
 	},
 
 	'view calendar body' => {
