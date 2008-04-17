@@ -2,8 +2,8 @@ package WebGUI::i18n::Polish::Asset_Post;
 
 our $I18N = {
 	'post received' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Twoja wiadomość została odebrana i jest aktualnie przetwarzana. Niedługo będzie dodana na stronę. Proszę cierpliwie czekać.|,
+		lastUpdated => 1208433123
 	},
 
 	'dateUpdated' => {
@@ -127,8 +127,8 @@ our $I18N = {
 	},
 
 	'pending' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Przetwarzanie|,
+		lastUpdated => 1208433145
 	},
 
 	'username' => {
@@ -497,8 +497,8 @@ our $I18N = {
 	},
 
 	'rating' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Inna nazwa dla <strong>rating.value</strong>|,
+		lastUpdated => 1208433165
 	},
 
 	'Edited_on' => {
