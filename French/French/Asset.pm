@@ -711,6 +711,11 @@ our $I18N = {
 		lastUpdated => 1203647210
 	},
 
+	'package extract error' => {
+		message => q|Impossible d'extraire le package! Le package est peut &ecirc;tre corrompu, ou il s'est produit une erreur sur le serveur emp&ecirc;chant son importation.|,
+		lastUpdated => 1208478053
+	},
+
 	'prototype using title' => {
 		message => q|Prototypes de contenu, Utilisation|,
 		lastUpdated => 1203649306
