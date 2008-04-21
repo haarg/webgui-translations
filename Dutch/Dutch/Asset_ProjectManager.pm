@@ -742,8 +742,8 @@ our $I18N = {
 	},
 
 	'project id hoverhelp' => {
-		message => q|Een unieke indentificatie warmee binnen WebGUI verwezen wordt naar dit project.  |,
-		lastUpdated => 1149495905
+		message => q|Een unieke indentificatie waarmee binnen WebGUI verwezen wordt naar dit project.  |,
+		lastUpdated => 1208525092
 	},
 
 	'user add popup notFoundMessage' => {
@@ -767,8 +767,8 @@ our $I18N = {
 	},
 
 	'hours per day hoverhelp' => {
-		message => q|Kies het aantal uren dat in het algemeen in een dag werken zit. Hiermee wordt geschat hoeveel dagen een taak in beslag neemt. Dit zal aangepast worden indien ingesteld wordt dat er meer of minder per dag gewerkt wordt door een bepaalde arbeidsbron indien zeze aan de taak gekoppeld is. |,
-		lastUpdated => 1149495122
+		message => q|Kies het aantal uren dat in het algemeen in een dag werken zit. Hiermee wordt geschat hoeveel dagen een taak in beslag neemt. Dit zal aangepast worden indien ingesteld wordt dat er meer of minder per dag gewerkt wordt door een bepaalde arbeidsbron indien deze aan de taak gekoppeld is. |,
+		lastUpdated => 1208525065
 	},
 
 	'user add popup searchText' => {

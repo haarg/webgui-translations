@@ -87,8 +87,8 @@ our $I18N = {
 	},
 
 	'description' => {
-		message => q|De beschrijving van voor deze Wiki. Titels of urls in deze beschrijving van pagina's in deze Wiki worden herkend en omgezet in links naar die pagina's. Deze sjabloonvariabele zal elke andere beschikbare variabele met dezelfde naam in dit template overschrijven. |,
-		lastUpdated => 1166545204
+		message => q|De beschrijving van deze Wiki. Titels of urls in deze beschrijving van pagina's in deze Wiki worden herkend en omgezet in links naar die pagina's. Deze sjabloonvariabele zal elke andere beschikbare variabele met dezelfde naam in dit template overschrijven. |,
+		lastUpdated => 1208528154
 	},
 
 	'canAddPages variable' => {

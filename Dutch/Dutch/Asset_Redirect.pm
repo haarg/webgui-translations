@@ -32,8 +32,8 @@ our $I18N = {
 	},
 
 	'go to the redirect parent page' => {
-		message => q|Ga naar demoeder van de doorleiding.|,
-		lastUpdated => 1151071240
+		message => q|Ga naar de moeder van de doorleiding.|,
+		lastUpdated => 1208525167
 	},
 
 	'what do you want to do with this redirect' => {

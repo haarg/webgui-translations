@@ -17,8 +17,8 @@ our $I18N = {
 	},
 
 	'7' => {
-		message => q|Geen Departement|,
-		lastUpdated => 1153927752
+		message => q|Geen afdeling|,
+		lastUpdated => 1208522919
 	},
 
 	'form' => {
@@ -47,8 +47,8 @@ our $I18N = {
 	},
 
 	'all departments' => {
-		message => q|Alle Departementen|,
-		lastUpdated => 1153927907
+		message => q|Alle afdelingen|,
+		lastUpdated => 1208523000
 	},
 
 	'1 description' => {
@@ -159,8 +159,8 @@ our $I18N = {
 	},
 
 	'report rows_loop' => {
-		message => q|Een kring met de rijen met data van het het aanwezig/afwezig bord verslag.|,
-		lastUpdated => 1155566625
+		message => q|Een kring met de rijen met data van het aanwezig/afwezig bord verslag.|,
+		lastUpdated => 1208523198
 	},
 
 	'12 description' => {
@@ -169,8 +169,8 @@ our $I18N = {
 	},
 
 	'filter departments description' => {
-		message => q|Elk aanwezig/afwezig bord kan ingesteld worden zodat verscheidene afdelingen er gebruik vankunnen maken. Alleafdelingen worden standaard getoond in het verslag. Selecteer de naam van een afdeling om het verslag te beperken tot het tonen van status veranderingen binnen die afdeling. |,
-		lastUpdated => 1155565330
+		message => q|Elk aanwezig/afwezig bord kan ingesteld worden zodat verscheidene afdelingen er gebruik van kunnen maken. Alle afdelingen worden standaard getoond in het verslag. Selecteer de naam van een afdeling om het verslag te beperken tot het tonen van status veranderingen binnen die afdeling. |,
+		lastUpdated => 1208523105
 	},
 
 	'12' => {
@@ -334,8 +334,8 @@ our $I18N = {
 	},
 
 	'3 description' => {
-		message => q|Welke groepen mogtn rapporten zien die gegenereerd werden door het Aanwezig/Afwezig Bord Wobject?|,
-		lastUpdated => 1153927476
+		message => q|Welke groepen mogen rapporten zien die gegenereerd werden door het Aanwezig/Afwezig Bord Wobject?|,
+		lastUpdated => 1208522855
 	},
 
 	'canViewReport' => {
@@ -394,8 +394,8 @@ our $I18N = {
 	},
 
 	'in/out status delegates' => {
-		message => q|Annwezig/afwezig status afvaardiging|,
-		lastUpdated => 1155565634
+		message => q|Aanwezig/afwezig status afvaardiging|,
+		lastUpdated => 1208523144
 	},
 
 	'reportViewerGroup' => {

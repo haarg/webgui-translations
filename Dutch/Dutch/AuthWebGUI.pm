@@ -177,8 +177,8 @@ our $I18N = {
 	},
 
 	'recover password email text3' => {
-		message => q|Als u niet heeft verzocht uw wachtwoord opnieuw in te stellen, neemt u dan contact op ment de systeembeheerder door dit bericht te beantwoorden.|,
-		lastUpdated => 1190024771
+		message => q|Als u niet heeft verzocht uw wachtwoord opnieuw in te stellen, neemt u dan contact op met de systeembeheerder door dit bericht te beantwoorden.|,
+		lastUpdated => 1208528557
 	},
 
 	'password recovery multiple results' => {
@@ -567,8 +567,8 @@ our $I18N = {
 	},
 
 	'recoverFormProfile' => {
-		message => q|Loop door de profielvelden, die nodig is voor het opvragen van het wachtwoord.|,
-		lastUpdated => 1166626053
+		message => q|Loop door de profielvelden, die nodig zijn voor het opvragen van het wachtwoord.|,
+		lastUpdated => 1208528722
 	},
 
 	'9' => {

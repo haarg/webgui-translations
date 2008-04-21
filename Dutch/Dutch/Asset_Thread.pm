@@ -117,8 +117,8 @@ our $I18N = {
 	},
 
 	'layout.nested.url' => {
-		message => q|Een URL om de lay-out te veranderen om berichten te nestelen. Berichten worden zo opgslagen met inspingen, zodat duidelijk is welke berichten beantwoordingen zijn en welke nieuwe berichten in een thread. |,
-		lastUpdated => 1153527516
+		message => q|Een URL om de lay-out te veranderen om berichten te nestelen. Berichten worden zo opgeslagen met inspingen, zodat duidelijk is welke berichten beantwoordingen zijn en welke nieuwe berichten in een thread. |,
+		lastUpdated => 1208527879
 	},
 
 	'isCurrent' => {

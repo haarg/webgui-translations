@@ -2,8 +2,8 @@ package WebGUI::i18n::Dutch::Asset_Layout;
 
 our $I18N = {
 	'dragger.init' => {
-		message => q|Voor het werken van de klik en sleep functies is HTML enJavascript nodig. Deze variabele is leeg als admin niet getoond wordt.|,
-		lastUpdated => 1149258150
+		message => q|Voor het werken van de klik en sleep functies is HTML en Javascript nodig. Deze variabele is leeg als admin niet getoond wordt.|,
+		lastUpdated => 1208523993
 	},
 
 	'content' => {

@@ -65,8 +65,8 @@ Ex: /bms/documents
 	},
 
 	'http proxy template title description' => {
-		message => q|Gebruik deze selectie lijst voor het kiezen van een sjabloon waarmee de inhoud die via de proxy is opgevraagd te tonen.|,
-		lastUpdated => 1152627481
+		message => q|Gebruik deze selectie lijst voor het kiezen van een sjabloon om de inhoud die via de proxy is opgevraagd te tonen.|,
+		lastUpdated => 1208522784
 	},
 
 	'proxiedUrl' => {
@@ -100,8 +100,8 @@ Ex: /bms/documents
 	},
 
 	'5 description' => {
-		message => q|Als een site zoals Yahoo! die naar andere domeinen linkt geproxied wordt, kunnen gebruikers dan de links naar die andere domeinen volgen of houdt de proxy op als ze proberen de gespecificeerde site verlaten?|,
-		lastUpdated => 1155562963
+		message => q|Als een site zoals Yahoo! die naar andere domeinen linkt geproxied wordt, kunnen gebruikers dan de links naar die andere domeinen volgen of houdt de proxy op als ze proberen de gespecificeerde site te verlaten?|,
+		lastUpdated => 1208522685
 	},
 
 	'cookieJarStorageId' => {
@@ -178,8 +178,8 @@ Probeer <a href="%s">hier</a> het scherm rechtstreeks op te vragen.
 	},
 
 	'6 description' => {
-		message => q|Moet het stylesheet van de geproxy-de inhoud verwijderd worden ten gunste van het stylesheet van de eiegen site?|,
-		lastUpdated => 1152627188
+		message => q|Moet het stylesheet van de geproxy-de inhoud verwijderd worden ten gunste van het stylesheet van de eigen site?|,
+		lastUpdated => 1208522715
 	},
 
 	'6' => {

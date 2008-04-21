@@ -27,8 +27,8 @@ our $I18N = {
 	},
 
 	'scheduled' => {
-		message => q|Ingeplanned|,
-		lastUpdated => 1205853111
+		message => q|Ingepland|,
+		lastUpdated => 1208520597
 	},
 
 	'print' => {
@@ -37,8 +37,8 @@ our $I18N = {
 	},
 
 	'urlDay' => {
-		message => q|De URL waarmee alle gebeurtenissen op een dag weer te geven in deze kalender.|,
-		lastUpdated => 1189347951
+		message => q|De URL om alle gebeurtenissen op een dag weer te geven in deze kalender.|,
+		lastUpdated => 1208520775
 	},
 
 	'endDateYear' => {
@@ -337,8 +337,8 @@ our $I18N = {
 	},
 
 	'formGroupToView' => {
-		message => q|HTML formulier waarmee de groep gekozen kan worden die dit event mag zien. |,
-		lastUpdated => 1190027583
+		message => q|HTML formulier waarmee de groep gekozen kan worden die dit evenement mag zien. |,
+		lastUpdated => 1208520378
 	},
 
 	'startDateDmy' => {

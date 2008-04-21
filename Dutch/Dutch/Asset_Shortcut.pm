@@ -238,8 +238,8 @@ our $I18N = {
 	},
 
 	'Resolve Multiples description' => {
-		message => q|Bepaalt de volgorde waarin meerdere assets geselecteerd worden. "Willekeurig" betekend dat de snelkoppeling wanneer meerdere assets aan de criteria voldoen een willekeurig asset zal selecteren. Bij "Meest recent" zal de snelkoppeling de meest recente asset selecteren.|,
-		lastUpdated => 1170691815
+		message => q|Bepaalt de volgorde waarin meerdere assets geselecteerd worden. &quot;Willekeurig&quot; betekent dat de snelkoppeling wanneer meerdere assets aan de criteria voldoen een willekeurig asset zal selecteren. Bij &quot;Meest recent&quot; zal de snelkoppeling de meest recente asset selecteren.|,
+		lastUpdated => 1208527374
 	},
 
 	'greater than' => {

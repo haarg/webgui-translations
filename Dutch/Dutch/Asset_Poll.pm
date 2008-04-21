@@ -22,8 +22,8 @@ our $I18N = {
 	},
 
 	'assetName' => {
-		message => q|peiling|,
-		lastUpdated => 1150813390
+		message => q|Peiling|,
+		lastUpdated => 1208524769
 	},
 
 	'10 description' => {

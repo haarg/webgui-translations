@@ -32,8 +32,8 @@ our $I18N = {
 	},
 
 	'searchFormSubmit' => {
-		message => q|De instuur knop van het formulier, beschikbaar in normaal en geavanceerd zoeken.Gebruik deze alleen als niet het complete <strong>searchForm</strong> wordt gebruikt.|,
-		lastUpdated => 1207902189
+		message => q|De verstuurknop van het formulier, beschikbaar in normaal en geavanceerd zoeken. Gebruik deze alleen als niet het complete <strong>searchForm</strong> wordt gebruikt.|,
+		lastUpdated => 1208526974
 	},
 
 	'record.updatedBy' => {
@@ -42,8 +42,8 @@ our $I18N = {
 	},
 
 	'efs column name is reserved error' => {
-		message => q|De veld-naam is dezelfde als een gereserveerd sleutelwoord, dat niet is toegestaan. |,
-		lastUpdated => 1156516565
+		message => q|De veld-naam is dezelfde als een gereserveerd sleutelwoord, wat niet is toegestaan. |,
+		lastUpdated => 1208525977
 	},
 
 	'gef table name' => {
@@ -142,8 +142,8 @@ our $I18N = {
 	},
 
 	'record.updateDate' => {
-		message => q|De datum waarop dit rapport voor het laatst is bijgewerkt. |,
-		lastUpdated => 1156960250
+		message => q|De datum waarop dit record voor het laatst is bijgewerkt. |,
+		lastUpdated => 1208526497
 	},
 
 	'er regex' => {
@@ -199,8 +199,8 @@ Deze eigenschap is alleen beschikbaar voor numerieke veldtypes, zoals <em>int</e
 	},
 
 	'formHeader' => {
-		message => q|De koptekst van het formulier. Als u <strong>completeForm</strong> niet gebruikt, moet u deze variabele inbegrijpen voor elke andere formuliervariabele. Als u echter de <strong>completeForm</strong>-variabele gebruikt, moet u de <strong>formHeader</strong>-variabele gebruiken. |,
-		lastUpdated => 1207902161
+		message => q|De koptekst van het formulier. Als u <strong>completeForm</strong> niet gebruikt, moet u deze variabele bijvoegen voor elke andere formuliervariabele. Als u echter de <strong>completeForm</strong>-variabele gebruikt, moet u de <strong>formHeader</strong>-variabele gebruiken. |,
+		lastUpdated => 1208526061
 	},
 
 	'header.sort.ascending' => {
@@ -279,8 +279,8 @@ Deze eigenschap is alleen beschikbaar voor numerieke veldtypes, zoals <em>int</e
 	},
 
 	'searchFormJavascript' => {
-		message => q|<p>Alleen gebruikt voor geavanceerde zoekfunctie. Dit verbindt het SQLFormSearch.js-bestand en bevat iets van inline-javascript, dat wordt gebruikt bij de geavanceerde zoekfunctie. Als u niet het complete <strong>searchForm</strong> gebruikt, moet u deze variabele inbegrijpen voor adUse of niet ge&iuml;nitialiseerde waarde in exists op varify.pl line 62, &lt;&gt; chunk 26. Gebruik van niet ge&iuml;nitialiseerde waarde in printf op varify.pl line 63, &lt;&gt; chunk 26. vanced search. Als u wel de complete <strong>searchForm</strong>-variable gebruikt, moet u echter niet de <strong>searchFormJavascript</strong>-variabele gebruiken.</p>|,
-		lastUpdated => 1156962831
+		message => q|<p>Alleen gebruikt voor geavanceerde zoekfunctie. Dit verbindt het SQLFormSearch.js-bestand en bevat iets van inline-javascript, dat wordt gebruikt bij de geavanceerde zoekfunctie. Als u niet het complete <strong>searchForm</strong> gebruikt, moet u deze variabele bijvoegen voor adUse of niet ge&iuml;nitialiseerde waarde in exists op varify.pl line 62, &lt;&gt; chunk 26. Gebruik van niet ge&iuml;nitialiseerde waarde in printf op varify.pl line 63, &lt;&gt; chunk 26. vanced search. Als u wel de complete <strong>searchForm</strong>-variable gebruikt, moet u echter niet de <strong>searchFormJavascript</strong>-variabele gebruiken.</p>|,
+		lastUpdated => 1208526913
 	},
 
 	'searchFormTrash.label' => {
@@ -294,8 +294,8 @@ Deze eigenschap is alleen beschikbaar voor numerieke veldtypes, zoals <em>int</e
 	},
 
 	'no field types message' => {
-		message => q|Voor hettoevoegen van velden aan een SQLForm moeten veld types zijn gedefini&euml;erd. Momenteel zijn er geen veld types gedefini&euml;erd en het is daarom onmogelijk velden toe te voegen. Voeg alstublieft minstens&nbsp;&eacute;&eacute;n veld type toe door te gaan naar |,
-		lastUpdated => 1166197903
+		message => q|Voor het toevoegen van velden aan een SQLForm moeten veld types zijn gedefini&euml;erd. Momenteel zijn er geen veld types gedefini&euml;erd en het is daarom onmogelijk velden toe te voegen. Voeg alstublieft minstens&nbsp;&eacute;&eacute;n veld type toe door te gaan naar |,
+		lastUpdated => 1208526222
 	},
 
 	'efs field name error' => {
@@ -334,8 +334,8 @@ Deze eigenschap is alleen beschikbaar voor numerieke veldtypes, zoals <em>int</e
 	},
 
 	'record.controls' => {
-		message => q|Verwijder, bewerk en kopiëer knoppen voor deze record. Deze zijn alleen beschikbaar als de gebruiker de record mag bewerken. |,
-		lastUpdated => 1170691318
+		message => q|Verwijder, bewerk en kopi&euml;er knoppen voor dit record. Deze zijn alleen beschikbaar als de gebruiker het record mag bewerken. |,
+		lastUpdated => 1208526250
 	},
 
 	'efs constraint error' => {
@@ -439,8 +439,8 @@ Deze eigenschap is alleen beschikbaar voor numerieke veldtypes, zoals <em>int</e
 	},
 
 	'record.valueLoop' => {
-		message => q|Een kring die de waarden van elk veld van deze record bevat.|,
-		lastUpdated => 1170691539
+		message => q|Een kring die de waarden van elk veld van dit record bevat.|,
+		lastUpdated => 1208526406
 	},
 
 	'searchFormQuery.label' => {
@@ -585,7 +585,7 @@ Deze eigenschap is alleen beschikbaar voor numerieke veldtypes, zoals <em>int</e
 
 	'searchFormFooter' => {
 		message => q|De voettekst van het formulier, beschikbaar in normale en geavanceerde zoekfunctie. Als u niet het complete <strong>searchForm</strong> gebruikt, dan moet u deze variabele gebruiken na elke andere searchForm-variabele. Als u de complete <strong>searchForm</strong>-variabele wel gebruikt, moet u echter de <strong>searchFormFooter</strong>-variabele niet gebruiken.|,
-		lastUpdated => 1170691586
+		lastUpdated => 1208526894
 	},
 
 	'ers value not allowed' => {
@@ -639,8 +639,8 @@ Deze eigenschap is alleen beschikbaar voor numerieke veldtypes, zoals <em>int</e
 	},
 
 	'ef searchable description' => {
-		message => q|U kunt dit veld inbegrijpen in zoek-queries door &#39;ja&#39; in te stellen. Indien &#39;nee&#39;, kunnen gebruikers niet zoeken op dit veld. |,
-		lastUpdated => 1156531673
+		message => q|U kunt dit veld toevoegen in zoek-queries door 'ja' in te stellen. Indien 'nee', kunnen gebruikers niet zoeken op dit veld. |,
+		lastUpdated => 1208525911
 	},
 
 	'ef populate values description' => {
@@ -664,8 +664,8 @@ Deze eigenschap is alleen beschikbaar voor numerieke veldtypes, zoals <em>int</e
 	},
 
 	'record.id' => {
-		message => q|De id van deze entry|,
-		lastUpdated => 1189371947
+		message => q|De id van dit record|,
+		lastUpdated => 1208526681
 	},
 
 	'efs jf2 error' => {
@@ -796,8 +796,8 @@ Let erop dat sommige database-typen een grens aan de waarde van deze eigenschap 
 	},
 
 	'ef required description' => {
-		message => q|Wanneer deze eigenschap op ja staat zijn gebruikers verplicht een waarde voor dit veld in te vullen tijdens het toevoegen van een record.Als dit op nee staat mogen gebruikers het veld leeg laten.|,
-		lastUpdated => 1156509330
+		message => q|Wanneer deze eigenschap op ja staat zijn gebruikers verplicht een waarde voor dit veld in te vullen tijdens het toevoegen van een record. Als dit op nee staat mogen gebruikers het veld leeg laten.|,
+		lastUpdated => 1208525848
 	},
 
 	'formId' => {
@@ -886,8 +886,8 @@ Let erop dat sommige database-typen een grens aan de waarde van deze eigenschap 
 	},
 
 	'record.deletionDate' => {
-		message => q|Bevat de datum waarop dit rapport is verwijderd. Alleen beschikbaar voor rapporten |,
-		lastUpdated => 1156960227
+		message => q|Bevat de datum waarop dit record is verwijderd. Alleen beschikbaar voor records. |,
+		lastUpdated => 1208526618
 	},
 
 	'ef signed label' => {
@@ -941,8 +941,8 @@ Let erop dat sommige database-typen een grens aan de waarde van deze eigenschap 
 	},
 
 	'ef field constraint description' => {
-		message => q|Een veld beperking kan vergeleken worden met een regex. Het grote verschil is dat een veld beperking op een concrete waarde die ingevuld wordt geld en een regex op het formaat van de ingevoerde data geld.     Als een veld beperking ingesteld wordt op een andere waarde dan 'none' dan is het mogelijk om een waarde te selecteren als basis voor een beperking, daarnaast zijn een aantal variabelen beschikbaar om de veld beperking op te stellen.  Een van de variabelen die gebruikt kunnen worden is het maken van een join naar een andere tabel. De in te vullen waarde wordt dan beperkt door de waardes die in de join is vastgesteld. Als een veld beperking is niet van toepassing als het veld alleen gelezen wordt (read only) of een autonummering heeft. |,
-		lastUpdated => 1170691107
+		message => q|Een veld beperking kan vergeleken worden met een regex. Het grote verschil is dat een veld beperking op een concrete waarde die ingevuld wordt geldt en een regex op het formaat van de ingevoerde data geldt.     Als een veld beperking ingesteld wordt op een andere waarde dan 'none' dan is het mogelijk om een waarde te selecteren als basis voor een beperking, daarnaast zijn een aantal variabelen beschikbaar om de veld beperking op te stellen.  Een van de variabelen die gebruikt kunnen worden is het maken van een join naar een andere tabel. De in te vullen waarde wordt dan beperkt door de waardes die in de join is vastgesteld. Een veld beperking is niet van toepassing als het veld alleen gelezen wordt (read only) of een autonummering heeft. |,
+		lastUpdated => 1208525781
 	},
 
 	'assetName' => {
@@ -1015,13 +1015,13 @@ Alhoewel dit veld erg belangrijk is in de meeste gevallen hoeft er bij autonumme
 	},
 
 	'record.deletedBy' => {
-		message => q|Bevat de gebruikersnaam van de persoon die deze record heeft verwijderd. Alleen beschikbaar voor records. |,
-		lastUpdated => 1170691344
+		message => q|Bevat de gebruikersnaam van de persoon die dit record heeft verwijderd. Alleen beschikbaar voor records. |,
+		lastUpdated => 1208526442
 	},
 
 	'gef no db links' => {
-		message => q|Deze asset kan alleen gebruikt wordenwanneer er database links gedefini&euml;erd zijn. Defini&euml;er alstublieft databases in de database links.|,
-		lastUpdated => 1156507714
+		message => q|Deze asset kan alleen gebruikt worden wanneer er database links gedefini&euml;erd zijn. Defini&euml;er alstublieft databases in de database links.|,
+		lastUpdated => 1208526113
 	},
 
 	'ef populate keys description' => {
@@ -1035,8 +1035,8 @@ Alhoewel dit veld erg belangrijk is in de meeste gevallen hoeft er bij autonumme
 	},
 
 	'formFooter' => {
-		message => q|De voettekst van het formulier. Als u de <strong>completeForm</strong>-variabele niet gebruikt, moet u deze variabelen inbegrijpen na alle formuliervariabelen. Als u de <strong>completeForm</strong>-variabele gebruikt, moet u echter niet de<strong> formFooter</strong>-variabele gebruiken. |,
-		lastUpdated => 1156692751
+		message => q|De voettekst van het formulier. Als u de <strong>completeForm</strong>-variabele niet gebruikt, moet u deze variabelen bijvoegen na alle formuliervariabelen. Als u de <strong>completeForm</strong>-variabele gebruikt, moet u echter niet de<strong> formFooter</strong>-variabele gebruiken. |,
+		lastUpdated => 1208526043
 	},
 
 	'lr regex' => {
@@ -1164,8 +1164,8 @@ De lijst van regexen waar u uit kunt kiezen is vastgelegd in de <strong>Regex ma
 	},
 
 	'searchFormHeader' => {
-		message => q|De koptekst van het formulier, beschikbaar in normale en geavanceerde zoekfunctie. Als u niet het complete <strong>searchForm</strong> gebruikt, dan moet u deze variabele inbegrijpen voor elke andere formuliervariabele. Als u de complete <strong>searchForm</strong>-variabele wel gebruikt, moet u echter de <strong>searchFormHeader</strong>-variabele niet gebruiken.|,
-		lastUpdated => 1170691600
+		message => q|De koptekst van het formulier, beschikbaar in normale en geavanceerde zoekfunctie. Als u niet het complete <strong>searchForm</strong> gebruikt, dan moet u deze variabele bijvoegen voor elke andere formuliervariabele. Als u de complete <strong>searchForm</strong>-variabele wel gebruikt, moet u echter de <strong>searchFormHeader</strong>-variabele niet gebruiken.|,
+		lastUpdated => 1208526832
 	},
 
 	'efs height error' => {
@@ -1199,8 +1199,8 @@ De lijst van regexen waar u uit kunt kiezen is vastgelegd in de <strong>Regex ma
 	},
 
 	'viewHistory.url' => {
-		message => q|De URL naar de geschiedenis van deze record.|,
-		lastUpdated => 1156513118
+		message => q|De URL naar de geschiedenis van dit record.|,
+		lastUpdated => 1208526319
 	},
 
 	'ef display name description' => {

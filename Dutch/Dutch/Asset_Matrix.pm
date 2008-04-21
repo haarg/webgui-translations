@@ -102,8 +102,8 @@ our $I18N = {
 	},
 
 	'user.canApprove' => {
-		message => q|Een variabele die bepaalt of de huidige gebruikers rechten heeft om een lijst goed te keuren zodat deze gepubliceerd kan worden.|,
-		lastUpdated => 1207840727
+		message => q|Een variabele die bepaalt of de huidige gebruiker rechten heeft om een lijst goed te keuren zodat deze gepubliceerd kan worden.|,
+		lastUpdated => 1208524234
 	},
 
 	'tmplVar worst.median' => {
@@ -232,25 +232,8 @@ our $I18N = {
 	},
 
 	'field type description' => {
-		message => q|Selecteer het type veld. U kunt kiezen van de volgende opties:
-<br /><br />
-<b>Good Bad</b><br />
-Hiermee geeft u aan of het product een bepaalde functie heeft of niet. Of het een gratis toevoeging is, etcetera.
-<br />
-<b>Text</b><br />
-Een korte regel. Bijvoorbeeld een omschrijving of een titel.
-<br />
-<b>Textarea<b/><br />
-Meerdere regels tekst.
-<br />
-<b>URL</b><br />
-Een veld waarin u een URL kunt toevoegen
-<br />
-<b>Selectielijst</b><br />
-Een lijst waaruit u een keuze kunt maken
-
-|,
-		lastUpdated => 1170689149
+		message => q|Selecteer het type veld. U kunt kiezen uit de volgende opties: <br /><br /> <strong>Good Bad</strong><br /> Hiermee geeft u aan of het product een bepaalde functie heeft of niet. Of het een gratis toevoeging is, etcetera. <br /> <strong>Text</strong><br /> Een korte regel. Bijvoorbeeld een omschrijving of een titel. <br /> <strong>Textarea<br /> Meerdere regels tekst. <br /> <strong>URL</strong><br /> Een veld waarin u een URL kunt toevoegen <br /> <strong>Selectielijst</strong><br /> Een lijst waaruit u een keuze kunt maken  </strong>|,
+		lastUpdated => 1208524076
 	},
 
 	'rating group' => {
@@ -304,8 +287,8 @@ Een lijst waaruit u een keuze kunt maken
 	},
 
 	'isTooMany' => {
-		message => q|Een voorwaarde die aangeeft dat de gebruiker teveel lijsten heeft om te kunnen vergelijken. Er mogen maximaal het aantal lijsten dat in bij het maximum aantal vergelijkingen gedefinieerd is vergeleken worden.|,
-		lastUpdated => 1152628629
+		message => q|Een voorwaarde die aangeeft dat de gebruiker teveel lijsten heeft om te kunnen vergelijken. Er mogen maximaal het aantal lijsten dat bij het maximum aantal vergelijkingen gedefinieerd is vergeleken worden.|,
+		lastUpdated => 1208524138
 	},
 
 	'tmplVar name' => {
@@ -424,8 +407,8 @@ Voor de selectielijst mag er maar &#233;&#233;n waarde worden ingevuld. De gebru
 	},
 
 	'matrix specific fields description' => {
-		message => q|Elke matrix vergelijkt de eigenschappen en prestaties van verschillende producten. Per item kunt u een score gegeven van deze eigenschappen en prestaties.|,
-		lastUpdated => 1156342631
+		message => q|Elke matrix vergelijkt de eigenschappen en prestaties van verschillende producten. Per item kunt u een score geven van deze eigenschappen en prestaties.|,
+		lastUpdated => 1208524179
 	},
 
 	'field name' => {

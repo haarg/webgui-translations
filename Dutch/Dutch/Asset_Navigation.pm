@@ -7,8 +7,8 @@ our $I18N = {
 	},
 
 	'showUnprivilegedPages' => {
-		message => q|Deze variabele geeft aan of pagina's (assets) die deze gebruiker niet mag bekijken wel moeten weergegeven in dit menu. |,
-		lastUpdated => 1170690479
+		message => q|Deze variabele geeft aan of pagina's (assets) die deze gebruiker niet mag bekijken wel moeten worden weergegeven in dit menu. |,
+		lastUpdated => 1208524631
 	},
 
 	'32' => {
@@ -192,8 +192,8 @@ our $I18N = {
 	},
 
 	'Relatives To Include description' => {
-		message => q|<p>De navigatie asset kan paginas uitfilteren die niet in de navigatie moeten voorkomen. Selecteer de typen paginas die meegenomen moeten worden:</p><p>Voorouders:</p><p>&nbsp;&nbsp;&nbsp; Paginas die hoger staan in de stamboom dan de huidige pagina</p><p>Zelf</p><p>&nbsp;&nbsp;&nbsp; De huidige pagina</p><p>Zusters</p><p>&nbsp;&nbsp;&nbsp; Paginas op hetzelfde niveau</p><p>Kleinkinderen</p><p>&nbsp;&nbsp;&nbsp; Paginas die lager staan in de stamboom dan de huidige pagina</p><p>Stamboom</p><p>&nbsp;&nbsp;&nbsp; Wanneer een andere startpagina wordt gebruikt, selcteer deze optie de voorouders, zusters en kleinkinderen &nbsp;&nbsp;&nbsp; van die pagina.&nbsp;</p>|,
-		lastUpdated => 1151066215
+		message => q|<p>De navigatie asset kan paginas uitfilteren die niet in de navigatie moeten voorkomen. Selecteer de typen paginas die meegenomen moeten worden:</p><p>Voorouders:</p><p>&nbsp;&nbsp;&nbsp; Paginas die hoger staan in de stamboom dan de huidige pagina</p><p>Zelf</p><p>&nbsp;&nbsp;&nbsp; De huidige pagina</p><p>Zusters</p><p>&nbsp;&nbsp;&nbsp; Paginas op hetzelfde niveau</p><p>Kleinkinderen</p><p>&nbsp;&nbsp;&nbsp; Paginas die lager staan in de stamboom dan de huidige pagina</p><p>Stamboom</p><p>&nbsp;&nbsp;&nbsp; Wanneer een andere startpagina wordt gebruikt, selecteer met deze optie de voorouders, zusters en kleinkinderen van die pagina.&nbsp;</p>|,
+		lastUpdated => 1208524346
 	},
 
 	'1096' => {
@@ -528,8 +528,8 @@ our $I18N = {
 	},
 
 	'page.isUtility' => {
-		message => q|Dit laat zien of deze pagina een gereedschap asset is. Een gereedschap Asset is een Asset die meestal niet direct door gebruikers getoond mag worden zoals een Afbeelding Asset, Sjablonen en Tekstverwerkers.|,
-		lastUpdated => 1166195813
+		message => q|Dit laat zien of deze pagina een gereedschap asset is. Een gereedschap Asset is een Asset die meestal niet direct door gebruikers bekeken mag worden zoals een Afbeelding Asset, Sjablonen en Tekstverwerkers.|,
+		lastUpdated => 1208524572
 	},
 
 	'navigation asset template variables body' => {

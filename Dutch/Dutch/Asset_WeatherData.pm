@@ -1,15 +1,14 @@
 package WebGUI::i18n::Dutch::Asset_WeatherData;
 
-
 our $I18N = {
-	'partnerId help' => {
-		message => q|Deze ID ontvang je in een email van weather.dcom na registratie voor de Weather XML Data Feed.|,
-		lastUpdated => 1189373922
-	},
-
 	'assetName' => {
 		message => q|WeerData|,
 		lastUpdated => 1152540361
+	},
+
+	'partnerId help' => {
+		message => q|Deze ID ontvang je in een email van weather.com na registratie voor de Weather XML Data Feed.|,
+		lastUpdated => 1208528081
 	},
 
 	'cityState' => {

@@ -52,8 +52,8 @@ our $I18N = {
 	},
 
 	'download template description' => {
-		message => q|Het sjabloon die gebruikt wordt voor het genereren van het download bestand.|,
-		lastUpdated => 1166198096
+		message => q|Het sjabloon dat gebruikt wordt voor het genereren van het download bestand.|,
+		lastUpdated => 1208527242
 	},
 
 	'dbQuery3' => {
@@ -172,8 +172,8 @@ our $I18N = {
 	},
 
 	'cacheTimeout' => {
-		message => q|De hoeveelheid tijd in seconden die de output wordt bewaard (gecached).|,
-		lastUpdated => 1189372212
+		message => q|De hoeveelheid tijd in seconden dat de output wordt bewaard (gecached).|,
+		lastUpdated => 1208527138
 	},
 
 	'prequeryStatements1' => {
@@ -376,8 +376,8 @@ De prequery-aanvragen zijn van elkaar gescheiden door enters en kunnen geen will
 	},
 
 	'download filename description' => {
-		message => q|De bestandsnaam van het te downloaden bestand. Als u dit velt niet invult dan wordt er een naam gegenereerd.|,
-		lastUpdated => 1166197956
+		message => q|De bestandsnaam van het te downloaden bestand. Als u dit veld niet invult dan wordt er een naam gegenereerd.|,
+		lastUpdated => 1208527180
 	},
 
 	'preprocessMacros2' => {
@@ -387,7 +387,7 @@ De prequery-aanvragen zijn van elkaar gescheiden door enters en kunnen geen will
 
 	'cache timeout' => {
 		message => q|Cache time-out|,
-		lastUpdated => 1155809069
+		lastUpdated => 1208527119
 	},
 
 	'preprocessMacros1' => {
@@ -406,8 +406,8 @@ De prequery-aanvragen zijn van elkaar gescheiden door enters en kunnen geen will
 	},
 
 	'14 description' => {
-		message => q|<p>Hoeveel rijen moeten worden weergegeven voordat de resultaten worden gedeeld over verschillende pagina&#39;s? Met andere woorden: hoeveel rijen moeten per pagina worden weergegeven? </p>|,
-		lastUpdated => 1155572028
+		message => q|<p>Hoeveel rijen moeten worden weergegeven voordat de resultaten worden verdeeld over verschillende pagina's? Met andere woorden: hoeveel rijen moeten per pagina worden weergegeven? </p>|,
+		lastUpdated => 1208527063
 	},
 
 	'column.name' => {

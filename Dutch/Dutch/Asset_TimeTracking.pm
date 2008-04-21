@@ -222,8 +222,8 @@ our $I18N = {
 	},
 
 	'form.date' => {
-		message => q|Als het verslag afgerond is zal deze variabele het project bevatten waarvoor een status is ingevoerd. Als de taak niet afgerond is zal deze variabele code voor een selctievak in het formulier bevatten, waarmee de gebruiker kan invullen op welke dag de status informatie wordt ingevoerd.|,
-		lastUpdated => 1207905992
+		message => q|Als het verslag afgerond is zal deze variabele het project bevatten waarvoor een status is ingevoerd. Als de taak niet afgerond is zal deze variabele code voor een selectievak in het formulier bevatten, waarmee de gebruiker kan invullen op welke dag de status informatie wordt ingevoerd.|,
+		lastUpdated => 1208527967
 	},
 
 	'time.report.date.label' => {

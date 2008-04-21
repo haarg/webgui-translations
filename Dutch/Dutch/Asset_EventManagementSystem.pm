@@ -27,8 +27,8 @@ our $I18N = {
 	},
 
 	'manageToolbar' => {
-		message => q|<div class="&quot;helpIndent&quot;"><p>Een code voor een taakbalk met ikonen voor verwijderen, bewerken en herrangschikken van evenementen. </p></div>|,
-		lastUpdated => 1149861611
+		message => q|<div class="&quot;&quot;helpIndent&quot;&quot;"><p>Een code voor een taakbalk met iconen voor verwijderen, bewerken en herrangschikken van evenementen. </p></div>|,
+		lastUpdated => 1208521875
 	},
 
 	'display template' => {
@@ -47,8 +47,8 @@ our $I18N = {
 	},
 
 	'created by description' => {
-		message => q|De gebruiker die de de identiteit van deze deelnemer heeft aangemaakt.|,
-		lastUpdated => 1206008735
+		message => q|De gebruiker die de identiteit van deze deelnemer heeft aangemaakt.|,
+		lastUpdated => 1208521272
 	},
 
 	'discount pass type description' => {
@@ -162,8 +162,8 @@ our $I18N = {
 	},
 
 	'discount pass id description' => {
-		message => q|Er wordt intern een unieke identificatiecode gebruikt voor deze koringspas. Bij het aanmaken van een nieuwe pas, zal dit het woord &quot;Nieuw&quot; zijn. |,
-		lastUpdated => 1148296750
+		message => q|Er wordt intern een unieke identificatiecode gebruikt voor deze kortingspas. Bij het aanmaken van een nieuwe pas, zal dit het woord &quot;Nieuw&quot; zijn. |,
+		lastUpdated => 1208521380
 	},
 
 	'import hoverhelp first line' => {
@@ -212,8 +212,8 @@ our $I18N = {
 	},
 
 	'defines discount pass' => {
-		message => q|<p><strong>Dit evenement heeft een bijbehorende kortingspas</strong>.</p><p>Wanneer de gebruiker dit evenement toevoegd aan zijn/haar winkelwagen, wordt (bij uitschrijven) de bijbehorende korting van kracht op elk evenement dat deel uit maakt van deze kortingspas.&nbsp;</p>|,
-		lastUpdated => 1148296380
+		message => q|<p><strong>Dit evenement heeft een bijbehorende kortingspas</strong>.</p><p>Wanneer de gebruiker dit evenement toevoegt aan zijn/haar winkelwagen, wordt (bij uitschrijven) de bijbehorende korting van kracht op elk evenement dat deel uit maakt van deze kortingspas.&nbsp;</p>|,
+		lastUpdated => 1208521338
 	},
 
 	'paginate after description' => {
@@ -287,8 +287,8 @@ our $I18N = {
 	},
 
 	'add/edit event price description' => {
-		message => q|De deelnemenersbijdrage voor dit evenement.|,
-		lastUpdated => 1148289685
+		message => q|De deelnemersbijdrage voor dit evenement.|,
+		lastUpdated => 1208521149
 	},
 
 	'what about duplicates' => {
@@ -327,8 +327,8 @@ our $I18N = {
 	},
 
 	'import invalid status' => {
-		message => q|Record %d heeft een ongeledige Status (%s). Geldige waarden zijn: Goedgekeurd, Afgebroken, Geweigerd, Wachtend. |,
-		lastUpdated => 1190026387
+		message => q|Record %d heeft een ongeldige Status (%s). Geldige waarden zijn: Goedgekeurd, Afgebroken, Geweigerd, Wachtend. |,
+		lastUpdated => 1208521764
 	},
 
 	'no sets to display' => {
@@ -342,8 +342,8 @@ our $I18N = {
 	},
 
 	'group to add events description' => {
-		message => q|De leden van de geselcteerde groep hebben de mogelijkheid evenementen aan een evenementen beheersysteem toe te voegen. De evenementen die toegevoegd worden zijn pas beschikbaar voor verkoop op het moment dat iemand uit de groep die evenementen goed kan keuren, het heeft goedgekeurd.|,
-		lastUpdated => 1148304268
+		message => q|De leden van de geselecteerde groep hebben de mogelijkheid evenementen aan een evenementen beheersysteem toe te voegen. De evenementen die toegevoegd worden zijn pas beschikbaar voor verkoop op het moment dat iemand uit de groep die evenementen goed kan keuren, het heeft goedgekeurd.|,
+		lastUpdated => 1208521520
 	},
 
 	'event template help title' => {
@@ -402,13 +402,13 @@ our $I18N = {
 	},
 
 	'add/edit event operator description' => {
-		message => q|Wanneer vereiste evenementen aan dit evenement gekoppeld zijn, kan er gespecificeerd worden of alle venementen vereist zijn (en) of dat een willekeurig evenemenet vereist is (of).|,
-		lastUpdated => 1148289660
+		message => q|Wanneer vereiste evenementen aan dit evenement gekoppeld zijn, kan er gespecificeerd worden of alle evenementen vereist zijn (en) of dat een willekeurig evenemenet vereist is (of).|,
+		lastUpdated => 1208520992
 	},
 
 	'group to approve events description' => {
-		message => q|Leden uit de geselcteerde groep kunnen een wachtend evenement goedkeuren, zodat het beschikbaar wordt voor de verkoop.|,
-		lastUpdated => 1148304367
+		message => q|Leden uit de geselecteerde groep kunnen een wachtend evenement goedkeuren, zodat het beschikbaar wordt voor de verkoop.|,
+		lastUpdated => 1208521550
 	},
 
 	'template help title' => {
@@ -422,8 +422,8 @@ our $I18N = {
 	},
 
 	'sku template description' => {
-		message => q|Dit veld bepaalt hoe de SKU voor elke product catergorie wordt samengesteld. De syntax is hetzelfde als die vannormale sjablonen.|,
-		lastUpdated => 1148308047
+		message => q|Dit veld bepaalt hoe de SKU voor elke product categorie wordt samengesteld. De syntax is hetzelfde als die van normale sjablonen.|,
+		lastUpdated => 1208522249
 	},
 
 	'global metadata description' => {
@@ -482,8 +482,8 @@ our $I18N = {
 	},
 
 	'import record parse error' => {
-		message => q|Is is een fout opgetreden bij het verwerken van record %d: '%s'|,
-		lastUpdated => 1190026161
+		message => q|Er is een fout opgetreden bij het verwerken van record %d: '%s'|,
+		lastUpdated => 1208521825
 	},
 
 	'you do not have any metadata fields to display' => {
@@ -507,8 +507,8 @@ our $I18N = {
 	},
 
 	'operator type description' => {
-		message => q|Zijn alle of enkele van de hieronder geselcteerde evenementen vereist?|,
-		lastUpdated => 1148893577
+		message => q|Zijn alle of enkele van de hieronder geselecteerde evenementen vereist?|,
+		lastUpdated => 1208522022
 	},
 
 	'add registrant' => {
@@ -692,8 +692,8 @@ our $I18N = {
 	},
 
 	'import field is duplicate key description' => {
-		message => q|Om goed met dubbelingen om te gaan, moet het systeem in staat zijn dubbelingen te herkennen. Door deze checkboxen aan te vinken, weet het systeem welk veld het moet worden bekeken om te zien of het een dubbeling betreft. |,
-		lastUpdated => 1190027290
+		message => q|Om goed met dubbelingen om te gaan, moet het systeem in staat zijn dubbelingen te herkennen. Door deze checkboxen aan te vinken, weet het systeem welk veld moet worden bekeken om te zien of het een dubbeling betreft. |,
+		lastUpdated => 1208521638
 	},
 
 	'ends.label' => {
@@ -777,8 +777,8 @@ our $I18N = {
 	},
 
 	'registration info message' => {
-		message => q|<p>Voer badge/contact inforfomatie is voor de evenementen die momenteel toegevoegd worden aan dwe winkelwagen.</p><p>&nbsp;</p><p>Het gebruikers profiel kan na inloggen vernieuwd worden met deze informatie door uw naam te kiezen uit de dropdown-box of door de optie &quot;Maak een badge aan voor mijzelf.&quot; te kiezen als uw naam er niet tussen staat.</p><p>&nbsp;</p><p>Als een aankoop voor iemand anders wordt gedaan, selecteer dan de gewenste naam of de &quot;Maak een badge aan voor iemand anders.&quot; optie uit het menu. Wanneer objecten toegevoegd worden aan eerdere aankopen, is die badge nog geselecteerd en kan niet gewijzigd worden. Als in dit formulier velden worden aangepast terwijl een bestaande badge is geselcteerd, zal de informatie voor de badge vernieuwd worden. </p>|,
-		lastUpdated => 1148894577
+		message => q|<p>Voer badge/contact informatie is voor de evenementen die momenteel toegevoegd worden aan de winkelwagen.</p><p>&nbsp;</p><p>Het gebruikers profiel kan na inloggen vernieuwd worden met deze informatie door uw naam te kiezen uit de dropdown-box of door de optie &quot;Maak een badge aan voor mijzelf.&quot; te kiezen als uw naam er niet tussen staat.</p><p>&nbsp;</p><p>Als een aankoop voor iemand anders wordt gedaan, selecteer dan de gewenste naam of de &quot;Maak een badge aan voor iemand anders.&quot; optie uit het menu. Wanneer objecten toegevoegd worden aan eerdere aankopen, is die badge nog geselecteerd en kan niet gewijzigd worden. Als in dit formulier velden worden aangepast terwijl een bestaande badge is geselecteerd, zal de informatie voor de badge vernieuwd worden. </p>|,
+		lastUpdated => 1208522173
 	},
 
 	'and' => {
@@ -847,8 +847,8 @@ our $I18N = {
 	},
 
 	'import invalid template' => {
-		message => q|Record %d heeft een ongeledige Event Template Name value (%s). Het van toepassing zijnde Event template moet aangemaakt zijn voorafgaand aan de import.|,
-		lastUpdated => 1190026343
+		message => q|Record %d heeft een ongeldige Event Template Name value (%s). Het van toepassing zijnde Event template moet aangemaakt zijn voorafgaand aan de import.|,
+		lastUpdated => 1208521776
 	},
 
 	'type label here' => {
@@ -1242,8 +1242,8 @@ our $I18N = {
 	},
 
 	'eventIsApproved' => {
-		message => q|<p>Een indicator die waar is als het evenment is goedgekeurd. </p>|,
-		lastUpdated => 1149860221
+		message => q|<p>Een indicator die waar is als het evenement is goedgekeurd. </p>|,
+		lastUpdated => 1208521441
 	},
 
 	'group to add events' => {
@@ -1267,13 +1267,13 @@ our $I18N = {
 	},
 
 	'approve event description' => {
-		message => q|Evenementen kunnen goedgekeurd worden, zodat goedgekeurde evenmenten ingevoerd kunnen worden of de goedkeuring van evenementen kan direct bewerkt worden.|,
-		lastUpdated => 1148291769
+		message => q|Evenementen kunnen goedgekeurd worden, zodat goedgekeurde evenementen ingevoerd kunnen worden of de goedkeuring van evenementen kan direct bewerkt worden.|,
+		lastUpdated => 1208521471
 	},
 
 	'missing prerequisites message' => {
-		message => q|Enkele van de geselcteerde evenementen vereisen de deelname aan een ander evenement. Zorg ervoor dat aan de lijst van vereisten hieronder is voldaan. |,
-		lastUpdated => 1148307045
+		message => q|Enkele van de geselecteerde evenementen vereisen de deelname aan een ander evenement. Zorg ervoor dat aan de lijst van vereisten hieronder is voldaan. |,
+		lastUpdated => 1208522006
 	},
 
 	'create a badge for myself' => {
@@ -1292,8 +1292,8 @@ our $I18N = {
 	},
 
 	'create new user' => {
-		message => q|M&nbsp;&nbsp;&nbsp; aak nieuwe gebruiker aan.|,
-		lastUpdated => 1148296004
+		message => q|Maak nieuwe gebruiker aan.|,
+		lastUpdated => 1208521228
 	},
 
 	'advSearch.formHeader' => {
@@ -1327,8 +1327,8 @@ our $I18N = {
 	},
 
 	'import invalid prereq' => {
-		message => q|Record %d heeft een ongeledige Prerequisite Set Name value (%s). De bijbehorende Prerequisite Set moet aangemaakt worden voor de import.|,
-		lastUpdated => 1190026450
+		message => q|Record %d heeft een ongeldige Prerequisite Set Name value (%s). De bijbehorende Prerequisite Set moet aangemaakt worden voor de import.|,
+		lastUpdated => 1208521754
 	},
 
 	'add/edit event assigned prerequisites' => {

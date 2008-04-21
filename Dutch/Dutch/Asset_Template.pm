@@ -42,8 +42,8 @@ our $I18N = {
 	},
 
 	'parser description' => {
-		message => q|Waneer in de configuratie meerdere mogelijke sjabloon engines zijn opgeven kunt u hier kiezen naar welke engines deze template moet worden gestuurd.|,
-		lastUpdated => 1151652434
+		message => q|Wanneer in de configuratie meerdere mogelijke sjabloon engines zijn opgeven kunt u hier kiezen naar welke engines deze template moet worden gestuurd.|,
+		lastUpdated => 1208527781
 	},
 
 	'visited link color' => {
@@ -204,8 +204,8 @@ Alle scratchvariabelen zullen aanwezig zijn in het template volgens deze syntax:
 	},
 
 	'menu background color description' => {
-		message => q|De achergrondkleur van het menu-gedeelte van de pagina.|,
-		lastUpdated => 1151505923
+		message => q|De achtergrondkleur van het menu-gedeelte van de pagina.|,
+		lastUpdated => 1208527745
 	},
 
 	'namespace' => {

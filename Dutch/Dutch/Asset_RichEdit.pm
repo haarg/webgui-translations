@@ -67,8 +67,8 @@ our $I18N = {
 	},
 
 	'elements description' => {
-		message => q|Een lijst van HTML labels en bijbehorende attributen die de rich editor accepteert. Alle andere worden verwijderd. Om alles te accpeteren kan dit op *[*] gezet worden.|,
-		lastUpdated => 1204035235
+		message => q|Een lijst van HTML labels en bijbehorende attributen die de rich editor accepteert. Alle anderen worden verwijderd. Om alles te accpeteren kan dit op *[*] gezet worden.|,
+		lastUpdated => 1208525356
 	},
 
 	'elements' => {
@@ -207,8 +207,8 @@ our $I18N = {
 	},
 
 	'toolbar buttons description' => {
-		message => q|Laat zien welke taakbalk knoppen gebruikt worden in welke taakbalk van de editor. Om een taakbalk te verwijderen, kontvink alle knoppen in die taakbalk kolom. Let erop dat andere velden ook knoppen kunnen toevoegen, zoals het context menu.|,
-		lastUpdated => 1204037246
+		message => q|Laat zien welke taakbalk knoppen gebruikt worden in welke taakbalk van de editor. Om een taakbalk te verwijderen, deselecteer je alle knoppen in die taakbalk kolom. Let erop dat andere velden ook knoppen kunnen toevoegen, zoals het context menu.|,
+		lastUpdated => 1208525488
 	},
 
 	'enable context menu description' => {
@@ -452,8 +452,8 @@ our $I18N = {
 	},
 
 	'disable rich edit description' => {
-		message => q|Dit is een hoofdschakelaar voor het deactiveren van de Rich editor en zal de Rich edit over de hele site uitschakelen zonder tussenkomst van gebrui.kers|,
-		lastUpdated => 1204032909
+		message => q|Dit is een hoofdschakelaar voor het deactiveren van de Rich editor en zal de Rich edit over de hele site uitschakelen zonder tussenkomst van gebruikers.|,
+		lastUpdated => 1208525281
 	},
 
 	'preformatted' => {
@@ -477,8 +477,8 @@ our $I18N = {
 	},
 
 	'toolbar location description' => {
-		message => q|Stel in waar de taakbalken moeten staan, aan de boven -of onderkant.|,
-		lastUpdated => 1204036993
+		message => q|Stel in waar de taakbalken moeten staan, aan de boven- of onderkant.|,
+		lastUpdated => 1208525559
 	},
 
 	'sub' => {

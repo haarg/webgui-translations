@@ -37,8 +37,8 @@ our $I18N = {
 	},
 
 	'login template description' => {
-		message => q|Het sjabloon dat gebruikt wordt als de gebruiker niet inlogtvia een macro in de pagina, maar op een andere wijze. (Te weten via een url waarin wordt verwezen naar een WebGUI operation, te herkennen aan "op=" in de url.) |,
-		lastUpdated => 1166625662
+		message => q|Het sjabloon dat gebruikt wordt als de gebruiker niet inlogt via een macro in de pagina, maar op een andere wijze. (Te weten via een url waarin wordt verwezen naar een WebGUI operation, te herkennen aan &quot;op=&quot; in de url.) |,
+		lastUpdated => 1208528391
 	},
 
 	'ldap user rdn blank' => {
@@ -92,8 +92,8 @@ our $I18N = {
 	},
 
 	'LDAPLink_104' => {
-		message => q|De opgegeven account gegevens zijn ongeldig. Of de account bestaat niet of de gebruikernaam/wachtwoord combinatie is incorrect. |,
-		lastUpdated => 1152615222
+		message => q|De opgegeven account gegevens zijn ongeldig. Of het account bestaat niet of de gebruikernaam/wachtwoord combinatie is incorrect. |,
+		lastUpdated => 1208528313
 	},
 
 	'create.form.ldapConnection' => {
@@ -262,8 +262,8 @@ our $I18N = {
 	},
 
 	'create account template description' => {
-		message => q|Een sjabloon dat gebruikt wordt voor het weergeven van het formulier waarme een accountaangemaakt wordt|,
-		lastUpdated => 1152618829
+		message => q|Een sjabloon dat gebruikt wordt voor het weergeven van het formulier waarme een account aangemaakt wordt|,
+		lastUpdated => 1208528352
 	},
 
 	'account template description' => {

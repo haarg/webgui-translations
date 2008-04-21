@@ -52,8 +52,8 @@ our $I18N = {
 	},
 
 	'questionsPerPage' => {
-		message => q|Het aantal vragen dat per pagina wordt weergegven.|,
-		lastUpdated => 1189373453
+		message => q|Het aantal vragen dat per pagina wordt weergegeven.|,
+		lastUpdated => 1208527498
 	},
 
 	'response.user.label' => {
@@ -542,8 +542,8 @@ our $I18N = {
 	},
 
 	'21 description' => {
-		message => q|Hiermee wordt de vraag gekozen die op deze volgt, wanneer de vraag volgorde van de enqu&ecirc;te op &quot;Antwoor&quot; staat.|,
-		lastUpdated => 1151075723
+		message => q|Hiermee wordt de vraag gekozen die op deze volgt, wanneer de vraag volgorde van de enqu&ecirc;te op &quot;Antwoord&quot; staat.|,
+		lastUpdated => 1208527450
 	},
 
 	'answer' => {

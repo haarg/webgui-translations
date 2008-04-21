@@ -82,15 +82,8 @@ our $I18N = {
 	},
 
 	'hasTermsLabel description' => {
-		message => q|Voer hier uw termen, gescheiden door komma's, in waarop de RSS bestanden op gefilterd moeten worden.
-<br />
-<br />
-Als u bijvoorbeeld het volgende invoert:
-<br />
-<b>linux,windows xp,google</b><br />
-<br />
-dan zullen alle items met "linux", "Windows XP" en "Google" die staan in de titel of de omschrijving van het item worden weergegeven.|,
-		lastUpdated => 1156410562
+		message => q|Voer hier uw termen, gescheiden door komma's, in waarop de RSS bestanden gefilterd moeten worden. <br /> <br /> Als u bijvoorbeeld het volgende invoert: <br /> <strong>linux,windows xp,google</strong><br /> <br /> dan zullen alle items met &quot;linux&quot;, &quot;Windows XP&quot; en &quot;Google&quot; die staan in de titel of de omschrijving van het item worden weergegeven.|,
+		lastUpdated => 1208527683
 	},
 
 	'descriptionFirst50words' => {
@@ -184,8 +177,8 @@ dan zullen alle items met "linux", "Windows XP" en "Google" die staan in de tite
 	},
 
 	'displayModeSubtext' => {
-		message => q|"Gemengd" betekent dat de inhoud van de bestanden door elkaar is gezet. "Grouperen per bestand" betekent dat ze zijn gegroepeert per bestand. De optie heeft geen invloed als u slechts &#233;&#233;n bestand weergeeft.|,
-		lastUpdated => 1156410328
+		message => q|&quot;Gemengd&quot; betekent dat de inhoud van de bestanden door elkaar is gezet. &quot;Groeperen per bestand&quot; betekent dat ze zijn gegroepeerd per bestand. De optie heeft geen invloed als u slechts &eacute;&eacute;n bestand weergeeft.|,
+		lastUpdated => 1208527596
 	},
 
 	'channel.description' => {

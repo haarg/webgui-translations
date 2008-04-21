@@ -17,8 +17,8 @@ our $I18N = {
 	},
 
 	'menuTitle' => {
-		message => q|Vul hie de menutitel in. Deze wordt weergegeven in de navigatie. Als u niets invult wordt automatisch de bestandnaam ingevuld. |,
-		lastUpdated => 1149235374
+		message => q|Vul hier de menutitel in. Deze wordt weergegeven in de navigatie. Als u niets invult wordt automatisch de bestandnaam ingevuld. |,
+		lastUpdated => 1208522328
 	},
 
 	'file template asset var title' => {

@@ -247,8 +247,8 @@ our $I18N = {
 	},
 
 	'isNew' => {
-		message => q|Een variabele die waar is al de Wiki pagina nieuw is.|,
-		lastUpdated => 1166782283
+		message => q|Een variabele die waar is als de Wiki pagina nieuw is.|,
+		lastUpdated => 1208528246
 	},
 
 	'view title' => {

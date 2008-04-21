@@ -117,8 +117,8 @@ our $I18N = {
 	},
 
 	'new file description' => {
-		message => q|<p>Ga het pad of het bestand in, of gebruik de &#39;verkennen&#39;-knop om een bestand te vinden op uw lokale harde schijf, die u zou willen uploaden. </p>|,
-		lastUpdated => 1152809156
+		message => q|<p>Ga het pad of het bestand in, of gebruik de 'verkennen'-knop om een bestand te vinden op uw lokale harde schijf, dat u zou willen uploaden. </p>|,
+		lastUpdated => 1208524843
 	},
 
 	'sticky.form' => {
@@ -277,8 +277,8 @@ our $I18N = {
 	},
 
 	'notify.subscription.message' => {
-		message => q|Het bericht in de eigen taal van de bezoeker waarin wordt aangegeven dat een nieuwe reactie geplaatst bij een bericht waarop de gebruiker is geabonneerd.|,
-		lastUpdated => 1190025744
+		message => q|Het bericht in de eigen taal van de bezoeker waarin wordt aangegeven dat een nieuwe reactie geplaatst is bij een bericht waarop de gebruiker is geabonneerd.|,
+		lastUpdated => 1208524900
 	},
 
 	'attachment_loop' => {
