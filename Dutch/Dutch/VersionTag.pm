@@ -22,8 +22,8 @@ our $I18N = {
 	},
 
 	'who to notify help' => {
-		message => q|Licht de persoon in die de tag gemaakt heef, degene die hem uitgeverd heeft of de mensen die aan de tag konden werken. |,
-		lastUpdated => 1154348081
+		message => q|Licht de persoon in die de tag gemaakt heeft, degene die hem uitgevoerd heeft of de mensen die aan de tag konden werken. |,
+		lastUpdated => 1208855943
 	},
 
 	'notify message help' => {
@@ -82,8 +82,8 @@ our $I18N = {
 	},
 
 	'rollback version tag confirm' => {
-		message => q|Weet u zeker dat udeze versie tag wilt verwijderen samen met alle inhoud die hieronder valt? Het kan NIET worden hersteld na het verwijderen.|,
-		lastUpdated => 1154347664
+		message => q|Weet u zeker dat u deze versie tag wilt verwijderen samen met alle inhoud die hieronder valt? Het kan NIET worden hersteld na het verwijderen.|,
+		lastUpdated => 1208855887
 	},
 
 	'tag creator' => {

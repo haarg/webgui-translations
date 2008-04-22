@@ -1,15 +1,9 @@
 package WebGUI::i18n::Dutch::WebGUIProfile;
 
-
 our $I18N = {
-	'470' => {
-		message => q|Categorie naam|,
-		lastUpdated => 1154080722
-	},
-
-	'897a description' => {
-		message => q|Moet een gebruiker dit veld kunnen bewerken?|,
-		lastUpdated => 1155815929
+	'requiredForPasswordRecovery hoverHelp' => {
+		message => q|Vraag gebruikers de inhoud van dit veld - bij voorkeur in combinatie met andere velden uit het profiel - op te geven wanneer ze verzoeken hun wachtwoord opnieuw toe te sturen. Alleen gebruikers die de inhoud van dit veld correct en direct weten op te geven kunnen hun wachtwoord opvragen.|,
+		lastUpdated => 1166637614
 	},
 
 	'897a' => {
@@ -17,9 +11,14 @@ our $I18N = {
 		lastUpdated => 1155815909
 	},
 
-	'requiredForPasswordRecovery hoverHelp' => {
-		message => q|Vraag gebruikers de inhoud van dit veld - bij voorkeur in combinatie met andere velden uit het profiel - op te geven wanneer ze verzoeken hun wachtwoord opnieuw toe te sturen. Alleen gebruikers die de inhoud van dit veld correct en direct weten op te geven kunnen hun wachtwoord opvragen.|,
-		lastUpdated => 1166637614
+	'897a description' => {
+		message => q|Moet een gebruiker dit veld kunnen bewerken?|,
+		lastUpdated => 1155815929
+	},
+
+	'470' => {
+		message => q|Categorie naam|,
+		lastUpdated => 1154080722
 	},
 
 	'473 description' => {
@@ -32,24 +31,24 @@ our $I18N = {
 		lastUpdated => 1154613673
 	},
 
-	'469' => {
-		message => q|Id|,
-		lastUpdated => 1154080715
-	},
-
 	'requiredForPasswordRecovery label' => {
 		message => q|Naar de inhoud van dit veld vragen bij het opnieuw opvragen van het wachtwoord?|,
 		lastUpdated => 1166637652
 	},
 
-	'486 description' => {
-		message => q|Kies het type veld. Deze keuze bepaald ook welke validatie er gedaan moet worden.|,
-		lastUpdated => 1154613347
+	'469' => {
+		message => q|Id|,
+		lastUpdated => 1154080715
 	},
 
 	'488 description' => {
 		message => q|Voer de standaard waarde (als er een is) voor het veld in. Voor ja/nee velden, voer &quot;ja&quot; in om Ja standaard te selecteren en voer &quot;nee&quot; in om standaard Nee te selecteren.|,
 		lastUpdated => 1154613951
+	},
+
+	'486 description' => {
+		message => q|Kies het type veld. Deze keuze bepaalt ook welke validatie er gedaan moet worden.|,
+		lastUpdated => 1208856876
 	},
 
 	'user profiling' => {
@@ -82,14 +81,14 @@ our $I18N = {
 		lastUpdated => 1154613963
 	},
 
-	'474 description' => {
-		message => q|Moet dit veld verplicht worden ingevuld?|,
-		lastUpdated => 1154082826
-	},
-
 	'471' => {
 		message => q|Bewerk gebruikersprofiel veld|,
 		lastUpdated => 1154080751
+	},
+
+	'474 description' => {
+		message => q|Moet dit veld verplicht worden ingevuld?|,
+		lastUpdated => 1154082826
 	},
 
 	'473a description' => {
@@ -97,14 +96,14 @@ our $I18N = {
 		lastUpdated => 1154082801
 	},
 
-	'489 description' => {
-		message => q|Selecteer een categorie waar dit veld onder geplaatst kan worden.|,
-		lastUpdated => 1154614027
-	},
-
 	'789' => {
 		message => q|Bewerk profiel categorie.|,
 		lastUpdated => 1155815803
+	},
+
+	'489 description' => {
+		message => q|Selecteer een categorie waar dit veld onder geplaatst kan worden.|,
+		lastUpdated => 1154614027
 	},
 
 	'490' => {
@@ -137,14 +136,14 @@ our $I18N = {
 		lastUpdated => 1154614065
 	},
 
-	'475 description' => {
-		message => q|Naam van het veld, wordt gebruikt in de database.|,
-		lastUpdated => 1154082879
-	},
-
 	'topicName' => {
 		message => q|Gebruikersprofiel|,
 		lastUpdated => 1155815942
+	},
+
+	'475 description' => {
+		message => q|Naam van het veld, wordt gebruikt in de database.|,
+		lastUpdated => 1154082879
 	},
 
 	'467' => {
@@ -207,14 +206,14 @@ our $I18N = {
 		lastUpdated => 1168959810
 	},
 
-	'470 description' => {
-		message => q|De naam van deze categorie|,
-		lastUpdated => 1154080730
-	},
-
 	'473a' => {
 		message => q|Zichtbaar?|,
 		lastUpdated => 1154082781
+	},
+
+	'470 description' => {
+		message => q|De naam van deze categorie|,
+		lastUpdated => 1154080730
 	},
 
 	'forceImageOnly description' => {

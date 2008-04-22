@@ -7,8 +7,8 @@ our $I18N = {
 	},
 
 	'group.url' => {
-		message => q|De URLwaar de gebruiker aan de groep wordt toegevoegd.|,
-		lastUpdated => 1152539247
+		message => q|De URL waar de gebruiker aan de groep wordt toegevoegd.|,
+		lastUpdated => 1208853817
 	},
 
 	'macroName' => {

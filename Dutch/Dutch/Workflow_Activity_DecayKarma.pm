@@ -1,6 +1,5 @@
 package WebGUI::i18n::Dutch::Workflow_Activity_DecayKarma;
 
-
 our $I18N = {
 	'decay factor' => {
 		message => q|Verval factor|,
@@ -13,8 +12,8 @@ our $I18N = {
 	},
 
 	'decay factor help' => {
-		message => q|Hoeveel punten karma moeten van een gebruikersaccount worden afgetrokken als karam verval aanstaat?|,
-		lastUpdated => 1155301956
+		message => q|Hoeveel punten karma moeten van een gebruikersaccount worden afgetrokken als karma verval aanstaat?|,
+		lastUpdated => 1208857360
 	},
 
 	'activityName' => {

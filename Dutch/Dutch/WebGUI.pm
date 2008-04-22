@@ -789,8 +789,8 @@ Als er een server voor het verzenden van email op dezelfde machine staat als de 
 	},
 
 	'381' => {
-		message => q|WebGUI heeft een onjuist verzoek gekeregn en kon niet verder gaan. Eigen karakters die in een formulier worden ingevuld zijn hiervan waarschijnlijk de oorzaak. Probeer opnieuw met behulp van de terug knop.  |,
-		lastUpdated => 1154075325
+		message => q|WebGUI heeft een onjuist verzoek gekregen en kon niet verder gaan. Eigen karakters die in een formulier worden ingevuld zijn hiervan waarschijnlijk de oorzaak. Probeer opnieuw met behulp van de terug knop.  |,
+		lastUpdated => 1208856251
 	},
 
 	'581' => {
@@ -809,8 +809,8 @@ Als er een server voor het verzenden van email op dezelfde machine staat als de 
 	},
 
 	'pagination.pageCount.isMultiple' => {
-		message => q|Een fuctie die aangeeft of er meer dan &eacute;&eacute;n pagina is.|,
-		lastUpdated => 1156168649
+		message => q|Een functie die aangeeft of er meer dan &eacute;&eacute;n pagina is.|,
+		lastUpdated => 1208856762
 	},
 
 	'496' => {
@@ -1042,8 +1042,8 @@ Deze groep zou dan "Werknemers in HMO 1" genoemd kunnen worden en zou je de moge
 	},
 
 	'746' => {
-		message => q|Ikoon set van de taakbalk|,
-		lastUpdated => 1154094757
+		message => q|Icoon set van de taakbalk|,
+		lastUpdated => 1208856423
 	},
 
 	'400' => {
@@ -1142,8 +1142,8 @@ Deze groep zou dan "Werknemers in HMO 1" genoemd kunnen worden en zou je de moge
 	},
 
 	'751' => {
-		message => q|Word deze gebruiker.|,
-		lastUpdated => 1154094838
+		message => q|Wordt deze gebruiker.|,
+		lastUpdated => 1208856463
 	},
 
 	'60' => {
@@ -1157,8 +1157,8 @@ Deze groep zou dan "Werknemers in HMO 1" genoemd kunnen worden en zou je de moge
 	},
 
 	'724' => {
-		message => q|De gebruikersnaam kan niet beginnen of eindigenmet spaties of tabs.|,
-		lastUpdated => 1154094018
+		message => q|De gebruikersnaam kan niet beginnen of eindigen met spaties of tabs.|,
+		lastUpdated => 1208856294
 	},
 
 	'432' => {
@@ -1362,8 +1362,8 @@ Deze groep zou dan "Werknemers in HMO 1" genoemd kunnen worden en zou je de moge
 	},
 
 	'default rich editor description' => {
-		message => q|Dit is de configuratie van de rich editor, die standaard voor de rich editor gebruikt wordt. In bepaalde toepassingen zoals het collaboratie systeem overschreven worden.|,
-		lastUpdated => 1207820758
+		message => q|Dit is de configuratie van de rich editor, die standaard voor de rich editor gebruikt wordt. Dit kan in bepaalde toepassingen zoals het collaboratie systeem overschreven worden.|,
+		lastUpdated => 1208856709
 	},
 
 	'977' => {
@@ -1497,8 +1497,8 @@ Deze groep zou dan "Werknemers in HMO 1" genoemd kunnen worden en zou je de moge
 	},
 
 	'167' => {
-		message => q|Weet u zeker dat u deze gerbuiker wilt verwijderen. Alle informatie over deze gebruiker zal permanent verloren gaan wanneer er verder gagaan wordt.|,
-		lastUpdated => 1153752041
+		message => q|Weet u zeker dat u deze gebruiker wilt verwijderen. Alle informatie over deze gebruiker zal permanent verloren gaan wanneer er verder gegaan wordt.|,
+		lastUpdated => 1208856142
 	},
 
 	'settings groupIdAdminTransactionLog label' => {
@@ -1572,8 +1572,8 @@ Deze groep zou dan "Werknemers in HMO 1" genoemd kunnen worden en zou je de moge
 	},
 
 	'1077' => {
-		message => q|De aangeroepen functie is niet beschikbaar voor deze autheticatie methode.|,
-		lastUpdated => 1153751025
+		message => q|De aangeroepen functie is niet beschikbaar voor deze authenticatie methode.|,
+		lastUpdated => 1208856047
 	},
 
 	'449' => {
@@ -1716,8 +1716,8 @@ Afhankelijk van welke authenticatie modules geïnstalleerd zijn in het systeem, 
 	},
 
 	'debug ip description' => {
-		message => q|Dit beperkt de uitvoer van debugging tot een spicifiek IP adres of IP bereik. Kies het subnet dat debugging in CIDR formaat kan bekijken. Bijvoorbeeld: 10.0.0.0/24. Meer CIDR adressen kunnen opgegeven worden, deze dienen gescheiden te worden door komma's.|,
-		lastUpdated => 1166636313
+		message => q|Dit beperkt de uitvoer van debugging tot een specifiek IP adres of IP bereik. Kies het subnet dat debugging in CIDR formaat kan bekijken. Bijvoorbeeld: 10.0.0.0/24. Meer CIDR adressen kunnen opgegeven worden, deze dienen gescheiden te worden door komma's.|,
+		lastUpdated => 1208856637
 	},
 
 	'583' => {
@@ -1954,8 +1954,8 @@ LongTruncOk=1|,
 	},
 
 	'allowed keywords description' => {
-		message => q|Hier kunnen de functies, die in deze databaselink toegestaan zijn, ingevoerd worden. Een veilige (alleen leesbare) keuze is SELCT, DESCRIBE en SHOW. De verschillende sleutelworden moeten van elkaar gescheiden worden met whitespaces. |,
-		lastUpdated => 1166636019
+		message => q|Hier kunnen de functies, die in deze databaselink toegestaan zijn, ingevoerd worden. Een veilige (alleen leesbare) keuze is SELECT, DESCRIBE en SHOW. De verschillende sleutelworden moeten van elkaar gescheiden worden met whitespaces. |,
+		lastUpdated => 1208856575
 	},
 
 	'988' => {
@@ -2551,13 +2551,13 @@ De verstrekte informatie is niet gelijk aan de accountinformatie. |,
 	},
 
 	'trash workflow' => {
-		message => q|Workflow Prullebak|,
-		lastUpdated => 1166637174
+		message => q|Workflow Prullenbak|,
+		lastUpdated => 1208856813
 	},
 
 	'731' => {
-		message => q|2 getrained|,
-		lastUpdated => 1154094283
+		message => q|2 getraind|,
+		lastUpdated => 1208856329
 	},
 
 	'41' => {
@@ -3043,8 +3043,8 @@ De verstrekte informatie is niet gelijk aan de accountinformatie. |,
 	},
 
 	'975 description' => {
-		message => q|Is het gewenst dat gebruikers zichzelf van deze groep kunnen verwijderen? Zie het GroupDelete macro voor meer informatie.|,
-		lastUpdated => 1207819756
+		message => q|Is het gewenst dat gebruikers zichzelf uit deze groep kunnen verwijderen? Zie het GroupDelete macro voor meer informatie.|,
+		lastUpdated => 1208856517
 	},
 
 	'823' => {

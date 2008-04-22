@@ -72,8 +72,8 @@ our $I18N = {
 	},
 
 	'hello.label' => {
-		message => q|Ge&iuml;nternationaliseerde welkomstboodschap|,
-		lastUpdated => 1155310651
+		message => q|Ge&iuml;nternationaliseerde welkomsboodschap|,
+		lastUpdated => 1208854547
 	},
 
 	'helpvar form.returnUrl' => {

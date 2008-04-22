@@ -7,8 +7,8 @@ our $I18N = {
 	},
 
 	'group.url' => {
-		message => q|De URL waar de gebruiker van de groep wordt verwijderd.|,
-		lastUpdated => 1155907759
+		message => q|De URL waar de gebruiker uit de groep wordt verwijderd.|,
+		lastUpdated => 1208853895
 	},
 
 	'group delete title' => {

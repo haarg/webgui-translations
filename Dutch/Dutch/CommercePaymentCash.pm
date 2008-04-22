@@ -17,8 +17,8 @@ our $I18N = {
 	},
 
 	'complete transaction description' => {
-		message => q|Wanneerdit op ja staat, wordt de transactie voltooid op het moment dat de gebruiker de detaisl voor betalingen verzonden heeft. Wanneer dit op nee staat, blijft de transactie wachten, totdat deze handmatig op voltooid gezet wordt. Dit kan handig zijn als bezoekers van de site contant moeten kunnen betalen, maar u wilt wachten met het wegboeken totdat de betaling daadwerkelijk gedaan is. |,
-		lastUpdated => 1152534993
+		message => q|Wanneer dit op ja staat, wordt de transactie voltooid op het moment dat de gebruiker de details voor betalingen verzonden heeft. Wanneer dit op nee staat, blijft de transactie wachten, totdat deze handmatig op voltooid gezet wordt. Dit kan handig zijn als bezoekers van de site contant moeten kunnen betalen, maar u wilt wachten met het wegboeken totdat de betaling daadwerkelijk gedaan is. |,
+		lastUpdated => 1208771651
 	},
 
 	'state' => {

@@ -17,8 +17,8 @@ our $I18N = {
 	},
 
 	'is enabled help' => {
-		message => q|ALs dit op ja staat, wordt de workflow gestart op het geplande tijdsstip.|,
-		lastUpdated => 1154349028
+		message => q|Als dit op ja staat, wordt de workflow gestart op het geplande tijdstip.|,
+		lastUpdated => 1208857532
 	},
 
 	'day of week' => {
@@ -132,8 +132,8 @@ our $I18N = {
 	},
 
 	'run once help' => {
-		message => q|Als dit op ja gezet wordt, zal de taak uitgevoerd worden op het geplande tijdsstip en daarna zal de taak zichzelf verwijderen.|,
-		lastUpdated => 1154350174
+		message => q|Als dit op ja gezet wordt, zal de taak uitgevoerd worden op het geplande tijdstip en daarna zal de taak zichzelf verwijderen.|,
+		lastUpdated => 1208857550
 	},
 
 	'title' => {
@@ -142,8 +142,8 @@ our $I18N = {
 	},
 
 	'workflow help' => {
-		message => q|Kies een workflow die uitgevoerd moet worden op het geplande tijdsstip.|,
-		lastUpdated => 1154350289
+		message => q|Kies een workflow die uitgevoerd moet worden op het geplande tijdstip.|,
+		lastUpdated => 1208857561
 	},
 
 	'day of month' => {

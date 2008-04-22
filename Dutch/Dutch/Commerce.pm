@@ -42,8 +42,8 @@ our $I18N = {
 	},
 
 	'change shipping method' => {
-		message => q|Verander de vervoermethode|,
-		lastUpdated => 1153842700
+		message => q|Verander de vervoersmethode|,
+		lastUpdated => 1208771216
 	},
 
 	'edit commerce settings title' => {
@@ -237,8 +237,8 @@ our $I18N = {
 	},
 
 	'namespace' => {
-		message => q|De naamruimte van de plugin. U heeft dit enkel nodig als u uw eigen formulier-onderdelen wilt cre&euml;ren. |,
-		lastUpdated => 1154351485
+		message => q|De naamruimte van de plugin. U heeft dit alleen nodig als u uw eigen formulier-onderdelen wilt cre&euml;ren. |,
+		lastUpdated => 1208771312
 	},
 
 	'yearly' => {
@@ -287,8 +287,8 @@ our $I18N = {
 	},
 
 	'select shipping method' => {
-		message => q|Kiest u alstublieft een vervoermethode|,
-		lastUpdated => 1154429879
+		message => q|Kiest u alstublieft een vervoersmethode|,
+		lastUpdated => 1208771359
 	},
 
 	'confirm checkout template description' => {
@@ -307,8 +307,8 @@ our $I18N = {
 	},
 
 	'status codes information' => {
-		message => q|<p>The status codes hebben de volgende betekenis:<br /></p>  	<table border="0" cellspacing="0" cellpadding="5"><tbody><tr> 		<td align="right" valign="top"><strong>^International(&quot;ok&quot;,&quot;Commerce&quot;);</strong></td> 		<td align="left" valign="top">Dit betekent dat deze transactie succesvol is afgerond. U heeft het product gekocht.</td> 	</tr><tr> 		<td align="right" valign="top"><strong>^International(&quot;pending&quot;,&quot;Commerce&quot;);</strong></td> 		<td align="left" valign="top">Dit betekent dat deze transactie in beoordeling is. Dit kan een aantal oorzaken hebben, en normaal gesproken wordt deze transactie weer snel verwerkt. </td> 	</tr><tr> 		<td align="right" valign="top"><strong>^International(&quot;transaction error&quot;,&quot;Commerce&quot;);</strong></td> 		<td align="left" valign="top">Een onherstelbare fout deed zich voor tijdens het verwerken van de transactie.</td> 	</tr><tr> 		<td align="right" valign="top"><strong>^International(&quot;transaction error&quot;,&quot;Commerce&quot;);</strong></td> 		<td align="left" valign="top">Er ging iets mis met de verbinding naar de betaalmethode. De admin is gewaarschuwd.</td></tr></tbody></table><p>&nbsp;</p>|,
-		lastUpdated => 1154436921
+		message => q|<p>De status codes hebben de volgende betekenis:</p>  	<table border="0" cellspacing="0" cellpadding="5"><tbody><tr> 		<td align="&quot;right&quot;" valign="&quot;top&quot;"><strong>^International(&quot;ok&quot;,&quot;Commerce&quot;);</strong></td> 		<td align="&quot;left&quot;" valign="&quot;top&quot;">Dit betekent dat deze transactie succesvol is afgerond. U heeft het product gekocht.</td> 	</tr><tr> 		<td align="&quot;right&quot;" valign="&quot;top&quot;"><strong>^International(&quot;pending&quot;,&quot;Commerce&quot;);</strong></td> 		<td align="&quot;left&quot;" valign="&quot;top&quot;">Dit betekent dat deze transactie in beoordeling is. Dit kan een aantal oorzaken hebben, en normaal gesproken wordt deze transactie weer snel verwerkt. </td> 	</tr><tr> 		<td align="&quot;right&quot;" valign="&quot;top&quot;"><strong>^International(&quot;transaction error&quot;,&quot;Commerce&quot;);</strong></td> 		<td align="&quot;left&quot;" valign="&quot;top&quot;">Een onherstelbare fout deed zich voor tijdens het verwerken van de transactie.</td> 	</tr><tr> 		<td align="&quot;right&quot;" valign="&quot;top&quot;"><strong>^International(&quot;transaction error&quot;,&quot;Commerce&quot;);</strong></td> 		<td align="&quot;left&quot;" valign="&quot;top&quot;">Er ging iets mis met de verbinding naar de betaalmethode. De admin is gewaarschuwd.</td></tr></tbody></table><p>&nbsp;</p>|,
+		lastUpdated => 1208771408
 	},
 
 	'gatewayId' => {
@@ -352,8 +352,8 @@ our $I18N = {
 	},
 
 	'totalSalesTax' => {
-		message => q|De som van de van de toepassing zijnde BTW tarieven op de verschillende producten.|,
-		lastUpdated => 1166633921
+		message => q|De som van de van toepassing zijnde BTW tarieven op de verschillende producten.|,
+		lastUpdated => 1208771489
 	},
 
 	'plugin name' => {
@@ -387,8 +387,8 @@ our $I18N = {
 	},
 
 	'checkout select shipping template description' => {
-		message => q|Dit is het sjabloon dat de gebruiker ziet wanneer hij een vervoermethode kiest |,
-		lastUpdated => 1153844099
+		message => q|Dit is het sjabloon dat de gebruiker ziet wanneer hij een vervoersmethode kiest |,
+		lastUpdated => 1208771255
 	},
 
 	'shipping tab' => {

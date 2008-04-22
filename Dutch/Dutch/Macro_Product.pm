@@ -1,10 +1,9 @@
 package WebGUI::i18n::Dutch::Macro_Product;
 
-
 our $I18N = {
-	'variant.price' => {
-		message => q|De prijs van deze variant van het product.|,
-		lastUpdated => 1154354460
+	'sku' => {
+		message => q|De basis SKU van dit product|,
+		lastUpdated => 1154354109
 	},
 
 	'variant.weight' => {
@@ -12,9 +11,9 @@ our $I18N = {
 		lastUpdated => 1154355494
 	},
 
-	'sku' => {
-		message => q|De basis SKU van dit product|,
-		lastUpdated => 1154354109
+	'variant.price' => {
+		message => q|De prijs van deze variant van het product.|,
+		lastUpdated => 1154354460
 	},
 
 	'variant.addToCart.label' => {
@@ -58,8 +57,8 @@ our $I18N = {
 	},
 
 	'value' => {
-		message => q|De waarde van de parameter, voor het voorbeeld van maten is dit bijvoorbeeld XL.|,
-		lastUpdated => 1154354192
+		message => q|De waarde van de parameter, voor maten is dit bijvoorbeeld XL.|,
+		lastUpdated => 1208855647
 	},
 
 	'macroName' => {
@@ -88,8 +87,8 @@ our $I18N = {
 	},
 
 	'parameter' => {
-		message => q|De parameter die deze variant defini&euml;erd, bijvoorbeeld afmetingen.|,
-		lastUpdated => 1154353572
+		message => q|De parameter die deze variant defini&euml;ert, bijvoorbeeld afmetingen.|,
+		lastUpdated => 1208855604
 	},
 
 	'no sku or id' => {
@@ -97,14 +96,14 @@ our $I18N = {
 		lastUpdated => 1154353526
 	},
 
-	'title' => {
-		message => q|De titel van dit product|,
-		lastUpdated => 1154354129
-	},
-
 	'price' => {
 		message => q|De basiskosten van het product|,
 		lastUpdated => 1154353601
+	},
+
+	'title' => {
+		message => q|De titel van dit product|,
+		lastUpdated => 1154354129
 	},
 
 	'variantLoop' => {

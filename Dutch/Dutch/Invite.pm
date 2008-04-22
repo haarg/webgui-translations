@@ -49,8 +49,8 @@ Met vriendelijke groet,
 	},
 
 	'already a member message' => {
-		message => q|De persoonlijke uitnodigingscode in de URL is ongeldig. (Ben u misschien al lid?)|,
-		lastUpdated => 1189454992
+		message => q|De persoonlijke uitnodigingscode in de URL is ongeldig. (Bent u misschien al lid?)|,
+		lastUpdated => 1208853592
 	},
 
 	'already a member' => {

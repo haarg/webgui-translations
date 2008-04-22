@@ -205,8 +205,8 @@ our $I18N = {
 	},
 
 	'confirm delete activity' => {
-		message => q|Weet u zeker dat u deze activiteit uit deze workdlow wilt verwijderen?|,
-		lastUpdated => 1152606606
+		message => q|Weet u zeker dat u deze activiteit uit deze workflow wilt verwijderen?|,
+		lastUpdated => 1208857099
 	},
 
 	'edit priority cancel' => {

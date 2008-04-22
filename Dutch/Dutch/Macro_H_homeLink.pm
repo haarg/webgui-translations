@@ -7,8 +7,8 @@ our $I18N = {
 	},
 
 	'homeLink.text' => {
-		message => q|Het vertaalde label van de link naar dehomepage of de tekst die meegegeven wordt aan het macro.|,
-		lastUpdated => 1155300065
+		message => q|Het vertaalde label van de link naar de homepage of de tekst die meegegeven wordt aan het macro.|,
+		lastUpdated => 1208854384
 	},
 
 	'macroName' => {
