@@ -2,8 +2,8 @@ package WebGUI::i18n::Spanish::Subscription;
 
 our $I18N = {
 	'subscription description' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Descripci&oacute;n|,
+		lastUpdated => 1208548723
 	},
 
 	'code length description' => {
@@ -12,8 +12,8 @@ our $I18N = {
 	},
 
 	'redeem code failure' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Usted ha ingresado un c&oacute;digo incorrecto, est&aacute; ya siendo usado o expir&oacute;.&nbsp; Por favor ingrese a continuaci&oacute;n otro c&oacute;digo.|,
+		lastUpdated => 1209077272
 	},
 
 	'useSalesTax description' => {
@@ -28,8 +28,8 @@ Qué suscripción (s) se hacen con los códigos generados.|,
 	},
 
 	'subscription name' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Nombre de la Suscripci&oacute;n|,
+		lastUpdated => 1209132236
 	},
 
 	'delete batch confirm' => {
@@ -43,8 +43,8 @@ Qué suscripción (s) se hacen con los códigos generados.|,
 	},
 
 	'redeem code success' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Usted se ha registrado exitosamente a las suscripciones.&nbsp; Usted puede ingresar a continuaci&oacute;n otro c&oacute;digo.<br />.|,
+		lastUpdated => 1209077418
 	},
 
 	'codes expire description' => {
@@ -63,8 +63,8 @@ Qué suscripción (s) se hacen con los códigos generados.|,
 	},
 
 	'subscription duration' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Per&iacute;odo de Suscripci&oacute;n|,
+		lastUpdated => 1209077520
 	},
 
 	'and' => {
@@ -73,8 +73,8 @@ Qué suscripción (s) se hacen con los códigos generados.|,
 	},
 
 	'subscription group' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Suscribir a grupo|,
+		lastUpdated => 1209077558
 	},
 
 	'subscription price description' => {
@@ -83,8 +83,8 @@ Qué suscripción (s) se hacen con los códigos generados.|,
 	},
 
 	'manage subscriptions' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Suscripciones(beta)|,
+		lastUpdated => 1209132383
 	},
 
 	'subscription duration description' => {
@@ -118,13 +118,13 @@ Qué suscripción (s) se hacen con los códigos generados.|,
 	},
 
 	'redeem code ask for code' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Por favor ingrese a continuaci&oacute;n su c&oacute;digo de suscripci&oacute;n |,
+		lastUpdated => 1209077182
 	},
 
 	'delete codes' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Eliminar C&oacute;digos seleccionados|,
+		lastUpdated => 1209132319
 	},
 
 	'add subscription' => {
@@ -158,8 +158,8 @@ Qué suscripción (s) se hacen con los códigos generados.|,
 	},
 
 	'manage codes' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Administrar c&oacute;digos de suscripci&oacute;n|,
+		lastUpdated => 1209132347
 	},
 
 	'help redeem code template title' => {
@@ -173,8 +173,8 @@ Qué suscripción (s) se hacen con los códigos generados.|,
 	},
 
 	'code length' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Longitud c&oacute;digo de suscripci&oacute;n|,
+		lastUpdated => 1209132463
 	},
 
 	'delete subscription confirm' => {
@@ -208,13 +208,13 @@ Qué suscripción (s) se hacen con los códigos generados.|,
 	},
 
 	'redeem code' => {
-		message => q||,
-		lastUpdated => 
+		message => q|C&oacute;digos de acceso|,
+		lastUpdated => 1209077111
 	},
 
 	'subscription name description' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Nombre de la suscripci&oacute;n|,
+		lastUpdated => 1208548700
 	},
 
 	'listSubscriptionCodes title' => {
@@ -253,8 +253,8 @@ Qué suscripción (s) se hacen con los códigos generados.|,
 	},
 
 	'status' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Estado|,
+		lastUpdated => 1208548580
 	},
 
 	'noc' => {
@@ -278,18 +278,18 @@ Qué suscripción (s) se hacen con los códigos generados.|,
 	},
 
 	'subscription description description' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Descripci&oacute;n detallada de la suscripci&oacute;n.|,
+		lastUpdated => 1209077491
 	},
 
 	'no description error' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Usted deber&iacute;a ingresar una descripci&oacute;n.|,
+		lastUpdated => 1209132429
 	},
 
 	'subscription price' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Precio|,
+		lastUpdated => 1209132287
 	},
 
 	'dateUsed' => {

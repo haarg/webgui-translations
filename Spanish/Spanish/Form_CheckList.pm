@@ -2,8 +2,8 @@ package WebGUI::i18n::Spanish::Form_CheckList;
 
 our $I18N = {
 	'topicName' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Lista de chequeio del formulario de WebGUI|,
+		lastUpdated => 1209132594
 	},
 
 	'selectAll label' => {

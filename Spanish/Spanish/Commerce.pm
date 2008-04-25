@@ -112,8 +112,8 @@ our $I18N = {
 	},
 
 	'username' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Nombre de usuario|,
+		lastUpdated => 1209042070
 	},
 
 	'normalItems' => {
@@ -187,8 +187,8 @@ our $I18N = {
 	},
 
 	'weekly' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Semanalmente|,
+		lastUpdated => 1209042039
 	},
 
 	'quarterly' => {
@@ -242,8 +242,8 @@ our $I18N = {
 	},
 
 	'yearly' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Anualmente|,
+		lastUpdated => 1209042053
 	},
 
 	'view shopping cart template' => {
@@ -427,8 +427,8 @@ our $I18N = {
 	},
 
 	'price' => {
-		message => q||,
-		lastUpdated => 
+		message => q|precio|,
+		lastUpdated => 1209041994
 	},
 
 	'pluginLoop' => {
@@ -457,8 +457,8 @@ our $I18N = {
 	},
 
 	'update cart' => {
-		message => q||,
-		lastUpdated => 
+		message => q|actualizar carrito|,
+		lastUpdated => 1209042086
 	},
 
 	'formElement' => {
@@ -472,8 +472,8 @@ our $I18N = {
 	},
 
 	'salesTaxRate' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Porcentaje del impuesto de venta|,
+		lastUpdated => 1209042157
 	},
 
 	'payment tab' => {
@@ -497,8 +497,8 @@ our $I18N = {
 	},
 
 	'quantity' => {
-		message => q||,
-		lastUpdated => 
+		message => q|cantidad|,
+		lastUpdated => 1209042015
 	},
 
 	'daily report email' => {
@@ -532,8 +532,8 @@ our $I18N = {
 	},
 
 	'salesTax' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Impuesto de venta|,
+		lastUpdated => 1209042127
 	},
 
 	'salesTax tab' => {

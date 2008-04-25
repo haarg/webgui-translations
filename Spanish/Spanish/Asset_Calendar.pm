@@ -272,8 +272,8 @@ our $I18N = {
 	},
 
 	'admin' => {
-		message => q|Una variable condicional que es &quot;verdadera&quot; cuando esta prendido el modo administrador.</p>|,
-		lastUpdated => 1189595057
+		message => q|Una variable condicional que es &quot;verdadera&quot; cuando esta prendido el modo administrador.<p>&nbsp;</p>|,
+		lastUpdated => 1208536525
 	},
 
 	'templateIdMonth label' => {
@@ -617,8 +617,8 @@ our $I18N = {
 	},
 
 	'helpvar dateTime dayOfWeek' => {
-		message => q|El numero de el dia de la semana (1 es lunes, 7 es domingo)|,
-		lastUpdated => 1208215342
+		message => q|El numero de el dia de la semana (1 es Lunes, 7 es Domingo)|,
+		lastUpdated => 1208536577
 	},
 
 	'label week' => {
@@ -698,7 +698,7 @@ our $I18N = {
 
 	'label day' => {
 		message => q|D&iacute;a|,
-		lastUpdated => 1207867300
+		lastUpdated => 1208536595
 	},
 
 	'templateIdPrintWeek label' => {

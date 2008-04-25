@@ -92,8 +92,8 @@ our $I18N = {
 	},
 
 	'process macros in rss url' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Procesar Macros en RSS URLs|,
+		lastUpdated => 1208549302
 	},
 
 	'descriptionFirst3sentences' => {
@@ -212,8 +212,8 @@ our $I18N = {
 	},
 
 	'link' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Una URL directamente al contenido del item.|,
+		lastUpdated => 1208549379
 	},
 
 	'cacheTimeout' => {

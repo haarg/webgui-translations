@@ -4,7 +4,7 @@ use strict;
 
 our $LANGUAGE = {
 	label => 'Spanish',
-	toolbar => '',
+	toolbar => 'bullet',
 	languageAbbreviation => 'es',
 	locale => 'ES',
 };

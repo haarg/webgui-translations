@@ -147,8 +147,8 @@ our $I18N = {
 	},
 
 	'image.url' => {
-		message => q||,
-		lastUpdated => 
+		message => q|La URL de la primera imagen adjuntada a la publicaci&oacute;n|,
+		lastUpdated => 1208549504
 	},
 
 	'isNewThread' => {
