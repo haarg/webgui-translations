@@ -7,8 +7,8 @@ our $I18N = {
 	},
 
 	'search' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Buscar|,
+		lastUpdated => 1209486904
 	},
 
 	'search template' => {
@@ -32,8 +32,8 @@ our $I18N = {
 	},
 
 	'synopsis' => {
-		message => q||,
-		lastUpdated => 
+		message => q|El resumen del activo encontrado en la b&uacute;squeda.|,
+		lastUpdated => 1209487068
 	},
 
 	'no_results' => {
@@ -47,13 +47,13 @@ our $I18N = {
 	},
 
 	'url' => {
-		message => q||,
-		lastUpdated => 
+		message => q|La URL del activo encontrada en la b&uacute;squeda.|,
+		lastUpdated => 1209487187
 	},
 
 	'searchRoot' => {
-		message => q||,
-		lastUpdated => 
+		message => q|El ID del activo donde la b&uacute;squeda comenzar&iacute;a.|,
+		lastUpdated => 1209487109
 	},
 
 	'form_submit' => {
@@ -122,8 +122,8 @@ our $I18N = {
 	},
 
 	'no results' => {
-		message => q||,
-		lastUpdated => 
+		message => q|No fue encontrado ning&uacute;n resultado.|,
+		lastUpdated => 1209487024
 	},
 
 	'title' => {
