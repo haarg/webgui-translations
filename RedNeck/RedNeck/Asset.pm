@@ -357,8 +357,8 @@ our $I18N = {
 	},
 
 	'with descendants' => {
-		message => q||,
-		lastUpdated => 
+		message => q|yer kidz, yer kid'z kidz an just bunches of 'em|,
+		lastUpdated => 1207700257
 	},
 
 	'Add new field description' => {
@@ -707,6 +707,11 @@ our $I18N = {
 	},
 
 	'Select' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'package extract error' => {
 		message => q||,
 		lastUpdated => 
 	},
