@@ -411,6 +411,11 @@ our $I18N = {
 		lastUpdated => 1178193862
 	},
 
+	'SubscriptionGroup formName' => {
+		message => q||,
+		lastUpdated => 
+	},
+
 	'160' => {
 		message => q|Datum &quot;submitted&quot;|,
 		lastUpdated => 1178615788
@@ -434,11 +439,6 @@ our $I18N = {
 	'976' => {
 		message => q|Benutzer hinzuf&uuml;gen|,
 		lastUpdated => 1178545491
-	},
-
-	'wiki help label leadin' => {
-		message => q|F&uuml;r weitere Hilfe besuchen Sie|,
-		lastUpdated => 1187688446
 	},
 
 	'settings groupIdAdminSpectre hoverHelp' => {
@@ -1146,6 +1146,11 @@ our $I18N = {
 		lastUpdated => 1178192910
 	},
 
+	'Attachments formName' => {
+		message => q||,
+		lastUpdated => 
+	},
+
 	'860' => {
 		message => q|Email Adresse ver&ouml;ffentlichen? |,
 		lastUpdated => 1178538207
@@ -1319,6 +1324,11 @@ our $I18N = {
 	'170' => {
 		message => q|suchen|,
 		lastUpdated => 1178184878
+	},
+
+	'SelectRichEditor formName' => {
+		message => q||,
+		lastUpdated => 
 	},
 
 	'default rich editor' => {
@@ -1852,8 +1862,8 @@ our $I18N = {
 	},
 
 	'high user count' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Es gibt mehr als 250 Benutzern.&nbsp; Benutz bitte Suche, um Benutzer zu finden.|,
+		lastUpdated => 1208147399
 	},
 
 	'316' => {
@@ -1872,8 +1882,8 @@ our $I18N = {
 	},
 
 	'trash' => {
-		message => q|M&uuml;lleimer|,
-		lastUpdated => 1178625885
+		message => q|Mein M&uuml;lleimer|,
+		lastUpdated => 1208147091
 	},
 
 	'manage cache' => {
@@ -2287,8 +2297,8 @@ our $I18N = {
 	},
 
 	'high group count' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Es gibt mehr als 250 Gruppen.&nbsp; Benutz bitte die Suche, um eine Gruppe zu finden.<br /> |,
+		lastUpdated => 1208147006
 	},
 
 	'554' => {
@@ -2847,8 +2857,8 @@ our $I18N = {
 	},
 
 	'user function style description' => {
-		message => q|Welcher Style soll f&uuml;r Benutzerfunktionen (Profil bearbeiten etc.) benutzt werden.|,
-		lastUpdated => 1178627586
+		message => q|Welcher Style soll f&uuml;r Benutzerfunktionen (Profil bearbeiten etc.) benutzt werden.&nbsp; Nur Templates, die schon Committed sind, sind erlaubt.|,
+		lastUpdated => 1208147227
 	},
 
 	'313' => {
@@ -3277,11 +3287,6 @@ our $I18N = {
 		lastUpdated => 1203221229
 	},
 
-	'wiki help target' => {
-		message => q|Wiki der WebGUI Community|,
-		lastUpdated => 1187688425
-	},
-
 	'run on admin update user' => {
 		message => q|Beim Aktualisieren Benutzer (Admin)|,
 		lastUpdated => 1199972034
@@ -3450,6 +3455,11 @@ our $I18N = {
 	'show my fields' => {
 		message => q|Zeige Felder, die meine UI Ebene erlaubt|,
 		lastUpdated => 1178625721
+	},
+
+	'external help' => {
+		message => q|F&uuml;r mehrere Hilfe, besuch <a href="http://www.webgui.org/community-wiki">WebGU Community Wiki</a>|,
+		lastUpdated => 1208146899
 	},
 
 	'54' => {

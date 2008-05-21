@@ -6,11 +6,6 @@ our $I18N = {
 		lastUpdated => 1178794038
 	},
 
-	'endMonth' => {
-		message => q|Die Nummer (1-12) des Monats in dem diese Woche endet.|,
-		lastUpdated => 1178789403
-	},
-
 	'urlDay' => {
 		message => q|URL zur  Eintagesansicht des Kalenders.|,
 		lastUpdated => 1178794114
@@ -26,29 +21,14 @@ our $I18N = {
 		lastUpdated => 1178793724
 	},
 
-	'subscriberNotifyOffset label' => {
-		message => q|Subscriber Benachrichtigung Offset|,
-		lastUpdated => 1178790367
+	'helpvar dateTime monthName' => {
+		message => q||,
+		lastUpdated => 
 	},
 
 	'adminControls' => {
 		message => q|Dies sind die Icons und URLs, die das Bearbeiten, Ausschneiden, Kopieren, L&ouml;schen und Umstrukturierung von Assets erlauben.|,
 		lastUpdated => 1178788397
-	},
-
-	'workflow generateRecurringEvents' => {
-		message => q|Erzeuge wiederkehrende Termine|,
-		lastUpdated => 1178794479
-	},
-
-	'pagePrevStart' => {
-		message => q|Das Datum des vorhergehenden Tages im Kalender im YYYY-MM-DD (Jahr,Monat,Tag) Format.|,
-		lastUpdated => 1178790041
-	},
-
-	'templateIdEvent label' => {
-		message => q|Termin Details Template|,
-		lastUpdated => 1178793691
 	},
 
 	'urlAdd' => {
@@ -61,11 +41,6 @@ our $I18N = {
 		lastUpdated => 1178793942
 	},
 
-	'sortEventsBy value sequencenumber' => {
-		message => q|Sortiere nach Folgenummer.|,
-		lastUpdated => 1201601673
-	},
-
 	'events weekVar' => {
 		message => q|Eine Schleife, die alle Termine dieses Tages enth&auml;lt.|,
 		lastUpdated => 1178789532
@@ -76,14 +51,19 @@ our $I18N = {
 		lastUpdated => 1178794534
 	},
 
-	'hours' => {
-		message => q|Diese Schleife enth&auml;lt alle Termine und Label f&uuml;r die Stunde in der sie auftreten. Stunden, die keine Termine enthalten, werden in die Schleife nicht mit aufgenommen.|,
-		lastUpdated => 1178789826
+	'subscribe' => {
+		message => q||,
+		lastUpdated => 
 	},
 
-	'startYear' => {
-		message => q|Das Jahr in dem diese Woche beginnt.|,
-		lastUpdated => 1178790286
+	'helpvar newDay' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'previous week' => {
+		message => q||,
+		lastUpdated => 
 	},
 
 	'mdy' => {
@@ -91,9 +71,9 @@ our $I18N = {
 		lastUpdated => 1178789881
 	},
 
-	'templateIdPrintWeek description' => {
-		message => q|Dieses Template ist f&uuml;r den Ausdruck des Kalenders in der Wochenansicht.|,
-		lastUpdated => 1178793967
+	'helpvar dateTime second' => {
+		message => q||,
+		lastUpdated => 
 	},
 
 	'defaultView description' => {
@@ -111,24 +91,14 @@ our $I18N = {
 		lastUpdated => 1178789982
 	},
 
-	'endDayName' => {
-		message => q|Der Name des Tages mit dem diese Woche endet.|,
-		lastUpdated => 1178789342
-	},
-
-	'pagePrevUrl weekVar' => {
-		message => q|URL zur vorhergehenden Woche im Kalender.|,
-		lastUpdated => 1178790073
-	},
-
-	'view calendar title' => {
-		message => q|Kalenderansicht Template Variablen|,
-		lastUpdated => 1178794371
-	},
-
 	'add event' => {
 		message => q|Ereignis eintragen|,
 		lastUpdated => 1192786210
+	},
+
+	'helpvar dateTime minute' => {
+		message => q||,
+		lastUpdated => 
 	},
 
 	'view calendar day title' => {
@@ -136,19 +106,34 @@ our $I18N = {
 		lastUpdated => 1178794349
 	},
 
+	'previous day' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'helpvar dateTime dayOfMonth' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'helpvar url_nextPage' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'help view list title' => {
+		message => q||,
+		lastUpdated => 
+	},
+
 	'templateIdEvent description' => {
 		message => q|Das Template, das f&uuml;r die Anzeige von Details &uuml;ber einen Termin benutzt wird.|,
 		lastUpdated => 1178790602
 	},
 
-	'urlIcal' => {
-		message => q|URL zum iCal Feed des Kalenders, startet in diesem Monat.|,
-		lastUpdated => 1178794142
-	},
-
-	'templateIdPrintMonth description' => {
-		message => q|Dieses Template ist f&uuml;r den Ausdruck des Kalenders in der Monatsansicht.|,
-		lastUpdated => 1178793932
+	'next day' => {
+		message => q||,
+		lastUpdated => 
 	},
 
 	'workflow updateFeeds description' => {
@@ -156,14 +141,9 @@ our $I18N = {
 		lastUpdated => 1178794575
 	},
 
-	'editor' => {
-		message => q|Bedingung, die wahr ist, falls der Benutzer in einer Gruppe ist, die Termine im Kalender bearbeiten darf.|,
-		lastUpdated => 1178789288
-	},
-
-	'endDayAbbr' => {
-		message => q|Die Abk&uuml;rzung f&uuml;r den Name des Tages mit dem diese Woche endet.|,
-		lastUpdated => 1178789328
+	'editForm templateIdPrintList description' => {
+		message => q||,
+		lastUpdated => 
 	},
 
 	'defaultDate label' => {
@@ -186,9 +166,9 @@ our $I18N = {
 		lastUpdated => 1178790058
 	},
 
-	'defaultView value month' => {
-		message => q|Monat|,
-		lastUpdated => 1178788696
+	'helpvar dateTime month' => {
+		message => q|Der Monat (01)|,
+		lastUpdated => 1204544539
 	},
 
 	'hour24' => {
@@ -196,19 +176,19 @@ our $I18N = {
 		lastUpdated => 1178789722
 	},
 
-	'days' => {
-		message => q|Diese Schleife enth&auml;lt alle Termine und Label f&uuml;r die Tage an denen Sie auftreten. Alle Tage der Woche sind in der Schleife enthalten, egal ob sie Termine enthalten oder nicht.|,
-		lastUpdated => 1178788585
-	},
-
-	'visitorCacheTimeout label' => {
-		message => q|Besucher (Visitor) Cache Timeout|,
-		lastUpdated => 1178794465
+	'editForm icalInterval label' => {
+		message => q||,
+		lastUpdated => 
 	},
 
 	'templateIdEventEdit label' => {
 		message => q|Termin Bearbeitung Template|,
 		lastUpdated => 1178793747
+	},
+
+	'visitorCacheTimeout label' => {
+		message => q|Besucher (Visitor) Cache Timeout|,
+		lastUpdated => 1178794465
 	},
 
 	'dayAbbr' => {
@@ -226,24 +206,19 @@ our $I18N = {
 		lastUpdated => 1178794157
 	},
 
-	'endMonthName' => {
-		message => q|Der Name des Monat in dem diese Woche endet.|,
-		lastUpdated => 1178789440
+	'helpvar newMonth' => {
+		message => q||,
+		lastUpdated => 
 	},
 
-	'groupIdEventEdit label' => {
-		message => q|Wer darf Termine hinzuf&uuml;gen?|,
-		lastUpdated => 1178789613
+	'helpvar dateTime year' => {
+		message => q||,
+		lastUpdated => 
 	},
 
-	'view calendar week title' => {
-		message => q|Kalender Wochenansicht Template Variablen|,
-		lastUpdated => 1178794413
-	},
-
-	'year' => {
-		message => q|Das Jahr in 4 Ziffern.|,
-		lastUpdated => 1178794593
+	'helpvar dateTime dayName' => {
+		message => q||,
+		lastUpdated => 
 	},
 
 	'dayOfWeek' => {
@@ -261,24 +236,14 @@ our $I18N = {
 		lastUpdated => 1178790271
 	},
 
-	'assetName' => {
-		message => q|Kalender|,
-		lastUpdated => 1170409428
-	},
-
 	'startDayAbbr' => {
 		message => q|Die Abk&uuml;rzung f&uuml;r den Namen des Tages mit dem diese Woche beginnt.|,
 		lastUpdated => 1178790158
 	},
 
-	'locale' => {
-		message => q|de_DE|,
-		lastUpdated => 1178789842
-	},
-
-	'endMonthAbbr' => {
-		message => q|Die Abk&uuml;rzung des Names des Monats in dem diese Woche endet.|,
-		lastUpdated => 1178789428
+	'end date' => {
+		message => q||,
+		lastUpdated => 
 	},
 
 	'workflow updateFeeds' => {
@@ -286,19 +251,9 @@ our $I18N = {
 		lastUpdated => 1178794548
 	},
 
-	'endDayOfMonth' => {
-		message => q|Der Tag des Monats mit dem diese Woche endet; eine Zahl zwischen 1 und 31.|,
-		lastUpdated => 1178789371
-	},
-
-	'defaultDate description' => {
-		message => q|Das Standard Datum, das dem Benutzer angezeigt wird.|,
-		lastUpdated => 1178788610
-	},
-
-	'urlPrint' => {
-		message => q|URL zur Druckansicht des Kalenders.|,
-		lastUpdated => 1178794172
+	'helpvar dateTime dmy' => {
+		message => q||,
+		lastUpdated => 
 	},
 
 	'defaultDate value last' => {
@@ -306,24 +261,14 @@ our $I18N = {
 		lastUpdated => 1178788656
 	},
 
-	'groupIdEventEdit description' => {
-		message => q|Mitglieder dieser Gruppe k&ouml;nnen Termine zu diesem Kalender hinzuf&uuml;gen.|,
-		lastUpdated => 1178789586
-	},
-
 	'templateIdSearch description' => {
 		message => q|Dieses Template zeigt den Kalender in der Suchansicht.|,
 		lastUpdated => 1178794001
 	},
 
-	'startDayName' => {
-		message => q|Der Name des Tages mit dem diese Woche beginnt.|,
-		lastUpdated => 1178790174
-	},
-
-	'searchButtonLabel' => {
-		message => q|Suche|,
-		lastUpdated => 1178790130
+	'helpvar dateTime dayAbbr' => {
+		message => q||,
+		lastUpdated => 
 	},
 
 	'admin' => {
@@ -331,29 +276,9 @@ our $I18N = {
 		lastUpdated => 1178788317
 	},
 
-	'epoch' => {
-		message => q|Das Format des Datums dieses Tages im Epochen Format.|,
-		lastUpdated => 1178789493
-	},
-
-	'templateIdDay label' => {
-		message => q|Tagesansicht Template|,
-		lastUpdated => 1178790398
-	},
-
-	'dayOfMonth' => {
-		message => q|Welcher Tag des Monats ist dieser Tag; Zahl zwischen 1...31.|,
-		lastUpdated => 1178788496
-	},
-
 	'templateIdMonth label' => {
 		message => q|Monatsansicht Template|,
 		lastUpdated => 1178793810
-	},
-
-	'templateIdPrintWeek label' => {
-		message => q|Drucke Woche Template|,
-		lastUpdated => 1178793980
 	},
 
 	'visitorCacheTimeout description' => {
@@ -361,24 +286,14 @@ our $I18N = {
 		lastUpdated => 1178794449
 	},
 
-	'view calendar week body' => {
-		message => q|Dieses Template zeigt alle Termine in einer Woche des Kalenders, sortiert nach dem Tag.|,
-		lastUpdated => 1178794396
-	},
-
 	'subscriberNotifyOffset description' => {
 		message => q|Anzahl Tage, bevor ein Subscriber informiert wird, dass ein Termin stattfinden wird.|,
 		lastUpdated => 1178790334
 	},
 
-	'urlSearch' => {
-		message => q|URL zur Suchansicht des Kalenders.|,
-		lastUpdated => 1178794194
-	},
-
-	'templateIdPrintDay description' => {
-		message => q|Dieses Template ist f&uuml;r den Ausruck des Kalenders in der Tagesansicht.|,
-		lastUpdated => 1178793847
+	'editForm templateIdList label' => {
+		message => q||,
+		lastUpdated => 
 	},
 
 	'urlWeek' => {
@@ -386,9 +301,9 @@ our $I18N = {
 		lastUpdated => 1178794210
 	},
 
-	'startMonth' => {
-		message => q|Die Nummer (1-12) des Monats in dem diese Woche beginnt.|,
-		lastUpdated => 1178790222
+	'templateIdPrintDay description' => {
+		message => q|Dieses Template ist f&uuml;r den Ausruck des Kalenders in der Tagesansicht.|,
+		lastUpdated => 1178793847
 	},
 
 	'defaultView value week' => {
@@ -399,21 +314,6 @@ our $I18N = {
 	'sortEventsBy description' => {
 		message => q|Anzeigereihenfolge der t&auml;glichen Termine.|,
 		lastUpdated => 1201601599
-	},
-
-	'startDayOfMonth' => {
-		message => q|Der Tag des Monats in dem diese Woche startet; Zahl zwischen 1 und 31.|,
-		lastUpdated => 1178790233
-	},
-
-	'view calendar day body' => {
-		message => q|Dieses Template zeigt alle Termine an einem einzigen Tag in dem Kalender, sortiert nach der Stunde.|,
-		lastUpdated => 1178794325
-	},
-
-	'events dayVar' => {
-		message => q|Eine Schleife, die alle Termine dieser Stunden enth&auml;lt.|,
-		lastUpdated => 1178789513
 	},
 
 	'extrasUrl' => {
@@ -436,9 +336,9 @@ our $I18N = {
 		lastUpdated => 1178793887
 	},
 
-	'sortEventsBy value time' => {
-		message => q|Sortiere nach Startdatum / Enddatum.|,
-		lastUpdated => 1201601697
+	'previous page' => {
+		message => q||,
+		lastUpdated => 
 	},
 
 	'paramType' => {
@@ -446,9 +346,9 @@ our $I18N = {
 		lastUpdated => 1178790125
 	},
 
-	'defaultView value day' => {
-		message => q|Tag|,
-		lastUpdated => 1178788691
+	'label search' => {
+		message => q||,
+		lastUpdated => 
 	},
 
 	'endYear' => {
@@ -456,9 +356,9 @@ our $I18N = {
 		lastUpdated => 1178789455
 	},
 
-	'templateIdSearch label' => {
-		message => q|Suchansicht Template|,
-		lastUpdated => 1178794020
+	'editForm templateIdList description' => {
+		message => q||,
+		lastUpdated => 
 	},
 
 	'ymd' => {
@@ -466,14 +366,9 @@ our $I18N = {
 		lastUpdated => 1178794639
 	},
 
-	'dayName' => {
-		message => q|Der Name des aktuellen Tages.|,
-		lastUpdated => 1178788438
-	},
-
-	'sortEventsBy label' => {
-		message => q|Anzeigereihenfolge t&auml;gliche Termine|,
-		lastUpdated => 1201601651
+	'helpvar url_previousPage' => {
+		message => q||,
+		lastUpdated => 
 	},
 
 	'pageNextStart' => {
@@ -481,14 +376,14 @@ our $I18N = {
 		lastUpdated => 1178789956
 	},
 
-	'templateIdWeek label' => {
-		message => q|Wochenansicht Template|,
-		lastUpdated => 1178794047
-	},
-
 	'defaultDate value first' => {
 		message => q|Der erste Termin im Kalender|,
 		lastUpdated => 1178788640
+	},
+
+	'start date' => {
+		message => q||,
+		lastUpdated => 
 	},
 
 	'startMonthAbbr' => {
@@ -501,14 +396,19 @@ our $I18N = {
 		lastUpdated => 1178788682
 	},
 
+	'defaultView value list' => {
+		message => q|Liste|,
+		lastUpdated => 1204544515
+	},
+
+	'helpvar dateTime start' => {
+		message => q||,
+		lastUpdated => 
+	},
+
 	'monthAbbr' => {
 		message => q|Die Abk&uuml;rzung f&uuml;r den Namen dieses Monats|,
 		lastUpdated => 1178789903
-	},
-
-	'templateIdMonth description' => {
-		message => q|Dieses Template zeigt den Kalender in der Monatsansicht.|,
-		lastUpdated => 1178793781
 	},
 
 	'pageNextUrl weekVar' => {
@@ -516,14 +416,14 @@ our $I18N = {
 		lastUpdated => 1178790006
 	},
 
-	'monthName' => {
-		message => q|Der Name dieses Monats.|,
-		lastUpdated => 1178789912
-	},
-
 	'iCal' => {
 		message => q|iCal|,
 		lastUpdated => 1192798304
+	},
+
+	'helpvar dateTime monthAbbr' => {
+		message => q||,
+		lastUpdated => 
 	},
 
 	'templateIdDay description' => {
@@ -534,6 +434,376 @@ our $I18N = {
 	'dmy' => {
 		message => q|Dieser Tag im dd-mm-yyyy Format. yyyy -> Jahr, mm -> Monat, dd -> Tag.|,
 		lastUpdated => 1178789252
+	},
+
+	'helpvar dateTime ymd' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'endMonth' => {
+		message => q|Die Nummer (1-12) des Monats in dem diese Woche endet.|,
+		lastUpdated => 1178789403
+	},
+
+	'subscriberNotifyOffset label' => {
+		message => q|Subscriber Benachrichtigung Offset|,
+		lastUpdated => 1178790367
+	},
+
+	'helpvar dateTime mdy' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'workflow generateRecurringEvents' => {
+		message => q|Erzeuge wiederkehrende Termine|,
+		lastUpdated => 1178794479
+	},
+
+	'templateIdEvent label' => {
+		message => q|Termin Details Template|,
+		lastUpdated => 1178793691
+	},
+
+	'pagePrevStart' => {
+		message => q|Das Datum des vorhergehenden Tages im Kalender im YYYY-MM-DD (Jahr,Monat,Tag) Format.|,
+		lastUpdated => 1178790041
+	},
+
+	'sortEventsBy value sequencenumber' => {
+		message => q|Sortiere nach Folgenummer.|,
+		lastUpdated => 1201601673
+	},
+
+	'editForm icalInterval description' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'hours' => {
+		message => q|Diese Schleife enth&auml;lt alle Termine und Label f&uuml;r die Stunde in der sie auftreten. Stunden, die keine Termine enthalten, werden in die Schleife nicht mit aufgenommen.|,
+		lastUpdated => 1178789826
+	},
+
+	'startYear' => {
+		message => q|Das Jahr in dem diese Woche beginnt.|,
+		lastUpdated => 1178790286
+	},
+
+	'help view list body' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'editForm listViewPageInterval label' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'templateIdPrintWeek description' => {
+		message => q|Dieses Template ist f&uuml;r den Ausdruck des Kalenders in der Wochenansicht.|,
+		lastUpdated => 1178793967
+	},
+
+	'help event variables body' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'endDayName' => {
+		message => q|Der Name des Tages mit dem diese Woche endet.|,
+		lastUpdated => 1178789342
+	},
+
+	'view calendar title' => {
+		message => q|Kalenderansicht Template Variablen|,
+		lastUpdated => 1178794371
+	},
+
+	'pagePrevUrl weekVar' => {
+		message => q|URL zur vorhergehenden Woche im Kalender.|,
+		lastUpdated => 1178790073
+	},
+
+	'editForm templateIdPrintList label' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'keyword' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'help event variables title' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'editForm listViewPageInterval description' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'urlIcal' => {
+		message => q|URL zum iCal Feed des Kalenders, startet in diesem Monat.|,
+		lastUpdated => 1178794142
+	},
+
+	'templateIdPrintMonth description' => {
+		message => q|Dieses Template ist f&uuml;r den Ausdruck des Kalenders in der Monatsansicht.|,
+		lastUpdated => 1178793932
+	},
+
+	'next page' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'helpvar dateTime end' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'editor' => {
+		message => q|Bedingung, die wahr ist, falls der Benutzer in einer Gruppe ist, die Termine im Kalender bearbeiten darf.|,
+		lastUpdated => 1178789288
+	},
+
+	'endDayAbbr' => {
+		message => q|Die Abk&uuml;rzung f&uuml;r den Name des Tages mit dem diese Woche endet.|,
+		lastUpdated => 1178789328
+	},
+
+	'defaultView value month' => {
+		message => q|Monat|,
+		lastUpdated => 1178788696
+	},
+
+	'days' => {
+		message => q|Diese Schleife enth&auml;lt alle Termine und Label f&uuml;r die Tage an denen Sie auftreten. Alle Tage der Woche sind in der Schleife enthalten, egal ob sie Termine enthalten oder nicht.|,
+		lastUpdated => 1178788585
+	},
+
+	'groupIdEventEdit label' => {
+		message => q|Wer darf Termine hinzuf&uuml;gen?|,
+		lastUpdated => 1178789613
+	},
+
+	'endMonthName' => {
+		message => q|Der Name des Monat in dem diese Woche endet.|,
+		lastUpdated => 1178789440
+	},
+
+	'view calendar week title' => {
+		message => q|Kalender Wochenansicht Template Variablen|,
+		lastUpdated => 1178794413
+	},
+
+	'help calendar dateTime title' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'year' => {
+		message => q|Das Jahr in 4 Ziffern.|,
+		lastUpdated => 1178794593
+	},
+
+	'help calendar dateTime body' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'helpvar dateTime dayOfWeek' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'label week' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'locale' => {
+		message => q|de_DE|,
+		lastUpdated => 1178789842
+	},
+
+	'assetName' => {
+		message => q|Kalender|,
+		lastUpdated => 1170409428
+	},
+
+	'page x of x' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'endMonthAbbr' => {
+		message => q|Die Abk&uuml;rzung des Names des Monats in dem diese Woche endet.|,
+		lastUpdated => 1178789428
+	},
+
+	'defaultDate description' => {
+		message => q|Das Standard Datum, das dem Benutzer angezeigt wird.|,
+		lastUpdated => 1178788610
+	},
+
+	'endDayOfMonth' => {
+		message => q|Der Tag des Monats mit dem diese Woche endet; eine Zahl zwischen 1 und 31.|,
+		lastUpdated => 1178789371
+	},
+
+	'urlPrint' => {
+		message => q|URL zur Druckansicht des Kalenders.|,
+		lastUpdated => 1178794172
+	},
+
+	'groupIdEventEdit description' => {
+		message => q|Mitglieder dieser Gruppe k&ouml;nnen Termine zu diesem Kalender hinzuf&uuml;gen.|,
+		lastUpdated => 1178789586
+	},
+
+	'helpvar newYear' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'searchButtonLabel' => {
+		message => q|Suche|,
+		lastUpdated => 1178790130
+	},
+
+	'startDayName' => {
+		message => q|Der Name des Tages mit dem diese Woche beginnt.|,
+		lastUpdated => 1178790174
+	},
+
+	'templateIdDay label' => {
+		message => q|Tagesansicht Template|,
+		lastUpdated => 1178790398
+	},
+
+	'epoch' => {
+		message => q|Das Format des Datums dieses Tages im Epochen Format.|,
+		lastUpdated => 1178789493
+	},
+
+	'dayOfMonth' => {
+		message => q|Welcher Tag des Monats ist dieser Tag; Zahl zwischen 1...31.|,
+		lastUpdated => 1178788496
+	},
+
+	'label day' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'templateIdPrintWeek label' => {
+		message => q|Drucke Woche Template|,
+		lastUpdated => 1178793980
+	},
+
+	'view calendar week body' => {
+		message => q|Dieses Template zeigt alle Termine in einer Woche des Kalenders, sortiert nach dem Tag.|,
+		lastUpdated => 1178794396
+	},
+
+	'urlSearch' => {
+		message => q|URL zur Suchansicht des Kalenders.|,
+		lastUpdated => 1178794194
+	},
+
+	'startMonth' => {
+		message => q|Die Nummer (1-12) des Monats in dem diese Woche beginnt.|,
+		lastUpdated => 1178790222
+	},
+
+	'view calendar day body' => {
+		message => q|Dieses Template zeigt alle Termine an einem einzigen Tag in dem Kalender, sortiert nach der Stunde.|,
+		lastUpdated => 1178794325
+	},
+
+	'startDayOfMonth' => {
+		message => q|Der Tag des Monats in dem diese Woche startet; Zahl zwischen 1 und 31.|,
+		lastUpdated => 1178790233
+	},
+
+	'events dayVar' => {
+		message => q|Eine Schleife, die alle Termine dieser Stunden enth&auml;lt.|,
+		lastUpdated => 1178789513
+	},
+
+	'search results' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'label month' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'current' => {
+		message => q|Aktuell|,
+		lastUpdated => 1206392563
+	},
+
+	'sortEventsBy value time' => {
+		message => q|Sortiere nach Startdatum / Enddatum.|,
+		lastUpdated => 1201601697
+	},
+
+	'defaultView value day' => {
+		message => q|Tag|,
+		lastUpdated => 1178788691
+	},
+
+	'templateIdSearch label' => {
+		message => q|Suchansicht Template|,
+		lastUpdated => 1178794020
+	},
+
+	'dayName' => {
+		message => q|Der Name des aktuellen Tages.|,
+		lastUpdated => 1178788438
+	},
+
+	'helpvar dateTime epoch' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'sortEventsBy label' => {
+		message => q|Anzeigereihenfolge t&auml;gliche Termine|,
+		lastUpdated => 1201601651
+	},
+
+	'templateIdWeek label' => {
+		message => q|Wochenansicht Template|,
+		lastUpdated => 1178794047
+	},
+
+	'next week' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'templateIdMonth description' => {
+		message => q|Dieses Template zeigt den Kalender in der Monatsansicht.|,
+		lastUpdated => 1178793781
+	},
+
+	'monthName' => {
+		message => q|Der Name dieses Monats.|,
+		lastUpdated => 1178789912
+	},
+
+	'helpvar dateTime meridiem' => {
+		message => q||,
+		lastUpdated => 
 	},
 
 	'view calendar body' => {

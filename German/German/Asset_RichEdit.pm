@@ -2,13 +2,13 @@ package WebGUI::i18n::German::Asset_RichEdit;
 
 our $I18N = {
 	'disable rich edit' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Rich Editor deaktivieren?|,
+		lastUpdated => 1211351810
 	},
 
 	'row 2' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Reihe 2|,
+		lastUpdated => 1211351931
 	},
 
 	'styleselect' => {
@@ -32,18 +32,23 @@ our $I18N = {
 	},
 
 	'save' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Speichern / Committen|,
+		lastUpdated => 1211351947
 	},
 
 	'anchor' => {
+		message => q|Anker|,
+		lastUpdated => 1211351542
+	},
+
+	'inline popups' => {
 		message => q||,
 		lastUpdated => 
 	},
 
 	'code' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Code ansehen / editieren|,
+		lastUpdated => 1211351661
 	},
 
 	'formatselect' => {
@@ -67,8 +72,8 @@ our $I18N = {
 	},
 
 	'elements' => {
-		message => q||,
-		lastUpdated => 
+		message => q|G&uuml;ltige Elemente|,
+		lastUpdated => 1211351908
 	},
 
 	'tablecontrols' => {
@@ -82,8 +87,8 @@ our $I18N = {
 	},
 
 	'row 3' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Reihe 3|,
+		lastUpdated => 1211351936
 	},
 
 	'indent' => {
@@ -92,8 +97,8 @@ our $I18N = {
 	},
 
 	'bullist' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Bullet List|,
+		lastUpdated => 1211351597
 	},
 
 	'remove line breaks' => {
@@ -112,13 +117,13 @@ our $I18N = {
 	},
 
 	'directionality' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Textausrichtung|,
+		lastUpdated => 1211351763
 	},
 
 	'css file description' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Gibt die CSS Datei an, die f&uuml;r die Darstellung des Inhalts des Editors benutzt wird. Falls nicht angegeben, so wird der Standard benutzt.|,
+		lastUpdated => 1211351747
 	},
 
 	'insertImage' => {
@@ -137,8 +142,8 @@ our $I18N = {
 	},
 
 	'backcolor' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Hintergrundfarbe|,
+		lastUpdated => 1211351558
 	},
 
 	'justifyleft' => {
@@ -172,13 +177,13 @@ our $I18N = {
 	},
 
 	'bold' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Fett|,
+		lastUpdated => 1211351562
 	},
 
 	'Server Side Spell Checker' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Serverseitige Rechtschreibpr&uuml;fung|,
+		lastUpdated => 1211351450
 	},
 
 	'using rich edit' => {
@@ -187,8 +192,8 @@ our $I18N = {
 	},
 
 	'bottom' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Unten|,
+		lastUpdated => 1211351589
 	},
 
 	'editor height description' => {
@@ -242,8 +247,8 @@ our $I18N = {
 	},
 
 	'assetName' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Rich Editor|,
+		lastUpdated => 1211351548
 	},
 
 	'editor width description' => {
@@ -252,8 +257,8 @@ our $I18N = {
 	},
 
 	'editor width' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Editor Breite|,
+		lastUpdated => 1211351894
 	},
 
 	'no wrap' => {
@@ -262,8 +267,8 @@ our $I18N = {
 	},
 
 	'copy' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Kopieren|,
+		lastUpdated => 1211351674
 	},
 
 	'redo' => {
@@ -281,9 +286,14 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'row 1' => {
+	'media' => {
 		message => q||,
 		lastUpdated => 
+	},
+
+	'row 1' => {
+		message => q|Reihe 1|,
+		lastUpdated => 1211351926
 	},
 
 	'sup' => {
@@ -292,8 +302,8 @@ our $I18N = {
 	},
 
 	'cleanup' => {
-		message => q||,
-		lastUpdated => 
+		message => q|code S&auml;uberung durchf&uuml;hren|,
+		lastUpdated => 1211351649
 	},
 
 	'use br' => {
@@ -302,18 +312,13 @@ our $I18N = {
 	},
 
 	'collateral' => {
-		message => q||,
-		lastUpdated => 
+		message => q|WebGUI Makro|,
+		lastUpdated => 1211351668
 	},
 
 	'undo' => {
 		message => q||,
 		lastUpdated => 
-	},
-
-	'flash' => {
-		message => q|Flash Film|,
-		lastUpdated => 1203498971
 	},
 
 	'source editor height' => {
@@ -326,14 +331,19 @@ our $I18N = {
 		lastUpdated => 
 	},
 
+	'inline popups description' => {
+		message => q||,
+		lastUpdated => 
+	},
+
 	'outdent' => {
 		message => q||,
 		lastUpdated => 
 	},
 
 	'advhr' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Erweiterte horizontale Linie|,
+		lastUpdated => 1211351537
 	},
 
 	'justifycenter' => {
@@ -352,8 +362,8 @@ our $I18N = {
 	},
 
 	'hr' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Horizontale Linie einf&uuml;gen|,
+		lastUpdated => 1211352003
 	},
 
 	'source editor width description' => {
@@ -367,8 +377,8 @@ our $I18N = {
 	},
 
 	'charmap' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Sonderzeichen|,
+		lastUpdated => 1211351626
 	},
 
 	'enable context menu' => {
@@ -397,13 +407,13 @@ our $I18N = {
 	},
 
 	'editor height' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Editor H&ouml;he|,
+		lastUpdated => 1211351878
 	},
 
 	'css file' => {
-		message => q||,
-		lastUpdated => 
+		message => q|CSS Datei|,
+		lastUpdated => 1211351681
 	},
 
 	'remove line breaks description' => {
@@ -417,8 +427,8 @@ our $I18N = {
 	},
 
 	'cut' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Ausschneiden|,
+		lastUpdated => 1211351753
 	},
 
 	'no wrap description' => {
@@ -442,8 +452,8 @@ our $I18N = {
 	},
 
 	'disable rich edit description' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Falls der Rich Editor hier deaktiviert wird, so gilt dies f&uuml;r die gesamte Seite und f&uuml;r alle Benutzer.|,
+		lastUpdated => 1211351869
 	},
 
 	'preformatted' => {
@@ -452,8 +462,8 @@ our $I18N = {
 	},
 
 	'fontselect' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Schriftart|,
+		lastUpdated => 1211351987
 	},
 
 	'link' => {
@@ -462,13 +472,8 @@ our $I18N = {
 	},
 
 	'emotions' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'zoom' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Emoticons|,
+		lastUpdated => 1211351968
 	},
 
 	'toolbar location description' => {
@@ -482,8 +487,8 @@ our $I18N = {
 	},
 
 	'button' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Schaltfl&auml;che|,
+		lastUpdated => 1211351608
 	},
 
 	'fullscreen' => {
@@ -492,8 +497,8 @@ our $I18N = {
 	},
 
 	'directionality description' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Erlaubt die Behandlung von Sprachen, die von rechts nach links bzw. von links nach rechts gelesen werden.|,
+		lastUpdated => 1211351799
 	},
 
 	'insertdate' => {

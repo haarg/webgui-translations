@@ -217,8 +217,8 @@ our $I18N = {
 	},
 
 	'error invalid characters' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Es existieren ung&uuml;ltige Zeichen im Titlel. Bitte benutzen sie nur Buchstaben, Zahlen und Leerzeichen.|,
+		lastUpdated => 1204544492
 	},
 
 	'clicks bought help' => {

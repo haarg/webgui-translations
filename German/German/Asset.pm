@@ -712,6 +712,11 @@ Dies bedeutet in der Regel, dass Sie eine Seite anlegen m&ouml;chtgen, die den s
 		lastUpdated => 1153238197
 	},
 
+	'package extract error' => {
+		message => q|Fehler beim auspacken des Pakets|,
+		lastUpdated => 1206969119
+	},
+
 	'prototype using title' => {
 		message => q|Inhalts-Prototypen, Verwendung|,
 		lastUpdated => 1153263257
