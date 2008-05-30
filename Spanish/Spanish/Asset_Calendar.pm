@@ -452,8 +452,8 @@ our $I18N = {
 	},
 
 	'helpvar dateTime mdy' => {
-		message => q|El mes, dia y a&ntilde;o en formato US: MM/DD/AAAA<span style="font-size: 11pt; line-height: 115%; font-family: 'Calibri','sans-serif'"> </span>|,
-		lastUpdated => 1208215655
+		message => q|El mes, d&iacute;a y a&ntilde;o en formato US: MM/DD/AAAA<span> </span>|,
+		lastUpdated => 1210974539
 	},
 
 	'workflow generateRecurringEvents' => {

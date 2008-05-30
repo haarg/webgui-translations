@@ -68,12 +68,12 @@ our $I18N = {
 
 	'saturday' => {
 		message => q|S&aacute;bado|,
-		lastUpdated => 1186068119
+		lastUpdated => 1211225760
 	},
 
 	'wednesday' => {
 		message => q|Mi&eacute;rcoles|,
-		lastUpdated => 1186068196
+		lastUpdated => 1211224992
 	},
 
 	'thursday' => {

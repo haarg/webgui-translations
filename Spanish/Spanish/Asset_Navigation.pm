@@ -198,7 +198,7 @@ our $I18N = {
 
 	'1096' => {
 		message => q|Plantilla Navegaci&oacute;n|,
-		lastUpdated => 1207345268
+		lastUpdated => 1210792729
 	},
 
 	'page.isRankedFirst' => {

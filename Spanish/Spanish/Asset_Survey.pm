@@ -7,8 +7,8 @@ our $I18N = {
 	},
 
 	'84 description' => {
-		message => q||,
-		lastUpdated => 
+		message => q|El n&uacute;mero de veces que el usuario puede tratar de conseguir la respuesta correcta en cada pregunta.&nbsp; Por defecto es 1.|,
+		lastUpdated => 1212183501
 	},
 
 	'32' => {
@@ -22,8 +22,8 @@ our $I18N = {
 	},
 
 	'90' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Variables Comunes para el template de la encuesta|,
+		lastUpdated => 1212183743
 	},
 
 	'71' => {
@@ -37,8 +37,8 @@ our $I18N = {
 	},
 
 	'85 description' => {
-		message => q||,
-		lastUpdated => 
+		message => q|El n&uacute;mero de preguntas entregadas a cada usuario.|,
+		lastUpdated => 1212183584
 	},
 
 	'export.questions.label' => {
@@ -107,8 +107,8 @@ our $I18N = {
 	},
 
 	'84' => {
-		message => q||,
-		lastUpdated => 
+		message => q|M&aacute;ximo Respuestas por usuario|,
+		lastUpdated => 1212183419
 	},
 
 	'27' => {
@@ -137,8 +137,8 @@ our $I18N = {
 	},
 
 	'744' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Y ahora Qu&eacute;?|,
+		lastUpdated => 1212182916
 	},
 
 	'questions.correct.percent.label' => {
@@ -162,8 +162,8 @@ our $I18N = {
 	},
 
 	'answer.comment' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Un comentario|,
+		lastUpdated => 1212183898
 	},
 
 	'title' => {
@@ -212,8 +212,8 @@ our $I18N = {
 	},
 
 	'78' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Tiempo Total|,
+		lastUpdated => 1211403493
 	},
 
 	'export.composite.url' => {
@@ -237,8 +237,8 @@ our $I18N = {
 	},
 
 	'65' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Exportar S&iacute;ntesis Resumida|,
+		lastUpdated => 1212182792
 	},
 
 	'29' => {
@@ -272,8 +272,8 @@ our $I18N = {
 	},
 
 	'58' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Descripci&oacute;n Estad&iacute;stica|,
+		lastUpdated => 1212182681
 	},
 
 	'responseTemplateId' => {
@@ -287,8 +287,8 @@ our $I18N = {
 	},
 
 	'81' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Respuestas An&oacute;nimas?|,
+		lastUpdated => 1211403569
 	},
 
 	'60' => {
@@ -302,8 +302,8 @@ our $I18N = {
 	},
 
 	'73' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Eliminar todas las respuestas.|,
+		lastUpdated => 1211403267
 	},
 
 	'101' => {
@@ -312,13 +312,13 @@ our $I18N = {
 	},
 
 	'76' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Hora de Inicio|,
+		lastUpdated => 1212182980
 	},
 
 	'86' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Progreso|,
+		lastUpdated => 1212183599
 	},
 
 	'62' => {
@@ -367,8 +367,8 @@ our $I18N = {
 	},
 
 	'82' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Terminar Encuesta|,
+		lastUpdated => 1212183339
 	},
 
 	'questions.total' => {
@@ -412,8 +412,8 @@ our $I18N = {
 	},
 
 	'69' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Eliminar las respuestas de este usuario|,
+		lastUpdated => 1211403082
 	},
 
 	'report response.count.label' => {
@@ -492,8 +492,8 @@ our $I18N = {
 	},
 
 	'79' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Minutos|,
+		lastUpdated => 1211403507
 	},
 
 	'response template' => {
@@ -547,8 +547,8 @@ our $I18N = {
 	},
 
 	'answer' => {
-		message => q||,
-		lastUpdated => 
+		message => q|La respuesta misma.|,
+		lastUpdated => 1212183882
 	},
 
 	'47' => {
@@ -557,8 +557,8 @@ our $I18N = {
 	},
 
 	'8' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Orden de las preguntas|,
+		lastUpdated => 1211403530
 	},
 
 	'section.edit.sectionName' => {
@@ -612,8 +612,8 @@ our $I18N = {
 	},
 
 	'7' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Respuesta Conducida|,
+		lastUpdated => 1212182841
 	},
 
 	'26' => {
@@ -622,8 +622,8 @@ our $I18N = {
 	},
 
 	'80' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Segundos|,
+		lastUpdated => 1211403550
 	},
 
 	'end.date.epoch' => {
@@ -652,8 +652,8 @@ our $I18N = {
 	},
 
 	'72' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Est&aacute; usted seguro que desea borrar las respuestas de este usuario?|,
+		lastUpdated => 1211403241
 	},
 
 	'106 description' => {
@@ -677,8 +677,8 @@ our $I18N = {
 	},
 
 	'74' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Est&aacute; usted seguro que desea eliminar todas las respuestas?|,
+		lastUpdated => 1211403382
 	},
 
 	'question.add.label' => {
@@ -712,8 +712,8 @@ our $I18N = {
 	},
 
 	'83 description' => {
-		message => q||,
-		lastUpdated => 
+		message => q|El n&uacute;mero de preguntas que ser&iacute;an motradas por p&aacute;gina.&nbsp; Por defecto es 1.|,
+		lastUpdated => 1212183394
 	},
 
 	'survey.url' => {
@@ -752,8 +752,8 @@ our $I18N = {
 	},
 
 	'Survey_id' => {
-		message => q||,
-		lastUpdated => 
+		message => q|El &uacute;nico ID de esta encuesta.&nbsp; Este es diferente de el ID del activo.|,
+		lastUpdated => 1212183783
 	},
 
 	'response_loop' => {
@@ -767,8 +767,8 @@ our $I18N = {
 	},
 
 	'answer.isCorrect' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Un valor booleano que indica si la respuesta correcta est&aacute; marcada.|,
+		lastUpdated => 1212184042
 	},
 
 	'overview template description' => {
@@ -797,13 +797,13 @@ our $I18N = {
 	},
 
 	'87' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Clic aqu&iacute; para iniciar una nueva respuesta|,
+		lastUpdated => 1212183654
 	},
 
 	'77' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Hora Final|,
+		lastUpdated => 1212183007
 	},
 
 	'mode.isSurvey' => {
@@ -847,8 +847,8 @@ our $I18N = {
 	},
 
 	'64' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Exportar Respuestas|,
+		lastUpdated => 1212182755
 	},
 
 	'question.isCorrect' => {
@@ -887,13 +887,13 @@ our $I18N = {
 	},
 
 	'8 description' => {
-		message => q||,
-		lastUpdated => 
+		message => q|El orden las preguntas que se les pedir&aacute;. Secuencial muestra las preguntas en el orden que las crea. Muestra aleatoria muestra preguntas al azar. Respuesta impulsada muestra las preguntas en orden basado en las respuestas de los usuarios.|,
+		lastUpdated => 1212183108
 	},
 
 	'answer.label' => {
-		message => q||,
-		lastUpdated => 
+		message => q|La palabra internacionalizada &quot;respuesta&quot;. Si la encuesta no est&aacute; en modo de prueba, esta etiqueta se dejar&aacute;n en blanco.|,
+		lastUpdated => 1212184126
 	},
 
 	'56' => {
@@ -912,8 +912,8 @@ our $I18N = {
 	},
 
 	'66' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Respuestas|,
+		lastUpdated => 1212182805
 	},
 
 	'19' => {
@@ -952,8 +952,8 @@ our $I18N = {
 	},
 
 	'70' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Respuestas Individuales|,
+		lastUpdated => 1211403108
 	},
 
 	'assetName' => {
@@ -982,8 +982,8 @@ our $I18N = {
 	},
 
 	'88' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Template de la Encuesta|,
+		lastUpdated => 1212183673
 	},
 
 	'question.answer.field' => {
@@ -1017,8 +1017,8 @@ our $I18N = {
 	},
 
 	'81 description' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Seleccione o no registrar la encuesta y mostrar informaci&oacute;n que pueda identificar a un usuario y sus respuestas. Si se deja en su valor predeterminado de &quot;No&quot;, la encuesta registra la direcci&oacute;n IP del usuario, as&iacute; como su WebGUI ID de usuario y nombre de usuario registrado, Esta informaci&oacute;n estar&aacute; disponible en los informes de la encuesta. Si se pone a &quot;S&iacute;&quot;, estos tres campos contienen datos codificados que no se puede localizar a un usuario en particular.|,
+		lastUpdated => 1212183299
 	},
 
 	'28' => {
@@ -1037,23 +1037,23 @@ our $I18N = {
 	},
 
 	'83' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Preguntas por p&aacute;gina|,
+		lastUpdated => 1212183354
 	},
 
 	'75' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Editar esta pregunta|,
+		lastUpdated => 1211403440
 	},
 
 	'anonymous' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Una variable condicional que muestra o no la encuesta como esta configurado para ser an&oacute;nima.|,
+		lastUpdated => 1212183853
 	},
 
 	'answer.response.count' => {
-		message => q||,
-		lastUpdated => 
+		message => q|El n&uacute;mero total de respuestas dadas por esta respuesta.|,
+		lastUpdated => 1212184186
 	},
 
 	'report question_loop' => {
@@ -1072,8 +1072,8 @@ our $I18N = {
 	},
 
 	'59' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Ver Descripci&oacute;n Estad&iacute;stica|,
+		lastUpdated => 1212182703
 	},
 
 	'gradebook template description' => {
@@ -1162,8 +1162,8 @@ our $I18N = {
 	},
 
 	'85' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Preguntas por Respuesta|,
+		lastUpdated => 1212183546
 	},
 
 	'start.date.human' => {
@@ -1187,8 +1187,8 @@ our $I18N = {
 	},
 
 	'9' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Encuesta|,
+		lastUpdated => 1212183685
 	},
 
 	'response.isComplete' => {
@@ -1217,8 +1217,8 @@ our $I18N = {
 	},
 
 	'745' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Regresar a la p&aacute;gina|,
+		lastUpdated => 1212182948
 	},
 
 	'34' => {

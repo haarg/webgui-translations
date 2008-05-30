@@ -272,8 +272,8 @@ our $I18N = {
 	},
 
 	'62' => {
-		message => q|guardar|,
-		lastUpdated => 1207724300
+		message => q|enviar|,
+		lastUpdated => 1211377872
 	},
 
 	'311' => {

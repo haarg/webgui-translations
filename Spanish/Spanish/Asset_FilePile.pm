@@ -17,13 +17,13 @@ our $I18N = {
 	},
 
 	'872' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Qui&eacute;n puede ver?|,
+		lastUpdated => 1211226422
 	},
 
 	'108' => {
 		message => q|Due&ntilde;o|,
-		lastUpdated => 1207258997
+		lastUpdated => 1211226374
 	},
 
 	'assetName' => {
