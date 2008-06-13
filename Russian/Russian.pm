@@ -20,6 +20,11 @@ for (my $i = 0; $i < @from; $i++){$value =~ s/$from[$i]/$to[$i]/g;}
 
 
 
+
+
+
+
+
 ##<-- end transliteration -->##
 
  	    $value =~ s/\s+$//;                     #removes trailing whitespace

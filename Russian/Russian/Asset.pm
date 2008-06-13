@@ -1,7 +1,11 @@
 package WebGUI::i18n::Russian::Asset;
 
-
 our $I18N = {
+	'lock help' => {
+		message => q||,
+		lastUpdated => 
+	},
+
 	'make package' => {
 		message => q||,
 		lastUpdated => 
@@ -12,7 +16,7 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'Uploads URL' => {
+	'parent url' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -22,7 +26,32 @@ our $I18N = {
 		lastUpdated => 
 	},
 
+	'Uploads URL' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'make asset exportable' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'newWindow' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'keywords' => {
+		message => q||,
+		lastUpdated => 
+	},
+
 	'871 description' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'add the missing page' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -32,7 +61,17 @@ our $I18N = {
 		lastUpdated => 
 	},
 
+	'isHidden' => {
+		message => q||,
+		lastUpdated => 
+	},
+
 	'export information' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'controls' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -47,6 +86,11 @@ our $I18N = {
 		lastUpdated => 
 	},
 
+	'save and commit' => {
+		message => q||,
+		lastUpdated => 
+	},
+
 	'872' => {
 		message => q||,
 		lastUpdated => 
@@ -57,12 +101,22 @@ our $I18N = {
 		lastUpdated => 
 	},
 
+	'promote help' => {
+		message => q||,
+		lastUpdated => 
+	},
+
 	'properties' => {
 		message => q||,
 		lastUpdated => 
 	},
 
 	'delete' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'title' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -88,6 +142,11 @@ our $I18N = {
 	},
 
 	'extra head tags' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'default value' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -122,7 +181,17 @@ our $I18N = {
 		lastUpdated => 
 	},
 
+	'with children' => {
+		message => q||,
+		lastUpdated => 
+	},
+
 	'purge trash after help' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'rootUrl symlinking default' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -137,7 +206,22 @@ our $I18N = {
 		lastUpdated => 
 	},
 
+	'view help' => {
+		message => q||,
+		lastUpdated => 
+	},
+
 	'deleteConfirm' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'make asset exportable description' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'manage help' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -145,6 +229,11 @@ our $I18N = {
 	'1079' => {
 		message => q|Шаблон версии для печати|,
 		lastUpdated => 1149246187
+	},
+
+	'edit branch url help' => {
+		message => q||,
+		lastUpdated => 
 	},
 
 	'asset id description' => {
@@ -172,7 +261,22 @@ our $I18N = {
 		lastUpdated => 
 	},
 
+	'synopsis' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'extraHeadTags' => {
+		message => q||,
+		lastUpdated => 
+	},
+
 	'duplicate' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'isPrototype' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -207,6 +311,11 @@ our $I18N = {
 		lastUpdated => 
 	},
 
+	'extrasUploads form option symlink' => {
+		message => q||,
+		lastUpdated => 
+	},
+
 	'change url' => {
 		message => q||,
 		lastUpdated => 
@@ -232,12 +341,22 @@ our $I18N = {
 		lastUpdated => 
 	},
 
+	'revisions help' => {
+		message => q||,
+		lastUpdated => 
+	},
+
 	'asset list title' => {
 		message => q||,
 		lastUpdated => 
 	},
 
 	'type' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'with descendants' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -262,12 +381,32 @@ our $I18N = {
 		lastUpdated => 
 	},
 
+	'edit branch help' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'assetSize' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'status' => {
+		message => q||,
+		lastUpdated => 
+	},
+
 	'954' => {
 		message => q||,
 		lastUpdated => 
 	},
 
 	'purge revision after' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'asset template asset var title' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -287,7 +426,27 @@ our $I18N = {
 		lastUpdated => 
 	},
 
+	'isPackage' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'rootUrl form option symlinkDefault' => {
+		message => q||,
+		lastUpdated => 
+	},
+
 	'Metadata Description description' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'could not rmdir' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'default value description' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -307,12 +466,17 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'confirm change' => {
+	'this asset only' => {
 		message => q||,
 		lastUpdated => 
 	},
 
 	'import' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'confirm change' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -337,12 +501,12 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'43' => {
+	'940' => {
 		message => q||,
 		lastUpdated => 
 	},
 
-	'940' => {
+	'43' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -362,12 +526,42 @@ our $I18N = {
 		lastUpdated => 
 	},
 
+	'extrasUploads form option none' => {
+		message => q||,
+		lastUpdated => 
+	},
+
 	'99' => {
 		message => q||,
 		lastUpdated => 
 	},
 
 	'Page Export Status' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'could not unlink' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'url' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'Class Icon' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'groupIdEdit' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'Class Icon help' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -382,12 +576,22 @@ our $I18N = {
 		lastUpdated => 
 	},
 
+	'current url' => {
+		message => q||,
+		lastUpdated => 
+	},
+
 	'108' => {
 		message => q|Владелец|,
 		lastUpdated => 1149246200
 	},
 
 	'could not create path' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'could not create' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -422,6 +626,11 @@ our $I18N = {
 		lastUpdated => 
 	},
 
+	'none' => {
+		message => q||,
+		lastUpdated => 
+	},
+
 	'make package description' => {
 		message => q||,
 		lastUpdated => 
@@ -443,6 +652,11 @@ our $I18N = {
 	},
 
 	'make prototype description' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'rootUrl form option none' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -472,9 +686,14 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'174' => {
+	'rootUrl form label' => {
 		message => q||,
 		lastUpdated => 
+	},
+
+	'174' => {
+		message => q|Отобразить заголовок?|,
+		lastUpdated => 1210106498
 	},
 
 	'940 description' => {
@@ -492,7 +711,17 @@ our $I18N = {
 		lastUpdated => 
 	},
 
+	'package extract error' => {
+		message => q||,
+		lastUpdated => 
+	},
+
 	'prototype using title' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'encryptPage' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -502,12 +731,17 @@ our $I18N = {
 		lastUpdated => 
 	},
 
+	'encrypt page' => {
+		message => q||,
+		lastUpdated => 
+	},
+
 	'revision date' => {
 		message => q||,
 		lastUpdated => 
 	},
 
-	'encrypt page' => {
+	'specified base' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -517,12 +751,17 @@ our $I18N = {
 		lastUpdated => 
 	},
 
+	'949' => {
+		message => q||,
+		lastUpdated => 
+	},
+
 	'asset template title' => {
 		message => q||,
 		lastUpdated => 
 	},
 
-	'949' => {
+	'demote help' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -532,12 +771,22 @@ our $I18N = {
 		lastUpdated => 1149246052
 	},
 
+	'extrasUploads form label' => {
+		message => q||,
+		lastUpdated => 
+	},
+
 	'done' => {
 		message => q||,
 		lastUpdated => 
 	},
 
 	'lock' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'rootUrl default not present' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -552,7 +801,22 @@ our $I18N = {
 		lastUpdated => 
 	},
 
+	'missing page query' => {
+		message => q||,
+		lastUpdated => 
+	},
+
 	'package corrupt' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'ownerUserId' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'could not symlink' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -597,7 +861,27 @@ our $I18N = {
 		lastUpdated => 
 	},
 
+	'groupIdView' => {
+		message => q||,
+		lastUpdated => 
+	},
+
 	'Depth description' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'extrasUploads symlinking' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'extrasUploads form hoverHelp' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'menuTitle' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -627,14 +911,19 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'1073' => {
-		message => q|Шаблон стиля (для страницы)|,
-		lastUpdated => 1149246176
+	'rootUrl form hoverHelp' => {
+		message => q||,
+		lastUpdated => 
 	},
 
 	'105' => {
 		message => q|Визуализация|,
 		lastUpdated => 1149246149
+	},
+
+	'1073' => {
+		message => q|Шаблон стиля (для страницы)|,
+		lastUpdated => 1149246176
 	},
 
 	'951' => {
@@ -663,6 +952,11 @@ our $I18N = {
 	},
 
 	'packages' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'change url help' => {
 		message => q||,
 		lastUpdated => 
 	},
