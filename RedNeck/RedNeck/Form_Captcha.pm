@@ -7,8 +7,8 @@ our $I18N = {
 	},
 
 	'verify your humanity' => {
-		message => q||,
-		lastUpdated => 1149218076
+		message => q|Do ya own a gun?|,
+		lastUpdated => 1213842033
 	},
 
 };
