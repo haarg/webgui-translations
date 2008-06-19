@@ -506,6 +506,11 @@ our $I18N = {
 		lastUpdated => 1149858137
 	},
 
+	'error captcha' => {
+		message => q|Captcha niet correct ingevoerd. Probeer het alstublieft opnieuw.|,
+		lastUpdated => 1213704233
+	},
+
 	'80' => {
 		message => q|Email sjabloon|,
 		lastUpdated => 1146837570
@@ -544,6 +549,16 @@ our $I18N = {
 	'tab.field.isDisplayed' => {
 		message => q|Bepaalt of het veld wordt weergegeven.|,
 		lastUpdated => 1207834495
+	},
+
+	'store data' => {
+		message => q|Sla de data op|,
+		lastUpdated => 1213704993
+	},
+
+	'editForm useCaptcha label' => {
+		message => q|Captcha gebruiken voor bezoekers?|,
+		lastUpdated => 1213705295
 	},
 
 	'delete.url' => {
@@ -586,6 +601,11 @@ our $I18N = {
 		lastUpdated => 1149846773
 	},
 
+	'editForm useCaptcha description' => {
+		message => q|Als dit op ja staat vereist het DataForm een CAPTCHA voor bezoekers. Geregistreerde gebruikers zullen deze niet zien.|,
+		lastUpdated => 1213704195
+	},
+
 	'10' => {
 		message => q|Van|,
 		lastUpdated => 1146835712
@@ -594,6 +614,11 @@ our $I18N = {
 	'tab.field.label' => {
 		message => q|De standaard tekst voor dit veld. |,
 		lastUpdated => 1149857183
+	},
+
+	'store data description' => {
+		message => q|Dit bepaalt of de ingevoerde data wel of niet opgeslagen moet worden.|,
+		lastUpdated => 1213705038
 	},
 
 	'field_loop' => {
@@ -649,6 +674,11 @@ our $I18N = {
 	'field.value' => {
 		message => q|De waarden van het veld. Als er nog niks is ingevuld dan wordt de standaardwaarde ingevuld.|,
 		lastUpdated => 1149848170
+	},
+
+	'helpvar useCaptcha' => {
+		message => q|Deze variabele is waas als de Captcha getoond moet worden.|,
+		lastUpdated => 1213704983
 	},
 
 	'userId' => {
@@ -831,6 +861,11 @@ our $I18N = {
 		lastUpdated => 1149856165
 	},
 
+	'template captcha label' => {
+		message => q|Anti robotcode|,
+		lastUpdated => 1213705269
+	},
+
 	'tab.field_loop' => {
 		message => q|Een loop met alle velden voor dit tabblad. Zie de onderliggende field_loop omschrijving om de beschikbare variabelen te bekijken.|,
 		lastUpdated => 1149858038
@@ -934,6 +969,11 @@ our $I18N = {
 	'record_data_type' => {
 		message => q|Het data type wat bij dit veld hoort.|,
 		lastUpdated => 1199098836
+	},
+
+	'helpvar form.captcha' => {
+		message => q|Het invoer veld en de afbeelding voor de Captcha|,
+		lastUpdated => 1213704958
 	},
 
 	'tab.field.isMailField' => {

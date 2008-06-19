@@ -91,6 +91,11 @@ our $I18N = {
 		lastUpdated => 1152606623
 	},
 
+	'form control none label' => {
+		message => q|Geen|,
+		lastUpdated => 1213625553
+	},
+
 	'mode help' => {
 		message => q|De staat (mode) van een workflow bepaalt de volgorde, wanneer en hoe een workflow wordt gedraaid. 
 
@@ -112,11 +117,6 @@ our $I18N = {
 	'edit priority setting error' => {
 		message => q|Er is een fout opgetreden bij het wijzigen van de prioriteit.|,
 		lastUpdated => 1190022434
-	},
-
-	'realtime' => {
-		message => q|Realtime|,
-		lastUpdated => 1190021983
 	},
 
 	'disabled' => {

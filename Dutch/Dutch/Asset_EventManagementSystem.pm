@@ -1,11 +1,6 @@
 package WebGUI::i18n::Dutch::Asset_EventManagementSystem;
 
 our $I18N = {
-	'add/edit event metadata field' => {
-		message => q|Evenementen metadata veld toevoegen/bewerken|,
-		lastUpdated => 1148289264
-	},
-
 	'you' => {
 		message => q|U|,
 		lastUpdated => 1148307315
@@ -16,9 +11,19 @@ our $I18N = {
 		lastUpdated => 1148289701
 	},
 
+	'buy badge' => {
+		message => q||,
+		lastUpdated => 
+	},
+
 	'seatsRemaining' => {
 		message => q|<p>Het aantal plaatsen dat nog beschikbaar is. </p>|,
 		lastUpdated => 1149860043
+	},
+
+	'print' => {
+		message => q|Afdrukken|,
+		lastUpdated => 1213703500
 	},
 
 	'confirm delete prerequisite set' => {
@@ -26,19 +31,54 @@ our $I18N = {
 		lastUpdated => 1148295702
 	},
 
+	'buy' => {
+		message => q|Kopen|,
+		lastUpdated => 1213702851
+	},
+
+	'view tickets' => {
+		message => q|Bekijk kaartjes|,
+		lastUpdated => 1213703530
+	},
+
+	'time zone' => {
+		message => q|Tijdzone|,
+		lastUpdated => 1213703540
+	},
+
+	'add a token' => {
+		message => q||,
+		lastUpdated => 
+	},
+
 	'manageToolbar' => {
 		message => q|<div class="&quot;&quot;helpIndent&quot;&quot;"><p>Een code voor een taakbalk met iconen voor verwijderen, bewerken en herrangschikken van evenementen. </p></div>|,
 		lastUpdated => 1208521875
 	},
 
-	'display template' => {
-		message => q|Laat sjabloon zien|,
-		lastUpdated => 1148298340
+	'label help' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'default badge instructions' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'event start date' => {
+		message => q||,
+		lastUpdated => 
 	},
 
 	'datePurchasedHuman' => {
 		message => q|<div class="&quot;helpIndent&quot;"><p>De datum en tijd waarop deze aankoop is begonnen in een door mensen te lezen formaat.</p>  </div>|,
 		lastUpdated => 1149860995
+	},
+
+	'mark as checked in' => {
+		message => q||,
+		lastUpdated => 
 	},
 
 	'add/edit event required events description' => {
@@ -76,14 +116,14 @@ our $I18N = {
 		lastUpdated => 1148287684
 	},
 
-	'you do not have any events to display' => {
-		message => q|Er is geen enkel evenement dat getoond kan worden. |,
-		lastUpdated => 1148307285
-	},
-
 	'canManageEvents' => {
 		message => q|<p>Een teken dat de huidige gebruiker in de groep zit die evenementen mag beheren. </p>|,
 		lastUpdated => 1149861897
+	},
+
+	'ribbons' => {
+		message => q||,
+		lastUpdated => 
 	},
 
 	'all' => {
@@ -104,6 +144,11 @@ our $I18N = {
 	'add discount pass' => {
 		message => q|Voeg kortingspas toe.|,
 		lastUpdated => 1148287618
+	},
+
+	'badge instructions' => {
+		message => q||,
+		lastUpdated => 
 	},
 
 	'canReturn' => {
@@ -131,9 +176,19 @@ our $I18N = {
 		lastUpdated => 1166194153
 	},
 
+	'meta fields' => {
+		message => q||,
+		lastUpdated => 
+	},
+
 	'image' => {
 		message => q|<p>De afbeelding die gekozen is bij dit evenement. </p>|,
 		lastUpdated => 1149859834
+	},
+
+	'tickets' => {
+		message => q|Kaartjes|,
+		lastUpdated => 1213703516
 	},
 
 	'prereq set name field description' => {
@@ -146,9 +201,29 @@ our $I18N = {
 		lastUpdated => 1190027361
 	},
 
-	'add/edit event maximum attendees' => {
-		message => q|Maximum aantal deelnemers|,
-		lastUpdated => 1148289076
+	'badge number' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'ems token' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'remove' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'registration staff group' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'default ticket instructions' => {
+		message => q||,
+		lastUpdated => 
 	},
 
 	'refresh events list' => {
@@ -169,6 +244,26 @@ our $I18N = {
 	'import hoverhelp first line' => {
 		message => q|Als de eerste regel van het te importeren bestand veldnamen bevat in plaats van records klik hier 'ja' anders 'nee'.|,
 		lastUpdated => 1190026489
+	},
+
+	'ribbon instructions' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'add a ticket' => {
+		message => q|Voeg een kaartje toe|,
+		lastUpdated => 1213702793
+	},
+
+	'user' => {
+		message => q|Gebruiker|,
+		lastUpdated => 1213703549
+	},
+
+	'print badge template' => {
+		message => q||,
+		lastUpdated => 
 	},
 
 	'address' => {
@@ -201,24 +296,24 @@ our $I18N = {
 		lastUpdated => 1148287596
 	},
 
+	'ticket instructions' => {
+		message => q||,
+		lastUpdated => 
+	},
+
 	'sku' => {
 		message => q|SKU|,
 		lastUpdated => 1148307639
 	},
 
-	'status' => {
-		message => q|Status|,
-		lastUpdated => 1148307614
+	'badge instructions help' => {
+		message => q||,
+		lastUpdated => 
 	},
 
 	'defines discount pass' => {
 		message => q|<p><strong>Dit evenement heeft een bijbehorende kortingspas</strong>.</p><p>Wanneer de gebruiker dit evenement toevoegt aan zijn/haar winkelwagen, wordt (bij uitschrijven) de bijbehorende korting van kracht op elk evenement dat deel uit maakt van deze kortingspas.&nbsp;</p>|,
 		lastUpdated => 1208521338
-	},
-
-	'paginate after description' => {
-		message => q|Het aantal evenementen dat per pagina getoond wordt.|,
-		lastUpdated => 1148893784
 	},
 
 	'add/edit event title' => {
@@ -229,6 +324,11 @@ our $I18N = {
 	'name.label' => {
 		message => q|<p>Het label &quot;Evenement&quot;. </p>|,
 		lastUpdated => 1149862027
+	},
+
+	'event number' => {
+		message => q||,
+		lastUpdated => 
 	},
 
 	'templateId' => {
@@ -246,9 +346,9 @@ our $I18N = {
 		lastUpdated => 1148307452
 	},
 
-	'add/edit event template description' => {
-		message => q|Dit bepaalt de layout en uiterlijk van een enkel evenement in het evenementen beheersysteem.|,
-		lastUpdated => 1166194068
+	'related badge groups badge help' => {
+		message => q||,
+		lastUpdated => 
 	},
 
 	'create a badge for someone else' => {
@@ -261,14 +361,19 @@ our $I18N = {
 		lastUpdated => 1148289041
 	},
 
-	'add/edit event return to manage events' => {
-		message => q|Keer terug naar evenementenbeheer.|,
-		lastUpdated => 1148289822
+	'import' => {
+		message => q|Importeren|,
+		lastUpdated => 1213703155
 	},
 
-	'global prerequisite' => {
-		message => q|Algemene vereisten|,
-		lastUpdated => 1148303651
+	'percentage discount help' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'populate from address book' => {
+		message => q||,
+		lastUpdated => 
 	},
 
 	'yes' => {
@@ -306,11 +411,6 @@ our $I18N = {
 		lastUpdated => 1148296656
 	},
 
-	'add/edit event error' => {
-		message => q|FOUT|,
-		lastUpdated => 1148303621
-	},
-
 	'edit discount pass' => {
 		message => q|Bewerk kortingspas|,
 		lastUpdated => 1148298400
@@ -331,6 +431,16 @@ our $I18N = {
 		lastUpdated => 1208521764
 	},
 
+	'hours' => {
+		message => q|Uren|,
+		lastUpdated => 1213703163
+	},
+
+	'duration help' => {
+		message => q|Hoe lang duurt dit evenement?|,
+		lastUpdated => 1213702883
+	},
+
 	'no sets to display' => {
 		message => q|Er is geen enkele set van vereisten die getoond kan worden. |,
 		lastUpdated => 1148307174
@@ -341,9 +451,9 @@ our $I18N = {
 		lastUpdated => 1148299333
 	},
 
-	'group to add events description' => {
-		message => q|De leden van de geselecteerde groep hebben de mogelijkheid evenementen aan een evenementen beheersysteem toe te voegen. De evenementen die toegevoegd worden zijn pas beschikbaar voor verkoop op het moment dat iemand uit de groep die evenementen goed kan keuren, het heeft goedgekeurd.|,
-		lastUpdated => 1208521520
+	'description' => {
+		message => q|<p>De omschrijving van dit evenement. </p>|,
+		lastUpdated => 1149859800
 	},
 
 	'event template help title' => {
@@ -351,24 +461,24 @@ our $I18N = {
 		lastUpdated => 1148302925
 	},
 
-	'description' => {
-		message => q|<p>De omschrijving van dit evenement. </p>|,
-		lastUpdated => 1149859800
-	},
-
 	'new price' => {
 		message => q|Nieuwe prijs|,
 		lastUpdated => 1148307058
 	},
 
-	'add/edit useSalesTax description' => {
-		message => q|Moet er BTW aan dit evenement worden toegevoegd?|,
-		lastUpdated => 1166194105
+	'main template' => {
+		message => q||,
+		lastUpdated => 
 	},
 
 	'manageEvents.url' => {
 		message => q|<p>Een URL dat de gebruiker meeneemt naar het scherm waar evenementen beheerd kunnen worden (bijv.: toegevoegd, goedgekeurd, verwijderd). </p>|,
 		lastUpdated => 1149861698
+	},
+
+	'add/edit useSalesTax description' => {
+		message => q|Moet er BTW aan dit evenement worden toegevoegd?|,
+		lastUpdated => 1166194105
 	},
 
 	'endDate' => {
@@ -381,9 +491,24 @@ our $I18N = {
 		lastUpdated => 1149860551
 	},
 
+	'manage' => {
+		message => q|Beheren|,
+		lastUpdated => 1213703477
+	},
+
+	'add a badge' => {
+		message => q|Voeg een naamplaatje toe|,
+		lastUpdated => 1213713987
+	},
+
 	'canReturnTransaction' => {
 		message => q|Een functie die klopt als elke aankoop teruggestuurd kan worden.|,
 		lastUpdated => 1149862610
+	},
+
+	'print ticket template help' => {
+		message => q||,
+		lastUpdated => 
 	},
 
 	'import field is duplicate key title' => {
@@ -391,9 +516,14 @@ our $I18N = {
 		lastUpdated => 1190027196
 	},
 
-	'add/edit event template' => {
-		message => q|Evenement sjabloon|,
-		lastUpdated => 1148289885
+	'badge group name' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'seats available help' => {
+		message => q||,
+		lastUpdated => 
 	},
 
 	'error' => {
@@ -401,14 +531,19 @@ our $I18N = {
 		lastUpdated => 1148299352
 	},
 
+	'time zone help' => {
+		message => q||,
+		lastUpdated => 
+	},
+
 	'add/edit event operator description' => {
 		message => q|Wanneer vereiste evenementen aan dit evenement gekoppeld zijn, kan er gespecificeerd worden of alle evenementen vereist zijn (en) of dat een willekeurig evenemenet vereist is (of).|,
 		lastUpdated => 1208520992
 	},
 
-	'group to approve events description' => {
-		message => q|Leden uit de geselecteerde groep kunnen een wachtend evenement goedkeuren, zodat het beschikbaar wordt voor de verkoop.|,
-		lastUpdated => 1208521550
+	'organization' => {
+		message => q||,
+		lastUpdated => 
 	},
 
 	'template help title' => {
@@ -424,11 +559,6 @@ our $I18N = {
 	'sku template description' => {
 		message => q|Dit veld bepaalt hoe de SKU voor elke product categorie wordt samengesteld. De syntax is hetzelfde als die van normale sjablonen.|,
 		lastUpdated => 1208522249
-	},
-
-	'global metadata description' => {
-		message => q|<p>Hier kan gekozen worden of alle andere metadata velden van evenementen beheersystemen gebruikt worden of niet bij het toekennen van metadata aan evenementen en bij het zoeken naar evenementen.</p><p>&nbsp;</p><p>De lijst met metadata velden op het beheer scherm bij deze asset zal nog steeds beperkt zijn tot degene die bij dit beheersysteem aangemaakt zijn.&nbsp;</p>|,
-		lastUpdated => 1207825600
 	},
 
 	'ems.wobject.dir' => {
@@ -456,9 +586,9 @@ our $I18N = {
 		lastUpdated => 1148307237
 	},
 
-	'add/edit event add another prerequisite' => {
-		message => q|Voeg nog een vereiste toe.|,
-		lastUpdated => 1148287923
+	'switch to badge for' => {
+		message => q||,
+		lastUpdated => 
 	},
 
 	'import ok' => {
@@ -469,11 +599,6 @@ our $I18N = {
 	'add/edit event operator' => {
 		message => q|Bestuurder|,
 		lastUpdated => 1148289526
-	},
-
-	'global metadata' => {
-		message => q|Gebruik algemene metadata bij dit evenement.|,
-		lastUpdated => 1148303330
 	},
 
 	'Pagination variables' => {
@@ -491,14 +616,14 @@ our $I18N = {
 		lastUpdated => 1148307264
 	},
 
+	'event number help' => {
+		message => q||,
+		lastUpdated => 
+	},
+
 	'appUrl' => {
 		message => q|Een URL terug naar het hoofdscherm van de asset. |,
 		lastUpdated => 1149862411
-	},
-
-	'add/edit event maximum attendees description' => {
-		message => q|Het aantal mensen dat mee kan doen aan het evenement, gebaseerd op de grootte van de kamer, aantal stoelen, haalbaarheid van de organisatie en andere vereisten.|,
-		lastUpdated => 1148289233
 	},
 
 	'add/edit event description description' => {
@@ -531,14 +656,14 @@ our $I18N = {
 		lastUpdated => 1148307566
 	},
 
+	'add to badge' => {
+		message => q|Voeg toe aan naamplaatje|,
+		lastUpdated => 1213714236
+	},
+
 	'add/edit event image' => {
 		message => q|Afbeelding bij evenement|,
 		lastUpdated => 1148288960
-	},
-
-	'add/edit event end date' => {
-		message => q|Einddatum van het evenement|,
-		lastUpdated => 1148288465
 	},
 
 	'associated user description' => {
@@ -551,9 +676,9 @@ our $I18N = {
 		lastUpdated => 1148893757
 	},
 
-	'event' => {
-		message => q|Evenement|,
-		lastUpdated => 1148299367
+	'duration' => {
+		message => q|Duur|,
+		lastUpdated => 1213702869
 	},
 
 	'allowed sub events' => {
@@ -576,11 +701,6 @@ our $I18N = {
 		lastUpdated => 1148288371
 	},
 
-	'view purchase template description' => {
-		message => q|Dit bepaalt de layout en het uiterlijk van het bekijk aankoop scherm in het evenementen beheersysteem.|,
-		lastUpdated => 1166194694
-	},
-
 	'User sub events large resultset' => {
 		message => q|De volgende sub-evenementen kunnen ook gekozen worden. Gezien het grote aantal van sub-evenementen worden deze nu niet getoond. Specificeer uw keuze met behulp van de standaard of geavanceerde filter opties hierboven.|,
 		lastUpdated => 1148287502
@@ -589,6 +709,11 @@ our $I18N = {
 	'search.formFooter' => {
 		message => q|<p>Code voor voetnoot voor beide typen zoekopdrachten. </p>|,
 		lastUpdated => 1149861308
+	},
+
+	'print ticket template' => {
+		message => q||,
+		lastUpdated => 
 	},
 
 	'error no colon' => {
@@ -601,9 +726,19 @@ our $I18N = {
 		lastUpdated => 1149862092
 	},
 
+	'expire ems cart items' => {
+		message => q||,
+		lastUpdated => 
+	},
+
 	'continue' => {
 		message => q|Ga verder|,
 		lastUpdated => 1148295929
+	},
+
+	'add a badge group' => {
+		message => q|Voeg een naamplaatjes groep toe|,
+		lastUpdated => 1213714007
 	},
 
 	'price' => {
@@ -619,6 +754,11 @@ our $I18N = {
 	'startDate' => {
 		message => q|<div class="&quot;helpIndent&quot;"><p>De datum en tijd waarop dit evenement begint, in epoch formaat. </p></div>|,
 		lastUpdated => 1149861493
+	},
+
+	'registration staff group help' => {
+		message => q||,
+		lastUpdated => 
 	},
 
 	'events required by this prerequisite set' => {
@@ -641,11 +781,6 @@ our $I18N = {
 		lastUpdated => 1150098067
 	},
 
-	'global prerequisite description' => {
-		message => q|Wanneer dit op ja staat, kunnen evenementen die bij een ander evenementen beheersysteem horen als vereiste bij een evenement uit dit systeem. Als het echter op nee staat kunnen alleen evenementen uit deze toepassing van deze asset gebruikt worden als vereisten. |,
-		lastUpdated => 1166194505
-	},
-
 	'last name' => {
 		message => q|Achternaam|,
 		lastUpdated => 1148304378
@@ -666,9 +801,9 @@ our $I18N = {
 		lastUpdated => 1148291896
 	},
 
-	'manage purchases template' => {
-		message => q|Beheer verkoop sjabloon|,
-		lastUpdated => 1148304845
+	'default ribbon instructions' => {
+		message => q||,
+		lastUpdated => 
 	},
 
 	'associated user' => {
@@ -691,9 +826,29 @@ our $I18N = {
 		lastUpdated => 1166194084
 	},
 
+	'mark as not checked in' => {
+		message => q||,
+		lastUpdated => 
+	},
+
 	'import field is duplicate key description' => {
 		message => q|Om goed met dubbelingen om te gaan, moet het systeem in staat zijn dubbelingen te herkennen. Door deze checkboxen aan te vinken, weet het systeem welk veld moet worden bekeken om te zien of het een dubbeling betreft. |,
 		lastUpdated => 1208521638
+	},
+
+	'add an event meta field' => {
+		message => q|Voeg een metaveld toe aan een evenement|,
+		lastUpdated => 1213702827
+	},
+
+	'item expiration time' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'quantity available' => {
+		message => q||,
+		lastUpdated => 
 	},
 
 	'ends.label' => {
@@ -711,19 +866,24 @@ our $I18N = {
 		lastUpdated => 1148306547
 	},
 
+	'token instructions' => {
+		message => q||,
+		lastUpdated => 
+	},
+
 	'null field error' => {
 		message => q|Het %s veld mag niet leeg zijn.|,
 		lastUpdated => 1148307195
 	},
 
-	'checkout.label' => {
-		message => q|Een label dat bij checkout.url hoort, dit is het woord checkout.|,
-		lastUpdated => 1149862981
-	},
-
 	'operator type' => {
 		message => q|Type operator|,
 		lastUpdated => 1148307215
+	},
+
+	'checkout.label' => {
+		message => q|Een label dat bij checkout.url hoort, dit is het woord checkout.|,
+		lastUpdated => 1149862981
 	},
 
 	'add/edit approve event' => {
@@ -734,11 +894,6 @@ our $I18N = {
 	'discount pass type' => {
 		message => q|Type kortingspas|,
 		lastUpdated => 1148297045
-	},
-
-	'pending' => {
-		message => q|Wachtend|,
-		lastUpdated => 1148307578
 	},
 
 	'view purchase template help title' => {
@@ -781,19 +936,14 @@ our $I18N = {
 		lastUpdated => 1208522173
 	},
 
-	'and' => {
-		message => q|En|,
-		lastUpdated => 1148295195
+	'delete' => {
+		message => q|Verwijderen|,
+		lastUpdated => 1213702859
 	},
 
 	'purchase.wantToSearch.url' => {
 		message => q|<p>Het URL waar gezocht wordt naar evenementen die vereist zijn voor dit evenement. Deze variabele zal leeg zijn als het evenement is volgeboekt.</p>|,
 		lastUpdated => 1149860786
-	},
-
-	'add event' => {
-		message => q|Voeg evenement toe.|,
-		lastUpdated => 1148287635
 	},
 
 	'import file contains field description' => {
@@ -812,8 +962,8 @@ our $I18N = {
 	},
 
 	'confirm delete event metadata' => {
-		message => q|Weet u zeker dat dit metadata veld verwijderd moet worden? De metadata waarden van ditveld worden verwijderd uit alle evenementen, inclusief de evenementen in andere evenementen beheersystem wobjects, die algemene metadata gebruiken.|,
-		lastUpdated => 1148295573
+		message => q|Weet u zeker dat dit metadata veld verwijderd moet worden? De metadata waarden van dit veld worden verwijderd uit alle evenementen.|,
+		lastUpdated => 1213710657
 	},
 
 	'amount off' => {
@@ -821,9 +971,14 @@ our $I18N = {
 		lastUpdated => 1148291413
 	},
 
-	'checkout template description' => {
-		message => q|Hiermee wordt de layout en het uiterlijk van het uitschrijf formulier in het evenementen beheersysteem bepaald.|,
-		lastUpdated => 1166194392
+	'badge group name help' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'location help' => {
+		message => q||,
+		lastUpdated => 
 	},
 
 	'tmplLoop errorLoop' => {
@@ -866,11 +1021,6 @@ our $I18N = {
 		lastUpdated => 1148309951
 	},
 
-	'add/edit event what next' => {
-		message => q|Hoe wilt u verdergaan?|,
-		lastUpdated => 1148290086
-	},
-
 	'checkout' => {
 		message => q|Uitschrijven|,
 		lastUpdated => 1148295345
@@ -886,6 +1036,11 @@ our $I18N = {
 		lastUpdated => 1149860961
 	},
 
+	'notes' => {
+		message => q|Aantekeningen|,
+		lastUpdated => 1213703487
+	},
+
 	'tmplVar event' => {
 		message => q|De informatie, die met haar eigen sjabloon bewerkt is, over een enkel evenement.|,
 		lastUpdated => 1150097413
@@ -894,11 +1049,6 @@ our $I18N = {
 	'startDate.human' => {
 		message => q|<p>De begindatum-en tijd van dit evenement, in een door mensen te lezen formaat.</p>|,
 		lastUpdated => 1149860425
-	},
-
-	'group to approve events' => {
-		message => q|Groep die evenementen goed mag keuren|,
-		lastUpdated => 1148304310
 	},
 
 	'Admin manage sub events large resultset' => {
@@ -926,6 +1076,11 @@ our $I18N = {
 		lastUpdated => 1148304795
 	},
 
+	'ems badge' => {
+		message => q||,
+		lastUpdated => 
+	},
+
 	'manage discount passes' => {
 		message => q|Beheer kortingspassen|,
 		lastUpdated => 1148304707
@@ -946,11 +1101,6 @@ our $I18N = {
 		lastUpdated => 1189348581
 	},
 
-	'checkout template' => {
-		message => q|Uitschrijf sjabloon|,
-		lastUpdated => 1148295364
-	},
-
 	'weight' => {
 		message => q|Gewicht|,
 		lastUpdated => 1148307369
@@ -959,6 +1109,11 @@ our $I18N = {
 	'edit prerequisite set' => {
 		message => q|Bewerk set van vereisten|,
 		lastUpdated => 1148298505
+	},
+
+	'export' => {
+		message => q|Exporteren|,
+		lastUpdated => 1213703095
 	},
 
 	'add to cart' => {
@@ -971,19 +1126,39 @@ our $I18N = {
 		lastUpdated => 1190026173
 	},
 
+	'refund' => {
+		message => q||,
+		lastUpdated => 
+	},
+
 	'sold out' => {
 		message => q|Uitverkocht|,
 		lastUpdated => 1148307782
 	},
 
-	'add/edit event what next description' => {
-		message => q|Na het invullen van dit formulier kan er nog een vereist evenement toegevoegd worden of de instellingen kunnen opgeslagen worden en kan er terug gegaan worden naar het evenementenbeheer. |,
-		lastUpdated => 1148290187
+	'related ribbons help' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'ems ticket' => {
+		message => q||,
+		lastUpdated => 
 	},
 
 	'import events' => {
 		message => q|Importeer events|,
 		lastUpdated => 1190027313
+	},
+
+	'view badges' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'ems ribbon' => {
+		message => q||,
+		lastUpdated => 
 	},
 
 	'check required fields' => {
@@ -996,14 +1171,19 @@ our $I18N = {
 		lastUpdated => 1148303195
 	},
 
+	'sku template' => {
+		message => q|SKU sjabloon|,
+		lastUpdated => 1148307849
+	},
+
 	'numberRegistered' => {
 		message => q|<p>Het aantal mensen dat momenteel geregistreerd is voor dit evenement. </p>|,
 		lastUpdated => 1149859974
 	},
 
-	'sku template' => {
-		message => q|SKU sjabloon|,
-		lastUpdated => 1148307849
+	'checked in' => {
+		message => q||,
+		lastUpdated => 
 	},
 
 	'option to narrow' => {
@@ -1031,9 +1211,9 @@ our $I18N = {
 		lastUpdated => 1166194601
 	},
 
-	'approve event' => {
-		message => q|Keur evenement goed|,
-		lastUpdated => 1148291578
+	'is required' => {
+		message => q|%s is vereist.|,
+		lastUpdated => 1213703142
 	},
 
 	'checkout template help title' => {
@@ -1041,9 +1221,19 @@ our $I18N = {
 		lastUpdated => 1189348422
 	},
 
+	'price help' => {
+		message => q||,
+		lastUpdated => 
+	},
+
 	'which badge' => {
 		message => q|Welke badge|,
 		lastUpdated => 1148307325
+	},
+
+	'tokens' => {
+		message => q||,
+		lastUpdated => 
 	},
 
 	'add/edit event title description' => {
@@ -1056,29 +1246,14 @@ our $I18N = {
 		lastUpdated => 1149861996
 	},
 
-	'confirm delete event' => {
-		message => q|Weet u zeker dat dit evenement verwijderd moet worden?|,
-		lastUpdated => 1148295466
-	},
-
 	'message' => {
 		message => q|<p>Dit zijn berichten van het systeem over het aantal en het soort resultaten dat getoond wordt. </p>|,
 		lastUpdated => 1149861921
 	},
 
-	'price must be greater than zero' => {
-		message => q|De prijs moet hoger zijn dan nul.|,
-		lastUpdated => 1148893812
-	},
-
-	'approved' => {
-		message => q|Goedgekeurd|,
-		lastUpdated => 1148291785
-	},
-
-	'search template description' => {
-		message => q|Dit bepaalt de layout en het uiterlijk van de zoekpagina bij het evenementen beheersysteem.|,
-		lastUpdated => 1166194648
+	'add more items' => {
+		message => q|Voeg meer objecten toe|,
+		lastUpdated => 1213702804
 	},
 
 	'Admin manage sub events small resultset' => {
@@ -1086,9 +1261,9 @@ our $I18N = {
 		lastUpdated => 1148287153
 	},
 
-	'manage event metadata' => {
-		message => q|Beheer metadata van evenement|,
-		lastUpdated => 1148304728
+	'badge groups' => {
+		message => q||,
+		lastUpdated => 
 	},
 
 	'Unlink User' => {
@@ -1096,24 +1271,14 @@ our $I18N = {
 		lastUpdated => 1148287423
 	},
 
-	'add/edit event start date' => {
-		message => q|Begindatum van het evenement|,
-		lastUpdated => 1148289845
-	},
-
-	'auto search description' => {
-		message => q|Toon dit standaard in het geavanceerde zoekscherm als veld voor filteren. |,
-		lastUpdated => 1148295151
+	'import file contains field title' => {
+		message => q|Bestand bevat veld|,
+		lastUpdated => 1190027115
 	},
 
 	'purchase.wantToContinue.url' => {
 		message => q|<p>Het URL waar dit evenement aan de winkelwagen wordt toegevoegd. Deze variabele zal leeg zijn als het evenement is volgeboekt. </p>  |,
 		lastUpdated => 1149860821
-	},
-
-	'import file contains field title' => {
-		message => q|Bestand bevat veld|,
-		lastUpdated => 1190027115
 	},
 
 	'manage purchases' => {
@@ -1136,14 +1301,9 @@ our $I18N = {
 		lastUpdated => 1166194634
 	},
 
-	'auto search' => {
-		message => q|Eerste zoekveld|,
-		lastUpdated => 1148295091
-	},
-
-	'add new event metadata field' => {
-		message => q|Voeg een nieuw evenementen metadata veld toe.|,
-		lastUpdated => 1148287668
+	'ticket instructions help' => {
+		message => q||,
+		lastUpdated => 
 	},
 
 	'import blank line' => {
@@ -1151,19 +1311,39 @@ our $I18N = {
 		lastUpdated => 1190027443
 	},
 
+	'related badge groups' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'print badge template help' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'lookup registrant template help' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'event start date help' => {
+		message => q||,
+		lastUpdated => 
+	},
+
 	'managePurchases.url' => {
 		message => q|<p>Een URL dat de gebruiker meeneemt naar het scherm waar aankopen beheerd kunnen worden (bijv.: toegevoegd, goedgekeurd, verwijderd). </p>|,
 		lastUpdated => 1149861764
 	},
 
-	'add/edit event end date description' => {
-		message => q|De datum en het tijdsstip waarop het evenement afgelopen is.|,
-		lastUpdated => 1148288497
-	},
-
 	'createdByUserId' => {
 		message => q|De identificatie van de gebruiker die deze badge heeft gemaakt.|,
 		lastUpdated => 1149862637
+	},
+
+	'enter import file' => {
+		message => q|Geef een bestand om te importeren op.|,
+		lastUpdated => 1190027379
 	},
 
 	'null field error recnum' => {
@@ -1176,14 +1356,19 @@ our $I18N = {
 		lastUpdated => 1149862053
 	},
 
-	'enter import file' => {
-		message => q|Geef een bestand om te importeren op.|,
-		lastUpdated => 1190027379
+	'lookup badge' => {
+		message => q||,
+		lastUpdated => 
 	},
 
 	'tmplVar weight' => {
 		message => q|Het gewicht van de materialen die bij dit evenement gebruikt worden.|,
 		lastUpdated => 1150098031
+	},
+
+	'edit' => {
+		message => q|Bewerken|,
+		lastUpdated => 1213703076
 	},
 
 	'canAddEvents' => {
@@ -1206,11 +1391,6 @@ our $I18N = {
 		lastUpdated => 1149862711
 	},
 
-	'confirm delete prerequisite' => {
-		message => q|Weet u zeker dat dit vereiste verwijderd moet worden?|,
-		lastUpdated => 1148295615
-	},
-
 	'addEvent.label' => {
 		message => q|De standaard tekst van de link voor het toevoegen van evenementen.|,
 		lastUpdated => 1166194134
@@ -1226,9 +1406,19 @@ our $I18N = {
 		lastUpdated => 1148295938
 	},
 
+	'default token instructions' => {
+		message => q||,
+		lastUpdated => 
+	},
+
 	'tmplVar approved' => {
 		message => q|Een functie die 1 is als het evenement is goedgekeurd.|,
 		lastUpdated => 1149862933
+	},
+
+	'token instructions help' => {
+		message => q||,
+		lastUpdated => 
 	},
 
 	'filter' => {
@@ -1236,9 +1426,19 @@ our $I18N = {
 		lastUpdated => 1148303031
 	},
 
+	'not checked in' => {
+		message => q||,
+		lastUpdated => 
+	},
+
 	'endDateHuman' => {
 		message => q|De einddatum-en tijd van dit evenement, in een epoch formaat.|,
 		lastUpdated => 1149860583
+	},
+
+	'any' => {
+		message => q|Elke|,
+		lastUpdated => 1148291542
 	},
 
 	'eventIsApproved' => {
@@ -1246,14 +1446,9 @@ our $I18N = {
 		lastUpdated => 1208521441
 	},
 
-	'group to add events' => {
-		message => q|De groep die evenementen mag toevoegen |,
-		lastUpdated => 1148304158
-	},
-
-	'any' => {
-		message => q|Elke|,
-		lastUpdated => 1148291542
+	'percentage discount' => {
+		message => q||,
+		lastUpdated => 
 	},
 
 	'basicSearch.formHeader' => {
@@ -1266,19 +1461,24 @@ our $I18N = {
 		lastUpdated => 1148307741
 	},
 
-	'approve event description' => {
-		message => q|Evenementen kunnen goedgekeurd worden, zodat goedgekeurde evenementen ingevoerd kunnen worden of de goedkeuring van evenementen kan direct bewerkt worden.|,
-		lastUpdated => 1208521471
-	},
-
 	'missing prerequisites message' => {
 		message => q|Enkele van de geselecteerde evenementen vereisen de deelname aan een ander evenement. Zorg ervoor dat aan de lijst van vereisten hieronder is voldaan. |,
 		lastUpdated => 1208522006
 	},
 
+	'item expiration time help' => {
+		message => q||,
+		lastUpdated => 
+	},
+
 	'create a badge for myself' => {
 		message => q|Maak een badge aan voor mijzelf.|,
 		lastUpdated => 1148295967
+	},
+
+	'search' => {
+		message => q|Zoeken|,
+		lastUpdated => 1213703507
 	},
 
 	'scheduling conflict continue' => {
@@ -1302,18 +1502,18 @@ our $I18N = {
 	},
 
 	'assetName' => {
-		message => q|Evenement beheersysteem|,
-		lastUpdated => 1148291799
+		message => q|Evenementen beheer|,
+		lastUpdated => 1213702842
 	},
 
-	'manage purchases template description' => {
-		message => q|Hiermee kan de layout en het uiterlijk van het Beheer verkopen scherm in het evenementen beheersysteem bepaald worden.|,
-		lastUpdated => 1166194545
+	'lookup registrant template' => {
+		message => q||,
+		lastUpdated => 
 	},
 
-	'or' => {
-		message => q|Of|,
-		lastUpdated => 1148304286
+	'badge builder template help' => {
+		message => q||,
+		lastUpdated => 
 	},
 
 	'canReturnItinerary' => {
@@ -1331,14 +1531,34 @@ our $I18N = {
 		lastUpdated => 1208521754
 	},
 
-	'add/edit event assigned prerequisites' => {
-		message => q|Toegekende vereisten|,
-		lastUpdated => 1148288388
+	'related ribbons' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'add a ribbon' => {
+		message => q|Voeg een lintje toe|,
+		lastUpdated => 1213714028
+	},
+
+	'location' => {
+		message => q|Locatie|,
+		lastUpdated => 1213703469
+	},
+
+	'ribbon instructions help' => {
+		message => q||,
+		lastUpdated => 
 	},
 
 	'search.data.url' => {
 		message => q|<p>De URL naar deze asset. </p>|,
 		lastUpdated => 1149862180
+	},
+
+	'main template help' => {
+		message => q||,
+		lastUpdated => 
 	},
 
 	'purchase.url' => {
@@ -1356,9 +1576,9 @@ our $I18N = {
 		lastUpdated => 1148309979
 	},
 
-	'add/edit event start date description' => {
-		message => q|De datum en tijd waarop het evenement begint.|,
-		lastUpdated => 1148289868
+	'label' => {
+		message => q|Label|,
+		lastUpdated => 1213703170
 	},
 
 	'assigned discount pass description' => {
@@ -1366,29 +1586,19 @@ our $I18N = {
 		lastUpdated => 1148291873
 	},
 
-	'display template description' => {
-		message => q|Hiermee wordt de layout en het uiterlijk van een evenementen beheersysteem bepaald.|,
-		lastUpdated => 1166194486
-	},
-
-	'search template' => {
-		message => q|Zoek sjabloon|,
-		lastUpdated => 1148308153
-	},
-
 	'sku description' => {
 		message => q|Een SKU nummer dat toegekend wordt aan het evenement. Een algemene unieke identificatie wordt standaard gegenereerd. |,
 		lastUpdated => 1148307938
 	},
 
-	'view purchase template' => {
-		message => q|Bekijk aankoop sjabloon|,
-		lastUpdated => 1148307437
-	},
-
 	'email address' => {
 		message => q|Email adres|,
 		lastUpdated => 1148299310
+	},
+
+	'badge holder information' => {
+		message => q||,
+		lastUpdated => 
 	},
 
 	'meta hover help' => {
@@ -1406,19 +1616,14 @@ our $I18N = {
 		lastUpdated => 1148308110
 	},
 
-	'seats available' => {
-		message => q|Aantal beschikbare plaatsen|,
-		lastUpdated => 1148307662
-	},
-
 	'export events' => {
 		message => q|Exporteer events|,
 		lastUpdated => 1190027401
 	},
 
-	'save approvals' => {
-		message => q|Bewaar goedkeuringen |,
-		lastUpdated => 1148307808
+	'seats available' => {
+		message => q|Aantal beschikbare plaatsen|,
+		lastUpdated => 1148307662
 	},
 
 	'overwrite' => {
@@ -1431,19 +1636,9 @@ our $I18N = {
 		lastUpdated => 1190026010
 	},
 
-	'paginate after' => {
-		message => q|Hoeveel resultaten per pagina|,
-		lastUpdated => 1148893729
-	},
-
 	'discount pass member' => {
 		message => q|<p><strong>Dit evenement heeft een bijbehorende kortingspas.</strong></p><p>De geselecteerde hoeveelheid korting zal toegekend worden als ze allebei in de winkelwagen van deze gebruiker zitten.&nbsp;</p>|,
 		lastUpdated => 1148894288
-	},
-
-	'approval' => {
-		message => q|Goedkeuring|,
-		lastUpdated => 1148291564
 	},
 
 	'manage prerequisite sets' => {
@@ -1451,19 +1646,24 @@ our $I18N = {
 		lastUpdated => 1148304768
 	},
 
+	'badge builder template' => {
+		message => q||,
+		lastUpdated => 
+	},
+
 	'productId' => {
 		message => q|<div class="&quot;helpIndent&quot;"><p>De unieke identificatie van dit product. </p></div>|,
 		lastUpdated => 1149861569
 	},
 
-	'managePrereqsMessage' => {
-		message => q|Het formulier hieronder kan gebruikt worden voor het toevoegen van vereiste taken aan %s. |,
-		lastUpdated => 1148306675
-	},
-
 	'see available subevents' => {
 		message => q|Wilt u de beschikbare sub-evenementen zien?|,
 		lastUpdated => 1148308134
+	},
+
+	'managePrereqsMessage' => {
+		message => q|Het formulier hieronder kan gebruikt worden voor het toevoegen van vereiste taken aan %s. |,
+		lastUpdated => 1148306675
 	},
 
 	'search.formSubmit' => {
@@ -1474,6 +1674,11 @@ our $I18N = {
 	'import missing required' => {
 		message => q|Record %d had geen ingevuld %s. Dit is een verplicht veld.|,
 		lastUpdated => 1190026274
+	},
+
+	'related badge groups ticket help' => {
+		message => q||,
+		lastUpdated => 
 	},
 
 };

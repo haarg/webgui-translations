@@ -61,6 +61,11 @@ our $I18N = {
 		lastUpdated => 1206957128
 	},
 
+	'helpvar album_url' => {
+		message => q|Het URL van het album dat dit bestand bevat|,
+		lastUpdated => 1213629966
+	},
+
 	'helpvar exif_' => {
 		message => q|Er kan met een naam verwezen worden naar elke EXIF tag.|,
 		lastUpdated => 1201264050
@@ -141,6 +146,11 @@ our $I18N = {
 		lastUpdated => 1201254791
 	},
 
+	'helpvar isPending' => {
+		message => q|Een indicatie dat de foto nog niet is goedgekeurd. Gebruikers die de foto kunnen bewerken mogen deze bekijken voordat de foto wordt goedgekeurd.|,
+		lastUpdated => 1213630100
+	},
+
 	'template friendsOnly label' => {
 		message => q|Privacy|,
 		lastUpdated => 1203437359
@@ -179,6 +189,11 @@ our $I18N = {
 	'helpvar commentLoop creationDate' => {
 		message => q|De creatie datum van het commentaar|,
 		lastUpdated => 1201262722
+	},
+
+	'helpvar gallery_menuTitle' => {
+		message => q|De menu titel van de galerie die dit bestand bevat|,
+		lastUpdated => 1213629990
 	},
 
 	'helpvar commentForm_bodyText' => {
@@ -259,6 +274,11 @@ our $I18N = {
 	'help commentForm body' => {
 		message => q|Met deze sjabloon variabelen wordt het formulier gemaakt waar gebruikers commentaar kunnen geven bij fotos.|,
 		lastUpdated => 1201193623
+	},
+
+	'helpvar resolutions_' => {
+		message => q|Een URL verwijzing naar een bekende resolutie. &quot;800&quot; resolutie wordt dan &quot;resolutions_800&quot;|,
+		lastUpdated => 1213630168
 	},
 
 	'template delete albums' => {
@@ -356,6 +376,11 @@ our $I18N = {
 		lastUpdated => 1201263699
 	},
 
+	'helpvar gallery_title' => {
+		message => q|De titel van de galerie die dit bestand bevat|,
+		lastUpdated => 1213630017
+	},
+
 	'editForm location' => {
 		message => q|Locatie|,
 		lastUpdated => 1204031310
@@ -389,6 +414,11 @@ our $I18N = {
 	'helpvar url_searchKeywordUser' => {
 		message => q|Een URL naar de Galerie zoek pagina met dit trefwoord. Het beperkt de zoekopdracht tot foto's van deze gebruiker.|,
 		lastUpdated => 1206954468
+	},
+
+	'helpvar gallery_url' => {
+		message => q|Het URL van de galerie die dit bestand bevat|,
+		lastUpdated => 1213630043
 	},
 
 	'help editComment title' => {
@@ -429,6 +459,16 @@ our $I18N = {
 	'template url_delete' => {
 		message => q|Verwijder foto|,
 		lastUpdated => 1203437281
+	},
+
+	'helpvar resolutions_loop resolution' => {
+		message => q|De resolutie van de foto|,
+		lastUpdated => 1213630182
+	},
+
+	'helpvar album_thumbnailUrl' => {
+		message => q|Het URL van de miniatuur afbeelding van het albumk dat dit bestand bevat.|,
+		lastUpdated => 1213629881
 	},
 
 	'template makeShortcut album' => {
@@ -491,9 +531,19 @@ our $I18N = {
 		lastUpdated => 1201264242
 	},
 
+	'helpvar album_title' => {
+		message => q|De titel van het album dat dit bestand bevat|,
+		lastUpdated => 1213629942
+	},
+
 	'helpvar url_makeShortcut' => {
 		message => q|Het URL waar een snelkoppeling naar deze foto gemaakt wordt.|,
 		lastUpdated => 1201262876
+	},
+
+	'helpvar album_menuTitle' => {
+		message => q|De menu titel van het album dat dit bestand bevat|,
+		lastUpdated => 1213629843
 	},
 
 	'help view title' => {
@@ -524,6 +574,11 @@ our $I18N = {
 	'commentForm error no bodyText' => {
 		message => q|Er was geen tekst ingevoerd. Voer tekst in om commentaar te geven.|,
 		lastUpdated => 1204900977
+	},
+
+	'error no space' => {
+		message => q|Er is niet genoeg diskruimte om dit bestand te uploaden|,
+		lastUpdated => 1213629815
 	},
 
 	'helpvar keyword' => {

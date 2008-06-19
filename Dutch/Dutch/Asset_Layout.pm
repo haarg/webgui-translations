@@ -26,6 +26,11 @@ our $I18N = {
 		lastUpdated => 1148916634
 	},
 
+	'asset order hoverHelp' => {
+		message => q|Kies of nieuwe en niet gepositioneerde assets aan de boven-of onderkant van de eerste inhoud positie van de pagina toegevoegd moeten worden.|,
+		lastUpdated => 1213628542
+	},
+
 	'contentPositions' => {
 		message => q|Een variabele (string) die de verschillende plaatsen bevat waarop assets weergegeven kunnen worden en welke assets op welke plaats moeten staan en in welke volgorde.|,
 		lastUpdated => 1170688337
@@ -39,11 +44,6 @@ our $I18N = {
 	'asset order label' => {
 		message => q|Voeg nieuwe assets toe|,
 		lastUpdated => 1205853348
-	},
-
-	'asset order hoverhelp' => {
-		message => q|Kies of nieuwe of ongepostioneerde assets bovenaan of onderaan de eerst inhoud positie op de pagina worden toegevoegd.|,
-		lastUpdated => 1205853332
 	},
 
 	'assets to hide description' => {
@@ -86,19 +86,24 @@ our $I18N = {
 		lastUpdated => 1148916654
 	},
 
+	'isUncommitted' => {
+		message => q|Een functie die aangeeft of dit Asset wel of niet is ingezonden.|,
+		lastUpdated => 1213628755
+	},
+
 	'layout template body' => {
 		message => q|De volgende variabelen zijn beschikbaar voor de sjablonen voor pagina layout:|,
 		lastUpdated => 1207901221
 	},
 
-	'showAdmin' => {
-		message => q|Een functie die laat zien of de huidige gebruiker de Adminmode heeft aangezet en deze asset kan bewerken.|,
-		lastUpdated => 1149257430
-	},
-
 	'layout asset template variables body' => {
 		message => q|Elk asset maakt een set variabelen beschikbaar voor de meeste van zijn sjablonen. Deze variabelen worden intern gebruikt waardoor ze niet allemaal even bruikbaar zijn voor het gebruik in sjablonen. |,
 		lastUpdated => 1170688987
+	},
+
+	'showAdmin' => {
+		message => q|Een functie die laat zien of de huidige gebruiker de Adminmode heeft aangezet en deze asset kan bewerken.|,
+		lastUpdated => 1149257430
 	},
 
 	'layout template title' => {

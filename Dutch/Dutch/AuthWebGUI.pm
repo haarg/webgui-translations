@@ -391,6 +391,11 @@ our $I18N = {
 		lastUpdated => 1190024863
 	},
 
+	'password recovery disabled' => {
+		message => q|Deze account is uitgezet. Het wachtwoord kan niet worden hersteld totdat de account geactiveerd is.|,
+		lastUpdated => 1213626099
+	},
+
 	'validate email' => {
 		message => q|E-mailadressen bevestigen?|,
 		lastUpdated => 1154000540

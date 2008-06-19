@@ -121,6 +121,11 @@ our $I18N = {
 		lastUpdated => 1170686354
 	},
 
+	'page indicator' => {
+		message => q|Pagina %s van %s|,
+		lastUpdated => 1213625034
+	},
+
 	'revised by' => {
 		message => q|Herzien door|,
 		lastUpdated => 1146833301
@@ -211,9 +216,19 @@ our $I18N = {
 		lastUpdated => 1148996943
 	},
 
+	'no results' => {
+		message => q|Geen resultaten gevonden!|,
+		lastUpdated => 1213625018
+	},
+
 	'deleteConfirm' => {
 		message => q|Weet u zeker dat u dit Metadata veld wilt verwijderen?|,
 		lastUpdated => 1146831249
+	},
+
+	'update' => {
+		message => q|Vernieuwen|,
+		lastUpdated => 1213625050
 	},
 
 	'make asset exportable description' => {
@@ -242,13 +257,18 @@ our $I18N = {
 	},
 
 	'Possible Values description' => {
-		message => q|Dit veld wordt alleen gebruikt voor Radio buttons en Select lists. Vul per regel de gewenste waarden in.|,
-		lastUpdated => 1146581845
+		message => q|Dit veld wordt alleen gebruikt voor Radio buttons en Select lists. Vul per regel de gewenste waarden in. Elke regel mag maximaal 255 karakters lang zijn.|,
+		lastUpdated => 1213624801
 	},
 
 	'restore' => {
 		message => q|Herstel|,
 		lastUpdated => 1146833271
+	},
+
+	'does asset inherit URL from parent description' => {
+		message => q|Moet dit Asset het URL van het bovenliggende object voor het URL voegen?|,
+		lastUpdated => 1213624928
 	},
 
 	'Extras URL description' => {
@@ -447,8 +467,8 @@ our $I18N = {
 	},
 
 	'default value description' => {
-		message => q|De standaard waarde voor dit veld. Als er meerdere standaard waarden zijn, zoals bij een checkboxlijst, geef er dan een per regel.|,
-		lastUpdated => 1190028073
+		message => q|De standaard waarde voor dit veld. Als er meerdere standaard waarden zijn, zoals bij een checkboxlijst, geef er dan een per regel. De maximaal toegestane hoeveelheid data is 255 karakters.|,
+		lastUpdated => 1213624836
 	},
 
 	'Delete Metadata field' => {
@@ -464,6 +484,11 @@ our $I18N = {
 	'486' => {
 		message => q|Type|,
 		lastUpdated => 1146580011
+	},
+
+	'keywords help' => {
+		message => q|Voer hier enkele trefwoorden in voor dit Asset. Deze zullen automatisch toegevoegd worden aan de zoek index en als de metatag trefwoorden.|,
+		lastUpdated => 1213624996
 	},
 
 	'this asset only' => {
@@ -497,8 +522,8 @@ our $I18N = {
 	},
 
 	'Field Name description' => {
-		message => q|De naam van het metadata veld. Het veld moet uniek zijn en bij voorkeur alleen letters (a-z), nummers (0-9) en underscores (_) bevatten.|,
-		lastUpdated => 1170685231
+		message => q|De naam van het metadata veld. Het veld moet uniek zijn en bij voorkeur alleen letters (a-z), nummers (0-9) en underscores (_) bevatten. Verder mag het niet meer dan 100 karakters lang zijn.|,
+		lastUpdated => 1213624722
 	},
 
 	'940' => {
@@ -706,6 +731,11 @@ our $I18N = {
 		lastUpdated => 1146831886
 	},
 
+	'menu label' => {
+		message => q|Meer|,
+		lastUpdated => 1213625006
+	},
+
 	'Select' => {
 		message => q|Selecteer...|,
 		lastUpdated => 1146581864
@@ -751,6 +781,11 @@ our $I18N = {
 		lastUpdated => 1146581905
 	},
 
+	'with selected' => {
+		message => q|Met selectie:|,
+		lastUpdated => 1213625069
+	},
+
 	'949' => {
 		message => q|Beheer klembord|,
 		lastUpdated => 1146580623
@@ -774,6 +809,16 @@ our $I18N = {
 	'extrasUploads form label' => {
 		message => q|Extras en uploads mappen|,
 		lastUpdated => 1166188127
+	},
+
+	'does asset inherit URL from parent' => {
+		message => q|URL van ouder voorvoegen?|,
+		lastUpdated => 1213624861
+	},
+
+	'search' => {
+		message => q|Zoeken|,
+		lastUpdated => 1213625041
 	},
 
 	'done' => {

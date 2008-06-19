@@ -76,6 +76,11 @@ our $I18N = {
 		lastUpdated => 1201188691
 	},
 
+	'defaultFilesPerPage label' => {
+		message => q|Standaard aantal bestanden per pagina|,
+		lastUpdated => 1213628397
+	},
+
 	'search submit' => {
 		message => q|Zoeken|,
 		lastUpdated => 1201192577
@@ -319,6 +324,11 @@ our $I18N = {
 	'helpvar searchForm_start' => {
 		message => q|Begin het zoekformulier waarmee de galerie doorzocht worden.|,
 		lastUpdated => 1201270160
+	},
+
+	'defaultFilesPerPage description' => {
+		message => q|Het aantal bestanden dat per pagina getoond wordt in het album overzicht.|,
+		lastUpdated => 1213628379
 	},
 
 	'groupIdAddFile description' => {
@@ -574,6 +584,11 @@ our $I18N = {
 	'viewAlbumAssetId description' => {
 		message => q|Het album dat getoond moet worden als de standaard layout &quot;Album&quot; is.|,
 		lastUpdated => 1201189979
+	},
+
+	'helpvar isAlbum' => {
+		message => q|Deze variabele is waar als het huidige reslutaat een Galerie album is.|,
+		lastUpdated => 1213628432
 	},
 
 	'template url_addAlbum' => {

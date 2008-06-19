@@ -1,118 +1,149 @@
 package WebGUI::i18n::Dutch::Asset_UserList;
 
 our $I18N = {
-	'query' => {
-		message => q|Zoekopdracht|,
-		lastUpdated => 1189458054
+	'or label' => {
+		message => q|Of|,
+		lastUpdated => 1213627370
 	},
 
-	'Back to page' => {
-		message => q|Terug naar de site.|,
-		lastUpdated => 1189456297
+	'searchFormTypeSelect label' => {
+		message => q||,
+		lastUpdated => 
 	},
 
-	'Profile Fields to show' => {
-		message => q|Profielvelden om weer te geven.|,
-		lastUpdated => 1189456367
+	'searchFormSubmit' => {
+		message => q||,
+		lastUpdated => 
 	},
 
-	'UserList Add/Edit Help Body' => {
-		message => q|De Gebruikerslijst kan een lijst van gebruikers laten zien en een geordende selectie van hun profielvelden. De Gebruikerslijst geeft nooit de gebruiker "Visitor" weer met userId 1.
-
-De Gebruikerslijst kan ook worden gebruikt om de gebruikers te doorzoeken. Er zijn twee manieren om te zoeken:
-<ul><li><em>Doorzoek alle profielvelden.</em> Wanneer de formuliervariabele "search" wordt verstuurd met het formulier, worden alle geselecteerde profielvelden doorzocht.</li>
-<li><em>Doorzoek een of meer specifieke profielvelden.</em> Als een of meer formuliervariabelen zijn opgegeven met een naam zoals search_[naam profielveld] wordt dat profielvelden of worden die profielvelden doorzocht. Als meer dan een formuliervariabele voor een profielveld is gedefinieerd, kan ook een type zoekopdracht worden gedefinieerd met behulp van de variabele "searchType". Deze kan de waarde "and" (en) of "or" (of) hebben.</li>
-</ul>
-
-Voorbeeld:
-Stel een gebruikerslijst wordt aangeroepen met onderstaande url.
-
-<blockquote>'?search_workCity=Amsterdam;search_city=Rotterdam;searchType=or'</blockquote>
-
-In dit geval worden de gebruikers die hetzij in Amsterdam werken hetzij in Rotterdam wonen, hetzij zowel in Amsterdam werken als in Rotterdam wonen, geselecteerd. 
-
-<strong>Groep om weer te geven</strong>
-Alleen gebruikers in deze groep worden weergegeven in de Gebruikerslijst. De standaard waarde is "all".
-
-<strong>Groep om niet weer te geven</strong>
-Selecteer een groep die juist moet worden uitgesloten van weergave. De standaard waarde is "none".
-
-<strong>Profielvelden om weer te geven</strong>
-Selecteer velden uit het Gebruikersprofiel, die worden weergegeven in de Gebruikerslijst. Er kan alleen gekozen worden uit velden die zijn ingesteld als 'zichtbaar' in het Gebruikersprofiel. Het profiel van een gebruiker en het emailadres van een gebruiker worden alleen getoond als deze openbaar zijn. Standaard is de volgorde van de profielvelden die van de 'bekijk profiel' (view profile) functie. (operation) De volgorde van de profielvelden in de Gebruikerslijst kan worden bewerkt met 'naar links' en 'naar rechts' knoppen. 
-
-<strong>Template</strong>
-Selecteer een template om de Gebruikerslijst op te maken en weer te geven. |,
-		lastUpdated => 1189457162
+	'alphabet' => {
+		message => q|Het alfabet dat gebruikt wordt voor alfabetisch zoeken. Dit is een string die bestaat uit waarden die door komma's gescheiden worden.|,
+		lastUpdated => 1213627142
 	},
 
-	'assetName' => {
-		message => q|Gebruikerslijst|,
-		lastUpdated => 1189458047
+	'showOnlyVisibleAsNamed label' => {
+		message => q||,
+		lastUpdated => 
 	},
 
-	'UserList Template Help Body' => {
-		message => q|De volgende template variabelen zijn beschikbaar in templates voor de gebruikerslijst:
+	'Group to hide description' => {
+		message => q|Selecteer een groep die verborgen moet worden in de gebruikerslijst. De standaard waarde is &quot;Admins&quot;.|,
+		lastUpdated => 1213626953
+	},
 
-<strong>description</strong>
-De beschrijving van de gebruikerslijst.
+	'sort order description' => {
+		message => q||,
+		lastUpdated => 
+	},
 
-<strong>profileField_loop</strong>
-Een loop waarin de profielvelden die geselecteerd zijn beschikbaar zijn.
+	'search_PROFILEFIELDNAME_form' => {
+		message => q||,
+		lastUpdated => 
+	},
 
-    <strong>profileField.name</strong>
-    De naam van het profielveld.
+	'and label' => {
+		message => q|En|,
+		lastUpdated => 1213627469
+	},
 
-    <strong>profileField.controls</strong>
-    De knoppen om de volgorde van de profielvelden te wijzigen.
+	'overridePublicProfile description' => {
+		message => q||,
+		lastUpdated => 
+	},
 
-<strong>user_loop</strong>
-Een loop waarin de gegevens van de gebruikers in de Gebruikerslijst beschikbaar zijn. 
+	'overridePublicEmail label' => {
+		message => q||,
+		lastUpdated => 
+	},
 
-    <strong>user.name</strong>
-    De naam van deze gebruiker.
+	'Profile not public message' => {
+		message => q|Profiel niet publiek beschikbaar|,
+		lastUpdated => 1213707804
+	},
 
-    <strong>user.id</strong>
-    De ID van deze gebruiker.
+	'Users per page label' => {
+		message => q|Gebruikers per pagina|,
+		lastUpdated => 1213627071
+	},
 
-    <strong>user.profile.__NAME__.value</strong>
-    De waarde van een bepaald profielveld, waarbij __NAME__ de naam van het profielveld is.
+	'Users per page description' => {
+		message => q|Het aantal gebruikers dat per pagina getoond wordt.|,
+		lastUpdated => 1213627060
+	},
 
-    <strong>user.profile.emailNotPublic</strong>
-    Deze variabele is "1" wanneer het emailadres niet openbaar is.
+	'usersPerPage' => {
+		message => q|Het aantal gebruikers per pagina|,
+		lastUpdated => 1213708286
+	},
 
-    <strong>user.profile_loop</strong>
-    Een loop waarin de waarden van de profielvelden van deze gebruiker beschikbaar zijn.
+	'profileField_sortByURL' => {
+		message => q||,
+		lastUpdated => 
+	},
 
-        <strong>profile.value</strong>
-        De waarde van het profielveld van deze gebruiker.
+	'searchFormTypeAnd' => {
+		message => q||,
+		lastUpdated => 
+	},
 
-        <strong>profile.emailNotPublic</strong>
-        Is set to '1' when email is not public.
+	'alphabetSearch_loop_label' => {
+		message => q||,
+		lastUpdated => 
+	},
 
-<strong>profileNotPublic.message</strong>
-Het bericht dat wordt weergegeven als het profiel van een gebruiker niet openbaar is.
+	'user_profile_PROFILEFIELDNAME_value' => {
+		message => q||,
+		lastUpdated => 
+	},
 
-<strong>emailNotPublic.message</strong>
-Het bericht dat wordt weergegeven wanneer het emailadres van een gebruiker niet openbaar is. 
+	'alphabet label' => {
+		message => q|Alfabet|,
+		lastUpdated => 1213707979
+	},
 
-<strong>numberOfProfileFields</strong>
-Het aantal profielvelden dat wordt gebruikt in het template, zodat - ook wanneer het profiel niet publiek is - het aantal kolommen dat wordt gebruikt bekend is.
+	'user_id' => {
+		message => q|De gebruikersidentificatie van de gebruiker|,
+		lastUpdated => 1213707940
+	},
 
-<strong>searchFormHeader</strong>
-De header om het zoekformulier mee te beginnen.
+	'profileField_PROFILEFIELDNAME_sortByURL' => {
+		message => q||,
+		lastUpdated => 
+	},
 
-<strong>searchFormQuery.label</strong>
-Het label voor de zoekopdracht.
+	'showGroupId' => {
+		message => q||,
+		lastUpdated => 
+	},
 
-<strong>searchFormQuery.form</strong>
-Het formulier element waarmee de zoekopdracht kan worden ingegeven in het formulier.
+	'submit search label' => {
+		message => q||,
+		lastUpdated => 
+	},
 
-<strong>searchFormSubmit</strong>
-De knop waarmee het formulier verstuurd kan worden.
+	'alphabetSearch_loop_hasResults' => {
+		message => q||,
+		lastUpdated => 
+	},
 
-<strong>searchFormFooter</strong>
-De HTML om het formulier mee af te sluiten. |,
-		lastUpdated => 1189458026
+	'search_PROFILEFIELDNAME_text' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'user_loop' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'Edit/Add UserList' => {
+		message => q|Nieuw/Bewerk Gebruikerslijst|,
+		lastUpdated => 1189456396
+	},
+
+	'user_profile_PROFILEFIELDNAME_file' => {
+		message => q||,
+		lastUpdated => 
 	},
 
 	'UserList Template' => {
@@ -120,14 +151,74 @@ De HTML om het formulier mee af te sluiten. |,
 		lastUpdated => 1189457170
 	},
 
-	'Group to hide' => {
-		message => q|Groep die niet wordt weergegeven.|,
-		lastUpdated => 1189456349
+	'alphabetSearchField description' => {
+		message => q||,
+		lastUpdated => 
 	},
 
-	'Users per page' => {
-		message => q|Gebruikers per pagina|,
-		lastUpdated => 1189458039
+	'showOnlyVisibleAsNamed' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'overridePublicProfile label' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'searchFormTypeSelect' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'profileField_loop' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'descending' => {
+		message => q|Dalend|,
+		lastUpdated => 1213627352
+	},
+
+	'search in label' => {
+		message => q|Zoek in:|,
+		lastUpdated => 1213627483
+	},
+
+	'includeInSearch_PROFILEFIELDNAME_hidden' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'assetName' => {
+		message => q|Gebruikerslijst|,
+		lastUpdated => 1189458047
+	},
+
+	'query label' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'searchFormQuery_form' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'Group to show label' => {
+		message => q|Te tonen groep|,
+		lastUpdated => 1213707613
+	},
+
+	'searchExact_PROFILEFIELDNAME_form' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'id label' => {
+		message => q|Id|,
+		lastUpdated => 1213627362
 	},
 
 	'UserList Add/Edit' => {
@@ -135,29 +226,169 @@ De HTML om het formulier mee af te sluiten. |,
 		lastUpdated => 1189456387
 	},
 
-	'Group to show' => {
-		message => q|Groep om weer te geven.|,
-		lastUpdated => 1189456357
+	'sort order' => {
+		message => q|Sorteer volgorde|,
+		lastUpdated => 1213627392
 	},
 
-	'Add profile fields' => {
-		message => q|Voeg profielveld toe.|,
-		lastUpdated => 1189456288
+	'sort by' => {
+		message => q|Sorteer op|,
+		lastUpdated => 1213627380
 	},
 
-	'Email not public' => {
-		message => q|Het emailadres is niet publiek.|,
-		lastUpdated => 1189456339
+	'profile_value' => {
+		message => q||,
+		lastUpdated => 
 	},
 
-	'Profile not public' => {
-		message => q|Profiel is niet publiek.|,
-		lastUpdated => 1189456373
+	'user_profile_loop' => {
+		message => q||,
+		lastUpdated => 
 	},
 
-	'Edit/Add UserList' => {
-		message => q|Nieuw/Bewerk Gebruikerslijst|,
-		lastUpdated => 1189456396
+	'showOnlyVisibleAsNamed description' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'alphabetSearchField' => {
+		message => q|Het veld waarop het afabetisch zoeken gedaan wordt.|,
+		lastUpdated => 1213708013
+	},
+
+	'ascending' => {
+		message => q|Stijgend|,
+		lastUpdated => 1213627344
+	},
+
+	'profile_emailNotPublic' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'limitSearch' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'user_name' => {
+		message => q|De gebruikersnaam van de gebruiker|,
+		lastUpdated => 1213627407
+	},
+
+	'profile_file' => {
+		message => q|Het bestand voor dit profiel veld, dit is beschikbaar wanneer het profiel veld een afbeelding of bestand is.|,
+		lastUpdated => 1213707869
+	},
+
+	'searchFormTypeOr' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'hideGroupId' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'alphabetSearch_loop_searchURL' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'username label' => {
+		message => q|Gebruikersnaam|,
+		lastUpdated => 1213627453
+	},
+
+	'No users message' => {
+		message => q|Geen gebruikers gevonden|,
+		lastUpdated => 1213627039
+	},
+
+	'profileField_PROFILEFIELDNAME_label' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'user_profile_emailNotPublic' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'sort by description' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'numberOfProfileFields' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'Group to hide label' => {
+		message => q|Te verbergen groep|,
+		lastUpdated => 1213626968
+	},
+
+	'profileField_label' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'alphabetSearch_loop' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'templateId' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'Group to show description' => {
+		message => q|Alleen gebruikers in deze groep worden getoond in de gebruikerslijst. De standaard waarde is &quot;Iedereen&quot;.|,
+		lastUpdated => 1213627009
+	},
+
+	'alphabetSearchField label' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'overridePublicEmail description' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'searchFormHeader' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'searchExact_PROFILEFIELDNAME_text' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'includeInSearch_PROFILEFIELDNAME_checkBox' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'Email not public message' => {
+		message => q|Email adres niet publiek toegankelijk|,
+		lastUpdated => 1213626904
+	},
+
+	'alphabet description' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'searchFormFooter' => {
+		message => q||,
+		lastUpdated => 
 	},
 
 };

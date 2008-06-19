@@ -12,8 +12,7 @@ our $LANGUAGE = {
 sub makeUrlCompliant {
          my $value = shift;
 ##<-- start transliteration -->##
-ik hou van je
-ik ook van jou
+
 ##<-- end transliteration -->##
 
  	    $value =~ s/\s+$//;                     #removes trailing whitespace

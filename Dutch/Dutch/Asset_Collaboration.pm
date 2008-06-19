@@ -530,6 +530,11 @@ Nadat u deze instelling wijzigt worden niet alle  bestaande foto's opnieuw verkl
 		lastUpdated => 1150101834
 	},
 
+	'editForm archiveEnabled description' => {
+		message => q|Wanneer dit op &quot;Ja&quot; staat zullen draden na zekere tijd automatisch worden verborgen.|,
+		lastUpdated => 1213625504
+	},
+
 	'content' => {
 		message => q|<div class="&quot;&quot;helpIndent&quot;&quot;"><p>De bewerkte inhoud van deze post. </p></div>|,
 		lastUpdated => 1150098911
@@ -1420,6 +1425,11 @@ Gebruik van avatars vermindert de snelheid van het collaboratiesysteem.|,
 	'assetName' => {
 		message => q|Collaboratie systeem|,
 		lastUpdated => 1147685484
+	},
+
+	'editForm archiveEnabled label' => {
+		message => q|Archiveren aanzetten?|,
+		lastUpdated => 1213625516
 	},
 
 	'enable metadata' => {

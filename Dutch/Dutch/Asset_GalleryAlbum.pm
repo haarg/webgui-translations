@@ -96,6 +96,11 @@ our $I18N = {
 		lastUpdated => 1202912447
 	},
 
+	'helpvar form_demote' => {
+		message => q|Een knop om de ranking van de afbeelding te verlagen. Dit wordt gebruikt om de volgorde van de fotos te veranderen.|,
+		lastUpdated => 1213702521
+	},
+
 	'help delete body' => {
 		message => q|Deze variabelen zijn beschikbaar voor het verwijderen uiterlijk van het album.|,
 		lastUpdated => 1201264892
@@ -106,9 +111,19 @@ our $I18N = {
 		lastUpdated => 1201264974
 	},
 
+	'helpvar isPending' => {
+		message => q|Een indicator die laat zien of het galerie album nog niet is goedgekeurd. Gebruikers die dit album kunnen bewerken mogen dit album zien voordat het wordt goedgekeurd.|,
+		lastUpdated => 1213702728
+	},
+
 	'template upload archive' => {
 		message => q|Zip archief|,
 		lastUpdated => 1204031232
+	},
+
+	'helpvar form_synopsis' => {
+		message => q|Eeen HTML gebied voor de miniatuur van de afbeelding|,
+		lastUpdated => 1213702590
 	},
 
 	'helpvar canEdit' => {
@@ -129,6 +144,11 @@ our $I18N = {
 	'helpvar form_archive' => {
 		message => q|Het archief voor upload. Een WebGUI::Form::File controleermiddel.|,
 		lastUpdated => 1201267045
+	},
+
+	'helpvar gallery_menuTitle' => {
+		message => q|De menu titel van de galerie die dit bestand bevat.|,
+		lastUpdated => 1213702615
 	},
 
 	'template upload type' => {
@@ -211,6 +231,11 @@ our $I18N = {
 		lastUpdated => 1201264519
 	},
 
+	'helpvar form_promote' => {
+		message => q|Een knop om een afbeelding te laten stijgen in ranking. Dit wordt gebruikt om de volgorde van de fotos te veranderen.|,
+		lastUpdated => 1213702560
+	},
+
 	'helpvar error' => {
 		message => q|Een foutbericht dat aan de gebruiker getoond wordt. Alleen gedefinieerd als er iets fout is gegaan.|,
 		lastUpdated => 1201266750
@@ -236,6 +261,11 @@ our $I18N = {
 		lastUpdated => 1203437483
 	},
 
+	'helpvar gallery_title' => {
+		message => q|De titel van de galerie die dit bestand bevat.|,
+		lastUpdated => 1213702631
+	},
+
 	'delete message' => {
 		message => q|Het album is verwijderd. <a href="%s">Keer terug naar de galerie</a>.|,
 		lastUpdated => 1201264505
@@ -254,6 +284,11 @@ our $I18N = {
 	'addArchive file' => {
 		message => q|Archiveer|,
 		lastUpdated => 1204031040
+	},
+
+	'helpvar form_delete' => {
+		message => q|Een knop om de afbeelding te verwijderen|,
+		lastUpdated => 1213630807
 	},
 
 	'template addArchive title' => {
@@ -294,6 +329,11 @@ our $I18N = {
 	'helpvar isAlbumThumbnail' => {
 		message => q|Dit is waar als het bestand de miniatuur van het huidige album.|,
 		lastUpdated => 1201268512
+	},
+
+	'helpvar gallery_url' => {
+		message => q|Het URL van de galerie die dit bestand bevat.|,
+		lastUpdated => 1213702648
 	},
 
 	'editForm title label' => {
@@ -349,6 +389,11 @@ our $I18N = {
 	'save message' => {
 		message => q|De instellingen van het album zijn opgeslagen. <a href="%s">Ga terug naar het album</a>.|,
 		lastUpdated => 1201266266
+	},
+
+	'what next' => {
+		message => q|Hoe verder?|,
+		lastUpdated => 1213702753
 	},
 
 	'helpvar url_listAlbumsRss' => {

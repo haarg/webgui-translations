@@ -51,6 +51,11 @@ our $I18N = {
 		lastUpdated => 1189121195
 	},
 
+	'editForm workflowIdCommit description' => {
+		message => q|Selecteer een workflow die gebruikt wordt voor het inzenden van evenementen wanneer deze bewerkt of aangemaakt worden.|,
+		lastUpdated => 1213625120
+	},
+
 	'subscribe' => {
 		message => q|Inschrijven|,
 		lastUpdated => 1205852537
@@ -159,6 +164,11 @@ our $I18N = {
 	'templateIdPrintEvent label' => {
 		message => q|Details gebeurtenis printen template|,
 		lastUpdated => 1166194124
+	},
+
+	'editForm workflowIdCommit label' => {
+		message => q|Workflow voor toevoegen evenementen|,
+		lastUpdated => 1213625455
 	},
 
 	'pagePrevUrl dayVar' => {

@@ -121,11 +121,6 @@ our $I18N = {
 		lastUpdated => 1154076786
 	},
 
-	'settings groupIdAdminTransactionLog hoverHelp' => {
-		message => q|Groep die transacties kan beheren|,
-		lastUpdated => 1190022722
-	},
-
 	'1021' => {
 		message => q|Beoordeel bericht|,
 		lastUpdated => 1153750564
@@ -293,6 +288,11 @@ Als er een server voor het verzenden van email op dezelfde machine staat als de 
 		lastUpdated => 1153751617
 	},
 
+	'is editable help' => {
+		message => q|Moet deze groep te zien zijn in de lijst van beheerbare groepen? Als dit op nee gezet wordt zul je de groep niet langer kunnen bewerken.|,
+		lastUpdated => 1213865902
+	},
+
 	'auto request commit' => {
 		message => q|Automatisch wijzigen publiceren?|,
 		lastUpdated => 1189453983
@@ -306,11 +306,6 @@ Als er een server voor het verzenden van email op dezelfde machine staat als de 
 	'739' => {
 		message => q|Niveau gebruikers interface (UI level)|,
 		lastUpdated => 1154094558
-	},
-
-	'settings groupIdAdminSubscription hoverHelp' => {
-		message => q|Groep die abonnementen kan beheren|,
-		lastUpdated => 1190022748
 	},
 
 	'private message error' => {
@@ -476,6 +471,11 @@ Als er een server voor het verzenden van email op dezelfde machine staat als de 
 	'743' => {
 		message => q|Er moet een geldig email adres worden ingevuld, wanneer geprobeerd wordt het wachtwoord te herstellen.|,
 		lastUpdated => 1154094622
+	},
+
+	'showMessageOnLoginTimes label' => {
+		message => q|Aantal keren bericht tonen|,
+		lastUpdated => 1213869415
 	},
 
 	'523' => {
@@ -708,19 +708,14 @@ Als er een server voor het verzenden van email op dezelfde machine staat als de 
 		lastUpdated => 1154076684
 	},
 
-	'507' => {
-		message => q|Bewerk sjabloon|,
-		lastUpdated => 1154077130
-	},
-
 	'405' => {
 		message => q|Laatste pagina|,
 		lastUpdated => 1154075626
 	},
 
-	'settings groupIdAdminProductManager hoverHelp' => {
-		message => q|Groep die producten kan beheren|,
-		lastUpdated => 1190022903
+	'507' => {
+		message => q|Bewerk sjabloon|,
+		lastUpdated => 1154077130
 	},
 
 	'866 description' => {
@@ -728,14 +723,14 @@ Als er een server voor het verzenden van email op dezelfde machine staat als de 
 		lastUpdated => 1154096820
 	},
 
-	'1084' => {
-		message => q|Gebruik de standaard taakbalk voor mijn taal|,
-		lastUpdated => 1166195012
-	},
-
 	'370' => {
 		message => q|Bewerk groepen|,
 		lastUpdated => 1154074826
+	},
+
+	'1084' => {
+		message => q|Gebruik de standaard taakbalk voor mijn taal|,
+		lastUpdated => 1166195012
 	},
 
 	'309' => {
@@ -981,6 +976,11 @@ Deze groep zou dan "Werknemers in HMO 1" genoemd kunnen worden en zou je de moge
 		lastUpdated => 1156170164
 	},
 
+	'showMessageOnLoginBody label' => {
+		message => q|Inhoud voor bericht bij inloggen.|,
+		lastUpdated => 1213866094
+	},
+
 	'pagination.nextPage' => {
 		message => q|Een link naar de volgende pagina (ten opzichte van de huidige pagina) in het paginaoverzicht.|,
 		lastUpdated => 1156168691
@@ -1176,6 +1176,11 @@ Deze groep zou dan "Werknemers in HMO 1" genoemd kunnen worden en zou je de moge
 		lastUpdated => 1154096068
 	},
 
+	'fieldType' => {
+		message => q|Type veld |,
+		lastUpdated => 1213865818
+	},
+
 	'346' => {
 		message => q|Deze gebruiker is geen lid meer van onze site. We hebben geen verdere informatie over deze gebruiker.|,
 		lastUpdated => 1204556733
@@ -1184,11 +1189,6 @@ Deze groep zou dan "Werknemers in HMO 1" genoemd kunnen worden en zou je de moge
 	'1075 description' => {
 		message => q|Als deze groep gevalideerd moet worden met referentie naar een externe database, kan hier de database gekozen worden.|,
 		lastUpdated => 1155886231
-	},
-
-	'broken spectre title' => {
-		message => q|Kan niet verbinden met Spectre.|,
-		lastUpdated => 1203543674
 	},
 
 	'333' => {
@@ -1234,11 +1234,6 @@ Deze groep zou dan "Werknemers in HMO 1" genoemd kunnen worden en zou je de moge
 	'settings groupIdAdminStatistics hoverHelp' => {
 		message => q|Groep om statistieken te bekijken|,
 		lastUpdated => 1190022772
-	},
-
-	'settings groupIdAdminSubscription label' => {
-		message => q|Abonnementen|,
-		lastUpdated => 1190022735
 	},
 
 	'756' => {
@@ -1376,6 +1371,11 @@ Deze groep zou dan "Werknemers in HMO 1" genoemd kunnen worden en zou je de moge
 		lastUpdated => 1156172221
 	},
 
+	'showMessageOnLogin description' => {
+		message => q|Laat een bericht zien nadar een gebruiker is ingelogd als dit op &quot;Ja&quot; staat.|,
+		lastUpdated => 1213866012
+	},
+
 	'settings groupIdAdminLDAPLink label' => {
 		message => q|LDAP|,
 		lastUpdated => 1190022944
@@ -1501,11 +1501,6 @@ Deze groep zou dan "Werknemers in HMO 1" genoemd kunnen worden en zou je de moge
 		lastUpdated => 1208856142
 	},
 
-	'settings groupIdAdminTransactionLog label' => {
-		message => q|Transacties|,
-		lastUpdated => 1190022707
-	},
-
 	'help index' => {
 		message => q|Index|,
 		lastUpdated => 1156169834
@@ -1524,6 +1519,11 @@ Deze groep zou dan "Werknemers in HMO 1" genoemd kunnen worden en zou je de moge
 	'514' => {
 		message => q|Beelden|,
 		lastUpdated => 1155889133
+	},
+
+	'showMessageOnLogin label' => {
+		message => q|Bericht tonen bij inloggen?|,
+		lastUpdated => 1213866031
 	},
 
 	'725' => {
@@ -1582,18 +1582,13 @@ Deze groep zou dan "Werknemers in HMO 1" genoemd kunnen worden en zou je de moge
 	},
 
 	'967' => {
-		message => q|Leeg systeem prullenmand|,
-		lastUpdated => 1156171536
+		message => q|Leeg de prullenmanden van iedereen|,
+		lastUpdated => 1213865781
 	},
 
 	'322' => {
 		message => q|Pieper|,
 		lastUpdated => 1153753206
-	},
-
-	'settings groupIdAdminCommerce hoverHelp' => {
-		message => q|Groep die de Webwinkel instellingen kan beheren|,
-		lastUpdated => 1190023199
 	},
 
 	'164 description' => {
@@ -1840,11 +1835,6 @@ Afhankelijk van welke authenticatie modules geïnstalleerd zijn in het systeem, 
 		lastUpdated => 1154077425
 	},
 
-	'broken spectre body' => {
-		message => q|De inzending is geannuleerd, omdat WebGUI niet kan communiceren met Spectre. Herstel het Spectre probleem en probeer het opnieuw te versturen.|,
-		lastUpdated => 1203543659
-	},
-
 	'730' => {
 		message => q|1 leerling|,
 		lastUpdated => 1154094453
@@ -1906,8 +1896,8 @@ Afhankelijk van welke authenticatie modules geïnstalleerd zijn in het systeem, 
 	},
 
 	'trash' => {
-		message => q|Mijn prullenbak|,
-		lastUpdated => 1208183494
+		message => q|Prullenbak|,
+		lastUpdated => 1213872663
 	},
 
 	'manage cache' => {
@@ -2493,11 +2483,6 @@ LongTruncOk=1|,
 		lastUpdated => 1154095510
 	},
 
-	'settings groupIdAdminProductManager label' => {
-		message => q|Producten|,
-		lastUpdated => 1190022886
-	},
-
 	'91' => {
 		message => q|Vorige pagina|,
 		lastUpdated => 1154097213
@@ -2506,6 +2491,11 @@ LongTruncOk=1|,
 	'701' => {
 		message => q|Week/weken|,
 		lastUpdated => 1154092847
+	},
+
+	'showMessageOnLoginTimes description' => {
+		message => q|Het aantal keren dat een gebruiker het bericht ziet, &eacute;&eacute;n keer per login.|,
+		lastUpdated => 1213869392
 	},
 
 	'820' => {
@@ -2585,6 +2575,11 @@ De verstrekte informatie is niet gelijk aan de accountinformatie. |,
 		lastUpdated => 1153752127
 	},
 
+	'show in forms' => {
+		message => q|In formulieren tonen?|,
+		lastUpdated => 1213865917
+	},
+
 	'104 description' => {
 		message => q|Vul een URL voor de link in.|,
 		lastUpdated => 1155885555
@@ -2608,6 +2603,11 @@ De verstrekte informatie is niet gelijk aan de accountinformatie. |,
 	'68' => {
 		message => q|De gegevens waarmee u probeerde in te loggen zijn niet correct.&nbsp;&Oacute;f u heeft een niet bestaande gebruikersnaam ingevoerd, &oacute;f het wachtwoord dat u hebt ingetyped klopt niet. |,
 		lastUpdated => 1152526116
+	},
+
+	'is editable' => {
+		message => q|Is bewerkbaar?|,
+		lastUpdated => 1213865830
 	},
 
 	'315' => {
@@ -2663,11 +2663,6 @@ De verstrekte informatie is niet gelijk aan de accountinformatie. |,
 	'pagination.text' => {
 		message => q|Het nummer van een pagina in de paginalus (loop).|,
 		lastUpdated => 1181337135
-	},
-
-	'settings groupIdAdminCommerce label' => {
-		message => q|Webwinkel|,
-		lastUpdated => 1190023178
 	},
 
 	'ui' => {
@@ -2758,6 +2753,11 @@ De verstrekte informatie is niet gelijk aan de accountinformatie. |,
 	'36' => {
 		message => q|U moet een beheerder zijn om deze functie uit te kunnen voeren. Neem contact op met een beheerder.|,
 		lastUpdated => 1204556754
+	},
+
+	'showMessageOnLoginReset label' => {
+		message => q|Zet het aantal keren gezien op nul voor alle gebruikers|,
+		lastUpdated => 1213872701
 	},
 
 	'settings' => {
@@ -3207,6 +3207,11 @@ De verstrekte informatie is niet gelijk aan de accountinformatie. |,
 		lastUpdated => 1189454456
 	},
 
+	'show in forms help' => {
+		message => q|Moet deze groep te zien zijn op plaatsen waar een groep gekozen wordt, zoals velden voor rechten?|,
+		lastUpdated => 1213865967
+	},
+
 	'952' => {
 		message => q|Datum klembord|,
 		lastUpdated => 1154097385
@@ -3265,6 +3270,11 @@ De verstrekte informatie is niet gelijk aan de accountinformatie. |,
 	'63' => {
 		message => q|Zet beheermode aan.|,
 		lastUpdated => 1158564908
+	},
+
+	'class name' => {
+		message => q|Naam klasse |,
+		lastUpdated => 1213865803
 	},
 
 	'1050 description' => {
@@ -3373,8 +3383,13 @@ De verstrekte informatie is niet gelijk aan de accountinformatie. |,
 	},
 
 	'10' => {
-		message => q|Beheer prullenbak|,
-		lastUpdated => 1153750143
+		message => q|Beheer mijn prullenbak|,
+		lastUpdated => 1213865744
+	},
+
+	'showMessageOnLoginBody description' => {
+		message => q|De inhoud van het te tonen bericht. Macros zijn toegestaan.|,
+		lastUpdated => 1213866062
 	},
 
 	'864 description' => {
@@ -3532,14 +3547,14 @@ De verstrekte informatie is niet gelijk aan de accountinformatie. |,
 		lastUpdated => 1153750522
 	},
 
-	'pagination.pageList.upTo10' => {
-		message => q|Een lijst met links naar de 10 dichtstbijzijnde paginas (ten opzichte van de huidige pagina) in het pagina overzicht. Als de huidige pagina nummer 20 is, dan worden dus links naar de pagina&#39;s 15 tot en met 25 getoond.|,
-		lastUpdated => 1156168562
-	},
-
 	'141' => {
 		message => q|Niet gevonden pagina|,
 		lastUpdated => 1153751653
+	},
+
+	'pagination.pageList.upTo10' => {
+		message => q|Een lijst met links naar de 10 dichtstbijzijnde paginas (ten opzichte van de huidige pagina) in het pagina overzicht. Als de huidige pagina nummer 20 is, dan worden dus links naar de pagina&#39;s 15 tot en met 25 getoond.|,
+		lastUpdated => 1156168562
 	},
 
 	'403' => {
@@ -3570,6 +3585,11 @@ De verstrekte informatie is niet gelijk aan de accountinformatie. |,
 	'848' => {
 		message => q|Er zit een syntax fout in dit sjabloon. Corrigeer de fout alstublieft.|,
 		lastUpdated => 1154095655
+	},
+
+	'showMessageOnLoginReset description' => {
+		message => q|Als dit op &quot;Ja&quot; staat zullen alle gebruikers het inlogbericht nog een keer zien.|,
+		lastUpdated => 1213866147
 	},
 
 	'421' => {
@@ -3645,6 +3665,11 @@ De verstrekte informatie is niet gelijk aan de accountinformatie. |,
 	'url extension' => {
 		message => q|URL extensie|,
 		lastUpdated => 1154097583
+	},
+
+	'slider' => {
+		message => q||,
+		lastUpdated => 
 	},
 
 	'105' => {

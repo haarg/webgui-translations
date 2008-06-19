@@ -36,6 +36,11 @@ our $I18N = {
 		lastUpdated => 1206448877
 	},
 
+	'name' => {
+		message => q|De naam van het Thing|,
+		lastUpdated => 1213708461
+	},
+
 	'thingy asset template variables title' => {
 		message => q|Thingy asset sjabloon variabelen|,
 		lastUpdated => 1206449112
@@ -149,6 +154,11 @@ our $I18N = {
 	'field_url' => {
 		message => q|Een optioneel URL waar dit veld naar zou moeten linken. Dit wordt bijvoorbeeld gebruikt voor velden in andere Things.|,
 		lastUpdated => 1206447163
+	},
+
+	'canView' => {
+		message => q|Een functie die aangeeft of de huidige gebruiker de rechten heeft om dit Thing te bekijken.|,
+		lastUpdated => 1213708355
 	},
 
 	'things per page label' => {
@@ -271,6 +281,11 @@ our $I18N = {
 		lastUpdated => 1206447572
 	},
 
+	'listOfThings' => {
+		message => q|Een functie die alle Things in dit Thingy in een lijst zet.|,
+		lastUpdated => 1213708443
+	},
+
 	'check duplicates label' => {
 		message => q|Controleer duplikaten|,
 		lastUpdated => 1205856140
@@ -299,6 +314,11 @@ our $I18N = {
 	'edit thing title' => {
 		message => q|Bewerken/Toevoegen Thing|,
 		lastUpdated => 1206050727
+	},
+
+	'isCurrent' => {
+		message => q|Een functie die aangeeft of de gebruiker momenteel met dit Thing aan het werk is.|,
+		lastUpdated => 1213708406
 	},
 
 	'who can add description' => {

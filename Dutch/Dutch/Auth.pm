@@ -61,6 +61,11 @@ our $I18N = {
 		lastUpdated => 1166622431
 	},
 
+	'showMessageOnLoginSeen' => {
+		message => q||,
+		lastUpdated => 
+	},
+
 	'no.label' => {
 		message => q|Label - in meerdere talen beschikbaar - voor "Nee".|,
 		lastUpdated => 1166623934
@@ -104,6 +109,11 @@ our $I18N = {
 	'login.form.footer' => {
 		message => q|De verplichte formulier-elementen die na het formulier Login Pagina horen te staan.|,
 		lastUpdated => 1166623699
+	},
+
+	'showMessageOnLogin return' => {
+		message => q|Ga verder naar de site|,
+		lastUpdated => 1213626009
 	},
 
 	'anonymousRegistration.isAllowed' => {
