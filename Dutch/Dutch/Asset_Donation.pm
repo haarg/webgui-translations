@@ -16,6 +16,11 @@ our $I18N = {
 		lastUpdated => 1213629117
 	},
 
+	'donate template' => {
+		message => q|Donatie sjabloon|,
+		lastUpdated => 1213965290
+	},
+
 	'assetName' => {
 		message => q|Donatie|,
 		lastUpdated => 1213628781
@@ -29,6 +34,11 @@ our $I18N = {
 	'default thank you message' => {
 		message => q|Dunk u wel voor uw donatie|,
 		lastUpdated => 1213628874
+	},
+
+	'donate template help' => {
+		message => q|Kies het sjabloon waarmee de donatie getoond wordt.|,
+		lastUpdated => 1213965311
 	},
 
 	'thank you message' => {
@@ -49,11 +59,6 @@ our $I18N = {
 	'hasAddedToCart' => {
 		message => q|Een voorwaardelijke functie die aangeeft of een gebruiker de donatie al heeft toegevoegd aan de winkelwagen, zodat er een bericht getoond wordt waarin de gebruiker wordt bedankt voor de donatie.|,
 		lastUpdated => 1213629075
-	},
-
-	'donation template' => {
-		message => q|Donatie sjabloon|,
-		lastUpdated => 1213628919
 	},
 
 	'donate button' => {
