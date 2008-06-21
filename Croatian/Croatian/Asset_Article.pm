@@ -1,237 +1,191 @@
 package WebGUI::i18n::Croatian::Asset_Article;
 
-
 our $I18N = {
-	'description.first.sentence' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'article template description' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'linkTitle' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'7' => {
-		message => q|Naziv linka|,
-		lastUpdated => 1168623164
-	},
-
-	'description.first.10words' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'assetName' => {
-		message => q|Članak|,
-		lastUpdated => 1168623236
-	},
-
-	'description.full' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'description.first.paragraph' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'description.first.2paragraphs' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'72' => {
-		message => q|Predložak za članak|,
-		lastUpdated => 1168623180
-	},
-
-	'url' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'attachments help' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'28' => {
-		message => q|Pregledaj odgovore|,
-		lastUpdated => 1168623146
-	},
-
-	'description.first.4sentences' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'iconUrl' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'description' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'link url description' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'new.template' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'image.url' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'article asset template variables body' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'isImage' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'storageId' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'cache timeout help' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'description.first.3sentences' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'article asset template variables title' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'description.first.2sentences' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'description.first.50words' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'description.first.75words' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'linkURL' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'attachment.icon' => {
-		message => q|URL ikone za ovu vrstu privitka.|,
-		lastUpdated => 1168623255
-	},
-
-	'cache timeout' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'templateId' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'attachments' => {
-		message => q|Privici|,
-		lastUpdated => 1168623305
-	},
-
-	'description.first.100words' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'attachment_loop' => {
-		message => q|Petlja u kojoj se nalaze svi privici.|,
-		lastUpdated => 1168623295
-	},
-
-	'thumbnailUrl' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'cacheTimeout' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'12' => {
-		message => q|Uredi članak|,
-		lastUpdated => 1168623136
-	},
-
-	'8' => {
-		message => q|URL linka|,
-		lastUpdated => 1168623227
-	},
-
-	'filename' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'description.first.25words' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'attachment.url' => {
-		message => q|URL za dohvat privitka.|,
-		lastUpdated => 1168623285
-	},
-
-	'73' => {
-		message => q|Sljedeće varijable dostupne su u predlošku za članak.|,
-		lastUpdated => 1168623204
-	},
-
-	'image.thumbnail' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'attachment.name' => {
-		message => q|Datoteka za ovaj privitak.|,
-		lastUpdated => 1168623275
-	},
-
-	'link title description' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-};
+          'description.first.sentence' => {
+                                            'lastUpdated' => undef,
+                                            'message' => ''
+                                          },
+          'article template description' => {
+                                              'lastUpdated' => undef,
+                                              'message' => ''
+                                            },
+          'linkTitle' => {
+                           'lastUpdated' => undef,
+                           'message' => ''
+                         },
+          '7' => {
+                   'lastUpdated' => 1214055168,
+                   'message' => 'Naziv veze'
+                 },
+          'description.first.10words' => {
+                                           'lastUpdated' => undef,
+                                           'message' => ''
+                                         },
+          'assetName' => {
+                           'lastUpdated' => 1168623236,
+                           'message' => 'Članak'
+                         },
+          'description.first.paragraph' => {
+                                             'lastUpdated' => undef,
+                                             'message' => ''
+                                           },
+          'description.first.2paragraphs' => {
+                                               'lastUpdated' => undef,
+                                               'message' => ''
+                                             },
+          'description.full' => {
+                                  'lastUpdated' => undef,
+                                  'message' => ''
+                                },
+          '72' => {
+                    'lastUpdated' => 1168623180,
+                    'message' => 'Predložak za članak'
+                  },
+          'url' => {
+                     'lastUpdated' => undef,
+                     'message' => ''
+                   },
+          'attachments help' => {
+                                  'lastUpdated' => undef,
+                                  'message' => ''
+                                },
+          '28' => {
+                    'lastUpdated' => 1168623146,
+                    'message' => 'Pregledaj odgovore'
+                  },
+          'description.first.4sentences' => {
+                                              'lastUpdated' => undef,
+                                              'message' => ''
+                                            },
+          'iconUrl' => {
+                         'lastUpdated' => undef,
+                         'message' => ''
+                       },
+          'description' => {
+                             'lastUpdated' => undef,
+                             'message' => ''
+                           },
+          'link url description' => {
+                                      'lastUpdated' => undef,
+                                      'message' => ''
+                                    },
+          'new.template' => {
+                              'lastUpdated' => undef,
+                              'message' => ''
+                            },
+          'image.url' => {
+                           'lastUpdated' => undef,
+                           'message' => ''
+                         },
+          'article asset template variables body' => {
+                                                       'lastUpdated' => undef,
+                                                       'message' => ''
+                                                     },
+          'isImage' => {
+                         'lastUpdated' => undef,
+                         'message' => ''
+                       },
+          'storageId' => {
+                           'lastUpdated' => undef,
+                           'message' => ''
+                         },
+          'cache timeout help' => {
+                                    'lastUpdated' => undef,
+                                    'message' => ''
+                                  },
+          'description.first.3sentences' => {
+                                              'lastUpdated' => undef,
+                                              'message' => ''
+                                            },
+          'article asset template variables title' => {
+                                                        'lastUpdated' => undef,
+                                                        'message' => ''
+                                                      },
+          'description.first.2sentences' => {
+                                              'lastUpdated' => undef,
+                                              'message' => ''
+                                            },
+          'description.first.50words' => {
+                                           'lastUpdated' => undef,
+                                           'message' => ''
+                                         },
+          'description.first.75words' => {
+                                           'lastUpdated' => undef,
+                                           'message' => ''
+                                         },
+          'linkURL' => {
+                         'lastUpdated' => undef,
+                         'message' => ''
+                       },
+          'attachment.icon' => {
+                                 'lastUpdated' => 1214055079,
+                                 'message' => 'URL ikone za ovu vrstu dodatka.'
+                               },
+          'cache timeout' => {
+                               'lastUpdated' => undef,
+                               'message' => ''
+                             },
+          'templateId' => {
+                            'lastUpdated' => undef,
+                            'message' => ''
+                          },
+          'attachments' => {
+                             'lastUpdated' => 1214054727,
+                             'message' => 'Dodatak'
+                           },
+          'description.first.100words' => {
+                                            'lastUpdated' => undef,
+                                            'message' => ''
+                                          },
+          'attachment_loop' => {
+                                 'lastUpdated' => 1214054805,
+                                 'message' => 'Petlja u kojoj se nalaze svi dodaci..'
+                               },
+          'thumbnailUrl' => {
+                              'lastUpdated' => undef,
+                              'message' => ''
+                            },
+          'cacheTimeout' => {
+                              'lastUpdated' => undef,
+                              'message' => ''
+                            },
+          '12' => {
+                    'lastUpdated' => 1168623136,
+                    'message' => 'Uredi članak'
+                  },
+          '8' => {
+                   'lastUpdated' => 1168623227,
+                   'message' => 'URL linka'
+                 },
+          'filename' => {
+                          'lastUpdated' => undef,
+                          'message' => ''
+                        },
+          'description.first.25words' => {
+                                           'lastUpdated' => undef,
+                                           'message' => ''
+                                         },
+          'attachment.url' => {
+                                'lastUpdated' => 1214054905,
+                                'message' => 'URL za preuzimanje ovog dodatka.'
+                              },
+          '73' => {
+                    'lastUpdated' => 1214056957,
+                    'message' => 'Sljedeće promjenljive su dostupne za predložak članaka.'
+                  },
+          'image.thumbnail' => {
+                                 'lastUpdated' => undef,
+                                 'message' => ''
+                               },
+          'attachment.name' => {
+                                 'lastUpdated' => 1214054957,
+                                 'message' => 'Ime datoteke za ovaj dodatak.'
+                               },
+          'link title description' => {
+                                        'lastUpdated' => undef,
+                                        'message' => ''
+                                      }
+        }
+;
 
 1;
