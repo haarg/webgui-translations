@@ -1,0 +1,5 @@
+package WebGUI::i18n::Ukrainian::Macro_r_printable;
+
+our $I18N = {};
+
+1;
