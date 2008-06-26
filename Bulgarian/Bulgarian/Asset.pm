@@ -31,6 +31,11 @@ our $I18N = {
 		lastUpdated => 
 	},
 
+	'make asset exportable' => {
+		message => q||,
+		lastUpdated => 
+	},
+
 	'newWindow' => {
 		message => q||,
 		lastUpdated => 
@@ -87,8 +92,8 @@ our $I18N = {
 	},
 
 	'872' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Кой може да вижда?|,
+		lastUpdated => 1208190387
 	},
 
 	'Data Type description' => {
@@ -197,8 +202,8 @@ our $I18N = {
 	},
 
 	'886' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Да се скрие ли от навигация?|,
+		lastUpdated => 1208190558
 	},
 
 	'view help' => {
@@ -207,6 +212,11 @@ our $I18N = {
 	},
 
 	'deleteConfirm' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'make asset exportable description' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -322,8 +332,8 @@ our $I18N = {
 	},
 
 	'895' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Таймаут при кеширане|,
+		lastUpdated => 1208190624
 	},
 
 	'Export as user' => {
@@ -387,8 +397,8 @@ our $I18N = {
 	},
 
 	'954' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Менаджиране на системния клипборд.|,
+		lastUpdated => 1208190946
 	},
 
 	'purge revision after' => {
@@ -447,8 +457,8 @@ our $I18N = {
 	},
 
 	'950' => {
-		message => q||,
-		lastUpdated => 
+		message => q|<p>Изпразване на клипборда.&nbsp;</p>|,
+		lastUpdated => 1208190891
 	},
 
 	'486' => {
@@ -492,8 +502,8 @@ our $I18N = {
 	},
 
 	'940' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Да се отвори в нов прозорец?|,
+		lastUpdated => 1208190670
 	},
 
 	'43' => {
@@ -507,8 +517,8 @@ our $I18N = {
 	},
 
 	'886 description' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Дали този асет да не се показва в навигационното меню и картата на сайта.|,
+		lastUpdated => 1208190602
 	},
 
 	'directory index' => {
@@ -687,8 +697,8 @@ our $I18N = {
 	},
 
 	'940 description' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Изберете &quot;yes&quot; за да отворите този асет в нов прозорец. Имайте предвид, че има много потенциални проблеми с това. Може да не работи при някои навигации или ако потребителят е изключил Javascript или може да бъде блокиран от някои pop-up блокери. Използвайте това свойство с внимание.|,
+		lastUpdated => 1208190843
 	},
 
 	'last updated' => {
@@ -697,6 +707,11 @@ our $I18N = {
 	},
 
 	'Select' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'package extract error' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -737,8 +752,8 @@ our $I18N = {
 	},
 
 	'949' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Менаджиране на клипборда.|,
+		lastUpdated => 1208190876
 	},
 
 	'asset template title' => {
@@ -842,8 +857,8 @@ our $I18N = {
 	},
 
 	'896' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Таймаут при кеширане (Посетители)|,
+		lastUpdated => 1208190651
 	},
 
 	'groupIdView' => {
@@ -912,8 +927,8 @@ our $I18N = {
 	},
 
 	'951' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Сигурен ли сте, че искате да изпразните клипборда в кошчето?|,
+		lastUpdated => 1208190925
 	},
 
 	'85' => {
@@ -927,8 +942,8 @@ our $I18N = {
 	},
 
 	'872 description' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Изберете коя група може да вижда този асет. Ако искате едновременно посетителите регистрираните потребители да могат да виждат този асет тогава Вие трябва да изберете групата &quot;Everybody&quot;. Групата по подразбиране, която може да вижда този асет е групата на родителя.|,
+		lastUpdated => 1208190532
 	},
 
 	'99 description' => {
