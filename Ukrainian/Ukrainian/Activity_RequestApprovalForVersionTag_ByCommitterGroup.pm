@@ -1,4 +1,5 @@
 package WebGUI::i18n::Ukrainian::Activity_RequestApprovalForVersionTag_ByCommitterGroup;
+use utf8;
 
 our $I18N = {};
 

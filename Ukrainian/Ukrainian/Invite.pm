@@ -1,4 +1,5 @@
 package WebGUI::i18n::Ukrainian::Invite;
+use utf8;
 
 our $I18N = {};
 
