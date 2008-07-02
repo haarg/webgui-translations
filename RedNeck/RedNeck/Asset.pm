@@ -1,4 +1,6 @@
 package WebGUI::i18n::RedNeck::Asset;
+use utf8;
+use utf8;
 
 our $I18N = {
 	'lock help' => {
