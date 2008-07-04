@@ -1,4 +1,5 @@
 package WebGUI::i18n::Russian::DateTime;
+use utf8;
 
 our $I18N = {
 	'sunday' => {
