@@ -9,25 +9,25 @@ our $I18N = {
     'lastUpdated' => 1215503638,
     'message' => 'Reihe 2'
   },
+  'underline' => {
+    'lastUpdated' => 1215508678,
+    'message' => 'Unterstreichung'
+  },
   'styleselect' => {
     'lastUpdated' => 1215508245,
     'message' => 'Style anwenden'
   },
-  'underline' => {
-    'lastUpdated' => undef,
-    'message' => ''
-  },
-  'print' => {
-    'lastUpdated' => 1215503428,
-    'message' => 'Drucken'
+  'editForm allowMedia label' => {
+    'lastUpdated' => 1215501130,
+    'message' => 'Medien erlauben'
   },
   'italic' => {
     'lastUpdated' => 1215501843,
     'message' => 'Kursiv'
   },
-  'editForm allowMedia label' => {
-    'lastUpdated' => 1215501130,
-    'message' => 'Medien erlauben'
+  'print' => {
+    'lastUpdated' => 1215503428,
+    'message' => 'Drucken'
   },
   'save' => {
     'lastUpdated' => 1215503664,
@@ -41,21 +41,21 @@ our $I18N = {
     'lastUpdated' => 1215501743,
     'message' => 'Inline Popups'
   },
-  'code' => {
-    'lastUpdated' => 1215500753,
-    'message' => 'Quellcode betrachten/bearbeiten'
-  },
-  'formatselect' => {
-    'lastUpdated' => 1211352295,
-    'message' => 'Format &uuml;bernehmen'
+  'left to right' => {
+    'lastUpdated' => 1215502049,
+    'message' => 'Von links nach rechts'
   },
   'toolbar buttons' => {
     'lastUpdated' => 1215508355,
     'message' => 'Schaltfl&auml;chen der Werkzeugleiste'
   },
-  'left to right' => {
-    'lastUpdated' => 1215502049,
-    'message' => 'Von links nach rechts'
+  'formatselect' => {
+    'lastUpdated' => 1211352295,
+    'message' => 'Format &uuml;bernehmen'
+  },
+  'code' => {
+    'lastUpdated' => 1215500753,
+    'message' => 'Quellcode betrachten/bearbeiten'
   },
   'elements description' => {
     'lastUpdated' => 1215501378,
@@ -65,25 +65,25 @@ our $I18N = {
     'lastUpdated' => 1215501312,
     'message' => 'G&uuml;ltige Elemente'
   },
-  'tablecontrols' => {
-    'lastUpdated' => 1215508330,
-    'message' => 'Steuerelemente f&uuml;r Tabellen'
-  },
   'right to left' => {
     'lastUpdated' => 1215503610,
     'message' => 'Rechts nach links'
   },
-  'row 3' => {
-    'lastUpdated' => 1215503648,
-    'message' => 'Reihe 3'
+  'tablecontrols' => {
+    'lastUpdated' => 1215508330,
+    'message' => 'Steuerelemente f&uuml;r Tabellen'
+  },
+  'bullist' => {
+    'lastUpdated' => 1215500670,
+    'message' => 'Bullet List'
   },
   'indent' => {
     'lastUpdated' => 1215501722,
     'message' => 'Zeileneinzug'
   },
-  'bullist' => {
-    'lastUpdated' => 1215500670,
-    'message' => 'Bullet List'
+  'row 3' => {
+    'lastUpdated' => 1215503648,
+    'message' => 'Reihe 3'
   },
   'remove line breaks' => {
     'lastUpdated' => 1215503492,
@@ -93,13 +93,13 @@ our $I18N = {
     'lastUpdated' => 1215502615,
     'message' => 'F&uuml;ge als reinen Text ein'
   },
-  'top' => {
-    'lastUpdated' => undef,
-    'message' => ''
-  },
   'directionality' => {
     'lastUpdated' => 1215500875,
     'message' => 'Textausrichtung'
+  },
+  'top' => {
+    'lastUpdated' => 1215508647,
+    'message' => 'Anfang'
   },
   'css file description' => {
     'lastUpdated' => 1215500852,
@@ -110,8 +110,8 @@ our $I18N = {
     'message' => 'WebGUI Bild'
   },
   'use br description' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1215508786,
+    'message' => 'Benutze &lt;BR&gt; Tag anstatt &lt;P&gt; Tag, wenn eine neue Zeile im Editor angefangen wird.'
   },
   'preformatted description' => {
     'lastUpdated' => 1215503147,
@@ -125,21 +125,21 @@ our $I18N = {
     'lastUpdated' => 1215502160,
     'message' => 'Links ausrichten'
   },
+  'using rich edit description' => {
+    'lastUpdated' => 1215508894,
+    'message' => 'Frage den Benutzer, ob der Rich Editor f&uuml;r diese Eingabemaske benutzt werden soll (bei jedem Zugriff darauf).'
+  },
   'justifyright' => {
     'lastUpdated' => 1215502173,
     'message' => 'Rechts ausrichten'
-  },
-  'using rich edit description' => {
-    'lastUpdated' => undef,
-    'message' => ''
   },
   'rich edit edit config' => {
     'lastUpdated' => 1215503582,
     'message' => 'Konfiguration des Rich Editors'
   },
   'visualaid' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1215508975,
+    'message' => 'Umschalten auf Visuelle Hilfe f&uuml;r Tabellen'
   },
   'numlist' => {
     'lastUpdated' => 1215502495,
@@ -153,21 +153,21 @@ our $I18N = {
     'lastUpdated' => 1215500479,
     'message' => 'Serverseitige Rechtschreibpr&uuml;fung'
   },
-  'using rich edit' => {
-    'lastUpdated' => undef,
-    'message' => ''
-  },
   'bottom' => {
     'lastUpdated' => 1215500657,
     'message' => 'Ende'
   },
-  'editor height description' => {
-    'lastUpdated' => 1215501274,
-    'message' => 'Die H&ouml;he des gesamten Editors, inklusive der Men&uuml;s, gemessen in Pixel.'
+  'using rich edit' => {
+    'lastUpdated' => 1215508815,
+    'message' => 'Benutzer fragen, ob der Rich Editor benutzt werden soll?'
   },
   'image' => {
     'lastUpdated' => 1215501703,
     'message' => 'Bild'
+  },
+  'editor height description' => {
+    'lastUpdated' => 1215501274,
+    'message' => 'Die H&ouml;he des gesamten Editors, inklusive der Men&uuml;s, gemessen in Pixel.'
   },
   'toolbar buttons description' => {
     'lastUpdated' => 1215508516,
@@ -226,8 +226,8 @@ our $I18N = {
     'message' => 'Redo'
   },
   'unlink' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1215508715,
+    'message' => 'Unlink'
   },
   'strikethrough' => {
     'lastUpdated' => undef,
@@ -250,36 +250,36 @@ our $I18N = {
     'message' => 'Code aufr&auml;umen'
   },
   'use br' => {
-    'lastUpdated' => undef,
-    'message' => ''
-  },
-  'undo' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1215508745,
+    'message' => 'Benutze &lt;br/&gt; anstatt &lt;p&gt;, falls &quot;Enter&quot; gedr&uuml;ckt wird?'
   },
   'collateral' => {
     'lastUpdated' => 1215500766,
     'message' => 'WebGUI Makro'
   },
-  'source editor height' => {
-    'lastUpdated' => 1215503691,
-    'message' => 'Quellcode Editor H&ouml;he'
+  'undo' => {
+    'lastUpdated' => 1215508687,
+    'message' => 'Undo'
   },
   'justifyfull' => {
     'lastUpdated' => 1215502128,
     'message' => 'Als Blocksatz ausrichten'
   },
+  'source editor height' => {
+    'lastUpdated' => 1215503691,
+    'message' => 'Quellcode Editor H&ouml;he'
+  },
   'inline popups description' => {
     'lastUpdated' => 1215501771,
     'message' => 'Zeigt Popups inline anstatt in einem neuen Browser Fenster.'
   },
-  'outdent' => {
-    'lastUpdated' => 1215502555,
-    'message' => 'Ausr&uuml;cken'
-  },
   'advhr' => {
     'lastUpdated' => 1215500555,
     'message' => '<p>Erweiterte horizontale Linie </p>'
+  },
+  'outdent' => {
+    'lastUpdated' => 1215502555,
+    'message' => 'Ausr&uuml;cken'
   },
   'justifycenter' => {
     'lastUpdated' => 1215502148,
@@ -289,37 +289,37 @@ our $I18N = {
     'lastUpdated' => 1215503556,
     'message' => 'Suchen und Ersetzen'
   },
-  'no dictionaries' => {
-    'lastUpdated' => 1215502411,
-    'message' => 'Es wurden keine W&ouml;rterb&uuml;cher konfiguriert. Die Rechtschreibpr&uuml;fung wird deshalb nicht aktiviert.'
-  },
   'hr' => {
     'lastUpdated' => 1215501662,
     'message' => 'Horizontale Linie einf&uuml;gen'
   },
-  'source editor width description' => {
-    'lastUpdated' => 1215508165,
-    'message' => 'Die Breite des Bereichs des Rich Editors, in dem der Benutzer Quellcode eingeben kann, gemessen in Pixel.'
+  'no dictionaries' => {
+    'lastUpdated' => 1215502411,
+    'message' => 'Es wurden keine W&ouml;rterb&uuml;cher konfiguriert. Die Rechtschreibpr&uuml;fung wird deshalb nicht aktiviert.'
   },
   'preview' => {
     'lastUpdated' => 1215503418,
     'message' => 'Vorschau'
   },
-  'charmap' => {
-    'lastUpdated' => 1215500693,
-    'message' => 'Sonderzeichen'
+  'source editor width description' => {
+    'lastUpdated' => 1215508165,
+    'message' => 'Die Breite des Bereichs des Rich Editors, in dem der Benutzer Quellcode eingeben kann, gemessen in Pixel.'
   },
-  'enable context menu' => {
-    'lastUpdated' => 1215501489,
-    'message' => 'Kontextmen&uuml; aktivieren'
+  'pagetree' => {
+    'lastUpdated' => 1215502576,
+    'message' => 'WebGUI Seitenbaum Link'
   },
   'pasteword' => {
     'lastUpdated' => 1215502629,
     'message' => 'F&uuml;ge aus Word ein'
   },
-  'pagetree' => {
-    'lastUpdated' => 1215502576,
-    'message' => 'WebGUI Seitenbaum Link'
+  'enable context menu' => {
+    'lastUpdated' => 1215501489,
+    'message' => 'Kontextmen&uuml; aktivieren'
+  },
+  'charmap' => {
+    'lastUpdated' => 1215500693,
+    'message' => 'Sonderzeichen'
   },
   'inserttime' => {
     'lastUpdated' => 1215501828,
@@ -349,13 +349,13 @@ our $I18N = {
     'lastUpdated' => 1215500863,
     'message' => 'Ausschneiden'
   },
-  'no wrap description' => {
-    'lastUpdated' => 1215502480,
-    'message' => 'Verhindert das umbrechen von Text/W&ouml;rtern im Editor.'
-  },
   'toolbar location' => {
     'lastUpdated' => 1215508544,
     'message' => 'Lage der Werkzeugleiste'
+  },
+  'no wrap description' => {
+    'lastUpdated' => 1215502480,
+    'message' => 'Verhindert das umbrechen von Text/W&ouml;rtern im Editor.'
   },
   'source editor width' => {
     'lastUpdated' => 1215503706,
@@ -373,13 +373,13 @@ our $I18N = {
     'lastUpdated' => 1215502706,
     'message' => 'Erhalte Leerzeichen als vorformatierten Text?'
   },
-  'fontselect' => {
-    'lastUpdated' => 1215501544,
-    'message' => 'Schriftart'
-  },
   'link' => {
     'lastUpdated' => 1215502080,
     'message' => 'Erzeuge Hyperlink'
+  },
+  'fontselect' => {
+    'lastUpdated' => 1215501544,
+    'message' => 'Schriftart'
   },
   'emotions' => {
     'lastUpdated' => 1215501477,
@@ -390,8 +390,8 @@ our $I18N = {
     'message' => 'Falls hier &quot;ja&quot; gesetzt ist, wird das Einbetten von Flash und anderen Medien durch den Editor erlaubt. Hinweis: Das Setzen auf &quot;nein&quot; verbietet Flash nicht explizit.'
   },
   'toolbar location description' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1215508917,
+    'message' => 'Bestimmt, ob die Werkzeugleisten ober- oder unterhalb der Eingabemaske platziert werden.'
   },
   'sub' => {
     'lastUpdated' => 1215508274,
@@ -405,13 +405,13 @@ our $I18N = {
     'lastUpdated' => 1215501648,
     'message' => 'Vollbild'
   },
-  'directionality description' => {
-    'lastUpdated' => 1215500918,
-    'message' => 'Erlaubt Behandlung von Sprachen, die von rechts nach links bzw. von links nach rechts geschrieben werden.'
-  },
   'insertdate' => {
     'lastUpdated' => 1215501818,
     'message' => 'Einf&uuml;gedatum'
+  },
+  'directionality description' => {
+    'lastUpdated' => 1215500918,
+    'message' => 'Erlaubt Behandlung von Sprachen, die von rechts nach links bzw. von links nach rechts geschrieben werden.'
   }
 }
 ;
