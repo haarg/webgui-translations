@@ -1,4 +1,5 @@
 package WebGUI::i18n::Dutch::Friends;
+use utf8;
 
 our $I18N = {
 	'invalid invite code' => {

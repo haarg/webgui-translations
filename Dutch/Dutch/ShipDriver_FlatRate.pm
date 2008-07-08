@@ -1,4 +1,5 @@
 package WebGUI::i18n::Dutch::ShipDriver_FlatRate;
+use utf8;
 
 our $I18N = {
 	'percentageOfWeight help' => {

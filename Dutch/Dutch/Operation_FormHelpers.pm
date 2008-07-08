@@ -1,4 +1,5 @@
 package WebGUI::i18n::Dutch::Operation_FormHelpers;
+use utf8;
 
 our $I18N = {
 	'Folder name' => {

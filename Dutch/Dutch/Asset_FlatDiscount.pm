@@ -1,101 +1,87 @@
 package WebGUI::i18n::Dutch::Asset_FlatDiscount;
-
+use utf8;
 our $I18N = {
-	'formHeader' => {
-		message => q|De bovenkant van het formulier|,
-		lastUpdated => 1213711262
-	},
-
-	'flat discount coupon template' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'assetName' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'price discount' => {
-		message => q|Kortingsbedrag|,
-		lastUpdated => 1213711176
-	},
-
-	'hasAddedToCart' => {
-		message => q|Een functie die aangeeft dat de gebruiker het product aan de winkelwagen heeft toegevoegd, zodat een bedankje getoond kan worden.|,
-		lastUpdated => 1213711227
-	},
-
-	'add to cart' => {
-		message => q|Voeg toe aan winkelwagen|,
-		lastUpdated => 1213710730
-	},
-
-	'template' => {
-		message => q|Sjabloon|,
-		lastUpdated => 1213710710
-	},
-
-	'addToCartButton' => {
-		message => q|Een knop met &quot;Toevoegen aan winkelwagen&quot; erop|,
-		lastUpdated => 1213710759
-	},
-
-	'default thank you message' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'price discount help' => {
-		message => q|Welk vast bedrag moet er van de rpijs worden afgetrokken met deze kortingsbon?|,
-		lastUpdated => 1213711327
-	},
-
-	'must spend help' => {
-		message => q|Hoeveel moet een bezoeker besteden voordat de korting toegepast wordt?|,
-		lastUpdated => 1213710827
-	},
-
-	'thank you message' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'template help' => {
-		message => q|Kies een sjabloon dat gebruikt wordt om deze kortingsbon te tonen.|,
-		lastUpdated => 1213710869
-	},
-
-	'must spend' => {
-		message => q|Minimale besteding|,
-		lastUpdated => 1213710797
-	},
-
-	'percentage discount' => {
-		message => q|Kortingspercentage|,
-		lastUpdated => 1213711151
-	},
-
-	'formFooter' => {
-		message => q|De onderkant van het formulier|,
-		lastUpdated => 1213711241
-	},
-
-	'thank you message help' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'percentage discount help' => {
-		message => q|Welk percentage wordt van de prijs gehaald met deze kortingsbon?|,
-		lastUpdated => 1213711294
-	},
-
-	'flat discount coupon template help' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-};
+  'formHeader' => {
+    'lastUpdated' => 1213711262,
+    'message' => 'De bovenkant van het formulier'
+  },
+  'flat discount coupon template' => {
+    'lastUpdated' => 1213972791,
+    'message' => 'Sjabloon voor kortingsbon met vast bedrag'
+  },
+  'assetName' => {
+    'lastUpdated' => 1213972740,
+    'message' => 'Kortingsbon voor een vast bedrag'
+  },
+  'alreadyHasCoupon' => {
+    'lastUpdated' => 1215444485,
+    'message' => 'Een functie die aangeeft dat de gebruiker deze kortingsbon al in de winkelwagen heeft.'
+  },
+  'price discount' => {
+    'lastUpdated' => 1213711176,
+    'message' => 'Kortingsbedrag'
+  },
+  'hasAddedToCart' => {
+    'lastUpdated' => 1215444501,
+    'message' => 'Een functie die aangeeft dat de gebruiker het product aan de winkelwagen heeft toegevoegd, zodat een bedankje getoond kan worden.'
+  },
+  'add to cart' => {
+    'lastUpdated' => 1213710730,
+    'message' => 'Voeg toe aan winkelwagen'
+  },
+  'template' => {
+    'lastUpdated' => 1213710710,
+    'message' => 'Sjabloon'
+  },
+  'addToCartButton' => {
+    'lastUpdated' => 1213710759,
+    'message' => 'Een knop met &quot;Toevoegen aan winkelwagen&quot; erop'
+  },
+  'default thank you message' => {
+    'lastUpdated' => 1213972770,
+    'message' => 'De kortingsbon is toegevoegd aan de winkelwagen.'
+  },
+  'price discount help' => {
+    'lastUpdated' => 1213711327,
+    'message' => 'Welk vast bedrag moet er van de rpijs worden afgetrokken met deze kortingsbon?'
+  },
+  'must spend help' => {
+    'lastUpdated' => 1213710827,
+    'message' => 'Hoeveel moet een bezoeker besteden voordat de korting toegepast wordt?'
+  },
+  'thank you message' => {
+    'lastUpdated' => 1213972939,
+    'message' => 'Bedank bericht'
+  },
+  'template help' => {
+    'lastUpdated' => 1213710869,
+    'message' => 'Kies een sjabloon dat gebruikt wordt om deze kortingsbon te tonen.'
+  },
+  'must spend' => {
+    'lastUpdated' => 1213710797,
+    'message' => 'Minimale besteding'
+  },
+  'percentage discount' => {
+    'lastUpdated' => 1213711151,
+    'message' => 'Kortingspercentage'
+  },
+  'formFooter' => {
+    'lastUpdated' => 1213711241,
+    'message' => 'De onderkant van het formulier'
+  },
+  'thank you message help' => {
+    'lastUpdated' => 1213972990,
+    'message' => 'Schrijf een bericht om te bedanken. Dit kan ook een inlichting zijn dat iets is toegevoegd aan de winkelwagen.'
+  },
+  'percentage discount help' => {
+    'lastUpdated' => 1213711294,
+    'message' => 'Welk percentage wordt van de prijs gehaald met deze kortingsbon?'
+  },
+  'flat discount coupon template help' => {
+    'lastUpdated' => 1213972929,
+    'message' => 'De volgende sjaboon variabelen zijn beschikbaar voor dit asset.'
+  }
+}
+;
 
 1;

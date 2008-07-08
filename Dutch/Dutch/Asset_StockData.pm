@@ -1,4 +1,5 @@
 package WebGUI::i18n::Dutch::Asset_StockData;
+use utf8;
 
 our $I18N = {
 	'help_stock_list_template' => {

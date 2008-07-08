@@ -1,4 +1,5 @@
 package WebGUI::i18n::Dutch::Asset_RichEdit;
+use utf8;
 
 our $I18N = {
 	'disable rich edit' => {
@@ -19,6 +20,11 @@ our $I18N = {
 	'underline' => {
 		message => q|Onderstrepen|,
 		lastUpdated => 1204036582
+	},
+
+	'editForm allowMedia label' => {
+		message => q|Media toestaan|,
+		lastUpdated => 1213972128
 	},
 
 	'print' => {
@@ -474,6 +480,11 @@ our $I18N = {
 	'emotions' => {
 		message => q|Smileys|,
 		lastUpdated => 1204037031
+	},
+
+	'editForm allowMedia description' => {
+		message => q|Als dit op &quot;Ja&quot; staat kunnen Flash en andere media objecten via de Rich editor worden toegevoegd. Als het op &quot;Nee&quot; staat wil dit niet betekenen dat Flash niet toegestaan is, maar dat er geen garanties zijn dat het werkt.|,
+		lastUpdated => 1213972105
 	},
 
 	'toolbar location description' => {

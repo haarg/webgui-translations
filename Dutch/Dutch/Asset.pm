@@ -1,4 +1,5 @@
 package WebGUI::i18n::Dutch::Asset;
+use utf8;
 
 our $I18N = {
 	'lock help' => {

@@ -1,4 +1,5 @@
 package WebGUI::i18n::Dutch::Auth;
+use utf8;
 
 our $I18N = {
 	'login.form.header' => {
@@ -62,8 +63,8 @@ our $I18N = {
 	},
 
 	'showMessageOnLoginSeen' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Aantal keren bericht tonen|,
+		lastUpdated => 1213971964
 	},
 
 	'no.label' => {

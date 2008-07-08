@@ -1,4 +1,5 @@
 package WebGUI::i18n::Dutch::Asset_GalleryAlbum;
+use utf8;
 
 our $I18N = {
 	'helpvar thumbnailUrl' => {
@@ -14,6 +15,11 @@ our $I18N = {
 	'helpvar form_title' => {
 		message => q|De titel van het album|,
 		lastUpdated => 1201268327
+	},
+
+	'helpvar previousAlbum_title' => {
+		message => q|De titel van het vorige album in de lijst.<br /> |,
+		lastUpdated => 1213973329
 	},
 
 	'helpvar form_cancel' => {
@@ -101,6 +107,11 @@ our $I18N = {
 		lastUpdated => 1213702521
 	},
 
+	'helpvar nextAlbum_title' => {
+		message => q|De titel van het volgende album in de lijst.|,
+		lastUpdated => 1213973317
+	},
+
 	'help delete body' => {
 		message => q|Deze variabelen zijn beschikbaar voor het verwijderen uiterlijk van het album.|,
 		lastUpdated => 1201264892
@@ -109,6 +120,11 @@ our $I18N = {
 	'help edit body' => {
 		message => q|De variabelen zijn beschikbaar voor het bewerk uiterlijk van het album.|,
 		lastUpdated => 1201264974
+	},
+
+	'helpvar nextAlbum_thumbnailUrl' => {
+		message => q|Het URL naar de miniatuur afbeelding van het volgende album in de lijst.|,
+		lastUpdated => 1213973039
 	},
 
 	'helpvar isPending' => {
@@ -179,6 +195,11 @@ our $I18N = {
 	'help viewRss body' => {
 		message => q|Deze variabelen zijn beschikbaar voor de RSS feed van het album.|,
 		lastUpdated => 1201266594
+	},
+
+	'helpvar nextAlbum_url' => {
+		message => q|Het URL naar het volgende album in de lijst, de volgorde van de Galerie album lijst wordt aangehouden. Als er geen volgend album is, zal deze variabele niet bestaan.|,
+		lastUpdated => 1213973479
 	},
 
 	'help common body' => {
@@ -254,6 +275,11 @@ our $I18N = {
 	'help view body' => {
 		message => q|Deze variabelen zijn voor het album uiterlijk van album assets.|,
 		lastUpdated => 1201266141
+	},
+
+	'helpvar previousAlbum_url' => {
+		message => q|Het URL naar het vorige album in de lijst, de volgorde van de Galerie album lijst wordt aangehouden. Als er geen vorig album is, zal deze variabele niet bestaan.<br /> |,
+		lastUpdated => 1213973500
 	},
 
 	'template url_slideshow' => {
@@ -374,6 +400,11 @@ our $I18N = {
 	'help viewRss title' => {
 		message => q|Galerie album RSS feeds variabelen|,
 		lastUpdated => 1201266615
+	},
+
+	'helpvar previousAlbum_thumbnailUrl' => {
+		message => q|Het URL naar de miniatuur afbeelding van het vorige album in de lijst.<br /> |,
+		lastUpdated => 1213973055
 	},
 
 	'addArchive keywords' => {

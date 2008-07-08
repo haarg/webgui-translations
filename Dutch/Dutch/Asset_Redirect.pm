@@ -1,4 +1,5 @@
 package WebGUI::i18n::Dutch::Asset_Redirect;
+use utf8;
 
 our $I18N = {
 	'edit the redirect properties' => {

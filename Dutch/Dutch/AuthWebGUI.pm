@@ -1,4 +1,5 @@
 package WebGUI::i18n::Dutch::AuthWebGUI;
+use utf8;
 
 our $I18N = {
 	'new password label' => {

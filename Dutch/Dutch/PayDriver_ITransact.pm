@@ -1,4 +1,5 @@
 package WebGUI::i18n::Dutch::PayDriver_ITransact;
+use utf8;
 
 our $I18N = {
 	'cardNumber' => {
@@ -6,9 +7,9 @@ our $I18N = {
 		lastUpdated => 1213881879
 	},
 
-	'invalid cvv2' => {
-		message => q|Er moet een geldige veiligheidscode voor de kaart worden ingevoerd (cvv2).|,
-		lastUpdated => 1213881729
+	'error occurred message' => {
+		message => q|De volgende fouten zijn opgetreden:|,
+		lastUpdated => 1213971744
 	},
 
 	'emailMessage' => {
@@ -41,6 +42,61 @@ our $I18N = {
 		lastUpdated => 1213881451
 	},
 
+	'vendorId help' => {
+		message => q|Vul de gebruikersnaam of verkopers identificatie die van ITransact is ontvangen.|,
+		lastUpdated => 1213971829
+	},
+
+	'address' => {
+		message => q|Adres|,
+		lastUpdated => 1213881884
+	},
+
+	'firstName' => {
+		message => q|Voornaam|,
+		lastUpdated => 1213881783
+	},
+
+	'invalid zip' => {
+		message => q|Er moet een geldige postcode worden ingevoerd.|,
+		lastUpdated => 1213881619
+	},
+
+	'invalid expiration date' => {
+		message => q|Er moet een geldige verloopdatum worden ingevoerd.|,
+		lastUpdated => 1213881672
+	},
+
+	'expiration date' => {
+		message => q|Verloopdatum|,
+		lastUpdated => 1213881825
+	},
+
+	'use cvv2' => {
+		message => q|Gebruik CVV2|,
+		lastUpdated => 1213881465
+	},
+
+	'invalid address' => {
+		message => q|Er moet een geldig adres worden ingevoerd.|,
+		lastUpdated => 1213881777
+	},
+
+	'label' => {
+		message => q|Creditcard|,
+		lastUpdated => 1213881556
+	},
+
+	'module name' => {
+		message => q|iTransact|,
+		lastUpdated => 1213881540
+	},
+
+	'invalid cvv2' => {
+		message => q|Er moet een geldige veiligheidscode voor de kaart worden ingevoerd (cvv2).|,
+		lastUpdated => 1213881729
+	},
+
 	'city' => {
 		message => q|Stad|,
 		lastUpdated => 1213881871
@@ -56,14 +112,9 @@ our $I18N = {
 		lastUpdated => 1213881547
 	},
 
-	'address' => {
-		message => q|Adres|,
-		lastUpdated => 1213881884
-	},
-
-	'expired expiration date' => {
-		message => q|De verloopdatum van uw kaart is al voorbij.|,
-		lastUpdated => 1213881815
+	'country' => {
+		message => q|Land|,
+		lastUpdated => 1213881866
 	},
 
 	'invalid firstName' => {
@@ -71,14 +122,9 @@ our $I18N = {
 		lastUpdated => 1213881652
 	},
 
-	'country' => {
-		message => q|Land|,
-		lastUpdated => 1213881866
-	},
-
-	'firstName' => {
-		message => q|Voornaam|,
-		lastUpdated => 1213881783
+	'expired expiration date' => {
+		message => q|De verloopdatum van uw kaart is al voorbij.|,
+		lastUpdated => 1213881815
 	},
 
 	'show terminal' => {
@@ -86,19 +132,9 @@ our $I18N = {
 		lastUpdated => 1213881498
 	},
 
-	'invalid zip' => {
-		message => q|Er moet een geldige postcode worden ingevoerd.|,
-		lastUpdated => 1213881619
-	},
-
-	'invalid expiration date' => {
-		message => q|Er moet een geldige verloopdatum worden ingevoerd.|,
-		lastUpdated => 1213881672
-	},
-
-	'phone' => {
-		message => q|Telefoonnummer|,
-		lastUpdated => 1213881509
+	'use cvv2 help' => {
+		message => q|Zet deze optie op &quot;Ja&quot; als CVV2 gebruikt moet worden.|,
+		lastUpdated => 1213971788
 	},
 
 	'zipcode' => {
@@ -106,14 +142,9 @@ our $I18N = {
 		lastUpdated => 1213881431
 	},
 
-	'expiration date' => {
-		message => q|Verloopdatum|,
-		lastUpdated => 1213881825
-	},
-
-	'invalid city' => {
-		message => q|Er moet een geldige stad worden ingevoerd.|,
-		lastUpdated => 1213881741
+	'phone' => {
+		message => q|Telefoonnummer|,
+		lastUpdated => 1213881509
 	},
 
 	'cvv2' => {
@@ -121,9 +152,14 @@ our $I18N = {
 		lastUpdated => 1213881861
 	},
 
-	'use cvv2' => {
-		message => q|Gebruik CVV2|,
-		lastUpdated => 1213881465
+	'ITransact' => {
+		message => q|ITransact|,
+		lastUpdated => 1213971672
+	},
+
+	'invalid city' => {
+		message => q|Er moet een geldige stad worden ingevoerd.|,
+		lastUpdated => 1213881741
 	},
 
 	'extra info' => {
@@ -141,19 +177,14 @@ our $I18N = {
 		lastUpdated => 1213881530
 	},
 
-	'invalid address' => {
-		message => q|Er moet een geldig adres worden ingevoerd.|,
-		lastUpdated => 1213881777
+	'emailMessage help' => {
+		message => q|Het bericht dat toegevoegd wordt aan de e-mail die de gebruiker van ITransact ontvangt.|,
+		lastUpdated => 1213971726
 	},
 
-	'label' => {
-		message => q|Creditcard|,
-		lastUpdated => 1213881556
-	},
-
-	'module name' => {
-		message => q|iTransact|,
-		lastUpdated => 1213881540
+	'password help' => {
+		message => q|Het wachtwoord voor de ITransact account|,
+		lastUpdated => 1213971765
 	},
 
 };

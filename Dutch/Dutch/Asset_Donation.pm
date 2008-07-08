@@ -1,4 +1,5 @@
 package WebGUI::i18n::Dutch::Asset_Donation;
+use utf8;
 
 our $I18N = {
 	'default price help' => {

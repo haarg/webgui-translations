@@ -1,4 +1,5 @@
 package WebGUI::i18n::Dutch::Activity_RequestApprovalForVersionTag_ByLineage;
+use utf8;
 
 our $I18N = {
 	'topicName' => {

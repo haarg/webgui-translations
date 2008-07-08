@@ -1,4 +1,5 @@
 package WebGUI::i18n::Dutch::Form_HTMLArea;
+use utf8;
 
 our $I18N = {
 	'rich editor load error' => {

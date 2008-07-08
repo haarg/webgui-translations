@@ -1,4 +1,5 @@
 package WebGUI::i18n::Dutch::CommerceShippingByPrice;
+use utf8;
 
 our $I18N = {
 	'percentage of price' => {

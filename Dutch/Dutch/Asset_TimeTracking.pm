@@ -1,4 +1,5 @@
 package WebGUI::i18n::Dutch::Asset_TimeTracking;
+use utf8;
 
 our $I18N = {
 	'time.add.row.label' => {

@@ -1,4 +1,5 @@
 package WebGUI::i18n::Dutch::PayDriver;
+use utf8;
 
 our $I18N = {
 	'receipt subject' => {
@@ -43,7 +44,7 @@ our $I18N = {
 
 	'label help' => {
 		message => q|De naam waarmee een betalingsmethode getoond wordt.|,
-		lastUpdated => 1213880903
+		lastUpdated => 1213966599
 	},
 
 	'error processing payment message' => {

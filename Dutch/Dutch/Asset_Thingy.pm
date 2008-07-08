@@ -1,4 +1,5 @@
 package WebGUI::i18n::Dutch::Asset_Thingy;
+use utf8;
 
 our $I18N = {
 	'ignore first line label' => {

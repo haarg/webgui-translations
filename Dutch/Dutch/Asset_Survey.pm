@@ -1,4 +1,5 @@
 package WebGUI::i18n::Dutch::Asset_Survey;
+use utf8;
 
 our $I18N = {
 	'duration.minutes' => {

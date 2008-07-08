@@ -1,4 +1,5 @@
 package WebGUI::i18n::Dutch::VersionTag;
+use utf8;
 
 our $I18N = {
 	'manage pending versions' => {
