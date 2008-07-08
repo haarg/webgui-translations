@@ -6,8 +6,8 @@ our $I18N = {
     'message' => 'Diesen Rich Editor deaktivieren?'
   },
   'row 2' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1215503638,
+    'message' => 'Reihe 2'
   },
   'underline' => {
     'lastUpdated' => undef,
@@ -22,28 +22,28 @@ our $I18N = {
     'message' => 'Medien erlauben'
   },
   'italic' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1215501843,
+    'message' => 'Kursiv'
   },
   'print' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1215503428,
+    'message' => 'Drucken'
   },
   'save' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1215503664,
+    'message' => 'Speichern / &Uuml;bertragen'
   },
   'anchor' => {
     'lastUpdated' => 1215500565,
     'message' => 'Anker'
   },
   'inline popups' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1215501743,
+    'message' => 'Inline Popups'
   },
   'left to right' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1215502049,
+    'message' => 'Von links nach rechts'
   },
   'toolbar buttons' => {
     'lastUpdated' => undef,
@@ -66,8 +66,8 @@ our $I18N = {
     'message' => 'G&uuml;ltige Elemente'
   },
   'right to left' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1215503610,
+    'message' => 'Rechts nach links'
   },
   'tablecontrols' => {
     'lastUpdated' => undef,
@@ -78,20 +78,20 @@ our $I18N = {
     'message' => 'Bullet List'
   },
   'indent' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1215501722,
+    'message' => 'Zeileneinzug'
   },
   'row 3' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1215503648,
+    'message' => 'Reihe 3'
   },
   'remove line breaks' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1215503492,
+    'message' => 'Zeilenumbr&uuml;che aus HTML entfernen?'
   },
   'pastetext' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1215502615,
+    'message' => 'F&uuml;ge als reinen Text ein'
   },
   'directionality' => {
     'lastUpdated' => 1215500875,
@@ -106,44 +106,44 @@ our $I18N = {
     'message' => 'Gibt eine CSS Datei an, die f&uuml;r das Layout des Editorinhalts benutzt wird. Falls nicht angegeben, wird ein Standard CSS benutzt.'
   },
   'insertImage' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1215501782,
+    'message' => 'WebGUI Bild'
   },
   'use br description' => {
     'lastUpdated' => undef,
     'message' => ''
   },
   'preformatted description' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1215503147,
+    'message' => 'Normalerweise werden in HTML mehrere Leerzeichen, Tabs und Zeilenumschaltungen als ein einzelnes Leerzeichen interpretiert. Falls diese Option gesetzt ist, bleiben alle Leerzeichen als solche erhalten.'
   },
   'backcolor' => {
     'lastUpdated' => 1215500590,
     'message' => 'Hintergrundfarbe'
   },
   'justifyleft' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1215502160,
+    'message' => 'Links ausrichten'
   },
   'using rich edit description' => {
     'lastUpdated' => undef,
     'message' => ''
   },
   'justifyright' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1215502173,
+    'message' => 'Rechts ausrichten'
   },
   'rich edit edit config' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1215503582,
+    'message' => 'Konfiguration des Rich Editors'
   },
   'visualaid' => {
     'lastUpdated' => undef,
     'message' => ''
   },
   'numlist' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1215502495,
+    'message' => 'Numerierte Liste'
   },
   'bold' => {
     'lastUpdated' => 1215500601,
@@ -162,8 +162,8 @@ our $I18N = {
     'message' => ''
   },
   'image' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1215501703,
+    'message' => 'Bild'
   },
   'editor height description' => {
     'lastUpdated' => 1215501274,
@@ -178,28 +178,28 @@ our $I18N = {
     'message' => 'F&uuml;gt das Kontextmen&uuml; zur Werkzeugleiste in Reihe 1 hinzu.'
   },
   'removeformat' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1215503544,
+    'message' => 'Entferne Formatierung'
   },
   'iespell' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1215501695,
+    'message' => 'Rechtschreibpr&uuml;fung (nur IE)'
   },
   'elements subtext' => {
     'lastUpdated' => 1215501466,
     'message' => 'Alles in einer Zeile, keine Zeilenumschaltung und im Format tag1[attr1|attr2],tag2[attr1].'
   },
   'search' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1215503674,
+    'message' => 'Suchen'
   },
   'forecolor' => {
     'lastUpdated' => 1211352279,
     'message' => 'Vordergrundfarbe'
   },
   'paste' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1215502600,
+    'message' => 'Einf&uuml;gen'
   },
   'assetName' => {
     'lastUpdated' => 1215500578,
@@ -214,16 +214,16 @@ our $I18N = {
     'message' => 'Breite des Editors'
   },
   'no wrap' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1215502441,
+    'message' => 'Text im Editor nicht umbrechen?'
   },
   'copy' => {
     'lastUpdated' => 1215500775,
     'message' => 'Kopieren'
   },
   'redo' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1215503457,
+    'message' => 'Redo'
   },
   'unlink' => {
     'lastUpdated' => undef,
@@ -234,12 +234,12 @@ our $I18N = {
     'message' => ''
   },
   'media' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1215502317,
+    'message' => 'Eingebettete Medien / Flash'
   },
   'row 1' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1215503628,
+    'message' => 'Reihe 1'
   },
   'sup' => {
     'lastUpdated' => undef,
@@ -262,56 +262,56 @@ our $I18N = {
     'message' => ''
   },
   'justifyfull' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1215502128,
+    'message' => 'Als Blocksatz ausrichten'
   },
   'source editor height' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1215503691,
+    'message' => 'Quellcode Editor H&ouml;he'
   },
   'inline popups description' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1215501771,
+    'message' => 'Zeigt Popups inline anstatt in einem neuen Browser Fenster.'
   },
   'advhr' => {
     'lastUpdated' => 1215500555,
     'message' => '<p>Erweiterte horizontale Linie </p>'
   },
   'outdent' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1215502555,
+    'message' => 'Ausr&uuml;cken'
   },
   'justifycenter' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1215502148,
+    'message' => 'Zentriert ausrichten'
   },
   'replace' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1215503556,
+    'message' => 'Suchen und Ersetzen'
   },
   'hr' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1215501662,
+    'message' => 'Horizontale Linie einf&uuml;gen'
   },
   'no dictionaries' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1215502411,
+    'message' => 'Es wurden keine W&ouml;rterb&uuml;cher konfiguriert. Die Rechtschreibpr&uuml;fung wird deshalb nicht aktiviert.'
   },
   'preview' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1215503418,
+    'message' => 'Vorschau'
   },
   'source editor width description' => {
     'lastUpdated' => undef,
     'message' => ''
   },
   'pagetree' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1215502576,
+    'message' => 'WebGUI Seitenbaum Link'
   },
   'pasteword' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1215502629,
+    'message' => 'F&uuml;ge aus Word ein'
   },
   'enable context menu' => {
     'lastUpdated' => 1215501489,
@@ -322,8 +322,8 @@ our $I18N = {
     'message' => 'Sonderzeichen'
   },
   'inserttime' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1215501828,
+    'message' => 'Einf&uuml;gezeit'
   },
   'source editor height description' => {
     'lastUpdated' => undef,
@@ -338,8 +338,8 @@ our $I18N = {
     'message' => 'CSS Datei'
   },
   'remove line breaks description' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1215503517,
+    'message' => 'Entfernt Zeilenumbr&uuml;che aus generiertem HTML.'
   },
   'fontsizeselect' => {
     'lastUpdated' => 1215501556,
@@ -354,28 +354,28 @@ our $I18N = {
     'message' => ''
   },
   'no wrap description' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1215502480,
+    'message' => 'Verhindert das umbrechen von Text/W&ouml;rtern im Editor.'
   },
   'source editor width' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1215503706,
+    'message' => 'Quellcode Editor Breite'
   },
   'help' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1215501636,
+    'message' => 'Hilfe'
   },
   'disable rich edit description' => {
     'lastUpdated' => 1215501116,
     'message' => 'Deaktiviert den Rich Editor systemweit, ohne Interaktion der Benutzer.'
   },
   'preformatted' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1215502706,
+    'message' => 'Erhalte Leerzeichen als vorformatierten Text?'
   },
   'link' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1215502080,
+    'message' => 'Erzeuge Hyperlink'
   },
   'fontselect' => {
     'lastUpdated' => 1215501544,
@@ -384,6 +384,10 @@ our $I18N = {
   'emotions' => {
     'lastUpdated' => 1215501477,
     'message' => 'Emoticons'
+  },
+  'editForm allowMedia description' => {
+    'lastUpdated' => 1215502288,
+    'message' => 'Falls hier &quot;ja&quot; gesetzt ist, wird das Einbetten von Flash und anderen Medien durch den Editor erlaubt. Hinweis: Das Setzen auf &quot;nein&quot; verbietet Flash nicht explizit.'
   },
   'toolbar location description' => {
     'lastUpdated' => undef,
@@ -398,12 +402,12 @@ our $I18N = {
     'message' => 'Schaltfl&auml;che'
   },
   'fullscreen' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1215501648,
+    'message' => 'Vollbild'
   },
   'insertdate' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1215501818,
+    'message' => 'Einf&uuml;gedatum'
   },
   'directionality description' => {
     'lastUpdated' => 1215500918,
