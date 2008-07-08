@@ -1,8 +1,13 @@
 package WebGUI::i18n::German::Asset_WeatherData;
-
+use utf8;
 
 our $I18N = {
 	'assetName' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'partnerId help' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -12,12 +17,12 @@ our $I18N = {
 		lastUpdated => 
 	},
 
-	'Current Weather Conditions Template to use' => {
+	'WeatherData template title' => {
 		message => q||,
 		lastUpdated => 
 	},
 
-	'WeatherData template title' => {
+	'Current Weather Conditions Template to use' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -43,8 +48,8 @@ our $I18N = {
 	},
 
 	'sky' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Wetterlage (klar, sonnig, bedeckt)|,
+		lastUpdated => 1212756742
 	},
 
 	'locations' => {
@@ -53,11 +58,21 @@ our $I18N = {
 	},
 
 	'tempF' => {
+		message => q|Temperatur in Fahrenheit|,
+		lastUpdated => 1212756758
+	},
+
+	'licenseKey' => {
 		message => q||,
 		lastUpdated => 
 	},
 
 	'query' => {
+		message => q|der gew&uuml;nschte Ort|,
+		lastUpdated => 1212756698
+	},
+
+	'partnerId' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -68,6 +83,16 @@ our $I18N = {
 	},
 
 	'Template' => {
+		message => q|Vorlage|,
+		lastUpdated => 1212756624
+	},
+
+	'licenseKey help' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'you need a weather.com key' => {
 		message => q||,
 		lastUpdated => 
 	},

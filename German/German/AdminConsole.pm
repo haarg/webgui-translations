@@ -1,4 +1,5 @@
 package WebGUI::i18n::German::AdminConsole;
+use utf8;
 
 our $I18N = {
 	'toggle off' => {

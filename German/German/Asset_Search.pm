@@ -1,4 +1,5 @@
 package WebGUI::i18n::German::Asset_Search;
+use utf8;
 
 our $I18N = {
 	'search asset template variables title' => {

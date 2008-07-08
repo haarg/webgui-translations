@@ -1,4 +1,5 @@
 package WebGUI::i18n::German::Asset_SQLForm;
+use utf8;
 
 our $I18N = {
 	'ef summary length' => {
@@ -92,8 +93,8 @@ our $I18N = {
 	},
 
 	'keep' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Behalten|,
+		lastUpdated => 1212757110
 	},
 
 	'field.formValue2' => {
@@ -172,8 +173,8 @@ our $I18N = {
 	},
 
 	'delete' => {
-		message => q||,
-		lastUpdated => 
+		message => q|L&ouml;schen|,
+		lastUpdated => 1212757081
 	},
 
 	'ers regex mismatch' => {
@@ -767,8 +768,8 @@ our $I18N = {
 	},
 
 	'none' => {
-		message => q||,
-		lastUpdated => 
+		message => q|kein(e)|,
+		lastUpdated => 1212757132
 	},
 
 	'ef default value' => {
@@ -962,8 +963,8 @@ our $I18N = {
 	},
 
 	'or' => {
-		message => q||,
-		lastUpdated => 
+		message => q|oder|,
+		lastUpdated => 1212757120
 	},
 
 	'efs jf1 error' => {
@@ -1057,8 +1058,8 @@ our $I18N = {
 	},
 
 	'cancel' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Abbruch|,
+		lastUpdated => 1212757069
 	},
 
 	'searchResults.actionButtons' => {
@@ -1177,8 +1178,8 @@ our $I18N = {
 	},
 
 	'sqlforms' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Datenbankformulare|,
+		lastUpdated => 1212757159
 	},
 
 	'superSearch.url' => {

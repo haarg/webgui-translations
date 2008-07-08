@@ -1,4 +1,5 @@
 package WebGUI::i18n::German::VersionTag;
+use utf8;
 
 our $I18N = {
 	'approval message help' => {

@@ -1,511 +1,415 @@
 package WebGUI::i18n::German::Asset_RichEdit;
-
+use utf8;
 our $I18N = {
-	'disable rich edit' => {
-		message => q|Rich Editor deaktivieren?|,
-		lastUpdated => 1211351810
-	},
-
-	'row 2' => {
-		message => q|Reihe 2|,
-		lastUpdated => 1211351931
-	},
-
-	'styleselect' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'underline' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'print' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'italic' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'save' => {
-		message => q|Speichern / Committen|,
-		lastUpdated => 1211351947
-	},
-
-	'anchor' => {
-		message => q|Anker|,
-		lastUpdated => 1211351542
-	},
-
-	'inline popups' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'code' => {
-		message => q|Code ansehen / editieren|,
-		lastUpdated => 1211351661
-	},
-
-	'formatselect' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'left to right' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'toolbar buttons' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'elements description' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'elements' => {
-		message => q|G&uuml;ltige Elemente|,
-		lastUpdated => 1211351908
-	},
-
-	'tablecontrols' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'right to left' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'row 3' => {
-		message => q|Reihe 3|,
-		lastUpdated => 1211351936
-	},
-
-	'indent' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'bullist' => {
-		message => q|Bullet List|,
-		lastUpdated => 1211351597
-	},
-
-	'remove line breaks' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'pastetext' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'top' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'directionality' => {
-		message => q|Textausrichtung|,
-		lastUpdated => 1211351763
-	},
-
-	'css file description' => {
-		message => q|Gibt die CSS Datei an, die f&uuml;r die Darstellung des Inhalts des Editors benutzt wird. Falls nicht angegeben, so wird der Standard benutzt.|,
-		lastUpdated => 1211351747
-	},
-
-	'insertImage' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'use br description' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'preformatted description' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'backcolor' => {
-		message => q|Hintergrundfarbe|,
-		lastUpdated => 1211351558
-	},
-
-	'justifyleft' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'using rich edit description' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'justifyright' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'rich edit edit config' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'visualaid' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'numlist' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'bold' => {
-		message => q|Fett|,
-		lastUpdated => 1211351562
-	},
-
-	'Server Side Spell Checker' => {
-		message => q|Serverseitige Rechtschreibpr&uuml;fung|,
-		lastUpdated => 1211351450
-	},
-
-	'using rich edit' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'bottom' => {
-		message => q|Unten|,
-		lastUpdated => 1211351589
-	},
-
-	'editor height description' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'image' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'toolbar buttons description' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'enable context menu description' => {
-		message => q|F&uuml;gt ein Kontextmen&uuml; zur Men&uuml;leiste in Reihe 1 hinzu.|,
-		lastUpdated => 1203498962
-	},
-
-	'removeformat' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'iespell' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'elements subtext' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'search' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'forecolor' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'paste' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'assetName' => {
-		message => q|Rich Editor|,
-		lastUpdated => 1211351548
-	},
-
-	'editor width description' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'editor width' => {
-		message => q|Editor Breite|,
-		lastUpdated => 1211351894
-	},
-
-	'no wrap' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'copy' => {
-		message => q|Kopieren|,
-		lastUpdated => 1211351674
-	},
-
-	'redo' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'unlink' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'strikethrough' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'media' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'row 1' => {
-		message => q|Reihe 1|,
-		lastUpdated => 1211351926
-	},
-
-	'sup' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'cleanup' => {
-		message => q|code S&auml;uberung durchf&uuml;hren|,
-		lastUpdated => 1211351649
-	},
-
-	'use br' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'collateral' => {
-		message => q|WebGUI Makro|,
-		lastUpdated => 1211351668
-	},
-
-	'undo' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'source editor height' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'justifyfull' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'inline popups description' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'outdent' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'advhr' => {
-		message => q|Erweiterte horizontale Linie|,
-		lastUpdated => 1211351537
-	},
-
-	'justifycenter' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'replace' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'no dictionaries' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'hr' => {
-		message => q|Horizontale Linie einf&uuml;gen|,
-		lastUpdated => 1211352003
-	},
-
-	'source editor width description' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'preview' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'charmap' => {
-		message => q|Sonderzeichen|,
-		lastUpdated => 1211351626
-	},
-
-	'enable context menu' => {
-		message => q|Kontextmen&uuml; aktivieren|,
-		lastUpdated => 1203498929
-	},
-
-	'pasteword' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'pagetree' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'inserttime' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'source editor height description' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'editor height' => {
-		message => q|Editor H&ouml;he|,
-		lastUpdated => 1211351878
-	},
-
-	'css file' => {
-		message => q|CSS Datei|,
-		lastUpdated => 1211351681
-	},
-
-	'remove line breaks description' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'fontsizeselect' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'cut' => {
-		message => q|Ausschneiden|,
-		lastUpdated => 1211351753
-	},
-
-	'no wrap description' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'toolbar location' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'source editor width' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'help' => {
-		message => q|Hilfe|,
-		lastUpdated => 1203543866
-	},
-
-	'disable rich edit description' => {
-		message => q|Falls der Rich Editor hier deaktiviert wird, so gilt dies f&uuml;r die gesamte Seite und f&uuml;r alle Benutzer.|,
-		lastUpdated => 1211351869
-	},
-
-	'preformatted' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'fontselect' => {
-		message => q|Schriftart|,
-		lastUpdated => 1211351987
-	},
-
-	'link' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'emotions' => {
-		message => q|Emoticons|,
-		lastUpdated => 1211351968
-	},
-
-	'toolbar location description' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'sub' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'button' => {
-		message => q|Schaltfl&auml;che|,
-		lastUpdated => 1211351608
-	},
-
-	'fullscreen' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'directionality description' => {
-		message => q|Erlaubt die Behandlung von Sprachen, die von rechts nach links bzw. von links nach rechts gelesen werden.|,
-		lastUpdated => 1211351799
-	},
-
-	'insertdate' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-};
+  'disable rich edit' => {
+    'lastUpdated' => 1215500935,
+    'message' => 'Diesen Rich Editor deaktivieren?'
+  },
+  'row 2' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'underline' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'styleselect' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'editForm allowMedia label' => {
+    'lastUpdated' => 1215501130,
+    'message' => 'Medien erlauben'
+  },
+  'italic' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'print' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'save' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'anchor' => {
+    'lastUpdated' => 1215500565,
+    'message' => 'Anker'
+  },
+  'inline popups' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'left to right' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'toolbar buttons' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'formatselect' => {
+    'lastUpdated' => 1211352295,
+    'message' => 'Format &uuml;bernehmen'
+  },
+  'code' => {
+    'lastUpdated' => 1215500753,
+    'message' => 'Quellcode betrachten/bearbeiten'
+  },
+  'elements description' => {
+    'lastUpdated' => 1215501378,
+    'message' => 'Eine Liste von HTML Tags und ihrer Attribute, die der Editor akzeptiert. Alle anderen werden aus dem Quellcode entfernt. Um alles zu erlauben, setzen Sie *[*].'
+  },
+  'elements' => {
+    'lastUpdated' => 1215501312,
+    'message' => 'G&uuml;ltige Elemente'
+  },
+  'right to left' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'tablecontrols' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'bullist' => {
+    'lastUpdated' => 1215500670,
+    'message' => 'Bullet List'
+  },
+  'indent' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'row 3' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'remove line breaks' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'pastetext' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'directionality' => {
+    'lastUpdated' => 1215500875,
+    'message' => 'Textausrichtung'
+  },
+  'top' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'css file description' => {
+    'lastUpdated' => 1215500852,
+    'message' => 'Gibt eine CSS Datei an, die f&uuml;r das Layout des Editorinhalts benutzt wird. Falls nicht angegeben, wird ein Standard CSS benutzt.'
+  },
+  'insertImage' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'use br description' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'preformatted description' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'backcolor' => {
+    'lastUpdated' => 1215500590,
+    'message' => 'Hintergrundfarbe'
+  },
+  'justifyleft' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'using rich edit description' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'justifyright' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'rich edit edit config' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'visualaid' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'numlist' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'bold' => {
+    'lastUpdated' => 1215500601,
+    'message' => 'Fett'
+  },
+  'Server Side Spell Checker' => {
+    'lastUpdated' => 1215500479,
+    'message' => 'Serverseitige Rechtschreibpr&uuml;fung'
+  },
+  'bottom' => {
+    'lastUpdated' => 1215500657,
+    'message' => 'Ende'
+  },
+  'using rich edit' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'image' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'editor height description' => {
+    'lastUpdated' => 1215501274,
+    'message' => 'Die H&ouml;he des gesamten Editors, inklusive der Men&uuml;s, gemessen in Pixel.'
+  },
+  'toolbar buttons description' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'enable context menu description' => {
+    'lastUpdated' => 1215501520,
+    'message' => 'F&uuml;gt das Kontextmen&uuml; zur Werkzeugleiste in Reihe 1 hinzu.'
+  },
+  'removeformat' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'iespell' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'elements subtext' => {
+    'lastUpdated' => 1215501466,
+    'message' => 'Alles in einer Zeile, keine Zeilenumschaltung und im Format tag1[attr1|attr2],tag2[attr1].'
+  },
+  'search' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'forecolor' => {
+    'lastUpdated' => 1211352279,
+    'message' => 'Vordergrundfarbe'
+  },
+  'paste' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'assetName' => {
+    'lastUpdated' => 1215500578,
+    'message' => 'Rich Editor'
+  },
+  'editor width description' => {
+    'lastUpdated' => 1215501298,
+    'message' => 'Die Breite des gesamten Editors, inklusive der Men&uuml;s, gemessen in Pixel.'
+  },
+  'editor width' => {
+    'lastUpdated' => 1215501285,
+    'message' => 'Breite des Editors'
+  },
+  'no wrap' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'copy' => {
+    'lastUpdated' => 1215500775,
+    'message' => 'Kopieren'
+  },
+  'redo' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'unlink' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'strikethrough' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'media' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'row 1' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'sup' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'cleanup' => {
+    'lastUpdated' => 1215500708,
+    'message' => 'Code aufr&auml;umen'
+  },
+  'use br' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'collateral' => {
+    'lastUpdated' => 1215500766,
+    'message' => 'WebGUI Makro'
+  },
+  'undo' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'justifyfull' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'source editor height' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'inline popups description' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'advhr' => {
+    'lastUpdated' => 1215500555,
+    'message' => '<p>Erweiterte horizontale Linie </p>'
+  },
+  'outdent' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'justifycenter' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'replace' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'hr' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'no dictionaries' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'preview' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'source editor width description' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'pagetree' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'pasteword' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'enable context menu' => {
+    'lastUpdated' => 1215501489,
+    'message' => 'Kontextmen&uuml; aktivieren'
+  },
+  'charmap' => {
+    'lastUpdated' => 1215500693,
+    'message' => 'Sonderzeichen'
+  },
+  'inserttime' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'source editor height description' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'editor height' => {
+    'lastUpdated' => 1215501146,
+    'message' => 'H&ouml;he des Editors'
+  },
+  'css file' => {
+    'lastUpdated' => 1215500791,
+    'message' => 'CSS Datei'
+  },
+  'remove line breaks description' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'fontsizeselect' => {
+    'lastUpdated' => 1215501556,
+    'message' => 'Schriftgr&ouml;&szlig;e'
+  },
+  'cut' => {
+    'lastUpdated' => 1215500863,
+    'message' => 'Ausschneiden'
+  },
+  'toolbar location' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'no wrap description' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'source editor width' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'help' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'disable rich edit description' => {
+    'lastUpdated' => 1215501116,
+    'message' => 'Deaktiviert den Rich Editor systemweit, ohne Interaktion der Benutzer.'
+  },
+  'preformatted' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'link' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'fontselect' => {
+    'lastUpdated' => 1215501544,
+    'message' => 'Schriftart'
+  },
+  'emotions' => {
+    'lastUpdated' => 1215501477,
+    'message' => 'Emoticons'
+  },
+  'toolbar location description' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'sub' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'button' => {
+    'lastUpdated' => 1215500680,
+    'message' => 'Schaltfl&auml;che'
+  },
+  'fullscreen' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'insertdate' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'directionality description' => {
+    'lastUpdated' => 1215500918,
+    'message' => 'Erlaubt Behandlung von Sprachen, die von rechts nach links bzw. von links nach rechts geschrieben werden.'
+  }
+}
+;
 
 1;

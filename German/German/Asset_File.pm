@@ -1,4 +1,5 @@
 package WebGUI::i18n::German::Asset_File;
+use utf8;
 
 our $I18N = {
 	'cache timeout help' => {
