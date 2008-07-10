@@ -1,4 +1,5 @@
 package WebGUI::i18n::French::Asset_Post;
+use utf8;
 
 our $I18N = {
 	'post received' => {
@@ -112,8 +113,8 @@ our $I18N = {
 	},
 
 	'name' => {
-		message => q||,
-		lastUpdated => 
+		message => q|nom|,
+		lastUpdated => 1211658672
 	},
 
 	'new file description' => {
@@ -162,8 +163,8 @@ our $I18N = {
 	},
 
 	'title' => {
-		message => q||,
-		lastUpdated => 
+		message => q|titre|,
+		lastUpdated => 1211658723
 	},
 
 	'isImage' => {
@@ -417,8 +418,8 @@ our $I18N = {
 	},
 
 	'field' => {
-		message => q||,
-		lastUpdated => 
+		message => q|champ|,
+		lastUpdated => 1211658638
 	},
 
 	'karmaIsEnabled' => {
@@ -437,8 +438,8 @@ our $I18N = {
 	},
 
 	'value' => {
-		message => q||,
-		lastUpdated => 
+		message => q|valeur|,
+		lastUpdated => 1211658744
 	},
 
 	'rate.url.thumbsUp' => {

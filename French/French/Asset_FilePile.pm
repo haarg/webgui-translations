@@ -1,4 +1,5 @@
 package WebGUI::i18n::French::Asset_FilePile;
+use utf8;
 
 our $I18N = {
 	'upload files description' => {

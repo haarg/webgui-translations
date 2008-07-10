@@ -1,4 +1,5 @@
 package WebGUI::i18n::French::Macro_SpectreCheck;
+use utf8;
 
 our $I18N = {
 	'spectre is down' => {

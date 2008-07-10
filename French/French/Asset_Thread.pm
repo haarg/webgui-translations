@@ -1,4 +1,5 @@
 package WebGUI::i18n::French::Asset_Thread;
+use utf8;
 
 our $I18N = {
 	'user.isSubscribed' => {

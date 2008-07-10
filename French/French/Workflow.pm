@@ -1,4 +1,5 @@
 package WebGUI::i18n::French::Workflow;
+use utf8;
 
 our $I18N = {
 	'workflow type count' => {

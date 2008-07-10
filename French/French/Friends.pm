@@ -1,256 +1,208 @@
 package WebGUI::i18n::French::Friends;
+use utf8;
 
 our $I18N = {
-	'invalid invite code' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'add to friends' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'remove' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'friends' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'not the right user' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'manage friends template' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'timeout' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'you have not been added' => {
-		message => q||,
-		lastUpdated => 1203426134
-	},
-
-	'default friend comments' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'friends invitation not accepted by user' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'add to friends description' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'checkboxForm' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'does not want to be a friend' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'name' => {
-		message => q|Le nom de cet ami|,
-		lastUpdated => 1203426186
-	},
-
-	'add to friends list' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'invalid invite code message' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'friends invitation accepted' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'invitation approval email' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'send friend email instructions' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'formFooter' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'confirm remove friends' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'friends invitation not accepted' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'add to friends profile' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'formHeader' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'timeout help' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'friends network invitation' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'add' => {
-		message => q|Ajouter|,
-		lastUpdated => 1202912494
-	},
-
-	'status' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'invitation accepted by user' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'removeFriendButton' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'see my friends' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'already a friend' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'friend request' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'you have been added' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'manage friends' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'topicName' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'send message' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'manage friends template help' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'offline' => {
-		message => q|D&eacute;connect&eacute;|,
-		lastUpdated => 1203426398
-	},
-
-	'friend request description' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'subjectForm' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'no friends' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'profileUrl' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'messageForm' => {
-		message => q|Code HTML (text form) du corps (body) des emails &agrave; envoyer &agrave; vos amis.|,
-		lastUpdated => 1203426364
-	},
-
-	'online' => {
-		message => q|connect&eacute;|,
-		lastUpdated => 1203426388
-	},
-
-	'deny unanswered friends' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'sendMessageButton' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'add to friends confirmation' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'my friends' => {
-		message => q|Mes amis|,
-		lastUpdated => 1203426173
-	},
-
-	'manage friends template title' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-};
+          'add to friends' => {
+                                'lastUpdated' => 1214176606,
+                                'message' => 'Ajouter aux amis'
+                              },
+          'invalid invite code' => {
+                                     'lastUpdated' => 1214176892,
+                                     'message' => 'Code d\'invitation invalide'
+                                   },
+          'remove' => {
+                        'lastUpdated' => 1214177070,
+                        'message' => 'Retir&eacute;'
+                      },
+          'friends' => {
+                         'lastUpdated' => undef,
+                         'message' => ''
+                       },
+          'not the right user' => {
+                                    'lastUpdated' => 1214177050,
+                                    'message' => 'Le code d\'invitation que vous essay&eacute; d\'utiliser n\'est pas pour vous.'
+                                  },
+          'manage friends template' => {
+                                         'lastUpdated' => undef,
+                                         'message' => ''
+                                       },
+          'timeout' => {
+                         'lastUpdated' => undef,
+                         'message' => ''
+                       },
+          'you have not been added' => {
+                                         'lastUpdated' => 1214177276,
+                                         'message' => 'Vous avez refus&eacute; la demande de %s'
+                                       },
+          'default friend comments' => {
+                                         'lastUpdated' => undef,
+                                         'message' => ''
+                                       },
+          'friends invitation not accepted by user' => {
+                                                         'lastUpdated' => undef,
+                                                         'message' => ''
+                                                       },
+          'add to friends description' => {
+                                            'lastUpdated' => 1214176721,
+                                            'message' => 'Voulez-vous vraiment ajouter %s comme ami?'
+                                          },
+          'checkboxForm' => {
+                              'lastUpdated' => undef,
+                              'message' => ''
+                            },
+          'does not want to be a friend' => {
+                                              'lastUpdated' => undef,
+                                              'message' => ''
+                                            },
+          'name' => {
+                      'lastUpdated' => 1203426186,
+                      'message' => 'Le nom de cet ami'
+                    },
+          'add to friends list' => {
+                                     'lastUpdated' => 1214176752,
+                                     'message' => 'Ajouter cette personne &agrave; ma liste d\'amis'
+                                   },
+          'invalid invite code message' => {
+                                             'lastUpdated' => 1214176920,
+                                             'message' => 'Le code d\'invitation dans votre URL est invalide'
+                                           },
+          'send friend email instructions' => {
+                                                'lastUpdated' => undef,
+                                                'message' => ''
+                                              },
+          'friends invitation accepted' => {
+                                             'lastUpdated' => undef,
+                                             'message' => ''
+                                           },
+          'invitation approval email' => {
+                                           'lastUpdated' => undef,
+                                           'message' => ''
+                                         },
+          'confirm remove friends' => {
+                                        'lastUpdated' => 1214176868,
+                                        'message' => 'Etes-vous cetain de vouloir retirer les amis s&eacute;lectionn&eacute;s de votre liste?'
+                                      },
+          'formFooter' => {
+                            'lastUpdated' => undef,
+                            'message' => ''
+                          },
+          'friends invitation not accepted' => {
+                                                 'lastUpdated' => undef,
+                                                 'message' => ''
+                                               },
+          'add to friends profile' => {
+                                        'lastUpdated' => 1214176778,
+                                        'message' => 'Retourner au profile de %s'
+                                      },
+          'formHeader' => {
+                            'lastUpdated' => undef,
+                            'message' => ''
+                          },
+          'timeout help' => {
+                              'lastUpdated' => undef,
+                              'message' => ''
+                            },
+          'friends network invitation' => {
+                                            'lastUpdated' => undef,
+                                            'message' => ''
+                                          },
+          'add' => {
+                     'lastUpdated' => 1202912494,
+                     'message' => 'Ajouter'
+                   },
+          'status' => {
+                        'lastUpdated' => undef,
+                        'message' => ''
+                      },
+          'invitation accepted by user' => {
+                                             'lastUpdated' => 1214176960,
+                                             'message' => 'Votre invitation a &eacute;t&eacute; accept&eacute;e par %s'
+                                           },
+          'friend request' => {
+                                'lastUpdated' => undef,
+                                'message' => ''
+                              },
+          'you have been added' => {
+                                     'lastUpdated' => 1214177249,
+                                     'message' => 'Vous avez &eacute;t&eacute; ajout&eacute; &agrave; la liste des amis de %s'
+                                   },
+          'manage friends' => {
+                                'lastUpdated' => undef,
+                                'message' => ''
+                              },
+          'already a friend' => {
+                                  'lastUpdated' => 1214176808,
+                                  'message' => 'Vous ne pouvez pas ajouter un ami deux fois'
+                                },
+          'see my friends' => {
+                                'lastUpdated' => 1214177084,
+                                'message' => 'Montrer mes amis'
+                              },
+          'removeFriendButton' => {
+                                    'lastUpdated' => undef,
+                                    'message' => ''
+                                  },
+          'send message' => {
+                              'lastUpdated' => 1214177176,
+                              'message' => 'Envoyer message'
+                            },
+          'topicName' => {
+                           'lastUpdated' => 1214177211,
+                           'message' => 'R&eacute;seau d\'amis'
+                         },
+          'manage friends template help' => {
+                                              'lastUpdated' => undef,
+                                              'message' => ''
+                                            },
+          'friend request description' => {
+                                            'lastUpdated' => undef,
+                                            'message' => ''
+                                          },
+          'offline' => {
+                         'lastUpdated' => 1203426398,
+                         'message' => 'D&eacute;connect&eacute;'
+                       },
+          'subjectForm' => {
+                             'lastUpdated' => undef,
+                             'message' => ''
+                           },
+          'no friends' => {
+                            'lastUpdated' => 1214177010,
+                            'message' => 'Vous n\'avez ajout&eacute; aucun ami'
+                          },
+          'online' => {
+                        'lastUpdated' => 1203426388,
+                        'message' => 'connect&eacute;'
+                      },
+          'messageForm' => {
+                             'lastUpdated' => 1203426364,
+                             'message' => 'Code HTML (text form) du corps (body) des emails &agrave; envoyer &agrave; vos amis.'
+                           },
+          'profileUrl' => {
+                            'lastUpdated' => 1214177154,
+                            'message' => 'L\'URL du profile utilisateur de votre ami'
+                          },
+          'deny unanswered friends' => {
+                                         'lastUpdated' => undef,
+                                         'message' => ''
+                                       },
+          'sendMessageButton' => {
+                                   'lastUpdated' => undef,
+                                   'message' => ''
+                                 },
+          'my friends' => {
+                            'lastUpdated' => 1203426173,
+                            'message' => 'Mes amis'
+                          },
+          'add to friends confirmation' => {
+                                             'lastUpdated' => 1214176669,
+                                             'message' => 'Un Email a &eacute;t&eacute; envoy&eacute; &agrave; %s &agrave; votre demande pour l\'ajouter &agrave; votre r&eacute;seau d\'amis'
+                                           },
+          'manage friends template title' => {
+                                               'lastUpdated' => undef,
+                                               'message' => ''
+                                             }
+        }
+;
 
 1;
