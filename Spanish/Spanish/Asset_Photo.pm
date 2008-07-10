@@ -1,4 +1,5 @@
 package WebGUI::i18n::Spanish::Asset_Photo;
+use utf8;
 
 our $I18N = {
 	'editForm cancel' => {

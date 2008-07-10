@@ -1,4 +1,5 @@
 package WebGUI::i18n::Spanish::Asset_Dashboard;
+use utf8;
 
 our $I18N = {
 	'assets to hide' => {

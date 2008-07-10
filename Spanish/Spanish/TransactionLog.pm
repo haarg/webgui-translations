@@ -1,211 +1,172 @@
 package WebGUI::i18n::Spanish::TransactionLog;
+use utf8;
 
 our $I18N = {
-	'itemLoop' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'cancel error' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'delivered' => {
-		message => q|Entregado|,
-		lastUpdated => 1199976839
-	},
-
-	'historyLoop' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'transaction status' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'amount.template' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'init date' => {
-		message => q|Fecha inicial|,
-		lastUpdated => 1199976699
-	},
-
-	'completion date' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'completionDate' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'pending' => {
-		message => q|Pendiente|,
-		lastUpdated => 1199976873
-	},
-
-	'cancelUrl' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'status.template' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'errorMessage' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'shipping cost' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'username' => {
-		message => q|Usuario|,
-		lastUpdated => 1199976854
-	},
-
-	'itemId' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'cannot cancel' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'selection message' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'and' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'lastPayedTerm' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'status' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'gateway' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'transactionId' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'topicName' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'canCancel' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'initDate' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'completed' => {
-		message => q|Completado|,
-		lastUpdated => 1199976665
-	},
-
-	'select' => {
-		message => q|Seleccionar|,
-		lastUpdated => 1199976808
-	},
-
-	'list transactions title' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'shipped' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'not shipped' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'recurring' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'userId' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'quantity' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'any' => {
-		message => q|Cualquiera|,
-		lastUpdated => 1199976649
-	},
-
-	'shipping status' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'amount' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'itemName' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'help purchase history template title' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'itemType' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'gatewayId' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-};
+          'cancel error' => {
+                              'lastUpdated' => undef,
+                              'message' => ''
+                            },
+          'itemLoop' => {
+                          'lastUpdated' => undef,
+                          'message' => ''
+                        },
+          'delivered' => {
+                           'lastUpdated' => 1199976839,
+                           'message' => 'Entregado'
+                         },
+          'historyLoop' => {
+                             'lastUpdated' => undef,
+                             'message' => ''
+                           },
+          'transaction status' => {
+                                    'lastUpdated' => undef,
+                                    'message' => ''
+                                  },
+          'amount.template' => {
+                                 'lastUpdated' => undef,
+                                 'message' => ''
+                               },
+          'init date' => {
+                           'lastUpdated' => 1199976699,
+                           'message' => 'Fecha inicial'
+                         },
+          'completion date' => {
+                                 'lastUpdated' => undef,
+                                 'message' => ''
+                               },
+          'completionDate' => {
+                                'lastUpdated' => undef,
+                                'message' => ''
+                              },
+          'pending' => {
+                         'lastUpdated' => 1199976873,
+                         'message' => 'Pendiente'
+                       },
+          'cancelUrl' => {
+                           'lastUpdated' => undef,
+                           'message' => ''
+                         },
+          'status.template' => {
+                                 'lastUpdated' => undef,
+                                 'message' => ''
+                               },
+          'errorMessage' => {
+                              'lastUpdated' => undef,
+                              'message' => ''
+                            },
+          'shipping cost' => {
+                               'lastUpdated' => 1214175092,
+                               'message' => 'Precio del envio'
+                             },
+          'username' => {
+                          'lastUpdated' => 1199976854,
+                          'message' => 'Usuario'
+                        },
+          'itemId' => {
+                        'lastUpdated' => undef,
+                        'message' => ''
+                      },
+          'cannot cancel' => {
+                               'lastUpdated' => 1214174981,
+                               'message' => 'No se puede cancelar'
+                             },
+          'selection message' => {
+                                   'lastUpdated' => undef,
+                                   'message' => ''
+                                 },
+          'and' => {
+                     'lastUpdated' => 1214174947,
+                     'message' => 'y'
+                   },
+          'lastPayedTerm' => {
+                               'lastUpdated' => undef,
+                               'message' => ''
+                             },
+          'status' => {
+                        'lastUpdated' => undef,
+                        'message' => ''
+                      },
+          'gateway' => {
+                         'lastUpdated' => undef,
+                         'message' => ''
+                       },
+          'transactionId' => {
+                               'lastUpdated' => undef,
+                               'message' => ''
+                             },
+          'topicName' => {
+                           'lastUpdated' => undef,
+                           'message' => ''
+                         },
+          'canCancel' => {
+                           'lastUpdated' => undef,
+                           'message' => ''
+                         },
+          'initDate' => {
+                          'lastUpdated' => 1214175006,
+                          'message' => 'Fecha de inicio'
+                        },
+          'completed' => {
+                           'lastUpdated' => 1199976665,
+                           'message' => 'Completado'
+                         },
+          'select' => {
+                        'lastUpdated' => 1199976808,
+                        'message' => 'Seleccionar'
+                      },
+          'list transactions title' => {
+                                         'lastUpdated' => undef,
+                                         'message' => ''
+                                       },
+          'shipped' => {
+                         'lastUpdated' => 1214175076,
+                         'message' => 'Enviado'
+                       },
+          'not shipped' => {
+                             'lastUpdated' => 1214175026,
+                             'message' => 'No enviado'
+                           },
+          'recurring' => {
+                           'lastUpdated' => undef,
+                           'message' => ''
+                         },
+          'quantity' => {
+                          'lastUpdated' => 1214175061,
+                          'message' => 'cantidad '
+                        },
+          'userId' => {
+                        'lastUpdated' => undef,
+                        'message' => ''
+                      },
+          'any' => {
+                     'lastUpdated' => 1199976649,
+                     'message' => 'Cualquiera'
+                   },
+          'shipping status' => {
+                                 'lastUpdated' => 1214175111,
+                                 'message' => 'Estatuto del envio'
+                               },
+          'itemName' => {
+                          'lastUpdated' => undef,
+                          'message' => ''
+                        },
+          'amount' => {
+                        'lastUpdated' => undef,
+                        'message' => ''
+                      },
+          'help purchase history template title' => {
+                                                      'lastUpdated' => undef,
+                                                      'message' => ''
+                                                    },
+          'itemType' => {
+                          'lastUpdated' => undef,
+                          'message' => ''
+                        },
+          'gatewayId' => {
+                           'lastUpdated' => undef,
+                           'message' => ''
+                         }
+        }
+;
 
 1;

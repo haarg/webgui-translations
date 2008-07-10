@@ -1,4 +1,5 @@
 package WebGUI::i18n::Spanish::Asset_SQLForm;
+use utf8;
 
 our $I18N = {
 	'ef summary length' => {
@@ -62,13 +63,13 @@ our $I18N = {
 	},
 
 	'superSearch.label' => {
-		message => q||,
-		lastUpdated => 
+		message => q|El nombre internacionalizado para la b&uacute;squeda avanzada.|,
+		lastUpdated => 1212586086
 	},
 
 	'change field warning' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Cambiar las siguientes propiedades pueden dar lugar a p&eacute;rdida permanente de datos en este &aacute;mbito:\n\n \t - Tipo de dato en la Base de Datos.\n\t - Decremento de la longitud m&aacute;xima del campo.\t \t - Cambiar el registro.\n\n\n Est&aacute; seguro de continuar?|,
+		lastUpdated => 1212589217
 	},
 
 	's normal search' => {
@@ -77,13 +78,13 @@ our $I18N = {
 	},
 
 	'view history' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Ver hist&oacute;rico|,
+		lastUpdated => 1212585890
 	},
 
 	'showFieldsDefined' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Condicional que devuelve true si hay campos que se definen para ser mostrado. En otras palabras, esto es falso si todos los campos no est&aacute;n configurados para ser mostrados en los resultados de b&uacute;squeda.|,
+		lastUpdated => 1212586684
 	},
 
 	'field.formElement' => {
@@ -172,8 +173,8 @@ our $I18N = {
 	},
 
 	'delete' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Borrar|,
+		lastUpdated => 1212585840
 	},
 
 	'ers regex mismatch' => {
@@ -212,8 +213,8 @@ our $I18N = {
 	},
 
 	'viewHistory.label' => {
-		message => q||,
-		lastUpdated => 
+		message => q|La etiqueta del link del historial de este registro.|,
+		lastUpdated => 1212585972
 	},
 
 	'gef import table' => {
@@ -317,8 +318,8 @@ our $I18N = {
 	},
 
 	'defaultView' => {
-		message => q||,
-		lastUpdated => 
+		message => q|<div id="result_box" dir="ltr">Un condicional que indica si se va a utilizar la interfaz de b&uacute;squeda la normal o avanzada.</div>|,
+		lastUpdated => 1212592709
 	},
 
 	'manage fields' => {
@@ -372,8 +373,8 @@ our $I18N = {
 	},
 
 	'click here for file' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Clic aqu&iacute; para el archivo|,
+		lastUpdated => 1212590095
 	},
 
 	'gef database to use description' => {
@@ -462,8 +463,8 @@ our $I18N = {
 	},
 
 	'databaseLinkId' => {
-		message => q||,
-		lastUpdated => 
+		message => q|El ID del link a usar de la Base de Datos en WebGUI.|,
+		lastUpdated => 1212591770
 	},
 
 	'ef join constraint' => {
@@ -492,8 +493,8 @@ our $I18N = {
 	},
 
 	'sendMailTo' => {
-		message => q||,
-		lastUpdated => 
+		message => q|La direcci&oacute;n de correo electr&oacute;nico de la persona que ser&aacute; notificada cada vez que una fila sea agregada o editada.|,
+		lastUpdated => 1212586723
 	},
 
 	'errorOccurred' => {
@@ -592,8 +593,8 @@ our $I18N = {
 	},
 
 	'clear' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Limpiar|,
+		lastUpdated => 1212585857
 	},
 
 	'ers out of range' => {
@@ -607,8 +608,8 @@ our $I18N = {
 	},
 
 	'dft cannot delete' => {
-		message => q||,
-		lastUpdated => 
+		message => q|<div id="result_box" dir="ltr">Este tipo de campo no puede por borrarse porque todav&iacute;a est&aacute; en uso por</div>|,
+		lastUpdated => 1212592777
 	},
 
 	's search type' => {
@@ -742,8 +743,8 @@ our $I18N = {
 	},
 
 	'vh init date' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Fecha inicial|,
+		lastUpdated => 1212585905
 	},
 
 	'gef table name description' => {
@@ -782,8 +783,8 @@ our $I18N = {
 	},
 
 	'completeForm' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Este contiene toda la forma completa y se presentar&aacute;n en un estilo tabla WebGUI. No es necesario a&ntilde;adir un formulario aparte de cabecera, el pie de p&aacute;gina o cualquier otra cosa.|,
+		lastUpdated => 1212590800
 	},
 
 	'no fields defined message' => {
@@ -872,8 +873,8 @@ our $I18N = {
 	},
 
 	'submitGroupId' => {
-		message => q||,
-		lastUpdated => 
+		message => q|El ID del grupo permitido para agregar, editar, borrar y restaurar filas, pero no purgarlas.|,
+		lastUpdated => 1212586253
 	},
 
 	'lft used field types' => {
@@ -1182,13 +1183,13 @@ our $I18N = {
 	},
 
 	'superSearch.url' => {
-		message => q||,
-		lastUpdated => 
+		message => q|La url para el modo de b&uacute;squeda avanzada.|,
+		lastUpdated => 1212585994
 	},
 
 	'viewHistory.url' => {
-		message => q||,
-		lastUpdated => 
+		message => q|La url del historial de este registro.|,
+		lastUpdated => 1212585935
 	},
 
 	'ef display name description' => {

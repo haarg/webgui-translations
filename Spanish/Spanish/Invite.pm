@@ -1,4 +1,5 @@
 package WebGUI::i18n::Spanish::Invite;
+use utf8;
 
 our $I18N = {
 	'invalid invite code' => {
@@ -47,8 +48,8 @@ our $I18N = {
 	},
 
 	'already a member' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Ya es un miembro.|,
+		lastUpdated => 1212585752
 	},
 
 	'subjectForm' => {
@@ -137,8 +138,8 @@ our $I18N = {
 	},
 
 	'title' => {
-		message => q|t&iacute;tulo|,
-		lastUpdated => 1199912116
+		message => q||,
+		lastUpdated => 1212585805
 	},
 
 };

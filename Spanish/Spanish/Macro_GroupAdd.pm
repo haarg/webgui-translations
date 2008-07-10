@@ -1,4 +1,5 @@
 package WebGUI::i18n::Spanish::Macro_GroupAdd;
+use utf8;
 
 our $I18N = {
 	'group.text' => {
@@ -12,13 +13,13 @@ our $I18N = {
 	},
 
 	'macroName' => {
-		message => q|Adicionar grupo|,
-		lastUpdated => 1199992691
+		message => q|Agregar grupo|,
+		lastUpdated => 1212585728
 	},
 
 	'group add title' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Variables de Plantilla de Macro Agregar Grupo|,
+		lastUpdated => 1212585718
 	},
 
 };

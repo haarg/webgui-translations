@@ -1,4 +1,5 @@
 package WebGUI::i18n::Spanish::Auth;
+use utf8;
 
 our $I18N = {
 	'login.form.header' => {

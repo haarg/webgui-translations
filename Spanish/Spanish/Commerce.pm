@@ -1,4 +1,5 @@
 package WebGUI::i18n::Spanish::Commerce;
+use utf8;
 
 our $I18N = {
 	'transaction error' => {

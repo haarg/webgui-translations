@@ -1,4 +1,5 @@
 package WebGUI::i18n::Spanish::Asset_Collaboration;
+use utf8;
 
 our $I18N = {
 	'add.label' => {
@@ -372,8 +373,8 @@ our $I18N = {
 	},
 
 	'add' => {
-		message => q|agregar|,
-		lastUpdated => 1190390712
+		message => q|Agregar|,
+		lastUpdated => 1212583995
 	},
 
 	'subscription group label' => {
@@ -467,8 +468,8 @@ our $I18N = {
 	},
 
 	'back' => {
-		message => q|volver|,
-		lastUpdated => 1190390804
+		message => q|Volver|,
+		lastUpdated => 1212585380
 	},
 
 	'search.url' => {
@@ -1147,8 +1148,8 @@ our $I18N = {
 	},
 
 	'answer' => {
-		message => q|responder|,
-		lastUpdated => 1190390780
+		message => q|Responder|,
+		lastUpdated => 1212584417
 	},
 
 	'message' => {

@@ -1,14 +1,15 @@
 package WebGUI::i18n::Spanish::Friends;
+use utf8;
 
 our $I18N = {
 	'invalid invite code' => {
-		message => q|Codigo de invitacion no valido|,
-		lastUpdated => 1206897672
+		message => q|C&oacute;digo de invitaci&oacute;n no v&aacute;lido|,
+		lastUpdated => 1212585578
 	},
 
 	'add to friends' => {
-		message => q|agregar a amigos|,
-		lastUpdated => 1206732726
+		message => q|Agregar a amigos|,
+		lastUpdated => 1212585481
 	},
 
 	'remove' => {
@@ -63,18 +64,18 @@ El código de invitación que está usando no es para usted.|,
 	},
 
 	'does not want to be a friend' => {
-		message => q|Este usuario prefiere no ser a&ntilde;adido como amigo.|,
-		lastUpdated => 1206896335
+		message => q|Este usuario prefiere no ser agregado como amigo.|,
+		lastUpdated => 1212585539
 	},
 
 	'name' => {
-		message => q|nombre|,
-		lastUpdated => 1206732760
+		message => q|Nombre|,
+		lastUpdated => 1212585612
 	},
 
 	'add to friends list' => {
-		message => q|Añadir esta persona a mi lista de amigos.|,
-		lastUpdated => 1207719035
+		message => q|Agregar esta persona a mi lista de amigos.|,
+		lastUpdated => 1212585521
 	},
 
 	'invalid invite code message' => {
@@ -83,8 +84,8 @@ El código de invitación que está usando no es para usted.|,
 	},
 
 	'friends invitation accepted' => {
-		message => q|Aceptada invitacion de amigos  |,
-		lastUpdated => 1207718978
+		message => q|Aceptada invitaci&oacute;n de amigos  |,
+		lastUpdated => 1212585559
 	},
 
 	'invitation approval email' => {
@@ -133,8 +134,8 @@ El código de invitación que está usando no es para usted.|,
 	},
 
 	'add' => {
-		message => q|añadir|,
-		lastUpdated => 1201705808
+		message => q|Agregar|,
+		lastUpdated => 1212585489
 	},
 
 	'status' => {
@@ -168,8 +169,8 @@ El código de invitación que está usando no es para usted.|,
 	},
 
 	'you have been added' => {
-		message => q|Usted ha sido añadido a% s de la lista de amigos.|,
-		lastUpdated => 1207716501
+		message => q|Usted ha sido agregado a% s de la lista de amigos.|,
+		lastUpdated => 1212585659
 	},
 
 	'manage friends' => {
@@ -223,8 +224,8 @@ El código de invitación que está usando no es para usted.|,
 	},
 
 	'online' => {
-		message => q|en linea|,
-		lastUpdated => 1207718897
+		message => q|En l&iacute;nea|,
+		lastUpdated => 1212585633
 	},
 
 	'deny unanswered friends' => {
@@ -249,7 +250,7 @@ El código de invitación que está usando no es para usted.|,
 
 	'manage friends template title' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 1212585603
 	},
 
 };

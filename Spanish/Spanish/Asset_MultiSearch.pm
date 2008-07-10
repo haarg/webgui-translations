@@ -1,4 +1,5 @@
 package WebGUI::i18n::Spanish::Asset_MultiSearch;
+use utf8;
 
 our $I18N = {
 	'cache timeout help' => {

@@ -1,4 +1,5 @@
 package WebGUI::i18n::Spanish::Macro_SubscriptionItem;
+use utf8;
 
 our $I18N = {
 	'subscription item title' => {
