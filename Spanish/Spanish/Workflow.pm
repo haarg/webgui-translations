@@ -1,231 +1,191 @@
 package WebGUI::i18n::Spanish::Workflow;
 use utf8;
-
 our $I18N = {
-	'workflow type count' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'edit priority unknown error' => {
-		message => q|Hubo un error desconocido en la actualización del flujo de trabajo prioritarias. Por favor, inténtelo de nuevo más tarde.|,
-		lastUpdated => 1206921171
-	},
-
-	'mode' => {
-		message => q|Modo|,
-		lastUpdated => 1204314445
-	},
-
-	'parallel' => {
-		message => q|Paralelo|,
-		lastUpdated => 1204314576
-	},
-
-	'edit priority bad request' => {
-		message => q|Usted ha hecho una mala petición.|,
-		lastUpdated => 1206920811
-	},
-
-	'edit priority instance not found error' => {
-		message => q|No he podido encontrar ese flujo de trabajo. Tal vez haya terminado de ejecutarse.|,
-		lastUpdated => 1206920958
-	},
-
-	'last state header' => {
-		message => q|Última Estado|,
-		lastUpdated => 1206921543
-	},
-
-	'edit priority success' => {
-		message => q|Prioridad de flujo de trabajo actualizado con éxito.|,
-		lastUpdated => 1206921099
-	},
-
-	'manage workflows' => {
-		message => q|Gestionar todos los flujos de trabajo.|,
-		lastUpdated => 1206921566
-	},
-
-	'enabled' => {
-		message => q|	
-Activado|,
-		lastUpdated => 1206921319
-	},
-
-	'edit workflow' => {
-		message => q|Editar el flujo de trabajo|,
-		lastUpdated => 1206921237
-	},
-
-	'workflowId' => {
-		message => q|ID de flujo de trabajo|,
-		lastUpdated => 1206922271
-	},
-
-	'title help' => {
-		message => q|Una etiqueta legible para identificar fácilmente qué hace este flujo de trabajo.|,
-		lastUpdated => 1206922186
-	},
-
-	'serial' => {
-		message => q|Serial|,
-		lastUpdated => 1206921979
-	},
-
-	'description help' => {
-		message => q|Llene una descripción detallada de lo que hace este flujo de trabajo y para qué se utiliza como referencia para el futuro.|,
-		lastUpdated => 1206920745
-	},
-
-	'edit priority no spectre error' => {
-		message => q|Spectre no está funcionando.|,
-		lastUpdated => 1206921024
-	},
-
-	'add a new workflow' => {
-		message => q|Adicionar un nuevo flujo de trabajo|,
-		lastUpdated => 1204314068
-	},
-
-	'description' => {
-		message => q| 	
-Descripción|,
-		lastUpdated => 1206920684
-	},
-
-	'mode help' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'title' => {
-		message => q|Titulo|,
-		lastUpdated => 1206922197
-	},
-
-	'edit priority setting error' => {
-		message => q|Se ha producido un error, fijar la nueva prioridad.|,
-		lastUpdated => 1206921055
-	},
-
-	'realtime' => {
-		message => q|En tiempo real|,
-		lastUpdated => 1206922003
-	},
-
-	'disabled' => {
-		message => q|Deshabilitado|,
-		lastUpdated => 1206922427
-	},
-
-	'title header' => {
-		message => q|Título|,
-		lastUpdated => 1206922156
-	},
-
-	'is enabled help' => {
-		message => q|Si esto se define en sí, entonces el sistema permitirá la creación de instancias para ejecutar este flujo de trabajo.|,
-		lastUpdated => 1206921473
-	},
-
-	'object type' => {
-		message => q|Tipo de objeto|,
-		lastUpdated => 1206921768
-	},
-
-	'last run time header' => {
-		message => q|Último tiempo de ejecución|,
-		lastUpdated => 1206921512
-	},
-
-	'priority header' => {
-		message => q|Actualidad / prioridad original|,
-		lastUpdated => 1206921951
-	},
-
-	'spectre not running error' => {
-		message => q|Spectre no está funcionando.|,
-		lastUpdated => 1206922147
-	},
-
-	'singleton' => {
-		message => q|Singleton|,
-		lastUpdated => 1207942165
-	},
-
-	'topicName' => {
-		message => q|Flujo de trabajo|,
-		lastUpdated => 1206922241
-	},
-
-	'activity header' => {
-		message => q|Actividad Actual|,
-		lastUpdated => 1204314051
-	},
-
-	'run' => {
-		message => q|Correr|,
-		lastUpdated => 1204314369
-	},
-
-	'no object' => {
-		message => q|	
-No Objeto|,
-		lastUpdated => 1206921743
-	},
-
-	'edit priority update priority' => {
-		message => q|Actualizar prioridad|,
-		lastUpdated => 1206921205
-	},
-
-	'are you sure you want to delete this workflow' => {
-		message => q|&iquest;Est&aacute; seguro de que desea borrar este flujo de trabajo y todas las instancias que est&aacute;n corriendo?|,
-		lastUpdated => 1204314355
-	},
-
-	'object type help' => {
-		message => q|Qué tipo de objetos desea que este flujo de trabajo sea capaz de manejar?|,
-		lastUpdated => 1206921839
-	},
-
-	'object type help2' => {
-		message => q|El tipo de flujo de trabajo que ha seleccionado para a&ntilde;adir.|,
-		lastUpdated => 1207941434
-	},
-
-	'is enabled' => {
-		message => q|Está activado?|,
-		lastUpdated => 1206921380
-	},
-
-	'confirm delete activity' => {
-		message => q|Está seguro de que desea borrar esta actividad de este flujo de trabajo?|,
-		lastUpdated => 1206920661
-	},
-
-	'edit priority cancel' => {
-		message => q|Cancelar|,
-		lastUpdated => 1206920840
-	},
-
-	'edit priority no info error' => {
-		message => q|	
-Spectre está en funcionamiento, pero no fui capaz de actualizar la prioridad.|,
-		lastUpdated => 1206920991
-	},
-
-	'show running workflows' => {
-		message => q| Ver correr los flujos de trabajo.|,
-		lastUpdated => 1206922035
-	},
-
-	'spectre no info error' => {
-		message => q|Spectre está en funcionamiento, pero no fui capaz de obtener información detallada de flujo de trabajo.|,
-		lastUpdated => 1206922100
-	},
-
-};
+  'workflow type count' => {
+    'lastUpdated' => 1215789733,
+    'message' => '%d %s Flujos de Trabajo'
+  },
+  'edit priority unknown error' => {
+    'lastUpdated' => 1206921171,
+    'message' => "Hubo un error desconocido en la actualizaci\x{f3}n del flujo de trabajo prioritarias. Por favor, int\x{e9}ntelo de nuevo m\x{e1}s tarde."
+  },
+  'parallel' => {
+    'lastUpdated' => 1204314576,
+    'message' => 'Paralelo'
+  },
+  'mode' => {
+    'lastUpdated' => 1204314445,
+    'message' => 'Modo'
+  },
+  'edit priority bad request' => {
+    'lastUpdated' => 1206920811,
+    'message' => "Usted ha hecho una mala petici\x{f3}n."
+  },
+  'edit priority instance not found error' => {
+    'lastUpdated' => 1206920958,
+    'message' => 'No he podido encontrar ese flujo de trabajo. Tal vez haya terminado de ejecutarse.'
+  },
+  'last state header' => {
+    'lastUpdated' => 1206921543,
+    'message' => "\x{da}ltima Estado"
+  },
+  'edit priority success' => {
+    'lastUpdated' => 1206921099,
+    'message' => "Prioridad de flujo de trabajo actualizado con \x{e9}xito."
+  },
+  'manage workflows' => {
+    'lastUpdated' => 1206921566,
+    'message' => 'Gestionar todos los flujos de trabajo.'
+  },
+  'enabled' => {
+    'lastUpdated' => 1206921319,
+    'message' => '	
+Activado'
+  },
+  'edit workflow' => {
+    'lastUpdated' => 1206921237,
+    'message' => 'Editar el flujo de trabajo'
+  },
+  'workflowId' => {
+    'lastUpdated' => 1206922271,
+    'message' => 'ID de flujo de trabajo'
+  },
+  'title help' => {
+    'lastUpdated' => 1206922186,
+    'message' => "Una etiqueta legible para identificar f\x{e1}cilmente qu\x{e9} hace este flujo de trabajo."
+  },
+  'serial' => {
+    'lastUpdated' => 1206921979,
+    'message' => 'Serial'
+  },
+  'description help' => {
+    'lastUpdated' => 1206920745,
+    'message' => "Llene una descripci\x{f3}n detallada de lo que hace este flujo de trabajo y para qu\x{e9} se utiliza como referencia para el futuro."
+  },
+  'edit priority no spectre error' => {
+    'lastUpdated' => 1206921024,
+    'message' => "Spectre no est\x{e1} funcionando."
+  },
+  'add a new workflow' => {
+    'lastUpdated' => 1204314068,
+    'message' => 'Adicionar un nuevo flujo de trabajo'
+  },
+  'description' => {
+    'lastUpdated' => 1206920684,
+    'message' => " 	
+Descripci\x{f3}n"
+  },
+  'form control none label' => {
+    'lastUpdated' => 1215789273,
+    'message' => 'Ninguna'
+  },
+  'mode help' => {
+    'lastUpdated' => 1215789683,
+    'message' => 'El modo de un flujo de trabajo determina cu&aacute;ndo y c&oacute;mo se ejecute un flujo de trabajo. <br /> <br /> Flujos de trabajo<strong> Paralelos</strong> se ejecutan como instancia de un flujo de trabajo que hay en existencia. <br /> <br /> Flujos de trabajo<strong> Singleton</strong> se ejecutan exactamente como una instancia por tipo determinado en un momento dado, y si un nuevo flujo de trabajo de ese tipo es creado mientras que el original est&aacute; en funcionamiento, ser&aacute; descartado. <br /> <br /> Flujos de Trabajo <strong>Seriales</strong> se ejecutan como un flujo de trabajo determinado por tipo a la vez, en el orden en que fue creado.'
+  },
+  'title' => {
+    'lastUpdated' => 1206922197,
+    'message' => 'Titulo'
+  },
+  'edit priority setting error' => {
+    'lastUpdated' => 1206921055,
+    'message' => 'Se ha producido un error, fijar la nueva prioridad.'
+  },
+  'realtime' => {
+    'lastUpdated' => 1206922003,
+    'message' => 'En tiempo real'
+  },
+  'disabled' => {
+    'lastUpdated' => 1206922427,
+    'message' => 'Deshabilitado'
+  },
+  'title header' => {
+    'lastUpdated' => 1206922156,
+    'message' => "T\x{ed}tulo"
+  },
+  'is enabled help' => {
+    'lastUpdated' => 1206921473,
+    'message' => "Si esto se define en s\x{ed}, entonces el sistema permitir\x{e1} la creaci\x{f3}n de instancias para ejecutar este flujo de trabajo."
+  },
+  'object type' => {
+    'lastUpdated' => 1206921768,
+    'message' => 'Tipo de objeto'
+  },
+  'last run time header' => {
+    'lastUpdated' => 1206921512,
+    'message' => "\x{da}ltimo tiempo de ejecuci\x{f3}n"
+  },
+  'priority header' => {
+    'lastUpdated' => 1206921951,
+    'message' => 'Actualidad / prioridad original'
+  },
+  'spectre not running error' => {
+    'lastUpdated' => 1206922147,
+    'message' => "Spectre no est\x{e1} funcionando."
+  },
+  'singleton' => {
+    'lastUpdated' => 1207942165,
+    'message' => 'Singleton'
+  },
+  'topicName' => {
+    'lastUpdated' => 1206922241,
+    'message' => 'Flujo de trabajo'
+  },
+  'run' => {
+    'lastUpdated' => 1204314369,
+    'message' => 'Correr'
+  },
+  'activity header' => {
+    'lastUpdated' => 1204314051,
+    'message' => 'Actividad Actual'
+  },
+  'no object' => {
+    'lastUpdated' => 1206921743,
+    'message' => '	
+No Objeto'
+  },
+  'edit priority update priority' => {
+    'lastUpdated' => 1206921205,
+    'message' => 'Actualizar prioridad'
+  },
+  'are you sure you want to delete this workflow' => {
+    'lastUpdated' => 1204314355,
+    'message' => '&iquest;Est&aacute; seguro de que desea borrar este flujo de trabajo y todas las instancias que est&aacute;n corriendo?'
+  },
+  'object type help' => {
+    'lastUpdated' => 1206921839,
+    'message' => "Qu\x{e9} tipo de objetos desea que este flujo de trabajo sea capaz de manejar?"
+  },
+  'is enabled' => {
+    'lastUpdated' => 1206921380,
+    'message' => "Est\x{e1} activado?"
+  },
+  'object type help2' => {
+    'lastUpdated' => 1207941434,
+    'message' => 'El tipo de flujo de trabajo que ha seleccionado para a&ntilde;adir.'
+  },
+  'confirm delete activity' => {
+    'lastUpdated' => 1206920661,
+    'message' => "Est\x{e1} seguro de que desea borrar esta actividad de este flujo de trabajo?"
+  },
+  'edit priority cancel' => {
+    'lastUpdated' => 1206920840,
+    'message' => 'Cancelar'
+  },
+  'show running workflows' => {
+    'lastUpdated' => 1206922035,
+    'message' => ' Ver correr los flujos de trabajo.'
+  },
+  'edit priority no info error' => {
+    'lastUpdated' => 1206920991,
+    'message' => "	
+Spectre est\x{e1} en funcionamiento, pero no fui capaz de actualizar la prioridad."
+  },
+  'spectre no info error' => {
+    'lastUpdated' => 1206922100,
+    'message' => "Spectre est\x{e1} en funcionamiento, pero no fui capaz de obtener informaci\x{f3}n detallada de flujo de trabajo."
+  }
+}
+;
 
 1;

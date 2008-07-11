@@ -4,13 +4,13 @@ rank = puntaje
 
 thumbnail = vista en miniatura
 
-post = publicación, publicar
+post = publicaciÃ³n, publicar
 
 non-word characters = caracteres no imprimibles
 
 workflow = flujo de trabajo
 
-version tag = etiqueta de versión
+version tag = etiqueta de versiÃ³n
 
 login = ingresar
 
@@ -32,12 +32,14 @@ Gateway = Gateway
 
 Macro = Macro
 
+Cron = Cron
 
 
 
 
 
-Equipo de traducción VCB:
+
+Equipo de traducciÃ³n VCB:
 
 
     Lisette Ramirez
@@ -75,6 +77,7 @@ Equipo de traducción VCB:
 
 
 http://www.vcb.com.co -- soporte@vcb.com.co
+
 
 
 

@@ -517,21 +517,21 @@ our $I18N = {
     'lastUpdated' => 1207684068,
     'message' => '<div id="result_box" dir="ltr">Usted no tiene suficientes privilegios para acceder a esta p&aacute;gina.</div>'
   },
-  'account' => {
-    'lastUpdated' => 1199911383,
-    'message' => 'cuenta'
-  },
   '1004 description' => {
     'lastUpdated' => 1207078491,
     'message' => 'Los grandes sitios usando grupo de datos externos har&aacute;n muchas llamadas a la base de datos externa. Para ayudar a reducir la carga, puede seleccionar el tiempo que desea mantener los resultados de las consultas a la base dedatos externa en cach&eacute; dentro de la base de datos WebGUI. La memoria cach&eacute; m&aacute;s avanzada puede ser incluida en una futura versi&oacute;n de WebGUI.'
   },
-  'mail return path' => {
-    'lastUpdated' => 1208205515,
-    'message' => 'Camino de regreso'
+  'account' => {
+    'lastUpdated' => 1199911383,
+    'message' => 'cuenta'
   },
   '64' => {
     'lastUpdated' => 1207723659,
     'message' => 'Salir'
+  },
+  'mail return path' => {
+    'lastUpdated' => 1208205515,
+    'message' => 'Camino de regreso'
   },
   '558' => {
     'lastUpdated' => 1207725974,
@@ -772,6 +772,10 @@ our $I18N = {
   'file' => {
     'lastUpdated' => 1207728339,
     'message' => 'Archivo'
+  },
+  'showMessageOnLoginBody label' => {
+    'lastUpdated' => 1215791083,
+    'message' => 'Cuerpo del Mensaje Mostrado al Loguearse'
   },
   'pagination.nextPage' => {
     'lastUpdated' => 1208206273,
@@ -1093,9 +1097,13 @@ our $I18N = {
     'lastUpdated' => 1207724672,
     'message' => 'T&iacute;tulo'
   },
+  'showMessageOnLogin description' => {
+    'lastUpdated' => 1215790989,
+    'message' => 'Si si, muestra una mensaje despu&eacute;s de que el usuario se loguea.'
+  },
   'settings groupIdAdminLDAPLink label' => {
-    'lastUpdated' => 1208212147,
-    'message' => ''
+    'lastUpdated' => 1215790854,
+    'message' => 'LDAP'
   },
   '526' => {
     'lastUpdated' => 1208184680,
@@ -1212,6 +1220,10 @@ our $I18N = {
   '514' => {
     'lastUpdated' => 1208184650,
     'message' => 'Vistas'
+  },
+  'showMessageOnLogin label' => {
+    'lastUpdated' => 1215791007,
+    'message' => 'Mostrar Mensaje al Loguearse?'
   },
   '725' => {
     'lastUpdated' => 1207726356,
@@ -2053,6 +2065,10 @@ our $I18N = {
     'lastUpdated' => 1207605178,
     'message' => 'Asunto'
   },
+  'show in forms' => {
+    'lastUpdated' => 1215790884,
+    'message' => 'Mostrar en Formularios?'
+  },
   '104 description' => {
     'lastUpdated' => 1207946043,
     'message' => 'Introduce una URL para tu enlace'
@@ -2390,8 +2406,8 @@ our $I18N = {
     'message' => '<p>Seleccione que Hospedaje usar por defecto cuando se generen direcciones de internet. &quot;Config Sitename&quot; o La configuracion del nombre del sitio usara la variable &quot;sitename&quot; o &quot;nombre de sitio&quot; que se encuentra en el archivo de configuracion. Y el ambiente&nbsp; de hospedaje del HTTP o &quot;Env HTTP Host&quot; usara la variable de ambiente &quot;HTTP_HOST&quot; que fue proveida por el Servidor Web o &quot;Web Server&quot;. </p><p>Select which host to use by default when generating URLs. Config Sitename will use the &quot;sitename&quot; variable from your config file. And Env HTTP Host will use the &quot;HTTP_HOST&quot; environment variable provided by the web server.</p>'
   },
   'settings groupIdAdminCron label' => {
-    'lastUpdated' => 1208211881,
-    'message' => ''
+    'lastUpdated' => 1215790795,
+    'message' => 'Cron'
   },
   'private message submit label' => {
     'lastUpdated' => 1208210347,
@@ -2557,6 +2573,10 @@ our $I18N = {
     'lastUpdated' => 1208192255,
     'message' => 'Fecha del portapapeles'
   },
+  'show in forms help' => {
+    'lastUpdated' => 1215790962,
+    'message' => 'A este grupo se le deber&iacute;a mostrar lugares donde se puede elegir un grupo, tales como campos de privilegio?'
+  },
   'private message subject label' => {
     'lastUpdated' => 1208209107,
     'message' => 'Tema'
@@ -2693,6 +2713,10 @@ our $I18N = {
     'lastUpdated' => 1215718924,
     'message' => 'Administrar mi papelera.'
   },
+  'showMessageOnLoginBody description' => {
+    'lastUpdated' => 1215791040,
+    'message' => 'El cuerpo del mensaje mostrado al loguearse. Las Macros estan permitidas.'
+  },
   '864 description' => {
     'lastUpdated' => 1208189575,
     'message' => 'La diferencia en el numero de dias desde la expiracion hasta la notificacion. Usted puede configurar esto en cualquier numero entero valido. Para esta instancia, configure esto en &quot;0&quot; si usted desea que la notificacion sea enviada en mismo dia que la agrupacion expire. Configurelo en &quot;-7&quot; si usted quiere que la notificacion sea enviada7 dias antes de que la agrupacion expire. Configurelo en &quot;7&quot; si usted quiere que la notificacion sea enviada 7 dias despues de la expiracion. '
@@ -2738,8 +2762,8 @@ our $I18N = {
     'message' => 'Imagen en miniatura'
   },
   'settings groupIdAdminSpectre label' => {
-    'lastUpdated' => 1208212345,
-    'message' => ''
+    'lastUpdated' => 1215790867,
+    'message' => 'Spectre'
   },
   'allowed keywords' => {
     'lastUpdated' => 1208200451,
@@ -2848,6 +2872,10 @@ our $I18N = {
   '848' => {
     'lastUpdated' => 1208188094,
     'message' => 'Hay un error de sintaxis en esta plantilla. Por favor corrija.'
+  },
+  'showMessageOnLoginReset description' => {
+    'lastUpdated' => 1215791121,
+    'message' => 'Si &quot;si&quot;, forzar&aacute; a todos los usuarios a ver nuevamente el mensaje de loguin.'
   },
   '421' => {
     'lastUpdated' => 1207686114,

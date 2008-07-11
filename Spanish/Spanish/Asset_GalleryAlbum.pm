@@ -1,422 +1,355 @@
 package WebGUI::i18n::Spanish::Asset_GalleryAlbum;
 use utf8;
-
 our $I18N = {
-	'helpvar thumbnailUrl' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'help thumbnails title' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'helpvar form_title' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'helpvar form_cancel' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'helpvar form_start' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'help fileLoop title' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'helpvar url_addArchive' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'addArchive message' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'helpvar url_search' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'save' => {
-		message => q|Guardar|,
-		lastUpdated => 1203365596
-	},
-
-	'helpvar url_addPhoto' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'help slideshow title' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'editForm description label' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'addArchive error too big' => {
-		message => q|El archivo que est&aacute; intentando subir es demasiado grande. Por favor intente de nuevo.|,
-		lastUpdated => 1203365573
-	},
-
-	'helpvar file_loop viewRss' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'helpvar form_keywords' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'helpvar url_listFilesForOwner' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'helpvar url_yes' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'help delete body' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'help edit body' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'template upload archive' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'helpvar canEdit' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'helpvar fileCount' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'helpvar form_archive' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'template upload type' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'help slideshow body' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'template url_addPhoto' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'helpvar url_slideshow' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'helpvar form_friendsOnly' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'help viewRss body' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'help common body' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'helpvar ownerUsername' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'helpvar url_thumbnails' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'help delete title' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'template add' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'helpvar url_listAlbums' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'helpvar form_submit' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'template url_edit' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'template file creationDate' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'assetName' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'helpvar error' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'help common title' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'helpvar file_loop' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'help view body' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'template url_slideshow' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'delete message' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'help addArchive title' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'template edit' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'addArchive file' => {
-		message => q|Archivo|,
-		lastUpdated => 1205251947
-	},
-
-	'template addArchive title' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'cancel' => {
-		message => q|Cancelar|,
-		lastUpdated => 1203365582
-	},
-
-	'template file numberOfComments' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'helpvar rssDate' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'help thumbnails body' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'help addArchive body' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'helpvar isAlbumThumbnail' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'editForm title label' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'helpvar canAddFile' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'helpvar url_listFilesForCurrentUser' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'help edit title' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'template url_delete' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'template url' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'helpvar url_delete' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'help viewRss title' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'addArchive keywords' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'helpvar url_viewRss' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'save message' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'helpvar url_listAlbumsRss' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'help fileLoop body' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'help view title' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'helpvar url_addNoClass' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'helpvar form_description' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'helpvar url_edit' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'helpvar file_' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'template assetName' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'template upload single' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'helpvar isNewAlbum' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'template addArchive body' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'template url_thumbnails' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'editForm assetIdThumbnail label' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'helpvar file_loop edit' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'addArchive friendsOnly' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'helpvar form_end' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-};
+  'helpvar thumbnailUrl' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'help thumbnails title' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'helpvar form_title' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'help fileLoop title' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'helpvar form_start' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'helpvar form_cancel' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'addArchive message' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'helpvar url_addArchive' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'save' => {
+    'lastUpdated' => 1203365596,
+    'message' => 'Guardar'
+  },
+  'helpvar url_search' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'template delete message' => {
+    'lastUpdated' => 1215795128,
+    'message' => 'Est&aacute; usted seguro que desea eliminar este album?'
+  },
+  'helpvar url_addPhoto' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'help slideshow title' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'editForm description label' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'addArchive error too big' => {
+    'lastUpdated' => 1203365573,
+    'message' => 'El archivo que est&aacute; intentando subir es demasiado grande. Por favor intente de nuevo.'
+  },
+  'helpvar file_loop viewRss' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'helpvar form_keywords' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'helpvar url_listFilesForOwner' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'helpvar url_yes' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'help delete body' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'help edit body' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'template upload archive' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'helpvar canEdit' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'helpvar fileCount' => {
+    'lastUpdated' => 1215796961,
+    'message' => 'El n&uacute;mero de archivos en este &aacute;lbum.'
+  },
+  'template delete yes' => {
+    'lastUpdated' => 1215795084,
+    'message' => 'Si'
+  },
+  'helpvar form_archive' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'template upload type' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'help slideshow body' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'template url_addPhoto' => {
+    'lastUpdated' => 1215795269,
+    'message' => 'Adicionar una foto'
+  },
+  'helpvar url_slideshow' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'helpvar form_friendsOnly' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'help viewRss body' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'help common body' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'help delete title' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'helpvar url_thumbnails' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'helpvar ownerUsername' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'template add' => {
+    'lastUpdated' => 1215794974,
+    'message' => 'Adicionar'
+  },
+  'helpvar url_listAlbums' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'helpvar form_submit' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'template url_edit' => {
+    'lastUpdated' => 1215797172,
+    'message' => 'Editar &Aacute;lbum'
+  },
+  'template file creationDate' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'assetName' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'helpvar error' => {
+    'lastUpdated' => 1215796938,
+    'message' => 'Un mensaje de error para mostrar&nbsp; al usuario.&nbsp; Solamente definido cuando algo sali&oacute; mal.'
+  },
+  'help common title' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'helpvar file_loop' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'help view body' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'template url_slideshow' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'delete message' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'help addArchive title' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'template edit' => {
+    'lastUpdated' => 1215794966,
+    'message' => 'Editar'
+  },
+  'addArchive file' => {
+    'lastUpdated' => 1205251947,
+    'message' => 'Archivo'
+  },
+  'template addArchive title' => {
+    'lastUpdated' => 1215795177,
+    'message' => 'Adicionar Archivo Zip'
+  },
+  'template delete no' => {
+    'lastUpdated' => 1215795096,
+    'message' => 'No'
+  },
+  'cancel' => {
+    'lastUpdated' => 1203365582,
+    'message' => 'Cancelar'
+  },
+  'template file numberOfComments' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'helpvar rssDate' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'help thumbnails body' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'help addArchive body' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'helpvar isAlbumThumbnail' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'editForm title label' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'helpvar canAddFile' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'helpvar url_listFilesForCurrentUser' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'help edit title' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'template url_delete' => {
+    'lastUpdated' => 1215797159,
+    'message' => 'Eliminar &Aacute;lbum'
+  },
+  'template url' => {
+    'lastUpdated' => 1215797144,
+    'message' => '&Aacute;lbum'
+  },
+  'helpvar url_delete' => {
+    'lastUpdated' => 1215797104,
+    'message' => 'La URL para eliminar&nbsp; este &aacute;lbum'
+  },
+  'help viewRss title' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'addArchive keywords' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'helpvar url_viewRss' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'save message' => {
+    'lastUpdated' => 1215795208,
+    'message' => '<div id="result_box" dir="ltr">Configuraciones del Album guardadas. <a href="%s">Regresar al album</a><br /></div>'
+  },
+  'what next' => {
+    'lastUpdated' => 1215795015,
+    'message' => '&iquest;Qu&eacute; viene despu&eacute;s?'
+  },
+  'help view title' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'help fileLoop body' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'helpvar url_listAlbumsRss' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'helpvar form_description' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'helpvar url_addNoClass' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'helpvar url_edit' => {
+    'lastUpdated' => 1215797132,
+    'message' => 'La URL para editar este &aacute;lbum.'
+  },
+  'helpvar file_' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'template assetName' => {
+    'lastUpdated' => 1215795148,
+    'message' => 'Album'
+  },
+  'helpvar isNewAlbum' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'template upload single' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'template url_thumbnails' => {
+    'lastUpdated' => 1215795041,
+    'message' => 'vista en miniatura<br />'
+  },
+  'template addArchive body' => {
+    'lastUpdated' => 1215795228,
+    'message' => 'Este formulario acepta archivos &quot;zip&quot; y &quot;tar/gzipped&quot;'
+  },
+  'helpvar file_loop edit' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'editForm assetIdThumbnail label' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'helpvar form_end' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'addArchive friendsOnly' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  }
+}
+;
 
 1;
