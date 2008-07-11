@@ -10,22 +10,18 @@ our $I18N = {
     'message' => ''
   },
   'helpvar form_title' => {
-    'lastUpdated' => undef,
-    'message' => ''
-  },
-  'help fileLoop title' => {
-    'lastUpdated' => undef,
-    'message' => ''
-  },
-  'helpvar form_start' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1215797989,
+    'message' => 'El t&iacute;tulo del &Aacute;lbum.'
   },
   'helpvar form_cancel' => {
     'lastUpdated' => undef,
     'message' => ''
   },
-  'addArchive message' => {
+  'helpvar form_start' => {
+    'lastUpdated' => 1215798092,
+    'message' => 'Inicio del formulario'
+  },
+  'help fileLoop title' => {
     'lastUpdated' => undef,
     'message' => ''
   },
@@ -33,21 +29,25 @@ our $I18N = {
     'lastUpdated' => undef,
     'message' => ''
   },
+  'addArchive message' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'helpvar url_search' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
   'save' => {
     'lastUpdated' => 1203365596,
     'message' => 'Guardar'
   },
-  'helpvar url_search' => {
+  'helpvar url_addPhoto' => {
     'lastUpdated' => undef,
     'message' => ''
   },
   'template delete message' => {
     'lastUpdated' => 1215795128,
     'message' => 'Est&aacute; usted seguro que desea eliminar este album?'
-  },
-  'helpvar url_addPhoto' => {
-    'lastUpdated' => undef,
-    'message' => ''
   },
   'help slideshow title' => {
     'lastUpdated' => undef,
@@ -74,8 +74,8 @@ our $I18N = {
     'message' => ''
   },
   'helpvar url_yes' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1215797827,
+    'message' => 'Confirmar la eliminaci&oacute;n de este &Aacute;lbum.'
   },
   'help delete body' => {
     'lastUpdated' => undef,
@@ -86,8 +86,8 @@ our $I18N = {
     'message' => ''
   },
   'template upload archive' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1215797390,
+    'message' => 'Archivo Zip'
   },
   'helpvar canEdit' => {
     'lastUpdated' => undef,
@@ -102,12 +102,12 @@ our $I18N = {
     'message' => 'Si'
   },
   'helpvar form_archive' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1215798053,
+    'message' => 'El archivo para subir. Un control WebGUI::Form::File '
   },
   'template upload type' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1215797705,
+    'message' => 'Subir Tipo'
   },
   'help slideshow body' => {
     'lastUpdated' => undef,
@@ -133,15 +133,15 @@ our $I18N = {
     'lastUpdated' => undef,
     'message' => ''
   },
-  'help delete title' => {
+  'helpvar ownerUsername' => {
     'lastUpdated' => undef,
     'message' => ''
   },
   'helpvar url_thumbnails' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1215797924,
+    'message' => 'La URL para vistas en miniatura de este &Aacute;lbum.'
   },
-  'helpvar ownerUsername' => {
+  'help delete title' => {
     'lastUpdated' => undef,
     'message' => ''
   },
@@ -162,8 +162,8 @@ our $I18N = {
     'message' => 'Editar &Aacute;lbum'
   },
   'template file creationDate' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1215797364,
+    'message' => 'Subido por'
   },
   'assetName' => {
     'lastUpdated' => undef,
@@ -218,8 +218,8 @@ our $I18N = {
     'message' => 'Cancelar'
   },
   'template file numberOfComments' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1215797375,
+    'message' => 'Comentarios'
   },
   'helpvar rssDate' => {
     'lastUpdated' => undef,
@@ -274,8 +274,8 @@ our $I18N = {
     'message' => ''
   },
   'helpvar url_viewRss' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1215797870,
+    'message' => 'La URL para el RSS de este &Aacute;lbum.'
   },
   'save message' => {
     'lastUpdated' => 1215795208,
@@ -285,7 +285,7 @@ our $I18N = {
     'lastUpdated' => 1215795015,
     'message' => '&iquest;Qu&eacute; viene despu&eacute;s?'
   },
-  'help view title' => {
+  'helpvar url_listAlbumsRss' => {
     'lastUpdated' => undef,
     'message' => ''
   },
@@ -293,15 +293,15 @@ our $I18N = {
     'lastUpdated' => undef,
     'message' => ''
   },
-  'helpvar url_listAlbumsRss' => {
-    'lastUpdated' => undef,
-    'message' => ''
-  },
-  'helpvar form_description' => {
+  'help view title' => {
     'lastUpdated' => undef,
     'message' => ''
   },
   'helpvar url_addNoClass' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'helpvar form_description' => {
     'lastUpdated' => undef,
     'message' => ''
   },
@@ -317,35 +317,35 @@ our $I18N = {
     'lastUpdated' => 1215795148,
     'message' => 'Album'
   },
+  'template upload single' => {
+    'lastUpdated' => 1215797615,
+    'message' => 'Solo un archivo'
+  },
   'helpvar isNewAlbum' => {
     'lastUpdated' => undef,
     'message' => ''
-  },
-  'template upload single' => {
-    'lastUpdated' => undef,
-    'message' => ''
-  },
-  'template url_thumbnails' => {
-    'lastUpdated' => 1215795041,
-    'message' => 'vista en miniatura<br />'
   },
   'template addArchive body' => {
     'lastUpdated' => 1215795228,
     'message' => 'Este formulario acepta archivos &quot;zip&quot; y &quot;tar/gzipped&quot;'
   },
-  'helpvar file_loop edit' => {
-    'lastUpdated' => undef,
-    'message' => ''
+  'template url_thumbnails' => {
+    'lastUpdated' => 1215795041,
+    'message' => 'vista en miniatura<br />'
   },
   'editForm assetIdThumbnail label' => {
     'lastUpdated' => undef,
     'message' => ''
   },
-  'helpvar form_end' => {
+  'helpvar file_loop edit' => {
     'lastUpdated' => undef,
     'message' => ''
   },
   'addArchive friendsOnly' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'helpvar form_end' => {
     'lastUpdated' => undef,
     'message' => ''
   }

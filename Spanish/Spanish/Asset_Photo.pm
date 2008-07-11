@@ -70,8 +70,8 @@ our $I18N = {
     'message' => ''
   },
   'helpvar errors' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1215797270,
+    'message' => 'Un ciclo de los mensajes de error para mostrar al usuario'
   },
   'helpvar url_listFilesForOwner' => {
     'lastUpdated' => undef,
@@ -166,8 +166,8 @@ our $I18N = {
     'message' => 'Guardar'
   },
   'helpvar exifLoop' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1215797300,
+    'message' => 'Un ciclo de etiquetas EXIF'
   },
   'help common body' => {
     'lastUpdated' => undef,

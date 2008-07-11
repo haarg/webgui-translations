@@ -14,8 +14,8 @@ our $I18N = {
     'message' => 'El men&uacute; de t&iacute;tulo, est&aacute; representada en navegaciones, fijado para la imagen cuando se ha subido, o si el nombre del archivo no se inscribi&oacute;.'
   },
   'thumbnail size' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1215797540,
+    'message' => 'TAma&ntilde;o de la vista en miniatura'
   },
   'Thumbnail description' => {
     'lastUpdated' => 1215795451,
@@ -26,8 +26,8 @@ our $I18N = {
     'message' => ''
   },
   'new height' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1215797466,
+    'message' => 'Nueva Altura'
   },
   'Parameters description' => {
     'lastUpdated' => 1215796996,
@@ -38,8 +38,8 @@ our $I18N = {
     'message' => ''
   },
   'new width' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1215797452,
+    'message' => 'Nuevo Ancho'
   },
   'thumbnail variable' => {
     'lastUpdated' => undef,
@@ -50,8 +50,8 @@ our $I18N = {
     'message' => ''
   },
   'thumbnail' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1215797378,
+    'message' => 'Vista en miniatura'
   },
   'resize image' => {
     'lastUpdated' => 1215797051,

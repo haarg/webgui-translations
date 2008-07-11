@@ -25,10 +25,6 @@ our $I18N = {
     'lastUpdated' => 1207239305,
     'message' => 'URL padre'
   },
-  'newWindow' => {
-    'lastUpdated' => 1207149542,
-    'message' => 'Un valor booleano que ser&aacute; verdadero si este Activo se abre en una nueva ventana del navegador.'
-  },
   'keywords' => {
     'lastUpdated' => 1206978231,
     'message' => 'Palabras clave'
@@ -36,6 +32,10 @@ our $I18N = {
   'make asset exportable' => {
     'lastUpdated' => 1207062419,
     'message' => '&iquest;Hacer este activo exportable?'
+  },
+  'newWindow' => {
+    'lastUpdated' => 1207149542,
+    'message' => 'Un valor booleano que ser&aacute; verdadero si este Activo se abre en una nueva ventana del navegador.'
   },
   '871 description' => {
     'lastUpdated' => 1186064161,
@@ -102,8 +102,8 @@ our $I18N = {
     'message' => 'comprobado por'
   },
   'page indicator' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1215806209,
+    'message' => 'Mostrando p&aacute;gina %s de %s'
   },
   '11' => {
     'lastUpdated' => 1186063919,
@@ -178,12 +178,12 @@ our $I18N = {
     'message' => 'Esta seguro que desea eliminar esta propiedad de Metadatos?'
   },
   'no results' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1215806187,
+    'message' => 'No se han encontrado resultados!'
   },
   'update' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1215806247,
+    'message' => 'Actualizar'
   },
   'make asset exportable description' => {
     'lastUpdated' => 1215718696,
@@ -226,8 +226,8 @@ our $I18N = {
     'message' => 'Copiar'
   },
   'synopsis' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1215806392,
+    'message' => 'Una descripci&oacute;n corta del contenido del Activo.'
   },
   'extraHeadTags' => {
     'lastUpdated' => 1206893795,
@@ -253,10 +253,6 @@ our $I18N = {
     'lastUpdated' => 1186067662,
     'message' => 'Crear acceso directo'
   },
-  '966' => {
-    'lastUpdated' => 1186065245,
-    'message' => 'Portapapeles del sistema.'
-  },
   'demote' => {
     'lastUpdated' => 1186067957,
     'message' => 'Degradar'
@@ -264,6 +260,10 @@ our $I18N = {
   'Extras URL' => {
     'lastUpdated' => 1186065496,
     'message' => 'URL de Extras'
+  },
+  '966' => {
+    'lastUpdated' => 1186065245,
+    'message' => 'Portapapeles del sistema.'
   },
   'change url' => {
     'lastUpdated' => 1186066984,
@@ -286,8 +286,8 @@ our $I18N = {
     'message' => 'Versiones comisionadas'
   },
   'revisions help' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1215806842,
+    'message' => 'Muestra una lista de todas las revisiones de este Activo.'
   },
   'Export as user' => {
     'lastUpdated' => 1186065232,
@@ -310,8 +310,8 @@ our $I18N = {
     'message' => "Agregar nueva descripci\x{f3}n de campo"
   },
   'revisions' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1215806801,
+    'message' => 'Revisiones'
   },
   '104' => {
     'lastUpdated' => 1169609968,
@@ -330,8 +330,8 @@ our $I18N = {
     'message' => 'Gestionar portapapeles del sistema.'
   },
   'status' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1215806369,
+    'message' => 'En lo que respecta al control de versiones, el estado de este activo. Normalmente estas son las cadenas en Ingl&eacute;s &quot;approved&quot;, &quot;pending&quot;, &quot;commited&quot;.'
   },
   'assetSize' => {
     'lastUpdated' => 1186066929,
@@ -394,8 +394,8 @@ our $I18N = {
     'message' => ''
   },
   'keywords help' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1215806153,
+    'message' => 'A&ntilde;adir aqu&iacute; algunas palabras clave para este activo. Ellas ser&aacute;n a&ntilde;adidas autom&aacute;ticamente al &iacute;ndice de b&uacute;squeda, y las palabras clave como metatags.'
   },
   'confirm change' => {
     'lastUpdated' => 1186067227,
@@ -458,8 +458,8 @@ our $I18N = {
     'message' => 'No pude desenlazar %s: %s'
   },
   'url' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1215806232,
+    'message' => 'La URL del activo.'
   },
   'Class Icon' => {
     'lastUpdated' => 1186062787,
@@ -509,10 +509,6 @@ our $I18N = {
     'lastUpdated' => 1186064104,
     'message' => 'Qui&eacute;n puede editar?'
   },
-  'over max assets' => {
-    'lastUpdated' => 1207149827,
-    'message' => 'El administrador ha limitado el n&uacute;mero de activos que puede colocar en su sitio, y usted ha excedido el l&iacute;mite. Eliminar algunos activos antiguos con el fin de a&ntilde;adir m&aacute;s.'
-  },
   'manage' => {
     'lastUpdated' => 1207148754,
     'message' => 'Administrar'
@@ -520,6 +516,10 @@ our $I18N = {
   'Page Export' => {
     'lastUpdated' => 1186065817,
     'message' => 'P&aacute;gina, exportaci&oacute;n'
+  },
+  'over max assets' => {
+    'lastUpdated' => 1207149827,
+    'message' => 'El administrador ha limitado el n&uacute;mero de activos que puede colocar en su sitio, y usted ha excedido el l&iacute;mite. Eliminar algunos activos antiguos con el fin de a&ntilde;adir m&aacute;s.'
   },
   'make package description' => {
     'lastUpdated' => 1207148447,
@@ -574,8 +574,8 @@ our $I18N = {
     'message' => 'Mostrar el t&iacute;tulo?'
   },
   'rootUrl form label' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1215806919,
+    'message' => 'URL Ra&iacute;z'
   },
   '940 description' => {
     'lastUpdated' => 1186064848,
@@ -586,8 +586,8 @@ our $I18N = {
     'message' => '&uacute;ltimo actualizado'
   },
   'menu label' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1215806164,
+    'message' => 'M&aacute;s'
   },
   'Select' => {
     'lastUpdated' => 1186065954,
@@ -610,8 +610,8 @@ our $I18N = {
     'message' => 'atr&aacute;s'
   },
   'revision date' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1215806815,
+    'message' => 'Fecha de Revisi&oacute;n'
   },
   'encrypt page' => {
     'lastUpdated' => 1199912473,
@@ -658,8 +658,8 @@ our $I18N = {
     'message' => 'Hecho'
   },
   'search' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1215806411,
+    'message' => 'Buscar'
   },
   'lock' => {
     'lastUpdated' => 1206978360,
@@ -750,8 +750,8 @@ our $I18N = {
     'message' => 'El t&iacute;tulo del Activo usado en los navegadores.'
   },
   'topicName' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1215806257,
+    'message' => 'Activos'
   },
   'asset id' => {
     'lastUpdated' => 1186066539,

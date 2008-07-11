@@ -2,8 +2,8 @@ package WebGUI::i18n::Spanish::Asset_FilePile;
 use utf8;
 our $I18N = {
   'upload files description' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1215798247,
+    'message' => 'Aqu&iacute; es donde los archivos pueden ser subidos desde su ordenador. Puedes subir 100 archivos a la vez. Los tama&ntilde;os de archivo no debe exceder de 100 MB. tama&ntilde;o.'
   },
   '108 description' => {
     'lastUpdated' => undef,
@@ -22,8 +22,8 @@ our $I18N = {
     'message' => 'Due&ntilde;o'
   },
   'assetName' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1215798170,
+    'message' => 'Pila de Archivos'
   },
   '872 description' => {
     'lastUpdated' => undef,
