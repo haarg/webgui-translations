@@ -18,8 +18,8 @@ our $I18N = {
     'message' => '<div id="result_box" dir="ltr">Soy miembro de un sitio que podr&iacute;as encontras cosas muy &uacute;tiles, as&iacute; que te estoy enviando est&aacute; invitacion esperando que te unas. Haz clic en el siguiente enlace para registrarte.</div>'
   },
   'topicName' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1215807255,
+    'message' => 'Invitaciones de usuario.'
   },
   'inviteFormError' => {
     'lastUpdated' => 1215805492,
@@ -110,8 +110,8 @@ our $I18N = {
     'message' => 'C&oacute;digo HTML para el final del formulario.'
   },
   'title' => {
-    'lastUpdated' => 1212585805,
-    'message' => ''
+    'lastUpdated' => 1215807219,
+    'message' => 'Un t&iacute;tulo internacionalizado para el formulario.'
   }
 }
 ;
