@@ -9,53 +9,57 @@ our $I18N = {
     'lastUpdated' => 1215710948,
     'message' => 'Un formulario HTML para manipular&nbsp; la hora de inicio y final de un evento. Tiene presete todo el d&iacute;a, tiempo no espec&iacute;fico, o un tiempo inicial o final espec&iacute;fico. '
   },
-  'formRecurPattern' => {
-    'lastUpdated' => 1215711476,
-    'message' => 'HTML y Javascript para un formulario que define como un evento se repite.'
-  },
   'link description' => {
     'lastUpdated' => 1215709402,
     'message' => 'Enlace Desc'
+  },
+  'formRecurPattern' => {
+    'lastUpdated' => 1215711476,
+    'message' => 'HTML y Javascript para un formulario que define como un evento se repite.'
   },
   'endDateMinute' => {
     'lastUpdated' => 1215709764,
     'message' => 'El minuto, con formato de dos d&iacute;gitos con los ceros, en que finaliza este evento.'
   },
-  'endDateYear' => {
-    'lastUpdated' => 1215709911,
-    'message' => 'El a&ntilde;o en que finaliza este Evento, con 4 d&iacute;gitos.'
-  },
-  'urlDay' => {
-    'lastUpdated' => 1215706214,
-    'message' => 'Una URL para mostrar todos los Eventos del mismo dia de este Evendo del Calendario.'
-  },
-  'print' => {
-    'lastUpdated' => 1215707012,
-    'message' => 'Imprimir'
+  'description label' => {
+    'lastUpdated' => 1215809312,
+    'message' => 'Descripci&oacute;n'
   },
   'scheduled' => {
     'lastUpdated' => 1215710138,
     'message' => 'Programado'
   },
+  'print' => {
+    'lastUpdated' => 1215707012,
+    'message' => 'Imprimir'
+  },
+  'urlDay' => {
+    'lastUpdated' => 1215706214,
+    'message' => 'Una URL para mostrar todos los Eventos del mismo dia de este Evendo del Calendario.'
+  },
+  'endDateYear' => {
+    'lastUpdated' => 1215709911,
+    'message' => 'El a&ntilde;o en que finaliza este Evento, con 4 d&iacute;gitos.'
+  },
   'recurId' => {
     'lastUpdated' => 1215709803,
     'message' => 'Un &uacute;nico identificador para la recurrencia de este evento en la base de datos.'
-  },
-  'formUserDefinedN' => {
-    'lastUpdated' => 1215710649,
-    'message' => 'Para cada uno de los 5 campos Definido por el usuario, un formulario de widgets para una sola l&iacute;nea de texto.<br /> '
   },
   'endTime' => {
     'lastUpdated' => 1215709995,
     'message' => 'La fecha final de este Evento.'
   },
-  'startDateHourM' => {
-    'lastUpdated' => 1215706806,
-    'message' => 'Dependiendo si el evento ocurre en la ma&ntilde;ana o en la tarde, cualquier cadena &quot;am&quot; o &quot;pm&quot;.'
+  'formUserDefinedN' => {
+    'lastUpdated' => 1215710649,
+    'message' => 'Para cada uno de los 5 campos Definido por el usuario, un formulario de widgets para una sola l&iacute;nea de texto.<br /> '
   },
   'urlParent' => {
     'lastUpdated' => 1215706151,
     'message' => 'Una URL al Calendario que contiene este Evento.'
+  },
+  'startDateHourM' => {
+    'lastUpdated' => 1215706806,
+    'message' => 'Dependiendo si el evento ocurre en la ma&ntilde;ana o en la tarde, cualquier cadena &quot;am&quot; o &quot;pm&quot;.'
   },
   'feedId' => {
     'lastUpdated' => 1215710683,
@@ -69,13 +73,13 @@ our $I18N = {
     'lastUpdated' => 1215706748,
     'message' => 'Eliminar'
   },
-  'start' => {
-    'lastUpdated' => 1215706312,
-    'message' => 'Inicio'
-  },
   'startDateYear' => {
     'lastUpdated' => 1215706493,
     'message' => '<div id="result_box" dir="ltr">El a&ntilde;o en que comienza este evento, con 4 d&iacute;gitos.</div>'
+  },
+  'start' => {
+    'lastUpdated' => 1215706312,
+    'message' => 'Inicio'
   },
   'formHeader' => {
     'lastUpdated' => 1215711250,
@@ -253,6 +257,10 @@ our $I18N = {
     'lastUpdated' => 1215707242,
     'message' => 'El dia de la semana en que comienza este Evento, un n&uacute;mero del 1 al 7.'
   },
+  'start date' => {
+    'lastUpdated' => 1215706997,
+    'message' => 'Fecha de Inicio'
+  },
   'message' => {
     'lastUpdated' => 1215709052,
     'message' => 'Un mensaje de error.'
@@ -261,21 +269,17 @@ our $I18N = {
     'lastUpdated' => 1215710850,
     'message' => 'un bot&oacute;n HTML para cancelar la adici&oacute;n o edici&oacute;n de un evento.'
   },
-  'start date' => {
-    'lastUpdated' => 1215706997,
-    'message' => 'Fecha de Inicio'
-  },
   'prevUrl' => {
     'lastUpdated' => 1215708650,
     'message' => 'Una URL que toma el usuario para el anterior evento en el calendario, por fecha y tiempo.'
   },
-  'startDateDmy' => {
-    'lastUpdated' => 1215707209,
-    'message' => 'El formato de la fecha de inicio del Evento en dd-mm-yyyy, donde yyyy es el a&ntilde;o, mm es el mes y dd es el d&iacute;a.'
-  },
   'formGroupToView' => {
     'lastUpdated' => 1215711165,
     'message' => '<div id="result_box" dir="ltr">Formulario HTML para escoger qu&eacute; grupo puede ver este evento.</div>'
+  },
+  'startDateDmy' => {
+    'lastUpdated' => 1215707209,
+    'message' => 'El formato de la fecha de inicio del Evento en dd-mm-yyyy, donde yyyy es el a&ntilde;o, mm es el mes y dd es el d&iacute;a.'
   },
   'recurrence range' => {
     'lastUpdated' => 1215709912,
@@ -513,13 +517,13 @@ our $I18N = {
     'lastUpdated' => 1215711057,
     'message' => 'Formulario HTML para la entrada o la edici&oacute;n de la hora de inicio del evento.'
   },
-  'startDateMdy' => {
-    'lastUpdated' => 1215706676,
-    'message' => 'El formato de la fecha de inicio del Evento en mm-dd-yyyy, donde yyyy es el a&ntilde;o, mm es el mes y dd es el d&iacute;a.'
-  },
   'endDateSecond' => {
     'lastUpdated' => 1215709887,
     'message' => 'El segundo, con formato de dos d&iacute;gitos con los ceros, en que finaliza este evento.'
+  },
+  'startDateMdy' => {
+    'lastUpdated' => 1215706676,
+    'message' => 'El formato de la fecha de inicio del Evento en mm-dd-yyyy, donde yyyy es el a&ntilde;o, mm es el mes y dd es el d&iacute;a.'
   },
   'short title' => {
     'lastUpdated' => 1215707348,

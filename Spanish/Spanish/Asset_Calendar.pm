@@ -1,817 +1,663 @@
 package WebGUI::i18n::Spanish::Asset_Calendar;
 use utf8;
-
 our $I18N = {
-	'templateIdWeek description' => {
-		message => q|Este patrón muestra el calendario en formato "semana".|,
-		lastUpdated => 1189607716
-	},
-
-	'urlDay' => {
-		message => q|Un URL hacia la vista del día 1 del calendario.|,
-		lastUpdated => 1189607808
-	},
-
-	'print' => {
-		message => q|imprimir|,
-		lastUpdated => 1190386357
-	},
-
-	'templateIdEventEdit description' => {
-		message => q|El patrón para editar Eventos.|,
-		lastUpdated => 1189606305
-	},
-
-	'helpvar dateTime monthName' => {
-		message => q|EL nombre del mes (&quot;Enero&quot;)|,
-		lastUpdated => 1208215750
-	},
-
-	'adminControls' => {
-		message => q|Estos son los íconos y URLs que permiten editar, cortar, copiar, eliminar y reordenar el Activo.|,
-		lastUpdated => 1189595109
-	},
-
-	'urlAdd' => {
-		message => q|Un URL para agregar un evento al calendario.|,
-		lastUpdated => 1189607767
-	},
-
-	'templateIdPrintMonth label' => {
-		message => q|Patrón de impresión "mes"|,
-		lastUpdated => 1189607520
-	},
-
-	'events weekVar' => {
-		message => q|Este bucle contiene todos los eventos para este d&iacute;a.|,
-		lastUpdated => 1199914492
-	},
-
-	'workflow generateRecurringEvents description' => {
-		message => q|Esta actividad genera eventos peri&oacute;dicos para calendarios.&nbsp; Esta actividad tambi&eacute;n mantiene eventos peri&oacute;dicos en el futuro.|,
-		lastUpdated => 1207867650
-	},
-
-	'subscribe' => {
-		message => q|Suscribir|,
-		lastUpdated => 1207848883
-	},
-
-	'helpvar newDay' => {
-		message => q|Esta variable es verdadera cuando el evento actual es en un d&iacute;a diferente que el anterior evento.|,
-		lastUpdated => 1207867767
-	},
-
-	'previous week' => {
-		message => q|Semana Anterior|,
-		lastUpdated => 1207848832
-	},
-
-	'mdy' => {
-		message => q|La fecha de este dia en formato mm-dd-aaaa, donde aaaa es el año, mm es el mes y dd el día.|,
-		lastUpdated => 1189603321
-	},
-
-	'helpvar dateTime second' => {
-		message => q|Los segundos|,
-		lastUpdated => 1208215759
-	},
-
-	'defaultView description' => {
-		message => q|La vista por defecto para mostrar al usuario|,
-		lastUpdated => 1189595683
-	},
-
-	'defaultDate value current' => {
-		message => q|La fecha actual|,
-		lastUpdated => 1189595349
-	},
-
-	'pageNextUrl dayVar' => {
-		message => q|Un URL al próximo día del calendario.|,
-		lastUpdated => 1189603923
-	},
-
-	'add event' => {
-		message => q|agregar evento|,
-		lastUpdated => 1190386421
-	},
-
-	'helpvar dateTime minute' => {
-		message => q|Los minutos|,
-		lastUpdated => 1208215695
-	},
-
-	'view calendar day title' => {
-		message => q|Ver las variables de patrón de día en el calendario.|,
-		lastUpdated => 1190390488
-	},
-
-	'previous day' => {
-		message => q|D&iacute;a Anterior|,
-		lastUpdated => 1207848804
-	},
-
-	'helpvar dateTime dayOfMonth' => {
-		message => q|El numero de el dia del mes.|,
-		lastUpdated => 1208215351
-	},
-
-	'helpvar url_nextPage' => {
-		message => q|La direccion URL para la pagina siguiente. Si no hay una pagina siguiente, esta variable no existira. |,
-		lastUpdated => 1208215984
-	},
-
-	'help view list title' => {
-		message => q|Vista de lista del calendario.|,
-		lastUpdated => 1208215237
-	},
-
-	'templateIdEvent description' => {
-		message => q|El patrón para mostrar los detalles del Evento.|,
-		lastUpdated => 1189606239
-	},
-
-	'next day' => {
-		message => q|D&iacute;a Siguiente.|,
-		lastUpdated => 1207848725
-	},
-
-	'workflow updateFeeds description' => {
-		message => q|Esta actividad importa eventos de calendario de las fuentes del calendario|,
-		lastUpdated => 1207867540
-	},
-
-	'editForm templateIdPrintList description' => {
-		message => q|Esta pplantilla imprime el calendario en forma de lista|,
-		lastUpdated => 1208214731
-	},
-
-	'defaultDate label' => {
-		message => q|Fecha por defecto|,
-		lastUpdated => 1189595332
-	},
-
-	'paramStart' => {
-		message => q|La fecha de inicio del calendario.|,
-		lastUpdated => 1189604640
-	},
-
-	'templateIdPrintEvent label' => {
-		message => q|Patrón de impresión detalles del Evento|,
-		lastUpdated => 1189607425
-	},
-
-	'pagePrevUrl dayVar' => {
-		message => q|Un URL al día previo en el calendario|,
-		lastUpdated => 1189604321
-	},
-
-	'helpvar dateTime month' => {
-		message => q|El numero del mes (01)|,
-		lastUpdated => 1208215716
-	},
-
-	'hour24' => {
-		message => q|La hora en formato de 24 horas. Las 2 de la tarde serán 14.00.|,
-		lastUpdated => 1189601874
-	},
-
-	'editForm icalInterval label' => {
-		message => q|Intervalo de alimentacion de Calendario.|,
-		lastUpdated => 1208214587
-	},
-
-	'templateIdEventEdit label' => {
-		message => q|Patrón edición de Evento|,
-		lastUpdated => 1189606335
-	},
-
-	'visitorCacheTimeout label' => {
-		message => q|Tiempo l&iacute;mite para la cach&eacute; del visitante|,
-		lastUpdated => 1207867453
-	},
-
-	'dayAbbr' => {
-		message => q|La abreviatura para el nombre del día actual.|,
-		lastUpdated => 1189595175
-	},
-
-	'hourM' => {
-		message => q|Dependiendo de si la hora pertenece a la mañana o a la tarde, las cadenas "am" o "pm"|,
-		lastUpdated => 1189602066
-	},
-
-	'urlMonth' => {
-		message => q|Un URL para la vista del calendario en formato "mes".|,
-		lastUpdated => 1189607876
-	},
-
-	'helpvar newMonth' => {
-		message => q|Esta variable es verdadera cuando el evento actual es en un mes diferente que el anterior evento.|,
-		lastUpdated => 1207867817
-	},
-
-	'helpvar dateTime year' => {
-		message => q|El a&ntilde;o<span style="font-size: 11pt; line-height: 115%; font-family: 'Calibri','sans-serif'"> </span>|,
-		lastUpdated => 1208215846
-	},
-
-	'helpvar dateTime dayName' => {
-		message => q|El nombre del dia (Domingo)|,
-		lastUpdated => 1208215289
-	},
-
-	'dayOfWeek' => {
-		message => q|Qué día de la semana es ese día, un entero entre 1 y 7.|,
-		lastUpdated => 1189595236
-	},
-
-	'feeds' => {
-		message => q|Feeds|,
-		lastUpdated => 1189600894
-	},
-
-	'startMonthName' => {
-		message => q|El nombre del mes en el cual esta semana comienza.|,
-		lastUpdated => 1189605601
-	},
-
-	'startDayAbbr' => {
-		message => q|La abreviatura del nombre del día con el que esta semana comienza.|,
-		lastUpdated => 1189605177
-	},
-
-	'end date' => {
-		message => q|Fecha de Fin|,
-		lastUpdated => 1207848919
-	},
-
-	'workflow updateFeeds' => {
-		message => q|Actualizar fuentes de calendario|,
-		lastUpdated => 1207867564
-	},
-
-	'helpvar dateTime dmy' => {
-		message => q|El dia, mes, y a&ntilde;o en formato UK: DD/MM/AAAA|,
-		lastUpdated => 1208215410
-	},
-
-	'defaultDate value last' => {
-		message => q|El ultimo evento en el calendario|,
-		lastUpdated => 1189595469
-	},
-
-	'templateIdSearch description' => {
-		message => q|Este patrón muestra el formulario de búsqueda para el calendario|,
-		lastUpdated => 1189607589
-	},
-
-	'helpvar dateTime dayAbbr' => {
-		message => q|El nombre de dia abreviado (Dom)|,
-		lastUpdated => 1208215275
-	},
-
-	'admin' => {
-		message => q|Una variable condicional que es &quot;verdadera&quot; cuando esta prendido el modo administrador.<p>&nbsp;</p>|,
-		lastUpdated => 1208536525
-	},
-
-	'templateIdMonth label' => {
-		message => q|Patrón de vista mensual|,
-		lastUpdated => 1189598211
-	},
-
-	'visitorCacheTimeout description' => {
-		message => q|El n&uacute;mero de minutos antes de que la cach&eacute; del visitante ser&iacute;a refrescada|,
-		lastUpdated => 1207867363
-	},
-
-	'subscriberNotifyOffset description' => {
-		message => q|La cantidad de días previos para notificar un usuario de un Evento.|,
-		lastUpdated => 1189605772
-	},
-
-	'editForm templateIdList label' => {
-		message => q|Plantilla de vista de lista|,
-		lastUpdated => 1208214696
-	},
-
-	'urlWeek' => {
-		message => q|Un URL a la vista semanal del calendario.|,
-		lastUpdated => 1190390188
-	},
-
-	'templateIdPrintDay description' => {
-		message => q|Este patrón se usa para imprimir el calendario en formato "día".|,
-		lastUpdated => 1189607195
-	},
-
-	'defaultView value week' => {
-		message => q|Semana|,
-		lastUpdated => 1189595978
-	},
-
-	'sortEventsBy description' => {
-		message => q|El orden en&nbsp; el cual los eventos diarios son mostrados.|,
-		lastUpdated => 1207867024
-	},
-
-	'extrasUrl' => {
-		message => q|El URL al directorio de extras WebGUI.|,
-		lastUpdated => 1189599786
-	},
-
-	'templateIdPrintDay label' => {
-		message => q|Imprimir patrón de "día"|,
-		lastUpdated => 1189607216
-	},
-
-	'hour12' => {
-		message => q|La hora en formato de 12 horas. las 2 de la tarde serán 2:00.|,
-		lastUpdated => 1189601824
-	},
-
-	'templateIdPrintEvent description' => {
-		message => q|El patrón para imprimir detalles del Evento.|,
-		lastUpdated => 1189607239
-	},
-
-	'previous page' => {
-		message => q|P&aacute;gina Anterior|,
-		lastUpdated => 1207848818
-	},
-
-	'paramType' => {
-		message => q|La vista por defecto del calendario, una de las cadenas "day", "week", "month".|,
-		lastUpdated => 1189604765
-	},
-
-	'label search' => {
-		message => q|B&uacute;squeda|,
-		lastUpdated => 1207867262
-	},
-
-	'endYear' => {
-		message => q|El año en el que esta semana finaliza.|,
-		lastUpdated => 1189598685
-	},
-
-	'editForm templateIdList description' => {
-		message => q|Esta plantilla muestra el calendario en forma de lista.|,
-		lastUpdated => 1208214676
-	},
-
-	'ymd' => {
-		message => q|La fecha de ese día en formato aaaa-mm-dd, donde aaaa es el año, mm el mes y dd el día.|,
-		lastUpdated => 1189598338
-	},
-
-	'helpvar url_previousPage' => {
-		message => q|La direccion URL de la pagina previa. Si no hay una pagina previa, esta variable no existira. |,
-		lastUpdated => 1208216018
-	},
-
-	'pageNextStart' => {
-		message => q|La fecha del próximo día del calendario en formato aaaa-mm-dd (año, mes, día).|,
-		lastUpdated => 1189603859
-	},
-
-	'defaultDate value first' => {
-		message => q|El primer evento en el calendario|,
-		lastUpdated => 1189595368
-	},
-
-	'start date' => {
-		message => q|Fecha de Inicio|,
-		lastUpdated => 1207867224
-	},
-
-	'startMonthAbbr' => {
-		message => q|La abreviatura del nombre del mes en el que comienza esta semana.|,
-		lastUpdated => 1189605578
-	},
-
-	'defaultView label' => {
-		message => q|Vista por defecto|,
-		lastUpdated => 1189595725
-	},
-
-	'defaultView value list' => {
-		message => q|Lista|,
-		lastUpdated => 1204305196
-	},
-
-	'helpvar dateTime start' => {
-		message => q|Un juego de varaibles de fecha/hora con el prefijo &quot;start&quot; (iniciar). Vea &quot;las variables de Fecha/Hora del Calendario&quot; para mas informacion.|,
-		lastUpdated => 1208215833
-	},
-
-	'monthAbbr' => {
-		message => q|La abreviatura para el nombre de este mes.|,
-		lastUpdated => 1189603467
-	},
-
-	'pageNextUrl weekVar' => {
-		message => q|Un URL a la próxima semana del calendario.|,
-		lastUpdated => 1189604045
-	},
-
-	'iCal' => {
-		message => q|iCal|,
-		lastUpdated => 1190386658
-	},
-
-	'helpvar dateTime monthAbbr' => {
-		message => q|El nombre del mes abreviado (&quot;Ene&quot;)|,
-		lastUpdated => 1208215735
-	},
-
-	'templateIdDay description' => {
-		message => q|Este patrón muestra el calendario en formato "día".|,
-		lastUpdated => 1189606185
-	},
-
-	'dmy' => {
-		message => q|La fecha de ese día en formato dd-mm-aaaa, donde aaaa es el año, mm es el mes y dd es el día.|,
-		lastUpdated => 1189596012
-	},
-
-	'helpvar dateTime ymd' => {
-		message => q|El a&ntilde;o, el mes, y el dia en formato ISO: AAAA-MM-DD<span style="font-size: 11pt; line-height: 115%; font-family: 'Calibri','sans-serif'"> </span>|,
-		lastUpdated => 1208215878
-	},
-
-	'endMonth' => {
-		message => q|El numero (1-12) del mes en el que esta semana finaliza.|,
-		lastUpdated => 1189596865
-	},
-
-	'subscriberNotifyOffset label' => {
-		message => q|Anticipación de notificación a suscriptores.|,
-		lastUpdated => 1189606152
-	},
-
-	'helpvar dateTime mdy' => {
-		message => q|El mes, d&iacute;a y a&ntilde;o en formato US: MM/DD/AAAA<span> </span>|,
-		lastUpdated => 1210974539
-	},
-
-	'workflow generateRecurringEvents' => {
-		message => q|Generar eventos peri&oacute;dicos|,
-		lastUpdated => 1207867677
-	},
-
-	'templateIdEvent label' => {
-		message => q|Patrón de detalles del Evento|,
-		lastUpdated => 1189606274
-	},
-
-	'pagePrevStart' => {
-		message => q|La fecha del día previo en el calendario en el formato aaaa-mm-dd (año, mes día).|,
-		lastUpdated => 1189604159
-	},
-
-	'sortEventsBy value sequencenumber' => {
-		message => q|Orden por n&uacute;mero de secuencia.|,
-		lastUpdated => 1207867148
-	},
-
-	'editForm icalInterval description' => {
-		message => q|Periodo de tiempo mostrado en el alimentador de calendario.|,
-		lastUpdated => 1208214567
-	},
-
-	'hours' => {
-		message => q|Este bucle contiene todos los eventos y etiquetas para las horas en los que ocurren. Horas sin eventos no se incluyen en el bucle.|,
-		lastUpdated => 1189602515
-	},
-
-	'startYear' => {
-		message => q|El año en el que comienza esta semana.|,
-		lastUpdated => 1189605657
-	},
-
-	'help view list body' => {
-		message => q|Estas variables estan disponibles para la vista de lista del calendario.|,
-		lastUpdated => 1208215224
-	},
-
-	'editForm listViewPageInterval label' => {
-		message => q|Listar intervalo de vista de pagina.|,
-		lastUpdated => 1208214652
-	},
-
-	'templateIdPrintWeek description' => {
-		message => q|Este patrón para imprimir el calendario en formato "semana".|,
-		lastUpdated => 1189607546
-	},
-
-	'help event variables body' => {
-		message => q|<p>Cuando el calendario esta mostrando un evento, adquiere el juego completo de variables de plantillas de eventos, y cambia el nombre un poco. La variable de plantilla de evento &quot;Title&quot; (titulo) se convierte en &quot;eventTitle&quot;. La variable de plantilla de evento &quot;startDate&quot; se convierte en &quot;eventStartDate&quot; y asi continua. </p>|,
-		lastUpdated => 1208215173
-	},
-
-	'endDayName' => {
-		message => q|El nombre del día con el que esta semana termina.|,
-		lastUpdated => 1189596136
-	},
-
-	'view calendar title' => {
-		message => q|Ver variables de patrón del calendario|,
-		lastUpdated => 1190390517
-	},
-
-	'pagePrevUrl weekVar' => {
-		message => q|Un URL a la semana previa en el calendario.|,
-		lastUpdated => 1189604583
-	},
-
-	'editForm templateIdPrintList label' => {
-		message => q|Imprimir plantilla de vista de lista.|,
-		lastUpdated => 1208214750
-	},
-
-	'keyword' => {
-		message => q|Palabra Clave|,
-		lastUpdated => 1207866967
-	},
-
-	'help event variables title' => {
-		message => q|Variables de evento de calendario|,
-		lastUpdated => 1208215200
-	},
-
-	'editForm listViewPageInterval description' => {
-		message => q|Periodo de tiempo mostrado en una sola pagina de la vista de lista.|,
-		lastUpdated => 1208214623
-	},
-
-	'urlIcal' => {
-		message => q|Un URL para el feed iCal (datos para iCAL) para este calendario, comenzando este mes.|,
-		lastUpdated => 1189607850
-	},
-
-	'templateIdPrintMonth description' => {
-		message => q|Este patrón para imprimir el calendario en formato "mes".|,
-		lastUpdated => 1189607476
-	},
-
-	'next page' => {
-		message => q|Siguiente P&aacute;gina|,
-		lastUpdated => 1207848746
-	},
-
-	'helpvar dateTime end' => {
-		message => q|Un juego de variables de fecha/hora con el prefijo &quot;end&quot; (terminar). Vea &quot;Calendar Date/Time Variables&quot; (fecha de calendario/Variables de tiempo) para mas informacion.|,
-		lastUpdated => 1208215494
-	},
-
-	'editor' => {
-		message => q|Una variable condicional que es "verdadera" si el usuario pertenece al grupo habilitado para editar eventos en el calendario.|,
-		lastUpdated => 1189596059
-	},
-
-	'endDayAbbr' => {
-		message => q|La abreviatura del nombre del día con el que esta semana termina.|,
-		lastUpdated => 1189596100
-	},
-
-	'defaultView value month' => {
-		message => q|Mes|,
-		lastUpdated => 1189595970
-	},
-
-	'days' => {
-		message => q|Este bucle contiene todos los eventos y etiquetas de los días en los que ocurren. Todos los días de una semana se incluyen en el bucle, sin importar si contienen eventos o no.|,
-		lastUpdated => 1189595295
-	},
-
-	'groupIdEventEdit label' => {
-		message => q|¿Quién puede agregar Eventos?|,
-		lastUpdated => 1189601390
-	},
-
-	'endMonthName' => {
-		message => q|El nombre del mes en el que esta semana termina.|,
-		lastUpdated => 1189598450
-	},
-
-	'view calendar week title' => {
-		message => q|Ver las variables del patrón para la semana.|,
-		lastUpdated => 1189598276
-	},
-
-	'help calendar dateTime title' => {
-		message => q|Variables fecha/hora de Calendario |,
-		lastUpdated => 1208214969
-	},
-
-	'year' => {
-		message => q|El año en 4 dígitos|,
-		lastUpdated => 1189598302
-	},
-
-	'help calendar dateTime body' => {
-		message => q|<p>Estas variables estan disponibles para la mayoria de las fechas y horas en el calendario.</p><p>NOTA: Algunas veces estas variables tienen un prefijo como &quot;start&quot; (iniciar) o &quot;end&quot; (finalizar). En ese caso, la primera letra de las variables se pone en mayuscula, de tal manera que &quot;monthName&quot; con un prefijo de &quot;start&quot; se convierte &quot;startMonthName&quot;. </p>|,
-		lastUpdated => 1208214936
-	},
-
-	'helpvar dateTime dayOfWeek' => {
-		message => q|El numero de el dia de la semana (1 es Lunes, 7 es Domingo)|,
-		lastUpdated => 1208536577
-	},
-
-	'label week' => {
-		message => q|Semana|,
-		lastUpdated => 1207867245
-	},
-
-	'locale' => {
-		message => q|es_ES|,
-		lastUpdated => 1207866980
-	},
-
-	'assetName' => {
-		message => q|Calendario|,
-		lastUpdated => 1189595121
-	},
-
-	'page x of x' => {
-		message => q|Mostrando p&aacute;gina %s de %s|,
-		lastUpdated => 1207848788
-	},
-
-	'endMonthAbbr' => {
-		message => q|La abreviatura del nombre del mes en el que esta semana finaliza.|,
-		lastUpdated => 1189597113
-	},
-
-	'defaultDate description' => {
-		message => q|La fecha por defecto a mostrar al usuario.|,
-		lastUpdated => 1189595319
-	},
-
-	'endDayOfMonth' => {
-		message => q|El día del mes en el que esta semana termina, un numero entre 1 y 31.|,
-		lastUpdated => 1189596689
-	},
-
-	'urlPrint' => {
-		message => q|Un URL para la vista de impresi&oacute;n del calendario.|,
-		lastUpdated => 1190390045
-	},
-
-	'groupIdEventEdit description' => {
-		message => q|Miembros de este grupo pueden agregar Eventos a este calendario.|,
-		lastUpdated => 1189600973
-	},
-
-	'helpvar newYear' => {
-		message => q|Esta variable es verdadera cuandoel evento actual esta en un a&ntilde;o diferente al evento previo.&nbsp;<span style="font-size: 11pt; line-height: 115%; font-family: 'Calibri','sans-serif'"> </span>|,
-		lastUpdated => 1208215938
-	},
-
-	'searchButtonLabel' => {
-		message => q|Buscar|,
-		lastUpdated => 1189604810
-	},
-
-	'startDayName' => {
-		message => q|El nombre del día con el que comienza la semana.|,
-		lastUpdated => 1189605253
-	},
-
-	'templateIdDay label' => {
-		message => q|Patrón de vista "día"|,
-		lastUpdated => 1189606202
-	},
-
-	'epoch' => {
-		message => q|La fecha de este día en formato época.|,
-		lastUpdated => 1189598709
-	},
-
-	'dayOfMonth' => {
-		message => q|Qué día del mes es ese día, un entero entre 1 y 31.|,
-		lastUpdated => 1189595210
-	},
-
-	'label day' => {
-		message => q|D&iacute;a|,
-		lastUpdated => 1208536595
-	},
-
-	'templateIdPrintWeek label' => {
-		message => q|Imprimir patrón de "semana"|,
-		lastUpdated => 1189607564
-	},
-
-	'view calendar week body' => {
-		message => q|Este patrón muestra todos los eventos de la semana en el calenario, ordenado por día.|,
-		lastUpdated => 1190390655
-	},
-
-	'urlSearch' => {
-		message => q|Un URL para acceder a la b&uacute;squeda del calendario.|,
-		lastUpdated => 1190390111
-	},
-
-	'startMonth' => {
-		message => q|El numero (1-12) del mes en el cual comienza esta semana.|,
-		lastUpdated => 1189605546
-	},
-
-	'view calendar day body' => {
-		message => q|Este patrón muestra todos los eventos de un día en particular en el calendario, ordenado por hora.|,
-		lastUpdated => 1190390419
-	},
-
-	'startDayOfMonth' => {
-		message => q|El día del mes con el cual comienza esta semana, un numero entre 1 y 31.|,
-		lastUpdated => 1189605485
-	},
-
-	'events dayVar' => {
-		message => q|Este bucle contiene todos los eventos para esta hora.|,
-		lastUpdated => 1189598876
-	},
-
-	'search results' => {
-		message => q|Resultados de la B&uacute;squeda|,
-		lastUpdated => 1207848867
-	},
-
-	'label month' => {
-		message => q|Mes|,
-		lastUpdated => 1207867286
-	},
-
-	'current' => {
-		message => q|actual|,
-		lastUpdated => 1207239854
-	},
-
-	'sortEventsBy value time' => {
-		message => q|Ordenar por fecha de inicio/fecha de termino|,
-		lastUpdated => 1207867202
-	},
-
-	'defaultView value day' => {
-		message => q|Día|,
-		lastUpdated => 1189595962
-	},
-
-	'templateIdSearch label' => {
-		message => q|Patrón de vista "buscar"|,
-		lastUpdated => 1189607656
-	},
-
-	'dayName' => {
-		message => q|La denominación del día actual.|,
-		lastUpdated => 1189595163
-	},
-
-	'helpvar dateTime epoch' => {
-		message => q|La fecha de &eacute;poca (numero de segundos desde 1970-01-01 00:00:00). Apropiado para ser usado en el macro de fecha.&nbsp;|,
-		lastUpdated => 1208215597
-	},
-
-	'sortEventsBy label' => {
-		message => q|Orden de clasificaci&oacute;n de los eventos diarios|,
-		lastUpdated => 1207867086
-	},
-
-	'templateIdWeek label' => {
-		message => q|Patrón de vista "semana"|,
-		lastUpdated => 1189607736
-	},
-
-	'next week' => {
-		message => q|Semana Siguiente|,
-		lastUpdated => 1207848764
-	},
-
-	'templateIdMonth description' => {
-		message => q|Este patrón muestra el calendario en formato "mes"|,
-		lastUpdated => 1189606394
-	},
-
-	'monthName' => {
-		message => q|El nombre de este mes.|,
-		lastUpdated => 1189603810
-	},
-
-	'helpvar dateTime meridiem' => {
-		message => q|El meridiano (A.M. o P.M)|,
-		lastUpdated => 1208215684
-	},
-
-	'view calendar body' => {
-		message => q|El calendario puede ser visualizado como un mes entero, una semana o simplemente un d&iacute;a. Cada vista tiene sus propias variables de patr&oacute;n, pero tambi&eacute;n comparten varias variables. Estas se listan a continuaci&oacute;n:|,
-		lastUpdated => 1190390441
-	},
-
-};
+  'templateIdWeek description' => {
+    'lastUpdated' => 1189607716,
+    'message' => 'Este patrón muestra el calendario en formato "semana".'
+  },
+  'urlDay' => {
+    'lastUpdated' => 1189607808,
+    'message' => 'Un URL hacia la vista del día 1 del calendario.'
+  },
+  'print' => {
+    'lastUpdated' => 1190386357,
+    'message' => 'imprimir'
+  },
+  'templateIdEventEdit description' => {
+    'lastUpdated' => 1189606305,
+    'message' => 'El patrón para editar Eventos.'
+  },
+  'helpvar dateTime monthName' => {
+    'lastUpdated' => 1208215750,
+    'message' => 'EL nombre del mes (&quot;Enero&quot;)'
+  },
+  'adminControls' => {
+    'lastUpdated' => 1189595109,
+    'message' => 'Estos son los íconos y URLs que permiten editar, cortar, copiar, eliminar y reordenar el Activo.'
+  },
+  'urlAdd' => {
+    'lastUpdated' => 1189607767,
+    'message' => 'Un URL para agregar un evento al calendario.'
+  },
+  'templateIdPrintMonth label' => {
+    'lastUpdated' => 1189607520,
+    'message' => 'Patrón de impresión "mes"'
+  },
+  'events weekVar' => {
+    'lastUpdated' => 1199914492,
+    'message' => 'Este bucle contiene todos los eventos para este d&iacute;a.'
+  },
+  'workflow generateRecurringEvents description' => {
+    'lastUpdated' => 1207867650,
+    'message' => 'Esta actividad genera eventos peri&oacute;dicos para calendarios.&nbsp; Esta actividad tambi&eacute;n mantiene eventos peri&oacute;dicos en el futuro.'
+  },
+  'editForm workflowIdCommit description' => {
+    'lastUpdated' => 1215809136,
+    'message' => 'Seleccione un flujo de trabajo a usar para commit eventos cuando ellos son editados o creados.'
+  },
+  'subscribe' => {
+    'lastUpdated' => 1207848883,
+    'message' => 'Suscribir'
+  },
+  'helpvar newDay' => {
+    'lastUpdated' => 1207867767,
+    'message' => 'Esta variable es verdadera cuando el evento actual es en un d&iacute;a diferente que el anterior evento.'
+  },
+  'previous week' => {
+    'lastUpdated' => 1207848832,
+    'message' => 'Semana Anterior'
+  },
+  'mdy' => {
+    'lastUpdated' => 1189603321,
+    'message' => 'La fecha de este dia en formato mm-dd-aaaa, donde aaaa es el año, mm es el mes y dd el día.'
+  },
+  'defaultView description' => {
+    'lastUpdated' => 1189595683,
+    'message' => 'La vista por defecto para mostrar al usuario'
+  },
+  'helpvar dateTime second' => {
+    'lastUpdated' => 1208215759,
+    'message' => 'Los segundos'
+  },
+  'defaultDate value current' => {
+    'lastUpdated' => 1189595349,
+    'message' => 'La fecha actual'
+  },
+  'pageNextUrl dayVar' => {
+    'lastUpdated' => 1189603923,
+    'message' => 'Un URL al próximo día del calendario.'
+  },
+  'add event' => {
+    'lastUpdated' => 1190386421,
+    'message' => 'agregar evento'
+  },
+  'helpvar dateTime minute' => {
+    'lastUpdated' => 1208215695,
+    'message' => 'Los minutos'
+  },
+  'view calendar day title' => {
+    'lastUpdated' => 1190390488,
+    'message' => 'Ver las variables de patrón de día en el calendario.'
+  },
+  'previous day' => {
+    'lastUpdated' => 1207848804,
+    'message' => 'D&iacute;a Anterior'
+  },
+  'helpvar dateTime dayOfMonth' => {
+    'lastUpdated' => 1208215351,
+    'message' => 'El numero de el dia del mes.'
+  },
+  'helpvar url_nextPage' => {
+    'lastUpdated' => 1208215984,
+    'message' => 'La direccion URL para la pagina siguiente. Si no hay una pagina siguiente, esta variable no existira. '
+  },
+  'help view list title' => {
+    'lastUpdated' => 1208215237,
+    'message' => 'Vista de lista del calendario.'
+  },
+  'templateIdEvent description' => {
+    'lastUpdated' => 1189606239,
+    'message' => 'El patrón para mostrar los detalles del Evento.'
+  },
+  'next day' => {
+    'lastUpdated' => 1207848725,
+    'message' => 'D&iacute;a Siguiente.'
+  },
+  'workflow updateFeeds description' => {
+    'lastUpdated' => 1207867540,
+    'message' => 'Esta actividad importa eventos de calendario de las fuentes del calendario'
+  },
+  'editForm templateIdPrintList description' => {
+    'lastUpdated' => 1208214731,
+    'message' => 'Esta pplantilla imprime el calendario en forma de lista'
+  },
+  'defaultDate label' => {
+    'lastUpdated' => 1189595332,
+    'message' => 'Fecha por defecto'
+  },
+  'templateIdPrintEvent label' => {
+    'lastUpdated' => 1189607425,
+    'message' => 'Patrón de impresión detalles del Evento'
+  },
+  'paramStart' => {
+    'lastUpdated' => 1189604640,
+    'message' => 'La fecha de inicio del calendario.'
+  },
+  'editForm workflowIdCommit label' => {
+    'lastUpdated' => 1215809166,
+    'message' => 'Commit flujo de trabajo para eventos.'
+  },
+  'pagePrevUrl dayVar' => {
+    'lastUpdated' => 1189604321,
+    'message' => 'Un URL al día previo en el calendario'
+  },
+  'helpvar dateTime month' => {
+    'lastUpdated' => 1208215716,
+    'message' => 'El numero del mes (01)'
+  },
+  'hour24' => {
+    'lastUpdated' => 1189601874,
+    'message' => 'La hora en formato de 24 horas. Las 2 de la tarde serán 14.00.'
+  },
+  'editForm icalInterval label' => {
+    'lastUpdated' => 1208214587,
+    'message' => 'Intervalo de alimentacion de Calendario.'
+  },
+  'templateIdEventEdit label' => {
+    'lastUpdated' => 1189606335,
+    'message' => 'Patrón edición de Evento'
+  },
+  'visitorCacheTimeout label' => {
+    'lastUpdated' => 1207867453,
+    'message' => 'Tiempo l&iacute;mite para la cach&eacute; del visitante'
+  },
+  'dayAbbr' => {
+    'lastUpdated' => 1189595175,
+    'message' => 'La abreviatura para el nombre del día actual.'
+  },
+  'hourM' => {
+    'lastUpdated' => 1189602066,
+    'message' => 'Dependiendo de si la hora pertenece a la mañana o a la tarde, las cadenas "am" o "pm"'
+  },
+  'urlMonth' => {
+    'lastUpdated' => 1189607876,
+    'message' => 'Un URL para la vista del calendario en formato "mes".'
+  },
+  'helpvar newMonth' => {
+    'lastUpdated' => 1207867817,
+    'message' => 'Esta variable es verdadera cuando el evento actual es en un mes diferente que el anterior evento.'
+  },
+  'helpvar dateTime year' => {
+    'lastUpdated' => 1208215846,
+    'message' => 'El a&ntilde;o<span style="font-size: 11pt; line-height: 115%; font-family: \'Calibri\',\'sans-serif\'"> </span>'
+  },
+  'helpvar dateTime dayName' => {
+    'lastUpdated' => 1208215289,
+    'message' => 'El nombre del dia (Domingo)'
+  },
+  'dayOfWeek' => {
+    'lastUpdated' => 1189595236,
+    'message' => 'Qué día de la semana es ese día, un entero entre 1 y 7.'
+  },
+  'feeds' => {
+    'lastUpdated' => 1189600894,
+    'message' => 'Feeds'
+  },
+  'startMonthName' => {
+    'lastUpdated' => 1189605601,
+    'message' => 'El nombre del mes en el cual esta semana comienza.'
+  },
+  'startDayAbbr' => {
+    'lastUpdated' => 1189605177,
+    'message' => 'La abreviatura del nombre del día con el que esta semana comienza.'
+  },
+  'end date' => {
+    'lastUpdated' => 1207848919,
+    'message' => 'Fecha de Fin'
+  },
+  'workflow updateFeeds' => {
+    'lastUpdated' => 1207867564,
+    'message' => 'Actualizar fuentes de calendario'
+  },
+  'helpvar dateTime dmy' => {
+    'lastUpdated' => 1208215410,
+    'message' => 'El dia, mes, y a&ntilde;o en formato UK: DD/MM/AAAA'
+  },
+  'defaultDate value last' => {
+    'lastUpdated' => 1189595469,
+    'message' => 'El ultimo evento en el calendario'
+  },
+  'templateIdSearch description' => {
+    'lastUpdated' => 1189607589,
+    'message' => 'Este patrón muestra el formulario de búsqueda para el calendario'
+  },
+  'helpvar dateTime dayAbbr' => {
+    'lastUpdated' => 1208215275,
+    'message' => 'El nombre de dia abreviado (Dom)'
+  },
+  'admin' => {
+    'lastUpdated' => 1208536525,
+    'message' => 'Una variable condicional que es &quot;verdadera&quot; cuando esta prendido el modo administrador.<p>&nbsp;</p>'
+  },
+  'templateIdMonth label' => {
+    'lastUpdated' => 1189598211,
+    'message' => 'Patrón de vista mensual'
+  },
+  'visitorCacheTimeout description' => {
+    'lastUpdated' => 1207867363,
+    'message' => 'El n&uacute;mero de minutos antes de que la cach&eacute; del visitante ser&iacute;a refrescada'
+  },
+  'subscriberNotifyOffset description' => {
+    'lastUpdated' => 1189605772,
+    'message' => 'La cantidad de días previos para notificar un usuario de un Evento.'
+  },
+  'editForm templateIdList label' => {
+    'lastUpdated' => 1208214696,
+    'message' => 'Plantilla de vista de lista'
+  },
+  'urlWeek' => {
+    'lastUpdated' => 1190390188,
+    'message' => 'Un URL a la vista semanal del calendario.'
+  },
+  'templateIdPrintDay description' => {
+    'lastUpdated' => 1189607195,
+    'message' => 'Este patrón se usa para imprimir el calendario en formato "día".'
+  },
+  'defaultView value week' => {
+    'lastUpdated' => 1189595978,
+    'message' => 'Semana'
+  },
+  'sortEventsBy description' => {
+    'lastUpdated' => 1207867024,
+    'message' => 'El orden en&nbsp; el cual los eventos diarios son mostrados.'
+  },
+  'extrasUrl' => {
+    'lastUpdated' => 1189599786,
+    'message' => 'El URL al directorio de extras WebGUI.'
+  },
+  'templateIdPrintDay label' => {
+    'lastUpdated' => 1189607216,
+    'message' => 'Imprimir patrón de "día"'
+  },
+  'hour12' => {
+    'lastUpdated' => 1189601824,
+    'message' => 'La hora en formato de 12 horas. las 2 de la tarde serán 2:00.'
+  },
+  'templateIdPrintEvent description' => {
+    'lastUpdated' => 1189607239,
+    'message' => 'El patrón para imprimir detalles del Evento.'
+  },
+  'previous page' => {
+    'lastUpdated' => 1207848818,
+    'message' => 'P&aacute;gina Anterior'
+  },
+  'paramType' => {
+    'lastUpdated' => 1189604765,
+    'message' => 'La vista por defecto del calendario, una de las cadenas "day", "week", "month".'
+  },
+  'label search' => {
+    'lastUpdated' => 1207867262,
+    'message' => 'B&uacute;squeda'
+  },
+  'endYear' => {
+    'lastUpdated' => 1189598685,
+    'message' => 'El año en el que esta semana finaliza.'
+  },
+  'editForm templateIdList description' => {
+    'lastUpdated' => 1208214676,
+    'message' => 'Esta plantilla muestra el calendario en forma de lista.'
+  },
+  'ymd' => {
+    'lastUpdated' => 1189598338,
+    'message' => 'La fecha de ese día en formato aaaa-mm-dd, donde aaaa es el año, mm el mes y dd el día.'
+  },
+  'helpvar url_previousPage' => {
+    'lastUpdated' => 1208216018,
+    'message' => 'La direccion URL de la pagina previa. Si no hay una pagina previa, esta variable no existira. '
+  },
+  'pageNextStart' => {
+    'lastUpdated' => 1189603859,
+    'message' => 'La fecha del próximo día del calendario en formato aaaa-mm-dd (año, mes, día).'
+  },
+  'defaultDate value first' => {
+    'lastUpdated' => 1189595368,
+    'message' => 'El primer evento en el calendario'
+  },
+  'start date' => {
+    'lastUpdated' => 1207867224,
+    'message' => 'Fecha de Inicio'
+  },
+  'startMonthAbbr' => {
+    'lastUpdated' => 1189605578,
+    'message' => 'La abreviatura del nombre del mes en el que comienza esta semana.'
+  },
+  'defaultView label' => {
+    'lastUpdated' => 1189595725,
+    'message' => 'Vista por defecto'
+  },
+  'defaultView value list' => {
+    'lastUpdated' => 1204305196,
+    'message' => 'Lista'
+  },
+  'helpvar dateTime start' => {
+    'lastUpdated' => 1208215833,
+    'message' => 'Un juego de varaibles de fecha/hora con el prefijo &quot;start&quot; (iniciar). Vea &quot;las variables de Fecha/Hora del Calendario&quot; para mas informacion.'
+  },
+  'monthAbbr' => {
+    'lastUpdated' => 1189603467,
+    'message' => 'La abreviatura para el nombre de este mes.'
+  },
+  'pageNextUrl weekVar' => {
+    'lastUpdated' => 1189604045,
+    'message' => 'Un URL a la próxima semana del calendario.'
+  },
+  'iCal' => {
+    'lastUpdated' => 1190386658,
+    'message' => 'iCal'
+  },
+  'helpvar dateTime monthAbbr' => {
+    'lastUpdated' => 1208215735,
+    'message' => 'El nombre del mes abreviado (&quot;Ene&quot;)'
+  },
+  'templateIdDay description' => {
+    'lastUpdated' => 1189606185,
+    'message' => 'Este patrón muestra el calendario en formato "día".'
+  },
+  'dmy' => {
+    'lastUpdated' => 1189596012,
+    'message' => 'La fecha de ese día en formato dd-mm-aaaa, donde aaaa es el año, mm es el mes y dd es el día.'
+  },
+  'helpvar dateTime ymd' => {
+    'lastUpdated' => 1208215878,
+    'message' => 'El a&ntilde;o, el mes, y el dia en formato ISO: AAAA-MM-DD<span style="font-size: 11pt; line-height: 115%; font-family: \'Calibri\',\'sans-serif\'"> </span>'
+  },
+  'endMonth' => {
+    'lastUpdated' => 1189596865,
+    'message' => 'El numero (1-12) del mes en el que esta semana finaliza.'
+  },
+  'subscriberNotifyOffset label' => {
+    'lastUpdated' => 1189606152,
+    'message' => 'Anticipación de notificación a suscriptores.'
+  },
+  'helpvar dateTime mdy' => {
+    'lastUpdated' => 1210974539,
+    'message' => 'El mes, d&iacute;a y a&ntilde;o en formato US: MM/DD/AAAA<span> </span>'
+  },
+  'workflow generateRecurringEvents' => {
+    'lastUpdated' => 1207867677,
+    'message' => 'Generar eventos peri&oacute;dicos'
+  },
+  'templateIdEvent label' => {
+    'lastUpdated' => 1189606274,
+    'message' => 'Patrón de detalles del Evento'
+  },
+  'pagePrevStart' => {
+    'lastUpdated' => 1189604159,
+    'message' => 'La fecha del día previo en el calendario en el formato aaaa-mm-dd (año, mes día).'
+  },
+  'sortEventsBy value sequencenumber' => {
+    'lastUpdated' => 1207867148,
+    'message' => 'Orden por n&uacute;mero de secuencia.'
+  },
+  'editForm icalInterval description' => {
+    'lastUpdated' => 1208214567,
+    'message' => 'Periodo de tiempo mostrado en el alimentador de calendario.'
+  },
+  'hours' => {
+    'lastUpdated' => 1189602515,
+    'message' => 'Este bucle contiene todos los eventos y etiquetas para las horas en los que ocurren. Horas sin eventos no se incluyen en el bucle.'
+  },
+  'startYear' => {
+    'lastUpdated' => 1189605657,
+    'message' => 'El año en el que comienza esta semana.'
+  },
+  'help view list body' => {
+    'lastUpdated' => 1208215224,
+    'message' => 'Estas variables estan disponibles para la vista de lista del calendario.'
+  },
+  'editForm listViewPageInterval label' => {
+    'lastUpdated' => 1208214652,
+    'message' => 'Listar intervalo de vista de pagina.'
+  },
+  'templateIdPrintWeek description' => {
+    'lastUpdated' => 1189607546,
+    'message' => 'Este patrón para imprimir el calendario en formato "semana".'
+  },
+  'help event variables body' => {
+    'lastUpdated' => 1208215173,
+    'message' => '<p>Cuando el calendario esta mostrando un evento, adquiere el juego completo de variables de plantillas de eventos, y cambia el nombre un poco. La variable de plantilla de evento &quot;Title&quot; (titulo) se convierte en &quot;eventTitle&quot;. La variable de plantilla de evento &quot;startDate&quot; se convierte en &quot;eventStartDate&quot; y asi continua. </p>'
+  },
+  'endDayName' => {
+    'lastUpdated' => 1189596136,
+    'message' => 'El nombre del día con el que esta semana termina.'
+  },
+  'view calendar title' => {
+    'lastUpdated' => 1190390517,
+    'message' => 'Ver variables de patrón del calendario'
+  },
+  'pagePrevUrl weekVar' => {
+    'lastUpdated' => 1189604583,
+    'message' => 'Un URL a la semana previa en el calendario.'
+  },
+  'editForm templateIdPrintList label' => {
+    'lastUpdated' => 1208214750,
+    'message' => 'Imprimir plantilla de vista de lista.'
+  },
+  'keyword' => {
+    'lastUpdated' => 1207866967,
+    'message' => 'Palabra Clave'
+  },
+  'help event variables title' => {
+    'lastUpdated' => 1208215200,
+    'message' => 'Variables de evento de calendario'
+  },
+  'editForm listViewPageInterval description' => {
+    'lastUpdated' => 1208214623,
+    'message' => 'Periodo de tiempo mostrado en una sola pagina de la vista de lista.'
+  },
+  'urlIcal' => {
+    'lastUpdated' => 1189607850,
+    'message' => 'Un URL para el feed iCal (datos para iCAL) para este calendario, comenzando este mes.'
+  },
+  'templateIdPrintMonth description' => {
+    'lastUpdated' => 1189607476,
+    'message' => 'Este patrón para imprimir el calendario en formato "mes".'
+  },
+  'next page' => {
+    'lastUpdated' => 1207848746,
+    'message' => 'Siguiente P&aacute;gina'
+  },
+  'helpvar dateTime end' => {
+    'lastUpdated' => 1208215494,
+    'message' => 'Un juego de variables de fecha/hora con el prefijo &quot;end&quot; (terminar). Vea &quot;Calendar Date/Time Variables&quot; (fecha de calendario/Variables de tiempo) para mas informacion.'
+  },
+  'editor' => {
+    'lastUpdated' => 1189596059,
+    'message' => 'Una variable condicional que es "verdadera" si el usuario pertenece al grupo habilitado para editar eventos en el calendario.'
+  },
+  'endDayAbbr' => {
+    'lastUpdated' => 1189596100,
+    'message' => 'La abreviatura del nombre del día con el que esta semana termina.'
+  },
+  'defaultView value month' => {
+    'lastUpdated' => 1189595970,
+    'message' => 'Mes'
+  },
+  'days' => {
+    'lastUpdated' => 1189595295,
+    'message' => 'Este bucle contiene todos los eventos y etiquetas de los días en los que ocurren. Todos los días de una semana se incluyen en el bucle, sin importar si contienen eventos o no.'
+  },
+  'groupIdEventEdit label' => {
+    'lastUpdated' => 1189601390,
+    'message' => '¿Quién puede agregar Eventos?'
+  },
+  'endMonthName' => {
+    'lastUpdated' => 1189598450,
+    'message' => 'El nombre del mes en el que esta semana termina.'
+  },
+  'view calendar week title' => {
+    'lastUpdated' => 1189598276,
+    'message' => 'Ver las variables del patrón para la semana.'
+  },
+  'help calendar dateTime title' => {
+    'lastUpdated' => 1208214969,
+    'message' => 'Variables fecha/hora de Calendario '
+  },
+  'year' => {
+    'lastUpdated' => 1189598302,
+    'message' => 'El año en 4 dígitos'
+  },
+  'help calendar dateTime body' => {
+    'lastUpdated' => 1208214936,
+    'message' => '<p>Estas variables estan disponibles para la mayoria de las fechas y horas en el calendario.</p><p>NOTA: Algunas veces estas variables tienen un prefijo como &quot;start&quot; (iniciar) o &quot;end&quot; (finalizar). En ese caso, la primera letra de las variables se pone en mayuscula, de tal manera que &quot;monthName&quot; con un prefijo de &quot;start&quot; se convierte &quot;startMonthName&quot;. </p>'
+  },
+  'helpvar dateTime dayOfWeek' => {
+    'lastUpdated' => 1208536577,
+    'message' => 'El numero de el dia de la semana (1 es Lunes, 7 es Domingo)'
+  },
+  'label week' => {
+    'lastUpdated' => 1207867245,
+    'message' => 'Semana'
+  },
+  'locale' => {
+    'lastUpdated' => 1207866980,
+    'message' => 'es_ES'
+  },
+  'assetName' => {
+    'lastUpdated' => 1189595121,
+    'message' => 'Calendario'
+  },
+  'page x of x' => {
+    'lastUpdated' => 1207848788,
+    'message' => 'Mostrando p&aacute;gina %s de %s'
+  },
+  'endMonthAbbr' => {
+    'lastUpdated' => 1189597113,
+    'message' => 'La abreviatura del nombre del mes en el que esta semana finaliza.'
+  },
+  'defaultDate description' => {
+    'lastUpdated' => 1189595319,
+    'message' => 'La fecha por defecto a mostrar al usuario.'
+  },
+  'endDayOfMonth' => {
+    'lastUpdated' => 1189596689,
+    'message' => 'El día del mes en el que esta semana termina, un numero entre 1 y 31.'
+  },
+  'urlPrint' => {
+    'lastUpdated' => 1190390045,
+    'message' => 'Un URL para la vista de impresi&oacute;n del calendario.'
+  },
+  'groupIdEventEdit description' => {
+    'lastUpdated' => 1189600973,
+    'message' => 'Miembros de este grupo pueden agregar Eventos a este calendario.'
+  },
+  'helpvar newYear' => {
+    'lastUpdated' => 1208215938,
+    'message' => 'Esta variable es verdadera cuandoel evento actual esta en un a&ntilde;o diferente al evento previo.&nbsp;<span style="font-size: 11pt; line-height: 115%; font-family: \'Calibri\',\'sans-serif\'"> </span>'
+  },
+  'searchButtonLabel' => {
+    'lastUpdated' => 1189604810,
+    'message' => 'Buscar'
+  },
+  'startDayName' => {
+    'lastUpdated' => 1189605253,
+    'message' => 'El nombre del día con el que comienza la semana.'
+  },
+  'templateIdDay label' => {
+    'lastUpdated' => 1189606202,
+    'message' => 'Patrón de vista "día"'
+  },
+  'epoch' => {
+    'lastUpdated' => 1189598709,
+    'message' => 'La fecha de este día en formato época.'
+  },
+  'dayOfMonth' => {
+    'lastUpdated' => 1189595210,
+    'message' => 'Qué día del mes es ese día, un entero entre 1 y 31.'
+  },
+  'label day' => {
+    'lastUpdated' => 1208536595,
+    'message' => 'D&iacute;a'
+  },
+  'templateIdPrintWeek label' => {
+    'lastUpdated' => 1189607564,
+    'message' => 'Imprimir patrón de "semana"'
+  },
+  'view calendar week body' => {
+    'lastUpdated' => 1190390655,
+    'message' => 'Este patrón muestra todos los eventos de la semana en el calenario, ordenado por día.'
+  },
+  'urlSearch' => {
+    'lastUpdated' => 1190390111,
+    'message' => 'Un URL para acceder a la b&uacute;squeda del calendario.'
+  },
+  'startMonth' => {
+    'lastUpdated' => 1189605546,
+    'message' => 'El numero (1-12) del mes en el cual comienza esta semana.'
+  },
+  'view calendar day body' => {
+    'lastUpdated' => 1190390419,
+    'message' => 'Este patrón muestra todos los eventos de un día en particular en el calendario, ordenado por hora.'
+  },
+  'startDayOfMonth' => {
+    'lastUpdated' => 1189605485,
+    'message' => 'El día del mes con el cual comienza esta semana, un numero entre 1 y 31.'
+  },
+  'events dayVar' => {
+    'lastUpdated' => 1189598876,
+    'message' => 'Este bucle contiene todos los eventos para esta hora.'
+  },
+  'search results' => {
+    'lastUpdated' => 1207848867,
+    'message' => 'Resultados de la B&uacute;squeda'
+  },
+  'label month' => {
+    'lastUpdated' => 1207867286,
+    'message' => 'Mes'
+  },
+  'current' => {
+    'lastUpdated' => 1207239854,
+    'message' => 'actual'
+  },
+  'sortEventsBy value time' => {
+    'lastUpdated' => 1207867202,
+    'message' => 'Ordenar por fecha de inicio/fecha de termino'
+  },
+  'defaultView value day' => {
+    'lastUpdated' => 1189595962,
+    'message' => 'Día'
+  },
+  'templateIdSearch label' => {
+    'lastUpdated' => 1189607656,
+    'message' => 'Patrón de vista "buscar"'
+  },
+  'dayName' => {
+    'lastUpdated' => 1189595163,
+    'message' => 'La denominación del día actual.'
+  },
+  'helpvar dateTime epoch' => {
+    'lastUpdated' => 1208215597,
+    'message' => 'La fecha de &eacute;poca (numero de segundos desde 1970-01-01 00:00:00). Apropiado para ser usado en el macro de fecha.&nbsp;'
+  },
+  'sortEventsBy label' => {
+    'lastUpdated' => 1207867086,
+    'message' => 'Orden de clasificaci&oacute;n de los eventos diarios'
+  },
+  'templateIdWeek label' => {
+    'lastUpdated' => 1189607736,
+    'message' => 'Patrón de vista "semana"'
+  },
+  'next week' => {
+    'lastUpdated' => 1207848764,
+    'message' => 'Semana Siguiente'
+  },
+  'templateIdMonth description' => {
+    'lastUpdated' => 1189606394,
+    'message' => 'Este patrón muestra el calendario en formato "mes"'
+  },
+  'monthName' => {
+    'lastUpdated' => 1189603810,
+    'message' => 'El nombre de este mes.'
+  },
+  'helpvar dateTime meridiem' => {
+    'lastUpdated' => 1208215684,
+    'message' => 'El meridiano (A.M. o P.M)'
+  },
+  'view calendar body' => {
+    'lastUpdated' => 1190390441,
+    'message' => 'El calendario puede ser visualizado como un mes entero, una semana o simplemente un d&iacute;a. Cada vista tiene sus propias variables de patr&oacute;n, pero tambi&eacute;n comparten varias variables. Estas se listan a continuaci&oacute;n:'
+  }
+}
+;
 
 1;
