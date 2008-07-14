@@ -10,8 +10,8 @@ our $I18N = {
     'message' => ''
   },
   'defaultView var desc' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1216062850,
+    'message' => 'Esto ser&aacute; verdadero si el Formulario de Datos fue configurado para mostrar la vista de lista por defecto, en vez de la vista de formulario.'
   },
   '90' => {
     'lastUpdated' => 1216054750,
@@ -58,8 +58,8 @@ our $I18N = {
     'message' => ''
   },
   'field.inTab' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1216064798,
+    'message' => 'Un condicional indicanto si el campo est&aacute; dentro de una pesta&ntilde;a.'
   },
   '20' => {
     'lastUpdated' => 1207849139,
@@ -86,8 +86,8 @@ our $I18N = {
     'message' => ''
   },
   'editField extras label description' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1216063168,
+    'message' => '<div id="result_box" dir="ltr">Aqu&iacute; puede introducir propiedades de etiqueta adicionales para el campo etiqueta. Por ejemplo \'class = &quot;MiClase&quot;\'.</div>'
   },
   'acknowledgement var desc' => {
     'lastUpdated' => 1216057092,
@@ -102,8 +102,8 @@ our $I18N = {
     'message' => 'Para'
   },
   'entryList.url' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1216063953,
+    'message' => 'Siguiendo esta URL se mostrar&aacute; una lista de todas las entradas registradas en el Formulario de Datos.'
   },
   'group to view entries' => {
     'lastUpdated' => undef,
@@ -154,12 +154,12 @@ our $I18N = {
     'message' => 'Elija una plantilla para los datos que ser&aacute;n enviados via correo electr&oacute;nico.'
   },
   'entryId' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1216063743,
+    'message' => 'El ID de la entrada actual que esta siendo vista. Esta variable es indefinida a menos que el usuario pueda editar el Formulario de Datos (puedeEditar sea verdadero).'
   },
   'field.form' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1216064721,
+    'message' => 'El elemento de formulario para este campo.'
   },
   '81' => {
     'lastUpdated' => 1216056979,
@@ -278,8 +278,8 @@ our $I18N = {
     'message' => ''
   },
   'deleteAllEntries.url' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1216062998,
+    'message' => 'Una URL para permitir al usuario borrar todas las entradas en el Formulario de Datos.'
   },
   '14' => {
     'lastUpdated' => 1207849013,
@@ -322,16 +322,16 @@ our $I18N = {
     'message' => 'Esto te permite configurar directamente la posici&oacute;n del campo,en lugar de usar el campo de edici&oacute;n de iconos'
   },
   'editField vertical subtext' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1216063327,
+    'message' => 'Esta propiedad &uacute;nicamente afecta a radio y listas de verificaci&oacute;n.'
   },
   '23' => {
     'lastUpdated' => 1216051344,
     'message' => 'Tipo'
   },
   'delete.label' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1216062892,
+    'message' => 'La etiqueta por defecto para la variable delete.url.'
   },
   'templateId' => {
     'lastUpdated' => undef,
@@ -370,8 +370,8 @@ our $I18N = {
     'message' => ''
   },
   'editField vertical label' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1216063188,
+    'message' => 'Alineaci&oacute;n vertical'
   },
   'field.isDisplayed' => {
     'lastUpdated' => undef,
@@ -405,6 +405,10 @@ our $I18N = {
     'lastUpdated' => undef,
     'message' => ''
   },
+  'error captcha' => {
+    'lastUpdated' => 1216064361,
+    'message' => 'CAPTCHA entrado incorrectamente. Por favor intente de nuevo.'
+  },
   '80' => {
     'lastUpdated' => 1216054179,
     'message' => 'Plantilla Correo Electr&oacute;nico'
@@ -437,9 +441,13 @@ our $I18N = {
     'lastUpdated' => undef,
     'message' => ''
   },
+  'editForm useCaptcha label' => {
+    'lastUpdated' => 1216063387,
+    'message' => 'Usar Captcha para los Visitantes?'
+  },
   'delete.url' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1216062951,
+    'message' => 'La URL para borrar la entrada actual del Formulario de Datos.'
   },
   'record.data.label' => {
     'lastUpdated' => undef,
@@ -466,8 +474,12 @@ our $I18N = {
     'message' => 'Adicionar nueva Pesta&ntilde;a'
   },
   'error_loop' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1216064489,
+    'message' => 'Un bucle que contiene informaci&oacute;n de errores, por ejemplo, si alguien no llena un campo obligatorio.'
+  },
+  'editForm useCaptcha description' => {
+    'lastUpdated' => 1216063373,
+    'message' => 'Si \'si\', el Formulario de Datos requerir&aacute; un CAPTCHA para los visitantes. Los usuarios registrados no ver&aacute;n el CAPTCHA.'
   },
   '10' => {
     'lastUpdated' => 1169581777,
@@ -486,8 +498,8 @@ our $I18N = {
     'message' => ''
   },
   'editField extras label' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1216063025,
+    'message' => 'Extras'
   },
   'tab.field.tid' => {
     'lastUpdated' => undef,
@@ -534,8 +546,8 @@ our $I18N = {
     'message' => 'Cc'
   },
   'field.id' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1216064743,
+    'message' => 'Un identificador &uacute;nico representando este campo en la base de datos.'
   },
   '8 description' => {
     'lastUpdated' => 1216054163,
@@ -566,16 +578,16 @@ our $I18N = {
     'message' => ''
   },
   'emailTemplateId' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1216063675,
+    'message' => '<div id="result_box" dir="ltr">El ID de la plantilla para el env&iacute;o de mensajes de correo electr&oacute;nico del usuario cuando env&iacute;a datos del Formulario de Datos.</div>'
   },
   'assetName' => {
     'lastUpdated' => 1216055077,
     'message' => 'Formulario de Datos'
   },
   'edit.url' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1216063015,
+    'message' => 'La URL a la p&aacute;gina para editar esta entrada.'
   },
   '88' => {
     'lastUpdated' => 1216054737,
@@ -586,16 +598,16 @@ our $I18N = {
     'message' => ''
   },
   'delete file' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1216062865,
+    'message' => 'Borrar Archivo Adjunto'
   },
   '100' => {
     'lastUpdated' => 1216049927,
     'message' => '&iquest;Est&aacute; seguro que desea borrar  esta pesta&ntilde;a?'
   },
   'deleteAllEntries.label' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1216062971,
+    'message' => 'La etiqueta por defecto para la variable deleteAllEntries.url'
   },
   '25' => {
     'lastUpdated' => 1216051684,
@@ -610,8 +622,8 @@ our $I18N = {
     'message' => 'Elegir una plantilla que ser&aacute; usada para mostrar los agradecimientos.'
   },
   'epoch' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1216064331,
+    'message' => '<div id="result_box" dir="ltr">La fecha en que este dato se envi&oacute; o actualiz&oacute; por &uacute;ltima vez formateada como una fecha de &eacute;poca.</div>'
   },
   '28' => {
     'lastUpdated' => 1216051895,
@@ -638,12 +650,12 @@ our $I18N = {
     'message' => 'Elegir el tipo de elemento de formulario para este campo.&nbsp; Sin embargo tambi&eacute;n es usado para validar cualquier entrada que el usuario pueda suministrar.'
   },
   'error.message' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1216064430,
+    'message' => 'Un mensaje de error indicando que le usuario podr&iacute;a haberlo hecho mal.'
   },
   'export.tab.url' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1216064647,
+    'message' => 'Siguiendo esta URL se exportar&aacute;n los datos almacenados a este formulario de datos como una pesta&ntilde;a de archivo delimitado.'
   },
   'tab.label' => {
     'lastUpdated' => undef,
@@ -658,8 +670,8 @@ our $I18N = {
     'message' => 'Esta variable de plantilla es verdadera cuanto el usuario actual tiene permiso para ver la lista de entradas enviadas del Formulario de Datos.'
   },
   'field.controls' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1216064670,
+    'message' => 'Controles administrativos de WebGUI para editar este campo.'
   },
   'record.submissionDate.epoch' => {
     'lastUpdated' => undef,
@@ -678,8 +690,8 @@ our $I18N = {
     'message' => ''
   },
   'entryList.label' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1216063817,
+    'message' => 'La etiqueta por defecto para la variable entryList.url.'
   },
   '22' => {
     'lastUpdated' => 1207849224,
@@ -714,12 +726,12 @@ our $I18N = {
     'message' => ''
   },
   'export.tab.label' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1216064515,
+    'message' => 'La etiqueta por defecto para la variable export.tab.url.'
   },
   'editField vertical label description' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1216063296,
+    'message' => '<div id="result_box" dir="ltr">Esta propiedad controla si los botones de radio y listas de verificaci&oacute;n se establecen horizontal o verticalmente.</div>'
   },
   'data form asset template variables title' => {
     'lastUpdated' => 1216055615,
