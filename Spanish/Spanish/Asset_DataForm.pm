@@ -9,13 +9,13 @@ our $I18N = {
     'lastUpdated' => undef,
     'message' => ''
   },
-  '90' => {
-    'lastUpdated' => 1216054750,
-    'message' => 'Borrar esta entrada.'
-  },
   'defaultView var desc' => {
     'lastUpdated' => undef,
     'message' => ''
+  },
+  '90' => {
+    'lastUpdated' => 1216054750,
+    'message' => 'Borrar esta entrada.'
   },
   'date' => {
     'lastUpdated' => 1216055879,
@@ -42,8 +42,8 @@ our $I18N = {
     'message' => 'Regresar!'
   },
   '16' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1216062594,
+    'message' => 'Agradecimiento'
   },
   '27' => {
     'lastUpdated' => 1216051802,
@@ -133,6 +133,14 @@ our $I18N = {
     'lastUpdated' => undef,
     'message' => ''
   },
+  'acknowlegementTemplateId' => {
+    'lastUpdated' => 1216062447,
+    'message' => '<div id="result_box" dir="ltr">El ID de la plantilla para mostrar el agradecimiento al usuario despu&eacute;s de que ha enviado los datos al Formulario de Datos.</div>'
+  },
+  '29' => {
+    'lastUpdated' => 1216051909,
+    'message' => 'es requerido'
+  },
   'record.edit.url' => {
     'lastUpdated' => undef,
     'message' => ''
@@ -140,14 +148,6 @@ our $I18N = {
   'back.url' => {
     'lastUpdated' => 1216055135,
     'message' => 'Una URL que le llevar&aacute; de vuelta a la p&aacute;gina por defecto en el formulario.'
-  },
-  '29' => {
-    'lastUpdated' => 1216051909,
-    'message' => 'es requerido'
-  },
-  'acknowlegementTemplateId' => {
-    'lastUpdated' => 1216062447,
-    'message' => '<div id="result_box" dir="ltr">El ID de la plantilla para mostrar el agradecimiento al usuario despu&eacute;s de que ha enviado los datos al Formulario de Datos.</div>'
   },
   '80 description' => {
     'lastUpdated' => 1216054216,
@@ -161,37 +161,37 @@ our $I18N = {
     'lastUpdated' => undef,
     'message' => ''
   },
-  '87 description' => {
-    'lastUpdated' => 1216054629,
-    'message' => 'Elija una plantilla que ser&aacute; usada para mostrar la lista de records almacenados en este Formulario de Datos.'
-  },
   '81' => {
     'lastUpdated' => 1216056979,
     'message' => 'Plantilla de Agradecimiento'
   },
-  '101' => {
-    'lastUpdated' => 1169582107,
-    'message' => 'Etiqueta'
+  '87 description' => {
+    'lastUpdated' => 1216054629,
+    'message' => 'Elija una plantilla que ser&aacute; usada para mostrar la lista de records almacenados en este Formulario de Datos.'
   },
   '73' => {
     'lastUpdated' => 1215707330,
     'message' => 'Enviar'
   },
-  '86' => {
-    'lastUpdated' => 1215707466,
-    'message' => 'Listar todas las entradas'
+  '101' => {
+    'lastUpdated' => 1169582107,
+    'message' => 'Etiqueta'
   },
   '76' => {
     'lastUpdated' => 1215707423,
     'message' => 'Adicionar un campo.'
   },
-  '105 description' => {
-    'lastUpdated' => 1216050129,
-    'message' => 'Adicionar una pesta&ntilde;a al Formulario de Datos.'
+  '86' => {
+    'lastUpdated' => 1215707466,
+    'message' => 'Listar todas las entradas'
   },
   'groupToViewEntries' => {
     'lastUpdated' => undef,
     'message' => ''
+  },
+  '105 description' => {
+    'lastUpdated' => 1216050129,
+    'message' => 'Adicionar una pesta&ntilde;a al Formulario de Datos.'
   },
   'defaultView' => {
     'lastUpdated' => 1216055955,
@@ -261,11 +261,11 @@ our $I18N = {
     'lastUpdated' => 1216051602,
     'message' => 'Este campo es usado para la lista de tipos (como lista Checkbox y lista de Selecci&oacute;n). Entre los valores que desea que aparezcan, uno por l&iacute;nea.'
   },
-  'field.subtext' => {
+  'listTemplateId' => {
     'lastUpdated' => undef,
     'message' => ''
   },
-  'listTemplateId' => {
+  'field.subtext' => {
     'lastUpdated' => undef,
     'message' => ''
   },
@@ -309,21 +309,21 @@ our $I18N = {
     'lastUpdated' => undef,
     'message' => ''
   },
-  'field.label' => {
-    'lastUpdated' => undef,
-    'message' => ''
-  },
   '79' => {
     'lastUpdated' => 1216054054,
     'message' => 'Subtexto'
   },
-  'editField vertical subtext' => {
+  'field.label' => {
     'lastUpdated' => undef,
     'message' => ''
   },
   'Field Position description' => {
     'lastUpdated' => 1216054905,
     'message' => 'Esto te permite configurar directamente la posici&oacute;n del campo,en lugar de usar el campo de edici&oacute;n de iconos'
+  },
+  'editField vertical subtext' => {
+    'lastUpdated' => undef,
+    'message' => ''
   },
   '23' => {
     'lastUpdated' => 1216051344,
@@ -353,15 +353,11 @@ our $I18N = {
     'lastUpdated' => 1216054138,
     'message' => 'Ancho'
   },
-  'tab_loop' => {
-    'lastUpdated' => undef,
-    'message' => ''
-  },
   'no tab' => {
     'lastUpdated' => undef,
     'message' => ''
   },
-  'record_loop' => {
+  'tab_loop' => {
     'lastUpdated' => undef,
     'message' => ''
   },
@@ -369,21 +365,25 @@ our $I18N = {
     'lastUpdated' => undef,
     'message' => ''
   },
-  'editField vertical label' => {
+  'record_loop' => {
     'lastUpdated' => undef,
     'message' => ''
   },
-  'confirm delete all' => {
-    'lastUpdated' => 1216055376,
-    'message' => 'Est&aacute;s seguro que deseas BORRAR permanentemente todas las entradas del Formulario de Datos?'
-  },
-  'tab.field.form' => {
+  'editField vertical label' => {
     'lastUpdated' => undef,
     'message' => ''
   },
   'field.isDisplayed' => {
     'lastUpdated' => undef,
     'message' => ''
+  },
+  'tab.field.form' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'confirm delete all' => {
+    'lastUpdated' => 1216055376,
+    'message' => 'Est&aacute;s seguro que deseas BORRAR permanentemente todas las entradas del Formulario de Datos?'
   },
   '5' => {
     'lastUpdated' => 1216051993,
@@ -513,13 +513,13 @@ our $I18N = {
     'lastUpdated' => 1216050906,
     'message' => 'Este mensaje ser&aacute; mostrado al usuario despu&eacute;s de enviar sus datos.'
   },
-  'field.value' => {
-    'lastUpdated' => undef,
-    'message' => ''
-  },
   'addField.label' => {
     'lastUpdated' => 1216054943,
     'message' => 'La etiqueta por defecto para la variable addField.url.'
+  },
+  'field.value' => {
+    'lastUpdated' => undef,
+    'message' => ''
   },
   'userId' => {
     'lastUpdated' => undef,
@@ -545,21 +545,21 @@ our $I18N = {
     'lastUpdated' => undef,
     'message' => ''
   },
-  '25 description' => {
-    'lastUpdated' => 1216051764,
-    'message' => 'Introduzca el valor por defecto (si lo hubiera) para el campo. Para campos S&iacute;/No, escriba &quot;s&iacute;&quot; para seleccionar &quot;S&iacute;&quot; y &quot;no&quot; para seleccionar &quot;No&quot;.'
-  },
   'Field Position' => {
     'lastUpdated' => 1216054814,
     'message' => 'Posici&oacute;n del Campo'
   },
-  '104 description' => {
-    'lastUpdated' => 1216049896,
-    'message' => '<div id="result_box" dir="ltr">Cuando el formulario tiene m&uacute;ltiples pesta&ntilde;as, cada pesta&ntilde;a define al formulario que campo mostrar en &eacute;l.&nbsp; De lo contrario, todos los campos se muestran en la misma p&aacute;gina.</div>'
+  '25 description' => {
+    'lastUpdated' => 1216051764,
+    'message' => 'Introduzca el valor por defecto (si lo hubiera) para el campo. Para campos S&iacute;/No, escriba &quot;s&iacute;&quot; para seleccionar &quot;S&iacute;&quot; y &quot;no&quot; para seleccionar &quot;No&quot;.'
   },
   '19' => {
     'lastUpdated' => 1207849094,
     'message' => 'Est&aacute; usted seguro que desea eliminar este campo?'
+  },
+  '104 description' => {
+    'lastUpdated' => 1216049896,
+    'message' => '<div id="result_box" dir="ltr">Cuando el formulario tiene m&uacute;ltiples pesta&ntilde;as, cada pesta&ntilde;a define al formulario que campo mostrar en &eacute;l.&nbsp; De lo contrario, todos los campos se muestran en la misma p&aacute;gina.</div>'
   },
   'tab.field.name' => {
     'lastUpdated' => undef,
@@ -593,33 +593,33 @@ our $I18N = {
     'lastUpdated' => 1216049927,
     'message' => '&iquest;Est&aacute; seguro que desea borrar  esta pesta&ntilde;a?'
   },
-  'addTab.url' => {
-    'lastUpdated' => 1216055065,
-    'message' => 'La URL que los administradores de contenido visitar&aacute;n para adicionar una nueva pesta&ntilde;a al formulario.'
+  'deleteAllEntries.label' => {
+    'lastUpdated' => undef,
+    'message' => ''
   },
   '25' => {
     'lastUpdated' => 1216051684,
     'message' => 'Valor(es) por Defecto'
   },
-  'deleteAllEntries.label' => {
-    'lastUpdated' => undef,
-    'message' => ''
-  },
-  'epoch' => {
-    'lastUpdated' => undef,
-    'message' => ''
+  'addTab.url' => {
+    'lastUpdated' => 1216055065,
+    'message' => 'La URL que los administradores de contenido visitar&aacute;n para adicionar una nueva pesta&ntilde;a al formulario.'
   },
   '81 description' => {
     'lastUpdated' => 1216057052,
     'message' => 'Elegir una plantilla que ser&aacute; usada para mostrar los agradecimientos.'
   },
-  '74 description' => {
-    'lastUpdated' => 1216052277,
-    'message' => '<p>Si se pone a s&iacute;, algunos campos adicionales ser&aacute; a&ntilde;adidos a su formulario para tratar con correo electr&oacute;nico. Estos campos ser&aacute;n utilizados para cualquier mensaje de correo electr&oacute;nico cualquier dato introducido en el formulario a una persona de su elecci&oacute;n. Por defecto, los nuevos campos est&aacute;n &quot;ocultos&quot; para que no puedan ser editados por el usuario. <br /> <br /> NOTA: El campo &quot;Para&quot; es a&ntilde;adido como resultado de esta configuraci&oacute;n a &quot;si&quot;, puede aceptar una direcci&oacute;n de correo electr&oacute;nico estandar, un nombre de usuario WebGUI o un nombre de grupo WebGUI. Para enviar un correo electr&oacute;nico a m&aacute;s de una direcci&oacute;n, separelas por comas.</p>'
+  'epoch' => {
+    'lastUpdated' => undef,
+    'message' => ''
   },
   '28' => {
     'lastUpdated' => 1216051895,
     'message' => 'Opcional para Textareas y HTMLarea.'
+  },
+  '74 description' => {
+    'lastUpdated' => 1216052277,
+    'message' => '<p>Si se pone a s&iacute;, algunos campos adicionales ser&aacute; a&ntilde;adidos a su formulario para tratar con correo electr&oacute;nico. Estos campos ser&aacute;n utilizados para cualquier mensaje de correo electr&oacute;nico cualquier dato introducido en el formulario a una persona de su elecci&oacute;n. Por defecto, los nuevos campos est&aacute;n &quot;ocultos&quot; para que no puedan ser editados por el usuario. <br /> <br /> NOTA: El campo &quot;Para&quot; es a&ntilde;adido como resultado de esta configuraci&oacute;n a &quot;si&quot;, puede aceptar una direcci&oacute;n de correo electr&oacute;nico estandar, un nombre de usuario WebGUI o un nombre de grupo WebGUI. Para enviar un correo electr&oacute;nico a m&aacute;s de una direcci&oacute;n, separelas por comas.</p>'
   },
   '75' => {
     'lastUpdated' => 1216053883,
@@ -629,7 +629,7 @@ our $I18N = {
     'lastUpdated' => undef,
     'message' => ''
   },
-  'error.message' => {
+  'record.username' => {
     'lastUpdated' => undef,
     'message' => ''
   },
@@ -637,11 +637,7 @@ our $I18N = {
     'lastUpdated' => 1216051440,
     'message' => 'Elegir el tipo de elemento de formulario para este campo.&nbsp; Sin embargo tambi&eacute;n es usado para validar cualquier entrada que el usuario pueda suministrar.'
   },
-  'record.username' => {
-    'lastUpdated' => undef,
-    'message' => ''
-  },
-  'tab.label' => {
+  'error.message' => {
     'lastUpdated' => undef,
     'message' => ''
   },
@@ -649,17 +645,21 @@ our $I18N = {
     'lastUpdated' => undef,
     'message' => ''
   },
-  'field.name' => {
+  'tab.label' => {
     'lastUpdated' => undef,
     'message' => ''
   },
-  'field.controls' => {
+  'field.name' => {
     'lastUpdated' => undef,
     'message' => ''
   },
   'canViewEntries' => {
     'lastUpdated' => 1216055307,
     'message' => 'Esta variable de plantilla es verdadera cuanto el usuario actual tiene permiso para ver la lista de entradas enviadas del Formulario de Datos.'
+  },
+  'field.controls' => {
+    'lastUpdated' => undef,
+    'message' => ''
   },
   'record.submissionDate.epoch' => {
     'lastUpdated' => undef,
@@ -685,13 +685,13 @@ our $I18N = {
     'lastUpdated' => 1207849224,
     'message' => 'Estado'
   },
-  'tab.field.controls' => {
-    'lastUpdated' => undef,
-    'message' => ''
-  },
   '13' => {
     'lastUpdated' => 1207849002,
     'message' => 'Bcc'
+  },
+  'tab.field.controls' => {
+    'lastUpdated' => undef,
+    'message' => ''
   },
   '105' => {
     'lastUpdated' => 1216049907,
@@ -705,13 +705,13 @@ our $I18N = {
     'lastUpdated' => 1216054423,
     'message' => 'Uno por l&iacute;nea.'
   },
-  'field.isMailField' => {
-    'lastUpdated' => undef,
-    'message' => ''
-  },
   '3' => {
     'lastUpdated' => 1216051961,
     'message' => '<div id="result_box" dir="ltr">Gracias por tus comentarios!</div>'
+  },
+  'field.isMailField' => {
+    'lastUpdated' => undef,
+    'message' => ''
   },
   'export.tab.label' => {
     'lastUpdated' => undef,
@@ -725,25 +725,25 @@ our $I18N = {
     'lastUpdated' => 1216055615,
     'message' => 'Variables de Plantilla del Activo Formulario de Datos'
   },
-  'back.label' => {
-    'lastUpdated' => 1216055097,
-    'message' => 'La etiqueta por defecto para la variable back.url.'
-  },
   '4' => {
     'lastUpdated' => 1216051975,
     'message' => 'Oculto'
+  },
+  'back.label' => {
+    'lastUpdated' => 1216055097,
+    'message' => 'La etiqueta por defecto para la variable back.url.'
   },
   '745' => {
     'lastUpdated' => 1215707406,
     'message' => 'Regresar a la p&aacute;gina.'
   },
-  '76 description' => {
-    'lastUpdated' => 1216053987,
-    'message' => '<div id="result_box" dir="ltr">Exportar los datos del formulario de datos en formato de pesta&ntilde;a del&iacute;neada.</div>'
-  },
   'record.delete.url' => {
     'lastUpdated' => undef,
     'message' => ''
+  },
+  '76 description' => {
+    'lastUpdated' => 1216053987,
+    'message' => '<div id="result_box" dir="ltr">Exportar los datos del formulario de datos en formato de pesta&ntilde;a del&iacute;neada.</div>'
   },
   'record_data_type' => {
     'lastUpdated' => undef,
