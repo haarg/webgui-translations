@@ -334,8 +334,8 @@ our $I18N = {
     'message' => 'La etiqueta por defecto para la variable delete.url.'
   },
   'templateId' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1216072700,
+    'message' => 'El ID de la plantilla para mostrar la vista de formulario del Formulario de Datos.'
   },
   'field.type' => {
     'lastUpdated' => 1216065142,
@@ -354,8 +354,8 @@ our $I18N = {
     'message' => 'Ancho'
   },
   'tab_loop' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1216072662,
+    'message' => 'Un bucle que contiene informaci&oacute;n sobre las pesta&ntilde;as que pueden ser definidas para este Formulario de Datos.'
   },
   'no tab' => {
     'lastUpdated' => 1216069080,
@@ -514,8 +514,8 @@ our $I18N = {
     'message' => 'El ID de la Pesta&ntilde;a que contiene este campo.'
   },
   'tab.tid' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1216072621,
+    'message' => 'ID de esta pesta&ntilde;a.'
   },
   '91' => {
     'lastUpdated' => 1216054765,
@@ -688,6 +688,10 @@ our $I18N = {
   'record.submissionDate.epoch' => {
     'lastUpdated' => undef,
     'message' => ''
+  },
+  'template captcha label' => {
+    'lastUpdated' => 1216072675,
+    'message' => 'Verifica Tu Humanidad'
   },
   'tab.field_loop' => {
     'lastUpdated' => 1216072227,

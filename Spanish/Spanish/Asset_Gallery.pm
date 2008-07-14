@@ -1,11 +1,11 @@
 package WebGUI::i18n::Spanish::Asset_Gallery;
 use utf8;
 our $I18N = {
-  'imageResolutions description' => {
+  'viewDefault option album' => {
     'lastUpdated' => undef,
     'message' => ''
   },
-  'viewDefault option album' => {
+  'imageResolutions description' => {
     'lastUpdated' => undef,
     'message' => ''
   },
@@ -62,8 +62,8 @@ our $I18N = {
     'message' => ''
   },
   'search submit' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1216074784,
+    'message' => 'Buscar'
   },
   'template search to' => {
     'lastUpdated' => undef,
@@ -98,8 +98,8 @@ our $I18N = {
     'message' => ''
   },
   'search class any' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1216074746,
+    'message' => 'Cualquiera'
   },
   'helpvar albums rss' => {
     'lastUpdated' => undef,
@@ -170,8 +170,8 @@ our $I18N = {
     'message' => ''
   },
   'search class photo' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1216074769,
+    'message' => 'Foto'
   },
   'viewListOrderDirection option asc' => {
     'lastUpdated' => undef,
@@ -256,6 +256,10 @@ our $I18N = {
   'helpvar searchForm_start' => {
     'lastUpdated' => undef,
     'message' => ''
+  },
+  'defaultFilesPerPage description' => {
+    'lastUpdated' => 1216075049,
+    'message' => 'El n&uacute;mero de archivos a mostrar por p&aacute;gina de la vista del alb&uacute;m.'
   },
   'groupIdAddFile description' => {
     'lastUpdated' => undef,
@@ -502,8 +506,8 @@ our $I18N = {
     'message' => ''
   },
   'help search body' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1216074885,
+    'message' => 'Estas variables estan disponibles desde la pantalla de resultados de la b&uacute;squeda de la galer&iacute;a.'
   },
   'maxSpacePerUser label' => {
     'lastUpdated' => undef,
@@ -525,11 +529,11 @@ our $I18N = {
     'lastUpdated' => undef,
     'message' => ''
   },
-  'templateIdListAlbumsRss label' => {
+  'templateIdMakeShortcut label' => {
     'lastUpdated' => undef,
     'message' => ''
   },
-  'templateIdMakeShortcut label' => {
+  'templateIdListAlbumsRss label' => {
     'lastUpdated' => undef,
     'message' => ''
   }
