@@ -13,17 +13,17 @@ our $I18N = {
     'lastUpdated' => 1186065192,
     'message' => 'Vaciar portapapeles del sistema.'
   },
-  'Uploads URL' => {
-    'lastUpdated' => 1190392528,
-    'message' => 'URL para subir archivos.'
+  'parent url' => {
+    'lastUpdated' => 1207239305,
+    'message' => 'URL padre'
   },
   'Export as user description' => {
     'lastUpdated' => 1186065460,
     'message' => 'Correr la exportaci&oacute;n como este usuario. Por defecto es Visitante.'
   },
-  'parent url' => {
-    'lastUpdated' => 1207239305,
-    'message' => 'URL padre'
+  'Uploads URL' => {
+    'lastUpdated' => 1190392528,
+    'message' => 'URL para subir archivos.'
   },
   'keywords' => {
     'lastUpdated' => 1206978231,
@@ -49,37 +49,37 @@ our $I18N = {
     'lastUpdated' => 1204557258,
     'message' => 'Vista'
   },
-  'encrypt page description' => {
-    'lastUpdated' => 1206892383,
-    'message' => '  <p class="MsoNormal"><span>En caso de que la p&aacute;gina que contiene este activo preste servicio sobre SSL?</span></p>  '
-  },
-  'controls' => {
-    'lastUpdated' => 1186067355,
-    'message' => 'Estos son los &iacute;conos y URLs que permiten editar, cortar, copiar, eliminar y reordenar el Activo.'
+  'isHidden' => {
+    'lastUpdated' => 1204778862,
+    'message' => 'esta oculto'
   },
   'export information' => {
     'lastUpdated' => 1206892504,
     'message' => '  <p class="MsoNormal"><span>Exportados % de p&aacute;ginas en % de segundos.</span><span></span></p>  '
   },
-  'isHidden' => {
-    'lastUpdated' => 1204778862,
-    'message' => 'esta oculto'
+  'controls' => {
+    'lastUpdated' => 1186067355,
+    'message' => 'Estos son los &iacute;conos y URLs que permiten editar, cortar, copiar, eliminar y reordenar el Activo.'
   },
-  'save and commit' => {
-    'lastUpdated' => undef,
-    'message' => ''
+  'encrypt page description' => {
+    'lastUpdated' => 1206892383,
+    'message' => '  <p class="MsoNormal"><span>En caso de que la p&aacute;gina que contiene este activo preste servicio sobre SSL?</span></p>  '
   },
   'asset' => {
     'lastUpdated' => 1186066527,
     'message' => 'Activo'
   },
-  'Data Type description' => {
-    'lastUpdated' => 1186062917,
-    'message' => 'Eliga el tipo de elemento de forma para este campo.'
+  'save and commit' => {
+    'lastUpdated' => undef,
+    'message' => ''
   },
   '872' => {
     'lastUpdated' => 1186064175,
     'message' => 'Qu&iacute;en puede ver?'
+  },
+  'Data Type description' => {
+    'lastUpdated' => 1186062917,
+    'message' => 'Eliga el tipo de elemento de forma para este campo.'
   },
   'promote help' => {
     'lastUpdated' => 1207239506,
@@ -97,13 +97,13 @@ our $I18N = {
     'lastUpdated' => 1213458934,
     'message' => 'titulo'
   },
-  'revised by' => {
-    'lastUpdated' => 1213458917,
-    'message' => 'comprobado por'
-  },
   'page indicator' => {
     'lastUpdated' => 1215806209,
     'message' => 'Mostrando p&aacute;gina %s de %s'
+  },
+  'revised by' => {
+    'lastUpdated' => 1213458917,
+    'message' => 'comprobado por'
   },
   '11' => {
     'lastUpdated' => 1186063919,
@@ -129,25 +129,25 @@ our $I18N = {
     'lastUpdated' => 1186062951,
     'message' => 'Profundidad'
   },
-  '412 description' => {
-    'lastUpdated' => 1186064028,
-    'message' => 'Una breve descripci&oacute;n de este activo.'
-  },
   '964' => {
     'lastUpdated' => 1186065206,
     'message' => 'Gestionar basura del sistema.'
   },
-  'locked' => {
-    'lastUpdated' => 1207062370,
-    'message' => 'bloqueado'
+  '412 description' => {
+    'lastUpdated' => 1186064028,
+    'message' => 'Una breve descripci&oacute;n de este activo.'
+  },
+  'Export Page' => {
+    'lastUpdated' => 1186063022,
+    'message' => 'Exportar p&aacute;gina'
   },
   'create package' => {
     'lastUpdated' => 1186067629,
     'message' => 'Poner a disposici&oacute;n como paquete?'
   },
-  'Export Page' => {
-    'lastUpdated' => 1186063022,
-    'message' => 'Exportar p&aacute;gina'
+  'locked' => {
+    'lastUpdated' => 1207062370,
+    'message' => 'bloqueado'
   },
   'with children' => {
     'lastUpdated' => 1204557120,
@@ -165,21 +165,21 @@ our $I18N = {
     'lastUpdated' => 1186066938,
     'message' => 'Activos'
   },
-  'view help' => {
-    'lastUpdated' => undef,
-    'message' => ''
-  },
   '886' => {
     'lastUpdated' => 1186064430,
     'message' => 'Ocultar de la navegaci&oacute;n?'
   },
-  'deleteConfirm' => {
-    'lastUpdated' => 1186067934,
-    'message' => 'Esta seguro que desea eliminar esta propiedad de Metadatos?'
+  'view help' => {
+    'lastUpdated' => 1216046767,
+    'message' => '<div id="result_box" dir="ltr">La mayor&iacute;a de los activos se consideran como parte de un Activo contenedor como una P&aacute;gina o Ccarpeta. Esta opci&oacute;n le permitir&aacute; ver los Activos independientes.</div>'
   },
   'no results' => {
     'lastUpdated' => 1215806187,
     'message' => 'No se han encontrado resultados!'
+  },
+  'deleteConfirm' => {
+    'lastUpdated' => 1186067934,
+    'message' => 'Esta seguro que desea eliminar esta propiedad de Metadatos?'
   },
   'update' => {
     'lastUpdated' => 1215806247,
@@ -265,41 +265,41 @@ our $I18N = {
     'lastUpdated' => 1186065245,
     'message' => 'Portapapeles del sistema.'
   },
-  'change url' => {
-    'lastUpdated' => 1186066984,
-    'message' => 'Modificar URL'
-  },
   'extrasUploads form option symlink' => {
     'lastUpdated' => 1206977652,
     'message' => 'enlace simb&oacute;lico'
+  },
+  'change url' => {
+    'lastUpdated' => 1186066984,
+    'message' => 'Modificar URL'
   },
   'purge revision after help' => {
     'lastUpdated' => undef,
     'message' => ''
   },
-  '895' => {
-    'lastUpdated' => 1190392480,
-    'message' => "Desconexi\x{f3}n por cach\x{e9}."
-  },
   'committed versions' => {
     'lastUpdated' => 1186067213,
     'message' => 'Versiones comisionadas'
   },
-  'revisions help' => {
-    'lastUpdated' => 1215806842,
-    'message' => 'Muestra una lista de todas las revisiones de este Activo.'
+  '895' => {
+    'lastUpdated' => 1190392480,
+    'message' => 'Desconexión por caché.'
   },
   'Export as user' => {
     'lastUpdated' => 1186065232,
     'message' => 'Exportar como usuario.'
   },
-  'type' => {
-    'lastUpdated' => 1204557487,
-    'message' => 'Tipo'
+  'revisions help' => {
+    'lastUpdated' => 1215806842,
+    'message' => 'Muestra una lista de todas las revisiones de este Activo.'
   },
   'asset list title' => {
     'lastUpdated' => 1186066847,
     'message' => 'Activo, lista de activos disponibles'
+  },
+  'type' => {
+    'lastUpdated' => 1204557487,
+    'message' => 'Tipo'
   },
   'with descendants' => {
     'lastUpdated' => 1204557015,
@@ -307,35 +307,35 @@ our $I18N = {
   },
   'Add new field description' => {
     'lastUpdated' => 1182029914,
-    'message' => "Agregar nueva descripci\x{f3}n de campo"
-  },
-  'revisions' => {
-    'lastUpdated' => 1215806801,
-    'message' => 'Revisiones'
+    'message' => 'Agregar nueva descripción de campo'
   },
   '104' => {
     'lastUpdated' => 1169609968,
     'message' => 'URL'
   },
-  'edit branch help' => {
-    'lastUpdated' => 1190393337,
-    'message' => 'Llamar la interfase de editar rama para modificar este Activo y todos los Activos dependientes.'
+  'revisions' => {
+    'lastUpdated' => 1215806801,
+    'message' => 'Revisiones'
   },
   '412' => {
     'lastUpdated' => 1186064004,
     'message' => 'Resumen'
   },
-  '954' => {
-    'lastUpdated' => 1186065178,
-    'message' => 'Gestionar portapapeles del sistema.'
+  'edit branch help' => {
+    'lastUpdated' => 1190393337,
+    'message' => 'Llamar la interfase de editar rama para modificar este Activo y todos los Activos dependientes.'
+  },
+  'assetSize' => {
+    'lastUpdated' => 1186066929,
+    'message' => 'El peso del Activo en bytes. La suma de todos los campos de datos y adjuntos.'
   },
   'status' => {
     'lastUpdated' => 1215806369,
     'message' => 'En lo que respecta al control de versiones, el estado de este activo. Normalmente estas son las cadenas en Ingl&eacute;s &quot;approved&quot;, &quot;pending&quot;, &quot;commited&quot;.'
   },
-  'assetSize' => {
-    'lastUpdated' => 1186066929,
-    'message' => 'El peso del Activo en bytes. La suma de todos los campos de datos y adjuntos.'
+  '954' => {
+    'lastUpdated' => 1186065178,
+    'message' => 'Gestionar portapapeles del sistema.'
   },
   'purge revision after' => {
     'lastUpdated' => 1207849725,
@@ -357,29 +357,29 @@ our $I18N = {
     'lastUpdated' => 1186064085,
     'message' => 'Valores posibles'
   },
-  'rootUrl form option symlinkDefault' => {
-    'lastUpdated' => undef,
-    'message' => ''
-  },
   'isPackage' => {
     'lastUpdated' => 1206978187,
     'message' => 'Campo booleano, si es verdadero el activo se establece como un paquete'
+  },
+  'rootUrl form option symlinkDefault' => {
+    'lastUpdated' => undef,
+    'message' => ''
   },
   'Metadata Description description' => {
     'lastUpdated' => 1186065792,
     'message' => 'Una descripci&oacute;n opcional para esta propiedad de metadata. Este texto se visualiza como cuando el rat&oacute;n pasa por el texto de la pesta&ntilde;a Propiedades del activo.'
   },
-  'Delete Metadata field' => {
-    'lastUpdated' => 1186062942,
-    'message' => 'Eliminar propiedad Metadata'
+  'could not rmdir' => {
+    'lastUpdated' => 1186067527,
+    'message' => 'No pude eliminar carpeta en %s: %s'
   },
   'default value description' => {
     'lastUpdated' => 1215718648,
     'message' => 'El valor por defecto de este campo. Si hay es posible definir varios valores por defecto, como en el caso de una lista de casillas de verificaci&oacute;n, entonces ingrese uno por l&iacute;nea. La cantidad total de datos est&aacute; limitada a 255 caracteres.'
   },
-  'could not rmdir' => {
-    'lastUpdated' => 1186067527,
-    'message' => 'No pude eliminar carpeta en %s: %s'
+  'Delete Metadata field' => {
+    'lastUpdated' => 1186062942,
+    'message' => 'Eliminar propiedad Metadata'
   },
   '950' => {
     'lastUpdated' => 1186064912,
@@ -389,21 +389,21 @@ our $I18N = {
     'lastUpdated' => 1186064077,
     'message' => 'Tipo de dato'
   },
-  'this asset only' => {
-    'lastUpdated' => undef,
-    'message' => ''
-  },
   'keywords help' => {
     'lastUpdated' => 1215806153,
     'message' => 'A&ntilde;adir aqu&iacute; algunas palabras clave para este activo. Ellas ser&aacute;n a&ntilde;adidas autom&aacute;ticamente al &iacute;ndice de b&uacute;squeda, y las palabras clave como metatags.'
   },
-  'confirm change' => {
-    'lastUpdated' => 1186067227,
-    'message' => 'Esta seguro?'
+  'this asset only' => {
+    'lastUpdated' => 1216046780,
+    'message' => 'Este Activo &Uacute;nicamente'
   },
   'import' => {
     'lastUpdated' => 1199912344,
     'message' => 'importar'
+  },
+  'confirm change' => {
+    'lastUpdated' => 1186067227,
+    'message' => 'Esta seguro?'
   },
   'extra head tags description' => {
     'lastUpdated' => 1206893690,
@@ -421,13 +421,13 @@ our $I18N = {
     'lastUpdated' => 1215095215,
     'message' => 'El nombre de la propiedad de metadato. Debe ser &uacute;nico.<br />Es recomendable utilizar &uacute;nicamente letras (a-z), n&uacute;meros (0-9) o guiones bajos (_) para los nombres de campos. No utilice caracteres acentuados ni e&ntilde;es.'
   },
-  '43' => {
-    'lastUpdated' => 1186064066,
-    'message' => 'Est&aacute; seguro que desea eliminar este contenido? Tenga en cuenta que este cambio no tiene control de versi&oacute;n y tendr&aacute; lugar inmediatamente.'
-  },
   '940' => {
     'lastUpdated' => 1186064695,
     'message' => 'Abrir en nueva ventana?'
+  },
+  '43' => {
+    'lastUpdated' => 1186064066,
+    'message' => 'Est&aacute; seguro que desea eliminar este contenido? Tenga en cuenta que este cambio no tiene control de versi&oacute;n y tendr&aacute; lugar inmediatamente.'
   },
   'rank' => {
     'lastUpdated' => 1207773841,
@@ -521,25 +521,25 @@ our $I18N = {
     'lastUpdated' => 1207149827,
     'message' => 'El administrador ha limitado el n&uacute;mero de activos que puede colocar en su sitio, y usted ha excedido el l&iacute;mite. Eliminar algunos activos antiguos con el fin de a&ntilde;adir m&aacute;s.'
   },
-  'make package description' => {
-    'lastUpdated' => 1207148447,
-    'message' => 'Muchas tareas de WebGUI son muy repetitivas. La automatizaci&oacute;n de estas tareas en WebGUI, como la creaci&oacute;n de un de Activo, o conjuntos de Activos, se hace creando un paquete que se puede reutilizar en todo el sitio. Compruebe si quiere que este Activo&nbsp; debe estar disponible como un paquete.'
-  },
   'none' => {
     'lastUpdated' => 1207149731,
     'message' => 'Ninguno.'
   },
+  'make package description' => {
+    'lastUpdated' => 1207148447,
+    'message' => 'Muchas tareas de WebGUI son muy repetitivas. La automatizaci&oacute;n de estas tareas en WebGUI, como la creaci&oacute;n de un de Activo, o conjuntos de Activos, se hace creando un paquete que se puede reutilizar en todo el sitio. Compruebe si quiere que este Activo&nbsp; debe estar disponible como un paquete.'
+  },
   'duplicateField' => {
     'lastUpdated' => 1190393143,
-    'message' => "Error: Nombre de campo \"%field%\" a\x{fa}n se est\x{e1} usando."
-  },
-  '108 description' => {
-    'lastUpdated' => 1186063807,
-    'message' => '<p>El propietario de un activo es habitualmente la persona que cre&oacute; el activo. Este usuario siempre tiene los derechos plenos de edici&oacute;n y de visualizaci&oacute;n del activo. Estos ser&aacute;n por defecto los derechos del due&ntilde;o del activo madre.</p><p>NOTA: El propietario s&oacute;lo puede ser modificado por un administrador.&nbsp;</p>'
+    'message' => 'Error: Nombre de campo "%field%" aún se está usando.'
   },
   'edit branch' => {
     'lastUpdated' => 1190393273,
     'message' => 'Editar rama'
+  },
+  '108 description' => {
+    'lastUpdated' => 1186063807,
+    'message' => '<p>El propietario de un activo es habitualmente la persona que cre&oacute; el activo. Este usuario siempre tiene los derechos plenos de edici&oacute;n y de visualizaci&oacute;n del activo. Estos ser&aacute;n por defecto los derechos del due&ntilde;o del activo madre.</p><p>NOTA: El propietario s&oacute;lo puede ser modificado por un administrador.&nbsp;</p>'
   },
   'make prototype description' => {
     'lastUpdated' => 1207148680,
@@ -549,33 +549,33 @@ our $I18N = {
     'lastUpdated' => undef,
     'message' => ''
   },
-  'select all' => {
-    'lastUpdated' => 1204560022,
-    'message' => 'Seleccionar Todo'
-  },
   'edit' => {
     'lastUpdated' => 1190393196,
     'message' => 'Editar'
   },
-  '107' => {
-    'lastUpdated' => 1186063104,
-    'message' => 'Seguridad'
+  'select all' => {
+    'lastUpdated' => 1204560022,
+    'message' => 'Seleccionar Todo'
   },
   'size' => {
     'lastUpdated' => 1204558335,
     'message' => 'Tama&ntilde;o'
   },
+  '107' => {
+    'lastUpdated' => 1186063104,
+    'message' => 'Seguridad'
+  },
   'confirm change url message' => {
     'lastUpdated' => 1186067286,
     'message' => 'Fijando esto a \'Si\' confirma que desea modificar permanentemente este URL y por lo tanto, borrar todas las revisiones antiguas de este Activo.'
   },
-  '174' => {
-    'lastUpdated' => 1186063931,
-    'message' => 'Mostrar el t&iacute;tulo?'
-  },
   'rootUrl form label' => {
     'lastUpdated' => 1215806919,
     'message' => 'URL Ra&iacute;z'
+  },
+  '174' => {
+    'lastUpdated' => 1186063931,
+    'message' => 'Mostrar el t&iacute;tulo?'
   },
   '940 description' => {
     'lastUpdated' => 1186064848,
@@ -609,33 +609,33 @@ our $I18N = {
     'lastUpdated' => 1186066518,
     'message' => 'atr&aacute;s'
   },
-  'revision date' => {
-    'lastUpdated' => 1215806815,
-    'message' => 'Fecha de Revisi&oacute;n'
-  },
   'encrypt page' => {
     'lastUpdated' => 1199912473,
     'message' => 'encriptar contenido?'
   },
-  'Uploads URL description' => {
-    'lastUpdated' => 1190392757,
-    'message' => "Fija el URL para subir archivos. Por defecto apunta a la variable uploadsURL en el archivo de configuraci\x{f3}n de WebGUI."
+  'revision date' => {
+    'lastUpdated' => 1215806815,
+    'message' => 'Fecha de Revisi&oacute;n'
   },
   'specified base' => {
     'lastUpdated' => 1204558325,
     'message' => 'Base Especificada'
   },
-  'asset template title' => {
-    'lastUpdated' => 1186066894,
-    'message' => 'Variables de Plantillas de Activos'
+  'Uploads URL description' => {
+    'lastUpdated' => 1190392757,
+    'message' => 'Fija el URL para subir archivos. Por defecto apunta a la variable uploadsURL en el archivo de configuración de WebGUI.'
+  },
+  'with selected' => {
+    'lastUpdated' => 1216046477,
+    'message' => 'Con Seleccionados:'
   },
   '949' => {
     'lastUpdated' => 1186064886,
     'message' => 'Gestionar portapapeles.'
   },
-  'with selected' => {
-    'lastUpdated' => undef,
-    'message' => ''
+  'asset template title' => {
+    'lastUpdated' => 1186066894,
+    'message' => 'Variables de Plantillas de Activos'
   },
   'demote help' => {
     'lastUpdated' => 1188232460,
@@ -653,13 +653,13 @@ our $I18N = {
     'lastUpdated' => undef,
     'message' => ''
   },
-  'done' => {
-    'lastUpdated' => 1190393079,
-    'message' => 'Hecho'
-  },
   'search' => {
     'lastUpdated' => 1215806411,
     'message' => 'Buscar'
+  },
+  'done' => {
+    'lastUpdated' => 1190393079,
+    'message' => 'Hecho'
   },
   'lock' => {
     'lastUpdated' => 1206978360,
@@ -685,13 +685,13 @@ our $I18N = {
     'lastUpdated' => 1207154009,
     'message' => '<div id="result_box" dir="ltr">El paquete que trat&oacute; de importar parece estar corrupto. Hemos importado hasta el punto en que se detect&oacute; la corrupci&oacute;n. Si no quiere esta parte, devuelva su version tag actual.</div>'
   },
-  'could not symlink' => {
-    'lastUpdated' => 1186067562,
-    'message' => 'No pude crear un enlace simb&oacute;lico %s a %s: %s'
-  },
   'ownerUserId' => {
     'lastUpdated' => 1207152913,
     'message' => 'El ID del usuario due&ntilde;o de este Activo.'
+  },
+  'could not symlink' => {
+    'lastUpdated' => 1186067562,
+    'message' => 'No pude crear un enlace simb&oacute;lico %s a %s: %s'
   },
   'content profiling' => {
     'lastUpdated' => 1186067315,
@@ -715,7 +715,7 @@ our $I18N = {
   },
   'directory index description' => {
     'lastUpdated' => 1190392974,
-    'message' => "Si el URL del Activo a ser exportado parece ser un directorio, se le agregar\x{e1} el \x{ed}ndice de directorio."
+    'message' => 'Si el URL del Activo a ser exportado parece ser un directorio, se le agregará el índice de directorio.'
   },
   'promote' => {
     'lastUpdated' => 1207239383,
@@ -723,7 +723,7 @@ our $I18N = {
   },
   '896' => {
     'lastUpdated' => 1190392504,
-    'message' => "Desconexi\x{f3}n por cach\x{e9} (visitantes)."
+    'message' => 'Desconexión por caché (visitantes).'
   },
   'groupIdView' => {
     'lastUpdated' => 1206977989,
@@ -741,13 +741,13 @@ our $I18N = {
     'lastUpdated' => 1206977551,
     'message' => '<p>Que acci&oacute;n tomara al leer los direcorios &quot;extras&quot; y &quot;uploads&quot; , que son definidos en la configuraci&oacute;n del sitio. &quot;Symlink&quot; significa que se suar&aacute; un enlace simb&oacute;lico (no disponible para todos los sistemas) al directorio original. &quot;None&quot; singnifica que no haga ninguna acci&oacute;n e ignore los direcorios &quot;extras&quot; y &quot;uploads&quot;; Esto probablemente puede causar referencias rotas al exportar el sitio a menos que se haya preparado los direcortios. </p><p>What action to take regarding the extras and uploads directories, which are often referenced by parts of the site. Symlink means to use a symbolic link (not available on all systems) to the original directory. None means to do nothing, and ignore the extras and uploads directories; this will probably cause references to them to break in the exported site unless you\'ve prepared the directories already.</p>'
   },
-  'make prototype' => {
-    'lastUpdated' => 1207148611,
-    'message' => 'Hacer prototipo?'
-  },
   'menuTitle' => {
     'lastUpdated' => 1207148873,
     'message' => 'El t&iacute;tulo del Activo usado en los navegadores.'
+  },
+  'make prototype' => {
+    'lastUpdated' => 1207148611,
+    'message' => 'Hacer prototipo?'
   },
   'topicName' => {
     'lastUpdated' => 1215806257,
@@ -765,17 +765,17 @@ our $I18N = {
     'lastUpdated' => 1207239632,
     'message' => 'Purgar'
   },
-  '1073' => {
-    'lastUpdated' => 1186065425,
-    'message' => 'Plantilla de estilo'
+  'rootUrl form hoverHelp' => {
+    'lastUpdated' => undef,
+    'message' => ''
   },
   '105' => {
     'lastUpdated' => 1215095145,
     'message' => 'Mostrar'
   },
-  'rootUrl form hoverHelp' => {
-    'lastUpdated' => undef,
-    'message' => ''
+  '1073' => {
+    'lastUpdated' => 1186065425,
+    'message' => 'Plantilla de estilo'
   },
   '951' => {
     'lastUpdated' => 1186064999,
@@ -797,13 +797,13 @@ our $I18N = {
     'lastUpdated' => 1186065412,
     'message' => '<p>El t&iacute;tulo del activo. Este deber&iacute;a ser descriptivo, pero no muy extenso. Si lo deja en blanco, figurar&aacute; como &quot;Untitled&quot;. Macros, HTML y javascript no pueden ser colocados en el t&iacute;tulo.</p><p>NOTA: siempre se deber&iacute;a proveer un t&iacute;tulo, inclusi si la plantilla del activo no lo utiliza. En varios lugares del sitio, tales como Arbol de p&aacute;ginas, Portapapeles y Basura, el <strong>T&iacute;tulo</strong> es usado para distinguir este activo de otros. </p>'
   },
-  'change url help' => {
-    'lastUpdated' => 1186067013,
-    'message' => 'Llamar la pantalla de Cambiar URL para este Activo.'
-  },
   'packages' => {
     'lastUpdated' => 1207239179,
     'message' => 'Paquetes'
+  },
+  'change url help' => {
+    'lastUpdated' => 1186067013,
+    'message' => 'Llamar la pantalla de Cambiar URL para este Activo.'
   },
   'purge revision prompt' => {
     'lastUpdated' => undef,

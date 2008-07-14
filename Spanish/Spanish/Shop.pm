@@ -9,21 +9,25 @@ our $I18N = {
     'lastUpdated' => 1215811373,
     'message' => 'Subtotal'
   },
-  'address2Field help' => {
-    'lastUpdated' => 1215812269,
-    'message' => 'El campo secundario de la l&iacute;nea de direcci&oacute;n.'
-  },
   'address nameField help' => {
     'lastUpdated' => 1215812061,
     'message' => 'Un campo que contiene el nombre de la pesona/compa&ntilde;&iacute;a para esta direcci&oacute;n.'
   },
-  'state' => {
-    'lastUpdated' => 1215811444,
-    'message' => 'Departamento'
+  'address2Field help' => {
+    'lastUpdated' => 1215812269,
+    'message' => 'El campo secundario de la l&iacute;nea de direcci&oacute;n.'
+  },
+  'biweekly' => {
+    'lastUpdated' => 1215812534,
+    'message' => 'Dos semanas'
   },
   'addresses loop help' => {
     'lastUpdated' => 1215812402,
     'message' => 'Un bucle que contiene todas las direcciones en esta libreta de direcciones'
+  },
+  'state' => {
+    'lastUpdated' => 1215811444,
+    'message' => 'Departamento'
   },
   'address3Field help' => {
     'lastUpdated' => 1215812321,
@@ -69,13 +73,17 @@ our $I18N = {
     'lastUpdated' => 1215809342,
     'message' => 'Cancelado'
   },
+  'add a new address' => {
+    'lastUpdated' => 1215809416,
+    'message' => 'Adicionar una nueva direcci&oacute;n'
+  },
   'address loop help' => {
     'lastUpdated' => 1215811909,
     'message' => 'Un bucle que contiene la lista de direcciones en este libro y sus herramientas de administraci&oacute;n.'
   },
-  'add a new address' => {
-    'lastUpdated' => 1215809416,
-    'message' => 'Adicionar una nueva direcci&oacute;n'
+  'amount help' => {
+    'lastUpdated' => 1215812511,
+    'message' => 'La cantidad total de esta transacci&oacute;n, formateada con dos decimales.'
   },
   'Backordered' => {
     'lastUpdated' => 1215809229,
@@ -97,6 +105,10 @@ our $I18N = {
     'lastUpdated' => 1215811023,
     'message' => 'Semana'
   },
+  'city' => {
+    'lastUpdated' => 1215812577,
+    'message' => 'Ciudad'
+  },
   'address3 help' => {
     'lastUpdated' => 1215812289,
     'message' => 'La tercera linea de direcci&oacute;n'
@@ -117,6 +129,10 @@ our $I18N = {
     'lastUpdated' => 1215811851,
     'message' => 'Un campo que contiene la direcci&oacute;n etiquetada como \'residencia\' o \'trabajo\'.'
   },
+  'available' => {
+    'lastUpdated' => 1215812523,
+    'message' => 'Disponible'
+  },
   'use this address' => {
     'lastUpdated' => 1215811268,
     'message' => 'Usar Esta Direcci&oacute;n'
@@ -129,13 +145,13 @@ our $I18N = {
     'lastUpdated' => 1215812081,
     'message' => 'La primera l&iacute;nea de direcci&oacute;n.'
   },
-  'userId' => {
-    'lastUpdated' => 1215811157,
-    'message' => 'El userId del usuario que realiza esta transacci&oacute;n.'
-  },
   'yearly' => {
     'lastUpdated' => 1215811016,
     'message' => 'A&ntilde;o'
+  },
+  'userId' => {
+    'lastUpdated' => 1215811157,
+    'message' => 'El userId del usuario que realiza esta transacci&oacute;n.'
   },
   'tax' => {
     'lastUpdated' => 1215811247,
@@ -153,13 +169,17 @@ our $I18N = {
     'lastUpdated' => 1215811599,
     'message' => '<p>El grupo administrador de ecommerce </p>'
   },
-  'add a vendor' => {
-    'lastUpdated' => 1215809427,
-    'message' => 'Adicionar un vendedor'
+  'cart template' => {
+    'lastUpdated' => 1215812568,
+    'message' => 'Plantilla de Carrito'
   },
   'address help' => {
     'lastUpdated' => 1215810813,
     'message' => 'Una direcci&oacute;n con formato HTML.'
+  },
+  'add a vendor' => {
+    'lastUpdated' => 1215809427,
+    'message' => 'Adicionar un vendedor'
   },
   'update' => {
     'lastUpdated' => 1215811087,
