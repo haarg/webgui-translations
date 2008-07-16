@@ -22,13 +22,8 @@ our $I18N = {
     'message' => 'Título Link'
   },
   'assetName' => {
-    'lastUpdated' => 1207718521,
-    'message' => 'artículo'
-  },
-  'description.full' => {
-    'lastUpdated' => 1207720779,
-    'message' => '	
-La descripción completa sin ningún tipo de paginación.'
+    'lastUpdated' => 1216239167,
+    'message' => 'Art&iacute;culo'
   },
   'description.first.2paragraphs' => {
     'lastUpdated' => 1207720243,
@@ -37,6 +32,11 @@ La descripción completa sin ningún tipo de paginación.'
   'description.first.paragraph' => {
     'lastUpdated' => 1207720682,
     'message' => "El primer p\x{e1}rrafo de la descripci\x{f3}n. Un p\x{e1}rrafo se determina contando los espacios de \x{201c}enter\x{201d} en el texto."
+  },
+  'description.full' => {
+    'lastUpdated' => 1207720779,
+    'message' => '	
+La descripción completa sin ningún tipo de paginación.'
   },
   '72' => {
     'lastUpdated' => 1207721806,
@@ -74,11 +74,8 @@ Ejemplo: http://www.google.com
 '
   },
   'new.template' => {
-    'lastUpdated' => 1207721449,
-    'message' => 'Articles have the special ability to change their template so that you can allow users to see different views of the article. You do this by creating a link with a URL like this (replace 999 with the template Id you wish to use): <a href="<tmpl_var new.template>999">Read more...</a>	 	
-Artículos especiales tienen la capacidad de cambiar su plantilla para que pueda permitir a los usuarios ver vistas diferentes del artículo. Para ello puede crear un vínculo con una URL como esta (sustituir con 999 ID de la plantilla que desee utilizar):
-
-<A href = "<tmpl_var new.template> 999"> Leer más ...</ a>'
+    'lastUpdated' => 1216239297,
+    'message' => 'Los art&iacute;culos tienen la especial capacidad de cambiar su plantilla para que pueda permitir a los usuarios tener vistas diferentes del art&iacute;culo. Para esto puede crear un v&iacute;nculo con una URL como esta (sustituir 999 con el ID de la plantilla que desee utilizar):  <a href="%3Ctmpl_var%20new.template%3E%20999"> Leer m&aacute;s ...<!-- a--></a>'
   },
   'image.url' => {
     'lastUpdated' => 1207720986,

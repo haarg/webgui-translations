@@ -1,1237 +1,991 @@
 package WebGUI::i18n::Spanish::Asset_Survey;
 use utf8;
-
 our $I18N = {
-	'duration.minutes' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'84 description' => {
-		message => q|El n&uacute;mero de veces que el usuario puede tratar de conseguir la respuesta correcta en cada pregunta.&nbsp; Por defecto es 1.|,
-		lastUpdated => 1212183501
-	},
-
-	'32' => {
-		message => q|Falso|,
-		lastUpdated => 1206647451
-	},
-
-	'questions.correct.count' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'90' => {
-		message => q|Variables Comunes para el template de la encuesta|,
-		lastUpdated => 1212183743
-	},
-
-	'71' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'102' => {
-		message => q|Nombre de Secci&oacute;n|,
-		lastUpdated => 1204233939
-	},
-
-	'85 description' => {
-		message => q|El n&uacute;mero de preguntas entregadas a cada usuario.|,
-		lastUpdated => 1212183584
-	},
-
-	'export.questions.label' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'user.isFirstResponse' => {
-		message => q|<div id="result_box" dir="ltr">Un valor booleano que indique si esta es la primera respuesta para este usuario.</div>|,
-		lastUpdated => 1206719021
-	},
-
-	'questionsPerPage' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'response.user.label' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'18' => {
-		message => q|Editar respuesta|,
-		lastUpdated => 1204233673
-	},
-
-	'question.count' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'question.comment.label' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'13 description' => {
-		message => q|Qui&eacute;n puede ver los resultados de la encuesta?|,
-		lastUpdated => 1204234458
-	},
-
-	'16' => {
-		message => q|Randomizar respuestas?|,
-		lastUpdated => 1204234774
-	},
-
-	'groupToViewReports' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'44' => {
-		message => q|&iquest;Est&aacute; seguro de que desea borrar esta pregunta, y sus respuestas?|,
-		lastUpdated => 1206649219
-	},
-
-	'export.responses.label' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'55' => {
-		message => q|Ver Respuestas.|,
-		lastUpdated => 1206649891
-	},
-
-	'84' => {
-		message => q|M&aacute;ximo Respuestas por usuario|,
-		lastUpdated => 1212183419
-	},
-
-	'27' => {
-		message => q|Adicionar una opini&oacute;n (acuerdo/desacuerdo) escala de respuesta.|,
-		lastUpdated => 1206646482
-	},
-
-	'form.header' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'57' => {
-		message => q|Comentarios|,
-		lastUpdated => 1206650166
-	},
-
-	'start.newresponse.url' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'question.comment' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'744' => {
-		message => q|Y ahora Qu&eacute;?|,
-		lastUpdated => 1212182916
-	},
-
-	'questions.correct.percent.label' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'20' => {
-		message => q|&iquest;Es correcta esta respuesta?|,
-		lastUpdated => 1204233793
-	},
-
-	'cannot delete the last answer' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'user.canRespondAgain' => {
-		message => q|<div id="result_box" dir="ltr">Un valor booleano que indica si el usuario est&aacute; autorizado a responder a esta encuesta de nuevo.</div>|,
-		lastUpdated => 1206719112
-	},
-
-	'answer.comment' => {
-		message => q|Un comentario|,
-		lastUpdated => 1212183898
-	},
-
-	'title' => {
-		message => q|El t&iacute;tulo por defecto del reporte.|,
-		lastUpdated => 1206719160
-	},
-
-	'31' => {
-		message => q|Verdadero|,
-		lastUpdated => 1206647436
-	},
-
-	'question.allowComment' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'35' => {
-		message => q|algo deacuerdo|,
-		lastUpdated => 1206648938
-	},
-
-	'duration.label' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'11' => {
-		message => q|Modo|,
-		lastUpdated => 1204234290
-	},
-
-	'question.edit.id' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'20 description' => {
-		message => q|<div id="result_box" dir="ltr">Si ha establecido la encuesta a modo de Quiz, entonces se puede definir si esta respuesta es correcta o no.</div>|,
-		lastUpdated => 1204233827
-	},
-
-	'response.count.label' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'78' => {
-		message => q|Tiempo Total|,
-		lastUpdated => 1211403493
-	},
-
-	'export.composite.url' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'report.gradebook.url' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'thanks.quiz.label' => {
-		message => q|Un mensaje de agradecimiento al usuario por completar el quiz.|,
-		lastUpdated => 1206719202
-	},
-
-	'106' => {
-		message => q|Secci&oacute;n|,
-		lastUpdated => 1204234062
-	},
-
-	'65' => {
-		message => q|Exportar S&iacute;ntesis Resumida|,
-		lastUpdated => 1212182792
-	},
-
-	'29' => {
-		message => q|Adicionar una respuesta de texto.|,
-		lastUpdated => 1206646547
-	},
-
-	'duration.seconds.label' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'response.user.name' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'maxResponsesPerUser' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'user.canTakeSurvey' => {
-		message => q|Un valor booleano que indica si el usuario actual tiene los derechos para realizar la encuesta.|,
-		lastUpdated => 1206719086
-	},
-
-	'form.submit' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'58' => {
-		message => q|Descripci&oacute;n Estad&iacute;stica|,
-		lastUpdated => 1212182681
-	},
-
-	'responseTemplateId' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'15' => {
-		message => q|Permitir comentario?|,
-		lastUpdated => 1204234617
-	},
-
-	'81' => {
-		message => q|Respuestas An&oacute;nimas?|,
-		lastUpdated => 1211403569
-	},
-
-	'60' => {
-		message => q|Volver a la encuesta.|,
-		lastUpdated => 1206650962
-	},
-
-	'1091' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'73' => {
-		message => q|Eliminar todas las respuestas.|,
-		lastUpdated => 1211403267
-	},
-
-	'101' => {
-		message => q|Adicionar un Text Area para la respuesta|,
-		lastUpdated => 1206631800
-	},
-
-	'76' => {
-		message => q|Hora de Inicio|,
-		lastUpdated => 1212182980
-	},
-
-	'86' => {
-		message => q|Progreso|,
-		lastUpdated => 1212183599
-	},
-
-	'62' => {
-		message => q|Exportar respuestas.|,
-		lastUpdated => 1206650990
-	},
-
-	'quiz.noprivs.label' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'answer.response.percent' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'67' => {
-		message => q|Usuario|,
-		lastUpdated => 1206658046
-	},
-
-	'17' => {
-		message => q|Pregunta de Encuesta, Adicionar/Editar|,
-		lastUpdated => 1206645980
-	},
-
-	'2' => {
-		message => q|Editar encuesta|,
-		lastUpdated => 1204233738
-	},
-
-	'questions.correct.count.label' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'question.question' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'start.date.epoch' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'82' => {
-		message => q|Terminar Encuesta|,
-		lastUpdated => 1212183339
-	},
-
-	'questions.total' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'survey.noprivs.label' => {
-		message => q|Un mensaje indicando al usuario que no tiene los privilegios necesarios para realizar esta encuesta.|,
-		lastUpdated => 1206720745
-	},
-
-	'show.comments.label' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'export.answers.label' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'question_loop' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'gradebook template' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'14' => {
-		message => q|Pregunta|,
-		lastUpdated => 1204234517
-	},
-
-	'question.add.url' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'69' => {
-		message => q|Eliminar las respuestas de este usuario|,
-		lastUpdated => 1211403082
-	},
-
-	'report response.count.label' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'duration.minutes.label' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'49' => {
-		message => q|<div id="result_box" dir="ltr">No puede realizar el quiz en este momento.</div>|,
-		lastUpdated => 1206649523
-	},
-
-	'24' => {
-		message => q|Adicionar respuesta de selecci&oacute;n m&uacute;ltiple.|,
-		lastUpdated => 1206646302
-	},
-
-	'questions.correct.percent' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'view template description' => {
-		message => q|Esta plantilla se utiliza para mostrar la encuesta en s&iacute;.|,
-		lastUpdated => 1206715333
-	},
-
-	'question.edit.question' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'user.canViewReports' => {
-		message => q|<div id="result_box" dir="ltr">Un valor booleano que indica si el usuario tiene privilegios para ver los informes de la encuesta.</div>|,
-		lastUpdated => 1206719063
-	},
-
-	'104' => {
-		message => q|Adicionar una nueva secci&oacute;n|,
-		lastUpdated => 1204234001
-	},
-
-	'15 description' => {
-		message => q|Si se pone en Si, entonces los usuarios podran adicionar un comentario a la respuesta de esta pregunta.|,
-		lastUpdated => 1204234671
-	},
-
-	'question.response' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'view template' => {
-		message => q|Ver plantilla|,
-		lastUpdated => 1206715348
-	},
-
-	'export.questions.url' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'what next question description' => {
-		message => q|<div id="result_box" dir="ltr">Despu&eacute;s de definir la pregunta, puede suministrar una respuesta: <br /> <br />&nbsp;&nbsp;&nbsp;&nbsp; * Varias opciones <br />&nbsp;&nbsp;&nbsp;&nbsp; * Texto <br />&nbsp;&nbsp;&nbsp;&nbsp; * Frecuencia <br />&nbsp;&nbsp;&nbsp;&nbsp; * Opini&oacute;n <br />&nbsp;&nbsp;&nbsp;&nbsp; * O puede regresar a la encuesta</div>|,
-		lastUpdated => 1206713929
-	},
-
-	'end.date.label' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'79' => {
-		message => q|Minutos|,
-		lastUpdated => 1211403507
-	},
-
-	'response template' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'23' => {
-		message => q|Adicionar una nueva respuesta.|,
-		lastUpdated => 1206646274
-	},
-
-	'delete.label' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'response.url' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'templateId' => {
-		message => q|El ID de la plantilla para mostrar la encuesta.|,
-		lastUpdated => 1206719297
-	},
-
-	'14 description' => {
-		message => q|<div id="result_box" dir="ltr">Esta es la pregunta que el usuario se preguntar&aacute;.</div>|,
-		lastUpdated => 1206645914
-	},
-
-	'form.footer' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'questions.sofar.label' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'response.count' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'21 description' => {
-		message => q|<div id="result_box" dir="ltr">Se utiliza para definir la pregunta que sigue a &eacute;ste, cuando la pregunta para la encuesta se pone en &quot;respuesta&quot;.</div>|,
-		lastUpdated => 1206646105
-	},
-
-	'answer' => {
-		message => q|La respuesta misma.|,
-		lastUpdated => 1212183882
-	},
-
-	'47' => {
-		message => q|Usted ha completado este quiz.|,
-		lastUpdated => 1206649323
-	},
-
-	'8' => {
-		message => q|Orden de las preguntas|,
-		lastUpdated => 1211403530
-	},
-
-	'section.edit.sectionName' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'start.newresponse.label' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'1087' => {
-		message => q|<div id="result_box" dir="ltr">Plantilla de reporte de notas</div>|,
-		lastUpdated => 1206632298
-	},
-
-	'37' => {
-		message => q|Desacuerdo|,
-		lastUpdated => 1206648976
-	},
-
-	'43' => {
-		message => q|Nunca|,
-		lastUpdated => 1206649093
-	},
-
-	'5' => {
-		message => q|Secuencial|,
-		lastUpdated => 1206649546
-	},
-
-	'33' => {
-		message => q|Totalmente de acuerdo|,
-		lastUpdated => 1206648407
-	},
-
-	'21' => {
-		message => q|Ir a|,
-		lastUpdated => 1204233850
-	},
-
-	'63' => {
-		message => q|Exportar preguntas.|,
-		lastUpdated => 1206651557
-	},
-
-	'mode' => {
-		message => q|El modo de la encuesta se publicar&aacute;, ya sea &quot;encuesta&quot; o &quot;quiz&quot;.|,
-		lastUpdated => 1206720832
-	},
-
-	'7' => {
-		message => q|Respuesta Conducida|,
-		lastUpdated => 1212182841
-	},
-
-	'26' => {
-		message => q|A&ntilde;adir una frecuencia (siempre/nunca) escala de respuestas.|,
-		lastUpdated => 1206646450
-	},
-
-	'80' => {
-		message => q|Segundos|,
-		lastUpdated => 1211403550
-	},
-
-	'end.date.epoch' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'delete.all.responses.url' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'response.label' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'report.overview.label' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'answer_loop' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'72' => {
-		message => q|Est&aacute; usted seguro que desea borrar las respuestas de este usuario?|,
-		lastUpdated => 1211403241
-	},
-
-	'106 description' => {
-		message => q|En cu&aacute;l secci&oacute;n debe ser a&ntilde;adida la pregunta?|,
-		lastUpdated => 1206631918
-	},
-
-	'question.id' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'question.edit.controls' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'comment.label' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'74' => {
-		message => q|Est&aacute; usted seguro que desea eliminar todas las respuestas?|,
-		lastUpdated => 1211403382
-	},
-
-	'question.add.label' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'delete.url' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'response.id' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'61' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'end.date.human' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'103' => {
-		message => q|Secci&oacute;n Encuesta, Adicionar/Editar|,
-		lastUpdated => 1204233977
-	},
-
-	'83 description' => {
-		message => q|El n&uacute;mero de preguntas que ser&iacute;an motradas por p&aacute;gina.&nbsp; Por defecto es 1.|,
-		lastUpdated => 1212183394
-	},
-
-	'survey.url' => {
-		message => q|La URL para ver la encuesta. Usualmente utilizado para volver a la encuesta despu&eacute;s de examinar un informe.|,
-		lastUpdated => 1206719336
-	},
-
-	'groupToTakeSurvey' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'start.time.human' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'11 description' => {
-		message => q|Por defecto la Encuesta esta en modo de encuesta. Esto le permite hacer preguntas de los usuarios. Sin embargo, si se cambia a modo de Quiz, se puede tener un auto-correcci&oacute;n de la prueba de conocimiento del usuario.|,
-		lastUpdated => 1204234358
-	},
-
-	'survey asset template variables title' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'19 description' => {
-		message => q|La respuesta a esta pregunta.|,
-		lastUpdated => 1204233714
-	},
-
-	'10' => {
-		message => q|Quiz|,
-		lastUpdated => 1204226698
-	},
-
-	'Survey_id' => {
-		message => q|El &uacute;nico ID de esta encuesta.&nbsp; Este es diferente de el ID del activo.|,
-		lastUpdated => 1212183783
-	},
-
-	'response_loop' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'question.comment.field' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'answer.isCorrect' => {
-		message => q|Un valor booleano que indica si la respuesta correcta est&aacute; marcada.|,
-		lastUpdated => 1212184042
-	},
-
-	'overview template description' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'response template description' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'section.add.label' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'107' => {
-		message => q|Ninguno|,
-		lastUpdated => 1204234202
-	},
-
-	'48' => {
-		message => q|Actualmente no puedes participar en esta encuesta.|,
-		lastUpdated => 1206649394
-	},
-
-	'87' => {
-		message => q|Clic aqu&iacute; para iniciar una nueva respuesta|,
-		lastUpdated => 1212183654
-	},
-
-	'77' => {
-		message => q|Hora Final|,
-		lastUpdated => 1212183007
-	},
-
-	'mode.isSurvey' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'16 description' => {
-		message => q|Si est&aacute; en Si, entonces las respuestas ser&aacute;n barajadas para cada usuario.|,
-		lastUpdated => 1204234822
-	},
-
-	'comment_loop' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'question.answer' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'questionOrder' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'50' => {
-		message => q|Siguiente|,
-		lastUpdated => 1206649555
-	},
-
-	'39' => {
-		message => q|No aplica|,
-		lastUpdated => 1206649041
-	},
-
-	'12 description' => {
-		message => q|Cu&aacute;les usuarios pueden participar en la encuesta?|,
-		lastUpdated => 1204234420
-	},
-
-	'64' => {
-		message => q|Exportar Respuestas|,
-		lastUpdated => 1212182755
-	},
-
-	'question.isCorrect' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'1089' => {
-		message => q|Plantilla de Respuesta de la Encuesta|,
-		lastUpdated => 1206645724
-	},
-
-	'12' => {
-		message => q|Qui&eacute;n puede hacer la encuesta?|,
-		lastUpdated => 1204234398
-	},
-
-	'41' => {
-		message => q|Frecuentemente|,
-		lastUpdated => 1206649067
-	},
-
-	'defaultSectionId' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'thanks.survey.label' => {
-		message => q|Un mensaje de agradecimiento al usuario por completar la encuesta.|,
-		lastUpdated => 1206719225
-	},
-
-	'52' => {
-		message => q|Puntaje|,
-		lastUpdated => 1206649795
-	},
-
-	'8 description' => {
-		message => q|El orden las preguntas que se les pedir&aacute;. Secuencial muestra las preguntas en el orden que las crea. Muestra aleatoria muestra preguntas al azar. Respuesta impulsada muestra las preguntas en orden basado en las respuestas de los usuarios.|,
-		lastUpdated => 1212183108
-	},
-
-	'answer.label' => {
-		message => q|La palabra internacionalizada &quot;respuesta&quot;. Si la encuesta no est&aacute; en modo de prueba, esta etiqueta se dejar&aacute;n en blanco.|,
-		lastUpdated => 1212184126
-	},
-
-	'56' => {
-		message => q|Ver comentarios.|,
-		lastUpdated => 1206650097
-	},
-
-	'what next answer description' => {
-		message => q|Despu&eacute;s de definir la respuesta, puede a&ntilde;adir una respuesta a esta pregunta, otra pregunta, adem&aacute;s, editar la pregunta actual o volver a la p&aacute;gina que contiene la Encuesta.|,
-		lastUpdated => 1206714725
-	},
-
-	'45' => {
-		message => q|<div id="result_box" dir="ltr">No, he cometido un error.</div>|,
-		lastUpdated => 1206649254
-	},
-
-	'66' => {
-		message => q|Respuestas|,
-		lastUpdated => 1212182805
-	},
-
-	'19' => {
-		message => q|Respuesta|,
-		lastUpdated => 1204233686
-	},
-
-	'export.answers.url' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'54' => {
-		message => q|Porcentaje|,
-		lastUpdated => 1206649879
-	},
-
-	'question.isRadioList' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'questions.sofar.count' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'question.response.total' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'export.responses.url' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'70' => {
-		message => q|Respuestas Individuales|,
-		lastUpdated => 1211403108
-	},
-
-	'assetName' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'section.add.url' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'response.count.correct' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'section.questions_loop' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'report.gradebook.label' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'88' => {
-		message => q|Template de la Encuesta|,
-		lastUpdated => 1212183673
-	},
-
-	'question.answer.field' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'end.time.human' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'30' => {
-		message => q|Adicionar una nueva pregunta.|,
-		lastUpdated => 1206647425
-	},
-
-	'overviewTemplateId' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'100' => {
-		message => q|Adicionar una &aacute;rea html para la respuesta|,
-		lastUpdated => 1206630469
-	},
-
-	'25' => {
-		message => q|Adicionar respuesta verdadero/falso.|,
-		lastUpdated => 1206646320
-	},
-
-	'81 description' => {
-		message => q|Seleccione o no registrar la encuesta y mostrar informaci&oacute;n que pueda identificar a un usuario y sus respuestas. Si se deja en su valor predeterminado de &quot;No&quot;, la encuesta registra la direcci&oacute;n IP del usuario, as&iacute; como su WebGUI ID de usuario y nombre de usuario registrado, Esta informaci&oacute;n estar&aacute; disponible en los informes de la encuesta. Si se pone a &quot;S&iacute;&quot;, estos tres campos contienen datos codificados que no se puede localizar a un usuario en particular.|,
-		lastUpdated => 1212183299
-	},
-
-	'28' => {
-		message => q|Adicionar una pregunta.|,
-		lastUpdated => 1206646516
-	},
-
-	'duration.seconds' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'40' => {
-		message => q|Siempre|,
-		lastUpdated => 1206649057
-	},
-
-	'83' => {
-		message => q|Preguntas por p&aacute;gina|,
-		lastUpdated => 1212183354
-	},
-
-	'75' => {
-		message => q|Editar esta pregunta|,
-		lastUpdated => 1211403440
-	},
-
-	'anonymous' => {
-		message => q|Una variable condicional que muestra o no la encuesta como esta configurado para ser an&oacute;nima.|,
-		lastUpdated => 1212183853
-	},
-
-	'answer.response.count' => {
-		message => q|El n&uacute;mero total de respuestas dadas por esta respuesta.|,
-		lastUpdated => 1212184186
-	},
-
-	'report question_loop' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'response.percent' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'overview template' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'59' => {
-		message => q|Ver Descripci&oacute;n Estad&iacute;stica|,
-		lastUpdated => 1212182703
-	},
-
-	'gradebook template description' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'53' => {
-		message => q|Respuestas|,
-		lastUpdated => 1206649854
-	},
-
-	'survey.label' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'delete.all.responses.label' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'22' => {
-		message => q|Tipo de Respuesta|,
-		lastUpdated => 1206646143
-	},
-
-	'42' => {
-		message => q|Ocasionalmente|,
-		lastUpdated => 1206649080
-	},
-
-	'46' => {
-		message => q|Gracias por tu tiempo para completar nuestra encuesta.|,
-		lastUpdated => 1206649298
-	},
-
-	'section.edit.id' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'start.date.label' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'13' => {
-		message => q|Qui&eacute;n puede ver los reportes?|,
-		lastUpdated => 1204234438
-	},
-
-	'section.edit_loop' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'105' => {
-		message => q|&iquest;Est&aacute; seguro de que desea borrar esta secci&oacute;n?|,
-		lastUpdated => 1204234051
-	},
-
-	'6' => {
-		message => q|Aleatorio|,
-		lastUpdated => 1206650822
-	},
-
-	'section.edit.controls' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'report.overview.url' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'report answer.label' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'response.percent.label' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'85' => {
-		message => q|Preguntas por Respuesta|,
-		lastUpdated => 1212183546
-	},
-
-	'start.date.human' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'36' => {
-		message => q|Algo desacuerdo|,
-		lastUpdated => 1206648962
-	},
-
-	'gradebookTemplateId' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'51' => {
-		message => q|Comentarios?|,
-		lastUpdated => 1206649783
-	},
-
-	'9' => {
-		message => q|Encuesta|,
-		lastUpdated => 1212183685
-	},
-
-	'response.isComplete' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'question' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'what next description' => {
-		message => q|<div id="result_box" dir="ltr">Despu&eacute;s de crear una nueva encuesta, puede empezar a a&ntilde;adir preguntas o volver a la p&aacute;gina en la que se a&ntilde;adi&oacute; la encuesta.</div>|,
-		lastUpdated => 1206714039
-	},
-
-	'38' => {
-		message => q|Totalmente en desacuerdo|,
-		lastUpdated => 1206649004
-	},
-
-	'show.responses.label' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'745' => {
-		message => q|Regresar a la p&aacute;gina|,
-		lastUpdated => 1212182948
-	},
-
-	'34' => {
-		message => q|Deacuerdo|,
-		lastUpdated => 1206648912
-	},
-
-	'export.composite.label' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-};
+  'duration.minutes' => {
+    'lastUpdated' => 1216244008,
+    'message' => 'El n&uacute;mero de minutos que se tard&oacute; en completar la encuestra.'
+  },
+  '84 description' => {
+    'lastUpdated' => 1212183501,
+    'message' => 'El n&uacute;mero de veces que el usuario puede tratar de conseguir la respuesta correcta en cada pregunta.&nbsp; Por defecto es 1.'
+  },
+  '32' => {
+    'lastUpdated' => 1206647451,
+    'message' => 'Falso'
+  },
+  'questions.correct.count' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  '90' => {
+    'lastUpdated' => 1212183743,
+    'message' => 'Variables Comunes para el template de la encuesta'
+  },
+  '71' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  '102' => {
+    'lastUpdated' => 1204233939,
+    'message' => 'Nombre de Secci&oacute;n'
+  },
+  '85 description' => {
+    'lastUpdated' => 1212183584,
+    'message' => 'El n&uacute;mero de preguntas entregadas a cada usuario.'
+  },
+  'export.questions.label' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'user.isFirstResponse' => {
+    'lastUpdated' => 1206719021,
+    'message' => '<div id="result_box" dir="ltr">Un valor booleano que indique si esta es la primera respuesta para este usuario.</div>'
+  },
+  'questionsPerPage' => {
+    'lastUpdated' => 1216244298,
+    'message' => 'El n&uacute;mero de preguntas que ser&aacute;n mostradas por p&aacute;gina.'
+  },
+  'response.user.label' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  '18' => {
+    'lastUpdated' => 1204233673,
+    'message' => 'Editar respuesta'
+  },
+  'question.count' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'question.comment.label' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  '13 description' => {
+    'lastUpdated' => 1204234458,
+    'message' => 'Qui&eacute;n puede ver los resultados de la encuesta?'
+  },
+  '16' => {
+    'lastUpdated' => 1204234774,
+    'message' => 'Randomizar respuestas?'
+  },
+  'groupToViewReports' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  '44' => {
+    'lastUpdated' => 1206649219,
+    'message' => '&iquest;Est&aacute; seguro de que desea borrar esta pregunta, y sus respuestas?'
+  },
+  'export.responses.label' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  '55' => {
+    'lastUpdated' => 1206649891,
+    'message' => 'Ver Respuestas.'
+  },
+  '84' => {
+    'lastUpdated' => 1212183419,
+    'message' => 'M&aacute;ximo Respuestas por usuario'
+  },
+  '27' => {
+    'lastUpdated' => 1206646482,
+    'message' => 'Adicionar una opini&oacute;n (acuerdo/desacuerdo) escala de respuesta.'
+  },
+  'form.header' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  '57' => {
+    'lastUpdated' => 1206650166,
+    'message' => 'Comentarios'
+  },
+  'start.newresponse.url' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'question.comment' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  '744' => {
+    'lastUpdated' => 1212182916,
+    'message' => 'Y ahora Qu&eacute;?'
+  },
+  'questions.correct.percent.label' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  '20' => {
+    'lastUpdated' => 1204233793,
+    'message' => '&iquest;Es correcta esta respuesta?'
+  },
+  'cannot delete the last answer' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'user.canRespondAgain' => {
+    'lastUpdated' => 1206719112,
+    'message' => '<div id="result_box" dir="ltr">Un valor booleano que indica si el usuario est&aacute; autorizado a responder a esta encuesta de nuevo.</div>'
+  },
+  'answer.comment' => {
+    'lastUpdated' => 1212183898,
+    'message' => 'Un comentario'
+  },
+  'title' => {
+    'lastUpdated' => 1206719160,
+    'message' => 'El t&iacute;tulo por defecto del reporte.'
+  },
+  '31' => {
+    'lastUpdated' => 1206647436,
+    'message' => 'Verdadero'
+  },
+  'question.allowComment' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  '35' => {
+    'lastUpdated' => 1206648938,
+    'message' => 'algo deacuerdo'
+  },
+  'duration.label' => {
+    'lastUpdated' => 1216243939,
+    'message' => 'La etiqueta por defecto para la duraci&oacute;n.'
+  },
+  '11' => {
+    'lastUpdated' => 1204234290,
+    'message' => 'Modo'
+  },
+  'question.edit.id' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  '20 description' => {
+    'lastUpdated' => 1204233827,
+    'message' => '<div id="result_box" dir="ltr">Si ha establecido la encuesta a modo de Quiz, entonces se puede definir si esta respuesta es correcta o no.</div>'
+  },
+  'response.count.label' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  '78' => {
+    'lastUpdated' => 1211403493,
+    'message' => 'Tiempo Total'
+  },
+  'export.composite.url' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'report.gradebook.url' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'thanks.quiz.label' => {
+    'lastUpdated' => 1206719202,
+    'message' => 'Un mensaje de agradecimiento al usuario por completar el quiz.'
+  },
+  '106' => {
+    'lastUpdated' => 1204234062,
+    'message' => 'Secci&oacute;n'
+  },
+  '65' => {
+    'lastUpdated' => 1212182792,
+    'message' => 'Exportar S&iacute;ntesis Resumida'
+  },
+  '29' => {
+    'lastUpdated' => 1206646547,
+    'message' => 'Adicionar una respuesta de texto.'
+  },
+  'duration.seconds.label' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'response.user.name' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'maxResponsesPerUser' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'user.canTakeSurvey' => {
+    'lastUpdated' => 1206719086,
+    'message' => 'Un valor booleano que indica si el usuario actual tiene los derechos para realizar la encuesta.'
+  },
+  'form.submit' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  '58' => {
+    'lastUpdated' => 1212182681,
+    'message' => 'Descripci&oacute;n Estad&iacute;stica'
+  },
+  'responseTemplateId' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  '15' => {
+    'lastUpdated' => 1204234617,
+    'message' => 'Permitir comentario?'
+  },
+  '81' => {
+    'lastUpdated' => 1211403569,
+    'message' => 'Respuestas An&oacute;nimas?'
+  },
+  '60' => {
+    'lastUpdated' => 1206650962,
+    'message' => 'Volver a la encuesta.'
+  },
+  '1091' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  '73' => {
+    'lastUpdated' => 1211403267,
+    'message' => 'Eliminar todas las respuestas.'
+  },
+  '101' => {
+    'lastUpdated' => 1206631800,
+    'message' => 'Adicionar un Text Area para la respuesta'
+  },
+  '76' => {
+    'lastUpdated' => 1212182980,
+    'message' => 'Hora de Inicio'
+  },
+  '86' => {
+    'lastUpdated' => 1212183599,
+    'message' => 'Progreso'
+  },
+  '62' => {
+    'lastUpdated' => 1206650990,
+    'message' => 'Exportar respuestas.'
+  },
+  'quiz.noprivs.label' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'answer.response.percent' => {
+    'lastUpdated' => 1216244134,
+    'message' => '<div id="result_box" dir="ltr">El porcentaje de respuestas a esta pregunta que se dirigi&oacute; a esta respuesta.</div>'
+  },
+  '67' => {
+    'lastUpdated' => 1206658046,
+    'message' => 'Usuario'
+  },
+  '17' => {
+    'lastUpdated' => 1206645980,
+    'message' => 'Pregunta de Encuesta, Adicionar/Editar'
+  },
+  '2' => {
+    'lastUpdated' => 1204233738,
+    'message' => 'Editar encuesta'
+  },
+  'questions.correct.count.label' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'question.question' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'start.date.epoch' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  '82' => {
+    'lastUpdated' => 1212183339,
+    'message' => 'Terminar Encuesta'
+  },
+  'questions.total' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'survey.noprivs.label' => {
+    'lastUpdated' => 1206720745,
+    'message' => 'Un mensaje indicando al usuario que no tiene los privilegios necesarios para realizar esta encuesta.'
+  },
+  'show.comments.label' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'export.answers.label' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'question_loop' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'gradebook template' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  '14' => {
+    'lastUpdated' => 1204234517,
+    'message' => 'Pregunta'
+  },
+  'question.add.url' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  '69' => {
+    'lastUpdated' => 1211403082,
+    'message' => 'Eliminar las respuestas de este usuario'
+  },
+  'report response.count.label' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'duration.minutes.label' => {
+    'lastUpdated' => 1216244022,
+    'message' => 'Una etiqueta para &quot;minutos&quot;.'
+  },
+  '49' => {
+    'lastUpdated' => 1206649523,
+    'message' => '<div id="result_box" dir="ltr">No puede realizar el quiz en este momento.</div>'
+  },
+  '24' => {
+    'lastUpdated' => 1206646302,
+    'message' => 'Adicionar respuesta de selecci&oacute;n m&uacute;ltiple.'
+  },
+  'questions.correct.percent' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'view template description' => {
+    'lastUpdated' => 1206715333,
+    'message' => 'Esta plantilla se utiliza para mostrar la encuesta en s&iacute;.'
+  },
+  'question.edit.question' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'user.canViewReports' => {
+    'lastUpdated' => 1206719063,
+    'message' => '<div id="result_box" dir="ltr">Un valor booleano que indica si el usuario tiene privilegios para ver los informes de la encuesta.</div>'
+  },
+  '104' => {
+    'lastUpdated' => 1204234001,
+    'message' => 'Adicionar una nueva secci&oacute;n'
+  },
+  '15 description' => {
+    'lastUpdated' => 1204234671,
+    'message' => 'Si se pone en Si, entonces los usuarios podran adicionar un comentario a la respuesta de esta pregunta.'
+  },
+  'question.response' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'view template' => {
+    'lastUpdated' => 1206715348,
+    'message' => 'Ver plantilla'
+  },
+  'export.questions.url' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'what next question description' => {
+    'lastUpdated' => 1206713929,
+    'message' => '<div id="result_box" dir="ltr">Despu&eacute;s de definir la pregunta, puede suministrar una respuesta: <br /> <br />&nbsp;&nbsp;&nbsp;&nbsp; * Varias opciones <br />&nbsp;&nbsp;&nbsp;&nbsp; * Texto <br />&nbsp;&nbsp;&nbsp;&nbsp; * Frecuencia <br />&nbsp;&nbsp;&nbsp;&nbsp; * Opini&oacute;n <br />&nbsp;&nbsp;&nbsp;&nbsp; * O puede regresar a la encuesta</div>'
+  },
+  'end.date.label' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  '79' => {
+    'lastUpdated' => 1211403507,
+    'message' => 'Minutos'
+  },
+  'response template' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  '23' => {
+    'lastUpdated' => 1206646274,
+    'message' => 'Adicionar una nueva respuesta.'
+  },
+  'delete.label' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'response.url' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'templateId' => {
+    'lastUpdated' => 1206719297,
+    'message' => 'El ID de la plantilla para mostrar la encuesta.'
+  },
+  '14 description' => {
+    'lastUpdated' => 1206645914,
+    'message' => '<div id="result_box" dir="ltr">Esta es la pregunta que el usuario se preguntar&aacute;.</div>'
+  },
+  'form.footer' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'questions.sofar.label' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'response.count' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  '21 description' => {
+    'lastUpdated' => 1206646105,
+    'message' => '<div id="result_box" dir="ltr">Se utiliza para definir la pregunta que sigue a &eacute;ste, cuando la pregunta para la encuesta se pone en &quot;respuesta&quot;.</div>'
+  },
+  'answer' => {
+    'lastUpdated' => 1212183882,
+    'message' => 'La respuesta misma.'
+  },
+  '47' => {
+    'lastUpdated' => 1206649323,
+    'message' => 'Usted ha completado este quiz.'
+  },
+  '8' => {
+    'lastUpdated' => 1211403530,
+    'message' => 'Orden de las preguntas'
+  },
+  'section.edit.sectionName' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'start.newresponse.label' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  '1087' => {
+    'lastUpdated' => 1216243885,
+    'message' => '<div id="result_box" dir="ltr">Plantilla Reporte de Notas</div>'
+  },
+  '37' => {
+    'lastUpdated' => 1206648976,
+    'message' => 'Desacuerdo'
+  },
+  '43' => {
+    'lastUpdated' => 1206649093,
+    'message' => 'Nunca'
+  },
+  '5' => {
+    'lastUpdated' => 1206649546,
+    'message' => 'Secuencial'
+  },
+  '33' => {
+    'lastUpdated' => 1206648407,
+    'message' => 'Totalmente de acuerdo'
+  },
+  '21' => {
+    'lastUpdated' => 1204233850,
+    'message' => 'Ir a'
+  },
+  '63' => {
+    'lastUpdated' => 1206651557,
+    'message' => 'Exportar preguntas.'
+  },
+  'mode' => {
+    'lastUpdated' => 1206720832,
+    'message' => 'El modo de la encuesta se publicar&aacute;, ya sea &quot;encuesta&quot; o &quot;quiz&quot;.'
+  },
+  '7' => {
+    'lastUpdated' => 1212182841,
+    'message' => 'Respuesta Conducida'
+  },
+  '26' => {
+    'lastUpdated' => 1206646450,
+    'message' => 'A&ntilde;adir una frecuencia (siempre/nunca) escala de respuestas.'
+  },
+  '80' => {
+    'lastUpdated' => 1211403550,
+    'message' => 'Segundos'
+  },
+  'end.date.epoch' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'delete.all.responses.url' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'response.label' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'report.overview.label' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'answer_loop' => {
+    'lastUpdated' => 1216244159,
+    'message' => 'Un bucle que contiene las preguntas y respuestas para esta pregunta.'
+  },
+  '72' => {
+    'lastUpdated' => 1211403241,
+    'message' => 'Est&aacute; usted seguro que desea borrar las respuestas de este usuario?'
+  },
+  '106 description' => {
+    'lastUpdated' => 1206631918,
+    'message' => 'En cu&aacute;l secci&oacute;n debe ser a&ntilde;adida la pregunta?'
+  },
+  'question.id' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'question.edit.controls' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'comment.label' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  '74' => {
+    'lastUpdated' => 1211403382,
+    'message' => 'Est&aacute; usted seguro que desea eliminar todas las respuestas?'
+  },
+  'question.add.label' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'delete.url' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'response.id' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  '61' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'end.date.human' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  '103' => {
+    'lastUpdated' => 1204233977,
+    'message' => 'Secci&oacute;n Encuesta, Adicionar/Editar'
+  },
+  '83 description' => {
+    'lastUpdated' => 1212183394,
+    'message' => 'El n&uacute;mero de preguntas que ser&iacute;an motradas por p&aacute;gina.&nbsp; Por defecto es 1.'
+  },
+  'survey.url' => {
+    'lastUpdated' => 1206719336,
+    'message' => 'La URL para ver la encuesta. Usualmente utilizado para volver a la encuesta despu&eacute;s de examinar un informe.'
+  },
+  'groupToTakeSurvey' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'start.time.human' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  '11 description' => {
+    'lastUpdated' => 1204234358,
+    'message' => 'Por defecto la Encuesta esta en modo de encuesta. Esto le permite hacer preguntas de los usuarios. Sin embargo, si se cambia a modo de Quiz, se puede tener un auto-correcci&oacute;n de la prueba de conocimiento del usuario.'
+  },
+  'survey asset template variables title' => {
+    'lastUpdated' => 1216244339,
+    'message' => 'Plantilla Variables del Activo Encuesta'
+  },
+  '19 description' => {
+    'lastUpdated' => 1204233714,
+    'message' => 'La respuesta a esta pregunta.'
+  },
+  '10' => {
+    'lastUpdated' => 1204226698,
+    'message' => 'Quiz'
+  },
+  'Survey_id' => {
+    'lastUpdated' => 1212183783,
+    'message' => 'El &uacute;nico ID de esta encuesta.&nbsp; Este es diferente de el ID del activo.'
+  },
+  'response_loop' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'question.comment.field' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'answer.isCorrect' => {
+    'lastUpdated' => 1212184042,
+    'message' => 'Un valor booleano que indica si la respuesta correcta est&aacute; marcada.'
+  },
+  'overview template description' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'response template description' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'section.add.label' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  '107' => {
+    'lastUpdated' => 1204234202,
+    'message' => 'Ninguno'
+  },
+  '48' => {
+    'lastUpdated' => 1206649394,
+    'message' => 'Actualmente no puedes participar en esta encuesta.'
+  },
+  '87' => {
+    'lastUpdated' => 1212183654,
+    'message' => 'Clic aqu&iacute; para iniciar una nueva respuesta'
+  },
+  '77' => {
+    'lastUpdated' => 1212183007,
+    'message' => 'Hora Final'
+  },
+  'mode.isSurvey' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  '16 description' => {
+    'lastUpdated' => 1204234822,
+    'message' => 'Si est&aacute; en Si, entonces las respuestas ser&aacute;n barajadas para cada usuario.'
+  },
+  'comment_loop' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'question.answer' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'questionOrder' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  '50' => {
+    'lastUpdated' => 1206649555,
+    'message' => 'Siguiente'
+  },
+  '39' => {
+    'lastUpdated' => 1206649041,
+    'message' => 'No aplica'
+  },
+  '12 description' => {
+    'lastUpdated' => 1204234420,
+    'message' => 'Cu&aacute;les usuarios pueden participar en la encuesta?'
+  },
+  '64' => {
+    'lastUpdated' => 1212182755,
+    'message' => 'Exportar Respuestas'
+  },
+  'question.isCorrect' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  '1089' => {
+    'lastUpdated' => 1216243860,
+    'message' => 'Plantilla Respuesta de la Encuesta'
+  },
+  '12' => {
+    'lastUpdated' => 1204234398,
+    'message' => 'Qui&eacute;n puede hacer la encuesta?'
+  },
+  '41' => {
+    'lastUpdated' => 1206649067,
+    'message' => 'Frecuentemente'
+  },
+  'defaultSectionId' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'thanks.survey.label' => {
+    'lastUpdated' => 1206719225,
+    'message' => 'Un mensaje de agradecimiento al usuario por completar la encuesta.'
+  },
+  '52' => {
+    'lastUpdated' => 1206649795,
+    'message' => 'Puntaje'
+  },
+  '8 description' => {
+    'lastUpdated' => 1212183108,
+    'message' => 'El orden las preguntas que se les pedir&aacute;. Secuencial muestra las preguntas en el orden que las crea. Muestra aleatoria muestra preguntas al azar. Respuesta impulsada muestra las preguntas en orden basado en las respuestas de los usuarios.'
+  },
+  'answer.label' => {
+    'lastUpdated' => 1212184126,
+    'message' => 'La palabra internacionalizada &quot;respuesta&quot;. Si la encuesta no est&aacute; en modo de prueba, esta etiqueta se dejar&aacute;n en blanco.'
+  },
+  '56' => {
+    'lastUpdated' => 1206650097,
+    'message' => 'Ver comentarios.'
+  },
+  'what next answer description' => {
+    'lastUpdated' => 1206714725,
+    'message' => 'Despu&eacute;s de definir la respuesta, puede a&ntilde;adir una respuesta a esta pregunta, otra pregunta, adem&aacute;s, editar la pregunta actual o volver a la p&aacute;gina que contiene la Encuesta.'
+  },
+  '45' => {
+    'lastUpdated' => 1206649254,
+    'message' => '<div id="result_box" dir="ltr">No, he cometido un error.</div>'
+  },
+  '66' => {
+    'lastUpdated' => 1212182805,
+    'message' => 'Respuestas'
+  },
+  '19' => {
+    'lastUpdated' => 1204233686,
+    'message' => 'Respuesta'
+  },
+  'export.answers.url' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  '54' => {
+    'lastUpdated' => 1206649879,
+    'message' => 'Porcentaje'
+  },
+  'question.isRadioList' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'questions.sofar.count' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'question.response.total' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'export.responses.url' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  '70' => {
+    'lastUpdated' => 1211403108,
+    'message' => 'Respuestas Individuales'
+  },
+  'assetName' => {
+    'lastUpdated' => 1216244169,
+    'message' => 'Encuesta'
+  },
+  'section.add.url' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'response.count.correct' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'section.questions_loop' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'report.gradebook.label' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  '88' => {
+    'lastUpdated' => 1212183673,
+    'message' => 'Template de la Encuesta'
+  },
+  'question.answer.field' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'end.time.human' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  '30' => {
+    'lastUpdated' => 1206647425,
+    'message' => 'Adicionar una nueva pregunta.'
+  },
+  'overviewTemplateId' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  '100' => {
+    'lastUpdated' => 1206630469,
+    'message' => 'Adicionar una &aacute;rea html para la respuesta'
+  },
+  '25' => {
+    'lastUpdated' => 1206646320,
+    'message' => 'Adicionar respuesta verdadero/falso.'
+  },
+  '81 description' => {
+    'lastUpdated' => 1212183299,
+    'message' => 'Seleccione o no registrar la encuesta y mostrar informaci&oacute;n que pueda identificar a un usuario y sus respuestas. Si se deja en su valor predeterminado de &quot;No&quot;, la encuesta registra la direcci&oacute;n IP del usuario, as&iacute; como su WebGUI ID de usuario y nombre de usuario registrado, Esta informaci&oacute;n estar&aacute; disponible en los informes de la encuesta. Si se pone a &quot;S&iacute;&quot;, estos tres campos contienen datos codificados que no se puede localizar a un usuario en particular.'
+  },
+  '28' => {
+    'lastUpdated' => 1206646516,
+    'message' => 'Adicionar una pregunta.'
+  },
+  'duration.seconds' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  '40' => {
+    'lastUpdated' => 1206649057,
+    'message' => 'Siempre'
+  },
+  '83' => {
+    'lastUpdated' => 1212183354,
+    'message' => 'Preguntas por p&aacute;gina'
+  },
+  '75' => {
+    'lastUpdated' => 1211403440,
+    'message' => 'Editar esta pregunta'
+  },
+  'anonymous' => {
+    'lastUpdated' => 1212183853,
+    'message' => 'Una variable condicional que muestra o no la encuesta como esta configurado para ser an&oacute;nima.'
+  },
+  'answer.response.count' => {
+    'lastUpdated' => 1212184186,
+    'message' => 'El n&uacute;mero total de respuestas dadas por esta respuesta.'
+  },
+  'report question_loop' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'response.percent' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'overview template' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  '59' => {
+    'lastUpdated' => 1212182703,
+    'message' => 'Ver Descripci&oacute;n Estad&iacute;stica'
+  },
+  'gradebook template description' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  '53' => {
+    'lastUpdated' => 1206649854,
+    'message' => 'Respuestas'
+  },
+  'survey.label' => {
+    'lastUpdated' => 1216244320,
+    'message' => 'La etiqueta por defecto para survey.url.'
+  },
+  'delete.all.responses.label' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  '22' => {
+    'lastUpdated' => 1206646143,
+    'message' => 'Tipo de Respuesta'
+  },
+  '42' => {
+    'lastUpdated' => 1206649080,
+    'message' => 'Ocasionalmente'
+  },
+  '46' => {
+    'lastUpdated' => 1206649298,
+    'message' => 'Gracias por tu tiempo para completar nuestra encuesta.'
+  },
+  'section.edit.id' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'start.date.label' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  '13' => {
+    'lastUpdated' => 1204234438,
+    'message' => 'Qui&eacute;n puede ver los reportes?'
+  },
+  'section.edit_loop' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  '105' => {
+    'lastUpdated' => 1204234051,
+    'message' => '&iquest;Est&aacute; seguro de que desea borrar esta secci&oacute;n?'
+  },
+  '6' => {
+    'lastUpdated' => 1206650822,
+    'message' => 'Aleatorio'
+  },
+  'section.edit.controls' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'report.overview.url' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'report answer.label' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'response.percent.label' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  '85' => {
+    'lastUpdated' => 1212183546,
+    'message' => 'Preguntas por Respuesta'
+  },
+  'start.date.human' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  '36' => {
+    'lastUpdated' => 1206648962,
+    'message' => 'Algo desacuerdo'
+  },
+  'gradebookTemplateId' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  '51' => {
+    'lastUpdated' => 1206649783,
+    'message' => 'Comentarios?'
+  },
+  '9' => {
+    'lastUpdated' => 1212183685,
+    'message' => 'Encuesta'
+  },
+  'response.isComplete' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'question' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'what next description' => {
+    'lastUpdated' => 1206714039,
+    'message' => '<div id="result_box" dir="ltr">Despu&eacute;s de crear una nueva encuesta, puede empezar a a&ntilde;adir preguntas o volver a la p&aacute;gina en la que se a&ntilde;adi&oacute; la encuesta.</div>'
+  },
+  '38' => {
+    'lastUpdated' => 1206649004,
+    'message' => 'Totalmente en desacuerdo'
+  },
+  'show.responses.label' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  '745' => {
+    'lastUpdated' => 1212182948,
+    'message' => 'Regresar a la p&aacute;gina'
+  },
+  '34' => {
+    'lastUpdated' => 1206648912,
+    'message' => 'Deacuerdo'
+  },
+  'export.composite.label' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  }
+}
+;
 
 1;
