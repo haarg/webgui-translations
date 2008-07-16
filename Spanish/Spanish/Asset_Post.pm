@@ -1,11 +1,15 @@
 package WebGUI::i18n::Spanish::Asset_Post;
 use utf8;
 our $I18N = {
+  'dateUpdated' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
   'post received' => {
     'lastUpdated' => 1207728614,
     'message' => '<p>Su publicaci&oacute;n ha sido recibida y ser&aacute; procesada para ser agregada al sitio.</p><p>Por favor sea paciente.&nbsp;</p>'
   },
-  'dateUpdated' => {
+  'userDefinedN.form.textarea' => {
     'lastUpdated' => undef,
     'message' => ''
   },
@@ -13,17 +17,13 @@ our $I18N = {
     'lastUpdated' => undef,
     'message' => ''
   },
-  'userDefinedN.form.textarea' => {
-    'lastUpdated' => undef,
-    'message' => ''
+  'content' => {
+    'lastUpdated' => 1207720397,
+    'message' => 'El contenido o cuerpo de la publicaci&oacute;n'
   },
   '523' => {
     'lastUpdated' => 1207345424,
     'message' => 'Notificaci&oacute;n'
-  },
-  'content' => {
-    'lastUpdated' => 1207720397,
-    'message' => 'El contenido o cuerpo de la publicaci&oacute;n'
   },
   'relativeUrl' => {
     'lastUpdated' => undef,
@@ -41,11 +41,11 @@ our $I18N = {
     'lastUpdated' => undef,
     'message' => ''
   },
-  'unsubscribeLinkText' => {
+  'threadId' => {
     'lastUpdated' => undef,
     'message' => ''
   },
-  'threadId' => {
+  'unsubscribeLinkText' => {
     'lastUpdated' => undef,
     'message' => ''
   },
@@ -53,7 +53,7 @@ our $I18N = {
     'lastUpdated' => undef,
     'message' => ''
   },
-  'isHidden' => {
+  'formatted.content' => {
     'lastUpdated' => undef,
     'message' => ''
   },
@@ -61,11 +61,11 @@ our $I18N = {
     'lastUpdated' => undef,
     'message' => ''
   },
-  'formatted.content' => {
+  'isHidden' => {
     'lastUpdated' => undef,
     'message' => ''
   },
-  'groupIdEdit' => {
+  'preview.title' => {
     'lastUpdated' => undef,
     'message' => ''
   },
@@ -73,11 +73,7 @@ our $I18N = {
     'lastUpdated' => 1207728975,
     'message' => 'Una forma en la que el usuario puede introducir su nombre, incluso cuando se trate de un visitante.'
   },
-  'preview.title' => {
-    'lastUpdated' => undef,
-    'message' => ''
-  },
-  'meta_X_value' => {
+  'groupIdEdit' => {
     'lastUpdated' => undef,
     'message' => ''
   },
@@ -85,11 +81,15 @@ our $I18N = {
     'lastUpdated' => 1215812403,
     'message' => 'Una URL para eliminar esta publicaci&oacute;n.'
   },
+  'meta_X_value' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
   'form.header' => {
     'lastUpdated' => undef,
     'message' => ''
   },
-  'name' => {
+  'sticky.form' => {
     'lastUpdated' => undef,
     'message' => ''
   },
@@ -97,7 +97,7 @@ our $I18N = {
     'lastUpdated' => undef,
     'message' => ''
   },
-  'sticky.form' => {
+  'name' => {
     'lastUpdated' => undef,
     'message' => ''
   },
@@ -117,27 +117,15 @@ our $I18N = {
     'lastUpdated' => undef,
     'message' => ''
   },
-  'image.url' => {
-    'lastUpdated' => 1208549504,
-    'message' => 'La URL de la primera imagen adjuntada a la publicaci&oacute;n'
-  },
   'isNewThread' => {
     'lastUpdated' => undef,
     'message' => ''
   },
+  'image.url' => {
+    'lastUpdated' => 1208549504,
+    'message' => 'La URL de la primera imagen adjuntada a la publicaci&oacute;n'
+  },
   'userDefined1' => {
-    'lastUpdated' => undef,
-    'message' => ''
-  },
-  'title' => {
-    'lastUpdated' => 1207728945,
-    'message' => 'El título del Post.'
-  },
-  'isImage' => {
-    'lastUpdated' => undef,
-    'message' => ''
-  },
-  'userDefinedN.form.htmlarea' => {
     'lastUpdated' => undef,
     'message' => ''
   },
@@ -145,11 +133,23 @@ our $I18N = {
     'lastUpdated' => undef,
     'message' => ''
   },
-  'storageId' => {
+  'userDefinedN.form.htmlarea' => {
     'lastUpdated' => undef,
     'message' => ''
   },
+  'isImage' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'title' => {
+    'lastUpdated' => 1207728945,
+    'message' => "El t\x{ed}tulo del Post."
+  },
   'user.isModerator' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'storageId' => {
     'lastUpdated' => undef,
     'message' => ''
   },
@@ -165,7 +165,7 @@ our $I18N = {
     'lastUpdated' => undef,
     'message' => ''
   },
-  'help url.raw' => {
+  'attachment.form' => {
     'lastUpdated' => undef,
     'message' => ''
   },
@@ -173,15 +173,15 @@ our $I18N = {
     'lastUpdated' => undef,
     'message' => ''
   },
-  'attachment.form' => {
-    'lastUpdated' => undef,
-    'message' => ''
-  },
-  'reply.withQuote.url' => {
+  'help url.raw' => {
     'lastUpdated' => undef,
     'message' => ''
   },
   'karmaScale.form' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'reply.withQuote.url' => {
     'lastUpdated' => undef,
     'message' => ''
   },
@@ -193,17 +193,17 @@ our $I18N = {
     'lastUpdated' => undef,
     'message' => ''
   },
-  'reply.url' => {
-    'lastUpdated' => undef,
-    'message' => ''
-  },
   'usePreview' => {
     'lastUpdated' => undef,
     'message' => ''
   },
+  'reply.url' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
   'add/edit post template title' => {
-    'lastUpdated' => 1207728358,
-    'message' => 'Publicar Agregar o Editar plantilla'
+    'lastUpdated' => 1216246298,
+    'message' => 'Plantilla Publicar Agregar/Editar'
   },
   'meta_loop' => {
     'lastUpdated' => undef,
@@ -217,7 +217,7 @@ our $I18N = {
     'lastUpdated' => undef,
     'message' => ''
   },
-  'meta_X_form' => {
+  'attachment_loop' => {
     'lastUpdated' => undef,
     'message' => ''
   },
@@ -225,7 +225,7 @@ our $I18N = {
     'lastUpdated' => undef,
     'message' => ''
   },
-  'attachment_loop' => {
+  'meta_X_form' => {
     'lastUpdated' => undef,
     'message' => ''
   },
@@ -249,11 +249,11 @@ our $I18N = {
     'lastUpdated' => 1215812441,
     'message' => 'Un condicional&nbsp; que es verdadero si el usuario est&aacute; editando una publicaci&oacute;n existente.'
   },
-  'filename' => {
+  'lock.form' => {
     'lastUpdated' => undef,
     'message' => ''
   },
-  'lock.form' => {
+  'filename' => {
     'lastUpdated' => undef,
     'message' => ''
   },
@@ -265,17 +265,17 @@ our $I18N = {
     'lastUpdated' => undef,
     'message' => ''
   },
-  'attachment.name' => {
-    'lastUpdated' => 1207728710,
-    'message' => 'El nombre del primer adjunto encontrado en la publicaci&oacute;n'
+  'user.isVisitor' => {
+    'lastUpdated' => undef,
+    'message' => ''
   },
   'user.isPoster' => {
     'lastUpdated' => undef,
     'message' => ''
   },
-  'user.isVisitor' => {
-    'lastUpdated' => undef,
-    'message' => ''
+  'attachment.name' => {
+    'lastUpdated' => 1207728710,
+    'message' => 'El nombre del primer adjunto encontrado en la publicaci&oacute;n'
   },
   'userDefinedN.form' => {
     'lastUpdated' => undef,
@@ -290,6 +290,10 @@ our $I18N = {
     'message' => 'El puntaje actual de este Post.'
   },
   'assetName' => {
+    'lastUpdated' => 1216246323,
+    'message' => 'Publicar'
+  },
+  'isThread' => {
     'lastUpdated' => undef,
     'message' => ''
   },
@@ -297,17 +301,13 @@ our $I18N = {
     'lastUpdated' => undef,
     'message' => ''
   },
-  'isThread' => {
+  'edit.url' => {
     'lastUpdated' => undef,
     'message' => ''
   },
   '875' => {
     'lastUpdated' => 1207720477,
     'message' => 'Un nuevo mensaje ha sido publicado por uno de sus suscriptores.'
-  },
-  'edit.url' => {
-    'lastUpdated' => undef,
-    'message' => ''
   },
   'reply.content' => {
     'lastUpdated' => 1207728865,
@@ -317,11 +317,11 @@ our $I18N = {
     'lastUpdated' => undef,
     'message' => ''
   },
-  'ownerUserId' => {
+  'extraHeadTags' => {
     'lastUpdated' => undef,
     'message' => ''
   },
-  'extraHeadTags' => {
+  'ownerUserId' => {
     'lastUpdated' => undef,
     'message' => ''
   },
@@ -333,11 +333,11 @@ our $I18N = {
     'lastUpdated' => undef,
     'message' => ''
   },
-  'field' => {
+  'karmaIsEnabled' => {
     'lastUpdated' => undef,
     'message' => ''
   },
-  'karmaIsEnabled' => {
+  'field' => {
     'lastUpdated' => undef,
     'message' => ''
   },
@@ -365,11 +365,11 @@ our $I18N = {
     'lastUpdated' => undef,
     'message' => ''
   },
-  'notification template body' => {
+  'groupIdView' => {
     'lastUpdated' => undef,
     'message' => ''
   },
-  'groupIdView' => {
+  'notification template body' => {
     'lastUpdated' => undef,
     'message' => ''
   },
@@ -377,25 +377,25 @@ our $I18N = {
     'lastUpdated' => 1207720440,
     'message' => 'El icono representando el tipo de archivo del adjunto'
   },
-  'assetSize' => {
-    'lastUpdated' => undef,
-    'message' => ''
+  'status' => {
+    'lastUpdated' => 1207728898,
+    'message' => "La situaci\x{f3}n de este Post: \"Aprobado\", \"Pendiente\" o \"Archivado\"."
   },
   'menuTitle' => {
     'lastUpdated' => undef,
     'message' => ''
   },
-  'status' => {
-    'lastUpdated' => 1207728898,
-    'message' => 'La situación de este Post: "Aprobado", "Pendiente" o "Archivado".'
-  },
-  'By' => {
-    'lastUpdated' => 1207719795,
-    'message' => 'Por'
+  'assetSize' => {
+    'lastUpdated' => 1216246362,
+    'message' => 'El tama&ntilde;o formateado de esta Publicaci&oacute;n.'
   },
   'user.canEdit' => {
     'lastUpdated' => undef,
     'message' => ''
+  },
+  'By' => {
+    'lastUpdated' => 1207719795,
+    'message' => 'Por'
   },
   'rating' => {
     'lastUpdated' => 1207728334,
@@ -409,11 +409,11 @@ our $I18N = {
     'lastUpdated' => undef,
     'message' => ''
   },
-  'isPackage' => {
+  'userDefinedN.form.yesNo' => {
     'lastUpdated' => undef,
     'message' => ''
   },
-  'userDefinedN.form.yesNo' => {
+  'isPackage' => {
     'lastUpdated' => undef,
     'message' => ''
   },
@@ -421,15 +421,11 @@ our $I18N = {
     'lastUpdated' => undef,
     'message' => ''
   },
-  'contentType' => {
-    'lastUpdated' => undef,
-    'message' => ''
-  },
   'dateSubmitted.human' => {
     'lastUpdated' => undef,
     'message' => ''
   },
-  'thumbnail' => {
+  'contentType' => {
     'lastUpdated' => undef,
     'message' => ''
   },
@@ -437,7 +433,7 @@ our $I18N = {
     'lastUpdated' => undef,
     'message' => ''
   },
-  'userDefined4' => {
+  'thumbnail' => {
     'lastUpdated' => undef,
     'message' => ''
   },
@@ -445,7 +441,7 @@ our $I18N = {
     'lastUpdated' => undef,
     'message' => ''
   },
-  'subscribe.form' => {
+  'userDefined4' => {
     'lastUpdated' => undef,
     'message' => ''
   },
@@ -453,12 +449,16 @@ our $I18N = {
     'lastUpdated' => undef,
     'message' => ''
   },
-  'unsubscribeUrl' => {
+  'subscribe.form' => {
     'lastUpdated' => undef,
     'message' => ''
   },
   'post asset variables title' => {
     'lastUpdated' => 1207728478,
+    'message' => ''
+  },
+  'unsubscribeUrl' => {
+    'lastUpdated' => undef,
     'message' => ''
   },
   'notification template title' => {
