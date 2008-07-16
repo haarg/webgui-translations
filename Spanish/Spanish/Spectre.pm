@@ -1,47 +1,39 @@
 package WebGUI::i18n::Spanish::Spectre;
 use utf8;
-
 our $I18N = {
-	'workflow status error' => {
-		message => q|Spectre se est&aacute; ejecutando, pero hubo un error consiguiendo el estado del flujo de trabajo.|,
-		lastUpdated => 1207848472
-	},
-
-	'not running' => {
-		message => q|Spectre no se est&aacute; ejecutando.|,
-		lastUpdated => 1207848352
-	},
-
-	'cron status error' => {
-		message => q|Spectre se est&aacute; ejecutando, pero hubo un error consiguiendo el estado del cron.|,
-		lastUpdated => 1207848578
-	},
-
-	'assetName' => {
-		message => q|Este asunto no deber&iacute;a ...?|,
-		lastUpdated => 1207848670
-	},
-
-	'running' => {
-		message => q|Spectre est&aacute; corriendo|,
-		lastUpdated => 1203520723
-	},
-
-	'workflow header' => {
-		message => q|Hay %d flujos de trabajo.|,
-		lastUpdated => 1207848503
-	},
-
-	'spectre' => {
-		message => q|Spectre|,
-		lastUpdated => 1207848377
-	},
-
-	'cron header' => {
-		message => q|Hay %d tareas programadas|,
-		lastUpdated => 1207848618
-	},
-
-};
+  'not running' => {
+    'lastUpdated' => 1207848352,
+    'message' => 'Spectre no se est&aacute; ejecutando.'
+  },
+  'workflow status error' => {
+    'lastUpdated' => 1207848472,
+    'message' => 'Spectre se est&aacute; ejecutando, pero hubo un error consiguiendo el estado del flujo de trabajo.'
+  },
+  'cron status error' => {
+    'lastUpdated' => 1207848578,
+    'message' => 'Spectre se est&aacute; ejecutando, pero hubo un error consiguiendo el estado del cron.'
+  },
+  'running' => {
+    'lastUpdated' => 1216248435,
+    'message' => 'Spectre est&aacute; corriendo.'
+  },
+  'assetName' => {
+    'lastUpdated' => 1207848670,
+    'message' => 'Este asunto no deber&iacute;a ...?'
+  },
+  'workflow header' => {
+    'lastUpdated' => 1207848503,
+    'message' => 'Hay %d flujos de trabajo.'
+  },
+  'spectre' => {
+    'lastUpdated' => 1207848377,
+    'message' => 'Spectre'
+  },
+  'cron header' => {
+    'lastUpdated' => 1207848618,
+    'message' => 'Hay %d tareas programadas'
+  }
+}
+;
 
 1;
