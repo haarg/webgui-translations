@@ -133,21 +133,21 @@ our $I18N = {
     'lastUpdated' => 1216069527,
     'message' => 'Un &iacute;cono y una URL asociada para editar este registro.'
   },
-  'back.url' => {
-    'lastUpdated' => 1216055135,
-    'message' => 'Una URL que le llevar&aacute; de vuelta a la p&aacute;gina por defecto en el formulario.'
-  },
   'record.edit.url' => {
     'lastUpdated' => 1216069541,
     'message' => 'La URL para editar este registro.'
   },
-  'acknowlegementTemplateId' => {
-    'lastUpdated' => 1216062447,
-    'message' => '<div id="result_box" dir="ltr">El ID de la plantilla para mostrar el agradecimiento al usuario despu&eacute;s de que ha enviado los datos al Formulario de Datos.</div>'
+  'back.url' => {
+    'lastUpdated' => 1216055135,
+    'message' => 'Una URL que le llevar&aacute; de vuelta a la p&aacute;gina por defecto en el formulario.'
   },
   '29' => {
     'lastUpdated' => 1216051909,
     'message' => 'es requerido'
+  },
+  'acknowlegementTemplateId' => {
+    'lastUpdated' => 1216062447,
+    'message' => '<div id="result_box" dir="ltr">El ID de la plantilla para mostrar el agradecimiento al usuario despu&eacute;s de que ha enviado los datos al Formulario de Datos.</div>'
   },
   '80 description' => {
     'lastUpdated' => 1216054216,
@@ -366,8 +366,10 @@ our $I18N = {
     'message' => 'Un bucle que contiene los registros de las entradas de este formulario de datos.'
   },
   'record.submissionDate.human' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1216503970,
+    'message' => "registro. fecha de presentaci\x{f3}n. humano
+
+un sello (humano) de fecha legible, basado en las preferencias del usuario, para este registro de entrada."
   },
   'editField vertical label' => {
     'lastUpdated' => 1216063188,
@@ -686,8 +688,10 @@ our $I18N = {
     'message' => 'Esta variable de plantilla es verdadera cuanto el usuario actual tiene permiso para ver la lista de entradas enviadas del Formulario de Datos.'
   },
   'record.submissionDate.epoch' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1216503663,
+    'message' => 'registro. Fecha de presentación. Época
+
+La fecha de la época para este sello de entrada de registro.'
   },
   'template captcha label' => {
     'lastUpdated' => 1216072675,

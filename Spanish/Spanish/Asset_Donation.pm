@@ -17,37 +17,41 @@ our $I18N = {
     'lastUpdated' => 1215806499,
     'message' => 'Plantilla de Donaci&oacute;n'
   },
-  'assetName' => {
-    'lastUpdated' => 1215807026,
-    'message' => 'Donaci&oacute;n'
-  },
   'donation template help' => {
     'lastUpdated' => 1215806382,
     'message' => 'Plantilla de Donaci&oacute;n'
+  },
+  'assetName' => {
+    'lastUpdated' => 1215807026,
+    'message' => 'Donaci&oacute;n'
   },
   'default thank you message' => {
     'lastUpdated' => 1215806904,
     'message' => 'racias por su amable donaci&oacute;n.'
   },
-  'donate template help' => {
-    'lastUpdated' => 1215806474,
-    'message' => 'Elija una plantilla que ser&iacute;a usada para mostrar la donaci&oacute;n.'
-  },
   'thank you message' => {
     'lastUpdated' => 1215804094,
     'message' => 'Mensaje de Agradecimiento'
+  },
+  'donate template help' => {
+    'lastUpdated' => 1215806474,
+    'message' => 'Elija una plantilla que ser&iacute;a usada para mostrar la donaci&oacute;n.'
   },
   'formFooter' => {
     'lastUpdated' => 1215806365,
     'message' => 'La parte inferior del formulario de donaci&oacute;n.'
   },
-  'thank you message help' => {
-    'lastUpdated' => 1215804193,
-    'message' => 'Escriba un mensaje de gracias a su usuario por la donaci&oacute;n. Sea sincero. Recuerde que acaba de poner la donaci&oacute;n en el carro en este momento, no han comprobado a&uacute;n.'
+  'continueShoppingUrl' => {
+    'lastUpdated' => 1216504427,
+    'message' => 'Una URL para restablecer el producto a fin de que el usuario pueda seguir comprando.'
   },
   'hasAddedToCart' => {
     'lastUpdated' => 1215806310,
     'message' => 'Un condicional indicando que el usuario ha adicionado la donaci&oacute;n a su carro, entonces nosotros podemos mostrar el mensaje de agradecimiento.'
+  },
+  'thank you message help' => {
+    'lastUpdated' => 1215804193,
+    'message' => 'Escriba un mensaje de gracias a su usuario por la donaci&oacute;n. Sea sincero. Recuerde que acaba de poner la donaci&oacute;n en el carro en este momento, no han comprobado a&uacute;n.'
   },
   'donate button' => {
     'lastUpdated' => 1215806586,

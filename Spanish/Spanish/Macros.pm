@@ -1,57 +1,47 @@
 package WebGUI::i18n::Spanish::Macros;
 use utf8;
-
 our $I18N = {
-	'macro disabled' => {
-		message => q|madro deshabilitada|,
-		lastUpdated => 1199911995
-	},
-
-	'macros list body' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'macro enabled' => {
-		message => q|macro habilitada|,
-		lastUpdated => 1199911983
-	},
-
-	'macro shortcut' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'macro enabled header' => {
-		message => q|Habilitar Macro?|,
-		lastUpdated => 1207257545
-	},
-
-	'topicName' => {
-		message => q|Macros|,
-		lastUpdated => 1207257695
-	},
-
-	'macro name' => {
-		message => q|nombre de macro|,
-		lastUpdated => 1199911940
-	},
-
-	'macros list title' => {
-		message => q|Macros, Lista de disponibles|,
-		lastUpdated => 1207257667
-	},
-
-	'macros using body' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'macros using title' => {
-		message => q|Macros, Usando|,
-		lastUpdated => 1207257814
-	},
-
-};
+  'topicName' => {
+    'lastUpdated' => 1207257695,
+    'message' => 'Macros'
+  },
+  'macro enabled header' => {
+    'lastUpdated' => 1207257545,
+    'message' => 'Habilitar Macro?'
+  },
+  'macros list body' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'macro disabled' => {
+    'lastUpdated' => 1216472684,
+    'message' => 'macro deshabilitada'
+  },
+  'macro name' => {
+    'lastUpdated' => 1199911940,
+    'message' => 'nombre de macro'
+  },
+  'macro shortcut' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'macro enabled' => {
+    'lastUpdated' => 1199911983,
+    'message' => 'macro habilitada'
+  },
+  'macros list title' => {
+    'lastUpdated' => 1207257667,
+    'message' => 'Macros, Lista de disponibles'
+  },
+  'macros using body' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'macros using title' => {
+    'lastUpdated' => 1207257814,
+    'message' => 'Macros, Usando'
+  }
+}
+;
 
 1;

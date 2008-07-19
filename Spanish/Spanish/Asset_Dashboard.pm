@@ -34,8 +34,10 @@ our $I18N = {
     'message' => '<div id="result_box" dir="ltr">Cual grupo puede administrar este Panel: Agregar/Editar/Eliminar Elementos Disponibles, Preferencias y Plantillas</div>'
   },
   'dashboard template description' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1216503425,
+    'message' => "tablero de plantilla de descripci\x{f3}n
+
+Elige un tablero de instrumentos/portal de dise\x{f1}o de plantilla. El valor por defecto es el dise\x{f1}o de tres columnas."
   }
 }
 ;

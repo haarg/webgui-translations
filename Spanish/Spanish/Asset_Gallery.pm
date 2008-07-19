@@ -1,11 +1,11 @@
 package WebGUI::i18n::Spanish::Asset_Gallery;
 use utf8;
 our $I18N = {
-  'viewDefault option album' => {
+  'imageResolutions description' => {
     'lastUpdated' => undef,
     'message' => ''
   },
-  'imageResolutions description' => {
+  'viewDefault option album' => {
     'lastUpdated' => undef,
     'message' => ''
   },
@@ -166,8 +166,8 @@ our $I18N = {
     'message' => ''
   },
   'help search title' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1216473176,
+    'message' => 'Variables de resultados de la busceda en la Galeria'
   },
   'search class photo' => {
     'lastUpdated' => 1216074769,
@@ -529,11 +529,11 @@ our $I18N = {
     'lastUpdated' => undef,
     'message' => ''
   },
-  'templateIdMakeShortcut label' => {
+  'templateIdListAlbumsRss label' => {
     'lastUpdated' => undef,
     'message' => ''
   },
-  'templateIdListAlbumsRss label' => {
+  'templateIdMakeShortcut label' => {
     'lastUpdated' => undef,
     'message' => ''
   }

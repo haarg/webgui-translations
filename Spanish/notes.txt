@@ -62,35 +62,14 @@ Equipo de traduccion VCB:
 
     Camilo Soler
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 http://www.vcb.com.co -- soporte@vcb.com.co
 
+Colaboracion en Traduccion
+    
+    Juan Manuel Mesa (over3000)
+    Juan Megias (algolius)
 
-
-
-
-
+Usuarios WebGUI de Venezuela
 
 
 

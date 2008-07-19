@@ -1,13 +1,17 @@
 package WebGUI::i18n::Spanish::PayDriver_Cash;
 use utf8;
 our $I18N = {
-  'country' => {
-    'lastUpdated' => 1216247161,
-    'message' => 'Pa&iacute;s'
+  'cardNumber' => {
+    'lastUpdated' => 1216472728,
+    'message' => 'Numero de tarjeta de credito'
   },
   'firstName' => {
     'lastUpdated' => 1216247207,
     'message' => 'Primer nombre'
+  },
+  'country' => {
+    'lastUpdated' => 1216247161,
+    'message' => 'Pa&iacute;s'
   },
   'phone' => {
     'lastUpdated' => 1216247172,

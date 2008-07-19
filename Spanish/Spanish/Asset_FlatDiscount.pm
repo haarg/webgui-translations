@@ -13,6 +13,10 @@ our $I18N = {
     'lastUpdated' => 1215807840,
     'message' => 'Cup&oacute;n de descuento.'
   },
+  'continueShoppingUrl' => {
+    'lastUpdated' => 1216473082,
+    'message' => 'URL para eliminar el producto para que el cliente puede terminar sus compras.'
+  },
   'alreadyHasCoupon' => {
     'lastUpdated' => 1215807721,
     'message' => 'Un condicional que indica que el usuario ya dispone de este cup&oacute;n en su carrito.'
