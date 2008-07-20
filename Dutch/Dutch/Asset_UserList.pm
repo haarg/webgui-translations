@@ -62,16 +62,16 @@ our $I18N = {
     'message' => 'Het aantal gebruikers per pagina'
   },
   'profileField_sortByURL' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1215615583,
+    'message' => 'Het URL waar de gebuikerslijst op dit profielveld worden gesorteerd. De standaard volgorde is stijgend. Na het klikken op de &quot;sorteren op&quot; link voor een profielveld, wordt de sorteer volgorde omgedraaid.'
   },
   'searchFormTypeAnd' => {
     'lastUpdated' => 1214555170,
     'message' => 'Een verborgen formulier element dat het zoektype op &quot;en&quot; zet.'
   },
   'alphabetSearch_loop_label' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1215614155,
+    'message' => 'Het label voor deze alfabetische zoekopdracht. Meestal een letter van het alfabet.'
   },
   'user_profile_PROFILEFIELDNAME_value' => {
     'lastUpdated' => 1215175517,
@@ -86,8 +86,8 @@ our $I18N = {
     'message' => 'De gebruikersidentificatie van de gebruiker'
   },
   'profileField_PROFILEFIELDNAME_sortByURL' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1215617469,
+    'message' => 'Het URL voor het sorteren van een gebruikerslijst op PROFIELVELDNAAM. Voorbeeld: &lt;tmpl_var profileField_lastName_sortByURL&gt;. Deze tmpl_var bestaat buiten de functie profileField_loop. De standaard volgorde is stijgend. Na het klikken op de &quot;sorteren op&quot; link wordt de sorteervolgorde omgedraaid.'
   },
   'showGroupId' => {
     'lastUpdated' => 1214554324,
@@ -98,8 +98,8 @@ our $I18N = {
     'message' => 'Zoeken'
   },
   'alphabetSearch_loop_hasResults' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1215607543,
+    'message' => 'Een functie die aangeeft of er resultaten gevonden zijn voor deze alfabetische zoekopdracht.'
   },
   'search_PROFILEFIELDNAME_text' => {
     'lastUpdated' => 1215181403,
@@ -122,8 +122,8 @@ our $I18N = {
     'message' => 'template Gebruikerslijst'
   },
   'alphabetSearchField description' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1215607377,
+    'message' => 'Selecteer het profielveld waarop het alfabetich zoeken wordt toegepast.'
   },
   'showOnlyVisibleAsNamed' => {
     'lastUpdated' => 1214554935,
@@ -138,8 +138,8 @@ our $I18N = {
     'message' => 'Een selectielijst waar de gebruiker het zoektype kan kiezen.'
   },
   'profileField_loop' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1215615448,
+    'message' => 'Een functie die profiel velden bevat.'
   },
   'template description' => {
     'lastUpdated' => 1214555620,
@@ -166,16 +166,16 @@ our $I18N = {
     'message' => 'Zoekopdracht'
   },
   'searchFormQuery_form' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1215615763,
+    'message' => 'Eeen tekst invoer voor de zoekopdracht.'
   },
   'Group to show label' => {
     'lastUpdated' => 1213707613,
     'message' => 'Te tonen groep'
   },
   'searchExact_PROFILEFIELDNAME_form' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1215615871,
+    'message' => 'Het formulier element dat verbonden is aan dit veld en een exacte zoekopdracht in een profielveld uitvoert. Voorbeeld: &lt;tmpl_var searchExact_email_form&gt;.'
   },
   'id label' => {
     'lastUpdated' => 1213627362,
@@ -214,8 +214,8 @@ our $I18N = {
     'message' => 'Stijgend'
   },
   'profile_emailNotPublic' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1215615646,
+    'message' => 'Een functie die aangeeft dat het e-mail adres van de gebruiker niet publiek toegankelijk is. Het kan alleen &quot;waar&quot; zijn voor het e-mail profielveld.'
   },
   'limitSearch' => {
     'lastUpdated' => 1214554469,
@@ -234,12 +234,12 @@ our $I18N = {
     'message' => 'Een verborgen formulier element dat het zoektype op &quot;of&quot; zet.'
   },
   'hideGroupId' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1215615411,
+    'message' => 'Gebruikers in deze groep worden verborgen.'
   },
   'alphabetSearch_loop_searchURL' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1215615370,
+    'message' => 'Het URL voor het alfabetisch doorzoeken van deze zoekopdracht.'
   },
   'username label' => {
     'lastUpdated' => 1213627453,
@@ -254,8 +254,8 @@ our $I18N = {
     'message' => 'Geen gebruikers gevonden'
   },
   'profileField_PROFILEFIELDNAME_label' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1215616174,
+    'message' => 'Het label van het profielveld met de veldnaam PROFIELVELDNAAM. Voorbeeld: &lt;tmpl_var profileField_lastName_label&gt;. Deze tmpl_var bestaat buiten de functie profileField_loop.'
   },
   'user_profile_emailNotPublic' => {
     'lastUpdated' => 1215182343,
@@ -266,20 +266,20 @@ our $I18N = {
     'message' => 'Standaard worden alle gebruikers in een gesorteerde volgorde getoond. Kies hier waarop gesorteerd moet worden.'
   },
   'numberOfProfileFields' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1215615949,
+    'message' => 'Het aantal profielvelden.'
   },
   'Group to hide label' => {
     'lastUpdated' => 1213626968,
     'message' => 'Te verbergen groep'
   },
   'alphabetSearch_loop' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1215607474,
+    'message' => 'Een functie die de elementen bevat waarmee een alfabetische zoekopdracht gemaakt kan worden.'
   },
   'profileField_label' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1215615428,
+    'message' => 'Het label voor dit profielveld'
   },
   'templateId' => {
     'lastUpdated' => 1214555343,
@@ -290,36 +290,36 @@ our $I18N = {
     'message' => 'Alleen gebruikers in deze groep worden getoond in de gebruikerslijst. De standaard waarde is &quot;Iedereen&quot;.'
   },
   'searchFormHeader' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1215615742,
+    'message' => 'De tag voor de bovenkant van het zoekformulier.'
   },
   'overridePublicEmail description' => {
     'lastUpdated' => undef,
     'message' => ''
   },
   'alphabetSearchField label' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1215607428,
+    'message' => 'Veld alfabetisch zoeken'
   },
   'includeInSearch_PROFILEFIELDNAME_checkBox' => {
     'lastUpdated' => undef,
     'message' => ''
   },
   'searchExact_PROFILEFIELDNAME_text' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1215615935,
+    'message' => 'Een tekst invoer voor het doen van een exacte zoekopdracht in een profielveld. Voorbeeld: &lt;tmpl_var searchExact_email_text&gt;.'
   },
   'Email not public message' => {
     'lastUpdated' => 1213626904,
     'message' => 'Email adres niet publiek toegankelijk'
   },
   'searchFormFooter' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1215615704,
+    'message' => 'De tag voor de onderkant van het zoekformulier.'
   },
   'alphabet description' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1215607324,
+    'message' => 'Het alfabet dat wordt gebruikt voor het alfabetisch zoeken. Dit is een rij van waarden, die door komma\'s gescheiden worden.'
   }
 }
 ;

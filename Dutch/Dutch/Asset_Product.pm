@@ -34,8 +34,8 @@ our $I18N = {
     'message' => 'Andere producten'
   },
   'specification_label' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1215516801,
+    'message' => 'Het label voor deze specificatie, bijvoorbeeld hoogte.'
   },
   'hasAddedToCart' => {
     'lastUpdated' => 1213716061,
@@ -190,8 +190,8 @@ our $I18N = {
     'message' => 'De unieke identificatie (ID) van het storage object van de tweede afbeelding die aan dit product is toegevoegd.'
   },
   'thank you message help' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1215516708,
+    'message' => 'Hier kan een bericht geschreven worden waarin de gebruiker bedankt wordt voor het kopen van een product op de site. Gebruikers kunnen hier nog steeds hun aankoop annuleren.'
   },
   'addRelatedProduct_label' => {
     'lastUpdated' => 1213973683,
@@ -250,8 +250,8 @@ our $I18N = {
     'message' => 'U kunt een nieuw voordeel invoeren, of kiezen uit welke u al heeft toegevoegd. '
   },
   'variant sku' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1215592405,
+    'message' => 'SKU'
   },
   '14' => {
     'lastUpdated' => 1152885952,
@@ -282,8 +282,8 @@ our $I18N = {
     'message' => 'Kies &#39;ja&#39; als u een andere accessoire wilt toevoegen.'
   },
   'shortdesc description' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1216587115,
+    'message' => 'De korte beschrijving wordt getoond aan de gebruiker, zodat deze deze variant van het product kan aanschaffen. De lengte is beperkt tot 30 karakters.'
   },
   '23' => {
     'lastUpdated' => 1152899662,
@@ -310,8 +310,8 @@ our $I18N = {
     'message' => 'Verwijder bijgesloten bestand'
   },
   'thank you message' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1215516516,
+    'message' => 'Bedankbericht'
   },
   '8' => {
     'lastUpdated' => 1153235011,
@@ -338,8 +338,8 @@ our $I18N = {
     'message' => 'Een ander verwant product toevoegen?'
   },
   'specs' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1215592517,
+    'message' => 'Details'
   },
   'manual' => {
     'lastUpdated' => 1189367295,
@@ -410,12 +410,12 @@ our $I18N = {
     'message' => 'Opties'
   },
   'variant sku description' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1215592485,
+    'message' => 'Een unieke identificatie van deze variant van het product. Als deze gelijk is aan de identificatie van de voorraad software, kunnen deze gesynchroniseerd worden.'
   },
   'variant_sku' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1215592501,
+    'message' => 'De SKU van deze variant.'
   },
   'brochure_icon' => {
     'lastUpdated' => 1215445408,
@@ -438,8 +438,8 @@ our $I18N = {
     'message' => 'De prijs van deze variant'
   },
   'relatedproduct_loop' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1215531203,
+    'message' => 'Deze functie doorloopt alle producten die aan dit product verwant zijn.'
   },
   'addvariant_label' => {
     'lastUpdated' => 1215445353,
@@ -478,8 +478,8 @@ our $I18N = {
     'message' => 'De hoeveelheid van deze variant'
   },
   'relatedproduct_controls' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1215531171,
+    'message' => 'De WebGUI beheerknoppen voor dit gerelateerde product.'
   },
   '56' => {
     'lastUpdated' => 1153234299,
@@ -494,8 +494,8 @@ our $I18N = {
     'message' => 'Voordelen'
   },
   'relatedproduct_url' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1215531304,
+    'message' => 'Het URL naar het gerelateerde product.'
   },
   'assetName' => {
     'lastUpdated' => 1153237850,
@@ -534,24 +534,24 @@ our $I18N = {
     'message' => 'U kunt een nieuwe eigenschap invoeren, of kiezen uit een lijst voor een ander product in het systeem'
   },
   'default thank you message' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1215516501,
+    'message' => 'U wordt bedankt voor uw aankoop.'
   },
   '59' => {
     'lastUpdated' => 1153234413,
     'message' => 'Naam'
   },
   'specification_units' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1215516742,
+    'message' => 'De eenheden van de specificaties, bijvoorbeeld meters.'
   },
   'specification_controls' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1215531329,
+    'message' => 'De WebGUI beheerknoppen voor deze specificatie.'
   },
   'specification_specification' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1215516761,
+    'message' => 'De tekst van de specificatie zelf.'
   },
   'in_stock' => {
     'lastUpdated' => 1213711945,
@@ -566,8 +566,8 @@ our $I18N = {
     'message' => 'Het URL naar de bijbehorende accessoire'
   },
   'relatedproduct_title' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1215531219,
+    'message' => 'De titel van het verwante product.'
   },
   '53' => {
     'lastUpdated' => 1153234246,
@@ -596,6 +596,10 @@ our $I18N = {
   'cache timeout' => {
     'lastUpdated' => 1153238847,
     'message' => 'Cache time-out'
+  },
+  'continueShoppingUrl' => {
+    'lastUpdated' => 1216586127,
+    'message' => 'Een URL waar de gebruiker verder kan gaan met winkelen.'
   },
   '13' => {
     'lastUpdated' => 1152885918,

@@ -13,6 +13,10 @@ our $I18N = {
     'lastUpdated' => 1213972740,
     'message' => 'Kortingsbon voor een vast bedrag'
   },
+  'continueShoppingUrl' => {
+    'lastUpdated' => 1216586086,
+    'message' => 'Eeen URL waar de gebruiker verder kan gaan met winkelen.'
+  },
   'alreadyHasCoupon' => {
     'lastUpdated' => 1215444485,
     'message' => 'Een functie die aangeeft dat de gebruiker deze kortingsbon al in de winkelwagen heeft.'

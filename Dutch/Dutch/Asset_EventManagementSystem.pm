@@ -45,6 +45,10 @@ our $I18N = {
     'lastUpdated' => 1208521875,
     'message' => '<div class="&quot;&quot;helpIndent&quot;&quot;"><p>Een code voor een taakbalk met iconen voor verwijderen, bewerken en herrangschikken van evenementen. </p></div>'
   },
+  'phoneNumber' => {
+    'lastUpdated' => 1216587212,
+    'message' => 'Het telefoonnummer van de eigenaar van het naamplaatje.'
+  },
   'default badge instructions' => {
     'lastUpdated' => 1214560389,
     'message' => 'Er is een naamplaatje nodig om deze bijeenklomst te bezoeken. Kies een naamplaatje dat voldoet aan de eisen en budget.'
@@ -125,21 +129,21 @@ our $I18N = {
     'lastUpdated' => 1149861029,
     'message' => '<p>Een internationaal label waarmee dit scherm wordt aangeduid. </p>'
   },
-  'meta fields' => {
-    'lastUpdated' => 1215428308,
-    'message' => 'Meta velden'
-  },
   'cancel registration' => {
     'lastUpdated' => 1166194153,
     'message' => 'Registratie annuleren'
   },
-  'seats.label' => {
-    'lastUpdated' => 1149862114,
-    'message' => '<p>Het label &quot;Plaatsen&quot;. </p>'
+  'meta fields' => {
+    'lastUpdated' => 1215428308,
+    'message' => 'Meta velden'
   },
   'isAdvSearch' => {
     'lastUpdated' => 1149861289,
     'message' => '<p>Een functie die aangeeft of een geavanceerd zoekformulier is opgevraagd. </p>'
+  },
+  'seats.label' => {
+    'lastUpdated' => 1149862114,
+    'message' => '<p>Het label &quot;Plaatsen&quot;. </p>'
   },
   'tickets' => {
     'lastUpdated' => 1213703516,
@@ -728,6 +732,10 @@ our $I18N = {
   'discount pass type' => {
     'lastUpdated' => 1148297045,
     'message' => 'Type kortingspas'
+  },
+  'name' => {
+    'lastUpdated' => 1216587185,
+    'message' => 'De naam van de gebruiker met het naamplaatje'
   },
   'first name' => {
     'lastUpdated' => 1148303048,
