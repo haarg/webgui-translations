@@ -1,228 +1,235 @@
 package WebGUI::i18n::German::WebGUIProfile;
 use utf8;
-
-
 our $I18N = {
-	'470' => {
-		message => q|Name der Kategorie|,
-		lastUpdated => 1178626334
-	},
-
-	'897a description' => {
-		message => q|Soll dieses Feld von Benutzern editiert werden d&uuml;rfen?|,
-		lastUpdated => 1178268666
-	},
-
-	'897a' => {
-		message => q|Editierbar?|,
-		lastUpdated => 1168591164
-	},
-
-	'requiredForPasswordRecovery hoverHelp' => {
-		message => q|Benutzer m&uuml;ssen dieses Feld ausf&uuml;llen, um eine Passwort Wiederherstellung durchf&uuml;hren zu k&ouml;nnen. Nur Benutzer, die all diese Felder korrekt und eindeutig ausf&uuml;llen sind in der Lage eine Passwort Wiederherstellung durchzuf&uuml;hren. |,
-		lastUpdated => 1178268962
-	},
-
-	'473 description' => {
-		message => q|Soll diese Kategorie f&uuml;r den Benutzer sichtbar sein?<br />|,
-		lastUpdated => 1178202478
-	},
-
-	'489' => {
-		message => q|Profilkategorie|,
-		lastUpdated => 1178266296
-	},
-
-	'469' => {
-		message => q|Id|,
-		lastUpdated => 1178202262
-	},
-
-	'requiredForPasswordRecovery label' => {
-		message => q|Erforderlich f&uuml;r Passwort Wiederherstellung?|,
-		lastUpdated => 1178269042
-	},
-
-	'486 description' => {
-		message => q|W&auml;hlen Sie den Typ des Formular Elements dieses Feldes. Wird genutzt, um die Eingabe des Benutzers auf G&uuml;ltigkeit zu pr&uuml;fen.<br />|,
-		lastUpdated => 1178202709
-	},
-
-	'488 description' => {
-		message => q|<p>Dieser Bereich sollte nur genutzt werden falls Sie den Bereich m&ouml;gliche Werte genutzt haben. Das bedeutet, nur nutzen in Verbindung mit:</p><p>Checkbox List<br />Combo Box<br />Hidden List<br />Radio List<br />Select Box<br />Select List<br /></p><p>Keines der anderen Profil Felder sollte das Standard Werte Feld benutzen, da sie ignoriert werden. Wenn Sie Standard Werte eingeben, so m&uuml;ssen diese direkt eines oder mehrer ihrer m&ouml;glichen Werte Schl&uuml;ssel referenzieren, wie im folgenden dargestellt:</p><p>[&quot;Schl&uuml;ssel1&quot;,&quot;Schl&uuml;ssel2&quot;,...]&nbsp;</p><p>Eckige Klammern, Anf&uuml;hrungszeichen und der Rest wie im Beispile.</p><p>Wenn Sie einen Standard Wert f&uuml;r eine beliebiges anderes Feld setzen wollen, m&uuml;ssen Sie wie folgt vorgehen. Erzeugen Sie das Feld ohne diesen Bereich zu setzen, gehen Sie zum Visitor Profil und speichern Sie den Wert den Sie als Standard Wert f&uuml;r das neue Feld haben wollen. Danach wird f&uuml;r jeden neuen Benutzer dieses Standard Feld gesetzt.&nbsp;</p>|,
-		lastUpdated => 1178266284
-	},
-
-	'user profiling' => {
-		message => q|Benutzerprofile|,
-		lastUpdated => 1178269332
-	},
-
-	'788' => {
-		message => q|Dieses Profilfeld l&ouml;schen.|,
-		lastUpdated => 1178626411
-	},
-
-	'787' => {
-		message => q|Dieses Profilfeld bearbeiten.|,
-		lastUpdated => 1168591139
-	},
-
-	'790' => {
-		message => q|Diese Profilkategorie löschen.|,
-		lastUpdated => 1168591153
-	},
-
-	'466' => {
-		message => q|Sind Sie sicher, dass Sie diese Kategorie l&ouml;schen und alle seine Felder in die Kategorie Sonstige verschieben wollen.<br /> |,
-		lastUpdated => 1178202137
-	},
-
-	'488' => {
-		message => q|Standard Wert(e)|,
-		lastUpdated => 1178626364
-	},
-
-	'474 description' => {
-		message => q|Soll der Benuzter dieses Feld ausf&uuml;llen m&uuml;ssen?|,
-		lastUpdated => 1178202566
-	},
-
-	'471' => {
-		message => q|Userprofil Feld bearbeiten|,
-		lastUpdated => 1168591075
-	},
-
-	'473a description' => {
-		message => q|Soll dieses Feld f&uuml;r den Benutzer sichtbar sein?<br />|,
-		lastUpdated => 1178202509
-	},
-
-	'489 description' => {
-		message => q|W&auml;hlen Sie eine Kategorie in der dieses Feld platziert werden soll.<br />|,
-		lastUpdated => 1178266353
-	},
-
-	'789' => {
-		message => q|Diese Profilkategorie bearbeiten. |,
-		lastUpdated => 1178268412
-	},
-
-	'490' => {
-		message => q|Profilkategorie hinzuf&uuml;gen.|,
-		lastUpdated => 1178626373
-	},
-
-	'897 description' => {
-		message => q|Soll diese Kategorie von Benutzern editiert werden d&uuml;rfen?<br />|,
-		lastUpdated => 1178268646
-	},
-
-	'showAtRegistration label' => {
-		message => q|Bei Registrierung anzeigen?|,
-		lastUpdated => 1178626421
-	},
-
-	'492' => {
-		message => q|Liste der Profilfelder.|,
-		lastUpdated => 1178626389
-	},
-
-	'475' => {
-		message => q|Feldname|,
-		lastUpdated => 1178202576
-	},
-
-	'491' => {
-		message => q|Profilfeld hinzuf&uuml;gen.|,
-		lastUpdated => 1178626380
-	},
-
-	'475 description' => {
-		message => q|Name des Feldes; wird intern von der Datenbank benutzt. |,
-		lastUpdated => 1178202602
-	},
-
-	'topicName' => {
-		message => q|Nutzerprofil|,
-		lastUpdated => 1157856186
-	},
-
-	'467' => {
-		message => q|Sind Sie sicher, dass Sie dieses Feld und alle darauf bezogenen Benutzerdaten l&ouml;schen m&ouml;chten? |,
-		lastUpdated => 1178202198
-	},
-
-	'487 description' => {
-		message => q|<p>Dieser Bereich sollte nur mit den folgenden Formular Felder genutzt werden:</p><p>Checkbox List<br />Combo Box<br />Hidden List<br />Radio List <br />Select Box<br />Select List<br /></p><p>Keines der anderen Profil Felder sollte die m&ouml;glichen Werte Felder benutzen, da sie ignoriert werden. Wenn Sie eine m&ouml;gliche Werte Liste eingeben, muss diese wie folgt formatiert werden:</p><p>{<br />&nbsp; &quot;Schl&uuml;ssel1&quot;=&gt;&quot;Wert1&quot;,<br />&nbsp; &quot;Schl&uuml;ssel2&quot;=&gt;&quot;Wert2&quot;,<br />&nbsp; &quot;Schl&uuml;ssel3&quot;=&gt;&quot;Wert3&quot;,<br />&nbsp; ...<br />}</p><p>Geschweifte Klammern, Anf&uuml;hrungszeichen und der Rest wie im Beispiel. Sie m&uuml;ssen einfach nur das Schl&uuml;ssel/Wert Paar mit ihren eigenen Werten ersetzen.&nbsp;</p>|,
-		lastUpdated => 1178265756
-	},
-
-	'474' => {
-		message => q|Erforderlich?|,
-		lastUpdated => 1178202536
-	},
-
-	'487' => {
-		message => q|M&ouml;gliche Werte|,
-		lastUpdated => 1178626357
-	},
-
-	'473' => {
-		message => q|Sichtbar?|,
-		lastUpdated => 1168591115
-	},
-
-	'showAtRegistration hoverHelp' => {
-		message => q|Dieses Feld bei Registrierung eines Benutzers anzeigen. Das Feld muss nicht unbedingt ausgef&uuml;hrt werden ausser Erforderlich ist zus&auml;tzlich gesetzt. |,
-		lastUpdated => 1178269207
-	},
-
-	'486' => {
-		message => q|Datentyp|,
-		lastUpdated => 1178202615
-	},
-
-	'forceImageOnly label' => {
-		message => q|Erlaube nur Upload von Bildern|,
-		lastUpdated => 1178268861
-	},
-
-	'forceImageOnly hoverHelp' => {
-		message => q|Falls auf Ja gesetzt, so k&ouml;nnen durch dieses Formular nur Bilder hochgeladen werden. |,
-		lastUpdated => 1178268840
-	},
-
-	'472' => {
-		message => q|Beschriftung|,
-		lastUpdated => 1168591106
-	},
-
-	'897' => {
-		message => q|Editierbar?|,
-		lastUpdated => 1178268556
-	},
-
-	'472 description' => {
-		message => q|Ein kurzes beschreibendes Label, das dem Benutzer pr&auml;sentiert wird. Dies kann ein Aufruf des WebGUI Internationalisierungssystems sein, falls Labels lokalisiert werden sollen. |,
-		lastUpdated => 1178202456
-	},
-
-	'470 description' => {
-		message => q|Der Name dieser Kategorie.|,
-		lastUpdated => 1178626349
-	},
-
-	'473a' => {
-		message => q|Sichtbar?|,
-		lastUpdated => 1178202490
-	},
-
-	'forceImageOnly description' => {
-		message => q|Falls ihr Profil Feld den Upload eines Bildes voraussetzt, wird ein zus&auml;tzliches Feld angeboten, das nur den Upload von Bildern erlaubt. |,
-		lastUpdated => 1178268776
-	},
-
-};
+  'displayTitle' => {
+    'lastUpdated' => 1216637456,
+    'message' => 'Ein internationalisierter Titel, der den Namen des Benutzers enth&auml;lt.'
+  },
+  'requiredForPasswordRecovery hoverHelp' => {
+    'lastUpdated' => 1178268962,
+    'message' => 'Benutzer m&uuml;ssen dieses Feld ausf&uuml;llen, um eine Passwort Wiederherstellung durchf&uuml;hren zu k&ouml;nnen. Nur Benutzer, die all diese Felder korrekt und eindeutig ausf&uuml;llen sind in der Lage eine Passwort Wiederherstellung durchzuf&uuml;hren. '
+  },
+  '897a' => {
+    'lastUpdated' => 1168591164,
+    'message' => 'Editierbar?'
+  },
+  '897a description' => {
+    'lastUpdated' => 1178268666,
+    'message' => 'Soll dieses Feld von Benutzern editiert werden d&uuml;rfen?'
+  },
+  '470' => {
+    'lastUpdated' => 1178626334,
+    'message' => 'Name der Kategorie'
+  },
+  '473 description' => {
+    'lastUpdated' => 1178202478,
+    'message' => 'Soll diese Kategorie f&uuml;r den Benutzer sichtbar sein?<br />'
+  },
+  '489' => {
+    'lastUpdated' => 1178266296,
+    'message' => 'Profilkategorie'
+  },
+  'requiredForPasswordRecovery label' => {
+    'lastUpdated' => 1178269042,
+    'message' => 'Erforderlich f&uuml;r Passwort Wiederherstellung?'
+  },
+  '469' => {
+    'lastUpdated' => 1178202262,
+    'message' => 'Id'
+  },
+  '488 description' => {
+    'lastUpdated' => 1178266284,
+    'message' => '<p>Dieser Bereich sollte nur genutzt werden falls Sie den Bereich m&ouml;gliche Werte genutzt haben. Das bedeutet, nur nutzen in Verbindung mit:</p><p>Checkbox List<br />Combo Box<br />Hidden List<br />Radio List<br />Select Box<br />Select List<br /></p><p>Keines der anderen Profil Felder sollte das Standard Werte Feld benutzen, da sie ignoriert werden. Wenn Sie Standard Werte eingeben, so m&uuml;ssen diese direkt eines oder mehrer ihrer m&ouml;glichen Werte Schl&uuml;ssel referenzieren, wie im folgenden dargestellt:</p><p>[&quot;Schl&uuml;ssel1&quot;,&quot;Schl&uuml;ssel2&quot;,...]&nbsp;</p><p>Eckige Klammern, Anf&uuml;hrungszeichen und der Rest wie im Beispile.</p><p>Wenn Sie einen Standard Wert f&uuml;r eine beliebiges anderes Feld setzen wollen, m&uuml;ssen Sie wie folgt vorgehen. Erzeugen Sie das Feld ohne diesen Bereich zu setzen, gehen Sie zum Visitor Profil und speichern Sie den Wert den Sie als Standard Wert f&uuml;r das neue Feld haben wollen. Danach wird f&uuml;r jeden neuen Benutzer dieses Standard Feld gesetzt.&nbsp;</p>'
+  },
+  '486 description' => {
+    'lastUpdated' => 1178202709,
+    'message' => 'W&auml;hlen Sie den Typ des Formular Elements dieses Feldes. Wird genutzt, um die Eingabe des Benutzers auf G&uuml;ltigkeit zu pr&uuml;fen.<br />'
+  },
+  'profile.form.header' => {
+    'lastUpdated' => 1216637788,
+    'message' => 'HTML Kode, der den Anfang des Formulars beinhaltet'
+  },
+  'user profiling' => {
+    'lastUpdated' => 1178269332,
+    'message' => 'Benutzerprofile'
+  },
+  '788' => {
+    'lastUpdated' => 1178626411,
+    'message' => 'Dieses Profilfeld l&ouml;schen.'
+  },
+  '787' => {
+    'lastUpdated' => 1168591139,
+    'message' => 'Dieses Profilfeld bearbeiten.'
+  },
+  '790' => {
+    'lastUpdated' => 1168591153,
+    'message' => "Diese Profilkategorie l\x{f6}schen."
+  },
+  '466' => {
+    'lastUpdated' => 1178202137,
+    'message' => 'Sind Sie sicher, dass Sie diese Kategorie l&ouml;schen und alle seine Felder in die Kategorie Sonstige verschieben wollen.<br /> '
+  },
+  'edit profile template body' => {
+    'lastUpdated' => 1216637512,
+    'message' => 'Dieses Template bildet ein Formular f&uuml;r den Benutzer zum Bearbeiten des Benutzerprofils.'
+  },
+  '488' => {
+    'lastUpdated' => 1178626364,
+    'message' => 'Standard Wert(e)'
+  },
+  '471' => {
+    'lastUpdated' => 1168591075,
+    'message' => 'Userprofil Feld bearbeiten'
+  },
+  '474 description' => {
+    'lastUpdated' => 1178202566,
+    'message' => 'Soll der Benuzter dieses Feld ausf&uuml;llen m&uuml;ssen?'
+  },
+  'profile.label' => {
+    'lastUpdated' => 1216637872,
+    'message' => 'Beschriftung f&uuml;r dieses Profilfeld.'
+  },
+  '473a description' => {
+    'lastUpdated' => 1178202509,
+    'message' => 'Soll dieses Feld f&uuml;r den Benutzer sichtbar sein?<br />'
+  },
+  '789' => {
+    'lastUpdated' => 1178268412,
+    'message' => 'Diese Profilkategorie bearbeiten. '
+  },
+  '489 description' => {
+    'lastUpdated' => 1178266353,
+    'message' => 'W&auml;hlen Sie eine Kategorie in der dieses Feld platziert werden soll.<br />'
+  },
+  '490' => {
+    'lastUpdated' => 1178626373,
+    'message' => 'Profilkategorie hinzuf&uuml;gen.'
+  },
+  'view profile template title' => {
+    'lastUpdated' => 1216638010,
+    'message' => 'Profil Template anzeigen'
+  },
+  'profile.value' => {
+    'lastUpdated' => 1216637941,
+    'message' => 'Der Wert f&uuml;r dieses Profilfeld.'
+  },
+  '897 description' => {
+    'lastUpdated' => 1178268646,
+    'message' => 'Soll diese Kategorie von Benutzern editiert werden d&uuml;rfen?<br />'
+  },
+  'showAtRegistration label' => {
+    'lastUpdated' => 1178626421,
+    'message' => 'Bei Registrierung anzeigen?'
+  },
+  '492' => {
+    'lastUpdated' => 1178626389,
+    'message' => 'Liste der Profilfelder.'
+  },
+  'view profile template body' => {
+    'lastUpdated' => 1216637997,
+    'message' => 'Dieses Template wird benutzt, um den Benutzern Ihr Benutzerprofil zu pr&auml;sentieren.'
+  },
+  '475' => {
+    'lastUpdated' => 1178202576,
+    'message' => 'Feldname'
+  },
+  '491' => {
+    'lastUpdated' => 1178626380,
+    'message' => 'Profilfeld hinzuf&uuml;gen.'
+  },
+  'topicName' => {
+    'lastUpdated' => 1157856186,
+    'message' => 'Nutzerprofil'
+  },
+  '475 description' => {
+    'lastUpdated' => 1178202602,
+    'message' => 'Name des Feldes; wird intern von der Datenbank benutzt. '
+  },
+  '467' => {
+    'lastUpdated' => 1178202198,
+    'message' => 'Sind Sie sicher, dass Sie dieses Feld und alle darauf bezogenen Benutzerdaten l&ouml;schen m&ouml;chten? '
+  },
+  '474' => {
+    'lastUpdated' => 1178202536,
+    'message' => 'Erforderlich?'
+  },
+  '487 description' => {
+    'lastUpdated' => 1178265756,
+    'message' => '<p>Dieser Bereich sollte nur mit den folgenden Formular Felder genutzt werden:</p><p>Checkbox List<br />Combo Box<br />Hidden List<br />Radio List <br />Select Box<br />Select List<br /></p><p>Keines der anderen Profil Felder sollte die m&ouml;glichen Werte Felder benutzen, da sie ignoriert werden. Wenn Sie eine m&ouml;gliche Werte Liste eingeben, muss diese wie folgt formatiert werden:</p><p>{<br />&nbsp; &quot;Schl&uuml;ssel1&quot;=&gt;&quot;Wert1&quot;,<br />&nbsp; &quot;Schl&uuml;ssel2&quot;=&gt;&quot;Wert2&quot;,<br />&nbsp; &quot;Schl&uuml;ssel3&quot;=&gt;&quot;Wert3&quot;,<br />&nbsp; ...<br />}</p><p>Geschweifte Klammern, Anf&uuml;hrungszeichen und der Rest wie im Beispiel. Sie m&uuml;ssen einfach nur das Schl&uuml;ssel/Wert Paar mit ihren eigenen Werten ersetzen.&nbsp;</p>'
+  },
+  'profile.accountOptions' => {
+    'lastUpdated' => 1216637598,
+    'message' => 'Eine Schleife, die Auswahlm&ouml;glichkeiten f&uuml;r andere Account Aktionen enth&auml;lt, wie zum Beispiel Profil bearbeiten, Profil betrachten, Account bearbeiten und so weiter.'
+  },
+  '487' => {
+    'lastUpdated' => 1178626357,
+    'message' => 'M&ouml;gliche Werte'
+  },
+  'profile.form.hidden' => {
+    'lastUpdated' => 1216637841,
+    'message' => 'HTML Kode, der die Aktion des Formulars angibt'
+  },
+  'edit profile template title' => {
+    'lastUpdated' => 1216637526,
+    'message' => 'Profil Template bearbeiten'
+  },
+  '473' => {
+    'lastUpdated' => 1168591115,
+    'message' => 'Sichtbar?'
+  },
+  'showAtRegistration hoverHelp' => {
+    'lastUpdated' => 1178269207,
+    'message' => 'Dieses Feld bei Registrierung eines Benutzers anzeigen. Das Feld muss nicht unbedingt ausgef&uuml;hrt werden ausser Erforderlich ist zus&auml;tzlich gesetzt. '
+  },
+  '486' => {
+    'lastUpdated' => 1178202615,
+    'message' => 'Datentyp'
+  },
+  'profile.category' => {
+    'lastUpdated' => 1216637645,
+    'message' => 'Der Name der aktuellen Kategorie. Diese Variable existiert nur f&uuml;r das erste Profilfeld in jeder Kategorie.'
+  },
+  'forceImageOnly label' => {
+    'lastUpdated' => 1178268861,
+    'message' => 'Erlaube nur Upload von Bildern'
+  },
+  'profile.elements' => {
+    'lastUpdated' => 1216637733,
+    'message' => 'Eine Schleife, die alle Elemente der Profilfelder enth&auml;lt.'
+  },
+  'forceImageOnly hoverHelp' => {
+    'lastUpdated' => 1178268840,
+    'message' => 'Falls auf Ja gesetzt, so k&ouml;nnen durch dieses Formular nur Bilder hochgeladen werden. '
+  },
+  '472' => {
+    'lastUpdated' => 1168591106,
+    'message' => 'Beschriftung'
+  },
+  '897' => {
+    'lastUpdated' => 1178268556,
+    'message' => 'Editierbar?'
+  },
+  'profile.form.footer' => {
+    'lastUpdated' => 1216637772,
+    'message' => 'HTML Kode, der das Ende des Formulars beinhaltet'
+  },
+  '472 description' => {
+    'lastUpdated' => 1178202456,
+    'message' => 'Ein kurzes beschreibendes Label, das dem Benutzer pr&auml;sentiert wird. Dies kann ein Aufruf des WebGUI Internationalisierungssystems sein, falls Labels lokalisiert werden sollen. '
+  },
+  '473a' => {
+    'lastUpdated' => 1178202490,
+    'message' => 'Sichtbar?'
+  },
+  '470 description' => {
+    'lastUpdated' => 1178626349,
+    'message' => 'Der Name dieser Kategorie.'
+  },
+  'forceImageOnly description' => {
+    'lastUpdated' => 1178268776,
+    'message' => 'Falls ihr Profil Feld den Upload eines Bildes voraussetzt, wird ein zus&auml;tzliches Feld angeboten, das nur den Upload von Bildern erlaubt. '
+  }
+}
+;
 
 1;
