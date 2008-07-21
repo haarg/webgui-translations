@@ -34,12 +34,12 @@ our $I18N = {
     'message' => 'Het formulier onderdeel dat vast zit aan dit veld, voor een normale zoekopdracht in het profielveld PROFILEFIELDNAME. Voorbeeld &lt;tmpl_var search_timeZone_form&gt; zal een aanvinkvakje zijn.'
   },
   'overridePublicEmail label' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1216645189,
+    'message' => 'E-mail publieke toegangelijkheid overschrijven'
   },
   'overridePublicProfile description' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1216645229,
+    'message' => 'Wanneer dit op &quot;Ja&quot; staat, wordt de \'Maak profiel publiek toegankelijk\' instelling in de gebruikersprofiel instellingen genegeerd. De gebruikerslijst zal alle profielen tonen.<br /> '
   },
   'and label' => {
     'lastUpdated' => 1213627469,
@@ -130,8 +130,8 @@ our $I18N = {
     'message' => 'Waar of niet waar functie Wanneer het waar is worden alleen de velden die als zichtbaar zijn ingesteld in de gebruikers profiel instellingen beschikbaar als sjabloon variabelen.'
   },
   'overridePublicProfile label' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1216645257,
+    'message' => 'Profiel publieke toegangelijkheid overschrijven'
   },
   'searchFormTypeSelect' => {
     'lastUpdated' => 1214555218,
@@ -154,8 +154,8 @@ our $I18N = {
     'message' => 'Zoek in:'
   },
   'includeInSearch_PROFILEFIELDNAME_hidden' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1216645017,
+    'message' => 'Een verborgen formulier element dat aangeeft of het profielveld PROFIELVELDNAAM doorzocht wordt. Dit heeft alleen effect als de tmpl_var limitSearch een onderdeel is van het zoek formulier.<br /> '
   },
   'assetName' => {
     'lastUpdated' => 1189458047,
@@ -294,16 +294,16 @@ our $I18N = {
     'message' => 'De tag voor de bovenkant van het zoekformulier.'
   },
   'overridePublicEmail description' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1216645160,
+    'message' => 'Wanneer dit op &quot;Ja&quot; staat, wordt de \'Maak e-mail adres publiek toegankelijk\' instelling in de gebruikersprofiel instellingen genegeerd. De gebruikerslijst zal altijd het e-mail adres tonen.'
   },
   'alphabetSearchField label' => {
     'lastUpdated' => 1215607428,
     'message' => 'Veld alfabetisch zoeken'
   },
   'includeInSearch_PROFILEFIELDNAME_checkBox' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1216644969,
+    'message' => 'Een aanvinkvak, waar de gebruiker kan kiezen of het profielveld PROFIELVELDNAAM wel of niet doorzocht wordt. Dit heeft alleen effect als de tmpl_var limitSearch een onderdeel is van het zoek formulier.'
   },
   'searchExact_PROFILEFIELDNAME_text' => {
     'lastUpdated' => 1215615935,
