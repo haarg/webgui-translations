@@ -2,12 +2,12 @@ package WebGUI::i18n::Dutch::Shop;
 use utf8;
 our $I18N = {
   'username help' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1216652251,
+    'message' => 'De naam van de gebruiker die deze transactie heeft uitgevoerd, zodat deze niet meer opgezocht hoeft te worden.'
   },
   'address2 help' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1216652993,
+    'message' => 'De tweede regel van het adres.<br /> '
   },
   'shipping method' => {
     'lastUpdated' => 1215446585,
@@ -26,8 +26,8 @@ our $I18N = {
     'message' => 'Subtotaal'
   },
   'add shipper' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1216652860,
+    'message' => 'Voeg verzendmethode toe'
   },
   'print' => {
     'lastUpdated' => 1213968255,
@@ -50,12 +50,12 @@ our $I18N = {
     'message' => 'Het land dat bij dit adres hoort.'
   },
   'shippingAddress1' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1216651595,
+    'message' => 'De eerste regel in een verzendadres met meer regels.'
   },
   'item shippingAddress1' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1216652724,
+    'message' => 'De eerste regel in een verzendadres met meer regels voor dit object.'
   },
   'code' => {
     'lastUpdated' => 1213968376,
@@ -114,16 +114,16 @@ our $I18N = {
     'message' => ''
   },
   'paymentAddressCode' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1216652354,
+    'message' => 'De code van het factuuradres.'
   },
   'shipping amount' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1216652012,
+    'message' => 'Hoeveelheid te verzenden'
   },
   'paymentAddressState' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1216652610,
+    'message' => 'De staat of provincie van het factuuradres.'
   },
   'my purchases template help' => {
     'lastUpdated' => undef,
@@ -134,12 +134,12 @@ our $I18N = {
     'message' => ''
   },
   'paymentAddress' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1216652483,
+    'message' => 'Aangepast factuuradres'
   },
   'shippingAddressCity' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1216651632,
+    'message' => 'De plaats van het verzendadres.'
   },
   'quarterly' => {
     'lastUpdated' => 1215446262,
@@ -198,8 +198,8 @@ our $I18N = {
     'message' => ''
   },
   'taxes help' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1216651567,
+    'message' => 'Het bedrag aan BTW van deze transactie, met twee decimalen.'
   },
   'subtotalPrice help' => {
     'lastUpdated' => undef,
@@ -210,8 +210,8 @@ our $I18N = {
     'message' => ''
   },
   'paymentAddress3' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1216652323,
+    'message' => 'De derde regel in een factuuradres met meer regels.<br /> '
   },
   'cityField help' => {
     'lastUpdated' => undef,
@@ -222,8 +222,8 @@ our $I18N = {
     'message' => ''
   },
   'who can manage help' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1216651536,
+    'message' => 'De groep die het commerciesysteem kan beheren.'
   },
   'configuredTitle' => {
     'lastUpdated' => undef,
@@ -238,8 +238,8 @@ our $I18N = {
     'message' => ''
   },
   'add a vendor' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1216652784,
+    'message' => 'Voeg een verkooppunt toe'
   },
   'shopCreditDeduction' => {
     'lastUpdated' => undef,
@@ -250,8 +250,8 @@ our $I18N = {
     'message' => 'Bijwerken'
   },
   'paymentAddress2' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1216652312,
+    'message' => 'De tweede regel in een factuuradres met meer regels.<br /> '
   },
   'view cart' => {
     'lastUpdated' => 1213968136,
@@ -266,28 +266,28 @@ our $I18N = {
     'message' => ''
   },
   'shippingAddressPhoneNumber' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1216652033,
+    'message' => 'Het telefoonnummer van het verzendadres.'
   },
   'not applicable' => {
     'lastUpdated' => undef,
     'message' => ''
   },
   'paymentAddressCountry' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1216652371,
+    'message' => 'Het land van het factuuradres.<br /> '
   },
   'address2Field help' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1216653065,
+    'message' => 'Het veld voor de tweede adresregel.'
   },
   'address nameField help' => {
     'lastUpdated' => undef,
     'message' => ''
   },
   'paymentAddressId' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1216652555,
+    'message' => 'Het ID van het factuuradres voor deze transactie.'
   },
   'item shipToButton help' => {
     'lastUpdated' => undef,
@@ -350,12 +350,12 @@ our $I18N = {
     'message' => ''
   },
   'payment method' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1216652511,
+    'message' => 'Betalingsmethode'
   },
   'addButton help' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1216652928,
+    'message' => 'Een knop waarmee de gebruiker een nieuw adres kan toevoegen.'
   },
   'formFooter help' => {
     'lastUpdated' => undef,
@@ -370,8 +370,8 @@ our $I18N = {
     'message' => 'Verzend methodes'
   },
   'payment address' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1216652500,
+    'message' => 'Factuuradres'
   },
   'codeField help' => {
     'lastUpdated' => undef,
@@ -418,16 +418,16 @@ our $I18N = {
     'message' => ''
   },
   'paymentAddressCity' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1216652338,
+    'message' => 'De plaats van het factuuradres.'
   },
   'address book template' => {
     'lastUpdated' => 1215445882,
     'message' => 'Adresboek sjabloon'
   },
   'address3 help' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1216653004,
+    'message' => 'De derde regel van het adres.<br /> '
   },
   'city' => {
     'lastUpdated' => 1213631765,
@@ -446,8 +446,8 @@ our $I18N = {
     'message' => ''
   },
   'address book template help' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1216653103,
+    'message' => 'Dit sjabloon bepaalt hoe het adresboek eruit zal zien.'
   },
   'too many of this item' => {
     'lastUpdated' => 1213968202,
@@ -486,8 +486,8 @@ our $I18N = {
     'message' => ''
   },
   'shippingPrice help' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1216652183,
+    'message' => 'De verzendkosten, met twee decimalen.'
   },
   'shop' => {
     'lastUpdated' => 1213968235,
@@ -502,12 +502,12 @@ our $I18N = {
     'message' => ''
   },
   'phone number' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1216652620,
+    'message' => 'Telefoonnummer'
   },
   'shippingAddress3' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1216651614,
+    'message' => 'De derde regel in een verzendadres met meer regels.<br /> '
   },
   'my purchases detail template help' => {
     'lastUpdated' => undef,
@@ -526,8 +526,8 @@ our $I18N = {
     'message' => ''
   },
   'shippingAddressId' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1216651684,
+    'message' => 'De ID van het verzendadres van deze transactie.<br /> '
   },
   'shipToButton help' => {
     'lastUpdated' => undef,
@@ -566,8 +566,8 @@ our $I18N = {
     'message' => ''
   },
   'add payment method' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1216652847,
+    'message' => 'Voeg betalingsmethode toe'
   },
   'username' => {
     'lastUpdated' => 1213968124,
@@ -594,8 +594,8 @@ our $I18N = {
     'message' => ''
   },
   'item shippingAddress2' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1216652736,
+    'message' => 'De tweede regel in een verzendadres met meer regels voor dit object.<br /> '
   },
   'manage' => {
     'lastUpdated' => 1213968361,
@@ -606,16 +606,16 @@ our $I18N = {
     'message' => 'Kortingsbon'
   },
   'add credit message' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1216652831,
+    'message' => '%s was toegevoegd aan het winkel krediet van %s, voor een totaal krediet van %s.'
   },
   'status message' => {
     'lastUpdated' => undef,
     'message' => ''
   },
   'paymentAddress1' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1216652300,
+    'message' => 'De eerste regel in een factuuradres met meer regels.'
   },
   'import successful' => {
     'lastUpdated' => 1213968607,
@@ -694,8 +694,8 @@ our $I18N = {
     'message' => 'Land'
   },
   'dateOfPurchase' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1216652885,
+    'message' => 'De datum waarop de aanschaf gedaan is.'
   },
   'mixed items warning' => {
     'lastUpdated' => undef,
@@ -722,8 +722,8 @@ our $I18N = {
     'message' => ''
   },
   'paymentAddressName' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1216652570,
+    'message' => 'De naam die toegkend is aan het factuuradres.'
   },
   'amount' => {
     'lastUpdated' => 1213968384,
@@ -750,16 +750,16 @@ our $I18N = {
     'message' => ''
   },
   'payment methods' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1216652527,
+    'message' => 'Betalingsmethodes'
   },
   'shippingAddress2' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1216651605,
+    'message' => 'De tweede regel in een verzendadres met meer regels.<br /> '
   },
   'paymentAddressPhoneNumber' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1216652587,
+    'message' => 'Het telefoonnummer van het factuuradres.'
   },
   'item' => {
     'lastUpdated' => undef,
@@ -782,24 +782,24 @@ our $I18N = {
     'message' => 'Staat / Provincie'
   },
   'address3Field help' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1216653075,
+    'message' => 'Het veld voor de derde adresregel.'
   },
   'view my purchases template' => {
     'lastUpdated' => undef,
     'message' => ''
   },
   'ship to button' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1216652637,
+    'message' => 'Verzenden aan'
   },
   'shippingOptions help' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1216652164,
+    'message' => 'Een selectielijst die alle geconfigureerde verzendmethodes voor deze bestelling bevat.'
   },
   'update cart button' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1216652207,
+    'message' => 'Winkelwagen bijwerken'
   },
   'transaction id' => {
     'lastUpdated' => undef,
@@ -822,16 +822,16 @@ our $I18N = {
     'message' => 'Voeg een nieuw adres toe'
   },
   'item shippingAddress3' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1216652745,
+    'message' => 'De derde regel in een verzendadres met meer regels voor dit object.<br /> '
   },
   'shippingDriverId' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1216652093,
+    'message' => 'De unieke identificatie van de verzendmethode van deze transactie.'
   },
   'shippingAddressCountry' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1216651964,
+    'message' => 'Het land van het verzendadres.'
   },
   'transactionId' => {
     'lastUpdated' => undef,
@@ -854,8 +854,8 @@ our $I18N = {
     'message' => ''
   },
   'shippingAddressCode' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1216651647,
+    'message' => 'De code van het verzendadres.'
   },
   'isShippable help' => {
     'lastUpdated' => undef,
@@ -866,8 +866,8 @@ our $I18N = {
     'message' => ''
   },
   'shippingAddressState' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1216652049,
+    'message' => 'De staat of provincie van het verzendadres.'
   },
   'continue shopping button' => {
     'lastUpdated' => undef,
@@ -878,24 +878,24 @@ our $I18N = {
     'message' => ''
   },
   'address1Field help' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1216653042,
+    'message' => 'Het veld voor de eerste adresregel.'
   },
   'shippingAddressName' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1216651981,
+    'message' => 'De naam die toegekend is aan het verzendadres.'
   },
   'address1 help' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1216652979,
+    'message' => 'De eerste regel van het adres.'
   },
   'quantity' => {
     'lastUpdated' => 1215446252,
     'message' => 'Hoeveelheid'
   },
   'shippingDriverLabel' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1216652118,
+    'message' => 'Het label van de verzendmethode voor deze transactie.'
   },
   'continueShoppingButton help' => {
     'lastUpdated' => undef,
@@ -910,12 +910,12 @@ our $I18N = {
     'message' => ''
   },
   'state help' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1216651510,
+    'message' => 'De staat of provincie van dit adres.'
   },
   'address help' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1216652959,
+    'message' => 'Een adres in HTML.'
   },
   'items' => {
     'lastUpdated' => undef,
