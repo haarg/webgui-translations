@@ -5,6 +5,10 @@ our $I18N = {
     'lastUpdated' => 1148307315,
     'message' => 'U'
   },
+  'lookupRegistrantTemplateId help' => {
+    'lastUpdated' => 1216649302,
+    'message' => 'Het ID van het sjabloonvoor het scherm waar registranten opgezocht kunnen worden.'
+  },
   'add/edit event required events' => {
     'lastUpdated' => 1148289701,
     'message' => 'vereiste evenementen'
@@ -12,6 +16,10 @@ our $I18N = {
   'buy badge' => {
     'lastUpdated' => 1213966526,
     'message' => 'Hoop een naamplaatje'
+  },
+  'main template help body' => {
+    'lastUpdated' => 1216649428,
+    'message' => 'Dit sjabloon gebruikt YUI voor het weergeven van de meeste dingen. Pas de CSS aan voor het veranderen van het sjabloon of de stijl.'
   },
   'seatsRemaining' => {
     'lastUpdated' => 1149860043,
@@ -61,6 +69,10 @@ our $I18N = {
     'lastUpdated' => 1214560389,
     'message' => 'Er is een naamplaatje nodig om deze bijeenklomst te bezoeken. Kies een naamplaatje dat voldoet aan de eisen en budget.'
   },
+  'event start date' => {
+    'lastUpdated' => 1216648195,
+    'message' => 'Begindatum'
+  },
   'datePurchasedHuman' => {
     'lastUpdated' => 1149860995,
     'message' => '<div class="&quot;helpIndent&quot;"><p>De datum en tijd waarop deze aankoop is begonnen in een door mensen te lezen formaat.</p>  </div>'
@@ -101,6 +113,10 @@ our $I18N = {
     'lastUpdated' => 1149861897,
     'message' => '<p>Een teken dat de huidige gebruiker in de groep zit die evenementen mag beheren. </p>'
   },
+  'customRequestUrl' => {
+    'lastUpdated' => 1216648180,
+    'message' => 'Een URL voor de YUI voor het opzoeken van informatie over het huidige naamplaatje.'
+  },
   'ribbons' => {
     'lastUpdated' => 1215442841,
     'message' => 'Kortingspassen'
@@ -112,6 +128,10 @@ our $I18N = {
   'checkout.url' => {
     'lastUpdated' => 1166194438,
     'message' => 'De URL voor het weergeven van de winkelwagen van de gebruiker.'
+  },
+  'addRibbonUrl' => {
+    'lastUpdated' => 1216646121,
+    'message' => 'URL om een kortingspas aan het systeem toe te voegen.<br /> '
   },
   'choose a file to import' => {
     'lastUpdated' => 1190027343,
@@ -149,6 +169,10 @@ our $I18N = {
     'lastUpdated' => 1166194153,
     'message' => 'Registratie annuleren'
   },
+  'address2' => {
+    'lastUpdated' => 1216648071,
+    'message' => 'Regel 2 van het adres van de houder van het naamplaatje.<br /> '
+  },
   'image' => {
     'lastUpdated' => 1149859834,
     'message' => '<p>De afbeelding die gekozen is bij dit evenement. </p>'
@@ -160,6 +184,10 @@ our $I18N = {
   'prereq set name field description' => {
     'lastUpdated' => 1148893624,
     'message' => 'Een omschrijvende naam voor deze set met vereisten'
+  },
+  'exportTicketsUrl' => {
+    'lastUpdated' => 1216648885,
+    'message' => 'Het URL waar kaartjes ge&euml;xporteerd worden. Momenteel is dit nog niet ge&iuml;mplementeerd.'
   },
   'export error' => {
     'lastUpdated' => 1190027361,
@@ -174,16 +202,16 @@ our $I18N = {
     'message' => 'Beschrijving'
   },
   'ems token' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1216649145,
+    'message' => 'Evenementenbeheer voucher'
   },
   'remove' => {
     'lastUpdated' => 1215443221,
     'message' => 'Verwijderen'
   },
   'registration staff group' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1216649578,
+    'message' => 'Organisatie groep'
   },
   'default ticket instructions' => {
     'lastUpdated' => 1214560967,
@@ -193,6 +221,10 @@ our $I18N = {
     'lastUpdated' => 1148893935,
     'message' => 'Vernieuw evenementen lijst.'
   },
+  'addBadgeUrl' => {
+    'lastUpdated' => 1216646076,
+    'message' => 'URL om een naamplaatje aan het systeem toe te voegen.'
+  },
   'no' => {
     'lastUpdated' => 1190026100,
     'message' => 'nee'
@@ -200,6 +232,14 @@ our $I18N = {
   'discount pass id description' => {
     'lastUpdated' => 1208521380,
     'message' => 'Er wordt intern een unieke identificatiecode gebruikt voor deze kortingspas. Bij het aanmaken van een nieuwe pas, zal dit het woord &quot;Nieuw&quot; zijn. '
+  },
+  'otherBadgesInCart' => {
+    'lastUpdated' => 1216646458,
+    'message' => 'Een functie die links en labels bevat voor andere naamplaatjes in de winkelwagen van deze gebruiker.'
+  },
+  'viewEventsUrl' => {
+    'lastUpdated' => 1216646619,
+    'message' => 'URL waar kaartjes bekeken kunnen worden.'
   },
   'import hoverhelp first line' => {
     'lastUpdated' => 1190026489,
@@ -229,17 +269,21 @@ our $I18N = {
     'lastUpdated' => 1190026021,
     'message' => 'overschreven'
   },
-  'None' => {
-    'lastUpdated' => 1148287182,
-    'message' => 'Geen'
-  },
   'add/edit event description' => {
     'lastUpdated' => 1148288397,
     'message' => 'Omschrijving'
   },
+  'None' => {
+    'lastUpdated' => 1148287182,
+    'message' => 'Geen'
+  },
   'manageEvents.label' => {
     'lastUpdated' => 1166194577,
     'message' => 'Een standaard tekst voor de link naar "Evenementen beheer".'
+  },
+  'importTicketsUrl' => {
+    'lastUpdated' => 1216649217,
+    'message' => 'Het URL voor het importeren van kaartjes. Momenteel is dit nog niet ge&iuml;mplementeerd.'
   },
   'User sub events small resultset' => {
     'lastUpdated' => 1148287596,
@@ -249,17 +293,21 @@ our $I18N = {
     'lastUpdated' => 1215442671,
     'message' => 'Instructies bij kaarten'
   },
+  'buyBadgeUrl' => {
+    'lastUpdated' => 1216648138,
+    'message' => 'Het URL waar een naamplaatje gekocht kan worden.'
+  },
   'sku' => {
     'lastUpdated' => 1148307639,
     'message' => 'SKU'
   },
-  'status' => {
-    'lastUpdated' => 1215442215,
-    'message' => 'Status'
-  },
   'badge instructions help' => {
     'lastUpdated' => 1214558467,
     'message' => 'Geef de gebruiker wat hulp voor het gebruik van een naamplaatje.'
+  },
+  'status' => {
+    'lastUpdated' => 1215442215,
+    'message' => 'Status'
   },
   'defines discount pass' => {
     'lastUpdated' => 1208521338,
@@ -293,6 +341,10 @@ our $I18N = {
     'lastUpdated' => 1215443578,
     'message' => 'Ga de groepen naamplaatjes na die aan dit naamplaatje gerelateerd zijn, zodat vereiste naamplaatjes aan kaartjes kunnen worden toegewezen.'
   },
+  'getTicketsUrl' => {
+    'lastUpdated' => 1216649028,
+    'message' => 'URL voor het leveren van informatie over kaartjes in JSON formaat.<br />  '
+  },
   'create a badge for someone else' => {
     'lastUpdated' => 1148295984,
     'message' => 'Maak een badge aan voor iemand anders.'
@@ -304,6 +356,14 @@ our $I18N = {
   'import' => {
     'lastUpdated' => 1213703155,
     'message' => 'Importeren'
+  },
+  'manageEventMetaFieldsUrl' => {
+    'lastUpdated' => 1216649508,
+    'message' => 'Het URL van het Beheer evenement metadata scherm.'
+  },
+  'hasCheckedIn' => {
+    'lastUpdated' => 1216646300,
+    'message' => 'Een functie die war is als de gebruiker ingechecked is bij het evenement.'
   },
   'percentage discount help' => {
     'lastUpdated' => 1215442008,
@@ -325,9 +385,17 @@ our $I18N = {
     'lastUpdated' => 1148307551,
     'message' => 'Telefoonnummer'
   },
+  'address3' => {
+    'lastUpdated' => 1216648079,
+    'message' => 'Regel 3 van het adres van de houder van het naamplaatje.<br /> '
+  },
   'add/edit event price description' => {
     'lastUpdated' => 1208521149,
     'message' => 'De deelnemersbijdrage voor dit evenement.'
+  },
+  'getBadgesUrl' => {
+    'lastUpdated' => 1216648930,
+    'message' => 'URL voor het leveren van informatie over het naamplaatje in JSON formaat voor de YUI database.'
   },
   'what about duplicates' => {
     'lastUpdated' => 1190025968,
@@ -340,6 +408,10 @@ our $I18N = {
   'discount amount description' => {
     'lastUpdated' => 1148296656,
     'message' => 'Bij het veld voor de hoeveelheid kunnen verschillende eenheden worden ingevoerd voor de kortingspas. Voor procenten kan de instelling &quot;Percentage&quot; gekozen worden (voer 10 in voor 10% korting). De instelling &quot;Nieuwe prijs&quot; en &quot;Hoeveelheid korting&quot; zijn in absolute hoeveelheden valuta. De standaard waarde is &quot;0.00&quot;. '
+  },
+  'tokenInstructions help' => {
+    'lastUpdated' => 1216649683,
+    'message' => 'Instructies voor de gebruiker voor het gebruik van een voucher.'
   },
   'edit discount pass' => {
     'lastUpdated' => 1148298400,
@@ -388,6 +460,10 @@ our $I18N = {
   'main template' => {
     'lastUpdated' => 1215428189,
     'message' => 'Hoofd sjabloon'
+  },
+  'addTicketUrl' => {
+    'lastUpdated' => 1216646140,
+    'message' => 'URL om een kaartje aan een naamplaatje toe te voegen.<br /> '
   },
   'manageEvents.url' => {
     'lastUpdated' => 1149861698,
@@ -441,13 +517,13 @@ our $I18N = {
     'lastUpdated' => 1148299352,
     'message' => 'Fout:'
   },
-  'time zone help' => {
-    'lastUpdated' => 1215442725,
-    'message' => 'Selecteer de tijdszone waarin dit evenement plaats zal vinden.'
-  },
   'add/edit event operator description' => {
     'lastUpdated' => 1208520992,
     'message' => 'Wanneer vereiste evenementen aan dit evenement gekoppeld zijn, kan er gespecificeerd worden of alle evenementen vereist zijn (en) of dat een willekeurig evenemenet vereist is (of).'
+  },
+  'time zone help' => {
+    'lastUpdated' => 1215442725,
+    'message' => 'Selecteer de tijdszone waarin dit evenement plaats zal vinden.'
   },
   'organization' => {
     'lastUpdated' => 1215428327,
@@ -477,25 +553,29 @@ our $I18N = {
     'lastUpdated' => 1150098144,
     'message' => 'De identificatie van de gebruiker die deze badge gaat gebruiken.'
   },
+  'switch to badge for' => {
+    'lastUpdated' => 1215442625,
+    'message' => 'Verander naar \'%s\' naamplaatje'
+  },
   'starts' => {
     'lastUpdated' => 1148307756,
     'message' => 'Begint'
-  },
-  'zip code' => {
-    'lastUpdated' => 1148307237,
-    'message' => 'Postcode'
   },
   'import ok' => {
     'lastUpdated' => 1190026211,
     'message' => 'Alle %d records werden succesvol verwerkt. %d aangemaakt, %d witregels, %d dubbelingen %s.'
   },
-  'switch to badge for' => {
-    'lastUpdated' => 1215442625,
-    'message' => 'Verander naar \'%s\' naamplaatje'
+  'zip code' => {
+    'lastUpdated' => 1148307237,
+    'message' => 'Postcode'
   },
   'add/edit event operator' => {
     'lastUpdated' => 1148289526,
     'message' => 'Bestuurder'
+  },
+  'badgeTitle' => {
+    'lastUpdated' => 1216648405,
+    'message' => 'De titel van het naamplaatje dat afgedrukt gaat worden.'
   },
   'Pagination variables' => {
     'lastUpdated' => 1149853427,
@@ -541,6 +621,10 @@ our $I18N = {
     'lastUpdated' => 1148307566,
     'message' => 'Percentage'
   },
+  'badgeLabel' => {
+    'lastUpdated' => 1216648374,
+    'message' => 'Een persoonlijk label dat samen met het naamplaatje in de winkelwagen van de gebruiker gestopt wordt.'
+  },
   'add to badge' => {
     'lastUpdated' => 1213714236,
     'message' => 'Voeg toe aan naamplaatje'
@@ -548,6 +632,10 @@ our $I18N = {
   'add/edit event image' => {
     'lastUpdated' => 1148288960,
     'message' => 'Afbeelding bij evenement'
+  },
+  'isRegistrationStaff' => {
+    'lastUpdated' => 1216646415,
+    'message' => 'Een voorwaardelijke variabele die waar is als de huidige gebruiker in de groep voor de organisatie van dit evenement zit.'
   },
   'add/edit event end date' => {
     'lastUpdated' => 1213966366,
@@ -577,6 +665,10 @@ our $I18N = {
     'lastUpdated' => 1148307603,
     'message' => 'Naam kortingspas'
   },
+  'ticketInstructions help' => {
+    'lastUpdated' => 1216646994,
+    'message' => 'Gebruikersinstructies voor kaartjes.'
+  },
   'add to badge message' => {
     'lastUpdated' => 1148288371,
     'message' => '%s is met succes toegevoegd aan je badge.'
@@ -602,8 +694,8 @@ our $I18N = {
     'message' => '<p>Het label &quot;Prijs&quot;. </p>'
   },
   'expire ems cart items' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1216648825,
+    'message' => 'Verlopen van evenementen in winkelwagen.'
   },
   'continue' => {
     'lastUpdated' => 1148295929,
@@ -626,8 +718,8 @@ our $I18N = {
     'message' => '<div class="&quot;helpIndent&quot;"><p>De datum en tijd waarop dit evenement begint, in epoch formaat. </p></div>'
   },
   'registration staff group help' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1216649630,
+    'message' => 'Kies een groep gebruikers die de registraties afhandelen. Deze gebruikers kunnen naamplaatje registraties opzoeken en beheren voor alle ingeschreven gebruikers.'
   },
   'events required by this prerequisite set' => {
     'lastUpdated' => 1148303012,
@@ -644,6 +736,10 @@ our $I18N = {
   'transactionId' => {
     'lastUpdated' => 1150098067,
     'message' => 'De unieke identificatie in de database van deze transactie. '
+  },
+  'viewCartUrl' => {
+    'lastUpdated' => 1216646650,
+    'message' => 'Een URL dat de gebruiker naar de winkelwagen meeneemt.'
   },
   'last name' => {
     'lastUpdated' => 1148304378,
@@ -705,6 +801,14 @@ our $I18N = {
     'lastUpdated' => 1149862072,
     'message' => '<p>Het label &quot;Eindigt&quot;. </p>'
   },
+  'badgeBuilderTemplateId help' => {
+    'lastUpdated' => 1216648234,
+    'message' => 'Het ID van het sjabloon voor het scherm waar naamplaatjes gemaakt worden.'
+  },
+  'lookupRegistrantUrl' => {
+    'lastUpdated' => 1216649363,
+    'message' => 'URL voor het verkrijgen van informatie over de naamplatjes van de huidige gebruiker, of voor alle gebruikers als de huidige gebruiker bij de organisatie hoort.'
+  },
   'assigned discount pass' => {
     'lastUpdated' => 1148291814,
     'message' => 'Toegekende kortingspas'
@@ -716,6 +820,18 @@ our $I18N = {
   'token instructions' => {
     'lastUpdated' => 1215446943,
     'message' => 'Instructies voucher'
+  },
+  'printBadgeTemplateId help' => {
+    'lastUpdated' => 1216649541,
+    'message' => 'Het ID van het sjabloon waarmee een naamplaatje afgedrukt wordt.'
+  },
+  'ems asset template variables' => {
+    'lastUpdated' => 1216648702,
+    'message' => 'Evenementenbeheersysteem sjabloon variabelen'
+  },
+  'templateId help' => {
+    'lastUpdated' => 1216646966,
+    'message' => 'De ID van het sjabloon dat voor het hoofdscherm van het evenementenbeheersysteem gebruikt wordt.'
   },
   'null field error' => {
     'lastUpdated' => 1148307195,
@@ -736,6 +852,10 @@ our $I18N = {
   'discount pass type' => {
     'lastUpdated' => 1148297045,
     'message' => 'Type kortingspas'
+  },
+  'addTokenUrl' => {
+    'lastUpdated' => 1216649068,
+    'message' => 'Het URL voor het toevoegen van een voucher aan een naamplaatje.'
   },
   'name' => {
     'lastUpdated' => 1216587185,
@@ -796,6 +916,10 @@ our $I18N = {
   'confirm delete event metadata' => {
     'lastUpdated' => 1213710657,
     'message' => 'Weet u zeker dat dit metadata veld verwijderd moet worden? De metadata waarden van dit veld worden verwijderd uit alle evenementen.'
+  },
+  'getRibbonsUrl' => {
+    'lastUpdated' => 1216649017,
+    'message' => 'URL voor het leveren van informatie over de kortingspas in JSON formaat.<br /> '
   },
   'amount off' => {
     'lastUpdated' => 1148291413,
@@ -861,6 +985,10 @@ our $I18N = {
     'lastUpdated' => 1150097413,
     'message' => 'De informatie, die met haar eigen sjabloon bewerkt is, over een enkel evenement.'
   },
+  'badgeUrl' => {
+    'lastUpdated' => 1216648631,
+    'message' => 'Het URL voor het toevoegen van nog een naamplaatje aan de winkelwagen van de gebruiker.'
+  },
   'startDate.human' => {
     'lastUpdated' => 1149860425,
     'message' => '<p>De begindatum-en tijd van dit evenement, in een door mensen te lezen formaat.</p>'
@@ -909,37 +1037,45 @@ our $I18N = {
     'lastUpdated' => 1189348581,
     'message' => 'Deze variabele bevat een foutmelding in de eigen taal van de gebruiker die aangeeft dat een bepaald veld niet leeg gelaten kan worden in het formulier. De veldnaam in de foutmelding is het label van de foutmelding in de eigen taal. '
   },
-  'weight' => {
-    'lastUpdated' => 1148307369,
-    'message' => 'Gewicht'
-  },
   'add/edit event start date help' => {
     'lastUpdated' => 1213966412,
     'message' => 'De tijd en datum waarop het evenement begint.'
   },
-  'edit prerequisite set' => {
-    'lastUpdated' => 1148298505,
-    'message' => 'Bewerk set van vereisten'
+  'weight' => {
+    'lastUpdated' => 1148307369,
+    'message' => 'Gewicht'
   },
   'export' => {
     'lastUpdated' => 1213703095,
     'message' => 'Exporteren'
   },
+  'edit prerequisite set' => {
+    'lastUpdated' => 1148298505,
+    'message' => 'Bewerk set van vereisten'
+  },
   'add to cart' => {
     'lastUpdated' => 1148287884,
     'message' => 'Voeg toe aan winkelwagen.'
+  },
+  'canEdit' => {
+    'lastUpdated' => 1216646179,
+    'message' => 'Een functie die aangeeft of de huidige gebruiker het evenementenbeheersysteem kan bewerken.'
   },
   'import other line' => {
     'lastUpdated' => 1190026173,
     'message' => 'Record %d was %s.'
   },
-  'refund' => {
-    'lastUpdated' => 1215442855,
-    'message' => 'Terugstorting'
+  'getTokensUrl' => {
+    'lastUpdated' => 1216649177,
+    'message' => 'Het URL voor het verkrijgen van informatie over een voucher in JSON formaat.'
   },
   'sold out' => {
     'lastUpdated' => 1148307782,
     'message' => 'Uitverkocht'
+  },
+  'refund' => {
+    'lastUpdated' => 1215442855,
+    'message' => 'Terugstorting'
   },
   'related ribbons help' => {
     'lastUpdated' => 1215443497,
@@ -969,21 +1105,25 @@ our $I18N = {
     'lastUpdated' => 1148303195,
     'message' => 'Wegens het grote aantal beschikbare vereisten, worden er nu geen afgebeeld. Specificeer uw zoekopdracht met de standaard of geavanceerde filteropties hierboven, zodat het aantal resultaten beperkt wordt.'
   },
+  'numberRegistered' => {
+    'lastUpdated' => 1149859974,
+    'message' => '<p>Het aantal mensen dat momenteel geregistreerd is voor dit evenement. </p>'
+  },
   'sku template' => {
     'lastUpdated' => 1148307849,
     'message' => 'SKU sjabloon'
   },
-  'numberRegistered' => {
-    'lastUpdated' => 1149859974,
-    'message' => '<p>Het aantal mensen dat momenteel geregistreerd is voor dit evenement. </p>'
+  'option to narrow' => {
+    'lastUpdated' => 1148893693,
+    'message' => 'De getoonde lijst met vereisten kan beperkt worden met gebruik van de standaard of geavanceerde filter opties hierboven.'
   },
   'checked in' => {
     'lastUpdated' => 1214558571,
     'message' => 'Ingechecked'
   },
-  'option to narrow' => {
-    'lastUpdated' => 1148893693,
-    'message' => 'De getoonde lijst met vereisten kan beperkt worden met gebruik van de standaard of geavanceerde filter opties hierboven.'
+  'manageBadgeGroupsUrl' => {
+    'lastUpdated' => 1216649474,
+    'message' => 'URL voor het tonen van een lijst van naamplaatjes groepen.'
   },
   'city' => {
     'lastUpdated' => 1148295432,
@@ -1017,17 +1157,21 @@ our $I18N = {
     'lastUpdated' => 1148307325,
     'message' => 'Welke badge'
   },
-  'tokens' => {
-    'lastUpdated' => 1215446924,
-    'message' => 'Vouchers'
-  },
   'add/edit event title description' => {
     'lastUpdated' => 1148289982,
     'message' => 'Voer de naam of titel van het evenement in.'
   },
+  'tokens' => {
+    'lastUpdated' => 1215446924,
+    'message' => 'Vouchers'
+  },
   'continue.label' => {
     'lastUpdated' => 1149861996,
     'message' => '<p>Een label &quot;Ga verder&quot;, dat bij continue.url hoort. </p>'
+  },
+  'zipcode' => {
+    'lastUpdated' => 1216646543,
+    'message' => 'De postcode van de houder van het naamplaatje.'
   },
   'message' => {
     'lastUpdated' => 1149861921,
@@ -1045,6 +1189,10 @@ our $I18N = {
     'lastUpdated' => 1148287153,
     'message' => 'De evenementen hieronder kunnen bewerkt worden. De lijst met evenementen kan met behulp van de standaard of geavanceerde filter opties hierboven gespecificeerd worden.'
   },
+  'transactionItemId' => {
+    'lastUpdated' => 1216646701,
+    'message' => 'De unieke identificatie van de transactie voor dit naamplaatje, voor interne doeleinden.'
+  },
   'badge groups' => {
     'lastUpdated' => 1214558409,
     'message' => 'Naamplaatjes groepen'
@@ -1060,6 +1208,10 @@ our $I18N = {
   'add/edit event start date' => {
     'lastUpdated' => 1213966377,
     'message' => 'Begin'
+  },
+  'whichTab' => {
+    'lastUpdated' => 1216646589,
+    'message' => 'Het geselecteerde tabblad in het scherm waar de naamplaatjes gemaakt worden.'
   },
   'import file contains field title' => {
     'lastUpdated' => 1190027115,
@@ -1077,6 +1229,10 @@ our $I18N = {
     'lastUpdated' => 1149860695,
     'message' => '<p>Het label &quot;Voeg toe aan winkelwagen&quot;. Deze variabele zal leeg zijn als het evenement is volgeboekt.</p>'
   },
+  'url' => {
+    'lastUpdated' => 1216646510,
+    'message' => 'Het URL van dit evenementenbeheersysteem.'
+  },
   'addToBadgeMessage' => {
     'lastUpdated' => 1207906900,
     'message' => '<p>Een bericht van het systeem waarin wordt vermeld of de badge met succes is toegevoegd aan deze transactie. </p>'
@@ -1084,6 +1240,14 @@ our $I18N = {
   'registrationId' => {
     'lastUpdated' => 1166194634,
     'message' => 'De registratie identificatie van deze gebruiker voor dit evenement.'
+  },
+  'hasBadge' => {
+    'lastUpdated' => 1216646310,
+    'message' => 'Een functie die aangeeft of de huidige gebruiker een naamplaatje heeft.'
+  },
+  'registrationStaffGroupId help' => {
+    'lastUpdated' => 1216649652,
+    'message' => 'Het ID van de groep die registraties behandeld.'
   },
   'ticket instructions help' => {
     'lastUpdated' => 1215442694,
@@ -1104,6 +1268,10 @@ our $I18N = {
   'lookup registrant template help' => {
     'lastUpdated' => 1215428172,
     'message' => 'Welk sjabloon moet gebruikt worden voor het opzoeken van registranten scherm?'
+  },
+  'badgeInstructions help' => {
+    'lastUpdated' => 1216648275,
+    'message' => 'Instructies voor de gebruiker over het naamplaatje.'
   },
   'managePurchases.url' => {
     'lastUpdated' => 1149861764,
@@ -1153,9 +1321,21 @@ our $I18N = {
     'lastUpdated' => 1149862711,
     'message' => 'Een label voor de titel van dit scherm.'
   },
+  'main template help title' => {
+    'lastUpdated' => 1216649450,
+    'message' => 'Evenementenbeheersysteem hoofdscherm sjabloon'
+  },
   'addEvent.label' => {
     'lastUpdated' => 1166194134,
     'message' => 'De standaard tekst van de link voor het toevoegen van evenementen.'
+  },
+  'printTicketTemplateId help' => {
+    'lastUpdated' => 1216649565,
+    'message' => 'Het ID van het sjabloon waarmee een kaartje afgedrukt wordt.<br /> '
+  },
+  'badgeId' => {
+    'lastUpdated' => 1216648257,
+    'message' => 'Het ID van het naamplaatje van de huidige gebruiker.'
   },
   'discount amount' => {
     'lastUpdated' => 1148296415,
@@ -1166,15 +1346,15 @@ our $I18N = {
     'message' => 'Land'
   },
   'default token instructions' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1216649130,
+    'message' => 'Vouchers zijn valuta voor een conferentie. Er kunnen evenementen en andere objecten mee aangeschaft worden zonder een speciaal kaartje ervoor te hoeven kopen.'
   },
   'tmplVar approved' => {
     'lastUpdated' => 1149862933,
     'message' => 'Een functie die 1 is als het evenement is goedgekeurd.'
   },
   'token instructions help' => {
-    'lastUpdated' => 1215443212,
+    'lastUpdated' => 1216646489,
     'message' => 'Geef de gebruiker hulp bij het gebruik van een kortingspas.'
   },
   'filter' => {
@@ -1188,6 +1368,10 @@ our $I18N = {
   'endDateHuman' => {
     'lastUpdated' => 1149860583,
     'message' => 'De einddatum-en tijd van dit evenement, in een epoch formaat.'
+  },
+  'timezone help' => {
+    'lastUpdated' => 1216646760,
+    'message' => 'De tijdszone waarin dit evenement zal plaatsvinden volgens de configuratie.'
   },
   'any' => {
     'lastUpdated' => 1148291542,
@@ -1208,6 +1392,10 @@ our $I18N = {
   'pass name description' => {
     'lastUpdated' => 1148307741,
     'message' => 'De naam van de kortingspas. In het systeem wordt dit gebruikt voor referentie naar deze pas en de bijbehorende kortingen, dus kies een omschrijvende naam. Dit veld kan niet leeggelaten worden.'
+  },
+  'ribbonInstructions help' => {
+    'lastUpdated' => 1216646924,
+    'message' => 'Gebruikersinstructies voor de kortingspas'
   },
   'missing prerequisites message' => {
     'lastUpdated' => 1208522006,
@@ -1249,6 +1437,10 @@ our $I18N = {
     'lastUpdated' => 1215428128,
     'message' => 'Opzoeken registrant sjabloon'
   },
+  'purchaseComplete' => {
+    'lastUpdated' => 1216647033,
+    'message' => 'Een functie die waar is als de aanschaf van het naamplaatje voltooid is.'
+  },
   'badge builder template help' => {
     'lastUpdated' => 1214557608,
     'message' => 'Welk sjabloon moet gebruikt worden voor het naamplaatjes generator scherm?'
@@ -1260,6 +1452,10 @@ our $I18N = {
   'maximumAttendees' => {
     'lastUpdated' => 1149860007,
     'message' => '<p>Het aantal mensen dat zich in mag schrijven voor dit evenement. </p>'
+  },
+  'emsAssetId' => {
+    'lastUpdated' => 1216646232,
+    'message' => 'De asset id van het evenementenbeheersysteem waaronder dit naamplaatje valt.'
   },
   'import invalid prereq' => {
     'lastUpdated' => 1208521754,
@@ -1305,6 +1501,10 @@ our $I18N = {
     'lastUpdated' => 1213703170,
     'message' => 'Label'
   },
+  'address1' => {
+    'lastUpdated' => 1216648062,
+    'message' => 'Regel 1 van het adres van de houder van het naamplaatje.'
+  },
   'assigned discount pass description' => {
     'lastUpdated' => 1148291873,
     'message' => 'De kortingspas, als die er is, die van toepassing is op dit evenement.'
@@ -1321,6 +1521,10 @@ our $I18N = {
     'lastUpdated' => 1214558420,
     'message' => 'Naamplaatjes houder informatie'
   },
+  'badgeNumber' => {
+    'lastUpdated' => 1216648385,
+    'message' => 'Het nummer van dit naamplaatje.'
+  },
   'meta hover help' => {
     'lastUpdated' => 1190026129,
     'message' => 'Dit veld is maatwerk. Vraag een beheerder om hulp.'
@@ -1329,9 +1533,17 @@ our $I18N = {
     'lastUpdated' => 1149861413,
     'message' => 'Deze kring bevat alle goedgekeurde evenementen, zodanig dat gebruikers zich in kunnen schrijven.'
   },
+  'getRegistrantsUrl' => {
+    'lastUpdated' => 1216648954,
+    'message' => 'URL voor het leveren van informatie over de registrant in JSON formaat.<br /> '
+  },
   'select one' => {
     'lastUpdated' => 1148308110,
     'message' => 'Selecteer &eacute;&eacute;n'
+  },
+  'buildBadgeUrl' => {
+    'lastUpdated' => 1216648661,
+    'message' => 'URL waar informatie over het huidige naamplaatje getoond wordt.'
   },
   'export events' => {
     'lastUpdated' => 1190027401,
@@ -1360,6 +1572,10 @@ our $I18N = {
   'badge builder template' => {
     'lastUpdated' => 1213966512,
     'message' => 'Naamplaatjes generator sjabloon'
+  },
+  'badgeAssetId' => {
+    'lastUpdated' => 1216648111,
+    'message' => 'Het asset ID van dit naamplaatje.'
   },
   'productId' => {
     'lastUpdated' => 1149861569,
