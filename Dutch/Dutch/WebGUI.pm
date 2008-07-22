@@ -5,93 +5,93 @@ our $I18N = {
     'lastUpdated' => 1190023707,
     'message' => 'Uitvoeren bij registratie'
   },
-  '84 description' => {
-    'lastUpdated' => 1154095585,
-    'message' => 'Een naam voor de groep. Het handigst is een naam te kiezen die omschrijvend is, zodat direct zichtbaar is wat voor soort groep het is.'
+  '1049' => {
+    'lastUpdated' => 1153750721,
+    'message' => 'Inhoud filter identificatie'
   },
   '127' => {
     'lastUpdated' => 1153751449,
     'message' => 'URL bedrijf'
   },
-  '1049' => {
-    'lastUpdated' => 1153750721,
-    'message' => 'Inhoud filter identificatie'
-  },
-  '71' => {
-    'lastUpdated' => 1154093977,
-    'message' => 'Herstel wachtwoord'
-  },
-  '118' => {
-    'lastUpdated' => 1153751280,
-    'message' => 'Anonieme registratie'
+  '84 description' => {
+    'lastUpdated' => 1154095585,
+    'message' => 'Een naam voor de groep. Het handigst is een naam te kiezen die omschrijvend is, zodat direct zichtbaar is wat voor soort groep het is.'
   },
   '443' => {
     'lastUpdated' => 1154076505,
     'message' => 'Thuis informatie'
   },
+  '118' => {
+    'lastUpdated' => 1153751280,
+    'message' => 'Anonieme registratie'
+  },
+  '71' => {
+    'lastUpdated' => 1154093977,
+    'message' => 'Herstel wachtwoord'
+  },
   '959' => {
     'lastUpdated' => 1156171876,
     'message' => 'Leeg systeem prullenmand'
-  },
-  'show all fields' => {
-    'lastUpdated' => 1155908210,
-    'message' => 'Toon alle velden '
   },
   '882' => {
     'lastUpdated' => 1156171751,
     'message' => 'Editor modus'
   },
-  'cache type' => {
-    'lastUpdated' => 1156170687,
-    'message' => 'Type cache'
-  },
-  '331' => {
-    'lastUpdated' => 1155887478,
-    'message' => 'Provincie werk'
+  'show all fields' => {
+    'lastUpdated' => 1155908210,
+    'message' => 'Toon alle velden '
   },
   '358' => {
     'lastUpdated' => 1154074606,
     'message' => 'Linker kolom'
   },
+  '331' => {
+    'lastUpdated' => 1155887478,
+    'message' => 'Provincie werk'
+  },
+  'cache type' => {
+    'lastUpdated' => 1156170687,
+    'message' => 'Type cache'
+  },
   '1050' => {
     'lastUpdated' => 1153750738,
     'message' => 'Zoek naar'
-  },
-  '560' => {
-    'lastUpdated' => 1154091028,
-    'message' => 'Goedgekeurd'
   },
   '737' => {
     'lastUpdated' => 1154094405,
     'message' => '8 meester'
   },
-  'settings groupIdAdminWorkflowRun label' => {
-    'lastUpdated' => 1190022516,
-    'message' => 'Workflow (run)'
-  },
-  'settings groupIdAdminCache hoverHelp' => {
-    'lastUpdated' => 1190023225,
-    'message' => 'Groep om de cache te zien en wissen'
-  },
-  '84' => {
-    'lastUpdated' => 1154095541,
-    'message' => 'Groepsnaam'
+  '560' => {
+    'lastUpdated' => 1154091028,
+    'message' => 'Goedgekeurd'
   },
   'skip commit comments' => {
     'lastUpdated' => 1189454344,
     'message' => 'Commentaar bij publicatie overslaan?'
   },
+  '84' => {
+    'lastUpdated' => 1154095541,
+    'message' => 'Groepsnaam'
+  },
+  'settings groupIdAdminCache hoverHelp' => {
+    'lastUpdated' => 1190023225,
+    'message' => 'Groep om de cache te zien en wissen'
+  },
+  'settings groupIdAdminWorkflowRun label' => {
+    'lastUpdated' => 1190022516,
+    'message' => 'Workflow (run)'
+  },
   '437' => {
     'lastUpdated' => 1154076193,
     'message' => 'Statistieken'
   },
-  '451' => {
-    'lastUpdated' => 1204556794,
-    'message' => 'Is vereist.'
-  },
   'changeUrl workflow help' => {
     'lastUpdated' => 1166636236,
     'message' => 'Welke workflow (werkschema) moet gevolgd worden wanneer de url van een asset is gewijzigd?'
+  },
+  '451' => {
+    'lastUpdated' => 1204556794,
+    'message' => 'Is vereist.'
   },
   '454' => {
     'lastUpdated' => 1154076786,
@@ -101,15 +101,15 @@ our $I18N = {
     'lastUpdated' => 1153750564,
     'message' => 'Beoordeel bericht'
   },
-  'private message to label' => {
-    'lastUpdated' => 1189454808,
-    'message' => 'Aan'
-  },
   '135 description' => {
     'lastUpdated' => 1166785442,
     'message' => 'Dit is het adres van de lokale mailserver. Dit wordt door alle functionaliteiten, die het internet mailsysteem gebruiken, gebruikt (zoals wachtwoord herstel).<br />
 <br />
 Als er een server voor het verzenden van email op dezelfde machine staat als de WebGUI installatie, kan er eventueel een pad naar het uitvoerende verzendbestand gespecificeerd worden. In de meeste Linux systemen kan dit gevonden worden in "/usr/lib/sendmail".'
+  },
+  'private message to label' => {
+    'lastUpdated' => 1189454808,
+    'message' => 'Aan'
   },
   '540 description' => {
     'lastUpdated' => 1154077640,
@@ -139,89 +139,89 @@ Als er een server voor het verzenden van email op dezelfde machine staat als de 
     'lastUpdated' => 1166636365,
     'message' => 'Workflow (werkschema) volledig verwijderen'
   },
-  'private message reply title' => {
-    'lastUpdated' => 1189454283,
-    'message' => 'Bericht beantwoorden'
-  },
   '948' => {
     'lastUpdated' => 1154097274,
     'message' => 'Klembord'
   },
-  '325' => {
-    'lastUpdated' => 1153753244,
-    'message' => 'Provincie'
+  'private message reply title' => {
+    'lastUpdated' => 1189454283,
+    'message' => 'Bericht beantwoorden'
   },
   '378' => {
     'lastUpdated' => 1154074880,
     'message' => 'Gebruikers identificatie'
   },
-  'view inbox template description' => {
-    'lastUpdated' => 1189454548,
-    'message' => 'Kies een template om de inbox weer te geven.'
+  '325' => {
+    'lastUpdated' => 1153753244,
+    'message' => 'Provincie'
   },
   '889' => {
     'lastUpdated' => 1154097098,
     'message' => 'Style sheets, tabs'
   },
-  '572' => {
-    'lastUpdated' => 1154091197,
-    'message' => 'Goedkeuren'
+  'view inbox template description' => {
+    'lastUpdated' => 1189454548,
+    'message' => 'Kies een template om de inbox weer te geven.'
   },
   '350' => {
     'lastUpdated' => 1154074502,
     'message' => 'Voltooid'
   },
+  '572' => {
+    'lastUpdated' => 1154091197,
+    'message' => 'Goedkeuren'
+  },
   '540' => {
     'lastUpdated' => 1154077604,
     'message' => 'Karma per login'
-  },
-  'private message prev label' => {
-    'lastUpdated' => 1189454245,
-    'message' => 'Vorige'
-  },
-  'pagination.lastPageUrl' => {
-    'lastUpdated' => 1156168248,
-    'message' => 'De losse URL component van pagination.lastPage.'
   },
   '58' => {
     'lastUpdated' => 1154091243,
     'message' => 'Ik heb al een account'
   },
-  '431' => {
-    'lastUpdated' => 1154076137,
-    'message' => 'IP adres'
+  'pagination.lastPageUrl' => {
+    'lastUpdated' => 1156168248,
+    'message' => 'De losse URL component van pagination.lastPage.'
+  },
+  'private message prev label' => {
+    'lastUpdated' => 1189454245,
+    'message' => 'Vorige'
   },
   '527' => {
     'lastUpdated' => 1154077336,
     'message' => 'Standaard homepage'
   },
+  '431' => {
+    'lastUpdated' => 1154076137,
+    'message' => 'IP adres'
+  },
   '861' => {
     'lastUpdated' => 1154096083,
     'message' => 'Profiel publiek maken?'
-  },
-  'settings groupIdAdminStatistics label' => {
-    'lastUpdated' => 1190022759,
-    'message' => 'Statistieken'
   },
   '337' => {
     'lastUpdated' => 1153753441,
     'message' => 'URL homepage'
   },
-  '76' => {
-    'lastUpdated' => 1154094917,
-    'message' => 'Dit email adres staat niet in onze databases.'
+  'settings groupIdAdminStatistics label' => {
+    'lastUpdated' => 1190022759,
+    'message' => 'Statistieken'
   },
   '340' => {
     'lastUpdated' => 1153753384,
     'message' => 'Vrouw'
   },
-  '62' => {
-    'lastUpdated' => 1171621852,
-    'message' => 'Verstuur'
+  '76' => {
+    'lastUpdated' => 1154094917,
+    'message' => 'Dit email adres staat niet in onze databases.'
   },
   '311' => {
     'lastUpdated' => 1155887259,
     'message' => 'Informatie over huis toestaan?'
+  },
+  '62' => {
+    'lastUpdated' => 1171621852,
+    'message' => 'Verstuur'
   },
   '982' => {
     'lastUpdated' => 1156171852,
@@ -259,21 +259,21 @@ Als er een server voor het verzenden van email op dezelfde machine staat als de 
     'lastUpdated' => 1154075896,
     'message' => 'Filter inhoud'
   },
-  '168' => {
-    'lastUpdated' => 1153752053,
-    'message' => 'Bewerk gebruiker'
-  },
   '706' => {
     'lastUpdated' => 1154093187,
     'message' => 'Uur/uren'
   },
-  '14' => {
-    'lastUpdated' => 1153751638,
-    'message' => 'Bekijk wachtende bijdragen.'
+  '168' => {
+    'lastUpdated' => 1153752053,
+    'message' => 'Bewerk gebruiker'
   },
   '135' => {
     'lastUpdated' => 1153751599,
     'message' => 'SMTP server'
+  },
+  '14' => {
+    'lastUpdated' => 1153751638,
+    'message' => 'Bekijk wachtende bijdragen.'
   },
   '348' => {
     'lastUpdated' => 1153753581,
@@ -283,21 +283,21 @@ Als er een server voor het verzenden van email op dezelfde machine staat als de 
     'lastUpdated' => 1181337052,
     'message' => 'Je hebt niet voldoende rechten om deze operatie uit te voeren. Log in met een account dat voldoende rechten heeft en probeer het opnieuw.'
   },
-  'editSettings error occurred' => {
-    'lastUpdated' => 1190023515,
-    'message' => 'De volgende fouten treden op wanneer getracht wordt de instellingen te bewaren:'
-  },
   '145' => {
     'lastUpdated' => 1153751838,
     'message' => 'WebGUI versie'
   },
-  'preview' => {
-    'lastUpdated' => 1156167762,
-    'message' => 'Voorvertoning'
+  'editSettings error occurred' => {
+    'lastUpdated' => 1190023515,
+    'message' => 'De volgende fouten treden op wanneer getracht wordt de instellingen te bewaren:'
   },
   '142 description' => {
     'lastUpdated' => 1207820955,
     'message' => 'De hoeveelheid tijd die een sessie van een gebruiker actief blijft (voordat deze weer opnieuw moet inloggen). Deze timeout wordt op nul gezet, iedere keer dat een gebruiker een pagina opvraagt. Als de timeout bijvoorbeeld op 8 uur staat, moet een gebruiker weer inloggen als deze de site 8 uur lang niet bezocht heeft. '
+  },
+  'preview' => {
+    'lastUpdated' => 1156167762,
+    'message' => 'Voorvertoning'
   },
   '993' => {
     'lastUpdated' => 1156498708,
@@ -319,53 +319,53 @@ Als er een server voor het verzenden van email op dezelfde machine staat als de 
     'lastUpdated' => 1156170702,
     'message' => 'Cache statistieken'
   },
-  'settings groupIdAdminProfileSettings label' => {
-    'lastUpdated' => 1190022854,
-    'message' => 'Gebruikers profielen'
-  },
   '486' => {
     'lastUpdated' => 1154077001,
     'message' => 'Lijst'
+  },
+  'settings groupIdAdminProfileSettings label' => {
+    'lastUpdated' => 1190022854,
+    'message' => 'Gebruikers profielen'
   },
   'SubscriptionGroup formName' => {
     'lastUpdated' => 1208183481,
     'message' => 'Inschrijvingsgroep'
   },
-  '160' => {
-    'lastUpdated' => 1153751928,
-    'message' => 'Inzend datum '
-  },
   '509' => {
     'lastUpdated' => 1154077146,
     'message' => 'Discussie layout'
   },
-  '367' => {
-    'lastUpdated' => 1155888241,
-    'message' => 'Tijd voor verlopen'
-  },
-  '8' => {
-    'lastUpdated' => 1154095062,
-    'message' => 'Bekijk de niet gevonden pagina.'
+  '160' => {
+    'lastUpdated' => 1153751928,
+    'message' => 'Inzend datum '
   },
   '976' => {
     'lastUpdated' => 1156498454,
     'message' => 'Gebruikers toevoegen'
   },
-  'settings groupIdAdminSpectre hoverHelp' => {
-    'lastUpdated' => 1190022801,
-    'message' => 'Groep die de status van Spectre kan zien.'
+  '8' => {
+    'lastUpdated' => 1154095062,
+    'message' => 'Bekijk de niet gevonden pagina.'
   },
-  'choose an asset' => {
-    'lastUpdated' => 1156170658,
-    'message' => 'Kies een asset'
+  '367' => {
+    'lastUpdated' => 1155888241,
+    'message' => 'Tijd voor verlopen'
+  },
+  '43' => {
+    'lastUpdated' => 1154076120,
+    'message' => 'Weet u zeker dat u deze inhoud wilt verwijderen?'
   },
   'pagination.firstPage' => {
     'lastUpdated' => 1156168734,
     'message' => 'Een link naar de eerste pagina in het paginaoverzicht.'
   },
-  '43' => {
-    'lastUpdated' => 1154076120,
-    'message' => 'Weet u zeker dat u deze inhoud wilt verwijderen?'
+  'choose an asset' => {
+    'lastUpdated' => 1156170658,
+    'message' => 'Kies een asset'
+  },
+  'settings groupIdAdminSpectre hoverHelp' => {
+    'lastUpdated' => 1190022801,
+    'message' => 'Groep die de status van Spectre kan zien.'
   },
   '485' => {
     'lastUpdated' => 1156335518,
@@ -515,6 +515,14 @@ Als er een server voor het verzenden van email op dezelfde machine staat als de 
     'lastUpdated' => 1154075354,
     'message' => 'U heeft niet voldoende privileges voor toegang tot deze pagina. '
   },
+  '64' => {
+    'lastUpdated' => 1154092034,
+    'message' => 'Log uit'
+  },
+  'mail return path' => {
+    'lastUpdated' => 1156169357,
+    'message' => 'Terugzend pad'
+  },
   'account' => {
     'lastUpdated' => 1154097996,
     'message' => 'Account'
@@ -523,25 +531,17 @@ Als er een server voor het verzenden van email op dezelfde machine staat als de 
     'lastUpdated' => 1155760524,
     'message' => 'Grote sites, die gebruik maken van groepen die in een externe database zijn vastgelegd, zullen deze externe database erg veel aanspreken. Om deze belasting te reduceren, kun je aangeven hoe lang deze gegevens in de WebGUI database gecached mogen worden. Meer geavanceerde caching wordt mogelijk in een latere versie van WebGUI toegevoegd. '
   },
-  'mail return path' => {
-    'lastUpdated' => 1156169357,
-    'message' => 'Terugzend pad'
-  },
-  '64' => {
-    'lastUpdated' => 1154092034,
-    'message' => 'Log uit'
-  },
   '558' => {
     'lastUpdated' => 1154090845,
     'message' => 'Bewerk karma van de gebruiker'
   },
-  'password clear text' => {
-    'lastUpdated' => 1156167820,
-    'message' => 'Het wachtwoord wordt als normale tekst getoond, zodat u zeker weet dat het correct getyped is.'
-  },
   '12' => {
     'lastUpdated' => 1158564884,
     'message' => 'Zet beheermode uit'
+  },
+  'password clear text' => {
+    'lastUpdated' => 1156167820,
+    'message' => 'Het wachtwoord wordt als normale tekst getoond, zodat u zeker weet dat het correct getyped is.'
   },
   '881' => {
     'lastUpdated' => 1154096977,
@@ -555,37 +555,37 @@ Als er een server voor het verzenden van email op dezelfde machine staat als de 
     'lastUpdated' => 1207820856,
     'message' => 'Laat de debug informatie zien in de uitvoer van WebGUI. Dit is voornamelijk nuttig voor WebGUI ontwikkelaars, maar kan ook interessant zijn voor beheerders die een probleem moeten oplossen.'
   },
-  'settings groupIdAdminUser hoverHelp' => {
-    'lastUpdated' => 1207823868,
-    'message' => 'Groep die gebruikers kan beheren. Deze kan gebruikers toevoegen en wijzigen.'
+  '45' => {
+    'lastUpdated' => 1154076684,
+    'message' => 'Nee, ik heb een vergissing begaan.'
   },
   'private message next label' => {
     'lastUpdated' => 1189454178,
     'message' => 'Volgende'
   },
-  '45' => {
-    'lastUpdated' => 1154076684,
-    'message' => 'Nee, ik heb een vergissing begaan.'
-  },
-  '405' => {
-    'lastUpdated' => 1154075626,
-    'message' => 'Laatste pagina'
+  'settings groupIdAdminUser hoverHelp' => {
+    'lastUpdated' => 1207823868,
+    'message' => 'Groep die gebruikers kan beheren. Deze kan gebruikers toevoegen en wijzigen.'
   },
   '507' => {
     'lastUpdated' => 1154077130,
     'message' => 'Bewerk sjabloon'
   },
+  '405' => {
+    'lastUpdated' => 1154075626,
+    'message' => 'Laatste pagina'
+  },
   '866 description' => {
     'lastUpdated' => 1154096820,
     'message' => 'Typ het bericht dat aan gebruikers gezonden moet worden, waarin staat dat het lidmaatschap verloopt.'
   },
-  '370' => {
-    'lastUpdated' => 1154074826,
-    'message' => 'Bewerk groepen'
-  },
   '1084' => {
     'lastUpdated' => 1166195012,
     'message' => 'Gebruik de standaard taakbalk voor mijn taal'
+  },
+  '370' => {
+    'lastUpdated' => 1154074826,
+    'message' => 'Bewerk groepen'
   },
   '309' => {
     'lastUpdated' => 1153752306,
@@ -627,13 +627,13 @@ Als er een server voor het verzenden van email op dezelfde machine staat als de 
     'lastUpdated' => 1153750971,
     'message' => 'Database link'
   },
-  '381' => {
-    'lastUpdated' => 1208856251,
-    'message' => 'WebGUI heeft een onjuist verzoek gekregen en kon niet verder gaan. Eigen karakters die in een formulier worden ingevuld zijn hiervan waarschijnlijk de oorzaak. Probeer opnieuw met behulp van de terug knop.  '
-  },
   'user profile edit template' => {
     'lastUpdated' => 1214556957,
     'message' => 'Gebruikersprofiel bewerkings sjabloon'
+  },
+  '381' => {
+    'lastUpdated' => 1208856251,
+    'message' => 'WebGUI heeft een onjuist verzoek gekregen en kon niet verder gaan. Eigen karakters die in een formulier worden ingevuld zijn hiervan waarschijnlijk de oorzaak. Probeer opnieuw met behulp van de terug knop.  '
   },
   '581' => {
     'lastUpdated' => 1154091259,
@@ -647,21 +647,21 @@ Als er een server voor het verzenden van email op dezelfde machine staat als de 
     'lastUpdated' => 1154075396,
     'message' => 'Dit bestand verwijderen? '
   },
-  'pagination.pageCount.isMultiple' => {
-    'lastUpdated' => 1208856762,
-    'message' => 'Een functie die aangeeft of er meer dan &eacute;&eacute;n pagina is.'
-  },
   '496' => {
     'lastUpdated' => 1155889117,
     'message' => 'Te gebruiken editor'
   },
-  'settings groupIdAdminProfileSettings hoverHelp' => {
-    'lastUpdated' => 1190022875,
-    'message' => 'Groep die het gebruikersprofiel kan beheren.'
+  'pagination.pageCount.isMultiple' => {
+    'lastUpdated' => 1208856762,
+    'message' => 'Een functie die aangeeft of er meer dan &eacute;&eacute;n pagina is.'
   },
   'Enable Metadata description' => {
     'lastUpdated' => 1156171359,
     'message' => 'Dit zet de metadata tab van assets aan, zodat metadata kan worden ingevoerd en bijgehouden door WebGUI.'
+  },
+  'settings groupIdAdminProfileSettings hoverHelp' => {
+    'lastUpdated' => 1190022875,
+    'message' => 'Groep die het gebruikersprofiel kan beheren.'
   },
   '605' => {
     'lastUpdated' => 1154091517,
@@ -679,9 +679,9 @@ Als er een server voor het verzenden van email op dezelfde machine staat als de 
     'lastUpdated' => 1154095301,
     'message' => 'Groepen in deze groep'
   },
-  'settings groupIdAdminGroup label' => {
-    'lastUpdated' => 1190023034,
-    'message' => 'Groepen'
+  '42' => {
+    'lastUpdated' => 1154075980,
+    'message' => 'Alstublieft bevestigen'
   },
   'head.tags' => {
     'lastUpdated' => 1190023420,
@@ -697,17 +697,13 @@ Het volgende wordt aangeraden voor het <title></title> gedeelte van de stijl:
 
 Dit specifieke voorbeeld zorgt voor een goede vindbaarheid in zoekmachines.'
   },
-  '42' => {
-    'lastUpdated' => 1154075980,
-    'message' => 'Alstublieft bevestigen'
+  'settings groupIdAdminGroup label' => {
+    'lastUpdated' => 1190023034,
+    'message' => 'Groepen'
   },
   'link in new window' => {
     'lastUpdated' => 1156169413,
     'message' => 'Link openen in nieuw venster'
-  },
-  'settings groupIdAdminHelp hoverHelp' => {
-    'lastUpdated' => 1190022984,
-    'message' => 'Groep die de help kan zien'
   },
   '1005 description' => {
     'lastUpdated' => 1166785413,
@@ -721,6 +717,10 @@ and health_plans.health_plan_id = empl_plan_mp.health_plan_id <br />
 <br />
 Deze groep zou dan "Werknemers in HMO 1" genoemd kunnen worden en zou je de mogelijkheid geven om toegang een pagina of een wobject te beperken tot alleen de gebruikers die lid zijn van deze ziektekostenverzekering volgens de externe database.'
   },
+  'settings groupIdAdminHelp hoverHelp' => {
+    'lastUpdated' => 1190022984,
+    'message' => 'Groep die de help kan zien'
+  },
   'groups to delete' => {
     'lastUpdated' => 1156169871,
     'message' => 'GROEPEN DIE VERWIJDERD MOETEN WORDEN'
@@ -733,45 +733,45 @@ Deze groep zou dan "Werknemers in HMO 1" genoemd kunnen worden en zou je de moge
     'lastUpdated' => 1154076178,
     'message' => 'Sluit sessie af'
   },
-  '51' => {
-    'lastUpdated' => 1154077158,
-    'message' => 'Wachtwoord'
-  },
   '816' => {
     'lastUpdated' => 1154095341,
     'message' => 'Status'
   },
-  'Enable user invitations description' => {
-    'lastUpdated' => 1189453779,
-    'message' => 'Maak het mogelijk voor gebruikers om email te sturen naar hun vrienden en bekenden, om ze uit te nodigen om een account aan te maken op deze site.'
+  '51' => {
+    'lastUpdated' => 1154077158,
+    'message' => 'Wachtwoord'
   },
   '456' => {
     'lastUpdated' => 1154076821,
     'message' => 'Terug naar lijst van gebruikers'
   },
-  'private message status unread' => {
-    'lastUpdated' => 1189454770,
-    'message' => 'Ongelezen'
+  'Enable user invitations description' => {
+    'lastUpdated' => 1189453779,
+    'message' => 'Maak het mogelijk voor gebruikers om email te sturen naar hun vrienden en bekenden, om ze uit te nodigen om een account aan te maken op deze site.'
   },
   '1051 description' => {
     'lastUpdated' => 1199694533,
     'message' => 'De tekst die de gezochte string moet vervangen.'
   },
+  'private message status unread' => {
+    'lastUpdated' => 1189454770,
+    'message' => 'Ongelezen'
+  },
   '975' => {
     'lastUpdated' => 1156498394,
     'message' => 'Kunnen gebruikers zichzelf verwijderen?'
   },
-  '465 description' => {
-    'lastUpdated' => 1155888309,
-    'message' => 'Hoeveel karakters kunnen tegelijkertijd getoond worden in tekst velden op de site.'
+  '493' => {
+    'lastUpdated' => 1154077028,
+    'message' => 'Terug naar de site'
   },
   'link in same window' => {
     'lastUpdated' => 1156169393,
     'message' => 'Link openen in hetzelfde venster'
   },
-  '493' => {
-    'lastUpdated' => 1154077028,
-    'message' => 'Terug naar de site'
+  '465 description' => {
+    'lastUpdated' => 1155888309,
+    'message' => 'Hoeveel karakters kunnen tegelijkertijd getoond worden in tekst velden op de site.'
   },
   'trash workflow help' => {
     'lastUpdated' => 1207817381,
@@ -1065,17 +1065,17 @@ Deze groep zou dan "Werknemers in HMO 1" genoemd kunnen worden en zou je de moge
     'lastUpdated' => 1201183057,
     'message' => 'Account opties sjabloon variabelen'
   },
-  'button' => {
-    'lastUpdated' => 1154098030,
-    'message' => 'Knop'
+  '372' => {
+    'lastUpdated' => 1154074864,
+    'message' => 'Bewerk de groepen van deze gebruiker'
   },
   '810' => {
     'lastUpdated' => 1154095226,
     'message' => 'verzenden'
   },
-  '372' => {
-    'lastUpdated' => 1154074864,
-    'message' => 'Bewerk de groepen van deze gebruiker'
+  'button' => {
+    'lastUpdated' => 1154098030,
+    'message' => 'Knop'
   },
   '574' => {
     'lastUpdated' => 1154091209,
@@ -1109,53 +1109,53 @@ Deze groep zou dan "Werknemers in HMO 1" genoemd kunnen worden en zou je de moge
     'lastUpdated' => 1156172221,
     'message' => 'Titel'
   },
-  'showMessageOnLogin description' => {
-    'lastUpdated' => 1213866012,
-    'message' => 'Laat een bericht zien nadar een gebruiker is ingelogd als dit op &quot;Ja&quot; staat.'
-  },
   'settings groupIdAdminLDAPLink label' => {
     'lastUpdated' => 1190022944,
     'message' => 'LDAP'
   },
-  '526' => {
-    'lastUpdated' => 1154077323,
-    'message' => 'Verwijder javascript en sluit macros uit.'
-  },
-  '72' => {
-    'lastUpdated' => 1154093986,
-    'message' => 'herstel'
+  'showMessageOnLogin description' => {
+    'lastUpdated' => 1213866012,
+    'message' => 'Laat een bericht zien nadar een gebruiker is ingelogd als dit op &quot;Ja&quot; staat.'
   },
   '566' => {
     'lastUpdated' => 1155889507,
     'message' => 'Timeout bewerken'
   },
-  '806' => {
-    'lastUpdated' => 1154095118,
-    'message' => 'Verwijder deze groep.'
+  '72' => {
+    'lastUpdated' => 1154093986,
+    'message' => 'herstel'
+  },
+  '526' => {
+    'lastUpdated' => 1154077323,
+    'message' => 'Verwijder javascript en sluit macros uit.'
   },
   '869' => {
     'lastUpdated' => 1207821273,
     'message' => 'Welkomsbericht'
   },
-  'help contents' => {
-    'lastUpdated' => 1156169849,
-    'message' => 'Inhoud help'
-  },
-  '533' => {
-    'lastUpdated' => 1154077437,
-    'message' => 'zonder de woorden'
+  '806' => {
+    'lastUpdated' => 1154095118,
+    'message' => 'Verwijder deze groep.'
   },
   '359' => {
     'lastUpdated' => 1154074620,
     'message' => 'Rechter kolom'
   },
-  '527 description' => {
-    'lastUpdated' => 1155889448,
-    'message' => 'Sommige kleine sites hebben geen homepage, maar gebruiken een interne pagina zoals &quot;over ons&quot; of bedrijfs informatie als homepage. Daarom kan elke pagina van de site als homepage gekozen worden. Die pagina wordt getoond als ze alleen het hoofd URL intypen (bijvoorbeeld http://www.mywebguisite.com) of als ze op de home link klikken die gemaakt is met een AssetProxy of een navigatie asset.'
+  '533' => {
+    'lastUpdated' => 1154077437,
+    'message' => 'zonder de woorden'
+  },
+  'help contents' => {
+    'lastUpdated' => 1156169849,
+    'message' => 'Inhoud help'
   },
   '811 description' => {
     'lastUpdated' => 1154095268,
     'message' => 'De persoon/groep die de email heeft verzonden.'
+  },
+  '527 description' => {
+    'lastUpdated' => 1155889448,
+    'message' => 'Sommige kleine sites hebben geen homepage, maar gebruiken een interne pagina zoals &quot;over ons&quot; of bedrijfs informatie als homepage. Daarom kan elke pagina van de site als homepage gekozen worden. Die pagina wordt getoond als ze alleen het hoofd URL intypen (bijvoorbeeld http://www.mywebguisite.com) of als ze op de home link klikken die gemaakt is met een AssetProxy of een navigatie asset.'
   },
   '1006 description' => {
     'lastUpdated' => 1166195104,
@@ -1177,13 +1177,13 @@ Deze groep zou dan "Werknemers in HMO 1" genoemd kunnen worden en zou je de moge
     'lastUpdated' => 1201183342,
     'message' => 'Een volledige HTML link, met geinternationaliseerd label, voor individuele account opties, zoals het bewerken van een profiel, het bekijken van een profiel, het kunnen bekijken van de inbox van een gebruiker en meer.'
   },
-  '462' => {
-    'lastUpdated' => 1154076863,
-    'message' => 'Vorm tijd'
-  },
   '232' => {
     'lastUpdated' => 1153752257,
     'message' => 'geen onderwerp'
+  },
+  '462' => {
+    'lastUpdated' => 1154076863,
+    'message' => 'Vorm tijd'
   },
   '477' => {
     'lastUpdated' => 1154076915,
@@ -1197,33 +1197,33 @@ Deze groep zou dan "Werknemers in HMO 1" genoemd kunnen worden en zou je de moge
     'lastUpdated' => 1189454387,
     'message' => 'Wilt u de mogelijkheid krijgen commentaar toe te voegen bij publicatie van wijzigingen?'
   },
-  '142' => {
-    'lastUpdated' => 1155886575,
-    'message' => 'Sessie timeout'
-  },
   '330' => {
     'lastUpdated' => 1155887282,
     'message' => 'Plaats werk'
   },
-  '991' => {
-    'lastUpdated' => 1156498585,
-    'message' => 'Database link indentificatie'
+  '142' => {
+    'lastUpdated' => 1155886575,
+    'message' => 'Sessie timeout'
   },
   '167' => {
     'lastUpdated' => 1208856142,
     'message' => 'Weet u zeker dat u deze gebruiker wilt verwijderen. Alle informatie over deze gebruiker zal permanent verloren gaan wanneer er verder gegaan wordt.'
   },
-  'help index' => {
-    'lastUpdated' => 1156169834,
-    'message' => 'Index'
+  '991' => {
+    'lastUpdated' => 1156498585,
+    'message' => 'Database link indentificatie'
+  },
+  '360' => {
+    'lastUpdated' => 1155887539,
+    'message' => '&Eacute;&eacute;n boven drie'
   },
   'group' => {
     'lastUpdated' => 1156170090,
     'message' => 'Groep'
   },
-  '360' => {
-    'lastUpdated' => 1155887539,
-    'message' => '&Eacute;&eacute;n boven drie'
+  'help index' => {
+    'lastUpdated' => 1156169834,
+    'message' => 'Index'
   },
   '514' => {
     'lastUpdated' => 1155889133,
@@ -1237,13 +1237,13 @@ Deze groep zou dan "Werknemers in HMO 1" genoemd kunnen worden en zou je de moge
     'lastUpdated' => 1154094048,
     'message' => 'De gebruikersnaam moet ingevuld worden.'
   },
-  'country' => {
-    'lastUpdated' => 1154097919,
-    'message' => 'Land'
-  },
   '50 description' => {
     'lastUpdated' => 1154077074,
     'message' => 'De naam van de gebruiker'
+  },
+  'country' => {
+    'lastUpdated' => 1154097919,
+    'message' => 'Land'
   },
   '50' => {
     'lastUpdated' => 1154077061,
@@ -1285,29 +1285,29 @@ Deze groep zou dan "Werknemers in HMO 1" genoemd kunnen worden en zou je de moge
     'lastUpdated' => 1153753206,
     'message' => 'Pieper'
   },
-  '164 description' => {
-    'lastUpdated' => 1166787969,
-    'message' => "Stel de standaard authenticatie methode voor nieuwe accounts in. De twee opties die standaard beschikbaar zij, zijn WebGUI en LDAP. WebGUI authenticatie betekent dat gebruikers zich moeten valideren tegen de gebruikersnaam en wachtwoord die in de WebGUI database zijn opgeslagen. Bij LDAP authenticatie komt deze informatie uit een externe LDAP server. Andere methoden kunnen gebruikt worden als er eerst een eigen authenticatie werktuig geschreven wordt.</p><p><em>Aantekeningen:</em><br />
-<br />
-Authenticatie instellingen kunnen per gebruiker worden ingesteld.<br />
-<br />
-Afhankelijk van welke authenticatie modules ge\x{ef}nstalleerd zijn in het systeem, worden hierna de verschillende opties getoond."
-  },
   '353' => {
     'lastUpdated' => 1154074564,
     'message' => 'Er zijn momenteel geen nieuwe berichten in de inbox.'
+  },
+  '164 description' => {
+    'lastUpdated' => 1166787969,
+    'message' => 'Stel de standaard authenticatie methode voor nieuwe accounts in. De twee opties die standaard beschikbaar zij, zijn WebGUI en LDAP. WebGUI authenticatie betekent dat gebruikers zich moeten valideren tegen de gebruikersnaam en wachtwoord die in de WebGUI database zijn opgeslagen. Bij LDAP authenticatie komt deze informatie uit een externe LDAP server. Andere methoden kunnen gebruikt worden als er eerst een eigen authenticatie werktuig geschreven wordt.</p><p><em>Aantekeningen:</em><br />
+<br />
+Authenticatie instellingen kunnen per gebruiker worden ingesteld.<br />
+<br />
+Afhankelijk van welke authenticatie modules geïnstalleerd zijn in het systeem, worden hierna de verschillende opties getoond.'
   },
   '575' => {
     'lastUpdated' => 1154091218,
     'message' => 'Bewerken'
   },
-  '863 description' => {
-    'lastUpdated' => 1156490447,
-    'message' => 'Het verschil in aantal dagen tussen het verlopen van het groeplidmaatschap en het moment dat de gebruiker hieruit verwijderd wordt. Dit kan op elke geheel getal gezet worden. Als het bijvoorbeeld op nul gezet wordt, wordt de groep opgeheven op dezelfde dag als dat de groepering verloopt. Zet het op &quot;-7&quot; als de groep 7 dagen <strong>ervoor</strong> opgeheven moet worden en op 7 als het zeven dagen na de verloopdatum moet gebeuren. '
-  },
   '984' => {
     'lastUpdated' => 1156172114,
     'message' => 'Kopi&euml;er deze database link.'
+  },
+  '863 description' => {
+    'lastUpdated' => 1156490447,
+    'message' => 'Het verschil in aantal dagen tussen het verlopen van het groeplidmaatschap en het moment dat de gebruiker hieruit verwijderd wordt. Dit kan op elke geheel getal gezet worden. Als het bijvoorbeeld op nul gezet wordt, wordt de groep opgeheven op dezelfde dag als dat de groepering verloopt. Zet het op &quot;-7&quot; als de groep 7 dagen <strong>ervoor</strong> opgeheven moet worden en op 7 als het zeven dagen na de verloopdatum moet gebeuren. '
   },
   '1039' => {
     'lastUpdated' => 1153750625,
@@ -1317,37 +1317,37 @@ Afhankelijk van welke authenticatie modules ge\x{ef}nstalleerd zijn in het syste
     'lastUpdated' => 1155760539,
     'message' => 'SQL zoekopdracht'
   },
-  '40' => {
-    'lastUpdated' => 1154075445,
-    'message' => 'Vitaal onderdeel'
-  },
   '310' => {
     'lastUpdated' => 1153752322,
     'message' => 'Extra contact informatie toestaan?'
+  },
+  '40' => {
+    'lastUpdated' => 1154075445,
+    'message' => 'Vitaal onderdeel'
   },
   'interval' => {
     'lastUpdated' => 1156169457,
     'message' => 'Interval'
   },
-  'settings groupIdAdminLDAPLink hoverHelp' => {
-    'lastUpdated' => 1190022957,
-    'message' => 'Groep die LDAP links kan beheren'
-  },
   '699' => {
     'lastUpdated' => 1154092805,
     'message' => 'Eerste dag van de week'
+  },
+  'settings groupIdAdminLDAPLink hoverHelp' => {
+    'lastUpdated' => 1190022957,
+    'message' => 'Groep die LDAP links kan beheren'
   },
   'cancel' => {
     'lastUpdated' => 1204556861,
     'message' => 'Annuleren'
   },
-  'user profile field friend availability' => {
-    'lastUpdated' => 1201183427,
-    'message' => 'Wil je als vriend toegevoegd kunnen worden?'
-  },
   '818' => {
     'lastUpdated' => 1154095364,
     'message' => 'Gedeactiveerd'
+  },
+  'user profile field friend availability' => {
+    'lastUpdated' => 1201183427,
+    'message' => 'Wil je als vriend toegevoegd kunnen worden?'
   },
   'user email template' => {
     'lastUpdated' => 1189454406,
@@ -1373,37 +1373,37 @@ Afhankelijk van welke authenticatie modules ge\x{ef}nstalleerd zijn in het syste
     'lastUpdated' => 1154074576,
     'message' => 'Bekijk inbox'
   },
-  'private message sent' => {
-    'lastUpdated' => 1189454301,
-    'message' => 'Het bericht is verzonden.'
-  },
   '461' => {
     'lastUpdated' => 1154076853,
     'message' => 'Vorm datum'
   },
-  'user profile edit template description' => {
-    'lastUpdated' => 1216587849,
-    'message' => 'Het sjabloon waarmee een formulier gebouwd wordt waarmee de gebuikers hun profiel kunnen bewerken.'
-  },
-  'debug ip description' => {
-    'lastUpdated' => 1208856637,
-    'message' => 'Dit beperkt de uitvoer van debugging tot een specifiek IP adres of IP bereik. Kies het subnet dat debugging in CIDR formaat kan bekijken. Bijvoorbeeld: 10.0.0.0/24. Meer CIDR adressen kunnen opgegeven worden, deze dienen gescheiden te worden door komma\'s.'
+  'private message sent' => {
+    'lastUpdated' => 1189454301,
+    'message' => 'Het bericht is verzonden.'
   },
   '583' => {
     'lastUpdated' => 1154091303,
     'message' => 'Maximale grootte afbeelding'
   },
-  'settings groupIdAdminGraphics hoverHelp' => {
-    'lastUpdated' => 1190023086,
-    'message' => 'Groep die fonts en palletten kan beheren'
+  'debug ip description' => {
+    'lastUpdated' => 1208856637,
+    'message' => 'Dit beperkt de uitvoer van debugging tot een specifiek IP adres of IP bereik. Kies het subnet dat debugging in CIDR formaat kan bekijken. Bijvoorbeeld: 10.0.0.0/24. Meer CIDR adressen kunnen opgegeven worden, deze dienen gescheiden te worden door komma\'s.'
+  },
+  'user profile edit template description' => {
+    'lastUpdated' => 1216587849,
+    'message' => 'Het sjabloon waarmee een formulier gebouwd wordt waarmee de gebuikers hun profiel kunnen bewerken.'
+  },
+  '951' => {
+    'lastUpdated' => 1156171919,
+    'message' => 'Weet u zeker dat u het klembord wilt legen in de prullenmand?'
   },
   'show performance indicators' => {
     'lastUpdated' => 1155908281,
     'message' => 'Prestatie indicatoren tonen?'
   },
-  '951' => {
-    'lastUpdated' => 1156171919,
-    'message' => 'Weet u zeker dat u het klembord wilt legen in de prullenmand?'
+  'settings groupIdAdminGraphics hoverHelp' => {
+    'lastUpdated' => 1190023086,
+    'message' => 'Groep die fonts en palletten kan beheren'
   },
   '85' => {
     'lastUpdated' => 1154095671,
@@ -1437,13 +1437,13 @@ Afhankelijk van welke authenticatie modules ge\x{ef}nstalleerd zijn in het syste
     'lastUpdated' => 1154094370,
     'message' => '7 expert'
   },
-  '539' => {
-    'lastUpdated' => 1154077538,
-    'message' => 'Karma aanzetten?'
-  },
   '230 description' => {
     'lastUpdated' => 1153752247,
     'message' => 'Het bericht dat aan alle leden van de groep wordt gestuurd. Het bericht wordt verzonden als HTML document. Er kunnen geen bijlagen worden meegestuurd.'
+  },
+  '539' => {
+    'lastUpdated' => 1154077538,
+    'message' => 'Karma aanzetten?'
   },
   '90' => {
     'lastUpdated' => 1154097201,
@@ -2078,13 +2078,13 @@ De verstrekte informatie is niet gelijk aan de accountinformatie. '
     'lastUpdated' => 1153752127,
     'message' => 'Onderwerp'
   },
-  '104 description' => {
-    'lastUpdated' => 1155885555,
-    'message' => 'Vul een URL voor de link in.'
-  },
   'show in forms' => {
     'lastUpdated' => 1213865917,
     'message' => 'In formulieren tonen?'
+  },
+  '104 description' => {
+    'lastUpdated' => 1155885555,
+    'message' => 'Vul een URL voor de link in.'
   },
   '866' => {
     'lastUpdated' => 1154096866,
@@ -2102,25 +2102,25 @@ De verstrekte informatie is niet gelijk aan de accountinformatie. '
     'lastUpdated' => 1152526116,
     'message' => 'De gegevens waarmee u probeerde in te loggen zijn niet correct.&nbsp;&Oacute;f u heeft een niet bestaande gebruikersnaam ingevoerd, &oacute;f het wachtwoord dat u hebt ingetyped klopt niet. '
   },
-  'is editable' => {
-    'lastUpdated' => 1213865830,
-    'message' => 'Is bewerkbaar?'
-  },
   '315' => {
     'lastUpdated' => 1153752778,
     'message' => 'Andere voorna(a)m(en)'
+  },
+  'is editable' => {
+    'lastUpdated' => 1213865830,
+    'message' => 'Is bewerkbaar?'
   },
   '400 description' => {
     'lastUpdated' => 1155887453,
     'message' => 'Sommige bedrijven hebben proxy servers die niet goed samenwerken met WebGUI. Als er problemen zijn met WebGUI terwijl een proxy server wordt gebruikt, is het misschien gewenst deze optie op ja te zetten. Let erop dat de URL&#39;s van WebGUI niet meer zo gebruikersvriendelijk ogen als deze functie aanstaat.'
   },
-  '893' => {
-    'lastUpdated' => 1154097170,
-    'message' => 'Wobject eigenschappen'
-  },
   '338' => {
     'lastUpdated' => 1153753430,
     'message' => 'Bewerk profiel'
+  },
+  '893' => {
+    'lastUpdated' => 1154097170,
+    'message' => 'Wobject eigenschappen'
   },
   '576' => {
     'lastUpdated' => 1154091229,
@@ -2134,13 +2134,13 @@ De verstrekte informatie is niet gelijk aan de accountinformatie. '
     'lastUpdated' => 1154096898,
     'message' => 'Welkom'
   },
-  '995 description' => {
-    'lastUpdated' => 1156499157,
-    'message' => 'Het wachtwoord dat gebruikt wordt om verbinding te maken met de DSN.'
-  },
   '484' => {
     'lastUpdated' => 1154076988,
     'message' => 'Selectie lijst'
+  },
+  '995 description' => {
+    'lastUpdated' => 1156499157,
+    'message' => 'Het wachtwoord dat gebruikt wordt om verbinding te maken met de DSN.'
   },
   '1078' => {
     'lastUpdated' => 1204018854,
@@ -2170,13 +2170,13 @@ De verstrekte informatie is niet gelijk aan de accountinformatie. '
     'lastUpdated' => 1153753281,
     'message' => 'Telefoon thuis'
   },
-  'avatar' => {
-    'lastUpdated' => 1156170807,
-    'message' => 'Avatar'
-  },
   '1085' => {
     'lastUpdated' => 1153751151,
     'message' => 'Sjabloon variabelen voor pagina afbreken'
+  },
+  'avatar' => {
+    'lastUpdated' => 1156170807,
+    'message' => 'Avatar'
   },
   'Enable user invitations' => {
     'lastUpdated' => 1189453733,
@@ -2186,13 +2186,13 @@ De verstrekte informatie is niet gelijk aan de accountinformatie. '
     'lastUpdated' => 1156168206,
     'message' => 'De losse URL component van pagination.nextPage.'
   },
-  'changeUrl workflow' => {
-    'lastUpdated' => 1166636198,
-    'message' => 'Wijzig URL Workflow (werkschema)'
-  },
   '363' => {
     'lastUpdated' => 1155887601,
     'message' => 'Positie in pagina sjabloon'
+  },
+  'changeUrl workflow' => {
+    'lastUpdated' => 1166636198,
+    'message' => 'Wijzig URL Workflow (werkschema)'
   },
   '583 description' => {
     'lastUpdated' => 1207820661,
@@ -2202,57 +2202,57 @@ De verstrekte informatie is niet gelijk aan de accountinformatie. '
     'lastUpdated' => 1153751567,
     'message' => 'Het belangrijkste URL van het bedrijf. Het wordt in elk door het WebGUI systeem automatisch verzonden email gezet. Het is ook beschikbaar via het stijl macro van de URL bedrijf.'
   },
-  '1051' => {
-    'lastUpdated' => 1153750748,
-    'message' => 'Vervang door'
-  },
   '733' => {
     'lastUpdated' => 1154094306,
     'message' => '4 gevorderd'
+  },
+  '1051' => {
+    'lastUpdated' => 1153750748,
+    'message' => 'Vervang door'
   },
   '562' => {
     'lastUpdated' => 1154091060,
     'message' => 'Wachtend'
   },
-  'pagination.pageList.upTo20' => {
-    'lastUpdated' => 1156168537,
-    'message' => 'Een lijst met links naar de 20 dichtstbijzijnde paginas (ten opzichte van de huidige pagina) in het pagina overzicht. Als de huidige pagina nummer 60 is, dan worden dus links naar de pagina&#39;s 50 tot en met 70 getoond. '
-  },
   '36' => {
     'lastUpdated' => 1204556754,
     'message' => 'U moet een beheerder zijn om deze functie uit te kunnen voeren. Neem contact op met een beheerder.'
   },
-  'showMessageOnLoginReset label' => {
-    'lastUpdated' => 1213872701,
-    'message' => 'Zet het aantal keren gezien op nul voor alle gebruikers'
+  'pagination.pageList.upTo20' => {
+    'lastUpdated' => 1156168537,
+    'message' => 'Een lijst met links naar de 20 dichtstbijzijnde paginas (ten opzichte van de huidige pagina) in het pagina overzicht. Als de huidige pagina nummer 60 is, dan worden dus links naar de pagina&#39;s 50 tot en met 70 getoond. '
   },
   'settings' => {
     'lastUpdated' => 1154097754,
     'message' => 'Instellingen'
   },
+  'showMessageOnLoginReset label' => {
+    'lastUpdated' => 1213872701,
+    'message' => 'Zet het aantal keren gezien op nul voor alle gebruikers'
+  },
   '748' => {
     'lastUpdated' => 1156335597,
     'message' => 'Aantal gebruikers'
-  },
-  '362' => {
-    'lastUpdated' => 1154074689,
-    'message' => 'Zij bij zij'
   },
   '439' => {
     'lastUpdated' => 1154076233,
     'message' => 'Persoonlijke informatie'
   },
+  '362' => {
+    'lastUpdated' => 1154074689,
+    'message' => 'Zij bij zij'
+  },
   '317' => {
     'lastUpdated' => 1153752878,
     'message' => '<a href="http://www.icq.com">ICQ</a> UIN'
   },
-  '169' => {
-    'lastUpdated' => 1153752076,
-    'message' => 'Voeg een nieuwe gebuiker toe'
-  },
   '411' => {
     'lastUpdated' => 1154075870,
     'message' => 'Menu titel'
+  },
+  '169' => {
+    'lastUpdated' => 1153752076,
+    'message' => 'Voeg een nieuwe gebuiker toe'
   },
   'select slider' => {
     'lastUpdated' => 1156414495,
@@ -2266,13 +2266,13 @@ De verstrekte informatie is niet gelijk aan de accountinformatie. '
     'lastUpdated' => 1154076923,
     'message' => 'URL'
   },
-  '942' => {
-    'lastUpdated' => 1156171798,
-    'message' => 'Keuzerondje lijst'
-  },
   '955' => {
     'lastUpdated' => 1154097419,
     'message' => 'Klembord systeem'
+  },
+  '942' => {
+    'lastUpdated' => 1156171798,
+    'message' => 'Keuzerondje lijst'
   },
   '974 description' => {
     'lastUpdated' => 1156498371,
@@ -2282,13 +2282,13 @@ De verstrekte informatie is niet gelijk aan de accountinformatie. '
     'lastUpdated' => 1154095730,
     'message' => 'Een langere omschrijving van de groep, waarmee andere beheerders en inhoud beheerders kunnen zien wat het doel van de groep is. '
   },
-  '407' => {
-    'lastUpdated' => 1154075794,
-    'message' => 'Klik hier om te registreren.'
-  },
   '537' => {
     'lastUpdated' => 1154077446,
     'message' => 'Karma'
+  },
+  '407' => {
+    'lastUpdated' => 1154075794,
+    'message' => 'Klik hier om te registreren.'
   },
   'target' => {
     'lastUpdated' => 1154097663,
@@ -2298,25 +2298,25 @@ De verstrekte informatie is niet gelijk aan de accountinformatie. '
     'lastUpdated' => 1190023260,
     'message' => 'Actieve sessies'
   },
-  'settings groupIdAdminCache label' => {
-    'lastUpdated' => 1190023208,
-    'message' => 'Cache'
-  },
   '125' => {
     'lastUpdated' => 1153751319,
     'message' => 'Bedrijfsnaam'
+  },
+  'settings groupIdAdminCache label' => {
+    'lastUpdated' => 1190023208,
+    'message' => 'Cache'
   },
   '44' => {
     'lastUpdated' => 1154076246,
     'message' => 'Ja, ik weet het zeker'
   },
-  'send private message template' => {
-    'lastUpdated' => 1189454271,
-    'message' => 'Verstuur (prive) bericht template'
-  },
   'run on admin create user' => {
     'lastUpdated' => 1190023534,
     'message' => 'Bij het aanmaken van een nieuwe gebruiker (admin)'
+  },
+  'send private message template' => {
+    'lastUpdated' => 1189454271,
+    'message' => 'Verstuur (prive) bericht template'
   },
   '1007' => {
     'lastUpdated' => 1155761245,
@@ -2326,13 +2326,13 @@ De verstrekte informatie is niet gelijk aan de accountinformatie. '
     'lastUpdated' => 1154097296,
     'message' => 'Help index'
   },
-  'user function style description' => {
-    'lastUpdated' => 1199694399,
-    'message' => 'Dit bepaalt welke stijl gebruikt wordt voor WebGUI processen (profiel bewerking, berichten logboek enz.) op het moment dat ze beschikbaar zijn voor een gebruiker. Alleen sjablonen die ingezonden zijn, zijn toegestaan.'
-  },
   '313' => {
     'lastUpdated' => 1153752719,
     'message' => 'Gemengde informatie toestaan?'
+  },
+  'user function style description' => {
+    'lastUpdated' => 1199694399,
+    'message' => 'Dit bepaalt welke stijl gebruikt wordt voor WebGUI processen (profiel bewerking, berichten logboek enz.) op het moment dat ze beschikbaar zijn voor een gebruiker. Alleen sjablonen die ingezonden zijn, zijn toegestaan.'
   },
   'webgui' => {
     'lastUpdated' => 1154097513,
@@ -2354,17 +2354,17 @@ De verstrekte informatie is niet gelijk aan de accountinformatie. '
     'lastUpdated' => 1156168343,
     'message' => 'De losse tekst component van pagination.firstPage.'
   },
-  '753' => {
-    'lastUpdated' => 1154094852,
-    'message' => 'Bewerk deze groep.'
+  '504' => {
+    'lastUpdated' => 1154077118,
+    'message' => 'Sjabloon'
   },
   '343' => {
     'lastUpdated' => 1153753508,
     'message' => 'Bekijk profiel'
   },
-  '504' => {
-    'lastUpdated' => 1154077118,
-    'message' => 'Sjabloon'
+  '753' => {
+    'lastUpdated' => 1154094852,
+    'message' => 'Bewerk deze groep.'
   },
   'url extension description' => {
     'lastUpdated' => 1207820583,
@@ -2382,21 +2382,21 @@ De verstrekte informatie is niet gelijk aan de accountinformatie. '
     'lastUpdated' => 1156172180,
     'message' => 'Verwijder database link'
   },
-  'Select State' => {
-    'lastUpdated' => 1166196374,
-    'message' => 'Selecteer staat'
-  },
   '857' => {
     'lastUpdated' => 1154095768,
     'message' => 'IP adres'
   },
-  '1010' => {
-    'lastUpdated' => 1153750533,
-    'message' => 'Tekst (.txt)'
+  'Select State' => {
+    'lastUpdated' => 1166196374,
+    'message' => 'Selecteer staat'
   },
   '707' => {
     'lastUpdated' => 1154093204,
     'message' => 'Debugging tonen?'
+  },
+  '1010' => {
+    'lastUpdated' => 1153750533,
+    'message' => 'Tekst (.txt)'
   },
   '964' => {
     'lastUpdated' => 1156171487,
@@ -2406,15 +2406,15 @@ De verstrekte informatie is niet gelijk aan de accountinformatie. '
     'lastUpdated' => 1154092097,
     'message' => 'Deactiveer mijn account voorgoed.'
   },
-  'Illegal Warning' => {
-    'lastUpdated' => 1156171233,
-    'message' => 'Het gebruik van deze functie is in sommige landen, zoals Australie, illegaal. Verder is het in bepaalde landen verplicht een waarschuwing op de site te zetten als deze functie gebruikt wordt. Raadpleeg de lokale autoriteiten voor de plaatselijke wetgeving. Plain Black is niet aansprakelijk voor illegale activiteiten, ongeacht of deze bewust of onbewust zijn.'
-  },
   '367 description' => {
     'lastUpdated' => 1181333135,
     'message' => 'De tijd die een gebruiker tot deze groep behoort, voordat het lidmaatschap verloopt. Dit is erg handig voor sites waar gebruikers gedurende bepaalde tijd bepaalde privileges hebben.
 
 <strong>N.B.:</strong> Dit kan per gebruiker overschreven worden.'
+  },
+  'Illegal Warning' => {
+    'lastUpdated' => 1156171233,
+    'message' => 'Het gebruik van deze functie is in sommige landen, zoals Australie, illegaal. Verder is het in bepaalde landen verplicht een waarschuwing op de site te zetten als deze functie gebruikt wordt. Raadpleeg de lokale autoriteiten voor de plaatselijke wetgeving. Plain Black is niet aansprakelijk voor illegale activiteiten, ongeacht of deze bewust of onbewust zijn.'
   },
   '1069 description' => {
     'lastUpdated' => 1155886156,
@@ -2424,61 +2424,61 @@ De verstrekte informatie is niet gelijk aan de accountinformatie. '
     'lastUpdated' => 1190023126,
     'message' => 'Cron'
   },
-  'private message submit label' => {
-    'lastUpdated' => 1189454792,
-    'message' => 'Verstuur'
-  },
   '81' => {
     'lastUpdated' => 1154095205,
     'message' => 'De account is met succes vernieuwd!'
+  },
+  'private message submit label' => {
+    'lastUpdated' => 1189454792,
+    'message' => 'Verstuur'
   },
   'view inbox message template' => {
     'lastUpdated' => 1189454509,
     'message' => 'template voor bericht in inbox'
   },
-  '824 description' => {
-    'lastUpdated' => 1156490221,
-    'message' => 'Het onderschrift wordt door macros verwerkt en bijgevoegd in elke email die door deze WebGUI installatie verzonden wordt.'
-  },
   '321' => {
     'lastUpdated' => 1153753178,
     'message' => 'Mobiele telefoon'
   },
-  '86' => {
-    'lastUpdated' => 1154096051,
-    'message' => 'Weet u zeker dat u deze groep wilt verwijderen? Let erop dat het verwijderen van een groep definitief is en dat alle privileges die bij deze groep horen zullen verwijderd worden. '
+  '824 description' => {
+    'lastUpdated' => 1156490221,
+    'message' => 'Het onderschrift wordt door macros verwerkt en bijgevoegd in elke email die door deze WebGUI installatie verzonden wordt.'
   },
   '792' => {
     'lastUpdated' => 1154095028,
     'message' => 'Sjablonen'
   },
-  '975 description' => {
-    'lastUpdated' => 1208856517,
-    'message' => 'Is het gewenst dat gebruikers zichzelf uit deze groep kunnen verwijderen? Zie het GroupDelete macro voor meer informatie.'
+  '86' => {
+    'lastUpdated' => 1154096051,
+    'message' => 'Weet u zeker dat u deze groep wilt verwijderen? Let erop dat het verwijderen van een groep definitief is en dat alle privileges die bij deze groep horen zullen verwijderd worden. '
   },
   '823' => {
     'lastUpdated' => 1154095465,
     'message' => 'Ga naar de nieuwe pagina.'
   },
-  'profile' => {
-    'lastUpdated' => 1154097765,
-    'message' => 'Profiel'
+  '975 description' => {
+    'lastUpdated' => 1208856517,
+    'message' => 'Is het gewenst dat gebruikers zichzelf uit deze groep kunnen verwijderen? Zie het GroupDelete macro voor meer informatie.'
   },
   '371' => {
     'lastUpdated' => 1154074849,
     'message' => 'Voeg groepen toe'
   },
+  'profile' => {
+    'lastUpdated' => 1154097765,
+    'message' => 'Profiel'
+  },
   '1079' => {
     'lastUpdated' => 1166435901,
     'message' => 'Print sjabloon'
   },
-  'user invitations email exists description' => {
-    'lastUpdated' => 1189454489,
-    'message' => 'Dit is het bericht dat wordt weergegeven aan gebruikers die trachten iemand uit te nodigen wiens emailadres al bekend is op op het systeem.'
-  },
   'pagination.pageNumber' => {
     'lastUpdated' => 1156168072,
     'message' => 'Het nummer van de huidige pagina.'
+  },
+  'user invitations email exists description' => {
+    'lastUpdated' => 1189454489,
+    'message' => 'Dit is het bericht dat wordt weergegeven aan gebruikers die trachten iemand uit te nodigen wiens emailadres al bekend is op op het systeem.'
   },
   '729' => {
     'lastUpdated' => 1154094092,
@@ -2544,13 +2544,13 @@ De verstrekte informatie is niet gelijk aan de accountinformatie. '
     'lastUpdated' => 1153750764,
     'message' => 'Bewerk inhoud filter'
   },
-  '735' => {
-    'lastUpdated' => 1154094360,
-    'message' => '6 professioneel'
-  },
   '404' => {
     'lastUpdated' => 1154075614,
     'message' => 'Eerste pagina'
+  },
+  '735' => {
+    'lastUpdated' => 1154094360,
+    'message' => '6 professioneel'
   },
   'tinymce' => {
     'lastUpdated' => 1154097655,
@@ -2564,45 +2564,45 @@ De verstrekte informatie is niet gelijk aan de accountinformatie. '
     'lastUpdated' => 1156171376,
     'message' => 'Metadata aanzetten?'
   },
-  '974' => {
-    'lastUpdated' => 1156498313,
-    'message' => 'Kunnen gebruikers zichzelf toevoegen?'
-  },
   '420' => {
     'lastUpdated' => 1154075992,
     'message' => 'Verwijder niets.'
   },
-  'show performance indicators description' => {
-    'lastUpdated' => 1156166270,
-    'message' => 'Dit laat de tijd zien die het heeft gekost om een item op de pagina te maken. Dit kan nuttig zijn voor problemen met de debugging van prestaties.'
+  '974' => {
+    'lastUpdated' => 1156498313,
+    'message' => 'Kunnen gebruikers zichzelf toevoegen?'
   },
   '702' => {
     'lastUpdated' => 1154092859,
     'message' => 'Maand(en)'
   },
+  'show performance indicators description' => {
+    'lastUpdated' => 1156166270,
+    'message' => 'Dit laat de tijd zien die het heeft gekost om een item op de pagina te maken. Dit kan nuttig zijn voor problemen met de debugging van prestaties.'
+  },
   'user invitations email exists' => {
     'lastUpdated' => 1189454456,
     'message' => 'bericht "emailadres bestaat"'
-  },
-  'show in forms help' => {
-    'lastUpdated' => 1213865967,
-    'message' => 'Moet deze groep te zien zijn op plaatsen waar een groep gekozen wordt, zoals velden voor rechten?'
   },
   '952' => {
     'lastUpdated' => 1154097385,
     'message' => 'Datum klembord'
   },
+  'show in forms help' => {
+    'lastUpdated' => 1213865967,
+    'message' => 'Moet deze groep te zien zijn op plaatsen waar een groep gekozen wordt, zoals velden voor rechten?'
+  },
   'private message subject label' => {
     'lastUpdated' => 1189454782,
     'message' => 'Onderwerp'
   },
-  '487' => {
-    'lastUpdated' => 1154077017,
-    'message' => 'Selectie veld'
-  },
   '1071' => {
     'lastUpdated' => 1155886173,
     'message' => 'Env HTTP host'
+  },
+  '487' => {
+    'lastUpdated' => 1154077017,
+    'message' => 'Selectie veld'
   },
   'select' => {
     'lastUpdated' => 1154097777,
@@ -2624,37 +2624,37 @@ De verstrekte informatie is niet gelijk aan de accountinformatie. '
     'lastUpdated' => 1154074594,
     'message' => 'Nieuws'
   },
-  'settings groupIdAdminVersionTag hoverHelp' => {
-    'lastUpdated' => 1207823796,
-    'message' => 'Groep die versies kan beheren'
-  },
   'hidden' => {
     'lastUpdated' => 1156169538,
     'message' => 'Verborgen'
   },
-  '63' => {
-    'lastUpdated' => 1158564908,
-    'message' => 'Zet beheermode aan.'
+  'settings groupIdAdminVersionTag hoverHelp' => {
+    'lastUpdated' => 1207823796,
+    'message' => 'Groep die versies kan beheren'
   },
   'class name' => {
     'lastUpdated' => 1213865803,
     'message' => 'Naam klasse '
   },
-  '1050 description' => {
-    'lastUpdated' => 1155885909,
-    'message' => 'De string waarnaar gezocht wordt. Alle interpunctie wordt genegeerd. '
+  '63' => {
+    'lastUpdated' => 1158564908,
+    'message' => 'Zet beheermode aan.'
   },
   '455' => {
     'lastUpdated' => 1154076807,
     'message' => 'Bewerk het profiel van de gebruiker'
   },
-  'user profile field private message friends only label' => {
-    'lastUpdated' => 1201183527,
-    'message' => 'Laat alleen toe vanuit mijn vrienden.'
+  '1050 description' => {
+    'lastUpdated' => 1155885909,
+    'message' => 'De string waarnaar gezocht wordt. Alle interpunctie wordt genegeerd. '
   },
   '80' => {
     'lastUpdated' => 1154095103,
     'message' => 'De account is met succes aangemaakt!'
+  },
+  'user profile field private message friends only label' => {
+    'lastUpdated' => 1201183527,
+    'message' => 'Laat alleen toe vanuit mijn vrienden.'
   },
   'settings groupIdAdminReplacements hoverHelp' => {
     'lastUpdated' => 1190022841,
@@ -2672,21 +2672,21 @@ De verstrekte informatie is niet gelijk aan de accountinformatie. '
     'lastUpdated' => 1154076835,
     'message' => 'Bewerk deze gebruiker'
   },
-  'view inbox template' => {
-    'lastUpdated' => 1189454537,
-    'message' => 'Inbox template'
-  },
   '821' => {
     'lastUpdated' => 1157105223,
     'message' => 'Alles'
   },
-  'run on admin update user' => {
-    'lastUpdated' => 1190023471,
-    'message' => 'Wanneer Gebruikersgegevens gewijzigd worden (Admin)'
+  'view inbox template' => {
+    'lastUpdated' => 1189454537,
+    'message' => 'Inbox template'
   },
   'ends with' => {
     'lastUpdated' => 1154097957,
     'message' => 'Eindigt met'
+  },
+  'run on admin update user' => {
+    'lastUpdated' => 1190023471,
+    'message' => 'Wanneer Gebruikersgegevens gewijzigd worden (Admin)'
   },
   'send private message template description' => {
     'lastUpdated' => 1189454321,
@@ -2712,21 +2712,21 @@ De verstrekte informatie is niet gelijk aan de accountinformatie. '
     'lastUpdated' => 1154077556,
     'message' => 'Moet karma worden aangezet?'
   },
-  'asset locked' => {
-    'lastUpdated' => 1181336975,
-    'message' => 'Dit object (asset) is vergrendeld en kan niet worden bewerkt in een andere versie dan de huidige versie waarin je werkt.'
-  },
-  'pagination.pageCount' => {
-    'lastUpdated' => 1156168615,
-    'message' => 'Het totale aantal pagina&#39;s.'
+  '10' => {
+    'lastUpdated' => 1213865744,
+    'message' => 'Beheer mijn prullenbak'
   },
   '980' => {
     'lastUpdated' => 1156171817,
     'message' => 'Leeg deze map'
   },
-  '10' => {
-    'lastUpdated' => 1213865744,
-    'message' => 'Beheer mijn prullenbak'
+  'pagination.pageCount' => {
+    'lastUpdated' => 1156168615,
+    'message' => 'Het totale aantal pagina&#39;s.'
+  },
+  'asset locked' => {
+    'lastUpdated' => 1181336975,
+    'message' => 'Dit object (asset) is vergrendeld en kan niet worden bewerkt in een andere versie dan de huidige versie waarin je werkt.'
   },
   'showMessageOnLoginBody description' => {
     'lastUpdated' => 1213866062,
@@ -2740,13 +2740,13 @@ De verstrekte informatie is niet gelijk aan de accountinformatie. '
     'lastUpdated' => 1156498696,
     'message' => 'Een titel van de database link.'
   },
-  '958' => {
-    'lastUpdated' => 1207839824,
-    'message' => '<p>Het klembord is een aparte lokatie in het systeem, waar inhoud (objecten/assets) tijdelijk bewaard wordt nadat ze zijn geknipt of gekopi&euml;erd. De objecten op het klembord kunnen dan geplakt worden op een nieuwe lokatie.</p>  <p>De objecten op het klembord kunnen individueel beheerd worden. Door het selecteren van het bijbehorende icoon kan een object verwijderd of geplakt worden. Ook kan de totale inhoud van het klembord naar de prullenmand verplaatst worden door het Leeg klembord optie te kiezen in het menu.</p>  <p>Het klembord bevat alleen objecten die je er zelf hebt gezet in de versie waarin je op dat moment werkt.</p>  <p>Wanneer je Admin bent, kun je het systeemklembord zien. Het systeemklembord bevat alle objecten van elke gebruiker in versies die doorgevoerd zijn of die in de versie zitten waarin je zelf op dat moment werkt.</p>  <p><strong>Titel</strong></p> <p>De naam van het object in het klembord. Het item kan bekeken worden door de titel te selecteren. </p>  <p><strong>Type</strong></p> <p>Het type inhoud, bijvoorbeeld een pagina, artikel, evenementenkalender enz.</p>  <p><strong>Klembord datum</strong></p> <p>De datum en tijd waarop het object in het klembord is gezet.</p>  <p><strong>Vorige lokatie</strong></p> <p>De lokatie waar het object hiervoor gevonden kon worden. De vorige lokatie kan bekeken worden door het selecteren van de lokatie.</p>  <p><strong>Gebruikersnaam</strong></p><p>De gebruikersnaam van de persoon die het object in het klembord heeft geplaatst. Dit optionele veld is alleen zichtbaar in de gedeelde klembord omgeving of als een beheerder het systeem klembord gebruikt.</p>'
-  },
   '419' => {
     'lastUpdated' => 1154075957,
     'message' => 'Verwijder alles behalve de tekst.'
+  },
+  '958' => {
+    'lastUpdated' => 1207839824,
+    'message' => '<p>Het klembord is een aparte lokatie in het systeem, waar inhoud (objecten/assets) tijdelijk bewaard wordt nadat ze zijn geknipt of gekopi&euml;erd. De objecten op het klembord kunnen dan geplakt worden op een nieuwe lokatie.</p>  <p>De objecten op het klembord kunnen individueel beheerd worden. Door het selecteren van het bijbehorende icoon kan een object verwijderd of geplakt worden. Ook kan de totale inhoud van het klembord naar de prullenmand verplaatst worden door het Leeg klembord optie te kiezen in het menu.</p>  <p>Het klembord bevat alleen objecten die je er zelf hebt gezet in de versie waarin je op dat moment werkt.</p>  <p>Wanneer je Admin bent, kun je het systeemklembord zien. Het systeemklembord bevat alle objecten van elke gebruiker in versies die doorgevoerd zijn of die in de versie zitten waarin je zelf op dat moment werkt.</p>  <p><strong>Titel</strong></p> <p>De naam van het object in het klembord. Het item kan bekeken worden door de titel te selecteren. </p>  <p><strong>Type</strong></p> <p>Het type inhoud, bijvoorbeeld een pagina, artikel, evenementenkalender enz.</p>  <p><strong>Klembord datum</strong></p> <p>De datum en tijd waarop het object in het klembord is gezet.</p>  <p><strong>Vorige lokatie</strong></p> <p>De lokatie waar het object hiervoor gevonden kon worden. De vorige lokatie kan bekeken worden door het selecteren van de lokatie.</p>  <p><strong>Gebruikersnaam</strong></p><p>De gebruikersnaam van de persoon die het object in het klembord heeft geplaatst. Dit optionele veld is alleen zichtbaar in de gedeelde klembord omgeving of als een beheerder het systeem klembord gebruikt.</p>'
   },
   '995' => {
     'lastUpdated' => 1156462489,
@@ -2780,37 +2780,37 @@ De verstrekte informatie is niet gelijk aan de accountinformatie. '
     'lastUpdated' => 1190022781,
     'message' => 'Spectre'
   },
-  'allowed keywords' => {
-    'lastUpdated' => 1156171006,
-    'message' => 'Toegestane sleutelwoorden'
-  },
   '482' => {
     'lastUpdated' => 1154076964,
     'message' => 'Nummer (geheel getal)'
+  },
+  'allowed keywords' => {
+    'lastUpdated' => 1156171006,
+    'message' => 'Toegestane sleutelwoorden'
   },
   '949' => {
     'lastUpdated' => 1154097285,
     'message' => 'Beheer klembord'
   },
-  'Enable passive profiling' => {
-    'lastUpdated' => 1156171308,
-    'message' => 'Passieve profilering aanzetten?'
-  },
-  '557 description' => {
-    'lastUpdated' => 1154090828,
-    'message' => 'De reden waarom de karma van de gebruiker is gewijzigd.'
-  },
-  '56' => {
-    'lastUpdated' => 1154090883,
-    'message' => 'Email adres'
+  '530' => {
+    'lastUpdated' => 1154077373,
+    'message' => 'met al deze woorden'
   },
   '499' => {
     'lastUpdated' => 1154077050,
     'message' => 'Wobject identificatie'
   },
-  '530' => {
-    'lastUpdated' => 1154077373,
-    'message' => 'met al deze woorden'
+  '56' => {
+    'lastUpdated' => 1154090883,
+    'message' => 'Email adres'
+  },
+  '557 description' => {
+    'lastUpdated' => 1154090828,
+    'message' => 'De reden waarom de karma van de gebruiker is gewijzigd.'
+  },
+  'Enable passive profiling' => {
+    'lastUpdated' => 1156171308,
+    'message' => 'Passieve profilering aanzetten?'
   },
   '66' => {
     'lastUpdated' => 1154092168,
@@ -2820,13 +2820,13 @@ De verstrekte informatie is niet gelijk aan de accountinformatie. '
     'lastUpdated' => 1155908246,
     'message' => 'Toon de velden die toegestaan zijn op mijn gebruikers interface niveau.'
   },
-  'external help' => {
-    'lastUpdated' => 1204556949,
-    'message' => 'Voor meer hulp, bezoek de <a href="http://www.webgui-help.nl" target="_blank">WebGUI help site</a>.'
-  },
   '54' => {
     'lastUpdated' => 1154077590,
     'message' => 'Maak account aan'
+  },
+  'external help' => {
+    'lastUpdated' => 1204556949,
+    'message' => 'Voor meer hulp, bezoek de <a href="http://www.webgui-help.nl" target="_blank">WebGUI help site</a>.'
   },
   '1030' => {
     'lastUpdated' => 1153750607,
@@ -2852,21 +2852,21 @@ De verstrekte informatie is niet gelijk aan de accountinformatie. '
     'lastUpdated' => 1154096957,
     'message' => 'Gebruikers in groep'
   },
-  'user profiling' => {
-    'lastUpdated' => 1155890399,
-    'message' => 'Gebruikers profilering'
-  },
   '1009' => {
     'lastUpdated' => 1153750522,
     'message' => 'HTML'
   },
-  '141' => {
-    'lastUpdated' => 1153751653,
-    'message' => 'Niet gevonden pagina'
+  'user profiling' => {
+    'lastUpdated' => 1155890399,
+    'message' => 'Gebruikers profilering'
   },
   'pagination.pageList.upTo10' => {
     'lastUpdated' => 1156168562,
     'message' => 'Een lijst met links naar de 10 dichtstbijzijnde paginas (ten opzichte van de huidige pagina) in het pagina overzicht. Als de huidige pagina nummer 20 is, dan worden dus links naar de pagina&#39;s 15 tot en met 25 getoond.'
+  },
+  '141' => {
+    'lastUpdated' => 1153751653,
+    'message' => 'Niet gevonden pagina'
   },
   '403' => {
     'lastUpdated' => 1155888523,
@@ -2876,17 +2876,17 @@ De verstrekte informatie is niet gelijk aan de accountinformatie. '
     'lastUpdated' => 1156171778,
     'message' => 'Tussen de tekst (indien ondersteund) '
   },
-  'clear cache' => {
-    'lastUpdated' => 1156170645,
-    'message' => 'Cache opschonen'
+  '134' => {
+    'lastUpdated' => 1153751587,
+    'message' => 'Wachtwoord herstel bericht'
   },
   '75' => {
     'lastUpdated' => 1154094791,
     'message' => 'Uw account informatie is verzonden naar uw email adres.'
   },
-  '134' => {
-    'lastUpdated' => 1153751587,
-    'message' => 'Wachtwoord herstel bericht'
+  'clear cache' => {
+    'lastUpdated' => 1156170645,
+    'message' => 'Cache opschonen'
   },
   '848' => {
     'lastUpdated' => 1154095655,
@@ -2896,25 +2896,25 @@ De verstrekte informatie is niet gelijk aan de accountinformatie. '
     'lastUpdated' => 1213866147,
     'message' => 'Als dit op &quot;Ja&quot; staat zullen alle gebruikers het inlogbericht nog een keer zien.'
   },
-  '421' => {
-    'lastUpdated' => 1155889074,
-    'message' => 'Verwijder alles behalve de basis van de layout.'
-  },
   '59' => {
     'lastUpdated' => 1154091441,
     'message' => 'Wachtwoord vergeten.'
+  },
+  '421' => {
+    'lastUpdated' => 1155889074,
+    'message' => 'Verwijder alles behalve de basis van de layout.'
   },
   '450' => {
     'lastUpdated' => 1154076700,
     'message' => 'Werk naam (bedrijfsnaam)'
   },
-  '406 description' => {
-    'lastUpdated' => 1154075773,
-    'message' => 'Bij het inladen van afbeeldingen in het systeem worden automatisch miniaturen gegenereerd met de hier ingevoerde afmetingen (tenzij er een apart formaat opgegeven wordt voor een afbeelding). De grootte wordt gemeten in pixels. '
-  },
   '50 setup description' => {
     'lastUpdated' => 1154077108,
     'message' => 'De gebuikersnaam voor de beheer account. Deze komt standaard op Admin.'
+  },
+  '406 description' => {
+    'lastUpdated' => 1154075773,
+    'message' => 'Bij het inladen van afbeeldingen in het systeem worden automatisch miniaturen gegenereerd met de hier ingevoerde afmetingen (tenzij er een apart formaat opgegeven wordt voor een afbeelding). De grootte wordt gemeten in pixels. '
   },
   'private message unread display message' => {
     'lastUpdated' => 1189454824,
@@ -2944,33 +2944,33 @@ De verstrekte informatie is niet gelijk aan de accountinformatie. '
     'lastUpdated' => 1153750547,
     'message' => 'Antwoorden'
   },
-  'help' => {
-    'lastUpdated' => 1154097941,
-    'message' => 'Help'
-  },
-  '318' => {
-    'lastUpdated' => 1153752967,
-    'message' => '<a href="http://www.aol.com/aim/homenew.adp">AIM</a> identificatie'
+  'slider' => {
+    'lastUpdated' => 1216732122,
+    'message' => 'Schuifselectie'
   },
   'url extension' => {
     'lastUpdated' => 1154097583,
     'message' => 'URL extensie'
   },
-  'slider' => {
-    'lastUpdated' => undef,
-    'message' => ''
+  '318' => {
+    'lastUpdated' => 1153752967,
+    'message' => '<a href="http://www.aol.com/aim/homenew.adp">AIM</a> identificatie'
   },
-  '105' => {
-    'lastUpdated' => 1153750730,
-    'message' => 'Toon'
+  'help' => {
+    'lastUpdated' => 1154097941,
+    'message' => 'Help'
+  },
+  'pagination.pageLoop.upTo10' => {
+    'lastUpdated' => 1156168160,
+    'message' => 'Hetzelfde als pagination.pageList.upTo10, maar dan in losse elementen verdeeld.'
   },
   '972' => {
     'lastUpdated' => 1156172088,
     'message' => 'Datum en tijd'
   },
-  'pagination.pageLoop.upTo10' => {
-    'lastUpdated' => 1156168160,
-    'message' => 'Hetzelfde als pagination.pageList.upTo10, maar dan in losse elementen verdeeld.'
+  '105' => {
+    'lastUpdated' => 1153750730,
+    'message' => 'Toon'
   },
   'settings groupIdAdminCron hoverHelp' => {
     'lastUpdated' => 1190023149,
@@ -3004,13 +3004,13 @@ De verstrekte informatie is niet gelijk aan de accountinformatie. '
     'lastUpdated' => 1154095136,
     'message' => 'Beheer de groepen binnen deze groep.'
   },
-  'settings groupIdAdminActiveSessions hoverHelp' => {
-    'lastUpdated' => 1190023283,
-    'message' => 'Groep die actieve sessies kan zien en mag verwijderen'
-  },
   '945' => {
     'lastUpdated' => 1156497760,
     'message' => 'Aanvul filter'
+  },
+  'settings groupIdAdminActiveSessions hoverHelp' => {
+    'lastUpdated' => 1190023283,
+    'message' => 'Groep die actieve sessies kan zien en mag verwijderen'
   }
 }
 ;
