@@ -33,13 +33,13 @@ our $I18N = {
     'lastUpdated' => 1215606932,
     'message' => 'Naam inschrijving'
   },
-  'delete batch confirm' => {
-    'lastUpdated' => 1215605255,
-    'message' => 'Weet u zeker dat deze verzameling verwijderd moet worden?'
-  },
   'code' => {
     'lastUpdated' => 1213778385,
     'message' => 'Code'
+  },
+  'delete batch confirm' => {
+    'lastUpdated' => 1215605255,
+    'message' => 'Weet u zeker dat deze verzameling verwijderd moet worden?'
   },
   'redeem code success' => {
     'lastUpdated' => 1215606076,
@@ -97,6 +97,10 @@ our $I18N = {
     'lastUpdated' => 1213788045,
     'message' => 'Beheer naamplaatjes voor inschrijvingscodes'
   },
+  'selection batch name' => {
+    'lastUpdated' => 1216986238,
+    'message' => 'naam naamplaatje'
+  },
   'association' => {
     'lastUpdated' => 1215592956,
     'message' => 'Leg verband met inschrijving'
@@ -118,20 +122,20 @@ our $I18N = {
     'message' => 'Voert u alstublieft uw inschrijvingscode hieronder in.'
   },
   'delete codes' => {
-    'lastUpdated' => 1214923345,
-    'message' => 'Verwijder de geselecteerde codes'
+    'lastUpdated' => 1216986219,
+    'message' => 'Verwijder al deze codes'
   },
   'add subscription' => {
     'lastUpdated' => 1213710232,
     'message' => 'Voeg een nieuwe inschrijving toe'
   },
-  'purchaseButton' => {
-    'lastUpdated' => 1213797775,
-    'message' => 'De knop voor het inschrijvingsformulier'
-  },
   'batch description description' => {
     'lastUpdated' => 1215594424,
     'message' => 'Beschrijving van de verzameling.'
+  },
+  'purchaseButton' => {
+    'lastUpdated' => 1213797775,
+    'message' => 'De knop voor het inschrijvingsformulier'
   },
   'code description' => {
     'lastUpdated' => 1215594792,
@@ -176,6 +180,10 @@ our $I18N = {
   'code length' => {
     'lastUpdated' => 1213778853,
     'message' => 'De lengte van de inschrijvingscode'
+  },
+  'display all' => {
+    'lastUpdated' => 1216986229,
+    'message' => 'toon alles'
   },
   'subscription template' => {
     'lastUpdated' => 1215606977,
@@ -249,13 +257,13 @@ our $I18N = {
     'lastUpdated' => 1213779211,
     'message' => 'Codes vervallen na'
   },
-  'no association error' => {
-    'lastUpdated' => 1213788214,
-    'message' => 'Er moet minimaal &eacute;&eacute;n inschrijving geassocieerd zijn met deze verzameling'
-  },
   'code length error' => {
     'lastUpdated' => 1213778965,
     'message' => 'Er moet een inschrijvingscode ingevoerd worden met een lengte van 10 tot 64 karakters lang (inclusief grenswaarden).'
+  },
+  'no association error' => {
+    'lastUpdated' => 1213788214,
+    'message' => 'Er moet minimaal &eacute;&eacute;n inschrijving geassocieerd zijn met deze verzameling'
   },
   'price' => {
     'lastUpdated' => 1215601776,
@@ -269,21 +277,21 @@ our $I18N = {
     'lastUpdated' => 1214923406,
     'message' => 'Uitvoeren bij inschrijven'
   },
-  'status' => {
-    'lastUpdated' => 1213710312,
-    'message' => 'Status'
-  },
   'noc' => {
     'lastUpdated' => 1213797742,
     'message' => 'Aantal codes in verzameling'
   },
-  'topicName' => {
-    'lastUpdated' => 1213797789,
-    'message' => 'Inschrijvingen'
+  'status' => {
+    'lastUpdated' => 1213710312,
+    'message' => 'Status'
   },
   'selection created' => {
     'lastUpdated' => 1215606552,
     'message' => 'datum van aanmaken tussen'
+  },
+  'topicName' => {
+    'lastUpdated' => 1213797789,
+    'message' => 'Inschrijvingen'
   },
   'no subscriptions' => {
     'lastUpdated' => 1213788652,
@@ -305,29 +313,29 @@ our $I18N = {
     'lastUpdated' => 1215606950,
     'message' => 'Prijs'
   },
-  'dateUsed' => {
-    'lastUpdated' => 1213779884,
-    'message' => 'Datum van gebruik'
+  'select' => {
+    'lastUpdated' => 1213710303,
+    'message' => 'Toon selectie'
   },
   'create batch error' => {
     'lastUpdated' => 1213779239,
     'message' => 'Een fout is opgetreden:'
   },
-  'select' => {
-    'lastUpdated' => 1213710303,
-    'message' => 'Toon selectie'
+  'dateUsed' => {
+    'lastUpdated' => 1213779884,
+    'message' => 'Datum van gebruik'
   },
   'list codes in batch' => {
     'lastUpdated' => 1215604475,
     'message' => 'Laat de codes van deze verzameling zien in een lijst.'
   },
-  'thank you message' => {
-    'lastUpdated' => 1215606998,
-    'message' => 'Bedankbericht'
-  },
   'subscription karma description' => {
     'lastUpdated' => 1215606907,
     'message' => 'De hoeveelheid karma die de gebruiker krijgt als hij/zij zich inschrijft.'
+  },
+  'thank you message' => {
+    'lastUpdated' => 1215606998,
+    'message' => 'Bedankbericht'
   },
   'useSalesTax' => {
     'lastUpdated' => 1215607108,

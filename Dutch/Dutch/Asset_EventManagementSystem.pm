@@ -409,6 +409,10 @@ our $I18N = {
     'lastUpdated' => 1148296656,
     'message' => 'Bij het veld voor de hoeveelheid kunnen verschillende eenheden worden ingevoerd voor de kortingspas. Voor procenten kan de instelling &quot;Percentage&quot; gekozen worden (voer 10 in voor 10% korting). De instelling &quot;Nieuwe prijs&quot; en &quot;Hoeveelheid korting&quot; zijn in absolute hoeveelheden valuta. De standaard waarde is &quot;0.00&quot;. '
   },
+  'ticketTitle' => {
+    'lastUpdated' => 1216986361,
+    'message' => 'De titel van het af te drukken kaartje.'
+  },
   'tokenInstructions help' => {
     'lastUpdated' => 1216649683,
     'message' => 'Instructies voor de gebruiker voor het gebruik van een voucher.'
@@ -929,6 +933,10 @@ our $I18N = {
     'lastUpdated' => 1214558397,
     'message' => 'Voer een naam in waarmee naamplaatjes aan de verkochte kaartjes gelinkt kunnen worden.'
   },
+  'ticketDuration' => {
+    'lastUpdated' => 1216986300,
+    'message' => 'Hoe lang het kaartje geldig is.'
+  },
   'location help' => {
     'lastUpdated' => 1215428087,
     'message' => 'In welke kamer of op welke locatie is dit evenement?'
@@ -986,12 +994,16 @@ our $I18N = {
     'message' => 'De informatie, die met haar eigen sjabloon bewerkt is, over een enkel evenement.'
   },
   'badgeUrl' => {
-    'lastUpdated' => 1216648631,
+    'lastUpdated' => 1216986284,
     'message' => 'Het URL voor het toevoegen van nog een naamplaatje aan de winkelwagen van de gebruiker.'
   },
   'startDate.human' => {
     'lastUpdated' => 1149860425,
     'message' => '<p>De begindatum-en tijd van dit evenement, in een door mensen te lezen formaat.</p>'
+  },
+  'ticketStart' => {
+    'lastUpdated' => 1216986344,
+    'message' => 'De startdatum van het kaartje.'
   },
   'Admin manage sub events large resultset' => {
     'lastUpdated' => 1148287015,
@@ -1085,6 +1097,10 @@ our $I18N = {
     'lastUpdated' => 1215443963,
     'message' => 'Evenement beheer kaartje'
   },
+  'ticketEventNumber' => {
+    'lastUpdated' => 1216986316,
+    'message' => 'Het evenement nummer van het kaartje.'
+  },
   'import events' => {
     'lastUpdated' => 1190027313,
     'message' => 'Importeer events'
@@ -1100,6 +1116,10 @@ our $I18N = {
   'check required fields' => {
     'lastUpdated' => 1190027331,
     'message' => 'Deze verplichte velden werden niet meegestuurd:'
+  },
+  'ticketLocation' => {
+    'lastUpdated' => 1216986330,
+    'message' => 'Waar het kaartje toegang toe geeft.'
   },
   'forced narrowing' => {
     'lastUpdated' => 1148303195,
