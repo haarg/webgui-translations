@@ -515,21 +515,21 @@ Als er een server voor het verzenden van email op dezelfde machine staat als de 
     'lastUpdated' => 1154075354,
     'message' => 'U heeft niet voldoende privileges voor toegang tot deze pagina. '
   },
-  '64' => {
-    'lastUpdated' => 1154092034,
-    'message' => 'Log uit'
-  },
   'mail return path' => {
     'lastUpdated' => 1156169357,
     'message' => 'Terugzend pad'
   },
-  'account' => {
-    'lastUpdated' => 1154097996,
-    'message' => 'Account'
+  '64' => {
+    'lastUpdated' => 1154092034,
+    'message' => 'Log uit'
   },
   '1004 description' => {
     'lastUpdated' => 1155760524,
     'message' => 'Grote sites, die gebruik maken van groepen die in een externe database zijn vastgelegd, zullen deze externe database erg veel aanspreken. Om deze belasting te reduceren, kun je aangeven hoe lang deze gegevens in de WebGUI database gecached mogen worden. Meer geavanceerde caching wordt mogelijk in een latere versie van WebGUI toegevoegd. '
+  },
+  'account' => {
+    'lastUpdated' => 1154097996,
+    'message' => 'Account'
   },
   '558' => {
     'lastUpdated' => 1154090845,
@@ -854,7 +854,7 @@ Deze groep zou dan "Werknemers in HMO 1" genoemd kunnen worden en zou je de moge
     'message' => 'Wat als volgende? '
   },
   'user profile view template description' => {
-    'lastUpdated' => 1216586972,
+    'lastUpdated' => 1216986791,
     'message' => 'Het sjabloon waarmee de gebruikers hun profiel zien.'
   },
   '1011' => {
@@ -1390,8 +1390,8 @@ Afhankelijk van welke authenticatie modules geïnstalleerd zijn in het systeem, 
     'message' => 'Dit beperkt de uitvoer van debugging tot een specifiek IP adres of IP bereik. Kies het subnet dat debugging in CIDR formaat kan bekijken. Bijvoorbeeld: 10.0.0.0/24. Meer CIDR adressen kunnen opgegeven worden, deze dienen gescheiden te worden door komma\'s.'
   },
   'user profile edit template description' => {
-    'lastUpdated' => 1216587849,
-    'message' => 'Het sjabloon waarmee een formulier gebouwd wordt waarmee de gebuikers hun profiel kunnen bewerken.'
+    'lastUpdated' => 1216986783,
+    'message' => 'Het sjabloon waarmee een formulier gebouwd wordt, zodat de gebuikers hun profiel kunnen bewerken.'
   },
   '951' => {
     'lastUpdated' => 1156171919,
