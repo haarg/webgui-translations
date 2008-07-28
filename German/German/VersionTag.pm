@@ -114,8 +114,8 @@ our $I18N = {
     'message' => 'Sind sie sich sicher, da&szlig; sie den Version Tag und seinen Inhalt ver&ouml;ffentlichen wollen? '
   },
   'manageRevisionsInTag with selected' => {
-    'lastUpdated' => 1216639761,
-    'message' => ''
+    'lastUpdated' => 1217236187,
+    'message' => 'Mit ausgew&auml;hlten:'
   },
   'continue with workflow' => {
     'lastUpdated' => 1215509035,
@@ -125,13 +125,17 @@ our $I18N = {
     'lastUpdated' => 1166617300,
     'message' => 'Benachrichtigungsnachricht '
   },
-  'wait until' => {
-    'lastUpdated' => 1216639841,
-    'message' => 'Warte bis'
+  'wait until hoverhelp' => {
+    'lastUpdated' => 1217236554,
+    'message' => 'W&auml;hle das Version Tag Feld, das benutzt wird, um zu bestimme, wie lange gewartet wird, bevor mit diesem Workflow fortgefahren wird. Wahl eines Startzeitpunkts bedeutet, dass Sie bis zum Startzeitpunkt des Version Tags warten wollen, bis mit diesem Workflow fortgefahren wird. Wahl eines Endzeitpunkts bedeutet, dass Sie bis zum Endzeitpunkt des Version Tags&nbsp;warten wollen, bis fortgefahren wird.'
   },
   'manage versions' => {
     'lastUpdated' => 1179996481,
     'message' => 'Verwalte Versionen.'
+  },
+  'wait until' => {
+    'lastUpdated' => 1216639841,
+    'message' => 'Warte bis'
   },
   'comments description commit' => {
     'lastUpdated' => 1166615405,
@@ -199,7 +203,7 @@ our $I18N = {
   },
   'bad commit' => {
     'lastUpdated' => 1192966747,
-    'message' => 'Während der Bearbeitung des Inhalts trat ein Problem auf. Setzen Sie sich bitte mit Ihrem Systemverwalter in Verbindung.'
+    'message' => "W\x{e4}hrend der Bearbeitung des Inhalts trat ein Problem auf. Setzen Sie sich bitte mit Ihrem Systemverwalter in Verbindung."
   },
   'workflow' => {
     'lastUpdated' => 1157929028,
@@ -273,33 +277,33 @@ our $I18N = {
     'lastUpdated' => 1179996444,
     'message' => 'Welche Gruppe'
   },
-  'current tag is called' => {
-    'lastUpdated' => 1166616197,
-    'message' => 'Sie arbeiten zur Zeit unter dem Tag&nbsp; '
-  },
   'version end time' => {
     'lastUpdated' => 1216639824,
     'message' => 'End Zeitpunkt Version'
+  },
+  'current tag is called' => {
+    'lastUpdated' => 1166616197,
+    'message' => 'Sie arbeiten zur Zeit unter dem Tag&nbsp; '
   },
   'approved' => {
     'lastUpdated' => 1216639487,
     'message' => 'freigegeben'
   },
-  'group to use help' => {
-    'lastUpdated' => 1179996453,
-    'message' => 'Welche Gruppe darf diesen Tag benutzen?'
-  },
-  'do on approve' => {
-    'lastUpdated' => 1216639623,
-    'message' => ''
+  'purge revision prompt' => {
+    'lastUpdated' => 1179997378,
+    'message' => 'Sind sie sich sicher, da&szlig; sie diese Revision des Assets l&ouml;schen wollen? Nach dem L&ouml;schen kann diese nicht wieder hergestellt werden.'
   },
   'manageRevisionsInTag moveTo new' => {
     'lastUpdated' => 1216639718,
     'message' => '-&gt; Neuer Version Tag'
   },
-  'purge revision prompt' => {
-    'lastUpdated' => 1179997378,
-    'message' => 'Sind sie sich sicher, da&szlig; sie diese Revision des Assets l&ouml;schen wollen? Nach dem L&ouml;schen kann diese nicht wieder hergestellt werden.'
+  'do on approve' => {
+    'lastUpdated' => 1217236156,
+    'message' => 'Bei Freigabe tue'
+  },
+  'group to use help' => {
+    'lastUpdated' => 1179996453,
+    'message' => 'Welche Gruppe darf diesen Tag benutzen?'
   },
   'workflow help' => {
     'lastUpdated' => 1166618138,
