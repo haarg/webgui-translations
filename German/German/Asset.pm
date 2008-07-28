@@ -13,17 +13,21 @@ our $I18N = {
     'lastUpdated' => 1153127709,
     'message' => 'System-Zwischenablage l&ouml;schen.'
   },
-  'Uploads URL' => {
-    'lastUpdated' => 1170454199,
-    'message' => 'Uploads URL'
+  'parent url' => {
+    'lastUpdated' => 1170458428,
+    'message' => 'Elternteil URL'
   },
   'Export as user description' => {
     'lastUpdated' => 1170453810,
     'message' => '<p>F&uuml;hrt einen Seitenexport unter dieser Benutzerkennung durch. Standard ist &quot;Besucher&quot;.</p>'
   },
-  'parent url' => {
-    'lastUpdated' => 1170458428,
-    'message' => 'Elternteil URL'
+  'Uploads URL' => {
+    'lastUpdated' => 1170454199,
+    'message' => 'Uploads URL'
+  },
+  'make asset exportable' => {
+    'lastUpdated' => 1201601501,
+    'message' => 'Asset exportierbar?'
   },
   'newWindow' => {
     'lastUpdated' => 1170458894,
@@ -32,10 +36,6 @@ our $I18N = {
   'keywords' => {
     'lastUpdated' => 1192785225,
     'message' => 'Stichwort'
-  },
-  'make asset exportable' => {
-    'lastUpdated' => 1201601501,
-    'message' => 'Asset exportierbar?'
   },
   '871 description' => {
     'lastUpdated' => 1170452259,
@@ -49,37 +49,37 @@ our $I18N = {
     'lastUpdated' => 1153261929,
     'message' => 'Betrachten'
   },
-  'encrypt page description' => {
-    'lastUpdated' => 1170457440,
-    'message' => '<p>Soll die Seite, die dieses Asset enth&auml;lt, &uuml;ber eine SSL-Verbindung &uuml;bertragen werden?</p>'
-  },
-  'controls' => {
-    'lastUpdated' => 1170455252,
-    'message' => 'Dies sind die Symbole und URLs f&uuml;r das Editieren, Ausschneiden, Kopieren, L&ouml;schen und Neuanordnen des Assets.'
+  'isHidden' => {
+    'lastUpdated' => 1170458448,
+    'message' => 'Boolscher Wert, der wahr ist, wenn das Asset in der Navigation nicht angezeigt wird.'
   },
   'export information' => {
     'lastUpdated' => 1170457581,
     'message' => '<p>%d Seiten in %d Sekunden exportiert.</p>'
   },
-  'isHidden' => {
-    'lastUpdated' => 1170458448,
-    'message' => 'Boolscher Wert, der wahr ist, wenn das Asset in der Navigation nicht angezeigt wird.'
+  'controls' => {
+    'lastUpdated' => 1170455252,
+    'message' => 'Dies sind die Symbole und URLs f&uuml;r das Editieren, Ausschneiden, Kopieren, L&ouml;schen und Neuanordnen des Assets.'
   },
-  'save and commit' => {
-    'lastUpdated' => 1170456962,
-    'message' => 'Speichern und &Uuml;bertragen (Commit)'
+  'encrypt page description' => {
+    'lastUpdated' => 1170457440,
+    'message' => '<p>Soll die Seite, die dieses Asset enth&auml;lt, &uuml;ber eine SSL-Verbindung &uuml;bertragen werden?</p>'
   },
   'asset' => {
     'lastUpdated' => 1153238556,
     'message' => 'Asset'
   },
-  'Data Type description' => {
-    'lastUpdated' => 1170453634,
-    'message' => '<p>W&auml;hlen Sie die Art des Formularelements f&uuml;r dieses Feld aus.</p>'
+  'save and commit' => {
+    'lastUpdated' => 1170456962,
+    'message' => 'Speichern und &Uuml;bertragen (Commit)'
   },
   '872' => {
     'lastUpdated' => 1170451365,
     'message' => 'Wer kann das Asset sehen?'
+  },
+  'Data Type description' => {
+    'lastUpdated' => 1170453634,
+    'message' => '<p>W&auml;hlen Sie die Art des Formularelements f&uuml;r dieses Feld aus.</p>'
   },
   'promote help' => {
     'lastUpdated' => 1170457638,
@@ -96,6 +96,10 @@ our $I18N = {
   'title' => {
     'lastUpdated' => 1170456818,
     'message' => 'Titel des Assets'
+  },
+  'page indicator' => {
+    'lastUpdated' => 1217254183,
+    'message' => 'Zeige Seite %s von %s'
   },
   'revised by' => {
     'lastUpdated' => 1153262068,
@@ -125,25 +129,25 @@ our $I18N = {
     'lastUpdated' => 1153128502,
     'message' => 'Tiefe'
   },
-  '412 description' => {
-    'lastUpdated' => 1170451766,
-    'message' => '<p>Eine Kurzbeschreibung dieses Assets.</p>'
-  },
   '964' => {
     'lastUpdated' => 1170452763,
     'message' => 'System-M&uuml;lleimer verwalten.'
   },
-  'locked' => {
-    'lastUpdated' => 1153262993,
-    'message' => 'Gesperrt'
+  '412 description' => {
+    'lastUpdated' => 1170451766,
+    'message' => '<p>Eine Kurzbeschreibung dieses Assets.</p>'
+  },
+  'Export Page' => {
+    'lastUpdated' => 1170453772,
+    'message' => 'Seite exportieren'
   },
   'create package' => {
     'lastUpdated' => 1170455393,
     'message' => 'Als Paket zur Verf&uuml;gung stellen?'
   },
-  'Export Page' => {
-    'lastUpdated' => 1170453772,
-    'message' => 'Seite exportieren'
+  'locked' => {
+    'lastUpdated' => 1153262993,
+    'message' => 'Gesperrt'
   },
   'with children' => {
     'lastUpdated' => 1192798281,
@@ -161,29 +165,29 @@ our $I18N = {
     'lastUpdated' => 1170454599,
     'message' => 'Assets'
   },
-  'view help' => {
-    'lastUpdated' => 1170456757,
-    'message' => 'Die meisten Asstes sind Teil eines Container-Assets, z.B. einer Seite oder einem Ordner. Diese Option erm&ouml;glicht es, das Asset alleine zu betrachten.'
-  },
   '886' => {
     'lastUpdated' => 1170452411,
     'message' => 'Von der Navigation verbergen? '
   },
-  'deleteConfirm' => {
-    'lastUpdated' => 1170455449,
-    'message' => 'Diese Metadaten Eigenschaft wirklich l&ouml;schen?'
+  'view help' => {
+    'lastUpdated' => 1170456757,
+    'message' => 'Die meisten Asstes sind Teil eines Container-Assets, z.B. einer Seite oder einem Ordner. Diese Option erm&ouml;glicht es, das Asset alleine zu betrachten.'
   },
   'no results' => {
     'lastUpdated' => 1215170551,
     'message' => 'Kein Ergebniss'
+  },
+  'deleteConfirm' => {
+    'lastUpdated' => 1170455449,
+    'message' => 'Diese Metadaten Eigenschaft wirklich l&ouml;schen?'
   },
   'update' => {
     'lastUpdated' => 1217146900,
     'message' => 'Aktualisieren'
   },
   'make asset exportable description' => {
-    'lastUpdated' => 1201601557,
-    'message' => 'Soll dieses Asset exportierbar sein? Dieses Asset und alle sein Vorg&auml;nger m&uuml;ssen exportierbar sein, damit dieses Asset exportiert werden kann.'
+    'lastUpdated' => 1217254158,
+    'message' => '<p>Darf dieses Asset als statisches HTML exportiert werden? Dieses Asset und alle sein Vorg&auml;nger m&uuml;ssen exportierbar sein, damit dieses Asset exportiert werden kann. Ausserdem muss das Exportieren in der WebGUI Konfigurationsdatei aktiviert sein.</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p>'
   },
   'manage help' => {
     'lastUpdated' => 1170458775,
@@ -202,12 +206,16 @@ our $I18N = {
     'message' => '<p>Dies ist der eindeutige Bezeichner von WebGUI f&uuml;r dieses Asset. Normale Benutzer werden diese Asset ID nie ben&ouml;tigen, fortgeschrittene Anwender k&ouml;nnen sie z.B. bei eigenen SQL-Reports einsetzen. Die Asset ID kann nicht ge&auml;ndert werden.</p>'
   },
   'Possible Values description' => {
-    'lastUpdated' => 1170454113,
-    'message' => '<p>Dieses Feld wird nur f&uuml;r die Datentypen &quot;Radio List&quot; und &quot;Select List&quot; genutzt. Geben Sie die Werte zeilenweise ein, die erscheinen sollen.</p>'
+    'lastUpdated' => 1217253839,
+    'message' => '<p>Dieses Feld wird nur f&uuml;r die Datentypen &quot;Radio List&quot; und &quot;Select List&quot; genutzt. Geben Sie die Werte zeilenweise ein, die erscheinen sollen. Jede Zeile sollte weniger als 255 Zeichen lang sein.</p>'
   },
   'restore' => {
     'lastUpdated' => 1153262080,
     'message' => 'Wiederherstellen'
+  },
+  'does asset inherit URL from parent description' => {
+    'lastUpdated' => 1217253998,
+    'message' => 'Soll der URL dieses Assets die URL des Elternassets vorangestellt werden?'
   },
   'Extras URL description' => {
     'lastUpdated' => 1170453858,
@@ -257,41 +265,41 @@ our $I18N = {
     'lastUpdated' => 1153244443,
     'message' => 'Nach unten verschieben'
   },
+  'change url' => {
+    'lastUpdated' => 1153242622,
+    'message' => 'URL ändern'
+  },
   'extrasUploads form option symlink' => {
     'lastUpdated' => 1170458623,
     'message' => 'Symlink'
-  },
-  'change url' => {
-    'lastUpdated' => 1153242622,
-    'message' => "URL \x{e4}ndern"
   },
   'purge revision after help' => {
     'lastUpdated' => 1170457373,
     'message' => 'Wie lange sollen alte Versionen eines Asset aufgehoben werden? Alte Versionen sind Versionen, die vom Nutzer nicht mehr gesehen werden aber im Versionierungssystem f&uuml;r ein Rollback nach wie vor vorhanden sind.'
   },
-  '895' => {
-    'lastUpdated' => 1170452523,
-    'message' => 'Cache Timeout'
-  },
   'committed versions' => {
     'lastUpdated' => 1170454956,
     'message' => 'Festgelegte Versionen'
   },
-  'revisions help' => {
-    'lastUpdated' => 1153262034,
-    'message' => 'Eine Liste aller Versionen dieses Assets anzeigen.<br />'
+  '895' => {
+    'lastUpdated' => 1170452523,
+    'message' => 'Cache Timeout'
   },
   'Export as user' => {
     'lastUpdated' => 1170453781,
     'message' => 'Exportieren als Benutzer'
   },
-  'type' => {
-    'lastUpdated' => 1153261940,
-    'message' => 'Typ'
+  'revisions help' => {
+    'lastUpdated' => 1153262034,
+    'message' => 'Eine Liste aller Versionen dieses Assets anzeigen.<br />'
   },
   'asset list title' => {
     'lastUpdated' => 1170454376,
     'message' => 'Liste der verf&uuml;gbaren Assets'
+  },
+  'type' => {
+    'lastUpdated' => 1153261940,
+    'message' => 'Typ'
   },
   'with descendants' => {
     'lastUpdated' => 1192798267,
@@ -301,33 +309,33 @@ our $I18N = {
     'lastUpdated' => 1170453034,
     'message' => '<p>&Ouml;ffnet ein Formular zum Hinzuf&uuml;gen neuer Metadaten-Felder zu diesem Asset.</p>'
   },
-  'revisions' => {
-    'lastUpdated' => 1153262004,
-    'message' => 'Versionen'
-  },
   '104' => {
     'lastUpdated' => 1149227599,
     'message' => 'URL'
   },
-  'edit branch help' => {
-    'lastUpdated' => 1170455697,
-    'message' => 'Die &quot;Zweig bearbeiten&quot; Maske anzeigen, um &Auml;nderungen an diesem Asset und allen Assets unterhalb durchzuf&uuml;hren.'
+  'revisions' => {
+    'lastUpdated' => 1153262004,
+    'message' => 'Versionen'
   },
   '412' => {
     'lastUpdated' => 1153126903,
     'message' => 'Zusammenfassung'
   },
-  '954' => {
-    'lastUpdated' => 1170452734,
-    'message' => 'System-Zwischenablage verwalten.'
+  'edit branch help' => {
+    'lastUpdated' => 1170455697,
+    'message' => 'Die &quot;Zweig bearbeiten&quot; Maske anzeigen, um &Auml;nderungen an diesem Asset und allen Assets unterhalb durchzuf&uuml;hren.'
+  },
+  'assetSize' => {
+    'lastUpdated' => 1170454592,
+    'message' => 'Gr&ouml;&szlig;e dieses Assets in Bytes. Summe aus allen Datenbankfeldern und Anh&auml;ngen.'
   },
   'status' => {
     'lastUpdated' => 1170456862,
     'message' => 'Status des Assets bez&uuml;glich der Versionskontrolle. Typischerweise ist dies &quot;approved&quot;, &quot;pending&quot; oder &quot;committed&quot;.'
   },
-  'assetSize' => {
-    'lastUpdated' => 1170454592,
-    'message' => 'Gr&ouml;&szlig;e dieses Assets in Bytes. Summe aus allen Datenbankfeldern und Anh&auml;ngen.'
+  '954' => {
+    'lastUpdated' => 1170452734,
+    'message' => 'System-Zwischenablage verwalten.'
   },
   'purge revision after' => {
     'lastUpdated' => 1170457483,
@@ -349,29 +357,29 @@ our $I18N = {
     'lastUpdated' => 1170451857,
     'message' => 'M&ouml;gliche Werte'
   },
-  'rootUrl form option symlinkDefault' => {
-    'lastUpdated' => 1170451334,
-    'message' => 'Symlink Standardwert.'
-  },
   'isPackage' => {
     'lastUpdated' => 1170458463,
     'message' => 'Boolscher Wert, der wahr ist, wenn das Asset ein Paket ist.'
+  },
+  'rootUrl form option symlinkDefault' => {
+    'lastUpdated' => 1170451334,
+    'message' => 'Symlink Standardwert.'
   },
   'Metadata Description description' => {
     'lastUpdated' => 1170453986,
     'message' => '<p>Eine optional Beschreibung f&uuml;r diese Metadaten Eigenschaft. Dieser Text wird als Mouseover-Text im Asset-Eigenschaften Karteireiter angezeigt.</p>'
   },
-  'Delete Metadata field' => {
-    'lastUpdated' => 1170453667,
-    'message' => 'Metadaten Eigenschaft l&ouml;schen'
-  },
-  'default value description' => {
-    'lastUpdated' => 1192785202,
-    'message' => 'Beschreibung zur Voreinstellung'
-  },
   'could not rmdir' => {
     'lastUpdated' => 1170455352,
     'message' => 'Verzeichnis %s konnte nicht gel&ouml;scht werden: %s'
+  },
+  'default value description' => {
+    'lastUpdated' => 1217253936,
+    'message' => 'Standardwert f&uuml;r dieses Feld. Falls es mehrere Standardwerte gibt, z.B. bei einer Check Box Liste, dann Eingabe ein Wert pro Zeile. Limitiert auf insgesamt 255 Zeichen.'
+  },
+  'Delete Metadata field' => {
+    'lastUpdated' => 1170453667,
+    'message' => 'Metadaten Eigenschaft l&ouml;schen'
   },
   '950' => {
     'lastUpdated' => 1170452675,
@@ -381,21 +389,21 @@ our $I18N = {
     'lastUpdated' => 1153126990,
     'message' => 'Datentyp'
   },
-  'keywords help' => {
-    'lastUpdated' => 1215170498,
-    'message' => 'Stichwort Hilfe'
-  },
   'this asset only' => {
     'lastUpdated' => 1192798167,
     'message' => 'Nur dieser Asset'
   },
-  'confirm change' => {
-    'lastUpdated' => 1153243168,
-    'message' => 'Sind Sie sicher?'
+  'keywords help' => {
+    'lastUpdated' => 1215170498,
+    'message' => 'Stichwort Hilfe'
   },
   'import' => {
     'lastUpdated' => 1153262773,
     'message' => 'Import'
+  },
+  'confirm change' => {
+    'lastUpdated' => 1153243168,
+    'message' => 'Sind Sie sicher?'
   },
   'extra head tags description' => {
     'lastUpdated' => 1170457628,
@@ -413,13 +421,13 @@ our $I18N = {
     'lastUpdated' => 1215472175,
     'message' => '<p>Der Name dieser Metadaten Eigenschaft muss eindeutig sein.<br />Es wird empfohlen, nur Buchstaben (a-z), Zahlen (0-9) oder Unterstriche (_) f&uuml;r die Feldnamen zu verwenden.</p>'
   },
-  '43' => {
-    'lastUpdated' => 1178863872,
-    'message' => 'Sind Sie sicher, dass Sie diesen Inhalt l&ouml;schen m&ouml;chten? Achtung: Dieser Vorgang unterliegt nicht der Versionierung und wird unverz&uuml;glich durchgef&uuml;hrt!  '
-  },
   '940' => {
     'lastUpdated' => 1170451385,
     'message' => 'In neuem Fenster &ouml;ffnen?'
+  },
+  '43' => {
+    'lastUpdated' => 1178863872,
+    'message' => 'Sind Sie sicher, dass Sie diesen Inhalt l&ouml;schen m&ouml;chten? Achtung: Dieser Vorgang unterliegt nicht der Versionierung und wird unverz&uuml;glich durchgef&uuml;hrt!  '
   },
   'rank' => {
     'lastUpdated' => 1153262742,
@@ -514,25 +522,25 @@ Dies bedeutet in der Regel, dass Sie eine Seite anlegen m&ouml;chtgen, die den s
     'lastUpdated' => 1153261587,
     'message' => 'Verwalten'
   },
-  'make package description' => {
-    'lastUpdated' => 1168963847,
-    'message' => '<p>Viele WebGUI Aufgaben wiederholen sich regelm&auml;&szlig;ig. Durch das Erstellen eines Pakets automatisieren Sie Aufgaben, wie das Erstellen eines Assets oder Mengen davon. Vorkonfigurierte Assets k&ouml;nnen danach &uuml;berall auf der Site wiederverwendet werden. Wenn Sie diese Asset als Paket verf&uuml;gbar machen wollen, w&auml;hlen Sie &quot;Ja&quot; aus.'
-  },
   'none' => {
     'lastUpdated' => 1153262099,
     'message' => 'Nichts'
+  },
+  'make package description' => {
+    'lastUpdated' => 1168963847,
+    'message' => '<p>Viele WebGUI Aufgaben wiederholen sich regelm&auml;&szlig;ig. Durch das Erstellen eines Pakets automatisieren Sie Aufgaben, wie das Erstellen eines Assets oder Mengen davon. Vorkonfigurierte Assets k&ouml;nnen danach &uuml;berall auf der Site wiederverwendet werden. Wenn Sie diese Asset als Paket verf&uuml;gbar machen wollen, w&auml;hlen Sie &quot;Ja&quot; aus.'
   },
   'duplicateField' => {
     'lastUpdated' => 1170455532,
     'message' => '<p><strong>Fehler: Feldname &quot;%field%&quot; wird bereits benutzt.</strong></p>'
   },
-  'edit branch' => {
-    'lastUpdated' => 1170455549,
-    'message' => 'Zweig bearbeiten'
-  },
   '108 description' => {
     'lastUpdated' => 1170451700,
     'message' => '<p>Wer ein Asset erstellt hat, ist in der Regel dessen Eigent&uuml;mer. Dieser Benutzer hat alle Rechte zum Editieren und Betrachten des Assets.</p><p><strong>Hinweis:</strong> Der Eigent&uuml;mer kann durch einen Administrator ge&auml;ndert werden.</p>'
+  },
+  'edit branch' => {
+    'lastUpdated' => 1170455549,
+    'message' => 'Zweig bearbeiten'
   },
   'make prototype description' => {
     'lastUpdated' => 1154467385,
@@ -542,33 +550,33 @@ Dies bedeutet in der Regel, dass Sie eine Seite anlegen m&ouml;chtgen, die den s
     'lastUpdated' => 1170451292,
     'message' => 'Nichts'
   },
-  'select all' => {
-    'lastUpdated' => 1153261991,
-    'message' => 'Alles ausw&auml;hlen'
-  },
   'edit' => {
     'lastUpdated' => 1153244582,
     'message' => 'Editieren'
   },
-  '107' => {
-    'lastUpdated' => 1153126733,
-    'message' => 'Sicherheit'
+  'select all' => {
+    'lastUpdated' => 1153261991,
+    'message' => 'Alles ausw&auml;hlen'
   },
   'size' => {
     'lastUpdated' => 1153261973,
     'message' => 'Gr&ouml;&szlig;e'
   },
+  '107' => {
+    'lastUpdated' => 1153126733,
+    'message' => 'Sicherheit'
+  },
   'confirm change url message' => {
     'lastUpdated' => 1170455023,
     'message' => 'Setzen Sie diesen Wert auf &quot;Ja&quot;, um zu best&auml;tigen, dass Sie diesen URL dauerhaft &auml;ndern m&ouml;chten. Auf diese Weise l&ouml;schen Sie alle alten Versionen dieses Assets.'
   },
-  '174' => {
-    'lastUpdated' => 1153126792,
-    'message' => 'Titel anzeigen?'
-  },
   'rootUrl form label' => {
     'lastUpdated' => 1168963969,
     'message' => 'Root URL'
+  },
+  '174' => {
+    'lastUpdated' => 1153126792,
+    'message' => 'Titel anzeigen?'
   },
   '940 description' => {
     'lastUpdated' => 1153127552,
@@ -577,6 +585,10 @@ Dies bedeutet in der Regel, dass Sie eine Seite anlegen m&ouml;chtgen, die den s
   'last updated' => {
     'lastUpdated' => 1153262812,
     'message' => 'Zuletzt aktualisiert'
+  },
+  'menu label' => {
+    'lastUpdated' => 1217254165,
+    'message' => 'Mehr'
   },
   'Select' => {
     'lastUpdated' => 1153238197,
@@ -598,29 +610,29 @@ Dies bedeutet in der Regel, dass Sie eine Seite anlegen m&ouml;chtgen, die den s
     'lastUpdated' => 1153238539,
     'message' => 'fr&uuml;her'
   },
-  'revision date' => {
-    'lastUpdated' => 1153262046,
-    'message' => 'Versionsdatum'
-  },
   'encrypt page' => {
     'lastUpdated' => 1170457382,
     'message' => 'Inhalt verschl&uuml;sseln?'
   },
-  'Uploads URL description' => {
-    'lastUpdated' => 1170454219,
-    'message' => '<p>Definiert den Uploads URL. Vorgabe ist der konfigurierte Wert f&uuml;r uploadsURL aus der WebGUI Konfigurationsdatei.</p>'
+  'revision date' => {
+    'lastUpdated' => 1153262046,
+    'message' => 'Versionsdatum'
   },
   'specified base' => {
     'lastUpdated' => 1170456876,
     'message' => 'Angegebene Basis'
   },
-  'asset template title' => {
-    'lastUpdated' => 1170454468,
-    'message' => 'Asset Template Variablen'
+  'Uploads URL description' => {
+    'lastUpdated' => 1170454219,
+    'message' => '<p>Definiert den Uploads URL. Vorgabe ist der konfigurierte Wert f&uuml;r uploadsURL aus der WebGUI Konfigurationsdatei.</p>'
   },
   '949' => {
     'lastUpdated' => 1170452686,
     'message' => 'Zwischenablage verwalten.'
+  },
+  'asset template title' => {
+    'lastUpdated' => 1170454468,
+    'message' => 'Asset Template Variablen'
   },
   'demote help' => {
     'lastUpdated' => 1153244426,
@@ -634,13 +646,17 @@ Dies bedeutet in der Regel, dass Sie eine Seite anlegen m&ouml;chtgen, die den s
     'lastUpdated' => 1170458600,
     'message' => 'Extras und uploads Verzeichnisse'
   },
-  'search' => {
-    'lastUpdated' => 1215170569,
-    'message' => 'Suche'
+  'does asset inherit URL from parent' => {
+    'lastUpdated' => 1217253965,
+    'message' => 'Eltern URL voranstellen?'
   },
   'done' => {
     'lastUpdated' => 1153244542,
     'message' => 'Fertig'
+  },
+  'search' => {
+    'lastUpdated' => 1215170569,
+    'message' => 'Suche'
   },
   'lock' => {
     'lastUpdated' => 1153262959,
@@ -666,13 +682,13 @@ Dies bedeutet in der Regel, dass Sie eine Seite anlegen m&ouml;chtgen, die den s
     'lastUpdated' => 1170458491,
     'message' => 'Das Paket das Sie importieren wollten enth&auml;lt Fehler. Es wurde bis zum Auftreten des Fehlers importiert. Um dies r&uuml;ckg&auml;nig zu machen, kehren Sie zur letzten Versionierungsmarkierung zur&uuml;ck.'
   },
-  'could not symlink' => {
-    'lastUpdated' => 1168956612,
-    'message' => 'Symlink von %s nach %s konnte nicht erzeugt werden: %s'
-  },
   'ownerUserId' => {
     'lastUpdated' => 1170458568,
     'message' => 'Die ID des Benutzers, der das Asset besitzt.'
+  },
+  'could not symlink' => {
+    'lastUpdated' => 1168956612,
+    'message' => 'Symlink von %s nach %s konnte nicht erzeugt werden: %s'
   },
   'content profiling' => {
     'lastUpdated' => 1153243725,
@@ -722,13 +738,13 @@ Dies bedeutet in der Regel, dass Sie eine Seite anlegen m&ouml;chtgen, die den s
     'lastUpdated' => 1170458540,
     'message' => 'Welche Aktionen sollen bez&uuml;glich extras und uploads Verzeichnis, die oftmals von Teilen der Seite referenziert werden, ausgef&uuml;hrt werden. Symlink bedeutet, dass ein symbolischer Link (nicht verf&uuml;gbar auf allen Systemen) auf das originale Verzeichnis benutzt wird. None bedeutet nichts tun, d.h. extras und uploads Verzeichnis werden ignoriert; sehr warscheinlich werden Referenzen darauf nicht mehr funktionieren ausser Sie haben die Verzeichnisse vorher schon vorbereitet.'
   },
-  'make prototype' => {
-    'lastUpdated' => 1170458719,
-    'message' => 'Prototyp erstellen?'
-  },
   'menuTitle' => {
     'lastUpdated' => 1170458788,
     'message' => 'Der Titel des Assets, der in der Navigation angezeigt wird.'
+  },
+  'make prototype' => {
+    'lastUpdated' => 1170458719,
+    'message' => 'Prototyp erstellen?'
   },
   'topicName' => {
     'lastUpdated' => 1153261956,
@@ -746,17 +762,17 @@ Dies bedeutet in der Regel, dass Sie eine Seite anlegen m&ouml;chtgen, die den s
     'lastUpdated' => 1154466874,
     'message' => 'Leeren'
   },
-  '1073' => {
-    'lastUpdated' => 1153126742,
-    'message' => 'Style Template'
+  'rootUrl form hoverHelp' => {
+    'lastUpdated' => 1170457162,
+    'message' => 'Welche T&auml;tigkeit, zum betreffend Fragen zum Wurzel URL zu nehmen. Symlink R&uuml;ckstellung bedeutet, eine symbolische Verbindung von der Akte des Index root URL zur Index Datei des Standard Wertes herzustellen (nicht auf allen Systemen vorhanden). Keines bedeutet, nichts zu tun, das normalerweise Fragen zum root URL veranla&szlig;t, im exportierten Aufstellungsort zur&uuml;ckgewiesen zu werden.'
   },
   '105' => {
     'lastUpdated' => 1153126726,
     'message' => 'Anzeige'
   },
-  'rootUrl form hoverHelp' => {
-    'lastUpdated' => 1170457162,
-    'message' => 'Welche T&auml;tigkeit, zum betreffend Fragen zum Wurzel URL zu nehmen. Symlink R&uuml;ckstellung bedeutet, eine symbolische Verbindung von der Akte des Index root URL zur Index Datei des Standard Wertes herzustellen (nicht auf allen Systemen vorhanden). Keines bedeutet, nichts zu tun, das normalerweise Fragen zum root URL veranla&szlig;t, im exportierten Aufstellungsort zur&uuml;ckgewiesen zu werden.'
+  '1073' => {
+    'lastUpdated' => 1153126742,
+    'message' => 'Style Template'
   },
   '951' => {
     'lastUpdated' => 1170452722,
@@ -778,13 +794,13 @@ Dies bedeutet in der Regel, dass Sie eine Seite anlegen m&ouml;chtgen, die den s
     'lastUpdated' => 1178788228,
     'message' => '<p>Der Title dieses Assets. Er sollte den Inhalt beschreiben, aber nicht sehr lang sein. Wird er leer gelassen, wird als Standard &quot;Untitled&quot; eingef&uuml;gt.</p><p><em>Hinweis:</em> Geben Sie <strong>immer</strong> einen Titel an, selbst wenn Sie ihn im Asset-Template nicht nutzen. An mehreren Stellen, wie z.B. dem Seitenbaum, der Zwischenablage und dem M&uuml;lleimer unterscheiden sich Assets nur anhand ihres Titels.</p>'
   },
-  'change url help' => {
-    'lastUpdated' => 1170454842,
-    'message' => "Zeigt die &quot;URL \x{e4}ndern&quot; Seite f\x{fc}r dieses Asset an."
-  },
   'packages' => {
     'lastUpdated' => 1153263288,
     'message' => 'Pakete'
+  },
+  'change url help' => {
+    'lastUpdated' => 1170454842,
+    'message' => 'Zeigt die &quot;URL ändern&quot; Seite für dieses Asset an.'
   },
   'purge revision prompt' => {
     'lastUpdated' => 1170457353,
