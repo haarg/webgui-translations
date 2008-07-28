@@ -5,93 +5,93 @@ our $I18N = {
     'lastUpdated' => 1193132334,
     'message' => 'Beim Erstellen eines Benutzers.'
   },
-  '84 description' => {
-    'lastUpdated' => 1178531182,
-    'message' => 'Der Name dieser Gruppe. Am besten sollte dieser Name f&uuml;r die Gruppe beschreibend sein, damit Sie auf den ersten Blick wissen, welchen Zweck diese Gruppe hat. '
+  '1049' => {
+    'lastUpdated' => 1178615432,
+    'message' => 'Inhaltsfilter ID'
   },
   '127' => {
     'lastUpdated' => 1178615686,
     'message' => 'Firmen URL'
   },
-  '1049' => {
-    'lastUpdated' => 1178615432,
-    'message' => 'Inhaltsfilter ID'
-  },
-  '71' => {
-    'lastUpdated' => 1178617884,
-    'message' => 'Passwort wiederherstellen'
-  },
-  '118' => {
-    'lastUpdated' => 1178615650,
-    'message' => 'Anonyme Registrierung'
+  '84 description' => {
+    'lastUpdated' => 1178531182,
+    'message' => 'Der Name dieser Gruppe. Am besten sollte dieser Name f&uuml;r die Gruppe beschreibend sein, damit Sie auf den ersten Blick wissen, welchen Zweck diese Gruppe hat. '
   },
   '443' => {
     'lastUpdated' => 1178617200,
     'message' => 'Private Information'
   },
+  '118' => {
+    'lastUpdated' => 1178615650,
+    'message' => 'Anonyme Registrierung'
+  },
+  '71' => {
+    'lastUpdated' => 1178617884,
+    'message' => 'Passwort wiederherstellen'
+  },
   '959' => {
     'lastUpdated' => 1178618526,
     'message' => 'System Zwischenablage leeren.'
-  },
-  'show all fields' => {
-    'lastUpdated' => 1178625693,
-    'message' => 'Zeige alle Felder'
   },
   '882' => {
     'lastUpdated' => 1178618365,
     'message' => 'Editor Modus'
   },
-  'cache type' => {
-    'lastUpdated' => 1178624189,
-    'message' => 'Cache Typ'
-  },
-  '331' => {
-    'lastUpdated' => 1178186412,
-    'message' => 'Bundesland '
+  'show all fields' => {
+    'lastUpdated' => 1178625693,
+    'message' => 'Zeige alle Felder'
   },
   '358' => {
     'lastUpdated' => 1178616208,
     'message' => 'Linke Spalte'
   },
+  '331' => {
+    'lastUpdated' => 1178186412,
+    'message' => 'Bundesland '
+  },
+  'cache type' => {
+    'lastUpdated' => 1178624189,
+    'message' => 'Cache Typ'
+  },
   '1050' => {
     'lastUpdated' => 1178615447,
     'message' => 'Suche nach'
-  },
-  '560' => {
-    'lastUpdated' => 1178195259,
-    'message' => 'Freigegeben'
   },
   '737' => {
     'lastUpdated' => 1178529712,
     'message' => '8 Master'
   },
-  'settings groupIdAdminWorkflowRun label' => {
-    'lastUpdated' => 1199973259,
-    'message' => 'Workflow (Ausf&uuml;hren)'
-  },
-  'settings groupIdAdminCache hoverHelp' => {
-    'lastUpdated' => 1187689745,
-    'message' => 'Gruppe, um Cache einzusehen und zu l&ouml;schen.'
-  },
-  '84' => {
-    'lastUpdated' => 1178618223,
-    'message' => 'Gruppenname'
+  '560' => {
+    'lastUpdated' => 1178195259,
+    'message' => 'Freigegeben'
   },
   'skip commit comments' => {
     'lastUpdated' => 1199973661,
     'message' => 'Commit Kommentare &uuml;berspringen?'
   },
+  '84' => {
+    'lastUpdated' => 1178618223,
+    'message' => 'Gruppenname'
+  },
+  'settings groupIdAdminCache hoverHelp' => {
+    'lastUpdated' => 1187689745,
+    'message' => 'Gruppe, um Cache einzusehen und zu l&ouml;schen.'
+  },
+  'settings groupIdAdminWorkflowRun label' => {
+    'lastUpdated' => 1199973259,
+    'message' => 'Workflow (Ausf&uuml;hren)'
+  },
   '437' => {
     'lastUpdated' => 1178193090,
     'message' => 'Statistik'
   },
-  '451' => {
-    'lastUpdated' => 1178617264,
-    'message' => 'ist erforderlich'
-  },
   'changeUrl workflow help' => {
     'lastUpdated' => 1178547721,
     'message' => 'Welcher Workflow soll ablaufen falls sich die URL eines Assets &auml;ndert.<br />'
+  },
+  '451' => {
+    'lastUpdated' => 1178617264,
+    'message' => 'ist erforderlich'
   },
   '454' => {
     'lastUpdated' => 1178193494,
@@ -105,13 +105,13 @@ our $I18N = {
     'lastUpdated' => 1178613721,
     'message' => 'Nachricht bewerten'
   },
-  'private message to label' => {
-    'lastUpdated' => 1187688347,
-    'message' => 'An'
-  },
   '135 description' => {
     'lastUpdated' => 1178183678,
     'message' => '<p>Dies ist die Adresse ihres lokalen Mailservers. Dieser wird f&uuml;r alle Features ben&ouml;tigt, die das Internet email System benutzen (z.B. Passwort Wiederherstellung).</p><p>Sie k&ouml;nnen aber auch den Pfad zu einem lokal installierten sendmail Server angeben. Auf den meisten Linux Systemen zu finden unter &quot;/usr/lib/sendmail&quot;.&nbsp;</p>'
+  },
+  'private message to label' => {
+    'lastUpdated' => 1187688347,
+    'message' => 'An'
   },
   '540 description' => {
     'lastUpdated' => 1178194785,
@@ -141,89 +141,89 @@ our $I18N = {
     'lastUpdated' => 1199973354,
     'message' => 'L&ouml;schen Workflow'
   },
-  'private message reply title' => {
-    'lastUpdated' => 1187688218,
-    'message' => 'Auf Nachricht antworten'
-  },
   '948' => {
     'lastUpdated' => 1178541601,
     'message' => 'Zwischenablage'
   },
-  '325' => {
-    'lastUpdated' => 1178185796,
-    'message' => 'Heimat Bundesland'
+  'private message reply title' => {
+    'lastUpdated' => 1187688218,
+    'message' => 'Auf Nachricht antworten'
   },
   '378' => {
     'lastUpdated' => 1178616325,
     'message' => 'Benutzer ID'
   },
-  'view inbox template description' => {
-    'lastUpdated' => 1199973303,
-    'message' => 'W&auml;hlen Sie ein Template, um die Inbox anzuzeigen'
+  '325' => {
+    'lastUpdated' => 1178185796,
+    'message' => 'Heimat Bundesland'
   },
   '889' => {
     'lastUpdated' => 1178618397,
     'message' => 'Style Sheets Tabs'
   },
-  '572' => {
-    'lastUpdated' => 1178195441,
-    'message' => 'Freigeben'
+  'view inbox template description' => {
+    'lastUpdated' => 1199973303,
+    'message' => 'W&auml;hlen Sie ein Template, um die Inbox anzuzeigen'
   },
   '350' => {
     'lastUpdated' => 1178190028,
     'message' => 'Beendet'
   },
+  '572' => {
+    'lastUpdated' => 1178195441,
+    'message' => 'Freigeben'
+  },
   '540' => {
     'lastUpdated' => 1178617595,
     'message' => 'Karma pro Login'
-  },
-  'private message prev label' => {
-    'lastUpdated' => 1187688170,
-    'message' => 'Vorherige'
-  },
-  'pagination.lastPageUrl' => {
-    'lastUpdated' => undef,
-    'message' => ''
   },
   '58' => {
     'lastUpdated' => 1178617667,
     'message' => 'Ich habe bereits einen Account.'
   },
-  '431' => {
-    'lastUpdated' => 1178617068,
-    'message' => 'IP Adresse'
+  'pagination.lastPageUrl' => {
+    'lastUpdated' => 1217235793,
+    'message' => 'Die URL Komponente von pagination.lastPage.'
+  },
+  'private message prev label' => {
+    'lastUpdated' => 1187688170,
+    'message' => 'Vorherige'
   },
   '527' => {
     'lastUpdated' => 1178617517,
     'message' => 'Standard Homepage'
   },
+  '431' => {
+    'lastUpdated' => 1178617068,
+    'message' => 'IP Adresse'
+  },
   '861' => {
     'lastUpdated' => 1178618261,
     'message' => 'Profil ver&ouml;ffentlichen?'
-  },
-  'settings groupIdAdminStatistics label' => {
-    'lastUpdated' => 1199971835,
-    'message' => 'Statistiken'
   },
   '337' => {
     'lastUpdated' => 1178616083,
     'message' => 'URL Homepage'
   },
-  '76' => {
-    'lastUpdated' => 1178530272,
-    'message' => 'Diese email Adresse befindet sich nicht in unserer Datenbank.<br />'
+  'settings groupIdAdminStatistics label' => {
+    'lastUpdated' => 1199971835,
+    'message' => 'Statistiken'
   },
   '340' => {
     'lastUpdated' => 1178186573,
     'message' => 'weiblich'
   },
-  '62' => {
-    'lastUpdated' => 1178199821,
-    'message' => 'Speichern'
+  '76' => {
+    'lastUpdated' => 1178530272,
+    'message' => 'Diese email Adresse befindet sich nicht in unserer Datenbank.<br />'
   },
   '311' => {
     'lastUpdated' => 1178616009,
     'message' => 'Privatinformationen erlauben?'
+  },
+  '62' => {
+    'lastUpdated' => 1178199821,
+    'message' => 'Speichern'
   },
   '982' => {
     'lastUpdated' => 1178545438,
@@ -265,21 +265,21 @@ our $I18N = {
     'lastUpdated' => 1178616987,
     'message' => 'Inhalt filtern'
   },
-  '168' => {
-    'lastUpdated' => 1178615828,
-    'message' => 'Benutzer bearbeiten'
-  },
   '706' => {
     'lastUpdated' => 1178529285,
     'message' => 'Stund(en)'
   },
-  '14' => {
-    'lastUpdated' => 1178615726,
-    'message' => 'Ausstehende &quot;Submissions&quot; ansehen'
+  '168' => {
+    'lastUpdated' => 1178615828,
+    'message' => 'Benutzer bearbeiten'
   },
   '135' => {
     'lastUpdated' => 1178615700,
     'message' => 'SMTP Server'
+  },
+  '14' => {
+    'lastUpdated' => 1178615726,
+    'message' => 'Ausstehende &quot;Submissions&quot; ansehen'
   },
   '348' => {
     'lastUpdated' => 1178189979,
@@ -289,21 +289,21 @@ our $I18N = {
     'lastUpdated' => 1178547545,
     'message' => 'Sie haben nicht die notwendigen Rechte, um diese Operation durchzuf&uuml;hren. Bitte melden Sie sich zuerst mit einem Account an, der die notwendigen Rechte besitzt.'
   },
-  'editSettings error occurred' => {
-    'lastUpdated' => 1199973777,
-    'message' => 'Folgende Fehler sind beim Speichern der Einstellungen aufgetreten.'
-  },
   '145' => {
     'lastUpdated' => 1178615755,
     'message' => 'WebGUI Build Version'
   },
-  'preview' => {
-    'lastUpdated' => 1178624947,
-    'message' => 'Vorschau'
+  'editSettings error occurred' => {
+    'lastUpdated' => 1199973777,
+    'message' => 'Folgende Fehler sind beim Speichern der Einstellungen aufgetreten.'
   },
   '142 description' => {
     'lastUpdated' => 1178184056,
     'message' => 'Zeitspanne, in der Session eines Benutzers aktiv bleiben soll (bevor er sich am System neu anmelden muss). Dieser Timeout wird zur&uuml;ckgesetzt, sobald der Benutzer eine neue Seite aufruft. Wenn Sie z.B. den Timeout auf 8 Stunden setzen, so muss sich der Benutzer neue anmelden, falls er die Seite f&uuml;r 8 Stunden nicht besucht hat. '
+  },
+  'preview' => {
+    'lastUpdated' => 1178624947,
+    'message' => 'Vorschau'
   },
   '993' => {
     'lastUpdated' => 1178545852,
@@ -325,53 +325,53 @@ our $I18N = {
     'lastUpdated' => 1178624176,
     'message' => 'Cache Statistik'
   },
-  'settings groupIdAdminProfileSettings label' => {
-    'lastUpdated' => 1199971881,
-    'message' => 'Benutzerprofile'
-  },
   '486' => {
     'lastUpdated' => 1178193862,
     'message' => 'Liste'
+  },
+  'settings groupIdAdminProfileSettings label' => {
+    'lastUpdated' => 1199971881,
+    'message' => 'Benutzerprofile'
   },
   'SubscriptionGroup formName' => {
     'lastUpdated' => 1216638541,
     'message' => 'Abonnement Gruppe'
   },
-  '160' => {
-    'lastUpdated' => 1178615788,
-    'message' => 'Datum &quot;submitted&quot;'
-  },
   '509' => {
     'lastUpdated' => 1178617491,
     'message' => 'Diskussion Layout'
   },
-  '367' => {
-    'lastUpdated' => 1178616262,
-    'message' => 'Ablauf Zeitabstand'
-  },
-  '8' => {
-    'lastUpdated' => 1178618139,
-    'message' => 'Nicht gefunden Seite anschauen.'
+  '160' => {
+    'lastUpdated' => 1178615788,
+    'message' => 'Datum &quot;submitted&quot;'
   },
   '976' => {
     'lastUpdated' => 1178545491,
     'message' => 'Benutzer hinzuf&uuml;gen'
   },
-  'settings groupIdAdminSpectre hoverHelp' => {
-    'lastUpdated' => 1199973182,
-    'message' => 'Gruppe f&uuml;r Betrachten des Spectre Status.'
+  '8' => {
+    'lastUpdated' => 1178618139,
+    'message' => 'Nicht gefunden Seite anschauen.'
   },
-  'choose an asset' => {
-    'lastUpdated' => 1178618647,
-    'message' => 'W&auml;hle Asset'
+  '367' => {
+    'lastUpdated' => 1178616262,
+    'message' => 'Ablauf Zeitabstand'
+  },
+  '43' => {
+    'lastUpdated' => 1178192862,
+    'message' => 'Sind Sie sich sicher, dass Sie diesen Inhalt l&ouml;schen wollen? '
   },
   'pagination.firstPage' => {
     'lastUpdated' => 1180013277,
     'message' => 'Ein Link zur ersten Seite in der Seitenaufteilung.'
   },
-  '43' => {
-    'lastUpdated' => 1178192862,
-    'message' => 'Sind Sie sich sicher, dass Sie diesen Inhalt l&ouml;schen wollen? '
+  'choose an asset' => {
+    'lastUpdated' => 1178618647,
+    'message' => 'W&auml;hle Asset'
+  },
+  'settings groupIdAdminSpectre hoverHelp' => {
+    'lastUpdated' => 1199973182,
+    'message' => 'Gruppe f&uuml;r Betrachten des Spectre Status.'
   },
   '485' => {
     'lastUpdated' => 1178617419,
@@ -384,6 +384,10 @@ our $I18N = {
   '743' => {
     'lastUpdated' => 1178529843,
     'message' => 'F&uuml;r eine Passwort Wiederherstellung m&uuml;ssen Sie eine g&uuml;ltige email Adresse eingeben.<br />'
+  },
+  'showMessageOnLoginTimes label' => {
+    'lastUpdated' => 1217236101,
+    'message' => '<p>Wie oft Anmeldenachricht zeigen</p>'
   },
   '523' => {
     'lastUpdated' => 1178194165,
@@ -517,33 +521,33 @@ our $I18N = {
     'lastUpdated' => 1178191193,
     'message' => 'Sie besitzen nicht die erforderlichen Rechte, um auf diese Seite zuzugreifen. '
   },
-  'account' => {
-    'lastUpdated' => 1178547178,
-    'message' => 'Account'
-  },
-  '1004 description' => {
-    'lastUpdated' => 1178628427,
-    'message' => '<p>Gro&szlig;e Installationen, die externe Gruppen Daten benutzen fragen sehr oft externe Datenbanken ab. Um dies zu reduzieren, k&ouml;nnen Sie angeben wie lange Ergebnisse aus diesen Abfragen in der WebGUI Datenbank zwischengespeichert werden sollen. Wird in kommenden Versionen von WebGUI weiter ausgebaut.</p>'
+  '64' => {
+    'lastUpdated' => 1178201753,
+    'message' => 'Abmelden.'
   },
   'mail return path' => {
     'lastUpdated' => 1178627613,
     'message' => 'Antwortadresse'
   },
-  '64' => {
-    'lastUpdated' => 1178201753,
-    'message' => 'Abmelden.'
+  '1004 description' => {
+    'lastUpdated' => 1178628427,
+    'message' => '<p>Gro&szlig;e Installationen, die externe Gruppen Daten benutzen fragen sehr oft externe Datenbanken ab. Um dies zu reduzieren, k&ouml;nnen Sie angeben wie lange Ergebnisse aus diesen Abfragen in der WebGUI Datenbank zwischengespeichert werden sollen. Wird in kommenden Versionen von WebGUI weiter ausgebaut.</p>'
+  },
+  'account' => {
+    'lastUpdated' => 1178547178,
+    'message' => 'Account'
   },
   '558' => {
     'lastUpdated' => 1178195070,
     'message' => 'Karma des Benutzers bearbeiten'
   },
-  'password clear text' => {
-    'lastUpdated' => 1199973034,
-    'message' => 'Dargestellt im Klartext um Eingabe &uuml;berpr&uuml;fen zu k&ouml;nnen.'
-  },
   '12' => {
     'lastUpdated' => 1178544614,
     'message' => 'Admin ausschalten.'
+  },
+  'password clear text' => {
+    'lastUpdated' => 1199973034,
+    'message' => 'Dargestellt im Klartext um Eingabe &uuml;berpr&uuml;fen zu k&ouml;nnen.'
   },
   '881' => {
     'lastUpdated' => 1178538837,
@@ -557,25 +561,25 @@ our $I18N = {
     'lastUpdated' => 1178529401,
     'message' => 'Debug Informationen werden von WebGUI angezeigt. Dies ist vor allem f&uuml;r WebGUI Entwickler interessant, kann aber auch f&uuml;r Administratoren interessant sein, die einem bestimmten Problem auf die Spur kommen wollen.<br />'
   },
-  'settings groupIdAdminUser hoverHelp' => {
-    'lastUpdated' => 1199973211,
-    'message' => 'Gruppe f&uuml;r Benutzerverwaltung (Bearbeiten und Anlegen).'
+  '45' => {
+    'lastUpdated' => 1178617252,
+    'message' => 'Nein, ich habe einen Fehler gemacht.'
   },
   'private message next label' => {
     'lastUpdated' => 1187687977,
     'message' => 'N&auml;chste'
   },
-  '45' => {
-    'lastUpdated' => 1178617252,
-    'message' => 'Nein, ich habe einen Fehler gemacht.'
-  },
-  '507' => {
-    'lastUpdated' => 1178617477,
-    'message' => 'Template bearbeiten'
+  'settings groupIdAdminUser hoverHelp' => {
+    'lastUpdated' => 1199973211,
+    'message' => 'Gruppe f&uuml;r Benutzerverwaltung (Bearbeiten und Anlegen).'
   },
   '405' => {
     'lastUpdated' => 1178616951,
     'message' => 'Letzte Seite'
+  },
+  '507' => {
+    'lastUpdated' => 1178617477,
+    'message' => 'Template bearbeiten'
   },
   'settings groupIdAdminProductManager hoverHelp' => {
     'lastUpdated' => 1199973158,
@@ -585,13 +589,13 @@ our $I18N = {
     'lastUpdated' => 1178538603,
     'message' => 'Geben Sie die Ablaufbenachrichtigung ein, die dem Benuzter geschickt werden soll. '
   },
-  '1084' => {
-    'lastUpdated' => 1178181905,
-    'message' => 'Benutze standard Men&uuml;leiste f&uuml;r meine Sprache '
-  },
   '370' => {
     'lastUpdated' => 1179994446,
     'message' => 'Gruppenmitgliedschaften bearbeiten'
+  },
+  '1084' => {
+    'lastUpdated' => 1178181905,
+    'message' => 'Benutze standard Men&uuml;leiste f&uuml;r meine Sprache '
   },
   '309' => {
     'lastUpdated' => 1178615981,
@@ -614,8 +618,8 @@ our $I18N = {
     'message' => 'Statistik ansehen'
   },
   '965' => {
-    'lastUpdated' => 1178544638,
-    'message' => 'System M&uuml;lleimer'
+    'lastUpdated' => 1217235323,
+    'message' => '<p>Jedermanns M&uuml;lleimer</p>'
   },
   '824' => {
     'lastUpdated' => 1178618212,
@@ -633,13 +637,13 @@ our $I18N = {
     'lastUpdated' => 1178615584,
     'message' => 'Datenbank Verbindung'
   },
-  '381' => {
-    'lastUpdated' => 1179994609,
-    'message' => 'WebGUI empfing einen missgebildeten Request und kann nicht mit der Verarbeitung fortfahren. Propriet&auml;re Zeichen, die einem Formular &uuml;bergeben wurden, haben diesen Effekt normalerweise zur Folge. Wenn Sie wollen, benutzen Sie ihre Browser Zur&uuml;ck Schaltfl&auml;che und versuchen Sie es erneut.'
-  },
   'user profile edit template' => {
     'lastUpdated' => 1216639169,
     'message' => 'Bearbeiten Benutzerprofil Template'
+  },
+  '381' => {
+    'lastUpdated' => 1179994609,
+    'message' => 'WebGUI empfing einen missgebildeten Request und kann nicht mit der Verarbeitung fortfahren. Propriet&auml;re Zeichen, die einem Formular &uuml;bergeben wurden, haben diesen Effekt normalerweise zur Folge. Wenn Sie wollen, benutzen Sie ihre Browser Zur&uuml;ck Schaltfl&auml;che und versuchen Sie es erneut.'
   },
   '581' => {
     'lastUpdated' => 1178617678,
@@ -653,21 +657,21 @@ our $I18N = {
     'lastUpdated' => 1178616368,
     'message' => 'Diese Datei l&ouml;schen?'
   },
-  'pagination.pageCount.isMultiple' => {
-    'lastUpdated' => 1180015154,
-    'message' => 'Bedingung, die anzeigt, ob es mehr als eine Seite in der Seitenaufteilung gibt.'
-  },
   '496' => {
     'lastUpdated' => 1178617454,
     'message' => 'Zu nutzender Editor'
   },
-  'settings groupIdAdminProfileSettings hoverHelp' => {
-    'lastUpdated' => 1199973166,
-    'message' => 'Gruppe f&uuml;r Verwaltung von Benutzerprofilfeldern.'
+  'pagination.pageCount.isMultiple' => {
+    'lastUpdated' => 1180015154,
+    'message' => 'Bedingung, die anzeigt, ob es mehr als eine Seite in der Seitenaufteilung gibt.'
   },
   'Enable Metadata description' => {
     'lastUpdated' => 1180077248,
     'message' => 'Diese Option aktiviert den Metadaten Tab der Assets. Dadurch k&ouml;nnen Metadaten eingegeben und von WebGUI verfolgt werden.'
+  },
+  'settings groupIdAdminProfileSettings hoverHelp' => {
+    'lastUpdated' => 1199973166,
+    'message' => 'Gruppe f&uuml;r Verwaltung von Benutzerprofilfeldern.'
   },
   '605' => {
     'lastUpdated' => 1178617718,
@@ -685,29 +689,29 @@ our $I18N = {
     'lastUpdated' => 1178530745,
     'message' => 'Gruppen innerhalb dieser Gruppe '
   },
-  'settings groupIdAdminGroup label' => {
-    'lastUpdated' => 1199971921,
-    'message' => 'Gruppen'
-  },
-  'head.tags' => {
-    'lastUpdated' => 1178619007,
-    'message' => '<p>Tags, die WebGUI automatisch f&uuml;r Sie generiert damit Caching so funktioniert wie es soll, Suchmaschinen ihre Seite besser finden und andere n&uuml;tzliche automatische Funktionalit&auml;t. Sollte im &lt;head&gt; &lt;/head&gt; Bereich untergebracht werden.&nbsp;</p><p>Wir schlagen vor, dass Sie in ihrem &lt;title&gt; &lt;/title&gt; Bereich folgendes schreiben:</p><p>&lt;tmpl_var session.page.title&gt; - &lt;tmpl_var session.setting.companyName&gt;</p><p>Dieses Beispiel hilft ihnen, um gute Rankings in Suchmaschinen zu erreichen.&nbsp;</p>'
-  },
   '42' => {
     'lastUpdated' => 1178617013,
     'message' => 'Bitte best&auml;tigen'
+  },
+  'head.tags' => {
+    'lastUpdated' => 1217235425,
+    'message' => '<p>Tags, die WebGUI automatisch f&uuml;r Sie generiert damit Caching so funktioniert wie es soll, Suchmaschinen ihre Seite besser finden und andere n&uuml;tzliche automatische Funktionalit&auml;t. Sollte im &lt;head&gt; &lt;/head&gt; Bereich untergebracht werden.&nbsp;</p><p>Wir schlagen vor, dass Sie in ihrem &lt;title&gt; &lt;/title&gt; Bereich folgendes schreiben:</p><p>^PageTitle(); - ^c();</p><p>Dieses Beispiel hilft ihnen, um gute Rankings in Suchmaschinen zu erreichen.&nbsp;</p>'
+  },
+  'settings groupIdAdminGroup label' => {
+    'lastUpdated' => 1199971921,
+    'message' => 'Gruppen'
   },
   'link in new window' => {
     'lastUpdated' => 1199973337,
     'message' => 'Link in neuem Fenster &ouml;ffnen.'
   },
-  'settings groupIdAdminHelp hoverHelp' => {
-    'lastUpdated' => 1199973132,
-    'message' => 'Gruppe f&uuml;r Betrachten der Hilfe.'
-  },
   '1005 description' => {
     'lastUpdated' => 1179994413,
     'message' => '<p>Viele Organisationen besitzen externe Datenbanken, die Benutzer zu Gruppen mappen; Zum Beispiel k&ouml;nnte eine HR Datenbank das Mapping &quot;Employee ID&quot; zu &quot;Health Care Plan&quot; realisieren. Um einen Benutzer gegen eine externe Datenbank zu mappen, m&uuml;&szlig;en Sie ein SQL Statement konstruieren, das eine Liste von WebGUI userIds f&uuml;r Benutzer in der Gruppe zur&uuml;ckgibt. Sie k&ouml;nnen Makros in der Abfrage benutzen, um Daten im Profil des Benutzers zu holen, wie zum Beispiel die &quot;Employee ID&quot;. Es folgt ein Beispiel, das einen Benutzer gegen eine fiktionale HR Datenbank pr&uuml;ft. Dies setzt voraus, dass Sie ein zus&auml;tzliches WebGUI Profil Feld employeeId erzeugt haben.<br /></p> <p> select userId from employees, health_plans, empl_plan_map<br /> where employees.employee_id = ^User(&quot;employeeId&quot;);<br /> and health_plans.plan_name = &#39;HMO 1&#39;<br /> and employees.employee_id = empl_plan_map.employee_id<br /> and health_plans.health_plan_id = empl_plan_mp.health_plan_id<br /> </p> <p>Diese Gruppe k&ouml;nnte &quot;Employees in HMO 1&quot; genannt werden, und erlaubt es ihnen, den Zugriff auf eine Seite/Asset/Wobject nur den Benutzern zu erlauben, die in der externen Datenbank auch Mitglied vom &quot;Health Care Plan&quot; sind.&nbsp;</p>'
+  },
+  'settings groupIdAdminHelp hoverHelp' => {
+    'lastUpdated' => 1199973132,
+    'message' => 'Gruppe f&uuml;r Betrachten der Hilfe.'
   },
   'groups to delete' => {
     'lastUpdated' => 1178618778,
@@ -721,45 +725,45 @@ our $I18N = {
     'lastUpdated' => 1178628525,
     'message' => 'Session l&ouml;schen'
   },
-  '51' => {
-    'lastUpdated' => 1178194040,
-    'message' => 'Passwort'
-  },
   '816' => {
     'lastUpdated' => 1178530790,
     'message' => 'Status'
   },
-  'Enable user invitations description' => {
-    'lastUpdated' => 1199973325,
-    'message' => 'Erm&ouml;glicht es Benutzern an Freunde Emails zu verschicken und diese einzuladen, einen Account auf dieser Seite zu erstellen.'
+  '51' => {
+    'lastUpdated' => 1178194040,
+    'message' => 'Passwort'
   },
   '456' => {
     'lastUpdated' => 1178617306,
     'message' => 'Zur&uuml;ck zur Benutzerliste'
   },
-  'private message status unread' => {
-    'lastUpdated' => 1187688312,
-    'message' => 'Ungelesen'
+  'Enable user invitations description' => {
+    'lastUpdated' => 1199973325,
+    'message' => 'Erm&ouml;glicht es Benutzern an Freunde Emails zu verschicken und diese einzuladen, einen Account auf dieser Seite zu erstellen.'
   },
   '1051 description' => {
     'lastUpdated' => 1178615475,
     'message' => 'Wodurch soll der Text ersetzt werden.'
   },
+  'private message status unread' => {
+    'lastUpdated' => 1187688312,
+    'message' => 'Ungelesen'
+  },
   '975' => {
     'lastUpdated' => 1178545514,
     'message' => 'K&ouml;nnen sich Benutzer selbst entfernen?'
   },
-  '465 description' => {
-    'lastUpdated' => 1178193688,
-    'message' => 'Wie viele Zeichen soll eine Text Box auf dieser Seite auf ein mal anzeigen k&ouml;nnen. '
+  '493' => {
+    'lastUpdated' => 1178617442,
+    'message' => 'Zur&uuml;ck zur Seite.'
   },
   'link in same window' => {
     'lastUpdated' => 1199973346,
     'message' => 'Link im gleichen Fenster &ouml;ffnen.'
   },
-  '493' => {
-    'lastUpdated' => 1178617442,
-    'message' => 'Zur&uuml;ck zur Seite.'
+  '465 description' => {
+    'lastUpdated' => 1178193688,
+    'message' => 'Wie viele Zeichen soll eine Text Box auf dieser Seite auf ein mal anzeigen k&ouml;nnen. '
   },
   'trash workflow help' => {
     'lastUpdated' => 1178625957,
@@ -790,8 +794,8 @@ our $I18N = {
     'message' => 'Vorlieben'
   },
   'account.options' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1217235376,
+    'message' => 'Eine Schleife, die Optionen f&uuml;r verschiedene Benutzeraccount Zugrifflinks enth&auml;lt.'
   },
   '1026' => {
     'lastUpdated' => 1178615097,
@@ -1013,6 +1017,10 @@ our $I18N = {
     'lastUpdated' => 1178195163,
     'message' => 'Wenn hier ein Workflow gew&auml;hlt wird, so wird dieser immer dann ausgef&uuml;hrt, falls sich ein neuer Benutzer anonym registriert. '
   },
+  '352' => {
+    'lastUpdated' => 1178190050,
+    'message' => 'Datum'
+  },
   'view inbox message template description' => {
     'lastUpdated' => 1199973294,
     'message' => 'W&auml;hlen Sie ein Template, um Nachrichten in der Inbox anzuzeigen'
@@ -1021,17 +1029,13 @@ our $I18N = {
     'lastUpdated' => 1199973057,
     'message' => 'Ausf&uuml;hren wenn ein Admin einen Benutzer aktualisiert.'
   },
-  '352' => {
-    'lastUpdated' => 1178190050,
-    'message' => 'Datum'
+  '1006' => {
+    'lastUpdated' => 1178180381,
+    'message' => 'Login verschl&uuml;sseln? '
   },
   '130 description' => {
     'lastUpdated' => 1178183447,
     'message' => 'Maximal Gr&ouml;sse (in kilobyte) eines auf das System ladbaren Anhangs. Auf Grund der Eigenschaften des HTTP Protokols ist die zu erwartende maximale Dateigr&ouml;sse auf ca. 100MB beschr&auml;nkt.'
-  },
-  '1006' => {
-    'lastUpdated' => 1178180381,
-    'message' => 'Login verschl&uuml;sseln? '
   },
   'company' => {
     'lastUpdated' => 1178548300,
@@ -1054,24 +1058,24 @@ our $I18N = {
     'message' => 'Ja oder Nein'
   },
   'pagination.nextPageText' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1217235813,
+    'message' => 'Die Text Komponente von pagination.nextPage.'
   },
   'account options template variables' => {
     'lastUpdated' => 1216638554,
     'message' => 'Account Optionen Template Variablen'
   },
-  'button' => {
-    'lastUpdated' => 1178547589,
-    'message' => 'Schaltfl&auml;che'
+  '372' => {
+    'lastUpdated' => 1178616310,
+    'message' => 'Gruppen des Benutzers bearbeiten'
   },
   '810' => {
     'lastUpdated' => 1178530636,
     'message' => 'senden'
   },
-  '372' => {
-    'lastUpdated' => 1178616310,
-    'message' => 'Gruppen des Benutzers bearbeiten'
+  'button' => {
+    'lastUpdated' => 1178547589,
+    'message' => 'Schaltfl&auml;che'
   },
   '574' => {
     'lastUpdated' => 1178195458,
@@ -1105,53 +1109,53 @@ our $I18N = {
     'lastUpdated' => 1178545537,
     'message' => 'Titel'
   },
-  'settings groupIdAdminLDAPLink label' => {
-    'lastUpdated' => 1199971110,
-    'message' => 'LDAP'
-  },
   'showMessageOnLogin description' => {
     'lastUpdated' => 1216638882,
     'message' => 'Falls ja, zeige eine Nachricht nachdem der Benutzer angemeldet wurde.'
   },
-  '526' => {
-    'lastUpdated' => 1178617505,
-    'message' => 'Javascript entfernen und Makros abweisen.'
-  },
-  '72' => {
-    'lastUpdated' => 1178529432,
-    'message' => 'wiederherstellen'
+  'settings groupIdAdminLDAPLink label' => {
+    'lastUpdated' => 1199971110,
+    'message' => 'LDAP'
   },
   '566' => {
     'lastUpdated' => 1178195373,
     'message' => 'Bearbeitungstimeout'
   },
-  '806' => {
-    'lastUpdated' => 1178612460,
-    'message' => 'Diese Gruppe l&ouml;schen.'
+  '72' => {
+    'lastUpdated' => 1178529432,
+    'message' => 'wiederherstellen'
+  },
+  '526' => {
+    'lastUpdated' => 1178617505,
+    'message' => 'Javascript entfernen und Makros abweisen.'
   },
   '869' => {
     'lastUpdated' => 1178538676,
     'message' => 'Willkommensnachricht'
   },
-  'help contents' => {
-    'lastUpdated' => 1178619050,
-    'message' => 'Hilfe Inhalt'
-  },
-  '533' => {
-    'lastUpdated' => 1179994717,
-    'message' => '<strong>ohne</strong> den W&ouml;rtern'
+  '806' => {
+    'lastUpdated' => 1178612460,
+    'message' => 'Diese Gruppe l&ouml;schen.'
   },
   '359' => {
     'lastUpdated' => 1178616222,
     'message' => 'Rechte Spalte'
   },
-  '527 description' => {
-    'lastUpdated' => 1178627422,
-    'message' => '<p>Einige wirklich kleine Homepages haben keine spezielle Einstiegsseite, wollen stattdessen eine ihrer internen Seiten wie &quot;&Uuml;ber uns&quot; oder &quot;Firmeninformation&quot; als Einstiegsseite benutzen. Aus diesem Grund k&ouml;nnen Sie hier jede beliebige Seite als Einstiegsseite festlegen. Auf diese Seite wird weitergeleitet wenn ein Besucher die URL ihrer Seite eingibt oder auf den Home Link klickt. </p><p>Some really small sites don&#39;t have a home page, but instead like to use one of their internal pages like &quot;About Us&quot; or &quot;Company Information&quot; as their home page. For that reason, you can set the default page of your site to any page in the site. That page will be the one people go to if they type in just your URL http://www.mywebguisite.com, or if they click on the Home link generated by an AssetProxy of a Navigation Asset.</p>'
+  '533' => {
+    'lastUpdated' => 1179994717,
+    'message' => '<strong>ohne</strong> den W&ouml;rtern'
+  },
+  'help contents' => {
+    'lastUpdated' => 1178619050,
+    'message' => 'Hilfe Inhalt'
   },
   '811 description' => {
     'lastUpdated' => 1178530701,
     'message' => 'Von wem die email versendet wurde. '
+  },
+  '527 description' => {
+    'lastUpdated' => 1178627422,
+    'message' => '<p>Einige wirklich kleine Homepages haben keine spezielle Einstiegsseite, wollen stattdessen eine ihrer internen Seiten wie &quot;&Uuml;ber uns&quot; oder &quot;Firmeninformation&quot; als Einstiegsseite benutzen. Aus diesem Grund k&ouml;nnen Sie hier jede beliebige Seite als Einstiegsseite festlegen. Auf diese Seite wird weitergeleitet wenn ein Besucher die URL ihrer Seite eingibt oder auf den Home Link klickt. </p><p>Some really small sites don&#39;t have a home page, but instead like to use one of their internal pages like &quot;About Us&quot; or &quot;Company Information&quot; as their home page. For that reason, you can set the default page of your site to any page in the site. That page will be the one people go to if they type in just your URL http://www.mywebguisite.com, or if they click on the Home link generated by an AssetProxy of a Navigation Asset.</p>'
   },
   '1006 description' => {
     'lastUpdated' => 1178180483,
@@ -1170,16 +1174,16 @@ our $I18N = {
     'message' => 'Menge'
   },
   'options.display' => {
-    'lastUpdated' => undef,
-    'message' => ''
-  },
-  '462' => {
-    'lastUpdated' => 1178193598,
-    'message' => 'Zeitformat'
+    'lastUpdated' => 1217235574,
+    'message' => 'Ein vollst&auml;ndiger HTML Link mit internationalisiertem Label, f&uuml;r individuelle Account Optionen, wie zum Beispiel Editieren eines Profils, Betrachten eines Profils, Zugriff auf die Benutzer Inbox, und so weiter.'
   },
   '232' => {
     'lastUpdated' => 1178615918,
     'message' => 'kein Betreff'
+  },
+  '462' => {
+    'lastUpdated' => 1178193598,
+    'message' => 'Zeitformat'
   },
   '477' => {
     'lastUpdated' => 1178617358,
@@ -1193,37 +1197,37 @@ our $I18N = {
     'lastUpdated' => 1199971033,
     'message' => 'Wollen Sie beim Commit zur Eingabe eines Kommentars aufgefordert werden?'
   },
-  '142' => {
-    'lastUpdated' => 1178183905,
-    'message' => 'Session Timeout '
-  },
   '330' => {
     'lastUpdated' => 1178186425,
     'message' => 'Stadt'
   },
-  '991' => {
-    'lastUpdated' => 1178618559,
-    'message' => 'Datenbank Link ID'
+  '142' => {
+    'lastUpdated' => 1178183905,
+    'message' => 'Session Timeout '
   },
   '167' => {
     'lastUpdated' => 1178184800,
     'message' => 'Sind Sie sich sicher, dass dieser Benutzer gel&ouml;scht werden soll? Wenn Sie fortfahren, werden die Daten dieses Benutzers unwiederbringlich gel&ouml;scht. '
   },
+  '991' => {
+    'lastUpdated' => 1178618559,
+    'message' => 'Datenbank Link ID'
+  },
   'settings groupIdAdminTransactionLog label' => {
     'lastUpdated' => 1199971793,
     'message' => 'Transaktionen'
   },
-  'help index' => {
-    'lastUpdated' => 1178619057,
-    'message' => 'Index'
+  '360' => {
+    'lastUpdated' => 1178616235,
+    'message' => 'Ein &uuml;ber drei'
   },
   'group' => {
     'lastUpdated' => 1178607321,
     'message' => 'Gruppe'
   },
-  '360' => {
-    'lastUpdated' => 1178616235,
-    'message' => 'Ein &uuml;ber drei'
+  'help index' => {
+    'lastUpdated' => 1178619057,
+    'message' => 'Index'
   },
   '514' => {
     'lastUpdated' => 1179994632,
@@ -1237,13 +1241,13 @@ our $I18N = {
     'lastUpdated' => 1178529488,
     'message' => 'Ihr Benutzername darf nicht leer sein.  '
   },
-  'country' => {
-    'lastUpdated' => 1178552202,
-    'message' => 'Land'
-  },
   '50 description' => {
     'lastUpdated' => 1178193955,
     'message' => 'Der Name des Benutzers.'
+  },
+  'country' => {
+    'lastUpdated' => 1178552202,
+    'message' => 'Land'
   },
   '50' => {
     'lastUpdated' => 1178193939,
@@ -1278,8 +1282,8 @@ our $I18N = {
     'message' => 'Sonstige Information'
   },
   '967' => {
-    'lastUpdated' => 1178618540,
-    'message' => 'System M&uuml;lleimer leeren.'
+    'lastUpdated' => 1217235336,
+    'message' => 'Jedermanns&nbsp;M&uuml;lleimer leeren.'
   },
   '322' => {
     'lastUpdated' => 1178185599,
@@ -1289,25 +1293,25 @@ our $I18N = {
     'lastUpdated' => undef,
     'message' => ''
   },
-  '164 description' => {
-    'lastUpdated' => 1178184657,
-    'message' => '<p>Setze standard Authentifizierungsmethod f&uuml;r neue Accounts. Die zwei standard Optionen sind WebGUI und LDAP. WebGUI Authentifizierung bedeutet, dass der Benutzer gegen das in der WebGUI Datenbank gespeicherte Benutzername/Passwort Paar authentifiziert wird. LDAP Authentifizierung bedeutet, dass der Benutzer gegen einen externen LDAP Server authentifiziert wird. Andere Methoden k&ouml;nnen durch das Schreiben geeigneter Authentifizierungsmodule hinzugef&uuml;gt werden.</p><p>HINWEISE:</p><p>Einstellungen zur Authentifizierung individuell f&uuml;r jeden Benutzer angepasst werden.</p><p>Abh&auml;ngig von den auf ihrem System installierten Authentifizierungsmodulen sehen Sie eine Anzahl von Optionen.&nbsp;</p>'
-  },
   '353' => {
     'lastUpdated' => 1178190079,
     'message' => 'Sie haben zur Zeit keine Nachrichten in ihrer Inbox. '
+  },
+  '164 description' => {
+    'lastUpdated' => 1178184657,
+    'message' => '<p>Setze standard Authentifizierungsmethod f&uuml;r neue Accounts. Die zwei standard Optionen sind WebGUI und LDAP. WebGUI Authentifizierung bedeutet, dass der Benutzer gegen das in der WebGUI Datenbank gespeicherte Benutzername/Passwort Paar authentifiziert wird. LDAP Authentifizierung bedeutet, dass der Benutzer gegen einen externen LDAP Server authentifiziert wird. Andere Methoden k&ouml;nnen durch das Schreiben geeigneter Authentifizierungsmodule hinzugef&uuml;gt werden.</p><p>HINWEISE:</p><p>Einstellungen zur Authentifizierung individuell f&uuml;r jeden Benutzer angepasst werden.</p><p>Abh&auml;ngig von den auf ihrem System installierten Authentifizierungsmodulen sehen Sie eine Anzahl von Optionen.&nbsp;</p>'
   },
   '575' => {
     'lastUpdated' => 1178195474,
     'message' => 'Bearbeiten'
   },
-  '863 description' => {
-    'lastUpdated' => 1216638318,
-    'message' => 'Zeitdifferenz in Tagen vom Ablauf der Gruppierung bis zur L&ouml;schung vom System. Jeder g&uuml;ltige Integer m&ouml;glich. Zum Beispiel &quot;0&quot;, falls Gruppierung am selben Tag gel&ouml;scht werden soll. &quot;-7&quot;, falls Gruppierung 7 Tage <strong>vor</strong> Ablauf gel&ouml;scht werden soll. &quot;7&quot;, falls Gruppierung 7 Tage <strong>nach</strong> Ablauf gel&ouml;scht werden soll.'
-  },
   '984' => {
     'lastUpdated' => 1178545245,
     'message' => 'Diesen Datenbank Link kopieren.'
+  },
+  '863 description' => {
+    'lastUpdated' => 1216638318,
+    'message' => 'Zeitdifferenz in Tagen vom Ablauf der Gruppierung bis zur L&ouml;schung vom System. Jeder g&uuml;ltige Integer m&ouml;glich. Zum Beispiel &quot;0&quot;, falls Gruppierung am selben Tag gel&ouml;scht werden soll. &quot;-7&quot;, falls Gruppierung 7 Tage <strong>vor</strong> Ablauf gel&ouml;scht werden soll. &quot;7&quot;, falls Gruppierung 7 Tage <strong>nach</strong> Ablauf gel&ouml;scht werden soll.'
   },
   '1039' => {
     'lastUpdated' => 1178180706,
@@ -1317,37 +1321,37 @@ our $I18N = {
     'lastUpdated' => 1178180357,
     'message' => 'SQL Abfrage '
   },
-  '40' => {
-    'lastUpdated' => 1178616911,
-    'message' => 'Grundlegende Komponente'
-  },
   '310' => {
     'lastUpdated' => 1178615997,
     'message' => 'Zus&auml;tzliche Kontaktinformationen erlauben?'
+  },
+  '40' => {
+    'lastUpdated' => 1178616911,
+    'message' => 'Grundlegende Komponente'
   },
   'interval' => {
     'lastUpdated' => 1178619194,
     'message' => 'Intervall'
   },
-  'settings groupIdAdminLDAPLink hoverHelp' => {
-    'lastUpdated' => 1199973142,
-    'message' => 'Gruppe f&uuml;r Verwaltung von LDAP Verbindungen.'
-  },
   '699' => {
     'lastUpdated' => 1178617855,
     'message' => 'Erster Tag der Woche'
+  },
+  'settings groupIdAdminLDAPLink hoverHelp' => {
+    'lastUpdated' => 1199973142,
+    'message' => 'Gruppe f&uuml;r Verwaltung von LDAP Verbindungen.'
   },
   'cancel' => {
     'lastUpdated' => 1178547643,
     'message' => 'Abbrechen'
   },
-  'user profile field friend availability' => {
-    'lastUpdated' => 1216639357,
-    'message' => 'Wollen Sie, dass Sie von jemand anderem als Freund eingetragen werden.'
-  },
   '818' => {
     'lastUpdated' => 1178530829,
     'message' => 'Deaktiviert'
+  },
+  'user profile field friend availability' => {
+    'lastUpdated' => 1216639357,
+    'message' => 'Wollen Sie, dass Sie von jemand anderem als Freund eingetragen werden.'
   },
   'user email template' => {
     'lastUpdated' => 1193132377,
@@ -1373,37 +1377,37 @@ our $I18N = {
     'lastUpdated' => 1178190095,
     'message' => 'Inbox ansehen.'
   },
-  'private message sent' => {
-    'lastUpdated' => 1187688247,
-    'message' => 'Ihre Nachricht wurde versendet.'
-  },
   '461' => {
     'lastUpdated' => 1178193586,
     'message' => 'Datumsformat'
   },
-  'debug ip description' => {
-    'lastUpdated' => 1178552373,
-    'message' => 'Dies beschr&auml;nkt die Ausgabe von Debug und Performance Informationen auf bestimmte IP Adressen bzw. IP Bereiche. Geben Sie das Subnetz in CIDR Notation ein. Zum Beispiel 10.0.0.0/24. Mehrer CIDR Adressen k&ouml;nnen getrennt durch Kommata eingegeben werden. '
-  },
-  '583' => {
-    'lastUpdated' => 1178195567,
-    'message' => 'Maximale Bildgr&ouml;sse'
+  'private message sent' => {
+    'lastUpdated' => 1187688247,
+    'message' => 'Ihre Nachricht wurde versendet.'
   },
   'user profile edit template description' => {
     'lastUpdated' => 1216639322,
     'message' => '<p>Template f&uuml;r die Anzeige eines Formulars zum Bearbeiten des eigenen Benutzerprofills</p>'
   },
-  'settings groupIdAdminGraphics hoverHelp' => {
-    'lastUpdated' => 1199973110,
-    'message' => 'Gruppe f&uuml;r Verwaltung von Schriften und Farbpaletten.'
+  '583' => {
+    'lastUpdated' => 1178195567,
+    'message' => 'Maximale Bildgr&ouml;sse'
+  },
+  'debug ip description' => {
+    'lastUpdated' => 1178552373,
+    'message' => 'Dies beschr&auml;nkt die Ausgabe von Debug und Performance Informationen auf bestimmte IP Adressen bzw. IP Bereiche. Geben Sie das Subnetz in CIDR Notation ein. Zum Beispiel 10.0.0.0/24. Mehrer CIDR Adressen k&ouml;nnen getrennt durch Kommata eingegeben werden. '
+  },
+  '951' => {
+    'lastUpdated' => 1178541738,
+    'message' => 'Sind Sie sich sicher, dass Sie die Zwischenablage leeren und den Inhalt in den M&uuml;lleimer verschieben wollen?'
   },
   'show performance indicators' => {
     'lastUpdated' => 1178627665,
     'message' => 'Zeige Performance Indikatoren?'
   },
-  '951' => {
-    'lastUpdated' => 1178541738,
-    'message' => 'Sind Sie sich sicher, dass Sie die Zwischenablage leeren und den Inhalt in den M&uuml;lleimer verschieben wollen?'
+  'settings groupIdAdminGraphics hoverHelp' => {
+    'lastUpdated' => 1199973110,
+    'message' => 'Gruppe f&uuml;r Verwaltung von Schriften und Farbpaletten.'
   },
   '85' => {
     'lastUpdated' => 1178531383,
@@ -1437,13 +1441,13 @@ our $I18N = {
     'lastUpdated' => 1178618014,
     'message' => '7 Expert'
   },
-  '539' => {
-    'lastUpdated' => 1178617559,
-    'message' => 'Karma aktivieren?'
-  },
   '230 description' => {
     'lastUpdated' => 1178185085,
     'message' => 'Die Nachricht, die an alle Mitglieder dieser Gruppe geschickt wird. Wird gesendet im HTML Format. Sie k&ouml;nnen keine Anh&auml;nge anf&uuml;gen.<br />'
+  },
+  '539' => {
+    'lastUpdated' => 1178617559,
+    'message' => 'Karma aktivieren?'
   },
   '90' => {
     'lastUpdated' => 1178618439,
@@ -1538,8 +1542,8 @@ our $I18N = {
     'message' => 'Benutzer hinzuf&uuml;gen'
   },
   'trash' => {
-    'lastUpdated' => 1208147091,
-    'message' => 'Mein M&uuml;lleimer'
+    'lastUpdated' => 1217236115,
+    'message' => 'M&uuml;lleimer'
   },
   'manage cache' => {
     'lastUpdated' => 1178624133,
@@ -1735,7 +1739,7 @@ our $I18N = {
   },
   'purge workflow help' => {
     'lastUpdated' => 1199973044,
-    'message' => 'Welcher Workflow soll ausgef&uuml;hrt werden wenn ein Asset gelöscht wird.'
+    'message' => "Welcher Workflow soll ausgef&uuml;hrt werden wenn ein Asset gel\x{f6}scht wird."
   },
   '970' => {
     'lastUpdated' => 1178618553,
@@ -1774,8 +1778,8 @@ our $I18N = {
     'message' => 'Vorname'
   },
   'pagination.previousPageText' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1217235853,
+    'message' => 'Die Text Komponente von pagination.previousPage.'
   },
   '985' => {
     'lastUpdated' => 1178545411,
@@ -1866,8 +1870,8 @@ our $I18N = {
     'message' => 'Karma Grenzwert'
   },
   'pagination.firstPageUrl' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1217235750,
+    'message' => 'Die URL Komponente von pagination.firstPage.'
   },
   'high group count' => {
     'lastUpdated' => 1208147006,
@@ -1914,8 +1918,8 @@ our $I18N = {
     'message' => 'Gruppe f&uuml;r Betrachten der Login Historie.'
   },
   'pagination.previousPageUrl' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1217235873,
+    'message' => 'Die URL Komponente von pagination.previousPage.'
   },
   '74' => {
     'lastUpdated' => 1178618050,
@@ -2049,21 +2053,21 @@ our $I18N = {
     'lastUpdated' => 1178617646,
     'message' => 'Default Status'
   },
-  'trash workflow' => {
-    'lastUpdated' => 1178625911,
-    'message' => 'M&uuml;lleimer Workflow'
-  },
-  'settings groupIdAdminUserAdd hoverHelp' => {
-    'lastUpdated' => 1199973219,
-    'message' => 'Gruppe nur f&uuml;r Anlegen neuer Benutzer.'
+  '41' => {
+    'lastUpdated' => 1178191886,
+    'message' => 'Sie versuchen eine grundlegende Komponente von WebGUI zu l&ouml;schen. Wenn es ihnen erlaubt w&uuml;rde fortzufahren k&ouml;nnte WebGUI nicht mehr richtig funktionieren.'
   },
   '731' => {
     'lastUpdated' => 1178617919,
     'message' => '2 Trained'
   },
-  '41' => {
-    'lastUpdated' => 1178191886,
-    'message' => 'Sie versuchen eine grundlegende Komponente von WebGUI zu l&ouml;schen. Wenn es ihnen erlaubt w&uuml;rde fortzufahren k&ouml;nnte WebGUI nicht mehr richtig funktionieren.'
+  'settings groupIdAdminUserAdd hoverHelp' => {
+    'lastUpdated' => 1199973219,
+    'message' => 'Gruppe nur f&uuml;r Anlegen neuer Benutzer.'
+  },
+  'trash workflow' => {
+    'lastUpdated' => 1178625911,
+    'message' => 'M&uuml;lleimer Workflow'
   },
   'link settings' => {
     'lastUpdated' => 1178624032,
@@ -2081,13 +2085,13 @@ our $I18N = {
     'lastUpdated' => 1178185006,
     'message' => 'Betreff'
   },
-  '104 description' => {
-    'lastUpdated' => 1178615403,
-    'message' => 'Geben Sie eine URL f&uuml;r den Link ein'
-  },
   'show in forms' => {
     'lastUpdated' => 1216638789,
     'message' => 'In Formularen anzeigen?'
+  },
+  '104 description' => {
+    'lastUpdated' => 1178615403,
+    'message' => 'Geben Sie eine URL f&uuml;r den Link ein'
   },
   '866' => {
     'lastUpdated' => 1178538620,
@@ -2105,25 +2109,25 @@ our $I18N = {
     'lastUpdated' => 1178528043,
     'message' => 'Die Account Informationen, die Sie eingegeben haben, sind ung&uuml;ltig. Entweder existiert der angegebene Account nicht oder die eingegebenen Benutzername/Passwort Kombination war falsch.'
   },
-  '315' => {
-    'lastUpdated' => 1178616052,
-    'message' => 'Zweiter Vorname'
-  },
   'is editable' => {
     'lastUpdated' => 1216638615,
     'message' => 'Editierbar?'
+  },
+  '315' => {
+    'lastUpdated' => 1178616052,
+    'message' => 'Zweiter Vorname'
   },
   '400 description' => {
     'lastUpdated' => 1178191499,
     'message' => 'Manche Firmen setzen Proxy Server ein die Problem mit WebGUI verursachen. Falls Sie Probleme mit WebGUI und einen Proxy Server haben, k&ouml;nnen Sie diese Einstellung auf Ja setzen. Beachten Sie aber, dass WebGUIs URLs mit dieser Option nicht mehr so benutzerfreundlich sind. '
   },
-  '893' => {
-    'lastUpdated' => 1178618425,
-    'message' => 'Eigenschaften Wobjects'
-  },
   '338' => {
     'lastUpdated' => 1178616097,
     'message' => 'Profil bearbeiten'
+  },
+  '893' => {
+    'lastUpdated' => 1178618425,
+    'message' => 'Eigenschaften Wobjects'
   },
   '576' => {
     'lastUpdated' => 1178195487,
@@ -2137,13 +2141,13 @@ our $I18N = {
     'lastUpdated' => 1178538705,
     'message' => 'Willkommen'
   },
-  '995 description' => {
-    'lastUpdated' => 1178546558,
-    'message' => 'Das Passwort mittels dessen Sie sich mit der Datenbank verbinden.<br />'
-  },
   '484' => {
     'lastUpdated' => 1178617406,
     'message' => 'Auswahl Liste'
+  },
+  '995 description' => {
+    'lastUpdated' => 1178546558,
+    'message' => 'Das Passwort mittels dessen Sie sich mit der Datenbank verbinden.<br />'
   },
   '1078' => {
     'lastUpdated' => 1178181771,
@@ -2177,29 +2181,29 @@ our $I18N = {
     'lastUpdated' => 1178185813,
     'message' => 'Telefon privat'
   },
-  'avatar' => {
-    'lastUpdated' => 1178547484,
-    'message' => 'Avatar'
-  },
   '1085' => {
     'lastUpdated' => 1178615633,
     'message' => 'Seitenumbruch Template Variablen'
+  },
+  'avatar' => {
+    'lastUpdated' => 1178547484,
+    'message' => 'Avatar'
   },
   'Enable user invitations' => {
     'lastUpdated' => 1199972218,
     'message' => 'Benutzereinladungen aktivieren?'
   },
   'pagination.nextPageUrl' => {
-    'lastUpdated' => undef,
-    'message' => ''
-  },
-  'changeUrl workflow' => {
-    'lastUpdated' => 1178618640,
-    'message' => '&Auml;ndere URL Workflow'
+    'lastUpdated' => 1217235831,
+    'message' => 'Die URL Komponente von pagination.nextPage.'
   },
   '363' => {
     'lastUpdated' => 1178190313,
     'message' => 'Seite Template Position '
+  },
+  'changeUrl workflow' => {
+    'lastUpdated' => 1178618640,
+    'message' => '&Auml;ndere URL Workflow'
   },
   '583 description' => {
     'lastUpdated' => 1178195677,
@@ -2209,25 +2213,29 @@ our $I18N = {
     'lastUpdated' => 1178182591,
     'message' => '<p>Die URL ihrer Firma. Erscheint in jeder vom System automatisch generierten email. Kann ausserdem &uuml;ber das Firmen-URL Style Makro benutzt werden.</p>'
   },
-  '1051' => {
-    'lastUpdated' => 1178615461,
-    'message' => 'Ersetze mit'
-  },
   '733' => {
     'lastUpdated' => 1178617945,
     'message' => '4 Skilled'
+  },
+  '1051' => {
+    'lastUpdated' => 1178615461,
+    'message' => 'Ersetze mit'
   },
   '562' => {
     'lastUpdated' => 1178195293,
     'message' => 'Schwebend'
   },
+  '36' => {
+    'lastUpdated' => 1178190220,
+    'message' => 'Sie m&uuml;ssen Administrator sein, um diese Funktion ausf&uuml;hren zu k&ouml;nnen. Bitte kontaktieren Sie einen ihrer Administratoren. '
+  },
   'pagination.pageList.upTo20' => {
     'lastUpdated' => 1180015285,
     'message' => 'Linkliste der 20 benachbarten Seiten der aktuellen Seite. Falls Sie sich auf Seite 60 befinden, sehen Sie Links zu den Seiten 50-70.'
   },
-  '36' => {
-    'lastUpdated' => 1178190220,
-    'message' => 'Sie m&uuml;ssen Administrator sein, um diese Funktion ausf&uuml;hren zu k&ouml;nnen. Bitte kontaktieren Sie einen ihrer Administratoren. '
+  'showMessageOnLoginReset label' => {
+    'lastUpdated' => 1217236039,
+    'message' => '<p>Anzahl &quot;Nachricht bei&nbsp;Anmeldung gesehen&quot; zur&uuml;cksetzen</p>'
   },
   'settings' => {
     'lastUpdated' => 1178625594,
@@ -2237,25 +2245,25 @@ our $I18N = {
     'lastUpdated' => 1178618075,
     'message' => 'Benutzer Anzahl'
   },
-  '362' => {
-    'lastUpdated' => 1178190288,
-    'message' => 'Nebeneinander '
-  },
   '439' => {
     'lastUpdated' => 1178617147,
     'message' => 'Pers&ouml;nliche Informationen'
+  },
+  '362' => {
+    'lastUpdated' => 1178190288,
+    'message' => 'Nebeneinander '
   },
   '317' => {
     'lastUpdated' => 1182153851,
     'message' => '<a href=&quot;http://www.icq.com&quot; target=&quot;_blank&quot; title=&quot;ICQ Homepage&quot;>ICQ</a> UIN'
   },
-  '169' => {
-    'lastUpdated' => 1178615841,
-    'message' => 'Neuen Benutzer hinzuf&uuml;gen.'
-  },
   '411' => {
     'lastUpdated' => 1178616975,
     'message' => 'Men&uuml; Titel'
+  },
+  '169' => {
+    'lastUpdated' => 1178615841,
+    'message' => 'Neuen Benutzer hinzuf&uuml;gen.'
   },
   'select slider' => {
     'lastUpdated' => 1216638719,
@@ -2269,13 +2277,13 @@ our $I18N = {
     'lastUpdated' => 1178193759,
     'message' => 'URL'
   },
-  '942' => {
-    'lastUpdated' => 1178618469,
-    'message' => 'Radio Liste'
-  },
   '955' => {
     'lastUpdated' => 1178618520,
     'message' => 'System Zwischenablage'
+  },
+  '942' => {
+    'lastUpdated' => 1178618469,
+    'message' => 'Radio Liste'
   },
   '974 description' => {
     'lastUpdated' => 1178545478,
@@ -2285,13 +2293,13 @@ our $I18N = {
     'lastUpdated' => 1178531489,
     'message' => 'Beschreibung dieser Gruppe, damit andere Administratoren (oder Sie, falls Sie es vergessen haben) und Content Manager wissen, was der Zweck dieser Gruppe ist.<br />'
   },
-  '407' => {
-    'lastUpdated' => 1178616962,
-    'message' => 'Klicken Sie hier um sich zu registrieren.'
-  },
   '537' => {
     'lastUpdated' => 1178194549,
     'message' => 'Karma'
+  },
+  '407' => {
+    'lastUpdated' => 1178616962,
+    'message' => 'Klicken Sie hier um sich zu registrieren.'
   },
   'target' => {
     'lastUpdated' => 1178625792,
@@ -2301,25 +2309,25 @@ our $I18N = {
     'lastUpdated' => 1187688577,
     'message' => 'Aktive Sitzungen'
   },
-  'settings groupIdAdminCache label' => {
-    'lastUpdated' => 1187689759,
-    'message' => 'Cache'
-  },
   '125' => {
     'lastUpdated' => 1178182199,
     'message' => 'Firmenname'
+  },
+  'settings groupIdAdminCache label' => {
+    'lastUpdated' => 1187689759,
+    'message' => 'Cache'
   },
   '44' => {
     'lastUpdated' => 1178617160,
     'message' => 'Ja, ich bin mir sicher.'
   },
-  'send private message template' => {
-    'lastUpdated' => 1199970862,
-    'message' => 'Template Sende private Nachricht'
-  },
   'run on admin create user' => {
     'lastUpdated' => 1199972016,
     'message' => 'Beim Anlegen Benutzer (Admin)'
+  },
+  'send private message template' => {
+    'lastUpdated' => 1199970862,
+    'message' => 'Template Sende private Nachricht'
   },
   '1007' => {
     'lastUpdated' => 1178180499,
@@ -2329,13 +2337,13 @@ our $I18N = {
     'lastUpdated' => 1178618490,
     'message' => 'Hilfe Index'
   },
-  'user function style description' => {
-    'lastUpdated' => 1208147227,
-    'message' => 'Welcher Style soll f&uuml;r Benutzerfunktionen (Profil bearbeiten etc.) benutzt werden.&nbsp; Nur Templates, die schon Committed sind, sind erlaubt.'
-  },
   '313' => {
     'lastUpdated' => 1178616038,
     'message' => 'Sonstige Informationen erlauben?'
+  },
+  'user function style description' => {
+    'lastUpdated' => 1208147227,
+    'message' => 'Welcher Style soll f&uuml;r Benutzerfunktionen (Profil bearbeiten etc.) benutzt werden.&nbsp; Nur Templates, die schon Committed sind, sind erlaubt.'
   },
   'webgui' => {
     'lastUpdated' => 1180015507,
@@ -2354,20 +2362,20 @@ our $I18N = {
     'message' => 'Betreff der email.'
   },
   'pagination.firstPageText' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1217235727,
+    'message' => 'Textkomponente von pagination.firstPage.'
   },
-  '753' => {
-    'lastUpdated' => 1178618100,
-    'message' => 'Diese Gruppe bearbeiten.'
+  '504' => {
+    'lastUpdated' => 1178193997,
+    'message' => 'Template'
   },
   '343' => {
     'lastUpdated' => 1178616142,
     'message' => 'Profil ansehen.'
   },
-  '504' => {
-    'lastUpdated' => 1178193997,
-    'message' => 'Template'
+  '753' => {
+    'lastUpdated' => 1178618100,
+    'message' => 'Diese Gruppe bearbeiten.'
   },
   'url extension description' => {
     'lastUpdated' => 1178626110,
@@ -2386,21 +2394,21 @@ our $I18N = {
     'lastUpdated' => 1199973316,
     'message' => 'Datenbank Link l&ouml;schen'
   },
-  'Select State' => {
-    'lastUpdated' => 1178618606,
-    'message' => 'W&auml;hle Bundesland'
-  },
   '857' => {
     'lastUpdated' => 1178618249,
     'message' => 'IP Adresse'
   },
-  '1010' => {
-    'lastUpdated' => 1168866547,
-    'message' => 'Text'
+  'Select State' => {
+    'lastUpdated' => 1178618606,
+    'message' => 'W&auml;hle Bundesland'
   },
   '707' => {
     'lastUpdated' => 1178617868,
     'message' => 'Debugging aktivieren?'
+  },
+  '1010' => {
+    'lastUpdated' => 1168866547,
+    'message' => 'Text'
   },
   '964' => {
     'lastUpdated' => 1178544654,
@@ -2410,13 +2418,13 @@ our $I18N = {
     'lastUpdated' => 1199970891,
     'message' => 'Bitte deaktivieren Sie meinen Account dauerhaft.'
   },
-  'Illegal Warning' => {
-    'lastUpdated' => 1178547141,
-    'message' => '<p>Dieses Feature zu aktivieren ist in manchen L&auml;ndern - wie in Australien - illegal. Dar&uuml;berhinaus ist es in einigen L&auml;ndern Pflicht, eine Warnung auszugeben, falls dieses Feature auf ihrer Seite genutzt wird. Kontaktieren Sie ihre lokalen Beh&ouml;rden f&uuml;r n&auml;her Auskunft. Plain Black ist f&uuml;r ihre illegalen Aktivit&auml;ten nicht verantwortlich. </p><p>Enabling this feature is illegal in some countries, like Australia. In addition, some countries require you to add a warning to your site if you use this feature. Consult your local authorities for local laws. Plain Black Corporation is not responsible for your illegal activities, regardless of ignorance or malice.</p>'
-  },
   '367 description' => {
     'lastUpdated' => 1178190544,
     'message' => '<p>Zeitspanne, in der ein Benutzer zu dieser Gruppe geh&ouml;rt. Nach dieser wird der Benutzer von der Gruppe entfernt. Sehr n&uuml;tzlich falls ein Benutzer f&uuml;r eine bestimmte Zeit besondere Privilegien haben soll.</p><p>HINWEIS:</p><p>kann individuell f&uuml;r jeden Benutzer &uuml;berschrieben werden.&nbsp;</p>'
+  },
+  'Illegal Warning' => {
+    'lastUpdated' => 1178547141,
+    'message' => '<p>Dieses Feature zu aktivieren ist in manchen L&auml;ndern - wie in Australien - illegal. Dar&uuml;berhinaus ist es in einigen L&auml;ndern Pflicht, eine Warnung auszugeben, falls dieses Feature auf ihrer Seite genutzt wird. Kontaktieren Sie ihre lokalen Beh&ouml;rden f&uuml;r n&auml;her Auskunft. Plain Black ist f&uuml;r ihre illegalen Aktivit&auml;ten nicht verantwortlich. </p><p>Enabling this feature is illegal in some countries, like Australia. In addition, some countries require you to add a warning to your site if you use this feature. Consult your local authorities for local laws. Plain Black Corporation is not responsible for your illegal activities, regardless of ignorance or malice.</p>'
   },
   '1069 description' => {
     'lastUpdated' => 1178181241,
@@ -2426,61 +2434,61 @@ our $I18N = {
     'lastUpdated' => 1199971981,
     'message' => 'Cron / Workflow'
   },
-  'private message submit label' => {
-    'lastUpdated' => 1187688329,
-    'message' => 'Abschicken'
-  },
   '81' => {
     'lastUpdated' => 1178618176,
     'message' => 'Account erfolgreich aktualisiert!'
+  },
+  'private message submit label' => {
+    'lastUpdated' => 1187688329,
+    'message' => 'Abschicken'
   },
   'view inbox message template' => {
     'lastUpdated' => 1193132620,
     'message' => 'Inbox Nachricht Template'
   },
-  '824 description' => {
-    'lastUpdated' => 1178531055,
-    'message' => 'Diese Fu&szlig;zeile wird f&uuml;r Makros verarbeitet und an jede email angeh&auml;ngt, die von dieser WebGUI Instanz verschickt wird.<br />'
-  },
   '321' => {
     'lastUpdated' => 1178185579,
     'message' => 'Mobitelefon '
   },
-  '86' => {
-    'lastUpdated' => 1178538184,
-    'message' => 'Sind Sie sich sicher, dass Sie diese Gruppe l&ouml;schen wollen. Seien Sie sich bewu&szlig;t, dass das L&ouml;schen einer Gruppe permanent ist und alle Priviliegien l&ouml;scht, die mit dieser Gruppe assoziiert sind. '
+  '824 description' => {
+    'lastUpdated' => 1178531055,
+    'message' => 'Diese Fu&szlig;zeile wird f&uuml;r Makros verarbeitet und an jede email angeh&auml;ngt, die von dieser WebGUI Instanz verschickt wird.<br />'
   },
   '792' => {
     'lastUpdated' => 1178530443,
     'message' => 'Templates'
   },
-  '975 description' => {
-    'lastUpdated' => 1178545501,
-    'message' => 'M&ouml;chten Sie, dass sich Benutzer selbst aus dieser Gruppe entfernen  k&ouml;nnen? Siehe auch Makro GroupDelete f&uuml;r weitergehende Informationen.'
+  '86' => {
+    'lastUpdated' => 1178538184,
+    'message' => 'Sind Sie sich sicher, dass Sie diese Gruppe l&ouml;schen wollen. Seien Sie sich bewu&szlig;t, dass das L&ouml;schen einer Gruppe permanent ist und alle Priviliegien l&ouml;scht, die mit dieser Gruppe assoziiert sind. '
   },
   '823' => {
     'lastUpdated' => 1178618199,
     'message' => 'Gehe zur neuen Seite.'
   },
-  'profile' => {
-    'lastUpdated' => 1178624957,
-    'message' => 'Profil'
+  '975 description' => {
+    'lastUpdated' => 1178545501,
+    'message' => 'M&ouml;chten Sie, dass sich Benutzer selbst aus dieser Gruppe entfernen  k&ouml;nnen? Siehe auch Makro GroupDelete f&uuml;r weitergehende Informationen.'
   },
   '371' => {
     'lastUpdated' => 1179994471,
     'message' => 'Gruppenmitgliedschaften hinzuf&uuml;gen'
   },
+  'profile' => {
+    'lastUpdated' => 1178624957,
+    'message' => 'Profil'
+  },
   '1079' => {
     'lastUpdated' => 1178615614,
     'message' => 'druckf&auml;higer Style'
   },
-  'user invitations email exists description' => {
-    'lastUpdated' => 1193132580,
-    'message' => 'Dies ist die nachricht, die Benutzern angezeigt wird, die versuchen jemanden einzuladen, dessen E-Mail-Adresse bereits im System besteht.'
-  },
   'pagination.pageNumber' => {
     'lastUpdated' => 1180015392,
     'message' => 'Die aktuelle Seitennummer.'
+  },
+  'user invitations email exists description' => {
+    'lastUpdated' => 1193132580,
+    'message' => 'Dies ist die nachricht, die Benutzern angezeigt wird, die versuchen jemanden einzuladen, dessen E-Mail-Adresse bereits im System besteht.'
   },
   '729' => {
     'lastUpdated' => 1178617897,
@@ -2546,13 +2554,13 @@ our $I18N = {
     'lastUpdated' => 1178615489,
     'message' => 'Bearbeite Inhaltsfilter'
   },
-  '735' => {
-    'lastUpdated' => 1178617977,
-    'message' => '6 Professional'
-  },
   '404' => {
     'lastUpdated' => 1178191555,
     'message' => 'Erste Seite'
+  },
+  '735' => {
+    'lastUpdated' => 1178617977,
+    'message' => '6 Professional'
   },
   'tinymce' => {
     'lastUpdated' => 1178625861,
@@ -2566,45 +2574,45 @@ our $I18N = {
     'lastUpdated' => 1180077207,
     'message' => 'Metadaten aktivieren?'
   },
-  '974' => {
-    'lastUpdated' => 1178545468,
-    'message' => 'K&ouml;nnen sich Benutzer selbst hinzuf&uuml;gen?'
-  },
   '420' => {
     'lastUpdated' => 1178617028,
     'message' => 'Nichts l&ouml;schen.'
   },
-  'show performance indicators description' => {
-    'lastUpdated' => 1178627764,
-    'message' => 'Zeigt die Zeit (in Sekunden), die f&uuml;r jedes Element auf der Seite f&uuml;r dessen Darstellung ben&ouml;tigt wird. N&uuml;tzlich wenn Sie Performance Probleme haben und der Ursache auf die Spur kommen wollen.'
+  '974' => {
+    'lastUpdated' => 1178545468,
+    'message' => 'K&ouml;nnen sich Benutzer selbst hinzuf&uuml;gen?'
   },
   '702' => {
     'lastUpdated' => 1178529222,
     'message' => 'Monat(e)'
   },
+  'show performance indicators description' => {
+    'lastUpdated' => 1178627764,
+    'message' => 'Zeigt die Zeit (in Sekunden), die f&uuml;r jedes Element auf der Seite f&uuml;r dessen Darstellung ben&ouml;tigt wird. N&uuml;tzlich wenn Sie Performance Probleme haben und der Ursache auf die Spur kommen wollen.'
+  },
   'user invitations email exists' => {
     'lastUpdated' => 1193132486,
     'message' => '"E-Mail existiert" Nachricht'
-  },
-  'show in forms help' => {
-    'lastUpdated' => 1216638842,
-    'message' => 'Soll diese Gruppe angezeigt werden, falls Gruppen ausgew&auml;hlt werden k&ouml;nnen (z.B. in Feldern zur Rechtevergabe?).'
   },
   '952' => {
     'lastUpdated' => 1178618499,
     'message' => 'Zwischenablage Datum'
   },
+  'show in forms help' => {
+    'lastUpdated' => 1216638842,
+    'message' => 'Soll diese Gruppe angezeigt werden, falls Gruppen ausgew&auml;hlt werden k&ouml;nnen (z.B. in Feldern zur Rechtevergabe?).'
+  },
   'private message subject label' => {
     'lastUpdated' => 1187688321,
     'message' => 'Betreff'
   },
-  '487' => {
-    'lastUpdated' => 1178617431,
-    'message' => 'Auswahl Box'
-  },
   '1071' => {
     'lastUpdated' => 1178615553,
     'message' => 'Env HTTP Host'
+  },
+  '487' => {
+    'lastUpdated' => 1178617431,
+    'message' => 'Auswahl Box'
   },
   'select' => {
     'lastUpdated' => 1200441138,
@@ -2626,37 +2634,37 @@ our $I18N = {
     'lastUpdated' => 1178190119,
     'message' => 'Neuigkeiten'
   },
-  'settings groupIdAdminVersionTag hoverHelp' => {
-    'lastUpdated' => 1199973236,
-    'message' => 'Gruppe f&uuml;r Verwaltung von Version Tags.'
-  },
   'hidden' => {
     'lastUpdated' => 1178619123,
     'message' => 'Versteckt'
   },
-  '63' => {
-    'lastUpdated' => 1178201276,
-    'message' => 'Editieren einschalten. '
+  'settings groupIdAdminVersionTag hoverHelp' => {
+    'lastUpdated' => 1199973236,
+    'message' => 'Gruppe f&uuml;r Verwaltung von Version Tags.'
   },
   'class name' => {
     'lastUpdated' => 1216638571,
     'message' => 'Klassenname'
   },
-  '1050 description' => {
-    'lastUpdated' => 1178180959,
-    'message' => 'Text nach dem gesucht werden soll. Alle Satzzeichen werden &quot;escaped&quot;<br />'
+  '63' => {
+    'lastUpdated' => 1178201276,
+    'message' => 'Editieren einschalten. '
   },
   '455' => {
     'lastUpdated' => 1178617276,
     'message' => 'Benutzer Profil bearbeiten'
   },
-  'user profile field private message friends only label' => {
-    'lastUpdated' => 1216639240,
-    'message' => 'Nur meinen Freunden erlauben'
+  '1050 description' => {
+    'lastUpdated' => 1178180959,
+    'message' => 'Text nach dem gesucht werden soll. Alle Satzzeichen werden &quot;escaped&quot;<br />'
   },
   '80' => {
     'lastUpdated' => 1178530510,
     'message' => 'Account wurde erfogreich angelegt!'
+  },
+  'user profile field private message friends only label' => {
+    'lastUpdated' => 1216639240,
+    'message' => 'Nur meinen Freunden erlauben'
   },
   'settings groupIdAdminReplacements hoverHelp' => {
     'lastUpdated' => 1199973174,
@@ -2674,29 +2682,29 @@ our $I18N = {
     'lastUpdated' => 1178617319,
     'message' => 'Diesen Benutzer bearbeiten.'
   },
-  'view inbox template' => {
-    'lastUpdated' => 1193132634,
-    'message' => 'Inbox Template'
-  },
   '821' => {
     'lastUpdated' => 1203221229,
     'message' => 'Irgendein'
   },
-  'run on admin update user' => {
-    'lastUpdated' => 1199972034,
-    'message' => 'Beim Aktualisieren Benutzer (Admin)'
+  'view inbox template' => {
+    'lastUpdated' => 1193132634,
+    'message' => 'Inbox Template'
   },
   'ends with' => {
     'lastUpdated' => 1178618694,
     'message' => 'Endet mit'
+  },
+  'run on admin update user' => {
+    'lastUpdated' => 1199972034,
+    'message' => 'Beim Aktualisieren Benutzer (Admin)'
   },
   'send private message template description' => {
     'lastUpdated' => 1199973080,
     'message' => 'W&auml;hle ein Template f&uuml;r das Senden von privaten Nachrichten'
   },
   'pagination.lastPageText' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1217235772,
+    'message' => 'Die Text Komponente von pagination.lastPage.'
   },
   '92' => {
     'lastUpdated' => 1178618455,
@@ -2714,21 +2722,21 @@ our $I18N = {
     'lastUpdated' => 1178194689,
     'message' => 'Soll Karma aktiviert werden?'
   },
-  'asset locked' => {
-    'lastUpdated' => 1178547454,
-    'message' => 'Dieses Asset ist f&uuml;r die Bearbeitung gesperrt. Es befindet sich unter einem anderen Version Tag als dem, unter dem Sie gerade arbeiten. '
-  },
-  'pagination.pageCount' => {
-    'lastUpdated' => 1180015129,
-    'message' => 'Gesamtzahl Seiten in der Seitenaufteilung.'
+  '10' => {
+    'lastUpdated' => 1217235293,
+    'message' => 'Meinen M&uuml;lleimer verwalten.'
   },
   '980' => {
     'lastUpdated' => 1178545185,
     'message' => 'Diesen Ordner leeren.'
   },
-  '10' => {
-    'lastUpdated' => 1170449465,
-    'message' => 'M&uuml;lleimer verwalten'
+  'pagination.pageCount' => {
+    'lastUpdated' => 1180015129,
+    'message' => 'Gesamtzahl Seiten in der Seitenaufteilung.'
+  },
+  'asset locked' => {
+    'lastUpdated' => 1178547454,
+    'message' => 'Dieses Asset ist f&uuml;r die Bearbeitung gesperrt. Es befindet sich unter einem anderen Version Tag als dem, unter dem Sie gerade arbeiten. '
   },
   'showMessageOnLoginBody description' => {
     'lastUpdated' => 1216638950,
@@ -2742,13 +2750,13 @@ our $I18N = {
     'lastUpdated' => 1178618568,
     'message' => 'Ein Titel f&uuml;r den Datenbank Link.'
   },
-  '958' => {
-    'lastUpdated' => 1178543092,
-    'message' => '<p>Die Zwischenablage ist ein spezieller Ort im System, in dem Inhalt tempor&auml;r ausgeschnitten oder kopiert wird. Elemente in der Zwischenablage k&ouml;nnen anschlie&szlig;end an einer neue Stelle auf der Seite eingef&uuml;gt werden.&nbsp;</p><p>Die Inhalte der Zwischenablage k&ouml;nnen einzeln verwaltet werden. Sie k&ouml;nnen einzelne Elemente l&ouml;schen oder einf&uuml;gen indem Sie diese selektieren. Sie k&ouml;nnen aber auch die gesamte Zwischenablage leeren und den Inhalt in den M&uuml;lleimer verschieben, indem Sie die Option &quot;Zwischenablage leeren&quot; w&auml;hlen. </p>  <p>Die Zwischenablage zeigt nur Assets, die Sie dort eingef&uuml;gt haben bzw. die ihrem aktuellen Version Tag zugeordnet sind.  </p>  <p>Falls Sie Admin sind, so haben sie durch die System Zwischenablage Zugriff auf alle Assets jedes Benutzers, die committed sind oder die ihrem aktuellen Version Tag zugeordnet sind. </p>    <p><strong>Titel</strong><br />Der Name des Elements in der Zwischenablage. Sie k&ouml;nnen das Element anschauen, indem Sie dessen Titel selektieren.</p>  <p><strong>Typ</strong><br />Der Typ des Inhalts. Zum Beispiel eine Seite, ein Artikel, Event Kalender, etc.</p>  <p><strong>Zwischenablage Datum</strong><br />Das Datum und der Zeitpunkt zu dem das Element der Zwischenablage hinzugef&uuml;gt wurde.</p>  <p><strong>Vorhergehender Ort</strong><br />Der Ort, an dem das Element vorher zu finden war. Sie k&ouml;nnen den vorhergehenden Ort anschauen, indem sie den Ort selektieren.</p>  <p><strong>Benutzername</strong><br />Der Benutzername der Person, die das Element in die Zwischenablage eingef&uuml;gt hat. Dieses optionale Feld ist nur sichtbar in verteilten Zwischenablage Umgebungen oder wenn der Administrator die System Zwischenablage verwaltet.</p>'
-  },
   '419' => {
     'lastUpdated' => 1178617000,
     'message' => 'Alles ausser Text l&ouml;schen.'
+  },
+  '958' => {
+    'lastUpdated' => 1178543092,
+    'message' => '<p>Die Zwischenablage ist ein spezieller Ort im System, in dem Inhalt tempor&auml;r ausgeschnitten oder kopiert wird. Elemente in der Zwischenablage k&ouml;nnen anschlie&szlig;end an einer neue Stelle auf der Seite eingef&uuml;gt werden.&nbsp;</p><p>Die Inhalte der Zwischenablage k&ouml;nnen einzeln verwaltet werden. Sie k&ouml;nnen einzelne Elemente l&ouml;schen oder einf&uuml;gen indem Sie diese selektieren. Sie k&ouml;nnen aber auch die gesamte Zwischenablage leeren und den Inhalt in den M&uuml;lleimer verschieben, indem Sie die Option &quot;Zwischenablage leeren&quot; w&auml;hlen. </p>  <p>Die Zwischenablage zeigt nur Assets, die Sie dort eingef&uuml;gt haben bzw. die ihrem aktuellen Version Tag zugeordnet sind.  </p>  <p>Falls Sie Admin sind, so haben sie durch die System Zwischenablage Zugriff auf alle Assets jedes Benutzers, die committed sind oder die ihrem aktuellen Version Tag zugeordnet sind. </p>    <p><strong>Titel</strong><br />Der Name des Elements in der Zwischenablage. Sie k&ouml;nnen das Element anschauen, indem Sie dessen Titel selektieren.</p>  <p><strong>Typ</strong><br />Der Typ des Inhalts. Zum Beispiel eine Seite, ein Artikel, Event Kalender, etc.</p>  <p><strong>Zwischenablage Datum</strong><br />Das Datum und der Zeitpunkt zu dem das Element der Zwischenablage hinzugef&uuml;gt wurde.</p>  <p><strong>Vorhergehender Ort</strong><br />Der Ort, an dem das Element vorher zu finden war. Sie k&ouml;nnen den vorhergehenden Ort anschauen, indem sie den Ort selektieren.</p>  <p><strong>Benutzername</strong><br />Der Benutzername der Person, die das Element in die Zwischenablage eingef&uuml;gt hat. Dieses optionale Feld ist nur sichtbar in verteilten Zwischenablage Umgebungen oder wenn der Administrator die System Zwischenablage verwaltet.</p>'
   },
   '995' => {
     'lastUpdated' => 1178618585,
@@ -2782,37 +2790,37 @@ our $I18N = {
     'lastUpdated' => 1199971857,
     'message' => 'Spectre'
   },
-  'allowed keywords' => {
-    'lastUpdated' => 1178547258,
-    'message' => 'Erlaubte Schl&uuml;sselw&ouml;rter'
-  },
   '482' => {
     'lastUpdated' => 1178617382,
     'message' => 'Zahl (Integer)'
+  },
+  'allowed keywords' => {
+    'lastUpdated' => 1178547258,
+    'message' => 'Erlaubte Schl&uuml;sselw&ouml;rter'
   },
   '949' => {
     'lastUpdated' => 1178618483,
     'message' => 'Zwischenablage verwalten.'
   },
-  'Enable passive profiling' => {
-    'lastUpdated' => 1178618599,
-    'message' => 'Passives Profiling aktivieren?'
-  },
-  '557 description' => {
-    'lastUpdated' => 1178195051,
-    'message' => 'Grund f&uuml;r die &Auml;nderung des Karma dieses Benutzers. '
-  },
-  '56' => {
-    'lastUpdated' => 1178617635,
-    'message' => 'Email Adresse'
+  '530' => {
+    'lastUpdated' => 1179994653,
+    'message' => 'mit <strong>all</strong> den W&ouml;rtern'
   },
   '499' => {
     'lastUpdated' => 1178617465,
     'message' => 'Wobject ID'
   },
-  '530' => {
-    'lastUpdated' => 1179994653,
-    'message' => 'mit <strong>all</strong> den W&ouml;rtern'
+  '56' => {
+    'lastUpdated' => 1178617635,
+    'message' => 'Email Adresse'
+  },
+  '557 description' => {
+    'lastUpdated' => 1178195051,
+    'message' => 'Grund f&uuml;r die &Auml;nderung des Karma dieses Benutzers. '
+  },
+  'Enable passive profiling' => {
+    'lastUpdated' => 1178618599,
+    'message' => 'Passives Profiling aktivieren?'
   },
   '66' => {
     'lastUpdated' => 1178201895,
@@ -2822,13 +2830,13 @@ our $I18N = {
     'lastUpdated' => 1178625721,
     'message' => 'Zeige Felder, die meine UI Ebene erlaubt'
   },
-  'external help' => {
-    'lastUpdated' => 1208146899,
-    'message' => 'F&uuml;r mehrere Hilfe, besuch <a href="http://www.webgui.org/community-wiki">WebGU Community Wiki</a>'
-  },
   '54' => {
     'lastUpdated' => 1178617582,
     'message' => 'Account erstellen'
+  },
+  'external help' => {
+    'lastUpdated' => 1208146899,
+    'message' => 'F&uuml;r mehrere Hilfe, besuch <a href="http://www.webgui.org/community-wiki">WebGU Community Wiki</a>'
   },
   '1030' => {
     'lastUpdated' => 1178180662,
@@ -2854,21 +2862,21 @@ our $I18N = {
     'lastUpdated' => 1178618340,
     'message' => 'Benutzer in der Gruppe'
   },
-  'user profiling' => {
-    'lastUpdated' => 1178626144,
-    'message' => 'Benutzerprofile'
-  },
   '1009' => {
     'lastUpdated' => 1168866572,
     'message' => 'HTML'
   },
-  'pagination.pageList.upTo10' => {
-    'lastUpdated' => 1180015244,
-    'message' => 'Linkliste der 10 benachbarten Seiten der aktuellen Seite. Falls Sie sich auf Seite 20 befinden, sehen Sie Links zu den Seiten 15-25.'
+  'user profiling' => {
+    'lastUpdated' => 1178626144,
+    'message' => 'Benutzerprofile'
   },
   '141' => {
     'lastUpdated' => 1178183773,
     'message' => 'Nicht gefunden Seite'
+  },
+  'pagination.pageList.upTo10' => {
+    'lastUpdated' => 1180015244,
+    'message' => 'Linkliste der 10 benachbarten Seiten der aktuellen Seite. Falls Sie sich auf Seite 20 befinden, sehen Sie Links zu den Seiten 15-25.'
   },
   '403' => {
     'lastUpdated' => 1178616939,
@@ -2878,17 +2886,17 @@ our $I18N = {
     'lastUpdated' => 1199972978,
     'message' => 'Inline (falls unterst&uuml;tzt)'
   },
-  'clear cache' => {
-    'lastUpdated' => 1178624200,
-    'message' => 'Cache leeren'
+  '134' => {
+    'lastUpdated' => 1178183480,
+    'message' => 'Passwort Wiederherstellungsnachricht'
   },
   '75' => {
     'lastUpdated' => 1178530028,
     'message' => 'Ihre Account Informationen wurden an ihre email Adresse gesendet.'
   },
-  '134' => {
-    'lastUpdated' => 1178183480,
-    'message' => 'Passwort Wiederherstellungsnachricht'
+  'clear cache' => {
+    'lastUpdated' => 1178624200,
+    'message' => 'Cache leeren'
   },
   '848' => {
     'lastUpdated' => 1178531298,
@@ -2898,25 +2906,25 @@ our $I18N = {
     'lastUpdated' => 1216639046,
     'message' => 'Falls &quot;Ja&quot;, wird allen Nutzern die Anmeldenachricht nochmals angezeigt'
   },
-  '421' => {
-    'lastUpdated' => 1178192193,
-    'message' => 'Alles ausser einfacher Formatierung l&ouml;schen.'
-  },
   '59' => {
     'lastUpdated' => 1178617705,
     'message' => 'Ich habe mein Passwort vergessen.'
+  },
+  '421' => {
+    'lastUpdated' => 1178192193,
+    'message' => 'Alles ausser einfacher Formatierung l&ouml;schen.'
   },
   '450' => {
     'lastUpdated' => 1178193376,
     'message' => 'Name der Firma '
   },
-  '406 description' => {
-    'lastUpdated' => 1178191682,
-    'message' => 'Wenn Bilder auf ihr System hochgeladen werden werden automatisch Thumbnails erstellt, die die hier eingestellt Gr&ouml;sse (gemessen in Pixeln) haben.  '
-  },
   '50 setup description' => {
     'lastUpdated' => 1178193987,
     'message' => 'Der Benutzername ihres Administrator Accounts. Standard ist Admin.<br />'
+  },
+  '406 description' => {
+    'lastUpdated' => 1178191682,
+    'message' => 'Wenn Bilder auf ihr System hochgeladen werden werden automatisch Thumbnails erstellt, die die hier eingestellt Gr&ouml;sse (gemessen in Pixeln) haben.  '
   },
   'private message unread display message' => {
     'lastUpdated' => 1187688366,
@@ -2946,33 +2954,33 @@ our $I18N = {
     'lastUpdated' => 1178180527,
     'message' => 'Antworten'
   },
-  'slider' => {
-    'lastUpdated' => 1216639143,
-    'message' => 'Schieber'
-  },
-  'help' => {
-    'lastUpdated' => 1178619020,
-    'message' => 'Hilfe'
+  'url extension' => {
+    'lastUpdated' => 1178626004,
+    'message' => 'URL Erweiterung'
   },
   '318' => {
     'lastUpdated' => 1182153830,
     'message' => '<a href=&quot;http://www.aol.com/aim/homenew.adp&quot; target=&quot;_blank&quot; title=&quot;AIM Homepage&quot;>AIM</a> Id'
   },
-  'url extension' => {
-    'lastUpdated' => 1178626004,
-    'message' => 'URL Erweiterung'
+  'help' => {
+    'lastUpdated' => 1178619020,
+    'message' => 'Hilfe'
   },
-  '105' => {
-    'lastUpdated' => 1178180856,
-    'message' => 'Anzeigen'
+  'slider' => {
+    'lastUpdated' => 1216639143,
+    'message' => 'Schieber'
+  },
+  'pagination.pageLoop.upTo10' => {
+    'lastUpdated' => 1180015367,
+    'message' => 'Dasselbe wie pagination.pageList.upTo10, nur aufgeteilt in individuelle Elemente.'
   },
   '972' => {
     'lastUpdated' => 1178544820,
     'message' => 'Datum und Zeit'
   },
-  'pagination.pageLoop.upTo10' => {
-    'lastUpdated' => 1180015367,
-    'message' => 'Dasselbe wie pagination.pageList.upTo10, nur aufgeteilt in individuelle Elemente.'
+  '105' => {
+    'lastUpdated' => 1178180856,
+    'message' => 'Anzeigen'
   },
   'settings groupIdAdminCron hoverHelp' => {
     'lastUpdated' => 1199973092,
@@ -3006,13 +3014,13 @@ our $I18N = {
     'lastUpdated' => 1178618154,
     'message' => 'Die Gruppen innerhalb dieser Gruppe verwalten.'
   },
-  'settings groupIdAdminActiveSessions hoverHelp' => {
-    'lastUpdated' => 1187688542,
-    'message' => 'Gruppe, um aktive Sitzungen anzuschauen und zu beenden.'
-  },
   '945' => {
     'lastUpdated' => 1178618477,
     'message' => 'Scratch Filter'
+  },
+  'settings groupIdAdminActiveSessions hoverHelp' => {
+    'lastUpdated' => 1187688542,
+    'message' => 'Gruppe, um aktive Sitzungen anzuschauen und zu beenden.'
   }
 }
 ;
