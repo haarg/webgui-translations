@@ -70,12 +70,12 @@ our $I18N = {
     'message' => ''
   },
   '16' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1217253634,
+    'message' => 'HTTP Header &Uuml;berschreibung'
   },
   '13 description' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1217253489,
+    'message' => 'Wie viele Ergebnisreihen sollen angezeigt werden, bevor die Ergebnisse auf mehrere Seiten verteilt werden? In anderen Worten, wie viele Reihen sollen auf einer Seite angezeigt werden.'
   },
   '9 description' => {
     'lastUpdated' => 1217238609,
@@ -94,7 +94,7 @@ our $I18N = {
     'message' => 'Cache'
   },
   '5 description' => {
-    'lastUpdated' => undef,
+    'lastUpdated' => 1217253657,
     'message' => ''
   },
   '4 description' => {
@@ -102,8 +102,8 @@ our $I18N = {
     'message' => 'Die SOAP Methode ist der Name der Funktion die vom SOAP Server ausgef&uuml;hrt werden soll. F&uuml;ge jeden extra Parameter in das SOAP Aufruf Parameter Feld unten ein.'
   },
   '14' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1217253524,
+    'message' => 'Paginierung Variable'
   },
   'debugMode' => {
     'lastUpdated' => 1217238716,
@@ -114,16 +114,16 @@ our $I18N = {
     'message' => 'Web Service Client editieren'
   },
   'uri' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1217253057,
+    'message' => 'Der URI des SOAP Servers.'
   },
   'params' => {
     'lastUpdated' => 1217238936,
     'message' => '<p>Vom Benutzer eingegebenen Parameter, als Perl Code.</p>'
   },
   'soapError' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1217253024,
+    'message' => 'Diese Template Variable enth&auml;lt alle Fehler, die auftreten, wenn SOAP Inhalt geholt wird.'
   },
   '28 description' => {
     'lastUpdated' => 1217238103,
@@ -158,7 +158,7 @@ our $I18N = {
     'message' => 'Standardm&auml;ssig ausf&uuml;hren?'
   },
   '15 description' => {
-    'lastUpdated' => undef,
+    'lastUpdated' => 1217253613,
     'message' => ''
   },
   '22' => {
@@ -174,8 +174,8 @@ our $I18N = {
     'message' => ''
   },
   '13' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1217253396,
+    'message' => 'Paginieren nach'
   },
   '23' => {
     'lastUpdated' => 1217237769,
@@ -186,20 +186,20 @@ our $I18N = {
     'message' => 'Session'
   },
   'templateId' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1217253044,
+    'message' => 'Die ID des Templates, das zur Anzeige dieses Assets benutzt wird.'
   },
   '14 description' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1217253589,
+    'message' => 'Da ein SOAP Aufruf komplexe Datenstrukturen liefern kann, m&uuml;ssen Sie angeben, welche benannte Variable paginiert werden soll. Falls nicht angegeben, wird keine Paginierung vorgenommen.'
   },
   '3' => {
     'lastUpdated' => 1217238128,
     'message' => 'SOAP Proxy'
   },
   'sharedCache' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1217252990,
+    'message' => 'Ein Wahrheitswert, der anzeigt, ob cached SOAP Ergebnisse f&uuml;r mehrere Benutzer zur Verf&uuml;gung stehen oder ob jeder Benutzer seinen eigenen individuelle Cache besitzt.'
   },
   'execute_by_default' => {
     'lastUpdated' => 1217238824,
@@ -214,8 +214,8 @@ our $I18N = {
     'message' => 'Nachricht, falls keine Ergebnisse'
   },
   'ws client asset template variables title' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1217253096,
+    'message' => 'Web Service Client Asset Template Variablen'
   },
   '15' => {
     'lastUpdated' => 1217237590,
@@ -234,7 +234,7 @@ our $I18N = {
     'message' => 'Falls Sie WebGUI Makros in der Abfrage benutzen, wollen Sie wahrscheinlich dieses Auswahlfeld selektieren.'
   },
   '2 description' => {
-    'lastUpdated' => undef,
+    'lastUpdated' => 1217253648,
     'message' => ''
   },
   '19' => {
@@ -242,8 +242,8 @@ our $I18N = {
     'message' => 'Global'
   },
   'results' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1217252867,
+    'message' => 'Diese Schleife enth&auml;lt alle Ergebnisse des SOAP Aufrufs. Innerhalb der Schleife kann man bestimmte Daten &uuml;ber den Namen ansprechen, der vom SOAP Server gesetzt wurde (z.B. vielleicht &quot;localTime&quot; f&uuml;r eine Zeitabfrage).'
   },
   '5' => {
     'lastUpdated' => 1217238449,
