@@ -1,4 +1,5 @@
 package WebGUI::i18n::Polish::Asset_Image;
+use utf8;
 
 our $I18N = {
 	'fileUrl' => {
@@ -137,8 +138,8 @@ our $I18N = {
 	},
 
 	'storageId' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Wewnętrzne (WebGUI) ID użyte dla pliku.|,
+		lastUpdated => 1213273928
 	},
 
 	'image size description' => {

@@ -1,4 +1,5 @@
 package WebGUI::i18n::Polish::Asset_MessageBoard;
+use utf8;
 
 our $I18N = {
 	'forum.lastpost.user.isVisitor' => {

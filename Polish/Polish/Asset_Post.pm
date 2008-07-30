@@ -1,4 +1,5 @@
 package WebGUI::i18n::Polish::Asset_Post;
+use utf8;
 
 our $I18N = {
 	'post received' => {
@@ -12,13 +13,13 @@ our $I18N = {
 	},
 
 	'title.form.textarea' => {
-		message => q||,
-		lastUpdated => 
+		message => q|<p>Pole tekstowe do wprowadzania lub edytowania tytułu, oczyszczonego z wszystkich znacznik&oacute;w HTML i z wyłączonymi makrami.</p><p>Użyj tego <strong>LUB </strong>title.form</p>|,
+		lastUpdated => 1210672313
 	},
 
 	'userDefinedN.form.textarea' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Pole tekstowe dla każdego z 5 p&oacute;l zdefiniowanych przez użytkownika.|,
+		lastUpdated => 1213266392
 	},
 
 	'523' => {
@@ -32,13 +33,13 @@ our $I18N = {
 	},
 
 	'relativeUrl' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Dostarcza adres URL względny (/path/to/post) zamiast pełnego (http://host/path/to/post), kt&oacute;ry jest domyślny.|,
+		lastUpdated => 1213260331
 	},
 
 	'newWindow' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Zmienna warunkowa wskazująca czy wiadomość powinna być otwarta w nowym oknie.|,
+		lastUpdated => 1209037016
 	},
 
 	'synopsis.form' => {
@@ -52,8 +53,8 @@ our $I18N = {
 	},
 
 	'unsubscribeLinkText' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Tłumaczone słowo &quot;Unsubscribe&quot; użyte jako opis linku do wypisania.|,
+		lastUpdated => 1213260521
 	},
 
 	'threadId' => {
@@ -62,8 +63,8 @@ our $I18N = {
 	},
 
 	'url' => {
-		message => q||,
-		lastUpdated => 
+		message => q|URL dla załadowania załącznika.|,
+		lastUpdated => 1209039732
 	},
 
 	'isHidden' => {
@@ -87,18 +88,18 @@ our $I18N = {
 	},
 
 	'visitorName.form' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Formularz gdzie użytkownik może wprowadzić swoją nazwę, nawet jeśli gościem.|,
+		lastUpdated => 1209038191
 	},
 
 	'preview.title' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Tytuł przeglądanej wiadomości w formacie bezpiecznym dla stron www.|,
+		lastUpdated => 1213262840
 	},
 
 	'meta_X_value' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Wartość dla określonego pola metadanych wybierany przez nazwę. X jest nazwą pola metadanych gdzie wszystkie spacje zostały zmienione na znak podkreślenia (_).|,
+		lastUpdated => 1213273333
 	},
 
 	'delete.url' => {
@@ -112,13 +113,13 @@ our $I18N = {
 	},
 
 	'name' => {
-		message => q|Etykieta dla pola metadanych. Etykiety danych nie są tłumaczone.|,
-		lastUpdated => 1208172750
+		message => q|Etykieta dla pola metadanych. Etykiety metadanych nie są tłumaczone.|,
+		lastUpdated => 1209040017
 	},
 
 	'new file description' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Wpisz ścieżkę do pliku (lub używając przycisku &quot;Szukaj&quot; znajdź plik na twoim lokalnym dysku), kt&oacute;ry chciałbyś załadować.|,
+		lastUpdated => 1209036927
 	},
 
 	'sticky.form' => {
@@ -132,13 +133,13 @@ our $I18N = {
 	},
 
 	'username' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Nazwa użytkownika, kt&oacute;ry ostatnio aktualizował lub wysyłał wiadomość.|,
+		lastUpdated => 1209037601
 	},
 
 	'preview.synopsis' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Skr&oacute;t przeglądanej wiadomości. Jeśli skr&oacute;t nie został ustawiony wtedy bedzię podjęta pr&oacute;ba przechwycenia tekstu z opisu do znaku ^-;. Jeśli znak nie zostanie znaleziony wtedy zostanie pobrany cały tekst z pierwszej linii opisu.|,
+		lastUpdated => 1213262207
 	},
 
 	'title.form' => {
@@ -157,8 +158,8 @@ our $I18N = {
 	},
 
 	'userDefined1' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Wartość zawarta w pierwszej zmiennej zdefiniowanej przez użytkownika.|,
+		lastUpdated => 1210673319
 	},
 
 	'title' => {
@@ -172,13 +173,13 @@ our $I18N = {
 	},
 
 	'userDefinedN.form.htmlarea' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Pole tekstowe edytora WYSIWIG HTML dla każdego z 5 p&oacute;l zdefiniowanych przez użytkownika.|,
+		lastUpdated => 1213266349
 	},
 
 	'preview.userDefinedN' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Zawartość p&oacute;l zdefiniowanych przez użytkownika w wiadomości bez przetwarzania makr WebGUI, gdzie N ma wartość od 1 do 5.|,
+		lastUpdated => 1213265396
 	},
 
 	'storageId' => {
@@ -187,23 +188,23 @@ our $I18N = {
 	},
 
 	'user.isModerator' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Zmienna warunkowa wskazująca czy aktualny użytkownik jest moderatorem.|,
+		lastUpdated => 1209042746
 	},
 
 	'notify url' => {
-		message => q||,
-		lastUpdated => 
+		message => q|URL do wiadomości, kt&oacute;ra wywołała powiadomienie.|,
+		lastUpdated => 1209038603
 	},
 
 	'userDefined5' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Wartość zawarta w piątej zmiennej zdefiniowanej przez użytkownika.|,
+		lastUpdated => 1210673443
 	},
 
 	'reply.userDefinedN' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Zawartość p&oacute;l zdefiniowanych przez użytkownika w odpowiedzi na wiadomość bez przetwarzania makr WebGUI, gdzie N ma wartość od 1 do 5.|,
+		lastUpdated => 1213265473
 	},
 
 	'help url.raw' => {
@@ -222,18 +223,18 @@ our $I18N = {
 	},
 
 	'reply.withQuote.url' => {
-		message => q||,
-		lastUpdated => 
+		message => q|URL do stworzenia odpowiedzi z cytatem wiadomości.|,
+		lastUpdated => 1209039120
 	},
 
 	'karmaScale.form' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Element formularza kt&oacute;ry pozwala moderatorom ustawić rozmiar pojedyńczego wątku. Dostepny tylko dla watk&oacute;w.|,
+		lastUpdated => 1210673841
 	},
 
 	'views' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Ilość wyświetleń wiadomości.|,
+		lastUpdated => 1209037861
 	},
 
 	'attachment.icon' => {
@@ -242,13 +243,13 @@ our $I18N = {
 	},
 
 	'reply.url' => {
-		message => q||,
-		lastUpdated => 
+		message => q|URL do odpowiedzi dla tej wiadomości (bez jej cytowania).|,
+		lastUpdated => 1209038402
 	},
 
 	'usePreview' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Zmienna warunkowa wskazująca że wiadomość w wątku będzie przeglądana przed zatwierdzeniem.|,
+		lastUpdated => 1210672636
 	},
 
 	'add/edit post template title' => {
@@ -257,28 +258,28 @@ our $I18N = {
 	},
 
 	'meta_loop' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Pętla zawierająca etykiety i pola metadanych dla wiadomości. Jeśli metadane nie są włączone dla strony lub jeśli nie są włączone dla tego CS lub jeśli nie ma zdefinioawnych metadanych dla strony - pętla będzie pusta.|,
+		lastUpdated => 1209036202
 	},
 
 	'userProfile.url' => {
-		message => q||,
-		lastUpdated => 
+		message => q|URL do profilu właściciela wiadomości.|,
+		lastUpdated => 1209037965
 	},
 
 	'userDefinedN.form.float' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Pole formularza na liczbę zmiennoprzecinkową dla każdego z 5 p&oacute;l zdefiniowanych przez użytkownika.|,
+		lastUpdated => 1213266619
 	},
 
 	'meta_X_form' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Formularz dla określonego pola metadanych wybierany przez nazwę. X jest nazwą pola metadanych gdzie wszystkie spacje zostały zmienione na znak podkreślenia (_).|,
+		lastUpdated => 1213273296
 	},
 
 	'notify.subscription.message' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Umiedzynarodowiona wiadomość informująca że została dodana nowa wiadomość do wątku, kt&oacute;ry subskrybuje użytkownik.|,
+		lastUpdated => 1210675285
 	},
 
 	'attachment_loop' => {
@@ -287,8 +288,8 @@ our $I18N = {
 	},
 
 	'userId' => {
-		message => q||,
-		lastUpdated => 
+		message => q|ID właściciela wiadomości.|,
+		lastUpdated => 1209037917
 	},
 
 	'form.submit' => {
@@ -302,8 +303,8 @@ our $I18N = {
 	},
 
 	'userDefined2' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Wartość zawarta w drugiej zmiennej zdefiniowanej przez użytkownika.|,
+		lastUpdated => 1210673340
 	},
 
 	'isEdit' => {
@@ -317,8 +318,8 @@ our $I18N = {
 	},
 
 	'lock.form' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Przycisk tak/nie zamykajacy wątek, tak aby żadna wiadomość niemogła być dodana albo edytowana.|,
+		lastUpdated => 1209035180
 	},
 
 	'form.preview' => {
@@ -327,8 +328,8 @@ our $I18N = {
 	},
 
 	'reply.synopsis' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Skr&oacute;t odpowiedzi na wiadomość. Jeśli skr&oacute;t nie został ustawiony wtedy bedzię podjęta pr&oacute;ba przechwycenia tekstu z opisu do znaku ^-;. Jeśli znak nie zostanie znaleziony wtedy zostanie pobrany cały tekst z pierwszej linii opisu.|,
+		lastUpdated => 1213263538
 	},
 
 	'attachment.name' => {
@@ -337,18 +338,18 @@ our $I18N = {
 	},
 
 	'user.isPoster' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Zmienna warunkowa zwracająca prawdę jeśli aktualny użytkownik jest właścicielem wiadomości.|,
+		lastUpdated => 1209042764
 	},
 
 	'user.isVisitor' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Zmienna warunkowa zwracająca prawdę jeśli aktualny użytkownik jest gościem.|,
+		lastUpdated => 1209042794
 	},
 
 	'userDefinedN.form' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Pole formularza na jedną linię tekstu dla każdego z 5 p&oacute;l zdefiniowanych przez użytkownika.|,
+		lastUpdated => 1213266188
 	},
 
 	'contentType.form' => {
@@ -357,8 +358,8 @@ our $I18N = {
 	},
 
 	'rating.value' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Aktualna ocena wiadomości.|,
+		lastUpdated => 1209037343
 	},
 
 	'assetName' => {
@@ -367,8 +368,8 @@ our $I18N = {
 	},
 
 	'userDefined3' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Wartość zawarta w trzeciej zmiennej zdefiniowanej przez użytkownika.|,
+		lastUpdated => 1210673388
 	},
 
 	'isThread' => {
@@ -387,8 +388,8 @@ our $I18N = {
 	},
 
 	'reply.content' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Treść odpowiedzi na wiadomość.|,
+		lastUpdated => 1213263563
 	},
 
 	'synopsis' => {
@@ -397,8 +398,8 @@ our $I18N = {
 	},
 
 	'ownerUserId' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Alias dla userId|,
+		lastUpdated => 1209038244
 	},
 
 	'extraHeadTags' => {
@@ -427,8 +428,8 @@ our $I18N = {
 	},
 
 	'title.short' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Tytuł wiadomości ograniczony do 30 znak&oacute;w.|,
+		lastUpdated => 1209039448
 	},
 
 	'dateUpdated.human' => {
@@ -437,13 +438,13 @@ our $I18N = {
 	},
 
 	'value' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Wartość pola metadanych dla tej wiadomości.|,
+		lastUpdated => 1209037767
 	},
 
 	'rate.url.thumbsUp' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Ocena pozytywna.|,
+		lastUpdated => 1213263023
 	},
 
 	'archived' => {
@@ -457,8 +458,8 @@ our $I18N = {
 	},
 
 	'notification template body' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Szablon powiadomienia, opr&oacute;cz zmiennych wsp&oacute;lnych z szablonem wiadomości, zawiera dodatkowe zmienne:|,
+		lastUpdated => 1213264732
 	},
 
 	'groupIdView' => {
@@ -477,8 +478,8 @@ our $I18N = {
 	},
 
 	'menuTitle' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Tytuł wiadomości w menu, często używany w nawigacji.|,
+		lastUpdated => 1209035257
 	},
 
 	'status' => {
@@ -492,8 +493,8 @@ our $I18N = {
 	},
 
 	'user.canEdit' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Zmienna warunkowa zwracająca prawdę jeśli użytkownik dodaje nową wiadomość zamiast edytować istniejącą, a wątek zawierający wiadomość istnieje.|,
+		lastUpdated => 1213267399
 	},
 
 	'rating' => {
@@ -507,8 +508,8 @@ our $I18N = {
 	},
 
 	'reply.title' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Tytuł odpowiedzi na wiadomość.|,
+		lastUpdated => 1213263689
 	},
 
 	'isPackage' => {
@@ -517,8 +518,8 @@ our $I18N = {
 	},
 
 	'userDefinedN.form.yesNo' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Pole formularza (przełącznik) tak/nie dla każdego z 5 p&oacute;l zdefiniowanych przez użytkownika.|,
+		lastUpdated => 1213266461
 	},
 
 	'content.form' => {
@@ -547,13 +548,13 @@ our $I18N = {
 	},
 
 	'userDefined4' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Wartość zawarta w czwartej zmiennej zdefiniowanej przez użytkownika.|,
+		lastUpdated => 1210673407
 	},
 
 	'preview.content' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Zawartość podczas podglądu wiadomości.|,
+		lastUpdated => 1213260745
 	},
 
 	'subscribe.form' => {
@@ -562,23 +563,23 @@ our $I18N = {
 	},
 
 	'post template variables title' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Zmienne szablonu wiadomości.|,
+		lastUpdated => 1213260692
 	},
 
 	'unsubscribeUrl' => {
-		message => q||,
-		lastUpdated => 
+		message => q|URL do wypisania użytkownika|,
+		lastUpdated => 1210672444
 	},
 
 	'post asset variables title' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Zmienna szablonu Post Asset |,
+		lastUpdated => 1210671922
 	},
 
 	'notification template title' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Szablon powiadomienia.|,
+		lastUpdated => 1210674889
 	},
 
 	'approved' => {
@@ -587,8 +588,8 @@ our $I18N = {
 	},
 
 	'rate.url.thumbsDown' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Ocena negatywna.|,
+		lastUpdated => 1213263057
 	},
 
 	'attachment.url' => {

@@ -1,4 +1,5 @@
 package WebGUI::i18n::Polish::Subscription;
+use utf8;
 
 our $I18N = {
 	'subscription description' => {

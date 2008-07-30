@@ -1,882 +1,710 @@
 package WebGUI::i18n::Polish::WebGUI;
-
+use utf8;
 our $I18N = {
-	'559' => {
-		message => q|Uruchom przy tworzeniu konta użytkownika|,
-		lastUpdated => 1207313245
-	},
-
-	'84 description' => {
-		message => q|<p>Nazwa dla grupy. Najlepiej, jeśli nazwa jest opisowa. </p>|,
-		lastUpdated => 1207317056
-	},
-
-	'127' => {
-		message => q|Adres URL przedsiębiorstwa|,
-		lastUpdated => 1204891039
-	},
-
-	'1049' => {
-		message => q|Identyfikator filtru zawartości.|,
-		lastUpdated => 1204541950
-	},
-
-	'71' => {
-		message => q|Odzyskanie hasła|,
-		lastUpdated => 1207314704
-	},
-
-	'118' => {
-		message => q|Rejestracja anonimowa|,
-		lastUpdated => 1204890729
-	},
-
-	'443' => {
-		message => q|Informacje osobiste|,
-		lastUpdated => 1204902001
-	},
-
-	'959' => {
-		message => q|Wyczyść schowek systemowy.|,
-		lastUpdated => 1052850265
-	},
-
-	'show all fields' => {
-		message => q|Pokaż wszystkie pola|,
-		lastUpdated => 1141184463
-	},
-
-	'882' => {
-		message => q|Tryb edytora|,
-		lastUpdated => 1207321236
-	},
-
-	'cache type' => {
-		message => q|Cache type|,
-		lastUpdated => 1031514049
-	},
-
-	'331' => {
-		message => q|Stan pracy|,
-		lastUpdated => 1204893914
-	},
-
-	'358' => {
-		message => q|Kolumna lewa|,
-		lastUpdated => 1204896154
-	},
-
-	'1050' => {
-		message => q|Szukaj|,
-		lastUpdated => 1204541978
-	},
-
-	'560' => {
-		message => q|Zatwierdzony|,
-		lastUpdated => 1207313461
-	},
-
-	'737' => {
-		message => q|8 Mistrz|,
-		lastUpdated => 1207314965
-	},
-
-	'settings groupIdAdminWorkflowRun label' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'settings groupIdAdminCache hoverHelp' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'84' => {
-		message => q|Nazwa grupy|,
-		lastUpdated => 1207317029
-	},
-
-	'skip commit comments' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'437' => {
-		message => q|Statystyki|,
-		lastUpdated => 1204901899
-	},
-
-	'451' => {
-		message => q|jest wymagany/e.|,
-		lastUpdated => 1204902072
-	},
-
-	'changeUrl workflow help' => {
-		message => q|Which workflow to run when an asset's URL is changed.|,
-		lastUpdated => 1162348521
-	},
-
-	'454' => {
-		message => q|Ostatnio aktualizowany|,
-		lastUpdated => 1204902112
-	},
-
-	'settings groupIdAdminTransactionLog hoverHelp' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'1021' => {
-		message => q|Ocena wiadomości|,
-		lastUpdated => 1204890142
-	},
-
-	'private message to label' => {
-		message => q|Do|,
-		lastUpdated => 1181019679
-	},
-
-	'135 description' => {
-		message => q|<p>Adres twojego lokalnego serwera elektronicznej poczty. Potrzebny jest dla wszystkich funkcji korzystających z systemu elektronicznej poczty w Internecie (jak przykładowo odzyskanie hasła).</p><p>Opcjonalnie, jeśli uruchomiono serwer pocztowy na tej samej maszynie co WebGUI można podać ścieżkę do programu wykonalnego. Na większości Linuxach będzie to program &quot;/usr/lib/sendmail&quot;.</p>|,
-		lastUpdated => 1204891526
-	},
-
-	'540 description' => {
-		message => q|Ilość Karmy jaką użytkownik powinien otrzymać kiedy się zaloguje do serwisu. Aby zadziałało Karma musi być wyłączona.|,
-		lastUpdated => 1204906722
-	},
-
-	'help toc' => {
-		message => q|Table of Contents|,
-		lastUpdated => 1128552846
-	},
-
-	'pagination.pageLoop' => {
-		message => q|Same as pagination.pageList except broken into individual elements.|,
-		lastUpdated => 1149182026
-	},
-
-	'978' => {
-		message => q|Użytkownik dodany pomyślnie.|,
-		lastUpdated => 1053804577
-	},
-
-	'728' => {
-		message => q|Czy jesteś pewny, że chcesz usunąć ten plik??|,
-		lastUpdated => 1207314783
-	},
-
-	'float' => {
-		message => q|Liczba (Dziesiętnie)|,
-		lastUpdated => 1132097171
-	},
-
-	'purge workflow' => {
-		message => q|Purge Workflow|,
-		lastUpdated => 1162242500
-	},
-
-	'private message reply title' => {
-		message => q|Reply to Message|,
-		lastUpdated => 1181019679
-	},
-
-	'948' => {
-		message => q|Schowek|,
-		lastUpdated => 1207321783
-	},
-
-	'325' => {
-		message => q|Stan (cześć państwa)|,
-		lastUpdated => 1204893577
-	},
-
-	'378' => {
-		message => q|ID użytkownika|,
-		lastUpdated => 1204898209
-	},
-
-	'view inbox template description' => {
-		message => q|Wybierz szablon dla wyświetlenia inboxu|,
-		lastUpdated => 1181019679
-	},
-
-	'889' => {
-		message => q|Arkusze Styli, Zakładki|,
-		lastUpdated => 1207321539
-	},
-
-	'572' => {
-		message => q|Zatwierdź|,
-		lastUpdated => 1207313730
-	},
-
-	'350' => {
-		message => q|Kompletny|,
-		lastUpdated => 1204895368
-	},
-
-	'540' => {
-		message => q|Karma za logowanie|,
-		lastUpdated => 1204906619
-	},
-
-	'private message prev label' => {
-		message => q|Poprzednia|,
-		lastUpdated => 1181019679
-	},
-
-	'pagination.lastPageUrl' => {
-		message => q|The url component of pagination.lastPage broken out.|,
-		lastUpdated => 1149182026
-	},
-
-	'58' => {
-		message => q|Mam już konto w serwisie.|,
-		lastUpdated => 1207313756
-	},
-
-	'431' => {
-		message => q|Adres IP|,
-		lastUpdated => 1204901820
-	},
-
-	'527' => {
-		message => q|Domyślna strona wejściowa|,
-		lastUpdated => 1204905873
-	},
-
-	'861' => {
-		message => q|Uczyńić profil publicznym?|,
-		lastUpdated => 1207320780
-	},
-
-	'settings groupIdAdminStatistics label' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'337' => {
-		message => q|Adres URL strony wejściowej|,
-		lastUpdated => 1204893960
-	},
-
-	'76' => {
-		message => q|Nie posiadamy adresu email w naszej bazie danych.|,
-		lastUpdated => 1207315155
-	},
-
-	'340' => {
-		message => q|Kobieta|,
-		lastUpdated => 1204893981
-	},
-
-	'62' => {
-		message => q|zapisz|,
-		lastUpdated => 1207314133
-	},
-
-	'311' => {
-		message => q|Dostępne prywatne informacje?|,
-		lastUpdated => 1204892552
-	},
-
-	'982' => {
-		message => q|Dodaj link bazy danych.|,
-		lastUpdated => 1056151382
-	},
-
-	'139' => {
-		message => q|Nie|,
-		lastUpdated => 1204891540
-	},
-
-	'auto request commit' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'859' => {
-		message => q|Podpis|,
-		lastUpdated => 1207317996
-	},
-
-	'739' => {
-		message => q|Poziom UI|,
-		lastUpdated => 1207314980
-	},
-
-	'settings groupIdAdminSubscription hoverHelp' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'private message error' => {
-		message => q|Błąd wiadomości|,
-		lastUpdated => 1181019679
-	},
-
-	'992' => {
-		message => q|Tytuł|,
-		lastUpdated => 1056151382
-	},
-
-	'418' => {
-		message => q|Filtr kontentu (zawartości serwisu)|,
-		lastUpdated => 1204901316
-	},
-
-	'168' => {
-		message => q|Edycja użytkownika|,
-		lastUpdated => 1204892353
-	},
-
-	'706' => {
-		message => q|Godzina(-ny)|,
-		lastUpdated => 1207314499
-	},
-
-	'14' => {
-		message => q|Pokaż oczekujące zgłoszenia.|,
-		lastUpdated => 1204891592
-	},
-
-	'135' => {
-		message => q|Serwer SMTP|,
-		lastUpdated => 1204891337
-	},
-
-	'348' => {
-		message => q|Nazwa|,
-		lastUpdated => 1204895332
-	},
-
-	'bare insufficient' => {
-		message => q|You do not have sufficient privileges to perform this operation. Please log in with an account that has sufficient privileges before attempting this operation.|,
-		lastUpdated => 1169790230
-	},
-
-	'editSettings error occurred' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'145' => {
-		message => q|WebGUI Build Version|,
-		lastUpdated => 1207320492
-	},
-
-	'preview' => {
-		message => q|Preview|,
-		lastUpdated => 1141434351
-	},
-
-	'142 description' => {
-		message => q|Czas w jakim użytkownik pozostaje zalogowany (zanim będzie musiał ponownie się zalogować). Przedawnienie sesji jest każdorazowo odliczane na nowo przy każdej wywołanej przez użytkownika stronie. Przykładowo, jeśli ustawisz przedawnienie sesji po 8 godzinach użytkownik będzie musiał zalogować się na nowo jeśli nie wywoła dowolnej strony przed upływem 8 godzin.|,
-		lastUpdated => 1207320729
-	},
-
-	'993' => {
-		message => q|DSN|,
-		lastUpdated => 1056151382
-	},
-
-	'settings groupIdAdminAdSpace label' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'364' => {
-		message => q|Szukaj|,
-		lastUpdated => 1204897950
-	},
-
-	'950' => {
-		message => q|Wyczyścić schowek.|,
-		lastUpdated => 1207321856
-	},
-
-	'cache statistics' => {
-		message => q|Cache Statistics|,
-		lastUpdated => 1031514049
-	},
-
-	'settings groupIdAdminProfileSettings label' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'486' => {
-		message => q|Lista|,
-		lastUpdated => 1204905173
-	},
-
-	'160' => {
-		message => q|Data wprowadzenia|,
-		lastUpdated => 1204891974
-	},
-
-	'509' => {
-		message => q|Układ dyskusji|,
-		lastUpdated => 1204905773
-	},
-
-	'367' => {
-		message => q|Przesunięcie Wygaśnięcia|,
-		lastUpdated => 1204898056
-	},
-
-	'8' => {
-		message => q|Wyświetl nie znaleziono strony.|,
-		lastUpdated => 1207315600
-	},
-
-	'976' => {
-		message => q|Dodaj użytkowników|,
-		lastUpdated => 1053800614
-	},
-
-	'settings groupIdAdminSpectre hoverHelp' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'choose an asset' => {
-		message => q|Choose an Asset|,
-		lastUpdated => 1141963463
-	},
-
-	'pagination.firstPage' => {
-		message => q|Link do pierwszej strony przeglądarki.|,
-		lastUpdated => 1149182026
-	},
-
-	'43' => {
-		message => q|Jesteś pewny, że chcesz usunąć ten kontent|,
-		lastUpdated => 1204901783
-	},
-
-	'485' => {
-		message => q|Boolean (Checkbox)|,
-		lastUpdated => 1204905160
-	},
-
-	'391' => {
-		message => q|Usuń załączony plik.|,
-		lastUpdated => 1204900645
-	},
-
-	'743' => {
-		message => q|Aby przeprowadzić procedurę odzyskania twojego hasła musisz wprowadzić poprawny adres e-mail.|,
-		lastUpdated => 1207315022
-	},
-
-	'523' => {
-		message => q|Zawiadomienie|,
-		lastUpdated => 1204905852
-	},
-
-	'settings groupIdAdminReplacements label' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'943' => {
-		message => q|Checkbox|,
-		lastUpdated => 1207321652
-	},
-
-	'unknown user' => {
-		message => q|użytkownik nieznany|,
-		lastUpdated => 1135205716
-	},
-
-	'460' => {
-		message => q|Offset czasu|,
-		lastUpdated => 1204903876
-	},
-
-	'119' => {
-		message => q|Metoda autoryzacji (domyślnie)|,
-		lastUpdated => 1204890801
-	},
-
-	'453' => {
-		message => q|Data utworzenia|,
-		lastUpdated => 1204902098
-	},
-
-	'324' => {
-		message => q|Miasto zamieszkania|,
-		lastUpdated => 1204893526
-	},
-
-	'user profile field private message allow label' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'244' => {
-		message => q|Autor|,
-		lastUpdated => 1204892471
-	},
-
-	'351' => {
-		message => q|Wiadomość|,
-		lastUpdated => 1204895375
-	},
-
-	'fieldtype' => {
-		message => q|Field Type|,
-		lastUpdated => 0
-	},
-
-	'61' => {
-		message => q|Aktualizacja ustawień konta|,
-		lastUpdated => 1207314126
-	},
-
-	'430' => {
-		message => q|Ostatnio Oglądane Strony|,
-		lastUpdated => 1204901812
-	},
-
-	'379' => {
-		message => q|ID grupy|,
-		lastUpdated => 1204898239
-	},
-
-	'admin console template' => {
-		message => q|Admin Console Template|,
-		lastUpdated => 1118453709
-	},
-
-	'1035' => {
-		message => q|Szablon Powiadomienia|,
-		lastUpdated => 1204890217
-	},
-
-	'deactivateAccount success' => {
-		message => q|%s has been deactivated|,
-		lastUpdated => 0
-	},
-
-	'452' => {
-		message => q|Proszę czekać...|,
-		lastUpdated => 1204902080
-	},
-
-	'342' => {
-		message => q|Edycja danych konta.|,
-		lastUpdated => 1204893997
-	},
-
-	'862' => {
-		message => q|Profil tego użytkownika nie jest dostępny publicznie.|,
-		lastUpdated => 1207320806
-	},
-
-	'additional parameters' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'480' => {
-		message => q|Adres E-mail|,
-		lastUpdated => 1204903998
-	},
-
-	'341' => {
-		message => q|Edycja profilu.|,
-		lastUpdated => 1204893988
-	},
-
-	'invite a friend' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'438' => {
-		message => q|Twoje imię|,
-		lastUpdated => 1204901909
-	},
-
-	'107' => {
-		message => q|Bezpieczeństwo|,
-		lastUpdated => 1204890466
-	},
-
-	'87' => {
-		message => q|Edycja grupy|,
-		lastUpdated => 1207321141
-	},
-
-	'77' => {
-		message => q|<li>Ta nazwa konta została już użyta i jest wykorzystywana przez innego użytkownika. Proszę wprowadzić inną nazwę. Poniżej prezentujemy kilka sugestii:<br /> %sToo<br /> %s2<br /> %s_%d</li>|,
-		lastUpdated => 1207315178
-	},
-
-	'444' => {
-		message => q|Informacje demograficzne|,
-		lastUpdated => 1204902010
-	},
-
-	'865 description' => {
-		message => q|<p> Ustaw tą wartoś na Tak, jeśli chcesz aby WebGUI informowało użytkownika o fakcie wygaśnięcia ważności w grupie. </p>|,
-		lastUpdated => 1207321057
-	},
-
-	'pagination.lastPage' => {
-		message => q|Link do ostatniej strony przeglądarki.|,
-		lastUpdated => 1149182026
-	},
-
-	'39' => {
-		message => q|Nie posiadasz wystarczających uprawnień dla tej strony.|,
-		lastUpdated => 1204900629
-	},
-
-	'account' => {
-		message => q|Account|,
-		lastUpdated => 1098327046
-	},
-
-	'1004 description' => {
-		message => q|Duże serwisy WWW korzystające z zewnętrznych grup będą generować wiele odwołań do zewnętrznych baz danych. Aby pomóc zredukować obciążenie możesz wskazać jak długo system ma przechowywać rezultaty zapytań zewnętrznych baz wewnątrz bazy WebGUI. Bardziej zaawansowany mechanizm przechowywania w pamięci podręcznej zostanie wprowadzony w przyszszłej wersji WebGUI.|,
-		lastUpdated => 1204533615
-	},
-
-	'mail return path' => {
-		message => q|Ścieżka powrotna|,
-		lastUpdated => 0
-	},
-
-	'64' => {
-		message => q|Wyloguj.|,
-		lastUpdated => 1207314146
-	},
-
-	'558' => {
-		message => q|Edycja Karmy użytkownika|,
-		lastUpdated => 1207313192
-	},
-
-	'password clear text' => {
-		message => q|Wyświetlone czystym tekstem więc możesz upewnić się, czy zostało wprowadzone poprawnie.|,
-		lastUpdated => 1127405564
-	},
-
-	'12' => {
-		message => q|Wyłącz tryb administracyjny.|,
-		lastUpdated => 1204890809
-	},
-
-	'881' => {
-		message => q|Nic/Żaden|,
-		lastUpdated => 1207321230
-	},
-
-	'312' => {
-		message => q|Dostępne informacje biznesowe?|,
-		lastUpdated => 1204892539
-	},
-
-	'707 description' => {
-		message => q|<p>Wyświetlanie komunikat&oacute;w i informacji diagnostycznych. Niezwykle użyteczna funkcja dla webmaster&oacute;w i deweloper&oacute;w. Przydatna może być r&oacute;wnież administratorm pr&oacute;bującym rozwiązań napotakny problem.</p>|,
-		lastUpdated => 1207314695
-	},
-
-	'settings groupIdAdminUser hoverHelp' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'private message next label' => {
-		message => q|Następna|,
-		lastUpdated => 1181019679
-	},
-
-	'45' => {
-		message => q|Nie, pomyliłem się.|,
-		lastUpdated => 1204902052
-	},
-
-	'507' => {
-		message => q|Edycja szablonu|,
-		lastUpdated => 1204905743
-	},
-
-	'405' => {
-		message => q|Strona ostatnia|,
-		lastUpdated => 1204900996
-	},
-
-	'settings groupIdAdminProductManager hoverHelp' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'866 description' => {
-		message => q|<p> Wprowadź tekst wiadomości jaka ma być wysłana do użytkownika w celu poinformowania o wygaśnięciu ważności. </p>|,
-		lastUpdated => 1207321078
-	},
-
-	'1084' => {
-		message => q|Użyj domyślnego paska narzędzi dla mojego języka|,
-		lastUpdated => 1204890643
-	},
-
-	'370' => {
-		message => q|Edycja grupowania|,
-		lastUpdated => 1204898160
-	},
-
-	'309' => {
-		message => q|Dopuszczać rzeczywiste imię?|,
-		lastUpdated => 1204892494
-	},
-
-	'authentication' => {
-		message => q|Authentication|,
-		lastUpdated => 1092930637
-	},
-
-	'734' => {
-		message => q|5 Biegły|,
-		lastUpdated => 1207314934
-	},
-
-	'1' => {
-		message => q|Dodaj zawartość...|,
-		lastUpdated => 1204890103
-	},
-
-	'144' => {
-		message => q|Wyświetl statystyki.|,
-		lastUpdated => 1207320484
-	},
-
-	'965' => {
-		message => q|Koszt systemowy|,
-		lastUpdated => 1099050265
-	},
-
-	'824' => {
-		message => q|Stopka listu e-mail|,
-		lastUpdated => 1207316912
-	},
-
-	'661' => {
-		message => q|Ustawienia pliku, Edycja|,
-		lastUpdated => 1207314366
-	},
-
-	'857 description' => {
-		message => q|<p> Wprowadź adres IP w formacie CIDR. Można wprowadzić wiele adres&oacute;w jeśli zostaną oddzielone przecinkami. Spacje, tabulatory i nowe linie będą zignorowane. </p> <p> <em>Przykład adresu IP z maską:</em> 10.0.0.32/27, 192.168.0.1/30 </p>|,
-		lastUpdated => 1207317982
-	},
-
-	'1075' => {
-		message => q|Link bazy danych|,
-		lastUpdated => 1204890515
-	},
-
-	'381' => {
-		message => q|WebGUI odebrało wadliwe zgłoszenie i nie mogło kontynuować pracy. Mogło to być spowodowane wprowadzeniem do formularza zastrzeżonych prawnie znak&oacute;w lub nazw. Proszę wywołać przycisk cofnięcia i spr&oacute;bować jeszcze raz.|,
-		lastUpdated => 1204900607
-	},
-
-	'581' => {
-		message => q|Dodaj nową wartość|,
-		lastUpdated => 1207313763
-	},
-
-	'418 description' => {
-		message => q|Wybierz poziom filtrowania HTML dla zastosowania przy proksy treści.|,
-		lastUpdated => 1204901483
-	},
-
-	'392' => {
-		message => q|Usunąć ten plik?|,
-		lastUpdated => 1204900655
-	},
-
-	'pagination.pageCount.isMultiple' => {
-		message => q|A boolean indicating whether there is more than one page.|,
-		lastUpdated => 1149182026
-	},
-
-	'496' => {
-		message => q|Edytor do użycia|,
-		lastUpdated => 1204905665
-	},
-
-	'settings groupIdAdminProfileSettings hoverHelp' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'Enable Metadata description' => {
-		message => q|This enables the metadata tab on Assets so that metadata can be entered
-and tracked by WebGUI.|,
-		lastUpdated => 1120239343
-	},
-
-	'605' => {
-		message => q|Dodaj grupy|,
-		lastUpdated => 1207314119
-	},
-
-	'private message message label' => {
-		message => q|Wiadomość|,
-		lastUpdated => 1181019679
-	},
-
-	'private message no user' => {
-		message => q|Nie wskazałeś użytkownika dla wysyłanej wiadomości prywatnej|,
-		lastUpdated => 1181019679
-	},
-
-	'813' => {
-		message => q|Grupy w tej grupie|,
-		lastUpdated => 1207316568
-	},
-
-	'settings groupIdAdminGroup label' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'head.tags' => {
-		message => q|
-WebGUI generuje automatycznie znaczniki za ciebie tak aby pamięć podręczna pracowała właściwie, a serwisy indeksujące mogły lepiej odszukać publikowane treści. Znaczniki te powinny zawierać się wewnątrz sekcji &lt;head&gt; &lt;/head&gt; twojego stylu.
+  '559' => {
+    'lastUpdated' => 1207313245,
+    'message' => "Uruchom przy tworzeniu konta u\x{17c}ytkownika"
+  },
+  '84 description' => {
+    'lastUpdated' => 1207317056,
+    'message' => "<p>Nazwa dla grupy. Najlepiej, je\x{15b}li nazwa jest opisowa. </p>"
+  },
+  '127' => {
+    'lastUpdated' => 1204891039,
+    'message' => "Adres URL przedsi\x{119}biorstwa"
+  },
+  '1049' => {
+    'lastUpdated' => 1204541950,
+    'message' => "Identyfikator filtru zawarto\x{15b}ci."
+  },
+  '71' => {
+    'lastUpdated' => 1207314704,
+    'message' => "Odzyskanie has\x{142}a"
+  },
+  '118' => {
+    'lastUpdated' => 1204890729,
+    'message' => 'Rejestracja anonimowa'
+  },
+  '443' => {
+    'lastUpdated' => 1204902001,
+    'message' => 'Informacje osobiste'
+  },
+  '959' => {
+    'lastUpdated' => 1052850265,
+    'message' => "Wyczy\x{15b}\x{107} schowek systemowy."
+  },
+  'show all fields' => {
+    'lastUpdated' => 1141184463,
+    'message' => "Poka\x{17c} wszystkie pola"
+  },
+  '882' => {
+    'lastUpdated' => 1207321236,
+    'message' => 'Tryb edytora'
+  },
+  'cache type' => {
+    'lastUpdated' => 1031514049,
+    'message' => 'Cache type'
+  },
+  '331' => {
+    'lastUpdated' => 1204893914,
+    'message' => 'Stan pracy'
+  },
+  '358' => {
+    'lastUpdated' => 1204896154,
+    'message' => 'Kolumna lewa'
+  },
+  '1050' => {
+    'lastUpdated' => 1204541978,
+    'message' => 'Szukaj'
+  },
+  '560' => {
+    'lastUpdated' => 1207313461,
+    'message' => 'Zatwierdzony'
+  },
+  '737' => {
+    'lastUpdated' => 1207314965,
+    'message' => '8 Mistrz'
+  },
+  'settings groupIdAdminWorkflowRun label' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'settings groupIdAdminCache hoverHelp' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  '84' => {
+    'lastUpdated' => 1207317029,
+    'message' => 'Nazwa grupy'
+  },
+  'skip commit comments' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  '437' => {
+    'lastUpdated' => 1204901899,
+    'message' => 'Statystyki'
+  },
+  '451' => {
+    'lastUpdated' => 1204902072,
+    'message' => 'jest wymagany/e.'
+  },
+  'changeUrl workflow help' => {
+    'lastUpdated' => 1162348521,
+    'message' => 'Which workflow to run when an asset\'s URL is changed.'
+  },
+  '454' => {
+    'lastUpdated' => 1204902112,
+    'message' => 'Ostatnio aktualizowany'
+  },
+  'settings groupIdAdminTransactionLog hoverHelp' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  '1021' => {
+    'lastUpdated' => 1204890142,
+    'message' => "Ocena wiadomo\x{15b}ci"
+  },
+  'private message to label' => {
+    'lastUpdated' => 1181019679,
+    'message' => 'Do'
+  },
+  '135 description' => {
+    'lastUpdated' => 1204891526,
+    'message' => "<p>Adres twojego lokalnego serwera elektronicznej poczty. Potrzebny jest dla wszystkich funkcji korzystaj\x{105}cych z systemu elektronicznej poczty w Internecie (jak przyk\x{142}adowo odzyskanie has\x{142}a).</p><p>Opcjonalnie, je\x{15b}li uruchomiono serwer pocztowy na tej samej maszynie co WebGUI mo\x{17c}na poda\x{107} \x{15b}cie\x{17c}k\x{119} do programu wykonalnego. Na wi\x{119}kszo\x{15b}ci Linuxach b\x{119}dzie to program &quot;/usr/lib/sendmail&quot;.</p>"
+  },
+  '540 description' => {
+    'lastUpdated' => 1204906722,
+    'message' => "Ilo\x{15b}\x{107} Karmy jak\x{105} u\x{17c}ytkownik powinien otrzyma\x{107} kiedy si\x{119} zaloguje do serwisu. Aby zadzia\x{142}a\x{142}o Karma musi by\x{107} wy\x{142}\x{105}czona."
+  },
+  'help toc' => {
+    'lastUpdated' => 1128552846,
+    'message' => 'Table of Contents'
+  },
+  'pagination.pageLoop' => {
+    'lastUpdated' => 1149182026,
+    'message' => 'Same as pagination.pageList except broken into individual elements.'
+  },
+  '978' => {
+    'lastUpdated' => 1053804577,
+    'message' => "U\x{17c}ytkownik dodany pomy\x{15b}lnie."
+  },
+  '728' => {
+    'lastUpdated' => 1207314783,
+    'message' => "Czy jeste\x{15b} pewny, \x{17c}e chcesz usun\x{105}\x{107} ten plik??"
+  },
+  'float' => {
+    'lastUpdated' => 1132097171,
+    'message' => "Liczba (Dziesi\x{119}tnie)"
+  },
+  'purge workflow' => {
+    'lastUpdated' => 1162242500,
+    'message' => 'Purge Workflow'
+  },
+  'private message reply title' => {
+    'lastUpdated' => 1181019679,
+    'message' => 'Reply to Message'
+  },
+  '948' => {
+    'lastUpdated' => 1207321783,
+    'message' => 'Schowek'
+  },
+  '325' => {
+    'lastUpdated' => 1204893577,
+    'message' => "Stan (cze\x{15b}\x{107} pa\x{144}stwa)"
+  },
+  '378' => {
+    'lastUpdated' => 1204898209,
+    'message' => "ID u\x{17c}ytkownika"
+  },
+  'view inbox template description' => {
+    'lastUpdated' => 1181019679,
+    'message' => "Wybierz szablon dla wy\x{15b}wietlenia inboxu"
+  },
+  '889' => {
+    'lastUpdated' => 1207321539,
+    'message' => "Arkusze Styli, Zak\x{142}adki"
+  },
+  '572' => {
+    'lastUpdated' => 1207313730,
+    'message' => "Zatwierd\x{17a}"
+  },
+  '350' => {
+    'lastUpdated' => 1204895368,
+    'message' => 'Kompletny'
+  },
+  '540' => {
+    'lastUpdated' => 1204906619,
+    'message' => 'Karma za logowanie'
+  },
+  'private message prev label' => {
+    'lastUpdated' => 1181019679,
+    'message' => 'Poprzednia'
+  },
+  'pagination.lastPageUrl' => {
+    'lastUpdated' => 1149182026,
+    'message' => 'The url component of pagination.lastPage broken out.'
+  },
+  '58' => {
+    'lastUpdated' => 1207313756,
+    'message' => "Mam ju\x{17c} konto w serwisie."
+  },
+  '431' => {
+    'lastUpdated' => 1204901820,
+    'message' => 'Adres IP'
+  },
+  '527' => {
+    'lastUpdated' => 1204905873,
+    'message' => "Domy\x{15b}lna strona wej\x{15b}ciowa"
+  },
+  '861' => {
+    'lastUpdated' => 1207320780,
+    'message' => "Uczy\x{144}i\x{107} profil publicznym?"
+  },
+  'settings groupIdAdminStatistics label' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  '337' => {
+    'lastUpdated' => 1204893960,
+    'message' => "Adres URL strony wej\x{15b}ciowej"
+  },
+  '76' => {
+    'lastUpdated' => 1207315155,
+    'message' => 'Nie posiadamy adresu email w naszej bazie danych.'
+  },
+  '340' => {
+    'lastUpdated' => 1204893981,
+    'message' => 'Kobieta'
+  },
+  '62' => {
+    'lastUpdated' => 1207314133,
+    'message' => 'zapisz'
+  },
+  '311' => {
+    'lastUpdated' => 1204892552,
+    'message' => "Dost\x{119}pne prywatne informacje?"
+  },
+  '982' => {
+    'lastUpdated' => 1056151382,
+    'message' => 'Dodaj link bazy danych.'
+  },
+  '139' => {
+    'lastUpdated' => 1204891540,
+    'message' => 'Nie'
+  },
+  'auto request commit' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  '859' => {
+    'lastUpdated' => 1207317996,
+    'message' => 'Podpis'
+  },
+  '739' => {
+    'lastUpdated' => 1207314980,
+    'message' => 'Poziom UI'
+  },
+  'settings groupIdAdminSubscription hoverHelp' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'private message error' => {
+    'lastUpdated' => 1181019679,
+    'message' => "B\x{142}\x{105}d wiadomo\x{15b}ci"
+  },
+  '992' => {
+    'lastUpdated' => 1056151382,
+    'message' => "Tytu\x{142}"
+  },
+  '418' => {
+    'lastUpdated' => 1204901316,
+    'message' => "Filtr kontentu (zawarto\x{15b}ci serwisu)"
+  },
+  '168' => {
+    'lastUpdated' => 1204892353,
+    'message' => "Edycja u\x{17c}ytkownika"
+  },
+  '706' => {
+    'lastUpdated' => 1207314499,
+    'message' => 'Godzina(-ny)'
+  },
+  '14' => {
+    'lastUpdated' => 1204891592,
+    'message' => "Poka\x{17c} oczekuj\x{105}ce zg\x{142}oszenia."
+  },
+  '135' => {
+    'lastUpdated' => 1204891337,
+    'message' => 'Serwer SMTP'
+  },
+  '348' => {
+    'lastUpdated' => 1204895332,
+    'message' => 'Nazwa'
+  },
+  'bare insufficient' => {
+    'lastUpdated' => 1169790230,
+    'message' => 'You do not have sufficient privileges to perform this operation. Please log in with an account that has sufficient privileges before attempting this operation.'
+  },
+  'editSettings error occurred' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  '145' => {
+    'lastUpdated' => 1207320492,
+    'message' => 'WebGUI Build Version'
+  },
+  'preview' => {
+    'lastUpdated' => 1141434351,
+    'message' => 'Preview'
+  },
+  '142 description' => {
+    'lastUpdated' => 1207320729,
+    'message' => "Czas w jakim u\x{17c}ytkownik pozostaje zalogowany (zanim b\x{119}dzie musia\x{142} ponownie si\x{119} zalogowa\x{107}). Przedawnienie sesji jest ka\x{17c}dorazowo odliczane na nowo przy ka\x{17c}dej wywo\x{142}anej przez u\x{17c}ytkownika stronie. Przyk\x{142}adowo, je\x{15b}li ustawisz przedawnienie sesji po 8 godzinach u\x{17c}ytkownik b\x{119}dzie musia\x{142} zalogowa\x{107} si\x{119} na nowo je\x{15b}li nie wywo\x{142}a dowolnej strony przed up\x{142}ywem 8 godzin."
+  },
+  '993' => {
+    'lastUpdated' => 1056151382,
+    'message' => 'DSN'
+  },
+  'settings groupIdAdminAdSpace label' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  '364' => {
+    'lastUpdated' => 1204897950,
+    'message' => 'Szukaj'
+  },
+  '950' => {
+    'lastUpdated' => 1207321856,
+    'message' => "Wyczy\x{15b}ci\x{107} schowek."
+  },
+  'cache statistics' => {
+    'lastUpdated' => 1031514049,
+    'message' => 'Cache Statistics'
+  },
+  'settings groupIdAdminProfileSettings label' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  '486' => {
+    'lastUpdated' => 1204905173,
+    'message' => 'Lista'
+  },
+  '160' => {
+    'lastUpdated' => 1204891974,
+    'message' => 'Data wprowadzenia'
+  },
+  '509' => {
+    'lastUpdated' => 1204905773,
+    'message' => "Uk\x{142}ad dyskusji"
+  },
+  '367' => {
+    'lastUpdated' => 1204898056,
+    'message' => "Przesuni\x{119}cie Wyga\x{15b}ni\x{119}cia"
+  },
+  '8' => {
+    'lastUpdated' => 1207315600,
+    'message' => "Wy\x{15b}wietl nie znaleziono strony."
+  },
+  '976' => {
+    'lastUpdated' => 1053800614,
+    'message' => "Dodaj u\x{17c}ytkownik\x{f3}w"
+  },
+  'settings groupIdAdminSpectre hoverHelp' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'choose an asset' => {
+    'lastUpdated' => 1141963463,
+    'message' => 'Choose an Asset'
+  },
+  'pagination.firstPage' => {
+    'lastUpdated' => 1149182026,
+    'message' => "Link do pierwszej strony przegl\x{105}darki."
+  },
+  '43' => {
+    'lastUpdated' => 1204901783,
+    'message' => "Jeste\x{15b} pewny, \x{17c}e chcesz usun\x{105}\x{107} ten kontent"
+  },
+  '485' => {
+    'lastUpdated' => 1204905160,
+    'message' => 'Boolean (Checkbox)'
+  },
+  '391' => {
+    'lastUpdated' => 1204900645,
+    'message' => "Usu\x{144} za\x{142}\x{105}czony plik."
+  },
+  '743' => {
+    'lastUpdated' => 1207315022,
+    'message' => "Aby przeprowadzi\x{107} procedur\x{119} odzyskania twojego has\x{142}a musisz wprowadzi\x{107} poprawny adres e-mail."
+  },
+  '523' => {
+    'lastUpdated' => 1204905852,
+    'message' => 'Zawiadomienie'
+  },
+  'settings groupIdAdminReplacements label' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  '943' => {
+    'lastUpdated' => 1207321652,
+    'message' => 'Checkbox'
+  },
+  'unknown user' => {
+    'lastUpdated' => 1135205716,
+    'message' => "u\x{17c}ytkownik nieznany"
+  },
+  '460' => {
+    'lastUpdated' => 1204903876,
+    'message' => 'Offset czasu'
+  },
+  '119' => {
+    'lastUpdated' => 1204890801,
+    'message' => "Metoda autoryzacji (domy\x{15b}lnie)"
+  },
+  '453' => {
+    'lastUpdated' => 1204902098,
+    'message' => 'Data utworzenia'
+  },
+  '324' => {
+    'lastUpdated' => 1204893526,
+    'message' => 'Miasto zamieszkania'
+  },
+  'user profile field private message allow label' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  '244' => {
+    'lastUpdated' => 1204892471,
+    'message' => 'Autor'
+  },
+  '351' => {
+    'lastUpdated' => 1204895375,
+    'message' => "Wiadomo\x{15b}\x{107}"
+  },
+  'fieldtype' => {
+    'lastUpdated' => 0,
+    'message' => 'Field Type'
+  },
+  '61' => {
+    'lastUpdated' => 1207314126,
+    'message' => "Aktualizacja ustawie\x{144} konta"
+  },
+  '430' => {
+    'lastUpdated' => 1204901812,
+    'message' => "Ostatnio Ogl\x{105}dane Strony"
+  },
+  '379' => {
+    'lastUpdated' => 1204898239,
+    'message' => 'ID grupy'
+  },
+  'admin console template' => {
+    'lastUpdated' => 1118453709,
+    'message' => 'Admin Console Template'
+  },
+  '1035' => {
+    'lastUpdated' => 1204890217,
+    'message' => 'Szablon Powiadomienia'
+  },
+  'deactivateAccount success' => {
+    'lastUpdated' => 0,
+    'message' => '%s has been deactivated'
+  },
+  '452' => {
+    'lastUpdated' => 1204902080,
+    'message' => "Prosz\x{119} czeka\x{107}..."
+  },
+  '342' => {
+    'lastUpdated' => 1204893997,
+    'message' => 'Edycja danych konta.'
+  },
+  '862' => {
+    'lastUpdated' => 1207320806,
+    'message' => "Profil tego u\x{17c}ytkownika nie jest dost\x{119}pny publicznie."
+  },
+  'additional parameters' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  '480' => {
+    'lastUpdated' => 1204903998,
+    'message' => 'Adres E-mail'
+  },
+  '341' => {
+    'lastUpdated' => 1204893988,
+    'message' => 'Edycja profilu.'
+  },
+  'invite a friend' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  '438' => {
+    'lastUpdated' => 1204901909,
+    'message' => "Twoje imi\x{119}"
+  },
+  '107' => {
+    'lastUpdated' => 1204890466,
+    'message' => "Bezpiecze\x{144}stwo"
+  },
+  '87' => {
+    'lastUpdated' => 1207321141,
+    'message' => 'Edycja grupy'
+  },
+  '77' => {
+    'lastUpdated' => 1207315178,
+    'message' => "<li>Ta nazwa konta zosta\x{142}a ju\x{17c} u\x{17c}yta i jest wykorzystywana przez innego u\x{17c}ytkownika. Prosz\x{119} wprowadzi\x{107} inn\x{105} nazw\x{119}. Poni\x{17c}ej prezentujemy kilka sugestii:<br /> %sToo<br /> %s2<br /> %s_%d</li>"
+  },
+  '444' => {
+    'lastUpdated' => 1204902010,
+    'message' => 'Informacje demograficzne'
+  },
+  '865 description' => {
+    'lastUpdated' => 1207321057,
+    'message' => "<p> Ustaw t\x{105} warto\x{15b} na Tak, je\x{15b}li chcesz aby WebGUI informowa\x{142}o u\x{17c}ytkownika o fakcie wyga\x{15b}ni\x{119}cia wa\x{17c}no\x{15b}ci w grupie. </p>"
+  },
+  'pagination.lastPage' => {
+    'lastUpdated' => 1149182026,
+    'message' => "Link do ostatniej strony przegl\x{105}darki."
+  },
+  '39' => {
+    'lastUpdated' => 1204900629,
+    'message' => "Nie posiadasz wystarczaj\x{105}cych uprawnie\x{144} dla tej strony."
+  },
+  'account' => {
+    'lastUpdated' => 1098327046,
+    'message' => 'Account'
+  },
+  '1004 description' => {
+    'lastUpdated' => 1204533615,
+    'message' => "Du\x{17c}e serwisy WWW korzystaj\x{105}ce z zewn\x{119}trznych grup b\x{119}d\x{105} generowa\x{107} wiele odwo\x{142}a\x{144} do zewn\x{119}trznych baz danych. Aby pom\x{f3}c zredukowa\x{107} obci\x{105}\x{17c}enie mo\x{17c}esz wskaza\x{107} jak d\x{142}ugo system ma przechowywa\x{107} rezultaty zapyta\x{144} zewn\x{119}trznych baz wewn\x{105}trz bazy WebGUI. Bardziej zaawansowany mechanizm przechowywania w pami\x{119}ci podr\x{119}cznej zostanie wprowadzony w przyszsz\x{142}ej wersji WebGUI."
+  },
+  'mail return path' => {
+    'lastUpdated' => 0,
+    'message' => "\x{15a}cie\x{17c}ka powrotna"
+  },
+  '64' => {
+    'lastUpdated' => 1207314146,
+    'message' => 'Wyloguj.'
+  },
+  '558' => {
+    'lastUpdated' => 1207313192,
+    'message' => "Edycja Karmy u\x{17c}ytkownika"
+  },
+  'password clear text' => {
+    'lastUpdated' => 1127405564,
+    'message' => "Wy\x{15b}wietlone czystym tekstem wi\x{119}c mo\x{17c}esz upewni\x{107} si\x{119}, czy zosta\x{142}o wprowadzone poprawnie."
+  },
+  '12' => {
+    'lastUpdated' => 1204890809,
+    'message' => "Wy\x{142}\x{105}cz tryb administracyjny."
+  },
+  '881' => {
+    'lastUpdated' => 1207321230,
+    'message' => "Nic/\x{17b}aden"
+  },
+  '312' => {
+    'lastUpdated' => 1204892539,
+    'message' => "Dost\x{119}pne informacje biznesowe?"
+  },
+  '707 description' => {
+    'lastUpdated' => 1207314695,
+    'message' => "<p>Wy\x{15b}wietlanie komunikat&oacute;w i informacji diagnostycznych. Niezwykle u\x{17c}yteczna funkcja dla webmaster&oacute;w i deweloper&oacute;w. Przydatna mo\x{17c}e by\x{107} r&oacute;wnie\x{17c} administratorm pr&oacute;buj\x{105}cym rozwi\x{105}za\x{144} napotakny problem.</p>"
+  },
+  'settings groupIdAdminUser hoverHelp' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'private message next label' => {
+    'lastUpdated' => 1181019679,
+    'message' => "Nast\x{119}pna"
+  },
+  '45' => {
+    'lastUpdated' => 1204902052,
+    'message' => "Nie, pomyli\x{142}em si\x{119}."
+  },
+  '507' => {
+    'lastUpdated' => 1204905743,
+    'message' => 'Edycja szablonu'
+  },
+  '405' => {
+    'lastUpdated' => 1204900996,
+    'message' => 'Strona ostatnia'
+  },
+  'settings groupIdAdminProductManager hoverHelp' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  '866 description' => {
+    'lastUpdated' => 1207321078,
+    'message' => "<p> Wprowad\x{17a} tekst wiadomo\x{15b}ci jaka ma by\x{107} wys\x{142}ana do u\x{17c}ytkownika w celu poinformowania o wyga\x{15b}ni\x{119}ciu wa\x{17c}no\x{15b}ci. </p>"
+  },
+  '1084' => {
+    'lastUpdated' => 1204890643,
+    'message' => "U\x{17c}yj domy\x{15b}lnego paska narz\x{119}dzi dla mojego j\x{119}zyka"
+  },
+  '370' => {
+    'lastUpdated' => 1204898160,
+    'message' => 'Edycja grupowania'
+  },
+  '309' => {
+    'lastUpdated' => 1204892494,
+    'message' => "Dopuszcza\x{107} rzeczywiste imi\x{119}?"
+  },
+  'authentication' => {
+    'lastUpdated' => 1092930637,
+    'message' => 'Authentication'
+  },
+  '734' => {
+    'lastUpdated' => 1207314934,
+    'message' => "5 Bieg\x{142}y"
+  },
+  '1' => {
+    'lastUpdated' => 1204890103,
+    'message' => "Dodaj zawarto\x{15b}\x{107}..."
+  },
+  '144' => {
+    'lastUpdated' => 1207320484,
+    'message' => "Wy\x{15b}wietl statystyki."
+  },
+  '965' => {
+    'lastUpdated' => 1099050265,
+    'message' => 'Koszt systemowy'
+  },
+  '824' => {
+    'lastUpdated' => 1207316912,
+    'message' => 'Stopka listu e-mail'
+  },
+  '661' => {
+    'lastUpdated' => 1207314366,
+    'message' => 'Ustawienia pliku, Edycja'
+  },
+  '857 description' => {
+    'lastUpdated' => 1207317982,
+    'message' => "<p> Wprowad\x{17a} adres IP w formacie CIDR. Mo\x{17c}na wprowadzi\x{107} wiele adres&oacute;w je\x{15b}li zostan\x{105} oddzielone przecinkami. Spacje, tabulatory i nowe linie b\x{119}d\x{105} zignorowane. </p> <p> <em>Przyk\x{142}ad adresu IP z mask\x{105}:</em> 10.0.0.32/27, 192.168.0.1/30 </p>"
+  },
+  '1075' => {
+    'lastUpdated' => 1204890515,
+    'message' => 'Link bazy danych'
+  },
+  '381' => {
+    'lastUpdated' => 1204900607,
+    'message' => "WebGUI odebra\x{142}o wadliwe zg\x{142}oszenie i nie mog\x{142}o kontynuowa\x{107} pracy. Mog\x{142}o to by\x{107} spowodowane wprowadzeniem do formularza zastrze\x{17c}onych prawnie znak&oacute;w lub nazw. Prosz\x{119} wywo\x{142}a\x{107} przycisk cofni\x{119}cia i spr&oacute;bowa\x{107} jeszcze raz."
+  },
+  '581' => {
+    'lastUpdated' => 1207313763,
+    'message' => "Dodaj now\x{105} warto\x{15b}\x{107}"
+  },
+  '418 description' => {
+    'lastUpdated' => 1204901483,
+    'message' => "Wybierz poziom filtrowania HTML dla zastosowania przy proksy tre\x{15b}ci."
+  },
+  '392' => {
+    'lastUpdated' => 1204900655,
+    'message' => "Usun\x{105}\x{107} ten plik?"
+  },
+  'pagination.pageCount.isMultiple' => {
+    'lastUpdated' => 1149182026,
+    'message' => 'A boolean indicating whether there is more than one page.'
+  },
+  '496' => {
+    'lastUpdated' => 1204905665,
+    'message' => "Edytor do u\x{17c}ycia"
+  },
+  'settings groupIdAdminProfileSettings hoverHelp' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'Enable Metadata description' => {
+    'lastUpdated' => 1120239343,
+    'message' => 'This enables the metadata tab on Assets so that metadata can be entered
+and tracked by WebGUI.'
+  },
+  '605' => {
+    'lastUpdated' => 1207314119,
+    'message' => 'Dodaj grupy'
+  },
+  'private message message label' => {
+    'lastUpdated' => 1181019679,
+    'message' => "Wiadomo\x{15b}\x{107}"
+  },
+  'private message no user' => {
+    'lastUpdated' => 1181019679,
+    'message' => "Nie wskaza\x{142}e\x{15b} u\x{17c}ytkownika dla wysy\x{142}anej wiadomo\x{15b}ci prywatnej"
+  },
+  '813' => {
+    'lastUpdated' => 1207316568,
+    'message' => 'Grupy w tej grupie'
+  },
+  'settings groupIdAdminGroup label' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'head.tags' => {
+    'lastUpdated' => 1183420610,
+    'message' => "
+WebGUI generuje automatycznie znaczniki za ciebie tak aby pami\x{119}\x{107} podr\x{119}czna pracowa\x{142}a w\x{142}a\x{15b}ciwie, a serwisy indeksuj\x{105}ce mog\x{142}y lepiej odszuka\x{107} publikowane tre\x{15b}ci. Znaczniki te powinny zawiera\x{107} si\x{119} wewn\x{105}trz sekcji &lt;head&gt; &lt;/head&gt; twojego stylu.
 
 <br />
-<br />Sugerujemy użycie czegoś podobnego w tekście &lt;title&gt; &lt;/title&gt; :
+<br />Sugerujemy u\x{17c}ycie czego\x{15b} podobnego w tek\x{15b}cie &lt;title&gt; &lt;/title&gt; :
 <br />
 <br />^PageTitle(); - ^c();
 <br />
-<br />Powyższy przykłąd pozwoli utrzymać wysoką pozycję w serwisach indeksujących.|,
-		lastUpdated => 1183420610
-	},
-
-	'42' => {
-		message => q|Proszę potwierdzić|,
-		lastUpdated => 1204901552
-	},
-
-	'link in new window' => {
-		message => q|Open link in new window.|,
-		lastUpdated => 1118936724
-	},
-
-	'settings groupIdAdminHelp hoverHelp' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'1005 description' => {
-		message => q|Wiele organizacji posiada zewnętrzne bazy danych, które przyporządkowują użytkowników do określonych grup. Przykładowo baza danych HR łączy pracowników z Planem Opieki Medycznej. Aby weryfikować użytkowników z użyciem zewnętrznej bazy danych, należy skonstruować zapytanie SQL, które zwróci listę identyfikatorów użytkowników właściwych dla WebGUI (userIDs) znajdujących się w danej grupie. Aby pobrać dane z profilu użytkownika w WebGUI można wykorzystać w zapytaniu makro. Poniżej znajduje się przykład demonstrujący sposób połączenia użytkowników z fikcyjną bazą HR. Założono w nim, że zostało  utworzone dodatkowe pole w profilu o nazwie employeeId.
+<br />Powy\x{17c}szy przyk\x{142}\x{105}d pozwoli utrzyma\x{107} wysok\x{105} pozycj\x{119} w serwisach indeksuj\x{105}cych."
+  },
+  '42' => {
+    'lastUpdated' => 1204901552,
+    'message' => "Prosz\x{119} potwierdzi\x{107}"
+  },
+  'link in new window' => {
+    'lastUpdated' => 1118936724,
+    'message' => 'Open link in new window.'
+  },
+  'settings groupIdAdminHelp hoverHelp' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  '1005 description' => {
+    'lastUpdated' => 1204541763,
+    'message' => "Wiele organizacji posiada zewn\x{119}trzne bazy danych, kt\x{f3}re przyporz\x{105}dkowuj\x{105} u\x{17c}ytkownik\x{f3}w do okre\x{15b}lonych grup. Przyk\x{142}adowo baza danych HR \x{142}\x{105}czy pracownik\x{f3}w z Planem Opieki Medycznej. Aby weryfikowa\x{107} u\x{17c}ytkownik\x{f3}w z u\x{17c}yciem zewn\x{119}trznej bazy danych, nale\x{17c}y skonstruowa\x{107} zapytanie SQL, kt\x{f3}re zwr\x{f3}ci list\x{119} identyfikator\x{f3}w u\x{17c}ytkownik\x{f3}w w\x{142}a\x{15b}ciwych dla WebGUI (userIDs) znajduj\x{105}cych si\x{119} w danej grupie. Aby pobra\x{107} dane z profilu u\x{17c}ytkownika w WebGUI mo\x{17c}na wykorzysta\x{107} w zapytaniu makro. Poni\x{17c}ej znajduje si\x{119} przyk\x{142}ad demonstruj\x{105}cy spos\x{f3}b po\x{142}\x{105}czenia u\x{17c}ytkownik\x{f3}w z fikcyjn\x{105} baz\x{105} HR. Za\x{142}o\x{17c}ono w nim, \x{17c}e zosta\x{142}o  utworzone dodatkowe pole w profilu o nazwie employeeId.
 </p>
 <p>
 select userId from employees, health_plans, empl_plan_map<br />
@@ -886,2490 +714,1995 @@ and employees.employee_id = empl_plan_map.employee_id<br />
 and health_plans.health_plan_id = empl_plan_mp.health_plan_id<br />
 </p>
 <p>
-Ta grupa może być następnie nazwana &quot;Pracownicy w HMO 1&quot; i może pozwolić regulować dostępem do dowolnych stron lub wobiektów wyłącznie dla tych użytkowników, którzy są częścią zespołu i posiadają odpowiednie zapisy w zewnętrznej bazie danych.
-</p>|,
-		lastUpdated => 1204541763
-	},
-
-	'groups to delete' => {
-		message => q|GROUPS TO DELETE|,
-		lastUpdated => 1118861810
-	},
-
-	'1073' => {
-		message => q|Szablon stylu|,
-		lastUpdated => 1204890507
-	},
-
-	'436' => {
-		message => q|Zabij sesję|,
-		lastUpdated => 1204901890
-	},
-
-	'51' => {
-		message => q|Hasło|,
-		lastUpdated => 1204905783
-	},
-
-	'816' => {
-		message => q|Status|,
-		lastUpdated => 1207316594
-	},
-
-	'Enable user invitations description' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'456' => {
-		message => q|Powr&oacute;t do listy użytkownik&oacute;w.|,
-		lastUpdated => 1204903792
-	},
-
-	'private message status unread' => {
-		message => q|Nieprzeczytana|,
-		lastUpdated => 1181019679
-	},
-
-	'1051 description' => {
-		message => q|Na co ciąg znak&oacute;w powinien zostać zamieniony.|,
-		lastUpdated => 1207313055
-	},
-
-	'975' => {
-		message => q|Użytkownicy mogą usunąć siebie?|,
-		lastUpdated => 1053778962
-	},
-
-	'465 description' => {
-		message => q|Jak dużo znak&oacute;w może być wyświetlonych w jednej chwili w boksie tekstowym. |,
-		lastUpdated => 1204903958
-	},
-
-	'link in same window' => {
-		message => q|Open link in same window.|,
-		lastUpdated => 1118936724
-	},
-
-	'493' => {
-		message => q|Powr&oacute;t do serwisu.|,
-		lastUpdated => 1204905202
-	},
-
-	'trash workflow help' => {
-		message => q|Which workflow to run when an asset is placed in the trash.|,
-		lastUpdated => 1162242500
-	},
-
-	'permissions' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'photo' => {
-		message => q|Fotografia|,
-		lastUpdated => 1131246503
-	},
-
-	'file' => {
-		message => q|Plik|,
-		lastUpdated => 0
-	},
-
-	'pagination.nextPage' => {
-		message => q|A link to the next page in the paginator relative to the current page.|,
-		lastUpdated => 1149182026
-	},
-
-	'445' => {
-		message => q|Preferencje|,
-		lastUpdated => 1204902020
-	},
-
-	'account.options' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'1026' => {
-		message => q|Edytor bogaty dostępny?|,
-		lastUpdated => 1204890168
-	},
-
-	'329' => {
-		message => q|Adres pracy|,
-		lastUpdated => 1204893901
-	},
-
-	'allow private messages label' => {
-		message => q|Akceptować prywatne wiadomości|,
-		lastUpdated => 1181019679
-	},
-
-	'noldaplink' => {
-		message => q|No LDAP Connection|,
-		lastUpdated => 0
-	},
-
-	'161' => {
-		message => q|Wprowadzone przez|,
-		lastUpdated => 1204891987
-	},
-
-	'582' => {
-		message => q|Pozostawiać puste|,
-		lastUpdated => 1207313772
-	},
-
-	'default version tag workflow help' => {
-		message => q|Którey workflow powinien być użyty domyślnie gdy użytkownik utworzy swoją włąsną wersję 'tags'.|,
-		lastUpdated => 0
-	},
-
-	'settings groupIdAdminWorkflowRun hoverHelp' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'125 description' => {
-		message => q|Nazwa twojego przedsiębiorstwa. Będzie pojawiać się na wszystkich listach elektronicznych ioraz wszędzie, gdzie zastosowano makro Company Name.|,
-		lastUpdated => 1204890890
-	},
-
-	'746' => {
-		message => q|Ustawienie ikon paska narzędzi|,
-		lastUpdated => 1207315056
-	},
-
-	'400' => {
-		message => q|Zapobieganie Proxy Caching|,
-		lastUpdated => 1204900723
-	},
-
-	'744' => {
-		message => q|Co dalej?|,
-		lastUpdated => 1207315028
-	},
-
-	'1011' => {
-		message => q|Kod|,
-		lastUpdated => 1204889975
-	},
-
-	'556 description' => {
-		message => q|Jak dużo karmy powinno być dodane lub odjęte od karmy użytkownika?|,
-		lastUpdated => 1207313172
-	},
-
-	'84 description groupings' => {
-		message => q|Nazwa grupy.|,
-		lastUpdated => 1207317062
-	},
-
-	'557' => {
-		message => q|Opis|,
-		lastUpdated => 1207313178
-	},
-
-	'settings groupIdAdminUserAdd label' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'369 description' => {
-		message => q|Gdy członkostwo użytkownika w grupie wygaśnie.|,
-		lastUpdated => 1204898142
-	},
-
-	'700' => {
-		message => q|Dzień(-ni)|,
-		lastUpdated => 1207314538
-	},
-
-	'475' => {
-		message => q|Tekst|,
-		lastUpdated => 1204903965
-	},
-
-	'441' => {
-		message => q|Pośrednik poczty e-mail do pagera|,
-		lastUpdated => 1204901976
-	},
-
-	'868' => {
-		message => q|Wysłać wiadomość powitania?|,
-		lastUpdated => 1207321098
-	},
-
-	'color' => {
-		message => q|Color|,
-		lastUpdated => 0
-	},
-
-	'990' => {
-		message => q|Edytuj link bazy danych|,
-		lastUpdated => 1056151382
-	},
-
-	'349' => {
-		message => q|Dostępne ostatnie wersje|,
-		lastUpdated => 1204895342
-	},
-
-	'private message no self error' => {
-		message => q|Nie możesz wysłać prywatnej wiadomości do siebie samego.|,
-		lastUpdated => 1181019679
-	},
-
-	'983' => {
-		message => q|Edytuj ten link bazy danych.|,
-		lastUpdated => 1056151382
-	},
-
-	'settings groupIdAdminVersionTag label' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'138' => {
-		message => q|Tak|,
-		lastUpdated => 1204891533
-	},
-
-	'751' => {
-		message => q|Stań się tym użytkownikiem.|,
-		lastUpdated => 1207315118
-	},
-
-	'60' => {
-		message => q|Czy jesteś pewny, że chcesz wyłączyć swoje konto? Jeśli kontynujesz twoje informacje zostaną utracone.|,
-		lastUpdated => 1207314109
-	},
-
-	'messaging' => {
-		message => q|Messaging|,
-		lastUpdated => 1092930637
-	},
-
-	'724' => {
-		message => q|Nazwa użytkownika nie może zaczynać się, ani kończyć spacjami lub tabulatorami.|,
-		lastUpdated => 1207314735
-	},
-
-	'432' => {
-		message => q|Wygaśniecie|,
-		lastUpdated => 1204901832
-	},
-
-	'860' => {
-		message => q|Uczynić adres e-mail publicznym?|,
-		lastUpdated => 1207318239
-	},
-
-	'346' => {
-		message => q|Ten użytkownik już nie jest członkiem naszego serwisu. Nie posiadamy żadnych informacji o nim.|,
-		lastUpdated => 1204894140
-	},
-
-	'1075 description' => {
-		message => q|<p>Wskaż link bazy danych jeśli chciałbyś zastosować walidację użytkownik&oacute;w dla tej grupy wykorzystującą zewętrzną bazę danych. </p>|,
-		lastUpdated => 1204890558
-	},
-
-	'broken spectre title' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'333' => {
-		message => q|Kraj pracy|,
-		lastUpdated => 1204893930
-	},
-
-	'groups to add' => {
-		message => q|GROUPS TO ADD|,
-		lastUpdated => 1118861810
-	},
-
-	'323' => {
-		message => q|Adres domowy|,
-		lastUpdated => 1204893517
-	},
-
-	'codearea' => {
-		message => q|Code Area|,
-		lastUpdated => 0
-	},
-
-	'856' => {
-		message => q|Nie posiadasz aktualnie żadnych własności dla konta.|,
-		lastUpdated => 1207317920
-	},
-
-	'69' => {
-		message => q|Skontaktuj się z administratorem w celu uzyskania pomocy.|,
-		lastUpdated => 1207314390
-	},
-
-	'removeLabel' => {
-		message => q|usuń|,
-		lastUpdated => 1116450882
-	},
-
-	'private message status read' => {
-		message => q|Przeczytana|,
-		lastUpdated => 1181019679
-	},
-
-	'settings groupIdAdminStatistics hoverHelp' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'settings groupIdAdminSubscription label' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'756' => {
-		message => q|Powr&oacute;t do listy grup.|,
-		lastUpdated => 1207315145
-	},
-
-	'hexadecimal' => {
-		message => q|Hexadecimal|,
-		lastUpdated => 0
-	},
-
-	'446' => {
-		message => q|WWW pracy|,
-		lastUpdated => 1204902035
-	},
-
-	'559 description' => {
-		message => q|<p>W przypadku ustawienia workfow, odpowiednie działanie będzie uruchamiane każdorazowo podczas anoimowej rejestracji.</p>|,
-		lastUpdated => 1207313390
-	},
-
-	'view inbox message template description' => {
-		message => q|Wybierz szablon dla wyświetlenia wiadomości w inbox|,
-		lastUpdated => 1181019679
-	},
-
-	'run on admin update user help' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'352' => {
-		message => q|Data|,
-		lastUpdated => 1204895383
-	},
-
-	'130 description' => {
-		message => q|Maksymalny rozmiar (w kilobajtach) dozwolonego do załączenia pliku. Biorąc pod uwagę budowę protokołu HTTP, rozmiar 100MB uznaje się za maksymalnie praktyczny.<br /> |,
-		lastUpdated => 1204891309
-	},
-
-	'1006' => {
-		message => q|Szyfrować sesję?|,
-		lastUpdated => 1204889815
-	},
-
-	'company' => {
-		message => q|Company|,
-		lastUpdated => 1092930637
-	},
-
-	'126' => {
-		message => q|Adres e-mail firmowy|,
-		lastUpdated => 1204890899
-	},
-
-	'426' => {
-		message => q|Hisotira logowania|,
-		lastUpdated => 1204901755
-	},
-
-	'369' => {
-		message => q|Data wygaśnięcia|,
-		lastUpdated => 1204898124
-	},
-
-	'483' => {
-		message => q|Tak lub Nie|,
-		lastUpdated => 1204904037
-	},
-
-	'pagination.nextPageText' => {
-		message => q|The text component of pagination.nextPage broken out.|,
-		lastUpdated => 1149182026
-	},
-
-	'account options template variables' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'button' => {
-		message => q|Button|,
-		lastUpdated => 0
-	},
-
-	'810' => {
-		message => q|wyślij|,
-		lastUpdated => 1207316531
-	},
-
-	'372' => {
-		message => q|Edytuj grupy użytkownika|,
-		lastUpdated => 1204898184
-	},
-
-	'574' => {
-		message => q|Odmawiać|,
-		lastUpdated => 1207313736
-	},
-
-	'170' => {
-		message => q|szukaj|,
-		lastUpdated => 1204892367
-	},
-
-	'default rich editor' => {
-		message => q|Default Rich Editor|,
-		lastUpdated => 1118941685
-	},
-
-	'428' => {
-		message => q|Użytkownik (ID)|,
-		lastUpdated => 1204901764
-	},
-
-	'default rich editor description' => {
-		message => q|<p>This is the rich editor configuration that will be used by default when a rich editor is needed. This can be overridden in certain applications such as the Collaboration System.</p>|,
-		lastUpdated => 1120239343
-	},
-
-	'977' => {
-		message => q|Czy jest administratorem grupy?|,
-		lastUpdated => 1053803387
-	},
-
-	'99' => {
-		message => q|Tytuł|,
-		lastUpdated => 1031514049
-	},
-
-	'settings groupIdAdminLDAPLink label' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'526' => {
-		message => q|Usuń JavaScript i anuluj makra.|,
-		lastUpdated => 1204905862
-	},
-
-	'72' => {
-		message => q|przywr&oacute;ć|,
-		lastUpdated => 1207314711
-	},
-
-	'566' => {
-		message => q|Edytuj Czas wygaśnięcia (timeout)|,
-		lastUpdated => 1207313638
-	},
-
-	'806' => {
-		message => q|Usuń tą grupę.|,
-		lastUpdated => 1207315616
-	},
-
-	'869' => {
-		message => q|Wiadomość powitalna|,
-		lastUpdated => 1207321134
-	},
-
-	'help contents' => {
-		message => q|Help Contents|,
-		lastUpdated => 1128553296
-	},
-
-	'533' => {
-		message => q|<strong>bez</strong> sł&oacute;w|,
-		lastUpdated => 1204906408
-	},
-
-	'359' => {
-		message => q|Kolumna prawa|,
-		lastUpdated => 1204896165
-	},
-
-	'527 description' => {
-		message => q|<p>Wiele naprawdę małych serwis&oacute;w WWW nie posiada strony startowej. Zamiast niej ustawia się jedną ze stron wewnętrznych jak przykładowo &quot;O nas&quot; lub &quot;Informacje o firmie&quot;. Właśnie z tego powodu możesz ustawić dowolną stronę jako startową w serwisie. Ta strona będzie pokazana zawsze, gdy ludzie wpiszą adres URL zawierający wyłącznie domenę - http://www. tw&oacute;j_serwis lub klikną na link &quot;Home&quot; wygenerowany przez AssetProxy lub Zas&oacute;b Nawigacyjny.</p>|,
-		lastUpdated => 1204906156
-	},
-
-	'811 description' => {
-		message => q|Od kogo e-mail.|,
-		lastUpdated => 1207316543
-	},
-
-	'1006 description' => {
-		message => q|Czy system powinien używać protokołu HTTPS dla formularza logowania? Zauważ, że ustawienie tej wartości spowoduje zaszyfrowanie nie tylko formularza logowania, ale całych stron.|,
-		lastUpdated => 1204889921
-	},
-
-	'108' => {
-		message => q|Właściciel|,
-		lastUpdated => 1204890634
-	},
-
-	'send private message' => {
-		message => q|Send Private Message|,
-		lastUpdated => 1181019679
-	},
-
-	'556' => {
-		message => q|Ilość|,
-		lastUpdated => 1207313165
-	},
-
-	'options.display' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'462' => {
-		message => q|Format czasu|,
-		lastUpdated => 1204903893
-	},
-
-	'232' => {
-		message => q|brak tytułu|,
-		lastUpdated => 1204892456
-	},
-
-	'477' => {
-		message => q|Obszar HTML|,
-		lastUpdated => 1204903982
-	},
-
-	'815' => {
-		message => q|Plik, kt&oacute;ry pr&oacute;bujesz załadować jest zbyt duży.|,
-		lastUpdated => 1207316586
-	},
-
-	'skip commit comments help' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'142' => {
-		message => q|Wygaśnięcie sesji|,
-		lastUpdated => 1204891915
-	},
-
-	'330' => {
-		message => q|Miasto pracy|,
-		lastUpdated => 1204893907
-	},
-
-	'991' => {
-		message => q|ID linku bazy danych|,
-		lastUpdated => 1056151382
-	},
-
-	'167' => {
-		message => q|Czy jesteś pewny, że zamierzasz usunąć tego użytkownika? Wszystkie informacje użytkownika będą stracone bezpowrotnie.|,
-		lastUpdated => 1204892346
-	},
-
-	'settings groupIdAdminTransactionLog label' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'help index' => {
-		message => q|Index|,
-		lastUpdated => 1128552837
-	},
-
-	'group' => {
-		message => q|Group|,
-		lastUpdated => 0
-	},
-
-	'360' => {
-		message => q|Jedna Nad Trzema|,
-		lastUpdated => 1204897892
-	},
-
-	'514' => {
-		message => q|Widoki|,
-		lastUpdated => 1204905835
-	},
-
-	'725' => {
-		message => q|Nazwa użytkownika nie może być pusta.|,
-		lastUpdated => 1207314765
-	},
-
-	'country' => {
-		message => q|Country|,
-		lastUpdated => 0
-	},
-
-	'50 description' => {
-		message => q|Nazwa użytkownika.|,
-		lastUpdated => 1204905707
-	},
-
-	'50' => {
-		message => q|Użytkownik|,
-		lastUpdated => 1204905699
-	},
-
-	'476' => {
-		message => q|Obszar tekstowy|,
-		lastUpdated => 1204903973
-	},
-
-	'885 description' => {
-		message => q|Czy pozwalasz użytkownikom deaktywować własne konta bez jakiejkolwiek interwencji?|,
-		lastUpdated => 1207321488
-	},
-
-	'radio' => {
-		message => q|Radio Button|,
-		lastUpdated => 0
-	},
-
-	'1076' => {
-		message => q|Baza danych WebGUI|,
-		lastUpdated => 1204890577
-	},
-
-	'510' => {
-		message => q|Płaski|,
-		lastUpdated => 1204905821
-	},
-
-	'1077' => {
-		message => q|Funkcja jaką pr&oacute;bujesz wywołać jest niedostępna w tym module autoryzacji|,
-		lastUpdated => 1204890589
-	},
-
-	'449' => {
-		message => q|Informacje r&oacute;żnorodne|,
-		lastUpdated => 1204902044
-	},
-
-	'967' => {
-		message => q|Wyczyść kosz systemowy.|,
-		lastUpdated => 1052850265
-	},
-
-	'322' => {
-		message => q|Pager|,
-		lastUpdated => 1204893497
-	},
-
-	'settings groupIdAdminCommerce hoverHelp' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'164 description' => {
-		message => q|<p>Wybierz domyślną metodę autoryzacji dla nowych kont. Dwie opcje dostępne są domyślnie: WebGUI i LDAP. Autoryzacja WebGUI oznacza, że użytkownicy będą autoryzować się wykorzystując nazwę użytkownika i hasło zapisane w bazie danych WebGUI. Autoryzacja LDAP oznacza, że użytkownicy będą się autoryzować przy wykorzystaniu zewnętrznego serwera LDAP. Inne metody mogą być dostarczone przez napisanie własnych rozszerzeń.&nbsp;</p><p>&nbsp;</p><p>Uwagi</p><p>Ustawienia autoryzacji mogą być dostosowane dla każdego użytkownika.</p><p>Zależnie od tego ile i jakie moduły zostały zainstalowane w systemie zobaczysz r&oacute;żną liczbę opcji. </p>|,
-		lastUpdated => 1204892320
-	},
-
-	'353' => {
-		message => q|Nie posiadasz żadnych wiadomości.|,
-		lastUpdated => 1204895390
-	},
-
-	'575' => {
-		message => q|Edytuj|,
-		lastUpdated => 1207313744
-	},
-
-	'863 description' => {
-		message => q|<p> R&oacute;żnica w liczbie dni od dnia wygaśnięcia ważności grupowania w celu usunięcia grupowania z systemu. Można ustawić dowolną wartość całkowitą. Przykładowo, ustaw wartość &quot;0&quot; jeśli chcesz aby WebGUI usunęło grupowanie w dniu wygaśnięcia ważności. Ustaw &quot;-7&quot; jeśli chcesz aby WebGUI usunęło grupowanie 7 dni <strong>przed</strong> wygaśnięciem ważności. Ustaw &quot;7&quot; jeśli chcesz, aby WebGUI usunęło grupowanie 7 dni <strong>po</strong> wygaśnięciu ważności. </p>|,
-		lastUpdated => 1207320867
-	},
-
-	'984' => {
-		message => q|Kopiuj ten link bazy danych.|,
-		lastUpdated => 1056151382
-	},
-
-	'1039' => {
-		message => q|Powr&oacute;t|,
-		lastUpdated => 1204890227
-	},
-
-	'1005' => {
-		message => q|Zapytanie SQL|,
-		lastUpdated => 1204533630
-	},
-
-	'40' => {
-		message => q|Komponent wewnętrzny|,
-		lastUpdated => 1204900700
-	},
-
-	'310' => {
-		message => q|Uzwględnić dodatkowe informacje kontaktu?|,
-		lastUpdated => 1204892503
-	},
-
-	'interval' => {
-		message => q|Interwał|,
-		lastUpdated => 0
-	},
-
-	'settings groupIdAdminLDAPLink hoverHelp' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'699' => {
-		message => q|Pierwszy dzień tygodnia|,
-		lastUpdated => 1207314396
-	},
-
-	'cancel' => {
-		message => q|cofnij|,
-		lastUpdated => 1092930637
-	},
-
-	'user profile field friend availability' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'818' => {
-		message => q|Deaktywowany|,
-		lastUpdated => 1207316623
-	},
-
-	'user email template' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'130' => {
-		message => q|Maksymalny rozmiar załącznika|,
-		lastUpdated => 1204891157
-	},
-
-	'543' => {
-		message => q|Dodaj nową grupę obrazk&oacute;w.|,
-		lastUpdated => 1204906850
-	},
-
-	'topicName' => {
-		message => q|WebGUI|,
-		lastUpdated => 1128919994
-	},
-
-	'941' => {
-		message => q|Checkbox List|,
-		lastUpdated => 1207321639
-	},
-
-	'354' => {
-		message => q|Wyświetl Skrzynkę odbiorczą.|,
-		lastUpdated => 1204895407
-	},
-
-	'private message sent' => {
-		message => q|Wiadomość została wysłana.|,
-		lastUpdated => 1181019679
-	},
-
-	'461' => {
-		message => q|Format daty|,
-		lastUpdated => 1204903885
-	},
-
-	'debug ip description' => {
-		message => q|Pozwala zawęzić debugowanie i/lub dane wydajności przetwarzania dla określonego adresu IP lub zakresu adresów IP. Wprowadź podsieć dla której chciałbyś wyświetlać informacje diagnostyczne w formacie CIDR. Przykładowo: 10.0.0.0/24. Można pworwadzić wiele adresów CIDR oddzielonych przecinkami.|,
-		lastUpdated => 1164055466
-	},
-
-	'583' => {
-		message => q|Maksymalny rozmiar obrazka|,
-		lastUpdated => 1207313779
-	},
-
-	'settings groupIdAdminGraphics hoverHelp' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'show performance indicators' => {
-		message => q|Pokazać wskaźniki wykonania?|,
-		lastUpdated => 0
-	},
-
-	'951' => {
-		message => q|Czy na pewno wyczyścić schowek i przenieść jego zawartość do śmietnika?|,
-		lastUpdated => 1207321863
-	},
-
-	'85' => {
-		message => q|Opis/Treść|,
-		lastUpdated => 1207317840
-	},
-
-	'809' => {
-		message => q|E-mail Grupy|,
-		lastUpdated => 1207316507
-	},
-
-	'332' => {
-		message => q|Kod pocztowy pracy|,
-		lastUpdated => 1204893922
-	},
-
-	'9' => {
-		message => q|Wyświetl schowek.|,
-		lastUpdated => 1207321588
-	},
-
-	'425' => {
-		message => q|Aktywne sesje|,
-		lastUpdated => 1204901748
-	},
-
-	'packages' => {
-		message => q|Pakiety|,
-		lastUpdated => 1092930637
-	},
-
-	'745' => {
-		message => q|Powr&oacute;ć do strony.|,
-		lastUpdated => 1207315034
-	},
-
-	'736' => {
-		message => q|7 Ekspert|,
-		lastUpdated => 1207314955
-	},
-
-	'539' => {
-		message => q|Włączyć Karmę?|,
-		lastUpdated => 1204906567
-	},
-
-	'230 description' => {
-		message => q|Wiadomość, kt&oacute;ra będzie wysłana do wszystkich członk&oacute;w grupy. Wiadomość będzie wysłana w formacie HTML. Nie będą załączone żadne załączniki.|,
-		lastUpdated => 1204892448
-	},
-
-	'90' => {
-		message => q|Dodaj nową grupę.|,
-		lastUpdated => 1207321600
-	},
-
-	'pagination.isLastPage' => {
-		message => q|A boolean indicating whether the current page is the last page.|,
-		lastUpdated => 1149182026
-	},
-
-	'private message delete text' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'565' => {
-		message => q|Kto może moderować?|,
-		lastUpdated => 1207313616
-	},
-
-	'private message status replied' => {
-		message => q|Replied|,
-		lastUpdated => 1181019679
-	},
-
-	'977 description' => {
-		message => q|Ustaw na tak, aby uczynić tego użytkownika administratorem grupy. Administrator grupy posiada uprawnienia do przydzielania i usuwania użytkowników ze swojej grupy.
-		|,
-		lastUpdated => 1132359856
-	},
-
-	'1004' => {
-		message => q|Jak długo przechowywać grupy w pamięci podręcznej?|,
-		lastUpdated => 1204533492
-	},
-
-	'891' => {
-		message => q|Tylko negować makra.|,
-		lastUpdated => 1207321569
-	},
-
-	'1045' => {
-		message => q|Zagnieżdżone|,
-		lastUpdated => 1204541893
-	},
-
-	'532' => {
-		message => q|z <strong>przynajmniej jednym</strong> ze sł&oacute;w|,
-		lastUpdated => 1204906400
-	},
-
-	'broken spectre body' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'730' => {
-		message => q|1 Nowicjusz|,
-		lastUpdated => 1207314811
-	},
-
-	'1069' => {
-		message => q|Jak użyć|,
-		lastUpdated => 1204890269
-	},
-
-	'user email template description' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'57' => {
-		message => q|Potrzebne wyłącznie jeśli zamierzasz korzystać z właściwości wymagających adresu E-mail.|,
-		lastUpdated => 1207313723
-	},
-
-	'368' => {
-		message => q|Dodaj nową grupę dla użytkownika.|,
-		lastUpdated => 1204898117
-	},
-
-	'user profile field private message allow none label' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'872' => {
-		message => q|Kto może oglądać?|,
-		lastUpdated => 1207321165
-	},
-
-	'image manager' => {
-		message => q|Image Manager|,
-		lastUpdated => 1141434353
-	},
-
-	'high user count' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'316' => {
-		message => q|Nazwisko|,
-		lastUpdated => 1204893314
-	},
-
-	'target description' => {
-		message => q|Wybierz czy link po kliknięciu ma otwierać to samo okno czy inne|,
-		lastUpdated => 1121298550
-	},
-
-	'163' => {
-		message => q|Dodaj użytkownika|,
-		lastUpdated => 1204891993
-	},
-
-	'trash' => {
-		message => q|Śmietnik|,
-		lastUpdated => 1092930637
-	},
-
-	'manage cache' => {
-		message => q|Cache|,
-		lastUpdated => 1031514049
-	},
-
-	'read only' => {
-		message => q|Read Only|,
-		lastUpdated => 0
-	},
-
-	'combobox' => {
-		message => q|Combo Box|,
-		lastUpdated => 0
-	},
-
-	'994' => {
-		message => q|Baza użytkowników|,
-		lastUpdated => 1056151382
-	},
-
-	'395' => {
-		message => q|Dodaj nowy obrazek.|,
-		lastUpdated => 1204900665
-	},
-
-	'additional parameters help' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'89' => {
-		message => q|Grupy|,
-		lastUpdated => 1207321547
-	},
-
-	'175' => {
-		message => q|Przetwarzać makra?|,
-		lastUpdated => 1204892390
-	},
-
-	'allowed keywords description' => {
-		message => q|You can enter the statements that are allowed for this databaselink. A safe (read-only) choice is SELECT, DESCRIBE and SHOW. The different keywords should be separated from each other by whitespace.|,
-		lastUpdated => 1165511447
-	},
-
-	'988' => {
-		message => q|Czy jesteś pewny, że chcesz usunąć ten link do bazy danych?|,
-		lastUpdated => 1116151382
-	},
-
-	'private message title' => {
-		message => q|Wyślij prywatną wiadomość|,
-		lastUpdated => 1181019679
-	},
-
-	'35' => {
-		message => q|Funkcje administracyjne|,
-		lastUpdated => 1204895350
-	},
-
-	'141 description' => {
-		message => q|<p>Jeśli użytkownik zarządał nieistniejącej strony może być przekierowany do storny domowej lub strony błędu, gdzie następnie może pr&oacute;bować namierzyć poszukiwanej treści. Ty decydujesz jak będzie lepiej dla twoich użytkownik&oacute;w.</p>|,
-		lastUpdated => 1204891748
-	},
-
-	'settings groupIdAdminDatabaseLink label' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'347' => {
-		message => q|Pokaż profil dla|,
-		lastUpdated => 1204895325
-	},
-
-	'pagination.url' => {
-		message => q|The URL of a page in the page loop.|,
-		lastUpdated => 1168370951
-	},
-
-	'434' => {
-		message => q|Status|,
-		lastUpdated => 1204901852
-	},
-
-	'93' => {
-		message => q|Pomoc|,
-		lastUpdated => 1207321630
-	},
-
-	'expire groupings' => {
-		message => q|Utrata ważności grup użytkownika|,
-		lastUpdated => 0
-	},
-
-	'865' => {
-		message => q|Informować użytkownika o wygaśnięciu konta?|,
-		lastUpdated => 1207321046
-	},
-
-	'int slider' => {
-		message => q|Int slider|,
-		lastUpdated => 0
-	},
-
-	'pagination.pageList' => {
-		message => q|A list of links to every page in the paginator.|,
-		lastUpdated => 1149182026
-	},
-
-	'538 description' => {
-		message => q|<p> Jeśli włączyłeś Karmę w serwisie, możesz ustalić wartość progu dla grupy. Pr&oacute;g Karmy jest ilością karmy jaką użytkownik musi posiadać aby być uznanym za członka tej grupy. </p>|,
-		lastUpdated => 1204906451
-	},
-
-	'442' => {
-		message => q|Informacje o pracy|,
-		lastUpdated => 1204901985
-	},
-
-	'429' => {
-		message => q|Czas logowania|,
-		lastUpdated => 1204901773
-	},
-
-	'image' => {
-		message => q|Obrazek|,
-		lastUpdated => 0
-	},
-
-	'886' => {
-		message => q|Ukryj z nawigacji?|,
-		lastUpdated => 1207321496
-	},
-
-	'73' => {
-		message => q|Loguj.|,
-		lastUpdated => 1207314804
-	},
-
-	'settings groupIdAdminGroup hoverHelp' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'67' => {
-		message => q|Utw&oacute;rz nowe konto.|,
-		lastUpdated => 1207314372
-	},
-
-	'812' => {
-		message => q|Wiadomość została wysłana.|,
-		lastUpdated => 1207316555
-	},
-
-	'794' => {
-		message => q|Pakiety|,
-		lastUpdated => 1207315547
-	},
-
-	'327' => {
-		message => q|Kraj|,
-		lastUpdated => 1204893886
-	},
-
-	'320' => {
-		message => q|<a href="%22http://messenger.yahoo.com/%22">Yahoo! Messenger</a> Id|,
-		lastUpdated => 1204893346
-	},
-
-	'944' => {
-		message => q|Kod pocztowy|,
-		lastUpdated => 1207321662
-	},
-
-	'user' => {
-		message => q|Użytkownik|,
-		lastUpdated => 1092930637
-	},
-
-	'settings groupIdAdminWorkflow label' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'settings groupIdAdminGroupAdmin label' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'username no html' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'732' => {
-		message => q|3 Rekrut|,
-		lastUpdated => 1207314885
-	},
-
-	'51 description' => {
-		message => q|Hasło dla konta administratora. Nie zapomnij zmienić aby nie pozostawić hasła domyślnego!|,
-		lastUpdated => 1204905806
-	},
-
-	'811' => {
-		message => q|Od|,
-		lastUpdated => 1207316538
-	},
-
-	'994 description' => {
-		message => q|Nazwa użytkownika dla połączenia DSN.|,
-		lastUpdated => 1122070396
-	},
-
-	'allow access from macros' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'361' => {
-		message => q|Trzy nad jedną|,
-		lastUpdated => 1204897899
-	},
-
-	'465' => {
-		message => q|Rozmiar boxu tekstowego|,
-		lastUpdated => 1204903901
-	},
-
-	'contains' => {
-		message => q|Zawartość|,
-		lastUpdated => 1089039511
-	},
-
-	'819' => {
-		message => q|Deaktywowany przez użytkownika|,
-		lastUpdated => 1207316642
-	},
-
-	'purge workflow help' => {
-		message => q|Which workflow to run when an asset is purged.|,
-		lastUpdated => 1162242500
-	},
-
-	'970' => {
-		message => q|set time|,
-		lastUpdated => 1053278089
-	},
-
-	'link enter alert' => {
-		message => q|You must enter a link URL.|,
-		lastUpdated => 1118936724
-	},
-
-	'debug ip' => {
-		message => q|Adres IP dla diagnostyki|,
-		lastUpdated => 0
-	},
-
-	'858' => {
-		message => q|Alias|,
-		lastUpdated => 1207317989
-	},
-
-	'104' => {
-		message => q|URL|,
-		lastUpdated => 1204890234
-	},
-
-	'412' => {
-		message => q|Podsumowanie|,
-		lastUpdated => 1204901306
-	},
-
-	'954' => {
-		message => q|Administracja schowkiem systemowym.|,
-		lastUpdated => 1207321896
-	},
-
-	'submit' => {
-		message => q|Submit|,
-		lastUpdated => 1140589512
-	},
-
-	'314' => {
-		message => q|Imię|,
-		lastUpdated => 1204893299
-	},
-
-	'pagination.previousPageText' => {
-		message => q|The text component of pagination.previousPage broken out.|,
-		lastUpdated => 1149182026
-	},
-
-	'985' => {
-		message => q|Usuń ten link bazy danych.|,
-		lastUpdated => 1056151382
-	},
-
-	'945 description' => {
-		message => q|<p> Użytkownik może być dynamicznie powiązany z grupą przez zmienną scrach podczas sesji. Zmienne scrach mogą być ustawione programowo lub poprzez web. Aby ustawić zmienną przez web popatrz na koniec poniższego adresu URL: </p> <p><em>?op=setScratch&amp;scratchName=somename&amp;scratchValue=somevalue</em> </p> <p> Kiedy użytkownik kliknie na powyższy link zostanie utworzona zmienna scratch w systemie z nazwą &quot;www_somename&quot; i wartością &quot;somevalue&quot;. Człon &quot;www_&quot; jest prefiksem zapobiegającym nadpisaniu innych zmiennych ustawionych programowo. </p> <p> Aby zdefiniować filtr zmiennych scratch dodaj linię do filtru i wprowadź pola w postaci:  </p> <p><em>www_jakaś_nazwa=jakaś_wartość</em> </p> <p>Filtry dla wielu zmiennych tworzymy łącząc poszczeg&oacute;lne pary średnikami: </p> <p><em>www_jakaś_zmienna=jakaś_wartość;www_inna_zmienna=inna_wartość</em> </p>  |,
-		lastUpdated => 1207321758
-	},
-
-	'971' => {
-		message => q|Czas|,
-		lastUpdated => 1053278208
-	},
-
-	'754' => {
-		message => q|Zarządzanie użytkownikami w tej grupie.|,
-		lastUpdated => 1207315139
-	},
-
-	'page statistics' => {
-		message => q|Page Statistics|,
-		lastUpdated => 1092930637
-	},
-
-	'settings groupIdAdminLoginHistory label' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'355' => {
-		message => q|Domyślnie|,
-		lastUpdated => 1204896134
-	},
-
-	'847' => {
-		message => q|Wr&oacute;ć z powrotem do aktualnej strony.|,
-		lastUpdated => 1207317070
-	},
-
-	'159' => {
-		message => q|Skrzynka odbiorcza|,
-		lastUpdated => 1204891961
-	},
-
-	'553' => {
-		message => q|Status|,
-		lastUpdated => 1207313110
-	},
-
-	'704' => {
-		message => q|Sekunda(-nd)|,
-		lastUpdated => 1207314584
-	},
-
-	'private message blocked error' => {
-		message => q|Ten użytkownik nie życzy sobie prywatnych wiadomości.|,
-		lastUpdated => 1181019679
-	},
-
-	'326' => {
-		message => q|Kod pocztowy|,
-		lastUpdated => 1204893878
-	},
-
-	'body.content' => {
-		message => q|Konten aktualnej strony.|,
-		lastUpdated => 1149182155
-	},
-
-	'pagination.pageLoop.upTo20' => {
-		message => q|Same as pagination.pageList.upTo20 except broken into individual elements.|,
-		lastUpdated => 1149182026
-	},
-
-	'555' => {
-		message => q|Edytuj karmę użytkownika.|,
-		lastUpdated => 1207313158
-	},
-
-	'1017' => {
-		message => q|Ostatnia odpowiedź|,
-		lastUpdated => 1204890121
-	},
-
-	'37' => {
-		message => q|Brak zezwolenia!|,
-		lastUpdated => 1204898149
-	},
-
-	'335' => {
-		message => q|Płeć|,
-		lastUpdated => 1204893944
-	},
-
-	'private message from label' => {
-		message => q|Od|,
-		lastUpdated => 1181019679
-	},
-
-	'1029' => {
-		message => q|Edytowano w|,
-		lastUpdated => 1204890187
-	},
-
-	'538' => {
-		message => q|Pr&oacute;g karmy|,
-		lastUpdated => 1204906427
-	},
-
-	'pagination.firstPageUrl' => {
-		message => q|The url component of pagination.firstPage broken out.|,
-		lastUpdated => 1149182026
-	},
-
-	'high group count' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'554' => {
-		message => q|Wykonaj akcję|,
-		lastUpdated => 1207313150
-	},
-
-	'content' => {
-		message => q|Kontent/Zawartość|,
-		lastUpdated => 1092930637
-	},
-
-	'starts with' => {
-		message => q|Starts With|,
-		lastUpdated => 1089039511
-	},
-
-	'552' => {
-		message => q|Przetwarzany|,
-		lastUpdated => 1207313103
-	},
-
-	'allow access from macros help' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'hex slider' => {
-		message => q|Hex slider|,
-		lastUpdated => 0
-	},
-
-	'880' => {
-		message => q|Last Resort Editor|,
-		lastUpdated => 1207321222
-	},
-
-	'433' => {
-		message => q|User Agent|,
-		lastUpdated => 1204901844
-	},
-
-	'settings groupIdAdminWorkflow hoverHelp' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'settings groupIdAdminLoginHistory hoverHelp' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'pagination.previousPageUrl' => {
-		message => q|The url component of pagination.previousPage broken out.|,
-		lastUpdated => 1149182026
-	},
-
-	'74' => {
-		message => q|Informacje o koncie|,
-		lastUpdated => 1207314987
-	},
-
-	'240' => {
-		message => q|Message ID:|,
-		lastUpdated => 1204892464
-	},
-
-	'334' => {
-		message => q|Telefon w pracy|,
-		lastUpdated => 1204893938
-	},
-
-	'986' => {
-		message => q|Powrót do listy linków.|,
-		lastUpdated => 1056151382
-	},
-
-	'890' => {
-		message => q|<p> WebGUI posiada wbudowany mechanizm umożliwiający tworzenie tabel. Możesz zobaczyć to w skomplikowanych formularzach jak edycja parametr&oacute;w stron. Aby umożliwić ci dopasowanie wygląda tabel do twoich oczekiwań musisz dodać specjalną sekcję w definicji stylu. </p>  <p> Następujące klasy definicji stylu są dostępne: </p>  <p><strong>.tab</strong><br /> Domyślny widok każdej zakładki. </p>  <p><strong>div.tabs</strong><br /> Ta r&oacute;wnież ustawia kilka własności dla wszystkich zakładek. Powinna być użyta dla etykiety tekstu  w zakładkach. </p>  <p><strong>.tabBody</strong><br /> Zawartość poszczeg&oacute;lnych zakładek. Definiuje miejsce, w kt&oacute;rym formularz jest pokazany. Pamiętaj, że dla uzyskania najlepszych rezultat&oacute;w kolor tła powinien być identyczny jak kolor tła .tabActive. </p>  <p><strong>.tabHover</strong><br /> Wygląd w momencie, kiedy wskaźnik myszki unosi się nad zakładką. </p>  <p><strong>.tabActive</strong><br /> Wygląd zakładki, ktra aktualnie jest wyświetlona. </p>  <p><em>Przykłady</em><br /> Jeśli chcesz możesz użyć poniższych zamiast tworzyć własne. Lub użyj ich jako wzorzec startowy dla własnych. </p>  <table border="0" width="100%"><tbody><tr><td valign="&quot;top&quot;"> <strong>White or Light Colored Styles</strong> <pre>.tab {<br />  border: 1px solid black;<br />   background-color: #eeeeee;<br />}<br />.tabBody {<br />   border: 1px solid black;<br />   border-top: 1px solid black;<br />   border-left: 1px solid black;<br />   background-color: #dddddd; <br />}<br />div.tabs {<br />    line-height: 15px;<br />    font-size: 14px;<br />}<br />.tabHover {<br />   background-color: #cccccc;<br />}<br />.tabActive { <br />   background-color: #dddddd; <br />}<br /></pre> </td><td valign="&quot;top&quot;"> <strong>Black or Dark Colored Styles</strong> <pre>.tab {<br />  border: 1px solid white;<br />   background-color: #333333;<br />}<br />.tabBody {<br />   border: 1px solid white;<br />   border-top: 1px solid white;<br />   border-left: 1px solid white;<br />   background-color: #444444; <br />}<br />div.tabs {<br />    line-height: 15px;<br />    font-size: 14px;<br />}<br />.tabHover {<br />   background-color: #555555;<br />}<br />.tabActive { <br />   background-color: #444444; <br />}<br /></pre> </td></tr></tbody></table>  |,
-		lastUpdated => 1207321559
-	},
-
-	'440' => {
-		message => q|Informacje kontaktowe|,
-		lastUpdated => 1204901942
-	},
-
-	'230' => {
-		message => q|Wiadomość|,
-		lastUpdated => 1204892430
-	},
-
-	'1008' => {
-		message => q|Mieszanina Tekstu i HTML|,
-		lastUpdated => 1204889950
-	},
-
-	'1027' => {
-		message => q|Użyć filtr&oacute;w kontentu?|,
-		lastUpdated => 1204890180
-	},
-
-	'user function style' => {
-		message => q|User Function Style|,
-		lastUpdated => 1118453709
-	},
-
-	'871' => {
-		message => q|Kto może edytować?|,
-		lastUpdated => 1207321159
-	},
-
-	'misc' => {
-		message => q|Miscellaneous|,
-		lastUpdated => 1092930637
-	},
-
-	'1044' => {
-		message => q|Szablon wyszkiwania|,
-		lastUpdated => 1204541828
-	},
-
-	'admin console template description' => {
-		message => q|The style to be used by the Admin Console.|,
-		lastUpdated => 1120239343
-	},
-
-	'1072' => {
-		message => q|Adres e-mail jest już w użyciu. Proszę wprowadzić inny.|,
-		lastUpdated => 1204890499
-	},
-
-	'pages' => {
-		message => q|Pages|,
-		lastUpdated => 1141963573
-	},
-
-	'editSettings done' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'118 description' => {
-		message => q|Czy zezwalasz na anonimową rejestrację użytkownik&oacute;w?|,
-		lastUpdated => 1204890792
-	},
-
-	'settings groupIdAdminAdSpace hoverHelp' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'126 description' => {
-		message => q|Gł&oacute;wnu adres e-mail twojego przedsiębiorstwa. Adres będzie wykorzystany we wszystkich listach elektronicznych wychodzących z systemu. Będzie r&oacute;wnież użyty w miejscach, gdzie zastosowano makro Company Email Address.|,
-		lastUpdated => 1204891026
-	},
-
-	'991 description' => {
-		message => q|Unikalny identyfikator linku bazy danych wykorzystywany wewnętrznie przez WebGUI.|,
-		lastUpdated => 1133810998
-	},
-
-	'827' => {
-		message => q|Szablon W-obiektu|,
-		lastUpdated => 1207316988
-	},
-
-	'settings groupIdAdminProductManager label' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'91' => {
-		message => q|Poprzednia strona|,
-		lastUpdated => 1207321611
-	},
-
-	'701' => {
-		message => q|Tydzień(-ni)|,
-		lastUpdated => 1207314566
-	},
-
-	'820' => {
-		message => q|Twoje konto nie jest aktywne. Nie możesz się więc zalogować do czasu aż zostanie aktywowane. A to może wykonać wyłącznie Administrator.|,
-		lastUpdated => 1207316664
-	},
-
-	'174' => {
-		message => q|Wyświetlać tytuł?|,
-		lastUpdated => 1204892383
-	},
-
-	'481' => {
-		message => q|Numer telefonu|,
-		lastUpdated => 1204904006
-	},
-
-	'867' => {
-		message => q|Utrata przywileju|,
-		lastUpdated => 1207321085
-	},
-
-	'422' => {
-		message => q|<h1>Logowanie nieudane</h1><p>Wprowadzone informacje nie pasują do konta.</p>|,
-		lastUpdated => 1204901718
-	},
-
-	'817' => {
-		message => q|Aktywny|,
-		lastUpdated => 1207316605
-	},
-
-	'563' => {
-		message => q|Status Domyślny |,
-		lastUpdated => 1207313590
-	},
-
-	'settings groupIdAdminUserAdd hoverHelp' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'trash workflow' => {
-		message => q|Trash Workflow|,
-		lastUpdated => 1162242500
-	},
-
-	'731' => {
-		message => q|2 Wprawny|,
-		lastUpdated => 1207314862
-	},
-
-	'41' => {
-		message => q|Pr&oacute;bujesz usunąć ważny komponent systemu WebGUI. Usunięcie komponentu może przerwać funkcjonowanie systemu.|,
-		lastUpdated => 1204901278
-	},
-
-	'link settings' => {
-		message => q|Link Settings|,
-		lastUpdated => 1141963463
-	},
-
-	'52' => {
-		message => q|logowanie|,
-		lastUpdated => 1204905843
-	},
-
-	'750' => {
-		message => q|Usuń tego użytkownika.|,
-		lastUpdated => 1207315112
-	},
-
-	'229' => {
-		message => q|Tytuł|,
-		lastUpdated => 1204892409
-	},
-
-	'104 description' => {
-		message => q|Wprowadź adres URL dla twojego linku|,
-		lastUpdated => 1204890242
-	},
-
-	'866' => {
-		message => q|Tekst powiadomienia o wygaśnięciu ważności|,
-		lastUpdated => 1207321067
-	},
-
-	'768' => {
-		message => q|Nazwa|,
-		lastUpdated => 1207315162
-	},
-
-	'settings groupIdAdminGroupAdmin hoverHelp' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'68' => {
-		message => q|Wprowadzone dane są nieprawidłowe. Nie istnieje takie konto lub wprowadzone hasło jest niewłaściwe.|,
-		lastUpdated => 1207314383
-	},
-
-	'315' => {
-		message => q|Drugie imię|,
-		lastUpdated => 1204893306
-	},
-
-	'400 description' => {
-		message => q|<p>Wiele sieci posiada serwery proxy powodujące problemy w działaniu WebGUI. Jeśli doświadczyłeś niewłaściwego działania WebGUI i posiadasz serwer proxy możesz potrzebować ustawić tą opcję na Tak. Bądź jednak świadomy, że adresy URL nie będą w&oacute;wczas przyjazne użytkownikom.</p>|,
-		lastUpdated => 1204900963
-	},
-
-	'893' => {
-		message => q|Własności Wobject|,
-		lastUpdated => 1207321577
-	},
-
-	'338' => {
-		message => q|Edycja profilu|,
-		lastUpdated => 1204893967
-	},
-
-	'576' => {
-		message => q|Usuń|,
-		lastUpdated => 1207313750
-	},
-
-	'738' => {
-		message => q|9 Guru|,
-		lastUpdated => 1207314974
-	},
-
-	'870' => {
-		message => q|Witamy|,
-		lastUpdated => 1207321148
-	},
-
-	'995 description' => {
-		message => q|Hasło dla połączenia DSN.|,
-		lastUpdated => 1122070396
-	},
-
-	'484' => {
-		message => q|Wybierz listę|,
-		lastUpdated => 1204904397
-	},
-
-	'1078' => {
-		message => q|Istnieje już w systemie użytkownik z wprowadzonym adresem e-mail. 		Proszę poprawić dane w formularzu i ponownie wywołać utworzenie konta dla użytkownika|,
-		lastUpdated => 1204890606
-	},
-
-	'pagination.text' => {
-		message => q|The number of a page in the page loop.|,
-		lastUpdated => 1168464885
-	},
-
-	'settings groupIdAdminCommerce label' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'ui' => {
-		message => q|UI|,
-		lastUpdated => 1092930637
-	},
-
-	'run on admin create user help' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'content filters' => {
-		message => q|Content Filters|,
-		lastUpdated => 1092930637
-	},
-
-	'insert a link' => {
-		message => q|Insert A Link|,
-		lastUpdated => 1141963447
-	},
-
-	'328' => {
-		message => q|Telefon domowy|,
-		lastUpdated => 1204893894
-	},
-
-	'avatar' => {
-		message => q|Avatar|,
-		lastUpdated => 1131246512
-	},
-
-	'1085' => {
-		message => q|Zmienne Szablonu Podziału na podstrony|,
-		lastUpdated => 1204890701
-	},
-
-	'Enable user invitations' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'pagination.nextPageUrl' => {
-		message => q|The url component of pagination.nextPage broken out.|,
-		lastUpdated => 1149182026
-	},
-
-	'changeUrl workflow' => {
-		message => q|Change URL Workflow|,
-		lastUpdated => 1162348521
-	},
-
-	'363' => {
-		message => q|Szablon Pozycji Strony|,
-		lastUpdated => 1204897940
-	},
-
-	'583 description' => {
-		message => q|<p>Obrazki większe od maksymalnego rozmiaru (max image size) będą pomniejszone do dopuszczalnej wielkości. Maksymalna wielkość podawana jest w pikselach i dotyczy najdłuższego rozmiaru obrazka. </p>|,
-		lastUpdated => 1207314084
-	},
-
-	'127 description' => {
-		message => q|Gł&oacute;wny adres URL strony przedsiębiorstwa. Adres URL pojawi się na wszystkich automatycznie generownych przez system listach elektronicznych. Dostępny jest r&oacute;wnież poprzez makro Company URL.|,
-		lastUpdated => 1204891150
-	},
-
-	'1051' => {
-		message => q|Zamień na|,
-		lastUpdated => 1204542034
-	},
-
-	'733' => {
-		message => q|4 Wykwalifikowany|,
-		lastUpdated => 1207314917
-	},
-
-	'562' => {
-		message => q|Przetwarzany|,
-		lastUpdated => 1207313566
-	},
-
-	'pagination.pageList.upTo20' => {
-		message => q|A list of links to the 20 nearest in the paginator relative to the current page. So if you're on page 60, you'll see links for 50-70.|,
-		lastUpdated => 1149182026
-	},
-
-	'36' => {
-		message => q|Musisz posiadać uprawnienia administratora dla przeprowadzenia tej funkcji. Skontaktj się z administratorem. |,
-		lastUpdated => 1204896496
-	},
-
-	'settings' => {
-		message => q|Settings|,
-		lastUpdated => 1092930637
-	},
-
-	'748' => {
-		message => q|Licznik Użytkownika|,
-		lastUpdated => 1207315085
-	},
-
-	'362' => {
-		message => q|Dwie kolumny|,
-		lastUpdated => 1204897918
-	},
-
-	'439' => {
-		message => q|Informacje osobiste|,
-		lastUpdated => 1204901925
-	},
-
-	'317' => {
-		message => q|<a href="%22http://www.icq.com%22">ICQ</a> UIN|,
-		lastUpdated => 1204893323
-	},
-
-	'169' => {
-		message => q|Dodaj nowego użytkownika.|,
-		lastUpdated => 1204892361
-	},
-
-	'411' => {
-		message => q|Tytuł dla menu|,
-		lastUpdated => 1204901292
-	},
-
-	'select slider' => {
-		message => q|Select slider|,
-		lastUpdated => 0
-	},
-
-	'705' => {
-		message => q|Minuta(-ut)|,
-		lastUpdated => 1207314598
-	},
-
-	'478' => {
-		message => q|URL|,
-		lastUpdated => 1204903990
-	},
-
-	'942' => {
-		message => q|Radio List|,
-		lastUpdated => 1207321646
-	},
-
-	'955' => {
-		message => q|Schowek systemowy|,
-		lastUpdated => 1207321903
-	},
-
-	'974 description' => {
-		message => q|<p>Czy chcesz, aby użytkownicy mogli dodawać się sami do tej grupy? Zobacz makro GroupAdd aby dowiedzieć się więcej.
-</p>|,
-		lastUpdated => 1120448672
-	},
-
-	'85 description' => {
-		message => q|<p>Dokładny opis grupy, tak aby inni administratorzy i zarządcy kontentu (lub ty sam jeśli zapomnisz) wiedzieli w jakim celu powołano grupę</p>|,
-		lastUpdated => 1207317899
-	},
-
-	'407' => {
-		message => q|Kliknij aby zarejestrować się.|,
-		lastUpdated => 1204901268
-	},
-
-	'537' => {
-		message => q|Karma|,
-		lastUpdated => 1204906417
-	},
-
-	'target' => {
-		message => q|Target|,
-		lastUpdated => 1118936724
-	},
-
-	'settings groupIdAdminActiveSessions label' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'settings groupIdAdminCache label' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'125' => {
-		message => q|Nazwa przedsiębiorstwa|,
-		lastUpdated => 1204890815
-	},
-
-	'44' => {
-		message => q|Tak, jestem pewny.|,
-		lastUpdated => 1204901933
-	},
-
-	'send private message template' => {
-		message => q|Szablon wysłania prywatnej wiadomości|,
-		lastUpdated => 1181019679
-	},
-
-	'run on admin create user' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'1007' => {
-		message => q|Typ Kontentu|,
-		lastUpdated => 1204889938
-	},
-
-	'95' => {
-		message => q|Indeks Helpu|,
-		lastUpdated => 1207321815
-	},
-
-	'user function style description' => {
-		message => q|Defines which style to be used to style WebGUI operations (profile editing, message log, etc.) when they are available to a user.|,
-		lastUpdated => 1120239343
-	},
-
-	'313' => {
-		message => q|Dopuścić r&oacute;żnorodne informacje?|,
-		lastUpdated => 1204893291
-	},
-
-	'webgui' => {
-		message => q|WebGUI|,
-		lastUpdated => 1141963573
-	},
-
-	'551' => {
-		message => q|Notatka|,
-		lastUpdated => 1204906863
-	},
-
-	'529' => {
-		message => q|wynik&oacute;w na stronę|,
-		lastUpdated => 1204906296
-	},
-
-	'229 description' => {
-		message => q|Tytuł e-mail.|,
-		lastUpdated => 1204892422
-	},
-
-	'pagination.firstPageText' => {
-		message => q|The text component of pagination.firstPage broken out.|,
-		lastUpdated => 1149182026
-	},
-
-	'753' => {
-		message => q|Edytuj tą grupę.|,
-		lastUpdated => 1207315131
-	},
-
-	'343' => {
-		message => q|Pokaż Profil.|,
-		lastUpdated => 1204894019
-	},
-
-	'504' => {
-		message => q|Szablon.|,
-		lastUpdated => 1204905735
-	},
-
-	'url extension description' => {
-		message => q|<p>Add an extension such as "html", "php", or "asp" to each new page URL as it is created.
+Ta grupa mo\x{17c}e by\x{107} nast\x{119}pnie nazwana &quot;Pracownicy w HMO 1&quot; i mo\x{17c}e pozwoli\x{107} regulowa\x{107} dost\x{119}pem do dowolnych stron lub wobiekt\x{f3}w wy\x{142}\x{105}cznie dla tych u\x{17c}ytkownik\x{f3}w, kt\x{f3}rzy s\x{105} cz\x{119}\x{15b}ci\x{105} zespo\x{142}u i posiadaj\x{105} odpowiednie zapisy w zewn\x{119}trznej bazie danych.
+</p>"
+  },
+  'groups to delete' => {
+    'lastUpdated' => 1118861810,
+    'message' => 'GROUPS TO DELETE'
+  },
+  '1073' => {
+    'lastUpdated' => 1204890507,
+    'message' => 'Szablon stylu'
+  },
+  '436' => {
+    'lastUpdated' => 1204901890,
+    'message' => "Zabij sesj\x{119}"
+  },
+  '51' => {
+    'lastUpdated' => 1204905783,
+    'message' => "Has\x{142}o"
+  },
+  '816' => {
+    'lastUpdated' => 1207316594,
+    'message' => 'Status'
+  },
+  'Enable user invitations description' => {
+    'lastUpdated' => 1217419030,
+    'message' => "Pozw\x{f3}l u\x{17c}ytkownikom wysy\x{142}a\x{107} e-maile do znajomych w celu zaproszenia ich do rejestracji na stronie."
+  },
+  '456' => {
+    'lastUpdated' => 1204903792,
+    'message' => "Powr&oacute;t do listy u\x{17c}ytkownik&oacute;w."
+  },
+  'private message status unread' => {
+    'lastUpdated' => 1181019679,
+    'message' => 'Nieprzeczytana'
+  },
+  '1051 description' => {
+    'lastUpdated' => 1207313055,
+    'message' => "Na co ci\x{105}g znak&oacute;w powinien zosta\x{107} zamieniony."
+  },
+  '975' => {
+    'lastUpdated' => 1053778962,
+    'message' => "U\x{17c}ytkownicy mog\x{105} usun\x{105}\x{107} siebie?"
+  },
+  '465 description' => {
+    'lastUpdated' => 1204903958,
+    'message' => "Jak du\x{17c}o znak&oacute;w mo\x{17c}e by\x{107} wy\x{15b}wietlonych w jednej chwili w boksie tekstowym. "
+  },
+  'link in same window' => {
+    'lastUpdated' => 1118936724,
+    'message' => 'Open link in same window.'
+  },
+  '493' => {
+    'lastUpdated' => 1204905202,
+    'message' => 'Powr&oacute;t do serwisu.'
+  },
+  'trash workflow help' => {
+    'lastUpdated' => 1162242500,
+    'message' => 'Which workflow to run when an asset is placed in the trash.'
+  },
+  'permissions' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'photo' => {
+    'lastUpdated' => 1131246503,
+    'message' => 'Fotografia'
+  },
+  'file' => {
+    'lastUpdated' => 0,
+    'message' => 'Plik'
+  },
+  'pagination.nextPage' => {
+    'lastUpdated' => 1149182026,
+    'message' => 'A link to the next page in the paginator relative to the current page.'
+  },
+  '445' => {
+    'lastUpdated' => 1204902020,
+    'message' => 'Preferencje'
+  },
+  'account.options' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  '1026' => {
+    'lastUpdated' => 1204890168,
+    'message' => "Edytor bogaty dost\x{119}pny?"
+  },
+  '329' => {
+    'lastUpdated' => 1204893901,
+    'message' => 'Adres pracy'
+  },
+  'allow private messages label' => {
+    'lastUpdated' => 1181019679,
+    'message' => "Akceptowa\x{107} prywatne wiadomo\x{15b}ci"
+  },
+  'noldaplink' => {
+    'lastUpdated' => 0,
+    'message' => 'No LDAP Connection'
+  },
+  '161' => {
+    'lastUpdated' => 1204891987,
+    'message' => 'Wprowadzone przez'
+  },
+  '582' => {
+    'lastUpdated' => 1207313772,
+    'message' => "Pozostawia\x{107} puste"
+  },
+  'default version tag workflow help' => {
+    'lastUpdated' => 0,
+    'message' => "Kt\x{f3}rey workflow powinien by\x{107} u\x{17c}yty domy\x{15b}lnie gdy u\x{17c}ytkownik utworzy swoj\x{105} w\x{142}\x{105}sn\x{105} wersj\x{119} 'tags'."
+  },
+  'settings groupIdAdminWorkflowRun hoverHelp' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  '125 description' => {
+    'lastUpdated' => 1204890890,
+    'message' => "Nazwa twojego przedsi\x{119}biorstwa. B\x{119}dzie pojawia\x{107} si\x{119} na wszystkich listach elektronicznych ioraz wsz\x{119}dzie, gdzie zastosowano makro Company Name."
+  },
+  '746' => {
+    'lastUpdated' => 1207315056,
+    'message' => "Ustawienie ikon paska narz\x{119}dzi"
+  },
+  '400' => {
+    'lastUpdated' => 1204900723,
+    'message' => 'Zapobieganie Proxy Caching'
+  },
+  '744' => {
+    'lastUpdated' => 1207315028,
+    'message' => 'Co dalej?'
+  },
+  '1011' => {
+    'lastUpdated' => 1204889975,
+    'message' => 'Kod'
+  },
+  '556 description' => {
+    'lastUpdated' => 1207313172,
+    'message' => "Jak du\x{17c}o karmy powinno by\x{107} dodane lub odj\x{119}te od karmy u\x{17c}ytkownika?"
+  },
+  '84 description groupings' => {
+    'lastUpdated' => 1207317062,
+    'message' => 'Nazwa grupy.'
+  },
+  '557' => {
+    'lastUpdated' => 1207313178,
+    'message' => 'Opis'
+  },
+  'settings groupIdAdminUserAdd label' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  '369 description' => {
+    'lastUpdated' => 1204898142,
+    'message' => "Gdy cz\x{142}onkostwo u\x{17c}ytkownika w grupie wyga\x{15b}nie."
+  },
+  '700' => {
+    'lastUpdated' => 1207314538,
+    'message' => "Dzie\x{144}(-ni)"
+  },
+  '475' => {
+    'lastUpdated' => 1204903965,
+    'message' => 'Tekst'
+  },
+  '441' => {
+    'lastUpdated' => 1204901976,
+    'message' => "Po\x{15b}rednik poczty e-mail do pagera"
+  },
+  '868' => {
+    'lastUpdated' => 1207321098,
+    'message' => "Wys\x{142}a\x{107} wiadomo\x{15b}\x{107} powitania?"
+  },
+  'color' => {
+    'lastUpdated' => 0,
+    'message' => 'Color'
+  },
+  '990' => {
+    'lastUpdated' => 1056151382,
+    'message' => 'Edytuj link bazy danych'
+  },
+  '349' => {
+    'lastUpdated' => 1204895342,
+    'message' => "Dost\x{119}pne ostatnie wersje"
+  },
+  'private message no self error' => {
+    'lastUpdated' => 1181019679,
+    'message' => "Nie mo\x{17c}esz wys\x{142}a\x{107} prywatnej wiadomo\x{15b}ci do siebie samego."
+  },
+  '983' => {
+    'lastUpdated' => 1056151382,
+    'message' => 'Edytuj ten link bazy danych.'
+  },
+  'settings groupIdAdminVersionTag label' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  '138' => {
+    'lastUpdated' => 1204891533,
+    'message' => 'Tak'
+  },
+  '751' => {
+    'lastUpdated' => 1207315118,
+    'message' => "Sta\x{144} si\x{119} tym u\x{17c}ytkownikiem."
+  },
+  '60' => {
+    'lastUpdated' => 1207314109,
+    'message' => "Czy jeste\x{15b} pewny, \x{17c}e chcesz wy\x{142}\x{105}czy\x{107} swoje konto? Je\x{15b}li kontynujesz twoje informacje zostan\x{105} utracone."
+  },
+  'messaging' => {
+    'lastUpdated' => 1092930637,
+    'message' => 'Messaging'
+  },
+  '724' => {
+    'lastUpdated' => 1207314735,
+    'message' => "Nazwa u\x{17c}ytkownika nie mo\x{17c}e zaczyna\x{107} si\x{119}, ani ko\x{144}czy\x{107} spacjami lub tabulatorami."
+  },
+  '432' => {
+    'lastUpdated' => 1204901832,
+    'message' => "Wyga\x{15b}niecie"
+  },
+  '860' => {
+    'lastUpdated' => 1207318239,
+    'message' => "Uczyni\x{107} adres e-mail publicznym?"
+  },
+  '346' => {
+    'lastUpdated' => 1204894140,
+    'message' => "Ten u\x{17c}ytkownik ju\x{17c} nie jest cz\x{142}onkiem naszego serwisu. Nie posiadamy \x{17c}adnych informacji o nim."
+  },
+  '1075 description' => {
+    'lastUpdated' => 1204890558,
+    'message' => "<p>Wska\x{17c} link bazy danych je\x{15b}li chcia\x{142}by\x{15b} zastosowa\x{107} walidacj\x{119} u\x{17c}ytkownik&oacute;w dla tej grupy wykorzystuj\x{105}c\x{105} zew\x{119}trzn\x{105} baz\x{119} danych. </p>"
+  },
+  'broken spectre title' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  '333' => {
+    'lastUpdated' => 1204893930,
+    'message' => 'Kraj pracy'
+  },
+  'groups to add' => {
+    'lastUpdated' => 1118861810,
+    'message' => 'GROUPS TO ADD'
+  },
+  '323' => {
+    'lastUpdated' => 1204893517,
+    'message' => 'Adres domowy'
+  },
+  'codearea' => {
+    'lastUpdated' => 0,
+    'message' => 'Code Area'
+  },
+  '856' => {
+    'lastUpdated' => 1207317920,
+    'message' => "Nie posiadasz aktualnie \x{17c}adnych w\x{142}asno\x{15b}ci dla konta."
+  },
+  '69' => {
+    'lastUpdated' => 1207314390,
+    'message' => "Skontaktuj si\x{119} z administratorem w celu uzyskania pomocy."
+  },
+  'removeLabel' => {
+    'lastUpdated' => 1116450882,
+    'message' => "usu\x{144}"
+  },
+  'private message status read' => {
+    'lastUpdated' => 1181019679,
+    'message' => 'Przeczytana'
+  },
+  'settings groupIdAdminStatistics hoverHelp' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'settings groupIdAdminSubscription label' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  '756' => {
+    'lastUpdated' => 1207315145,
+    'message' => 'Powr&oacute;t do listy grup.'
+  },
+  'hexadecimal' => {
+    'lastUpdated' => 0,
+    'message' => 'Hexadecimal'
+  },
+  '446' => {
+    'lastUpdated' => 1204902035,
+    'message' => 'WWW pracy'
+  },
+  '559 description' => {
+    'lastUpdated' => 1207313390,
+    'message' => "<p>W przypadku ustawienia workfow, odpowiednie dzia\x{142}anie b\x{119}dzie uruchamiane ka\x{17c}dorazowo podczas anoimowej rejestracji.</p>"
+  },
+  'view inbox message template description' => {
+    'lastUpdated' => 1181019679,
+    'message' => "Wybierz szablon dla wy\x{15b}wietlenia wiadomo\x{15b}ci w inbox"
+  },
+  'run on admin update user help' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  '352' => {
+    'lastUpdated' => 1204895383,
+    'message' => 'Data'
+  },
+  '130 description' => {
+    'lastUpdated' => 1204891309,
+    'message' => "Maksymalny rozmiar (w kilobajtach) dozwolonego do za\x{142}\x{105}czenia pliku. Bior\x{105}c pod uwag\x{119} budow\x{119} protoko\x{142}u HTTP, rozmiar 100MB uznaje si\x{119} za maksymalnie praktyczny.<br /> "
+  },
+  '1006' => {
+    'lastUpdated' => 1204889815,
+    'message' => "Szyfrowa\x{107} sesj\x{119}?"
+  },
+  'company' => {
+    'lastUpdated' => 1092930637,
+    'message' => 'Company'
+  },
+  '126' => {
+    'lastUpdated' => 1204890899,
+    'message' => 'Adres e-mail firmowy'
+  },
+  '426' => {
+    'lastUpdated' => 1204901755,
+    'message' => 'Hisotira logowania'
+  },
+  '369' => {
+    'lastUpdated' => 1204898124,
+    'message' => "Data wyga\x{15b}ni\x{119}cia"
+  },
+  '483' => {
+    'lastUpdated' => 1204904037,
+    'message' => 'Tak lub Nie'
+  },
+  'pagination.nextPageText' => {
+    'lastUpdated' => 1149182026,
+    'message' => 'The text component of pagination.nextPage broken out.'
+  },
+  'account options template variables' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'button' => {
+    'lastUpdated' => 0,
+    'message' => 'Button'
+  },
+  '810' => {
+    'lastUpdated' => 1207316531,
+    'message' => "wy\x{15b}lij"
+  },
+  '372' => {
+    'lastUpdated' => 1204898184,
+    'message' => "Edytuj grupy u\x{17c}ytkownika"
+  },
+  '574' => {
+    'lastUpdated' => 1207313736,
+    'message' => "Odmawia\x{107}"
+  },
+  '170' => {
+    'lastUpdated' => 1204892367,
+    'message' => 'szukaj'
+  },
+  'default rich editor' => {
+    'lastUpdated' => 1118941685,
+    'message' => 'Default Rich Editor'
+  },
+  '428' => {
+    'lastUpdated' => 1204901764,
+    'message' => "U\x{17c}ytkownik (ID)"
+  },
+  'default rich editor description' => {
+    'lastUpdated' => 1120239343,
+    'message' => '<p>This is the rich editor configuration that will be used by default when a rich editor is needed. This can be overridden in certain applications such as the Collaboration System.</p>'
+  },
+  '977' => {
+    'lastUpdated' => 1053803387,
+    'message' => 'Czy jest administratorem grupy?'
+  },
+  '99' => {
+    'lastUpdated' => 1031514049,
+    'message' => "Tytu\x{142}"
+  },
+  'settings groupIdAdminLDAPLink label' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  '526' => {
+    'lastUpdated' => 1204905862,
+    'message' => "Usu\x{144} JavaScript i anuluj makra."
+  },
+  '72' => {
+    'lastUpdated' => 1207314711,
+    'message' => "przywr&oacute;\x{107}"
+  },
+  '566' => {
+    'lastUpdated' => 1207313638,
+    'message' => "Edytuj Czas wyga\x{15b}ni\x{119}cia (timeout)"
+  },
+  '806' => {
+    'lastUpdated' => 1207315616,
+    'message' => "Usu\x{144} t\x{105} grup\x{119}."
+  },
+  '869' => {
+    'lastUpdated' => 1207321134,
+    'message' => "Wiadomo\x{15b}\x{107} powitalna"
+  },
+  'help contents' => {
+    'lastUpdated' => 1128553296,
+    'message' => 'Help Contents'
+  },
+  '533' => {
+    'lastUpdated' => 1204906408,
+    'message' => "<strong>bez</strong> s\x{142}&oacute;w"
+  },
+  '359' => {
+    'lastUpdated' => 1204896165,
+    'message' => 'Kolumna prawa'
+  },
+  '527 description' => {
+    'lastUpdated' => 1204906156,
+    'message' => "<p>Wiele naprawd\x{119} ma\x{142}ych serwis&oacute;w WWW nie posiada strony startowej. Zamiast niej ustawia si\x{119} jedn\x{105} ze stron wewn\x{119}trznych jak przyk\x{142}adowo &quot;O nas&quot; lub &quot;Informacje o firmie&quot;. W\x{142}a\x{15b}nie z tego powodu mo\x{17c}esz ustawi\x{107} dowoln\x{105} stron\x{119} jako startow\x{105} w serwisie. Ta strona b\x{119}dzie pokazana zawsze, gdy ludzie wpisz\x{105} adres URL zawieraj\x{105}cy wy\x{142}\x{105}cznie domen\x{119} - http://www. tw&oacute;j_serwis lub klikn\x{105} na link &quot;Home&quot; wygenerowany przez AssetProxy lub Zas&oacute;b Nawigacyjny.</p>"
+  },
+  '811 description' => {
+    'lastUpdated' => 1207316543,
+    'message' => 'Od kogo e-mail.'
+  },
+  '1006 description' => {
+    'lastUpdated' => 1204889921,
+    'message' => "Czy system powinien u\x{17c}ywa\x{107} protoko\x{142}u HTTPS dla formularza logowania? Zauwa\x{17c}, \x{17c}e ustawienie tej warto\x{15b}ci spowoduje zaszyfrowanie nie tylko formularza logowania, ale ca\x{142}ych stron."
+  },
+  '108' => {
+    'lastUpdated' => 1204890634,
+    'message' => "W\x{142}a\x{15b}ciciel"
+  },
+  'send private message' => {
+    'lastUpdated' => 1181019679,
+    'message' => 'Send Private Message'
+  },
+  '556' => {
+    'lastUpdated' => 1207313165,
+    'message' => "Ilo\x{15b}\x{107}"
+  },
+  'options.display' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  '462' => {
+    'lastUpdated' => 1204903893,
+    'message' => 'Format czasu'
+  },
+  '232' => {
+    'lastUpdated' => 1204892456,
+    'message' => "brak tytu\x{142}u"
+  },
+  '477' => {
+    'lastUpdated' => 1204903982,
+    'message' => 'Obszar HTML'
+  },
+  '815' => {
+    'lastUpdated' => 1207316586,
+    'message' => "Plik, kt&oacute;ry pr&oacute;bujesz za\x{142}adowa\x{107} jest zbyt du\x{17c}y."
+  },
+  'skip commit comments help' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  '142' => {
+    'lastUpdated' => 1204891915,
+    'message' => "Wyga\x{15b}ni\x{119}cie sesji"
+  },
+  '330' => {
+    'lastUpdated' => 1204893907,
+    'message' => 'Miasto pracy'
+  },
+  '991' => {
+    'lastUpdated' => 1056151382,
+    'message' => 'ID linku bazy danych'
+  },
+  '167' => {
+    'lastUpdated' => 1204892346,
+    'message' => "Czy jeste\x{15b} pewny, \x{17c}e zamierzasz usun\x{105}\x{107} tego u\x{17c}ytkownika? Wszystkie informacje u\x{17c}ytkownika b\x{119}d\x{105} stracone bezpowrotnie."
+  },
+  'settings groupIdAdminTransactionLog label' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'help index' => {
+    'lastUpdated' => 1128552837,
+    'message' => 'Index'
+  },
+  'group' => {
+    'lastUpdated' => 0,
+    'message' => 'Group'
+  },
+  '360' => {
+    'lastUpdated' => 1204897892,
+    'message' => 'Jedna Nad Trzema'
+  },
+  '514' => {
+    'lastUpdated' => 1204905835,
+    'message' => 'Widoki'
+  },
+  '725' => {
+    'lastUpdated' => 1207314765,
+    'message' => "Nazwa u\x{17c}ytkownika nie mo\x{17c}e by\x{107} pusta."
+  },
+  'country' => {
+    'lastUpdated' => 0,
+    'message' => 'Country'
+  },
+  '50 description' => {
+    'lastUpdated' => 1204905707,
+    'message' => "Nazwa u\x{17c}ytkownika."
+  },
+  '50' => {
+    'lastUpdated' => 1204905699,
+    'message' => "U\x{17c}ytkownik"
+  },
+  '476' => {
+    'lastUpdated' => 1204903973,
+    'message' => 'Obszar tekstowy'
+  },
+  '885 description' => {
+    'lastUpdated' => 1207321488,
+    'message' => "Czy pozwalasz u\x{17c}ytkownikom deaktywowa\x{107} w\x{142}asne konta bez jakiejkolwiek interwencji?"
+  },
+  'radio' => {
+    'lastUpdated' => 0,
+    'message' => 'Radio Button'
+  },
+  '1076' => {
+    'lastUpdated' => 1204890577,
+    'message' => 'Baza danych WebGUI'
+  },
+  '510' => {
+    'lastUpdated' => 1204905821,
+    'message' => "P\x{142}aski"
+  },
+  '1077' => {
+    'lastUpdated' => 1204890589,
+    'message' => "Funkcja jak\x{105} pr&oacute;bujesz wywo\x{142}a\x{107} jest niedost\x{119}pna w tym module autoryzacji"
+  },
+  '449' => {
+    'lastUpdated' => 1204902044,
+    'message' => "Informacje r&oacute;\x{17c}norodne"
+  },
+  '967' => {
+    'lastUpdated' => 1052850265,
+    'message' => "Wyczy\x{15b}\x{107} kosz systemowy."
+  },
+  '322' => {
+    'lastUpdated' => 1204893497,
+    'message' => 'Pager'
+  },
+  'settings groupIdAdminCommerce hoverHelp' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  '164 description' => {
+    'lastUpdated' => 1204892320,
+    'message' => "<p>Wybierz domy\x{15b}ln\x{105} metod\x{119} autoryzacji dla nowych kont. Dwie opcje dost\x{119}pne s\x{105} domy\x{15b}lnie: WebGUI i LDAP. Autoryzacja WebGUI oznacza, \x{17c}e u\x{17c}ytkownicy b\x{119}d\x{105} autoryzowa\x{107} si\x{119} wykorzystuj\x{105}c nazw\x{119} u\x{17c}ytkownika i has\x{142}o zapisane w bazie danych WebGUI. Autoryzacja LDAP oznacza, \x{17c}e u\x{17c}ytkownicy b\x{119}d\x{105} si\x{119} autoryzowa\x{107} przy wykorzystaniu zewn\x{119}trznego serwera LDAP. Inne metody mog\x{105} by\x{107} dostarczone przez napisanie w\x{142}asnych rozszerze\x{144}.&nbsp;</p><p>&nbsp;</p><p>Uwagi</p><p>Ustawienia autoryzacji mog\x{105} by\x{107} dostosowane dla ka\x{17c}dego u\x{17c}ytkownika.</p><p>Zale\x{17c}nie od tego ile i jakie modu\x{142}y zosta\x{142}y zainstalowane w systemie zobaczysz r&oacute;\x{17c}n\x{105} liczb\x{119} opcji. </p>"
+  },
+  '353' => {
+    'lastUpdated' => 1204895390,
+    'message' => "Nie posiadasz \x{17c}adnych wiadomo\x{15b}ci."
+  },
+  '575' => {
+    'lastUpdated' => 1207313744,
+    'message' => 'Edytuj'
+  },
+  '863 description' => {
+    'lastUpdated' => 1207320867,
+    'message' => "<p> R&oacute;\x{17c}nica w liczbie dni od dnia wyga\x{15b}ni\x{119}cia wa\x{17c}no\x{15b}ci grupowania w celu usuni\x{119}cia grupowania z systemu. Mo\x{17c}na ustawi\x{107} dowoln\x{105} warto\x{15b}\x{107} ca\x{142}kowit\x{105}. Przyk\x{142}adowo, ustaw warto\x{15b}\x{107} &quot;0&quot; je\x{15b}li chcesz aby WebGUI usun\x{119}\x{142}o grupowanie w dniu wyga\x{15b}ni\x{119}cia wa\x{17c}no\x{15b}ci. Ustaw &quot;-7&quot; je\x{15b}li chcesz aby WebGUI usun\x{119}\x{142}o grupowanie 7 dni <strong>przed</strong> wyga\x{15b}ni\x{119}ciem wa\x{17c}no\x{15b}ci. Ustaw &quot;7&quot; je\x{15b}li chcesz, aby WebGUI usun\x{119}\x{142}o grupowanie 7 dni <strong>po</strong> wyga\x{15b}ni\x{119}ciu wa\x{17c}no\x{15b}ci. </p>"
+  },
+  '984' => {
+    'lastUpdated' => 1056151382,
+    'message' => 'Kopiuj ten link bazy danych.'
+  },
+  '1039' => {
+    'lastUpdated' => 1204890227,
+    'message' => 'Powr&oacute;t'
+  },
+  '1005' => {
+    'lastUpdated' => 1204533630,
+    'message' => 'Zapytanie SQL'
+  },
+  '40' => {
+    'lastUpdated' => 1204900700,
+    'message' => "Komponent wewn\x{119}trzny"
+  },
+  '310' => {
+    'lastUpdated' => 1204892503,
+    'message' => "Uzwgl\x{119}dni\x{107} dodatkowe informacje kontaktu?"
+  },
+  'interval' => {
+    'lastUpdated' => 0,
+    'message' => "Interwa\x{142}"
+  },
+  'settings groupIdAdminLDAPLink hoverHelp' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  '699' => {
+    'lastUpdated' => 1207314396,
+    'message' => "Pierwszy dzie\x{144} tygodnia"
+  },
+  'cancel' => {
+    'lastUpdated' => 1092930637,
+    'message' => 'cofnij'
+  },
+  'user profile field friend availability' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  '818' => {
+    'lastUpdated' => 1207316623,
+    'message' => 'Deaktywowany'
+  },
+  'user email template' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  '130' => {
+    'lastUpdated' => 1204891157,
+    'message' => "Maksymalny rozmiar za\x{142}\x{105}cznika"
+  },
+  '543' => {
+    'lastUpdated' => 1204906850,
+    'message' => "Dodaj now\x{105} grup\x{119} obrazk&oacute;w."
+  },
+  'topicName' => {
+    'lastUpdated' => 1128919994,
+    'message' => 'WebGUI'
+  },
+  '941' => {
+    'lastUpdated' => 1207321639,
+    'message' => 'Checkbox List'
+  },
+  '354' => {
+    'lastUpdated' => 1204895407,
+    'message' => "Wy\x{15b}wietl Skrzynk\x{119} odbiorcz\x{105}."
+  },
+  'private message sent' => {
+    'lastUpdated' => 1181019679,
+    'message' => "Wiadomo\x{15b}\x{107} zosta\x{142}a wys\x{142}ana."
+  },
+  '461' => {
+    'lastUpdated' => 1204903885,
+    'message' => 'Format daty'
+  },
+  'debug ip description' => {
+    'lastUpdated' => 1164055466,
+    'message' => "Pozwala zaw\x{119}zi\x{107} debugowanie i/lub dane wydajno\x{15b}ci przetwarzania dla okre\x{15b}lonego adresu IP lub zakresu adres\x{f3}w IP. Wprowad\x{17a} podsie\x{107} dla kt\x{f3}rej chcia\x{142}by\x{15b} wy\x{15b}wietla\x{107} informacje diagnostyczne w formacie CIDR. Przyk\x{142}adowo: 10.0.0.0/24. Mo\x{17c}na pworwadzi\x{107} wiele adres\x{f3}w CIDR oddzielonych przecinkami."
+  },
+  '583' => {
+    'lastUpdated' => 1207313779,
+    'message' => 'Maksymalny rozmiar obrazka'
+  },
+  'settings groupIdAdminGraphics hoverHelp' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'show performance indicators' => {
+    'lastUpdated' => 0,
+    'message' => "Pokaza\x{107} wska\x{17a}niki wykonania?"
+  },
+  '951' => {
+    'lastUpdated' => 1207321863,
+    'message' => "Czy na pewno wyczy\x{15b}ci\x{107} schowek i przenie\x{15b}\x{107} jego zawarto\x{15b}\x{107} do \x{15b}mietnika?"
+  },
+  '85' => {
+    'lastUpdated' => 1207317840,
+    'message' => "Opis/Tre\x{15b}\x{107}"
+  },
+  '809' => {
+    'lastUpdated' => 1207316507,
+    'message' => 'E-mail Grupy'
+  },
+  '332' => {
+    'lastUpdated' => 1204893922,
+    'message' => 'Kod pocztowy pracy'
+  },
+  '9' => {
+    'lastUpdated' => 1207321588,
+    'message' => "Wy\x{15b}wietl schowek."
+  },
+  '425' => {
+    'lastUpdated' => 1204901748,
+    'message' => 'Aktywne sesje'
+  },
+  'packages' => {
+    'lastUpdated' => 1092930637,
+    'message' => 'Pakiety'
+  },
+  '745' => {
+    'lastUpdated' => 1207315034,
+    'message' => "Powr&oacute;\x{107} do strony."
+  },
+  '736' => {
+    'lastUpdated' => 1207314955,
+    'message' => '7 Ekspert'
+  },
+  '539' => {
+    'lastUpdated' => 1204906567,
+    'message' => "W\x{142}\x{105}czy\x{107} Karm\x{119}?"
+  },
+  '230 description' => {
+    'lastUpdated' => 1204892448,
+    'message' => "Wiadomo\x{15b}\x{107}, kt&oacute;ra b\x{119}dzie wys\x{142}ana do wszystkich cz\x{142}onk&oacute;w grupy. Wiadomo\x{15b}\x{107} b\x{119}dzie wys\x{142}ana w formacie HTML. Nie b\x{119}d\x{105} za\x{142}\x{105}czone \x{17c}adne za\x{142}\x{105}czniki."
+  },
+  '90' => {
+    'lastUpdated' => 1207321600,
+    'message' => "Dodaj now\x{105} grup\x{119}."
+  },
+  'pagination.isLastPage' => {
+    'lastUpdated' => 1149182026,
+    'message' => 'A boolean indicating whether the current page is the last page.'
+  },
+  'private message delete text' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  '565' => {
+    'lastUpdated' => 1207313616,
+    'message' => "Kto mo\x{17c}e moderowa\x{107}?"
+  },
+  'private message status replied' => {
+    'lastUpdated' => 1181019679,
+    'message' => 'Replied'
+  },
+  '977 description' => {
+    'lastUpdated' => 1132359856,
+    'message' => "Ustaw na tak, aby uczyni\x{107} tego u\x{17c}ytkownika administratorem grupy. Administrator grupy posiada uprawnienia do przydzielania i usuwania u\x{17c}ytkownik\x{f3}w ze swojej grupy.
+		"
+  },
+  '1004' => {
+    'lastUpdated' => 1204533492,
+    'message' => "Jak d\x{142}ugo przechowywa\x{107} grupy w pami\x{119}ci podr\x{119}cznej?"
+  },
+  '891' => {
+    'lastUpdated' => 1207321569,
+    'message' => "Tylko negowa\x{107} makra."
+  },
+  '1045' => {
+    'lastUpdated' => 1204541893,
+    'message' => "Zagnie\x{17c}d\x{17c}one"
+  },
+  '532' => {
+    'lastUpdated' => 1204906400,
+    'message' => "z <strong>przynajmniej jednym</strong> ze s\x{142}&oacute;w"
+  },
+  'broken spectre body' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  '730' => {
+    'lastUpdated' => 1207314811,
+    'message' => '1 Nowicjusz'
+  },
+  '1069' => {
+    'lastUpdated' => 1204890269,
+    'message' => "Jak u\x{17c}y\x{107}"
+  },
+  'user email template description' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  '57' => {
+    'lastUpdated' => 1207313723,
+    'message' => "Potrzebne wy\x{142}\x{105}cznie je\x{15b}li zamierzasz korzysta\x{107} z w\x{142}a\x{15b}ciwo\x{15b}ci wymagaj\x{105}cych adresu E-mail."
+  },
+  '368' => {
+    'lastUpdated' => 1204898117,
+    'message' => "Dodaj now\x{105} grup\x{119} dla u\x{17c}ytkownika."
+  },
+  'user profile field private message allow none label' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  '872' => {
+    'lastUpdated' => 1207321165,
+    'message' => "Kto mo\x{17c}e ogl\x{105}da\x{107}?"
+  },
+  'image manager' => {
+    'lastUpdated' => 1141434353,
+    'message' => 'Image Manager'
+  },
+  'high user count' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  '316' => {
+    'lastUpdated' => 1204893314,
+    'message' => 'Nazwisko'
+  },
+  'target description' => {
+    'lastUpdated' => 1121298550,
+    'message' => "Wybierz czy link po klikni\x{119}ciu ma otwiera\x{107} to samo okno czy inne"
+  },
+  '163' => {
+    'lastUpdated' => 1204891993,
+    'message' => "Dodaj u\x{17c}ytkownika"
+  },
+  'trash' => {
+    'lastUpdated' => 1092930637,
+    'message' => "\x{15a}mietnik"
+  },
+  'manage cache' => {
+    'lastUpdated' => 1031514049,
+    'message' => 'Cache'
+  },
+  'read only' => {
+    'lastUpdated' => 0,
+    'message' => 'Read Only'
+  },
+  'combobox' => {
+    'lastUpdated' => 0,
+    'message' => 'Combo Box'
+  },
+  '994' => {
+    'lastUpdated' => 1056151382,
+    'message' => "Baza u\x{17c}ytkownik\x{f3}w"
+  },
+  '395' => {
+    'lastUpdated' => 1204900665,
+    'message' => 'Dodaj nowy obrazek.'
+  },
+  'additional parameters help' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  '89' => {
+    'lastUpdated' => 1207321547,
+    'message' => 'Grupy'
+  },
+  '175' => {
+    'lastUpdated' => 1204892390,
+    'message' => "Przetwarza\x{107} makra?"
+  },
+  'allowed keywords description' => {
+    'lastUpdated' => 1165511447,
+    'message' => 'You can enter the statements that are allowed for this databaselink. A safe (read-only) choice is SELECT, DESCRIBE and SHOW. The different keywords should be separated from each other by whitespace.'
+  },
+  '988' => {
+    'lastUpdated' => 1116151382,
+    'message' => "Czy jeste\x{15b} pewny, \x{17c}e chcesz usun\x{105}\x{107} ten link do bazy danych?"
+  },
+  'private message title' => {
+    'lastUpdated' => 1181019679,
+    'message' => "Wy\x{15b}lij prywatn\x{105} wiadomo\x{15b}\x{107}"
+  },
+  '35' => {
+    'lastUpdated' => 1204895350,
+    'message' => 'Funkcje administracyjne'
+  },
+  '141 description' => {
+    'lastUpdated' => 1204891748,
+    'message' => "<p>Je\x{15b}li u\x{17c}ytkownik zarz\x{105}da\x{142} nieistniej\x{105}cej strony mo\x{17c}e by\x{107} przekierowany do storny domowej lub strony b\x{142}\x{119}du, gdzie nast\x{119}pnie mo\x{17c}e pr&oacute;bowa\x{107} namierzy\x{107} poszukiwanej tre\x{15b}ci. Ty decydujesz jak b\x{119}dzie lepiej dla twoich u\x{17c}ytkownik&oacute;w.</p>"
+  },
+  'settings groupIdAdminDatabaseLink label' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  '347' => {
+    'lastUpdated' => 1204895325,
+    'message' => "Poka\x{17c} profil dla"
+  },
+  'pagination.url' => {
+    'lastUpdated' => 1168370951,
+    'message' => 'The URL of a page in the page loop.'
+  },
+  '434' => {
+    'lastUpdated' => 1204901852,
+    'message' => 'Status'
+  },
+  '93' => {
+    'lastUpdated' => 1207321630,
+    'message' => 'Pomoc'
+  },
+  'expire groupings' => {
+    'lastUpdated' => 0,
+    'message' => "Utrata wa\x{17c}no\x{15b}ci grup u\x{17c}ytkownika"
+  },
+  '865' => {
+    'lastUpdated' => 1207321046,
+    'message' => "Informowa\x{107} u\x{17c}ytkownika o wyga\x{15b}ni\x{119}ciu konta?"
+  },
+  'int slider' => {
+    'lastUpdated' => 0,
+    'message' => 'Int slider'
+  },
+  'pagination.pageList' => {
+    'lastUpdated' => 1149182026,
+    'message' => 'A list of links to every page in the paginator.'
+  },
+  '538 description' => {
+    'lastUpdated' => 1204906451,
+    'message' => "<p> Je\x{15b}li w\x{142}\x{105}czy\x{142}e\x{15b} Karm\x{119} w serwisie, mo\x{17c}esz ustali\x{107} warto\x{15b}\x{107} progu dla grupy. Pr&oacute;g Karmy jest ilo\x{15b}ci\x{105} karmy jak\x{105} u\x{17c}ytkownik musi posiada\x{107} aby by\x{107} uznanym za cz\x{142}onka tej grupy. </p>"
+  },
+  '442' => {
+    'lastUpdated' => 1204901985,
+    'message' => 'Informacje o pracy'
+  },
+  '429' => {
+    'lastUpdated' => 1204901773,
+    'message' => 'Czas logowania'
+  },
+  'image' => {
+    'lastUpdated' => 0,
+    'message' => 'Obrazek'
+  },
+  '886' => {
+    'lastUpdated' => 1207321496,
+    'message' => 'Ukryj z nawigacji?'
+  },
+  '73' => {
+    'lastUpdated' => 1207314804,
+    'message' => 'Loguj.'
+  },
+  'settings groupIdAdminGroup hoverHelp' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  '67' => {
+    'lastUpdated' => 1207314372,
+    'message' => 'Utw&oacute;rz nowe konto.'
+  },
+  '812' => {
+    'lastUpdated' => 1207316555,
+    'message' => "Wiadomo\x{15b}\x{107} zosta\x{142}a wys\x{142}ana."
+  },
+  '794' => {
+    'lastUpdated' => 1207315547,
+    'message' => 'Pakiety'
+  },
+  '327' => {
+    'lastUpdated' => 1204893886,
+    'message' => 'Kraj'
+  },
+  '320' => {
+    'lastUpdated' => 1204893346,
+    'message' => '<a href="%22http://messenger.yahoo.com/%22">Yahoo! Messenger</a> Id'
+  },
+  '944' => {
+    'lastUpdated' => 1207321662,
+    'message' => 'Kod pocztowy'
+  },
+  'user' => {
+    'lastUpdated' => 1092930637,
+    'message' => "U\x{17c}ytkownik"
+  },
+  'settings groupIdAdminWorkflow label' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'settings groupIdAdminGroupAdmin label' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'username no html' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  '732' => {
+    'lastUpdated' => 1207314885,
+    'message' => '3 Rekrut'
+  },
+  '51 description' => {
+    'lastUpdated' => 1204905806,
+    'message' => "Has\x{142}o dla konta administratora. Nie zapomnij zmieni\x{107} aby nie pozostawi\x{107} has\x{142}a domy\x{15b}lnego!"
+  },
+  '811' => {
+    'lastUpdated' => 1207316538,
+    'message' => 'Od'
+  },
+  '994 description' => {
+    'lastUpdated' => 1122070396,
+    'message' => "Nazwa u\x{17c}ytkownika dla po\x{142}\x{105}czenia DSN."
+  },
+  'allow access from macros' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  '361' => {
+    'lastUpdated' => 1204897899,
+    'message' => "Trzy nad jedn\x{105}"
+  },
+  '465' => {
+    'lastUpdated' => 1204903901,
+    'message' => 'Rozmiar boxu tekstowego'
+  },
+  'contains' => {
+    'lastUpdated' => 1089039511,
+    'message' => "Zawarto\x{15b}\x{107}"
+  },
+  '819' => {
+    'lastUpdated' => 1207316642,
+    'message' => "Deaktywowany przez u\x{17c}ytkownika"
+  },
+  'purge workflow help' => {
+    'lastUpdated' => 1162242500,
+    'message' => 'Which workflow to run when an asset is purged.'
+  },
+  '970' => {
+    'lastUpdated' => 1053278089,
+    'message' => 'set time'
+  },
+  'link enter alert' => {
+    'lastUpdated' => 1118936724,
+    'message' => 'You must enter a link URL.'
+  },
+  'debug ip' => {
+    'lastUpdated' => 0,
+    'message' => 'Adres IP dla diagnostyki'
+  },
+  '858' => {
+    'lastUpdated' => 1207317989,
+    'message' => 'Alias'
+  },
+  '104' => {
+    'lastUpdated' => 1204890234,
+    'message' => 'URL'
+  },
+  '412' => {
+    'lastUpdated' => 1204901306,
+    'message' => 'Podsumowanie'
+  },
+  '954' => {
+    'lastUpdated' => 1207321896,
+    'message' => 'Administracja schowkiem systemowym.'
+  },
+  'submit' => {
+    'lastUpdated' => 1140589512,
+    'message' => 'Submit'
+  },
+  '314' => {
+    'lastUpdated' => 1204893299,
+    'message' => "Imi\x{119}"
+  },
+  'pagination.previousPageText' => {
+    'lastUpdated' => 1149182026,
+    'message' => 'The text component of pagination.previousPage broken out.'
+  },
+  '985' => {
+    'lastUpdated' => 1056151382,
+    'message' => "Usu\x{144} ten link bazy danych."
+  },
+  '945 description' => {
+    'lastUpdated' => 1207321758,
+    'message' => "<p> U\x{17c}ytkownik mo\x{17c}e by\x{107} dynamicznie powi\x{105}zany z grup\x{105} przez zmienn\x{105} scrach podczas sesji. Zmienne scrach mog\x{105} by\x{107} ustawione programowo lub poprzez web. Aby ustawi\x{107} zmienn\x{105} przez web popatrz na koniec poni\x{17c}szego adresu URL: </p> <p><em>?op=setScratch&amp;scratchName=somename&amp;scratchValue=somevalue</em> </p> <p> Kiedy u\x{17c}ytkownik kliknie na powy\x{17c}szy link zostanie utworzona zmienna scratch w systemie z nazw\x{105} &quot;www_somename&quot; i warto\x{15b}ci\x{105} &quot;somevalue&quot;. Cz\x{142}on &quot;www_&quot; jest prefiksem zapobiegaj\x{105}cym nadpisaniu innych zmiennych ustawionych programowo. </p> <p> Aby zdefiniowa\x{107} filtr zmiennych scratch dodaj lini\x{119} do filtru i wprowad\x{17a} pola w postaci:  </p> <p><em>www_jaka\x{15b}_nazwa=jaka\x{15b}_warto\x{15b}\x{107}</em> </p> <p>Filtry dla wielu zmiennych tworzymy \x{142}\x{105}cz\x{105}c poszczeg&oacute;lne pary \x{15b}rednikami: </p> <p><em>www_jaka\x{15b}_zmienna=jaka\x{15b}_warto\x{15b}\x{107};www_inna_zmienna=inna_warto\x{15b}\x{107}</em> </p>  "
+  },
+  '971' => {
+    'lastUpdated' => 1053278208,
+    'message' => 'Czas'
+  },
+  '754' => {
+    'lastUpdated' => 1207315139,
+    'message' => "Zarz\x{105}dzanie u\x{17c}ytkownikami w tej grupie."
+  },
+  'page statistics' => {
+    'lastUpdated' => 1092930637,
+    'message' => 'Page Statistics'
+  },
+  'settings groupIdAdminLoginHistory label' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  '355' => {
+    'lastUpdated' => 1204896134,
+    'message' => "Domy\x{15b}lnie"
+  },
+  '847' => {
+    'lastUpdated' => 1207317070,
+    'message' => "Wr&oacute;\x{107} z powrotem do aktualnej strony."
+  },
+  '159' => {
+    'lastUpdated' => 1204891961,
+    'message' => 'Skrzynka odbiorcza'
+  },
+  '553' => {
+    'lastUpdated' => 1207313110,
+    'message' => 'Status'
+  },
+  '704' => {
+    'lastUpdated' => 1207314584,
+    'message' => 'Sekunda(-nd)'
+  },
+  'private message blocked error' => {
+    'lastUpdated' => 1181019679,
+    'message' => "Ten u\x{17c}ytkownik nie \x{17c}yczy sobie prywatnych wiadomo\x{15b}ci."
+  },
+  '326' => {
+    'lastUpdated' => 1204893878,
+    'message' => 'Kod pocztowy'
+  },
+  'body.content' => {
+    'lastUpdated' => 1149182155,
+    'message' => 'Konten aktualnej strony.'
+  },
+  'pagination.pageLoop.upTo20' => {
+    'lastUpdated' => 1149182026,
+    'message' => 'Same as pagination.pageList.upTo20 except broken into individual elements.'
+  },
+  '555' => {
+    'lastUpdated' => 1207313158,
+    'message' => "Edytuj karm\x{119} u\x{17c}ytkownika."
+  },
+  '1017' => {
+    'lastUpdated' => 1204890121,
+    'message' => "Ostatnia odpowied\x{17a}"
+  },
+  '37' => {
+    'lastUpdated' => 1204898149,
+    'message' => 'Brak zezwolenia!'
+  },
+  '335' => {
+    'lastUpdated' => 1204893944,
+    'message' => "P\x{142}e\x{107}"
+  },
+  'private message from label' => {
+    'lastUpdated' => 1181019679,
+    'message' => 'Od'
+  },
+  '1029' => {
+    'lastUpdated' => 1204890187,
+    'message' => 'Edytowano w'
+  },
+  '538' => {
+    'lastUpdated' => 1204906427,
+    'message' => 'Pr&oacute;g karmy'
+  },
+  'pagination.firstPageUrl' => {
+    'lastUpdated' => 1149182026,
+    'message' => 'The url component of pagination.firstPage broken out.'
+  },
+  'high group count' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  '554' => {
+    'lastUpdated' => 1207313150,
+    'message' => "Wykonaj akcj\x{119}"
+  },
+  'content' => {
+    'lastUpdated' => 1092930637,
+    'message' => "Kontent/Zawarto\x{15b}\x{107}"
+  },
+  'starts with' => {
+    'lastUpdated' => 1089039511,
+    'message' => 'Starts With'
+  },
+  '552' => {
+    'lastUpdated' => 1207313103,
+    'message' => 'Przetwarzany'
+  },
+  'allow access from macros help' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'hex slider' => {
+    'lastUpdated' => 0,
+    'message' => 'Hex slider'
+  },
+  '880' => {
+    'lastUpdated' => 1207321222,
+    'message' => 'Last Resort Editor'
+  },
+  '433' => {
+    'lastUpdated' => 1204901844,
+    'message' => 'User Agent'
+  },
+  'settings groupIdAdminWorkflow hoverHelp' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'settings groupIdAdminLoginHistory hoverHelp' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'pagination.previousPageUrl' => {
+    'lastUpdated' => 1149182026,
+    'message' => 'The url component of pagination.previousPage broken out.'
+  },
+  '74' => {
+    'lastUpdated' => 1207314987,
+    'message' => 'Informacje o koncie'
+  },
+  '240' => {
+    'lastUpdated' => 1204892464,
+    'message' => 'Message ID:'
+  },
+  '334' => {
+    'lastUpdated' => 1204893938,
+    'message' => 'Telefon w pracy'
+  },
+  '986' => {
+    'lastUpdated' => 1056151382,
+    'message' => 'Powrót do listy linków.'
+  },
+  '890' => {
+    'lastUpdated' => 1207321559,
+    'message' => "<p> WebGUI posiada wbudowany mechanizm umo\x{17c}liwiaj\x{105}cy tworzenie tabel. Mo\x{17c}esz zobaczy\x{107} to w skomplikowanych formularzach jak edycja parametr&oacute;w stron. Aby umo\x{17c}liwi\x{107} ci dopasowanie wygl\x{105}da tabel do twoich oczekiwa\x{144} musisz doda\x{107} specjaln\x{105} sekcj\x{119} w definicji stylu. </p>  <p> Nast\x{119}puj\x{105}ce klasy definicji stylu s\x{105} dost\x{119}pne: </p>  <p><strong>.tab</strong><br /> Domy\x{15b}lny widok ka\x{17c}dej zak\x{142}adki. </p>  <p><strong>div.tabs</strong><br /> Ta r&oacute;wnie\x{17c} ustawia kilka w\x{142}asno\x{15b}ci dla wszystkich zak\x{142}adek. Powinna by\x{107} u\x{17c}yta dla etykiety tekstu  w zak\x{142}adkach. </p>  <p><strong>.tabBody</strong><br /> Zawarto\x{15b}\x{107} poszczeg&oacute;lnych zak\x{142}adek. Definiuje miejsce, w kt&oacute;rym formularz jest pokazany. Pami\x{119}taj, \x{17c}e dla uzyskania najlepszych rezultat&oacute;w kolor t\x{142}a powinien by\x{107} identyczny jak kolor t\x{142}a .tabActive. </p>  <p><strong>.tabHover</strong><br /> Wygl\x{105}d w momencie, kiedy wska\x{17a}nik myszki unosi si\x{119} nad zak\x{142}adk\x{105}. </p>  <p><strong>.tabActive</strong><br /> Wygl\x{105}d zak\x{142}adki, ktra aktualnie jest wy\x{15b}wietlona. </p>  <p><em>Przyk\x{142}ady</em><br /> Je\x{15b}li chcesz mo\x{17c}esz u\x{17c}y\x{107} poni\x{17c}szych zamiast tworzy\x{107} w\x{142}asne. Lub u\x{17c}yj ich jako wzorzec startowy dla w\x{142}asnych. </p>  <table border=\"0\" width=\"100%\"><tbody><tr><td valign=\"&quot;top&quot;\"> <strong>White or Light Colored Styles</strong> <pre>.tab {<br />  border: 1px solid black;<br />   background-color: #eeeeee;<br />}<br />.tabBody {<br />   border: 1px solid black;<br />   border-top: 1px solid black;<br />   border-left: 1px solid black;<br />   background-color: #dddddd; <br />}<br />div.tabs {<br />    line-height: 15px;<br />    font-size: 14px;<br />}<br />.tabHover {<br />   background-color: #cccccc;<br />}<br />.tabActive { <br />   background-color: #dddddd; <br />}<br /></pre> </td><td valign=\"&quot;top&quot;\"> <strong>Black or Dark Colored Styles</strong> <pre>.tab {<br />  border: 1px solid white;<br />   background-color: #333333;<br />}<br />.tabBody {<br />   border: 1px solid white;<br />   border-top: 1px solid white;<br />   border-left: 1px solid white;<br />   background-color: #444444; <br />}<br />div.tabs {<br />    line-height: 15px;<br />    font-size: 14px;<br />}<br />.tabHover {<br />   background-color: #555555;<br />}<br />.tabActive { <br />   background-color: #444444; <br />}<br /></pre> </td></tr></tbody></table>  "
+  },
+  '440' => {
+    'lastUpdated' => 1204901942,
+    'message' => 'Informacje kontaktowe'
+  },
+  '230' => {
+    'lastUpdated' => 1204892430,
+    'message' => "Wiadomo\x{15b}\x{107}"
+  },
+  '1008' => {
+    'lastUpdated' => 1204889950,
+    'message' => 'Mieszanina Tekstu i HTML'
+  },
+  '1027' => {
+    'lastUpdated' => 1204890180,
+    'message' => "U\x{17c}y\x{107} filtr&oacute;w kontentu?"
+  },
+  'user function style' => {
+    'lastUpdated' => 1118453709,
+    'message' => 'User Function Style'
+  },
+  '871' => {
+    'lastUpdated' => 1207321159,
+    'message' => "Kto mo\x{17c}e edytowa\x{107}?"
+  },
+  'misc' => {
+    'lastUpdated' => 1092930637,
+    'message' => 'Miscellaneous'
+  },
+  '1044' => {
+    'lastUpdated' => 1204541828,
+    'message' => 'Szablon wyszkiwania'
+  },
+  'admin console template description' => {
+    'lastUpdated' => 1120239343,
+    'message' => 'The style to be used by the Admin Console.'
+  },
+  '1072' => {
+    'lastUpdated' => 1204890499,
+    'message' => "Adres e-mail jest ju\x{17c} w u\x{17c}yciu. Prosz\x{119} wprowadzi\x{107} inny."
+  },
+  'pages' => {
+    'lastUpdated' => 1141963573,
+    'message' => 'Pages'
+  },
+  'editSettings done' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  '118 description' => {
+    'lastUpdated' => 1204890792,
+    'message' => "Czy zezwalasz na anonimow\x{105} rejestracj\x{119} u\x{17c}ytkownik&oacute;w?"
+  },
+  'settings groupIdAdminAdSpace hoverHelp' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  '126 description' => {
+    'lastUpdated' => 1204891026,
+    'message' => "G\x{142}&oacute;wnu adres e-mail twojego przedsi\x{119}biorstwa. Adres b\x{119}dzie wykorzystany we wszystkich listach elektronicznych wychodz\x{105}cych z systemu. B\x{119}dzie r&oacute;wnie\x{17c} u\x{17c}yty w miejscach, gdzie zastosowano makro Company Email Address."
+  },
+  '991 description' => {
+    'lastUpdated' => 1133810998,
+    'message' => "Unikalny identyfikator linku bazy danych wykorzystywany wewn\x{119}trznie przez WebGUI."
+  },
+  '827' => {
+    'lastUpdated' => 1207316988,
+    'message' => 'Szablon W-obiektu'
+  },
+  'settings groupIdAdminProductManager label' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  '91' => {
+    'lastUpdated' => 1207321611,
+    'message' => 'Poprzednia strona'
+  },
+  '701' => {
+    'lastUpdated' => 1207314566,
+    'message' => "Tydzie\x{144}(-ni)"
+  },
+  '820' => {
+    'lastUpdated' => 1207316664,
+    'message' => "Twoje konto nie jest aktywne. Nie mo\x{17c}esz si\x{119} wi\x{119}c zalogowa\x{107} do czasu a\x{17c} zostanie aktywowane. A to mo\x{17c}e wykona\x{107} wy\x{142}\x{105}cznie Administrator."
+  },
+  '174' => {
+    'lastUpdated' => 1204892383,
+    'message' => "Wy\x{15b}wietla\x{107} tytu\x{142}?"
+  },
+  '481' => {
+    'lastUpdated' => 1204904006,
+    'message' => 'Numer telefonu'
+  },
+  '867' => {
+    'lastUpdated' => 1207321085,
+    'message' => 'Utrata przywileju'
+  },
+  '422' => {
+    'lastUpdated' => 1204901718,
+    'message' => "<h1>Logowanie nieudane</h1><p>Wprowadzone informacje nie pasuj\x{105} do konta.</p>"
+  },
+  '817' => {
+    'lastUpdated' => 1207316605,
+    'message' => 'Aktywny'
+  },
+  '563' => {
+    'lastUpdated' => 1207313590,
+    'message' => "Status Domy\x{15b}lny "
+  },
+  'settings groupIdAdminUserAdd hoverHelp' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'trash workflow' => {
+    'lastUpdated' => 1162242500,
+    'message' => 'Trash Workflow'
+  },
+  '731' => {
+    'lastUpdated' => 1207314862,
+    'message' => '2 Wprawny'
+  },
+  '41' => {
+    'lastUpdated' => 1204901278,
+    'message' => "Pr&oacute;bujesz usun\x{105}\x{107} wa\x{17c}ny komponent systemu WebGUI. Usuni\x{119}cie komponentu mo\x{17c}e przerwa\x{107} funkcjonowanie systemu."
+  },
+  'link settings' => {
+    'lastUpdated' => 1141963463,
+    'message' => 'Link Settings'
+  },
+  '52' => {
+    'lastUpdated' => 1204905843,
+    'message' => 'logowanie'
+  },
+  '750' => {
+    'lastUpdated' => 1207315112,
+    'message' => "Usu\x{144} tego u\x{17c}ytkownika."
+  },
+  '229' => {
+    'lastUpdated' => 1204892409,
+    'message' => "Tytu\x{142}"
+  },
+  '104 description' => {
+    'lastUpdated' => 1204890242,
+    'message' => "Wprowad\x{17a} adres URL dla twojego linku"
+  },
+  '866' => {
+    'lastUpdated' => 1207321067,
+    'message' => "Tekst powiadomienia o wyga\x{15b}ni\x{119}ciu wa\x{17c}no\x{15b}ci"
+  },
+  '768' => {
+    'lastUpdated' => 1207315162,
+    'message' => 'Nazwa'
+  },
+  'settings groupIdAdminGroupAdmin hoverHelp' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  '68' => {
+    'lastUpdated' => 1207314383,
+    'message' => "Wprowadzone dane s\x{105} nieprawid\x{142}owe. Nie istnieje takie konto lub wprowadzone has\x{142}o jest niew\x{142}a\x{15b}ciwe."
+  },
+  '315' => {
+    'lastUpdated' => 1204893306,
+    'message' => "Drugie imi\x{119}"
+  },
+  '400 description' => {
+    'lastUpdated' => 1204900963,
+    'message' => "<p>Wiele sieci posiada serwery proxy powoduj\x{105}ce problemy w dzia\x{142}aniu WebGUI. Je\x{15b}li do\x{15b}wiadczy\x{142}e\x{15b} niew\x{142}a\x{15b}ciwego dzia\x{142}ania WebGUI i posiadasz serwer proxy mo\x{17c}esz potrzebowa\x{107} ustawi\x{107} t\x{105} opcj\x{119} na Tak. B\x{105}d\x{17a} jednak \x{15b}wiadomy, \x{17c}e adresy URL nie b\x{119}d\x{105} w&oacute;wczas przyjazne u\x{17c}ytkownikom.</p>"
+  },
+  '893' => {
+    'lastUpdated' => 1207321577,
+    'message' => "W\x{142}asno\x{15b}ci Wobject"
+  },
+  '338' => {
+    'lastUpdated' => 1204893967,
+    'message' => 'Edycja profilu'
+  },
+  '576' => {
+    'lastUpdated' => 1207313750,
+    'message' => "Usu\x{144}"
+  },
+  '738' => {
+    'lastUpdated' => 1207314974,
+    'message' => '9 Guru'
+  },
+  '870' => {
+    'lastUpdated' => 1207321148,
+    'message' => 'Witamy'
+  },
+  '995 description' => {
+    'lastUpdated' => 1122070396,
+    'message' => "Has\x{142}o dla po\x{142}\x{105}czenia DSN."
+  },
+  '484' => {
+    'lastUpdated' => 1204904397,
+    'message' => "Wybierz list\x{119}"
+  },
+  '1078' => {
+    'lastUpdated' => 1204890606,
+    'message' => "Istnieje ju\x{17c} w systemie u\x{17c}ytkownik z wprowadzonym adresem e-mail. 		Prosz\x{119} poprawi\x{107} dane w formularzu i ponownie wywo\x{142}a\x{107} utworzenie konta dla u\x{17c}ytkownika"
+  },
+  'pagination.text' => {
+    'lastUpdated' => 1168464885,
+    'message' => 'The number of a page in the page loop.'
+  },
+  'settings groupIdAdminCommerce label' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'ui' => {
+    'lastUpdated' => 1092930637,
+    'message' => 'UI'
+  },
+  'run on admin create user help' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'content filters' => {
+    'lastUpdated' => 1092930637,
+    'message' => 'Content Filters'
+  },
+  'insert a link' => {
+    'lastUpdated' => 1141963447,
+    'message' => 'Insert A Link'
+  },
+  '328' => {
+    'lastUpdated' => 1204893894,
+    'message' => 'Telefon domowy'
+  },
+  'avatar' => {
+    'lastUpdated' => 1131246512,
+    'message' => 'Avatar'
+  },
+  '1085' => {
+    'lastUpdated' => 1204890701,
+    'message' => "Zmienne Szablonu Podzia\x{142}u na podstrony"
+  },
+  'Enable user invitations' => {
+    'lastUpdated' => 1217418888,
+    'message' => "W\x{142}\x{105}czy\x{107} zaproszenia od u\x{17c}ytkownik\x{f3}w?"
+  },
+  'pagination.nextPageUrl' => {
+    'lastUpdated' => 1149182026,
+    'message' => 'The url component of pagination.nextPage broken out.'
+  },
+  'changeUrl workflow' => {
+    'lastUpdated' => 1162348521,
+    'message' => 'Change URL Workflow'
+  },
+  '363' => {
+    'lastUpdated' => 1204897940,
+    'message' => 'Szablon Pozycji Strony'
+  },
+  '583 description' => {
+    'lastUpdated' => 1207314084,
+    'message' => "<p>Obrazki wi\x{119}ksze od maksymalnego rozmiaru (max image size) b\x{119}d\x{105} pomniejszone do dopuszczalnej wielko\x{15b}ci. Maksymalna wielko\x{15b}\x{107} podawana jest w pikselach i dotyczy najd\x{142}u\x{17c}szego rozmiaru obrazka. </p>"
+  },
+  '127 description' => {
+    'lastUpdated' => 1204891150,
+    'message' => "G\x{142}&oacute;wny adres URL strony przedsi\x{119}biorstwa. Adres URL pojawi si\x{119} na wszystkich automatycznie generownych przez system listach elektronicznych. Dost\x{119}pny jest r&oacute;wnie\x{17c} poprzez makro Company URL."
+  },
+  '1051' => {
+    'lastUpdated' => 1204542034,
+    'message' => "Zamie\x{144} na"
+  },
+  '733' => {
+    'lastUpdated' => 1207314917,
+    'message' => '4 Wykwalifikowany'
+  },
+  '562' => {
+    'lastUpdated' => 1207313566,
+    'message' => 'Przetwarzany'
+  },
+  'pagination.pageList.upTo20' => {
+    'lastUpdated' => 1149182026,
+    'message' => 'A list of links to the 20 nearest in the paginator relative to the current page. So if you\'re on page 60, you\'ll see links for 50-70.'
+  },
+  '36' => {
+    'lastUpdated' => 1204896496,
+    'message' => "Musisz posiada\x{107} uprawnienia administratora dla przeprowadzenia tej funkcji. Skontaktj si\x{119} z administratorem. "
+  },
+  'settings' => {
+    'lastUpdated' => 1092930637,
+    'message' => 'Settings'
+  },
+  '748' => {
+    'lastUpdated' => 1207315085,
+    'message' => "Licznik U\x{17c}ytkownika"
+  },
+  '362' => {
+    'lastUpdated' => 1204897918,
+    'message' => 'Dwie kolumny'
+  },
+  '439' => {
+    'lastUpdated' => 1204901925,
+    'message' => 'Informacje osobiste'
+  },
+  '317' => {
+    'lastUpdated' => 1204893323,
+    'message' => '<a href="%22http://www.icq.com%22">ICQ</a> UIN'
+  },
+  '169' => {
+    'lastUpdated' => 1204892361,
+    'message' => "Dodaj nowego u\x{17c}ytkownika."
+  },
+  '411' => {
+    'lastUpdated' => 1204901292,
+    'message' => "Tytu\x{142} dla menu"
+  },
+  'select slider' => {
+    'lastUpdated' => 0,
+    'message' => 'Select slider'
+  },
+  '705' => {
+    'lastUpdated' => 1207314598,
+    'message' => 'Minuta(-ut)'
+  },
+  '478' => {
+    'lastUpdated' => 1204903990,
+    'message' => 'URL'
+  },
+  '942' => {
+    'lastUpdated' => 1207321646,
+    'message' => 'Radio List'
+  },
+  '955' => {
+    'lastUpdated' => 1207321903,
+    'message' => 'Schowek systemowy'
+  },
+  '974 description' => {
+    'lastUpdated' => 1120448672,
+    'message' => "<p>Czy chcesz, aby u\x{17c}ytkownicy mogli dodawa\x{107} si\x{119} sami do tej grupy? Zobacz makro GroupAdd aby dowiedzie\x{107} si\x{119} wi\x{119}cej.
+</p>"
+  },
+  '85 description' => {
+    'lastUpdated' => 1207317899,
+    'message' => "<p>Dok\x{142}adny opis grupy, tak aby inni administratorzy i zarz\x{105}dcy kontentu (lub ty sam je\x{15b}li zapomnisz) wiedzieli w jakim celu powo\x{142}ano grup\x{119}</p>"
+  },
+  '407' => {
+    'lastUpdated' => 1204901268,
+    'message' => "Kliknij aby zarejestrowa\x{107} si\x{119}."
+  },
+  '537' => {
+    'lastUpdated' => 1204906417,
+    'message' => 'Karma'
+  },
+  'target' => {
+    'lastUpdated' => 1118936724,
+    'message' => 'Target'
+  },
+  'settings groupIdAdminActiveSessions label' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'settings groupIdAdminCache label' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  '125' => {
+    'lastUpdated' => 1204890815,
+    'message' => "Nazwa przedsi\x{119}biorstwa"
+  },
+  '44' => {
+    'lastUpdated' => 1204901933,
+    'message' => 'Tak, jestem pewny.'
+  },
+  'send private message template' => {
+    'lastUpdated' => 1181019679,
+    'message' => "Szablon wys\x{142}ania prywatnej wiadomo\x{15b}ci"
+  },
+  'run on admin create user' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  '1007' => {
+    'lastUpdated' => 1204889938,
+    'message' => 'Typ Kontentu'
+  },
+  '95' => {
+    'lastUpdated' => 1207321815,
+    'message' => 'Indeks Helpu'
+  },
+  'user function style description' => {
+    'lastUpdated' => 1120239343,
+    'message' => 'Defines which style to be used to style WebGUI operations (profile editing, message log, etc.) when they are available to a user.'
+  },
+  '313' => {
+    'lastUpdated' => 1204893291,
+    'message' => "Dopu\x{15b}ci\x{107} r&oacute;\x{17c}norodne informacje?"
+  },
+  'webgui' => {
+    'lastUpdated' => 1141963573,
+    'message' => 'WebGUI'
+  },
+  '551' => {
+    'lastUpdated' => 1204906863,
+    'message' => 'Notatka'
+  },
+  '529' => {
+    'lastUpdated' => 1204906296,
+    'message' => "wynik&oacute;w na stron\x{119}"
+  },
+  '229 description' => {
+    'lastUpdated' => 1204892422,
+    'message' => "Tytu\x{142} e-mail."
+  },
+  'pagination.firstPageText' => {
+    'lastUpdated' => 1149182026,
+    'message' => 'The text component of pagination.firstPage broken out.'
+  },
+  '753' => {
+    'lastUpdated' => 1207315131,
+    'message' => "Edytuj t\x{105} grup\x{119}."
+  },
+  '343' => {
+    'lastUpdated' => 1204894019,
+    'message' => "Poka\x{17c} Profil."
+  },
+  '504' => {
+    'lastUpdated' => 1204905735,
+    'message' => 'Szablon.'
+  },
+  'url extension description' => {
+    'lastUpdated' => 1120239343,
+    'message' => '<p>Add an extension such as "html", "php", or "asp" to each new page URL as it is created.
 </p>
 <p><b>NOTE:</b> Do NOT include the dot "." in this. So the field should look like "html" not ".html".
-</p>|,
-		lastUpdated => 1120239343
-	},
-
-	'pagination.previousPage' => {
-		message => q|A link to the previous page in the paginator relative to the current page.|,
-		lastUpdated => 1149182026
-	},
-
-	'default version tag workflow' => {
-		message => q|Domyślna wersja Tag dla Workflow|,
-		lastUpdated => 0
-	},
-
-	'987' => {
-		message => q|Delete Database Link|,
-		lastUpdated => 1056151382
-	},
-
-	'Select State' => {
-		message => q|Select State|,
-		lastUpdated => 1161388472
-	},
-
-	'857' => {
-		message => q|Adres IP|,
-		lastUpdated => 1207317941
-	},
-
-	'1010' => {
-		message => q|Tekst|,
-		lastUpdated => 1204889969
-	},
-
-	'707' => {
-		message => q|Pokazać komunikaty diagnostyczne?|,
-		lastUpdated => 1207314521
-	},
-
-	'964' => {
-		message => q|Manage system trash.|,
-		lastUpdated => 1052850265
-	},
-
-	'65' => {
-		message => q|Proszę trwale deaktywować moje konto.|,
-		lastUpdated => 1207314198
-	},
-
-	'Illegal Warning' => {
-		message => q|Enabling this feature is illegal in some countries, like Australia. In addition, some countries require you to add a warning to your site if you use this feature. Consult your local authorities for local laws. Plain Black Corporation is not responsible for your illegal activities, regardless of ignorance or malice.|,
-		lastUpdated => 1089039511
-	},
-
-	'367 description' => {
-		message => q|<p> Okres czasu przez jaki użytkownik pozostanie członkiem tej grupy zanim zostanie z niej usunięty. Funkcjonalność ta jest bardzo przydatna w sytuacji, kiedy członkowie serwisu posiadają pewne przywileje w kr&oacute;tkim okresie czasu. </p> <p><strong>Uwaga:</strong> Może być nadpisana przez ustawienia podstawowe użytkownika. </p>|,
-		lastUpdated => 1204898109
-	},
-
-	'1069 description' => {
-		message => q|<p>Wybierz kt&oacute;ry serwer użyć domyślnie przy generowaniu adres&oacute;w URL. Konfiguracja serwisu stosuje parametr &quot;sitename&quot; z pliku konfiguracyjnego. Jeśli wybrano &quot;Env HTTP&quot; wykorzystywana jest zmienna środowiskowa &quot;HTTP_HOST&quot; dostarczona przez serwer WWW.</p>|,
-		lastUpdated => 1204890458
-	},
-
-	'settings groupIdAdminCron label' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'private message submit label' => {
-		message => q|Wyślij|,
-		lastUpdated => 1181019679
-	},
-
-	'81' => {
-		message => q|Konto zaktualizowane!|,
-		lastUpdated => 1207316524
-	},
-
-	'view inbox message template' => {
-		message => q|Szablon wiadomości Inbox|,
-		lastUpdated => 1181019679
-	},
-
-	'824 description' => {
-		message => q|Zawartość stopki będzie przetworzona dla makr i dołączona do każdej wysyłanej z WebGUI wiadomości e-mail.|,
-		lastUpdated => 1207316981
-	},
-
-	'321' => {
-		message => q|Telefon kom&oacute;rkowy|,
-		lastUpdated => 1204893471
-	},
-
-	'86' => {
-		message => q|Czy na pewno chcesz usunąć grupę? Pamiętaj, że usunięcie grupy jest nieodwracalne i pociągnie za sobą usunięcie wszystkich powiązanych z grupą przywilej&oacute;w.|,
-		lastUpdated => 1207318122
-	},
-
-	'792' => {
-		message => q|Szablony|,
-		lastUpdated => 1207315540
-	},
-
-	'975 description' => {
-		message => q|<p>Czy chceszm aby użytkownicy mogli sami usuwać się z teh grupy? Zobacz makro GroupDelete aby dowiedzieć się więcej.
-</p>|,
-		lastUpdated => 1120448672
-	},
-
-	'823' => {
-		message => q|Idź do nowej strony.|,
-		lastUpdated => 1207316684
-	},
-
-	'profile' => {
-		message => q|Profile|,
-		lastUpdated => 1098327046
-	},
-
-	'371' => {
-		message => q|Dodanie Grupowania|,
-		lastUpdated => 1204898176
-	},
-
-	'1079' => {
-		message => q|Styl drukowalny|,
-		lastUpdated => 1204890625
-	},
-
-	'user invitations email exists description' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'pagination.pageNumber' => {
-		message => q|Numer aktualnej strony.|,
-		lastUpdated => 1149182026
-	},
-
-	'729' => {
-		message => q|0 Początkujący|,
-		lastUpdated => 1207314798
-	},
-
-	'2' => {
-		message => q|Strona|,
-		lastUpdated => 1204892401
-	},
-
-	'435' => {
-		message => q|Sygnatura Sesji|,
-		lastUpdated => 1204901882
-	},
-
-	'808' => {
-		message => q|E-mail tej grupy.|,
-		lastUpdated => 1207316487
-	},
-
-	'settings groupIdAdminUser label' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'885' => {
-		message => q|Pozwolić użytkownikom samym deaktywować własne konta?|,
-		lastUpdated => 1207321334
-	},
-
-	'884' => {
-		message => q|Pop Up|,
-		lastUpdated => 1207321269
-	},
-
-	'147' => {
-		message => q|Zasoby/Assets|,
-		lastUpdated => 1204891931
-	},
-
-	'339' => {
-		message => q|Mężczyzna|,
-		lastUpdated => 1204893974
-	},
-
-	'1046' => {
-		message => q|Zarchiwowany|,
-		lastUpdated => 1204541914
-	},
-
-	'863' => {
-		message => q|Usuń Op&oacute;źnienie|,
-		lastUpdated => 1207320824
-	},
-
-	'531' => {
-		message => q|z <strong>dokładnie odpowiadającą frazą</strong>|,
-		lastUpdated => 1204906380
-	},
-
-	'345' => {
-		message => q|Nie jest członkiem|,
-		lastUpdated => 1204894047
-	},
-
-	'319' => {
-		message => q|<a href="%22http://messenger.msn.com/%22">MSN Messenger</a> Id|,
-		lastUpdated => 1204893338
-	},
-
-	'56 description' => {
-		message => q|Adres e-mail administratora. Będzie użyty dla wysyłanych i informacji i ostrzeżeń.|,
-		lastUpdated => 1207313454
-	},
-
-	'1052' => {
-		message => q|Edytuj filtr zawartości|,
-		lastUpdated => 1204542099
-	},
-
-	'735' => {
-		message => q|6 Profesjonalista|,
-		lastUpdated => 1207314947
-	},
-
-	'404' => {
-		message => q|Strona pierwsza|,
-		lastUpdated => 1204900981
-	},
-
-	'tinymce' => {
-		message => q|TinyMCE (IE, mozilla)|,
-		lastUpdated => 1092748557
-	},
-
-	'1043' => {
-		message => q|Archiwizuj po|,
-		lastUpdated => 1204890261
-	},
-
-	'Enable Metadata' => {
-		message => q|Enable Metadata?|,
-		lastUpdated => 1089039511
-	},
-
-	'974' => {
-		message => q|Users can add themselves?|,
-		lastUpdated => 1053778912
-	},
-
-	'420' => {
-		message => q|Nic nie usuwać.|,
-		lastUpdated => 1204901679
-	},
-
-	'show performance indicators description' => {
-		message => q|Pokazuje czas (w sekundach) wykorzystany w celu zbudowania poszczególnych pozycji na stronie. Bardzo użyteczne dla diagnostyki problemów wydajnościowych.|,
-		lastUpdated => 1127413010
-	},
-
-	'702' => {
-		message => q|Miesiąc(-ce)|,
-		lastUpdated => 1207314552
-	},
-
-	'user invitations email exists' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'952' => {
-		message => q|Data Schowka|,
-		lastUpdated => 1207321878
-	},
-
-	'private message subject label' => {
-		message => q|Tytuł|,
-		lastUpdated => 1181019679
-	},
-
-	'487' => {
-		message => q|Select Box|,
-		lastUpdated => 1204905184
-	},
-
-	'1071' => {
-		message => q|Env HTTP Host|,
-		lastUpdated => 1204890489
-	},
-
-	'select' => {
-		message => q|Wybierz|,
-		lastUpdated => 0
-	},
-
-	'auto request commit help' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'561' => {
-		message => q|Odrzucony|,
-		lastUpdated => 1207313553
-	},
-
-	'Enable passive profiling description' => {
-		message => q|Used in conjunction with Metadata, this keeps a record of every wobject viewed by
-a user.|,
-		lastUpdated => 1167189802
-	},
-
-	'357' => {
-		message => q|Nowości|,
-		lastUpdated => 1204896145
-	},
-
-	'settings groupIdAdminVersionTag hoverHelp' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'hidden' => {
-		message => q|Ukryte|,
-		lastUpdated => 0
-	},
-
-	'63' => {
-		message => q|Włącz tryb administracyjny.|,
-		lastUpdated => 1207314139
-	},
-
-	'1050 description' => {
-		message => q|Poszukiwany ciąg znaków. Znaki interpunkcji są ignorowane. |,
-		lastUpdated => 1204542016
-	},
-
-	'455' => {
-		message => q|Edycja profilu(li) użytkownik&oacute;w|,
-		lastUpdated => 1204903784
-	},
-
-	'user profile field private message friends only label' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'80' => {
-		message => q|Konto utowrzone pomyślnie!|,
-		lastUpdated => 1207315609
-	},
-
-	'settings groupIdAdminReplacements hoverHelp' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'336' => {
-		message => q|Data urodzin|,
-		lastUpdated => 1204893951
-	},
-
-	'mail return path help' => {
-		message => q|Na jaki adres należy wysyłać listy niedostarczalne?|,
-		lastUpdated => 0
-	},
-
-	'457' => {
-		message => q|Edytuj użytkownika.|,
-		lastUpdated => 1204903812
-	},
-
-	'view inbox template' => {
-		message => q|Szablon Inbox|,
-		lastUpdated => 1181019679
-	},
-
-	'821' => {
-		message => q|Dowolny|,
-		lastUpdated => 1207316671
-	},
-
-	'run on admin update user' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'ends with' => {
-		message => q|Ends With|,
-		lastUpdated => 1089039511
-	},
-
-	'send private message template description' => {
-		message => q|Wybierz szablon wysłania prywanej wiadomości|,
-		lastUpdated => 1181019679
-	},
-
-	'pagination.lastPageText' => {
-		message => q|The text component of pagination.lastPage broken out.|,
-		lastUpdated => 1149182026
-	},
-
-	'92' => {
-		message => q|Strona następna|,
-		lastUpdated => 1207321622
-	},
-
-	'settings groupIdAdminDatabaseLink hoverHelp' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'879' => {
-		message => q|Edytor klasyczny (Internet Explorer 5+)|,
-		lastUpdated => 1207321172
-	},
-
-	'539 description' => {
-		message => q|Czy Karma powinna być włączona?|,
-		lastUpdated => 1204906593
-	},
-
-	'asset locked' => {
-		message => q|This Asset is locked for editing under a version tag different from the one that you are using.|,
-		lastUpdated => 1177706405
-	},
-
-	'pagination.pageCount' => {
-		message => q|Liczba wszystkich stron.|,
-		lastUpdated => 1149182026
-	},
-
-	'980' => {
-		message => q|Empty this folder.|,
-		lastUpdated => 1055908341
-	},
-
-	'10' => {
-		message => q|Zarządzanie koszem.|,
-		lastUpdated => 1204889804
-	},
-
-	'864 description' => {
-		message => q|<p> R&oacute;żnica w liczbie dni dla wysłania powiadomienia o zbliżającym się wygaśnięciu ważności w grupie. Można ustawić dowolną wartość całkowitą. Przykładowo ustaw wartość &quot;0&quot; jeśli chcesz aby WebGUI wysłało powiadomienie w dniu wygaśnięcia ważności. Ustaw &quot;-7&quot; jeśli chcesz aby WebGUI wysłało powiadomienie 7 dni <strong>przed</strong> wygaśnięciem ważności. Ustaw &quot;7&quot; jeśli chcesz, aby WebGUI wysłało powiadomienie 7 dni <strong>po</strong> wygaśnięciu ważności. </p>|,
-		lastUpdated => 1207321005
-	},
-
-	'992 description' => {
-		message => q|Tytuł linku bazy danych.|,
-		lastUpdated => 1122070396
-	},
-
-	'958' => {
-		message => q|<p>The clipboard is a special system location to which content may be temporarily cut or copied.  Items in the clipboard may then be pasted to a new location.</p>
+</p>'
+  },
+  'pagination.previousPage' => {
+    'lastUpdated' => 1149182026,
+    'message' => 'A link to the previous page in the paginator relative to the current page.'
+  },
+  'default version tag workflow' => {
+    'lastUpdated' => 0,
+    'message' => "Domy\x{15b}lna wersja Tag dla Workflow"
+  },
+  '987' => {
+    'lastUpdated' => 1056151382,
+    'message' => 'Delete Database Link'
+  },
+  'Select State' => {
+    'lastUpdated' => 1161388472,
+    'message' => 'Select State'
+  },
+  '857' => {
+    'lastUpdated' => 1207317941,
+    'message' => 'Adres IP'
+  },
+  '1010' => {
+    'lastUpdated' => 1204889969,
+    'message' => 'Tekst'
+  },
+  '707' => {
+    'lastUpdated' => 1207314521,
+    'message' => "Pokaza\x{107} komunikaty diagnostyczne?"
+  },
+  '964' => {
+    'lastUpdated' => 1052850265,
+    'message' => 'Manage system trash.'
+  },
+  '65' => {
+    'lastUpdated' => 1207314198,
+    'message' => "Prosz\x{119} trwale deaktywowa\x{107} moje konto."
+  },
+  'Illegal Warning' => {
+    'lastUpdated' => 1089039511,
+    'message' => 'Enabling this feature is illegal in some countries, like Australia. In addition, some countries require you to add a warning to your site if you use this feature. Consult your local authorities for local laws. Plain Black Corporation is not responsible for your illegal activities, regardless of ignorance or malice.'
+  },
+  '367 description' => {
+    'lastUpdated' => 1204898109,
+    'message' => "<p> Okres czasu przez jaki u\x{17c}ytkownik pozostanie cz\x{142}onkiem tej grupy zanim zostanie z niej usuni\x{119}ty. Funkcjonalno\x{15b}\x{107} ta jest bardzo przydatna w sytuacji, kiedy cz\x{142}onkowie serwisu posiadaj\x{105} pewne przywileje w kr&oacute;tkim okresie czasu. </p> <p><strong>Uwaga:</strong> Mo\x{17c}e by\x{107} nadpisana przez ustawienia podstawowe u\x{17c}ytkownika. </p>"
+  },
+  '1069 description' => {
+    'lastUpdated' => 1204890458,
+    'message' => "<p>Wybierz kt&oacute;ry serwer u\x{17c}y\x{107} domy\x{15b}lnie przy generowaniu adres&oacute;w URL. Konfiguracja serwisu stosuje parametr &quot;sitename&quot; z pliku konfiguracyjnego. Je\x{15b}li wybrano &quot;Env HTTP&quot; wykorzystywana jest zmienna \x{15b}rodowiskowa &quot;HTTP_HOST&quot; dostarczona przez serwer WWW.</p>"
+  },
+  'settings groupIdAdminCron label' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'private message submit label' => {
+    'lastUpdated' => 1181019679,
+    'message' => "Wy\x{15b}lij"
+  },
+  '81' => {
+    'lastUpdated' => 1207316524,
+    'message' => 'Konto zaktualizowane!'
+  },
+  'view inbox message template' => {
+    'lastUpdated' => 1181019679,
+    'message' => "Szablon wiadomo\x{15b}ci Inbox"
+  },
+  '824 description' => {
+    'lastUpdated' => 1207316981,
+    'message' => "Zawarto\x{15b}\x{107} stopki b\x{119}dzie przetworzona dla makr i do\x{142}\x{105}czona do ka\x{17c}dej wysy\x{142}anej z WebGUI wiadomo\x{15b}ci e-mail."
+  },
+  '321' => {
+    'lastUpdated' => 1204893471,
+    'message' => 'Telefon kom&oacute;rkowy'
+  },
+  '86' => {
+    'lastUpdated' => 1207318122,
+    'message' => "Czy na pewno chcesz usun\x{105}\x{107} grup\x{119}? Pami\x{119}taj, \x{17c}e usuni\x{119}cie grupy jest nieodwracalne i poci\x{105}gnie za sob\x{105} usuni\x{119}cie wszystkich powi\x{105}zanych z grup\x{105} przywilej&oacute;w."
+  },
+  '792' => {
+    'lastUpdated' => 1207315540,
+    'message' => 'Szablony'
+  },
+  '975 description' => {
+    'lastUpdated' => 1120448672,
+    'message' => "<p>Czy chceszm aby u\x{17c}ytkownicy mogli sami usuwa\x{107} si\x{119} z teh grupy? Zobacz makro GroupDelete aby dowiedzie\x{107} si\x{119} wi\x{119}cej.
+</p>"
+  },
+  '823' => {
+    'lastUpdated' => 1207316684,
+    'message' => "Id\x{17a} do nowej strony."
+  },
+  'profile' => {
+    'lastUpdated' => 1098327046,
+    'message' => 'Profile'
+  },
+  '371' => {
+    'lastUpdated' => 1204898176,
+    'message' => 'Dodanie Grupowania'
+  },
+  '1079' => {
+    'lastUpdated' => 1204890625,
+    'message' => 'Styl drukowalny'
+  },
+  'user invitations email exists description' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'pagination.pageNumber' => {
+    'lastUpdated' => 1149182026,
+    'message' => 'Numer aktualnej strony.'
+  },
+  '729' => {
+    'lastUpdated' => 1207314798,
+    'message' => "0 Pocz\x{105}tkuj\x{105}cy"
+  },
+  '2' => {
+    'lastUpdated' => 1204892401,
+    'message' => 'Strona'
+  },
+  '435' => {
+    'lastUpdated' => 1204901882,
+    'message' => 'Sygnatura Sesji'
+  },
+  '808' => {
+    'lastUpdated' => 1207316487,
+    'message' => 'E-mail tej grupy.'
+  },
+  'settings groupIdAdminUser label' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  '885' => {
+    'lastUpdated' => 1207321334,
+    'message' => "Pozwoli\x{107} u\x{17c}ytkownikom samym deaktywowa\x{107} w\x{142}asne konta?"
+  },
+  '884' => {
+    'lastUpdated' => 1207321269,
+    'message' => 'Pop Up'
+  },
+  '147' => {
+    'lastUpdated' => 1204891931,
+    'message' => 'Zasoby/Assets'
+  },
+  '339' => {
+    'lastUpdated' => 1204893974,
+    'message' => "M\x{119}\x{17c}czyzna"
+  },
+  '1046' => {
+    'lastUpdated' => 1204541914,
+    'message' => 'Zarchiwowany'
+  },
+  '863' => {
+    'lastUpdated' => 1207320824,
+    'message' => "Usu\x{144} Op&oacute;\x{17a}nienie"
+  },
+  '531' => {
+    'lastUpdated' => 1204906380,
+    'message' => "z <strong>dok\x{142}adnie odpowiadaj\x{105}c\x{105} fraz\x{105}</strong>"
+  },
+  '345' => {
+    'lastUpdated' => 1204894047,
+    'message' => "Nie jest cz\x{142}onkiem"
+  },
+  '319' => {
+    'lastUpdated' => 1204893338,
+    'message' => '<a href="%22http://messenger.msn.com/%22">MSN Messenger</a> Id'
+  },
+  '56 description' => {
+    'lastUpdated' => 1207313454,
+    'message' => "Adres e-mail administratora. B\x{119}dzie u\x{17c}yty dla wysy\x{142}anych i informacji i ostrze\x{17c}e\x{144}."
+  },
+  '1052' => {
+    'lastUpdated' => 1204542099,
+    'message' => "Edytuj filtr zawarto\x{15b}ci"
+  },
+  '735' => {
+    'lastUpdated' => 1207314947,
+    'message' => '6 Profesjonalista'
+  },
+  '404' => {
+    'lastUpdated' => 1204900981,
+    'message' => 'Strona pierwsza'
+  },
+  'tinymce' => {
+    'lastUpdated' => 1092748557,
+    'message' => 'TinyMCE (IE, mozilla)'
+  },
+  '1043' => {
+    'lastUpdated' => 1204890261,
+    'message' => 'Archiwizuj po'
+  },
+  'Enable Metadata' => {
+    'lastUpdated' => 1089039511,
+    'message' => 'Enable Metadata?'
+  },
+  '974' => {
+    'lastUpdated' => 1053778912,
+    'message' => 'Users can add themselves?'
+  },
+  '420' => {
+    'lastUpdated' => 1204901679,
+    'message' => "Nic nie usuwa\x{107}."
+  },
+  'show performance indicators description' => {
+    'lastUpdated' => 1127413010,
+    'message' => "Pokazuje czas (w sekundach) wykorzystany w celu zbudowania poszczeg\x{f3}lnych pozycji na stronie. Bardzo u\x{17c}yteczne dla diagnostyki problem\x{f3}w wydajno\x{15b}ciowych."
+  },
+  '702' => {
+    'lastUpdated' => 1207314552,
+    'message' => "Miesi\x{105}c(-ce)"
+  },
+  'user invitations email exists' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  '952' => {
+    'lastUpdated' => 1207321878,
+    'message' => 'Data Schowka'
+  },
+  'private message subject label' => {
+    'lastUpdated' => 1181019679,
+    'message' => "Tytu\x{142}"
+  },
+  '487' => {
+    'lastUpdated' => 1204905184,
+    'message' => 'Select Box'
+  },
+  '1071' => {
+    'lastUpdated' => 1204890489,
+    'message' => 'Env HTTP Host'
+  },
+  'select' => {
+    'lastUpdated' => 0,
+    'message' => 'Wybierz'
+  },
+  'auto request commit help' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  '561' => {
+    'lastUpdated' => 1207313553,
+    'message' => 'Odrzucony'
+  },
+  'Enable passive profiling description' => {
+    'lastUpdated' => 1167189802,
+    'message' => 'Used in conjunction with Metadata, this keeps a record of every wobject viewed by
+a user.'
+  },
+  '357' => {
+    'lastUpdated' => 1204896145,
+    'message' => "Nowo\x{15b}ci"
+  },
+  'settings groupIdAdminVersionTag hoverHelp' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'hidden' => {
+    'lastUpdated' => 0,
+    'message' => 'Ukryte'
+  },
+  '63' => {
+    'lastUpdated' => 1207314139,
+    'message' => "W\x{142}\x{105}cz tryb administracyjny."
+  },
+  '1050 description' => {
+    'lastUpdated' => 1204542016,
+    'message' => "Poszukiwany ci\x{105}g znak\x{f3}w. Znaki interpunkcji s\x{105} ignorowane. "
+  },
+  '455' => {
+    'lastUpdated' => 1204903784,
+    'message' => "Edycja profilu(li) u\x{17c}ytkownik&oacute;w"
+  },
+  'user profile field private message friends only label' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  '80' => {
+    'lastUpdated' => 1207315609,
+    'message' => "Konto utowrzone pomy\x{15b}lnie!"
+  },
+  'settings groupIdAdminReplacements hoverHelp' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  '336' => {
+    'lastUpdated' => 1204893951,
+    'message' => 'Data urodzin'
+  },
+  'mail return path help' => {
+    'lastUpdated' => 0,
+    'message' => "Na jaki adres nale\x{17c}y wysy\x{142}a\x{107} listy niedostarczalne?"
+  },
+  '457' => {
+    'lastUpdated' => 1204903812,
+    'message' => "Edytuj u\x{17c}ytkownika."
+  },
+  'view inbox template' => {
+    'lastUpdated' => 1181019679,
+    'message' => 'Szablon Inbox'
+  },
+  '821' => {
+    'lastUpdated' => 1207316671,
+    'message' => 'Dowolny'
+  },
+  'run on admin update user' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'ends with' => {
+    'lastUpdated' => 1089039511,
+    'message' => 'Ends With'
+  },
+  'send private message template description' => {
+    'lastUpdated' => 1181019679,
+    'message' => "Wybierz szablon wys\x{142}ania prywanej wiadomo\x{15b}ci"
+  },
+  'pagination.lastPageText' => {
+    'lastUpdated' => 1149182026,
+    'message' => 'The text component of pagination.lastPage broken out.'
+  },
+  '92' => {
+    'lastUpdated' => 1207321622,
+    'message' => "Strona nast\x{119}pna"
+  },
+  'settings groupIdAdminDatabaseLink hoverHelp' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  '879' => {
+    'lastUpdated' => 1207321172,
+    'message' => 'Edytor klasyczny (Internet Explorer 5+)'
+  },
+  '539 description' => {
+    'lastUpdated' => 1204906593,
+    'message' => "Czy Karma powinna by\x{107} w\x{142}\x{105}czona?"
+  },
+  'asset locked' => {
+    'lastUpdated' => 1177706405,
+    'message' => 'This Asset is locked for editing under a version tag different from the one that you are using.'
+  },
+  'pagination.pageCount' => {
+    'lastUpdated' => 1149182026,
+    'message' => 'Liczba wszystkich stron.'
+  },
+  '980' => {
+    'lastUpdated' => 1055908341,
+    'message' => 'Empty this folder.'
+  },
+  '10' => {
+    'lastUpdated' => 1204889804,
+    'message' => "Zarz\x{105}dzanie koszem."
+  },
+  '864 description' => {
+    'lastUpdated' => 1207321005,
+    'message' => "<p> R&oacute;\x{17c}nica w liczbie dni dla wys\x{142}ania powiadomienia o zbli\x{17c}aj\x{105}cym si\x{119} wyga\x{15b}ni\x{119}ciu wa\x{17c}no\x{15b}ci w grupie. Mo\x{17c}na ustawi\x{107} dowoln\x{105} warto\x{15b}\x{107} ca\x{142}kowit\x{105}. Przyk\x{142}adowo ustaw warto\x{15b}\x{107} &quot;0&quot; je\x{15b}li chcesz aby WebGUI wys\x{142}a\x{142}o powiadomienie w dniu wyga\x{15b}ni\x{119}cia wa\x{17c}no\x{15b}ci. Ustaw &quot;-7&quot; je\x{15b}li chcesz aby WebGUI wys\x{142}a\x{142}o powiadomienie 7 dni <strong>przed</strong> wyga\x{15b}ni\x{119}ciem wa\x{17c}no\x{15b}ci. Ustaw &quot;7&quot; je\x{15b}li chcesz, aby WebGUI wys\x{142}a\x{142}o powiadomienie 7 dni <strong>po</strong> wyga\x{15b}ni\x{119}ciu wa\x{17c}no\x{15b}ci. </p>"
+  },
+  '992 description' => {
+    'lastUpdated' => 1122070396,
+    'message' => "Tytu\x{142} linku bazy danych."
+  },
+  '958' => {
+    'lastUpdated' => 1173117114,
+    'message' => '<p>The clipboard is a special system location to which content may be temporarily cut or copied.  Items in the clipboard may then be pasted to a new location.</p>
 
 <p>The clipboard contents may be managed individually. You may delete or paste an item by selecting the appropriate icon.  You may also empty the entire contents of the clipboard to the trash by choosing the Empty clipboard menu option.</p>
 
@@ -3386,351 +2719,286 @@ or are under your current version tag.</p>
 
 <p><b>Previous Location</b><br />The location where the item was previously found.  You may view the previous location by selecting the location.</p>
 
-<p><b>Username</b><br />The username of the individual who placed the item in the clipboard.  This optional field is only visible in shared clipboard environments or when an administrator is managing the system clipboard.</p>|,
-		lastUpdated => 1173117114
-	},
-
-	'419' => {
-		message => q|Usuń wszystko opr&oacute;cz tekstu.|,
-		lastUpdated => 1204901543
-	},
-
-	'995' => {
-		message => q|Database Password|,
-		lastUpdated => 1056151382
-	},
-
-	'837' => {
-		message => q|Folder, Dodanie/Edycja|,
-		lastUpdated => 1207317022
-	},
-
-	'149' => {
-		message => q|Użytkownicy|,
-		lastUpdated => 1204891939
-	},
-
-	'304' => {
-		message => q|Język|,
-		lastUpdated => 1204892479
-	},
-
-	'hidden list' => {
-		message => q|Hidden List|,
-		lastUpdated => 0
-	},
-
-	'settings groupIdAdminHelp label' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'406' => {
-		message => q|Rozmiar miniaturki|,
-		lastUpdated => 1204901026
-	},
-
-	'settings groupIdAdminSpectre label' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'allowed keywords' => {
-		message => q|Allowed keywords|,
-		lastUpdated => 0
-	},
-
-	'482' => {
-		message => q|Liczba czałkowita|,
-		lastUpdated => 1204904029
-	},
-
-	'949' => {
-		message => q|Zarządzanie schowkiem.|,
-		lastUpdated => 1207321791
-	},
-
-	'Enable passive profiling' => {
-		message => q|Enable passive profiling?|,
-		lastUpdated => 1089039511
-	},
-
-	'557 description' => {
-		message => q|Pow&oacute;d dla kt&oacute;rego karma została zmieniona.|,
-		lastUpdated => 1207313185
-	},
-
-	'56' => {
-		message => q|Adres email|,
-		lastUpdated => 1207313396
-	},
-
-	'499' => {
-		message => q|Wobject ID|,
-		lastUpdated => 1204905679
-	},
-
-	'530' => {
-		message => q|z <strong>wszystkimi</strong> słowami|,
-		lastUpdated => 1204906347
-	},
-
-	'66' => {
-		message => q|Logowanie do systemu|,
-		lastUpdated => 1207314360
-	},
-
-	'show my fields' => {
-		message => q|Pokaż pola dla których mam dostęp zgodnie z poziommem UI|,
-		lastUpdated => 1141184463
-	},
-
-	'external help' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'54' => {
-		message => q|Utw&oacute;rz konto użytkownika|,
-		lastUpdated => 1204906604
-	},
-
-	'1030' => {
-		message => q|przez|,
-		lastUpdated => 1204890199
-	},
-
-	'done' => {
-		message => q|Zrobione|,
-		lastUpdated => 1118936724
-	},
-
-	'70' => {
-		message => q|Błąd|,
-		lastUpdated => 1207314402
-	},
-
-	'1047' => {
-		message => q|Dodaj filtr zawartości.|,
-		lastUpdated => 1204541932
-	},
-
-	'88' => {
-		message => q|Użytkownicy w Grupie|,
-		lastUpdated => 1207321189
-	},
-
-	'user profiling' => {
-		message => q|User Profiling|,
-		lastUpdated => 1092930637
-	},
-
-	'1009' => {
-		message => q|HTML|,
-		lastUpdated => 1204889957
-	},
-
-	'pagination.pageList.upTo10' => {
-		message => q|A list of links to the 10 nearest in the paginator relative to the current page. So if you're on page 20, you'll see links for 15-25.|,
-		lastUpdated => 1149182026
-	},
-
-	'141' => {
-		message => q|Strona nieznaleziona.|,
-		lastUpdated => 1204891642
-	},
-
-	'403' => {
-		message => q|Wolę nie m&oacute;wić.|,
-		lastUpdated => 1204900972
-	},
-
-	'883' => {
-		message => q|Inline (kiedy wspierany)|,
-		lastUpdated => 1207321261
-	},
-
-	'clear cache' => {
-		message => q|Clear Cache|,
-		lastUpdated => 1031514049
-	},
-
-	'75' => {
-		message => q|Dane twojego konta zostały wysłane na tw&oacute;j adres email.|,
-		lastUpdated => 1207315104
-	},
-
-	'134' => {
-		message => q|Komunikat Odzyskania Hasła|,
-		lastUpdated => 1204891330
-	},
-
-	'848' => {
-		message => q|Wystąpił błąd w szablonie. Proszę go poprawić.|,
-		lastUpdated => 1207317088
-	},
-
-	'421' => {
-		message => q|Usuń wszystko z wyjątkiem podstawowego formatowania.|,
-		lastUpdated => 1204901687
-	},
-
-	'59' => {
-		message => q|Zapomniałem moje hasło.|,
-		lastUpdated => 1207314092
-	},
-
-	'450' => {
-		message => q|Nazwa przedsiębiorstwa|,
-		lastUpdated => 1204902062
-	},
-
-	'406 description' => {
-		message => q|Kiedy obrazki są wrzucane do twojego systemu generowane są automatycznie ikonki o podanym tutaj rozmiarze (chyba, że wymagają innego rozmiaru dla innych funkcji systemu). Rozmiar ikonek mierzony jest w pikselach. |,
-		lastUpdated => 1204901256
-	},
-
-	'50 setup description' => {
-		message => q|Nazwa użytkownika dla twojego konta administracyjnego.  Domyślnie Admin|,
-		lastUpdated => 1204905719
-	},
-
-	'private message unread display message' => {
-		message => q|Nieprzecztanych wiadomości: %s|,
-		lastUpdated => 1181019679
-	},
-
-	'private message date label' => {
-		message => q|Data|,
-		lastUpdated => 1181019679
-	},
-
-	'settings groupIdAdminGraphics label' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'1070' => {
-		message => q|Konfiguracja Serwisu|,
-		lastUpdated => 1204890483
-	},
-
-	'703' => {
-		message => q|Rok(lata)|,
-		lastUpdated => 1207314461
-	},
-
-	'864' => {
-		message => q|Wiadomość wygaśnięcie dla Przesunięcia|,
-		lastUpdated => 1207320981
-	},
-
-	'1016' => {
-		message => q|Odpowiedzi|,
-		lastUpdated => 1204890113
-	},
-
-	'help' => {
-		message => q|Pomoc|,
-		lastUpdated => 1092930637
-	},
-
-	'318' => {
-		message => q|<a href="%22http://www.aol.com/aim/homenew.adp%22">AIM</a> Id|,
-		lastUpdated => 1204893330
-	},
-
-	'url extension' => {
-		message => q|Rozszerzenie URL|,
-		lastUpdated => 1089039511
-	},
-
-	'105' => {
-		message => q|Pokaż|,
-		lastUpdated => 1204541960
-	},
-
-	'972' => {
-		message => q|Data i Czas|,
-		lastUpdated => 1053278234
-	},
-
-	'pagination.pageLoop.upTo10' => {
-		message => q|Same as pagination.pageList.upTo10 except broken into individual elements.|,
-		lastUpdated => 1149182026
-	},
-
-	'settings groupIdAdminCron hoverHelp' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'databases' => {
-		message => q|Bazy Danych|,
-		lastUpdated => 1092930637
-	},
-
-	'146' => {
-		message => q|Sesje aktywne|,
-		lastUpdated => 1207320510
-	},
-
-	'38' => {
-		message => q|Nie posiadasz wystarczającyh uprawnień do przeprowadzenia tej operacji. Zaloguj się proszę ^a(do konta);, kt&oacute;re posiada wymagane uprawnienia przed ponowną pr&oacute;bą wykonania.|,
-		lastUpdated => 1204899657
-	},
-
-	'993 description' => {
-		message => q|<p><b>D</b>ata <b>S</b>ource <b>N</b>ame jest unikalnym identyfikatorem wykorzystywanym przez Perl do zlokalizowaniua twojej bazy danych. Format identyfikatora wygląda następująco:</p>
-<div class="helpIndent">DBI:[driver]:[database name]:[host].</div>
-<p><i>Przykład:</i> DBI:mysql:WebGUI:localhost</p>
+<p><b>Username</b><br />The username of the individual who placed the item in the clipboard.  This optional field is only visible in shared clipboard environments or when an administrator is managing the system clipboard.</p>'
+  },
+  '419' => {
+    'lastUpdated' => 1204901543,
+    'message' => "Usu\x{144} wszystko opr&oacute;cz tekstu."
+  },
+  '995' => {
+    'lastUpdated' => 1056151382,
+    'message' => 'Database Password'
+  },
+  '837' => {
+    'lastUpdated' => 1207317022,
+    'message' => 'Folder, Dodanie/Edycja'
+  },
+  '149' => {
+    'lastUpdated' => 1204891939,
+    'message' => "U\x{17c}ytkownicy"
+  },
+  '304' => {
+    'lastUpdated' => 1204892479,
+    'message' => "J\x{119}zyk"
+  },
+  'hidden list' => {
+    'lastUpdated' => 0,
+    'message' => 'Hidden List'
+  },
+  'settings groupIdAdminHelp label' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  '406' => {
+    'lastUpdated' => 1204901026,
+    'message' => 'Rozmiar miniaturki'
+  },
+  'settings groupIdAdminSpectre label' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'allowed keywords' => {
+    'lastUpdated' => 0,
+    'message' => 'Allowed keywords'
+  },
+  '482' => {
+    'lastUpdated' => 1204904029,
+    'message' => "Liczba cza\x{142}kowita"
+  },
+  '949' => {
+    'lastUpdated' => 1207321791,
+    'message' => "Zarz\x{105}dzanie schowkiem."
+  },
+  'Enable passive profiling' => {
+    'lastUpdated' => 1089039511,
+    'message' => 'Enable passive profiling?'
+  },
+  '557 description' => {
+    'lastUpdated' => 1207313185,
+    'message' => "Pow&oacute;d dla kt&oacute;rego karma zosta\x{142}a zmieniona."
+  },
+  '56' => {
+    'lastUpdated' => 1207313396,
+    'message' => 'Adres email'
+  },
+  '499' => {
+    'lastUpdated' => 1204905679,
+    'message' => 'Wobject ID'
+  },
+  '530' => {
+    'lastUpdated' => 1204906347,
+    'message' => "z <strong>wszystkimi</strong> s\x{142}owami"
+  },
+  '66' => {
+    'lastUpdated' => 1207314360,
+    'message' => 'Logowanie do systemu'
+  },
+  'show my fields' => {
+    'lastUpdated' => 1141184463,
+    'message' => "Poka\x{17c} pola dla kt\x{f3}rych mam dost\x{119}p zgodnie z poziommem UI"
+  },
+  'external help' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  '54' => {
+    'lastUpdated' => 1204906604,
+    'message' => "Utw&oacute;rz konto u\x{17c}ytkownika"
+  },
+  '1030' => {
+    'lastUpdated' => 1204890199,
+    'message' => 'przez'
+  },
+  'done' => {
+    'lastUpdated' => 1118936724,
+    'message' => 'Zrobione'
+  },
+  '70' => {
+    'lastUpdated' => 1207314402,
+    'message' => "B\x{142}\x{105}d"
+  },
+  '1047' => {
+    'lastUpdated' => 1204541932,
+    'message' => "Dodaj filtr zawarto\x{15b}ci."
+  },
+  '88' => {
+    'lastUpdated' => 1207321189,
+    'message' => "U\x{17c}ytkownicy w Grupie"
+  },
+  'user profiling' => {
+    'lastUpdated' => 1092930637,
+    'message' => 'User Profiling'
+  },
+  '1009' => {
+    'lastUpdated' => 1204889957,
+    'message' => 'HTML'
+  },
+  'pagination.pageList.upTo10' => {
+    'lastUpdated' => 1149182026,
+    'message' => 'A list of links to the 10 nearest in the paginator relative to the current page. So if you\'re on page 20, you\'ll see links for 15-25.'
+  },
+  '141' => {
+    'lastUpdated' => 1204891642,
+    'message' => 'Strona nieznaleziona.'
+  },
+  '403' => {
+    'lastUpdated' => 1204900972,
+    'message' => "Wol\x{119} nie m&oacute;wi\x{107}."
+  },
+  '883' => {
+    'lastUpdated' => 1207321261,
+    'message' => 'Inline (kiedy wspierany)'
+  },
+  'clear cache' => {
+    'lastUpdated' => 1031514049,
+    'message' => 'Clear Cache'
+  },
+  '75' => {
+    'lastUpdated' => 1207315104,
+    'message' => "Dane twojego konta zosta\x{142}y wys\x{142}ane na tw&oacute;j adres email."
+  },
+  '134' => {
+    'lastUpdated' => 1204891330,
+    'message' => "Komunikat Odzyskania Has\x{142}a"
+  },
+  '848' => {
+    'lastUpdated' => 1207317088,
+    'message' => "Wyst\x{105}pi\x{142} b\x{142}\x{105}d w szablonie. Prosz\x{119} go poprawi\x{107}."
+  },
+  '421' => {
+    'lastUpdated' => 1204901687,
+    'message' => "Usu\x{144} wszystko z wyj\x{105}tkiem podstawowego formatowania."
+  },
+  '59' => {
+    'lastUpdated' => 1207314092,
+    'message' => "Zapomnia\x{142}em moje has\x{142}o."
+  },
+  '450' => {
+    'lastUpdated' => 1204902062,
+    'message' => "Nazwa przedsi\x{119}biorstwa"
+  },
+  '406 description' => {
+    'lastUpdated' => 1204901256,
+    'message' => "Kiedy obrazki s\x{105} wrzucane do twojego systemu generowane s\x{105} automatycznie ikonki o podanym tutaj rozmiarze (chyba, \x{17c}e wymagaj\x{105} innego rozmiaru dla innych funkcji systemu). Rozmiar ikonek mierzony jest w pikselach. "
+  },
+  '50 setup description' => {
+    'lastUpdated' => 1204905719,
+    'message' => "Nazwa u\x{17c}ytkownika dla twojego konta administracyjnego.  Domy\x{15b}lnie Admin"
+  },
+  'private message unread display message' => {
+    'lastUpdated' => 1181019679,
+    'message' => "Nieprzecztanych wiadomo\x{15b}ci: %s"
+  },
+  'private message date label' => {
+    'lastUpdated' => 1181019679,
+    'message' => 'Data'
+  },
+  'settings groupIdAdminGraphics label' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  '1070' => {
+    'lastUpdated' => 1204890483,
+    'message' => 'Konfiguracja Serwisu'
+  },
+  '703' => {
+    'lastUpdated' => 1207314461,
+    'message' => 'Rok(lata)'
+  },
+  '864' => {
+    'lastUpdated' => 1207320981,
+    'message' => "Wiadomo\x{15b}\x{107} wyga\x{15b}ni\x{119}cie dla Przesuni\x{119}cia"
+  },
+  '1016' => {
+    'lastUpdated' => 1204890113,
+    'message' => 'Odpowiedzi'
+  },
+  'help' => {
+    'lastUpdated' => 1092930637,
+    'message' => 'Pomoc'
+  },
+  '318' => {
+    'lastUpdated' => 1204893330,
+    'message' => '<a href="%22http://www.aol.com/aim/homenew.adp%22">AIM</a> Id'
+  },
+  'url extension' => {
+    'lastUpdated' => 1089039511,
+    'message' => 'Rozszerzenie URL'
+  },
+  '105' => {
+    'lastUpdated' => 1204541960,
+    'message' => "Poka\x{17c}"
+  },
+  '972' => {
+    'lastUpdated' => 1053278234,
+    'message' => 'Data i Czas'
+  },
+  'pagination.pageLoop.upTo10' => {
+    'lastUpdated' => 1149182026,
+    'message' => 'Same as pagination.pageList.upTo10 except broken into individual elements.'
+  },
+  'settings groupIdAdminCron hoverHelp' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'databases' => {
+    'lastUpdated' => 1092930637,
+    'message' => 'Bazy Danych'
+  },
+  '146' => {
+    'lastUpdated' => 1207320510,
+    'message' => 'Sesje aktywne'
+  },
+  '38' => {
+    'lastUpdated' => 1204899657,
+    'message' => "Nie posiadasz wystarczaj\x{105}cyh uprawnie\x{144} do przeprowadzenia tej operacji. Zaloguj si\x{119} prosz\x{119} ^a(do konta);, kt&oacute;re posiada wymagane uprawnienia przed ponown\x{105} pr&oacute;b\x{105} wykonania."
+  },
+  '993 description' => {
+    'lastUpdated' => 1146630103,
+    'message' => "<p><b>D</b>ata <b>S</b>ource <b>N</b>ame jest unikalnym identyfikatorem wykorzystywanym przez Perl do zlokalizowaniua twojej bazy danych. Format identyfikatora wygl\x{105}da nast\x{119}puj\x{105}co:</p>
+<div class=\"helpIndent\">DBI:[driver]:[database name]:[host].</div>
+<p><i>Przyk\x{142}ad:</i> DBI:mysql:WebGUI:localhost</p>
 <p>
-Kilka przykładów dla innych baz danych.</p>
+Kilka przyk\x{142}ad\x{f3}w dla innych baz danych.</p>
 <div>
 <dl>
-<dt><a href="http://search.cpan.org/author/TIMB/DBD-Oracle-1.14/Oracle.pm#CONNECTING_TO_ORACLE">Oracle</a>:</dt>
+<dt><a href=\"http://search.cpan.org/author/TIMB/DBD-Oracle-1.14/Oracle.pm#CONNECTING_TO_ORACLE\">Oracle</a>:</dt>
 <dd>DBI:Oracle:SID<br />
-Musi być zainstalowany moduł DBD::Oracle.<br />
-Należy używać mod_perl i ustawić zmienną <b>PerlSetEnv ORACLE_HOME /home/oracle/product/8.1.7</b> w pliku konfiguracyjnym httpd.conf. Bez ustawienia zmiennej ORACLE_HOME możesz połączyć się następująco: DBI:Oracle:host=myhost.com;sid=SID
+Musi by\x{107} zainstalowany modu\x{142} DBD::Oracle.<br />
+Nale\x{17c}y u\x{17c}ywa\x{107} mod_perl i ustawi\x{107} zmienn\x{105} <b>PerlSetEnv ORACLE_HOME /home/oracle/product/8.1.7</b> w pliku konfiguracyjnym httpd.conf. Bez ustawienia zmiennej ORACLE_HOME mo\x{17c}esz po\x{142}\x{105}czy\x{107} si\x{119} nast\x{119}puj\x{105}co: DBI:Oracle:host=myhost.com;sid=SID
 </dd>
-<dt><a href="http://search.cpan.org/author/OYAMA/DBD-PgPP-0.04/PgPP.pm#THE_DBI_CLASS">PostgreSQL</a>:</dt>
+<dt><a href=\"http://search.cpan.org/author/OYAMA/DBD-PgPP-0.04/PgPP.pm#THE_DBI_CLASS\">PostgreSQL</a>:</dt>
 <dd>DBI:PgPP:dbname=DBNAME[;host=hOST]<br />
-Musi być zainstalowany moduł DBD::PgPP.
+Musi by\x{107} zainstalowany modu\x{142} DBD::PgPP.
 </dd>
-<dt><a href="http://search.cpan.org/author/MEWP/DBD-Sybase-1.00/Sybase.pm#Specifying_other_connection_specific_parameters">Sybase</a>:</dt>
+<dt><a href=\"http://search.cpan.org/author/MEWP/DBD-Sybase-1.00/Sybase.pm#Specifying_other_connection_specific_parameters\">Sybase</a>:</dt>
 <dd>DBI:Sybase:[server=SERVERNAME][database=DATABASE]<br />
-Musi być zainstalowany moduł DBD::Sybase.<br />
-Należy używać mod_perl i ustawić zmienną <b>PerlSetEnv SYBASE /opt/sybase/11.0.2</b> w pliku konfiguracyjnym httpd.conf.
+Musi by\x{107} zainstalowany modu\x{142} DBD::Sybase.<br />
+Nale\x{17c}y u\x{17c}ywa\x{107} mod_perl i ustawi\x{107} zmienn\x{105} <b>PerlSetEnv SYBASE /opt/sybase/11.0.2</b> w pliku konfiguracyjnym httpd.conf.
 </dd>
-</dl></div>|,
-		lastUpdated => 1146630103
-	},
-
-	'pagination.isFirstPage' => {
-		message => q|A boolean indicating whether the current page is the first page.|,
-		lastUpdated => 1149182026
-	},
-
-	'164' => {
-		message => q|Metoda Autoryzacji|,
-		lastUpdated => 1204892008
-	},
-
-	'807' => {
-		message => q|Zarządzanie grupami w tej grupie.|,
-		lastUpdated => 1207315633
-	},
-
-	'settings groupIdAdminActiveSessions hoverHelp' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'945' => {
-		message => q|Filtr dla Scratch|,
-		lastUpdated => 1207321773
-	},
-
-};
+</dl></div>"
+  },
+  'pagination.isFirstPage' => {
+    'lastUpdated' => 1149182026,
+    'message' => 'A boolean indicating whether the current page is the first page.'
+  },
+  '164' => {
+    'lastUpdated' => 1204892008,
+    'message' => 'Metoda Autoryzacji'
+  },
+  '807' => {
+    'lastUpdated' => 1207315633,
+    'message' => "Zarz\x{105}dzanie grupami w tej grupie."
+  },
+  'settings groupIdAdminActiveSessions hoverHelp' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  '945' => {
+    'lastUpdated' => 1207321773,
+    'message' => 'Filtr dla Scratch'
+  }
+}
+;
 
 1;

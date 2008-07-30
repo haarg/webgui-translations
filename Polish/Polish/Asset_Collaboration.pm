@@ -1,4 +1,5 @@
 package WebGUI::i18n::Polish::Asset_Collaboration;
+use utf8;
 
 our $I18N = {
 	'add.label' => {
@@ -282,8 +283,8 @@ our $I18N = {
 	},
 
 	'id' => {
-		message => q||,
-		lastUpdated => 
+		message => q|ID w zasobach dla wiadomości.|,
+		lastUpdated => 1213347076
 	},
 
 	'karmaIsEnabled' => {
@@ -517,13 +518,18 @@ our $I18N = {
 	},
 
 	'edit timeout description' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Po upłynięciu czasu przerwy, wiadomość nie może być dłużej edytowana przez tw&oacute;rcę wiadomości.|,
+		lastUpdated => 1213346809
 	},
 
 	'post title' => {
 		message => q|Tytuł wiadomości (komunikatu).|,
 		lastUpdated => 1204886329
+	},
+
+	'editForm archiveEnabled description' => {
+		message => q||,
+		lastUpdated => 
 	},
 
 	'content' => {
@@ -1177,8 +1183,8 @@ our $I18N = {
 	},
 
 	'user.isSubscribed' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Zmienna warunkowa zwracająca prawdę jeśli bieżący użytkownik jest zapisany do tego zasobu systemu wsp&oacute;łpracy.|,
+		lastUpdated => 1213347284
 	},
 
 	'sequence' => {
@@ -1282,8 +1288,8 @@ our $I18N = {
 	},
 
 	'edit stamp description' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Wybierz &quot;Tak&quot; aby dodać znak do każdej wiadomości m&oacute;wiący kiedy była ona ostatnio edytowana.|,
+		lastUpdated => 1213345849
 	},
 
 	'collaboration search template title' => {
@@ -1372,8 +1378,8 @@ our $I18N = {
 	},
 
 	'user.label' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Słowo &quot;Użytkownik&quot;.|,
+		lastUpdated => 1213347125
 	},
 
 	'lastReply' => {
@@ -1414,6 +1420,11 @@ our $I18N = {
 	'assetName' => {
 		message => q|System Wsp&oacute;łpracy|,
 		lastUpdated => 1204791032
+	},
+
+	'editForm archiveEnabled label' => {
+		message => q||,
+		lastUpdated => 
 	},
 
 	'enable metadata' => {

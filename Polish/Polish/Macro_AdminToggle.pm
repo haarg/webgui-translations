@@ -1,4 +1,5 @@
 package WebGUI::i18n::Polish::Macro_AdminToggle;
+use utf8;
 
 our $I18N = {
 
