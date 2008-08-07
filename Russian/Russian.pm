@@ -19,6 +19,8 @@ my @from = ("а", "б", "в", "г", "д", "е", "ё",  "ж", "з", "и", "й", "
 my @to = ("a", "b", "v", "g", "d", "e", "jo",  "zh", "z", "i", "j", "k", "l", "m", "n", "o", "p", "r", "s", "t", "u", "f", "kh", "ts", "ch", "sh", "sch", "'", "y", "'", "e", "ju", "ja", "i", "ji", "e", "A", "B", "V", "G", "D", "E", "JO",  "ZH", "Z", "I", "J", "K", "L", "M", "N", "O", "P", "R", "S", "T", "U", "F", "KH", "TS", "CH", "SH", "SCH", "", "Y", "", "E", "JU", "JA", "I", "JI", "E");
 for (my $i = 0; $i < @from; $i++){$value =~ s/$from[$i]/$to[$i]/g;}
 
+
+
 ##<-- end transliteration -->##
     $value =~ s/\s+$//;                     #removes trailing whitespace
     $value =~ s/^\s+//;                     #removes leading whitespace
