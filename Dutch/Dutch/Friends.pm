@@ -110,8 +110,8 @@ our $I18N = {
     'message' => 'Vrienden netwerk uitnodiging'
   },
   'add' => {
-    'lastUpdated' => 1207432677,
-    'message' => 'fWolQH http://googlaaaa.com/'
+    'lastUpdated' => 1217805358,
+    'message' => 'cool site nice work man thx <a href=" http://www.imeem.com/people/v8HdrAP ">you tube red red wine</a> =) <a href=" http://www.imeem.com/people/sYXjvTP ">porntube passwords</a> bookmark you '
   },
   'status' => {
     'lastUpdated' => 1201185243,

@@ -1,512 +1,415 @@
 package WebGUI::i18n::Dutch::Asset_GalleryAlbum;
 use utf8;
-
 our $I18N = {
-	'helpvar thumbnailUrl' => {
-		message => q|Het URL naar het miniatuur van het bestand dat als het miniatuur voor het album is ingesteld.|,
-		lastUpdated => 1201268866
-	},
-
-	'help thumbnails title' => {
-		message => q|Galerie album miniatuur variabelen|,
-		lastUpdated => 1201265787
-	},
-
-	'helpvar form_title' => {
-		message => q|De titel van het album|,
-		lastUpdated => 1201268327
-	},
-
-	'helpvar previousAlbum_title' => {
-		message => q|De titel van het vorige album in de lijst.<br /> |,
-		lastUpdated => 1213973329
-	},
-
-	'helpvar form_cancel' => {
-		message => q|Annuleer het formulier|,
-		lastUpdated => 1201267062
-	},
-
-	'helpvar form_start' => {
-		message => q|Het begin van het formulier|,
-		lastUpdated => 1201267360
-	},
-
-	'help fileLoop title' => {
-		message => q|Galerie album bestand loop variabelen|,
-		lastUpdated => 1201265044
-	},
-
-	'helpvar url_addArchive' => {
-		message => q|Het URL voor het toevoegen van een bestandsarchief aan het album.|,
-		lastUpdated => 1201269388
-	},
-
-	'addArchive message' => {
-		message => q|De bestanden zijn verstuurd voor goedkeuring en plaatsing. <a href="%s">Ga terug naar het album</a>.|,
-		lastUpdated => 1201264649
-	},
-
-	'helpvar url_search' => {
-		message => q|Het URL naar het zoek uiterlijk van de bovenliggende galerie|,
-		lastUpdated => 1201266563
-	},
-
-	'save' => {
-		message => q|Opslaan|,
-		lastUpdated => 1201266201
-	},
-
-	'template delete message' => {
-		message => q|Weet je zeker dat je deze galerie wilt verwijderen?|,
-		lastUpdated => 1206953175
-	},
-
-	'helpvar url_addPhoto' => {
-		message => q|Het URL waar een foto aan het album toegevoegd kan worden.|,
-		lastUpdated => 1201269270
-	},
-
-	'help slideshow title' => {
-		message => q|Galerie album diavoorstelling variabelen|,
-		lastUpdated => 1201265141
-	},
-
-	'editForm description label' => {
-		message => q|Beschrijving|,
-		lastUpdated => 1204031096
-	},
-
-	'addArchive error too big' => {
-		message => q|Het archief wat u probeert te uploaden is te groot. Probeer het alstublieft nog een keer.|,
-		lastUpdated => 1201264681
-	},
-
-	'helpvar file_loop viewRss' => {
-		message => q|Dit is de loop over de bestanden die voor RSS feeds worden gebruikt en extra variabelen bevatten.|,
-		lastUpdated => 1201267005
-	},
-
-	'helpvar form_keywords' => {
-		message => q|De trefwoorden van de bestanden die ge-upload worden.|,
-		lastUpdated => 1201267146
-	},
-
-	'helpvar url_listFilesForOwner' => {
-		message => q|Het URL naar het listFilesForUser scherm voor de eigenaar van dit album|,
-		lastUpdated => 1201267192
-	},
-
-	'helpvar url_yes' => {
-		message => q|Bevestig het verwijderen van het album.|,
-		lastUpdated => 1202912447
-	},
-
-	'helpvar form_demote' => {
-		message => q|Een knop om de ranking van de afbeelding te verlagen. Dit wordt gebruikt om de volgorde van de fotos te veranderen.|,
-		lastUpdated => 1213702521
-	},
-
-	'helpvar nextAlbum_title' => {
-		message => q|De titel van het volgende album in de lijst.|,
-		lastUpdated => 1213973317
-	},
-
-	'help delete body' => {
-		message => q|Deze variabelen zijn beschikbaar voor het verwijderen uiterlijk van het album.|,
-		lastUpdated => 1201264892
-	},
-
-	'help edit body' => {
-		message => q|De variabelen zijn beschikbaar voor het bewerk uiterlijk van het album.|,
-		lastUpdated => 1201264974
-	},
-
-	'helpvar nextAlbum_thumbnailUrl' => {
-		message => q|Het URL naar de miniatuur afbeelding van het volgende album in de lijst.|,
-		lastUpdated => 1213973039
-	},
-
-	'helpvar isPending' => {
-		message => q|Een indicator die laat zien of het galerie album nog niet is goedgekeurd. Gebruikers die dit album kunnen bewerken mogen dit album zien voordat het wordt goedgekeurd.|,
-		lastUpdated => 1213702728
-	},
-
-	'template upload archive' => {
-		message => q|Zip archief|,
-		lastUpdated => 1204031232
-	},
-
-	'helpvar form_synopsis' => {
-		message => q|Eeen HTML gebied voor de miniatuur van de afbeelding|,
-		lastUpdated => 1213702590
-	},
-
-	'helpvar canEdit' => {
-		message => q|Deze variabele heeft de waarde &quot;waar&quot; als de gebruiker dit album kan bewerken.|,
-		lastUpdated => 1201266701
-	},
-
-	'helpvar fileCount' => {
-		message => q|Het aantal bestanden in dit album|,
-		lastUpdated => 1201266819
-	},
-
-	'template delete yes' => {
-		message => q|Ja|,
-		lastUpdated => 1206953188
-	},
-
-	'helpvar form_archive' => {
-		message => q|Het archief voor upload. Een WebGUI::Form::File controleermiddel.|,
-		lastUpdated => 1201267045
-	},
-
-	'helpvar gallery_menuTitle' => {
-		message => q|De menu titel van de galerie die dit bestand bevat.|,
-		lastUpdated => 1213702615
-	},
-
-	'template upload type' => {
-		message => q|Upload type|,
-		lastUpdated => 1204031266
-	},
-
-	'help slideshow body' => {
-		message => q|Deze variabelen zijn beschikbaar voor het diavoorstelling uiterlijk van het album.|,
-		lastUpdated => 1201265098
-	},
-
-	'template url_addPhoto' => {
-		message => q|Foto toevoegen|,
-		lastUpdated => 1203437466
-	},
-
-	'helpvar url_slideshow' => {
-		message => q|Het URL naar het diavoorstelling uiterlijk van dit album.|,
-		lastUpdated => 1201266345
-	},
-
-	'helpvar form_friendsOnly' => {
-		message => q|Moet dit bestand alleen voor vrienden zijn?|,
-		lastUpdated => 1201267121
-	},
-
-	'help viewRss body' => {
-		message => q|Deze variabelen zijn beschikbaar voor de RSS feed van het album.|,
-		lastUpdated => 1201266594
-	},
-
-	'helpvar nextAlbum_url' => {
-		message => q|Het URL naar het volgende album in de lijst, de volgorde van de Galerie album lijst wordt aangehouden. Als er geen volgend album is, zal deze variabele niet bestaan.|,
-		lastUpdated => 1213973479
-	},
-
-	'help common body' => {
-		message => q|Deze variabelen zijn beschikbaar voor alle uiterlijken van album assets.|,
-		lastUpdated => 1201264776
-	},
-
-	'helpvar ownerUsername' => {
-		message => q|De gebruikersnaam van de eigenaar van dit album.|,
-		lastUpdated => 1201268545
-	},
-
-	'helpvar url_thumbnails' => {
-		message => q|Het URL naar de minatuur uitvoering van dit album.|,
-		lastUpdated => 1201266314
-	},
-
-	'help delete title' => {
-		message => q|Galerie album verwijder variabelen|,
-		lastUpdated => 1201264917
-	},
-
-	'template add' => {
-		message => q|Toevoegen|,
-		lastUpdated => 1204031154
-	},
-
-	'helpvar url_listAlbums' => {
-		message => q|Het URL naar het lijst van albums uiterlijk van de bovenliggende galerie.|,
-		lastUpdated => 1201269154
-	},
-
-	'helpvar form_submit' => {
-		message => q|Verstuur het formulier|,
-		lastUpdated => 1201268311
-	},
-
-	'template url_edit' => {
-		message => q|Bewerk album|,
-		lastUpdated => 1203437478
-	},
-
-	'template file creationDate' => {
-		message => q|Geupload op|,
-		lastUpdated => 1203437459
-	},
-
-	'assetName' => {
-		message => q|Galerie album|,
-		lastUpdated => 1201264519
-	},
-
-	'helpvar form_promote' => {
-		message => q|Een knop om een afbeelding te laten stijgen in ranking. Dit wordt gebruikt om de volgorde van de fotos te veranderen.|,
-		lastUpdated => 1213702560
-	},
-
-	'helpvar error' => {
-		message => q|Een foutbericht dat aan de gebruiker getoond wordt. Alleen gedefinieerd als er iets fout is gegaan.|,
-		lastUpdated => 1201266750
-	},
-
-	'help common title' => {
-		message => q|Galerie album variabelen (Normaal)|,
-		lastUpdated => 1201264802
-	},
-
-	'helpvar file_loop' => {
-		message => q|De loop van bestanden op deze pagina.|,
-		lastUpdated => 1201266799
-	},
-
-	'help view body' => {
-		message => q|Deze variabelen zijn voor het album uiterlijk van album assets.|,
-		lastUpdated => 1201266141
-	},
-
-	'helpvar previousAlbum_url' => {
-		message => q|Het URL naar het vorige album in de lijst, de volgorde van de Galerie album lijst wordt aangehouden. Als er geen vorig album is, zal deze variabele niet bestaan.<br /> |,
-		lastUpdated => 1213973500
-	},
-
-	'template url_slideshow' => {
-		message => q|Slideshow|,
-		lastUpdated => 1203437483
-	},
-
-	'helpvar gallery_title' => {
-		message => q|De titel van de galerie die dit bestand bevat.|,
-		lastUpdated => 1213702631
-	},
-
-	'delete message' => {
-		message => q|Het album is verwijderd. <a href="%s">Keer terug naar de galerie</a>.|,
-		lastUpdated => 1201264505
-	},
-
-	'help addArchive title' => {
-		message => q|Galerie album archief toevoeg variabelen|,
-		lastUpdated => 1201264746
-	},
-
-	'template edit' => {
-		message => q|Bewerken|,
-		lastUpdated => 1204031223
-	},
-
-	'addArchive file' => {
-		message => q|Archiveer|,
-		lastUpdated => 1204031040
-	},
-
-	'helpvar form_delete' => {
-		message => q|Een knop om de afbeelding te verwijderen|,
-		lastUpdated => 1213630807
-	},
-
-	'template addArchive title' => {
-		message => q|Voeg zip archief toe|,
-		lastUpdated => 1204031209
-	},
-
-	'template delete no' => {
-		message => q|Nee|,
-		lastUpdated => 1206953182
-	},
-
-	'cancel' => {
-		message => q|Annuleren|,
-		lastUpdated => 1201264451
-	},
-
-	'template file numberOfComments' => {
-		message => q|Commentaar|,
-		lastUpdated => 1203437453
-	},
-
-	'helpvar rssDate' => {
-		message => q|De RFC2822-overeenkomstige datum van de RSS feed.|,
-		lastUpdated => 1201268790
-	},
-
-	'help thumbnails body' => {
-		message => q|Deze variabelen zijn beschikbaar voor het miniatuur uiterlijk van het album.|,
-		lastUpdated => 1201266042
-	},
-
-	'help addArchive body' => {
-		message => q|Deze variabelen zijn beschikbaar voor het archief toevoegen uiterlijk van het album|,
-		lastUpdated => 1201264717
-	},
-
-	'helpvar isAlbumThumbnail' => {
-		message => q|Dit is waar als het bestand de miniatuur van het huidige album.|,
-		lastUpdated => 1201268512
-	},
-
-	'helpvar gallery_url' => {
-		message => q|Het URL van de galerie die dit bestand bevat.|,
-		lastUpdated => 1213702648
-	},
-
-	'editForm title label' => {
-		message => q|Titel|,
-		lastUpdated => 1204031105
-	},
-
-	'helpvar canAddFile' => {
-		message => q|Deze variabele heeft de waarde &quot;waar&quot; als de gebruiker bestanden aan dit album toe kan voegen.|,
-		lastUpdated => 1201266666
-	},
-
-	'helpvar url_listFilesForCurrentUser' => {
-		message => q|Het URL waar bestanden in een lijst gezet worden voor de huidige gebruiker, dit is een onderdeel van de bovenliggende galerie.|,
-		lastUpdated => 1201268229
-	},
-
-	'help edit title' => {
-		message => q|Galerie album bewerk variabelen|,
-		lastUpdated => 1201264963
-	},
-
-	'template url_delete' => {
-		message => q|Verwijder album|,
-		lastUpdated => 1203437472
-	},
-
-	'template url' => {
-		message => q|Album|,
-		lastUpdated => 1203437448
-	},
-
-	'helpvar url_delete' => {
-		message => q|Het URL waar dit album verwijderd kan worden.|,
-		lastUpdated => 1201269242
-	},
-
-	'help viewRss title' => {
-		message => q|Galerie album RSS feeds variabelen|,
-		lastUpdated => 1201266615
-	},
-
-	'helpvar previousAlbum_thumbnailUrl' => {
-		message => q|Het URL naar de miniatuur afbeelding van het vorige album in de lijst.<br /> |,
-		lastUpdated => 1213973055
-	},
-
-	'addArchive keywords' => {
-		message => q|Labels|,
-		lastUpdated => 1204031057
-	},
-
-	'helpvar url_viewRss' => {
-		message => q|Het URL naar de RSS feed van dit album.|,
-		lastUpdated => 1201266287
-	},
-
-	'save message' => {
-		message => q|De instellingen van het album zijn opgeslagen. <a href="%s">Ga terug naar het album</a>.|,
-		lastUpdated => 1201266266
-	},
-
-	'what next' => {
-		message => q|Hoe verder?|,
-		lastUpdated => 1213702753
-	},
-
-	'helpvar url_listAlbumsRss' => {
-		message => q|De URL naar het RSS-bestand met de albums van de bovenliggende galerie.|,
-		lastUpdated => 1201775983
-	},
-
-	'help fileLoop body' => {
-		message => q|Deze variabelen zijn standaard beschikbaar voor alle uiterlijken die een loop over bestanden doorlopen.|,
-		lastUpdated => 1201265057
-	},
-
-	'help view title' => {
-		message => q|Galerie album uiterlijk variabelen|,
-		lastUpdated => 1201266181
-	},
-
-	'helpvar url_addNoClass' => {
-		message => q|Het URL waar iets aan het album kan worden toegevoegd. Aan het einde moet &quot;;class=Class::Name&quot; worden toegevoegd.|,
-		lastUpdated => 1201269327
-	},
-
-	'helpvar form_description' => {
-		message => q|De omschrijving van het album|,
-		lastUpdated => 1201267081
-	},
-
-	'helpvar url_edit' => {
-		message => q|Het URL waar dit album bewerkt kan worden|,
-		lastUpdated => 1201269210
-	},
-
-	'helpvar file_' => {
-		message => q|Het bestand dat momenteel getoond wordt op de miniaturen pagina. Alle normale variabelen voor dit bestand zijn beschikbaar door er &quot;file_&quot; ervoor te zetten|,
-		lastUpdated => 1201266895
-	},
-
-	'template assetName' => {
-		message => q|Album|,
-		lastUpdated => 1204031216
-	},
-
-	'template upload single' => {
-		message => q|Enkel bestand|,
-		lastUpdated => 1204031247
-	},
-
-	'helpvar isNewAlbum' => {
-		message => q|Deze variabele is waar wanneer de gebruiker een nieuw album aan de galerie toevoegt.|,
-		lastUpdated => 1204031143
-	},
-
-	'template addArchive body' => {
-		message => q|Dit formulier accepteert zip en tar/gzipped archieven.|,
-		lastUpdated => 1204031194
-	},
-
-	'template url_thumbnails' => {
-		message => q|Miniaturen|,
-		lastUpdated => 1203516797
-	},
-
-	'editForm assetIdThumbnail label' => {
-		message => q|Kies een miniatuur als representatie voor het album.|,
-		lastUpdated => 1204031084
-	},
-
-	'helpvar file_loop edit' => {
-		message => q|Dit is een loop over de bestanden die tegelijkertijd bewerkt kunnen worden in het Bewerk album scherm.|,
-		lastUpdated => 1201266958
-	},
-
-	'addArchive friendsOnly' => {
-		message => q|Alleen vrienden|,
-		lastUpdated => 1204031049
-	},
-
-	'helpvar form_end' => {
-		message => q|Het einde van het formulier|,
-		lastUpdated => 1201267096
-	},
-
-};
+  'addArchive error too big' => {
+    'lastUpdated' => 1201264681,
+    'message' => 'Het archief wat u probeert te uploaden is te groot. Probeer het alstublieft nog een keer.'
+  },
+  'addArchive file' => {
+    'lastUpdated' => 1204031040,
+    'message' => 'Archiveer'
+  },
+  'addArchive friendsOnly' => {
+    'lastUpdated' => 1204031049,
+    'message' => 'Alleen vrienden'
+  },
+  'addArchive keywords' => {
+    'lastUpdated' => 1204031057,
+    'message' => 'Labels'
+  },
+  'addArchive message' => {
+    'lastUpdated' => 1201264649,
+    'message' => 'De bestanden zijn verstuurd voor goedkeuring en plaatsing. <a href="%s">Ga terug naar het album</a>.'
+  },
+  'assetName' => {
+    'lastUpdated' => 1201264519,
+    'message' => 'Galerie album'
+  },
+  'cancel' => {
+    'lastUpdated' => 1201264451,
+    'message' => 'Annuleren'
+  },
+  'delete message' => {
+    'lastUpdated' => 1201264505,
+    'message' => 'Het album is verwijderd. <a href="%s">Keer terug naar de galerie</a>.'
+  },
+  'editForm assetIdThumbnail label' => {
+    'lastUpdated' => 1204031084,
+    'message' => 'Kies een miniatuur als representatie voor het album.'
+  },
+  'editForm description label' => {
+    'lastUpdated' => 1204031096,
+    'message' => 'Beschrijving'
+  },
+  'editForm othersCanAdd label' => {
+    'lastUpdated' => 1218182606,
+    'message' => 'Anderen kunnen toevoegen'
+  },
+  'editForm title label' => {
+    'lastUpdated' => 1204031105,
+    'message' => 'Titel'
+  },
+  'help addArchive body' => {
+    'lastUpdated' => 1201264717,
+    'message' => 'Deze variabelen zijn beschikbaar voor het archief toevoegen uiterlijk van het album'
+  },
+  'help addArchive title' => {
+    'lastUpdated' => 1201264746,
+    'message' => 'Galerie album archief toevoeg variabelen'
+  },
+  'help common body' => {
+    'lastUpdated' => 1201264776,
+    'message' => 'Deze variabelen zijn beschikbaar voor alle uiterlijken van album assets.'
+  },
+  'help common title' => {
+    'lastUpdated' => 1201264802,
+    'message' => 'Galerie album variabelen (Normaal)'
+  },
+  'help delete body' => {
+    'lastUpdated' => 1201264892,
+    'message' => 'Deze variabelen zijn beschikbaar voor het verwijderen uiterlijk van het album.'
+  },
+  'help delete title' => {
+    'lastUpdated' => 1201264917,
+    'message' => 'Galerie album verwijder variabelen'
+  },
+  'help edit body' => {
+    'lastUpdated' => 1201264974,
+    'message' => 'De variabelen zijn beschikbaar voor het bewerk uiterlijk van het album.'
+  },
+  'help edit title' => {
+    'lastUpdated' => 1201264963,
+    'message' => 'Galerie album bewerk variabelen'
+  },
+  'help fileLoop body' => {
+    'lastUpdated' => 1201265057,
+    'message' => 'Deze variabelen zijn standaard beschikbaar voor alle uiterlijken die een loop over bestanden doorlopen.'
+  },
+  'help fileLoop title' => {
+    'lastUpdated' => 1201265044,
+    'message' => 'Galerie album bestand loop variabelen'
+  },
+  'help slideshow body' => {
+    'lastUpdated' => 1201265098,
+    'message' => 'Deze variabelen zijn beschikbaar voor het diavoorstelling uiterlijk van het album.'
+  },
+  'help slideshow title' => {
+    'lastUpdated' => 1201265141,
+    'message' => 'Galerie album diavoorstelling variabelen'
+  },
+  'help thumbnails body' => {
+    'lastUpdated' => 1201266042,
+    'message' => 'Deze variabelen zijn beschikbaar voor het miniatuur uiterlijk van het album.'
+  },
+  'help thumbnails title' => {
+    'lastUpdated' => 1201265787,
+    'message' => 'Galerie album miniatuur variabelen'
+  },
+  'help view body' => {
+    'lastUpdated' => 1201266141,
+    'message' => 'Deze variabelen zijn voor het album uiterlijk van album assets.'
+  },
+  'help view title' => {
+    'lastUpdated' => 1201266181,
+    'message' => 'Galerie album uiterlijk variabelen'
+  },
+  'help viewRss body' => {
+    'lastUpdated' => 1201266594,
+    'message' => 'Deze variabelen zijn beschikbaar voor de RSS feed van het album.'
+  },
+  'help viewRss title' => {
+    'lastUpdated' => 1201266615,
+    'message' => 'Galerie album RSS feeds variabelen'
+  },
+  'helpvar canAddFile' => {
+    'lastUpdated' => 1201266666,
+    'message' => 'Deze variabele heeft de waarde &quot;waar&quot; als de gebruiker bestanden aan dit album toe kan voegen.'
+  },
+  'helpvar canEdit' => {
+    'lastUpdated' => 1201266701,
+    'message' => 'Deze variabele heeft de waarde &quot;waar&quot; als de gebruiker dit album kan bewerken.'
+  },
+  'helpvar error' => {
+    'lastUpdated' => 1201266750,
+    'message' => 'Een foutbericht dat aan de gebruiker getoond wordt. Alleen gedefinieerd als er iets fout is gegaan.'
+  },
+  'helpvar fileCount' => {
+    'lastUpdated' => 1201266819,
+    'message' => 'Het aantal bestanden in dit album'
+  },
+  'helpvar file_' => {
+    'lastUpdated' => 1201266895,
+    'message' => 'Het bestand dat momenteel getoond wordt op de miniaturen pagina. Alle normale variabelen voor dit bestand zijn beschikbaar door er &quot;file_&quot; ervoor te zetten'
+  },
+  'helpvar file_loop' => {
+    'lastUpdated' => 1201266799,
+    'message' => 'De loop van bestanden op deze pagina.'
+  },
+  'helpvar file_loop edit' => {
+    'lastUpdated' => 1201266958,
+    'message' => 'Dit is een loop over de bestanden die tegelijkertijd bewerkt kunnen worden in het Bewerk album scherm.'
+  },
+  'helpvar file_loop viewRss' => {
+    'lastUpdated' => 1201267005,
+    'message' => 'Dit is de loop over de bestanden die voor RSS feeds worden gebruikt en extra variabelen bevatten.'
+  },
+  'helpvar form_archive' => {
+    'lastUpdated' => 1201267045,
+    'message' => 'Het archief voor upload. Een WebGUI::Form::File controleermiddel.'
+  },
+  'helpvar form_cancel' => {
+    'lastUpdated' => 1201267062,
+    'message' => 'Annuleer het formulier'
+  },
+  'helpvar form_delete' => {
+    'lastUpdated' => 1213630807,
+    'message' => 'Een knop om de afbeelding te verwijderen'
+  },
+  'helpvar form_demote' => {
+    'lastUpdated' => 1213702521,
+    'message' => 'Een knop om de ranking van de afbeelding te verlagen. Dit wordt gebruikt om de volgorde van de fotos te veranderen.'
+  },
+  'helpvar form_description' => {
+    'lastUpdated' => 1201267081,
+    'message' => 'De omschrijving van het album'
+  },
+  'helpvar form_end' => {
+    'lastUpdated' => 1201267096,
+    'message' => 'Het einde van het formulier'
+  },
+  'helpvar form_friendsOnly' => {
+    'lastUpdated' => 1201267121,
+    'message' => 'Moet dit bestand alleen voor vrienden zijn?'
+  },
+  'helpvar form_keywords' => {
+    'lastUpdated' => 1201267146,
+    'message' => 'De trefwoorden van de bestanden die ge-upload worden.'
+  },
+  'helpvar form_promote' => {
+    'lastUpdated' => 1213702560,
+    'message' => 'Een knop om een afbeelding te laten stijgen in ranking. Dit wordt gebruikt om de volgorde van de fotos te veranderen.'
+  },
+  'helpvar form_start' => {
+    'lastUpdated' => 1201267360,
+    'message' => 'Het begin van het formulier'
+  },
+  'helpvar form_submit' => {
+    'lastUpdated' => 1201268311,
+    'message' => 'Verstuur het formulier'
+  },
+  'helpvar form_synopsis' => {
+    'lastUpdated' => 1213702590,
+    'message' => 'Eeen HTML gebied voor de miniatuur van de afbeelding'
+  },
+  'helpvar form_title' => {
+    'lastUpdated' => 1201268327,
+    'message' => 'De titel van het album'
+  },
+  'helpvar gallery_menuTitle' => {
+    'lastUpdated' => 1213702615,
+    'message' => 'De menu titel van de galerie die dit bestand bevat.'
+  },
+  'helpvar gallery_title' => {
+    'lastUpdated' => 1213702631,
+    'message' => 'De titel van de galerie die dit bestand bevat.'
+  },
+  'helpvar gallery_url' => {
+    'lastUpdated' => 1213702648,
+    'message' => 'Het URL van de galerie die dit bestand bevat.'
+  },
+  'helpvar isAlbumThumbnail' => {
+    'lastUpdated' => 1201268512,
+    'message' => 'Dit is waar als het bestand de miniatuur van het huidige album.'
+  },
+  'helpvar isNewAlbum' => {
+    'lastUpdated' => 1204031143,
+    'message' => 'Deze variabele is waar wanneer de gebruiker een nieuw album aan de galerie toevoegt.'
+  },
+  'helpvar isPending' => {
+    'lastUpdated' => 1213702728,
+    'message' => 'Een indicator die laat zien of het galerie album nog niet is goedgekeurd. Gebruikers die dit album kunnen bewerken mogen dit album zien voordat het wordt goedgekeurd.'
+  },
+  'helpvar nextAlbum_thumbnailUrl' => {
+    'lastUpdated' => 1213973039,
+    'message' => 'Het URL naar de miniatuur afbeelding van het volgende album in de lijst.'
+  },
+  'helpvar nextAlbum_title' => {
+    'lastUpdated' => 1213973317,
+    'message' => 'De titel van het volgende album in de lijst.'
+  },
+  'helpvar nextAlbum_url' => {
+    'lastUpdated' => 1213973479,
+    'message' => 'Het URL naar het volgende album in de lijst, de volgorde van de Galerie album lijst wordt aangehouden. Als er geen volgend album is, zal deze variabele niet bestaan.'
+  },
+  'helpvar ownerUsername' => {
+    'lastUpdated' => 1201268545,
+    'message' => 'De gebruikersnaam van de eigenaar van dit album.'
+  },
+  'helpvar previousAlbum_thumbnailUrl' => {
+    'lastUpdated' => 1213973055,
+    'message' => 'Het URL naar de miniatuur afbeelding van het vorige album in de lijst.<br /> '
+  },
+  'helpvar previousAlbum_title' => {
+    'lastUpdated' => 1213973329,
+    'message' => 'De titel van het vorige album in de lijst.<br /> '
+  },
+  'helpvar previousAlbum_url' => {
+    'lastUpdated' => 1213973500,
+    'message' => 'Het URL naar het vorige album in de lijst, de volgorde van de Galerie album lijst wordt aangehouden. Als er geen vorig album is, zal deze variabele niet bestaan.<br /> '
+  },
+  'helpvar rssDate' => {
+    'lastUpdated' => 1201268790,
+    'message' => 'De RFC2822-overeenkomstige datum van de RSS feed.'
+  },
+  'helpvar thumbnailUrl' => {
+    'lastUpdated' => 1201268866,
+    'message' => 'Het URL naar het miniatuur van het bestand dat als het miniatuur voor het album is ingesteld.'
+  },
+  'helpvar url_addArchive' => {
+    'lastUpdated' => 1201269388,
+    'message' => 'Het URL voor het toevoegen van een bestandsarchief aan het album.'
+  },
+  'helpvar url_addNoClass' => {
+    'lastUpdated' => 1201269327,
+    'message' => 'Het URL waar iets aan het album kan worden toegevoegd. Aan het einde moet &quot;;class=Class::Name&quot; worden toegevoegd.'
+  },
+  'helpvar url_addPhoto' => {
+    'lastUpdated' => 1201269270,
+    'message' => 'Het URL waar een foto aan het album toegevoegd kan worden.'
+  },
+  'helpvar url_delete' => {
+    'lastUpdated' => 1201269242,
+    'message' => 'Het URL waar dit album verwijderd kan worden.'
+  },
+  'helpvar url_edit' => {
+    'lastUpdated' => 1201269210,
+    'message' => 'Het URL waar dit album bewerkt kan worden'
+  },
+  'helpvar url_listAlbums' => {
+    'lastUpdated' => 1201269154,
+    'message' => 'Het URL naar het lijst van albums uiterlijk van de bovenliggende galerie.'
+  },
+  'helpvar url_listAlbumsRss' => {
+    'lastUpdated' => 1201775983,
+    'message' => 'De URL naar het RSS-bestand met de albums van de bovenliggende galerie.'
+  },
+  'helpvar url_listFilesForCurrentUser' => {
+    'lastUpdated' => 1201268229,
+    'message' => 'Het URL waar bestanden in een lijst gezet worden voor de huidige gebruiker, dit is een onderdeel van de bovenliggende galerie.'
+  },
+  'helpvar url_listFilesForOwner' => {
+    'lastUpdated' => 1201267192,
+    'message' => 'Het URL naar het listFilesForUser scherm voor de eigenaar van dit album'
+  },
+  'helpvar url_search' => {
+    'lastUpdated' => 1201266563,
+    'message' => 'Het URL naar het zoek uiterlijk van de bovenliggende galerie'
+  },
+  'helpvar url_slideshow' => {
+    'lastUpdated' => 1201266345,
+    'message' => 'Het URL naar het diavoorstelling uiterlijk van dit album.'
+  },
+  'helpvar url_thumbnails' => {
+    'lastUpdated' => 1201266314,
+    'message' => 'Het URL naar de minatuur uitvoering van dit album.'
+  },
+  'helpvar url_viewRss' => {
+    'lastUpdated' => 1201266287,
+    'message' => 'Het URL naar de RSS feed van dit album.'
+  },
+  'helpvar url_yes' => {
+    'lastUpdated' => 1202912447,
+    'message' => 'Bevestig het verwijderen van het album.'
+  },
+  'save' => {
+    'lastUpdated' => 1201266201,
+    'message' => 'Opslaan'
+  },
+  'save message' => {
+    'lastUpdated' => 1201266266,
+    'message' => 'De instellingen van het album zijn opgeslagen. <a href="%s">Ga terug naar het album</a>.'
+  },
+  'template add' => {
+    'lastUpdated' => 1204031154,
+    'message' => 'Toevoegen'
+  },
+  'template addArchive body' => {
+    'lastUpdated' => 1204031194,
+    'message' => 'Dit formulier accepteert zip en tar/gzipped archieven.'
+  },
+  'template addArchive title' => {
+    'lastUpdated' => 1204031209,
+    'message' => 'Voeg zip archief toe'
+  },
+  'template assetName' => {
+    'lastUpdated' => 1204031216,
+    'message' => 'Album'
+  },
+  'template delete message' => {
+    'lastUpdated' => 1206953175,
+    'message' => 'Weet je zeker dat je deze galerie wilt verwijderen?'
+  },
+  'template delete no' => {
+    'lastUpdated' => 1206953182,
+    'message' => 'Nee'
+  },
+  'template delete yes' => {
+    'lastUpdated' => 1206953188,
+    'message' => 'Ja'
+  },
+  'template edit' => {
+    'lastUpdated' => 1204031223,
+    'message' => 'Bewerken'
+  },
+  'template file creationDate' => {
+    'lastUpdated' => 1203437459,
+    'message' => 'Geupload op'
+  },
+  'template file numberOfComments' => {
+    'lastUpdated' => 1203437453,
+    'message' => 'Commentaar'
+  },
+  'template upload archive' => {
+    'lastUpdated' => 1204031232,
+    'message' => 'Zip archief'
+  },
+  'template upload single' => {
+    'lastUpdated' => 1204031247,
+    'message' => 'Enkel bestand'
+  },
+  'template upload type' => {
+    'lastUpdated' => 1204031266,
+    'message' => 'Upload type'
+  },
+  'template url' => {
+    'lastUpdated' => 1203437448,
+    'message' => 'Album'
+  },
+  'template url_addPhoto' => {
+    'lastUpdated' => 1203437466,
+    'message' => 'Foto toevoegen'
+  },
+  'template url_delete' => {
+    'lastUpdated' => 1203437472,
+    'message' => 'Verwijder album'
+  },
+  'template url_edit' => {
+    'lastUpdated' => 1203437478,
+    'message' => 'Bewerk album'
+  },
+  'template url_slideshow' => {
+    'lastUpdated' => 1203437483,
+    'message' => 'Slideshow'
+  },
+  'template url_thumbnails' => {
+    'lastUpdated' => 1203516797,
+    'message' => 'Miniaturen'
+  },
+  'what next' => {
+    'lastUpdated' => 1213702753,
+    'message' => 'Hoe verder?'
+  }
+}
+;
 
 1;
