@@ -1,4 +1,5 @@
 package WebGUI::i18n::Swedish::Macro_L_loginBox;
+use utf8;
 
 our $I18N = {
 	'username.form' => {

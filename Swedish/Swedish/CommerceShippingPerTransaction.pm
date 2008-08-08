@@ -1,4 +1,5 @@
 package WebGUI::i18n::Swedish::CommerceShippingPerTransaction;
+use utf8;
 
 our $I18N = {
 };
