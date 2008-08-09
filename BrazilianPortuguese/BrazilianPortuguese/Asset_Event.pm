@@ -1,22 +1,27 @@
 package WebGUI::i18n::BrazilianPortuguese::Asset_Event;
-
-
+use utf8;
 our $I18N = {
-	'locale' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'add/edit title' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'assetName' => {
-		message => q|Evento|,
-		lastUpdated => 1168971319
-	},
-
-};
+  'add/edit title' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'assetName' => {
+    'lastUpdated' => 1168971319,
+    'message' => 'Evento'
+  },
+  'end' => {
+    'lastUpdated' => 1218264042,
+    'message' => 'Fim'
+  },
+  'errors' => {
+    'lastUpdated' => 1218264051,
+    'message' => 'Erros!'
+  },
+  'locale' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  }
+}
+;
 
 1;

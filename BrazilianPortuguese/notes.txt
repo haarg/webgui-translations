@@ -1,0 +1,9 @@
+NOTES
+=====
+
+People who've worked on this translation
+
+* Nuba Princigalli - nuba@fastmail.fm
+  * Started translation in 2005 and worked it up to almost complete by WebGUI 6.2.x
+  * Resuming work, currently (7.5.x) translating again. Any help is most welcome.
+

@@ -1,4 +1,5 @@
 package WebGUI::i18n::BrazilianPortuguese::Icon;
+use utf8;
 
 our $I18N = {
 	'Move Up' => {

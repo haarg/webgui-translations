@@ -1,4 +1,5 @@
 package WebGUI::i18n::BrazilianPortuguese;
+use utf8;
 
 use strict;
 

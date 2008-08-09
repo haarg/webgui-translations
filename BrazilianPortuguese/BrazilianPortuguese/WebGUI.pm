@@ -1,4 +1,5 @@
 package WebGUI::i18n::BrazilianPortuguese::WebGUI;
+use utf8;
 
 our $I18N = {
 	'559' => {
@@ -1161,6 +1162,11 @@ our $I18N = {
 		lastUpdated => 1202600334
 	},
 
+	'broken spectre title' => {
+		message => q||,
+		lastUpdated => 
+	},
+
 	'333' => {
 		message => q|Pa&iacute;s (Profissional)|,
 		lastUpdated => 1202602859
@@ -1802,6 +1808,11 @@ conteúdo da área de transferência para a lixeira?|,
 		lastUpdated => 1080222942
 	},
 
+	'broken spectre body' => {
+		message => q||,
+		lastUpdated => 
+	},
+
 	'730' => {
 		message => q|1 Novato|,
 		lastUpdated => 1080229372
@@ -2053,6 +2064,11 @@ conteúdo da área de transferência para a lixeira?|,
 	},
 
 	'settings groupIdAdminGroupAdmin label' => {
+		message => q||,
+		lastUpdated => 
+	},
+
+	'username no html' => {
 		message => q||,
 		lastUpdated => 
 	},
@@ -3248,8 +3264,8 @@ conteúdo da área de transferência para a lixeira?|,
 	},
 
 	'457' => {
-		message => q|Editar a conta deste usuário.|,
-		lastUpdated => 1080221619
+		message => q|Editar este usu&aacute;rio.|,
+		lastUpdated => 1203361839
 	},
 
 	'view inbox template' => {
