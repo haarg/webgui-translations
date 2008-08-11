@@ -29,25 +29,25 @@ our $I18N = {
     'lastUpdated' => 1208212367,
     'message' => 'Un condicional que indica que es cierto, si esta publicaci&oacute;n es la segunda de esta Colaboraci&oacute;n de Activos.'
   },
-  'enable metadata description' => {
-    'lastUpdated' => 1208208541,
-    'message' => 'Seleccione &quot;S&iacute;&quot; para permitir Publicaciones que tienen MetaDatos y pasivamente perfilados. Esto impactar&aacute; en el desempe&ntilde;o de la&nbsp; sistema de colaboraci&oacute;n. MetaDatos tambi&eacute;n debe estar habilitado a lo largo de la configuraci&oacute;n del sitio.'
-  },
-  'controls' => {
-    'lastUpdated' => 1190392066,
-    'message' => 'Un juego de iconos de edición para eliminar o reordenar este aporte.'
-  },
   'who threads' => {
     'lastUpdated' => 1208446725,
     'message' => 'Qui&eacute;n puede enviar una publicaci&oacute;n'
   },
-  'docs' => {
-    'lastUpdated' => 1208209828,
-    'message' => 'La url de la documentaci&oacute;n sobre el formato de este archivo, RSS 2.0 (campo opcional)'
+  'controls' => {
+    'lastUpdated' => 1190392066,
+    'message' => "Un juego de iconos de edici\x{f3}n para eliminar o reordenar este aporte."
+  },
+  'enable metadata description' => {
+    'lastUpdated' => 1208208541,
+    'message' => 'Seleccione &quot;S&iacute;&quot; para permitir Publicaciones que tienen MetaDatos y pasivamente perfilados. Esto impactar&aacute; en el desempe&ntilde;o de la&nbsp; sistema de colaboraci&oacute;n. MetaDatos tambi&eacute;n debe estar habilitado a lo largo de la configuraci&oacute;n del sitio.'
   },
   'timeUpdated.human' => {
     'lastUpdated' => 1208444204,
     'message' => 'El tiempo en que se public&oacute; la &uacute;ltima v&eacute;z, en un formato le&iacute;ble por humanos.'
+  },
+  'docs' => {
+    'lastUpdated' => 1208209828,
+    'message' => 'La url de la documentaci&oacute;n sobre el formato de este archivo, RSS 2.0 (campo opcional)'
   },
   'transfer karma' => {
     'lastUpdated' => 1208444387,
@@ -69,13 +69,13 @@ our $I18N = {
     'lastUpdated' => 1208212045,
     'message' => 'La palabra &quot;Imagen&quot;'
   },
-  'unlock.label' => {
-    'lastUpdated' => 1208444431,
-    'message' => 'La palabra &quot;Desarchivar&quot;'
-  },
   'read more' => {
     'lastUpdated' => 1207718276,
     'message' => 'Leer mas'
+  },
+  'unlock.label' => {
+    'lastUpdated' => 1208444431,
+    'message' => 'La palabra &quot;Desarchivar&quot;'
   },
   'max image size help' => {
     'lastUpdated' => 1208273716,
@@ -89,13 +89,13 @@ our $I18N = {
     'lastUpdated' => 1207718442,
     'message' => 'Titulo'
   },
-  'pubDate' => {
-    'lastUpdated' => 1208275012,
-    'message' => 'La fecha en que el tema se public&oacute;.'
-  },
   'user.isModerator' => {
     'lastUpdated' => 1208445831,
     'message' => 'Un condicional es cierto que si el usuario actual es un moderador de este Activo.&nbsp;'
+  },
+  'pubDate' => {
+    'lastUpdated' => 1208275012,
+    'message' => 'La fecha en que el tema se public&oacute;.'
   },
   'user defined 3' => {
     'lastUpdated' => 1208445552,
@@ -127,7 +127,7 @@ our $I18N = {
   },
   'compensation' => {
     'lastUpdated' => 1190391913,
-    'message' => 'Compensación'
+    'message' => "Compensaci\x{f3}n"
   },
   'job.header.label' => {
     'lastUpdated' => 1208271980,
@@ -137,49 +137,49 @@ our $I18N = {
     'lastUpdated' => 1208274760,
     'message' => 'La palabra &quot;Publicar&quot;.'
   },
-  'posts/page description' => {
-    'lastUpdated' => 1208274960,
-    'message' => 'El n&uacute;mero de entradas que se muestran en cada una de las p&aacute;ginas en el hilo plantilla. Configurar este n&uacute;mero muy alto puede frenar la generaci&oacute;n de la p&aacute;gina.'
-  },
   'by.label' => {
     'lastUpdated' => 1207709216,
     'message' => 'La palabra &quot;Por&quot;.'
   },
-  'back.url' => {
-    'lastUpdated' => 1208122897,
-    'message' => 'Una URL para regresar a la vista principal de este sistema de colaboraci&oacute;n de Activos.'
+  'posts/page description' => {
+    'lastUpdated' => 1208274960,
+    'message' => 'El n&uacute;mero de entradas que se muestran en cada una de las p&aacute;ginas en el hilo plantilla. Configurar este n&uacute;mero muy alto puede frenar la generaci&oacute;n de la p&aacute;gina.'
   },
   'get mail help' => {
     'lastUpdated' => 1208210798,
     'message' => 'Desea tener este sistema colaborativo de obtenci&oacute;n de puestos&nbsp; para una cuenta de correo electr&oacute;nico?'
   },
+  'back.url' => {
+    'lastUpdated' => 1208122897,
+    'message' => 'Una URL para regresar a la vista principal de este sistema de colaboraci&oacute;n de Activos.'
+  },
   'lastReply.dateSubmitted.human' => {
     'lastUpdated' => 1208270192,
     'message' => 'La fecha de la &uacute;ltima respuesta se present&oacute;, en un formato legible por humanos.'
-  },
-  'user.canPost' => {
-    'lastUpdated' => 1208445705,
-    'message' => 'Un condicional es cierto&nbsp; si el usuario actual puede a&ntilde;adir a esta publicai&oacute;n Colaboraci&oacute;n de Activos.'
   },
   'unsubscribe' => {
     'lastUpdated' => 1208444770,
     'message' => 'Desincribir'
   },
+  'user.canPost' => {
+    'lastUpdated' => 1208445705,
+    'message' => 'Un condicional es cierto&nbsp; si el usuario actual puede a&ntilde;adir a esta publicai&oacute;n Colaboraci&oacute;n de Activos.'
+  },
   'image' => {
     'lastUpdated' => 1208212030,
     'message' => 'Imagen'
   },
-  'fatal' => {
-    'lastUpdated' => 1208209754,
-    'message' => 'Fatal (no puede continuar hasta que esto se resuelva).'
+  'visitor cache timeout help' => {
+    'lastUpdated' => 1208446556,
+    'message' => 'Dado que todos los usuarios ver&aacute;n este activo de la misma manera, podemos activar cach&eacute; para mejorar el rendimiento. &iquest;Cu&aacute;nto tiempo debemos activar cach&eacute;?'
   },
   'rejected because no user account' => {
     'lastUpdated' => 1208275546,
     'message' => 'No se le permite enviar mensajes, porque no hemos podido encontrar su cuenta de usuario. Si usted no tiene esta direcci&oacute;n de correo electr&oacute;nico asociada a su cuenta de usuario.'
   },
-  'visitor cache timeout help' => {
-    'lastUpdated' => 1208446556,
-    'message' => 'Dado que todos los usuarios ver&aacute;n este activo de la misma manera, podemos activar cach&eacute; para mejorar el rendimiento. &iquest;Cu&aacute;nto tiempo debemos activar cach&eacute;?'
+  'fatal' => {
+    'lastUpdated' => 1208209754,
+    'message' => 'Fatal (no puede continuar hasta que esto se resuelva).'
   },
   'unsubscribe.label' => {
     'lastUpdated' => 1208444753,
@@ -261,25 +261,25 @@ our $I18N = {
     'lastUpdated' => 1208181690,
     'message' => 'Escala Karma por defecto'
   },
-  'by' => {
-    'lastUpdated' => 1190391255,
-    'message' => 'por'
-  },
   'cosmetic' => {
     'lastUpdated' => 1208181343,
     'message' => 'Cosm&eacute;tica (erratas, problemas de formato)'
   },
-  'system template' => {
-    'lastUpdated' => 1208378264,
-    'message' => 'Sistema de colaboraci&oacute;n de plantilla'
+  'by' => {
+    'lastUpdated' => 1190391255,
+    'message' => 'por'
+  },
+  'preview' => {
+    'lastUpdated' => 1207727749,
+    'message' => 'previo'
   },
   'mail account help' => {
     'lastUpdated' => 1208273049,
     'message' => 'El nombre de cuenta (nombre de usuario o direcci&oacute;n de correo electr&oacute;nico) que utilizar&aacute; para acceder al servidor de correo.'
   },
-  'preview' => {
-    'lastUpdated' => 1207727749,
-    'message' => 'previo'
+  'system template' => {
+    'lastUpdated' => 1208378264,
+    'message' => 'Sistema de colaboraci&oacute;n de plantilla'
   },
   'cosmetic.label' => {
     'lastUpdated' => 1208181372,
@@ -301,21 +301,21 @@ our $I18N = {
     'lastUpdated' => 1212583995,
     'message' => 'Agregar'
   },
-  'subscription group label' => {
-    'lastUpdated' => 1208378188,
-    'message' => 'Grupo de suscripci&oacute;n'
-  },
-  'allow replies' => {
-    'lastUpdated' => 1190391404,
-    'message' => 'Permitir respuestas'
+  'thumbnail size help' => {
+    'lastUpdated' => 1208443934,
+    'message' => 'Establezca el tama&ntilde;o de las miniaturas de este sistema de colaboraci&oacute;n. Si establece 0 entonces el tama&ntilde;o establecido por defecto en la configuraci&oacute;n maestro se utilizar&aacute;. As&iacute; mismo, el cambio de este ajuste retroactivo no cambiar&aacute; el tama&ntilde;o de las miniaturas ya en el CS. Para esto tendr&aacute; que volver a guardar cada publicaci&oacute;n para obtener el tama&ntilde;o deseado a cambiar.'
   },
   'status' => {
     'lastUpdated' => 1208376495,
     'message' => 'Condici&oacute;n'
   },
-  'thumbnail size help' => {
-    'lastUpdated' => 1208443934,
-    'message' => 'Establezca el tama&ntilde;o de las miniaturas de este sistema de colaboraci&oacute;n. Si establece 0 entonces el tama&ntilde;o establecido por defecto en la configuraci&oacute;n maestro se utilizar&aacute;. As&iacute; mismo, el cambio de este ajuste retroactivo no cambiar&aacute; el tama&ntilde;o de las miniaturas ya en el CS. Para esto tendr&aacute; que volver a guardar cada publicaci&oacute;n para obtener el tama&ntilde;o deseado a cambiar.'
+  'allow replies' => {
+    'lastUpdated' => 1190391404,
+    'message' => 'Permitir respuestas'
+  },
+  'subscription group label' => {
+    'lastUpdated' => 1208378188,
+    'message' => 'Grupo de suscripci&oacute;n'
   },
   'addquestion' => {
     'lastUpdated' => 1190391334,
@@ -333,45 +333,45 @@ our $I18N = {
     'lastUpdated' => 1208275307,
     'message' => 'La frase &quot;Leer M&aacute;s&quot;'
   },
-  'guid' => {
-    'lastUpdated' => 1208211922,
-    'message' => 'Un identificador &uacute;nico para este tema'
+  'who threads description' => {
+    'lastUpdated' => 1208446778,
+    'message' => '<div id="result_box" dir="ltr">El grupo les permite iniciar una publicaci&oacute;n en este Activo.</div>'
   },
   'post_loop' => {
     'lastUpdated' => 1208274857,
     'message' => 'Una lista de garant&iacute;a para esto activos publicados.'
   },
-  'who threads description' => {
-    'lastUpdated' => 1208446778,
-    'message' => '<div id="result_box" dir="ltr">El grupo les permite iniciar una publicaci&oacute;n en este Activo.</div>'
-  },
-  'system template description' => {
-    'lastUpdated' => 1208378499,
-    'message' => 'Este es la plantilla maestra para la Colaboraci&oacute;n de Activos.'
-  },
-  'delete.label' => {
-    'lastUpdated' => 1207727846,
-    'message' => 'La palabra "eliminar"'
+  'guid' => {
+    'lastUpdated' => 1208211922,
+    'message' => 'Un identificador &uacute;nico para este tema'
   },
   'auto subscribe to thread help' => {
     'lastUpdated' => 1208122592,
     'message' => 'Si el usuario no est&aacute; suscrito al sistema de colaborativo, y despu&eacute;s a la CS a trav&eacute;s del correo electr&oacute;nico, en caso de que el sea suscrito? Si esto se define en s&iacute;, lo ser&aacute;. Tenga en cuenta que esta opci&oacute;n s&oacute;lo funciona si el &quot;Al requerir la suscripci&oacute;n de correo electr&oacute;nico para los campos?&quot; Campo est&aacute; establecido en &quot;no&quot;.'
   },
-  'unsubscribe.url' => {
-    'lastUpdated' => 1208444911,
-    'message' => 'Una URL para el usuario actual desinscribirse&nbsp; de este Activo.'
+  'delete.label' => {
+    'lastUpdated' => 1207727846,
+    'message' => 'La palabra "eliminar"'
   },
-  'body.label' => {
-    'lastUpdated' => 1208122967,
-    'message' => 'La palabra &quot;Cuerpo&quot;'
+  'system template description' => {
+    'lastUpdated' => 1208378499,
+    'message' => 'Este es la plantilla maestra para la Colaboraci&oacute;n de Activos.'
+  },
+  'closed' => {
+    'lastUpdated' => 1190391811,
+    'message' => 'Cerrado'
   },
   'thumbnail' => {
     'lastUpdated' => 1207726218,
     'message' => 'vista en miniatura'
   },
-  'closed' => {
-    'lastUpdated' => 1190391811,
-    'message' => 'Cerrado'
+  'body.label' => {
+    'lastUpdated' => 1208122967,
+    'message' => 'La palabra &quot;Cuerpo&quot;'
+  },
+  'unsubscribe.url' => {
+    'lastUpdated' => 1208444911,
+    'message' => 'Una URL para el usuario actual desinscribirse&nbsp; de este Activo.'
   },
   'back' => {
     'lastUpdated' => 1212585380,
@@ -389,25 +389,25 @@ our $I18N = {
     'lastUpdated' => 1208274593,
     'message' => 'Sistema de Colaboraci&oacute;n, Notificaci&oacute;n de Plantilla'
   },
-  'close.label' => {
-    'lastUpdated' => 1208123015,
-    'message' => 'La palabra &quot;Cerrado&quot;'
-  },
   'rich editor' => {
     'lastUpdated' => 1208298573,
     'message' => 'Editor enrriquecido'
   },
-  'responses.label' => {
-    'lastUpdated' => 1208298466,
-    'message' => 'La palabra &quot;respuestas&quot;.'
+  'close.label' => {
+    'lastUpdated' => 1208123015,
+    'message' => 'La palabra &quot;Cerrado&quot;'
+  },
+  'collaboration template labels title' => {
+    'lastUpdated' => 1208180931,
+    'message' => 'Etiquetas variables para el sistema colaborativo'
   },
   'addquestion.label' => {
     'lastUpdated' => 1190391379,
     'message' => 'La frase "hacer una pregunta".'
   },
-  'collaboration template labels title' => {
-    'lastUpdated' => 1208180931,
-    'message' => 'Etiquetas variables para el sistema colaborativo'
+  'responses.label' => {
+    'lastUpdated' => 1208298466,
+    'message' => 'La palabra &quot;respuestas&quot;.'
   },
   'sortby.date.url' => {
     'lastUpdated' => 1208375443,
@@ -521,13 +521,13 @@ our $I18N = {
     'lastUpdated' => 1190391550,
     'message' => 'La palabra "Responder"'
   },
-  'use preview description' => {
-    'lastUpdated' => 1207728057,
-    'message' => 'Seleccione "Sí" para mostrar una vista previa de los envíos a los usuarios antes de presentarlo. Aunque la vista preliminar se muestra, el post puede ser editado o se cancela.'
-  },
   'approval workflow description' => {
     'lastUpdated' => 1207717846,
     'message' => 'Escoger un flujo de trabajo para ejecutar por cada post que se ha enviado'
+  },
+  'use preview description' => {
+    'lastUpdated' => 1207728057,
+    'message' => "Seleccione \"S\x{ed}\" para mostrar una vista previa de los env\x{ed}os a los usuarios antes de presentarlo. Aunque la vista preliminar se muestra, el post puede ser editado o se cancela."
   },
   'get cs mail' => {
     'lastUpdated' => 1208210848,
@@ -569,13 +569,13 @@ our $I18N = {
     'lastUpdated' => 1208275205,
     'message' => 'La palabra &quot;Votado&quot;'
   },
-  'feed description' => {
-    'lastUpdated' => 1208208753,
-    'message' => 'La descripci&oacute;n de los &quot;feed rss&quot; (viene de la colaboraci&oacute;n descripci&oacute;n)'
-  },
   'rss template description' => {
     'lastUpdated' => 1208298644,
     'message' => 'La plantilla utilizada para generar los xml de un feed rss de activos sobre la base de este.'
+  },
+  'feed description' => {
+    'lastUpdated' => 1217241733,
+    'message' => 'La descripcion de los &quot;feed rss&quot; (viene de la&nbsp;sinopsis de la colaboracion)'
   },
   'thumbnail.label' => {
     'lastUpdated' => 1208444020,
@@ -593,57 +593,57 @@ our $I18N = {
     'lastUpdated' => 1207727876,
     'message' => 'Editar mensaje'
   },
-  'mail password help' => {
-    'lastUpdated' => 1208273265,
-    'message' => 'La contrase&ntilde;a de la cuenta para iniciar sesi&oacute;n en el servidor con.'
-  },
   'responses' => {
     'lastUpdated' => 1207728047,
     'message' => 'Respuestas'
   },
-  'title.label' => {
-    'lastUpdated' => 1208444221,
-    'message' => 'La palabra &quot;T&iacute;tulo&quot;'
+  'mail password help' => {
+    'lastUpdated' => 1208273265,
+    'message' => 'La contrase&ntilde;a de la cuenta para iniciar sesi&oacute;n en el servidor con.'
   },
   'subject.label' => {
     'lastUpdated' => 1208376558,
     'message' => 'La palabra &quot;Asunto&quot;.'
   },
-  'collaboration post list template variables title' => {
-    'lastUpdated' => 1208180577,
-    'message' => 'Variable para la publicaci&oacute;n de listas en el sistema colaborativo'
+  'title.label' => {
+    'lastUpdated' => 1208444221,
+    'message' => 'La palabra &quot;T&iacute;tulo&quot;'
   },
   'lock.label' => {
     'lastUpdated' => 1208272823,
     'message' => 'La palabra&quot;Bloquear&quot;'
   },
-  'captcha label' => {
-    'lastUpdated' => 1208122986,
-    'message' => 'Verifique su humanidad'
-  },
-  'subscription group hoverHelp' => {
-    'lastUpdated' => 1208378131,
-    'message' => 'Administrar los usuarios de la suscripci&oacute;n de este grupo de Sistema de Colaboraci&oacute;n'
-  },
-  'item description' => {
-    'lastUpdated' => 1208212413,
-    'message' => 'Una sinopsis del tema.'
+  'collaboration post list template variables title' => {
+    'lastUpdated' => 1208180577,
+    'message' => 'Variable para la publicaci&oacute;n de listas en el sistema colaborativo'
   },
   'newWindow.label' => {
     'lastUpdated' => 1208274135,
     'message' => 'La palabra &quot;Abrir en una nueva ventana?&quot;.'
   },
+  'item description' => {
+    'lastUpdated' => 1208212413,
+    'message' => 'Una sinopsis del tema.'
+  },
+  'subscription group hoverHelp' => {
+    'lastUpdated' => 1208378131,
+    'message' => 'Administrar los usuarios de la suscripci&oacute;n de este grupo de Sistema de Colaboraci&oacute;n'
+  },
+  'captcha label' => {
+    'lastUpdated' => 1208122986,
+    'message' => 'Verifique su humanidad'
+  },
   'job description' => {
     'lastUpdated' => 1208212564,
     'message' => 'Descripci&oacute;n de la tarea'
   },
-  'webMaster' => {
-    'lastUpdated' => 1207726329,
-    'message' => 'El correo electr&oacute;nico de la persona responsable por los aspectos tecnicos relacionados con esta fuente rss (campo opcional)'
-  },
   'lastReply.userProfile.url' => {
     'lastUpdated' => 1208270719,
     'message' => 'La URL en el perfil del usuario que env&iacute;a esta publicaci&oacute;n.'
+  },
+  'webMaster' => {
+    'lastUpdated' => 1207726329,
+    'message' => 'El correo electr&oacute;nico de la persona responsable por los aspectos tecnicos relacionados con esta fuente rss (campo opcional)'
   },
   'status.label' => {
     'lastUpdated' => 1208376522,
@@ -763,7 +763,7 @@ our $I18N = {
   },
   'content filter' => {
     'lastUpdated' => 1190392026,
-    'message' => '¿Usar filtro de contenido?'
+    'message' => "\x{bf}Usar filtro de contenido?"
   },
   'feed title' => {
     'lastUpdated' => 1208209735,
@@ -823,7 +823,7 @@ our $I18N = {
   },
   'collab link' => {
     'lastUpdated' => 1190391883,
-    'message' => 'El URL hacia la colaboración.'
+    'message' => "El URL hacia la colaboraci\x{f3}n."
   },
   'new window' => {
     'lastUpdated' => 1208274088,
@@ -847,7 +847,7 @@ our $I18N = {
   },
   'attachments/post' => {
     'lastUpdated' => 1190391978,
-    'message' => 'Adjuntor a través de un aporte.'
+    'message' => "Adjuntor a trav\x{e9}s de un aporte."
   },
   'require subscription for email posting help' => {
     'lastUpdated' => 1208298376,
@@ -1053,41 +1053,41 @@ our $I18N = {
     'lastUpdated' => 1208298972,
     'message' => 'La palabra &quot;B&uacute;scar&quot;'
   },
-  'karma scale' => {
-    'lastUpdated' => 1208267716,
-    'message' => 'Escala Karma'
-  },
   'allow replies description' => {
     'lastUpdated' => 1190391513,
     'message' => 'Seleccione "No" para evitar que haya respuestas a este aporte.'
   },
-  'flatLayout' => {
-    'lastUpdated' => 1208209069,
-    'message' => 'Plano'
+  'karma scale' => {
+    'lastUpdated' => 1208267716,
+    'message' => 'Escala Karma'
   },
   'threads/page description' => {
     'lastUpdated' => 1208443583,
     'message' => 'El n&uacute;mero de publicaciones que aparecen en cada p&aacute;gina en el sistema de plantilla. Configurar este n&uacute;mero muy alto puede frenar la generaci&oacute;n de la p&aacute;gina.'
   },
-  'edit' => {
-    'lastUpdated' => 1207718909,
-    'message' => 'Editar'
+  'flatLayout' => {
+    'lastUpdated' => 1208209069,
+    'message' => 'Plano'
   },
   'tmplVar status' => {
     'lastUpdated' => 1208444237,
     'message' => 'la condici&oacute;n para esta publicaci&oacute;n'
   },
+  'edit' => {
+    'lastUpdated' => 1207718909,
+    'message' => 'Editar'
+  },
   'subscribe.url' => {
     'lastUpdated' => 1208377814,
     'message' => 'Una URL de suscripci&oacute;n que el usuario actual da a esta Colaboraci&oacute;n de Activos. Cuando un nuevo contenido se presenta a la Colaboraci&oacute;n de activos, el usuario ser&aacute; notificado.'
   },
-  'layout.flat.label' => {
-    'lastUpdated' => 1208270806,
-    'message' => 'La palabra &quot;Plano&quot;.'
-  },
   'userProfile.url' => {
     'lastUpdated' => 1208446411,
     'message' => 'La URL en el perfil del usuario que env&iacute;a esta publicaci&oacute;n.'
+  },
+  'layout.flat.label' => {
+    'lastUpdated' => 1208270806,
+    'message' => 'La palabra &quot;Plano&quot;.'
   },
   'previous.label' => {
     'lastUpdated' => 1207727795,
@@ -1105,25 +1105,25 @@ our $I18N = {
     'lastUpdated' => 1208446353,
     'message' => 'La palabra &quot;Usuario&quot;.'
   },
-  'lastReply' => {
-    'lastUpdated' => 1208270014,
-    'message' => '&Uacute;ltima Respuesta'
-  },
   'timeSubmitted.human' => {
     'lastUpdated' => 1208444080,
     'message' => 'El tiempo en que se present&oacute; esta publicaci&oacute;n, en un formato legible por humanos.'
   },
-  'enable avatars description' => {
-    'lastUpdated' => 1208207974,
-    'message' => 'Seleccione &quot;S&iacute;&quot; para mostrar los Avatares de los usuarios en el Sistema de colaboraci&oacute;n en el campo Avatar en el perfil de usuario que se ha activado, y los usuarios tendr&aacute;n que subir un Avatar para mostrar la imagen. <br /> <br />El uso de Avatares reducir&aacute; el desempe&ntilde;o de los Sistemas de Colaboraci&oacute;n.'
+  'lastReply' => {
+    'lastUpdated' => 1208270014,
+    'message' => '&Uacute;ltima Respuesta'
+  },
+  'submission.header.label' => {
+    'lastUpdated' => 1208376593,
+    'message' => 'La frase &quot;Editar Presentaci&oacute;n&quot;.'
   },
   'description.label' => {
     'lastUpdated' => 1208193105,
     'message' => 'La palabra &quot;Descripci&oacute;n&quot;.'
   },
-  'submission.header.label' => {
-    'lastUpdated' => 1208376593,
-    'message' => 'La frase &quot;Editar Presentaci&oacute;n&quot;.'
+  'enable avatars description' => {
+    'lastUpdated' => 1208207974,
+    'message' => 'Seleccione &quot;S&iacute;&quot; para mostrar los Avatares de los usuarios en el Sistema de colaboraci&oacute;n en el campo Avatar en el perfil de usuario que se ha activado, y los usuarios tendr&aacute;n que subir un Avatar para mostrar la imagen. <br /> <br />El uso de Avatares reducir&aacute; el desempe&ntilde;o de los Sistemas de Colaboraci&oacute;n.'
   },
   'search' => {
     'lastUpdated' => 1208298816,
@@ -1137,17 +1137,17 @@ our $I18N = {
     'lastUpdated' => 1199914063,
     'message' => 'Sistema de Colaboraci&oacute;n'
   },
-  'editForm archiveEnabled label' => {
-    'lastUpdated' => 1215809290,
-    'message' => 'Habilitar Archivaci&oacute;n?'
+  'edit.url' => {
+    'lastUpdated' => 1208207073,
+    'message' => 'La URL para editar esta publicaci&oacute;n.'
   },
   'enable metadata' => {
     'lastUpdated' => 1208208085,
     'message' => 'Habilitar MetaDatos en Publicaciones'
   },
-  'edit.url' => {
-    'lastUpdated' => 1208207073,
-    'message' => 'La URL para editar esta publicaci&oacute;n.'
+  'editForm archiveEnabled label' => {
+    'lastUpdated' => 1215809290,
+    'message' => 'Habilitar Archivaci&oacute;n?'
   },
   'threads/page' => {
     'lastUpdated' => 1208443305,
@@ -1181,13 +1181,13 @@ our $I18N = {
     'lastUpdated' => 1208211782,
     'message' => 'Grupo para editar publicaci&oacute;n'
   },
-  'search template' => {
-    'lastUpdated' => 1208298855,
-    'message' => 'SIstema de colaboraci&oacute;n, B&uacute;scar Plantilla'
-  },
   'edit question' => {
     'lastUpdated' => 1207718982,
     'message' => 'Editar pregunta'
+  },
+  'search template' => {
+    'lastUpdated' => 1208298855,
+    'message' => 'SIstema de colaboraci&oacute;n, B&uacute;scar Plantilla'
   },
   'job.title.label' => {
     'lastUpdated' => 1208272184,
@@ -1205,29 +1205,29 @@ our $I18N = {
     'lastUpdated' => 1208270228,
     'message' => 'La frase &quot;&quot;&Uacute;ltima Respuesta&quot;.'
   },
-  'visitor' => {
-    'lastUpdated' => 1190391009,
-    'message' => 'Nombre de visitante'
-  },
   'job requirements' => {
     'lastUpdated' => 1208212729,
     'message' => 'Los requisitos de la tarea'
   },
-  'mail' => {
-    'lastUpdated' => 1208272922,
-    'message' => 'Correo'
+  'visitor' => {
+    'lastUpdated' => 1190391009,
+    'message' => 'Nombre de visitante'
   },
   'tmplVar thumbnail' => {
     'lastUpdated' => 1208444355,
     'message' => 'Si esta publicaci&oacute;n tiene archivos adjuntos y la URL de la miniatura de la primera imagen de archivo adjunto.'
   },
-  'query.form' => {
-    'lastUpdated' => 1208275081,
-    'message' => 'HTML form for adding a field where all input has to be in matched pages.'
+  'mail' => {
+    'lastUpdated' => 1208272922,
+    'message' => 'Correo'
   },
   'visitor cache timeout' => {
     'lastUpdated' => 1208446509,
     'message' => 'Visitantes&nbsp; Tiempo Cache'
+  },
+  'query.form' => {
+    'lastUpdated' => 1208275081,
+    'message' => 'HTML form for adding a field where all input has to be in matched pages.'
   },
   'minor.label' => {
     'lastUpdated' => 1208274036,
@@ -1249,13 +1249,13 @@ our $I18N = {
     'lastUpdated' => 1208270735,
     'message' => 'El nombre del usuario qui&eacute;n guardo la &uacute;ltima respuesta.'
   },
-  'nested' => {
-    'lastUpdated' => undef,
-    'message' => ''
-  },
   'views.label' => {
     'lastUpdated' => 1208446466,
     'message' => 'La palabra &quot;Vistas&quot;'
+  },
+  'nested' => {
+    'lastUpdated' => undef,
+    'message' => ''
   },
   'reply' => {
     'lastUpdated' => 1207718302,
@@ -1265,17 +1265,17 @@ our $I18N = {
     'lastUpdated' => 1207718948,
     'message' => 'Editar enlace'
   },
-  'mail account' => {
-    'lastUpdated' => 1208272940,
-    'message' => 'Cuenta'
+  'archive after description' => {
+    'lastUpdated' => 1190391677,
+    'message' => 'El tiempo despues del cual un aporte (post) se archiva.'
   },
   'thread approval workflow description' => {
     'lastUpdated' => 1208378957,
     'message' => 'Elige un flujo de trabajo a ser ejecutado en cada secuencia, ya que se ha presentado.'
   },
-  'archive after description' => {
-    'lastUpdated' => 1190391677,
-    'message' => 'El tiempo despues del cual un aporte (post) se archiva.'
+  'mail account' => {
+    'lastUpdated' => 1208272940,
+    'message' => 'Cuenta'
   },
   'subscribe.label' => {
     'lastUpdated' => 1208376659,

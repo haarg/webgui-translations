@@ -18,7 +18,7 @@ plugin = plugin
 
 item = item
 
-SQL Query = Consultas SQL
+SQL Query = Consultas SQL (Peticion SQL)
 
 Setup = configurar 
 
@@ -34,7 +34,7 @@ Macro = Macro
 
 Cron = Cron
 
-Page Layout = Disenho de Pagina
+Page Layout = Diseno de Pagina
 
 Dashboard = Panel
 
@@ -66,24 +66,12 @@ http://www.vcb.com.co -- soporte@vcb.com.co
 
 Colaboracion en Traduccion
     
-    Juan Manuel Mesa (over3000)
-    Juan Megias (algolius)
+    Juan Manuel Mesa (overdrive3000)
+    Juan Mejias (algolius)
+
+    Marcela CF Saiffe (Mexico)
 
 Usuarios WebGUI de Venezuela
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 

@@ -1,117 +1,95 @@
 package WebGUI::i18n::Spanish::Graphics;
 use utf8;
-
 our $I18N = {
-	'stroke alpha' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'fill alpha' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'font name description' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'stroke color description' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'fill alpha description' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'font file description' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'stroke alpha description' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'fill color' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'stroke color' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'add palette' => {
-		message => q|Adicionar una nueva paleta|,
-		lastUpdated => 1199915368
-	},
-
-	'palette name' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'font name' => {
-		message => q|Nombre de la fuente<br />|,
-		lastUpdated => 1169610336
-	},
-
-	'font file' => {
-		message => q|Archivo fuente<br />|,
-		lastUpdated => 1169610326
-	},
-
-	'color name description' => {
-		message => q|El nombre para este color|,
-		lastUpdated => 1206816549
-	},
-
-	'fill color description' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'palette name description' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'manage graphics' => {
-		message => q|Graficos|,
-		lastUpdated => 1206816615
-	},
-
-	'color name' => {
-		message => q|Nombre de color|,
-		lastUpdated => 1199915385
-	},
-
-	'add color' => {
-		message => q|Agregar un color a esta paleta|,
-		lastUpdated => 1169610311
-	},
-
-	'add font' => {
-		message => q|Adicionar nueva fuente|,
-		lastUpdated => 1199915357
-	},
-
-	'manage palettes' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'manage fonts' => {
-		message => q|Administrar fuentes|,
-		lastUpdated => 1206816596
-	},
-
-};
+  'stroke alpha' => {
+    'lastUpdated' => 1217242345,
+    'message' => 'Transparencia del trazo'
+  },
+  'fill alpha' => {
+    'lastUpdated' => 1217242136,
+    'message' => '<p>Transparencia del relleno</p>'
+  },
+  'fill alpha description' => {
+    'lastUpdated' => 1217242155,
+    'message' => 'Define la transparencia del relleno de color'
+  },
+  'stroke color description' => {
+    'lastUpdated' => 1217242382,
+    'message' => 'El color del trazo para este color'
+  },
+  'font name description' => {
+    'lastUpdated' => 1217242284,
+    'message' => 'El Nombre con el&nbsp;cual esta fuente aparecer&aacute; en la interfaz'
+  },
+  'font file description' => {
+    'lastUpdated' => 1217242231,
+    'message' => 'El archivo que contiene la fuente. Debe ser una fuentr &quot;True Type&quot; (.ttf)'
+  },
+  'stroke alpha description' => {
+    'lastUpdated' => 1217242358,
+    'message' => 'Define la transparencia del color del trazo'
+  },
+  'fill color' => {
+    'lastUpdated' => 1217242174,
+    'message' => '<p>Color del relleno</p>'
+  },
+  'add palette' => {
+    'lastUpdated' => 1199915368,
+    'message' => 'Adicionar una nueva paleta'
+  },
+  'stroke color' => {
+    'lastUpdated' => 1217242370,
+    'message' => 'Color del trazo'
+  },
+  'palette name' => {
+    'lastUpdated' => 1217242311,
+    'message' => 'Nombre de la paleta'
+  },
+  'font name' => {
+    'lastUpdated' => 1169610336,
+    'message' => 'Nombre de la fuente<br />'
+  },
+  'font file' => {
+    'lastUpdated' => 1169610326,
+    'message' => 'Archivo fuente<br />'
+  },
+  'color name description' => {
+    'lastUpdated' => 1206816549,
+    'message' => 'El nombre para este color'
+  },
+  'fill color description' => {
+    'lastUpdated' => 1217242192,
+    'message' => 'El color del relleno para este color'
+  },
+  'palette name description' => {
+    'lastUpdated' => 1217242331,
+    'message' => 'Nombre con el cual se mostrara esta paleta en la interfaz'
+  },
+  'color name' => {
+    'lastUpdated' => 1199915385,
+    'message' => 'Nombre de color'
+  },
+  'manage graphics' => {
+    'lastUpdated' => 1206816615,
+    'message' => 'Graficos'
+  },
+  'add font' => {
+    'lastUpdated' => 1199915357,
+    'message' => 'Adicionar nueva fuente'
+  },
+  'add color' => {
+    'lastUpdated' => 1169610311,
+    'message' => 'Agregar un color a esta paleta'
+  },
+  'manage palettes' => {
+    'lastUpdated' => 1217242298,
+    'message' => 'Admnistrar Paletas'
+  },
+  'manage fonts' => {
+    'lastUpdated' => 1206816596,
+    'message' => 'Administrar fuentes'
+  }
+}
+;
 
 1;
