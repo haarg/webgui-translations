@@ -1,546 +1,439 @@
 package WebGUI::i18n::Turkish::Asset_Calendar;
-
+use utf8;
 our $I18N = {
-	'templateIdWeek description' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'endMonth' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'urlDay' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'print' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'templateIdEventEdit description' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'subscriberNotifyOffset label' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'adminControls' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'workflow generateRecurringEvents' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'pagePrevStart' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'templateIdEvent label' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'urlAdd' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'templateIdPrintMonth label' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'sortEventsBy value sequencenumber' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'events weekVar' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'workflow generateRecurringEvents description' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'hours' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'startYear' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'mdy' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'templateIdPrintWeek description' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'defaultView description' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'defaultDate value current' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'pageNextUrl dayVar' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'endDayName' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'pagePrevUrl weekVar' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'view calendar title' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'add event' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'view calendar day title' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'templateIdEvent description' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'urlIcal' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'templateIdPrintMonth description' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'workflow updateFeeds description' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'editor' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'endDayAbbr' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'defaultDate label' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'paramStart' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'templateIdPrintEvent label' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'pagePrevUrl dayVar' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'defaultView value month' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'hour24' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'days' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'visitorCacheTimeout label' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'templateIdEventEdit label' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'dayAbbr' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'hourM' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'urlMonth' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'endMonthName' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'groupIdEventEdit label' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'view calendar week title' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'year' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'dayOfWeek' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'feeds' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'startMonthName' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'assetName' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'startDayAbbr' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'locale' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'endMonthAbbr' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'workflow updateFeeds' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'endDayOfMonth' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'defaultDate description' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'urlPrint' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'defaultDate value last' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'groupIdEventEdit description' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'templateIdSearch description' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'startDayName' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'searchButtonLabel' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'admin' => {
-		message => q|y&ouml;netici|,
-		lastUpdated => 1203723366
-	},
-
-	'epoch' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'templateIdDay label' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'dayOfMonth' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'templateIdMonth label' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'templateIdPrintWeek label' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'visitorCacheTimeout description' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'view calendar week body' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'subscriberNotifyOffset description' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'urlSearch' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'templateIdPrintDay description' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'urlWeek' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'startMonth' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'defaultView value week' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'sortEventsBy description' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'startDayOfMonth' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'view calendar day body' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'events dayVar' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'extrasUrl' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'templateIdPrintDay label' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'hour12' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'templateIdPrintEvent description' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'sortEventsBy value time' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'paramType' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'defaultView value day' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'endYear' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'templateIdSearch label' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'ymd' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'dayName' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'sortEventsBy label' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'pageNextStart' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'templateIdWeek label' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'defaultDate value first' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'startMonthAbbr' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'defaultView label' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'monthAbbr' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'templateIdMonth description' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'pageNextUrl weekVar' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'monthName' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'iCal' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'templateIdDay description' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'dmy' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'view calendar body' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-};
+  'add event' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'admin' => {
+    'lastUpdated' => 1218838150,
+    'message' => "y\x{f6}netici"
+  },
+  'adminControls' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'assetName' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'dayAbbr' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'dayName' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'dayOfMonth' => {
+    'lastUpdated' => 1218838221,
+    'message' => "Ay\x{131}nG\x{fc}n\x{fc}"
+  },
+  'dayOfWeek' => {
+    'lastUpdated' => 1218838248,
+    'message' => "Haftan\x{131}nG\x{fc}n\x{fc}"
+  },
+  'days' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'defaultDate description' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'defaultDate label' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'defaultDate value current' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'defaultDate value first' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'defaultDate value last' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'defaultView description' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'defaultView label' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'defaultView value day' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'defaultView value month' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'defaultView value week' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'dmy' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'editor' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'endDayAbbr' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'endDayName' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'endDayOfMonth' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'endMonth' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'endMonthAbbr' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'endMonthName' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'endYear' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'epoch' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'events dayVar' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'events weekVar' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'extrasUrl' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'feeds' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'groupIdEventEdit description' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'groupIdEventEdit label' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'hour12' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'hour24' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'hourM' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'hours' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'iCal' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'locale' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'mdy' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'monthAbbr' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'monthName' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'pageNextStart' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'pageNextUrl dayVar' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'pageNextUrl weekVar' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'pagePrevStart' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'pagePrevUrl dayVar' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'pagePrevUrl weekVar' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'paramStart' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'paramType' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'print' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'searchButtonLabel' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'sortEventsBy description' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'sortEventsBy label' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'sortEventsBy value sequencenumber' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'sortEventsBy value time' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'startDayAbbr' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'startDayName' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'startDayOfMonth' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'startMonth' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'startMonthAbbr' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'startMonthName' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'startYear' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'subscriberNotifyOffset description' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'subscriberNotifyOffset label' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'templateIdDay description' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'templateIdDay label' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'templateIdEvent description' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'templateIdEvent label' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'templateIdEventEdit description' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'templateIdEventEdit label' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'templateIdMonth description' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'templateIdMonth label' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'templateIdPrintDay description' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'templateIdPrintDay label' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'templateIdPrintEvent description' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'templateIdPrintEvent label' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'templateIdPrintMonth description' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'templateIdPrintMonth label' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'templateIdPrintWeek description' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'templateIdPrintWeek label' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'templateIdSearch description' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'templateIdSearch label' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'templateIdWeek description' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'templateIdWeek label' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'urlAdd' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'urlDay' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'urlIcal' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'urlMonth' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'urlPrint' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'urlSearch' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'urlWeek' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'view calendar body' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'view calendar day body' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'view calendar day title' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'view calendar title' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'view calendar week body' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'view calendar week title' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'visitorCacheTimeout description' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'visitorCacheTimeout label' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'workflow generateRecurringEvents' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'workflow generateRecurringEvents description' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'workflow updateFeeds' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'workflow updateFeeds description' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'year' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'ymd' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  }
+}
+;
 
 1;

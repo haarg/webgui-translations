@@ -1,4 +1,5 @@
 package WebGUI::i18n::Turkish::WebGUI;
+use utf8;
 
 our $I18N = {
 	'559' => {

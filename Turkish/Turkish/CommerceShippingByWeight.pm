@@ -1,4 +1,5 @@
 package WebGUI::i18n::Turkish::CommerceShippingByWeight;
+use utf8;
 
 our $I18N = {
 	'price per weight' => {

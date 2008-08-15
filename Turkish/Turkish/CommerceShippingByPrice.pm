@@ -1,4 +1,5 @@
 package WebGUI::i18n::Turkish::CommerceShippingByPrice;
+use utf8;
 
 our $I18N = {
 	'title' => {

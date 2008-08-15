@@ -1,4 +1,5 @@
 package WebGUI::i18n::Turkish::Form_Captcha;
+use utf8;
 
 our $I18N = {
 	'topicName' => {
