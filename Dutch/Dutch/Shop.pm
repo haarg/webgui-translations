@@ -13,6 +13,14 @@ our $I18N = {
     'lastUpdated' => 1213968493,
     'message' => 'Niet verzonden'
   },
+  'Payment Information' => {
+    'lastUpdated' => 1218986043,
+    'message' => 'Betalingsinformatie'
+  },
+  'Preferred Payment Type' => {
+    'lastUpdated' => 1218986059,
+    'message' => 'Voorkeur betalingsmethode'
+  },
   'Shipped' => {
     'lastUpdated' => 1213968499,
     'message' => 'Verzonden'

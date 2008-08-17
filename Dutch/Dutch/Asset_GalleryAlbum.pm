@@ -1,6 +1,10 @@
 package WebGUI::i18n::Dutch::Asset_GalleryAlbum;
 use utf8;
 our $I18N = {
+  'addArchive error generic' => {
+    'lastUpdated' => 1218985888,
+    'message' => 'Er is een fout opgetreden bij het uploaden van het archief: %s'
+  },
   'addArchive error too big' => {
     'lastUpdated' => 1201264681,
     'message' => 'Het archief wat u probeert te uploaden is te groot. Probeer het alstublieft nog een keer.'
