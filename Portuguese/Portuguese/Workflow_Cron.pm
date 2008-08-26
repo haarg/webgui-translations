@@ -1,4 +1,5 @@
 package WebGUI::i18n::Portuguese::Workflow_Cron;
+use utf8;
 
 our $I18N = {
 };

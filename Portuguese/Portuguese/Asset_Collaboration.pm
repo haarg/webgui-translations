@@ -1,4 +1,5 @@
 package WebGUI::i18n::Portuguese::Asset_Collaboration;
+use utf8;
 
 our $I18N = {
 	'add.label' => {
@@ -467,8 +468,8 @@ our $I18N = {
 	},
 
 	'back' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Voltar|,
+		lastUpdated => 1206457409
 	},
 
 	'search.url' => {
@@ -612,8 +613,8 @@ our $I18N = {
 	},
 
 	'body' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Corpo|,
+		lastUpdated => 1206457435
 	},
 
 	'tmplVar url' => {
@@ -1327,8 +1328,8 @@ our $I18N = {
 	},
 
 	'edit' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Editar|,
+		lastUpdated => 1206457457
 	},
 
 	'tmplVar status' => {
@@ -1472,8 +1473,8 @@ our $I18N = {
 	},
 
 	'auto subscribe to thread' => {
-		message => q||,
-		lastUpdated => 
+		message => q|Subscrever automaticamente a thread?|,
+		lastUpdated => 1206457365
 	},
 
 	'link.header.label' => {
