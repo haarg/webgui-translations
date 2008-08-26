@@ -261,6 +261,10 @@ our $I18N = {
     'lastUpdated' => 1216724547,
     'message' => 'Een knop waarmee de gebruiker een bestaand adres mee kan bewerken.'
   },
+  'empty cart' => {
+    'lastUpdated' => 1219727781,
+    'message' => 'Momenteel is de winkelwagen leeg.'
+  },
   'error help' => {
     'lastUpdated' => 1216653648,
     'message' => 'Als er problemen zijn zal de foutmelding hier getoond worden.'
