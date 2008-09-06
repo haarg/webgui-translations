@@ -34,8 +34,8 @@ our $I18N = {
     'message' => 'DN de conexi&oacute;n'
   },
   '5' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1220670480,
+    'message' => 'URL LDAP'
   },
   '6' => {
     'lastUpdated' => undef,
@@ -62,24 +62,24 @@ our $I18N = {
     'message' => ''
   },
   '868' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1220671496,
+    'message' => '&iquest;Enviar mensaje de bienvenida?'
   },
   '868 description' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1220671639,
+    'message' => '<p>&iquest;Desea que WebGUI env&iacute;e autom&aacute;ticamente un mensaje de bienvenida a sus usarios cuando ellos se registren en su sitio?</p><p><strong>Nota:</strong> Adicionalmente al mensaje que usted especifique abajo, se incluir&aacute; en el mensaje la informaci&oacute;n de la cuenta del usuario.</p><p>&nbsp;</p>'
   },
   '869' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1220671662,
+    'message' => 'Mensaje de Bienvenida'
   },
   '869 description' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1220671762,
+    'message' => 'Escriba el mensaje de bienvenida que le gustar&iacute;a enviar a los usuarios cuando se registran.'
   },
   '9' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1220671780,
+    'message' => 'RDN de usuario'
   },
   '9 description' => {
     'lastUpdated' => undef,
@@ -98,12 +98,12 @@ our $I18N = {
     'message' => ''
   },
   'LDAPLink_100' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1220672011,
+    'message' => 'No se especific&oacute; URL LDAP.'
   },
   'LDAPLink_101' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1220672027,
+    'message' => 'No se especific&oacute; nombre de usuario.'
   },
   'LDAPLink_102' => {
     'lastUpdated' => undef,
@@ -114,8 +114,8 @@ our $I18N = {
     'message' => ''
   },
   'LDAPLink_104' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1220672405,
+    'message' => 'La informaci&oacute;n de cuenta que usted proporcion&oacute; es inv&aacute;lida.&nbsp; Puede ser que la cuenta no exista o que la combinaci&oacute;n usuario/contrase&ntilde;a fuese incorrecta.'
   },
   'LDAPLink_105' => {
     'lastUpdated' => undef,
@@ -170,12 +170,12 @@ our $I18N = {
     'message' => ''
   },
   'LDAPLink_19' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1220672092,
+    'message' => 'Violaci&oacute;n de restricci&oacute;n (19)'
   },
   'LDAPLink_2' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1220672420,
+    'message' => 'Error de protocolo (2)'
   },
   'LDAPLink_20' => {
     'lastUpdated' => undef,
@@ -206,8 +206,8 @@ our $I18N = {
     'message' => ''
   },
   'LDAPLink_4' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1220672114,
+    'message' => 'Limite de tama&ntilde;o excedido (4)'
   },
   'LDAPLink_48' => {
     'lastUpdated' => undef,
@@ -222,8 +222,8 @@ our $I18N = {
     'message' => ''
   },
   'LDAPLink_50' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1220672451,
+    'message' => 'Permisos de acceso insuficientes (50)'
   },
   'LDAPLink_51' => {
     'lastUpdated' => undef,
@@ -270,8 +270,8 @@ our $I18N = {
     'message' => ''
   },
   'LDAPLink_7' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1220672146,
+    'message' => 'M&eacute;todo de autenticaci&oacute;n no soportado (7)'
   },
   'LDAPLink_70' => {
     'lastUpdated' => undef,
@@ -310,8 +310,8 @@ our $I18N = {
     'message' => ''
   },
   'LDAPLink_988' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1220672195,
+    'message' => '&iquest;Est&aacute; seguro(a) que desea eliminar esta conexi&oacute;n LDAP?'
   },
   'LDAPLink_991' => {
     'lastUpdated' => undef,
@@ -350,8 +350,8 @@ our $I18N = {
     'message' => ''
   },
   'LDAPLink_ldapGroup' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1220672214,
+    'message' => 'Grupo LDAP'
   },
   'LDAPLink_ldapGroup description' => {
     'lastUpdated' => undef,
@@ -506,12 +506,12 @@ our $I18N = {
     'message' => ''
   },
   'ldapConnection' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1220672269,
+    'message' => 'Conexi&oacute;n LDAP'
   },
   'ldapConnection description' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1220672260,
+    'message' => 'Seleccione una de las conexiones LDAP preconfiguradas para autenticar este usuario.'
   },
   'ldapconnections' => {
     'lastUpdated' => undef,
@@ -534,8 +534,8 @@ our $I18N = {
     'message' => ''
   },
   'title' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1220672294,
+    'message' => 'T&iacute;tulo de p&aacute;gina por defecto.'
   },
   'topicName' => {
     'lastUpdated' => undef,

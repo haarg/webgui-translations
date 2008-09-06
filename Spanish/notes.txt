@@ -21,7 +21,7 @@ Dashboard = Panel
 Dashlet = Elemento
 Data Form = Formulario de Datos
 
-Equipo de traduccion VCB:
+Equipo de traduccion VCB (Colombia):
 
     Lisette Ramirez
     Juan Guillermo Gallego
@@ -38,4 +38,6 @@ Colaboracion en Traduccion
     Marcela CF Saiffe (Mexico)
 
 Usuarios WebGUI de Venezuela
+
+Ildefonso Camargo
 
