@@ -1,4 +1,5 @@
 package WebGUI::i18n::Slovenian::Asset_Gallery;
+use utf8;
 
 our $I18N = {
 	'viewDefault option album' => {
