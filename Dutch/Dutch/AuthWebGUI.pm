@@ -1,647 +1,523 @@
 package WebGUI::i18n::Dutch::AuthWebGUI;
 use utf8;
-
 our $I18N = {
-	'new password label' => {
-		message => q|Nieuw wachtwoord|,
-		lastUpdated => 1190024946
-	},
-
-	'expired.message' => {
-		message => q|Een willekeurig bericht, teruggebracht door het systeem. Normaal gesproken weergegeven nadat het formulier is verzonden. |,
-		lastUpdated => 1156034889
-	},
-
-	'21' => {
-		message => q|Wijzigen gebruikersnaam toestaan?|,
-		lastUpdated => 1155557921
-	},
-
-	'recover.form.submit' => {
-		message => q|De standaard verzend-knop voor het wachtwoord terughalen-formulier. |,
-		lastUpdated => 1156035892
-	},
-
-	'7' => {
-		message => q|Wachtwoorden moeten minimaal het aantal karakters hebben van: |,
-		lastUpdated => 1155558075
-	},
-
-	'account.form.passwordConfirm.label' => {
-		message => q|Standaard tekst voor wachtwoordbevestiging-formulierveld|,
-		lastUpdated => 1155896869
-	},
-
-	'expired.form.passwordConfirm' => {
-		message => q|Standaard wachtwoord bevestigen formulier-veld.|,
-		lastUpdated => 1156034680
-	},
-
-	'create.message' => {
-		message => q|Een willekeurig bericht, teruggebracht door het systeem. Wordt normaal gesproken weergegeven nadat het formulier is verstuurd. |,
-		lastUpdated => 1156021912
-	},
-
-	'expired.form.passwordConfirm.label' => {
-		message => q|Standaard tekst voor wachtwoord bevestigen formulier-veld|,
-		lastUpdated => 1156034705
-	},
-
-	'create.form.passwordConfirm.label' => {
-		message => q|Standaard tekst voor wachtwoordbevestiging-formulier-veld|,
-		lastUpdated => 1155923740
-	},
-
-	'account.form.password.label' => {
-		message => q|Standaard tekst voor het wachtwoord veld|,
-		lastUpdated => 1155558520
-	},
-
-	'account.nofields' => {
-		message => q|Standaard-weergave als er geen formulier-onderdelen zijn om weer te geven. |,
-		lastUpdated => 1155906249
-	},
-
-	'18' => {
-		message => q|Wijzigen wachtwoord toestaan?|,
-		lastUpdated => 1155557897
-	},
-
-	'password recovery no results' => {
-		message => q|Er werden geen gebruikers gevonden bij deze profielgegevens. Probeert u het opnieuw.|,
-		lastUpdated => 1166625828
-	},
-
-	'16' => {
-		message => q|Wachtwoord verloopt na|,
-		lastUpdated => 1155557815
-	},
-
-	'password recovery template' => {
-		message => q|Wachtwoord terughalen-sjabloon|,
-		lastUpdated => 1156035692
-	},
-
-	'account.form.password' => {
-		message => q|Standaard wachtwoord veld|,
-		lastUpdated => 1155558528
-	},
-
-	'email address validation email subject' => {
-		message => q|Account activering|,
-		lastUpdated => 1156024486
-	},
-
-	'recoverFormUsernameLabel' => {
-		message => q|Label - in meerdere talen beschikbaar - voor het formulierveld "username" (gebruikersnaam) voor het opvragen van het wachtwoord. |,
-		lastUpdated => 1166626041
-	},
-
-	'recover.message' => {
-		message => q|Een willekeurig bericht, teruggebracht door het systeem. Normaal gesproken weergegeven nadat het formulier is verzonden. |,
-		lastUpdated => 1156035939
-	},
-
-	'create account template' => {
-		message => q|Account-sjabloon aanmaken|,
-		lastUpdated => 1155917876
-	},
-
-	'captcha failure' => {
-		message => q|U moet de zes tekens intypen die u in het plaatje ziet, om te bewijzen dat u mens bent. |,
-		lastUpdated => 1155917795
-	},
-
-	'email recover password start message' => {
-		message => q|Geef hieronder hetzij uw emailadres hetzij uw gebruikersnaam om uw wachtwoord opnieuw op te vragen.|,
-		lastUpdated => 1190025102
-	},
-
-	'20' => {
-		message => q|Wijzigen wachtwoord toestaan?|,
-		lastUpdated => 1155557910
-	},
-
-	'recoverPassword.label' => {
-		message => q|Standaard label voor de wachtwoord terughalen-link|,
-		lastUpdated => 1156036037
-	},
-
-	'create.form.password.label' => {
-		message => q|Standaard tekst voor wachtwoord formulier-veld. |,
-		lastUpdated => 1155923112
-	},
-
-	'recoverFormProfile formElement' => {
-		message => q|Een formulier-element voor het profielveld. |,
-		lastUpdated => 1166625917
-	},
-
-	'setting passwordRecoveryType email' => {
-		message => q|Emailadres|,
-		lastUpdated => 1190024708
-	},
-
-	'recover password not found' => {
-		message => q|Er is geen gebruiker gevonden bij de gegevens die zijn opgegeven.|,
-		lastUpdated => 1190024732
-	},
-
-	'10' => {
-		message => q|Oude wachtwoord|,
-		lastUpdated => 1155557689
-	},
-
-	'account.form.passwordConfirm' => {
-		message => q|Standaard wachtwoordbevestiging-formulierveld |,
-		lastUpdated => 1155895780
-	},
-
-	'login.form.email' => {
-		message => q|Standaard e-mail formulier-veld.|,
-		lastUpdated => 1156035125
-	},
-
-	'title' => {
-		message => q|Standaard paginatitel|,
-		lastUpdated => 1166626092
-	},
-
-	'expired.form.password.label' => {
-		message => q|Standaard tekst voor wachtwoord formulier-veld. |,
-		lastUpdated => 1156034652
-	},
-
-	'11' => {
-		message => q|Nieuwe wachtwoord|,
-		lastUpdated => 1155557698
-	},
-
-	'recover password email text3' => {
-		message => q|Als u niet heeft verzocht uw wachtwoord opnieuw in te stellen, neemt u dan contact op met de systeembeheerder door dit bericht te beantwoorden.|,
-		lastUpdated => 1208528557
-	},
-
-	'password recovery multiple results' => {
-		message => q|Sorry, het wachtwoord voor deze login kan niet worden gevonden. Neem contact op met de webmaster of een systeembeheerder.|,
-		lastUpdated => 1166625795
-	},
-
-	'recoverFormProfile id' => {
-		message => q|De ID van het profielveld.|,
-		lastUpdated => 1166625932
-	},
-
-	'account.form.username' => {
-		message => q|Standaard gebruikersnaam-formulierveld.|,
-		lastUpdated => 1155900542
-	},
-
-	'setting passwordRecoveryType profile' => {
-		message => q|Profielveld|,
-		lastUpdated => 1190024693
-	},
-
-	'create.form.passwordConfirm' => {
-		message => q|Standaard wachtwoordbevestiging-formulier-veld |,
-		lastUpdated => 1155923710
-	},
-
-	'recoverFormProfile label' => {
-		message => q|Het label - in meerdere talen beschikbaar - voor het profielveld.|,
-		lastUpdated => 1166625954
-	},
-
-	'webguiPasswordRecovery hoverHelp' => {
-		message => q|Selecteer hier &quot;Profiel veld&quot; om gebruikers toe te staan met een specifieke combinatie van gegevens uit hun profiel hun wachtwoord opnieuw op te vragen. Voordat deze optie ook daadwerkelijk werkt, moet bij ten minste &eacute;&eacute;n profielveld de optie &quot;Verplicht voor opvragen wachtwoord&quot; geselecteerd zijn. Het is zeer aan te raden meerdere profielvelden te kiezen, om gokken te ontmoedigen. Bedenk: iedereen die alle velden voor een gebruiker te weten kan komen of kan raden heeft de mogelijkheid het wachtwoord voor deze gebruiker opnieuw in te stellen. Selecteer E-mail om gebruikers een e-mail te kunnen zenden met een link via welke ze hun wachtwoord opnieuw kunnen instellen.|,
-		lastUpdated => 1199787271
-	},
-
-	'recover password email text1' => {
-		message => q|Uw verzoek om het wachtwoord opnieuw in te stellen is ontvangen|,
-		lastUpdated => 1190024840
-	},
-
-	'setting passwordRecoveryType none' => {
-		message => q|Nee|,
-		lastUpdated => 1190024700
-	},
-
-	'new password verify' => {
-		message => q|Nieuw wachtwoord (ter bevestiging)|,
-		lastUpdated => 1190024938
-	},
-
-	'expired.form.footer' => {
-		message => q|De vereiste formulier-onderdelen die na het wachtwoord verlopen pagina-formulier komen. |,
-		lastUpdated => 1156034519
-	},
-
-	'require username for password recovery' => {
-		message => q|Is het opgeven van de gebruikersnaam verplicht bij het opvragen van het wachtwoord?|,
-		lastUpdated => 1166626081
-	},
-
-	'error password nonWordCharacters' => {
-		message => q|Wachtwoorden moeten ten minste %s vreemde tekens bevatten (zoals "!", "@" of "$").|,
-		lastUpdated => 1190025075
-	},
-
-	'deactivate account template title' => {
-		message => q|Sjabloon WebGUI Authenticatie: Deactiveer Login|,
-		lastUpdated => 1166625726
-	},
-
-	'login template' => {
-		message => q|Login-sjabloon|,
-		lastUpdated => 1156034900
-	},
-
-	'error passwordRecoveryType no profile fields required' => {
-		message => q|Wachtwoorden kunnen niet worden opgegevraagd aan de hand van profielvelden, omdat geen enkel profielveld is ingesteld als verplicht om het wachtwoord opnieuw te mogen instellen.|,
-		lastUpdated => 1190025001
-	},
-
-	'12' => {
-		message => q|Het nieuwe wachtwoord mag niet overeenkomen met het oude wachtwoord|,
-		lastUpdated => 1155557724
-	},
-
-	'15' => {
-		message => q|Minimale wachtwoordlengte|,
-		lastUpdated => 1155557790
-	},
-
-	'use captcha' => {
-		message => q|Captcha afbeelding gebruiken?|,
-		lastUpdated => 1154000570
-	},
-
-	'check email for validation' => {
-		message => q|Controleer alstublieft uw e-mail om uw account te activeren.|,
-		lastUpdated => 1155917843
-	},
-
-	'email password recovery end message' => {
-		message => q|Geef hieronder een nieuw wachtwoord op voor uw account|,
-		lastUpdated => 1190025148
-	},
-
-	'login.label' => {
-		message => q|Standaard tekst label voor login pagina-link.|,
-		lastUpdated => 1156035496
-	},
-
-	'19' => {
-		message => q|Wijzigen gebruikersnaam toestaan?|,
-		lastUpdated => 1155557876
-	},
-
-	'expired.form.submit' => {
-		message => q|De standaard verzend-knop voor het wachtwoord verlopen-formulier.|,
-		lastUpdated => 1156034822
-	},
-
-	'login.message' => {
-		message => q|Een willekeurig bericht, teruggebracht door het systeem. Normaal gesproken weergegeven nadat het formulier is verzonden.|,
-		lastUpdated => 1156035538
-	},
-
-	'recovery template title' => {
-		message => q|Wachtwoord terugwin template (WebGui authenticatie)|,
-		lastUpdated => 1154000828
-	},
-
-	'new password help' => {
-		message => q|Geef hier uw nieuwe wachtwoord|,
-		lastUpdated => 1190024958
-	},
-
-	'displayTitle' => {
-		message => q|Standaard pagina-titel |,
-		lastUpdated => 1156023671
-	},
-
-	'create.form.oldPassword.label' => {
-		message => q|Standaard tekst voor oud wachtwoord formulier-veld. |,
-		lastUpdated => 1155922687
-	},
-
-	'create.form.username.label' => {
-		message => q|Standaard tekst voor gebruikersnaam formulier-veld.|,
-		lastUpdated => 1156021794
-	},
-
-	'expired.form.password' => {
-		message => q|Standaard wachtwoord formulier-veld. |,
-		lastUpdated => 1156034627
-	},
-
-	'setting webguiNonWordCharacters' => {
-		message => q|Minimaal aantal vreemde tekens in wachtwoord|,
-		lastUpdated => 1190024684
-	},
-
-	'17' => {
-		message => q|Wachtwoord gewijzigd|,
-		lastUpdated => 1155557826
-	},
-
-	'2' => {
-		message => q|Wachtwoord (bevestiging)|,
-		lastUpdated => 1155557889
-	},
-
-	'expired.form.header' => {
-		message => q|De vereiste formulier-onderdelen die bovenaan de wachtwoord verlopen-pagina komen. |,
-		lastUpdated => 1156034562
-	},
-
-	'error password requiredDigits' => {
-		message => q|Wachtwoorden moeten ten minste %s cijfers bevatten.|,
-		lastUpdated => 1190025049
-	},
-
-	'display account template title' => {
-		message => q|WebGUI authenticatie weergave account-sjabloon |,
-		lastUpdated => 1156023652
-	},
-
-	'1' => {
-		message => q|WebGUI authenticatie opties|,
-		lastUpdated => 1155557680
-	},
-
-	'password recovery email label' => {
-		message => q|Emailadres|,
-		lastUpdated => 1190024884
-	},
-
-	'account.message' => {
-		message => q|Elke boodschap teruggebracht door het systeem. Normaal gesproken weergegeven nadat het formulier is verstuurd. |,
-		lastUpdated => 1155906202
-	},
-
-	'login template title' => {
-		message => q|WebGUI authenticatie login-sjabloon|,
-		lastUpdated => 1156035103
-	},
-
-	'password recovery login label' => {
-		message => q|Loginnaam|,
-		lastUpdated => 1190024863
-	},
-
-	'password recovery disabled' => {
-		message => q|Deze account is uitgezet. Het wachtwoord kan niet worden hersteld totdat de account geactiveerd is.|,
-		lastUpdated => 1213626099
-	},
-
-	'validate email' => {
-		message => q|E-mailadressen bevestigen?|,
-		lastUpdated => 1154000540
-	},
-
-	'password recovery login hoverHelp' => {
-		message => q|Geef uw gebruikersnaam in |,
-		lastUpdated => 1190024874
-	},
-
-	'setting webguiRequiredMixedCase' => {
-		message => q|Aantal verplichte hoofdletters in het wachtwoord|,
-		lastUpdated => 1190024642
-	},
-
-	'create.form.password' => {
-		message => q|Standaard wachtwoord formulier-veld.|,
-		lastUpdated => 1155923719
-	},
-
-	'recoverFormUsername' => {
-		message => q|Formulierveld Gebruikersnaam voor het opvragen van het wachtwoord. |,
-		lastUpdated => 1166625979
-	},
-
-	'recoverPassword.url' => {
-		message => q|URL voor de wachtwoord terughalen-link. |,
-		lastUpdated => 1156036058
-	},
-
-	'14' => {
-		message => q|Minimale wachtwoordlengte|,
-		lastUpdated => 1155557758
-	},
-
-	'email address validation email body' => {
-		message => q|Welkom op onze site. Klik alstublieft op de link hieronder om uw account te activeren. |,
-		lastUpdated => 1156023714
-	},
-
-	'login.form.email.label' => {
-		message => q|Standaard tekst voor e-mail formulier-veld|,
-		lastUpdated => 1156035146
-	},
-
-	'no registration hack' => {
-		message => q|Voltooi anonieme registratie door createAccountSave meteen vanaf de URL aan te roepen. |,
-		lastUpdated => 1156035603
-	},
-
-	'create.form.oldPassword' => {
-		message => q|Standaard oud wachtwoord formulier-veld.|,
-		lastUpdated => 1155922668
-	},
-
-	'new password verify help' => {
-		message => q|Wachtwoord (ter bevestiging)|,
-		lastUpdated => 1190024920
-	},
-
-	'password recovery no username' => {
-		message => q|Voor het herstellen van uw wachtwoord is de gebruikersnaam vereist.|,
-		lastUpdated => 1166780076
-	},
-
-	'create.form.hidden' => {
-		message => q|Verborgen formulier-velden die vereist zijn om het formulier te versturen. |,
-		lastUpdated => 1155922651
-	},
-
-	'create.form.username' => {
-		message => q|Standaard gebruikersnaam formulier-veld.|,
-		lastUpdated => 1156021767
-	},
-
-	'login.url' => {
-		message => q|URL voor de login-pagina.|,
-		lastUpdated => 1156035552
-	},
-
-	'password recovery email hoverHelp' => {
-		message => q|Geef uw emailadres in|,
-		lastUpdated => 1190024896
-	},
-
-	'account.noform' => {
-		message => q|Geeft aan of het account-weergave-formulier al dan niet enkele zichtbare velden heeft. |,
-		lastUpdated => 1155906705
-	},
-
-	'createAccount.url' => {
-		message => q|URL voor de anonieme registratie-pagina|,
-		lastUpdated => 1156022002
-	},
-
-	'email recover password finish message1' => {
-		message => q|Een email is verzonden naar |,
-		lastUpdated => 1190025130
-	},
-
-	'account.form.username.label' => {
-		message => q|Standaard tekst voor het gebruikersnaam-formulierveld.|,
-		lastUpdated => 1155900659
-	},
-
-	'anon reg template title' => {
-		message => q|WebGUI authenticatie anonieme registratie-sjabloon|,
-		lastUpdated => 1155917612
-	},
-
-	'recover.form.hidden' => {
-		message => q|Verborgen formulier-velden die vereist zijn om het formulier te versturen.|,
-		lastUpdated => 1156035856
-	},
-
-	'anonymousRegistration.isAllowed' => {
-		message => q|Vlag die aangeeft of anonieme registraties al dan niet zijn toegestaan.|,
-		lastUpdated => 1155917744
-	},
-
-	'expired password template' => {
-		message => q|Verlopen wachtwoord-sjabloon |,
-		lastUpdated => 1156024584
-	},
-
-	'expired template title' => {
-		message => q|WebGUI authenticatie wachtwoord verlopen-sjabloon |,
-		lastUpdated => 1156034449
-	},
-
-	'email recover password finish message2' => {
-		message => q|met instructies om uw wachtwoord opnieuw in te stellen.|,
-		lastUpdated => 1190025120
-	},
-
-	'captcha label' => {
-		message => q|Controleer uw menselijkheid|,
-		lastUpdated => 1155917810
-	},
-
-	'topicName' => {
-		message => q|WebGui authenticatie|,
-		lastUpdated => 1154000645
-	},
-
-	'22' => {
-		message => q|Er zijn geen velden om te wijzigen. |,
-		lastUpdated => 1155558006
-	},
-
-	'13' => {
-		message => q|Wachtwoord ophalen toestaan?|,
-		lastUpdated => 1155558103
-	},
-
-	'6' => {
-		message => q|Wachtwoord ophalen toestaan?|,
-		lastUpdated => 1155558094
-	},
-
-	'recoverPassword.isAllowed' => {
-		message => q|Vlag die aangeeft of het wachtwoord terughalen al dan niet is ingeschakeld |,
-		lastUpdated => 1156036017
-	},
-
-	'account template' => {
-		message => q|Account sjabloon|,
-		lastUpdated => 1155558248
-	},
-
-	'3' => {
-		message => q|De ingevulde wachtwoorden komen niet overeen. Probeer het nogmaals.|,
-		lastUpdated => 1155557957
-	},
-
-	'recoverFormProfile' => {
-		message => q|Loop door de profielvelden, die nodig zijn voor het opvragen van het wachtwoord.|,
-		lastUpdated => 1208528722
-	},
-
-	'9' => {
-		message => q|Wachtwoorden laten verlopen bij het aanmaken van gebruikers?|,
-		lastUpdated => 1155558138
-	},
-
-	'recover password email text2' => {
-		message => q|Klik op de link hieronder om de site te bezoeken en daar uw wachtwoord opnieuw in te stellen.|,
-		lastUpdated => 1190024797
-	},
-
-	'setting webguiRequiredDigits' => {
-		message => q|Minimaal aantal cijfers in wachtwoord|,
-		lastUpdated => 1190024663
-	},
-
-	'expired.form.hidden' => {
-		message => q|Verborgen formulier-velden die vereist zijn om het formulier te versturen.  |,
-		lastUpdated => 1156034602
-	},
-
-	'recover.form.header' => {
-		message => q|De vereiste formulier-onderdelen die bovenaan de wachtwoord terughalen-pagina komen. |,
-		lastUpdated => 1156035829
-	},
-
-	'8' => {
-		message => q|Uw wachtwoord is verlopen.|,
-		lastUpdated => 1155558115
-	},
-
-	'createAccount.label' => {
-		message => q|Standaard label voor de anonomie registratie-link.|,
-		lastUpdated => 1156021939
-	},
-
-	'4' => {
-		message => q|Het wachtwoord moet worden ingevuld.|,
-		lastUpdated => 1155557998
-	},
-
-	'recover.form.footer' => {
-		message => q|De vereiste formulier-onderdelen die na het wachtwoord terughalen pagina-formulier komen.|,
-		lastUpdated => 1156035792
-	},
-
-	'error password requiredMixedCase' => {
-		message => q|Wachtwoorden moeten ten minste %s hoofdletters bevatten en ten minste een onderkast karakter.|,
-		lastUpdated => 1190025033
-	},
-
-	'webguiPasswordRecoveryRequireUsername hoverHelp' => {
-		message => q|Selecteer "Ja" om gebruikers te verplichten ook hun gebruikersnaam op te geven wanneer ze hun wachtwoord opnieuw opvragen. In het andere geval kunnen gebruikers hun wachtwoord opnieuw instellen en zichzelf inloggen wanneer ze de profielvelden kennen die verplicht zijn voor het opvragen van het wachtwoord, zelfs al zijn ze hun gebruikersnaam vergeten. |,
-		lastUpdated => 1166627245
-	},
-
-	'recover password banner' => {
-		message => q|Wachtwoord opnieuw opvragen|,
-		lastUpdated => 1190024852
-	},
-
-	'5' => {
-		message => q|Het wachtwoord mag niet &quot;password&quot; zijn.|,
-		lastUpdated => 1155557989
-	},
-
-};
+  '1' => {
+    'lastUpdated' => 1155557680,
+    'message' => 'WebGUI authenticatie opties'
+  },
+  '10' => {
+    'lastUpdated' => 1155557689,
+    'message' => 'Oude wachtwoord'
+  },
+  '11' => {
+    'lastUpdated' => 1155557698,
+    'message' => 'Nieuwe wachtwoord'
+  },
+  '12' => {
+    'lastUpdated' => 1155557724,
+    'message' => 'Het nieuwe wachtwoord mag niet overeenkomen met het oude wachtwoord'
+  },
+  '13' => {
+    'lastUpdated' => 1155558103,
+    'message' => 'Wachtwoord ophalen toestaan?'
+  },
+  '14' => {
+    'lastUpdated' => 1155557758,
+    'message' => 'Minimale wachtwoordlengte'
+  },
+  '15' => {
+    'lastUpdated' => 1155557790,
+    'message' => 'Minimale wachtwoordlengte'
+  },
+  '16' => {
+    'lastUpdated' => 1155557815,
+    'message' => 'Wachtwoord verloopt na'
+  },
+  '17' => {
+    'lastUpdated' => 1155557826,
+    'message' => 'Wachtwoord gewijzigd'
+  },
+  '18' => {
+    'lastUpdated' => 1155557897,
+    'message' => 'Wijzigen wachtwoord toestaan?'
+  },
+  '19' => {
+    'lastUpdated' => 1155557876,
+    'message' => 'Wijzigen gebruikersnaam toestaan?'
+  },
+  '2' => {
+    'lastUpdated' => 1155557889,
+    'message' => 'Wachtwoord (bevestiging)'
+  },
+  '20' => {
+    'lastUpdated' => 1155557910,
+    'message' => 'Wijzigen wachtwoord toestaan?'
+  },
+  '21' => {
+    'lastUpdated' => 1155557921,
+    'message' => 'Wijzigen gebruikersnaam toestaan?'
+  },
+  '22' => {
+    'lastUpdated' => 1155558006,
+    'message' => 'Er zijn geen velden om te wijzigen. '
+  },
+  '3' => {
+    'lastUpdated' => 1155557957,
+    'message' => 'De ingevulde wachtwoorden komen niet overeen. Probeer het nogmaals.'
+  },
+  '4' => {
+    'lastUpdated' => 1155557998,
+    'message' => 'Het wachtwoord moet worden ingevuld.'
+  },
+  '5' => {
+    'lastUpdated' => 1155557989,
+    'message' => 'Het wachtwoord mag niet &quot;password&quot; zijn.'
+  },
+  '6' => {
+    'lastUpdated' => 1155558094,
+    'message' => 'Wachtwoord ophalen toestaan?'
+  },
+  '7' => {
+    'lastUpdated' => 1155558075,
+    'message' => 'Wachtwoorden moeten minimaal het aantal karakters hebben van: '
+  },
+  '8' => {
+    'lastUpdated' => 1155558115,
+    'message' => 'Uw wachtwoord is verlopen.'
+  },
+  '9' => {
+    'lastUpdated' => 1155558138,
+    'message' => 'Wachtwoorden laten verlopen bij het aanmaken van gebruikers?'
+  },
+  'account template' => {
+    'lastUpdated' => 1155558248,
+    'message' => 'Account sjabloon'
+  },
+  'account.form.password' => {
+    'lastUpdated' => 1155558528,
+    'message' => 'Standaard wachtwoord veld'
+  },
+  'account.form.password.label' => {
+    'lastUpdated' => 1155558520,
+    'message' => 'Standaard tekst voor het wachtwoord veld'
+  },
+  'account.form.passwordConfirm' => {
+    'lastUpdated' => 1155895780,
+    'message' => 'Standaard wachtwoordbevestiging-formulierveld '
+  },
+  'account.form.passwordConfirm.label' => {
+    'lastUpdated' => 1155896869,
+    'message' => 'Standaard tekst voor wachtwoordbevestiging-formulierveld'
+  },
+  'account.form.username' => {
+    'lastUpdated' => 1155900542,
+    'message' => 'Standaard gebruikersnaam-formulierveld.'
+  },
+  'account.form.username.label' => {
+    'lastUpdated' => 1155900659,
+    'message' => 'Standaard tekst voor het gebruikersnaam-formulierveld.'
+  },
+  'account.message' => {
+    'lastUpdated' => 1155906202,
+    'message' => 'Elke boodschap teruggebracht door het systeem. Normaal gesproken weergegeven nadat het formulier is verstuurd. '
+  },
+  'account.nofields' => {
+    'lastUpdated' => 1155906249,
+    'message' => 'Standaard-weergave als er geen formulier-onderdelen zijn om weer te geven. '
+  },
+  'account.noform' => {
+    'lastUpdated' => 1155906705,
+    'message' => 'Geeft aan of het account-weergave-formulier al dan niet enkele zichtbare velden heeft. '
+  },
+  'anon reg template title' => {
+    'lastUpdated' => 1155917612,
+    'message' => 'WebGUI authenticatie anonieme registratie-sjabloon'
+  },
+  'anonymousRegistration.isAllowed' => {
+    'lastUpdated' => 1155917744,
+    'message' => 'Vlag die aangeeft of anonieme registraties al dan niet zijn toegestaan.'
+  },
+  'captcha failure' => {
+    'lastUpdated' => 1155917795,
+    'message' => 'U moet de zes tekens intypen die u in het plaatje ziet, om te bewijzen dat u mens bent. '
+  },
+  'captcha label' => {
+    'lastUpdated' => 1155917810,
+    'message' => 'Controleer uw menselijkheid'
+  },
+  'check email for validation' => {
+    'lastUpdated' => 1155917843,
+    'message' => 'Controleer alstublieft uw e-mail om uw account te activeren.'
+  },
+  'create account template' => {
+    'lastUpdated' => 1155917876,
+    'message' => 'Account-sjabloon aanmaken'
+  },
+  'create.form.hidden' => {
+    'lastUpdated' => 1155922651,
+    'message' => 'Verborgen formulier-velden die vereist zijn om het formulier te versturen. '
+  },
+  'create.form.oldPassword' => {
+    'lastUpdated' => 1155922668,
+    'message' => 'Standaard oud wachtwoord formulier-veld.'
+  },
+  'create.form.oldPassword.label' => {
+    'lastUpdated' => 1155922687,
+    'message' => 'Standaard tekst voor oud wachtwoord formulier-veld. '
+  },
+  'create.form.password' => {
+    'lastUpdated' => 1155923719,
+    'message' => 'Standaard wachtwoord formulier-veld.'
+  },
+  'create.form.password.label' => {
+    'lastUpdated' => 1155923112,
+    'message' => 'Standaard tekst voor wachtwoord formulier-veld. '
+  },
+  'create.form.passwordConfirm' => {
+    'lastUpdated' => 1155923710,
+    'message' => 'Standaard wachtwoordbevestiging-formulier-veld '
+  },
+  'create.form.passwordConfirm.label' => {
+    'lastUpdated' => 1155923740,
+    'message' => 'Standaard tekst voor wachtwoordbevestiging-formulier-veld'
+  },
+  'create.form.username' => {
+    'lastUpdated' => 1156021767,
+    'message' => 'Standaard gebruikersnaam formulier-veld.'
+  },
+  'create.form.username.label' => {
+    'lastUpdated' => 1156021794,
+    'message' => 'Standaard tekst voor gebruikersnaam formulier-veld.'
+  },
+  'create.message' => {
+    'lastUpdated' => 1156021912,
+    'message' => 'Een willekeurig bericht, teruggebracht door het systeem. Wordt normaal gesproken weergegeven nadat het formulier is verstuurd. '
+  },
+  'createAccount.label' => {
+    'lastUpdated' => 1156021939,
+    'message' => 'Standaard label voor de anonomie registratie-link.'
+  },
+  'createAccount.url' => {
+    'lastUpdated' => 1156022002,
+    'message' => 'URL voor de anonieme registratie-pagina'
+  },
+  'deactivate account template title' => {
+    'lastUpdated' => 1166625726,
+    'message' => 'Sjabloon WebGUI Authenticatie: Deactiveer Login'
+  },
+  'display account template title' => {
+    'lastUpdated' => 1156023652,
+    'message' => 'WebGUI authenticatie weergave account-sjabloon '
+  },
+  'displayTitle' => {
+    'lastUpdated' => 1156023671,
+    'message' => 'Standaard pagina-titel '
+  },
+  'email address validation email body' => {
+    'lastUpdated' => 1156023714,
+    'message' => 'Welkom op onze site. Klik alstublieft op de link hieronder om uw account te activeren. '
+  },
+  'email address validation email subject' => {
+    'lastUpdated' => 1156024486,
+    'message' => 'Account activering'
+  },
+  'email password recovery end message' => {
+    'lastUpdated' => 1190025148,
+    'message' => 'Geef hieronder een nieuw wachtwoord op voor uw account'
+  },
+  'email recover password finish message1' => {
+    'lastUpdated' => 1190025130,
+    'message' => 'Een email is verzonden naar '
+  },
+  'email recover password finish message2' => {
+    'lastUpdated' => 1190025120,
+    'message' => 'met instructies om uw wachtwoord opnieuw in te stellen.'
+  },
+  'email recover password start message' => {
+    'lastUpdated' => 1190025102,
+    'message' => 'Geef hieronder hetzij uw emailadres hetzij uw gebruikersnaam om uw wachtwoord opnieuw op te vragen.'
+  },
+  'error password nonWordCharacters' => {
+    'lastUpdated' => 1190025075,
+    'message' => 'Wachtwoorden moeten ten minste %s vreemde tekens bevatten (zoals "!", "@" of "$").'
+  },
+  'error password requiredDigits' => {
+    'lastUpdated' => 1190025049,
+    'message' => 'Wachtwoorden moeten ten minste %s cijfers bevatten.'
+  },
+  'error password requiredMixedCase' => {
+    'lastUpdated' => 1190025033,
+    'message' => 'Wachtwoorden moeten ten minste %s hoofdletters bevatten en ten minste een onderkast karakter.'
+  },
+  'error passwordRecoveryType no profile fields required' => {
+    'lastUpdated' => 1190025001,
+    'message' => 'Wachtwoorden kunnen niet worden opgegevraagd aan de hand van profielvelden, omdat geen enkel profielveld is ingesteld als verplicht om het wachtwoord opnieuw te mogen instellen.'
+  },
+  'expired password template' => {
+    'lastUpdated' => 1156024584,
+    'message' => 'Verlopen wachtwoord-sjabloon '
+  },
+  'expired template title' => {
+    'lastUpdated' => 1156034449,
+    'message' => 'WebGUI authenticatie wachtwoord verlopen-sjabloon '
+  },
+  'expired.form.footer' => {
+    'lastUpdated' => 1156034519,
+    'message' => 'De vereiste formulier-onderdelen die na het wachtwoord verlopen pagina-formulier komen. '
+  },
+  'expired.form.header' => {
+    'lastUpdated' => 1156034562,
+    'message' => 'De vereiste formulier-onderdelen die bovenaan de wachtwoord verlopen-pagina komen. '
+  },
+  'expired.form.hidden' => {
+    'lastUpdated' => 1156034602,
+    'message' => 'Verborgen formulier-velden die vereist zijn om het formulier te versturen.  '
+  },
+  'expired.form.password' => {
+    'lastUpdated' => 1156034627,
+    'message' => 'Standaard wachtwoord formulier-veld. '
+  },
+  'expired.form.password.label' => {
+    'lastUpdated' => 1156034652,
+    'message' => 'Standaard tekst voor wachtwoord formulier-veld. '
+  },
+  'expired.form.passwordConfirm' => {
+    'lastUpdated' => 1156034680,
+    'message' => 'Standaard wachtwoord bevestigen formulier-veld.'
+  },
+  'expired.form.passwordConfirm.label' => {
+    'lastUpdated' => 1156034705,
+    'message' => 'Standaard tekst voor wachtwoord bevestigen formulier-veld'
+  },
+  'expired.form.submit' => {
+    'lastUpdated' => 1156034822,
+    'message' => 'De standaard verzend-knop voor het wachtwoord verlopen-formulier.'
+  },
+  'expired.message' => {
+    'lastUpdated' => 1156034889,
+    'message' => 'Een willekeurig bericht, teruggebracht door het systeem. Normaal gesproken weergegeven nadat het formulier is verzonden. '
+  },
+  'login template' => {
+    'lastUpdated' => 1156034900,
+    'message' => 'Login-sjabloon'
+  },
+  'login template title' => {
+    'lastUpdated' => 1156035103,
+    'message' => 'WebGUI authenticatie login-sjabloon'
+  },
+  'login.form.email' => {
+    'lastUpdated' => 1156035125,
+    'message' => 'Standaard e-mail formulier-veld.'
+  },
+  'login.form.email.label' => {
+    'lastUpdated' => 1156035146,
+    'message' => 'Standaard tekst voor e-mail formulier-veld'
+  },
+  'login.label' => {
+    'lastUpdated' => 1156035496,
+    'message' => 'Standaard tekst label voor login pagina-link.'
+  },
+  'login.message' => {
+    'lastUpdated' => 1156035538,
+    'message' => 'Een willekeurig bericht, teruggebracht door het systeem. Normaal gesproken weergegeven nadat het formulier is verzonden.'
+  },
+  'login.url' => {
+    'lastUpdated' => 1156035552,
+    'message' => 'URL voor de login-pagina.'
+  },
+  'new password help' => {
+    'lastUpdated' => 1190024958,
+    'message' => 'Geef hier uw nieuwe wachtwoord'
+  },
+  'new password label' => {
+    'lastUpdated' => 1190024946,
+    'message' => 'Nieuw wachtwoord'
+  },
+  'new password verify' => {
+    'lastUpdated' => 1190024938,
+    'message' => 'Nieuw wachtwoord (ter bevestiging)'
+  },
+  'new password verify help' => {
+    'lastUpdated' => 1190024920,
+    'message' => 'Wachtwoord (ter bevestiging)'
+  },
+  'no registration hack' => {
+    'lastUpdated' => 1156035603,
+    'message' => 'Voltooi anonieme registratie door createAccountSave meteen vanaf de URL aan te roepen. '
+  },
+  'password recovery disabled' => {
+    'lastUpdated' => 1213626099,
+    'message' => 'Deze account is uitgezet. Het wachtwoord kan niet worden hersteld totdat de account geactiveerd is.'
+  },
+  'password recovery email hoverHelp' => {
+    'lastUpdated' => 1190024896,
+    'message' => 'Geef uw emailadres in'
+  },
+  'password recovery email label' => {
+    'lastUpdated' => 1190024884,
+    'message' => 'Emailadres'
+  },
+  'password recovery login hoverHelp' => {
+    'lastUpdated' => 1190024874,
+    'message' => 'Geef uw gebruikersnaam in '
+  },
+  'password recovery login label' => {
+    'lastUpdated' => 1190024863,
+    'message' => 'Loginnaam'
+  },
+  'password recovery multiple results' => {
+    'lastUpdated' => 1166625795,
+    'message' => 'Sorry, het wachtwoord voor deze login kan niet worden gevonden. Neem contact op met de webmaster of een systeembeheerder.'
+  },
+  'password recovery no results' => {
+    'lastUpdated' => 1166625828,
+    'message' => 'Er werden geen gebruikers gevonden bij deze profielgegevens. Probeert u het opnieuw.'
+  },
+  'password recovery no username' => {
+    'lastUpdated' => 1166780076,
+    'message' => 'Voor het herstellen van uw wachtwoord is de gebruikersnaam vereist.'
+  },
+  'password recovery template' => {
+    'lastUpdated' => 1156035692,
+    'message' => 'Wachtwoord terughalen-sjabloon'
+  },
+  'recover password banner' => {
+    'lastUpdated' => 1190024852,
+    'message' => 'Wachtwoord opnieuw opvragen'
+  },
+  'recover password email text1' => {
+    'lastUpdated' => 1190024840,
+    'message' => 'Uw verzoek om het wachtwoord opnieuw in te stellen is ontvangen'
+  },
+  'recover password email text2' => {
+    'lastUpdated' => 1190024797,
+    'message' => 'Klik op de link hieronder om de site te bezoeken en daar uw wachtwoord opnieuw in te stellen.'
+  },
+  'recover password email text3' => {
+    'lastUpdated' => 1208528557,
+    'message' => 'Als u niet heeft verzocht uw wachtwoord opnieuw in te stellen, neemt u dan contact op met de systeembeheerder door dit bericht te beantwoorden.'
+  },
+  'recover password not found' => {
+    'lastUpdated' => 1190024732,
+    'message' => 'Er is geen gebruiker gevonden bij de gegevens die zijn opgegeven.'
+  },
+  'recover.form.footer' => {
+    'lastUpdated' => 1156035792,
+    'message' => 'De vereiste formulier-onderdelen die na het wachtwoord terughalen pagina-formulier komen.'
+  },
+  'recover.form.header' => {
+    'lastUpdated' => 1156035829,
+    'message' => 'De vereiste formulier-onderdelen die bovenaan de wachtwoord terughalen-pagina komen. '
+  },
+  'recover.form.hidden' => {
+    'lastUpdated' => 1156035856,
+    'message' => 'Verborgen formulier-velden die vereist zijn om het formulier te versturen.'
+  },
+  'recover.form.submit' => {
+    'lastUpdated' => 1156035892,
+    'message' => 'De standaard verzend-knop voor het wachtwoord terughalen-formulier. '
+  },
+  'recover.message' => {
+    'lastUpdated' => 1156035939,
+    'message' => 'Een willekeurig bericht, teruggebracht door het systeem. Normaal gesproken weergegeven nadat het formulier is verzonden. '
+  },
+  'recoverFormProfile' => {
+    'lastUpdated' => 1208528722,
+    'message' => 'Loop door de profielvelden, die nodig zijn voor het opvragen van het wachtwoord.'
+  },
+  'recoverFormProfile formElement' => {
+    'lastUpdated' => 1166625917,
+    'message' => 'Een formulier-element voor het profielveld. '
+  },
+  'recoverFormProfile id' => {
+    'lastUpdated' => 1166625932,
+    'message' => 'De ID van het profielveld.'
+  },
+  'recoverFormProfile label' => {
+    'lastUpdated' => 1166625954,
+    'message' => 'Het label - in meerdere talen beschikbaar - voor het profielveld.'
+  },
+  'recoverFormUsername' => {
+    'lastUpdated' => 1166625979,
+    'message' => 'Formulierveld Gebruikersnaam voor het opvragen van het wachtwoord. '
+  },
+  'recoverFormUsernameLabel' => {
+    'lastUpdated' => 1166626041,
+    'message' => 'Label - in meerdere talen beschikbaar - voor het formulierveld "username" (gebruikersnaam) voor het opvragen van het wachtwoord. '
+  },
+  'recoverPassword.isAllowed' => {
+    'lastUpdated' => 1156036017,
+    'message' => 'Vlag die aangeeft of het wachtwoord terughalen al dan niet is ingeschakeld '
+  },
+  'recoverPassword.label' => {
+    'lastUpdated' => 1156036037,
+    'message' => 'Standaard label voor de wachtwoord terughalen-link'
+  },
+  'recoverPassword.url' => {
+    'lastUpdated' => 1156036058,
+    'message' => 'URL voor de wachtwoord terughalen-link. '
+  },
+  'recovery template title' => {
+    'lastUpdated' => 1154000828,
+    'message' => 'Wachtwoord terugwin template (WebGui authenticatie)'
+  },
+  'require username for password recovery' => {
+    'lastUpdated' => 1166626081,
+    'message' => 'Is het opgeven van de gebruikersnaam verplicht bij het opvragen van het wachtwoord?'
+  },
+  'setting passwordRecoveryType email' => {
+    'lastUpdated' => 1190024708,
+    'message' => 'Emailadres'
+  },
+  'setting passwordRecoveryType none' => {
+    'lastUpdated' => 1190024700,
+    'message' => 'Nee'
+  },
+  'setting passwordRecoveryType profile' => {
+    'lastUpdated' => 1190024693,
+    'message' => 'Profielveld'
+  },
+  'setting webguiNonWordCharacters' => {
+    'lastUpdated' => 1190024684,
+    'message' => 'Minimaal aantal vreemde tekens in wachtwoord'
+  },
+  'setting webguiRequiredDigits' => {
+    'lastUpdated' => 1190024663,
+    'message' => 'Minimaal aantal cijfers in wachtwoord'
+  },
+  'setting webguiRequiredMixedCase' => {
+    'lastUpdated' => 1190024642,
+    'message' => 'Aantal verplichte hoofdletters in het wachtwoord'
+  },
+  'title' => {
+    'lastUpdated' => 1166626092,
+    'message' => 'Standaard paginatitel'
+  },
+  'token already used' => {
+    'lastUpdated' => 1221207657,
+    'message' => 'Deze voucher voor het herstellen van het wachtwoord is al gebruikt.'
+  },
+  'topicName' => {
+    'lastUpdated' => 1154000645,
+    'message' => 'WebGui authenticatie'
+  },
+  'use captcha' => {
+    'lastUpdated' => 1154000570,
+    'message' => 'Captcha afbeelding gebruiken?'
+  },
+  'validate email' => {
+    'lastUpdated' => 1154000540,
+    'message' => 'E-mailadressen bevestigen?'
+  },
+  'webguiPasswordRecovery hoverHelp' => {
+    'lastUpdated' => 1199787271,
+    'message' => 'Selecteer hier &quot;Profiel veld&quot; om gebruikers toe te staan met een specifieke combinatie van gegevens uit hun profiel hun wachtwoord opnieuw op te vragen. Voordat deze optie ook daadwerkelijk werkt, moet bij ten minste &eacute;&eacute;n profielveld de optie &quot;Verplicht voor opvragen wachtwoord&quot; geselecteerd zijn. Het is zeer aan te raden meerdere profielvelden te kiezen, om gokken te ontmoedigen. Bedenk: iedereen die alle velden voor een gebruiker te weten kan komen of kan raden heeft de mogelijkheid het wachtwoord voor deze gebruiker opnieuw in te stellen. Selecteer E-mail om gebruikers een e-mail te kunnen zenden met een link via welke ze hun wachtwoord opnieuw kunnen instellen.'
+  },
+  'webguiPasswordRecoveryRequireUsername hoverHelp' => {
+    'lastUpdated' => 1166627245,
+    'message' => 'Selecteer "Ja" om gebruikers te verplichten ook hun gebruikersnaam op te geven wanneer ze hun wachtwoord opnieuw opvragen. In het andere geval kunnen gebruikers hun wachtwoord opnieuw instellen en zichzelf inloggen wanneer ze de profielvelden kennen die verplicht zijn voor het opvragen van het wachtwoord, zelfs al zijn ze hun gebruikersnaam vergeten. '
+  }
+}
+;
 
 1;
