@@ -122,8 +122,8 @@ our $I18N = {
     'message' => 'Dit is de RFC2822 compatibele datum die RSS feeds nodig hebben voor het pubDate veld.'
   },
   'helpvar searchForm_basicSearch' => {
-    'lastUpdated' => 1201269855,
-    'message' => 'Het standaard veld voor het invoeren van zoektermen. Deze doorzoekt de titel, omschrijving, trefwoorden en door gebruiker gedfinieerde velden.'
+    'lastUpdated' => 1221211078,
+    'message' => 'Het standaard veld voor het invoeren van zoektermen. Deze doorzoekt de titel, omschrijving, trefwoorden en door gebruiker gedefini&euml;erde velden.'
   },
   'helpvar searchForm_className' => {
     'lastUpdated' => 1201269931,

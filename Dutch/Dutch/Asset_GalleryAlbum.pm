@@ -134,8 +134,8 @@ our $I18N = {
     'message' => 'Deze variabele heeft de waarde &quot;waar&quot; als de gebruiker dit album kan bewerken.'
   },
   'helpvar error' => {
-    'lastUpdated' => 1201266750,
-    'message' => 'Een foutbericht dat aan de gebruiker getoond wordt. Alleen gedefinieerd als er iets fout is gegaan.'
+    'lastUpdated' => 1221211214,
+    'message' => 'Een foutmelding die aan de gebruiker getoond wordt. Alleen gedefini&euml;erd als er iets fout is gegaan.'
   },
   'helpvar fileCount' => {
     'lastUpdated' => 1201266819,
