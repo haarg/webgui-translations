@@ -2,9 +2,8 @@ package WebGUI::i18n::Dutch::Friends;
 use utf8;
 our $I18N = {
   'add' => {
-    'lastUpdated' => 1220504962,
-    'message' => 'hi it\'s jessy cool site thx O)) see u <a href=" http://www.jobster.com/people/hottubez ">pornos</a> =))) <a href=" http://www.jobster.com/people/boobtube ">porn hub</a> ;)) <a href=" http://www.jobster.com/people/eskimotube ">pornohub</a> =+))) <a href=" http://www.jobster.com/people/nudetube ">pornohub</a> ))))))) <a href=" http://www.jobster.com/people/xtubez ">zoo tube</a> =)))))) <a href=" http://www.jobster.com/people/beasttube ">underage porn</a> 
-0))) <a href=" http://www.jobster.com/people/redtub ">pornotube</a> +)))) <a href=" http://www.jobster.com/people/youtubeporno ">youporno</a>'
+    'lastUpdated' => 1221207700,
+    'message' => 'Toevoegen'
   },
   'add to friends' => {
     'lastUpdated' => 1201183682,
