@@ -1,119 +1,127 @@
 package WebGUI::i18n::Spanish::TransactionLog;
 use utf8;
 our $I18N = {
-  'itemLoop' => {
-    'lastUpdated' => undef,
-    'message' => ''
-  },
-  'cancel error' => {
-    'lastUpdated' => undef,
-    'message' => ''
-  },
-  'delivered' => {
-    'lastUpdated' => 1199976839,
-    'message' => 'Entregado'
-  },
-  'historyLoop' => {
-    'lastUpdated' => undef,
-    'message' => ''
-  },
-  'transaction status' => {
-    'lastUpdated' => undef,
-    'message' => ''
+  'amount' => {
+    'lastUpdated' => 1216467169,
+    'message' => 'cantidad'
   },
   'amount.template' => {
     'lastUpdated' => 1216467197,
     'message' => 'Cuantidad de este producto'
   },
-  'init date' => {
-    'lastUpdated' => 1199976699,
-    'message' => 'Fecha inicial'
+  'and' => {
+    'lastUpdated' => 1214174947,
+    'message' => 'y'
   },
-  'completion date' => {
-    'lastUpdated' => undef,
-    'message' => ''
+  'any' => {
+    'lastUpdated' => 1199976649,
+    'message' => 'Cualquiera'
   },
-  'completionDate' => {
-    'lastUpdated' => undef,
-    'message' => ''
+  'canCancel' => {
+    'lastUpdated' => 1221276226,
+    'message' => 'Puede cancelarse?'
   },
-  'pending' => {
-    'lastUpdated' => 1199976873,
-    'message' => 'Pendiente'
+  'cancel error' => {
+    'lastUpdated' => 1221276287,
+    'message' => 'Ocurri&oacute; un error mientras se intentaba cancelar la transacci&oacute;n repetitiva. Por favor contacte al administrador, reportando el error:'
   },
   'cancelUrl' => {
-    'lastUpdated' => undef,
-    'message' => ''
-  },
-  'status.template' => {
-    'lastUpdated' => undef,
-    'message' => ''
-  },
-  'errorMessage' => {
-    'lastUpdated' => undef,
-    'message' => ''
-  },
-  'shipping cost' => {
-    'lastUpdated' => 1214175092,
-    'message' => 'Precio del envio'
-  },
-  'username' => {
-    'lastUpdated' => 1199976854,
-    'message' => 'Usuario'
-  },
-  'itemId' => {
-    'lastUpdated' => 1216467368,
-    'message' => 'ID WebGUI interno de este producto'
+    'lastUpdated' => 1221276321,
+    'message' => 'El URL a visitar cuando quiera cancelar esta transacci&oacute;n repetitiva'
   },
   'cannot cancel' => {
     'lastUpdated' => 1214174981,
     'message' => 'No se puede cancelar'
   },
-  'selection message' => {
-    'lastUpdated' => undef,
-    'message' => ''
+  'completed' => {
+    'lastUpdated' => 1199976665,
+    'message' => 'Completado'
   },
-  'and' => {
-    'lastUpdated' => 1214174947,
-    'message' => 'y'
+  'completion date' => {
+    'lastUpdated' => 1221276389,
+    'message' => 'Fecha de confirmaci&oacute;n'
   },
-  'lastPayedTerm' => {
-    'lastUpdated' => undef,
-    'message' => ''
+  'completionDate' => {
+    'lastUpdated' => 1221276364,
+    'message' => 'La fecha en la cual fue confirmada la transacci&oacute;n'
   },
-  'status' => {
+  'delivered' => {
+    'lastUpdated' => 1199976839,
+    'message' => 'Entregado'
+  },
+  'errorMessage' => {
     'lastUpdated' => undef,
     'message' => ''
   },
   'gateway' => {
+    'lastUpdated' => 1221276415,
+    'message' => 'El gateway de pago empleado.'
+  },
+  'gatewayId' => {
     'lastUpdated' => undef,
     'message' => ''
   },
-  'transactionId' => {
+  'help purchase history template title' => {
     'lastUpdated' => undef,
     'message' => ''
   },
-  'topicName' => {
+  'historyLoop' => {
     'lastUpdated' => undef,
     'message' => ''
   },
-  'canCancel' => {
-    'lastUpdated' => undef,
-    'message' => ''
+  'init date' => {
+    'lastUpdated' => 1199976699,
+    'message' => 'Fecha inicial'
   },
   'initDate' => {
     'lastUpdated' => 1214175006,
     'message' => 'Fecha de inicio'
   },
-  'completed' => {
-    'lastUpdated' => 1199976665,
-    'message' => 'Completado'
+  'itemId' => {
+    'lastUpdated' => 1216467368,
+    'message' => 'ID WebGUI interno de este producto'
+  },
+  'itemLoop' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'itemName' => {
+    'lastUpdated' => 1216467406,
+    'message' => 'El nombre de este producto'
+  },
+  'itemType' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'lastPayedTerm' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'list transactions title' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'not shipped' => {
+    'lastUpdated' => 1214175026,
+    'message' => 'No enviado'
+  },
+  'pending' => {
+    'lastUpdated' => 1199976873,
+    'message' => 'Pendiente'
+  },
+  'quantity' => {
+    'lastUpdated' => 1216467479,
+    'message' => 'La cantidad de producto comprado'
+  },
+  'recurring' => {
+    'lastUpdated' => undef,
+    'message' => ''
   },
   'select' => {
     'lastUpdated' => 1199976808,
     'message' => 'Seleccionar'
   },
-  'list transactions title' => {
+  'selection message' => {
     'lastUpdated' => undef,
     'message' => ''
   },
@@ -121,11 +129,31 @@ our $I18N = {
     'lastUpdated' => 1214175076,
     'message' => 'Enviado'
   },
-  'not shipped' => {
-    'lastUpdated' => 1214175026,
-    'message' => 'No enviado'
+  'shipping cost' => {
+    'lastUpdated' => 1214175092,
+    'message' => 'Precio del envio'
   },
-  'recurring' => {
+  'shipping status' => {
+    'lastUpdated' => 1214175111,
+    'message' => 'Estatuto del envio'
+  },
+  'status' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'status.template' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'topicName' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'transaction status' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'transactionId' => {
     'lastUpdated' => undef,
     'message' => ''
   },
@@ -133,37 +161,9 @@ our $I18N = {
     'lastUpdated' => undef,
     'message' => ''
   },
-  'quantity' => {
-    'lastUpdated' => 1216467479,
-    'message' => 'La cantidad de producto comprado'
-  },
-  'any' => {
-    'lastUpdated' => 1199976649,
-    'message' => 'Cualquiera'
-  },
-  'shipping status' => {
-    'lastUpdated' => 1214175111,
-    'message' => 'Estatuto del envio'
-  },
-  'amount' => {
-    'lastUpdated' => 1216467169,
-    'message' => 'cantidad'
-  },
-  'itemName' => {
-    'lastUpdated' => 1216467406,
-    'message' => 'El nombre de este producto'
-  },
-  'help purchase history template title' => {
-    'lastUpdated' => undef,
-    'message' => ''
-  },
-  'itemType' => {
-    'lastUpdated' => undef,
-    'message' => ''
-  },
-  'gatewayId' => {
-    'lastUpdated' => undef,
-    'message' => ''
+  'username' => {
+    'lastUpdated' => 1199976854,
+    'message' => 'Usuario'
   }
 }
 ;
