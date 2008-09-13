@@ -202,24 +202,24 @@ our $I18N = {
     'message' => ''
   },
   '1084' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1221337446,
+    'message' => 'Uporabi privzeto orodno vrstico za moj jezik'
   },
   '1085' => {
     'lastUpdated' => undef,
     'message' => ''
   },
   '118' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1221337318,
+    'message' => 'Anonimna registracija'
   },
   '118 description' => {
     'lastUpdated' => undef,
     'message' => ''
   },
   '119' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1221337352,
+    'message' => 'Avtentikacijska metoda (privzeta)'
   },
   '12' => {
     'lastUpdated' => undef,
