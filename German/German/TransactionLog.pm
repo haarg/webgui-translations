@@ -1,208 +1,167 @@
 package WebGUI::i18n::German::TransactionLog;
 use utf8;
-
-
 our $I18N = {
-	'cancel error' => {
-		message => q|Ein Fehler ist beim Abbrechen der wiederkehrenden Transaktion aufgetreten. Bitte wenden Sie sich an ihren Administrator. Fehler:|,
-		lastUpdated => 1180021206
-	},
-
-	'itemLoop' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'delivered' => {
-		message => q|Abgeliefert|,
-		lastUpdated => 1180021341
-	},
-
-	'historyLoop' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'transaction status' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'amount.template' => {
-		message => q||,
-		lastUpdated => 1180021090
-	},
-
-	'init date' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'completion date' => {
-		message => q|Abschluss Datum|,
-		lastUpdated => 1180021273
-	},
-
-	'completionDate' => {
-		message => q|Das Datum, an dem die Transaktion best&auml;tigt wurde.|,
-		lastUpdated => 1180021332
-	},
-
-	'pending' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'cancelUrl' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'status.template' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'errorMessage' => {
-		message => q|Fehlermeldung, den Abbruch einer wiederkehrenden Transaktion betreffend.|,
-		lastUpdated => 1180021371
-	},
-
-	'shipping cost' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'itemId' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'cannot cancel' => {
-		message => q|Sie k&ouml;nnen eine nicht wiederkehrende Transaktion nicht abbrechen.|,
-		lastUpdated => 1180021249
-	},
-
-	'selection message' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'and' => {
-		message => q|und|,
-		lastUpdated => 1157929043
-	},
-
-	'lastPayedTerm' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'status' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'gateway' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'transactionId' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'topicName' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'canCancel' => {
-		message => q|Bedingung, die anzeigt, ob diese Transaktion abgebrochen werden kann. Dies trifft nur auf wiederkehrende Bezahlungen zu, die bis jetzt noch nicht abgebrochen wurden.|,
-		lastUpdated => 1180021149
-	},
-
-	'initDate' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'completed' => {
-		message => q|Abgeschlossen|,
-		lastUpdated => 1180021264
-	},
-
-	'select' => {
-		message => q|Wählen|,
-		lastUpdated => 1168593222
-	},
-
-	'list transactions title' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'shipped' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'not shipped' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'recurring' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'userId' => {
-		message => q|Die interne WebGUI user ID des Benutzers, der diese Transaktion ausgef&uuml;hrt hat.|,
-		lastUpdated => 1180021407
-	},
-
-	'quantity' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'any' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'shipping status' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'itemName' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'amount' => {
-		message => q||,
-		lastUpdated => 1180021095
-	},
-
-	'help purchase history template title' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'itemType' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'gatewayId' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-};
+  'amount' => {
+    'lastUpdated' => 1219440416,
+    'message' => 'Betrag'
+  },
+  'amount.template' => {
+    'lastUpdated' => 1180021090,
+    'message' => ''
+  },
+  'and' => {
+    'lastUpdated' => 1157929043,
+    'message' => 'und'
+  },
+  'any' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'canCancel' => {
+    'lastUpdated' => 1180021149,
+    'message' => 'Bedingung, die anzeigt, ob diese Transaktion abgebrochen werden kann. Dies trifft nur auf wiederkehrende Bezahlungen zu, die bis jetzt noch nicht abgebrochen wurden.'
+  },
+  'cancel error' => {
+    'lastUpdated' => 1180021206,
+    'message' => 'Ein Fehler ist beim Abbrechen der wiederkehrenden Transaktion aufgetreten. Bitte wenden Sie sich an ihren Administrator. Fehler:'
+  },
+  'cancelUrl' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'cannot cancel' => {
+    'lastUpdated' => 1180021249,
+    'message' => 'Sie k&ouml;nnen eine nicht wiederkehrende Transaktion nicht abbrechen.'
+  },
+  'completed' => {
+    'lastUpdated' => 1180021264,
+    'message' => 'Abgeschlossen'
+  },
+  'completion date' => {
+    'lastUpdated' => 1180021273,
+    'message' => 'Abschluss Datum'
+  },
+  'completionDate' => {
+    'lastUpdated' => 1180021332,
+    'message' => 'Das Datum, an dem die Transaktion best&auml;tigt wurde.'
+  },
+  'delivered' => {
+    'lastUpdated' => 1180021341,
+    'message' => 'Abgeliefert'
+  },
+  'errorMessage' => {
+    'lastUpdated' => 1180021371,
+    'message' => 'Fehlermeldung, den Abbruch einer wiederkehrenden Transaktion betreffend.'
+  },
+  'gateway' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'gatewayId' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'help purchase history template title' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'historyLoop' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'init date' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'initDate' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'itemId' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'itemLoop' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'itemName' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'itemType' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'lastPayedTerm' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'list transactions title' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'not shipped' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'pending' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'quantity' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'recurring' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'select' => {
+    'lastUpdated' => 1168593222,
+    'message' => "W\x{e4}hlen"
+  },
+  'selection message' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'shipped' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'shipping cost' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'shipping status' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'status' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'status.template' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'topicName' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'transaction status' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'transactionId' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'userId' => {
+    'lastUpdated' => 1180021407,
+    'message' => 'Die interne WebGUI user ID des Benutzers, der diese Transaktion ausgef&uuml;hrt hat.'
+  }
+}
+;
 
 1;

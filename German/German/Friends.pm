@@ -1,257 +1,207 @@
 package WebGUI::i18n::German::Friends;
 use utf8;
-
 our $I18N = {
-	'invalid invite code' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'add to friends' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'remove' => {
-		message => q|entfernen|,
-		lastUpdated => 1203222634
-	},
-
-	'friends' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'not the right user' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'manage friends template' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'timeout' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'you have not been added' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'default friend comments' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'friends invitation not accepted by user' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'add to friends description' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'checkboxForm' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'does not want to be a friend' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'name' => {
-		message => q|Der Name von diesem Freund.|,
-		lastUpdated => 1203222362
-	},
-
-	'add to friends list' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'invalid invite code message' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'friends invitation accepted' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'invitation approval email' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'send friend email instructions' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'formFooter' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'confirm remove friends' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'friends invitation not accepted' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'add to friends profile' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'formHeader' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'timeout help' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'friends network invitation' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'add' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'status' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'invitation accepted by user' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'removeFriendButton' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'see my friends' => {
-		message => q|Meine Freunde sehen|,
-		lastUpdated => 1203222711
-	},
-
-	'already a friend' => {
-		message => q|Du kannst kein Freund zweimal zugeben.|,
-		lastUpdated => 1201320249
-	},
-
-	'friend request' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'you have been added' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'manage friends' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'topicName' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'send message' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'manage friends template help' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'offline' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'friend request description' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'subjectForm' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'no friends' => {
-		message => q|Du hast keine Freunde angemeldet.|,
-		lastUpdated => 1203222482
-	},
-
-	'profileUrl' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'messageForm' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'online' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'deny unanswered friends' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'sendMessageButton' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'add to friends confirmation' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'my friends' => {
-		message => q|Meine Freunde|,
-		lastUpdated => 1203222390
-	},
-
-	'manage friends template title' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-};
+  'add' => {
+    'lastUpdated' => 1221289516,
+    'message' => "hinzuf\x{fc}gen"
+  },
+  'add to friends' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'add to friends confirmation' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'add to friends description' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'add to friends list' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'add to friends profile' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'already a friend' => {
+    'lastUpdated' => 1221289484,
+    'message' => 'Du kannst ein Freund nicht zweimal angeben.'
+  },
+  'checkboxForm' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'confirm remove friends' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'default friend comments' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'deny unanswered friends' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'does not want to be a friend' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'formFooter' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'formHeader' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'friend request' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'friend request description' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'friends' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'friends invitation accepted' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'friends invitation not accepted' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'friends invitation not accepted by user' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'friends network invitation' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'invalid invite code' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'invalid invite code message' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'invitation accepted by user' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'invitation approval email' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'manage friends' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'manage friends template' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'manage friends template help' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'manage friends template title' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'messageForm' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'my friends' => {
+    'lastUpdated' => 1203222390,
+    'message' => 'Meine Freunde'
+  },
+  'name' => {
+    'lastUpdated' => 1221289449,
+    'message' => 'Der Name dieses Freundes'
+  },
+  'no friends' => {
+    'lastUpdated' => 1203222482,
+    'message' => 'Du hast keine Freunde angemeldet.'
+  },
+  'not the right user' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'offline' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'online' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'profileUrl' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'remove' => {
+    'lastUpdated' => 1203222634,
+    'message' => 'entfernen'
+  },
+  'removeFriendButton' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'see my friends' => {
+    'lastUpdated' => 1203222711,
+    'message' => 'Meine Freunde sehen'
+  },
+  'send friend email instructions' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'send message' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'sendMessageButton' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'status' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'subjectForm' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'timeout' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'timeout help' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'topicName' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'you have been added' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'you have not been added' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  }
+}
+;
 
 1;
