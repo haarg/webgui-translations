@@ -62,12 +62,12 @@ our $I18N = {
     'message' => ''
   },
   'best.views.url' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1221332796,
+    'message' => 'Am meisten angeschaute URL'
   },
   'best_rating_loop' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1221332898,
+    'message' => 'Eine Reihe aller Kategorien dieser Matrix und deren besten Bewertungen'
   },
   'categories' => {
     'lastUpdated' => 1221288389,
@@ -78,16 +78,16 @@ our $I18N = {
     'message' => 'Geben Sie hier eine Kategorie pro Zeile an um die Kategorien für diese Matrix zu definieren. Kategorien werden benutzt um Felder zu gruppieren. Benutzer können eine Liste pro Kategorie bewerten.'
   },
   'categories subtext' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1221332990,
+    'message' => 'Geben Sie eine Kategorie pro Zeile ein. Achten darauf keine Leerzeichen am Anfang und Ende zu verwenden.'
   },
   'category' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1221333000,
+    'message' => 'Kategorie'
   },
   'category description' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1221333075,
+    'message' => 'Ordnen Sie dieser Feld eine Kategorie zu.'
   },
   'category listing description' => {
     'lastUpdated' => undef,
@@ -146,8 +146,8 @@ our $I18N = {
     'message' => ''
   },
   'current.user.count' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1221333148,
+    'message' => 'Anzahl derzeitiger Besucher dieser Website.'
   },
   'default value' => {
     'lastUpdated' => undef,
@@ -282,8 +282,8 @@ our $I18N = {
     'message' => ''
   },
   'form' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1221333225,
+    'message' => "Formularelement f\x{fc}r dieses feld."
   },
   'form.footer' => {
     'lastUpdated' => undef,
@@ -462,8 +462,8 @@ our $I18N = {
     'message' => ''
   },
   'mean' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1221333332,
+    'message' => 'Mittelwert des Besten in dieser Kategorie'
   },
   'median' => {
     'lastUpdated' => undef,
@@ -634,24 +634,24 @@ our $I18N = {
     'message' => ''
   },
   'tmplVar best.category' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1221333358,
+    'message' => 'Name dieser Kategorie'
   },
   'tmplVar best.name' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1221333426,
+    'message' => 'Name der Liste mit bester Bewertung innerhalb dieser Kategorie'
   },
   'tmplVar best.url' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1221333469,
+    'message' => 'URL der Liste mit bester Bewertung innerhalb dieser Kategorie'
   },
   'tmplVar category' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1221333501,
+    'message' => 'Name der Kategorie für dieses Feld'
   },
   'tmplVar class' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1221333630,
+    'message' => "Stylesheet-Klasse f\x{fc}r dieses Feld. Die Klasse ist der Wert des Feldes, wobei Leerzeichen mit Unterstrich ersetzt werden. Sonstige nicht alpha-numerische Zeichen werden entfernt."
   },
   'tmplVar detail url' => {
     'lastUpdated' => undef,
@@ -674,8 +674,8 @@ our $I18N = {
     'message' => ''
   },
   'tmplVar name' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1221333721,
+    'message' => 'Name dieses Feldes'
   },
   'tmplVar pending.productName' => {
     'lastUpdated' => undef,
@@ -686,8 +686,8 @@ our $I18N = {
     'message' => ''
   },
   'tmplVar screenshot' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1221333682,
+    'message' => 'Die URL zur hochgeladenen Bild oder Screenshot.'
   },
   'tmplVar worst.category' => {
     'lastUpdated' => undef,
