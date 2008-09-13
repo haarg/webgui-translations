@@ -90,8 +90,8 @@ our $I18N = {
     'message' => 'Ordnen Sie dieser Feld eine Kategorie zu.'
   },
   'category listing description' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1221334050,
+    'message' => 'Beschreibung dieses Feldes aus Benutzersicht.'
   },
   'category_loop' => {
     'lastUpdated' => undef,
@@ -142,8 +142,8 @@ our $I18N = {
     'message' => ''
   },
   'count' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1221333990,
+    'message' => 'Summe aller Bewertungen des Besten innerhalb dieser Kategorie'
   },
   'current.user.count' => {
     'lastUpdated' => 1221333148,
