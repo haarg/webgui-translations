@@ -1,267 +1,215 @@
 package WebGUI::i18n::Slovenian::Asset_Poll;
 use utf8;
-
 our $I18N = {
-	'form.end' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'72 description' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'generate graph description' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'7' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'assetName' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'10 description' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'answer_loop' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'hasImageGraph' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'poll asset template variables body' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'72' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'generateGraph' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'canVote' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'graphConfiguration' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'answer.form' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'voteGroup' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'active' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'answer.number' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'5 description' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'4 description' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'20' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'10' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'answer.text' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'3 description' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'aN' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'11' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'20 description' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'answer.graphWidth' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'73 description' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'form.start' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'7 description' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'karmaPerVote' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'templateId' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'6 description' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'6' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'3' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'answer.total' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'graphUrl' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'form.submit' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'9' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'randomizeAnswers' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'12' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'poll asset template variables title' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'question' => {
-		message => q|Anketno vpra&scaron;anje.|,
-		lastUpdated => 1208789407
-	},
-
-	'8' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'4' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'graphWidth' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'generate graph' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'answer.percent' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'73' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'responses.total' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'responses.label' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'5' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-};
+  '10' => {
+    'lastUpdated' => 1221335364,
+    'message' => 'Ponastavi glasove?'
+  },
+  '10 description' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  '11' => {
+    'lastUpdated' => 1221335375,
+    'message' => 'Glasuj!'
+  },
+  '12' => {
+    'lastUpdated' => 1221335389,
+    'message' => "Se\x{161}tevek glasov"
+  },
+  '20' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  '20 description' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  '3' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  '3 description' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  '4' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  '4 description' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  '5' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  '5 description' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  '6' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  '6 description' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  '7' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  '7 description' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  '72' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  '72 description' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  '73' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  '73 description' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  '8' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  '9' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'aN' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'active' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'answer.form' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'answer.graphWidth' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'answer.number' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'answer.percent' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'answer.text' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'answer.total' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'answer_loop' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'assetName' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'canVote' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'form.end' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'form.start' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'form.submit' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'generate graph' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'generate graph description' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'generateGraph' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'graphConfiguration' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'graphUrl' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'graphWidth' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'hasImageGraph' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'karmaPerVote' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'poll asset template variables body' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'poll asset template variables title' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'question' => {
+    'lastUpdated' => 1221335333,
+    'message' => "Anketno vpra\x{161}anje."
+  },
+  'randomizeAnswers' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'responses.label' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'responses.total' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'templateId' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'voteGroup' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  }
+}
+;
 
 1;

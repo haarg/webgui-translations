@@ -114,12 +114,12 @@ our $I18N = {
     'message' => ''
   },
   '1047' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1221335572,
+    'message' => 'Dodaj filter vsebine.'
   },
   '1049' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1221335602,
+    'message' => 'ID filtra vsebine'
   },
   '105' => {
     'lastUpdated' => undef,
@@ -434,8 +434,8 @@ our $I18N = {
     'message' => ''
   },
   '317' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1221335960,
+    'message' => 'ICQ UIN'
   },
   '318' => {
     'lastUpdated' => undef,
@@ -458,8 +458,8 @@ our $I18N = {
     'message' => ''
   },
   '323' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1221335933,
+    'message' => "Doma\x{10d}i naslov"
   },
   '324' => {
     'lastUpdated' => undef,
@@ -578,8 +578,8 @@ our $I18N = {
     'message' => ''
   },
   '353' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1221335863,
+    'message' => "Nimate novih sporo\x{10d}il."
   },
   '354' => {
     'lastUpdated' => undef,
@@ -686,8 +686,8 @@ our $I18N = {
     'message' => ''
   },
   '392' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1221335704,
+    'message' => "Izbri\x{161}i to datoteko?"
   },
   '395' => {
     'lastUpdated' => undef,
@@ -758,8 +758,8 @@ our $I18N = {
     'message' => ''
   },
   '420' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1221335989,
+    'message' => "Ne odstrani ni\x{10d}esar."
   },
   '421' => {
     'lastUpdated' => undef,
@@ -1274,8 +1274,8 @@ our $I18N = {
     'message' => ''
   },
   '70' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1221335501,
+    'message' => 'Napaka'
   },
   '700' => {
     'lastUpdated' => undef,
