@@ -1,4 +1,5 @@
 package WebGUI::i18n::Danish::DateTime;
+use utf8;
 
 our $I18N = {
 	'sunday' => {

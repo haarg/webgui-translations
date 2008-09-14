@@ -1,21 +1,19 @@
 package WebGUI::i18n::Danish::AdminConsole;
-
+use utf8;
 our $I18N = {
-	'toggle off' => {
-		message => q|Skjul admin konsol|,
-		lastUpdated => 1149242677
-	},
-
-	'toggle on' => {
-		message => q|Vis admin konsol|,
-		lastUpdated => 1149242693
-	},
-
-	'admin console' => {
-		message => q|Admin konsol|,
-		lastUpdated => 1149242654
-	},
-
-};
+  'admin console' => {
+    'lastUpdated' => 1149242654,
+    'message' => 'Admin konsol'
+  },
+  'toggle off' => {
+    'lastUpdated' => 1221347636,
+    'message' => 'Skjul admin konsol'
+  },
+  'toggle on' => {
+    'lastUpdated' => 1149242693,
+    'message' => 'Vis admin konsol'
+  }
+}
+;
 
 1;

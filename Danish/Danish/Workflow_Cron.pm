@@ -1,4 +1,5 @@
 package WebGUI::i18n::Danish::Workflow_Cron;
+use utf8;
 
 our $I18N = {
 	'manage tasks' => {

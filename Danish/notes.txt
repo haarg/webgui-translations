@@ -1,2 +1,9 @@
-Adspace translated by Peter Christiansen, Titlan Data, Denmark
+The following was translated by Peter Christiansen - Titlan Data, Denmark
+- Activity_RequestApprovalForVersionTag_ByCommitterGroup
+- Activity_RequestApprovalForVersionTag_ByLineage
+- AdSpace
+- Admin Console
+- Asset
+- Asset Article
+
 
