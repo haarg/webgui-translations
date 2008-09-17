@@ -17,6 +17,10 @@ our $I18N = {
     'lastUpdated' => 1216588824,
     'message' => 'Puedes escojer los siguientes sub-eventos. Debido a la gran cantidad de sub-eventos disponibles, ninguno ser&aacute; mostrado, por favor, limite los resultados usando las opciones de filtrado mostradas en la parte superior.'
   },
+  'add more items' => {
+    'lastUpdated' => 1221647026,
+    'message' => 'a&ntilde;adir m&aacute;s items'
+  },
   'add to cart' => {
     'lastUpdated' => 1216504823,
     'message' => 'agregar al carrito'
@@ -36,6 +40,10 @@ our $I18N = {
   'choose a file to import' => {
     'lastUpdated' => 1217241814,
     'message' => 'Elija un archivo para importarlo'
+  },
+  'city' => {
+    'lastUpdated' => 1221579423,
+    'message' => 'Ciudad'
   },
   'country' => {
     'lastUpdated' => 1215718436,

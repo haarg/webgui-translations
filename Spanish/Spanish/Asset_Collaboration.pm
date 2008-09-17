@@ -103,7 +103,7 @@ our $I18N = {
   },
   'attachments/post' => {
     'lastUpdated' => 1190391978,
-    'message' => 'Adjuntor a través de un aporte.'
+    'message' => "Adjuntor a trav\x{e9}s de un aporte."
   },
   'attachments/post description' => {
     'lastUpdated' => 1207718161,
@@ -175,7 +175,7 @@ our $I18N = {
   },
   'collab link' => {
     'lastUpdated' => 1190391883,
-    'message' => 'El URL hacia la colaboración.'
+    'message' => "El URL hacia la colaboraci\x{f3}n."
   },
   'collaboration post list template variables title' => {
     'lastUpdated' => 1208180577,
@@ -203,7 +203,7 @@ our $I18N = {
   },
   'compensation' => {
     'lastUpdated' => 1190391913,
-    'message' => 'Compensación'
+    'message' => "Compensaci\x{f3}n"
   },
   'compensation.label' => {
     'lastUpdated' => 1208181216,
@@ -215,7 +215,7 @@ our $I18N = {
   },
   'content filter' => {
     'lastUpdated' => 1190392026,
-    'message' => '¿Usar filtro de contenido?'
+    'message' => "\x{bf}Usar filtro de contenido?"
   },
   'content filter description' => {
     'lastUpdated' => 1208181279,
@@ -227,7 +227,7 @@ our $I18N = {
   },
   'controls' => {
     'lastUpdated' => 1190392066,
-    'message' => 'Un juego de iconos de edición para eliminar o reordenar este aporte.'
+    'message' => "Un juego de iconos de edici\x{f3}n para eliminar o reordenar este aporte."
   },
   'cosmetic' => {
     'lastUpdated' => 1208181343,
@@ -564,6 +564,10 @@ our $I18N = {
   'karmaIsEnabled' => {
     'lastUpdated' => 1208269841,
     'message' => 'Un valor booleano que indica si el uso del karma est&aacute; habilitado o no.'
+  },
+  'keywords label' => {
+    'lastUpdated' => 1221646998,
+    'message' => 'etiqueta de palabras clave'
   },
   'lastBuildDate' => {
     'lastUpdated' => 1208269979,
@@ -1179,7 +1183,7 @@ our $I18N = {
   },
   'use preview description' => {
     'lastUpdated' => 1207728057,
-    'message' => 'Seleccione "Sí" para mostrar una vista previa de los envíos a los usuarios antes de presentarlo. Aunque la vista preliminar se muestra, el post puede ser editado o se cancela.'
+    'message' => "Seleccione \"S\x{ed}\" para mostrar una vista previa de los env\x{ed}os a los usuarios antes de presentarlo. Aunque la vista preliminar se muestra, el post puede ser editado o se cancela."
   },
   'user' => {
     'lastUpdated' => 1207718494,
