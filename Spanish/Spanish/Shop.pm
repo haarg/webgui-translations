@@ -185,6 +185,122 @@ our $I18N = {
     'lastUpdated' => 1221673137,
     'message' => 'Un campo que contiene el c&oacute;digo postal para esta direcci&oacute;n.'
   },
+  'company url' => {
+    'lastUpdated' => 1221673543,
+    'message' => 'URL de la Compa&ntilde;ia'
+  },
+  'configuredTitle' => {
+    'lastUpdated' => 1221673606,
+    'message' => 'El t&iacute;tulo configurado para el assetId. Este es el t&iacute;tulo regular del activo con personalizaciones del usuario.'
+  },
+  'configuredTitle help' => {
+    'lastUpdated' => 1221673690,
+    'message' => 'El nombre del item configurado para la compra.'
+  },
+  'continue shopping button' => {
+    'lastUpdated' => 1221673704,
+    'message' => 'Continuar Comprando'
+  },
+  'continueShoppingButton help' => {
+    'lastUpdated' => 1221673745,
+    'message' => 'Al hacer click en este bot&oacute;n el usuario volver&aacute; al sitio.'
+  },
+  'country' => {
+    'lastUpdated' => 1221673756,
+    'message' => 'Pa&iacute;s'
+  },
+  'country help' => {
+    'lastUpdated' => 1221674015,
+    'message' => 'El pa&iacute;s para esta direcci&oacute;n.'
+  },
+  'countryField help' => {
+    'lastUpdated' => 1221674035,
+    'message' => 'Un campo que contiene el pa&iacute;s para esta direcci&oacute;n.'
+  },
+  'coupon' => {
+    'lastUpdated' => 1221674064,
+    'message' => 'Cup&oacute;n'
+  },
+  'date' => {
+    'lastUpdated' => 1221674077,
+    'message' => 'Fecha'
+  },
+  'date created' => {
+    'lastUpdated' => 1221674100,
+    'message' => 'Fecha de Creaci&oacute;n'
+  },
+  'dateAdded help' => {
+    'lastUpdated' => 1221674127,
+    'message' => 'La fecha y hora en que este item fue adicionado al carrito.'
+  },
+  'dateOfPurchase' => {
+    'lastUpdated' => 1221674144,
+    'message' => 'La fecha en que ocurri&oacute; la compra.'
+  },
+  'delete' => {
+    'lastUpdated' => 1221674150,
+    'message' => 'Borrar'
+  },
+  'deleteButton help' => {
+    'lastUpdated' => 1221674209,
+    'message' => 'Un bot&oacute;n que permitir&aacute; al usuario borrar una direcci&oacute;n existente.'
+  },
+  'edit' => {
+    'lastUpdated' => 1221674216,
+    'message' => 'Editar'
+  },
+  'edit address template' => {
+    'lastUpdated' => 1221674235,
+    'message' => 'Plantilla Editar Direcci&oacute;n'
+  },
+  'edit address template help' => {
+    'lastUpdated' => 1221674376,
+    'message' => 'Esta plantilla determina como se ver&aacute; el editor de direcci&oacute;n.'
+  },
+  'editButton help' => {
+    'lastUpdated' => 1221674398,
+    'message' => 'Un bot&oacute;n que permitir&aacute; al usuario editar una direcci&oacute;n existente.'
+  },
+  'empty cart' => {
+    'lastUpdated' => 1221674416,
+    'message' => 'No hay items actualmente en tu carrito.'
+  },
+  'error help' => {
+    'lastUpdated' => 1221674457,
+    'message' => 'Si hay alg&uacute;n problema el mensaje de error se mostrar&aacute; aqu&iacute;.'
+  },
+  'export tax' => {
+    'lastUpdated' => 1221674491,
+    'message' => 'Impuestos de Exportaci&oacute;n'
+  },
+  'extended price' => {
+    'lastUpdated' => 1221758376,
+    'message' => 'Precio Prorrogado'
+  },
+  'extendedPrice help' => {
+    'lastUpdated' => 1221768262,
+    'message' => 'El resultado del precio multiplicado por la cantidad.'
+  },
+  'firstName' => {
+    'lastUpdated' => 1221768147,
+    'message' => 'Primer Nombre'
+  },
+  'formFooter help' => {
+    'lastUpdated' => 1221768204,
+    'message' => '<div id="result_box" dir="ltr">La parte inferior del formulario.</div>'
+  },
+  'formHeader help' => {
+    'lastUpdated' => 1221768220,
+    'message' => 'La prte de arriba del formulario.'
+  },
+  'fourweekly' => {
+    'lastUpdated' => 1221768231,
+    'message' => 'Cuatro semanas'
+  },
+  'halfyearly' => {
+    'lastUpdated' => 1221768244,
+    'message' => 'Medio A&ntilde;o'
+  },
   'state' => {
     'lastUpdated' => 1215811444,
     'message' => 'Departamento'
@@ -241,12 +357,28 @@ our $I18N = {
     'lastUpdated' => 1215811079,
     'message' => 'Ver Carrito'
   },
+  'view my purchases template' => {
+    'lastUpdated' => 1221673998,
+    'message' => 'Plantilla Ver Mis Compras'
+  },
+  'view my purchases template help' => {
+    'lastUpdated' => 1221673971,
+    'message' => 'Esta plantilla muestra informaci&oacute;n detallada sobre las transacciones del usuario.'
+  },
   'view products' => {
     'lastUpdated' => 1215811672,
     'message' => 'Ver todos los productos importados.'
   },
+  'viewDetailURL' => {
+    'lastUpdated' => 1221673872,
+    'message' => 'Una URL para ver m&aacute;s detalles sobre la transacci&oacute;n del usuario.'
+  },
+  'viewItemUrl' => {
+    'lastUpdated' => 1221673802,
+    'message' => 'Una URL para ver los detalles sobre el item de la transacci&oacute;n.'
+  },
   'weekly' => {
-    'lastUpdated' => 1215811023,
+    'lastUpdated' => 1221673766,
     'message' => 'Semana'
   },
   'who can manage' => {
@@ -254,11 +386,11 @@ our $I18N = {
     'message' => 'Qui&eacute;n puede administar?'
   },
   'who can manage help' => {
-    'lastUpdated' => 1215811599,
+    'lastUpdated' => 1221673780,
     'message' => '<p>El grupo administrador de ecommerce </p>'
   },
   'yearly' => {
-    'lastUpdated' => 1215811016,
+    'lastUpdated' => 1221673770,
     'message' => 'A&ntilde;o'
   }
 }
