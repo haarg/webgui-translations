@@ -329,6 +329,82 @@ our $I18N = {
     'lastUpdated' => 1221854640,
     'message' => '%s es un campo obligatorio.'
   },
+  'item' => {
+    'lastUpdated' => 1221857967,
+    'message' => 'Item'
+  },
+  'items' => {
+    'lastUpdated' => 1221857938,
+    'message' => 'Un ciclo que contiene todos los items asociados con esta transacci&oacute;n.'
+  },
+  'label' => {
+    'lastUpdated' => 1221857951,
+    'message' => 'Etiqueta'
+  },
+  'lastName' => {
+    'lastUpdated' => 1221857993,
+    'message' => 'Apellido'
+  },
+  'manage' => {
+    'lastUpdated' => 1221857909,
+    'message' => 'Administrar'
+  },
+  'monthly' => {
+    'lastUpdated' => 1221857896,
+    'message' => 'Mes'
+  },
+  'name' => {
+    'lastUpdated' => 1221857593,
+    'message' => 'Nombre'
+  },
+  'notes' => {
+    'lastUpdated' => 1221857611,
+    'message' => 'Notas sobre esta transacci&oacute;n'
+  },
+  'notice' => {
+    'lastUpdated' => 1221857879,
+    'message' => 'Cualquier mensaje desde el sistema para ser mostrado al usuario.'
+  },
+  'order number' => {
+    'lastUpdated' => 1221858009,
+    'message' => 'Orden #'
+  },
+  'order status' => {
+    'lastUpdated' => 1221858222,
+    'message' => 'Estado de la Orden'
+  },
+  'payment method' => {
+    'lastUpdated' => 1221857842,
+    'message' => 'M&eacute;todo de Pago'
+  },
+  'payment methods' => {
+    'lastUpdated' => 1221857853,
+    'message' => 'M&eacute;todos de Pago'
+  },
+  'phone number' => {
+    'lastUpdated' => 1221857626,
+    'message' => 'N&uacute;mero Telef&oacute;nico'
+  },
+  'price' => {
+    'lastUpdated' => 1221857635,
+    'message' => 'Precio'
+  },
+  'print' => {
+    'lastUpdated' => 1221857643,
+    'message' => 'Imprimir'
+  },
+  'products' => {
+    'lastUpdated' => 1221858020,
+    'message' => 'Productos'
+  },
+  'quantity' => {
+    'lastUpdated' => 1221858029,
+    'message' => 'Cantidad'
+  },
+  'shop' => {
+    'lastUpdated' => 1221857655,
+    'message' => 'Tienda'
+  },
   'state' => {
     'lastUpdated' => 1215811444,
     'message' => 'Departamento'
