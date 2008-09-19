@@ -301,6 +301,34 @@ our $I18N = {
     'lastUpdated' => 1221768244,
     'message' => 'Medio A&ntilde;o'
   },
+  'hasShippingAddress help' => {
+    'lastUpdated' => 1221854298,
+    'message' => '<div id="result_box" dir="ltr">Una condici&oacute;n que indica si el usuario ya ha especificado una direcci&oacute;n de env&iacute;o. Direcci&oacute;n de env&iacute;o es siempre necesaria con el fin de calcular los impuestos.</div>'
+  },
+  'import tax' => {
+    'lastUpdated' => 1221854316,
+    'message' => 'Impuestos de Importaci&oacute;n'
+  },
+  'in shop credit' => {
+    'lastUpdated' => 1221854392,
+    'message' => 'Cr&eacute;dito en la Tienda'
+  },
+  'in shop credit used' => {
+    'lastUpdated' => 1221854438,
+    'message' => 'Cr&eacute;dito Usado en la Tienda'
+  },
+  'inShopCreditAvailable help' => {
+    'lastUpdated' => 1221854463,
+    'message' => 'El valor del cr&eacute;dito en la tienda del usuario'
+  },
+  'inShopCreditDeduction help' => {
+    'lastUpdated' => 1221854614,
+    'message' => 'El monto del cr&eacute;dito en la tienda que ha sido aplicado a esta compra.'
+  },
+  'is a required field' => {
+    'lastUpdated' => 1221854640,
+    'message' => '%s es un campo obligatorio.'
+  },
   'state' => {
     'lastUpdated' => 1215811444,
     'message' => 'Departamento'
