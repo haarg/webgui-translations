@@ -305,21 +305,61 @@ our $I18N = {
     'lastUpdated' => 1215811444,
     'message' => 'Departamento'
   },
+  'state help' => {
+    'lastUpdated' => 1221798457,
+    'message' => 'El departamento o provincia para esta direcci&oacute;n.'
+  },
+  'stateField help' => {
+    'lastUpdated' => 1221798422,
+    'message' => 'Un campo que contiene el Departamento o Provincia para esta direcci&oacute;n.'
+  },
+  'status code' => {
+    'lastUpdated' => 1221798392,
+    'message' => 'C&oacute;digo de Estado'
+  },
+  'status message' => {
+    'lastUpdated' => 1221798378,
+    'message' => 'Mensaje de Estado'
+  },
+  'statusCode' => {
+    'lastUpdated' => 1221798367,
+    'message' => 'El c&oacute;digo de estado que ven&iacute;a de la gateway de pago cuando intenta procesar el pago.'
+  },
+  'statusMessage' => {
+    'lastUpdated' => 1221798326,
+    'message' => 'El mensaje de estado extendido que ven&iacute;a desde la gateway de pago cuando intenta procesar el pago.'
+  },
   'subtotal' => {
     'lastUpdated' => 1215811373,
     'message' => 'Subtotal'
+  },
+  'subtotalPrice help' => {
+    'lastUpdated' => 1221798199,
+    'message' => 'El precio de todos los items en el carrito.'
   },
   'tax' => {
     'lastUpdated' => 1215811247,
     'message' => 'Impuesto'
   },
+  'tax help' => {
+    'lastUpdated' => 1221798095,
+    'message' => 'El precio de los impuestos sobre todos los items en el carrito.'
+  },
   'taxes' => {
     'lastUpdated' => 1215811238,
     'message' => 'Impuestos'
   },
+  'taxes help' => {
+    'lastUpdated' => 1221798011,
+    'message' => '<div id="result_box" dir="ltr">Impuestos sobre esta transacci&oacute;n, con formato a dos decimales.</div>'
+  },
   'thank you message' => {
     'lastUpdated' => 1215811709,
     'message' => 'Gracias por su pedido! Por favor, guarde esto como su recibo.'
+  },
+  'too many of this item' => {
+    'lastUpdated' => 1221797957,
+    'message' => 'No puedes adicionar m&aacute;s %s a tu carrito.'
   },
   'total' => {
     'lastUpdated' => 1215811107,
@@ -329,6 +369,26 @@ our $I18N = {
     'lastUpdated' => 1215811742,
     'message' => 'El n&uacute;mero total de items en el carrito.'
   },
+  'totalPrice help' => {
+    'lastUpdated' => 1221797923,
+    'message' => 'El precio total de compra del carrito, tal como est&aacute; actualmente.'
+  },
+  'tracking number' => {
+    'lastUpdated' => 1221797854,
+    'message' => '# Seguimiento'
+  },
+  'transaction id' => {
+    'lastUpdated' => 1221797544,
+    'message' => 'ID de Transacci&oacute;n'
+  },
+  'transactionCode' => {
+    'lastUpdated' => 1221798177,
+    'message' => 'C&oacute;digo de transacci&oacute;n o ID&nbsp; otorgado por la gateway de pago. No todas las gateway pueden soportar esto.'
+  },
+  'transactionId' => {
+    'lastUpdated' => 1221796584,
+    'message' => 'El identificador &uacute;nico para esta transacci&oacute;n.'
+  },
   'transactions' => {
     'lastUpdated' => 1215811061,
     'message' => 'Transacciones'
@@ -337,9 +397,21 @@ our $I18N = {
     'lastUpdated' => 1215811087,
     'message' => 'Actualizar'
   },
+  'update cart button' => {
+    'lastUpdated' => 1221796556,
+    'message' => 'Actualizar Carrito'
+  },
+  'updateButton help' => {
+    'lastUpdated' => 1221788819,
+    'message' => '<div id="result_box" dir="ltr">Al hacer clic en este bot&oacute;n se aplicar&aacute;n los cambios realizados en el carro y recalcular todos los precios.</div>'
+  },
   'use this address' => {
     'lastUpdated' => 1215811268,
     'message' => 'Usar Esta Direcci&oacute;n'
+  },
+  'useButton help' => {
+    'lastUpdated' => 1221786515,
+    'message' => 'Un bot&oacute;n que permitir&aacute; al usuario seleccionar una direcci&oacute;n existente para usar en el formulario.'
   },
   'userId' => {
     'lastUpdated' => 1215811157,
@@ -348,6 +420,10 @@ our $I18N = {
   'username' => {
     'lastUpdated' => 1215811068,
     'message' => 'Usuario'
+  },
+  'username help' => {
+    'lastUpdated' => 1221786000,
+    'message' => 'El nombre del usuario que realiza esta operaci&oacute;n, para ahorrarle un nombre de usuario buscar.'
   },
   'vendors' => {
     'lastUpdated' => 1215811050,
