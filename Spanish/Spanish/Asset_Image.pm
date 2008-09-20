@@ -1,63 +1,23 @@
 package WebGUI::i18n::Spanish::Asset_Image;
 use utf8;
 our $I18N = {
-  'fileUrl' => {
-    'lastUpdated' => undef,
-    'message' => ''
-  },
-  'image size' => {
-    'lastUpdated' => 1215796604,
-    'message' => 'Tama&ntilde;o de Imagen'
-  },
-  'menuTitle' => {
-    'lastUpdated' => 1215796711,
-    'message' => 'El men&uacute; de t&iacute;tulo, est&aacute; representada en navegaciones, fijado para la imagen cuando se ha subido, o si el nombre del archivo no se inscribi&oacute;.'
-  },
-  'thumbnail size' => {
-    'lastUpdated' => 1215797540,
-    'message' => 'TAma&ntilde;o de la vista en miniatura'
+  'Parameters description' => {
+    'lastUpdated' => 1221869411,
+    'message' => 'Par&aacute;metros adicionales a incluir en la etiqueta &lt;IMG&gt; que se genera para la imagen. Puede utilizar esto para establecer la alineaci&oacute;n o agregar el texto alternativo a presentar si la imagen no se puede mostrar (e.g. en navegadores de modo texto).'
   },
   'Thumbnail description' => {
     'lastUpdated' => 1215795451,
     'message' => 'Si una imagen est&aacute; actualmente almacenada en este activo, luego su vista en miniatura ser&iacute;a mostrada aqu&iacute;.'
   },
+  'Thumbnail size description' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
   'assetName' => {
     'lastUpdated' => undef,
     'message' => ''
   },
-  'new height' => {
-    'lastUpdated' => 1215797466,
-    'message' => 'Nueva Altura'
-  },
-  'Parameters description' => {
-    'lastUpdated' => 1215796996,
-    'message' => 'Se trata de un conjunto de par&aacute;metros extra para la etiqueta &lt;IMG&gt; que se genera para la imagen. Usted puede utilizar esto para establecer la alineaci&oacute;n o para ajustar el texto que se muestra si la imagen no se puede mostrar (como a un texto de s&oacute;lo navegador).'
-  },
   'controls' => {
-    'lastUpdated' => undef,
-    'message' => ''
-  },
-  'new width' => {
-    'lastUpdated' => 1215797452,
-    'message' => 'Nuevo Ancho'
-  },
-  'thumbnail variable' => {
-    'lastUpdated' => undef,
-    'message' => ''
-  },
-  'new width description' => {
-    'lastUpdated' => undef,
-    'message' => ''
-  },
-  'thumbnail' => {
-    'lastUpdated' => 1215797378,
-    'message' => 'Vista en miniatura'
-  },
-  'resize image' => {
-    'lastUpdated' => 1215797051,
-    'message' => 'Redimensionar Imagen'
-  },
-  'new height description' => {
     'lastUpdated' => undef,
     'message' => ''
   },
@@ -65,15 +25,27 @@ our $I18N = {
     'lastUpdated' => 1207258768,
     'message' => 'Editar imagen'
   },
-  'new file description' => {
-    'lastUpdated' => undef,
-    'message' => ''
+  'fileIcon' => {
+    'lastUpdated' => 1221868796,
+    'message' => 'El &iacute;cono que describe el tipo del archivo.'
   },
-  'Thumbnail size description' => {
-    'lastUpdated' => undef,
-    'message' => ''
+  'fileUrl' => {
+    'lastUpdated' => 1221868814,
+    'message' => 'El URL del archivo.'
   },
-  'image template title' => {
+  'filename' => {
+    'lastUpdated' => 1215796592,
+    'message' => 'El nombre de la imagen.'
+  },
+  'image size' => {
+    'lastUpdated' => 1221869263,
+    'message' => 'Dimensiones de la imagen'
+  },
+  'image size description' => {
+    'lastUpdated' => 1221869244,
+    'message' => 'Dimensiones actuales de la imagen (anchura y altura) expresada en pixels.'
+  },
+  'image template asset var title' => {
     'lastUpdated' => undef,
     'message' => ''
   },
@@ -81,41 +53,69 @@ our $I18N = {
     'lastUpdated' => undef,
     'message' => ''
   },
-  'fileIcon' => {
+  'image template title' => {
     'lastUpdated' => undef,
     'message' => ''
+  },
+  'menuTitle' => {
+    'lastUpdated' => 1215796711,
+    'message' => 'El men&uacute; de t&iacute;tulo, est&aacute; representada en navegaciones, fijado para la imagen cuando se ha subido, o si el nombre del archivo no se inscribi&oacute;.'
+  },
+  'new file description' => {
+    'lastUpdated' => 1221869188,
+    'message' => 'Introduzca el camino de acceso a un archivo, o utilice el bot&oacute;n para navegar por el sistema de archivos hasta el archivo que desee incluir.'
+  },
+  'new height' => {
+    'lastUpdated' => 1221869149,
+    'message' => 'Nueva altura'
+  },
+  'new height description' => {
+    'lastUpdated' => 1221869126,
+    'message' => 'Nueva altura en pixels. Si se introduce el valor 0, la nueva altura se calcular&aacute; utilizando la anchura como referencia.'
+  },
+  'new width' => {
+    'lastUpdated' => 1221869139,
+    'message' => 'Nueva anchura'
+  },
+  'new width description' => {
+    'lastUpdated' => 1221869094,
+    'message' => 'Nueva anchura en pixels. Si se introduce el valor 0, se calcular&aacute; la nueva anchura utilizando la altura como referencia.'
   },
   'parameters' => {
     'lastUpdated' => 1207258965,
     'message' => 'Par&aacute;metros'
   },
-  'filename' => {
-    'lastUpdated' => 1215796592,
-    'message' => 'El nombre de la imagen.'
-  },
   'parameters variable' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1221869026,
+    'message' => 'Par&aacute;metros adicionales para la marca IMG definidos cuando se incluy&oacute; la imagen.'
   },
-  'thumbnailSize' => {
-    'lastUpdated' => undef,
-    'message' => ''
-  },
-  'image template asset var title' => {
-    'lastUpdated' => undef,
-    'message' => ''
-  },
-  'title' => {
-    'lastUpdated' => undef,
-    'message' => ''
+  'resize image' => {
+    'lastUpdated' => 1215797051,
+    'message' => 'Redimensionar Imagen'
   },
   'storageId' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1221868851,
+    'message' => 'El ID de almacenamiento WebGUI asignado al archivo.'
   },
-  'image size description' => {
-    'lastUpdated' => undef,
-    'message' => ''
+  'thumbnail' => {
+    'lastUpdated' => 1215797378,
+    'message' => 'Vista en miniatura'
+  },
+  'thumbnail size' => {
+    'lastUpdated' => 1221868905,
+    'message' => 'Dimensiones de la vista en miniatura'
+  },
+  'thumbnail variable' => {
+    'lastUpdated' => 1221868923,
+    'message' => 'URL para la vista en miniatura.'
+  },
+  'thumbnailSize' => {
+    'lastUpdated' => 1221868953,
+    'message' => 'Un n&uacute;mero entero representando la longitud del lado m&aacute;s largo de la imagen.'
+  },
+  'title' => {
+    'lastUpdated' => 1221868994,
+    'message' => 'El T&iacute;tulo asociado a la Imagen cuando fue incluida, o en su defecto el nombre del archivo.'
   }
 }
 ;
