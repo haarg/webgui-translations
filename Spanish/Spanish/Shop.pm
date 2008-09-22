@@ -329,25 +329,153 @@ our $I18N = {
     'lastUpdated' => 1221854640,
     'message' => '%s es un campo obligatorio.'
   },
+  'isRecurring' => {
+    'lastUpdated' => 1222098487,
+    'message' => 'Un boleano que es verdad si &eacute;sta es una transacci&oacute;n recurrente.'
+  },
+  'isShippable help' => {
+    'lastUpdated' => 1222105337,
+    'message' => 'A condici&oacute;n que indique si el item puede tener una direcci&oacute;n de env&iacute;o adjuntada.'
+  },
+  'isSuccessful' => {
+    'lastUpdated' => 1222105366,
+    'message' => 'S&iacute; o no esta transacci&oacute;n se ha completado correctamente.'
+  },
+  'isUnique help' => {
+    'lastUpdated' => 1222105399,
+    'message' => '<div id="result_box" dir="ltr">A condici&oacute;n que indique si este item es &uacute;nico y, por tanto, s&oacute;lo puede tener la cantidad de 1.</div>'
+  },
   'item' => {
     'lastUpdated' => 1221857967,
     'message' => 'Item'
   },
+  'item assetId' => {
+    'lastUpdated' => 1222105414,
+    'message' => 'El assetId para este item.'
+  },
+  'item lastUpdated' => {
+    'lastUpdated' => 1222105678,
+    'message' => 'La fecha en que se actualiz&oacute; por &uacute;ltima vez la transacci&oacute;n de este item.'
+  },
+  'item name help' => {
+    'lastUpdated' => 1222105696,
+    'message' => 'El nombre o t&iacute;tulo del producto.'
+  },
+  'item options' => {
+    'lastUpdated' => 1222105759,
+    'message' => 'opciones JSON codificados para el activo. Probablemente no deber&iacute;a utilizar esta variable de plantilla.'
+  },
+  'item price' => {
+    'lastUpdated' => 1222105835,
+    'message' => 'El precio sin formatear de este SKU.'
+  },
+  'item quantity' => {
+    'lastUpdated' => 1222105856,
+    'message' => 'La cantidad del SKU que fue comprado.'
+  },
+  'item shipToButton help' => {
+    'lastUpdated' => 1222109824,
+    'message' => 'Al hacer clic en este bot&oacute;n establecer&aacute; una direcci&oacute;n alternativa como destino de este item.'
+  },
+  'item shippingAddress1' => {
+    'lastUpdated' => 1222111021,
+    'message' => 'Esta es la primera l&iacute;nea en una multil&iacute;nea de direcciones de env&iacute;o para este item.'
+  },
+  'item shippingAddress2' => {
+    'lastUpdated' => 1222111030,
+    'message' => 'Esta es la segunda l&iacute;nea en una multil&iacute;nea de direcciones de env&iacute;o para este item.'
+  },
+  'item shippingAddress3' => {
+    'lastUpdated' => 1222111037,
+    'message' => 'Esta es la tercera l&iacute;nea en una multil&iacute;nea de direcciones de env&iacute;o para este item.'
+  },
+  'item shippingAddressCity' => {
+    'lastUpdated' => 1222111045,
+    'message' => 'La ciudad de la direcci&oacute;n de env&iacute;o para este item.'
+  },
+  'item shippingAddressCode' => {
+    'lastUpdated' => 1222111051,
+    'message' => 'El c&oacute;digo de la direcci&oacute;n de env&iacute;o para este item.'
+  },
+  'item shippingAddressCountry' => {
+    'lastUpdated' => 1222111058,
+    'message' => 'El pa&iacute;s de la direcci&oacute;n de env&iacute;o para este item.'
+  },
+  'item shippingAddressId' => {
+    'lastUpdated' => 1222111064,
+    'message' => 'El ID de la direcci&oacute;n de env&iacute;o para este item.'
+  },
+  'item shippingAddressPhoneNumber' => {
+    'lastUpdated' => 1222111070,
+    'message' => 'El n&uacute;mero telef&oacute;nico de la direcci&oacute;n de env&iacute;o para este item.'
+  },
+  'item shippingAddressState' => {
+    'lastUpdated' => 1222111084,
+    'message' => 'El departamento de la direcci&oacute;n de env&iacute;o para este item.'
+  },
+  'item shippingName' => {
+    'lastUpdated' => 1222111090,
+    'message' => 'El nombre asignado a la direcci&oacute;n de env&iacute;o de este item.'
+  },
+  'item transactionId' => {
+    'lastUpdated' => 1222110126,
+    'message' => 'El ID de la transacci&oacute;n que pertenece este item.'
+  },
+  'item url help' => {
+    'lastUpdated' => 1222110166,
+    'message' => 'La url para ver como est&aacute; configurado este item.'
+  },
+  'item vendorId' => {
+    'lastUpdated' => 1222110179,
+    'message' => 'El ID del vendedor de este item.'
+  },
+  'itemId' => {
+    'lastUpdated' => 1222110251,
+    'message' => 'El identificador &uacute;nico para este item entre todos los items en todas las transacciones.'
+  },
+  'itemShippingAddress' => {
+    'lastUpdated' => 1222111103,
+    'message' => 'El formato de la direcci&oacute;n de env&iacute;o para este item.'
+  },
   'items' => {
-    'lastUpdated' => 1221857938,
-    'message' => 'Un ciclo que contiene todos los items asociados con esta transacci&oacute;n.'
+    'lastUpdated' => 1222111150,
+    'message' => 'Un bucle que contiene todos los items asociados con esta transacci&oacute;n.'
+  },
+  'items loop help' => {
+    'lastUpdated' => 1222111521,
+    'message' => 'Un bucle que contiene las variables para cada item en el carrito.'
   },
   'label' => {
     'lastUpdated' => 1221857951,
     'message' => 'Etiqueta'
   },
+  'label help' => {
+    'lastUpdated' => 1222111550,
+    'message' => 'por ejemplo: \'Casa\' o \'Trabajo\''
+  },
   'lastName' => {
     'lastUpdated' => 1221857993,
     'message' => 'Apellido'
   },
+  'login message' => {
+    'lastUpdated' => 1222111641,
+    'message' => 'Debes estar logueado para pagar. Para loguearte has click <a href="%s">aqu&iacute;</a>'
+  },
   'manage' => {
     'lastUpdated' => 1221857909,
     'message' => 'Administrar'
+  },
+  'manage my purchases template' => {
+    'lastUpdated' => 1222111681,
+    'message' => 'Plantilla Administrar mis Compras'
+  },
+  'manage my purchases template help' => {
+    'lastUpdated' => 1222111715,
+    'message' => 'Esta plantila muestra informaci&oacute;n parcial sobre las transacciones al usuario.'
+  },
+  'minicart template' => {
+    'lastUpdated' => 1222111745,
+    'message' => 'Plantilla MiniCart'
   },
   'monthly' => {
     'lastUpdated' => 1221857896,
@@ -380,6 +508,10 @@ our $I18N = {
   'payment methods' => {
     'lastUpdated' => 1221857853,
     'message' => 'M&eacute;todos de Pago'
+  },
+  'paymentAddress' => {
+    'lastUpdated' => 1222110290,
+    'message' => 'Formato de pago/direcci&oacute;n de facturaci&oacute;n.'
   },
   'phone number' => {
     'lastUpdated' => 1221857626,
