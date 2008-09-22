@@ -477,6 +477,10 @@ our $I18N = {
     'lastUpdated' => 1222111745,
     'message' => 'Plantilla MiniCart'
   },
+  'minicart template help' => {
+    'lastUpdated' => 1222111856,
+    'message' => 'Las siguientes variables estan disponibles en la plantilla de la macro MiniCart.'
+  },
   'monthly' => {
     'lastUpdated' => 1221857896,
     'message' => 'Mes'
