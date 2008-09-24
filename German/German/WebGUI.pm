@@ -1993,6 +1993,10 @@ our $I18N = {
     'lastUpdated' => 1216638541,
     'message' => 'Abonnement Gruppe'
   },
+  'WebGUI password recovery' => {
+    'lastUpdated' => 1222249683,
+    'message' => 'Wiederherstellung WebGUI Passwort'
+  },
   'account' => {
     'lastUpdated' => 1178547178,
     'message' => 'Account'
@@ -2567,7 +2571,7 @@ our $I18N = {
   },
   'purge workflow help' => {
     'lastUpdated' => 1199973044,
-    'message' => "Welcher Workflow soll ausgef&uuml;hrt werden wenn ein Asset gel\x{f6}scht wird."
+    'message' => 'Welcher Workflow soll ausgef&uuml;hrt werden wenn ein Asset gelöscht wird.'
   },
   'radio' => {
     'lastUpdated' => 1178625075,
