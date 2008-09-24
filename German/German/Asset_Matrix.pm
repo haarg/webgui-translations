@@ -122,12 +122,12 @@ our $I18N = {
     'message' => 'Kommentar'
   },
   'compare template' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1222246986,
+    'message' => 'Vorlage Vergleich'
   },
   'compare template description' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1222247090,
+    'message' => "Selektiere eine Vorlage f\x{fc}r die Anzeige im Listen-Vergleich"
   },
   'compare.form' => {
     'lastUpdated' => undef,
@@ -294,8 +294,8 @@ our $I18N = {
     'message' => ''
   },
   'form.submit' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1222247162,
+    'message' => 'Der Knopf zum Abschicken'
   },
   'free' => {
     'lastUpdated' => undef,
@@ -374,7 +374,7 @@ our $I18N = {
     'message' => 'Beschreibung dieser Liste'
   },
   'listing label' => {
-    'lastUpdated' => undef,
+    'lastUpdated' => 1222248380,
     'message' => ''
   },
   'listing maintainer' => {
@@ -422,12 +422,12 @@ our $I18N = {
     'message' => ''
   },
   'manufacturerName' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1222248325,
+    'message' => "Name des Herstellers oder Dienstleisters f\x{fc}r das Produkt dieser Liste"
   },
   'manufacturerUrl' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1222248353,
+    'message' => 'URL des Herstellers'
   },
   'manufacturerUrl.click' => {
     'lastUpdated' => undef,
@@ -462,12 +462,12 @@ our $I18N = {
     'message' => ''
   },
   'mean' => {
-    'lastUpdated' => 1221333332,
-    'message' => 'Mittelwert des Besten in dieser Kategorie'
+    'lastUpdated' => 1222247195,
+    'message' => 'Durchschnitt des Besten in dieser Kategorie'
   },
   'median' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1222247226,
+    'message' => 'Der Mittelwert des Besten in dieser Kategorie'
   },
   'name' => {
     'lastUpdated' => 1192797209,
@@ -478,8 +478,8 @@ our $I18N = {
     'message' => 'Nein'
   },
   'no copy' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1222247254,
+    'message' => 'Dieses Asset darf nicht kopiert werden'
   },
   'no edit rights' => {
     'lastUpdated' => undef,
@@ -498,44 +498,44 @@ our $I18N = {
     'message' => ''
   },
   'product name' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1222248244,
+    'message' => 'Produktname'
   },
   'product name description' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1222247704,
+    'message' => "Name des Produkts. Wenn es Eintr\x{e4}ge gibt mit verschiedenen Versionen des Produkts, ist es empfehlenswert, dass die Produktbezeichnungen gleich sind."
   },
   'product url' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1222247533,
+    'message' => 'URL zum Produkt'
   },
   'product url description' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1222247588,
+    'message' => 'Wenn es eine eigene Website für das Produkt gibt, geben Sie hier die komplette URL ein'
   },
   'productName' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1222247741,
+    'message' => 'Name dieser Liste'
   },
   'productUrl' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1222247770,
+    'message' => 'Hersteller URL für diese Liste'
   },
   'productUrl.click' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1222247846,
+    'message' => "Die Produkt-URL, falls die Klicks auf diese Liste gez\x{e4}hlt werden sollen."
   },
   'product_loop' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1222247918,
+    'message' => 'Eine Schleife mit der Produktinformation (nicht in Kategorien enthalten) für diese Liste.'
   },
   'rating detail template' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1222247954,
+    'message' => 'Vorlage zu Bewertungsdetails'
   },
   'rating detail template description' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1222247994,
+    'message' => 'Selektiere eine Vorlage zur Anzeige der Bewertungsdetails'
   },
   'rating group' => {
     'lastUpdated' => undef,
@@ -578,8 +578,8 @@ our $I18N = {
     'message' => ''
   },
   'report error' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1222248040,
+    'message' => 'Fehler melden'
   },
   'request type' => {
     'lastUpdated' => undef,
@@ -634,7 +634,7 @@ our $I18N = {
     'message' => ''
   },
   'tmplVar best.category' => {
-    'lastUpdated' => 1221333358,
+    'lastUpdated' => 1222248072,
     'message' => 'Name dieser Kategorie'
   },
   'tmplVar best.name' => {
@@ -658,16 +658,16 @@ our $I18N = {
     'message' => ''
   },
   'tmplVar field.description' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1222247383,
+    'message' => 'Beschreibung für dieses Feld'
   },
   'tmplVar last.lastUpdated' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1222248136,
+    'message' => 'Das Datum der letzten Aktualisierung dieser Liste'
   },
   'tmplVar last.name' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1222247343,
+    'message' => 'Name des Produktes'
   },
   'tmplVar last.url' => {
     'lastUpdated' => undef,
@@ -690,8 +690,8 @@ our $I18N = {
     'message' => 'Die URL zur hochgeladenen Bild oder Screenshot.'
   },
   'tmplVar worst.category' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1222248081,
+    'message' => 'Name dieser Kategorie'
   },
   'tmplVar worst.count' => {
     'lastUpdated' => undef,
@@ -726,8 +726,8 @@ our $I18N = {
     'message' => ''
   },
   'user.count' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1222247309,
+    'message' => 'Anzahl der registrierten Benutzer'
   },
   'value' => {
     'lastUpdated' => 1192797371,
@@ -750,8 +750,8 @@ our $I18N = {
     'message' => 'Versions-/Modellnummer des Produkts'
   },
   'views' => {
-    'lastUpdated' => 1221288355,
-    'message' => 'Gesamtanzahl der Auflistings zu diesem Produkt'
+    'lastUpdated' => 1222248194,
+    'message' => 'Gesamtanzahl der Anzeigen zu dieser Liste'
   },
   'visitor cache timeout' => {
     'lastUpdated' => undef,
@@ -762,8 +762,8 @@ our $I18N = {
     'message' => ''
   },
   'worst_rating_loop' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1222247463,
+    'message' => 'Eine Schleife mit allen Kategorien und deren schlechtesten Bewertung.'
   },
   'yes' => {
     'lastUpdated' => 1192797163,
