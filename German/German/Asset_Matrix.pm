@@ -7,7 +7,7 @@ our $I18N = {
   },
   'approve.url' => {
     'lastUpdated' => 1221289322,
-    'message' => "Die URL zum \x{dc}berpr\x{fc}fen dieser Liste"
+    'message' => 'Die URL zum Überprüfen dieser Liste'
   },
   'assetName' => {
     'lastUpdated' => 1157856271,
@@ -55,11 +55,11 @@ our $I18N = {
   },
   'best.views.count' => {
     'lastUpdated' => 1222248762,
-    'message' => 'Anzahl der Anzeigen der Liste mit höchster Klick-Anzahl'
+    'message' => "Anzahl der Anzeigen der Liste mit h\x{f6}chster Klick-Anzahl"
   },
   'best.views.name' => {
     'lastUpdated' => 1222248635,
-    'message' => "Liste mit h\x{f6}chster Anzeigenanzahl"
+    'message' => 'Liste mit höchster Anzeigenanzahl'
   },
   'best.views.url' => {
     'lastUpdated' => 1221332796,
@@ -75,7 +75,7 @@ our $I18N = {
   },
   'categories description' => {
     'lastUpdated' => 1221288616,
-    'message' => 'Geben Sie hier eine Kategorie pro Zeile an um die Kategorien für diese Matrix zu definieren. Kategorien werden benutzt um Felder zu gruppieren. Benutzer können eine Liste pro Kategorie bewerten.'
+    'message' => "Geben Sie hier eine Kategorie pro Zeile an um die Kategorien f\x{fc}r diese Matrix zu definieren. Kategorien werden benutzt um Felder zu gruppieren. Benutzer k\x{f6}nnen eine Liste pro Kategorie bewerten."
   },
   'categories subtext' => {
     'lastUpdated' => 1221332990,
@@ -99,11 +99,11 @@ our $I18N = {
   },
   'class' => {
     'lastUpdated' => 1222248717,
-    'message' => "Name der Stylesheet-Klasse f\x{fc}r dieses Feld."
+    'message' => 'Name der Stylesheet-Klasse für dieses Feld.'
   },
   'clicks' => {
     'lastUpdated' => 1222248663,
-    'message' => 'Anzahl der Klicks für diese Liste'
+    'message' => "Anzahl der Klicks f\x{fc}r diese Liste"
   },
   'columnCount' => {
     'lastUpdated' => undef,
@@ -127,7 +127,7 @@ our $I18N = {
   },
   'compare template description' => {
     'lastUpdated' => 1222247090,
-    'message' => "Selektiere eine Vorlage f\x{fc}r die Anzeige im Listen-Vergleich"
+    'message' => 'Selektiere eine Vorlage für die Anzeige im Listen-Vergleich'
   },
   'compare.form' => {
     'lastUpdated' => undef,
@@ -155,7 +155,7 @@ our $I18N = {
   },
   'default value description' => {
     'lastUpdated' => 1222248905,
-    'message' => 'Standardwert für das Feld, falls der Benutzer es nicht ausfüllt.'
+    'message' => "Standardwert f\x{fc}r das Feld, falls der Benutzer es nicht ausf\x{fc}llt."
   },
   'delete field confirm' => {
     'lastUpdated' => undef,
@@ -170,8 +170,8 @@ our $I18N = {
     'message' => ''
   },
   'description' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1222250450,
+    'message' => 'Beschreibung'
   },
   'description description' => {
     'lastUpdated' => undef,
@@ -231,11 +231,11 @@ our $I18N = {
   },
   'email.form' => {
     'lastUpdated' => 1222248991,
-    'message' => "Formular f\x{fc}r Email an den Listenverantwortlichen"
+    'message' => 'Formular für Email an den Listenverantwortlichen'
   },
   'email.wasSent' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1222250100,
+    'message' => 'Email wurde verschickt.'
   },
   'extra' => {
     'lastUpdated' => 1222249020,
@@ -283,7 +283,7 @@ our $I18N = {
   },
   'form' => {
     'lastUpdated' => 1221333225,
-    'message' => "Formularelement f\x{fc}r dieses feld."
+    'message' => 'Formularelement für dieses feld.'
   },
   'form.footer' => {
     'lastUpdated' => undef,
@@ -423,15 +423,15 @@ our $I18N = {
   },
   'manufacturerName' => {
     'lastUpdated' => 1222248325,
-    'message' => "Name des Herstellers oder Dienstleisters f\x{fc}r das Produkt dieser Liste"
+    'message' => 'Name des Herstellers oder Dienstleisters für das Produkt dieser Liste'
   },
   'manufacturerUrl' => {
     'lastUpdated' => 1222248353,
     'message' => 'URL des Herstellers'
   },
   'manufacturerUrl.click' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1222250378,
+    'message' => "Hersteller/Dienstleister URL, wenn Sie die Anzahl der Clicks zu dieser Liste registrieren m\x{f6}chten"
   },
   'matrix specific fields' => {
     'lastUpdated' => undef,
@@ -503,7 +503,7 @@ our $I18N = {
   },
   'product name description' => {
     'lastUpdated' => 1222247704,
-    'message' => "Name des Produkts. Wenn es Eintr\x{e4}ge gibt mit verschiedenen Versionen des Produkts, ist es empfehlenswert, dass die Produktbezeichnungen gleich sind."
+    'message' => 'Name des Produkts. Wenn es Einträge gibt mit verschiedenen Versionen des Produkts, ist es empfehlenswert, dass die Produktbezeichnungen gleich sind.'
   },
   'product url' => {
     'lastUpdated' => 1222247533,
@@ -511,7 +511,7 @@ our $I18N = {
   },
   'product url description' => {
     'lastUpdated' => 1222247588,
-    'message' => 'Wenn es eine eigene Website für das Produkt gibt, geben Sie hier die komplette URL ein'
+    'message' => "Wenn es eine eigene Website f\x{fc}r das Produkt gibt, geben Sie hier die komplette URL ein"
   },
   'productName' => {
     'lastUpdated' => 1222247741,
@@ -519,15 +519,15 @@ our $I18N = {
   },
   'productUrl' => {
     'lastUpdated' => 1222247770,
-    'message' => 'Hersteller URL für diese Liste'
+    'message' => "Hersteller URL f\x{fc}r diese Liste"
   },
   'productUrl.click' => {
     'lastUpdated' => 1222247846,
-    'message' => "Die Produkt-URL, falls die Klicks auf diese Liste gez\x{e4}hlt werden sollen."
+    'message' => 'Die Produkt-URL, falls die Klicks auf diese Liste gezählt werden sollen.'
   },
   'product_loop' => {
     'lastUpdated' => 1222247918,
-    'message' => 'Eine Schleife mit der Produktinformation (nicht in Kategorien enthalten) für diese Liste.'
+    'message' => "Eine Schleife mit der Produktinformation (nicht in Kategorien enthalten) f\x{fc}r diese Liste."
   },
   'rating detail template' => {
     'lastUpdated' => 1222247954,
@@ -566,8 +566,8 @@ our $I18N = {
     'message' => ''
   },
   'ratings' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1222250413,
+    'message' => 'Bewertungsformular für diese Liste'
   },
   'ratings detail template help title' => {
     'lastUpdated' => undef,
@@ -590,8 +590,8 @@ our $I18N = {
     'message' => ''
   },
   'screenshot' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1222250170,
+    'message' => 'Screenshot/Bild'
   },
   'screenshot help' => {
     'lastUpdated' => undef,
@@ -614,8 +614,8 @@ our $I18N = {
     'message' => ''
   },
   'search.url' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1222250288,
+    'message' => 'URL zum Suchformular'
   },
   'show ratings' => {
     'lastUpdated' => 1202812306,
@@ -647,11 +647,11 @@ our $I18N = {
   },
   'tmplVar category' => {
     'lastUpdated' => 1221333501,
-    'message' => 'Name der Kategorie für dieses Feld'
+    'message' => "Name der Kategorie f\x{fc}r dieses Feld"
   },
   'tmplVar class' => {
     'lastUpdated' => 1221333630,
-    'message' => "Stylesheet-Klasse f\x{fc}r dieses Feld. Die Klasse ist der Wert des Feldes, wobei Leerzeichen mit Unterstrich ersetzt werden. Sonstige nicht alpha-numerische Zeichen werden entfernt."
+    'message' => 'Stylesheet-Klasse für dieses Feld. Die Klasse ist der Wert des Feldes, wobei Leerzeichen mit Unterstrich ersetzt werden. Sonstige nicht alpha-numerische Zeichen werden entfernt.'
   },
   'tmplVar detail url' => {
     'lastUpdated' => undef,
@@ -670,8 +670,8 @@ our $I18N = {
     'message' => 'Name des Produktes'
   },
   'tmplVar last.url' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1222250218,
+    'message' => 'URL zu dieser Liste'
   },
   'tmplVar name' => {
     'lastUpdated' => 1221333721,
