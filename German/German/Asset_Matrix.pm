@@ -46,20 +46,20 @@ our $I18N = {
     'message' => 'Das Datum des aktuellsten Listings.'
   },
   'best.updated.name' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1222248464,
+    'message' => 'Name der aktuellste Liste'
   },
   'best.updated.url' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1222248481,
+    'message' => 'URL der aktuellsten Liste'
   },
   'best.views.count' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1222248762,
+    'message' => 'Anzahl der Anzeigen der Liste mit höchster Klick-Anzahl'
   },
   'best.views.name' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1222248635,
+    'message' => "Liste mit h\x{f6}chster Anzeigenanzahl"
   },
   'best.views.url' => {
     'lastUpdated' => 1221332796,
@@ -98,12 +98,12 @@ our $I18N = {
     'message' => ''
   },
   'class' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1222248717,
+    'message' => "Name der Stylesheet-Klasse f\x{fc}r dieses Feld."
   },
   'clicks' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1222248663,
+    'message' => 'Anzahl der Klicks für diese Liste'
   },
   'columnCount' => {
     'lastUpdated' => undef,
@@ -150,12 +150,12 @@ our $I18N = {
     'message' => 'Anzahl derzeitiger Besucher dieser Website.'
   },
   'default value' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1222248799,
+    'message' => 'Standardwert'
   },
   'default value description' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1222248905,
+    'message' => 'Standardwert für das Feld, falls der Benutzer es nicht ausfüllt.'
   },
   'delete field confirm' => {
     'lastUpdated' => undef,
@@ -230,16 +230,16 @@ our $I18N = {
     'message' => ''
   },
   'email.form' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1222248991,
+    'message' => "Formular f\x{fc}r Email an den Listenverantwortlichen"
   },
   'email.wasSent' => {
     'lastUpdated' => undef,
     'message' => ''
   },
   'extra' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1222249020,
+    'message' => 'Kostet extra'
   },
   'field description' => {
     'lastUpdated' => undef,
@@ -298,8 +298,8 @@ our $I18N = {
     'message' => 'Der Knopf zum Abschicken'
   },
   'free' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1222249178,
+    'message' => 'Kostenlose Erweiterung'
   },
   'general comment' => {
     'lastUpdated' => 1221289192,
@@ -658,12 +658,12 @@ our $I18N = {
     'message' => ''
   },
   'tmplVar field.description' => {
-    'lastUpdated' => 1222247383,
-    'message' => 'Beschreibung für dieses Feld'
+    'lastUpdated' => 1222249324,
+    'message' => 'Beschreibung'
   },
   'tmplVar last.lastUpdated' => {
-    'lastUpdated' => 1222248136,
-    'message' => 'Das Datum der letzten Aktualisierung dieser Liste'
+    'lastUpdated' => 1222249270,
+    'message' => 'Letzte Aktualisierung'
   },
   'tmplVar last.name' => {
     'lastUpdated' => 1222247343,
