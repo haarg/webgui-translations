@@ -349,11 +349,11 @@ Als er een server voor het verzenden van email op dezelfde machine staat als de 
   },
   '164 description' => {
     'lastUpdated' => 1166787969,
-    'message' => 'Stel de standaard authenticatie methode voor nieuwe accounts in. De twee opties die standaard beschikbaar zij, zijn WebGUI en LDAP. WebGUI authenticatie betekent dat gebruikers zich moeten valideren tegen de gebruikersnaam en wachtwoord die in de WebGUI database zijn opgeslagen. Bij LDAP authenticatie komt deze informatie uit een externe LDAP server. Andere methoden kunnen gebruikt worden als er eerst een eigen authenticatie werktuig geschreven wordt.</p><p><em>Aantekeningen:</em><br />
+    'message' => "Stel de standaard authenticatie methode voor nieuwe accounts in. De twee opties die standaard beschikbaar zij, zijn WebGUI en LDAP. WebGUI authenticatie betekent dat gebruikers zich moeten valideren tegen de gebruikersnaam en wachtwoord die in de WebGUI database zijn opgeslagen. Bij LDAP authenticatie komt deze informatie uit een externe LDAP server. Andere methoden kunnen gebruikt worden als er eerst een eigen authenticatie werktuig geschreven wordt.</p><p><em>Aantekeningen:</em><br />
 <br />
 Authenticatie instellingen kunnen per gebruiker worden ingesteld.<br />
 <br />
-Afhankelijk van welke authenticatie modules geïnstalleerd zijn in het systeem, worden hierna de verschillende opties getoond.'
+Afhankelijk van welke authenticatie modules ge\x{ef}nstalleerd zijn in het systeem, worden hierna de verschillende opties getoond."
   },
   '167' => {
     'lastUpdated' => 1208856142,
@@ -2637,12 +2637,12 @@ Dit specifieke voorbeeld zorgt voor een goede vindbaarheid in zoekmachines.'
     'message' => 'Verzend bericht'
   },
   'send private message template' => {
-    'lastUpdated' => 1189454271,
-    'message' => 'Verstuur (prive) bericht template'
+    'lastUpdated' => 1222347307,
+    'message' => 'Verstuur (prive) bericht sjabloon'
   },
   'send private message template description' => {
-    'lastUpdated' => 1189454321,
-    'message' => 'Kies een template om berichten te verzenden.'
+    'lastUpdated' => 1222347324,
+    'message' => '<p>Kies een sjabloon om berichten te verzenden.</p>'
   },
   'settings' => {
     'lastUpdated' => 1154097754,
@@ -2933,12 +2933,12 @@ Dit specifieke voorbeeld zorgt voor een goede vindbaarheid in zoekmachines.'
     'message' => 'Gebruiker'
   },
   'user email template' => {
-    'lastUpdated' => 1189454406,
-    'message' => 'Template Nodig iemand uit'
+    'lastUpdated' => 1222347360,
+    'message' => 'Sjabloon voor uitnodigen'
   },
   'user email template description' => {
-    'lastUpdated' => 1189454434,
-    'message' => 'Het template dat gebruikt wordt om de uitnodigingsemail samen te stellen.'
+    'lastUpdated' => 1222347370,
+    'message' => 'Het sjabloon dat gebruikt wordt om de uitnodigingsemail samen te stellen.'
   },
   'user function style' => {
     'lastUpdated' => 1155890421,
@@ -2997,20 +2997,20 @@ Dit specifieke voorbeeld zorgt voor een goede vindbaarheid in zoekmachines.'
     'message' => 'Uw gebruikersnaam kan geen HTML code of WebGUI macros bevatten.'
   },
   'view inbox message template' => {
-    'lastUpdated' => 1189454509,
-    'message' => 'template voor bericht in inbox'
+    'lastUpdated' => 1222347400,
+    'message' => 'Sjabloon voor bericht in inbox'
   },
   'view inbox message template description' => {
-    'lastUpdated' => 1189454524,
-    'message' => 'Kies een template om berichten in de inbox weer te geven.'
+    'lastUpdated' => 1222347453,
+    'message' => 'Kies een sjabloon om berichten in de inbox weer te geven.'
   },
   'view inbox template' => {
-    'lastUpdated' => 1189454537,
-    'message' => 'Inbox template'
+    'lastUpdated' => 1222347420,
+    'message' => 'Inbox sjabloon'
   },
   'view inbox template description' => {
-    'lastUpdated' => 1189454548,
-    'message' => 'Kies een template om de inbox weer te geven.'
+    'lastUpdated' => 1222347429,
+    'message' => 'Kies een sjabloon om de inbox weer te geven.'
   },
   'webgui' => {
     'lastUpdated' => 1154097513,

@@ -2,8 +2,8 @@ package WebGUI::i18n::Dutch::Asset_Article;
 use utf8;
 our $I18N = {
   '12' => {
-    'lastUpdated' => 1151701032,
-    'message' => 'Editeer Artikel'
+    'lastUpdated' => 1222347038,
+    'message' => 'Bewerk Artikel'
   },
   '28' => {
     'lastUpdated' => 1151701274,
@@ -83,15 +83,15 @@ our $I18N = {
   },
   'description.first.100words' => {
     'lastUpdated' => 1151703145,
-    'message' => "De eerste 100 woorden in de beschrijving. Woorden worden gedefini\x{eb}erd als karakters geschieden door spaties, dus HTML entiteiten en tags tellen als woorden."
+    'message' => 'De eerste 100 woorden in de beschrijving. Woorden worden gedefiniëerd als karakters geschieden door spaties, dus HTML entiteiten en tags tellen als woorden.'
   },
   'description.first.10words' => {
     'lastUpdated' => 1151703218,
-    'message' => "De eerste 10 woorden in de beschrijving. Woorden worden gedefini\x{eb}erd als karakters geschieden door spaties, dus HTML entiteiten en tags tellen als woorden."
+    'message' => 'De eerste 10 woorden in de beschrijving. Woorden worden gedefiniëerd als karakters geschieden door spaties, dus HTML entiteiten en tags tellen als woorden.'
   },
   'description.first.25words' => {
     'lastUpdated' => 1151742286,
-    'message' => "De eerste 25 woorden in de beschrijving. Woorden worden gedefini\x{eb}erd als karakters geschieden door spaties, dus HTML entiteiten en tags tellen als woorden."
+    'message' => 'De eerste 25 woorden in de beschrijving. Woorden worden gedefiniëerd als karakters geschieden door spaties, dus HTML entiteiten en tags tellen als woorden.'
   },
   'description.first.2paragraphs' => {
     'lastUpdated' => 1151742348,
@@ -111,11 +111,11 @@ our $I18N = {
   },
   'description.first.50words' => {
     'lastUpdated' => 1151742304,
-    'message' => "De eerste 50 woorden in de beschrijving. Woorden worden gedefini\x{eb}erd als karakters geschieden door spaties, dus HTML entiteiten en tags tellen als woorden."
+    'message' => 'De eerste 50 woorden in de beschrijving. Woorden worden gedefiniëerd als karakters geschieden door spaties, dus HTML entiteiten en tags tellen als woorden.'
   },
   'description.first.75words' => {
     'lastUpdated' => 1151742321,
-    'message' => "De eerste 75 woorden in de beschrijving. Woorden worden gedefini\x{eb}erd als karakters geschieden door spaties, dus HTML entiteiten en tags tellen als woorden."
+    'message' => 'De eerste 75 woorden in de beschrijving. Woorden worden gedefiniëerd als karakters geschieden door spaties, dus HTML entiteiten en tags tellen als woorden.'
   },
   'description.first.paragraph' => {
     'lastUpdated' => 1151742482,

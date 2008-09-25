@@ -170,8 +170,8 @@ our $I18N = {
     'message' => 'Open een formulier waar nieuwe metadata kan worden toegevoegd aan deze asset.'
   },
   'Class Icon' => {
-    'lastUpdated' => 1148988419,
-    'message' => 'Class Icoon'
+    'lastUpdated' => 1222350784,
+    'message' => 'Klasse Icoon'
   },
   'Class Icon help' => {
     'lastUpdated' => 1166187449,
@@ -335,7 +335,7 @@ our $I18N = {
   },
   'controls' => {
     'lastUpdated' => 1166203953,
-    'message' => 'Met deze iconen en url\'s kunt u een asset wijzigen, knippen, kopiëren, verwijderen en verplaatsen.'
+    'message' => "Met deze iconen en url's kunt u een asset wijzigen, knippen, kopi\x{eb}ren, verwijderen en verplaatsen."
   },
   'copy' => {
     'lastUpdated' => 1146830577,
@@ -403,7 +403,7 @@ our $I18N = {
   },
   'demote help' => {
     'lastUpdated' => 1166204029,
-    'message' => 'Verplaats deze asset één plaats omlaag.  '
+    'message' => "Verplaats deze asset \x{e9}\x{e9}n plaats omlaag.  "
   },
   'directory index' => {
     'lastUpdated' => 1146831438,
@@ -411,7 +411,7 @@ our $I18N = {
   },
   'directory index description' => {
     'lastUpdated' => 1166204038,
-    'message' => 'Als de URL van de Asset die geëxporteerd wordt een map is dan zal de mappenstructuur bijgevoegd worden. '
+    'message' => "Als de URL van de Asset die ge\x{eb}xporteerd wordt een map is dan zal de mappenstructuur bijgevoegd worden. "
   },
   'does asset inherit URL from parent' => {
     'lastUpdated' => 1213624861,
