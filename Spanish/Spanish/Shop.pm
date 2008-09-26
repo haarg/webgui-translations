@@ -378,7 +378,7 @@ our $I18N = {
     'message' => 'Al hacer clic en este bot&oacute;n establecer&aacute; una direcci&oacute;n alternativa como destino de este item.'
   },
   'item shippingAddress1' => {
-    'lastUpdated' => 1222111021,
+    'lastUpdated' => 1222456006,
     'message' => 'Esta es la primera l&iacute;nea en una multil&iacute;nea de direcciones de env&iacute;o para este item.'
   },
   'item shippingAddress2' => {
@@ -481,13 +481,45 @@ our $I18N = {
     'lastUpdated' => 1222111856,
     'message' => 'Las siguientes variables estan disponibles en la plantilla de la macro MiniCart.'
   },
+  'mixed items warning' => {
+    'lastUpdated' => 1222185905,
+    'message' => '<div id="result_box" dir="ltr">No es posible pagar con los items recurrentes y no recurrentes en su carrito. Puede tener ya sea un item recurrente, o como muchos items no recurrentes como desee en su carrito de compra en el tiempo. Si usted necesita comprar ambos, a continuaci&oacute;n, por favor comprarlos por transacciones separado las transacciones.</div>'
+  },
   'monthly' => {
     'lastUpdated' => 1221857896,
     'message' => 'Mes'
   },
+  'my purchases' => {
+    'lastUpdated' => 1222186022,
+    'message' => '<div id="result_box" dir="ltr">Mis compras</div>'
+  },
+  'my purchases detail template' => {
+    'lastUpdated' => 1222186043,
+    'message' => 'Plantilla Detalle Mis Compras'
+  },
+  'my purchases detail template help' => {
+    'lastUpdated' => 1222371840,
+    'message' => 'Plantilla que debe utilizarse para mostrar el historial detallado de ordenes de un usuario? Un individuo venta en lugar de toda la lista de transacciones.'
+  },
+  'my purchases template' => {
+    'lastUpdated' => 1222374381,
+    'message' => 'Plantilla Mis Compras'
+  },
+  'my purchases template help' => {
+    'lastUpdated' => 1222455657,
+    'message' => '<div id="result_box" dir="ltr">Plantilla que debe utilizarse para mostrar el historial de ordenes de un usuario?</div>'
+  },
   'name' => {
     'lastUpdated' => 1221857593,
     'message' => 'Nombre'
+  },
+  'name help' => {
+    'lastUpdated' => 1222455678,
+    'message' => 'El nombre de la persona de esta direcci&oacute;n.'
+  },
+  'not applicable' => {
+    'lastUpdated' => 1222455694,
+    'message' => 'N/A'
   },
   'notes' => {
     'lastUpdated' => 1221857611,
@@ -505,6 +537,22 @@ our $I18N = {
     'lastUpdated' => 1221858222,
     'message' => 'Estado de la Orden'
   },
+  'orderNumber' => {
+    'lastUpdated' => 1222277370,
+    'message' => '<div id="result_box" dir="ltr">Un n&uacute;mero legible por el hombre para la transacci&oacute;n.</div>'
+  },
+  'orderStatus' => {
+    'lastUpdated' => 1222455807,
+    'message' => 'El estado internacionalizado para este item, Enviado, Cancelado, Pendiente o no Enviada'
+  },
+  'originatingTransactionId' => {
+    'lastUpdated' => 1222455905,
+    'message' => 'Si la transacci&oacute;n es recurrente, contendr&aacute; el Id de la transacci&oacute;n para la compra original.'
+  },
+  'payment address' => {
+    'lastUpdated' => 1222455991,
+    'message' => 'Direcci&oacute;n de Pago'
+  },
   'payment method' => {
     'lastUpdated' => 1221857842,
     'message' => 'M&eacute;todo de Pago'
@@ -514,12 +562,60 @@ our $I18N = {
     'message' => 'M&eacute;todos de Pago'
   },
   'paymentAddress' => {
-    'lastUpdated' => 1222110290,
+    'lastUpdated' => 1222277123,
     'message' => 'Formato de pago/direcci&oacute;n de facturaci&oacute;n.'
+  },
+  'paymentAddress1' => {
+    'lastUpdated' => 1222456111,
+    'message' => 'La primera l&iacute;nea en una multil&iacute;nea de direcciones de pago.'
+  },
+  'paymentAddress2' => {
+    'lastUpdated' => 1222456080,
+    'message' => 'La segunda l&iacute;nea en una multil&iacute;nea de direcciones de pago.'
+  },
+  'paymentAddress3' => {
+    'lastUpdated' => 1222456180,
+    'message' => 'La tercera l&iacute;nea en una multil&iacute;nea de direcciones de pago.'
+  },
+  'paymentAddressCity' => {
+    'lastUpdated' => 1222456225,
+    'message' => 'La ciudad de la direcci&oacute;n de pago.'
+  },
+  'paymentAddressCode' => {
+    'lastUpdated' => 1222456249,
+    'message' => 'El codigo postal para la direcci&oacute;n de pago.'
+  },
+  'paymentAddressCountry' => {
+    'lastUpdated' => 1222456396,
+    'message' => 'El pa&iacute;s de la direcci&oacute;n de pago.'
+  },
+  'paymentAddressId' => {
+    'lastUpdated' => 1222456521,
+    'message' => 'El ID de la direcci&oacute;n de pago usado por esta transacci&oacute;n.'
+  },
+  'paymentAddressName' => {
+    'lastUpdated' => 1222459424,
+    'message' => 'El nombre asignado a la direcci&oacute;n de pago.'
+  },
+  'paymentAddressPhoneNumber' => {
+    'lastUpdated' => 1222459730,
+    'message' => 'El n&uacute;mero telef&oacute;nico para la direcci&oacute;n de pago.'
+  },
+  'paymentAddressState' => {
+    'lastUpdated' => 1222459749,
+    'message' => 'El departamento para la direcci&oacute;n de pago.'
+  },
+  'per item shipping' => {
+    'lastUpdated' => 1222459820,
+    'message' => 'Por item enviado'
   },
   'phone number' => {
     'lastUpdated' => 1221857626,
     'message' => 'N&uacute;mero Telef&oacute;nico'
+  },
+  'phoneNumber help' => {
+    'lastUpdated' => 1222469820,
+    'message' => 'Un n&uacute;mero telef&oacute;nico para esta direcci&oacute;n.'
   },
   'price' => {
     'lastUpdated' => 1221857635,
@@ -536,6 +632,10 @@ our $I18N = {
   'quantity' => {
     'lastUpdated' => 1221858029,
     'message' => 'Cantidad'
+  },
+  'shipping method' => {
+    'lastUpdated' => 1222277092,
+    'message' => 'M&eacute;todo de Compra'
   },
   'shop' => {
     'lastUpdated' => 1221857655,
