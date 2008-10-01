@@ -1085,6 +1085,10 @@ our $I18N = {
     'lastUpdated' => 1190026091,
     'message' => 'Er werden geen records geimporteerd. Er waren fouten in de input:'
   },
+  'no more available' => {
+    'lastUpdated' => 1222876207,
+    'message' => 'Fout: Er zijn geen objecten meer voor verkoop beschikbaar.'
+  },
   'no sets to display' => {
     'lastUpdated' => 1148307174,
     'message' => 'Er is geen enkele set van vereisten die getoond kan worden. '
@@ -1190,12 +1194,12 @@ our $I18N = {
     'message' => 'De naam van de set van vereisten'
   },
   'price' => {
-    'lastUpdated' => 1148307767,
-    'message' => 'Prijs'
+    'lastUpdated' => 1222876008,
+    'message' => 'Totale prijs'
   },
   'price help' => {
-    'lastUpdated' => 1215443247,
-    'message' => 'Hoeveel moet er voor dit object gerekend worden?'
+    'lastUpdated' => 1222876029,
+    'message' => 'De normale prijs van dit naamkaartje'
   },
   'price must be greater than zero' => {
     'lastUpdated' => 1215443263,

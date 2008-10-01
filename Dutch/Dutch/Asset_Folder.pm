@@ -1,227 +1,207 @@
 package WebGUI::i18n::Dutch::Asset_Folder;
 use utf8;
-
 our $I18N = {
-	'What Next description' => {
-		message => q|Wilt u na het aanmaken van een nieuwe map teruggaan naar de originele pagina waar de map is gemaakt of doorgaan naar de nieuwe map?|,
-		lastUpdated => 1147960715
-	},
-
-	'assetName' => {
-		message => q|Map|,
-		lastUpdated => 1147960787
-	},
-
-	'folder template body' => {
-		message => q|De volgende variabelen zijn beschikbaar in map sjablonen:|,
-		lastUpdated => 1147965263
-	},
-
-	'sort alphabetically' => {
-		message => q|Alfabetisch sorteren?|,
-		lastUpdated => 1147965027
-	},
-
-	'add file label' => {
-		message => q|Bestanden toevoegen.|,
-		lastUpdated => 1147960729
-	},
-
-	'synopsis' => {
-		message => q|De korte samenvatting van de asset|,
-		lastUpdated => 1147964951
-	},
-
-	'folder id' => {
-		message => q|De assetId van de map|,
-		lastUpdated => 1147965275
-	},
-
-	'url' => {
-		message => q|De URL van de asset|,
-		lastUpdated => 1147964845
-	},
-
-	'controls' => {
-		message => q|De balk met bewerkknoppen van dit deel|,
-		lastUpdated => 1147960900
-	},
-
-	'id' => {
-		message => q|De assetId van de Asset|,
-		lastUpdated => 1147964831
-	},
-
-	'folder template title' => {
-		message => q|Map sjabloon|,
-		lastUpdated => 1147965187
-	},
-
-	'canEdit' => {
-		message => q|Een conditionele functie die aangeeft of deze asset bewerkt kan worden door de huidige gebruiker.|,
-		lastUpdated => 1147960824
-	},
-
-	'date.epoch' => {
-		message => q|De datum waarop deze asset het laatst is vernieuwd, relatief ten opzichte van de epoch tijd.|,
-		lastUpdated => 1147960940
-	},
-
-	'visitorCacheTimeout' => {
-		message => q|De periode, in seconden, dat de output van dit asset wordt bewaard als cache.|,
-		lastUpdated => 1170687953
-	},
-
-	'folder template description' => {
-		message => q|Dit menu stelt u ertoe in staat een sjabloon te kiezen waarmee de stijl van de map inhoud bepaald wordt.|,
-		lastUpdated => 1147965240
-	},
-
-	'addFile.url' => {
-		message => q|Het URL waar bestanden kunnen worden toegevoegd aan een map.|,
-		lastUpdated => 1147960779
-	},
-
-	'sort alphabetically help' => {
-		message => q|Moeten de objecten in deze map alfabetisch gesorteerd worden? Als hier "Nee" gekozen wordt, worden de bestanden op rang gesorteerd.|,
-		lastUpdated => 1147965139
-	},
-
-	'icon.small' => {
-		message => q|Een URL naar een klein icoon dat de asset representeert.|,
-		lastUpdated => 1207840131
-	},
-
-	'asset template variables body' => {
-		message => q|Elk asset heeft een set variabelen die beschikbaar zijn voor de sjablonen waarmee het kan worden weergegeven. Niet al deze variabelen zijn even bruikbaar.|,
-		lastUpdated => 1170686721
-	},
-
-	'folder icon.big' => {
-		message => q|De URL van een groot icoon van het bij deze asset behorende type.|,
-		lastUpdated => 1152802000
-	},
-
-	'isImage' => {
-		message => q|Een conditionele functie die aangeeft of deze asset een afbeeldingsasset is.|,
-		lastUpdated => 1147965014
-	},
-
-	'type' => {
-		message => q|Het type asset|,
-		lastUpdated => 1147964857
-	},
-
-	'title' => {
-		message => q|De titel van de asset|,
-		lastUpdated => 1147964869
-	},
-
-	'folder menuTitle' => {
-		message => q|De menu titel van deze map.|,
-		lastUpdated => 1201182950
-	},
-
-	'addFile.label' => {
-		message => q|Het internationale label voor het toevoegen van bestanden aan een map.|,
-		lastUpdated => 1147960754
-	},
-
-	'folder icon.small' => {
-		message => q|De URL van een klein icoon van het bij deze asset behorende type.|,
-		lastUpdated => 1152802008
-	},
-
-	'folder url' => {
-		message => q|De URL van de map|,
-		lastUpdated => 1147964883
-	},
-
-	'menuTitle' => {
-		message => q|De menu titel van deze Asset|,
-		lastUpdated => 1201182969
-	},
-
-	'asset template variables title' => {
-		message => q|Folder asset template variabelen|,
-		lastUpdated => 1170687857
-	},
-
-	'size' => {
-		message => q|De grootte van de opgemaakte asset|,
-		lastUpdated => 1147961076
-	},
-
-	'visitor cache timeout' => {
-		message => q|Cache timeout bezoeker|,
-		lastUpdated => 1147966396
-	},
-
-	'templateId' => {
-		message => q|De ID van het template dat gebruikt wordt om de inhoud van de folder weer te geven.|,
-		lastUpdated => 1170687920
-	},
-
-	'847' => {
-		message => q|Ga terug naar de huidige pagina.|,
-		lastUpdated => 1147960659
-	},
-
-	'canView' => {
-		message => q|Een conditionele functie die aangeeft of de huidige gebruiker deze asset kan bekijken.|,
-		lastUpdated => 1147960864
-	},
-
-	'sortAlphabetically' => {
-		message => q|Een conditionele variabele die aangeeft dat subfolders en bestanden alfabetisch worden gesorteerd.|,
-		lastUpdated => 1170687888
-	},
-
-	'file.url' => {
-		message => q|Als deze asset een bestand asset (bestand, afbeelding of zip archief) is, is dit het URL van het eigenlijke bestand. Anders is deze variabele leeg.|,
-		lastUpdated => 1147961048
-	},
-
-	'folder title' => {
-		message => q|De titel van de map|,
-		lastUpdated => 1147964928
-	},
-
-	'icon.big' => {
-		message => q|Een URL van een icoon dat de asset representeert|,
-		lastUpdated => 1207840157
-	},
-
-	'subfolder_loop' => {
-		message => q|Een ketting die alle map assets bevat die kinderen zijn van de map.|,
-		lastUpdated => 1147965062
-	},
-
-	'file_loop' => {
-		message => q|Een ketting met alle assets, die kinderen van de map, maar geen mappen zijn.|,
-		lastUpdated => 1147964811
-	},
-
-	'thumbnail.url' => {
-		message => q|Als deze asset een afbeelding is, is dit de URL van de verkleinde versie ervan.|,
-		lastUpdated => 1147964984
-	},
-
-	'visitor cache timeout help' => {
-		message => q|Aangezien alle bezoekers deze asset op dezelfde manier zien, kunnen we het opslaan in het cache geheugen. Hoe lang wilt u dat dat gedaan wordt?|,
-		lastUpdated => 1147966461
-	},
-
-	'isFile' => {
-		message => q|Een conditionele functie die aangeeft of deze asset een bestandsasset is.|,
-		lastUpdated => 1147964917
-	},
-
-	'823' => {
-		message => q|Ga naar de nieuwe pagina.|,
-		lastUpdated => 1147960645
-	},
-
-};
+  '823' => {
+    'lastUpdated' => 1147960645,
+    'message' => 'Ga naar de nieuwe pagina.'
+  },
+  '847' => {
+    'lastUpdated' => 1147960659,
+    'message' => 'Ga terug naar de huidige pagina.'
+  },
+  'What Next description' => {
+    'lastUpdated' => 1147960715,
+    'message' => 'Wilt u na het aanmaken van een nieuwe map teruggaan naar de originele pagina waar de map is gemaakt of doorgaan naar de nieuwe map?'
+  },
+  'add file label' => {
+    'lastUpdated' => 1147960729,
+    'message' => 'Bestanden toevoegen.'
+  },
+  'addFile.label' => {
+    'lastUpdated' => 1147960754,
+    'message' => 'Het internationale label voor het toevoegen van bestanden aan een map.'
+  },
+  'addFile.url' => {
+    'lastUpdated' => 1147960779,
+    'message' => 'Het URL waar bestanden kunnen worden toegevoegd aan een map.'
+  },
+  'asset template variables body' => {
+    'lastUpdated' => 1170686721,
+    'message' => 'Elk asset heeft een set variabelen die beschikbaar zijn voor de sjablonen waarmee het kan worden weergegeven. Niet al deze variabelen zijn even bruikbaar.'
+  },
+  'asset template variables title' => {
+    'lastUpdated' => 1170687857,
+    'message' => 'Folder asset template variabelen'
+  },
+  'assetName' => {
+    'lastUpdated' => 1147960787,
+    'message' => 'Map'
+  },
+  'canEdit' => {
+    'lastUpdated' => 1147960824,
+    'message' => 'Een conditionele functie die aangeeft of deze asset bewerkt kan worden door de huidige gebruiker.'
+  },
+  'canView' => {
+    'lastUpdated' => 1147960864,
+    'message' => 'Een conditionele functie die aangeeft of de huidige gebruiker deze asset kan bekijken.'
+  },
+  'controls' => {
+    'lastUpdated' => 1147960900,
+    'message' => 'De balk met bewerkknoppen van dit deel'
+  },
+  'date.epoch' => {
+    'lastUpdated' => 1147960940,
+    'message' => 'De datum waarop deze asset het laatst is vernieuwd, relatief ten opzichte van de epoch tijd.'
+  },
+  'editForm sortOrder ascending' => {
+    'lastUpdated' => 1222876512,
+    'message' => 'Stijgend'
+  },
+  'editForm sortOrder descending' => {
+    'lastUpdated' => 1222876518,
+    'message' => 'Dalend'
+  },
+  'editForm sortOrder description' => {
+    'lastUpdated' => 1222876538,
+    'message' => 'De volgorde waarin de bestanden en mappen gesorteerd moeten worden.'
+  },
+  'editForm sortOrder label' => {
+    'lastUpdated' => 1222876551,
+    'message' => 'Sorteervolgorde'
+  },
+  'file.url' => {
+    'lastUpdated' => 1147961048,
+    'message' => 'Als deze asset een bestand asset (bestand, afbeelding of zip archief) is, is dit het URL van het eigenlijke bestand. Anders is deze variabele leeg.'
+  },
+  'file_loop' => {
+    'lastUpdated' => 1147964811,
+    'message' => 'Een ketting met alle assets, die kinderen van de map, maar geen mappen zijn.'
+  },
+  'folder icon.big' => {
+    'lastUpdated' => 1152802000,
+    'message' => 'De URL van een groot icoon van het bij deze asset behorende type.'
+  },
+  'folder icon.small' => {
+    'lastUpdated' => 1152802008,
+    'message' => 'De URL van een klein icoon van het bij deze asset behorende type.'
+  },
+  'folder id' => {
+    'lastUpdated' => 1147965275,
+    'message' => 'De assetId van de map'
+  },
+  'folder menuTitle' => {
+    'lastUpdated' => 1201182950,
+    'message' => 'De menu titel van deze map.'
+  },
+  'folder template body' => {
+    'lastUpdated' => 1147965263,
+    'message' => 'De volgende variabelen zijn beschikbaar in map sjablonen:'
+  },
+  'folder template description' => {
+    'lastUpdated' => 1147965240,
+    'message' => 'Dit menu stelt u ertoe in staat een sjabloon te kiezen waarmee de stijl van de map inhoud bepaald wordt.'
+  },
+  'folder template title' => {
+    'lastUpdated' => 1147965187,
+    'message' => 'Map sjabloon'
+  },
+  'folder title' => {
+    'lastUpdated' => 1147964928,
+    'message' => 'De titel van de map'
+  },
+  'folder url' => {
+    'lastUpdated' => 1147964883,
+    'message' => 'De URL van de map'
+  },
+  'helpvar canAddFile' => {
+    'lastUpdated' => 1222876578,
+    'message' => 'Deze variabele is waar wanneer de gebruiker een bestand aan de map kan toevoegen.'
+  },
+  'helpvar canEdit' => {
+    'lastUpdated' => 1222876604,
+    'message' => 'Deze variabele is waar wanneer de gebruiker de map kan bewerken.'
+  },
+  'icon.big' => {
+    'lastUpdated' => 1207840157,
+    'message' => 'Een URL van een icoon dat de asset representeert'
+  },
+  'icon.small' => {
+    'lastUpdated' => 1207840131,
+    'message' => 'Een URL naar een klein icoon dat de asset representeert.'
+  },
+  'id' => {
+    'lastUpdated' => 1147964831,
+    'message' => 'De assetId van de Asset'
+  },
+  'isFile' => {
+    'lastUpdated' => 1147964917,
+    'message' => 'Een conditionele functie die aangeeft of deze asset een bestandsasset is.'
+  },
+  'isImage' => {
+    'lastUpdated' => 1147965014,
+    'message' => 'Een conditionele functie die aangeeft of deze asset een afbeeldingsasset is.'
+  },
+  'menuTitle' => {
+    'lastUpdated' => 1201182969,
+    'message' => 'De menu titel van deze Asset'
+  },
+  'size' => {
+    'lastUpdated' => 1147961076,
+    'message' => 'De grootte van de opgemaakte asset'
+  },
+  'sort alphabetically' => {
+    'lastUpdated' => 1147965027,
+    'message' => 'Alfabetisch sorteren?'
+  },
+  'sort alphabetically help' => {
+    'lastUpdated' => 1147965139,
+    'message' => 'Moeten de objecten in deze map alfabetisch gesorteerd worden? Als hier "Nee" gekozen wordt, worden de bestanden op rang gesorteerd.'
+  },
+  'sortAlphabetically' => {
+    'lastUpdated' => 1170687888,
+    'message' => 'Een conditionele variabele die aangeeft dat subfolders en bestanden alfabetisch worden gesorteerd.'
+  },
+  'subfolder_loop' => {
+    'lastUpdated' => 1147965062,
+    'message' => 'Een ketting die alle map assets bevat die kinderen zijn van de map.'
+  },
+  'synopsis' => {
+    'lastUpdated' => 1147964951,
+    'message' => 'De korte samenvatting van de asset'
+  },
+  'templateId' => {
+    'lastUpdated' => 1170687920,
+    'message' => 'De ID van het template dat gebruikt wordt om de inhoud van de folder weer te geven.'
+  },
+  'thumbnail.url' => {
+    'lastUpdated' => 1147964984,
+    'message' => 'Als deze asset een afbeelding is, is dit de URL van de verkleinde versie ervan.'
+  },
+  'title' => {
+    'lastUpdated' => 1147964869,
+    'message' => 'De titel van de asset'
+  },
+  'type' => {
+    'lastUpdated' => 1147964857,
+    'message' => 'Het type asset'
+  },
+  'url' => {
+    'lastUpdated' => 1147964845,
+    'message' => 'De URL van de asset'
+  },
+  'visitor cache timeout' => {
+    'lastUpdated' => 1147966396,
+    'message' => 'Cache timeout bezoeker'
+  },
+  'visitor cache timeout help' => {
+    'lastUpdated' => 1147966461,
+    'message' => 'Aangezien alle bezoekers deze asset op dezelfde manier zien, kunnen we het opslaan in het cache geheugen. Hoe lang wilt u dat dat gedaan wordt?'
+  },
+  'visitorCacheTimeout' => {
+    'lastUpdated' => 1170687953,
+    'message' => 'De periode, in seconden, dat de output van dit asset wordt bewaard als cache.'
+  }
+}
+;
 
 1;

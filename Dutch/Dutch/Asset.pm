@@ -177,6 +177,10 @@ our $I18N = {
     'lastUpdated' => 1166187449,
     'message' => 'Iedere asset heeft een icoon om aan te geven wat voor een asset het is. Door te klikken op het icoontje verschijnt er een drop-down menu met opties om de asset te wijzigen. '
   },
+  'Copy' => {
+    'lastUpdated' => 1222875572,
+    'message' => 'Kopi&euml;ren'
+  },
   'Data Type description' => {
     'lastUpdated' => 1146580963,
     'message' => 'Selecteer het soort form element voor het veld.'
@@ -197,6 +201,10 @@ our $I18N = {
     'lastUpdated' => 1146581111,
     'message' => 'Wijzig Metadata veld'
   },
+  'Error: Cannot instantiate template' => {
+    'lastUpdated' => 1222875645,
+    'message' => 'Fout: Kan sjabloon niet vinden'
+  },
   'Export Page' => {
     'lastUpdated' => 1146581157,
     'message' => 'Exporteer pagina'
@@ -208,6 +216,10 @@ our $I18N = {
   'Export as user description' => {
     'lastUpdated' => 1146581243,
     'message' => 'Exporteer als deze gebruiker, standaard wordt hiervoor "Bezoeker" gebruikt.'
+  },
+  'Export site root URL' => {
+    'lastUpdated' => 1222875665,
+    'message' => 'Exporteer de URL van de site root'
   },
   'Extras URL' => {
     'lastUpdated' => 1146581256,
@@ -335,11 +347,11 @@ our $I18N = {
   },
   'controls' => {
     'lastUpdated' => 1166203953,
-    'message' => "Met deze iconen en url's kunt u een asset wijzigen, knippen, kopi\x{eb}ren, verwijderen en verplaatsen."
+    'message' => 'Met deze iconen en url\'s kunt u een asset wijzigen, knippen, kopiëren, verwijderen en verplaatsen.'
   },
   'copy' => {
-    'lastUpdated' => 1146830577,
-    'message' => 'Kopieer'
+    'lastUpdated' => 1222875690,
+    'message' => 'copi&euml;ren'
   },
   'could not create' => {
     'lastUpdated' => 1166187502,
@@ -403,7 +415,7 @@ our $I18N = {
   },
   'demote help' => {
     'lastUpdated' => 1166204029,
-    'message' => "Verplaats deze asset \x{e9}\x{e9}n plaats omlaag.  "
+    'message' => 'Verplaats deze asset één plaats omlaag.  '
   },
   'directory index' => {
     'lastUpdated' => 1146831438,
@@ -411,7 +423,7 @@ our $I18N = {
   },
   'directory index description' => {
     'lastUpdated' => 1166204038,
-    'message' => "Als de URL van de Asset die ge\x{eb}xporteerd wordt een map is dan zal de mappenstructuur bijgevoegd worden. "
+    'message' => 'Als de URL van de Asset die geëxporteerd wordt een map is dan zal de mappenstructuur bijgevoegd worden. '
   },
   'does asset inherit URL from parent' => {
     'lastUpdated' => 1213624861,
@@ -520,6 +532,10 @@ our $I18N = {
   'import' => {
     'lastUpdated' => 1146831872,
     'message' => 'Importeer'
+  },
+  'inherit parent permissions' => {
+    'lastUpdated' => 1222875714,
+    'message' => 'Overnemen permissies van ouder'
   },
   'isHidden' => {
     'lastUpdated' => 1170685926,

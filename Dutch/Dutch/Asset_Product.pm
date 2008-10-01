@@ -605,6 +605,10 @@ our $I18N = {
     'lastUpdated' => 1215445842,
     'message' => 'Een taakbalk voor het bewerken, verwijderen of herorganiseren van deze variant.'
   },
+  'variant_id' => {
+    'lastUpdated' => 1222876408,
+    'message' => 'De unieke identificatie van deze variant.'
+  },
   'variant_loop' => {
     'lastUpdated' => 1215445797,
     'message' => 'Een functie die alle varianten van dit product doorloopt.'

@@ -69,6 +69,10 @@ our $I18N = {
     'lastUpdated' => 1147685433,
     'message' => 'Stijgend'
   },
+  'asset not committed' => {
+    'lastUpdated' => 1222875855,
+    'message' => '<h1>Fout!</h1><p>Dit collaboratiesysteem moet worden ingevoerd voordat er een nieuwe draad kan worden begonnen</p>'
+  },
   'assetName' => {
     'lastUpdated' => 1147685484,
     'message' => 'Collaboratie systeem'
@@ -386,6 +390,10 @@ Gebruik van avatars vermindert de snelheid van het collaboratiesysteem.'
   'enable metadata description' => {
     'lastUpdated' => 1207916847,
     'message' => 'Selecteer &quot;Ja&quot; om metadata beschikbaar te maken in bijdragen en om passief profielen te maken. Dit heeft een negatief effect op de performance van het Samenwerk Systeem. Metadata moet in de instellingen ingesteld zijn. '
+  },
+  'epochDate' => {
+    'lastUpdated' => 1222875930,
+    'message' => 'De datum in epoch waarop dit object gepubliceerd is, zodat het Date macro het met verschillende opmaak kan gebruiken.'
   },
   'fatal' => {
     'lastUpdated' => 1147954549,
@@ -762,6 +770,14 @@ Nadat u deze instelling wijzigt worden niet alle  bestaande foto\'s opnieuw verk
   'post' => {
     'lastUpdated' => 1147706062,
     'message' => 'Post'
+  },
+  'post received template' => {
+    'lastUpdated' => 1222875953,
+    'message' => '<p>Post ontvangen sjabloon </p>'
+  },
+  'post received template hoverHelp' => {
+    'lastUpdated' => 1222875987,
+    'message' => 'Het sjabloon dat gebruikt wordt om aan de gebruiker te melden dat de post ontvangen is.'
   },
   'post template' => {
     'lastUpdated' => 1168960052,

@@ -1,47 +1,55 @@
 package WebGUI::i18n::Dutch::Asset_Redirect;
 use utf8;
-
 our $I18N = {
-	'edit the redirect properties' => {
-		message => q|Bewerk de eigenschappen van het doorleiden|,
-		lastUpdated => 1151071217
-	},
-
-	'redirect url' => {
-		message => q|URL Doorsturen|,
-		lastUpdated => 1203625485
-	},
-
-	'assetName' => {
-		message => q|Doorleiden|,
-		lastUpdated => 1151071194
-	},
-
-	'redirect url description' => {
-		message => q|De URL waar de gebruiker naartoe geleid wordt.|,
-		lastUpdated => 1151071782
-	},
-
-	'go to the redirect url' => {
-		message => q|Ga naar het URL dat in de doorleiding staat.|,
-		lastUpdated => 1151071261
-	},
-
-	'self_referential' => {
-		message => q|De doorleiding verwijst naar zichzelf.|,
-		lastUpdated => 1151071803
-	},
-
-	'go to the redirect parent page' => {
-		message => q|Ga naar de moeder van de doorleiding.|,
-		lastUpdated => 1208525167
-	},
-
-	'what do you want to do with this redirect' => {
-		message => q|Wat wil je doen met deze doorleiding? |,
-		lastUpdated => 1151071844
-	},
-
-};
+  '301 Moved Permanently' => {
+    'lastUpdated' => 1222876229,
+    'message' => '301 Permanent verplaatst'
+  },
+  '302 Moved Temporarily' => {
+    'lastUpdated' => 1222876239,
+    'message' => '302 Tijdelijk verplaatst'
+  },
+  'Redirect Type' => {
+    'lastUpdated' => 1222876251,
+    'message' => 'Type verwijzing'
+  },
+  'assetName' => {
+    'lastUpdated' => 1151071194,
+    'message' => 'Doorleiden'
+  },
+  'edit the redirect properties' => {
+    'lastUpdated' => 1151071217,
+    'message' => 'Bewerk de eigenschappen van het doorleiden'
+  },
+  'go to the redirect parent page' => {
+    'lastUpdated' => 1208525167,
+    'message' => 'Ga naar de moeder van de doorleiding.'
+  },
+  'go to the redirect url' => {
+    'lastUpdated' => 1151071261,
+    'message' => 'Ga naar het URL dat in de doorleiding staat.'
+  },
+  'redirect type description' => {
+    'lastUpdated' => 1222876339,
+    'message' => 'Het type http koptekst dat het Doorleiding asset zal verzenden.'
+  },
+  'redirect url' => {
+    'lastUpdated' => 1203625485,
+    'message' => 'URL Doorsturen'
+  },
+  'redirect url description' => {
+    'lastUpdated' => 1151071782,
+    'message' => 'De URL waar de gebruiker naartoe geleid wordt.'
+  },
+  'self_referential' => {
+    'lastUpdated' => 1151071803,
+    'message' => 'De doorleiding verwijst naar zichzelf.'
+  },
+  'what do you want to do with this redirect' => {
+    'lastUpdated' => 1151071844,
+    'message' => 'Wat wil je doen met deze doorleiding? '
+  }
+}
+;
 
 1;

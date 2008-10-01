@@ -13,6 +13,10 @@ our $I18N = {
     'lastUpdated' => 1207905593,
     'message' => 'Met deze iconen kun je het object bewerken, knippen, kopi&euml;ren verwijderen en van plaats veranderen.'
   },
+  'asset not committed' => {
+    'lastUpdated' => 1222875800,
+    'message' => '<h1>FOUT!</h1><p>Deze kalender moet eerst ingevoerd worden voordat er een nieuw evenement gemaakt kan worden.</p>'
+  },
   'assetName' => {
     'lastUpdated' => 1166193349,
     'message' => 'Kalender'
