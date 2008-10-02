@@ -566,7 +566,7 @@ our $I18N = {
     'message' => 'Formato de pago/direcci&oacute;n de facturaci&oacute;n.'
   },
   'paymentAddress1' => {
-    'lastUpdated' => 1222456111,
+    'lastUpdated' => 1222911699,
     'message' => 'La primera l&iacute;nea en una multil&iacute;nea de direcciones de pago.'
   },
   'paymentAddress2' => {
@@ -617,9 +617,17 @@ our $I18N = {
     'lastUpdated' => 1222469820,
     'message' => 'Un n&uacute;mero telef&oacute;nico para esta direcci&oacute;n.'
   },
+  'phoneNumberField help' => {
+    'lastUpdated' => 1222698059,
+    'message' => 'Un campo que contiene el n&uacute;mero telef&oacute;nico para esta direcci&oacute;n.'
+  },
   'price' => {
     'lastUpdated' => 1221857635,
     'message' => 'Precio'
+  },
+  'price help' => {
+    'lastUpdated' => 1222698086,
+    'message' => 'El precio de este item, formateado a dos decimales.'
   },
   'print' => {
     'lastUpdated' => 1221857643,
@@ -633,13 +641,113 @@ our $I18N = {
     'lastUpdated' => 1221858029,
     'message' => 'Cantidad'
   },
+  'quantity help' => {
+    'lastUpdated' => 1222698139,
+    'message' => 'La cantidad de este item que se compra.'
+  },
+  'quantityField help' => {
+    'lastUpdated' => 1222698170,
+    'message' => 'El campo donde el usuario puede especificar la cantidad del item que desea comprar.'
+  },
+  'quarterly' => {
+    'lastUpdated' => 1222698192,
+    'message' => 'Tres meses'
+  },
+  'refund' => {
+    'lastUpdated' => 1222698227,
+    'message' => 'Reembolso'
+  },
+  'remove button' => {
+    'lastUpdated' => 1222698237,
+    'message' => 'Borrar'
+  },
+  'removeButton help' => {
+    'lastUpdated' => 1222698266,
+    'message' => 'Al hacer click en este bot&oacute;n borrar&aacute; ek item del carrito.'
+  },
+  'ship to button' => {
+    'lastUpdated' => 1222911635,
+    'message' => 'Enviar a'
+  },
+  'shipping' => {
+    'lastUpdated' => 1222911598,
+    'message' => 'Envio'
+  },
+  'shipping address' => {
+    'lastUpdated' => 1222911711,
+    'message' => 'Direcci&oacute;n de Env&iacute;o'
+  },
   'shipping method' => {
     'lastUpdated' => 1222277092,
     'message' => 'M&eacute;todo de Compra'
   },
+  'shippingAddress1' => {
+    'lastUpdated' => 1222911735,
+    'message' => 'La primera l&iacute;nea en una multil&iacute;nea de direcciones de env&iacute;o.'
+  },
+  'shippingAddress2' => {
+    'lastUpdated' => 1222911756,
+    'message' => 'La segunda l&iacute;nea en una multil&iacute;nea de direcciones de env&iacute;o.'
+  },
+  'shippingAddress3' => {
+    'lastUpdated' => 1222911779,
+    'message' => 'La tercera l&iacute;nea en una multil&iacute;nea de direcciones de env&iacute;o.'
+  },
+  'shippingAddressCity' => {
+    'lastUpdated' => 1222911793,
+    'message' => 'La ciudad de la direcci&oacute;n de env&iacute;o.'
+  },
+  'shippingAddressCode' => {
+    'lastUpdated' => 1222911813,
+    'message' => 'El c&oacute;digo postal de la direcci&oacute;n de env&iacute;o.'
+  },
+  'shippingAddressCountry' => {
+    'lastUpdated' => 1222911827,
+    'message' => 'El pa&iacute;s de la direcci&oacute;n de env&iacute;o.'
+  },
+  'shippingAddressId' => {
+    'lastUpdated' => 1222911861,
+    'message' => 'El ID de la direcci&oacute;n de env&iacute;o usada para esta transacci&oacute;n.'
+  },
+  'shippingAddressName' => {
+    'lastUpdated' => 1222911881,
+    'message' => 'El nombre asignado a la direcci&oacute;n de env&iacute;o.'
+  },
+  'shippingAddressPhoneNumber' => {
+    'lastUpdated' => 1222911914,
+    'message' => 'El n&uacute;mero tel&eacute;fonico para la direcci&oacute;n de env&iacute;o.'
+  },
+  'shippingAddressState' => {
+    'lastUpdated' => 1222911929,
+    'message' => 'El departamento de la direcci&oacute;n de env&iacute;o.'
+  },
+  'shippingDriverId' => {
+    'lastUpdated' => 1222911989,
+    'message' => 'El identificador &uacute;nico para el driver de env&iacute;o usado en esta transacci&oacute;n.'
+  },
+  'shippingDriverLabel' => {
+    'lastUpdated' => 1222912042,
+    'message' => 'La etiqueta psra el driver de env&iacute;o usado en esta trasacci&oacute;n.'
+  },
+  'shippingPrice help' => {
+    'lastUpdated' => 1222912072,
+    'message' => 'Precio de env&iacute;o, formateado a dos decimales.'
+  },
   'shop' => {
     'lastUpdated' => 1221857655,
     'message' => 'Tienda'
+  },
+  'shop notice' => {
+    'lastUpdated' => 1222912134,
+    'message' => 'Notificaci&oacute;n de la tienda'
+  },
+  'shop settings' => {
+    'lastUpdated' => 1222912178,
+    'message' => 'Configuraci&oacute;n de la Tienda'
+  },
+  'shopCreditDeduction' => {
+    'lastUpdated' => 1222912249,
+    'message' => 'El valor sin formatear del cr&eacute;dito de la tienda usado en esta transacci&oacute;n.'
   },
   'state' => {
     'lastUpdated' => 1215811444,
