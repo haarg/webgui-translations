@@ -1948,8 +1948,8 @@ De verstrekte informatie is niet gelijk aan de accountinformatie. '
     'message' => 'DSN'
   },
   '993 description' => {
-    'lastUpdated' => 1156499071,
-    'message' => '<p><strong>D</strong>ata <strong>S</strong>ource <strong>N</strong>ame is de unieke identificatie die door Perl gebruikt wordt voor het beschrijven van de lokatie van de database en heeft het volgende formaat:</p><p>DBI:[driver]:[database naam]:[host]</p><p><em>Voorbeeld:</em> DBI:mysql:WebGUI:localhost</p><p>Hier zijn enkele voorbeelden voor andere databases:</p><dl><dt><a href="http://search.cpan.org/author/TIMB/DBD-Oracle-1.14/Oracle.pm#CONNECTING_TO_ORACLE">Oracle</a>:</dt><dd>DBI:Oracle:SID<br /> DBD::Oracle moet ge&iuml;nstalleerd zijn.<br /> Er dient mod_perl gebruikt te worden en <strong>PerlSetEnv ORACLE_HOME /home/oracle/product/8.1.7</strong> moet in httpd.conf geconfigureerd worden. Zonder het instellen van ORACLE_HOME,kan de verbinding als volgt gemaakt worden: DBI:Oracle:host=myhost.com;sid=SID </dd><dt><a href="http://search.cpan.org/author/OYAMA/DBD-PgPP-0.04/PgPP.pm#THE_DBI_CLASS">PostgreSQL</a>:</dt><dd>DBI:PgPP:dbname=DBNAME[;host=hOST]<br /> DBD::PgPP moet ge&iuml;nstalleerd zijn.<br /></dd><dt><a href="http://search.cpan.org/author/MEWP/DBD-Sybase-1.00/Sybase.pm#Specifying_other_connection_specific_parameters">Sybase</a>:</dt><dd>DBI:Sybase:[server=SERVERNAME][database=DATABASE]<br /> DBD::Sybase moet ge&iuml;nstalleerd zijn.<br /> Er dient mod_perl gebruikt te worden en <strong>PerlSetEnv SYBASE /opt/sybase/11.0.2</strong> moet in httpd.conf geconfigureerd worden.</dd></dl><p>&nbsp;</p>'
+    'lastUpdated' => 1222936442,
+    'message' => '<p><strong>D</strong>ata <strong>S</strong>ource <strong>N</strong>ame is de unieke identificatie die door Perl gebruikt wordt voor het beschrijven van de lokatie van de database en heeft het volgende formaat:</p><p>DBI:[driver]:[database naam]:[host]</p><p><em>Voorbeeld:</em> DBI:mysql:WebGUI:localhost</p><p>Hier zijn enkele voorbeelden voor andere databases:</p><dl><dt><a href="http://search.cpan.org/perldoc?DBD::Oracle#CONNECTING_TO_ORACLE">Oracle</a>:</dt><dd>DBI:Oracle:SID<br /> DBD::Oracle moet ge&iuml;nstalleerd zijn.<br /> Er dient mod_perl gebruikt te worden en <strong>PerlSetEnv ORACLE_HOME /home/oracle/product/8.1.7</strong> moet in httpd.conf geconfigureerd worden. Zonder het instellen van ORACLE_HOME,kan de verbinding als volgt gemaakt worden: DBI:Oracle:host=myhost.com;sid=SID </dd><dt><a href="http://search.cpan.org/perldoc?DBD::PgPP#THE_DBI_CLASS">PostgreSQL</a>:</dt><dd>DBI:PgPP:dbname=DBNAME[;host=hOST]<br /> DBD::PgPP moet ge&iuml;nstalleerd zijn.<br /></dd><dt><a href="http://search.cpan.org/perldoc?DBD::Sybase#Specifying_other_connection_specific_parameters">Sybase</a>:</dt><dd>DBI:Sybase:[server=SERVERNAME][database=DATABASE]<br /> DBD::Sybase moet ge&iuml;nstalleerd zijn.<br /> Er dient mod_perl gebruikt te worden en <strong>PerlSetEnv SYBASE /opt/sybase/11.0.2</strong> moet in httpd.conf geconfigureerd worden.</dd></dl><p>&nbsp;</p>'
   },
   '994' => {
     'lastUpdated' => 1156499103,
@@ -1967,9 +1967,37 @@ De verstrekte informatie is niet gelijk aan de accountinformatie. '
     'lastUpdated' => 1156499157,
     'message' => 'Het wachtwoord dat gebruikt wordt om verbinding te maken met de DSN.'
   },
+  'About Us' => {
+    'lastUpdated' => 1222936449,
+    'message' => 'Over ons'
+  },
+  'All Rights Reserved' => {
+    'lastUpdated' => 1222936688,
+    'message' => 'Alle rechten gereserveerd'
+  },
+  'All the news you need to know.' => {
+    'lastUpdated' => 1222936708,
+    'message' => 'Al het nieuws wat je wilt weten.'
+  },
   'Attachments formName' => {
     'lastUpdated' => 1208183457,
     'message' => 'Bijlagen'
+  },
+  'Cannot find what you are looking for? Try our search.' => {
+    'lastUpdated' => 1222936734,
+    'message' => 'Kunt u nioet vinden wat u zoekt? Gebruik onze zoekfunctie.'
+  },
+  'Check out what is going on.' => {
+    'lastUpdated' => 1222936797,
+    'message' => 'Kijk wat er te doen is.'
+  },
+  'Contact Us' => {
+    'lastUpdated' => 1222936831,
+    'message' => 'Neem contact op'
+  },
+  'Discuss your ideas and get help from our community.' => {
+    'lastUpdated' => 1222936863,
+    'message' => 'Bespreek je idee&euml;n en krijg hulp van de gemeenschap.'
   },
   'Enable Metadata' => {
     'lastUpdated' => 1156171376,
@@ -1995,9 +2023,33 @@ De verstrekte informatie is niet gelijk aan de accountinformatie. '
     'lastUpdated' => 1189453779,
     'message' => 'Maak het mogelijk voor gebruikers om email te sturen naar hun vrienden en bekenden, om ze uit te nodigen om een account aan te maken op deze site.'
   },
+  'Forums' => {
+    'lastUpdated' => 1222937952,
+    'message' => 'Eerste pagina\'s'
+  },
+  'General Discussion' => {
+    'lastUpdated' => 1222937962,
+    'message' => 'Algemene discussie'
+  },
   'Illegal Warning' => {
     'lastUpdated' => 1156171233,
     'message' => 'Het gebruik van deze functie is in sommige landen, zoals Australie, illegaal. Verder is het in bepaalde landen verplicht een waarschuwing op de site te zetten als deze functie gebruikt wordt. Raadpleeg de lokale autoriteiten voor de plaatselijke wetgeving. Plain Black is niet aansprakelijk voor illegale activiteiten, ongeacht of deze bewust of onbewust zijn.'
+  },
+  'Initial Pages' => {
+    'lastUpdated' => 1222937970,
+    'message' => 'Eerste pagina\'s'
+  },
+  'My Style' => {
+    'lastUpdated' => 1222937977,
+    'message' => 'Mijn stijl'
+  },
+  'One forum name per line' => {
+    'lastUpdated' => 1222938010,
+    'message' => '&Eacute;&eacute;n forumnaam per regel'
+  },
+  'Put your about us content here.' => {
+    'lastUpdated' => 1222938031,
+    'message' => 'Plaats uw &quot;over ons&quot; informatie hier.'
   },
   'Select State' => {
     'lastUpdated' => 1166196374,
@@ -2011,9 +2063,37 @@ De verstrekte informatie is niet gelijk aan de accountinformatie. '
     'lastUpdated' => 1208183481,
     'message' => 'Inschrijvingsgroep'
   },
+  'Support' => {
+    'lastUpdated' => 1222938039,
+    'message' => 'Ondersteuning'
+  },
+  'Tell us how we can assist you.' => {
+    'lastUpdated' => 1222938053,
+    'message' => 'Hoe kunnen we u helpen?'
+  },
+  'Thanks for for your interest in ^c;. We will review your message shortly.' => {
+    'lastUpdated' => 1222938085,
+    'message' => 'Dedankt voor uw interesse in ^c;. We zullen uw bericht spoedig evalueren.'
+  },
+  'We welcome your feedback.' => {
+    'lastUpdated' => 1222938104,
+    'message' => 'We waarderen uw reacties.'
+  },
+  'WebGUI Initial Configuration' => {
+    'lastUpdated' => 1222938137,
+    'message' => 'WebGUI initi&euml;le configuratie'
+  },
   'WebGUI password recovery' => {
     'lastUpdated' => 1222162575,
     'message' => 'WebGUI wachtwoord herstel'
+  },
+  'Welcome to our wiki. Here you can help us keep information up to date.' => {
+    'lastUpdated' => 1222938226,
+    'message' => 'Welkom bij onze wiki. Hier kan u ons helpen de informatie bij te werken.'
+  },
+  'Your Email Address' => {
+    'lastUpdated' => 1222938238,
+    'message' => 'Uw e-mail adres'
   },
   'account' => {
     'lastUpdated' => 1154097996,
@@ -2037,6 +2117,10 @@ De verstrekte informatie is niet gelijk aan de accountinformatie. '
 
 LongReadLen=1024
 LongTruncOk=1'
+  },
+  'admin account' => {
+    'lastUpdated' => 1222938253,
+    'message' => 'Admin account'
   },
   'admin console template' => {
     'lastUpdated' => 1156171063,
@@ -2145,6 +2229,10 @@ LongTruncOk=1'
   'company' => {
     'lastUpdated' => 1156170594,
     'message' => 'Bedrijf'
+  },
+  'company information' => {
+    'lastUpdated' => 1222938262,
+    'message' => 'Bedrijfsinformatie'
   },
   'contains' => {
     'lastUpdated' => 1156170581,
@@ -2348,6 +2436,10 @@ Dit specifieke voorbeeld zorgt voor een goede vindbaarheid in zoekmachines.'
     'lastUpdated' => 1156169374,
     'message' => 'Link instellingen'
   },
+  'logo' => {
+    'lastUpdated' => 1222938269,
+    'message' => 'Logo'
+  },
   'mail return path' => {
     'lastUpdated' => 1156169357,
     'message' => 'Terugzend pad'
@@ -2367,6 +2459,10 @@ Dit specifieke voorbeeld zorgt voor een goede vindbaarheid in zoekmachines.'
   'misc' => {
     'lastUpdated' => 1154098019,
     'message' => 'Gemengd'
+  },
+  'no thanks' => {
+    'lastUpdated' => 1222938281,
+    'message' => 'Nee, bedankt.'
   },
   'noldaplink' => {
     'lastUpdated' => 1156168830,
@@ -2479,6 +2575,10 @@ Dit specifieke voorbeeld zorgt voor een goede vindbaarheid in zoekmachines.'
   'pagination.previousPageUrl' => {
     'lastUpdated' => 1156167966,
     'message' => 'De losse URL component van pagination.previousPage.'
+  },
+  'pagination.range' => {
+    'lastUpdated' => 1222938329,
+    'message' => 'Toont het bereik van beschikbare pagina\'s met een begin en eind layout.'
   },
   'pagination.text' => {
     'lastUpdated' => 1181337135,
@@ -2624,6 +2724,10 @@ Dit specifieke voorbeeld zorgt voor een goede vindbaarheid in zoekmachines.'
     'lastUpdated' => 1190023449,
     'message' => 'Draaien wanneer een admin gebruikersgegevens wijzigt.'
   },
+  'save' => {
+    'lastUpdated' => 1222938336,
+    'message' => 'Opslaan'
+  },
   'select' => {
     'lastUpdated' => 1154097777,
     'message' => 'Selecteer'
@@ -2643,6 +2747,10 @@ Dit specifieke voorbeeld zorgt voor een goede vindbaarheid in zoekmachines.'
   'send private message template description' => {
     'lastUpdated' => 1222347324,
     'message' => '<p>Kies een sjabloon om berichten te verzenden.</p>'
+  },
+  'session length' => {
+    'lastUpdated' => 1222938347,
+    'message' => 'Sessie duur'
   },
   'settings' => {
     'lastUpdated' => 1154097754,
@@ -2864,6 +2972,14 @@ Dit specifieke voorbeeld zorgt voor een goede vindbaarheid in zoekmachines.'
     'lastUpdated' => 1213869415,
     'message' => 'Aantal keren bericht tonen'
   },
+  'site starter body' => {
+    'lastUpdated' => 1222938694,
+    'message' => 'Wilt u de WebGUI Site Starter gebruiken? Deze leidt u door de opties waarmee een eigen stijl aan de site wordt gegeven en enkele basis inhoudsgebieden opzetten.'
+  },
+  'site starter title' => {
+    'lastUpdated' => 1222938703,
+    'message' => 'Site Starter'
+  },
   'skip commit comments' => {
     'lastUpdated' => 1189454344,
     'message' => 'Commentaar bij publicatie overslaan?'
@@ -2880,6 +2996,10 @@ Dit specifieke voorbeeld zorgt voor een goede vindbaarheid in zoekmachines.'
     'lastUpdated' => 1154097718,
     'message' => 'Begint met'
   },
+  'style designer' => {
+    'lastUpdated' => 1222938726,
+    'message' => 'Ontwerper stijl'
+  },
   'submit' => {
     'lastUpdated' => 1154097707,
     'message' => 'Verzenden'
@@ -2891,6 +3011,10 @@ Dit specifieke voorbeeld zorgt voor een goede vindbaarheid in zoekmachines.'
   'target description' => {
     'lastUpdated' => 1154097695,
     'message' => 'Kies of de link na aanklikken geopend wordt in hetzelfde venster of in een ander.'
+  },
+  'time recorded' => {
+    'lastUpdated' => 1222938779,
+    'message' => 'Totale tijd ingelogd (actieve sessies niet meegerekend)'
   },
   'tinymce' => {
     'lastUpdated' => 1154097655,
@@ -2919,6 +3043,10 @@ Dit specifieke voorbeeld zorgt voor een goede vindbaarheid in zoekmachines.'
   'unknown user' => {
     'lastUpdated' => 1154097596,
     'message' => 'onbekende gebruiker'
+  },
+  'upload logo' => {
+    'lastUpdated' => 1222939011,
+    'message' => 'Upload uw logo'
   },
   'url extension' => {
     'lastUpdated' => 1154097583,
@@ -3015,6 +3143,10 @@ Dit specifieke voorbeeld zorgt voor een goede vindbaarheid in zoekmachines.'
   'webgui' => {
     'lastUpdated' => 1154097513,
     'message' => 'WebGUI'
+  },
+  'yes please' => {
+    'lastUpdated' => 1222939018,
+    'message' => 'Ja, graag'
   }
 }
 ;

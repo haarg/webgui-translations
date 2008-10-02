@@ -85,6 +85,10 @@ our $I18N = {
     'lastUpdated' => 1151505879,
     'message' => 'Het logo moet minder dan 200 pixels breed en minder dan 100 pixels hoog zijn.'
   },
+  'make duplicate label' => {
+    'lastUpdated' => 1222876939,
+    'message' => 'Dupliceer dit sjabloon en bewerk'
+  },
   'menu' => {
     'lastUpdated' => 1151505891,
     'message' => 'Menu'
@@ -214,6 +218,10 @@ Alle scratchvariabelen zullen aanwezig zijn in het template volgens deze syntax:
   'visited link color description' => {
     'lastUpdated' => 1151502163,
     'message' => 'De kleur van bezochte links op de pagina. De standaardkleur is paars.'
+  },
+  'warning default template' => {
+    'lastUpdated' => 1222877016,
+    'message' => 'U probeert een standaard sjabloon te bewerken. Veranderingen die aan dit sjabloon worden gemaakt kunnen verloren gaan bij het upgraden van WebGUI. Door het maken van een duplicaat van dit sjabloon kan dit niet gebeuren.'
   },
   'webgui.status' => {
     'lastUpdated' => 1166204328,

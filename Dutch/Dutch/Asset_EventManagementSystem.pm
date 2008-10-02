@@ -541,6 +541,22 @@ our $I18N = {
     'lastUpdated' => 1213702883,
     'message' => 'Hoe lang duurt dit evenement?'
   },
+  'early bird price' => {
+    'lastUpdated' => 1222939062,
+    'message' => 'Vroege vogel prijs'
+  },
+  'early bird price end date' => {
+    'lastUpdated' => 1222939084,
+    'message' => 'Einddatum vroege vogel prijs'
+  },
+  'early bird price end date help' => {
+    'lastUpdated' => 1222939118,
+    'message' => 'De datum waarop de vroege vogel prijs wordt vervangen door de volledige prijs.'
+  },
+  'early bird price help' => {
+    'lastUpdated' => 1222939152,
+    'message' => 'De speciale prijs van dit naamplaatje, wanneer de gebruiker zich vroeg inschrijft.'
+  },
   'edit' => {
     'lastUpdated' => 1213703076,
     'message' => 'Bewerken'
@@ -1184,6 +1200,22 @@ our $I18N = {
   'populate from address book' => {
     'lastUpdated' => 1215442136,
     'message' => 'Vullen met gegevens uit adresboek'
+  },
+  'pre registration price' => {
+    'lastUpdated' => 1222939489,
+    'message' => 'Voortijdige registratie prijs'
+  },
+  'pre registration price end date' => {
+    'lastUpdated' => 1222939512,
+    'message' => 'Einddatum voortijdige registratie prijs'
+  },
+  'pre registration price end date help' => {
+    'lastUpdated' => 1222939464,
+    'message' => 'De datum waarop de voortijdige registratie wordt vervangen door de vroege vogel prijs.'
+  },
+  'pre registration price help' => {
+    'lastUpdated' => 1222939402,
+    'message' => 'De speciale prijs van dit naamplaatje als de gebruiker zich absurd vroeg inschrijft.'
   },
   'prereq set name field description' => {
     'lastUpdated' => 1148893624,
