@@ -665,9 +665,17 @@ our $I18N = {
     'lastUpdated' => 1222698266,
     'message' => 'Al hacer click en este bot&oacute;n borrar&aacute; ek item del carrito.'
   },
+  'saveButton help' => {
+    'lastUpdated' => 1222979583,
+    'message' => 'El bot&oacute;n por defecto para guardar el formulario.'
+  },
   'ship to button' => {
     'lastUpdated' => 1222911635,
     'message' => 'Enviar a'
+  },
+  'shipToButton help' => {
+    'lastUpdated' => 1222979562,
+    'message' => 'Hace lo mismo queel bot&oacute;n Elegir direcci&oacute;n de env&iacute;o'
   },
   'shipping' => {
     'lastUpdated' => 1222911598,
@@ -677,9 +685,21 @@ our $I18N = {
     'lastUpdated' => 1222911711,
     'message' => 'Direcci&oacute;n de Env&iacute;o'
   },
+  'shipping amount' => {
+    'lastUpdated' => 1222979413,
+    'message' => 'Valor de Env&iacute;o'
+  },
   'shipping method' => {
     'lastUpdated' => 1222277092,
     'message' => 'M&eacute;todo de Compra'
+  },
+  'shipping methods' => {
+    'lastUpdated' => 1222979430,
+    'message' => 'M&eacute;todos de Env&iacute;o'
+  },
+  'shippingAddress help' => {
+    'lastUpdated' => 1222979464,
+    'message' => 'El HTML formateado de la direcci&oacute;n a enviar.'
   },
   'shippingAddress1' => {
     'lastUpdated' => 1222911735,
@@ -728,6 +748,10 @@ our $I18N = {
   'shippingDriverLabel' => {
     'lastUpdated' => 1222912042,
     'message' => 'La etiqueta psra el driver de env&iacute;o usado en esta trasacci&oacute;n.'
+  },
+  'shippingOptions help' => {
+    'lastUpdated' => 1222979503,
+    'message' => 'Una lista de selecci&oacute;n que contiene todas las opciones configuradas de env&iacute;o para esta orden.'
   },
   'shippingPrice help' => {
     'lastUpdated' => 1222912072,
