@@ -25,6 +25,10 @@ our $I18N = {
     'lastUpdated' => 1223057479,
     'message' => 'Soportes de Stock Keeping Unit, que es s&oacute;lo un t&eacute;rmino de fantas&iacute;a de un c&oacute;digo de inventario o n&uacute;mero de producto.'
   },
+  'sku properties title' => {
+    'lastUpdated' => 1223057591,
+    'message' => 'Propiedades SKU'
+  },
   'vendor' => {
     'lastUpdated' => 1215795534,
     'message' => 'Vendedor'
