@@ -107,11 +107,11 @@ our $I18N = {
   },
   '895' => {
     'lastUpdated' => 1190392480,
-    'message' => 'Desconexión por caché.'
+    'message' => "Desconexi\x{f3}n por cach\x{e9}."
   },
   '896' => {
     'lastUpdated' => 1190392504,
-    'message' => 'Desconexión por caché (visitantes).'
+    'message' => "Desconexi\x{f3}n por cach\x{e9} (visitantes)."
   },
   '940' => {
     'lastUpdated' => 1186064695,
@@ -167,7 +167,7 @@ our $I18N = {
   },
   'Add new field description' => {
     'lastUpdated' => 1182029914,
-    'message' => 'Agregar nueva descripción de campo'
+    'message' => "Agregar nueva descripci\x{f3}n de campo"
   },
   'Class Icon' => {
     'lastUpdated' => 1186062787,
@@ -271,7 +271,7 @@ our $I18N = {
   },
   'Uploads URL description' => {
     'lastUpdated' => 1190392757,
-    'message' => 'Fija el URL para subir archivos. Por defecto apunta a la variable uploadsURL en el archivo de configuración de WebGUI.'
+    'message' => "Fija el URL para subir archivos. Por defecto apunta a la variable uploadsURL en el archivo de configuraci\x{f3}n de WebGUI."
   },
   'add the missing page' => {
     'lastUpdated' => 1186066504,
@@ -350,8 +350,8 @@ our $I18N = {
     'message' => 'Estos son los &iacute;conos y URLs que permiten editar, cortar, copiar, eliminar y reordenar el Activo.'
   },
   'copy' => {
-    'lastUpdated' => 1186067371,
-    'message' => 'Copiar'
+    'lastUpdated' => 1223498685,
+    'message' => 'copiar'
   },
   'could not create' => {
     'lastUpdated' => 1186067399,
@@ -423,15 +423,15 @@ our $I18N = {
   },
   'directory index description' => {
     'lastUpdated' => 1190392974,
-    'message' => 'Si el URL del Activo a ser exportado parece ser un directorio, se le agregará el índice de directorio.'
+    'message' => "Si el URL del Activo a ser exportado parece ser un directorio, se le agregar\x{e1} el \x{ed}ndice de directorio."
   },
   'does asset inherit URL from parent' => {
     'lastUpdated' => 1216500231,
-    'message' => '¿Anteponer URL de los padres?'
+    'message' => "\x{bf}Anteponer URL de los padres?"
   },
   'does asset inherit URL from parent description' => {
     'lastUpdated' => 1216500629,
-    'message' => "\x{bf}Esta bien tener su URL antepuesta con su padre URL?"
+    'message' => '¿Esta bien tener su URL antepuesta con su padre URL?'
   },
   'done' => {
     'lastUpdated' => 1190393079,
@@ -443,7 +443,7 @@ our $I18N = {
   },
   'duplicateField' => {
     'lastUpdated' => 1190393143,
-    'message' => 'Error: Nombre de campo "%field%" aún se está usando.'
+    'message' => "Error: Nombre de campo \"%field%\" a\x{fa}n se est\x{e1} usando."
   },
   'edit' => {
     'lastUpdated' => 1190393196,
@@ -695,23 +695,23 @@ our $I18N = {
   },
   'purge revision after help' => {
     'lastUpdated' => 1216501192,
-    'message' => "\x{bf}Cu\x{e1}nto tiempo deben mantenerse las revisiones antiguas de un activo? Antiguas revisiones de activos son aquellas que ya no son visibles por los usuarios, pero se mantienen en el sistema de versiones de rollbacks."
+    'message' => '¿Cuánto tiempo deben mantenerse las revisiones antiguas de un activo? Antiguas revisiones de activos son aquellas que ya no son visibles por los usuarios, pero se mantienen en el sistema de versiones de rollbacks.'
   },
   'purge revision prompt' => {
     'lastUpdated' => 1216501495,
-    'message' => 'Purgar revisión rápida
+    'message' => "Purgar revisi\x{f3}n r\x{e1}pida
 
-¿Estás seguro de que desea eliminar esta revisión de este activo? No puede ser restaurado si se borrara.'
+\x{bf}Est\x{e1}s seguro de que desea eliminar esta revisi\x{f3}n de este activo? No puede ser restaurado si se borrara."
   },
   'purge trash after' => {
     'lastUpdated' => 1216501572,
-    'message' => "Purgar vieja basura despu\x{e9}s"
+    'message' => 'Purgar vieja basura después'
   },
   'purge trash after help' => {
     'lastUpdated' => 1216501768,
-    'message' => 'Purgar la basura después de ayudar
+    'message' => "Purgar la basura despu\x{e9}s de ayudar
 
-¿Cuánto tiempo debería permanecer un activo en la papelera antes de que sea considerada la edad limite para purgar? Tenga en cuenta que cuando se purgan todas sus revisiones y descendientes, esta será purgada también.'
+\x{bf}Cu\x{e1}nto tiempo deber\x{ed}a permanecer un activo en la papelera antes de que sea considerada la edad limite para purgar? Tenga en cuenta que cuando se purgan todas sus revisiones y descendientes, esta ser\x{e1} purgada tambi\x{e9}n."
   },
   'rank' => {
     'lastUpdated' => 1207773841,
@@ -739,14 +739,14 @@ our $I18N = {
   },
   'rootUrl default not present' => {
     'lastUpdated' => 1216502928,
-    'message' => 'Urlraiz por defecto no presente
+    'message' => "Urlraiz por defecto no presente
 
-No enlace simbólico activo por defecto, no está incluido en los subárboles exportados.'
+No enlace simb\x{f3}lico activo por defecto, no est\x{e1} incluido en los sub\x{e1}rboles exportados."
   },
   'rootUrl form hoverHelp' => {
     'lastUpdated' => 1216502965,
-    'message' => "Urlraiz forma ayuda giratoria
-\x{bf}Qu\x{e9} medidas a adoptar en relaci\x{f3}n con las consultas a la Url raizL. Enlace simb\x{f3}lico  por defecto significa crear un enlace simb\x{f3}lico desde la root-URL index file hasta el \x{ed}ndice del archivo activo por defecto (no disponible en todos los sistemas). Ninguno significa no hacer nada, lo que usualmente causa las preguntas a URL raiz a ser rechazada en el sitio exportado."
+    'message' => 'Urlraiz forma ayuda giratoria
+¿Qué medidas a adoptar en relación con las consultas a la Url raizL. Enlace simbólico  por defecto significa crear un enlace simbólico desde la root-URL index file hasta el índice del archivo activo por defecto (no disponible en todos los sistemas). Ninguno significa no hacer nada, lo que usualmente causa las preguntas a URL raiz a ser rechazada en el sitio exportado.'
   },
   'rootUrl form label' => {
     'lastUpdated' => 1216502978,

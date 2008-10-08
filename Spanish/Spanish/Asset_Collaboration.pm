@@ -69,6 +69,10 @@ our $I18N = {
     'lastUpdated' => 1207717797,
     'message' => 'Acendiendo'
   },
+  'asset not committed' => {
+    'lastUpdated' => 1223498842,
+    'message' => '<p>Error.</p><p>Debe confirmar definitivamente este sistema de trabajo colaborativo antes de poder iniciar hilos de discusi&oacute;n.&nbsp;</p>'
+  },
   'assetName' => {
     'lastUpdated' => 1199914063,
     'message' => 'Sistema de Colaboraci&oacute;n'
@@ -384,6 +388,10 @@ our $I18N = {
   'enable metadata description' => {
     'lastUpdated' => 1208208541,
     'message' => 'Seleccione &quot;S&iacute;&quot; para permitir Publicaciones que tienen MetaDatos y pasivamente perfilados. Esto impactar&aacute; en el desempe&ntilde;o de la&nbsp; sistema de colaboraci&oacute;n. MetaDatos tambi&eacute;n debe estar habilitado a lo largo de la configuraci&oacute;n del sitio.'
+  },
+  'epochDate' => {
+    'lastUpdated' => 1223498911,
+    'message' => 'La fecha en que este item fue publicado como una &eacute;poca (n&uacute;mero de segundos desde 1970-01-01), de manera que el macro Date pueda ser utilizado para darle formato especial.'
   },
   'fatal' => {
     'lastUpdated' => 1208209754,
@@ -756,6 +764,14 @@ our $I18N = {
   'post' => {
     'lastUpdated' => 1207719445,
     'message' => 'Publicar'
+  },
+  'post received template' => {
+    'lastUpdated' => 1223498961,
+    'message' => 'Plantilla de confirmaci&oacute;n de mensaje'
+  },
+  'post received template hoverHelp' => {
+    'lastUpdated' => 1223498995,
+    'message' => 'La plantilla a utilizar para confirmar la recepci&oacute;n de los mensajes publicados por los usuarios.'
   },
   'post template' => {
     'lastUpdated' => 1208274718,
