@@ -177,6 +177,10 @@ our $I18N = {
     'lastUpdated' => 1186062896,
     'message' => '<p>Cada activo mostrar&aacute; adem&aacute;s un &iacute;cono de clase. La mayor&iacute;a de &iacute;conos de clase son espec&iacute;ficos de este activo y son versiones reducidos de los &iacute;conos del men&uacute; de &quot;Nuevo contenido&quot; en la consola de administraci&oacute;n de este activo. Haciendo clic sobre el &iacute;cono de clase mostrar&aacute; un men&uacute; desplegable con opciones de edici&oacute;n adicionales.</p>'
   },
+  'Copy' => {
+    'lastUpdated' => 1223498562,
+    'message' => 'Copiar'
+  },
   'Data Type description' => {
     'lastUpdated' => 1186062917,
     'message' => 'Eliga el tipo de elemento de forma para este campo.'
@@ -197,6 +201,10 @@ our $I18N = {
     'lastUpdated' => 1186063012,
     'message' => 'Editar propiedad Metadata'
   },
+  'Error: Cannot instantiate template' => {
+    'lastUpdated' => 1223498583,
+    'message' => 'Error: No se pudo instanciar la plantilla'
+  },
   'Export Page' => {
     'lastUpdated' => 1186063022,
     'message' => 'Exportar p&aacute;gina'
@@ -208,6 +216,10 @@ our $I18N = {
   'Export as user description' => {
     'lastUpdated' => 1186065460,
     'message' => 'Correr la exportaci&oacute;n como este usuario. Por defecto es Visitante.'
+  },
+  'Export site root URL' => {
+    'lastUpdated' => 1223498602,
+    'message' => 'Exportar URL ra&iacute;z del sitio'
   },
   'Extras URL' => {
     'lastUpdated' => 1186065496,
@@ -520,6 +532,10 @@ our $I18N = {
   'import' => {
     'lastUpdated' => 1199912344,
     'message' => 'importar'
+  },
+  'inherit parent permissions' => {
+    'lastUpdated' => 1223498626,
+    'message' => 'Heredar privilegios del padre'
   },
   'isHidden' => {
     'lastUpdated' => 1204778862,
