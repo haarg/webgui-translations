@@ -106,8 +106,8 @@ our $I18N = {
     'message' => "Anzahl der Klicks f\x{fc}r diese Liste"
   },
   'columnCount' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1223575738,
+    'message' => 'Anzahl der Eintr&auml;ge im Vergleich'
   },
   'column_loop' => {
     'lastUpdated' => undef,
@@ -178,8 +178,8 @@ our $I18N = {
     'message' => 'Allgemeine Beschreibung zum Produkt. Details k&ouml;nnen in den sonstigen Feldern beschriben werden. '
   },
   'detail count' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1223575797,
+    'message' => 'Total f&uuml;r diesen Eintrag'
   },
   'detail mean' => {
     'lastUpdated' => undef,
@@ -242,8 +242,8 @@ our $I18N = {
     'message' => 'Kostet extra'
   },
   'field description' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1223575836,
+    'message' => 'Beschreibung Eigenschaft'
   },
   'field description description' => {
     'lastUpdated' => undef,
@@ -322,8 +322,8 @@ our $I18N = {
     'message' => ''
   },
   'isLoggedIn' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1223575900,
+    'message' => 'Angabe, ob der aktuelle Benutzer sich angemeldet hat.'
   },
   'isPending' => {
     'lastUpdated' => undef,
@@ -342,12 +342,12 @@ our $I18N = {
     'message' => 'Label zum Feld'
   },
   'lastUpdated' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1223575945,
+    'message' => 'Datum letzter Aktualisierung'
   },
   'lastUpdated.date' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1223575987,
+    'message' => 'Datum letzter Aktualisierung dieser Liste'
   },
   'lastUpdated.epoch' => {
     'lastUpdated' => undef,
@@ -374,8 +374,8 @@ our $I18N = {
     'message' => 'Beschreibung dieser Liste'
   },
   'listing label' => {
-    'lastUpdated' => 1223568504,
-    'message' => 'Bezeichnung zu diesem Feld, welche den Inhalt repr&auml;sentiert.'
+    'lastUpdated' => 1223576010,
+    'message' => 'Bezeichnung zu diesem Feld, welches den Inhalt repr&auml;sentiert.'
   },
   'listing maintainer' => {
     'lastUpdated' => undef,
@@ -434,8 +434,8 @@ our $I18N = {
     'message' => "Hersteller/Dienstleister URL, wenn Sie die Anzahl der Clicks zu dieser Liste registrieren m\x{f6}chten"
   },
   'matrix specific fields' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1223576037,
+    'message' => 'Matrix-spezifische Felder'
   },
   'matrix specific fields description' => {
     'lastUpdated' => undef,
@@ -694,8 +694,8 @@ our $I18N = {
     'message' => 'Name dieser Kategorie'
   },
   'tmplVar worst.count' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1223576454,
+    'message' => 'Summe der Bewertungen der Liste, die in dieser Kategorie am schlechtesten abschneidet.'
   },
   'tmplVar worst.mean' => {
     'lastUpdated' => undef,
@@ -718,8 +718,8 @@ our $I18N = {
     'message' => 'URL'
   },
   'user.canApprove' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1223576224,
+    'message' => 'Bedingung, die angibt ob der angemeldete Benutzer diese Liste freigeben kann.'
   },
   'user.canEdit' => {
     'lastUpdated' => undef,
