@@ -177,6 +177,10 @@ our $I18N = {
     'lastUpdated' => 1170453597,
     'message' => '<p>Bei jedem Asset wird auch ein Kategoriensymbol angezigt. Die meisten Kategoriensymbole sind eindeutig einem Asset zugeordnet und sind kleinere Versionen der Symbole, die in der Admin-Konsole im Men&uuml; Neuer Inhalt angezeigt werden. Beim Klick auf das Kategoriensymbol erscheint ein Men&uuml; mit erweiterten Editierfunktionen.</p>'
   },
+  'Copy' => {
+    'lastUpdated' => 1223575321,
+    'message' => 'Kopieren'
+  },
   'Data Type description' => {
     'lastUpdated' => 1170453634,
     'message' => '<p>W&auml;hlen Sie die Art des Formularelements f&uuml;r dieses Feld aus.</p>'
@@ -197,6 +201,10 @@ our $I18N = {
     'lastUpdated' => 1170453761,
     'message' => 'Metadaten Eigenschaft editieren'
   },
+  'Error: Cannot instantiate template' => {
+    'lastUpdated' => 1223575484,
+    'message' => 'Fehler: Template nicht instantiiert'
+  },
   'Export Page' => {
     'lastUpdated' => 1170453772,
     'message' => 'Seite exportieren'
@@ -208,6 +216,10 @@ our $I18N = {
   'Export as user description' => {
     'lastUpdated' => 1170453810,
     'message' => '<p>F&uuml;hrt einen Seitenexport unter dieser Benutzerkennung durch. Standard ist &quot;Besucher&quot;.</p>'
+  },
+  'Export site root URL' => {
+    'lastUpdated' => 1223575619,
+    'message' => 'Export URL h&ouml;chster Ebene'
   },
   'Extras URL' => {
     'lastUpdated' => 1170453822,
@@ -311,11 +323,11 @@ our $I18N = {
   },
   'change url' => {
     'lastUpdated' => 1153242622,
-    'message' => "URL \x{e4}ndern"
+    'message' => 'URL ändern'
   },
   'change url help' => {
     'lastUpdated' => 1170454842,
-    'message' => "Zeigt die &quot;URL \x{e4}ndern&quot; Seite f\x{fc}r dieses Asset an."
+    'message' => 'Zeigt die &quot;URL ändern&quot; Seite für dieses Asset an.'
   },
   'committed versions' => {
     'lastUpdated' => 1170454956,
@@ -338,8 +350,8 @@ our $I18N = {
     'message' => 'Dies sind die Symbole und URLs f&uuml;r das Editieren, Ausschneiden, Kopieren, L&ouml;schen und Neuanordnen des Assets.'
   },
   'copy' => {
-    'lastUpdated' => 1153243924,
-    'message' => 'Kopieren'
+    'lastUpdated' => 1223575356,
+    'message' => 'kopieren'
   },
   'could not create' => {
     'lastUpdated' => 1168956497,
@@ -521,6 +533,10 @@ Dies bedeutet in der Regel, dass Sie eine Seite anlegen m&ouml;chtgen, die den s
   'import' => {
     'lastUpdated' => 1153262773,
     'message' => 'Import'
+  },
+  'inherit parent permissions' => {
+    'lastUpdated' => 1223575415,
+    'message' => 'Eltern-Rechte &uuml;bernehmen'
   },
   'isHidden' => {
     'lastUpdated' => 1170458448,

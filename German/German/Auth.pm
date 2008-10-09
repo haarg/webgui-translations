@@ -149,6 +149,10 @@ our $I18N = {
     'lastUpdated' => 1221288722,
     'message' => 'Weiter'
   },
+  'showMessageOnLoginSeen' => {
+    'lastUpdated' => 1223575260,
+    'message' => 'Nachricht beim Login gesehen '
+  },
   'title' => {
     'lastUpdated' => 1178869606,
     'message' => 'Standard Seitentitel.'
