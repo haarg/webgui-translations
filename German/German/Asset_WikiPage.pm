@@ -90,16 +90,16 @@ our $I18N = {
     'message' => 'HTML-Code f&uuml;r den Abschluss des Formulars zur Berarbeitung der Seite.'
   },
   'formHeader' => {
-    'lastUpdated' => 1222932005,
-    'message' => 'HTML-Code f&uuml;r den Anfang des Formulars zur Bearbeitung der Seite.'
+    'lastUpdated' => 1223456163,
+    'message' => 'HTML-Code f&uuml;r den Beginn des Formulars zur Bearbeitung der Seite.'
   },
   'formProtect' => {
     'lastUpdated' => 1222932851,
     'message' => 'HTML-Code f&uuml;r ein Auswahlfeld, um festzulegen, ob die Seite gesch&uuml;tzt sein soll. Gesch&uuml;tzte Seiten k&ouml;nnen nur von Benutzern mit administrativen Rechten f&uuml;r das Wiki ge&auml;ndert werden.'
   },
   'formSubmit' => {
-    'lastUpdated' => 1222933176,
-    'message' => 'HTML-Code f&uuml;r eine Schaltfl&auml;che, zum Einreichen von Ver&auml;nderungen an dieser Seite.'
+    'lastUpdated' => 1223457322,
+    'message' => 'HTML-Code f&uuml;r eine Schaltfl&auml;che mit internationalisierte Beschriftung zum Einreichen von Ver&auml;nderungen an dieser Seite.'
   },
   'formTitle' => {
     'lastUpdated' => 1222933115,
@@ -210,8 +210,8 @@ our $I18N = {
     'message' => 'Diese Variablen stehen in Vorlagen zur Wiki-Seite zur Verf&uuml;gung. Sie basieren auf internen Asset-Variablen und sind m&ouml;glicherweise nur bedingt n&uuml;tzlich.'
   },
   'vars title' => {
-    'lastUpdated' => 1222931872,
-    'message' => 'Wiki-Seite, Variablen des Typs Asset.'
+    'lastUpdated' => 1223455257,
+    'message' => 'Wiki-Seite, Schablonen-Variablen des Typs Asset.'
   },
   'view body' => {
     'lastUpdated' => 1222929866,

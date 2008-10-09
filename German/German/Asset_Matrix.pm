@@ -158,8 +158,8 @@ our $I18N = {
     'message' => "Standardwert f\x{fc}r das Feld, falls der Benutzer es nicht ausf\x{fc}llt."
   },
   'delete field confirm' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1223568082,
+    'message' => 'M&ouml;chten Sie dieses Feld und den abh&auml;ngigen Daten wirklich l&ouml;schen?'
   },
   'delete listing confirmation' => {
     'lastUpdated' => undef,
@@ -174,8 +174,8 @@ our $I18N = {
     'message' => 'Beschreibung'
   },
   'description description' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1223568158,
+    'message' => 'Allgemeine Beschreibung zum Produkt. Details k&ouml;nnen in den sonstigen Feldern beschriben werden. '
   },
   'detail count' => {
     'lastUpdated' => undef,
@@ -214,8 +214,8 @@ our $I18N = {
     'message' => ''
   },
   'edit field' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1223568231,
+    'message' => 'Datenfeld editieren'
   },
   'edit listing' => {
     'lastUpdated' => undef,
@@ -282,8 +282,8 @@ our $I18N = {
     'message' => ''
   },
   'form' => {
-    'lastUpdated' => 1221333225,
-    'message' => 'Formularelement für dieses feld.'
+    'lastUpdated' => 1223568242,
+    'message' => 'Formularelement f&uuml;r dieses Feld.'
   },
   'form.footer' => {
     'lastUpdated' => undef,
@@ -306,7 +306,7 @@ our $I18N = {
     'message' => 'Allgemeiner Kommentar'
   },
   'good bad' => {
-    'lastUpdated' => 1221289156,
+    'lastUpdated' => 1223568258,
     'message' => 'Gut Schlecht'
   },
   'group to add' => {
@@ -338,8 +338,8 @@ our $I18N = {
     'message' => ''
   },
   'label' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1223568318,
+    'message' => 'Label zum Feld'
   },
   'lastUpdated' => {
     'lastUpdated' => undef,
@@ -362,20 +362,20 @@ our $I18N = {
     'message' => ''
   },
   'limited' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1223568335,
+    'message' => 'Eingeschr&auml;nkt'
   },
   'list fields' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1223568380,
+    'message' => 'Liste der Eigenschaften'
   },
   'listing description' => {
     'lastUpdated' => 1221289117,
     'message' => 'Beschreibung dieser Liste'
   },
   'listing label' => {
-    'lastUpdated' => 1222248380,
-    'message' => ''
+    'lastUpdated' => 1223568504,
+    'message' => 'Bezeichnung zu diesem Feld, welche den Inhalt repr&auml;sentiert.'
   },
   'listing maintainer' => {
     'lastUpdated' => undef,
@@ -482,8 +482,8 @@ our $I18N = {
     'message' => 'Dieses Asset darf nicht kopiert werden'
   },
   'no edit rights' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1223568558,
+    'message' => 'Sie hben keine Berechtigung, diese Liste zu &auml;ndern'
   },
   'pending_list' => {
     'lastUpdated' => undef,
@@ -630,8 +630,8 @@ our $I18N = {
     'message' => 'Textbereich'
   },
   'thumbnail' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1223568622,
+    'message' => 'Die URL zum Thumbnail dieses Bildes'
   },
   'tmplVar best.category' => {
     'lastUpdated' => 1222248072,
