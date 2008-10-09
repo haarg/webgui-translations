@@ -17,6 +17,10 @@ our $I18N = {
     'lastUpdated' => 1201607531,
     'message' => 'Das Photo wurde gel&ouml;scht. <a href=&quot;%s&quot;>Zur&uuml;ck zum Album</a>'
   },
+  'editCommentSave message' => {
+    'lastUpdated' => 1223576793,
+    'message' => 'Die Bemerkung wurde aktualisiert. <a href="%s">Zurück zum Bild</a>'
+  },
   'editForm cancel' => {
     'lastUpdated' => 1217314939,
     'message' => 'Abbrechen'
@@ -296,6 +300,10 @@ our $I18N = {
   'helpvar resolutions_loop url_download' => {
     'lastUpdated' => 1201608787,
     'message' => 'URL zum Download des Photos in einer bestimmten Aufl&ouml;sung.'
+  },
+  'helpvar synopsis_text' => {
+    'lastUpdated' => 1223576866,
+    'message' => 'Day Feld "Synopsis" ohne HTML-Tags'
   },
   'helpvar thumbnailUrl' => {
     'lastUpdated' => 1201608803,
