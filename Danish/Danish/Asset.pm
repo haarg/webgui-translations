@@ -177,6 +177,10 @@ our $I18N = {
     'lastUpdated' => 1221340229,
     'message' => 'Et hvert Aktiv, vil ogs&aring; vise et &quot;Klasse Ikon&quot;. De fleste &quot;Klasse Ikoner&quot; er unikke for hvert Aktiv og er mindre udgaver af ikonerne der bliver vist i &quot;Nyt Indhold&quot; menuen i Administrations konsollen for det aktuelle Aktiv. Hvis du klikker p&aring; Klasse Ikonet, vil du blive m&oslash;dt med en rullegardin menu med&nbsp;yderligere redigerings muligheder.'
   },
+  'Copy' => {
+    'lastUpdated' => 1223843499,
+    'message' => 'Kopier'
+  },
   'Data Type description' => {
     'lastUpdated' => 1221340260,
     'message' => 'V&aelig;lg &quot;formular element&quot;-typen for dette felt.'
@@ -197,6 +201,10 @@ our $I18N = {
     'lastUpdated' => 1221340330,
     'message' => 'Rediger metadata egenskab'
   },
+  'Error: Cannot instantiate template' => {
+    'lastUpdated' => 1223843545,
+    'message' => 'Fejl: Kan ikke instantiere skabelon'
+  },
   'Export Page' => {
     'lastUpdated' => 1221340335,
     'message' => 'Eksporter Side'
@@ -208,6 +216,10 @@ our $I18N = {
   'Export as user description' => {
     'lastUpdated' => 1221340355,
     'message' => 'K&oslash;r eksportering som denne bruger.'
+  },
+  'Export site root URL' => {
+    'lastUpdated' => 1223843581,
+    'message' => 'Eksporter site rod URL'
   },
   'Extras URL' => {
     'lastUpdated' => 1221340366,
@@ -338,7 +350,7 @@ our $I18N = {
     'message' => '<p>Dette er ikonerne og URL\'erne der tillader redigering, klipning, kopiering, sletning og flytning af Aktivet.</p>'
   },
   'copy' => {
-    'lastUpdated' => 1221341290,
+    'lastUpdated' => 1223843593,
     'message' => 'kopier'
   },
   'could not create' => {
@@ -520,6 +532,10 @@ our $I18N = {
   'import' => {
     'lastUpdated' => 1221344048,
     'message' => 'Importer'
+  },
+  'inherit parent permissions' => {
+    'lastUpdated' => 1223843644,
+    'message' => 'arv forg&aelig;ngerens rettigheder'
   },
   'isHidden' => {
     'lastUpdated' => 1221344153,

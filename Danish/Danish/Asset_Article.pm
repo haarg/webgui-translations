@@ -38,8 +38,8 @@ our $I18N = {
     'message' => 'V&aelig;lg en skabelon fra listen, for at v&aelig;lge udseendet for dit Wobject. Et hvert Wobject kan kun benytte skabeloner fra dets eget navne-rum. F.eks., Artikler kan kun benytte skabeloner fra &quot;Artikel&quot; navne-rummet. Layouts kan kun benytte skabeloner fra &quot;side&quot; navne-rummet.'
   },
   'assetName' => {
-    'lastUpdated' => 1221348122,
-    'message' => '<p>Artikel</p>'
+    'lastUpdated' => 1221404013,
+    'message' => 'Artikel'
   },
   'attachment.icon' => {
     'lastUpdated' => 1221348219,
@@ -62,8 +62,8 @@ our $I18N = {
     'message' => 'Vedh&aelig;ftninger'
   },
   'attachments help' => {
-    'lastUpdated' => 1221348431,
-    'message' => 'Tilf&oslash;j filer og billeder direkte til denne Artikel. Bem&aelig;rk venligst at disse filer ikke er tilg&aelig;ngelige gennem Aktiv-manageren for andre Aktiver.'
+    'lastUpdated' => 1223843684,
+    'message' => 'Tilf&oslash;j op til 2 filer og billeder direkte til denne Artikel. Bem&aelig;rk venligst at disse filer ikke er tilg&aelig;ngelige gennem Aktiv-manageren for andre Aktiver.'
   },
   'cache timeout' => {
     'lastUpdated' => 1221348716,
