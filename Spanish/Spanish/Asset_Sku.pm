@@ -5,13 +5,25 @@ our $I18N = {
     'lastUpdated' => 1223057388,
     'message' => 'Sku'
   },
+  'cancel recurring message' => {
+    'lastUpdated' => 1223517738,
+    'message' => 'La transacci&oacute;n recurrente %s con un item llamado %s para el usuario %s ha sido cancelada.'
+  },
   'description' => {
     'lastUpdated' => 1215795548,
     'message' => 'Descripci&oacute;n'
   },
+  'description help' => {
+    'lastUpdated' => 1223517654,
+    'message' => 'Describe el producto o servicio aqu&iacute;.'
+  },
   'display title' => {
     'lastUpdated' => 1215795585,
     'message' => 'Mostrar T&iacute;tulo?'
+  },
+  'display title help' => {
+    'lastUpdated' => 1223517786,
+    'message' => 'Indique si el t&iacute;tulo se debe mostrar o no.'
   },
   'shop' => {
     'lastUpdated' => 1215795639,
