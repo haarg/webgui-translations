@@ -318,76 +318,76 @@ our $I18N = {
     'message' => 'El usuario no tiene permisos suficientes para Ver esta p&aacute;gina.'
   },
   'change' => {
-    'lastUpdated' => 1186066973,
-    'message' => 'Modificar en forma recurrente?'
+    'lastUpdated' => 1223928602,
+    'message' => '&iquest;Cambiar en cascada?'
   },
   'change url' => {
-    'lastUpdated' => 1186066984,
-    'message' => 'Modificar URL'
+    'lastUpdated' => 1223928618,
+    'message' => 'Cambiar URL'
   },
   'change url help' => {
-    'lastUpdated' => 1186067013,
-    'message' => 'Llamar la pantalla de Cambiar URL para este Activo.'
+    'lastUpdated' => 1223928643,
+    'message' => 'Abrir la ventanda de Cambiar URL para este Activo.'
   },
   'committed versions' => {
-    'lastUpdated' => 1186067213,
-    'message' => 'Versiones comisionadas'
+    'lastUpdated' => 1223928683,
+    'message' => 'Versiones Definitivas'
   },
   'confirm change' => {
-    'lastUpdated' => 1186067227,
-    'message' => 'Esta seguro?'
+    'lastUpdated' => 1223928694,
+    'message' => '&iquest;Est&aacute; seguro?'
   },
   'confirm change url message' => {
-    'lastUpdated' => 1186067286,
-    'message' => 'Fijando esto a \'Si\' confirma que desea modificar permanentemente este URL y por lo tanto, borrar todas las revisiones antiguas de este Activo.'
+    'lastUpdated' => 1223928737,
+    'message' => 'Al indicar \'Si\' se confirma que desea modificar permanentemente este URL y en consecuencia eliminar TODAS las revisiones anteriores de este Activo.'
   },
   'content profiling' => {
-    'lastUpdated' => 1186067315,
-    'message' => 'Perfiles de contenido'
+    'lastUpdated' => 1223928769,
+    'message' => 'Clasificaci&oacute;n de Contenidos'
   },
   'controls' => {
-    'lastUpdated' => 1186067355,
-    'message' => 'Estos son los &iacute;conos y URLs que permiten editar, cortar, copiar, eliminar y reordenar el Activo.'
+    'lastUpdated' => 1223928806,
+    'message' => 'Estos son los &iacute;conos y URLs que permiten Editar, Cortar, Copiar, Eliminar y Reposicionar el Activo.'
   },
   'copy' => {
-    'lastUpdated' => 1223498685,
+    'lastUpdated' => 1223929134,
     'message' => 'copiar'
   },
   'could not create' => {
-    'lastUpdated' => 1186067399,
-    'message' => 'No pude crear %s: %s'
+    'lastUpdated' => 1223928833,
+    'message' => 'Imposible crear %s: %s'
   },
   'could not create path' => {
-    'lastUpdated' => 1186067464,
-    'message' => '<p>No pude crear %-s porque %-s <br />Lo m&aacute;s probable sea que tenga una p&aacute;gina con el mismo nombre que la carpeta que esta tratando de crear.</p>'
+    'lastUpdated' => 1223928872,
+    'message' => '<p>Imposible crear %-s porque %-s <br />Lo m&aacute;s probable es que exista una P&aacute;gina con el mismo nombre que la Carpeta que esta tratando de crear.</p>'
   },
   'could not open path' => {
-    'lastUpdated' => 1186067503,
-    'message' => 'No pude abrir %-s porque %-s '
+    'lastUpdated' => 1223928885,
+    'message' => 'Imposible abrir %-s porque %-s '
   },
   'could not rmdir' => {
-    'lastUpdated' => 1186067527,
-    'message' => 'No pude eliminar carpeta en %s: %s'
+    'lastUpdated' => 1223928922,
+    'message' => 'Imposible eliminar el directorio %s: %s'
   },
   'could not symlink' => {
-    'lastUpdated' => 1186067562,
-    'message' => 'No pude crear un enlace simb&oacute;lico %s a %s: %s'
+    'lastUpdated' => 1223928947,
+    'message' => 'Imposible crear un enlace simb&oacute;lico desde %s hasta %s: %s'
   },
   'could not unlink' => {
-    'lastUpdated' => 1186067603,
-    'message' => 'No pude desenlazar %s: %s'
+    'lastUpdated' => 1223928968,
+    'message' => 'Imposible eliminar enlace %s: %s'
   },
   'create package' => {
-    'lastUpdated' => 1186067629,
-    'message' => 'Poner a disposici&oacute;n como paquete?'
+    'lastUpdated' => 1223928989,
+    'message' => '&iquest;Ofrecerlo como Paquete?'
   },
   'create shortcut' => {
-    'lastUpdated' => 1186067662,
-    'message' => 'Crear acceso directo'
+    'lastUpdated' => 1223929005,
+    'message' => 'Crear Acceso Directo'
   },
   'current url' => {
-    'lastUpdated' => 1186067675,
-    'message' => 'URL corriente'
+    'lastUpdated' => 1223929017,
+    'message' => 'URL actual'
   },
   'cut' => {
     'lastUpdated' => 1186067696,
@@ -398,279 +398,279 @@ our $I18N = {
     'message' => 'Valor(es) por defecto'
   },
   'default value description' => {
-    'lastUpdated' => 1215718648,
-    'message' => 'El valor por defecto de este campo. Si hay es posible definir varios valores por defecto, como en el caso de una lista de casillas de verificaci&oacute;n, entonces ingrese uno por l&iacute;nea. La cantidad total de datos est&aacute; limitada a 255 caracteres.'
+    'lastUpdated' => 1223929106,
+    'message' => 'El valor por defecto de este campo. Es posible definir m&uacute;ltiples valores por defecto indicando uno por l&iacute;nea. La cantidad total de datos est&aacute; limitada a 255 caracteres.'
   },
   'delete' => {
     'lastUpdated' => 1186067835,
     'message' => 'Eliminar'
   },
   'deleteConfirm' => {
-    'lastUpdated' => 1186067934,
-    'message' => 'Esta seguro que desea eliminar esta propiedad de Metadatos?'
+    'lastUpdated' => 1223929156,
+    'message' => '&iquest;Est&aacute; seguro que desea eliminar esta propiedad de meta-datos?'
   },
   'demote' => {
     'lastUpdated' => 1186067957,
     'message' => 'Degradar'
   },
   'demote help' => {
-    'lastUpdated' => 1188232460,
-    'message' => 'Ayuda de descenso'
+    'lastUpdated' => 1223929212,
+    'message' => 'Mover este Activo una posici&oacute;n hacia abajo dentro de la p&aacute;gina.'
   },
   'directory index' => {
-    'lastUpdated' => 1188232518,
-    'message' => 'Indice de directorio'
+    'lastUpdated' => 1223929263,
+    'message' => 'Indice del directorio'
   },
   'directory index description' => {
-    'lastUpdated' => 1190392974,
-    'message' => "Si el URL del Activo a ser exportado parece ser un directorio, se le agregar\x{e1} el \x{ed}ndice de directorio."
+    'lastUpdated' => 1223929283,
+    'message' => 'Si el URL del Activo a ser exportado parece ser un Directorio, se le agregar&aacute; el &iacute;ndice de directorio.'
   },
   'does asset inherit URL from parent' => {
-    'lastUpdated' => 1216500231,
-    'message' => "\x{bf}Anteponer URL de los padres?"
+    'lastUpdated' => 1223929306,
+    'message' => '&iquest;Anteponer URL del Activo padre?'
   },
   'does asset inherit URL from parent description' => {
-    'lastUpdated' => 1216500629,
-    'message' => '¿Esta bien tener su URL antepuesta con su padre URL?'
+    'lastUpdated' => 1223929343,
+    'message' => '&iquest;Anteponer el URL del Activo padre antes del URL de este Activo?'
   },
   'done' => {
-    'lastUpdated' => 1190393079,
-    'message' => 'Hecho'
+    'lastUpdated' => 1223929353,
+    'message' => 'Listo'
   },
   'duplicate' => {
     'lastUpdated' => 1190393102,
     'message' => 'Duplicar'
   },
   'duplicateField' => {
-    'lastUpdated' => 1190393143,
-    'message' => "Error: Nombre de campo \"%field%\" a\x{fa}n se est\x{e1} usando."
+    'lastUpdated' => 1223929395,
+    'message' => '<strong>Error:</strong> Ya existe un campo con el nombre &quot;%field%&quot;.'
   },
   'edit' => {
-    'lastUpdated' => 1190393196,
+    'lastUpdated' => 1223929404,
     'message' => 'Editar'
   },
   'edit branch' => {
-    'lastUpdated' => 1190393273,
-    'message' => 'Editar rama'
+    'lastUpdated' => 1223929414,
+    'message' => 'Editar Rama'
   },
   'edit branch help' => {
-    'lastUpdated' => 1190393337,
-    'message' => 'Llamar la interfase de editar rama para modificar este Activo y todos los Activos dependientes.'
+    'lastUpdated' => 1223929471,
+    'message' => 'Acceder a la interfaz de edici&oacute;n de Ramas para modificar este Activo y todos los Activos por debajo de &eacute;l.'
   },
   'edit branch url help' => {
-    'lastUpdated' => 1206892057,
-    'message' => '<p class="MsoNormal"><span>Puede cambiar la URL a trav&eacute;s de dos partes, la URL base (campo de la izquierda) y el archivo url (el derecho sobre el terreno). Para la URL base, hay tres opciones:</span></p>    <p class="MsoNormal"><span>Matriz URL <br /> Inicio esta URL con la URL de la matriz. <br /></span></p><p class="MsoNormal"><span> Especificado Base <br /> Ingresar en una nueva base de campo a trav&eacute;s de la URL que aparece cuando se selecciona Base especificado.</span></p>    <p class="MsoNormal"><span>Ninguno <br /> Hacer todos los activos de tener un &quot;nivel superior&quot; de URL. <br /></span></p><p class="MsoNormal"><span> Tambi&eacute;n hay tres opciones para el archivo de la URL: <br /> Men&uacute; T&iacute;tulo <br /> La nueva URL se basar&aacute; en el men&uacute; de activos del campo T&iacute;tulo.</span></p>    <p class="MsoNormal"><span>&nbsp;<br />T&iacute;tulo <br /> La nueva URL se basar&aacute; en el T&iacute;tulo de Activos del campo. <br /> URL de la p&aacute;gina actual <br /> La nueva URL se basar&aacute; en el de Activos del presente URL. <br /></span></p><div id="result_box" dir="ltr">Nueva URL se pasa a trav&eacute;s del hacer Url Compatible con la funci&oacute;n que es espec&iacute;fica para el idioma por defecto para su sitio.</div><p class="MsoNormal"><span></span></p>'
+    'lastUpdated' => 1223929905,
+    'message' => '<p class="MsoNormal"><span>Pueden cambiarse las dos partes del URL: la <strong>base</strong> (campo izquierdo) y el <strong>archivo</strong> (campo derecho). </span></p><p class="MsoNormal"><span>Para la <strong>base</strong>, puede indicarse:</span></p>    <p class="MsoNormal"><span>URL del padre. <br /></span></p><blockquote><span> Iniciar el URL con el URL del Activo padre. </span><br /></blockquote><p class="MsoNormal"><span> Especificar Base.</span></p><blockquote><p class="MsoNormal"><span>Indicar un nuevo URL base en el campo.</span></p></blockquote>    <p class="MsoNormal"><span>Ninguno.</span></p><blockquote><p class="MsoNormal"><span>Hace que todos los Activos tengan un URL al tope de la jerarqu&iacute;a.</span></p></blockquote><p class="MsoNormal"><span>Para el <strong>archivo</strong>, puede indicarse: </span></p><p class="MsoNormal"><span> T&iacute;tulo de Men&uacute;</span></p><blockquote><p class="MsoNormal"><span>El URL se completar&aacute; utilizando el campo T&iacute;tulo de Men&uacute; del Activo.</span></p></blockquote><p class="MsoNormal"><span>T&iacute;tulo </span></p><blockquote><p class="MsoNormal"><span>El URL se completar&aacute; utilizando el campo T&iacute;tulo del Activo.</span></p></blockquote><p class="MsoNormal"><span> URL actual </span></p><blockquote><p class="MsoNormal"><span> El URL se completar&aacute; utilizando el campo URL del Activo.</span></p></blockquote>    <div id="result_box" dir="ltr">Una vez confeccionado el nuevo URL, se verificar&aacute; su estructura a trav&eacute;s de la funci&oacute;n makeUrlCompliant que es espec&iacute;fica al idioma por defecto de su sitio Web.&nbsp;</div><div id="result_box" dir="ltr"><br /></div><p class="MsoNormal">&nbsp;</p>'
   },
   'encrypt page' => {
-    'lastUpdated' => 1221275856,
-    'message' => 'Cifrar&nbsp;contenido?'
+    'lastUpdated' => 1223929919,
+    'message' => '&iquest;Cifrar&nbsp;contenido?'
   },
   'encrypt page description' => {
-    'lastUpdated' => 1206892383,
-    'message' => '  <p class="MsoNormal"><span>En caso de que la p&aacute;gina que contiene este activo preste servicio sobre SSL?</span></p>  '
+    'lastUpdated' => 1223929951,
+    'message' => '  <p class="MsoNormal"><span>&iquest;La p&aacute;gina que contiene este Activo debe servirse utilizando SSL?</span></p>  '
   },
   'encryptPage' => {
-    'lastUpdated' => 1221275882,
-    'message' => 'P&aacute;gina cifrada'
+    'lastUpdated' => 1223930022,
+    'message' => 'Un condicional que indica si este Activo debe ser servido utilizando SSL.'
   },
   'errorEmptyField' => {
-    'lastUpdated' => 1206892437,
-    'message' => '  <p class="MsoNormal"><span>Error: Nombre del campo no puede ser vac&iacute;o.</span></p>  '
+    'lastUpdated' => 1223930050,
+    'message' => '  <p class="MsoNormal"><span><strong>Error</strong>: Nombre del campo no puede ser vac&iacute;o.</span></p>  '
   },
   'export' => {
-    'lastUpdated' => 1221646940,
-    'message' => 'exportar'
+    'lastUpdated' => 1223930230,
+    'message' => 'M&aacute;s...'
   },
   'export information' => {
-    'lastUpdated' => 1206892504,
-    'message' => '  <p class="MsoNormal"><span>Exportados % de p&aacute;ginas en % de segundos.</span><span></span></p>  '
+    'lastUpdated' => 1223930275,
+    'message' => '  <p class="MsoNormal"><span>%d p&aacute;ginas exportadas en %d segundos.</span></p>  '
   },
   'exporting page' => {
-    'lastUpdated' => 1206892577,
-    'message' => '  <p class="MsoNormal"><span>Exportadortando % de p&aacute;ginas ......</span></p>  '
+    'lastUpdated' => 1223930319,
+    'message' => '  <p class="MsoNormal"><span>Exportando p&aacute;gina %-s ... </span></p>  '
   },
   'extra head tags' => {
-    'lastUpdated' => 1206892789,
-    'message' => '  <p class="MsoNormal"><span>Extra &lt;encabezado&gt; elementos (etiquetas)</span></p>  '
+    'lastUpdated' => 1223930348,
+    'message' => '  <p class="MsoNormal"><span>Marcas adicionales a incluir en &lt;head&gt;</span></p>  '
   },
   'extra head tags description' => {
-    'lastUpdated' => 1206893690,
-    'message' => '  <p class="MsoNormal"><span>Estas etiquetas se a&ntilde;adir&aacute;n a la secci&oacute;n &lt;encabezado&gt; de cada p&aacute;gina en la que aparece el activo.</span></p>  '
+    'lastUpdated' => 1223930375,
+    'message' => '  <p class="MsoNormal"><span>Estas marcas HTML se a&ntilde;adir&aacute;n a la secci&oacute;n &lt;head&gt; de cada p&aacute;gina en la que aparece el Activo.</span></p>  '
   },
   'extraHeadTags' => {
-    'lastUpdated' => 1206893795,
-    'message' => '  <p class="MsoNormal"><span>Extra etiquetas, que se a&ntilde;adir&aacute;n al encabezado de la p&aacute;gina que contiene los activos. Estos ser&aacute;n incluidos por defecto as&iacute; que no necesita a&ntilde;adir su propia cuenta, a menos que quiera estar dos veces all&iacute;.</span><span></span></p>  '
+    'lastUpdated' => 1223930457,
+    'message' => 'Etiquetas HTML adicionales que se a&ntilde;adir&aacute;n al &lt;head&gt; de cada p&aacute;gina que contenga este Activo. Se incluyen autom&aacute;ticamente, as&iacute; que no necesita agregarlas a menos que aparezcan dos veces.'
   },
   'extrasUploads form hoverHelp' => {
-    'lastUpdated' => 1206977551,
-    'message' => '<p>Que acci&oacute;n tomara al leer los direcorios &quot;extras&quot; y &quot;uploads&quot; , que son definidos en la configuraci&oacute;n del sitio. &quot;Symlink&quot; significa que se suar&aacute; un enlace simb&oacute;lico (no disponible para todos los sistemas) al directorio original. &quot;None&quot; singnifica que no haga ninguna acci&oacute;n e ignore los direcorios &quot;extras&quot; y &quot;uploads&quot;; Esto probablemente puede causar referencias rotas al exportar el sitio a menos que se haya preparado los direcortios. </p><p>What action to take regarding the extras and uploads directories, which are often referenced by parts of the site. Symlink means to use a symbolic link (not available on all systems) to the original directory. None means to do nothing, and ignore the extras and uploads directories; this will probably cause references to them to break in the exported site unless you\'ve prepared the directories already.</p>'
+    'lastUpdated' => 1223930844,
+    'message' => '<p>&iquest;Qu&eacute; hacer cuando se acceda a directorios &quot;extras&quot; y &quot;uploads&quot;? Estos directorios est&aacute;n definidos en el archivo de configuraci&oacute;n WebGUI para el sitio.</p><p><strong>Enlace Simb&oacute;lico</strong> significa que se emplear&aacute; un enlace simb&oacute;lico (symlink, si est&aacute; disponible en el sistema) al directorio original.</p><p><strong>Nada</strong> simplemente ignora el acceso a los directorios &quot;extras&quot; y &quot;uploads&quot;. Esto posiblemente haga que existan referencias rotas al exportar el sitio, a menos que Ud. prepare los directorios anticipadamente.</p>'
   },
   'extrasUploads form label' => {
-    'lastUpdated' => 1206977585,
-    'message' => 'Directorios &quot;extras&quot; y &quot;uploads&quot;'
+    'lastUpdated' => 1223930876,
+    'message' => '&iquest;Qu&eacute; hacer con &quot;extras&quot; y &quot;uploads&quot;?'
   },
   'extrasUploads form option none' => {
-    'lastUpdated' => 1206977631,
-    'message' => 'nada'
+    'lastUpdated' => 1223930858,
+    'message' => 'Nada'
   },
   'extrasUploads form option symlink' => {
-    'lastUpdated' => 1206977652,
-    'message' => 'enlace simb&oacute;lico'
+    'lastUpdated' => 1223930887,
+    'message' => 'Enlace Simb&oacute;lico'
   },
   'extrasUploads symlinking' => {
-    'lastUpdated' => 1206977698,
+    'lastUpdated' => 1223930911,
     'message' => 'Enlaces simb&oacute;licos a los directorios &quot;extras&quot; y &quot;uploads&quot;'
   },
   'groupIdEdit' => {
-    'lastUpdated' => 1206977881,
-    'message' => 'El ID del grupo que puede editar este Activo.'
+    'lastUpdated' => 1223930928,
+    'message' => 'ID del Grupo que puede Editar este Activo.'
   },
   'groupIdView' => {
-    'lastUpdated' => 1206977989,
-    'message' => 'El ID del grupo que puede ver este Activo.'
+    'lastUpdated' => 1223930942,
+    'message' => 'ID del Grupo que puede Ver este Activo.'
   },
   'import' => {
-    'lastUpdated' => 1199912344,
-    'message' => 'importar'
+    'lastUpdated' => 1223930952,
+    'message' => 'Importar'
   },
   'inherit parent permissions' => {
-    'lastUpdated' => 1223498626,
-    'message' => 'Heredar privilegios del padre'
+    'lastUpdated' => 1223930968,
+    'message' => 'Heredar permisos del Activo padre'
   },
   'isHidden' => {
-    'lastUpdated' => 1204778862,
-    'message' => 'esta oculto'
+    'lastUpdated' => 1223931056,
+    'message' => 'Un condicional que indica si el Activo ha sido ocultado para que no aparezca en los Activos de Navegaci&oacute;n.'
   },
   'isPackage' => {
-    'lastUpdated' => 1206978187,
-    'message' => 'Campo booleano, si es verdadero el activo se establece como un paquete'
+    'lastUpdated' => 1223931041,
+    'message' => 'Un condicional que indica si este Activo debe constituirse en un Paquete.'
   },
   'isPrototype' => {
-    'lastUpdated' => 1206978206,
-    'message' => 'Campo booleano, si es verdadero el activo se establece como un prototipo'
+    'lastUpdated' => 1223931081,
+    'message' => 'Un condicional que indica si este Activo ha sido definido como Prototipo.'
   },
   'keywords' => {
-    'lastUpdated' => 1206978231,
+    'lastUpdated' => 1223931091,
     'message' => 'Palabras clave'
   },
   'keywords help' => {
-    'lastUpdated' => 1215806153,
-    'message' => 'A&ntilde;adir aqu&iacute; algunas palabras clave para este activo. Ellas ser&aacute;n a&ntilde;adidas autom&aacute;ticamente al &iacute;ndice de b&uacute;squeda, y las palabras clave como metatags.'
+    'lastUpdated' => 1223931159,
+    'message' => 'Agregue palabras clave para este Activo. Ser&aacute;n incluidas autom&aacute;ticamente en el &iacute;ndice de b&uacute;squedas y en la marca &lt;keywords&gt; para el encabezado.'
   },
   'last updated' => {
-    'lastUpdated' => 1206978267,
-    'message' => '&uacute;ltimo actualizado'
+    'lastUpdated' => 1223931180,
+    'message' => 'Ultima Actualizaci&oacute;n'
   },
   'lock' => {
-    'lastUpdated' => 1206978360,
-    'message' => 'bloqueado'
+    'lastUpdated' => 1223931342,
+    'message' => 'Bloquearlo'
   },
   'lock help' => {
-    'lastUpdated' => 1207062327,
-    'message' => 'Obtener una copia de este Activo para edici&oacute;n, que bloquea el activo para que nadie utilice su actual \'version tag\'. Esta opci&oacute;n s&oacute;lo se muestra si el activo no est&aacute; bloqueado.'
+    'lastUpdated' => 1223931324,
+    'message' => 'Tomar una copia de este Activo para editarla. Esto bloquea el Activo para que no pueda ser utilizado por ning&uacute;n usuario a menos que est&eacute; trabajando con la misma versi&oacute;n que Ud. Esta opci&oacute;n solamente est&aacute; disponible si el Activo no est&aacute; bloqueado por otro usuario.'
   },
   'locked' => {
-    'lastUpdated' => 1207062370,
-    'message' => 'bloqueado'
+    'lastUpdated' => 1223931352,
+    'message' => 'Bloqueado'
   },
   'make asset exportable' => {
-    'lastUpdated' => 1207062419,
-    'message' => '&iquest;Hacer este activo exportable?'
+    'lastUpdated' => 1223931366,
+    'message' => '&iquest;Hacer este Activo exportable?'
   },
   'make asset exportable description' => {
-    'lastUpdated' => 1215718696,
-    'message' => '<div id="result_box" dir="ltr">&iquest;Este activo ser&aacute; exportable? Este activo, y todos lo del activo padre, debe ser exportable para que este activo sea exportado.Asimismo, la exportaci&oacute;n tiene que ser activada en el fichero de configuraci&oacute;n WebGUI para este sitio.</div>'
+    'lastUpdated' => 1223931461,
+    'message' => '&iquest;Este activo ser&aacute; exportable como HTML est&aacute;tico? Para que el Activo sea exportable, tanto &eacute;l como todos los Activos padres deben ser exportables. Adicionalmente, es necesario que la habilidad de exportado est&eacute; activada en el archivo de configuraci&oacute;n de WebGUI.'
   },
   'make package' => {
-    'lastUpdated' => 1207148326,
-    'message' => 'Hacer paquete?'
+    'lastUpdated' => 1223931580,
+    'message' => '&iquest;Disponible como Paquete?'
   },
   'make package description' => {
-    'lastUpdated' => 1207148447,
-    'message' => 'Muchas tareas de WebGUI son muy repetitivas. La automatizaci&oacute;n de estas tareas en WebGUI, como la creaci&oacute;n de un de Activo, o conjuntos de Activos, se hace creando un paquete que se puede reutilizar en todo el sitio. Compruebe si quiere que este Activo&nbsp; debe estar disponible como un paquete.'
+    'lastUpdated' => 1223931567,
+    'message' => 'Muchas tareas de WebGUI son muy repetitivas. La automatizaci&oacute;n de tareas en WebGUI, como la creaci&oacute;n de un Activo o conjuntos de Activos, se logra preparando un Paquete que puede ser utilizado m&aacute;s de una vez en el sitio. Esta opci&oacute;n permite que el Activo est&eacute; disponible como un Paquete.'
   },
   'make prototype' => {
-    'lastUpdated' => 1207148611,
-    'message' => 'Hacer prototipo?'
+    'lastUpdated' => 1223931593,
+    'message' => '&iquest;Disponible como Prototipo?'
   },
   'make prototype description' => {
-    'lastUpdated' => 1207148680,
-    'message' => 'Hacer este Activo un Prototipo de Contenido para que otros puedan utilizarlo en su sitio.'
+    'lastUpdated' => 1223931611,
+    'message' => 'Hacer este Activo disponible como un Prototipo de Contenido para que otros puedan utilizarlo en su sitio.'
   },
   'manage' => {
-    'lastUpdated' => 1207148754,
+    'lastUpdated' => 1223931619,
     'message' => 'Administrar'
   },
   'manage help' => {
-    'lastUpdated' => 1207148853,
-    'message' => 'Trae al Administrador de Activos y muestra el Activo hijo, si los hay.'
+    'lastUpdated' => 1223931668,
+    'message' => 'Presenta el Administrador de Activos, posiblemente presentando los Activos hijo, de haberlos.'
   },
   'menu label' => {
-    'lastUpdated' => 1215806164,
-    'message' => 'M&aacute;s'
+    'lastUpdated' => 1223931683,
+    'message' => 'M&aacute;s...'
   },
   'menuTitle' => {
-    'lastUpdated' => 1207148873,
-    'message' => 'El t&iacute;tulo del Activo usado en los navegadores.'
+    'lastUpdated' => 1223931710,
+    'message' => 'El t&iacute;tulo del Activo a ser usado en los Activos de Navegaci&oacute;n.'
   },
   'metadata edit property' => {
-    'lastUpdated' => 1207148886,
-    'message' => 'Metadata, Editar'
+    'lastUpdated' => 1223931722,
+    'message' => 'Meta-datos, Editar'
   },
   'missing page query' => {
-    'lastUpdated' => 1207149059,
-    'message' => '<div id="result_box" dir="ltr">La p&aacute;gina que has solicitado no existe. &iquest;Qu&eacute; quieres hacer?</div>'
+    'lastUpdated' => 1223931772,
+    'message' => 'La p&aacute;gina solicitada no existe. &iquest;Qu&eacute; quiere hacer?'
   },
   'newWindow' => {
-    'lastUpdated' => 1207149542,
-    'message' => 'Un valor booleano que ser&aacute; verdadero si este Activo se abre en una nueva ventana del navegador.'
+    'lastUpdated' => 1223931817,
+    'message' => 'Un condicional que indica si este Activo debe presentarse en una ventana separada.'
   },
   'no results' => {
-    'lastUpdated' => 1215806187,
-    'message' => 'No se han encontrado resultados!'
+    'lastUpdated' => 1223931837,
+    'message' => '&iexcl;No se encontraron resultados!'
   },
   'none' => {
-    'lastUpdated' => 1207149731,
+    'lastUpdated' => 1223931844,
     'message' => 'Ninguno.'
   },
   'over max assets' => {
-    'lastUpdated' => 1207149827,
-    'message' => 'El administrador ha limitado el n&uacute;mero de activos que puede colocar en su sitio, y usted ha excedido el l&iacute;mite. Eliminar algunos activos antiguos con el fin de a&ntilde;adir m&aacute;s.'
+    'lastUpdated' => 1223931903,
+    'message' => 'El administrador ha establecido un l&iacute;mite sobre el n&uacute;mero de Activos que puede colocar en su sitio, y usted excedi&oacute; el l&iacute;mite. Elimine algunos Activos antiguos o en desuso para poder a&ntilde;adir nuevos Activos.'
   },
   'ownerUserId' => {
-    'lastUpdated' => 1207152913,
-    'message' => 'El ID del usuario due&ntilde;o de este Activo.'
+    'lastUpdated' => 1223931917,
+    'message' => 'ID del Usuario due&ntilde;o de este Activo.'
   },
   'package corrupt' => {
-    'lastUpdated' => 1207154009,
-    'message' => '<div id="result_box" dir="ltr">El paquete que trat&oacute; de importar parece estar corrupto. Hemos importado hasta el punto en que se detect&oacute; la corrupci&oacute;n. Si no quiere esta parte, devuelva su version tag actual.</div>'
+    'lastUpdated' => 1223932059,
+    'message' => 'El Paquete que trat&oacute; de importar parece estar corrupto. Se ha importado el contenido hasta el punto en que se detect&oacute; la corrupci&oacute;n. Si no quiere conservar los elementos parcialmente importados, regrese a la versi&oacute;n anterior.'
   },
   'package extract error' => {
-    'lastUpdated' => 1207239138,
-    'message' => '<div id="result_box" dir="ltr">No se puede extraer paquete! El paquete puede estar corrupto, o puede haber un error preventivo en el servidor de los paquetes a ser importados.</div>'
+    'lastUpdated' => 1223932047,
+    'message' => '&iexcl;No se pudo extraer el Paquete! El Paquete podr&iacute;a estar corrupto o puede haber un error en el servidor que impide importar el Paquete.'
   },
   'packages' => {
-    'lastUpdated' => 1207239179,
+    'lastUpdated' => 1223932065,
     'message' => 'Paquetes'
   },
   'page indicator' => {
-    'lastUpdated' => 1215806209,
+    'lastUpdated' => 1223932080,
     'message' => 'Mostrando p&aacute;gina %s de %s'
   },
   'parent url' => {
-    'lastUpdated' => 1207239305,
-    'message' => 'URL padre'
+    'lastUpdated' => 1223932092,
+    'message' => 'URL del Padre'
   },
   'promote' => {
-    'lastUpdated' => 1207239383,
+    'lastUpdated' => 1223932098,
     'message' => 'Promover'
   },
   'promote help' => {
-    'lastUpdated' => 1207239506,
-    'message' => 'Mover este Activo hasta una casilla en la p&aacute;gina.'
+    'lastUpdated' => 1223929239,
+    'message' => 'Mover este Activo una posici&oacute;n hacia arriba dentro de la p&aacute;gina.'
   },
   'properties' => {
-    'lastUpdated' => 1207239532,
+    'lastUpdated' => 1223932105,
     'message' => 'Propiedades'
   },
   'prototype using title' => {
