@@ -1,9 +1,10 @@
 Escribir los nombres de Assets con la primera letra
 mayuscula permite denotar su cualidad como "objetos".
 
-ad = Publicidad
-ad space = Espacio Publicitario
-asset = Activo
+ad            = Publicidad
+ad space      = Espacio Publicitario
+asset         = Activo
+admin console = Panel Administrativo
 
 rank = puntaje
 thumbnail = vista en miniatura
@@ -27,7 +28,7 @@ Dashboard = Panel
 Dashlet = Elemento
 Data Form = Formulario de Datos
 MiniCart = MiniCart
-Cache Timeout = Tiempo MÃÂÃÂÃÂÃÂ¡ximo en Cache
+Cache Timeout = Tiempo Maximo en Cache
 
 Equipo de traduccion VCB (Colombia):
 
@@ -49,6 +50,8 @@ Usuarios WebGUI de Venezuela
 
     Ildefonso Camargo
     Ernesto Hernandez-Novich
+
+
 
 
 
