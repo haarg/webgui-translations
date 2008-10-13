@@ -62,8 +62,8 @@ our $I18N = {
     'message' => 'Arkiver efter'
   },
   'archive after description' => {
-    'lastUpdated' => 1207806473,
-    'message' => 'Den tid der g&aring;r fra en post sidst blev opdateret, til den vil blive arkiveret.'
+    'lastUpdated' => 1223919405,
+    'message' => 'Den tid der g&aring;r fra et indl&aelig;g sidst blev opdateret, til det vil blive arkiveret.'
   },
   'ascending' => {
     'lastUpdated' => 1223843786,
@@ -106,12 +106,12 @@ our $I18N = {
     'message' => 'URL til thumbnail for denne vedh&aelig;ftning. Filer bliver repr&aelig;senteret af et ikon i henhold til deres type. Billeder vil have en thumbnail. (en nedskaleret version af selve billedet).'
   },
   'attachments/post' => {
-    'lastUpdated' => 1207807504,
-    'message' => '<p>Vedh&aelig;ftninger pr. post. </p>'
+    'lastUpdated' => 1223919417,
+    'message' => '<p>Vedh&aelig;ftninger pr. indl&aelig;g. </p>'
   },
   'attachments/post description' => {
-    'lastUpdated' => 1207807550,
-    'message' => 'Hvor mange vedh&aelig;ftninger tillades der, til hver enkel post?'
+    'lastUpdated' => 1223919567,
+    'message' => 'Hvor mange vedh&aelig;ftninger tillades der, til hver enkelt indl&aelig;g?'
   },
   'author' => {
     'lastUpdated' => 1207807580,
@@ -126,8 +126,8 @@ our $I18N = {
     'message' => 'Hvis brugeren ikke abonnere p&aring; en tr&aring;d, heller ikk p&aring; collaboration systemet og de poster til systemet via email, skal de da have mulighed for at abonnere p&aring; tr&aring;den? Hvis dette er sat til &quot;ja&quot;, vil de blive abonnenter. NB. dette virker kun hvis &quot;Kr&aelig;ver abonnement for email postings?&quot; er sat til &quot;nej&quot;'
   },
   'avatar.url' => {
-    'lastUpdated' => 1221404265,
-    'message' => 'En URL til avataren for ejeren af posten, hvis avatarer er sat til og brugeren har en avatar.'
+    'lastUpdated' => 1223919484,
+    'message' => 'En URL til avataren for ejeren af indl&aelig;gget, hvis avatarer er aktiveret og brugeren har en avatar.'
   },
   'back' => {
     'lastUpdated' => 1221404273,
@@ -182,8 +182,8 @@ our $I18N = {
     'message' => 'Url\'en til &quot;Collaboration&quot; aktivet'
   },
   'collaboration post list template variables title' => {
-    'lastUpdated' => 1223844249,
-    'message' => 'Collaboration, &quot;Post Liste Skabelon&quot;-Variable'
+    'lastUpdated' => 1223919518,
+    'message' => 'Collaboration, &quot;Indl&aelig;gs Liste Skabelon&quot;-Variable'
   },
   'collaboration rss template title' => {
     'lastUpdated' => 1223844274,
@@ -206,648 +206,672 @@ our $I18N = {
     'message' => 'Aktiv ID\'et (assetId) for dette Collaboration System. Ulig variablen assetId, vil denne ikke blive overskrevet af assetID\'er inde i Tr&aring;de eller Poster.'
   },
   'compensation' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1223914421,
+    'message' => 'Kompensation'
   },
   'compensation.label' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1223914432,
+    'message' => 'Ordet &quot;Kompentation&quot;.'
   },
   'content' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1223919538,
+    'message' => 'Det formaterede indhold for dette indl&aelig;g.'
   },
   'content filter' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1223914472,
+    'message' => 'Brug indholds filter?'
   },
   'content filter description' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1223914711,
+    'message' => '<p>V&aelig;lg &quot;Ja&quot; for at filtrere indhold i ethvert indl&aelig;g med &quot;S&oslash;g og erstat&quot; systemet.<br />f.eks kan dette bruges til at filtrere anst&oslash;delige ord og vendinge. </p>'
   },
   'contentType' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1223914721,
+    'message' => 'Indholds Type'
   },
   'controls' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1223914794,
+    'message' => 'Et s&aelig;t redigerings ikoner til at slette eller gen-ordne dette indl&aelig;g.'
   },
   'cosmetic' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1223914831,
+    'message' => 'Kosmetisk (stavefejl, formaterings problemer)'
   },
   'cosmetic.label' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1223914851,
+    'message' => 'Ordet &quot;Kosmetisk (stavefejl, formaterings problemer)'
   },
   'critical' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1223914873,
+    'message' => 'Kritisk (for det meste ikke-funktionel)'
   },
   'critical.label' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1223914895,
+    'message' => 'Ordet &quot;Kritisk (for det meste ikke funktionel)&quot;'
   },
   'date' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1223914903,
+    'message' => 'Dato'
   },
   'date submitted' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1223914944,
+    'message' => 'Indsendelses Dato'
   },
   'date updated' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1223914956,
+    'message' => 'Opdaterings Dato'
   },
   'date.label' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1223914967,
+    'message' => 'Ordet &quot;Dato&quot;.'
   },
   'dateSubmitted.human' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1223915102,
+    'message' => 'Datoen hvor dette indl&aelig;g var indsendt, i et l&aelig;se venligt format.'
   },
   'dateUpdated.human' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1223915195,
+    'message' => 'Datoen hvor dette indl&aelig;g sidst blev opdateret, i et l&aelig;sevenligt format.'
   },
   'default karma scale' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1223915189,
+    'message' => 'Standard Karma Skala'
   },
   'default karma scale help' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1223915368,
+    'message' => 'Dette er standard v&aelig;rdien der vil blive tildelt &quot;Karma Skala&quot; feltet, i tr&aring;de. Karma skalaen er en v&aelig;gtet mekanisme for karma sortering, der kan blive brugt for handicap, sv&aelig;rheds grad mv.'
   },
   'delete' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1223915378,
+    'message' => 'Slet'
   },
   'delete.label' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1223915389,
+    'message' => 'Order &quot;Slet&quot;.'
   },
   'descending' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1223915416,
+    'message' => 'Nedadg&aring;ende'
   },
   'description' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1223915424,
+    'message' => 'Beskrivelse'
   },
   'description.label' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1223915434,
+    'message' => 'Ordet &quot;Beskrivelse&quot;'
   },
   'display last reply' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1223915452,
+    'message' => 'Vis seneste svar?'
   },
   'display last reply description' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1223915588,
+    'message' => 'Hvis sat til &quot;Ja&quot;, vil der blive tilf&oslash;jet Skabelon variabler der tillader visning af &quot;seneste svar&quot; i denne tr&aring;d.'
   },
   'displayLastReply' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1223915741,
+    'message' => 'En boolsk v&aelig;rdi (sand/falsk), der er sat til sand, hvis Collaboration Systemet var konfigureret til at vise det seneste svar. Hvis den er sat til sand, kan man tilg&aring; variablerne lastReply.* ved design af Collaboration Skabelonen.'
   },
   'docs' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1223915827,
+    'message' => 'URL\'en p&aring; dokumentationen til dette format for denne fil, RSS 2.0 (valgfrit felt)'
   },
   'edit' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1223915834,
+    'message' => 'Rediger'
   },
   'edit job' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1223915849,
+    'message' => 'Rediger Job Indl&aelig;g'
   },
   'edit link' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1223915858,
+    'message' => 'Rediger Link'
   },
   'edit message' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1223915864,
+    'message' => 'Rediger Besked'
   },
   'edit question' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1223915874,
+    'message' => 'Rediger Sp&oslash;rgsm&aring;l'
   },
   'edit stamp' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1223915914,
+    'message' => 'Tilf&oslash;j redigerings stempel til indl&aelig;g?'
   },
   'edit stamp description' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1223916006,
+    'message' => 'V&aelig;lg &quot;Ja&quot; for at tilf&oslash;je et stempel til ethvert indl&aelig;g, der fort&aelig;ller hvorn&aring;r det sidst blev redigeret.'
   },
   'edit submission' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1223916167,
+    'message' => 'Rediger Afsendte'
   },
   'edit timeout' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1223916187,
+    'message' => 'Redigerings timeout'
   },
   'edit timeout description' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1223916318,
+    'message' => 'Efter denne tid er g&aring;et, kan indl&aelig;get ikke l&aelig;ngere blive redigeret af den person der er ophavsmand til indl&aelig;get.'
   },
   'edit.label' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1223916328,
+    'message' => 'Ordet &quot;Rediger&quot;.'
   },
   'edit.url' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1223916358,
+    'message' => 'URL\'en til redigering af dette Indl&aelig;g.'
+  },
+  'editForm archiveEnabled description' => {
+    'lastUpdated' => 1223916437,
+    'message' => 'Hvis &quot;Ja&quot;, vil tr&aring;de automatisk blive skjult, efter et givet interval.'
+  },
+  'editForm archiveEnabled label' => {
+    'lastUpdated' => 1223916493,
+    'message' => 'Aktiver Arkivering?'
   },
   'enable avatars' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1223916521,
+    'message' => 'Aktiver Avatarer?'
   },
   'enable avatars description' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1223916760,
+    'message' => '<p>V&aelig;lg &quot;Ja&quot; for at vise Avatarer for brugerne i &quot;Collaboration Systemet&quot;. Avatar feltet i brugerens profil, skal ligeledes v&aelig;re aktiveret og brugerne skal have uploadet et Avatar billede.</p><p>Brugen af avatarer vil neds&aelig;tte effektiviteten af &quot;Collaboration Systemet&quot;, eg. systemet vil k&oslash;re langsommere end normalt.&nbsp;</p>'
   },
   'enable metadata' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1223916797,
+    'message' => 'Aktiver MetaData i Indl&aelig;g?'
   },
   'enable metadata description' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1223916966,
+    'message' => '<p>V&aelig;lg &quot;Ja&quot; for at tillade Indl&aelig;g at have MetaData og blive passivt profileret. Dette vil have indvirkning p&aring; performance af &quot;Collaboration Systemet&quot;.<br />MetaData skal ogs&aring; v&aelig;re aktiveret for hele sitet, under setup.</p><p>&nbsp;</p>'
+  },
+  'epochDate' => {
+    'lastUpdated' => 1223917338,
+    'message' => 'Datoen p&aring; hvilken, dette blev indsendt. Datoens format er &quot;epoch dato&quot; hvilket svarer til antallet af sekunder side 1. januar 1970 (p&aring; unix baserede systemer).'
   },
   'fatal' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1223917422,
+    'message' => 'Fatalt (kan ikke forts&aelig;tte indtil dette problem er l&oslash;st)'
   },
   'fatal.label' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1223917492,
+    'message' => 'S&aelig;tningen &quot;Fatalt (kan ikke forts&aelig;tte indtil dette problem er l&oslash;st)&quot;'
   },
   'feed description' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1223917703,
+    'message' => 'Beskrivelsen at rss feedet (kommer fra Collaboration synopsis).'
   },
   'feed title' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1223917738,
+    'message' => 'Titlen p&aring; rss feedet (kommer fra Collaboration titel).'
   },
   'filter code' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1223918794,
+    'message' => 'kode filtrering'
   },
   'filter code description' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1223918780,
+    'message' => 'S&aelig;tter niveauet af HTML filtrering foretaget p&aring; ethvert indl&aelig;g.'
   },
   'flatLayout' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1223918804,
+    'message' => 'Fladt'
   },
   'form.header' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1223918858,
+    'message' => 'HTML og javascript der er n&oslash;dvendigt for at f&aring; denne formular til at virke'
   },
   'form.search' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1223918911,
+    'message' => 'En knap til at inds&aelig;tte i formularen, for at starte en s&oslash;gning.'
   },
   'full text link' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1223918978,
+    'message' => 'URL\'en til den komplettet tekst for elementet.'
   },
   'generator' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1223919044,
+    'message' => 'Programmet der blev brugt til generering af rss feedet, eg. WebGUI + versions information. (valgfrit felt).'
   },
   'get cs mail' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1223919074,
+    'message' => 'Hent Collaboration System Mail'
   },
   'get mail' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1223919552,
+    'message' => '<p>Hent Post?&nbsp;</p>'
   },
   'get mail help' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1223919112,
+    'message' => 'Vil du have at dette &quot;Collaboration System&quot; henter indl&aelig;g fra en email konto?'
   },
   'get mail interval' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1223919142,
+    'message' => 'Check Post Hver'
   },
   'get mail interval help' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1223919169,
+    'message' => 'Hvor tit skal vi checke for email p&aring; serveren?'
   },
   'group to edit hoverhelp' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1223919194,
+    'message' => 'Gruppe der kan redigere indl&aelig;g.'
   },
   'group to edit label' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1223919208,
+    'message' => 'Gruppe der kan redigere indl&aelig;g'
   },
   'guid' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1223919229,
+    'message' => 'Et unikt ID for dette element.'
   },
   'id' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1223919251,
+    'message' => 'Aktiv Id\'et for dette indl&aelig;g.'
   },
   'image' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1223919257,
+    'message' => 'Billede'
   },
   'image.label' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1223919265,
+    'message' => 'Ordet &quot;Billede&quot;'
   },
   'image.url' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1223919325,
+    'message' => 'Hvis dette indl&aelig;g har en vedh&aelig;ftning, er image.url URL\'en til den f&oslash;rste billede vedh&aelig;ftning.'
   },
   'isFifth' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1223924619,
+    'message' => 'En sandhedsv&aelig;rdi der er sand, hvis dette indl&aelig;g er det femte i dette Collaboration Aktiv.'
   },
   'isFourth' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1223924632,
+    'message' => 'En sandhedsv&aelig;rdi der er sand, hvis dette indl&aelig;g er det fjerde i dette Collaboration Aktiv.'
   },
   'isSecond' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1223924645,
+    'message' => 'En sandhedsv&aelig;rdi der er sand, hvis dette indl&aelig;g er det andet i dette Collaboration Aktiv.'
   },
   'isThird' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1223924654,
+    'message' => 'En sandhedsv&aelig;rdi der er sand, hvis dette indl&aelig;g er det tredie i dette Collaboration Aktiv.'
   },
   'item description' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1223924685,
+    'message' => 'En sysopsis for elementet.'
   },
   'item_loop' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1223924724,
+    'message' => 'Loop over indl&aelig;gene der skal transmiteres i dette RSS feed.'
   },
   'job description' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1223924736,
+    'message' => 'Job Beskrivelse'
   },
   'job requirements' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1223924763,
+    'message' => 'Job Krav'
   },
   'job title' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1223924835,
+    'message' => 'Job Titel'
   },
   'job.description.label' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1223924848,
+    'message' => 'S&aelig;tningen &quot;Job Beskrivelse&quot;'
   },
   'job.header.label' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1223924881,
+    'message' => 'S&aelig;tningen &quot;Rediger Job Indl&aelig;g&quot;.'
   },
   'job.requirements.label' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1223924892,
+    'message' => 'S&aelig;tningen &quot;Job Krav&quot;.'
   },
   'job.title.label' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1223924901,
+    'message' => 'S&aelig;tningen &quot;Job Titel&quot;.'
   },
   'karma rank' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1223924909,
+    'message' => 'Karma Rang'
   },
   'karma rating multiplier' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1223925323,
+    'message' => 'Karma der er givet til forfatteren af indl&aelig;g, ved &quot;rating&quot;'
   },
   'karma rating multiplier description' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1223925441,
+    'message' => 'Hvis karma er aktiveret for dit site, er dette, den m&aelig;ngde karma som den originale forfatter af indl&aelig;gget modtager, n&aring;r en anden bruger rater indl&aelig;gget.'
   },
   'karma scale' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1223925461,
+    'message' => 'Karma Skala'
   },
   'karma spent to rate' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1223925477,
+    'message' => 'Karma brugt for at rate'
   },
   'karma spent to rate description' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1223925652,
+    'message' => 'Hvis karma er aktiveret for dit site, er dette den m&aelig;ngde karma der vil blive fratrukket den bruger, der &quot;rater&quot; indl&aelig;gget. Dette er en pris for at rate indl&aelig;g. Det er ment som en mekanisme til at forhindre brugerne i bare at rate alle indl&aelig;g, uden at t&aelig;nke p&aring; selve ratingen.'
   },
   'karma/post' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1223925680,
+    'message' => 'Karma pr. indl&aelig;g'
   },
   'karma/post description' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1223925738,
+    'message' => 'Hvis karma er aktiveret for dit site, er dette m&aelig;ngden af karma en bruger modtager for at indsende et indl&aelig;g.'
   },
   'karmaIsEnabled' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1223925792,
+    'message' => 'En sandhedsv&aelig;rdi der indikerer hvorvidt karma er aktiveret, for dit site, eller ej.'
+  },
+  'keywords label' => {
+    'lastUpdated' => 1223925848,
+    'message' => 'N&oslash;gleord/Tags'
   },
   'lastBuildDate' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1223925879,
+    'message' => 'Dette er datoen hvor dette feed sidst blev opdateret. (valgfrit felt)'
   },
   'lastReply' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1223925889,
+    'message' => 'Seneste Svar'
   },
   'lastReply.dateSubmitted.human' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1223925951,
+    'message' => 'Datoen hvor det sidste svar blev indsendt, i et l&aelig;sevenligt format.'
   },
   'lastReply.label' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1223925980,
+    'message' => 'S&aelig;tningen &quot;Seneste Svar&quot;.'
   },
   'lastReply.timeSubmitted.human' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1223926023,
+    'message' => 'Datoen for hvorn&aring;r det seneste svar blev indsendt, i et l&aelig;sevenligt format.'
   },
   'lastReply.title' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1223926084,
+    'message' => 'Titlen p&aring; det seneste svar.'
   },
   'lastReply.url' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1223926105,
+    'message' => 'URL til det seneste svar p&aring; dette indl&aelig;g.'
   },
   'lastReply.user.isVisitor' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1223926176,
+    'message' => 'En sandheds v&aelig;rdi der er sand, hvis forfatteren af det seneste svar er bes&oslash;gende p&aring; sitet (ikke registreret bruger).'
   },
   'lastReply.userProfile.url' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1223926217,
+    'message' => 'URL\'en til bruger-profilen p&aring; den bruger der indsendte dette indl&aelig;g.'
   },
   'lastReply.username' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1223926243,
+    'message' => 'Navnet p&aring; brugeren der indsendte det seneste svar.'
   },
   'layout' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1223926250,
+    'message' => 'Layout'
   },
   'layout.flat.label' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1223926264,
+    'message' => 'Ordet &quot;Fladt&quot;'
   },
   'layout.label' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1223926276,
+    'message' => 'Ordet &quot;Layout&quot;.'
   },
   'layout.nested.label' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1223926399,
+    'message' => 'Ordet &quot;Hierarkisk&quot;.'
   },
   'link.header.label' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1223926419,
+    'message' => 'S&aelig;tningen &quot;Rediger Link&quot;.'
   },
   'location' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1223926427,
+    'message' => 'Placering'
   },
   'location.label' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1223926452,
+    'message' => 'Ordet &quot;Placering&quot;'
   },
   'lock' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1223926461,
+    'message' => 'L&aring;s'
   },
   'lock.label' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1223926468,
+    'message' => 'Ordet &quot;L&aring;s&quot;.'
   },
   'mail' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1223926482,
+    'message' => 'Mail'
   },
   'mail account' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1223926492,
+    'message' => 'Konto'
   },
   'mail account help' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1223926536,
+    'message' => 'Konto navnet (brugernavn / email adresse) til at logge ind p&aring; mail serveren.'
   },
   'mail address' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1223926564,
+    'message' => 'Adresse'
   },
   'mail address help' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1223926629,
+    'message' => 'Email adressen som brugeren kan sende mail til for at indsende beskeder.'
   },
   'mail password' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1223926637,
+    'message' => 'Kodeord'
   },
   'mail password help' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1223926674,
+    'message' => 'Kodeordet til kontoen, for at logge ind p&aring; serveren'
   },
   'mail prefix' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1223926685,
+    'message' => 'Pr&aelig;fix'
   },
   'mail prefix help' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1223926783,
+    'message' => 'Denne tekst streng vil blive sat foran emne linien p&aring; alle emails der bliver sendt ud at&nbsp; dette Collaboration System.'
   },
   'mail server' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1223926792,
+    'message' => 'Server'
   },
   'mail server help' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1223926821,
+    'message' => 'Hostnavnet eller IP adressen til mail serveren, som der skal hentes mail fra.'
   },
   'max image size' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1223926843,
+    'message' => 'Maksimal billed st&oslash;rrelse'
   },
   'max image size help' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1223927063,
+    'message' => '<p>S&aelig;t st&oslash;rrelsen for billed vedh&aelig;ftninger for dette Collaboration System. Hvis du s&aelig;tter det til 0, s&aring; vil standard v&aelig;rdien fra sitets administrations interface blive benyttet. Bem&aelig;rk at billeder der allerede er i dette Collaboration System, ikke vil blive skaleret ved at &aelig;ndre denne v&aelig;rdi.<br />For at skalere disse skal du gemme hver enket indl&aelig;g igen. (rediger / gem) du beh&oslash;ver dog ikke at uploade billedet igen. </p>'
   },
   'message' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1223927069,
+    'message' => 'Besked'
   },
   'message.header.label' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1223927091,
+    'message' => 'S&aelig;tningen &quot;Rediger Besked&quot;.'
   },
   'message.label' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1223927106,
+    'message' => 'Ordet &quot;Besked&quot;.'
   },
   'minor' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1223927234,
+    'message' => 'Minimal (irriterende, men ikke skadelig)'
   },
   'minor.label' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1223927250,
+    'message' => 'Ordet &quot;Minimal (irriterende, men ikke skadelig)&quot;'
   },
   'nested' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1223927264,
+    'message' => 'Hierarkisk'
   },
   'new window' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1223927275,
+    'message' => '&Aring;bn i et nyt vindue?'
   },
   'newWindow.label' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1223927287,
+    'message' => 'S&aelig;tningen &quot;&Aring;bn i et nyt vindue?&quot;.'
   },
   'next' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1223927416,
+    'message' => 'N&aelig;ste'
   },
   'next.label' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1223927429,
+    'message' => 'Ordet &quot;N&aelig;ste&quot;.'
   },
   'notification template' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1223927482,
+    'message' => 'Collaboration System, Adviserings Skabelon.'
   },
   'notification template description' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1223927536,
+    'message' => 'Skabelonen brugt til at generere emails til brugere der har abonneret p&aring; dette Aktiv.'
   },
   'open' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1223927547,
+    'message' => '&Aring;bn'
   },
   'open.label' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1223927554,
+    'message' => 'Ordet &quot;&Aring;bn&quot;.'
   },
   'post' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1223927565,
+    'message' => 'Indl&aelig;g'
+  },
+  'post received template' => {
+    'lastUpdated' => 1223927593,
+    'message' => 'Skabelon for modtaget indl&aelig;g.'
+  },
+  'post received template hoverHelp' => {
+    'lastUpdated' => 1223927644,
+    'message' => 'Skabelonen for den besked brugeren modtager n&aring;r denne opretter et indl&aelig;g.'
   },
   'post template' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1223927673,
+    'message' => 'Collaboration System, Indl&aelig;gs Formular Skabelon'
   },
   'post template description' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1223927707,
+    'message' => 'Skabelonen for et individuelt indl&aelig;g.'
   },
   'post title' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1223927728,
+    'message' => 'Titlen p&aring; elementet (Indl&aelig;g).'
   },
   'post.label' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1223927737,
+    'message' => 'Ordet &quot;Indl&aelig;g&quot;.'
   },
   'post_loop' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1223927790,
+    'message' => 'En liste af Indl&aelig;g for dette Collateral Aktiv.'
   },
   'posts/page' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1223927811,
+    'message' => 'Indl&aelig;g pr. side.'
   },
   'posts/page description' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1223927917,
+    'message' => 'Antallet af indl&aelig;g der bliver vist p&aring; hver enkelt side i tr&aring;d skabelonen. S&aelig;ttes dette tal meget h&oslash;jt, forl&aelig;nges tiden det tager at generere siden.'
   },
   'preview' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1223927936,
+    'message' => 'preview'
   },
   'previous' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1223927943,
+    'message' => 'Forrige'
   },
   'previous.label' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1223927951,
+    'message' => 'Ordet &quot;Forrige&quot;.'
   },
   'pubDate' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1223927975,
+    'message' => 'Datoen for publiceringen af elementet.'
   },
   'query.form' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1223928053,
+    'message' => 'HTML formular for tilg&oslash;jelse af et felt hvor alle inputs skal v&aelig;re p&aring; matchende sider.'
   },
   'question' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1223928063,
+    'message' => 'Sp&oslash;rgsm&aring;l'
   },
   'question.header.label' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1223928084,
+    'message' => 'S&aelig;tningen &quot;Rediger Sp&oslash;rgsm&aring;l&quot;.'
   },
   'question.label' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1223928096,
+    'message' => 'Ordet &quot;Sp&oslash;rgsm&aring;l&quot;.'
   },
   'rate' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1223928104,
+    'message' => 'Rate'
   },
   'rate.label' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1223928114,
+    'message' => 'Ordet &quot;Rate&quot;.'
   },
   'rating' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1223928124,
+    'message' => 'Rating'
   },
   'rating.label' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1223928136,
+    'message' => 'Ordet &quot;Rating&quot;.'
   },
   'rating_loop' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1223928230,
+    'message' => 'Et loop der gennemg&aring;s for hvert rating point indl&aelig;gget har.'
   },
   'rating_loop.count' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1223928280,
+    'message' => 'Indeks variablen for rating_loop\'et'
   },
   'read more' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1223928287,
+    'message' => 'L&aelig;s Mere'
   },
   'readmore.label' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1223928302,
+    'message' => 'S&aelig;tningen &quot;L&aelig;s Mere&quot;.'
   },
   'rejected' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1223928330,
+    'message' => 'Afvist'
   },
   'rejected because no user account' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1223928468,
+    'message' => 'Du har ikke tilladelse til at indsende meddelelser, da vi ikke kunne finde din bruger konto. M&aring;ske er denne email adresse ikke forbundet med din bruger konto.'
   },
   'rejected because not allowed' => {
     'lastUpdated' => undef,

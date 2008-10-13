@@ -5,5 +5,11 @@ The following was translated by Peter Christiansen - Titlan Data, Denmark
 - Admin Console
 - Asset
 - Asset Article
+. Asset File
+- Asset Layout
+- Date Time
+- Invite
+
+
 
 
