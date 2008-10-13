@@ -1,4 +1,10 @@
-asset = Activo (mayÃºscula, para denotar el sustantivo)
+Escribir los nombres de Assets con la primera letra
+mayuscula permite denotar su cualidad como "objetos".
+
+ad = Publicidad
+ad space = Espacio Publicitario
+asset = Activo
+
 rank = puntaje
 thumbnail = vista en miniatura
 post = publicacion, publicar
@@ -21,7 +27,7 @@ Dashboard = Panel
 Dashlet = Elemento
 Data Form = Formulario de Datos
 MiniCart = MiniCart
-Cache Timeout = Tiempo MÃ¡ximo en Cache
+Cache Timeout = Tiempo MÃÂÃÂÃÂÃÂ¡ximo en Cache
 
 Equipo de traduccion VCB (Colombia):
 
@@ -43,6 +49,9 @@ Usuarios WebGUI de Venezuela
 
     Ildefonso Camargo
     Ernesto Hernandez-Novich
+
+
+
 
 
 
