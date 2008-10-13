@@ -3,7 +3,7 @@ use utf8;
 our $I18N = {
   '12' => {
     'lastUpdated' => 1207721998,
-    'message' => "Editar Art\x{ed}culo"
+    'message' => 'Editar Artículo'
   },
   '28' => {
     'lastUpdated' => 1207721725,
@@ -66,131 +66,124 @@ our $I18N = {
     'message' => 'Adjuntar hasta dos archivos o im&aacute;genes directamente a este Art&iacute;culo. Tenga en cuenta que estos archivos no ser&aacute;n accesibles a trav&eacute;s del administrador de Activos a ning&uacute;n otro Activo.'
   },
   'cache timeout' => {
-    'lastUpdated' => 1207719530,
-    'message' => "Tiempo de Cach\x{e9}"
+    'lastUpdated' => 1223934427,
+    'message' => 'Tiempo M&aacute;ximo en Cache'
   },
   'cache timeout help' => {
-    'lastUpdated' => 1215808906,
-    'message' => 'Dado que todos los usuarios ver&aacute;n este activo de la misma manera, podemos hacerle cach&eacute;&nbsp; durante largos per&iacute;odos de tiempo para aumentar el rendimiento. &iquest;Cu&aacute;nto tiempo debemos hecerle cach&eacute;?'
+    'lastUpdated' => 1223934510,
+    'message' => 'Todos los usuarios ver&aacute;n este Activo de la misma forma, as&iacute; que puede mantenerse en cache para mejorar el desempe&ntilde;o. &iquest;Cu&aacute;nto tiempo mantenerlo en el cache?'
   },
   'cacheTimeout' => {
-    'lastUpdated' => 1207719690,
-    'message' => "La cantidad de tiempo que este art\x{ed}culo se almacenan en cach\x{e9}."
+    'lastUpdated' => 1223934583,
+    'message' => 'Cuantos segundos mantener este Activo en el cache.'
   },
   'description' => {
-    'lastUpdated' => 1207719745,
-    'message' => "La descripci\x{f3}n paginadas."
+    'lastUpdated' => 1223934621,
+    'message' => 'La descripci&oacute;n por p&aacute;ginas.'
   },
   'description.first.100words' => {
-    'lastUpdated' => 1207719876,
-    'message' => "Las primeras 100 palabras en la descripci\x{f3}n. Las palabras se definen como caracteres separados por espacios en blanco, de modo que las etiquetas HTML y las entidades cuenten como palabras."
+    'lastUpdated' => 1223934682,
+    'message' => 'Las primeras 100 palabras en la descripci&oacute;n. Se define una palabras como caracteres separados por espacios en blanco, de modo que las etiquetas HTML y las entidades cuentan como palabras.'
   },
   'description.first.10words' => {
-    'lastUpdated' => 1207719926,
-    'message' => "Las primeras 10 palabras en la descripci\x{f3}n. Las palabras se definen como caracteres separados por espacios en blanco, de modo que las etiquetas HTML y las entidades cuenten como palabras."
+    'lastUpdated' => 1223935012,
+    'message' => 'Las primeras 10 palabras en la descripci&oacute;n. Se define una palabras como caracteres separados por espacios en blanco, de modo que las etiquetas HTML y las entidades cuentan como palabras.'
   },
   'description.first.25words' => {
-    'lastUpdated' => 1207719963,
-    'message' => "Las primeras 25 palabras en la descripci\x{f3}n. Las palabras se definen como caracteres separados por espacios en blanco, de modo que las etiquetas HTML y las entidades cuenten como palabras."
+    'lastUpdated' => 1223934825,
+    'message' => 'Las primeras 25 palabras en la descripci&oacute;n. Se define una palabras como caracteres separados por espacios en blanco, de modo que las etiquetas HTML y las entidades cuentan como palabras.'
   },
   'description.first.2paragraphs' => {
-    'lastUpdated' => 1207720243,
-    'message' => "Los primeros dos p\x{e1}rrafos de la descripci\x{f3}n. Un p\x{e1}rrafo se determina contando los espacios de \x{201c}enter\x{201d} en el texto."
+    'lastUpdated' => 1223935095,
+    'message' => 'Los primeros 2 p&aacute;rrafos de la descripci&oacute;n. Un p&aacute;rrafo se determina contando los espacios de &ldquo;salto de l&iacute;nea&rdquo; en el texto.'
   },
   'description.first.2sentences' => {
-    'lastUpdated' => 1207720335,
-    'message' => "Las dos primeras frases en la descripci\x{f3}n. La frase es determinada por el recuento de los per\x{ed}odos que figuran en el texto."
+    'lastUpdated' => 1223935140,
+    'message' => 'Las dos primeras frases en la descripci&oacute;n. La cantidad de frases se establece contando el n&uacute;mero de puntos (.) que aparecen en el texto.'
   },
   'description.first.3sentences' => {
-    'lastUpdated' => 1207720405,
-    'message' => "Las tres primeras frases en la descripci\x{f3}n. La frase es determinada por el recuento de los per\x{ed}odos que figuran en el texto."
+    'lastUpdated' => 1223934961,
+    'message' => 'Las tres primeras frases en la descripci&oacute;n. La cantidad de frases se establece contando el n&uacute;mero de puntos (.) que aparecen en el texto.'
   },
   'description.first.4sentences' => {
-    'lastUpdated' => 1207720453,
-    'message' => "Las cuatro primeras frases en la descripci\x{f3}n. La frase es determinada por el recuento de los per\x{ed}odos que figuran en el texto."
+    'lastUpdated' => 1223934988,
+    'message' => 'Las cuatro primeras frases en la descripci&oacute;n. La cantidad de frases se establece contando el n&uacute;mero de puntos (.) que aparecen en el texto.'
   },
   'description.first.50words' => {
-    'lastUpdated' => 1207720534,
-    'message' => "Las primeras 50 palabras en la descripci\x{f3}n. Las palabras se definen como caracteres separados por espacios en blanco, de modo que las etiquetas HTML y las entidades cuentan como palabras."
+    'lastUpdated' => 1223935055,
+    'message' => 'Las primeras 50 palabras en la descripci&oacute;n. Se define una palabras como caracteres separados por espacios en blanco, de modo que las etiquetas HTML y las entidades cuentan como palabras.'
   },
   'description.first.75words' => {
-    'lastUpdated' => 1207720600,
-    'message' => "Las primeras 75 palabras en la descripci\x{f3}n. Las palabras se definen como caracteres separados por espacios en blanco, de modo que las etiquetas HTML y las entidades cuentan como palabras."
+    'lastUpdated' => 1223935084,
+    'message' => 'Las primeras 75 palabras en la descripci&oacute;n. Se define una palabras como caracteres separados por espacios en blanco, de modo que las etiquetas HTML y las entidades cuentan como palabras.'
   },
   'description.first.paragraph' => {
-    'lastUpdated' => 1207720682,
-    'message' => "El primer p\x{e1}rrafo de la descripci\x{f3}n. Un p\x{e1}rrafo se determina contando los espacios de \x{201c}enter\x{201d} en el texto."
+    'lastUpdated' => 1223935129,
+    'message' => 'El primer p&aacute;rrafo de la descripci&oacute;n. Un p&aacute;rrafo se determina contando los espacios de &ldquo;salto de l&iacute;nea&rdquo; en el texto.'
   },
   'description.first.sentence' => {
-    'lastUpdated' => 1207720742,
-    'message' => "La primera frase en la descripci\x{f3}n. La frase es determinada por el recuento de los per\x{ed}odos que figuran en el texto."
+    'lastUpdated' => 1223935170,
+    'message' => 'La primera frase en la descripci&oacute;n. La cantidad de frases se establece contando el n&uacute;mero de puntos (.) que aparecen en el texto.'
   },
   'description.full' => {
-    'lastUpdated' => 1207720779,
-    'message' => "	
-La descripci\x{f3}n completa sin ning\x{fa}n tipo de paginaci\x{f3}n."
+    'lastUpdated' => 1223935195,
+    'message' => '	 La descripci&oacute;n completa.'
   },
   'filename' => {
-    'lastUpdated' => 1207720800,
-    'message' => 'El nombre del archivo.'
+    'lastUpdated' => 1223935264,
+    'message' => 'Nombre del archivo adjunto.'
   },
   'iconUrl' => {
-    'lastUpdated' => 1215808996,
-    'message' => 'La URL del icono del&nbsp; tipo de archivo para este archivo '
+    'lastUpdated' => 1223935276,
+    'message' => 'URL del &iacute;cono asociado al tipo de archivo adjunto.<br /> '
   },
   'image.thumbnail' => {
-    'lastUpdated' => 1207720871,
-    'message' => 'La URL a la miniatura de la imagen adjunta.'
+    'lastUpdated' => 1223935253,
+    'message' => 'URL a la imagen miniatura de la imagen adjunta.'
   },
   'image.url' => {
-    'lastUpdated' => 1207720986,
-    'message' => 'La URL a la imagen adjunta.'
+    'lastUpdated' => 1223935286,
+    'message' => 'URL a la imagen adjunta.'
   },
   'isImage' => {
-    'lastUpdated' => 1207721107,
-    'message' => 'Un valor booleano que indica si se trata de una imagen o no.'
+    'lastUpdated' => 1223935307,
+    'message' => 'Un condicional que indica si el adjunto es una imagen.'
   },
   'link title description' => {
-    'lastUpdated' => 1207721174,
-    'message' => "Si deseas a\x{f1}adir un enlace a tu art\x{ed}culo, introduce el t\x{ed}tulo de la relaci\x{f3}n en este campo. 
-
-Ejemplo: Google
-"
+    'lastUpdated' => 1223935367,
+    'message' => 'Para a&ntilde;adir un enlace externo al Art&iacute;culo, introduce el t&iacute;tulo del enlace externo. Ejemplo: Google'
   },
   'link url description' => {
-    'lastUpdated' => 1207721285,
-    'message' => "Si a\x{f1}adiste un enlace t\x{ed}tulo, ahora a\x{f1}ade la URL aqu\x{ed} 
-
-Ejemplo: http://www.google.com
-"
+    'lastUpdated' => 1223935409,
+    'message' => 'Para a&ntilde;adir un enlace externo al Art&iacute;culo, indique el URL del enlace externo. Ejemplo: http://www.google.com '
   },
   'linkTitle' => {
-    'lastUpdated' => 1207721329,
-    'message' => "El t\x{ed}tulo del enlace a\x{f1}adido al art\x{ed}culo."
+    'lastUpdated' => 1223935426,
+    'message' => 'T&iacute;tulo del enlace externo a&ntilde;adido al Art&iacute;culo.'
   },
   'linkURL' => {
-    'lastUpdated' => 1207721363,
-    'message' => "La URL para el enlace a\x{f1}adido al art\x{ed}culo."
+    'lastUpdated' => 1223935447,
+    'message' => 'URL del enlace externo a&ntilde;adido al Art&iacute;culo.'
   },
   'new.template' => {
-    'lastUpdated' => 1216239297,
-    'message' => 'Los art&iacute;culos tienen la especial capacidad de cambiar su plantilla para que pueda permitir a los usuarios tener vistas diferentes del art&iacute;culo. Para esto puede crear un v&iacute;nculo con una URL como esta (sustituir 999 con el ID de la plantilla que desee utilizar):  <a href="%3Ctmpl_var%20new.template%3E%20999"> Leer m&aacute;s ...<!-- a--></a>'
+    'lastUpdated' => 1223935537,
+    'message' => 'Los art&iacute;culos tienen la habilidad de cambiar su plantilla para permitir a los usuarios tener diferentes vistas para el mismo art&iacute;culo. Para esto puede crear un v&iacute;nculo con una URL similar a esta (sustituir 999 con el ID de la plantilla que desee utilizar):  <a href="%3Ctmpl_var%20new.template%3E%20999"> Leer m&aacute;s ...<!-- a--></a>'
   },
   'storageId' => {
-    'lastUpdated' => 1215809054,
-    'message' => 'El Id para el objeto de almacenamiento de este activo que es usado para almacenar alg&uacute;n adjunto.'
+    'lastUpdated' => 1223935615,
+    'message' => 'ID del objeto de almacenamiento de este Activo, necesario para almacenar los adjuntos.'
   },
   'templateId' => {
-    'lastUpdated' => 1207721576,
-    'message' => 'Id de que la plantilla utiliza para mostrar este Activo.'
+    'lastUpdated' => 1223935631,
+    'message' => 'ID de la plantilla utiliza para mostrar este Activo.'
   },
   'thumbnailUrl' => {
-    'lastUpdated' => 1207721649,
-    'message' => 'La URL de la imagen en miniatura de este archivo.'
+    'lastUpdated' => 1223935688,
+    'message' => 'URL de la imagen en miniatura para la imagen adjunta.'
   },
   'url' => {
-    'lastUpdated' => 1207721700,
-    'message' => 'La URL para descargar el archivo.'
+    'lastUpdated' => 1223935663,
+    'message' => 'URL para descargar el archivo adjunto.'
   }
 }
 ;
