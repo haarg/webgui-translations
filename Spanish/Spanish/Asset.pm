@@ -86,8 +86,8 @@ our $I18N = {
     'message' => '&iquest;Qui&eacute;n puede Editar?'
   },
   '871 description' => {
-    'lastUpdated' => 1223926567,
-    'message' => 'Inidque el grupo que puede editar este Activo. La posibilidad de Editar incluye la posibilidad de Ver el Activo. Por defecto ser&aacute; el grupo que puede editar el Activo padre.'
+    'lastUpdated' => 1223934020,
+    'message' => 'Indique el grupo que puede editar este Activo. La posibilidad de Editar incluye la posibilidad de Ver el Activo. Por defecto ser&aacute; el grupo que puede editar el Activo padre.'
   },
   '872' => {
     'lastUpdated' => 1223926581,

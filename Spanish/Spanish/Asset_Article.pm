@@ -10,20 +10,20 @@ our $I18N = {
     'message' => 'Ver respuestas'
   },
   '7' => {
-    'lastUpdated' => 1207721779,
-    'message' => "T\x{ed}tulo Link"
+    'lastUpdated' => 1223933947,
+    'message' => 'Titulo de la Fuente'
   },
   '72' => {
-    'lastUpdated' => 1207721806,
-    'message' => "Art\x{ed}culo plantilla"
+    'lastUpdated' => 1223933829,
+    'message' => 'Plantilla para Art&iacute;culo'
   },
   '73' => {
-    'lastUpdated' => 1207721928,
-    'message' => "La siguiente plantilla est\x{e1} disponible para plantillas de art\x{ed}culo."
+    'lastUpdated' => 1223933890,
+    'message' => 'Las siguientes variables de Art&iacute;culos est&aacute;n disponibles en las plantillas para Art&iacute;culos'
   },
   '8' => {
-    'lastUpdated' => 1207721972,
-    'message' => 'Enlace URL'
+    'lastUpdated' => 1223933957,
+    'message' => 'URL de la Fuente'
   },
   'article asset template variables body' => {
     'lastUpdated' => 1207718159,
