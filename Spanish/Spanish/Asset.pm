@@ -6,8 +6,8 @@ our $I18N = {
     'message' => 'URL'
   },
   '104 description' => {
-    'lastUpdated' => 1186063872,
-    'message' => 'El URL para este activo. Debe ser &uacute;nico. Si deja este campo en blanco, el sistema crear&aacute; un URL a partir del URL del activo madre y del <strong>T&iacute;tulo de Men&uacute;</strong>'
+    'lastUpdated' => 1223925930,
+    'message' => 'El URL para este Activo. Debe ser &uacute;nico. Si deja este campo en blanco, el sistema crear&aacute; un URL a partir del URL del Activo padre y del <strong>T&iacute;tulo de Men&uacute;</strong>'
   },
   '105' => {
     'lastUpdated' => 1215095145,
@@ -22,52 +22,52 @@ our $I18N = {
     'message' => 'Plantilla de estilo'
   },
   '1079' => {
-    'lastUpdated' => 1186063123,
-    'message' => 'Estilo de impresi&oacute;n'
+    'lastUpdated' => 1223925997,
+    'message' => 'Estilo para Impresi&oacute;n'
   },
   '108' => {
-    'lastUpdated' => 1186063133,
-    'message' => 'Propietario'
+    'lastUpdated' => 1223926010,
+    'message' => 'Due&ntilde;o'
   },
   '108 description' => {
-    'lastUpdated' => 1186063807,
-    'message' => '<p>El propietario de un activo es habitualmente la persona que cre&oacute; el activo. Este usuario siempre tiene los derechos plenos de edici&oacute;n y de visualizaci&oacute;n del activo. Estos ser&aacute;n por defecto los derechos del due&ntilde;o del activo madre.</p><p>NOTA: El propietario s&oacute;lo puede ser modificado por un administrador.&nbsp;</p>'
+    'lastUpdated' => 1223926171,
+    'message' => '<p>El usuario que crea un Activo se convierte en su due&ntilde;o autom&aacute;ticamente. El due&ntilde;o siempre tiene plenos derechos para editar y mirar el Activo. Si no se especifica, su due&ntilde;o ser&aacute; el mismo que el due&ntilde;o del Activo padre.</p><p><strong>NOTA</strong>: Solamente un administrador puede cambiar el due&ntilde;o de un Activo.</p>'
   },
   '1082' => {
     'lastUpdated' => 1186063893,
     'message' => 'Portapapeles'
   },
   '1083' => {
-    'lastUpdated' => 1186063905,
-    'message' => 'Contenido nuevo'
+    'lastUpdated' => 1223926232,
+    'message' => 'Nuevos Contenidos'
   },
   '11' => {
-    'lastUpdated' => 1186063919,
-    'message' => 'Vaciar papelera'
+    'lastUpdated' => 1223926269,
+    'message' => 'Vaciar Papelera'
   },
   '174' => {
-    'lastUpdated' => 1186063931,
-    'message' => 'Mostrar el t&iacute;tulo?'
+    'lastUpdated' => 1223926278,
+    'message' => '&iquest;Mostrar el t&iacute;tulo?'
   },
   '411' => {
-    'lastUpdated' => 1186063942,
-    'message' => 'T&iacute;tulo de men&uacute;'
+    'lastUpdated' => 1223926287,
+    'message' => 'T&iacute;tulo de Men&uacute;'
   },
   '411 description' => {
-    'lastUpdated' => 1186063991,
-    'message' => 'Un t&iacute;tulo abreviado que aparecer&aacute; en la navegaci&oacute;n. Si se deja en blanco tomar&aacute; por defecto el valor de del <strong>T&iacute;tulo</strong>'
+    'lastUpdated' => 1223926344,
+    'message' => 'Un t&iacute;tulo m&aacute;s corto que aparecer&aacute; en los activos de Navegaci&oacute;n. Si se deja en blanco, tendr&aacute; el valor del <strong>T&iacute;tulo</strong>'
   },
   '412' => {
     'lastUpdated' => 1186064004,
     'message' => 'Resumen'
   },
   '412 description' => {
-    'lastUpdated' => 1186064028,
-    'message' => 'Una breve descripci&oacute;n de este activo.'
+    'lastUpdated' => 1223926372,
+    'message' => 'Una descripci&oacute;n resumida de este Activo.'
   },
   '43' => {
-    'lastUpdated' => 1186064066,
-    'message' => 'Est&aacute; seguro que desea eliminar este contenido? Tenga en cuenta que este cambio no tiene control de versi&oacute;n y tendr&aacute; lugar inmediatamente.'
+    'lastUpdated' => 1223926433,
+    'message' => '&iquest;Est&aacute; seguro que desea eliminar este contenido? Tenga en cuenta que este cambio no est&aacute; sujeto al control de versiones, tendr&aacute; lugar inmediatamente y no puede revertirse.'
   },
   '486' => {
     'lastUpdated' => 1186064077,
@@ -82,196 +82,196 @@ our $I18N = {
     'message' => 'Descripci&oacute;n'
   },
   '871' => {
-    'lastUpdated' => 1186064104,
-    'message' => 'Qui&eacute;n puede editar?'
+    'lastUpdated' => 1223926471,
+    'message' => '&iquest;Qui&eacute;n puede Editar?'
   },
   '871 description' => {
-    'lastUpdated' => 1186064161,
-    'message' => 'Elija el grupo que puede editar este activo. El grupo que se le asigne derechos de edici&oacute;n tambi&eacute;n podr&aacute; visualizar el activo. Por defecto ser&aacute; el grupo que puede editar el activo madre de este activo.'
+    'lastUpdated' => 1223926567,
+    'message' => 'Inidque el grupo que puede editar este Activo. La posibilidad de Editar incluye la posibilidad de Ver el Activo. Por defecto ser&aacute; el grupo que puede editar el Activo padre.'
   },
   '872' => {
-    'lastUpdated' => 1186064175,
-    'message' => 'Qu&iacute;en puede ver?'
+    'lastUpdated' => 1223926581,
+    'message' => '&iquest;Qui&eacute;n puede Ver?'
   },
   '872 description' => {
-    'lastUpdated' => 1186064365,
-    'message' => 'Elija un grupo que puede ver este activo. Si desea que tanto visitantes como usuarios registrados puedan ver este activo, entonces deber&aacute; eligir el grupo &quot;Cualquiera&quot;. Por defecto se colocar&aacute; aqu&iacute; el grupo que puede ver el activo madre de este activo.'
+    'lastUpdated' => 1223926672,
+    'message' => 'Indique el grupo que puede Ver este activo. Indique el grupo &quot;Cualquiera&quot; si desea que el Activo sea visible tanto a usuarios registrados como a visitantes. Por defecto se otorga el privilegio al grupo que puede Ver el Activo padre.'
   },
   '886' => {
-    'lastUpdated' => 1186064430,
-    'message' => 'Ocultar de la navegaci&oacute;n?'
+    'lastUpdated' => 1223926694,
+    'message' => '&iquest;Ocultar de la Navegaci&oacute;n?'
   },
   '886 description' => {
-    'lastUpdated' => 1186064569,
-    'message' => 'Define si este activo ser&aacute; ocultado o no en los men&uacute;s de navegaci&oacute;n y en mapas del sitio.'
+    'lastUpdated' => 1223926732,
+    'message' => 'Indica si este Activo ser&aacute; ocultado o no, impidiendo que aparezca en los men&uacute;s de Navegaci&oacute;n y en Mapas del Sitio.'
   },
   '895' => {
-    'lastUpdated' => 1190392480,
-    'message' => "Desconexi\x{f3}n por cach\x{e9}."
+    'lastUpdated' => 1223926769,
+    'message' => 'Tiempo M&aacute;ximo en Cache'
   },
   '896' => {
-    'lastUpdated' => 1190392504,
-    'message' => "Desconexi\x{f3}n por cach\x{e9} (visitantes)."
+    'lastUpdated' => 1223926794,
+    'message' => 'Tiempo M&aacute;ximo en Cache (visitantes).'
   },
   '940' => {
-    'lastUpdated' => 1186064695,
-    'message' => 'Abrir en nueva ventana?'
+    'lastUpdated' => 1223926815,
+    'message' => '&iquest;Abrir en una ventana separada?'
   },
   '940 description' => {
-    'lastUpdated' => 1186064848,
-    'message' => 'Seleccione &quot;si&quot; para abrir en una nueva ventana. Tenga en cuenta que potencionamente puede tener problemas con esto. Puede suceder que no funcione en algunos navegadores, o si el usuario desactiva el javascript, o si queda bloqueado por algun bloqueador de ventanas emergentes. Utilice esta caracter&iacute;stica con cuidado.'
+    'lastUpdated' => 1223926948,
+    'message' => 'Seleccione &quot;si&quot; para presentar este Activo en una ventana separada. Esto puede resultar problem&aacute;tico, pues podr&iacute;a no funcionar en algunos navegadores Web, ni tampoco funcionar si el usuario desactiva el JavaScript o bien lo impide alg&uacute;n bloqueador de ventanas emergentes. Utilice esta caracter&iacute;stica con cuidado.'
   },
   '949' => {
-    'lastUpdated' => 1186064886,
-    'message' => 'Gestionar portapapeles.'
+    'lastUpdated' => 1223927006,
+    'message' => 'Administrar el Portapapeles.'
   },
   '950' => {
-    'lastUpdated' => 1186064912,
-    'message' => 'Vaciar portapapeles.'
+    'lastUpdated' => 1223927013,
+    'message' => 'Vaciar el Portapapeles.'
   },
   '951' => {
-    'lastUpdated' => 1186064999,
-    'message' => 'Esta seguro que desea transferir el contenido del portapapeles a la basura?'
+    'lastUpdated' => 1223927038,
+    'message' => '&iquest;Est&aacute; seguro que desea transferir el contenido del Portapapeles a la Papelera?'
   },
   '954' => {
-    'lastUpdated' => 1186065178,
-    'message' => 'Gestionar portapapeles del sistema.'
+    'lastUpdated' => 1223927055,
+    'message' => 'Administrar el Portapapeles del sistema.'
   },
   '959' => {
-    'lastUpdated' => 1186065192,
-    'message' => 'Vaciar portapapeles del sistema.'
+    'lastUpdated' => 1223927064,
+    'message' => 'Vaciar el Portapapeles del sistema.'
   },
   '964' => {
-    'lastUpdated' => 1186065206,
-    'message' => 'Gestionar basura del sistema.'
+    'lastUpdated' => 1223927082,
+    'message' => 'Administrar la Papelera del sistema.'
   },
   '965' => {
-    'lastUpdated' => 1186065220,
-    'message' => 'Basura del sistema.'
+    'lastUpdated' => 1223927091,
+    'message' => 'Papelera del sistema.'
   },
   '966' => {
-    'lastUpdated' => 1186065245,
+    'lastUpdated' => 1223927098,
     'message' => 'Portapapeles del sistema.'
   },
   '99' => {
-    'lastUpdated' => 1186065254,
+    'lastUpdated' => 1223927110,
     'message' => 'T&iacute;tulo'
   },
   '99 description' => {
-    'lastUpdated' => 1186065412,
-    'message' => '<p>El t&iacute;tulo del activo. Este deber&iacute;a ser descriptivo, pero no muy extenso. Si lo deja en blanco, figurar&aacute; como &quot;Untitled&quot;. Macros, HTML y javascript no pueden ser colocados en el t&iacute;tulo.</p><p>NOTA: siempre se deber&iacute;a proveer un t&iacute;tulo, inclusi si la plantilla del activo no lo utiliza. En varios lugares del sitio, tales como Arbol de p&aacute;ginas, Portapapeles y Basura, el <strong>T&iacute;tulo</strong> es usado para distinguir este activo de otros. </p>'
+    'lastUpdated' => 1223927241,
+    'message' => '<p>T&iacute;tulo del Activo. Este deber&iacute;a ser descriptivo, pero no muy extenso. Si lo deja en blanco, figurar&aacute; como &quot;Untitled&quot;. El t&iacute;tulo no puede contener Macros, marcas HTML ni fragmentos JavaScript.</p><p><strong>Nota</strong>: especifique un t&iacute;tulo siempre, a&uacute;n si la plantilla del Activo no lo utiliza. En diferentes lugares del sitio, tales como el Arbol de P&aacute;ginas, el Portapapeles y la Papelera, el <strong>T&iacute;tulo</strong> es usado para distinguir los Activos entre s&iacute;. </p>'
   },
   'Add new field' => {
-    'lastUpdated' => 1182029349,
-    'message' => 'Agregar campo nuevo'
+    'lastUpdated' => 1223927271,
+    'message' => 'Agregar campo de meta-datos'
   },
   'Add new field description' => {
-    'lastUpdated' => 1182029914,
-    'message' => "Agregar nueva descripci\x{f3}n de campo"
+    'lastUpdated' => 1223927293,
+    'message' => 'Agregar campos de meta-datos al Activo.'
   },
   'Class Icon' => {
-    'lastUpdated' => 1186062787,
-    'message' => 'Ic&oacute;n de clase'
+    'lastUpdated' => 1223927319,
+    'message' => 'Icono'
   },
   'Class Icon help' => {
-    'lastUpdated' => 1186062896,
-    'message' => '<p>Cada activo mostrar&aacute; adem&aacute;s un &iacute;cono de clase. La mayor&iacute;a de &iacute;conos de clase son espec&iacute;ficos de este activo y son versiones reducidos de los &iacute;conos del men&uacute; de &quot;Nuevo contenido&quot; en la consola de administraci&oacute;n de este activo. Haciendo clic sobre el &iacute;cono de clase mostrar&aacute; un men&uacute; desplegable con opciones de edici&oacute;n adicionales.</p>'
+    'lastUpdated' => 1223927458,
+    'message' => 'Cada clase de Activos tiene un &iacute;cono asociado. Generalmente se trata de una versi&oacute;n reducida de los &iacute;conos que aparecen en el men&uacute; &quot;Nuevo Contenido&quot; en la Consola Administrativa. Al hacer click sobre el &iacute;conose presenta un un men&uacute; desplegable con opciones adicionales de edici&oacute;n.'
   },
   'Copy' => {
     'lastUpdated' => 1223498562,
     'message' => 'Copiar'
   },
   'Data Type description' => {
-    'lastUpdated' => 1186062917,
-    'message' => 'Eliga el tipo de elemento de forma para este campo.'
+    'lastUpdated' => 1223927519,
+    'message' => 'Indique el tipo del elemento de formulario HTML para este campo.'
   },
   'Delete Metadata field' => {
-    'lastUpdated' => 1186062942,
-    'message' => 'Eliminar propiedad Metadata'
+    'lastUpdated' => 1223927549,
+    'message' => 'Eliminar propiedad de meta-datos.'
   },
   'Depth' => {
     'lastUpdated' => 1186062951,
     'message' => 'Profundidad'
   },
   'Depth description' => {
-    'lastUpdated' => 1186062997,
-    'message' => 'Fija la profundidad del &aacute;rbol de p&aacute;gina a exportar. Use una profundidad de 0 (zero) para exportar &uacute;nicamente la p&aacute;gina actual.'
+    'lastUpdated' => 1223927703,
+    'message' => 'Establece la profundidad de la jerarqu&iacute;a de p&aacute;ginas a exportar. Si se indica cero como profundidad, solamente se exportar&aacute; la p&aacute;gina actual.'
   },
   'Edit Metadata' => {
-    'lastUpdated' => 1186063012,
-    'message' => 'Editar propiedad Metadata'
+    'lastUpdated' => 1223927737,
+    'message' => 'Editar propiedad de meta-datos'
   },
   'Error: Cannot instantiate template' => {
     'lastUpdated' => 1223498583,
     'message' => 'Error: No se pudo instanciar la plantilla'
   },
   'Export Page' => {
-    'lastUpdated' => 1186063022,
+    'lastUpdated' => 1223927757,
     'message' => 'Exportar p&aacute;gina'
   },
   'Export as user' => {
-    'lastUpdated' => 1186065232,
+    'lastUpdated' => 1223927768,
     'message' => 'Exportar como usuario.'
   },
   'Export as user description' => {
-    'lastUpdated' => 1186065460,
-    'message' => 'Correr la exportaci&oacute;n como este usuario. Por defecto es Visitante.'
+    'lastUpdated' => 1223927883,
+    'message' => 'Ejecutar el proceso de exportado con una identidad espec&iacute;fica. Por defecto se ejecuta como &quot;Visitante&quot;.'
   },
   'Export site root URL' => {
     'lastUpdated' => 1223498602,
     'message' => 'Exportar URL ra&iacute;z del sitio'
   },
   'Extras URL' => {
-    'lastUpdated' => 1186065496,
+    'lastUpdated' => 1223927894,
     'message' => 'URL de Extras'
   },
   'Extras URL description' => {
-    'lastUpdated' => 1186065586,
-    'message' => 'Fija el URL de Extras. Por defecto figura el URL de Extras del archivo de configuraci&oacute;n de WebGUI.'
+    'lastUpdated' => 1223927952,
+    'message' => 'Establece el URL para los elementos Extras de WebGUI. Inicialmente se toma el valor contenido en el archivo de configuraci&oacute;n WebGUI.'
   },
   'Field Id' => {
-    'lastUpdated' => 1186065605,
-    'message' => 'Id de Campo'
+    'lastUpdated' => 1223927963,
+    'message' => 'ID del Campo'
   },
   'Field Name description' => {
-    'lastUpdated' => 1215095215,
-    'message' => 'El nombre de la propiedad de metadato. Debe ser &uacute;nico.<br />Es recomendable utilizar &uacute;nicamente letras (a-z), n&uacute;meros (0-9) o guiones bajos (_) para los nombres de campos. No utilice caracteres acentuados ni e&ntilde;es.'
+    'lastUpdated' => 1223928025,
+    'message' => 'El nombre de la propiedad de meta-datos. Debe ser &uacute;nico en todo el sistema, y solamente debe emplear letras, n&uacute;meros o guiones bajos (_). No utilice caracteres acentuados ni e&ntilde;es.'
   },
   'Field name' => {
-    'lastUpdated' => 1186065712,
-    'message' => 'Nombre de Campo'
+    'lastUpdated' => 1223928034,
+    'message' => 'Nombre del Campo'
   },
   'Metadata' => {
-    'lastUpdated' => 1186065728,
-    'message' => 'Metadata'
+    'lastUpdated' => 1223928043,
+    'message' => 'Meta-datos'
   },
   'Metadata Description description' => {
-    'lastUpdated' => 1186065792,
-    'message' => 'Una descripci&oacute;n opcional para esta propiedad de metadata. Este texto se visualiza como cuando el rat&oacute;n pasa por el texto de la pesta&ntilde;a Propiedades del activo.'
+    'lastUpdated' => 1223928097,
+    'message' => 'Una descripci&oacute;n para esta propiedad de meta-datos. Este texto es opcional y ser&aacute; presentado cuando el rat&oacute;n pase por el texto de la pesta&ntilde;a Propiedades del Activo.'
   },
   'Page Export' => {
-    'lastUpdated' => 1186065817,
-    'message' => 'P&aacute;gina, exportaci&oacute;n'
+    'lastUpdated' => 1223928115,
+    'message' => 'P&aacute;gina, Exportar'
   },
   'Page Export Status' => {
-    'lastUpdated' => 1186065835,
-    'message' => 'Estado de la exportaci&oacute;n de la p&aacute;gina'
+    'lastUpdated' => 1223928170,
+    'message' => 'Estado del Exportado de la P&aacute;gina'
   },
   'Possible Values description' => {
-    'lastUpdated' => 1215718617,
-    'message' => 'Este campo se usa &uacute;nicamente para los datos tipo &quot;Lista de Radio&quot; y &quot;Lista de Selecci&oacute;n&quot;. Ingrese los valores que desea mostrar, uno por l&iacute;nea. Cada l&iacute;nea deber&iacute;a tener menos de 255 caracteres de longitud.'
+    'lastUpdated' => 1223928209,
+    'message' => 'Este campo se emplea &uacute;nicamente para los datos de tipo &quot;Lista de Radio&quot; y &quot;Lista de Selecci&oacute;n&quot;. Ingrese los valores que desea mostrar, uno por l&iacute;nea. Cada l&iacute;nea deber&iacute;a tener menos de 255 caracteres de longitud.'
   },
   'Select' => {
-    'lastUpdated' => 1186065954,
-    'message' => 'Seleccionar ...'
+    'lastUpdated' => 1223928220,
+    'message' => 'Seleccionar...'
   },
   'Uploads URL' => {
-    'lastUpdated' => 1190392528,
-    'message' => 'URL para subir archivos.'
+    'lastUpdated' => 1223928235,
+    'message' => 'URL para Uploads'
   },
   'Uploads URL description' => {
-    'lastUpdated' => 1190392757,
-    'message' => "Fija el URL para subir archivos. Por defecto apunta a la variable uploadsURL en el archivo de configuraci\x{f3}n de WebGUI."
+    'lastUpdated' => 1223928290,
+    'message' => 'Establece el URL para Uploads, i.e. subir archivos al sistema. Por defecto se toma el valor definido en el archivo de configuraci&oacute;n WebGUI.'
   },
   'add the missing page' => {
     'lastUpdated' => 1186066504,
