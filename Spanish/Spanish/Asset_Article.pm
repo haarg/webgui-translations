@@ -26,44 +26,44 @@ our $I18N = {
     'message' => 'URL de la Fuente'
   },
   'article asset template variables body' => {
-    'lastUpdated' => 1207718159,
-    'message' => "Todos los activos proporcionan un conjunto de variables a la mayor\x{ed}a de sus plantillas basados en el interior de las propiedades activas. Algunas de estas variables pueden ser \x{fa}tiles, otrass no."
+    'lastUpdated' => 1223934113,
+    'message' => 'Todos los Activos proveen un conjunto de variables para acceder a sus propiedades, que est&aacute;n disponibles para ser utilizadas en sus plantillas.'
   },
   'article asset template variables title' => {
-    'lastUpdated' => 1215808828,
-    'message' => 'Variables para la plantilla del activo articulo'
+    'lastUpdated' => 1223934141,
+    'message' => 'Variables para Plantillas de Art&iacute;culos'
   },
   'article template description' => {
-    'lastUpdated' => 1207718506,
-    'message' => "Seleccione una plantilla de la lista a su disposici\x{f3}n Wobject. Cada Wobject s\x{f3}lo podr\x{e1} utilizar plantillas para sus propios nombres. Por ejemplo, los art\x{ed}culos s\x{f3}lo pueden utilizar plantillas denominadas \"art\x{ed}culo\". Dise\x{f1}os s\x{f3}lo pueden utilizar plantillas denominadas \"p\x{e1}gina\"."
+    'lastUpdated' => 1223934255,
+    'message' => 'Seleccione de la lista la plantilla a utilizar para presentar el Wobject. Cada Wobject s&oacute;lo podr&aacute; utilizar plantillas de su propio espacio de nombres. Por ejemplo, los Art&iacute;culos s&oacute;lo pueden utilizar plantillas del espacio de nombres &quot;Art&iacute;culo&quot;.'
   },
   'assetName' => {
-    'lastUpdated' => 1216239167,
+    'lastUpdated' => 1223934271,
     'message' => 'Art&iacute;culo'
   },
   'attachment.icon' => {
-    'lastUpdated' => 1207718625,
-    'message' => 'La URL al icono para este tipo de archivos adjuntos.'
+    'lastUpdated' => 1223934295,
+    'message' => 'URL al &iacute;cono para este tipo de archivos adjuntos.'
   },
   'attachment.name' => {
-    'lastUpdated' => 1207718671,
-    'message' => 'El nombre de archivo para este archivo adjunto.'
+    'lastUpdated' => 1223934316,
+    'message' => 'Nombre del archivo adjunto.'
   },
   'attachment.url' => {
-    'lastUpdated' => 1207718717,
-    'message' => 'La URL para descargar el archivo adjunto.'
+    'lastUpdated' => 1223934337,
+    'message' => 'URL para descargar el archivo adjunto.'
   },
   'attachment_loop' => {
-    'lastUpdated' => 1207718807,
+    'lastUpdated' => 1223934348,
     'message' => 'Un ciclo que contiene todos los archivos adjuntos.'
   },
   'attachments' => {
-    'lastUpdated' => 1207719430,
+    'lastUpdated' => 1223934354,
     'message' => 'Adjuntos'
   },
   'attachments help' => {
-    'lastUpdated' => 1223498731,
-    'message' => 'Adjuntar hasta dos archivos o im&aacute;genes directamente a este art&iacute;culo. Tenga en cuenta que estos archivos no ser&aacute;n accesibles a trav&eacute;s del administrador de activos a otros activos.'
+    'lastUpdated' => 1223934387,
+    'message' => 'Adjuntar hasta dos archivos o im&aacute;genes directamente a este Art&iacute;culo. Tenga en cuenta que estos archivos no ser&aacute;n accesibles a trav&eacute;s del administrador de Activos a ning&uacute;n otro Activo.'
   },
   'cache timeout' => {
     'lastUpdated' => 1207719530,
