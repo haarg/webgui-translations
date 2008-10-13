@@ -10,8 +10,8 @@ our $I18N = {
     'message' => 'Ver respuestas'
   },
   '7' => {
-    'lastUpdated' => 1223933947,
-    'message' => 'Titulo de la Fuente'
+    'lastUpdated' => 1223935730,
+    'message' => 'Titulo del Enlace'
   },
   '72' => {
     'lastUpdated' => 1223933829,
@@ -22,8 +22,8 @@ our $I18N = {
     'message' => 'Las siguientes variables de Art&iacute;culos est&aacute;n disponibles en las plantillas para Art&iacute;culos'
   },
   '8' => {
-    'lastUpdated' => 1223933957,
-    'message' => 'URL de la Fuente'
+    'lastUpdated' => 1223935740,
+    'message' => 'URL del Enlace'
   },
   'article asset template variables body' => {
     'lastUpdated' => 1223934113,
