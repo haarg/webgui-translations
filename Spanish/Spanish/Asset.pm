@@ -734,107 +734,104 @@ our $I18N = {
     'message' => 'Muestra una lista de todas las versiones de este Activo.'
   },
   'rootUrl default not present' => {
-    'lastUpdated' => 1216502928,
-    'message' => "Urlraiz por defecto no presente
-
-No enlace simb\x{f3}lico activo por defecto, no est\x{e1} incluido en los sub\x{e1}rboles exportados."
+    'lastUpdated' => 1223932678,
+    'message' => 'El Activo no fue enlazado, ni incluido en la jerarqu&iacute;a exportada.'
   },
   'rootUrl form hoverHelp' => {
-    'lastUpdated' => 1216502965,
-    'message' => 'Urlraiz forma ayuda giratoria
-¿Qué medidas a adoptar en relación con las consultas a la Url raizL. Enlace simbólico  por defecto significa crear un enlace simbólico desde la root-URL index file hasta el índice del archivo activo por defecto (no disponible en todos los sistemas). Ninguno significa no hacer nada, lo que usualmente causa las preguntas a URL raiz a ser rechazada en el sitio exportado.'
+    'lastUpdated' => 1223932852,
+    'message' => '<p>&iquest;Qu&eacute; hacer con las consultas al URL Ra&iacute;z?</p><p><strong> Enlace simb&oacute;lico</strong> implica crear un enlace simb&oacute;lico desde el archivo &iacute;ndice del URL Ra&iacute;z hasta el archivo &iacute;ndice del Activo por defecto.</p><p> <strong>Nada</strong> significa no hacer nada, que generalmente ocasiona que las peticiones al URL Ra&iacute;z del sitio exportado sean rechazadas.</p>'
   },
   'rootUrl form label' => {
-    'lastUpdated' => 1216502978,
-    'message' => 'url raiz'
+    'lastUpdated' => 1223932863,
+    'message' => 'URL Ra&iacute;z'
   },
   'rootUrl form option none' => {
-    'lastUpdated' => 1216503065,
-    'message' => 'url raiz forma una opcion nula'
+    'lastUpdated' => 1223932897,
+    'message' => 'Nada'
   },
   'rootUrl form option symlinkDefault' => {
-    'lastUpdated' => 1216503085,
-    'message' => 'enlace simbolico por defecto'
+    'lastUpdated' => 1223932919,
+    'message' => 'Enlace simb&oacute;lico por defecto'
   },
   'rootUrl symlinking default' => {
-    'lastUpdated' => 1216503215,
-    'message' => 'enlaces simbolicos extras y dirs montados'
+    'lastUpdated' => 1223932988,
+    'message' => 'Enlazar simb&oacute;licamente extras y uploads'
   },
   'save and commit' => {
-    'lastUpdated' => 1216503251,
-    'message' => 'guardar & cometer'
+    'lastUpdated' => 1223933052,
+    'message' => 'Guardar &amp; Aprobar'
   },
   'search' => {
-    'lastUpdated' => 1215806411,
+    'lastUpdated' => 1223933061,
     'message' => 'Buscar'
   },
   'select all' => {
-    'lastUpdated' => 1204560022,
+    'lastUpdated' => 1223933068,
     'message' => 'Seleccionar Todo'
   },
   'size' => {
-    'lastUpdated' => 1204558335,
+    'lastUpdated' => 1223933076,
     'message' => 'Tama&ntilde;o'
   },
   'specified base' => {
-    'lastUpdated' => 1204558325,
+    'lastUpdated' => 1223933084,
     'message' => 'Base Especificada'
   },
   'status' => {
-    'lastUpdated' => 1215806369,
-    'message' => 'En lo que respecta al control de versiones, el estado de este activo. Normalmente estas son las cadenas en Ingl&eacute;s &quot;approved&quot;, &quot;pending&quot;, &quot;commited&quot;.'
+    'lastUpdated' => 1223933235,
+    'message' => 'Estado de este Activo en relaci&oacute;n al control de versiones. Normalmente estas son &quot;approved&quot;, &quot;pending&quot;, &quot;commited&quot;.'
   },
   'synopsis' => {
-    'lastUpdated' => 1215806392,
+    'lastUpdated' => 1223933276,
     'message' => 'Una descripci&oacute;n corta del contenido del Activo.'
   },
   'tag name' => {
-    'lastUpdated' => 1204557545,
-    'message' => 'Nombre de Etiqueta'
+    'lastUpdated' => 1223933327,
+    'message' => 'Nombre de Versi&oacute;n'
   },
   'this asset only' => {
-    'lastUpdated' => 1216046780,
-    'message' => 'Este Activo &Uacute;nicamente'
+    'lastUpdated' => 1223933348,
+    'message' => 'Solamente este Activo'
   },
   'title' => {
-    'lastUpdated' => 1213458934,
-    'message' => 'titulo'
+    'lastUpdated' => 1223933363,
+    'message' => 'El t&iacute;tulo del Activo'
   },
   'topicName' => {
-    'lastUpdated' => 1215806257,
+    'lastUpdated' => 1223933371,
     'message' => 'Activos'
   },
   'type' => {
-    'lastUpdated' => 1204557487,
+    'lastUpdated' => 1223933411,
     'message' => 'Tipo'
   },
   'update' => {
-    'lastUpdated' => 1215806247,
+    'lastUpdated' => 1223933417,
     'message' => 'Actualizar'
   },
   'url' => {
-    'lastUpdated' => 1215806232,
-    'message' => 'La URL del activo.'
+    'lastUpdated' => 1223933433,
+    'message' => 'URL del Activo.'
   },
   'view' => {
-    'lastUpdated' => 1204557258,
-    'message' => 'Vista'
+    'lastUpdated' => 1223933443,
+    'message' => 'Ver'
   },
   'view help' => {
-    'lastUpdated' => 1216046767,
-    'message' => '<div id="result_box" dir="ltr">La mayor&iacute;a de los activos se consideran como parte de un Activo contenedor como una P&aacute;gina o Ccarpeta. Esta opci&oacute;n le permitir&aacute; ver los Activos independientes.</div>'
+    'lastUpdated' => 1223933487,
+    'message' => '<div id="result_box" dir="ltr">La mayor&iacute;a de los Activos se muestrar formando parte de un Activo contenedor como una P&aacute;gina o Carpeta. Esta opci&oacute;n le permitir&aacute; ver los Activos independientemente de sus contenedores.</div>'
   },
   'with children' => {
-    'lastUpdated' => 1204557120,
+    'lastUpdated' => 1223933495,
     'message' => 'Con Hijos'
   },
   'with descendants' => {
-    'lastUpdated' => 1204557015,
+    'lastUpdated' => 1223933501,
     'message' => 'Con Descendientes'
   },
   'with selected' => {
-    'lastUpdated' => 1216046477,
-    'message' => 'Con Seleccionados:'
+    'lastUpdated' => 1223933526,
+    'message' => 'Seleccionando adem&aacute;s:'
   }
 }
 ;
