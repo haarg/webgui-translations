@@ -286,36 +286,36 @@ our $I18N = {
     'message' => 'Activo'
   },
   'asset id' => {
-    'lastUpdated' => 1186066539,
-    'message' => 'Id de Activo'
+    'lastUpdated' => 1223928336,
+    'message' => 'ID del Activo'
   },
   'asset id description' => {
-    'lastUpdated' => 1186066831,
-    'message' => '<p>Este es el identificador &uacute;nico que utiliza WebGUI para rastrear las instancias de este activo. Usuarios normales no deber&iacute;an preocuparse por el ID de Activo, pero algunos usuarios avanzados necesitar&aacute;n conocerlo para cuestiones tales como Informes en SQL. El Id de Activo no puede editarse.</p>'
+    'lastUpdated' => 1223928448,
+    'message' => 'Este es el identificador &uacute;nico que utiliza WebGUI para ete Activo. En general, los usuarios no necesitan preocuparse por el ID del Activo, pero algunos usuarios avanzados necesitar&aacute;n conocerlo para cuestiones tales como Informes en SQL. El ID del Activo no puede cambiarse.'
   },
   'asset list title' => {
-    'lastUpdated' => 1186066847,
-    'message' => 'Activo, lista de activos disponibles'
+    'lastUpdated' => 1223928467,
+    'message' => 'Activo, Lista de Activos Disponibles'
   },
   'asset template asset var title' => {
-    'lastUpdated' => 1186066878,
-    'message' => 'Variables de Activos en Plantillas de Activos'
+    'lastUpdated' => 1223928483,
+    'message' => 'Variables de Activos para Plantillas de Activos'
   },
   'asset template title' => {
-    'lastUpdated' => 1186066894,
-    'message' => 'Variables de Plantillas de Activos'
+    'lastUpdated' => 1223928494,
+    'message' => 'Variables para Plantillas de Activos'
   },
   'assetSize' => {
-    'lastUpdated' => 1186066929,
-    'message' => 'El peso del Activo en bytes. La suma de todos los campos de datos y adjuntos.'
+    'lastUpdated' => 1223928541,
+    'message' => 'Tama&ntilde;o del Activo en bytes. Esto incluye la suma de todos los campos de datos y adjuntos asociados al Activo.'
   },
   'assets' => {
     'lastUpdated' => 1186066938,
     'message' => 'Activos'
   },
   'bad user privileges' => {
-    'lastUpdated' => 1186066953,
-    'message' => 'El usuario no tiene derechos de ver esta p&aacute;gina.'
+    'lastUpdated' => 1223928563,
+    'message' => 'El usuario no tiene permisos suficientes para Ver esta p&aacute;gina.'
   },
   'change' => {
     'lastUpdated' => 1186066973,
