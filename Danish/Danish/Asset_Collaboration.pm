@@ -870,203 +870,203 @@ our $I18N = {
     'message' => 'Afvist'
   },
   'rejected because no user account' => {
-    'lastUpdated' => 1223928468,
+    'lastUpdated' => 1223928543,
     'message' => 'Du har ikke tilladelse til at indsende meddelelser, da vi ikke kunne finde din bruger konto. M&aring;ske er denne email adresse ikke forbundet med din bruger konto.'
   },
   'rejected because not allowed' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1223928629,
+    'message' => '<p>Du har ikke tilladelse til at indsende meddelelser, da du enten ikke har de n&oslash;dvendige rettigheder, eller du abonnerer ikke p&aring; denne diskussion.  </p><p>&nbsp;</p><p>&nbsp;</p>'
   },
   'replies' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1223928638,
+    'message' => 'Svar'
   },
   'replies.label' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1223928645,
+    'message' => 'Ordet &quot;Svar&quot;.'
   },
   'reply' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1223928653,
+    'message' => 'Svar'
   },
   'reply.label' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1223928663,
+    'message' => 'Ordet &quot;Svar&quot;.'
   },
   'require subscription for email posting' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1223928715,
+    'message' => 'Kr&aelig;ver abonnement ved indl&aelig;g via email?'
   },
   'require subscription for email posting help' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1223928833,
+    'message' => 'Hvis &quot;Ja&quot;, da skal brugeren v&aelig;re i gruppen, for at sende indl&aelig;g! MEN han skal ogs&aring; have abonneret p&aring; dette Collaboration System eller tr&aring;den for at indsende til det!'
   },
   'responses' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1223928860,
+    'message' => 'Svar'
   },
   'responses.label' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1223928868,
+    'message' => 'Ordet &quot;Svar&quot;.'
   },
   'rich editor' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1223928882,
+    'message' => 'Rig Editor'
   },
   'rich editor description' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1223928916,
+    'message' => 'V&aelig;lg hvilken &quot;Rig Editor&quot; der skal bruges til redigering af indl&aelig;g.'
   },
   'rss template' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1223928933,
+    'message' => 'Collaboration System RSS Skabelon'
   },
   'rss template description' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1223928989,
+    'message' => 'En skabelon der bruges til generering af xml til et rss feed baseret p&aring; dette Aktiv.'
   },
   'rss.url' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1223929150,
+    'message' => 'URL til download af RSS resume for dette Aktiv.'
   },
   'search' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1223929157,
+    'message' => 'S&oslash;g'
   },
   'search template' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1223929175,
+    'message' => 'Collaboration System, S&oslash;ge Skabelon'
   },
   'search template description' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1223929219,
+    'message' => 'Skabelonen for dette Collaboration Aktiv\'s s&oslash;ge formular of s&oslash;ge resultater.'
   },
   'search.label' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1223929269,
+    'message' => 'Ordet &quot;S&oslash;g&quot;.'
   },
   'search.url' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1223929303,
+    'message' => 'URL til at tilg&aring; s&oslash;geformularen for dette Collaboration Aktiv.'
   },
   'sequence' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1223929310,
+    'message' => 'Sekvens'
   },
   'severity' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1223929796,
+    'message' => 'Trusselsniveau'
   },
   'severity.label' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1223929805,
+    'message' => 'Ordet &quot;Trusselsniveau&quot;.'
   },
   'sort by' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1223929823,
+    'message' => 'Sorter Efter'
   },
   'sort by description' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1223929912,
+    'message' => 'Som standard er alle indl&aelig;g vist i sorteret orden. Brug dette felt til at v&aelig;lge efter hvilken egenskab de skal sorteres. Flere egenskaber kan angives.'
   },
   'sort order' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1223929932,
+    'message' => 'Sorterings R&aelig;kkef&oslash;lge'
   },
   'sort order description' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1223929998,
+    'message' => 'Sorter i &quot;opadg&aring;ende&quot; eller &quot;nedadg&aring;ende&quot; orden.'
   },
   'sortby.date.url' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1223930062,
+    'message' => 'URL til sortering og visning af en liste med indl&aelig;g, sorteret efter den dato de blev indsendt.'
   },
   'sortby.karmaRank.url' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1223930217,
+    'message' => 'URL til sortering og visning af en liste med indl&aelig;g, sorteret efter hvor meget karma brugerne har overf&oslash;rt til tr&aring;den.'
   },
   'sortby.lastreply.url' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1223930243,
+    'message' => 'URL til sortering og visning af en liste med indl&aelig;g, sorteret efter den dato de sidst blev opdateret.'
   },
   'sortby.rating.url' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1223930294,
+    'message' => 'URL til sortering og visning af en liste med indl&aelig;g, sorteret efter indl&aelig;ggenes rating.'
   },
   'sortby.replies.url' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1223930327,
+    'message' => 'URL til sortering og visning af en liste med indl&aelig;g, sorteret efter antallet af svar til indl&aelig;gget.'
   },
   'sortby.title.url' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1223930355,
+    'message' => 'URL til sortering og visning af en liste med indl&aelig;g, sorteret efter indl&aelig;ggenes titel.'
   },
   'sortby.username.url' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1223930453,
+    'message' => 'URL til sortering og visning af en liste med indl&aelig;g, sorteret efter personen der skrev indl&aelig;gget.'
   },
   'sortby.views.url' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1223930494,
+    'message' => 'URL til sortering og visning af en liste med indl&aelig;g, sorteret efter hvor mange gange hver tr&aring;d har v&aelig;ret l&aelig;st/vist.'
   },
   'status' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1223930603,
+    'message' => 'Status'
   },
   'status.label' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1223930514,
+    'message' => 'Ordet &quot;Status&quot;.'
   },
   'stick.label' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1223930585,
+    'message' => 'S&aelig;tningen &quot;Fastkl&aelig;b&quot;'
   },
   'sticky' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1223930621,
+    'message' => 'Fastkl&aelig;b'
   },
   'subject' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1223930632,
+    'message' => 'Emne'
   },
   'subject.label' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1223930639,
+    'message' => 'Ordet &quot;Emne&quot;.'
   },
   'submission.header.label' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1223930687,
+    'message' => 'S&aelig;tningen &quot;Rediger Indl&aelig;g&quot;'
   },
   'subscribe' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1223930708,
+    'message' => 'Abonner'
   },
   'subscribe.label' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1223930717,
+    'message' => 'Ordet &quot;Abonner&quot;'
   },
   'subscribe.url' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1223930793,
+    'message' => 'URL til at abonnere brugeren p&aring; dette Collaboration System Aktiv. N&aring;r nyt indhold bliver indsendt til dette Collaboration Aktiv, vil brugeren blive underettet.'
   },
   'subscription group hoverHelp' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1223930903,
+    'message' => 'Administrer brugerne i abonnement-gruppen for dette Collaboration System.'
   },
   'subscription group label' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1223930933,
+    'message' => 'Gruppe for abonnenter'
   },
   'synopsis' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1223930598,
+    'message' => 'Resume'
   },
   'synopsis.label' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1223930369,
+    'message' => 'Ordet &quot;Resume&quot;.'
   },
   'system template' => {
-    'lastUpdated' => 1223846764,
+    'lastUpdated' => 1223929245,
     'message' => 'Collaboration System Skabelon'
   },
   'system template description' => {
