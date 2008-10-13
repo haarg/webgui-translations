@@ -674,68 +674,64 @@ our $I18N = {
     'message' => 'Propiedades'
   },
   'prototype using title' => {
-    'lastUpdated' => 1207239622,
-    'message' => 'Usando Contenido de Prototipos'
+    'lastUpdated' => 1223932150,
+    'message' => 'Prototipos de Contenido, Uso de'
   },
   'purge' => {
-    'lastUpdated' => 1207239632,
+    'lastUpdated' => 1223932156,
     'message' => 'Purgar'
   },
   'purge old asset revisions' => {
-    'lastUpdated' => 1207239708,
-    'message' => 'Purgar viejas revisiones de Activos'
+    'lastUpdated' => 1223932174,
+    'message' => 'Purgar revisiones antiguas de Activos'
   },
   'purge old trash' => {
-    'lastUpdated' => 1207620463,
-    'message' => 'purgar vieja papelera'
+    'lastUpdated' => 1223932196,
+    'message' => 'Purgar Papelera'
   },
   'purge revision after' => {
-    'lastUpdated' => 1207849725,
-    'message' => 'Purgar viejas revisiones '
+    'lastUpdated' => 1223932256,
+    'message' => 'Purgar Versiones Viejas despu&eacute;s de<br /> '
   },
   'purge revision after help' => {
-    'lastUpdated' => 1216501192,
-    'message' => '¿Cuánto tiempo deben mantenerse las revisiones antiguas de un activo? Antiguas revisiones de activos son aquellas que ya no son visibles por los usuarios, pero se mantienen en el sistema de versiones de rollbacks.'
+    'lastUpdated' => 1223932323,
+    'message' => '&iquest;Cu&aacute;nto tiempo deben mantenerse las versiones antiguas de un Activo? Una versi&oacute;n se considera antigua cuando ya no es visible a los usuarios, pero se mantienen en el sistema de versiones en caso que se quiera regresar a ellas.'
   },
   'purge revision prompt' => {
-    'lastUpdated' => 1216501495,
-    'message' => "Purgar revisi\x{f3}n r\x{e1}pida
-
-\x{bf}Est\x{e1}s seguro de que desea eliminar esta revisi\x{f3}n de este activo? No puede ser restaurado si se borrara."
+    'lastUpdated' => 1223932372,
+    'message' => '&iquest;Est&aacute; seguro que desea eliminar esta versi&oacute;n del Activo? Si la elimina, no podr&aacute; ser recuperada.'
   },
   'purge trash after' => {
-    'lastUpdated' => 1216501572,
-    'message' => 'Purgar vieja basura después'
+    'lastUpdated' => 1223932392,
+    'message' => 'Purgar Papelera despu&eacute;s de'
   },
   'purge trash after help' => {
-    'lastUpdated' => 1216501768,
-    'message' => "Purgar la basura despu\x{e9}s de ayudar
-
-\x{bf}Cu\x{e1}nto tiempo deber\x{ed}a permanecer un activo en la papelera antes de que sea considerada la edad limite para purgar? Tenga en cuenta que cuando se purgan todas sus revisiones y descendientes, esta ser\x{e1} purgada tambi\x{e9}n."
+    'lastUpdated' => 1223932465,
+    'message' => '&iquest;Cu&aacute;nto tiempo debe permanecer un Activo en la Papelera antes de que sea considerado susceptible de ser purgado? Cuando un Activo es purgado, todos los Activos descendientes de &eacute;l y sus versiones tambi&eacute;n ser&aacute;n purgados.'
   },
   'rank' => {
-    'lastUpdated' => 1207773841,
+    'lastUpdated' => 1223932482,
     'message' => 'Puntaje'
   },
   'restore' => {
-    'lastUpdated' => 1213458897,
-    'message' => 'restaurar'
+    'lastUpdated' => 1223932493,
+    'message' => 'Restaurar'
   },
   'revised by' => {
-    'lastUpdated' => 1213458917,
-    'message' => 'comprobado por'
+    'lastUpdated' => 1223932504,
+    'message' => 'Revisado por'
   },
   'revision date' => {
-    'lastUpdated' => 1215806815,
-    'message' => 'Fecha de Revisi&oacute;n'
+    'lastUpdated' => 1223932516,
+    'message' => 'Revisado el'
   },
   'revisions' => {
-    'lastUpdated' => 1215806801,
+    'lastUpdated' => 1223932522,
     'message' => 'Revisiones'
   },
   'revisions help' => {
-    'lastUpdated' => 1215806842,
-    'message' => 'Muestra una lista de todas las revisiones de este Activo.'
+    'lastUpdated' => 1223932535,
+    'message' => 'Muestra una lista de todas las versiones de este Activo.'
   },
   'rootUrl default not present' => {
     'lastUpdated' => 1216502928,
