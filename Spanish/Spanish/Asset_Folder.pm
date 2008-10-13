@@ -50,84 +50,108 @@ our $I18N = {
     'message' => 'La barra de controles de edici&oacute;n para este Activo.'
   },
   'date.epoch' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1223921721,
+    'message' => 'Fecha en que el Activo fue actualizado por &uacute;ltima vez, como el n&uacute;mero de segundos desde 1970-01-01 (Unix epoch).'
+  },
+  'editForm sortOrder ascending' => {
+    'lastUpdated' => 1223921737,
+    'message' => 'Ascendente'
+  },
+  'editForm sortOrder descending' => {
+    'lastUpdated' => 1223921745,
+    'message' => 'Descendente'
+  },
+  'editForm sortOrder description' => {
+    'lastUpdated' => 1223921808,
+    'message' => 'Orden para los contenidos de la Carpeta.'
+  },
+  'editForm sortOrder label' => {
+    'lastUpdated' => 1223921841,
+    'message' => 'Orden en sentido'
   },
   'file.url' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1223921906,
+    'message' => 'Si el Activo hace referencia a un archivo (Archivo, Imagen o Paquete ZIP), esta variable contiene el URL del archivo concreto para descarga. En caso contrario, esta variable est&aacute; vac&iacute;a.'
   },
   'file_loop' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1223921968,
+    'message' => 'Una iteraci&oacute;n que contiene todos los Activos contenidos en la Carpeta que a su vez NO sean Carpetas. El orden de las carpetas estar&aacute; determinado por el selector de Orden en la pantalla de edici&oacute;n.'
   },
   'folder icon.big' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1223922014,
+    'message' => 'El URL a un &iacute;cono grande que representa este Activo.'
   },
   'folder icon.small' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1223922027,
+    'message' => 'El URL a un &iacute;cono peque&ntilde;o que representa este Activo.'
   },
   'folder id' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1223922068,
+    'message' => 'ID de Activo para esta Carpeta'
   },
   'folder menuTitle' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1223922108,
+    'message' => 'El t&iacute;tulo para men&uacute; asociado a esta Carpeta.'
   },
   'folder template body' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1223922145,
+    'message' => 'Las siguientes variables est&aacute;n disponibles en las plantillas para Carpetas:'
   },
   'folder template description' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1223922187,
+    'message' => 'Este men&uacute; permite seleccionar la plantilla que se utilizar&aacute; para mostrar los contenidos de la Carpeta.'
   },
   'folder template title' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1223922207,
+    'message' => 'Plantilla para la Carpeta'
   },
   'folder title' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1223922237,
+    'message' => 'T&iacute;tulo de la Carpeta.'
   },
   'folder url' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1223922246,
+    'message' => 'URL de la Carpeta.'
+  },
+  'helpvar canAddFile' => {
+    'lastUpdated' => 1223922493,
+    'message' => 'Un condicional que indica si el usuario puede agregar archivos a la Carpeta.'
+  },
+  'helpvar canEdit' => {
+    'lastUpdated' => 1223922509,
+    'message' => 'Un condicional que indica si el usuario puede editar la Carpeta.'
   },
   'icon.big' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1223922335,
+    'message' => 'El URL a un &iacute;cono grande que represente esta Carpeta.'
   },
   'icon.small' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1223922345,
+    'message' => 'El URL a un &iacute;cono peque&ntilde;o que represente esta Carpeta.'
   },
   'id' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1223922359,
+    'message' => 'El ID de este Activo.'
   },
   'isFile' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1223922459,
+    'message' => 'Un condicional que indica si este Activo es un Archivo.'
   },
   'isImage' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1223922468,
+    'message' => 'Un condicional que indica si este Activo es una Imagen.'
   },
   'menuTitle' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1223922422,
+    'message' => 'El t&iacute;tulo de men&uacute; para este Activo.'
   },
   'size' => {
     'lastUpdated' => 1216075111,
     'message' => 'El tama&ntilde;o del Activo, formateado.'
   },
   'sort alphabetically' => {
-    'lastUpdated' => 1223916935,
-    'message' => 'Ordenar alfab&eacute;ticamente?'
+    'lastUpdated' => 1223922443,
+    'message' => '&iquest;Ordenar alfab&eacute;ticamente?'
   },
   'sort alphabetically help' => {
     'lastUpdated' => 1223917001,
@@ -162,20 +186,20 @@ our $I18N = {
     'message' => 'El tipo o nombre de este Activo, as&iacute; como Publicaci&oacute;n, Art&iacute;culo, Sistema colaborativo, etc.'
   },
   'url' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1223922526,
+    'message' => 'El URL para este Activo.'
   },
   'visitor cache timeout' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1223922656,
+    'message' => 'Tiempo m&aacute;ximo en cache'
   },
   'visitor cache timeout help' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1223922633,
+    'message' => 'Todos los visitantes ver&aacute;n este Activo de la misma forma, as&iacute; que puede mantenerse en cache para mejorar el desempe&ntilde;o. &iquest;Cu&aacute;nto tiempo mantenerlo en el cache?'
   },
   'visitorCacheTimeout' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1223922690,
+    'message' => 'Cuantos segundos mantener este Activo en el cache.'
   }
 }
 ;
