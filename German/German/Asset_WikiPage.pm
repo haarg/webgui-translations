@@ -122,8 +122,8 @@ our $I18N = {
     'message' => 'Die verstrichene Zeit, seitdem die Seite eingereicht wurde.'
   },
   'history title' => {
-    'lastUpdated' => 1222930292,
-    'message' => 'Wiki-Seite, Vorlage zur Anzeige der Historie'
+    'lastUpdated' => 1223984343,
+    'message' => 'Wiki-Seite, Schablone zur Anzeige der Historie'
   },
   'history toolbar' => {
     'lastUpdated' => 1222930434,

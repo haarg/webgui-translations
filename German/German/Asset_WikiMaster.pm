@@ -22,112 +22,112 @@ our $I18N = {
     'message' => 'Ungesch&uuml;tzt'
   },
   'actionTaken' => {
-    'lastUpdated' => 1180528552,
-    'message' => 'Was ist mit dieser vor kurzem ge&auml;nderten Seite passiert, typischerweise wurde Sie entweder "Bearbeitet" oder "Erzeugt".'
+    'lastUpdated' => 1224008651,
+    'message' => 'Die letzte Aktion, welche mit der Wiki-Seite durchgef&uuml;hrt wurde. Typischerweise ist dies &quot;Bearbeitet&quot; oder &quot;Erzeugt&quot;.'
   },
   'addPageLabel' => {
     'lastUpdated' => 1180528676,
     'message' => 'Eine neue Seite hinzuf&uuml;gen.'
   },
   'addPageLabel variable' => {
-    'lastUpdated' => 1180528703,
-    'message' => 'Internationalisiertes Label f&uuml;r addPageUrl.'
+    'lastUpdated' => 1224008700,
+    'message' => 'Eine internationalisierte Beschriftung f&uuml;r die Variable addPageUrl.'
   },
   'addPageUrl' => {
-    'lastUpdated' => 1180528756,
-    'message' => 'URL, um eine neue Seite hinzuzuf&uuml;gen.'
+    'lastUpdated' => 1224008747,
+    'message' => 'Ein URL, der dem Benutzer das Hinzuf&uuml;gen einer neuen Seite gestattet.'
   },
   'allow attachments' => {
     'lastUpdated' => 1223456722,
     'message' => 'Maximale Anzahl an Dateianh&auml;ngen'
   },
   'allow attachments help' => {
-    'lastUpdated' => 1223456694,
-    'message' => 'Die maximale Anzahl der zul&auml;ssigen Dateianh&auml;nge pro Wiki-Seite.'
+    'lastUpdated' => 1224008901,
+    'message' => 'Die maximal erlaubte Anzahl an Dateianh&auml;ngen pro Wiki-Seite.'
   },
   'approval workflow' => {
-    'lastUpdated' => 1180528766,
-    'message' => 'Freigeben Workflow'
+    'lastUpdated' => 1224008853,
+    'message' => 'Freigabe-Workflow'
   },
   'approval workflow description' => {
-    'lastUpdated' => 1180528823,
-    'message' => 'W&auml;hlen Sie einen Workflow, der jedesmal ausgef&uuml;hrt werden soll, wenn eine neue Seite hinzugef&uuml;gt wird.'
+    'lastUpdated' => 1224008998,
+    'message' => 'Der Workflow, der jedes mal ausgef&uuml;hrt werden soll, wenn eine neue Seite eingereicht wurde.'
   },
   'approvalWorkflow' => {
-    'lastUpdated' => 1180528849,
-    'message' => 'Die Id des Workflows f&uuml;r die Freigabe der Seiten eines Wikis.'
+    'lastUpdated' => 1224009029,
+    'message' => 'Die Id des Workflows f&uuml;r die Freigabe von Wiki-Seiten.'
   },
   'asset description' => {
-    'lastUpdated' => 1180529013,
-    'message' => 'Ein Wiki ist ein System f&uuml;r das kollaborative Publizieren von verschiedenen Inhalten. Traditionell wird in Wikis die sogenannte Wiki Markup Sprache benutzt. Da diese Sprache aber nicht viel leichter zu benutzen ist als HTML, wird in WebGUI ein Rich Editor f&uuml;r das Erstellen der Inhalte einer Wiki Seite benutzt. '
+    'lastUpdated' => 1224009284,
+    'message' => 'Ein Wiki ist ein System f&uuml;r das gemeinschaftliche Erarbeiten und Publizieren von Inhalten. Traditionell wird in Wikis die sogenannte Wiki-Auszeichnungssprache verwendet. Da diese Sprache jedoch nicht viel leichter zu benutzen ist als HTML, kommt in WebGUI f&uuml;r das Erstellen von Inhalten ein Multimedia-Editor zum Eimsatz.'
   },
   'asset not committed' => {
-    'lastUpdated' => 1223456835,
-    'message' => '<h1>Fehler!</h1><p>Die Einrichtung des Wikis muss abgeschlossen sein, bevor neue Eintr&auml;ge angelegt werden k&ouml;nnen. </p>'
+    'lastUpdated' => 1224009328,
+    'message' => '<h1>Fehler!</h1><p>Die Einrichtung des Wikis muss abgeschlossen sein, bevor neue Seiten angelegt werden k&ouml;nnen. </p>'
   },
   'assetName' => {
     'lastUpdated' => 1180529019,
     'message' => 'Wiki'
   },
   'byKeywordTemplateId hoverHelp' => {
-    'lastUpdated' => 1223456920,
-    'message' => 'Welche Schablone soll f&uuml;r die Auflistung von Seiten verwendet werden, die einem bestimmten Stichwork zugeordnet sind?'
+    'lastUpdated' => 1224009377,
+    'message' => 'Die Schablone zur Auflistung von Seiten, welche einem bestimmten Stichwort zugeordnet sind.'
   },
   'byKeywordTemplateId label' => {
-    'lastUpdated' => 1223456954,
-    'message' => '&quot;nach Stichwort&quot;-Schablone'
+    'lastUpdated' => 1224009412,
+    'message' => 'Schablone f&uuml;r die Stichwortansicht'
   },
   'canAddPages' => {
-    'lastUpdated' => 1180529031,
-    'message' => 'canAddPages Variable'
+    'lastUpdated' => 1224009700,
+    'message' => 'Boolesche Variable, die wahr ist, falls der aktuelle Benutzer Wiki-Seiten hinzuf&uuml;gen oder bearbeiten darf.'
   },
   'canAddPages variable' => {
-    'lastUpdated' => 1180529070,
-    'message' => 'Boolscher Wert, der angibt, ob ein Benutzer Seiten eines Wikis hinzuf&uuml;gen bzw. bearbeiten darf.'
+    'lastUpdated' => 1224009585,
+    'message' => 'Boolesche Variable, die wahr ist, falls der aktuelle Benutzer Wiki-Seiten hinzuf&uuml;gen oder bearbeiten darf.'
   },
   'canAdminister' => {
-    'lastUpdated' => 1180529100,
-    'message' => 'Boolsche Variable, die angibt, ob der aktuelle Benutzer das Wiki administrieren darf.'
+    'lastUpdated' => 1224009569,
+    'message' => 'Boolsche Variable, die wahr ist, falls der aktuelle Benutzer das Wiki administrieren darf.'
   },
   'content filter' => {
     'lastUpdated' => 1180529110,
     'message' => 'Inhaltsfilter benutzen?'
   },
   'content filter description' => {
-    'lastUpdated' => 1180529247,
-    'message' => 'Inhalt der Wiki Seiten mittels dem WebGUI Inhaltsfilter System filtern. Dies kann auch benutzt werden, um benutzerdefinierte Markup Symbole zu definieren. Dadurch kann man wiederverwendbare Styles f&uuml;r den Inhalt kreieren.'
+    'lastUpdated' => 1224011368,
+    'message' => 'Ein Einstellung welche besagt, ob der Inhalt der Wiki-Seiten mittels des WebGUI-Inhaltsfilters gefiltert werde soll. Dieser kann auch f&uuml;r das Einf&uuml;gen von wiederverwendbaren Inhalten mittels benutzerdefinierter Auszeichnungssymbole verwendet werden.'
   },
   'description' => {
-    'lastUpdated' => 1180529467,
-    'message' => 'Beschreibung dieses Wikis. Titel oder URLs von schon im Wiki vorhandenen Seite werden automatisch zu entsprechenden Links konvertiert. Diese Template Variable &uuml;berschreibt automatisch alle anderen Variablen in diesem Template, die den selben Namen haben.'
+    'lastUpdated' => 1224011518,
+    'message' => 'Die Beschreibung dieses Wikis. Titel oder URLs von schon im Wiki vorhandenen Seite werden automatisch zu entsprechenden Links konvertiert. Diese Variable &uuml;berschreibt alle anderen Variablen in dieser Schablone, welche den selben Namen haben.'
   },
   'filter code' => {
-    'lastUpdated' => 1180529479,
-    'message' => 'Filter Kode'
+    'lastUpdated' => 1224011631,
+    'message' => 'HTML-Filter'
   },
   'filter code description' => {
-    'lastUpdated' => 1180529531,
-    'message' => 'Setzt den Grad der HTML Filterung f&uuml;r die Wiki Eintr&auml;ge.'
+    'lastUpdated' => 1224011606,
+    'message' => 'Setzt den Grad der HTML-Filterung f&uuml;r die Wiki Eintr&auml;ge.'
   },
   'filterCode' => {
-    'lastUpdated' => 1180529560,
-    'message' => 'Zeichenketten, die den Grad der Inhaltsfilterung angeben.'
+    'lastUpdated' => 1224011667,
+    'message' => 'Zeichenketten, die den Grad der HTML-Filterung angeben.'
   },
   'front page template title' => {
-    'lastUpdated' => 1223456981,
-    'message' => 'Wiki, Schablone f&uuml;r die Hauptseite'
+    'lastUpdated' => 1224012142,
+    'message' => 'Wiki-Hauptseite'
   },
   'frontPageTemplateId' => {
-    'lastUpdated' => 1223457472,
-    'message' => 'Die Id des Templates, welches f&uuml;r die Erzeugung der Hauptseite benutzt wird.'
+    'lastUpdated' => 1224011927,
+    'message' => 'Die Id der Schablone zur Anzeige der Hauptseite.'
   },
   'frontPageTemplateId hoverHelp' => {
-    'lastUpdated' => 1180529731,
-    'message' => 'Welches Template wird f&uuml;r die Einstiegsseite des Wiki benutzt.'
+    'lastUpdated' => 1224011907,
+    'message' => 'Die Schablone zur Anzeige der Hauptseite.'
   },
   'frontPageTemplateId label' => {
-    'lastUpdated' => 1180529742,
-    'message' => 'Einstiegsseite Template'
+    'lastUpdated' => 1224009737,
+    'message' => 'Schablone f&uuml;r die Hauptseite'
   },
   'func addPage link text' => {
     'lastUpdated' => 1180529754,
@@ -150,52 +150,52 @@ our $I18N = {
     'message' => 'Zur&uuml;ck zur Einstiegsseite'
   },
   'groupToAdminister' => {
-    'lastUpdated' => 1180529844,
-    'message' => 'Die Id der Gruppe, die das Wiki administrieren oder Seiten bearbeiten darf.'
+    'lastUpdated' => 1224012178,
+    'message' => 'Die Id der Gruppe, deren Angeh&ouml;rige das Wiki administrieren oder Seiten bearbeiten d&uuml;rfen.'
   },
   'groupToAdminister hoverHelp' => {
-    'lastUpdated' => 1180529949,
-    'message' => 'W&auml;hlen Sie eine Gruppe, deren Mitglieder administrative T&auml;tigkeiten in diesem wiki ausf&uuml;hren d&uuml;rfen. Zum Beispiel: L&ouml;schen von Seiten und Seiten Revisionen.'
+    'lastUpdated' => 1224012328,
+    'message' => 'Die Gruppe, deren Angeh&ouml;rige administrative T&auml;tigkeiten in diesem Wiki ausf&uuml;hren d&uuml;rfen. Dies beinhaltet das L&ouml;schen oder Sch&uuml;tzen von Seiten und die Verwaltung von Revisionen.'
   },
   'groupToAdminister label' => {
     'lastUpdated' => 1180529961,
     'message' => 'Wer darf administrieren?'
   },
   'groupToEditPages' => {
-    'lastUpdated' => 1180529977,
-    'message' => 'Die Id der Gruppe, die Seiten bearbeiten darf.'
+    'lastUpdated' => 1224012213,
+    'message' => 'Die Id der Gruppe, deren Angeh&ouml;rige Seiten bearbeiten d&uuml;rfen.'
   },
   'groupToEditPages hoverHelp' => {
-    'lastUpdated' => 1180530060,
-    'message' => 'W&auml;hlen Sie eine Gruppe, deren Mitglieder Seiten in diesem Wiki bearbeiten d&uuml;rfen. Dies beinhaltet nicht das L&ouml;schen von Seiten bzw. Seiten Revisionen oder das Editieren von gesch&uuml;tzten Seiten.'
+    'lastUpdated' => 1224012251,
+    'message' => 'Die Gruppe, deren Angeh&ouml;rige in diesem Wiki Seiten bearbeiten d&uuml;rfen. Dies beinhaltet nicht das L&ouml;schen von Seiten, die Verwaltung von Revisionen oder die Bearbeitung von gesch&uuml;tzten Seiten.'
   },
   'groupToEditPages label' => {
     'lastUpdated' => 1180530070,
     'message' => 'Wer darf Seiten bearbeiten?'
   },
   'listPages title' => {
-    'lastUpdated' => 1180530078,
-    'message' => 'Liste von Seiten'
+    'lastUpdated' => 1224012371,
+    'message' => 'Auflistung der Seiten'
   },
   'max image size' => {
-    'lastUpdated' => 1180530110,
-    'message' => 'Maximale Bild Gr&ouml;&szlig;e'
+    'lastUpdated' => 1224012386,
+    'message' => 'Maximale Bildgr&ouml;&szlig;e'
   },
   'max image size help' => {
-    'lastUpdated' => 1180530245,
-    'message' => '<p>Setzen Sie die Gr&ouml;&szlig;e der Bild Anh&auml;nge dieses Wikis. Falls Sie hier auf 0 setzen, so wird die Standard Gr&ouml;&szlig;e aus den Einstellungen benutzt. Die &Auml;nderung dieses Werts hat keinen Einflu&szlig; auf schon vorhandenen Anh&auml;nge. Dazu m&uuml;ssen sie jede Seite erneut speichern.&nbsp;</p><p>Set the size of the image attachments for this Wiki. If you set it to 0 then the default size set in the master settings will be used. Also, changing this setting does not retroactively change the size of images already in the Wiki. You&#39;ll have to re-save each page to get the size to change.</p>'
+    'lastUpdated' => 1224012552,
+    'message' => 'Die maximale Gr&ouml;&szlig;e von Bildanh&auml;ngen in diesem Wiki. Ein Wert von &quot;0&quot; entspricht der globalen Standardeinstellung. Die &Auml;nderung dieses Werts hat keinen Einfluss auf schon vorhandene Anh&auml;nge. Hierf&uuml;r m&uuml;ssen sie jede Seite erneut bearbeiten und speichern.&nbsp;'
   },
   'maxImageSize' => {
     'lastUpdated' => 1180530297,
     'message' => 'Die Gr&ouml;&szlig;e der Bild Anh&auml;nge f&uuml;r dieses Wiki.'
   },
   'most popular template body' => {
-    'lastUpdated' => 1180530368,
-    'message' => 'Diese Variablen sind im dem Template verf&uuml;gbar, das zur Anzeige der popul&auml;rsten Seiten im Wiki benutzt wird.'
+    'lastUpdated' => 1224012783,
+    'message' => '&Uuml;bersicht &uuml;ber die Variablen, welche in der Schablone zur Anzeige der beliebtesten Seiten zur Verf&uuml;gung stehen.'
   },
   'most popular template title' => {
-    'lastUpdated' => 1180530391,
-    'message' => 'Wiki Master, Popul&auml;rste Seiten Template'
+    'lastUpdated' => 1224012798,
+    'message' => 'Wiki-Hauptseite, Schablone zur Anzeige der beliebtesten Seiten'
   },
   'most popular title' => {
     'lastUpdated' => 1180530504,
@@ -210,16 +210,16 @@ our $I18N = {
     'message' => 'URL einer Seite aus der Liste der popul&auml;rsten Seiten.'
   },
   'most popular variables title' => {
-    'lastUpdated' => 1223455378,
-    'message' => 'Wiki-Hauptseite, Schablonen-Variablen des Typs &quot;Am beliebtesten&quot; '
+    'lastUpdated' => 1224013140,
+    'message' => 'Wiki-Hauptseite, Beliebteste Seiten'
   },
   'mostPopular' => {
     'lastUpdated' => 1223455497,
     'message' => 'Eine Schleife, welche Informationen &uuml;ber die beliebtesten Seiten im Wiki enth&auml;lt. Die maximale Anzahl der enthaltenen Seiten kann &uuml;ber den Einstellungs-Dialog des Wikis gesteuert werden.'
   },
   'mostPopularCount hoverHelp' => {
-    'lastUpdated' => 1223455691,
-    'message' => 'Die maximale Anzahl an Links zu den beliebtesten Seiten, welche in der entsprechenden Ansicht angezeigt werden sollen.'
+    'lastUpdated' => 1224012896,
+    'message' => 'Die maximale Anzahl an Links, welche auf der Seite mit den beliebtesten Wiki-Seiten angezeigt werden sollen.'
   },
   'mostPopularCount label' => {
     'lastUpdated' => 1223455788,
@@ -234,7 +234,7 @@ our $I18N = {
     'message' => 'Anzahl der beliebtesten Seiten auf der Hauptseite'
   },
   'mostPopularLabel' => {
-    'lastUpdated' => 1223455865,
+    'lastUpdated' => 1224012766,
     'message' => 'Beliebteste Seiten'
   },
   'mostPopularLabel variable' => {
@@ -242,188 +242,188 @@ our $I18N = {
     'message' => 'Eine internationlisierte Beschriftung f&uuml;r die Variable mostPopularUrl'
   },
   'mostPopularTemplateId' => {
-    'lastUpdated' => 1223457495,
-    'message' => 'Die Id der Schablone zur Erzeugung einer Auflistung der beliebtesten Seiten im Wiki.'
+    'lastUpdated' => 1224012946,
+    'message' => 'Die Id der Schablone zur Erzeugung der &Uuml;bersicht mit den beliebtesten Wiki-Seiten.'
   },
   'mostPopularTemplateId hoverHelp' => {
-    'lastUpdated' => 1223455758,
-    'message' => 'Welche Schablone soll zur Auflistung der beliebtesten Seiten verwendet werden?'
+    'lastUpdated' => 1224013056,
+    'message' => 'Die Schablone zur Erzeugung der &Uuml;bersicht mit den beliebtesten Wiki-Seiten.'
   },
   'mostPopularTemplateId label' => {
-    'lastUpdated' => 1223457058,
-    'message' => '&quot;am beliebtesten&quot;-Schablone'
+    'lastUpdated' => 1224013020,
+    'message' => 'Schablone f&uuml;r beliebteste Seiten'
   },
   'mostPopularUrl' => {
-    'lastUpdated' => 1223457091,
-    'message' => 'Ein Url, der den Benutzer zur Auflistung der beliebtesten Wiki-Seiten f&uuml;hrt.'
+    'lastUpdated' => 1224012989,
+    'message' => 'Ein Url, der den Benutzer zur &Uuml;bersicht mit den beliebtesten Wiki-Seiten f&uuml;hrt.'
   },
   'notWhatYouWanted variable' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1223983970,
+    'message' => 'Eine internationalisiert Beschriftung mit der Frage, ob der Benutzer nicht finden konnte, wonach er gesucht hat.'
   },
   'notWhatYouWantedLabel' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1223984027,
+    'message' => 'Nicht gefunden, wonach sie gesucht haben?'
   },
   'nothingFoundLabel' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1224013165,
+    'message' => 'Ihre Suche ergab keine Ergebnisse.'
   },
   'nothingFoundLabel variable' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1223984089,
+    'message' => 'Eine internationalisierte Beschriftung, um dem Benutzer mitzuteilen, dass seine Suche keine Ergebnisse brachte.'
   },
   'pageEditTemplateId' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1223984148,
+    'message' => 'Die Id der Schablone, welche zur Erzeugung der Ansicht f&uuml;r die Bearbeitung von Wiki-Seiten verwendet wird.'
   },
   'pageEditTemplateId hoverHelp' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1223984434,
+    'message' => 'Schablone zur Bearbeitung von Wiki-Seiten.'
   },
   'pageEditTemplateId label' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1223984246,
+    'message' => 'Schablone zur Bearbeitung von Seiten'
   },
   'pageHistoryTemplateId' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1224013226,
+    'message' => 'Die Id der Schablone zur Erzeugung der Ansicht mit allen &Auml;nderungen an Wiki-Seiten.'
   },
   'pageHistoryTemplateId hoverHelp' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1223984386,
+    'message' => 'Schablone zur Anzeige des &Auml;nderungsverlaufs von Seiten'
   },
   'pageHistoryTemplateId label' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1223984415,
+    'message' => 'Schablone zur Anzeige des &Auml;nderungsverlaufs von Seiten'
   },
   'pageTemplateId' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1224006647,
+    'message' => 'Die Id der Schablone, welche zur Anzeige von Wiki-Seiten verwendet wird.'
   },
   'pageTemplateId hoverHelp' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1224006748,
+    'message' => 'Die Schablone, welche zur Anzeige von Wiki-Seiten verwendet wird.'
   },
   'pageTemplateId label' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1224006767,
+    'message' => 'Schablone f&uuml;r Wiki-Seiten'
   },
   'performSearch' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1224006790,
+    'message' => 'Die Konstante &quot;1&quot;.'
   },
   'recent changes date' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1224006862,
+    'message' => 'Das Datum, an dem die Seite zuletzt ge&auml;ndert wurde.'
   },
   'recent changes is available' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1224008516,
+    'message' => 'Eine boolesche Variable, die wahr ist, falls die Wiki-Seite zur Anzeige bereits ist.'
   },
   'recent changes restore url' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1224008476,
+    'message' => 'Ein URL, um die gel&ouml;schte Seite wieder herzustellen.'
   },
   'recent changes template body' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1224008436,
+    'message' => 'Eine &Uuml;bersicht &uuml;ber die Variablen, welche in der Schablone zur Anzeige der letzten &Auml;nderungen an Wiki-Seiten zur Verf&uuml;gung stehen.'
   },
   'recent changes template title' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1224008317,
+    'message' => 'Wiki-Hautpseite, Schablone zur Anzeige der letzten &Auml;nderungen'
   },
   'recent changes title' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1224008289,
+    'message' => 'Eine internationalisierte Beschriftung f&uuml;r die Schablone zur Anzeige der letzten &Auml;nderungen.'
   },
   'recent changes url' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1224007863,
+    'message' => 'Der URL der zuletzt ge&auml;nderten Seite.'
   },
   'recent changes username' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1224007830,
+    'message' => 'Der Name des Benutzers, der die Wiki-Seite zuletzt ver&auml;ndert hat.'
   },
   'recent changes variables title' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1224007790,
+    'message' => 'Wiki-Hauptseite, Variablen in der Schablone zur Anzeige der letzten &Auml;nderungen'
   },
   'recentChanges' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1224011081,
+    'message' => 'Eine Schleife, welche Informationen &uuml;ber die zuletzt ge&auml;nderten Wiki-Seiten enth&auml;lt. Die maximale Anzahl der Seiten kann im Einstellungs-Dialog des Wikis ge&auml;ndert werden.'
   },
   'recentChangesCount hoverHelp' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1224011026,
+    'message' => 'Die maximale Anzahl an Seiten, welche in der Ansicht zuletzt ge&auml;nderter Seiten aufgef&uuml;hrt wird.'
   },
   'recentChangesCount label' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1224007696,
+    'message' => 'Anzahl der letzten &Auml;nderungen'
   },
   'recentChangesCountFront hoverHelp' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1224007673,
+    'message' => 'Die maximale Anzahl zuletzt ge&auml;nderter Seiten, die auf der Hauptseite angezeigt werden sollen.'
   },
   'recentChangesCountFront label' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1224007718,
+    'message' => 'Anzahl der letzten &Auml;nderungen auf der Hauptseite'
   },
   'recentChangesLabel' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1224010957,
+    'message' => 'Letzte &Auml;nderungen'
   },
   'recentChangesLabel variable' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1224007577,
+    'message' => 'Eine internationalisierte Beschriftung f&uuml;r die Variable recentChangesUrl.'
   },
   'recentChangesTemplateId' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1224013395,
+    'message' => 'Die Id der Schablone zur Erzeugung der &Uuml;bersicht mit den letzten &Auml;nderungen an Wiki-Seiten.'
   },
   'recentChangesTemplateId hoverHelp' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1224013317,
+    'message' => 'Die Schablone zur Erzeugung der &Uuml;bersicht mit allen &Auml;nderungen an Wiki-Seiten.'
   },
   'recentChangesTemplateId label' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1224010842,
+    'message' => 'Schablone f&uuml;r letzte &Auml;nderungen'
   },
   'recentChangesUrl' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1224010793,
+    'message' => 'Ein URL, der den Benutzer zu einer &Uuml;bersicht mit allen &Auml;nderungen an Seiten in diesem Wiki f&uuml;hrt.'
   },
   'restoreLabel' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1223984687,
+    'message' => 'Wiederherstellen'
   },
   'resultsLabel' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1224010714,
+    'message' => 'Ergebnisse'
   },
   'resultsLabel variable' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1223984668,
+    'message' => 'Eine internationalisierte Beschriftung f&uuml;r die Betitelung der Suchergebnisse.'
   },
   'richEditor' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1224010701,
+    'message' => 'Die Id des Multimedia-Editors, welcher f&uuml;r die Bearbeitung von Wiki-Seiten verwendet werden soll.'
   },
   'richEditor hoverHelp' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1223984594,
+    'message' => 'Der Multimedia-Editor, welcher f&uuml;r die Bearbeitung von Wiki-Seiten verwendet werden soll.'
   },
   'richEditor label' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1223984526,
+    'message' => 'Multimedia-Editor'
   },
   'search box variables title' => {
-    'lastUpdated' => 1223456502,
-    'message' => 'Wiki-Hauptseite, Variablen f&uuml;r den Such-Kasten'
+    'lastUpdated' => 1224010651,
+    'message' => 'Wiki-Hauptseite, Variablen f&uuml;r die Such-Maske'
   },
   'search template body' => {
-    'lastUpdated' => 1223456424,
-    'message' => 'Diese Variablen sind in der Schablone zur Erstellung der Such-Ansicht im Wiki verf&uuml;gbar.'
+    'lastUpdated' => 1224010479,
+    'message' => 'Ein &Uuml;bersicht &uuml;ber die Variablen, welche in der Such-Schablone verf&uuml;gbar sind.'
   },
   'search template title' => {
     'lastUpdated' => 1223456307,
@@ -458,48 +458,48 @@ our $I18N = {
     'message' => 'HTML-Code f&uuml;r ein Textfeld zur Eingabe der Suchbegriffe.'
   },
   'searchResults' => {
-    'lastUpdated' => 1223457222,
-    'message' => 'Eine Schleife, welche alle Ergbenisse einer Suche des Benutzers enth&auml;lt. Die Schleife kann leer sein.'
+    'lastUpdated' => 1224010350,
+    'message' => 'Eine Schleife, welche alle Ergebnisse einer durch den aktuellen Benutzer ausgef&uuml;hrten Suche enth&auml;lt. Die Schleife kann leer sein.'
   },
   'searchSubmit' => {
-    'lastUpdated' => 1223457338,
-    'message' => 'HTML-Code f&uuml;r eine Schaltfl&auml;che mit internationalisierter Beschriftung zum Ausf&uuml;hren einer Suche'
+    'lastUpdated' => 1224010282,
+    'message' => 'HTML-Code f&uuml;r eine Schaltfl&auml;che mit internationalisierter Beschriftung zum Ausf&uuml;hren einer Suche.'
   },
   'searchTemplateId' => {
-    'lastUpdated' => 1223457428,
-    'message' => 'Die Id der Schablone, welche zur Erzeugung einer Such-Ansicht f&uuml;r die Suche von Seiten innerhalb des Wikis verwendet wird.'
+    'lastUpdated' => 1224010233,
+    'message' => 'Die Id der Schablone zur Anzeige der Such-Maske und Darstellung der Suchergebnisse.'
   },
   'searchTemplateId hoverHelp' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1224010246,
+    'message' => 'Die Schablone zur Anzeige der Such-Maske und Darstellung der Suchergebnisse.'
   },
   'searchTemplateId label' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1223983527,
+    'message' => 'Such-Schablone'
   },
   'searchUrl' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1223983576,
+    'message' => 'Ein URL, der den Benutzer zur Such-Ansicht des Wikis f&uuml;hrt.'
   },
   'thumbnail size' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1223983599,
+    'message' => 'Gr&ouml;&szlig;e der Vorschaubilder'
   },
   'thumbnail size help' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1224009890,
+    'message' => 'Die maximale Gr&ouml;&szlig;e der Vorschaubilder im Wiki. Ein Wert von 0 entspricht der globalen Standardeinstellung. Eine sp&auml;tere &Auml;nderung f&uuml;hrt nicht automatisch zur Neuerzeugung der Vorschaubilder. Hierf&uuml;r m&uuml;ssen die betroffenen Seiten erst bearbeitet und wieder gespeichert werden.'
   },
   'thumbnailSize' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1223983822,
+    'message' => 'Gr&ouml;&szlig;e der Vorschaubilder'
   },
   'useContentFilter' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1223983910,
+    'message' => 'Eine boolesche Variable, die wahr ist, falls die Inhalte im Wiki gefiltert werden sollen.'
   },
   'wiki master asset variables title' => {
-    'lastUpdated' => 1223456587,
-    'message' => 'Wiki, Variablen des Typs Asset'
+    'lastUpdated' => 1224009857,
+    'message' => 'Wiki-Hauptseite, Variablen des Typs Asset'
   },
   'wikiHomeLabel' => {
     'lastUpdated' => 1223456545,
@@ -510,8 +510,8 @@ our $I18N = {
     'message' => 'Eine internationlisierte Beschriftung f&uuml;r die Variable wikiHomeUrl'
   },
   'wikiHomeUrl' => {
-    'lastUpdated' => 1223456533,
-    'message' => 'Ein Url, der den Benutzer zur&uuml;ck zur Hauptseite des Wikis f&uuml;hrt.'
+    'lastUpdated' => 1224009819,
+    'message' => 'Ein URL, der den Benutzer zur&uuml;ck zur Hauptseite des Wikis f&uuml;hrt.'
   }
 }
 ;

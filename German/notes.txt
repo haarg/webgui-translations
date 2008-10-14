@@ -1,0 +1,37 @@
+* ÃÂbsersetzer *
+
+Falls ihr an der ÃÂÃÂbsersetzung mitarbeitet, dann fÃÂÃÂ¼gt doch bitte eure Namen und idealerweise eine e-Mailadresse hinzu. Auf diese Weise kÃÂÃÂ¶nnen wir uns Zukunft besser austauschen.
+
+Bernd KalbfuÃ-Zimmermann (spunky@kashyyyk.de, bernd auf webgui.org)
+
+
+* Konventionen *
+
+Es ist die fÃÂÃÂ¶rmliche Anrede zu wÃÂÃÂ¤hlen.
+
+Nomen sind im Deutschen zusammenzuschreiben. Der Begriff "template variables" wird z.B. zu "Schablonenvariablen". Ist ein Wortteil dem Englischen entliehen, werden die beiden Nomen mit einem Bindestrich verbunden (z.B. "Asset-Eigenschaften).
+
+
+* ÃÂÃÂbersetzungen *
+
+Um eine einheitliche ÃÂÃÂbersetzung zu gewÃÂÃÂ¤hrleisten, ist im Folgenden eine ÃÂÃÂberstzungstabelle fÃÂÃÂ¼r schwierige bzw. hÃÂÃÂ¤ufig vorkommende Vokabeln bzw. Phrasen aufgefÃÂÃÂ¼hrt. Bitte fÃÂÃÂ¼gt weitere EintrÃÂÃÂ¤ge nach belieben hinzu. Solltet ihr mit einer ÃÂÃÂbersetzung nicht einverstanden sein, dann wÃÂÃÂ¤re es nett, ihr wÃÂÃÂ¼rdet vorher eine Diskussion hierzu auf webgui.org initiieren und nicht einfach eine ÃÂÃÂnderung vornehmen.
+
+(to) edit -> bearbeiten
+editing -> Bearbeitung
+history -> Verlauf
+label -> Beschriftung
+(to) submit -> einreichen
+revision -> Revision
+template -> Schablone
+
+Die folgenden Worte sollten aus dem Englischen ÃÂÃÂ¼bernommen werden, da keine angemessene deutsche ÃÂÃÂbersetzung existiert. Die GroÃÂÃÂ-/Kleinschreibung ist natÃÂÃÂ¼rlich anzupassen.
+
+asset
+cache
+Id
+layout
+proxy
+
+
+
+
