@@ -194,8 +194,8 @@ our $I18N = {
     'message' => '&Uuml;bersicht &uuml;ber die Variablen, welche in der Schablone zur Anzeige der beliebtesten Seiten zur Verf&uuml;gung stehen.'
   },
   'most popular template title' => {
-    'lastUpdated' => 1224012798,
-    'message' => 'Wiki-Hauptseite, Schablone zur Anzeige der beliebtesten Seiten'
+    'lastUpdated' => 1224014775,
+    'message' => 'Wiki-Hauptseite, beliebteste Seiten'
   },
   'most popular title' => {
     'lastUpdated' => 1180530504,
@@ -210,8 +210,8 @@ our $I18N = {
     'message' => 'URL einer Seite aus der Liste der popul&auml;rsten Seiten.'
   },
   'most popular variables title' => {
-    'lastUpdated' => 1224013140,
-    'message' => 'Wiki-Hauptseite, Beliebteste Seiten'
+    'lastUpdated' => 1224014844,
+    'message' => 'Wiki-Hauptseite, Variablen des Typs &quot;beliebteste Seiten&quot;'
   },
   'mostPopular' => {
     'lastUpdated' => 1223455497,
@@ -346,8 +346,8 @@ our $I18N = {
     'message' => 'Der Name des Benutzers, der die Wiki-Seite zuletzt ver&auml;ndert hat.'
   },
   'recent changes variables title' => {
-    'lastUpdated' => 1224007790,
-    'message' => 'Wiki-Hauptseite, Variablen in der Schablone zur Anzeige der letzten &Auml;nderungen'
+    'lastUpdated' => 1224014886,
+    'message' => 'Wiki-Hauptseite, letzte &Auml;nderungen'
   },
   'recentChanges' => {
     'lastUpdated' => 1224011081,
@@ -426,8 +426,8 @@ our $I18N = {
     'message' => 'Ein &Uuml;bersicht &uuml;ber die Variablen, welche in der Such-Schablone verf&uuml;gbar sind.'
   },
   'search template title' => {
-    'lastUpdated' => 1223456307,
-    'message' => 'Wiki-Hauptseite, Such-Schablone'
+    'lastUpdated' => 1224014871,
+    'message' => 'Wiki-Hauptseite, Suche '
   },
   'search title variable' => {
     'lastUpdated' => 1223456253,

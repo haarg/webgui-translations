@@ -10,8 +10,8 @@ our $I18N = {
     'message' => 'Die Id des Benutzers, der die Seite zuletzt bearbeitet hat.'
   },
   'add/edit title' => {
-    'lastUpdated' => 1222933342,
-    'message' => 'Wiki-Seite, Template zum Hinzuf&uuml;gen/Bearbeiten'
+    'lastUpdated' => 1224014252,
+    'message' => 'Wiki-Seite, Schablone zum Hinzuf&uuml;gen/Bearbeiten'
   },
   'assetName' => {
     'lastUpdated' => 1222933350,
@@ -38,12 +38,12 @@ our $I18N = {
     'message' => 'Inhalt'
   },
   'contentLabel variable' => {
-    'lastUpdated' => 1222932982,
+    'lastUpdated' => 1224014121,
     'message' => 'Eine internationalisierte Beschriftung f&uuml;r die Variable formContent.'
   },
   'delete confirmation' => {
-    'lastUpdated' => 1222933649,
-    'message' => '<p>Soll diese Revision wirklich gel&ouml;scht werden?</p>'
+    'lastUpdated' => 1224014270,
+    'message' => 'Soll diese Revision wirklich gel&ouml;scht werden?'
   },
   'delete page confirmation' => {
     'lastUpdated' => 1222933670,
@@ -78,8 +78,8 @@ our $I18N = {
     'message' => 'Internationalisiertes Label f&uuml;r das Bearbeiten des Inhalts einer Seite. N&uuml;tzlich f&uuml;r "tabbed interfaces" der Wiki Seite.'
   },
   'editing' => {
-    'lastUpdated' => 1222930336,
-    'message' => 'Editieren'
+    'lastUpdated' => 1224014290,
+    'message' => 'Bearbeitung'
   },
   'formContent' => {
     'lastUpdated' => 1222931907,
@@ -106,12 +106,12 @@ our $I18N = {
     'message' => 'HTML-Code f&uuml;r ein Formular zur Eingabe oder &Auml;nderung des Titels einer Seite.'
   },
   'history actionTaken' => {
-    'lastUpdated' => 1222933229,
-    'message' => 'Die in dieser Revision ausgef&uuml;hrte Aktion. In den meisten F&auml;llen ist dies &quot;Edit&quot;.'
+    'lastUpdated' => 1224014554,
+    'message' => 'Die in dieser &Uuml;berarbeitung ausgef&uuml;hrte Aktion. In den meisten F&auml;llen ist dies &quot;Edit&quot;.'
   },
   'history body' => {
-    'lastUpdated' => 1222930055,
-    'message' => 'Diese Variablen stehen in der Vorlage zur Anzeige der Historie von Ver&auml;nderungen einer Wiki-Seite zur Vef&uuml;gung.'
+    'lastUpdated' => 1224014604,
+    'message' => '&Uuml;bersicht &uuml;ber die Variablen, welche in der Schablone zur Anzeige der Geschichte einer Wiki-Seite zur Vef&uuml;gung stehen.'
   },
   'history date' => {
     'lastUpdated' => 1222930128,
@@ -122,8 +122,8 @@ our $I18N = {
     'message' => 'Die verstrichene Zeit, seitdem die Seite eingereicht wurde.'
   },
   'history title' => {
-    'lastUpdated' => 1223984343,
-    'message' => 'Wiki-Seite, Schablone zur Anzeige der Historie'
+    'lastUpdated' => 1224014524,
+    'message' => 'Wiki-Seite, Schablone zur Anzeige der Geschichte'
   },
   'history toolbar' => {
     'lastUpdated' => 1222930434,
@@ -134,8 +134,8 @@ our $I18N = {
     'message' => 'Der Name des Benutzers, der diese Seite eingereicht hat.'
   },
   'historyLabel' => {
-    'lastUpdated' => 1222930483,
-    'message' => 'Historie'
+    'lastUpdated' => 1224014509,
+    'message' => 'Geschichte'
   },
   'historyLabel variable' => {
     'lastUpdated' => 1222931536,
@@ -178,8 +178,8 @@ our $I18N = {
     'message' => 'Eine internationalisierte Beschriftung f&uuml;r die Variable recentChangesUrl.'
   },
   'recentChangesUrl' => {
-    'lastUpdated' => 1222931196,
-    'message' => 'Ein URL, der den Benutzer zu einer Ansicht aller k&uuml;rzlichen Ver&auml;nderungen an Seiten in diesem Wiki f&uuml;hrt.'
+    'lastUpdated' => 1224014374,
+    'message' => 'Ein URL, der den Benutzer zu einer &Uuml;bersicht mit allen Ver&auml;nderungen an Seiten in diesem Wiki f&uuml;hrt.'
   },
   'searchLabel variable' => {
     'lastUpdated' => 1222931589,
@@ -210,8 +210,8 @@ our $I18N = {
     'message' => 'Diese Variablen stehen in Vorlagen zur Wiki-Seite zur Verf&uuml;gung. Sie basieren auf internen Asset-Variablen und sind m&ouml;glicherweise nur bedingt n&uuml;tzlich.'
   },
   'vars title' => {
-    'lastUpdated' => 1223455257,
-    'message' => 'Wiki-Seite, Schablonen-Variablen des Typs Asset.'
+    'lastUpdated' => 1224014669,
+    'message' => 'Wiki-Seite, Variablen des Typs Asset'
   },
   'view body' => {
     'lastUpdated' => 1222929866,
