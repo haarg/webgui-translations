@@ -138,24 +138,24 @@ our $I18N = {
     'message' => 'Un condicional que indica si el usuario pertenece al grupo con permisos para Editar Eventos en el Calendario.'
   },
   'end date' => {
-    'lastUpdated' => 1207848919,
-    'message' => 'Fecha de Fin'
+    'lastUpdated' => 1223992795,
+    'message' => 'Fecha Final'
   },
   'endDayAbbr' => {
-    'lastUpdated' => 1189596100,
-    'message' => 'La abreviatura del nombre del día con el que esta semana termina.'
+    'lastUpdated' => 1223992833,
+    'message' => 'Nombre abreviado del d&iacute;a con el que termina esta semana.'
   },
   'endDayName' => {
-    'lastUpdated' => 1189596136,
-    'message' => 'El nombre del día con el que esta semana termina.'
+    'lastUpdated' => 1223992865,
+    'message' => 'Nombre del d&iacute;a con el que termina esta semana.'
   },
   'endDayOfMonth' => {
-    'lastUpdated' => 1189596689,
-    'message' => 'El día del mes en el que esta semana termina, un numero entre 1 y 31.'
+    'lastUpdated' => 1223992910,
+    'message' => 'D&iacute;a del mes en el cual termina esta semana. Debe ser un n&uacute;mero entre 1 y 31.'
   },
   'endMonth' => {
-    'lastUpdated' => 1189596865,
-    'message' => 'El numero (1-12) del mes en el que esta semana finaliza.'
+    'lastUpdated' => 1223992965,
+    'message' => 'Mes en el que termina esta semana. Debe ser un n&uacute;mero entre 1 y 12.'
   },
   'endMonthAbbr' => {
     'lastUpdated' => 1189597113,
@@ -167,11 +167,11 @@ our $I18N = {
   },
   'endYear' => {
     'lastUpdated' => 1189598685,
-    'message' => 'El año en el que esta semana finaliza.'
+    'message' => "El a\x{f1}o en el que esta semana finaliza."
   },
   'epoch' => {
     'lastUpdated' => 1189598709,
-    'message' => 'La fecha de este día en formato época.'
+    'message' => "La fecha de este d\x{ed}a en formato \x{e9}poca."
   },
   'events dayVar' => {
     'lastUpdated' => 1189598876,
@@ -195,7 +195,7 @@ our $I18N = {
   },
   'groupIdEventEdit label' => {
     'lastUpdated' => 1189601390,
-    'message' => '¿Quién puede agregar Eventos?'
+    'message' => "\x{bf}Qui\x{e9}n puede agregar Eventos?"
   },
   'help calendar dateTime body' => {
     'lastUpdated' => 1208214936,
@@ -311,15 +311,15 @@ our $I18N = {
   },
   'hour12' => {
     'lastUpdated' => 1189601824,
-    'message' => 'La hora en formato de 12 horas. las 2 de la tarde serán 2:00.'
+    'message' => "La hora en formato de 12 horas. las 2 de la tarde ser\x{e1}n 2:00."
   },
   'hour24' => {
     'lastUpdated' => 1189601874,
-    'message' => 'La hora en formato de 24 horas. Las 2 de la tarde serán 14.00.'
+    'message' => "La hora en formato de 24 horas. Las 2 de la tarde ser\x{e1}n 14.00."
   },
   'hourM' => {
     'lastUpdated' => 1189602066,
-    'message' => 'Dependiendo de si la hora pertenece a la mañana o a la tarde, las cadenas "am" o "pm"'
+    'message' => "Dependiendo de si la hora pertenece a la ma\x{f1}ana o a la tarde, las cadenas \"am\" o \"pm\""
   },
   'hours' => {
     'lastUpdated' => 1189602515,
@@ -355,7 +355,7 @@ our $I18N = {
   },
   'mdy' => {
     'lastUpdated' => 1189603321,
-    'message' => 'La fecha de este dia en formato mm-dd-aaaa, donde aaaa es el año, mm es el mes y dd el día.'
+    'message' => "La fecha de este dia en formato mm-dd-aaaa, donde aaaa es el a\x{f1}o, mm es el mes y dd el d\x{ed}a."
   },
   'monthAbbr' => {
     'lastUpdated' => 1189603467,
@@ -383,23 +383,23 @@ our $I18N = {
   },
   'pageNextStart' => {
     'lastUpdated' => 1189603859,
-    'message' => 'La fecha del próximo día del calendario en formato aaaa-mm-dd (año, mes, día).'
+    'message' => "La fecha del pr\x{f3}ximo d\x{ed}a del calendario en formato aaaa-mm-dd (a\x{f1}o, mes, d\x{ed}a)."
   },
   'pageNextUrl dayVar' => {
     'lastUpdated' => 1189603923,
-    'message' => 'Un URL al próximo día del calendario.'
+    'message' => "Un URL al pr\x{f3}ximo d\x{ed}a del calendario."
   },
   'pageNextUrl weekVar' => {
     'lastUpdated' => 1189604045,
-    'message' => 'Un URL a la próxima semana del calendario.'
+    'message' => "Un URL a la pr\x{f3}xima semana del calendario."
   },
   'pagePrevStart' => {
     'lastUpdated' => 1189604159,
-    'message' => 'La fecha del día previo en el calendario en el formato aaaa-mm-dd (año, mes día).'
+    'message' => "La fecha del d\x{ed}a previo en el calendario en el formato aaaa-mm-dd (a\x{f1}o, mes d\x{ed}a)."
   },
   'pagePrevUrl dayVar' => {
     'lastUpdated' => 1189604321,
-    'message' => 'Un URL al día previo en el calendario'
+    'message' => "Un URL al d\x{ed}a previo en el calendario"
   },
   'pagePrevUrl weekVar' => {
     'lastUpdated' => 1189604583,
@@ -459,15 +459,15 @@ our $I18N = {
   },
   'startDayAbbr' => {
     'lastUpdated' => 1189605177,
-    'message' => 'La abreviatura del nombre del día con el que esta semana comienza.'
+    'message' => "La abreviatura del nombre del d\x{ed}a con el que esta semana comienza."
   },
   'startDayName' => {
     'lastUpdated' => 1189605253,
-    'message' => 'El nombre del día con el que comienza la semana.'
+    'message' => "El nombre del d\x{ed}a con el que comienza la semana."
   },
   'startDayOfMonth' => {
     'lastUpdated' => 1189605485,
-    'message' => 'El día del mes con el cual comienza esta semana, un numero entre 1 y 31.'
+    'message' => "El d\x{ed}a del mes con el cual comienza esta semana, un numero entre 1 y 31."
   },
   'startMonth' => {
     'lastUpdated' => 1189605546,
@@ -483,7 +483,7 @@ our $I18N = {
   },
   'startYear' => {
     'lastUpdated' => 1189605657,
-    'message' => 'El año en el que comienza esta semana.'
+    'message' => "El a\x{f1}o en el que comienza esta semana."
   },
   'subscribe' => {
     'lastUpdated' => 1207848883,
@@ -491,91 +491,91 @@ our $I18N = {
   },
   'subscriberNotifyOffset description' => {
     'lastUpdated' => 1189605772,
-    'message' => 'La cantidad de días previos para notificar un usuario de un Evento.'
+    'message' => "La cantidad de d\x{ed}as previos para notificar un usuario de un Evento."
   },
   'subscriberNotifyOffset label' => {
     'lastUpdated' => 1189606152,
-    'message' => 'Anticipación de notificación a suscriptores.'
+    'message' => "Anticipaci\x{f3}n de notificaci\x{f3}n a suscriptores."
   },
   'templateIdDay description' => {
     'lastUpdated' => 1189606185,
-    'message' => 'Este patrón muestra el calendario en formato "día".'
+    'message' => "Este patr\x{f3}n muestra el calendario en formato \"d\x{ed}a\"."
   },
   'templateIdDay label' => {
     'lastUpdated' => 1189606202,
-    'message' => 'Patrón de vista "día"'
+    'message' => "Patr\x{f3}n de vista \"d\x{ed}a\""
   },
   'templateIdEvent description' => {
     'lastUpdated' => 1189606239,
-    'message' => 'El patrón para mostrar los detalles del Evento.'
+    'message' => "El patr\x{f3}n para mostrar los detalles del Evento."
   },
   'templateIdEvent label' => {
     'lastUpdated' => 1189606274,
-    'message' => 'Patrón de detalles del Evento'
+    'message' => "Patr\x{f3}n de detalles del Evento"
   },
   'templateIdEventEdit description' => {
     'lastUpdated' => 1189606305,
-    'message' => 'El patrón para editar Eventos.'
+    'message' => "El patr\x{f3}n para editar Eventos."
   },
   'templateIdEventEdit label' => {
     'lastUpdated' => 1189606335,
-    'message' => 'Patrón edición de Evento'
+    'message' => "Patr\x{f3}n edici\x{f3}n de Evento"
   },
   'templateIdMonth description' => {
     'lastUpdated' => 1189606394,
-    'message' => 'Este patrón muestra el calendario en formato "mes"'
+    'message' => "Este patr\x{f3}n muestra el calendario en formato \"mes\""
   },
   'templateIdMonth label' => {
     'lastUpdated' => 1189598211,
-    'message' => 'Patrón de vista mensual'
+    'message' => "Patr\x{f3}n de vista mensual"
   },
   'templateIdPrintDay description' => {
     'lastUpdated' => 1189607195,
-    'message' => 'Este patrón se usa para imprimir el calendario en formato "día".'
+    'message' => "Este patr\x{f3}n se usa para imprimir el calendario en formato \"d\x{ed}a\"."
   },
   'templateIdPrintDay label' => {
     'lastUpdated' => 1189607216,
-    'message' => 'Imprimir patrón de "día"'
+    'message' => "Imprimir patr\x{f3}n de \"d\x{ed}a\""
   },
   'templateIdPrintEvent description' => {
     'lastUpdated' => 1189607239,
-    'message' => 'El patrón para imprimir detalles del Evento.'
+    'message' => "El patr\x{f3}n para imprimir detalles del Evento."
   },
   'templateIdPrintEvent label' => {
     'lastUpdated' => 1189607425,
-    'message' => 'Patrón de impresión detalles del Evento'
+    'message' => "Patr\x{f3}n de impresi\x{f3}n detalles del Evento"
   },
   'templateIdPrintMonth description' => {
     'lastUpdated' => 1189607476,
-    'message' => 'Este patrón para imprimir el calendario en formato "mes".'
+    'message' => "Este patr\x{f3}n para imprimir el calendario en formato \"mes\"."
   },
   'templateIdPrintMonth label' => {
     'lastUpdated' => 1189607520,
-    'message' => 'Patrón de impresión "mes"'
+    'message' => "Patr\x{f3}n de impresi\x{f3}n \"mes\""
   },
   'templateIdPrintWeek description' => {
     'lastUpdated' => 1189607546,
-    'message' => 'Este patrón para imprimir el calendario en formato "semana".'
+    'message' => "Este patr\x{f3}n para imprimir el calendario en formato \"semana\"."
   },
   'templateIdPrintWeek label' => {
     'lastUpdated' => 1189607564,
-    'message' => 'Imprimir patrón de "semana"'
+    'message' => "Imprimir patr\x{f3}n de \"semana\""
   },
   'templateIdSearch description' => {
     'lastUpdated' => 1189607589,
-    'message' => 'Este patrón muestra el formulario de búsqueda para el calendario'
+    'message' => "Este patr\x{f3}n muestra el formulario de b\x{fa}squeda para el calendario"
   },
   'templateIdSearch label' => {
     'lastUpdated' => 1189607656,
-    'message' => 'Patrón de vista "buscar"'
+    'message' => "Patr\x{f3}n de vista \"buscar\""
   },
   'templateIdWeek description' => {
     'lastUpdated' => 1189607716,
-    'message' => 'Este patrón muestra el calendario en formato "semana".'
+    'message' => "Este patr\x{f3}n muestra el calendario en formato \"semana\"."
   },
   'templateIdWeek label' => {
     'lastUpdated' => 1189607736,
-    'message' => 'Patrón de vista "semana"'
+    'message' => "Patr\x{f3}n de vista \"semana\""
   },
   'urlAdd' => {
     'lastUpdated' => 1189607767,
@@ -583,7 +583,7 @@ our $I18N = {
   },
   'urlDay' => {
     'lastUpdated' => 1189607808,
-    'message' => 'Un URL hacia la vista del día 1 del calendario.'
+    'message' => "Un URL hacia la vista del d\x{ed}a 1 del calendario."
   },
   'urlIcal' => {
     'lastUpdated' => 1189607850,
@@ -611,23 +611,23 @@ our $I18N = {
   },
   'view calendar day body' => {
     'lastUpdated' => 1190390419,
-    'message' => 'Este patrón muestra todos los eventos de un día en particular en el calendario, ordenado por hora.'
+    'message' => "Este patr\x{f3}n muestra todos los eventos de un d\x{ed}a en particular en el calendario, ordenado por hora."
   },
   'view calendar day title' => {
     'lastUpdated' => 1190390488,
-    'message' => 'Ver las variables de patrón de día en el calendario.'
+    'message' => "Ver las variables de patr\x{f3}n de d\x{ed}a en el calendario."
   },
   'view calendar title' => {
     'lastUpdated' => 1190390517,
-    'message' => 'Ver variables de patrón del calendario'
+    'message' => "Ver variables de patr\x{f3}n del calendario"
   },
   'view calendar week body' => {
     'lastUpdated' => 1190390655,
-    'message' => 'Este patrón muestra todos los eventos de la semana en el calenario, ordenado por día.'
+    'message' => "Este patr\x{f3}n muestra todos los eventos de la semana en el calenario, ordenado por d\x{ed}a."
   },
   'view calendar week title' => {
     'lastUpdated' => 1189598276,
-    'message' => 'Ver las variables del patrón para la semana.'
+    'message' => "Ver las variables del patr\x{f3}n para la semana."
   },
   'visitorCacheTimeout description' => {
     'lastUpdated' => 1207867363,
@@ -655,11 +655,11 @@ our $I18N = {
   },
   'year' => {
     'lastUpdated' => 1189598302,
-    'message' => 'El año en 4 dígitos'
+    'message' => "El a\x{f1}o en 4 d\x{ed}gitos"
   },
   'ymd' => {
     'lastUpdated' => 1189598338,
-    'message' => 'La fecha de ese día en formato aaaa-mm-dd, donde aaaa es el año, mm el mes y dd el día.'
+    'message' => "La fecha de ese d\x{ed}a en formato aaaa-mm-dd, donde aaaa es el a\x{f1}o, mm el mes y dd el d\x{ed}a."
   }
 }
 ;
