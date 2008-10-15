@@ -1,6 +1,10 @@
 package WebGUI::i18n::Dutch::Asset;
 use utf8;
 our $I18N = {
+  '%s is not a valid depth' => {
+    'lastUpdated' => 1224075526,
+    'message' => '%s is geen geldig niveau.'
+  },
   '104' => {
     'lastUpdated' => 1146577899,
     'message' => 'URL'
@@ -281,6 +285,10 @@ our $I18N = {
     'lastUpdated' => 1146581918,
     'message' => 'geleden'
   },
+  'apply' => {
+    'lastUpdated' => 1224075536,
+    'message' => 'Toepassen'
+  },
   'asset' => {
     'lastUpdated' => 1146668453,
     'message' => 'Asset'
@@ -347,7 +355,7 @@ our $I18N = {
   },
   'controls' => {
     'lastUpdated' => 1166203953,
-    'message' => 'Met deze iconen en url\'s kunt u een asset wijzigen, knippen, kopiëren, verwijderen en verplaatsen.'
+    'message' => "Met deze iconen en url's kunt u een asset wijzigen, knippen, kopi\x{eb}ren, verwijderen en verplaatsen."
   },
   'copy' => {
     'lastUpdated' => 1222875690,
@@ -415,7 +423,7 @@ our $I18N = {
   },
   'demote help' => {
     'lastUpdated' => 1166204029,
-    'message' => 'Verplaats deze asset één plaats omlaag.  '
+    'message' => "Verplaats deze asset \x{e9}\x{e9}n plaats omlaag.  "
   },
   'directory index' => {
     'lastUpdated' => 1146831438,
@@ -423,7 +431,7 @@ our $I18N = {
   },
   'directory index description' => {
     'lastUpdated' => 1166204038,
-    'message' => 'Als de URL van de Asset die geëxporteerd wordt een map is dan zal de mappenstructuur bijgevoegd worden. '
+    'message' => "Als de URL van de Asset die ge\x{eb}xporteerd wordt een map is dan zal de mappenstructuur bijgevoegd worden. "
   },
   'does asset inherit URL from parent' => {
     'lastUpdated' => 1213624861,
@@ -537,6 +545,10 @@ our $I18N = {
     'lastUpdated' => 1222875714,
     'message' => 'Overnemen permissies van ouder'
   },
+  'is not a valid userId' => {
+    'lastUpdated' => 1224075598,
+    'message' => 'is geen geldig gebruikersId.'
+  },
   'isHidden' => {
     'lastUpdated' => 1170685926,
     'message' => 'Een booleaanse variabele (waar/niet-waar) die waar is als dit asset is ingesteld op "niet weergeven in navigaties". '
@@ -620,6 +632,14 @@ our $I18N = {
   'missing page query' => {
     'lastUpdated' => 1149234520,
     'message' => 'De pagina die u heeft opgevraagd bestaat niet. Wat wilt u doen?'
+  },
+  'need a depth' => {
+    'lastUpdated' => 1224075611,
+    'message' => 'Er is een niveau nodig'
+  },
+  'need a userId parameter' => {
+    'lastUpdated' => 1224075636,
+    'message' => 'Er is een gebruikersId parameter nodig.'
   },
   'newWindow' => {
     'lastUpdated' => 1170686157,

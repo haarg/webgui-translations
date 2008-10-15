@@ -141,6 +141,14 @@ our $I18N = {
     'lastUpdated' => 1213706065,
     'message' => 'Eindtijd'
   },
+  'error permission www_manageRevisionsInTag body' => {
+    'lastUpdated' => 1224076531,
+    'message' => 'U heeft niet de rechten om deze versie tag te bekijken. Het is mogelijk dat deze al goed -of afgekeurd is.'
+  },
+  'error permission www_manageRevisionsInTag title' => {
+    'lastUpdated' => 1224076544,
+    'message' => 'Toegang geweigerd'
+  },
   'export version tag to html' => {
     'lastUpdated' => 1154342960,
     'message' => 'Versie tag naar HTML exporteren'

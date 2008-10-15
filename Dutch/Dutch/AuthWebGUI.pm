@@ -225,6 +225,10 @@ our $I18N = {
     'lastUpdated' => 1190025148,
     'message' => 'Geef hieronder een nieuw wachtwoord op voor uw account'
   },
+  'email recover password finish message' => {
+    'lastUpdated' => 1223545398,
+    'message' => 'U zult een e-mail ontvangen met een handleiding voor het opnieuw instellen van uw wachtwoord.'
+  },
   'email recover password finish message1' => {
     'lastUpdated' => 1190025130,
     'message' => 'Een email is verzonden naar '

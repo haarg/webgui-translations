@@ -1102,7 +1102,7 @@ our $I18N = {
     'message' => 'Er werden geen records geimporteerd. Er waren fouten in de input:'
   },
   'no more available' => {
-    'lastUpdated' => 1222876207,
+    'lastUpdated' => 1224075669,
     'message' => 'Fout: Er zijn geen objecten meer voor verkoop beschikbaar.'
   },
   'no sets to display' => {

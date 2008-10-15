@@ -66,8 +66,8 @@ our $I18N = {
     'message' => 'Standaard Thing'
   },
   'default value description' => {
-    'lastUpdated' => 1206042664,
-    'message' => 'Voer de standaard waarde (indien deze er is) voor het veld. Voor Ja/Nee velden, voer &quot;ja&quot; in om &quot;Ja&quot; te selecteren en &quot;nee&quot; voor &quot;Nee&quot;.'
+    'lastUpdated' => 1224075774,
+    'message' => 'Voer de standaard waarde (indien deze er is) voor het veld. Wanneer de mogelijke waarden met behulp van een hash gedefini&euml;erd zijn, moet de standaardwaarde een key in de hash zijn. Voor Ja/Nee velden, voer &quot;ja&quot; in om &quot;Ja&quot; te selecteren en &quot;nee&quot; voor &quot;Nee&quot;.'
   },
   'default value label' => {
     'lastUpdated' => 1206042678,
@@ -193,6 +193,14 @@ our $I18N = {
     'lastUpdated' => 1205855899,
     'message' => 'Exporteren'
   },
+  'export metadata description' => {
+    'lastUpdated' => 1224075830,
+    'message' => 'Moet de exporteerfunctie de metadata zoals thingDataId, lastUpdated, ipAdress en dergelijke meenemen?'
+  },
+  'export metadata label' => {
+    'lastUpdated' => 1224075843,
+    'message' => 'Metadata exporteren?'
+  },
   'export_url' => {
     'lastUpdated' => 1206051314,
     'message' => 'URL om de data van een zoekresultaat naar een csv bestand te exporten. Dit is alleen beschikbaar nadat een zoekopdracht is gedaan.'
@@ -317,6 +325,10 @@ our $I18N = {
     'lastUpdated' => 1206447256,
     'message' => 'Een formulier inzend knop, waarmee de data uit het formulier ingevoerd wordt.'
   },
+  'has entered max per user message' => {
+    'lastUpdated' => 1224075893,
+    'message' => 'U heeft de maximum hoeveelheid bereikt.'
+  },
   'height description' => {
     'lastUpdated' => 1206447298,
     'message' => 'Stel de hoogte van dit veld in in pixels. Dit wordt alleen gebruikt voor tekst en HTML gebieden.'
@@ -364,6 +376,14 @@ our $I18N = {
   'manage_url' => {
     'lastUpdated' => 1206447563,
     'message' => 'Dit URL leidt naar een scherm waar de Things in dit Thingy asset beheerd kunnen worden.'
+  },
+  'max entries per user description' => {
+    'lastUpdated' => 1224075928,
+    'message' => 'Het aantal objecten dat een gebruiker aan dit thing kan toevoegen.'
+  },
+  'max entries per user label' => {
+    'lastUpdated' => 1224075953,
+    'message' => 'Max aantal objecten per gebruiker'
   },
   'name' => {
     'lastUpdated' => 1213708461,
@@ -414,8 +434,8 @@ our $I18N = {
     'message' => 'Overschrijven'
   },
   'possible values description' => {
-    'lastUpdated' => 1205856987,
-    'message' => 'Dit veld veld wordt gebruikt voor de lijste typen (zoals aanvink lijsten en Selectie lijsten. Voer de waarden in die getoond moeten worden, &eacute;&eacute;n per regel.'
+    'lastUpdated' => 1224076179,
+    'message' => '<p>Dit veld veld wordt gebruikt voor de lijste typen (zoals aanvink lijsten en Selectie lijsten. Voer de waarden in die getoond moeten worden, &eacute;&eacute;n per regel.</p><p>Wanneer een ander label voor een waarde gewenst is, moeten de mogelijke waarden als volgt ingevoerd worden:</p><p>{</p><blockquote>&quot;key1&quot;=&gt;&quot;waarde1&quot;,<br />&quot;key2&quot;=&gt;&quot;waarde2&quot;,<br /> &quot;key3&quot;=&gt;&quot;waarde3&quot;,<br />...<br /></blockquote><p>{</p><p>Vergeet alle haakjes, komma\'s en dergelijke niet. Het enige wat gedaan moet worden is dat de key1 en waarde1 vervangen moeten worden door uw eigen naam/waarde paren. </p>'
   },
   'possible values label' => {
     'lastUpdated' => 1206447947,
@@ -698,8 +718,8 @@ our $I18N = {
     'message' => 'Wie kan toevoegen?'
   },
   'who can edit description' => {
-    'lastUpdated' => 1206449514,
-    'message' => 'De groep die dit Thing kan bewerken'
+    'lastUpdated' => 1224076342,
+    'message' => '<p>Selecteer uit:</p><p>-\'eigenaar\' wanneer alleen degene die de data in dit thing heeft toegevoegd het mag bewerken</p><p>of</p><p>- een groep die alle data in dit thing kan bewerken</p><p>Een gebruiker die dit Thingy kan bewerken kan altijd alle data zien en bewerken.</p>'
   },
   'who can edit label' => {
     'lastUpdated' => 1205854317,
@@ -730,8 +750,8 @@ our $I18N = {
     'message' => 'Wie kan zoeken?'
   },
   'who can view description' => {
-    'lastUpdated' => 1205854186,
-    'message' => 'De groep die dit kan bekijken.'
+    'lastUpdated' => 1224076396,
+    'message' => '<p>Selecteer uit:</p><p>-\'eigenaar\' wanneer alleen degene die de data in dit thing heeft toegevoegd het mag bekijken</p><p>of</p><p>- een groep die alle data in dit thing kan bekijken</p><p>Een gebruiker die dit Thingy wobject kan bewerken kan altijd alle data zien en bewerken.</p>'
   },
   'who can view label' => {
     'lastUpdated' => 1205854169,
