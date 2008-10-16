@@ -1,562 +1,451 @@
 package WebGUI::i18n::Spanish::Asset_Navigation;
 use utf8;
-
 our $I18N = {
-	'' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'showUnprivilegedPages' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'32' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'showHiddenPages' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'page.parent.newWindow' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'Ancestor End Point' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'reverse page loop' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'currentPage.hasViewableSiblings' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'Descendants' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'page.inBranch' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'currentPage.ownerUserId' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'page.parent.parentId' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'page.isHidden' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'Ancestor End Point description' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'Siblings' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'mimeType variable' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'page.hasViewableChildren' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'reverse page loop description' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'indent' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'Infinity' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'currentPage.url' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'showSystemPages' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'page.title' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'Relative To Current URL' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'mimeType' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'page.indent_loop' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'31' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'page.newWindow' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'page.depthIsN' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'Self' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'page.url' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'30 description' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'page.isChild' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'page.assetId' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'page.isRankedLast' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'Start Point Type' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'Start Point Type description' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'page.isTopOfBranch' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'Relatives To Include description' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'1096' => {
-		message => q|Plantilla Navegaci&oacute;n|,
-		lastUpdated => 1210792729
-	},
-
-	'page.isRankedFirst' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'page.indent' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'Pedigree' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'mimeType description' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'currentPage.title' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'navigation asset template variables title' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'startPoint' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'page.parent.assetId' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'page_loop' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'currentPage.isHome' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'reversePageLoop' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'page.depthDiff_loop' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'page.hasChild' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'currentPage.menuTitle' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'page.parent.menuTitle' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'page.depthDiffIsN' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'page.parent.url' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'page.isBranchRoot' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'Start Point' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'assetName' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'currentPage.hasChild' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'Ancestors' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'Descendant End Point description' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'Start Point description' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'page.isSibling' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'page.depthDiff' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'1097' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'assetsToInclude' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'30' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'currentPage.synopsis' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'page.rank' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'page.parent.title' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'currentPage.assetId' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'descendantEndPoint' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'Relative To Root' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'page.isViewable' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'currentPage.hasSibling' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'preview' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'page.isCurrent' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'page.absDepth' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'ancestorEndPoint' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'32 description' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'page.isParent' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'currentPage.parentId' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'page.parentId' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'page.isDescendent' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'Specific URL' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'currentPage.newWindow' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'Descendant End Point' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'22' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'page.isSystem' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'page.menuTitle' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'1096 description' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'page.relDepth' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'page.parent.rank' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'Relatives To Include' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'page.synopsis' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'currentPage.hasViewableChildren' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'startType' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'templateId' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'page.ownerUserId' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'31 description' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'page.parent.synopsis' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'page.isContainer' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'page.isAncestor' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'page.isUtility' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'navigation asset template variables body' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'page.parent.ownerUserId' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'page.inBranchRoot' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'currentPage.rank' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'page.relativeDepthIsN' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-};
+  '' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  '1096' => {
+    'lastUpdated' => 1224116665,
+    'message' => 'Plantilla para Navegaci&oacute;n'
+  },
+  '1096 description' => {
+    'lastUpdated' => 1224116692,
+    'message' => 'Seleccione la plantilla a utilizar para mostrar la Navegaci&oacute;n.'
+  },
+  '1097' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  '22' => {
+    'lastUpdated' => 1224116719,
+    'message' => 'Editar Navegaci&oacute;n'
+  },
+  '30' => {
+    'lastUpdated' => 1224116733,
+    'message' => 'Mostrar p&aacute;ginas del sistema'
+  },
+  '30 description' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  '31' => {
+    'lastUpdated' => 1224116771,
+    'message' => 'Mostrar p&aacute;ginas ocultas'
+  },
+  '31 description' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  '32' => {
+    'lastUpdated' => 1224116791,
+    'message' => 'Mostrar p&aacute;ginas sin privilegios'
+  },
+  '32 description' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'Ancestor End Point' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'Ancestor End Point description' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'Ancestors' => {
+    'lastUpdated' => 1224116811,
+    'message' => 'Ancestros'
+  },
+  'Descendant End Point' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'Descendant End Point description' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'Descendants' => {
+    'lastUpdated' => 1224116821,
+    'message' => 'Descendientes'
+  },
+  'Infinity' => {
+    'lastUpdated' => 1224116834,
+    'message' => 'Infinito'
+  },
+  'Pedigree' => {
+    'lastUpdated' => 1224116845,
+    'message' => 'Pedigree'
+  },
+  'Relative To Current URL' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'Relative To Root' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'Relatives To Include' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'Relatives To Include description' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'Self' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'Siblings' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'Specific URL' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'Start Point' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'Start Point Type' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'Start Point Type description' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'Start Point description' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'ancestorEndPoint' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'assetName' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'assetsToInclude' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'currentPage.assetId' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'currentPage.hasChild' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'currentPage.hasSibling' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'currentPage.hasViewableChildren' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'currentPage.hasViewableSiblings' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'currentPage.isHome' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'currentPage.menuTitle' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'currentPage.newWindow' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'currentPage.ownerUserId' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'currentPage.parentId' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'currentPage.rank' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'currentPage.synopsis' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'currentPage.title' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'currentPage.url' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'descendantEndPoint' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'indent' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'mimeType' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'mimeType description' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'mimeType variable' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'navigation asset template variables body' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'navigation asset template variables title' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'page.absDepth' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'page.assetId' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'page.depthDiff' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'page.depthDiffIsN' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'page.depthDiff_loop' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'page.depthIsN' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'page.hasChild' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'page.hasViewableChildren' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'page.inBranch' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'page.inBranchRoot' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'page.indent' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'page.indent_loop' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'page.isAncestor' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'page.isBranchRoot' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'page.isChild' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'page.isContainer' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'page.isCurrent' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'page.isDescendent' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'page.isHidden' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'page.isParent' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'page.isRankedFirst' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'page.isRankedLast' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'page.isSibling' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'page.isSystem' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'page.isTopOfBranch' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'page.isUtility' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'page.isViewable' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'page.menuTitle' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'page.newWindow' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'page.ownerUserId' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'page.parent.assetId' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'page.parent.menuTitle' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'page.parent.newWindow' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'page.parent.ownerUserId' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'page.parent.parentId' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'page.parent.rank' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'page.parent.synopsis' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'page.parent.title' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'page.parent.url' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'page.parentId' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'page.rank' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'page.relDepth' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'page.relativeDepthIsN' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'page.synopsis' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'page.title' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'page.url' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'page_loop' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'preview' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'reverse page loop' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'reverse page loop description' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'reversePageLoop' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'showHiddenPages' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'showSystemPages' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'showUnprivilegedPages' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'startPoint' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'startType' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'templateId' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  }
+}
+;
 
 1;

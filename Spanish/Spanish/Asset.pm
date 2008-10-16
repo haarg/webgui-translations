@@ -1,6 +1,10 @@
 package WebGUI::i18n::Spanish::Asset;
 use utf8;
 our $I18N = {
+  '%s is not a valid depth' => {
+    'lastUpdated' => 1224116207,
+    'message' => '%s no es una profundidad v&aacute;lida.'
+  },
   '104' => {
     'lastUpdated' => 1169609968,
     'message' => 'URL'
@@ -281,6 +285,10 @@ our $I18N = {
     'lastUpdated' => 1186066518,
     'message' => 'atr&aacute;s'
   },
+  'apply' => {
+    'lastUpdated' => 1224116225,
+    'message' => 'Aplicar'
+  },
   'asset' => {
     'lastUpdated' => 1186066527,
     'message' => 'Activo'
@@ -537,6 +545,10 @@ our $I18N = {
     'lastUpdated' => 1223930968,
     'message' => 'Heredar permisos del Activo padre'
   },
+  'is not a valid userId' => {
+    'lastUpdated' => 1224116258,
+    'message' => 'no es un user ID v&aacute;lido'
+  },
   'isHidden' => {
     'lastUpdated' => 1223931056,
     'message' => 'Un condicional que indica si el Activo ha sido ocultado para que no aparezca en los Activos de Navegaci&oacute;n.'
@@ -620,6 +632,14 @@ our $I18N = {
   'missing page query' => {
     'lastUpdated' => 1223931772,
     'message' => 'La p&aacute;gina solicitada no existe. &iquest;Qu&eacute; quiere hacer?'
+  },
+  'need a depth' => {
+    'lastUpdated' => 1224116288,
+    'message' => 'necesita indicar una profundidad.'
+  },
+  'need a userId parameter' => {
+    'lastUpdated' => 1224116303,
+    'message' => 'necesita un user ID.'
   },
   'newWindow' => {
     'lastUpdated' => 1223931817,

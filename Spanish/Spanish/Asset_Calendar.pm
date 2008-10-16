@@ -158,20 +158,20 @@ our $I18N = {
     'message' => 'Mes en el que termina esta semana. Debe ser un n&uacute;mero entre 1 y 12.'
   },
   'endMonthAbbr' => {
-    'lastUpdated' => 1189597113,
-    'message' => 'La abreviatura del nombre del mes en el que esta semana finaliza.'
+    'lastUpdated' => 1223993144,
+    'message' => 'Nombre abreviado del mes en el que termina esta semana.'
   },
   'endMonthName' => {
-    'lastUpdated' => 1189598450,
-    'message' => 'El nombre del mes en el que esta semana termina.'
+    'lastUpdated' => 1223993185,
+    'message' => 'Nombre del mes en el que termina esta semana.'
   },
   'endYear' => {
-    'lastUpdated' => 1189598685,
-    'message' => "El a\x{f1}o en el que esta semana finaliza."
+    'lastUpdated' => 1223993201,
+    'message' => 'El a&ntilde;o en el que termina esta semana.'
   },
   'epoch' => {
-    'lastUpdated' => 1189598709,
-    'message' => "La fecha de este d\x{ed}a en formato \x{e9}poca."
+    'lastUpdated' => 1223993336,
+    'message' => 'La fecha como n&uacute;mero de segundos desde 1970-01-01 (Unix epoch)'
   },
   'events dayVar' => {
     'lastUpdated' => 1189598876,
