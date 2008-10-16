@@ -1,32 +1,27 @@
 package WebGUI::i18n::Spanish::Macro_r_printable;
 use utf8;
-
 our $I18N = {
-	'printable.url' => {
-		message => q|La URL que hace la p&aacute;gina imprimible.|,
-		lastUpdated => 1201899303
-	},
-
-	'53' => {
-		message => q|Hacer P&aacute;gina Imprimible|,
-		lastUpdated => 1201896714
-	},
-
-	'printable.text' => {
-		message => q|La etiqueta traducida para el v&iacute;nculo de impresi&oacute;n, o el texto que suministra la macro.|,
-		lastUpdated => 1201897572
-	},
-
-	'macroName' => {
-		message => q|Hacer P&aacute;gina Imprimible|,
-		lastUpdated => 1201896730
-	},
-
-	'printable title' => {
-		message => q||,
-		lastUpdated => 1201897495
-	},
-
-};
+  '53' => {
+    'lastUpdated' => 1224120627,
+    'message' => 'Versi&oacute;n para Imprimir'
+  },
+  'macroName' => {
+    'lastUpdated' => 1224120639,
+    'message' => 'Versi&oacute;n para Imprimir'
+  },
+  'printable title' => {
+    'lastUpdated' => 1224120663,
+    'message' => 'Variables para Plantillas del Macro P&aacute;gina para Imprimir'
+  },
+  'printable.text' => {
+    'lastUpdated' => 1224120705,
+    'message' => 'Versi&oacute;n para Imprimir'
+  },
+  'printable.url' => {
+    'lastUpdated' => 1224120724,
+    'message' => 'URL de la Versi&oacute;n para Imprimir.'
+  }
+}
+;
 
 1;
