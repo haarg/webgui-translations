@@ -78,16 +78,16 @@ our $I18N = {
     'message' => 'Pedigree'
   },
   'Relative To Current URL' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1224116874,
+    'message' => 'Relativo al URL Actual'
   },
   'Relative To Root' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1224116955,
+    'message' => 'Relativo a la Ra&iacute;z'
   },
   'Relatives To Include' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1224117076,
+    'message' => 'Relacionados a Incluir'
   },
   'Relatives To Include description' => {
     'lastUpdated' => undef,
@@ -102,8 +102,8 @@ our $I18N = {
     'message' => ''
   },
   'Specific URL' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1224117122,
+    'message' => 'URL Espec&iacute;fico'
   },
   'Start Point' => {
     'lastUpdated' => undef,
