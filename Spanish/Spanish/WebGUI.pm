@@ -66,12 +66,12 @@ our $I18N = {
     'message' => 'Calificar Mensaje'
   },
   '1026' => {
-    'lastUpdated' => 1207841535,
-    'message' => 'Permitir editor de texto enriquecido?'
+    'lastUpdated' => 1224122903,
+    'message' => '&iquest;Permitir editor de texto enriquecido?'
   },
   '1027' => {
-    'lastUpdated' => 1199971752,
-    'message' => 'Usar filtros de contenido?'
+    'lastUpdated' => 1224122919,
+    'message' => '&iquest;Usar filtros de contenido?'
   },
   '1029' => {
     'lastUpdated' => 1199971793,
@@ -1930,8 +1930,8 @@ our $I18N = {
     'message' => 'Nombre de la fuente de datos (<strong>D</strong>ata <strong>S</strong>ource <strong>N</strong>ame)'
   },
   '993 description' => {
-    'lastUpdated' => 1208196650,
-    'message' => '<p>Nombe de la fuente de los datos (<strong>D</strong>ata <strong>S</strong>ource <strong>N</strong>ame) es el unico identificador que Perl usa para describir la ubicacion de su base de datos. toma el formato de: </p><div class="&quot;helpIndent&quot;">DBI:[driver]:[database name]:[host].</div> <p><em>Ejemplo:</em> DBI:mysql:WebGUI:localhost</p> <p>Aqui hay algunos ejemplos de otras bases de datos.</p> <div> <dl><dt><a href="%22http://search.cpan.org/author/TIMB/DBD-Oracle-1.14/Oracle.pm#CONNECTING_TO_ORACLE%22">Oracle</a>:</dt><dd>DBI:Oracle:SID<br /> DBD::Oracle tiene que ser instalado.<br />Usted debe estar usando mod_perl y configurando <strong>PerlSetEnv ORACLE_HOME /home/oracle/product/8.1.7</strong> in httpd.conf. sin configurar ORACLE_HOME, usted se puede conectar usando DBI:Oracle:host=myhost.com;sid=SID </dd><dt><a href="%22http://search.cpan.org/author/OYAMA/DBD-PgPP-0.04/PgPP.pm#THE_DBI_CLASS%22">PostgreSQL</a>:</dt><dd>DBI:PgPP:dbname=DBNAME[;host=hOST]<br /> DBD::PgPP tiene que ser instalado. </dd><dt><a href="%22http://search.cpan.org/author/MEWP/DBD-Sybase-1.00/Sybase.pm#Specifying_other_connection_specific_parameters%22">Sybase</a>:</dt><dd>DBI:Sybase:[server=SERVERNAME][database=DATABASE]<br /> DBD::Sybase tiene que ser instalado.<br />Usted debe estar usando mod_perl y configurando <strong>PerlSetEnv SYBASE /opt/sybase/11.0.2</strong> in httpd.conf. </dd></dl></div><p>&nbsp;</p>'
+    'lastUpdated' => 1224123313,
+    'message' => '<p>Un DSN (<strong>D</strong>ata <strong>S</strong>ource <strong>N</strong>ame) es el identificador &uacute;nico que Perl necesita para obtener la ubicacion de su base de datos. Tiene la forma:<br /> </p><div class="&quot;helpIndent&quot;">DBI:[driver]:[database name]:[host].</div> <p><em>Ejemplo:</em> DBI:mysql:WebGUI:localhost</p> <p>Aqui hay algunos ejemplos para otras bases de datos.</p> <div> <dl><dt><a href="%22http://search.cpan.org/author/TIMB/DBD-Oracle-1.14/Oracle.pm#CONNECTING_TO_ORACLE%22">Oracle</a>:</dt><dd>DBI:Oracle:SID<br />El m&oacute;dulo Perl DBD::Oracle debe estar instalado.<br />WebGUI debe ejecutar con mod_perl y disponer de</dd><dd>las variables de ambiente necesarias para Oracle incluyendo directivas similares a</dd><dd><strong>PerlSetEnv ORACLE_HOME /opt/oracle/8.1.7</strong></dd><dd>en el archivo httpd.conf. Si lo prefiere, puede conectarse directamente indicando el nombre del servidor y el Oracle SID de manera similar a DBI:Oracle:host=myhost.com;sid=SID </dd><dt><a href="%22http://search.cpan.org/author/OYAMA/DBD-PgPP-0.04/PgPP.pm#THE_DBI_CLASS%22">PostgreSQL</a>:</dt><dd>DBI:Pg:dbname=DBNAME[;host=HOST]<br />El m&oacute;dulo Perl DBD::Pg debe estar instalado. </dd><dt><a href="%22http://search.cpan.org/author/MEWP/DBD-Sybase-1.00/Sybase.pm#Specifying_other_connection_specific_parameters%22">Sybase</a>:</dt><dd>DBI:Sybase:[server=SERVERNAME][database=DATABASE]<br />El m&oacute;dulo DBD::Sybase debe estar instalado.<br />WebGUI debe ejecutar con mod_perl y disponer de las variables de ambiente necesarias para Sybase incluyendo directivas similares a</dd><dd><strong>PerlSetEnv SYBASE /opt/sybase/11.0.2</strong></dd><dd>en el archivo httpd.conf. </dd></dl></div><p>&nbsp;</p>'
   },
   '994' => {
     'lastUpdated' => 1208196691,
@@ -2142,7 +2142,7 @@ our $I18N = {
     'message' => 'Solicitar ejecuciones automaticamente?'
   },
   'auto request commit help' => {
-    'lastUpdated' => 1208201066,
+    'lastUpdated' => 1224123340,
     'message' => '<p>Le gustaria que el sistema solicite ejecuciones automaticamente por usted de manera que usted no tenga que recordar la accion&quot;Ejecutar mis cambios&quot;?. Note que cuando se usa esto en conjunto con &quot;Saltar comentarios de ejecucion?&quot; y un flujo de trabajo de ejecucion en tiempo real, se esconde efectivamente toda la version y el proceso de flujo de trabajo de los usuarios.  </p>'
   },
   'avatar' => {
@@ -3098,8 +3098,8 @@ our $I18N = {
     'message' => 'Plantilla Edici&oacute;n Perfil de Usuario'
   },
   'user profile edit template description' => {
-    'lastUpdated' => 1215808542,
-    'message' => 'La plantilla muestra utilizada para construir un formulario para que el usuario pueda editar su plantilla.'
+    'lastUpdated' => 1224122997,
+    'message' => 'La Plantilla utilizada para construir el formulario que el usuario completa para editar su Perfil de Usuario.'
   },
   'user profile field friend availability' => {
     'lastUpdated' => 1208214393,
@@ -3122,8 +3122,8 @@ our $I18N = {
     'message' => 'Plantilla Vista del Perfil de Usuario'
   },
   'user profile view template description' => {
-    'lastUpdated' => 1215808192,
-    'message' => 'La plantilla usada para mostrarle al usuario su perfil de usuario.'
+    'lastUpdated' => 1224122951,
+    'message' => 'La Plantilla empleada para mostrarle al usuario su Perfil de Usuario.'
   },
   'user profiling' => {
     'lastUpdated' => 1206978781,
