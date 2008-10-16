@@ -1,17 +1,17 @@
 package WebGUI::i18n::Spanish::Macro_SQL;
 use utf8;
 our $I18N = {
+  'database access not allowed' => {
+    'lastUpdated' => 1224120359,
+    'message' => 'Esa base de datos no permite el acceso desde Macros.'
+  },
   'illegal query' => {
-    'lastUpdated' => 1201896327,
-    'message' => 'No puede ejecutar ese tipo de consulta.'
+    'lastUpdated' => 1224120380,
+    'message' => 'No puede ejecutar ese tipo de consulta SQL.'
   },
   'macroName' => {
-    'lastUpdated' => 1201896337,
+    'lastUpdated' => 1224120367,
     'message' => 'SQL'
-  },
-  'database access not allowed' => {
-    'lastUpdated' => 1215811668,
-    'message' => 'La base de datos no permite acceso de Macros.'
   },
   'sql error' => {
     'lastUpdated' => 1201896368,

@@ -6,11 +6,11 @@ our $I18N = {
     'message' => 'Hola'
   },
   '49' => {
-    'lastUpdated' => 1207730214,
-    'message' => 'Click aqui para salir'
+    'lastUpdated' => 1224120171,
+    'message' => 'Salir'
   },
   'account.create.label' => {
-    'lastUpdated' => 1223503168,
+    'lastUpdated' => 1224120190,
     'message' => 'Etiqueta para &quot;Crear cuenta&quot;'
   },
   'account.create.url' => {
