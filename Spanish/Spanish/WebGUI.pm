@@ -2,12 +2,12 @@ package WebGUI::i18n::Spanish::WebGUI;
 use utf8;
 our $I18N = {
   '1' => {
-    'lastUpdated' => 1207945502,
+    'lastUpdated' => 1224121719,
     'message' => 'A&ntilde;adir contenido...'
   },
   '10' => {
-    'lastUpdated' => 1215718924,
-    'message' => 'Administrar mi papelera.'
+    'lastUpdated' => 1224121739,
+    'message' => 'Administrar mi Papelera.'
   },
   '1004' => {
     'lastUpdated' => 1190393530,
@@ -1949,9 +1949,37 @@ our $I18N = {
     'lastUpdated' => 1208196844,
     'message' => 'La contrase&ntilde;a que usted usa para conectarse al DSN.<span> </span>'
   },
+  'About Us' => {
+    'lastUpdated' => 1224122020,
+    'message' => '&iquest;Qui&eacute;nes somos?'
+  },
+  'All Rights Reserved' => {
+    'lastUpdated' => 1224122043,
+    'message' => 'Todos los derechos reservados'
+  },
+  'All the news you need to know.' => {
+    'lastUpdated' => 1224122063,
+    'message' => 'Todo lo que debe saber.'
+  },
   'Attachments formName' => {
     'lastUpdated' => 1208196888,
     'message' => 'Archivos Adjuntos'
+  },
+  'Cannot find what you are looking for? Try our search.' => {
+    'lastUpdated' => 1224122099,
+    'message' => '&iquest;No encuentra lo que busca? Intente nuestro buscador.'
+  },
+  'Check out what is going on.' => {
+    'lastUpdated' => 1224122110,
+    'message' => '&iquest;Qu&eacute; hay de nuevo?'
+  },
+  'Contact Us' => {
+    'lastUpdated' => 1224122140,
+    'message' => 'Cont&aacute;ctenos'
+  },
+  'Discuss your ideas and get help from our community.' => {
+    'lastUpdated' => 1224122163,
+    'message' => 'Discuta sus ideas y obtenga ayuda de nuestra comunidad usuaria.'
   },
   'Enable Metadata' => {
     'lastUpdated' => 1207839059,
@@ -1977,9 +2005,33 @@ our $I18N = {
     'lastUpdated' => 1208199668,
     'message' => '<p>Activar usuarios para enviar correos eletronicos a sus amigos, invitandolos a venir a este sitio y crear una cuenta.&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p>'
   },
+  'Forums' => {
+    'lastUpdated' => 1224122182,
+    'message' => 'P&aacute;ginas Iniciales'
+  },
+  'General Discussion' => {
+    'lastUpdated' => 1224122197,
+    'message' => 'Discusiones Generales'
+  },
   'Illegal Warning' => {
     'lastUpdated' => 1208199908,
     'message' => '<p>ACtivando esta caracteristica es ilegal en algunos paises como Australia. Adicionalmente, algunos paises requieren que usted a&ntilde;ada una advertencia a su sitio si esta carecteristica es usada. Consulte con las autoridades locales para conocer leyes locales. La Corporacion &quot;Plain Black&quot; no es responsable por sus actividades ilegales, sin importar ignorancia o malicia.<span style="font-size: 10pt; font-family: \'Arial\',\'sans-serif\'"> </span> </p>'
+  },
+  'Initial Pages' => {
+    'lastUpdated' => 1224122212,
+    'message' => 'P&aacute;ginas Iniciales'
+  },
+  'My Style' => {
+    'lastUpdated' => 1224122225,
+    'message' => 'Mi Estilo'
+  },
+  'One forum name per line' => {
+    'lastUpdated' => 1224122238,
+    'message' => 'Un nombre de Foro por l&iacute;nea'
+  },
+  'Put your about us content here.' => {
+    'lastUpdated' => 1224122258,
+    'message' => 'Escriba el contenido de &quot;&iquest;Quienes somos?&quot; aqu&iacute;.'
   },
   'Select State' => {
     'lastUpdated' => 1207839075,
@@ -1992,6 +2044,38 @@ our $I18N = {
   'SubscriptionGroup formName' => {
     'lastUpdated' => 1208199969,
     'message' => 'Grupo de subscripcion'
+  },
+  'Support' => {
+    'lastUpdated' => 1224122277,
+    'message' => 'Asistencia'
+  },
+  'Tell us how we can assist you.' => {
+    'lastUpdated' => 1224122292,
+    'message' => '&iquest;C&oacute;mo podemos ayudarle?'
+  },
+  'Thanks for for your interest in ^c;. We will review your message shortly.' => {
+    'lastUpdated' => 1224122349,
+    'message' => 'Gracias por su inter&eacute;s en ^c;. Su mensaje ser&aacute; procesado en breve.'
+  },
+  'We welcome your feedback.' => {
+    'lastUpdated' => 1224122308,
+    'message' => 'Agradecemos sus comentarios.'
+  },
+  'WebGUI Initial Configuration' => {
+    'lastUpdated' => 1224122321,
+    'message' => 'Configuraci&oacute;n Inicial de WebGUI'
+  },
+  'WebGUI password recovery' => {
+    'lastUpdated' => 1224122394,
+    'message' => 'Recuperaci&oacute;n de Contrase&ntilde;a WebGUI'
+  },
+  'Welcome to our wiki. Here you can help us keep information up to date.' => {
+    'lastUpdated' => 1224122440,
+    'message' => 'Bienvenido a nuesro WiKi, donde podr&aacute; ayudarnos a mantener la informaci&oacute;n actualizada.'
+  },
+  'Your Email Address' => {
+    'lastUpdated' => 1224122472,
+    'message' => 'Su e-Mail'
   },
   'account' => {
     'lastUpdated' => 1199911383,
@@ -2012,6 +2096,10 @@ our $I18N = {
   'additional parameters help' => {
     'lastUpdated' => 1208200194,
     'message' => '<p>Especificar parametros adicionales para su conexion a la base de datos. Use 1 por linea, y separe el nombre de parametro del valor con un signo igual. asi: </p><p>LongReadLen=1024<br /> LongTruncOk=1</p><p>&nbsp;</p>'
+  },
+  'admin account' => {
+    'lastUpdated' => 1224122484,
+    'message' => 'Cuenta Administrativa'
   },
   'admin console template' => {
     'lastUpdated' => 1208200213,
@@ -2128,6 +2216,10 @@ our $I18N = {
   'company' => {
     'lastUpdated' => 1199911262,
     'message' => 'compa&ntilde;ia'
+  },
+  'company information' => {
+    'lastUpdated' => 1224122655,
+    'message' => 'Informaci&oacute;n de la Empresa'
   },
   'contains' => {
     'lastUpdated' => 1207724698,
@@ -2321,6 +2413,10 @@ our $I18N = {
     'lastUpdated' => 1208205339,
     'message' => 'Configuraciones de vinculo'
   },
+  'logo' => {
+    'lastUpdated' => 1224122628,
+    'message' => 'Logotipo'
+  },
   'mail return path' => {
     'lastUpdated' => 1208205515,
     'message' => 'Camino de regreso'
@@ -2340,6 +2436,10 @@ our $I18N = {
   'misc' => {
     'lastUpdated' => 1208205599,
     'message' => 'Miscelaneo'
+  },
+  'no thanks' => {
+    'lastUpdated' => 1224122639,
+    'message' => 'No, gracias'
   },
   'noldaplink' => {
     'lastUpdated' => 1215725854,
@@ -2452,6 +2552,10 @@ our $I18N = {
   'pagination.previousPageUrl' => {
     'lastUpdated' => 1208207528,
     'message' => 'El componente de URL de &quot;pagination.previousPage&quot; esta roto.'
+  },
+  'pagination.range' => {
+    'lastUpdated' => 1224122607,
+    'message' => 'Muestra el rango de p&aacute;ginas disponibles, en el formato inicio - fin.'
   },
   'pagination.text' => {
     'lastUpdated' => 1208207577,
@@ -2597,13 +2701,17 @@ our $I18N = {
     'lastUpdated' => 1208210937,
     'message' => 'Correr cuando un administrador actualiza un usuario.'
   },
+  'save' => {
+    'lastUpdated' => 1224122501,
+    'message' => 'Guardar'
+  },
   'select' => {
     'lastUpdated' => 1199917137,
     'message' => 'Seleccionar'
   },
   'select slider' => {
-    'lastUpdated' => 1208210951,
-    'message' => ''
+    'lastUpdated' => 1224122514,
+    'message' => 'Seleccione valor'
   },
   'send private message' => {
     'lastUpdated' => 1199917200,
@@ -2616,6 +2724,10 @@ our $I18N = {
   'send private message template description' => {
     'lastUpdated' => 1208211049,
     'message' => 'Escoger una palntilla para enviar mensajes privados.'
+  },
+  'session length' => {
+    'lastUpdated' => 1224122532,
+    'message' => 'Duraci&oacute;n'
   },
   'settings' => {
     'lastUpdated' => 1207947233,
@@ -2857,6 +2969,10 @@ our $I18N = {
     'lastUpdated' => 1215791121,
     'message' => 'Si &quot;si&quot;, forzar&aacute; a todos los usuarios a ver nuevamente el mensaje de loguin.'
   },
+  'showMessageOnLoginReset label' => {
+    'lastUpdated' => 1224122572,
+    'message' => 'Poner en cero el n&uacute;mero de veces que se ha visto a los usuarios.'
+  },
   'showMessageOnLoginTimes description' => {
     'lastUpdated' => 1215808861,
     'message' => '<div id="result_box" dir="ltr">El n&uacute;mero de veces que un usuario ve el mensaje, uno por cada inicio de sesi&oacute;n</div>'
@@ -2864,6 +2980,14 @@ our $I18N = {
   'showMessageOnLoginTimes label' => {
     'lastUpdated' => 1215808930,
     'message' => 'Mostrar Mensaje N&uacute;mero de Veces'
+  },
+  'site starter body' => {
+    'lastUpdated' => 1224121860,
+    'message' => '<p>&iquest;Desea utilizar el WebGUI Site Starter? Se le permitir&aacute; escoger entre una serie de opciones para crear una apariencia original a su sitio, estableciendo algunas &aacute;reas b&aacute;sicas para contenido.</p>'
+  },
+  'site starter title' => {
+    'lastUpdated' => 1224121888,
+    'message' => 'Site Starter'
   },
   'skip commit comments' => {
     'lastUpdated' => 1208212817,
@@ -2873,9 +2997,17 @@ our $I18N = {
     'lastUpdated' => 1208212935,
     'message' => 'Desea ser puntual al agregar comentarios en sus ejecuciones de contenido?'
   },
+  'slider' => {
+    'lastUpdated' => 1224121902,
+    'message' => 'Slider'
+  },
   'starts with' => {
     'lastUpdated' => 1203025813,
     'message' => 'Comienza Con'
+  },
+  'style designer' => {
+    'lastUpdated' => 1224121972,
+    'message' => 'Dise&ntilde;ador de Estilo Visual'
   },
   'submit' => {
     'lastUpdated' => 1199917218,
@@ -2888,6 +3020,10 @@ our $I18N = {
   'target description' => {
     'lastUpdated' => 1208212982,
     'message' => 'Escoja si el vinculo, cuando se le de click, abrira en la misma ventana o en una ventana diferente.'
+  },
+  'time recorded' => {
+    'lastUpdated' => 1224121950,
+    'message' => 'Tiempo Total (no incluye sesiones actuales)'
   },
   'tinymce' => {
     'lastUpdated' => 1203026186,
@@ -2916,6 +3052,10 @@ our $I18N = {
   'unknown user' => {
     'lastUpdated' => 1200060327,
     'message' => 'usuario desconocido'
+  },
+  'upload logo' => {
+    'lastUpdated' => 1224121704,
+    'message' => 'Incluya su logotipo'
   },
   'url extension' => {
     'lastUpdated' => 1208213276,
@@ -3012,6 +3152,10 @@ our $I18N = {
   'webgui' => {
     'lastUpdated' => 1199917234,
     'message' => 'WebGUI'
+  },
+  'yes please' => {
+    'lastUpdated' => 1224121657,
+    'message' => 'Si, por favor'
   }
 }
 ;
