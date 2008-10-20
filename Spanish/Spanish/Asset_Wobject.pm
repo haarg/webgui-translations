@@ -1,97 +1,97 @@
 package WebGUI::i18n::Spanish::Asset_Wobject;
 use utf8;
 our $I18N = {
-  '1073 description' => {
-    'lastUpdated' => undef,
-    'message' => ''
-  },
-  'add' => {
-    'lastUpdated' => 1216245355,
-    'message' => 'Adicionar'
-  },
-  '1079' => {
-    'lastUpdated' => 1216245263,
-    'message' => 'Estilo Imprimible'
-  },
-  'displayTitle' => {
-    'lastUpdated' => undef,
-    'message' => ''
-  },
-  '827' => {
-    'lastUpdated' => undef,
-    'message' => ''
-  },
-  'assetName' => {
-    'lastUpdated' => 1216245396,
-    'message' => 'Wobject'
-  },
-  'edit' => {
-    'lastUpdated' => 1216245189,
-    'message' => 'Editar'
-  },
-  '85 description' => {
-    'lastUpdated' => undef,
-    'message' => ''
-  },
-  '42' => {
-    'lastUpdated' => 1216245209,
-    'message' => 'Favor Confirmar'
-  },
-  '174' => {
-    'lastUpdated' => 1207601941,
-    'message' => 'Mostrar el t&iacute;tulo?'
-  },
-  'assetId' => {
-    'lastUpdated' => 1216245388,
-    'message' => 'El identificador &uacute;nico que usa WebGUI para controlar este activo.'
-  },
-  'wobject template variables title' => {
-    'lastUpdated' => undef,
-    'message' => ''
-  },
-  '44' => {
-    'lastUpdated' => 1216245299,
-    'message' => 'Si, estoy seguro.'
-  },
   '1073' => {
-    'lastUpdated' => 1207601904,
+    'lastUpdated' => 1224535749,
     'message' => 'Plantilla de Estilo'
   },
-  '174 description' => {
-    'lastUpdated' => undef,
-    'message' => ''
+  '1073 description' => {
+    'lastUpdated' => 1224535859,
+    'message' => 'Seleccione una Plantilla de Estilo en la cual presentar el Wobject cuando sea presentado directamente. Si el Wobject es presentador como parte de un Activo Layout, se utilizar&aacute; la Plantilla de Estilo del Activo Layout.'
   },
-  '85' => {
-    'lastUpdated' => 1216245341,
-    'message' => 'Descripci&oacute;n'
-  },
-  'styleTemplateId' => {
-    'lastUpdated' => 1216245564,
-    'message' => 'El assetId de la plantilla para mostrar el Activo.'
+  '1079' => {
+    'lastUpdated' => 1224535870,
+    'message' => 'Estilo para Imprimir'
   },
   '1079 description' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1224535943,
+    'message' => 'Establece el estilo para imprimir la p&aacute;gina cuando se quiera diferente al Estilo para Imprimir por Defecto de WebGUI. Se comporta de manera similar a la Plantilla de Estilo en cuanto a su uso.'
   },
-  'description' => {
-    'lastUpdated' => 1216245412,
-    'message' => 'La descripci&oacute;n de este wobject.'
+  '174' => {
+    'lastUpdated' => 1224535957,
+    'message' => '&iquest;Mostrar el t&iacute;tulo?'
+  },
+  '174 description' => {
+    'lastUpdated' => 1224535989,
+    'message' => '&iquest;Desea mostrar el t&iacute;tulo del Wobject? En algunos sitios, presentar el t&iacute;tulo no es necesario.'
+  },
+  '42' => {
+    'lastUpdated' => 1224536005,
+    'message' => 'Confirme'
+  },
+  '44' => {
+    'lastUpdated' => 1224536013,
+    'message' => 'Si, estoy seguro.'
   },
   '45' => {
-    'lastUpdated' => 1216245311,
-    'message' => 'No, he comedito un error.'
+    'lastUpdated' => 1224536028,
+    'message' => 'No, comet&iacute; un error.'
+  },
+  '827' => {
+    'lastUpdated' => 1224536050,
+    'message' => 'Variables para Plantillas de Wobject'
+  },
+  '85' => {
+    'lastUpdated' => 1224536057,
+    'message' => 'Descripci&oacute;n'
+  },
+  '85 description' => {
+    'lastUpdated' => 1224536109,
+    'message' => 'Un &aacute;rea en la cual colocar todo el contenido que se desee. Por ejemplo, antes de un FAQ suele haber una descripci&oacute;n de lo que est&aacute; contenido en el FAQ.'
+  },
+  'add' => {
+    'lastUpdated' => 1224536120,
+    'message' => 'Agregar'
+  },
+  'assetId' => {
+    'lastUpdated' => 1224536146,
+    'message' => 'ID &uacute;nico empleado por WebGUI para controlar este Activo.'
+  },
+  'assetName' => {
+    'lastUpdated' => 1224536151,
+    'message' => 'Wobject'
+  },
+  'description' => {
+    'lastUpdated' => 1224536160,
+    'message' => 'La descripci&oacute;n de este Wobject.'
+  },
+  'displayTitle' => {
+    'lastUpdated' => 1224536182,
+    'message' => 'Un condicional que indica si el t&iacute;tulo debe ser mostrado.'
+  },
+  'edit' => {
+    'lastUpdated' => 1224536187,
+    'message' => 'Editar'
   },
   'originalURL' => {
-    'lastUpdated' => undef,
-    'message' => ''
-  },
-  'title' => {
-    'lastUpdated' => 1216245111,
-    'message' => 'Un t&iacute;tulo para este wobject.'
+    'lastUpdated' => 1224536214,
+    'message' => 'Si este Wobject es un Atajo, entonces este URL apunta al Activo original.'
   },
   'printableStyleTemplateId' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1224536266,
+    'message' => 'ID de la plantilla a utilizar para presentar este Activo para impresi&oacute;n.'
+  },
+  'styleTemplateId' => {
+    'lastUpdated' => 1224536282,
+    'message' => 'ID de la plantilla empleada para mostrar el Activo.'
+  },
+  'title' => {
+    'lastUpdated' => 1224536294,
+    'message' => 'T&iacute;tulo para este Wobject.'
+  },
+  'wobject template variables title' => {
+    'lastUpdated' => 1224536316,
+    'message' => 'Variables para Plantillas del Activo Wobject.'
   }
 }
 ;
