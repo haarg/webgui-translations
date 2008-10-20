@@ -14,8 +14,8 @@ our $I18N = {
     'message' => 'Como todos los usuarios ver&aacute;n siempre el mismo recurso, es conveniente mantenerlo en cache para mejorar el desempe&ntilde;o. &iquest;Por cu&aacute;nto tiempo debemos mantenerlo en el cache?'
   },
   'cacheTimeout' => {
-    'lastUpdated' => 1221867213,
-    'message' => 'Tiempo a mantener el recurso en cache.'
+    'lastUpdated' => 1224525895,
+    'message' => 'Tiempo en segundos a mantener el recurso en cache.'
   },
   'controls' => {
     'lastUpdated' => 1207257216,
