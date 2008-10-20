@@ -2,64 +2,64 @@ package WebGUI::i18n::Spanish::Asset_Image;
 use utf8;
 our $I18N = {
   'Parameters description' => {
-    'lastUpdated' => 1221869411,
-    'message' => 'Par&aacute;metros adicionales a incluir en la etiqueta &lt;IMG&gt; que se genera para la imagen. Puede utilizar esto para establecer la alineaci&oacute;n o agregar el texto alternativo a presentar si la imagen no se puede mostrar (e.g. en navegadores de modo texto).'
+    'lastUpdated' => 1224468061,
+    'message' => 'Par&aacute;metros adicionales a incluir en la etiqueta &lt;IMG&gt; que se genera para la Imagen. Pueden utilizarse para establecer la alineaci&oacute;n o agregar un texto alternativo a presentar si la imagen no se puede mostrar (e.g. en navegadores de modo texto).'
   },
   'Thumbnail description' => {
-    'lastUpdated' => 1215795451,
-    'message' => 'Si una imagen est&aacute; actualmente almacenada en este activo, luego su vista en miniatura ser&iacute;a mostrada aqu&iacute;.'
+    'lastUpdated' => 1224468109,
+    'message' => 'Si este Activo almacena una Imagen, la versi&oacute;n en tama&ntilde;o reducido (thumbnail) ser&aacute; mostrada aqu&iacute;.'
   },
   'Thumbnail size description' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1224468149,
+    'message' => 'Una versi&oacute;n en tama&ntilde;o reducido (thumbnail) de la Imagen ser&aacute; creada y estar&aacute; disponible para su uso en las plantaillas. El lado m&aacute;s largo de la versi&oacute;n en tama&ntilde;o reducido ser&aacute; ajustado para llevarla al tama&ntilde;o en pixels indicado por este par&aacute;metro. Se utiliza el valor por defecto del sitio.'
   },
   'assetName' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1224467964,
+    'message' => 'Imagen'
   },
   'controls' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1224468010,
+    'message' => 'Una barra de &iacute;conos con las herramientas para operar sobre la Imagen'
   },
   'edit image' => {
-    'lastUpdated' => 1207258768,
-    'message' => 'Editar imagen'
+    'lastUpdated' => 1224468166,
+    'message' => 'Editar Imagen'
   },
   'fileIcon' => {
-    'lastUpdated' => 1221868796,
+    'lastUpdated' => 1224468176,
     'message' => 'El &iacute;cono que describe el tipo del archivo.'
   },
   'fileUrl' => {
-    'lastUpdated' => 1221868814,
-    'message' => 'El URL del archivo.'
+    'lastUpdated' => 1224468195,
+    'message' => 'URL al archivo.'
   },
   'filename' => {
-    'lastUpdated' => 1215796592,
-    'message' => 'El nombre de la imagen.'
+    'lastUpdated' => 1224468213,
+    'message' => 'Nombre del archivo que contiene la Imagen.'
   },
   'image size' => {
-    'lastUpdated' => 1221869263,
-    'message' => 'Dimensiones de la imagen'
+    'lastUpdated' => 1224468227,
+    'message' => 'Dimensiones'
   },
   'image size description' => {
-    'lastUpdated' => 1221869244,
-    'message' => 'Dimensiones actuales de la imagen (anchura y altura) expresada en pixels.'
+    'lastUpdated' => 1224468241,
+    'message' => 'Dimensiones actuales de la Imagen (anchura y altura) expresada en pixels.'
   },
   'image template asset var title' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1224468271,
+    'message' => 'Plantillas de Imagen, Variables del Activo'
   },
   'image template description' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1224468345,
+    'message' => 'Las plantillas para Imagenes permiten presentar la informaci&oacute;n relacionada con la Imagen tales como su versi&oacute;n en tama&ntilde;o reducir (thumbnail), el nombre del archivo que le contiene o la imagen propiamente dicha.'
   },
   'image template title' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1224468363,
+    'message' => 'Variables de Plantilla para el Activo Imagen'
   },
   'menuTitle' => {
-    'lastUpdated' => 1215796711,
-    'message' => 'El men&uacute; de t&iacute;tulo, est&aacute; representada en navegaciones, fijado para la imagen cuando se ha subido, o si el nombre del archivo no se inscribi&oacute;.'
+    'lastUpdated' => 1224468457,
+    'message' => 'El t&iacute;tulo para el Activo Imagen a utilizar en los activos Navegaci&oacute;n. El t&iacute;tulo se establece cuando la Imagen se incluye en el sistema, y en caso de no haberse definido se utilizar&aacute; el nombre del archivo que le contiene.'
   },
   'new file description' => {
     'lastUpdated' => 1221869188,
