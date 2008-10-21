@@ -2,28 +2,32 @@ package WebGUI::i18n::Spanish::Asset_HttpProxy;
 use utf8;
 our $I18N = {
   '1' => {
-    'lastUpdated' => 1216075239,
-    'message' => 'URL al proxy'
+    'lastUpdated' => 1224592751,
+    'message' => 'Ofrecer el URL'
   },
   '1 description' => {
-    'lastUpdated' => 1216075257,
-    'message' => 'La URL de inicio para el proxy.'
+    'lastUpdated' => 1224592788,
+    'message' => 'El URL inicial que se ofrecer&aacute; a trav&eacute;s del Activo Proxy.'
   },
   '12' => {
-    'lastUpdated' => 1216075280,
-    'message' => 'Reescribir URLs?'
+    'lastUpdated' => 1224592799,
+    'message' => '&iquest;Reescribir URLs?'
+  },
+  '12 description' => {
+    'lastUpdated' => 1224592828,
+    'message' => 'Seleccione &quot;No&quot; si desea hacer un enlace profundo hacia el recurso remoto.'
   },
   '13' => {
-    'lastUpdated' => 1221276762,
-    'message' => '<p>Comenzar en</p>'
+    'lastUpdated' => 1224592859,
+    'message' => 'Partiendo de'
   },
   '13 description' => {
     'lastUpdated' => 1221276850,
     'message' => '<p>Cadena de referencia a emplear como punto de partida, utilizada cuando se desea presentar solamente una parte del contenido. El contenido que aparezca antes de esta cadena de referencia, no ser&aacute; mostrado.</p>'
   },
   '14' => {
-    'lastUpdated' => 1221276752,
-    'message' => '<p>Detenerse en</p>'
+    'lastUpdated' => 1224592885,
+    'message' => 'Hasta'
   },
   '14 description' => {
     'lastUpdated' => 1221276835,
