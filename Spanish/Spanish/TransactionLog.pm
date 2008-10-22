@@ -2,19 +2,19 @@ package WebGUI::i18n::Spanish::TransactionLog;
 use utf8;
 our $I18N = {
   'amount' => {
-    'lastUpdated' => 1216467169,
-    'message' => 'cantidad'
+    'lastUpdated' => 1224688411,
+    'message' => 'Cantidad'
   },
   'amount.template' => {
-    'lastUpdated' => 1216467197,
-    'message' => 'Cuantidad de este producto'
+    'lastUpdated' => 1224688439,
+    'message' => 'N&uacute;mero de items.'
   },
   'and' => {
-    'lastUpdated' => 1214174947,
+    'lastUpdated' => 1224688451,
     'message' => 'y'
   },
   'any' => {
-    'lastUpdated' => 1199976649,
+    'lastUpdated' => 1224688460,
     'message' => 'Cualquiera'
   },
   'canCancel' => {
