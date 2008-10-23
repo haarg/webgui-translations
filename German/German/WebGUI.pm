@@ -1930,7 +1930,7 @@ our $I18N = {
     'message' => 'DSN'
   },
   '993 description' => {
-    'lastUpdated' => 1178546435,
+    'lastUpdated' => 1224798045,
     'message' => '<p><strong>D</strong>ata <strong>S</strong>ource <strong>N</strong>ame ist der eindeutige Bezeichner, den Perl benutzt, um den Ort ihrer Datenbank zu beschreiben. Hat folgendes Format:</p><p>DBI:[Treiber]:[Datenbank Name]:[host].</p><p><em>Beispiel</em>: DBI:mysql:WebGUI:locahost</p><p>Folgend einige Beispiele f&uuml;r andere Datenbanken:</p><p><a href="http://search.cpan.org/author/TIMB/DBD-Oracle-1.14/Oracle.pm#CONNECTING_TO_ORACLE">Oracle</a>: <br />&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; DBI:Oracle:SID<br />&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp; DBD::Oracle muss installiert sein.<br />&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; Sie m&uuml;ssen mod_perl benutzen und <strong>PerlSetEnv ORACLE_HOME</strong><strong><br />&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; /home/oracle/product/8.1.7</strong> in httpd.conf muss gesetzt sein. Wenn Sie ORACLE_HOME &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; nicht setzen, k&ouml;nnen Sie sich mittels DBI:Oracle:host=myhost.com;sid=SID verbinden.</p><p><a href="http://search.cpan.org/author/OYAMA/DBD-PgPP-0.04/PgPP.pm#THE_DBI_CLASS">PostgreSQL</a>:<br />&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; DBI:PgPP:dbname=DBNAME[;host=hOST]<br />&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; DBD::PgPP muss installiert sein</p><p><a href="http://search.cpan.org/author/MEWP/DBD-Sybase-1.00/Sybase.pm#Specifying_other_connection_specific_parameters">Sybase</a>:<br />&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; DBI:Sybase:[server=SERVERNAME][database=DATABASE]<br />&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; DBD::Sybase muss installiert sein<br />&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; Sie m&uuml;ssen mod_perl benutzen und <strong>PerlSetEnv SYBASE /opt/sybase/11.0.2</strong> muss &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; in httpd.conf konfiguriert sein.</p>'
   },
   '994' => {
@@ -1948,6 +1948,10 @@ our $I18N = {
   '995 description' => {
     'lastUpdated' => 1178546558,
     'message' => 'Das Passwort mittels dessen Sie sich mit der Datenbank verbinden.<br />'
+  },
+  'About Us' => {
+    'lastUpdated' => 1224798062,
+    'message' => '&Uuml;ber uns'
   },
   'Attachments formName' => {
     'lastUpdated' => 1216638507,
@@ -1977,6 +1981,10 @@ our $I18N = {
     'lastUpdated' => 1199973325,
     'message' => 'Erm&ouml;glicht es Benutzern an Freunde Emails zu verschicken und diese einzuladen, einen Account auf dieser Seite zu erstellen.'
   },
+  'Forums' => {
+    'lastUpdated' => 1224798185,
+    'message' => 'Konfigurationsseiten'
+  },
   'Illegal Warning' => {
     'lastUpdated' => 1178547141,
     'message' => '<p>Dieses Feature zu aktivieren ist in manchen L&auml;ndern - wie in Australien - illegal. Dar&uuml;berhinaus ist es in einigen L&auml;ndern Pflicht, eine Warnung auszugeben, falls dieses Feature auf ihrer Seite genutzt wird. Kontaktieren Sie ihre lokalen Beh&ouml;rden f&uuml;r n&auml;her Auskunft. Plain Black ist f&uuml;r ihre illegalen Aktivit&auml;ten nicht verantwortlich. </p><p>Enabling this feature is illegal in some countries, like Australia. In addition, some countries require you to add a warning to your site if you use this feature. Consult your local authorities for local laws. Plain Black Corporation is not responsible for your illegal activities, regardless of ignorance or malice.</p>'
@@ -1992,6 +2000,14 @@ our $I18N = {
   'SubscriptionGroup formName' => {
     'lastUpdated' => 1216638541,
     'message' => 'Abonnement Gruppe'
+  },
+  'Support' => {
+    'lastUpdated' => 1224798197,
+    'message' => 'Unterst&uuml;tzung'
+  },
+  'Tell us how we can assist you.' => {
+    'lastUpdated' => 1224798230,
+    'message' => 'Sagen Sie uns, wie wir Sie unterst&uuml;tzen k&ouml;nnen'
   },
   'WebGUI password recovery' => {
     'lastUpdated' => 1222249683,
@@ -2016,6 +2032,10 @@ our $I18N = {
   'additional parameters help' => {
     'lastUpdated' => 1199972855,
     'message' => '<p>Spezifizieren Sie zus&auml;tzliche Parameter f&uuml;r Ihre Datenbankverbindung. Benutzen Sie einen Parameter pro Zeile. Benutzen Sie folgende Syntax:</p><p>LongReadLen=1024<br />LongTruncOk=1</p>'
+  },
+  'admin account' => {
+    'lastUpdated' => 1224798254,
+    'message' => 'Administrator Konto'
   },
   'admin console template' => {
     'lastUpdated' => 1178618613,
@@ -2132,6 +2152,10 @@ our $I18N = {
   'company' => {
     'lastUpdated' => 1178548300,
     'message' => 'Firma'
+  },
+  'company information' => {
+    'lastUpdated' => 1224798271,
+    'message' => 'Firmen Infomation'
   },
   'contains' => {
     'lastUpdated' => 1178548311,
@@ -2325,6 +2349,10 @@ our $I18N = {
     'lastUpdated' => 1178624032,
     'message' => 'Link Einstellungen'
   },
+  'logo' => {
+    'lastUpdated' => 1224798281,
+    'message' => 'Logo'
+  },
   'mail return path' => {
     'lastUpdated' => 1178627613,
     'message' => 'Antwortadresse'
@@ -2344,6 +2372,10 @@ our $I18N = {
   'misc' => {
     'lastUpdated' => 1178624680,
     'message' => 'Sonstige'
+  },
+  'no thanks' => {
+    'lastUpdated' => 1224798298,
+    'message' => 'Danke, nein!'
   },
   'noldaplink' => {
     'lastUpdated' => 1178624695,
@@ -2456,6 +2488,10 @@ our $I18N = {
   'pagination.previousPageUrl' => {
     'lastUpdated' => 1217235873,
     'message' => 'Die URL Komponente von pagination.previousPage.'
+  },
+  'pagination.range' => {
+    'lastUpdated' => 1224798319,
+    'message' => 'Seitenbereich'
   },
   'pagination.text' => {
     'lastUpdated' => 1180015450,
@@ -2601,6 +2637,10 @@ our $I18N = {
     'lastUpdated' => 1199973057,
     'message' => 'Ausf&uuml;hren wenn ein Admin einen Benutzer aktualisiert.'
   },
+  'save' => {
+    'lastUpdated' => 1224798330,
+    'message' => 'Sichern'
+  },
   'select' => {
     'lastUpdated' => 1200441138,
     'message' => 'Auswahl'
@@ -2620,6 +2660,10 @@ our $I18N = {
   'send private message template description' => {
     'lastUpdated' => 1199973080,
     'message' => 'W&auml;hle ein Template f&uuml;r das Senden von privaten Nachrichten'
+  },
+  'session length' => {
+    'lastUpdated' => 1224798344,
+    'message' => 'Sessiondauer'
   },
   'settings' => {
     'lastUpdated' => 1178625594,
@@ -2889,6 +2933,10 @@ our $I18N = {
     'lastUpdated' => 1178625756,
     'message' => 'Beginnt mit'
   },
+  'style designer' => {
+    'lastUpdated' => 1224798364,
+    'message' => 'Style Entwickler'
+  },
   'submit' => {
     'lastUpdated' => 1178625769,
     'message' => 'Submit'
@@ -2900,6 +2948,10 @@ our $I18N = {
   'target description' => {
     'lastUpdated' => 1178625842,
     'message' => 'Wa&uml;hlen Sie ob das Linkziel in eine neuen oder im gleichen Fenster ge&ouml;ffnet werden soll'
+  },
+  'time recorded' => {
+    'lastUpdated' => 1224798472,
+    'message' => 'Login-Dauer'
   },
   'tinymce' => {
     'lastUpdated' => 1178625861,
@@ -2928,6 +2980,10 @@ our $I18N = {
   'unknown user' => {
     'lastUpdated' => 1178625994,
     'message' => 'Unbekannter Benutzer'
+  },
+  'upload logo' => {
+    'lastUpdated' => 1224798416,
+    'message' => 'Logo hochladen'
   },
   'url extension' => {
     'lastUpdated' => 1178626004,
@@ -3025,6 +3081,10 @@ our $I18N = {
   'webgui' => {
     'lastUpdated' => 1180015507,
     'message' => 'WebGUI'
+  },
+  'yes please' => {
+    'lastUpdated' => 1224798429,
+    'message' => 'Ja, bitte!'
   }
 }
 ;
