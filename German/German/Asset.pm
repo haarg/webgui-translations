@@ -1,6 +1,10 @@
 package WebGUI::i18n::German::Asset;
 use utf8;
 our $I18N = {
+  '%s is not a valid depth' => {
+    'lastUpdated' => 1224797605,
+    'message' => '%s ist keine g&uuml;ltige Tiefe'
+  },
   '104' => {
     'lastUpdated' => 1149227599,
     'message' => 'URL'
@@ -281,6 +285,10 @@ our $I18N = {
     'lastUpdated' => 1153238539,
     'message' => 'fr&uuml;her'
   },
+  'apply' => {
+    'lastUpdated' => 1224797536,
+    'message' => 'Sichern'
+  },
   'asset' => {
     'lastUpdated' => 1153238556,
     'message' => 'Asset'
@@ -323,11 +331,11 @@ our $I18N = {
   },
   'change url' => {
     'lastUpdated' => 1153242622,
-    'message' => 'URL ändern'
+    'message' => "URL \x{e4}ndern"
   },
   'change url help' => {
     'lastUpdated' => 1170454842,
-    'message' => 'Zeigt die &quot;URL ändern&quot; Seite für dieses Asset an.'
+    'message' => "Zeigt die &quot;URL \x{e4}ndern&quot; Seite f\x{fc}r dieses Asset an."
   },
   'committed versions' => {
     'lastUpdated' => 1170454956,
@@ -538,6 +546,10 @@ Dies bedeutet in der Regel, dass Sie eine Seite anlegen m&ouml;chtgen, die den s
     'lastUpdated' => 1223575415,
     'message' => 'Eltern-Rechte &uuml;bernehmen'
   },
+  'is not a valid userId' => {
+    'lastUpdated' => 1224797637,
+    'message' => 'is keine g&uuml;ltige Benutzer-ID'
+  },
   'isHidden' => {
     'lastUpdated' => 1170458448,
     'message' => 'Boolscher Wert, der wahr ist, wenn das Asset in der Navigation nicht angezeigt wird.'
@@ -621,6 +633,14 @@ Dies bedeutet in der Regel, dass Sie eine Seite anlegen m&ouml;chtgen, die den s
   'missing page query' => {
     'lastUpdated' => 1170458876,
     'message' => 'Die Seite, die Sie aufgerufen haben, exisitert nicht. Was m&ouml;chten Sie tun?'
+  },
+  'need a depth' => {
+    'lastUpdated' => 1224797669,
+    'message' => 'Angabe einer Tiefe ist erforderlich'
+  },
+  'need a userId parameter' => {
+    'lastUpdated' => 1224797691,
+    'message' => 'eine Benutzer-ID ist erforderlich'
   },
   'newWindow' => {
     'lastUpdated' => 1170458894,

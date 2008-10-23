@@ -166,8 +166,8 @@ our $I18N = {
     'message' => 'Ihre Seite wurde empfangen und wird gerade verarbeitet. Nach Abschluss des Vorgangs wird sie an entsprechender Stelle zur Ansicht und weiteren Bearbeitung zur Verf&uuml;gung stehen. Wir bitten um Ihre Geduld!'
   },
   'protectQuestionLabel' => {
-    'lastUpdated' => 1222931118,
-    'message' => 'Soll diese Seite vor Ver&auml;nderungen gesch&uuml;tzt werden?'
+    'lastUpdated' => 1224138794,
+    'message' => 'Vor Ver&auml;nderungen sch&uuml;tzen?'
   },
   'protectQuestionLabel variable' => {
     'lastUpdated' => 1222931574,
