@@ -1953,9 +1953,21 @@ our $I18N = {
     'lastUpdated' => 1224798062,
     'message' => '&Uuml;ber uns'
   },
+  'All Rights Reserved' => {
+    'lastUpdated' => 1224798917,
+    'message' => 'Alle Rechte vorbehalten'
+  },
+  'All the news you need to know.' => {
+    'lastUpdated' => 1224799290,
+    'message' => 'Alle Nachrichten, die Sie kennen m&uuml;ssen.'
+  },
   'Attachments formName' => {
     'lastUpdated' => 1216638507,
     'message' => 'Anh&auml;nge'
+  },
+  'Contact Us' => {
+    'lastUpdated' => 1224799364,
+    'message' => 'Kontaktieren Sie uns'
   },
   'Enable Metadata' => {
     'lastUpdated' => 1180077207,
@@ -1985,9 +1997,25 @@ our $I18N = {
     'lastUpdated' => 1224798185,
     'message' => 'Konfigurationsseiten'
   },
+  'General Discussion' => {
+    'lastUpdated' => 1224798934,
+    'message' => 'Allgemeine Diskussionen'
+  },
   'Illegal Warning' => {
     'lastUpdated' => 1178547141,
     'message' => '<p>Dieses Feature zu aktivieren ist in manchen L&auml;ndern - wie in Australien - illegal. Dar&uuml;berhinaus ist es in einigen L&auml;ndern Pflicht, eine Warnung auszugeben, falls dieses Feature auf ihrer Seite genutzt wird. Kontaktieren Sie ihre lokalen Beh&ouml;rden f&uuml;r n&auml;her Auskunft. Plain Black ist f&uuml;r ihre illegalen Aktivit&auml;ten nicht verantwortlich. </p><p>Enabling this feature is illegal in some countries, like Australia. In addition, some countries require you to add a warning to your site if you use this feature. Consult your local authorities for local laws. Plain Black Corporation is not responsible for your illegal activities, regardless of ignorance or malice.</p>'
+  },
+  'My Style' => {
+    'lastUpdated' => 1224799164,
+    'message' => 'MeinStyle'
+  },
+  'One forum name per line' => {
+    'lastUpdated' => 1224799198,
+    'message' => 'Eine Forum-Bezeichnung pro Zeile'
+  },
+  'Put your about us content here.' => {
+    'lastUpdated' => 1224799115,
+    'message' => 'Geben Sie hier bitte Ihren Text f&uuml;r den Bereich &quot;&Uuml;ber uns&quot; an.'
   },
   'Select State' => {
     'lastUpdated' => 1178618606,
@@ -2008,6 +2036,18 @@ our $I18N = {
   'Tell us how we can assist you.' => {
     'lastUpdated' => 1224798230,
     'message' => 'Sagen Sie uns, wie wir Sie unterst&uuml;tzen k&ouml;nnen'
+  },
+  'Thanks for for your interest in ^c;. We will review your message shortly.' => {
+    'lastUpdated' => 1224799495,
+    'message' => 'Danke f&uuml;r Ihre Nachricht bzgl. ^c;. Wir werden diese bald bearbeiten.'
+  },
+  'We welcome your feedback.' => {
+    'lastUpdated' => 1224798969,
+    'message' => 'Wir freuen uns &uuml;ber Ihre R&uuml;ckmeldung.'
+  },
+  'WebGUI Initial Configuration' => {
+    'lastUpdated' => 1224798999,
+    'message' => 'WebGUI Start-Konfiguration'
   },
   'WebGUI password recovery' => {
     'lastUpdated' => 1222249683,
@@ -2611,7 +2651,7 @@ our $I18N = {
   },
   'purge workflow help' => {
     'lastUpdated' => 1199973044,
-    'message' => 'Welcher Workflow soll ausgef&uuml;hrt werden wenn ein Asset gelöscht wird.'
+    'message' => "Welcher Workflow soll ausgef&uuml;hrt werden wenn ein Asset gel\x{f6}scht wird."
   },
   'radio' => {
     'lastUpdated' => 1178625075,
@@ -2924,6 +2964,10 @@ our $I18N = {
   'site starter body' => {
     'lastUpdated' => 1224798880,
     'message' => 'Der WebGUI-Start-Konfigurator unterst&uuml;tzt Sie bei der Erstellung eines eigenen Lay-Outs und initialisiert einige Standardbereiche f&uuml;r den Inhalt Ihrer Website. M&ouml;chten Sie den WebGUI Start-Konfigurator verwenden?'
+  },
+  'site starter title' => {
+    'lastUpdated' => 1224799024,
+    'message' => 'Startseite'
   },
   'skip commit comments' => {
     'lastUpdated' => 1199973661,
