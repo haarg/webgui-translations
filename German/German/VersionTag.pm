@@ -39,11 +39,11 @@ our $I18N = {
   },
   'back to site' => {
     'lastUpdated' => 1222249612,
-    'message' => "Zur\x{fc}ck"
+    'message' => 'Zurück'
   },
   'bad commit' => {
     'lastUpdated' => 1192966747,
-    'message' => 'Während der Bearbeitung des Inhalts trat ein Problem auf. Setzen Sie sich bitte mit Ihrem Systemverwalter in Verbindung.'
+    'message' => "W\x{e4}hrend der Bearbeitung des Inhalts trat ein Problem auf. Setzen Sie sich bitte mit Ihrem Systemverwalter in Verbindung."
   },
   'comments' => {
     'lastUpdated' => 1166615325,
@@ -140,6 +140,14 @@ our $I18N = {
   'endTime label' => {
     'lastUpdated' => 1216639697,
     'message' => 'End Zeitpunkt'
+  },
+  'error permission www_manageRevisionsInTag body' => {
+    'lastUpdated' => 1224800020,
+    'message' => 'Sie sind nicht berechtigt, diesen Versionstag zu sehen. Es ist m&ouml;glich, dass dieser bereits gepr&uuml;ft oder abgelehnt wurde.'
+  },
+  'error permission www_manageRevisionsInTag title' => {
+    'lastUpdated' => 1224800039,
+    'message' => 'Keine Berechtigung'
   },
   'export version tag to html' => {
     'lastUpdated' => 1179996391,
