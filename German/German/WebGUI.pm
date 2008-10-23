@@ -2013,6 +2013,10 @@ our $I18N = {
     'lastUpdated' => 1222249683,
     'message' => 'Wiederherstellung WebGUI Passwort'
   },
+  'Your Email Address' => {
+    'lastUpdated' => 1224798515,
+    'message' => 'Ihre Emailadresse'
+  },
   'account' => {
     'lastUpdated' => 1178547178,
     'message' => 'Account'
@@ -2916,6 +2920,10 @@ our $I18N = {
   'showMessageOnLoginTimes label' => {
     'lastUpdated' => 1217236101,
     'message' => '<p>Wie oft Anmeldenachricht zeigen</p>'
+  },
+  'site starter body' => {
+    'lastUpdated' => 1224798880,
+    'message' => 'Der WebGUI-Start-Konfigurator unterst&uuml;tzt Sie bei der Erstellung eines eigenen Lay-Outs und initialisiert einige Standardbereiche f&uuml;r den Inhalt Ihrer Website. M&ouml;chten Sie den WebGUI Start-Konfigurator verwenden?'
   },
   'skip commit comments' => {
     'lastUpdated' => 1199973661,
