@@ -69,6 +69,10 @@ our $I18N = {
     'lastUpdated' => 1168223695,
     'message' => 'Aufsteigend'
   },
+  'asset not committed' => {
+    'lastUpdated' => 1224834997,
+    'message' => '<h1>Fehler!</h1><p>Sie m&uuml;ssen dieses Collaboration System committen, bevor Sie einen neuen Thread starten k&ouml;nnen.&nbsp;</p>'
+  },
   'assetName' => {
     'lastUpdated' => 1178626714,
     'message' => 'Collaboration System'
@@ -385,6 +389,10 @@ our $I18N = {
   'enable metadata description' => {
     'lastUpdated' => 1192978643,
     'message' => 'Wählen Sie "Ja" aus, um Posten MetaData zu erlauben und passiv profiliert zu werden. Das wird die Leistung des Collaboration System komprimieren. MetaData muss auch Seiten weit in den Seite-Einstellungen ermöglicht werden.'
+  },
+  'epochDate' => {
+    'lastUpdated' => 1224835197,
+    'message' => 'Ver&ouml;ffentlichungsdatum des Elements als epochales Datum, so dass das Datum Makro f&uuml;r die individuelle Datumsformatierung benutzt werden kann.'
   },
   'fatal' => {
     'lastUpdated' => 1179752284,
@@ -757,6 +765,14 @@ our $I18N = {
   'post' => {
     'lastUpdated' => 1179755814,
     'message' => 'Post'
+  },
+  'post received template' => {
+    'lastUpdated' => 1224835238,
+    'message' => 'Post empfangen Template'
+  },
+  'post received template hoverHelp' => {
+    'lastUpdated' => 1224835282,
+    'message' => 'Das Template f&uuml;r die Nachricht, falls ein Benutzer einen Post erstellt hat.'
   },
   'post template' => {
     'lastUpdated' => 1179755832,
