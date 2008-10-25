@@ -94,8 +94,8 @@ our $I18N = {
     'message' => 'Beschreibung dieses Feldes aus Benutzersicht.'
   },
   'category_loop' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1224970674,
+    'message' => 'Eine Schleife mit aller Kategorie-Information einer Liste'
   },
   'class' => {
     'lastUpdated' => 1222248717,
@@ -166,8 +166,8 @@ our $I18N = {
     'message' => ''
   },
   'delete.url' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1224970703,
+    'message' => "Die URL zum L\x{f6}schen dieser Liste"
   },
   'description' => {
     'lastUpdated' => 1222250450,
