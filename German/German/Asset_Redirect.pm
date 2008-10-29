@@ -1,48 +1,55 @@
 package WebGUI::i18n::German::Asset_Redirect;
 use utf8;
-
-
 our $I18N = {
-	'edit the redirect properties' => {
-		message => q|Bearbeiten Redirect Eigenschaften.<br />|,
-		lastUpdated => 1170408164
-	},
-
-	'redirect url' => {
-		message => q|Redirect URL<br />|,
-		lastUpdated => 1170408573
-	},
-
-	'go to the redirect url' => {
-		message => q|Gehe zu Redirect URL.<br />|,
-		lastUpdated => 1170408218
-	},
-
-	'redirect url description' => {
-		message => q|Die URL, an die der Benutzer weitergeleitet wird.<br />|,
-		lastUpdated => 1170408596
-	},
-
-	'assetName' => {
-		message => q|Redirect|,
-		lastUpdated => 1170408144
-	},
-
-	'self_referential' => {
-		message => q|Redirect zeigt auf sich selbst |,
-		lastUpdated => 1170408630
-	},
-
-	'go to the redirect parent page' => {
-		message => q|Gehe zu Redirects Vorg&auml;nger.|,
-		lastUpdated => 1170408206
-	},
-
-	'what do you want to do with this redirect' => {
-		message => q|Was wollen Sie mit diesem Redirect machen?<br /> |,
-		lastUpdated => 1170408673
-	},
-
-};
+  '301 Moved Permanently' => {
+    'lastUpdated' => 1225318143,
+    'message' => '301 Permanent ge&auml;ndert'
+  },
+  '302 Moved Temporarily' => {
+    'lastUpdated' => 1225318162,
+    'message' => '302 Tempor&auml;r ge&auml;ndert'
+  },
+  'Redirect Type' => {
+    'lastUpdated' => 1225318180,
+    'message' => 'Type der Weiterleitung'
+  },
+  'assetName' => {
+    'lastUpdated' => 1170408144,
+    'message' => 'Redirect'
+  },
+  'edit the redirect properties' => {
+    'lastUpdated' => 1170408164,
+    'message' => 'Bearbeiten Redirect Eigenschaften.<br />'
+  },
+  'go to the redirect parent page' => {
+    'lastUpdated' => 1170408206,
+    'message' => 'Gehe zu Redirects Vorg&auml;nger.'
+  },
+  'go to the redirect url' => {
+    'lastUpdated' => 1170408218,
+    'message' => 'Gehe zu Redirect URL.<br />'
+  },
+  'redirect type description' => {
+    'lastUpdated' => 1225318230,
+    'message' => 'Type des HTTP-Headers einer Weiterleitung '
+  },
+  'redirect url' => {
+    'lastUpdated' => 1170408573,
+    'message' => 'Redirect URL<br />'
+  },
+  'redirect url description' => {
+    'lastUpdated' => 1170408596,
+    'message' => 'Die URL, an die der Benutzer weitergeleitet wird.<br />'
+  },
+  'self_referential' => {
+    'lastUpdated' => 1170408630,
+    'message' => 'Redirect zeigt auf sich selbst '
+  },
+  'what do you want to do with this redirect' => {
+    'lastUpdated' => 1170408673,
+    'message' => 'Was wollen Sie mit diesem Redirect machen?<br /> '
+  }
+}
+;
 
 1;
