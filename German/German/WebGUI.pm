@@ -1965,9 +1965,21 @@ our $I18N = {
     'lastUpdated' => 1216638507,
     'message' => 'Anh&auml;nge'
   },
+  'Cannot find what you are looking for? Try our search.' => {
+    'lastUpdated' => 1225319555,
+    'message' => 'Finden Sie nicht was Sie suchen? Versuchen Sie unsere Suchfunktion.'
+  },
+  'Check out what is going on.' => {
+    'lastUpdated' => 1225319385,
+    'message' => 'Aktuelles'
+  },
   'Contact Us' => {
     'lastUpdated' => 1224799364,
     'message' => 'Kontaktieren Sie uns'
+  },
+  'Discuss your ideas and get help from our community.' => {
+    'lastUpdated' => 1225319495,
+    'message' => 'Teilen Sie uns Ihre Ideen mit und erfahren Sie die Unterst&uuml;tzung unserer Community'
   },
   'Enable Metadata' => {
     'lastUpdated' => 1180077207,
@@ -2004,6 +2016,10 @@ our $I18N = {
   'Illegal Warning' => {
     'lastUpdated' => 1178547141,
     'message' => '<p>Dieses Feature zu aktivieren ist in manchen L&auml;ndern - wie in Australien - illegal. Dar&uuml;berhinaus ist es in einigen L&auml;ndern Pflicht, eine Warnung auszugeben, falls dieses Feature auf ihrer Seite genutzt wird. Kontaktieren Sie ihre lokalen Beh&ouml;rden f&uuml;r n&auml;her Auskunft. Plain Black ist f&uuml;r ihre illegalen Aktivit&auml;ten nicht verantwortlich. </p><p>Enabling this feature is illegal in some countries, like Australia. In addition, some countries require you to add a warning to your site if you use this feature. Consult your local authorities for local laws. Plain Black Corporation is not responsible for your illegal activities, regardless of ignorance or malice.</p>'
+  },
+  'Initial Pages' => {
+    'lastUpdated' => 1225319274,
+    'message' => 'Starter Seiten'
   },
   'My Style' => {
     'lastUpdated' => 1224799164,
@@ -2052,6 +2068,10 @@ our $I18N = {
   'WebGUI password recovery' => {
     'lastUpdated' => 1222249683,
     'message' => 'Wiederherstellung WebGUI Passwort'
+  },
+  'Welcome to our wiki. Here you can help us keep information up to date.' => {
+    'lastUpdated' => 1225319345,
+    'message' => 'Willkommen zu unserem WiKi. Hier k&ouml;nnen Sie uns unterst&uuml;tzen, unsere Informationen aktuell zu halten.'
   },
   'Your Email Address' => {
     'lastUpdated' => 1224798515,
@@ -2651,7 +2671,7 @@ our $I18N = {
   },
   'purge workflow help' => {
     'lastUpdated' => 1199973044,
-    'message' => "Welcher Workflow soll ausgef&uuml;hrt werden wenn ein Asset gel\x{f6}scht wird."
+    'message' => 'Welcher Workflow soll ausgef&uuml;hrt werden wenn ein Asset gelöscht wird.'
   },
   'radio' => {
     'lastUpdated' => 1178625075,
