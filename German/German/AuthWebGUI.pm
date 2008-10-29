@@ -231,11 +231,11 @@ our $I18N = {
   },
   'email recover password finish message2' => {
     'lastUpdated' => 1192977909,
-    'message' => 'Mit Instruktionen, um Ihr Passwort zurück zu setzen.'
+    'message' => "Mit Instruktionen, um Ihr Passwort zur\x{fc}ck zu setzen."
   },
   'email recover password start message' => {
     'lastUpdated' => 1192977996,
-    'message' => 'Geben Sie entweder Ihre E-Mail-Adresse oder Ihre Anmeldung unten ein, um das Passwort zurücksetzen zu können.'
+    'message' => "Geben Sie entweder Ihre E-Mail-Adresse oder Ihre Anmeldung unten ein, um das Passwort zur\x{fc}cksetzen zu k\x{f6}nnen."
   },
   'error password nonWordCharacters' => {
     'lastUpdated' => 1200441260,
@@ -378,24 +378,24 @@ our $I18N = {
     'message' => 'Passwortwiederherstellung Template'
   },
   'recover password banner' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1225317250,
+    'message' => 'Wiederherstellung Passwort'
   },
   'recover password email text1' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1225317402,
+    'message' => 'Wir erhielten Ihren Antrag zur &Auml;nderung des Passworts von &nbsp; '
   },
   'recover password email text2' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1225317578,
+    'message' => 'Bitte benutzen Sie den angegebenen Link um Ihr Passwort zu &auml;ndern.'
   },
   'recover password email text3' => {
     'lastUpdated' => undef,
     'message' => ''
   },
   'recover password not found' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1225317536,
+    'message' => 'Wir haben keinen Benutzer, auf den Ihre Information zutrifft.'
   },
   'recover.form.footer' => {
     'lastUpdated' => 1178704372,
@@ -488,6 +488,10 @@ our $I18N = {
   'title' => {
     'lastUpdated' => 1178704838,
     'message' => 'Standard Seitentitel.'
+  },
+  'token already used' => {
+    'lastUpdated' => 1225317217,
+    'message' => 'Dieses Paswort-Authentisierungszeichen wurde bereits verwendet'
   },
   'topicName' => {
     'lastUpdated' => 1178704851,
