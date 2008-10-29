@@ -106,8 +106,8 @@ our $I18N = {
     'message' => 'Zeitraum, der in einer einzelnen Seite in der Listenansicht dargestellt wird'
   },
   'editForm listViewPageInterval label' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1225306990,
+    'message' => 'Interval Listenansicht'
   },
   'editForm templateIdList description' => {
     'lastUpdated' => 1224834760,
