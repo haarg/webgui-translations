@@ -1,458 +1,367 @@
 package WebGUI::i18n::German::Asset_SQLReport;
 use utf8;
-
-
 our $I18N = {
-	'dbQuery4' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'Prequery statements' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'hasNest' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'download type' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'rows.count' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'18' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'databaseLinkId4' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'72' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'paginateAfter' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'16' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'download template description' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'dbQuery3' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'4 description' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'debugMode' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'queryN.count.isZero' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'Prequery error' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'dbQuery2' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'placeholderParams2' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'rows.count.isZero' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'10' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'queryN.columns_loop' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'11' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'queryN.row.number' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'databaseLinkId3' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'preprocessMacros3' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'download filename' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'download template' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'download mimetype description' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'16 description' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'columns_loop' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'queryN.row.field.__NAME__.value' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'cache timeout description' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'field.value' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'dbQuery1' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'cacheTimeout' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'prequeryStatements1' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'12' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'column.number' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'15' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'preprocessMacros5' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'rows.count.isZero.label' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'Prequery statements description' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'queryN.rows.count' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'placeholderParams4' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'download mimetype' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'row.field.__NAME__.value' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'72 description' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'Placeholder Parameters description' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'Prequery not allowed' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'assetName' => {
-		message => q|SQL-Report<br />|,
-		lastUpdated => 1157856414
-	},
-
-	'placeholderParams1' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'17' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'row.number' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'rows_loop' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'prequeryStatements5' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'queryN.rows_loop' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'queryN.hasNest' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'Add another query' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'debug placeholder parameters' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'dbQuery5' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'prequeryStatements3' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'14' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'field.name' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'download type description' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'row.field_loop' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'placeholderParams5' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'preprocessMacros4' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'Placeholder Parameters' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'sql report asset template variables title' => {
-		message => q|SQL-Report Asset Template Variablen|,
-		lastUpdated => 1170408024
-	},
-
-	'prequeryStatements2' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'download usergroup' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'15 description' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'queryN.row.field_loop' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'databaseLinkId1' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'download filename description' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'cache timeout' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'preprocessMacros2' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'preprocessMacros1' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'databaseLinkId5' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'templateId' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'14 description' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'column.name' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'databaseLinkId2' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'queryN.rows.count.isZero.label' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'8' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'4' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'field.number' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'placeholderParams3' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'download usergroup description' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'prequeryStatements4' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-};
+  '10' => {
+    'lastUpdated' => 1225586361,
+    'message' => 'Fehler: SQL Befehl hat ein falsches Format'
+  },
+  '11' => {
+    'lastUpdated' => 1225586393,
+    'message' => 'Fehler: Es gab ein Problem mit der Abfrage.'
+  },
+  '12' => {
+    'lastUpdated' => 1225586426,
+    'message' => 'Fehler: Keine Verbindung mit der Datenbank.'
+  },
+  '14' => {
+    'lastUpdated' => 1225586449,
+    'message' => 'Seitenwechsel nach'
+  },
+  '14 description' => {
+    'lastUpdated' => 1225586605,
+    'message' => 'Wieviele Zeilen sollten angezeigt werden bevor die Ergebnisse in mehrere Seiten aufgeteilt werden? Oder: wieviele Zeilen pro Seite?'
+  },
+  '15' => {
+    'lastUpdated' => 1225586675,
+    'message' => 'Macros bearbeiten bevor Abfrage ausgef&uuml;hrt wird?'
+  },
+  '15 description' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  '16' => {
+    'lastUpdated' => 1225586695,
+    'message' => 'Debug einschalten?'
+  },
+  '16 description' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  '17' => {
+    'lastUpdated' => 1225586708,
+    'message' => 'Abfrage'
+  },
+  '18' => {
+    'lastUpdated' => 1225586741,
+    'message' => 'Die Abfrage lieferte keine Ergebnisse.'
+  },
+  '4' => {
+    'lastUpdated' => 1225586750,
+    'message' => 'Abfrage'
+  },
+  '4 description' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  '72' => {
+    'lastUpdated' => 1225586769,
+    'message' => 'SQL-Report Vorlage'
+  },
+  '72 description' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  '8' => {
+    'lastUpdated' => 1225586810,
+    'message' => 'SQL Report bearbeiten'
+  },
+  'Add another query' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'Placeholder Parameters' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'Placeholder Parameters description' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'Prequery error' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'Prequery not allowed' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'Prequery statements' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'Prequery statements description' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'assetName' => {
+    'lastUpdated' => 1157856414,
+    'message' => 'SQL-Report<br />'
+  },
+  'cache timeout' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'cache timeout description' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'cacheTimeout' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'column.name' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'column.number' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'columns_loop' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'databaseLinkId1' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'databaseLinkId2' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'databaseLinkId3' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'databaseLinkId4' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'databaseLinkId5' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'dbQuery1' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'dbQuery2' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'dbQuery3' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'dbQuery4' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'dbQuery5' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'debug placeholder parameters' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'debugMode' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'download filename' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'download filename description' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'download mimetype' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'download mimetype description' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'download template' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'download template description' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'download type' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'download type description' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'download usergroup' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'download usergroup description' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'field.name' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'field.number' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'field.value' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'hasNest' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'paginateAfter' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'placeholderParams1' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'placeholderParams2' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'placeholderParams3' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'placeholderParams4' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'placeholderParams5' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'preprocessMacros1' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'preprocessMacros2' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'preprocessMacros3' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'preprocessMacros4' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'preprocessMacros5' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'prequeryStatements1' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'prequeryStatements2' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'prequeryStatements3' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'prequeryStatements4' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'prequeryStatements5' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'queryN.columns_loop' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'queryN.count.isZero' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'queryN.hasNest' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'queryN.row.field.__NAME__.value' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'queryN.row.field_loop' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'queryN.row.number' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'queryN.rows.count' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'queryN.rows.count.isZero.label' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'queryN.rows_loop' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'row.field.__NAME__.value' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'row.field_loop' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'row.number' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'rows.count' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'rows.count.isZero' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'rows.count.isZero.label' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'rows_loop' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'sql report asset template variables title' => {
+    'lastUpdated' => 1170408024,
+    'message' => 'SQL-Report Asset Template Variablen'
+  },
+  'templateId' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  }
+}
+;
 
 1;
