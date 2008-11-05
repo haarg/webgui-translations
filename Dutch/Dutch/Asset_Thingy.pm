@@ -273,9 +273,13 @@ our $I18N = {
     'lastUpdated' => 1205856414,
     'message' => 'De naam van het formulier element voor dit veld.'
   },
+  'field_pretext' => {
+    'lastUpdated' => 1225914880,
+    'message' => 'Een extra veld voor beschrijving, zodat gebruikers weten wat ze in het veld moeten invullen. Dit hoort boven of voor het formulierelement getoond te worden.'
+  },
   'field_subtext' => {
-    'lastUpdated' => 1206447115,
-    'message' => 'Een omschrijving van het veld, zodat gebruikers weten wat er in het veld moet komen te staan.'
+    'lastUpdated' => 1225914923,
+    'message' => 'Een omschrijving van het veld, zodat gebruikers weten wat er in het veld moet komen te staan. Dit hoort onder of na het formulierelement getoond te worden.'
   },
   'field_url' => {
     'lastUpdated' => 1206447163,
@@ -445,6 +449,14 @@ our $I18N = {
     'lastUpdated' => 1206447972,
     'message' => '&Eacute;&eacute;n per regel'
   },
+  'pretext description' => {
+    'lastUpdated' => 1225915018,
+    'message' => 'Een uitbreiding van het label. Dit is extra informatie zoals een beschrijving van wat er in het veld ingevoerd moet worden of optionele instructies voor dit veld. Het zal boven of voor het formulierelement getoond worden.'
+  },
+  'pretext label' => {
+    'lastUpdated' => 1225915156,
+    'message' => 'Pre-tekst'
+  },
   'save button label description' => {
     'lastUpdated' => 1206448006,
     'message' => 'Het label van de opslaan knop in het bewerk scherm.'
@@ -582,8 +594,8 @@ our $I18N = {
     'message' => 'Sorteer op'
   },
   'subtext description' => {
-    'lastUpdated' => 1205854947,
-    'message' => 'Een uitbreiding van het label. Dit is extra informatie zoals een omschrijving van wat er in het veld moet komen of optionele instructies voor het veld.'
+    'lastUpdated' => 1225915204,
+    'message' => 'Een uitbreiding van het label. Dit is extra informatie zoals een omschrijving van wat er in het veld moet komen of optionele instructies voor het veld. Dit wordt getoond onder of na het formulierelement.'
   },
   'subtext label' => {
     'lastUpdated' => 1205855003,

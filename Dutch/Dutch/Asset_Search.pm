@@ -1,137 +1,119 @@
 package WebGUI::i18n::Dutch::Asset_Search;
 use utf8;
-
 our $I18N = {
-	'search asset template variables title' => {
-		message => q|Template variabelen voor het zoekobject.|,
-		lastUpdated => 1189372747
-	},
-
-	'search' => {
-		message => q|zoek|,
-		lastUpdated => 1149502833
-	},
-
-	'search template' => {
-		message => q|Sjabloon voor zoeken|,
-		lastUpdated => 1149502948
-	},
-
-	'classLimiter' => {
-		message => q|Een tekstvariabele met alle typen objecten (asset) die doorzocht moeten worden.|,
-		lastUpdated => 1189372693
-	},
-
-	'class limiter' => {
-		message => q|Beperk de asset soorten tot:|,
-		lastUpdated => 1149502787
-	},
-
-	'assetName' => {
-		message => q|Zoek|,
-		lastUpdated => 1149502764
-	},
-
-	'synopsis' => {
-		message => q|De samenvatting van het object (asset) dat gevonden werd in de zoekopdracht.|,
-		lastUpdated => 1189372784
-	},
-
-	'no_results' => {
-		message => q|Een label, beschrijving in de eigen taal van de gebruiker, om aan te geven dat er geen resultaten werden gevonden.|,
-		lastUpdated => 1190025496
-	},
-
-	'assetId' => {
-		message => q|De assetId van het object (asset) dat gevonden werd bij het zoeken.|,
-		lastUpdated => 1190025532
-	},
-
-	'url' => {
-		message => q|De URL van het object dat gevonden is in de zoekopdracht.|,
-		lastUpdated => 1189372951
-	},
-
-	'searchRoot' => {
-		message => q|De ID van het object (asset) waar de zoekopdracht begint.|,
-		lastUpdated => 1189372765
-	},
-
-	'form_submit' => {
-		message => q|<p><strong>form_submit*</strong><br />Een knop waarmee de gebruiker de zoekopdracht kan beginnen</p>|,
-		lastUpdated => 1149857961
-	},
-
-	'class limiter description' => {
-		message => q|Dit beperkt de zoekopdracht tot de typen assets die hier geselecteerd worden.|,
-		lastUpdated => 1207826402
-	},
-
-	'result_set' => {
-		message => q|<p><strong>result_set*</strong><br />Zoek resultaten, die eventueel over verschillende paginas verdeeld zijn, met controle over het aantal resultaten per pagina. <br /></p>|,
-		lastUpdated => 1149857980
-	},
-
-	'useContainers help' => {
-		message => q|Zet dit op &quot;Ja&quot; als de zoekresultaten volledige pagina's moeten geven in plaats van losse Assets.|,
-		lastUpdated => 1201183635
-	},
-
-	'templateId' => {
-		message => q|De ID van het template dat gebruikt wordt om het Zoekobject weer te geven.|,
-		lastUpdated => 1189372805
-	},
-
-	'search root' => {
-		message => q|Gebruik deze asset als root bij het zoeken|,
-		lastUpdated => 1149502934
-	},
-
-	'form_footer' => {
-		message => q|<p><strong>form_footer*</strong><br />HTML code waarmee het zoekformulier beeindigd wordt.&nbsp;</p>|,
-		lastUpdated => 1149857902
-	},
-
-	'useContainers' => {
-		message => q|Containers URL's&nbsp; gebruiken in de resultaten?|,
-		lastUpdated => 1201183583
-	},
-
-	'search root description' => {
-		message => q|De geselecteerde asset en alle assets hieronder worden doorzocht |,
-		lastUpdated => 1207826359
-	},
-
-	'results_found' => {
-		message => q|Een voorwaardelijke variabele die waar is als er resultaten zijn gevonden.|,
-		lastUpdated => 1190025469
-	},
-
-	'form_header' => {
-		message => q|<p><strong>form_header*</strong><br />HTML code waarmee het zoekformulier begonnen wordt.</p>|,
-		lastUpdated => 1149857919
-	},
-
-	'form_keywords' => {
-		message => q|<p><strong>form_keywords*</strong><br />Een formulier waar de gebruiker sleutelwoorden voor de zoekopdracht in kan voeren.</p>|,
-		lastUpdated => 1149857941
-	},
-
-	'search template description' => {
-		message => q|Een sjabloon waarmee het zoekformulier en de resultaten getoond worden.|,
-		lastUpdated => 1149503306
-	},
-
-	'no results' => {
-		message => q|Geen resultaten|,
-		lastUpdated => 1190025508
-	},
-
-	'title' => {
-		message => q|De titel van het object dat gevonden is in de zoekopdracht.|,
-		lastUpdated => 1189372939
-	},
-
-};
+  'assetId' => {
+    'lastUpdated' => 1190025532,
+    'message' => 'De assetId van het object (asset) dat gevonden werd bij het zoeken.'
+  },
+  'assetName' => {
+    'lastUpdated' => 1149502764,
+    'message' => 'Zoek'
+  },
+  'class limiter' => {
+    'lastUpdated' => 1149502787,
+    'message' => 'Beperk de asset soorten tot:'
+  },
+  'class limiter description' => {
+    'lastUpdated' => 1207826402,
+    'message' => 'Dit beperkt de zoekopdracht tot de typen assets die hier geselecteerd worden.'
+  },
+  'classLimiter' => {
+    'lastUpdated' => 1189372693,
+    'message' => 'Een tekstvariabele met alle typen objecten (asset) die doorzocht moeten worden.'
+  },
+  'form_footer' => {
+    'lastUpdated' => 1149857902,
+    'message' => '<p><strong>form_footer*</strong><br />HTML code waarmee het zoekformulier beeindigd wordt.&nbsp;</p>'
+  },
+  'form_header' => {
+    'lastUpdated' => 1149857919,
+    'message' => '<p><strong>form_header*</strong><br />HTML code waarmee het zoekformulier begonnen wordt.</p>'
+  },
+  'form_keywords' => {
+    'lastUpdated' => 1149857941,
+    'message' => '<p><strong>form_keywords*</strong><br />Een formulier waar de gebruiker sleutelwoorden voor de zoekopdracht in kan voeren.</p>'
+  },
+  'form_submit' => {
+    'lastUpdated' => 1149857961,
+    'message' => '<p><strong>form_submit*</strong><br />Een knop waarmee de gebruiker de zoekopdracht kan beginnen</p>'
+  },
+  'no results' => {
+    'lastUpdated' => 1190025508,
+    'message' => 'Geen resultaten'
+  },
+  'no_results' => {
+    'lastUpdated' => 1190025496,
+    'message' => 'Een label, beschrijving in de eigen taal van de gebruiker, om aan te geven dat er geen resultaten werden gevonden.'
+  },
+  'paginate after' => {
+    'lastUpdated' => 1225916174,
+    'message' => 'Zoekresultaten per pagina'
+  },
+  'paginate after help' => {
+    'lastUpdated' => 1225916239,
+    'message' => 'Het aantal zoekresultaten dat getoond moet worden voordat de lijst wordt afgebroken en gecontinueerd wordt op een volgende pagina.'
+  },
+  'result_set' => {
+    'lastUpdated' => 1149857980,
+    'message' => '<p><strong>result_set*</strong><br />Zoek resultaten, die eventueel over verschillende paginas verdeeld zijn, met controle over het aantal resultaten per pagina. <br /></p>'
+  },
+  'results_found' => {
+    'lastUpdated' => 1190025469,
+    'message' => 'Een voorwaardelijke variabele die waar is als er resultaten zijn gevonden.'
+  },
+  'search' => {
+    'lastUpdated' => 1149502833,
+    'message' => 'zoek'
+  },
+  'search asset template variables title' => {
+    'lastUpdated' => 1189372747,
+    'message' => 'Template variabelen voor het zoekobject.'
+  },
+  'search root' => {
+    'lastUpdated' => 1149502934,
+    'message' => 'Gebruik deze asset als root bij het zoeken'
+  },
+  'search root description' => {
+    'lastUpdated' => 1207826359,
+    'message' => 'De geselecteerde asset en alle assets hieronder worden doorzocht '
+  },
+  'search template' => {
+    'lastUpdated' => 1149502948,
+    'message' => 'Sjabloon voor zoeken'
+  },
+  'search template description' => {
+    'lastUpdated' => 1149503306,
+    'message' => 'Een sjabloon waarmee het zoekformulier en de resultaten getoond worden.'
+  },
+  'searchRoot' => {
+    'lastUpdated' => 1189372765,
+    'message' => 'De ID van het object (asset) waar de zoekopdracht begint.'
+  },
+  'synopsis' => {
+    'lastUpdated' => 1189372784,
+    'message' => 'De samenvatting van het object (asset) dat gevonden werd in de zoekopdracht.'
+  },
+  'templateId' => {
+    'lastUpdated' => 1189372805,
+    'message' => 'De ID van het template dat gebruikt wordt om het Zoekobject weer te geven.'
+  },
+  'title' => {
+    'lastUpdated' => 1189372939,
+    'message' => 'De titel van het object dat gevonden is in de zoekopdracht.'
+  },
+  'url' => {
+    'lastUpdated' => 1189372951,
+    'message' => 'De URL van het object dat gevonden is in de zoekopdracht.'
+  },
+  'useContainers' => {
+    'lastUpdated' => 1201183583,
+    'message' => 'Containers URL\'s&nbsp; gebruiken in de resultaten?'
+  },
+  'useContainers help' => {
+    'lastUpdated' => 1201183635,
+    'message' => 'Zet dit op &quot;Ja&quot; als de zoekresultaten volledige pagina\'s moeten geven in plaats van losse Assets.'
+  }
+}
+;
 
 1;

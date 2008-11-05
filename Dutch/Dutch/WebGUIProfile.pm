@@ -169,6 +169,14 @@ our $I18N = {
     'lastUpdated' => 1166637435,
     'message' => 'Sta alleen het toevoegen van afbeeldingen toe'
   },
+  'profile field extras hoverHelp' => {
+    'lastUpdated' => 1225914448,
+    'message' => 'Extra HTML die bij dit profielveld gevoegd moet worden.'
+  },
+  'profile field extras label' => {
+    'lastUpdated' => 1225914460,
+    'message' => 'Extras'
+  },
   'profile.accountOptions' => {
     'lastUpdated' => 1214557321,
     'message' => 'Een functie die opties bevat voor acties met andere accounts, zoals het bewerken en bekijken van een profiel, het veranderen van je account en meer.'
@@ -180,6 +188,10 @@ our $I18N = {
   'profile.elements' => {
     'lastUpdated' => 1214557216,
     'message' => 'Een functie die alle elementen van de profielvelden ophaalt.'
+  },
+  'profile.extras' => {
+    'lastUpdated' => 1225914478,
+    'message' => 'Extra HTML voor dit veld.'
   },
   'profile.form.cancel' => {
     'lastUpdated' => 1222162909,
@@ -208,6 +220,10 @@ our $I18N = {
   'profile.form.elements' => {
     'lastUpdated' => 1222162814,
     'message' => 'Een functie die alle profielvelden ophaalt per categorie.'
+  },
+  'profile.form.extras' => {
+    'lastUpdated' => 1225914496,
+    'message' => 'Extra HTML voor dit veld.'
   },
   'profile.form.footer' => {
     'lastUpdated' => 1214557540,

@@ -154,7 +154,7 @@ our $I18N = {
     'message' => 'Hoe wilt u betalen?'
   },
   'choose shipping button' => {
-    'lastUpdated' => 1216719574,
+    'lastUpdated' => 1225914512,
     'message' => 'Kies verzendadres'
   },
   'chooseShippingButton help' => {
@@ -260,6 +260,10 @@ our $I18N = {
   'editButton help' => {
     'lastUpdated' => 1216724547,
     'message' => 'Een knop waarmee de gebruiker een bestaand adres mee kan bewerken.'
+  },
+  'email' => {
+    'lastUpdated' => 1225914524,
+    'message' => 'E-mail'
   },
   'empty cart' => {
     'lastUpdated' => 1219727781,
@@ -556,6 +560,10 @@ our $I18N = {
   'orderStatus' => {
     'lastUpdated' => 1215446484,
     'message' => 'De status van dit object: Verzonden, Geannuleerd, Afgezegd of Niet verzonden.'
+  },
+  'organization' => {
+    'lastUpdated' => 1225914540,
+    'message' => 'Organisatie'
   },
   'originatingTransactionId' => {
     'lastUpdated' => 1216734985,

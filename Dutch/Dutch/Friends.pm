@@ -49,6 +49,14 @@ our $I18N = {
     'lastUpdated' => 1201183999,
     'message' => 'Deze gebruiker wil niet toegevoegd worden als vriend.'
   },
+  'error user is already friend' => {
+    'lastUpdated' => 1225914596,
+    'message' => '<p>Deze gebruiker zit al in uw vriendenkring</p><p>&nbsp;<a href="%s">%s</a></p>'
+  },
+  'error user is already invited' => {
+    'lastUpdated' => 1225914647,
+    'message' => '<p>U heeft al een uitnodiging voor uw vriendenkring naar deze gebruiker gezonden.</p><p><a href="%s">%s</a> </p>'
+  },
   'formFooter' => {
     'lastUpdated' => 1201184021,
     'message' => 'HTML code voor het beeindigen van dit formulier.'

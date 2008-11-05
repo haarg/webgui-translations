@@ -169,6 +169,10 @@ our $I18N = {
     'lastUpdated' => 1154343187,
     'message' => 'Welke groep mag deze tag gebruiken?'
   },
+  'leave this tag' => {
+    'lastUpdated' => 1225914228,
+    'message' => 'Verlaat deze versie tag'
+  },
   'manage committed versions' => {
     'lastUpdated' => 1154343205,
     'message' => 'Beheer uitgevoerde versies'

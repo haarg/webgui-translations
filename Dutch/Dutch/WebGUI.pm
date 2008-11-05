@@ -349,11 +349,11 @@ Als er een server voor het verzenden van email op dezelfde machine staat als de 
   },
   '164 description' => {
     'lastUpdated' => 1166787969,
-    'message' => "Stel de standaard authenticatie methode voor nieuwe accounts in. De twee opties die standaard beschikbaar zij, zijn WebGUI en LDAP. WebGUI authenticatie betekent dat gebruikers zich moeten valideren tegen de gebruikersnaam en wachtwoord die in de WebGUI database zijn opgeslagen. Bij LDAP authenticatie komt deze informatie uit een externe LDAP server. Andere methoden kunnen gebruikt worden als er eerst een eigen authenticatie werktuig geschreven wordt.</p><p><em>Aantekeningen:</em><br />
+    'message' => 'Stel de standaard authenticatie methode voor nieuwe accounts in. De twee opties die standaard beschikbaar zij, zijn WebGUI en LDAP. WebGUI authenticatie betekent dat gebruikers zich moeten valideren tegen de gebruikersnaam en wachtwoord die in de WebGUI database zijn opgeslagen. Bij LDAP authenticatie komt deze informatie uit een externe LDAP server. Andere methoden kunnen gebruikt worden als er eerst een eigen authenticatie werktuig geschreven wordt.</p><p><em>Aantekeningen:</em><br />
 <br />
 Authenticatie instellingen kunnen per gebruiker worden ingesteld.<br />
 <br />
-Afhankelijk van welke authenticatie modules ge\x{ef}nstalleerd zijn in het systeem, worden hierna de verschillende opties getoond."
+Afhankelijk van welke authenticatie modules geïnstalleerd zijn in het systeem, worden hierna de verschillende opties getoond.'
   },
   '167' => {
     'lastUpdated' => 1208856142,
@@ -2335,18 +2335,8 @@ LongTruncOk=1'
     'message' => 'GROEPEN DIE VERWIJDERD MOETEN WORDEN'
   },
   'head.tags' => {
-    'lastUpdated' => 1190023420,
-    'message' => 'Tags die automatisch gegenereerd worden. Deze tags zorgen ervoor dat 
-<ul><li>de cache naar behoren functioneert</li>
-<li>zoekmachines de site beter vinden</li>
-<li>en andere automatische functionaliteiten</li></ul>
-Dit moet in de <head></head> sectie van de stijl staan.
-
-Het volgende wordt aangeraden voor het <title></title> gedeelte van de stijl:
-
-^PageTitle(); - ^c();
-
-Dit specifieke voorbeeld zorgt voor een goede vindbaarheid in zoekmachines.'
+    'lastUpdated' => 1225914347,
+    'message' => 'Tags die automatisch gegenereerd worden. Deze tags zorgen ervoor dat  <ul><li>de cache naar behoren functioneert</li> <li>zoekmachines de site beter vinden</li> <li>en andere automatische functionaliteiten</li></ul><p> Dit moet in de &lt;head&gt; &lt;/head&gt; sectie van de stijl staan.  Het volgende wordt gesuggereerd voor het  &lt;title&gt; &lt;/title&gt; gedeelte van de stijl:  ^PageTitle(); - ^c();  </p><p>Dit specifieke voorbeeld zorgt voor een goede vindbaarheid in zoekmachines.</p>'
   },
   'help' => {
     'lastUpdated' => 1154097941,

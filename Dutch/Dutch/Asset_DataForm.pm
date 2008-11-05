@@ -429,6 +429,14 @@ our $I18N = {
     'lastUpdated' => 1213705295,
     'message' => 'Captcha gebruiken voor bezoekers?'
   },
+  'editForm workflowIdAddEntry description' => {
+    'lastUpdated' => 1225915438,
+    'message' => 'Workflow die aangezet moet worden wanneer een toevoeging aan het DataFormulier gedaan is.'
+  },
+  'editForm workflowIdAddEntry label' => {
+    'lastUpdated' => 1225915459,
+    'message' => 'Voeg invoer Workflow toe'
+  },
   'emailTemplateId' => {
     'lastUpdated' => 1166193446,
     'message' => 'Het ID van het Email sjabloon.'

@@ -142,8 +142,8 @@ our $I18N = {
     'message' => 'U moet de zes tekens intypen die u in het plaatje ziet, om te bewijzen dat u mens bent. '
   },
   'captcha label' => {
-    'lastUpdated' => 1155917810,
-    'message' => 'Controleer uw menselijkheid'
+    'lastUpdated' => 1225288274,
+    'message' => 'Typ de code uit de afbeelding over. (anti-spam code)'
   },
   'check email for validation' => {
     'lastUpdated' => 1155917843,
