@@ -2322,7 +2322,7 @@ our $I18N = {
     'message' => 'Zu l&ouml;schende Gruppen'
   },
   'head.tags' => {
-    'lastUpdated' => 1217235425,
+    'lastUpdated' => 1226013047,
     'message' => '<p>Tags, die WebGUI automatisch f&uuml;r Sie generiert damit Caching so funktioniert wie es soll, Suchmaschinen ihre Seite besser finden und andere n&uuml;tzliche automatische Funktionalit&auml;t. Sollte im &lt;head&gt; &lt;/head&gt; Bereich untergebracht werden.&nbsp;</p><p>Wir schlagen vor, dass Sie in ihrem &lt;title&gt; &lt;/title&gt; Bereich folgendes schreiben:</p><p>^PageTitle(); - ^c();</p><p>Dieses Beispiel hilft ihnen, um gute Rankings in Suchmaschinen zu erreichen.&nbsp;</p>'
   },
   'help' => {
@@ -2671,7 +2671,7 @@ our $I18N = {
   },
   'purge workflow help' => {
     'lastUpdated' => 1199973044,
-    'message' => 'Welcher Workflow soll ausgef&uuml;hrt werden wenn ein Asset gelöscht wird.'
+    'message' => "Welcher Workflow soll ausgef&uuml;hrt werden wenn ein Asset gel\x{f6}scht wird."
   },
   'radio' => {
     'lastUpdated' => 1178625075,

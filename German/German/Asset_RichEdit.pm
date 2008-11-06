@@ -1,6 +1,10 @@
 package WebGUI::i18n::German::Asset_RichEdit;
 use utf8;
 our $I18N = {
+  'Copy' => {
+    'lastUpdated' => 1226013097,
+    'message' => 'Kopieren'
+  },
   'Server Side Spell Checker' => {
     'lastUpdated' => 1215500479,
     'message' => 'Serverseitige Rechtschreibpr&uuml;fung'

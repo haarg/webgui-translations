@@ -1,1177 +1,943 @@
 package WebGUI::i18n::German::Asset_ProjectManager;
 use utf8;
-
 our $I18N = {
-	'task resource label' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'task_end_label' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'day.number' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'user add popup hover' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'resourceKind' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'project.cost.data.int' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'empty.colspan' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'project manager asset template variables title' => {
-		message => q|Projektmanagementsystem Asset Template Variablen<br />|,
-		lastUpdated => 1170408733
-	},
-
-	'sunday label' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'project.startDate.label' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'days label abbrev' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'form.header' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'form.resourceDiv' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'notFoundMessage' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'task predecessor edit label' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'project name label' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'canEditProjects' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'project description label' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'odd' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'callback' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'title' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'project.edit.url' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'thursday.label' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'project.canEdit' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'add task label' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'view project template vars title' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'form.start' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'opTitle' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'resourcePopupTemplateId' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'form.percentComplete' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'edit task template vars title' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'task end label' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'project cost label' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'project.create.label' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'form.save' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'form.duration' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'resourceListTemplate label' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'resourceIcon' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'task.end' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'project observer hoverhelp' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'form.seqNum' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'task.back.url' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'previousSearch' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'task start label' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'group add popup searchText' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'task invalidMove error' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'task.loop' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'user add popup foundMessage' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'task.duration.label' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'hours label abbrev' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'projectDashboardTemplate label' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'month.name' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'editTaskTemplate label' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'hiddenFields' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'resourceId' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'task resources label' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'task noPredecessor error' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'selfUrl' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'project.delete.warning' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'task.start' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'task_predecessor_label' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'project new label' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'task_complete_label' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'project.cost.label' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'no projects' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'project.resources.label' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'form.end' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'duration units label' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'create project' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'group add popup notFoundMessage' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'resource none' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'project observer label' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'user add popup title' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'project.resources.url' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'task_start_label' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'tuesday.label' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'projectDisplayTemplate hoverhelp' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'form.addUser.id' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'task save label' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'hours label' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'form.addGroup.id' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'saturday.label' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'project.startDate.data' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'projectDisplayTemplateId' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'task previousPredecessor error' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'doingSearch' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'form.taskType' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'project action label' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'resourceDiv' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'task_duration_label' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'foundResults' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'project.name.label' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'project.durationUnits' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'task.duration.units' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'project end date label' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'project edit title' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'task predecessor label' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'ganttChartTemplateId' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'searchText' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'task name error' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'ganttChartTemplate hoverhelp' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'project.endDate.label' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'project dashboard template title' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'monday.label' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'friday label' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'task back label' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'form.addGroup.link' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'project.complete.data.int' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'task.row.id' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'project.complete.label' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'editTaskTemplateId' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'form.footer' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'task duration label' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'resourceName' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'resourcePopupTemplate hoverhelp' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'project.actions.label' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'project id' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'thursday label' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'project.view.url' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'group add popup foundMessage' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'form.duration.units' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'days label' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'project.complete.data.float' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'task name label' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'task dependant label' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'task greaterthan error' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'taskType timed label' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'project complete label' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'add resource popup template title' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'ganttChartTemplate label' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'form.name.error' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'task.dependants' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'taskType milestone label' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'form.greaterThan.error' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'form.invalidMove.error' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'form.addUser.link' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'form.lagTime' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'task end error' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'opCallbackJs' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'add resource popup template body' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'projectDisplayTemplate label' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'opIcon' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'project.delete.url' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'project description hoverhelp' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'task_save_label' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'daysLoop' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'resourcePopupTemplate label' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'friday.label' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'project id hoverhelp' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'user add popup notFoundMessage' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'resource add opTitle' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'projectDashboardTemplate hoverhelp' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'editTaskTemplate hoverhelp' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'hours per day hoverhelp' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'user add popup searchText' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'project.create' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'task_lagTime_label' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'sunday.label' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'wednesday.label' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'project.cost.data.float' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'form.start.error' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'task untimedPredecessor error' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'edit task label' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'list resource popup template title' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'noProjects' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'edit form.header' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'task_resource_label' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'exclude' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'group add popup hover' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'task.dependants.label' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'form.name' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'foundMessage' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'project manager label' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'groupToAdd hoverhelp' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'task.edit.url' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'groupToAdd' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'assetName' => {
-		message => q|Projektmanagementsystem|,
-		lastUpdated => 1157905671
-	},
-
-	'task.name' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'task samePredecessor error' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'resource remove opTitle' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'project.name.data' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'task.start.label' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'project.endDate.data' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'project.description.data' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'N_A' => {
-		message => q|N/A|,
-		lastUpdated => 1192797998
-	},
-
-	'form.previousPredecessor.error' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'form.dependants' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'task start error' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'project delete title' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'group add popup title' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'task.isMilestone' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'project.edit.title' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'task.duration' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'form.lagTime.units' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'monday label' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'saturday label' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'project.hoursPerDay' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'gantt chart template vars title' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'target budget label' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'projectDashboardTemplateId' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'target budget hoverhelp' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'task.name.label' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'project.gantt.rowspan' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'task.end.label' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'project.loop' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'extras.base' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'project.ganttChart' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'list resource popup template body' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'edit project' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'assetExtras' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'project.delete.title' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'extras' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'hours per day label' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'tuesday label' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'resourceLoop' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'project name hoverhelp' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'task.back.label' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'edit form.footer' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'task lag time label' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'task.number' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'project start task label' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'resourceListTemplate hoverhelp' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'groupToAdd label' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'wednesday label' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'form.addUser.text' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'task_name_label' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'taskType progressive label' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'project delete warning' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'form.addGroup.text' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'project start date label' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'resourceListTemplateId' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'project manager hoverhelp' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'func' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'duration units hoverhelp' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-};
+  'N_A' => {
+    'lastUpdated' => 1192797998,
+    'message' => 'N/A'
+  },
+  'add resource popup template body' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'add resource popup template title' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'add task label' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'assetExtras' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'assetName' => {
+    'lastUpdated' => 1157905671,
+    'message' => 'Projektmanagementsystem'
+  },
+  'callback' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'canEditProjects' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'create project' => {
+    'lastUpdated' => 1225635209,
+    'message' => 'Beginne ein neues Projekt'
+  },
+  'day.number' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'days label' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'days label abbrev' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'daysLoop' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'doingSearch' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'duration units hoverhelp' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'duration units label' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'edit form.footer' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'edit form.header' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'edit project' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'edit task label' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'edit task template vars title' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'editTaskTemplate hoverhelp' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'editTaskTemplate label' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'editTaskTemplateId' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'empty.colspan' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'exclude' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'extras' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'extras.base' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'form.addGroup.id' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'form.addGroup.link' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'form.addGroup.text' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'form.addUser.id' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'form.addUser.link' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'form.addUser.text' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'form.dependants' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'form.duration' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'form.duration.units' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'form.end' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'form.footer' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'form.greaterThan.error' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'form.header' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'form.invalidMove.error' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'form.lagTime' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'form.lagTime.units' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'form.name' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'form.name.error' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'form.percentComplete' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'form.previousPredecessor.error' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'form.resourceDiv' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'form.save' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'form.seqNum' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'form.start' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'form.start.error' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'form.taskType' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'foundMessage' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'foundResults' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'friday label' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'friday.label' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'func' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'gantt chart template vars title' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'ganttChartTemplate hoverhelp' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'ganttChartTemplate label' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'ganttChartTemplateId' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'group add popup foundMessage' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'group add popup hover' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'group add popup notFoundMessage' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'group add popup searchText' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'group add popup title' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'groupToAdd' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'groupToAdd hoverhelp' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'groupToAdd label' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'hiddenFields' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'hours label' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'hours label abbrev' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'hours per day hoverhelp' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'hours per day label' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'list resource popup template body' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'list resource popup template title' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'monday label' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'monday.label' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'month.name' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'no projects' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'noProjects' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'notFoundMessage' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'odd' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'opCallbackJs' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'opIcon' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'opTitle' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'previousSearch' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'project action label' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'project complete label' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'project cost label' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'project dashboard template title' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'project delete title' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'project delete warning' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'project description hoverhelp' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'project description label' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'project edit title' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'project end date label' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'project id' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'project id hoverhelp' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'project manager asset template variables title' => {
+    'lastUpdated' => 1170408733,
+    'message' => 'Projektmanagementsystem Asset Template Variablen<br />'
+  },
+  'project manager hoverhelp' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'project manager label' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'project name hoverhelp' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'project name label' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'project new label' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'project observer hoverhelp' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'project observer label' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'project start date label' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'project start task label' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'project.actions.label' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'project.canEdit' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'project.complete.data.float' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'project.complete.data.int' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'project.complete.label' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'project.cost.data.float' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'project.cost.data.int' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'project.cost.label' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'project.create' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'project.create.label' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'project.delete.title' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'project.delete.url' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'project.delete.warning' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'project.description.data' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'project.durationUnits' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'project.edit.title' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'project.edit.url' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'project.endDate.data' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'project.endDate.label' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'project.gantt.rowspan' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'project.ganttChart' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'project.hoursPerDay' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'project.loop' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'project.name.data' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'project.name.label' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'project.resources.label' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'project.resources.url' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'project.startDate.data' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'project.startDate.label' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'project.view.url' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'projectDashboardTemplate hoverhelp' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'projectDashboardTemplate label' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'projectDashboardTemplateId' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'projectDisplayTemplate hoverhelp' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'projectDisplayTemplate label' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'projectDisplayTemplateId' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'resource add opTitle' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'resource none' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'resource remove opTitle' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'resourceDiv' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'resourceIcon' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'resourceId' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'resourceKind' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'resourceListTemplate hoverhelp' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'resourceListTemplate label' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'resourceListTemplateId' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'resourceLoop' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'resourceName' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'resourcePopupTemplate hoverhelp' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'resourcePopupTemplate label' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'resourcePopupTemplateId' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'saturday label' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'saturday.label' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'searchText' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'selfUrl' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'sunday label' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'sunday.label' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'target budget hoverhelp' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'target budget label' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'task back label' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'task dependant label' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'task duration label' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'task end error' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'task end label' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'task greaterthan error' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'task invalidMove error' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'task lag time label' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'task name error' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'task name label' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'task noPredecessor error' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'task predecessor edit label' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'task predecessor label' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'task previousPredecessor error' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'task resource label' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'task resources label' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'task samePredecessor error' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'task save label' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'task start error' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'task start label' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'task untimedPredecessor error' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'task.back.label' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'task.back.url' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'task.dependants' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'task.dependants.label' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'task.duration' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'task.duration.label' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'task.duration.units' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'task.edit.url' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'task.end' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'task.end.label' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'task.isMilestone' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'task.loop' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'task.name' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'task.name.label' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'task.number' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'task.row.id' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'task.start' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'task.start.label' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'taskType milestone label' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'taskType progressive label' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'taskType timed label' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'task_complete_label' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'task_duration_label' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'task_end_label' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'task_lagTime_label' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'task_name_label' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'task_predecessor_label' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'task_resource_label' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'task_save_label' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'task_start_label' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'thursday label' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'thursday.label' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'title' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'tuesday label' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'tuesday.label' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'user add popup foundMessage' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'user add popup hover' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'user add popup notFoundMessage' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'user add popup searchText' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'user add popup title' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'view project template vars title' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'wednesday label' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'wednesday.label' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  }
+}
+;
 
 1;

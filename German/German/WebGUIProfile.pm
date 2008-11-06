@@ -123,7 +123,7 @@ our $I18N = {
   },
   '790' => {
     'lastUpdated' => 1168591153,
-    'message' => 'Diese Profilkategorie löschen.'
+    'message' => "Diese Profilkategorie l\x{f6}schen."
   },
   '897' => {
     'lastUpdated' => 1178268556,
@@ -169,6 +169,14 @@ our $I18N = {
     'lastUpdated' => 1178268861,
     'message' => 'Erlaube nur Upload von Bildern'
   },
+  'profile field extras hoverHelp' => {
+    'lastUpdated' => 1226013532,
+    'message' => 'Zus&auml;tzlicher HTML-Code f&uuml;r diesen Profil-Eintrag'
+  },
+  'profile field extras label' => {
+    'lastUpdated' => 1226013499,
+    'message' => 'Extras'
+  },
   'profile.accountOptions' => {
     'lastUpdated' => 1216637598,
     'message' => 'Eine Schleife, die Auswahlm&ouml;glichkeiten f&uuml;r andere Account Aktionen enth&auml;lt, wie zum Beispiel Profil bearbeiten, Profil betrachten, Account bearbeiten und so weiter.'
@@ -180,6 +188,10 @@ our $I18N = {
   'profile.elements' => {
     'lastUpdated' => 1216637733,
     'message' => 'Eine Schleife, die alle Elemente der Profilfelder enth&auml;lt.'
+  },
+  'profile.extras' => {
+    'lastUpdated' => 1226013475,
+    'message' => 'Zus&auml;tzlicher HTML-Code f&uuml;r dieses Feld'
   },
   'profile.form.cancel' => {
     'lastUpdated' => 1225306832,
@@ -208,6 +220,10 @@ our $I18N = {
   'profile.form.elements' => {
     'lastUpdated' => 1225306575,
     'message' => 'Profildaten'
+  },
+  'profile.form.extras' => {
+    'lastUpdated' => 1226013435,
+    'message' => 'Zus&auml;tzlicher HTML-Code f&uuml;r dieses Feld'
   },
   'profile.form.footer' => {
     'lastUpdated' => 1216637772,

@@ -45,6 +45,14 @@ our $I18N = {
     'lastUpdated' => 1199979135,
     'message' => 'Ein internationalisiertes Label, das dem Benutzer mitteilt, dass keine Suchergebnisse vorliegen.'
   },
+  'paginate after' => {
+    'lastUpdated' => 1226013304,
+    'message' => 'Seitenumbruch nach'
+  },
+  'paginate after help' => {
+    'lastUpdated' => 1226013359,
+    'message' => 'Die Anzahl der angezeigten Elemente bis ein Seitenumbruch erfolgt.'
+  },
   'result_set' => {
     'lastUpdated' => 1170407630,
     'message' => 'Resultat der Suche, aufgeteilt auf mehrere Seiten. '
