@@ -26,8 +26,8 @@ our $I18N = {
     'message' => 'Wollen sie den Tag freigeben oder ablehnen?'
   },
   'approveVersionTag message' => {
-    'lastUpdated' => 1216639457,
-    'message' => 'Ih Version Tag wurde %s. <a href="%s">Zur&uuml;ck zur Seite</a>.'
+    'lastUpdated' => 1226015640,
+    'message' => 'Ihr Version Tag wurde %s. <a href="%s">Zur&uuml;ck zur Seite</a>.'
   },
   'approved' => {
     'lastUpdated' => 1216639487,
@@ -39,11 +39,11 @@ our $I18N = {
   },
   'back to site' => {
     'lastUpdated' => 1222249612,
-    'message' => 'Zurück'
+    'message' => "Zur\x{fc}ck"
   },
   'bad commit' => {
     'lastUpdated' => 1192966747,
-    'message' => "W\x{e4}hrend der Bearbeitung des Inhalts trat ein Problem auf. Setzen Sie sich bitte mit Ihrem Systemverwalter in Verbindung."
+    'message' => 'Während der Bearbeitung des Inhalts trat ein Problem auf. Setzen Sie sich bitte mit Ihrem Systemverwalter in Verbindung.'
   },
   'comments' => {
     'lastUpdated' => 1166615325,
@@ -168,6 +168,10 @@ our $I18N = {
   'group to use help' => {
     'lastUpdated' => 1179996453,
     'message' => 'Welche Gruppe darf diesen Tag benutzen?'
+  },
+  'leave this tag' => {
+    'lastUpdated' => 1226015617,
+    'message' => 'Tag belassen'
   },
   'manage committed versions' => {
     'lastUpdated' => 1179996460,

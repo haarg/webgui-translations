@@ -3,7 +3,7 @@ use utf8;
 our $I18N = {
   'add' => {
     'lastUpdated' => 1221289516,
-    'message' => "hinzuf\x{fc}gen"
+    'message' => 'hinzufügen'
   },
   'add to friends' => {
     'lastUpdated' => undef,
@@ -174,8 +174,8 @@ our $I18N = {
     'message' => ''
   },
   'status' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1226015896,
+    'message' => 'Der Status des Benutzers, entweder online oder offline'
   },
   'subjectForm' => {
     'lastUpdated' => undef,

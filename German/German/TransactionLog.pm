@@ -6,16 +6,16 @@ our $I18N = {
     'message' => 'Betrag'
   },
   'amount.template' => {
-    'lastUpdated' => 1180021090,
-    'message' => ''
+    'lastUpdated' => 1226015665,
+    'message' => 'Der Betrag f&uuml;r diesen Artikel'
   },
   'and' => {
     'lastUpdated' => 1157929043,
     'message' => 'und'
   },
   'any' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1226015678,
+    'message' => 'jedes'
   },
   'canCancel' => {
     'lastUpdated' => 1180021149,
