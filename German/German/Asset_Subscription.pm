@@ -5,6 +5,10 @@ our $I18N = {
     'lastUpdated' => 1226015077,
     'message' => 'und'
   },
+  'code' => {
+    'lastUpdated' => 1226019788,
+    'message' => 'Kode'
+  },
   'display all' => {
     'lastUpdated' => 1226015094,
     'message' => 'Alle anzeigen'
