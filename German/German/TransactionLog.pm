@@ -26,8 +26,8 @@ our $I18N = {
     'message' => 'Ein Fehler ist beim Abbrechen der wiederkehrenden Transaktion aufgetreten. Bitte wenden Sie sich an ihren Administrator. Fehler:'
   },
   'cancelUrl' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1226016869,
+    'message' => 'Der URL, um diese wiederkehrende Transaktion abzubrechen/zu l&ouml;schen.'
   },
   'cannot cancel' => {
     'lastUpdated' => 1180021249,
@@ -54,112 +54,116 @@ our $I18N = {
     'message' => 'Fehlermeldung, den Abbruch einer wiederkehrenden Transaktion betreffend.'
   },
   'gateway' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1226018339,
+    'message' => 'Das benutzte Bezahl-Gateway'
   },
   'gatewayId' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1226018316,
+    'message' => 'Diese ID wurde der Transaktion durch das Bezahl-Gateway zugewiesen'
   },
   'help purchase history template title' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1226018276,
+    'message' => '<p>Kauf-Verlauf Vorlagenvariablen anzeigen</p>'
   },
   'historyLoop' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1226018197,
+    'message' => 'Eine Schleife, die die Transaktinen im Transaktionsverlauf anzeigt. Innerhalb dieser Schleife sind folgende Variablen verf&uuml;gbar:'
   },
   'init date' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1226018085,
+    'message' => 'Start-Datum'
   },
   'initDate' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1226018073,
+    'message' => 'Das Datum, an dem diese Transaktion gestartet wurde.'
   },
   'itemId' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1226018049,
+    'message' => 'Die interne WebGUI-ID dieses Artikels'
   },
   'itemLoop' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1226018016,
+    'message' => 'Diese Schleife enth&auml;lt alle Artikel die zu dieser Transaktion geh&ouml;ren. Diese Variabeln sind verf&uuml;gbar:'
   },
   'itemName' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1226017969,
+    'message' => 'Artikelname'
   },
   'itemType' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1226018102,
+    'message' => 'Die Art des Artikels'
   },
   'lastPayedTerm' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1226018138,
+    'message' => 'Die letzte Aktin, die bezahlt wurde. Dies ist ein Integer-Wert.'
   },
   'list transactions title' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1226017159,
+    'message' => 'Transaktionen anzeigen'
   },
   'not shipped' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1226016993,
+    'message' => 'Noch nicht versandt.'
   },
   'pending' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1226016978,
+    'message' => 'schwebend'
   },
   'quantity' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1226016907,
+    'message' => 'Die Menge dieses gekauften Artikels'
   },
   'recurring' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1226016953,
+    'message' => 'Ein Boolscher Wertm, der angibt, ob dies eine wiederkehrende Transaktion ist oder nicht.'
   },
   'select' => {
     'lastUpdated' => 1168593222,
-    'message' => "W\x{e4}hlen"
+    'message' => 'Wählen'
   },
   'selection message' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1226017053,
+    'message' => 'Benutzen Sie dieses Formular, um auszuw&auml;hlen, welche Transaktionen Sie sehen m&ouml;chten.'
   },
   'shipped' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1226017001,
+    'message' => 'Versandt.'
   },
   'shipping cost' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1226017009,
+    'message' => 'Versandkosten'
   },
   'shipping status' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1226017018,
+    'message' => 'Versandstatus'
   },
   'status' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1226016880,
+    'message' => 'Status'
   },
   'status.template' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1226017147,
+    'message' => 'Der Status dieser Transaktion'
   },
   'topicName' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1226017134,
+    'message' => 'Transaktions-Log'
   },
   'transaction status' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1226017113,
+    'message' => 'Status dieser Transaktion'
   },
   'transactionId' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1226017097,
+    'message' => 'Die interne ID, die dieser Transaktion von WebGUI zugewiesen wurde.'
   },
   'userId' => {
     'lastUpdated' => 1180021407,
     'message' => 'Die interne WebGUI user ID des Benutzers, der diese Transaktion ausgef&uuml;hrt hat.'
+  },
+  'username' => {
+    'lastUpdated' => 1226017066,
+    'message' => 'Benutzer'
   }
 }
 ;

@@ -13,6 +13,10 @@ our $I18N = {
     'lastUpdated' => 1217314907,
     'message' => 'Es wurde kein Text eingegeben. Bitte geben Sie einen Text ein, um einen Kommentar zu erzeugen.'
   },
+  'commentForm error no commentId' => {
+    'lastUpdated' => 1226016728,
+    'message' => 'Es wurde keine ID f&uuml;r den Kommentar vergeben. Es exisitiert ein Problem mit der Vorlage. Bitte informieren Sie einen Administrator.'
+  },
   'delete message' => {
     'lastUpdated' => 1201607531,
     'message' => 'Das Photo wurde gel&ouml;scht. <a href=&quot;%s&quot;>Zur&uuml;ck zum Album</a>'
@@ -29,6 +33,14 @@ our $I18N = {
     'lastUpdated' => 1217314948,
     'message' => 'Nur Freunde'
   },
+  'editForm keywords' => {
+    'lastUpdated' => 1226016545,
+    'message' => 'Tags'
+  },
+  'editForm location' => {
+    'lastUpdated' => 1226016555,
+    'message' => 'Ort'
+  },
   'editForm photo new' => {
     'lastUpdated' => 1217314964,
     'message' => 'Neues Photo'
@@ -42,8 +54,8 @@ our $I18N = {
     'message' => 'Speichern'
   },
   'editForm synopsis label' => {
-    'lastUpdated' => 1217315034,
-    'message' => ''
+    'lastUpdated' => 1226016581,
+    'message' => 'Foto-&Uuml;berschrift'
   },
   'editForm title label' => {
     'lastUpdated' => 1217315028,
@@ -413,6 +425,10 @@ our $I18N = {
     'lastUpdated' => 1217315877,
     'message' => 'Bild in voller Gr&ouml;&szlig;e betrachten'
   },
+  'template friendsOnly label' => {
+    'lastUpdated' => 1226016599,
+    'message' => 'Privat'
+  },
   'template friendsOnly no' => {
     'lastUpdated' => 1217315894,
     'message' => '&Ouml;ffentlich'
@@ -421,6 +437,14 @@ our $I18N = {
     'lastUpdated' => 1217315902,
     'message' => 'Nur Freunde'
   },
+  'template keywords' => {
+    'lastUpdated' => 1226016606,
+    'message' => 'Tags'
+  },
+  'template location' => {
+    'lastUpdated' => 1226016613,
+    'message' => 'Ort'
+  },
   'template makeShortcut album' => {
     'lastUpdated' => 1217315918,
     'message' => 'Album'
@@ -428,6 +452,10 @@ our $I18N = {
   'template makeShortcut file' => {
     'lastUpdated' => 1217315923,
     'message' => 'Datei'
+  },
+  'template makeShortcut title' => {
+    'lastUpdated' => 1226016756,
+    'message' => 'Cross Publish'
   },
   'template url_album' => {
     'lastUpdated' => 1217315937,
@@ -446,16 +474,16 @@ our $I18N = {
     'message' => 'Photo bearbeiten'
   },
   'template url_makeShortcut' => {
-    'lastUpdated' => 1217315964,
-    'message' => ''
+    'lastUpdated' => 1226016747,
+    'message' => 'Cross Publish'
   },
   'template view title' => {
     'lastUpdated' => 1217315974,
     'message' => 'Photo Details'
   },
   'template views' => {
-    'lastUpdated' => 1217315980,
-    'message' => ''
+    'lastUpdated' => 1226016646,
+    'message' => 'Angesehen'
   }
 }
 ;
