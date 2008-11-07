@@ -90,12 +90,12 @@ our $I18N = {
     'message' => 'Titel des Newsletters.'
   },
   'optionForm' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1226019013,
+    'message' => 'Die Auswahlbox f&uuml;r diese spezielle Option innerhalb dieser Kategorie.'
   },
   'optionName' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1226018951,
+    'message' => 'Der Name dieser speziellen Option innerhalb dieser Kategorie'
   },
   'optionsLoop' => {
     'lastUpdated' => 1199980072,
@@ -106,12 +106,12 @@ our $I18N = {
     'message' => 'Newsletter versenden'
   },
   'threadBody' => {
-    'lastUpdated' => 1217316261,
-    'message' => ''
+    'lastUpdated' => 1226018854,
+    'message' => 'Die komplette Geschichte'
   },
   'threadSynopsis' => {
-    'lastUpdated' => 1217316265,
-    'message' => ''
+    'lastUpdated' => 1226018868,
+    'message' => 'Die Kurzversion'
   },
   'threadTitle' => {
     'lastUpdated' => 1217316291,
@@ -122,8 +122,8 @@ our $I18N = {
     'message' => 'Die fully qualified URL dieses Threads.'
   },
   'thread_loop' => {
-    'lastUpdated' => 1217316298,
-    'message' => ''
+    'lastUpdated' => 1226018923,
+    'message' => 'Eine Schleife, die alle zutreffenden Threads f&uuml;r den personalisierten Newsletter des Nutzers enth&auml;lt.'
   }
 }
 ;
