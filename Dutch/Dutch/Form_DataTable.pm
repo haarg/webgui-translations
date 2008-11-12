@@ -13,6 +13,10 @@ our $I18N = {
     'lastUpdated' => 1225915496,
     'message' => 'Annuleren'
   },
+  'delete column' => {
+    'lastUpdated' => 1226493004,
+    'message' => 'Verwijder'
+  },
   'delete confirm' => {
     'lastUpdated' => 1225915521,
     'message' => 'Weet u zeker dat u deze rijen wilt verwijderen?'
@@ -24,6 +28,10 @@ our $I18N = {
   'edit schema' => {
     'lastUpdated' => 1225915561,
     'message' => 'Bewerk schema'
+  },
+  'format date' => {
+    'lastUpdated' => 1226493011,
+    'message' => 'Datum'
   },
   'format email' => {
     'lastUpdated' => 1225915570,

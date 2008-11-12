@@ -20,6 +20,10 @@ our $I18N = {
   'subnet' => {
     'lastUpdated' => 1225913840,
     'message' => 'Er is een probleem met de subnet instelling van Spectre.'
+  },
+  'success' => {
+    'lastUpdated' => 1226492977,
+    'message' => 'Spectre werkt naar behoren.'
   }
 }
 ;

@@ -5,6 +5,14 @@ our $I18N = {
     'lastUpdated' => 1225913693,
     'message' => 'Data-Tabel'
   },
+  'editForm templateId description' => {
+    'lastUpdated' => 1226483365,
+    'message' => 'Selecteer een sjabloon voor het tonen van de data tabel.'
+  },
+  'editForm templateId label' => {
+    'lastUpdated' => 1226483379,
+    'message' => 'Data-tabel sjabloon'
+  },
   'tab label data' => {
     'lastUpdated' => 1225913712,
     'message' => 'Data Tabel'

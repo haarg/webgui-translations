@@ -349,11 +349,11 @@ Als er een server voor het verzenden van email op dezelfde machine staat als de 
   },
   '164 description' => {
     'lastUpdated' => 1166787969,
-    'message' => 'Stel de standaard authenticatie methode voor nieuwe accounts in. De twee opties die standaard beschikbaar zij, zijn WebGUI en LDAP. WebGUI authenticatie betekent dat gebruikers zich moeten valideren tegen de gebruikersnaam en wachtwoord die in de WebGUI database zijn opgeslagen. Bij LDAP authenticatie komt deze informatie uit een externe LDAP server. Andere methoden kunnen gebruikt worden als er eerst een eigen authenticatie werktuig geschreven wordt.</p><p><em>Aantekeningen:</em><br />
+    'message' => "Stel de standaard authenticatie methode voor nieuwe accounts in. De twee opties die standaard beschikbaar zij, zijn WebGUI en LDAP. WebGUI authenticatie betekent dat gebruikers zich moeten valideren tegen de gebruikersnaam en wachtwoord die in de WebGUI database zijn opgeslagen. Bij LDAP authenticatie komt deze informatie uit een externe LDAP server. Andere methoden kunnen gebruikt worden als er eerst een eigen authenticatie werktuig geschreven wordt.</p><p><em>Aantekeningen:</em><br />
 <br />
 Authenticatie instellingen kunnen per gebruiker worden ingesteld.<br />
 <br />
-Afhankelijk van welke authenticatie modules geïnstalleerd zijn in het systeem, worden hierna de verschillende opties getoond.'
+Afhankelijk van welke authenticatie modules ge\x{ef}nstalleerd zijn in het systeem, worden hierna de verschillende opties getoond."
   },
   '167' => {
     'lastUpdated' => 1208856142,
@@ -2058,6 +2058,10 @@ De verstrekte informatie is niet gelijk aan de accountinformatie. '
   'SelectRichEditor formName' => {
     'lastUpdated' => 1208183466,
     'message' => 'Rich editor'
+  },
+  'Show when online?' => {
+    'lastUpdated' => 1226492945,
+    'message' => 'Status online tonen?'
   },
   'SubscriptionGroup formName' => {
     'lastUpdated' => 1208183481,
