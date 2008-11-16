@@ -226,8 +226,8 @@ our $I18N = {
     'message' => ''
   },
   'friday label' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1226873384,
+    'message' => 'F'
   },
   'friday.label' => {
     'lastUpdated' => undef,
@@ -290,8 +290,8 @@ our $I18N = {
     'message' => ''
   },
   'hours label' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1226873278,
+    'message' => 'Stunden'
   },
   'hours label abbrev' => {
     'lastUpdated' => undef,
@@ -314,8 +314,8 @@ our $I18N = {
     'message' => ''
   },
   'monday label' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1226873497,
+    'message' => 'M'
   },
   'monday.label' => {
     'lastUpdated' => undef,
@@ -650,12 +650,12 @@ our $I18N = {
     'message' => ''
   },
   'saturday label' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1226873515,
+    'message' => 'S'
   },
   'saturday.label' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1226873526,
+    'message' => 'S'
   },
   'searchText' => {
     'lastUpdated' => undef,
@@ -666,12 +666,12 @@ our $I18N = {
     'message' => ''
   },
   'sunday label' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1226873534,
+    'message' => 'S'
   },
   'sunday.label' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1226873539,
+    'message' => 'S'
   },
   'target budget hoverhelp' => {
     'lastUpdated' => undef,
@@ -886,20 +886,20 @@ our $I18N = {
     'message' => ''
   },
   'thursday label' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1226873408,
+    'message' => 'D'
   },
   'thursday.label' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1226873434,
+    'message' => 'D'
   },
   'title' => {
     'lastUpdated' => undef,
     'message' => ''
   },
   'tuesday label' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1226873450,
+    'message' => 'D'
   },
   'tuesday.label' => {
     'lastUpdated' => undef,
@@ -930,12 +930,12 @@ our $I18N = {
     'message' => ''
   },
   'wednesday label' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1226873466,
+    'message' => 'M'
   },
   'wednesday.label' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1226873475,
+    'message' => 'M'
   }
 }
 ;
