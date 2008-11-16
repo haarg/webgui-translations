@@ -523,20 +523,20 @@ our $I18N = {
     'message' => 'Job Titel'
   },
   'job.description.label' => {
-    'lastUpdated' => 1179753119,
-    'message' => 'Die Phrase "Job Description".'
+    'lastUpdated' => 1226872773,
+    'message' => 'Stellenbeschreibung'
   },
   'job.header.label' => {
-    'lastUpdated' => 1179753132,
-    'message' => 'Die Phrase "Edit Job Posting".'
+    'lastUpdated' => 1226872859,
+    'message' => 'Bearbeiten offene Stelle'
   },
   'job.requirements.label' => {
-    'lastUpdated' => 1179753149,
-    'message' => 'Die Phrase "Job Requirements".'
+    'lastUpdated' => 1226872883,
+    'message' => 'Anforderungen'
   },
   'job.title.label' => {
-    'lastUpdated' => 1179753162,
-    'message' => 'Die Phrase "Job Title".'
+    'lastUpdated' => 1226872929,
+    'message' => 'Offene Stelle'
   },
   'karma rank' => {
     'lastUpdated' => 1179753170,
@@ -735,8 +735,8 @@ our $I18N = {
     'message' => 'In einem neuen Fenster &ouml;ffnen?'
   },
   'newWindow.label' => {
-    'lastUpdated' => 1179755667,
-    'message' => 'Die Phrase "Open in new window?".'
+    'lastUpdated' => 1226872987,
+    'message' => 'In neues Fenster öffnen?'
   },
   'next' => {
     'lastUpdated' => 1179755679,
@@ -943,8 +943,8 @@ our $I18N = {
     'message' => 'Template f&uuml;r das Suchformular und dessen Ergebnisse dieses Collaboration System Assets.'
   },
   'search.label' => {
-    'lastUpdated' => 1179818465,
-    'message' => 'Das Wort "Search".'
+    'lastUpdated' => 1226873018,
+    'message' => 'Suchen'
   },
   'search.url' => {
     'lastUpdated' => 1179818489,
