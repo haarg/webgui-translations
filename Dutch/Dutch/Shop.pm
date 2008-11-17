@@ -162,8 +162,8 @@ our $I18N = {
     'message' => 'De gebruiker kan een verzendadres uit het adresboek kiezen wanneer op deze knop gedrukt wordt.'
   },
   'city' => {
-    'lastUpdated' => 1213631765,
-    'message' => 'Stad'
+    'lastUpdated' => 1226910747,
+    'message' => 'Plaats'
   },
   'city help' => {
     'lastUpdated' => 1216724259,
@@ -386,8 +386,8 @@ our $I18N = {
     'message' => 'De ongeformatteerde prijs van deze SKU.'
   },
   'item quantity' => {
-    'lastUpdated' => 1216730482,
-    'message' => 'He hoeveelheid van deze SKU die aangeschaft is.'
+    'lastUpdated' => 1226910763,
+    'message' => 'De hoeveelheid van deze SKU die aangeschaft is.'
   },
   'item shipToButton help' => {
     'lastUpdated' => 1216730557,
