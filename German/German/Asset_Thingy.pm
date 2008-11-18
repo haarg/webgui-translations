@@ -2,8 +2,8 @@ package WebGUI::i18n::German::Asset_Thingy;
 use utf8;
 our $I18N = {
   'assetName' => {
-    'lastUpdated' => 1227001102,
-    'message' => 'Ding'
+    'lastUpdated' => 1227001413,
+    'message' => 'Tabelle'
   },
   'delete label' => {
     'lastUpdated' => 1227001205,
@@ -14,12 +14,12 @@ our $I18N = {
     'message' => 'Titel Bearbeitungsmodus'
   },
   'edit thing title' => {
-    'lastUpdated' => 1227001220,
-    'message' => 'Ding bearbeiten'
+    'lastUpdated' => 1227001427,
+    'message' => 'Tabelle bearbeiten'
   },
   'name' => {
-    'lastUpdated' => 1227001018,
-    'message' => "Bezeichnung des Dings (Entit\x{e4}t)"
+    'lastUpdated' => 1227001440,
+    'message' => 'Bezeichnung der Tabelle'
   },
   'pretext label' => {
     'lastUpdated' => 1227000900,
@@ -54,8 +54,8 @@ our $I18N = {
     'message' => 'Anzeige letzter Änderung'
   },
   'view thingy default label' => {
-    'lastUpdated' => 1227001071,
-    'message' => 'Ding Standardanzeige'
+    'lastUpdated' => 1227001458,
+    'message' => 'Tabelle Standardanzeige'
   },
   'viewScreenTitle' => {
     'lastUpdated' => 1227000413,
