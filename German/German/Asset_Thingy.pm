@@ -5,6 +5,18 @@ our $I18N = {
     'lastUpdated' => 1227001102,
     'message' => 'Ding'
   },
+  'delete label' => {
+    'lastUpdated' => 1227001205,
+    'message' => 'Löschen'
+  },
+  'edit screen title label' => {
+    'lastUpdated' => 1227001301,
+    'message' => 'Titel Bearbeitungsmodus'
+  },
+  'edit thing title' => {
+    'lastUpdated' => 1227001220,
+    'message' => 'Ding bearbeiten'
+  },
   'name' => {
     'lastUpdated' => 1227001018,
     'message' => "Bezeichnung des Dings (Entit\x{e4}t)"
