@@ -3,27 +3,27 @@ use utf8;
 our $I18N = {
   'add field label' => {
     'lastUpdated' => 1227002067,
-    'message' => 'Feld hinzufügen'
+    'message' => "Feld hinzuf\x{fc}gen"
   },
   'add label' => {
     'lastUpdated' => 1227001907,
-    'message' => 'Hinzufügen'
+    'message' => "Hinzuf\x{fc}gen"
   },
   'add other thing label' => {
     'lastUpdated' => 1227001926,
-    'message' => "Weitere Tabelle hinzuf\x{fc}gen"
+    'message' => 'Weitere Tabelle hinzufügen'
   },
   'add thing label' => {
     'lastUpdated' => 1227001889,
-    'message' => "Tabelle hinzuf\x{fc}gen"
+    'message' => 'Tabelle hinzufügen'
   },
   'addThing_url' => {
     'lastUpdated' => 1227002010,
-    'message' => 'Diese URL verweist zum Hinzufügen einer neuen Tabelle'
+    'message' => "Diese URL verweist zum Hinzuf\x{fc}gen einer neuen Tabelle"
   },
   'add_url' => {
     'lastUpdated' => 1227002250,
-    'message' => "URL zum Bildschirm Datensatz in diese Tabelle einf\x{fc}gen."
+    'message' => 'URL zum Bildschirm Datensatz in diese Tabelle einfügen.'
   },
   'after save label' => {
     'lastUpdated' => 1227002054,
@@ -51,7 +51,7 @@ our $I18N = {
   },
   'delete label' => {
     'lastUpdated' => 1227001205,
-    'message' => 'Löschen'
+    'message' => "L\x{f6}schen"
   },
   'display label' => {
     'lastUpdated' => 1227001779,
@@ -59,7 +59,7 @@ our $I18N = {
   },
   'duplicates label' => {
     'lastUpdated' => 1227001767,
-    'message' => "Was soll mit Doppelteintr\x{e4}ge passieren?"
+    'message' => 'Was soll mit Doppelteinträge passieren?'
   },
   'edit label' => {
     'lastUpdated' => 1227001701,
@@ -72,6 +72,10 @@ our $I18N = {
   'edit thing title' => {
     'lastUpdated' => 1227001427,
     'message' => 'Tabelle bearbeiten'
+  },
+  'manage things label' => {
+    'lastUpdated' => 1227002328,
+    'message' => 'Tabellen verwalten'
   },
   'name' => {
     'lastUpdated' => 1227001440,
@@ -95,11 +99,11 @@ our $I18N = {
   },
   'size description' => {
     'lastUpdated' => 1227000883,
-    'message' => "Einstellung der Gr\x{f6}\x{df}e (Zeichenbreite) der meisten Feldern"
+    'message' => 'Einstellung der Größe (Zeichenbreite) der meisten Feldern'
   },
   'size label' => {
     'lastUpdated' => 1227000793,
-    'message' => 'Größe'
+    'message' => "Gr\x{f6}\x{df}e"
   },
   'skip label' => {
     'lastUpdated' => 1227000776,
@@ -111,7 +115,7 @@ our $I18N = {
   },
   'vertical description' => {
     'lastUpdated' => 1227000728,
-    'message' => "Diese Eigenschaft bestimmt ob Kn\x{f6}pfe horizontal oder vertikal angezeigt werden."
+    'message' => 'Diese Eigenschaft bestimmt ob Knöpfe horizontal oder vertikal angezeigt werden.'
   },
   'vertical label' => {
     'lastUpdated' => 1227000570,
@@ -119,7 +123,7 @@ our $I18N = {
   },
   'view last edited label' => {
     'lastUpdated' => 1227000599,
-    'message' => 'Anzeige letzter Änderung'
+    'message' => "Anzeige letzter \x{c4}nderung"
   },
   'view screen tab label' => {
     'lastUpdated' => 1227001561,
