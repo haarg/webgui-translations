@@ -225,6 +225,10 @@ our $I18N = {
     'lastUpdated' => 1222875665,
     'message' => 'Exporteer de URL van de site root'
   },
+  'Export site root URL description' => {
+    'lastUpdated' => 1227567912,
+    'message' => 'Een URL voor Macro Widgets'
+  },
   'Extras URL' => {
     'lastUpdated' => 1146581256,
     'message' => 'Extras URL'
@@ -252,6 +256,10 @@ our $I18N = {
   'Metadata Description description' => {
     'lastUpdated' => 1146581529,
     'message' => 'Een optionele omschrijving voor het metadata veld. Deze wordt weergegeven als mouseover-event bij de tab "Eigenschappen" van de asset. '
+  },
+  'More' => {
+    'lastUpdated' => 1227567875,
+    'message' => 'Meer'
   },
   'Page Export' => {
     'lastUpdated' => 1146581568,

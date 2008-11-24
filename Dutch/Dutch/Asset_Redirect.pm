@@ -22,16 +22,16 @@ our $I18N = {
     'message' => 'Bewerk de eigenschappen van het doorleiden'
   },
   'go to the redirect parent page' => {
-    'lastUpdated' => 1208525167,
-    'message' => 'Ga naar de moeder van de doorleiding.'
+    'lastUpdated' => 1227109461,
+    'message' => 'Ga naar de parent van deze doorleiding.'
   },
   'go to the redirect url' => {
-    'lastUpdated' => 1151071261,
-    'message' => 'Ga naar het URL dat in de doorleiding staat.'
+    'lastUpdated' => 1227109488,
+    'message' => 'Ga naar de URL die in de doorleiding staat.'
   },
   'redirect type description' => {
-    'lastUpdated' => 1222876339,
-    'message' => 'Het type http koptekst dat het Doorleiding asset zal verzenden.'
+    'lastUpdated' => 1227109523,
+    'message' => 'Het type HTTP-header die de Doorleiding zal versturen.'
   },
   'redirect url' => {
     'lastUpdated' => 1203625485,
