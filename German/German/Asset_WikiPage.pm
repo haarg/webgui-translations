@@ -25,6 +25,10 @@ our $I18N = {
     'lastUpdated' => 1222933458,
     'message' => 'Eine boolesche Variable, die wahr ist, falls der Benutzer administrative Rechte f&uuml;r das Wiki hat, welches diese Seite enth&auml;lt.'
   },
+  'canEdit variable' => {
+    'lastUpdated' => 1227566069,
+    'message' => 'Ein Boolean-Wert, der angibt ob der aktuelle Benutzer eine Seite bearbeiten kann oder nicht.'
+  },
   'content' => {
     'lastUpdated' => 1222933551,
     'message' => 'Inhalt dieser Seite mit automatisch generierten Links.'
