@@ -363,7 +363,7 @@ our $I18N = {
   },
   'controls' => {
     'lastUpdated' => 1166203953,
-    'message' => "Met deze iconen en url's kunt u een asset wijzigen, knippen, kopi\x{eb}ren, verwijderen en verplaatsen."
+    'message' => 'Met deze iconen en url\'s kunt u een asset wijzigen, knippen, kopiëren, verwijderen en verplaatsen.'
   },
   'copy' => {
     'lastUpdated' => 1222875690,
@@ -431,7 +431,7 @@ our $I18N = {
   },
   'demote help' => {
     'lastUpdated' => 1166204029,
-    'message' => "Verplaats deze asset \x{e9}\x{e9}n plaats omlaag.  "
+    'message' => 'Verplaats deze asset één plaats omlaag.  '
   },
   'directory index' => {
     'lastUpdated' => 1146831438,
@@ -439,7 +439,7 @@ our $I18N = {
   },
   'directory index description' => {
     'lastUpdated' => 1166204038,
-    'message' => "Als de URL van de Asset die ge\x{eb}xporteerd wordt een map is dan zal de mappenstructuur bijgevoegd worden. "
+    'message' => 'Als de URL van de Asset die geëxporteerd wordt een map is dan zal de mappenstructuur bijgevoegd worden. '
   },
   'does asset inherit URL from parent' => {
     'lastUpdated' => 1213624861,
@@ -734,8 +734,8 @@ our $I18N = {
     'message' => 'Verwijder prullenbak na'
   },
   'purge trash after help' => {
-    'lastUpdated' => 1170686197,
-    'message' => 'Hoe lang moet een Asset in de prullenbak bewaard blijven? Let op: Zodra een Asset verwijderd wordt dan zullen ook alle revisies en onderliggende assets verwijderd worden. '
+    'lastUpdated' => 1227567959,
+    'message' => 'Hoe lang moet een Asset in de prullenbak bewaard blijven? Let op: zodra een Asset verwijderd wordt, zullen ook alle revisies en onderliggende assets verwijderd worden. '
   },
   'rank' => {
     'lastUpdated' => 1146833262,
