@@ -225,6 +225,10 @@ our $I18N = {
     'lastUpdated' => 1223575619,
     'message' => 'Export URL h&ouml;chster Ebene'
   },
+  'Export site root URL description' => {
+    'lastUpdated' => 1227565822,
+    'message' => 'Eine URL f&uuml;r die Weitergabe an Macro Widgets'
+  },
   'Extras URL' => {
     'lastUpdated' => 1170453822,
     'message' => 'Extras URL'
@@ -252,6 +256,10 @@ our $I18N = {
   'Metadata Description description' => {
     'lastUpdated' => 1170453986,
     'message' => '<p>Eine optional Beschreibung f&uuml;r diese Metadaten Eigenschaft. Dieser Text wird als Mouseover-Text im Asset-Eigenschaften Karteireiter angezeigt.</p>'
+  },
+  'More' => {
+    'lastUpdated' => 1227565835,
+    'message' => 'Mehr'
   },
   'Page Export' => {
     'lastUpdated' => 1170453999,
@@ -331,11 +339,11 @@ our $I18N = {
   },
   'change url' => {
     'lastUpdated' => 1153242622,
-    'message' => "URL \x{e4}ndern"
+    'message' => 'URL ändern'
   },
   'change url help' => {
     'lastUpdated' => 1170454842,
-    'message' => "Zeigt die &quot;URL \x{e4}ndern&quot; Seite f\x{fc}r dieses Asset an."
+    'message' => 'Zeigt die &quot;URL ändern&quot; Seite für dieses Asset an.'
   },
   'committed versions' => {
     'lastUpdated' => 1170454956,
@@ -727,8 +735,8 @@ Dies bedeutet in der Regel, dass Sie eine Seite anlegen m&ouml;chtgen, die den s
     'message' => 'M&uuml;lleimer leeren nach'
   },
   'purge trash after help' => {
-    'lastUpdated' => 1168963936,
-    'message' => 'Wie lange soll ein Asset im M&uuml;lleimer bleiben, bis es entfernt wird? Beachten Sie: Wenn es entfernt wird, werden ebenso alle Versionen und Nachfahren entfernt.'
+    'lastUpdated' => 1227565882,
+    'message' => 'Wie lange soll ein Asset im M&uuml;lleimer bleiben, bis es entfernt wird? Beachten Sie: wenn es entfernt wird, werden ebenso alle Versionen und Nachfahren entfernt.'
   },
   'rank' => {
     'lastUpdated' => 1153262742,
