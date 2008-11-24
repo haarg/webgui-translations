@@ -30,8 +30,8 @@ our $I18N = {
     'message' => 'Login verschl&uuml;sseln? '
   },
   '1006 description' => {
-    'lastUpdated' => 1178180483,
-    'message' => 'Soll der Login mittels dem HTTPS Protokol verschl&uuml;sselt werden? Beachten Sie dass nur der Login Vorgang verschl&uuml;sselt wird, alle nachfolgenden Seiten werden unverschl&uuml;sselt &uuml;bertragen! '
+    'lastUpdated' => 1227566197,
+    'message' => 'Soll der Login mittels dem HTTPS Protokol verschl&uuml;sselt werden? Beachten Sie, dass nur der Login Vorgang verschl&uuml;sselt wird, alle nachfolgenden Seiten werden unverschl&uuml;sselt &uuml;bertragen! '
   },
   '1007' => {
     'lastUpdated' => 1178180499,
@@ -1649,9 +1649,17 @@ our $I18N = {
     'lastUpdated' => 1178618297,
     'message' => 'Willkommensnachricht verschicken?'
   },
+  '868 help' => {
+    'lastUpdated' => 1227566246,
+    'message' => 'Soll der Benutzer eine Email bekommen, wenn sein Konto er&ouml;ffnet wird?'
+  },
   '869' => {
     'lastUpdated' => 1178538676,
     'message' => 'Willkommensnachricht'
+  },
+  '869 help' => {
+    'lastUpdated' => 1227566363,
+    'message' => 'Diese Nachricht wird Teil der Begr&uuml;ssungsemail sein. wenn ein Benutzer ein Konto er&ouml;ffnet.'
   },
   '87' => {
     'lastUpdated' => 1178538691,
@@ -1949,6 +1957,10 @@ our $I18N = {
     'lastUpdated' => 1178546558,
     'message' => 'Das Passwort mittels dessen Sie sich mit der Datenbank verbinden.<br />'
   },
+  '< prev' => {
+    'lastUpdated' => 1227566413,
+    'message' => '&amp;lt; zur&uuml;ck'
+  },
   'About Us' => {
     'lastUpdated' => 1224798062,
     'message' => '&Uuml;ber uns'
@@ -2041,6 +2053,10 @@ our $I18N = {
     'lastUpdated' => 1216638516,
     'message' => 'Rich Editor'
   },
+  'Show when online?' => {
+    'lastUpdated' => 1227566457,
+    'message' => 'Anzeigen, wenn online?'
+  },
   'SubscriptionGroup formName' => {
     'lastUpdated' => 1216638541,
     'message' => 'Abonnement Gruppe'
@@ -2084,6 +2100,10 @@ our $I18N = {
   'account options template variables' => {
     'lastUpdated' => 1216638554,
     'message' => 'Account Optionen Template Variablen'
+  },
+  'account settings tab' => {
+    'lastUpdated' => 1227566475,
+    'message' => 'Konto'
   },
   'account.options' => {
     'lastUpdated' => 1217235376,
@@ -2241,6 +2261,10 @@ our $I18N = {
     'lastUpdated' => 1178552216,
     'message' => 'Datenbanken'
   },
+  'days' => {
+    'lastUpdated' => 1227566485,
+    'message' => 'Tage'
+  },
   'deactivateAccount success' => {
     'lastUpdated' => 1199972135,
     'message' => '%s wurde deaktiviert'
@@ -2365,6 +2389,10 @@ our $I18N = {
     'lastUpdated' => 1208147399,
     'message' => 'Es gibt mehr als 250 Benutzern.&nbsp; Benutz bitte Suche, um Benutzer zu finden.'
   },
+  'hours' => {
+    'lastUpdated' => 1227566500,
+    'message' => 'Stunden'
+  },
   'image' => {
     'lastUpdated' => 1178619146,
     'message' => 'Bild'
@@ -2444,6 +2472,10 @@ our $I18N = {
   'noldaplink' => {
     'lastUpdated' => 1178624695,
     'message' => 'Keine LDAP Verbindung'
+  },
+  'ok' => {
+    'lastUpdated' => 1227566528,
+    'message' => 'Ok'
   },
   'options.display' => {
     'lastUpdated' => 1217235574,
@@ -2573,6 +2605,10 @@ our $I18N = {
     'lastUpdated' => 1193133245,
     'message' => 'Erlaubnis'
   },
+  'personal info short' => {
+    'lastUpdated' => 1227566552,
+    'message' => 'Pers&ouml;nlich'
+  },
   'photo' => {
     'lastUpdated' => 1178624935,
     'message' => 'Foto'
@@ -2685,6 +2721,10 @@ our $I18N = {
     'lastUpdated' => 1178625097,
     'message' => 'entfernen'
   },
+  'required error' => {
+    'lastUpdated' => 1227566581,
+    'message' => 'Angabe %s ist erforderlich'
+  },
   'run on admin create user' => {
     'lastUpdated' => 1199972016,
     'message' => 'Beim Anlegen Benutzer (Admin)'
@@ -2704,6 +2744,10 @@ our $I18N = {
   'save' => {
     'lastUpdated' => 1224798330,
     'message' => 'Sichern'
+  },
+  'seconds' => {
+    'lastUpdated' => 1227566597,
+    'message' => 'Sek.'
   },
   'select' => {
     'lastUpdated' => 1200441138,
@@ -3134,6 +3178,10 @@ our $I18N = {
     'lastUpdated' => 1203221901,
     'message' => 'Ihrer Benutzername kann weder HTML noch WebGUI Makros enthalten.'
   },
+  'version tag mode' => {
+    'lastUpdated' => 1227566658,
+    'message' => 'Versionstag Modus'
+  },
   'view inbox message template' => {
     'lastUpdated' => 1193132620,
     'message' => 'Inbox Nachricht Template'
@@ -3153,6 +3201,18 @@ our $I18N = {
   'webgui' => {
     'lastUpdated' => 1180015507,
     'message' => 'WebGUI'
+  },
+  'weeks' => {
+    'lastUpdated' => 1227566611,
+    'message' => 'Wochen'
+  },
+  'work info short' => {
+    'lastUpdated' => 1227566624,
+    'message' => 'Arbeit'
+  },
+  'years' => {
+    'lastUpdated' => 1227566633,
+    'message' => 'Jahre'
   },
   'yes please' => {
     'lastUpdated' => 1224798429,
