@@ -25,6 +25,10 @@ our $I18N = {
     'lastUpdated' => 1166780369,
     'message' => 'Een variabele die waar is als de gebruikers binnen de groep rechten hebben op de Wiki op deze pagina.'
   },
+  'canEdit variable' => {
+    'lastUpdated' => 1227568238,
+    'message' => 'Een boolean variabele, die aangeeft, of de actuele gebruiker een pagina kan veranderen of niet.'
+  },
   'content' => {
     'lastUpdated' => 1180654432,
     'message' => 'De inhoud van de pagina, met de gevonden titel en links gewijzigd in Wiki links.'
