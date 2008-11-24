@@ -90,8 +90,8 @@ our $I18N = {
     'message' => 'Die ID des Assets, bei dem die Suche beginnt.'
   },
   'synopsis' => {
-    'lastUpdated' => 1179837930,
-    'message' => 'Die Zusammenfassung des Assets, das gefunden wurde.'
+    'lastUpdated' => 1227566766,
+    'message' => 'Die Zusammenfassung des gefundenen Assets. Macros innerhalb der Zusammenfassung werden erweitert.'
   },
   'templateId' => {
     'lastUpdated' => 1170407870,
