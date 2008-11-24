@@ -2,28 +2,28 @@ package WebGUI::i18n::German::Asset_RSSFromParent;
 use utf8;
 our $I18N = {
   'assetName' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1227566879,
+    'message' => 'Eletern-RSS '
   },
   'description' => {
     'lastUpdated' => 1164282550,
     'message' => 'Beschreibung'
   },
   'description.item' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1227566896,
+    'message' => 'Beschreibung'
   },
   'description.parent' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1227566919,
+    'message' => 'Eltern-Beschreibung'
   },
   'docs' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1227566961,
+    'message' => 'http://blogs.law.harvard.edu/tech/rss'
   },
   'generator' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1227567023,
+    'message' => 'Diese RSS wurde generiert von einem WebGUI-CMS'
   },
   'guid' => {
     'lastUpdated' => undef,

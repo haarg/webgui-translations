@@ -29,9 +29,17 @@ our $I18N = {
     'lastUpdated' => 1178700886,
     'message' => 'Minimale Passwortl&auml;nge'
   },
+  '15 help' => {
+    'lastUpdated' => 1227567188,
+    'message' => 'Minimum Zeichenanzahl im Passwort.'
+  },
   '16' => {
     'lastUpdated' => 1178700893,
     'message' => 'Passwort Timeout'
+  },
+  '16 help' => {
+    'lastUpdated' => 1227567284,
+    'message' => 'Der Passwort-Timeout legt die G&uuml;ltigkeitsdauer f&uuml;r ein Passwort fest. Nach Ablauf wird der benutzer aufgefordert ein neues Passwort einzugeben.'
   },
   '17' => {
     'lastUpdated' => 1178700900,
@@ -41,9 +49,17 @@ our $I18N = {
     'lastUpdated' => 1153201669,
     'message' => 'Benutzern erm&ouml;glichen, das Passwort zu &auml;ndern?<br />'
   },
+  '18 help' => {
+    'lastUpdated' => 1227567405,
+    'message' => 'D&uuml;rfen Benutzer Ihr Passwort &auml;ndern? Achtung: dieses zusammen mit Passwort-Timeouts zu benutzen kann viel Adminsitrationsarbeit erforderlich machen. '
+  },
   '19' => {
     'lastUpdated' => 1153201689,
     'message' => 'Benutzern erlauben, ihren Benutzernamen zu &auml;ndern?<br />'
+  },
+  '19 help' => {
+    'lastUpdated' => 1227567459,
+    'message' => 'D&uuml;rfen Benutzer die Benutzerkennung &auml;ndern?'
   },
   '2' => {
     'lastUpdated' => 1178700910,
@@ -89,9 +105,17 @@ our $I18N = {
     'lastUpdated' => 1153201873,
     'message' => 'Passw&ouml;rter sollen bei der Erstellung eines Benutzers ablaufen?<br />'
   },
+  '9 help' => {
+    'lastUpdated' => 1227567532,
+    'message' => 'Diese Angabe macht das Passwort sofort nach der Kontenerstellung ung&uuml;ltig.'
+  },
   'account template' => {
     'lastUpdated' => 1178700944,
     'message' => 'Account Template'
+  },
+  'account template help' => {
+    'lastUpdated' => 1227567606,
+    'message' => 'W&auml;hlen Sie eine Vorlage f&uuml;r die Anzeige des Benutzerkontos'
   },
   'account.form.password' => {
     'lastUpdated' => 1178700964,
@@ -152,6 +176,10 @@ our $I18N = {
   'create account template' => {
     'lastUpdated' => 1178701843,
     'message' => 'Account erzeugen Template'
+  },
+  'create account template help' => {
+    'lastUpdated' => 1227567665,
+    'message' => 'W&auml;hlen Sie eine Vorlage f&uuml;r den Bildschirm zur Anlage eines Benutzerkontos.'
   },
   'create.form.hidden' => {
     'lastUpdated' => 1178701884,
@@ -225,17 +253,21 @@ our $I18N = {
     'lastUpdated' => 1192977767,
     'message' => 'Geben Sie ein neues Kennwort auf Ihren Account unten ein.'
   },
+  'email recover password finish message' => {
+    'lastUpdated' => 1227567721,
+    'message' => 'Eine Email mit einer Anleitung zur &Auml;nderung des Passwort wurde verschickt.'
+  },
   'email recover password finish message1' => {
     'lastUpdated' => 1192977827,
     'message' => 'Eine E-Mail ist versendet worden'
   },
   'email recover password finish message2' => {
     'lastUpdated' => 1192977909,
-    'message' => "Mit Instruktionen, um Ihr Passwort zur\x{fc}ck zu setzen."
+    'message' => 'Mit Instruktionen, um Ihr Passwort zurück zu setzen.'
   },
   'email recover password start message' => {
     'lastUpdated' => 1192977996,
-    'message' => "Geben Sie entweder Ihre E-Mail-Adresse oder Ihre Anmeldung unten ein, um das Passwort zur\x{fc}cksetzen zu k\x{f6}nnen."
+    'message' => 'Geben Sie entweder Ihre E-Mail-Adresse oder Ihre Anmeldung unten ein, um das Passwort zurücksetzen zu können.'
   },
   'error password nonWordCharacters' => {
     'lastUpdated' => 1200441260,
@@ -500,6 +532,10 @@ our $I18N = {
   'use captcha' => {
     'lastUpdated' => 1178704863,
     'message' => 'Captcha Bild benutzen?'
+  },
+  'use captcha help' => {
+    'lastUpdated' => 1227567820,
+    'message' => 'Wenn aktiviert, muss ein Besucher zur Anlage eines Benutzerkontos ein Captcha-Feld ausf&uuml;llen. '
   },
   'validate email' => {
     'lastUpdated' => 1178704875,
