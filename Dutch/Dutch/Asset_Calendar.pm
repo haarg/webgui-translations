@@ -278,8 +278,8 @@ our $I18N = {
     'message' => 'De seconden'
   },
   'helpvar dateTime start' => {
-    'lastUpdated' => 1204301304,
-    'message' => 'Een set van datum/tijd variabelen met het voorvoegsel &quot;start&quot;. Zie Kalender datum/tijd variabelen voor meer informatie.'
+    'lastUpdated' => 1227568003,
+    'message' => 'Een set van datum/tijd variabelen met het voorvoegsel \'start\'. Zie Kalender datum/tijd variabelen voor meer informatie.'
   },
   'helpvar dateTime year' => {
     'lastUpdated' => 1204300559,
