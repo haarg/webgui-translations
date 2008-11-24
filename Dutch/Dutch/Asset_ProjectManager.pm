@@ -1,1177 +1,943 @@
 package WebGUI::i18n::Dutch::Asset_ProjectManager;
 use utf8;
-
 our $I18N = {
-	'task resource label' => {
-		message => q|Bron|,
-		lastUpdated => 1189370982
-	},
-
-	'task_end_label' => {
-		message => q|Het label "Einde" in de eigen taal van de gebruiker.|,
-		lastUpdated => 1189371050
-	},
-
-	'day.number' => {
-		message => q|Een nummer voor deze dag van de week, een geheel getal tussen 1 en 7.|,
-		lastUpdated => 1150466454
-	},
-
-	'user add popup hover' => {
-		message => q|Gebruiker aan taak toevoegen|,
-		lastUpdated => 1166196552
-	},
-
-	'resourceKind' => {
-		message => q|Het soort bron. Dit kan "gebruiker" zijn of "groep".|,
-		lastUpdated => 1189370754
-	},
-
-	'project.cost.data.int' => {
-		message => q|De kosten van het project als een geheel getal met komma's gescheiden.|,
-		lastUpdated => 1189370255
-	},
-
-	'empty.colspan' => {
-		message => q|Het aantal kolommmen, standaard 5. Als "canEditProjects" waar is, dan wordt dit 6.|,
-		lastUpdated => 1189369157
-	},
-
-	'project manager asset template variables title' => {
-		message => q|Template variabelen beschikbaar in de project manager.|,
-		lastUpdated => 1189370106
-	},
-
-	'sunday label' => {
-		message => q|Zo|,
-		lastUpdated => 1149496579
-	},
-
-	'project.startDate.label' => {
-		message => q|Het label "Start" in de eigen taal van de gebruiker.|,
-		lastUpdated => 1189370593
-	},
-
-	'days label abbrev' => {
-		message => q|dagen|,
-		lastUpdated => 1149492883
-	},
-
-	'form.header' => {
-		message => q|<p>Als de gebruiker in de groep zit die projecten kan toevoegen, zal deze variabele HTML code bevatten die het &quot;on the fly&quot; bewerken mogelijk maakt. </p>|,
-		lastUpdated => 1150466619
-	},
-
-	'form.resourceDiv' => {
-		message => q|Formulierelement om een gebruiker te selecteren die aan de taak wordt toegewezen.|,
-		lastUpdated => 1189369466
-	},
-
-	'notFoundMessage' => {
-		message => q|Een bericht in de eigen taal die gebruikers erop wijst dat er geen groepen of geen gebruikers werden gevonden. |,
-		lastUpdated => 1189369802
-	},
-
-	'task predecessor edit label' => {
-		message => q|Vorige taak|,
-		lastUpdated => 1189370959
-	},
-
-	'project name label' => {
-		message => q|Project naam|,
-		lastUpdated => 1149496042
-	},
-
-	'canEditProjects' => {
-		message => q|Een voorwaardelijke variabele die waar is als de huidige gebruiker projecten mag bekijken of bewerken.|,
-		lastUpdated => 1189367915
-	},
-
-	'project description label' => {
-		message => q|Project omschrijving|,
-		lastUpdated => 1149495617
-	},
-
-	'odd' => {
-		message => q|Deze voorwaardelijke variabele is waar voor oneven rijen in de lijst. Deze variabele kan gebruikt worden om even en oneven rijen net anders weer te geven.|,
-		lastUpdated => 1189369849
-	},
-
-	'callback' => {
-		message => q|De naam van de javascript callback die aangeroepen moet worden.|,
-		lastUpdated => 1189367881
-	},
-
-	'title' => {
-		message => q|Een bericht om gebruikers of groepen toe te voegen in de eigen taal van de gebruiker.|,
-		lastUpdated => 1189371698
-	},
-
-	'project.edit.url' => {
-		message => q|Als de huidige gebruiker projecten mag bewerken, dan bevat deze variabele de URL om het project te bewerken.|,
-		lastUpdated => 1189370444
-	},
-
-	'thursday.label' => {
-		message => q|De afkorting voor donderdag   |,
-		lastUpdated => 1207902582
-	},
-
-	'project.canEdit' => {
-		message => q|<p>Een functie die aangeeft of deze gebruiker projecten kan toevoegen. </p>|,
-		lastUpdated => 1150466695
-	},
-
-	'add task label' => {
-		message => q|Voeg taak toe|,
-		lastUpdated => 1152349061
-	},
-
-	'view project template vars title' => {
-		message => q|Sjabloon variabelen voor het bekijken van het project|,
-		lastUpdated => 1149502594
-	},
-
-	'form.start' => {
-		message => q|<p>Onderdeel van het formulier waar de begindatum van de taak wordt ingevoerd.</p>|,
-		lastUpdated => 1150466023
-	},
-
-	'opTitle' => {
-		message => q|De titel voor dit formulier.|,
-		lastUpdated => 1189369921
-	},
-
-	'resourcePopupTemplateId' => {
-		message => q|De ID van het template om een popup weer te geven waarmee een bron geselecteerd kan worden in de  Project manager.|,
-		lastUpdated => 1189370849
-	},
-
-	'form.percentComplete' => {
-		message => q|<p>Onderdeel van het formulier waar de vordering van de taak in percentages wordt bijgehouden.</p>|,
-		lastUpdated => 1150466117
-	},
-
-	'edit task template vars title' => {
-		message => q|Sjabloon variabelen voor de functie bewerk taak|,
-		lastUpdated => 1149494033
-	},
-
-	'task end label' => {
-		message => q|Beeindig|,
-		lastUpdated => 1149499058
-	},
-
-	'project cost label' => {
-		message => q|Geschatte kosten|,
-		lastUpdated => 1149495539
-	},
-
-	'project.create.label' => {
-		message => q|Een label, in de eigen taal, die hoort bij de "project.create" URL.|,
-		lastUpdated => 1189370309
-	},
-
-	'form.save' => {
-		message => q|<p>Een knop waarmee de data die ingevuld is, opgeslagen wordt.</p>|,
-		lastUpdated => 1150466134
-	},
-
-	'form.duration' => {
-		message => q|<p>Onderdeel van het formulier waar de duur van de taak wordt ingevoerd. </p>|,
-		lastUpdated => 1150465983
-	},
-
-	'resourceListTemplate label' => {
-		message => q|Standaard benodigdhedenlijst sjabloon|,
-		lastUpdated => 1166196383
-	},
-
-	'resourceIcon' => {
-		message => q|De naam van het icoon van deze bron, specifiek voor het type bron.|,
-		lastUpdated => 1189370721
-	},
-
-	'task.end' => {
-		message => q|<div class="&quot;helpIndent&quot;"><p>Als de gebruiker in de groep zit die projecten kan toevoegen, kan in dit veld de einddatum bewerkt worden. Anders wordt de datum als tekst getoond.</p></div>|,
-		lastUpdated => 1150467400
-	},
-
-	'project observer hoverhelp' => {
-		message => q|Selecteer de groep die het project mogen zien. Deze groep mag alle projecten met bijbehorende taken zien.|,
-		lastUpdated => 1166196255
-	},
-
-	'form.seqNum' => {
-		message => q|Het volgnummer van deze taak.|,
-		lastUpdated => 1189369477
-	},
-
-	'task.back.url' => {
-		message => q|<p>Een label bij de link die terugverwijst naar dit scherm. </p>|,
-		lastUpdated => 1150467629
-	},
-
-	'previousSearch' => {
-		message => q|De in HTML opgemaakte versie van de door de gebruiker verstuurde data voor de vorige zoekopdracht.|,
-		lastUpdated => 1189369946
-	},
-
-	'task start label' => {
-		message => q|Begin|,
-		lastUpdated => 1149499455
-	},
-
-	'group add popup searchText' => {
-		message => q|Zoek groep:|,
-		lastUpdated => 1166196206
-	},
-
-	'task invalidMove error' => {
-		message => q|De ingevoerde startdatum voor deze taak is ongeldig, omdat de einddatum van de voorganger hiermee kruist. Verwijder de restictie dat de vorige taak moet zijn beeindigd of verander de einddatum voor het geldig maken van deze begindatum. |,
-		lastUpdated => 1149499276
-	},
-
-	'task.loop' => {
-		message => q|<p>Een kring die alle taken van dit project bevat, in volgorde van uitvoeren.</p>|,
-		lastUpdated => 1150467172
-	},
-
-	'user add popup foundMessage' => {
-		message => q|Overeenkomstige gebruikers:|,
-		lastUpdated => 1166196542
-	},
-
-	'task.duration.label' => {
-		message => q|<p>Het woord &quot;duur&quot; </p>|,
-		lastUpdated => 1150466864
-	},
-
-	'hours label abbrev' => {
-		message => q|Uren|,
-		lastUpdated => 1149494933
-	},
-
-	'projectDashboardTemplate label' => {
-		message => q|Standaard sjabloon voor het project beheer scherm|,
-		lastUpdated => 1149496330
-	},
-
-	'month.name' => {
-		message => q|De naam van de lopende maand|,
-		lastUpdated => 1149858277
-	},
-
-	'editTaskTemplate label' => {
-		message => q|Standaard sjabloon voor bewerk taak|,
-		lastUpdated => 1149494054
-	},
-
-	'hiddenFields' => {
-		message => q|Extra verborgen formuliervelden die moeten worden toegevoegd aan het formulier om goed te functioneren.|,
-		lastUpdated => 1189369621
-	},
-
-	'resourceId' => {
-		message => q|De unieke identificatie (ID) voor deze bron.|,
-		lastUpdated => 1189370735
-	},
-
-	'task resources label' => {
-		message => q|Beheer middelen|,
-		lastUpdated => 1149499388
-	},
-
-	'task noPredecessor error' => {
-		message => q|De voorganger die ingevoerd is bestaat niet|,
-		lastUpdated => 1149499351
-	},
-
-	'selfUrl' => {
-		message => q|De URL, als HTML, naar deze Project manager. Dit is bedoeld om weer te geven, niet om te linken.|,
-		lastUpdated => 1189370912
-	},
-
-	'project.delete.warning' => {
-		message => q|Een label, in de eigen taal, die in het standaard template wordt gebruikt als een javascript popup.|,
-		lastUpdated => 1189370392
-	},
-
-	'task.start' => {
-		message => q|<div class="&quot;helpIndent&quot;"><p>Als de gebruiker in de groep zit die projecten kan toevoegen, kan in dit veld de begindatum bewerkt worden. Anders wordt de datum als tekst getoond.</p></div>|,
-		lastUpdated => 1150467360
-	},
-
-	'task_predecessor_label' => {
-		message => q|Het label "Vorige taak" in de eigen taal van de gebruiker.|,
-		lastUpdated => 1189371134
-	},
-
-	'project new label' => {
-		message => q|Nieuw project|,
-		lastUpdated => 1149496199
-	},
-
-	'task_complete_label' => {
-		message => q|Het label "Voltooid" in de eigen taal van de gebruiker.|,
-		lastUpdated => 1189371011
-	},
-
-	'project.cost.label' => {
-		message => q|Het label, in de eigen taal voor "Geschatte kosten".|,
-		lastUpdated => 1189370269
-	},
-
-	'no projects' => {
-		message => q|Lijst met projecten is leeg|,
-		lastUpdated => 1149495171
-	},
-
-	'project.resources.label' => {
-		message => q|<p>Wanneer de gebruiker in de groep zit die projecten kan toevoegen, zal dit het label zijn dat gebruikt wordt bij <strong>project.resources.label</strong>. </p>|,
-		lastUpdated => 1150466735
-	},
-
-	'form.end' => {
-		message => q|<p>Onderdeel van het formulier waar de einddatum van de taak wordt ingevoerd. </p>|,
-		lastUpdated => 1150466039
-	},
-
-	'duration units label' => {
-		message => q|Houd project bij in|,
-		lastUpdated => 1149492995
-	},
-
-	'create project' => {
-		message => q|Maak nieuw project|,
-		lastUpdated => 1149492866
-	},
-
-	'group add popup notFoundMessage' => {
-		message => q|Geen overeenkomstige groepen gevonden.|,
-		lastUpdated => 1166196194
-	},
-
-	'resource none' => {
-		message => q|Geen middelen|,
-		lastUpdated => 1149496563
-	},
-
-	'project observer label' => {
-		message => q|Wie mag bekijken?|,
-		lastUpdated => 1166196285
-	},
-
-	'user add popup title' => {
-		message => q|Zoek naar gebruiker|,
-		lastUpdated => 1166196591
-	},
-
-	'project.resources.url' => {
-		message => q|<p>Wanneer de gebruiker in de groep zit die projecten kan toevoegen, zal dit het URl zijn naar het beheerscherm van de middelen. </p>|,
-		lastUpdated => 1150466714
-	},
-
-	'task_start_label' => {
-		message => q|Het label "Start" in de eigen taal van de gebruiker.|,
-		lastUpdated => 1189371183
-	},
-
-	'tuesday.label' => {
-		message => q|De afkorting voor dinsdag|,
-		lastUpdated => 1207902677
-	},
-
-	'projectDisplayTemplate hoverhelp' => {
-		message => q|Sjabloon voor het tonen van projecten. Het standaard sjabloon is de Gantt tabel van een project.|,
-		lastUpdated => 1207827012
-	},
-
-	'form.addUser.id' => {
-		message => q|De unieke identificatie (ID) voor de link die naar de "voeg gebruiker toe" popup leidt.|,
-		lastUpdated => 1189369300
-	},
-
-	'task save label' => {
-		message => q|Opslaan|,
-		lastUpdated => 1189370991
-	},
-
-	'hours label' => {
-		message => q|Uren|,
-		lastUpdated => 1149494922
-	},
-
-	'form.addGroup.id' => {
-		message => q|De unieke identificatie (ID) voor de link die naar de Nieuwe Groep popup leidt.|,
-		lastUpdated => 1189369236
-	},
-
-	'saturday.label' => {
-		message => q|<p>De afkorting voor zaterdag  </p> |,
-		lastUpdated => 1207902764
-	},
-
-	'project.startDate.data' => {
-		message => q|De startdatum van het project in het formaat yyyy-mm-dd. Als geen startdatum is opgegeven, wordt een kort bericht weergegeven in de eigen taal van de gebruiker.|,
-		lastUpdated => 1189370578
-	},
-
-	'projectDisplayTemplateId' => {
-		message => q|De ID van het template om een project uit de Project manager weer te geven.|,
-		lastUpdated => 1189370666
-	},
-
-	'task previousPredecessor error' => {
-		message => q|De voorganger moet een vorige taak zijn.|,
-		lastUpdated => 1149499373
-	},
-
-	'doingSearch' => {
-		message => q|Een voorwaardelijke variabele die waar is als deze popup werd aangeroepen als onderdeel van het zoekformulier.|,
-		lastUpdated => 1189367943
-	},
-
-	'form.taskType' => {
-		message => q|Formulierelement om het type taak te kiezen.|,
-		lastUpdated => 1189369489
-	},
-
-	'project action label' => {
-		message => q|Acties|,
-		lastUpdated => 1149495511
-	},
-
-	'resourceDiv' => {
-		message => q|Als deze popup werd aangeroepen als onderdeel van een zoekopdracht, dan bevat deze variabele de HTML om alle resultaten weer te geven.|,
-		lastUpdated => 1189370702
-	},
-
-	'task_duration_label' => {
-		message => q|Het label "Duur" in de eigen taal van de gebruiker.|,
-		lastUpdated => 1189371033
-	},
-
-	'foundResults' => {
-		message => q|Als deze popup werd aangeroepen als onderdeel van een zoekopdracht, dan bevat deze variabele het aantal gevonden resultaten.|,
-		lastUpdated => 1189369543
-	},
-
-	'project.name.label' => {
-		message => q|Het label "Naam project" in de eigen taal van de gebruiker.|,
-		lastUpdated => 1189370547
-	},
-
-	'project.durationUnits' => {
-		message => q|<p>Een afgekorte versie van de tijdseenheden waarin de duur wordt gemeten. </p>|,
-		lastUpdated => 1150466772
-	},
-
-	'task.duration.units' => {
-		message => q|<div class="&quot;helpIndent&quot;"><p>De eenheden voor de duur, meestal uren of dagen.</p></div>|,
-		lastUpdated => 1150467435
-	},
-
-	'project end date label' => {
-		message => q|Einde|,
-		lastUpdated => 1149495835
-	},
-
-	'project edit title' => {
-		message => q|Bewerk project|,
-		lastUpdated => 1149495827
-	},
-
-	'task predecessor label' => {
-		message => q|Vorige|,
-		lastUpdated => 1189370973
-	},
-
-	'ganttChartTemplateId' => {
-		message => q|De ID van het template om de gantt grafiek weer te geven in de project manager.|,
-		lastUpdated => 1189369581
-	},
-
-	'searchText' => {
-		message => q|Het label om te zoeken naar gebruikers of groepen in de eigen taal van de gebruiker.|,
-		lastUpdated => 1189370874
-	},
-
-	'task name error' => {
-		message => q|Voordat er opgeslagen kan worden, moet er een naam van de taak zijn ingevoerd.|,
-		lastUpdated => 1149499316
-	},
-
-	'ganttChartTemplate hoverhelp' => {
-		message => q|Een sjabloon waarmee de gantt tabel getekend wordt binnen de tabel.|,
-		lastUpdated => 1207827302
-	},
-
-	'project.endDate.label' => {
-		message => q|Het label "Einde" in de eigen taal van de gebruiker.|,
-		lastUpdated => 1189370500
-	},
-
-	'project dashboard template title' => {
-		message => q|Project manager, template voor de standaard weergave voor het dashboard|,
-		lastUpdated => 1189370027
-	},
-
-	'monday.label' => {
-		message => q|De afkorting voor maandag   |,
-		lastUpdated => 1207902814
-	},
-
-	'friday label' => {
-		message => q|Vr|,
-		lastUpdated => 1149495156
-	},
-
-	'task back label' => {
-		message => q|Terug naar instrumentenpaneel|,
-		lastUpdated => 1149497981
-	},
-
-	'form.addGroup.link' => {
-		message => q|Een volledige link om de Nieuwe Groep popup weer te geven. |,
-		lastUpdated => 1189369256
-	},
-
-	'project.complete.data.int' => {
-		message => q|Percentage van het project dat is voltooid als een geheel getal.|,
-		lastUpdated => 1189370190
-	},
-
-	'task.row.id' => {
-		message => q|Het unieke ID voor deze taak.|,
-		lastUpdated => 1166196444
-	},
-
-	'project.complete.label' => {
-		message => q|Het label, in de eigen taal, voor "% voltooid".|,
-		lastUpdated => 1189370210
-	},
-
-	'editTaskTemplateId' => {
-		message => q|De ID van het template om een taak mee te bewerken in de project manager.|,
-		lastUpdated => 1189369117
-	},
-
-	'form.footer' => {
-		message => q|<p>Als de gebruiker in de groep zit die projecten kan toevoegen, zal deze variabele HTML code bevatten die het &quot;on the fly&quot; bewerken mogelijk maakt.</p>|,
-		lastUpdated => 1150466652
-	},
-
-	'task duration label' => {
-		message => q|Duur|,
-		lastUpdated => 1149498999
-	},
-
-	'resourceName' => {
-		message => q|De HTML versie van de naam van de bron. Dit kan een groep of een gebruiker zijn.|,
-		lastUpdated => 1189370823
-	},
-
-	'resourcePopupTemplate hoverhelp' => {
-		message => q|Sjabloon voor het selecteren van de benodigdheden.|,
-		lastUpdated => 1166196407
-	},
-
-	'project.actions.label' => {
-		message => q|Het label, in de eigen taal, voor "acties".|,
-		lastUpdated => 1189370128
-	},
-
-	'project id' => {
-		message => q|Project identificatie|,
-		lastUpdated => 1149495850
-	},
-
-	'thursday label' => {
-		message => q|Do|,
-		lastUpdated => 1149499465
-	},
-
-	'project.view.url' => {
-		message => q|De URL om dit project te bekijken|,
-		lastUpdated => 1189370628
-	},
-
-	'group add popup foundMessage' => {
-		message => q|Overeenkomstige groepen:|,
-		lastUpdated => 1166196159
-	},
-
-	'form.duration.units' => {
-		message => q|<p>Onderdeel van het formulier waar eenheid van de duur van de taak wordt ingevoerd.</p>|,
-		lastUpdated => 1150466002
-	},
-
-	'days label' => {
-		message => q|Dagen|,
-		lastUpdated => 1149492874
-	},
-
-	'project.complete.data.float' => {
-		message => q|Percentage van het project dat is voltooid als een getal met twee decimalen.|,
-		lastUpdated => 1189370168
-	},
-
-	'task name label' => {
-		message => q|Taak|,
-		lastUpdated => 1189370942
-	},
-
-	'task dependant label' => {
-		message => q|Voorgangers|,
-		lastUpdated => 1149502616
-	},
-
-	'task greaterthan error' => {
-		message => q|Einddatum kan niet groter zijn dan begindatum.|,
-		lastUpdated => 1166196454
-	},
-
-	'taskType timed label' => {
-		message => q|Tijdsgebonden|,
-		lastUpdated => 1166196532
-	},
-
-	'project complete label' => {
-		message => q|% Voltooid|,
-		lastUpdated => 1149495528
-	},
-
-	'add resource popup template title' => {
-		message => q|Project manager, Selecteer bron popup template|,
-		lastUpdated => 1189367831
-	},
-
-	'ganttChartTemplate label' => {
-		message => q|Standaard sjabloon voor gantt tabellen|,
-		lastUpdated => 1149494865
-	},
-
-	'form.name.error' => {
-		message => q|<p>Een melding van een fout als de naam van de taak mist. </p>|,
-		lastUpdated => 1150467025
-	},
-
-	'task.dependants' => {
-		message => q|Als de gebruiker in de groep zit die projecten kan toevoegen, kunnen in dit veld de benodigdheden bewerkt worden. Anders wordt deze als tekst getoond.|,
-		lastUpdated => 1170690637
-	},
-
-	'taskType milestone label' => {
-		message => q|Mijlpaal|,
-		lastUpdated => 1166196513
-	},
-
-	'form.greaterThan.error' => {
-		message => q|<p>Een melding van een fout als de begindatum van de taak na de einddatum valt. </p>|,
-		lastUpdated => 1150467085
-	},
-
-	'form.invalidMove.error' => {
-		message => q|<p>Een melding van een fout als een voorgaande taak een einddatum heeft die na de begindatum van deze taak valt. </p>|,
-		lastUpdated => 1207903257
-	},
-
-	'form.addUser.link' => {
-		message => q|Een volledige link om de "Voeg gebruiker toe" popup weer te geven.|,
-		lastUpdated => 1189369317
-	},
-
-	'form.lagTime' => {
-		message => q|Formulier element om de vertragingstijd in te voeren voor deze taak.|,
-		lastUpdated => 1189369413
-	},
-
-	'task end error' => {
-		message => q|De einddatum moet ingevoerd zijn voordat opgeslagen kan worden.|,
-		lastUpdated => 1149499039
-	},
-
-	'opCallbackJs' => {
-		message => q|De naam van de javascript callback voor het formulier dat de popup heeft aangeroepen.|,
-		lastUpdated => 1189369868
-	},
-
-	'add resource popup template body' => {
-		message => q|Dit template geeft een popup scherm weer om gebruikers of groepen toe te voegen aan een taak. Afhankelijk van of er groepen of gebruikers worden toegevoegd zijn er andere template variabelen beschikbaar, vooral andere labels. |,
-		lastUpdated => 1189367645
-	},
-
-	'projectDisplayTemplate label' => {
-		message => q|Standaard sjablonen voor tonen projecten|,
-		lastUpdated => 1149496458
-	},
-
-	'opIcon' => {
-		message => q|De naam van een icoon voor het formulier, zonder het volledige pad.|,
-		lastUpdated => 1189369909
-	},
-
-	'project.delete.url' => {
-		message => q|Als de huidige gebruiker projecten mag bewerken, dan bevat deze variabele de URL om het project te verwijderen.|,
-		lastUpdated => 1207901703
-	},
-
-	'project description hoverhelp' => {
-		message => q|Voer een omschrijving van het project in.|,
-		lastUpdated => 1149495601
-	},
-
-	'task_save_label' => {
-		message => q|Het label "Opslaan" in de eigen taal van de gebruiker.|,
-		lastUpdated => 1189371166
-	},
-
-	'daysLoop' => {
-		message => q|De afkorting voor zaterdag|,
-		lastUpdated => 1207902976
-	},
-
-	'resourcePopupTemplate label' => {
-		message => q|Standaard benodigdheden sjabloon|,
-		lastUpdated => 1166196421
-	},
-
-	'friday.label' => {
-		message => q|<p>De afkorting voor vrijdag  </p> |,
-		lastUpdated => 1207902901
-	},
-
-	'project id hoverhelp' => {
-		message => q|Een unieke indentificatie waarmee binnen WebGUI verwezen wordt naar dit project.  |,
-		lastUpdated => 1208525092
-	},
-
-	'user add popup notFoundMessage' => {
-		message => q|Geen overeenkomstige gebruikers gevonden.|,
-		lastUpdated => 1166196564
-	},
-
-	'resource add opTitle' => {
-		message => q|Toevoegen aan taak|,
-		lastUpdated => 1166196297
-	},
-
-	'projectDashboardTemplate hoverhelp' => {
-		message => q|Sjabloon waarmee het algemene deel van de project beheer applicatie getoond wordt. |,
-		lastUpdated => 1149496293
-	},
-
-	'editTaskTemplate hoverhelp' => {
-		message => q|Sjabloon dat gebruikt wordt voor het tonen van de bewerk taak functie.|,
-		lastUpdated => 1149494092
-	},
-
-	'hours per day hoverhelp' => {
-		message => q|Kies het aantal uren dat in het algemeen in een dag werken zit. Hiermee wordt geschat hoeveel dagen een taak in beslag neemt. Dit zal aangepast worden indien ingesteld wordt dat er meer of minder per dag gewerkt wordt door een bepaalde arbeidsbron indien deze aan de taak gekoppeld is. |,
-		lastUpdated => 1208525065
-	},
-
-	'user add popup searchText' => {
-		message => q|Zoek naar gebruiker:|,
-		lastUpdated => 1166196579
-	},
-
-	'project.create' => {
-		message => q|De URL om een nieuw project toe te voegen aan de Project manager.|,
-		lastUpdated => 1189370286
-	},
-
-	'task_lagTime_label' => {
-		message => q|Het label "Vertragingstijd" in de eigen taal van de gebruiker.|,
-		lastUpdated => 1189371095
-	},
-
-	'sunday.label' => {
-		message => q|De afkorting voor zondag|,
-		lastUpdated => 1149858054
-	},
-
-	'wednesday.label' => {
-		message => q|De afkorting voor woensdag|,
-		lastUpdated => 1207902945
-	},
-
-	'project.cost.data.float' => {
-		message => q|De kosten van het project, komma's gescheiden.|,
-		lastUpdated => 1189370235
-	},
-
-	'form.start.error' => {
-		message => q|<p>Een melding van een fout als de begindatum van de taak mist.</p>|,
-		lastUpdated => 1150467055
-	},
-
-	'task untimedPredecessor error' => {
-		message => q|Een taak kan geen afhankelijke taak hebben als deze niet tijdsgebonden is.|,
-		lastUpdated => 1166196503
-	},
-
-	'edit task label' => {
-		message => q|Bewerk taak|,
-		lastUpdated => 1149493017
-	},
-
-	'list resource popup template title' => {
-		message => q|Project manager, Geef bronnen weer popup template.|,
-		lastUpdated => 1189369709
-	},
-
-	'noProjects' => {
-		message => q|Een voorwaardelijke variabele die waar is als er geen projecten in de project manager zitten. |,
-		lastUpdated => 1189369772
-	},
-
-	'edit form.header' => {
-		message => q|De code waarmee het Bewerk taak formulier opgezet wordt. Als deze variabele wordt weggelaten zal het formulier niet werken.|,
-		lastUpdated => 1150467731
-	},
-
-	'task_resource_label' => {
-		message => q|Het label "Bron" in de eigen taal van de gebruiker.|,
-		lastUpdated => 1189371150
-	},
-
-	'exclude' => {
-		message => q|De in HTML opgemaakte versie van de door de gebruiker verstuurde data om uit te sluiten bij het zoeken.|,
-		lastUpdated => 1189369198
-	},
-
-	'group add popup hover' => {
-		message => q|Groep aan taak toevoegen|,
-		lastUpdated => 1166196180
-	},
-
-	'task.dependants.label' => {
-		message => q|<p>Het woord &quot;Pred&quot;, dat voor predecessor of voorganger staat<br /> </p>|,
-		lastUpdated => 1150467001
-	},
-
-	'form.name' => {
-		message => q|<p>Een onderdeel van het formulier waar de gebruiker de naam van de taak kan invoeren of bewerken. </p>|,
-		lastUpdated => 1150465967
-	},
-
-	'foundMessage' => {
-		message => q|Een bericht, in de eigen taal, die een label geeft aan gebruikers of groepen die werden gevonden.|,
-		lastUpdated => 1189369514
-	},
-
-	'project manager label' => {
-		message => q|Groep van project mangers|,
-		lastUpdated => 1149495997
-	},
-
-	'groupToAdd hoverhelp' => {
-		message => q|De groep die projecten aan kan maken.|,
-		lastUpdated => 1149494892
-	},
-
-	'task.edit.url' => {
-		message => q|<div class="&quot;helpIndent&quot;"><p>Als de gebruiker taken kan toevoegen aan dit project, bevat dit een label behorend bij <strong>task.edit.url</strong>.</p></div>|,
-		lastUpdated => 1150467534
-	},
-
-	'groupToAdd' => {
-		message => q|De ID van de groep die deze project manager mag beheren.|,
-		lastUpdated => 1189369601
-	},
-
-	'assetName' => {
-		message => q|Project beheer systeem|,
-		lastUpdated => 1152349101
-	},
-
-	'task.name' => {
-		message => q|<div class="&quot;helpIndent&quot;"><p>De naam van deze taak.</p></div>|,
-		lastUpdated => 1150467330
-	},
-
-	'task samePredecessor error' => {
-		message => q|De taak kan niet haar eigen voorganger zijn.|,
-		lastUpdated => 1149499415
-	},
-
-	'resource remove opTitle' => {
-		message => q|Verwijderen van taak|,
-		lastUpdated => 1166196308
-	},
-
-	'project.name.data' => {
-		message => q|De naam van dit project.|,
-		lastUpdated => 1189370528
-	},
-
-	'task.start.label' => {
-		message => q|<p>Het woord &quot;begin&quot; </p>|,
-		lastUpdated => 1150466894
-	},
-
-	'project.endDate.data' => {
-		message => q|De startdatum van het project in het formaat yyyy-mm-dd. Als geen startdatum is ingevoerd, dan verschijnt een kort bericht in de eigen taal van de gebruiker.|,
-		lastUpdated => 1189370482
-	},
-
-	'project.description.data' => {
-		message => q|De beschrijving van dit project.|,
-		lastUpdated => 1189370403
-	},
-
-	'N_A' => {
-		message => q|Niet b.|,
-		lastUpdated => 1189367541
-	},
-
-	'form.previousPredecessor.error' => {
-		message => q|<p>Een melding van een fout als een voorgaande taak geen vorige taak binnen het project is. </p>|,
-		lastUpdated => 1150467108
-	},
-
-	'form.dependants' => {
-		message => q|Een veld voor het invullen van welk taaknummer deze taak afhangt.|,
-		lastUpdated => 1166196147
-	},
-
-	'task start error' => {
-		message => q|De begindatum moet worden ingevoerd, voordat er opgeslagen kan worden.|,
-		lastUpdated => 1149499446
-	},
-
-	'project delete title' => {
-		message => q|Verwijder project|,
-		lastUpdated => 1149495551
-	},
-
-	'group add popup title' => {
-		message => q|Zoek naar een groep|,
-		lastUpdated => 1166196215
-	},
-
-	'task.isMilestone' => {
-		message => q|Een (conditionele) variabele die aangeeft of deze taak een mijlpaal is.|,
-		lastUpdated => 1170690674
-	},
-
-	'project.edit.title' => {
-		message => q|Het label "Bewerk project" in de eigen taal.|,
-		lastUpdated => 1189370422
-	},
-
-	'task.duration' => {
-		message => q|<div class="&quot;helpIndent&quot;"><p>Als de gebruiker in de groep zit die projecten kan toevoegen en deze taak geen mijlpaal is, kan in dit veld de duur bewerkt worden. Anders wordt de duur als tekst getoond.</p></div>|,
-		lastUpdated => 1150467421
-	},
-
-	'form.lagTime.units' => {
-		message => q|Formulierelement voor de eenheid van de vertragingstijd van de taak.|,
-		lastUpdated => 1189369436
-	},
-
-	'monday label' => {
-		message => q|Ma|,
-		lastUpdated => 1149495147
-	},
-
-	'saturday label' => {
-		message => q|Za|,
-		lastUpdated => 1149496571
-	},
-
-	'project.hoursPerDay' => {
-		message => q|<p>Het aantal uren dat voor een volledige dag werken aan dit project staat. </p>|,
-		lastUpdated => 1207903188
-	},
-
-	'gantt chart template vars title' => {
-		message => q|Sjabloon variabelen voor de Gantt tabel|,
-		lastUpdated => 1149494715
-	},
-
-	'target budget label' => {
-		message => q|Geschatte kosten project|,
-		lastUpdated => 1149497339
-	},
-
-	'projectDashboardTemplateId' => {
-		message => q|De ID van het template om de hoofdweergaven van de project manager weer te geven.|,
-		lastUpdated => 1189370648
-	},
-
-	'target budget hoverhelp' => {
-		message => q|Kies het richtbedrag van de kosten van een project in. Als de middelen goed zijn ingesteld kan het systeem dit richtbedrag en de echte kosten vergelijken. Indienu de kosten niet wil bijhouden laat dan dit getal op 0 staan.|,
-		lastUpdated => 1149496685
-	},
-
-	'task.name.label' => {
-		message => q|<p>Het woord &quot;taak&quot;.</p>|,
-		lastUpdated => 1150466840
-	},
-
-	'project.gantt.rowspan' => {
-		message => q|<p>Het aantal rijen voor de Gantt tabel, vier plus het aantal taken. </p>|,
-		lastUpdated => 1156087756
-	},
-
-	'task.end.label' => {
-		message => q|<p>Het woord &quot;eind&quot; </p>|,
-		lastUpdated => 1150466917
-	},
-
-	'project.loop' => {
-		message => q|Een loop waarin alle project beschikbaar zijn die de huidige gebruiker mag zien.|,
-		lastUpdated => 1189370519
-	},
-
-	'extras.base' => {
-		message => q|<p>De URL die verwijst naar de bovenkant van de extras map. </p>|,
-		lastUpdated => 1150466753
-	},
-
-	'project.ganttChart' => {
-		message => q|<p>De Gantt tabel voor dit project en de bijbehorende taken.</p>|,
-		lastUpdated => 1156087727
-	},
-
-	'list resource popup template body' => {
-		message => q|Dit template geeft een popup weer om gebruikers of groepen toe te voegen aan een taak. Afhankelijk van de vraag of gebruikers of groepen worden toegevoegd bevatten bepaalde template variabelen informatie, met name labels zijn afhankelijk van de vraag of gebruikers of groepen worden toegevoegd.|,
-		lastUpdated => 1189369686
-	},
-
-	'edit project' => {
-		message => q|Bewerk project|,
-		lastUpdated => 1149493006
-	},
-
-	'assetExtras' => {
-		message => q|De URL naar de extras directory voor de project manager.|,
-		lastUpdated => 1189367857
-	},
-
-	'project.delete.title' => {
-		message => q|Een label in de eigen taal die aangeeft &quot;Project verwijderen.&quot;|,
-		lastUpdated => 1207901743
-	},
-
-	'extras' => {
-		message => q|<p>De URL naar de extras map. </p>|,
-		lastUpdated => 1150466175
-	},
-
-	'hours per day label' => {
-		message => q|Werkuren per dag|,
-		lastUpdated => 1149495139
-	},
-
-	'tuesday label' => {
-		message => q|Di|,
-		lastUpdated => 1149499477
-	},
-
-	'resourceLoop' => {
-		message => q|In deze loop zijn de bronnen beschikbaar die weergegeven moeten worden.|,
-		lastUpdated => 1189370805
-	},
-
-	'project name hoverhelp' => {
-		message => q|Voer de naam van het project in.|,
-		lastUpdated => 1149496029
-	},
-
-	'task.back.label' => {
-		message => q|<p>Een link die terugverwijst naar dit scherm.</p>|,
-		lastUpdated => 1150467610
-	},
-
-	'edit form.footer' => {
-		message => q|De code waarmee het formulier beeindigd wordt.|,
-		lastUpdated => 1150467672
-	},
-
-	'task lag time label' => {
-		message => q|Vertragings tijd.|,
-		lastUpdated => 1189370930
-	},
-
-	'task.number' => {
-		message => q|<div class="&quot;helpIndent&quot;"><p>Het nummer van deze taak</p></div>|,
-		lastUpdated => 1150467195
-	},
-
-	'project start task label' => {
-		message => q|Begin project|,
-		lastUpdated => 1149496230
-	},
-
-	'resourceListTemplate hoverhelp' => {
-		message => q|Het sjabloon voor het weergeven van de lijst met benodigdheden. Deze wordt gebruikt voor het weergeven van de popup en het wijzigen van een taak.|,
-		lastUpdated => 1166196357
-	},
-
-	'groupToAdd label' => {
-		message => q|De groep die projecten kan toevoegen|,
-		lastUpdated => 1149494913
-	},
-
-	'wednesday label' => {
-		message => q|Wo|,
-		lastUpdated => 1149502567
-	},
-
-	'form.addUser.text' => {
-		message => q|De unieke identificatie (ID) van de link die leidt naar de "voeg groep toe" popup.|,
-		lastUpdated => 1189369349
-	},
-
-	'task_name_label' => {
-		message => q|Het label "Naam taak" in de eigen taal van de gebruiker|,
-		lastUpdated => 1189371112
-	},
-
-	'taskType progressive label' => {
-		message => q|Progressief|,
-		lastUpdated => 1166196521
-	},
-
-	'project delete warning' => {
-		message => q|Weet u zeker dat u dit project en alle bijbehorende taken wilt verwijderen?|,
-		lastUpdated => 1149495582
-	},
-
-	'form.addGroup.text' => {
-		message => q|Het label, in de eigen taal, voor "Voeg groep toe aan taak".|,
-		lastUpdated => 1189369276
-	},
-
-	'project start date label' => {
-		message => q|Begin|,
-		lastUpdated => 1149496213
-	},
-
-	'resourceListTemplateId' => {
-		message => q|De ID van het template om een popup weer te geven met de bronnen in de Project manager.|,
-		lastUpdated => 1189370781
-	},
-
-	'project manager hoverhelp' => {
-		message => q|Kies een groep gebruikers die dit project mogen beheren. Project beheerders kunnen taken binnen dit project bewerken.|,
-		lastUpdated => 1149495980
-	},
-
-	'func' => {
-		message => q|De functie die het formulier moet aanroepen wanneer het wordt verzonden.|,
-		lastUpdated => 1189369560
-	},
-
-	'duration units hoverhelp' => {
-		message => q|Kies de tijdseenheden waarmee dit project moet worden bijgehouden. Hiermee wordt bepaald hoe de tijd voor elke taak moet worden ingevoerd. |,
-		lastUpdated => 1149492976
-	},
-
-};
+  'N_A' => {
+    'lastUpdated' => 1189367541,
+    'message' => 'Niet b.'
+  },
+  'add resource popup template body' => {
+    'lastUpdated' => 1189367645,
+    'message' => 'Dit template geeft een popup scherm weer om gebruikers of groepen toe te voegen aan een taak. Afhankelijk van of er groepen of gebruikers worden toegevoegd zijn er andere template variabelen beschikbaar, vooral andere labels. '
+  },
+  'add resource popup template title' => {
+    'lastUpdated' => 1189367831,
+    'message' => 'Project manager, Selecteer bron popup template'
+  },
+  'add task label' => {
+    'lastUpdated' => 1152349061,
+    'message' => 'Voeg taak toe'
+  },
+  'assetExtras' => {
+    'lastUpdated' => 1189367857,
+    'message' => 'De URL naar de extras directory voor de project manager.'
+  },
+  'assetName' => {
+    'lastUpdated' => 1152349101,
+    'message' => 'Project beheer systeem'
+  },
+  'callback' => {
+    'lastUpdated' => 1189367881,
+    'message' => 'De naam van de javascript callback die aangeroepen moet worden.'
+  },
+  'canEditProjects' => {
+    'lastUpdated' => 1189367915,
+    'message' => 'Een voorwaardelijke variabele die waar is als de huidige gebruiker projecten mag bekijken of bewerken.'
+  },
+  'create project' => {
+    'lastUpdated' => 1149492866,
+    'message' => 'Maak nieuw project'
+  },
+  'day.number' => {
+    'lastUpdated' => 1150466454,
+    'message' => 'Een nummer voor deze dag van de week, een geheel getal tussen 1 en 7.'
+  },
+  'days label' => {
+    'lastUpdated' => 1149492874,
+    'message' => 'Dagen'
+  },
+  'days label abbrev' => {
+    'lastUpdated' => 1149492883,
+    'message' => 'dagen'
+  },
+  'daysLoop' => {
+    'lastUpdated' => 1207902976,
+    'message' => 'De afkorting voor zaterdag'
+  },
+  'doingSearch' => {
+    'lastUpdated' => 1189367943,
+    'message' => 'Een voorwaardelijke variabele die waar is als deze popup werd aangeroepen als onderdeel van het zoekformulier.'
+  },
+  'duration units hoverhelp' => {
+    'lastUpdated' => 1149492976,
+    'message' => 'Kies de tijdseenheden waarmee dit project moet worden bijgehouden. Hiermee wordt bepaald hoe de tijd voor elke taak moet worden ingevoerd. '
+  },
+  'duration units label' => {
+    'lastUpdated' => 1149492995,
+    'message' => 'Houd project bij in'
+  },
+  'edit form.footer' => {
+    'lastUpdated' => 1150467672,
+    'message' => 'De code waarmee het formulier beeindigd wordt.'
+  },
+  'edit form.header' => {
+    'lastUpdated' => 1150467731,
+    'message' => 'De code waarmee het Bewerk taak formulier opgezet wordt. Als deze variabele wordt weggelaten zal het formulier niet werken.'
+  },
+  'edit project' => {
+    'lastUpdated' => 1149493006,
+    'message' => 'Bewerk project'
+  },
+  'edit task label' => {
+    'lastUpdated' => 1149493017,
+    'message' => 'Bewerk taak'
+  },
+  'edit task template vars title' => {
+    'lastUpdated' => 1149494033,
+    'message' => 'Sjabloon variabelen voor de functie bewerk taak'
+  },
+  'editTaskTemplate hoverhelp' => {
+    'lastUpdated' => 1149494092,
+    'message' => 'Sjabloon dat gebruikt wordt voor het tonen van de bewerk taak functie.'
+  },
+  'editTaskTemplate label' => {
+    'lastUpdated' => 1149494054,
+    'message' => 'Standaard sjabloon voor bewerk taak'
+  },
+  'editTaskTemplateId' => {
+    'lastUpdated' => 1189369117,
+    'message' => 'De ID van het template om een taak mee te bewerken in de project manager.'
+  },
+  'empty.colspan' => {
+    'lastUpdated' => 1189369157,
+    'message' => 'Het aantal kolommmen, standaard 5. Als "canEditProjects" waar is, dan wordt dit 6.'
+  },
+  'exclude' => {
+    'lastUpdated' => 1189369198,
+    'message' => 'De in HTML opgemaakte versie van de door de gebruiker verstuurde data om uit te sluiten bij het zoeken.'
+  },
+  'extras' => {
+    'lastUpdated' => 1150466175,
+    'message' => '<p>De URL naar de extras map. </p>'
+  },
+  'extras.base' => {
+    'lastUpdated' => 1150466753,
+    'message' => '<p>De URL die verwijst naar de bovenkant van de extras map. </p>'
+  },
+  'form.addGroup.id' => {
+    'lastUpdated' => 1189369236,
+    'message' => 'De unieke identificatie (ID) voor de link die naar de Nieuwe Groep popup leidt.'
+  },
+  'form.addGroup.link' => {
+    'lastUpdated' => 1189369256,
+    'message' => 'Een volledige link om de Nieuwe Groep popup weer te geven. '
+  },
+  'form.addGroup.text' => {
+    'lastUpdated' => 1189369276,
+    'message' => 'Het label, in de eigen taal, voor "Voeg groep toe aan taak".'
+  },
+  'form.addUser.id' => {
+    'lastUpdated' => 1189369300,
+    'message' => 'De unieke identificatie (ID) voor de link die naar de "voeg gebruiker toe" popup leidt.'
+  },
+  'form.addUser.link' => {
+    'lastUpdated' => 1189369317,
+    'message' => 'Een volledige link om de "Voeg gebruiker toe" popup weer te geven.'
+  },
+  'form.addUser.text' => {
+    'lastUpdated' => 1189369349,
+    'message' => 'De unieke identificatie (ID) van de link die leidt naar de "voeg groep toe" popup.'
+  },
+  'form.dependants' => {
+    'lastUpdated' => 1166196147,
+    'message' => 'Een veld voor het invullen van welk taaknummer deze taak afhangt.'
+  },
+  'form.duration' => {
+    'lastUpdated' => 1150465983,
+    'message' => '<p>Onderdeel van het formulier waar de duur van de taak wordt ingevoerd. </p>'
+  },
+  'form.duration.units' => {
+    'lastUpdated' => 1150466002,
+    'message' => '<p>Onderdeel van het formulier waar eenheid van de duur van de taak wordt ingevoerd.</p>'
+  },
+  'form.end' => {
+    'lastUpdated' => 1150466039,
+    'message' => '<p>Onderdeel van het formulier waar de einddatum van de taak wordt ingevoerd. </p>'
+  },
+  'form.footer' => {
+    'lastUpdated' => 1150466652,
+    'message' => '<p>Als de gebruiker in de groep zit die projecten kan toevoegen, zal deze variabele HTML code bevatten die het &quot;on the fly&quot; bewerken mogelijk maakt.</p>'
+  },
+  'form.greaterThan.error' => {
+    'lastUpdated' => 1150467085,
+    'message' => '<p>Een melding van een fout als de begindatum van de taak na de einddatum valt. </p>'
+  },
+  'form.header' => {
+    'lastUpdated' => 1150466619,
+    'message' => '<p>Als de gebruiker in de groep zit die projecten kan toevoegen, zal deze variabele HTML code bevatten die het &quot;on the fly&quot; bewerken mogelijk maakt. </p>'
+  },
+  'form.invalidMove.error' => {
+    'lastUpdated' => 1207903257,
+    'message' => '<p>Een melding van een fout als een voorgaande taak een einddatum heeft die na de begindatum van deze taak valt. </p>'
+  },
+  'form.lagTime' => {
+    'lastUpdated' => 1189369413,
+    'message' => 'Formulier element om de vertragingstijd in te voeren voor deze taak.'
+  },
+  'form.lagTime.units' => {
+    'lastUpdated' => 1189369436,
+    'message' => 'Formulierelement voor de eenheid van de vertragingstijd van de taak.'
+  },
+  'form.name' => {
+    'lastUpdated' => 1150465967,
+    'message' => '<p>Een onderdeel van het formulier waar de gebruiker de naam van de taak kan invoeren of bewerken. </p>'
+  },
+  'form.name.error' => {
+    'lastUpdated' => 1150467025,
+    'message' => '<p>Een melding van een fout als de naam van de taak mist. </p>'
+  },
+  'form.percentComplete' => {
+    'lastUpdated' => 1150466117,
+    'message' => '<p>Onderdeel van het formulier waar de vordering van de taak in percentages wordt bijgehouden.</p>'
+  },
+  'form.previousPredecessor.error' => {
+    'lastUpdated' => 1150467108,
+    'message' => '<p>Een melding van een fout als een voorgaande taak geen vorige taak binnen het project is. </p>'
+  },
+  'form.resourceDiv' => {
+    'lastUpdated' => 1189369466,
+    'message' => 'Formulierelement om een gebruiker te selecteren die aan de taak wordt toegewezen.'
+  },
+  'form.save' => {
+    'lastUpdated' => 1150466134,
+    'message' => '<p>Een knop waarmee de data die ingevuld is, opgeslagen wordt.</p>'
+  },
+  'form.seqNum' => {
+    'lastUpdated' => 1189369477,
+    'message' => 'Het volgnummer van deze taak.'
+  },
+  'form.start' => {
+    'lastUpdated' => 1150466023,
+    'message' => '<p>Onderdeel van het formulier waar de begindatum van de taak wordt ingevoerd.</p>'
+  },
+  'form.start.error' => {
+    'lastUpdated' => 1150467055,
+    'message' => '<p>Een melding van een fout als de begindatum van de taak mist.</p>'
+  },
+  'form.taskType' => {
+    'lastUpdated' => 1189369489,
+    'message' => 'Formulierelement om het type taak te kiezen.'
+  },
+  'foundMessage' => {
+    'lastUpdated' => 1189369514,
+    'message' => 'Een bericht, in de eigen taal, die een label geeft aan gebruikers of groepen die werden gevonden.'
+  },
+  'foundResults' => {
+    'lastUpdated' => 1189369543,
+    'message' => 'Als deze popup werd aangeroepen als onderdeel van een zoekopdracht, dan bevat deze variabele het aantal gevonden resultaten.'
+  },
+  'friday label' => {
+    'lastUpdated' => 1149495156,
+    'message' => 'Vr'
+  },
+  'friday.label' => {
+    'lastUpdated' => 1207902901,
+    'message' => '<p>De afkorting voor vrijdag  </p> '
+  },
+  'func' => {
+    'lastUpdated' => 1189369560,
+    'message' => 'De functie die het formulier moet aanroepen wanneer het wordt verzonden.'
+  },
+  'gantt chart template vars title' => {
+    'lastUpdated' => 1149494715,
+    'message' => 'Sjabloon variabelen voor de Gantt tabel'
+  },
+  'ganttChartTemplate hoverhelp' => {
+    'lastUpdated' => 1207827302,
+    'message' => 'Een sjabloon waarmee de gantt tabel getekend wordt binnen de tabel.'
+  },
+  'ganttChartTemplate label' => {
+    'lastUpdated' => 1149494865,
+    'message' => 'Standaard sjabloon voor gantt tabellen'
+  },
+  'ganttChartTemplateId' => {
+    'lastUpdated' => 1189369581,
+    'message' => 'De ID van het template om de gantt grafiek weer te geven in de project manager.'
+  },
+  'group add popup foundMessage' => {
+    'lastUpdated' => 1166196159,
+    'message' => 'Overeenkomstige groepen:'
+  },
+  'group add popup hover' => {
+    'lastUpdated' => 1166196180,
+    'message' => 'Groep aan taak toevoegen'
+  },
+  'group add popup notFoundMessage' => {
+    'lastUpdated' => 1166196194,
+    'message' => 'Geen overeenkomstige groepen gevonden.'
+  },
+  'group add popup searchText' => {
+    'lastUpdated' => 1166196206,
+    'message' => 'Zoek groep:'
+  },
+  'group add popup title' => {
+    'lastUpdated' => 1166196215,
+    'message' => 'Zoek naar een groep'
+  },
+  'groupToAdd' => {
+    'lastUpdated' => 1189369601,
+    'message' => 'De ID van de groep die deze project manager mag beheren.'
+  },
+  'groupToAdd hoverhelp' => {
+    'lastUpdated' => 1149494892,
+    'message' => 'De groep die projecten aan kan maken.'
+  },
+  'groupToAdd label' => {
+    'lastUpdated' => 1149494913,
+    'message' => 'De groep die projecten kan toevoegen'
+  },
+  'hiddenFields' => {
+    'lastUpdated' => 1189369621,
+    'message' => 'Extra verborgen formuliervelden die moeten worden toegevoegd aan het formulier om goed te functioneren.'
+  },
+  'hours label' => {
+    'lastUpdated' => 1149494922,
+    'message' => 'Uren'
+  },
+  'hours label abbrev' => {
+    'lastUpdated' => 1149494933,
+    'message' => 'Uren'
+  },
+  'hours per day hoverhelp' => {
+    'lastUpdated' => 1208525065,
+    'message' => 'Kies het aantal uren dat in het algemeen in een dag werken zit. Hiermee wordt geschat hoeveel dagen een taak in beslag neemt. Dit zal aangepast worden indien ingesteld wordt dat er meer of minder per dag gewerkt wordt door een bepaalde arbeidsbron indien deze aan de taak gekoppeld is. '
+  },
+  'hours per day label' => {
+    'lastUpdated' => 1149495139,
+    'message' => 'Werkuren per dag'
+  },
+  'list resource popup template body' => {
+    'lastUpdated' => 1189369686,
+    'message' => 'Dit template geeft een popup weer om gebruikers of groepen toe te voegen aan een taak. Afhankelijk van de vraag of gebruikers of groepen worden toegevoegd bevatten bepaalde template variabelen informatie, met name labels zijn afhankelijk van de vraag of gebruikers of groepen worden toegevoegd.'
+  },
+  'list resource popup template title' => {
+    'lastUpdated' => 1189369709,
+    'message' => 'Project manager, Geef bronnen weer popup template.'
+  },
+  'monday label' => {
+    'lastUpdated' => 1149495147,
+    'message' => 'Ma'
+  },
+  'monday.label' => {
+    'lastUpdated' => 1207902814,
+    'message' => 'De afkorting voor maandag   '
+  },
+  'month.name' => {
+    'lastUpdated' => 1149858277,
+    'message' => 'De naam van de lopende maand'
+  },
+  'no projects' => {
+    'lastUpdated' => 1149495171,
+    'message' => 'Lijst met projecten is leeg'
+  },
+  'noProjects' => {
+    'lastUpdated' => 1189369772,
+    'message' => 'Een voorwaardelijke variabele die waar is als er geen projecten in de project manager zitten. '
+  },
+  'notFoundMessage' => {
+    'lastUpdated' => 1189369802,
+    'message' => 'Een bericht in de eigen taal die gebruikers erop wijst dat er geen groepen of geen gebruikers werden gevonden. '
+  },
+  'odd' => {
+    'lastUpdated' => 1189369849,
+    'message' => 'Deze voorwaardelijke variabele is waar voor oneven rijen in de lijst. Deze variabele kan gebruikt worden om even en oneven rijen net anders weer te geven.'
+  },
+  'opCallbackJs' => {
+    'lastUpdated' => 1189369868,
+    'message' => 'De naam van de javascript callback voor het formulier dat de popup heeft aangeroepen.'
+  },
+  'opIcon' => {
+    'lastUpdated' => 1189369909,
+    'message' => 'De naam van een icoon voor het formulier, zonder het volledige pad.'
+  },
+  'opTitle' => {
+    'lastUpdated' => 1189369921,
+    'message' => 'De titel voor dit formulier.'
+  },
+  'previousSearch' => {
+    'lastUpdated' => 1189369946,
+    'message' => 'De in HTML opgemaakte versie van de door de gebruiker verstuurde data voor de vorige zoekopdracht.'
+  },
+  'project action label' => {
+    'lastUpdated' => 1149495511,
+    'message' => 'Acties'
+  },
+  'project complete label' => {
+    'lastUpdated' => 1149495528,
+    'message' => '% Voltooid'
+  },
+  'project cost label' => {
+    'lastUpdated' => 1149495539,
+    'message' => 'Geschatte kosten'
+  },
+  'project dashboard template title' => {
+    'lastUpdated' => 1189370027,
+    'message' => 'Project manager, template voor de standaard weergave voor het dashboard'
+  },
+  'project delete title' => {
+    'lastUpdated' => 1149495551,
+    'message' => 'Verwijder project'
+  },
+  'project delete warning' => {
+    'lastUpdated' => 1227568040,
+    'message' => 'Weet u zeker, dat u dit project en alle bijbehorende taken wilt verwijderen?'
+  },
+  'project description hoverhelp' => {
+    'lastUpdated' => 1149495601,
+    'message' => 'Voer een omschrijving van het project in.'
+  },
+  'project description label' => {
+    'lastUpdated' => 1149495617,
+    'message' => 'Project omschrijving'
+  },
+  'project edit title' => {
+    'lastUpdated' => 1149495827,
+    'message' => 'Bewerk project'
+  },
+  'project end date label' => {
+    'lastUpdated' => 1149495835,
+    'message' => 'Einde'
+  },
+  'project id' => {
+    'lastUpdated' => 1149495850,
+    'message' => 'Project identificatie'
+  },
+  'project id hoverhelp' => {
+    'lastUpdated' => 1208525092,
+    'message' => 'Een unieke indentificatie waarmee binnen WebGUI verwezen wordt naar dit project.  '
+  },
+  'project manager asset template variables title' => {
+    'lastUpdated' => 1189370106,
+    'message' => 'Template variabelen beschikbaar in de project manager.'
+  },
+  'project manager hoverhelp' => {
+    'lastUpdated' => 1149495980,
+    'message' => 'Kies een groep gebruikers die dit project mogen beheren. Project beheerders kunnen taken binnen dit project bewerken.'
+  },
+  'project manager label' => {
+    'lastUpdated' => 1149495997,
+    'message' => 'Groep van project mangers'
+  },
+  'project name hoverhelp' => {
+    'lastUpdated' => 1149496029,
+    'message' => 'Voer de naam van het project in.'
+  },
+  'project name label' => {
+    'lastUpdated' => 1149496042,
+    'message' => 'Project naam'
+  },
+  'project new label' => {
+    'lastUpdated' => 1149496199,
+    'message' => 'Nieuw project'
+  },
+  'project observer hoverhelp' => {
+    'lastUpdated' => 1166196255,
+    'message' => 'Selecteer de groep die het project mogen zien. Deze groep mag alle projecten met bijbehorende taken zien.'
+  },
+  'project observer label' => {
+    'lastUpdated' => 1166196285,
+    'message' => 'Wie mag bekijken?'
+  },
+  'project start date label' => {
+    'lastUpdated' => 1149496213,
+    'message' => 'Begin'
+  },
+  'project start task label' => {
+    'lastUpdated' => 1149496230,
+    'message' => 'Begin project'
+  },
+  'project.actions.label' => {
+    'lastUpdated' => 1189370128,
+    'message' => 'Het label, in de eigen taal, voor "acties".'
+  },
+  'project.canEdit' => {
+    'lastUpdated' => 1150466695,
+    'message' => '<p>Een functie die aangeeft of deze gebruiker projecten kan toevoegen. </p>'
+  },
+  'project.complete.data.float' => {
+    'lastUpdated' => 1189370168,
+    'message' => 'Percentage van het project dat is voltooid als een getal met twee decimalen.'
+  },
+  'project.complete.data.int' => {
+    'lastUpdated' => 1189370190,
+    'message' => 'Percentage van het project dat is voltooid als een geheel getal.'
+  },
+  'project.complete.label' => {
+    'lastUpdated' => 1189370210,
+    'message' => 'Het label, in de eigen taal, voor "% voltooid".'
+  },
+  'project.cost.data.float' => {
+    'lastUpdated' => 1189370235,
+    'message' => 'De kosten van het project, komma\'s gescheiden.'
+  },
+  'project.cost.data.int' => {
+    'lastUpdated' => 1189370255,
+    'message' => 'De kosten van het project als een geheel getal met komma\'s gescheiden.'
+  },
+  'project.cost.label' => {
+    'lastUpdated' => 1189370269,
+    'message' => 'Het label, in de eigen taal voor "Geschatte kosten".'
+  },
+  'project.create' => {
+    'lastUpdated' => 1189370286,
+    'message' => 'De URL om een nieuw project toe te voegen aan de Project manager.'
+  },
+  'project.create.label' => {
+    'lastUpdated' => 1189370309,
+    'message' => 'Een label, in de eigen taal, die hoort bij de "project.create" URL.'
+  },
+  'project.delete.title' => {
+    'lastUpdated' => 1207901743,
+    'message' => 'Een label in de eigen taal die aangeeft &quot;Project verwijderen.&quot;'
+  },
+  'project.delete.url' => {
+    'lastUpdated' => 1207901703,
+    'message' => 'Als de huidige gebruiker projecten mag bewerken, dan bevat deze variabele de URL om het project te verwijderen.'
+  },
+  'project.delete.warning' => {
+    'lastUpdated' => 1189370392,
+    'message' => 'Een label, in de eigen taal, die in het standaard template wordt gebruikt als een javascript popup.'
+  },
+  'project.description.data' => {
+    'lastUpdated' => 1189370403,
+    'message' => 'De beschrijving van dit project.'
+  },
+  'project.durationUnits' => {
+    'lastUpdated' => 1150466772,
+    'message' => '<p>Een afgekorte versie van de tijdseenheden waarin de duur wordt gemeten. </p>'
+  },
+  'project.edit.title' => {
+    'lastUpdated' => 1189370422,
+    'message' => 'Het label "Bewerk project" in de eigen taal.'
+  },
+  'project.edit.url' => {
+    'lastUpdated' => 1189370444,
+    'message' => 'Als de huidige gebruiker projecten mag bewerken, dan bevat deze variabele de URL om het project te bewerken.'
+  },
+  'project.endDate.data' => {
+    'lastUpdated' => 1189370482,
+    'message' => 'De startdatum van het project in het formaat yyyy-mm-dd. Als geen startdatum is ingevoerd, dan verschijnt een kort bericht in de eigen taal van de gebruiker.'
+  },
+  'project.endDate.label' => {
+    'lastUpdated' => 1189370500,
+    'message' => 'Het label "Einde" in de eigen taal van de gebruiker.'
+  },
+  'project.gantt.rowspan' => {
+    'lastUpdated' => 1156087756,
+    'message' => '<p>Het aantal rijen voor de Gantt tabel, vier plus het aantal taken. </p>'
+  },
+  'project.ganttChart' => {
+    'lastUpdated' => 1156087727,
+    'message' => '<p>De Gantt tabel voor dit project en de bijbehorende taken.</p>'
+  },
+  'project.hoursPerDay' => {
+    'lastUpdated' => 1207903188,
+    'message' => '<p>Het aantal uren dat voor een volledige dag werken aan dit project staat. </p>'
+  },
+  'project.loop' => {
+    'lastUpdated' => 1189370519,
+    'message' => 'Een loop waarin alle project beschikbaar zijn die de huidige gebruiker mag zien.'
+  },
+  'project.name.data' => {
+    'lastUpdated' => 1189370528,
+    'message' => 'De naam van dit project.'
+  },
+  'project.name.label' => {
+    'lastUpdated' => 1189370547,
+    'message' => 'Het label "Naam project" in de eigen taal van de gebruiker.'
+  },
+  'project.resources.label' => {
+    'lastUpdated' => 1150466735,
+    'message' => '<p>Wanneer de gebruiker in de groep zit die projecten kan toevoegen, zal dit het label zijn dat gebruikt wordt bij <strong>project.resources.label</strong>. </p>'
+  },
+  'project.resources.url' => {
+    'lastUpdated' => 1150466714,
+    'message' => '<p>Wanneer de gebruiker in de groep zit die projecten kan toevoegen, zal dit het URl zijn naar het beheerscherm van de middelen. </p>'
+  },
+  'project.startDate.data' => {
+    'lastUpdated' => 1189370578,
+    'message' => 'De startdatum van het project in het formaat yyyy-mm-dd. Als geen startdatum is opgegeven, wordt een kort bericht weergegeven in de eigen taal van de gebruiker.'
+  },
+  'project.startDate.label' => {
+    'lastUpdated' => 1189370593,
+    'message' => 'Het label "Start" in de eigen taal van de gebruiker.'
+  },
+  'project.view.url' => {
+    'lastUpdated' => 1189370628,
+    'message' => 'De URL om dit project te bekijken'
+  },
+  'projectDashboardTemplate hoverhelp' => {
+    'lastUpdated' => 1149496293,
+    'message' => 'Sjabloon waarmee het algemene deel van de project beheer applicatie getoond wordt. '
+  },
+  'projectDashboardTemplate label' => {
+    'lastUpdated' => 1149496330,
+    'message' => 'Standaard sjabloon voor het project beheer scherm'
+  },
+  'projectDashboardTemplateId' => {
+    'lastUpdated' => 1189370648,
+    'message' => 'De ID van het template om de hoofdweergaven van de project manager weer te geven.'
+  },
+  'projectDisplayTemplate hoverhelp' => {
+    'lastUpdated' => 1207827012,
+    'message' => 'Sjabloon voor het tonen van projecten. Het standaard sjabloon is de Gantt tabel van een project.'
+  },
+  'projectDisplayTemplate label' => {
+    'lastUpdated' => 1149496458,
+    'message' => 'Standaard sjablonen voor tonen projecten'
+  },
+  'projectDisplayTemplateId' => {
+    'lastUpdated' => 1189370666,
+    'message' => 'De ID van het template om een project uit de Project manager weer te geven.'
+  },
+  'resource add opTitle' => {
+    'lastUpdated' => 1166196297,
+    'message' => 'Toevoegen aan taak'
+  },
+  'resource none' => {
+    'lastUpdated' => 1149496563,
+    'message' => 'Geen middelen'
+  },
+  'resource remove opTitle' => {
+    'lastUpdated' => 1166196308,
+    'message' => 'Verwijderen van taak'
+  },
+  'resourceDiv' => {
+    'lastUpdated' => 1189370702,
+    'message' => 'Als deze popup werd aangeroepen als onderdeel van een zoekopdracht, dan bevat deze variabele de HTML om alle resultaten weer te geven.'
+  },
+  'resourceIcon' => {
+    'lastUpdated' => 1189370721,
+    'message' => 'De naam van het icoon van deze bron, specifiek voor het type bron.'
+  },
+  'resourceId' => {
+    'lastUpdated' => 1189370735,
+    'message' => 'De unieke identificatie (ID) voor deze bron.'
+  },
+  'resourceKind' => {
+    'lastUpdated' => 1189370754,
+    'message' => 'Het soort bron. Dit kan "gebruiker" zijn of "groep".'
+  },
+  'resourceListTemplate hoverhelp' => {
+    'lastUpdated' => 1166196357,
+    'message' => 'Het sjabloon voor het weergeven van de lijst met benodigdheden. Deze wordt gebruikt voor het weergeven van de popup en het wijzigen van een taak.'
+  },
+  'resourceListTemplate label' => {
+    'lastUpdated' => 1166196383,
+    'message' => 'Standaard benodigdhedenlijst sjabloon'
+  },
+  'resourceListTemplateId' => {
+    'lastUpdated' => 1189370781,
+    'message' => 'De ID van het template om een popup weer te geven met de bronnen in de Project manager.'
+  },
+  'resourceLoop' => {
+    'lastUpdated' => 1189370805,
+    'message' => 'In deze loop zijn de bronnen beschikbaar die weergegeven moeten worden.'
+  },
+  'resourceName' => {
+    'lastUpdated' => 1189370823,
+    'message' => 'De HTML versie van de naam van de bron. Dit kan een groep of een gebruiker zijn.'
+  },
+  'resourcePopupTemplate hoverhelp' => {
+    'lastUpdated' => 1166196407,
+    'message' => 'Sjabloon voor het selecteren van de benodigdheden.'
+  },
+  'resourcePopupTemplate label' => {
+    'lastUpdated' => 1166196421,
+    'message' => 'Standaard benodigdheden sjabloon'
+  },
+  'resourcePopupTemplateId' => {
+    'lastUpdated' => 1189370849,
+    'message' => 'De ID van het template om een popup weer te geven waarmee een bron geselecteerd kan worden in de  Project manager.'
+  },
+  'saturday label' => {
+    'lastUpdated' => 1149496571,
+    'message' => 'Za'
+  },
+  'saturday.label' => {
+    'lastUpdated' => 1207902764,
+    'message' => '<p>De afkorting voor zaterdag  </p> '
+  },
+  'searchText' => {
+    'lastUpdated' => 1189370874,
+    'message' => 'Het label om te zoeken naar gebruikers of groepen in de eigen taal van de gebruiker.'
+  },
+  'selfUrl' => {
+    'lastUpdated' => 1189370912,
+    'message' => 'De URL, als HTML, naar deze Project manager. Dit is bedoeld om weer te geven, niet om te linken.'
+  },
+  'sunday label' => {
+    'lastUpdated' => 1149496579,
+    'message' => 'Zo'
+  },
+  'sunday.label' => {
+    'lastUpdated' => 1149858054,
+    'message' => 'De afkorting voor zondag'
+  },
+  'target budget hoverhelp' => {
+    'lastUpdated' => 1149496685,
+    'message' => 'Kies het richtbedrag van de kosten van een project in. Als de middelen goed zijn ingesteld kan het systeem dit richtbedrag en de echte kosten vergelijken. Indienu de kosten niet wil bijhouden laat dan dit getal op 0 staan.'
+  },
+  'target budget label' => {
+    'lastUpdated' => 1149497339,
+    'message' => 'Geschatte kosten project'
+  },
+  'task back label' => {
+    'lastUpdated' => 1149497981,
+    'message' => 'Terug naar instrumentenpaneel'
+  },
+  'task dependant label' => {
+    'lastUpdated' => 1149502616,
+    'message' => 'Voorgangers'
+  },
+  'task duration label' => {
+    'lastUpdated' => 1149498999,
+    'message' => 'Duur'
+  },
+  'task end error' => {
+    'lastUpdated' => 1149499039,
+    'message' => 'De einddatum moet ingevoerd zijn voordat opgeslagen kan worden.'
+  },
+  'task end label' => {
+    'lastUpdated' => 1149499058,
+    'message' => 'Beeindig'
+  },
+  'task greaterthan error' => {
+    'lastUpdated' => 1166196454,
+    'message' => 'Einddatum kan niet groter zijn dan begindatum.'
+  },
+  'task invalidMove error' => {
+    'lastUpdated' => 1149499276,
+    'message' => 'De ingevoerde startdatum voor deze taak is ongeldig, omdat de einddatum van de voorganger hiermee kruist. Verwijder de restictie dat de vorige taak moet zijn beeindigd of verander de einddatum voor het geldig maken van deze begindatum. '
+  },
+  'task lag time label' => {
+    'lastUpdated' => 1189370930,
+    'message' => 'Vertragings tijd.'
+  },
+  'task name error' => {
+    'lastUpdated' => 1149499316,
+    'message' => 'Voordat er opgeslagen kan worden, moet er een naam van de taak zijn ingevoerd.'
+  },
+  'task name label' => {
+    'lastUpdated' => 1189370942,
+    'message' => 'Taak'
+  },
+  'task noPredecessor error' => {
+    'lastUpdated' => 1149499351,
+    'message' => 'De voorganger die ingevoerd is bestaat niet'
+  },
+  'task predecessor edit label' => {
+    'lastUpdated' => 1189370959,
+    'message' => 'Vorige taak'
+  },
+  'task predecessor label' => {
+    'lastUpdated' => 1189370973,
+    'message' => 'Vorige'
+  },
+  'task previousPredecessor error' => {
+    'lastUpdated' => 1149499373,
+    'message' => 'De voorganger moet een vorige taak zijn.'
+  },
+  'task resource label' => {
+    'lastUpdated' => 1189370982,
+    'message' => 'Bron'
+  },
+  'task resources label' => {
+    'lastUpdated' => 1149499388,
+    'message' => 'Beheer middelen'
+  },
+  'task samePredecessor error' => {
+    'lastUpdated' => 1227568074,
+    'message' => 'De taak kan niet zijn eigen voorganger zijn.'
+  },
+  'task save label' => {
+    'lastUpdated' => 1189370991,
+    'message' => 'Opslaan'
+  },
+  'task start error' => {
+    'lastUpdated' => 1149499446,
+    'message' => 'De begindatum moet worden ingevoerd, voordat er opgeslagen kan worden.'
+  },
+  'task start label' => {
+    'lastUpdated' => 1149499455,
+    'message' => 'Begin'
+  },
+  'task untimedPredecessor error' => {
+    'lastUpdated' => 1166196503,
+    'message' => 'Een taak kan geen afhankelijke taak hebben als deze niet tijdsgebonden is.'
+  },
+  'task.back.label' => {
+    'lastUpdated' => 1150467610,
+    'message' => '<p>Een link die terugverwijst naar dit scherm.</p>'
+  },
+  'task.back.url' => {
+    'lastUpdated' => 1150467629,
+    'message' => '<p>Een label bij de link die terugverwijst naar dit scherm. </p>'
+  },
+  'task.dependants' => {
+    'lastUpdated' => 1170690637,
+    'message' => 'Als de gebruiker in de groep zit die projecten kan toevoegen, kunnen in dit veld de benodigdheden bewerkt worden. Anders wordt deze als tekst getoond.'
+  },
+  'task.dependants.label' => {
+    'lastUpdated' => 1150467001,
+    'message' => '<p>Het woord &quot;Pred&quot;, dat voor predecessor of voorganger staat<br /> </p>'
+  },
+  'task.duration' => {
+    'lastUpdated' => 1150467421,
+    'message' => '<div class="&quot;helpIndent&quot;"><p>Als de gebruiker in de groep zit die projecten kan toevoegen en deze taak geen mijlpaal is, kan in dit veld de duur bewerkt worden. Anders wordt de duur als tekst getoond.</p></div>'
+  },
+  'task.duration.label' => {
+    'lastUpdated' => 1150466864,
+    'message' => '<p>Het woord &quot;duur&quot; </p>'
+  },
+  'task.duration.units' => {
+    'lastUpdated' => 1150467435,
+    'message' => '<div class="&quot;helpIndent&quot;"><p>De eenheden voor de duur, meestal uren of dagen.</p></div>'
+  },
+  'task.edit.url' => {
+    'lastUpdated' => 1150467534,
+    'message' => '<div class="&quot;helpIndent&quot;"><p>Als de gebruiker taken kan toevoegen aan dit project, bevat dit een label behorend bij <strong>task.edit.url</strong>.</p></div>'
+  },
+  'task.end' => {
+    'lastUpdated' => 1150467400,
+    'message' => '<div class="&quot;helpIndent&quot;"><p>Als de gebruiker in de groep zit die projecten kan toevoegen, kan in dit veld de einddatum bewerkt worden. Anders wordt de datum als tekst getoond.</p></div>'
+  },
+  'task.end.label' => {
+    'lastUpdated' => 1150466917,
+    'message' => '<p>Het woord &quot;eind&quot; </p>'
+  },
+  'task.isMilestone' => {
+    'lastUpdated' => 1170690674,
+    'message' => 'Een (conditionele) variabele die aangeeft of deze taak een mijlpaal is.'
+  },
+  'task.loop' => {
+    'lastUpdated' => 1150467172,
+    'message' => '<p>Een kring die alle taken van dit project bevat, in volgorde van uitvoeren.</p>'
+  },
+  'task.name' => {
+    'lastUpdated' => 1150467330,
+    'message' => '<div class="&quot;helpIndent&quot;"><p>De naam van deze taak.</p></div>'
+  },
+  'task.name.label' => {
+    'lastUpdated' => 1150466840,
+    'message' => '<p>Het woord &quot;taak&quot;.</p>'
+  },
+  'task.number' => {
+    'lastUpdated' => 1150467195,
+    'message' => '<div class="&quot;helpIndent&quot;"><p>Het nummer van deze taak</p></div>'
+  },
+  'task.row.id' => {
+    'lastUpdated' => 1166196444,
+    'message' => 'Het unieke ID voor deze taak.'
+  },
+  'task.start' => {
+    'lastUpdated' => 1150467360,
+    'message' => '<div class="&quot;helpIndent&quot;"><p>Als de gebruiker in de groep zit die projecten kan toevoegen, kan in dit veld de begindatum bewerkt worden. Anders wordt de datum als tekst getoond.</p></div>'
+  },
+  'task.start.label' => {
+    'lastUpdated' => 1150466894,
+    'message' => '<p>Het woord &quot;begin&quot; </p>'
+  },
+  'taskType milestone label' => {
+    'lastUpdated' => 1166196513,
+    'message' => 'Mijlpaal'
+  },
+  'taskType progressive label' => {
+    'lastUpdated' => 1166196521,
+    'message' => 'Progressief'
+  },
+  'taskType timed label' => {
+    'lastUpdated' => 1166196532,
+    'message' => 'Tijdsgebonden'
+  },
+  'task_complete_label' => {
+    'lastUpdated' => 1189371011,
+    'message' => 'Het label "Voltooid" in de eigen taal van de gebruiker.'
+  },
+  'task_duration_label' => {
+    'lastUpdated' => 1189371033,
+    'message' => 'Het label "Duur" in de eigen taal van de gebruiker.'
+  },
+  'task_end_label' => {
+    'lastUpdated' => 1189371050,
+    'message' => 'Het label "Einde" in de eigen taal van de gebruiker.'
+  },
+  'task_lagTime_label' => {
+    'lastUpdated' => 1189371095,
+    'message' => 'Het label "Vertragingstijd" in de eigen taal van de gebruiker.'
+  },
+  'task_name_label' => {
+    'lastUpdated' => 1189371112,
+    'message' => 'Het label "Naam taak" in de eigen taal van de gebruiker'
+  },
+  'task_predecessor_label' => {
+    'lastUpdated' => 1189371134,
+    'message' => 'Het label "Vorige taak" in de eigen taal van de gebruiker.'
+  },
+  'task_resource_label' => {
+    'lastUpdated' => 1189371150,
+    'message' => 'Het label "Bron" in de eigen taal van de gebruiker.'
+  },
+  'task_save_label' => {
+    'lastUpdated' => 1189371166,
+    'message' => 'Het label "Opslaan" in de eigen taal van de gebruiker.'
+  },
+  'task_start_label' => {
+    'lastUpdated' => 1189371183,
+    'message' => 'Het label "Start" in de eigen taal van de gebruiker.'
+  },
+  'thursday label' => {
+    'lastUpdated' => 1149499465,
+    'message' => 'Do'
+  },
+  'thursday.label' => {
+    'lastUpdated' => 1207902582,
+    'message' => 'De afkorting voor donderdag   '
+  },
+  'title' => {
+    'lastUpdated' => 1189371698,
+    'message' => 'Een bericht om gebruikers of groepen toe te voegen in de eigen taal van de gebruiker.'
+  },
+  'tuesday label' => {
+    'lastUpdated' => 1149499477,
+    'message' => 'Di'
+  },
+  'tuesday.label' => {
+    'lastUpdated' => 1207902677,
+    'message' => 'De afkorting voor dinsdag'
+  },
+  'user add popup foundMessage' => {
+    'lastUpdated' => 1166196542,
+    'message' => 'Overeenkomstige gebruikers:'
+  },
+  'user add popup hover' => {
+    'lastUpdated' => 1166196552,
+    'message' => 'Gebruiker aan taak toevoegen'
+  },
+  'user add popup notFoundMessage' => {
+    'lastUpdated' => 1166196564,
+    'message' => 'Geen overeenkomstige gebruikers gevonden.'
+  },
+  'user add popup searchText' => {
+    'lastUpdated' => 1166196579,
+    'message' => 'Zoek naar gebruiker:'
+  },
+  'user add popup title' => {
+    'lastUpdated' => 1166196591,
+    'message' => 'Zoek naar gebruiker'
+  },
+  'view project template vars title' => {
+    'lastUpdated' => 1149502594,
+    'message' => 'Sjabloon variabelen voor het bekijken van het project'
+  },
+  'wednesday label' => {
+    'lastUpdated' => 1149502567,
+    'message' => 'Wo'
+  },
+  'wednesday.label' => {
+    'lastUpdated' => 1207902945,
+    'message' => 'De afkorting voor woensdag'
+  }
+}
+;
 
 1;
