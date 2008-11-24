@@ -278,8 +278,8 @@ our $I18N = {
     'message' => 'Die Sekunden'
   },
   'helpvar dateTime start' => {
-    'lastUpdated' => 1224834477,
-    'message' => 'Ein Satz von Datum/Zeit Variablen mit dem Pr&auml;fix &quot;start&quot;. See &quot;Kalender Datum/Zeit Variablen&quot; f&uuml;r weitere Informationen.'
+    'lastUpdated' => 1227565743,
+    'message' => 'Ein Satz von Datum/Zeit Variablen mit dem Pr&auml;fix &quot;start&quot;. Siehe &quot;Kalender Datum/Zeit Variablen&quot; f&uuml;r weitere Informationen.'
   },
   'helpvar dateTime year' => {
     'lastUpdated' => 1217147584,
