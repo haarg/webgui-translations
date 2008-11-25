@@ -145,6 +145,14 @@ our $I18N = {
     'lastUpdated' => 1214557426,
     'message' => 'Een link met een label naar een account optie.'
   },
+  'category short name' => {
+    'lastUpdated' => 1227603858,
+    'message' => 'Korte naam categorie'
+  },
+  'category short name description' => {
+    'lastUpdated' => 1227603878,
+    'message' => 'Een verkorte naam voor deze categorie.'
+  },
   'displayTitle' => {
     'lastUpdated' => 1214557397,
     'message' => 'Een titel die de gebruikersnaam bevat.'

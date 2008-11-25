@@ -237,6 +237,14 @@ our $I18N = {
     'lastUpdated' => 1216652885,
     'message' => 'De datum waarop de aanschaf gedaan is.'
   },
+  'default' => {
+    'lastUpdated' => 1227603948,
+    'message' => 'Stel standaardwaarde in.'
+  },
+  'defaultButton help' => {
+    'lastUpdated' => 1227603988,
+    'message' => 'Een knop waarmee de gebruiker een adres als standaard kan aanmerken.'
+  },
   'delete' => {
     'lastUpdated' => 1213631797,
     'message' => 'Verwijderen'
@@ -564,6 +572,10 @@ our $I18N = {
   'organization' => {
     'lastUpdated' => 1225914540,
     'message' => 'Organisatie'
+  },
+  'organization help' => {
+    'lastUpdated' => 1227604039,
+    'message' => 'De naam van een organisatie die dit adres gebruikt. Waarschijnlijk het adres van de werkplek.'
   },
   'originatingTransactionId' => {
     'lastUpdated' => 1216734985,
