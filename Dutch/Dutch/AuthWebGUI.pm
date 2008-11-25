@@ -29,9 +29,17 @@ our $I18N = {
     'lastUpdated' => 1155557790,
     'message' => 'Minimale wachtwoordlengte'
   },
+  '15 help' => {
+    'lastUpdated' => 1227626094,
+    'message' => 'De vereiste minimale lengte van wachtwoorden in aantal karakters.'
+  },
   '16' => {
     'lastUpdated' => 1155557815,
     'message' => 'Wachtwoord verloopt na'
+  },
+  '16 help' => {
+    'lastUpdated' => 1227626356,
+    'message' => 'Dit bepaalt hoe lang een wachtwoord geldig is. Als deze periode verlopen is, wordt de gebruiker gevraagd een nieuw wachtwoord op te geven.'
   },
   '17' => {
     'lastUpdated' => 1155557826,
@@ -41,9 +49,17 @@ our $I18N = {
     'lastUpdated' => 1155557897,
     'message' => 'Wijzigen wachtwoord toestaan?'
   },
+  '18 help' => {
+    'lastUpdated' => 1227626448,
+    'message' => 'Kunnen gebruikers hun eigen wachtwoord aanpassen? Let op dat dit in samenwerking met de timeouts een hoop werk voor de beheerder kan opleveren.'
+  },
   '19' => {
     'lastUpdated' => 1155557876,
     'message' => 'Wijzigen gebruikersnaam toestaan?'
+  },
+  '19 help' => {
+    'lastUpdated' => 1227626478,
+    'message' => 'Kunnen gebruikers hun gebruikersnaam aanpassen na het aanmaken van hun account?'
   },
   '2' => {
     'lastUpdated' => 1155557889,
@@ -89,9 +105,17 @@ our $I18N = {
     'lastUpdated' => 1155558138,
     'message' => 'Wachtwoorden laten verlopen bij het aanmaken van gebruikers?'
   },
+  '9 help' => {
+    'lastUpdated' => 1227626506,
+    'message' => 'Dit laat een wachtwoord direct na het aanmaken van een account verlopen.'
+  },
   'account template' => {
     'lastUpdated' => 1155558248,
     'message' => 'Account sjabloon'
+  },
+  'account template help' => {
+    'lastUpdated' => 1227626546,
+    'message' => 'Kies een sjabloon voor het scherm waar de gebruikers hun account kunnen bekijken.'
   },
   'account.form.password' => {
     'lastUpdated' => 1155558528,
@@ -152,6 +176,10 @@ our $I18N = {
   'create account template' => {
     'lastUpdated' => 1155917876,
     'message' => 'Account-sjabloon aanmaken'
+  },
+  'create account template help' => {
+    'lastUpdated' => 1227626586,
+    'message' => 'Selecteer een sjabloon voor het tonen van het scherm waar gebruikers een account kunnen aanmaken.'
   },
   'create.form.hidden' => {
     'lastUpdated' => 1155922651,
@@ -261,6 +289,10 @@ our $I18N = {
     'lastUpdated' => 1156024584,
     'message' => 'Verlopen wachtwoord-sjabloon '
   },
+  'expired password template help' => {
+    'lastUpdated' => 1227626639,
+    'message' => 'Kies een sjabloon voor het tonen van het scherm waar gebruikers een nieuw wachtwoord kunnen opgeven als het oude verlopen is.'
+  },
   'expired template title' => {
     'lastUpdated' => 1156034449,
     'message' => 'WebGUI authenticatie wachtwoord verlopen-sjabloon '
@@ -304,6 +336,10 @@ our $I18N = {
   'login template' => {
     'lastUpdated' => 1156034900,
     'message' => 'Login-sjabloon'
+  },
+  'login template help' => {
+    'lastUpdated' => 1227626695,
+    'message' => 'Kies een sjabloon voor het inlogscherm. Dit is anders dan de macros waarmee login formulieren getoond worden.'
   },
   'login template title' => {
     'lastUpdated' => 1156035103,
@@ -384,6 +420,10 @@ our $I18N = {
   'password recovery template' => {
     'lastUpdated' => 1156035692,
     'message' => 'Wachtwoord terughalen-sjabloon'
+  },
+  'password recovery template help' => {
+    'lastUpdated' => 1227626733,
+    'message' => 'Selecteer een sjabloon voor het scherm waar gebruikers een verloren wachtwoord kunnen herstellen.'
   },
   'recover password banner' => {
     'lastUpdated' => 1190024852,
@@ -485,13 +525,29 @@ our $I18N = {
     'lastUpdated' => 1190024684,
     'message' => 'Minimaal aantal vreemde tekens in wachtwoord'
   },
+  'setting webguiNonWordCharacters help' => {
+    'lastUpdated' => 1227626799,
+    'message' => 'Het aantal karakters dat geen letters is wat vereist is voor het wachtwoord, zoals interpunctie tekens.'
+  },
   'setting webguiRequiredDigits' => {
     'lastUpdated' => 1190024663,
     'message' => 'Minimaal aantal cijfers in wachtwoord'
   },
+  'setting webguiRequiredDigits help' => {
+    'lastUpdated' => 1227626822,
+    'message' => 'Hoeveel cijfers moeten er in het wachtwoord zitten?'
+  },
   'setting webguiRequiredMixedCase' => {
     'lastUpdated' => 1190024642,
     'message' => 'Aantal verplichte hoofdletters in het wachtwoord'
+  },
+  'setting webguiRequiredMixedCase help' => {
+    'lastUpdated' => 1227626871,
+    'message' => 'Deze instelling vereist dat de gebruiker hoofdletters in het wachtwoord heeft. Kleine letters zijn niet vereist.'
+  },
+  'subtitle' => {
+    'lastUpdated' => 1227626920,
+    'message' => 'Extra instructies voor het formulier. Dit hoeft niet in alle wachtwoord herstel sjablonen gedefini&euml;erd te zijn.'
   },
   'title' => {
     'lastUpdated' => 1166626092,
@@ -509,9 +565,17 @@ our $I18N = {
     'lastUpdated' => 1154000570,
     'message' => 'Captcha afbeelding gebruiken?'
   },
+  'use captcha help' => {
+    'lastUpdated' => 1227626966,
+    'message' => 'Als dit op Ja staat, moet de gebruiker tekst uit een captcha afbeelding invoeren als onderdeel van het aanmaken van de account.'
+  },
   'validate email' => {
     'lastUpdated' => 1154000540,
     'message' => 'E-mailadressen bevestigen?'
+  },
+  'validate email help' => {
+    'lastUpdated' => 1227627112,
+    'message' => 'Moet WebGUI een e-mail met een link om hun account te starten sturen naar de gebruikers. Dit gaat onafhankelijk van het welkomst bericht. De account zal niet actief zijn totdat de link is bezocht. Accounts die niet geactiveerd worden zullen na een zekere, instelbare, tijd verlopen. Deze periode wordt in een workflow ingesteld.'
   },
   'webguiPasswordRecovery hoverHelp' => {
     'lastUpdated' => 1199787271,

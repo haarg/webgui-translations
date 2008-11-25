@@ -529,6 +529,10 @@ our $I18N = {
     'lastUpdated' => 1152518691,
     'message' => 'Het laatste antwoord kan niet worden verwijderd. Elke vraag moet minstens &eacute;&eacute;n antwoord hebben. '
   },
+  'checked' => {
+    'lastUpdated' => 1227629701,
+    'message' => 'Aangevinkt'
+  },
   'cols' => {
     'lastUpdated' => 1227604289,
     'message' => 'Kolommen:'
@@ -693,6 +697,10 @@ our $I18N = {
     'lastUpdated' => 1189373317,
     'message' => 'Het aantal keren dat een gebruiker mag proberen het juiste antwoord te geven op een vraag. Standaard is dit een keer.'
   },
+  'maximum number of answers' => {
+    'lastUpdated' => 1227629721,
+    'message' => 'Maximum aantal antwoorden'
+  },
   'min' => {
     'lastUpdated' => 1227604353,
     'message' => 'Minimaal'
@@ -724,6 +732,18 @@ our $I18N = {
   'question' => {
     'lastUpdated' => 1152521329,
     'message' => 'De vraag zelf'
+  },
+  'question text' => {
+    'lastUpdated' => 1227629750,
+    'message' => 'Tekst vraag:'
+  },
+  'question type' => {
+    'lastUpdated' => 1227629758,
+    'message' => 'Type vraag:'
+  },
+  'question value' => {
+    'lastUpdated' => 1227629766,
+    'message' => 'Waarde vraag:'
   },
   'question.add.label' => {
     'lastUpdated' => 1152521887,
@@ -1001,6 +1021,14 @@ our $I18N = {
     'lastUpdated' => 1207836881,
     'message' => 'De normaal leesbare versie van de tijd waarop de gebruiker begonnen is met het beantwoorden. '
   },
+  'step' => {
+    'lastUpdated' => 1227629775,
+    'message' => 'Stap'
+  },
+  'submit' => {
+    'lastUpdated' => 1227629806,
+    'message' => 'Verzenden'
+  },
   'survey asset template variables title' => {
     'lastUpdated' => 1189373565,
     'message' => 'De variabelen beschikbaar in het Enquete object.'
@@ -1021,6 +1049,10 @@ our $I18N = {
     'lastUpdated' => 1189373583,
     'message' => 'De ID van het template dat gebruikt wordt om de Enquete weer te geven.'
   },
+  'text answer' => {
+    'lastUpdated' => 1227629820,
+    'message' => 'Tekst antwoord'
+  },
   'thanks.quiz.label' => {
     'lastUpdated' => 1207837021,
     'message' => 'Een bericht dat de gebruiker bedankt voor het volledig invullen van de quiz.'
@@ -1032,6 +1064,10 @@ our $I18N = {
   'title' => {
     'lastUpdated' => 1152525887,
     'message' => 'De standaard titel voor het rapport.'
+  },
+  'title on every page' => {
+    'lastUpdated' => 1227629739,
+    'message' => 'Titel op elke pagina:'
   },
   'user.canRespondAgain' => {
     'lastUpdated' => 1152525981,
@@ -1063,7 +1099,7 @@ our $I18N = {
   },
   'what next description' => {
     'lastUpdated' => 1170691950,
-    'message' => "Na het aanmaken van een enqu\x{ea}te, kan er begonnen worden met het toevoegen van vragen of teruggegaan worden naar de pagina waar de enqu\x{ea}te aan toegevoegd is."
+    'message' => 'Na het aanmaken van een enquête, kan er begonnen worden met het toevoegen van vragen of teruggegaan worden naar de pagina waar de enquête aan toegevoegd is.'
   },
   'what next question description' => {
     'lastUpdated' => 1152528739,

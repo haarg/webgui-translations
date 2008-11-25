@@ -38,8 +38,8 @@ Deze groep zou dan "Werknemers in HMO 1" genoemd kunnen worden en zou je de moge
     'message' => 'Login versleutelen?'
   },
   '1006 description' => {
-    'lastUpdated' => 1166195104,
-    'message' => 'Moet het systeem HTTPS gebruiken voor het login-formulier? Let op: deze optie zorgt dat de authenticatie zelf wordt versleuteld en alle pagina\'s daarna. '
+    'lastUpdated' => 1227627460,
+    'message' => 'Moet het systeem het HTTPS protocol gebruiken voor het login-formulier?'
   },
   '1007' => {
     'lastUpdated' => 1155761245,
@@ -349,11 +349,11 @@ Als er een server voor het verzenden van email op dezelfde machine staat als de 
   },
   '164 description' => {
     'lastUpdated' => 1166787969,
-    'message' => "Stel de standaard authenticatie methode voor nieuwe accounts in. De twee opties die standaard beschikbaar zij, zijn WebGUI en LDAP. WebGUI authenticatie betekent dat gebruikers zich moeten valideren tegen de gebruikersnaam en wachtwoord die in de WebGUI database zijn opgeslagen. Bij LDAP authenticatie komt deze informatie uit een externe LDAP server. Andere methoden kunnen gebruikt worden als er eerst een eigen authenticatie werktuig geschreven wordt.</p><p><em>Aantekeningen:</em><br />
+    'message' => 'Stel de standaard authenticatie methode voor nieuwe accounts in. De twee opties die standaard beschikbaar zij, zijn WebGUI en LDAP. WebGUI authenticatie betekent dat gebruikers zich moeten valideren tegen de gebruikersnaam en wachtwoord die in de WebGUI database zijn opgeslagen. Bij LDAP authenticatie komt deze informatie uit een externe LDAP server. Andere methoden kunnen gebruikt worden als er eerst een eigen authenticatie werktuig geschreven wordt.</p><p><em>Aantekeningen:</em><br />
 <br />
 Authenticatie instellingen kunnen per gebruiker worden ingesteld.<br />
 <br />
-Afhankelijk van welke authenticatie modules ge\x{ef}nstalleerd zijn in het systeem, worden hierna de verschillende opties getoond."
+Afhankelijk van welke authenticatie modules geïnstalleerd zijn in het systeem, worden hierna de verschillende opties getoond.'
   },
   '167' => {
     'lastUpdated' => 1208856142,
@@ -1667,9 +1667,17 @@ De verstrekte informatie is niet gelijk aan de accountinformatie. '
     'lastUpdated' => 1207821256,
     'message' => 'Welkomsbericht sturen?'
   },
+  '868 help' => {
+    'lastUpdated' => 1227627502,
+    'message' => 'Moet de gebruiker een bericht ontvangen wanneer een account is aangemaakt?'
+  },
   '869' => {
     'lastUpdated' => 1207821273,
     'message' => 'Welkomsbericht'
+  },
+  '869 help' => {
+    'lastUpdated' => 1227627544,
+    'message' => 'Dit bericht is onderdeel van de e-mail die verzonden wordt aan de gebruiker wanneer ze een account aanmaken op deze WebGUI site.'
   },
   '87' => {
     'lastUpdated' => 1154096888,
@@ -1967,6 +1975,10 @@ De verstrekte informatie is niet gelijk aan de accountinformatie. '
     'lastUpdated' => 1156499157,
     'message' => 'Het wachtwoord dat gebruikt wordt om verbinding te maken met de DSN.'
   },
+  '< prev' => {
+    'lastUpdated' => 1227627558,
+    'message' => '&lt; vorige'
+  },
   'About Us' => {
     'lastUpdated' => 1222936449,
     'message' => 'Over ons'
@@ -2107,6 +2119,10 @@ De verstrekte informatie is niet gelijk aan de accountinformatie. '
     'lastUpdated' => 1201183057,
     'message' => 'Account opties sjabloon variabelen'
   },
+  'account settings tab' => {
+    'lastUpdated' => 1227627570,
+    'message' => 'Account'
+  },
   'account.options' => {
     'lastUpdated' => 1201183256,
     'message' => 'Een loop die de opties bevat voor de verschillende gebruikers account toegangs links.'
@@ -2238,6 +2254,10 @@ LongTruncOk=1'
     'lastUpdated' => 1222938262,
     'message' => 'Bedrijfsinformatie'
   },
+  'contact info short' => {
+    'lastUpdated' => 1227627919,
+    'message' => 'Contact informatie'
+  },
   'contains' => {
     'lastUpdated' => 1156170581,
     'message' => 'Bevat'
@@ -2257,6 +2277,10 @@ LongTruncOk=1'
   'databases' => {
     'lastUpdated' => 1154097933,
     'message' => 'Databases'
+  },
+  'days' => {
+    'lastUpdated' => 1227627928,
+    'message' => 'Dagen'
   },
   'deactivateAccount success' => {
     'lastUpdated' => 1189453847,
@@ -2285,6 +2309,10 @@ LongTruncOk=1'
   'default version tag workflow help' => {
     'lastUpdated' => 1156170239,
     'message' => 'Welke workflow moet standaard gebruikt worden wanneer gebruikers hun eigen versie tags maken? '
+  },
+  'demographic info short' => {
+    'lastUpdated' => 1227627942,
+    'message' => 'Demografisch'
   },
   'done' => {
     'lastUpdated' => 1154098005,
@@ -2382,6 +2410,14 @@ LongTruncOk=1'
     'lastUpdated' => 1201183382,
     'message' => 'Er zijn meer dan 250 gebruikers. Gebruik alstublieft de zoekfunctie om gebruikers te vinden.'
   },
+  'home info short' => {
+    'lastUpdated' => 1227627949,
+    'message' => 'Thuis'
+  },
+  'hours' => {
+    'lastUpdated' => 1227627955,
+    'message' => 'Uren'
+  },
   'image' => {
     'lastUpdated' => 1156169512,
     'message' => 'Afbeelding'
@@ -2389,6 +2425,10 @@ LongTruncOk=1'
   'image manager' => {
     'lastUpdated' => 1156169500,
     'message' => 'Afbeeldings beheer'
+  },
+  'inbox message status active' => {
+    'lastUpdated' => 1227627962,
+    'message' => 'Actief'
   },
   'insert a link' => {
     'lastUpdated' => 1156414569,
@@ -2413,6 +2453,10 @@ LongTruncOk=1'
   'is editable help' => {
     'lastUpdated' => 1213865902,
     'message' => 'Moet deze groep te zien zijn in de lijst van beheerbare groepen? Als dit op nee gezet wordt zul je de groep niet langer kunnen bewerken.'
+  },
+  'language not available error' => {
+    'lastUpdated' => 1227627985,
+    'message' => '%s is niet beschikbaar. Selecteer alstubieft een andere taal.'
   },
   'link enter alert' => {
     'lastUpdated' => 1156169435,
@@ -2450,9 +2494,25 @@ LongTruncOk=1'
     'lastUpdated' => 1154097984,
     'message' => 'Berichtgeving'
   },
+  'minutes' => {
+    'lastUpdated' => 1227627991,
+    'message' => 'Minuten'
+  },
   'misc' => {
     'lastUpdated' => 1154098019,
     'message' => 'Gemengd'
+  },
+  'misc info short' => {
+    'lastUpdated' => 1227628025,
+    'message' => 'Extra'
+  },
+  'months' => {
+    'lastUpdated' => 1227628033,
+    'message' => 'Maanden'
+  },
+  'next >' => {
+    'lastUpdated' => 1227628067,
+    'message' => 'volgende &gt;'
   },
   'no thanks' => {
     'lastUpdated' => 1222938281,
@@ -2461,6 +2521,10 @@ LongTruncOk=1'
   'noldaplink' => {
     'lastUpdated' => 1156168830,
     'message' => 'Er is geen LDAP verbinding'
+  },
+  'ok' => {
+    'lastUpdated' => 1227628002,
+    'message' => 'Ok'
   },
   'options.display' => {
     'lastUpdated' => 1201183342,
@@ -2477,6 +2541,10 @@ LongTruncOk=1'
   'pages' => {
     'lastUpdated' => 1154097910,
     'message' => 'Paginas'
+  },
+  'pagination.activePage' => {
+    'lastUpdated' => 1227628119,
+    'message' => 'Een functie die waar is als de pagina de pagina uit de pageLoop is die bekeken wordt.'
   },
   'pagination.firstPage' => {
     'lastUpdated' => 1156168734,
@@ -2590,9 +2658,17 @@ LongTruncOk=1'
     'lastUpdated' => 1190023731,
     'message' => 'Rechten'
   },
+  'personal info short' => {
+    'lastUpdated' => 1227628127,
+    'message' => 'Persoonlijk'
+  },
   'photo' => {
     'lastUpdated' => 1154097857,
     'message' => 'Foto'
+  },
+  'preferences short' => {
+    'lastUpdated' => 1227628134,
+    'message' => 'Voorkeuren'
   },
   'preview' => {
     'lastUpdated' => 1156167762,
@@ -2682,6 +2758,10 @@ LongTruncOk=1'
     'lastUpdated' => 1154097765,
     'message' => 'Profiel'
   },
+  'profile privacy settings' => {
+    'lastUpdated' => 1227628147,
+    'message' => 'Privacy instellingen'
+  },
   'purge workflow' => {
     'lastUpdated' => 1166636365,
     'message' => 'Workflow (werkschema) volledig verwijderen'
@@ -2702,6 +2782,10 @@ LongTruncOk=1'
     'lastUpdated' => 1156950388,
     'message' => 'verwijder'
   },
+  'required error' => {
+    'lastUpdated' => 1227628158,
+    'message' => '%s is vereist.'
+  },
   'run on admin create user' => {
     'lastUpdated' => 1190023534,
     'message' => 'Bij het aanmaken van een nieuwe gebruiker (admin)'
@@ -2721,6 +2805,10 @@ LongTruncOk=1'
   'save' => {
     'lastUpdated' => 1222938336,
     'message' => 'Opslaan'
+  },
+  'seconds' => {
+    'lastUpdated' => 1227628164,
+    'message' => 'Seconden'
   },
   'select' => {
     'lastUpdated' => 1154097777,
@@ -3118,6 +3206,34 @@ LongTruncOk=1'
     'lastUpdated' => 1203543709,
     'message' => 'Uw gebruikersnaam kan geen HTML code of WebGUI macros bevatten.'
   },
+  'version tag mode' => {
+    'lastUpdated' => 1227628234,
+    'message' => 'Versie tag modus'
+  },
+  'version tag mode help' => {
+    'lastUpdated' => 1227629340,
+    'message' => '<p>Bepaal het versie tag gedrag.</p><ul><li>Verscheidene versie tags per gebruiker: elke gebruiker kan verschillende versie tags tegelijk open hebben staan</li><li>Een enkele versie tag per gebruiker: elke gebruiker kan slechts&nbsp;&eacute;&eacute;n open versie tag hebben. Een bestaande open versie tag wordt automatisch als werk tag ingesteld bij veranderingen als de gebruiker dat zelf nog niet heeft gedaan.</li><li>&Eacute;&eacute;n site-brede versie tag: gebruikers werken op een enkeleversie tag die door de hele site gebruiikt wordt.</li><li>Automatisch uitvoeren: versie tags worden automatisch uitgevoerd</li></ul>Gebruikers kunnen deze instelling overschrijven in hun profiel.'
+  },
+  'versionTagMode autoCommit' => {
+    'lastUpdated' => 1227628296,
+    'message' => 'Automatisch uitvoeren'
+  },
+  'versionTagMode inherited' => {
+    'lastUpdated' => 1227628285,
+    'message' => 'Neem over van de site instellingen.'
+  },
+  'versionTagMode multiPerUser' => {
+    'lastUpdated' => 1227628268,
+    'message' => 'Verscheidene versie tags per gebruiker'
+  },
+  'versionTagMode singlePerUser' => {
+    'lastUpdated' => 1227628252,
+    'message' => 'Een enkele versie tag per gebruiker'
+  },
+  'versionTagMode siteWide' => {
+    'lastUpdated' => 1227628225,
+    'message' => '&Eacute;&eacute;n site-brede versie tag'
+  },
   'view inbox message template' => {
     'lastUpdated' => 1222347400,
     'message' => 'Sjabloon voor bericht in inbox'
@@ -3137,6 +3253,18 @@ LongTruncOk=1'
   'webgui' => {
     'lastUpdated' => 1154097513,
     'message' => 'WebGUI'
+  },
+  'weeks' => {
+    'lastUpdated' => 1227628176,
+    'message' => 'Weken'
+  },
+  'work info short' => {
+    'lastUpdated' => 1227628191,
+    'message' => 'Werk'
+  },
+  'years' => {
+    'lastUpdated' => 1227628184,
+    'message' => 'Jaren'
   },
   'yes please' => {
     'lastUpdated' => 1222939018,

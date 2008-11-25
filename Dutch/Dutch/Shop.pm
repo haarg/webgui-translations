@@ -553,6 +553,10 @@ our $I18N = {
     'lastUpdated' => 1216734877,
     'message' => 'Een bericht dat het systeem toont aan de gebruiker.'
   },
+  'order for' => {
+    'lastUpdated' => 1227629378,
+    'message' => 'Bestelling is voor'
+  },
   'order number' => {
     'lastUpdated' => 1216734889,
     'message' => 'Bestelling #'
@@ -653,6 +657,14 @@ our $I18N = {
     'lastUpdated' => 1216732216,
     'message' => 'Een veld dat het telefoonnummer van dit adres bevat.'
   },
+  'posUserId' => {
+    'lastUpdated' => 1227629468,
+    'message' => 'De gebruikers Id van de gebruiker die de POS transactie uitvoert.'
+  },
+  'posUsername' => {
+    'lastUpdated' => 1227629481,
+    'message' => 'De naam van de gebruiker die de POS transactie uitvoert.'
+  },
   'price' => {
     'lastUpdated' => 1213968245,
     'message' => 'Prijs'
@@ -700,6 +712,10 @@ our $I18N = {
   'saveButton help' => {
     'lastUpdated' => 1216732492,
     'message' => 'De standaard knop waarmee het formulier wordt opgeslagen.'
+  },
+  'search for email' => {
+    'lastUpdated' => 1227629492,
+    'message' => 'Zoek naar e-mail adres'
   },
   'ship to button' => {
     'lastUpdated' => 1216652637,
