@@ -1,4 +1,5 @@
 package WebGUI::i18n::Italian;
+use utf8;
 
 use strict;
 

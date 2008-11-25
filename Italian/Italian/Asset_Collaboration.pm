@@ -1,4 +1,5 @@
 package WebGUI::i18n::Italian::Asset_Collaboration;
+use utf8;
 
 our $I18N = {
 	'add.label' => {

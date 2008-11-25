@@ -1,4 +1,5 @@
 package WebGUI::i18n::Italian::Activity_RequestApprovalForVersionTag_ByLineage;
+use utf8;
 
 our $I18N = {
 };
