@@ -5,21 +5,53 @@ our $I18N = {
     'lastUpdated' => 1227966423,
     'message' => "Zdj\x{119}cie"
   },
+  'comment message' => {
+    'lastUpdated' => 1227969365,
+    'message' => "Komentarz zosta\x{142} dodany.  <a href=\"%s\">Powr\x{f3}t do zdj\x{119}cia</a>."
+  },
+  'delete message' => {
+    'lastUpdated' => 1227969331,
+    'message' => "Zdj\x{119}cie zosta\x{142}o usuni\x{119}te.  <a href=\"%s\">Powr\x{f3}t do albumu</a>."
+  },
+  'editCommentSave message' => {
+    'lastUpdated' => 1227969342,
+    'message' => "Komentarz zosta\x{142} zaktualizowany.  <a href=\"%s\">Powr\x{f3}t do zdj\x{119}cia</a>."
+  },
   'editForm cancel' => {
     'lastUpdated' => 1227966531,
     'message' => 'Anuluj'
+  },
+  'editForm friendsOnly' => {
+    'lastUpdated' => 1227969456,
+    'message' => 'Tylko dla znajomych'
   },
   'editForm keywords' => {
     'lastUpdated' => 1227966544,
     'message' => 'Tagi'
   },
+  'editForm location' => {
+    'lastUpdated' => 1227969382,
+    'message' => 'Lokalizacja'
+  },
   'editForm photo new' => {
     'lastUpdated' => 1227966565,
     'message' => "Dodaj zdj\x{119}cie"
   },
+  'editForm photo replace' => {
+    'lastUpdated' => 1227969419,
+    'message' => "Zmie\x{144} zdj\x{119}cie"
+  },
   'editForm save' => {
     'lastUpdated' => 1227967295,
     'message' => 'Zapisz'
+  },
+  'editForm synopsis label' => {
+    'lastUpdated' => 1227969431,
+    'message' => "Podpis zdj\x{119}cia"
+  },
+  'editForm title label' => {
+    'lastUpdated' => 1227969443,
+    'message' => "Tytu\x{142}"
   },
   'error no space' => {
     'lastUpdated' => 1227966491,
