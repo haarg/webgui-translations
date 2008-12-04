@@ -1,223 +1,183 @@
 package WebGUI::i18n::German::Macro_UsersOnline;
 use utf8;
-
 our $I18N = {
-
-	'Users Online' => {
-		message => q|Aktive Benutzer|,
-		lastUpdated => 1178783587
-	},
-
-	'Members' => {
-		message => q|Registriert|,
-		lastUpdated => 1178783587
-	},
-	
-	'Visitors' => {
-		message => q|Besucher|,
-		lastUpdated => 1178783587
-	},
-	
-	'Total' => {
-		message => q|Gesamt|,
-		lastUpdated => 1178783587
-	},
-
-	'Members Online' => {
-		message => q|Aktive Mitglieder|,
-		lastUpdated => 1178783587
-	},
-	
-	'Visitors Online' => {
-		message => q|Aktive Besucher|,
-		lastUpdated => 1178783587
-	},
-	
-	'Avatar' => {
-		message => q|Avatar|,
-		lastUpdated => 1178783587
-	},
-	
-	'Name' => {
-		message => q|Name|,
-		lastUpdated => 1178783587
-	},
-	
-	'Alias' => {
-		message => q|Alias|,
-		lastUpdated => 1178783587
-	},
-	
-	'Session' => {
-		message => q|Sitzung|,
-		lastUpdated => 1178783587
-	},
-	
-	'IP' => {
-		message => q|IP|,
-		lastUpdated => 1178783587
-	},
-	
-	'Last Activity' => {
-		message => q|Zuletzt aktiv|,
-		lastUpdated => 1178783587
-	},
-
-	'users online title' => {
-		message => q|Users Online-Makro|,
-		lastUpdated => 1178783587
-	},
-
-	'users online body' => {
-		message => q|Makro zur Anzeige der aktiven Benutzer. Es wird die Anzahl der aktiven Benutzer, unterteilt in Mitglieder und Besucher, bestimmt. Als aktive Benutzer gelten jene, welche innerhalb einer gesetzten Zeitspanne eine Seite abgerufen haben. Neben der Anzahl der Benutzer werden zusätzlich Benutzer spezifische Daten mittels zweier Schleifen übergeben.|,
-		lastUpdated => 1178783587
-	},
-
-	'usersOnline_label' => {
-		message => q|Die Worte "Aktive Benutzer".|,
-		lastUpdated => 1178783587
-	},
-	
-	'members_label' => {
-		message => q|Das Wort "Mitglieder".|,
-		lastUpdated => 1178783587
-	},
-
-	'visitors_label' => {
-		message => q|Das Wort "Besucher".|,
-		lastUpdated => 1178783587
-	},
-
-	'total_label' => {
-		message => q|Das Wort "Gesamt".|,
-		lastUpdated => 1178783587
-	},
-
-	'membersOnline_label' => {
-		message => q|Die Worte "Aktive Mitglieder".|,
-		lastUpdated => 1178783587
-	},
-
-	'visitorsOnline_label' => {
-		message => q|Die Worte "Aktive Besucher".|,
-		lastUpdated => 1178783587
-	},
-
-	'avatar_label' => {
-		message => q|Das Wort "Avatar".|,
-		lastUpdated => 1178783587
-	},
-
-	'name_label' => {
-		message => q|Das Wort "Name".|,
-		lastUpdated => 1178783587
-	},
-
-	'alias_label' => {
-		message => q|Das Wort "Alias".|,
-		lastUpdated => 1178783587
-	},
-
-	'session_label' => {
-		message => q|Das Wort "Sitzung".|,
-		lastUpdated => 1178783587
-	},
-
-	'ip_label' => {
-		message => q|Das Wort "IP".|,
-		lastUpdated => 1178783587
-	},
-
-	'lastActivity_label' => {
-		message => q|Die Worte "Zuletzt aktiv".|,
-		lastUpdated => 1178783587
-	},
-
-	'members' => {
-		message => q|Die Zahl der aktiven Mitglieder.|,
-		lastUpdated => 1178783587
-	},
-
-	'visitors' => {
-		message => q|Die Zahl der aktiven Besucher.|,
-		lastUpdated => 1178783587
-	},
-
-	'total' => {
-		message => q|Die Gesamtzahl aller aktiven Benutzer.|,
-		lastUpdated => 1178783587
-	},
-
-	'isVisitor' => {
-		message => q|Wahr, falls der aktuelle Benutzer ein Besucher ist.|,
-		lastUpdated => 1178783587
-	},
-
-	'hasMembers' => {
-		message => q|Wahr, falls die Mitgliederschleife Einträge enthält.|,
-		lastUpdated => 1178783587
-	},
-
-	'members_loops' => {
-		message => q|Schleife, welche alle aktiven Mitglieder enthält, die einer Anzeige zugestimmt haben.|,
-		lastUpdated => 1178783587
-	},
-
-	'username' => {
-		message => q|Der Benutzername.|,
-		lastUpdated => 1178783587
-	},
-
-	'firstName' => {
-		message => q|Der Vorname.|,
-		lastUpdated => 1178783587
-	},
-
-	'middleName' => {
-		message => q|Der zweite Vorname.|,
-		lastUpdated => 1178783587
-	},
-
-	'lastName' => {
-		message => q|Der Nachname.|,
-		lastUpdated => 1178783587
-	},
-
-	'alias' => {
-		message => q|Das Alias des Benutzers.|,
-		lastUpdated => 1178783587
-	},
-
-	'avatar' => {
-		message => q|Der URL zum Avatar des Benutzers.|,
-		lastUpdated => 1178783587
-	},
-
-	'uid' => {
-		message => q|Die User-ID.|,
-		lastUpdated => 1178783587
-	},
-
-	'sessionId' => {
-		message => q|Die ID der Benutzersitzung.|,
-		lastUpdated => 1178783587
-	},
-
-	'ip' => {
-		message => q|Die IP-Adresse des Benutzers.|,
-		lastUpdated => 1178783587
-	},
-
-	'lastActivity' => {
-		message => q|Zeitpunkt der letzten Aktivität.|,
-		lastUpdated => 1178783587
-	},
-
-	'visitors_loops' => {
-		message => q|Schleife, welche alle aktiven Besucher enthält.|,
-		lastUpdated => 1178783587
-	},
-
-};
+  'Alias' => {
+    'lastUpdated' => 1178783587,
+    'message' => 'Alias'
+  },
+  'Avatar' => {
+    'lastUpdated' => 1178783587,
+    'message' => 'Avatar'
+  },
+  'IP' => {
+    'lastUpdated' => 1178783587,
+    'message' => 'IP'
+  },
+  'Last Activity' => {
+    'lastUpdated' => 1178783587,
+    'message' => 'Zuletzt aktiv'
+  },
+  'Members' => {
+    'lastUpdated' => 1178783587,
+    'message' => 'Registriert'
+  },
+  'Members Online' => {
+    'lastUpdated' => 1178783587,
+    'message' => 'Aktive Mitglieder'
+  },
+  'Name' => {
+    'lastUpdated' => 1178783587,
+    'message' => 'Name'
+  },
+  'Session' => {
+    'lastUpdated' => 1178783587,
+    'message' => 'Sitzung'
+  },
+  'Total' => {
+    'lastUpdated' => 1178783587,
+    'message' => 'Gesamt'
+  },
+  'Users Online' => {
+    'lastUpdated' => 1178783587,
+    'message' => 'Aktive Benutzer'
+  },
+  'Visitors' => {
+    'lastUpdated' => 1178783587,
+    'message' => 'Besucher'
+  },
+  'Visitors Online' => {
+    'lastUpdated' => 1178783587,
+    'message' => 'Aktive Besucher'
+  },
+  'alias' => {
+    'lastUpdated' => 1178783587,
+    'message' => 'Das Alias des Benutzers.'
+  },
+  'alias_label' => {
+    'lastUpdated' => 1178783587,
+    'message' => 'Das Wort "Alias".'
+  },
+  'avatar' => {
+    'lastUpdated' => 1178783587,
+    'message' => 'Der URL zum Avatar des Benutzers.'
+  },
+  'avatar_label' => {
+    'lastUpdated' => 1178783587,
+    'message' => 'Das Wort "Avatar".'
+  },
+  'firstName' => {
+    'lastUpdated' => 1178783587,
+    'message' => 'Der Vorname.'
+  },
+  'hasMembers' => {
+    'lastUpdated' => 1178783587,
+    'message' => "Wahr, falls die Mitgliederschleife Eintr\x{e4}ge enth\x{e4}lt."
+  },
+  'ip' => {
+    'lastUpdated' => 1178783587,
+    'message' => 'Die IP-Adresse des Benutzers.'
+  },
+  'ip_label' => {
+    'lastUpdated' => 1178783587,
+    'message' => 'Das Wort "IP".'
+  },
+  'isVisitor' => {
+    'lastUpdated' => 1178783587,
+    'message' => 'Wahr, falls der aktuelle Benutzer ein Besucher ist.'
+  },
+  'lastActivity' => {
+    'lastUpdated' => 1178783587,
+    'message' => "Zeitpunkt der letzten Aktivit\x{e4}t."
+  },
+  'lastActivity_label' => {
+    'lastUpdated' => 1178783587,
+    'message' => 'Die Worte "Zuletzt aktiv".'
+  },
+  'lastName' => {
+    'lastUpdated' => 1178783587,
+    'message' => 'Der Nachname.'
+  },
+  'members' => {
+    'lastUpdated' => 1178783587,
+    'message' => 'Die Zahl der aktiven Mitglieder.'
+  },
+  'membersOnline_label' => {
+    'lastUpdated' => 1178783587,
+    'message' => 'Die Worte "Aktive Mitglieder".'
+  },
+  'members_label' => {
+    'lastUpdated' => 1178783587,
+    'message' => 'Das Wort "Mitglieder".'
+  },
+  'members_loops' => {
+    'lastUpdated' => 1178783587,
+    'message' => "Schleife, welche alle aktiven Mitglieder enth\x{e4}lt, die einer Anzeige zugestimmt haben."
+  },
+  'middleName' => {
+    'lastUpdated' => 1178783587,
+    'message' => 'Der zweite Vorname.'
+  },
+  'name_label' => {
+    'lastUpdated' => 1178783587,
+    'message' => 'Das Wort "Name".'
+  },
+  'sessionId' => {
+    'lastUpdated' => 1178783587,
+    'message' => 'Die ID der Benutzersitzung.'
+  },
+  'session_label' => {
+    'lastUpdated' => 1178783587,
+    'message' => 'Das Wort "Sitzung".'
+  },
+  'total' => {
+    'lastUpdated' => 1178783587,
+    'message' => 'Die Gesamtzahl aller aktiven Benutzer.'
+  },
+  'total_label' => {
+    'lastUpdated' => 1178783587,
+    'message' => 'Das Wort "Gesamt".'
+  },
+  'uid' => {
+    'lastUpdated' => 1178783587,
+    'message' => 'Die User-ID.'
+  },
+  'username' => {
+    'lastUpdated' => 1178783587,
+    'message' => 'Der Benutzername.'
+  },
+  'users online body' => {
+    'lastUpdated' => 1178783587,
+    'message' => "Makro zur Anzeige der aktiven Benutzer. Es wird die Anzahl der aktiven Benutzer, unterteilt in Mitglieder und Besucher, bestimmt. Als aktive Benutzer gelten jene, welche innerhalb einer gesetzten Zeitspanne eine Seite abgerufen haben. Neben der Anzahl der Benutzer werden zus\x{e4}tzlich Benutzer spezifische Daten mittels zweier Schleifen \x{fc}bergeben."
+  },
+  'users online title' => {
+    'lastUpdated' => 1178783587,
+    'message' => 'Users Online-Makro'
+  },
+  'usersOnline_label' => {
+    'lastUpdated' => 1178783587,
+    'message' => 'Die Worte "Aktive Benutzer".'
+  },
+  'visitor_loop' => {
+    'lastUpdated' => 1228174813,
+    'message' => ''
+  },
+  'visitors' => {
+    'lastUpdated' => 1178783587,
+    'message' => 'Die Zahl der aktiven Besucher.'
+  },
+  'visitorsOnline_label' => {
+    'lastUpdated' => 1178783587,
+    'message' => 'Die Worte "Aktive Besucher".'
+  },
+  'visitors_label' => {
+    'lastUpdated' => 1178783587,
+    'message' => 'Das Wort "Besucher".'
+  },
+  'visitors_loops' => {
+    'lastUpdated' => 1178783587,
+    'message' => "Schleife, welche alle aktiven Besucher enth\x{e4}lt."
+  }
+}
+;
 
 1;

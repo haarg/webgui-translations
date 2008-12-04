@@ -145,6 +145,14 @@ our $I18N = {
     'lastUpdated' => 1217235098,
     'message' => 'Link zu einer Account Option mit Label.'
   },
+  'category short name' => {
+    'lastUpdated' => 1228174693,
+    'message' => 'Kurzname der Kategorie'
+  },
+  'category short name description' => {
+    'lastUpdated' => 1228174710,
+    'message' => 'Der Kurzname f&uuml;r diese Kategorie.'
+  },
   'displayTitle' => {
     'lastUpdated' => 1216637456,
     'message' => 'Ein internationalisierter Titel, der den Namen des Benutzers enth&auml;lt.'

@@ -20,6 +20,10 @@ our $I18N = {
   'subnet' => {
     'lastUpdated' => 1226013640,
     'message' => 'Es existiert ein Problem bei den Subnet-Einstellungen f&uuml;r S.P.E.C.T.R.E.'
+  },
+  'success' => {
+    'lastUpdated' => 1228174851,
+    'message' => 'S.P.E.C.T.R.E l&auml;uft.'
   }
 }
 ;

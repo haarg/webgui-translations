@@ -30,7 +30,7 @@ our $I18N = {
     'message' => 'Seitenlayout'
   },
   'assets to hide' => {
-    'lastUpdated' => 1178864147,
+    'lastUpdated' => 1228376645,
     'message' => 'Assets zum Verbergen'
   },
   'assets to hide description' => {

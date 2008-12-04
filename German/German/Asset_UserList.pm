@@ -9,6 +9,10 @@ our $I18N = {
     'lastUpdated' => 1217229538,
     'message' => 'Email nicht &ouml;ffentlich'
   },
+  'Field not public message' => {
+    'lastUpdated' => 1228376768,
+    'message' => 'Feld nicht &ouml;ffentlich'
+  },
   'Group to hide description' => {
     'lastUpdated' => 1217229633,
     'message' => 'W&auml;hle eine Gruppe, die in der Benutzerliste nicht angezeigt wird. Standardwert ist die Gruppe \'Admins\'.'
@@ -176,6 +180,10 @@ our $I18N = {
   'profile_file' => {
     'lastUpdated' => 1217233716,
     'message' => 'Die Datei f&uuml;r dieses Profilfeld. Nur verf&uuml;gbar, falls das Profilfeld ein Bild oder eine Datei ist.'
+  },
+  'profile_notPublic' => {
+    'lastUpdated' => 1228376748,
+    'message' => 'Eine Bedingung, die wahr ist f&uuml;r jedes Feld, das nicht &ouml;ffentlich ist.'
   },
   'profile_value' => {
     'lastUpdated' => 1217233734,
