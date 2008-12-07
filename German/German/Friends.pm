@@ -3,15 +3,15 @@ use utf8;
 our $I18N = {
   'add' => {
     'lastUpdated' => 1221289516,
-    'message' => "hinzuf\x{fc}gen"
+    'message' => 'hinzufügen'
   },
   'add to friends' => {
     'lastUpdated' => 1226019814,
     'message' => 'Zu Freunden hinzuf&uuml;gen'
   },
   'add to friends confirmation' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1228685796,
+    'message' => '<p>Eine E-Mail wurde an %s geschickt, weil Sieum eine Aufnahme in das Freune-Netzwerk gebeten haben.</p>'
   },
   'add to friends description' => {
     'lastUpdated' => 1226019842,
@@ -30,92 +30,100 @@ our $I18N = {
     'message' => 'Du kannst ein Freund nicht zweimal angeben.'
   },
   'checkboxForm' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1228685886,
+    'message' => 'HTML-code f&uuml;r eine Auswahlbox. Diese Auswahlbox wird benutzt, um dem Freund eine E-Mail zu seden, oder ihn zu l&ouml;schen.'
   },
   'confirm remove friends' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1228686232,
+    'message' => 'Sin Sie sicher, dass Sire die ausgew&auml;hlten Freunde von Ihrer Liste l&ouml;schen m&ouml;chten?'
   },
   'default friend comments' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1228686290,
+    'message' => '%s, ich m&ouml;chte Sie in mein Freunde-Netzwerk aufnehmen. Vielen Dank, %s'
   },
   'deny unanswered friends' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1228686324,
+    'message' => 'Freunde ablehnen, die nicht antworten.'
   },
   'does not want to be a friend' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1228686347,
+    'message' => 'Dieser Benutzer m&ouml;chte nicht als Freund hinzugef&uuml;gt werden.'
+  },
+  'error user is already friend' => {
+    'lastUpdated' => 1228686384,
+    'message' => 'Dieser Benutzer ist bereits Mitglied in Ihrem Freunde-Netzwerk'
+  },
+  'error user is already invited' => {
+    'lastUpdated' => 1228686414,
+    'message' => 'Sie haben diesem Benutzer schon ein Einladung zu Ihrem Freunde-Netzwerk geschickt.'
   },
   'formFooter' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1228686454,
+    'message' => 'HTML-Code der dieses Formular beendet.'
   },
   'formHeader' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1228686473,
+    'message' => 'HTM-Code, um dieses Formular zu beginnen'
   },
   'friend request' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1228686490,
+    'message' => 'Freunde-Anfrage'
   },
   'friend request description' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1228686537,
+    'message' => '%s hat mit nachfolgendem Kommentar darum gebeten, in Ihre Freunde-Liste aufgenommen zu werden:'
   },
   'friends' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1228686613,
+    'message' => 'Eine Schleife, die Informationen &uuml;ber Freunde enth&auml;lt und Formluar-Kontrollfelder, um Freunde zu l&ouml;schen oder ihnen eine Nachricht zu senden.'
   },
   'friends invitation accepted' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1228686640,
+    'message' => 'Freunde-Einladung angenommen.'
   },
   'friends invitation not accepted' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1228686653,
+    'message' => 'Freunde-Einladung nicht angenommen.'
   },
   'friends invitation not accepted by user' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1228686677,
+    'message' => 'Ihre Einladung wurde von %s nicht angenommen.'
   },
   'friends network invitation' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1228686694,
+    'message' => 'Einladung zum Freunde-Netzwerk'
   },
   'invalid invite code' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1228686712,
+    'message' => 'Ung&uuml;ltiger Einladungscode'
   },
   'invalid invite code message' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1228686740,
+    'message' => 'Der Einladungscode in Ihrer URL ist ung&uuml;ltig.'
   },
   'invitation accepted by user' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1228686755,
+    'message' => 'Ihre einaldung wurde von %s angenommen.'
   },
   'invitation approval email' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1228686868,
+    'message' => '<p>%s has requested that you join their friend network on this site %s.  %s  Please visit the following url to accept or deny the request:  %s</p><p>&nbsp;</p><p>%s hat Sie eingeladen dem Freunde-Netzwerk der Site %s beizutreten. %s bitte besuchen Sie den folgenden Link um die Einladung anzunehmen oder abzulehnen: %s</p>'
   },
   'manage friends' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1228686891,
+    'message' => 'Freunde verwalten und ihnen Nachrichten senden.'
   },
   'manage friends template' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1228686907,
+    'message' => 'Vorlage Freunde verwalten'
   },
   'manage friends template help' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1228686973,
+    'message' => 'Welche Vorlage m&ouml;chten Sie f&uuml;r die &quot;Meine Freunde zeigen&quot;-Anzeige im Benutzer-Account verwenden?'
   },
   'manage friends template title' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1228687003,
+    'message' => 'Vorlagen-Variablen f&uuml;r Freunde verwalten'
   },
   'message' => {
     'lastUpdated' => 1226020458,
