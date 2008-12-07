@@ -1,383 +1,307 @@
 package WebGUI::i18n::German::Asset_Shortcut;
 use utf8;
-
-
 our $I18N = {
-	'7' => {
-		message => q|Titel &uuml;berschreiben?|,
-		lastUpdated => 1178710279
-	},
-
-	'no metadata yet' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'disable content lock' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'isnt' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'Replacement Value' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'Field' => {
-		message => q|Feld|,
-		lastUpdated => 1178710585
-	},
-
-	'1 description' => {
-		message => q|Geben sie den Link des zu spiegelnden Assets an.|,
-		lastUpdated => 1178710140
-	},
-
-	'fieldName' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'9 description' => {
-		message => q|Setzen Sie hier "Ja", falls die Beschreibung des Shortcuts anstatt der Beschreibung des originalen Assets benutzt werden soll.|,
-		lastUpdated => 1178710420
-	},
-
-	'New value' => {
-		message => q|Neuer Wert|,
-		lastUpdated => 1178710685
-	},
-
-	'Back to Edit Shortcut' => {
-		message => q|Zur&uuml;ck zum Bearbeiten des Shortcuts|,
-		lastUpdated => 1178710511
-	},
-
-	'override asset template' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'isShortcut' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'Edit Field Directly' => {
-		message => q|Bearbeite Feld direkt|,
-		lastUpdated => 1178710560
-	},
-
-	'shortcut template title' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'shortcut.properties' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'New Override Value' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'Manage User Preferences' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'Random' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'is' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'Shortcut by alternate criteria' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'Default Value for this field' => {
-		message => q|Standard Wert dieses Feldes.|,
-		lastUpdated => 1178710540
-	},
-
-	'Replacement value' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'Overrides' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'pref fields to import description' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'Edit Override' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'Place something in this box if you dont want to use the automatically generated field' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'The unique name of a user preference parameter you are inventing' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'pref fields to import' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'8 description' => {
-		message => q|Setzen Sie hier "Ja", falls der Men&uuml;titel des Shortcuts anstatt des Men&uuml;titels des originale Assets benutzt werden soll.|,
-		lastUpdated => 1178710494
-	},
-
-	'Manage Shortcut Overrides' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'originalURL' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'shortcut.content' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'Type of Field' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'edit delete fieldname' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'show reload icon' => {
-		message => q|Zeige Reload Icon?|,
-		lastUpdated => 1178710810
-	},
-
-	'Criteria' => {
-		message => q|Merkmale|,
-		lastUpdated => 1179838332
-	},
-
-	'Criteria description' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'assetName' => {
-		message => q|Shortcut|,
-		lastUpdated => 1178710891
-	},
-
-	'shortcut.label' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'2' => {
-		message => q|Shortcut bearbeiten|,
-		lastUpdated => 1178710206
-	},
-
-	'equal to' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'10 description' => {
-		message => q|Setzen Sie hier "Ja", wenn das Template des Shortcuts an statt des originalen Templates benutzt werden soll.|,
-		lastUpdated => 1178710195
-	},
-
-	'1' => {
-		message => q|Zu spiegelndes Asset|,
-		lastUpdated => 1178710118
-	},
-
-	'Manage Profile Fields' => {
-		message => q|Verwalte Profil Felder|,
-		lastUpdated => 1178710642
-	},
-
-	'This is the example output of the field when parsed for user preference macros' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'disable content lock description' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'Resolve Multiples description' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'greater than' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'Label for This Field.' => {
-		message => q|Label f&uuml;r dieses Feld.|,
-		lastUpdated => 1178710631
-	},
-
-	'not equal to' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'less than' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'AND' => {
-		message => q|UND|,
-		lastUpdated => 1157856426
-	},
-
-	'Original Value' => {
-		message => q|Originalwert|,
-		lastUpdated => 1178710703
-	},
-
-	'OR' => {
-		message => q|ODER|,
-		lastUpdated => 1178710693
-	},
-
-	'Possible Values' => {
-		message => q|M&ouml;gliche Werte|,
-		lastUpdated => 1178710733
-	},
-
-	'show reload icon description' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'7 description' => {
-		message => q|Setzen Sie hier &quot;Ja&quot;, falls der Titel des Shortcuts anstatt des Titels des originalen Assets benutzt werden soll.|,
-		lastUpdated => 1178710432
-	},
-
-	'pref fields to show description' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'Possible values for this Field Only applies to selectList and checkList' => {
-		message => q|M&ouml;gliche Werte f&uuml;r dieses Feld. Nur wirksam in selectList und checkList.|,
-		lastUpdated => 1178710858
-	},
-
-	'override asset template description' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'shortcut template title description' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'Displaying this shortcut would cause a feedback loop' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'Use this field to edit the override using the native form handler for this field type' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'Preferences' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'Hover Help Description for this Field' => {
-		message => q|"Hover" Hilfe (Beschreibung) f&uuml;r dieses Feld.|,
-		lastUpdated => 1178710617
-	},
-
-	'field add/edit title' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'Resolve Multiples' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'9' => {
-		message => q|Beschreibung &uuml;berschreiben?|,
-		lastUpdated => 1178710373
-	},
-
-	'8' => {
-		message => q|Men&uuml;titel &uuml;berschreiben?|,
-		lastUpdated => 1178710449
-	},
-
-	'4' => {
-		message => q|Spiegeln des Assets fehlgeschlagen. Vielleicht wurde das originale Asset gel&ouml;scht.|,
-		lastUpdated => 1178710240
-	},
-
-	'Most Recent' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'Shortcut by alternate criteria description' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'pref fields to show' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'Edit User Preference Field' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-};
+  '1' => {
+    'lastUpdated' => 1178710118,
+    'message' => 'Zu spiegelndes Asset'
+  },
+  '1 description' => {
+    'lastUpdated' => 1178710140,
+    'message' => 'Geben sie den Link des zu spiegelnden Assets an.'
+  },
+  '10 description' => {
+    'lastUpdated' => 1178710195,
+    'message' => 'Setzen Sie hier "Ja", wenn das Template des Shortcuts an statt des originalen Templates benutzt werden soll.'
+  },
+  '2' => {
+    'lastUpdated' => 1178710206,
+    'message' => 'Shortcut bearbeiten'
+  },
+  '4' => {
+    'lastUpdated' => 1178710240,
+    'message' => 'Spiegeln des Assets fehlgeschlagen. Vielleicht wurde das originale Asset gel&ouml;scht.'
+  },
+  '7' => {
+    'lastUpdated' => 1178710279,
+    'message' => 'Titel &uuml;berschreiben?'
+  },
+  '7 description' => {
+    'lastUpdated' => 1178710432,
+    'message' => 'Setzen Sie hier &quot;Ja&quot;, falls der Titel des Shortcuts anstatt des Titels des originalen Assets benutzt werden soll.'
+  },
+  '8' => {
+    'lastUpdated' => 1178710449,
+    'message' => 'Men&uuml;titel &uuml;berschreiben?'
+  },
+  '8 description' => {
+    'lastUpdated' => 1178710494,
+    'message' => 'Setzen Sie hier "Ja", falls der Men&uuml;titel des Shortcuts anstatt des Men&uuml;titels des originale Assets benutzt werden soll.'
+  },
+  '9' => {
+    'lastUpdated' => 1178710373,
+    'message' => 'Beschreibung &uuml;berschreiben?'
+  },
+  '9 description' => {
+    'lastUpdated' => 1178710420,
+    'message' => 'Setzen Sie hier "Ja", falls die Beschreibung des Shortcuts anstatt der Beschreibung des originalen Assets benutzt werden soll.'
+  },
+  'AND' => {
+    'lastUpdated' => 1157856426,
+    'message' => 'UND'
+  },
+  'Back to Edit Shortcut' => {
+    'lastUpdated' => 1178710511,
+    'message' => 'Zur&uuml;ck zum Bearbeiten des Shortcuts'
+  },
+  'Criteria' => {
+    'lastUpdated' => 1179838332,
+    'message' => 'Merkmale'
+  },
+  'Criteria description' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'Default Value for this field' => {
+    'lastUpdated' => 1178710540,
+    'message' => 'Standard Wert dieses Feldes.'
+  },
+  'Displaying this shortcut would cause a feedback loop' => {
+    'lastUpdated' => 1228691735,
+    'message' => 'Das Anzeigen dieser Verkn&uuml;pfung w&uuml;rde eine Endlosschleife verursachen.'
+  },
+  'Edit Field Directly' => {
+    'lastUpdated' => 1178710560,
+    'message' => 'Bearbeite Feld direkt'
+  },
+  'Edit Override' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'Edit User Preference Field' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'Field' => {
+    'lastUpdated' => 1178710585,
+    'message' => 'Feld'
+  },
+  'Hover Help Description for this Field' => {
+    'lastUpdated' => 1178710617,
+    'message' => '"Hover" Hilfe (Beschreibung) f&uuml;r dieses Feld.'
+  },
+  'Label for This Field.' => {
+    'lastUpdated' => 1178710631,
+    'message' => 'Label f&uuml;r dieses Feld.'
+  },
+  'Manage Profile Fields' => {
+    'lastUpdated' => 1178710642,
+    'message' => 'Verwalte Profil Felder'
+  },
+  'Manage Shortcut Overrides' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'Manage User Preferences' => {
+    'lastUpdated' => 1228691783,
+    'message' => 'Benutzereinstellungen bearbeiten'
+  },
+  'Most Recent' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'New Override Value' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'New value' => {
+    'lastUpdated' => 1178710685,
+    'message' => 'Neuer Wert'
+  },
+  'OR' => {
+    'lastUpdated' => 1178710693,
+    'message' => 'ODER'
+  },
+  'Original Value' => {
+    'lastUpdated' => 1178710703,
+    'message' => 'Originalwert'
+  },
+  'Overrides' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'Place something in this box if you dont want to use the automatically generated field' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'Possible Values' => {
+    'lastUpdated' => 1178710733,
+    'message' => 'M&ouml;gliche Werte'
+  },
+  'Possible values for this Field Only applies to selectList and checkList' => {
+    'lastUpdated' => 1178710858,
+    'message' => 'M&ouml;gliche Werte f&uuml;r dieses Feld. Nur wirksam in selectList und checkList.'
+  },
+  'Preferences' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'Random' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'Replacement Value' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'Replacement value' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'Resolve Multiples' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'Resolve Multiples description' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'Shortcut by alternate criteria' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'Shortcut by alternate criteria description' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'The unique name of a user preference parameter you are inventing' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'This is the example output of the field when parsed for user preference macros' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'Type of Field' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'Use this field to edit the override using the native form handler for this field type' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'assetName' => {
+    'lastUpdated' => 1178710891,
+    'message' => 'Shortcut'
+  },
+  'disable content lock' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'disable content lock description' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'edit delete fieldname' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'equal to' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'field add/edit title' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'fieldName' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'greater than' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'is' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'isShortcut' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'isnt' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'less than' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'no metadata yet' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'not equal to' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'originalURL' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'override asset template' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'override asset template description' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'pref fields to import' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'pref fields to import description' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'pref fields to show' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'pref fields to show description' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'shortcut template title' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'shortcut template title description' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'shortcut.content' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'shortcut.label' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'shortcut.properties' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'show reload icon' => {
+    'lastUpdated' => 1178710810,
+    'message' => 'Zeige Reload Icon?'
+  },
+  'show reload icon description' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  }
+}
+;
 
 1;
