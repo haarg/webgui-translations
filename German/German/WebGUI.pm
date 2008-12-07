@@ -2241,6 +2241,10 @@ our $I18N = {
     'lastUpdated' => 1224798271,
     'message' => 'Firmen Infomation'
   },
+  'contact info short' => {
+    'lastUpdated' => 1228684190,
+    'message' => 'Kontaktinformationen'
+  },
   'contains' => {
     'lastUpdated' => 1178548311,
     'message' => 'enth&auml;lt'
@@ -2292,6 +2296,10 @@ our $I18N = {
   'default version tag workflow help' => {
     'lastUpdated' => 1178552562,
     'message' => 'Welcher Workflow soll als Standard benutzt werden wenn Benutzer ihre eigenen Version Tags erzeugen.<br />'
+  },
+  'demographic info short' => {
+    'lastUpdated' => 1228684233,
+    'message' => 'Demographie'
   },
   'done' => {
     'lastUpdated' => 1178552600,
@@ -2389,6 +2397,10 @@ our $I18N = {
     'lastUpdated' => 1208147399,
     'message' => 'Es gibt mehr als 250 Benutzern.&nbsp; Benutz bitte Suche, um Benutzer zu finden.'
   },
+  'home info short' => {
+    'lastUpdated' => 1228684254,
+    'message' => 'Home'
+  },
   'hours' => {
     'lastUpdated' => 1227566500,
     'message' => 'Stunden'
@@ -2400,6 +2412,10 @@ our $I18N = {
   'image manager' => {
     'lastUpdated' => 1178619160,
     'message' => 'Bild Verwalter'
+  },
+  'inbox message status active' => {
+    'lastUpdated' => 1228684265,
+    'message' => 'Aktiv'
   },
   'insert a link' => {
     'lastUpdated' => 1178619179,
@@ -2424,6 +2440,10 @@ our $I18N = {
   'is editable help' => {
     'lastUpdated' => 1216638672,
     'message' => 'Soll diese Gruppe in der Liste verwaltbarer Gruppen erscheinen? <strong>Hinweis</strong>: Falls auf &quot;Nein&quot; gesetzt, kann diese Gruppe nicht mehr verwaltet werden.'
+  },
+  'language not available error' => {
+    'lastUpdated' => 1228684295,
+    'message' => '%s ist nicht verf&uuml;gbar. Bitte w&auml;hlen Sie eine andere Sprache.'
   },
   'link enter alert' => {
     'lastUpdated' => 1199972992,
@@ -2461,9 +2481,25 @@ our $I18N = {
     'lastUpdated' => 1178624667,
     'message' => 'Email'
   },
+  'minutes' => {
+    'lastUpdated' => 1228684303,
+    'message' => 'Minuten'
+  },
   'misc' => {
     'lastUpdated' => 1178624680,
     'message' => 'Sonstige'
+  },
+  'misc info short' => {
+    'lastUpdated' => 1228684312,
+    'message' => 'Verschiedenes'
+  },
+  'months' => {
+    'lastUpdated' => 1228684323,
+    'message' => 'Monate'
+  },
+  'next >' => {
+    'lastUpdated' => 1228684435,
+    'message' => 'weiter &gt;'
   },
   'no thanks' => {
     'lastUpdated' => 1224798298,
@@ -2492,6 +2528,10 @@ our $I18N = {
   'pages' => {
     'lastUpdated' => 1178624765,
     'message' => 'Seiten'
+  },
+  'pagination.activePage' => {
+    'lastUpdated' => 1228684530,
+    'message' => '<p>Ein Boolscher Wert, der wahr ist, wenn genau diese Seite im pageLoop gerade angezeigt wird. </p>'
   },
   'pagination.firstPage' => {
     'lastUpdated' => 1180013277,
@@ -2613,6 +2653,10 @@ our $I18N = {
     'lastUpdated' => 1178624935,
     'message' => 'Foto'
   },
+  'preferences short' => {
+    'lastUpdated' => 1228684544,
+    'message' => 'Einstellungen'
+  },
   'preview' => {
     'lastUpdated' => 1178624947,
     'message' => 'Vorschau'
@@ -2701,13 +2745,17 @@ our $I18N = {
     'lastUpdated' => 1178624957,
     'message' => 'Profil'
   },
+  'profile privacy settings' => {
+    'lastUpdated' => 1228684580,
+    'message' => '&nbsp;Privat-Einstellungen'
+  },
   'purge workflow' => {
     'lastUpdated' => 1199973354,
     'message' => 'L&ouml;schen Workflow'
   },
   'purge workflow help' => {
     'lastUpdated' => 1199973044,
-    'message' => "Welcher Workflow soll ausgef&uuml;hrt werden wenn ein Asset gel\x{f6}scht wird."
+    'message' => 'Welcher Workflow soll ausgef&uuml;hrt werden wenn ein Asset gelöscht wird.'
   },
   'radio' => {
     'lastUpdated' => 1178625075,
@@ -3181,6 +3229,30 @@ our $I18N = {
   'version tag mode' => {
     'lastUpdated' => 1227566658,
     'message' => 'Versionstag Modus'
+  },
+  'version tag mode help' => {
+    'lastUpdated' => 1228685072,
+    'message' => '<p>Festelgen des Verhaltens der Versions-Tags</p><ul><li>Mehrere Versions-Tags pro Benutzer: Jeder Benutzer kann mehrere offene Versions-Tags haben.</li><li>Einzelne Versions-Tags pro Benutzer: Jeder Benutzer darf nur einen offenen Versions-Tag haben. Ein bestehender offener Versions-Tag wird automtisch zur&uuml;ckgesetzt. </li><li>Ein Site-weiter Versions-Tag: Alle Benutzer arbeiten mit einem Site-weiten Versions-Tag</li><li>Automatisch &uuml;bergeben: Versions-Tags werden automatisch &uuml;bergeben</li></ul>Benutzer k&ouml;nnen diese Einstellung in ihrem Profil &uuml;berschreiben.'
+  },
+  'versionTagMode autoCommit' => {
+    'lastUpdated' => 1228685094,
+    'message' => 'Automatisch &uuml;bergeben'
+  },
+  'versionTagMode inherited' => {
+    'lastUpdated' => 1228685261,
+    'message' => 'Von den Site-Einstellungen erben'
+  },
+  'versionTagMode multiPerUser' => {
+    'lastUpdated' => 1228685251,
+    'message' => 'Mehrere Versions-Tags pro Benutzer'
+  },
+  'versionTagMode singlePerUser' => {
+    'lastUpdated' => 1228685278,
+    'message' => 'Ein Versions-Tag pro Benutzer'
+  },
+  'versionTagMode siteWide' => {
+    'lastUpdated' => 1228685298,
+    'message' => 'Ein Site-weiter Versions-Tag'
   },
   'view inbox message template' => {
     'lastUpdated' => 1193132620,
