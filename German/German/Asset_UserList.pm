@@ -309,6 +309,10 @@ our $I18N = {
     'lastUpdated' => 1217234697,
     'message' => 'Die Datei f&uuml;r das Profilfeld mit dem Namen PROFILEFIELDNAME in dem Benutzerprofil des Benutzers. Beispiel &lt;tmpl_var user_profile_firstName_file&gt;. Diese ist verf&uuml;gbar, falls das Profilfeld ein Bild oder eine Datei ist.'
   },
+  'user_profile_PROFILEFIELDNAME_notPublic' => {
+    'lastUpdated' => 1228689765,
+    'message' => '<p>Eine Bedingung, die wahr ist, wenn das Profilfeld mit dem Namen PROFILEFIELDNAME nicht &ouml;ffentlich ist, z.B. &lt;tmpl_var user_profile_firstName_notPublic&gt;</p>'
+  },
   'user_profile_PROFILEFIELDNAME_value' => {
     'lastUpdated' => 1217234777,
     'message' => 'Der Wert des&nbsp;Profilfelds mit dem Namen PROFILEFIELDNAME in dem Benutzerprofil des Benutzers. Beispiel &lt;tmpl_var user_profile_firstName_value&gt;'
