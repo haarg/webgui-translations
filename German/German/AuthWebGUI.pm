@@ -282,12 +282,16 @@ our $I18N = {
     'message' => 'Das Passwort muss mindestens %s Gro&szlig;buchstaben und mindestens einen Kleinbuchstaben enthalten.'
   },
   'error passwordRecoveryType no profile fields required' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1228690885,
+    'message' => 'Passwort-Wiederherstellung bei WegGUI-Authentifizierung mittels Profil-Feldern kann nicht aktiviert werden: Es sind keine Benutzer-Profilfelder zur Passwortwiederherstellung n&ouml;tig.'
   },
   'expired password template' => {
     'lastUpdated' => 1178703499,
     'message' => 'Abgelaufenes Passwort Template'
+  },
+  'expired password template help' => {
+    'lastUpdated' => 1228690992,
+    'message' => 'W&auml;hlen Sie die Vorlage f&uuml;r die Seite aus, die dem Benutzer angezeigt wird, auf der er ein neues Passwort eingeben kann, wenn das bisherige abgelaufen ist.'
   },
   'expired template title' => {
     'lastUpdated' => 1178703559,
@@ -333,6 +337,10 @@ our $I18N = {
     'lastUpdated' => 1178703958,
     'message' => 'Login Template'
   },
+  'login template help' => {
+    'lastUpdated' => 1228690696,
+    'message' => 'W&auml;hlen Sie eine Vorlage f&uuml;r die Seite aus, auf der der Benutzer sich einloggen kann. Diese ist unterschiedlich zu allen Makros, die dem Benutzer ebenfalls Log-In-Formulare anzeigen.'
+  },
   'login template title' => {
     'lastUpdated' => 1178704015,
     'message' => 'WebGUI Authentifizierung Login Template'
@@ -377,6 +385,10 @@ our $I18N = {
     'lastUpdated' => 1178704168,
     'message' => 'schlie&szlig;e anonyme Registrierung durch Aufruf von createAccountSave direkt durch die URL ab'
   },
+  'password recovery disabled' => {
+    'lastUpdated' => 1228690596,
+    'message' => 'Ihr Account wurde gesperrt. Sie k&ouml;nnen kein neues Passwort anfordern, bis Ihr Accout wieder aktiviert wurde.'
+  },
   'password recovery email hoverHelp' => {
     'lastUpdated' => 1200441452,
     'message' => 'E-Mail-Adresse hier eingeben'
@@ -409,6 +421,10 @@ our $I18N = {
     'lastUpdated' => 1178704331,
     'message' => 'Passwortwiederherstellung Template'
   },
+  'password recovery template help' => {
+    'lastUpdated' => 1228691003,
+    'message' => 'W&auml;hlen Sie die Vorlage f&uuml;r die Seite aus, die dem Benutzer angezeigt wird, auf der er ein verlorendes Passwort wiederherstellen kann.'
+  },
   'recover password banner' => {
     'lastUpdated' => 1225317250,
     'message' => 'Wiederherstellung Passwort'
@@ -422,8 +438,8 @@ our $I18N = {
     'message' => 'Bitte benutzen Sie den angegebenen Link um Ihr Passwort zu &auml;ndern.'
   },
   'recover password email text3' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1228691066,
+    'message' => 'Wenn Sie keine Passwort-Wiederherstellung beantragt haben, informieren Sie bitte den System-Administrator '
   },
   'recover password not found' => {
     'lastUpdated' => 1225317536,
@@ -494,28 +510,44 @@ our $I18N = {
     'message' => 'Ist Benutzername f&uuml;r Passwortwiederherstellung erforderlich?'
   },
   'setting passwordRecoveryType email' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1228691104,
+    'message' => 'E-Mail-Adresse'
   },
   'setting passwordRecoveryType none' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1228691111,
+    'message' => 'Nein'
   },
   'setting passwordRecoveryType profile' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1228691120,
+    'message' => 'Profil-Feld'
   },
   'setting webguiNonWordCharacters' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1228691159,
+    'message' => 'Nummer der verlangten&nbsp; Nicht-Buchstaben-Zeichen in einem Passwort.'
+  },
+  'setting webguiNonWordCharacters help' => {
+    'lastUpdated' => 1228691208,
+    'message' => 'Die Anzahl der Nicht-Buchstaben-Zeichen, wie z.B. Interpunktionszeichen, die in einem Benutzerpasswort verpflichtend sind.'
   },
   'setting webguiRequiredDigits' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1228691236,
+    'message' => 'Anzahl der Ziffern in einem Passwort'
+  },
+  'setting webguiRequiredDigits help' => {
+    'lastUpdated' => 1228691263,
+    'message' => 'Wie viele Ziffern/Nummern sind in einem Benutzer-Passwort verpflichtend?'
   },
   'setting webguiRequiredMixedCase' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1228691290,
+    'message' => 'Anzahl der Gro&szlig;buchsteben in einem Benutzerpasswort.'
+  },
+  'setting webguiRequiredMixedCase help' => {
+    'lastUpdated' => 1228691341,
+    'message' => 'Diese Einstellung erfodert das Vorkommen von Gro&szlig;buchstaben in einem Benutzerpasswort. Dadurch sind noch keine Kleinbuchstaben verpflichtend.'
+  },
+  'subtitle' => {
+    'lastUpdated' => 1228690528,
+    'message' => 'Besondere Anweisungen f&uuml;r das Formular. Muss nicht bei allen Arten der Passwort-Wiederherstellungs-Vorlagen definiert sein. '
   },
   'title' => {
     'lastUpdated' => 1178704838,
@@ -540,6 +572,10 @@ our $I18N = {
   'validate email' => {
     'lastUpdated' => 1178704875,
     'message' => 'Email Adresse verifizieren?'
+  },
+  'validate email help' => {
+    'lastUpdated' => 1228691581,
+    'message' => '<p>Soll WebGUI eine extra E-Mail mit Link zur Account-Aktivierung an diese Person senden, unabh&auml;ngig von der Willkommens-E-Mail? Der Benutzeraccount wird nicht aktiviert bevor dieser Link nicht besucht wurde. Nicht best&auml;tigte Accounts verfallen nach einer einstellbaren Zeit. Diese Verfallszeit wird in einem Workflow festgelegt.</p>'
   },
   'webguiPasswordRecovery hoverHelp' => {
     'lastUpdated' => 1225317031,
