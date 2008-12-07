@@ -26,16 +26,16 @@ our $I18N = {
     'message' => 'Diese RSS wurde generiert von einem WebGUI-CMS'
   },
   'guid' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1228688400,
+    'message' => 'Ein Alias f&uuml;r Link. Bei RSS ist GUID der eindeutige Bezeichner.'
   },
   'item_loop' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1228688440,
+    'message' => 'Eine Schleife, die Informationen &uuml;ber alle Assets unterhalb des Eltern-Elements enth&auml;lt.'
   },
   'lastBuildDate' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1228688489,
+    'message' => 'Das Datum, an dem der Eltern-Inhalt zuletzt im g&uuml;ltigen RSS-Format (RFC 822) ver&auml;ndert wurde.'
   },
   'link' => {
     'lastUpdated' => 1226014719,
@@ -50,28 +50,28 @@ our $I18N = {
     'message' => 'Der Eltern-URL f&uuml;r dieses Asset'
   },
   'pubDate' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1228688568,
+    'message' => 'Das Datum an dem dieser Eintrag zuletzt im g&uuml;ltigen RSS-Format (RFC 822) ver&auml;ndert wurde.'
   },
   'rss from parent body' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1228688815,
+    'message' => '<p>Der Einzige zweck dieses Assets ist es, eine Basis-Vorlage zur Generierung von RSS-Feeds bereitzustellen. Nachfolgend sind die grundlegenden Vorlagen-Variablen aufgelistet, die in jdem Asset zur Verf&uuml;gung stehen, das RSS-Feeds generiert.&nbsp; Assets k&ouml;nnen weitere oder verschiedene Variablen zur Verf&uuml;gung stellen.</p>'
   },
   'rss from parent title' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1228688652,
+    'message' => 'RSS From Parent'
   },
   'title.item' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1228688641,
+    'message' => 'Der Titel dieses Assets'
   },
   'title.parent' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1228688630,
+    'message' => 'Der Titel des Eltern-Elementes zu diesem Asset'
   },
   'webMaster' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1228688602,
+    'message' => 'Die Firmen-E-Mail-Adresse aus den WebGUI-Einstellungen'
   }
 }
 ;
