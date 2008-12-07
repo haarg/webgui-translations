@@ -5,9 +5,17 @@ our $I18N = {
     'lastUpdated' => 1226873073,
     'message' => "Variante hinzuf\x{fc}gen"
   },
+  'Set Product price and SKU' => {
+    'lastUpdated' => 1228689360,
+    'message' => 'Atikelpreis und -nummer festlegen'
+  },
   'assetName' => {
     'lastUpdated' => 1226014917,
     'message' => 'Artikelnummer'
+  },
+  'cancel recurring message' => {
+    'lastUpdated' => 1228689439,
+    'message' => 'Eine wiederkehrende Transaktion %s mit einem Artikel mit Bezeichnung %s f&uuml;r einen Benutzer mit Namen %s wurde abgebrochen.'
   },
   'description' => {
     'lastUpdated' => 1226014879,
@@ -25,6 +33,14 @@ our $I18N = {
     'lastUpdated' => 1226873127,
     'message' => 'Geben Sie an ob der Titel angezeigt werden soll.'
   },
+  'override tax rate' => {
+    'lastUpdated' => 1228689454,
+    'message' => 'Steuersatz &uuml;berschreiben?'
+  },
+  'override tax rate help' => {
+    'lastUpdated' => 1228689545,
+    'message' => 'W&ouml;chten Sie den Standardsteuersatz f&uuml;r diesen Artikel &uuml;berschreiben? Wird gew&ouml;hnlich in Gebieten genutzt, die einen besonderen oder keinen Steuersatz auf Grundbedarfsartikel wie Essen oder Kleidung haben.'
+  },
   'shop' => {
     'lastUpdated' => 1226014934,
     'message' => 'Shop'
@@ -32,6 +48,22 @@ our $I18N = {
   'sku' => {
     'lastUpdated' => 1226014907,
     'message' => 'Artikelnummer'
+  },
+  'sku help' => {
+    'lastUpdated' => 1228689563,
+    'message' => 'Artikelnummer'
+  },
+  'sku properties title' => {
+    'lastUpdated' => 1228689580,
+    'message' => 'Eigenschaften der Artikelnummer'
+  },
+  'tax rate override' => {
+    'lastUpdated' => 1228689592,
+    'message' => 'Steuersatz &uuml;Berschreiben'
+  },
+  'tax rate override help' => {
+    'lastUpdated' => 1228689651,
+    'message' => 'Welcher neue Prozentwert soll benutzt werden um die Steuer dieses Artikels zu berechnen.'
   },
   'vendor' => {
     'lastUpdated' => 1226014990,
