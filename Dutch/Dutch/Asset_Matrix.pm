@@ -89,6 +89,10 @@ our $I18N = {
     'lastUpdated' => 1156326187,
     'message' => 'Kies de categorie waar dit veld onder valt. '
   },
+  'category label' => {
+    'lastUpdated' => 1227875542,
+    'message' => 'Categorie'
+  },
   'category listing description' => {
     'lastUpdated' => 1207840855,
     'message' => 'De beschrijving die de gebruiker zegt wat dit veld weergeeft. '
@@ -137,6 +141,10 @@ our $I18N = {
     'lastUpdated' => 1152629739,
     'message' => 'Het totaal aantal keer dat deze lijst ergens mee is vergeleken.'
   },
+  'comparison label' => {
+    'lastUpdated' => 1227875551,
+    'message' => 'Vergelijking'
+  },
   'comparison template help title' => {
     'lastUpdated' => 1190025810,
     'message' => 'Matrix vergelijkingstabel'
@@ -144,6 +152,10 @@ our $I18N = {
   'count' => {
     'lastUpdated' => 1152628171,
     'message' => 'De som van alle stemmen voor de beste lijst in deze categorie.'
+  },
+  'create account label' => {
+    'lastUpdated' => 1227875573,
+    'message' => 'Maak een account aan'
   },
   'current.user.count' => {
     'lastUpdated' => 1152629201,
@@ -241,6 +253,10 @@ Voor de selectielijst mag er maar &#233;&#233;n waarde worden ingevuld. De gebru
   'email.wasSent' => {
     'lastUpdated' => 1166195198,
     'message' => 'Een conditie die aangeeft of een e-mail verzonden is. '
+  },
+  'emailSent' => {
+    'lastUpdated' => 1227876156,
+    'message' => 'Een functie die aangeeft of er wel of niet een e-mail is verzonden.'
   },
   'extra' => {
     'lastUpdated' => 1152628199,
@@ -607,6 +623,10 @@ Voor de selectielijst mag er maar &#233;&#233;n waarde worden ingevuld. De gebru
     'lastUpdated' => 1152630013,
     'message' => 'Een omschrijving van het veld waar meer details over het veld gegeven worden en wordt gebruikt in het zweven boven tips over gereedschappen.'
   },
+  'search label' => {
+    'lastUpdated' => 1227876313,
+    'message' => 'Zoeken'
+  },
   'search template' => {
     'lastUpdated' => 1156344717,
     'message' => 'Zoek-sjabloon'
@@ -623,9 +643,29 @@ Voor de selectielijst mag er maar &#233;&#233;n waarde worden ingevuld. De gebru
     'lastUpdated' => 1152629523,
     'message' => 'De URL naar de matrix zoek pagina.'
   },
+  'send button label' => {
+    'lastUpdated' => 1227876242,
+    'message' => 'Verzenden'
+  },
   'show ratings' => {
     'lastUpdated' => 1152629664,
     'message' => 'Laat beoordelingen zien'
+  },
+  'site statistics label' => {
+    'lastUpdated' => 1227876177,
+    'message' => 'Site statistieken'
+  },
+  'sort alpha numeric label' => {
+    'lastUpdated' => 1227876221,
+    'message' => 'Alpha numeriek'
+  },
+  'sort by score label' => {
+    'lastUpdated' => 1227876305,
+    'message' => 'Score'
+  },
+  'template label' => {
+    'lastUpdated' => 1227876187,
+    'message' => 'Matrix sjabloon'
   },
   'text' => {
     'lastUpdated' => 1152628427,
@@ -786,6 +826,10 @@ Voor de selectielijst mag er maar &#233;&#233;n waarde worden ingevuld. De gebru
   'your email' => {
     'lastUpdated' => 1156187271,
     'message' => 'Uw email-adres'
+  },
+  'your email label' => {
+    'lastUpdated' => 1227876205,
+    'message' => 'Uw e-mail adres'
   }
 }
 ;

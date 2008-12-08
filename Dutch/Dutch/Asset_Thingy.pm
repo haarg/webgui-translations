@@ -37,6 +37,10 @@ our $I18N = {
     'lastUpdated' => 1205853615,
     'message' => 'Thingy'
   },
+  'back to thingy default view' => {
+    'lastUpdated' => 1228763503,
+    'message' => 'Terug naar standaard Thingy scherm.'
+  },
   'cache timeout' => {
     'lastUpdated' => 1205853635,
     'message' => 'Verlooptijd cache'
@@ -720,6 +724,10 @@ our $I18N = {
   'viewScreenTitle' => {
     'lastUpdated' => 1205854475,
     'message' => 'De titel voor het weergave scherm'
+  },
+  'view_url' => {
+    'lastUpdated' => 1228763556,
+    'message' => 'Het URL dat de gebruiker terugneemt naar het standaard Thingy scherm.'
   },
   'who can add description' => {
     'lastUpdated' => 1206449496,

@@ -9,6 +9,10 @@ our $I18N = {
     'lastUpdated' => 1213626904,
     'message' => 'Email adres niet publiek toegankelijk'
   },
+  'Field not public message' => {
+    'lastUpdated' => 1228763275,
+    'message' => 'Veld is niet publiek toegankelijk.'
+  },
   'Group to hide description' => {
     'lastUpdated' => 1213626953,
     'message' => 'Selecteer een groep die verborgen moet worden in de gebruikerslijst. De standaard waarde is &quot;Admins&quot;.'
@@ -177,6 +181,10 @@ our $I18N = {
     'lastUpdated' => 1213707869,
     'message' => 'Het bestand voor dit profiel veld, dit is beschikbaar wanneer het profiel veld een afbeelding of bestand is.'
   },
+  'profile_notPublic' => {
+    'lastUpdated' => 1228763312,
+    'message' => 'Een functie die voor elk veld aangeeft of het publiek toegankelijk is.'
+  },
   'profile_value' => {
     'lastUpdated' => 1214554515,
     'message' => 'De waarde van dit profiel veld voor deze gebruiker'
@@ -300,6 +308,10 @@ our $I18N = {
   'user_profile_PROFILEFIELDNAME_file' => {
     'lastUpdated' => 1215175242,
     'message' => 'Het bestand van het profielveld met de naam PROFILEFIELDNAME in het profiel van de gebruiker. Voorbeeld: &lt;tmpl_var user_profile_firstName_file&gt;. Deze variabele is beschikbaar als het profielveld een bestand of afbeelding bevat.'
+  },
+  'user_profile_PROFILEFIELDNAME_notPublic' => {
+    'lastUpdated' => 1228763473,
+    'message' => 'Een functie die waar is als een profielveld met naam &quot;PROFILEFILDNAME&quot; niet publiek is. Bijvoorbeeld: &lt;tmpl_var user_profile_firstName_notPublic&gt;.'
   },
   'user_profile_PROFILEFIELDNAME_value' => {
     'lastUpdated' => 1215175517,
