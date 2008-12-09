@@ -1,378 +1,343 @@
 package WebGUI::i18n::Polish::VersionTag;
 use utf8;
-
 our $I18N = {
-	'export version tag to html' => {
-		message => q|Eksport przywieszki wersji do HTML|,
-		context => q|the title of the workflow activity of the same name|,
-		lastUpdated => 0 
-	},
-
-	'back to home' => {
-		message => q|Powrót do strony startowej.|,
-		lastUpdated => 0 
-	},
-
-	'version tags' => {
-		message => q|Przywieszki wersji|,
-		lastUpdated => 0 
-	},
-
-	'commit accepted' => {
-		message => q|Twoje zmiany zostały przyjęte do przetworzenia i wdrożenia. Może upłynąć trochę czasu zanim pojawią się w serwisie w wersji rzeczywistej. Gdzie chciałbyś pojsć teraz?|,
-		lastUpdated => 0,
-		context => q|label on the manage revisions in tag page during the approval process|
-	},
-
-	'comments' => {
-		message => q|Komentarz|,
-		lastUpdated => 0,
-		context => q|label on the manage revisions in tag page during the approval process|
-	},
-
-	'comments help' => {
-		message => q|Załącz dowolny komentarz lub opinie do tej przywieszki. Tekst będzie dostępny dla każdego przeglądającego przywieszki wprowadzonych zmian w serwisie jak również w przyszłości w postaci adnotacji.|,
-		lastUpdated => 0,
-		context => q|hover help for the comments field|
-	},
-
-	'comments description commit' => {
-		message => q|Dołącz dowolne komentarze lub opinie do tej przywieszki wersji. Tekst będze dostępny dla każdego szukającego tej przywieszki w przyszłości w postacji adnotacji.|,
-		lastUpdated => 0,
-		context => q|hover help for the comments field|
-	},
-
-	'deny' => {
-		message => q|Odmowa|,
-		lastUpdated => 0,
-		context => q|label on the manage revisions in tag page during the approval process|
-	},
-
-	'approve' => {
-		message => q|Zatwierdzenie|,
-		lastUpdated => 0,
-		context => q|label on the manage revisions in tag page during the approval process|
-	},
-
-	'approve/deny' => {
-		message => q|Zatwierdzenie/Odmowa|,
-		lastUpdated => 0,
-		context => q|label on the manage revisions in tag page during the approval process|
-	},
-
-	'approve/deny help' => {
-		message => q|Czy życzysz sobie zatwierdzić lub odmówić tą przywieszkę?|,
-		lastUpdated => 0,
-		context => q|hover help for the approve/deny field|
-	},
-
-	'tag committer' => {
-		message => q|Tag Committer|,
-		lastUpdated => 0,
-		context => q|label in the notify about version tag activity|
-	},
-
-	'tag creator' => {
-		message => q|Kreator przywieszki|,
-		lastUpdated => 0,
-		context => q|label in the notify about version tag activity|
-	},
-
-	'who to notify' => {
-		message => q|Kogo powiadomić?|,
-		lastUpdated => 0,
-		context => q|label in the notify about version tag activity|
-	},
-
-	'who to notify help' => {
-		message => q|Powiadomiać osobę, która utworzyła przywieszkę, osobę która przyjęła przywieszkę lub ludzi, którzy zostali dopuszczeni do pracy z przywieszką.|,
-		lastUpdated => 0,
-		context => q|hover help for the who to notify field|
-	},
-
-	'notify message' => {
-		message => q|Wiadomości powiadomienia|,
-		lastUpdated => 0,
-		context => q|label in the notify about version tag activity|
-	},
-
-	'notify message help' => {
-		message => q|Wprowadź wiadomość, którą ma być wysłana razem z danymi przywieszki.|,
-		lastUpdated => 0,
-		context => q|hover help for the notify message field|
-	},
-
-	'notify about version tag' => {
-		message => q|Powiadomić o przywieszkach wersji|,
-		lastUpdated => 0,
-		context => q|the name of the activity|
-	},
-
-	'approval message' => {
-		message => q|Wiadomość zatwierdzenia|,
-		lastUpdated => 0,
-		context => q|label in the request approval for version tag activity|
-	},
-
-	'approval message help' => {
-		message => q|Wprowadź wiadomość, która ma być wysłana do osób zatwierdzających razem z linkiem zatwierdzenia i danymi przywieszki.|,
-		lastUpdated => 0,
-		context => q|hover help for the approval message field|
-	},
-
-	'do on deny' => {
-		message => q|Do On Deny|,
-		lastUpdated => 0,
-		context => q|label in the request approval for version tag activity|
-	},
-
-	'do on deny help' => {
-		message => q|What workflow should we run if the tag is denied approval?|,
-		lastUpdated => 0,
-		context => q|hover help for the do on deny field|
-	},
-
-	'group to approve' => {
-		message => q|Group To Approve|,
-		lastUpdated => 0,
-		context => q|label in the request approval for version tag activity|
-	},
-
-	'group to approve help' => {
-		message => q|Which group should be notified and allowed to approve or deny this tag?|,
-		lastUpdated => 0,
-		context => q|hover help for the group to approve field|
-	},
-
-	'request approval for version tag' => {
-		message => q|Request Approval For Version Tag|,
-		lastUpdated => 0,
-		context => q|the name of the activity|
-	},
-
-	'unlock version tag' => {
-		message => q|Unlock Version Tag|,
-		lastUpdated => 0,
-		context => q|the name of the activity|
-	},
-
-	'current tag is called' => {
-		message => q|Aktualnie pracujesz nad przywieszką nazwaną|,
-		lastUpdated => 0,
-		context => q|manage version tags|
-	},
-
-	'created on' => {
-		message => q|Utworzona|,
-		lastUpdated => 0,
-		context => q|manage version tags|
-	},
-
-	'created by' => {
-		message => q|Utworzona przez|,
-		lastUpdated => 0,
-		context => q|manage version tags|
-	},
-
-	'committed on' => {
-		message => q|Przyjęte|,
-		lastUpdated => 0,
-		context => q|manage committed versions|
-	},
-
-	'committed by' => {
-		message => q|Przyjęte przez|,
-		lastUpdated => 0,
-		context => q|manage committed versions|
-	},
-
-	'group to use' => {
-		message => q|Grupa do użycia|,
-		lastUpdated => 0,
-		context => q|version tag editor|
-	},
-
-	'trash version tag' => {
-		message => q|Trash Version Tag|,
-		context => q|The name of the workflow activity.|,
-		lastUpdated => 0,
-	},
-
-	'rollback version tag' => {
-		message => q|Rollback Version Tag|,
-		context => q|The name of the workflow activity.|,
-		lastUpdated => 0,
-	},
-
-	'commit version tag' => {
-		message => q|Przyjmij przywieszkę wersji|,
-		context => q|The name of the workflow activity.|,
-		lastUpdated => 0,
-	},
-
-	'group to use help' => {
-		message => q|Która grupa jest uprawniona do użycia tej przywieszki?|,
-		lastUpdated => 0,
-		context => q|hover help for group to use field|
-	},
-
-	'rollback version tag confirm' => {
-		message => q|Are you certain you wish to delete this version tag and all content created under it? It CANNOT be restored if you delete it.|,
-		lastUpdated => 0,
-		context => q|The prompt for purging a version tag from the asset tree.|
-	},
-
-	'commit version tag confirm' => {
-		message => q|Are you certain you wish to commit this version tag and everything edited under it?|,
-		lastUpdated => 0,
-		context => q|The prompt for committing a version tag to the asset tree.|
-	},
-
-	'set tag' => {
-		message => q|Set As Working Tag|,
-		lastUpdated => 0,
-		context => q|The label for choosing as a tag to work under.|
-	},
-
-	'revisions in tag' => {
-		message => q|Revisions In Tag|,
-		lastUpdated => 0,
-		context => q|The label for displaying the revisions created under a specific tag.|
-	},
-
-	'commit' => {
-		message => q|Przyjęcie|,
-		lastUpdated => 0,
-		context => q|The label for committing a tag to the asset tree.|
-	},
-
-	'rollback' => {
-		message => q|Odwołanie|,
-		lastUpdated => 0,
-		context => q|The label for purging a revision from the asset tree.|
-	},
-
-	'manage versions' => {
-		message => q|Zarządzanie wersjami.|,
-		lastUpdated => 0,
-		context => q|Menu item in version tag manager.|
-	},
-
-	'manage pending versions' => {
-		message => q|Zarządzanie nierostrzygniętymi (przetwarzanymi) wersjami.|,
-		lastUpdated => 0,
-		context => q|Menu item in version tag manager.|
-	},
-
-	'manage committed versions' => {
-		message => q|Zarządzanie przyjętymi wersjami.|,
-		lastUpdated => 0,
-		context => q|Menu item in version tag manager.|
-	},
-
-	'edit version tag' => {
-		message => q|Edycja przywieszki wersji|,
-		lastUpdated => 0,
-		context => q|Admin console label.|
-	},
-
-	'version tag name' => {
-		message => q|Nazwa przywieszki wersji|,
-		lastUpdated => 1129403466,
-		context => q|Admin console label.|
-	},
-
-	'version tag name description' => {
-		message => q|<p>Enter a name to tag the work you will do on this version of the asset.  The tag will be used to reference this work when it is time to commit, rollback or make further edits.</p>|,
-		lastUpdated => 1129403469,
-	},
-
-	'version tag name description commit' => {
-		message => q|<p>The name of the version tag you are about to commit.</p>|,
-		lastUpdated => 1129403469,
-	},
-
-	'content versioning' => {
-		message => q|Wersjonowanie kontentu (zawartości serwisu)|,
-		lastUpdated => 0,
-		context => q|Admin console label.|
-	},
-
-	'committed versions' => {
-		message => q|Committed Versions|,
-		lastUpdated => 0,
-		context => q|Admin console label.|
-	},
-
-	'pending versions' => {
-		message => q|Pending Versions|,
-		lastUpdated => 0,
-		context => q|Admin console label.|
-	},
-
-	'add a version tag' => {
-		message => q|Add a version tag.|,
-		lastUpdated => 0,
-		context => q|Menu item in version tag manager.|
-	},
-
-	'purge revision prompt' => {
-		message => q|Are you certain you wish to delete this revision of this asset? It CANNOT be restored if you delete it.|,
-		lastUpdated => 1142455321,
-		context => q|The prompt for purging a revision from the manage revisios screen.|
-	},
-
-	'manage version tags' => {
-		message => q|Manage Version Tags|,
-		lastUpdated => 1148359381,
-	},
-
-	'workflow' => {
-		message => q|Workflow|,
-		lastUpdated => 1148445024,
-	},
-
-	'workflow help' => {
-		message => q|Choose a workflow to handle your version tag.|,
-		lastUpdated => 1148445024,
-	},
-
-	'manage version tags body' => {
-		message => q|<p>This screen lists all uncommitted version tags in WebGUI, their status and an interface to manage them.  If you are currently working under a tag, the name of the tag is prominently displayed for reference.</p>
-<p>The icons next to each tag allow each tag to be edited, or deleted.  The name of the tag is a link to manage work done in the tag.  The date the tag was created and the username of the user who created are shown as well.  A link is provided so that the tag can be committed</p>
-<p>Links are also provided to set any other version tag as your new current working version tag.  From that point forward, all work will be done under the new tag.</p>|,
-		lastUpdated => 1165518479,
-	},
-
-	'manage pending versions body' => {
-		message => q|<p>This screen presents a list of pending version tags by name.  Version tags are pending after they have been committed and before they have been approved and/or processed, or if they are in the process of becoming unlocked to be re-edited.  Each name is a link to display the list of revisions in this tag.</p>|,
-		lastUpdated => 0,
-	},
-
-	'manage committed versions body' => {
-		message => q|<p>This screen lists all committed version tags in WebGUI, information about the tags and an interface to manage them.</p>
+  'add a version tag' => {
+    'context' => 'Menu item in version tag manager.',
+    'lastUpdated' => 1228860168,
+    'message' => "Dodaj przywieszk\x{119} wersji."
+  },
+  'approval message' => {
+    'context' => 'label in the request approval for version tag activity',
+    'lastUpdated' => 1228860191,
+    'message' => "Wiadomo\x{15b}\x{107} zatwierdzenia"
+  },
+  'approval message help' => {
+    'context' => 'hover help for the approval message field',
+    'lastUpdated' => 1228860247,
+    'message' => "Wprowad\x{17a} wiadomo\x{15b}\x{107}, kt&oacute;ra ma by\x{107} wys\x{142}ana razem z linkiem zatwierdzenia i danymi przywieszki do os&oacute;b zatwierdzaj\x{105}cych."
+  },
+  'approve' => {
+    'context' => 'label on the manage revisions in tag page during the approval process',
+    'lastUpdated' => 1228860332,
+    'message' => 'Zatwierdzenie'
+  },
+  'approve/deny' => {
+    'context' => 'label on the manage revisions in tag page during the approval process',
+    'lastUpdated' => 1228860341,
+    'message' => 'Zatwierdzenie/Odmowa'
+  },
+  'approve/deny help' => {
+    'context' => 'hover help for the approve/deny field',
+    'lastUpdated' => 1228860378,
+    'message' => "Czy \x{17c}yczysz sobie zatwierdzi\x{107} lub odrzuci\x{107} przywieszk\x{119}?"
+  },
+  'approveVersionTag message' => {
+    'lastUpdated' => 1228860562,
+    'message' => 'Twoja przywieszka wersji %s.'
+  },
+  'approved' => {
+    'lastUpdated' => 1228860600,
+    'message' => 'zatwierdzone'
+  },
+  'back to home' => {
+    'lastUpdated' => 1228860609,
+    'message' => 'Powr&oacute;t do strony startowej.'
+  },
+  'back to site' => {
+    'lastUpdated' => 1228860632,
+    'message' => 'Powr&oacute;t do serwisu.'
+  },
+  'bad commit' => {
+    'lastUpdated' => 1228860724,
+    'message' => "Podczas przetwarzania kontentu zdarzy\x{142}o si\x{119} co\x{15b} nieprzewidzianego. Prosz\x{119} skontaktowa\x{107} si\x{119} z administratorem systemu."
+  },
+  'comments' => {
+    'context' => 'label on the manage revisions in tag page during the approval process',
+    'lastUpdated' => 1228860739,
+    'message' => 'Komentarze'
+  },
+  'comments description commit' => {
+    'context' => 'hover help for the comments field',
+    'lastUpdated' => 1228860783,
+    'message' => "Do\x{142}\x{105}cz dowolne komentarze lub opinie do tej przywieszki wersji. Tekst b\x{119}dze dost\x{119}pny w przysz\x{142}o\x{15b}ci dla ka\x{17c}dego szukaj\x{105}cego tej przywieszki w postacji adnotacji."
+  },
+  'comments help' => {
+    'context' => 'hover help for the comments field',
+    'lastUpdated' => 1228861335,
+    'message' => "Za\x{142}\x{105}cz dowolny komentarz lub opinie do tej przywieszki. Tekst b\x{119}dzie dost\x{119}pny dla ka\x{17c}dego przegl\x{105}daj\x{105}cego przywieszki wprowadzonych zmian w serwisie, jak r&oacute;wnie\x{17c} w przysz\x{142}o\x{15b}ci w postaci adnotacji."
+  },
+  'commit' => {
+    'context' => 'The label for committing a tag to the asset tree.',
+    'lastUpdated' => 1228861347,
+    'message' => "Przyj\x{119}cie"
+  },
+  'commit accepted' => {
+    'context' => 'label on the manage revisions in tag page during the approval process',
+    'lastUpdated' => 1228861385,
+    'message' => "Twoje zmiany zosta\x{142}y przyj\x{119}te do przetworzenia i wdro\x{17c}enia. Mo\x{17c}e up\x{142}yn\x{105}\x{107} troch\x{119} czasu, zanim pojawi\x{105} si\x{119} w serwisie w wersji rzeczywistej. Gdzie chcia\x{142}by\x{15b} p&oacute;j\x{15b}\x{107} teraz?"
+  },
+  'commit version tag' => {
+    'context' => 'The name of the workflow activity.',
+    'lastUpdated' => 1228861527,
+    'message' => "Zatwierd\x{17a} przywieszk\x{119} wersji"
+  },
+  'commit version tag body' => {
+    'lastUpdated' => 1148444236,
+    'message' => '<p>Committing the version tag will make its content the current version of content that is used and displayed on your website.</p>
+'
+  },
+  'commit version tag confirm' => {
+    'context' => 'The prompt for committing a version tag to the asset tree.',
+    'lastUpdated' => 1228861693,
+    'message' => "Czy jeste\x{15b} pewny, \x{17c}e chcesz zatwierdzi\x{107} przywieszk\x{119} wersji? Zostan\x{105} zatwierdzone wszystkie zmiany wykonane w czasie jej aktywno\x{15b}ci."
+  },
+  'committed by' => {
+    'context' => 'manage committed versions',
+    'lastUpdated' => 1228861757,
+    'message' => "Przyj\x{119}te przez"
+  },
+  'committed on' => {
+    'context' => 'manage committed versions',
+    'lastUpdated' => 1228861763,
+    'message' => "Przyj\x{119}te"
+  },
+  'committed versions' => {
+    'context' => 'Admin console label.',
+    'lastUpdated' => 1228861786,
+    'message' => 'Zatwierdzone wersje'
+  },
+  'content versioning' => {
+    'context' => 'Admin console label.',
+    'lastUpdated' => 1228861794,
+    'message' => "Wersjonowanie kontentu (zawarto\x{15b}ci serwisu)"
+  },
+  'continue with workflow' => {
+    'lastUpdated' => 1228861844,
+    'message' => '-- Kontynuacja razem z tym workflow'
+  },
+  'created by' => {
+    'context' => 'manage version tags',
+    'lastUpdated' => 1228861854,
+    'message' => 'Utworzona przez'
+  },
+  'created on' => {
+    'context' => 'manage version tags',
+    'lastUpdated' => 1228861866,
+    'message' => 'Utworzona'
+  },
+  'current tag is called' => {
+    'context' => 'manage version tags',
+    'lastUpdated' => 1228861873,
+    'message' => "Aktualnie pracujesz nad przywieszk\x{105} nazwan\x{105}"
+  },
+  'denied' => {
+    'lastUpdated' => 1228861891,
+    'message' => 'odrzucone'
+  },
+  'deny' => {
+    'context' => 'label on the manage revisions in tag page during the approval process',
+    'lastUpdated' => 1228861897,
+    'message' => 'Odmowa'
+  },
+  'do on deny' => {
+    'context' => 'label in the request approval for version tag activity',
+    'lastUpdated' => 0,
+    'message' => 'Do On Deny'
+  },
+  'do on deny help' => {
+    'context' => 'hover help for the do on deny field',
+    'lastUpdated' => 0,
+    'message' => 'What workflow should we run if the tag is denied approval?'
+  },
+  'edit version tag' => {
+    'context' => 'Admin console label.',
+    'lastUpdated' => 1228862681,
+    'message' => 'Edycja przywieszki wersji'
+  },
+  'edit version tag body' => {
+    'lastUpdated' => 1148444236,
+    'message' => '<p>In this screen you will create a new version tag for use on the site, or edit an existing version tag.  Members of the Manage Version Tag group will have the additionaly ability to define how the version tag is handled via a workflow and which group is allowed to make edits under the tag.</p>
+'
+  },
+  'export version tag to html' => {
+    'context' => 'the title of the workflow activity of the same name',
+    'lastUpdated' => 0,
+    'message' => 'Eksport przywieszki wersji do HTML'
+  },
+  'group to approve' => {
+    'context' => 'label in the request approval for version tag activity',
+    'lastUpdated' => 0,
+    'message' => 'Group To Approve'
+  },
+  'group to approve help' => {
+    'context' => 'hover help for the group to approve field',
+    'lastUpdated' => 0,
+    'message' => 'Which group should be notified and allowed to approve or deny this tag?'
+  },
+  'group to use' => {
+    'context' => 'version tag editor',
+    'lastUpdated' => 0,
+    'message' => "Grupa do u\x{17c}ycia"
+  },
+  'group to use help' => {
+    'context' => 'hover help for group to use field',
+    'lastUpdated' => 0,
+    'message' => "Kt\x{f3}ra grupa jest uprawniona do u\x{17c}ycia tej przywieszki?"
+  },
+  'manage committed versions' => {
+    'context' => 'Menu item in version tag manager.',
+    'lastUpdated' => 1228862687,
+    'message' => "Zarz\x{105}dzanie przyj\x{119}tymi wersjami."
+  },
+  'manage committed versions body' => {
+    'lastUpdated' => 1148359381,
+    'message' => '<p>This screen lists all committed version tags in WebGUI, information about the tags and an interface to manage them.</p>
 <p>The name of the tag is a link to display what work was performed in the tag.  The date the tag was committed and the username of the user who committed the tag are shown as well.  A link is provided so that the tag can be rolled back.</p>
-|,
-		lastUpdated => 1148359381,
-	},
-
-	'commit version tag body' => {
-		message => q|<p>Committing the version tag will make its content the current version of content that is used and displayed on your website.</p>
-|,
-		lastUpdated => 1148444236,
-	},
-
-	'edit version tag body' => {
-		message => q|<p>In this screen you will create a new version tag for use on the site, or edit an existing version tag.  Members of the Manage Version Tag group will have the additionaly ability to define how the version tag is handled via a workflow and which group is allowed to make edits under the tag.</p>
-|,
-		lastUpdated => 1148444236,
-	},
-
-	'topicName' => {
-		message => q|Version Control|,
-		lastUpdated => 1148360141,
-	},
-
-};
+'
+  },
+  'manage pending versions' => {
+    'context' => 'Menu item in version tag manager.',
+    'lastUpdated' => 1228862712,
+    'message' => "Zarz\x{105}dzanie przetwarzanymi wersjami."
+  },
+  'manage pending versions body' => {
+    'lastUpdated' => 0,
+    'message' => '<p>This screen presents a list of pending version tags by name.  Version tags are pending after they have been committed and before they have been approved and/or processed, or if they are in the process of becoming unlocked to be re-edited.  Each name is a link to display the list of revisions in this tag.</p>'
+  },
+  'manage version tags' => {
+    'lastUpdated' => 1148359381,
+    'message' => 'Manage Version Tags'
+  },
+  'manage version tags body' => {
+    'lastUpdated' => 1165518479,
+    'message' => '<p>This screen lists all uncommitted version tags in WebGUI, their status and an interface to manage them.  If you are currently working under a tag, the name of the tag is prominently displayed for reference.</p>
+<p>The icons next to each tag allow each tag to be edited, or deleted.  The name of the tag is a link to manage work done in the tag.  The date the tag was created and the username of the user who created are shown as well.  A link is provided so that the tag can be committed</p>
+<p>Links are also provided to set any other version tag as your new current working version tag.  From that point forward, all work will be done under the new tag.</p>'
+  },
+  'manage versions' => {
+    'context' => 'Menu item in version tag manager.',
+    'lastUpdated' => 1228862726,
+    'message' => "Zarz\x{105}dzanie wersjami."
+  },
+  'notify about version tag' => {
+    'context' => 'the name of the activity',
+    'lastUpdated' => 1228862296,
+    'message' => "Powiadomi\x{107} o przywieszkach wersji"
+  },
+  'notify message' => {
+    'context' => 'label in the notify about version tag activity',
+    'lastUpdated' => 1228862308,
+    'message' => "Wiadomo\x{15b}ci powiadomienia"
+  },
+  'notify message help' => {
+    'context' => 'hover help for the notify message field',
+    'lastUpdated' => 1228862330,
+    'message' => "Wprowad\x{17a} wiadomo\x{15b}\x{107}, kt&oacute;r\x{105} ma by\x{107} wys\x{142}ana razem z danymi przywieszki."
+  },
+  'pending versions' => {
+    'context' => 'Admin console label.',
+    'lastUpdated' => 0,
+    'message' => 'Pending Versions'
+  },
+  'purge revision prompt' => {
+    'context' => 'The prompt for purging a revision from the manage revisios screen.',
+    'lastUpdated' => 1142455321,
+    'message' => 'Are you certain you wish to delete this revision of this asset? It CANNOT be restored if you delete it.'
+  },
+  'request approval for version tag' => {
+    'context' => 'the name of the activity',
+    'lastUpdated' => 0,
+    'message' => 'Request Approval For Version Tag'
+  },
+  'revisions in tag' => {
+    'context' => 'The label for displaying the revisions created under a specific tag.',
+    'lastUpdated' => 0,
+    'message' => 'Revisions In Tag'
+  },
+  'rollback' => {
+    'context' => 'The label for purging a revision from the asset tree.',
+    'lastUpdated' => 1228862354,
+    'message' => 'Wycofanie'
+  },
+  'rollback version tag' => {
+    'context' => 'The name of the workflow activity.',
+    'lastUpdated' => 1228862380,
+    'message' => 'Wycofane przywieszki wersji'
+  },
+  'rollback version tag confirm' => {
+    'context' => 'The prompt for purging a version tag from the asset tree.',
+    'lastUpdated' => 1228862560,
+    'message' => "Czy jeste\x{15b} pewny, \x{17c}e chcesz usun\x{105}\x{107} przywieszk\x{119} wersji i ca\x{142}y kontent utworzony pod ni\x{105}? Po usuni\x{119}ciu powr&oacute;t nie b\x{119}dzie ju\x{17c} mo\x{17c}liwy."
+  },
+  'set tag' => {
+    'context' => 'The label for choosing as a tag to work under.',
+    'lastUpdated' => 0,
+    'message' => 'Set As Working Tag'
+  },
+  'tag committer' => {
+    'context' => 'label in the notify about version tag activity',
+    'lastUpdated' => 1228862171,
+    'message' => '<p>Zatwierdzacz przywieszki</p>'
+  },
+  'tag creator' => {
+    'context' => 'label in the notify about version tag activity',
+    'lastUpdated' => 1228862125,
+    'message' => 'Kreator przywieszki'
+  },
+  'topicName' => {
+    'lastUpdated' => 1228862204,
+    'message' => "Zarz\x{105}dzanie wersjami"
+  },
+  'trash version tag' => {
+    'context' => 'The name of the workflow activity.',
+    'lastUpdated' => 1228862622,
+    'message' => "Wyrzu\x{107} przywieszek\x{119} wersji"
+  },
+  'unlock version tag' => {
+    'context' => 'the name of the activity',
+    'lastUpdated' => 1228862256,
+    'message' => 'Otwarte przywieszki wersji'
+  },
+  'version tag name' => {
+    'context' => 'Admin console label.',
+    'lastUpdated' => 1228862046,
+    'message' => 'Nazwa przywieszki wersji'
+  },
+  'version tag name description' => {
+    'lastUpdated' => 1129403469,
+    'message' => '<p>Enter a name to tag the work you will do on this version of the asset.  The tag will be used to reference this work when it is time to commit, rollback or make further edits.</p>'
+  },
+  'version tag name description commit' => {
+    'lastUpdated' => 1129403469,
+    'message' => '<p>The name of the version tag you are about to commit.</p>'
+  },
+  'version tags' => {
+    'lastUpdated' => 1228862059,
+    'message' => 'Przywieszki wersji'
+  },
+  'wait until' => {
+    'lastUpdated' => 1228862025,
+    'message' => 'Czekaj dop&oacute;ki'
+  },
+  'who to notify' => {
+    'context' => 'label in the notify about version tag activity',
+    'lastUpdated' => 1228861923,
+    'message' => "Kogo powiadomi\x{107}?"
+  },
+  'who to notify help' => {
+    'context' => 'hover help for the who to notify field',
+    'lastUpdated' => 1228861945,
+    'message' => "Powiadomia\x{107} osob\x{119}, kt&oacute;ra utworzy\x{142}a przywieszk\x{119}, osob\x{119} kt&oacute;ra przyj\x{119}\x{142}a przywieszk\x{119} lub ludzi, kt&oacute;rzy zostali dopuszczeni do pracy z przywieszk\x{105}."
+  },
+  'workflow' => {
+    'lastUpdated' => 1228861950,
+    'message' => 'Workflow'
+  },
+  'workflow help' => {
+    'lastUpdated' => 1228862001,
+    'message' => "Wybierz workflow dla obs\x{142}ugi twojej przywieszki wersji."
+  }
+}
+;
 
 1;
