@@ -66,7 +66,7 @@ our $I18N = {
     'message' => 'Fout in het sjabloon'
   },
   'profile layout template hoverHelp' => {
-    'lastUpdated' => 1228764695,
+    'lastUpdated' => 1229181999,
     'message' => 'Kies een layout uit de lijst voor het tonen van de verschillende account functies die bewerkbaar zijn voor de gebruiker en de inhoud van de plugin die momenteel geselecteerd is.'
   },
   'profile layout template label' => {
@@ -122,7 +122,7 @@ our $I18N = {
     'message' => 'De administrator heeft dit veld als niet zichtbaar ingesteld.'
   },
   'title' => {
-    'lastUpdated' => 1227609841,
+    'lastUpdated' => 1229182005,
     'message' => 'Profiel'
   },
   'view my profile' => {

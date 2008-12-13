@@ -62,7 +62,7 @@ our $I18N = {
     'message' => 'Bewerk layout sjabloon'
   },
   'inbox manage invitations template hoverHelp' => {
-    'lastUpdated' => 1228768362,
+    'lastUpdated' => 1229182021,
     'message' => 'Kies het sjabloon om te gebruiken voor het beheer van uitnodigingen.'
   },
   'inbox manage invitations template label' => {
