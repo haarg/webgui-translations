@@ -66,8 +66,8 @@ our $I18N = {
     'message' => 'Fehler-Vorlage'
   },
   'profile layout template hoverHelp' => {
-    'lastUpdated' => 1228751746,
-    'message' => '<p>W&auml;hlen Sie ein Layout aus der Liste, zur Anzeige der verschiednenen Account-Plugins, die vom aktuellen Benutzer bearbeitet werden k&ouml;nnen, und des Inhalts des aktuell ausgew&auml;hlten.</p>'
+    'lastUpdated' => 1229284173,
+    'message' => "W\x{e4}hlen Sie ein Layout zur Anzeige der verschiedenen Konto-Plugins, die vom aktuellen Benutzer bearbeitet werden k\x{f6}nnen sowie zur Anzeige des Inhalts des aktuell ausgew\x{e4}hlten Plugins."
   },
   'profile layout template label' => {
     'lastUpdated' => 1228751560,
@@ -122,7 +122,7 @@ our $I18N = {
     'message' => 'Der Site-Administrator hat dieses Feld als nicht sichtbar markiert.'
   },
   'title' => {
-    'lastUpdated' => 1228751018,
+    'lastUpdated' => 1229284060,
     'message' => 'Profil'
   },
   'view my profile' => {
