@@ -23,16 +23,16 @@ Sie m\x{fc}ssen diese Gallerie erst \x{fc}bergeben, bevor sie neue Alben hinzuf\
     'message' => 'Gruppe, die Kommentare zu Dateien hinzuf&uuml;gen darf.'
   },
   'groupIdAddComment label' => {
-    'lastUpdated' => 1201597182,
-    'message' => 'Gruppe f&uuml;r Hinzuf&uuml;gen von Kommentaren'
+    'lastUpdated' => 1229370377,
+    'message' => 'Wer darf kommentieren?'
   },
   'groupIdAddFile description' => {
     'lastUpdated' => 1201597191,
     'message' => 'Gruppe, die Dateien und Alben zu dieser Galerie hinzuf&uuml;gen darf.'
   },
   'groupIdAddFile label' => {
-    'lastUpdated' => 1228423847,
-    'message' => "Wer kann Dateien hinzuf\x{fc}gen?"
+    'lastUpdated' => 1229370401,
+    'message' => "Wer darf Dateien hinzuf\x{fc}gen?"
   },
   'groupIdModerator description' => {
     'lastUpdated' => 1201597217,
@@ -515,16 +515,16 @@ Sie m\x{fc}ssen diese Gallerie erst \x{fc}bergeben, bevor sie neue Alben hinzuf\
     'message' => 'Einzelnes Album'
   },
   'viewDefault option list' => {
-    'lastUpdated' => 1201600917,
-    'message' => 'Liste Alben'
+    'lastUpdated' => 1229370647,
+    'message' => 'Albenliste'
   },
   'viewListOrderBy description' => {
-    'lastUpdated' => 1201600946,
-    'message' => 'Feld, um Liste der Alben zu ordnen nach'
+    'lastUpdated' => 1229370717,
+    'message' => 'Feld, um Albenliste zu ordnen nach'
   },
   'viewListOrderBy label' => {
-    'lastUpdated' => 1201600970,
-    'message' => 'Liste Alben geordnet nach'
+    'lastUpdated' => 1229370317,
+    'message' => 'Sortierung der Albenliste'
   },
   'viewListOrderBy option creationDate' => {
     'lastUpdated' => 1201601046,
@@ -543,12 +543,12 @@ Sie m\x{fc}ssen diese Gallerie erst \x{fc}bergeben, bevor sie neue Alben hinzuf\
     'message' => 'Titel'
   },
   'viewListOrderDirection description' => {
-    'lastUpdated' => 1201601158,
-    'message' => 'Die Richtung in der Alben Liste geordnet ist'
+    'lastUpdated' => 1229370185,
+    'message' => 'Die Richtung, in der die Albenliste geordnet wird.'
   },
   'viewListOrderDirection label' => {
-    'lastUpdated' => 1201601173,
-    'message' => 'Liste Alben Richtung'
+    'lastUpdated' => 1229370056,
+    'message' => 'Sortierrichtung der Albenliste'
   },
   'viewListOrderDirection option asc' => {
     'lastUpdated' => 1201601223,
@@ -559,12 +559,12 @@ Sie m\x{fc}ssen diese Gallerie erst \x{fc}bergeben, bevor sie neue Alben hinzuf\
     'message' => 'Absteigend'
   },
   'workflowIdCommit description' => {
-    'lastUpdated' => 1201601322,
-    'message' => 'Workflow f&uuml;r Freigabe neuer Dateien.'
+    'lastUpdated' => 1229369777,
+    'message' => 'Ablauf für die Freigabe neuer Dateien.'
   },
   'workflowIdCommit label' => {
-    'lastUpdated' => 1201601338,
-    'message' => 'Freigabe Workflow'
+    'lastUpdated' => 1229369721,
+    'message' => 'Freigabe-Ablauf'
   }
 }
 ;
