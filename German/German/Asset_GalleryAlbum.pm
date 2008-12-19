@@ -34,8 +34,8 @@ our $I18N = {
     'message' => 'Abbrechen'
   },
   'delete message' => {
-    'lastUpdated' => 1229372997,
-    'message' => "Das Album wurde gel\x{f6}scht. <a href=\"s\">Zur\x{fc}ck zur Galerie</a>"
+    'lastUpdated' => 1229712882,
+    'message' => 'Das Album wurde gelöscht. <a href="%s">Zurück zur Galerie</a>'
   },
   'editForm assetIdThumbnail label' => {
     'lastUpdated' => 1229104948,
@@ -126,12 +126,12 @@ our $I18N = {
     'message' => 'Galerie-Album-RSS-Feed-Variablen'
   },
   'helpvar canAddFile' => {
-    'lastUpdated' => 1229373624,
-    'message' => 'Diese Variable ist wahr, falls ein Benutzer Dateien zu diesem Album hinzufügen darf.'
+    'lastUpdated' => 1229713170,
+    'message' => 'Variable die wahr ist, falls ein Benutzer Dateien zu diesem Album hinzufügen darf.'
   },
   'helpvar canEdit' => {
-    'lastUpdated' => 1229373611,
-    'message' => 'Diese Variable ist wahr, falls ein Benutzer das Album bearbeiten darf.'
+    'lastUpdated' => 1229713204,
+    'message' => 'Variable die wahr ist, falls ein Benutzer das Album bearbeiten darf.'
   },
   'helpvar error' => {
     'lastUpdated' => 1229373583,
@@ -174,8 +174,8 @@ our $I18N = {
     'message' => "Eine Schaltfl\x{e4}che, um das Bild in der Reihenfolge nach unten zu bewegen. Benutzen Sie diese, um die Anordnung der Bilder zu \x{e4}ndern."
   },
   'helpvar form_description' => {
-    'lastUpdated' => 1201603236,
-    'message' => 'Beschreibung des Albums.'
+    'lastUpdated' => 1229713100,
+    'message' => 'Die Beschreibung des Albums.'
   },
   'helpvar form_end' => {
     'lastUpdated' => 1201603251,
@@ -222,16 +222,16 @@ our $I18N = {
     'message' => 'Der URL zur Gallerie, welche diese Datei enthält.'
   },
   'helpvar isAlbumThumbnail' => {
-    'lastUpdated' => 1201603390,
-    'message' => 'Wahr, falls die Datei das aktuelle Vorschaubild des Albums ist.'
+    'lastUpdated' => 1229713070,
+    'message' => 'Variable die wahr ist, falls die Datei das aktuelle Vorschaubild des Albums ist.'
   },
   'helpvar isNewAlbum' => {
-    'lastUpdated' => 1229105566,
-    'message' => 'Boolesche Variable die wahr ist, falls der Benutzer ein neues Album in der Gallerie anlegt.'
+    'lastUpdated' => 1229712995,
+    'message' => 'Variable die wahr ist, falls der Benutzer ein neues Album in der Gallerie anlegt.'
   },
   'helpvar isPending' => {
-    'lastUpdated' => 1229105868,
-    'message' => 'Boolesche Variable die wahr ist, falls das Album noch nicht genehmigt wurde. Benutzer, welche das Recht zur Bearbeitung haben, können es jedoch schon vorab sehen.'
+    'lastUpdated' => 1229713338,
+    'message' => "Variable die wahr ist, falls das Album noch nicht freigegeben wurde. Benutzer, welche das Recht zur Bearbeitung haben, k\x{f6}nnen es jedoch schon vorab sehen."
   },
   'helpvar nextAlbum_thumbnailUrl' => {
     'lastUpdated' => 1229105929,
@@ -246,8 +246,8 @@ our $I18N = {
     'message' => "Der URL zum n\x{e4}chsten Album, ausgehend von der Reihenfolge, wie sie in der Listenansicht der Gallerie zu sehen ist. Diese Variable existiert nicht, falls es kein weiteres Album gibt."
   },
   'helpvar ownerUsername' => {
-    'lastUpdated' => 1201603414,
-    'message' => 'Benutzername des Besitzers dieses Albums.'
+    'lastUpdated' => 1229713251,
+    'message' => 'Der Benutzername des Besitzers dieses Albums.'
   },
   'helpvar previousAlbum_thumbnailUrl' => {
     'lastUpdated' => 1229106236,
@@ -330,8 +330,8 @@ our $I18N = {
     'message' => 'Speichern'
   },
   'save message' => {
-    'lastUpdated' => 1229372282,
-    'message' => "Die Einstellungen f\x{fc}r das Album wurden gespeichert. <a href=\"%s%\">Zur\x{fc}ck zum Album</a>"
+    'lastUpdated' => 1229712933,
+    'message' => "Die Einstellungen f\x{fc}r das Album wurden gespeichert. <a href=\"%s\">Zur\x{fc}ck zum Album</a>"
   },
   'template add' => {
     'lastUpdated' => 1229106381,
