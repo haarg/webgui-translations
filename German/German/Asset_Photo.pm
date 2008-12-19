@@ -2,28 +2,28 @@ package WebGUI::i18n::German::Asset_Photo;
 use utf8;
 our $I18N = {
   'assetName' => {
-    'lastUpdated' => 1201607441,
-    'message' => 'Photo'
+    'lastUpdated' => 1229722493,
+    'message' => 'Foto'
   },
   'comment message' => {
-    'lastUpdated' => 1201607491,
-    'message' => 'Ihr Kommentar wurde hinzugef&uuml;gt. <a href=&quot;%s&quot;>Zur&uuml;ck zu Photo</a>.'
+    'lastUpdated' => 1229722523,
+    'message' => "Ihr Kommentar wurde hinzugef\x{fc}gt. <a href=\"%s\">Zur\x{fc}ck zum Foto</a>."
   },
   'commentForm error no bodyText' => {
-    'lastUpdated' => 1217314907,
-    'message' => 'Es wurde kein Text eingegeben. Bitte geben Sie einen Text ein, um einen Kommentar zu erzeugen.'
+    'lastUpdated' => 1229722538,
+    'message' => 'Es wurde kein Text eingegeben. Bitte geben Sie einen Text ein, um einen Kommentar zu erzeugen!'
   },
   'commentForm error no commentId' => {
-    'lastUpdated' => 1226016728,
-    'message' => 'Es wurde keine ID f&uuml;r den Kommentar vergeben. Es exisitiert ein Problem mit der Vorlage. Bitte informieren Sie einen Administrator.'
+    'lastUpdated' => 1229722593,
+    'message' => "Es wurde keine ID f\x{fc}r den Kommentar vergeben. Dies bedeutet, dass ein Problem mit der Schablone besteht. Bitte informieren Sie einen Administrator!"
   },
   'delete message' => {
-    'lastUpdated' => 1201607531,
-    'message' => 'Das Photo wurde gel&ouml;scht. <a href=&quot;%s&quot;>Zur&uuml;ck zum Album</a>'
+    'lastUpdated' => 1229722618,
+    'message' => 'Das Foto wurde gelöscht. <a href="%s">Zurück zum Album</a>'
   },
   'editCommentSave message' => {
     'lastUpdated' => 1223576793,
-    'message' => 'Die Bemerkung wurde aktualisiert. <a href="%s">Zurück zum Bild</a>'
+    'message' => "Die Bemerkung wurde aktualisiert. <a href=\"%s\">Zur\x{fc}ck zum Bild</a>"
   },
   'editForm cancel' => {
     'lastUpdated' => 1217314939,
@@ -34,8 +34,8 @@ our $I18N = {
     'message' => 'Nur Freunde'
   },
   'editForm keywords' => {
-    'lastUpdated' => 1226016545,
-    'message' => 'Tags'
+    'lastUpdated' => 1229722641,
+    'message' => "Stichw\x{f6}rter"
   },
   'editForm location' => {
     'lastUpdated' => 1226016555,
@@ -54,48 +54,48 @@ our $I18N = {
     'message' => 'Speichern'
   },
   'editForm synopsis label' => {
-    'lastUpdated' => 1226016581,
-    'message' => 'Foto-&Uuml;berschrift'
+    'lastUpdated' => 1229722662,
+    'message' => 'Foto-Beschriftung'
   },
   'editForm title label' => {
     'lastUpdated' => 1217315028,
     'message' => 'Titel'
   },
   'error no space' => {
-    'lastUpdated' => 1217315070,
-    'message' => 'Sie haben nicht genug Plattenplatz, um diese Datei hochzuladen.'
+    'lastUpdated' => 1229722689,
+    'message' => 'Sie haben nicht genug Speicherplatz, um diese Datei hochzuladen.'
   },
   'help commentForm body' => {
-    'lastUpdated' => 1201607612,
-    'message' => 'Diese Template Variablen sind f&uuml;r ein Formular, das es Benutzern erlaubt, Kommentare zu Photos hinzuzuf&uuml;gen'
+    'lastUpdated' => 1229722731,
+    'message' => 'Diese Schablonen-Variablen sind für ein Formular, das es Benutzern erlaubt, Kommentare zu Fotos hinzuzufügen.'
   },
   'help commentForm title' => {
-    'lastUpdated' => 1201607625,
-    'message' => 'Photo -- Kommentar Formular'
+    'lastUpdated' => 1229725953,
+    'message' => 'Foto -- Formular für Kommentare'
   },
   'help common body' => {
     'lastUpdated' => 1201607652,
     'message' => 'Diese Template Variablen sind allen Ansichten des Photo Assets gemeinsam.'
   },
   'help common title' => {
-    'lastUpdated' => 1201607663,
-    'message' => 'Photo -- Allgemein'
+    'lastUpdated' => 1229722761,
+    'message' => 'Foto -- Allgemein'
   },
   'help delete body' => {
-    'lastUpdated' => 1201607687,
-    'message' => 'Best&auml;tigen Sie das L&ouml;schen des Photo Assets.'
+    'lastUpdated' => 1229726156,
+    'message' => 'Bestätigen Sie das Löschen des Photo Assets.'
   },
   'help delete title' => {
-    'lastUpdated' => 1201607700,
-    'message' => 'Photo -- L&ouml;schen Formular'
+    'lastUpdated' => 1229725913,
+    'message' => 'Foto -- Formular zum Löschen'
   },
   'help edit body' => {
     'lastUpdated' => 1201607743,
     'message' => 'Diese Template Variablen sind f&uuml;r ein Formular f&uuml;r das hinzuf&uuml;gen / editieren von Photo Assets'
   },
   'help edit title' => {
-    'lastUpdated' => 1201607756,
-    'message' => 'Photo -- Edit Formular'
+    'lastUpdated' => 1229725933,
+    'message' => 'Foto -- Formular zur Bearbeitung'
   },
   'help editComment body' => {
     'lastUpdated' => 1217315111,
@@ -110,280 +110,280 @@ our $I18N = {
     'message' => 'Diese Template Variablen sind f&uuml;r ein Formular f&uuml;r Shortcuts auf Photo Assets'
   },
   'help makeShortcut title' => {
-    'lastUpdated' => 1201607812,
-    'message' => 'Photo -- Shortcuts anlegen Formular'
+    'lastUpdated' => 1229725976,
+    'message' => "Foto -- Formular f\x{fc}r Verweise"
   },
   'help view body' => {
-    'lastUpdated' => 1201607839,
-    'message' => 'Diese Template Variablen sind f&uuml;r die normale Ansicht von Photo Assets'
+    'lastUpdated' => 1229726221,
+    'message' => "Schablonen-Variablen, welche in der Standard-Ansicht von Fotos zur Verf\x{fc}gung stehen."
   },
   'help view title' => {
-    'lastUpdated' => 1201607848,
-    'message' => 'Photo -- Normale Ansicht'
+    'lastUpdated' => 1229725794,
+    'message' => 'Foto -- Normale Ansicht'
   },
   'helpvar album_menuTitle' => {
-    'lastUpdated' => 1217315149,
-    'message' => 'Der Men&uuml;titel des Albums, das diese Datei beinhaltet'
+    'lastUpdated' => 1229725884,
+    'message' => "Der Men\x{fc}titel des Albums, welches diese Datei enth\x{e4}lt."
   },
   'helpvar album_thumbnailUrl' => {
-    'lastUpdated' => 1217315185,
-    'message' => 'Die URL des Vorschaubildes des Albums, das diese Datei beinhaltet'
+    'lastUpdated' => 1229725757,
+    'message' => "Der URL des Vorschaubildes des Albums, welches diese Datei enth\x{e4}lt."
   },
   'helpvar album_title' => {
-    'lastUpdated' => 1217315203,
-    'message' => 'Der Titel des Albums, das diese Datei beinhaltet'
+    'lastUpdated' => 1229725769,
+    'message' => 'Der Titel des Albums, welches diese Datei enthält.'
   },
   'helpvar album_url' => {
-    'lastUpdated' => 1217315225,
-    'message' => 'Die URL des Albums, das diese Datei beinhaltet'
+    'lastUpdated' => 1229725782,
+    'message' => "Der URL des Albums, welches diese Datei enth\x{e4}lt."
   },
   'helpvar canComment' => {
-    'lastUpdated' => 1201607874,
-    'message' => 'Wahr, falls der aktuelle Benutzer dieses Photo kommentieren darf'
+    'lastUpdated' => 1229725139,
+    'message' => 'Variable die wahr ist, falls der aktuelle Benutzer dieses Foto kommentieren darf.'
   },
   'helpvar canEdit' => {
-    'lastUpdated' => 1201607895,
-    'message' => 'Wahr, falls der aktuelle Benutzer dieses Photo editieren darf'
+    'lastUpdated' => 1229725167,
+    'message' => 'Variable die wahr ist, falls der aktuelle Benutzer dieses Foto bearbeiten darf.'
   },
   'helpvar commentForm_bodyText' => {
     'lastUpdated' => 1201607944,
     'message' => 'Der Inhalt eines Kommentars. Ein Rich Editor wurde f&uuml;r die Vorga&auml;nger (Parent) Galerie konfiguriert.'
   },
   'helpvar commentForm_end' => {
-    'lastUpdated' => 1201607958,
-    'message' => 'Ende des Kommentar Formulars'
+    'lastUpdated' => 1229726006,
+    'message' => 'Das Ende des Formulars für Kommentare.'
   },
   'helpvar commentForm_start' => {
-    'lastUpdated' => 1201607969,
-    'message' => 'Beginn des Kommentar Formulars'
+    'lastUpdated' => 1229726030,
+    'message' => "Der Beginn des Formulars f\x{fc}r Kommentare."
   },
   'helpvar commentForm_submit' => {
-    'lastUpdated' => 1201607985,
-    'message' => 'Submit Kommentar Formular'
+    'lastUpdated' => 1229726118,
+    'message' => "\x{dc}bergebe das Formular f\x{fc}r Kommentare."
   },
   'helpvar commentLoop' => {
-    'lastUpdated' => 1201608009,
-    'message' => 'Schleife &uuml;ber eine Setie von Kommentaren dieses Photos'
+    'lastUpdated' => 1229725579,
+    'message' => 'Schleife über eine Seite mit Kommentaren zu diesem Foto.'
   },
   'helpvar commentLoop bodyText' => {
-    'lastUpdated' => 1201608021,
-    'message' => 'Der Inhalt des Kommentars'
+    'lastUpdated' => 1229725541,
+    'message' => 'Der Inhalt des Kommentars.'
   },
   'helpvar commentLoop creationDate' => {
-    'lastUpdated' => 1201608034,
-    'message' => 'Erstellungsdatum des Kommentars'
+    'lastUpdated' => 1229725530,
+    'message' => 'Erstellungsdatum des Kommentars.'
   },
   'helpvar commentLoop url_deleteComment' => {
-    'lastUpdated' => 1217315248,
-    'message' => 'Die URL zum L&ouml;schen dieses Kommentars.'
+    'lastUpdated' => 1229725518,
+    'message' => "Der URL zum L\x{f6}schen dieses Kommentars."
   },
   'helpvar commentLoop userId' => {
-    'lastUpdated' => 1201608130,
-    'message' => 'Die BenutzerId des Benutzers, der den Kommentar erzeugt hat.'
+    'lastUpdated' => 1229725499,
+    'message' => 'Die Id des Benutzers, der den Kommentar erstellt hat.'
   },
   'helpvar commentLoop username' => {
-    'lastUpdated' => 1201608120,
-    'message' => 'Der Benutzername des Benutzers, der den Kommentar erzeugt hat.'
+    'lastUpdated' => 1229725468,
+    'message' => 'Der Benutzername des Benutzers, der den Kommentar erstellt hat.'
   },
   'helpvar commentLoop visitorIp' => {
-    'lastUpdated' => 1201608159,
-    'message' => 'Falls der Benutzer ein Besucher (Visitor) ist, die IP Adresse des Benutzers.'
+    'lastUpdated' => 1229725432,
+    'message' => 'Die IP-Adresse des Benutzers, falls dieser ein nicht-registrierter Besucher ist.'
   },
   'helpvar commentLoop_pageBar' => {
-    'lastUpdated' => 1201608289,
-    'message' => 'Balken, um durch die Seiten von Kommentaren zu navigieren'
+    'lastUpdated' => 1229725388,
+    'message' => 'Die Leiste, um durch die Seiten mit Kommentaren zu navigieren.'
   },
   'helpvar error' => {
-    'lastUpdated' => 1217315260,
-    'message' => 'Die i18n Fehlermeldung'
+    'lastUpdated' => 1229725102,
+    'message' => 'Die i18n-Fehlermeldung.'
   },
   'helpvar errors' => {
-    'lastUpdated' => 1217315281,
-    'message' => 'Eine Schleife mit Fehlermeldungen f&uuml;r den Benutzer'
+    'lastUpdated' => 1229725063,
+    'message' => 'Eine Schleife mit Fehlermeldungen zur Anzeige gegenüber dem Benutzer.'
   },
   'helpvar exifLoop' => {
-    'lastUpdated' => 1201608305,
-    'message' => 'Schleife von EXIF Tags'
+    'lastUpdated' => 1229724973,
+    'message' => 'Schleife über EXIF-Tags.'
   },
   'helpvar exifLoop tag' => {
-    'lastUpdated' => 1201608317,
-    'message' => 'Der Name des EXIF Tags'
+    'lastUpdated' => 1229724958,
+    'message' => 'Der Name des EXIF-Tags.'
   },
   'helpvar exifLoop value' => {
-    'lastUpdated' => 1201608329,
-    'message' => 'Der Wert des EXIF Tags'
+    'lastUpdated' => 1229724947,
+    'message' => 'Der Wert des EXIF-Tags.'
   },
   'helpvar exif_' => {
-    'lastUpdated' => 1201608356,
-    'message' => 'Jeder EXIF Tag kann &uuml;ber einen Namen referenziert werden.'
+    'lastUpdated' => 1229724920,
+    'message' => "Jeder EXIF-Tag kann \x{fc}ber seinen Namen referenziert werden."
   },
   'helpvar fileUrl' => {
-    'lastUpdated' => 1201608395,
-    'message' => 'URL zum Photo in Normalgr&ouml;&szlig;e'
+    'lastUpdated' => 1229724886,
+    'message' => 'Der URL zum Foto in Originalgröße.'
   },
   'helpvar form_end' => {
-    'lastUpdated' => 1201608412,
-    'message' => 'Ende des Formulars.'
+    'lastUpdated' => 1229725647,
+    'message' => 'Das Ende des Formulars.'
   },
   'helpvar form_friendsOnly' => {
-    'lastUpdated' => 1201608429,
-    'message' => 'Photo nur f&uuml;r Freunde?'
+    'lastUpdated' => 1229724787,
+    'message' => "Foto nur f\x{fc}r Freunde?"
   },
   'helpvar form_keywords' => {
-    'lastUpdated' => 1201608454,
-    'message' => 'Die Schl&uuml;sselw&ouml;rter f&uuml;r das Photo.'
+    'lastUpdated' => 1229724773,
+    'message' => 'Die Stichwörter für das Foto.'
   },
   'helpvar form_location' => {
-    'lastUpdated' => 1201608472,
-    'message' => 'Der Ort, an dem das Photo aufgenommen wurde.'
+    'lastUpdated' => 1229724744,
+    'message' => 'Der Ort, an dem das Foto aufgenommen wurde.'
   },
   'helpvar form_parentId' => {
-    'lastUpdated' => 1201608502,
-    'message' => 'W&auml;lhen Sie das Album, in dem der Shortcut angelegt werden soll.'
+    'lastUpdated' => 1229724723,
+    'message' => 'Wählen Sie das Album, in dem der Verweis angelegt werden soll!'
   },
   'helpvar form_photo' => {
-    'lastUpdated' => 1201608520,
-    'message' => 'Hochzuladendes Photo.'
+    'lastUpdated' => 1229724681,
+    'message' => 'Das hochzuladende Foto.'
   },
   'helpvar form_start' => {
     'lastUpdated' => 1201608530,
     'message' => 'Beginn des Formulars.'
   },
   'helpvar form_submit' => {
-    'lastUpdated' => 1201608539,
-    'message' => 'Submit Formular.'
+    'lastUpdated' => 1229724653,
+    'message' => 'Übergebe das Formular.'
   },
   'helpvar form_synopsis' => {
-    'lastUpdated' => 1201608673,
-    'message' => '&Uuml;berschrift f&uuml;r das Photo.'
+    'lastUpdated' => 1229724607,
+    'message' => 'Die Beschriftung des Fotos.'
   },
   'helpvar form_title' => {
-    'lastUpdated' => 1201608579,
-    'message' => 'Der Titel des Photos.'
+    'lastUpdated' => 1229724589,
+    'message' => 'Der Titel des Fotos.'
   },
   'helpvar gallery_menuTitle' => {
-    'lastUpdated' => 1217315314,
-    'message' => 'Der Men&uuml;titel der Galerie, die diese Datei beinhaltet'
+    'lastUpdated' => 1229724578,
+    'message' => "Der Men\x{fc}titel der Galerie, die diese Datei enth\x{e4}lt."
   },
   'helpvar gallery_title' => {
-    'lastUpdated' => 1217315331,
-    'message' => 'Der Titel der Galerie, die diese Datei beinhaltet'
+    'lastUpdated' => 1229724556,
+    'message' => 'Der Titel der Galerie, die diese Datei enthält.'
   },
   'helpvar gallery_url' => {
-    'lastUpdated' => 1217315350,
-    'message' => 'Die URL der Galerie, die diese Datei beinhaltet'
+    'lastUpdated' => 1229724540,
+    'message' => "Der URL der Galerie, die diese Datei enth\x{e4}lt."
   },
   'helpvar isNewPhoto' => {
     'lastUpdated' => 1217315374,
     'message' => 'Diese Variable ist wahr, falls der Benutzer ein neues Photo hinzuf&uuml;gt'
   },
   'helpvar isPending' => {
-    'lastUpdated' => 1217315461,
-    'message' => 'Ein Flag, das gesetzt wird, falls das Photo noch nicht freigegeben wurde. Benutzer, die das Photo bearbeiten k&ouml;nnen, d&uuml;rfen dieses auch sehen bevor es freigegeben wird.'
+    'lastUpdated' => 1229724516,
+    'message' => 'Variable die wahr ist, falls das Foto noch nicht freigegeben wurde. Benutzer, die berechtigt sind, das Foto zu bearbeiten, dürfen es schon sehen noch bevor es freigegeben wurde.'
   },
   'helpvar keyword' => {
-    'lastUpdated' => 1217315470,
-    'message' => 'Das Schl&uuml;sselwort'
+    'lastUpdated' => 1229724332,
+    'message' => 'Das Schlüsselwort'
   },
   'helpvar keywords' => {
-    'lastUpdated' => 1217315495,
-    'message' => 'Eine Schleife mit Schl&uuml;sselw&ouml;rtern, die dem Photo zugeordnet sind.'
+    'lastUpdated' => 1229724819,
+    'message' => 'Eine Schleife mit Stichwörtern, die diesem Foto zugeordnet sind.'
   },
   'helpvar numberOfComments' => {
-    'lastUpdated' => 1201608703,
-    'message' => 'Gesamtanzahl Kommentare f&uuml;r dieses Photos'
+    'lastUpdated' => 1229724284,
+    'message' => 'Die Anzahl der Kommentare für dieses Foto.'
   },
   'helpvar ownerUsername' => {
-    'lastUpdated' => 1201608725,
-    'message' => 'Der Benutzername des Benutzers, der dieses Photo hochgeladen hat'
+    'lastUpdated' => 1229724250,
+    'message' => "Der Benutzername des Benutzers, der dieses Foto \x{fc}bermittelt hat."
   },
   'helpvar resolutions_' => {
-    'lastUpdated' => 1221333880,
-    'message' => "URL zu einer bekannten Aufl\x{f6}sung. \"800\"-Aufl\x{f6}sung w\x{fc}rde als \"resolutions_800\" eingetragen."
+    'lastUpdated' => 1229724220,
+    'message' => 'Der URL zu einer bestimmten Auflösung. Der URL für eine Auflösung von 800 Pixeln wäre als "resolutions_800" definiert.'
   },
   'helpvar resolutions_loop' => {
-    'lastUpdated' => 1201608762,
-    'message' => 'Die verf&uuml;gbaren Aufl&ouml;sungen des Photos f&uuml;r den Download.'
+    'lastUpdated' => 1229724058,
+    'message' => "Die verf\x{fc}gbaren Aufl\x{f6}sungen des Fotos f\x{fc}r den Download."
   },
   'helpvar resolutions_loop resolution' => {
-    'lastUpdated' => 1217315525,
-    'message' => 'Die Aufl&ouml;sung des Photos.'
+    'lastUpdated' => 1229724033,
+    'message' => 'Die Auflösung des Fotos.'
   },
   'helpvar resolutions_loop url_download' => {
-    'lastUpdated' => 1201608787,
-    'message' => 'URL zum Download des Photos in einer bestimmten Aufl&ouml;sung.'
+    'lastUpdated' => 1229723995,
+    'message' => 'Der URL zum Download des Fotos in einer bestimmten Auflösung.'
   },
   'helpvar synopsis_text' => {
-    'lastUpdated' => 1223576866,
-    'message' => 'Day Feld "Synopsis" ohne HTML-Tags'
+    'lastUpdated' => 1229724018,
+    'message' => 'Das Feld "Synopsis" ohne HTML-Code.'
   },
   'helpvar thumbnailUrl' => {
-    'lastUpdated' => 1201608803,
-    'message' => 'URL zum Vorschaubild dieses Photos'
+    'lastUpdated' => 1229723961,
+    'message' => 'Der URL zum Vorschaubild dieses Fotos.'
   },
   'helpvar url_addArchive' => {
-    'lastUpdated' => 1201608838,
-    'message' => 'URL zum Hinzuf&uuml;gen eines Archivs zum Vorg&auml;nger (Parent) Album'
+    'lastUpdated' => 1229723948,
+    'message' => 'Der URL zum Hinzufügen eines Archivs zum übergeordneten Album.'
   },
   'helpvar url_album' => {
-    'lastUpdated' => 1217315562,
-    'message' => 'Die URL des Albums, das diese Datei beinhaltet'
+    'lastUpdated' => 1229723873,
+    'message' => "Der URL des Albums, welches diese Datei enth\x{e4}lt."
   },
   'helpvar url_delete' => {
-    'lastUpdated' => 1201608851,
-    'message' => 'URL zum L&ouml;schen dieses Photos.'
+    'lastUpdated' => 1229723843,
+    'message' => 'Der URL zum Löschen dieses Fotos.'
   },
   'helpvar url_demote' => {
-    'lastUpdated' => 1201609093,
-    'message' => 'URL zum zur&uuml;ckstufen des Ranges des Photos. Bringt den Benutzer direkt zum Vorg&auml;nger (Parent) Galerie Album Editieren Formular'
+    'lastUpdated' => 1229723829,
+    'message' => "Der URL zur Zur\x{fc}ckstufung des Ranges dieses Fotos. Bringt den Benutzer direkt zum Bearbeitungs-Formular der \x{fc}bergeordneten Galerie."
   },
   'helpvar url_edit' => {
-    'lastUpdated' => 1201608934,
-    'message' => 'URL zum Editieren dieses Photos'
+    'lastUpdated' => 1229723710,
+    'message' => 'Der URL zum Bearbeiten dieses Fotos.'
   },
   'helpvar url_gallery' => {
-    'lastUpdated' => 1201608960,
-    'message' => 'URL zur Galerie, die das Photo enth&auml;lt.'
+    'lastUpdated' => 1229723690,
+    'message' => 'Der URL zur Galerie, die dieses Foto enthält.'
   },
   'helpvar url_listFilesForOwner' => {
-    'lastUpdated' => 1201609000,
-    'message' => 'URL zum Auflisten der Dateien und Alben, die der Besitzer dieses Photos hochgeladen hat'
+    'lastUpdated' => 1229723619,
+    'message' => "Der URL zur Auflistung der Dateien und Alben, die der Besitzer dieses Fotos \x{fc}bermittelt hat."
   },
   'helpvar url_makeShortcut' => {
-    'lastUpdated' => 1201609016,
-    'message' => 'URL zum Erzeugen eines Shortcuts auf dieses Photo.'
+    'lastUpdated' => 1229723550,
+    'message' => 'Der URL zum Erzeugen eines Verweises auf dieses Foto.'
   },
   'helpvar url_promote' => {
-    'lastUpdated' => 1201609103,
-    'message' => 'URL zum Verbessern des Ranges dieses Photos. Bringt den Benutzer direkt zum Vorg&auml;nger (Parent) Galerie Album Editieren Formular'
+    'lastUpdated' => 1229723458,
+    'message' => "Der URL zur Verbesserung des Ranges dieses Fotos. Bringt den Benutzer direkt zum Bearbeitungs-Formular der \x{fc}bergeordneten Galerie."
   },
   'helpvar url_searchKeyword' => {
-    'lastUpdated' => 1217315591,
-    'message' => 'URL zur Suchseite der Galerie f&uuml;r dieses Schl&uuml;sselwort'
+    'lastUpdated' => 1229723381,
+    'message' => 'Der URL zur Suchseite der Galerie für dieses Schlüsselwort.'
   },
   'helpvar url_searchKeywordUser' => {
-    'lastUpdated' => 1217315629,
-    'message' => 'URL zur Suchseite der Galerie f&uuml;r dieses Schl&uuml;sselwort. Limitiert Suche auf Photos dieses Benutzers.'
+    'lastUpdated' => 1229723357,
+    'message' => "Der URL zur Suchseite der Galerie f\x{fc}r dieses Schl\x{fc}sselwort. Die Suche ist auf Fotos des aktuellen Benutzers beschr\x{e4}nkt."
   },
   'helpvar url_slideshow' => {
-    'lastUpdated' => 1217315677,
-    'message' => 'URL zur Diashow Ansicht des Albums, das diese Datei beinhaltet.'
+    'lastUpdated' => 1229723905,
+    'message' => "Der URL zur Diashow-Ansicht des Albums, welches diese Datei enth\x{e4}lt."
   },
   'helpvar url_thumbnails' => {
-    'lastUpdated' => 1217315709,
-    'message' => 'URL zur Vorschaubild Ansicht des Albums, das diese Datei beinhaltet'
+    'lastUpdated' => 1229723890,
+    'message' => 'Der URL zur Vorschaubild-Ansicht des Albums, welches diese Datei enthält.'
   },
   'helpvar url_yes' => {
-    'lastUpdated' => 1201609121,
-    'message' => 'Best&auml;tigen Sie das L&ouml;schen dieses Photos.'
+    'lastUpdated' => 1229723186,
+    'message' => "Best\x{e4}tigen Sie das L\x{f6}schen dieses Fotos."
   },
   'save message' => {
-    'lastUpdated' => 1201609190,
-    'message' => 'Ihr Photo wurde zur Freigabe und zum Commit eingereicht. <a href=&quot;%s&quot;>Photo ansehen</a>. <a href=&quot;%s&quot;>Noch ein Photo hochladen</a>.'
+    'lastUpdated' => 1229723159,
+    'message' => 'Ihr Foto wartet auf Freigabe für die Veröffentlichung. <a href="%s">Foto ansehen</a>. <a href="%s">Ein weiteres Foto hinzufügen</a>.'
   },
   'template assetName' => {
-    'lastUpdated' => 1217315715,
-    'message' => 'Photo'
+    'lastUpdated' => 1229723026,
+    'message' => 'Foto'
   },
   'template comment add title' => {
     'lastUpdated' => 1217315724,
@@ -410,36 +410,36 @@ our $I18N = {
     'message' => 'Hochgeladen am'
   },
   'template delete albums' => {
-    'lastUpdated' => 1217315799,
-    'message' => 'Photo befindet sich zur Zeit in folgenden Alben:'
+    'lastUpdated' => 1229722986,
+    'message' => 'Das Foto befindet sich in den folgenden Alben:'
   },
   'template delete message' => {
-    'lastUpdated' => 1217315824,
-    'message' => 'Sind Sie sich sicher, das Sie dies l&ouml;schen wollen?'
+    'lastUpdated' => 1229723214,
+    'message' => 'Sind Sie sicher, das Sie dies löschen wollen?'
   },
   'template error happened' => {
     'lastUpdated' => 1217315843,
     'message' => 'Beim Bearbeiten Ihrer Anfrage ist ein Fehler aufgetreten.'
   },
   'template fileUrl' => {
-    'lastUpdated' => 1217315877,
-    'message' => 'Bild in voller Gr&ouml;&szlig;e betrachten'
+    'lastUpdated' => 1229722868,
+    'message' => 'Bild in voller Größe betrachten'
   },
   'template friendsOnly label' => {
     'lastUpdated' => 1226016599,
     'message' => 'Privat'
   },
   'template friendsOnly no' => {
-    'lastUpdated' => 1217315894,
-    'message' => '&Ouml;ffentlich'
+    'lastUpdated' => 1229722855,
+    'message' => "\x{d6}ffentlich"
   },
   'template friendsOnly yes' => {
     'lastUpdated' => 1217315902,
     'message' => 'Nur Freunde'
   },
   'template keywords' => {
-    'lastUpdated' => 1226016606,
-    'message' => 'Tags'
+    'lastUpdated' => 1229724838,
+    'message' => "Stichw\x{f6}rter"
   },
   'template location' => {
     'lastUpdated' => 1226016613,
@@ -454,36 +454,36 @@ our $I18N = {
     'message' => 'Datei'
   },
   'template makeShortcut title' => {
-    'lastUpdated' => 1226016756,
-    'message' => 'Cross Publish'
+    'lastUpdated' => 1229722432,
+    'message' => "Anderswo ver\x{f6}ffentlichen"
   },
   'template url_album' => {
-    'lastUpdated' => 1217315937,
-    'message' => 'Zur&uuml;ck zum Album'
+    'lastUpdated' => 1229722834,
+    'message' => "Zur\x{fc}ck zum Album"
   },
   'template url_delete' => {
-    'lastUpdated' => 1217315943,
-    'message' => 'Photo l&ouml;schen'
+    'lastUpdated' => 1229722845,
+    'message' => 'Foto löschen'
   },
   'template url_deleteComment' => {
-    'lastUpdated' => 1217315950,
-    'message' => 'l&ouml;schen'
+    'lastUpdated' => 1229722803,
+    'message' => 'löschen'
   },
   'template url_edit' => {
-    'lastUpdated' => 1217315958,
-    'message' => 'Photo bearbeiten'
+    'lastUpdated' => 1229722812,
+    'message' => 'Foto bearbeiten'
   },
   'template url_makeShortcut' => {
-    'lastUpdated' => 1226016747,
-    'message' => 'Cross Publish'
+    'lastUpdated' => 1229722471,
+    'message' => 'Anderswo veröffentlichen'
   },
   'template view title' => {
-    'lastUpdated' => 1217315974,
-    'message' => 'Photo Details'
+    'lastUpdated' => 1229722484,
+    'message' => 'Foto-Details'
   },
   'template views' => {
-    'lastUpdated' => 1226016646,
-    'message' => 'Angesehen'
+    'lastUpdated' => 1229722824,
+    'message' => 'Ansichten'
   }
 }
 ;
