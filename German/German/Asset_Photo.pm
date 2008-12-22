@@ -42,20 +42,20 @@ our $I18N = {
     'message' => 'Ort'
   },
   'editForm photo new' => {
-    'lastUpdated' => 1217314964,
-    'message' => 'Neues Photo'
+    'lastUpdated' => 1229726315,
+    'message' => 'Neues Foto'
   },
   'editForm photo replace' => {
-    'lastUpdated' => 1217314972,
-    'message' => 'Photo ersetzen'
+    'lastUpdated' => 1229726325,
+    'message' => 'Foto ersetzen'
   },
   'editForm save' => {
     'lastUpdated' => 1217314980,
     'message' => 'Speichern'
   },
   'editForm synopsis label' => {
-    'lastUpdated' => 1229722662,
-    'message' => 'Foto-Beschriftung'
+    'lastUpdated' => 1229978359,
+    'message' => 'Beschreibung des Fotos'
   },
   'editForm title label' => {
     'lastUpdated' => 1217315028,
@@ -66,60 +66,60 @@ our $I18N = {
     'message' => 'Sie haben nicht genug Speicherplatz, um diese Datei hochzuladen.'
   },
   'help commentForm body' => {
-    'lastUpdated' => 1229722731,
-    'message' => 'Diese Schablonen-Variablen sind für ein Formular, das es Benutzern erlaubt, Kommentare zu Fotos hinzuzufügen.'
+    'lastUpdated' => 1229771116,
+    'message' => 'Diese Variablen sind in der Ansicht zur Erstellung von Kommentaren verfügbar.'
   },
   'help commentForm title' => {
-    'lastUpdated' => 1229725953,
-    'message' => 'Foto -- Formular für Kommentare'
+    'lastUpdated' => 1229771262,
+    'message' => 'Foto, Kommentar hinzufügen'
   },
   'help common body' => {
-    'lastUpdated' => 1201607652,
-    'message' => 'Diese Template Variablen sind allen Ansichten des Photo Assets gemeinsam.'
+    'lastUpdated' => 1229771147,
+    'message' => "Diese Variablen sind in allen Ansichten des Fotos verf\x{fc}gbar."
   },
   'help common title' => {
-    'lastUpdated' => 1229722761,
-    'message' => 'Foto -- Allgemein'
+    'lastUpdated' => 1229770863,
+    'message' => 'Foto, allgemein'
   },
   'help delete body' => {
     'lastUpdated' => 1229726156,
     'message' => 'Bestätigen Sie das Löschen des Photo Assets.'
   },
   'help delete title' => {
-    'lastUpdated' => 1229725913,
-    'message' => 'Foto -- Formular zum Löschen'
+    'lastUpdated' => 1229770917,
+    'message' => 'Foto, löschen'
   },
   'help edit body' => {
-    'lastUpdated' => 1201607743,
-    'message' => 'Diese Template Variablen sind f&uuml;r ein Formular f&uuml;r das hinzuf&uuml;gen / editieren von Photo Assets'
+    'lastUpdated' => 1229771204,
+    'message' => 'Diese Variablen sind in der Ansicht zum Hinzufügen bzw. Bearbeiten von Fotos verfügbar.'
   },
   'help edit title' => {
-    'lastUpdated' => 1229725933,
-    'message' => 'Foto -- Formular zur Bearbeitung'
+    'lastUpdated' => 1229770908,
+    'message' => 'Foto, bearbeiten'
   },
   'help editComment body' => {
-    'lastUpdated' => 1217315111,
-    'message' => 'Diese Variablen sind f&uuml;r die Bearbeite Photo Kommentar Seite verf&uuml;gbar'
+    'lastUpdated' => 1229771375,
+    'message' => 'Diese Variablen sind in der Ansicht zur Bearbeitung von Kommentaren verfügbar.'
   },
   'help editComment title' => {
-    'lastUpdated' => 1217315126,
-    'message' => 'Photo Bearbeite Kommentar Template'
+    'lastUpdated' => 1229771249,
+    'message' => 'Foto, Kommentar bearbeiten'
   },
   'help makeShortcut body' => {
-    'lastUpdated' => 1201607790,
-    'message' => 'Diese Template Variablen sind f&uuml;r ein Formular f&uuml;r Shortcuts auf Photo Assets'
+    'lastUpdated' => 1229773085,
+    'message' => 'Diese Variablen sind in der Ansicht zur Erstellung von Verknüpfungen verfügbar.'
   },
   'help makeShortcut title' => {
-    'lastUpdated' => 1229725976,
-    'message' => "Foto -- Formular f\x{fc}r Verweise"
+    'lastUpdated' => 1229773055,
+    'message' => "Foto, Verkn\x{fc}pfung erstellen"
   },
   'help view body' => {
-    'lastUpdated' => 1229726221,
-    'message' => "Schablonen-Variablen, welche in der Standard-Ansicht von Fotos zur Verf\x{fc}gung stehen."
+    'lastUpdated' => 1229771525,
+    'message' => 'Diese Variablen sind in der Standardansicht des Fotos verfügbar.'
   },
   'help view title' => {
-    'lastUpdated' => 1229725794,
-    'message' => 'Foto -- Normale Ansicht'
+    'lastUpdated' => 1229770965,
+    'message' => 'Foto, Standardansicht'
   },
   'helpvar album_menuTitle' => {
     'lastUpdated' => 1229725884,
@@ -138,12 +138,12 @@ our $I18N = {
     'message' => "Der URL des Albums, welches diese Datei enth\x{e4}lt."
   },
   'helpvar canComment' => {
-    'lastUpdated' => 1229725139,
-    'message' => 'Variable die wahr ist, falls der aktuelle Benutzer dieses Foto kommentieren darf.'
+    'lastUpdated' => 1229771393,
+    'message' => 'Eine Variable die wahr ist, falls der aktuelle Benutzer dieses Foto kommentieren darf.'
   },
   'helpvar canEdit' => {
-    'lastUpdated' => 1229725167,
-    'message' => 'Variable die wahr ist, falls der aktuelle Benutzer dieses Foto bearbeiten darf.'
+    'lastUpdated' => 1229771408,
+    'message' => 'Eine Variable die wahr ist, falls der aktuelle Benutzer dieses Foto bearbeiten darf.'
   },
   'helpvar commentForm_bodyText' => {
     'lastUpdated' => 1201607944,
@@ -350,8 +350,8 @@ our $I18N = {
     'message' => "Der URL zur Auflistung der Dateien und Alben, die der Besitzer dieses Fotos \x{fc}bermittelt hat."
   },
   'helpvar url_makeShortcut' => {
-    'lastUpdated' => 1229723550,
-    'message' => 'Der URL zum Erzeugen eines Verweises auf dieses Foto.'
+    'lastUpdated' => 1229773109,
+    'message' => "Der URL zum Erzeugen einer Verkn\x{fc}pfung auf dieses Foto."
   },
   'helpvar url_promote' => {
     'lastUpdated' => 1229723458,
@@ -386,12 +386,12 @@ our $I18N = {
     'message' => 'Foto'
   },
   'template comment add title' => {
-    'lastUpdated' => 1217315724,
-    'message' => 'Kommentar hinzuf&uuml;gen'
+    'lastUpdated' => 1229978248,
+    'message' => 'Kommentar hinzufügen'
   },
   'template comment creationDate' => {
-    'lastUpdated' => 1217315734,
-    'message' => 'Hinzugef&uuml;gt am'
+    'lastUpdated' => 1229978237,
+    'message' => "Hinzugef\x{fc}gt am"
   },
   'template comment delete confirm' => {
     'lastUpdated' => 1217315755,
@@ -454,8 +454,8 @@ our $I18N = {
     'message' => 'Datei'
   },
   'template makeShortcut title' => {
-    'lastUpdated' => 1229722432,
-    'message' => "Anderswo ver\x{f6}ffentlichen"
+    'lastUpdated' => 1229773142,
+    'message' => 'Verknüpfung erstellen'
   },
   'template url_album' => {
     'lastUpdated' => 1229722834,
@@ -474,8 +474,8 @@ our $I18N = {
     'message' => 'Foto bearbeiten'
   },
   'template url_makeShortcut' => {
-    'lastUpdated' => 1229722471,
-    'message' => 'Anderswo veröffentlichen'
+    'lastUpdated' => 1229773163,
+    'message' => "Verkn\x{fc}pfung erstellen"
   },
   'template view title' => {
     'lastUpdated' => 1229722484,

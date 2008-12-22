@@ -26,24 +26,24 @@ our $I18N = {
     'message' => 'Wollen sie den Tag freigeben oder ablehnen?'
   },
   'approveVersionTag message' => {
-    'lastUpdated' => 1226015640,
-    'message' => 'Ihr Version Tag wurde %s. <a href="%s">Zur&uuml;ck zur Seite</a>.'
+    'lastUpdated' => 1229770535,
+    'message' => "Ihr Version Tag wurde %s. <a href=\"%s\">Zur\x{fc}ck zur Seite</a>."
   },
   'approved' => {
     'lastUpdated' => 1216639487,
     'message' => 'freigegeben'
   },
   'back to home' => {
-    'lastUpdated' => 1179996273,
-    'message' => 'Zur&uuml;ck nach Home.'
+    'lastUpdated' => 1229770517,
+    'message' => 'Zurück nach Home.'
   },
   'back to site' => {
-    'lastUpdated' => 1222249612,
+    'lastUpdated' => 1229770499,
     'message' => "Zur\x{fc}ck"
   },
   'bad commit' => {
     'lastUpdated' => 1192966747,
-    'message' => 'Während der Bearbeitung des Inhalts trat ein Problem auf. Setzen Sie sich bitte mit Ihrem Systemverwalter in Verbindung.'
+    'message' => "W\x{e4}hrend der Bearbeitung des Inhalts trat ein Problem auf. Setzen Sie sich bitte mit Ihrem Systemverwalter in Verbindung."
   },
   'comments' => {
     'lastUpdated' => 1166615325,
