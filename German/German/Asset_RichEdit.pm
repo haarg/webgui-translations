@@ -370,8 +370,8 @@ our $I18N = {
     'message' => 'Schaltfl&auml;chen der Werkzeugleiste'
   },
   'toolbar buttons description' => {
-    'lastUpdated' => 1215508516,
-    'message' => 'Zeigt, welche Schaltfl&auml;chen der Werkzeugleiste in einer bestimmten Werkzeugleiste benutzt werden. Um eine Werkzeugleiste zu entfernen, deaktivieren Sie alle Schaltfl&auml;chen in der Werkzeugleistenspalte. Beachten Sie, dass andere Felder Schaltfl&auml;chen zu einer Werkzeugleiste hinzuf&uuml;gen k&ouml;nnen, wie z.B. &quot;Aktiviere das Kontextmen&uuml;&quot;'
+    'lastUpdated' => 1229992226,
+    'message' => '<p>Zeigt, welche Schaltfl&auml;chen der Werkzeugleiste in einer bestimmten Werkzeugleiste benutzt werden. Um eine Werkzeugleiste zu entfernen, deaktivieren Sie alle Schaltfl&auml;chen in der Werkzeugleistenspalte. Beachten Sie, dass andere Felder Schaltfl&auml;chen zu einer Werkzeugleiste hinzuf&uuml;gen k&ouml;nnen, wie z.B. &quot;Aktiviere das Kontextmen&uuml;&quot;. Hinzuf&uuml;gen von Schaltfl&auml;chen f&uuml;gt noch keine neuen Funktionen hinzu! Sie m&uuml;ssen ebenso die &quot;Valid Elements&quot; f&uuml;r diesen Editor aktualisieren.</p>'
   },
   'toolbar location' => {
     'lastUpdated' => 1215508544,

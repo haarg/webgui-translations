@@ -263,11 +263,11 @@ our $I18N = {
   },
   'email recover password finish message2' => {
     'lastUpdated' => 1192977909,
-    'message' => 'Mit Instruktionen, um Ihr Passwort zurück zu setzen.'
+    'message' => "Mit Instruktionen, um Ihr Passwort zur\x{fc}ck zu setzen."
   },
   'email recover password start message' => {
     'lastUpdated' => 1192977996,
-    'message' => 'Geben Sie entweder Ihre E-Mail-Adresse oder Ihre Anmeldung unten ein, um das Passwort zurücksetzen zu können.'
+    'message' => "Geben Sie entweder Ihre E-Mail-Adresse oder Ihre Anmeldung unten ein, um das Passwort zur\x{fc}cksetzen zu k\x{f6}nnen."
   },
   'error password nonWordCharacters' => {
     'lastUpdated' => 1200441260,
@@ -380,6 +380,10 @@ our $I18N = {
   'new password verify help' => {
     'lastUpdated' => 1200441416,
     'message' => 'Passwort erneut zur Best&auml;tigung eingeben'
+  },
+  'no email address' => {
+    'lastUpdated' => 1229992309,
+    'message' => 'F&uuml;r diesen Accout ist keine E-Mail-Adresse angegeben. Die Funktion &quot;Passwort-Wiederherstellung per E-Mail&quot; ist nicht m&ouml;glich.'
   },
   'no registration hack' => {
     'lastUpdated' => 1178704168,

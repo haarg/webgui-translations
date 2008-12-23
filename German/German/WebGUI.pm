@@ -2501,6 +2501,14 @@ our $I18N = {
     'lastUpdated' => 1228684435,
     'message' => 'weiter &gt;'
   },
+  'no ldap link for auth' => {
+    'lastUpdated' => 1229992453,
+    'message' => 'Ihr Account kann nicht eingerichtet werden, da keine LDAP-Verbindung f&uuml;r diese Site definiert ist.'
+  },
+  'no ldap logins' => {
+    'lastUpdated' => 1229992411,
+    'message' => 'Log-in ist nicht m&ouml;glich, da kein LDAP-Link f&uuml;r diese Site definiert ist.'
+  },
   'no thanks' => {
     'lastUpdated' => 1224798298,
     'message' => 'Danke, nein!'
@@ -2755,11 +2763,15 @@ our $I18N = {
   },
   'purge workflow help' => {
     'lastUpdated' => 1199973044,
-    'message' => 'Welcher Workflow soll ausgef&uuml;hrt werden wenn ein Asset gelöscht wird.'
+    'message' => "Welcher Workflow soll ausgef&uuml;hrt werden wenn ein Asset gel\x{f6}scht wird."
   },
   'radio' => {
     'lastUpdated' => 1178625075,
     'message' => 'Radio Schaltfl&auml;che'
+  },
+  'read more' => {
+    'lastUpdated' => 1229992363,
+    'message' => 'mehr...'
   },
   'read only' => {
     'lastUpdated' => 1178625085,
