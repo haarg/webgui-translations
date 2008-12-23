@@ -14,9 +14,8 @@ our $I18N = {
     'message' => 'Dateien pro Seite'
   },
   'error add uncommitted' => {
-    'lastUpdated' => 1228422757,
-    'message' => "<h2>Fehler!</h2>
-Sie m\x{fc}ssen diese Gallerie erst \x{fc}bergeben, bevor sie neue Alben hinzuf\x{fc}gen k\x{f6}nnen."
+    'lastUpdated' => 1229991631,
+    'message' => '<h2>Fehler!</h2> Sie m&uuml;ssen diese Gallerie erst &uuml;bergeben, bevor Sie neue Alben hinzuf&uuml;gen k&ouml;nnen.'
   },
   'groupIdAddComment description' => {
     'lastUpdated' => 1201597174,
@@ -32,7 +31,7 @@ Sie m\x{fc}ssen diese Gallerie erst \x{fc}bergeben, bevor sie neue Alben hinzuf\
   },
   'groupIdAddFile label' => {
     'lastUpdated' => 1229370401,
-    'message' => "Wer darf Dateien hinzuf\x{fc}gen?"
+    'message' => 'Wer darf Dateien hinzufügen?'
   },
   'groupIdModerator description' => {
     'lastUpdated' => 1201597217,
@@ -115,8 +114,8 @@ Sie m\x{fc}ssen diese Gallerie erst \x{fc}bergeben, bevor sie neue Alben hinzuf\
     'message' => 'Diese Variable ist wahr, falls der Benutzer die Galerie editieren darf.'
   },
   'helpvar isAlbum' => {
-    'lastUpdated' => 1228421133,
-    'message' => "Diese Variable ist wahr, wenn das gegenw\x{e4}rtige Ergbnis ein Gallerie-Album ist."
+    'lastUpdated' => 1229991664,
+    'message' => 'Diese Variable ist wahr, wenn das gegenw&auml;rtige Ergebnis ein Gallerie-Album ist.'
   },
   'helpvar rssDate' => {
     'lastUpdated' => 1201603491,
@@ -208,7 +207,7 @@ Sie m\x{fc}ssen diese Gallerie erst \x{fc}bergeben, bevor sie neue Alben hinzuf\
   },
   'imageDensity description' => {
     'lastUpdated' => 1228423081,
-    'message' => 'Die Pixeldichte des Bildes. Bilder in Druckqualität sind drei mal größer als Bilder in Bildschirmqualität.'
+    'message' => "Die Pixeldichte des Bildes. Bilder in Druckqualit\x{e4}t sind drei mal gr\x{f6}\x{df}er als Bilder in Bildschirmqualit\x{e4}t."
   },
   'imageDensity label' => {
     'lastUpdated' => 1228422914,
@@ -216,11 +215,11 @@ Sie m\x{fc}ssen diese Gallerie erst \x{fc}bergeben, bevor sie neue Alben hinzuf\
   },
   'imageDensity option print' => {
     'lastUpdated' => 1228422986,
-    'message' => 'Druckqualität (300 Pixel pro Zoll)'
+    'message' => "Druckqualit\x{e4}t (300 Pixel pro Zoll)"
   },
   'imageDensity option web' => {
     'lastUpdated' => 1228423022,
-    'message' => "Bildschirmqualit\x{e4}t (72 Pixel pro Zoll)"
+    'message' => 'Bildschirmqualität (72 Pixel pro Zoll)'
   },
   'imageResolutions description' => {
     'lastUpdated' => 1201599013,
@@ -255,20 +254,20 @@ Sie m\x{fc}ssen diese Gallerie erst \x{fc}bergeben, bevor sie neue Alben hinzuf\
     'message' => 'Maximaler Speicherplatz Benutzer'
   },
   'richEditIdAlbum description' => {
-    'lastUpdated' => 1228422011,
-    'message' => "Der Editor, welcher f\x{fc}r Alben benutzt werden soll."
+    'lastUpdated' => 1229991724,
+    'message' => 'Der Editor, der f&uuml;r Alben benutzt werden soll.'
   },
   'richEditIdAlbum label' => {
     'lastUpdated' => 1228422042,
-    'message' => 'Editor für Alben'
+    'message' => "Editor f\x{fc}r Alben"
   },
   'richEditIdFile description' => {
-    'lastUpdated' => 1228422081,
-    'message' => "Der Editor, welcher f\x{fc}r Dateien benutzt werden soll."
+    'lastUpdated' => 1229991746,
+    'message' => 'Der Editor, der f&uuml;r Dateien benutzt werden soll.'
   },
   'richEditIdFile label' => {
     'lastUpdated' => 1228421734,
-    'message' => "Editor f\x{fc}r Dateien"
+    'message' => 'Editor für Dateien'
   },
   'richEditIdFileComment description' => {
     'lastUpdated' => 1201599332,
@@ -336,7 +335,7 @@ Sie m\x{fc}ssen diese Gallerie erst \x{fc}bergeben, bevor sie neue Alben hinzuf\
   },
   'template search results for' => {
     'lastUpdated' => 1228421445,
-    'message' => 'Ergebnisse für'
+    'message' => "Ergebnisse f\x{fc}r"
   },
   'template search title' => {
     'lastUpdated' => 1228421475,
@@ -355,8 +354,8 @@ Sie m\x{fc}ssen diese Gallerie erst \x{fc}bergeben, bevor sie neue Alben hinzuf\
     'message' => 'Meine Galerie'
   },
   'template url_search' => {
-    'lastUpdated' => 1228420677,
-    'message' => 'Beschriftung für den Link zur Gallerie-Suchseite'
+    'lastUpdated' => 1229991834,
+    'message' => 'Beschriftung f&uuml;r den Link zur Galerie-Suchseite'
   },
   'templateIdAddArchive description' => {
     'lastUpdated' => 1201599865,
@@ -560,7 +559,7 @@ Sie m\x{fc}ssen diese Gallerie erst \x{fc}bergeben, bevor sie neue Alben hinzuf\
   },
   'workflowIdCommit description' => {
     'lastUpdated' => 1229369777,
-    'message' => 'Ablauf für die Freigabe neuer Dateien.'
+    'message' => "Ablauf f\x{fc}r die Freigabe neuer Dateien."
   },
   'workflowIdCommit label' => {
     'lastUpdated' => 1229369721,
