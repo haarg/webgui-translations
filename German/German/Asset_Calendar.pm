@@ -1,6 +1,18 @@
 package WebGUI::i18n::German::Asset_Calendar;
 use utf8;
 our $I18N = {
+  'New Day' => {
+    'lastUpdated' => 1229991991,
+    'message' => 'Neuer Tag'
+  },
+  'New Month' => {
+    'lastUpdated' => 1229991999,
+    'message' => 'Neuer Monat'
+  },
+  'New Year' => {
+    'lastUpdated' => 1229992006,
+    'message' => 'Neues Jahr'
+  },
   'add event' => {
     'lastUpdated' => 1192786210,
     'message' => 'Ereignis eintragen'
