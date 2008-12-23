@@ -14,8 +14,8 @@ our $I18N = {
     'message' => 'Dateien pro Seite'
   },
   'error add uncommitted' => {
-    'lastUpdated' => 1229991631,
-    'message' => '<h2>Fehler!</h2> Sie m&uuml;ssen diese Gallerie erst &uuml;bergeben, bevor Sie neue Alben hinzuf&uuml;gen k&ouml;nnen.'
+    'lastUpdated' => 1229991882,
+    'message' => '<h2>Fehler!</h2> Sie m&uuml;ssen diese Galerie erst &uuml;bergeben, bevor Sie neue Alben hinzuf&uuml;gen k&ouml;nnen.'
   },
   'groupIdAddComment description' => {
     'lastUpdated' => 1201597174,
@@ -310,8 +310,8 @@ our $I18N = {
     'message' => 'Alben'
   },
   'template listFilesForUser title' => {
-    'lastUpdated' => 1228420993,
-    'message' => 'Gallerie von %s'
+    'lastUpdated' => 1229991902,
+    'message' => 'Galerie von %s'
   },
   'template search field className' => {
     'lastUpdated' => 1228421051,
