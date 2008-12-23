@@ -31,7 +31,7 @@ our $I18N = {
   },
   'groupIdAddFile label' => {
     'lastUpdated' => 1229370401,
-    'message' => 'Wer darf Dateien hinzufügen?'
+    'message' => "Wer darf Dateien hinzuf\x{fc}gen?"
   },
   'groupIdModerator description' => {
     'lastUpdated' => 1201597217,
@@ -114,8 +114,8 @@ our $I18N = {
     'message' => 'Diese Variable ist wahr, falls der Benutzer die Galerie editieren darf.'
   },
   'helpvar isAlbum' => {
-    'lastUpdated' => 1229991664,
-    'message' => 'Diese Variable ist wahr, wenn das gegenw&auml;rtige Ergebnis ein Gallerie-Album ist.'
+    'lastUpdated' => 1229992808,
+    'message' => 'Diese Variable ist wahr, wenn das gegenw&auml;rtige Ergebnis ein Galerie-Album ist.'
   },
   'helpvar rssDate' => {
     'lastUpdated' => 1201603491,
@@ -207,7 +207,7 @@ our $I18N = {
   },
   'imageDensity description' => {
     'lastUpdated' => 1228423081,
-    'message' => "Die Pixeldichte des Bildes. Bilder in Druckqualit\x{e4}t sind drei mal gr\x{f6}\x{df}er als Bilder in Bildschirmqualit\x{e4}t."
+    'message' => 'Die Pixeldichte des Bildes. Bilder in Druckqualität sind drei mal größer als Bilder in Bildschirmqualität.'
   },
   'imageDensity label' => {
     'lastUpdated' => 1228422914,
@@ -215,11 +215,11 @@ our $I18N = {
   },
   'imageDensity option print' => {
     'lastUpdated' => 1228422986,
-    'message' => "Druckqualit\x{e4}t (300 Pixel pro Zoll)"
+    'message' => 'Druckqualität (300 Pixel pro Zoll)'
   },
   'imageDensity option web' => {
     'lastUpdated' => 1228423022,
-    'message' => 'Bildschirmqualität (72 Pixel pro Zoll)'
+    'message' => "Bildschirmqualit\x{e4}t (72 Pixel pro Zoll)"
   },
   'imageResolutions description' => {
     'lastUpdated' => 1201599013,
@@ -259,7 +259,7 @@ our $I18N = {
   },
   'richEditIdAlbum label' => {
     'lastUpdated' => 1228422042,
-    'message' => "Editor f\x{fc}r Alben"
+    'message' => 'Editor für Alben'
   },
   'richEditIdFile description' => {
     'lastUpdated' => 1229991746,
@@ -267,7 +267,7 @@ our $I18N = {
   },
   'richEditIdFile label' => {
     'lastUpdated' => 1228421734,
-    'message' => 'Editor für Dateien'
+    'message' => "Editor f\x{fc}r Dateien"
   },
   'richEditIdFileComment description' => {
     'lastUpdated' => 1201599332,
@@ -335,7 +335,7 @@ our $I18N = {
   },
   'template search results for' => {
     'lastUpdated' => 1228421445,
-    'message' => "Ergebnisse f\x{fc}r"
+    'message' => 'Ergebnisse für'
   },
   'template search title' => {
     'lastUpdated' => 1228421475,
@@ -559,7 +559,7 @@ our $I18N = {
   },
   'workflowIdCommit description' => {
     'lastUpdated' => 1229369777,
-    'message' => "Ablauf f\x{fc}r die Freigabe neuer Dateien."
+    'message' => 'Ablauf für die Freigabe neuer Dateien.'
   },
   'workflowIdCommit label' => {
     'lastUpdated' => 1229369721,
