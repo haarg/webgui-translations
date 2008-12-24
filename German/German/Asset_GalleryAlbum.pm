@@ -19,11 +19,11 @@ our $I18N = {
   },
   'addArchive keywords' => {
     'lastUpdated' => 1229104725,
-    'message' => "Stichw\x{f6}rter"
+    'message' => 'Stichwörter'
   },
   'addArchive message' => {
     'lastUpdated' => 1229372718,
-    'message' => "Ihre Dateien wurden f\x{fc}r die Freigabe und Ver\x{f6}ffentlichung eingereicht. <a href=\"%s\">Zur\x{fc}ck zum Album</a>"
+    'message' => 'Ihre Dateien wurden für die Freigabe und Veröffentlichung eingereicht. <a href="%s">Zurück zum Album</a>'
   },
   'assetName' => {
     'lastUpdated' => 1229109426,
@@ -35,7 +35,7 @@ our $I18N = {
   },
   'delete message' => {
     'lastUpdated' => 1229712882,
-    'message' => "Das Album wurde gel\x{f6}scht. <a href=\"%s\">Zur\x{fc}ck zur Galerie</a>"
+    'message' => 'Das Album wurde gelöscht. <a href="%s">Zurück zur Galerie</a>'
   },
   'editForm assetIdThumbnail label' => {
     'lastUpdated' => 1229993160,
@@ -47,7 +47,7 @@ our $I18N = {
   },
   'editForm othersCanAdd label' => {
     'lastUpdated' => 1229104991,
-    'message' => "Andere k\x{f6}nnen hinzuf\x{fc}gen"
+    'message' => 'Andere können hinzufügen'
   },
   'editForm title label' => {
     'lastUpdated' => 1229105002,
@@ -55,15 +55,15 @@ our $I18N = {
   },
   'help addArchive body' => {
     'lastUpdated' => 1229374086,
-    'message' => 'Diese Variablen sind in der "Archiv hinzufügen"-Ansicht des Albums verfügbar.'
+    'message' => "Diese Variablen sind in der \"Archiv hinzuf\x{fc}gen\"-Ansicht des Albums verf\x{fc}gbar."
   },
   'help addArchive title' => {
     'lastUpdated' => 1229373020,
-    'message' => "Galerie-Album-Hinzuf\x{fc}gen-Archiv-Variablen"
+    'message' => 'Galerie-Album-Hinzufügen-Archiv-Variablen'
   },
   'help common body' => {
     'lastUpdated' => 1229374113,
-    'message' => "Diese Variablen sind in allen Ansichten des Albums verf\x{fc}gbar."
+    'message' => 'Diese Variablen sind in allen Ansichten des Albums verfügbar.'
   },
   'help common title' => {
     'lastUpdated' => 1229373118,
@@ -71,15 +71,15 @@ our $I18N = {
   },
   'help delete body' => {
     'lastUpdated' => 1229374185,
-    'message' => "Diese Variablen sind in der \"Album l\x{f6}schen\"-Ansicht des Albums verf\x{fc}gbar."
+    'message' => 'Diese Variablen sind in der "Album löschen"-Ansicht des Albums verfügbar.'
   },
   'help delete title' => {
     'lastUpdated' => 1229374138,
-    'message' => 'Galerie-Album-Löschen-Variablen'
+    'message' => "Galerie-Album-L\x{f6}schen-Variablen"
   },
   'help edit body' => {
     'lastUpdated' => 1229374068,
-    'message' => "Diese Variablen sind in der \"Album bearbeiten\"-Ansicht des Albums verf\x{fc}gbar."
+    'message' => 'Diese Variablen sind in der "Album bearbeiten"-Ansicht des Albums verfügbar.'
   },
   'help edit title' => {
     'lastUpdated' => 1229374033,
@@ -87,7 +87,7 @@ our $I18N = {
   },
   'help fileLoop body' => {
     'lastUpdated' => 1229373999,
-    'message' => "Diese Variablen sind in allen Ansichten verf\x{fc}gbar, die eine Schleife \x{fc}ber Dateien bilden."
+    'message' => 'Diese Variablen sind in allen Ansichten verfügbar, die eine Schleife über Dateien bilden.'
   },
   'help fileLoop title' => {
     'lastUpdated' => 1229373953,
@@ -95,7 +95,7 @@ our $I18N = {
   },
   'help slideshow body' => {
     'lastUpdated' => 1229373935,
-    'message' => "Diese Variablen sind in der Diashow-Ansicht des Albums verf\x{fc}gbar."
+    'message' => 'Diese Variablen sind in der Diashow-Ansicht des Albums verfügbar.'
   },
   'help slideshow title' => {
     'lastUpdated' => 1229373906,
@@ -103,7 +103,7 @@ our $I18N = {
   },
   'help thumbnails body' => {
     'lastUpdated' => 1229373861,
-    'message' => "Diese Variablen sind in der Vorschaubild-Ansicht des Albums verf\x{fc}gbar."
+    'message' => 'Diese Variablen sind in der Vorschaubild-Ansicht des Albums verfügbar.'
   },
   'help thumbnails title' => {
     'lastUpdated' => 1229373823,
@@ -111,7 +111,7 @@ our $I18N = {
   },
   'help view body' => {
     'lastUpdated' => 1229373779,
-    'message' => "Diese Variablen sind in der Albenansicht des Albums verf\x{fc}gbar."
+    'message' => 'Diese Variablen sind in der Albenansicht des Albums verfügbar.'
   },
   'help view title' => {
     'lastUpdated' => 1229373736,
@@ -119,7 +119,7 @@ our $I18N = {
   },
   'help viewRss body' => {
     'lastUpdated' => 1229374309,
-    'message' => 'Diese Variablen sind innerhalb des RSS-Feeds des Albums verfügbar.'
+    'message' => "Diese Variablen sind innerhalb des RSS-Feeds des Albums verf\x{fc}gbar."
   },
   'help viewRss title' => {
     'lastUpdated' => 1229373670,
@@ -127,7 +127,7 @@ our $I18N = {
   },
   'helpvar canAddFile' => {
     'lastUpdated' => 1229713170,
-    'message' => "Variable die wahr ist, falls ein Benutzer Dateien zu diesem Album hinzuf\x{fc}gen darf."
+    'message' => 'Variable die wahr ist, falls ein Benutzer Dateien zu diesem Album hinzufügen darf.'
   },
   'helpvar canEdit' => {
     'lastUpdated' => 1229713204,
@@ -135,7 +135,7 @@ our $I18N = {
   },
   'helpvar error' => {
     'lastUpdated' => 1229373583,
-    'message' => "Fehlermeldung f\x{fc}r den Benutzer. Die Variable ist nur definiert, falls ein Fehler aufgetreten ist."
+    'message' => 'Fehlermeldung für den Benutzer. Die Variable ist nur definiert, falls ein Fehler aufgetreten ist.'
   },
   'helpvar fileCount' => {
     'lastUpdated' => 1229373530,
@@ -147,11 +147,11 @@ our $I18N = {
   },
   'helpvar file_loop' => {
     'lastUpdated' => 1229373405,
-    'message' => "Schleife \x{fc}ber die Dateien dieser Seite."
+    'message' => 'Schleife über die Dateien dieser Seite.'
   },
   'helpvar file_loop edit' => {
     'lastUpdated' => 1229373383,
-    'message' => 'Schleife über die Dateien für die Bearbeitung mehrere Dateien in der "Album bearbeiten"-Ansicht.'
+    'message' => "Schleife \x{fc}ber die Dateien f\x{fc}r die Bearbeitung mehrere Dateien in der \"Album bearbeiten\"-Ansicht."
   },
   'helpvar file_loop viewRss' => {
     'lastUpdated' => 1229993253,
@@ -167,11 +167,11 @@ our $I18N = {
   },
   'helpvar form_delete' => {
     'lastUpdated' => 1229105031,
-    'message' => "Eine Schaltfl\x{e4}che, um das Bild zu l\x{f6}schen."
+    'message' => 'Eine Schaltfläche, um das Bild zu löschen.'
   },
   'helpvar form_demote' => {
     'lastUpdated' => 1229105145,
-    'message' => 'Eine Schaltfläche, um das Bild in der Reihenfolge nach unten zu bewegen. Benutzen Sie diese, um die Anordnung der Bilder zu ändern.'
+    'message' => "Eine Schaltfl\x{e4}che, um das Bild in der Reihenfolge nach unten zu bewegen. Benutzen Sie diese, um die Anordnung der Bilder zu \x{e4}ndern."
   },
   'helpvar form_description' => {
     'lastUpdated' => 1229713100,
@@ -183,15 +183,15 @@ our $I18N = {
   },
   'helpvar form_friendsOnly' => {
     'lastUpdated' => 1229373144,
-    'message' => 'Datei nur für Freunde?'
+    'message' => "Datei nur f\x{fc}r Freunde?"
   },
   'helpvar form_keywords' => {
     'lastUpdated' => 1229373174,
-    'message' => "Stichw\x{f6}rter f\x{fc}r die hochzuladende Datei."
+    'message' => 'Stichwörter für die hochzuladende Datei.'
   },
   'helpvar form_promote' => {
     'lastUpdated' => 1229105278,
-    'message' => "Eine Schaltfl\x{e4}che, um das Bild in der Reihenfolge nach oben zu bewegen. Benutzen Sie diese, um die Anordnung der Bilder zu \x{e4}ndern."
+    'message' => 'Eine Schaltfläche, um das Bild in der Reihenfolge nach oben zu bewegen. Benutzen Sie diese, um die Anordnung der Bilder zu ändern.'
   },
   'helpvar form_start' => {
     'lastUpdated' => 1201603314,
@@ -203,7 +203,7 @@ our $I18N = {
   },
   'helpvar form_synopsis' => {
     'lastUpdated' => 1229105336,
-    'message' => 'Eine HTML-Fläche zur Beschriftung des Vorschaubilds.'
+    'message' => "Eine HTML-Fl\x{e4}che zur Beschriftung des Vorschaubilds."
   },
   'helpvar form_title' => {
     'lastUpdated' => 1201603354,
@@ -235,11 +235,11 @@ our $I18N = {
   },
   'helpvar nextAlbum_thumbnailUrl' => {
     'lastUpdated' => 1229105929,
-    'message' => 'Der URL zum Vorschaubild des nächsten Albums in der Liste.'
+    'message' => "Der URL zum Vorschaubild des n\x{e4}chsten Albums in der Liste."
   },
   'helpvar nextAlbum_title' => {
     'lastUpdated' => 1229105949,
-    'message' => "Der Titel des n\x{e4}chsten Albums in der Liste."
+    'message' => 'Der Titel des nächsten Albums in der Liste.'
   },
   'helpvar nextAlbum_url' => {
     'lastUpdated' => 1229993045,
@@ -267,23 +267,23 @@ our $I18N = {
   },
   'helpvar thumbnailUrl' => {
     'lastUpdated' => 1229370916,
-    'message' => 'Der URL zum Vorschaubild der Datei, die als Vorschaubild für dieses Album ausgewählt wurde.'
+    'message' => "Der URL zum Vorschaubild der Datei, die als Vorschaubild f\x{fc}r dieses Album ausgew\x{e4}hlt wurde."
   },
   'helpvar url_addArchive' => {
     'lastUpdated' => 1229371056,
-    'message' => "Der URL zum Hinzuf\x{fc}gen eines Archivs mit Dateien zu diesem Album."
+    'message' => 'Der URL zum Hinzufügen eines Archivs mit Dateien zu diesem Album.'
   },
   'helpvar url_addNoClass' => {
     'lastUpdated' => 1229371218,
-    'message' => 'Der URL zum Hinzufügen eines beliegen Objekts zu diesem Album. Sie müssen die Klasse durch Anhängen von ";class=Class::<Name>" spezifizieren.'
+    'message' => "Der URL zum Hinzuf\x{fc}gen eines beliegen Objekts zu diesem Album. Sie m\x{fc}ssen die Klasse durch Anh\x{e4}ngen von \";class=Class::<Name>\" spezifizieren."
   },
   'helpvar url_addPhoto' => {
     'lastUpdated' => 1229371082,
-    'message' => 'Der URL zum hinzufügen eines Fotos zu diesem Album.'
+    'message' => "Der URL zum hinzuf\x{fc}gen eines Fotos zu diesem Album."
   },
   'helpvar url_delete' => {
     'lastUpdated' => 1229371380,
-    'message' => "Der URL zum L\x{f6}schen dieses Albums."
+    'message' => 'Der URL zum Löschen dieses Albums.'
   },
   'helpvar url_edit' => {
     'lastUpdated' => 1229371389,
@@ -291,11 +291,11 @@ our $I18N = {
   },
   'helpvar url_listAlbums' => {
     'lastUpdated' => 1229371451,
-    'message' => "Der URL zur Ansicht der Albenliste der \x{fc}bergeordneten Galerie."
+    'message' => 'Der URL zur Ansicht der Albenliste der übergeordneten Galerie.'
   },
   'helpvar url_listAlbumsRss' => {
     'lastUpdated' => 1229371503,
-    'message' => 'Der URL zum RSS-Feed der Albenliste der übergeordneten Galerie.'
+    'message' => "Der URL zum RSS-Feed der Albenliste der \x{fc}bergeordneten Galerie."
   },
   'helpvar url_listFilesForCurrentUser' => {
     'lastUpdated' => 1229993399,
@@ -303,27 +303,27 @@ our $I18N = {
   },
   'helpvar url_listFilesForOwner' => {
     'lastUpdated' => 1229371689,
-    'message' => 'Der URL zur Dateienliste des Benutzers, dem dieses Album gehört.'
+    'message' => "Der URL zur Dateienliste des Benutzers, dem dieses Album geh\x{f6}rt."
   },
   'helpvar url_search' => {
     'lastUpdated' => 1229371752,
-    'message' => "Der URL zur Such-Ansicht der \x{fc}bergeordneten Galerie."
+    'message' => 'Der URL zur Such-Ansicht der übergeordneten Galerie.'
   },
   'helpvar url_slideshow' => {
     'lastUpdated' => 1229372023,
-    'message' => "Der URL zur Diashow f\x{fc}r dieses Album."
+    'message' => 'Der URL zur Diashow für dieses Album.'
   },
   'helpvar url_thumbnails' => {
     'lastUpdated' => 1229372067,
-    'message' => 'Der URL zur Ansicht der Vorschaubilder für dieses Album.'
+    'message' => "Der URL zur Ansicht der Vorschaubilder f\x{fc}r dieses Album."
   },
   'helpvar url_viewRss' => {
     'lastUpdated' => 1229372107,
-    'message' => "Der URL zum RSS-Feed f\x{fc}r dieses Album."
+    'message' => 'Der URL zum RSS-Feed für dieses Album.'
   },
   'helpvar url_yes' => {
     'lastUpdated' => 1229372169,
-    'message' => 'Bestätigen Sie das Löschen dieses Albums!'
+    'message' => "Best\x{e4}tigen Sie das L\x{f6}schen dieses Albums!"
   },
   'save' => {
     'lastUpdated' => 1201607200,
@@ -331,11 +331,11 @@ our $I18N = {
   },
   'save message' => {
     'lastUpdated' => 1229712933,
-    'message' => 'Die Einstellungen für das Album wurden gespeichert. <a href="%s">Zurück zum Album</a>'
+    'message' => "Die Einstellungen f\x{fc}r das Album wurden gespeichert. <a href=\"%s\">Zur\x{fc}ck zum Album</a>"
   },
   'template add' => {
     'lastUpdated' => 1229106381,
-    'message' => 'Hinzufügen'
+    'message' => "Hinzuf\x{fc}gen"
   },
   'template addArchive body' => {
     'lastUpdated' => 1229106714,
@@ -343,7 +343,7 @@ our $I18N = {
   },
   'template addArchive title' => {
     'lastUpdated' => 1229106566,
-    'message' => "Zip-Archiv hinzuf\x{fc}gen"
+    'message' => 'Zip-Archiv hinzufügen'
   },
   'template assetName' => {
     'lastUpdated' => 1229106770,
@@ -351,7 +351,7 @@ our $I18N = {
   },
   'template delete message' => {
     'lastUpdated' => 1229106813,
-    'message' => 'Sind Sie sicher, dass Sie dieses Album löschen wollen?'
+    'message' => "Sind Sie sicher, dass Sie dieses Album l\x{f6}schen wollen?"
   },
   'template delete no' => {
     'lastUpdated' => 1229107284,
@@ -370,8 +370,8 @@ our $I18N = {
     'message' => 'Erstellt am'
   },
   'template file numberOfComments' => {
-    'lastUpdated' => 1229108708,
-    'message' => 'Kommentare'
+    'lastUpdated' => 1230126199,
+    'message' => 'Kommentar(e)'
   },
   'template upload archive' => {
     'lastUpdated' => 1229108720,
@@ -391,11 +391,11 @@ our $I18N = {
   },
   'template url_addPhoto' => {
     'lastUpdated' => 1229108891,
-    'message' => 'Foto hinzufügen'
+    'message' => "Foto hinzuf\x{fc}gen"
   },
   'template url_delete' => {
     'lastUpdated' => 1229108881,
-    'message' => "Album l\x{f6}schen"
+    'message' => 'Album löschen'
   },
   'template url_edit' => {
     'lastUpdated' => 1229108905,
@@ -411,7 +411,7 @@ our $I18N = {
   },
   'what next' => {
     'lastUpdated' => 1229108965,
-    'message' => 'Nächster Schritt?'
+    'message' => "N\x{e4}chster Schritt?"
   }
 }
 ;
