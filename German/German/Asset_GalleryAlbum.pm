@@ -42,8 +42,8 @@ our $I18N = {
     'message' => 'Bitte w&auml;hlen Sie ein Vorschaubild, das Ihr Album repr&auml;sentieren soll.'
   },
   'editForm description label' => {
-    'lastUpdated' => 1229104971,
-    'message' => 'Beschreibung des Albums'
+    'lastUpdated' => 1230111188,
+    'message' => 'Beschreibung'
   },
   'editForm othersCanAdd label' => {
     'lastUpdated' => 1229104991,
@@ -366,8 +366,8 @@ our $I18N = {
     'message' => 'Bearbeiten'
   },
   'template file creationDate' => {
-    'lastUpdated' => 1229108697,
-    'message' => 'Hochgeladen am'
+    'lastUpdated' => 1230110461,
+    'message' => 'Erstellt am'
   },
   'template file numberOfComments' => {
     'lastUpdated' => 1229108708,

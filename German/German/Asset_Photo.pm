@@ -7,7 +7,7 @@ our $I18N = {
   },
   'comment message' => {
     'lastUpdated' => 1229722523,
-    'message' => "Ihr Kommentar wurde hinzugef\x{fc}gt. <a href=\"%s\">Zur\x{fc}ck zum Foto</a>."
+    'message' => 'Ihr Kommentar wurde hinzugefügt. <a href="%s">Zurück zum Foto</a>.'
   },
   'commentForm error no bodyText' => {
     'lastUpdated' => 1229722538,
@@ -15,15 +15,15 @@ our $I18N = {
   },
   'commentForm error no commentId' => {
     'lastUpdated' => 1229722593,
-    'message' => "Es wurde keine ID f\x{fc}r den Kommentar vergeben. Dies bedeutet, dass ein Problem mit der Schablone besteht. Bitte informieren Sie einen Administrator!"
+    'message' => 'Es wurde keine ID für den Kommentar vergeben. Dies bedeutet, dass ein Problem mit der Schablone besteht. Bitte informieren Sie einen Administrator!'
   },
   'delete message' => {
     'lastUpdated' => 1229722618,
-    'message' => 'Das Foto wurde gelöscht. <a href="%s">Zurück zum Album</a>'
+    'message' => "Das Foto wurde gel\x{f6}scht. <a href=\"%s\">Zur\x{fc}ck zum Album</a>"
   },
   'editCommentSave message' => {
     'lastUpdated' => 1223576793,
-    'message' => "Die Bemerkung wurde aktualisiert. <a href=\"%s\">Zur\x{fc}ck zum Bild</a>"
+    'message' => 'Die Bemerkung wurde aktualisiert. <a href="%s">Zurück zum Bild</a>'
   },
   'editForm cancel' => {
     'lastUpdated' => 1217314939,
@@ -35,7 +35,7 @@ our $I18N = {
   },
   'editForm keywords' => {
     'lastUpdated' => 1229722641,
-    'message' => "Stichw\x{f6}rter"
+    'message' => 'Stichwörter'
   },
   'editForm location' => {
     'lastUpdated' => 1226016555,
@@ -54,8 +54,8 @@ our $I18N = {
     'message' => 'Speichern'
   },
   'editForm synopsis label' => {
-    'lastUpdated' => 1229978359,
-    'message' => 'Beschreibung des Fotos'
+    'lastUpdated' => 1230111406,
+    'message' => 'Beschreibung'
   },
   'editForm title label' => {
     'lastUpdated' => 1217315028,
@@ -67,31 +67,31 @@ our $I18N = {
   },
   'help commentForm body' => {
     'lastUpdated' => 1229771116,
-    'message' => 'Diese Variablen sind in der Ansicht zur Erstellung von Kommentaren verfügbar.'
+    'message' => "Diese Variablen sind in der Ansicht zur Erstellung von Kommentaren verf\x{fc}gbar."
   },
   'help commentForm title' => {
     'lastUpdated' => 1229771262,
-    'message' => 'Foto, Kommentar hinzufügen'
+    'message' => "Foto, Kommentar hinzuf\x{fc}gen"
   },
   'help common body' => {
     'lastUpdated' => 1229771147,
-    'message' => "Diese Variablen sind in allen Ansichten des Fotos verf\x{fc}gbar."
+    'message' => 'Diese Variablen sind in allen Ansichten des Fotos verfügbar.'
   },
   'help common title' => {
     'lastUpdated' => 1229770863,
     'message' => 'Foto, allgemein'
   },
   'help delete body' => {
-    'lastUpdated' => 1229726156,
-    'message' => 'Bestätigen Sie das Löschen des Photo Assets.'
+    'lastUpdated' => 1230111463,
+    'message' => 'Bestätigung der Löschung eines Foto-Assets.'
   },
   'help delete title' => {
     'lastUpdated' => 1229770917,
-    'message' => 'Foto, löschen'
+    'message' => "Foto, l\x{f6}schen"
   },
   'help edit body' => {
     'lastUpdated' => 1229771204,
-    'message' => 'Diese Variablen sind in der Ansicht zum Hinzufügen bzw. Bearbeiten von Fotos verfügbar.'
+    'message' => "Diese Variablen sind in der Ansicht zum Hinzuf\x{fc}gen bzw. Bearbeiten von Fotos verf\x{fc}gbar."
   },
   'help edit title' => {
     'lastUpdated' => 1229770908,
@@ -99,7 +99,7 @@ our $I18N = {
   },
   'help editComment body' => {
     'lastUpdated' => 1229771375,
-    'message' => 'Diese Variablen sind in der Ansicht zur Bearbeitung von Kommentaren verfügbar.'
+    'message' => "Diese Variablen sind in der Ansicht zur Bearbeitung von Kommentaren verf\x{fc}gbar."
   },
   'help editComment title' => {
     'lastUpdated' => 1229771249,
@@ -107,15 +107,15 @@ our $I18N = {
   },
   'help makeShortcut body' => {
     'lastUpdated' => 1229773085,
-    'message' => 'Diese Variablen sind in der Ansicht zur Erstellung von Verknüpfungen verfügbar.'
+    'message' => "Diese Variablen sind in der Ansicht zur Erstellung von Verkn\x{fc}pfungen verf\x{fc}gbar."
   },
   'help makeShortcut title' => {
     'lastUpdated' => 1229773055,
-    'message' => "Foto, Verkn\x{fc}pfung erstellen"
+    'message' => 'Foto, Verknüpfung erstellen'
   },
   'help view body' => {
     'lastUpdated' => 1229771525,
-    'message' => 'Diese Variablen sind in der Standardansicht des Fotos verfügbar.'
+    'message' => "Diese Variablen sind in der Standardansicht des Fotos verf\x{fc}gbar."
   },
   'help view title' => {
     'lastUpdated' => 1229770965,
@@ -123,19 +123,19 @@ our $I18N = {
   },
   'helpvar album_menuTitle' => {
     'lastUpdated' => 1229725884,
-    'message' => "Der Men\x{fc}titel des Albums, welches diese Datei enth\x{e4}lt."
+    'message' => 'Der Menütitel des Albums, welches diese Datei enthält.'
   },
   'helpvar album_thumbnailUrl' => {
     'lastUpdated' => 1229725757,
-    'message' => "Der URL des Vorschaubildes des Albums, welches diese Datei enth\x{e4}lt."
+    'message' => 'Der URL des Vorschaubildes des Albums, welches diese Datei enthält.'
   },
   'helpvar album_title' => {
     'lastUpdated' => 1229725769,
-    'message' => 'Der Titel des Albums, welches diese Datei enthält.'
+    'message' => "Der Titel des Albums, welches diese Datei enth\x{e4}lt."
   },
   'helpvar album_url' => {
     'lastUpdated' => 1229725782,
-    'message' => "Der URL des Albums, welches diese Datei enth\x{e4}lt."
+    'message' => 'Der URL des Albums, welches diese Datei enthält.'
   },
   'helpvar canComment' => {
     'lastUpdated' => 1229771393,
@@ -151,19 +151,19 @@ our $I18N = {
   },
   'helpvar commentForm_end' => {
     'lastUpdated' => 1229726006,
-    'message' => 'Das Ende des Formulars für Kommentare.'
+    'message' => "Das Ende des Formulars f\x{fc}r Kommentare."
   },
   'helpvar commentForm_start' => {
     'lastUpdated' => 1229726030,
-    'message' => "Der Beginn des Formulars f\x{fc}r Kommentare."
+    'message' => 'Der Beginn des Formulars für Kommentare.'
   },
   'helpvar commentForm_submit' => {
     'lastUpdated' => 1229726118,
-    'message' => "\x{dc}bergebe das Formular f\x{fc}r Kommentare."
+    'message' => 'Übergebe das Formular für Kommentare.'
   },
   'helpvar commentLoop' => {
     'lastUpdated' => 1229725579,
-    'message' => 'Schleife über eine Seite mit Kommentaren zu diesem Foto.'
+    'message' => "Schleife \x{fc}ber eine Seite mit Kommentaren zu diesem Foto."
   },
   'helpvar commentLoop bodyText' => {
     'lastUpdated' => 1229725541,
@@ -175,7 +175,7 @@ our $I18N = {
   },
   'helpvar commentLoop url_deleteComment' => {
     'lastUpdated' => 1229725518,
-    'message' => "Der URL zum L\x{f6}schen dieses Kommentars."
+    'message' => 'Der URL zum Löschen dieses Kommentars.'
   },
   'helpvar commentLoop userId' => {
     'lastUpdated' => 1229725499,
@@ -199,11 +199,11 @@ our $I18N = {
   },
   'helpvar errors' => {
     'lastUpdated' => 1229725063,
-    'message' => 'Eine Schleife mit Fehlermeldungen zur Anzeige gegenüber dem Benutzer.'
+    'message' => "Eine Schleife mit Fehlermeldungen zur Anzeige gegen\x{fc}ber dem Benutzer."
   },
   'helpvar exifLoop' => {
     'lastUpdated' => 1229724973,
-    'message' => 'Schleife über EXIF-Tags.'
+    'message' => "Schleife \x{fc}ber EXIF-Tags."
   },
   'helpvar exifLoop tag' => {
     'lastUpdated' => 1229724958,
@@ -215,11 +215,11 @@ our $I18N = {
   },
   'helpvar exif_' => {
     'lastUpdated' => 1229724920,
-    'message' => "Jeder EXIF-Tag kann \x{fc}ber seinen Namen referenziert werden."
+    'message' => 'Jeder EXIF-Tag kann über seinen Namen referenziert werden.'
   },
   'helpvar fileUrl' => {
     'lastUpdated' => 1229724886,
-    'message' => 'Der URL zum Foto in Originalgröße.'
+    'message' => "Der URL zum Foto in Originalgr\x{f6}\x{df}e."
   },
   'helpvar form_end' => {
     'lastUpdated' => 1229725647,
@@ -227,11 +227,11 @@ our $I18N = {
   },
   'helpvar form_friendsOnly' => {
     'lastUpdated' => 1229724787,
-    'message' => "Foto nur f\x{fc}r Freunde?"
+    'message' => 'Foto nur für Freunde?'
   },
   'helpvar form_keywords' => {
     'lastUpdated' => 1229724773,
-    'message' => 'Die Stichwörter für das Foto.'
+    'message' => "Die Stichw\x{f6}rter f\x{fc}r das Foto."
   },
   'helpvar form_location' => {
     'lastUpdated' => 1229724744,
@@ -239,7 +239,7 @@ our $I18N = {
   },
   'helpvar form_parentId' => {
     'lastUpdated' => 1229724723,
-    'message' => 'Wählen Sie das Album, in dem der Verweis angelegt werden soll!'
+    'message' => "W\x{e4}hlen Sie das Album, in dem der Verweis angelegt werden soll!"
   },
   'helpvar form_photo' => {
     'lastUpdated' => 1229724681,
@@ -251,7 +251,7 @@ our $I18N = {
   },
   'helpvar form_submit' => {
     'lastUpdated' => 1229724653,
-    'message' => 'Übergebe das Formular.'
+    'message' => "\x{dc}bergebe das Formular."
   },
   'helpvar form_synopsis' => {
     'lastUpdated' => 1229724607,
@@ -263,15 +263,15 @@ our $I18N = {
   },
   'helpvar gallery_menuTitle' => {
     'lastUpdated' => 1229724578,
-    'message' => "Der Men\x{fc}titel der Galerie, die diese Datei enth\x{e4}lt."
+    'message' => 'Der Menütitel der Galerie, die diese Datei enthält.'
   },
   'helpvar gallery_title' => {
     'lastUpdated' => 1229724556,
-    'message' => 'Der Titel der Galerie, die diese Datei enthält.'
+    'message' => "Der Titel der Galerie, die diese Datei enth\x{e4}lt."
   },
   'helpvar gallery_url' => {
     'lastUpdated' => 1229724540,
-    'message' => "Der URL der Galerie, die diese Datei enth\x{e4}lt."
+    'message' => 'Der URL der Galerie, die diese Datei enthält.'
   },
   'helpvar isNewPhoto' => {
     'lastUpdated' => 1217315374,
@@ -279,39 +279,39 @@ our $I18N = {
   },
   'helpvar isPending' => {
     'lastUpdated' => 1229724516,
-    'message' => 'Variable die wahr ist, falls das Foto noch nicht freigegeben wurde. Benutzer, die berechtigt sind, das Foto zu bearbeiten, dürfen es schon sehen noch bevor es freigegeben wurde.'
+    'message' => "Variable die wahr ist, falls das Foto noch nicht freigegeben wurde. Benutzer, die berechtigt sind, das Foto zu bearbeiten, d\x{fc}rfen es schon sehen noch bevor es freigegeben wurde."
   },
   'helpvar keyword' => {
     'lastUpdated' => 1229724332,
-    'message' => 'Das Schlüsselwort'
+    'message' => "Das Schl\x{fc}sselwort"
   },
   'helpvar keywords' => {
     'lastUpdated' => 1229724819,
-    'message' => 'Eine Schleife mit Stichwörtern, die diesem Foto zugeordnet sind.'
+    'message' => "Eine Schleife mit Stichw\x{f6}rtern, die diesem Foto zugeordnet sind."
   },
   'helpvar numberOfComments' => {
     'lastUpdated' => 1229724284,
-    'message' => 'Die Anzahl der Kommentare für dieses Foto.'
+    'message' => "Die Anzahl der Kommentare f\x{fc}r dieses Foto."
   },
   'helpvar ownerUsername' => {
     'lastUpdated' => 1229724250,
-    'message' => "Der Benutzername des Benutzers, der dieses Foto \x{fc}bermittelt hat."
+    'message' => 'Der Benutzername des Benutzers, der dieses Foto übermittelt hat.'
   },
   'helpvar resolutions_' => {
     'lastUpdated' => 1229724220,
-    'message' => 'Der URL zu einer bestimmten Auflösung. Der URL für eine Auflösung von 800 Pixeln wäre als "resolutions_800" definiert.'
+    'message' => "Der URL zu einer bestimmten Aufl\x{f6}sung. Der URL f\x{fc}r eine Aufl\x{f6}sung von 800 Pixeln w\x{e4}re als \"resolutions_800\" definiert."
   },
   'helpvar resolutions_loop' => {
     'lastUpdated' => 1229724058,
-    'message' => "Die verf\x{fc}gbaren Aufl\x{f6}sungen des Fotos f\x{fc}r den Download."
+    'message' => 'Die verfügbaren Auflösungen des Fotos für den Download.'
   },
   'helpvar resolutions_loop resolution' => {
     'lastUpdated' => 1229724033,
-    'message' => 'Die Auflösung des Fotos.'
+    'message' => "Die Aufl\x{f6}sung des Fotos."
   },
   'helpvar resolutions_loop url_download' => {
     'lastUpdated' => 1229723995,
-    'message' => 'Der URL zum Download des Fotos in einer bestimmten Auflösung.'
+    'message' => "Der URL zum Download des Fotos in einer bestimmten Aufl\x{f6}sung."
   },
   'helpvar synopsis_text' => {
     'lastUpdated' => 1229724018,
@@ -323,19 +323,19 @@ our $I18N = {
   },
   'helpvar url_addArchive' => {
     'lastUpdated' => 1229723948,
-    'message' => 'Der URL zum Hinzufügen eines Archivs zum übergeordneten Album.'
+    'message' => "Der URL zum Hinzuf\x{fc}gen eines Archivs zum \x{fc}bergeordneten Album."
   },
   'helpvar url_album' => {
     'lastUpdated' => 1229723873,
-    'message' => "Der URL des Albums, welches diese Datei enth\x{e4}lt."
+    'message' => 'Der URL des Albums, welches diese Datei enthält.'
   },
   'helpvar url_delete' => {
     'lastUpdated' => 1229723843,
-    'message' => 'Der URL zum Löschen dieses Fotos.'
+    'message' => "Der URL zum L\x{f6}schen dieses Fotos."
   },
   'helpvar url_demote' => {
     'lastUpdated' => 1229723829,
-    'message' => "Der URL zur Zur\x{fc}ckstufung des Ranges dieses Fotos. Bringt den Benutzer direkt zum Bearbeitungs-Formular der \x{fc}bergeordneten Galerie."
+    'message' => 'Der URL zur Zurückstufung des Ranges dieses Fotos. Bringt den Benutzer direkt zum Bearbeitungs-Formular der übergeordneten Galerie.'
   },
   'helpvar url_edit' => {
     'lastUpdated' => 1229723710,
@@ -343,43 +343,43 @@ our $I18N = {
   },
   'helpvar url_gallery' => {
     'lastUpdated' => 1229723690,
-    'message' => 'Der URL zur Galerie, die dieses Foto enthält.'
+    'message' => "Der URL zur Galerie, die dieses Foto enth\x{e4}lt."
   },
   'helpvar url_listFilesForOwner' => {
     'lastUpdated' => 1229723619,
-    'message' => "Der URL zur Auflistung der Dateien und Alben, die der Besitzer dieses Fotos \x{fc}bermittelt hat."
+    'message' => 'Der URL zur Auflistung der Dateien und Alben, die der Besitzer dieses Fotos übermittelt hat.'
   },
   'helpvar url_makeShortcut' => {
     'lastUpdated' => 1229773109,
-    'message' => "Der URL zum Erzeugen einer Verkn\x{fc}pfung auf dieses Foto."
+    'message' => 'Der URL zum Erzeugen einer Verknüpfung auf dieses Foto.'
   },
   'helpvar url_promote' => {
     'lastUpdated' => 1229723458,
-    'message' => "Der URL zur Verbesserung des Ranges dieses Fotos. Bringt den Benutzer direkt zum Bearbeitungs-Formular der \x{fc}bergeordneten Galerie."
+    'message' => 'Der URL zur Verbesserung des Ranges dieses Fotos. Bringt den Benutzer direkt zum Bearbeitungs-Formular der übergeordneten Galerie.'
   },
   'helpvar url_searchKeyword' => {
     'lastUpdated' => 1229723381,
-    'message' => 'Der URL zur Suchseite der Galerie für dieses Schlüsselwort.'
+    'message' => "Der URL zur Suchseite der Galerie f\x{fc}r dieses Schl\x{fc}sselwort."
   },
   'helpvar url_searchKeywordUser' => {
     'lastUpdated' => 1229723357,
-    'message' => "Der URL zur Suchseite der Galerie f\x{fc}r dieses Schl\x{fc}sselwort. Die Suche ist auf Fotos des aktuellen Benutzers beschr\x{e4}nkt."
+    'message' => 'Der URL zur Suchseite der Galerie für dieses Schlüsselwort. Die Suche ist auf Fotos des aktuellen Benutzers beschränkt.'
   },
   'helpvar url_slideshow' => {
     'lastUpdated' => 1229723905,
-    'message' => "Der URL zur Diashow-Ansicht des Albums, welches diese Datei enth\x{e4}lt."
+    'message' => 'Der URL zur Diashow-Ansicht des Albums, welches diese Datei enthält.'
   },
   'helpvar url_thumbnails' => {
     'lastUpdated' => 1229723890,
-    'message' => 'Der URL zur Vorschaubild-Ansicht des Albums, welches diese Datei enthält.'
+    'message' => "Der URL zur Vorschaubild-Ansicht des Albums, welches diese Datei enth\x{e4}lt."
   },
   'helpvar url_yes' => {
     'lastUpdated' => 1229723186,
-    'message' => "Best\x{e4}tigen Sie das L\x{f6}schen dieses Fotos."
+    'message' => 'Bestätigen Sie das Löschen dieses Fotos.'
   },
   'save message' => {
     'lastUpdated' => 1229723159,
-    'message' => 'Ihr Foto wartet auf Freigabe für die Veröffentlichung. <a href="%s">Foto ansehen</a>. <a href="%s">Ein weiteres Foto hinzufügen</a>.'
+    'message' => "Ihr Foto wartet auf Freigabe f\x{fc}r die Ver\x{f6}ffentlichung. <a href=\"%s\">Foto ansehen</a>. <a href=\"%s\">Ein weiteres Foto hinzuf\x{fc}gen</a>."
   },
   'template assetName' => {
     'lastUpdated' => 1229723026,
@@ -387,19 +387,19 @@ our $I18N = {
   },
   'template comment add title' => {
     'lastUpdated' => 1229978248,
-    'message' => 'Kommentar hinzufügen'
+    'message' => "Kommentar hinzuf\x{fc}gen"
   },
   'template comment creationDate' => {
     'lastUpdated' => 1229978237,
-    'message' => "Hinzugef\x{fc}gt am"
+    'message' => 'Hinzugefügt am'
   },
   'template comment delete confirm' => {
     'lastUpdated' => 1217315755,
     'message' => 'Sind Sie sicher, das Sie diesen Kommentar entfernen wollen?'
   },
   'template comment edit title' => {
-    'lastUpdated' => 1217315765,
-    'message' => 'Kommentar bearbeiten.'
+    'lastUpdated' => 1230117461,
+    'message' => 'Bearbeiten'
   },
   'template comments title' => {
     'lastUpdated' => 1217315772,
@@ -415,7 +415,7 @@ our $I18N = {
   },
   'template delete message' => {
     'lastUpdated' => 1229723214,
-    'message' => 'Sind Sie sicher, das Sie dies löschen wollen?'
+    'message' => "Sind Sie sicher, das Sie dies l\x{f6}schen wollen?"
   },
   'template error happened' => {
     'lastUpdated' => 1217315843,
@@ -423,7 +423,7 @@ our $I18N = {
   },
   'template fileUrl' => {
     'lastUpdated' => 1229722868,
-    'message' => 'Bild in voller Größe betrachten'
+    'message' => "Bild in voller Gr\x{f6}\x{df}e betrachten"
   },
   'template friendsOnly label' => {
     'lastUpdated' => 1226016599,
@@ -431,7 +431,7 @@ our $I18N = {
   },
   'template friendsOnly no' => {
     'lastUpdated' => 1229722855,
-    'message' => "\x{d6}ffentlich"
+    'message' => 'Öffentlich'
   },
   'template friendsOnly yes' => {
     'lastUpdated' => 1217315902,
@@ -439,7 +439,7 @@ our $I18N = {
   },
   'template keywords' => {
     'lastUpdated' => 1229724838,
-    'message' => "Stichw\x{f6}rter"
+    'message' => 'Stichwörter'
   },
   'template location' => {
     'lastUpdated' => 1226016613,
@@ -455,19 +455,19 @@ our $I18N = {
   },
   'template makeShortcut title' => {
     'lastUpdated' => 1229773142,
-    'message' => 'Verknüpfung erstellen'
+    'message' => "Verkn\x{fc}pfung erstellen"
   },
   'template url_album' => {
     'lastUpdated' => 1229722834,
-    'message' => "Zur\x{fc}ck zum Album"
+    'message' => 'Zurück zum Album'
   },
   'template url_delete' => {
     'lastUpdated' => 1229722845,
-    'message' => 'Foto löschen'
+    'message' => "Foto l\x{f6}schen"
   },
   'template url_deleteComment' => {
-    'lastUpdated' => 1229722803,
-    'message' => 'löschen'
+    'lastUpdated' => 1230117270,
+    'message' => 'Löschen'
   },
   'template url_edit' => {
     'lastUpdated' => 1229722812,
@@ -475,7 +475,7 @@ our $I18N = {
   },
   'template url_makeShortcut' => {
     'lastUpdated' => 1229773163,
-    'message' => "Verkn\x{fc}pfung erstellen"
+    'message' => 'Verknüpfung erstellen'
   },
   'template view title' => {
     'lastUpdated' => 1229722484,
