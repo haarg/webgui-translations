@@ -26,8 +26,8 @@ our $I18N = {
     'message' => 'Macros bearbeiten bevor Abfrage ausgef&uuml;hrt wird?'
   },
   '15 description' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1230371406,
+    'message' => 'Wenn Sie in Ihrer Abfrage WebGUI-Makros benutzen, dann m&uuml;ssen Sie dieses K&euro;&auml;stchen markieren'
   },
   '16' => {
     'lastUpdated' => 1225586695,

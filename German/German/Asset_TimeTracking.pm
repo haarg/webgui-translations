@@ -62,8 +62,8 @@ our $I18N = {
     'message' => ''
   },
   'add project label' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1230371487,
+    'message' => 'Neues Projekt hinzuf&uuml;gen'
   },
   'assetName' => {
     'lastUpdated' => undef,
