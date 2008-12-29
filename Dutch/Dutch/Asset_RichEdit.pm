@@ -370,8 +370,8 @@ our $I18N = {
     'message' => 'Taakbalk knoppen'
   },
   'toolbar buttons description' => {
-    'lastUpdated' => 1208525488,
-    'message' => 'Laat zien welke taakbalk knoppen gebruikt worden in welke taakbalk van de editor. Om een taakbalk te verwijderen, deselecteer je alle knoppen in die taakbalk kolom. Let erop dat andere velden ook knoppen kunnen toevoegen, zoals het context menu.'
+    'lastUpdated' => 1229182994,
+    'message' => 'Laat zien welke taakbalk knoppen gebruikt worden in welke taakbalk van de editor. Om een taakbalk te verwijderen, deselecteer je alle knoppen in die taakbalk kolom. Let erop dat andere velden ook knoppen kunnen toevoegen, zoals het context menu. Het toevoegen van knoppen hoeft niet de functionaliteit beschikbaar te maken. Eventueel moeten de geldige elementen bijgewerkt worden voor deze editor.'
   },
   'toolbar location' => {
     'lastUpdated' => 1204037116,

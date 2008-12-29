@@ -381,6 +381,10 @@ our $I18N = {
     'lastUpdated' => 1190024920,
     'message' => 'Wachtwoord (ter bevestiging)'
   },
+  'no email address' => {
+    'lastUpdated' => 1229530937,
+    'message' => 'Deze account heeft geen bijbehorend e-mail adres. Wachtwoord herstel via e-mail is niet mogelijk.'
+  },
   'no registration hack' => {
     'lastUpdated' => 1156035603,
     'message' => 'Voltooi anonieme registratie door createAccountSave meteen vanaf de URL aan te roepen. '

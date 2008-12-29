@@ -5,6 +5,22 @@ our $I18N = {
     'lastUpdated' => 1170689114,
     'message' => 'Er wordt een lus aangemaakt voor elke categorie binnen het matrix. De naam van de lus is hetzelfde als de naam van de categorie waarbij de spaties zijn vervangen door koppeltekens en een _loop is toegevoegd aan het eind. Wanneer er een categorie toegevoegd is met de naam "Toeters en bellen" dan wordt de naam van de lus "toeters_en_bellen_loop".'
   },
+  'add attribute label' => {
+    'lastUpdated' => 1230576231,
+    'message' => 'Eigenschap toevoegen'
+  },
+  'add new listing label' => {
+    'lastUpdated' => 1230576248,
+    'message' => 'Klik hier om een nieuwe lijst te maken.'
+  },
+  'add new listing text' => {
+    'lastUpdated' => 1230576351,
+    'message' => 'Let erop dat u de lijst moet onderhouden en verantwoordelijk bent voor het bijhouden van updates.'
+  },
+  'addMatrixListing_url' => {
+    'lastUpdated' => 1230576381,
+    'message' => 'Het URL waar een gebruiker een nieuwe lijst aan de matrix kan toevoegen.'
+  },
   'approve.url' => {
     'lastUpdated' => 1152629554,
     'message' => 'De URL waar deze lijst goedgekeurd wordt.'
@@ -12,6 +28,46 @@ our $I18N = {
   'assetName' => {
     'lastUpdated' => 1152627761,
     'message' => 'Matrix'
+  },
+  'attribute defaultValue description' => {
+    'lastUpdated' => 1230576442,
+    'message' => 'Geef een standaardwaarde op voor deze eigenschap voor bij het gebruik van een selectievak als veldtype.'
+  },
+  'attribute defaultValue label' => {
+    'lastUpdated' => 1230576480,
+    'message' => 'Standaardwaarde'
+  },
+  'attribute description description' => {
+    'lastUpdated' => 1230576513,
+    'message' => 'Geed alstublieft een algemene bescrijving van de eigenschap.'
+  },
+  'attribute description label' => {
+    'lastUpdated' => 1230576525,
+    'message' => 'Beschrijving'
+  },
+  'attribute name description' => {
+    'lastUpdated' => 1230576583,
+    'message' => 'De naam van de eigenschap die aangemaakt wordt. Het moet uniek zijn en er wordt onderscheid gemaakt tussen hoofd-en kleine letters.'
+  },
+  'attribute name label' => {
+    'lastUpdated' => 1230576596,
+    'message' => 'Naam'
+  },
+  'attribute options description' => {
+    'lastUpdated' => 1230576664,
+    'message' => 'Voer opties in (&eacute;&eacute;n per regel) voor de eigenschap als een selectievak als veldtype gebruikt wordt.'
+  },
+  'attribute options label' => {
+    'lastUpdated' => 1230576672,
+    'message' => 'Opties'
+  },
+  'attribute_loop' => {
+    'lastUpdated' => 1230576700,
+    'message' => 'Een functie die de eigenschappen in de matrix bevat.'
+  },
+  'best rated label' => {
+    'lastUpdated' => 1229183019,
+    'message' => 'Best gewaardeerd door gebruikers'
   },
   'best.clicks.count' => {
     'lastUpdated' => 1156270480,
@@ -65,6 +121,42 @@ our $I18N = {
     'lastUpdated' => 1156283667,
     'message' => 'De URL naar de lijst die het meest is bekeken.'
   },
+  'bestClicks_count' => {
+    'lastUpdated' => 1229183054,
+    'message' => 'Het aantal klikken uit de lijst die de meeste klikken heeft.'
+  },
+  'bestClicks_name' => {
+    'lastUpdated' => 1230576719,
+    'message' => 'De naam van de lijst die het meest gekozen is.'
+  },
+  'bestClicks_url' => {
+    'lastUpdated' => 1230576739,
+    'message' => 'Het URL van de lijst die het meest gekozen is.'
+  },
+  'bestCompares_count' => {
+    'lastUpdated' => 1230576763,
+    'message' => 'Het aantal vergelijkingen van de lijst die het meest vergeleken is.'
+  },
+  'bestCompares_name' => {
+    'lastUpdated' => 1230576783,
+    'message' => 'De naam van de lijst die het meest vergeleken is.'
+  },
+  'bestCompares_url' => {
+    'lastUpdated' => 1230576800,
+    'message' => 'Het URL van de lijst die het meest vergeleken is.'
+  },
+  'bestViews_count' => {
+    'lastUpdated' => 1230576828,
+    'message' => 'Het totaal aantal bezichtigingen van de lijst die het meest bekeken is.'
+  },
+  'bestViews_name' => {
+    'lastUpdated' => 1230576845,
+    'message' => 'De naam van de lijst die het meest bekeken is.'
+  },
+  'bestViews_url' => {
+    'lastUpdated' => 1230576869,
+    'message' => 'Het URL van de lijst die het meest bekeken is.'
+  },
   'best_rating_loop' => {
     'lastUpdated' => 1156340944,
     'message' => 'Een lus die alle categorie&euml;n voor deze matrix en hun beste beoordelingen bevat. '
@@ -76,6 +168,10 @@ our $I18N = {
   'categories description' => {
     'lastUpdated' => 1156284827,
     'message' => 'Specificeer hier een categorie per regel om categorie&euml;n voor deze matrix te defini&euml;ren. Categorie&euml;n worden gebruikt om velden onder te verdelen en zij geven ook de zaken weer, waar gebruikers elke lijst op kunnen beoordelen.  '
+  },
+  'categories label' => {
+    'lastUpdated' => 1230577202,
+    'message' => 'Categori&euml;n'
   },
   'categories subtext' => {
     'lastUpdated' => 1207826140,
@@ -109,6 +205,10 @@ our $I18N = {
     'lastUpdated' => 1152627675,
     'message' => 'Het totaal aantal klikken dat deze lijst heeft ontvangen.'
   },
+  'clicks label' => {
+    'lastUpdated' => 1230577566,
+    'message' => 'Aantal keren aangeklikt'
+  },
   'columnCount' => {
     'lastUpdated' => 1156326592,
     'message' => 'Het aantal producten dat wordt vergeleken. '
@@ -125,6 +225,54 @@ our $I18N = {
     'lastUpdated' => 1152627650,
     'message' => 'Commentaar'
   },
+  'comments' => {
+    'lastUpdated' => 1229183069,
+    'message' => 'Het commentaar bij deze lijst.'
+  },
+  'compare button label' => {
+    'lastUpdated' => 1230577575,
+    'message' => 'Vergelijken'
+  },
+  'compare color costs extra description' => {
+    'lastUpdated' => 1230577626,
+    'message' => 'Selecteer de kleur voor het resultaat &quot;Kost extra&quot; in het vergelijkings scherm.'
+  },
+  'compare color costs extra label' => {
+    'lastUpdated' => 1230577646,
+    'message' => 'Vergelijk kleur: kost extra'
+  },
+  'compare color free add on description' => {
+    'lastUpdated' => 1230577699,
+    'message' => 'Selecteer voor het resultaat &quot;Gratis toevoeging&quot; in het vergelijkingsscherm.'
+  },
+  'compare color free add on label' => {
+    'lastUpdated' => 1230577715,
+    'message' => 'Vergelijk kleur: Gratis toevoeging'
+  },
+  'compare color limited description' => {
+    'lastUpdated' => 1230577758,
+    'message' => 'Selecteer de kleur voor het resultaat &quot;Beperkt&quot; in het vergelijkingsscherm.'
+  },
+  'compare color limited label' => {
+    'lastUpdated' => 1230577772,
+    'message' => 'Vergelijk kleur: Beperkt'
+  },
+  'compare color no description' => {
+    'lastUpdated' => 1230577799,
+    'message' => 'Selecteer de kleur voor het resultaat &quot;Nee&quot; in het vergelijkingsscherm.'
+  },
+  'compare color no label' => {
+    'lastUpdated' => 1230577812,
+    'message' => 'Vergelijk kleur: Nee'
+  },
+  'compare color yes description' => {
+    'lastUpdated' => 1230577837,
+    'message' => 'Selecteer de kleur voor het resultaat &quot;Ja&quot; in het vergelijkingsscherm.'
+  },
+  'compare color yes label' => {
+    'lastUpdated' => 1230578199,
+    'message' => 'Vergelijk kleur: Ja'
+  },
   'compare template' => {
     'lastUpdated' => 1152627775,
     'message' => 'Vergelijking sjabloon'
@@ -133,6 +281,10 @@ our $I18N = {
     'lastUpdated' => 1152628133,
     'message' => 'Selecteer een sjabloon waarmee de lijst met vergelijkende data getoond wordt.'
   },
+  'compare template label' => {
+    'lastUpdated' => 1230578211,
+    'message' => 'Sjabloon vergelijken'
+  },
   'compare.form' => {
     'lastUpdated' => 1156330963,
     'message' => 'Het selectievakje-formulier dat alle lijsten in deze matrix bevat. '
@@ -140,6 +292,10 @@ our $I18N = {
   'compares' => {
     'lastUpdated' => 1152629739,
     'message' => 'Het totaal aantal keer dat deze lijst ergens mee is vergeleken.'
+  },
+  'compares label' => {
+    'lastUpdated' => 1229183088,
+    'message' => 'Vergelijken'
   },
   'comparison label' => {
     'lastUpdated' => 1227875551,
@@ -157,9 +313,25 @@ our $I18N = {
     'lastUpdated' => 1227875573,
     'message' => 'Maak een account aan'
   },
+  'create account part1 text' => {
+    'lastUpdated' => 1229183144,
+    'message' => 'Wanneer u de maker van een product of een ervaren gebruiker bent en deze lijst wilt onderhouden.'
+  },
+  'create account part2 text' => {
+    'lastUpdated' => 1230578249,
+    'message' => 'zodat u de lijst kan registreren.'
+  },
   'current.user.count' => {
     'lastUpdated' => 1152629201,
     'message' => 'Het aantal gebruikers die de site momenteel bekijken.'
+  },
+  'default sort description' => {
+    'lastUpdated' => 1230578281,
+    'message' => 'Selecteer de standaard volgorde voor het sorteren van lijsten.'
+  },
+  'default sort label' => {
+    'lastUpdated' => 1230578674,
+    'message' => 'Standaard sorteren'
   },
   'default value' => {
     'lastUpdated' => 1156333148,
@@ -173,6 +345,10 @@ Voor de goed/slecht velden zijn de mogelijke waarden: "No", "Yes", "Free add on"
 
 Voor de selectielijst mag er maar &#233;&#233;n waarde worden ingevuld. De gebruiker kan dan kiezen uit alle al ingevulde waarden.
 '
+  },
+  'delete attribute confirm message' => {
+    'lastUpdated' => 1230578710,
+    'message' => 'Weet u zeker dat deze eigenschap en alle bijbehorende data verwijderd moet worden?'
   },
   'delete field confirm' => {
     'lastUpdated' => 1156338325,
@@ -218,6 +394,10 @@ Voor de selectielijst mag er maar &#233;&#233;n waarde worden ingevuld. De gebru
     'lastUpdated' => 1156340108,
     'message' => 'Matrix lijst detail-sjabloon'
   },
+  'detail template label' => {
+    'lastUpdated' => 1230578725,
+    'message' => 'Detail sjabloon'
+  },
   'detail_loop' => {
     'lastUpdated' => 1207840553,
     'message' => 'Een loop die een lijst met lijsten (listings) bevat, die ten minste tien beoordelingen hebben gehad en die zijn gerangschikt op een gemiddelde beoordeling. '
@@ -229,6 +409,10 @@ Voor de selectielijst mag er maar &#233;&#233;n waarde worden ingevuld. De gebru
   'discussion' => {
     'lastUpdated' => 1152628388,
     'message' => 'Het forum, behorende bij deze lijst.'
+  },
+  'edit attribute title' => {
+    'lastUpdated' => 1230578740,
+    'message' => 'Bewerken/toevoegen eigenschap'
   },
   'edit field' => {
     'lastUpdated' => 1152627994,
@@ -302,6 +486,14 @@ Voor de selectielijst mag er maar &#233;&#233;n waarde worden ingevuld. De gebru
     'lastUpdated' => 1156341615,
     'message' => 'Het type van dit matrix veld.'
   },
+  'fieldType description' => {
+    'lastUpdated' => 1230579905,
+    'message' => 'Het veldtype van de eigenschap die aangemaakt wordt. Selecteer het type uit de opties in het drop-down menu.'
+  },
+  'fieldType label' => {
+    'lastUpdated' => 1229184055,
+    'message' => 'Veld type'
+  },
   'form' => {
     'lastUpdated' => 1152628239,
     'message' => 'Het formulier onderdeel dat voor dit veld staat.'
@@ -362,6 +554,10 @@ Voor de selectielijst mag er maar &#233;&#233;n waarde worden ingevuld. De gebru
     'lastUpdated' => 1152628292,
     'message' => 'Het label van dit veld '
   },
+  'last updated label' => {
+    'lastUpdated' => 1230579919,
+    'message' => 'Laatst bijgewerkt'
+  },
   'lastUpdated' => {
     'lastUpdated' => 1156341893,
     'message' => 'De datum waarop het product voor het laatst gewijzigd is.'
@@ -373,6 +569,10 @@ Voor de selectielijst mag er maar &#233;&#233;n waarde worden ingevuld. De gebru
   'lastUpdated.epoch' => {
     'lastUpdated' => 1207840771,
     'message' => 'De epoch datum waarop deze lijst voor het laatst gewijzigd is.'
+  },
+  'lastUpdated_date' => {
+    'lastUpdated' => 1229183670,
+    'message' => 'De datum waarop deze lijst is bijgewerkt.'
   },
   'last_update_loop' => {
     'lastUpdated' => 1156341961,
@@ -390,6 +590,10 @@ Voor de selectielijst mag er maar &#233;&#233;n waarde worden ingevuld. De gebru
     'lastUpdated' => 1156342047,
     'message' => '<h1>Velden Lijst</h1>
 <a href="%s">Voeg een nieuw veld toe.</a>'
+  },
+  'listing count label' => {
+    'lastUpdated' => 1229183693,
+    'message' => 'Aantal lijsten'
   },
   'listing description' => {
     'lastUpdated' => 1156342135,
@@ -418,6 +622,10 @@ Voor de selectielijst mag er maar &#233;&#233;n waarde worden ingevuld. De gebru
   'listing.count' => {
     'lastUpdated' => 1156342391,
     'message' => 'Het aantal lijsten in deze Matrix.'
+  },
+  'listingCount' => {
+    'lastUpdated' => 1229183309,
+    'message' => 'Het aantal lijsten in deze matrix.'
   },
   'main template' => {
     'lastUpdated' => 1152629245,
@@ -455,6 +663,10 @@ Voor de selectielijst mag er maar &#233;&#233;n waarde worden ingevuld. De gebru
     'lastUpdated' => 1156342545,
     'message' => 'De URL van de fabrikant die gebruikt kan worden om bij te houden hoe vaak er op deze lijst geklikt wordt.'
   },
+  'manufacturerUrl_click' => {
+    'lastUpdated' => 1229183391,
+    'message' => 'Het URL van de fabrikant dat gebruikt moet worden als het aantal klikken van deze lijst geregistreerd moet worden.'
+  },
   'matrix specific fields' => {
     'lastUpdated' => 1156342561,
     'message' => 'Matrix specifieke velden'
@@ -475,6 +687,10 @@ Voor de selectielijst mag er maar &#233;&#233;n waarde worden ingevuld. De gebru
     'lastUpdated' => 1156342790,
     'message' => 'Hier kunt u invullen hoeveel producten er tegelijkertijd mogen worden vergeleken.'
   },
+  'max comparisons label' => {
+    'lastUpdated' => 1229183416,
+    'message' => 'Maximum aantal vergelijkingen'
+  },
   'max comparisons privileged' => {
     'lastUpdated' => 1156343542,
     'message' => 'Max. aantal vergelijkingen (voor gebruikers met privileges)'
@@ -491,9 +707,29 @@ Voor de selectielijst mag er maar &#233;&#233;n waarde worden ingevuld. De gebru
     'lastUpdated' => 1156343465,
     'message' => 'De middelste beoordeling van de beste lijst in deze categorie. '
   },
+  'most clicks label' => {
+    'lastUpdated' => 1229183274,
+    'message' => 'Meest gekozen'
+  },
+  'most compares label' => {
+    'lastUpdated' => 1229183289,
+    'message' => 'Meeste vergelijkingen'
+  },
+  'most recently updated label' => {
+    'lastUpdated' => 1229183789,
+    'message' => 'Laatst bijgewerkt'
+  },
+  'most views label' => {
+    'lastUpdated' => 1230579944,
+    'message' => 'Meest keren bekeken'
+  },
   'name' => {
     'lastUpdated' => 1152628213,
     'message' => 'De naam van het product'
+  },
+  'narrow the matrix label' => {
+    'lastUpdated' => 1229183992,
+    'message' => 'Versmal de matrix'
   },
   'no' => {
     'lastUpdated' => 1152628091,
@@ -507,9 +743,17 @@ Voor de selectielijst mag er maar &#233;&#233;n waarde worden ingevuld. De gebru
     'lastUpdated' => 1152628763,
     'message' => 'U heeft niet de rechten voor het bewerken van deze lijst.'
   },
+  'pending listings label' => {
+    'lastUpdated' => 1229184008,
+    'message' => 'Wachtende lijsten'
+  },
   'pending_list' => {
     'lastUpdated' => 1156343341,
     'message' => 'Een lus met een overzicht van alle lopende lijsten die wachten op goedkeuring.'
+  },
+  'pending_loop' => {
+    'lastUpdated' => 1229184031,
+    'message' => 'Een fuctie die de wachtende lijsten bevat.'
   },
   'privileged group' => {
     'lastUpdated' => 1156343512,
@@ -639,6 +883,10 @@ Voor de selectielijst mag er maar &#233;&#233;n waarde worden ingevuld. De gebru
     'lastUpdated' => 1190025796,
     'message' => 'Matrix Zoek Sjabloon'
   },
+  'search template label' => {
+    'lastUpdated' => 1229183210,
+    'message' => 'Zoeken sjabloon'
+  },
   'search.url' => {
     'lastUpdated' => 1152629523,
     'message' => 'De URL naar de matrix zoek pagina.'
@@ -658,6 +906,14 @@ Voor de selectielijst mag er maar &#233;&#233;n waarde worden ingevuld. De gebru
   'sort alpha numeric label' => {
     'lastUpdated' => 1227876221,
     'message' => 'Alpha numeriek'
+  },
+  'sort by asset rank label' => {
+    'lastUpdated' => 1229183226,
+    'message' => 'Asset rang'
+  },
+  'sort by last updated label' => {
+    'lastUpdated' => 1229183242,
+    'message' => 'Laatst bewerkt'
   },
   'sort by score label' => {
     'lastUpdated' => 1227876305,
@@ -722,6 +978,10 @@ Voor de selectielijst mag er maar &#233;&#233;n waarde worden ingevuld. De gebru
   'tmplVar name' => {
     'lastUpdated' => 1156344968,
     'message' => 'De naam van dit veld.'
+  },
+  'tmplVar pending.name' => {
+    'lastUpdated' => 1229183187,
+    'message' => 'De product naam van de wachtende lijst.'
   },
   'tmplVar pending.productName' => {
     'lastUpdated' => 1156345010,

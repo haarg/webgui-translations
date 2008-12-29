@@ -9,6 +9,10 @@ our $I18N = {
     'lastUpdated' => 1227602529,
     'message' => 'Beste'
   },
+  'comment label' => {
+    'lastUpdated' => 1229201158,
+    'message' => 'Reacties'
+  },
   'contact maintainer label' => {
     'lastUpdated' => 1228818412,
     'message' => 'Contact voor onderhoud'
@@ -28,6 +32,10 @@ our $I18N = {
   'edit matrix listing title' => {
     'lastUpdated' => 1227873845,
     'message' => 'Bewerken/toevoegen lijst'
+  },
+  'general comment label' => {
+    'lastUpdated' => 1229201183,
+    'message' => 'Algemene reacties'
   },
   'last updated label' => {
     'lastUpdated' => 1228818466,
@@ -73,6 +81,10 @@ our $I18N = {
     'lastUpdated' => 1227874485,
     'message' => 'Bericht verzonden'
   },
+  'product name label' => {
+    'lastUpdated' => 1229201246,
+    'message' => 'Productnaam'
+  },
   'productURL description' => {
     'lastUpdated' => 1228818738,
     'message' => 'Als het product een eigen website heeft, vul dan hier het gehele URL in.'
@@ -80,6 +92,14 @@ our $I18N = {
   'productURL label' => {
     'lastUpdated' => 1227875150,
     'message' => 'Produkt URL'
+  },
+  'report error label' => {
+    'lastUpdated' => 1229201296,
+    'message' => 'Rapporteer een fout'
+  },
+  'request type label' => {
+    'lastUpdated' => 1229201283,
+    'message' => 'Type verzoek'
   },
   'respectable label' => {
     'lastUpdated' => 1228820018,
@@ -92,6 +112,14 @@ our $I18N = {
   'screenshots label' => {
     'lastUpdated' => 1228820399,
     'message' => 'Screenshots/Foto\'s'
+  },
+  'send button label' => {
+    'lastUpdated' => 1229201217,
+    'message' => 'Verzenden...'
+  },
+  'show ratings' => {
+    'lastUpdated' => 1229201271,
+    'message' => 'Laat waarderingen zien'
   },
   'template description' => {
     'lastUpdated' => 1228820427,
@@ -116,6 +144,10 @@ our $I18N = {
   'worst label' => {
     'lastUpdated' => 1227602538,
     'message' => 'Slechtste'
+  },
+  'your email label' => {
+    'lastUpdated' => 1229201231,
+    'message' => 'Uw e-mail adres'
   }
 }
 ;
