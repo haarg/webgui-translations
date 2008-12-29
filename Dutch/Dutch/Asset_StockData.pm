@@ -1,6 +1,14 @@
 package WebGUI::i18n::Dutch::Asset_StockData;
 use utf8;
 our $I18N = {
+  'Last Update' => {
+    'lastUpdated' => 1230580141,
+    'message' => 'Laatst bijgewerkt'
+  },
+  'Stock Watch' => {
+    'lastUpdated' => 1230580168,
+    'message' => 'Aandelen bekijken'
+  },
   'add_button_label' => {
     'lastUpdated' => 1154448344,
     'message' => 'Toevoegen &gt; &gt; '
@@ -24,6 +32,10 @@ our $I18N = {
   'default_stock_label_description' => {
     'lastUpdated' => 1225914798,
     'message' => 'Voer een lijst van standaard-aandelen in (&eacute;&eacute;n per regel).'
+  },
+  'delayed 20 minutes' => {
+    'lastUpdated' => 1230580177,
+    'message' => '20 minuten vertraagd'
   },
   'delete_confirm' => {
     'lastUpdated' => 1154529523,

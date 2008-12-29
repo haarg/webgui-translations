@@ -349,11 +349,11 @@ Als er een server voor het verzenden van email op dezelfde machine staat als de 
   },
   '164 description' => {
     'lastUpdated' => 1166787969,
-    'message' => 'Stel de standaard authenticatie methode voor nieuwe accounts in. De twee opties die standaard beschikbaar zij, zijn WebGUI en LDAP. WebGUI authenticatie betekent dat gebruikers zich moeten valideren tegen de gebruikersnaam en wachtwoord die in de WebGUI database zijn opgeslagen. Bij LDAP authenticatie komt deze informatie uit een externe LDAP server. Andere methoden kunnen gebruikt worden als er eerst een eigen authenticatie werktuig geschreven wordt.</p><p><em>Aantekeningen:</em><br />
+    'message' => "Stel de standaard authenticatie methode voor nieuwe accounts in. De twee opties die standaard beschikbaar zij, zijn WebGUI en LDAP. WebGUI authenticatie betekent dat gebruikers zich moeten valideren tegen de gebruikersnaam en wachtwoord die in de WebGUI database zijn opgeslagen. Bij LDAP authenticatie komt deze informatie uit een externe LDAP server. Andere methoden kunnen gebruikt worden als er eerst een eigen authenticatie werktuig geschreven wordt.</p><p><em>Aantekeningen:</em><br />
 <br />
 Authenticatie instellingen kunnen per gebruiker worden ingesteld.<br />
 <br />
-Afhankelijk van welke authenticatie modules geïnstalleerd zijn in het systeem, worden hierna de verschillende opties getoond.'
+Afhankelijk van welke authenticatie modules ge\x{ef}nstalleerd zijn in het systeem, worden hierna de verschillende opties getoond."
   },
   '167' => {
     'lastUpdated' => 1208856142,
@@ -2514,6 +2514,14 @@ LongTruncOk=1'
     'lastUpdated' => 1227628067,
     'message' => 'volgende &gt;'
   },
+  'no ldap link for auth' => {
+    'lastUpdated' => 1230580356,
+    'message' => 'De account kan niet aangemaakt worden omdat er geen LDAP connectie voor deze site is gedefini&euml;erd.'
+  },
+  'no ldap logins' => {
+    'lastUpdated' => 1230580396,
+    'message' => 'U kunt niet inloggen omdat er geen LDAP connectie is gedefini&euml;erd voor deze site.'
+  },
   'no thanks' => {
     'lastUpdated' => 1222938281,
     'message' => 'Nee, bedankt.'
@@ -2773,6 +2781,10 @@ LongTruncOk=1'
   'radio' => {
     'lastUpdated' => 1156167668,
     'message' => 'Keuzerondje '
+  },
+  'read more' => {
+    'lastUpdated' => 1230580410,
+    'message' => 'Lees verder'
   },
   'read only' => {
     'lastUpdated' => 1155908312,
