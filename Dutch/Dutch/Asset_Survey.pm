@@ -729,9 +729,25 @@ our $I18N = {
     'lastUpdated' => 1189373387,
     'message' => 'De ID van het template dat gebruikt wordt om het overzicht te laten zien.'
   },
+  'please enter answer information' => {
+    'lastUpdated' => 1231192510,
+    'message' => 'Voer alstublieft antwoord informatie in:'
+  },
+  'please enter question information' => {
+    'lastUpdated' => 1231192528,
+    'message' => 'Voer altublieft informatie over de vraag in:'
+  },
+  'please enter section information' => {
+    'lastUpdated' => 1231192553,
+    'message' => 'Voer alstublieft informatie over de sectie in'
+  },
   'question' => {
     'lastUpdated' => 1152521329,
     'message' => 'De vraag zelf'
+  },
+  'question number' => {
+    'lastUpdated' => 1231192562,
+    'message' => 'Vraag nummer:'
   },
   'question text' => {
     'lastUpdated' => 1227629750,
@@ -744,6 +760,10 @@ our $I18N = {
   'question value' => {
     'lastUpdated' => 1227629766,
     'message' => 'Waarde vraag:'
+  },
+  'question variable name' => {
+    'lastUpdated' => 1231192604,
+    'message' => 'Naam vraag variabele'
   },
   'question.add.label' => {
     'lastUpdated' => 1152521887,
@@ -825,6 +845,14 @@ our $I18N = {
     'lastUpdated' => 1152523156,
     'message' => 'Een kring die alle vragen voor deze reactie op de enqu&ecirc;te bevat.'
   },
+  'questions on section page' => {
+    'lastUpdated' => 1231192626,
+    'message' => 'Vragen op de pagina van de sectie:'
+  },
+  'questions per page' => {
+    'lastUpdated' => 1231192635,
+    'message' => 'Vragen per pagina:'
+  },
   'questions.correct.count' => {
     'lastUpdated' => 1207837111,
     'message' => 'Het aantal vragen dat de gebruiker tot nu toe correct beantwoord heeft in deze quiz.'
@@ -860,6 +888,18 @@ our $I18N = {
   'quiz.noprivs.label' => {
     'lastUpdated' => 1152523575,
     'message' => 'Een bericht waarin de gebruiker vermeld wordt dat deze niet de benodigde privileges heeft voor deelname aan deze quiz.'
+  },
+  'randomize answers' => {
+    'lastUpdated' => 1231192648,
+    'message' => 'Antwoorden willekeurig ordenen'
+  },
+  'randomize questions' => {
+    'lastUpdated' => 1231192661,
+    'message' => 'Vragen willekeurig ordenen:'
+  },
+  'randomized words' => {
+    'lastUpdated' => 1231192674,
+    'message' => 'Woorden willekeurig ordenen:'
   },
   'recorded answer' => {
     'lastUpdated' => 1227604372,
@@ -961,6 +1001,26 @@ our $I18N = {
     'lastUpdated' => 1227604250,
     'message' => 'Rijen:'
   },
+  'section branch goto variable name' => {
+    'lastUpdated' => 1231193554,
+    'message' => 'Naam variabele ga naar vertakking sectie'
+  },
+  'section custom variable name' => {
+    'lastUpdated' => 1231193207,
+    'message' => 'Naam maatwerk variabele voor sectie:'
+  },
+  'section name' => {
+    'lastUpdated' => 1231192692,
+    'message' => 'Naam sectie:'
+  },
+  'section number' => {
+    'lastUpdated' => 1231192701,
+    'message' => 'Sectie nummer:'
+  },
+  'section text' => {
+    'lastUpdated' => 1231192711,
+    'message' => 'Tekst bij sectie:'
+  },
   'section.add.label' => {
     'lastUpdated' => 1166198229,
     'message' => 'De standaard tekst voor de URL om een sectie toe te voegen.'
@@ -988,6 +1048,10 @@ our $I18N = {
   'section.questions_loop' => {
     'lastUpdated' => 1166198380,
     'message' => 'Een lus die alle vragen binnen de sectie bevat met bijbehorende werkbalk.'
+  },
+  'show text in button' => {
+    'lastUpdated' => 1231192721,
+    'message' => 'Toon tekst in knop:'
   },
   'show.comments.label' => {
     'lastUpdated' => 1152525238,
@@ -1045,13 +1109,29 @@ our $I18N = {
     'lastUpdated' => 1152525808,
     'message' => 'De URL waar de enqu&ecirc;te bekeken kan worden. Meestal wordt dit gebruikt om na het bekijken van een rapport terug te gaan naar de enqu&ecirc;te.'
   },
+  'take survey' => {
+    'lastUpdated' => 1231192737,
+    'message' => 'Deelnemen aan enqu&ecirc;te'
+  },
   'templateId' => {
     'lastUpdated' => 1189373583,
     'message' => 'De ID van het template dat gebruikt wordt om de Enquete weer te geven.'
   },
+  'terminal section' => {
+    'lastUpdated' => 1231193841,
+    'message' => 'Sectie voor be&euml;indigen:'
+  },
+  'terminal section url' => {
+    'lastUpdated' => 1231193895,
+    'message' => 'URL voor be&euml;indigen enqu&ecirc;te'
+  },
   'text answer' => {
     'lastUpdated' => 1227629820,
     'message' => 'Tekst antwoord'
+  },
+  'text on every page' => {
+    'lastUpdated' => 1231192751,
+    'message' => 'Tekst op elke pagina:'
   },
   'thanks.quiz.label' => {
     'lastUpdated' => 1207837021,
@@ -1060,6 +1140,14 @@ our $I18N = {
   'thanks.survey.label' => {
     'lastUpdated' => 1152525866,
     'message' => 'Een bericht dat de gebruiker bedankt voor het volledig invullen van de enqu&ecirc;te.'
+  },
+  'timelimit' => {
+    'lastUpdated' => 1231192767,
+    'message' => 'Tijdslimiet:'
+  },
+  'timelimit hoverHelp' => {
+    'lastUpdated' => 1231192947,
+    'message' => 'Het aantal minuten dat een gebruiker heeft om de enqu&ecirc;te te voltooien. 0 betekent dat er geen tijdslimiet is.'
   },
   'title' => {
     'lastUpdated' => 1152525887,
@@ -1085,6 +1173,26 @@ our $I18N = {
     'lastUpdated' => 1152526163,
     'message' => 'Een functie die aangeeft of dit de eerste reactie van deze gebruiker is.'
   },
+  'verbatim' => {
+    'lastUpdated' => 1231192985,
+    'message' => 'Letterlijk'
+  },
+  'vertical display' => {
+    'lastUpdated' => 1231192996,
+    'message' => 'Vertikaal tonen:'
+  },
+  'view grade book' => {
+    'lastUpdated' => 1231193009,
+    'message' => 'Bekijk score'
+  },
+  'view simple results' => {
+    'lastUpdated' => 1231193037,
+    'message' => 'Bekijk samenvatting resultaten'
+  },
+  'view statistical overview' => {
+    'lastUpdated' => 1231193054,
+    'message' => 'Bekijk statistisch overzicht'
+  },
   'view template' => {
     'lastUpdated' => 1152528403,
     'message' => 'Bekijk sjabloon'
@@ -1092,6 +1200,10 @@ our $I18N = {
   'view template description' => {
     'lastUpdated' => 1152528448,
     'message' => 'Dit sjabloon wordt gebruikt voor het tonen van de enqu&ecirc;te zelf.'
+  },
+  'view transposed results' => {
+    'lastUpdated' => 1231193169,
+    'message' => 'Bekijk getransformeerde resultaten'
   },
   'what next answer description' => {
     'lastUpdated' => 1152528573,
