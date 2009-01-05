@@ -165,6 +165,10 @@ our $I18N = {
     'lastUpdated' => 1152628048,
     'message' => 'Categorie&euml;n'
   },
+  'categories default value' => {
+    'lastUpdated' => 1231189990,
+    'message' => 'Voordelen eigenschap'
+  },
   'categories description' => {
     'lastUpdated' => 1156284827,
     'message' => 'Specificeer hier een categorie per regel om categorie&euml;n voor deze matrix te defini&euml;ren. Categorie&euml;n worden gebruikt om velden onder te verdelen en zij geven ook de zaken weer, waar gebruikers elke lijst op kunnen beoordelen.  '
@@ -192,6 +196,10 @@ our $I18N = {
   'category listing description' => {
     'lastUpdated' => 1207840855,
     'message' => 'De beschrijving die de gebruiker zegt wat dit veld weergeeft. '
+  },
+  'categoryLabel' => {
+    'lastUpdated' => 1231190011,
+    'message' => 'Het label van een categorie.'
   },
   'category_loop' => {
     'lastUpdated' => 1156187231,
@@ -288,6 +296,10 @@ our $I18N = {
   'compare.form' => {
     'lastUpdated' => 1156330963,
     'message' => 'Het selectievakje-formulier dat alle lijsten in deze matrix bevat. '
+  },
+  'compareForm' => {
+    'lastUpdated' => 1231190126,
+    'message' => 'Het vergelijkings formulier. De lijst van matrixlijsten in dit formulier is een yui datatabel. Zie de <a href="http://developer.yahoo.com/yui/examples/datatable/dt_skinning.html">yui documentatie</a> voor meer informatie over het uitdunnen van yui datatabellen.'
   },
   'compares' => {
     'lastUpdated' => 1152629739,
@@ -422,6 +434,18 @@ Voor de selectielijst mag er maar &#233;&#233;n waarde worden ingevuld. De gebru
     'lastUpdated' => 1156340557,
     'message' => '<h1>Bewerk lijst</h1>'
   },
+  'edit listing template description' => {
+    'lastUpdated' => 1231190183,
+    'message' => 'Selecteer een sjabloon dat gebruikt wordt voor het tonen van het scherm waar de lijsten bewerkt worden.'
+  },
+  'edit listing template help title' => {
+    'lastUpdated' => 1231190227,
+    'message' => 'Matrixlijsten bewerken sjabloon variabelen'
+  },
+  'edit listing template label' => {
+    'lastUpdated' => 1231190241,
+    'message' => 'Bewerk lijsten sjabloon'
+  },
   'edit matrix' => {
     'lastUpdated' => 1152629229,
     'message' => 'Bewerk matrix'
@@ -438,9 +462,25 @@ Voor de selectielijst mag er maar &#233;&#233;n waarde worden ingevuld. De gebru
     'lastUpdated' => 1166195198,
     'message' => 'Een conditie die aangeeft of een e-mail verzonden is. '
   },
+  'emailForm' => {
+    'lastUpdated' => 1231190299,
+    'message' => 'Een formulier om een e-mail te sturen aan een onderhouder van een lijst.'
+  },
   'emailSent' => {
     'lastUpdated' => 1227876156,
     'message' => 'Een functie die aangeeft of er wel of niet een e-mail is verzonden.'
+  },
+  'expand the matrix label' => {
+    'lastUpdated' => 1231190312,
+    'message' => 'Matrix uitbreiden'
+  },
+  'export attributes label' => {
+    'lastUpdated' => 1231190324,
+    'message' => 'Eigenschappen exporteren'
+  },
+  'exportAttributes_url' => {
+    'lastUpdated' => 1231190365,
+    'message' => 'Het URL waar eigenschappen van lijsten van deze matrix ge&euml;xporteerd worden.'
   },
   'extra' => {
     'lastUpdated' => 1152628199,
@@ -530,6 +570,10 @@ Voor de selectielijst mag er maar &#233;&#233;n waarde worden ingevuld. De gebru
     'lastUpdated' => 1156285580,
     'message' => 'Deze groep zal lijsten kunnen toevoegen en bewerken'
   },
+  'hide stickied button label' => {
+    'lastUpdated' => 1231190440,
+    'message' => 'Verbergen/tonen sticky objecten'
+  },
   'id' => {
     'lastUpdated' => 1152628699,
     'message' => 'De unieke identificatie van deze lijst.'
@@ -574,9 +618,17 @@ Voor de selectielijst mag er maar &#233;&#233;n waarde worden ingevuld. De gebru
     'lastUpdated' => 1229183670,
     'message' => 'De datum waarop deze lijst is bijgewerkt.'
   },
+  'lastUpdated_epoch' => {
+    'lastUpdated' => 1231190467,
+    'message' => 'De epoch datum waarop deze lijst het laatst is bijgewerkt.'
+  },
   'last_update_loop' => {
     'lastUpdated' => 1156341961,
     'message' => 'Een lus met de 20 laatst gewijzigde lijsten.'
+  },
+  'last_updated_loop' => {
+    'lastUpdated' => 1231190496,
+    'message' => 'Een functie die de 20 laatst bijgewerkte lijsten bevat.'
   },
   'lastupdated_loop' => {
     'lastUpdated' => 1156341995,
@@ -586,10 +638,22 @@ Voor de selectielijst mag er maar &#233;&#233;n waarde worden ingevuld. De gebru
     'lastUpdated' => 1152627919,
     'message' => 'Beperkt'
   },
+  'list attributes label' => {
+    'lastUpdated' => 1231190512,
+    'message' => 'Toon eigenschappen'
+  },
+  'list attributes title' => {
+    'lastUpdated' => 1231190528,
+    'message' => 'Lijst eigenschappen'
+  },
   'list fields' => {
     'lastUpdated' => 1156342047,
     'message' => '<h1>Velden Lijst</h1>
 <a href="%s">Voeg een nieuw veld toe.</a>'
+  },
+  'listAttributes_url' => {
+    'lastUpdated' => 1231190585,
+    'message' => 'Het URL van de pagina waar de nieuwe eigenschappen van lijsten voor deze matrix geconfigureerd worden.'
   },
   'listing count label' => {
     'lastUpdated' => 1229183693,
@@ -614,6 +678,10 @@ Voor de selectielijst mag er maar &#233;&#233;n waarde worden ingevuld. De gebru
   'listing name' => {
     'lastUpdated' => 1152629457,
     'message' => 'De naam van deze lijst.'
+  },
+  'listing statistics label' => {
+    'lastUpdated' => 1231190601,
+    'message' => 'Toon statistieken'
   },
   'listing.add.url' => {
     'lastUpdated' => 1156342345,
@@ -698,6 +766,10 @@ Voor de selectielijst mag er maar &#233;&#233;n waarde worden ingevuld. De gebru
   'max comparisons privileged description' => {
     'lastUpdated' => 1156343560,
     'message' => 'Hier kunt u invullen hoeveel vergelijkingen er tegelijkertijd gedaan mogen worden door gebruikers met extra privileges.'
+  },
+  'max comparisons privileged label' => {
+    'lastUpdated' => 1231190626,
+    'message' => 'Maximum vergelijkingen (voor gebruikers met privileges)'
   },
   'mean' => {
     'lastUpdated' => 1152628462,
@@ -791,6 +863,10 @@ Voor de selectielijst mag er maar &#233;&#233;n waarde worden ingevuld. De gebru
     'lastUpdated' => 1156344068,
     'message' => 'De URL van het product die gebruikt kan worden om bij te houden hoe vaak er op deze lijst geklikt wordt.'
   },
+  'productUrl_click' => {
+    'lastUpdated' => 1231190685,
+    'message' => 'Het URl van het product dat gebruikt wordt voor het registreren van het aantal keren dat deze lijst gekozen is.'
+  },
   'product_loop' => {
     'lastUpdated' => 1152628895,
     'message' => 'Een kring die de product informatie (niet ingedeeld in categorie&euml;n) bevat voor deze lijst.'
@@ -802,6 +878,10 @@ Voor de selectielijst mag er maar &#233;&#233;n waarde worden ingevuld. De gebru
   'rating detail template description' => {
     'lastUpdated' => 1156344113,
     'message' => 'Selecteer een sjabloon voor de weergave van de gedetailleerde waardering van een lijst.'
+  },
+  'rating detail template label' => {
+    'lastUpdated' => 1231190707,
+    'message' => 'Beoordelen detail sjabloon'
   },
   'rating group' => {
     'lastUpdated' => 1152628927,
@@ -838,6 +918,14 @@ Voor de selectielijst mag er maar &#233;&#233;n waarde worden ingevuld. De gebru
   'ratings detail template help title' => {
     'lastUpdated' => 1156344596,
     'message' => 'Matrix Waarderingsdetail sjabloon'
+  },
+  'ratings duration description' => {
+    'lastUpdated' => 1231190746,
+    'message' => 'Kies de periode die oude beoordelingen bewaard blijven.'
+  },
+  'ratings duration label' => {
+    'lastUpdated' => 1231190784,
+    'message' => 'Beoordelingen bewaren voor'
   },
   'ratings.details.url' => {
     'lastUpdated' => 1156344627,
@@ -891,6 +979,10 @@ Voor de selectielijst mag er maar &#233;&#233;n waarde worden ingevuld. De gebru
     'lastUpdated' => 1152629523,
     'message' => 'De URL naar de matrix zoek pagina.'
   },
+  'search_url' => {
+    'lastUpdated' => 1231190801,
+    'message' => 'Het URL naar de zoekpagina van de matrix.'
+  },
   'send button label' => {
     'lastUpdated' => 1227876242,
     'message' => 'Verzenden'
@@ -919,6 +1011,18 @@ Voor de selectielijst mag er maar &#233;&#233;n waarde worden ingevuld. De gebru
     'lastUpdated' => 1227876305,
     'message' => 'Score'
   },
+  'submission approval workflow description' => {
+    'lastUpdated' => 1231190828,
+    'message' => 'Selecteer de workflow die gebruikt wordt voor het goedkeuren van bijdragen.'
+  },
+  'submission approval workflow label' => {
+    'lastUpdated' => 1231190849,
+    'message' => 'Bijdrage goedkeuringsworkflow'
+  },
+  'template description' => {
+    'lastUpdated' => 1231190892,
+    'message' => 'Selecteer het sjabloon voor het tonen van het standaardscherm van de matrix.'
+  },
   'template label' => {
     'lastUpdated' => 1227876187,
     'message' => 'Matrix sjabloon'
@@ -934,6 +1038,18 @@ Voor de selectielijst mag er maar &#233;&#233;n waarde worden ingevuld. De gebru
   'thumbnail' => {
     'lastUpdated' => 1152629492,
     'message' => 'De URL naar het miniatuur van de geuploade foto of screenshot.'
+  },
+  'tmplVar attribute_loop description' => {
+    'lastUpdated' => 1231190953,
+    'message' => 'Een beschrijving van de eigenschap die meer informatie geeft over het veld en als hooverhelp.'
+  },
+  'tmplVar attribute_loop form' => {
+    'lastUpdated' => 1231190983,
+    'message' => 'Het formulier element die deze eigenschap vertegenwoordigt.'
+  },
+  'tmplVar attribute_loop label' => {
+    'lastUpdated' => 1231191017,
+    'message' => 'Het label dat aan deze eigenschap gegeven wordt en de eigenschap omschrijft.'
   },
   'tmplVar best.category' => {
     'lastUpdated' => 1170689272,
