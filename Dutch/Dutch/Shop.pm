@@ -141,6 +141,10 @@ our $I18N = {
     'lastUpdated' => 1216653599,
     'message' => 'Dit sjabloon bepaalt hoe de winkelwagen eruit zal zien.'
   },
+  'cashier' => {
+    'lastUpdated' => 1231192145,
+    'message' => 'Kassa'
+  },
   'checkout button' => {
     'lastUpdated' => 1216719505,
     'message' => 'Afrekenen'
@@ -352,6 +356,10 @@ our $I18N = {
   'is a required field' => {
     'lastUpdated' => 1213971570,
     'message' => '%s is een verplicht veld.'
+  },
+  'isCashier' => {
+    'lastUpdated' => 1231192182,
+    'message' => 'Een waar/niet waar functie die waar is als de huidige gebruiker een kassa kan beheren in de winkel.'
   },
   'isRecurring' => {
     'lastUpdated' => 1213971627,
@@ -656,6 +664,10 @@ our $I18N = {
   'phoneNumberField help' => {
     'lastUpdated' => 1216732216,
     'message' => 'Een veld dat het telefoonnummer van dit adres bevat.'
+  },
+  'posLookupForm' => {
+    'lastUpdated' => 1231192248,
+    'message' => 'Een formulier waar een gebruiker gebruikers kan zoeken op e-mail adres voor de kassa.'
   },
   'posUserId' => {
     'lastUpdated' => 1227629468,
@@ -984,6 +996,14 @@ our $I18N = {
   'who can manage help' => {
     'lastUpdated' => 1216651536,
     'message' => 'De groep die het commerciesysteem kan beheren.'
+  },
+  'who is a cashier' => {
+    'lastUpdated' => 1231192291,
+    'message' => 'Wie kan kassa\'s&nbsp; beheren?'
+  },
+  'who is a cashier help' => {
+    'lastUpdated' => 1231192339,
+    'message' => 'Mensen die kassa\'s beheren kunnen aankopen doen namens iemand anders door het e-mail adres in de winkelwagen in te voeren.'
   },
   'yearly' => {
     'lastUpdated' => 1213966624,

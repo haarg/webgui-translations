@@ -81,6 +81,10 @@ our $I18N = {
     'lastUpdated' => 1227874485,
     'message' => 'Bericht verzonden'
   },
+  'product name description' => {
+    'lastUpdated' => 1231191193,
+    'message' => 'Voer de naam van het product in. Als er verschillende revisies van het product bestaan, is het het beste om de namen hetzelfde te houden.'
+  },
   'product name label' => {
     'lastUpdated' => 1229201246,
     'message' => 'Productnaam'
@@ -92,6 +96,10 @@ our $I18N = {
   'productURL label' => {
     'lastUpdated' => 1227875150,
     'message' => 'Produkt URL'
+  },
+  'rate submit label' => {
+    'lastUpdated' => 1231191200,
+    'message' => 'Beoordeel'
   },
   'report error label' => {
     'lastUpdated' => 1229201296,
