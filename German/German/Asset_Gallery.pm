@@ -14,96 +14,96 @@ our $I18N = {
     'message' => 'Dateien pro Seite'
   },
   'error add uncommitted' => {
-    'lastUpdated' => 1229991882,
-    'message' => '<h2>Fehler!</h2> Sie m&uuml;ssen diese Galerie erst &uuml;bergeben, bevor Sie neue Alben hinzuf&uuml;gen k&ouml;nnen.'
+    'lastUpdated' => 1231262057,
+    'message' => "<h2>Fehler!</h2> Sie m\x{fc}ssen diese Galerie erst \x{fc}bergeben, bevor Sie neue Alben hinzuf\x{fc}gen k\x{f6}nnen."
   },
   'groupIdAddComment description' => {
-    'lastUpdated' => 1201597174,
-    'message' => 'Gruppe, die Kommentare zu Dateien hinzuf&uuml;gen darf.'
+    'lastUpdated' => 1231263972,
+    'message' => 'Die Gruppe, welche Kommentare zu Dateien hinzufügen darf.'
   },
   'groupIdAddComment label' => {
     'lastUpdated' => 1229370377,
     'message' => 'Wer darf kommentieren?'
   },
   'groupIdAddFile description' => {
-    'lastUpdated' => 1201597191,
-    'message' => 'Gruppe, die Dateien und Alben zu dieser Galerie hinzuf&uuml;gen darf.'
+    'lastUpdated' => 1231263995,
+    'message' => "Die Gruppe, welche Dateien und Alben zu dieser Galerie hinzuf\x{fc}gen darf."
   },
   'groupIdAddFile label' => {
     'lastUpdated' => 1229370401,
-    'message' => 'Wer darf Dateien hinzufügen?'
+    'message' => "Wer darf Dateien hinzuf\x{fc}gen?"
   },
   'groupIdModerator description' => {
-    'lastUpdated' => 1201597217,
-    'message' => 'Gruppe, die Kommentare dieser Galerie editieren / l&ouml;schen darf.'
+    'lastUpdated' => 1231264026,
+    'message' => 'Die Gruppe, welche Kommentare dieser Galerie bearbeiten / löschen darf.'
   },
   'groupIdModerator label' => {
-    'lastUpdated' => 1201597224,
-    'message' => 'Gruppe f&uuml;r Moderation von Kommentaren'
+    'lastUpdated' => 1231261489,
+    'message' => 'Wer darf moderieren?'
   },
   'help common body' => {
-    'lastUpdated' => 1201597235,
-    'message' => 'Diese Variablen sind f&uuml;r alle Galerie Ansichten gleich.'
+    'lastUpdated' => 1231264060,
+    'message' => "Diese Variablen sind in allen Ansichten der Galerie verf\x{fc}gbar."
   },
   'help common title' => {
-    'lastUpdated' => 1201597244,
-    'message' => 'Galerie Variablen (Allgemein)'
+    'lastUpdated' => 1231259649,
+    'message' => 'Galerie, allgemein'
   },
   'help listAlbums body' => {
-    'lastUpdated' => 1201597544,
-    'message' => 'Diese Variablen sind f&uuml;r die ListeAlben Ansicht der Galerie verf&uuml;gbar'
+    'lastUpdated' => 1231264150,
+    'message' => "Diese Variablen sind in der Albenliste-Ansicht der Galerie verf\x{fc}gbar."
   },
   'help listAlbums title' => {
-    'lastUpdated' => 1201597267,
-    'message' => 'Galerie Liste Alben Variablen'
+    'lastUpdated' => 1231261334,
+    'message' => 'Galerie, Albenliste-Ansicht'
   },
   'help listAlbumsRss body' => {
-    'lastUpdated' => 1201597275,
-    'message' => 'Diese Variablen sind f&uuml;r den ListeAlben RSS Feed verf&uuml;gbar.'
+    'lastUpdated' => 1231264213,
+    'message' => 'Diese Variablen sind im RSS-Feed der Albenliste-Ansicht der Galerie verfügbar.'
   },
   'help listAlbumsRss title' => {
-    'lastUpdated' => 1201597285,
-    'message' => 'Galerie Liste Alben RSS Variablen'
+    'lastUpdated' => 1231261365,
+    'message' => 'Galerie, RSS-Feed der Albenliste-Ansicht'
   },
   'help listFilesForUser body' => {
-    'lastUpdated' => 1201597294,
-    'message' => 'Diese Variablen sind f&uuml;r die ListeDateienF&uuml;rBenutzer Bildschirm der Galerie verf&uuml;gbar.'
+    'lastUpdated' => 1231264247,
+    'message' => "Diese Variablen sind in der \"Mein Album\"-Ansicht der Galerie verf\x{fc}gbar."
   },
   'help listFilesForUser title' => {
-    'lastUpdated' => 1201597303,
-    'message' => 'Galerie Liste Dateien f&uuml;r Benutzer Variablen'
+    'lastUpdated' => 1231261218,
+    'message' => 'Galerie, "Mein Album"-Ansicht'
   },
   'help listFilesForUserRss body' => {
-    'lastUpdated' => 1201597390,
-    'message' => 'Diese Variablen sind f&uuml;r den ListeDateienF&uuml;rBenutzer RSS Feed verf&uuml;gbar.'
+    'lastUpdated' => 1231264425,
+    'message' => "Diese Variablen sind im RSS-Feed der \"Mein Album\"-Ansicht der Galerie verf\x{fc}gbar."
   },
   'help listFilesForUserRss title' => {
-    'lastUpdated' => 1201597416,
-    'message' => 'Galerie Liste Dateien f&uuml;r Benutzer RSS Variablen'
+    'lastUpdated' => 1231261257,
+    'message' => 'Galerie, RSS-Feed der "Mein Album"-Ansicht'
   },
   'help search body' => {
-    'lastUpdated' => 1201597534,
-    'message' => 'Diese Variablen sind vom Suche Ergebnis Bilschirm der Galerie verf&uuml;gbar.'
+    'lastUpdated' => 1231264489,
+    'message' => 'Diese Variablen sind in der Ansicht der Suchergebnisse der Galerie verfügbar.'
   },
   'help search title' => {
-    'lastUpdated' => 1201597592,
-    'message' => 'Galerie Such Ergebnisse Variablen'
+    'lastUpdated' => 1231259987,
+    'message' => 'Galerie, Suchergebnisse'
   },
   'help searchForm body' => {
-    'lastUpdated' => 1201597670,
-    'message' => 'Diese Variablen sind von allen Galerie Ansichten verf&uuml;gbar und erlauben es, ein Suchformular zu erstellen, um die Galerie zu durchsuchen.'
+    'lastUpdated' => 1231264579,
+    'message' => "Diese Variablen sind in allen Ansichten der Galerie verf\x{fc}gbar. Sie erlauben es, ein Formular zur Suche in der Galerie zu erstellen."
   },
   'help searchForm title' => {
-    'lastUpdated' => 1201597692,
-    'message' => 'Galerie Suchformular Variablen'
+    'lastUpdated' => 1231259958,
+    'message' => 'Galerie, Suche'
   },
   'helpvar albums' => {
-    'lastUpdated' => 1201597754,
-    'message' => 'Dies ist die Schleife &uuml;ber alle gerade angezeigten Alben.'
+    'lastUpdated' => 1231264082,
+    'message' => 'Schleife über alle gerade angezeigten Alben.'
   },
   'helpvar albums rss' => {
-    'lastUpdated' => 1201597762,
-    'message' => 'Dies ist die Schleife &uuml;ber alle gerade angezeigten Alben.'
+    'lastUpdated' => 1231265026,
+    'message' => "Schleife \x{fc}ber alle gerade angezeigten Alben."
   },
   'helpvar canAddFile' => {
     'lastUpdated' => 1201597806,
@@ -122,20 +122,20 @@ our $I18N = {
     'message' => 'Dies ist das RFC2822-konforme Datum, das RSS Feeds f&uuml;r das pubDate Feld ben&ouml;tigen'
   },
   'helpvar searchForm_basicSearch' => {
-    'lastUpdated' => 1201598073,
-    'message' => 'Basis Suche Eingabe Feld. Durchsucht Titel, Beschreibung, Schl&uuml;sselw&ouml;rter und benutzerdefinierte Felder.'
+    'lastUpdated' => 1231264787,
+    'message' => 'Das Eingabefeld für die einfache Suche. Es werden der Titel, die Beschreibung, Schlüsselwörter und benutzerdefinierte Felder durchsucht.'
   },
   'helpvar searchForm_className' => {
-    'lastUpdated' => 1201598104,
-    'message' => 'Suche nach Klassen Name.'
+    'lastUpdated' => 1231259926,
+    'message' => 'Suche nach Klassenname.'
   },
   'helpvar searchForm_creationDate_after' => {
-    'lastUpdated' => 1201598141,
-    'message' => 'Limitiert Suche auf Assets, die nach diesem Datum erzeugt wurden.'
+    'lastUpdated' => 1231264276,
+    'message' => 'Limitiert die Suche auf Assets, die nach diesem Datum erzeugt wurden.'
   },
   'helpvar searchForm_creationDate_before' => {
-    'lastUpdated' => 1201598167,
-    'message' => 'Limitiert Suche auf Assets, die vor diesem Datum erzeugt wurden.'
+    'lastUpdated' => 1231264291,
+    'message' => 'Limitiert die Suche auf Assets, die vor diesem Datum erzeugt wurden.'
   },
   'helpvar searchForm_description' => {
     'lastUpdated' => 1201598201,
@@ -162,44 +162,44 @@ our $I18N = {
     'message' => 'Suche nach Titel.'
   },
   'helpvar search_results' => {
-    'lastUpdated' => 1201598508,
-    'message' => 'Dies ist die Schleife &uuml;ber alle Suchresultate.'
+    'lastUpdated' => 1231264822,
+    'message' => "Schleife \x{fc}ber alle Suchergebnisse."
   },
   'helpvar url_addAlbum' => {
-    'lastUpdated' => 1201598528,
-    'message' => 'URL zum Hinzuf&uuml;gen eines Albums zur Galerie.'
+    'lastUpdated' => 1231261576,
+    'message' => "Der URL zum Hinzuf\x{fc}gen eines Albums zur Galerie."
   },
   'helpvar url_listAlbums' => {
-    'lastUpdated' => 1201598622,
-    'message' => 'URL zum Auflisten der Alben in der Galerie.'
+    'lastUpdated' => 1231261607,
+    'message' => 'Der URL zur Albenliste-Ansicht der Galerie.'
   },
   'helpvar url_listAlbumsRss' => {
-    'lastUpdated' => 1201598654,
-    'message' => 'URL zum RSS Feed f&uuml;r die Liste der Alben.'
+    'lastUpdated' => 1231261695,
+    'message' => 'Der URL zum RSS-Feed der Albenliste-Ansicht der Galerie.'
   },
   'helpvar url_listFilesForCurrentUser' => {
-    'lastUpdated' => 1201598684,
-    'message' => 'URL zum Auflisten der Alben und Dateien des aktuellen Benutzers.'
+    'lastUpdated' => 1231261678,
+    'message' => 'Der URL zur "Mein Album"-Ansicht der Galerie.'
   },
   'helpvar url_rss' => {
-    'lastUpdated' => 1201598726,
-    'message' => 'URL zum RSS Feed f&uuml;r die Dateien und Alben dieses Benutzers'
+    'lastUpdated' => 1231262113,
+    'message' => 'Der URL zum RSS-Feed der "Mein Album"-Ansicht.'
   },
   'helpvar url_search' => {
-    'lastUpdated' => 1201598755,
-    'message' => 'URL zur Suche.'
+    'lastUpdated' => 1231263262,
+    'message' => 'Der URL zur Suche.'
   },
   'helpvar userId' => {
-    'lastUpdated' => 1201598964,
-    'message' => 'ID des Benutzers, der aktuell auf der Seite ListeDateienF&uuml;rBenutzer angezeigt wird.'
+    'lastUpdated' => 1231264359,
+    'message' => 'Die Id des aktuellen Benutzers.'
   },
   'helpvar user_albums' => {
-    'lastUpdated' => 1201598862,
-    'message' => 'Schleife &uuml;ber alle Alben des Benutzers.'
+    'lastUpdated' => 1231264837,
+    'message' => 'Schleife über alle Alben des Benutzers.'
   },
   'helpvar user_files' => {
-    'lastUpdated' => 1201598936,
-    'message' => 'Schleife &uuml;ber die Dateien des Benutzers. Nur Dateien die in der Ergebnisliste dieser Seite vorhanden sind.'
+    'lastUpdated' => 1231265001,
+    'message' => 'Schleife über alle Dateien des Benutzers. Es sind nur die Dateien enthalten, welche auf der aktuellen Seite der Suchergebnisse aufgeführt werden.'
   },
   'helpvar username' => {
     'lastUpdated' => 1201598983,
@@ -207,7 +207,7 @@ our $I18N = {
   },
   'imageDensity description' => {
     'lastUpdated' => 1228423081,
-    'message' => "Die Pixeldichte des Bildes. Bilder in Druckqualit\x{e4}t sind drei mal gr\x{f6}\x{df}er als Bilder in Bildschirmqualit\x{e4}t."
+    'message' => 'Die Pixeldichte des Bildes. Bilder in Druckqualität sind drei mal größer als Bilder in Bildschirmqualität.'
   },
   'imageDensity label' => {
     'lastUpdated' => 1228422914,
@@ -215,11 +215,11 @@ our $I18N = {
   },
   'imageDensity option print' => {
     'lastUpdated' => 1228422986,
-    'message' => "Druckqualit\x{e4}t (300 Pixel pro Zoll)"
+    'message' => 'Druckqualität (300 Pixel pro Zoll)'
   },
   'imageDensity option web' => {
     'lastUpdated' => 1228423022,
-    'message' => 'Bildschirmqualität (72 Pixel pro Zoll)'
+    'message' => "Bildschirmqualit\x{e4}t (72 Pixel pro Zoll)"
   },
   'imageResolutions description' => {
     'lastUpdated' => 1201599013,
@@ -230,16 +230,16 @@ our $I18N = {
     'message' => 'Aufl&ouml;sung Bilder'
   },
   'imageThumbnailSize description' => {
-    'lastUpdated' => 1201599197,
-    'message' => 'Gr&ouml;&szlig;e der Vorschaubilder in der Galerie. Standardm&auml;&szlig;ig wie in den Einstellungen in der Admin Konsole vorgenommen.'
+    'lastUpdated' => 1231263455,
+    'message' => 'Die Größe in Pixeln (längste Dimension) der Vorschaubilder in der Galerie. Standardmäßig wie in den Einstellungen in der Admin Konsole vorgenommen.'
   },
   'imageThumbnailSize label' => {
-    'lastUpdated' => 1201599111,
-    'message' => 'Gr&ouml;&szlig;e Vorschaubilder'
+    'lastUpdated' => 1231263366,
+    'message' => 'Größe der Vorschaubilder'
   },
   'imageViewSize description' => {
-    'lastUpdated' => 1201599174,
-    'message' => 'Gr&ouml;&szlig;e der Bilder in der Galerie. Standardm&auml;&szlig;ig wie in den Einstellungen in Admin Konsole vorgenommen.'
+    'lastUpdated' => 1231263476,
+    'message' => "Die Gr\x{f6}\x{df}e in Pixeln (l\x{e4}ngste Dimension) der Vorschaubilder in der Galerie. Standardm\x{e4}\x{df}ig wie in den Einstellungen in der Admin Konsole vorgenommen."
   },
   'imageViewSize label' => {
     'lastUpdated' => 1201599220,
@@ -254,28 +254,28 @@ our $I18N = {
     'message' => 'Maximaler Speicherplatz Benutzer'
   },
   'richEditIdAlbum description' => {
-    'lastUpdated' => 1229991724,
-    'message' => 'Der Editor, der f&uuml;r Alben benutzt werden soll.'
+    'lastUpdated' => 1231263880,
+    'message' => 'Der Editor, welcher für Alben benutzt werden soll.'
   },
   'richEditIdAlbum label' => {
     'lastUpdated' => 1228422042,
-    'message' => "Editor f\x{fc}r Alben"
+    'message' => 'Editor für Alben'
   },
   'richEditIdFile description' => {
-    'lastUpdated' => 1229991746,
-    'message' => 'Der Editor, der f&uuml;r Dateien benutzt werden soll.'
+    'lastUpdated' => 1231263900,
+    'message' => "Der Editor, welcher f\x{fc}r Dateien benutzt werden soll."
   },
   'richEditIdFile label' => {
-    'lastUpdated' => 1228421734,
+    'lastUpdated' => 1231263728,
     'message' => 'Editor für Dateien'
   },
   'richEditIdFileComment description' => {
-    'lastUpdated' => 1201599332,
-    'message' => 'Der Rich Edit Text Editor f&uuml;r Kommentare'
+    'lastUpdated' => 1231263844,
+    'message' => "Der Editor, welcher f\x{fc}r Kommentare verwendet werden soll."
   },
   'richEditIdFileComment label' => {
-    'lastUpdated' => 1201599796,
-    'message' => 'Rich Editor f&uuml;r Kommentare'
+    'lastUpdated' => 1231263757,
+    'message' => "Editor f\x{fc}r Kommentare"
   },
   'search class any' => {
     'lastUpdated' => 1201599786,
@@ -335,7 +335,7 @@ our $I18N = {
   },
   'template search results for' => {
     'lastUpdated' => 1228421445,
-    'message' => "Ergebnisse f\x{fc}r"
+    'message' => 'Ergebnisse für'
   },
   'template search title' => {
     'lastUpdated' => 1228421475,
@@ -354,40 +354,40 @@ our $I18N = {
     'message' => 'Meine Galerie'
   },
   'template url_search' => {
-    'lastUpdated' => 1229991834,
-    'message' => 'Beschriftung f&uuml;r den Link zur Galerie-Suchseite'
+    'lastUpdated' => 1231263573,
+    'message' => 'Erweiterte Suche'
   },
   'templateIdAddArchive description' => {
     'lastUpdated' => 1201599865,
     'message' => 'Anzeige Formular, um ein Dateiarchiv zur Galerie hinzuzuf&uuml;gen.'
   },
   'templateIdAddArchive label' => {
-    'lastUpdated' => 1201599888,
-    'message' => 'Template f&uuml;r Hinzuf&uuml;gen mehrerer'
+    'lastUpdated' => 1231262691,
+    'message' => 'Schablone zum Hinzufügen eines Archivs'
   },
   'templateIdDeleteAlbum description' => {
     'lastUpdated' => 1201599928,
     'message' => 'Anzeige der Best&auml;tigung des L&ouml;schens eines Albums aus der Galerie.'
   },
   'templateIdDeleteAlbum label' => {
-    'lastUpdated' => 1201599958,
-    'message' => 'Template f&uuml;r L&ouml;schen von Alben'
+    'lastUpdated' => 1231262707,
+    'message' => "Schablone zum L\x{f6}schen von Alben"
   },
   'templateIdDeleteFile description' => {
     'lastUpdated' => 1201599998,
     'message' => 'Anzeige der Best&auml;tigung f&uuml;r L&ouml;schen einer Datei aus der Galerie.'
   },
   'templateIdDeleteFile label' => {
-    'lastUpdated' => 1201600016,
-    'message' => 'Template f&uuml;r Loschen von Dateien'
+    'lastUpdated' => 1231262772,
+    'message' => 'Schablone zum Löschen von Dateien'
   },
   'templateIdEditAlbum description' => {
     'lastUpdated' => 1201600043,
     'message' => 'Template f&uuml;r Hinzuf&uuml;gen / Editieren eines Albums.'
   },
   'templateIdEditAlbum label' => {
-    'lastUpdated' => 1201600067,
-    'message' => 'Template f&uuml;r Editieren von Alben'
+    'lastUpdated' => 1231262596,
+    'message' => 'Schablone zur Bearbeitung von Alben'
   },
   'templateIdEditComment description' => {
     'lastUpdated' => 1228420530,
@@ -402,104 +402,104 @@ our $I18N = {
     'message' => 'Template f&uuml;r Hinzuf&uuml;gen / Editieren einer Datei.'
   },
   'templateIdEditFile label' => {
-    'lastUpdated' => 1201600123,
-    'message' => 'Template f&uuml;r Editieren von Dateien'
+    'lastUpdated' => 1231262792,
+    'message' => 'Schablone zur Bearbeitung von Dateien'
   },
   'templateIdListAlbums description' => {
     'lastUpdated' => 1201600160,
     'message' => 'Template f&uuml;r Anzeige einer Liste von Alben einer Galerie.'
   },
   'templateIdListAlbums label' => {
-    'lastUpdated' => 1201600187,
-    'message' => 'Template f&uuml;r Auflistung von Alben'
+    'lastUpdated' => 1231262849,
+    'message' => 'Schablone für Albenliste'
   },
   'templateIdListAlbumsRss description' => {
     'lastUpdated' => 1201600222,
     'message' => 'Template f&uuml;r Anzeige eines RSS Feeds der Alben in dieser Galerie.'
   },
   'templateIdListAlbumsRss label' => {
-    'lastUpdated' => 1201600258,
-    'message' => 'Template f&uuml;r Auflistung von Alben RSS'
+    'lastUpdated' => 1231262990,
+    'message' => 'Schablone für RSS-Feed der Albenliste'
   },
   'templateIdListFilesForUser description' => {
     'lastUpdated' => 1201600285,
     'message' => 'Anzeige aller Dateien und Alben eines bestimmten Benutzers.'
   },
   'templateIdListFilesForUser label' => {
-    'lastUpdated' => 1201600316,
-    'message' => 'Template f&uuml;r Auflistung von Dateien eines Benutzers'
+    'lastUpdated' => 1231263111,
+    'message' => "Schablone f\x{fc}r \"Mein Album\"-Ansicht"
   },
   'templateIdListFilesForUserRss description' => {
     'lastUpdated' => 1201600341,
     'message' => 'RSS Feed f&uuml;r alle Dateien eines bestimmten Benutzers.'
   },
   'templateIdListFilesForUserRss label' => {
-    'lastUpdated' => 1201600372,
-    'message' => 'Template f&uuml;r Auflistung von Dateien f&uuml;r Benutzer RSS'
+    'lastUpdated' => 1231263173,
+    'message' => 'Schablone für RSS-Feed der "Mein Album"-Ansicht'
   },
   'templateIdMakeShortcut description' => {
     'lastUpdated' => 1201600407,
     'message' => 'Anzeige eines Formulars f&uuml;r Kopieren eines Bildes zu einem anderen Album.'
   },
   'templateIdMakeShortcut label' => {
-    'lastUpdated' => 1201601382,
-    'message' => 'Template f&uuml;r Shortcuts auf Post Dateien'
+    'lastUpdated' => 1231263042,
+    'message' => "Schablone zum Erstellen von Verkn\x{fc}pfungen"
   },
   'templateIdSearch description' => {
     'lastUpdated' => 1201600507,
     'message' => 'Anzeige des Formulars f&uuml;r die Suche in der Galerie. Anzeige der Suchresultate.'
   },
   'templateIdSearch label' => {
-    'lastUpdated' => 1201600527,
-    'message' => 'Template f&uuml;r die Suche'
+    'lastUpdated' => 1231262370,
+    'message' => "Schablone f\x{fc}r Suche"
   },
   'templateIdViewAlbum description' => {
     'lastUpdated' => 1201600548,
     'message' => 'Standardansicht f&uuml;r Alben'
   },
   'templateIdViewAlbum label' => {
-    'lastUpdated' => 1201600587,
-    'message' => 'Template f&uuml;r Anzeige eines Albums'
+    'lastUpdated' => 1231263192,
+    'message' => "Schablone f\x{fc}r Albenansicht"
   },
   'templateIdViewAlbumRss description' => {
-    'lastUpdated' => 1201600611,
-    'message' => 'RSS Feed f&uuml;r ein einzelnes Album'
+    'lastUpdated' => 1231263629,
+    'message' => 'Der RSS-Feed für ein einzelnes Album'
   },
   'templateIdViewAlbumRss label' => {
-    'lastUpdated' => 1201600633,
-    'message' => 'Template f&uuml;r Anzeige eines Album RSS'
+    'lastUpdated' => 1231263076,
+    'message' => 'Schablone für RSS-Feed der Albenansicht'
   },
   'templateIdViewFile description' => {
     'lastUpdated' => 1201600660,
     'message' => 'Zeige Details und Kommentare einer bestimmten Datei'
   },
   'templateIdViewFile label' => {
-    'lastUpdated' => 1201600678,
-    'message' => 'Template f&uuml;r Anzeige einer Datei'
+    'lastUpdated' => 1231262907,
+    'message' => 'Schablone zur Anzeige einer Datei'
   },
   'templateIdViewSlideshow description' => {
     'lastUpdated' => 1201600715,
     'message' => 'Zeige alle Bilder eines Albums in einer Diashow.'
   },
   'templateIdViewSlideshow label' => {
-    'lastUpdated' => 1201600729,
-    'message' => 'Template f&uuml;r Diashow'
+    'lastUpdated' => 1231262283,
+    'message' => "Schablone f\x{fc}r Diashow"
   },
   'templateIdViewThumbnails description' => {
     'lastUpdated' => 1201600759,
     'message' => 'Zeige alle Bilder in einem Album als Vorschaubilder'
   },
   'templateIdViewThumbnails label' => {
-    'lastUpdated' => 1201600774,
-    'message' => 'Template f&uuml;r Vorschaubilder'
+    'lastUpdated' => 1231262333,
+    'message' => 'Schablone für Vorschaubilder'
   },
   'viewAlbumAssetId description' => {
     'lastUpdated' => 1201600815,
     'message' => 'Das Album, das angezeigt wird, falls die Standardansicht \'Album\' ist.'
   },
   'viewAlbumAssetId label' => {
-    'lastUpdated' => 1201600832,
-    'message' => 'Standardansicht Album'
+    'lastUpdated' => 1231263801,
+    'message' => 'Standardansicht für Alben'
   },
   'viewDefault description' => {
     'lastUpdated' => 1201600872,
@@ -559,7 +559,7 @@ our $I18N = {
   },
   'workflowIdCommit description' => {
     'lastUpdated' => 1229369777,
-    'message' => "Ablauf f\x{fc}r die Freigabe neuer Dateien."
+    'message' => 'Ablauf für die Freigabe neuer Dateien.'
   },
   'workflowIdCommit label' => {
     'lastUpdated' => 1229369721,
