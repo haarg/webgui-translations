@@ -146,8 +146,8 @@ our $I18N = {
     'message' => 'Die aktuelle Datei, die auf der Vorschaubild-Seite angezeigt wird. Alle allgemeinen Variablen dieser Datei sind verf&uuml;gbar &uuml;ber den Pr&auml;fix &quot;file_&quot;.'
   },
   'helpvar file_loop' => {
-    'lastUpdated' => 1229373405,
-    'message' => 'Schleife über die Dateien dieser Seite.'
+    'lastUpdated' => 1231361930,
+    'message' => 'Schleife über die Dateien auf der angezeigten Seite.'
   },
   'helpvar file_loop edit' => {
     'lastUpdated' => 1229373383,
@@ -246,8 +246,8 @@ our $I18N = {
     'message' => 'Der URL zum n&auml;chsten Album, ausgehend von der Reihenfolge, wie sie in der Listenansicht der Galerie zu sehen ist. Diese Variable existiert nicht, falls es kein weiteres Album gibt.'
   },
   'helpvar ownerUsername' => {
-    'lastUpdated' => 1229713251,
-    'message' => 'Der Benutzername des Besitzers dieses Albums.'
+    'lastUpdated' => 1231362104,
+    'message' => 'Der Benutzername des Besitzers des aktuellen Albums.'
   },
   'helpvar previousAlbum_thumbnailUrl' => {
     'lastUpdated' => 1229106236,
@@ -282,12 +282,12 @@ our $I18N = {
     'message' => "Der URL zum hinzuf\x{fc}gen eines Fotos zu diesem Album."
   },
   'helpvar url_delete' => {
-    'lastUpdated' => 1229371380,
-    'message' => 'Der URL zum Löschen dieses Albums.'
+    'lastUpdated' => 1231362117,
+    'message' => "Der URL zum L\x{f6}schen des aktuellen Albums."
   },
   'helpvar url_edit' => {
-    'lastUpdated' => 1229371389,
-    'message' => 'Der URL zum Bearbeiten dieses Albums.'
+    'lastUpdated' => 1231362131,
+    'message' => 'Der URL zum Bearbeiten des aktuellen Albums.'
   },
   'helpvar url_listAlbums' => {
     'lastUpdated' => 1229371451,
@@ -302,24 +302,24 @@ our $I18N = {
     'message' => 'Der URL zur Dateienliste des aktuellen Benutzers, die Teil der &uuml;bergeordneten Galerie ist.'
   },
   'helpvar url_listFilesForOwner' => {
-    'lastUpdated' => 1229371689,
-    'message' => "Der URL zur Dateienliste des Benutzers, dem dieses Album geh\x{f6}rt."
+    'lastUpdated' => 1231362159,
+    'message' => "Der URL zur \"Mein Album\"-Ansicht des Benutzers, dem das aktuelle Album geh\x{f6}rt."
   },
   'helpvar url_search' => {
     'lastUpdated' => 1229371752,
     'message' => 'Der URL zur Such-Ansicht der übergeordneten Galerie.'
   },
   'helpvar url_slideshow' => {
-    'lastUpdated' => 1229372023,
-    'message' => 'Der URL zur Diashow für dieses Album.'
+    'lastUpdated' => 1231362170,
+    'message' => 'Der URL zur Diashow für das aktuelle Album.'
   },
   'helpvar url_thumbnails' => {
-    'lastUpdated' => 1229372067,
-    'message' => "Der URL zur Ansicht der Vorschaubilder f\x{fc}r dieses Album."
+    'lastUpdated' => 1231362181,
+    'message' => "Der URL zur Ansicht der Vorschaubilder f\x{fc}r das aktuelle Album."
   },
   'helpvar url_viewRss' => {
-    'lastUpdated' => 1229372107,
-    'message' => 'Der URL zum RSS-Feed für dieses Album.'
+    'lastUpdated' => 1231362088,
+    'message' => "Der URL zum RSS-Feed f\x{fc}r das aktuelle Album."
   },
   'helpvar url_yes' => {
     'lastUpdated' => 1229372169,

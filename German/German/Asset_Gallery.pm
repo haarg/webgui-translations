@@ -130,32 +130,32 @@ our $I18N = {
     'message' => 'Suche nach Klassenname.'
   },
   'helpvar searchForm_creationDate_after' => {
-    'lastUpdated' => 1231264276,
-    'message' => 'Limitiert die Suche auf Assets, die nach diesem Datum erzeugt wurden.'
+    'lastUpdated' => 1231361966,
+    'message' => 'Beschränkt die Suche auf Assets, die nach diesem Datum erzeugt wurden.'
   },
   'helpvar searchForm_creationDate_before' => {
-    'lastUpdated' => 1231264291,
-    'message' => 'Limitiert die Suche auf Assets, die vor diesem Datum erzeugt wurden.'
+    'lastUpdated' => 1231361982,
+    'message' => "Beschr\x{e4}nkt die Suche auf Assets, die vor diesem Datum erzeugt wurden."
   },
   'helpvar searchForm_description' => {
     'lastUpdated' => 1201598201,
     'message' => 'Suche nach Beschreibung.'
   },
   'helpvar searchForm_end' => {
-    'lastUpdated' => 1201598274,
-    'message' => 'Ende des Formulars f&uuml;r Suche in Galerie.'
+    'lastUpdated' => 1231361889,
+    'message' => 'Das Ende des Formulars f&uuml;r die Suche in der Galerie.'
   },
   'helpvar searchForm_keywords' => {
     'lastUpdated' => 1201598308,
     'message' => 'Suche nach Schl&uuml;sselw&ouml;rtern.'
   },
   'helpvar searchForm_start' => {
-    'lastUpdated' => 1201598289,
-    'message' => 'Anfang des Formulars f&uuml;r Suche in Galerie.'
+    'lastUpdated' => 1231361867,
+    'message' => 'Der Anfang des Formulars f&uuml;r die Suche in der Galerie.'
   },
   'helpvar searchForm_submit' => {
-    'lastUpdated' => 1201598474,
-    'message' => 'Submit Suchformular.'
+    'lastUpdated' => 1231362329,
+    'message' => 'Schaltfläche zur Übergabe des Formulars.'
   },
   'helpvar searchForm_title' => {
     'lastUpdated' => 1201598488,
@@ -390,8 +390,8 @@ our $I18N = {
     'message' => 'Schablone zur Bearbeitung von Alben'
   },
   'templateIdEditComment description' => {
-    'lastUpdated' => 1228420530,
-    'message' => 'Die Schablone zur Bearbeitung eines Kommentars'
+    'lastUpdated' => 1231362665,
+    'message' => 'Die Schablone zur Bearbeitung eines Kommentars.'
   },
   'templateIdEditComment label' => {
     'lastUpdated' => 1231360565,
@@ -430,12 +430,12 @@ our $I18N = {
     'message' => "Schablone f\x{fc}r \"Mein&nbsp;Album\"-Ansicht"
   },
   'templateIdListFilesForUserRss description' => {
-    'lastUpdated' => 1201600341,
-    'message' => 'RSS Feed f&uuml;r alle Dateien eines bestimmten Benutzers.'
+    'lastUpdated' => 1231362553,
+    'message' => "Die Schablone zur Erzeugung des RSS-Feeds f\x{fc}r die \"Mein&nbsp;Album\"-Ansicht."
   },
   'templateIdListFilesForUserRss label' => {
-    'lastUpdated' => 1231360963,
-    'message' => 'Die Schablone zur Erzeugung des RSS-Feeds für die "Mein&nbsp;Album"-Ansicht.'
+    'lastUpdated' => 1231362611,
+    'message' => 'Schablone für RSS-Feed der "Mein&nbsp;Album"-Ansicht'
   },
   'templateIdMakeShortcut description' => {
     'lastUpdated' => 1201600407,
