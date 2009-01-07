@@ -98,16 +98,16 @@ our $I18N = {
     'message' => 'Diese Variablen sind in der Diashow-Ansicht des Albums verfügbar.'
   },
   'help slideshow title' => {
-    'lastUpdated' => 1231259274,
-    'message' => 'Galerie-Album, Diashow-Ansicht'
+    'lastUpdated' => 1231361554,
+    'message' => 'Galerie-Album, Diashow'
   },
   'help thumbnails body' => {
     'lastUpdated' => 1229373861,
     'message' => 'Diese Variablen sind in der Vorschaubild-Ansicht des Albums verfügbar.'
   },
   'help thumbnails title' => {
-    'lastUpdated' => 1231259160,
-    'message' => 'Galerie-Album, Vorschaubildansicht'
+    'lastUpdated' => 1231361577,
+    'message' => 'Galerie-Album, Vorschaubilder'
   },
   'help view body' => {
     'lastUpdated' => 1229373779,

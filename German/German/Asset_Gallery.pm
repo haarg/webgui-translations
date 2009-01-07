@@ -54,16 +54,16 @@ our $I18N = {
     'message' => 'Diese Variablen sind in der Albenliste-Ansicht der Galerie verfügbar.'
   },
   'help listAlbums title' => {
-    'lastUpdated' => 1231261334,
-    'message' => 'Galerie, Albenliste-Ansicht'
+    'lastUpdated' => 1231361438,
+    'message' => 'Galerie, Albenliste'
   },
   'help listAlbumsRss body' => {
     'lastUpdated' => 1231264213,
     'message' => "Diese Variablen sind im RSS-Feed der Albenliste-Ansicht der Galerie verf\x{fc}gbar."
   },
   'help listAlbumsRss title' => {
-    'lastUpdated' => 1231261365,
-    'message' => 'Galerie, RSS-Feed der Albenliste-Ansicht'
+    'lastUpdated' => 1231361488,
+    'message' => 'Galerie, RSS-Feed der Albenliste'
   },
   'help listFilesForUser body' => {
     'lastUpdated' => 1231264247,
