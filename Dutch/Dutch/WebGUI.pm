@@ -2035,6 +2035,10 @@ De verstrekte informatie is niet gelijk aan de accountinformatie. '
     'lastUpdated' => 1189453779,
     'message' => 'Maak het mogelijk voor gebruikers om email te sturen naar hun vrienden en bekenden, om ze uit te nodigen om een account aan te maken op deze site.'
   },
+  'For' => {
+    'lastUpdated' => 1231520605,
+    'message' => 'Aan'
+  },
   'Forums' => {
     'lastUpdated' => 1222937952,
     'message' => 'Eerste pagina\'s'
@@ -2090,6 +2094,14 @@ De verstrekte informatie is niet gelijk aan de accountinformatie. '
   'Thanks for for your interest in ^c;. We will review your message shortly.' => {
     'lastUpdated' => 1222938085,
     'message' => 'Dedankt voor uw interesse in ^c;. We zullen uw bericht spoedig evalueren.'
+  },
+  'Upload an attachment' => {
+    'lastUpdated' => 1231520617,
+    'message' => 'Voeg een bijlage toe'
+  },
+  'Upload attachments here. Copy and paste attachments into the editor.' => {
+    'lastUpdated' => 1231520659,
+    'message' => 'Bijlagen kunnen hier toegevoegd worden. Kopi&euml;er en plak bijlagen in de tekstverwerker.'
   },
   'We welcome your feedback.' => {
     'lastUpdated' => 1222938104,
@@ -2797,6 +2809,10 @@ LongTruncOk=1'
   'required error' => {
     'lastUpdated' => 1227628158,
     'message' => '%s is vereist.'
+  },
+  'rss' => {
+    'lastUpdated' => 1231520669,
+    'message' => 'RSS'
   },
   'run on admin create user' => {
     'lastUpdated' => 1190023534,

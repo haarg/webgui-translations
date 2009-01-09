@@ -269,6 +269,10 @@ our $I18N = {
     'lastUpdated' => 1190025102,
     'message' => 'Geef hieronder hetzij uw emailadres hetzij uw gebruikersnaam om uw wachtwoord opnieuw op te vragen.'
   },
+  'email validation confirmed' => {
+    'lastUpdated' => 1231520400,
+    'message' => 'Bedankt voor het activeren van uw account. U kunt nu inloggen met uw gebruikersnaam en wachtwoord.'
+  },
   'error password nonWordCharacters' => {
     'lastUpdated' => 1190025075,
     'message' => 'Wachtwoorden moeten ten minste %s vreemde tekens bevatten (zoals "!", "@" of "$").'

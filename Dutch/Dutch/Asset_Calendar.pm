@@ -1,6 +1,10 @@
 package WebGUI::i18n::Dutch::Asset_Calendar;
 use utf8;
 our $I18N = {
+  'Add' => {
+    'lastUpdated' => 1231520061,
+    'message' => 'Toevoegen'
+  },
   'New Day' => {
     'lastUpdated' => 1229699565,
     'message' => 'Nieuwe dag'

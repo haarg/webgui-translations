@@ -285,6 +285,10 @@ our $I18N = {
     'lastUpdated' => 1146838164,
     'message' => 'Weet u zeker dat u alle ingevulde data van het dataformulier wilt verwijderen? '
   },
+  'Entry ID' => {
+    'lastUpdated' => 1231520556,
+    'message' => 'ID inzending'
+  },
   'Field Position' => {
     'lastUpdated' => 1146838183,
     'message' => 'Veld positie'
@@ -292,6 +296,10 @@ our $I18N = {
   'Field Position description' => {
     'lastUpdated' => 1146838288,
     'message' => 'U kunt de positie van het veld instellen zodat deze gelijk op de juiste plek wordt neergezet. '
+  },
+  'Submission Date' => {
+    'lastUpdated' => 1231520534,
+    'message' => 'Datum inzending'
   },
   'acknowledgement var desc' => {
     'lastUpdated' => 1207834587,

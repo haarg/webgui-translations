@@ -121,6 +121,10 @@ our $I18N = {
     'lastUpdated' => 1150728978,
     'message' => 'Dit is de plaats waar de navigatie begint met het kiezen van paginas, dit is gebaseerd op het type beginpunt.'
   },
+  'Where do you want to go?' => {
+    'lastUpdated' => 1231520350,
+    'message' => 'Waar wilt u naartoe?'
+  },
   'ancestorEndPoint' => {
     'lastUpdated' => 1170690319,
     'message' => 'Afhankelijk van het type startpunt, hoeveel niveau\'s daarboven begonnen moet worden met het weergeven van assets, meestal pagina\'s, in het menu. '

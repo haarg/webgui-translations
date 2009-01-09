@@ -66,7 +66,7 @@ our $I18N = {
     'message' => 'E-mail'
   },
   'emailField help' => {
-    'lastUpdated' => 1231192073,
+    'lastUpdated' => 1231520682,
     'message' => 'Een tekst veld waar de gebruiker hun e-mail adres in kan voeren.'
   },
   'emailMessage' => {

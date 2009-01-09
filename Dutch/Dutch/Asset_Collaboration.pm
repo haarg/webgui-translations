@@ -1,6 +1,18 @@
 package WebGUI::i18n::Dutch::Asset_Collaboration;
 use utf8;
 our $I18N = {
+  'Link Description' => {
+    'lastUpdated' => 1231520185,
+    'message' => 'Omschrijving link'
+  },
+  'Link URL' => {
+    'lastUpdated' => 1231520197,
+    'message' => 'URL link'
+  },
+  'List All Links' => {
+    'lastUpdated' => 1231520206,
+    'message' => 'Toon alle links'
+  },
   'add' => {
     'lastUpdated' => 1147186773,
     'message' => 'Toevoegen'
@@ -253,6 +265,10 @@ our $I18N = {
     'lastUpdated' => 1147187427,
     'message' => 'Datum'
   },
+  'date posted' => {
+    'lastUpdated' => 1231520240,
+    'message' => 'Publicatiedatum'
+  },
   'date submitted' => {
     'lastUpdated' => 1147957323,
     'message' => 'Datum toegevoegd'
@@ -470,6 +486,10 @@ Gebruik van avatars vermindert de snelheid van het collaboratiesysteem.'
   'guid' => {
     'lastUpdated' => 1150100723,
     'message' => '<div class="&quot;helpIndent&quot;"><p>De unieke identificatie van dit item.</p></div>'
+  },
+  'has posted to one of your subscriptions' => {
+    'lastUpdated' => 1231520313,
+    'message' => 'heeft gereageerd op &eacute;&eacute;n van uw forumonderwerpen.'
   },
   'id' => {
     'lastUpdated' => 1150098818,

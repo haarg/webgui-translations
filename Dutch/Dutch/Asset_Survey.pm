@@ -1146,7 +1146,7 @@ our $I18N = {
     'message' => 'Tijdslimiet:'
   },
   'timelimit hoverHelp' => {
-    'lastUpdated' => 1231192947,
+    'lastUpdated' => 1231520710,
     'message' => 'Het aantal minuten dat een gebruiker heeft om de enqu&ecirc;te te voltooien. 0 betekent dat er geen tijdslimiet is.'
   },
   'title' => {
@@ -1211,7 +1211,7 @@ our $I18N = {
   },
   'what next description' => {
     'lastUpdated' => 1170691950,
-    'message' => 'Na het aanmaken van een enquête, kan er begonnen worden met het toevoegen van vragen of teruggegaan worden naar de pagina waar de enquête aan toegevoegd is.'
+    'message' => "Na het aanmaken van een enqu\x{ea}te, kan er begonnen worden met het toevoegen van vragen of teruggegaan worden naar de pagina waar de enqu\x{ea}te aan toegevoegd is."
   },
   'what next question description' => {
     'lastUpdated' => 1152528739,

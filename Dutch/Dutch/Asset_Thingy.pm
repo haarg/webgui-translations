@@ -433,9 +433,13 @@ our $I18N = {
     'lastUpdated' => 1205856899,
     'message' => 'Bij bewerken'
   },
+  'other thing field missing message' => {
+    'lastUpdated' => 1231520426,
+    'message' => 'Het veld van het andere Thing bestaat niet.'
+  },
   'other thing missing message' => {
-    'lastUpdated' => 1208183269,
-    'message' => 'De Thing waar dit veld naar verwijst bestaat niet of heeft geen tabel.'
+    'lastUpdated' => 1231520463,
+    'message' => 'De Thing waar dit veld naar verwijst bestaat niet of heeft geen tabel of het betreffende veld is verwijderd.'
   },
   'overwrite label' => {
     'lastUpdated' => 1206447934,
