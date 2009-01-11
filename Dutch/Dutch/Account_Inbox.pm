@@ -21,6 +21,10 @@ our $I18N = {
     'lastUpdated' => 1227707324,
     'message' => 'Annuleren'
   },
+  'common account variables' => {
+    'lastUpdated' => 1231700740,
+    'message' => 'Gewone account, Postvak in, sjabloon variabelen'
+  },
   'compose message label' => {
     'lastUpdated' => 1227707433,
     'message' => 'Nieuw bericht opstellen'
@@ -149,6 +153,10 @@ our $I18N = {
     'lastUpdated' => 1228768874,
     'message' => 'Uw uitnodiging is verzonden.'
   },
+  'invitation_count' => {
+    'lastUpdated' => 1231700768,
+    'message' => 'Het aantal ontvangen uitnodigingen van de gebruiker.'
+  },
   'invitations back label' => {
     'lastUpdated' => 1228768888,
     'message' => 'Terug naar uitnodigingen'
@@ -156,6 +164,10 @@ our $I18N = {
   'invitations label' => {
     'lastUpdated' => 1228768899,
     'message' => 'Uitnodigingen'
+  },
+  'invitations_enabled' => {
+    'lastUpdated' => 1231700808,
+    'message' => 'Een waar/niet waar functie die aangeeft of de gebruiker vrienden uitnodigingen wilt ontvangen.'
   },
   'invite a friend' => {
     'lastUpdated' => 1227714904,
@@ -232,6 +244,10 @@ our $I18N = {
   'invite user template label' => {
     'lastUpdated' => 1228767532,
     'message' => 'Sjabloon uitnodiging gebruiker'
+  },
+  'invite_friend_url' => {
+    'lastUpdated' => 1231700834,
+    'message' => 'Het URL waar deze gebruiker uitgenodigd kan worden voor een vriendennetwerk.'
   },
   'inviter no longer exists' => {
     'lastUpdated' => 1228766928,
@@ -373,13 +389,29 @@ our $I18N = {
     'lastUpdated' => 1228765081,
     'message' => 'Naar'
   },
+  'unread_message_count' => {
+    'lastUpdated' => 1231700855,
+    'message' => 'Het aantal ongelezen berichten in het Postvak in.'
+  },
   'update label' => {
     'lastUpdated' => 1228765069,
     'message' => 'Vernieuwen'
   },
+  'user_invitations_enabled' => {
+    'lastUpdated' => 1231700897,
+    'message' => 'Een functie die waar is als deze site zo geconfigureerd is dat er uitnodigingen gestuurd kunnen worden naar gebruikers buiten de site.'
+  },
   'view my profile' => {
     'lastUpdated' => 1228765059,
     'message' => 'Bekijk mijn profiel zoals anderen het zien.'
+  },
+  'view_inbox_url' => {
+    'lastUpdated' => 1231700915,
+    'message' => 'Het URL waar het Postvak in bekeken kan worden.'
+  },
+  'view_invitations_url' => {
+    'lastUpdated' => 1231700933,
+    'message' => 'Het URL waar de uitnodigingen bekeken kunnen worden.'
   }
 }
 ;

@@ -9,6 +9,10 @@ our $I18N = {
     'lastUpdated' => 1227608022,
     'message' => 'Account'
   },
+  'user layout template body' => {
+    'lastUpdated' => 1231700554,
+    'message' => 'Deze account functionaliteit is alleen een omhulsel voor het WebGUI authenticatie systeem. Kijk voor informatie over het maken van een stijl voor dit scherm bij de &quot;Toon account&quot; sjablonen.'
+  },
   'user layout template hoverHelp' => {
     'lastUpdated' => 1227627378,
     'message' => 'Kies een layout sjabloon dat de inhoud van de verschillende methoden binnen de account tab omvat.'
@@ -16,6 +20,10 @@ our $I18N = {
   'user layout template label' => {
     'lastUpdated' => 1227627389,
     'message' => 'Layout sjabloon'
+  },
+  'user layout template title' => {
+    'lastUpdated' => 1231700574,
+    'message' => 'Layout sjabloon gebruikersaccount'
   },
   'user style template hoverHelp' => {
     'lastUpdated' => 1227627415,
