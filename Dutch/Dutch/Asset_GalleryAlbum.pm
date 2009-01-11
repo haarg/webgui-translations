@@ -334,8 +334,8 @@ our $I18N = {
     'message' => 'De instellingen van het album zijn opgeslagen. <a href="%s">Ga terug naar het album</a>.'
   },
   'template add' => {
-    'lastUpdated' => 1204031154,
-    'message' => 'Toevoegen'
+    'lastUpdated' => 1231707700,
+    'message' => 'Album toevoegen'
   },
   'template addArchive body' => {
     'lastUpdated' => 1204031194,
@@ -362,8 +362,8 @@ our $I18N = {
     'message' => 'Ja'
   },
   'template edit' => {
-    'lastUpdated' => 1204031223,
-    'message' => 'Bewerken'
+    'lastUpdated' => 1231707714,
+    'message' => 'Bewerk album'
   },
   'template file creationDate' => {
     'lastUpdated' => 1203437459,
@@ -408,6 +408,10 @@ our $I18N = {
   'template url_thumbnails' => {
     'lastUpdated' => 1203516797,
     'message' => 'Miniaturen'
+  },
+  'template use as thumbnail' => {
+    'lastUpdated' => 1231707740,
+    'message' => 'Gerbruik als album representatie'
   },
   'what next' => {
     'lastUpdated' => 1213702753,

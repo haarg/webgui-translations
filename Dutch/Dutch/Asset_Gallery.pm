@@ -102,8 +102,8 @@ our $I18N = {
     'message' => 'Dit is de loop door de albums die momenteel getoond worden.'
   },
   'helpvar albums rss' => {
-    'lastUpdated' => 1201269575,
-    'message' => 'Dit is de loop door de albums die momenteel getoond worden.'
+    'lastUpdated' => 1231707880,
+    'message' => 'Dit is de loop door de albums in de galerij.'
   },
   'helpvar canAddFile' => {
     'lastUpdated' => 1201269618,
@@ -306,8 +306,12 @@ our $I18N = {
     'message' => 'bestanden'
   },
   'template listFilesForUser albums title' => {
-    'lastUpdated' => 1203437704,
-    'message' => 'Albums'
+    'lastUpdated' => 1231707895,
+    'message' => 'Mijn albums'
+  },
+  'template listFilesForUser pictures title' => {
+    'lastUpdated' => 1231707906,
+    'message' => 'Mijn fotos'
   },
   'template listFilesForUser title' => {
     'lastUpdated' => 1203437694,

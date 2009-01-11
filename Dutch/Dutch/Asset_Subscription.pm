@@ -41,6 +41,10 @@ our $I18N = {
     'lastUpdated' => 1215594410,
     'message' => 'Selecteer een naam voor deze verzameling.'
   },
+  'batchDescription' => {
+    'lastUpdated' => 1231708381,
+    'message' => 'De omschrijving van de verzameling die bij de inschrijvings code hoort.'
+  },
   'code' => {
     'lastUpdated' => 1213778385,
     'message' => 'Code'
@@ -64,6 +68,10 @@ our $I18N = {
   'codeControls' => {
     'lastUpdated' => 1215594856,
     'message' => 'Een reeks links voor het aanmaken van verzamelingen van inschrijvingscodes het in een l;ijst zetten van inschrijvingscodes en verzamelingen van codes.'
+  },
+  'codeForm' => {
+    'lastUpdated' => 1231708411,
+    'message' => 'Het formulier waar de gebruiker de inschrijvingscode kan invoeren.'
   },
   'codes expire' => {
     'lastUpdated' => 1213779211,
@@ -173,6 +181,10 @@ our $I18N = {
     'lastUpdated' => 1213788094,
     'message' => 'Inschrijvingen (beta)'
   },
+  'message' => {
+    'lastUpdated' => 1231708506,
+    'message' => 'Het bericht dat het resultaat van de actie weergeeft. Afhankelijk van wat er gebeurd is kan het melden dat er een code ingevoerd kan worden, er een verkeerde code is ingevoerd of dat de code geaccepteerd is.'
+  },
   'no association error' => {
     'lastUpdated' => 1213788214,
     'message' => 'Er moet minimaal &eacute;&eacute;n inschrijving geassocieerd zijn met deze verzameling'
@@ -232,6 +244,14 @@ our $I18N = {
   'redeem code success' => {
     'lastUpdated' => 1215606076,
     'message' => '<p>U bent met succes toegevoegd aab de inschrijvingen. U kunt nu een andere code invoeren.</p>'
+  },
+  'redeem subscription code template' => {
+    'lastUpdated' => 1231708666,
+    'message' => 'Verkrijgen inschrijving sjabloon'
+  },
+  'redeem subscription code template help' => {
+    'lastUpdated' => 1231708641,
+    'message' => 'Kies het sjabloon dat de gebruiker getoond wordt wanneer een gebruiker een inschrijvingscode wilt verkrijgen.'
   },
   'redeemCodeLabel' => {
     'lastUpdated' => 1215606204,

@@ -45,6 +45,14 @@ our $I18N = {
     'lastUpdated' => 1190025496,
     'message' => 'Een label, beschrijving in de eigen taal van de gebruiker, om aan te geven dat er geen resultaten werden gevonden.'
   },
+  'of' => {
+    'lastUpdated' => 1231708681,
+    'message' => 'van'
+  },
+  'page' => {
+    'lastUpdated' => 1231708691,
+    'message' => 'Pagina'
+  },
   'paginate after' => {
     'lastUpdated' => 1225916174,
     'message' => 'Zoekresultaten per pagina'
@@ -56,6 +64,10 @@ our $I18N = {
   'result_set' => {
     'lastUpdated' => 1149857980,
     'message' => '<p><strong>result_set*</strong><br />Zoek resultaten, die eventueel over verschillende paginas verdeeld zijn, met controle over het aantal resultaten per pagina. <br /></p>'
+  },
+  'resultsFeedback' => {
+    'lastUpdated' => 1231708701,
+    'message' => 'Zoekresultaten voor'
   },
   'results_found' => {
     'lastUpdated' => 1190025469,

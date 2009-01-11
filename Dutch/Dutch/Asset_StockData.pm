@@ -1,13 +1,77 @@
 package WebGUI::i18n::Dutch::Asset_StockData;
 use utf8;
 our $I18N = {
+  '% Change' => {
+    'lastUpdated' => 1231707953,
+    'message' => '% verandering'
+  },
+  '52 Wk High' => {
+    'lastUpdated' => 1231707986,
+    'message' => 'Hoogste in 52 weken'
+  },
+  '52 Wk Low' => {
+    'lastUpdated' => 1231707999,
+    'message' => 'Laagste in 52 weken'
+  },
+  'Change' => {
+    'lastUpdated' => 1231708009,
+    'message' => 'Verandering'
+  },
+  'Close' => {
+    'lastUpdated' => 1231708020,
+    'message' => 'Afsluiten'
+  },
+  'Day High' => {
+    'lastUpdated' => 1231708030,
+    'message' => 'Hoogste van de dag'
+  },
+  'Day Low' => {
+    'lastUpdated' => 1231708038,
+    'message' => 'Laagste van de dag'
+  },
+  'Dividend' => {
+    'lastUpdated' => 1231708071,
+    'message' => 'Dividend'
+  },
+  'EPS' => {
+    'lastUpdated' => 1231708088,
+    'message' => 'Verdiensten per aandeel'
+  },
+  'Exchange' => {
+    'lastUpdated' => 1231708174,
+    'message' => 'Beurs'
+  },
+  'Last Trade' => {
+    'lastUpdated' => 1231708193,
+    'message' => 'Laatst verhandeld'
+  },
   'Last Update' => {
     'lastUpdated' => 1230580141,
     'message' => 'Laatst bijgewerkt'
   },
+  'Market Cap' => {
+    'lastUpdated' => 1231708248,
+    'message' => 'Marktkapitalisatie'
+  },
+  'Open' => {
+    'lastUpdated' => 1231708271,
+    'message' => 'Bij opening'
+  },
+  'Prev Close' => {
+    'lastUpdated' => 1231708290,
+    'message' => 'Sluitingswaarde'
+  },
   'Stock Watch' => {
     'lastUpdated' => 1230580168,
     'message' => 'Aandelen bekijken'
+  },
+  'Volume' => {
+    'lastUpdated' => 1231708304,
+    'message' => 'Aantal'
+  },
+  'Yield' => {
+    'lastUpdated' => 1231708315,
+    'message' => 'Winst'
   },
   'add_button_label' => {
     'lastUpdated' => 1154448344,
@@ -138,7 +202,7 @@ our $I18N = {
     'message' => 'Kies de primaire bron om aandelen van op te halen. Dit is de eerste internetlocatie waar de applicatie zal zoeken. Als u de bron kiest die de aandelen bevat die de meerderheid van uw bezoekers bekijken, zal de prestatie van de aandelenlijst sterk toenemen.  '
   },
   'stocks.ask' => {
-    'lastUpdated' => 1154694567,
+    'lastUpdated' => 1231708323,
     'message' => 'Vraag'
   },
   'stocks.avg_vol' => {
@@ -186,7 +250,7 @@ our $I18N = {
     'message' => 'Als succes fout is, bevat dit veld wellicht de reden '
   },
   'stocks.ex_div' => {
-    'lastUpdated' => 1154706253,
+    'lastUpdated' => 1231708327,
     'message' => 'Ex-dividend datum'
   },
   'stocks.exchange' => {
@@ -250,8 +314,8 @@ our $I18N = {
     'message' => 'Percentage verandering ten opzichte van het slot van gisteren '
   },
   'stocks.pe' => {
-    'lastUpdated' => 1154717239,
-    'message' => 'P/E-ratio'
+    'lastUpdated' => 1231708338,
+    'message' => 'P/O-ratio'
   },
   'stocks.success' => {
     'lastUpdated' => 1154717393,
