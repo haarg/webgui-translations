@@ -178,8 +178,8 @@ our $I18N = {
     'message' => 'Cada elemento mostrar&aacute; um &iacute;cone de classe. A maioria dos &Iacute;cones de Classe s&atilde;o &uacute;nicos para um elemento, e s&atilde;o vers&otilde;es mais pequenas dos &iacute;cones mostrados no menu de Novo Conte&uacute;do da Consola de Administra&ccedil;&atilde;o desse elemento. Clicando no &Iacute;cone de Classe aparecer&aacute; um menu contextual com op&ccedil;&otilde;es de edi&ccedil;&atilde;o adicionais.'
   },
   'Data Type description' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1219762819,
+    'message' => 'Escolha o tipo de elemento de formul&aacute;rio para este campo.'
   },
   'Delete Metadata field' => {
     'lastUpdated' => undef,
@@ -338,8 +338,8 @@ our $I18N = {
     'message' => ''
   },
   'copy' => {
-    'lastUpdated' => 1219761182,
-    'message' => 'Copiar'
+    'lastUpdated' => 1223670211,
+    'message' => 'copiar'
   },
   'could not create' => {
     'lastUpdated' => undef,
@@ -378,8 +378,8 @@ our $I18N = {
     'message' => ''
   },
   'cut' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1222105777,
+    'message' => 'Recortar'
   },
   'default value' => {
     'lastUpdated' => undef,
@@ -390,12 +390,12 @@ our $I18N = {
     'message' => ''
   },
   'delete' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1222105802,
+    'message' => 'Excluir'
   },
   'deleteConfirm' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1222105844,
+    'message' => 'Confirmar Exclus&atilde;o'
   },
   'demote' => {
     'lastUpdated' => undef,
@@ -426,8 +426,8 @@ our $I18N = {
     'message' => ''
   },
   'edit' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1223670234,
+    'message' => 'Editar'
   },
   'edit branch' => {
     'lastUpdated' => undef,
@@ -457,9 +457,13 @@ our $I18N = {
     'lastUpdated' => undef,
     'message' => ''
   },
+  'export' => {
+    'lastUpdated' => 1223670248,
+    'message' => 'exportar'
+  },
   'export information' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1223670317,
+    'message' => 'Exportando Informa&ccedil;&otilde;es'
   },
   'exporting page' => {
     'lastUpdated' => undef,
@@ -506,8 +510,8 @@ our $I18N = {
     'message' => ''
   },
   'import' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1223670270,
+    'message' => 'Importar'
   },
   'isHidden' => {
     'lastUpdated' => undef,
@@ -713,13 +717,17 @@ our $I18N = {
     'lastUpdated' => undef,
     'message' => ''
   },
+  'search' => {
+    'lastUpdated' => 1222106580,
+    'message' => 'Procurar'
+  },
   'select all' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1222106545,
+    'message' => 'Selecionar Tudo'
   },
   'size' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1222106560,
+    'message' => 'Tamanho'
   },
   'specified base' => {
     'lastUpdated' => undef,
