@@ -5,6 +5,18 @@ our $I18N = {
     'lastUpdated' => 1231520061,
     'message' => 'Toevoegen'
   },
+  'Add a feed' => {
+    'lastUpdated' => 1231711258,
+    'message' => 'Voeg een toevoer toe'
+  },
+  'DN' => {
+    'lastUpdated' => 1231711449,
+    'message' => 'DN'
+  },
+  'Feed URL' => {
+    'lastUpdated' => 1231711386,
+    'message' => 'URL van de toevoer'
+  },
   'New Day' => {
     'lastUpdated' => 1229699565,
     'message' => 'Nieuwe dag'
@@ -16,6 +28,10 @@ our $I18N = {
   'New Year' => {
     'lastUpdated' => 1229699592,
     'message' => 'Nieuw jaar'
+  },
+  'UP' => {
+    'lastUpdated' => 1231711438,
+    'message' => 'UP'
   },
   'add event' => {
     'lastUpdated' => 1199098698,

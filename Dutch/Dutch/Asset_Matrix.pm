@@ -313,6 +313,10 @@ our $I18N = {
     'lastUpdated' => 1227875551,
     'message' => 'Vergelijking'
   },
+  'comparison template help body' => {
+    'lastUpdated' => 1231711586,
+    'message' => 'Het vergelijkings formulier en de lijst met vergelijkingen op de matrix vergelijkingspagina zijn dynamisch gegenereerde yui datatabellen. Zie de <a href="http://developer.yahoo.com/yui/examples/datatable/dt_skinning.html">yui documentatie</a> voor informatie over het uitdunnen van yui datatabellen.'
+  },
   'comparison template help title' => {
     'lastUpdated' => 1190025810,
     'message' => 'Matrix vergelijkingstabel'
@@ -594,6 +598,10 @@ Voor de selectielijst mag er maar &#233;&#233;n waarde worden ingevuld. De gebru
     'lastUpdated' => 1208524138,
     'message' => 'Een voorwaarde die aangeeft dat de gebruiker teveel lijsten heeft om te kunnen vergelijken. Er mogen maximaal het aantal lijsten dat bij het maximum aantal vergelijkingen gedefinieerd is vergeleken worden.'
   },
+  'javascript' => {
+    'lastUpdated' => 1231711635,
+    'message' => 'Het ge&iuml;ntegreerde javascript van dit sjabloon.'
+  },
   'label' => {
     'lastUpdated' => 1152628292,
     'message' => 'Het label van dit veld '
@@ -734,6 +742,10 @@ Voor de selectielijst mag er maar &#233;&#233;n waarde worden ingevuld. De gebru
   'manufacturerUrl_click' => {
     'lastUpdated' => 1229183391,
     'message' => 'Het URL van de fabrikant dat gebruikt moet worden als het aantal klikken van deze lijst geregistreerd moet worden.'
+  },
+  'matrix asset template variables title' => {
+    'lastUpdated' => 1231711650,
+    'message' => 'Matrix asset sjabloon variabelen'
   },
   'matrix specific fields' => {
     'lastUpdated' => 1156342561,
