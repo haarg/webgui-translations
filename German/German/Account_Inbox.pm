@@ -65,6 +65,10 @@ our $I18N = {
     "lastUpdated" => "1231217403",
     "message" => "\304ndern Layout Vorlage"
   },
+  "invitation count" => {
+    "lastUpdated" => "1232885245",
+    "message" => "Einladungen"
+  },
   "invite user template label" => {
     "lastUpdated" => "1232485682",
     "message" => "Schablone f\374r Einladungen"
