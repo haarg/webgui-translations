@@ -1,53 +1,97 @@
 package WebGUI::i18n::German::Account_Contributions;
 use utf8;
 our $I18N = {
+  'account contributions layout template' => {
+    'lastUpdated' => '1233940724',
+    'message' => 'Benutzerkonto, Beiträge'
+  },
   'contrib layout template hoverHelp' => {
-    'lastUpdated' => 1228752092,
-    'message' => 'W&auml;hlen Sie eine Layout-Vorlage, in die der Inhalt der unterschiedlichen Methoden innerhalb des Beitr&auml;ge-Karteirreiters eingebettet werden soll.'
+    'lastUpdated' => '1233562041',
+    'message' => 'Die Schablone für das Layout, in welches die Inhalte der unterschiedlichen Ansichten des Beitrags-Plugins eingebettet werden sollen.'
   },
   'contrib layout template label' => {
-    'lastUpdated' => 1228752018,
-    'message' => 'Layout-Vorlage'
+    'lastUpdated' => '1233942921',
+    'message' => 'Layout'
   },
   'contrib style template hoverHelp' => {
-    'lastUpdated' => 1228752008,
-    'message' => 'W&auml;hlen Sie eine Stil-Vorlage aus der Liste, in die der Beitr&auml;ge-Karteireiter eingebettet werden soll.'
+    'lastUpdated' => '1233561471',
+    'message' => 'Der Anzeigestil für das Konto-Plugin.'
   },
   'contrib style template label' => {
-    'lastUpdated' => 1228751961,
-    'message' => 'Stil-Vorlage'
+    'lastUpdated' => '1233560967',
+    'message' => 'Anzeigestil'
   },
   'contrib view template hoverHelp' => {
-    'lastUpdated' => 1228751950,
-    'message' => 'W&auml;hlen Sie eine Vorlage f&uuml;r die Anzeige der Benutzer-Beitr&auml;ge'
+    'lastUpdated' => '1233561514',
+    'message' => 'Die Schablone zur Anzeige der Beiträge des aktuellen Benutzers.'
   },
   'contrib view template label' => {
-    'lastUpdated' => 1228751931,
-    'message' => 'Beitrags-Vorlage anzeigen'
+    'lastUpdated' => '1233943686',
+    'message' => 'Anzeigeschablone'
   },
   'contribution count' => {
-    'lastUpdated' => 1228751912,
-    'message' => 'Beitr&auml;ge insgesamt'
+    'lastUpdated' => '1233561629',
+    'message' => 'Anzahl Beiträge'
+  },
+  'contributions_loop' => {
+    'lastUpdated' => '1233560656',
+    'message' => 'Eine Schleife mit Information über alle Beiträge des aktuellen Benutzers.'
+  },
+  'contributions_total' => {
+    'lastUpdated' => '1233560688',
+    'message' => 'Die Gesamtzahl aller Beiträge des aktuellen Benutzers.'
+  },
+  'contributions_variables' => {
+    'lastUpdated' => '1233561302',
+    'message' => 'Sämtliche Variablen, die von den aufgeführten Assets bereitgestellt werden, werden in der Schleife verfügbar gemacht. Typische Beispiele sind "title", "url", "menutitle", "dateCreated", "synopsis", "lastModified" etc.'
   },
   'date label' => {
-    'lastUpdated' => 1228751868,
+    'lastUpdated' => '1228751868',
     'message' => 'Datum'
   },
+  'dateStamp_url' => {
+    'lastUpdated' => '1233560993',
+    'message' => 'Der URL zur Sortierung der Beiträge nach Datum. Über diesen URL kann außerdem die Sortierreihenfolge festgelegt werden (auf- oder absteigend).'
+  },
+  'has_contributions' => {
+    'lastUpdated' => '1233561058',
+    'message' => 'Eine Variable die wahr ist, falls der aktuelle Benutzer Beiträge auf der Seite veröffentlicht hat.'
+  },
   'no contributions' => {
-    'lastUpdated' => 1228751862,
-    'message' => 'Keine Beitr&auml;ge'
+    'lastUpdated' => '1233560714',
+    'message' => 'Keine Beiträge'
+  },
+  'rpp_url' => {
+    'lastUpdated' => '1233560944',
+    'message' => 'Der URL zur Veränderung der Anzahl an dargestellten Einträgen pro Seite. '
   },
   'title' => {
-    'lastUpdated' => 1228751826,
-    'message' => 'Beitr&auml;ge'
+    'lastUpdated' => '1233560954',
+    'message' => 'Beiträge'
   },
   'title label' => {
-    'lastUpdated' => 1228751832,
+    'lastUpdated' => '1228751832',
     'message' => 'Titel'
   },
+  'title_url' => {
+    'lastUpdated' => '1233560900',
+    'message' => 'Der URL zur Sortierung der Beiträge nach Titel. Über diesen URL kann außerdem die Sortierreihenfolge festgelegt werden (auf- oder absteigend).'
+  },
   'type label' => {
-    'lastUpdated' => 1228751838,
+    'lastUpdated' => '1228751838',
     'message' => 'Typ'
+  },
+  'type_url' => {
+    'lastUpdated' => '1233560850',
+    'message' => 'Der URL zur Sortierung der Beiträge nach Typ. Über diesen URL kann außerdem die Sortierreihenfolge festgelegt werden (auf- oder absteigend).'
+  },
+  'user_full_name' => {
+    'lastUpdated' => '1233560775',
+    'message' => 'Der vollständige Names des Benutzers.'
+  },
+  'user_member_since' => {
+    'lastUpdated' => '1233560749',
+    'message' => 'Das Erstellungsdatum in "Epoch"-Format für das aktuelle Konto. Der Wert kann mittels des "Date"-Makros formatiert werden.'
   }
 }
 ;

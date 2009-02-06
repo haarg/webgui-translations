@@ -2,28 +2,36 @@ package WebGUI::i18n::German::Account_User;
 use utf8;
 our $I18N = {
   'templates in auth method message' => {
-    'lastUpdated' => 1228747577,
-    'message' => 'Die Anzeige-Vorlage f&uuml;r dieses Modul finden Sie in den Einstellungen f&uuml;r die Authentifzierungsmodule, die f&uuml;r Ihre Site installiert sind.'
+    'lastUpdated' => '1233943561',
+    'message' => '<b>Den Anzeigestil für dieses Modul finden Sie in den Einstellungen unter Authentifizierung.</b>'
   },
   'title' => {
-    'lastUpdated' => 1228747432,
-    'message' => 'Account'
+    'lastUpdated' => '1233561953',
+    'message' => 'Authentifizierung'
+  },
+  'user layout template body' => {
+    'lastUpdated' => '1233562722',
+    'message' => 'Dieses Konto-Plugin ist lediglich ein "Wrapper" des WebGUI-Authentifizierungssystem. Mehr Information zwecks Anpassung der Darstellung finden Sie in der Dokumentation zu den zugehörigen Schablonen.'
   },
   'user layout template hoverHelp' => {
-    'lastUpdated' => 1228747513,
-    'message' => 'W&auml;hlen Sie eine Layout-Vorlage in die der Inhalt der verschiedenen Methoden innerhalb des Account-Karteireiters eingebunden werden soll.'
+    'lastUpdated' => '1233562035',
+    'message' => 'Die Schablone für das Layout, in welches die Inhalte der unterschiedlichen Ansichten des Authentifizierungs-Plugins eingebettet werden sollen.'
   },
   'user layout template label' => {
-    'lastUpdated' => 1228747591,
-    'message' => 'Layout-Vorlage'
+    'lastUpdated' => '1233941344',
+    'message' => 'Layout'
+  },
+  'user layout template title' => {
+    'lastUpdated' => '1233941425',
+    'message' => 'Benutzerkonto, Authentifizierung'
   },
   'user style template hoverHelp' => {
-    'lastUpdated' => 1228747700,
-    'message' => 'W&auml;hlen Sie eine Stil-Vorlage aus der Liste, um darin den Account-Karteireiter einzubetten.'
+    'lastUpdated' => '1233561974',
+    'message' => 'Der Anzeigestil für das Authentifizierungs-Plugin.'
   },
   'user style template label' => {
-    'lastUpdated' => 1228747655,
-    'message' => 'Stil-Vorlage'
+    'lastUpdated' => '1233561809',
+    'message' => 'Anzeigestil'
   }
 }
 ;
