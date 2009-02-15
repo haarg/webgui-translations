@@ -838,6 +838,10 @@ Dies bedeutet in der Regel, dass Sie eine Seite anlegen m&ouml;chtgen, die den s
     'lastUpdated' => '1153261940',
     'message' => 'Typ'
   },
+  'unlocked' => {
+    'lastUpdated' => '1234737050',
+    'message' => 'entsperrt'
+  },
   'update' => {
     'lastUpdated' => '1217146900',
     'message' => 'Aktualisieren'
