@@ -2017,6 +2017,10 @@ our $I18N = {
     'lastUpdated' => '1199973325',
     'message' => 'Erm&ouml;glicht es Benutzern an Freunde Emails zu verschicken und diese einzuladen, einen Account auf dieser Seite zu erstellen.'
   },
+  'For' => {
+    'lastUpdated' => '1234735529',
+    'message' => 'Für'
+  },
   'Forums' => {
     'lastUpdated' => '1224798185',
     'message' => 'Konfigurationsseiten'
@@ -2072,6 +2076,15 @@ our $I18N = {
   'Thanks for for your interest in ^c;. We will review your message shortly.' => {
     'lastUpdated' => '1224799495',
     'message' => 'Danke f&uuml;r Ihre Nachricht bzgl. ^c;. Wir werden diese bald bearbeiten.'
+  },
+  'Upload an attachment' => {
+    'lastUpdated' => '1234735008',
+    'message' => 'Anhang hochladen'
+  },
+  'Upload attachments here. Copy and paste attachments into the editor.' => {
+    'lastUpdated' => '1234735172',
+    'message' => 'Anhänge können hier hochgeladen werden.
+Kopieren Sie ggf. Dateien und fügen Sie diese in den Editor ein.'
   },
   'We welcome your feedback.' => {
     'lastUpdated' => '1224798969',
@@ -2777,6 +2790,14 @@ our $I18N = {
     'lastUpdated' => '1178625085',
     'message' => 'Nur lesbar'
   },
+  'recaptcha private key' => {
+    'lastUpdated' => '1234735460',
+    'message' => 'reCAPTCHA privater Schlüssel'
+  },
+  'recaptcha public key' => {
+    'lastUpdated' => '1234735485',
+    'message' => 'reCAPTCHA Öffentlicher-Schlüssel'
+  },
   'removeLabel' => {
     'lastUpdated' => '1178625097',
     'message' => 'entfernen'
@@ -2784,6 +2805,10 @@ our $I18N = {
   'required error' => {
     'lastUpdated' => '1227566581',
     'message' => 'Angabe %s ist erforderlich'
+  },
+  'rss' => {
+    'lastUpdated' => '1234735187',
+    'message' => 'RSS'
   },
   'run on admin create user' => {
     'lastUpdated' => '1199972016',
@@ -3169,6 +3194,14 @@ our $I18N = {
     'lastUpdated' => '1178626110',
     'message' => 'F&uuml;ge eine Erweiterung wie "html", "php" oder "asp" zu jeder neuen Seite hinzu.
 <b>Hinweis</b>: Geben Sie keinen Punkt (".") an. Beispiel: html nicht .html '
+  },
+  'use recaptcha' => {
+    'lastUpdated' => '1234735219',
+    'message' => 'reCHAPTCHA verwenden?'
+  },
+  'use recaptcha description' => {
+    'lastUpdated' => '1234735416',
+    'message' => 'reCAPTCHA ist ein kostenloser CAPTHCHA-Dienst, die die Digitalisierung von Büchern unterstützt. Hierzu ist ein Schlüssel für Ihre Domain erforderlich, der bei  http://recaptcha.net/ bezogen werden kann.'
   },
   'user' => {
     'lastUpdated' => '1178626122',
