@@ -102,80 +102,80 @@ our $I18N = {
     'message' => 'Liste aller Mitglieder, die online sind und zugestimmt haben, dies zu publizieren '
   },
   'members' => {
-    'lastUpdated' => '1178783587',
-    'message' => 'Die Zahl der aktiven Mitglieder.'
+    'lastUpdated' => '1234736123',
+    'message' => 'Die Zahl der Mitglieder, die online sind.'
   },
   'membersOnline_label' => {
-    'lastUpdated' => '1178783587',
-    'message' => 'Die Worte "Aktive Mitglieder".'
+    'lastUpdated' => '1234736157',
+    'message' => 'Mitglieder online'
   },
   'members_label' => {
-    'lastUpdated' => '1178783587',
-    'message' => 'Das Wort "Mitglieder".'
+    'lastUpdated' => '1234736148',
+    'message' => 'Mitglieder'
   },
   'members_loops' => {
     'lastUpdated' => '1178783587',
     'message' => 'Schleife, welche alle aktiven Mitglieder enthält, die einer Anzeige zugestimmt haben.'
   },
   'middleName' => {
-    'lastUpdated' => '1178783587',
-    'message' => 'Der zweite Vorname.'
+    'lastUpdated' => '1234736211',
+    'message' => 'Weitere Vorname/n.'
   },
   'name_label' => {
-    'lastUpdated' => '1178783587',
-    'message' => 'Das Wort "Name".'
+    'lastUpdated' => '1234736222',
+    'message' => 'Name'
   },
   'sessionId' => {
-    'lastUpdated' => '1178783587',
+    'lastUpdated' => '1234736236',
     'message' => 'Die ID der Benutzersitzung.'
   },
   'session_label' => {
-    'lastUpdated' => '1178783587',
-    'message' => 'Das Wort "Sitzung".'
+    'lastUpdated' => '1234736246',
+    'message' => 'Sitzung'
   },
   'total' => {
-    'lastUpdated' => '1178783587',
-    'message' => 'Die Gesamtzahl aller aktiven Benutzer.'
+    'lastUpdated' => '1234736277',
+    'message' => 'Anzahl Benutzer online'
   },
   'total_label' => {
-    'lastUpdated' => '1178783587',
-    'message' => 'Das Wort "Gesamt".'
+    'lastUpdated' => '1234736285',
+    'message' => 'Gesamt'
   },
   'uid' => {
-    'lastUpdated' => '1178783587',
-    'message' => 'Die User-ID.'
+    'lastUpdated' => '1234736312',
+    'message' => 'Benutzer-ID.'
   },
   'username' => {
-    'lastUpdated' => '1178783587',
-    'message' => 'Der Benutzername.'
+    'lastUpdated' => '1234736330',
+    'message' => 'Benutzername'
   },
   'users online body' => {
-    'lastUpdated' => '1178783587',
-    'message' => 'Makro zur Anzeige der aktiven Benutzer. Es wird die Anzahl der aktiven Benutzer, unterteilt in Mitglieder und Besucher, bestimmt. Als aktive Benutzer gelten jene, welche innerhalb einer gesetzten Zeitspanne eine Seite abgerufen haben. Neben der Anzahl der Benutzer werden zusätzlich Benutzer spezifische Daten mittels zweier Schleifen übergeben.'
+    'lastUpdated' => '1234736860',
+    'message' => 'Makro zur Anzeige der Besucher, die online sind. Es wird die Anzahl aller Benutzer, unterteilt in Mitglieder und Besucher, bestimmt. "Online" gelten jene Benutzer, die innerhalb einer gesetzten Zeitspanne eine Seite abgerufen haben. Benutzer-spezifische Daten werden mittels zweier Schleifen übergeben.'
   },
   'users online title' => {
-    'lastUpdated' => '1178783587',
-    'message' => 'Users Online-Makro'
+    'lastUpdated' => '1234736937',
+    'message' => 'Makro "Benutzer online"'
   },
   'usersOnline_label' => {
-    'lastUpdated' => '1178783587',
-    'message' => 'Die Worte "Aktive Benutzer".'
+    'lastUpdated' => '1234736962',
+    'message' => 'Benutzer online'
   },
   'visitor_loop' => {
     'lastUpdated' => '1234735770',
     'message' => 'Liste aller Besucher, die online sind'
   },
   'visitors' => {
-    'lastUpdated' => '1178783587',
-    'message' => 'Die Zahl der aktiven Besucher.'
+    'lastUpdated' => '1234736367',
+    'message' => 'Anzahl Besucher'
   },
   'visitorsOnline_label' => {
-    'lastUpdated' => '1178783587',
-    'message' => 'Die Worte "Aktive Besucher".'
+    'lastUpdated' => '1234736979',
+    'message' => 'Besucher online'
   },
   'visitors_label' => {
-    'lastUpdated' => '1178783587',
-    'message' => 'Das Wort "Besucher".'
+    'lastUpdated' => '1234736989',
+    'message' => 'Besucher'
   },
   'visitors_loops' => {
     'lastUpdated' => '1178783587',
