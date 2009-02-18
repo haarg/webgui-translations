@@ -65,6 +65,10 @@ our $I18N = {
     'lastUpdated' => '1229722689',
     'message' => 'Sie haben nicht genug Speicherplatz, um diese Datei hochzuladen.'
   },
+  'form comment save comment' => {
+    'lastUpdated' => '1234945263',
+    'message' => 'Kommentar sichern'
+  },
   'help commentForm body' => {
     'lastUpdated' => '1229771116',
     'message' => 'Diese Variablen sind in der Ansicht zur Erstellung von Kommentaren verfügbar.'
@@ -377,6 +381,14 @@ our $I18N = {
     'lastUpdated' => '1229723186',
     'message' => 'Bestätigen Sie das Löschen dieses Fotos.'
   },
+  'hide' => {
+    'lastUpdated' => '1234945277',
+    'message' => 'Verbergen'
+  },
+  'more details' => {
+    'lastUpdated' => '1234945334',
+    'message' => 'Mehr Details'
+  },
   'save message' => {
     'lastUpdated' => '1229723159',
     'message' => 'Ihr Foto wartet auf Freigabe für die Veröffentlichung. <a href="%s">Foto ansehen</a>. <a href="%s">Ein weiteres Foto hinzufügen</a>.'
@@ -396,6 +408,10 @@ our $I18N = {
   'template comment delete confirm' => {
     'lastUpdated' => '1217315755',
     'message' => 'Sind Sie sicher, das Sie diesen Kommentar entfernen wollen?'
+  },
+  'template comment edit comment' => {
+    'lastUpdated' => '1234945324',
+    'message' => 'Kommentar ändern'
   },
   'template comment edit title' => {
     'lastUpdated' => '1230117461',
@@ -476,6 +492,14 @@ our $I18N = {
   'template url_makeShortcut' => {
     'lastUpdated' => '1229773163',
     'message' => 'Verknüpfung erstellen'
+  },
+  'template view available resolutions' => {
+    'lastUpdated' => '1234945308',
+    'message' => 'Verfügbare Auflösungen'
+  },
+  'template view details' => {
+    'lastUpdated' => '1234945291',
+    'message' => 'Details'
   },
   'template view title' => {
     'lastUpdated' => '1229722484',
