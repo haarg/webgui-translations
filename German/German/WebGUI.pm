@@ -438,7 +438,7 @@ our $I18N = {
     'message' => '<a href=&quot;http://www.icq.com&quot; target=&quot;_blank&quot; title=&quot;ICQ Homepage&quot;>ICQ</a> UIN'
   },
   318 => {
-    'lastUpdated' => '1182153830',
+    'lastUpdated' => '1234944399',
     'message' => '<a href=&quot;http://www.aol.com/aim/homenew.adp&quot; target=&quot;_blank&quot; title=&quot;AIM Homepage&quot;>AIM</a> Id'
   },
   319 => {
