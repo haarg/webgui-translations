@@ -2335,8 +2335,8 @@ Kopieren Sie ggf. Dateien und fügen Sie diese in den Editor ein.'
     'message' => 'Ablauf Benutzer Gruppierung'
   },
   'external help' => {
-    'lastUpdated' => '1208146899',
-    'message' => 'F&uuml;r mehrere Hilfe, besuch <a href="http://www.webgui.org/community-wiki">WebGU Community Wiki</a>'
+    'lastUpdated' => '1234945762',
+    'message' => 'Mehr Hilfe unter <a href="http://www.webgui.org/community-wiki">WebGU Community Wiki</a>'
   },
   'fieldType' => {
     'lastUpdated' => '1216638580',
