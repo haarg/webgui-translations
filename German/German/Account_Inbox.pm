@@ -2,7 +2,7 @@ package WebGUI::i18n::German::Account_Inbox;
 use utf8;
 our $I18N = {
   'accept button label' => {
-    'lastUpdated' => '1232889714',
+    'lastUpdated' => '1235675859',
     'message' => 'Annehmen'
   },
   'already a member' => {
