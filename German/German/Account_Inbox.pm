@@ -17,6 +17,10 @@ our $I18N = {
     'lastUpdated' => '1231216958',
     'message' => 'Dieser Benutzer wünscht keine private Nachrichten zu empfangen'
   },
+  'canSendMessages' => {
+    'lastUpdated' => '1235679070',
+    'message' => 'Eine Variable die wahr ist, falls der Benutzer Freunde hat, denen er Mitteilungen schicken kann.'
+  },
   'cancel label' => {
     'lastUpdated' => '1231216968',
     'message' => 'Abbrechen'
@@ -33,6 +37,18 @@ our $I18N = {
     'lastUpdated' => '1231216994',
     'message' => 'Datum'
   },
+  'dateStamp' => {
+    'lastUpdated' => '1235680387',
+    'message' => 'Das Datum, an dem die Mitteilung versendet wurde (Epoch-Format).'
+  },
+  'dateStamp_formatted' => {
+    'lastUpdated' => '1235680447',
+    'message' => 'Das Datum, an dem die Mitteilung versendet wurde; entsprechend den Einstellungen des Benutzers formatiert.'
+  },
+  'dateStamp_url' => {
+    'lastUpdated' => '1235680637',
+    'message' => 'Der URL, um die Mitteilungen im Posteingang nach dem Versanddatum zu sortieren.'
+  },
   'delete label' => {
     'lastUpdated' => '1231217003',
     'message' => 'Löschen'
@@ -45,9 +61,33 @@ our $I18N = {
     'lastUpdated' => '1231217022',
     'message' => 'Fehler'
   },
+  'form_footer' => {
+    'lastUpdated' => '1235681550',
+    'message' => 'HTML-Code zum Abschluss des Formulars auf dieser Seite.'
+  },
+  'form_header' => {
+    'lastUpdated' => '1235681536',
+    'message' => 'HTML-Code zum Beginn des Formulars auf dieser Seite.'
+  },
+  'from' => {
+    'lastUpdated' => '1235681566',
+    'message' => 'Der Name des Absenders.'
+  },
   'from label' => {
     'lastUpdated' => '1231217029',
     'message' => 'Von'
+  },
+  'from_id' => {
+    'lastUpdated' => '1235681607',
+    'message' => 'Die Benutzer-Id des Absenders.'
+  },
+  'from_url' => {
+    'lastUpdated' => '1235681669',
+    'message' => 'Der URL zur Anzeige des Benutzer-Profils des Absenders.'
+  },
+  'has_messages' => {
+    'lastUpdated' => '1235681694',
+    'message' => 'Eine Variable die wahr ist, falls der Benutzer Mitteilungen im Posteingang hat.'
   },
   'inbox error message template hoverHelp' => {
     'lastUpdated' => '1232889358',
@@ -128,6 +168,10 @@ our $I18N = {
   'inbox view template label' => {
     'lastUpdated' => '1233943261',
     'message' => 'Vorlage Eingangsanzeige'
+  },
+  'inbox_form_delete' => {
+    'lastUpdated' => '1235680001',
+    'message' => 'Eine Box zum Markieren von Mitteilungen, die gelöscht werden sollen.'
   },
   'invitation confirm label' => {
     'lastUpdated' => '1233555662',
@@ -269,6 +313,22 @@ our $I18N = {
     'lastUpdated' => '1232485378',
     'message' => 'Der Benutzer, von dem diese Einladung stammt, ist nicht länger auf dieser Seite registriert.'
   },
+  'isCompleted' => {
+    'lastUpdated' => '1235680740',
+    'message' => 'Eine Variable die wahr ist, falls diese Mitteilung eine Aktion des Benutzers darstellt, die abgeschlossen wurde.'
+  },
+  'isPending' => {
+    'lastUpdated' => '1235681094',
+    'message' => 'Eine Variable die wahr ist, falls diese Mitteilung eine Aktion des Benutzers darstellt, die sich noch in der Schwebe befindet.'
+  },
+  'isRead' => {
+    'lastUpdated' => '1235681148',
+    'message' => 'Eine Variable die wahr ist, falls diese Mitteilung bereits gelesen wurde.'
+  },
+  'isReplied' => {
+    'lastUpdated' => '1235681175',
+    'message' => 'Eine Variable die wahr ist, falls auf diese Mitteilung bereits geantwortet wurde.'
+  },
   'member since' => {
     'lastUpdated' => '1233944766',
     'message' => 'Registriert seit dem'
@@ -289,6 +349,26 @@ our $I18N = {
     'lastUpdated' => '1232485097',
     'message' => 'Ihre Nachricht wurde erfolgreich versendet.'
   },
+  'message_id' => {
+    'lastUpdated' => '1235680755',
+    'message' => 'Der eindeutige Bezeichner für diese Nachricht.'
+  },
+  'message_loop' => {
+    'lastUpdated' => '1235680913',
+    'message' => 'Eine Schleife, die alle Mitteilungen der aktuellen Seite enthält; sortiert entsprechend den Vorgaben.'
+  },
+  'message_rpp' => {
+    'lastUpdated' => '1235681444',
+    'message' => 'Ein Auswahlfeld, dass es dem Benutzer gestattet, die Anzahl der pro Seite angezeigten Mitteilungen zu wählen.'
+  },
+  'message_total' => {
+    'lastUpdated' => '1235680942',
+    'message' => 'Die Gesamtzahl aller Mitteilungen, die der Benutzer in seinem Posteingang hat.'
+  },
+  'message_url' => {
+    'lastUpdated' => '1235681200',
+    'message' => 'Der URL zur Anzeige des Inhalts dieser Mitteilung.'
+  },
   'messages label' => {
     'lastUpdated' => '1232485031',
     'message' => 'Mitteilungen'
@@ -308,6 +388,10 @@ our $I18N = {
   'new message label' => {
     'lastUpdated' => '1232484795',
     'message' => 'Neue Mitteilung'
+  },
+  'new_message_url' => {
+    'lastUpdated' => '1235680174',
+    'message' => 'Der URL zur Ansicht, in der Benutzer neue Mitteilungen verfassen und an andere Benutzer senden können.'
   },
   'next label' => {
     'lastUpdated' => '1232484770',
@@ -381,17 +465,41 @@ our $I18N = {
     'lastUpdated' => '1231217690',
     'message' => 'Antwort zur Nachricht'
   },
+  'rpp_url' => {
+    'lastUpdated' => '1235680300',
+    'message' => 'Der aktuelle URL inklusive Sortierkriterium, Sortierreihenfolge und Filterregeln.'
+  },
   'send label' => {
     'lastUpdated' => '1231217662',
     'message' => 'Senden'
+  },
+  'status' => {
+    'lastUpdated' => '1235679181',
+    'message' => 'Der internationalisierte Status dieser Mitteilung.'
   },
   'status label' => {
     'lastUpdated' => '1231217653',
     'message' => 'Status'
   },
+  'status_class' => {
+    'lastUpdated' => '1235679208',
+    'message' => 'Der interne Status dieser Mitteilung.'
+  },
+  'status_url' => {
+    'lastUpdated' => '1235679246',
+    'message' => 'Der URL, um die Mitteilungen im Posteingang nach Status zu sortieren.'
+  },
+  'subject' => {
+    'lastUpdated' => '1235679282',
+    'message' => 'Der Betreff dieser Nachricht.'
+  },
   'subject label' => {
     'lastUpdated' => '1231217645',
     'message' => 'Betreff'
+  },
+  'subject_url' => {
+    'lastUpdated' => '1235679263',
+    'message' => 'Der URL, um die Mitteilungen im Posteingang nach Betreff zu sortieren.'
   },
   'system message error' => {
     'lastUpdated' => '1231217632',
@@ -416,6 +524,10 @@ our $I18N = {
   'user_invitations_enabled' => {
     'lastUpdated' => '1232483253',
     'message' => 'Diese Variable ist wahr, falls die Seite so konfiguriert wurde, dass Einladungen an Benutzer außerhalb der Seite versendet werden.'
+  },
+  'view inbox template' => {
+    'lastUpdated' => '1235681943',
+    'message' => 'Benutzerkonto, Posteingang'
   },
   'view my profile' => {
     'lastUpdated' => '1231217482',

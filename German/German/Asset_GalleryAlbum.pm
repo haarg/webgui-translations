@@ -145,6 +145,10 @@ our $I18N = {
     'lastUpdated' => '1229993185',
     'message' => 'Die aktuelle Datei, die auf der Vorschaubild-Seite angezeigt wird. Alle allgemeinen Variablen dieser Datei sind verfügbar &uuml;ber den Präfix &quot;file_&quot;.'
   },
+  'helpvar file_*' => {
+    'lastUpdated' => '1235678893',
+    'message' => 'Alle allgemeinen Variablen des gegenwärtig dargestellten Bildes in der Vorschauansicht; modifiziert durch den Päfix "file_".'
+  },
   'helpvar file_loop' => {
     'lastUpdated' => '1231361930',
     'message' => 'Schleife über die Dateien auf der angezeigten Seite.'
@@ -208,6 +212,10 @@ our $I18N = {
   'helpvar form_title' => {
     'lastUpdated' => '1201603354',
     'message' => 'Der Titel des Albums.'
+  },
+  'helpvar gallery_displayTitle' => {
+    'lastUpdated' => '1235679010',
+    'message' => 'Eine Variable die wahr ist, falls der Titel der Galerie, welche diese Datei enthält, angezeigt wird.'
   },
   'helpvar gallery_menuTitle' => {
     'lastUpdated' => '1229993280',
@@ -408,6 +416,10 @@ our $I18N = {
   'template url_thumbnails' => {
     'lastUpdated' => '1229108931',
     'message' => 'Vorschaubilder'
+  },
+  'template use as thumbnail' => {
+    'lastUpdated' => '1235678511',
+    'message' => 'Als Titelbild verwenden'
   },
   'what next' => {
     'lastUpdated' => '1229108965',
