@@ -7,7 +7,7 @@ our $I18N = {
   },
   'enabled help' => {
     'lastUpdated' => 1226015767,
-    'message' => 'Sollen die Nutzer des Shop-Systems diese Versandm&ouml;glichkeit ausw&auml;hlen k&ouml;nnen?'
+    'message' => 'Sollen die Nutzer des Shop-Systems diese Versandmöglichkeit auswählen k&ouml;nnen?'
   },
   'label' => {
     'lastUpdated' => 1226015776,
@@ -15,7 +15,7 @@ our $I18N = {
   },
   'label help' => {
     'lastUpdated' => 1226015840,
-    'message' => 'Ein Name f&uuml;r die Versandm&ouml;glichkeit. W&auml;hlen Sie eine eindeutige und verst&auml;ndliche Bezeichnung mit weniger als 100 Zeichen.'
+    'message' => 'Ein Name für die Versandmöglichkeit. Wählen Sie eine eindeutige und verst&auml;ndliche Bezeichnung mit weniger als 100 Zeichen.'
   }
 }
 ;

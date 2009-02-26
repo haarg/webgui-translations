@@ -18,7 +18,7 @@ our $I18N = {
 	},
 
 	'image height description' => {
-		message => q|Die H&ouml;he des kompletten Bildes (gemessen in Pixel).|,
+		message => q|Die Höhe des kompletten Bildes (gemessen in Pixel).|,
 		lastUpdated => 1180089818
 	},
 
@@ -38,7 +38,7 @@ our $I18N = {
 	},
 
 	'image height' => {
-		message => q|Bildh&ouml;he|,
+		message => q|Bildhöhe|,
 		lastUpdated => 1180089795
 	},
 
@@ -53,12 +53,12 @@ our $I18N = {
 	},
 
 	'palette description' => {
-		message => q|Die Palette, die f&uuml;r die Zeichnung der Graphen benutzt werden soll.|,
+		message => q|Die Palette, die für die Zeichnung der Graphen benutzt werden soll.|,
 		lastUpdated => 1180090051
 	},
 
 	'label fontsize' => {
-		message => q|Schriftgr&ouml;&szlig;e|,
+		message => q|Schriftgröße|,
 		lastUpdated => 1180089914
 	},
 
@@ -68,7 +68,7 @@ our $I18N = {
 	},
 
 	'label fontsize description' => {
-		message => q|Die Schriftgr&ouml;&szlig;de der Labelbeschriftung.|,
+		message => q|Die Schriftgrößde der Labelbeschriftung.|,
 		lastUpdated => 1180089953
 	},
 
@@ -98,7 +98,7 @@ our $I18N = {
 	},
 
 	'graph type description' => {
-		message => q|Benutzen Sie diese Option, um den Typ des Graphen auszuwj&auml;hlen, den Sie benutzen wollen.|,
+		message => q|Benutzen Sie diese Option, um den Typ des Graphen auszuwjählen, den Sie benutzen wollen.|,
 		lastUpdated => 1180089773
 	},
 

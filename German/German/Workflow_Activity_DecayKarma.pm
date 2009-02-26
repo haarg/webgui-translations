@@ -9,7 +9,7 @@ our $I18N = {
 	},
 
 	'decay factor help' => {
-		message => q|Wie viel Karma soll einem Benutzer abgezogen werden, wenn Verfall Karma l&auml;ft? |,
+		message => q|Wie viel Karma soll einem Benutzer abgezogen werden, wenn Verfall Karma läft? |,
 		lastUpdated => 1179991221
 	},
 

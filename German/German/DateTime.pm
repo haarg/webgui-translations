@@ -28,7 +28,7 @@ our $I18N = {
 	},
 
 	'march' => {
-		message => q|M&auml;rz|,
+		message => q|März|,
 		lastUpdated => 1152970283
 	},
 

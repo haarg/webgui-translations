@@ -7,15 +7,15 @@ our $I18N = {
   },
   '1073 description' => {
     'lastUpdated' => 1178865894,
-    'message' => 'W&auml;hlen Sie ein Style Template aus der Liste, das ihr Wobject umgeben soll, wenn das Wobject direkt aufgerufen wird. Falls das Wobject als Teil eines Layout Assets aufgerufen wird, so wird das <strong>Style Template</strong> des Layout Assets benutzt, um die Seite darzustellen.'
+    'message' => 'Wählen Sie ein Style Template aus der Liste, das ihr Wobject umgeben soll, wenn das Wobject direkt aufgerufen wird. Falls das Wobject als Teil eines Layout Assets aufgerufen wird, so wird das <strong>Style Template</strong> des Layout Assets benutzt, um die Seite darzustellen.'
   },
   '1079' => {
     'lastUpdated' => 1231361292,
-    'message' => 'Druckstil'
+    'message' => 'Druckvorlage'
   },
   '1079 description' => {
     'lastUpdated' => 1178865997,
-    'message' => 'Hier k&ouml;nnen Sie den Druck Style f&uuml;r diese Seite auf ein anderes als das Standard Druck Style von WebGUI setzen. '
+    'message' => 'Hier können Sie den Druck Style für diese Seite auf ein anderes als das Standard Druck Style von WebGUI setzen. '
   },
   '174' => {
     'lastUpdated' => 1164156659,
@@ -27,7 +27,7 @@ our $I18N = {
   },
   '42' => {
     'lastUpdated' => 1164156608,
-    'message' => 'Bitte best&auml;tigen.'
+    'message' => 'Bitte bestätigen.'
   },
   '44' => {
     'lastUpdated' => 1164156715,
@@ -47,11 +47,11 @@ our $I18N = {
   },
   '85 description' => {
     'lastUpdated' => 1178867610,
-    'message' => 'Inhaltsbereich, in den Sie so viel Inhalt einf&uuml;gen k&ouml;nnen, wie Sie wollen. Zum Beispiel gibt es sogar vor einer FAQ ein Abschnitt, der den Inhalt der FAQ beschreibt.'
+    'message' => 'Inhaltsbereich, in den Sie so viel Inhalt einfügen können, wie Sie wollen. Zum Beispiel gibt es sogar vor einer FAQ ein Abschnitt, der den Inhalt der FAQ beschreibt.'
   },
   'add' => {
     'lastUpdated' => 1164156850,
-    'message' => 'Hinzuf&uuml;gen'
+    'message' => 'Hinzufügen'
   },
   'assetId' => {
     'lastUpdated' => 1178867642,
@@ -79,11 +79,11 @@ our $I18N = {
   },
   'printableStyleTemplateId' => {
     'lastUpdated' => 1178867777,
-    'message' => 'Die assetId des Templates f&uuml;r den Ausdruck dieses Assets.'
+    'message' => 'Die assetId des Templates für den Ausdruck dieses Assets.'
   },
   'styleTemplateId' => {
     'lastUpdated' => 1178867802,
-    'message' => 'Die assetId des Templates f&uuml;r die Anzeige des Assets.'
+    'message' => 'Die assetId des Templates für die Anzeige des Assets.'
   },
   'title' => {
     'lastUpdated' => 1178867810,

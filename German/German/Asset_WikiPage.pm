@@ -3,7 +3,7 @@ use utf8;
 our $I18N = {
   'actionTaken' => {
     'lastUpdated' => 1222933313,
-    'message' => 'Die ausgef&uuml;hrte Aktion, welche zur aktuellen Version der Wiki-Seite gef&uuml;hrt hat. Auf einer neuen Seite ist dies &quot;Created&quot;, ansonsten &quot;Edited&quot;. '
+    'message' => 'Die ausgeführte Aktion, welche zur aktuellen Version der Wiki-Seite gef&uuml;hrt hat. Auf einer neuen Seite ist dies &quot;Created&quot;, ansonsten &quot;Edited&quot;. '
   },
   'actionTakenBy' => {
     'lastUpdated' => 1222932866,
@@ -11,7 +11,7 @@ our $I18N = {
   },
   'add/edit title' => {
     'lastUpdated' => 1224014252,
-    'message' => 'Wiki-Seite, Schablone zum Hinzuf&uuml;gen/Bearbeiten'
+    'message' => 'Wiki-Seite, Vorlage zum Hinzufügen/Bearbeiten'
   },
   'assetName' => {
     'lastUpdated' => 1222933350,
@@ -19,11 +19,11 @@ our $I18N = {
   },
   'attachmentLabel' => {
     'lastUpdated' => 1180589632,
-    'message' => 'Anh&auml;nge'
+    'message' => 'Anhänge'
   },
   'canAdminister' => {
     'lastUpdated' => 1222933458,
-    'message' => 'Eine boolesche Variable, die wahr ist, falls der Benutzer administrative Rechte f&uuml;r das Wiki hat, welches diese Seite enth&auml;lt.'
+    'message' => 'Eine boolesche Variable, die wahr ist, falls der Benutzer administrative Rechte für das Wiki hat, welches diese Seite enthält.'
   },
   'canEdit variable' => {
     'lastUpdated' => 1227566069,
@@ -35,7 +35,7 @@ our $I18N = {
   },
   'content variable' => {
     'lastUpdated' => 1222932972,
-    'message' => 'Der reine Inhalt der Wiki-Seite ohne Titel oder automatisch erzeugte Links. Sie sollten den Inhalt dieser Variable nie zu sehen bekommen, da er im Template &uuml;berschrieben wird.'
+    'message' => 'Der reine Inhalt der Wiki-Seite ohne Titel oder automatisch erzeugte Links. Sie sollten den Inhalt dieser Variable nie zu sehen bekommen, da er im Template überschrieben wird.'
   },
   'contentLabel' => {
     'lastUpdated' => 1180589817,
@@ -43,31 +43,31 @@ our $I18N = {
   },
   'contentLabel variable' => {
     'lastUpdated' => 1224014121,
-    'message' => 'Eine internationalisierte Beschriftung f&uuml;r die Variable formContent.'
+    'message' => 'Eine internationalisierte Beschriftung für die Variable formContent.'
   },
   'delete confirmation' => {
     'lastUpdated' => 1224014270,
-    'message' => 'Soll diese Revision wirklich gel&ouml;scht werden?'
+    'message' => 'Soll diese Revision wirklich gelöscht werden?'
   },
   'delete page confirmation' => {
     'lastUpdated' => 1222933670,
-    'message' => 'Soll diese Wiki-Seite wirklich gel&ouml;scht werden?'
+    'message' => 'Soll diese Wiki-Seite wirklich gelöscht werden?'
   },
   'deleteConfirmation' => {
     'lastUpdated' => 1222933730,
-    'message' => 'Internationalisierte Nachricht mit der Aufforderung, die L&ouml;schung einer Wiki-Seite zu best&auml;tigen.'
+    'message' => 'Internationalisierte Nachricht mit der Aufforderung, die Löschung einer Wiki-Seite zu bestätigen.'
   },
   'deleteLabel' => {
     'lastUpdated' => 1180589901,
-    'message' => 'L&ouml;schen'
+    'message' => 'Löschen'
   },
   'deleteLabel variable' => {
     'lastUpdated' => 1222932992,
-    'message' => 'Eine internationalisierte Beschriftung f&uuml;r die Variable deleteUrl.'
+    'message' => 'Eine internationalisierte Beschriftung für die Variable deleteUrl.'
   },
   'deleteUrl' => {
     'lastUpdated' => 1180589933,
-    'message' => 'URL zum l&ouml;schen dieser Seite.'
+    'message' => 'URL zum löschen dieser Seite.'
   },
   'editContent' => {
     'lastUpdated' => 1222933089,
@@ -79,7 +79,7 @@ our $I18N = {
   },
   'editLabel variable' => {
     'lastUpdated' => 1180590028,
-    'message' => 'Internationalisiertes Label f&uuml;r das Bearbeiten des Inhalts einer Seite. N&uuml;tzlich f&uuml;r "tabbed interfaces" der Wiki Seite.'
+    'message' => 'Internationalisiertes Label für das Bearbeiten des Inhalts einer Seite. N&uuml;tzlich f&uuml;r "tabbed interfaces" der Wiki Seite.'
   },
   'editing' => {
     'lastUpdated' => 1224014290,
@@ -87,35 +87,35 @@ our $I18N = {
   },
   'formContent' => {
     'lastUpdated' => 1222931907,
-    'message' => 'HTML-Code f&uuml;r ein Formular zur Eingabe oder &Auml;nderung des Inhaltes der Seite.'
+    'message' => 'HTML-Code für ein Formular zur Eingabe oder Änderung des Inhaltes der Seite.'
   },
   'formFooter' => {
     'lastUpdated' => 1222931939,
-    'message' => 'HTML-Code f&uuml;r den Abschluss des Formulars zur Berarbeitung der Seite.'
+    'message' => 'HTML-Code für den Abschluss des Formulars zur Berarbeitung der Seite.'
   },
   'formHeader' => {
     'lastUpdated' => 1223456163,
-    'message' => 'HTML-Code f&uuml;r den Beginn des Formulars zur Bearbeitung der Seite.'
+    'message' => 'HTML-Code für den Beginn des Formulars zur Bearbeitung der Seite.'
   },
   'formProtect' => {
     'lastUpdated' => 1222932851,
-    'message' => 'HTML-Code f&uuml;r ein Auswahlfeld, um festzulegen, ob die Seite gesch&uuml;tzt sein soll. Gesch&uuml;tzte Seiten k&ouml;nnen nur von Benutzern mit administrativen Rechten f&uuml;r das Wiki ge&auml;ndert werden.'
+    'message' => 'HTML-Code für ein Auswahlfeld, um festzulegen, ob die Seite gesch&uuml;tzt sein soll. Gesch&uuml;tzte Seiten können nur von Benutzern mit administrativen Rechten f&uuml;r das Wiki geändert werden.'
   },
   'formSubmit' => {
     'lastUpdated' => 1223457322,
-    'message' => 'HTML-Code f&uuml;r eine Schaltfl&auml;che mit internationalisierte Beschriftung zum Einreichen von Ver&auml;nderungen an dieser Seite.'
+    'message' => 'HTML-Code für eine Schaltfläche mit internationalisierte Beschriftung zum Einreichen von Ver&auml;nderungen an dieser Seite.'
   },
   'formTitle' => {
     'lastUpdated' => 1222933115,
-    'message' => 'HTML-Code f&uuml;r ein Formular zur Eingabe oder &Auml;nderung des Titels einer Seite.'
+    'message' => 'HTML-Code für ein Formular zur Eingabe oder Änderung des Titels einer Seite.'
   },
   'history actionTaken' => {
     'lastUpdated' => 1224014554,
-    'message' => 'Die in dieser &Uuml;berarbeitung ausgef&uuml;hrte Aktion. In den meisten F&auml;llen ist dies &quot;Edit&quot;.'
+    'message' => 'Die in dieser Überarbeitung ausgeführte Aktion. In den meisten Fällen ist dies &quot;Edit&quot;.'
   },
   'history body' => {
     'lastUpdated' => 1224014604,
-    'message' => '&Uuml;bersicht &uuml;ber die Variablen, welche in der Schablone zur Anzeige der Geschichte einer Wiki-Seite zur Vef&uuml;gung stehen.'
+    'message' => 'Übersicht über die Variablen, welche in der Vorlage zur Anzeige der Geschichte einer Wiki-Seite zur Vef&uuml;gung stehen.'
   },
   'history date' => {
     'lastUpdated' => 1222930128,
@@ -127,11 +127,11 @@ our $I18N = {
   },
   'history title' => {
     'lastUpdated' => 1224014524,
-    'message' => 'Wiki-Seite, Schablone zur Anzeige der Geschichte'
+    'message' => 'Wiki-Seite, Vorlage zur Anzeige der Geschichte'
   },
   'history toolbar' => {
     'lastUpdated' => 1222930434,
-    'message' => 'Eine Werkzeugleiste mit Schaltfl&auml;chen, um Revisionen dieser Seite anzuzeigen, zu editieren oder zu l&ouml;schen.'
+    'message' => 'Eine Werkzeugleiste mit Schaltflächen, um Revisionen dieser Seite anzuzeigen, zu editieren oder zu löschen.'
   },
   'history username' => {
     'lastUpdated' => 1222930472,
@@ -143,11 +143,11 @@ our $I18N = {
   },
   'historyLabel variable' => {
     'lastUpdated' => 1222931536,
-    'message' => 'Eine internationalisierte Beschriftung f&uuml;r die Variable historyUrl.'
+    'message' => 'Eine internationalisierte Beschriftung für die Variable historyUrl.'
   },
   'historyUrl' => {
     'lastUpdated' => 1222930786,
-    'message' => 'Ein URL, der den Benutzer zu einer Ansicht der Historie von Ver&auml;nderungen dieser Seite f&uuml;hrt.'
+    'message' => 'Ein URL, der den Benutzer zu einer Ansicht der Historie von Veränderungen dieser Seite führt.'
   },
   'isNew' => {
     'lastUpdated' => 1222930667,
@@ -155,43 +155,43 @@ our $I18N = {
   },
   'isProtected' => {
     'lastUpdated' => 1222930699,
-    'message' => 'Eine boolesche Variable, die wahr ist, falls die Seite vor Ver&auml;nderungen gesch&uuml;tzt ist.'
+    'message' => 'Eine boolesche Variable, die wahr ist, falls die Seite vor Veränderungen geschützt ist.'
   },
   'mostPopularLabel variable' => {
     'lastUpdated' => 1222931552,
-    'message' => 'Eine internationalisierte Beschriftung f&uuml;r die Variable mostPopularUrl.'
+    'message' => 'Eine internationalisierte Beschriftung für die Variable mostPopularUrl.'
   },
   'mostPopularUrl' => {
     'lastUpdated' => 1222930762,
-    'message' => 'Ein URL, der den Benutzer zu einer Ansicht der popul&auml;rsten Wiki-Seiten f&uuml;hrt.'
+    'message' => 'Ein URL, der den Benutzer zu einer Ansicht der populärsten Wiki-Seiten führt.'
   },
   'page received' => {
     'lastUpdated' => 1222931017,
-    'message' => 'Ihre Seite wurde empfangen und wird gerade verarbeitet. Nach Abschluss des Vorgangs wird sie an entsprechender Stelle zur Ansicht und weiteren Bearbeitung zur Verf&uuml;gung stehen. Wir bitten um Ihre Geduld!'
+    'message' => 'Ihre Seite wurde empfangen und wird gerade verarbeitet. Nach Abschluss des Vorgangs wird sie an entsprechender Stelle zur Ansicht und weiteren Bearbeitung zur Verfügung stehen. Wir bitten um Ihre Geduld!'
   },
   'protectQuestionLabel' => {
     'lastUpdated' => 1224138794,
-    'message' => 'Vor Ver&auml;nderungen sch&uuml;tzen?'
+    'message' => 'Vor Veränderungen schützen?'
   },
   'protectQuestionLabel variable' => {
     'lastUpdated' => 1222931574,
-    'message' => 'Eine internationalisierte Beschriftung f&uuml;r die Variable formProtect.'
+    'message' => 'Eine internationalisierte Beschriftung für die Variable formProtect.'
   },
   'recentChangesLabel' => {
     'lastUpdated' => 1222931815,
-    'message' => 'Eine internationalisierte Beschriftung f&uuml;r die Variable recentChangesUrl.'
+    'message' => 'Eine internationalisierte Beschriftung für die Variable recentChangesUrl.'
   },
   'recentChangesUrl' => {
     'lastUpdated' => 1224014374,
-    'message' => 'Ein URL, der den Benutzer zu einer &Uuml;bersicht mit allen Ver&auml;nderungen an Seiten in diesem Wiki f&uuml;hrt.'
+    'message' => 'Ein URL, der den Benutzer zu einer Übersicht mit allen Veränderungen an Seiten in diesem Wiki führt.'
   },
   'searchLabel variable' => {
     'lastUpdated' => 1222931589,
-    'message' => 'Eine internationalisierte Beschriftung f&uuml;r die Variable searchUrl.'
+    'message' => 'Eine internationalisierte Beschriftung für die Variable searchUrl.'
   },
   'searchUrl' => {
     'lastUpdated' => 1222931231,
-    'message' => 'Ein URL, der den Benutzer zu einer Such-Ansicht f&uuml;r dieses Wiki f&uuml;hrt.'
+    'message' => 'Ein URL, der den Benutzer zu einer Such-Ansicht für dieses Wiki f&uuml;hrt.'
   },
   'storageId' => {
     'lastUpdated' => 1222931101,
@@ -207,11 +207,11 @@ our $I18N = {
   },
   'titleLabel variable' => {
     'lastUpdated' => 1222931603,
-    'message' => 'Eine internationalisierte Beschriftung f&uuml;r die Variable formTitle.'
+    'message' => 'Eine internationalisierte Beschriftung für die Variable formTitle.'
   },
   'vars body' => {
     'lastUpdated' => 1222931460,
-    'message' => 'Diese Variablen stehen in Vorlagen zur Wiki-Seite zur Verf&uuml;gung. Sie basieren auf internen Asset-Variablen und sind m&ouml;glicherweise nur bedingt n&uuml;tzlich.'
+    'message' => 'Diese Variablen stehen in Vorlagen zur Wiki-Seite zur Verfügung. Sie basieren auf internen Asset-Variablen und sind möglicherweise nur bedingt n&uuml;tzlich.'
   },
   'vars title' => {
     'lastUpdated' => 1224014669,
@@ -219,7 +219,7 @@ our $I18N = {
   },
   'view body' => {
     'lastUpdated' => 1222929866,
-    'message' => 'Die Variablen, welche in der Vorlage zur Verf&uuml;gung stehen, sind im Folgenden aufgelistet:'
+    'message' => 'Die Variablen, welche in der Vorlage zur Verfügung stehen, sind im Folgenden aufgelistet:'
   },
   'view title' => {
     'lastUpdated' => 1222930309,
@@ -231,7 +231,7 @@ our $I18N = {
   },
   'viewLabel variable' => {
     'lastUpdated' => 1222931787,
-    'message' => 'Eine internationalisierte Beschriftung f&uuml;r die Anzeige des Inhalts einer Seite. Sie ist n&uuml;tzlich f&uuml;r die Erstellung von Dialogen mit Reitern zu einer Wiki-Seite.'
+    'message' => 'Eine internationalisierte Beschriftung für die Anzeige des Inhalts einer Seite. Sie ist n&uuml;tzlich f&uuml;r die Erstellung von Dialogen mit Reitern zu einer Wiki-Seite.'
   },
   'views' => {
     'lastUpdated' => 1222929712,
@@ -239,11 +239,11 @@ our $I18N = {
   },
   'wikiHomeLabel variable' => {
     'lastUpdated' => 1222931799,
-    'message' => 'Eine internationalisierte Beschriftung f&uuml;r die Variable wikiHomeUrl.'
+    'message' => 'Eine internationalisierte Beschriftung für die Variable wikiHomeUrl.'
   },
   'wikiHomeUrl' => {
     'lastUpdated' => 1222930800,
-    'message' => 'Ein URL, der den Benutzer zur&uuml;ck zur Wiki-Startseite f&uuml;hrt.'
+    'message' => 'Ein URL, der den Benutzer zurück zur Wiki-Startseite f&uuml;hrt.'
   }
 }
 ;

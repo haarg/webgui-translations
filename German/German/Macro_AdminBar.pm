@@ -27,7 +27,7 @@ our $I18N = {
   },
   'adminbar_loop' => {
     'lastUpdated' => 1178783479,
-    'message' => 'Ein Schleife, die verschieden Datenlisten zur Anzeige enth&auml;lt.'
+    'message' => 'Ein Schleife, die verschieden Datenlisten zur Anzeige enthält.'
   },
   'basic' => {
     'lastUpdated' => 1226013917,
@@ -35,7 +35,7 @@ our $I18N = {
   },
   'commit my changes' => {
     'lastUpdated' => 1178783562,
-    'message' => 'Meine &Auml;nderungen &uuml;bernehmen (commit)'
+    'message' => 'Meine Änderungen übernehmen (commit)'
   },
   'community' => {
     'lastUpdated' => 1226013681,
@@ -51,11 +51,11 @@ our $I18N = {
   },
   'items' => {
     'lastUpdated' => 1178783622,
-    'message' => 'Eine Schleife, die eine Liste von Elementen enth&auml;lt, die dieser Kategorie angeh&ouml;ren.'
+    'message' => 'Eine Schleife, die eine Liste von Elementen enthält, die dieser Kategorie angehören.'
   },
   'label' => {
     'lastUpdated' => 1178783659,
-    'message' => 'Titel-Label f&uuml;r diese Kategorie.'
+    'message' => 'Titel-Label für diese Kategorie.'
   },
   'macroName' => {
     'lastUpdated' => 1178783664,
@@ -63,7 +63,7 @@ our $I18N = {
   },
   'name' => {
     'lastUpdated' => 1178783688,
-    'message' => 'Ein Javascript freundlicher Name f&uuml;r diese Kategorie.'
+    'message' => 'Ein Javascript freundlicher Name für diese Kategorie.'
   },
   'packages' => {
     'lastUpdated' => 1226013697,
@@ -83,7 +83,7 @@ our $I18N = {
   },
   'utilities' => {
     'lastUpdated' => 1226013717,
-    'message' => 'Zubeh&ouml;r'
+    'message' => 'Zubehör'
   }
 }
 ;

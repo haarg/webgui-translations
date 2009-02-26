@@ -27,7 +27,7 @@ our $I18N = {
   },
   'choose a layout' => {
     'lastUpdated' => 1179921086,
-    'message' => 'W&auml;hlen Sie ein Layout f&uuml;r diesen Style:'
+    'message' => 'Wählen Sie ein Layout für diesen Style:'
   },
   'default parser' => {
     'lastUpdated' => 1179921095,
@@ -43,7 +43,7 @@ our $I18N = {
   },
   'head block description' => {
     'lastUpdated' => 1179921269,
-    'message' => 'F&uuml;gen Sie hier Meta Tags, Skript Tags, Link Tabellen, Style Sheets und alles das ein, was im Head Block (<head> ... </head>) ihres HTML Dokuments stehen soll.'
+    'message' => 'Fügen Sie hier Meta Tags, Skript Tags, Link Tabellen, Style Sheets und alles das ein, was im Head Block (<head> ... </head>) ihres HTML Dokuments stehen soll.'
   },
   'header background color' => {
     'lastUpdated' => 1179921282,
@@ -79,11 +79,11 @@ our $I18N = {
   },
   'logo description' => {
     'lastUpdated' => 1179921549,
-    'message' => 'Sie k&ouml;nnen dieses Feld benutzen, um ein graphisches Logo in ihr Style einzbinden. Das Logo darf h&ouml;chstens 200 Pixel breit und 100 Pixel hoch sein.'
+    'message' => 'Sie können dieses Feld benutzen, um ein graphisches Logo in ihr Style einzbinden. Das Logo darf h&ouml;chstens 200 Pixel breit und 100 Pixel hoch sein.'
   },
   'logo subtext' => {
     'lastUpdated' => 1179921574,
-    'message' => 'Das Logo darf h&ouml;chstens 200 Pixel breit und 100 Pixel hoch sein.'
+    'message' => 'Das Logo darf höchstens 200 Pixel breit und 100 Pixel hoch sein.'
   },
   'make duplicate label' => {
     'lastUpdated' => 1224797765,
@@ -91,15 +91,15 @@ our $I18N = {
   },
   'menu' => {
     'lastUpdated' => 1179921582,
-    'message' => 'Men&uuml;'
+    'message' => 'Menü'
   },
   'menu background color' => {
     'lastUpdated' => 1179921596,
-    'message' => 'Hintergrundfarbe des Men&uuml;s'
+    'message' => 'Hintergrundfarbe des Menüs'
   },
   'menu background color description' => {
     'lastUpdated' => 1179921615,
-    'message' => 'Die Hintergrundfarbe des Men&uuml;bereichs ihrer Seite.'
+    'message' => 'Die Hintergrundfarbe des Menübereichs ihrer Seite.'
   },
   'namespace' => {
     'lastUpdated' => 1179921622,
@@ -123,7 +123,7 @@ our $I18N = {
   },
   'parser description' => {
     'lastUpdated' => 1179921993,
-    'message' => 'Falls ihre Konfigdatei mehrer Template Engines auflistet, dann w&auml;hlen Sie den Typ des Templates, damit WebGUI das Template der richtigen Engine &uuml;bergeben kann.'
+    'message' => 'Falls ihre Konfigdatei mehrer Template Engines auflistet, dann wählen Sie den Typ des Templates, damit WebGUI das Template der richtigen Engine übergeben kann.'
   },
   'plugin enabled header' => {
     'lastUpdated' => 1179922001,
@@ -135,11 +135,11 @@ our $I18N = {
   },
   'session form variables' => {
     'lastUpdated' => 1179922203,
-    'message' => '<strong>Session Formular Variablen</strong><br />Jede Formular Variable ist im Template in folgender Form verf&uuml;gbar:<br /> &lt;tmpl_var session.form.<em>variable</em>&gt;<br /> Gibt es mehr als einen Wert f&uuml;r eine Formular Variable, so wird nur der letzte zur&uuml;ckgegeben.'
+    'message' => '<strong>Session Formular Variablen</strong><br />Jede Formular Variable ist im Template in folgender Form verfügbar:<br /> &lt;tmpl_var session.form.<em>variable</em>&gt;<br /> Gibt es mehr als einen Wert f&uuml;r eine Formular Variable, so wird nur der letzte zur&uuml;ckgegeben.'
   },
   'session scratch variables' => {
     'lastUpdated' => 1179922262,
-    'message' => '<strong>Session Scratch Variablen</strong><br />Jede scratch Variable ist in folgender Form im Template verf&uuml;gbar:<br /> &lt;tmpl_var session.scratch.<em>variable</em>&gt;'
+    'message' => '<strong>Session Scratch Variablen</strong><br />Jede scratch Variable ist in folgender Form im Template verfügbar:<br /> &lt;tmpl_var session.scratch.<em>variable</em>&gt;'
   },
   'session.config.extrasurl' => {
     'lastUpdated' => 1179922369,
@@ -199,7 +199,7 @@ our $I18N = {
   },
   'template parsers list body' => {
     'lastUpdated' => 1179922751,
-    'message' => 'Die folgenden Template Parser sind auf ihrer Site installiert und k&ouml;nnen aktiviert werden.'
+    'message' => 'Die folgenden Template Parser sind auf ihrer Site installiert und können aktiviert werden.'
   },
   'template parsers list title' => {
     'lastUpdated' => 1179922770,
@@ -219,7 +219,7 @@ our $I18N = {
   },
   'warning default template' => {
     'lastUpdated' => 1224797895,
-    'message' => 'Sie versuchen eine Standardvorlage zu bearbeiten. Jede &Auml;nderung k&ouml;nnte verloren gehen, wenn Sie WebGUI aktualisieren. Besser w&auml;re es, diese Vorlage zu duplizieren.'
+    'message' => 'Sie versuchen eine Standardvorlage zu bearbeiten. Jede Änderung könnte verloren gehen, wenn Sie WebGUI aktualisieren. Besser wäre es, diese Vorlage zu duplizieren.'
   },
   'webgui.status' => {
     'lastUpdated' => 1179922845,

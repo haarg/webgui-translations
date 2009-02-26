@@ -7,7 +7,7 @@ our $I18N = {
   },
   'flatFee help' => {
     'lastUpdated' => 1226018500,
-    'message' => 'Fester Betrag, der einem Einkauf als Versandkosten hinzugef&uuml;gt wird'
+    'message' => 'Fester Betrag, der einem Einkauf als Versandkosten hinzugefügt wird'
   },
   'percentageOfPrice' => {
     'lastUpdated' => 1226018554,

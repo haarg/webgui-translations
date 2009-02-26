@@ -3,7 +3,7 @@ use utf8;
 our $I18N = {
   'activityName' => {
     'lastUpdated' => 1224799611,
-    'message' => 'Benachrichtigung niedriger Lagerst&uuml;ckzahl'
+    'message' => 'Benachrichtigung niedriger Lagerstückzahl'
   },
   'group to notify' => {
     'lastUpdated' => 1224799632,
@@ -19,7 +19,7 @@ our $I18N = {
   },
   'warning limit help' => {
     'lastUpdated' => 1224799826,
-    'message' => 'Wenn ein Lagerst&uuml;ckzahl eines Produkts diese Menge unterschreitet, werden Sie benachrichtigt.'
+    'message' => 'Wenn ein Lagerstückzahl eines Produkts diese Menge unterschreitet, werden Sie benachrichtigt.'
   }
 }
 ;

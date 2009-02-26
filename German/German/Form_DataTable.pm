@@ -3,11 +3,11 @@ use utf8;
 our $I18N = {
   'add column' => {
     'lastUpdated' => 1228687037,
-    'message' => 'Spalte hinzuf&uuml;gen'
+    'message' => 'Spalte hinzufügen'
   },
   'add row' => {
     'lastUpdated' => 1228687045,
-    'message' => 'Zeile hinzuf&uuml;gen'
+    'message' => 'Zeile hinzufügen'
   },
   'cancel' => {
     'lastUpdated' => 1228687051,
@@ -15,15 +15,15 @@ our $I18N = {
   },
   'delete column' => {
     'lastUpdated' => 1228687060,
-    'message' => 'L&ouml;schen'
+    'message' => 'Löschen'
   },
   'delete confirm' => {
     'lastUpdated' => 1228687078,
-    'message' => 'Sind Sie sicher, dass Sie diese Zeilen l&ouml;schen m&ouml;chten?'
+    'message' => 'Sind Sie sicher, dass Sie diese Zeilen löschen m&ouml;chten?'
   },
   'delete rows' => {
     'lastUpdated' => 1228687092,
-    'message' => 'Ausgew&auml;hlte Zeilen l&ouml;schen'
+    'message' => 'Ausgewählte Zeilen löschen'
   },
   'edit schema' => {
     'lastUpdated' => 1228687127,
@@ -55,15 +55,15 @@ our $I18N = {
   },
   'help add row' => {
     'lastUpdated' => 1228687199,
-    'message' => 'Anklicken von &quot;Zeile hinzuf&uuml;gen&quot; f&uuml;gt eine Zeile am Ende der Tabelle ein.'
+    'message' => 'Anklicken von &quot;Zeile hinzufügen&quot; f&uuml;gt eine Zeile am Ende der Tabelle ein.'
   },
   'help default sort' => {
     'lastUpdated' => 1228687265,
-    'message' => 'Standardm&auml;&szlig;ig wird die Tabelle so sortiert, wie sie es war, als sie gespeichert wurde.'
+    'message' => 'Standardmäßig wird die Tabelle so sortiert, wie sie es war, als sie gespeichert wurde.'
   },
   'help edit cell' => {
     'lastUpdated' => 1228687337,
-    'message' => 'Eine Tabellenzelle doppelt anklicken, um sie zu bearbeiten. Die Tabulator-Taste speichert die aktuelle Zelle und &ouml;ffnet die n&auml;chste.'
+    'message' => 'Eine Tabellenzelle doppelt anklicken, um sie zu bearbeiten. Die Tabulator-Taste speichert die aktuelle Zelle und öffnet die nächste.'
   },
   'help reorder column' => {
     'lastUpdated' => 1228687464,
@@ -71,7 +71,7 @@ our $I18N = {
   },
   'help select row' => {
     'lastUpdated' => 1228687582,
-    'message' => 'Eine Zeile anklicken, um sie auszuw&auml;hlen. Durch Dr&uuml;cken von Umschalttaste oder STRG k&ouml;nnen mehrere Zeilen ausgew&auml;hlt werden.'
+    'message' => 'Eine Zeile anklicken, um sie auszuwählen. Durch Drücken von Umschalttaste oder STRG können mehrere Zeilen ausgew&auml;hlt werden.'
   },
   'ok' => {
     'lastUpdated' => 1228400826,

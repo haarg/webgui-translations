@@ -15,7 +15,7 @@ our $I18N = {
   },
   'cancel recurring message' => {
     'lastUpdated' => 1228689439,
-    'message' => 'Eine wiederkehrende Transaktion %s mit einem Artikel mit Bezeichnung %s f&uuml;r einen Benutzer mit Namen %s wurde abgebrochen.'
+    'message' => 'Eine wiederkehrende Transaktion %s mit einem Artikel mit Bezeichnung %s für einen Benutzer mit Namen %s wurde abgebrochen.'
   },
   'description' => {
     'lastUpdated' => 1226014879,
@@ -23,7 +23,7 @@ our $I18N = {
   },
   'description help' => {
     'lastUpdated' => 1226015029,
-    'message' => 'Beschreibung f&uuml;r den Artikel oder die Dienstleistung'
+    'message' => 'Beschreibung für den Artikel oder die Dienstleistung'
   },
   'display title' => {
     'lastUpdated' => 1226014892,
@@ -35,11 +35,11 @@ our $I18N = {
   },
   'override tax rate' => {
     'lastUpdated' => 1228689454,
-    'message' => 'Steuersatz &uuml;berschreiben?'
+    'message' => 'Steuersatz überschreiben?'
   },
   'override tax rate help' => {
     'lastUpdated' => 1228689545,
-    'message' => 'W&ouml;chten Sie den Standardsteuersatz f&uuml;r diesen Artikel &uuml;berschreiben? Wird gew&ouml;hnlich in Gebieten genutzt, die einen besonderen oder keinen Steuersatz auf Grundbedarfsartikel wie Essen oder Kleidung haben.'
+    'message' => 'Wöchten Sie den Standardsteuersatz für diesen Artikel &uuml;berschreiben? Wird gew&ouml;hnlich in Gebieten genutzt, die einen besonderen oder keinen Steuersatz auf Grundbedarfsartikel wie Essen oder Kleidung haben.'
   },
   'shop' => {
     'lastUpdated' => 1226014934,
@@ -59,7 +59,7 @@ our $I18N = {
   },
   'tax rate override' => {
     'lastUpdated' => 1228689592,
-    'message' => 'Steuersatz &uuml;Berschreiben'
+    'message' => 'Steuersatz üBerschreiben'
   },
   'tax rate override help' => {
     'lastUpdated' => 1228689651,
@@ -67,7 +67,7 @@ our $I18N = {
   },
   'vendor' => {
     'lastUpdated' => 1226014990,
-    'message' => 'Verk&auml;ufer'
+    'message' => 'Verkäufer'
   },
   'vendor help' => {
     'lastUpdated' => 1226873235,

@@ -19,17 +19,17 @@ our $I18N = {
 	},
 
 	'variant.addToCart.label' => {
-		message => q|Ein internationalisertes Label, &quot;^International(&quot;add to cart&quot;,&quot;Macro_Product&quot;);&quot;, das dem Benutzer pr&auml;sentiert wird, um diese Produktvariante seinem Warenkorb hinzuzuf&uuml;gen.|,
+		message => q|Ein internationalisertes Label, &quot;^International(&quot;add to cart&quot;,&quot;Macro_Product&quot;);&quot;, das dem Benutzer präsentiert wird, um diese Produktvariante seinem Warenkorb hinzuzufügen.|,
 		lastUpdated => 1178782748
 	},
 
 	'variant.addToCart.url' => {
-		message => q|Eine URL, um diese Produktvariante dem Warenkorb des Benutzers hinzuzuf&uuml;gen.|,
+		message => q|Eine URL, um diese Produktvariante dem Warenkorb des Benutzers hinzuzufügen.|,
 		lastUpdated => 1178782776
 	},
 
 	'available product configurations' => {
-		message => q|Verf&uuml;gbare Produkt Konfigurationen|,
+		message => q|Verfügbare Produkt Konfigurationen|,
 		lastUpdated => 1178782270
 	},
 
@@ -59,7 +59,7 @@ our $I18N = {
 	},
 
 	'value' => {
-		message => q|Der Wert des Parameters, z.B. der Gr&ouml;&szlig;e, XL.|,
+		message => q|Der Wert des Parameters, z.B. der Größe, XL.|,
 		lastUpdated => 1178782672
 	},
 
@@ -84,12 +84,12 @@ our $I18N = {
 	},
 
 	'variant.compositionLoop' => {
-		message => q|Eine Schleife, die Informationen &uuml;ber alle Varianten eines Produkts enth&auml;lt.|,
+		message => q|Eine Schleife, die Informationen über alle Varianten eines Produkts enthält.|,
 		lastUpdated => 1178782808
 	},
 
 	'parameter' => {
-		message => q|Der Parameter, der diese Variante beschreibt. Zum Beispiel die Gr&ouml;&szlig;e.|,
+		message => q|Der Parameter, der diese Variante beschreibt. Zum Beispiel die Größe.|,
 		lastUpdated => 1178782349
 	},
 
@@ -99,7 +99,7 @@ our $I18N = {
 	},
 
 	'title' => {
-		message => q|Der Titel f&uuml;r dieses Produkt.|,
+		message => q|Der Titel für dieses Produkt.|,
 		lastUpdated => 1178782635
 	},
 
@@ -109,7 +109,7 @@ our $I18N = {
 	},
 
 	'variantLoop' => {
-		message => q|Eine Schleife, die Informationen &uuml;ber alle Varianten eines Produkts enth&auml;lt.|,
+		message => q|Eine Schleife, die Informationen über alle Varianten eines Produkts enthält.|,
 		lastUpdated => 1178782889
 	},
 

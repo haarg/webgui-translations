@@ -35,7 +35,7 @@ our $I18N = {
   },
   'private profile' => {
     'lastUpdated' => '1228751154',
-    'message' => 'Ihr Profil ist nicht &ouml;ffentlich'
+    'message' => 'Ihr Profil ist nicht öffentlich'
   },
   'profile as others label' => {
     'lastUpdated' => '1233944641',
@@ -43,7 +43,7 @@ our $I18N = {
   },
   'profile edit layout template hoverHelp' => {
     'lastUpdated' => '1228751783',
-    'message' => 'W&auml;hlen Sie ein Layout aus der Liste, zur Anzeige der verschiednenen Account-Plugins, die vom aktuellen Benutzer betrachtet werden k&ouml;nnen, und des Inhalts des aktuell ausgew&auml;hlten.'
+    'message' => 'Wählen Sie ein Layout aus der Liste, zur Anzeige der verschiednenen Account-Plugins, die vom aktuellen Benutzer betrachtet werden können, und des Inhalts des aktuell ausgew&auml;hlten.'
   },
   'profile edit layout template label' => {
     'lastUpdated' => '1233942508',
@@ -51,7 +51,7 @@ our $I18N = {
   },
   'profile edit template hoverHelp' => {
     'lastUpdated' => '1228751326',
-    'message' => 'W&auml;hlen Sie die Hauptvorlage, um ein Profil zu bearbeiten'
+    'message' => 'Wählen Sie die Hauptvorlage, um ein Profil zu bearbeiten'
   },
   'profile edit template label' => {
     'lastUpdated' => '1233942590',
@@ -59,11 +59,11 @@ our $I18N = {
   },
   'profile error template hoverHelp' => {
     'lastUpdated' => '1228751380',
-    'message' => 'W&auml;hlen Sie ein Vorlage, mit der Fehler im Profil dem Benutzer angezeigt werden.'
+    'message' => 'Wählen Sie ein Vorlage, mit der Fehler im Profil dem Benutzer angezeigt werden.'
   },
   'profile error template label' => {
     'lastUpdated' => '1233943619',
-    'message' => 'Schablone Fehlermeldungen'
+    'message' => 'Vorlage Fehlermeldungen'
   },
   'profile layout template hoverHelp' => {
     'lastUpdated' => '1229284173',
@@ -75,19 +75,19 @@ our $I18N = {
   },
   'profile not public error' => {
     'lastUpdated' => '1228751542',
-    'message' => 'Dieses Benutzerprofil ist nicht &ouml;ffentlich einsehbar.'
+    'message' => 'Dieses Benutzerprofil ist nicht öffentlich einsehbar.'
   },
   'profile style template hoverHelp' => {
     'lastUpdated' => '1228751519',
-    'message' => 'W&auml;hlen Sie eine Stil-Vorlage aus der Liste, in die der Nachrichteneingang eingebettet werden soll.'
+    'message' => 'Wählen Sie eine Stil-Vorlage aus der Liste, in die der Nachrichteneingang eingebettet werden soll.'
   },
   'profile style template label' => {
     'lastUpdated' => '1233942361',
-    'message' => 'Anzeigestil'
+    'message' => 'Stilvorlage'
   },
   'profile view template hoverHelp' => {
     'lastUpdated' => '1228751456',
-    'message' => 'W&auml;hlen Sie die Hauptvorlage, um ein Profil anzuzeigen'
+    'message' => 'Wählen Sie die Hauptvorlage, um ein Profil anzuzeigen'
   },
   'profile view template label' => {
     'lastUpdated' => '1233942555',
@@ -95,11 +95,11 @@ our $I18N = {
   },
   'public label' => {
     'lastUpdated' => '1228751140',
-    'message' => '&Ouml;ffentlich'
+    'message' => 'Öffentlich'
   },
   'public profile' => {
     'lastUpdated' => '1228751129',
-    'message' => 'Ihr Profil ist &ouml;ffentlich'
+    'message' => 'Ihr Profil ist öffentlich'
   },
   'required field' => {
     'lastUpdated' => '1228751117',
@@ -131,7 +131,7 @@ our $I18N = {
   },
   'visitor profile restricted' => {
     'lastUpdated' => '1228751427',
-    'message' => 'Das Benutzerprofil ist eingeschr&auml;nkt sichtbar.'
+    'message' => 'Das Benutzerprofil ist eingeschränkt sichtbar.'
   }
 }
 ;

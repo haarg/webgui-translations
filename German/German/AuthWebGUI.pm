@@ -15,7 +15,7 @@ our $I18N = {
   },
   12 => {
     'lastUpdated' => '1153201591',
-    'message' => 'Sie d&uuml;rfen das alte nicht als das neue Passwort verwenden<br />'
+    'message' => 'Sie dürfen das alte nicht als das neue Passwort verwenden<br />'
   },
   13 => {
     'lastUpdated' => '1178700870',
@@ -23,11 +23,11 @@ our $I18N = {
   },
   14 => {
     'lastUpdated' => '1178700879',
-    'message' => 'Minimale Passwortl&auml;nge'
+    'message' => 'Minimale Passwortlänge'
   },
   15 => {
     'lastUpdated' => '1178700886',
-    'message' => 'Minimale Passwortl&auml;nge'
+    'message' => 'Minimale Passwortlänge'
   },
   '15 help' => {
     'lastUpdated' => '1227567188',
@@ -39,7 +39,7 @@ our $I18N = {
   },
   '16 help' => {
     'lastUpdated' => '1227567284',
-    'message' => 'Der Passwort-Timeout legt die G&uuml;ltigkeitsdauer f&uuml;r ein Passwort fest. Nach Ablauf wird der benutzer aufgefordert ein neues Passwort einzugeben.'
+    'message' => 'Der Passwort-Timeout legt die Gültigkeitsdauer f&uuml;r ein Passwort fest. Nach Ablauf wird der benutzer aufgefordert ein neues Passwort einzugeben.'
   },
   17 => {
     'lastUpdated' => '1178700900',
@@ -47,31 +47,31 @@ our $I18N = {
   },
   18 => {
     'lastUpdated' => '1153201669',
-    'message' => 'Benutzern erm&ouml;glichen, das Passwort zu &auml;ndern?<br />'
+    'message' => 'Benutzern ermöglichen, das Passwort zu ändern?<br />'
   },
   '18 help' => {
     'lastUpdated' => '1227567405',
-    'message' => 'D&uuml;rfen Benutzer Ihr Passwort &auml;ndern? Achtung: dieses zusammen mit Passwort-Timeouts zu benutzen kann viel Adminsitrationsarbeit erforderlich machen. '
+    'message' => 'Dürfen Benutzer Ihr Passwort ändern? Achtung: dieses zusammen mit Passwort-Timeouts zu benutzen kann viel Adminsitrationsarbeit erforderlich machen. '
   },
   19 => {
     'lastUpdated' => '1153201689',
-    'message' => 'Benutzern erlauben, ihren Benutzernamen zu &auml;ndern?<br />'
+    'message' => 'Benutzern erlauben, ihren Benutzernamen zu ändern?<br />'
   },
   '19 help' => {
     'lastUpdated' => '1227567459',
-    'message' => 'D&uuml;rfen Benutzer die Benutzerkennung &auml;ndern?'
+    'message' => 'Dürfen Benutzer die Benutzerkennung ändern?'
   },
   2 => {
     'lastUpdated' => '1178700910',
-    'message' => 'Passwort (Best&auml;tigung)'
+    'message' => 'Passwort (Bestätigung)'
   },
   20 => {
     'lastUpdated' => '1153201715',
-    'message' => 'Benutzern erlauben, das Passwort zu &auml;ndern?<br />'
+    'message' => 'Benutzern erlauben, das Passwort zu ändern?<br />'
   },
   21 => {
     'lastUpdated' => '1153201737',
-    'message' => 'Benutzern erlauben, ihren Benutzernamen zu &auml;ndern?<br />'
+    'message' => 'Benutzern erlauben, ihren Benutzernamen zu ändern?<br />'
   },
   22 => {
     'lastUpdated' => '1178700918',
@@ -95,7 +95,7 @@ our $I18N = {
   },
   7 => {
     'lastUpdated' => '1153201835',
-    'message' => 'Passw&ouml;rter m&uuml;ssen eine Mindestl&auml;nge haben von <br />'
+    'message' => 'Passwörter müssen eine Mindestlänge haben von <br />'
   },
   8 => {
     'lastUpdated' => '1153201846',
@@ -103,11 +103,11 @@ our $I18N = {
   },
   9 => {
     'lastUpdated' => '1153201873',
-    'message' => 'Passw&ouml;rter sollen bei der Erstellung eines Benutzers ablaufen?<br />'
+    'message' => 'Passwörter sollen bei der Erstellung eines Benutzers ablaufen?<br />'
   },
   '9 help' => {
     'lastUpdated' => '1227567532',
-    'message' => 'Diese Angabe macht das Passwort sofort nach der Kontenerstellung ung&uuml;ltig.'
+    'message' => 'Diese Angabe macht das Passwort sofort nach der Kontenerstellung ungültig.'
   },
   'account template' => {
     'lastUpdated' => '1178700944',
@@ -115,7 +115,7 @@ our $I18N = {
   },
   'account template help' => {
     'lastUpdated' => '1227567606',
-    'message' => 'W&auml;hlen Sie eine Vorlage f&uuml;r die Anzeige des Benutzerkontos'
+    'message' => 'Wählen Sie eine Vorlage für die Anzeige des Benutzerkontos'
   },
   'account.form.password' => {
     'lastUpdated' => '1178700964',
@@ -123,15 +123,15 @@ our $I18N = {
   },
   'account.form.password.label' => {
     'lastUpdated' => '1178700987',
-    'message' => 'Standard Text f&uuml;r Passwort Formular Feld.'
+    'message' => 'Standard Text für Passwort Formular Feld.'
   },
   'account.form.passwordConfirm' => {
     'lastUpdated' => '1178701017',
-    'message' => 'Standard Passwortbest&auml;tigung Formular Feld.'
+    'message' => 'Standard Passwortbestätigung Formular Feld.'
   },
   'account.form.passwordConfirm.label' => {
     'lastUpdated' => '1178701049',
-    'message' => 'Standard Text f&uuml;r Passwortbest&auml;tigung Formular Feld.'
+    'message' => 'Standard Text für Passwortbestätigung Formular Feld.'
   },
   'account.form.username' => {
     'lastUpdated' => '1178701068',
@@ -139,11 +139,11 @@ our $I18N = {
   },
   'account.form.username.label' => {
     'lastUpdated' => '1178701092',
-    'message' => 'Standard Text f&uuml;r Benutzername Formular Feld.'
+    'message' => 'Standard Text für Benutzername Formular Feld.'
   },
   'account.message' => {
     'lastUpdated' => '1178701138',
-    'message' => 'Irgendeine Nachricht, die vom System zur&uuml;ckgegeben wird. Wird normalerweise dargestellt, nachdem das Formular abgeschickt wurde.'
+    'message' => 'Irgendeine Nachricht, die vom System zurückgegeben wird. Wird normalerweise dargestellt, nachdem das Formular abgeschickt wurde.'
   },
   'account.nofields' => {
     'lastUpdated' => '1178701177',
@@ -163,7 +163,7 @@ our $I18N = {
   },
   'captcha failure' => {
     'lastUpdated' => '1178701649',
-    'message' => 'Sie m&uuml;ssen alle 6 Zeichen eingeben, die auf dem Bild dargestellt sind.'
+    'message' => 'Sie müssen alle 6 Zeichen eingeben, die auf dem Bild dargestellt sind.'
   },
   'captcha label' => {
     'lastUpdated' => '1217147191',
@@ -179,11 +179,11 @@ our $I18N = {
   },
   'create account template help' => {
     'lastUpdated' => '1227567665',
-    'message' => 'W&auml;hlen Sie eine Vorlage f&uuml;r den Bildschirm zur Anlage eines Benutzerkontos.'
+    'message' => 'Wählen Sie eine Vorlage für den Bildschirm zur Anlage eines Benutzerkontos.'
   },
   'create.form.hidden' => {
     'lastUpdated' => '1178701884',
-    'message' => 'Versteckte Formular Felder; Voraussetzung f&uuml; das Abschicken des Formulars.'
+    'message' => 'Versteckte Formular Felder; Voraussetzung fü das Abschicken des Formulars.'
   },
   'create.form.oldPassword' => {
     'lastUpdated' => '1178701912',
@@ -199,15 +199,15 @@ our $I18N = {
   },
   'create.form.password.label' => {
     'lastUpdated' => '1178702972',
-    'message' => 'Standard Text f&uuml;r Passwort Formular Feld.'
+    'message' => 'Standard Text für Passwort Formular Feld.'
   },
   'create.form.passwordConfirm' => {
     'lastUpdated' => '1178703002',
-    'message' => 'Standard Passwortbest&auml;tigung Formular Feld.'
+    'message' => 'Standard Passwortbestätigung Formular Feld.'
   },
   'create.form.passwordConfirm.label' => {
     'lastUpdated' => '1178703044',
-    'message' => 'Standard Text f&uuml;r Passwortbest&auml;tigung Formular Feld.'
+    'message' => 'Standard Text für Passwortbestätigung Formular Feld.'
   },
   'create.form.username' => {
     'lastUpdated' => '1178703096',
@@ -215,19 +215,19 @@ our $I18N = {
   },
   'create.form.username.label' => {
     'lastUpdated' => '1178703114',
-    'message' => 'Standard Text f&uuml;r Benutzername Formular Feld.'
+    'message' => 'Standard Text für Benutzername Formular Feld.'
   },
   'create.message' => {
     'lastUpdated' => '1178703233',
-    'message' => 'Irgendeine Nachricht, die vom System zur&uuml;ckgeliefert wird. Normalerweise dargestellt nachdem Formular abgeschickt wurde.'
+    'message' => 'Irgendeine Nachricht, die vom System zurückgeliefert wird. Normalerweise dargestellt nachdem Formular abgeschickt wurde.'
   },
   'createAccount.label' => {
     'lastUpdated' => '1178703267',
-    'message' => 'Standard Label f&uuml;r Link zur anonymen Registrierung.'
+    'message' => 'Standard Label für Link zur anonymen Registrierung.'
   },
   'createAccount.url' => {
     'lastUpdated' => '1178703296',
-    'message' => 'URL der Seite f&uuml;r anonyme Registrierung'
+    'message' => 'URL der Seite für anonyme Registrierung'
   },
   'deactivate account template title' => {
     'lastUpdated' => '1178703367',
@@ -255,7 +255,7 @@ our $I18N = {
   },
   'email recover password finish message' => {
     'lastUpdated' => '1227567721',
-    'message' => 'Eine Email mit einer Anleitung zur &Auml;nderung des Passwort wurde verschickt.'
+    'message' => 'Eine Email mit einer Anleitung zur Änderung des Passwort wurde verschickt.'
   },
   'email recover password finish message1' => {
     'lastUpdated' => '1192977827',
@@ -284,11 +284,11 @@ Sie können sich jetzt mit Ihrer Kennung und Ihrem Passwort anmelden.'
   },
   'error password requiredMixedCase' => {
     'lastUpdated' => '1200441341',
-    'message' => 'Das Passwort muss mindestens %s Gro&szlig;buchstaben und mindestens einen Kleinbuchstaben enthalten.'
+    'message' => 'Das Passwort muss mindestens %s Großbuchstaben und mindestens einen Kleinbuchstaben enthalten.'
   },
   'error passwordRecoveryType no profile fields required' => {
     'lastUpdated' => '1228690885',
-    'message' => 'Passwort-Wiederherstellung bei WegGUI-Authentifizierung mittels Profil-Feldern kann nicht aktiviert werden: Es sind keine Benutzer-Profilfelder zur Passwortwiederherstellung n&ouml;tig.'
+    'message' => 'Passwort-Wiederherstellung bei WegGUI-Authentifizierung mittels Profil-Feldern kann nicht aktiviert werden: Es sind keine Benutzer-Profilfelder zur Passwortwiederherstellung nötig.'
   },
   'expired password template' => {
     'lastUpdated' => '1178703499',
@@ -296,7 +296,7 @@ Sie können sich jetzt mit Ihrer Kennung und Ihrem Passwort anmelden.'
   },
   'expired password template help' => {
     'lastUpdated' => '1228690992',
-    'message' => 'W&auml;hlen Sie die Vorlage f&uuml;r die Seite aus, die dem Benutzer angezeigt wird, auf der er ein neues Passwort eingeben kann, wenn das bisherige abgelaufen ist.'
+    'message' => 'Wählen Sie die Vorlage für die Seite aus, die dem Benutzer angezeigt wird, auf der er ein neues Passwort eingeben kann, wenn das bisherige abgelaufen ist.'
   },
   'expired template title' => {
     'lastUpdated' => '1178703559',
@@ -304,15 +304,15 @@ Sie können sich jetzt mit Ihrer Kennung und Ihrem Passwort anmelden.'
   },
   'expired.form.footer' => {
     'lastUpdated' => '1178703680',
-    'message' => 'Die ben&ouml;tigten Formular Elemente, die nach dem Passwort Ablauf Formular kommen.'
+    'message' => 'Die benötigten Formular Elemente, die nach dem Passwort Ablauf Formular kommen.'
   },
   'expired.form.header' => {
     'lastUpdated' => '1178703722',
-    'message' => 'Die ben&ouml;tigten Formular Elemente, die am Anfang der Passwort Ablauf Seite stehen.'
+    'message' => 'Die benötigten Formular Elemente, die am Anfang der Passwort Ablauf Seite stehen.'
   },
   'expired.form.hidden' => {
     'lastUpdated' => '1178703773',
-    'message' => 'Versteckte Formular Felder die f&uuml;r das Abschicken des Formulars ben&ouml;tigt werden.'
+    'message' => 'Versteckte Formular Felder die für das Abschicken des Formulars benötigt werden.'
   },
   'expired.form.password' => {
     'lastUpdated' => '1178703787',
@@ -320,23 +320,23 @@ Sie können sich jetzt mit Ihrer Kennung und Ihrem Passwort anmelden.'
   },
   'expired.form.password.label' => {
     'lastUpdated' => '1178703811',
-    'message' => 'Standard Text f&uuml;r das Passwort Formular Feld.'
+    'message' => 'Standard Text für das Passwort Formular Feld.'
   },
   'expired.form.passwordConfirm' => {
     'lastUpdated' => '1178703833',
-    'message' => 'Standard Passwortbest&auml;tigung Formular Feld.'
+    'message' => 'Standard Passwortbestätigung Formular Feld.'
   },
   'expired.form.passwordConfirm.label' => {
     'lastUpdated' => '1178703863',
-    'message' => 'Standard Text f&uuml;r Passwortbest&auml;tigung Formular Feld'
+    'message' => 'Standard Text für Passwortbestätigung Formular Feld'
   },
   'expired.form.submit' => {
     'lastUpdated' => '1178703907',
-    'message' => 'Die Standard Submit Schaltfl&auml;che f&uuml;r das Passwort Ablauf Formular.'
+    'message' => 'Die Standard Submit Schaltfläche für das Passwort Ablauf Formular.'
   },
   'expired.message' => {
     'lastUpdated' => '1178703947',
-    'message' => 'Irgendeine Nachricht, die vom System zur&uuml;ckgeliefert wird. Normalerweise dargestellt nachdem Formular abgeschickt wurde.'
+    'message' => 'Irgendeine Nachricht, die vom System zurückgeliefert wird. Normalerweise dargestellt nachdem Formular abgeschickt wurde.'
   },
   'login template' => {
     'lastUpdated' => '1178703958',
@@ -344,7 +344,7 @@ Sie können sich jetzt mit Ihrer Kennung und Ihrem Passwort anmelden.'
   },
   'login template help' => {
     'lastUpdated' => '1228690696',
-    'message' => 'W&auml;hlen Sie eine Vorlage f&uuml;r die Seite aus, auf der der Benutzer sich einloggen kann. Diese ist unterschiedlich zu allen Makros, die dem Benutzer ebenfalls Log-In-Formulare anzeigen.'
+    'message' => 'Wählen Sie eine Vorlage für die Seite aus, auf der der Benutzer sich einloggen kann. Diese ist unterschiedlich zu allen Makros, die dem Benutzer ebenfalls Log-In-Formulare anzeigen.'
   },
   'login template title' => {
     'lastUpdated' => '1178704015',
@@ -356,15 +356,15 @@ Sie können sich jetzt mit Ihrer Kennung und Ihrem Passwort anmelden.'
   },
   'login.form.email.label' => {
     'lastUpdated' => '1178704050',
-    'message' => 'Standard Text f&uuml;r Email Formular Feld'
+    'message' => 'Standard Text für Email Formular Feld'
   },
   'login.label' => {
     'lastUpdated' => '1178704071',
-    'message' => 'Standard Text Label f&uuml;r Link zur Login Seite.'
+    'message' => 'Standard Text Label für Link zur Login Seite.'
   },
   'login.message' => {
     'lastUpdated' => '1178704087',
-    'message' => 'Irgendeine Nachricht, die vom System zur&uuml;ckgeliefert wird. Normalerweise dargestellt nachdem Formular abgeschickt wurde.'
+    'message' => 'Irgendeine Nachricht, die vom System zurückgeliefert wird. Normalerweise dargestellt nachdem Formular abgeschickt wurde.'
   },
   'login.url' => {
     'lastUpdated' => '1178704098',
@@ -380,23 +380,23 @@ Sie können sich jetzt mit Ihrer Kennung und Ihrem Passwort anmelden.'
   },
   'new password verify' => {
     'lastUpdated' => '1200441392',
-    'message' => 'Neues Passwort best&auml;tigen'
+    'message' => 'Neues Passwort bestätigen'
   },
   'new password verify help' => {
     'lastUpdated' => '1200441416',
-    'message' => 'Passwort erneut zur Best&auml;tigung eingeben'
+    'message' => 'Passwort erneut zur Bestätigung eingeben'
   },
   'no email address' => {
     'lastUpdated' => '1229992309',
-    'message' => 'F&uuml;r diesen Accout ist keine E-Mail-Adresse angegeben. Die Funktion &quot;Passwort-Wiederherstellung per E-Mail&quot; ist nicht m&ouml;glich.'
+    'message' => 'Für diesen Accout ist keine E-Mail-Adresse angegeben. Die Funktion &quot;Passwort-Wiederherstellung per E-Mail&quot; ist nicht möglich.'
   },
   'no registration hack' => {
     'lastUpdated' => '1178704168',
-    'message' => 'schlie&szlig;e anonyme Registrierung durch Aufruf von createAccountSave direkt durch die URL ab'
+    'message' => 'schließe anonyme Registrierung durch Aufruf von createAccountSave direkt durch die URL ab'
   },
   'password recovery disabled' => {
     'lastUpdated' => '1228690596',
-    'message' => 'Ihr Account wurde gesperrt. Sie k&ouml;nnen kein neues Passwort anfordern, bis Ihr Accout wieder aktiviert wurde.'
+    'message' => 'Ihr Account wurde gesperrt. Sie können kein neues Passwort anfordern, bis Ihr Accout wieder aktiviert wurde.'
   },
   'password recovery email hoverHelp' => {
     'lastUpdated' => '1200441452',
@@ -416,7 +416,7 @@ Sie können sich jetzt mit Ihrer Kennung und Ihrem Passwort anmelden.'
   },
   'password recovery multiple results' => {
     'lastUpdated' => '1178704234',
-    'message' => 'Sorry, Sie k&ouml;nnen keine Passwortwiederherstellung f&uuml;r diesen Account durchf&uuml;hren. Bitte kontaktieren Sie einen Administrator. '
+    'message' => 'Sorry, Sie können keine Passwortwiederherstellung für diesen Account durchf&uuml;hren. Bitte kontaktieren Sie einen Administrator. '
   },
   'password recovery no results' => {
     'lastUpdated' => '1178704293',
@@ -432,7 +432,7 @@ Sie können sich jetzt mit Ihrer Kennung und Ihrem Passwort anmelden.'
   },
   'password recovery template help' => {
     'lastUpdated' => '1228691003',
-    'message' => 'W&auml;hlen Sie die Vorlage f&uuml;r die Seite aus, die dem Benutzer angezeigt wird, auf der er ein verlorendes Passwort wiederherstellen kann.'
+    'message' => 'Wählen Sie die Vorlage für die Seite aus, die dem Benutzer angezeigt wird, auf der er ein verlorendes Passwort wiederherstellen kann.'
   },
   'recover password banner' => {
     'lastUpdated' => '1225317250',
@@ -440,11 +440,11 @@ Sie können sich jetzt mit Ihrer Kennung und Ihrem Passwort anmelden.'
   },
   'recover password email text1' => {
     'lastUpdated' => '1225317402',
-    'message' => 'Wir erhielten Ihren Antrag zur &Auml;nderung des Passworts von &nbsp; '
+    'message' => 'Wir erhielten Ihren Antrag zur Änderung des Passworts von &nbsp; '
   },
   'recover password email text2' => {
     'lastUpdated' => '1225317578',
-    'message' => 'Bitte benutzen Sie den angegebenen Link um Ihr Passwort zu &auml;ndern.'
+    'message' => 'Bitte benutzen Sie den angegebenen Link um Ihr Passwort zu ändern.'
   },
   'recover password email text3' => {
     'lastUpdated' => '1228691066',
@@ -456,31 +456,31 @@ Sie können sich jetzt mit Ihrer Kennung und Ihrem Passwort anmelden.'
   },
   'recover.form.footer' => {
     'lastUpdated' => '1178704372',
-    'message' => 'Die ben&ouml;tigten Formular Elemente, die nach dem Passwortwiederherstellung Formular kommen.'
+    'message' => 'Die benötigten Formular Elemente, die nach dem Passwortwiederherstellung Formular kommen.'
   },
   'recover.form.header' => {
     'lastUpdated' => '1178704403',
-    'message' => 'Die ben&ouml;tigten Formular Elemente, die am Anfang der Passwortwiederherstellung Seite stehen.'
+    'message' => 'Die benötigten Formular Elemente, die am Anfang der Passwortwiederherstellung Seite stehen.'
   },
   'recover.form.hidden' => {
     'lastUpdated' => '1178704428',
-    'message' => 'Versteckte Formular Felder die f&uuml;r das Abschicken des Formulars ben&ouml;tigt werden.'
+    'message' => 'Versteckte Formular Felder die für das Abschicken des Formulars benötigt werden.'
   },
   'recover.form.submit' => {
     'lastUpdated' => '1178704472',
-    'message' => 'Standard Submit Schaltfl&auml;che f&uuml;r das Passwortwiederherstellung Formular.'
+    'message' => 'Standard Submit Schaltfläche für das Passwortwiederherstellung Formular.'
   },
   'recover.message' => {
     'lastUpdated' => '1178704487',
-    'message' => 'Irgendeine Nachricht, die vom System zur&uuml;ckgeliefert wird. Normalerweise dargestellt nachdem Formular abgeschickt wurde.'
+    'message' => 'Irgendeine Nachricht, die vom System zurückgeliefert wird. Normalerweise dargestellt nachdem Formular abgeschickt wurde.'
   },
   'recoverFormProfile' => {
     'lastUpdated' => '1178704526',
-    'message' => 'Iteriere &uuml;ber die Profilfelder, die f&uuml;r Passwortwiederherstellung n&ouml;tig sind.'
+    'message' => 'Iteriere über die Profilfelder, die f&uuml;r Passwortwiederherstellung nötig sind.'
   },
   'recoverFormProfile formElement' => {
     'lastUpdated' => '1178704566',
-    'message' => 'Ein Formular Element f&uuml;r das Profil Feld.'
+    'message' => 'Ein Formular Element für das Profil Feld.'
   },
   'recoverFormProfile id' => {
     'lastUpdated' => '1178704600',
@@ -488,15 +488,15 @@ Sie können sich jetzt mit Ihrer Kennung und Ihrem Passwort anmelden.'
   },
   'recoverFormProfile label' => {
     'lastUpdated' => '1178704616',
-    'message' => 'Das Label f&uuml;r das Profilfeld.'
+    'message' => 'Das Label für das Profilfeld.'
   },
   'recoverFormUsername' => {
     'lastUpdated' => '1178704648',
-    'message' => 'Benutzername Formular Feld f&uuml;r die Passwortwiederherstellung.'
+    'message' => 'Benutzername Formular Feld für die Passwortwiederherstellung.'
   },
   'recoverFormUsernameLabel' => {
     'lastUpdated' => '1178704676',
-    'message' => 'Label f&uuml;r das Benutzername Formular Feld f&uuml;r die Passwortwiederherstellung.'
+    'message' => 'Label für das Benutzername Formular Feld f&uuml;r die Passwortwiederherstellung.'
   },
   'recoverPassword.isAllowed' => {
     'lastUpdated' => '1178704707',
@@ -504,7 +504,7 @@ Sie können sich jetzt mit Ihrer Kennung und Ihrem Passwort anmelden.'
   },
   'recoverPassword.label' => {
     'lastUpdated' => '1178704729',
-    'message' => 'Standard Label f&uuml;r den Link zur Passwortwiederherstellung.'
+    'message' => 'Standard Label für den Link zur Passwortwiederherstellung.'
   },
   'recoverPassword.url' => {
     'lastUpdated' => '1178704750',
@@ -516,7 +516,7 @@ Sie können sich jetzt mit Ihrer Kennung und Ihrem Passwort anmelden.'
   },
   'require username for password recovery' => {
     'lastUpdated' => '1178704825',
-    'message' => 'Ist Benutzername f&uuml;r Passwortwiederherstellung erforderlich?'
+    'message' => 'Ist Benutzername für Passwortwiederherstellung erforderlich?'
   },
   'setting passwordRecoveryType email' => {
     'lastUpdated' => '1228691104',
@@ -548,15 +548,15 @@ Sie können sich jetzt mit Ihrer Kennung und Ihrem Passwort anmelden.'
   },
   'setting webguiRequiredMixedCase' => {
     'lastUpdated' => '1228691290',
-    'message' => 'Anzahl der Gro&szlig;buchsteben in einem Benutzerpasswort.'
+    'message' => 'Anzahl der Großbuchsteben in einem Benutzerpasswort.'
   },
   'setting webguiRequiredMixedCase help' => {
     'lastUpdated' => '1228691341',
-    'message' => 'Diese Einstellung erfodert das Vorkommen von Gro&szlig;buchstaben in einem Benutzerpasswort. Dadurch sind noch keine Kleinbuchstaben verpflichtend.'
+    'message' => 'Diese Einstellung erfodert das Vorkommen von Großbuchstaben in einem Benutzerpasswort. Dadurch sind noch keine Kleinbuchstaben verpflichtend.'
   },
   'subtitle' => {
     'lastUpdated' => '1228690528',
-    'message' => 'Besondere Anweisungen f&uuml;r das Formular. Muss nicht bei allen Arten der Passwort-Wiederherstellungs-Vorlagen definiert sein. '
+    'message' => 'Besondere Anweisungen für das Formular. Muss nicht bei allen Arten der Passwort-Wiederherstellungs-Vorlagen definiert sein. '
   },
   'title' => {
     'lastUpdated' => '1178704838',
@@ -576,7 +576,7 @@ Sie können sich jetzt mit Ihrer Kennung und Ihrem Passwort anmelden.'
   },
   'use captcha help' => {
     'lastUpdated' => '1227567820',
-    'message' => 'Wenn aktiviert, muss ein Besucher zur Anlage eines Benutzerkontos ein Captcha-Feld ausf&uuml;llen. '
+    'message' => 'Wenn aktiviert, muss ein Besucher zur Anlage eines Benutzerkontos ein Captcha-Feld ausfüllen. '
   },
   'validate email' => {
     'lastUpdated' => '1178704875',
@@ -584,15 +584,15 @@ Sie können sich jetzt mit Ihrer Kennung und Ihrem Passwort anmelden.'
   },
   'validate email help' => {
     'lastUpdated' => '1228691581',
-    'message' => '<p>Soll WebGUI eine extra E-Mail mit Link zur Account-Aktivierung an diese Person senden, unabh&auml;ngig von der Willkommens-E-Mail? Der Benutzeraccount wird nicht aktiviert bevor dieser Link nicht besucht wurde. Nicht best&auml;tigte Accounts verfallen nach einer einstellbaren Zeit. Diese Verfallszeit wird in einem Workflow festgelegt.</p>'
+    'message' => '<p>Soll WebGUI eine extra E-Mail mit Link zur Account-Aktivierung an diese Person senden, unabhängig von der Willkommens-E-Mail? Der Benutzeraccount wird nicht aktiviert bevor dieser Link nicht besucht wurde. Nicht best&auml;tigte Accounts verfallen nach einer einstellbaren Zeit. Diese Verfallszeit wird in einem Workflow festgelegt.</p>'
   },
   'webguiPasswordRecovery hoverHelp' => {
     'lastUpdated' => '1225317031',
-    'message' => '<p>W&auml;hlen Sie &quot;Ja&quot;, um Benutzern, die eine bestimmte Kombination ihrer Profil Felder kennen, die Passwortwiederherstellung zu erlauben. Voraussetzung ist, dass mindestens ein Profil Feld das Flag &quot;Voraussetzung f&uuml;r Passwortwiederhestellung&quot; gesetzt hat. Es wird empfohlen, mehrere Felder zu w&auml;hlen, weil die Passwortwiederherstellung mit nur einem Feld sehr unsicher ist. Bedenken Sie, dass jemand, der alle dieser Felder eines Benutzers kennt, dessen Passwort zur&uuml;cksetzen kann. </p>'
+    'message' => '<p>Wählen Sie &quot;Ja&quot;, um Benutzern, die eine bestimmte Kombination ihrer Profil Felder kennen, die Passwortwiederherstellung zu erlauben. Voraussetzung ist, dass mindestens ein Profil Feld das Flag &quot;Voraussetzung für Passwortwiederhestellung&quot; gesetzt hat. Es wird empfohlen, mehrere Felder zu w&auml;hlen, weil die Passwortwiederherstellung mit nur einem Feld sehr unsicher ist. Bedenken Sie, dass jemand, der alle dieser Felder eines Benutzers kennt, dessen Passwort zur&uuml;cksetzen kann. </p>'
   },
   'webguiPasswordRecoveryRequireUsername hoverHelp' => {
     'lastUpdated' => '1178707164',
-    'message' => '<p>W&auml;hlen Sie hier &quot;Ja&quot;, wenn Sie wollen, dass die Benutzer ihre Benutzername f&uuml;r die Passwortwiederherstellung eingeben m&uuml;ssen. Andernfalls k&ouml;nnen Benutzer ihr Passwort zur&uuml;cksetzen bzw. sich im System anmelden, falls Sie nur die anderen Profil Felder kennen, die f&uuml;r die&nbsp; Passwortwiederherstellung wichtig sind. Auch wenn die Benutzern ihren Benuzternamen vergesssen haben. </p>'
+    'message' => '<p>Wählen Sie hier &quot;Ja&quot;, wenn Sie wollen, dass die Benutzer ihre Benutzername für die Passwortwiederherstellung eingeben m&uuml;ssen. Andernfalls können Benutzer ihr Passwort zur&uuml;cksetzen bzw. sich im System anmelden, falls Sie nur die anderen Profil Felder kennen, die f&uuml;r die&nbsp; Passwortwiederherstellung wichtig sind. Auch wenn die Benutzern ihren Benuzternamen vergesssen haben. </p>'
   }
 }
 ;

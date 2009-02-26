@@ -7,7 +7,7 @@ our $I18N = {
   },
   'Server Side Spell Checker' => {
     'lastUpdated' => 1215500479,
-    'message' => 'Serverseitige Rechtschreibpr&uuml;fung'
+    'message' => 'Serverseitige Rechtschreibprüfung'
   },
   'advhr' => {
     'lastUpdated' => 1215500555,
@@ -39,7 +39,7 @@ our $I18N = {
   },
   'button' => {
     'lastUpdated' => 1215500680,
-    'message' => 'Schaltfl&auml;che'
+    'message' => 'Schaltfläche'
   },
   'charmap' => {
     'lastUpdated' => 1215500693,
@@ -47,7 +47,7 @@ our $I18N = {
   },
   'cleanup' => {
     'lastUpdated' => 1215500708,
-    'message' => 'Code aufr&auml;umen'
+    'message' => 'Code aufräumen'
   },
   'code' => {
     'lastUpdated' => 1215500753,
@@ -67,7 +67,7 @@ our $I18N = {
   },
   'css file description' => {
     'lastUpdated' => 1215500852,
-    'message' => 'Gibt eine CSS Datei an, die f&uuml;r das Layout des Editorinhalts benutzt wird. Falls nicht angegeben, wird ein Standard CSS benutzt.'
+    'message' => 'Gibt eine CSS Datei an, die für das Layout des Editorinhalts benutzt wird. Falls nicht angegeben, wird ein Standard CSS benutzt.'
   },
   'cut' => {
     'lastUpdated' => 1215500863,
@@ -99,11 +99,11 @@ our $I18N = {
   },
   'editor height' => {
     'lastUpdated' => 1215501146,
-    'message' => 'H&ouml;he des Editors'
+    'message' => 'Höhe des Editors'
   },
   'editor height description' => {
     'lastUpdated' => 1215501274,
-    'message' => 'Die H&ouml;he des gesamten Editors, inklusive der Men&uuml;s, gemessen in Pixel.'
+    'message' => 'Die Höhe des gesamten Editors, inklusive der Menüs, gemessen in Pixel.'
   },
   'editor width' => {
     'lastUpdated' => 1215501285,
@@ -111,11 +111,11 @@ our $I18N = {
   },
   'editor width description' => {
     'lastUpdated' => 1215501298,
-    'message' => 'Die Breite des gesamten Editors, inklusive der Men&uuml;s, gemessen in Pixel.'
+    'message' => 'Die Breite des gesamten Editors, inklusive der Menüs, gemessen in Pixel.'
   },
   'elements' => {
     'lastUpdated' => 1215501312,
-    'message' => 'G&uuml;ltige Elemente'
+    'message' => 'Gültige Elemente'
   },
   'elements description' => {
     'lastUpdated' => 1215501378,
@@ -131,11 +131,11 @@ our $I18N = {
   },
   'enable context menu' => {
     'lastUpdated' => 1215501489,
-    'message' => 'Kontextmen&uuml; aktivieren'
+    'message' => 'Kontextmenü aktivieren'
   },
   'enable context menu description' => {
     'lastUpdated' => 1215501520,
-    'message' => 'F&uuml;gt das Kontextmen&uuml; zur Werkzeugleiste in Reihe 1 hinzu.'
+    'message' => 'Fügt das Kontextmen&uuml; zur Werkzeugleiste in Reihe 1 hinzu.'
   },
   'fontselect' => {
     'lastUpdated' => 1215501544,
@@ -143,7 +143,7 @@ our $I18N = {
   },
   'fontsizeselect' => {
     'lastUpdated' => 1215501556,
-    'message' => 'Schriftgr&ouml;&szlig;e'
+    'message' => 'Schriftgröße'
   },
   'forecolor' => {
     'lastUpdated' => 1211352279,
@@ -151,7 +151,7 @@ our $I18N = {
   },
   'formatselect' => {
     'lastUpdated' => 1211352295,
-    'message' => 'Format &uuml;bernehmen'
+    'message' => 'Format übernehmen'
   },
   'fullscreen' => {
     'lastUpdated' => 1215501648,
@@ -163,11 +163,11 @@ our $I18N = {
   },
   'hr' => {
     'lastUpdated' => 1215501662,
-    'message' => 'Horizontale Linie einf&uuml;gen'
+    'message' => 'Horizontale Linie einfügen'
   },
   'iespell' => {
     'lastUpdated' => 1215501695,
-    'message' => 'Rechtschreibpr&uuml;fung (nur IE)'
+    'message' => 'Rechtschreibprüfung (nur IE)'
   },
   'image' => {
     'lastUpdated' => 1215501703,
@@ -191,11 +191,11 @@ our $I18N = {
   },
   'insertdate' => {
     'lastUpdated' => 1215501818,
-    'message' => 'Einf&uuml;gedatum'
+    'message' => 'Einfügedatum'
   },
   'inserttime' => {
     'lastUpdated' => 1215501828,
-    'message' => 'Einf&uuml;gezeit'
+    'message' => 'Einfügezeit'
   },
   'italic' => {
     'lastUpdated' => 1215501843,
@@ -231,7 +231,7 @@ our $I18N = {
   },
   'no dictionaries' => {
     'lastUpdated' => 1215502411,
-    'message' => 'Es wurden keine W&ouml;rterb&uuml;cher konfiguriert. Die Rechtschreibpr&uuml;fung wird deshalb nicht aktiviert.'
+    'message' => 'Es wurden keine Wörterbücher konfiguriert. Die Rechtschreibpr&uuml;fung wird deshalb nicht aktiviert.'
   },
   'no wrap' => {
     'lastUpdated' => 1215502441,
@@ -239,7 +239,7 @@ our $I18N = {
   },
   'no wrap description' => {
     'lastUpdated' => 1215502480,
-    'message' => 'Verhindert das umbrechen von Text/W&ouml;rtern im Editor.'
+    'message' => 'Verhindert das umbrechen von Text/Wörtern im Editor.'
   },
   'numlist' => {
     'lastUpdated' => 1215502495,
@@ -247,7 +247,7 @@ our $I18N = {
   },
   'outdent' => {
     'lastUpdated' => 1215502555,
-    'message' => 'Ausr&uuml;cken'
+    'message' => 'Ausrücken'
   },
   'pagetree' => {
     'lastUpdated' => 1215502576,
@@ -255,15 +255,15 @@ our $I18N = {
   },
   'paste' => {
     'lastUpdated' => 1215502600,
-    'message' => 'Einf&uuml;gen'
+    'message' => 'Einfügen'
   },
   'pastetext' => {
     'lastUpdated' => 1215502615,
-    'message' => 'F&uuml;ge als reinen Text ein'
+    'message' => 'Füge als reinen Text ein'
   },
   'pasteword' => {
     'lastUpdated' => 1215502629,
-    'message' => 'F&uuml;ge aus Word ein'
+    'message' => 'Füge aus Word ein'
   },
   'preformatted' => {
     'lastUpdated' => 1215502706,
@@ -287,11 +287,11 @@ our $I18N = {
   },
   'remove line breaks' => {
     'lastUpdated' => 1215503492,
-    'message' => 'Zeilenumbr&uuml;che aus HTML entfernen?'
+    'message' => 'Zeilenumbrüche aus HTML entfernen?'
   },
   'remove line breaks description' => {
     'lastUpdated' => 1215503517,
-    'message' => 'Entfernt Zeilenumbr&uuml;che aus generiertem HTML.'
+    'message' => 'Entfernt Zeilenumbrüche aus generiertem HTML.'
   },
   'removeformat' => {
     'lastUpdated' => 1215503544,
@@ -323,7 +323,7 @@ our $I18N = {
   },
   'save' => {
     'lastUpdated' => 1215503664,
-    'message' => 'Speichern / &Uuml;bertragen'
+    'message' => 'Speichern / Übertragen'
   },
   'search' => {
     'lastUpdated' => 1215503674,
@@ -331,11 +331,11 @@ our $I18N = {
   },
   'source editor height' => {
     'lastUpdated' => 1215503691,
-    'message' => 'Quellcode Editor H&ouml;he'
+    'message' => 'Quellcode Editor Höhe'
   },
   'source editor height description' => {
     'lastUpdated' => 1215508149,
-    'message' => 'Die H&ouml;he des Bereichs des Rich Editors, in dem der Benutzer Quellcode eingeben kann, gemessen in Pixel.'
+    'message' => 'Die Höhe des Bereichs des Rich Editors, in dem der Benutzer Quellcode eingeben kann, gemessen in Pixel.'
   },
   'source editor width' => {
     'lastUpdated' => 1215503706,
@@ -363,15 +363,15 @@ our $I18N = {
   },
   'tablecontrols' => {
     'lastUpdated' => 1215508330,
-    'message' => 'Steuerelemente f&uuml;r Tabellen'
+    'message' => 'Steuerelemente für Tabellen'
   },
   'toolbar buttons' => {
     'lastUpdated' => 1215508355,
-    'message' => 'Schaltfl&auml;chen der Werkzeugleiste'
+    'message' => 'Schaltflächen der Werkzeugleiste'
   },
   'toolbar buttons description' => {
     'lastUpdated' => 1229992226,
-    'message' => '<p>Zeigt, welche Schaltfl&auml;chen der Werkzeugleiste in einer bestimmten Werkzeugleiste benutzt werden. Um eine Werkzeugleiste zu entfernen, deaktivieren Sie alle Schaltfl&auml;chen in der Werkzeugleistenspalte. Beachten Sie, dass andere Felder Schaltfl&auml;chen zu einer Werkzeugleiste hinzuf&uuml;gen k&ouml;nnen, wie z.B. &quot;Aktiviere das Kontextmen&uuml;&quot;. Hinzuf&uuml;gen von Schaltfl&auml;chen f&uuml;gt noch keine neuen Funktionen hinzu! Sie m&uuml;ssen ebenso die &quot;Valid Elements&quot; f&uuml;r diesen Editor aktualisieren.</p>'
+    'message' => '<p>Zeigt, welche Schaltflächen der Werkzeugleiste in einer bestimmten Werkzeugleiste benutzt werden. Um eine Werkzeugleiste zu entfernen, deaktivieren Sie alle Schaltfl&auml;chen in der Werkzeugleistenspalte. Beachten Sie, dass andere Felder Schaltfl&auml;chen zu einer Werkzeugleiste hinzufügen können, wie z.B. &quot;Aktiviere das Kontextmen&uuml;&quot;. Hinzuf&uuml;gen von Schaltfl&auml;chen f&uuml;gt noch keine neuen Funktionen hinzu! Sie m&uuml;ssen ebenso die &quot;Valid Elements&quot; f&uuml;r diesen Editor aktualisieren.</p>'
   },
   'toolbar location' => {
     'lastUpdated' => 1215508544,
@@ -399,7 +399,7 @@ our $I18N = {
   },
   'use br' => {
     'lastUpdated' => 1215508745,
-    'message' => 'Benutze &lt;br/&gt; anstatt &lt;p&gt;, falls &quot;Enter&quot; gedr&uuml;ckt wird?'
+    'message' => 'Benutze &lt;br/&gt; anstatt &lt;p&gt;, falls &quot;Enter&quot; gedrückt wird?'
   },
   'use br description' => {
     'lastUpdated' => 1215508786,
@@ -411,11 +411,11 @@ our $I18N = {
   },
   'using rich edit description' => {
     'lastUpdated' => 1215508894,
-    'message' => 'Frage den Benutzer, ob der Rich Editor f&uuml;r diese Eingabemaske benutzt werden soll (bei jedem Zugriff darauf).'
+    'message' => 'Frage den Benutzer, ob der Rich Editor für diese Eingabemaske benutzt werden soll (bei jedem Zugriff darauf).'
   },
   'visualaid' => {
     'lastUpdated' => 1215508975,
-    'message' => 'Umschalten auf Visuelle Hilfe f&uuml;r Tabellen'
+    'message' => 'Umschalten auf Visuelle Hilfe für Tabellen'
   }
 }
 ;

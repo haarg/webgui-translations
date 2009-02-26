@@ -14,12 +14,12 @@ our $I18N = {
 	},
 
 	'file template description' => {
-		message => q|<p>Mit dem Datei-Template legen Sie fest, welche Informationen &uuml;ber eine Datei angezeigt werden sollen, beispielsweise der Dateiname, die Gr&ouml;&szlig;e, ein Icon gem&auml;&szlig; Dateityp. Zus&auml;tzlich zu den unten stehenden Varibalen stehen im Dateiasset-Template auch alle Standard Asset-Template-Variablen zur Verf&uuml;gung.</p>|,
+		message => q|<p>Mit dem Datei-Template legen Sie fest, welche Informationen über eine Datei angezeigt werden sollen, beispielsweise der Dateiname, die Größe, ein Icon gemä&szlig; Dateityp. Zus&auml;tzlich zu den unten stehenden Varibalen stehen im Dateiasset-Template auch alle Standard Asset-Template-Variablen zur Verf&uuml;gung.</p>|,
 		lastUpdated => 1153683782
 	},
 
 	'menuTitle' => {
-		message => q|<p>Der Men&uuml;titel, der in der Navigation angezeigt wird. Es ist entweder der Titel, falls einer beim Upload angegeben wurde, andernfalls der Dateiname.</p>|,
+		message => q|<p>Der Menütitel, der in der Navigation angezeigt wird. Es ist entweder der Titel, falls einer beim Upload angegeben wurde, andernfalls der Dateiname.</p>|,
 		lastUpdated => 1153683910
 	},
 
@@ -34,7 +34,7 @@ our $I18N = {
 	},
 
 	'file add/edit title' => {
-		message => q|Datei, hinzuf&uuml;gen/bearbeiten<br />|,
+		message => q|Datei, hinzufügen/bearbeiten<br />|,
 		lastUpdated => 1153683554
 	},
 
@@ -54,7 +54,7 @@ our $I18N = {
 	},
 
 	'current file description' => {
-		message => q|<p>Wenn dieses Asset schon eine Datei enth&auml;lt wird ein Link mit dazugeh&ouml;rigem Icon zu dieser Datei angezeigt.</p>|,
+		message => q|<p>Wenn dieses Asset schon eine Datei enthält wird ein Link mit dazugehörigem Icon zu dieser Datei angezeigt.</p>|,
 		lastUpdated => 1153683272
 	},
 
@@ -64,7 +64,7 @@ our $I18N = {
 	},
 
 	'templateId' => {
-		message => q|Die ID des Templates, das f&uuml;r die Anzeige des Assets benutzt wird.|,
+		message => q|Die ID des Templates, das für die Anzeige des Assets benutzt wird.|,
 		lastUpdated => 1168851670
 	},
 
@@ -74,7 +74,7 @@ our $I18N = {
 	},
 
 	'new file description' => {
-		message => q|<p>Geben Sie den Pfad zu einer Datei ein oder benutzen Sie den AuswahlButton, um eine Datei auf ihrer lokalen Festplatte f&uuml;r den Upload auszuw&auml;hlen.</p>|,
+		message => q|<p>Geben Sie den Pfad zu einer Datei ein oder benutzen Sie den AuswahlButton, um eine Datei auf ihrer lokalen Festplatte für den Upload auszuwählen.</p>|,
 		lastUpdated => 1168863218
 	},
 
@@ -114,7 +114,7 @@ our $I18N = {
 	},
 
 	'filename var' => {
-		message => q|Der Name der Datei, die dieses Asset enth&auml;lt. Beinhaltet nicht den Pfad zu der Datei.<br />|,
+		message => q|Der Name der Datei, die dieses Asset enthält. Beinhaltet nicht den Pfad zu der Datei.<br />|,
 		lastUpdated => 1168851849
 	},
 

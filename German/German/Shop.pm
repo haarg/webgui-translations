@@ -3,7 +3,7 @@ use utf8;
 our $I18N = {
   'Backordered' => {
     'lastUpdated' => 1228748598,
-    'message' => 'Nicht vorr&auml;tig'
+    'message' => 'Nicht vorrätig'
   },
   'Cancelled' => {
     'lastUpdated' => 1228748625,
@@ -27,23 +27,23 @@ our $I18N = {
   },
   'add a new address' => {
     'lastUpdated' => 1228748699,
-    'message' => 'Eine neue Adresse hinzuf&uuml;gen'
+    'message' => 'Eine neue Adresse hinzufügen'
   },
   'add a vendor' => {
     'lastUpdated' => 1228748732,
-    'message' => 'Einen Anbieter hinzuf&uuml;gen'
+    'message' => 'Einen Anbieter hinzufügen'
   },
   'add credit message' => {
     'lastUpdated' => 1228749526,
-    'message' => '%s wurde dem %s Kredit-Accout hinzugef&uuml;gt mit einem Gesamtkreditbetrag von %s'
+    'message' => '%s wurde dem %s Kredit-Accout hinzugefügt mit einem Gesamtkreditbetrag von %s'
   },
   'add payment method' => {
     'lastUpdated' => 1228748766,
-    'message' => 'Eine Zahlungsart hinzuf&uuml;gen'
+    'message' => 'Eine Zahlungsart hinzufügen'
   },
   'add shipper' => {
     'lastUpdated' => 1228748793,
-    'message' => 'Eine Versandart hinzuf&uuml;gen'
+    'message' => 'Eine Versandart hinzufügen'
   },
   'add to cart' => {
     'lastUpdated' => 1228748807,
@@ -51,7 +51,7 @@ our $I18N = {
   },
   'addButton help' => {
     'lastUpdated' => 1228748835,
-    'message' => 'Ein Button, mit dem der Benutzer eine neue Adresse hinzuf&uuml;gen kann.'
+    'message' => 'Ein Button, mit dem der Benutzer eine neue Adresse hinzufügen kann.'
   },
   'address' => {
     'lastUpdated' => 1228748842,
@@ -71,15 +71,15 @@ our $I18N = {
   },
   'address labelField help' => {
     'lastUpdated' => 1228748973,
-    'message' => 'Ein Feld, das die Adressebezeichnung enth&auml;lt. Beispiele: Heimatanschrift oder Arbeit'
+    'message' => 'Ein Feld, das die Adressebezeichnung enthält. Beispiele: Heimatanschrift oder Arbeit'
   },
   'address loop help' => {
     'lastUpdated' => 1228749055,
-    'message' => 'Eine schleife, die die Liste der Adressen dieses Adressbuches und die Bearbeitungsm&ouml;glichkeiten enth&auml;lt'
+    'message' => 'Eine schleife, die die Liste der Adressen dieses Adressbuches und die Bearbeitungsmöglichkeiten enthält'
   },
   'address nameField help' => {
     'lastUpdated' => 1228749090,
-    'message' => 'Ein Feld, das den Namen der Person/Firma f&uuml;r diese Adresse enth&auml;lt.'
+    'message' => 'Ein Feld, das den Namen der Person/Firma für diese Adresse enthält.'
   },
   'address1 help' => {
     'lastUpdated' => 1228749103,
@@ -87,7 +87,7 @@ our $I18N = {
   },
   'address1Field help' => {
     'lastUpdated' => 1228749545,
-    'message' => 'Das Feld f&uuml;r die erste Adresszeile'
+    'message' => 'Das Feld für die erste Adresszeile'
   },
   'address2 help' => {
     'lastUpdated' => 1228749116,
@@ -95,7 +95,7 @@ our $I18N = {
   },
   'address2Field help' => {
     'lastUpdated' => 1228749558,
-    'message' => 'Das Feld f&uuml;r die zweite Adreszeile'
+    'message' => 'Das Feld für die zweite Adreszeile'
   },
   'address3 help' => {
     'lastUpdated' => 1228749127,
@@ -103,11 +103,11 @@ our $I18N = {
   },
   'address3Field help' => {
     'lastUpdated' => 1228749572,
-    'message' => 'Das Feld f&uuml;r die dritte Adresszeile'
+    'message' => 'Das Feld für die dritte Adresszeile'
   },
   'addresses loop help' => {
     'lastUpdated' => 1228749592,
-    'message' => 'Eine Schleife, die alle Adressen dieses Adressbuches enth&auml;lt'
+    'message' => 'Eine Schleife, die alle Adressen dieses Adressbuches enthält'
   },
   'amount' => {
     'lastUpdated' => 1228174754,
@@ -119,7 +119,7 @@ our $I18N = {
   },
   'available' => {
     'lastUpdated' => 1228749136,
-    'message' => 'Verf&uuml;gbar'
+    'message' => 'Verfügbar'
   },
   'biweekly' => {
     'lastUpdated' => 1228749149,
@@ -155,15 +155,15 @@ our $I18N = {
   },
   'choose payment gateway message' => {
     'lastUpdated' => 1228749841,
-    'message' => 'Wie m&ouml;chten Sie bezahlen?'
+    'message' => 'Wie möchten Sie bezahlen?'
   },
   'choose shipping button' => {
     'lastUpdated' => 1228749871,
-    'message' => 'W&auml;hlen Sie Adresse und Bezahlung.'
+    'message' => 'Wählen Sie Adresse und Bezahlung.'
   },
   'chooseShippingButton help' => {
     'lastUpdated' => 1228749909,
-    'message' => 'Anklicken dieses Buttons f&uuml;hrt den Benutzer zur Auswahl einer Versandadresse aus dem Adressbuch.'
+    'message' => 'Anklicken dieses Buttons führt den Benutzer zur Auswahl einer Versandadresse aus dem Adressbuch.'
   },
   'city' => {
     'lastUpdated' => 1228174762,
@@ -175,7 +175,7 @@ our $I18N = {
   },
   'cityField help' => {
     'lastUpdated' => 1228749947,
-    'message' => 'Ein Feld, das die Stadt der Adresse enth&auml;lt'
+    'message' => 'Ein Feld, das die Stadt der Adresse enthält'
   },
   'code' => {
     'lastUpdated' => 1228749956,
@@ -187,7 +187,7 @@ our $I18N = {
   },
   'codeField help' => {
     'lastUpdated' => 1228750069,
-    'message' => 'Ein Feld, das die Postleitzahl zu dieser Adresse enth&auml;lt'
+    'message' => 'Ein Feld, das die Postleitzahl zu dieser Adresse enthält'
   },
   'company url' => {
     'lastUpdated' => 1228750080,
@@ -247,11 +247,11 @@ our $I18N = {
   },
   'thank you message' => {
     'lastUpdated' => 1228750567,
-    'message' => 'Vielen Dank f&uuml;r Ihren Einkauf. Bitte speichern Sie diesen Beleg.'
+    'message' => 'Vielen Dank für Ihren Einkauf. Bitte speichern Sie diesen Beleg.'
   },
   'too many of this item' => {
     'lastUpdated' => 1228750598,
-    'message' => 'Sie k&ouml;nnen nicht so viele %s in ihren Warenkorb legen.'
+    'message' => 'Sie können nicht so viele %s in ihren Warenkorb legen.'
   },
   'total' => {
     'lastUpdated' => 1228750450,
@@ -275,11 +275,11 @@ our $I18N = {
   },
   'transactionCode' => {
     'lastUpdated' => 1228750735,
-    'message' => 'Der Transaktionscode oder die Transaktions-ID, die vom Bezahl-Gateway zugewiesen wurde. Wird nicht von allen Bezahlgateways unterst&uuml;tzt.'
+    'message' => 'Der Transaktionscode oder die Transaktions-ID, die vom Bezahl-Gateway zugewiesen wurde. Wird nicht von allen Bezahlgateways unterstützt.'
   },
   'transactionId' => {
     'lastUpdated' => 1228750438,
-    'message' => 'Der eindeutige Bezeichner f&uuml;r diese Transaktion'
+    'message' => 'Der eindeutige Bezeichner für diese Transaktion'
   },
   'transactions' => {
     'lastUpdated' => 1228750379,
@@ -295,7 +295,7 @@ our $I18N = {
   },
   'updateButton help' => {
     'lastUpdated' => 1228750278,
-    'message' => 'Anklicken dieses Buttons speichert Ihre &Auml;nderungen des Warenkorbes und kalkuliert die Preise neu.'
+    'message' => 'Anklicken dieses Buttons speichert Ihre Änderungen des Warenkorbes und kalkuliert die Preise neu.'
   },
   'use this address' => {
     'lastUpdated' => 1228750289,
@@ -303,11 +303,11 @@ our $I18N = {
   },
   'useButton help' => {
     'lastUpdated' => 1228750334,
-    'message' => 'Ein Button, mit dem der Benutzer eine existierende Adresse f&uuml;r die Verwandung in einem Formular ausw&auml;hlen kann.'
+    'message' => 'Ein Button, mit dem der Benutzer eine existierende Adresse für die Verwandung in einem Formular auswählen kann.'
   },
   'userId' => {
     'lastUpdated' => 1228750362,
-    'message' => 'Die Benutzer-ID des Benutzers, der diese Trransaktion ausgef&uuml;hrt hat.'
+    'message' => 'Die Benutzer-ID des Benutzers, der diese Trransaktion ausgeführt hat.'
   },
   'username' => {
     'lastUpdated' => 1228749285,
@@ -315,7 +315,7 @@ our $I18N = {
   },
   'username help' => {
     'lastUpdated' => 1228749320,
-    'message' => 'Der Name des BEnutzer, der diese Transaktion ausgef&uuml;hrt hat. Spart eine Benutzernamen-Suche.'
+    'message' => 'Der Name des BEnutzer, der diese Transaktion ausgeführt hat. Spart eine Benutzernamen-Suche.'
   },
   'vendors' => {
     'lastUpdated' => 1228749341,
@@ -327,19 +327,19 @@ our $I18N = {
   },
   'view my purchases template' => {
     'lastUpdated' => 1228750757,
-    'message' => 'Vorlage die meine Eink&auml;ufe anzeigt'
+    'message' => 'Vorlage die meine Einkäufe anzeigt'
   },
   'view my purchases template help' => {
     'lastUpdated' => 1228750801,
-    'message' => 'Diese Vorlage zeigt detaillierte Informationen &uuml;ber die Transaktionen des Benutzers an.'
+    'message' => 'Diese Vorlage zeigt detaillierte Informationen über die Transaktionen des Benutzers an.'
   },
   'viewDetailURL' => {
     'lastUpdated' => 1228750832,
-    'message' => 'Ein URL, um detailliertere Informatinoen &uuml;ber die Transaktionen des Benutzers anzuzeigen'
+    'message' => 'Ein URL, um detailliertere Informatinoen über die Transaktionen des Benutzers anzuzeigen'
   },
   'viewItemUrl' => {
     'lastUpdated' => 1228750877,
-    'message' => 'Ein URL um detailliertere Informationen &uuml;ber diesen Artikel dieser Transaktion anzuzeigen'
+    'message' => 'Ein URL um detailliertere Informationen über diesen Artikel dieser Transaktion anzuzeigen'
   },
   'weekly' => {
     'lastUpdated' => 1228749264,

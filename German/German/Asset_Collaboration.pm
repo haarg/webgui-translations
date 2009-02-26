@@ -15,31 +15,31 @@ our $I18N = {
   },
   'add' => {
     'lastUpdated' => '1157903572',
-    'message' => 'Hinzuf&uuml;gen'
+    'message' => 'Hinzufügen'
   },
   'add.label' => {
     'lastUpdated' => '1178626667',
-    'message' => 'Das Wort &quot;Hinzuf&uuml;gen&quot;'
+    'message' => 'Das Wort &quot;Hinzufügen&quot;'
   },
   'add.url' => {
     'lastUpdated' => '1179742713',
-    'message' => 'URL, um einen neuen Thread hinzuzuf&uuml;gen.'
+    'message' => 'URL, um einen neuen Thread hinzuzufügen.'
   },
   'addlink' => {
     'lastUpdated' => '1178626676',
-    'message' => 'Einen Link hinzuf&uuml;gen'
+    'message' => 'Einen Link hinzufügen'
   },
   'addlink.label' => {
     'lastUpdated' => '1157903648',
-    'message' => 'Der Ausdruck &quot;Einen Link hinzuf&uuml;gen&quot;.<br />'
+    'message' => 'Der Ausdruck &quot;Einen Link hinzufügen&quot;.<br />'
   },
   'addquestion' => {
     'lastUpdated' => '1178626686',
-    'message' => 'Eine Frage hinzuf&uuml;gen'
+    'message' => 'Eine Frage hinzufügen'
   },
   'addquestion.label' => {
     'lastUpdated' => '1157903672',
-    'message' => 'Der Ausdruck &quot;Eine Frage hinzuf&uuml;gen&quot;.<br />'
+    'message' => 'Der Ausdruck &quot;Eine Frage hinzufügen&quot;.<br />'
   },
   'allow replies' => {
     'lastUpdated' => '1168223728',
@@ -47,7 +47,7 @@ our $I18N = {
   },
   'allow replies description' => {
     'lastUpdated' => '1157903731',
-    'message' => 'W&auml;hlen Sie &quot;Nein&quot; aus, um Anworten zu diesem Beitrag zu unterbinden.<br />'
+    'message' => 'Wählen Sie &quot;Nein&quot; aus, um Anworten zu diesem Beitrag zu unterbinden.<br />'
   },
   'answer' => {
     'lastUpdated' => '1157903742',
@@ -63,7 +63,7 @@ our $I18N = {
   },
   'approval workflow description' => {
     'lastUpdated' => '1179742814',
-    'message' => 'W&auml;hlen Sie einen Workflow, der ausgef&uuml;hrt wird, falls ein neuer Post abgeschickt wird.'
+    'message' => 'Wählen Sie einen Workflow, der ausgeführt wird, falls ein neuer Post abgeschickt wird.'
   },
   'archive' => {
     'lastUpdated' => '1168864134',
@@ -83,7 +83,7 @@ our $I18N = {
   },
   'asset not committed' => {
     'lastUpdated' => '1224834997',
-    'message' => '<h1>Fehler!</h1><p>Sie m&uuml;ssen dieses Collaboration System committen, bevor Sie einen neuen Thread starten k&ouml;nnen.&nbsp;</p>'
+    'message' => '<h1>Fehler!</h1><p>Sie müssen dieses Collaboration System committen, bevor Sie einen neuen Thread starten können.&nbsp;</p>'
   },
   'assetName' => {
     'lastUpdated' => '1178626714',
@@ -99,7 +99,7 @@ our $I18N = {
   },
   'attachment.length' => {
     'lastUpdated' => '1178626722',
-    'message' => 'Gr&ouml;&szlig;e Anhang in Bytes.'
+    'message' => 'Größe Anhang in Bytes.'
   },
   'attachment.path' => {
     'lastUpdated' => '1178626729',
@@ -111,19 +111,19 @@ our $I18N = {
   },
   'attachmentLoop' => {
     'lastUpdated' => '1168864543',
-    'message' => 'Schleife, die alle Anh&auml;nge in diesem Beitrag enth&auml;lt.'
+    'message' => 'Schleife, die alle Anhänge in diesem Beitrag enth&auml;lt.'
   },
   'attachment_thumbnail' => {
     'lastUpdated' => '1179742921',
-    'message' => 'URL zum Thumbnail f&uuml;r diesen Anhang. Dateien werden je nach Dateityp durch ein Icon gekennzeichnet. Bilder haben ein echtes Thumbnail.'
+    'message' => 'URL zum Thumbnail für diesen Anhang. Dateien werden je nach Dateityp durch ein Icon gekennzeichnet. Bilder haben ein echtes Thumbnail.'
   },
   'attachments/post' => {
     'lastUpdated' => '1178626744',
-    'message' => 'Anh&auml;nge pro Beitrag.'
+    'message' => 'Anhänge pro Beitrag.'
   },
   'attachments/post description' => {
     'lastUpdated' => '1168864580',
-    'message' => 'Wie viele Anh&auml;nge d&uuml;rfen pro Beitrag hinzugef&uuml;gt werden?<br />'
+    'message' => 'Wie viele Anhänge dürfen pro Beitrag hinzugef&uuml;gt werden?<br />'
   },
   'author' => {
     'lastUpdated' => '1157903796',
@@ -135,15 +135,15 @@ our $I18N = {
   },
   'auto subscribe to thread help' => {
     'lastUpdated' => '1180075332',
-    'message' => 'Falls ein Benutzer weder einen Thread noch ein CS abonniert hat und dieser dann per Email postet, soll der den Thread dann automatisch abonnieren? Falls hier "Ja" gew&auml;hlt wird, wird der Thread automatisch abonniert. Dieses Feld ist nur wirksam, falls \'Abonnement erforderlich f&uuml;r das posten per Email?\' auf "Nein" gesetzt ist.'
+    'message' => 'Falls ein Benutzer weder einen Thread noch ein CS abonniert hat und dieser dann per Email postet, soll der den Thread dann automatisch abonnieren? Falls hier "Ja" gewählt wird, wird der Thread automatisch abonniert. Dieses Feld ist nur wirksam, falls \'Abonnement erforderlich für das posten per Email?\' auf "Nein" gesetzt ist.'
   },
   'avatar.url' => {
     'lastUpdated' => '1179745109',
-    'message' => 'URL zum Avatar f&uuml;r den Besitzer des Posts, falls Avatare aktiviert sind und der Benutzer einen Avatar besitzt.'
+    'message' => 'URL zum Avatar für den Besitzer des Posts, falls Avatare aktiviert sind und der Benutzer einen Avatar besitzt.'
   },
   'back' => {
     'lastUpdated' => '1157903810',
-    'message' => 'Zur&uuml;ck'
+    'message' => 'Zurück'
   },
   'back.label' => {
     'lastUpdated' => '1179745122',
@@ -151,7 +151,7 @@ our $I18N = {
   },
   'back.url' => {
     'lastUpdated' => '1179745169',
-    'message' => 'URL, um zur Hauptansicht dieses Collaboration Assets zur&uuml;ckzukehren.'
+    'message' => 'URL, um zur Hauptansicht dieses Collaboration Assets zurückzukehren.'
   },
   'body' => {
     'lastUpdated' => '1179745196',
@@ -175,7 +175,7 @@ our $I18N = {
   },
   'close' => {
     'lastUpdated' => '1179745252',
-    'message' => 'Schlie&szlig;en '
+    'message' => 'Schließen '
   },
   'close.label' => {
     'lastUpdated' => '1179745262',
@@ -183,7 +183,7 @@ our $I18N = {
   },
   'closed' => {
     'lastUpdated' => '1179745285',
-    'message' => 'Geschlo&szlig;en '
+    'message' => 'Geschloßen '
   },
   'closed.label' => {
     'lastUpdated' => '1179745299',
@@ -216,7 +216,7 @@ our $I18N = {
   },
   'collaborationAssetId' => {
     'lastUpdated' => '1179751085',
-    'message' => 'Die assetId dieses Collaboration Systems. Im Gegensatz zur Variable assetId wird diese nicht durch die assetIds von Threads oder Posts &uuml;berschrieben.'
+    'message' => 'Die assetId dieses Collaboration Systems. Im Gegensatz zur Variable assetId wird diese nicht durch die assetIds von Threads oder Posts überschrieben.'
   },
   'compensation' => {
     'lastUpdated' => '1179751095',
@@ -236,7 +236,7 @@ our $I18N = {
   },
   'content filter description' => {
     'lastUpdated' => '1179751181',
-    'message' => 'W&auml;hlen Sie "Ja", um den Inhalt jedes Posts zu filtern.'
+    'message' => 'Wählen Sie "Ja", um den Inhalt jedes Posts zu filtern.'
   },
   'contentType' => {
     'lastUpdated' => '1179751189',
@@ -244,7 +244,7 @@ our $I18N = {
   },
   'controls' => {
     'lastUpdated' => '1179751227',
-    'message' => 'Satz an Bearbeitungsicons, um Posts zu l&ouml;schen oder deren Reihenfolge zu &auml;ndern.'
+    'message' => 'Satz an Bearbeitungsicons, um Posts zu löschen oder deren Reihenfolge zu ändern.'
   },
   'cosmetic' => {
     'lastUpdated' => '1179751270',
@@ -296,11 +296,11 @@ our $I18N = {
   },
   'default karma scale help' => {
     'lastUpdated' => '1180075700',
-    'message' => 'Dies ist der Standard Wert, der der Karma Anzeige eines Threads zugewiesen wird. Die Karma Anzeige ist ein Bewertungsmechanismus f&uuml;r die Sortierung von Threads, die f&uuml;r Handicaps, Schwierigkeitsgrad, etc. genutzt werden kann.'
+    'message' => 'Dies ist der Standard Wert, der der Karma Anzeige eines Threads zugewiesen wird. Die Karma Anzeige ist ein Bewertungsmechanismus für die Sortierung von Threads, die f&uuml;r Handicaps, Schwierigkeitsgrad, etc. genutzt werden kann.'
   },
   'delete' => {
     'lastUpdated' => '1157903841',
-    'message' => 'L&ouml;schen'
+    'message' => 'Löschen'
   },
   'delete.label' => {
     'lastUpdated' => '1179751582',
@@ -324,7 +324,7 @@ our $I18N = {
   },
   'display last reply description' => {
     'lastUpdated' => '1179751699',
-    'message' => 'Falls auf "Ja" gesetzt, so werden Template Variablen hinzugef&uuml;gt, die es erlauben, die letzte Antwort dieses Threads anzuzeigen.'
+    'message' => 'Falls auf "Ja" gesetzt, so werden Template Variablen hinzugefügt, die es erlauben, die letzte Antwort dieses Threads anzuzeigen.'
   },
   'displayLastReply' => {
     'lastUpdated' => '1179751783',
@@ -332,7 +332,7 @@ our $I18N = {
   },
   'docs' => {
     'lastUpdated' => '1179751824',
-    'message' => 'URL zur Dokumentation &uuml;ber das Format dieser Datei, RSS 2.0 (optionales Feld)'
+    'message' => 'URL zur Dokumentation über das Format dieser Datei, RSS 2.0 (optionales Feld)'
   },
   'edit' => {
     'lastUpdated' => '1157903827',
@@ -356,11 +356,11 @@ our $I18N = {
   },
   'edit stamp' => {
     'lastUpdated' => '1179751966',
-    'message' => 'Datum letzte Bearbeitung zum Post hinzuf&uuml;gen?'
+    'message' => 'Datum letzte Bearbeitung zum Post hinzufügen?'
   },
   'edit stamp description' => {
     'lastUpdated' => '1179751937',
-    'message' => 'W&auml;hlen Sie "Ja", um jedem Post ein Datum der letzten Bearbeitung hinzuzuf&uuml;gen.'
+    'message' => 'Wählen Sie "Ja", um jedem Post ein Datum der letzten Bearbeitung hinzuzufügen.'
   },
   'edit submission' => {
     'lastUpdated' => '1180075812',
@@ -372,7 +372,7 @@ our $I18N = {
   },
   'edit timeout description' => {
     'lastUpdated' => '1179752073',
-    'message' => 'Wenn diese Zeitspanne &uuml;berschritten wird, kann der Post nicht mehr durch den urspr&uuml;nglichen Autor bearbeitet werden.'
+    'message' => 'Wenn diese Zeitspanne überschritten wird, kann der Post nicht mehr durch den urspr&uuml;nglichen Autor bearbeitet werden.'
   },
   'edit.label' => {
     'lastUpdated' => '1179752085',
@@ -396,7 +396,7 @@ our $I18N = {
   },
   'enable avatars description' => {
     'lastUpdated' => '1179752248',
-    'message' => '<p>W&auml;hlen Sie &quot;Ja&quot;, um Avatare f&uuml;r Benutzer des Collaboration Systems anzuzeigen. Das Avatar Feld im Benutzerprofile muss dazu aktiviert sein und die Benutzer m&uuml;ssen ein Avatar Bild hochladen, das angezeigt wird.</p><p>Die Benutzung von Avataren hat eine Performance Verschlechterung von Collaboration Systemen zur Folge.</p>'
+    'message' => '<p>Wählen Sie &quot;Ja&quot;, um Avatare für Benutzer des Collaboration Systems anzuzeigen. Das Avatar Feld im Benutzerprofile muss dazu aktiviert sein und die Benutzer m&uuml;ssen ein Avatar Bild hochladen, das angezeigt wird.</p><p>Die Benutzung von Avataren hat eine Performance Verschlechterung von Collaboration Systemen zur Folge.</p>'
   },
   'enable metadata' => {
     'lastUpdated' => '1192786357',
@@ -408,11 +408,11 @@ our $I18N = {
   },
   'epochDate' => {
     'lastUpdated' => '1224835197',
-    'message' => 'Ver&ouml;ffentlichungsdatum des Elements als epochales Datum, so dass das Datum Makro f&uuml;r die individuelle Datumsformatierung benutzt werden kann.'
+    'message' => 'Veröffentlichungsdatum des Elements als epochales Datum, so dass das Datum Makro für die individuelle Datumsformatierung benutzt werden kann.'
   },
   'fatal' => {
     'lastUpdated' => '1179752284',
-    'message' => 'Fatal (Kann nicht weiterarbeiten, bevor dieses Problem gel&ouml;st wurde)'
+    'message' => 'Fatal (Kann nicht weiterarbeiten, bevor dieses Problem gelöst wurde)'
   },
   'fatal.label' => {
     'lastUpdated' => '1179752305',
@@ -432,7 +432,7 @@ our $I18N = {
   },
   'filter code description' => {
     'lastUpdated' => '1179752449',
-    'message' => 'Setzt die HTML Filterstufe f&uuml;r jeden Post.'
+    'message' => 'Setzt die HTML Filterstufe für jeden Post.'
   },
   'flatLayout' => {
     'lastUpdated' => '1179752532',
@@ -440,15 +440,15 @@ our $I18N = {
   },
   'form.header' => {
     'lastUpdated' => '1179752564',
-    'message' => 'HTML und Javascript, das f&uuml;r das Funktionieren des Formulars notwendig ist.'
+    'message' => 'HTML und Javascript, das für das Funktionieren des Formulars notwendig ist.'
   },
   'form.search' => {
     'lastUpdated' => '1179752612',
-    'message' => 'Schaltfl&auml;che f&uuml;r das Formular, um mit der Suche zu beginnen.'
+    'message' => 'Schaltfläche für das Formular, um mit der Suche zu beginnen.'
   },
   'full text link' => {
     'lastUpdated' => '1179752633',
-    'message' => 'URL zum vollst&auml;ndigen Text dieses Elements.'
+    'message' => 'URL zum vollständigen Text dieses Elements.'
   },
   'generator' => {
     'lastUpdated' => '1179752675',
@@ -468,23 +468,23 @@ our $I18N = {
   },
   'get mail interval' => {
     'lastUpdated' => '1179752781',
-    'message' => 'Nach Emails pr&uuml;fen alle'
+    'message' => 'Nach Emails prüfen alle'
   },
   'get mail interval help' => {
     'lastUpdated' => '1179752827',
-    'message' => 'Wie oft soll der Server nach neuen Emails &uuml;berpr&uuml;ft werden?'
+    'message' => 'Wie oft soll der Server nach neuen Emails überpr&uuml;ft werden?'
   },
   'group to edit hoverhelp' => {
     'lastUpdated' => '1217254275',
-    'message' => 'Gruppe f&uuml;rs Editieren von Posts'
+    'message' => 'Gruppe fürs Editieren von Posts'
   },
   'group to edit label' => {
     'lastUpdated' => '1217254306',
-    'message' => 'Gruppe f&uuml;rs Editieren von Posts'
+    'message' => 'Gruppe fürs Editieren von Posts'
   },
   'guid' => {
     'lastUpdated' => '1179752852',
-    'message' => 'Ein eindeutiger Bezeichner f&uuml;r dieses Element.'
+    'message' => 'Ein eindeutiger Bezeichner für dieses Element.'
   },
   'has posted to one of your subscriptions' => {
     'lastUpdated' => '1234737911',
@@ -504,11 +504,11 @@ our $I18N = {
   },
   'image.url' => {
     'lastUpdated' => '1179752920',
-    'message' => 'URL zum ersten angeh&auml;ngten Bild (falls dieser Post Anh&auml;nge besitzt).'
+    'message' => 'URL zum ersten angehängten Bild (falls dieser Post Anh&auml;nge besitzt).'
   },
   'isFifth' => {
     'lastUpdated' => '1179752966',
-    'message' => 'Bedingung, die wahr ist, falls dieser Post der f&uuml;nfte in diesem Collaboration System ist.'
+    'message' => 'Bedingung, die wahr ist, falls dieser Post der fünfte in diesem Collaboration System ist.'
   },
   'isFourth' => {
     'lastUpdated' => '1179752981',
@@ -528,7 +528,7 @@ our $I18N = {
   },
   'item_loop' => {
     'lastUpdated' => '1179753077',
-    'message' => 'Schleife &uuml;ber alle Posts, die in diesen RSS Feed &uuml;bertragen werden.'
+    'message' => 'Schleife über alle Posts, die in diesen RSS Feed &uuml;bertragen werden.'
   },
   'job description' => {
     'lastUpdated' => '1179753087',
@@ -564,11 +564,11 @@ our $I18N = {
   },
   'karma rating multiplier' => {
     'lastUpdated' => '1180075973',
-    'message' => 'Karma f&uuml;r orig. Poster, falls bewertet wird'
+    'message' => 'Karma für orig. Poster, falls bewertet wird'
   },
   'karma rating multiplier description' => {
     'lastUpdated' => '1180075935',
-    'message' => 'Falls das Karma System auf ihrer Site aktiviert ist, ist dies die Menge an Karma, die der originale Autor des Posts bekommt, falls ein anderer Benutzer seine Bewertung f&uuml;r diese Post abgibt.'
+    'message' => 'Falls das Karma System auf ihrer Site aktiviert ist, ist dies die Menge an Karma, die der originale Autor des Posts bekommt, falls ein anderer Benutzer seine Bewertung für diese Post abgibt.'
   },
   'karma scale' => {
     'lastUpdated' => '1180075983',
@@ -576,11 +576,11 @@ our $I18N = {
   },
   'karma spent to rate' => {
     'lastUpdated' => '1180076214',
-    'message' => 'Karma Bewertungsgeb&uuml;hr'
+    'message' => 'Karma Bewertungsgebühr'
   },
   'karma spent to rate description' => {
     'lastUpdated' => '1180076195',
-    'message' => 'Falls das Karma System auf ihrer Site aktiviert ist, ist dies die Menge an Karma, die dem Bewerter eines Posts von seinem Karma abgezogen wird, sozusagen als Bewertungsgeb&uuml;hr. Soll die Benutzer davon abhalten, einfach alles zu bewerten, ohne dar&uuml;ber nachzudenken.'
+    'message' => 'Falls das Karma System auf ihrer Site aktiviert ist, ist dies die Menge an Karma, die dem Bewerter eines Posts von seinem Karma abgezogen wird, sozusagen als Bewertungsgebühr. Soll die Benutzer davon abhalten, einfach alles zu bewerten, ohne dar&uuml;ber nachzudenken.'
   },
   'karma/post' => {
     'lastUpdated' => '1180076237',
@@ -588,7 +588,7 @@ our $I18N = {
   },
   'karma/post description' => {
     'lastUpdated' => '1180076287',
-    'message' => 'Falls das Karma System auf ihrer Site aktiviert ist, ist dies die Menge an Karma, die ein Benutzer f&uuml;r das Posten einer Nachricht bekommt.'
+    'message' => 'Falls das Karma System auf ihrer Site aktiviert ist, ist dies die Menge an Karma, die ein Benutzer für das Posten einer Nachricht bekommt.'
   },
   'karmaIsEnabled' => {
     'lastUpdated' => '1180076317',
@@ -596,7 +596,7 @@ our $I18N = {
   },
   'keywords label' => {
     'lastUpdated' => '1221215626',
-    'message' => 'Name des Schl&uuml;sselworts'
+    'message' => 'Name des Schlüsselworts'
   },
   'lastBuildDate' => {
     'lastUpdated' => '1179753233',
@@ -684,7 +684,7 @@ our $I18N = {
   },
   'mail account help' => {
     'lastUpdated' => '1179755035',
-    'message' => 'Account Name (Benutzername / Email Adresse) f&uuml;r die Anmeldung am Email Server.'
+    'message' => 'Account Name (Benutzername / Email Adresse) für die Anmeldung am Email Server.'
   },
   'mail address' => {
     'lastUpdated' => '1179755044',
@@ -692,7 +692,7 @@ our $I18N = {
   },
   'mail address help' => {
     'lastUpdated' => '1179755103',
-    'message' => 'Email Adresse, an die die Benutzer Emails schicken k&ouml;nnen,  um Nachrichte zu posten.'
+    'message' => 'Email Adresse, an die die Benutzer Emails schicken können,  um Nachrichte zu posten.'
   },
   'mail password' => {
     'lastUpdated' => '1179755112',
@@ -700,15 +700,15 @@ our $I18N = {
   },
   'mail password help' => {
     'lastUpdated' => '1179755134',
-    'message' => 'Account Passwort f&uuml;r die Anmeldung am Email Server.'
+    'message' => 'Account Passwort für die Anmeldung am Email Server.'
   },
   'mail prefix' => {
     'lastUpdated' => '1179755148',
-    'message' => 'Pr&auml;fix'
+    'message' => 'Präfix'
   },
   'mail prefix help' => {
     'lastUpdated' => '1179755195',
-    'message' => 'Dieser Text wird an alle Betreffzeilen der Emails angeh&auml;ngt, die von diesem Collaboration System verschickt werden.'
+    'message' => 'Dieser Text wird an alle Betreffzeilen der Emails angehängt, die von diesem Collaboration System verschickt werden.'
   },
   'mail server' => {
     'lastUpdated' => '1179755204',
@@ -720,11 +720,11 @@ our $I18N = {
   },
   'max image size' => {
     'lastUpdated' => '1179755274',
-    'message' => 'Maximale Bildgr&ouml;&szlig;e'
+    'message' => 'Maximale Bildgröße'
   },
   'max image size help' => {
     'lastUpdated' => '1179755457',
-    'message' => 'Setzt die Gr&ouml;&szlig;e von Bild Anh&auml;ngen f&uuml;r dieses Collaboration System. Falls auf 0 gesetzt, so wird die Standard Gr&ouml;&szlig;e aus den Einstellungen benutzt. Nachtr&auml;gliches &Auml;ndern dieses Parameters &auml;ndert nicht die Gr&ouml;&szlig;e von Bildern, die sich schon im CS befinden. Sie m&uuml;ssen dazu die Bilder nochmals speichern.'
+    'message' => 'Setzt die Größe von Bild Anhängen für dieses Collaboration System. Falls auf 0 gesetzt, so wird die Standard Gr&ouml;&szlig;e aus den Einstellungen benutzt. Nachtr&auml;gliches Ändern dieses Parameters &auml;ndert nicht die Gr&ouml;&szlig;e von Bildern, die sich schon im CS befinden. Sie m&uuml;ssen dazu die Bilder nochmals speichern.'
   },
   'message' => {
     'lastUpdated' => '1179755467',
@@ -740,7 +740,7 @@ our $I18N = {
   },
   'minor' => {
     'lastUpdated' => '1179755587',
-    'message' => 'Gering (st&ouml;rend aber nicht abtr&auml;glich)'
+    'message' => 'Gering (störend aber nicht abträglich)'
   },
   'minor.label' => {
     'lastUpdated' => '1179755611',
@@ -752,7 +752,7 @@ our $I18N = {
   },
   'new window' => {
     'lastUpdated' => '1179755647',
-    'message' => 'In einem neuen Fenster &ouml;ffnen?'
+    'message' => 'In einem neuen Fenster öffnen?'
   },
   'newWindow.label' => {
     'lastUpdated' => '1226872987',
@@ -760,7 +760,7 @@ our $I18N = {
   },
   'next' => {
     'lastUpdated' => '1179755679',
-    'message' => 'N&auml;chstes'
+    'message' => 'Nächstes'
   },
   'next.label' => {
     'lastUpdated' => '1179755692',
@@ -772,7 +772,7 @@ our $I18N = {
   },
   'notification template description' => {
     'lastUpdated' => '1179755778',
-    'message' => 'Template, das f&uuml;r das Generieren von Nachrichten benutzt wird, die den Benutzern geschickt werden, die dieses Asset abonniert haben.'
+    'message' => 'Template, das für das Generieren von Nachrichten benutzt wird, die den Benutzern geschickt werden, die dieses Asset abonniert haben.'
   },
   'open' => {
     'lastUpdated' => '1180076325',
@@ -792,7 +792,7 @@ our $I18N = {
   },
   'post received template hoverHelp' => {
     'lastUpdated' => '1224835282',
-    'message' => 'Das Template f&uuml;r die Nachricht, falls ein Benutzer einen Post erstellt hat.'
+    'message' => 'Das Template für die Nachricht, falls ein Benutzer einen Post erstellt hat.'
   },
   'post template' => {
     'lastUpdated' => '1179755832',
@@ -800,7 +800,7 @@ our $I18N = {
   },
   'post template description' => {
     'lastUpdated' => '1179755852',
-    'message' => 'Das Template f&uuml;r einen einzelnen Post.'
+    'message' => 'Das Template für einen einzelnen Post.'
   },
   'post title' => {
     'lastUpdated' => '1179755869',
@@ -812,7 +812,7 @@ our $I18N = {
   },
   'post_loop' => {
     'lastUpdated' => '1179755923',
-    'message' => 'Eine Liste von Posts f&uuml;r dieses Asset.'
+    'message' => 'Eine Liste von Posts für dieses Asset.'
   },
   'posts/page' => {
     'lastUpdated' => '1179755940',
@@ -836,11 +836,11 @@ our $I18N = {
   },
   'pubDate' => {
     'lastUpdated' => '1179758219',
-    'message' => 'Das Datum, an dem das Element ver&ouml;ffentlicht wurde.'
+    'message' => 'Das Datum, an dem das Element veröffentlicht wurde.'
   },
   'query.form' => {
     'lastUpdated' => '1180076393',
-    'message' => 'HTML Formular f&uuml;r das Hinzuf&uuml;gen eines Feldes, in dem jede Eingabe in passenden Seiten enthalten sein muss.'
+    'message' => 'HTML Formular für das Hinzuf&uuml;gen eines Feldes, in dem jede Eingabe in passenden Seiten enthalten sein muss.'
   },
   'question' => {
     'lastUpdated' => '1179758247',
@@ -872,11 +872,11 @@ our $I18N = {
   },
   'rating_loop' => {
     'lastUpdated' => '1180076490',
-    'message' => 'Schleife, die je einmal f&uuml;r jeden Bewertungspunkt l&auml;uft, die der Post hat.'
+    'message' => 'Schleife, die je einmal für jeden Bewertungspunkt läuft, die der Post hat.'
   },
   'rating_loop.count' => {
     'lastUpdated' => '1180076527',
-    'message' => 'Die Index Variabale f&uuml;r <strong>rating_loop</strong>.'
+    'message' => 'Die Index Variabale für <strong>rating_loop</strong>.'
   },
   'read more' => {
     'lastUpdated' => '1157904425',
@@ -892,11 +892,11 @@ our $I18N = {
   },
   'rejected because no user account' => {
     'lastUpdated' => '1179758560',
-    'message' => 'Sie d&uuml;rfen keine Nachrichten posten, da ihr Account f&uuml;r diese Site nicht gefunden werden konnte. Vielleicht ist diese Email Adresse ihrem Account nicht zugeordnet.'
+    'message' => 'Sie dürfen keine Nachrichten posten, da ihr Account f&uuml;r diese Site nicht gefunden werden konnte. Vielleicht ist diese Email Adresse ihrem Account nicht zugeordnet.'
   },
   'rejected because not allowed' => {
     'lastUpdated' => '1179758660',
-    'message' => 'Sie d&uuml;rfen keine Nachrichten posten, da Sie entweder nicht die n&ouml;tigen Rechte besitzen oder diese Diskussion nicht abonniert haben.'
+    'message' => 'Sie dürfen keine Nachrichten posten, da Sie entweder nicht die nötigen Rechte besitzen oder diese Diskussion nicht abonniert haben.'
   },
   'replies' => {
     'lastUpdated' => '1179758669',
@@ -916,11 +916,11 @@ our $I18N = {
   },
   'require subscription for email posting' => {
     'lastUpdated' => '1179758756',
-    'message' => 'Abonnement erforderlich f&uuml;r das posten per Email?'
+    'message' => 'Abonnement erforderlich für das posten per Email?'
   },
   'require subscription for email posting help' => {
     'lastUpdated' => '1179818209',
-    'message' => 'Falls hier "Ja" gesetzt ist, muss sich der Benutzer nicht nur in der richtigen Gruppe befinden, sondern auch das Collaboration System oder den Thread abonnieren, um posten zu k&ouml;nnen.'
+    'message' => 'Falls hier "Ja" gesetzt ist, muss sich der Benutzer nicht nur in der richtigen Gruppe befinden, sondern auch das Collaboration System oder den Thread abonnieren, um posten zu können.'
   },
   'responses' => {
     'lastUpdated' => '1179818223',
@@ -944,11 +944,11 @@ our $I18N = {
   },
   'rss template description' => {
     'lastUpdated' => '1179818355',
-    'message' => 'Template zum Generieren von XML f&uuml;r RSS Feeds, basierend auf diesem Asset.'
+    'message' => 'Template zum Generieren von XML für RSS Feeds, basierend auf diesem Asset.'
   },
   'rss.url' => {
     'lastUpdated' => '1179818383',
-    'message' => 'URL f&uuml;r den Download der RSS Zusammenfassung dieses Assets.'
+    'message' => 'URL für den Download der RSS Zusammenfassung dieses Assets.'
   },
   'search' => {
     'lastUpdated' => '1179818391',
@@ -960,7 +960,7 @@ our $I18N = {
   },
   'search template description' => {
     'lastUpdated' => '1179818452',
-    'message' => 'Template f&uuml;r das Suchformular und dessen Ergebnisse dieses Collaboration System Assets.'
+    'message' => 'Template für das Suchformular und dessen Ergebnisse dieses Collaboration System Assets.'
   },
   'search.label' => {
     'lastUpdated' => '1226873018',
@@ -988,7 +988,7 @@ our $I18N = {
   },
   'sort by description' => {
     'lastUpdated' => '1179818660',
-    'message' => 'Alle Posts werden standardm&auml;ssig in geordneter Reihenfolge angezeigt. Benutzen Sie dieses Feld, um die Eigenschaft auszuw&auml;hlen, nach der sortiert werden soll. Mehrere Eigenschaften k&ouml;nnen ausgew&auml;hlt werden.'
+    'message' => 'Alle Posts werden standardmässig in geordneter Reihenfolge angezeigt. Benutzen Sie dieses Feld, um die Eigenschaft auszuw&auml;hlen, nach der sortiert werden soll. Mehrere Eigenschaften können ausgew&auml;hlt werden.'
   },
   'sort order' => {
     'lastUpdated' => '1179818674',
@@ -1068,7 +1068,7 @@ our $I18N = {
   },
   'subscribe.url' => {
     'lastUpdated' => '1179819071',
-    'message' => 'URL, um ein Collaboration System Asset zu abonnieren. Falls neuer Inhalt dem Asset hinzugef&uuml;gt wird, wird der Benutzer dar&uuml;ber informiert.'
+    'message' => 'URL, um ein Collaboration System Asset zu abonnieren. Falls neuer Inhalt dem Asset hinzugefügt wird, wird der Benutzer dar&uuml;ber informiert.'
   },
   'subscription group hoverHelp' => {
     'lastUpdated' => '1193050345',
@@ -1093,7 +1093,7 @@ our $I18N = {
   },
   'system template description' => {
     'lastUpdated' => '1179819131',
-    'message' => 'Dies ist das Haupttemplate f&uuml;r das Collaboration System.'
+    'message' => 'Dies ist das Haupttemplate für das Collaboration System.'
   },
   'thread approval workflow' => {
     'lastUpdated' => '1193051928',
@@ -1109,7 +1109,7 @@ our $I18N = {
   },
   'thread template description' => {
     'lastUpdated' => '1179819161',
-    'message' => 'Template f&uuml;r die Anzeige eines Threads.'
+    'message' => 'Template für die Anzeige eines Threads.'
   },
   'threads/page' => {
     'lastUpdated' => '1179819173',
@@ -1125,11 +1125,11 @@ our $I18N = {
   },
   'thumbnail size' => {
     'lastUpdated' => '1179819277',
-    'message' => 'Gr&ouml;&szlig;e des Thumbnails'
+    'message' => 'Größe des Thumbnails'
   },
   'thumbnail size help' => {
     'lastUpdated' => '1179819467',
-    'message' => 'Setzt die Gr&ouml;&szlig;e von Thumbnails f&uuml;r dieses Collaboration System. Falls hier auf 0 gesetzt, wird die Standard Einstellung benutzt. Au&szlig;erdem wird die Gr&ouml;&szlig;e der schon im CS enthaltenen Thumbnails nicht nachtr&auml;glich ge&auml;ndert, falls Sie hier einen anderen Wert setzen. Wollen Sie dies, m&uuml;&szlig;en Sie die schon vorhandenen Thumbnails nochmal speichern.'
+    'message' => 'Setzt die Größe von Thumbnails für dieses Collaboration System. Falls hier auf 0 gesetzt, wird die Standard Einstellung benutzt. Au&szlig;erdem wird die Gr&ouml;&szlig;e der schon im CS enthaltenen Thumbnails nicht nachträglich ge&auml;ndert, falls Sie hier einen anderen Wert setzen. Wollen Sie dies, m&uuml;&szlig;en Sie die schon vorhandenen Thumbnails nochmal speichern.'
   },
   'thumbnail.label' => {
     'lastUpdated' => '1179819483',
@@ -1157,7 +1157,7 @@ our $I18N = {
   },
   'tmplVar thumbnail' => {
     'lastUpdated' => '1179819668',
-    'message' => 'URL zum Thumbnail des ersten Bildes im Anhang (falls Post Anh&auml;nge besitzt).'
+    'message' => 'URL zum Thumbnail des ersten Bildes im Anhang (falls Post Anhänge besitzt).'
   },
   'tmplVar url' => {
     'lastUpdated' => '1179819678',
@@ -1165,15 +1165,15 @@ our $I18N = {
   },
   'transfer karma' => {
     'lastUpdated' => '1179819692',
-    'message' => 'Karma &uuml;bertragen'
+    'message' => 'Karma übertragen'
   },
   'unarchive' => {
     'lastUpdated' => '1179819716',
-    'message' => 'Archivieren r&uuml;ckg&auml;ngig machen'
+    'message' => 'Archivieren rückgängig machen'
   },
   'unlock' => {
     'lastUpdated' => '1179819739',
-    'message' => 'Sperren r&uuml;ckg&auml;ngig machen'
+    'message' => 'Sperren rückgängig machen'
   },
   'unlock.label' => {
     'lastUpdated' => '1179819757',
@@ -1222,7 +1222,7 @@ bevor diesen erlaubt wird in das Collaboration System zu posten.'
   },
   'use preview description' => {
     'lastUpdated' => '1179819964',
-    'message' => 'W&auml;hlen Sie hier "Ja", um den Benutzer eine Vorschau seines Posts zu pr&auml;sentieren, bevor dieser abgeschickt wird. W&auml;hrend die Vorschau angezeigt wird, kann der Post entweder bearbeitet oder abgebrochen werden.'
+    'message' => 'Wählen Sie hier "Ja", um den Benutzer eine Vorschau seines Posts zu pr&auml;sentieren, bevor dieser abgeschickt wird. W&auml;hrend die Vorschau angezeigt wird, kann der Post entweder bearbeitet oder abgebrochen werden.'
   },
   'user' => {
     'lastUpdated' => '1168864618',
@@ -1250,7 +1250,7 @@ bevor diesen erlaubt wird in das Collaboration System zu posten.'
   },
   'user.canPost' => {
     'lastUpdated' => '1179820035',
-    'message' => 'Bedingung, die wahr ist wenn aktueller Benutzer Beitr&auml;ge zu diesem Collaboration Asset hinzuf&uuml;gen darf. '
+    'message' => 'Bedingung, die wahr ist wenn aktueller Benutzer Beiträge zu diesem Collaboration Asset hinzufügen darf. '
   },
   'user.hasRead' => {
     'lastUpdated' => '1179820776',
@@ -1306,15 +1306,15 @@ bevor diesen erlaubt wird in das Collaboration System zu posten.'
   },
   'webMaster' => {
     'lastUpdated' => '1179821057',
-    'message' => 'Die Email Adresse der Person, die f&uuml;r die Technik, die diesen RSS Feed betrifft, verantwortlich ist. (Optionales Feld)'
+    'message' => 'Die Email Adresse der Person, die für die Technik, die diesen RSS Feed betrifft, verantwortlich ist. (Optionales Feld)'
   },
   'who posts' => {
     'lastUpdated' => '1178626772',
-    'message' => 'Wer darf Beitr&auml;ge ver&ouml;ffentlichen?'
+    'message' => 'Wer darf Beiträge veröffentlichen?'
   },
   'who posts description' => {
     'lastUpdated' => '1168864750',
-    'message' => 'Gruppe, die Beitr&auml;ge ver&ouml;ffentlichen darf.<br />'
+    'message' => 'Gruppe, die Beiträge veröffentlichen darf.<br />'
   },
   'who threads' => {
     'lastUpdated' => '1193051651',

@@ -9,12 +9,12 @@ our $I18N = {
 	},
 
 	'84 description' => {
-		message => q|Die Anzahl der Versuche, die ein Benutzer zur Verf&uuml;gung hat, um eine richtige Antwort auf eine bestimmte Frage zu geben. Der Standard ist 1.|,
+		message => q|Die Anzahl der Versuche, die ein Benutzer zur Verfügung hat, um eine richtige Antwort auf eine bestimmte Frage zu geben. Der Standard ist 1.|,
 		lastUpdated => 1178876480
 	},
 
 	'90' => {
-		message => q|Umfrage Template, gebr&auml;chliche Variablen|,
+		message => q|Umfrage Template, gebrächliche Variablen|,
 		lastUpdated => 1178876646
 	},
 
@@ -34,7 +34,7 @@ our $I18N = {
 	},
 
 	'export.questions.label' => {
-		message => q|Das Standard Label f&uuml;r export.questions.url.|,
+		message => q|Das Standard Label für export.questions.url.|,
 		lastUpdated => 1179731936
 	},
 
@@ -44,17 +44,17 @@ our $I18N = {
 	},
 
 	'response.user.label' => {
-		message => q|Das Standard Label f&uuml;r response.user.name.|,
+		message => q|Das Standard Label für response.user.name.|,
 		lastUpdated => 1179741075
 	},
 
 	'question.comment.label' => {
-		message => q|Das Standard Label f&uuml;r question.comment.field.|,
+		message => q|Das Standard Label für question.comment.field.|,
 		lastUpdated => 1179733578
 	},
 
 	'16' => {
-		message => q|Antworten willk&uuml;rlich anordnen?|,
+		message => q|Antworten willkürlich anordnen?|,
 		lastUpdated => 1178871236
 	},
 
@@ -69,7 +69,7 @@ our $I18N = {
 	},
 
 	'export.responses.label' => {
-		message => q|Das Standard Label f&uuml;r export.responses.url.|,
+		message => q|Das Standard Label für export.responses.url.|,
 		lastUpdated => 1179732001
 	},
 
@@ -84,7 +84,7 @@ our $I18N = {
 	},
 
 	'title' => {
-		message => q|Der Standardname f&uuml;r diesen Report|,
+		message => q|Der Standardname für diesen Report|,
 		lastUpdated => 1178870111
 	},
 
@@ -109,42 +109,42 @@ our $I18N = {
 	},
 
 	'question.edit.id' => {
-		message => q|Die eindeutige ID f&uuml;r diese Frage.|,
+		message => q|Die eindeutige ID für diese Frage.|,
 		lastUpdated => 1179734214
 	},
 
 	'20 description' => {
-		message => q|Falls Sie den Quiz Modus aktiviert haben, k&ouml;nnen Sie festlegen, ob diese Antwort richtig oder falsch ist.|,
+		message => q|Falls Sie den Quiz Modus aktiviert haben, können Sie festlegen, ob diese Antwort richtig oder falsch ist.|,
 		lastUpdated => 1178871352
 	},
 
 	'response.count.label' => {
-		message => q|Das Standard Label f&uuml;r response.count.correct.|,
+		message => q|Das Standard Label für response.count.correct.|,
 		lastUpdated => 1179740859
 	},
 
 	'export.composite.url' => {
-		message => q|URL, um eine Datei zu erzeugen, die eine Zusammenfassung aller Daten dieser Umfrage enth&auml;lt. Einzelne Felder durch Tabulatoren voneinander getrennt.|,
+		message => q|URL, um eine Datei zu erzeugen, die eine Zusammenfassung aller Daten dieser Umfrage enthält. Einzelne Felder durch Tabulatoren voneinander getrennt.|,
 		lastUpdated => 1179731907
 	},
 
 	'report.gradebook.url' => {
-		message => q|URL, um den Gradebook Report f&uuml;r dieses Quiz anzuzeigen.|,
+		message => q|URL, um den Gradebook Report für dieses Quiz anzuzeigen.|,
 		lastUpdated => 1179738204
 	},
 
 	'thanks.quiz.label' => {
-		message => q|Eine Nachricht, die dem Benutzer f&uuml;r die Teilnahme am Quiz dankt.|,
+		message => q|Eine Nachricht, die dem Benutzer für die Teilnahme am Quiz dankt.|,
 		lastUpdated => 1179741970
 	},
 
 	'29' => {
-		message => q|Eine Text Antwort hinzuf&uuml;gen.|,
+		message => q|Eine Text Antwort hinzufügen.|,
 		lastUpdated => 1178874632
 	},
 
 	'duration.seconds.label' => {
-		message => q|Ein Label f&uuml;r "Sekunden".|,
+		message => q|Ein Label für "Sekunden".|,
 		lastUpdated => 1178877444
 	},
 
@@ -154,17 +154,17 @@ our $I18N = {
 	},
 
 	'form.submit' => {
-		message => q|Die Standard Abschicken (Submit) Schaltfl&auml;che f&uuml;r die Benutzerantwort der Umfrage.|,
+		message => q|Die Standard Abschicken (Submit) Schaltfläche für die Benutzerantwort der Umfrage.|,
 		lastUpdated => 1179732176
 	},
 
 	'58' => {
-		message => q|Statistischer &Uuml;berblick|,
+		message => q|Statistischer Überblick|,
 		lastUpdated => 1178875254
 	},
 
 	'responseTemplateId' => {
-		message => q|Die ID des Templates, das f&uuml;r die Anzeige des Bildschirms f&uuml;r die Benutzerantwort benutzt wird.|,
+		message => q|Die ID des Templates, das für die Anzeige des Bildschirms f&uuml;r die Benutzerantwort benutzt wird.|,
 		lastUpdated => 1179741154
 	},
 
@@ -174,17 +174,17 @@ our $I18N = {
 	},
 
 	'101' => {
-		message => q|Eine "Text Bereich Antwort" hinzuf&uuml;gen|,
+		message => q|Eine "Text Bereich Antwort" hinzufügen|,
 		lastUpdated => 1178870179
 	},
 
 	'73' => {
-		message => q|Alle Benuterantworten l&ouml;schen.|,
+		message => q|Alle Benuterantworten löschen.|,
 		lastUpdated => 1178875608
 	},
 
 	'1091' => {
-		message => q|Statistischer &Uuml;berblick Report Template|,
+		message => q|Statistischer Überblick Report Template|,
 		lastUpdated => 1178870445
 	},
 
@@ -194,7 +194,7 @@ our $I18N = {
 	},
 
 	'quiz.noprivs.label' => {
-		message => q|Nachricht, die dem Benutzer anzeigt, dass er nicht die n&ouml;tigen Rechte besitzt, um an diesem Quiz teilzunehmen.|,
+		message => q|Nachricht, die dem Benutzer anzeigt, dass er nicht die nötigen Rechte besitzt, um an diesem Quiz teilzunehmen.|,
 		lastUpdated => 1179738100
 	},
 
@@ -204,7 +204,7 @@ our $I18N = {
 	},
 
 	'answer.response.percent' => {
-		message => q|Anteil der Antwort am Gesamtergebnis f&uuml;r diese Frage. D.h. Wie viele Benutzer (prozentual gesehen) habe auf die Frage diese Antwort gegeben.|,
+		message => q|Anteil der Antwort am Gesamtergebnis für diese Frage. D.h. Wie viele Benutzer (prozentual gesehen) habe auf die Frage diese Antwort gegeben.|,
 		lastUpdated => 1178877023
 	},
 
@@ -219,7 +219,7 @@ our $I18N = {
 	},
 
 	'export.answers.label' => {
-		message => q|Das Standard Label f&uuml;r export.answers.url.|,
+		message => q|Das Standard Label für export.answers.url.|,
 		lastUpdated => 1179731712
 	},
 
@@ -234,17 +234,17 @@ our $I18N = {
 	},
 
 	'report response.count.label' => {
-		message => q|Das Standard Label f&uuml;r response.count.|,
+		message => q|Das Standard Label für response.count.|,
 		lastUpdated => 1179738166
 	},
 
 	'49' => {
-		message => q|Sie k&ouml;nnen zur Zeit nicht an dem Quiz teilnehmen.|,
+		message => q|Sie können zur Zeit nicht an dem Quiz teilnehmen.|,
 		lastUpdated => 1178875114
 	},
 
 	'24' => {
-		message => q|Eine "multiple choice" Antwort hinzuf&uuml;gen.|,
+		message => q|Eine "multiple choice" Antwort hinzufügen.|,
 		lastUpdated => 1178871470
 	},
 
@@ -254,7 +254,7 @@ our $I18N = {
 	},
 
 	'104' => {
-		message => q|Einen neuen Abschnitt hinzuf&uuml;gen|,
+		message => q|Einen neuen Abschnitt hinzufügen|,
 		lastUpdated => 1178870236
 	},
 
@@ -269,22 +269,22 @@ our $I18N = {
 	},
 
 	'what next question description' => {
-		message => q|<p>Nachdem Sie die Frage erstellt haben k&amp;ouml;nnen Sie eine Antwort definieren:</p><ul><li>Multiple Choice</li><li>Text</li><li>Frequenz</li><li>Meinung</li><li>Oder zur&uuml;ck zur Umfrage&nbsp;</li></ul>|,
+		message => q|<p>Nachdem Sie die Frage erstellt haben k&amp;ouml;nnen Sie eine Antwort definieren:</p><ul><li>Multiple Choice</li><li>Text</li><li>Frequenz</li><li>Meinung</li><li>Oder zurück zur Umfrage&nbsp;</li></ul>|,
 		lastUpdated => 1179742492
 	},
 
 	'23' => {
-		message => q|Eine neue Antwort hinzuf&uuml;gen.|,
+		message => q|Eine neue Antwort hinzufügen.|,
 		lastUpdated => 1178871440
 	},
 
 	'delete.label' => {
-		message => q|Der Standard Label f&uuml;r delete.url.|,
+		message => q|Der Standard Label für delete.url.|,
 		lastUpdated => 1178877236
 	},
 
 	'response.url' => {
-		message => q|URL f&uuml;r die Anzeige dieser Benutzerantwort.|,
+		message => q|URL für die Anzeige dieser Benutzerantwort.|,
 		lastUpdated => 1179741056
 	},
 
@@ -299,7 +299,7 @@ our $I18N = {
 	},
 
 	'questions.sofar.label' => {
-		message => q|Das Standard Label f&uuml;r questions.sofar.label. Zeigt an, wie viele Fragen der Umfrage zu diesem Zeitpunkt beantwortet wurden.|,
+		message => q|Das Standard Label für questions.sofar.label. Zeigt an, wie viele Fragen der Umfrage zu diesem Zeitpunkt beantwortet wurden.|,
 		lastUpdated => 1179738015
 	},
 
@@ -319,7 +319,7 @@ our $I18N = {
 	},
 
 	'start.newresponse.label' => {
-		message => q|Das Standard Label f&uuml;r start.newresponse.url.|,
+		message => q|Das Standard Label für start.newresponse.url.|,
 		lastUpdated => 1179741635
 	},
 
@@ -349,27 +349,27 @@ our $I18N = {
 	},
 
 	'delete.all.responses.url' => {
-		message => q|URL, die alle Benutzerantworten dieser Umfrage l&ouml;scht.|,
+		message => q|URL, die alle Benutzerantworten dieser Umfrage löscht.|,
 		lastUpdated => 1178877271
 	},
 
 	'report.overview.label' => {
-		message => q|Das Standard Label f&uuml;r report.overview.url.|,
+		message => q|Das Standard Label für report.overview.url.|,
 		lastUpdated => 1179740647
 	},
 
 	'106 description' => {
-		message => q|Welchem Abschnitt soll diese Frage hinzugef&uuml;gt werden?|,
+		message => q|Welchem Abschnitt soll diese Frage hinzugefügt werden?|,
 		lastUpdated => 1178870297
 	},
 
 	'question.id' => {
-		message => q|Die eindeutige ID f&uuml;r diese Frage.|,
+		message => q|Die eindeutige ID für diese Frage.|,
 		lastUpdated => 1179735706
 	},
 
 	'question.edit.controls' => {
-		message => q|Symbolleiste f&uuml;r das Bearbeiten, L&ouml;schen oder Verschieben dieser Frage.|,
+		message => q|Symbolleiste für das Bearbeiten, Löschen oder Verschieben dieser Frage.|,
 		lastUpdated => 1179733689
 	},
 
@@ -379,17 +379,17 @@ our $I18N = {
 	},
 
 	'74' => {
-		message => q|Sind Sie sich sicher, dass Sie alle Benutzerantworten l&ouml;schen wollen?|,
+		message => q|Sind Sie sich sicher, dass Sie alle Benutzerantworten löschen wollen?|,
 		lastUpdated => 1178875631
 	},
 
 	'question.add.label' => {
-		message => q|Das Standard Label f&uuml;r question.add.url.|,
+		message => q|Das Standard Label für question.add.url.|,
 		lastUpdated => 1179733393
 	},
 
 	'delete.url' => {
-		message => q|URL, die alle Benutzerantworten l&ouml;scht.|,
+		message => q|URL, die alle Benutzerantworten löscht.|,
 		lastUpdated => 1178877264
 	},
 
@@ -404,12 +404,12 @@ our $I18N = {
 	},
 
 	'103' => {
-		message => q|Umfrage Abschnitt hinzuf&uuml;gen/bearbeiten|,
+		message => q|Umfrage Abschnitt hinzufügen/bearbeiten|,
 		lastUpdated => 1178870220
 	},
 
 	'survey.url' => {
-		message => q|URL zur Anzeige der Umfrage. Meist, um nach der Anzeige des Reports zur&uuml;ck zur Umfrage zu gelangen.|,
+		message => q|URL zur Anzeige der Umfrage. Meist, um nach der Anzeige des Reports zurück zur Umfrage zu gelangen.|,
 		lastUpdated => 1179741884
 	},
 
@@ -429,7 +429,7 @@ our $I18N = {
 	},
 
 	'response_loop' => {
-		message => q|Schleife, die eine Liste der Benutzerantworten enth&auml;lt.|,
+		message => q|Schleife, die eine Liste der Benutzerantworten enthält.|,
 		lastUpdated => 1179741180
 	},
 
@@ -439,7 +439,7 @@ our $I18N = {
 	},
 
 	'overview template description' => {
-		message => q|Dieses Template wird f&uuml;r die Anzeige einer statistischen &Uuml;bersicht aller Benutzerantworten einer Umfrage benutzt.|,
+		message => q|Dieses Template wird für die Anzeige einer statistischen Übersicht aller Benutzerantworten einer Umfrage benutzt.|,
 		lastUpdated => 1179732661
 	},
 
@@ -469,12 +469,12 @@ our $I18N = {
 	},
 
 	'16 description' => {
-		message => q|Falls auf Ja gesetzt, werden die Antworten f&uuml;r jeden Benutzer anders angeordnet.|,
+		message => q|Falls auf Ja gesetzt, werden die Antworten für jeden Benutzer anders angeordnet.|,
 		lastUpdated => 1178871245
 	},
 
 	'comment_loop' => {
-		message => q|Eine Schleife, die alle Kommentare f&uuml;r diese Antwort enth&auml;lt.|,
+		message => q|Eine Schleife, die alle Kommentare für diese Antwort enthält.|,
 		lastUpdated => 1178877149
 	},
 
@@ -489,7 +489,7 @@ our $I18N = {
 	},
 
 	'12 description' => {
-		message => q|Welche Benutzer k&ouml;nnen an der Umfrage teilnehmen?|,
+		message => q|Welche Benutzer können an der Umfrage teilnehmen?|,
 		lastUpdated => 1178870999
 	},
 
@@ -509,7 +509,7 @@ our $I18N = {
 	},
 
 	'41' => {
-		message => q|H&auml;ufig|,
+		message => q|Häufig|,
 		lastUpdated => 1178874903
 	},
 
@@ -519,7 +519,7 @@ our $I18N = {
 	},
 
 	'thanks.survey.label' => {
-		message => q|Eine Nachricht, die dem Benutzer f&uuml;r die Teilnahme am Quiz dankt.|,
+		message => q|Eine Nachricht, die dem Benutzer für die Teilnahme am Quiz dankt.|,
 		lastUpdated => 1179741976
 	},
 
@@ -539,17 +539,17 @@ our $I18N = {
 	},
 
 	'export.answers.url' => {
-		message => q|URL, um eine Datei zu erzeugen, die alle Antworten auf die Fragen einer Umfrage enth&auml;lt. Einzelne Felder durch Tabulatoren voneinander getrennt.|,
+		message => q|URL, um eine Datei zu erzeugen, die alle Antworten auf die Fragen einer Umfrage enthält. Einzelne Felder durch Tabulatoren voneinander getrennt.|,
 		lastUpdated => 1179731916
 	},
 
 	'export.responses.url' => {
-		message => q|Url, die eine Datei erzeugt, die alle Benutzerantworten zu den Fragen dieser Umfrage enth&auml;lt. Einzelne Felder durch Tabulatoren voneinander getrennt.|,
+		message => q|Url, die eine Datei erzeugt, die alle Benutzerantworten zu den Fragen dieser Umfrage enthält. Einzelne Felder durch Tabulatoren voneinander getrennt.|,
 		lastUpdated => 1179732051
 	},
 
 	'section.add.url' => {
-		message => q|URL f&uuml;r das Hinzuf&uuml;gen einer neuen Sektion zur Umfrage.|,
+		message => q|URL für das Hinzuf&uuml;gen einer neuen Sektion zur Umfrage.|,
 		lastUpdated => 1179741232
 	},
 
@@ -559,17 +559,17 @@ our $I18N = {
 	},
 
 	'report.gradebook.label' => {
-		message => q|Das Standard Label f&uuml;r report.gradebook.url.|,
+		message => q|Das Standard Label für report.gradebook.url.|,
 		lastUpdated => 1179738183
 	},
 
 	'100' => {
-		message => q|Eine "HTML Bereich Antwort" hinzuf&uuml;gen|,
+		message => q|Eine "HTML Bereich Antwort" hinzufügen|,
 		lastUpdated => 1178870156
 	},
 
 	'25' => {
-		message => q|Eine wahr/falsch Antwort hinzuf&uuml;gen.|,
+		message => q|Eine wahr/falsch Antwort hinzufügen.|,
 		lastUpdated => 1178871491
 	},
 
@@ -579,12 +579,12 @@ our $I18N = {
 	},
 
 	'answer.response.count' => {
-		message => q|Gesamtanzahl Benutzerantworten f&uuml;r diese Antwort.|,
+		message => q|Gesamtanzahl Benutzerantworten für diese Antwort.|,
 		lastUpdated => 1178876939
 	},
 
 	'report question_loop' => {
-		message => q|Eine Schleife, die Fragen enth&auml;lt.|,
+		message => q|Eine Schleife, die Fragen enthält.|,
 		lastUpdated => 1179738149
 	},
 
@@ -594,22 +594,22 @@ our $I18N = {
 	},
 
 	'overview template' => {
-		message => q|&Uuml;bersicht Template|,
+		message => q|Übersicht Template|,
 		lastUpdated => 1179732608
 	},
 
 	'gradebook template description' => {
-		message => q|Dieses Template wird benutzt, um f&uuml;r jeden einzelnen Benutzer darzustellen, wie viele Fragen richtig beantwortet wurden bzw. der prozentuale Anteil der richtige Antworten.|,
+		message => q|Dieses Template wird benutzt, um für jeden einzelnen Benutzer darzustellen, wie viele Fragen richtig beantwortet wurden bzw. der prozentuale Anteil der richtige Antworten.|,
 		lastUpdated => 1179732283
 	},
 
 	'survey.label' => {
-		message => q|Das Standard Label f&uuml;r survey.url.|,
+		message => q|Das Standard Label für survey.url.|,
 		lastUpdated => 1179741789
 	},
 
 	'delete.all.responses.label' => {
-		message => q|Der Standard Label f&uuml;r delete.all.response.url.|,
+		message => q|Der Standard Label für delete.all.response.url.|,
 		lastUpdated => 1178877190
 	},
 
@@ -629,32 +629,32 @@ our $I18N = {
 	},
 
 	'46' => {
-		message => q|Danke, dass Sie sich f&uuml;r die Teilnahme an der Umfrage Zeit genommen haben.|,
+		message => q|Danke, dass Sie sich für die Teilnahme an der Umfrage Zeit genommen haben.|,
 		lastUpdated => 1178875045
 	},
 
 	'start.date.label' => {
-		message => q|Das Standard Label f&uuml;r start.date.human.|,
+		message => q|Das Standard Label für start.date.human.|,
 		lastUpdated => 1179741618
 	},
 
 	'section.edit_loop' => {
-		message => q|Schleife, die alle Sektionen und deren Fragen enth&auml;lt. Inklusive der Kontrollelemente zum Bearbeiten.|,
+		message => q|Schleife, die alle Sektionen und deren Fragen enthält. Inklusive der Kontrollelemente zum Bearbeiten.|,
 		lastUpdated => 1179741426
 	},
 
 	'report.overview.url' => {
-		message => q|URL, die zur Anzeige der statistischen &Uuml;bersicht dieser Umfrage benutzt wird.|,
+		message => q|URL, die zur Anzeige der statistischen Übersicht dieser Umfrage benutzt wird.|,
 		lastUpdated => 1179740716
 	},
 
 	'6' => {
-		message => q|Zuf&auml;llig|,
+		message => q|Zufällig|,
 		lastUpdated => 1178875291
 	},
 
 	'response.percent.label' => {
-		message => q|Das Standard Label f&uuml;r response.percent.|,
+		message => q|Das Standard Label für response.percent.|,
 		lastUpdated => 1179741028
 	},
 
@@ -684,7 +684,7 @@ our $I18N = {
 	},
 
 	'export.composite.label' => {
-		message => q|Das Standard Label f&uuml;r export.composite.url.|,
+		message => q|Das Standard Label für export.composite.url.|,
 		lastUpdated => 1179731807
 	},
 
@@ -719,12 +719,12 @@ our $I18N = {
 	},
 
 	'44' => {
-		message => q|Sind Sie sich sicher, dass Sie diese Frage, ihre Antworten und Antworten der jeweiligen Benutzer l&ouml;schen wollen.|,
+		message => q|Sind Sie sich sicher, dass Sie diese Frage, ihre Antworten und Antworten der jeweiligen Benutzer löschen wollen.|,
 		lastUpdated => 1178875003
 	},
 
 	'27' => {
-		message => q|Eine Antwort Meinungsskala (stimme zu/stimme nicht zu) hinzuf&uuml;gen.|,
+		message => q|Eine Antwort Meinungsskala (stimme zu/stimme nicht zu) hinzufügen.|,
 		lastUpdated => 1178874602
 	},
 
@@ -734,7 +734,7 @@ our $I18N = {
 	},
 
 	'start.newresponse.url' => {
-		message => q|URL f&uuml;r den Start einer neuen Benutzerantwort, nachdem der Benutzer schon einmal an der Umfrage teilgenommen hat.|,
+		message => q|URL für den Start einer neuen Benutzerantwort, nachdem der Benutzer schon einmal an der Umfrage teilgenommen hat.|,
 		lastUpdated => 1179741712
 	},
 
@@ -749,12 +749,12 @@ our $I18N = {
 	},
 
 	'questions.correct.percent.label' => {
-		message => q|Das Standard Label f&uuml;r questions.correct.percent.|,
+		message => q|Das Standard Label für questions.correct.percent.|,
 		lastUpdated => 1179737888
 	},
 
 	'744' => {
-		message => q|Was als n&auml;chstes?|,
+		message => q|Was als nächstes?|,
 		lastUpdated => 1178875930
 	},
 
@@ -764,7 +764,7 @@ our $I18N = {
 	},
 
 	'cannot delete the last answer' => {
-		message => q|Sie k&ouml;nnen die letzte Antwort dieser Frage nicht l&ouml;schen. Jede Frage muss zumindest eine Antwort besitzen.|,
+		message => q|Sie können die letzte Antwort dieser Frage nicht l&ouml;schen. Jede Frage muss zumindest eine Antwort besitzen.|,
 		lastUpdated => 1178877106
 	},
 
@@ -774,7 +774,7 @@ our $I18N = {
 	},
 
 	'duration.label' => {
-		message => q|Der Standard Label f&uuml;r die Dauer.|,
+		message => q|Der Standard Label für die Dauer.|,
 		lastUpdated => 1178877288
 	},
 
@@ -809,7 +809,7 @@ our $I18N = {
 	},
 
 	'60' => {
-		message => q|Zur&uuml;ck zur Umfrage.|,
+		message => q|Zurück zur Umfrage.|,
 		lastUpdated => 1178875311
 	},
 
@@ -824,12 +824,12 @@ our $I18N = {
 	},
 
 	'17' => {
-		message => q|Umfrage Antwort hinzuf&uuml;gen/bearbeiten|,
+		message => q|Umfrage Antwort hinzufügen/bearbeiten|,
 		lastUpdated => 1178871262
 	},
 
 	'questions.correct.count.label' => {
-		message => q|Das Standard Label f&uuml;r questions.correct.count.|,
+		message => q|Das Standard Label für questions.correct.count.|,
 		lastUpdated => 1179737832
 	},
 
@@ -854,7 +854,7 @@ our $I18N = {
 	},
 
 	'question_loop' => {
-		message => q|Eine Schleife, die die Fragen dieser Umfrage Benutzerantwort enth&auml;lt.|,
+		message => q|Eine Schleife, die die Fragen dieser Umfrage Benutzerantwort enthält.|,
 		lastUpdated => 1179737740
 	},
 
@@ -864,17 +864,17 @@ our $I18N = {
 	},
 
 	'question.add.url' => {
-		message => q|URL, um eine neue Frage zur Umfrage hinzuzuf&uuml;gen.|,
+		message => q|URL, um eine neue Frage zur Umfrage hinzuzufügen.|,
 		lastUpdated => 1179733415
 	},
 
 	'69' => {
-		message => q|Diese Benutzerantwort l&ouml;schen.|,
+		message => q|Diese Benutzerantwort löschen.|,
 		lastUpdated => 1178875530
 	},
 
 	'duration.minutes.label' => {
-		message => q|Ein Label f&uuml;r "Minuten".|,
+		message => q|Ein Label für "Minuten".|,
 		lastUpdated => 1178877352
 	},
 
@@ -894,17 +894,17 @@ our $I18N = {
 	},
 
 	'15 description' => {
-		message => q|Falls auf Ja gesetzt, ist es den Benutzern erlaubt, einen Kommentar zur Antwort auf die Frage hinzuzuf&uuml;gen.|,
+		message => q|Falls auf Ja gesetzt, ist es den Benutzern erlaubt, einen Kommentar zur Antwort auf die Frage hinzuzufügen.|,
 		lastUpdated => 1178871137
 	},
 
 	'export.questions.url' => {
-		message => q|URL, um eine Datei zu erzeugen, die alle Fragen dieser Umfrage enth&auml;lt. Einzelne Felder durch Tabulatoren voneinander getrennt.|,
+		message => q|URL, um eine Datei zu erzeugen, die alle Fragen dieser Umfrage enthält. Einzelne Felder durch Tabulatoren voneinander getrennt.|,
 		lastUpdated => 1179731978
 	},
 
 	'end.date.label' => {
-		message => q|Das Standard Label f&uuml;r end.date.human.|,
+		message => q|Das Standard Label für end.date.human.|,
 		lastUpdated => 1179731643
 	},
 
@@ -924,12 +924,12 @@ our $I18N = {
 	},
 
 	'response.count' => {
-		message => q|Anzahl an Benutzerantworten dieses Benutzers f&uuml;r diese Umfrage.|,
+		message => q|Anzahl an Benutzerantworten dieses Benutzers für diese Umfrage.|,
 		lastUpdated => 1179740802
 	},
 
 	'21 description' => {
-		message => q|Benutzt, um die Frage zu w&auml;hlen, die nach dieser gestellt wird, falls die Frage Reihenfolge der Umfrage auf "antworten" gesetzt ist.|,
+		message => q|Benutzt, um die Frage zu wählen, die nach dieser gestellt wird, falls die Frage Reihenfolge der Umfrage auf "antworten" gesetzt ist.|,
 		lastUpdated => 1178871415
 	},
 
@@ -964,7 +964,7 @@ our $I18N = {
 	},
 
 	'26' => {
-		message => q|Eine Antwort H&auml;figkeitsskala (immer/nie) hinzuf&uuml;gen.|,
+		message => q|Eine Antwort Häfigkeitsskala (immer/nie) hinzufügen.|,
 		lastUpdated => 1178874566
 	},
 
@@ -979,17 +979,17 @@ our $I18N = {
 	},
 
 	'answer_loop' => {
-		message => q|Eine Schleife, die die Antworten und Benutzerantworten dieser Frage enth&auml;lt.|,
+		message => q|Eine Schleife, die die Antworten und Benutzerantworten dieser Frage enthält.|,
 		lastUpdated => 1178877053
 	},
 
 	'72' => {
-		message => q|Sind Sie sich sicher, dass Sie diese Benutzernatwort l&ouml;schen wollen?|,
+		message => q|Sind Sie sich sicher, dass Sie diese Benutzernatwort löschen wollen?|,
 		lastUpdated => 1178875591
 	},
 
 	'response.id' => {
-		message => q|Die eindeutige ID f&uuml;r die aktuelle Benutzerantwort dieses Benutzers.|,
+		message => q|Die eindeutige ID für die aktuelle Benutzerantwort dieses Benutzers.|,
 		lastUpdated => 1179740899
 	},
 
@@ -999,7 +999,7 @@ our $I18N = {
 	},
 
 	'11 description' => {
-		message => q|Standardm&auml;ssig befindet sich die Umfrage im Umfrage Modus. Dies erlaubt es der Umfrage, dem Benutzer Fragen zu stellen. Wenn Sie jedoch den Quiz Modus einstellen, bekommen Sie einen selbst korrigierenden Test des Wissens ihrer Benutzer.|,
+		message => q|Standardmässig befindet sich die Umfrage im Umfrage Modus. Dies erlaubt es der Umfrage, dem Benutzer Fragen zu stellen. Wenn Sie jedoch den Quiz Modus einstellen, bekommen Sie einen selbst korrigierenden Test des Wissens ihrer Benutzer.|,
 		lastUpdated => 1178870587
 	},
 
@@ -1019,12 +1019,12 @@ our $I18N = {
 	},
 
 	'question.comment.field' => {
-		message => q|Das Formular Feld f&uuml;r die Eingabe eines Kommentars zu dieser Frage.|,
+		message => q|Das Formular Feld für die Eingabe eines Kommentars zu dieser Frage.|,
 		lastUpdated => 1179733543
 	},
 
 	'section.add.label' => {
-		message => q|Das Standard Label f&uuml;r section.add.url.|,
+		message => q|Das Standard Label für section.add.url.|,
 		lastUpdated => 1179741197
 	},
 
@@ -1039,7 +1039,7 @@ our $I18N = {
 	},
 
 	'50' => {
-		message => q|N&auml;chste|,
+		message => q|Nächste|,
 		lastUpdated => 1178875143
 	},
 
@@ -1049,7 +1049,7 @@ our $I18N = {
 	},
 
 	'8 description' => {
-		message => q|Die Reihenfolge, in der die Fragen gestellt werden. Sequentiell zeigt die Fragen in der Reihenfolge an, in der sie erstellt wurden. Zuf&auml;llig ordnet die Fragen dem Zufall nach an. Je nach Benutzerantwort ordnet die Fragen basierend auf die Antworten der Beutzer an.|,
+		message => q|Die Reihenfolge, in der die Fragen gestellt werden. Sequentiell zeigt die Fragen in der Reihenfolge an, in der sie erstellt wurden. Zufällig ordnet die Fragen dem Zufall nach an. Je nach Benutzerantwort ordnet die Fragen basierend auf die Antworten der Beutzer an.|,
 		lastUpdated => 1178876136
 	},
 
@@ -1064,7 +1064,7 @@ our $I18N = {
 	},
 
 	'what next answer description' => {
-		message => q|Nachdem Sie eine Antwort geschrieben haben, k&ouml;nnen Sie folgendes tun: Antwort zur Frage hinzuf&uuml;gen, eine andere Frage hinzuf&uuml;gen, die aktuelle Frage bearbeiten oder zur&uuml;ck zur Seite gehen, die die Umfrage enth&auml;lt.|,
+		message => q|Nachdem Sie eine Antwort geschrieben haben, können Sie folgendes tun: Antwort zur Frage hinzufügen, eine andere Frage hinzuf&uuml;gen, die aktuelle Frage bearbeiten oder zur&uuml;ck zur Seite gehen, die die Umfrage enthält.|,
 		lastUpdated => 1179742315
 	},
 
@@ -1104,7 +1104,7 @@ our $I18N = {
 	},
 
 	'section.questions_loop' => {
-		message => q|Schleife, die alle Fragen dieser Sektion der Umfrage enth&auml;lt. Inklusive der Kontrollelemente zum Bearbeiten.|,
+		message => q|Schleife, die alle Fragen dieser Sektion der Umfrage enthält. Inklusive der Kontrollelemente zum Bearbeiten.|,
 		lastUpdated => 1179741467
 	},
 
@@ -1114,12 +1114,12 @@ our $I18N = {
 	},
 
 	'question.answer.field' => {
-		message => q|Das Formular Feld f&uuml;r die m&ouml;glichen Antworten auf diese Frage.|,
+		message => q|Das Formular Feld für die möglichen Antworten auf diese Frage.|,
 		lastUpdated => 1179733487
 	},
 
 	'30' => {
-		message => q|Eine neue Frage hinzuf&uuml;gen.|,
+		message => q|Eine neue Frage hinzufügen.|,
 		lastUpdated => 1178874663
 	},
 
@@ -1129,17 +1129,17 @@ our $I18N = {
 	},
 
 	'overviewTemplateId' => {
-		message => q|Die ID des Templates f&uuml;r die Anzeige der &Uuml;bersicht.|,
+		message => q|Die ID des Templates für die Anzeige der Übersicht.|,
 		lastUpdated => 1179732888
 	},
 
 	'81 description' => {
-		message => q|W&auml;hlen Sie, ob die die Umfrage den Benutzeranfragen Daten des Benutzers zuordnen soll. "Nein" bedeutet, dass die Umfrage die IP Adresse, die Benutzer ID und den Benutzernamen (falls Benutzer angemeldet ist) aufzeichnet. Diese Informationen sind in den Umfrage Reports verf&uuml;gbar. "Ja" bedeutet, dass diese drei Felder nur unleserliche Daten enthalten und nicht auf einen bestimmten Benutzer geschlossen werden kann.|,
+		message => q|Wählen Sie, ob die die Umfrage den Benutzeranfragen Daten des Benutzers zuordnen soll. "Nein" bedeutet, dass die Umfrage die IP Adresse, die Benutzer ID und den Benutzernamen (falls Benutzer angemeldet ist) aufzeichnet. Diese Informationen sind in den Umfrage Reports verfügbar. "Ja" bedeutet, dass diese drei Felder nur unleserliche Daten enthalten und nicht auf einen bestimmten Benutzer geschlossen werden kann.|,
 		lastUpdated => 1178876371
 	},
 
 	'28' => {
-		message => q|Eine Frage hinzuf&uuml;gen.|,
+		message => q|Eine Frage hinzufügen.|,
 		lastUpdated => 1178874617
 	},
 
@@ -1164,7 +1164,7 @@ our $I18N = {
 	},
 
 	'59' => {
-		message => q|Statistischen &Uuml;berblick ansehen.|,
+		message => q|Statistischen Überblick ansehen.|,
 		lastUpdated => 1178875271
 	},
 
@@ -1179,17 +1179,17 @@ our $I18N = {
 	},
 
 	'105' => {
-		message => q|Sind Sie sich sicher, dass Sie diesen Abschnitt l&ouml;schen wolen?|,
+		message => q|Sind Sie sich sicher, dass Sie diesen Abschnitt löschen wolen?|,
 		lastUpdated => 1178870263
 	},
 
 	'section.edit.controls' => {
-		message => q|Symbolleiste f&uuml;r das Bearbeiten, L&ouml;schen und Verschieben dieser Sektion.|,
+		message => q|Symbolleiste für das Bearbeiten, Löschen und Verschieben dieser Sektion.|,
 		lastUpdated => 1179741270
 	},
 
 	'report answer.label' => {
-		message => q|Das internationalisierte Label f&uuml;r "Answers".|,
+		message => q|Das internationalisierte Label für "Answers".|,
 		lastUpdated => 1179738133
 	},
 
@@ -1204,7 +1204,7 @@ our $I18N = {
 	},
 
 	'gradebookTemplateId' => {
-		message => q|Die ID des Templates f&uuml;r die Anzeige des Gradebooks.|,
+		message => q|Die ID des Templates für die Anzeige des Gradebooks.|,
 		lastUpdated => 1179732319
 	},
 
@@ -1219,7 +1219,7 @@ our $I18N = {
 	},
 
 	'what next description' => {
-		message => q|Nachdem Sie die Umfrage erstellt haben k&ouml;nnen Sie beginnen, Fragen hinzuzuf&uml;gen oder zur&uuml;ck zur Seite gehen, die die Umfrage enth&auuml;lt.|,
+		message => q|Nachdem Sie die Umfrage erstellt haben können Sie beginnen, Fragen hinzuzuf&uml;gen oder zurück zur Seite gehen, die die Umfrage enth&auuml;lt.|,
 		lastUpdated => 1179742390
 	},
 
@@ -1229,7 +1229,7 @@ our $I18N = {
 	},
 
 	'745' => {
-		message => q|Gehe zur&uuml;ck zur Seite.|,
+		message => q|Gehe zurück zur Seite.|,
 		lastUpdated => 1178875945
 	},
 

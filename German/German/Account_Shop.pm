@@ -19,7 +19,7 @@ our $I18N = {
   },
   'shop layout template hoverHelp' => {
     'lastUpdated' => '1233946166',
-    'message' => 'Die Schablone zur Anzeige des Ladenreiters sowie einer Auflistung der anderen verfügbaren Konto-Erweiterungen.'
+    'message' => 'Die Vorlage zur Anzeige des Ladenreiters sowie einer Auflistung der anderen verfügbaren Konto-Erweiterungen.'
   },
   'shop layout template label' => {
     'lastUpdated' => '1233941481',
@@ -27,11 +27,11 @@ our $I18N = {
   },
   'shop style template hoverHelp' => {
     'lastUpdated' => '1233946132',
-    'message' => 'Der Anzeigestil für die Laden-Erweiterung in der Kontoansicht.'
+    'message' => 'Der Stilvorlage für die Laden-Erweiterung in der Kontoansicht.'
   },
   'shop style template label' => {
     'lastUpdated' => '1233941500',
-    'message' => 'Anzeigestil'
+    'message' => 'Stilvorlage'
   },
   'title' => {
     'lastUpdated' => '1233945984',

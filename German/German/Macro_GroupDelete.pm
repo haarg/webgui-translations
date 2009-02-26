@@ -3,7 +3,7 @@ use utf8;
 
 our $I18N = {
 	'group.text' => {
-		message => q|Der angegebene Text f&uuml;r den Link, auf den der Benutzer klicken muss.|,
+		message => q|Der angegebene Text für den Link, auf den der Benutzer klicken muss.|,
 		lastUpdated => 1178787318
 	},
 

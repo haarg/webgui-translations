@@ -23,7 +23,7 @@ our $I18N = {
 	},
 
 	'price' => {
-		message => q|Preis f&uuml;r den Artikel|,
+		message => q|Preis für den Artikel|,
 		lastUpdated => 1178776501
 	},
 

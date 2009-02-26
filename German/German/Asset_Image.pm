@@ -8,17 +8,17 @@ our $I18N = {
 	},
 
 	'image size' => {
-		message => q|Gr&ouml;&szlig;e des Bildes|,
+		message => q|Größe des Bildes|,
 		lastUpdated => 1178698427
 	},
 
 	'menuTitle' => {
-		message => q|Der Men&uuml;titel. Wird dargestellt in der Navigation und wird von ihnen manuell gesetzt wenn das Bild hochgeladen wird oder automatisch vom System(Dateiname), wenn kein Men&uuml;titel manuell eingegeben wurde.|,
+		message => q|Der Menütitel. Wird dargestellt in der Navigation und wird von ihnen manuell gesetzt wenn das Bild hochgeladen wird oder automatisch vom System(Dateiname), wenn kein Men&uuml;titel manuell eingegeben wurde.|,
 		lastUpdated => 1178698796
 	},
 
 	'thumbnail size' => {
-		message => q|Thumbnail Gr&ouml;&szlig;e |,
+		message => q|Thumbnail Größe |,
 		lastUpdated => 1178699397
 	},
 
@@ -33,17 +33,17 @@ our $I18N = {
 	},
 
 	'new height' => {
-		message => q|Neue H&ouml;he|,
+		message => q|Neue Höhe|,
 		lastUpdated => 1178698874
 	},
 
 	'Parameters description' => {
-		message => q|Dies ist ein Satz von zus&auml;tzlichen Parametern f&uuml;r das <IMG> Tag, das f&uuml;r das Bild generiert wird. Sie k&ouml;nnen dies nutzen, um zum Beispiel das alignment oder einen alternativen Text(Barrierefreiheit) anzugeben.|,
+		message => q|Dies ist ein Satz von zusätzlichen Parametern für das <IMG> Tag, das f&uuml;r das Bild generiert wird. Sie können dies nutzen, um zum Beispiel das alignment oder einen alternativen Text(Barrierefreiheit) anzugeben.|,
 		lastUpdated => 1178697898
 	},
 
 	'controls' => {
-		message => q|Symbolleiste f&uuml;r das Bearbeiten der Datei.|,
+		message => q|Symbolleiste für das Bearbeiten der Datei.|,
 		lastUpdated => 1178698160
 	},
 
@@ -68,12 +68,12 @@ our $I18N = {
 	},
 
 	'resize image' => {
-		message => q|Gr&ouml;&szlig;e des Bildes anpassen|,
+		message => q|Größe des Bildes anpassen|,
 		lastUpdated => 1178699014
 	},
 
 	'new height description' => {
-		message => q|Neue H&ouml;he des Bildes|,
+		message => q|Neue Höhe des Bildes|,
 		lastUpdated => 1178698893
 	},
 
@@ -83,12 +83,12 @@ our $I18N = {
 	},
 
 	'new file description' => {
-		message => q|Geben Sie hier den Pfad zur hochzuladenden Datei an oder benutzen Sie die "Browse" Schaltfl&auml;che, um die hochzuladenden Datei auf ihrem Computer zu suchen.|,
+		message => q|Geben Sie hier den Pfad zur hochzuladenden Datei an oder benutzen Sie die "Browse" Schaltfläche, um die hochzuladenden Datei auf ihrem Computer zu suchen.|,
 		lastUpdated => 1178698860
 	},
 
 	'Thumbnail size description' => {
-		message => q|Ein Thumbnail des Bildes wird erzeugt und f&uuml;r die Benutzung in Templates zur Verf&uuml;gung gestellt. Die l&auml;ngere Seite des Thumbnails wird auf diese Gr&ouml;&szlig;e in Pixeln gesetzt. Standard ist die systemweite Einstellung.|,
+		message => q|Ein Thumbnail des Bildes wird erzeugt und für die Benutzung in Templates zur Verf&uuml;gung gestellt. Die längere Seite des Thumbnails wird auf diese Größe in Pixeln gesetzt. Standard ist die systemweite Einstellung.|,
 		lastUpdated => 1178698112
 	},
 
@@ -98,7 +98,7 @@ our $I18N = {
 	},
 
 	'image template description' => {
-		message => q|Bild Templates erlauben ihnen die Darstellung von Informationen &uuml;ber Bilder wie zum Beispiel Thumbnails, Dateinamen oder das Bild selbst.|,
+		message => q|Bild Templates erlauben ihnen die Darstellung von Informationen über Bilder wie zum Beispiel Thumbnails, Dateinamen oder das Bild selbst.|,
 		lastUpdated => 1178698666
 	},
 
@@ -113,17 +113,17 @@ our $I18N = {
 	},
 
 	'filename' => {
-		message => q|Der Name f&uuml;r das Bild|,
+		message => q|Der Name für das Bild|,
 		lastUpdated => 1178697727
 	},
 
 	'parameters variable' => {
-		message => q|Irgendein zus&auml;tzlicher IMG Tag Parameter, der beim Hochladen des Bildes eingegeben wurde.|,
+		message => q|Irgendein zusätzlicher IMG Tag Parameter, der beim Hochladen des Bildes eingegeben wurde.|,
 		lastUpdated => 1178698978
 	},
 
 	'thumbnailSize' => {
-		message => q|Ein Integer Wert, der die L&auml;nge der l&auml;ngsten Seite des Bildes beinhaltet.|,
+		message => q|Ein Integer Wert, der die Länge der l&auml;ngsten Seite des Bildes beinhaltet.|,
 		lastUpdated => 1178699467
 	},
 
@@ -138,12 +138,12 @@ our $I18N = {
 	},
 
 	'storageId' => {
-		message => q|Interne Speicher ID f&uuml;r diese Datei.|,
+		message => q|Interne Speicher ID für diese Datei.|,
 		lastUpdated => 1178699356
 	},
 
 	'image size description' => {
-		message => q|Aktuelle Gr&ouml;&szlig;e des Bildes, Breite und H&ouml;he gemessen in Pixel|,
+		message => q|Aktuelle Größe des Bildes, Breite und H&ouml;he gemessen in Pixel|,
 		lastUpdated => 1178698470
 	},
 

@@ -3,11 +3,11 @@ use utf8;
 our $I18N = {
   '301 Moved Permanently' => {
     'lastUpdated' => '1225318143',
-    'message' => '301 Permanent ge&auml;ndert'
+    'message' => '301 Permanent geändert'
   },
   '302 Moved Temporarily' => {
     'lastUpdated' => '1225318162',
-    'message' => '302 Tempor&auml;r ge&auml;ndert'
+    'message' => '302 Temporär ge&auml;ndert'
   },
   'Redirect Type' => {
     'lastUpdated' => '1225318180',
@@ -23,7 +23,7 @@ our $I18N = {
   },
   'go to the redirect parent page' => {
     'lastUpdated' => '1170408206',
-    'message' => 'Gehe zu Redirects Vorg&auml;nger.'
+    'message' => 'Gehe zu Redirects Vorgänger.'
   },
   'go to the redirect url' => {
     'lastUpdated' => '1170408218',

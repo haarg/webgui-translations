@@ -7,7 +7,7 @@ our $I18N = {
   },
   'add to network label' => {
     'lastUpdated' => 1228754447,
-    'message' => 'Zum Netzwerk hinzuf&uuml;gen'
+    'message' => 'Zum Netzwerk hinzufügen'
   },
   'adding user message' => {
     'lastUpdated' => 1229283409,
@@ -63,27 +63,27 @@ our $I18N = {
   },
   'friends confirm template hoverHelp' => {
     'lastUpdated' => 1229283707,
-    'message' => "W\x{e4}hlen Sie eine Schablone f\x{fc}r die Best\x{e4}tigung, dass eine Einladung in das Freunde-Netzwerk versandt wurde!"
+    'message' => "W\x{e4}hlen Sie eine Vorlage f\x{fc}r die Best\x{e4}tigung, dass eine Einladung in das Freunde-Netzwerk versandt wurde!"
   },
   'friends confirm template label' => {
     'lastUpdated' => 1229281323,
-    'message' => "Versandbest\x{e4}tigungs-Schablone"
+    'message' => "Versandbest\x{e4}tigungs-Vorlage"
   },
   'friends edit template hoverHelp' => {
     'lastUpdated' => 1229283719,
-    'message' => 'Wählen Sie die Schablone zur Bearbeitung Ihrer Freunde!'
+    'message' => 'Wählen Sie die Vorlage zur Bearbeitung Ihrer Freunde!'
   },
   'friends edit template label' => {
     'lastUpdated' => 1229280969,
-    'message' => 'Bearbeitungs-Schablone'
+    'message' => 'Bearbeitungs-Vorlage'
   },
   'friends error template hoverHelp' => {
     'lastUpdated' => 1229282802,
-    'message' => "W\x{e4}hlen Sie eine Schablone zur Anzeige von Fehlermeldungen!"
+    'message' => "W\x{e4}hlen Sie eine Vorlage zur Anzeige von Fehlermeldungen!"
   },
   'friends error template label' => {
     'lastUpdated' => 1229280939,
-    'message' => 'Fehlermeldungs-Schablone'
+    'message' => 'Fehlermeldungs-Vorlage'
   },
   'friends is off' => {
     'lastUpdated' => 1229277515,
@@ -91,43 +91,43 @@ our $I18N = {
   },
   'friends layout template hoverHelp' => {
     'lastUpdated' => 1229283738,
-    'message' => "W\x{e4}hlen Sie eine Schablone zur Anzeige der Konten-Plugins, welche vom gegenw\x{e4}rtigen Benutzer bearbeitet werden k\x{f6}nnen sowie zur Anzeige des Inhalts des gegenw\x{e4}rtig gew\x{e4}hlten Plugins!"
+    'message' => "W\x{e4}hlen Sie eine Vorlage zur Anzeige der Konten-Plugins, welche vom gegenw\x{e4}rtigen Benutzer bearbeitet werden k\x{f6}nnen sowie zur Anzeige des Inhalts des gegenw\x{e4}rtig gew\x{e4}hlten Plugins!"
   },
   'friends layout template label' => {
     'lastUpdated' => 1229283908,
-    'message' => 'Bearbeitungslayout-Schablone'
+    'message' => 'Bearbeitungslayout-Vorlage'
   },
   'friends remove confirm template hoverHelp' => {
     'lastUpdated' => 1229283323,
-    'message' => 'Wählen Sie eine Schablone zur Anzeige von Bestätigungsmeldungen für die Entfernung eines Freundes.'
+    'message' => 'Wählen Sie eine Vorlage zur Anzeige von Bestätigungsmeldungen für die Entfernung eines Freundes.'
   },
   'friends remove confirm template label' => {
     'lastUpdated' => 1229280839,
-    'message' => "Entfernungsbest\x{e4}tigungs-Schablone"
+    'message' => "Entfernungsbest\x{e4}tigungs-Vorlage"
   },
   'friends send request template hoverHelp' => {
     'lastUpdated' => 1229282684,
-    'message' => "W\x{e4}hlen Sie die Schablone f\x{fc}r den Versand von Freundschaftsanfragen!"
+    'message' => "W\x{e4}hlen Sie die Vorlage f\x{fc}r den Versand von Freundschaftsanfragen!"
   },
   'friends send request template label' => {
     'lastUpdated' => 1229282579,
-    'message' => 'Freundschaftsanfragen-Schablone'
+    'message' => 'Freundschaftsanfragen-Vorlage'
   },
   'friends style template hoverHelp' => {
     'lastUpdated' => 1229283770,
-    'message' => "W\x{e4}hlen Sie eine Stil-Schablone f\x{fc}r die Darstellung der umgebenden Seite!"
+    'message' => "W\x{e4}hlen Sie eine Stil-Vorlage f\x{fc}r die Darstellung der umgebenden Seite!"
   },
   'friends style template label' => {
     'lastUpdated' => 1229280811,
-    'message' => 'Stil-Schablone'
+    'message' => 'Stil-Vorlage'
   },
   'friends view template hoverHelp' => {
     'lastUpdated' => 1229283759,
-    'message' => 'Wählen Sie die primäre Schablone zur Darstellung von Freunden!'
+    'message' => 'Wählen Sie die primäre Vorlage zur Darstellung von Freunden!'
   },
   'friends view template label' => {
     'lastUpdated' => 1229281388,
-    'message' => 'Darstellungs-Schablone'
+    'message' => 'Darstellungs-Vorlage'
   },
   'member since' => {
     'lastUpdated' => 1228754178,
@@ -143,7 +143,7 @@ our $I18N = {
   },
   'no friend selected' => {
     'lastUpdated' => 1229335106,
-    'message' => 'Sie haben keinen Freund zum L&ouml;schen von Ihrer Freundeliste ausgew&auml;hlt. '
+    'message' => 'Sie haben keinen Freund zum Löschen von Ihrer Freundeliste ausgewählt. '
   },
   'not a friend error' => {
     'lastUpdated' => 1229283692,
@@ -155,7 +155,7 @@ our $I18N = {
   },
   'remove confirm message' => {
     'lastUpdated' => 1228754634,
-    'message' => 'Sind Sie sicher, dass Sie %s aus Ihrer Freunde-Liste l&ouml;schen m&ouml;chten?'
+    'message' => 'Sind Sie sicher, dass Sie %s aus Ihrer Freunde-Liste löschen m&ouml;chten?'
   },
   'remove confirm no' => {
     'lastUpdated' => 1228754541,

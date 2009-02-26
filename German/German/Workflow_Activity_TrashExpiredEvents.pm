@@ -4,17 +4,17 @@ use utf8;
 
 our $I18N = {
 	'trash after' => {
-		message => q|L&ouml;sche nach|,
+		message => q|Lösche nach|,
 		lastUpdated => 1179908854
 	},
 
 	'trash after help' => {
-		message => q|Wie lange sollen alte Termine im Kalender verbleiben, bevor sie gel&ouml;scht werden.|,
+		message => q|Wie lange sollen alte Termine im Kalender verbleiben, bevor sie gelöscht werden.|,
 		lastUpdated => 1179908883
 	},
 
 	'activityName' => {
-		message => q|L&ouml;sche abgelaufene Termine|,
+		message => q|Lösche abgelaufene Termine|,
 		lastUpdated => 1179908847
 	},
 

@@ -11,7 +11,7 @@ our $I18N = {
   },
   'limited' => {
     'lastUpdated' => '1228689857',
-    'message' => 'Beschr&auml;nkt'
+    'message' => 'Beschränkt'
   },
   'matrix compare' => {
     'lastUpdated' => '1234944246',

@@ -3,7 +3,7 @@ use utf8;
 
 our $I18N = {
 	'za_show_error' => {
-		message => q|Sie m&uuml;ssen eine initiale Seite angeben, um Benutzer zu leiten.|,
+		message => q|Sie müssen eine initiale Seite angeben, um Benutzer zu leiten.|,
 		lastUpdated => 1179845543
 	},
 
@@ -18,7 +18,7 @@ our $I18N = {
 	},
 
 	'noInitialPage var' => {
-		message => q|Ein internationalisiertes Label f&uuml;r einen Fehler, falls keine initiale Seite angegeben wurde.|,
+		message => q|Ein internationalisiertes Label für einen Fehler, falls keine initiale Seite angegeben wurde.|,
 		lastUpdated => 1179844900
 	},
 
@@ -28,7 +28,7 @@ our $I18N = {
 	},
 
 	'za_error' => {
-		message => q|Dieses Asset akzeptiert nur g&uuml;ltige Tar und Zip Dateien.|,
+		message => q|Dieses Asset akzeptiert nur gültige Tar und Zip Dateien.|,
 		lastUpdated => 1179845487
 	},
 
@@ -43,7 +43,7 @@ our $I18N = {
 	},
 
 	'zip archive asset variables body' => {
-		message => q|Die folgenden Variablen sind in Zip Archiven verf&uuml;gbar. Manche davon k&ouml;nnen n&uuml;tzlich sein, andere nicht:|,
+		message => q|Die folgenden Variablen sind in Zip Archiven verfügbar. Manche davon können n&uuml;tzlich sein, andere nicht:|,
 		lastUpdated => 1179845736
 	},
 
@@ -53,32 +53,32 @@ our $I18N = {
 	},
 
 	'zip_error' => {
-		message => q|Ein Fehler trat beim Entzippen des Archivs auf. Bitte stellen Sie sicher, dass die Datei nicht durch ein Passwort gesch&uuml;tzt ist und dass das Betriebssystem darauf zugreifen kann.|,
+		message => q|Ein Fehler trat beim Entzippen des Archivs auf. Bitte stellen Sie sicher, dass die Datei nicht durch ein Passwort geschützt ist und dass das Betriebssystem darauf zugreifen kann.|,
 		lastUpdated => 1179845860
 	},
 
 	'error' => {
-		message => q|Jede Art von Fehler, die w&auml;hrend dem Upload oder dem entzippen auftreten.|,
+		message => q|Jede Art von Fehler, die während dem Upload oder dem entzippen auftreten.|,
 		lastUpdated => 1179844789
 	},
 
 	'unzip_error' => {
-		message => q|Datei konnte nicht entzippt werden. Bitte laden Sie ein g&uuml;ltiges Archiv hoch.|,
+		message => q|Datei konnte nicht entzippt werden. Bitte laden Sie ein gültiges Archiv hoch.|,
 		lastUpdated => 1179845460
 	},
 
 	'controls' => {
-		message => q|Asset Kontrollelemente f&uuml;r Administratoren.|,
+		message => q|Asset Kontrollelemente für Administratoren.|,
 		lastUpdated => 1179844752
 	},
 
 	'templateId' => {
-		message => q|Die ID des Templates, das f&uuml;r die Anzeige des Inhalts des Zip Archivs benutzt wird.|,
+		message => q|Die ID des Templates, das für die Anzeige des Inhalts des Zip Archivs benutzt wird.|,
 		lastUpdated => 1179845034
 	},
 
 	'bad_archive' => {
-		message => q|Kein g&uuml;ltiges Archiv. Bitte benutzen Sie Zip oder Tar Archive, um Dateien zu importieren.|,
+		message => q|Kein gültiges Archiv. Bitte benutzen Sie Zip oder Tar Archive, um Dateien zu importieren.|,
 		lastUpdated => 1179844735
 	},
 
@@ -93,7 +93,7 @@ our $I18N = {
 	},
 
 	'noFileSpecified var' => {
-		message => q|Ein internationalisiertes Label f&uuml;r einen Fehler, falls keine Datei angegeben wurde.|,
+		message => q|Ein internationalisiertes Label für einen Fehler, falls keine Datei angegeben wurde.|,
 		lastUpdated => 1179844860
 	},
 
@@ -103,7 +103,7 @@ our $I18N = {
 	},
 
 	'zip archive template body' => {
-		message => q|Die folgenden Variablen sind in Zip Archiv Templates verf&uuml;gbar:|,
+		message => q|Die folgenden Variablen sind in Zip Archiv Templates verfügbar:|,
 		lastUpdated => 1179845771
 	},
 

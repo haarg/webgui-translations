@@ -3,7 +3,7 @@ use utf8;
 our $I18N = {
   'add a version tag' => {
     'lastUpdated' => 1179996262,
-    'message' => 'Version Tag hinzuf&uuml;gen.'
+    'message' => 'Version Tag hinzufügen.'
   },
   'approval message' => {
     'lastUpdated' => 1179996604,
@@ -51,11 +51,11 @@ our $I18N = {
   },
   'comments description commit' => {
     'lastUpdated' => 1166615405,
-    'message' => 'F&uuml;gen sie Kommentare oder Feedback zu diesem Tag hinzu. Diese sind f&uuml;r alle sichtbar, die zuk&uuml;nftig diesen Tag ansehen. '
+    'message' => 'Fügen sie Kommentare oder Feedback zu diesem Tag hinzu. Diese sind f&uuml;r alle sichtbar, die zuk&uuml;nftig diesen Tag ansehen. '
   },
   'comments help' => {
     'lastUpdated' => 1166615504,
-    'message' => 'F&uuml;gen sie Kommentare und Feedback zu diesem Tag hinzu. Diese sind f&uuml;r alle sichtbar, die diesen Tag w&auml;hrend der Ver&ouml;ffentlichung und dem Commit sowie zuk&uuml;nftig ansehen. '
+    'message' => 'Fügen sie Kommentare und Feedback zu diesem Tag hinzu. Diese sind f&uuml;r alle sichtbar, die diesen Tag während der Veröffentlichung und dem Commit sowie zuk&uuml;nftig ansehen. '
   },
   'commit' => {
     'lastUpdated' => 1166615513,
@@ -63,7 +63,7 @@ our $I18N = {
   },
   'commit accepted' => {
     'lastUpdated' => 1166615018,
-    'message' => 'Ihr Tag wurde zur Ausf&uuml;hrung &uuml;bergeben. Es kann eine Zeit dauern bevor ihre &Auml;nderungen wirksam werden. Wohin wollen sie als n&auml;chstes? '
+    'message' => 'Ihr Tag wurde zur Ausführung &uuml;bergeben. Es kann eine Zeit dauern bevor ihre Änderungen wirksam werden. Wohin wollen sie als nächstes? '
   },
   'commit version tag' => {
     'lastUpdated' => 1179996256,
@@ -71,7 +71,7 @@ our $I18N = {
   },
   'commit version tag confirm' => {
     'lastUpdated' => 1179997369,
-    'message' => 'Sind sie sich sicher, da&szlig; sie den Version Tag und seinen Inhalt ver&ouml;ffentlichen wollen? '
+    'message' => 'Sind sie sich sicher, daß sie den Version Tag und seinen Inhalt veröffentlichen wollen? '
   },
   'committed by' => {
     'lastUpdated' => 1179996283,
@@ -119,15 +119,15 @@ our $I18N = {
   },
   'do on approve help' => {
     'lastUpdated' => 1216639587,
-    'message' => 'Welcher Workflow wird ausgef&uuml;hrt, falls der Version Tag von dieser Aktivit&auml;t freigegeben wird.'
+    'message' => 'Welcher Workflow wird ausgeführt, falls der Version Tag von dieser Aktivität freigegeben wird.'
   },
   'do on deny' => {
     'lastUpdated' => 1179996703,
-    'message' => 'Bei Ablehnung ausf&uuml;hren'
+    'message' => 'Bei Ablehnung ausführen'
   },
   'do on deny help' => {
     'lastUpdated' => 1166618282,
-    'message' => 'Welcher Workflow soll ausgef&uuml;hrt werden, falls der Tag abgelehnt wird?'
+    'message' => 'Welcher Workflow soll ausgeführt werden, falls der Tag abgelehnt wird?'
   },
   'edit version tag' => {
     'lastUpdated' => 1179996383,
@@ -135,7 +135,7 @@ our $I18N = {
   },
   'endTime hoverHelp' => {
     'lastUpdated' => 1216639683,
-    'message' => 'Zeitpunkt, ab dem dieser Version Tag nicht mehr angezeigt werden soll. Workflows m&uuml;ssen hierf&uuml;r korrekt konfiguriert sein.'
+    'message' => 'Zeitpunkt, ab dem dieser Version Tag nicht mehr angezeigt werden soll. Workflows müssen hierf&uuml;r korrekt konfiguriert sein.'
   },
   'endTime label' => {
     'lastUpdated' => 1216639697,
@@ -143,7 +143,7 @@ our $I18N = {
   },
   'error permission www_manageRevisionsInTag body' => {
     'lastUpdated' => 1224800020,
-    'message' => 'Sie sind nicht berechtigt, diesen Versionstag zu sehen. Es ist m&ouml;glich, dass dieser bereits gepr&uuml;ft oder abgelehnt wurde.'
+    'message' => 'Sie sind nicht berechtigt, diesen Versionstag zu sehen. Es ist möglich, dass dieser bereits geprüft oder abgelehnt wurde.'
   },
   'error permission www_manageRevisionsInTag title' => {
     'lastUpdated' => 1224800039,
@@ -155,11 +155,11 @@ our $I18N = {
   },
   'group to approve' => {
     'lastUpdated' => 1179996407,
-    'message' => 'Gruppe f&uuml;r Best&auml;tigung'
+    'message' => 'Gruppe für Bestätigung'
   },
   'group to approve help' => {
     'lastUpdated' => 1166616558,
-    'message' => 'Welche Gruppe soll benachrichtigt werden und ist berechtigt den Tag zu best&auml;tigen bzw. abzulehnen? '
+    'message' => 'Welche Gruppe soll benachrichtigt werden und ist berechtigt den Tag zu bestätigen bzw. abzulehnen? '
   },
   'group to use' => {
     'lastUpdated' => 1179996444,
@@ -195,7 +195,7 @@ our $I18N = {
   },
   'manageRevisionsInTag purge' => {
     'lastUpdated' => 1216639724,
-    'message' => 'L&ouml;schen'
+    'message' => 'Löschen'
   },
   'manageRevisionsInTag update' => {
     'lastUpdated' => 1216639742,
@@ -203,11 +203,11 @@ our $I18N = {
   },
   'manageRevisionsInTag with selected' => {
     'lastUpdated' => 1217236187,
-    'message' => 'Mit ausgew&auml;hlten:'
+    'message' => 'Mit ausgewählten:'
   },
   'notify about version tag' => {
     'lastUpdated' => 1166617274,
-    'message' => 'Benachrichtige &uuml;ber Version Tag'
+    'message' => 'Benachrichtige über Version Tag'
   },
   'notify message' => {
     'lastUpdated' => 1166617300,
@@ -223,11 +223,11 @@ our $I18N = {
   },
   'purge revision prompt' => {
     'lastUpdated' => 1179997378,
-    'message' => 'Sind sie sich sicher, da&szlig; sie diese Revision des Assets l&ouml;schen wollen? Nach dem L&ouml;schen kann diese nicht wieder hergestellt werden.'
+    'message' => 'Sind sie sich sicher, daß sie diese Revision des Assets löschen wollen? Nach dem L&ouml;schen kann diese nicht wieder hergestellt werden.'
   },
   'request approval for version tag' => {
     'lastUpdated' => 1179996503,
-    'message' => 'Beantrage Freigabe f&uuml;r Version Tag'
+    'message' => 'Beantrage Freigabe für Version Tag'
   },
   'revisions in tag' => {
     'lastUpdated' => 1179996510,
@@ -243,7 +243,7 @@ our $I18N = {
   },
   'rollback version tag confirm' => {
     'lastUpdated' => 1166617530,
-    'message' => 'Sind sie sich sicher, da&szlig; sie diesen Version Tag und seine Inhalt l&ouml;schen wollen? Dieser kann nach dem L&ouml;schen nicht wieder hergestellt werden. '
+    'message' => 'Sind sie sich sicher, daß sie diesen Version Tag und seine Inhalt löschen wollen? Dieser kann nach dem L&ouml;schen nicht wieder hergestellt werden. '
   },
   'set tag' => {
     'lastUpdated' => 1166617668,
@@ -251,7 +251,7 @@ our $I18N = {
   },
   'startTime hoverHelp' => {
     'lastUpdated' => 1216639800,
-    'message' => 'Ab wel chem Zeitpunkt soll dieser Version Tag angezeigt werden. Workflows m&uuml;ssen hierf&uuml;r korrekt konfiguriert sein.'
+    'message' => 'Ab wel chem Zeitpunkt soll dieser Version Tag angezeigt werden. Workflows müssen hierf&uuml;r korrekt konfiguriert sein.'
   },
   'startTime label' => {
     'lastUpdated' => 1216639808,
@@ -271,7 +271,7 @@ our $I18N = {
   },
   'trash version tag' => {
     'lastUpdated' => 1179996557,
-    'message' => 'L&ouml;sche Version Tag'
+    'message' => 'Lösche Version Tag'
   },
   'unlock version tag' => {
     'lastUpdated' => 1179996566,
@@ -291,7 +291,7 @@ our $I18N = {
   },
   'version tag name description' => {
     'lastUpdated' => 1166617932,
-    'message' => 'Geben sie einen Namen f&uuml;r diesen Version Tag ein. Wichtig, um ihn sp&auml;ter referenzieren zu k&ouml;nnen, falls sie einen Commit, Rollback oder weitere &Auml;nderungen machen wollen. '
+    'message' => 'Geben sie einen Namen für diesen Version Tag ein. Wichtig, um ihn später referenzieren zu können, falls sie einen Commit, Rollback oder weitere Änderungen machen wollen. '
   },
   'version tag name description commit' => {
     'lastUpdated' => 1179996584,
@@ -307,7 +307,7 @@ our $I18N = {
   },
   'wait until hoverhelp' => {
     'lastUpdated' => 1217236554,
-    'message' => 'W&auml;hle das Version Tag Feld, das benutzt wird, um zu bestimme, wie lange gewartet wird, bevor mit diesem Workflow fortgefahren wird. Wahl eines Startzeitpunkts bedeutet, dass Sie bis zum Startzeitpunkt des Version Tags warten wollen, bis mit diesem Workflow fortgefahren wird. Wahl eines Endzeitpunkts bedeutet, dass Sie bis zum Endzeitpunkt des Version Tags&nbsp;warten wollen, bis fortgefahren wird.'
+    'message' => 'Wähle das Version Tag Feld, das benutzt wird, um zu bestimme, wie lange gewartet wird, bevor mit diesem Workflow fortgefahren wird. Wahl eines Startzeitpunkts bedeutet, dass Sie bis zum Startzeitpunkt des Version Tags warten wollen, bis mit diesem Workflow fortgefahren wird. Wahl eines Endzeitpunkts bedeutet, dass Sie bis zum Endzeitpunkt des Version Tags&nbsp;warten wollen, bis fortgefahren wird.'
   },
   'wait until label' => {
     'lastUpdated' => 1216639856,
@@ -327,7 +327,7 @@ our $I18N = {
   },
   'workflow help' => {
     'lastUpdated' => 1166618138,
-    'message' => 'W&auml;hlen einen Workflow, der den Version Tag bearbeiten soll. '
+    'message' => 'Wählen einen Workflow, der den Version Tag bearbeiten soll. '
   }
 }
 ;

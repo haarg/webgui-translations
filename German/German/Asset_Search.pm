@@ -19,19 +19,19 @@ our $I18N = {
   },
   'classLimiter' => {
     'lastUpdated' => '1170407519',
-    'message' => 'Eine Zeichenkette, die alle Typen von Assets enth&auml;lt, nach denen gesucht wird.<br />'
+    'message' => 'Eine Zeichenkette, die alle Typen von Assets enthält, nach denen gesucht wird.<br />'
   },
   'form_footer' => {
     'lastUpdated' => '1180009211',
-    'message' => 'HTML Code f&uuml;r das Ende des Such Formulars'
+    'message' => 'HTML Code für das Ende des Such Formulars'
   },
   'form_header' => {
     'lastUpdated' => '1180009206',
-    'message' => 'HTML Code f&uuml;r Beginn des Such Formulars'
+    'message' => 'HTML Code für Beginn des Such Formulars'
   },
   'form_keywords' => {
     'lastUpdated' => '1170407906',
-    'message' => 'Ein Formular, in das der Benuter Schlagw&ouml;rter f&uuml;r die Suche eingeben kann. '
+    'message' => 'Ein Formular, in das der Benuter Schlagwörter für die Suche eingeben kann. '
   },
   'form_submit' => {
     'lastUpdated' => '1170407561',
@@ -107,7 +107,7 @@ our $I18N = {
   },
   'templateId' => {
     'lastUpdated' => '1170407870',
-    'message' => 'Die ID des Templates, das f&uuml;r die Darstellung des Suche Assets benutzt wird.<br />'
+    'message' => 'Die ID des Templates, das für die Darstellung des Suche Assets benutzt wird.<br />'
   },
   'title' => {
     'lastUpdated' => '1179837943',
@@ -123,7 +123,7 @@ our $I18N = {
   },
   'useContainers help' => {
     'lastUpdated' => '1225307265',
-    'message' => 'W&auml;hlen Sie &quot;Ja&quot;, wenn Suchergebnisse komplette Seiten anstelle von Einzelteilen enthalten sollen. '
+    'message' => 'Wählen Sie &quot;Ja&quot;, wenn Suchergebnisse komplette Seiten anstelle von Einzelteilen enthalten sollen. '
   }
 }
 ;

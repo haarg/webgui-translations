@@ -7,7 +7,7 @@ our $I18N = {
   },
   'amount.template' => {
     'lastUpdated' => 1226015665,
-    'message' => 'Der Betrag f&uuml;r diesen Artikel'
+    'message' => 'Der Betrag für diesen Artikel'
   },
   'and' => {
     'lastUpdated' => 1157929043,
@@ -27,11 +27,11 @@ our $I18N = {
   },
   'cancelUrl' => {
     'lastUpdated' => 1226016869,
-    'message' => 'Der URL, um diese wiederkehrende Transaktion abzubrechen/zu l&ouml;schen.'
+    'message' => 'Der URL, um diese wiederkehrende Transaktion abzubrechen/zu löschen.'
   },
   'cannot cancel' => {
     'lastUpdated' => 1180021249,
-    'message' => 'Sie k&ouml;nnen eine nicht wiederkehrende Transaktion nicht abbrechen.'
+    'message' => 'Sie können eine nicht wiederkehrende Transaktion nicht abbrechen.'
   },
   'completed' => {
     'lastUpdated' => 1180021264,
@@ -43,7 +43,7 @@ our $I18N = {
   },
   'completionDate' => {
     'lastUpdated' => 1180021332,
-    'message' => 'Das Datum, an dem die Transaktion best&auml;tigt wurde.'
+    'message' => 'Das Datum, an dem die Transaktion bestätigt wurde.'
   },
   'delivered' => {
     'lastUpdated' => 1180021341,
@@ -67,7 +67,7 @@ our $I18N = {
   },
   'historyLoop' => {
     'lastUpdated' => 1226018197,
-    'message' => 'Eine Schleife, die die Transaktinen im Transaktionsverlauf anzeigt. Innerhalb dieser Schleife sind folgende Variablen verf&uuml;gbar:'
+    'message' => 'Eine Schleife, die die Transaktinen im Transaktionsverlauf anzeigt. Innerhalb dieser Schleife sind folgende Variablen verfügbar:'
   },
   'init date' => {
     'lastUpdated' => 1226018085,
@@ -83,7 +83,7 @@ our $I18N = {
   },
   'itemLoop' => {
     'lastUpdated' => 1226018016,
-    'message' => 'Diese Schleife enth&auml;lt alle Artikel die zu dieser Transaktion geh&ouml;ren. Diese Variabeln sind verf&uuml;gbar:'
+    'message' => 'Diese Schleife enthält alle Artikel die zu dieser Transaktion gehören. Diese Variabeln sind verfügbar:'
   },
   'itemName' => {
     'lastUpdated' => 1226017969,
@@ -123,7 +123,7 @@ our $I18N = {
   },
   'selection message' => {
     'lastUpdated' => 1226017053,
-    'message' => 'Benutzen Sie dieses Formular, um auszuw&auml;hlen, welche Transaktionen Sie sehen m&ouml;chten.'
+    'message' => 'Benutzen Sie dieses Formular, um auszuwählen, welche Transaktionen Sie sehen möchten.'
   },
   'shipped' => {
     'lastUpdated' => 1226017001,
@@ -159,7 +159,7 @@ our $I18N = {
   },
   'userId' => {
     'lastUpdated' => 1180021407,
-    'message' => 'Die interne WebGUI user ID des Benutzers, der diese Transaktion ausgef&uuml;hrt hat.'
+    'message' => 'Die interne WebGUI user ID des Benutzers, der diese Transaktion ausgeführt hat.'
   },
   'username' => {
     'lastUpdated' => 1226017066,

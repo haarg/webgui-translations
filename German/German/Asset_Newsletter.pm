@@ -7,7 +7,7 @@ our $I18N = {
   },
   'categoriesLoop' => {
     'lastUpdated' => 1199979285,
-    'message' => 'Eine Schleife, die alle Kategorien von Daten enth&auml;lt, die der Benutzer ausw&auml;hlen kann.'
+    'message' => 'Eine Schleife, die alle Kategorien von Daten enthält, die der Benutzer ausw&auml;hlen kann.'
   },
   'categoryName' => {
     'lastUpdated' => 1199979327,
@@ -15,7 +15,7 @@ our $I18N = {
   },
   'content profiling needed' => {
     'lastUpdated' => 1226014656,
-    'message' => 'Warnung: Sie m&uuml;ssen die Inhalts-Profilierung aktivieren, um dieses Asset nutzen zu k&ouml;nnen!'
+    'message' => 'Warnung: Sie müssen die Inhalts-Profilierung aktivieren, um dieses Asset nutzen zu können!'
   },
   'edit title' => {
     'lastUpdated' => 1199979394,
@@ -31,7 +31,7 @@ our $I18N = {
   },
   'formSubmit' => {
     'lastUpdated' => 1199979474,
-    'message' => 'Die Speichern Schaltfl&auml;che des Formulars.'
+    'message' => 'Die Speichern Schaltfläche des Formulars.'
   },
   'my subscriptions' => {
     'lastUpdated' => 1199979540,
@@ -43,11 +43,11 @@ our $I18N = {
   },
   'my subscriptions template help' => {
     'lastUpdated' => 1199979645,
-    'message' => 'Welches Template f&uuml;r die Kategorieauswahl des Benutzers verwenden.'
+    'message' => 'Welches Template für die Kategorieauswahl des Benutzers verwenden.'
   },
   'mySubscriptionsUrl' => {
     'lastUpdated' => 1199979693,
-    'message' => 'Die URL f&uuml;r den Benutzer, auf die er klicken muss, falls er seine Abonnements verwalten will.'
+    'message' => 'Die URL für den Benutzer, auf die er klicken muss, falls er seine Abonnements verwalten will.'
   },
   'newsletter categories' => {
     'lastUpdated' => 1199979704,
@@ -55,7 +55,7 @@ our $I18N = {
   },
   'newsletter categories help' => {
     'lastUpdated' => 1199979831,
-    'message' => 'W&auml;hlen Sie die Metadatenfelder aus, die Sie als Kategorien benutzen m&ouml;chten. Nur Auswahlboxen (select box), Checklisten (check list) und Radiolisten (radio list) k&ouml;nnen genutzt werden.'
+    'message' => 'Wählen Sie die Metadatenfelder aus, die Sie als Kategorien benutzen möchten. Nur Auswahlboxen (select box), Checklisten (check list) und Radiolisten (radio list) k&ouml;nnen genutzt werden.'
   },
   'newsletter footer' => {
     'lastUpdated' => 1199979842,
@@ -79,7 +79,7 @@ our $I18N = {
   },
   'newsletter template help' => {
     'lastUpdated' => 1199979977,
-    'message' => 'Welches Template wollen Sie f&uuml;r Newsletter verwenden, wenn diese an den Benutzer geschickt werden?'
+    'message' => 'Welches Template wollen Sie für Newsletter verwenden, wenn diese an den Benutzer geschickt werden?'
   },
   'newsletterDescription' => {
     'lastUpdated' => 1199980011,
@@ -91,7 +91,7 @@ our $I18N = {
   },
   'optionForm' => {
     'lastUpdated' => 1226019013,
-    'message' => 'Die Auswahlbox f&uuml;r diese spezielle Option innerhalb dieser Kategorie.'
+    'message' => 'Die Auswahlbox für diese spezielle Option innerhalb dieser Kategorie.'
   },
   'optionName' => {
     'lastUpdated' => 1226018951,
@@ -99,7 +99,7 @@ our $I18N = {
   },
   'optionsLoop' => {
     'lastUpdated' => 1199980072,
-    'message' => 'Eine Schleife, die alle Optionen einer bestimmten Kategorie enth&auml;lt.'
+    'message' => 'Eine Schleife, die alle Optionen einer bestimmten Kategorie enthält.'
   },
   'send activity name' => {
     'lastUpdated' => 1199980082,
@@ -123,7 +123,7 @@ our $I18N = {
   },
   'thread_loop' => {
     'lastUpdated' => 1226018923,
-    'message' => 'Eine Schleife, die alle zutreffenden Threads f&uuml;r den personalisierten Newsletter des Nutzers enth&auml;lt.'
+    'message' => 'Eine Schleife, die alle zutreffenden Threads für den personalisierten Newsletter des Nutzers enthält.'
   }
 }
 ;

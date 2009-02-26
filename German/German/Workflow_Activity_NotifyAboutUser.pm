@@ -24,17 +24,17 @@ our $I18N = {
 	},
 
 	'message help' => {
-		message => q|Geben Sie die Nachricht ein, die gesendet werden soll. Sie k&ouml;nnen auch Makros f&uuml;r zus&auml;tzliche Parameter benutzen.|,
+		message => q|Geben Sie die Nachricht ein, die gesendet werden soll. Sie können auch Makros für zusätzliche Parameter benutzen.|,
 		lastUpdated => 1179906456
 	},
 
 	'activityName' => {
-		message => q|Nachricht &uuml;ber einen Benutzer|,
+		message => q|Nachricht über einen Benutzer|,
 		lastUpdated => 1179906407
 	},
 
 	'to help' => {
-		message => q|Die Email Adresse, an die die Nachricht geschickt werden soll. Sie k&ouml;nnen auch mehrere Email Adressen angeben, getrennt durch Kommata.|,
+		message => q|Die Email Adresse, an die die Nachricht geschickt werden soll. Sie können auch mehrere Email Adressen angeben, getrennt durch Kommata.|,
 		lastUpdated => 1179906680
 	},
 

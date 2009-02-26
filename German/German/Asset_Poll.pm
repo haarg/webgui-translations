@@ -9,7 +9,7 @@ our $I18N = {
 	},
 
 	'72 description' => {
-		message => q|Damit ihre Benutzer nicht von der Reihenfolge der Antworten beinflusst werden, kann es sinnvoll sein, diese zuf&auml;llig anzuordnen. W&auml;hlen Sie hier "Ja", um die Antworten der Abstimmung zuf&auml;llig anzuordnen.|,
+		message => q|Damit ihre Benutzer nicht von der Reihenfolge der Antworten beinflusst werden, kann es sinnvoll sein, diese zufällig anzuordnen. W&auml;hlen Sie hier "Ja", um die Antworten der Abstimmung zuf&auml;llig anzuordnen.|,
 		lastUpdated => 1179827962
 	},
 
@@ -29,22 +29,22 @@ our $I18N = {
 	},
 
 	'10 description' => {
-		message => q|Stimmen dieser Abstimmung zur&uuml;cksetzen. Diese Option ist nur verf&uuml;gbar, falls die Abstimmung bearbeitet wird.|,
+		message => q|Stimmen dieser Abstimmung zurücksetzen. Diese Option ist nur verf&uuml;gbar, falls die Abstimmung bearbeitet wird.|,
 		lastUpdated => 1179825597
 	},
 
 	'answer_loop' => {
-		message => q|Schleife, die Informationen &uuml;ber die Antworten der Abstimmung enth&auml;lt.|,
+		message => q|Schleife, die Informationen über die Antworten der Abstimmung enthält.|,
 		lastUpdated => 1179828406
 	},
 
 	'72' => {
-		message => q|Antworten zuf&auml;llig anordnen?|,
+		message => q|Antworten zufällig anordnen?|,
 		lastUpdated => 1179827551
 	},
 
 	'poll asset template variables body' => {
-		message => q|Jedes Asset bietet ihren Templates einen Satz an Variablen, die auf den Asset Eigenschaften basieren. Einige dieser Variablen k&ouml;nnen n&uuml;tzlich sein, andere nicht.|,
+		message => q|Jedes Asset bietet ihren Templates einen Satz an Variablen, die auf den Asset Eigenschaften basieren. Einige dieser Variablen können nützlich sein, andere nicht.|,
 		lastUpdated => 1179825467
 	},
 
@@ -64,7 +64,7 @@ our $I18N = {
 	},
 
 	'answer.form' => {
-		message => q|Die Radio Schaltfl&auml;che dieser Antwort.|,
+		message => q|Die Radio Schaltfläche dieser Antwort.|,
 		lastUpdated => 1179828240
 	},
 
@@ -74,7 +74,7 @@ our $I18N = {
 	},
 
 	'voteGroup' => {
-		message => q|Die ID der Gruppe, deren Mitglieder an der Abstimmung teilnehmen d&uuml;rfen.|,
+		message => q|Die ID der Gruppe, deren Mitglieder an der Abstimmung teilnehmen dürfen.|,
 		lastUpdated => 1179828852
 	},
 
@@ -89,7 +89,7 @@ our $I18N = {
 	},
 
 	'4 description' => {
-		message => q|W&auml;hlen Sie eine Gruppe, deren Mitglieder abstimmen d&uuml;rfen. Standard ist die Gruppe Everyone.|,
+		message => q|Wählen Sie eine Gruppe, deren Mitglieder abstimmen dürfen. Standard ist die Gruppe Everyone.|,
 		lastUpdated => 1179825846
 	},
 
@@ -104,7 +104,7 @@ our $I18N = {
 	},
 
 	'10' => {
-		message => q|Stimmen zur&uuml;cksetzten?|,
+		message => q|Stimmen zurücksetzten?|,
 		lastUpdated => 1179825540
 	},
 
@@ -114,7 +114,7 @@ our $I18N = {
 	},
 
 	'3 description' => {
-		message => q|Falls ausgew&auml;hlt, k&ouml;nnen Benutzer ihre Stimme abgeben. Andernfalls k&ouml;nnen die Benutzer nur das Ergebnis der Abstimmung ansehen.|,
+		message => q|Falls ausgewählt, können Benutzer ihre Stimme abgeben. Andernfalls k&ouml;nnen die Benutzer nur das Ergebnis der Abstimmung ansehen.|,
 		lastUpdated => 1179825792
 	},
 
@@ -129,12 +129,12 @@ our $I18N = {
 	},
 
 	'20 description' => {
-		message => q|Wie viel Karma soll ein Benutzer bekommen, falls er seine Stimme abgibt. Diese Option ist nur verf&uuml;gbar, falls Karma in den Einstellungen aktiviert ist. Standard ist 0.|,
+		message => q|Wie viel Karma soll ein Benutzer bekommen, falls er seine Stimme abgibt. Diese Option ist nur verfügbar, falls Karma in den Einstellungen aktiviert ist. Standard ist 0.|,
 		lastUpdated => 1179825718
 	},
 
 	'73 description' => {
-		message => q|W&auml;hlen Sie ein Template zur Anzeige ihrer Abstimmung.|,
+		message => q|Wählen Sie ein Template zur Anzeige ihrer Abstimmung.|,
 		lastUpdated => 1179827989
 	},
 
@@ -144,7 +144,7 @@ our $I18N = {
 	},
 
 	'7 description' => {
-		message => q|Geben Sie die m&ouml;glichen Antworten zu ihren Fragen ein. Nur eine Antwort pro Zeile eingeben. H&ouml;chsten 20 Antworten m&ouml;glich.|,
+		message => q|Geben Sie die möglichen Antworten zu ihren Fragen ein. Nur eine Antwort pro Zeile eingeben. H&ouml;chsten 20 Antworten m&ouml;glich.|,
 		lastUpdated => 1179826488
 	},
 
@@ -164,7 +164,7 @@ our $I18N = {
 	},
 
 	'templateId' => {
-		message => q|Die ID des Templates f&uuml;r die Anzeige dieses Assets.|,
+		message => q|Die ID des Templates für die Anzeige dieses Assets.|,
 		lastUpdated => 1179828830
 	},
 
@@ -179,7 +179,7 @@ our $I18N = {
 	},
 
 	'answer.total' => {
-		message => q|Gesamtanzahl von Stimmen f&uuml;r diese Antwort.|,
+		message => q|Gesamtanzahl von Stimmen für diese Antwort.|,
 		lastUpdated => 1179828374
 	},
 
@@ -189,12 +189,12 @@ our $I18N = {
 	},
 
 	'form.submit' => {
-		message => q|Die Abschicken (Submit) Schaltfl&auml;che f&uuml;r die Abstimmung.|,
+		message => q|Die Abschicken (Submit) Schaltfläche für die Abstimmung.|,
 		lastUpdated => 1179828505
 	},
 
 	'graphUrl' => {
-		message => q|URL zum Graphen des Abstimmungsergebnisses. Nur gesetzt, falls die Generierung des Graphen aktiviert wurde und die Graphkonfiguration g&uuml;ltig ist.|,
+		message => q|URL zum Graphen des Abstimmungsergebnisses. Nur gesetzt, falls die Generierung des Graphen aktiviert wurde und die Graphkonfiguration gültig ist.|,
 		lastUpdated => 1179828667
 	},
 
@@ -204,7 +204,7 @@ our $I18N = {
 	},
 
 	'randomizeAnswers' => {
-		message => q|Bedingung, die wahr ist, falls die Antworten der Abstimmung zuf&auml;llig angeordnet werden.|,
+		message => q|Bedingung, die wahr ist, falls die Antworten der Abstimmung zufällig angeordnet werden.|,
 		lastUpdated => 1179828765
 	},
 
@@ -234,7 +234,7 @@ our $I18N = {
 	},
 
 	'answer.percent' => {
-		message => q|Anteil der Stimmen f&uuml;r diese Antwort.|,
+		message => q|Anteil der Stimmen für diese Antwort.|,
 		lastUpdated => 1179828344
 	},
 
@@ -249,7 +249,7 @@ our $I18N = {
 	},
 
 	'responses.label' => {
-		message => q|Das Label f&uuml;r die Gesamtbenutzerantworten. "Total Votes"|,
+		message => q|Das Label für die Gesamtbenutzerantworten. "Total Votes"|,
 		lastUpdated => 1179828795
 	},
 

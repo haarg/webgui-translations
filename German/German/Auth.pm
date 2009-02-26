@@ -11,15 +11,15 @@ our $I18N = {
   },
   'account.form.karma' => {
     'lastUpdated' => 1178868379,
-    'message' => 'Ein nur-lese Formular Eigenschaft, die das Karma eines Benutzers anzeigt. Karma ist eine konfigurierbare Benutzereinstellung, die standardm&auml;&szlig;ig ausgeschaltet ist.'
+    'message' => 'Ein nur-lese Formular Eigenschaft, die das Karma eines Benutzers anzeigt. Karma ist eine konfigurierbare Benutzereinstellung, die standardmäßig ausgeschaltet ist.'
   },
   'account.form.karma.label' => {
     'lastUpdated' => 1178868409,
-    'message' => 'Internationalisertes Label f&uuml;r den Karma Formular Wert.'
+    'message' => 'Internationalisertes Label für den Karma Formular Wert.'
   },
   'account.form.submit' => {
     'lastUpdated' => 1178868462,
-    'message' => 'Die Standard Abschicken (Submit) Schaltfl&auml;che des Anzeige Account Formulars.'
+    'message' => 'Die Standard Abschicken (Submit) Schaltfläche des Anzeige Account Formulars.'
   },
   'account.options' => {
     'lastUpdated' => 1178868546,
@@ -43,15 +43,15 @@ our $I18N = {
   },
   'create.form.profile' => {
     'lastUpdated' => 1178868781,
-    'message' => 'Eine Schleife, die sichtbare und erforderliche Profil Felder f&uuml;r die anonyme Registrierung enth&auml;lt. Diese Variablen sind alle auch au&szlig;erhalb der Schleife &uuml;ber deren ID verf&uuml;gbar.'
+    'message' => 'Eine Schleife, die sichtbare und erforderliche Profil Felder für die anonyme Registrierung enthält. Diese Variablen sind alle auch außerhalb der Schleife &uuml;ber deren ID verf&uuml;gbar.'
   },
   'create.form.profile.id.formElement' => {
     'lastUpdated' => 1178868873,
-    'message' => 'Keine-Schleife Version des Formular Elements f&uuml;r die Profil Felder. Ersetzen Sie die ID mit der aktuellen Profil ID des Elements.'
+    'message' => 'Keine-Schleife Version des Formular Elements für die Profil Felder. Ersetzen Sie die ID mit der aktuellen Profil ID des Elements.'
   },
   'create.form.profile.id.formElement.label' => {
     'lastUpdated' => 1178868942,
-    'message' => 'Keine-Schleife Version des Standard Text Labels f&uuml;r ein Profil Formular Element. Ersetzen Sie die ID mit der aktuellen Profil ID des Elements.'
+    'message' => 'Keine-Schleife Version des Standard Text Labels für ein Profil Formular Element. Ersetzen Sie die ID mit der aktuellen Profil ID des Elements.'
   },
   'create.form.profile.id.required' => {
     'lastUpdated' => 1178869001,
@@ -59,11 +59,11 @@ our $I18N = {
   },
   'create.form.submit' => {
     'lastUpdated' => 1178869043,
-    'message' => 'Die Standard Abschicken (Submit) Schaltfl&auml;che f&uuml;r das Anonyme Registrierung Formular.'
+    'message' => 'Die Standard Abschicken (Submit) Schaltfläche für das Anonyme Registrierung Formular.'
   },
   'createAccount.label' => {
     'lastUpdated' => 1178869066,
-    'message' => 'Standard Label f&uuml;r den Anonyme Registrierung Link.'
+    'message' => 'Standard Label für den Anonyme Registrierung Link.'
   },
   'createAccount.url' => {
     'lastUpdated' => 1178869085,
@@ -91,7 +91,7 @@ our $I18N = {
   },
   'login.form.hidden' => {
     'lastUpdated' => 1178869351,
-    'message' => 'Versteckte Formular Felder, die f&uuml;r das Abschicken des Formulars erforderlich sind.'
+    'message' => 'Versteckte Formular Felder, die für das Abschicken des Formulars erforderlich sind.'
   },
   'login.form.password' => {
     'lastUpdated' => 1178869366,
@@ -99,11 +99,11 @@ our $I18N = {
   },
   'login.form.password.label' => {
     'lastUpdated' => 1178869387,
-    'message' => 'Standard Text f&uuml;r das Passwort Formular Feld'
+    'message' => 'Standard Text für das Passwort Formular Feld'
   },
   'login.form.submit' => {
     'lastUpdated' => 1178869417,
-    'message' => 'Die Standard Abschicken (Submit) Schaltfl&auml;che f&uuml;r das Login Formular.'
+    'message' => 'Die Standard Abschicken (Submit) Schaltfläche für das Login Formular.'
   },
   'login.form.username' => {
     'lastUpdated' => 1178869432,
@@ -111,11 +111,11 @@ our $I18N = {
   },
   'login.form.username.label' => {
     'lastUpdated' => 1178869451,
-    'message' => 'Standard Text f&uuml;r das Benutzername Formular Feld'
+    'message' => 'Standard Text für das Benutzername Formular Feld'
   },
   'login.label' => {
     'lastUpdated' => 1178869473,
-    'message' => 'Standard Text Label f&uuml;r den Link zur Login Seite.'
+    'message' => 'Standard Text Label für den Link zur Login Seite.'
   },
   'login.url' => {
     'lastUpdated' => 1178869482,
@@ -123,7 +123,7 @@ our $I18N = {
   },
   'no.label' => {
     'lastUpdated' => 1178869501,
-    'message' => 'Internationalisertes Label f&uuml;r "No".'
+    'message' => 'Internationalisertes Label für "No".'
   },
   'no.url' => {
     'lastUpdated' => 1178869685,
@@ -131,11 +131,11 @@ our $I18N = {
   },
   'profile.formElement' => {
     'lastUpdated' => 1178869534,
-    'message' => 'Formular Element f&uuml;r sichtbare oder erforderliche Profil Felder.'
+    'message' => 'Formular Element für sichtbare oder erforderliche Profil Felder.'
   },
   'profile.formElement.label' => {
     'lastUpdated' => 1178869560,
-    'message' => 'Standard Text Label f&uuml;r ein Profil Formular Element.'
+    'message' => 'Standard Text Label für ein Profil Formular Element.'
   },
   'profile.required' => {
     'lastUpdated' => 1178869586,
@@ -163,7 +163,7 @@ our $I18N = {
   },
   'yes.label' => {
     'lastUpdated' => 1178869631,
-    'message' => 'Internationalisiertes Label f&uuml;r "Yes".'
+    'message' => 'Internationalisiertes Label für "Yes".'
   },
   'yes.url' => {
     'lastUpdated' => 1178869647,

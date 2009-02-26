@@ -64,7 +64,7 @@ our $I18N = {
 	},
 
 	'pie height' => {
-		message => q|Kuchengraphik H&ouml;he|,
+		message => q|Kuchengraphik Höhe|,
 		lastUpdated => 1180090269
 	},
 

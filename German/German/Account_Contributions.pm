@@ -7,7 +7,7 @@ our $I18N = {
   },
   'contrib layout template hoverHelp' => {
     'lastUpdated' => '1233562041',
-    'message' => 'Die Schablone für das Layout, in welches die Inhalte der unterschiedlichen Ansichten des Beitrags-Plugins eingebettet werden sollen.'
+    'message' => 'Die Vorlage für das Layout, in welches die Inhalte der unterschiedlichen Ansichten des Beitrags-Plugins eingebettet werden sollen.'
   },
   'contrib layout template label' => {
     'lastUpdated' => '1233942921',
@@ -15,15 +15,15 @@ our $I18N = {
   },
   'contrib style template hoverHelp' => {
     'lastUpdated' => '1233561471',
-    'message' => 'Der Anzeigestil für das Konto-Plugin.'
+    'message' => 'Der Stilvorlage für das Konto-Plugin.'
   },
   'contrib style template label' => {
     'lastUpdated' => '1233560967',
-    'message' => 'Anzeigestil'
+    'message' => 'Stilvorlage'
   },
   'contrib view template hoverHelp' => {
     'lastUpdated' => '1233561514',
-    'message' => 'Die Schablone zur Anzeige der Beiträge des aktuellen Benutzers.'
+    'message' => 'Die Vorlage zur Anzeige der Beiträge des aktuellen Benutzers.'
   },
   'contrib view template label' => {
     'lastUpdated' => '1233943686',

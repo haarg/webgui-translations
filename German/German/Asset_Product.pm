@@ -23,7 +23,7 @@ our $I18N = {
   },
   '13 description' => {
     'lastUpdated' => 1226017364,
-    'message' => 'Der Prospekt f&uuml;r dieses Produkt'
+    'message' => 'Der Prospekt für dieses Produkt'
   },
   '14' => {
     'lastUpdated' => 1226017377,
@@ -31,7 +31,7 @@ our $I18N = {
   },
   '14 description' => {
     'lastUpdated' => 1226017391,
-    'message' => 'Das Handbuch f&uuml;r dieses Produkt'
+    'message' => 'Das Handbuch für dieses Produkt'
   },
   '15' => {
     'lastUpdated' => 1226017399,
@@ -39,7 +39,7 @@ our $I18N = {
   },
   '15 description' => {
     'lastUpdated' => 1226017417,
-    'message' => 'Die Garantie f&uuml;r dieses Produkt'
+    'message' => 'Die Garantie für dieses Produkt'
   },
   '16' => {
     'lastUpdated' => undef,
@@ -63,7 +63,7 @@ our $I18N = {
   },
   '19' => {
     'lastUpdated' => 1226017464,
-    'message' => 'Verwandtes Produkt hinzuf&uuml;gen'
+    'message' => 'Verwandtes Produkt hinzufügen'
   },
   '2' => {
     'lastUpdated' => undef,
@@ -143,7 +143,7 @@ our $I18N = {
   },
   '3' => {
     'lastUpdated' => 1226017499,
-    'message' => 'Wollen Sie diese Eigenschaft wirklich l&ouml;schen?'
+    'message' => 'Wollen Sie diese Eigenschaft wirklich löschen?'
   },
   '30' => {
     'lastUpdated' => 1226017508,
@@ -155,7 +155,7 @@ our $I18N = {
   },
   '32' => {
     'lastUpdated' => 1226017530,
-    'message' => 'Zubeh&ouml;r'
+    'message' => 'Zubehör'
   },
   '33' => {
     'lastUpdated' => undef,
@@ -423,7 +423,7 @@ our $I18N = {
   },
   'product asset template variables body' => {
     'lastUpdated' => 1170408745,
-    'message' => 'Jedes Asset bietet ihren Templates einen Satz an Variablen, die auf den Asset Eigenschaften basieren. Einige dieser Variablen k&ouml;nnen n&uuml;tzlich sein, andere nicht.'
+    'message' => 'Jedes Asset bietet ihren Templates einen Satz an Variablen, die auf den Asset Eigenschaften basieren. Einige dieser Variablen können nützlich sein, andere nicht.'
   },
   'product asset template variables title' => {
     'lastUpdated' => 1170408760,
@@ -495,11 +495,11 @@ our $I18N = {
   },
   'variant_sku' => {
     'lastUpdated' => 1226017631,
-    'message' => 'Die Artikelnummer f&uuml;r diese Variante'
+    'message' => 'Die Artikelnummer für diese Variante'
   },
   'variant_title' => {
     'lastUpdated' => 1226017780,
-    'message' => 'Titel oder Kurzbeschreibung f&uuml;r diese Variante'
+    'message' => 'Titel oder Kurzbeschreibung für diese Variante'
   },
   'variant_weight' => {
     'lastUpdated' => 1226017798,

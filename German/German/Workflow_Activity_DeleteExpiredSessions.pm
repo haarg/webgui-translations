@@ -4,7 +4,7 @@ use utf8;
 
 our $I18N = {
 	'activityName' => {
-		message => q|Abgelaufene Session l&ouml;schen|,
+		message => q|Abgelaufene Session löschen|,
 		lastUpdated => 1179904807
 	},
 

@@ -15,7 +15,7 @@ our $I18N = {
   },
   'commentForm error no commentId' => {
     'lastUpdated' => '1229722593',
-    'message' => 'Es wurde keine ID für den Kommentar vergeben. Dies bedeutet, dass ein Problem mit der Schablone besteht. Bitte informieren Sie einen Administrator!'
+    'message' => 'Es wurde keine ID für den Kommentar vergeben. Dies bedeutet, dass ein Problem mit der Vorlage besteht. Bitte informieren Sie einen Administrator!'
   },
   'delete message' => {
     'lastUpdated' => '1229722618',
@@ -151,7 +151,7 @@ our $I18N = {
   },
   'helpvar commentForm_bodyText' => {
     'lastUpdated' => '1201607944',
-    'message' => 'Der Inhalt eines Kommentars. Ein Rich Editor wurde f&uuml;r die Vorga&auml;nger (Parent) Galerie konfiguriert.'
+    'message' => 'Der Inhalt eines Kommentars. Ein Rich Editor wurde für die Vorgaänger (Parent) Galerie konfiguriert.'
   },
   'helpvar commentForm_end' => {
     'lastUpdated' => '1229726006',
@@ -279,7 +279,7 @@ our $I18N = {
   },
   'helpvar isNewPhoto' => {
     'lastUpdated' => '1217315374',
-    'message' => 'Diese Variable ist wahr, falls der Benutzer ein neues Photo hinzuf&uuml;gt'
+    'message' => 'Diese Variable ist wahr, falls der Benutzer ein neues Photo hinzufügt'
   },
   'helpvar isPending' => {
     'lastUpdated' => '1229724516',

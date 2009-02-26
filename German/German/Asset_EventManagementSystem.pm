@@ -3,11 +3,11 @@ use utf8;
 our $I18N = {
   'Admin manage sub events large resultset' => {
     'lastUpdated' => 1180436914,
-    'message' => 'Sie k&ouml;nnen die folgenden Termine verwalten. Da zu viele Unter-Termine vorhanden sind, k&ouml;nnen nicht alle Termine dargestellt werden. Bitte grenzen Sie die Ergebnisse durch die weiter oben aufgef&uuml;hrten Filteroptionen ein. '
+    'message' => 'Sie können die folgenden Termine verwalten. Da zu viele Unter-Termine vorhanden sind, k&ouml;nnen nicht alle Termine dargestellt werden. Bitte grenzen Sie die Ergebnisse durch die weiter oben aufgeführten Filteroptionen ein. '
   },
   'Admin manage sub events small resultset' => {
     'lastUpdated' => 1180436966,
-    'message' => 'Sie k&ouml;nnen die folgenden Termine verwalten. Sie k&ouml;nnen die Ergebnisse durch die weiter oben aufgef&uuml;hrten Filteroptionen eingrenzen. '
+    'message' => 'Sie können die folgenden Termine verwalten. Sie k&ouml;nnen die Ergebnisse durch die weiter oben aufgeführten Filteroptionen eingrenzen. '
   },
   'Event Number' => {
     'lastUpdated' => 1180436974,
@@ -27,11 +27,11 @@ our $I18N = {
   },
   'User sub events large resultset' => {
     'lastUpdated' => 1180437188,
-    'message' => 'Sie k&ouml;nnen auch aus den folgenden Unter-Terminen w&auml;hlen. Auf Grund der vielen Unter-Terminen k&ouml;nnen nicht alle dargestellt werden. Bitte grenzen Sie die Ergebnisse durch die weiter oben aufgef&uuml;hrten Filteroptionen ein. '
+    'message' => 'Sie können auch aus den folgenden Unter-Terminen wählen. Auf Grund der vielen Unter-Terminen k&ouml;nnen nicht alle dargestellt werden. Bitte grenzen Sie die Ergebnisse durch die weiter oben aufgeführten Filteroptionen ein. '
   },
   'User sub events small resultset' => {
     'lastUpdated' => 1180437168,
-    'message' => 'Sie k&ouml;nnen auch aus den folgenden Unter-Terminen w&auml;hlen. Sie k&ouml;nnen die Ergebnisse durch die weiter oben aufgef&uuml;hrten Filteroptionen eingrenzen. '
+    'message' => 'Sie können auch aus den folgenden Unter-Terminen wählen. Sie k&ouml;nnen die Ergebnisse durch die weiter oben aufgeführten Filteroptionen eingrenzen. '
   },
   'add discount pass' => {
     'lastUpdated' => undef,
@@ -39,11 +39,11 @@ our $I18N = {
   },
   'add event' => {
     'lastUpdated' => 1180437201,
-    'message' => 'Termin hinzuf&uuml;gen'
+    'message' => 'Termin hinzufügen'
   },
   'add new event metadata field' => {
     'lastUpdated' => 1180437219,
-    'message' => 'Neues Termin Metadaten Feld hinzuf&uuml;gen'
+    'message' => 'Neues Termin Metadaten Feld hinzufügen'
   },
   'add prerequisite set' => {
     'lastUpdated' => undef,
@@ -63,11 +63,11 @@ our $I18N = {
   },
   'add/edit approve event' => {
     'lastUpdated' => 1199975274,
-    'message' => 'Termin best&auml;tigen'
+    'message' => 'Termin bestätigen'
   },
   'add/edit event add another prerequisite' => {
     'lastUpdated' => 1199975297,
-    'message' => 'F&uuml;ge eine andere Voraussetzung hinzu'
+    'message' => 'Füge eine andere Voraussetzung hinzu'
   },
   'add/edit event assigned prerequisites' => {
     'lastUpdated' => undef,
@@ -107,11 +107,11 @@ our $I18N = {
   },
   'add/edit event maximum attendees description' => {
     'lastUpdated' => 1199975508,
-    'message' => 'Die Anzahl der maximalen Teilnehmer, abgeleitet von Raumgr&ouml;sse, Personal und anderer Faktoren.'
+    'message' => 'Die Anzahl der maximalen Teilnehmer, abgeleitet von Raumgrösse, Personal und anderer Faktoren.'
   },
   'add/edit event metadata field' => {
     'lastUpdated' => 1199975532,
-    'message' => 'Hinzuf&uuml;gen/Editieren Termin Metadaten Feld'
+    'message' => 'Hinzufügen/Editieren Termin Metadaten Feld'
   },
   'add/edit event operator' => {
     'lastUpdated' => undef,
@@ -135,7 +135,7 @@ our $I18N = {
   },
   'add/edit event return to manage events' => {
     'lastUpdated' => 1199975639,
-    'message' => 'Zur Verwaltung der Termine zur&uuml;ckkehren'
+    'message' => 'Zur Verwaltung der Termine zurückkehren'
   },
   'add/edit event start date' => {
     'lastUpdated' => 1199975663,
@@ -163,7 +163,7 @@ our $I18N = {
   },
   'add/edit event what next' => {
     'lastUpdated' => 1199975744,
-    'message' => 'Was kommt als n&auml;chstes?'
+    'message' => 'Was kommt als nächstes?'
   },
   'add/edit event what next description' => {
     'lastUpdated' => undef,
@@ -1071,7 +1071,7 @@ our $I18N = {
   },
   'time zone help' => {
     'lastUpdated' => 1226016433,
-    'message' => 'W&auml;hlen Sie die Zeitzone f&uuml;r diesen Termin'
+    'message' => 'Wählen Sie die Zeitzone für diesen Termin'
   },
   'timezone help' => {
     'lastUpdated' => 1226016455,
@@ -1079,7 +1079,7 @@ our $I18N = {
   },
   'title' => {
     'lastUpdated' => 1164282621,
-    'message' => 'Der Name f&uuml;r dieses Ereignis<br />'
+    'message' => 'Der Name für dieses Ereignis<br />'
   },
   'title.url' => {
     'lastUpdated' => undef,

@@ -3,7 +3,7 @@ use utf8;
 our $I18N = {
   'CATEGORY_NAME_loop' => {
     'lastUpdated' => '1202812528',
-    'message' => 'Ein &quot;loop&quot; wird f&uuml;r jede Kategorie in dieser Matrix erstellt. Der Name des loops ergibt sich aus dem Namen der Kategorie, wobei alle Leerzeichen in Bindestriche umgewandelt und ein &quot;_loop&quot; am Ende angeh&auml;ngt wird. Wenn Sie also eine Kategorie namens &quot;Bells and Whistles&quot; haben, wird der loop dazu &quot;bells-and-whistles_loop&quot; hei&szlig;en.'
+    'message' => 'Ein &quot;loop&quot; wird für jede Kategorie in dieser Matrix erstellt. Der Name des loops ergibt sich aus dem Namen der Kategorie, wobei alle Leerzeichen in Bindestriche umgewandelt und ein &quot;_loop&quot; am Ende angehängt wird. Wenn Sie also eine Kategorie namens &quot;Bells and Whistles&quot; haben, wird der loop dazu &quot;bells-and-whistles_loop&quot; heißen.'
   },
   'approve.url' => {
     'lastUpdated' => '1221289322',
@@ -39,7 +39,7 @@ our $I18N = {
   },
   'best.posts.url' => {
     'lastUpdated' => '1202816469',
-    'message' => 'Die URL des Listings, das die meisten Foreneintr&auml;ge hat.'
+    'message' => 'Die URL des Listings, das die meisten Foreneinträge hat.'
   },
   'best.updated.date' => {
     'lastUpdated' => '1202816569',
@@ -111,7 +111,7 @@ our $I18N = {
   },
   'columnCount' => {
     'lastUpdated' => '1223575738',
-    'message' => 'Anzahl der Eintr&auml;ge im Vergleich'
+    'message' => 'Anzahl der Einträge im Vergleich'
   },
   'column_loop' => {
     'lastUpdated' => undef,
@@ -163,7 +163,7 @@ our $I18N = {
   },
   'delete field confirm' => {
     'lastUpdated' => '1223568082',
-    'message' => 'M&ouml;chten Sie dieses Feld und den abh&auml;ngigen Daten wirklich l&ouml;schen?'
+    'message' => 'Möchten Sie dieses Feld und den abhängigen Daten wirklich l&ouml;schen?'
   },
   'delete listing confirmation' => {
     'lastUpdated' => undef,
@@ -179,11 +179,11 @@ our $I18N = {
   },
   'description description' => {
     'lastUpdated' => '1223568158',
-    'message' => 'Allgemeine Beschreibung zum Produkt. Details k&ouml;nnen in den sonstigen Feldern beschriben werden. '
+    'message' => 'Allgemeine Beschreibung zum Produkt. Details können in den sonstigen Feldern beschriben werden. '
   },
   'detail count' => {
     'lastUpdated' => '1223575797',
-    'message' => 'Total f&uuml;r diesen Eintrag'
+    'message' => 'Total für diesen Eintrag'
   },
   'detail mean' => {
     'lastUpdated' => undef,
@@ -287,7 +287,7 @@ our $I18N = {
   },
   'form' => {
     'lastUpdated' => '1223568242',
-    'message' => 'Formularelement f&uuml;r dieses Feld.'
+    'message' => 'Formularelement für dieses Feld.'
   },
   'form.footer' => {
     'lastUpdated' => undef,
@@ -367,7 +367,7 @@ our $I18N = {
   },
   'limited' => {
     'lastUpdated' => '1223568335',
-    'message' => 'Eingeschr&auml;nkt'
+    'message' => 'Eingeschränkt'
   },
   'list fields' => {
     'lastUpdated' => '1223568380',
@@ -379,7 +379,7 @@ our $I18N = {
   },
   'listing label' => {
     'lastUpdated' => '1223576010',
-    'message' => 'Bezeichnung zu diesem Feld, welches den Inhalt repr&auml;sentiert.'
+    'message' => 'Bezeichnung zu diesem Feld, welches den Inhalt repräsentiert.'
   },
   'listing maintainer' => {
     'lastUpdated' => undef,
@@ -487,7 +487,7 @@ our $I18N = {
   },
   'no edit rights' => {
     'lastUpdated' => '1223568558',
-    'message' => 'Sie hben keine Berechtigung, diese Liste zu &auml;ndern'
+    'message' => 'Sie hben keine Berechtigung, diese Liste zu ändern'
   },
   'pending_list' => {
     'lastUpdated' => undef,

@@ -51,15 +51,15 @@ our $I18N = {
   },
   'inbox error message template hoverHelp' => {
     'lastUpdated' => '1232889358',
-    'message' => 'Die Schablone zur Anzeige von Fehlermeldungen.'
+    'message' => 'Die Vorlage zur Anzeige von Fehlermeldungen.'
   },
   'inbox error message template label' => {
     'lastUpdated' => '1233943093',
-    'message' => 'Schablone Fehlermeldungen'
+    'message' => 'Vorlage Fehlermeldungen'
   },
   'inbox layout template hoverHelp' => {
     'lastUpdated' => '1232889702',
-    'message' => 'Die Schablone zur Anzeige des Posteingangs sowie einer Auflistung der anderen verfügbaren Konto-Erweiterungen.'
+    'message' => 'Die Vorlage zur Anzeige des Posteingangs sowie einer Auflistung der anderen verfügbaren Konto-Erweiterungen.'
   },
   'inbox layout template label' => {
     'lastUpdated' => '1233942273',
@@ -67,19 +67,19 @@ our $I18N = {
   },
   'inbox manage invitations template hoverHelp' => {
     'lastUpdated' => '1232889769',
-    'message' => 'Die Schablone für die Verwaltung von Einladungen.'
+    'message' => 'Die Vorlage für die Verwaltung von Einladungen.'
   },
   'inbox manage invitations template label' => {
     'lastUpdated' => '1233943111',
-    'message' => 'Schablone Einladungsverwaltung'
+    'message' => 'Vorlage Einladungsverwaltung'
   },
   'inbox message confirm template hoverHelp' => {
     'lastUpdated' => '1233553696',
-    'message' => 'Die Schablone zur Anzeige einer Bestätigung, dass eine Nachricht versendet wurde.'
+    'message' => 'Die Vorlage zur Anzeige einer Bestätigung, dass eine Nachricht versendet wurde.'
   },
   'inbox message confirm template label' => {
     'lastUpdated' => '1233943125',
-    'message' => 'Schablone Mitteilungsbestätigungen'
+    'message' => 'Vorlage Mitteilungsbestätigungen'
   },
   'inbox rich editor description' => {
     'lastUpdated' => '1233553797',
@@ -91,43 +91,43 @@ our $I18N = {
   },
   'inbox send message template hoverHelp' => {
     'lastUpdated' => '1233553813',
-    'message' => 'Die Schablone für den Versand von Nachrichten.'
+    'message' => 'Die Vorlage für den Versand von Nachrichten.'
   },
   'inbox send message template label' => {
     'lastUpdated' => '1233943164',
-    'message' => 'Schablone Mitteilungsversand'
+    'message' => 'Vorlage Mitteilungsversand'
   },
   'inbox style template hoverHelp' => {
     'lastUpdated' => '1233553843',
-    'message' => 'Der Anzeigestil für den Posteingang.'
+    'message' => 'Der Stilvorlage für den Posteingang.'
   },
   'inbox style template label' => {
     'lastUpdated' => '1233942296',
-    'message' => 'Anzeigestil'
+    'message' => 'Stilvorlage'
   },
   'inbox view invitation template hoverHelp' => {
     'lastUpdated' => '1233553859',
-    'message' => 'Die Schablone zur Anzeige von Einladungen.'
+    'message' => 'Die Vorlage zur Anzeige von Einladungen.'
   },
   'inbox view invitation template label' => {
     'lastUpdated' => '1233943133',
-    'message' => 'Schablone Einladungsanzeige'
+    'message' => 'Vorlage Einladungsanzeige'
   },
   'inbox view message template hoverHelp' => {
     'lastUpdated' => '1233553881',
-    'message' => 'Die Schablone zur Anzeige von Nachrichten im Posteingang.'
+    'message' => 'Die Vorlage zur Anzeige von Nachrichten im Posteingang.'
   },
   'inbox view message template label' => {
     'lastUpdated' => '1233943184',
-    'message' => 'Schablone Mitteilungsanzeige'
+    'message' => 'Vorlage Mitteilungsanzeige'
   },
   'inbox view template hoverHelp' => {
     'lastUpdated' => '1233553898',
-    'message' => 'Die Schablone zur Anzeige des Posteingangs.'
+    'message' => 'Die Vorlage zur Anzeige des Posteingangs.'
   },
   'inbox view template label' => {
     'lastUpdated' => '1233943261',
-    'message' => 'Schablone Eingangsanzeige'
+    'message' => 'Vorlage Eingangsanzeige'
   },
   'invitation confirm label' => {
     'lastUpdated' => '1233555662',
@@ -139,11 +139,11 @@ our $I18N = {
   },
   'invitation confirm message template hoverHelp' => {
     'lastUpdated' => '1233555420',
-    'message' => 'Die Schablone zur Anzeige von Einladungsbestätigungen.'
+    'message' => 'Die Vorlage zur Anzeige von Einladungsbestätigungen.'
   },
   'invitation confirm message template label' => {
     'lastUpdated' => '1233943145',
-    'message' => 'Schablone Einladungsbestätigungen'
+    'message' => 'Vorlage Einladungsbestätigungen'
   },
   'invitation count' => {
     'lastUpdated' => '1232885245',
@@ -199,11 +199,11 @@ our $I18N = {
   },
   'invite user confirm template hoverHelp' => {
     'lastUpdated' => '1232886723',
-    'message' => 'Die Schablone zur Anzeige von Einladungsbestätigungen.'
+    'message' => 'Die Vorlage zur Anzeige von Einladungsbestätigungen.'
   },
   'invite user confirm template label' => {
     'lastUpdated' => '1233943229',
-    'message' => 'Schablone Einladungsbestätigungen'
+    'message' => 'Vorlage Einladungsbestätigungen'
   },
   'invite user enabled template hoverHelp' => {
     'lastUpdated' => '1233554829',
@@ -223,11 +223,11 @@ our $I18N = {
   },
   'invite user message template hoverHelp' => {
     'lastUpdated' => '1233555896',
-    'message' => 'Die Schablone für Einladungs-Mails. Diese enthält sowohl den Nachrichtentext als auch den Registrierungslink sowie weitere Kopf- und Fußzeilen, die optional hinzugefügt werden können.'
+    'message' => 'Die Vorlage für Einladungs-Mails. Diese enthält sowohl den Nachrichtentext als auch den Registrierungslink sowie weitere Kopf- und Fußzeilen, die optional hinzugefügt werden können.'
   },
   'invite user message template label' => {
     'lastUpdated' => '1233943215',
-    'message' => 'Schablone Einladungs-Mails'
+    'message' => 'Vorlage Einladungs-Mails'
   },
   'invite user restrict message template hoverHelp' => {
     'lastUpdated' => '1233555187',
@@ -255,11 +255,11 @@ our $I18N = {
   },
   'invite user template hoverHelp' => {
     'lastUpdated' => '1233555398',
-    'message' => 'Die Schablone zur Anzeige der Einladungsfunktion.'
+    'message' => 'Die Vorlage zur Anzeige der Einladungsfunktion.'
   },
   'invite user template label' => {
     'lastUpdated' => '1233943195',
-    'message' => 'Schablone Einladungsfunktion'
+    'message' => 'Vorlage Einladungsfunktion'
   },
   'invite_friend_url' => {
     'lastUpdated' => '1232485553',

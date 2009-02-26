@@ -4,12 +4,12 @@ use utf8;
 
 our $I18N = {
 	'upload files description' => {
-		message => q|<p>Hier k&ouml;nnen Sie Dateien von Ihrem Computer aus hochladen. Sie k&ouml;nnen gleichzeitig 100 Dateien hochladen.</p>|,
+		message => q|<p>Hier können Sie Dateien von Ihrem Computer aus hochladen. Sie k&ouml;nnen gleichzeitig 100 Dateien hochladen.</p>|,
 		lastUpdated => 1153680460
 	},
 
 	'108 description' => {
-		message => q|<p>Wer ein Asset erstellt hat ist i.d.R. dessen Eigent&uuml;mer. Dieser Benutzer hat alle Rechte zum Editieren und Betrachten des Assets.</p><strong>Hinweis:</strong> Der Eigent&uuml;mer kann durch einen Administrator ge&auml;ndert werden.|,
+		message => q|<p>Wer ein Asset erstellt hat ist i.d.R. dessen Eigentümer. Dieser Benutzer hat alle Rechte zum Editieren und Betrachten des Assets.</p><strong>Hinweis:</strong> Der Eigent&uuml;mer kann durch einen Administrator geändert werden.|,
 		lastUpdated => 1168864790
 	},
 
@@ -24,12 +24,12 @@ our $I18N = {
 	},
 
 	'108' => {
-		message => q|Eigent&uuml;mer|,
+		message => q|Eigentümer|,
 		lastUpdated => 1153680368
 	},
 
 	'872 description' => {
-		message => q|W&auml;hlen sie die Gruppe, die dieses Asset sehen darf. Wenn Besucher <strong>und</strong> registrierte Nutzer das Asset sehen k&ouml;nnen sollen, w&auml;hlen Sie hier die Gruppe &quot;Everybody&quot;.|,
+		message => q|Wählen sie die Gruppe, die dieses Asset sehen darf. Wenn Besucher <strong>und</strong> registrierte Nutzer das Asset sehen können sollen, w&auml;hlen Sie hier die Gruppe &quot;Everybody&quot;.|,
 		lastUpdated => 1153680777
 	},
 
@@ -39,7 +39,7 @@ our $I18N = {
 	},
 
 	'871 description' => {
-		message => q|W&auml;hlen Sie die Gruppe aus, die dieses Asset bearbeiten darf. Die Gruppe, die die Berechtigung zum Bearbeiten hat, kann das Asset auch sehen.|,
+		message => q|Wählen Sie die Gruppe aus, die dieses Asset bearbeiten darf. Die Gruppe, die die Berechtigung zum Bearbeiten hat, kann das Asset auch sehen.|,
 		lastUpdated => 1153680901
 	},
 
@@ -49,7 +49,7 @@ our $I18N = {
 	},
 
 	'940 description' => {
-		message => q|W&auml;hlen _Sie &quot;Ja&quot;, um diese Asset in einem neuen Fenster zu &ouml;ffnen.<br />|,
+		message => q|Wählen _Sie &quot;Ja&quot;, um diese Asset in einem neuen Fenster zu öffnen.<br />|,
 		lastUpdated => 1153680591
 	},
 
@@ -59,17 +59,17 @@ our $I18N = {
 	},
 
 	'940' => {
-		message => q|In einem neuen Fenster &ouml;ffnen?|,
+		message => q|In einem neuen Fenster öffnen?|,
 		lastUpdated => 1153680610
 	},
 
 	'add pile' => {
-		message => q|Eine Auswahl an Dateien hinzuf&uuml;gen<br />|,
+		message => q|Eine Auswahl an Dateien hinzufügen<br />|,
 		lastUpdated => 1153681004
 	},
 
 	'886 description' => {
-		message => q|<p>Dieses Asset vor dem Navigationsme&uuml; und dem Inhaltsverzeichnis verbergen oder darin anzeigen.</p>|,
+		message => q|<p>Dieses Asset vor dem Navigationsmeü und dem Inhaltsverzeichnis verbergen oder darin anzeigen.</p>|,
 		lastUpdated => 1153680691
 	},
 

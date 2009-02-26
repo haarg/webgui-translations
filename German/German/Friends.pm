@@ -7,7 +7,7 @@ our $I18N = {
   },
   'add to friends' => {
     'lastUpdated' => 1226019814,
-    'message' => 'Zu Freunden hinzuf&uuml;gen'
+    'message' => 'Zu Freunden hinzufügen'
   },
   'add to friends confirmation' => {
     'lastUpdated' => 1228685796,
@@ -15,15 +15,15 @@ our $I18N = {
   },
   'add to friends description' => {
     'lastUpdated' => 1226019842,
-    'message' => 'M&ouml;chten Sie wirklich %s zu Ihren Freunden hinzuf&uuml;gen?'
+    'message' => 'Möchten Sie wirklich %s zu Ihren Freunden hinzufügen?'
   },
   'add to friends list' => {
     'lastUpdated' => 1226019872,
-    'message' => 'Diese Person zur Liste meiner Freunde hinzuf&uuml;gen'
+    'message' => 'Diese Person zur Liste meiner Freunde hinzufügen'
   },
   'add to friends profile' => {
     'lastUpdated' => 1226019892,
-    'message' => 'Zur&uuml;ck zum Profil von %s.'
+    'message' => 'Zurück zum Profil von %s.'
   },
   'already a friend' => {
     'lastUpdated' => 1221289484,
@@ -31,15 +31,15 @@ our $I18N = {
   },
   'checkboxForm' => {
     'lastUpdated' => 1228685886,
-    'message' => 'HTML-code f&uuml;r eine Auswahlbox. Diese Auswahlbox wird benutzt, um dem Freund eine E-Mail zu seden, oder ihn zu l&ouml;schen.'
+    'message' => 'HTML-code für eine Auswahlbox. Diese Auswahlbox wird benutzt, um dem Freund eine E-Mail zu seden, oder ihn zu löschen.'
   },
   'confirm remove friends' => {
     'lastUpdated' => 1228686232,
-    'message' => 'Sin Sie sicher, dass Sire die ausgew&auml;hlten Freunde von Ihrer Liste l&ouml;schen m&ouml;chten?'
+    'message' => 'Sin Sie sicher, dass Sire die ausgewählten Freunde von Ihrer Liste löschen m&ouml;chten?'
   },
   'default friend comments' => {
     'lastUpdated' => 1228686290,
-    'message' => '%s, ich m&ouml;chte Sie in mein Freunde-Netzwerk aufnehmen. Vielen Dank, %s'
+    'message' => '%s, ich möchte Sie in mein Freunde-Netzwerk aufnehmen. Vielen Dank, %s'
   },
   'deny unanswered friends' => {
     'lastUpdated' => 1228686324,
@@ -47,7 +47,7 @@ our $I18N = {
   },
   'does not want to be a friend' => {
     'lastUpdated' => 1228686347,
-    'message' => 'Dieser Benutzer m&ouml;chte nicht als Freund hinzugef&uuml;gt werden.'
+    'message' => 'Dieser Benutzer möchte nicht als Freund hinzugefügt werden.'
   },
   'error user is already friend' => {
     'lastUpdated' => 1228686384,
@@ -75,7 +75,7 @@ our $I18N = {
   },
   'friends' => {
     'lastUpdated' => 1228686613,
-    'message' => 'Eine Schleife, die Informationen &uuml;ber Freunde enth&auml;lt und Formluar-Kontrollfelder, um Freunde zu l&ouml;schen oder ihnen eine Nachricht zu senden.'
+    'message' => 'Eine Schleife, die Informationen über Freunde enthält und Formluar-Kontrollfelder, um Freunde zu löschen oder ihnen eine Nachricht zu senden.'
   },
   'friends invitation accepted' => {
     'lastUpdated' => 1228686640,
@@ -95,11 +95,11 @@ our $I18N = {
   },
   'invalid invite code' => {
     'lastUpdated' => 1228686712,
-    'message' => 'Ung&uuml;ltiger Einladungscode'
+    'message' => 'Ungültiger Einladungscode'
   },
   'invalid invite code message' => {
     'lastUpdated' => 1228686740,
-    'message' => 'Der Einladungscode in Ihrer URL ist ung&uuml;ltig.'
+    'message' => 'Der Einladungscode in Ihrer URL ist ungültig.'
   },
   'invitation accepted by user' => {
     'lastUpdated' => 1228686755,
@@ -119,11 +119,11 @@ our $I18N = {
   },
   'manage friends template help' => {
     'lastUpdated' => 1228686973,
-    'message' => 'Welche Vorlage m&ouml;chten Sie f&uuml;r die &quot;Meine Freunde zeigen&quot;-Anzeige im Benutzer-Account verwenden?'
+    'message' => 'Welche Vorlage möchten Sie für die &quot;Meine Freunde zeigen&quot;-Anzeige im Benutzer-Account verwenden?'
   },
   'manage friends template title' => {
     'lastUpdated' => 1228687003,
-    'message' => 'Vorlagen-Variablen f&uuml;r Freunde verwalten'
+    'message' => 'Vorlagen-Variablen für Freunde verwalten'
   },
   'message' => {
     'lastUpdated' => 1226020458,
@@ -131,7 +131,7 @@ our $I18N = {
   },
   'messageForm' => {
     'lastUpdated' => 1226020448,
-    'message' => 'HTML-Code f&uuml;r ein Textformular f&uuml;r den Nachrichtentext, der an Ihre Freunde versandt wird.'
+    'message' => 'HTML-Code für ein Textformular f&uuml;r den Nachrichtentext, der an Ihre Freunde versandt wird.'
   },
   'my friends' => {
     'lastUpdated' => 1203222390,
@@ -147,7 +147,7 @@ our $I18N = {
   },
   'not the right user' => {
     'lastUpdated' => 1226020386,
-    'message' => 'Der Einladungscode, den Sie benutzen, ist nicht f&uuml;r Sie bestimmt!'
+    'message' => 'Der Einladungscode, den Sie benutzen, ist nicht für Sie bestimmt!'
   },
   'offline' => {
     'lastUpdated' => 1226020359,
@@ -167,7 +167,7 @@ our $I18N = {
   },
   'removeFriendButton' => {
     'lastUpdated' => 1226020327,
-    'message' => 'HTML-Code f&uuml;r einen Butten, mit dem die ausgew&auml;hlten Freunde gel&ouml;scht werden.'
+    'message' => 'HTML-Code für einen Butten, mit dem die ausgewählten Freunde gelöscht werden.'
   },
   'see my friends' => {
     'lastUpdated' => 1203222711,
@@ -175,7 +175,7 @@ our $I18N = {
   },
   'send friend email instructions' => {
     'lastUpdated' => 1226020269,
-    'message' => 'W&auml;hle die Freunde aus, an die die E-Mail versandt werden soll. Verfassen Sie dann unten die Nachricht.'
+    'message' => 'Wähle die Freunde aus, an die die E-Mail versandt werden soll. Verfassen Sie dann unten die Nachricht.'
   },
   'send message' => {
     'lastUpdated' => 1226020221,
@@ -183,7 +183,7 @@ our $I18N = {
   },
   'sendMessageButton' => {
     'lastUpdated' => 1226020207,
-    'message' => 'HTML-Code f&uuml;r einen Butten, mit dem eine E-Mail an die ausgew&auml;hlten Freunde verschickt wird.'
+    'message' => 'HTML-Code für einen Butten, mit dem eine E-Mail an die ausgewählten Freunde verschickt wird.'
   },
   'status' => {
     'lastUpdated' => 1226015896,
@@ -195,7 +195,7 @@ our $I18N = {
   },
   'subjectForm' => {
     'lastUpdated' => 1226020153,
-    'message' => 'HTML-Code f&uuml;r ein Textformular f&uuml;r den Betreff der E-Mail, die an Ihre Freunde geschickt wird.'
+    'message' => 'HTML-Code für ein Textformular f&uuml;r den Betreff der E-Mail, die an Ihre Freunde geschickt wird.'
   },
   'timeout' => {
     'lastUpdated' => 1226019914,
@@ -203,7 +203,7 @@ our $I18N = {
   },
   'timeout help' => {
     'lastUpdated' => 1226020079,
-    'message' => 'Wie lange d&uuml;rfen Einladungen in ein Freunde-Netzwerk unbeantwortet bleiben, bevor sie automatisch abgelehnt werden.'
+    'message' => 'Wie lange dürfen Einladungen in ein Freunde-Netzwerk unbeantwortet bleiben, bevor sie automatisch abgelehnt werden.'
   },
   'topicName' => {
     'lastUpdated' => 1226019956,
@@ -211,7 +211,7 @@ our $I18N = {
   },
   'you have been added' => {
     'lastUpdated' => 1226019980,
-    'message' => 'Sie wurden der Feunde-Liste von %s hizugef&uuml;gt'
+    'message' => 'Sie wurden der Feunde-Liste von %s hizugefügt'
   },
   'you have not been added' => {
     'lastUpdated' => 1226019999,

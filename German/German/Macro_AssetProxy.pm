@@ -11,7 +11,7 @@ our $I18N = {
   },
   'invalid url' => {
     'lastUpdated' => 1226013981,
-    'message' => 'Ung&uuml;ltige Asset URL im AssetProxy'
+    'message' => 'Ungültige Asset URL im AssetProxy'
   }
 }
 ;

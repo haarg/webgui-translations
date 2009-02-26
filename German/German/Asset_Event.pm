@@ -3,15 +3,15 @@ use utf8;
 our $I18N = {
   'UserDefinedN' => {
     'lastUpdated' => 1180079545,
-    'message' => 'F&uuml;r jedes der 5 benutzerdefinierten Felder der Wert dieses Feldes.'
+    'message' => 'Für jedes der 5 benutzerdefinierten Felder der Wert dieses Feldes.'
   },
   'add related link' => {
     'lastUpdated' => 1221215688,
-    'message' => 'Verwandter Link hinzuf&uuml;gen'
+    'message' => 'Verwandter Link hinzufügen'
   },
   'add/edit title' => {
     'lastUpdated' => 1180079622,
-    'message' => 'Termin hinzuf&uuml;ge/bearbeiten'
+    'message' => 'Termin hinzufüge/bearbeiten'
   },
   'assetName' => {
     'lastUpdated' => 1157932400,
@@ -41,11 +41,11 @@ our $I18N = {
   },
   'attachments' => {
     'lastUpdated' => 1212757547,
-    'message' => 'Anh&auml;nge'
+    'message' => 'Anhänge'
   },
   'attachments for event' => {
     'lastUpdated' => 1212757560,
-    'message' => 'Anh&auml;nge f&uuml;r diesen Termin'
+    'message' => 'Anhänge für diesen Termin'
   },
   'canEdit' => {
     'lastUpdated' => 1193130762,
@@ -57,7 +57,7 @@ our $I18N = {
   },
   'delete' => {
     'lastUpdated' => 1212757226,
-    'message' => 'L&ouml;schen'
+    'message' => 'Löschen'
   },
   'description' => {
     'lastUpdated' => 1180079679,
@@ -129,11 +129,11 @@ our $I18N = {
   },
   'endDateMinute' => {
     'lastUpdated' => 1180080288,
-    'message' => 'Minute, zu der dieser Termin endet; zwei Ziffern, f&uuml;hrende 0.'
+    'message' => 'Minute, zu der dieser Termin endet; zwei Ziffern, führende 0.'
   },
   'endDateMonthAbbr' => {
     'lastUpdated' => 1180079732,
-    'message' => 'Abk&uuml;rzung des Namens des Monats, an dem dieser Termin endet.'
+    'message' => 'Abkürzung des Namens des Monats, an dem dieser Termin endet.'
   },
   'endDateMonthName' => {
     'lastUpdated' => 1180080308,
@@ -141,7 +141,7 @@ our $I18N = {
   },
   'endDateSecond' => {
     'lastUpdated' => 1180080342,
-    'message' => 'Sekunde, zu der dieser Termin endet; zwei Ziffern, f&uuml;hrende 0.'
+    'message' => 'Sekunde, zu der dieser Termin endet; zwei Ziffern, führende 0.'
   },
   'endDateYear' => {
     'lastUpdated' => 1180080370,
@@ -161,7 +161,7 @@ our $I18N = {
   },
   'event asset template variables body' => {
     'lastUpdated' => 1180082505,
-    'message' => 'Jedes Asset bietet f&uuml;r die meisten seiner Templates einen Satz an Variablen, basierend auf den internen Asset Eigenschaften. Einige dieser Variablen k&ouml;nnen n&uuml;tzlich sein, andere nicht.'
+    'message' => 'Jedes Asset bietet für die meisten seiner Templates einen Satz an Variablen, basierend auf den internen Asset Eigenschaften. Einige dieser Variablen können n&uuml;tzlich sein, andere nicht.'
   },
   'event asset template variables title' => {
     'lastUpdated' => 1180082434,
@@ -173,7 +173,7 @@ our $I18N = {
   },
   'event common template variables title' => {
     'lastUpdated' => 1180082396,
-    'message' => 'Termin gebr&auml;chliche Template Variablen'
+    'message' => 'Termin gebrächliche Template Variablen'
   },
   'event details' => {
     'lastUpdated' => 1212757247,
@@ -185,7 +185,7 @@ our $I18N = {
   },
   'event view template variables body' => {
     'lastUpdated' => 1180082377,
-    'message' => 'Diese Template Variablen werden vom Template benutzt, das diesen Termin dem Benutzer pr&auml;sentiert.'
+    'message' => 'Diese Template Variablen werden vom Template benutzt, das diesen Termin dem Benutzer präsentiert.'
   },
   'event view template variables title' => {
     'lastUpdated' => 1180082348,
@@ -197,7 +197,7 @@ our $I18N = {
   },
   'feedId' => {
     'lastUpdated' => 1180082335,
-    'message' => 'Der eindeutige Bezeichner f&uuml;r einen iCal Feed.'
+    'message' => 'Der eindeutige Bezeichner für einen iCal Feed.'
   },
   'feedUid' => {
     'lastUpdated' => 1180082315,
@@ -213,27 +213,27 @@ our $I18N = {
   },
   'formCancel' => {
     'lastUpdated' => 1180082301,
-    'message' => 'HTML f&uuml;r eine Schaltfl&auml;che f&uuml;r den Abbruch, das Hinzuf&uuml;gen oder Bearbeiten eines Termins.'
+    'message' => 'HTML für eine Schaltfläche f&uuml;r den Abbruch, das Hinzuf&uuml;gen oder Bearbeiten eines Termins.'
   },
   'formDescription' => {
     'lastUpdated' => 1180082254,
-    'message' => 'HTML Formular f&uuml;r die Eingabe oder Bearbeitung der Terminbeschreibung.'
+    'message' => 'HTML Formular für die Eingabe oder Bearbeitung der Terminbeschreibung.'
   },
   'formEndDate' => {
     'lastUpdated' => 1180082224,
-    'message' => 'HTML Formular f&uuml;r die Eingabe oder Bearbeitung des Enddatums des Termins.'
+    'message' => 'HTML Formular für die Eingabe oder Bearbeitung des Enddatums des Termins.'
   },
   'formEndTime' => {
     'lastUpdated' => 1180082203,
-    'message' => 'HTML Formular f&uuml;r die Eingabe und Bearbeitung der Endzeit des Termins.'
+    'message' => 'HTML Formular für die Eingabe und Bearbeitung der Endzeit des Termins.'
   },
   'formErrors' => {
     'lastUpdated' => 1180082177,
-    'message' => 'Diese Schleife enth&auml;lt jeden Fehler, der beim Bearbeiten von Termin Formulardaten aufgetreten ist.'
+    'message' => 'Diese Schleife enthält jeden Fehler, der beim Bearbeiten von Termin Formulardaten aufgetreten ist.'
   },
   'formFooter' => {
     'lastUpdated' => 1180082144,
-    'message' => 'HTML f&uuml;r das Ende des Hinzuf&uuml;gen/Bearbeiten Formulars.'
+    'message' => 'HTML für das Ende des Hinzuf&uuml;gen/Bearbeiten Formulars.'
   },
   'formGroupToView' => {
     'lastUpdated' => 1193130876,
@@ -241,43 +241,43 @@ our $I18N = {
   },
   'formHeader' => {
     'lastUpdated' => 1180082124,
-    'message' => 'HTML und Javascript f&uuml;r den Start des Hinzuf&uuml;gen/Bearbeiten Formulars.'
+    'message' => 'HTML und Javascript für den Start des Hinzuf&uuml;gen/Bearbeiten Formulars.'
   },
   'formLocation' => {
     'lastUpdated' => 1180082093,
-    'message' => 'HTML Formular f&uuml;r die Eingabe oder Bearbeitung eines Orts, an dem der Termin stattfinden soll.'
+    'message' => 'HTML Formular für die Eingabe oder Bearbeitung eines Orts, an dem der Termin stattfinden soll.'
   },
   'formMenuTitle' => {
     'lastUpdated' => 1180082058,
-    'message' => 'HTML Formular f&uuml;r die Eingabe oder Bearbeitung des Men&uuml;titels eines Termins.'
+    'message' => 'HTML Formular für die Eingabe oder Bearbeitung des Men&uuml;titels eines Termins.'
   },
   'formRecurEnd' => {
     'lastUpdated' => 1180082018,
-    'message' => 'HTML Datumsformular f&uuml;r die Eingabe, wann ein sich wiederholender Termin enden soll, falls er &uuml;berhaupt enden soll.'
+    'message' => 'HTML Datumsformular für die Eingabe, wann ein sich wiederholender Termin enden soll, falls er &uuml;berhaupt enden soll.'
   },
   'formRecurPattern' => {
     'lastUpdated' => 1180081974,
-    'message' => 'HTML und Javascript f&uuml;r ein Formular, das definiert, wie sich ein Termin wiederholen soll.'
+    'message' => 'HTML und Javascript für ein Formular, das definiert, wie sich ein Termin wiederholen soll.'
   },
   'formRecurStart' => {
     'lastUpdated' => 1180081936,
-    'message' => 'HTML Datumsformular f&uuml;r die Eingabe des ersten Datums, an dem sich ein Termin wiederholen soll.'
+    'message' => 'HTML Datumsformular für die Eingabe des ersten Datums, an dem sich ein Termin wiederholen soll.'
   },
   'formRelatedLinks' => {
     'lastUpdated' => 1180082620,
-    'message' => 'Ein HTML Text Formular f&uuml;r die Eingabe von URLs zu Webseiten, die weitere n&uuml;tzliche Informationen &uuml;ber diesen Termin bereithalten. Individuelle Links sollten Zeile f&uuml;r Zeile hinzugef&uuml;gt werden.'
+    'message' => 'Ein HTML Text Formular für die Eingabe von URLs zu Webseiten, die weitere n&uuml;tzliche Informationen &uuml;ber diesen Termin bereithalten. Individuelle Links sollten Zeile f&uuml;r Zeile hinzugef&uuml;gt werden.'
   },
   'formSave' => {
     'lastUpdated' => 1180081448,
-    'message' => 'HTML Code f&uuml;r eine Schaltfl&auml;che, um Termindaten zu speichern.'
+    'message' => 'HTML Code für eine Schaltfläche, um Termindaten zu speichern.'
   },
   'formStartDate' => {
     'lastUpdated' => 1180081419,
-    'message' => 'HTML Formular f&uuml;r die Eingabe des Startdatums des Termins.'
+    'message' => 'HTML Formular für die Eingabe des Startdatums des Termins.'
   },
   'formStartTime' => {
     'lastUpdated' => 1180081391,
-    'message' => 'HTML Formular f&uuml;r die Eingabe der Startzeit des Termins.'
+    'message' => 'HTML Formular für die Eingabe der Startzeit des Termins.'
   },
   'formTime' => {
     'lastUpdated' => 1180081371,
@@ -285,27 +285,27 @@ our $I18N = {
   },
   'formTitle' => {
     'lastUpdated' => 1180081260,
-    'message' => 'HTML Formular f&uuml;r die Eingabe des Termintitels.'
+    'message' => 'HTML Formular für die Eingabe des Termintitels.'
   },
   'formUserDefinedN' => {
     'lastUpdated' => 1199975116,
-    'message' => 'F&uuml;r jedes der 5 benutzerdefinierten Felder ein Formular f&uuml;r eine einzige Zeile Text.'
+    'message' => 'Für jedes der 5 benutzerdefinierten Felder ein Formular f&uuml;r eine einzige Zeile Text.'
   },
   'formUserDefinedN_float' => {
     'lastUpdated' => 1199975137,
-    'message' => 'F&uuml;r jedes der 5 benutzerdefinierten Felder ein Formular f&uuml;r eine einen Float (Gleitkommazahl).'
+    'message' => 'Für jedes der 5 benutzerdefinierten Felder ein Formular f&uuml;r eine einen Float (Gleitkommazahl).'
   },
   'formUserDefinedN_htmlarea' => {
     'lastUpdated' => 1199975165,
-    'message' => 'F&uuml;r jedes der 5 benutzerdefinierten Felder ein Formular f&uuml;r ein WYSIWYG HTML Bereich.'
+    'message' => 'Für jedes der 5 benutzerdefinierten Felder ein Formular f&uuml;r ein WYSIWYG HTML Bereich.'
   },
   'formUserDefinedN_textarea' => {
     'lastUpdated' => 1199975181,
-    'message' => 'F&uuml;r jedes der 5 benutzerdefinierten Felder ein Formular f&uuml;r einen Textbereich.'
+    'message' => 'Für jedes der 5 benutzerdefinierten Felder ein Formular f&uuml;r einen Textbereich.'
   },
   'formUserDefinedN_yesNo' => {
     'lastUpdated' => 1199975195,
-    'message' => 'F&uuml;r jedes der 5 benutzerdefinierten Felder ein Formular f&uuml;r ein Ja/Nein Feld.'
+    'message' => 'Für jedes der 5 benutzerdefinierten Felder ein Formular f&uuml;r ein Ja/Nein Feld.'
   },
   'group to view' => {
     'lastUpdated' => 1212757297,
@@ -321,7 +321,7 @@ our $I18N = {
   },
   'image.thumbnail' => {
     'lastUpdated' => 1199975030,
-    'message' => 'Ein Vorschaubild (Thumbnail) eines Bildes, das dem Post als Anhang angef&uuml;gt ist.'
+    'message' => 'Ein Vorschaubild (Thumbnail) eines Bildes, das dem Post als Anhang angefügt ist.'
   },
   'image.url' => {
     'lastUpdated' => 1193131860,
@@ -373,11 +373,11 @@ our $I18N = {
   },
   'next event' => {
     'lastUpdated' => 1212757332,
-    'message' => 'N&auml;chster Termin'
+    'message' => 'Nächster Termin'
   },
   'nextUrl' => {
     'lastUpdated' => 1180081062,
-    'message' => 'URL, um zum n&auml;chsten Termin des Kalenders zu gelangen.'
+    'message' => 'URL, um zum nächsten Termin des Kalenders zu gelangen.'
   },
   'prevUrl' => {
     'lastUpdated' => 1180081072,
@@ -393,7 +393,7 @@ our $I18N = {
   },
   'recurId' => {
     'lastUpdated' => 1180081011,
-    'message' => 'Eindeutiger Bezeichner f&uuml;r die Wiederholung dieses Termins in der Datenbank.'
+    'message' => 'Eindeutiger Bezeichner für die Wiederholung dieses Termins in der Datenbank.'
   },
   'recurrence' => {
     'lastUpdated' => 1217254653,
@@ -409,11 +409,11 @@ our $I18N = {
   },
   'related material' => {
     'lastUpdated' => 1212757419,
-    'message' => 'zugeh&ouml;riges Material'
+    'message' => 'zugehöriges Material'
   },
   'relatedLinks' => {
     'lastUpdated' => 1180082699,
-    'message' => 'Diese Schleife enth&auml;lt alle Links von dem Satz der "related" Links dieses Termins.'
+    'message' => 'Diese Schleife enthält alle Links von dem Satz der "related" Links dieses Termins.'
   },
   'relatedLinks assetVar' => {
     'lastUpdated' => 1180082747,
@@ -441,7 +441,7 @@ our $I18N = {
   },
   'startDateDayAbbr' => {
     'lastUpdated' => 1180079753,
-    'message' => 'Abk&uuml;rzung des Namens des Tages, an dem dieser Termin beginnt.'
+    'message' => 'Abkürzung des Namens des Tages, an dem dieser Termin beginnt.'
   },
   'startDateDayName' => {
     'lastUpdated' => 1180080920,
@@ -477,7 +477,7 @@ our $I18N = {
   },
   'startDateHourM' => {
     'lastUpdated' => 1180080727,
-    'message' => 'Abh&auml;ngig davon, ob der Termin morgens oder nachmittags ist, der String "am" oder "pm".'
+    'message' => 'Abhängig davon, ob der Termin morgens oder nachmittags ist, der String "am" oder "pm".'
   },
   'startDateMdy' => {
     'lastUpdated' => 1180080676,
@@ -485,11 +485,11 @@ our $I18N = {
   },
   'startDateMinute' => {
     'lastUpdated' => 1180080562,
-    'message' => 'Minute, zu der dieser Termin startet; zwei Ziffern, f&uuml;hrende 0.'
+    'message' => 'Minute, zu der dieser Termin startet; zwei Ziffern, führende 0.'
   },
   'startDateMonthAbbr' => {
     'lastUpdated' => 1180079769,
-    'message' => 'Abk&uuml;rzung des Namens des Monats, an dem dieser Termin beginnt.'
+    'message' => 'Abkürzung des Namens des Monats, an dem dieser Termin beginnt.'
   },
   'startDateMonthName' => {
     'lastUpdated' => 1180080527,
@@ -497,7 +497,7 @@ our $I18N = {
   },
   'startDateSecond' => {
     'lastUpdated' => 1180080549,
-    'message' => 'Sekunde, zu der dieser Termin startet; zwei Ziffern, f&uuml;hrende 0.'
+    'message' => 'Sekunde, zu der dieser Termin startet; zwei Ziffern, führende 0.'
   },
   'startDateYear' => {
     'lastUpdated' => 1180080582,
@@ -537,11 +537,11 @@ our $I18N = {
   },
   'urlParent' => {
     'lastUpdated' => 1180080439,
-    'message' => 'URL zum Kalender, der diesen Termin enth&auml;lt.'
+    'message' => 'URL zum Kalender, der diesen Termin enthält.'
   },
   'urlSearch' => {
     'lastUpdated' => 1180079918,
-    'message' => 'URL zu einem Such Formular des Kalenders, der diesen Termin enth&auml;lt.'
+    'message' => 'URL zu einem Such Formular des Kalenders, der diesen Termin enthält.'
   },
   'urlWeek' => {
     'lastUpdated' => 1180079886,

@@ -79,22 +79,22 @@ our $I18N = {
 	},
 
 	'new file description' => {
-		message => q|Geben Sie den Pfad zu einer Datei ein oder benutzen Sie die "Browse" Schaltfl&auml;che, um eine Datei auf ihrer Festplatte zu suchen, die Sie ins System hochladen wollen.|,
+		message => q|Geben Sie den Pfad zu einer Datei ein oder benutzen Sie die "Browse" Schaltfläche, um eine Datei auf ihrer Festplatte zu suchen, die Sie ins System hochladen wollen.|,
 		lastUpdated => 1179841309
 	},
 
 	'isLocked' => {
-		message => q|Bedingung, die angibt, ob der aktuelle Thread gesperrt ist. Gesperrte Threads k&ouml;nnen nicht bearbeitet werden.|,
+		message => q|Bedingung, die angibt, ob der aktuelle Thread gesperrt ist. Gesperrte Threads können nicht bearbeitet werden.|,
 		lastUpdated => 1179839779
 	},
 
 	'depth' => {
-		message => q|Nummer, die die Anzahl der Schleifendurchg&auml;nge von <strong>indent_loop</strong> angibt.|,
+		message => q|Nummer, die die Anzahl der Schleifendurchgänge von <strong>indent_loop</strong> angibt.|,
 		lastUpdated => 1179839333
 	},
 
 	'collaboration.url' => {
-		message => q|URL, um zum Collaboration System zur&uuml;ckzukehren, dem dieser Post zugeordnet ist.|,
+		message => q|URL, um zum Collaboration System zurückzukehren, dem dieser Post zugeordnet ist.|,
 		lastUpdated => 1179839166
 	},
 
@@ -119,7 +119,7 @@ our $I18N = {
 	},
 
 	'layout.nested.url' => {
-		message => q|URL, um das Layout auf verschachtelt zu &auml;ndern. Dies listet alle Posts mit einem Zeileneinzug auf, um anzudeuten, welche Post Antworten auf andere Post sind bzw. welche Posts neue Themen sind.|,
+		message => q|URL, um das Layout auf verschachtelt zu ändern. Dies listet alle Posts mit einem Zeileneinzug auf, um anzudeuten, welche Post Antworten auf andere Post sind bzw. welche Posts neue Themen sind.|,
 		lastUpdated => 1179841193
 	},
 
@@ -144,12 +144,12 @@ our $I18N = {
 	},
 
 	'add.url' => {
-		message => q|URL, um einen neuen Thread hinzuzuf&uuml;gen.|,
+		message => q|URL, um einen neuen Thread hinzuzufügen.|,
 		lastUpdated => 1179838989
 	},
 
 	'stick.url' => {
-		message => q|URL, um diesen Thread als "sticky" zu markieren. Als "sticky" markierte Threads werden in der Liste der Threads am Anfang aufgef&uuml;hrt.|,
+		message => q|URL, um diesen Thread als "sticky" zu markieren. Als "sticky" markierte Threads werden in der Liste der Threads am Anfang aufgeführt.|,
 		lastUpdated => 1179841512
 	},
 
@@ -159,17 +159,17 @@ our $I18N = {
 	},
 
 	'karmaScale' => {
-		message => q|Ein Gewichtungsfaktor f&uuml;r Schwierigkeit, Komeplexit&auml;t oder das Handicap in einem Wettbewerb.|,
+		message => q|Ein Gewichtungsfaktor für Schwierigkeit, Komeplexität oder das Handicap in einem Wettbewerb.|,
 		lastUpdated => 1179840915
 	},
 
 	'subscriptionGroupId' => {
-		message => q|Die ID der Gruppe, die f&uuml;r die Abonnenten dieses Threads reserviert ist.|,
+		message => q|Die ID der Gruppe, die für die Abonnenten dieses Threads reserviert ist.|,
 		lastUpdated => 1179841560
 	},
 
 	'post_loop' => {
-		message => q|Schleife, die alle Posts dieses Threads enth&auml;lt. Jeder Post in der Schleife besitzt seinen eigenen Satz an Post Template Variablen.|,
+		message => q|Schleife, die alle Posts dieses Threads enthält. Jeder Post in der Schleife besitzt seinen eigenen Satz an Post Template Variablen.|,
 		lastUpdated => 1179841375
 	},
 
@@ -179,7 +179,7 @@ our $I18N = {
 	},
 
 	'next.url' => {
-		message => q|URL zum n&auml;chsten Thread.|,
+		message => q|URL zum nächsten Thread.|,
 		lastUpdated => 1179841321
 	},
 
@@ -199,12 +199,12 @@ our $I18N = {
 	},
 
 	'layout.flat.url' => {
-		message => q|URL, um das Layout auf flach zu &auml;ndern. Dies listet alle Posts eines Threads in der Reihenfolge, in der sie von Benutzern eingestellt wurden.|,
+		message => q|URL, um das Layout auf flach zu ändern. Dies listet alle Posts eines Threads in der Reihenfolge, in der sie von Benutzern eingestellt wurden.|,
 		lastUpdated => 1179841013
 	},
 
 	'user.canPost' => {
-		message => q|Bediungung, die anzeigt, ob der aktuelle Benutzer Posts zu diesem Thread hinzuf&uuml;gen darf.|,
+		message => q|Bediungung, die anzeigt, ob der aktuelle Benutzer Posts zu diesem Thread hinzufügen darf.|,
 		lastUpdated => 1179842030
 	},
 

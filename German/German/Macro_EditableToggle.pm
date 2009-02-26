@@ -13,7 +13,7 @@ our $I18N = {
 	},
 
 	'toggle.url' => {
-		message => q|Die URL f&uuml;r die Aktivierung bzw. Deaktivierung des Admin Modus.|,
+		message => q|Die URL für die Aktivierung bzw. Deaktivierung des Admin Modus.|,
 		lastUpdated => 1178784988
 	},
 
@@ -28,7 +28,7 @@ our $I18N = {
 	},
 
 	'toggle.text' => {
-		message => q|Das internationaliserte Label, um Admin Modus ein- bzw. auszuschalten (abh&auml;ngig vom Status des Makros), bzw. der Text, den Sie dem Makro &uuml;bergeben haben.|,
+		message => q|Das internationaliserte Label, um Admin Modus ein- bzw. auszuschalten (abhängig vom Status des Makros), bzw. der Text, den Sie dem Makro übergeben haben.|,
 		lastUpdated => 1178784966
 	},
 

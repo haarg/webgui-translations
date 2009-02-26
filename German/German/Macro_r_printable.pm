@@ -13,7 +13,7 @@ our $I18N = {
 	},
 
 	'printable.text' => {
-		message => q|Der &uuml;bersetzte Label f&uuml;r den ausdruckbaren Link bzw. der Text, den Sie dem Makro als Argument &uuml;bergeben haben.|,
+		message => q|Der übersetzte Label f&uuml;r den ausdruckbaren Link bzw. der Text, den Sie dem Makro als Argument &uuml;bergeben haben.|,
 		lastUpdated => 1178780881
 	},
 

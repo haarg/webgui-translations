@@ -27,15 +27,15 @@ our $I18N = {
   },
   'guid' => {
     'lastUpdated' => 1228688400,
-    'message' => 'Ein Alias f&uuml;r Link. Bei RSS ist GUID der eindeutige Bezeichner.'
+    'message' => 'Ein Alias für Link. Bei RSS ist GUID der eindeutige Bezeichner.'
   },
   'item_loop' => {
     'lastUpdated' => 1228688440,
-    'message' => 'Eine Schleife, die Informationen &uuml;ber alle Assets unterhalb des Eltern-Elements enth&auml;lt.'
+    'message' => 'Eine Schleife, die Informationen über alle Assets unterhalb des Eltern-Elements enthält.'
   },
   'lastBuildDate' => {
     'lastUpdated' => 1228688489,
-    'message' => 'Das Datum, an dem der Eltern-Inhalt zuletzt im g&uuml;ltigen RSS-Format (RFC 822) ver&auml;ndert wurde.'
+    'message' => 'Das Datum, an dem der Eltern-Inhalt zuletzt im gültigen RSS-Format (RFC 822) verändert wurde.'
   },
   'link' => {
     'lastUpdated' => 1226014719,
@@ -47,15 +47,15 @@ our $I18N = {
   },
   'link.parent' => {
     'lastUpdated' => 1226014756,
-    'message' => 'Der Eltern-URL f&uuml;r dieses Asset'
+    'message' => 'Der Eltern-URL für dieses Asset'
   },
   'pubDate' => {
     'lastUpdated' => 1228688568,
-    'message' => 'Das Datum an dem dieser Eintrag zuletzt im g&uuml;ltigen RSS-Format (RFC 822) ver&auml;ndert wurde.'
+    'message' => 'Das Datum an dem dieser Eintrag zuletzt im gültigen RSS-Format (RFC 822) verändert wurde.'
   },
   'rss from parent body' => {
     'lastUpdated' => 1228688815,
-    'message' => '<p>Der Einzige zweck dieses Assets ist es, eine Basis-Vorlage zur Generierung von RSS-Feeds bereitzustellen. Nachfolgend sind die grundlegenden Vorlagen-Variablen aufgelistet, die in jdem Asset zur Verf&uuml;gung stehen, das RSS-Feeds generiert.&nbsp; Assets k&ouml;nnen weitere oder verschiedene Variablen zur Verf&uuml;gung stellen.</p>'
+    'message' => '<p>Der Einzige zweck dieses Assets ist es, eine Basis-Vorlage zur Generierung von RSS-Feeds bereitzustellen. Nachfolgend sind die grundlegenden Vorlagen-Variablen aufgelistet, die in jdem Asset zur Verfügung stehen, das RSS-Feeds generiert.&nbsp; Assets können weitere oder verschiedene Variablen zur Verf&uuml;gung stellen.</p>'
   },
   'rss from parent title' => {
     'lastUpdated' => 1228688652,

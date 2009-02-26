@@ -29,12 +29,12 @@ our $I18N = {
 	},
 
 	'forum.add.url' => {
-		message => q|URL zum hinzuf&uuml;gen eines Forums zu diesem Message Board.|,
+		message => q|URL zum hinzufügen eines Forums zu diesem Message Board.|,
 		lastUpdated => 1179823802
 	},
 
 	'forum.add.label' => {
-		message => q|Das Standard Label f&uuml;r forum.add.url.|,
+		message => q|Das Standard Label für forum.add.url.|,
 		lastUpdated => 1179823780
 	},
 
@@ -59,17 +59,17 @@ our $I18N = {
 	},
 
 	'visitorCacheTimeout' => {
-		message => q|Die Zeitspanne, die dieser Artikel f&uuml;r Visitors gecached werden soll.|,
+		message => q|Die Zeitspanne, die dieser Artikel für Visitors gecached werden soll.|,
 		lastUpdated => 1179824820
 	},
 
 	'75' => {
-		message => q|Forum hinzuf&uuml;gen|,
+		message => q|Forum hinzufügen|,
 		lastUpdated => 1179823650
 	},
 
 	'lastpost.label' => {
-		message => q|Das Standard Label f&uuml;r die Spalte letzter Post.|,
+		message => q|Das Standard Label für die Spalte letzter Post.|,
 		lastUpdated => 1179824553
 	},
 
@@ -79,7 +79,7 @@ our $I18N = {
 	},
 
 	'rating.label' => {
-		message => q|Das Standard Label f&uuml;r die Spalte Bewertung.|,
+		message => q|Das Standard Label für die Spalte Bewertung.|,
 		lastUpdated => 1179824597
 	},
 
@@ -109,7 +109,7 @@ our $I18N = {
 	},
 
 	'forum.count' => {
-		message => q|Schleifenindex f&uuml;r Anzahl Foren.|,
+		message => q|Schleifenindex für Anzahl Foren.|,
 		lastUpdated => 1179823965
 	},
 
@@ -119,7 +119,7 @@ our $I18N = {
 	},
 
 	'forum_loop' => {
-		message => q|Schleife, die die Daten f&uuml;r alle Foren eines Message Boards enth&auml;lt.|,
+		message => q|Schleife, die die Daten für alle Foren eines Message Boards enthält.|,
 		lastUpdated => 1179824515
 	},
 
@@ -134,7 +134,7 @@ our $I18N = {
 	},
 
 	'title.label' => {
-		message => q|Das Standard Label f&uuml;r die Spalte Titel.|,
+		message => q|Das Standard Label für die Spalte Titel.|,
 		lastUpdated => 1179824677
 	},
 
@@ -144,12 +144,12 @@ our $I18N = {
 	},
 
 	'threads.label' => {
-		message => q|Das Standard Label f&uuml;r die Spalte Threads.|,
+		message => q|Das Standard Label für die Spalte Threads.|,
 		lastUpdated => 1179824661
 	},
 
 	'73 description' => {
-		message => q|W&auml;hlen Sie ein Template f&uuml;r die Darstellung ihres Message Boards.|,
+		message => q|Wählen Sie ein Template für die Darstellung ihres Message Boards.|,
 		lastUpdated => 1179823605
 	},
 
@@ -159,7 +159,7 @@ our $I18N = {
 	},
 
 	'message board asset template variables body' => {
-		message => q|Jedes Asset bietet ihren Templates einen Satz an Variablen, die auf den Asset Eigenschaften basieren. Einige dieser Variablen k&ouml;nnen n&uuml;tzlich sein, andere nicht.|,
+		message => q|Jedes Asset bietet ihren Templates einen Satz an Variablen, die auf den Asset Eigenschaften basieren. Einige dieser Variablen können nützlich sein, andere nicht.|,
 		lastUpdated => 1170409070
 	},
 
@@ -199,7 +199,7 @@ our $I18N = {
 	},
 
 	'templateId' => {
-		message => q|Die Id des Templates f&uuml;r die Anzeige dieses Assets.|,
+		message => q|Die Id des Templates für die Anzeige dieses Assets.|,
 		lastUpdated => 1179824639
 	},
 
@@ -224,7 +224,7 @@ our $I18N = {
 	},
 
 	'views.label' => {
-		message => q|Das Standard Label f&uuml;r die Spalte Ansichten.|,
+		message => q|Das Standard Label für die Spalte Ansichten.|,
 		lastUpdated => 1179824703
 	},
 
@@ -239,12 +239,12 @@ our $I18N = {
 	},
 
 	'replies.label' => {
-		message => q|Das Standard Label f&uuml;r die Spalte Antworten.|,
+		message => q|Das Standard Label für die Spalte Antworten.|,
 		lastUpdated => 1179824620
 	},
 
 	'visitor cache timeout help' => {
-		message => q|Alle Visitor sehen dieses Asset auf die gleiche Weise, man kann es also cachen, um die Performance zu erh&ouml;hen. Wie lange soll dieses Asset gecached werden?|,
+		message => q|Alle Visitor sehen dieses Asset auf die gleiche Weise, man kann es also cachen, um die Performance zu erhöhen. Wie lange soll dieses Asset gecached werden?|,
 		lastUpdated => 1179824794
 	},
 
@@ -254,7 +254,7 @@ our $I18N = {
 	},
 
 	'76' => {
-		message => q|Sind Sie sich sicher, dass Sie dieses Forum und alle darin enthaltenen Posts l&ouml;schen wollen?|,
+		message => q|Sind Sie sich sicher, dass Sie dieses Forum und alle darin enthaltenen Posts löschen wollen?|,
 		lastUpdated => 1179823682
 	},
 

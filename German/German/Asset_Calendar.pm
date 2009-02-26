@@ -43,11 +43,11 @@ our $I18N = {
   },
   'adminControls' => {
     'lastUpdated' => '1178788397',
-    'message' => 'Dies sind die Icons und URLs, die das Bearbeiten, Ausschneiden, Kopieren, L&ouml;schen und Umstrukturierung von Assets erlauben.'
+    'message' => 'Dies sind die Icons und URLs, die das Bearbeiten, Ausschneiden, Kopieren, Löschen und Umstrukturierung von Assets erlauben.'
   },
   'asset not committed' => {
     'lastUpdated' => '1224833738',
-    'message' => '<h1>Fehler!</h1><p>Sie m&uuml;ssen den Kalender committen bevor Sie einen neuen Termin anlegen k&ouml;nnen.&nbsp;</p>'
+    'message' => '<h1>Fehler!</h1><p>Sie müssen den Kalender committen bevor Sie einen neuen Termin anlegen können.&nbsp;</p>'
   },
   'assetName' => {
     'lastUpdated' => '1170409428',
@@ -59,7 +59,7 @@ our $I18N = {
   },
   'dayAbbr' => {
     'lastUpdated' => '1178788428',
-    'message' => 'Die Abk&uuml;rzung f&uuml;r den Namen des aktuellen Tages.'
+    'message' => 'Die Abkürzung f&uuml;r den Namen des aktuellen Tages.'
   },
   'dayName' => {
     'lastUpdated' => '1178788438',
@@ -75,7 +75,7 @@ our $I18N = {
   },
   'days' => {
     'lastUpdated' => '1178788585',
-    'message' => 'Diese Schleife enth&auml;lt alle Termine und Label f&uuml;r die Tage an denen Sie auftreten. Alle Tage der Woche sind in der Schleife enthalten, egal ob sie Termine enthalten oder nicht.'
+    'message' => 'Diese Schleife enthält alle Termine und Label für die Tage an denen Sie auftreten. Alle Tage der Woche sind in der Schleife enthalten, egal ob sie Termine enthalten oder nicht.'
   },
   'defaultDate description' => {
     'lastUpdated' => '1178788610',
@@ -159,11 +159,11 @@ our $I18N = {
   },
   'editForm workflowIdCommit description' => {
     'lastUpdated' => '1224834879',
-    'message' => 'W&auml;hlen Sie einen Workflow, der benutzt werden soll, um bearbeitete oder neu erstellte Termine committen soll.'
+    'message' => 'Wählen Sie einen Workflow, der benutzt werden soll, um bearbeitete oder neu erstellte Termine committen soll.'
   },
   'editForm workflowIdCommit label' => {
     'lastUpdated' => '1224834893',
-    'message' => 'Commit Workflow f&uuml;r Termine'
+    'message' => 'Commit Workflow für Termine'
   },
   'editor' => {
     'lastUpdated' => '1178789288',
@@ -175,7 +175,7 @@ our $I18N = {
   },
   'endDayAbbr' => {
     'lastUpdated' => '1178789328',
-    'message' => 'Die Abk&uuml;rzung f&uuml;r den Name des Tages mit dem diese Woche endet.'
+    'message' => 'Die Abkürzung f&uuml;r den Name des Tages mit dem diese Woche endet.'
   },
   'endDayName' => {
     'lastUpdated' => '1178789342',
@@ -191,7 +191,7 @@ our $I18N = {
   },
   'endMonthAbbr' => {
     'lastUpdated' => '1178789428',
-    'message' => 'Die Abk&uuml;rzung des Names des Monats in dem diese Woche endet.'
+    'message' => 'Die Abkürzung des Names des Monats in dem diese Woche endet.'
   },
   'endMonthName' => {
     'lastUpdated' => '1178789440',
@@ -207,11 +207,11 @@ our $I18N = {
   },
   'events dayVar' => {
     'lastUpdated' => '1178789513',
-    'message' => 'Eine Schleife, die alle Termine dieser Stunden enth&auml;lt.'
+    'message' => 'Eine Schleife, die alle Termine dieser Stunden enthält.'
   },
   'events weekVar' => {
     'lastUpdated' => '1178789532',
-    'message' => 'Eine Schleife, die alle Termine dieses Tages enth&auml;lt.'
+    'message' => 'Eine Schleife, die alle Termine dieses Tages enthält.'
   },
   'extrasUrl' => {
     'lastUpdated' => '1178789551',
@@ -223,15 +223,15 @@ our $I18N = {
   },
   'groupIdEventEdit description' => {
     'lastUpdated' => '1178789586',
-    'message' => 'Mitglieder dieser Gruppe k&ouml;nnen Termine zu diesem Kalender hinzuf&uuml;gen.'
+    'message' => 'Mitglieder dieser Gruppe können Termine zu diesem Kalender hinzufügen.'
   },
   'groupIdEventEdit label' => {
     'lastUpdated' => '1178789613',
-    'message' => 'Wer darf Termine hinzuf&uuml;gen?'
+    'message' => 'Wer darf Termine hinzufügen?'
   },
   'help calendar dateTime body' => {
     'lastUpdated' => '1224833902',
-    'message' => '<p>Diese Variablen sind f&uuml;r die meisten Datums und Zeiten im Kalender verf&uuml;gbar.</p><p>HINWEIS: Manchmal haben diese Variablen einen Pr&auml;fix wie &quot;start&quot; oder &quot;end&quot;. In diesem Fall ist der erste Buchstabe der unten aufgef&uuml;hrten Variablen gro&szlig; zu schreiben. Die Variable &quot;monthName&quot; zum Beispiel wird dadurch zu &quot;startMonthName&quot;.</p>'
+    'message' => '<p>Diese Variablen sind für die meisten Datums und Zeiten im Kalender verf&uuml;gbar.</p><p>HINWEIS: Manchmal haben diese Variablen einen Präfix wie &quot;start&quot; oder &quot;end&quot;. In diesem Fall ist der erste Buchstabe der unten aufgef&uuml;hrten Variablen groß zu schreiben. Die Variable &quot;monthName&quot; zum Beispiel wird dadurch zu &quot;startMonthName&quot;.</p>'
   },
   'help calendar dateTime title' => {
     'lastUpdated' => '1224833935',
@@ -239,7 +239,7 @@ our $I18N = {
   },
   'help event variables body' => {
     'lastUpdated' => '1224834042',
-    'message' => '<p>Falls der Kalender einen Termin darstellt, bekommt er den vollst&auml;ndigen Satz der Termin Variablen und &auml;ndert seinen Namen geringf&uuml;gig. </p><p>Die Termin Schablonen Variable &quot;title&quot; wird zu &quot;eventTitle&quot;. Die Termin Schablonen Variable &quot;startDate&quot; wird zu &quot;eventStartDate&quot; und so weiter.</p>'
+    'message' => '<p>Falls der Kalender einen Termin darstellt, bekommt er den vollständigen Satz der Termin Variablen und &auml;ndert seinen Namen geringfügig. </p><p>Die Termin Vorlagen Variable &quot;title&quot; wird zu &quot;eventTitle&quot;. Die Termin Schablonen Variable &quot;startDate&quot; wird zu &quot;eventStartDate&quot; und so weiter.</p>'
   },
   'help event variables title' => {
     'lastUpdated' => '1224834056',
@@ -247,7 +247,7 @@ our $I18N = {
   },
   'help view list body' => {
     'lastUpdated' => '1224834078',
-    'message' => 'Diese Variablen sind in der Kalender Listenansicht verf&uuml;gbar.'
+    'message' => 'Diese Variablen sind in der Kalender Listenansicht verfügbar.'
   },
   'help view list title' => {
     'lastUpdated' => '1224834088',
@@ -255,7 +255,7 @@ our $I18N = {
   },
   'helpvar dateTime dayAbbr' => {
     'lastUpdated' => '1217147994',
-    'message' => 'Der abgek&uuml;rzte Tag (z.B. &quot;Mo&quot;)'
+    'message' => 'Der abgekürzte Tag (z.B. &quot;Mo&quot;)'
   },
   'helpvar dateTime dayName' => {
     'lastUpdated' => '1217148011',
@@ -275,11 +275,11 @@ our $I18N = {
   },
   'helpvar dateTime end' => {
     'lastUpdated' => '1224834431',
-    'message' => 'Ein Satz von Datum/Zeit Variablen mit dem Pr&auml;fix &quot;end&quot;. Siehe auch &quot;Kalender Datum/Zeit Variablen&quot; f&uuml;r weitere Informationen.'
+    'message' => 'Ein Satz von Datum/Zeit Variablen mit dem Präfix &quot;end&quot;. Siehe auch &quot;Kalender Datum/Zeit Variablen&quot; für weitere Informationen.'
   },
   'helpvar dateTime epoch' => {
     'lastUpdated' => '1217147941',
-    'message' => 'Das Datum als Epoche (Anzahl Sekunden seit 1970-01-01 00:00:00). Die Epoche ist f&uuml;r die Verwenung im &bdquo;Date&rdquo;-Makro gedacht.'
+    'message' => 'Das Datum als Epoche (Anzahl Sekunden seit 1970-01-01 00:00:00). Die Epoche ist für die Verwenung im &bdquo;Date&rdquo;-Makro gedacht.'
   },
   'helpvar dateTime mdy' => {
     'lastUpdated' => '1217147802',
@@ -299,7 +299,7 @@ our $I18N = {
   },
   'helpvar dateTime monthAbbr' => {
     'lastUpdated' => '1217147634',
-    'message' => 'Der abgek&uuml;rzte Monatsname (z.B. &quot;Jan&quot;)'
+    'message' => 'Der abgekürzte Monatsname (z.B. &quot;Jan&quot;)'
   },
   'helpvar dateTime monthName' => {
     'lastUpdated' => '1217147663',
@@ -311,7 +311,7 @@ our $I18N = {
   },
   'helpvar dateTime start' => {
     'lastUpdated' => '1227565743',
-    'message' => 'Ein Satz von Datum/Zeit Variablen mit dem Pr&auml;fix &quot;start&quot;. Siehe &quot;Kalender Datum/Zeit Variablen&quot; f&uuml;r weitere Informationen.'
+    'message' => 'Ein Satz von Datum/Zeit Variablen mit dem Präfix &quot;start&quot;. Siehe &quot;Kalender Datum/Zeit Variablen&quot; für weitere Informationen.'
   },
   'helpvar dateTime year' => {
     'lastUpdated' => '1217147584',
@@ -335,7 +335,7 @@ our $I18N = {
   },
   'helpvar url_nextPage' => {
     'lastUpdated' => '1217147416',
-    'message' => 'Der URL der n&auml;chsten Seite. Diese Variable existiert nicht, wenn es keine n&auml;chste Seite gibt.'
+    'message' => 'Der URL der nächsten Seite. Diese Variable existiert nicht, wenn es keine n&auml;chste Seite gibt.'
   },
   'helpvar url_previousPage' => {
     'lastUpdated' => '1217147391',
@@ -351,11 +351,11 @@ our $I18N = {
   },
   'hourM' => {
     'lastUpdated' => '1178789763',
-    'message' => 'Abh&auml;ngig davon, ob die Stunde vormittags oder nachmittags stattfindet, entweder "am" oder "pm".'
+    'message' => 'Abhängig davon, ob die Stunde vormittags oder nachmittags stattfindet, entweder "am" oder "pm".'
   },
   'hours' => {
     'lastUpdated' => '1178789826',
-    'message' => 'Diese Schleife enth&auml;lt alle Termine und Label f&uuml;r die Stunde in der sie auftreten. Stunden, die keine Termine enthalten, werden in die Schleife nicht mit aufgenommen.'
+    'message' => 'Diese Schleife enthält alle Termine und Label für die Stunde in der sie auftreten. Stunden, die keine Termine enthalten, werden in die Schleife nicht mit aufgenommen.'
   },
   'iCal' => {
     'lastUpdated' => '1192798304',
@@ -391,7 +391,7 @@ our $I18N = {
   },
   'monthAbbr' => {
     'lastUpdated' => '1178789903',
-    'message' => 'Die Abk&uuml;rzung f&uuml;r den Namen dieses Monats'
+    'message' => 'Die Abkürzung f&uuml;r den Namen dieses Monats'
   },
   'monthName' => {
     'lastUpdated' => '1178789912',
@@ -399,15 +399,15 @@ our $I18N = {
   },
   'next day' => {
     'lastUpdated' => '1217146242',
-    'message' => 'N&auml;chster Tag'
+    'message' => 'Nächster Tag'
   },
   'next page' => {
     'lastUpdated' => '1217146276',
-    'message' => 'N&auml;chste Seite'
+    'message' => 'Nächste Seite'
   },
   'next week' => {
     'lastUpdated' => '1217146300',
-    'message' => 'N&auml;chste Woche'
+    'message' => 'Nächste Woche'
   },
   'page x of x' => {
     'lastUpdated' => '1217146392',
@@ -415,15 +415,15 @@ our $I18N = {
   },
   'pageNextStart' => {
     'lastUpdated' => '1178789956',
-    'message' => 'Das Datum des n&auml;chsten Tages im Kalender im YYYY-MM-DD (Jahr,Monat,Tag) Format.'
+    'message' => 'Das Datum des nächsten Tages im Kalender im YYYY-MM-DD (Jahr,Monat,Tag) Format.'
   },
   'pageNextUrl dayVar' => {
     'lastUpdated' => '1178789982',
-    'message' => 'URL zum n&auml;chsten Tag im Kalender.'
+    'message' => 'URL zum nächsten Tag im Kalender.'
   },
   'pageNextUrl weekVar' => {
     'lastUpdated' => '1178790006',
-    'message' => 'URL zur n&auml;chsten Woche im Kalender.'
+    'message' => 'URL zur nächsten Woche im Kalender.'
   },
   'pagePrevStart' => {
     'lastUpdated' => '1178790041',
@@ -471,11 +471,11 @@ our $I18N = {
   },
   'sortEventsBy description' => {
     'lastUpdated' => '1201601599',
-    'message' => 'Anzeigereihenfolge der t&auml;glichen Termine.'
+    'message' => 'Anzeigereihenfolge der täglichen Termine.'
   },
   'sortEventsBy label' => {
     'lastUpdated' => '1201601651',
-    'message' => 'Anzeigereihenfolge t&auml;gliche Termine'
+    'message' => 'Anzeigereihenfolge tägliche Termine'
   },
   'sortEventsBy value sequencenumber' => {
     'lastUpdated' => '1201601673',
@@ -491,7 +491,7 @@ our $I18N = {
   },
   'startDayAbbr' => {
     'lastUpdated' => '1178790158',
-    'message' => 'Die Abk&uuml;rzung f&uuml;r den Namen des Tages mit dem diese Woche beginnt.'
+    'message' => 'Die Abkürzung f&uuml;r den Namen des Tages mit dem diese Woche beginnt.'
   },
   'startDayName' => {
     'lastUpdated' => '1178790174',
@@ -507,7 +507,7 @@ our $I18N = {
   },
   'startMonthAbbr' => {
     'lastUpdated' => '1178790255',
-    'message' => 'Die Abk&uuml;rzung des Namens des Monats in dem diese Woche beginnt.'
+    'message' => 'Die Abkürzung des Namens des Monats in dem diese Woche beginnt.'
   },
   'startMonthName' => {
     'lastUpdated' => '1178790271',
@@ -539,7 +539,7 @@ our $I18N = {
   },
   'templateIdEvent description' => {
     'lastUpdated' => '1178790602',
-    'message' => 'Das Template, das f&uuml;r die Anzeige von Details &uuml;ber einen Termin benutzt wird.'
+    'message' => 'Das Template, das für die Anzeige von Details &uuml;ber einen Termin benutzt wird.'
   },
   'templateIdEvent label' => {
     'lastUpdated' => '1178793691',
@@ -547,7 +547,7 @@ our $I18N = {
   },
   'templateIdEventEdit description' => {
     'lastUpdated' => '1178793724',
-    'message' => 'Das Template f&uuml;r die Bearbeitung von Terminen.'
+    'message' => 'Das Template für die Bearbeitung von Terminen.'
   },
   'templateIdEventEdit label' => {
     'lastUpdated' => '1178793747',
@@ -563,7 +563,7 @@ our $I18N = {
   },
   'templateIdPrintDay description' => {
     'lastUpdated' => '1178793847',
-    'message' => 'Dieses Template ist f&uuml;r den Ausruck des Kalenders in der Tagesansicht.'
+    'message' => 'Dieses Template ist für den Ausruck des Kalenders in der Tagesansicht.'
   },
   'templateIdPrintDay label' => {
     'lastUpdated' => '1178793863',
@@ -571,7 +571,7 @@ our $I18N = {
   },
   'templateIdPrintEvent description' => {
     'lastUpdated' => '1178793887',
-    'message' => 'Dieses Template ist f&uuml;r den Ausdruck der Details eines Termins.'
+    'message' => 'Dieses Template ist für den Ausdruck der Details eines Termins.'
   },
   'templateIdPrintEvent label' => {
     'lastUpdated' => '1178793901',
@@ -579,7 +579,7 @@ our $I18N = {
   },
   'templateIdPrintMonth description' => {
     'lastUpdated' => '1178793932',
-    'message' => 'Dieses Template ist f&uuml;r den Ausdruck des Kalenders in der Monatsansicht.'
+    'message' => 'Dieses Template ist für den Ausdruck des Kalenders in der Monatsansicht.'
   },
   'templateIdPrintMonth label' => {
     'lastUpdated' => '1178793942',
@@ -587,7 +587,7 @@ our $I18N = {
   },
   'templateIdPrintWeek description' => {
     'lastUpdated' => '1178793967',
-    'message' => 'Dieses Template ist f&uuml;r den Ausdruck des Kalenders in der Wochenansicht.'
+    'message' => 'Dieses Template ist für den Ausdruck des Kalenders in der Wochenansicht.'
   },
   'templateIdPrintWeek label' => {
     'lastUpdated' => '1178793980',
@@ -611,7 +611,7 @@ our $I18N = {
   },
   'urlAdd' => {
     'lastUpdated' => '1178794075',
-    'message' => 'URL f&uuml;r das Hinzuf&uuml;gen eines Termins zum Kalender.'
+    'message' => 'URL für das Hinzuf&uuml;gen eines Termins zum Kalender.'
   },
   'urlDay' => {
     'lastUpdated' => '1178794114',
@@ -675,7 +675,7 @@ our $I18N = {
   },
   'workflow generateRecurringEvents description' => {
     'lastUpdated' => '1178794534',
-    'message' => 'Diese Aktivit&auml;t erzeugt wiederkehrende Termine f&uuml;r Kalender. Sie verwaltet auch wiederkehrende Termine in der Zukunft.'
+    'message' => 'Diese Aktivität erzeugt wiederkehrende Termine für Kalender. Sie verwaltet auch wiederkehrende Termine in der Zukunft.'
   },
   'workflow updateFeeds' => {
     'lastUpdated' => '1178794548',
@@ -683,7 +683,7 @@ our $I18N = {
   },
   'workflow updateFeeds description' => {
     'lastUpdated' => '1178794575',
-    'message' => 'Diese Akitivit&auml;t importiert Kalender Termine von Kalender Feeds'
+    'message' => 'Diese Akitivität importiert Kalender Termine von Kalender Feeds'
   },
   'year' => {
     'lastUpdated' => '1178794593',

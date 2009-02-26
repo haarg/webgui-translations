@@ -3,7 +3,7 @@ use utf8;
 our $I18N = {
   'illegal query' => {
     'lastUpdated' => 1178723148,
-    'message' => 'Kann diese Art von Abfrage (Query) nicht ausf&uuml;hren. '
+    'message' => 'Kann diese Art von Abfrage (Query) nicht ausführen. '
   },
   'macroName' => {
     'lastUpdated' => 1178723159,
@@ -15,7 +15,7 @@ our $I18N = {
   },
   'sql error' => {
     'lastUpdated' => 1178723643,
-    'message' => '<strong>SQL Makro Ausf&uuml;hrung fehlgeschlagen:</strong>%s'
+    'message' => '<strong>SQL Makro Ausführung fehlgeschlagen:</strong>%s'
   }
 }
 ;

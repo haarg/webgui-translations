@@ -8,7 +8,7 @@ our $I18N = {
 	},
 
 	'fill alpha' => {
-		message => q|F&uuml;lltransparenz|,
+		message => q|Fülltransparenz|,
 		lastUpdated => 1152948882
 	},
 
@@ -18,17 +18,17 @@ our $I18N = {
 	},
 
 	'stroke color description' => {
-		message => q|Die Stroke Farbe f&uuml;r diese Farbe<br />|,
+		message => q|Die Stroke Farbe für diese Farbe<br />|,
 		lastUpdated => 1152949131
 	},
 
 	'fill alpha description' => {
-		message => q|Definiert die Transparenz der F&uuml;llfarbe.<br />|,
+		message => q|Definiert die Transparenz der Füllfarbe.<br />|,
 		lastUpdated => 1152948909
 	},
 
 	'font file description' => {
-		message => q|Die Datei, die die Schriftart enth&auml;lt. Es muss eine TrueType (.ttf) Schriftart sein.<br />|,
+		message => q|Die Datei, die die Schriftart enthält. Es muss eine TrueType (.ttf) Schriftart sein.<br />|,
 		lastUpdated => 1152948953
 	},
 
@@ -38,7 +38,7 @@ our $I18N = {
 	},
 
 	'fill color' => {
-		message => q|F&uuml;llfarbe|,
+		message => q|Füllfarbe|,
 		lastUpdated => 1152948892
 	},
 
@@ -48,7 +48,7 @@ our $I18N = {
 	},
 
 	'add palette' => {
-		message => q|Neue Palette hinzuf&uuml;gen<br />|,
+		message => q|Neue Palette hinzufügen<br />|,
 		lastUpdated => 1152948853
 	},
 
@@ -68,12 +68,12 @@ our $I18N = {
 	},
 
 	'color name description' => {
-		message => q|Der Name f&uuml;r diese Farbe.<br />|,
+		message => q|Der Name für diese Farbe.<br />|,
 		lastUpdated => 1152948871
 	},
 
 	'fill color description' => {
-		message => q|Die F&uuml;llfarbe f&uuml;r diese Farbe.<br />|,
+		message => q|Die Füllfarbe f&uuml;r diese Farbe.<br />|,
 		lastUpdated => 1152948920
 	},
 
@@ -93,12 +93,12 @@ our $I18N = {
 	},
 
 	'add color' => {
-		message => q|Farbe zu dieser Palette hinzuf&uuml;gen |,
+		message => q|Farbe zu dieser Palette hinzufügen |,
 		lastUpdated => 1152948833
 	},
 
 	'add font' => {
-		message => q|Neue Schriftart hinzuf&uuml;gen<br />|,
+		message => q|Neue Schriftart hinzufügen<br />|,
 		lastUpdated => 1152948843
 	},
 

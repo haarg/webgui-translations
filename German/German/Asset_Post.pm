@@ -3,7 +3,7 @@ use utf8;
 our $I18N = {
   'post received' => {
     'lastUpdated' => 1179835168,
-    'message' => 'Ihr Post wurde entgegengenommen und wird zurzeit verarbeitet, damit er zur Site hinzugef&uuml;gt werden kann. Bitte haben Sie ein wenig Geduld.'
+    'message' => 'Ihr Post wurde entgegengenommen und wird zurzeit verarbeitet, damit er zur Site hinzugefügt werden kann. Bitte haben Sie ein wenig Geduld.'
   },
   'dateUpdated' => {
     'lastUpdated' => 1179832184,
@@ -15,7 +15,7 @@ our $I18N = {
   },
   'userDefinedN.form.textarea' => {
     'lastUpdated' => 1179835658,
-    'message' => 'F&uuml;r jedes der 5 benutzerdefinierten Felder ein Formular Widget f&uuml;r einen Text Bereich.'
+    'message' => 'Für jedes der 5 benutzerdefinierten Felder ein Formular Widget f&uuml;r einen Text Bereich.'
   },
   '523' => {
     'lastUpdated' => 1179831029,
@@ -31,23 +31,23 @@ our $I18N = {
   },
   'newWindow' => {
     'lastUpdated' => 1179834849,
-    'message' => 'Bedingung, die angibt, ob dieser Post in einem neuen Fenster ge&ouml;ffnet werden soll.'
+    'message' => 'Bedingung, die angibt, ob dieser Post in einem neuen Fenster geöffnet werden soll.'
   },
   'synopsis.form' => {
     'lastUpdated' => 1179836506,
-    'message' => 'Ein Formular Feld f&uuml;r die Eingabe der Zusammenfassung.'
+    'message' => 'Ein Formular Feld für die Eingabe der Zusammenfassung.'
   },
   'isNewPost' => {
     'lastUpdated' => 1179834335,
-    'message' => 'Bedingung, die wahr ist, falls der Benuzter einen neuen Post hinzuf&uuml;gt. Gegenteil vom Bearbeiten eines schon existierenden Posts.'
+    'message' => 'Bedingung, die wahr ist, falls der Benuzter einen neuen Post hinzufügt. Gegenteil vom Bearbeiten eines schon existierenden Posts.'
   },
   'unsubscribeLinkText' => {
     'lastUpdated' => 1217255197,
-    'message' => 'Das internationalisierte Word &quot;Unsubscribe&quot;, wird benutzt als Text f&uuml;r den Link zum Beenden eines Abonnements.'
+    'message' => 'Das internationalisierte Word &quot;Unsubscribe&quot;, wird benutzt als Text für den Link zum Beenden eines Abonnements.'
   },
   'threadId' => {
     'lastUpdated' => 1179836525,
-    'message' => 'Die ID des Threads, der den Post enth&auml;lt.'
+    'message' => 'Die ID des Threads, der den Post enthält.'
   },
   'url' => {
     'lastUpdated' => 1179836741,
@@ -63,11 +63,11 @@ our $I18N = {
   },
   'formatted.content' => {
     'lastUpdated' => 1179833896,
-    'message' => 'Der formatierte und gefilterte Inhalt des Posts, falls ein Thread, der den Post enth&auml;lt, existiert. Diese Variable &uuml;berschreibt jede andere Variable mit diesem Namen in der Liste der Template Variablen.'
+    'message' => 'Der formatierte und gefilterte Inhalt des Posts, falls ein Thread, der den Post enthält, existiert. Diese Variable überschreibt jede andere Variable mit diesem Namen in der Liste der Template Variablen.'
   },
   'groupIdEdit' => {
     'lastUpdated' => 1179833919,
-    'message' => 'Die ID der Gruppe, deren Mitglieder den Post editieren d&uuml;rfen.'
+    'message' => 'Die ID der Gruppe, deren Mitglieder den Post editieren dürfen.'
   },
   'visitorName.form' => {
     'lastUpdated' => 1179835434,
@@ -79,27 +79,27 @@ our $I18N = {
   },
   'meta_X_value' => {
     'lastUpdated' => 1217255127,
-    'message' => 'Der Wert eines bestimmten Metadatenfeldes, ausgew&auml;hlt nach dem Namen. X ist der Name des Metadatenfeldes, wobei alle Leerzeichen im Namen durch Unterstricke erstetzt wurden.'
+    'message' => 'Der Wert eines bestimmten Metadatenfeldes, ausgewählt nach dem Namen. X ist der Name des Metadatenfeldes, wobei alle Leerzeichen im Namen durch Unterstricke erstetzt wurden.'
   },
   'delete.url' => {
     'lastUpdated' => 1179833231,
-    'message' => 'URL, um den Post zu l&ouml;schen.'
+    'message' => 'URL, um den Post zu löschen.'
   },
   'form.header' => {
     'lastUpdated' => 1179833332,
-    'message' => 'Kode, der zum Start des Formulars f&uuml;r den Post vorausgesetzt wird.'
+    'message' => 'Kode, der zum Start des Formulars für den Post vorausgesetzt wird.'
   },
   'name' => {
     'lastUpdated' => 1215073184,
-    'message' => 'Die Beschriftung f&uuml;r dieses Metadaten Feld. Metadaten Beschriftungen werden nicht &uuml;bersetzt.'
+    'message' => 'Die Beschriftung für dieses Metadaten Feld. Metadaten Beschriftungen werden nicht &uuml;bersetzt.'
   },
   'new file description' => {
     'lastUpdated' => 1179834822,
-    'message' => 'Geben Sie den Pfad der Datei ein oder benutzen Sie die "Browse" Schaltfl&auml;che, um eine Datei auf ihrer Festplatte zu suchen, die Sie auf das System hochladen wollen.'
+    'message' => 'Geben Sie den Pfad der Datei ein oder benutzen Sie die "Browse" Schaltfläche, um eine Datei auf ihrer Festplatte zu suchen, die Sie auf das System hochladen wollen.'
   },
   'sticky.form' => {
     'lastUpdated' => 1179836343,
-    'message' => 'Eine Ja/Nein Schaltfl&auml;che, um den Thread auf "sticky" zu setzen. Das bedeutet, dass der Thread am Anfang des Forum Listings aufgef&uuml;hrt wird.'
+    'message' => 'Eine Ja/Nein Schaltfläche, um den Thread auf "sticky" zu setzen. Das bedeutet, dass der Thread am Anfang des Forum Listings aufgeführt wird.'
   },
   'pending' => {
     'lastUpdated' => 1179835022,
@@ -115,15 +115,15 @@ our $I18N = {
   },
   'title.form' => {
     'lastUpdated' => 1179836639,
-    'message' => 'Ein einzeiliges Formular Feld f&uuml;r die Eingabe des Titels. HTML wird entfernt, Makros werden deaktiviert. Benutzen Sie dieses Feld <strong>ODER</strong> title.form.textarea.'
+    'message' => 'Ein einzeiliges Formular Feld für die Eingabe des Titels. HTML wird entfernt, Makros werden deaktiviert. Benutzen Sie dieses Feld <strong>ODER</strong> title.form.textarea.'
   },
   'image.url' => {
     'lastUpdated' => 1179834215,
-    'message' => 'URL zum ersten Bild, das dem Post angeh&auml;ngt ist.'
+    'message' => 'URL zum ersten Bild, das dem Post angehängt ist.'
   },
   'isNewThread' => {
     'lastUpdated' => 1179834361,
-    'message' => 'Bedingung, die wahr ist, falls der Benutzer einen neuen Post hinzuf&uuml;gt.'
+    'message' => 'Bedingung, die wahr ist, falls der Benutzer einen neuen Post hinzufügt.'
   },
   'userDefined1' => {
     'lastUpdated' => 1179835819,
@@ -139,7 +139,7 @@ our $I18N = {
   },
   'userDefinedN.form.htmlarea' => {
     'lastUpdated' => 1179835685,
-    'message' => 'F&uuml;r jedes der 5 benutzerdefinierten Felder ein Formular Widget f&uuml;r einen WYSIWYG HTML Bereich.'
+    'message' => 'Für jedes der 5 benutzerdefinierten Felder ein Formular Widget f&uuml;r einen WYSIWYG HTML Bereich.'
   },
   'preview.userDefinedN' => {
     'lastUpdated' => 1179835371,
@@ -147,7 +147,7 @@ our $I18N = {
   },
   'storageId' => {
     'lastUpdated' => 1179836395,
-    'message' => 'Die Asset ID des Speicherknotens des Posts; dort werden die Anh&auml;nge aufbewahrt.'
+    'message' => 'Die Asset ID des Speicherknotens des Posts; dort werden die Anhänge aufbewahrt.'
   },
   'user.isModerator' => {
     'lastUpdated' => 1179836925,
@@ -155,11 +155,11 @@ our $I18N = {
   },
   'notify url' => {
     'lastUpdated' => 1179834998,
-    'message' => 'URL zum Post, der die Benachrichtigung ausgel&ouml;st hat.'
+    'message' => 'URL zum Post, der die Benachrichtigung ausgelöst hat.'
   },
   'userDefined5' => {
     'lastUpdated' => 1179835768,
-    'message' => 'Der Wert der f&uuml;nften benutzerdefinierten Variablen.'
+    'message' => 'Der Wert der fünften benutzerdefinierten Variablen.'
   },
   'reply.userDefinedN' => {
     'lastUpdated' => 1179836181,
@@ -171,11 +171,11 @@ our $I18N = {
   },
   'attachment.form' => {
     'lastUpdated' => 1179831564,
-    'message' => 'Kode, der es erlaubt, Anh&auml;nge zu Posts hinzuzuf&uuml;gen.'
+    'message' => 'Kode, der es erlaubt, Anhänge zu Posts hinzuzufügen.'
   },
   'help url.raw' => {
     'lastUpdated' => 1215072862,
-    'message' => 'Die URL zum Post Asset ohne #id am Ende. Hilfreich um andere Funktionen des Posts auszuf&uuml;hren, z.B. func=promote oder func=demote.'
+    'message' => 'Die URL zum Post Asset ohne #id am Ende. Hilfreich um andere Funktionen des Posts auszuführen, z.B. func=promote oder func=demote.'
   },
   'reply.withQuote.url' => {
     'lastUpdated' => 1179836225,
@@ -183,7 +183,7 @@ our $I18N = {
   },
   'karmaScale.form' => {
     'lastUpdated' => 1179837791,
-    'message' => 'Formular Element, das es Moderatoren erlaubt, die Anzeige eines einzelnen Threads zu &auml;ndern. Dies ist nur verf&uuml;gbar f&uuml;r Threads.'
+    'message' => 'Formular Element, das es Moderatoren erlaubt, die Anzeige eines einzelnen Threads zu ändern. Dies ist nur verfügbar f&uuml;r Threads.'
   },
   'views' => {
     'lastUpdated' => 1179835472,
@@ -203,11 +203,11 @@ our $I18N = {
   },
   'add/edit post template title' => {
     'lastUpdated' => 1179831165,
-    'message' => 'Post Hinzuf&uuml;gen/Bearbeiten Template'
+    'message' => 'Post Hinzufügen/Bearbeiten Template'
   },
   'meta_loop' => {
     'lastUpdated' => 1215073328,
-    'message' => 'Eine Schleife die Metadaten Beschriftungen und Felder dieser Nachricht enth&auml;lt. Wenn Metadaten deaktiviert oder nicht vorhanden sind, werden keine Daten angezeigt.'
+    'message' => 'Eine Schleife die Metadaten Beschriftungen und Felder dieser Nachricht enthält. Wenn Metadaten deaktiviert oder nicht vorhanden sind, werden keine Daten angezeigt.'
   },
   'userProfile.url' => {
     'lastUpdated' => 1179835516,
@@ -215,19 +215,19 @@ our $I18N = {
   },
   'userDefinedN.form.float' => {
     'lastUpdated' => 1179835700,
-    'message' => 'F&uuml;r jedes der 5 benutzerdefinierten Felder ein Formular Widget f&uuml;r einen float Wert.'
+    'message' => 'Für jedes der 5 benutzerdefinierten Felder ein Formular Widget f&uuml;r einen float Wert.'
   },
   'meta_X_form' => {
     'lastUpdated' => 1217255086,
-    'message' => 'Das Formular f&uuml;r ein bestimmtes Metadatenfeld, ausgew&auml;hlt nach dem Namen. X ist der Name des Metadatenfeldes, wobei alle Leerzeichen im Namen durch Unterstricke erstetzt wurden.'
+    'message' => 'Das Formular für ein bestimmtes Metadatenfeld, ausgewählt nach dem Namen. X ist der Name des Metadatenfeldes, wobei alle Leerzeichen im Namen durch Unterstricke erstetzt wurden.'
   },
   'notify.subscription.message' => {
     'lastUpdated' => 1215073098,
-    'message' => '<p>Internationalisierte Nachricht &uuml;ber eine neue Nachricht zu einem vom Benutzer abbonierten Thema.</p>'
+    'message' => '<p>Internationalisierte Nachricht über eine neue Nachricht zu einem vom Benutzer abbonierten Thema.</p>'
   },
   'attachment_loop' => {
     'lastUpdated' => 1179831835,
-    'message' => 'Schleife, die alle Datei- und Bildanh&auml;nge dieses Posts enth&auml;lt.'
+    'message' => 'Schleife, die alle Datei- und Bildanhänge dieses Posts enth&auml;lt.'
   },
   'userId' => {
     'lastUpdated' => 1179835533,
@@ -235,11 +235,11 @@ our $I18N = {
   },
   'form.submit' => {
     'lastUpdated' => 1179833373,
-    'message' => 'Eine Schaltfl&auml;che, um den Post abzuschicken (Submit).'
+    'message' => 'Eine Schaltfläche, um den Post abzuschicken (Submit).'
   },
   'archive.form' => {
     'lastUpdated' => 1179831256,
-    'message' => 'Eine Ja/Nein Schaltfl&auml;che f&uuml;r das Archivieren des Threads, wenn Sie diese Antwort abschicken. Diese ist nur f&uuml;r Moderatoren verf&uuml;gbar.'
+    'message' => 'Eine Ja/Nein Schaltfläche für das Archivieren des Threads, wenn Sie diese Antwort abschicken. Diese ist nur f&uuml;r Moderatoren verf&uuml;gbar.'
   },
   'userDefined2' => {
     'lastUpdated' => 1179835811,
@@ -255,11 +255,11 @@ our $I18N = {
   },
   'lock.form' => {
     'lastUpdated' => 1179834692,
-    'message' => 'Eine Ja/Nein Schaltfl&auml;che, um den Thread zu sperren. Falls gesperrt, k&ouml;nnen keine weiteren Post hinzugef&uuml;gt bzw. bestehende Posts bearbeitet werden.'
+    'message' => 'Eine Ja/Nein Schaltfläche, um den Thread zu sperren. Falls gesperrt, können keine weiteren Post hinzugefügt bzw. bestehende Posts bearbeitet werden.'
   },
   'form.preview' => {
     'lastUpdated' => 1179833355,
-    'message' => 'Eine Schaltfl&auml;che f&uuml;r die Post Vorschau.'
+    'message' => 'Eine Schaltfläche für die Post Vorschau.'
   },
   'reply.synopsis' => {
     'lastUpdated' => 1179836079,
@@ -279,7 +279,7 @@ our $I18N = {
   },
   'userDefinedN.form' => {
     'lastUpdated' => 1179835715,
-    'message' => 'F&uuml;r jedes der 5 benutzerdefinierten Felder ein Formular Widget f&uuml;r eine einzelne Zeile Text.'
+    'message' => 'Für jedes der 5 benutzerdefinierten Felder ein Formular Widget f&uuml;r eine einzelne Zeile Text.'
   },
   'contentType.form' => {
     'lastUpdated' => 1179832094,
@@ -287,7 +287,7 @@ our $I18N = {
   },
   'rating.value' => {
     'lastUpdated' => 1179835864,
-    'message' => 'Die aktuelle Bewertung f&uuml;r diesen Post.'
+    'message' => 'Die aktuelle Bewertung für diesen Post.'
   },
   'assetName' => {
     'lastUpdated' => 1179831266,
@@ -319,7 +319,7 @@ our $I18N = {
   },
   'ownerUserId' => {
     'lastUpdated' => 1179835012,
-    'message' => 'Ein Alias f&uuml;r userId.'
+    'message' => 'Ein Alias für userId.'
   },
   'extraHeadTags' => {
     'lastUpdated' => 1179833276,
@@ -327,7 +327,7 @@ our $I18N = {
   },
   'avatar.url' => {
     'lastUpdated' => 1179831900,
-    'message' => 'URL zum Avatar des Besitzers des Posts, falls Avatare im &uuml;bergeordneten Collaboration System aktiviert sind und der Benuzter ein Avatar besitzt.'
+    'message' => 'URL zum Avatar des Besitzers des Posts, falls Avatare im übergeordneten Collaboration System aktiviert sind und der Benuzter ein Avatar besitzt.'
   },
   'isPrototype' => {
     'lastUpdated' => 1179834399,
@@ -367,11 +367,11 @@ our $I18N = {
   },
   'notification template body' => {
     'lastUpdated' => 1179834890,
-    'message' => 'Zus&auml;tzlich zu den allgemeinen Post Template Variablen besitzt das Benachrichtung Template diese Variablen:'
+    'message' => 'Zusätzlich zu den allgemeinen Post Template Variablen besitzt das Benachrichtung Template diese Variablen:'
   },
   'groupIdView' => {
     'lastUpdated' => 1179833937,
-    'message' => 'Die ID der Gruppe, deren Mitglieder den Post ansehen d&uuml;rfen.'
+    'message' => 'Die ID der Gruppe, deren Mitglieder den Post ansehen dürfen.'
   },
   'icon' => {
     'lastUpdated' => 1179834141,
@@ -379,11 +379,11 @@ our $I18N = {
   },
   'assetSize' => {
     'lastUpdated' => 1179831317,
-    'message' => 'Die formatierte Gr&ouml;&szlig;e dieses Posts.'
+    'message' => 'Die formatierte Größe dieses Posts.'
   },
   'menuTitle' => {
     'lastUpdated' => 1179834737,
-    'message' => 'Der Men&uuml;titel des Posts, oft genutzt in der Navigation.'
+    'message' => 'Der Menütitel des Posts, oft genutzt in der Navigation.'
   },
   'status' => {
     'lastUpdated' => 1179836252,
@@ -395,11 +395,11 @@ our $I18N = {
   },
   'user.canEdit' => {
     'lastUpdated' => 1179836908,
-    'message' => 'Bedingung, die wahr ist, falls der Benutzer einen neuen Post hinzuf&uuml;gt. Im Gegensatz um Bearbeiten eines schon existierenden Posts.'
+    'message' => 'Bedingung, die wahr ist, falls der Benutzer einen neuen Post hinzufügt. Im Gegensatz um Bearbeiten eines schon existierenden Posts.'
   },
   'rating' => {
     'lastUpdated' => 1179835846,
-    'message' => 'Ein anderer Name f&uuml;r <strong>rating.value</strong>'
+    'message' => 'Ein anderer Name für <strong>rating.value</strong>'
   },
   'Edited_on' => {
     'lastUpdated' => 1179837807,
@@ -415,11 +415,11 @@ our $I18N = {
   },
   'userDefinedN.form.yesNo' => {
     'lastUpdated' => 1179835633,
-    'message' => 'F&uuml;r jedes der 5 benutzerdefinierten Felder ein Formular Widget f&uuml;r ein Ja/Nein Feld.'
+    'message' => 'Für jedes der 5 benutzerdefinierten Felder ein Formular Widget f&uuml;r ein Ja/Nein Feld.'
   },
   'content.form' => {
     'lastUpdated' => 1179832012,
-    'message' => 'Feld f&uuml;r die Bearbeitung des Inhalts (Makros deaktiviert). Falls das Discussion Board "rich content" erlaubt, so handelt es sich hierbei um einen WYSIWYG HTML Bereich. Andernfalls handelt es sich um einen plain text Bereich.'
+    'message' => 'Feld für die Bearbeitung des Inhalts (Makros deaktiviert). Falls das Discussion Board "rich content" erlaubt, so handelt es sich hierbei um einen WYSIWYG HTML Bereich. Andernfalls handelt es sich um einen plain text Bereich.'
   },
   'contentType' => {
     'lastUpdated' => 1179832101,
@@ -431,11 +431,11 @@ our $I18N = {
   },
   'thumbnail' => {
     'lastUpdated' => 1179836551,
-    'message' => 'Ein Thumbnail f&uuml;r diesen Anhang, falls anwendbar.'
+    'message' => 'Ein Thumbnail für diesen Anhang, falls anwendbar.'
   },
   'form.footer' => {
     'lastUpdated' => 1179833304,
-    'message' => 'Kode f&uuml;r das Ende des Formulars.'
+    'message' => 'Kode für das Ende des Formulars.'
   },
   'userDefined4' => {
     'lastUpdated' => 1179835779,
@@ -447,7 +447,7 @@ our $I18N = {
   },
   'subscribe.form' => {
     'lastUpdated' => 1179836458,
-    'message' => 'Eine Ja/Nein Schaltfl&auml;che, die es dem Benutzer erlaubt, den Thread, dem dieser Post angeh&ouml;rt, zu abonnieren.'
+    'message' => 'Eine Ja/Nein Schaltfläche, die es dem Benutzer erlaubt, den Thread, dem dieser Post angehört, zu abonnieren.'
   },
   'post template variables title' => {
     'lastUpdated' => 1170408865,
@@ -455,7 +455,7 @@ our $I18N = {
   },
   'unsubscribeUrl' => {
     'lastUpdated' => 1215072909,
-    'message' => 'Die URL f&uuml;r den User zum abbestellen.'
+    'message' => 'Die URL für den User zum abbestellen.'
   },
   'post asset variables title' => {
     'lastUpdated' => 1179835080,
@@ -479,7 +479,7 @@ our $I18N = {
   },
   'image.thumbnail' => {
     'lastUpdated' => 1179834198,
-    'message' => 'Ein Thumbnail des Bildes, das dem Post angeh&auml;ngt ist.'
+    'message' => 'Ein Thumbnail des Bildes, das dem Post angehängt ist.'
   }
 }
 ;

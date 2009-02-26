@@ -4,22 +4,22 @@ use utf8;
 
 our $I18N = {
 	'department' => {
-		message => q|Variable, die die Abteilung des Benutzers zur&uuml;ckgibt. Falls keine Abteilung f&uuml;r diesen Benutzer definiert ist, wird ein internationaliertes Label f&uuml;r "No Department" zur&uuml;ckgegeben.|,
+		message => q|Variable, die die Abteilung des Benutzers zurückgibt. Falls keine Abteilung f&uuml;r diesen Benutzer definiert ist, wird ein internationaliertes Label f&uuml;r "No Department" zur&uuml;ckgegeben.|,
 		lastUpdated => 1180084910
 	},
 
 	'17 description' => {
-		message => q|Mittels des Enddatums k&ouml;nne Sie die Gr&ouml;&szlig;e ihres Reports verringern. &Auml;nderungen nach dem Enddatum werden im Report nicht angezeigt.|,
+		message => q|Mittels des Enddatums könne Sie die Gr&ouml;ße ihres Reports verringern. Änderungen nach dem Enddatum werden im Report nicht angezeigt.|,
 		lastUpdated => 1180083674
 	},
 
 	'21' => {
-		message => q|Die folgenden Variablen werden vom In/Out Board zur Verf&uuml;gung gestellt:|,
+		message => q|Die folgenden Variablen werden vom In/Out Board zur Verfügung gestellt:|,
 		lastUpdated => 1180084254
 	},
 
 	'form' => {
-		message => q|Variable, die HTML f&uuml;r die Anzeige eines In/Out Formulareintrages f&uuml;r die Aktualisierung des Status des aktuellen oder eines anderen Benutzers enth&auml;lt.|,
+		message => q|Variable, die HTML für die Anzeige eines In/Out Formulareintrages f&uuml;r die Aktualisierung des Status des aktuellen oder eines anderen Benutzers enthält.|,
 		lastUpdated => 1180085252
 	},
 
@@ -29,7 +29,7 @@ our $I18N = {
 	},
 
 	'message.label' => {
-		message => q|Das internationalisierte Label f&uuml;r die "Message" Spalte des Reports.|,
+		message => q|Das internationalisierte Label für die "Message" Spalte des Reports.|,
 		lastUpdated => 1180085610
 	},
 
@@ -39,7 +39,7 @@ our $I18N = {
 	},
 
 	'reportTemplateId' => {
-		message => q|Die ID des Templates, das f&uuml;r die Anzeige des In/Out Board Reports benutzt wird.|,
+		message => q|Die ID des Templates, das für die Anzeige des In/Out Board Reports benutzt wird.|,
 		lastUpdated => 1180085912
 	},
 
@@ -64,7 +64,7 @@ our $I18N = {
 	},
 
 	'13 description' => {
-		message => q|W&auml;hlen Sie ein Template zur Anzeige des In/Out Board Reports.|,
+		message => q|Wählen Sie ein Template zur Anzeige des In/Out Board Reports.|,
 		lastUpdated => 1180082960
 	},
 
@@ -74,17 +74,17 @@ our $I18N = {
 	},
 
 	'reportTitleLabel' => {
-		message => q|Das internationalisierte Label f&uuml;r den In/Out Board Report.|,
+		message => q|Das internationalisierte Label für den In/Out Board Report.|,
 		lastUpdated => 1180085940
 	},
 
 	'username.label' => {
-		message => q|Das interantionalisierte Label f&uuml;r die "Username" Spalte des Reports.|,
+		message => q|Das interantionalisierte Label für die "Username" Spalte des Reports.|,
 		lastUpdated => 1180086832
 	},
 
 	'dateStamp' => {
-		message => q|Variable, die das Datum der letzten &Auml;nderung des Status des Benutzers zur&uuml;ckgibt.|,
+		message => q|Variable, die das Datum der letzten Änderung des Status des Benutzers zurückgibt.|,
 		lastUpdated => 1180084796
 	},
 
@@ -94,17 +94,17 @@ our $I18N = {
 	},
 
 	'inOutTemplateId' => {
-		message => q|Die ID des Templates, das f&uuml;r die Anzeige des In/Out Boards benutzt wird (main screen).|,
+		message => q|Die ID des Templates, das für die Anzeige des In/Out Boards benutzt wird (main screen).|,
 		lastUpdated => 1180085535
 	},
 
 	'In Out Template description' => {
-		message => q|W&auml;hlen Sie ein Template f&uuml;r die Anzeige des In/Out Boards.|,
+		message => q|Wählen Sie ein Template für die Anzeige des In/Out Boards.|,
 		lastUpdated => 1180084595
 	},
 
 	'selectDelegatesLabel' => {
-		message => q|Der internationalisierte Titel f&uuml;r die URL zur Wahl der Delegierten.|,
+		message => q|Der internationalisierte Titel für die URL zur Wahl der Delegierten.|,
 		lastUpdated => 1180086153
 	},
 
@@ -114,7 +114,7 @@ our $I18N = {
 	},
 
 	'username' => {
-		message => q|Variable, die den Benutzernamen zur&uuml;ckgibt. Falls der Vor- und Nachname im Benutzerprofil definiert sind, so werden diese zur&uuml;ckgegeben. Andernfalls wird der WebGUI Benutzername zur&uuml;ckgegeben. Beispiel: "John Doe" versu "JDoe".|,
+		message => q|Variable, die den Benutzernamen zurückgibt. Falls der Vor- und Nachname im Benutzerprofil definiert sind, so werden diese zur&uuml;ckgegeben. Andernfalls wird der WebGUI Benutzername zur&uuml;ckgegeben. Beispiel: "John Doe" versu "JDoe".|,
 		lastUpdated => 1180086794
 	},
 
@@ -134,7 +134,7 @@ our $I18N = {
 	},
 
 	'paginateBar' => {
-		message => q|Variable, die HTML zur&uuml;ckgibt, das man zur Erzeugung eines traditionellen Seitenaufteilungsbalken nutzen kann, z.B. >>First,1,2,Last<<|,
+		message => q|Variable, die HTML zurückgibt, das man zur Erzeugung eines traditionellen Seitenaufteilungsbalken nutzen kann, z.B. >>First,1,2,Last<<|,
 		lastUpdated => 1180085745
 	},
 
@@ -144,22 +144,22 @@ our $I18N = {
 	},
 
 	'select delegates label' => {
-		message => q|W&auml;hle Delegierte|,
+		message => q|Wähle Delegierte|,
 		lastUpdated => 1180086140
 	},
 
 	'16 description' => {
-		message => q|Mittels des Startdatums k&ouml;nne Sie die Gr&ouml;&szlig;e ihres Reports verringern. &Auml;nderungen vor dem Startdatum werden im Report nicht angezeigt.|,
+		message => q|Mittels des Startdatums könne Sie die Gr&ouml;ße ihres Reports verringern. Änderungen vor dem Startdatum werden im Report nicht angezeigt.|,
 		lastUpdated => 1180083682
 	},
 
 	'6 description' => {
-		message => q|Sie k&ouml;nnen hier einen Grund f&uuml;r die Status&auml;nderung angeben (Termin beim Arzt, nach Hause gegangen, etc.).|,
+		message => q|Sie können hier einen Grund für die Statusänderung angeben (Termin beim Arzt, nach Hause gegangen, etc.).|,
 		lastUpdated => 1180084507
 	},
 
 	'report rows_loop' => {
-		message => q|Eine Schleife, die die Datenreihen eines In/Out Board Reports enth&auml;lt.|,
+		message => q|Eine Schleife, die die Datenreihen eines In/Out Board Reports enthält.|,
 		lastUpdated => 1180085775
 	},
 
@@ -174,7 +174,7 @@ our $I18N = {
 	},
 
 	'filter departments description' => {
-		message => q|Jedes In/Out Board kann f&uuml;r mehrere Abteilungen konfiguriert sein. Standardm&auml;&szlig;ig werden alle Abteilungen im Report angezeigt. Sie k&ouml;nnen aber eine Abteilung ausw&auml;hlen, um den Status Report nur f&uuml;r diese Abteilung ausgeben zu lassen.|,
+		message => q|Jedes In/Out Board kann für mehrere Abteilungen konfiguriert sein. Standardmäßig werden alle Abteilungen im Report angezeigt. Sie können aber eine Abteilung ausw&auml;hlen, um den Status Report nur f&uuml;r diese Abteilung ausgeben zu lassen.|,
 		lastUpdated => 1180085142
 	},
 
@@ -189,17 +189,17 @@ our $I18N = {
 	},
 
 	'viewReportLabel' => {
-		message => q|Der internationalisierte Titel f&uuml;r die URL zum Anschauen des Reports.|,
+		message => q|Der internationalisierte Titel für die URL zum Anschauen des Reports.|,
 		lastUpdated => 1180086860
 	},
 
 	'selectDelegatesURL' => {
-		message => q|URL zu einem Formular mittels dem man andere Benutzer (Delegierte) ausw&auml;hlen kann, die den Status &auml;ndern d&uuml;rfen.|,
+		message => q|URL zu einem Formular mittels dem man andere Benutzer (Delegierte) auswählen kann, die den Status &auml;ndern dürfen.|,
 		lastUpdated => 1180086120
 	},
 
 	'delegate description' => {
-		message => q|W&auml;hlen Sie einen Namen aus der Liste, falls Sie den Status eines anderen Benutzers &auml;ndern wollen.|,
+		message => q|Wählen Sie einen Namen aus der Liste, falls Sie den Status eines anderen Benutzers &auml;ndern wollen.|,
 		lastUpdated => 1180084843
 	},
 
@@ -214,7 +214,7 @@ our $I18N = {
 	},
 
 	'createdBy' => {
-		message => q|Variable, die zur&uuml;ckgibt, welcher Benutzer, entweder der Benutzer selbst oder einer seiner "Delegates" den Status dieses Benutzers ge&auml;ndert hat.|,
+		message => q|Variable, die zurückgibt, welcher Benutzer, entweder der Benutzer selbst oder einer seiner "Delegates" den Status dieses Benutzers geändert hat.|,
 		lastUpdated => 1180084709
 	},
 
@@ -224,7 +224,7 @@ our $I18N = {
 	},
 
 	'2' => {
-		message => q|Eingabe Zeile f&uuml;r Zeile.|,
+		message => q|Eingabe Zeile für Zeile.|,
 		lastUpdated => 1180083711
 	},
 
@@ -234,7 +234,7 @@ our $I18N = {
 	},
 
 	'rows_loop' => {
-		message => q|Eine Schleife, die alle Datenreihen des In/Out Boards enth&auml;lt.|,
+		message => q|Eine Schleife, die alle Datenreihen des In/Out Boards enthält.|,
 		lastUpdated => 1180085981
 	},
 
@@ -249,7 +249,7 @@ our $I18N = {
 	},
 
 	'in/out status delegates subtext' => {
-		message => q|Mehrere Benutzer k&ouml;nnen als Delegierte ausgew&auml;hlt werden. Delegierte k&ouml;nnen ihren Status im In/Out Board ver&auml;ndern.|,
+		message => q|Mehrere Benutzer können als Delegierte ausgewählt werden. Delegierte k&ouml;nnen ihren Status im In/Out Board ver&auml;ndern.|,
 		lastUpdated => 1180086227
 	},
 
@@ -269,12 +269,12 @@ our $I18N = {
 	},
 
 	'statusList' => {
-		message => q|Ein String mit allen m&ouml;glichen Board Stati, getrennt voneinander durch eine neue Zeile.|,
+		message => q|Ein String mit allen möglichen Board Stati, getrennt voneinander durch eine neue Zeile.|,
 		lastUpdated => 1180086662
 	},
 
 	'select delegate' => {
-		message => q|In/Out Board, W&auml;hle Delegierte|,
+		message => q|In/Out Board, Wähle Delegierte|,
 		lastUpdated => 1180086131
 	},
 
@@ -284,7 +284,7 @@ our $I18N = {
 	},
 
 	'report.form' => {
-		message => q|Variable, die das HTML Formular f&uuml;r die Begrenzung des G&uuml;ltigkeitsbereichs des Reports, z.B. auf das Datum oder auf eine bestimmte Abteilung enth&auml;lt.|,
+		message => q|Variable, die das HTML Formular für die Begrenzung des G&uuml;ltigkeitsbereichs des Reports, z.B. auf das Datum oder auf eine bestimmte Abteilung enthält.|,
 		lastUpdated => 1180085880
 	},
 
@@ -304,7 +304,7 @@ our $I18N = {
 	},
 
 	'5 description' => {
-		message => q|Sie k&ouml;nne einen Status aus der Liste ausw&auml;hlen. Falls Sie den Grund f&uuml;r die Status&auml;nderung angeben wollen, benutzen Sie das &quot;Was ist passiert?&quot; Feld.|,
+		message => q|Sie könne einen Status aus der Liste auswählen. Falls Sie den Grund für die Status&auml;nderung angeben wollen, benutzen Sie das &quot;Was ist passiert?&quot; Feld.|,
 		lastUpdated => 1180084445
 	},
 
@@ -314,12 +314,12 @@ our $I18N = {
 	},
 
 	'Regular Staff' => {
-		message => q|regul&auml;rer Angestellter|,
+		message => q|regulärer Angestellter|,
 		lastUpdated => 1180084606
 	},
 
 	'inOutGroup description' => {
-		message => q|Welche Gruppe darf dieses In/Out Board nutzen und somit ihren Status &auml;ndern?|,
+		message => q|Welche Gruppe darf dieses In/Out Board nutzen und somit ihren Status ändern?|,
 		lastUpdated => 1180085494
 	},
 
@@ -329,12 +329,12 @@ our $I18N = {
 	},
 
 	'date.label' => {
-		message => q|Internationalisiertes Label f&uuml;r die "Date" Spalte des Reports.|,
+		message => q|Internationalisiertes Label für die "Date" Spalte des Reports.|,
 		lastUpdated => 1180084757
 	},
 
 	'3 description' => {
-		message => q|Welche Gruppen d&uuml;rfen Reports anschauen, die von In/Out Board Wobjects generiert wurden?|,
+		message => q|Welche Gruppen dürfen Reports anschauen, die von In/Out Board Wobjects generiert wurden?|,
 		lastUpdated => 1180084356
 	},
 
@@ -349,7 +349,7 @@ our $I18N = {
 	},
 
 	'status' => {
-		message => q|Variable, die den Status eines Benutzers zur&uuml;ckgibt. Der Status eines Benutzers ist definiert durch die Status Liste in den Wobject Eigenschaften. Falls kein Status f&uuml;r den Benutzer gesetzt ist, wird "Nie eingecheckt" zur&uuml;ckgegeben.|,
+		message => q|Variable, die den Status eines Benutzers zurückgibt. Der Status eines Benutzers ist definiert durch die Status Liste in den Wobject Eigenschaften. Falls kein Status f&uuml;r den Benutzer gesetzt ist, wird "Nie eingecheckt" zur&uuml;ckgegeben.|,
 		lastUpdated => 1180086590
 	},
 
@@ -364,12 +364,12 @@ our $I18N = {
 	},
 
 	'23' => {
-		message => q|Die folgenden Variablen werden vom In/Out Board Report Template zur Verf&uuml;gung gestellt:|,
+		message => q|Die folgenden Variablen werden vom In/Out Board Report Template zur Verfügung gestellt:|,
 		lastUpdated => 1180084301
 	},
 
 	'status.label' => {
-		message => q|Das internationalisierte Label f&uuml;r die "Status" Spalte des Reports.|,
+		message => q|Das internationalisierte Label für die "Status" Spalte des Reports.|,
 		lastUpdated => 1180086624
 	},
 
@@ -384,12 +384,12 @@ our $I18N = {
 	},
 
 	'14 description' => {
-		message => q|W&auml;hlen Sie, wie viele Zeilen des Reports auf einer Seite dargestellt werden sollen. Es werden ihnen Links zur Verf&uuml;gung gestellt, um die anderen Seiten des Reports erreichen zu k&ouml;nnen.|,
+		message => q|Wählen Sie, wie viele Zeilen des Reports auf einer Seite dargestellt werden sollen. Es werden ihnen Links zur Verfügung gestellt, um die anderen Seiten des Reports erreichen zu können.|,
 		lastUpdated => 1180083051
 	},
 
 	'in/out status delegates description' => {
-		message => q|Benutzen Sie dieses Formular, um Benutzer auszuw&auml;hlen, die ihren Status im In/Out Board &auml;ndern d&uuml;rfen. Alle Benutzer, die sie schon ausgew&auml;hlt haben sind vorgew&auml;hlt. Um Benutzer zu entfernen, entfernen Sie deren Markierung.|,
+		message => q|Benutzen Sie dieses Formular, um Benutzer auszuwählen, die ihren Status im In/Out Board &auml;ndern dürfen. Alle Benutzer, die sie schon ausgew&auml;hlt haben sind vorgew&auml;hlt. Um Benutzer zu entfernen, entfernen Sie deren Markierung.|,
 		lastUpdated => 1180085395
 	},
 
@@ -409,17 +409,17 @@ our $I18N = {
 	},
 
 	'in out board asset template variables body' => {
-		message => q|Jedes Asset bietet ihren Templates einen Satz an Variablen, die auf den Asset Eigenschaften basieren. Einige dieser Variablen k&ouml;nnen n&uuml;tzlich sein, andere nicht.|,
+		message => q|Jedes Asset bietet ihren Templates einen Satz an Variablen, die auf den Asset Eigenschaften basieren. Einige dieser Variablen können nützlich sein, andere nicht.|,
 		lastUpdated => 1170409144
 	},
 
 	'updatedBy.label' => {
-		message => q|Das internationalisierte Label f&uuml;r die "Updated By" Spalte des Reports.|,
+		message => q|Das internationalisierte Label für die "Updated By" Spalte des Reports.|,
 		lastUpdated => 1180086706
 	},
 
 	'message' => {
-		message => q|Variable, die den Wert des "Was ist passiert?" Felds zur&uuml;ckgibt.|,
+		message => q|Variable, die den Wert des "Was ist passiert?" Felds zurückgibt.|,
 		lastUpdated => 1180085567
 	},
 

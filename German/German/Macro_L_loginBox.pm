@@ -55,7 +55,7 @@ our $I18N = {
   },
   'helpvar form.returnUrl' => {
     'lastUpdated' => 1217236748,
-    'message' => 'Falls dieses versteckte Formularelement pr&auml;sent ist, wird dem Benutzer nach dem Anmelden&nbsp;die aktuellen Seite angezeigt'
+    'message' => 'Falls dieses versteckte Formularelement präsent ist, wird dem Benutzer nach dem Anmelden&nbsp;die aktuellen Seite angezeigt'
   },
   'password.form' => {
     'lastUpdated' => 1157909308,

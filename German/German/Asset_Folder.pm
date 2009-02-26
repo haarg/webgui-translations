@@ -7,27 +7,27 @@ our $I18N = {
   },
   '847' => {
     'lastUpdated' => 1166611849,
-    'message' => 'Gehe zur&uuml;ck zur aktuellen Seite.'
+    'message' => 'Gehe zurück zur aktuellen Seite.'
   },
   'What Next description' => {
     'lastUpdated' => 1166611737,
-    'message' => 'Wollen Sie nach dem Erstellen des Ordners zur&uuml;ck zur Seite, in der sie den Ordner erstellt haben oder direkt zum neu erstellten Ordner? '
+    'message' => 'Wollen Sie nach dem Erstellen des Ordners zurück zur Seite, in der sie den Ordner erstellt haben oder direkt zum neu erstellten Ordner? '
   },
   'add file label' => {
     'lastUpdated' => 1178864405,
-    'message' => 'Dateien hinzuf&uuml;gen.'
+    'message' => 'Dateien hinzufügen.'
   },
   'addFile.label' => {
     'lastUpdated' => 1166611794,
-    'message' => 'Das internationalisierte Label f&uuml;r das Hinzuf&uuml;gen von Dateien zum Ordner.<br />'
+    'message' => 'Das internationalisierte Label für das Hinzuf&uuml;gen von Dateien zum Ordner.<br />'
   },
   'addFile.url' => {
     'lastUpdated' => 1178864411,
-    'message' => 'URL zum Hinzuf&uuml;gen von Dateien zum Ordner.'
+    'message' => 'URL zum Hinzufügen von Dateien zum Ordner.'
   },
   'asset template variables body' => {
     'lastUpdated' => 1168864845,
-    'message' => 'Jedes Asset bietet ihren Templates einen Satz an Variablen, die auf den Asset Eigenschaften basieren. Einige dieser Variablen k&ouml;nnen n&uuml;tzlich sein, andere nicht.'
+    'message' => 'Jedes Asset bietet ihren Templates einen Satz an Variablen, die auf den Asset Eigenschaften basieren. Einige dieser Variablen können nützlich sein, andere nicht.'
   },
   'asset template variables title' => {
     'lastUpdated' => 1168865650,
@@ -47,11 +47,11 @@ our $I18N = {
   },
   'controls' => {
     'lastUpdated' => 1178864428,
-    'message' => 'Editier Kontroll Balken f&uuml;r dieses Kind.'
+    'message' => 'Editier Kontroll Balken für dieses Kind.'
   },
   'date.epoch' => {
     'lastUpdated' => 1166610844,
-    'message' => 'Datum der letzten &Auml;nderung, relativ zur Epoche'
+    'message' => 'Datum der letzten Änderung, relativ zur Epoche'
   },
   'editForm sortOrder ascending' => {
     'lastUpdated' => 1225317873,
@@ -63,7 +63,7 @@ our $I18N = {
   },
   'editForm sortOrder description' => {
     'lastUpdated' => 1225317845,
-    'message' => 'Die Reihenfolge, in der Dateien und Verzeichnisse sortiert werden k&ouml;nnen.'
+    'message' => 'Die Reihenfolge, in der Dateien und Verzeichnisse sortiert werden können.'
   },
   'editForm sortOrder label' => {
     'lastUpdated' => 1225317785,
@@ -71,15 +71,15 @@ our $I18N = {
   },
   'file.url' => {
     'lastUpdated' => 1166610951,
-    'message' => 'Wenn dieses Asset ein Datei Asset ist (Datei, Bild oder Zip Archiv), die URL f&uuml;r den Download der aktuellen Datei. Andernfalls ist diese Variable nicht definiert. '
+    'message' => 'Wenn dieses Asset ein Datei Asset ist (Datei, Bild oder Zip Archiv), die URL für den Download der aktuellen Datei. Andernfalls ist diese Variable nicht definiert. '
   },
   'file_loop' => {
     'lastUpdated' => 1166611017,
-    'message' => 'Schleife, die alle Assets enth&auml;lt, die Kinder des Ordners aber selbst keine Ordner sind. '
+    'message' => 'Schleife, die alle Assets enthält, die Kinder des Ordners aber selbst keine Ordner sind. '
   },
   'folder icon.big' => {
     'lastUpdated' => 1178864463,
-    'message' => 'gro&szlig;es Ordner Icon'
+    'message' => 'großes Ordner Icon'
   },
   'folder icon.small' => {
     'lastUpdated' => 1178864452,
@@ -91,15 +91,15 @@ our $I18N = {
   },
   'folder menuTitle' => {
     'lastUpdated' => 1201601414,
-    'message' => 'Der Me&uuml;titel des Ordners.'
+    'message' => 'Der Meütitel des Ordners.'
   },
   'folder template body' => {
     'lastUpdated' => 1166611911,
-    'message' => 'Folgende Variablen sind in Ordner Templates verf&uuml;gbar:<br />'
+    'message' => 'Folgende Variablen sind in Ordner Templates verfügbar:<br />'
   },
   'folder template description' => {
     'lastUpdated' => 1166611976,
-    'message' => 'Dieses Men&uuml; erlaubt das Ausw&auml;hlen eines Templates f&uuml;r die Darstellung der Ordner Inhalte.<br />'
+    'message' => 'Dieses Menü erlaubt das Auswählen eines Templates f&uuml;r die Darstellung der Ordner Inhalte.<br />'
   },
   'folder template title' => {
     'lastUpdated' => 1166611991,
@@ -115,19 +115,19 @@ our $I18N = {
   },
   'helpvar canAddFile' => {
     'lastUpdated' => 1225317735,
-    'message' => 'Ist aktiviert, wenn der Benutzer eine Datei zum Ordner hinzuf&uuml;gen kann.'
+    'message' => 'Ist aktiviert, wenn der Benutzer eine Datei zum Ordner hinzufügen kann.'
   },
   'helpvar canEdit' => {
     'lastUpdated' => 1225317767,
-    'message' => 'Ist aktiviert, wenn der Benutzer das Verzeichnis &auml;ndern kann.'
+    'message' => 'Ist aktiviert, wenn der Benutzer das Verzeichnis ändern kann.'
   },
   'icon.big' => {
     'lastUpdated' => 1178864480,
-    'message' => 'URL zum Icon, das das Asset repr&auml;sentiert.'
+    'message' => 'URL zum Icon, das das Asset repräsentiert.'
   },
   'icon.small' => {
     'lastUpdated' => 1166612052,
-    'message' => 'URL zum kleinen Icon, das das Asset repr&auml;sentiert.<br />'
+    'message' => 'URL zum kleinen Icon, das das Asset repräsentiert.<br />'
   },
   'id' => {
     'lastUpdated' => 1178864489,
@@ -143,11 +143,11 @@ our $I18N = {
   },
   'menuTitle' => {
     'lastUpdated' => 1201601432,
-    'message' => 'Der Men&uuml;titel des Assets.'
+    'message' => 'Der Menütitel des Assets.'
   },
   'size' => {
     'lastUpdated' => 1178864496,
-    'message' => 'Gr&ouml;&szlig;e des Assets, formatiert.'
+    'message' => 'Größe des Assets, formatiert.'
   },
   'sort alphabetically' => {
     'lastUpdated' => 1178864503,
@@ -155,15 +155,15 @@ our $I18N = {
   },
   'sort alphabetically help' => {
     'lastUpdated' => 1166611525,
-    'message' => 'Wollen sie die Elemente dieses Orders alphabetisch sortieren? Wenn sie nein w&auml;hlen, werden sie nach ihrem Rang sortiert.<br />'
+    'message' => 'Wollen sie die Elemente dieses Orders alphabetisch sortieren? Wenn sie nein wählen, werden sie nach ihrem Rang sortiert.<br />'
   },
   'sortAlphabetically' => {
     'lastUpdated' => 1168865522,
-    'message' => 'Bedingung, die anzeigt, da&szlig; Unterordner und Dateien alphabetisch geordnet werden.<br />'
+    'message' => 'Bedingung, die anzeigt, daß Unterordner und Dateien alphabetisch geordnet werden.<br />'
   },
   'subfolder_loop' => {
     'lastUpdated' => 1166611564,
-    'message' => 'Schleife, die alle Kinder des Ordners enth&auml;lt, die selbst wieder Ordner sind.<br />'
+    'message' => 'Schleife, die alle Kinder des Ordners enthält, die selbst wieder Ordner sind.<br />'
   },
   'synopsis' => {
     'lastUpdated' => 1166611585,
@@ -171,7 +171,7 @@ our $I18N = {
   },
   'templateId' => {
     'lastUpdated' => 1168865626,
-    'message' => 'Die ID des Templates, das f&uuml;r die Anzeige des Ordnerinhalts benutzt wird.'
+    'message' => 'Die ID des Templates, das für die Anzeige des Ordnerinhalts benutzt wird.'
   },
   'thumbnail.url' => {
     'lastUpdated' => 1166611619,
@@ -191,11 +191,11 @@ our $I18N = {
   },
   'visitor cache timeout' => {
     'lastUpdated' => 1178864522,
-    'message' => 'Cache Timeout f&uuml;r Besucher'
+    'message' => 'Cache Timeout für Besucher'
   },
   'visitor cache timeout help' => {
     'lastUpdated' => 1166610535,
-    'message' => 'Cache Timeout f&uuml;r Besucher Hilfe<br />'
+    'message' => 'Cache Timeout für Besucher Hilfe<br />'
   },
   'visitorCacheTimeout' => {
     'lastUpdated' => 1168865553,

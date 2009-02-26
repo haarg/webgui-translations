@@ -19,11 +19,11 @@ our $I18N = {
   },
   '4' => {
     'lastUpdated' => 1178710240,
-    'message' => 'Spiegeln des Assets fehlgeschlagen. Vielleicht wurde das originale Asset gel&ouml;scht.'
+    'message' => 'Spiegeln des Assets fehlgeschlagen. Vielleicht wurde das originale Asset gelöscht.'
   },
   '7' => {
     'lastUpdated' => 1178710279,
-    'message' => 'Titel &uuml;berschreiben?'
+    'message' => 'Titel überschreiben?'
   },
   '7 description' => {
     'lastUpdated' => 1178710432,
@@ -31,15 +31,15 @@ our $I18N = {
   },
   '8' => {
     'lastUpdated' => 1178710449,
-    'message' => 'Men&uuml;titel &uuml;berschreiben?'
+    'message' => 'Menütitel &uuml;berschreiben?'
   },
   '8 description' => {
     'lastUpdated' => 1178710494,
-    'message' => 'Setzen Sie hier "Ja", falls der Men&uuml;titel des Shortcuts anstatt des Men&uuml;titels des originale Assets benutzt werden soll.'
+    'message' => 'Setzen Sie hier "Ja", falls der Menütitel des Shortcuts anstatt des Men&uuml;titels des originale Assets benutzt werden soll.'
   },
   '9' => {
     'lastUpdated' => 1178710373,
-    'message' => 'Beschreibung &uuml;berschreiben?'
+    'message' => 'Beschreibung überschreiben?'
   },
   '9 description' => {
     'lastUpdated' => 1178710420,
@@ -51,7 +51,7 @@ our $I18N = {
   },
   'Back to Edit Shortcut' => {
     'lastUpdated' => 1178710511,
-    'message' => 'Zur&uuml;ck zum Bearbeiten des Shortcuts'
+    'message' => 'Zurück zum Bearbeiten des Shortcuts'
   },
   'Criteria' => {
     'lastUpdated' => 1179838332,
@@ -67,7 +67,7 @@ our $I18N = {
   },
   'Displaying this shortcut would cause a feedback loop' => {
     'lastUpdated' => 1228691735,
-    'message' => 'Das Anzeigen dieser Verkn&uuml;pfung w&uuml;rde eine Endlosschleife verursachen.'
+    'message' => 'Das Anzeigen dieser Verknüpfung w&uuml;rde eine Endlosschleife verursachen.'
   },
   'Edit Field Directly' => {
     'lastUpdated' => 1178710560,
@@ -87,11 +87,11 @@ our $I18N = {
   },
   'Hover Help Description for this Field' => {
     'lastUpdated' => 1178710617,
-    'message' => '"Hover" Hilfe (Beschreibung) f&uuml;r dieses Feld.'
+    'message' => '"Hover" Hilfe (Beschreibung) für dieses Feld.'
   },
   'Label for This Field.' => {
     'lastUpdated' => 1178710631,
-    'message' => 'Label f&uuml;r dieses Feld.'
+    'message' => 'Label für dieses Feld.'
   },
   'Manage Profile Fields' => {
     'lastUpdated' => 1178710642,
@@ -135,11 +135,11 @@ our $I18N = {
   },
   'Possible Values' => {
     'lastUpdated' => 1178710733,
-    'message' => 'M&ouml;gliche Werte'
+    'message' => 'Mögliche Werte'
   },
   'Possible values for this Field Only applies to selectList and checkList' => {
     'lastUpdated' => 1178710858,
-    'message' => 'M&ouml;gliche Werte f&uuml;r dieses Feld. Nur wirksam in selectList und checkList.'
+    'message' => 'Mögliche Werte für dieses Feld. Nur wirksam in selectList und checkList.'
   },
   'Preferences' => {
     'lastUpdated' => undef,

@@ -3,7 +3,7 @@ use utf8;
 
 our $I18N = {
 	'account.text' => {
-		message => q|Der &uuml;bersetzte Label f&uuml;r den Account Link bzw. der Text, den Sie dem Makro &uuml;bergeben.|,
+		message => q|Der übersetzte Label f&uuml;r den Account Link bzw. der Text, den Sie dem Makro &uuml;bergeben.|,
 		lastUpdated => 1178777615
 	},
 

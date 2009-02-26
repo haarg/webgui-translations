@@ -7,7 +7,7 @@ our $I18N = {
   },
   'group to notify help' => {
     'lastUpdated' => 1226015516,
-    'message' => 'Gruppe, die benachrichtigt wird, wenn sich dieses THING &auml;ndert'
+    'message' => 'Gruppe, die benachrichtigt wird, wenn sich dieses THING ändert'
   },
   'notify about thing' => {
     'lastUpdated' => 1226015547,

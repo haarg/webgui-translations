@@ -14,12 +14,12 @@ our $I18N = {
 	},
 
 	'group help' => {
-		message => q|W&auml;hle Gruppe, zu der Benutzer hinzugef&uuml;gt werden soll.<br />|,
+		message => q|Wähle Gruppe, zu der Benutzer hinzugefügt werden soll.<br />|,
 		lastUpdated => 1168863649
 	},
 
 	'activityName' => {
-		message => q|Benutzer zu Gruppe hinzuf&uuml;gen |,
+		message => q|Benutzer zu Gruppe hinzufügen |,
 		lastUpdated => 1168863449
 	},
 

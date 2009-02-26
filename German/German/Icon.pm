@@ -13,12 +13,12 @@ our $I18N = {
 	},
 
 	'Export help' => {
-		message => q|Falls f&uuml;r diese Seite ein Export Pfad in der WebGUI Konfigurationsdatei definiert wurde, wird ein zus&auml;tzliches Symbol in der Werkzeugleiste angezeigt. Wird dieses Symbol selektiert, wird der Inhalt dieses Assets in ein HTML Dokument exportiert. |,
+		message => q|Falls für diese Seite ein Export Pfad in der WebGUI Konfigurationsdatei definiert wurde, wird ein zusätzliches Symbol in der Werkzeugleiste angezeigt. Wird dieses Symbol selektiert, wird der Inhalt dieses Assets in ein HTML Dokument exportiert. |,
 		lastUpdated => 1170450766
 	},
 
 	'Create Shortcut help' => {
-		message => q|Erstellt eine Verkn&uuml;pfung zu diesem Asset in der Zwischenablage. Da keine Verkn&uuml;pfungen von einer Verkn&uuml;pfung erstellt werden k&ouml;nnen, wird dieses Symbol bei Verkn&uuml;pfung-Assets nicht angezeigt. |,
+		message => q|Erstellt eine Verknüpfung zu diesem Asset in der Zwischenablage. Da keine Verkn&uuml;pfungen von einer Verkn&uuml;pfung erstellt werden können, wird dieses Symbol bei Verkn&uuml;pfung-Assets nicht angezeigt. |,
 		lastUpdated => 1170449948
 	},
 
@@ -38,7 +38,7 @@ our $I18N = {
 	},
 
 	'Create Shortcut' => {
-		message => q|Verkn&uuml;pfung erstellen|,
+		message => q|Verknüpfung erstellen|,
 		lastUpdated => 1170449971
 	},
 
@@ -58,7 +58,7 @@ our $I18N = {
 	},
 
 	'Delete' => {
-		message => q|L&ouml;schen|,
+		message => q|Löschen|,
 		lastUpdated => 1170448730
 	},
 
@@ -93,7 +93,7 @@ our $I18N = {
 	},
 
 	'Delete help' => {
-		message => q|Verschiebt dieses Asset in den M&uuml;lleimer. Dieses Symbol wird nur angezeigt, wenn das Asset nicht gesperrt ist, oder, wenn es nicht gesperrt ist und Sie benutzen den &lt;Tag&gt;, unter Welchem das Asset bearbeitet wurde. |,
+		message => q|Verschiebt dieses Asset in den Mülleimer. Dieses Symbol wird nur angezeigt, wenn das Asset nicht gesperrt ist, oder, wenn es nicht gesperrt ist und Sie benutzen den &lt;Tag&gt;, unter Welchem das Asset bearbeitet wurde. |,
 		lastUpdated => 1170450368
 	},
 

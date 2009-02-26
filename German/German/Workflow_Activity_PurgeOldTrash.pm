@@ -4,7 +4,7 @@ use utf8;
 
 our $I18N = {
 	'activityName' => {
-		message => q|Leere alten M&uuml;lleimer<br />|,
+		message => q|Leere alten Mülleimer<br />|,
 		lastUpdated => 1168863287
 	},
 

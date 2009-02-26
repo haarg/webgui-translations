@@ -3,11 +3,11 @@ use utf8;
 our $I18N = {
   'assetName' => {
     'lastUpdated' => 1164282518,
-    'message' => 'RSSF&auml;higkeit'
+    'message' => 'RSSFähigkeit'
   },
   'rssEnabled hoverHelp' => {
     'lastUpdated' => 1226019299,
-    'message' => '<p>RSS-Feed f&uuml;r dieses Asset einschalten? Wenn eingeschaltet, wird ein RSS-from-Parent-Asset erzeugt und als zus&auml;tzliches Kind f&uuml;r diesen Zweck verwaltet, Wenn nicht eingeschaltet, wird kein solches Kind erzeugt und existierende werden gel&ouml;scht</p>'
+    'message' => '<p>RSS-Feed für dieses Asset einschalten? Wenn eingeschaltet, wird ein RSS-from-Parent-Asset erzeugt und als zusätzliches Kind f&uuml;r diesen Zweck verwaltet, Wenn nicht eingeschaltet, wird kein solches Kind erzeugt und existierende werden gelöscht</p>'
   },
   'rssEnabled label' => {
     'lastUpdated' => 1226019145,
@@ -15,7 +15,7 @@ our $I18N = {
   },
   'rssTemplateId hoverHelp' => {
     'lastUpdated' => 1226019132,
-    'message' => 'Die Vorlage f&uuml;r den RSS-Feed dieses Assets'
+    'message' => 'Die Vorlage für den RSS-Feed dieses Assets'
   },
   'rssTemplateId label' => {
     'lastUpdated' => 1226019107,

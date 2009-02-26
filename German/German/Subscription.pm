@@ -39,7 +39,7 @@ our $I18N = {
 	},
 
 	'delete batch confirm' => {
-		message => q|Wollen Sie diesen Batch wirklich l&ouml;schen?|,
+		message => q|Wollen Sie diesen Batch wirklich löschen?|,
 		lastUpdated => 1180020218
 	},
 
@@ -129,7 +129,7 @@ our $I18N = {
 	},
 
 	'add subscription' => {
-		message => q|Eine neue Bestellung hinzuf&uuml;gen|,
+		message => q|Eine neue Bestellung hinzufügen|,
 		lastUpdated => 1180018677
 	},
 

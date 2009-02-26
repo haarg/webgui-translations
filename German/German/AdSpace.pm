@@ -7,11 +7,11 @@ our $I18N = {
   },
   'priority' => {
     'lastUpdated' => 1153201320,
-    'message' => 'Priorit&auml;t'
+    'message' => 'Priorität'
   },
   'add an ad' => {
     'lastUpdated' => 1178626502,
-    'message' => 'Banner hinzuf&uuml;gen'
+    'message' => 'Banner hinzufügen'
   },
   'image help' => {
     'lastUpdated' => 1192818913,
@@ -135,7 +135,7 @@ our $I18N = {
   },
   'confirm ad space delete' => {
     'lastUpdated' => 1154464908,
-    'message' => 'Sind Sie sicher, dass Sie diesen Werbeplatz und alle damit verkn&uuml;pften Anzeigen l&ouml;schen m&ouml;chten?'
+    'message' => 'Sind Sie sicher, dass Sie diesen Werbeplatz und alle damit verknüpften Anzeigen löschen m&ouml;chten?'
   },
   'name help' => {
     'lastUpdated' => 1193070319,
@@ -155,7 +155,7 @@ our $I18N = {
   },
   'ad text help' => {
     'lastUpdated' => 1153201066,
-    'message' => 'Bitte geben Sie bis zu 255 Zeichen ein, die Sie in diesem Banner sehen m&ouml;chten. Beachten Sie, dass abh&auml;ngig von der Gr&ouml;sse des Banners, nicht der gesamte Text sichtbar sein kann. Daher empfehlen wir die Verwendung von 60 Zeichen oder weniger.<br />'
+    'message' => 'Bitte geben Sie bis zu 255 Zeichen ein, die Sie in diesem Banner sehen möchten. Beachten Sie, dass abhängig von der Gr&ouml;sse des Banners, nicht der gesamte Text sichtbar sein kann. Daher empfehlen wir die Verwendung von 60 Zeichen oder weniger.<br />'
   },
   'rich' => {
     'lastUpdated' => 1178626551,
@@ -163,11 +163,11 @@ our $I18N = {
   },
   'background color help' => {
     'lastUpdated' => 1153201091,
-    'message' => 'Der HEX-Wert der Hintergrundfarbe f&uuml;r dieses Text-Banner<br />'
+    'message' => 'Der HEX-Wert der Hintergrundfarbe für dieses Text-Banner<br />'
   },
   'confirm ad delete' => {
     'lastUpdated' => 1153201272,
-    'message' => 'Sind Sie sicher, dass Sie dieses Banner l&ouml;schen m&ouml;chten? '
+    'message' => 'Sind Sie sicher, dass Sie dieses Banner löschen m&ouml;chten? '
   },
   'ad space id' => {
     'lastUpdated' => 1215471922,
@@ -175,7 +175,7 @@ our $I18N = {
   },
   'error invalid characters' => {
     'lastUpdated' => 1204544492,
-    'message' => 'Es existieren ung&uuml;ltige Zeichen im Titlel. Bitte benutzen sie nur Buchstaben, Zahlen und Leerzeichen.'
+    'message' => 'Es existieren ungültige Zeichen im Titlel. Bitte benutzen sie nur Buchstaben, Zahlen und Leerzeichen.'
   },
   'clicks bought help' => {
     'lastUpdated' => 1215472080,
@@ -183,7 +183,7 @@ our $I18N = {
   },
   'height' => {
     'lastUpdated' => 1153200883,
-    'message' => 'H&ouml;he'
+    'message' => 'Höhe'
   },
   'image' => {
     'lastUpdated' => 1152969713,
@@ -195,7 +195,7 @@ our $I18N = {
   },
   'add ad space' => {
     'lastUpdated' => 1215471942,
-    'message' => 'Werbefl&amp;auml;che hinzuf&uuml;gen'
+    'message' => 'Werbefl&amp;auml;che hinzufügen'
   },
   'edit advertisement' => {
     'lastUpdated' => 1164010352,

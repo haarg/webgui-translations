@@ -4,7 +4,7 @@ use utf8;
 
 our $I18N = {
 	'activityName' => {
-		message => q|Benachrichtige &uuml;ber Version Tag|,
+		message => q|Benachrichtige über Version Tag|,
 		lastUpdated => 1179913235
 	},
 

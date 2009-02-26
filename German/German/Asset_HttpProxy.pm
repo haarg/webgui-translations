@@ -3,12 +3,12 @@ use utf8;
 
 our $I18N = {
 	'filterHtml' => {
-		message => q|Grad an Filterung von HTML, der f&uuml;r den eingebunden Inhalt gesetzt ist.|,
+		message => q|Grad an Filterung von HTML, der für den eingebunden Inhalt gesetzt ist.|,
 		lastUpdated => 1178697128
 	},
 
 	'content' => {
-		message => q|Der Inhalt der eingebundenen Seite. Wenn <strong>Suche nach</strong> und <strong>Stopp bei</strong> Eigneschaften gesetzt sind dann enth&auml; der Inhalt keines davon.|,
+		message => q|Der Inhalt der eingebundenen Seite. Wenn <strong>Suche nach</strong> und <strong>Stopp bei</strong> Eigneschaften gesetzt sind dann enthä der Inhalt keines davon.|,
 		lastUpdated => 1178697036
 	},
 
@@ -23,7 +23,7 @@ our $I18N = {
 	},
 
 	'searchFor' => {
-		message => q|Ein Suchstring, der den Startpunkt f&uuml;r dargestellten Inhalt definiert.|,
+		message => q|Ein Suchstring, der den Startpunkt für dargestellten Inhalt definiert.|,
 		lastUpdated => 1178697402
 	},
 
@@ -38,7 +38,7 @@ our $I18N = {
 	},
 
 	'url pattern filter hover help' => {
-		message => q|Geben Sie ein Muster pro Zeile ein (Perl Ausdr&uuml;cke sind g&uuml;ltig), zur Filterung beim Umschreiben der URL.|,
+		message => q|Geben Sie ein Muster pro Zeile ein (Perl Ausdrücke sind g&uuml;ltig), zur Filterung beim Umschreiben der URL.|,
 		lastUpdated => 1192965099
 	},
 
@@ -48,7 +48,7 @@ our $I18N = {
 	},
 
 	'1 description' => {
-		message => q|Start URL f&uuml;r diesen Proxy.|,
+		message => q|Start URL für diesen Proxy.|,
 		lastUpdated => 1178697585
 	},
 
@@ -58,12 +58,12 @@ our $I18N = {
 	},
 
 	'http proxy template body' => {
-		message => q|Die folgenden Variablen sind im HTTP Proxy Templates verf&uuml;gbar:<br />|,
+		message => q|Die folgenden Variablen sind im HTTP Proxy Templates verfügbar:<br />|,
 		lastUpdated => 1168866756
 	},
 
 	'http proxy template title description' => {
-		message => q|Nutzen Sie diese Auswahlbox, um ein Template zu w&auml;hlen, dass f&uuml;r die Ausgabe des eingebundenen (proxied) Inhalts verwendet werden soll.<br />|,
+		message => q|Nutzen Sie diese Auswahlbox, um ein Template zu wählen, dass für die Ausgabe des eingebundenen (proxied) Inhalts verwendet werden soll.<br />|,
 		lastUpdated => 1170404381
 	},
 
@@ -118,7 +118,7 @@ our $I18N = {
 	},
 
 	'use ampersand help' => {
-		message => q|Standardm&auml;ssig wird als Trennzeichen in URLs der Strichpunkt benutzt. Dennoch setzen einige &auml;ltere Anwendungen die Benutzung des Kaufmannsund voraus. |,
+		message => q|Standardmässig wird als Trennzeichen in URLs der Strichpunkt benutzt. Dennoch setzen einige &auml;ltere Anwendungen die Benutzung des Kaufmannsund voraus. |,
 		lastUpdated => 1170404917
 	},
 
@@ -138,7 +138,7 @@ our $I18N = {
 	},
 
 	'stopAt' => {
-		message => q|Ein Suchstring, der den Stopppunkt f&uuml;r dargestellten Inhalt definiert.|,
+		message => q|Ein Suchstring, der den Stopppunkt für dargestellten Inhalt definiert.|,
 		lastUpdated => 1178697465
 	},
 
@@ -153,7 +153,7 @@ our $I18N = {
 	},
 
 	'http proxy asset template variables body' => {
-		message => q|Jedes Asset bietet ihren Templates einen Satz an Variablen, die auf den Asset Eigenschaften basieren. Einige dieser Variablen k&ouml;nnen n&uuml;tzlich sein, andere nicht.|,
+		message => q|Jedes Asset bietet ihren Templates einen Satz an Variablen, die auf den Asset Eigenschaften basieren. Einige dieser Variablen können nützlich sein, andere nicht.|,
 		lastUpdated => 1170404256
 	},
 
@@ -163,12 +163,12 @@ our $I18N = {
 	},
 
 	'templateId' => {
-		message => q|Die ID des Templates, das f&uuml;r die Ausgabe des Http Proxies benutzt wird. |,
+		message => q|Die ID des Templates, das für die Ausgabe des Http Proxies benutzt wird. |,
 		lastUpdated => 1170404666
 	},
 
 	'cache timeout description' => {
-		message => q|Wie lange soll die eingebundene Seite gecached werden, so da&szlig; sie beim n&auml;chsten Aufruf nicht neu geholt werden mu&szlig;? |,
+		message => q|Wie lange soll die eingebundene Seite gecached werden, so daß sie beim nächsten Aufruf nicht neu geholt werden mu&szlig;? |,
 		lastUpdated => 1168866699
 	},
 
@@ -208,7 +208,7 @@ our $I18N = {
 	},
 
 	'9' => {
-		message => q|Cookie Gef&auml;ngnis|,
+		message => q|Cookie Gefängnis|,
 		lastUpdated => 1178696555
 	},
 
@@ -243,12 +243,12 @@ our $I18N = {
 	},
 
 	'stop.at' => {
-		message => q|Die Zeichenkette die f&uuml;r den Stopp der Inhaltssuche benutzt wird.|,
+		message => q|Die Zeichenkette die für den Stopp der Inhaltssuche benutzt wird.|,
 		lastUpdated => 1178697437
 	},
 
 	'search.for' => {
-		message => q|Die Zeichenkette die f&uuml;r den Start der Inhaltssuche benutzt wird.|,
+		message => q|Die Zeichenkette die für den Start der Inhaltssuche benutzt wird.|,
 		lastUpdated => 1178697356
 	},
 

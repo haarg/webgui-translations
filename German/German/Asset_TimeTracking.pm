@@ -11,15 +11,15 @@ our $I18N = {
   },
   'Are you sure you want to delete this activity' => {
     'lastUpdated' => 1212756861,
-    'message' => 'Sind Sie sicher, dass Sie diese Aufgabe l&ouml;schen wollen?'
+    'message' => 'Sind Sie sicher, dass Sie diese Aufgabe löschen wollen?'
   },
   'Choose One' => {
     'lastUpdated' => 1212756880,
-    'message' => 'W&auml;hlen Sie'
+    'message' => 'Wählen Sie'
   },
   'Choose yes to pull projects and task information from the various project management assets on your site' => {
     'lastUpdated' => 1225635353,
-    'message' => 'W&auml;hlen Sie \'ja\', um die Projekt- und Aufgabeninformationen aus den verschiedenen Projektmanagement-Best&auml;nden Ihrer Site zu holen (pull)'
+    'message' => 'Wählen Sie \'ja\', um die Projekt- und Aufgabeninformationen aus den verschiedenen Projektmanagement-Best&auml;nden Ihrer Site zu holen (pull)'
   },
   'New Task Name' => {
     'lastUpdated' => 1212756899,
@@ -27,7 +27,7 @@ our $I18N = {
   },
   'No  name was entered for new task' => {
     'lastUpdated' => 1225635270,
-    'message' => 'Sie haben keine Bezeichnung f&uuml;r die neue Aufgabe eingegeben.'
+    'message' => 'Sie haben keine Bezeichnung für die neue Aufgabe eingegeben.'
   },
   'Project Management Integration' => {
     'lastUpdated' => 1226015330,
@@ -47,11 +47,11 @@ our $I18N = {
   },
   'The highlighted fields are required if you wish to submit this form.' => {
     'lastUpdated' => 1225635389,
-    'message' => 'Bitte f&uuml;llen Sie die hervorgehobenen Felder aus, damit das Formular &uuml;bermittelt werden kann.'
+    'message' => 'Bitte füllen Sie die hervorgehobenen Felder aus, damit das Formular &uuml;bermittelt werden kann.'
   },
   'There must be at least one row.  Please add more rows if you wish to delete this one' => {
     'lastUpdated' => 1225635432,
-    'message' => 'Mindestens eine Zeile muss existieren. Wenn Sie die aktuelle Zeile l&ouml;schen wollen, f&uuml;gen Sie mindestens eine neue Zeile hinzu.'
+    'message' => 'Mindestens eine Zeile muss existieren. Wenn Sie die aktuelle Zeile löschen wollen, fügen Sie mindestens eine neue Zeile hinzu.'
   },
   'This project cannot be deleted as it is currently being used by existing time entry records and would corrupt this data.  The records must be deleted if you wish to remove this project' => {
     'lastUpdated' => undef,
@@ -63,7 +63,7 @@ our $I18N = {
   },
   'add project label' => {
     'lastUpdated' => 1230371487,
-    'message' => 'Neues Projekt hinzuf&uuml;gen'
+    'message' => 'Neues Projekt hinzufügen'
   },
   'assetName' => {
     'lastUpdated' => undef,
@@ -247,7 +247,7 @@ our $I18N = {
   },
   'row.id' => {
     'lastUpdated' => 1212756988,
-    'message' => 'Ein eindeutiger Bezeichner f&uuml;r diese Zeile'
+    'message' => 'Ein eindeutiger Bezeichner für diese Zeile'
   },
   'time report comments label' => {
     'lastUpdated' => undef,

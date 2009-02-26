@@ -19,12 +19,12 @@ our $I18N = {
 	},
 
 	'multisearch template body' => {
-		message => q|Das Multi-Suche Template hat alle Variablen von Wobjects und zus&auml;tzlich noch die folgenden:|,
+		message => q|Das Multi-Suche Template hat alle Variablen von Wobjects und zusätzlich noch die folgenden:|,
 		lastUpdated => 1179825285
 	},
 
 	'submit' => {
-		message => q|Abschicken Schaltfl&auml;che mit dem internationalisierten Label "Submit".|,
+		message => q|Abschicken Schaltfläche mit dem internationalisierten Label "Submit".|,
 		lastUpdated => 1179825390
 	},
 
@@ -34,7 +34,7 @@ our $I18N = {
 	},
 
 	'for.variable' => {
-		message => q|Internationalisiertes Label f&uuml;r das Wort "for".|,
+		message => q|Internationalisiertes Label für das Wort "for".|,
 		lastUpdated => 1179825137
 	},
 
@@ -44,7 +44,7 @@ our $I18N = {
 	},
 
 	'multi search asset template variables body' => {
-		message => q|Jedes Asset bietet ihren Templates einen Satz an Variablen, die auf den Asset Eigenschaften basieren. Einige dieser Variablen k&ouml;nnen n&uuml;tzlich sein, andere nicht.|,
+		message => q|Jedes Asset bietet ihren Templates einen Satz an Variablen, die auf den Asset Eigenschaften basieren. Einige dieser Variablen können nützlich sein, andere nicht.|,
 		lastUpdated => 1179824865
 	},
 
@@ -59,7 +59,7 @@ our $I18N = {
 	},
 
 	'templateId' => {
-		message => q|Die Id des Templates, das f&uuml;r die Anzeige dieses Assets benutzt wird.|,
+		message => q|Die Id des Templates, das für die Anzeige dieses Assets benutzt wird.|,
 		lastUpdated => 1179825411
 	},
 
@@ -74,12 +74,12 @@ our $I18N = {
 	},
 
 	'search.variable' => {
-		message => q|Internationalisiertes Label f&uuml;r das Wort "search".|,
+		message => q|Internationalisiertes Label für das Wort "search".|,
 		lastUpdated => 1179825345
 	},
 
 	'MultiSearch Template description' => {
-		message => q|W&auml;hlen Sie ein Template f&uuml;r die Anzeige der Multi-Suche.|,
+		message => q|Wählen Sie ein Template für die Anzeige der Multi-Suche.|,
 		lastUpdated => 1179824929
 	},
 

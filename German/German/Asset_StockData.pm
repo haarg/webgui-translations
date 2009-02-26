@@ -7,7 +7,7 @@ our $I18N = {
   },
   'add_button_label' => {
     'lastUpdated' => 1157856495,
-    'message' => 'Hinzuf&uuml;gen &gt;&gt;<br />'
+    'message' => 'Hinzufügen &gt;&gt;<br />'
   },
   'assetName' => {
     'lastUpdated' => 1170406657,

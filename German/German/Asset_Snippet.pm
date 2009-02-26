@@ -4,7 +4,7 @@ use utf8;
 
 our $I18N = {
 	'cache timeout help' => {
-		message => q|<p>Da alle Nutzer dieses Asset in gleicher Darstellung sehen, kann es &uuml;ber einen langen Zeitraum gecached werden um die Performance zu steigern. Wie lange soll es gecached werden?</p>|,
+		message => q|<p>Da alle Nutzer dieses Asset in gleicher Darstellung sehen, kann es über einen langen Zeitraum gecached werden um die Performance zu steigern. Wie lange soll es gecached werden?</p>|,
 		lastUpdated => 1170406737
 	},
 
@@ -19,12 +19,12 @@ our $I18N = {
 	},
 
 	'process as template description' => {
-		message => q|Schnipsel wird von der Template Engine verarbeitet. Bietet die M&ouml;glichkeit, Session Variablen im Schnipsel zu nutzen, hat aber den Nachteil der geringeren Performance. |,
+		message => q|Schnipsel wird von der Template Engine verarbeitet. Bietet die Möglichkeit, Session Variablen im Schnipsel zu nutzen, hat aber den Nachteil der geringeren Performance. |,
 		lastUpdated => 1170406939
 	},
 
 	'mimeType description' => {
-		message => q|Erlaubt es Ihnen, den MIME Type dieses Assets anzugeben. N&uuml;tzlich, falls Sie CSS, Plain Text, Javascript oder andere Textdateien direkt vom WebGUI Asset System bereitstellen wollen. Default: text/html.<br />|,
+		message => q|Erlaubt es Ihnen, den MIME Type dieses Assets anzugeben. Nützlich, falls Sie CSS, Plain Text, Javascript oder andere Textdateien direkt vom WebGUI Asset System bereitstellen wollen. Default: text/html.<br />|,
 		lastUpdated => 1170406844
 	},
 

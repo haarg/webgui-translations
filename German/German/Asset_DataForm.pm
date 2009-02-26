@@ -7,7 +7,7 @@ our $I18N = {
   },
   100 => {
     'lastUpdated' => '1178796061',
-    'message' => 'Sind Sie sich sicher, dass Sie diesen Tab l&ouml;schen wollen?'
+    'message' => 'Sind Sie sich sicher, dass Sie diesen Tab löschen wollen?'
   },
   101 => {
     'lastUpdated' => '1178796068',
@@ -19,7 +19,7 @@ our $I18N = {
   },
   103 => {
     'lastUpdated' => '1178796092',
-    'message' => 'Einen neuen Tab hinzuf&uuml;gen'
+    'message' => 'Einen neuen Tab hinzufügen'
   },
   104 => {
     'lastUpdated' => '1178796099',
@@ -31,11 +31,11 @@ our $I18N = {
   },
   105 => {
     'lastUpdated' => '1178796187',
-    'message' => 'Einen Tab hinzuf&uuml;gen'
+    'message' => 'Einen Tab hinzufügen'
   },
   '105 description' => {
     'lastUpdated' => '1178796210',
-    'message' => 'Einen Tab zu einem Daten Formular hinzuf&uuml;gen'
+    'message' => 'Einen Tab zu einem Daten Formular hinzufügen'
   },
   106 => {
     'lastUpdated' => '1178796217',
@@ -59,7 +59,7 @@ our $I18N = {
   },
   16 => {
     'lastUpdated' => '1178796258',
-    'message' => 'Best&auml;tigung'
+    'message' => 'Bestätigung'
   },
   '16 description' => {
     'lastUpdated' => '1178796289',
@@ -71,11 +71,11 @@ our $I18N = {
   },
   18 => {
     'lastUpdated' => '1178796313',
-    'message' => 'Gehe zur&uuml;ck!'
+    'message' => 'Gehe zurück!'
   },
   19 => {
     'lastUpdated' => '1178796332',
-    'message' => 'Sind Sie sich sicher, dass Sie dieses Feld l&ouml;schen wollen?'
+    'message' => 'Sind Sie sich sicher, dass Sie dieses Feld löschen wollen?'
   },
   2 => {
     'lastUpdated' => '1178796366',
@@ -91,7 +91,7 @@ our $I18N = {
   },
   '21 description' => {
     'lastUpdated' => '1178796437',
-    'message' => 'Der Name dieses Feldes. Dieser muss eindeutig f&uuml;r dieses Formular sein (d.h. kein anderes Feld darf den gleiche Namen haben).'
+    'message' => 'Der Name dieses Feldes. Dieser muss eindeutig für dieses Formular sein (d.h. kein anderes Feld darf den gleiche Namen haben).'
   },
   22 => {
     'lastUpdated' => '1178796444',
@@ -99,7 +99,7 @@ our $I18N = {
   },
   '22 description' => {
     'lastUpdated' => '1178796637',
-    'message' => 'Versteckte Felder sind f&uuml;r den Benutzer nicht sichtbar, werden aber mit der Email verschickt. Angezeigte Felder k&ouml;nnen vom Benutzer gesehen aber nicht modifiziert werden. Modifizierbare Felder k&ouml;nnen vom Benutzer bearbeitet werden. Erforderliche Felder m&uuml;ssen vom Benutzer ausgef&uuml;llt werden. Wenn Sie Versteckt oder Angezeigt w&auml;hlen, m&uuml;ssen Sie Standard Werte f&uuml;r diese Felder angeben.'
+    'message' => 'Versteckte Felder sind für den Benutzer nicht sichtbar, werden aber mit der Email verschickt. Angezeigte Felder können vom Benutzer gesehen aber nicht modifiziert werden. Modifizierbare Felder k&ouml;nnen vom Benutzer bearbeitet werden. Erforderliche Felder m&uuml;ssen vom Benutzer ausgef&uuml;llt werden. Wenn Sie Versteckt oder Angezeigt wählen, m&uuml;ssen Sie Standard Werte f&uuml;r diese Felder angeben.'
   },
   23 => {
     'lastUpdated' => '1178796642',
@@ -107,15 +107,15 @@ our $I18N = {
   },
   '23 description' => {
     'lastUpdated' => '1178796698',
-    'message' => 'W&auml;hlen Sie den Typ des Formularelements dieses Feldes. Dies wird auch f&uuml;r die Validierung der Eingabe benutzt.'
+    'message' => 'Wählen Sie den Typ des Formularelements dieses Feldes. Dies wird auch für die Validierung der Eingabe benutzt.'
   },
   24 => {
     'lastUpdated' => '1178796709',
-    'message' => 'M&ouml;gliche Werte'
+    'message' => 'Mögliche Werte'
   },
   '24 description' => {
     'lastUpdated' => '1178796770',
-    'message' => 'Dieses Feld wird f&uuml;r Listentypen (Checkbox Liste, Auswahlliste ...) benutzt. Geben Sie die anzugeigenden Felder ein, je ein Feld pro Zeile.'
+    'message' => 'Dieses Feld wird für Listentypen (Checkbox Liste, Auswahlliste ...) benutzt. Geben Sie die anzugeigenden Felder ein, je ein Feld pro Zeile.'
   },
   25 => {
     'lastUpdated' => '1178796782',
@@ -123,19 +123,19 @@ our $I18N = {
   },
   '25 description' => {
     'lastUpdated' => '1178796851',
-    'message' => 'Geben Sie den Standardwert (falls vorhanden) f&uuml;r dieses Feld ein. F&uuml;r Ja/Nein Felder geben Sie bitte "yes" oder "no" ein.'
+    'message' => 'Geben Sie den Standardwert (falls vorhanden) für dieses Feld ein. F&uuml;r Ja/Nein Felder geben Sie bitte "yes" oder "no" ein.'
   },
   27 => {
     'lastUpdated' => '1178796861',
-    'message' => 'H&ouml;he'
+    'message' => 'Höhe'
   },
   '27 description' => {
     'lastUpdated' => '1178796902',
-    'message' => 'Setzen Sie die H&ouml;he dieses Feldes in Pixeln. Nur genutzt f&uuml;r Textbereiche und HTML-Bereiche.'
+    'message' => 'Setzen Sie die Höhe dieses Feldes in Pixeln. Nur genutzt für Textbereiche und HTML-Bereiche.'
   },
   28 => {
     'lastUpdated' => '1178796923',
-    'message' => 'Optionale f&uuml;r Textbereiche und HTML Bereiche.'
+    'message' => 'Optionale für Textbereiche und HTML Bereiche.'
   },
   29 => {
     'lastUpdated' => '1178796955',
@@ -143,7 +143,7 @@ our $I18N = {
   },
   3 => {
     'lastUpdated' => '1178796990',
-    'message' => 'Danke f&uuml;r ihr Feedback!'
+    'message' => 'Danke für ihr Feedback!'
   },
   4 => {
     'lastUpdated' => '1178796997',
@@ -171,19 +171,19 @@ our $I18N = {
   },
   '74 description' => {
     'lastUpdated' => '1178797633',
-    'message' => '<p>Wenn Sie hier Ja w&auml;hlen, werden einige zus&auml;tzliche Felder zu diesem Formular hinzugef&uuml;gt, die f&uuml;r das Emailing relevant sind. Diese Felder werden benutzt, um die eingegebenen Daten an irgendeine Person ihrer Wahl per Email zu senden.</p> <p><strong>HINWEIS:</strong> Das &quot;An&quot; Feld akzeptiert eine Standard Email Adresse, einen WebGUI Benutzernamen oder einen WebGUI Gruppennamen. Um an mehrere Personen/Gruppen eine Email zu schicken, geben Sie diese einfach durch Komma voneinder getrennt in dieses Feld ein. </p>'
+    'message' => '<p>Wenn Sie hier Ja wählen, werden einige zus&auml;tzliche Felder zu diesem Formular hinzugefügt, die f&uuml;r das Emailing relevant sind. Diese Felder werden benutzt, um die eingegebenen Daten an irgendeine Person ihrer Wahl per Email zu senden.</p> <p><strong>HINWEIS:</strong> Das &quot;An&quot; Feld akzeptiert eine Standard Email Adresse, einen WebGUI Benutzernamen oder einen WebGUI Gruppennamen. Um an mehrere Personen/Gruppen eine Email zu schicken, geben Sie diese einfach durch Komma voneinder getrennt in dieses Feld ein. </p>'
   },
   744 => {
     'lastUpdated' => '1178797655',
-    'message' => 'Was wollen Sie als n&auml;chstes tun?'
+    'message' => 'Was wollen Sie als nächstes tun?'
   },
   '744 description' => {
     'lastUpdated' => '1178797721',
-    'message' => 'Nach dem Erzeugen des Daten Formulars k&ouml;nnen Sie entweder weitere Felder hinzuf&uuml;gen oder zur Seite zur&uuml;ckkehren, auf der das Formular angelegt wurde.'
+    'message' => 'Nach dem Erzeugen des Daten Formulars können Sie entweder weitere Felder hinzufügen oder zur Seite zur&uuml;ckkehren, auf der das Formular angelegt wurde.'
   },
   745 => {
     'lastUpdated' => '1178798098',
-    'message' => 'Gehe zur&uuml;ck zur Seite.'
+    'message' => 'Gehe zurück zur Seite.'
   },
   75 => {
     'lastUpdated' => '1178798107',
@@ -191,7 +191,7 @@ our $I18N = {
   },
   76 => {
     'lastUpdated' => '1178798126',
-    'message' => 'Feld hinzuf&uuml;gen.'
+    'message' => 'Feld hinzufügen.'
   },
   '76 description' => {
     'lastUpdated' => '1178804661',
@@ -203,7 +203,7 @@ our $I18N = {
   },
   '77 description' => {
     'lastUpdated' => '1178798226',
-    'message' => 'Dies ist ein Text Label, um den Benutzer dar&uuml;ber zu informieren, was dieses Feld repr&auml;sentiert.'
+    'message' => 'Dies ist ein Text Label, um den Benutzer darüber zu informieren, was dieses Feld repräsentiert.'
   },
   79 => {
     'lastUpdated' => '1178798236',
@@ -211,7 +211,7 @@ our $I18N = {
   },
   '79 description' => {
     'lastUpdated' => '1178798336',
-    'message' => 'Erweiterung des Labels. Zus&auml;tzliche Informationen wie die Beschreibung, was im Feld stehen soll und optionale Instruktionen f&uuml;r dieses Feld.'
+    'message' => 'Erweiterung des Labels. Zusätzliche Informationen wie die Beschreibung, was im Feld stehen soll und optionale Instruktionen für dieses Feld.'
   },
   8 => {
     'lastUpdated' => '1178798346',
@@ -227,15 +227,15 @@ our $I18N = {
   },
   '80 description' => {
     'lastUpdated' => '1178798541',
-    'message' => 'W&auml;hle ein Template f&uuml;r die Daten, die via Email verschickt werden.'
+    'message' => 'Wähle ein Template für die Daten, die via Email verschickt werden.'
   },
   81 => {
     'lastUpdated' => '1178798560',
-    'message' => 'Best&auml;tigung Template'
+    'message' => 'Bestätigung Template'
   },
   '81 description' => {
     'lastUpdated' => '1178798666',
-    'message' => 'W&auml;hlen Sie ein Template, das f&uuml;r die Anzeige der Best&auml;tigung benutzt wird.'
+    'message' => 'Wählen Sie ein Template, das für die Anzeige der Best&auml;tigung benutzt wird.'
   },
   82 => {
     'lastUpdated' => '1178798680',
@@ -243,7 +243,7 @@ our $I18N = {
   },
   '82 description' => {
     'lastUpdated' => '1178798704',
-    'message' => 'W&auml;hlen Sie ein Template f&uuml;r ihr Formular.'
+    'message' => 'Wählen Sie ein Template für ihr Formular.'
   },
   84 => {
     'lastUpdated' => '1178804697',
@@ -255,7 +255,7 @@ our $I18N = {
   },
   86 => {
     'lastUpdated' => '1178799132',
-    'message' => 'Zeige alle Eintr&auml;ge.'
+    'message' => 'Zeige alle Einträge.'
   },
   '86 description' => {
     'lastUpdated' => '1178799160',
@@ -267,7 +267,7 @@ our $I18N = {
   },
   '87 description' => {
     'lastUpdated' => '1178799231',
-    'message' => 'W&auml;len Sie ein Template, das zur Anzeige der in einem Daten Formular gespeicherten Eintr&auml;ge genutzt wird.'
+    'message' => 'Wälen Sie ein Template, das zur Anzeige der in einem Daten Formular gespeicherten Eintr&auml;ge genutzt wird.'
   },
   88 => {
     'lastUpdated' => '1178799246',
@@ -275,15 +275,15 @@ our $I18N = {
   },
   90 => {
     'lastUpdated' => '1178799289',
-    'message' => 'Diesen Eintrag l&ouml;schen.'
+    'message' => 'Diesen Eintrag löschen.'
   },
   91 => {
     'lastUpdated' => '1178799307',
-    'message' => 'Alle Eintr&auml;ge l&ouml;schen.'
+    'message' => 'Alle Einträge löschen.'
   },
   'Delete entry confirmation' => {
     'lastUpdated' => '1178799338',
-    'message' => 'Sind Sie sich sicher, dass Sie diesen Eintrag l&ouml;schen wollen?'
+    'message' => 'Sind Sie sich sicher, dass Sie diesen Eintrag löschen wollen?'
   },
   'Entry ID' => {
     'lastUpdated' => '1234738254',
@@ -303,27 +303,27 @@ our $I18N = {
   },
   'acknowledgement var desc' => {
     'lastUpdated' => '1178799444',
-    'message' => 'Die Best&auml;tigung, die dem Benuzter nach dem Abschicken der Daten gezeigt wird.'
+    'message' => 'Die Bestätigung, die dem Benuzter nach dem Abschicken der Daten gezeigt wird.'
   },
   'acknowlegementTemplateId' => {
     'lastUpdated' => '1178799516',
-    'message' => 'Die ID des Templates, das f&uuml;r die Best&auml;tigung benutzt wird, die dem Benutzer nach dem Abschicken der Daten des Daten Formulars gezeigt wird.'
+    'message' => 'Die ID des Templates, das für die Bestätigung benutzt wird, die dem Benutzer nach dem Abschicken der Daten des Daten Formulars gezeigt wird.'
   },
   'addField.label' => {
     'lastUpdated' => '1178799545',
-    'message' => 'Das Standard Label f&uuml;r die addField.url Variable.'
+    'message' => 'Das Standard Label für die addField.url Variable.'
   },
   'addField.url' => {
     'lastUpdated' => '1178799591',
-    'message' => 'URL, die Content Manager besuchen, wenn Sie ein neues Feld zum Formular hinzuf&uuml;gen wollen.'
+    'message' => 'URL, die Content Manager besuchen, wenn Sie ein neues Feld zum Formular hinzufügen wollen.'
   },
   'addTab.label' => {
     'lastUpdated' => '1178799615',
-    'message' => 'Das Standard Label f&uuml;r die addTab.url Variable.'
+    'message' => 'Das Standard Label für die addTab.url Variable.'
   },
   'addTab.url' => {
     'lastUpdated' => '1178799653',
-    'message' => 'URL, die Content Manager besuchen, wenn Sie einen neuen Tab zum Formular hinzuf&uuml;gen wollen.'
+    'message' => 'URL, die Content Manager besuchen, wenn Sie einen neuen Tab zum Formular hinzufügen wollen.'
   },
   'assetName' => {
     'lastUpdated' => '1170409301',
@@ -331,11 +331,11 @@ our $I18N = {
   },
   'back.label' => {
     'lastUpdated' => '1178800087',
-    'message' => 'Das Standard Label f&uuml;r die back.url Variable.'
+    'message' => 'Das Standard Label für die back.url Variable.'
   },
   'back.url' => {
     'lastUpdated' => '1178800120',
-    'message' => 'URL, die Sie zur&uuml;ck zur Standard Seite des Formulars bringt.'
+    'message' => 'URL, die Sie zurück zur Standard Seite des Formulars bringt.'
   },
   'canEdit' => {
     'lastUpdated' => '1178800165',
@@ -343,15 +343,15 @@ our $I18N = {
   },
   'canViewEntries' => {
     'lastUpdated' => '1192818609',
-    'message' => 'Diese Template-Variable ist wahr, wenn dem Benutzer erlaubt wird, die Liste der vorgelegten DataForm Eintr&auml;gen anzusehen.'
+    'message' => 'Diese Template-Variable ist wahr, wenn dem Benutzer erlaubt wird, die Liste der vorgelegten DataForm Einträgen anzusehen.'
   },
   'confirm delete all' => {
     'lastUpdated' => '1178800209',
-    'message' => 'Sind Sie sich sicher,dass Sie all Daten Formular Eintr&auml;ge l&ouml;schen wollen?'
+    'message' => 'Sind Sie sich sicher,dass Sie all Daten Formular Einträge löschen wollen?'
   },
   'confirm delete one' => {
     'lastUpdated' => '1178800242',
-    'message' => 'Sind Sie sich sicher, dass Sie diesen Eintrag l&ouml;schen wollen?'
+    'message' => 'Sind Sie sich sicher, dass Sie diesen Eintrag löschen wollen?'
   },
   'data form' => {
     'lastUpdated' => '1178800252',
@@ -359,7 +359,7 @@ our $I18N = {
   },
   'data form asset template variables body' => {
     'lastUpdated' => '1178796036',
-    'message' => 'Jedes Asset bietet ihren Templates einen Satz an Variablen, die auf den Asset Eigenschaften basieren. Einige dieser Variablen k&ouml;nnen n&uuml;tzlich sein, andere nicht.'
+    'message' => 'Jedes Asset bietet ihren Templates einen Satz an Variablen, die auf den Asset Eigenschaften basieren. Einige dieser Variablen können nützlich sein, andere nicht.'
   },
   'data form asset template variables title' => {
     'lastUpdated' => '1178796024',
@@ -371,7 +371,7 @@ our $I18N = {
   },
   'date' => {
     'lastUpdated' => '1178800364',
-    'message' => 'Das Datum, zu dem das Formular abgeschickt oder zum letzten Mal akutlisiert wurde. Hat das f&uuml;r den Benutzer eingestellte Datums-/Zeitformat.'
+    'message' => 'Das Datum, zu dem das Formular abgeschickt oder zum letzten Mal akutlisiert wurde. Hat das für den Benutzer eingestellte Datums-/Zeitformat.'
   },
   'defaultView' => {
     'lastUpdated' => '1178800373',
@@ -379,31 +379,31 @@ our $I18N = {
   },
   'defaultView description' => {
     'lastUpdated' => '1178800464',
-    'message' => 'W&auml;hlen Sie die Standard Ansicht f&uuml;r dieses Daten Formular, entweder Formularansicht (Standard) oder Listenansicht. Falls die Listenansicht eingestellt ist, wird keine Best&auml;tigung angezeigt, nachdem Daten in das Formular eingegeben wurden.'
+    'message' => 'Wählen Sie die Standard Ansicht für dieses Daten Formular, entweder Formularansicht (Standard) oder Listenansicht. Falls die Listenansicht eingestellt ist, wird keine Best&auml;tigung angezeigt, nachdem Daten in das Formular eingegeben wurden.'
   },
   'defaultView var desc' => {
     'lastUpdated' => '1178800531',
-    'message' => 'Wahr, falls f&uuml;r das Daten Formular die Listenansicht (nicht die Formularansicht) als Standard eingestellt ist.'
+    'message' => 'Wahr, falls für das Daten Formular die Listenansicht (nicht die Formularansicht) als Standard eingestellt ist.'
   },
   'delete file' => {
     'lastUpdated' => '1178800557',
-    'message' => 'Angeh&auml;ngte Datei l&ouml;schen'
+    'message' => 'Angehängte Datei löschen'
   },
   'delete.label' => {
     'lastUpdated' => '1178800580',
-    'message' => 'Das Standard Label f&uuml;r die delete.url Variable.'
+    'message' => 'Das Standard Label für die delete.url Variable.'
   },
   'delete.url' => {
     'lastUpdated' => '1178800610',
-    'message' => 'URL zum L&ouml;schen des aktuellen Eintrags im Daten Formular.'
+    'message' => 'URL zum Löschen des aktuellen Eintrags im Daten Formular.'
   },
   'deleteAllEntries.label' => {
     'lastUpdated' => '1178800635',
-    'message' => 'Das Standard Label f&uuml;r die deleteAllEntries.url Variable.'
+    'message' => 'Das Standard Label für die deleteAllEntries.url Variable.'
   },
   'deleteAllEntries.url' => {
     'lastUpdated' => '1178800666',
-    'message' => 'URL zum L&ouml;schen aller Eintr&auml;ge des Daten Formulars.'
+    'message' => 'URL zum Löschen aller Einträge des Daten Formulars.'
   },
   'edit.url' => {
     'lastUpdated' => '1178800688',
@@ -415,7 +415,7 @@ our $I18N = {
   },
   'editField extras label description' => {
     'lastUpdated' => '1178800750',
-    'message' => 'Hier k&ouml;nnen sie zus&auml;tzliche Tag Eigenschaften f&uuml;r das Feld Tag eingeben. Zum Beispiel \'class="meineKlasse".'
+    'message' => 'Hier können sie zusätzliche Tag Eigenschaften für das Feld Tag eingeben. Zum Beispiel \'class="meineKlasse".'
   },
   'editField vertical label' => {
     'lastUpdated' => '1178800766',
@@ -431,23 +431,23 @@ our $I18N = {
   },
   'editForm useCaptcha description' => {
     'lastUpdated' => '1217254400',
-    'message' => '<p>Falls \'ja\', so ben&ouml;tigen Datenformulare CAPTCHAS f&uuml;r Besucher (Visitors). Registrierte Benutzer (Registered Users) sehen das CAPTCHA nicht.</p>'
+    'message' => '<p>Falls \'ja\', so benötigen Datenformulare CAPTCHAS für Besucher (Visitors). Registrierte Benutzer (Registered Users) sehen das CAPTCHA nicht.</p>'
   },
   'editForm useCaptcha label' => {
     'lastUpdated' => '1217254418',
-    'message' => 'Captchas f&uuml;r Besucher (Visitors) benutzen?'
+    'message' => 'Captchas für Besucher (Visitors) benutzen?'
   },
   'editForm workflowIdAddEntry description' => {
     'lastUpdated' => '1226012853',
-    'message' => 'Workflow der ausgef&uuml;hrt wird, wenn ein neuer Eintrag in enem &quot;Daten Formular&quot; erfolgt.'
+    'message' => 'Workflow der ausgeführt wird, wenn ein neuer Eintrag in enem &quot;Daten Formular&quot; erfolgt.'
   },
   'editForm workflowIdAddEntry label' => {
     'lastUpdated' => '1226012979',
-    'message' => 'Workflow f&uuml;r neuen Eintrag'
+    'message' => 'Workflow für neuen Eintrag'
   },
   'emailTemplateId' => {
     'lastUpdated' => '1178800906',
-    'message' => 'Die ID des Templates f&uuml;r das Senden der in das Daten Formular eingegebenen Benutzerdaten per Email.'
+    'message' => 'Die ID des Templates für das Senden der in das Daten Formular eingegebenen Benutzerdaten per Email.'
   },
   'entryId' => {
     'lastUpdated' => '1178800992',
@@ -455,11 +455,11 @@ our $I18N = {
   },
   'entryList.label' => {
     'lastUpdated' => '1178801016',
-    'message' => 'Das Standard Label f&uuml;r die entryList.url Variable.'
+    'message' => 'Das Standard Label für die entryList.url Variable.'
   },
   'entryList.url' => {
     'lastUpdated' => '1178801051',
-    'message' => 'URL zur Anzeige aller Daten Eintr&auml;ge dieses Daten Formulars.'
+    'message' => 'URL zur Anzeige aller Daten Einträge dieses Daten Formulars.'
   },
   'epoch' => {
     'lastUpdated' => '1178801108',
@@ -471,15 +471,15 @@ our $I18N = {
   },
   'error.message' => {
     'lastUpdated' => '1178801180',
-    'message' => 'Eine Fehlermeldung, die angibt, was der Benutzer falsch gemacht haben k&ouml;nnte.'
+    'message' => 'Eine Fehlermeldung, die angibt, was der Benutzer falsch gemacht haben könnte.'
   },
   'error_loop' => {
     'lastUpdated' => '1178801236',
-    'message' => 'Eine Schleife, die Fehlerinfos enth&auml;lt. Zum Beispiel wenn jemand ein erforderliches Feld nicht ausgef&uuml;llt hat.'
+    'message' => 'Eine Schleife, die Fehlerinfos enthält. Zum Beispiel wenn jemand ein erforderliches Feld nicht ausgefüllt hat.'
   },
   'export.tab.label' => {
     'lastUpdated' => '1178801261',
-    'message' => 'Das Standard Label f&uuml;r die export.tab.url Variable.'
+    'message' => 'Das Standard Label für die export.tab.url Variable.'
   },
   'export.tab.url' => {
     'lastUpdated' => '1178801329',
@@ -487,7 +487,7 @@ our $I18N = {
   },
   'field.controls' => {
     'lastUpdated' => '1178801365',
-    'message' => 'WebGUIs administrative Kontrollelemente f&uuml;r das Bearbeiten dieses Feldes.'
+    'message' => 'WebGUIs administrative Kontrollelemente für das Bearbeiten dieses Feldes.'
   },
   'field.form' => {
     'lastUpdated' => '1178801381',
@@ -519,7 +519,7 @@ our $I18N = {
   },
   'field.label' => {
     'lastUpdated' => '1178801982',
-    'message' => 'Das Text Label f&uuml;r dieses Feld.'
+    'message' => 'Das Text Label für dieses Feld.'
   },
   'field.name' => {
     'lastUpdated' => '1178801998',
@@ -543,7 +543,7 @@ our $I18N = {
   },
   'field_loop' => {
     'lastUpdated' => '1178802570',
-    'message' => '<p>Eine Schleife, die alle Informationen des Feldes enth&auml;lt. Auch von au&szlig;erhalb der <strong>field_loop</strong> ist es ein direkter Zugriff auf alle Formular Felder m&ouml;glich. Um dies zu erreichen, sollten Sie diese Variablen nutzen. Rufen sie diese &uuml;ber <strong>field.noloop.<em>fieldName</em>.<em>property</em></strong> auf, wobei fieldName der Name des Feldes (nicht des Labels) und property eine der Eigenschaften, die von <strong>field_loop</strong> bereitgestellt wird, ist. Wenn Sie das &#39;form&#39; Tag des Feldes &#39;name&#39; ben&ouml;tigen, schreiben Sie <strong>field.noloop.name.form</strong> irgendwo in ihrem Template. Wenn Sie wissen wollen, ob das Feld erforderlich ist, schreiben Sie <strong>field.noloop.name.isRequired</strong>.</p>'
+    'message' => '<p>Eine Schleife, die alle Informationen des Feldes enthält. Auch von außerhalb der <strong>field_loop</strong> ist es ein direkter Zugriff auf alle Formular Felder möglich. Um dies zu erreichen, sollten Sie diese Variablen nutzen. Rufen sie diese über <strong>field.noloop.<em>fieldName</em>.<em>property</em></strong> auf, wobei fieldName der Name des Feldes (nicht des Labels) und property eine der Eigenschaften, die von <strong>field_loop</strong> bereitgestellt wird, ist. Wenn Sie das &#39;form&#39; Tag des Feldes &#39;name&#39; ben&ouml;tigen, schreiben Sie <strong>field.noloop.name.form</strong> irgendwo in ihrem Template. Wenn Sie wissen wollen, ob das Feld erforderlich ist, schreiben Sie <strong>field.noloop.name.isRequired</strong>.</p>'
   },
   'form.end' => {
     'lastUpdated' => '1178802592',
@@ -551,11 +551,11 @@ our $I18N = {
   },
   'form.save' => {
     'lastUpdated' => '1178802616',
-    'message' => 'Eine Formular Schaltfl&auml;che, um die Daten abzuschicken.'
+    'message' => 'Eine Formular Schaltfläche, um die Daten abzuschicken.'
   },
   'form.send' => {
     'lastUpdated' => '1178802659',
-    'message' => 'Eine Formularschaltfl&auml;che, mit der internationalisierten Aufschrift "send".'
+    'message' => 'Eine Formularschaltfläche, mit der internationalisierten Aufschrift "send".'
   },
   'form.start' => {
     'lastUpdated' => '1178802675',
@@ -567,23 +567,23 @@ our $I18N = {
   },
   'group to view entries' => {
     'lastUpdated' => '1178802792',
-    'message' => 'Gruppe, die Daten Formular Eintr&auml;ge ansehen darf'
+    'message' => 'Gruppe, die Daten Formular Einträge ansehen darf'
   },
   'group to view entries description' => {
     'lastUpdated' => '1178802761',
-    'message' => 'Mitglieder dieser Gruppe k&ouml;nnen die Daten ansehen, die mittels diesem Daten Formular Asset eingegeben wurden.'
+    'message' => 'Mitglieder dieser Gruppe können die Daten ansehen, die mittels diesem Daten Formular Asset eingegeben wurden.'
   },
   'groupToViewEntries' => {
     'lastUpdated' => '1178802864',
-    'message' => 'Die Gruppen ID der Gruppe, die die eingegebenen Daten des Formulars einsehen d&uuml;rfen, wenn das Formular sich im Formular Modus befindet.'
+    'message' => 'Die Gruppen ID der Gruppe, die die eingegebenen Daten des Formulars einsehen dürfen, wenn das Formular sich im Formular Modus befindet.'
   },
   'hasEntries' => {
     'lastUpdated' => '1178802889',
-    'message' => 'Die Anzahl der Daten Eintr&auml;ge dieses Daten Formulars.'
+    'message' => 'Die Anzahl der Daten Einträge dieses Daten Formulars.'
   },
   'helpvar form.captcha' => {
     'lastUpdated' => '1217254467',
-    'message' => 'Das Eingabefeld und Bild f&uuml;r das CAPTCHA'
+    'message' => 'Das Eingabefeld und Bild für das CAPTCHA'
   },
   'helpvar useCaptcha' => {
     'lastUpdated' => '1217254493',
@@ -595,11 +595,11 @@ our $I18N = {
   },
   'javascript.confirmation.deleteAll' => {
     'lastUpdated' => '1178802990',
-    'message' => 'Javascript f&uuml;r ein internationalisiertes Pop Up Fenster, in dem man zur Best&auml;tigung des L&ouml;schens aller Dateneintr&auml;ge aufgefordert wird.'
+    'message' => 'Javascript für ein internationalisiertes Pop Up Fenster, in dem man zur Bestätigung des Löschens aller Dateneintr&auml;ge aufgefordert wird.'
   },
   'javascript.confirmation.deleteOne' => {
     'lastUpdated' => '1178803035',
-    'message' => 'Javascript f&uuml;r ein internationalisiertes Pop Up Fenster, in dem man zur Best&auml;tigung des L&ouml;schens eines Dateneintrags aufgefordert wird.'
+    'message' => 'Javascript für ein internationalisiertes Pop Up Fenster, in dem man zur Bestätigung des Löschens eines Dateneintrags aufgefordert wird.'
   },
   'listTemplateId' => {
     'lastUpdated' => '1178803075',
@@ -607,7 +607,7 @@ our $I18N = {
   },
   'mail attachments' => {
     'lastUpdated' => '1178803090',
-    'message' => 'Email Anh&auml;nge?'
+    'message' => 'Email Anhänge?'
   },
   'mail attachments description' => {
     'lastUpdated' => '1178803243',
@@ -627,11 +627,11 @@ our $I18N = {
   },
   'record.data.isMailField' => {
     'lastUpdated' => '1178803385',
-    'message' => 'Bedingung, die angibt, ob dieses Feld wegen Email Funktionalit&auml;t des Daten Formulars existiert.'
+    'message' => 'Bedingung, die angibt, ob dieses Feld wegen Email Funktionalität des Daten Formulars existiert.'
   },
   'record.data.label' => {
     'lastUpdated' => '1178803413',
-    'message' => 'Das menschenlesbare Label f&uuml;r dieses Feld.'
+    'message' => 'Das menschenlesbare Label für dieses Feld.'
   },
   'record.data.name' => {
     'lastUpdated' => '1178803433',
@@ -639,23 +639,23 @@ our $I18N = {
   },
   'record.data.value' => {
     'lastUpdated' => '1178803476',
-    'message' => 'Der Wert, der f&uuml;r dieses Feld in diesem Datensatz vom Benutzer eingegeben wurde.'
+    'message' => 'Der Wert, der für dieses Feld in diesem Datensatz vom Benutzer eingegeben wurde.'
   },
   'record.data_loop' => {
     'lastUpdated' => '1178803534',
-    'message' => 'Eine Schleife, die die eingegebenen Daten eines Benutzers f&uuml;r jedes Feld in diesem Daten Formular enth&auml;lt.'
+    'message' => 'Eine Schleife, die die eingegebenen Daten eines Benutzers für jedes Feld in diesem Daten Formular enthält.'
   },
   'record.delete.icon' => {
     'lastUpdated' => '1178803567',
-    'message' => 'Ein Icon und die zugeh&ouml;rige URL, um diesen Datensatz zu l&ouml;schen.'
+    'message' => 'Ein Icon und die zugehörige URL, um diesen Datensatz zu l&ouml;schen.'
   },
   'record.delete.url' => {
     'lastUpdated' => '1178803592',
-    'message' => 'URL, um diesen Datensatz zu l&ouml;schen.'
+    'message' => 'URL, um diesen Datensatz zu löschen.'
   },
   'record.edit.icon' => {
     'lastUpdated' => '1178803618',
-    'message' => 'Ein Icon und die zugeh&ouml;rige URL, um diesen Datensatz zu bearbeiten.'
+    'message' => 'Ein Icon und die zugehörige URL, um diesen Datensatz zu bearbeiten.'
   },
   'record.edit.url' => {
     'lastUpdated' => '1178803637',
@@ -663,7 +663,7 @@ our $I18N = {
   },
   'record.entryId' => {
     'lastUpdated' => '1178803662',
-    'message' => 'Ein eindeutiger Bezeichner f&uuml;r diese Datensatz.'
+    'message' => 'Ein eindeutiger Bezeichner für diese Datensatz.'
   },
   'record.ipAddress' => {
     'lastUpdated' => '1178803685',
@@ -671,11 +671,11 @@ our $I18N = {
   },
   'record.submissionDate.epoch' => {
     'lastUpdated' => '1178803710',
-    'message' => 'Der epoch Datumseintrag f&uuml;r diesen Datensatz.'
+    'message' => 'Der epoch Datumseintrag für diesen Datensatz.'
   },
   'record.submissionDate.human' => {
     'lastUpdated' => '1178803764',
-    'message' => 'Datumseintrag f&uuml;r diesen Datensatz. Format wie im Benutzerprofil angegeben.'
+    'message' => 'Datumseintrag für diesen Datensatz. Format wie im Benutzerprofil angegeben.'
   },
   'record.userId' => {
     'lastUpdated' => '1178803789',
@@ -691,7 +691,7 @@ our $I18N = {
   },
   'record_loop' => {
     'lastUpdated' => '1178803840',
-    'message' => 'Eine Schleife, dei alle Datens&auml;tze dieses Daten Formulars enth&auml;lt.'
+    'message' => 'Eine Schleife, dei alle Datensätze dieses Daten Formulars enth&auml;lt.'
   },
   'store data' => {
     'lastUpdated' => '1217254508',
@@ -699,11 +699,11 @@ our $I18N = {
   },
   'store data description' => {
     'lastUpdated' => '1217254527',
-    'message' => 'Sollen &uuml;bergebene Daten gespeichert werden'
+    'message' => 'Sollen übergebene Daten gespeichert werden'
   },
   'tab.controls' => {
     'lastUpdated' => '1178803862',
-    'message' => 'Bearbeitungsicons f&uuml;r diesen Tab.'
+    'message' => 'Bearbeitungsicons für diesen Tab.'
   },
   'tab.end' => {
     'lastUpdated' => '1178803875',
@@ -711,11 +711,11 @@ our $I18N = {
   },
   'tab.field.controls' => {
     'lastUpdated' => '1178803906',
-    'message' => 'WebGUIs administrative Kontrollelemente f&uuml;r das Bearbeiten dieses Feldes.'
+    'message' => 'WebGUIs administrative Kontrollelemente für das Bearbeiten dieses Feldes.'
   },
   'tab.field.form' => {
     'lastUpdated' => '1178803932',
-    'message' => 'Das Formular Element f&uuml;r dieses Feld.'
+    'message' => 'Das Formular Element für dieses Feld.'
   },
   'tab.field.isDisplayed' => {
     'lastUpdated' => '1178803951',
@@ -727,7 +727,7 @@ our $I18N = {
   },
   'tab.field.isMailField' => {
     'lastUpdated' => '1178804005',
-    'message' => 'Bedingung, die angibt, ob dieses Feld vorhanden ist, um Emailing m&ouml;glich zu machen.'
+    'message' => 'Bedingung, die angibt, ob dieses Feld vorhanden ist, um Emailing möglich zu machen.'
   },
   'tab.field.isRequired' => {
     'lastUpdated' => '1178804032',
@@ -735,7 +735,7 @@ our $I18N = {
   },
   'tab.field.label' => {
     'lastUpdated' => '1178804047',
-    'message' => 'Das Text Label f&uuml;r dieses Feld.'
+    'message' => 'Das Text Label für dieses Feld.'
   },
   'tab.field.name' => {
     'lastUpdated' => '1178804056',
@@ -755,7 +755,7 @@ our $I18N = {
   },
   'tab.field_loop' => {
     'lastUpdated' => '1178804247',
-    'message' => 'Eine Schleife, die alle Felder f&uuml;r diesen Tab enth&auml;lt. Siehe auch <strong>field_loop</strong>, um zu sehen, welche Template Variablen in der Schleife genutzt werden k&ouml;nnen.'
+    'message' => 'Eine Schleife, die alle Felder für diesen Tab enthält. Siehe auch <strong>field_loop</strong>, um zu sehen, welche Template Variablen in der Schleife genutzt werden können.'
   },
   'tab.init' => {
     'lastUpdated' => '1178804302',
@@ -763,7 +763,7 @@ our $I18N = {
   },
   'tab.label' => {
     'lastUpdated' => '1178804317',
-    'message' => 'Das Label f&uuml;r diesen Tab.'
+    'message' => 'Das Label für diesen Tab.'
   },
   'tab.sequence' => {
     'lastUpdated' => '1178804349',
@@ -775,7 +775,7 @@ our $I18N = {
   },
   'tab.subtext' => {
     'lastUpdated' => '1178804438',
-    'message' => 'Eine Beschreibung dieses Tabs, die mehr &uuml;ber den Inhalt des Tabs aufkl&auml;ren kann als das Label.'
+    'message' => 'Eine Beschreibung dieses Tabs, die mehr über den Inhalt des Tabs aufklären kann als das Label.'
   },
   'tab.tid' => {
     'lastUpdated' => '1178804453',
@@ -783,7 +783,7 @@ our $I18N = {
   },
   'tab_loop' => {
     'lastUpdated' => '1178804501',
-    'message' => 'Eine Schleife, die Informationen &uuml;ber die Tabs enth&auml;lt, die f&uuml;r dieses Daten Formular definiert wurden.'
+    'message' => 'Eine Schleife, die Informationen über die Tabs enthält, die f&uuml;r dieses Daten Formular definiert wurden.'
   },
   'template captcha label' => {
     'lastUpdated' => '1217254568',
@@ -791,7 +791,7 @@ our $I18N = {
   },
   'templateId' => {
     'lastUpdated' => '1178804553',
-    'message' => 'Die ID des Templates, das f&uuml;r die Anzeige der Formularansicht des Daten Formulars benutzt wird.'
+    'message' => 'Die ID des Templates, das für die Anzeige der Formularansicht des Daten Formulars benutzt wird.'
   },
   'userId' => {
     'lastUpdated' => '1178804577',

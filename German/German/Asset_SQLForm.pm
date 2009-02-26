@@ -173,7 +173,7 @@ our $I18N = {
 	},
 
 	'delete' => {
-		message => q|L&ouml;schen|,
+		message => q|Löschen|,
 		lastUpdated => 1212757081
 	},
 

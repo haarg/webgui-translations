@@ -4,12 +4,12 @@ use utf8;
 
 our $I18N = {
 	'activityName' => {
-		message => q|F&uuml;hre Kommando als bestimmter Benutzer aus|,
+		message => q|Führe Kommando als bestimmter Benutzer aus|,
 		lastUpdated => 1179909769
 	},
 
 	'command help' => {
-		message => q|Geben Sie das Kommando an, das ausgef&uuml;hrt werden soll. Sie k&ouml;nnen auch Makros f&uuml;r zus&auml;tzliche Parameter angeben.|,
+		message => q|Geben Sie das Kommando an, das ausgeführt werden soll. Sie können auch Makros f&uuml;r zusätzliche Parameter angeben.|,
 		lastUpdated => 1179909819
 	},
 

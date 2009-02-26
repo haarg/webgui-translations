@@ -28,7 +28,7 @@ our $I18N = {
 	},
 
 	'toggle.text' => {
-		message => q|Das internationalisierte Label f&uum;r das Ein- bzw. Ausschalten des Admin Modus (abh&auml;ngig vom Status des Makros), bzw. der Text, den Sie dem Makro &uuml;bergeben haben.|,
+		message => q|Das internationalisierte Label f&uum;r das Ein- bzw. Ausschalten des Admin Modus (abhängig vom Status des Makros), bzw. der Text, den Sie dem Makro übergeben haben.|,
 		lastUpdated => 1178784221
 	},
 

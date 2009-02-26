@@ -4,7 +4,7 @@ use utf8;
 
 our $I18N = {
 	'invalid url' => {
-		message => q|Ung&uuml;ltige Asset URL|,
+		message => q|Ungültige Asset URL|,
 		lastUpdated => 1178786335
 	},
 

@@ -14,12 +14,12 @@ our $I18N = {
 	},
 
 	'size limit help' => {
-		message => q|Welche Gr&ouml;&szlig;e darf der Cache erreichen, bevor alte Cache Elemente gel&ouml;scht werden?|,
+		message => q|Welche Größe darf der Cache erreichen, bevor alte Cache Elemente gel&ouml;scht werden?|,
 		lastUpdated => 1179847832
 	},
 
 	'activityName' => {
-		message => q|S&auml;ubere Datei Cache|,
+		message => q|Säubere Datei Cache|,
 		lastUpdated => 1179847756
 	},
 

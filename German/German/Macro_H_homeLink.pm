@@ -8,7 +8,7 @@ our $I18N = {
 	},
 
 	'homeLink.text' => {
-		message => q|Das &uuml:bersetzte Label f&uuml;r den Link zur Einstiegsseite oder der Text, den Sie dem Makro zur Verf&uuml;gung stellen.|,
+		message => q|Das &uuml:bersetzte Label für den Link zur Einstiegsseite oder der Text, den Sie dem Makro zur Verf&uuml;gung stellen.|,
 		lastUpdated => 1178719071
 	},
 

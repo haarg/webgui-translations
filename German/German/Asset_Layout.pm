@@ -7,7 +7,7 @@ our $I18N = {
   },
   '847' => {
     'lastUpdated' => 1178864141,
-    'message' => 'Zur&uuml;ck zur aktuellen Seite.'
+    'message' => 'Zurück zur aktuellen Seite.'
   },
   'asset order asc' => {
     'lastUpdated' => 1225318059,
@@ -19,11 +19,11 @@ our $I18N = {
   },
   'asset order hoverHelp' => {
     'lastUpdated' => 1225318038,
-    'message' => 'W&auml;hlen Sie, wie neue Assets hinzugef&uuml;gt werden. (Zum Anfangs- oder zur Endposition der Seite)'
+    'message' => 'Wählen Sie, wie neue Assets hinzugefügt werden. (Zum Anfangs- oder zur Endposition der Seite)'
   },
   'asset order label' => {
     'lastUpdated' => 1217316339,
-    'message' => 'Neues Asset hinzuf&uuml;gen'
+    'message' => 'Neues Asset hinzufügen'
   },
   'assetName' => {
     'lastUpdated' => 1149226936,
@@ -35,7 +35,7 @@ our $I18N = {
   },
   'assets to hide description' => {
     'lastUpdated' => 1178864160,
-    'message' => 'Diese Liste enth&auml;lt ein Auswahlfeld f&uuml;r jedes Asset auf der Seite. W&auml;hlen Sie hier die Assets aus, die nicht auf der Seite dargestellt werden sollen. '
+    'message' => 'Diese Liste enthält ein Auswahlfeld für jedes Asset auf der Seite. W&auml;hlen Sie hier die Assets aus, die nicht auf der Seite dargestellt werden sollen. '
   },
   'assetsToHide' => {
     'lastUpdated' => 1170405069,
@@ -47,15 +47,15 @@ our $I18N = {
   },
   'contentPositions' => {
     'lastUpdated' => 1170405720,
-    'message' => 'Zeichenkette, die die verschiedenen Pl&auml;tze angibt, an denen Assets dargestellt werden. Ausserdem, welche Assets an welchem Platz und in welcher Reihenfolge.<br /> '
+    'message' => 'Zeichenkette, die die verschiedenen Plätze angibt, an denen Assets dargestellt werden. Ausserdem, welche Assets an welchem Platz und in welcher Reihenfolge.<br /> '
   },
   'dragger.icon' => {
     'lastUpdated' => 1170405906,
-    'message' => 'Icon f&uuml;r die &Auml;nderung der Position eines Assets via &quot;click and drag&quot;. Wenn showAdmin false ist, ist diese Variable leer. '
+    'message' => 'Icon für die Änderung der Position eines Assets via &quot;click and drag&quot;. Wenn showAdmin false ist, ist diese Variable leer. '
   },
   'dragger.init' => {
     'lastUpdated' => 1170405916,
-    'message' => 'HTML und Javascript ist Voraussetzung f&uuml;r &quot;click and drag&quot;. Wenn showAdmin false ist, ist diese Variable leer.<br />'
+    'message' => 'HTML und Javascript ist Voraussetzung für &quot;click and drag&quot;. Wenn showAdmin false ist, ist diese Variable leer.<br />'
   },
   'id' => {
     'lastUpdated' => 1178864167,
@@ -67,7 +67,7 @@ our $I18N = {
   },
   'layout asset template variables body' => {
     'lastUpdated' => 1170406352,
-    'message' => 'Jedes Asset bietet ihren Templates einen Satz an Variablen, die auf den Asset Eigenschaften basieren. Einige dieser Variablen k&ouml;nnen n&uuml;tzlich sein, andere nicht.'
+    'message' => 'Jedes Asset bietet ihren Templates einen Satz an Variablen, die auf den Asset Eigenschaften basieren. Einige dieser Variablen können nützlich sein, andere nicht.'
   },
   'layout asset template variables title' => {
     'lastUpdated' => 1170406368,
@@ -75,7 +75,7 @@ our $I18N = {
   },
   'layout template body' => {
     'lastUpdated' => 1178864216,
-    'message' => 'Die folgenden Variablen sind in Seitenlayout Templates verf&uuml;gbar:'
+    'message' => 'Die folgenden Variablen sind in Seitenlayout Templates verfügbar:'
   },
   'layout template title' => {
     'lastUpdated' => 1178864208,
@@ -83,7 +83,7 @@ our $I18N = {
   },
   'position1_loop' => {
     'lastUpdated' => 1178864308,
-    'message' => 'Jede Position in dem Template hat eine Schleife, die einen Satz an Assets enth&auml;lt, die angezeigt werden. Assets, die nicht an einer bestimmten Stelle platziert wurden, werden an Position 1 gesetzt.'
+    'message' => 'Jede Position in dem Template hat eine Schleife, die einen Satz an Assets enthält, die angezeigt werden. Assets, die nicht an einer bestimmten Stelle platziert wurden, werden an Position 1 gesetzt.'
   },
   'showAdmin' => {
     'lastUpdated' => 1178864350,
@@ -91,11 +91,11 @@ our $I18N = {
   },
   'template description' => {
     'lastUpdated' => 1149227092,
-    'message' => 'W&auml;hlen Sie ein Template zur Darstellung der Assets auf der Seite aus. '
+    'message' => 'Wählen Sie ein Template zur Darstellung der Assets auf der Seite aus. '
   },
   'templateId' => {
     'lastUpdated' => 1178864374,
-    'message' => 'Die ID des Templates, das f&uuml;r die Anzeige dieses Assets benutzt wird.'
+    'message' => 'Die ID des Templates, das für die Anzeige dieses Assets benutzt wird.'
   }
 }
 ;

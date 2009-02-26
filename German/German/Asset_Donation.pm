@@ -7,7 +7,7 @@ our $I18N = {
   },
   'continueShoppingUrl' => {
     'lastUpdated' => 1226014540,
-    'message' => 'Ein URL um das Produkt zur&uuml;ckzusetzen, so dass der Einkauf fortgesetzt werden kann.'
+    'message' => 'Ein URL um das Produkt zurückzusetzen, so dass der Einkauf fortgesetzt werden kann.'
   },
   'default price' => {
     'lastUpdated' => 1225635093,
@@ -19,7 +19,7 @@ our $I18N = {
   },
   'default thank you message' => {
     'lastUpdated' => 1217229449,
-    'message' => 'Dankesch&ouml;n f&uuml;r Ihre Spende.'
+    'message' => 'Dankeschön für Ihre Spende.'
   },
   'donate button' => {
     'lastUpdated' => 1226014225,
@@ -27,19 +27,19 @@ our $I18N = {
   },
   'donate template' => {
     'lastUpdated' => 1226014242,
-    'message' => 'Template f&uuml;r Spende'
+    'message' => 'Template für Spende'
   },
   'donate template help' => {
     'lastUpdated' => 1226014298,
-    'message' => 'W&auml;hlen Sie eine Vorlage, die f&uuml;r die Anzeige des Spende-Asset genutzt werden soll.'
+    'message' => 'Wählen Sie eine Vorlage, die für die Anzeige des Spende-Asset genutzt werden soll.'
   },
   'donateButton' => {
     'lastUpdated' => 1217229381,
-    'message' => 'Die Schaltfl&auml;che f&uuml;r das Spendenformular.'
+    'message' => 'Die Schaltfläche für das Spendenformular.'
   },
   'donation template help' => {
     'lastUpdated' => 1226014320,
-    'message' => 'Template f&uuml;r Spende-Asset'
+    'message' => 'Template für Spende-Asset'
   },
   'formFooter' => {
     'lastUpdated' => 1217229361,
@@ -51,7 +51,7 @@ our $I18N = {
   },
   'hasAddedToCart' => {
     'lastUpdated' => 1226014503,
-    'message' => '<p>Die Bedingung, die anzeigt, dass der Nutzer seine Spende in den Einkaufwagen gelegt hat und nun die Dankesch&ouml;n-Nachtricht angezeigt werden soll.</p>'
+    'message' => '<p>Die Bedingung, die anzeigt, dass der Nutzer seine Spende in den Einkaufwagen gelegt hat und nun die Dankeschön-Nachtricht angezeigt werden soll.</p>'
   },
   'priceField' => {
     'lastUpdated' => 1217229314,
@@ -59,11 +59,11 @@ our $I18N = {
   },
   'thank you message' => {
     'lastUpdated' => 1217229270,
-    'message' => 'Dankesch&ouml;n Nachricht'
+    'message' => 'Dankeschön Nachricht'
   },
   'thank you message help' => {
     'lastUpdated' => 1226014423,
-    'message' => '<p>Geben Sie hier eine Dankesch&ouml;n-Nechricht ein, die dem Spender angezeigt wird. Beachten Sie: Die Spende wurde bisher nur in den Einkaufswagen gelegt, dieser aber noch nicht bezahlt.</p>'
+    'message' => '<p>Geben Sie hier eine Dankeschön-Nechricht ein, die dem Spender angezeigt wird. Beachten Sie: Die Spende wurde bisher nur in den Einkaufswagen gelegt, dieser aber noch nicht bezahlt.</p>'
   }
 }
 ;

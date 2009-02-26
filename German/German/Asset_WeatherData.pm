@@ -35,11 +35,11 @@ our $I18N = {
   },
   'licenseKey' => {
     'lastUpdated' => 1228690124,
-    'message' => 'Lizenzschl&uuml;ssel f&uuml;r weather.com'
+    'message' => 'Lizenzschlüssel f&uuml;r weather.com'
   },
   'licenseKey help' => {
     'lastUpdated' => 1228690293,
-    'message' => 'Sie haben diesen Schl&uuml;ssel von weather.com per E-Mail erhalten, nachdem Sie sich f&uuml;r den Weather XML Data Feed angemeldet hatten.'
+    'message' => 'Sie haben diesen Schlüssel von weather.com per E-Mail erhalten, nachdem Sie sich f&uuml;r den Weather XML Data Feed angemeldet hatten.'
   },
   'locations' => {
     'lastUpdated' => 1226015162,
@@ -47,19 +47,19 @@ our $I18N = {
   },
   'ourLocations.loop' => {
     'lastUpdated' => 1228690230,
-    'message' => 'eine Schleife, die Wetterinformationen zu allen konfigurierten Benutzer-Orten enth&auml;lt.'
+    'message' => 'eine Schleife, die Wetterinformationen zu allen konfigurierten Benutzer-Orten enthält.'
   },
   'partnerId' => {
     'lastUpdated' => 1228690250,
-    'message' => 'Partner-Id f&uuml;r weather.com'
+    'message' => 'Partner-Id für weather.com'
   },
   'partnerId help' => {
     'lastUpdated' => 1228690286,
-    'message' => 'Sie haben diese ID von weather.com per E-Mail erhalten, nachdem Sie sich f&uuml;r den Weather XML Data Feed angemeldet hatten.'
+    'message' => 'Sie haben diese ID von weather.com per E-Mail erhalten, nachdem Sie sich für den Weather XML Data Feed angemeldet hatten.'
   },
   'query' => {
     'lastUpdated' => 1212756698,
-    'message' => 'der gew&uuml;nschte Ort'
+    'message' => 'der gewünschte Ort'
   },
   'sky' => {
     'lastUpdated' => 1212756742,
@@ -79,7 +79,7 @@ our $I18N = {
   },
   'you need a weather.com key' => {
     'lastUpdated' => 1226015232,
-    'message' => 'Klicken Sie hier, zum sich auf weather.com f&uuml;r den kostenlosen &quot;Weacher XML Data Feed&quot; zu registrieren. Dieser wird f&uuml;r dieses Asset zwingend ben&ouml;tigt.'
+    'message' => 'Klicken Sie hier, zum sich auf weather.com für den kostenlosen &quot;Weacher XML Data Feed&quot; zu registrieren. Dieser wird f&uuml;r dieses Asset zwingend benötigt.'
   }
 }
 ;
