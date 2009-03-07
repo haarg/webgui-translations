@@ -294,8 +294,8 @@ our $I18N = {
     'message' => 'früher'
   },
   'apply' => {
-    'lastUpdated' => '1224797536',
-    'message' => 'Sichern'
+    'lastUpdated' => '1236433662',
+    'message' => 'Übernehmen'
   },
   'asset' => {
     'lastUpdated' => '1153238556',

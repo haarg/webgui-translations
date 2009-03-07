@@ -38,8 +38,8 @@ our $I18N = {
     'message' => 'Ihr Profil ist nicht öffentlich'
   },
   'profile as others label' => {
-    'lastUpdated' => '1233944641',
-    'message' => 'Anzeigen, wie von anderen gesehen.'
+    'lastUpdated' => '1236436695',
+    'message' => 'Profil anzeigen wie von anderen gesehen'
   },
   'profile edit layout template hoverHelp' => {
     'lastUpdated' => '1228751783',

@@ -2,35 +2,35 @@ package WebGUI::i18n::German::Asset_EventManagementSystem;
 use utf8;
 our $I18N = {
   'Admin manage sub events large resultset' => {
-    'lastUpdated' => 1180436914,
+    'lastUpdated' => '1180436914',
     'message' => 'Sie können die folgenden Termine verwalten. Da zu viele Unter-Termine vorhanden sind, k&ouml;nnen nicht alle Termine dargestellt werden. Bitte grenzen Sie die Ergebnisse durch die weiter oben aufgeführten Filteroptionen ein. '
   },
   'Admin manage sub events small resultset' => {
-    'lastUpdated' => 1180436966,
+    'lastUpdated' => '1180436966',
     'message' => 'Sie können die folgenden Termine verwalten. Sie k&ouml;nnen die Ergebnisse durch die weiter oben aufgeführten Filteroptionen eingrenzen. '
   },
   'Event Number' => {
-    'lastUpdated' => 1180436974,
+    'lastUpdated' => '1180436974',
     'message' => 'Termin Nummer'
   },
   'None' => {
-    'lastUpdated' => 1180436978,
+    'lastUpdated' => '1180436978',
     'message' => 'Keine'
   },
   'Pagination variables' => {
-    'lastUpdated' => 1180437029,
+    'lastUpdated' => '1180437029',
     'message' => 'Allgemeine Seitenaufteilung Template Variablen.'
   },
   'Unlink User' => {
-    'lastUpdated' => 1180437040,
+    'lastUpdated' => '1180437040',
     'message' => 'Unlink Benutzer'
   },
   'User sub events large resultset' => {
-    'lastUpdated' => 1180437188,
+    'lastUpdated' => '1180437188',
     'message' => 'Sie können auch aus den folgenden Unter-Terminen wählen. Auf Grund der vielen Unter-Terminen k&ouml;nnen nicht alle dargestellt werden. Bitte grenzen Sie die Ergebnisse durch die weiter oben aufgeführten Filteroptionen ein. '
   },
   'User sub events small resultset' => {
-    'lastUpdated' => 1180437168,
+    'lastUpdated' => '1180437168',
     'message' => 'Sie können auch aus den folgenden Unter-Terminen wählen. Sie k&ouml;nnen die Ergebnisse durch die weiter oben aufgeführten Filteroptionen eingrenzen. '
   },
   'add discount pass' => {
@@ -38,11 +38,11 @@ our $I18N = {
     'message' => ''
   },
   'add event' => {
-    'lastUpdated' => 1180437201,
+    'lastUpdated' => '1180437201',
     'message' => 'Termin hinzufügen'
   },
   'add new event metadata field' => {
-    'lastUpdated' => 1180437219,
+    'lastUpdated' => '1180437219',
     'message' => 'Neues Termin Metadaten Feld hinzufügen'
   },
   'add prerequisite set' => {
@@ -58,15 +58,15 @@ our $I18N = {
     'message' => ''
   },
   'add to cart' => {
-    'lastUpdated' => undef,
+    'lastUpdated' => '1236386202',
     'message' => ''
   },
   'add/edit approve event' => {
-    'lastUpdated' => 1199975274,
+    'lastUpdated' => '1199975274',
     'message' => 'Termin bestätigen'
   },
   'add/edit event add another prerequisite' => {
-    'lastUpdated' => 1199975297,
+    'lastUpdated' => '1199975297',
     'message' => 'Füge eine andere Voraussetzung hinzu'
   },
   'add/edit event assigned prerequisites' => {
@@ -74,23 +74,23 @@ our $I18N = {
     'message' => ''
   },
   'add/edit event description' => {
-    'lastUpdated' => 1199975329,
+    'lastUpdated' => '1199975329',
     'message' => 'Beschreibung'
   },
   'add/edit event description description' => {
-    'lastUpdated' => 1199975378,
+    'lastUpdated' => '1199975378',
     'message' => 'Details des Termins z.B. Ort, Zeit und Thema.'
   },
   'add/edit event end date' => {
-    'lastUpdated' => 1199975388,
+    'lastUpdated' => '1199975388',
     'message' => 'Enddatum Termin'
   },
   'add/edit event end date description' => {
-    'lastUpdated' => 1199975412,
+    'lastUpdated' => '1199975412',
     'message' => 'Zeit und Datum, an dem der Termin endet.'
   },
   'add/edit event error' => {
-    'lastUpdated' => 1199975419,
+    'lastUpdated' => '1199975419',
     'message' => 'FEHLER'
   },
   'add/edit event image' => {
@@ -102,15 +102,15 @@ our $I18N = {
     'message' => ''
   },
   'add/edit event maximum attendees' => {
-    'lastUpdated' => 1199975457,
+    'lastUpdated' => '1199975457',
     'message' => 'Maximale Anzahl Teilnehmer'
   },
   'add/edit event maximum attendees description' => {
-    'lastUpdated' => 1199975508,
+    'lastUpdated' => '1199975508',
     'message' => 'Die Anzahl der maximalen Teilnehmer, abgeleitet von Raumgrösse, Personal und anderer Faktoren.'
   },
   'add/edit event metadata field' => {
-    'lastUpdated' => 1199975532,
+    'lastUpdated' => '1199975532',
     'message' => 'Hinzufügen/Editieren Termin Metadaten Feld'
   },
   'add/edit event operator' => {
@@ -122,7 +122,7 @@ our $I18N = {
     'message' => ''
   },
   'add/edit event price description' => {
-    'lastUpdated' => 1199975564,
+    'lastUpdated' => '1199975564',
     'message' => 'Teilnahmekosten.'
   },
   'add/edit event required events' => {
@@ -134,19 +134,19 @@ our $I18N = {
     'message' => ''
   },
   'add/edit event return to manage events' => {
-    'lastUpdated' => 1199975639,
+    'lastUpdated' => '1199975639',
     'message' => 'Zur Verwaltung der Termine zurückkehren'
   },
   'add/edit event start date' => {
-    'lastUpdated' => 1199975663,
+    'lastUpdated' => '1199975663',
     'message' => 'Termin Startdatum'
   },
   'add/edit event start date description' => {
-    'lastUpdated' => 1199975684,
+    'lastUpdated' => '1199975684',
     'message' => 'Zeit und Datum des Terminbeginns.'
   },
   'add/edit event template' => {
-    'lastUpdated' => 1199975693,
+    'lastUpdated' => '1199975693',
     'message' => 'Termin Template'
   },
   'add/edit event template description' => {
@@ -154,15 +154,15 @@ our $I18N = {
     'message' => ''
   },
   'add/edit event title' => {
-    'lastUpdated' => 1199975706,
+    'lastUpdated' => '1199975706',
     'message' => 'Termin Titel'
   },
   'add/edit event title description' => {
-    'lastUpdated' => 1199975730,
+    'lastUpdated' => '1199975730',
     'message' => 'Geben Sie den Namen oder den Titel des Termins ein.'
   },
   'add/edit event what next' => {
-    'lastUpdated' => 1199975744,
+    'lastUpdated' => '1199975744',
     'message' => 'Was kommt als nächstes?'
   },
   'add/edit event what next description' => {
@@ -190,7 +190,7 @@ our $I18N = {
     'message' => ''
   },
   'address' => {
-    'lastUpdated' => 1217254760,
+    'lastUpdated' => '1217254760',
     'message' => 'Adresse'
   },
   'advSearch.formHeader' => {
@@ -1010,7 +1010,7 @@ our $I18N = {
     'message' => ''
   },
   'sku' => {
-    'lastUpdated' => 1226016507,
+    'lastUpdated' => '1226016507',
     'message' => 'Artikelnummer'
   },
   'sku description' => {
@@ -1026,7 +1026,7 @@ our $I18N = {
     'message' => ''
   },
   'sold out' => {
-    'lastUpdated' => 1226016495,
+    'lastUpdated' => '1226016495',
     'message' => 'Ausverkauft'
   },
   'startDate' => {
@@ -1050,11 +1050,11 @@ our $I18N = {
     'message' => ''
   },
   'state' => {
-    'lastUpdated' => 1226016484,
+    'lastUpdated' => '1226016484',
     'message' => 'Zustand'
   },
   'status' => {
-    'lastUpdated' => 1226016467,
+    'lastUpdated' => '1226016467',
     'message' => 'Status'
   },
   'template help title' => {
@@ -1066,19 +1066,19 @@ our $I18N = {
     'message' => ''
   },
   'time zone' => {
-    'lastUpdated' => 1226016412,
+    'lastUpdated' => '1226016412',
     'message' => 'Zeitzone'
   },
   'time zone help' => {
-    'lastUpdated' => 1226016433,
+    'lastUpdated' => '1226016433',
     'message' => 'Wählen Sie die Zeitzone für diesen Termin'
   },
   'timezone help' => {
-    'lastUpdated' => 1226016455,
+    'lastUpdated' => '1226016455',
     'message' => 'Die Zeitzone in der dieser Termin angelegt wurde'
   },
   'title' => {
-    'lastUpdated' => 1164282621,
+    'lastUpdated' => '1164282621',
     'message' => 'Der Name für dieses Ereignis<br />'
   },
   'title.url' => {
@@ -1134,7 +1134,7 @@ our $I18N = {
     'message' => ''
   },
   'user' => {
-    'lastUpdated' => 1226016338,
+    'lastUpdated' => '1226016338',
     'message' => 'Nutzer'
   },
   'userId' => {
@@ -1178,11 +1178,11 @@ our $I18N = {
     'message' => ''
   },
   'yes' => {
-    'lastUpdated' => 1217254700,
+    'lastUpdated' => '1217254700',
     'message' => 'ja'
   },
   'you' => {
-    'lastUpdated' => 1226016282,
+    'lastUpdated' => '1226016282',
     'message' => 'Sie'
   },
   'you do not have any events to display' => {
@@ -1194,11 +1194,11 @@ our $I18N = {
     'message' => ''
   },
   'zip code' => {
-    'lastUpdated' => 1226016298,
+    'lastUpdated' => '1226016298',
     'message' => 'Postleitzahl'
   },
   'zipcode' => {
-    'lastUpdated' => 1226016320,
+    'lastUpdated' => '1226016320',
     'message' => 'Die Postleitzahl des Nutzers'
   }
 }

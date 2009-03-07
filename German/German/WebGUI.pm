@@ -1958,8 +1958,8 @@ our $I18N = {
     'message' => 'Das Passwort mittels dessen Sie sich mit der Datenbank verbinden.<br />'
   },
   '< prev' => {
-    'lastUpdated' => '1227566413',
-    'message' => '&amp;lt; zurück'
+    'lastUpdated' => '1236425983',
+    'message' => '< zurück'
   },
   'About Us' => {
     'lastUpdated' => '1224798062',
@@ -2663,8 +2663,8 @@ Kopieren Sie ggf. Dateien und fügen Sie diese in den Editor ein.'
     'message' => 'Dargestellt im Klartext um Eingabe überpr&uuml;fen zu können.'
   },
   'permissions' => {
-    'lastUpdated' => '1193133245',
-    'message' => 'Erlaubnis'
+    'lastUpdated' => '1236424551',
+    'message' => 'Rechte'
   },
   'personal info short' => {
     'lastUpdated' => '1227566552',
@@ -3244,16 +3244,16 @@ Kopieren Sie ggf. Dateien und fügen Sie diese in den Editor ein.'
     'message' => 'Wollen Sie, dass Sie von jemand anderem als Freund eingetragen werden.'
   },
   'user profile field private message allow label' => {
-    'lastUpdated' => '1216639213',
-    'message' => 'Jedem erlauben'
+    'lastUpdated' => '1236436981',
+    'message' => 'Jeder'
   },
   'user profile field private message allow none label' => {
-    'lastUpdated' => '1216639226',
-    'message' => 'Niemandem erlauben'
+    'lastUpdated' => '1236437006',
+    'message' => 'Niemand'
   },
   'user profile field private message friends only label' => {
-    'lastUpdated' => '1216639240',
-    'message' => 'Nur meinen Freunden erlauben'
+    'lastUpdated' => '1236437025',
+    'message' => 'Freund'
   },
   'user profile view template' => {
     'lastUpdated' => '1216639256',
