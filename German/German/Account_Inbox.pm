@@ -230,8 +230,8 @@ our $I18N = {
     'message' => 'Diese Variable ist wahr, falls der Benutzer zugestimmt hat, Einladungen zu Kontaktnetzwerken zu empfangen.'
   },
   'invite a friend' => {
-    'lastUpdated' => '1232886627',
-    'message' => 'Laden Sie einen Bekannten ein, sich auf dieser Webseite anzumelden.'
+    'lastUpdated' => '1236437138',
+    'message' => 'Laden Sie einen Bekannten ein'
   },
   'invite message' => {
     'lastUpdated' => '1233555575',
