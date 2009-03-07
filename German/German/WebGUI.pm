@@ -2151,8 +2151,8 @@ Kopieren Sie ggf. Dateien und fügen Sie diese in den Editor ein.'
     'message' => 'Dürfen Makros auf diese Datenbankverbindung zugreifen?'
   },
   'allow private messages label' => {
-    'lastUpdated' => '1199973377',
-    'message' => 'Erlaube private Nachrichten'
+    'lastUpdated' => '1236450744',
+    'message' => 'Private Nachrichten erlauben'
   },
   'allowed keywords' => {
     'lastUpdated' => '1178547258',
@@ -3240,8 +3240,8 @@ Kopieren Sie ggf. Dateien und fügen Sie diese in den Editor ein.'
     'message' => '<p>Template für die Anzeige eines Formulars zum Bearbeiten des eigenen Benutzerprofills</p>'
   },
   'user profile field friend availability' => {
-    'lastUpdated' => '1216639357',
-    'message' => 'Wollen Sie, dass Sie von jemand anderem als Freund eingetragen werden.'
+    'lastUpdated' => '1236450804',
+    'message' => 'Wollen Sie von anderen als Freund eingetragen werden können?'
   },
   'user profile field private message allow label' => {
     'lastUpdated' => '1236436981',

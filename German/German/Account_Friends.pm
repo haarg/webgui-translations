@@ -130,8 +130,8 @@ our $I18N = {
     'message' => 'Darstellungs-Vorlage'
   },
   'member since' => {
-    'lastUpdated' => '1228754178',
-    'message' => 'Mitglied seit'
+    'lastUpdated' => '1236448665',
+    'message' => 'Registriert seit dem'
   },
   'message sent label' => {
     'lastUpdated' => '1229283609',
