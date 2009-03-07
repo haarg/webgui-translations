@@ -2151,8 +2151,8 @@ Kopieren Sie ggf. Dateien und fügen Sie diese in den Editor ein.'
     'message' => 'Dürfen Makros auf diese Datenbankverbindung zugreifen?'
   },
   'allow private messages label' => {
-    'lastUpdated' => '1236450744',
-    'message' => 'Private Nachrichten erlauben'
+    'lastUpdated' => '1236450965',
+    'message' => 'Private Nachrichten erlauben?'
   },
   'allowed keywords' => {
     'lastUpdated' => '1178547258',
