@@ -58,8 +58,8 @@ our $I18N = {
     'message' => '%s wurde von Ihrer Freunde-Liste entfernt.'
   },
   'friends as others label' => {
-    'lastUpdated' => '1228754366',
-    'message' => 'Meine Freunde betrachten, wie sie von anderen gesehen werden'
+    'lastUpdated' => '1236446690',
+    'message' => 'Freunde betrachten wie von den anderen gesehen'
   },
   'friends confirm template hoverHelp' => {
     'lastUpdated' => '1229283707',
@@ -166,16 +166,16 @@ our $I18N = {
     'message' => 'Ja, diesen Benutzer löschen.'
   },
   'remove from friends label' => {
-    'lastUpdated' => '1229283495',
-    'message' => 'Aus dem Freunde-Netzwerk löschen'
+    'lastUpdated' => '1236448563',
+    'message' => 'Freund löschen'
   },
   'send invite button label' => {
     'lastUpdated' => '1228754271',
     'message' => 'Einladung schicken'
   },
   'send private message label' => {
-    'lastUpdated' => '1228691928',
-    'message' => 'Private Nachricht senden'
+    'lastUpdated' => '1236448550',
+    'message' => 'Nachricht senden'
   },
   'sending to message' => {
     'lastUpdated' => '1229283547',

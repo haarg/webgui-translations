@@ -970,8 +970,8 @@ our $I18N = {
     'message' => 'Auswahl Box'
   },
   493 => {
-    'lastUpdated' => '1178617442',
-    'message' => 'Zurück zur Seite.'
+    'lastUpdated' => '1236445693',
+    'message' => 'Zurück zur Seite'
   },
   496 => {
     'lastUpdated' => '1178617454',
@@ -1066,8 +1066,8 @@ our $I18N = {
     'message' => 'Karma'
   },
   538 => {
-    'lastUpdated' => '1178617546',
-    'message' => 'Karma Grenzwert'
+    'lastUpdated' => '1236445714',
+    'message' => 'Karma-Grenzwert'
   },
   '538 description' => {
     'lastUpdated' => '1178617571',
@@ -1146,8 +1146,8 @@ our $I18N = {
     'message' => 'Wenn hier ein Workflow gewählt wird, so wird dieser immer dann ausgeführt, falls sich ein neuer Benutzer anonym registriert. '
   },
   56 => {
-    'lastUpdated' => '1178617635',
-    'message' => 'Email Adresse'
+    'lastUpdated' => '1236445728',
+    'message' => 'E-Mailadresse'
   },
   '56 description' => {
     'lastUpdated' => '1178195228',
@@ -3252,8 +3252,8 @@ Kopieren Sie ggf. Dateien und fügen Sie diese in den Editor ein.'
     'message' => 'Niemand'
   },
   'user profile field private message friends only label' => {
-    'lastUpdated' => '1236437025',
-    'message' => 'Freund'
+    'lastUpdated' => '1236439517',
+    'message' => 'Freunde'
   },
   'user profile view template' => {
     'lastUpdated' => '1216639256',
