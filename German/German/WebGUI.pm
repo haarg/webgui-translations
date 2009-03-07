@@ -2115,8 +2115,8 @@ Kopieren Sie ggf. Dateien und fügen Sie diese in den Editor ein.'
     'message' => 'Account Optionen Template Variablen'
   },
   'account settings tab' => {
-    'lastUpdated' => '1227566475',
-    'message' => 'Konto'
+    'lastUpdated' => '1236437648',
+    'message' => 'Konten'
   },
   'account.options' => {
     'lastUpdated' => '1217235376',

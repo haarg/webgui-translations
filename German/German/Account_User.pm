@@ -6,8 +6,8 @@ our $I18N = {
     'message' => '<b>Den Stilvorlage für dieses Modul finden Sie in den Einstellungen unter Authentifizierung.</b>'
   },
   'title' => {
-    'lastUpdated' => '1233561953',
-    'message' => 'Authentifizierung'
+    'lastUpdated' => '1236437594',
+    'message' => 'Anmeldung'
   },
   'user layout template body' => {
     'lastUpdated' => '1233562722',
