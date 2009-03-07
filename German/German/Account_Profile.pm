@@ -54,8 +54,8 @@ our $I18N = {
     'message' => 'Wählen Sie die Hauptvorlage, um ein Profil zu bearbeiten'
   },
   'profile edit template label' => {
-    'lastUpdated' => '1233942590',
-    'message' => 'Bearbeitungsschablone'
+    'lastUpdated' => '1236454988',
+    'message' => 'Vorlage Bearbeitung'
   },
   'profile error template hoverHelp' => {
     'lastUpdated' => '1228751380',
@@ -90,8 +90,8 @@ our $I18N = {
     'message' => 'Wählen Sie die Hauptvorlage, um ein Profil anzuzeigen'
   },
   'profile view template label' => {
-    'lastUpdated' => '1233942555',
-    'message' => 'Anzeigeschablone'
+    'lastUpdated' => '1236454999',
+    'message' => 'Vorlage Darstellung'
   },
   'public label' => {
     'lastUpdated' => '1228751140',

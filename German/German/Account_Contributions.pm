@@ -26,12 +26,12 @@ our $I18N = {
     'message' => 'Die Vorlage zur Anzeige der Beiträge des aktuellen Benutzers.'
   },
   'contrib view template label' => {
-    'lastUpdated' => '1233943686',
-    'message' => 'Anzeigeschablone'
+    'lastUpdated' => '1236454809',
+    'message' => 'Vorlage Darstellung'
   },
   'contribution count' => {
-    'lastUpdated' => '1233561629',
-    'message' => 'Anzahl Beiträge'
+    'lastUpdated' => '1236455869',
+    'message' => 'Beiträge'
   },
   'contributions_loop' => {
     'lastUpdated' => '1233560656',

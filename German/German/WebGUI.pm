@@ -3107,8 +3107,8 @@ Kopieren Sie ggf. Dateien und fügen Sie diese in den Editor ein.'
     'message' => 'Wie oft soll ein Benutzer die Anmeldenachricht sehen'
   },
   'showMessageOnLoginTimes label' => {
-    'lastUpdated' => '1217236101',
-    'message' => '<p>Wie oft Anmeldenachricht zeigen</p>'
+    'lastUpdated' => '1236451784',
+    'message' => 'Anmeldenachricht wie oft zeigen?'
   },
   'site starter body' => {
     'lastUpdated' => '1224798880',

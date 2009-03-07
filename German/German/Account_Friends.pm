@@ -66,24 +66,24 @@ our $I18N = {
     'message' => 'Wählen Sie eine Vorlage für die Bestätigung, dass eine Einladung in das Freunde-Netzwerk versandt wurde!'
   },
   'friends confirm template label' => {
-    'lastUpdated' => '1229281323',
-    'message' => 'Versandbestätigungs-Vorlage'
+    'lastUpdated' => '1236454951',
+    'message' => 'Vorlage Versandbestätigung'
   },
   'friends edit template hoverHelp' => {
     'lastUpdated' => '1229283719',
     'message' => 'Wählen Sie die Vorlage zur Bearbeitung Ihrer Freunde!'
   },
   'friends edit template label' => {
-    'lastUpdated' => '1229280969',
-    'message' => 'Bearbeitungs-Vorlage'
+    'lastUpdated' => '1236454888',
+    'message' => 'Vorlage Bearbeitung'
   },
   'friends error template hoverHelp' => {
     'lastUpdated' => '1229282802',
     'message' => 'Wählen Sie eine Vorlage zur Anzeige von Fehlermeldungen!'
   },
   'friends error template label' => {
-    'lastUpdated' => '1229280939',
-    'message' => 'Fehlermeldungs-Vorlage'
+    'lastUpdated' => '1236454905',
+    'message' => 'Vorlage Fehlermeldung'
   },
   'friends is off' => {
     'lastUpdated' => '1229277515',
@@ -102,32 +102,32 @@ our $I18N = {
     'message' => 'Wählen Sie eine Vorlage zur Anzeige von Bestätigungsmeldungen für die Entfernung eines Freundes.'
   },
   'friends remove confirm template label' => {
-    'lastUpdated' => '1229280839',
-    'message' => 'Entfernungsbestätigungs-Vorlage'
+    'lastUpdated' => '1236454942',
+    'message' => 'Vorlage Entfernungsbestätigung'
   },
   'friends send request template hoverHelp' => {
     'lastUpdated' => '1229282684',
     'message' => 'Wählen Sie die Vorlage für den Versand von Freundschaftsanfragen!'
   },
   'friends send request template label' => {
-    'lastUpdated' => '1229282579',
-    'message' => 'Freundschaftsanfragen-Vorlage'
+    'lastUpdated' => '1236454866',
+    'message' => 'Vorlage Freundschaftsanfragen'
   },
   'friends style template hoverHelp' => {
-    'lastUpdated' => '1229283770',
-    'message' => 'Wählen Sie eine Stil-Vorlage für die Darstellung der umgebenden Seite!'
+    'lastUpdated' => '1236454926',
+    'message' => 'Wählen Sie eine Stilvorlage für die Darstellung der umgebenden Seite!'
   },
   'friends style template label' => {
-    'lastUpdated' => '1229280811',
-    'message' => 'Stil-Vorlage'
+    'lastUpdated' => '1236454841',
+    'message' => 'Stilvorlage'
   },
   'friends view template hoverHelp' => {
     'lastUpdated' => '1229283759',
     'message' => 'Wählen Sie die primäre Vorlage zur Darstellung von Freunden!'
   },
   'friends view template label' => {
-    'lastUpdated' => '1229281388',
-    'message' => 'Darstellungs-Vorlage'
+    'lastUpdated' => '1236454832',
+    'message' => 'Vorlage Darstellung'
   },
   'member since' => {
     'lastUpdated' => '1236448665',
