@@ -8,6 +8,22 @@ our $I18N = {
   'back label' => {
     'lastUpdated' => '1235497846',
     'message' => "\x{41d}\x{430}\x{437}\x{430}\x{434} \x{432}\x{43e} \x{412}\x{445}\x{43e}\x{434}\x{44f}\x{449}\x{438}\x{435}"
+  },
+  'cancel label' => {
+    'lastUpdated' => '1236467395',
+    'message' => "\x{41e}\x{442}\x{43c}\x{435}\x{43d}\x{438}\x{442}\x{44c}"
+  },
+  'delete label' => {
+    'lastUpdated' => '1236467405',
+    'message' => "\x{423}\x{434}\x{430}\x{43b}\x{438}\x{442}\x{44c}"
+  },
+  'invitation label' => {
+    'lastUpdated' => '1236467465',
+    'message' => "\x{423}\x{432}\x{435}\x{434}\x{43e}\x{43c}\x{43b}\x{435}\x{43d}\x{438}\x{435}"
+  },
+  'title' => {
+    'lastUpdated' => '1236466478',
+    'message' => "\x{412}\x{445}\x{43e}\x{434}\x{44f}\x{449}\x{438}\x{435}"
   }
 }
 ;
