@@ -33,6 +33,10 @@ our $I18N = {
     'lastUpdated' => '1235898045',
     'message' => "\x{41c}\x{43e}\x{434}\x{435}\x{440}\x{430}\x{442}\x{43e}\x{440}\x{44b} \x{43a}\x{43e}\x{43c}\x{43c}\x{435}\x{43d}\x{442}\x{430}\x{440}\x{438}\x{435}\x{432}"
   },
+  'imageDensity label' => {
+    'lastUpdated' => '1236530058',
+    'message' => "\x{421}\x{442}\x{435}\x{43f}\x{435}\x{43d}\x{44c} \x{441}\x{436}\x{430}\x{442}\x{438}\x{44f}"
+  },
   'imageResolutions label' => {
     'lastUpdated' => '1235898072',
     'message' => "\x{420}\x{430}\x{437}\x{440}\x{435}\x{448}\x{435}\x{43d}\x{438}\x{435} \x{438}\x{437}\x{43e}\x{431}\x{440}\x{430}\x{436}\x{435}\x{43d}\x{438}\x{44f} \x{432} \x{43f}\x{438}\x{43a}\x{441}\x{435}\x{43b}\x{44f}\x{445}"
@@ -92,6 +96,34 @@ our $I18N = {
   'templateIdEditAlbum label' => {
     'lastUpdated' => '1235898620',
     'message' => "\x{428}\x{430}\x{431}\x{43b}\x{43e}\x{43d} \x{434}\x{43b}\x{44f} \x{440}\x{435}\x{434}\x{430}\x{43a}\x{442}\x{438}\x{440}\x{43e}\x{432}\x{430}\x{43d}\x{438}\x{44f} \x{430}\x{43b}\x{44c}\x{431}\x{43e}\x{43c}\x{430}"
+  },
+  'templateIdSearch label' => {
+    'lastUpdated' => '1236530400',
+    'message' => "\x{428}\x{430}\x{431}\x{43b}\x{43e}\x{43d} \x{434}\x{43b}\x{44f} \x{43f}\x{43e}\x{438}\x{441}\x{43a}\x{430}"
+  },
+  'templateIdViewAlbum label' => {
+    'lastUpdated' => '1236530382',
+    'message' => "\x{428}\x{430}\x{431}\x{43b}\x{43e}\x{43d} \x{43e}\x{442}\x{43e}\x{431}\x{440}\x{430}\x{436}\x{435}\x{43d}\x{438}\x{44f} \x{430}\x{43b}\x{44c}\x{431}\x{43e}\x{43c}\x{430}"
+  },
+  'templateIdViewFile description' => {
+    'lastUpdated' => '1236530341',
+    'message' => "\x{41f}\x{440}\x{43e}\x{441}\x{43c}\x{43e}\x{442}\x{440} \x{432}\x{441}\x{435}\x{445} \x{43f}\x{43e}\x{434}\x{440}\x{43e}\x{431}\x{43d}\x{43e}\x{441}\x{442}\x{435}\x{439} \x{438} \x{43a}\x{43e}\x{43c}\x{43c}\x{435}\x{43d}\x{442}\x{430}\x{440}\x{438}\x{435}\x{432}."
+  },
+  'templateIdViewFile label' => {
+    'lastUpdated' => '1236530280',
+    'message' => "\x{428}\x{430}\x{431}\x{43b}\x{43e}\x{43d} \x{434}\x{43b}\x{44f} \x{43f}\x{440}\x{43e}\x{441}\x{43c}\x{43e}\x{442}\x{440}\x{430} \x{444}\x{430}\x{439}\x{43b}\x{430}"
+  },
+  'templateIdViewSlideshow label' => {
+    'lastUpdated' => '1236530251',
+    'message' => "\x{428}\x{430}\x{431}\x{43b}\x{43e}\x{43d} \x{434}\x{43b}\x{44f} \x{441}\x{43b}\x{430}\x{439}\x{434}\x{448}\x{43e}\x{443}"
+  },
+  'templateIdViewThumbnails description' => {
+    'lastUpdated' => '1236530218',
+    'message' => "\x{41e}\x{442}\x{43e}\x{431}\x{440}\x{430}\x{436}\x{430}\x{435}\x{442} \x{432}\x{441}\x{435} \x{43a}\x{430}\x{440}\x{442}\x{438}\x{43d}\x{43a}\x{438} \x{430}\x{43b}\x{44c}\x{431}\x{43e}\x{43c}\x{430} \x{432} \x{432}\x{438}\x{434} \x{43c}\x{438}\x{43d}\x{438}\x{430}\x{442}\x{44e}\x{440}."
+  },
+  'templateIdViewThumbnails label' => {
+    'lastUpdated' => '1236530104',
+    'message' => "\x{428}\x{430}\x{431}\x{43b}\x{43e}\x{43d} \x{434}\x{43b}\x{44f} \x{43c}\x{438}\x{43d}\x{438}\x{430}\x{442}\x{44e}\x{440}"
   },
   'viewAlbumAssetId description' => {
     'lastUpdated' => '1235898656',
