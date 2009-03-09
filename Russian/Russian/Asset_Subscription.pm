@@ -29,6 +29,14 @@ our $I18N = {
     'lastUpdated' => '1236356187',
     'message' => "\x{421}\x{43e}\x{441}\x{442}\x{43e}\x{44f}\x{43d}\x{438}\x{435}"
   },
+  'subscription name' => {
+    'lastUpdated' => '1236611658',
+    'message' => "\x{41d}\x{430}\x{437}\x{432}\x{430}\x{43d}\x{438}\x{435} \x{43f}\x{43e}\x{434}\x{43f}\x{438}\x{441}\x{43a}\x{438}"
+  },
+  'subscription price' => {
+    'lastUpdated' => '1236611677',
+    'message' => "\x{426}\x{435}\x{43d}\x{430}"
+  },
   'topicName' => {
     'lastUpdated' => '1236356342',
     'message' => "\x{41f}\x{43e}\x{434}\x{43f}\x{438}\x{441}\x{43a}\x{430}"
