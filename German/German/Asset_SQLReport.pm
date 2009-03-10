@@ -1,68 +1,68 @@
 package WebGUI::i18n::German::Asset_SQLReport;
 use utf8;
 our $I18N = {
-  '10' => {
-    'lastUpdated' => 1225586361,
+  10 => {
+    'lastUpdated' => '1225586361',
     'message' => 'Fehler: SQL Befehl hat ein falsches Format'
   },
-  '11' => {
-    'lastUpdated' => 1225586393,
+  11 => {
+    'lastUpdated' => '1225586393',
     'message' => 'Fehler: Es gab ein Problem mit der Abfrage.'
   },
-  '12' => {
-    'lastUpdated' => 1225586426,
+  12 => {
+    'lastUpdated' => '1225586426',
     'message' => 'Fehler: Keine Verbindung mit der Datenbank.'
   },
-  '14' => {
-    'lastUpdated' => 1225586449,
+  14 => {
+    'lastUpdated' => '1225586449',
     'message' => 'Seitenwechsel nach'
   },
   '14 description' => {
-    'lastUpdated' => 1225586605,
+    'lastUpdated' => '1225586605',
     'message' => 'Wieviele Zeilen sollten angezeigt werden bevor die Ergebnisse in mehrere Seiten aufgeteilt werden? Oder: wieviele Zeilen pro Seite?'
   },
-  '15' => {
-    'lastUpdated' => 1225586675,
+  15 => {
+    'lastUpdated' => '1225586675',
     'message' => 'Macros bearbeiten bevor Abfrage ausgeführt wird?'
   },
   '15 description' => {
-    'lastUpdated' => 1230371406,
+    'lastUpdated' => '1230371406',
     'message' => 'Wenn Sie in Ihrer Abfrage WebGUI-Makros benutzen, dann müssen Sie dieses K&euro;ästchen markieren'
   },
-  '16' => {
-    'lastUpdated' => 1225586695,
+  16 => {
+    'lastUpdated' => '1225586695',
     'message' => 'Debug einschalten?'
   },
   '16 description' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => '1236680537',
+    'message' => 'Wenn Sie Debug-Info angezeigt bekommen möchten, aktivieren Sie diesen Knopf.'
   },
-  '17' => {
-    'lastUpdated' => 1225586708,
+  17 => {
+    'lastUpdated' => '1225586708',
     'message' => 'Abfrage'
   },
-  '18' => {
-    'lastUpdated' => 1225586741,
+  18 => {
+    'lastUpdated' => '1225586741',
     'message' => 'Die Abfrage lieferte keine Ergebnisse.'
   },
-  '4' => {
-    'lastUpdated' => 1225586750,
+  4 => {
+    'lastUpdated' => '1225586750',
     'message' => 'Abfrage'
   },
   '4 description' => {
     'lastUpdated' => undef,
     'message' => ''
   },
-  '72' => {
-    'lastUpdated' => 1225586769,
+  72 => {
+    'lastUpdated' => '1225586769',
     'message' => 'SQL-Report Vorlage'
   },
   '72 description' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => '1236680589',
+    'message' => 'Selektieren Sie ein Vorlage für die Anzeige des SQL-Reports'
   },
-  '8' => {
-    'lastUpdated' => 1225586810,
+  8 => {
+    'lastUpdated' => '1225586810',
     'message' => 'SQL Report bearbeiten'
   },
   'Add another query' => {
@@ -94,7 +94,7 @@ our $I18N = {
     'message' => ''
   },
   'assetName' => {
-    'lastUpdated' => 1157856414,
+    'lastUpdated' => '1157856414',
     'message' => 'SQL-Report<br />'
   },
   'cache timeout' => {
@@ -354,7 +354,7 @@ our $I18N = {
     'message' => ''
   },
   'sql report asset template variables title' => {
-    'lastUpdated' => 1170408024,
+    'lastUpdated' => '1170408024',
     'message' => 'SQL-Report Asset Template Variablen'
   },
   'templateId' => {

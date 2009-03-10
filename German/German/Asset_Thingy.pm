@@ -33,6 +33,10 @@ our $I18N = {
     'lastUpdated' => '1227012451',
     'message' => 'Thingy'
   },
+  'back to thingy default view' => {
+    'lastUpdated' => '1236680661',
+    'message' => 'Zurück zur Thingy Standard-Anzeige'
+  },
   'default save button label' => {
     'lastUpdated' => '1227001838',
     'message' => 'Sichern'
@@ -40,6 +44,12 @@ our $I18N = {
   'default thing label' => {
     'lastUpdated' => '1227001824',
     'message' => 'Standardtabelle'
+  },
+  'default value description' => {
+    'lastUpdated' => '1236680887',
+    'message' => 'Geben Sie ggf. einen Standardwert für dieses Feld ein.
+Wenn Sie einen Hash mit möglichen Werten definiert haben, dann soll der Standardwert ein Schlüssel dieses Hashes sein und kein Wert.
+Bei "Ja/Nein" Feldern, geben Sie "yes" für "Ja" und "no" für "Nein" ein.'
   },
   'default value label' => {
     'lastUpdated' => '1227001811',
@@ -77,6 +87,22 @@ our $I18N = {
     'lastUpdated' => '1234944683',
     'message' => 'Bezeichnung'
   },
+  'field_value' => {
+    'lastUpdated' => '1236681150',
+    'message' => 'Der Wert dieses Feldes'
+  },
+  'form_submit' => {
+    'lastUpdated' => '1236681187',
+    'message' => 'Abschicken'
+  },
+  'is required error' => {
+    'lastUpdated' => '1236681213',
+    'message' => 'ist erforderlich'
+  },
+  'listOfThings' => {
+    'lastUpdated' => '1236681129',
+    'message' => 'Eine Schleife mit einer Liste aller Tabellen in diesem Thingy-Objekt'
+  },
   'manage things label' => {
     'lastUpdated' => '1227002328',
     'message' => 'Tabellen verwalten'
@@ -93,12 +119,24 @@ our $I18N = {
     'lastUpdated' => '1227001661',
     'message' => 'Suchen'
   },
+  'search description label' => {
+    'lastUpdated' => '1236680931',
+    'message' => 'Beschreibung'
+  },
   'search label' => {
     'lastUpdated' => '1227001649',
     'message' => 'Suchen'
   },
+  'search screen title label' => {
+    'lastUpdated' => '1236681058',
+    'message' => 'Suchen'
+  },
   'search thing label' => {
     'lastUpdated' => '1227001639',
+    'message' => 'Suchen'
+  },
+  'searchScreenTitle' => {
+    'lastUpdated' => '1236680990',
     'message' => 'Suchen'
   },
   'size description' => {
