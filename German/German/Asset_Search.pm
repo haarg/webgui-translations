@@ -42,7 +42,7 @@ our $I18N = {
     'message' => 'Keine Suchergebnisse.'
   },
   'no_results' => {
-    'lastUpdated' => '1199979135',
+    'lastUpdated' => '1236680245',
     'message' => 'Ein internationalisiertes Label, das dem Benutzer mitteilt, dass keine Suchergebnisse vorliegen.'
   },
   'of' => {
