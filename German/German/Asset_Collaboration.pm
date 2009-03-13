@@ -182,8 +182,8 @@ our $I18N = {
     'message' => 'Das Wort "Close".'
   },
   'closed' => {
-    'lastUpdated' => '1179745285',
-    'message' => 'Geschloßen '
+    'lastUpdated' => '1236959300',
+    'message' => 'Abgeschlossen '
   },
   'closed.label' => {
     'lastUpdated' => '1179745299',
@@ -223,8 +223,8 @@ our $I18N = {
     'message' => 'Kompensation'
   },
   'compensation.label' => {
-    'lastUpdated' => '1179751106',
-    'message' => 'Das Wort "Compensation".'
+    'lastUpdated' => '1236959323',
+    'message' => 'Kompensation'
   },
   'content' => {
     'lastUpdated' => '1179751132',
@@ -671,8 +671,8 @@ our $I18N = {
     'message' => 'Sperren'
   },
   'lock.label' => {
-    'lastUpdated' => '1179754965',
-    'message' => 'Das Wort "Lock".'
+    'lastUpdated' => '1236959342',
+    'message' => 'Sperren'
   },
   'mail' => {
     'lastUpdated' => '1179754994',
@@ -763,8 +763,8 @@ our $I18N = {
     'message' => 'Nächstes'
   },
   'next.label' => {
-    'lastUpdated' => '1179755692',
-    'message' => 'Das Wort "Next".'
+    'lastUpdated' => '1236959376',
+    'message' => 'Nächster'
   },
   'notification template' => {
     'lastUpdated' => '1179755715',
@@ -883,8 +883,8 @@ our $I18N = {
     'message' => 'mehr...'
   },
   'readmore.label' => {
-    'lastUpdated' => '1179758399',
-    'message' => 'Die Phrase "Read More".'
+    'lastUpdated' => '1236959744',
+    'message' => 'mehr...'
   },
   'rejected' => {
     'lastUpdated' => '1179758429',
@@ -899,20 +899,20 @@ our $I18N = {
     'message' => 'Sie dürfen keine Nachrichten posten, da Sie entweder nicht die nötigen Rechte besitzen oder diese Diskussion nicht abonniert haben.'
   },
   'replies' => {
-    'lastUpdated' => '1179758669',
+    'lastUpdated' => '1236959764',
     'message' => 'Antworten'
   },
   'replies.label' => {
-    'lastUpdated' => '1179758680',
-    'message' => 'Das Wort "Replies".'
+    'lastUpdated' => '1236959795',
+    'message' => 'Reaktionen'
   },
   'reply' => {
     'lastUpdated' => '1179758688',
     'message' => 'Antwort'
   },
   'reply.label' => {
-    'lastUpdated' => '1179758700',
-    'message' => 'Das Wort "Reply".'
+    'lastUpdated' => '1236959725',
+    'message' => 'Antwort'
   },
   'require subscription for email posting' => {
     'lastUpdated' => '1179758756',
@@ -923,12 +923,12 @@ our $I18N = {
     'message' => 'Falls hier "Ja" gesetzt ist, muss sich der Benutzer nicht nur in der richtigen Gruppe befinden, sondern auch das Collaboration System oder den Thread abonnieren, um posten zu können.'
   },
   'responses' => {
-    'lastUpdated' => '1179818223',
-    'message' => 'Benutzerantworten'
+    'lastUpdated' => '1236959698',
+    'message' => 'Reaktionen'
   },
   'responses.label' => {
-    'lastUpdated' => '1179818235',
-    'message' => 'Das Wort "Responses".'
+    'lastUpdated' => '1236959682',
+    'message' => 'Reaktionen'
   },
   'rich editor' => {
     'lastUpdated' => '1179818246',
@@ -975,12 +975,12 @@ our $I18N = {
     'message' => 'Sequenz'
   },
   'severity' => {
-    'lastUpdated' => '1180076622',
-    'message' => '"Severity"'
+    'lastUpdated' => '1236959634',
+    'message' => 'Priorität'
   },
   'severity.label' => {
-    'lastUpdated' => '1179818533',
-    'message' => 'Das Wort "Severity".'
+    'lastUpdated' => '1236959647',
+    'message' => 'Priorität'
   },
   'sort by' => {
     'lastUpdated' => '1179818544',
@@ -1035,8 +1035,8 @@ our $I18N = {
     'message' => 'Status'
   },
   'status.label' => {
-    'lastUpdated' => '1179818935',
-    'message' => 'Das Wort "Status".'
+    'lastUpdated' => '1236959396',
+    'message' => 'Status'
   },
   'stick.label' => {
     'lastUpdated' => '1179818959',
@@ -1051,8 +1051,8 @@ our $I18N = {
     'message' => 'Betreff'
   },
   'subject.label' => {
-    'lastUpdated' => '1179818985',
-    'message' => 'Das Wort "Subject".'
+    'lastUpdated' => '1236959605',
+    'message' => 'Betreff'
   },
   'submission.header.label' => {
     'lastUpdated' => '1179818998',
@@ -1063,8 +1063,8 @@ our $I18N = {
     'message' => 'Abonnieren'
   },
   'subscribe.label' => {
-    'lastUpdated' => '1179819016',
-    'message' => 'Das Wort "Subscribe".'
+    'lastUpdated' => '1236959592',
+    'message' => 'Abonnieren'
   },
   'subscribe.url' => {
     'lastUpdated' => '1179819071',
@@ -1084,8 +1084,8 @@ our $I18N = {
     'message' => 'Zusammenfassung'
   },
   'synopsis.label' => {
-    'lastUpdated' => '1179819093',
-    'message' => 'Das Wort "Summary".'
+    'lastUpdated' => '1236959576',
+    'message' => 'Zusammenfassung'
   },
   'system template' => {
     'lastUpdated' => '1179819109',
@@ -1132,8 +1132,8 @@ our $I18N = {
     'message' => 'Setzt die Größe von Thumbnails für dieses Collaboration System. Falls hier auf 0 gesetzt, wird die Standard Einstellung benutzt. Au&szlig;erdem wird die Gr&ouml;&szlig;e der schon im CS enthaltenen Thumbnails nicht nachträglich ge&auml;ndert, falls Sie hier einen anderen Wert setzen. Wollen Sie dies, m&uuml;&szlig;en Sie die schon vorhandenen Thumbnails nochmal speichern.'
   },
   'thumbnail.label' => {
-    'lastUpdated' => '1179819483',
-    'message' => 'Das Wort "Thumbnail".'
+    'lastUpdated' => '1236959558',
+    'message' => 'Thumbnail'
   },
   'timeSubmitted.human' => {
     'lastUpdated' => '1179819517',
@@ -1148,8 +1148,8 @@ our $I18N = {
     'message' => 'Titel'
   },
   'title.label' => {
-    'lastUpdated' => '1179819572',
-    'message' => 'Das Wort "Title".'
+    'lastUpdated' => '1236959406',
+    'message' => 'Titel'
   },
   'tmplVar status' => {
     'lastUpdated' => '1179819586',
@@ -1172,12 +1172,12 @@ our $I18N = {
     'message' => 'Archivieren rückgängig machen'
   },
   'unlock' => {
-    'lastUpdated' => '1179819739',
-    'message' => 'Sperren rückgängig machen'
+    'lastUpdated' => '1236959530',
+    'message' => 'Entsperren'
   },
   'unlock.label' => {
-    'lastUpdated' => '1179819757',
-    'message' => 'Das Wort "Unlock".'
+    'lastUpdated' => '1236959505',
+    'message' => 'Entsperren'
   },
   'unstick' => {
     'lastUpdated' => '1180076597',
@@ -1192,8 +1192,8 @@ our $I18N = {
     'message' => 'Abbestellen'
   },
   'unsubscribe.label' => {
-    'lastUpdated' => '1179819818',
-    'message' => 'Das Wort "Unsubscribe".'
+    'lastUpdated' => '1236959420',
+    'message' => 'Abbestellen'
   },
   'unsubscribe.url' => {
     'lastUpdated' => '1179819851',
@@ -1204,8 +1204,8 @@ our $I18N = {
     'message' => 'URL'
   },
   'url.label' => {
-    'lastUpdated' => '1179819867',
-    'message' => 'Das Wort "URL".'
+    'lastUpdated' => '1236959486',
+    'message' => 'URL'
   },
   'use captcha hover help' => {
     'lastUpdated' => '1193051884',
@@ -1273,8 +1273,8 @@ bevor diesen erlaubt wird in das Collaboration System zu posten.'
     'message' => 'Bedingung, die wahr ist, falls der Poster ein Visitor ist.'
   },
   'user.label' => {
-    'lastUpdated' => '1179820888',
-    'message' => 'Das Wort "Benutzer".'
+    'lastUpdated' => '1236959450',
+    'message' => 'Benutzer'
   },
   'userProfile.url' => {
     'lastUpdated' => '1179820907',
@@ -1285,8 +1285,8 @@ bevor diesen erlaubt wird in das Collaboration System zu posten.'
     'message' => 'Ansichten'
   },
   'views.label' => {
-    'lastUpdated' => '1179820925',
-    'message' => 'Das Wort "Views".'
+    'lastUpdated' => '1236959439',
+    'message' => 'Ansichten'
   },
   'visitor' => {
     'lastUpdated' => '1179820932',
@@ -1301,8 +1301,8 @@ bevor diesen erlaubt wird in das Collaboration System zu posten.'
     'message' => 'Alle Visitors sehen das Asset auf die gleiche Weise, man kann dies also cachen. Wie lange soll das Asset gecached werden.'
   },
   'visitorName.label' => {
-    'lastUpdated' => '1179820998',
-    'message' => 'Die Phrase "Visitor Name".'
+    'lastUpdated' => '1236959471',
+    'message' => 'Besuchername'
   },
   'webMaster' => {
     'lastUpdated' => '1179821057',
