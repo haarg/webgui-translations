@@ -1,97 +1,75 @@
 package WebGUI::i18n::Polish::Macro_AdminBar;
 use utf8;
-
 our $I18N = {
-
-	'admin bar title' => {
-		message => q|Admin Bar Macro|,
-		lastUpdated => 1112374923,
-	},
-
-	'adminbar_loop' => {
-		message => q|Pętla zawiera różnorodne listy danych do wyświetlenia.|,
-		lastUpdated => 1149178356,
-	},
-
-	'label' => {
-		message => q|Nagłówek dla tej kategorii.|,
-		lastUpdated => 1149178356,
-	},
-
-	'name' => {
-		message => q|Przyjazna nazwa javascript dla tej kategorii.|,
-		lastUpdated => 1149178356,
-	},
-
-	'items' => {
-		message => q|Pętla zawierająca listę pozycji dla tej kategorii.|,
-		lastUpdated => 1149178356,
-	},
-
-	'title' => {
-		message => q|Link tytułu wyświetlany dla pozycji.|,
-		lastUpdated => 1149178356,
-	},
-
-	'url' => {
-		message => q|Adres URL dla pozycji.|,
-		lastUpdated => 1149178356,
-	},
-
-	'icon' => {
-		message => q|Adres URL ikony powiązanej z pozycją.|,
-		lastUpdated => 1149178356,
-	},
-
-
-	'admin bar body' => {
-		message => q|
-
-<p><b>&#94;AdminBar;</b><br />
-<b>&#94;AdminBar(<i>custom template ID</i>);</b><br />
-Umieszcza panel administracyjny na stronie. Ominięcie tego makra uniemożliwia dodawanie kontentu, kopiowanie ze schowka, dostępu do pomocy oraz innych funkcji administracyjnych.</p>
-<p>Makro nie może być zagnieżdżane wewnątrz innego makra.</p>
-<p>
-Makro może pobrać opcjonalny parametr - alternatywny szablon w przestrzeni nazw Macro/AdminBar w celu wygenerowania panelu. Następujące zmienne dostępne są w szablonie:</p>
-|,
-		lastUpdated => 1168558295,
-	},
-
-	'376' => {
-		message => q|Pakiet|,
-		lastUpdated => 1031514049
-	},
-
-	'1083' => {
-		message => q|Nowy kontent|,
-		lastUpdated => 1076866510
-	},
-
-	'1082' => {
-		message => q|Schowek|,
-		lastUpdated => 1076866475
-	},
-
-	'399' => {
-		message => q|Sprawdź stronę.|,
-		lastUpdated => 1031514049
-	},
-
-	'12' => {
-		message => q|Wyłączenie administracji.|,
-		lastUpdated => 1031514049
-	},
-
-	'commit my changes' => {
-		message => q|Zatwierdź zmiany|,
-		lastUpdated => 0
-	},
-
-	'macroName' => {
-		message => q|AdminBar|,
-		lastUpdated => 1128837324
-	},
-
-};
+  1082 => {
+    'lastUpdated' => '1236869678',
+    'message' => 'Schowek'
+  },
+  1083 => {
+    'lastUpdated' => '1236869687',
+    'message' => 'Nowy kontent'
+  },
+  12 => {
+    'lastUpdated' => '1236869693',
+    'message' => "Wy\x{142}\x{105}czenie administracji."
+  },
+  376 => {
+    'lastUpdated' => '1031514049',
+    'message' => 'Pakiet'
+  },
+  399 => {
+    'lastUpdated' => '1236869712',
+    'message' => "Sprawd\x{17a} stron\x{119}."
+  },
+  'admin bar body' => {
+    'lastUpdated' => '1168558295',
+    'message' => "\n\n<p><b>&#94;AdminBar;</b><br />\n<b>&#94;AdminBar(<i>custom template ID</i>);</b><br />\nUmieszcza panel administracyjny na stronie. Omini\x{119}cie tego makra uniemo\x{17c}liwia dodawanie kontentu, kopiowanie ze schowka, dost\x{119}pu do pomocy oraz innych funkcji administracyjnych.</p>\n<p>Makro nie mo\x{17c}e by\x{107} zagnie\x{17c}d\x{17c}ane wewn\x{105}trz innego makra.</p>\n<p>\nMakro mo\x{17c}e pobra\x{107} opcjonalny parametr - alternatywny szablon w przestrzeni nazw Macro/AdminBar w celu wygenerowania panelu. Nast\x{119}puj\x{105}ce zmienne dost\x{119}pne s\x{105} w szablonie:</p>\n"
+  },
+  'admin bar title' => {
+    'lastUpdated' => '1112374923',
+    'message' => 'Admin Bar Macro'
+  },
+  'adminbar_loop' => {
+    'lastUpdated' => '1149178356',
+    'message' => "P\x{119}tla zawiera r\x{f3}\x{17c}norodne listy danych do wy\x{15b}wietlenia."
+  },
+  'commit my changes' => {
+    'lastUpdated' => '1236869720',
+    'message' => "Zatwierd\x{17a} zmiany"
+  },
+  'community' => {
+    'lastUpdated' => '1236869728',
+    'message' => ''
+  },
+  'icon' => {
+    'lastUpdated' => '1149178356',
+    'message' => "Adres URL ikony powi\x{105}zanej z pozycj\x{105}."
+  },
+  'items' => {
+    'lastUpdated' => '1149178356',
+    'message' => "P\x{119}tla zawieraj\x{105}ca list\x{119} pozycji dla tej kategorii."
+  },
+  'label' => {
+    'lastUpdated' => '1149178356',
+    'message' => "Nag\x{142}\x{f3}wek dla tej kategorii."
+  },
+  'macroName' => {
+    'lastUpdated' => '1236869771',
+    'message' => 'AdminBar'
+  },
+  'name' => {
+    'lastUpdated' => '1149178356',
+    'message' => 'Przyjazna nazwa javascript dla tej kategorii.'
+  },
+  'title' => {
+    'lastUpdated' => '1149178356',
+    'message' => "Link tytu\x{142}u wy\x{15b}wietlany dla pozycji."
+  },
+  'url' => {
+    'lastUpdated' => '1149178356',
+    'message' => 'Adres URL dla pozycji.'
+  }
+}
+;
 
 1;

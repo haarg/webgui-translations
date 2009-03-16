@@ -8,6 +8,10 @@ our $I18N = {
   'title label' => {
     'lastUpdated' => 1227968223,
     'message' => "Tytu\x{142}"
+  },
+  'type label' => {
+    'lastUpdated' => 1231416557,
+    'message' => 'Typ'
   }
 }
 ;
