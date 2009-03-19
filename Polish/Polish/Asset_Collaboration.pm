@@ -1,1607 +1,1303 @@
 package WebGUI::i18n::Polish::Asset_Collaboration;
 use utf8;
-
 our $I18N = {
-	'add.label' => {
-		message => q|Słowo &quot;Dodaj&quot;|,
-		lastUpdated => 1204790209
-	},
-
-	'job title' => {
-		message => q|Tytuł Zadania|,
-		lastUpdated => 1204803109
-	},
-
-	'date' => {
-		message => q|Data|,
-		lastUpdated => 1204872295
-	},
-
-	'message.label' => {
-		message => q|Słowo &quot;Wiadomość&quot;.|,
-		lastUpdated => 1204870261
-	},
-
-	'displayLastReply' => {
-		message => q|Wartość, kt&oacute;ra wyznacza czy System Wsp&oacute;łpracy został skonfigurowany do wyświetlenia ostatniej odpowiedzi. Jeśli wartość jest prawdziwa, zmienna lastReplay w zzablonie jest włączona.|,
-		lastUpdated => 1204834874
-	},
-
-	'karma spent to rate' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'isSecond' => {
-		message => q|Zmienna warunkowa zwracająca prawdę jeśli wiadomość jest druga w Zasobie Wsp&oacute;łpracy.|,
-		lastUpdated => 1204802972
-	},
-
-	'enable metadata description' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'controls' => {
-		message => q|Zestaw ikonek zarządzania do usunięcia lub zmiany porządku w wiadomości.|,
-		lastUpdated => 1204873275
-	},
-
-	'who threads' => {
-		message => q|Kto może rozpoczynać nowe wątki?|,
-		lastUpdated => 1204872057
-	},
-
-	'docs' => {
-		message => q|Adres URL dokumentacji o formacie tego pliku, RSS 2.0 (pole opcjonalne)|,
-		lastUpdated => 1204834913
-	},
-
-	'timeUpdated.human' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'transfer karma' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'job.requirements.label' => {
-		message => q|Fraza &quot;Wymagania Zadania.|,
-		lastUpdated => 1204803179
-	},
-
-	'subject' => {
-		message => q|Temat|,
-		lastUpdated => 1207304476
-	},
-
-	'get mail interval' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'image.label' => {
-		message => q|Słowo &quot;Obrazek&quot;.|,
-		lastUpdated => 1204802810
-	},
-
-	'unlock.label' => {
-		message => q|Słowo &quot;Odblokuj&quot;.|,
-		lastUpdated => 1207304850
-	},
-
-	'read more' => {
-		message => q|Czytaj więcej|,
-		lastUpdated => 1204886798
-	},
-
-	'max image size help' => {
-		message => q|Ustaw rozmiar załączanych obrazk&oacute;w w Systemie Wsp&oacute;łpracy. Jeśli ustawisz 0 zostanie użyta wartość domyślna w gł&oacute;wnych ustawieniach serwisu.|,
-		lastUpdated => 1204870207
-	},
-
-	'compensation.label' => {
-		message => q|Słowo &quot;Kompensata&quot;.|,
-		lastUpdated => 1204873062
-	},
-
-	'title' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'pubDate' => {
-		message => q|Data publikacji.|,
-		lastUpdated => 1204886522
-	},
-
-	'user.isModerator' => {
-		message => q|Użytkownik jest moderatorem|,
-		lastUpdated => 1207313317
-	},
-
-	'user defined 3' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'sortby.title.url' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'reply.label' => {
-		message => q|Słowo &quot;Odpowiedź&quot;.|,
-		lastUpdated => 1204889764
-	},
-
-	'author' => {
-		message => q|Nazwa użytkownika przydzielona osobie wprowadzającej wiadomość.|,
-		lastUpdated => 1204791468
-	},
-
-	'rating_loop' => {
-		message => q|Pętla dla poszczeg&oacute;lnych punkt&oacute;w oceny dla wiadomości.|,
-		lastUpdated => 1204886747
-	},
-
-	'previous' => {
-		message => q|Poprzedni|,
-		lastUpdated => 1204886488
-	},
-
-	'job.header.label' => {
-		message => q|Fraza &quot;Edycja Widomości Zadania&quot;.|,
-		lastUpdated => 1204803163
-	},
-
-	'sticky' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'compensation' => {
-		message => q|Kompensata|,
-		lastUpdated => 1204873049
-	},
-
-	'post.label' => {
-		message => q|Słowo &quot;Wiadomość&quot;.|,
-		lastUpdated => 1204886348
-	},
-
-	'posts/page description' => {
-		message => q|Liczba wiadomości wyświetlanych na każdej stronie w szablonie wątku. Ustawienie większej liczby wiadomości może op&oacute;źnić generowanie strony.|,
-		lastUpdated => 1204886466
-	},
-
-	'by.label' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'back.url' => {
-		message => q|Adres URL dla powrotu do gł&oacute;wnego widoku Systemu Wsp&oacute;łpracy.|,
-		lastUpdated => 1204792863
-	},
-
-	'get mail help' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'lastReply.dateSubmitted.human' => {
-		message => q|Data wprowadzenia ostatniej odpowiedzi w czytelnej dla człowieka postaci.|,
-		lastUpdated => 1204871102
-	},
-
-	'user.canPost' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'unsubscribe' => {
-		message => q|Wypisz|,
-		lastUpdated => 1207313122
-	},
-
-	'image' => {
-		message => q|Obrazek|,
-		lastUpdated => 1204802796
-	},
-
-	'fatal' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'rejected because no user account' => {
-		message => q|Ponieważ nie jesteś naszym użytkownikiem i nie posiadasz konta nie możesz wysyłać wiadomości. Być może też nie skojarzyłeś tego adresu e-mail z kontem w systemie. |,
-		lastUpdated => 1204888591
-	},
-
-	'visitor cache timeout help' => {
-		message => q|Od chwili gdy wszyscy goście widzą zas&oacute;b w ten sam spos&oacute;b wykorzystamy kesz w celu zwiększenia wydajności systemu. Jak długo powinniśmy korzystać z keszu?|,
-		lastUpdated => 1204871797
-	},
-
-	'unsubscribe.label' => {
-		message => q|Słowo &quot;Wypisz&quot;.|,
-		lastUpdated => 1207313134
-	},
-
-	'user.isVisitor' => {
-		message => q|Użytkownik jest gościem|,
-		lastUpdated => 1207313330
-	},
-
-	'critical.label' => {
-		message => q|Słowo &quot;Krytyczny (w większości nie pracuje)&quot;.|,
-		lastUpdated => 1204873456
-	},
-
-	'use preview' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'sortby.username.url' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'karma rank' => {
-		message => q|Ranga Karmy|,
-		lastUpdated => 1204803232
-	},
-
-	'replies' => {
-		message => q|Odpowiedzi|,
-		lastUpdated => 1204889723
-	},
-
-	'use captcha hover help' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'attachment_thumbnail' => {
-		message => q|Adres URL dla miniaturki załącznika. Pliki będą reprezentowane przez ikony przydzielony poszczeg&oacute;lnym typom dokument&oacute;w. Dla obrazk&oacute;w zostaną utworzone miniaturki.|,
-		lastUpdated => 1204791339
-	},
-
-	'avatar.url' => {
-		message => q|Adres URL do obrazka właściciela wiadomości. Dostępny wyłącznie jeśli włączono możliwość prezentacji obrazk&oacute;w z profilu oraz użytkownik posiada obrazek.|,
-		lastUpdated => 1204792419
-	},
-
-	'user' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'id' => {
-		message => q|ID w zasobach dla wiadomości.|,
-		lastUpdated => 1213347076
-	},
-
-	'karmaIsEnabled' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'mail prefix' => {
-		message => q|Prefiks|,
-		lastUpdated => 1204869869
-	},
-
-	'dateUpdated.human' => {
-		message => q|Data aktualizacji wiadomości w czytelnej dla człowieka postaci.|,
-		lastUpdated => 1204872394
-	},
-
-	'mail server help' => {
-		message => q|Nazwa lub adres IP serwera pocztowego dla wysyłanych list&oacute;w.|,
-		lastUpdated => 1204870065
-	},
-
-	'mail server' => {
-		message => q|Serwer pocztowy|,
-		lastUpdated => 1204869979
-	},
-
-	'item_loop' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'posts/page' => {
-		message => q|Liczba wiadomości na stronę|,
-		lastUpdated => 1204886401
-	},
-
-	'default karma scale' => {
-		message => q|Domyślna Skala dla Karmy|,
-		lastUpdated => 1204872422
-	},
-
-	'by' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'cosmetic' => {
-		message => q|Kosmetyka (błędy ortograficzne, problemy z formatowaniem)|,
-		lastUpdated => 1204873366
-	},
-
-	'system template' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'mail account help' => {
-		message => q|Nazwa konta (użytkownik / adres email) wykorzystywana w celu zalogowania do serwera pocztowego.|,
-		lastUpdated => 1204836255
-	},
-
-	'preview' => {
-		message => q|Podgląd|,
-		lastUpdated => 1204886478
-	},
-
-	'cosmetic.label' => {
-		message => q|Słowo &quot;Kosmetyka (błędy ortograficzne, problemy z formatowaniem)&quot;.|,
-		lastUpdated => 1204873387
-	},
-
-	'date.label' => {
-		message => q|Słowo &quot;Data&quot;.|,
-		lastUpdated => 1204872335
-	},
-
-	'attachment.length' => {
-		message => q|Wielkość załącznika w bajtach.|,
-		lastUpdated => 1204791093
-	},
-
-	'sortby.views.url' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'add' => {
-		message => q|Dodaj|,
-		lastUpdated => 1204790116
-	},
-
-	'subscription group label' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'allow replies' => {
-		message => q|Dozwolone odpowiedzi|,
-		lastUpdated => 1204790455
-	},
-
-	'status' => {
-		message => q|Status|,
-		lastUpdated => 1207304466
-	},
-
-	'thumbnail size help' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'addquestion' => {
-		message => q|Dodaj pytanie|,
-		lastUpdated => 1204790366
-	},
-
-	'sort by description' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'content filter description' => {
-		message => q|Wybierz &quot;Tak&quot; aby filtrować kontent w każedj wiadomości. |,
-		lastUpdated => 1204873168
-	},
-
-	'readmore.label' => {
-		message => q|Fraza &quot;Czytaj więcej&quot;.|,
-		lastUpdated => 1204886838
-	},
-
-	'guid' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'post_loop' => {
-		message => q|Lista zawierająca wiadomości Zasobu Wsp&oacute;łpracy.|,
-		lastUpdated => 1204886377
-	},
-
-	'who threads description' => {
-		message => q|Grupa, kt&oacute;rej członkowie są upoważnieni do rozpoczynania nowych wątk&oacute;w w Zasobie/Asset.|,
-		lastUpdated => 1204872092
-	},
-
-	'system template description' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'delete.label' => {
-		message => q|Słowo &quot;Usuń&quot;.|,
-		lastUpdated => 1204795817
-	},
-
-	'auto subscribe to thread help' => {
-		message => q|Czy jeśli użytkownik wysyła wiadomość do systemu wsp&oacute;łpracy elektroniczną pocztą, a nie jest subskrybentem wątku ani systemu wsp&oacute;łpracy powinien być dodany do wątku? Jeśli ustawiono &quot;Tak&quot; będzie dodany. Opcja działa wyłącznie jeśli &quot;Wymagana subskrypcja dla odpowiedzi elektroniczną pocztą?&quot; ustawiono na &quot;Nie&quot;.|,
-		lastUpdated => 1204791993
-	},
-
-	'unsubscribe.url' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'body.label' => {
-		message => q|Słowo &quot;Treść&quot;.|,
-		lastUpdated => 1204792993
-	},
-
-	'thumbnail' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'closed' => {
-		message => q|Zamnkięty|,
-		lastUpdated => 1204793071
-	},
-
-	'back' => {
-		message => q|Powr&oacute;t|,
-		lastUpdated => 1204792634
-	},
-
-	'search.url' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'replies.label' => {
-		message => q|Słowo &quot;Odpowiedzi&quot;.|,
-		lastUpdated => 1204889736
-	},
-
-	'notification template' => {
-		message => q|System Wsp&oacute;łpracy, Szablon Powiadomienia|,
-		lastUpdated => 1204870505
-	},
-
-	'close.label' => {
-		message => q|Słowo &quot;Zamknij&quot;.|,
-		lastUpdated => 1204793055
-	},
-
-	'rich editor' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'responses.label' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'addquestion.label' => {
-		message => q|Fraza &quot;Dodaj pytanie&quot;.|,
-		lastUpdated => 1204790403
-	},
-
-	'collaboration template labels title' => {
-		message => q|Etykiety Zmiennych Szablonu Systemu Wsp&oacute;łpracy|,
-		lastUpdated => 1204872837
-	},
-
-	'sortby.date.url' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'edit timeout description' => {
-		message => q|Po upłynięciu czasu przerwy, wiadomość nie może być dłużej edytowana przez tw&oacute;rcę wiadomości.|,
-		lastUpdated => 1213346809
-	},
-
-	'post title' => {
-		message => q|Tytuł wiadomości (komunikatu).|,
-		lastUpdated => 1204886329
-	},
-
-	'editForm archiveEnabled description' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'content' => {
-		message => q|Przeformatowany kontent wiadomości.|,
-		lastUpdated => 1204873108
-	},
-
-	'form.search' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'approval workflow' => {
-		message => q|Zatwierdzenia Workflow|,
-		lastUpdated => 1204790642
-	},
-
-	'rate' => {
-		message => q|Wskaźnik|,
-		lastUpdated => 1204886645
-	},
-
-	'question.header.label' => {
-		message => q|Fraza &quot;Edycja Pytania&quot;.|,
-		lastUpdated => 1204886604
-	},
-
-	'job.description.label' => {
-		message => q|Fraza &quot;Opis Zadania&quot;.|,
-		lastUpdated => 1204803133
-	},
-
-	'attachments/post description' => {
-		message => q|Jak wiele załącznik&oacute;w może być dodane do każdej wiadomości?|,
-		lastUpdated => 1204791430
-	},
-
-	'post template description' => {
-		message => q|Szablon dla indywidualnej korespondencji.|,
-		lastUpdated => 1204870733
-	},
-
-	'description' => {
-		message => q|Opis|,
-		lastUpdated => 1204795886
-	},
-
-	'image.url' => {
-		message => q|Adres pierwszego załączonego obrazka jeśli wiadomość posiada załączniki. |,
-		lastUpdated => 1204802862
-	},
-
-	'edit timeout' => {
-		message => q|Edycja czasu przedawnienia|,
-		lastUpdated => 1204835355
-	},
-
-	'rejected because not allowed' => {
-		message => q|Nie możesz wysyłać wiadomości ponieważ posiadasz niewystarczające uprawnienia lub nie jesteś subskrybentem dyskusji.|,
-		lastUpdated => 1204888525
-	},
-
-	'edit job' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'date submitted' => {
-		message => q|Data Wysłania|,
-		lastUpdated => 1204872311
-	},
-
-	'edit submission' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'filter code description' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'location.label' => {
-		message => q|Słowo &quot;Lokalizacja&quot;.|,
-		lastUpdated => 1204871502
-	},
-
-	'body' => {
-		message => q|Treść|,
-		lastUpdated => 1204792973
-	},
-
-	'tmplVar url' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'user defined 2' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'url.label' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'unstick' => {
-		message => q|Odklej|,
-		lastUpdated => 1207304821
-	},
-
-	'attachment.path' => {
-		message => q|Ścieżka w systemie plik&oacute;w do załącznika.|,
-		lastUpdated => 1204791118
-	},
-
-	'answer.label' => {
-		message => q|Słowo &quot;Odpowiedź&quot;|,
-		lastUpdated => 1204790601
-	},
-
-	'use preview description' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'approval workflow description' => {
-		message => q|Wybierz (procedurę) dla workflow, kt&oacute;ra będzie wykonywana przy każdym zatwierdzeniu treści.|,
-		lastUpdated => 1204790876
-	},
-
-	'get cs mail' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'user.isPoster' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'closed.label' => {
-		message => q|Słowo &quot;Zamknięty&quot;.|,
-		lastUpdated => 1204793091
-	},
-
-	'display last reply description' => {
-		message => q|Jeśli ustawione na Tak, zmienne szablonu będą dodane w celu wyświetlenia ostatniej wiadomości w wątku.|,
-		lastUpdated => 1204834628
-	},
-
-	'lock' => {
-		message => q|Blokada|,
-		lastUpdated => 1204871513
-	},
-
-	'critical' => {
-		message => q|Krytyczny (w większości nie pracuje)|,
-		lastUpdated => 1204873443
-	},
-
-	'lastReply.user.isVisitor' => {
-		message => q|Warunek zwracający prawdę jeśli tw&oacute;rcą ostatniej odpowiedzi był gość.|,
-		lastUpdated => 1204871237
-	},
-
-	'unarchive' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'rejected' => {
-		message => q|Odrzucono|,
-		lastUpdated => 1204887751
-	},
-
-	'rating.label' => {
-		message => q|Słowo &quot;Ocena&quot;.|,
-		lastUpdated => 1204886690
-	},
-
-	'feed description' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'rss template description' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'thumbnail.label' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'user defined 1' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'get mail' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'edit message' => {
-		message => q|Edycja Wiadomości|,
-		lastUpdated => 1204835133
-	},
-
-	'mail password help' => {
-		message => q|Hasło dla konta na serwerze.|,
-		lastUpdated => 1204869857
-	},
-
-	'responses' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'title.label' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'subject.label' => {
-		message => q|Słowo &quot;Temat&quot;.|,
-		lastUpdated => 1207297482
-	},
-
-	'collaboration post list template variables title' => {
-		message => q|Wsp&oacute;łpraca, zmienne szablonu listy wiadomości|,
-		lastUpdated => 1204793176
-	},
-
-	'lock.label' => {
-		message => q|Słowo &quot;Blokada&quot;.|,
-		lastUpdated => 1204871524
-	},
-
-	'captcha label' => {
-		message => q|Wprowadź tekst z obrazka|,
-		lastUpdated => 1204793031
-	},
-
-	'subscription group hoverHelp' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'item description' => {
-		message => q|Strzeszczenie wiadomości.|,
-		lastUpdated => 1204803027
-	},
-
-	'newWindow.label' => {
-		message => q|Fraza &quot;Otwożyć w nowym oknie?&quot;.|,
-		lastUpdated => 1204870455
-	},
-
-	'job description' => {
-		message => q|Opis Zadania|,
-		lastUpdated => 1204803067
-	},
-
-	'webMaster' => {
-		message => q|Adres e-mailosoby odpowiedzialnej za techniczną stronę publikacji w tym RSS feed (pole opcjonalne).|,
-		lastUpdated => 1204871979
-	},
-
-	'lastReply.userProfile.url' => {
-		message => q|Adres URL do Profilu Użytkownika, kt&oacute;ry wysłał tą wiadomość.|,
-		lastUpdated => 1204871293
-	},
-
-	'status.label' => {
-		message => q|Słowo &quot;Status&quot;.|,
-		lastUpdated => 1207297454
-	},
-
-	'rate.label' => {
-		message => q|Słowo &quot;Wskaźnik&quot;.|,
-		lastUpdated => 1204886657
-	},
-
-	'question' => {
-		message => q|Pytanie|,
-		lastUpdated => 1204886532
-	},
-
-	'back.label' => {
-		message => q|Słowo &quot;Powr&oacute;t&quot;|,
-		lastUpdated => 1204792645
-	},
-
-	'severity.label' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'attachment.url' => {
-		message => q|Adres URL załącznika.|,
-		lastUpdated => 1204791131
-	},
-
-	'stick.label' => {
-		message => q|Słowo &quot;Przyklej&quot;.|,
-		lastUpdated => 1207300436
-	},
-
-	'rating_loop.count' => {
-		message => q|Zmienna indeksowa dla <strong>rating_loop</strong>.|,
-		lastUpdated => 1204886786
-	},
-
-	'thread template' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'thumbnail size' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'generator' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'user defined 5' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'form.header' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'subscribe' => {
-		message => q|Subskrybuj|,
-		lastUpdated => 1207312993
-	},
-
-	'display last reply' => {
-		message => q|Wyświetlać ostatnią odpowiedź?|,
-		lastUpdated => 1204795920
-	},
-
-	'open' => {
-		message => q|Otw&oacute;rz|,
-		lastUpdated => 1204870575
-	},
-
-	'who posts' => {
-		message => q|Kto może wysyłać?|,
-		lastUpdated => 1204871997
-	},
-
-	'delete' => {
-		message => q|Usuń|,
-		lastUpdated => 1204795803
-	},
-
-	'date updated' => {
-		message => q|Data Aktualizacji|,
-		lastUpdated => 1204872324
-	},
-
-	'add.url' => {
-		message => q|<p>Adres URL dla dodania nowego wątku.&nbsp;</p>|,
-		lastUpdated => 1204790248
-	},
-
-	'views' => {
-		message => q|Wyświetlono|,
-		lastUpdated => 1204871571
-	},
-
-	'lastReply.url' => {
-		message => q|Adres URL do ostatniej odpowiedzi w korespondencji.|,
-		lastUpdated => 1204871182
-	},
-
-	'get mail interval help' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'attachment' => {
-		message => q|Załącznik|,
-		lastUpdated => 1204791042
-	},
-
-	'minor' => {
-		message => q|Drugorzędny (nieprzyjemny, ale nie szkodliwy)|,
-		lastUpdated => 1204870356
-	},
-
-	'isFourth' => {
-		message => q|Zmienna warunkowa zwracająca prawdę jeśli wiadomość jest czwarta w Zasobie Wsp&oacute;łpracy.|,
-		lastUpdated => 1204802958
-	},
-
-	'edit stamp' => {
-		message => q|Dodać edycję znaczka do wiadomości?|,
-		lastUpdated => 1204835175
-	},
-
-	'karma spent to rate description' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'addlink.label' => {
-		message => q|Fraza &quot;Dodaj link&quot;.|,
-		lastUpdated => 1204790352
-	},
-
-	'content filter' => {
-		message => q|Używać filtr kontentu?|,
-		lastUpdated => 1204873124
-	},
-
-	'feed title' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'notification template description' => {
-		message => q|Szablon wykorzystywane do wygenerowania list&oacute;w elektronicznych dla użytkownik&oacute;w, kt&oacute;rzy posiadających subskrycpję w Zasobie/Asset.|,
-		lastUpdated => 1204870564
-	},
-
-	'thread approval workflow' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'descending' => {
-		message => q|Malejący|,
-		lastUpdated => 1204795833
-	},
-
-	'next' => {
-		message => q|Następny|,
-		lastUpdated => 1204870472
-	},
-
-	'post' => {
-		message => q|Korespondencja|,
-		lastUpdated => 1204870762
-	},
-
-	'synopsis' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'group to edit hoverhelp' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'sortby.karmaRank.url' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'rss template' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'lastReply.timeSubmitted.human' => {
-		message => q|Czas ostatniej odpowiedzi w czytelnej dla człowieka postaci.|,
-		lastUpdated => 1204871084
-	},
-
-	'open.label' => {
-		message => q|Słowo &quot;Otw&oacute;rz&quot;.|,
-		lastUpdated => 1204870588
-	},
-
-	'sort order' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'sortby.rating.url' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'collab link' => {
-		message => q|Adres URL do systemu wsp&oacute;łpracy.|,
-		lastUpdated => 1204793121
-	},
-
-	'new window' => {
-		message => q|Otworzyć w nowym oknie?|,
-		lastUpdated => 1204870434
-	},
-
-	'rss.url' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'who posts description' => {
-		message => q|Grupa, kt&oacute;rej członkowie posadają prawo do wysyłania wiadomości.|,
-		lastUpdated => 1204872034
-	},
-
-	'isThird' => {
-		message => q|Zmienna warunkowa zwracająca prawdę jeśli wiadomość jest trzecia w Zasobie Wsp&oacute;łpracy.|,
-		lastUpdated => 1204802984
-	},
-
-	'mail address' => {
-		message => q|Adres e-mail|,
-		lastUpdated => 1204869734
-	},
-
-	'attachments/post' => {
-		message => q|Liczba załącznik&oacute;w w korespondencji|,
-		lastUpdated => 1204870795
-	},
-
-	'require subscription for email posting help' => {
-		message => q|Jeśli ustawiono opcję na &quot;Tak&quot; użytkownik chcąc wysłać wiadomość musi nie tylko należeć do grupy przydzielonej do wątku, ale r&oacute;wnież powinien być subskrybentem systemu wsp&oacute;łpracy lub wątku.|,
-		lastUpdated => 1204792165
-	},
-
-	'require subscription for email posting' => {
-		message => q|Wymagana subskrypcja dla odpowiedzi elektroniczną pocztą?|,
-		lastUpdated => 1204886821
-	},
-
-	'mail prefix help' => {
-		message => q|Ciąg znak&oacute;w, kt&oacute;ry będzie rozpoczynał tytuły list&oacute;w elektronicznych wysyłanych na zewnątrz Systemu Wsp&oacute;łpracy.|,
-		lastUpdated => 1204869968
-	},
-
-	'post template' => {
-		message => q|System Wsp&oacute;łpracy, Szablon Formularza Korespondencji|,
-		lastUpdated => 1204870750
-	},
-
-	'question.label' => {
-		message => q|Słowo &quot;Pytanie&quot;.|,
-		lastUpdated => 1204886618
-	},
-
-	'lastReply.title' => {
-		message => q|Tytuł ostatniej odpowiedzi.|,
-		lastUpdated => 1204871151
-	},
-
-	'synopsis.label' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'max image size' => {
-		message => q|Maksymalny Rozmiar Obrazka|,
-		lastUpdated => 1204870084
-	},
-
-	'rating' => {
-		message => q|Ocena|,
-		lastUpdated => 1204886677
-	},
-
-	'thread template description' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'close' => {
-		message => q|Zamknij|,
-		lastUpdated => 1204793042
-	},
-
-	'default karma scale help' => {
-		message => q|Domyślna wartość, kt&oacute;ra będzie powiązana ze polem skali karmy w wątkach. Skala Karmy jest mechanizmem porządkującym według wagi trudności, komplikacji etc.|,
-		lastUpdated => 1204872712
-	},
-
-	'visitorName.label' => {
-		message => q|Fraza &quot;Nazwa gościa&quot;.|,
-		lastUpdated => 1204871813
-	},
-
-	'severity' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'unstick.label' => {
-		message => q|Słowo &quot;Odklej&quot;.|,
-		lastUpdated => 1207300465
-	},
-
-	'contentType' => {
-		message => q|Typ kontentu|,
-		lastUpdated => 1204873201
-	},
-
-	'dateSubmitted.human' => {
-		message => q|Data wysłania wiadomości w czytenej dla człowieka postaci.|,
-		lastUpdated => 1204872367
-	},
-
-	'sortby.replies.url' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'answer' => {
-		message => q|Odpowiedź|,
-		lastUpdated => 1204790587
-	},
-
-	'message' => {
-		message => q|Wiadomość|,
-		lastUpdated => 1204870224
-	},
-
-	'filter code' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'search template description' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'karma rating multiplier' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'user.hasRead' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'user.isSubscribed' => {
-		message => q|Zmienna warunkowa zwracająca prawdę jeśli bieżący użytkownik jest zapisany do tego zasobu systemu wsp&oacute;łpracy.|,
-		lastUpdated => 1213347284
-	},
-
-	'sequence' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'edit.label' => {
-		message => q|Słowo &quot;Edycja&quot;.|,
-		lastUpdated => 1204835443
-	},
-
-	'attachmentLoop' => {
-		message => q|Pętla (lista) zawiera wszystkie załączniki dla tej wiadomości.|,
-		lastUpdated => 1204791172
-	},
-
-	'next.label' => {
-		message => q|Słowo &quot;Następny&quot;.|,
-		lastUpdated => 1204870485
-	},
-
-	'collaboration rss template title' => {
-		message => q|Zmienne Szablonu Systemu Wsp&oacute;łpracy RSS|,
-		lastUpdated => 1204872772
-	},
-
-	'attachment.label' => {
-		message => q|Słowo &quot;Załącznik&quot;.|,
-		lastUpdated => 1204791059
-	},
-
-	'karma/post' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'layout' => {
-		message => q|Układ/Wygląd|,
-		lastUpdated => 1204871358
-	},
-
-	'sort order description' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'url' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'mail address help' => {
-		message => q|Adres e-mail na jaki użytkownicy mogą wysyłać wiadomości.|,
-		lastUpdated => 1204869801
-	},
-
-	'collaborationAssetId' => {
-		message => q|assetId tego Systemu Wsp&oacute;łpracy. Inaczej niż zmienna assetId, ta nie może być nadpisana&nbsp;  przez wewmętrzne wartości assetId wątk&oacute;w.|,
-		lastUpdated => 1204873019
-	},
-
-	'user defined 4' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'unlock' => {
-		message => q|Odblokuj|,
-		lastUpdated => 1207304836
-	},
-
-	'mail password' => {
-		message => q|Hasło|,
-		lastUpdated => 1204869826
-	},
-
-	'archive after' => {
-		message => q|Przenieś do archiwum po|,
-		lastUpdated => 1204790913
-	},
-
-	'isFifth' => {
-		message => q|Zmienna warunkowa zwracająca prawdę jeśli wiadomość jest piąta w Zasobie Wsp&oacute;łpracy.|,
-		lastUpdated => 1204802929
-	},
-
-	'enable avatars' => {
-		message => q|Włączyć obrazki właścicieli?|,
-		lastUpdated => 1204835532
-	},
-
-	'full text link' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'addlink' => {
-		message => q|Dodaj link|,
-		lastUpdated => 1204790260
-	},
-
-	'edit stamp description' => {
-		message => q|Wybierz &quot;Tak&quot; aby dodać znak do każdej wiadomości m&oacute;wiący kiedy była ona ostatnio edytowana.|,
-		lastUpdated => 1213345849
-	},
-
-	'collaboration search template title' => {
-		message => q|Zmienne Szablonu Szukania Systemu Wsp&oacute;łpracy|,
-		lastUpdated => 1204872807
-	},
-
-	'layout.label' => {
-		message => q|Słowo &quot;Układ/Wygląd&quot;.|,
-		lastUpdated => 1204871411
-	},
-
-	'fatal.label' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'sortby.lastreply.url' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'search.label' => {
-		message => q|Słowo &quot;Szukaj&quot;.|,
-		lastUpdated => 1207297246
-	},
-
-	'karma scale' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'allow replies description' => {
-		message => q|Wybierz &quot;Nie&quot; aby uniemożliwić odpowiadania na tą wiadomość.|,
-		lastUpdated => 1204790557
-	},
-
-	'flatLayout' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'threads/page description' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'edit' => {
-		message => q|Edycja|,
-		lastUpdated => 1204834997
-	},
-
-	'tmplVar status' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'subscribe.url' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'layout.flat.label' => {
-		message => q|Słowo &quot;Płaski&quot;.|,
-		lastUpdated => 1204871389
-	},
-
-	'userProfile.url' => {
-		message => q|Adres URL do profilu zarejestrowanego użytkownika.|,
-		lastUpdated => 1207313277
-	},
-
-	'previous.label' => {
-		message => q|Słowo &quot;Poprzedni&quot;.|,
-		lastUpdated => 1204886500
-	},
-
-	'karma rating multiplier description' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'layout.nested.label' => {
-		message => q|Słowo &quot;Zagnieżdżony&quot;.|,
-		lastUpdated => 1204871449
-	},
-
-	'user.label' => {
-		message => q|Słowo &quot;Użytkownik&quot;.|,
-		lastUpdated => 1213347125
-	},
-
-	'lastReply' => {
-		message => q|Ostatnia Odpowiedź|,
-		lastUpdated => 1204870954
-	},
-
-	'timeSubmitted.human' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'enable avatars description' => {
-		message => q|<p>Wybierz &quot;Tak&quot; aby wyświetlić obrazki (fotki) użytkownik&oacute;w w Systemi Wsp&oacute;łpracy. Pole obrazka musi być dostępne w profilu użytkownik&oacute;w oraz muszą być wprowadzone fotki.</p><p>Prezentacja obrazk&oacute;w użytkownik&oacute;w wymaga dłuższego czasu ładowania się poszczeŋ&oacute;lnych stron.&nbsp;</p>|,
-		lastUpdated => 1204835919
-	},
-
-	'description.label' => {
-		message => q|Słowo &quot;Opis&quot;.|,
-		lastUpdated => 1204795895
-	},
-
-	'submission.header.label' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'search' => {
-		message => q|Szukaj|,
-		lastUpdated => 1207312944
-	},
-
-	'message.header.label' => {
-		message => q|Fraza &quot;Edycja Wiadomości&quot;.|,
-		lastUpdated => 1204870245
-	},
-
-	'assetName' => {
-		message => q|System Wsp&oacute;łpracy|,
-		lastUpdated => 1204791032
-	},
-
-	'editForm archiveEnabled label' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'enable metadata' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'edit.url' => {
-		message => q|Adres URL dla edycji wiadomości.|,
-		lastUpdated => 1204835468
-	},
-
-	'threads/page' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'sort by' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'location' => {
-		message => q|Lokalizacja|,
-		lastUpdated => 1204871477
-	},
-
-	'use captcha label' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'ascending' => {
-		message => q|Rosnący|,
-		lastUpdated => 1204790991
-	},
-
-	'collaboration template title' => {
-		message => q|Zmienne Szablonu Systemu Wsp&oacute;łpracy|,
-		lastUpdated => 1204872878
-	},
-
-	'lastBuildDate' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'group to edit label' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'search template' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'edit question' => {
-		message => q|Edycja Pytania|,
-		lastUpdated => 1204835145
-	},
-
-	'job.title.label' => {
-		message => q|Fraza &quot;Tytuł Zadania&quot;.|,
-		lastUpdated => 1204803195
-	},
-
-	'auto subscribe to thread' => {
-		message => q|Automatyczna subskrypcja do wątku?|,
-		lastUpdated => 1204791516
-	},
-
-	'link.header.label' => {
-		message => q|Fraza &quot;Edycja Linku&quot;.|,
-		lastUpdated => 1204871465
-	},
-
-	'lastReply.label' => {
-		message => q|Fraza &quot;Ostatnia Odpowiedź&quot;.|,
-		lastUpdated => 1204871032
-	},
-
-	'visitor' => {
-		message => q|Naza gościa|,
-		lastUpdated => 1204871603
-	},
-
-	'job requirements' => {
-		message => q|Wymagania Zadania|,
-		lastUpdated => 1204803092
-	},
-
-	'mail' => {
-		message => q|Poczta|,
-		lastUpdated => 1204871330
-	},
-
-	'tmplVar thumbnail' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'query.form' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'visitor cache timeout' => {
-		message => q|Czas wygaśnięcia keszu dla gościa|,
-		lastUpdated => 1204871658
-	},
-
-	'minor.label' => {
-		message => q|Słowo &quot;Drugorzędny&quot;.|,
-		lastUpdated => 1204870377
-	},
-
-	'archive' => {
-		message => q|Archiwum|,
-		lastUpdated => 1204790893
-	},
-
-	'karma/post description' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'rich editor description' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'lastReply.username' => {
-		message => q|Nazwa użytkownika, kt&oacute;ry wprowadził ostatnią odpowiedź.|,
-		lastUpdated => 1204871322
-	},
-
-	'nested' => {
-		message => q|Zagnieżdżony|,
-		lastUpdated => 1204870414
-	},
-
-	'views.label' => {
-		message => q|Słowo &quot;Wyświetlono&quot;.|,
-		lastUpdated => 1204871586
-	},
-
-	'reply' => {
-		message => q|Odpowiedź|,
-		lastUpdated => 1204889751
-	},
-
-	'edit link' => {
-		message => q|Edycja Linku|,
-		lastUpdated => 1204835108
-	},
-
-	'mail account' => {
-		message => q|Konto|,
-		lastUpdated => 1204836189
-	},
-
-	'thread approval workflow description' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'archive after description' => {
-		message => q|Czas (liczony od ostatniej aktualizacji) po kt&oacute;rym każda wiadomość zostanie przeniesiona do archiwum.|,
-		lastUpdated => 1204790968
-	},
-
-	'subscribe.label' => {
-		message => q|Słowo &quot;Subskrybuj&quot;.|,
-		lastUpdated => 1207313087
-	},
-
-};
+  'Link Description' => {
+    'lastUpdated' => '1237212443',
+    'message' => ''
+  },
+  'List All Links' => {
+    'lastUpdated' => '1237212448',
+    'message' => ''
+  },
+  'add' => {
+    'lastUpdated' => '1204790116',
+    'message' => 'Dodaj'
+  },
+  'add.label' => {
+    'lastUpdated' => '1204790209',
+    'message' => "S\x{142}owo &quot;Dodaj&quot;"
+  },
+  'add.url' => {
+    'lastUpdated' => '1204790248',
+    'message' => "<p>Adres URL dla dodania nowego w\x{105}tku.&nbsp;</p>"
+  },
+  'addlink' => {
+    'lastUpdated' => '1204790260',
+    'message' => 'Dodaj link'
+  },
+  'addlink.label' => {
+    'lastUpdated' => '1204790352',
+    'message' => 'Fraza &quot;Dodaj link&quot;.'
+  },
+  'addquestion' => {
+    'lastUpdated' => '1204790366',
+    'message' => 'Dodaj pytanie'
+  },
+  'addquestion.label' => {
+    'lastUpdated' => '1204790403',
+    'message' => 'Fraza &quot;Dodaj pytanie&quot;.'
+  },
+  'allow replies' => {
+    'lastUpdated' => '1204790455',
+    'message' => 'Dozwolone odpowiedzi'
+  },
+  'allow replies description' => {
+    'lastUpdated' => '1204790557',
+    'message' => "Wybierz &quot;Nie&quot; aby uniemo\x{17c}liwi\x{107} odpowiadania na t\x{105} wiadomo\x{15b}\x{107}."
+  },
+  'answer' => {
+    'lastUpdated' => '1204790587',
+    'message' => "Odpowied\x{17a}"
+  },
+  'answer.label' => {
+    'lastUpdated' => '1204790601',
+    'message' => "S\x{142}owo &quot;Odpowied\x{17a}&quot;"
+  },
+  'approval workflow' => {
+    'lastUpdated' => '1204790642',
+    'message' => 'Zatwierdzenia Workflow'
+  },
+  'approval workflow description' => {
+    'lastUpdated' => '1204790876',
+    'message' => "Wybierz (procedur\x{119}) dla workflow, kt&oacute;ra b\x{119}dzie wykonywana przy ka\x{17c}dym zatwierdzeniu tre\x{15b}ci."
+  },
+  'archive' => {
+    'lastUpdated' => '1204790893',
+    'message' => 'Archiwum'
+  },
+  'archive after' => {
+    'lastUpdated' => '1204790913',
+    'message' => "Przenie\x{15b} do archiwum po"
+  },
+  'archive after description' => {
+    'lastUpdated' => '1204790968',
+    'message' => "Czas (liczony od ostatniej aktualizacji) po kt&oacute;rym ka\x{17c}da wiadomo\x{15b}\x{107} zostanie przeniesiona do archiwum."
+  },
+  'ascending' => {
+    'lastUpdated' => '1204790991',
+    'message' => "Rosn\x{105}cy"
+  },
+  'asset not committed' => {
+    'lastUpdated' => '1237212517',
+    'message' => "<h1>B\x{142}\x{105}d!</h1><p>Musisz zatwierdzi\x{107} ten system wsp\x{f3}\x{142}pracy zanim stworzysz nowy w\x{105}tek</p>"
+  },
+  'assetName' => {
+    'lastUpdated' => '1204791032',
+    'message' => "System Wsp&oacute;\x{142}pracy"
+  },
+  'attachment' => {
+    'lastUpdated' => '1204791042',
+    'message' => "Za\x{142}\x{105}cznik"
+  },
+  'attachment.label' => {
+    'lastUpdated' => '1204791059',
+    'message' => "S\x{142}owo &quot;Za\x{142}\x{105}cznik&quot;."
+  },
+  'attachment.length' => {
+    'lastUpdated' => '1204791093',
+    'message' => "Wielko\x{15b}\x{107} za\x{142}\x{105}cznika w bajtach."
+  },
+  'attachment.path' => {
+    'lastUpdated' => '1204791118',
+    'message' => "\x{15a}cie\x{17c}ka w systemie plik&oacute;w do za\x{142}\x{105}cznika."
+  },
+  'attachment.url' => {
+    'lastUpdated' => '1204791131',
+    'message' => "Adres URL za\x{142}\x{105}cznika."
+  },
+  'attachmentLoop' => {
+    'lastUpdated' => '1204791172',
+    'message' => "P\x{119}tla (lista) zawiera wszystkie za\x{142}\x{105}czniki dla tej wiadomo\x{15b}ci."
+  },
+  'attachment_thumbnail' => {
+    'lastUpdated' => '1204791339',
+    'message' => "Adres URL dla miniaturki za\x{142}\x{105}cznika. Pliki b\x{119}d\x{105} reprezentowane przez ikony przydzielony poszczeg&oacute;lnym typom dokument&oacute;w. Dla obrazk&oacute;w zostan\x{105} utworzone miniaturki."
+  },
+  'attachments/post' => {
+    'lastUpdated' => '1204870795',
+    'message' => "Liczba za\x{142}\x{105}cznik&oacute;w w korespondencji"
+  },
+  'attachments/post description' => {
+    'lastUpdated' => '1204791430',
+    'message' => "Jak wiele za\x{142}\x{105}cznik&oacute;w mo\x{17c}e by\x{107} dodane do ka\x{17c}dej wiadomo\x{15b}ci?"
+  },
+  'author' => {
+    'lastUpdated' => '1204791468',
+    'message' => "Nazwa u\x{17c}ytkownika przydzielona osobie wprowadzaj\x{105}cej wiadomo\x{15b}\x{107}."
+  },
+  'auto subscribe to thread' => {
+    'lastUpdated' => '1204791516',
+    'message' => "Automatyczna subskrypcja do w\x{105}tku?"
+  },
+  'auto subscribe to thread help' => {
+    'lastUpdated' => '1204791993',
+    'message' => "Czy je\x{15b}li u\x{17c}ytkownik wysy\x{142}a wiadomo\x{15b}\x{107} do systemu wsp&oacute;\x{142}pracy elektroniczn\x{105} poczt\x{105}, a nie jest subskrybentem w\x{105}tku ani systemu wsp&oacute;\x{142}pracy powinien by\x{107} dodany do w\x{105}tku? Je\x{15b}li ustawiono &quot;Tak&quot; b\x{119}dzie dodany. Opcja dzia\x{142}a wy\x{142}\x{105}cznie je\x{15b}li &quot;Wymagana subskrypcja dla odpowiedzi elektroniczn\x{105} poczt\x{105}?&quot; ustawiono na &quot;Nie&quot;."
+  },
+  'avatar.url' => {
+    'lastUpdated' => '1204792419',
+    'message' => "Adres URL do obrazka w\x{142}a\x{15b}ciciela wiadomo\x{15b}ci. Dost\x{119}pny wy\x{142}\x{105}cznie je\x{15b}li w\x{142}\x{105}czono mo\x{17c}liwo\x{15b}\x{107} prezentacji obrazk&oacute;w z profilu oraz u\x{17c}ytkownik posiada obrazek."
+  },
+  'back' => {
+    'lastUpdated' => '1237212553',
+    'message' => 'Powrót'
+  },
+  'back.label' => {
+    'lastUpdated' => '1237212569',
+    'message' => "S\x{142}owo &quot;Powr\x{f3}t&quot;"
+  },
+  'back.url' => {
+    'lastUpdated' => '1237212585',
+    'message' => "Adres URL dla powrotu do g\x{142}\x{f3}wnego widoku Systemu Wsp\x{f3}\x{142}pracy."
+  },
+  'body' => {
+    'lastUpdated' => '1204792973',
+    'message' => "Tre\x{15b}\x{107}"
+  },
+  'body.label' => {
+    'lastUpdated' => '1237212591',
+    'message' => "S\x{142}owo &quot;Tre\x{15b}\x{107}&quot;."
+  },
+  'by' => {
+    'lastUpdated' => '1237212602',
+    'message' => 'Przez'
+  },
+  'by.label' => {
+    'lastUpdated' => '1237212630',
+    'message' => "S\x{142}owo &quot;Przez&qout;"
+  },
+  'captcha label' => {
+    'lastUpdated' => '1204793031',
+    'message' => "Wprowad\x{17a} tekst z obrazka"
+  },
+  'close' => {
+    'lastUpdated' => '1204793042',
+    'message' => 'Zamknij'
+  },
+  'close.label' => {
+    'lastUpdated' => '1204793055',
+    'message' => "S\x{142}owo &quot;Zamknij&quot;."
+  },
+  'closed' => {
+    'lastUpdated' => '1204793071',
+    'message' => "Zamnki\x{119}ty"
+  },
+  'closed.label' => {
+    'lastUpdated' => '1204793091',
+    'message' => "S\x{142}owo &quot;Zamkni\x{119}ty&quot;."
+  },
+  'collab link' => {
+    'lastUpdated' => '1204793121',
+    'message' => "Adres URL do systemu wsp&oacute;\x{142}pracy."
+  },
+  'collaboration post list template variables title' => {
+    'lastUpdated' => '1204793176',
+    'message' => "Wsp&oacute;\x{142}praca, zmienne szablonu listy wiadomo\x{15b}ci"
+  },
+  'collaboration rss template title' => {
+    'lastUpdated' => '1204872772',
+    'message' => "Zmienne Szablonu Systemu Wsp&oacute;\x{142}pracy RSS"
+  },
+  'collaboration search template title' => {
+    'lastUpdated' => '1204872807',
+    'message' => "Zmienne Szablonu Szukania Systemu Wsp&oacute;\x{142}pracy"
+  },
+  'collaboration template labels title' => {
+    'lastUpdated' => '1204872837',
+    'message' => "Etykiety Zmiennych Szablonu Systemu Wsp&oacute;\x{142}pracy"
+  },
+  'collaboration template title' => {
+    'lastUpdated' => '1204872878',
+    'message' => "Zmienne Szablonu Systemu Wsp&oacute;\x{142}pracy"
+  },
+  'collaborationAssetId' => {
+    'lastUpdated' => '1204873019',
+    'message' => "assetId tego Systemu Wsp&oacute;\x{142}pracy. Inaczej ni\x{17c} zmienna assetId, ta nie mo\x{17c}e by\x{107} nadpisana&nbsp;  przez wewm\x{119}trzne warto\x{15b}ci assetId w\x{105}tk&oacute;w."
+  },
+  'compensation' => {
+    'lastUpdated' => '1204873049',
+    'message' => 'Kompensata'
+  },
+  'compensation.label' => {
+    'lastUpdated' => '1204873062',
+    'message' => "S\x{142}owo &quot;Kompensata&quot;."
+  },
+  'content' => {
+    'lastUpdated' => '1204873108',
+    'message' => "Przeformatowany kontent wiadomo\x{15b}ci."
+  },
+  'content filter' => {
+    'lastUpdated' => '1204873124',
+    'message' => "U\x{17c}ywa\x{107} filtr kontentu?"
+  },
+  'content filter description' => {
+    'lastUpdated' => '1204873168',
+    'message' => "Wybierz &quot;Tak&quot; aby filtrowa\x{107} kontent w ka\x{17c}edj wiadomo\x{15b}ci. "
+  },
+  'contentType' => {
+    'lastUpdated' => '1204873201',
+    'message' => 'Typ kontentu'
+  },
+  'controls' => {
+    'lastUpdated' => '1204873275',
+    'message' => "Zestaw ikonek zarz\x{105}dzania do usuni\x{119}cia lub zmiany porz\x{105}dku w wiadomo\x{15b}ci."
+  },
+  'cosmetic' => {
+    'lastUpdated' => '1204873366',
+    'message' => "Kosmetyka (b\x{142}\x{119}dy ortograficzne, problemy z formatowaniem)"
+  },
+  'cosmetic.label' => {
+    'lastUpdated' => '1204873387',
+    'message' => "S\x{142}owo &quot;Kosmetyka (b\x{142}\x{119}dy ortograficzne, problemy z formatowaniem)&quot;."
+  },
+  'critical' => {
+    'lastUpdated' => '1204873443',
+    'message' => "Krytyczny (w wi\x{119}kszo\x{15b}ci nie pracuje)"
+  },
+  'critical.label' => {
+    'lastUpdated' => '1204873456',
+    'message' => "S\x{142}owo &quot;Krytyczny (w wi\x{119}kszo\x{15b}ci nie pracuje)&quot;."
+  },
+  'date' => {
+    'lastUpdated' => '1204872295',
+    'message' => 'Data'
+  },
+  'date posted' => {
+    'lastUpdated' => '1237213060',
+    'message' => ''
+  },
+  'date submitted' => {
+    'lastUpdated' => '1204872311',
+    'message' => "Data Wys\x{142}ania"
+  },
+  'date updated' => {
+    'lastUpdated' => '1204872324',
+    'message' => 'Data Aktualizacji'
+  },
+  'date.label' => {
+    'lastUpdated' => '1204872335',
+    'message' => "S\x{142}owo &quot;Data&quot;."
+  },
+  'dateSubmitted.human' => {
+    'lastUpdated' => '1204872367',
+    'message' => "Data wys\x{142}ania wiadomo\x{15b}ci w czytenej dla cz\x{142}owieka postaci."
+  },
+  'dateUpdated.human' => {
+    'lastUpdated' => '1204872394',
+    'message' => "Data aktualizacji wiadomo\x{15b}ci w czytelnej dla cz\x{142}owieka postaci."
+  },
+  'default karma scale' => {
+    'lastUpdated' => '1204872422',
+    'message' => "Domy\x{15b}lna Skala dla Karmy"
+  },
+  'default karma scale help' => {
+    'lastUpdated' => '1204872712',
+    'message' => "Domy\x{15b}lna warto\x{15b}\x{107}, kt&oacute;ra b\x{119}dzie powi\x{105}zana ze polem skali karmy w w\x{105}tkach. Skala Karmy jest mechanizmem porz\x{105}dkuj\x{105}cym wed\x{142}ug wagi trudno\x{15b}ci, komplikacji etc."
+  },
+  'delete' => {
+    'lastUpdated' => '1204795803',
+    'message' => "Usu\x{144}"
+  },
+  'delete.label' => {
+    'lastUpdated' => '1204795817',
+    'message' => "S\x{142}owo &quot;Usu\x{144}&quot;."
+  },
+  'descending' => {
+    'lastUpdated' => '1204795833',
+    'message' => "Malej\x{105}cy"
+  },
+  'description' => {
+    'lastUpdated' => '1204795886',
+    'message' => 'Opis'
+  },
+  'description.label' => {
+    'lastUpdated' => '1204795895',
+    'message' => "S\x{142}owo &quot;Opis&quot;."
+  },
+  'display last reply' => {
+    'lastUpdated' => '1204795920',
+    'message' => "Wy\x{15b}wietla\x{107} ostatni\x{105} odpowied\x{17a}?"
+  },
+  'display last reply description' => {
+    'lastUpdated' => '1204834628',
+    'message' => "Je\x{15b}li ustawione na Tak, zmienne szablonu b\x{119}d\x{105} dodane w celu wy\x{15b}wietlenia ostatniej wiadomo\x{15b}ci w w\x{105}tku."
+  },
+  'displayLastReply' => {
+    'lastUpdated' => '1204834874',
+    'message' => "Warto\x{15b}\x{107}, kt&oacute;ra wyznacza czy System Wsp&oacute;\x{142}pracy zosta\x{142} skonfigurowany do wy\x{15b}wietlenia ostatniej odpowiedzi. Je\x{15b}li warto\x{15b}\x{107} jest prawdziwa, zmienna lastReplay w zzablonie jest w\x{142}\x{105}czona."
+  },
+  'docs' => {
+    'lastUpdated' => '1204834913',
+    'message' => 'Adres URL dokumentacji o formacie tego pliku, RSS 2.0 (pole opcjonalne)'
+  },
+  'edit' => {
+    'lastUpdated' => '1204834997',
+    'message' => 'Edycja'
+  },
+  'edit job' => {
+    'lastUpdated' => '1237212680',
+    'message' => ''
+  },
+  'edit link' => {
+    'lastUpdated' => '1204835108',
+    'message' => 'Edycja Linku'
+  },
+  'edit message' => {
+    'lastUpdated' => '1204835133',
+    'message' => "Edycja Wiadomo\x{15b}ci"
+  },
+  'edit question' => {
+    'lastUpdated' => '1204835145',
+    'message' => 'Edycja Pytania'
+  },
+  'edit stamp' => {
+    'lastUpdated' => '1204835175',
+    'message' => "Doda\x{107} edycj\x{119} znaczka do wiadomo\x{15b}ci?"
+  },
+  'edit stamp description' => {
+    'lastUpdated' => '1213345849',
+    'message' => "Wybierz &quot;Tak&quot; aby doda\x{107} znak do ka\x{17c}dej wiadomo\x{15b}ci m&oacute;wi\x{105}cy kiedy by\x{142}a ona ostatnio edytowana."
+  },
+  'edit submission' => {
+    'lastUpdated' => '1237212695',
+    'message' => ''
+  },
+  'edit timeout' => {
+    'lastUpdated' => '1204835355',
+    'message' => 'Edycja czasu przedawnienia'
+  },
+  'edit timeout description' => {
+    'lastUpdated' => '1213346809',
+    'message' => "Po up\x{142}yni\x{119}ciu czasu przerwy, wiadomo\x{15b}\x{107} nie mo\x{17c}e by\x{107} d\x{142}u\x{17c}ej edytowana przez tw&oacute;rc\x{119} wiadomo\x{15b}ci."
+  },
+  'edit.label' => {
+    'lastUpdated' => '1204835443',
+    'message' => "S\x{142}owo &quot;Edycja&quot;."
+  },
+  'edit.url' => {
+    'lastUpdated' => '1204835468',
+    'message' => "Adres URL dla edycji wiadomo\x{15b}ci."
+  },
+  'editForm archiveEnabled description' => {
+    'lastUpdated' => '1237212713',
+    'message' => ''
+  },
+  'editForm archiveEnabled label' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'enable avatars' => {
+    'lastUpdated' => '1204835532',
+    'message' => "W\x{142}\x{105}czy\x{107} obrazki w\x{142}a\x{15b}cicieli?"
+  },
+  'enable avatars description' => {
+    'lastUpdated' => '1204835919',
+    'message' => "<p>Wybierz &quot;Tak&quot; aby wy\x{15b}wietli\x{107} obrazki (fotki) u\x{17c}ytkownik&oacute;w w Systemi Wsp&oacute;\x{142}pracy. Pole obrazka musi by\x{107} dost\x{119}pne w profilu u\x{17c}ytkownik&oacute;w oraz musz\x{105} by\x{107} wprowadzone fotki.</p><p>Prezentacja obrazk&oacute;w u\x{17c}ytkownik&oacute;w wymaga d\x{142}u\x{17c}szego czasu \x{142}adowania si\x{119} poszcze\x{14b}&oacute;lnych stron.&nbsp;</p>"
+  },
+  'enable metadata' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'enable metadata description' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'fatal' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'fatal.label' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'feed description' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'feed title' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'filter code' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'filter code description' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'flatLayout' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'form.header' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'form.search' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'full text link' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'generator' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'get cs mail' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'get mail' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'get mail help' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'get mail interval' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'get mail interval help' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'group to edit hoverhelp' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'group to edit label' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'guid' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'id' => {
+    'lastUpdated' => '1213347076',
+    'message' => "ID w zasobach dla wiadomo\x{15b}ci."
+  },
+  'image' => {
+    'lastUpdated' => '1204802796',
+    'message' => 'Obrazek'
+  },
+  'image.label' => {
+    'lastUpdated' => '1204802810',
+    'message' => "S\x{142}owo &quot;Obrazek&quot;."
+  },
+  'image.url' => {
+    'lastUpdated' => '1204802862',
+    'message' => "Adres pierwszego za\x{142}\x{105}czonego obrazka je\x{15b}li wiadomo\x{15b}\x{107} posiada za\x{142}\x{105}czniki. "
+  },
+  'isFifth' => {
+    'lastUpdated' => '1204802929',
+    'message' => "Zmienna warunkowa zwracaj\x{105}ca prawd\x{119} je\x{15b}li wiadomo\x{15b}\x{107} jest pi\x{105}ta w Zasobie Wsp&oacute;\x{142}pracy."
+  },
+  'isFourth' => {
+    'lastUpdated' => '1204802958',
+    'message' => "Zmienna warunkowa zwracaj\x{105}ca prawd\x{119} je\x{15b}li wiadomo\x{15b}\x{107} jest czwarta w Zasobie Wsp&oacute;\x{142}pracy."
+  },
+  'isSecond' => {
+    'lastUpdated' => '1204802972',
+    'message' => "Zmienna warunkowa zwracaj\x{105}ca prawd\x{119} je\x{15b}li wiadomo\x{15b}\x{107} jest druga w Zasobie Wsp&oacute;\x{142}pracy."
+  },
+  'isThird' => {
+    'lastUpdated' => '1204802984',
+    'message' => "Zmienna warunkowa zwracaj\x{105}ca prawd\x{119} je\x{15b}li wiadomo\x{15b}\x{107} jest trzecia w Zasobie Wsp&oacute;\x{142}pracy."
+  },
+  'item description' => {
+    'lastUpdated' => '1204803027',
+    'message' => "Strzeszczenie wiadomo\x{15b}ci."
+  },
+  'item_loop' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'job description' => {
+    'lastUpdated' => '1204803067',
+    'message' => 'Opis Zadania'
+  },
+  'job requirements' => {
+    'lastUpdated' => '1204803092',
+    'message' => 'Wymagania Zadania'
+  },
+  'job title' => {
+    'lastUpdated' => '1204803109',
+    'message' => "Tytu\x{142} Zadania"
+  },
+  'job.description.label' => {
+    'lastUpdated' => '1204803133',
+    'message' => 'Fraza &quot;Opis Zadania&quot;.'
+  },
+  'job.header.label' => {
+    'lastUpdated' => '1204803163',
+    'message' => "Fraza &quot;Edycja Widomo\x{15b}ci Zadania&quot;."
+  },
+  'job.requirements.label' => {
+    'lastUpdated' => '1204803179',
+    'message' => 'Fraza &quot;Wymagania Zadania.'
+  },
+  'job.title.label' => {
+    'lastUpdated' => '1204803195',
+    'message' => "Fraza &quot;Tytu\x{142} Zadania&quot;."
+  },
+  'karma rank' => {
+    'lastUpdated' => '1204803232',
+    'message' => 'Ranga Karmy'
+  },
+  'karma rating multiplier' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'karma rating multiplier description' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'karma scale' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'karma spent to rate' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'karma spent to rate description' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'karma/post' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'karma/post description' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'karmaIsEnabled' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'lastBuildDate' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'lastReply' => {
+    'lastUpdated' => '1204870954',
+    'message' => "Ostatnia Odpowied\x{17a}"
+  },
+  'lastReply.dateSubmitted.human' => {
+    'lastUpdated' => '1204871102',
+    'message' => "Data wprowadzenia ostatniej odpowiedzi w czytelnej dla cz\x{142}owieka postaci."
+  },
+  'lastReply.label' => {
+    'lastUpdated' => '1204871032',
+    'message' => "Fraza &quot;Ostatnia Odpowied\x{17a}&quot;."
+  },
+  'lastReply.timeSubmitted.human' => {
+    'lastUpdated' => '1204871084',
+    'message' => "Czas ostatniej odpowiedzi w czytelnej dla cz\x{142}owieka postaci."
+  },
+  'lastReply.title' => {
+    'lastUpdated' => '1204871151',
+    'message' => "Tytu\x{142} ostatniej odpowiedzi."
+  },
+  'lastReply.url' => {
+    'lastUpdated' => '1204871182',
+    'message' => 'Adres URL do ostatniej odpowiedzi w korespondencji.'
+  },
+  'lastReply.user.isVisitor' => {
+    'lastUpdated' => '1204871237',
+    'message' => "Warunek zwracaj\x{105}cy prawd\x{119} je\x{15b}li tw&oacute;rc\x{105} ostatniej odpowiedzi by\x{142} go\x{15b}\x{107}."
+  },
+  'lastReply.userProfile.url' => {
+    'lastUpdated' => '1204871293',
+    'message' => "Adres URL do Profilu U\x{17c}ytkownika, kt&oacute;ry wys\x{142}a\x{142} t\x{105} wiadomo\x{15b}\x{107}."
+  },
+  'lastReply.username' => {
+    'lastUpdated' => '1204871322',
+    'message' => "Nazwa u\x{17c}ytkownika, kt&oacute;ry wprowadzi\x{142} ostatni\x{105} odpowied\x{17a}."
+  },
+  'layout' => {
+    'lastUpdated' => '1204871358',
+    'message' => "Uk\x{142}ad/Wygl\x{105}d"
+  },
+  'layout.flat.label' => {
+    'lastUpdated' => '1204871389',
+    'message' => "S\x{142}owo &quot;P\x{142}aski&quot;."
+  },
+  'layout.label' => {
+    'lastUpdated' => '1204871411',
+    'message' => "S\x{142}owo &quot;Uk\x{142}ad/Wygl\x{105}d&quot;."
+  },
+  'layout.nested.label' => {
+    'lastUpdated' => '1204871449',
+    'message' => "S\x{142}owo &quot;Zagnie\x{17c}d\x{17c}ony&quot;."
+  },
+  'link.header.label' => {
+    'lastUpdated' => '1204871465',
+    'message' => 'Fraza &quot;Edycja Linku&quot;.'
+  },
+  'location' => {
+    'lastUpdated' => '1204871477',
+    'message' => 'Lokalizacja'
+  },
+  'location.label' => {
+    'lastUpdated' => '1204871502',
+    'message' => "S\x{142}owo &quot;Lokalizacja&quot;."
+  },
+  'lock' => {
+    'lastUpdated' => '1204871513',
+    'message' => 'Blokada'
+  },
+  'lock.label' => {
+    'lastUpdated' => '1204871524',
+    'message' => "S\x{142}owo &quot;Blokada&quot;."
+  },
+  'mail' => {
+    'lastUpdated' => '1204871330',
+    'message' => 'Poczta'
+  },
+  'mail account' => {
+    'lastUpdated' => '1204836189',
+    'message' => 'Konto'
+  },
+  'mail account help' => {
+    'lastUpdated' => '1204836255',
+    'message' => "Nazwa konta (u\x{17c}ytkownik / adres email) wykorzystywana w celu zalogowania do serwera pocztowego."
+  },
+  'mail address' => {
+    'lastUpdated' => '1204869734',
+    'message' => 'Adres e-mail'
+  },
+  'mail address help' => {
+    'lastUpdated' => '1204869801',
+    'message' => "Adres e-mail na jaki u\x{17c}ytkownicy mog\x{105} wysy\x{142}a\x{107} wiadomo\x{15b}ci."
+  },
+  'mail password' => {
+    'lastUpdated' => '1204869826',
+    'message' => "Has\x{142}o"
+  },
+  'mail password help' => {
+    'lastUpdated' => '1204869857',
+    'message' => "Has\x{142}o dla konta na serwerze."
+  },
+  'mail prefix' => {
+    'lastUpdated' => '1204869869',
+    'message' => 'Prefiks'
+  },
+  'mail prefix help' => {
+    'lastUpdated' => '1204869968',
+    'message' => "Ci\x{105}g znak&oacute;w, kt&oacute;ry b\x{119}dzie rozpoczyna\x{142} tytu\x{142}y list&oacute;w elektronicznych wysy\x{142}anych na zewn\x{105}trz Systemu Wsp&oacute;\x{142}pracy."
+  },
+  'mail server' => {
+    'lastUpdated' => '1204869979',
+    'message' => 'Serwer pocztowy'
+  },
+  'mail server help' => {
+    'lastUpdated' => '1204870065',
+    'message' => "Nazwa lub adres IP serwera pocztowego dla wysy\x{142}anych list&oacute;w."
+  },
+  'max image size' => {
+    'lastUpdated' => '1204870084',
+    'message' => 'Maksymalny Rozmiar Obrazka'
+  },
+  'max image size help' => {
+    'lastUpdated' => '1204870207',
+    'message' => "Ustaw rozmiar za\x{142}\x{105}czanych obrazk&oacute;w w Systemie Wsp&oacute;\x{142}pracy. Je\x{15b}li ustawisz 0 zostanie u\x{17c}yta warto\x{15b}\x{107} domy\x{15b}lna w g\x{142}&oacute;wnych ustawieniach serwisu."
+  },
+  'message' => {
+    'lastUpdated' => '1204870224',
+    'message' => "Wiadomo\x{15b}\x{107}"
+  },
+  'message.header.label' => {
+    'lastUpdated' => '1204870245',
+    'message' => "Fraza &quot;Edycja Wiadomo\x{15b}ci&quot;."
+  },
+  'message.label' => {
+    'lastUpdated' => '1204870261',
+    'message' => "S\x{142}owo &quot;Wiadomo\x{15b}\x{107}&quot;."
+  },
+  'minor' => {
+    'lastUpdated' => '1204870356',
+    'message' => "Drugorz\x{119}dny (nieprzyjemny, ale nie szkodliwy)"
+  },
+  'minor.label' => {
+    'lastUpdated' => '1204870377',
+    'message' => "S\x{142}owo &quot;Drugorz\x{119}dny&quot;."
+  },
+  'nested' => {
+    'lastUpdated' => '1204870414',
+    'message' => "Zagnie\x{17c}d\x{17c}ony"
+  },
+  'new window' => {
+    'lastUpdated' => '1204870434',
+    'message' => "Otworzy\x{107} w nowym oknie?"
+  },
+  'newWindow.label' => {
+    'lastUpdated' => '1204870455',
+    'message' => "Fraza &quot;Otwo\x{17c}y\x{107} w nowym oknie?&quot;."
+  },
+  'next' => {
+    'lastUpdated' => '1204870472',
+    'message' => "Nast\x{119}pny"
+  },
+  'next.label' => {
+    'lastUpdated' => '1204870485',
+    'message' => "S\x{142}owo &quot;Nast\x{119}pny&quot;."
+  },
+  'notification template' => {
+    'lastUpdated' => '1204870505',
+    'message' => "System Wsp&oacute;\x{142}pracy, Szablon Powiadomienia"
+  },
+  'notification template description' => {
+    'lastUpdated' => '1204870564',
+    'message' => "Szablon wykorzystywane do wygenerowania list&oacute;w elektronicznych dla u\x{17c}ytkownik&oacute;w, kt&oacute;rzy posiadaj\x{105}cych subskrycpj\x{119} w Zasobie/Asset."
+  },
+  'open' => {
+    'lastUpdated' => '1204870575',
+    'message' => 'Otw&oacute;rz'
+  },
+  'open.label' => {
+    'lastUpdated' => '1204870588',
+    'message' => "S\x{142}owo &quot;Otw&oacute;rz&quot;."
+  },
+  'post' => {
+    'lastUpdated' => '1204870762',
+    'message' => 'Korespondencja'
+  },
+  'post template' => {
+    'lastUpdated' => '1204870750',
+    'message' => "System Wsp&oacute;\x{142}pracy, Szablon Formularza Korespondencji"
+  },
+  'post template description' => {
+    'lastUpdated' => '1204870733',
+    'message' => 'Szablon dla indywidualnej korespondencji.'
+  },
+  'post title' => {
+    'lastUpdated' => '1204886329',
+    'message' => "Tytu\x{142} wiadomo\x{15b}ci (komunikatu)."
+  },
+  'post.label' => {
+    'lastUpdated' => '1204886348',
+    'message' => "S\x{142}owo &quot;Wiadomo\x{15b}\x{107}&quot;."
+  },
+  'post_loop' => {
+    'lastUpdated' => '1204886377',
+    'message' => "Lista zawieraj\x{105}ca wiadomo\x{15b}ci Zasobu Wsp&oacute;\x{142}pracy."
+  },
+  'posts/page' => {
+    'lastUpdated' => '1204886401',
+    'message' => "Liczba wiadomo\x{15b}ci na stron\x{119}"
+  },
+  'posts/page description' => {
+    'lastUpdated' => '1204886466',
+    'message' => "Liczba wiadomo\x{15b}ci wy\x{15b}wietlanych na ka\x{17c}dej stronie w szablonie w\x{105}tku. Ustawienie wi\x{119}kszej liczby wiadomo\x{15b}ci mo\x{17c}e op&oacute;\x{17a}ni\x{107} generowanie strony."
+  },
+  'preview' => {
+    'lastUpdated' => '1204886478',
+    'message' => "Podgl\x{105}d"
+  },
+  'previous' => {
+    'lastUpdated' => '1204886488',
+    'message' => 'Poprzedni'
+  },
+  'previous.label' => {
+    'lastUpdated' => '1204886500',
+    'message' => "S\x{142}owo &quot;Poprzedni&quot;."
+  },
+  'pubDate' => {
+    'lastUpdated' => '1204886522',
+    'message' => 'Data publikacji.'
+  },
+  'query.form' => {
+    'lastUpdated' => '1237212753',
+    'message' => ''
+  },
+  'question' => {
+    'lastUpdated' => '1204886532',
+    'message' => 'Pytanie'
+  },
+  'question.header.label' => {
+    'lastUpdated' => '1204886604',
+    'message' => 'Fraza &quot;Edycja Pytania&quot;.'
+  },
+  'question.label' => {
+    'lastUpdated' => '1204886618',
+    'message' => "S\x{142}owo &quot;Pytanie&quot;."
+  },
+  'rate' => {
+    'lastUpdated' => '1204886645',
+    'message' => "Wska\x{17a}nik"
+  },
+  'rate.label' => {
+    'lastUpdated' => '1204886657',
+    'message' => "S\x{142}owo &quot;Wska\x{17a}nik&quot;."
+  },
+  'rating' => {
+    'lastUpdated' => '1204886677',
+    'message' => 'Ocena'
+  },
+  'rating.label' => {
+    'lastUpdated' => '1204886690',
+    'message' => "S\x{142}owo &quot;Ocena&quot;."
+  },
+  'rating_loop' => {
+    'lastUpdated' => '1204886747',
+    'message' => "P\x{119}tla dla poszczeg&oacute;lnych punkt&oacute;w oceny dla wiadomo\x{15b}ci."
+  },
+  'rating_loop.count' => {
+    'lastUpdated' => '1204886786',
+    'message' => 'Zmienna indeksowa dla <strong>rating_loop</strong>.'
+  },
+  'read more' => {
+    'lastUpdated' => '1204886798',
+    'message' => "Czytaj wi\x{119}cej"
+  },
+  'readmore.label' => {
+    'lastUpdated' => '1204886838',
+    'message' => "Fraza &quot;Czytaj wi\x{119}cej&quot;."
+  },
+  'rejected' => {
+    'lastUpdated' => '1204887751',
+    'message' => 'Odrzucono'
+  },
+  'rejected because no user account' => {
+    'lastUpdated' => '1204888591',
+    'message' => "Poniewa\x{17c} nie jeste\x{15b} naszym u\x{17c}ytkownikiem i nie posiadasz konta nie mo\x{17c}esz wysy\x{142}a\x{107} wiadomo\x{15b}ci. By\x{107} mo\x{17c}e te\x{17c} nie skojarzy\x{142}e\x{15b} tego adresu e-mail z kontem w systemie. "
+  },
+  'rejected because not allowed' => {
+    'lastUpdated' => '1204888525',
+    'message' => "Nie mo\x{17c}esz wysy\x{142}a\x{107} wiadomo\x{15b}ci poniewa\x{17c} posiadasz niewystarczaj\x{105}ce uprawnienia lub nie jeste\x{15b} subskrybentem dyskusji."
+  },
+  'replies' => {
+    'lastUpdated' => '1204889723',
+    'message' => 'Odpowiedzi'
+  },
+  'replies.label' => {
+    'lastUpdated' => '1204889736',
+    'message' => "S\x{142}owo &quot;Odpowiedzi&quot;."
+  },
+  'reply' => {
+    'lastUpdated' => '1204889751',
+    'message' => "Odpowied\x{17a}"
+  },
+  'reply.label' => {
+    'lastUpdated' => '1204889764',
+    'message' => "S\x{142}owo &quot;Odpowied\x{17a}&quot;."
+  },
+  'require subscription for email posting' => {
+    'lastUpdated' => '1204886821',
+    'message' => "Wymagana subskrypcja dla odpowiedzi elektroniczn\x{105} poczt\x{105}?"
+  },
+  'require subscription for email posting help' => {
+    'lastUpdated' => '1204792165',
+    'message' => "Je\x{15b}li ustawiono opcj\x{119} na &quot;Tak&quot; u\x{17c}ytkownik chc\x{105}c wys\x{142}a\x{107} wiadomo\x{15b}\x{107} musi nie tylko nale\x{17c}e\x{107} do grupy przydzielonej do w\x{105}tku, ale r&oacute;wnie\x{17c} powinien by\x{107} subskrybentem systemu wsp&oacute;\x{142}pracy lub w\x{105}tku."
+  },
+  'responses' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'responses.label' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'rich editor' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'rich editor description' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'rss template' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'rss template description' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'rss.url' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'search' => {
+    'lastUpdated' => '1207312944',
+    'message' => 'Szukaj'
+  },
+  'search template' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'search template description' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'search.label' => {
+    'lastUpdated' => '1207297246',
+    'message' => "S\x{142}owo &quot;Szukaj&quot;."
+  },
+  'search.url' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'sequence' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'severity' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'severity.label' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'sort by' => {
+    'lastUpdated' => '1237212779',
+    'message' => ''
+  },
+  'sort by description' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'sort order' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'sort order description' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'sortby.date.url' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'sortby.karmaRank.url' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'sortby.lastreply.url' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'sortby.rating.url' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'sortby.replies.url' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'sortby.title.url' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'sortby.username.url' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'sortby.views.url' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'status' => {
+    'lastUpdated' => '1207304466',
+    'message' => 'Status'
+  },
+  'status.label' => {
+    'lastUpdated' => '1207297454',
+    'message' => "S\x{142}owo &quot;Status&quot;."
+  },
+  'stick.label' => {
+    'lastUpdated' => '1207300436',
+    'message' => "S\x{142}owo &quot;Przyklej&quot;."
+  },
+  'sticky' => {
+    'lastUpdated' => '1237212827',
+    'message' => 'Przyklej'
+  },
+  'subject' => {
+    'lastUpdated' => '1207304476',
+    'message' => 'Temat'
+  },
+  'subject.label' => {
+    'lastUpdated' => '1207297482',
+    'message' => "S\x{142}owo &quot;Temat&quot;."
+  },
+  'submission.header.label' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'subscribe' => {
+    'lastUpdated' => '1207312993',
+    'message' => 'Subskrybuj'
+  },
+  'subscribe.label' => {
+    'lastUpdated' => '1207313087',
+    'message' => "S\x{142}owo &quot;Subskrybuj&quot;."
+  },
+  'subscribe.url' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'subscription group hoverHelp' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'subscription group label' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'synopsis' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'synopsis.label' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'system template' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'system template description' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'thread approval workflow' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'thread approval workflow description' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'thread template' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'thread template description' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'threads/page' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'threads/page description' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'thumbnail' => {
+    'lastUpdated' => '1237212855',
+    'message' => 'Miniaturka'
+  },
+  'thumbnail size' => {
+    'lastUpdated' => '1237212868',
+    'message' => ''
+  },
+  'thumbnail size help' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'thumbnail.label' => {
+    'lastUpdated' => '1237212891',
+    'message' => "S\x{142}owo &quot;Miniaturka&quot;"
+  },
+  'timeSubmitted.human' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'timeUpdated.human' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'title' => {
+    'lastUpdated' => '1237212905',
+    'message' => "Tytu\x{142}"
+  },
+  'title.label' => {
+    'lastUpdated' => '1237212921',
+    'message' => "S\x{142}owo &quot;Tytu\x{142}&quot;"
+  },
+  'tmplVar status' => {
+    'lastUpdated' => '1237212931',
+    'message' => ''
+  },
+  'tmplVar thumbnail' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'tmplVar url' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'transfer karma' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'unarchive' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'unlock' => {
+    'lastUpdated' => '1207304836',
+    'message' => 'Odblokuj'
+  },
+  'unlock.label' => {
+    'lastUpdated' => '1207304850',
+    'message' => "S\x{142}owo &quot;Odblokuj&quot;."
+  },
+  'unstick' => {
+    'lastUpdated' => '1207304821',
+    'message' => 'Odklej'
+  },
+  'unstick.label' => {
+    'lastUpdated' => '1207300465',
+    'message' => "S\x{142}owo &quot;Odklej&quot;."
+  },
+  'unsubscribe' => {
+    'lastUpdated' => '1207313122',
+    'message' => 'Wypisz'
+  },
+  'unsubscribe.label' => {
+    'lastUpdated' => '1207313134',
+    'message' => "S\x{142}owo &quot;Wypisz&quot;."
+  },
+  'unsubscribe.url' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'url' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'url.label' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'use captcha hover help' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'use captcha label' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'use preview' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'use preview description' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'user' => {
+    'lastUpdated' => '1237212973',
+    'message' => "U\x{17c}ytkownik"
+  },
+  'user defined 1' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'user defined 2' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'user defined 3' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'user defined 4' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'user defined 5' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'user.canPost' => {
+    'lastUpdated' => '1237213010',
+    'message' => ''
+  },
+  'user.hasRead' => {
+    'lastUpdated' => '1237212986',
+    'message' => ''
+  },
+  'user.isModerator' => {
+    'lastUpdated' => '1207313317',
+    'message' => "U\x{17c}ytkownik jest moderatorem"
+  },
+  'user.isPoster' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'user.isSubscribed' => {
+    'lastUpdated' => '1213347284',
+    'message' => "Zmienna warunkowa zwracaj\x{105}ca prawd\x{119} je\x{15b}li bie\x{17c}\x{105}cy u\x{17c}ytkownik jest zapisany do tego zasobu systemu wsp&oacute;\x{142}pracy."
+  },
+  'user.isVisitor' => {
+    'lastUpdated' => '1207313330',
+    'message' => "U\x{17c}ytkownik jest go\x{15b}ciem"
+  },
+  'user.label' => {
+    'lastUpdated' => '1213347125',
+    'message' => "S\x{142}owo &quot;U\x{17c}ytkownik&quot;."
+  },
+  'userProfile.url' => {
+    'lastUpdated' => '1207313277',
+    'message' => "Adres URL do profilu zarejestrowanego u\x{17c}ytkownika."
+  },
+  'views' => {
+    'lastUpdated' => '1204871571',
+    'message' => "Wy\x{15b}wietlono"
+  },
+  'views.label' => {
+    'lastUpdated' => '1204871586',
+    'message' => "S\x{142}owo &quot;Wy\x{15b}wietlono&quot;."
+  },
+  'visitor' => {
+    'lastUpdated' => '1237212955',
+    'message' => "Nazwa go\x{15b}cia"
+  },
+  'visitor cache timeout' => {
+    'lastUpdated' => '1204871658',
+    'message' => "Czas wyga\x{15b}ni\x{119}cia keszu dla go\x{15b}cia"
+  },
+  'visitor cache timeout help' => {
+    'lastUpdated' => '1204871797',
+    'message' => "Od chwili gdy wszyscy go\x{15b}cie widz\x{105} zas&oacute;b w ten sam spos&oacute;b wykorzystamy kesz w celu zwi\x{119}kszenia wydajno\x{15b}ci systemu. Jak d\x{142}ugo powinni\x{15b}my korzysta\x{107} z keszu?"
+  },
+  'visitorName.label' => {
+    'lastUpdated' => '1204871813',
+    'message' => "Fraza &quot;Nazwa go\x{15b}cia&quot;."
+  },
+  'webMaster' => {
+    'lastUpdated' => '1204871979',
+    'message' => "Adres e-mailosoby odpowiedzialnej za techniczn\x{105} stron\x{119} publikacji w tym RSS feed (pole opcjonalne)."
+  },
+  'who posts' => {
+    'lastUpdated' => '1204871997',
+    'message' => "Kto mo\x{17c}e wysy\x{142}a\x{107}?"
+  },
+  'who posts description' => {
+    'lastUpdated' => '1204872034',
+    'message' => "Grupa, kt&oacute;rej cz\x{142}onkowie posadaj\x{105} prawo do wysy\x{142}ania wiadomo\x{15b}ci."
+  },
+  'who threads' => {
+    'lastUpdated' => '1204872057',
+    'message' => "Kto mo\x{17c}e rozpoczyna\x{107} nowe w\x{105}tki?"
+  },
+  'who threads description' => {
+    'lastUpdated' => '1204872092',
+    'message' => "Grupa, kt&oacute;rej cz\x{142}onkowie s\x{105} upowa\x{17c}nieni do rozpoczynania nowych w\x{105}tk&oacute;w w Zasobie/Asset."
+  }
+}
+;
 
 1;

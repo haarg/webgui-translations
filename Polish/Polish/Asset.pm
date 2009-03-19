@@ -626,16 +626,16 @@ our $I18N = {
     'message' => "Zarz\x{105}dzaj"
   },
   'manage help' => {
-    'lastUpdated' => 0,
-    'message' => 'Bring up the Asset Manager displaying this Asset\'s children, if any.'
+    'lastUpdated' => '1237457846',
+    'message' => "Je\x{17c}eli istniej\x{105} jakiekolwiek elementy podrz\x{119}dne w tym zasobie, poka\x{17c} je."
   },
   'menu label' => {
     'lastUpdated' => undef,
     'message' => ''
   },
   'menuTitle' => {
-    'lastUpdated' => '1236943982',
-    'message' => "Tytu\x{142} Zasobu u\x{17c}ywany w Nawigacjach"
+    'lastUpdated' => '1237212399',
+    'message' => "Tytu\x{142} zasobu/asset u\x{17c}ywany w Nawigacjach"
   },
   'metadata edit property' => {
     'lastUpdated' => '1236943999',
@@ -645,12 +645,16 @@ our $I18N = {
     'lastUpdated' => '1236944009',
     'message' => "Strona, kt\x{f3}rej za\x{17c}\x{105}dano nie istnieje. Co chcia\x{142}by\x{15b} zrobi\x{107}?"
   },
+  'need a depth' => {
+    'lastUpdated' => '1237457108',
+    'message' => "Potrzebne zagnie\x{17c}d\x{17c}enie"
+  },
   'need a userId parameter' => {
     'lastUpdated' => '1236944238',
     'message' => 'Potrzebny parametr userId'
   },
   'newWindow' => {
-    'lastUpdated' => '1236944530',
+    'lastUpdated' => '1237212415',
     'message' => "Warto\x{15b}\x{107} ta b\x{119}dzie wynosi\x{107} <b>TRUE</b> je\x{17c}eli Zas\x{f3}b/Asset ten jest otwierany w nowym oknie przegl\x{105}darki."
   },
   'no results' => {
@@ -766,24 +770,24 @@ our $I18N = {
     'message' => 'Not symlinking default asset; not included in exported subtree.'
   },
   'rootUrl form hoverHelp' => {
-    'lastUpdated' => '1160773957',
-    'message' => 'What action to take regarding queries to the root URL.  Symlink Default means to create a symbolic link from the root-URL index file to the index file of the default asset (not available on all systems).  None means to do nothing, which usually causes queries to the root URL to be rejected in the exported site.'
+    'lastUpdated' => '1237458382',
+    'message' => ''
   },
   'rootUrl form label' => {
     'lastUpdated' => '1204239536',
     'message' => 'Adres URL korzenia'
   },
   'rootUrl form option none' => {
-    'lastUpdated' => '1160773957',
-    'message' => 'None'
+    'lastUpdated' => '1237457541',
+    'message' => "\x{17b}aden"
   },
   'rootUrl form option symlinkDefault' => {
-    'lastUpdated' => '1160773957',
-    'message' => 'Symlink Default'
+    'lastUpdated' => '1237457609',
+    'message' => ''
   },
   'rootUrl symlinking default' => {
-    'lastUpdated' => '1160773957',
-    'message' => 'Symlinking extras and uploads dirs.'
+    'lastUpdated' => '1237457582',
+    'message' => ''
   },
   'save and commit' => {
     'lastUpdated' => '1204239547',

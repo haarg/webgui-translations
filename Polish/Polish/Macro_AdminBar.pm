@@ -10,7 +10,7 @@ our $I18N = {
     'message' => 'Nowy kontent'
   },
   12 => {
-    'lastUpdated' => '1236869693',
+    'lastUpdated' => '1237213411',
     'message' => "Wy\x{142}\x{105}czenie administracji."
   },
   376 => {
@@ -33,17 +33,25 @@ our $I18N = {
     'lastUpdated' => '1149178356',
     'message' => "P\x{119}tla zawiera r\x{f3}\x{17c}norodne listy danych do wy\x{15b}wietlenia."
   },
+  'basic' => {
+    'lastUpdated' => '1237213400',
+    'message' => 'Podstawowe'
+  },
   'commit my changes' => {
     'lastUpdated' => '1236869720',
     'message' => "Zatwierd\x{17a} zmiany"
   },
   'community' => {
-    'lastUpdated' => '1236869728',
-    'message' => ''
+    'lastUpdated' => '1237213517',
+    'message' => "Spo\x{142}eczno\x{15b}\x{107}"
   },
   'icon' => {
     'lastUpdated' => '1149178356',
     'message' => "Adres URL ikony powi\x{105}zanej z pozycj\x{105}."
+  },
+  'intranet' => {
+    'lastUpdated' => '1237213476',
+    'message' => "Sie\x{107}"
   },
   'items' => {
     'lastUpdated' => '1149178356',
@@ -61,6 +69,14 @@ our $I18N = {
     'lastUpdated' => '1149178356',
     'message' => 'Przyjazna nazwa javascript dla tej kategorii.'
   },
+  'packages' => {
+    'lastUpdated' => '1237242997',
+    'message' => 'Pakiety'
+  },
+  'prototypes' => {
+    'lastUpdated' => '1237213255',
+    'message' => 'Prototypy'
+  },
   'title' => {
     'lastUpdated' => '1149178356',
     'message' => "Link tytu\x{142}u wy\x{15b}wietlany dla pozycji."
@@ -68,6 +84,10 @@ our $I18N = {
   'url' => {
     'lastUpdated' => '1149178356',
     'message' => 'Adres URL dla pozycji.'
+  },
+  'utilities' => {
+    'lastUpdated' => '1237213324',
+    'message' => "Narz\x{119}dzia"
   }
 }
 ;

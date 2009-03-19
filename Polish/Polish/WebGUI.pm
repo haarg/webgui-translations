@@ -1649,9 +1649,17 @@ our $I18N = {
     'lastUpdated' => '1207321098',
     'message' => "Wys\x{142}a\x{107} wiadomo\x{15b}\x{107} powitania?"
   },
+  '868 help' => {
+    'lastUpdated' => '1237458534',
+    'message' => "<p>Czy u\x{17c}ytkownik powinien otrzyma\x{107} maila z powiadomieniem o za\x{142}o\x{17c}eniu w\x{142}asnego konta?</p>"
+  },
   869 => {
     'lastUpdated' => '1207321134',
     'message' => "Wiadomo\x{15b}\x{107} powitalna"
+  },
+  '869 help' => {
+    'lastUpdated' => '1237458593',
+    'message' => "<p>Ta wiadomo\x{15b}\x{107} b\x{119}dzie cz\x{119}\x{15b}ci\x{105} maila wys\x{142}anego do u\x{17c}ytkownika po za\x{142}o\x{17c}eniu konta na tej stronie.</p>"
   },
   87 => {
     'lastUpdated' => '1207321141',
@@ -1806,25 +1814,8 @@ our $I18N = {
     'message' => 'Schowek systemowy'
   },
   958 => {
-    'lastUpdated' => '1173117114',
-    'message' => '<p>The clipboard is a special system location to which content may be temporarily cut or copied.  Items in the clipboard may then be pasted to a new location.</p>
-
-<p>The clipboard contents may be managed individually. You may delete or paste an item by selecting the appropriate icon.  You may also empty the entire contents of the clipboard to the trash by choosing the Empty clipboard menu option.</p>
-
-<p>The clipboard will only show Assets that you placed there or that are under your current version tag.</p>
-
-<p>If you are an Admin, you may access the System Clipboard, which will display all Assets by any user which are committed
-or are under your current version tag.</p>
-
-<p><b>Title</b><br />The name of the item in the clipboard.  You may view the item by selecting the title.</p>
-
-<p><b>Type</b><br />The type of content.  For instance, a Page, Article, EventsCalendar, etc.</p>
-
-<p><b>Clipboard Date</b><br />The date and time the item was added to the clipboard.</p>
-
-<p><b>Previous Location</b><br />The location where the item was previously found.  You may view the previous location by selecting the location.</p>
-
-<p><b>Username</b><br />The username of the individual who placed the item in the clipboard.  This optional field is only visible in shared clipboard environments or when an administrator is managing the system clipboard.</p>'
+    'lastUpdated' => '1237460077',
+    'message' => "<p>The clipboard is a special system location to which content may be temporarily cut or copied.  Items in the clipboard may then be pasted to a new location.</p>\r\n<p>Schowek zawarto\x{15b}ci mo\x{17c}e by\x{107} zarz\x{105}dzany indywidualnie. Mo\x{17c}esz usun\x{105}\x{107} albo wklei\x{107} poszczeg\x{f3}lny element schowka poprzez wyb\x{f3}r odpowiedniej ikony. Mo\x{17c}esz r\x{f3}wnie\x{17c} usun\x{105}\x{107} ca\x{142}\x{105} zawarto\x{15b}\x{107} schowka do \x{15b}mietnika poprzez wyb\x{f3}r opcji &quot;Opr\x{f3}\x{17c}nij schowek&quot;</p>\r\n\r\n<p>Schowek poka\x{17c}e tylko te zasoby/assets, kt\x{f3}re samodzielnie w nim umie\x{15b}ci\x{142}e\x{15b} albo zasoby/assets b\x{119}d\x{105}ce w aktualnie wybranej wersji.</p>\r\n\r\n<p>If you are an Admin, you may access the System Clipboard, which will display all Assets by any user which are committed\r\nor are under your current version tag.</p>\r\n\r\n<p>Je\x{17c}eli jeste\x{15b} Administratorem, posiadasz pe\x{142}ny dost\x{119}p do schowka systemowego. Wy\x{15b}wietli on wszystkie zasoby/assets umieszczone w nim przez ka\x{17c}dego z u\x{17c}ytkownik\x{f3}w w aktualnie zatwierdzonych wersjach.</p>\r\n\r\n<p><b>Tytu\x{142}</b><br />Nazwa zasobu/asset znajduj\x{105}cego si\x{119} w schowku. Mo\x{17c}esz wy\x{15b}wietli\x{107} zas\x{f3}b/asset wybieraj\x{105}c jego nazw\x{119} z listy.</p>\r\n\r\n<p><b>Typ</b><br />Rodzaj zasobu/asset. Na przyk\x{142}ad: strona, artyku\x{142}, kalendarz zdarze\x{144}, itd.</p>\r\n\r\n<p><b>Data schowka</b><br />Data i czas dodania zasobu/asset do schowka.</p>\r\n\r\n<p><b>Poprzednia lokalizacja</b><br />Miejsce w kt\x{f3}rym ostatnio by\x{142} umieszczony zas\x{f3}b/asset. Mo\x{17c}esz zobaczy\x{107} poprzedni\x{105} lokalizacj\x{119} zasobu/asset poprzez zaznaczenie loklalizacji.</p>\r\n\r\n<p><b>Nazwa u\x{17c}ytkownika</b><br />Indywidualna nazwa u\x{17c}ytkownika, kt\x{f3}ry umie\x{15b}ci\x{142} zas\x{f3}b/asset w schowku. To pole jest widoczne tylko w\x{f3}wczas kiedy dzielisz z kim\x{15b} zasoby/assets schowka lub jeste\x{15b} Administratorem.</p>"
   },
   959 => {
     'lastUpdated' => '1236868114',
@@ -1978,9 +1969,25 @@ or are under your current version tag.</p>
     'lastUpdated' => '1236868844',
     'message' => "Wszystkie prawa zastrze\x{17c}one"
   },
+  'All the news you need to know.' => {
+    'lastUpdated' => '1237460112',
+    'message' => "Wszystkie wiadomo\x{15b}ci, kt\x{f3}re powiniene\x{15b} wiedzie\x{107}."
+  },
+  'Attachments formName' => {
+    'lastUpdated' => '1237243406',
+    'message' => "Za\x{142}\x{105}czniki"
+  },
+  'Cannot find what you are looking for? Try our search.' => {
+    'lastUpdated' => '1237460611',
+    'message' => ''
+  },
+  'Contact Us' => {
+    'lastUpdated' => '1237242741',
+    'message' => ''
+  },
   'Enable Metadata' => {
-    'lastUpdated' => '1089039511',
-    'message' => 'Enable Metadata?'
+    'lastUpdated' => '1237244545',
+    'message' => "W\x{142}\x{105}czy\x{107} Metadata?"
   },
   'Enable Metadata description' => {
     'lastUpdated' => '1120239343',
@@ -2004,28 +2011,56 @@ a user.'
     'lastUpdated' => '1217419030',
     'message' => "Pozw\x{f3}l u\x{17c}ytkownikom wysy\x{142}a\x{107} e-maile do znajomych w celu zaproszenia ich do rejestracji na stronie."
   },
+  'For' => {
+    'lastUpdated' => '1237460573',
+    'message' => 'Dla'
+  },
+  'Forums' => {
+    'lastUpdated' => '1237460595',
+    'message' => ''
+  },
+  'General Discussion' => {
+    'lastUpdated' => '1237460804',
+    'message' => ''
+  },
   'Illegal Warning' => {
     'lastUpdated' => '1089039511',
     'message' => 'Enabling this feature is illegal in some countries, like Australia. In addition, some countries require you to add a warning to your site if you use this feature. Consult your local authorities for local laws. Plain Black Corporation is not responsible for your illegal activities, regardless of ignorance or malice.'
   },
+  'My Style' => {
+    'lastUpdated' => '1237460815',
+    'message' => ''
+  },
   'Select State' => {
-    'lastUpdated' => '1161388472',
-    'message' => 'Select State'
+    'lastUpdated' => '1237460839',
+    'message' => 'Wybierz stan'
+  },
+  'Show when online?' => {
+    'lastUpdated' => '1237243483',
+    'message' => "Poka\x{17c} kiedy online? "
+  },
+  'Support' => {
+    'lastUpdated' => '1237243503',
+    'message' => 'Wsparcie'
   },
   'account' => {
-    'lastUpdated' => '1098327046',
-    'message' => 'Account'
+    'lastUpdated' => '1237243591',
+    'message' => 'Konto'
   },
   'account options template variables' => {
     'lastUpdated' => undef,
     'message' => ''
   },
+  'account settings tab' => {
+    'lastUpdated' => '1237243644',
+    'message' => 'Konto'
+  },
   'account.options' => {
-    'lastUpdated' => undef,
+    'lastUpdated' => '1237243598',
     'message' => ''
   },
   'additional parameters' => {
-    'lastUpdated' => undef,
+    'lastUpdated' => '1237243655',
     'message' => ''
   },
   'additional parameters help' => {
@@ -2061,15 +2096,15 @@ a user.'
     'message' => 'You can enter the statements that are allowed for this databaselink. A safe (read-only) choice is SELECT, DESCRIBE and SHOW. The different keywords should be separated from each other by whitespace.'
   },
   'asset locked' => {
-    'lastUpdated' => '1177706405',
-    'message' => 'This Asset is locked for editing under a version tag different from the one that you are using.'
+    'lastUpdated' => '1237243762',
+    'message' => "Ten zas\x{f3}b/asset jest zablokowany dla edycji poniewa\x{17c} uchwyt wersji r\x{f3}\x{17c}ni si\x{119} od tego kt\x{f3}rego u\x{17c}ywasz."
   },
   'authentication' => {
-    'lastUpdated' => '1092930637',
-    'message' => 'Authentication'
+    'lastUpdated' => '1237243795',
+    'message' => 'Uwierzytelnianie'
   },
   'auto request commit' => {
-    'lastUpdated' => undef,
+    'lastUpdated' => '1237243810',
     'message' => ''
   },
   'auto request commit help' => {
@@ -2077,7 +2112,7 @@ a user.'
     'message' => ''
   },
   'avatar' => {
-    'lastUpdated' => '1131246512',
+    'lastUpdated' => '1237243818',
     'message' => 'Avatar'
   },
   'bare insufficient' => {
@@ -2109,7 +2144,7 @@ a user.'
     'message' => 'Cache type'
   },
   'cancel' => {
-    'lastUpdated' => '1092930637',
+    'lastUpdated' => '1237243845',
     'message' => 'cofnij'
   },
   'changeUrl workflow' => {
@@ -2149,8 +2184,8 @@ a user.'
     'message' => "Zawarto\x{15b}\x{107}"
   },
   'content' => {
-    'lastUpdated' => '1092930637',
-    'message' => "Kontent/Zawarto\x{15b}\x{107}"
+    'lastUpdated' => '1237243892',
+    'message' => "Zawarto\x{15b}\x{107}"
   },
   'content filters' => {
     'lastUpdated' => '1236869045',
@@ -2177,8 +2212,8 @@ a user.'
     'message' => "Pozwala zaw\x{119}zi\x{107} debugowanie i/lub dane wydajno\x{15b}ci przetwarzania dla okre\x{15b}lonego adresu IP lub zakresu adres\x{f3}w IP. Wprowad\x{17a} podsie\x{107} dla kt\x{f3}rej chcia\x{142}by\x{15b} wy\x{15b}wietla\x{107} informacje diagnostyczne w formacie CIDR. Przyk\x{142}adowo: 10.0.0.0/24. Mo\x{17c}na pworwadzi\x{107} wiele adres\x{f3}w CIDR oddzielonych przecinkami."
   },
   'default rich editor' => {
-    'lastUpdated' => '1118941685',
-    'message' => 'Default Rich Editor'
+    'lastUpdated' => '1237243946',
+    'message' => "Domy\x{15b}lny edytor"
   },
   'default rich editor description' => {
     'lastUpdated' => '1120239343',
@@ -2197,11 +2232,11 @@ a user.'
     'message' => 'Zrobione'
   },
   'editSettings done' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => '1237243975',
+    'message' => 'Ustawienia zachowane!'
   },
   'editSettings error occurred' => {
-    'lastUpdated' => undef,
+    'lastUpdated' => '1237243980',
     'message' => ''
   },
   'ends with' => {
@@ -2233,23 +2268,23 @@ a user.'
     'message' => 'Group'
   },
   'groups to add' => {
-    'lastUpdated' => '1118861810',
-    'message' => 'GROUPS TO ADD'
+    'lastUpdated' => '1237242797',
+    'message' => 'GRUPY DO DODANIA'
   },
   'groups to delete' => {
-    'lastUpdated' => '1118861810',
-    'message' => 'GROUPS TO DELETE'
+    'lastUpdated' => '1237242810',
+    'message' => "GRUPY DO USUNI\x{118}CIA"
   },
   'head.tags' => {
     'lastUpdated' => '1183420610',
     'message' => "\nWebGUI generuje automatycznie znaczniki za ciebie tak aby pami\x{119}\x{107} podr\x{119}czna pracowa\x{142}a w\x{142}a\x{15b}ciwie, a serwisy indeksuj\x{105}ce mog\x{142}y lepiej odszuka\x{107} publikowane tre\x{15b}ci. Znaczniki te powinny zawiera\x{107} si\x{119} wewn\x{105}trz sekcji &lt;head&gt; &lt;/head&gt; twojego stylu.\n\n<br />\n<br />Sugerujemy u\x{17c}ycie czego\x{15b} podobnego w tek\x{15b}cie &lt;title&gt; &lt;/title&gt; :\n<br />\n<br />^PageTitle(); - ^c();\n<br />\n<br />Powy\x{17c}szy przyk\x{142}\x{105}d pozwoli utrzyma\x{107} wysok\x{105} pozycj\x{119} w serwisach indeksuj\x{105}cych."
   },
   'help' => {
-    'lastUpdated' => '1092930637',
+    'lastUpdated' => '1237243998',
     'message' => 'Pomoc'
   },
   'help contents' => {
-    'lastUpdated' => '1128553296',
+    'lastUpdated' => '1237242822',
     'message' => 'Help Contents'
   },
   'help index' => {
@@ -2285,16 +2320,16 @@ a user.'
     'message' => ''
   },
   'image' => {
-    'lastUpdated' => 0,
+    'lastUpdated' => '1237242839',
     'message' => 'Obrazek'
   },
   'image manager' => {
-    'lastUpdated' => '1141434353',
-    'message' => 'Image Manager'
+    'lastUpdated' => '1237244054',
+    'message' => "Menad\x{17c}er obraz\x{f3}w"
   },
   'insert a link' => {
-    'lastUpdated' => '1141963447',
-    'message' => 'Insert A Link'
+    'lastUpdated' => '1237244230',
+    'message' => 'Wstaw link'
   },
   'int slider' => {
     'lastUpdated' => 0,
@@ -2309,20 +2344,20 @@ a user.'
     'message' => ''
   },
   'link enter alert' => {
-    'lastUpdated' => '1118936724',
+    'lastUpdated' => '1237244104',
     'message' => 'You must enter a link URL.'
   },
   'link in new window' => {
-    'lastUpdated' => '1118936724',
-    'message' => 'Open link in new window.'
+    'lastUpdated' => '1237244208',
+    'message' => 'Otwórz link w nowym oknie.'
   },
   'link in same window' => {
-    'lastUpdated' => '1118936724',
-    'message' => 'Open link in same window.'
+    'lastUpdated' => '1237244215',
+    'message' => 'Otwórz link w tym samym oknie.'
   },
   'link settings' => {
-    'lastUpdated' => '1141963463',
-    'message' => 'Link Settings'
+    'lastUpdated' => '1237244198',
+    'message' => ''
   },
   'mail return path' => {
     'lastUpdated' => 0,
@@ -2337,32 +2372,44 @@ a user.'
     'message' => 'Cache'
   },
   'messaging' => {
-    'lastUpdated' => '1092930637',
-    'message' => 'Messaging'
+    'lastUpdated' => '1237242907',
+    'message' => "Obs\x{142}uga wiadomo\x{15b}ci"
   },
   'misc' => {
-    'lastUpdated' => '1092930637',
-    'message' => 'Miscellaneous'
+    'lastUpdated' => '1237242926',
+    'message' => "R\x{f3}\x{17c}ne"
+  },
+  'next >' => {
+    'lastUpdated' => '1237242934',
+    'message' => ''
   },
   'noldaplink' => {
     'lastUpdated' => 0,
     'message' => 'No LDAP Connection'
+  },
+  'ok' => {
+    'lastUpdated' => '1237244252',
+    'message' => 'OK'
   },
   'options.display' => {
     'lastUpdated' => undef,
     'message' => ''
   },
   'packages' => {
-    'lastUpdated' => '1092930637',
+    'lastUpdated' => '1237244257',
     'message' => 'Pakiety'
   },
   'page statistics' => {
-    'lastUpdated' => '1092930637',
-    'message' => 'Page Statistics'
+    'lastUpdated' => '1237243014',
+    'message' => 'Statystyki strony'
   },
   'pages' => {
-    'lastUpdated' => '1141963573',
-    'message' => 'Pages'
+    'lastUpdated' => '1237243031',
+    'message' => 'Strony'
+  },
+  'pagination.activePage' => {
+    'lastUpdated' => '1237243038',
+    'message' => ''
   },
   'pagination.firstPage' => {
     'lastUpdated' => '1149182026',
@@ -2477,11 +2524,11 @@ a user.'
     'message' => 'Fotografia'
   },
   'preview' => {
-    'lastUpdated' => '1141434351',
-    'message' => 'Preview'
+    'lastUpdated' => '1237243087',
+    'message' => "Podgl\x{105}d"
   },
   'private message blocked error' => {
-    'lastUpdated' => '1181019679',
+    'lastUpdated' => '1237243098',
     'message' => "Ten u\x{17c}ytkownik nie \x{17c}yczy sobie prywatnych wiadomo\x{15b}ci."
   },
   'private message date label' => {
@@ -2517,19 +2564,19 @@ a user.'
     'message' => "Nie wskaza\x{142}e\x{15b} u\x{17c}ytkownika dla wysy\x{142}anej wiadomo\x{15b}ci prywatnej"
   },
   'private message prev label' => {
-    'lastUpdated' => '1181019679',
+    'lastUpdated' => '1237243107',
     'message' => 'Poprzednia'
   },
   'private message reply title' => {
-    'lastUpdated' => '1181019679',
-    'message' => 'Reply to Message'
+    'lastUpdated' => '1237244300',
+    'message' => "Odpowiedz na wiadomo\x{15b}\x{107}"
   },
   'private message sent' => {
-    'lastUpdated' => '1181019679',
+    'lastUpdated' => '1237244305',
     'message' => "Wiadomo\x{15b}\x{107} zosta\x{142}a wys\x{142}ana."
   },
   'private message status read' => {
-    'lastUpdated' => '1181019679',
+    'lastUpdated' => '1237243115',
     'message' => 'Przeczytana'
   },
   'private message status replied' => {
@@ -2537,32 +2584,36 @@ a user.'
     'message' => 'Replied'
   },
   'private message status unread' => {
-    'lastUpdated' => '1181019679',
+    'lastUpdated' => '1237243140',
     'message' => 'Nieprzeczytana'
   },
   'private message subject label' => {
-    'lastUpdated' => '1181019679',
-    'message' => "Tytu\x{142}"
+    'lastUpdated' => '1237243157',
+    'message' => 'Temat'
   },
   'private message submit label' => {
-    'lastUpdated' => '1181019679',
+    'lastUpdated' => '1237243163',
     'message' => "Wy\x{15b}lij"
   },
   'private message title' => {
-    'lastUpdated' => '1181019679',
+    'lastUpdated' => '1237243168',
     'message' => "Wy\x{15b}lij prywatn\x{105} wiadomo\x{15b}\x{107}"
   },
   'private message to label' => {
-    'lastUpdated' => '1181019679',
+    'lastUpdated' => '1237243173',
     'message' => 'Do'
   },
   'private message unread display message' => {
-    'lastUpdated' => '1181019679',
-    'message' => "Nieprzecztanych wiadomo\x{15b}ci: %s"
+    'lastUpdated' => '1237243192',
+    'message' => "Nieprzeczytanych wiadomo\x{15b}ci: %s"
   },
   'profile' => {
-    'lastUpdated' => '1098327046',
-    'message' => 'Profile'
+    'lastUpdated' => '1237243219',
+    'message' => 'Profil'
+  },
+  'profile privacy settings' => {
+    'lastUpdated' => '1237244347',
+    'message' => "Ustawienia prywatno\x{15b}ci"
   },
   'purge workflow' => {
     'lastUpdated' => '1162242500',
@@ -2577,15 +2628,15 @@ a user.'
     'message' => 'Radio Button'
   },
   'read only' => {
-    'lastUpdated' => 0,
+    'lastUpdated' => '1237243233',
     'message' => 'Read Only'
   },
   'removeLabel' => {
-    'lastUpdated' => '1116450882',
+    'lastUpdated' => '1237243242',
     'message' => "usu\x{144}"
   },
   'run on admin create user' => {
-    'lastUpdated' => undef,
+    'lastUpdated' => '1237244360',
     'message' => ''
   },
   'run on admin create user help' => {
@@ -2601,7 +2652,7 @@ a user.'
     'message' => ''
   },
   'select' => {
-    'lastUpdated' => 0,
+    'lastUpdated' => '1237243250',
     'message' => 'Wybierz'
   },
   'select slider' => {
@@ -2613,7 +2664,7 @@ a user.'
     'message' => 'Send Private Message'
   },
   'send private message template' => {
-    'lastUpdated' => '1181019679',
+    'lastUpdated' => '1237243263',
     'message' => "Szablon wys\x{142}ania prywatnej wiadomo\x{15b}ci"
   },
   'send private message template description' => {
@@ -2621,8 +2672,8 @@ a user.'
     'message' => "Wybierz szablon wys\x{142}ania prywanej wiadomo\x{15b}ci"
   },
   'settings' => {
-    'lastUpdated' => '1092930637',
-    'message' => 'Settings'
+    'lastUpdated' => '1237243274',
+    'message' => 'Ustawienia'
   },
   'settings groupIdAdminActiveSessions hoverHelp' => {
     'lastUpdated' => undef,
@@ -2853,19 +2904,19 @@ a user.'
     'message' => 'Target'
   },
   'target description' => {
-    'lastUpdated' => '1121298550',
+    'lastUpdated' => '1237244396',
     'message' => "Wybierz czy link po klikni\x{119}ciu ma otwiera\x{107} to samo okno czy inne"
   },
   'tinymce' => {
-    'lastUpdated' => '1092748557',
+    'lastUpdated' => '1237244404',
     'message' => 'TinyMCE (IE, mozilla)'
   },
   'topicName' => {
-    'lastUpdated' => '1128919994',
+    'lastUpdated' => '1237244410',
     'message' => 'WebGUI'
   },
   'trash' => {
-    'lastUpdated' => '1092930637',
+    'lastUpdated' => '1237244416',
     'message' => "\x{15a}mietnik"
   },
   'trash workflow' => {
@@ -2881,8 +2932,8 @@ a user.'
     'message' => 'UI'
   },
   'unknown user' => {
-    'lastUpdated' => '1135205716',
-    'message' => "u\x{17c}ytkownik nieznany"
+    'lastUpdated' => '1237244439',
+    'message' => "nieznany u\x{17c}ytkownik"
   },
   'url extension' => {
     'lastUpdated' => '1089039511',
@@ -2896,7 +2947,7 @@ a user.'
 </p>'
   },
   'user' => {
-    'lastUpdated' => '1092930637',
+    'lastUpdated' => '1237244450',
     'message' => "U\x{17c}ytkownik"
   },
   'user email template' => {
@@ -2966,6 +3017,14 @@ a user.'
   'webgui' => {
     'lastUpdated' => '1141963573',
     'message' => 'WebGUI'
+  },
+  'work info short' => {
+    'lastUpdated' => '1237243346',
+    'message' => ''
+  },
+  'yes please' => {
+    'lastUpdated' => '1237243339',
+    'message' => "Tak, prosz\x{119}"
   }
 }
 ;

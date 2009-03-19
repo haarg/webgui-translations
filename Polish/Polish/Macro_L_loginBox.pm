@@ -18,7 +18,7 @@ our $I18N = {
     'message' => 'Adres URL dla utworzenia nowego konta.'
   },
   'account.display.url' => {
-    'lastUpdated' => '1236869385',
+    'lastUpdated' => '1237214081',
     'message' => "Adres URL do wy\x{15b}wietlenia informacji o koncie."
   },
   'customText' => {
@@ -42,8 +42,8 @@ our $I18N = {
     'message' => "Mi\x{119}dzynarodowe powitanie."
   },
   'helpvar form.returnUrl' => {
-    'lastUpdated' => '1236869502',
-    'message' => ''
+    'lastUpdated' => '1237214067',
+    'message' => "Kiedy ten ukryty element formularza jest obecny, u\x{17c}ytkownik b\x{119}dzie przeniesiony do aktualnej strony po zalogowaniu."
   },
   'login box body' => {
     'lastUpdated' => '1168622639',
