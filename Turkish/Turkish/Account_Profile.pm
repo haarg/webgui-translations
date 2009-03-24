@@ -84,6 +84,54 @@ our $I18N = {
   'profile style template label' => {
     'lastUpdated' => '1237889866',
     'message' => "Stil \x{15e}ablonu"
+  },
+  'profile view template hoverHelp' => {
+    'lastUpdated' => '1237890470',
+    'message' => "Bir profili g\x{f6}r\x{fc}nt\x{fc}lemek i\x{e7}in kullan\x{131}lacak ana \x{15f}ablonu se\x{e7}in."
+  },
+  'profile view template label' => {
+    'lastUpdated' => '1237890490',
+    'message' => "G\x{f6}r\x{fc}n\x{fc}m \x{15e}ablonu"
+  },
+  'public label' => {
+    'lastUpdated' => '1237890565',
+    'message' => "Genele A\x{e7}\x{131}k"
+  },
+  'public profile' => {
+    'lastUpdated' => '1237890581',
+    'message' => "Profiliniz Genele A\x{e7}\x{131}k"
+  },
+  'required field' => {
+    'lastUpdated' => '1237890596',
+    'message' => 'gerekli'
+  },
+  'save changes' => {
+    'lastUpdated' => '1237890607',
+    'message' => "de\x{11f}i\x{15f}iklikleri kaydet"
+  },
+  'send friend request label' => {
+    'lastUpdated' => '1237890656',
+    'message' => "Arkada\x{15f}l\x{131}k\x{a0}Teklifi g\x{f6}nder"
+  },
+  'send private message label' => {
+    'lastUpdated' => '1237890671',
+    'message' => 'Özel Mesaj gönder'
+  },
+  'set by admin' => {
+    'lastUpdated' => '1237890722',
+    'message' => "site y\x{f6}neticisi bu alan\x{131} g\x{f6}r\x{fc}nmez olarak ayarlad\x{131}"
+  },
+  'title' => {
+    'lastUpdated' => '1237890730',
+    'message' => 'Profil'
+  },
+  'view my profile' => {
+    'lastUpdated' => '1237890740',
+    'message' => 'profilimi göster'
+  },
+  'visitor profile restricted' => {
+    'lastUpdated' => '1237890770',
+    'message' => "Ziyaret\x{e7}i profili k\x{131}s\x{131}tlanm\x{131}\x{15f}"
   }
 }
 ;
