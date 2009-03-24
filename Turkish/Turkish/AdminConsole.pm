@@ -1,22 +1,19 @@
 package WebGUI::i18n::Turkish::AdminConsole;
 use utf8;
-
 our $I18N = {
-	'toggle off' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'toggle on' => {
-		message => q||,
-		lastUpdated => 1206979662
-	},
-
-	'admin console' => {
-		message => q|Y&ouml;netici Paneli|,
-		lastUpdated => 1206979639
-	},
-
-};
+  'admin console' => {
+    'lastUpdated' => '1237888885',
+    'message' => 'Yönetici Paneli'
+  },
+  'toggle off' => {
+    'lastUpdated' => '1237888917',
+    'message' => 'Yönetici panelini gizle.'
+  },
+  'toggle on' => {
+    'lastUpdated' => '1237888928',
+    'message' => 'Yönetici panelini göster.'
+  }
+}
+;
 
 1;

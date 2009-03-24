@@ -1,13 +1,29 @@
 package WebGUI::i18n::Turkish::Asset_Calendar;
 use utf8;
 our $I18N = {
+  'Add' => {
+    'lastUpdated' => '1233957671',
+    'message' => 'Ekle'
+  },
+  'New Day' => {
+    'lastUpdated' => '1233958027',
+    'message' => 'Yeni Gün'
+  },
+  'New Month' => {
+    'lastUpdated' => '1233958054',
+    'message' => 'Yeni Ay'
+  },
+  'New Year' => {
+    'lastUpdated' => '1233958157',
+    'message' => "Yeni Y\x{131}l"
+  },
   'add event' => {
     'lastUpdated' => undef,
     'message' => ''
   },
   'admin' => {
-    'lastUpdated' => 1218838150,
-    'message' => "y\x{f6}netici"
+    'lastUpdated' => '1218838150',
+    'message' => 'yönetici'
   },
   'adminControls' => {
     'lastUpdated' => undef,
@@ -26,16 +42,16 @@ our $I18N = {
     'message' => ''
   },
   'dayOfMonth' => {
-    'lastUpdated' => 1218838221,
+    'lastUpdated' => '1218838221',
     'message' => "Ay\x{131}nG\x{fc}n\x{fc}"
   },
   'dayOfWeek' => {
-    'lastUpdated' => 1218838248,
+    'lastUpdated' => '1218838248',
     'message' => "Haftan\x{131}nG\x{fc}n\x{fc}"
   },
   'days' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => '1233958042',
+    'message' => 'günler'
   },
   'defaultDate description' => {
     'lastUpdated' => undef,
@@ -426,12 +442,12 @@ our $I18N = {
     'message' => ''
   },
   'year' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => '1233958287',
+    'message' => "y\x{131}l"
   },
   'ymd' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => '1233958190',
+    'message' => 'yag'
   }
 }
 ;
