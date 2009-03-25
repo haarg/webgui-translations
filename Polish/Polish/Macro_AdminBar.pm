@@ -6,11 +6,11 @@ our $I18N = {
     'message' => 'Schowek'
   },
   1083 => {
-    'lastUpdated' => '1236869687',
-    'message' => 'Nowy kontent'
+    'lastUpdated' => '1237839955',
+    'message' => "Nowa zawarto\x{15b}\x{107}"
   },
   12 => {
-    'lastUpdated' => '1237213411',
+    'lastUpdated' => '1237840246',
     'message' => "Wy\x{142}\x{105}czenie administracji."
   },
   376 => {
@@ -42,7 +42,7 @@ our $I18N = {
     'message' => "Zatwierd\x{17a} zmiany"
   },
   'community' => {
-    'lastUpdated' => '1237213517',
+    'lastUpdated' => '1237840070',
     'message' => "Spo\x{142}eczno\x{15b}\x{107}"
   },
   'icon' => {
@@ -50,8 +50,8 @@ our $I18N = {
     'message' => "Adres URL ikony powi\x{105}zanej z pozycj\x{105}."
   },
   'intranet' => {
-    'lastUpdated' => '1237213476',
-    'message' => "Sie\x{107}"
+    'lastUpdated' => '1237840137',
+    'message' => 'Intranet'
   },
   'items' => {
     'lastUpdated' => '1149178356',
@@ -62,7 +62,7 @@ our $I18N = {
     'message' => "Nag\x{142}\x{f3}wek dla tej kategorii."
   },
   'macroName' => {
-    'lastUpdated' => '1236869771',
+    'lastUpdated' => '1237840174',
     'message' => 'AdminBar'
   },
   'name' => {

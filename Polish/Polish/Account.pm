@@ -2,31 +2,31 @@ package WebGUI::i18n::Polish::Account;
 use utf8;
 our $I18N = {
   'Error: Cannot instantiate template' => {
-    'lastUpdated' => '1237212252',
+    'lastUpdated' => '1237838309',
     'message' => ''
   },
   'account className' => {
-    'lastUpdated' => '1237212239',
+    'lastUpdated' => '1237838303',
     'message' => ''
   },
   'account identifier' => {
-    'lastUpdated' => '1237212209',
+    'lastUpdated' => '1237838039',
     'message' => ''
   },
   'account layout template' => {
-    'lastUpdated' => '1237212247',
+    'lastUpdated' => '1237838316',
     'message' => ''
   },
   'account title' => {
-    'lastUpdated' => '1237212258',
+    'lastUpdated' => '1237838323',
     'message' => ''
   },
   'account url' => {
-    'lastUpdated' => '1237212265',
+    'lastUpdated' => '1237838330',
     'message' => ''
   },
   'account_loop' => {
-    'lastUpdated' => '1237212232',
+    'lastUpdated' => '1237838294',
     'message' => ''
   },
   'back_url' => {

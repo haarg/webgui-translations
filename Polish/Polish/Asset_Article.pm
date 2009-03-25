@@ -6,7 +6,7 @@ our $I18N = {
     'message' => "Edycja Artyku\x{142}u"
   },
   28 => {
-    'lastUpdated' => '1204239884',
+    'lastUpdated' => '1237813492',
     'message' => 'Widok odpowiedzi'
   },
   7 => {

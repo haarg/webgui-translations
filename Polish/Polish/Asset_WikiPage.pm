@@ -1,307 +1,247 @@
 package WebGUI::i18n::Polish::Asset_WikiPage;
 use utf8;
-
 our $I18N = {
-	'history actionTaken' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'editLabel' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'content' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'history date' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'viewLabel variable' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'assetName' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'deleteConfirmation' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'history username' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'editing' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'delete confirmation' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'history body' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'recentChangesUrl' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'historyLabel variable' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'isProtected' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'editContent' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'historyLabel' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'actionTakenBy' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'mostPopularLabel variable' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'attachmentLabel' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'deleteLabel variable' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'formFooter' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'contentLabel variable' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'title' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'storageId' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'protectQuestionLabel' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'deleteLabel' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'searchUrl' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'contentLabel' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'formHeader' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'viewLabel' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'formSubmit' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'titleLabel variable' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'historyUrl' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'formProtect' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'canAdminister' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'deleteUrl' => {
-		message => q|Usuń URL|,
-		lastUpdated => 1199751879
-	},
-
-	'views' => {
-		message => q|Liczba wyświetleń WikiPage|,
-		lastUpdated => 1198513862
-	},
-
-	'wikiHomeLabel variable' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'delete page confirmation' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'page received' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'vars body' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'searchLabel variable' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'content variable' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'formTitle' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'wikiHomeUrl' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'vars title' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'recentChangesLabel' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'mostPopularUrl' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'add/edit title' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'isNew' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'view title' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'formContent' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'history toolbar' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'titleLabel' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'history interval' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'editLabel variable' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'protectQuestionLabel variable' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'view body' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'history title' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'actionTaken' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-};
+  'actionTaken' => {
+    'lastUpdated' => '1237846272',
+    'message' => ''
+  },
+  'actionTakenBy' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'add/edit title' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'assetName' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'attachmentLabel' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'canAdminister' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'content' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'content variable' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'contentLabel' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'contentLabel variable' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'delete confirmation' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'delete page confirmation' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'deleteConfirmation' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'deleteLabel' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'deleteLabel variable' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'deleteUrl' => {
+    'lastUpdated' => '1199751879',
+    'message' => "Usu\x{144} URL"
+  },
+  'editContent' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'editLabel' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'editLabel variable' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'editing' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'formContent' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'formFooter' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'formHeader' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'formProtect' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'formSubmit' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'formTitle' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'history actionTaken' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'history body' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'history date' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'history interval' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'history title' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'history toolbar' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'history username' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'historyLabel' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'historyLabel variable' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'historyUrl' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'isNew' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'isProtected' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'mostPopularLabel variable' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'mostPopularUrl' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'page received' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'protectQuestionLabel' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'protectQuestionLabel variable' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'recentChangesLabel' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'recentChangesUrl' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'searchLabel variable' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'searchUrl' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'storageId' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'title' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'titleLabel' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'titleLabel variable' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'vars body' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'vars title' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'view body' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'view title' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'viewLabel' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'viewLabel variable' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'views' => {
+    'lastUpdated' => '1198513862',
+    'message' => "Liczba wy\x{15b}wietle\x{144} WikiPage"
+  },
+  'wikiHomeLabel variable' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'wikiHomeUrl' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  }
+}
+;
 
 1;

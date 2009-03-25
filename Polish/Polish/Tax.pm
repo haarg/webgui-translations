@@ -2,16 +2,24 @@ package WebGUI::i18n::Polish::Tax;
 use utf8;
 our $I18N = {
   'add a tax' => {
-    'lastUpdated' => '1237215866',
+    'lastUpdated' => '1237838596',
     'message' => ''
   },
   'city' => {
     'lastUpdated' => '1227969100',
     'message' => 'Miasto'
   },
+  'city help' => {
+    'lastUpdated' => '1237838579',
+    'message' => ''
+  },
   'code' => {
     'lastUpdated' => '1227969094',
     'message' => 'Kod'
+  },
+  'code help' => {
+    'lastUpdated' => '1237838584',
+    'message' => ''
   },
   'country' => {
     'lastUpdated' => '1227969079',

@@ -2,7 +2,7 @@ package WebGUI::i18n::Polish::Asset_Collaboration;
 use utf8;
 our $I18N = {
   'Link Description' => {
-    'lastUpdated' => '1237212443',
+    'lastUpdated' => '1237545398',
     'message' => ''
   },
   'List All Links' => {
@@ -262,7 +262,7 @@ our $I18N = {
     'message' => 'Data'
   },
   'date posted' => {
-    'lastUpdated' => '1237213060',
+    'lastUpdated' => '1237545423',
     'message' => ''
   },
   'date submitted' => {

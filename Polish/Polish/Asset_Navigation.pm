@@ -10,32 +10,56 @@ our $I18N = {
     'message' => "Wybierz szablon kt\x{f3}ry ma zosta\x{107} u\x{17c}yty do wy\x{15b}wietlania twojej nawigacji"
   },
   1097 => {
-    'lastUpdated' => '1236872854',
-    'message' => ''
+    'lastUpdated' => '1237550253',
+    'message' => "<p>Te zmienne s\x{105} dost\x{119}pne w szablonach nawigacyjnych:</p>\r\n<p><b>currentPage</b> odnosi si\x{119} do strony kt\x{f3}r\x{105} aktualnie przegl\x{105}da u\x{17c}ytkownik.<b>page</b> odnosi si\x{119} do wszelkich stron zawartych wewn\x{105}trz <b>page_loop</b> </p>"
   },
   22 => {
     'lastUpdated' => '1236872492',
     'message' => "Edytuj nawigacj\x{119}"
   },
   30 => {
-    'lastUpdated' => '1236872508',
+    'lastUpdated' => '1237551433',
     'message' => "Poka\x{17c} strony systemowe"
+  },
+  '30 description' => {
+    'lastUpdated' => '1237824225',
+    'message' => ''
   },
   31 => {
     'lastUpdated' => '1236872519',
     'message' => "Poka\x{17c} strony ukryte"
   },
   '31 description' => {
-    'lastUpdated' => '1236872524',
+    'lastUpdated' => '1237824238',
     'message' => ''
   },
   32 => {
-    'lastUpdated' => '1236872562',
+    'lastUpdated' => '1237551444',
+    'message' => ''
+  },
+  '32 description' => {
+    'lastUpdated' => '1237551347',
+    'message' => ''
+  },
+  'Ancestor End Point' => {
+    'lastUpdated' => '1237551209',
+    'message' => "Przodek - punkt ko\x{144}cowy"
+  },
+  'Ancestor End Point description' => {
+    'lastUpdated' => '1237824248',
     'message' => ''
   },
   'Ancestors' => {
     'lastUpdated' => '1236872592',
     'message' => 'Przodkowie'
+  },
+  'Descendant End Point' => {
+    'lastUpdated' => '1237551040',
+    'message' => "Potomek - punkt ko\x{144}cowy"
+  },
+  'Descendant End Point description' => {
+    'lastUpdated' => '1237550504',
+    'message' => ''
   },
   'Descendants' => {
     'lastUpdated' => '1236872767',
@@ -54,8 +78,12 @@ our $I18N = {
     'message' => "Relatywny do bie\x{17c}\x{105}cego URL"
   },
   'Relative To Root' => {
-    'lastUpdated' => '1236872748',
-    'message' => 'Relatywny do ROOTa'
+    'lastUpdated' => '1237551140',
+    'message' => "Relatywny do korzenia g\x{142}\x{f3}wnego (root)"
+  },
+  'Relatives To Include' => {
+    'lastUpdated' => '1237551333',
+    'message' => ''
   },
   'Self' => {
     'lastUpdated' => '1236872640',
@@ -70,11 +98,51 @@ our $I18N = {
     'message' => 'Specyficzny URL'
   },
   'Start Point' => {
-    'lastUpdated' => '1236872844',
-    'message' => 'Punkt startu'
+    'lastUpdated' => '1237550523',
+    'message' => 'Punkt startowy'
+  },
+  'Start Point Type' => {
+    'lastUpdated' => '1237550878',
+    'message' => 'Typ punktu startowego'
+  },
+  'Start Point Type description' => {
+    'lastUpdated' => '1237550874',
+    'message' => ''
+  },
+  'Start Point description' => {
+    'lastUpdated' => '1237550948',
+    'message' => '<p>Bazuje na <b>typie punktu startowego</b>, ustala gdzie nawigacja rozpocznie wybieranie stron.</p>'
+  },
+  'Where do you want to go?' => {
+    'lastUpdated' => '1237824259',
+    'message' => ''
+  },
+  'ancestorEndPoint' => {
+    'lastUpdated' => '1237551338',
+    'message' => ''
+  },
+  'assetName' => {
+    'lastUpdated' => '1237551263',
+    'message' => 'Nawigacja'
+  },
+  'assetsToInclude' => {
+    'lastUpdated' => '1237824265',
+    'message' => ''
+  },
+  'currentPage.assetId' => {
+    'lastUpdated' => '1237824270',
+    'message' => ''
+  },
+  'currentPage.hasChild' => {
+    'lastUpdated' => '1237824274',
+    'message' => ''
+  },
+  'indent' => {
+    'lastUpdated' => '1237551283',
+    'message' => ''
   },
   'startPoint' => {
-    'lastUpdated' => '1236872837',
+    'lastUpdated' => '1237551294',
     'message' => ''
   }
 }

@@ -2,12 +2,12 @@ package WebGUI::i18n::Polish::Graphics;
 use utf8;
 our $I18N = {
   'add color' => {
-    'lastUpdated' => '1198503015',
+    'lastUpdated' => '1237826454',
     'message' => 'Dodaj kolor do tej palety.'
   },
   'add font' => {
-    'lastUpdated' => '1198503050',
-    'message' => 'Dodaj nowy font.'
+    'lastUpdated' => '1237826446',
+    'message' => "Dodaj now\x{105} czcionk\x{119}"
   },
   'add palette' => {
     'lastUpdated' => '1198503075',
@@ -18,40 +18,40 @@ our $I18N = {
     'message' => 'Nazwa koloru.'
   },
   'color name description' => {
-    'lastUpdated' => '1198503125',
-    'message' => 'Nazwa dla tego koloru.'
+    'lastUpdated' => '1237826419',
+    'message' => '<p>Nazwa dla tego koloru.</p>'
   },
   'fill alpha' => {
-    'lastUpdated' => '1198503206',
-    'message' => "Nasycenie przezroczysto\x{15b}\x{107}"
+    'lastUpdated' => '1237826407',
+    'message' => "Przezroczysto\x{15b}\x{107} koloru"
   },
   'fill alpha description' => {
-    'lastUpdated' => '1198503296',
-    'message' => 'Zdefinuj nasycenie danym kolorem.'
+    'lastUpdated' => '1237826311',
+    'message' => '<p>Zdefiniuj nasycenie danym kolorem.</p>'
   },
   'fill color' => {
     'lastUpdated' => '1198503330',
     'message' => "Nape\x{142}nij kolor."
   },
   'fill color description' => {
-    'lastUpdated' => '1237461142',
-    'message' => "Wype\x{142}nienie kolorem dla tego koloru."
+    'lastUpdated' => '1237826272',
+    'message' => "<p>Wype\x{142}nienie kolorem dla tego koloru.</p>"
   },
   'font file' => {
     'lastUpdated' => '1237461011',
     'message' => 'Plik czcionki'
   },
   'font file description' => {
-    'lastUpdated' => '1237461353',
-    'message' => "Plik zawieraj\x{105}cy czcionki. Czcionka musi byc typu TrueType (.ttf)."
+    'lastUpdated' => '1237826258',
+    'message' => "<p>Plik zawieraj\x{105}cy czcionki. Czcionka musi by\x{107} typu TrueType (.ttf).</p>"
   },
   'font name' => {
     'lastUpdated' => '1237461363',
     'message' => 'Nazwa czcionki'
   },
   'font name description' => {
-    'lastUpdated' => '1237461286',
-    'message' => "Etykieta czcionki, kt\x{f3}ra b\x{119}dzie wy\x{15b}wietlana w interfejsie."
+    'lastUpdated' => '1237826216',
+    'message' => "<p>Etykieta czcionki, kt\x{f3}ra b\x{119}dzie wy\x{15b}wietlana w interfejsie.</p>"
   },
   'manage fonts' => {
     'lastUpdated' => '1237461240',
@@ -70,24 +70,24 @@ our $I18N = {
     'message' => 'Nazwa palety'
   },
   'palette name description' => {
-    'lastUpdated' => '1237461466',
-    'message' => "Etykieta palety, kt\x{f3}re b\x{119}d\x{105} wy\x{15b}wietlane w interfejsie."
+    'lastUpdated' => '1237826194',
+    'message' => "<p>Etykieta palety, kt\x{f3}ra b\x{119}d\x{105} wy\x{15b}wietlana w interfejsie.</p>"
   },
   'stroke alpha' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => '1237826090',
+    'message' => "Przezroczysto\x{15b}\x{107} obramowania"
   },
   'stroke alpha description' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => '1237826146',
+    'message' => "<p>Zdefiniuj przezroczysto\x{15b}\x{107} obramowania tego koloru.</p>"
   },
   'stroke color' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => '1237826075',
+    'message' => 'Kolor obramowania'
   },
   'stroke color description' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => '1237826066',
+    'message' => '<p>Kolor obramowania dla tego koloru.</p>'
   }
 }
 ;

@@ -6,7 +6,7 @@ our $I18N = {
     'message' => "Jest ju\x{17c} u\x{17c}ytkownikiem serwisu."
   },
   'already a member message' => {
-    'lastUpdated' => '1208188710',
+    'lastUpdated' => '1237838355',
     'message' => "Kod zaproszenia w twoim adresie URL jest nieprawid\x{142}owy."
   },
   'default invite' => {

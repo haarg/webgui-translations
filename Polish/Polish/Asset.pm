@@ -2,16 +2,16 @@ package WebGUI::i18n::Polish::Asset;
 use utf8;
 our $I18N = {
   '%s is not a valid depth' => {
-    'lastUpdated' => '1236939487',
+    'lastUpdated' => '1237543087',
     'message' => "nieprawid\x{142}owe zagnie\x{17c}d\x{17c}enie %s"
   },
   104 => {
-    'lastUpdated' => '1236939492',
+    'lastUpdated' => '1237543110',
     'message' => 'URL'
   },
   '104 description' => {
-    'lastUpdated' => '1236940714',
-    'message' => "<p>Adres URL dla zasobu/asset. Musi by\x{107} unikalny. Je\x{15b}li operator nie wprowadzi warto\x{15b}ci zostanie utworzony na bazie aktualnego adresu URL i zawarto\x{15b}ci pola tytu\x{142}u dla menu.</p>"
+    'lastUpdated' => '1237838714',
+    'message' => "<p>Adres URL dla zasobu/asset. Musi by\x{107} unikalny. Je\x{17c}eli operator nie wprowadzi warto\x{15b}ci zostanie utworzony na bazie aktualnego adresu URL i zawarto\x{15b}ci pola tytu\x{142}u dla menu.</p>"
   },
   105 => {
     'lastUpdated' => '1203962976',
@@ -22,8 +22,8 @@ our $I18N = {
     'message' => "Bezpiecze\x{144}stwo"
   },
   1073 => {
-    'lastUpdated' => '1203963013',
-    'message' => 'Szablon stylu'
+    'lastUpdated' => '1237543184',
+    'message' => 'Styl'
   },
   1079 => {
     'lastUpdated' => '1236939502',
@@ -34,7 +34,7 @@ our $I18N = {
     'message' => "W\x{142}a\x{15b}ciciel"
   },
   '108 description' => {
-    'lastUpdated' => '1236940754',
+    'lastUpdated' => '1237543207',
     'message' => "<p>W\x{142}a\x{15b}cicielem zasobu/asset zwykle jest osoba, kt\x{f3}ra go utworzy\x{142}a. Ten u\x{17c}ytkownik posiada pe\x{142}ne prawa do edycji i wy\x{15b}wietlenia. </p><p>UWAGA: W\x{142}a\x{15b}ciciel mo\x{17c}e by\x{107} zmieniony wy\x{142}\x{105}cznie przez administratora.</p>"
   },
   1082 => {
@@ -42,27 +42,27 @@ our $I18N = {
     'message' => 'Schowek'
   },
   1083 => {
-    'lastUpdated' => '1236939547',
-    'message' => 'Nowy kontent'
+    'lastUpdated' => '1237543221',
+    'message' => "Nowa zawarto\x{15b}\x{107}"
   },
   11 => {
     'lastUpdated' => '1236867850',
     'message' => "Opr\x{f3}\x{17c}nij kosz."
   },
   174 => {
-    'lastUpdated' => '1203963224',
-    'message' => "Pokaza\x{107} tytu\x{142}?"
+    'lastUpdated' => '1237543247',
+    'message' => "Wy\x{15b}wietla\x{107} tytu\x{142}?"
   },
   411 => {
-    'lastUpdated' => '1203963232',
+    'lastUpdated' => '1237543357',
     'message' => "Tytu\x{142} w menu"
   },
   '411 description' => {
-    'lastUpdated' => '1236940764',
+    'lastUpdated' => '1237543270',
     'message' => "<p>Kr\x{f3}tki tytu\x{142} jaki pojawi si\x{119} w elementach nawigacyjnych serwisu WWW. Pozostawiony pusty b\x{119}dzie uzupe\x{142}niony warto\x{15b}ci\x{105} pola Tytu\x{142}.</p>"
   },
   412 => {
-    'lastUpdated' => '1236939588',
+    'lastUpdated' => '1237543383',
     'message' => 'Podsumowanie'
   },
   '412 description' => {
@@ -70,11 +70,11 @@ our $I18N = {
     'message' => '<p>Krótki opis tego zasobu/asset.</p>'
   },
   43 => {
-    'lastUpdated' => '1236940781',
+    'lastUpdated' => '1237543292',
     'message' => "Czy jeste\x{15b} pewny, \x{17c}e chcesz usun\x{105}\x{107} t\x{105} zawarto\x{15b}\x{107}? Zauwa\x{17c}, \x{17c}e ta zmiana nie jest wersjonowana i odniesie skutek natychmiastowy."
   },
   486 => {
-    'lastUpdated' => '1236939647',
+    'lastUpdated' => '1237543297',
     'message' => 'Typ danej'
   },
   487 => {
@@ -102,7 +102,7 @@ our $I18N = {
     'message' => "<p>Wybierz grup\x{119}, kt\x{f3}rej cz\x{142}onkowie mog\x{105} ogl\x{105}da\x{107} zas\x{f3}b/asset. Je\x{15b}li chcia\x{142}by\x{15b} przydzieli\x{107} prawo ogl\x{105}dania go\x{15b}ciom i zarejestrowanym u\x{17c}ytkownikom wybierz grup\x{119} &quot;Everybody&quot;.</p>"
   },
   886 => {
-    'lastUpdated' => '1236939773',
+    'lastUpdated' => '1237543371',
     'message' => "Ukry\x{107} w nawigacji/menu?"
   },
   '886 description' => {
@@ -110,20 +110,20 @@ our $I18N = {
     'message' => "<p>Czy zas\x{f3}b/asset ma by\x{107} ukryty w elementach nawigacyjnych i mapie serwisu.</p>"
   },
   895 => {
-    'lastUpdated' => '1236939800',
-    'message' => "Przedawnienie pami\x{119}ci podr\x{119}cznej"
+    'lastUpdated' => '1237543423',
+    'message' => "Wyga\x{15b}ni\x{119}cie pami\x{119}ci podr\x{119}cznej"
   },
   896 => {
-    'lastUpdated' => '1236939814',
-    'message' => "Przedawnienie pami\x{119}ci podr\x{119}cznej (Go\x{15b}cie)"
+    'lastUpdated' => '1237543432',
+    'message' => "Wyga\x{15b}ni\x{119}cie pami\x{119}ci podr\x{119}cznej (Go\x{15b}cie)"
   },
   940 => {
     'lastUpdated' => '1203963907',
     'message' => "Otworzy\x{107} w nowym oknie?"
   },
   '940 description' => {
-    'lastUpdated' => '1236940874',
-    'message' => "<p>Wybierz tak aby otworzy\x{107} ten zas\x{f3}b/asset w nowym oknie. Zauwa\x{17c} jednak, \x{17c}e z nowymi oknami wi\x{105}\x{17c}e si\x{119} wiele problem\x{f3}w. Na wielu przegl\x{105}darkach okna mog\x{105} by\x{107} niedost\x{119}pne, gdy u\x{17c}ytkownik wy\x{142}\x{105}czy obs\x{142}ug\x{119} JavaScript albo zablokuje wyskakuj\x{105}ce okienka. Korzystaj z tej cechy rozwa\x{17c}nie.</p>"
+    'lastUpdated' => '1237543469',
+    'message' => "<p>Wybierz tak aby otworzy\x{107} ten zas\x{f3}b/asset w nowym oknie. Zauwa\x{17c} jednak, \x{17c}e z nowymi oknami wi\x{105}\x{17c}e si\x{119} wiele problem\x{f3}w. Na wielu przegl\x{105}darkach okna mog\x{105} by\x{107} niedost\x{119}pne, gdy u\x{17c}ytkownik wy\x{142}\x{105}czy obs\x{142}ug\x{119} JavaScript albo zablokuje wyskakuj\x{105}ce okienka. Korzystaj z tej opcji rozwa\x{17c}nie.</p>"
   },
   949 => {
     'lastUpdated' => '1236940880',
@@ -134,11 +134,11 @@ our $I18N = {
     'message' => "Wyczy\x{15b}\x{107} schowek."
   },
   951 => {
-    'lastUpdated' => '1236939877',
-    'message' => "Czy jeste\x{15b} pewny, \x{17c}e zamierzasz wyczy\x{15b}ci\x{107} schowek i przerzuci\x{107} zawarto\x{15b}\x{107} do kosza?"
+    'lastUpdated' => '1237543489',
+    'message' => "Czy jeste\x{15b} pewny, \x{17c}e zamierzasz wyczy\x{15b}ci\x{107} schowek i przenie\x{15b}\x{107} zawarto\x{15b}\x{107} do kosza?"
   },
   954 => {
-    'lastUpdated' => '1236939882',
+    'lastUpdated' => '1237543514',
     'message' => "Zarz\x{105}dzaj schowkiem systemowym."
   },
   959 => {
@@ -150,7 +150,7 @@ our $I18N = {
     'message' => "Zarz\x{105}dzaj koszem systemowym."
   },
   965 => {
-    'lastUpdated' => '1236939907',
+    'lastUpdated' => '1237543520',
     'message' => 'Kosz systemowy'
   },
   966 => {
@@ -162,8 +162,8 @@ our $I18N = {
     'message' => "Tytu\x{142}"
   },
   '99 description' => {
-    'lastUpdated' => '1236940909',
-    'message' => "<p>Tytu\x{142} zasobu/asset.  Powinien by\x{107} opisowy, ale nie za d\x{142}ugi. W przypadku braku warto\x{15b}ci b\x{119}dzie wype\x{142}niony tekstem &quot;Untitled&quot;. Makra, kod HTML i JavaScript nie mog\x{105} by\x{107} umieszczone w tytule.</p> \r\n<p><em>Notatka:</em> Zawsze powiniene\x{15b} wprowadzi\x{107} tytu\x{142}, nawet je\x{15b}li zas\x{f3}b/asset nie wykorzysta go w przysz\x{142}o\x{15b}ci. W wielu miejscach serwisu jak drzewo stron, mapa serwisu, schowek i kosz  <strong>Tytu\x{142}</strong> jest u\x{17c}yty do rozr\x{f3}\x{17c}nienia zasob\x{f3}w.</p>"
+    'lastUpdated' => '1237543562',
+    'message' => "<p>Tytu\x{142} zasobu/asset.  Powinien by\x{107} opisowy, ale nie za d\x{142}ugi. W przypadku braku warto\x{15b}ci b\x{119}dzie wype\x{142}niony tekstem &quot;Untitled&quot;. Makra, kod HTML i JavaScript nie mog\x{105} by\x{107} umieszczone w tytule.</p> \r\n<p><em>Notatka:</em> Zawsze powiniene\x{15b} wprowadzi\x{107} tytu\x{142}, nawet je\x{15b}li zas\x{f3}b/asset nie wykorzysta go w przysz\x{142}o\x{15b}ci. W wielu miejscach serwisu jak drzewo stron, mapa serwisu, schowek i kosz <strong>Tytu\x{142}</strong> jest u\x{17c}yty do rozr\x{f3}\x{17c}nienia zasob\x{f3}w.</p>"
   },
   'Add new field' => {
     'lastUpdated' => '1236939988',
@@ -178,16 +178,16 @@ our $I18N = {
     'message' => 'Ikona klasy'
   },
   'Class Icon help' => {
-    'lastUpdated' => '1236940933',
-    'message' => "<p>Ka\x{17c}dy zas\x{f3}b/asset wy\x{15b}wietla r\x{f3}wnie\x{17c} ikon\x{119} klasy. Ikony Klas s\x{105} unikalne (w wi\x{119}kszo\x{15b}ci) i s\x{105} mniejszymi wersjami ikon wy\x{15b}wietlanych w sekcji Nowy Kontent w Konsoli Administratora. Klikni\x{119}cie na Ikon\x{119} Klasy rozwinie menu z dodatkowymi opcjami edycji.</p>"
+    'lastUpdated' => '1237543641',
+    'message' => "<p>Ka\x{17c}dy zas\x{f3}b/asset wy\x{15b}wietla r\x{f3}wnie\x{17c} ikon\x{119} klasy. Ikony klas s\x{105} unikalne (w wi\x{119}kszo\x{15b}ci) i s\x{105} mniejszymi wersjami ikon wy\x{15b}wietlanych w sekcji &quot;Nowa zawarto\x{15b}\x{107}&quot; w Konsoli Administratora. Klikni\x{119}cie na Ikon\x{119} klasy rozwinie menu z dodatkowymi opcjami edycji.</p>"
   },
   'Copy' => {
     'lastUpdated' => '1225266934',
     'message' => 'Kopiuj'
   },
   'Data Type description' => {
-    'lastUpdated' => '1236940070',
-    'message' => '<p>Wybierz type dla elementu tego formularza.</p>'
+    'lastUpdated' => '1237543672',
+    'message' => '<p>Wybierz typ dla tego elementu formularza.</p>'
   },
   'Delete Metadata field' => {
     'lastUpdated' => '1203964847',
@@ -198,15 +198,15 @@ our $I18N = {
     'message' => "G\x{142}\x{119}boko\x{15b}\x{107}"
   },
   'Depth description' => {
-    'lastUpdated' => '1236940943',
+    'lastUpdated' => '1237543690',
     'message' => "<p>Ustala g\x{142}\x{119}boko\x{15b}\x{107} eksportu drzewa stron. U\x{17c}yj g\x{142}\x{119}boko\x{15b}ci 0 dla eksportu wy\x{142}\x{105}cznie aktualnej strony. </p>"
   },
   'Edit Metadata' => {
-    'lastUpdated' => '1203965028',
-    'message' => "edycja w\x{142}asno\x{15b}ci Metadata"
+    'lastUpdated' => '1237543701',
+    'message' => "Edycja w\x{142}asno\x{15b}ci Metadata"
   },
   'Error: Cannot instantiate template' => {
-    'lastUpdated' => '1236940091',
+    'lastUpdated' => '1237543720',
     'message' => "B\x{142}\x{105}d: Nie uda\x{142}o si\x{119} utworzy\x{107} szablonu"
   },
   'Export Page' => {
@@ -218,7 +218,7 @@ our $I18N = {
     'message' => "Eksportuj jako u\x{17c}ytkownik"
   },
   'Export as user description' => {
-    'lastUpdated' => '1236940954',
+    'lastUpdated' => '1237543734',
     'message' => "<p>Wywo\x{142}aj eksport jako ten u\x{17c}ytkownik. Domy\x{15b}lnie Go\x{15b}\x{107}.</p>"
   },
   'Export site root URL' => {
@@ -226,24 +226,24 @@ our $I18N = {
     'message' => 'Eksport adresu URL korzenia serwisu'
   },
   'Export site root URL description' => {
-    'lastUpdated' => '1236940140',
+    'lastUpdated' => '1237543751',
     'message' => "adres URL do przej\x{15b}cia w Macro Widgets."
   },
   'Extras URL' => {
-    'lastUpdated' => '1236940159',
+    'lastUpdated' => '1237543761',
     'message' => 'Adres URL ekstra plików (extras)'
   },
   'Extras URL description' => {
-    'lastUpdated' => '1236940964',
+    'lastUpdated' => '1237543771',
     'message' => "<p>Ustala adres URL dla ekstra plik\x{f3}w (extras). Domy\x{15b}lnie przyjmuje warto\x{15b}\x{107} zdefiniowan\x{105} w konfiguracji WebGUI.</p>"
   },
   'Field Id' => {
-    'lastUpdated' => '1203965257',
-    'message' => 'Pole Id'
+    'lastUpdated' => '1237544184',
+    'message' => 'ID pola'
   },
   'Field Name description' => {
-    'lastUpdated' => '1236940979',
-    'message' => "<p>Nazwa w\x{142}asno\x{15b}ci metadata. Musi by\x{107} unikalna. Rozs\x{105}dne jest wykorzystywanie wy\x{142}\x{105}cznie liter (a-z), liczb (0-9) i znaku podkre\x{15b}lenia (_). A tak\x{17c}e mniej ni\x{17c} 100 znak\x{f3}w d\x{142}ugo\x{15b}ci.</p>"
+    'lastUpdated' => '1237544168',
+    'message' => "<p>Nazwa w\x{142}asno\x{15b}ci metadata. Musi by\x{107} unikalna. Rozs\x{105}dne jest wykorzystywanie wy\x{142}\x{105}cznie liter (a-z), liczb (0-9) i znaku podkre\x{15b}lenia (_), a tak\x{17c}e mniej ni\x{17c} 100 znak\x{f3}w d\x{142}ugo\x{15b}ci.</p>"
   },
   'Field name' => {
     'lastUpdated' => '1203965394',
@@ -254,7 +254,7 @@ our $I18N = {
     'message' => 'Metadata'
   },
   'Metadata Description description' => {
-    'lastUpdated' => '1236940991',
+    'lastUpdated' => '1237544198',
     'message' => "<p>Opcjonalny opis dla w\x{142}asno\x{15b}ci metadata. Tekst ten jest wy\x{15b}wietlany po najechaniu na zak\x{142}adk\x{119} w\x{142}asno\x{15b}ci.</p>"
   },
   'More' => {
@@ -262,7 +262,7 @@ our $I18N = {
     'message' => "Wi\x{119}cej"
   },
   'Page Export' => {
-    'lastUpdated' => '1203965482',
+    'lastUpdated' => '1237544206',
     'message' => 'Strona, Eksport'
   },
   'Page Export Status' => {
@@ -270,19 +270,19 @@ our $I18N = {
     'message' => 'Status Eksportu Strony'
   },
   'Possible Values description' => {
-    'lastUpdated' => '1236941005',
+    'lastUpdated' => '1237544235',
     'message' => "<p>Pole to wykorzystywane jest wy\x{142}\x{105}cznie dla typ\x{f3}w Radio List i Select List. Wprowad\x{17a} warto\x{15b}ci jakie maj\x{105} si\x{119} pokaza\x{107}. Jedna warto\x{15b}\x{107} w jednej linii.</p><p>Je\x{15b}li chcia\x{142}by\x{15b} uzyska\x{107} r\x{f3}\x{17c}ne etykiety dla poszczeg\x{f3}lnych warto\x{15b}ci istnieje mo\x{17c}liwo\x{15b}\x{107} specjalnego sformatowania listy:</p><pre>{<br />   &quot;key1&quot;=&gt;&quot;value1&quot;,<br />   &quot;key2&quot;=&gt;&quot;value2&quot;,<br />   &quot;key3&quot;=&gt;&quot;value3&quot;<br />   ...<br />}</pre><p>Pami\x{119}taj, aby poprawnie zastosowa\x{107} nawiasy, cudzys\x{142}owy, przecinki i inne wymagane znaki. Najlepiej podmie\x{144} warto\x{15b}ci wewn\x{105}trz cudzys\x{142}ow\x{f3}w na nowe pary kluczy i warto\x{15b}ci. Je\x{15b}li potrzebujesz wi\x{119}cej pozycji wystarczy powieli\x{107} linie wewn\x{105}trz klamer {}. </p>"
   },
   'Select' => {
-    'lastUpdated' => '1236940284',
-    'message' => 'Select...'
+    'lastUpdated' => '1237544373',
+    'message' => 'Wybierz...'
   },
   'Uploads URL' => {
     'lastUpdated' => '1236940294',
     'message' => 'Uploads URL'
   },
   'Uploads URL description' => {
-    'lastUpdated' => '1236941031',
+    'lastUpdated' => '1237545049',
     'message' => "<p>Ustala adres URL dla plik\x{f3}w Uploads. Domy\x{15b}lnie warto\x{15b}\x{107} ustawiona w pliku konfiguracyjnym WebGUI.</p>"
   },
   'add the missing page' => {
@@ -306,20 +306,24 @@ our $I18N = {
     'message' => 'Zasób/Asset ID'
   },
   'asset id description' => {
-    'lastUpdated' => '1236941089',
+    'lastUpdated' => '1237544484',
     'message' => "<p>To jest unikalny identyfikator w WebGUI u\x{17c}ywany do \x{15b}ledzenia instancji Zasobu/Asset. Zwykli u\x{17c}ytkownicy nie musz\x{105} si\x{119} martwi\x{107} o ID Zasobu/Asset, jednak czasami zaawansowani u\x{17c}ytkownicy mog\x{105} potrzebowa\x{107} zna\x{107} go dla r\x{f3}\x{17c}nych rzeczy jak np. Raporty SQL. Nie mo\x{17c}na modyfikowa\x{107} ID Zasobu/Asset.</p>"
   },
   'asset list title' => {
-    'lastUpdated' => '1236941098',
+    'lastUpdated' => '1237544506',
     'message' => "Zas\x{f3}b/Asset, Lista dost\x{119}pu"
   },
   'asset template asset var title' => {
-    'lastUpdated' => '1236941111',
+    'lastUpdated' => '1237544518',
     'message' => 'Szablon Zasobu/Asset Zmienne Zasobu/Asset'
   },
   'asset template title' => {
-    'lastUpdated' => '1236941119',
+    'lastUpdated' => '1237544526',
     'message' => 'Zmienne Szablonu Zasobu/Asset'
+  },
+  'assetHistory' => {
+    'lastUpdated' => '1237544543',
+    'message' => 'Historia zasobu/asset'
   },
   'assetSize' => {
     'lastUpdated' => '1236941143',
@@ -330,7 +334,7 @@ our $I18N = {
     'message' => 'Zasoby/Assets'
   },
   'bad user privileges' => {
-    'lastUpdated' => '1236941158',
+    'lastUpdated' => '1237544557',
     'message' => "U\x{17c}ytkownik nie posiada uprawnie\x{144} dla wy\x{15b}wietlenia tej strony."
   },
   'change' => {
@@ -342,31 +346,31 @@ our $I18N = {
     'message' => 'Zmiana URL'
   },
   'change url help' => {
-    'lastUpdated' => '1236941178',
+    'lastUpdated' => '1237544574',
     'message' => 'Aktywowanie zmiany URL dla tego zasobu/asset.'
   },
   'committed versions' => {
-    'lastUpdated' => '1204058739',
+    'lastUpdated' => '1237544581',
     'message' => 'Wersje Zatwierdzone'
   },
   'confirm change' => {
-    'lastUpdated' => '1204058798',
-    'message' => "Jete\x{15b} pewny?"
+    'lastUpdated' => '1237544596',
+    'message' => "Czy jeste\x{15b} pewny?"
   },
   'confirm change url message' => {
-    'lastUpdated' => '1236941194',
+    'lastUpdated' => '1237544606',
     'message' => "Ustawienie na 'Tak' potwierdzi, \x{17c}e zamierzasz permanentnie zmieni\x{107} ten adres URL, a co za tym idzie usun\x{105}\x{107} wszystkie stare rewizje tego zasobu."
   },
   'content profiling' => {
-    'lastUpdated' => '1236941307',
+    'lastUpdated' => '1237544615',
     'message' => "Dostosowanie Zawarto\x{15b}ci"
   },
   'controls' => {
-    'lastUpdated' => '1236941328',
-    'message' => "To s\x{105} ikony i adresy URL pozwalaj\x{105}ce edytowa\x{107}, wycina\x{107}, kopiowa\x{107}, us\x{f3}wa\x{107} i zmienia\x{107} kolejno\x{15b}\x{107} Zasob\x{f3}w/Assets."
+    'lastUpdated' => '1237544636',
+    'message' => "To s\x{105} ikony i adresy URL pozwalaj\x{105}ce edytowa\x{107}, wycina\x{107}, kopiowa\x{107}, usuwa\x{107} i zmienia\x{107} kolejno\x{15b}\x{107} Zasob\x{f3}w/Assets."
   },
   'copy' => {
-    'lastUpdated' => '1227594751',
+    'lastUpdated' => '1237544640',
     'message' => 'kopiuj'
   },
   'could not create' => {
@@ -394,7 +398,7 @@ our $I18N = {
     'message' => "Nie mo\x{17c}na od\x{142}\x{105}czy\x{107} link %s: %s"
   },
   'create package' => {
-    'lastUpdated' => '1204059417',
+    'lastUpdated' => '1237544681',
     'message' => "Uczyni\x{107} dost\x{119}pne jako pakiet?"
   },
   'create shortcut' => {
@@ -406,7 +410,7 @@ our $I18N = {
     'message' => 'Aktualny URL'
   },
   'cut' => {
-    'lastUpdated' => '1204059477',
+    'lastUpdated' => '1237544692',
     'message' => 'Wytnij'
   },
   'default value' => {
@@ -414,7 +418,7 @@ our $I18N = {
     'message' => "Domy\x{15b}lna warto\x{15b}\x{107}(\x{15b}ci)"
   },
   'default value description' => {
-    'lastUpdated' => '1236941459',
+    'lastUpdated' => '1237544710',
     'message' => "<p>Domy\x{15b}lna warto\x{15b}\x{107} dla tego pola. W przypadku wielu domy\x{15b}lnych warto\x{15b}ci, jak ma to miejsce w Check Box List, nale\x{17c}y wprowadzi\x{107} jedn\x{105} warto\x{15b}\x{107} w linii. Maksymalna liczba znak\x{f3}w wynosi 255 dla wszystkich linii tekstu.</p>"
   },
   'delete' => {
@@ -430,15 +434,15 @@ our $I18N = {
     'message' => 'Zdegraduj'
   },
   'demote help' => {
-    'lastUpdated' => '1236941478',
+    'lastUpdated' => '1237544724',
     'message' => "Przesu\x{144} ten zas\x{f3}b do do\x{142}u o jedno miejsce na stronie."
   },
   'directory index' => {
-    'lastUpdated' => '1204234596',
+    'lastUpdated' => '1237544734',
     'message' => 'Indeks Katalogu'
   },
   'directory index description' => {
-    'lastUpdated' => '1236941496',
+    'lastUpdated' => '1237545062',
     'message' => "<p>Je\x{15b}li adres URL eksportowanego Zasobu/Asset wygl\x{105}da jak katalog, dodany b\x{119}dzie indeks katalogu do niego.</p>"
   },
   'does asset inherit URL from parent' => {
@@ -446,11 +450,11 @@ our $I18N = {
     'message' => "Doda\x{107} z przodu URL rodzica?"
   },
   'does asset inherit URL from parent description' => {
-    'lastUpdated' => '1236941521',
-    'message' => "Czy zas\x{f3}b/asset ma poprzedza\x{107} sw\x{f3}j adres URL adresem URL rodzica?"
+    'lastUpdated' => '1237544767',
+    'message' => "<p>Czy zas\x{f3}b/asset ma poprzedza\x{107} sw\x{f3}j adres URL adresem URL rodzica?</p>"
   },
   'done' => {
-    'lastUpdated' => '1204234746',
+    'lastUpdated' => '1237544774',
     'message' => 'ZROBIONE'
   },
   'duplicate' => {
@@ -458,7 +462,7 @@ our $I18N = {
     'message' => 'Duplikuj'
   },
   'duplicateField' => {
-    'lastUpdated' => '1236941533',
+    'lastUpdated' => '1237544783',
     'message' => "<p><strong>B\x{142}\x{105}d: Pole &quot;%field%&quot; jest ju\x{17c} w u\x{17c}yciu.</strong></p>"
   },
   'edit' => {
@@ -466,7 +470,7 @@ our $I18N = {
     'message' => 'Edytuj'
   },
   'edit branch' => {
-    'lastUpdated' => '1204234834',
+    'lastUpdated' => '1237544792',
     'message' => "Edycja Ga\x{142}\x{119}zi"
   },
   'edit branch help' => {
@@ -486,7 +490,7 @@ our $I18N = {
     'message' => "<p>Czy strona zawieraj\x{105}ca ten zas\x{f3}b/asset ma by\x{107} szyfrowana w SSL?</p>"
   },
   'encryptPage' => {
-    'lastUpdated' => '1236942096',
+    'lastUpdated' => '1237544807',
     'message' => "<p>Je\x{15b}li Zas\x{f3}b/Asset ma by\x{107} szyfrowany przez SSL nale\x{17c}y ustawi\x{107} warto\x{15b}\x{107} TRUE.</p>"
   },
   'errorEmptyField' => {
@@ -510,16 +514,16 @@ our $I18N = {
     'message' => 'Ekstra elementy &lt;head&gt;&nbsp; (tags)'
   },
   'extra head tags description' => {
-    'lastUpdated' => '1236942145',
+    'lastUpdated' => '1237544832',
     'message' => "<p>Te znaczniki b\x{119}d\x{105} dodane do sekcji &lt;head&gt; w ka\x{17c}dej stronie, na kt\x{f3}rej pojawi si\x{119} Zas\x{f3}b/Asset.</p>"
   },
   'extraHeadTags' => {
-    'lastUpdated' => '1236942171',
+    'lastUpdated' => '1237544843',
     'message' => "<p>Dodatkowe znaczniki b\x{119}d\x{105} dodane do nag\x{142}\x{f3}wka stron zawieraj\x{105}cych Zas\x{f3}b/Asset. Znaczniki b\x{119}d\x{105} dodane domy\x{15b}lnie, wi\x{119}c nie musisz dodawa\x{107} ich samemu. Chyba, \x{17c}e chcesz aby wyst\x{105}pi\x{142}y dwa razy.</p>"
   },
   'extrasUploads form hoverHelp' => {
-    'lastUpdated' => '1236942265',
-    'message' => "<p>Jak\x{105} nale\x{17c}y podj\x{105}\x{107} akcj\x{119} odno\x{15b}nie plik\x{f3}w w katalogach extras i uploads, kt\x{f3}re cz\x{119}sto stanowi\x{105} cz\x{119}\x{15b}\x{107} stron serwisu WWW. <b>Symlink</b> oznacza u\x{17c}ycie symbolicznych link\x{f3}w (nie dost\x{119}pnych we wszystkich systemach operacyjnych) do oryginalnego katalogu. <b>None</b> oznacza zignorowanie katalog\x{f3}w extras i uploads, co prawdopodobnie spowoduje z\x{142}amanie odno\x{15b}nik\x{f3}w w eksportowanym serwisie. Oczywi\x{15b}cie wy\x{142}\x{105}cznie, je\x{15b}li nie przygotujesz odpowiednio sam tych katalog\x{f3}w.</p>"
+    'lastUpdated' => '1237545097',
+    'message' => "<p>Jak\x{105} nale\x{17c}y podj\x{105}\x{107} akcj\x{119} odno\x{15b}nie plik\x{f3}w w katalogach extras i uploads, kt\x{f3}re cz\x{119}sto stanowi\x{105} cz\x{119}\x{15b}\x{107} stron serwisu WWW. <b>Symlink</b> oznacza u\x{17c}ycie symbolicznych link\x{f3}w (nie dost\x{119}pnych we wszystkich systemach operacyjnych) do oryginalnego katalogu. <b>\x{17b}aden</b> oznacza zignorowanie katalog\x{f3}w extras i uploads, co prawdopodobnie spowoduje z\x{142}amanie odno\x{15b}nik\x{f3}w w eksportowanym serwisie. Oczywi\x{15b}cie wy\x{142}\x{105}cznie, je\x{15b}li nie przygotujesz odpowiednio sam tych katalog\x{f3}w.</p>"
   },
   'extrasUploads form label' => {
     'lastUpdated' => '1236942296',
@@ -674,7 +678,7 @@ our $I18N = {
     'message' => "ID u\x{17c}ytkownika, kt\x{f3}ry jest w\x{142}a\x{15b}cicielem zasobu."
   },
   'package corrupt' => {
-    'lastUpdated' => '1236944613',
+    'lastUpdated' => '1237545373',
     'message' => "Pakiet, kt\x{f3}ry pr\x{f3}bujesz zaimportowa\x{107} wydaje si\x{119} by\x{107} zepsuty. Import przebiegnie do miejsca, w kt\x{f3}rym wykryto b\x{142}\x{105}d. Je\x{15b}li nie chcesz zaimportowanej cz\x{119}\x{15b}ci pakietu wykonaj wycofanie twojej przywieszki wersji."
   },
   'package extract error' => {
@@ -770,24 +774,24 @@ our $I18N = {
     'message' => 'Not symlinking default asset; not included in exported subtree.'
   },
   'rootUrl form hoverHelp' => {
-    'lastUpdated' => '1237458382',
+    'lastUpdated' => '1237545205',
     'message' => ''
   },
   'rootUrl form label' => {
-    'lastUpdated' => '1204239536',
+    'lastUpdated' => '1237545214',
     'message' => 'Adres URL korzenia'
   },
   'rootUrl form option none' => {
-    'lastUpdated' => '1237457541',
+    'lastUpdated' => '1237544958',
     'message' => "\x{17b}aden"
   },
   'rootUrl form option symlinkDefault' => {
-    'lastUpdated' => '1237457609',
-    'message' => ''
+    'lastUpdated' => '1237544971',
+    'message' => 'Symlink'
   },
   'rootUrl symlinking default' => {
-    'lastUpdated' => '1237457582',
-    'message' => ''
+    'lastUpdated' => '1237545224',
+    'message' => 'Linkuj symbolicznie katalogi &quot;extras&quot; i &quot;uploads&quot;'
   },
   'save and commit' => {
     'lastUpdated' => '1204239547',
@@ -806,23 +810,23 @@ our $I18N = {
     'message' => 'Rozmiar'
   },
   'specified base' => {
-    'lastUpdated' => '1236945919',
-    'message' => 'Specified Base'
+    'lastUpdated' => '1237828920',
+    'message' => ''
   },
   'status' => {
-    'lastUpdated' => '1236946310',
-    'message' => 'With respect to version control, the status of this Asset.  Typically these are the English strings "approved", "pending", "committed".'
+    'lastUpdated' => '1237828963',
+    'message' => ''
   },
   'synopsis' => {
-    'lastUpdated' => '1236946077',
-    'message' => "Kr\x{f3}tki opis zawarto\x{15b}ci zasobu."
+    'lastUpdated' => '1237545329',
+    'message' => "Kr\x{f3}tki opis zawarto\x{15b}ci zasobu/asset."
   },
   'tag name' => {
     'lastUpdated' => '1236946345',
     'message' => 'Nazwa przywieszki'
   },
   'this asset only' => {
-    'lastUpdated' => '1236946381',
+    'lastUpdated' => '1237545336',
     'message' => 'Tylko Ten Zasób/Asset'
   },
   'title' => {
@@ -858,15 +862,15 @@ our $I18N = {
     'message' => "Wiele Zasob\x{f3}w/Assets pokazywanych jest jako cz\x{119}\x{15b}\x{107} pojemnika - zasobu typu Strona lub Folder. Ta opcja pozwoli wy\x{15b}wietli\x{107} Zas\x{f3}b samodzielnie."
   },
   'with children' => {
-    'lastUpdated' => '1236946426',
+    'lastUpdated' => '1237545351',
     'message' => "Z Dzie\x{107}mi"
   },
   'with descendants' => {
-    'lastUpdated' => '1236946434',
+    'lastUpdated' => '1237545356',
     'message' => 'Z Potomkami'
   },
   'with selected' => {
-    'lastUpdated' => '1236947207',
+    'lastUpdated' => '1237545361',
     'message' => 'Wybrane: &nbsp;'
   }
 }
