@@ -321,6 +321,10 @@ our $I18N = {
     'lastUpdated' => '1170454468',
     'message' => 'Asset Template Variablen'
   },
+  'assetHistory' => {
+    'lastUpdated' => '1238017406',
+    'message' => 'Historie zum Asset'
+  },
   'assetSize' => {
     'lastUpdated' => '1170454592',
     'message' => 'Größe dieses Assets in Bytes. Summe aus allen Datenbankfeldern und Anhängen.'

@@ -301,6 +301,10 @@ our $I18N = {
     'lastUpdated' => '1228420825',
     'message' => 'Album anzeigen'
   },
+  'template listAlbumsRss' => {
+    'lastUpdated' => '1238016843',
+    'message' => 'Abonnieren'
+  },
   'template listFilesForUser albums files' => {
     'lastUpdated' => '1228420865',
     'message' => 'Dateien'
@@ -316,6 +320,14 @@ our $I18N = {
   'template listFilesForUser title' => {
     'lastUpdated' => '1229991902',
     'message' => 'Galerie von %s'
+  },
+  'template search basic term' => {
+    'lastUpdated' => '1238016874',
+    'message' => 'Suchbegriff'
+  },
+  'template search basic title' => {
+    'lastUpdated' => '1238016898',
+    'message' => 'Galerie durchsuchen'
   },
   'template search field className' => {
     'lastUpdated' => '1228421051',

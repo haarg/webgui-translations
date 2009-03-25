@@ -77,6 +77,10 @@ our $I18N = {
     'lastUpdated' => '1235678631',
     'message' => 'Fehler: Suchbegriff'
   },
+  'Warning: Ending search point' => {
+    'lastUpdated' => '1238017034',
+    'message' => 'Fehler beim Proxy'
+  },
   'assetName' => {
     'lastUpdated' => '1178697633',
     'message' => 'HTTP Proxy'

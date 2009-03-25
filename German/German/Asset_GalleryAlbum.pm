@@ -353,6 +353,10 @@ our $I18N = {
     'lastUpdated' => '1229106566',
     'message' => 'Zip-Archiv hinzufügen'
   },
+  'template album thumbnail alt' => {
+    'lastUpdated' => '1238016773',
+    'message' => 'Vorschau Thumbnail'
+  },
   'template assetName' => {
     'lastUpdated' => '1229106770',
     'message' => 'Album'
@@ -396,6 +400,10 @@ our $I18N = {
   'template url' => {
     'lastUpdated' => '1229108848',
     'message' => 'Album'
+  },
+  'template url_addDescription' => {
+    'lastUpdated' => '1238016801',
+    'message' => 'Beschreibung hinzufügen'
   },
   'template url_addPhoto' => {
     'lastUpdated' => '1229108891',

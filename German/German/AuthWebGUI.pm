@@ -109,6 +109,18 @@ our $I18N = {
     'lastUpdated' => '1227567532',
     'message' => 'Diese Angabe macht das Passwort sofort nach der Kontenerstellung ungültig.'
   },
+  'account activation template' => {
+    'lastUpdated' => '1238017107',
+    'message' => 'Emailvorlage Kontoaktivierung'
+  },
+  'account activation template help' => {
+    'lastUpdated' => '1238017173',
+    'message' => 'Wählen Sie eine Vorlage für die Email, die an neue Benutzer versendet wird.'
+  },
+  'account activation template title' => {
+    'lastUpdated' => '1238017283',
+    'message' => 'WebgGUI Authentifizierung - Email zur Benutzeraktivierung'
+  },
   'account template' => {
     'lastUpdated' => '1178700944',
     'message' => 'Account Template'
@@ -152,6 +164,10 @@ our $I18N = {
   'account.noform' => {
     'lastUpdated' => '1178701222',
     'message' => 'Gibt an, ob das Account Formular irgendwechle sichtbaren Elemente besitzt.'
+  },
+  'activationUrl' => {
+    'lastUpdated' => '1238017323',
+    'message' => 'Die URL zur Aktivierung des neu kreierten Kontos'
   },
   'anon reg template title' => {
     'lastUpdated' => '1178701314',
@@ -385,6 +401,10 @@ Sie können sich jetzt mit Ihrer Kennung und Ihrem Passwort anmelden.'
   'new password verify help' => {
     'lastUpdated' => '1200441416',
     'message' => 'Passwort erneut zur Bestätigung eingeben'
+  },
+  'newUser_username' => {
+    'lastUpdated' => '1238017346',
+    'message' => 'Name des neuen Benutzers'
   },
   'no email address' => {
     'lastUpdated' => '1229992309',
