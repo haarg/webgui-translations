@@ -17,6 +17,10 @@ our $I18N = {
     'lastUpdated' => '1233945970',
     'message' => 'Der URL zur Verwaltung der Einkäufe.'
   },
+  'my sales label' => {
+    'lastUpdated' => '1238256208',
+    'message' => 'Verkauf'
+  },
   'shop layout template hoverHelp' => {
     'lastUpdated' => '1233946166',
     'message' => 'Die Vorlage zur Anzeige des Ladenreiters sowie einer Auflistung der anderen verfügbaren Konto-Erweiterungen.'
