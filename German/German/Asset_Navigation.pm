@@ -289,6 +289,10 @@ our $I18N = {
     'lastUpdated' => '1178717094',
     'message' => 'Bedingung, die angibt, ob diese Seite die aktuelle Seite ist.'
   },
+  'page.isDescendant' => {
+    'lastUpdated' => '1238250296',
+    'message' => 'Eine Bedingung, die angibt, ob diese Seite eine Unterseite der aktuelle Seite ist.'
+  },
   'page.isDescendent' => {
     'lastUpdated' => '1178717153',
     'message' => 'Bedingung, die angibt, ob diese Seite ein Descendant der aktuelle Seite ist.'

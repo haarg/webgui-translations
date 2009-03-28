@@ -402,6 +402,10 @@ Sie können sich jetzt mit Ihrer Kennung und Ihrem Passwort anmelden.'
     'lastUpdated' => '1200441416',
     'message' => 'Passwort erneut zur Bestätigung eingeben'
   },
+  'newUser_password' => {
+    'lastUpdated' => '1238250365',
+    'message' => 'Das Passwort für das neu kreierte Konto'
+  },
   'newUser_username' => {
     'lastUpdated' => '1238017346',
     'message' => 'Name des neuen Benutzers'
@@ -613,6 +617,18 @@ Sie können sich jetzt mit Ihrer Kennung und Ihrem Passwort anmelden.'
   'webguiPasswordRecoveryRequireUsername hoverHelp' => {
     'lastUpdated' => '1178707164',
     'message' => '<p>Wählen Sie hier &quot;Ja&quot;, wenn Sie wollen, dass die Benutzer ihre Benutzername für die Passwortwiederherstellung eingeben m&uuml;ssen. Andernfalls können Benutzer ihr Passwort zur&uuml;cksetzen bzw. sich im System anmelden, falls Sie nur die anderen Profil Felder kennen, die f&uuml;r die&nbsp; Passwortwiederherstellung wichtig sind. Auch wenn die Benutzern ihren Benuzternamen vergesssen haben. </p>'
+  },
+  'welcome message template' => {
+    'lastUpdated' => '1238250396',
+    'message' => 'Vorlage Willkommensnachricht'
+  },
+  'welcome message template help' => {
+    'lastUpdated' => '1238250455',
+    'message' => 'Selektieren Sie eine Vorlage für die Willkommensnachricht, die an neue Benutzer gesendet wird.'
+  },
+  'welcome message template title' => {
+    'lastUpdated' => '1238250507',
+    'message' => 'WebGUI Authentifizierung Vorlage Willkommensnachricht'
   }
 }
 ;
