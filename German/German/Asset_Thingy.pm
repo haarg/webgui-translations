@@ -83,6 +83,10 @@ Bei "Ja/Nein" Feldern, geben Sie "yes" für "Ja" und "no" für "Nein" ein.'
     'lastUpdated' => '1227001427',
     'message' => 'Tabelle bearbeiten'
   },
+  'editScreenTitle' => {
+    'lastUpdated' => '1238256717',
+    'message' => 'Ändern'
+  },
   'field_label' => {
     'lastUpdated' => '1234944683',
     'message' => 'Bezeichnung'
@@ -90,6 +94,10 @@ Bei "Ja/Nein" Feldern, geben Sie "yes" für "Ja" und "no" für "Nein" ein.'
   'field_value' => {
     'lastUpdated' => '1236681150',
     'message' => 'Der Wert dieses Feldes'
+  },
+  'fields label' => {
+    'lastUpdated' => '1238256735',
+    'message' => 'Felder'
   },
   'form_submit' => {
     'lastUpdated' => '1236681187',
@@ -110,6 +118,10 @@ Bei "Ja/Nein" Feldern, geben Sie "yes" für "Ja" und "no" für "Nein" ein.'
   'name' => {
     'lastUpdated' => '1227001440',
     'message' => 'Bezeichnung der Tabelle'
+  },
+  'possible values label' => {
+    'lastUpdated' => '1238256776',
+    'message' => 'Zugelassene Werte'
   },
   'pretext label' => {
     'lastUpdated' => '1227000900',
@@ -154,6 +166,10 @@ Bei "Ja/Nein" Feldern, geben Sie "yes" für "Ja" und "no" für "Nein" ein.'
   'sort by label' => {
     'lastUpdated' => '1227000752',
     'message' => 'Sortieren nach'
+  },
+  'subtext label' => {
+    'lastUpdated' => '1238256796',
+    'message' => 'Zusatztext'
   },
   'thing_label' => {
     'lastUpdated' => '1234944794',

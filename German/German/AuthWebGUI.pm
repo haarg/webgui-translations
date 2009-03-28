@@ -629,6 +629,10 @@ Sie können sich jetzt mit Ihrer Kennung und Ihrem Passwort anmelden.'
   'welcome message template title' => {
     'lastUpdated' => '1238250507',
     'message' => 'WebGUI Authentifizierung Vorlage Willkommensnachricht'
+  },
+  'welcomeMessage' => {
+    'lastUpdated' => '1238256874',
+    'message' => 'Willkommensnachricht wie definiert in den Voreinstellungen'
   }
 }
 ;
