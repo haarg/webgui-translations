@@ -452,7 +452,7 @@ Afhankelijk van welke authenticatie modules geïnstalleerd zijn in het systeem, 
     'message' => '<a href="http://www.icq.com">ICQ</a> UIN'
   },
   318 => {
-    'lastUpdated' => '1153752967',
+    'lastUpdated' => '1238269512',
     'message' => '<a href="http://www.aol.com/aim/homenew.adp">AIM</a> identificatie'
   },
   319 => {

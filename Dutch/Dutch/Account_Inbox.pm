@@ -17,6 +17,10 @@ our $I18N = {
     'lastUpdated' => '1227707289',
     'message' => 'Deze gebruiker wil geen priv&eacute; berichten ontvangen.'
   },
+  'canSendMessages' => {
+    'lastUpdated' => '1237975514',
+    'message' => 'Een boolean waarde die waar is als de gebruiker vrienden heeft waar hij berichten aan kan sturen.'
+  },
   'cancel label' => {
     'lastUpdated' => '1227707324',
     'message' => 'Annuleren'
@@ -32,6 +36,14 @@ our $I18N = {
   'date label' => {
     'lastUpdated' => '1227707440',
     'message' => 'Datum'
+  },
+  'dateStamp' => {
+    'lastUpdated' => '1237975569',
+    'message' => 'De datum waarop het bericht verstuurd is, in epoch formaat.'
+  },
+  'dateStamp_formatted' => {
+    'lastUpdated' => '1237975641',
+    'message' => 'De datum waarop het bericht verzonden is, in het door de gebruiker gekozen datum en tijd formaat.'
   },
   'delete label' => {
     'lastUpdated' => '1227707447',
@@ -56,6 +68,10 @@ our $I18N = {
   'from_id' => {
     'lastUpdated' => '1236681455',
     'message' => 'De user-ID van de afzender'
+  },
+  'has_messages' => {
+    'lastUpdated' => '1237975341',
+    'message' => 'Een boolean waarde die waar is als de gebruiker berichten heeft'
   },
   'inbox error message template hoverHelp' => {
     'lastUpdated' => '1228767680',
@@ -136,6 +152,10 @@ our $I18N = {
   'inbox view template label' => {
     'lastUpdated' => '1228768616',
     'message' => 'Bekijk sjabloon'
+  },
+  'inbox_form_delete' => {
+    'lastUpdated' => '1237975452',
+    'message' => 'Een klein aankruis vakje voor de gebruiker om aan te geven dat ze dit bericht willen verwijderen.'
   },
   'invitation confirm label' => {
     'lastUpdated' => '1228768632',
@@ -424,6 +444,10 @@ our $I18N = {
   'user_invitations_enabled' => {
     'lastUpdated' => '1231700897',
     'message' => 'Een functie die waar is als deze site zo geconfigureerd is dat er uitnodigingen gestuurd kunnen worden naar gebruikers buiten de site.'
+  },
+  'view inbox template' => {
+    'lastUpdated' => '1237975741',
+    'message' => 'Het template dat je toestaat om de inhoud van de inbox te bekijken.'
   },
   'view my profile' => {
     'lastUpdated' => '1228765059',
