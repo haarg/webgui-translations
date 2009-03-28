@@ -1965,6 +1965,10 @@ our $I18N = {
     'lastUpdated' => '1224798062',
     'message' => 'Über uns'
   },
+  'Ad Space control name' => {
+    'lastUpdated' => '1238257007',
+    'message' => 'Werberaum'
+  },
   'All Rights Reserved' => {
     'lastUpdated' => '1224798917',
     'message' => 'Alle Rechte vorbehalten'
