@@ -2,8 +2,8 @@ package WebGUI::i18n::Polish::AdminConsole;
 use utf8;
 our $I18N = {
   'admin console' => {
-    'lastUpdated' => '1236936943',
-    'message' => 'Konsola Administratora'
+    'lastUpdated' => '1238070017',
+    'message' => 'Konsola'
   },
   'toggle off' => {
     'lastUpdated' => '1201692408',

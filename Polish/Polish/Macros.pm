@@ -30,7 +30,7 @@ our $I18N = {
     'message' => "Makra, Lista dost\x{119}pnych "
   },
   'macros using body' => {
-    'lastUpdated' => '1237846244',
+    'lastUpdated' => '1238077927',
     'message' => ''
   },
   'macros using title' => {

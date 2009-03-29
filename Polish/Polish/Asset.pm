@@ -10,8 +10,8 @@ our $I18N = {
     'message' => 'URL'
   },
   '104 description' => {
-    'lastUpdated' => '1237838714',
-    'message' => "<p>Adres URL dla zasobu/asset. Musi by\x{107} unikalny. Je\x{17c}eli operator nie wprowadzi warto\x{15b}ci zostanie utworzony na bazie aktualnego adresu URL i zawarto\x{15b}ci pola tytu\x{142}u dla menu.</p>"
+    'lastUpdated' => '1238070054',
+    'message' => "<p>Adres URL dla zasobu/asset. Musi by\x{107} unikalny. Je\x{17c}eli operator nie wprowadzi warto\x{15b}ci zostanie utworzony na bazie aktualnego adresu URL i zawarto\x{15b}ci pola <b>tytu\x{142}u dla menu<b>.</p>"
   },
   105 => {
     'lastUpdated' => '1203962976',
@@ -26,15 +26,15 @@ our $I18N = {
     'message' => 'Styl'
   },
   1079 => {
-    'lastUpdated' => '1236939502',
-    'message' => 'Styl drukowalny'
+    'lastUpdated' => '1238070074',
+    'message' => 'Styl dla druku'
   },
   108 => {
     'lastUpdated' => '1236939513',
     'message' => "W\x{142}a\x{15b}ciciel"
   },
   '108 description' => {
-    'lastUpdated' => '1237543207',
+    'lastUpdated' => '1238070083',
     'message' => "<p>W\x{142}a\x{15b}cicielem zasobu/asset zwykle jest osoba, kt\x{f3}ra go utworzy\x{142}a. Ten u\x{17c}ytkownik posiada pe\x{142}ne prawa do edycji i wy\x{15b}wietlenia. </p><p>UWAGA: W\x{142}a\x{15b}ciciel mo\x{17c}e by\x{107} zmieniony wy\x{142}\x{105}cznie przez administratora.</p>"
   },
   1082 => {
@@ -58,11 +58,11 @@ our $I18N = {
     'message' => "Tytu\x{142} w menu"
   },
   '411 description' => {
-    'lastUpdated' => '1237543270',
-    'message' => "<p>Kr\x{f3}tki tytu\x{142} jaki pojawi si\x{119} w elementach nawigacyjnych serwisu WWW. Pozostawiony pusty b\x{119}dzie uzupe\x{142}niony warto\x{15b}ci\x{105} pola Tytu\x{142}.</p>"
+    'lastUpdated' => '1238070102',
+    'message' => "<p>Kr\x{f3}tki tytu\x{142} jaki pojawi si\x{119} w elementach nawigacyjnych serwisu WWW. Pozostawiony pusty b\x{119}dzie uzupe\x{142}niony warto\x{15b}ci\x{105} pola <b>Tytu\x{142}</b>.</p>"
   },
   412 => {
-    'lastUpdated' => '1237543383',
+    'lastUpdated' => '1238070108',
     'message' => 'Podsumowanie'
   },
   '412 description' => {
@@ -70,7 +70,7 @@ our $I18N = {
     'message' => '<p>Krótki opis tego zasobu/asset.</p>'
   },
   43 => {
-    'lastUpdated' => '1237543292',
+    'lastUpdated' => '1238070121',
     'message' => "Czy jeste\x{15b} pewny, \x{17c}e chcesz usun\x{105}\x{107} t\x{105} zawarto\x{15b}\x{107}? Zauwa\x{17c}, \x{17c}e ta zmiana nie jest wersjonowana i odniesie skutek natychmiastowy."
   },
   486 => {
@@ -90,7 +90,7 @@ our $I18N = {
     'message' => "Kto mo\x{17c}e edytowa\x{107}?"
   },
   '871 description' => {
-    'lastUpdated' => '1236940793',
+    'lastUpdated' => '1238070136',
     'message' => "<p>Wybierz grup\x{119}, kt\x{f3}rej cz\x{142}onkowie mog\x{105} edytowa\x{107} ten zas\x{f3}b/asset. Cz\x{142}onkowie grupy mog\x{105} r\x{f3}wnie\x{17c} ogl\x{105}da\x{107} zas\x{f3}b.</p>"
   },
   872 => {
@@ -114,7 +114,7 @@ our $I18N = {
     'message' => "Wyga\x{15b}ni\x{119}cie pami\x{119}ci podr\x{119}cznej"
   },
   896 => {
-    'lastUpdated' => '1237543432',
+    'lastUpdated' => '1238070163',
     'message' => "Wyga\x{15b}ni\x{119}cie pami\x{119}ci podr\x{119}cznej (Go\x{15b}cie)"
   },
   940 => {
@@ -122,7 +122,7 @@ our $I18N = {
     'message' => "Otworzy\x{107} w nowym oknie?"
   },
   '940 description' => {
-    'lastUpdated' => '1237543469',
+    'lastUpdated' => '1238070174',
     'message' => "<p>Wybierz tak aby otworzy\x{107} ten zas\x{f3}b/asset w nowym oknie. Zauwa\x{17c} jednak, \x{17c}e z nowymi oknami wi\x{105}\x{17c}e si\x{119} wiele problem\x{f3}w. Na wielu przegl\x{105}darkach okna mog\x{105} by\x{107} niedost\x{119}pne, gdy u\x{17c}ytkownik wy\x{142}\x{105}czy obs\x{142}ug\x{119} JavaScript albo zablokuje wyskakuj\x{105}ce okienka. Korzystaj z tej opcji rozwa\x{17c}nie.</p>"
   },
   949 => {
@@ -774,7 +774,7 @@ our $I18N = {
     'message' => 'Not symlinking default asset; not included in exported subtree.'
   },
   'rootUrl form hoverHelp' => {
-    'lastUpdated' => '1237545205',
+    'lastUpdated' => '1238070323',
     'message' => ''
   },
   'rootUrl form label' => {
@@ -786,7 +786,7 @@ our $I18N = {
     'message' => "\x{17b}aden"
   },
   'rootUrl form option symlinkDefault' => {
-    'lastUpdated' => '1237544971',
+    'lastUpdated' => '1238070731',
     'message' => 'Symlink'
   },
   'rootUrl symlinking default' => {
@@ -810,12 +810,12 @@ our $I18N = {
     'message' => 'Rozmiar'
   },
   'specified base' => {
-    'lastUpdated' => '1237828920',
+    'lastUpdated' => '1238070707',
     'message' => ''
   },
   'status' => {
-    'lastUpdated' => '1237828963',
-    'message' => ''
+    'lastUpdated' => '1238070617',
+    'message' => "Status dla zasobu zwi\x{105}zany z kontrol\x{105} wersji. Zazwyczaj reprezentuj\x{105} go s\x{142}owa \"zatwierdzony\", \"b\x{119}d\x{105}cy w toku\", \"dopuszczony\"."
   },
   'synopsis' => {
     'lastUpdated' => '1237545329',
@@ -862,7 +862,7 @@ our $I18N = {
     'message' => "Wiele Zasob\x{f3}w/Assets pokazywanych jest jako cz\x{119}\x{15b}\x{107} pojemnika - zasobu typu Strona lub Folder. Ta opcja pozwoli wy\x{15b}wietli\x{107} Zas\x{f3}b samodzielnie."
   },
   'with children' => {
-    'lastUpdated' => '1237545351',
+    'lastUpdated' => '1238070749',
     'message' => "Z Dzie\x{107}mi"
   },
   'with descendants' => {

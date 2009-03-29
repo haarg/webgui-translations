@@ -118,12 +118,12 @@ our $I18N = {
     'message' => 'Album Galerii - zmienne widoku'
   },
   'help viewRss body' => {
-    'lastUpdated' => '1237980898',
-    'message' => ''
+    'lastUpdated' => '1237981895',
+    'message' => "Te zmienne s\x{105} dost\x{119}pna dla czytnika RSS albumu"
   },
   'help viewRss title' => {
-    'lastUpdated' => '1237980920',
-    'message' => 'Album Galerii - zmienne wczytywania RSS'
+    'lastUpdated' => '1237981906',
+    'message' => 'Album Galerii - zmienne czytnika RSS'
   },
   'helpvar canAddFile' => {
     'lastUpdated' => '1237976164',
@@ -153,13 +153,17 @@ our $I18N = {
     'lastUpdated' => '1237981060',
     'message' => "P\x{119}tla po plikach dla zbiorowej edycji plik\x{f3}w w widoku edycji albumu"
   },
+  'helpvar file_loop viewRss' => {
+    'lastUpdated' => '1237981997',
+    'message' => "P\x{119}tla po plikach dla czytnika RSS zawieraj\x{105}ca, kt\x{f3}ry zawiera dodatkowe pola."
+  },
   'helpvar form_archive' => {
-    'lastUpdated' => '1237981147',
-    'message' => ''
+    'lastUpdated' => '1237981639',
+    'message' => "Archiwum do za\x{142}adowania. Kontrolowane przez WebGUI::Form:File "
   },
   'helpvar form_cancel' => {
-    'lastUpdated' => '1237975960',
-    'message' => ''
+    'lastUpdated' => '1237981570',
+    'message' => "Zmienna zwracaj\x{105}ca przycisk anuluj\x{105}cy formularz."
   },
   'helpvar form_delete' => {
     'lastUpdated' => '1237979983',
@@ -173,13 +177,17 @@ our $I18N = {
     'lastUpdated' => '1237980096',
     'message' => "Zmienna zwracaj\x{105}ca pole na opis albumu."
   },
+  'helpvar form_end' => {
+    'lastUpdated' => '1237981527',
+    'message' => "Zmienna zwracaj\x{105}ca koniec formularza"
+  },
   'helpvar form_friendsOnly' => {
-    'lastUpdated' => '1237980289',
-    'message' => ''
+    'lastUpdated' => '1237983831',
+    'message' => 'Plik tylko dla znajomych?'
   },
   'helpvar form_keywords' => {
-    'lastUpdated' => '1237979514',
-    'message' => ''
+    'lastUpdated' => '1237982047',
+    'message' => "Zmienna zwracaj\x{105}ca pole na s\x{142}owa kluczowe dla za\x{142}adowanych plik\x{f3}w."
   },
   'helpvar form_promote' => {
     'lastUpdated' => '1237981297',
@@ -189,13 +197,25 @@ our $I18N = {
     'lastUpdated' => '1237981495',
     'message' => "Zmienna zwracaj\x{105}ca pocz\x{105}tek formularza"
   },
+  'helpvar form_submit' => {
+    'lastUpdated' => '1237982065',
+    'message' => "Zmienna zwracaj\x{105}ca przycisk wysy\x{142}aj\x{105}cy formularz"
+  },
+  'helpvar form_synopsis' => {
+    'lastUpdated' => '1237982096',
+    'message' => 'Obszar HTML dla miniaturki obrazka.'
+  },
   'helpvar form_title' => {
-    'lastUpdated' => '1237981506',
-    'message' => ''
+    'lastUpdated' => '1237982767',
+    'message' => "Zmienna zwracaj\x{105}ca pole dla tytu\x{142}u albumu."
   },
   'helpvar gallery_displayTitle' => {
-    'lastUpdated' => '1237981478',
-    'message' => ''
+    'lastUpdated' => '1237983663',
+    'message' => "Je\x{17c}eli galeria zawiera plik, decydujemy czy ma by\x{107} wy\x{15b}wietlony tytu\x{142}."
+  },
+  'helpvar gallery_menuTitle' => {
+    'lastUpdated' => '1237981772',
+    'message' => "Zmienna zwracaj\x{105}ca tytu\x{142} w menu galerii zawieraj\x{105}cej plik"
   },
   'helpvar gallery_title' => {
     'lastUpdated' => '1237978855',
@@ -245,6 +265,10 @@ our $I18N = {
     'lastUpdated' => '1237976721',
     'message' => "Zmienna zwracaj\x{105}ca adres URL do poprzedniego albumu na li\x{15b}cie w widoku listy album\x{f3}w galerii. Je\x{17c}eli poprzedni album nie istnieje, ta zmienna nie b\x{119}dzie istnia\x{142}a."
   },
+  'helpvar rssDate' => {
+    'lastUpdated' => '1237981734',
+    'message' => "Dokument RFC2822 okre\x{15b}la dat\x{119} dla wczytywania RSS."
+  },
   'helpvar thumbnailUrl' => {
     'lastUpdated' => '1237976776',
     'message' => "Zmienna zwracaj\x{105}ca adres URL do miniaturki wybranej jako miniatura albumu."
@@ -273,6 +297,10 @@ our $I18N = {
     'lastUpdated' => '1237976939',
     'message' => "Zmienna zwracaj\x{105}ca adres URL do widoku listy album\x{f3}w w galerii."
   },
+  'helpvar url_listAlbumsRss' => {
+    'lastUpdated' => '1237983742',
+    'message' => "Zmienna zwracaj\x{105}ca adres URL listy album\x{f3}w czytnika RSS z nadrz\x{119}dnej galerii."
+  },
   'helpvar url_listFilesForCurrentUser' => {
     'lastUpdated' => '1237979275',
     'message' => "Zmienna zwracaj\x{105}ca adres URL do listy plik\x{f3}w aktualnego u\x{17c}ytkownika."
@@ -294,8 +322,8 @@ our $I18N = {
     'message' => "Zmienna zwracaj\x{105}ca adres URL do widoku miniaturek albumu."
   },
   'helpvar url_viewRss' => {
-    'lastUpdated' => '1237979601',
-    'message' => ''
+    'lastUpdated' => '1237981805',
+    'message' => "Zmienna zwracaj\x{105}ca adres URL do czytnika RSS dla tego albumu."
   },
   'helpvar url_yes' => {
     'lastUpdated' => '1237974471',

@@ -10,7 +10,7 @@ our $I18N = {
     'message' => 'Szablon Message Board'
   },
   '73 description' => {
-    'lastUpdated' => '1208426774',
+    'lastUpdated' => '1238072525',
     'message' => "Wybierz szablon dla wy\x{15b}wietlenia twojego forum"
   },
   74 => {

@@ -70,19 +70,23 @@ our $I18N = {
     'message' => 'Typ danych'
   },
   '486 description' => {
-    'lastUpdated' => '1237242221',
-    'message' => ''
+    'lastUpdated' => '1238078062',
+    'message' => 'Wybierz typ elementów formularza dla tego pola. '
   },
   487 => {
     'lastUpdated' => '1237214843',
     'message' => "Mo\x{17c}liwe warto\x{15b}ci"
+  },
+  '487 description' => {
+    'lastUpdated' => '1238078096',
+    'message' => ''
   },
   488 => {
     'lastUpdated' => '1237214880',
     'message' => "Domy\x{15b}lne warto\x{15b}ci"
   },
   '488 description' => {
-    'lastUpdated' => '1237242244',
+    'lastUpdated' => '1238078221',
     'message' => ''
   },
   489 => {
@@ -138,8 +142,8 @@ our $I18N = {
     'message' => "<p>Czy pole powinno by\x{107} edytowalne przez u\x{17c}ytkownik\x{f3}w?</p>"
   },
   'account.options' => {
-    'lastUpdated' => '1237242444',
-    'message' => ''
+    'lastUpdated' => '1237990595',
+    'message' => "Link do opcji konta z etykiet\x{105}."
   },
   'category short name' => {
     'lastUpdated' => '1237242468',
@@ -150,72 +154,140 @@ our $I18N = {
     'message' => '<p>Krótka nazwa dla tej kategorii.</p>'
   },
   'displayTitle' => {
-    'lastUpdated' => '1237242639',
-    'message' => ''
+    'lastUpdated' => '1237988807',
+    'message' => "Mi\x{119}dzynarodowy tytu\x{142} zawieraj\x{105}cy nazw\x{119} u\x{17c}ytkownik\x{f3}w."
   },
   'edit profile template body' => {
-    'lastUpdated' => '1237242700',
-    'message' => ''
+    'lastUpdated' => '1237988997',
+    'message' => "Ten szablon buduje formularz dla u\x{17c}ytkownika do edycji profilu u\x{17c}ytkownika."
   },
   'edit profile template title' => {
-    'lastUpdated' => '1237242535',
-    'message' => ''
+    'lastUpdated' => '1237988928',
+    'message' => 'Edycja Profilu - szablon'
   },
   'forceImageOnly description' => {
-    'lastUpdated' => '1237242539',
+    'lastUpdated' => '1238078226',
     'message' => ''
   },
   'forceImageOnly label' => {
-    'lastUpdated' => '1237242646',
+    'lastUpdated' => '1237990668',
     'message' => ''
+  },
+  'profile field extras hoverHelp' => {
+    'lastUpdated' => '1237990477',
+    'message' => "Dodatkowy HTML do\x{142}\x{105}czony z tym polem profilu."
+  },
+  'profile field extras label' => {
+    'lastUpdated' => '1237989728',
+    'message' => 'Dodatkowe'
+  },
+  'profile.accountOptions' => {
+    'lastUpdated' => '1237989830',
+    'message' => "P\x{119}tla zawieraj\x{105}ca opcje dla innych akcji konta, takich jak edycja profilu, ogl\x{105}danie profilu, zmiany swojego konta."
   },
   'profile.category' => {
-    'lastUpdated' => '1237242549',
-    'message' => ''
+    'lastUpdated' => '1237989218',
+    'message' => "Nazwa aktualnej kategorii. Ta zmienna b\x{119}dzie istnie\x{107} tylko jako pierwsze pol profilu w ka\x{17c}dej kategorii."
+  },
+  'profile.elements' => {
+    'lastUpdated' => '1237989273',
+    'message' => "P\x{119}tla zawieraj\x{105}ca wszystkie elementy p\x{f3}l profilu."
+  },
+  'profile.extras' => {
+    'lastUpdated' => '1237989286',
+    'message' => 'Dodatkowy HTML dla tego pola.'
+  },
+  'profile.form.cancel' => {
+    'lastUpdated' => '1237989912',
+    'message' => "Przycisk powrotu do ostatniej strony ogl\x{105}danej przez u\x{17c}ytkownika bez wys\x{142}ania \x{17c}adnych danych formularza."
+  },
+  'profile.form.category' => {
+    'lastUpdated' => '1237990089',
+    'message' => 'Nazwa kategorii.'
+  },
+  'profile.form.category.loop' => {
+    'lastUpdated' => '1237990294',
+    'message' => "P\x{119}tla zawieraj\x{105}ca wszystkie pola w tej kategorii."
+  },
+  'profile.form.element' => {
+    'lastUpdated' => '1237990180',
+    'message' => 'Element formularza dla tego pola profilu.'
+  },
+  'profile.form.element.label' => {
+    'lastUpdated' => '1237990274',
+    'message' => 'Etykieta przypisana do tego pola profilu.'
+  },
+  'profile.form.element.subtext' => {
+    'lastUpdated' => '1237990246',
+    'message' => "Je\x{17c}eli to pole profilu jest wymaganym polem profilu, wtedy b\x{119}dzie zawiera\x{107} gwiazdk\x{119} \"*\"."
   },
   'profile.form.elements' => {
-    'lastUpdated' => '1237242555',
-    'message' => ''
+    'lastUpdated' => '1237990134',
+    'message' => "P\x{119}tla zawieraj\x{105}ca wszystkie pola profilu, posortowane wed\x{142}ug kategorii."
+  },
+  'profile.form.extras' => {
+    'lastUpdated' => '1237990104',
+    'message' => 'Dodatkowy HTML dla pola.'
+  },
+  'profile.form.footer' => {
+    'lastUpdated' => '1237990636',
+    'message' => "Kod HTML w postaci ko\x{144}ca formularza"
+  },
+  'profile.form.header' => {
+    'lastUpdated' => '1237990615',
+    'message' => "Kod HTML w postaci pocz\x{105}tku formularza"
   },
   'profile.form.hidden' => {
-    'lastUpdated' => '1237242662',
-    'message' => ''
+    'lastUpdated' => '1237990630',
+    'message' => 'Kod HTML dla przekierowania akcji formularza.'
   },
   'profile.form.submit' => {
-    'lastUpdated' => '1237238927',
-    'message' => ''
+    'lastUpdated' => '1237990331',
+    'message' => "Przycisk wysy\x{142}aj\x{105}cy formularz edycji profilu u\x{17c}ytkownika."
   },
   'profile.label' => {
-    'lastUpdated' => '1237242578',
-    'message' => '<p>Etykieta dla tego pola profilu.</p>'
+    'lastUpdated' => '1237990652',
+    'message' => 'Etykieta dla tego pola profilu.'
   },
   'profile.message' => {
-    'lastUpdated' => '1237242586',
+    'lastUpdated' => '1237990337',
     'message' => ''
   },
   'profile.value' => {
-    'lastUpdated' => '1237215802',
-    'message' => ''
+    'lastUpdated' => '1237989332',
+    'message' => "Zmienna zwracaj\x{105}ca warto\x{15b}\x{107} pola profilu."
   },
   'requiredForPasswordRecovery hoverHelp' => {
     'lastUpdated' => '1237242655',
     'message' => ''
   },
+  'requiredForPasswordRecovery label' => {
+    'lastUpdated' => '1237990359',
+    'message' => "Wymagane dla odzyskania has\x{142}a?"
+  },
+  'showAtRegistration hoverHelp' => {
+    'lastUpdated' => '1238078255',
+    'message' => ''
+  },
+  'showAtRegistration label' => {
+    'lastUpdated' => '1237989698',
+    'message' => "Pokazywa\x{107} przy rejestracji?"
+  },
   'topicName' => {
-    'lastUpdated' => '1237215078',
+    'lastUpdated' => '1237989496',
     'message' => "Profil u\x{17c}ytkownika"
   },
   'user profiling' => {
-    'lastUpdated' => '1237215843',
-    'message' => ''
+    'lastUpdated' => '1237989609',
+    'message' => 'Ustawienia profilu'
   },
   'view profile template body' => {
-    'lastUpdated' => '1237242599',
-    'message' => ''
+    'lastUpdated' => '1237990498',
+    'message' => "Ten szablon jest u\x{17c}ywany do pokazywania profilu u\x{17c}ytkownika."
   },
   'view profile template title' => {
-    'lastUpdated' => '1237242632',
-    'message' => ''
+    'lastUpdated' => '1237989653',
+    'message' => 'Widok profilu - szablon'
   }
 }
 ;

@@ -7,16 +7,16 @@ our $I18N = {
     'message' => 'Plik'
   },
   'cache timeout' => {
-    'lastUpdated' => '1237545624',
-    'message' => "Czas przechowywania w pami\x{119}ci"
+    'lastUpdated' => '1238070854',
+    'message' => "Pami\x{119}\x{107} podr\x{119}czna"
   },
   'cache timeout help' => {
-    'lastUpdated' => '1237545843',
-    'message' => "Przechowywanie zasob\x{f3}w/assets w pami\x{119}ci (cache) zwi\x{119}ksza wydajno\x{15b}\x{107} ich \x{142}adowania podczas ponownej wizyty. Jak d\x{142}ugo ten zas\x{f3}b/asset powinien by\x{107} przechowywany w pami\x{119}ci?"
+    'lastUpdated' => '1238070861',
+    'message' => "Od u\x{17c}ytkownika zale\x{17c}y jak ustawi pami\x{119}\x{107} podr\x{119}czn\x{105} i co za  tym idzie, na jak d\x{142}ugo aplikacja zatrzyma w pami\x{119}ci wszelkie ustawienia."
   },
   'cacheTimeout' => {
-    'lastUpdated' => '1237545915',
-    'message' => "Czas przez jaki zmiany trzymane s\x{105} w pami\x{119}ci."
+    'lastUpdated' => '1238070918',
+    'message' => "Czas przez jaki zmiany przytrzymywane s\x{105} w pami\x{119}ci podr\x{119}cznej."
   },
   'controls' => {
     'lastUpdated' => '1237545962',
@@ -28,8 +28,8 @@ our $I18N = {
     'message' => 'Obecny plik'
   },
   'current file description' => {
-    'lastUpdated' => '1237546000',
-    'message' => "Je\x{17c}eli plik istnieje w zasobach, link i jego ikona b\x{119}d\x{105} wy\x{15b}wietlane."
+    'lastUpdated' => '1238070947',
+    'message' => "Je\x{17c}eli plik istnieje w zasobie, link i jego ikona b\x{119}d\x{105} wy\x{15b}wietlane."
   },
   'file add/edit body' => {
     'context' => 'Opis pól dodaj/edytuj plik',
@@ -37,7 +37,7 @@ our $I18N = {
     'message' => "<p>Plik na twojej stronie, kt\x{f3}ry jest dost\x{119}pny do pobrania przez u\x{17c}ytkownik\x{f3}w. Je\x{15b}li chcesz umo\x{17c}liwi\x{107} pobieranie wielu plik\x{f3}w wypr\x{f3}buj FilePile Asset.</p>\n\n<p> Do czasu gdy traktujemy plik jako zas\x{f3}b, ma on wszystkie w\x{142}a\x{15b}ciwo\x{15b}ci zasob\x{f3}w. Poni\x{17c}ej w\x{142}a\x{15b}ciwo\x{15b}ci specyficzne dla Obrazka:</p>\n\n"
   },
   'file add/edit title' => {
-    'lastUpdated' => '1237546005',
+    'lastUpdated' => '1238070955',
     'message' => 'Plik, dodaj/edytuj'
   },
   'file not found' => {
@@ -56,7 +56,7 @@ our $I18N = {
     'message' => "<p>Poni\x{17c}sze zmienne s\x{105} dost\x{119}pne w szablonach plik\x{f3}w. Mo\x{17c}na ich u\x{17c}y\x{107} ale nie trzeba.</p>\n\t\t"
   },
   'file template asset var title' => {
-    'lastUpdated' => '1237546063',
+    'lastUpdated' => '1238070970',
     'message' => 'Szablon pliku, Zmienne szablonu'
   },
   'file template body' => {
@@ -65,32 +65,32 @@ our $I18N = {
     'message' => "<p>Dost\x{119}pne s\x{105} nast\x{119}puj\x{105}ce zmienne w zasobach szablon\x{f3}w:</p>\n\t\t"
   },
   'file template description' => {
-    'lastUpdated' => '1237546089',
+    'lastUpdated' => '1238070982',
     'message' => "Szablon pliku pozwala wy\x{15b}wietli\x{107} informacje dotycz\x{105}ce pliku jak jego nazw\x{119}, rozmiar, ikon\x{119} reprezentuj\x{105}c\x{105} typ pliku. Dost\x{119}pny jest szablon domy\x{15b}lny prezentacji tych danych."
   },
   'file template title' => {
-    'lastUpdated' => '1237546272',
+    'lastUpdated' => '1238071006',
     'message' => 'Zmienne szablonu pliku'
   },
   'fileIcon' => {
-    'lastUpdated' => '1237546292',
-    'message' => "Zmienna zwracaj\x{105}ca ikon\x{119} opisuj\x{105}c\x{105} typ pliku."
+    'lastUpdated' => '1238071001',
+    'message' => "Ikona opisuj\x{105}ca typ pliku."
   },
   'fileSize' => {
-    'lastUpdated' => '1237546406',
-    'message' => "Zmienna zwracaj\x{105}ca rozmiar pliku (w bajtach / Kilobajtach / Megabajtach)."
+    'lastUpdated' => '1238071043',
+    'message' => 'Rozmiar pliku (w bajtach / Kilobajtach / Megabajtach, itd.).'
   },
   'fileUrl' => {
-    'lastUpdated' => '1237546421',
-    'message' => "Zmienna zwracaj\x{105}ca adres URL pliku."
+    'lastUpdated' => '1238071068',
+    'message' => 'Adres URL pliku.'
   },
   'filename' => {
     'lastUpdated' => '1237546490',
     'message' => 'Nazwa pliku.'
   },
   'filename var' => {
-    'lastUpdated' => '1237546528',
-    'message' => "Zmienna zwracaj\x{105}ca nazw\x{119} nadan\x{105} plikowi, nie zawiera \x{15b}cie\x{17c}ki do pliku.\r\n\t\t"
+    'lastUpdated' => '1238071058',
+    'message' => "Nazwa nadana plikowi, nie zawiera \x{15b}cie\x{17c}ki do pliku.\r\n\t\t"
   },
   'menuTitle' => {
     'lastUpdated' => '1237546576',
@@ -114,7 +114,7 @@ our $I18N = {
     'message' => "ID szablonu u\x{17c}ytego do wy\x{15b}wietlania pliku.\r\n\t\t"
   },
   'title' => {
-    'lastUpdated' => '1237546772',
+    'lastUpdated' => '1238071081',
     'message' => "Tytu\x{142} za\x{142}\x{105}czonego pliku lub jego nazwa je\x{15b}li tytu\x{142} nie zosta\x{142} wprowadzony."
   }
 }

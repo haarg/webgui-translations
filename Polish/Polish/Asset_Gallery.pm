@@ -58,16 +58,28 @@ our $I18N = {
     'message' => 'Zmienne listy albumów galerii'
   },
   'help listAlbumsRss body' => {
-    'lastUpdated' => '1237032202',
-    'message' => ''
+    'lastUpdated' => '1237983938',
+    'message' => "Te zmienne s\x{105} dost\x{119}pne dla czytnika RSS listy album\x{f3}w."
+  },
+  'help listAlbumsRss title' => {
+    'lastUpdated' => '1237983960',
+    'message' => 'Galeria - zmienne czytnika RSS listy albumów'
   },
   'help listFilesForUser body' => {
-    'lastUpdated' => '1237032247',
-    'message' => ''
+    'lastUpdated' => '1237984065',
+    'message' => "Te zmienne s\x{105} dost\x{119}pne na ekranie listy plik\x{f3}w dla u\x{17c}ytkownika."
   },
   'help listFilesForUser title' => {
-    'lastUpdated' => '1237032320',
-    'message' => ''
+    'lastUpdated' => '1237984083',
+    'message' => "Galeria - zmienne listy plik\x{f3}w dla u\x{17c}ytkownika"
+  },
+  'help listFilesForUserRss body' => {
+    'lastUpdated' => '1237984107',
+    'message' => "Te zmienne s\x{105} dost\x{119}pne dla czytnika RSS listy plik\x{f3}w dla u\x{17c}ytkownika."
+  },
+  'help listFilesForUserRss title' => {
+    'lastUpdated' => '1237984136',
+    'message' => "Galeria - zmienne czytnika RSS listy plik\x{f3}w dla u\x{17c}ytkownika"
   },
   'help search body' => {
     'lastUpdated' => '1237210901',
@@ -106,8 +118,8 @@ our $I18N = {
     'message' => "Ta warto\x{15b}\x{107} jest prawdziwa je\x{17c}eli aktualny wynik jest albumem galerii."
   },
   'helpvar rssDate' => {
-    'lastUpdated' => '1237456880',
-    'message' => ''
+    'lastUpdated' => '1237984195',
+    'message' => "Dokument RFC2822 okre\x{15b}la dat\x{119}, kt\x{f3}r\x{105} czytnik RSS potrzebuje dla pola pubDate"
   },
   'helpvar searchForm_basicSearch' => {
     'lastUpdated' => '1237210978',
@@ -178,20 +190,20 @@ our $I18N = {
     'message' => 'Adres URL do strony wyszukiwania.'
   },
   'helpvar userId' => {
-    'lastUpdated' => '1237456888',
-    'message' => ''
+    'lastUpdated' => '1238071513',
+    'message' => "ID aktualnego u\x{17c}ytkownika przegl\x{105}daj\x{105}cego stron\x{119} z list\x{105} plik\x{f3}w dla u\x{17c}ytkownika."
   },
   'helpvar user_albums' => {
     'lastUpdated' => '1237211118',
     'message' => "To jest p\x{119}tla pokazuj\x{105}ca albumy u\x{17c}ytkownik\x{f3}w. B\x{119}dzie ona pokazywa\x{107} wszystkie albumy u\x{17c}ytkownik\x{f3}w."
   },
   'helpvar user_files' => {
-    'lastUpdated' => '1237210436',
-    'message' => ''
+    'lastUpdated' => '1238071551',
+    'message' => "P\x{119}tla po plikach u\x{17c}ytkownik\x{f3}w. Tylko pliki na tej stronie w rezultacie b\x{119}d\x{105} pokazane."
   },
   'helpvar username' => {
-    'lastUpdated' => '1237210340',
-    'message' => ''
+    'lastUpdated' => '1237984338',
+    'message' => "Zmienna zwracaj\x{105}ca nazw\x{119} u\x{17c}ytkownika aktualnie pokazywan\x{105} na stronie listy plik\x{f3}w dla u\x{17c}ytkownika"
   },
   'imageDensity description' => {
     'lastUpdated' => '1237211135',
@@ -289,6 +301,10 @@ our $I18N = {
     'lastUpdated' => '1236954202',
     'message' => 'Widok albumu'
   },
+  'template listAlbumsRss' => {
+    'lastUpdated' => '1237984366',
+    'message' => 'Subskrybuj'
+  },
   'template listFilesForUser albums files' => {
     'lastUpdated' => '1237211264',
     'message' => 'Obrazy'
@@ -304,6 +320,14 @@ our $I18N = {
   'template listFilesForUser title' => {
     'lastUpdated' => '1237034312',
     'message' => '%s\'s galeria'
+  },
+  'template search basic term' => {
+    'lastUpdated' => '1238071588',
+    'message' => 'Szukaj'
+  },
+  'template search basic title' => {
+    'lastUpdated' => '1237984459',
+    'message' => 'Szukaj galerii'
   },
   'template search field className' => {
     'lastUpdated' => '1237211272',
@@ -406,15 +430,15 @@ our $I18N = {
     'message' => 'Szablon listy albumów'
   },
   'templateIdListAlbumsRss description' => {
-    'lastUpdated' => '1237036799',
-    'message' => "<p>Szablon RSS pokazuj\x{105}cy list\x{119} album\x{f3}w w galerii.</p>"
+    'lastUpdated' => '1238071332',
+    'message' => "<p>Szablon czytnika RSS pokazuj\x{105}cy list\x{119} album\x{f3}w w galerii.</p>"
   },
   'templateIdListAlbumsRss label' => {
-    'lastUpdated' => '1236955139',
-    'message' => 'Szablon listy albumów (RSS)'
+    'lastUpdated' => '1238071348',
+    'message' => 'Szablon czytnika RSS listy albumów'
   },
   'templateIdListFilesForUser description' => {
-    'lastUpdated' => '1237211516',
+    'lastUpdated' => '1238071358',
     'message' => "<p>Szablon pokazuj\x{105}cy list\x{119} obraz\x{f3}w i album\x{f3}w dla okre\x{15b}lonego u\x{17c}ytkownika.</p>"
   },
   'templateIdListFilesForUser label' => {
@@ -422,12 +446,12 @@ our $I18N = {
     'message' => "Szablon listy obraz\x{f3}w dla u\x{17c}ytkownika"
   },
   'templateIdListFilesForUserRss description' => {
-    'lastUpdated' => '1237211536',
-    'message' => "<p>Szablon RSS wy\x{15b}wietlaj\x{105}cy list\x{119} wszystkich obraz\x{f3}w dla okre\x{15b}lonego u\x{17c}ytkownika.</p>"
+    'lastUpdated' => '1238071368',
+    'message' => "<p>Szablon czytnika RSS wy\x{15b}wietlaj\x{105}cy list\x{119} wszystkich obraz\x{f3}w dla okre\x{15b}lonego u\x{17c}ytkownika.</p>"
   },
   'templateIdListFilesForUserRss label' => {
-    'lastUpdated' => '1237211547',
-    'message' => "Szablon listy obraz\x{f3}w dla u\x{17c}ytkownika (RSS)"
+    'lastUpdated' => '1238071387',
+    'message' => "Szablon czytnika RSS listy obraz\x{f3}w dla u\x{17c}ytkownika "
   },
   'templateIdMakeShortcut description' => {
     'lastUpdated' => '1237036642',
@@ -454,12 +478,12 @@ our $I18N = {
     'message' => 'Szablon widoku albumu'
   },
   'templateIdViewAlbumRss description' => {
-    'lastUpdated' => '1237036434',
-    'message' => '<p>Szablon RSS dla pojedynczego albumu</p>'
+    'lastUpdated' => '1238071397',
+    'message' => '<p>Szablon czytnika RSS dla pojedynczego albumu</p>'
   },
   'templateIdViewAlbumRss label' => {
-    'lastUpdated' => '1237036368',
-    'message' => 'Szablon widoku albumu (RSS)'
+    'lastUpdated' => '1238071406',
+    'message' => 'Szablon czytnika RSS widoku albumu '
   },
   'templateIdViewFile description' => {
     'lastUpdated' => '1237211591',
@@ -550,12 +574,12 @@ our $I18N = {
     'message' => "Malej\x{105}co"
   },
   'workflowIdCommit description' => {
-    'lastUpdated' => '1237035839',
-    'message' => ''
+    'lastUpdated' => '1238071310',
+    'message' => 'Workflow do zatwierdzenia nowych plików.'
   },
   'workflowIdCommit label' => {
-    'lastUpdated' => '1236956506',
-    'message' => ''
+    'lastUpdated' => '1238071290',
+    'message' => 'Zatwierdzenie Workflow'
   }
 }
 ;

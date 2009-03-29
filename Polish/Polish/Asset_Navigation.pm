@@ -22,7 +22,7 @@ our $I18N = {
     'message' => "Poka\x{17c} strony systemowe"
   },
   '30 description' => {
-    'lastUpdated' => '1237824225',
+    'lastUpdated' => '1238076987',
     'message' => ''
   },
   31 => {

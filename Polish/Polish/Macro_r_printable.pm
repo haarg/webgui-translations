@@ -8,6 +8,10 @@ our $I18N = {
   'macroName' => {
     'lastUpdated' => '1237846133',
     'message' => ''
+  },
+  'printable.url' => {
+    'lastUpdated' => '1237985397',
+    'message' => 'Adres URL strony do druku.'
   }
 }
 ;

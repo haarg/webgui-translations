@@ -126,20 +126,20 @@ our $I18N = {
     'message' => "Zdj\x{119}cie - normalny widok"
   },
   'helpvar album_menuTitle' => {
-    'lastUpdated' => '1237559304',
-    'message' => "Zmienna zwracaj\x{105}ca tytu\x{142} wy\x{15b}wietlany w menu albumu zawieraj\x{105}cego zdj\x{119}cie"
+    'lastUpdated' => '1238072580',
+    'message' => "Tytu\x{142} w menu albumu zawieraj\x{105}cego zdj\x{119}cie"
   },
   'helpvar album_thumbnailUrl' => {
-    'lastUpdated' => '1237559339',
-    'message' => "Zmienna zwracaj\x{105}ca adres URL miniatury albumu zawieraj\x{105}cego zdj\x{119}cie"
+    'lastUpdated' => '1238072590',
+    'message' => "Adres URL miniatury albumu zawieraj\x{105}cego zdj\x{119}cie"
   },
   'helpvar album_title' => {
-    'lastUpdated' => '1237559358',
-    'message' => "Zmienna zwracaj\x{105}ca tytu\x{142} albumu zawieraj\x{105}cego zdj\x{119}cie"
+    'lastUpdated' => '1238072598',
+    'message' => "Tytu\x{142} albumu zawieraj\x{105}cego zdj\x{119}cie"
   },
   'helpvar album_url' => {
-    'lastUpdated' => '1237559379',
-    'message' => "Zmienna zwracaj\x{105}ca adres URL albumu zawieraj\x{105}cego zdj\x{119}cie"
+    'lastUpdated' => '1238072604',
+    'message' => "Adres URL albumu zawieraj\x{105}cego zdj\x{119}cie"
   },
   'helpvar canComment' => {
     'lastUpdated' => '1237559407',
@@ -150,188 +150,232 @@ our $I18N = {
     'message' => "Warunek spe\x{142}niony je\x{17c}eli aktualny u\x{17c}ytkownik mo\x{17c}e edytowa\x{107} zdj\x{119}cie."
   },
   'helpvar commentForm_bodyText' => {
-    'lastUpdated' => '1237559422',
-    'message' => ''
+    'lastUpdated' => '1238072635',
+    'message' => "Pole na tre\x{15b}\x{107} komentarza. Edytor skonfigurowany przez nadrz\x{119}dn\x{105} galeri\x{119}."
   },
   'helpvar commentForm_end' => {
-    'lastUpdated' => '1237559450',
-    'message' => ''
+    'lastUpdated' => '1238072642',
+    'message' => 'Koniec formularza komentarzy'
+  },
+  'helpvar commentForm_start' => {
+    'lastUpdated' => '1238072647',
+    'message' => "Pocz\x{105}tek formularza komentarza"
+  },
+  'helpvar commentForm_submit' => {
+    'lastUpdated' => '1237985212',
+    'message' => "Zmienna zwracaj\x{105}ca przycisk wysy\x{142}aj\x{105}cy formularz komentarza"
   },
   'helpvar commentLoop' => {
-    'lastUpdated' => '1237559500',
-    'message' => ''
+    'lastUpdated' => '1237985278',
+    'message' => "P\x{119}tla po komentarzach dla zdj\x{119}cia"
   },
   'helpvar commentLoop bodyText' => {
-    'lastUpdated' => '1237559508',
-    'message' => ''
+    'lastUpdated' => '1238072656',
+    'message' => "Tre\x{15b}\x{107} komentarza"
   },
   'helpvar commentLoop creationDate' => {
-    'lastUpdated' => '1237559538',
-    'message' => "Zmienna zwracaj\x{105}ca dat\x{119} dodania komentarza"
+    'lastUpdated' => '1238072666',
+    'message' => 'Data dodania komentarza'
   },
   'helpvar commentLoop url_deleteComment' => {
-    'lastUpdated' => '1237559558',
-    'message' => "Zmienna zwracaj\x{105}ca adres URL usuwaj\x{105}cy komentarz."
+    'lastUpdated' => '1238072672',
+    'message' => "Adres URL usuwaj\x{105}cy komentarz."
   },
   'helpvar commentLoop userId' => {
-    'lastUpdated' => '1237559619',
-    'message' => "Zmienna zwracaj\x{105}ca ID u\x{17c}ytkownika kt\x{f3}ry stworzy\x{142} komentarz."
+    'lastUpdated' => '1238072685',
+    'message' => "ID u\x{17c}ytkownika kt\x{f3}ry doda\x{142} komentarz."
   },
   'helpvar commentLoop username' => {
-    'lastUpdated' => '1237559604',
-    'message' => "Zmienna zwracaj\x{105}ca nazw\x{119} u\x{17c}ytkownika, kt\x{f3}ry stworzy\x{142} komentarz."
+    'lastUpdated' => '1238072699',
+    'message' => "Nazwa u\x{17c}ytkownika, kt\x{f3}ry doda\x{142} komentarz."
   },
   'helpvar commentLoop visitorIp' => {
-    'lastUpdated' => '1237559684',
-    'message' => "Zmienna zwracaj\x{105}ca adres IP u\x{17c}ytkownika je\x{17c}eli u\x{17c}ytkownik jest go\x{15b}ciem."
+    'lastUpdated' => '1238072720',
+    'message' => "IP u\x{17c}ytkownika je\x{17c}eli u\x{17c}ytkownik jest go\x{15b}ciem."
   },
   'helpvar commentLoop_pageBar' => {
-    'lastUpdated' => '1237824036',
-    'message' => ''
+    'lastUpdated' => '1237985384',
+    'message' => "Zmienna zwracaj\x{105}ca pasek do nawigacji po stronach komentarzy"
   },
   'helpvar error' => {
-    'lastUpdated' => '1237824075',
-    'message' => ''
+    'lastUpdated' => '1237985418',
+    'message' => "Ten i18n komunikat b\x{142}\x{119}du"
+  },
+  'helpvar errors' => {
+    'lastUpdated' => '1237985469',
+    'message' => "P\x{119}tla zwracaj\x{105}ca komunikaty b\x{142}\x{119}du do pokazania u\x{17c}ytkownikowi."
+  },
+  'helpvar exifLoop' => {
+    'lastUpdated' => '1238073593',
+    'message' => "P\x{119}tla znacznik\x{f3}w EXIF"
+  },
+  'helpvar exifLoop tag' => {
+    'lastUpdated' => '1238073605',
+    'message' => 'Nazwa znacznika EXIF'
+  },
+  'helpvar exifLoop value' => {
+    'lastUpdated' => '1238073615',
+    'message' => "Warto\x{15b}\x{107} znacznika EXIF"
   },
   'helpvar exif_' => {
-    'lastUpdated' => '1237559804',
+    'lastUpdated' => '1238073716',
     'message' => ''
   },
   'helpvar fileUrl' => {
-    'lastUpdated' => '1237559836',
-    'message' => "Zmienna zwracaj\x{105}ca adres URL zdj\x{119}cia w oryginalnych rozmiarach."
+    'lastUpdated' => '1238072745',
+    'message' => "Adres URL zdj\x{119}cia w oryginalnych rozmiarach."
   },
   'helpvar form_end' => {
-    'lastUpdated' => '1237824117',
-    'message' => ''
+    'lastUpdated' => '1238072751',
+    'message' => 'Koniec formularza.'
   },
   'helpvar form_friendsOnly' => {
-    'lastUpdated' => '1237560163',
-    'message' => ''
+    'lastUpdated' => '1238073278',
+    'message' => "Ustanowi\x{107} zdj\x{119}ciem tylko dla znajomych?"
   },
   'helpvar form_keywords' => {
-    'lastUpdated' => '1237560321',
-    'message' => "Zmienna zwracaj\x{105}ca pole formularza do dodawania s\x{142}\x{f3}w kluczowych dla zdj\x{119}cia."
+    'lastUpdated' => '1238072757',
+    'message' => "Pole formularza do dodawania s\x{142}\x{f3}w kluczowych dla zdj\x{119}cia."
   },
-  'helpvar form_parentId' => {
-    'lastUpdated' => '1237560359',
+  'helpvar form_location' => {
+    'lastUpdated' => '1237985565',
     'message' => ''
   },
+  'helpvar form_parentId' => {
+    'lastUpdated' => '1237985838',
+    'message' => "Wybierz album, kt\x{f3}rego skr\x{f3}t powinien by\x{107} stworzony."
+  },
   'helpvar form_photo' => {
-    'lastUpdated' => '1237824145',
+    'lastUpdated' => '1237985578',
+    'message' => "Zdj\x{119}cie do za\x{142}adownia."
+  },
+  'helpvar form_start' => {
+    'lastUpdated' => '1238072764',
+    'message' => "Pocz\x{105}tek formularza."
+  },
+  'helpvar form_submit' => {
+    'lastUpdated' => '1238072771',
+    'message' => "Przycisk wysy\x{142}aj\x{105}cy formularz."
+  },
+  'helpvar form_synopsis' => {
+    'lastUpdated' => '1237985670',
     'message' => ''
   },
   'helpvar form_title' => {
-    'lastUpdated' => '1237560884',
-    'message' => "Zmienna zwracaj\x{105}ca tytu\x{142} zdj\x{119}cia."
+    'lastUpdated' => '1238072778',
+    'message' => "Tytu\x{142} zdj\x{119}cia."
   },
   'helpvar gallery_menuTitle' => {
-    'lastUpdated' => '1237560931',
-    'message' => "Zmienna zwracaj\x{105}ca tytu\x{142} galerii wy\x{15b}wietlany w nawigacji zawieraj\x{105}cej zdj\x{119}cie."
+    'lastUpdated' => '1238072820',
+    'message' => "Tytu\x{142} wy\x{15b}wietlany w menu galerii zawieraj\x{105}cej zdj\x{119}cie."
   },
   'helpvar gallery_title' => {
-    'lastUpdated' => '1237560380',
-    'message' => "Zmienna zwracaj\x{105}ca tytu\x{142} galerii zawieraj\x{105}cej zdj\x{119}cie."
+    'lastUpdated' => '1238072826',
+    'message' => "Tytu\x{142} galerii zawieraj\x{105}cej zdj\x{119}cie."
   },
   'helpvar gallery_url' => {
-    'lastUpdated' => '1237560403',
-    'message' => "Zmienna zwracaj\x{105}ca adres URL galerii zawieraj\x{105}cej zdj\x{119}cie."
+    'lastUpdated' => '1238072833',
+    'message' => "Adres URL galerii zawieraj\x{105}cej zdj\x{119}cie."
   },
   'helpvar isNewPhoto' => {
     'lastUpdated' => '1237560422',
     'message' => "Warunek spe\x{142}niony je\x{17c}eli u\x{17c}ytkownik dodaje nowe zdj\x{119}cie"
   },
   'helpvar isPending' => {
-    'lastUpdated' => '1237560579',
+    'lastUpdated' => '1238072846',
     'message' => "Flaga do ustawienia czy zdj\x{119}cie nie jest jeszcze zatwierdzone. U\x{17c}ytkownicy kt\x{f3}rzy mog\x{105} edytowa\x{107} zdj\x{119}cie mog\x{105} je ogl\x{105}dn\x{105}\x{107} zanim je zatwierdz\x{105}."
   },
   'helpvar keyword' => {
-    'lastUpdated' => '1237824008',
-    'message' => ''
+    'lastUpdated' => '1238073729',
+    'message' => "S\x{142}owo kluczowe"
+  },
+  'helpvar keywords' => {
+    'lastUpdated' => '1238073763',
+    'message' => "P\x{119}tla po s\x{142}owach kluczowych skojarzonych z tym zdj\x{119}ciem"
   },
   'helpvar numberOfComments' => {
-    'lastUpdated' => '1237560665',
-    'message' => "Zmienna zwracaj\x{105}ca ilo\x{15b}\x{107} komentarzy dla zdj\x{119}cia"
+    'lastUpdated' => '1238072854',
+    'message' => "Ilo\x{15b}\x{107} komentarzy dla zdj\x{119}cia"
   },
   'helpvar ownerUsername' => {
-    'lastUpdated' => '1237560685',
-    'message' => "Zmienna zwracaj\x{105}ca nazw\x{119} u\x{17c}ytkownika kt\x{f3}ry doda\x{142} zdj\x{119}cie"
+    'lastUpdated' => '1238072863',
+    'message' => "Nazwa u\x{17c}ytkownika kt\x{f3}ry doda\x{142} zdj\x{119}cie"
   },
   'helpvar resolutions_' => {
-    'lastUpdated' => '1237823870',
+    'lastUpdated' => '1238074053',
     'message' => ''
   },
   'helpvar resolutions_loop' => {
-    'lastUpdated' => '1237561065',
-    'message' => "P\x{119}tla zwracaj\x{105}ca list\x{119} w dost\x{119}pnych rozdzielczo\x{15b}ci zdj\x{119}cia."
+    'lastUpdated' => '1238072894',
+    'message' => "P\x{119}tla zawieraj\x{105}ca list\x{119} dost\x{119}pnych rozdzielczo\x{15b}ci zdj\x{119}cia."
   },
   'helpvar resolutions_loop resolution' => {
-    'lastUpdated' => '1237561126',
-    'message' => "Zmienna zwracaj\x{105}ca rozdzielczo\x{15b}\x{107} zdj\x{119}cia."
+    'lastUpdated' => '1238072901',
+    'message' => "Rozdzielczo\x{15b}\x{107} zdj\x{119}cia."
   },
   'helpvar resolutions_loop url_download' => {
-    'lastUpdated' => '1237561089',
-    'message' => "Zmienna zwracaj\x{105}ca adres URL danej rozdzielczo\x{15b}ci zdj\x{119}cia do pobrania."
+    'lastUpdated' => '1238072908',
+    'message' => "Adres URL danej rozdzielczo\x{15b}ci zdj\x{119}cia do pobrania."
   },
   'helpvar synopsis_text' => {
-    'lastUpdated' => '1237823769',
+    'lastUpdated' => '1237985700',
     'message' => ''
   },
   'helpvar thumbnailUrl' => {
-    'lastUpdated' => '1237560753',
-    'message' => "Zmienna zwracaj\x{105}ca adres URL do miniaturki zdj\x{119}cia"
+    'lastUpdated' => '1238072919',
+    'message' => "Adres URL do miniaturki zdj\x{119}cia"
   },
   'helpvar url_addArchive' => {
-    'lastUpdated' => '1237560809',
-    'message' => "Zmienna zwracaj\x{105}ca adres URL do dodawania archiw\x{f3}w do albumu."
+    'lastUpdated' => '1238072925',
+    'message' => 'Adres URL do dodawania archiwów do albumu.'
   },
   'helpvar url_album' => {
-    'lastUpdated' => '1237558092',
-    'message' => "Zmienna zwracaj\x{105}ca adres URL do albumu zawieraj\x{105}cego zdj\x{119}cie."
+    'lastUpdated' => '1238072931',
+    'message' => "Adres URL do albumu zawieraj\x{105}cego zdj\x{119}cie."
   },
   'helpvar url_delete' => {
-    'lastUpdated' => '1237558119',
-    'message' => "Zmienna zwracaj\x{105}ca adres URL do usuni\x{119}cia zdj\x{119}cia."
+    'lastUpdated' => '1238072937',
+    'message' => "Adres URL do usuni\x{119}cia zdj\x{119}cia."
   },
   'helpvar url_demote' => {
-    'lastUpdated' => '1237558231',
-    'message' => "Zmienna zwracaj\x{105}ca adres URL degraduj\x{105}cy zdj\x{119}cie w rankingu. "
+    'lastUpdated' => '1238072942',
+    'message' => "Adres URL degraduj\x{105}cy zdj\x{119}cie w rankingu. "
   },
   'helpvar url_edit' => {
-    'lastUpdated' => '1237558248',
-    'message' => "Zmienna zwracaj\x{105}ca adres URL do edycji zdj\x{119}cia"
+    'lastUpdated' => '1238072948',
+    'message' => "Adres URL do edycji zdj\x{119}cia"
   },
   'helpvar url_gallery' => {
-    'lastUpdated' => '1237558274',
-    'message' => "Zmienna zwracaj\x{105}ca adres URL do galerii zawieraj\x{105}cej zdj\x{119}cie."
+    'lastUpdated' => '1238072954',
+    'message' => "Adres URL do galerii zawieraj\x{105}cej zdj\x{119}cie."
   },
   'helpvar url_listFilesForOwner' => {
-    'lastUpdated' => '1237558326',
-    'message' => "Zmienna zwracaj\x{105}ca adres URL do listy zdj\x{119}\x{107} i album\x{f3}w dodanych przez w\x{142}a\x{15b}ciciela zdj\x{119}cia."
+    'lastUpdated' => '1238072961',
+    'message' => "Adres URL do listy zdj\x{119}\x{107} i album\x{f3}w dodanych przez w\x{142}a\x{15b}ciciela zdj\x{119}cia."
   },
   'helpvar url_makeShortcut' => {
-    'lastUpdated' => '1237558360',
-    'message' => "Zmienna zwracaj\x{105}ca adres URL do stworzenia skr\x{f3}tu dla zdj\x{119}cia."
+    'lastUpdated' => '1238072972',
+    'message' => "Adres URL do stworzenia skr\x{f3}tu dla zdj\x{119}cia."
   },
   'helpvar url_promote' => {
-    'lastUpdated' => '1237558538',
-    'message' => "Zmienna zwracaj\x{105}ca adres URL linku podnosz\x{105}cego zdj\x{119}cie w rankingu."
+    'lastUpdated' => '1238072978',
+    'message' => "Adres URL linku podnosz\x{105}cego zdj\x{119}cie w rankingu."
   },
   'helpvar url_searchKeyword' => {
-    'lastUpdated' => '1237558819',
-    'message' => "Zmienna zwracaj\x{105}ca adres URL strony wyszukiwania po s\x{142}owie kluczowym"
+    'lastUpdated' => '1238073002',
+    'message' => "Adres URL strony wyszukiwania po s\x{142}owie kluczowym"
   },
   'helpvar url_searchKeywordUser' => {
-    'lastUpdated' => '1237558740',
-    'message' => "Zmienna zwracaj\x{105}ca adres URL do strony wyszukiwania po s\x{142}owie kluczowym. Wyszukiwanie odbywa si\x{119} jedynie po zdj\x{119}ciach dodanych przez aktualnie zalogowanego u\x{17c}ytkownika."
+    'lastUpdated' => '1238073010',
+    'message' => "Adres URL do strony wyszukiwania po s\x{142}owie kluczowym. Wyszukiwanie odbywa si\x{119} jedynie po zdj\x{119}ciach dodanych przez aktualnie zalogowanego u\x{17c}ytkownika."
   },
   'helpvar url_slideshow' => {
-    'lastUpdated' => '1237558810',
-    'message' => "Zmienna zwracaj\x{105}ca adres URL do widoku slajd\x{f3}w w albumie zawieraj\x{105}cym zdj\x{119}cie."
+    'lastUpdated' => '1238073017',
+    'message' => "Adres URL do widoku slajd\x{f3}w w albumie zawieraj\x{105}cym zdj\x{119}cie."
   },
   'helpvar url_thumbnails' => {
-    'lastUpdated' => '1237558881',
-    'message' => "Zmienna zwracaj\x{105}ca adres URL miniaturki albumu zawieraj\x{105}cego zdj\x{119}cie"
+    'lastUpdated' => '1238073024',
+    'message' => "Adres URL miniaturki albumu zawieraj\x{105}cego zdj\x{119}cie"
   },
   'helpvar url_yes' => {
     'lastUpdated' => '1237557957',

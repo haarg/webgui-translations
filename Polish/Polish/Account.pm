@@ -2,15 +2,15 @@ package WebGUI::i18n::Polish::Account;
 use utf8;
 our $I18N = {
   'Error: Cannot instantiate template' => {
-    'lastUpdated' => '1237838309',
-    'message' => ''
+    'lastUpdated' => '1238078369',
+    'message' => "B\x{142}\x{105}d: Nie mog\x{119} stworzy\x{107} egzemplarza szablonu %s dla klasy %s"
   },
   'account className' => {
-    'lastUpdated' => '1237838303',
+    'lastUpdated' => '1238078375',
     'message' => ''
   },
   'account identifier' => {
-    'lastUpdated' => '1237838039',
+    'lastUpdated' => '1238078380',
     'message' => ''
   },
   'account layout template' => {

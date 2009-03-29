@@ -14,7 +14,7 @@ our $I18N = {
     'message' => 'Dodaj'
   },
   'add.label' => {
-    'lastUpdated' => '1204790209',
+    'lastUpdated' => '1238076763',
     'message' => "S\x{142}owo &quot;Dodaj&quot;"
   },
   'add.url' => {
@@ -262,8 +262,8 @@ our $I18N = {
     'message' => 'Data'
   },
   'date posted' => {
-    'lastUpdated' => '1237545423',
-    'message' => ''
+    'lastUpdated' => '1238076801',
+    'message' => "Data dodania wiadomo\x{15b}ci"
   },
   'date submitted' => {
     'lastUpdated' => '1204872311',
@@ -334,7 +334,7 @@ our $I18N = {
     'message' => 'Edycja'
   },
   'edit job' => {
-    'lastUpdated' => '1237212680',
+    'lastUpdated' => '1238076812',
     'message' => ''
   },
   'edit link' => {
@@ -378,12 +378,12 @@ our $I18N = {
     'message' => "Adres URL dla edycji wiadomo\x{15b}ci."
   },
   'editForm archiveEnabled description' => {
-    'lastUpdated' => '1237212713',
+    'lastUpdated' => '1238076600',
     'message' => ''
   },
   'editForm archiveEnabled label' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => '1238076463',
+    'message' => "W\x{142}\x{105}czy\x{107} archiwizacj\x{119}?"
   },
   'enable avatars' => {
     'lastUpdated' => '1204835532',
@@ -426,7 +426,7 @@ our $I18N = {
     'message' => ''
   },
   'flatLayout' => {
-    'lastUpdated' => undef,
+    'lastUpdated' => '1238076862',
     'message' => ''
   },
   'form.header' => {

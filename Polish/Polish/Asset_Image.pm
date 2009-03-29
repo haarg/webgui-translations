@@ -2,8 +2,8 @@ package WebGUI::i18n::Polish::Asset_Image;
 use utf8;
 our $I18N = {
   'Parameters description' => {
-    'lastUpdated' => '1237823400',
-    'message' => ''
+    'lastUpdated' => '1237985043',
+    'message' => "To jest obszar na parametry znacznika <IMG> kt\x{f3}ry jest generowany dla obrazka. Mo\x{17c}esz u\x{17c}y\x{107} tego pola do wyr\x{f3}wnania zdj\x{119}cia lub ustawienia tekstu kt\x{f3}ry b\x{119}dzie pokazany je\x{17c}eli obrazek nie mo\x{17c}e by\x{107} wy\x{15b}wietlony."
   },
   'Thumbnail description' => {
     'lastUpdated' => '1237822164',

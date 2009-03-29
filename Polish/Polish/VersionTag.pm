@@ -40,16 +40,16 @@ our $I18N = {
     'message' => 'zatwierdzone'
   },
   'back to home' => {
-    'lastUpdated' => '1228860609',
-    'message' => 'Powr&oacute;t do strony startowej.'
+    'lastUpdated' => '1237986805',
+    'message' => 'Powrót do strony startowej.'
   },
   'back to site' => {
-    'lastUpdated' => '1228860632',
-    'message' => 'Powr&oacute;t do serwisu.'
+    'lastUpdated' => '1237986812',
+    'message' => 'Powrót do serwisu.'
   },
   'bad commit' => {
-    'lastUpdated' => '1228860724',
-    'message' => "Podczas przetwarzania kontentu zdarzy\x{142}o si\x{119} co\x{15b} nieprzewidzianego. Prosz\x{119} skontaktowa\x{107} si\x{119} z administratorem systemu."
+    'lastUpdated' => '1237986825',
+    'message' => "Podczas przetwarzania zawarto\x{15b}ci zdarzy\x{142}o si\x{119} co\x{15b} nieprzewidzianego. Prosz\x{119} skontaktowa\x{107} si\x{119} z administratorem systemu."
   },
   'comments' => {
     'context' => 'label on the manage revisions in tag page during the approval process',
@@ -58,13 +58,13 @@ our $I18N = {
   },
   'comments description commit' => {
     'context' => 'hover help for the comments field',
-    'lastUpdated' => '1228860783',
-    'message' => "Do\x{142}\x{105}cz dowolne komentarze lub opinie do tej przywieszki wersji. Tekst b\x{119}dze dost\x{119}pny w przysz\x{142}o\x{15b}ci dla ka\x{17c}dego szukaj\x{105}cego tej przywieszki w postacji adnotacji."
+    'lastUpdated' => '1237986848',
+    'message' => "Do\x{142}\x{105}cz dowolne komentarze lub opinie do tej przywieszki wersji. Tekst b\x{119}dzie dost\x{119}pny w przysz\x{142}o\x{15b}ci dla ka\x{17c}dego szukaj\x{105}cego tej przywieszki w postaci adnotacji."
   },
   'comments help' => {
     'context' => 'hover help for the comments field',
-    'lastUpdated' => '1228861335',
-    'message' => "Za\x{142}\x{105}cz dowolny komentarz lub opinie do tej przywieszki. Tekst b\x{119}dzie dost\x{119}pny dla ka\x{17c}dego przegl\x{105}daj\x{105}cego przywieszki wprowadzonych zmian w serwisie, jak r&oacute;wnie\x{17c} w przysz\x{142}o\x{15b}ci w postaci adnotacji."
+    'lastUpdated' => '1237986869',
+    'message' => "Za\x{142}\x{105}cz dowolny komentarz lub opinie do tej przywieszki. Tekst b\x{119}dzie dost\x{119}pny dla ka\x{17c}dego przegl\x{105}daj\x{105}cego przywieszki wprowadzonych zmian w serwisie, jak r\x{f3}wnie\x{17c} w przysz\x{142}o\x{15b}ci w postaci adnotacji."
   },
   'commit' => {
     'context' => 'The label for committing a tag to the asset tree.',
@@ -73,8 +73,8 @@ our $I18N = {
   },
   'commit accepted' => {
     'context' => 'label on the manage revisions in tag page during the approval process',
-    'lastUpdated' => '1228861385',
-    'message' => "Twoje zmiany zosta\x{142}y przyj\x{119}te do przetworzenia i wdro\x{17c}enia. Mo\x{17c}e up\x{142}yn\x{105}\x{107} troch\x{119} czasu, zanim pojawi\x{105} si\x{119} w serwisie w wersji rzeczywistej. Gdzie chcia\x{142}by\x{15b} p&oacute;j\x{15b}\x{107} teraz?"
+    'lastUpdated' => '1237986891',
+    'message' => "Twoje zmiany zosta\x{142}y przyj\x{119}te do przetworzenia i wdro\x{17c}enia. Mo\x{17c}e up\x{142}yn\x{105}\x{107} troch\x{119} czasu, zanim pojawi\x{105} si\x{119} w serwisie w wersji rzeczywistej. Gdzie chcia\x{142}by\x{15b} p\x{f3}j\x{15b}\x{107} teraz?"
   },
   'commit version tag' => {
     'context' => 'The name of the workflow activity.',
@@ -88,7 +88,7 @@ our $I18N = {
   },
   'commit version tag confirm' => {
     'context' => 'The prompt for committing a version tag to the asset tree.',
-    'lastUpdated' => '1228861693',
+    'lastUpdated' => '1237986903',
     'message' => "Czy jeste\x{15b} pewny, \x{17c}e chcesz zatwierdzi\x{107} przywieszk\x{119} wersji? Zostan\x{105} zatwierdzone wszystkie zmiany wykonane w czasie jej aktywno\x{15b}ci."
   },
   'committed by' => {
@@ -108,11 +108,11 @@ our $I18N = {
   },
   'content versioning' => {
     'context' => 'Admin console label.',
-    'lastUpdated' => '1228861794',
-    'message' => "Wersjonowanie kontentu (zawarto\x{15b}ci serwisu)"
+    'lastUpdated' => '1237986925',
+    'message' => "Wersjonowanie zawarto\x{15b}ci"
   },
   'continue with workflow' => {
-    'lastUpdated' => '1228861844',
+    'lastUpdated' => '1237986937',
     'message' => '-- Kontynuacja razem z tym workflow'
   },
   'created by' => {
@@ -127,7 +127,7 @@ our $I18N = {
   },
   'current tag is called' => {
     'context' => 'manage version tags',
-    'lastUpdated' => '1228861873',
+    'lastUpdated' => '1237986947',
     'message' => "Aktualnie pracujesz nad przywieszk\x{105} nazwan\x{105}"
   },
   'denied' => {
@@ -140,16 +140,16 @@ our $I18N = {
     'message' => 'Odmowa'
   },
   'do on approve' => {
-    'lastUpdated' => '1237846407',
+    'lastUpdated' => '1238078276',
     'message' => ''
   },
   'do on approve help' => {
-    'lastUpdated' => '1237846413',
+    'lastUpdated' => '1237987183',
     'message' => ''
   },
   'do on deny' => {
     'context' => 'label in the request approval for version tag activity',
-    'lastUpdated' => 0,
+    'lastUpdated' => '1238078283',
     'message' => 'Do On Deny'
   },
   'do on deny help' => {
@@ -167,20 +167,36 @@ our $I18N = {
     'message' => '<p>In this screen you will create a new version tag for use on the site, or edit an existing version tag.  Members of the Manage Version Tag group will have the additionaly ability to define how the version tag is handled via a workflow and which group is allowed to make edits under the tag.</p>
 '
   },
+  'endTime hoverHelp' => {
+    'lastUpdated' => '1237986248',
+    'message' => ''
+  },
+  'endTime label' => {
+    'lastUpdated' => '1237986968',
+    'message' => ''
+  },
+  'error permission www_manageRevisionsInTag body' => {
+    'lastUpdated' => '1237987271',
+    'message' => "Nie jeste\x{15b} upowa\x{17c}niony do ogl\x{105}dania tej przywieszki wersji. Prawdopodobnie zosta\x{142}a ona ju\x{17c} zatwierdzona lub odrzucona."
+  },
+  'error permission www_manageRevisionsInTag title' => {
+    'lastUpdated' => '1237987304',
+    'message' => 'Brak zezwolenia'
+  },
   'export version tag to html' => {
     'context' => 'the title of the workflow activity of the same name',
-    'lastUpdated' => 0,
+    'lastUpdated' => '1237986283',
     'message' => 'Eksport przywieszki wersji do HTML'
   },
   'group to approve' => {
     'context' => 'label in the request approval for version tag activity',
-    'lastUpdated' => 0,
-    'message' => 'Group To Approve'
+    'lastUpdated' => '1237986272',
+    'message' => 'Grupa do zatwierdzenia'
   },
   'group to approve help' => {
     'context' => 'hover help for the group to approve field',
-    'lastUpdated' => 0,
-    'message' => 'Which group should be notified and allowed to approve or deny this tag?'
+    'lastUpdated' => '1237986436',
+    'message' => "Kt\x{f3}ra grupa powinna by\x{107} powiadomiona o zatwierdzeniu lub odrzuceniu tej przywieszki?"
   },
   'group to use' => {
     'context' => 'version tag editor',
@@ -191,6 +207,10 @@ our $I18N = {
     'context' => 'hover help for group to use field',
     'lastUpdated' => '1237553883',
     'message' => "Kt\x{f3}ra grupa jest uprawniona do u\x{17c}ycia tej przywieszki?"
+  },
+  'leave this tag' => {
+    'lastUpdated' => '1237986458',
+    'message' => "Opu\x{15b}\x{107} t\x{105} przywieszk\x{119}"
   },
   'manage committed versions' => {
     'context' => 'Menu item in version tag manager.',
@@ -227,6 +247,26 @@ our $I18N = {
     'lastUpdated' => '1228862726',
     'message' => "Zarz\x{105}dzanie wersjami."
   },
+  'manageRevisionsInTag move' => {
+    'lastUpdated' => '1237986991',
+    'message' => "Przenie\x{15b} do:"
+  },
+  'manageRevisionsInTag moveTo new' => {
+    'lastUpdated' => '1237987013',
+    'message' => '-> Nowej przywieszki wersji'
+  },
+  'manageRevisionsInTag purge' => {
+    'lastUpdated' => '1237987335',
+    'message' => ''
+  },
+  'manageRevisionsInTag update' => {
+    'lastUpdated' => '1237987068',
+    'message' => "Aktualizuj przywieszk\x{119} wersji"
+  },
+  'manageRevisionsInTag with selected' => {
+    'lastUpdated' => '1237987093',
+    'message' => 'Z wybranym:'
+  },
   'notify about version tag' => {
     'context' => 'the name of the activity',
     'lastUpdated' => '1228862296',
@@ -239,13 +279,13 @@ our $I18N = {
   },
   'notify message help' => {
     'context' => 'hover help for the notify message field',
-    'lastUpdated' => '1228862330',
-    'message' => "Wprowad\x{17a} wiadomo\x{15b}\x{107}, kt&oacute;r\x{105} ma by\x{107} wys\x{142}ana razem z danymi przywieszki."
+    'lastUpdated' => '1237986485',
+    'message' => "<p>Wprowad\x{17a} wiadomo\x{15b}\x{107}, kt\x{f3}r\x{105} ma by\x{107} wys\x{142}ana razem z danymi przywieszki.</p>"
   },
   'pending versions' => {
     'context' => 'Admin console label.',
-    'lastUpdated' => 0,
-    'message' => 'Pending Versions'
+    'lastUpdated' => '1237987417',
+    'message' => ''
   },
   'purge revision prompt' => {
     'context' => 'The prompt for purging a revision from the manage revisios screen.',
@@ -259,8 +299,8 @@ our $I18N = {
   },
   'revisions in tag' => {
     'context' => 'The label for displaying the revisions created under a specific tag.',
-    'lastUpdated' => 0,
-    'message' => 'Revisions In Tag'
+    'lastUpdated' => '1237987117',
+    'message' => 'Rewizje w przywieszce'
   },
   'rollback' => {
     'context' => 'The label for purging a revision from the asset tree.',
@@ -274,18 +314,18 @@ our $I18N = {
   },
   'rollback version tag confirm' => {
     'context' => 'The prompt for purging a version tag from the asset tree.',
-    'lastUpdated' => '1228862560',
-    'message' => "Czy jeste\x{15b} pewny, \x{17c}e chcesz usun\x{105}\x{107} przywieszk\x{119} wersji i ca\x{142}y kontent utworzony pod ni\x{105}? Po usuni\x{119}ciu powr&oacute;t nie b\x{119}dzie ju\x{17c} mo\x{17c}liwy."
+    'lastUpdated' => '1237986526',
+    'message' => "Czy jeste\x{15b} pewny, \x{17c}e chcesz usun\x{105}\x{107} t\x{105} przywieszk\x{119} wersji i ca\x{142}\x{105} zawarto\x{15b}\x{107} utworzon\x{105} pod ni\x{105}? Po usuni\x{119}ciu powr\x{f3}t nie b\x{119}dzie ju\x{17c} mo\x{17c}liwy."
   },
   'set tag' => {
     'context' => 'The label for choosing as a tag to work under.',
-    'lastUpdated' => 0,
-    'message' => 'Set As Working Tag'
+    'lastUpdated' => '1237987142',
+    'message' => "Ustaw jako dzia\x{142}aj\x{105}c\x{105} przywieszk\x{119}"
   },
   'tag committer' => {
     'context' => 'label in the notify about version tag activity',
-    'lastUpdated' => '1228862171',
-    'message' => '<p>Zatwierdzacz przywieszki</p>'
+    'lastUpdated' => '1237986553',
+    'message' => 'Zatwierdzacz przywieszki'
   },
   'tag creator' => {
     'context' => 'label in the notify about version tag activity',
@@ -303,8 +343,12 @@ our $I18N = {
   },
   'unlock version tag' => {
     'context' => 'the name of the activity',
-    'lastUpdated' => '1228862256',
+    'lastUpdated' => '1237986573',
     'message' => 'Otwarte przywieszki wersji'
+  },
+  'version end time' => {
+    'lastUpdated' => '1237986584',
+    'message' => ''
   },
   'version tag name' => {
     'context' => 'Admin console label.',
@@ -312,7 +356,7 @@ our $I18N = {
     'message' => 'Nazwa przywieszki wersji'
   },
   'version tag name description' => {
-    'lastUpdated' => '1129403469',
+    'lastUpdated' => '1237986614',
     'message' => '<p>Enter a name to tag the work you will do on this version of the asset.  The tag will be used to reference this work when it is time to commit, rollback or make further edits.</p>'
   },
   'version tag name description commit' => {
@@ -324,8 +368,16 @@ our $I18N = {
     'message' => 'Przywieszki wersji'
   },
   'wait until' => {
-    'lastUpdated' => '1228862025',
-    'message' => 'Czekaj dop&oacute;ki'
+    'lastUpdated' => '1237986657',
+    'message' => 'Czekaj dopóki'
+  },
+  'wait until hoverhelp' => {
+    'lastUpdated' => '1237987463',
+    'message' => ''
+  },
+  'wait until label' => {
+    'lastUpdated' => '1237986666',
+    'message' => 'Czekaj dopóki'
   },
   'who to notify' => {
     'context' => 'label in the notify about version tag activity',
@@ -334,15 +386,15 @@ our $I18N = {
   },
   'who to notify help' => {
     'context' => 'hover help for the who to notify field',
-    'lastUpdated' => '1228861945',
-    'message' => "Powiadomia\x{107} osob\x{119}, kt&oacute;ra utworzy\x{142}a przywieszk\x{119}, osob\x{119} kt&oacute;ra przyj\x{119}\x{142}a przywieszk\x{119} lub ludzi, kt&oacute;rzy zostali dopuszczeni do pracy z przywieszk\x{105}."
+    'lastUpdated' => '1237986709',
+    'message' => "<p>Powiadomi\x{107} osob\x{119}, kt\x{f3}ra utworzy\x{142}a przywieszk\x{119}, osob\x{119} kt\x{f3}ra przyj\x{119}\x{142}a przywieszk\x{119} lub ludzi, kt\x{f3}rzy zostali dopuszczeni do pracy z przywieszk\x{105}.</p>"
   },
   'workflow' => {
     'lastUpdated' => '1228861950',
     'message' => 'Workflow'
   },
   'workflow help' => {
-    'lastUpdated' => '1228862001',
+    'lastUpdated' => '1237986728',
     'message' => "Wybierz workflow dla obs\x{142}ugi twojej przywieszki wersji."
   }
 }
