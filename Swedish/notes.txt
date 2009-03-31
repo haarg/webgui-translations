@@ -1,4 +1,7 @@
 titel - rubrik
 content - innehÃ¥ll
 user - anvÃ¤ndare
+username - användarnamn
+
+Kontakt: support snabela canit punkt se
 

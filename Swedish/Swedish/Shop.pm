@@ -17,6 +17,10 @@ our $I18N = {
     'lastUpdated' => '1235932602',
     'message' => 'Gå till kassan'
   },
+  'choose payment gateway message' => {
+    'lastUpdated' => '1238517710',
+    'message' => 'Hur vill du betala?'
+  },
   'choose shipping button' => {
     'lastUpdated' => '1235930414',
     'message' => 'Välj leveransadress & Gå till kassan'

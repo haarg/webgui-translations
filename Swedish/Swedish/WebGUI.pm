@@ -5,13 +5,49 @@ our $I18N = {
     'lastUpdated' => '1223606734',
     'message' => 'L&auml;gg till inneh&aring;ll...'
   },
+  314 => {
+    'lastUpdated' => '1238517944',
+    'message' => 'Förnamn'
+  },
+  315 => {
+    'lastUpdated' => '1238517993',
+    'message' => 'Mellannamn'
+  },
+  316 => {
+    'lastUpdated' => '1238518003',
+    'message' => 'Efternamn'
+  },
+  321 => {
+    'lastUpdated' => '1238518068',
+    'message' => 'Mobiltelefon'
+  },
+  323 => {
+    'lastUpdated' => '1238518187',
+    'message' => 'Adress'
+  },
+  324 => {
+    'lastUpdated' => '1238518200',
+    'message' => 'Ort'
+  },
+  326 => {
+    'lastUpdated' => '1238518217',
+    'message' => 'Postnummer'
+  },
+  328 => {
+    'lastUpdated' => '1238518259',
+    'message' => 'Telefon'
+  },
   407 => {
     'lastUpdated' => '1236565742',
     'message' => 'Skapa ny användare'
   },
+  450 => {
+    'lastUpdated' => '1238518365',
+    'message' => 'Företagsnamn'
+  },
   50 => {
-    'lastUpdated' => '1236565432',
-    'message' => 'Användare'
+    'lastUpdated' => '1238516827',
+    'message' => 'Användarnamn'
   },
   51 => {
     'lastUpdated' => '1236565832',
@@ -37,6 +73,14 @@ our $I18N = {
     'lastUpdated' => '1236566469',
     'message' => 'Jag har glömt mitt lösenord.'
   },
+  60 => {
+    'lastUpdated' => '1238517565',
+    'message' => 'Är du säker på att du vill avaktivera ditt konto. Om du fortsätter kommer ditt konto att raderas permanent.'
+  },
+  61 => {
+    'lastUpdated' => '1238517498',
+    'message' => 'Uppdatera kontoinformation'
+  },
   62 => {
     'lastUpdated' => '1236566064',
     'message' => 'Spara'
@@ -60,6 +104,18 @@ our $I18N = {
   67 => {
     'lastUpdated' => '1236566377',
     'message' => 'Skapa en användare.'
+  },
+  68 => {
+    'lastUpdated' => '1238517359',
+    'message' => 'Inloggningen misslyckades. Antingen finns inte kontot eller så stämmer inte lösenordet.'
+  },
+  69 => {
+    'lastUpdated' => '1238517472',
+    'message' => 'Vänligen kontakta systemadministratören för hjälp.'
+  },
+  70 => {
+    'lastUpdated' => '1238517440',
+    'message' => 'Fel'
   },
   91 => {
     'lastUpdated' => '1223648983',
