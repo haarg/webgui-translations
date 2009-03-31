@@ -71,6 +71,10 @@ our $I18N = {
   9 => {
     'lastUpdated' => '1235718983',
     'message' => 'Skall användaren tvingas byta lösenord?'
+  },
+  'captcha label' => {
+    'lastUpdated' => '1236564990',
+    'message' => 'Skriv texten som finns i bilden'
   }
 }
 ;

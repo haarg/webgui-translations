@@ -1,292 +1,292 @@
 package WebGUI::i18n::Swedish::Asset;
 use utf8;
 our $I18N = {
-  '104' => {
-    'lastUpdated' => 1223605749,
+  104 => {
+    'lastUpdated' => '1223605749',
     'message' => 'URL'
   },
   '104 description' => {
-    'lastUpdated' => 1210454978,
+    'lastUpdated' => '1210454978',
     'message' => '104 beskrivning'
   },
-  '105' => {
+  105 => {
     'lastUpdated' => undef,
     'message' => ''
   },
-  '107' => {
-    'lastUpdated' => 1223605770,
+  107 => {
+    'lastUpdated' => '1223605770',
     'message' => 'S&auml;kerhet'
   },
-  '1073' => {
-    'lastUpdated' => 1223605792,
+  1073 => {
+    'lastUpdated' => '1223605792',
     'message' => 'Stil mall'
   },
-  '1079' => {
+  1079 => {
     'lastUpdated' => undef,
     'message' => ''
   },
-  '108' => {
-    'lastUpdated' => 1223605814,
+  108 => {
+    'lastUpdated' => '1223605814',
     'message' => '&Auml;gare'
   },
   '108 description' => {
-    'lastUpdated' => 1210454992,
+    'lastUpdated' => '1210454992',
     'message' => '108 beskrivning'
   },
-  '1082' => {
-    'lastUpdated' => 1223605830,
+  1082 => {
+    'lastUpdated' => '1223605830',
     'message' => 'Klippbord'
   },
-  '1083' => {
-    'lastUpdated' => 1223605859,
+  1083 => {
+    'lastUpdated' => '1223605859',
     'message' => 'Nytt inneh&aring;ll'
   },
-  '11' => {
-    'lastUpdated' => 1223605878,
+  11 => {
+    'lastUpdated' => '1223605878',
     'message' => 'T&ouml;m papperskorg'
   },
-  '174' => {
-    'lastUpdated' => 1223605913,
+  174 => {
+    'lastUpdated' => '1223605913',
     'message' => 'Visa rubrik?'
   },
-  '411' => {
+  411 => {
     'lastUpdated' => undef,
     'message' => ''
   },
   '411 description' => {
-    'lastUpdated' => 1210455012,
+    'lastUpdated' => '1210455012',
     'message' => '411 beskrivning'
   },
-  '412' => {
-    'lastUpdated' => 1223606027,
+  412 => {
+    'lastUpdated' => '1223606027',
     'message' => 'Sammanfattning'
   },
   '412 description' => {
     'lastUpdated' => undef,
     'message' => ''
   },
-  '43' => {
+  43 => {
     'lastUpdated' => undef,
     'message' => ''
   },
-  '486' => {
+  486 => {
     'lastUpdated' => undef,
     'message' => ''
   },
-  '487' => {
+  487 => {
     'lastUpdated' => undef,
     'message' => ''
   },
-  '85' => {
-    'lastUpdated' => 1223606062,
+  85 => {
+    'lastUpdated' => '1223606062',
     'message' => 'Beskrivning'
   },
-  '871' => {
+  871 => {
     'lastUpdated' => undef,
     'message' => ''
   },
   '871 description' => {
-    'lastUpdated' => 1210455022,
+    'lastUpdated' => '1210455022',
     'message' => '871 beskrivning'
   },
-  '872' => {
+  872 => {
     'lastUpdated' => undef,
     'message' => ''
   },
   '872 description' => {
-    'lastUpdated' => 1210455034,
+    'lastUpdated' => '1210455034',
     'message' => '872 beskrivning'
   },
-  '886' => {
+  886 => {
     'lastUpdated' => undef,
     'message' => ''
   },
   '886 description' => {
-    'lastUpdated' => 1210455044,
+    'lastUpdated' => '1210455044',
     'message' => '886 beskrivning'
   },
-  '895' => {
+  895 => {
     'lastUpdated' => undef,
     'message' => ''
   },
-  '896' => {
+  896 => {
     'lastUpdated' => undef,
     'message' => ''
   },
-  '940' => {
+  940 => {
     'lastUpdated' => undef,
     'message' => ''
   },
   '940 description' => {
-    'lastUpdated' => 1210455054,
+    'lastUpdated' => '1210455054',
     'message' => '940 beskrivning'
   },
-  '949' => {
+  949 => {
     'lastUpdated' => undef,
     'message' => ''
   },
-  '950' => {
+  950 => {
     'lastUpdated' => undef,
     'message' => ''
   },
-  '951' => {
+  951 => {
     'lastUpdated' => undef,
     'message' => ''
   },
-  '954' => {
+  954 => {
     'lastUpdated' => undef,
     'message' => ''
   },
-  '959' => {
+  959 => {
     'lastUpdated' => undef,
     'message' => ''
   },
-  '964' => {
+  964 => {
     'lastUpdated' => undef,
     'message' => ''
   },
-  '965' => {
+  965 => {
     'lastUpdated' => undef,
     'message' => ''
   },
-  '966' => {
+  966 => {
     'lastUpdated' => undef,
     'message' => ''
   },
-  '99' => {
-    'lastUpdated' => 1223606142,
+  99 => {
+    'lastUpdated' => '1223606142',
     'message' => 'Rubrik'
   },
   '99 description' => {
-    'lastUpdated' => 1210455064,
+    'lastUpdated' => '1210455064',
     'message' => '99 beskrivning'
   },
   'Add new field' => {
-    'lastUpdated' => 1210455118,
+    'lastUpdated' => '1210455118',
     'message' => 'L&auml;gg till ett nytt f&auml;lt'
   },
   'Add new field description' => {
-    'lastUpdated' => 1210455140,
+    'lastUpdated' => '1210455140',
     'message' => 'L&auml;gg till f&auml;ltbeskrivning'
   },
   'Class Icon' => {
-    'lastUpdated' => 1210455151,
+    'lastUpdated' => '1210455151',
     'message' => 'Ikonklass'
   },
   'Class Icon help' => {
-    'lastUpdated' => 1210455165,
+    'lastUpdated' => '1210455165',
     'message' => 'Hj&auml;lp f&ouml;r ikonklass'
   },
   'Copy' => {
-    'lastUpdated' => 1223606259,
+    'lastUpdated' => '1223606259',
     'message' => 'Copy'
   },
   'Data Type description' => {
-    'lastUpdated' => 1210455189,
+    'lastUpdated' => '1210455189',
     'message' => 'Datatyp beskrivning'
   },
   'Delete Metadata field' => {
-    'lastUpdated' => 1210455223,
+    'lastUpdated' => '1210455223',
     'message' => 'ta bort metadataf&auml;ltet'
   },
   'Depth' => {
-    'lastUpdated' => 1210455233,
+    'lastUpdated' => '1210455233',
     'message' => 'Djup'
   },
   'Depth description' => {
-    'lastUpdated' => 1210455254,
+    'lastUpdated' => '1210455254',
     'message' => '<p>Beskrivning av djup</p>'
   },
   'Edit Metadata' => {
-    'lastUpdated' => 1210455270,
+    'lastUpdated' => '1210455270',
     'message' => 'Editera metadata'
   },
   'Export Page' => {
-    'lastUpdated' => 1210455285,
+    'lastUpdated' => '1210455285',
     'message' => 'Exportera sidan'
   },
   'Export as user' => {
-    'lastUpdated' => 1210455305,
+    'lastUpdated' => '1210455305',
     'message' => 'Exporera som anv&auml;ndare'
   },
   'Export as user description' => {
-    'lastUpdated' => 1210455343,
+    'lastUpdated' => '1210455343',
     'message' => 'Beskrivning av &quot;Exportera som anv&auml;ndare&quot;'
   },
   'Extras URL' => {
-    'lastUpdated' => 1210455387,
+    'lastUpdated' => '1210455387',
     'message' => 'Extrahera&nbsp;URL'
   },
   'Extras URL description' => {
-    'lastUpdated' => 1210455411,
+    'lastUpdated' => '1210455411',
     'message' => 'Beskrivning av &quot;Extrahera URL&quot;'
   },
   'Field Id' => {
-    'lastUpdated' => 1210455430,
+    'lastUpdated' => '1210455430',
     'message' => 'F&auml;lt Id'
   },
   'Field Name description' => {
-    'lastUpdated' => 1210455455,
+    'lastUpdated' => '1210455455',
     'message' => 'Beskrivning av &quot;F&auml;lt namn&quot;'
   },
   'Field name' => {
-    'lastUpdated' => 1210455470,
+    'lastUpdated' => '1210455470',
     'message' => 'F&auml;lt namn'
   },
   'Metadata' => {
-    'lastUpdated' => 1210455481,
+    'lastUpdated' => '1210455481',
     'message' => 'Metadata'
   },
   'Metadata Description description' => {
-    'lastUpdated' => 1210455734,
+    'lastUpdated' => '1210455734',
     'message' => 'Beskrivning av metadata'
   },
   'Page Export' => {
-    'lastUpdated' => 1210455508,
+    'lastUpdated' => '1210455508',
     'message' => 'Exportera sida'
   },
   'Page Export Status' => {
-    'lastUpdated' => 1210455527,
+    'lastUpdated' => '1210455527',
     'message' => 'Status f&ouml;r export av sida'
   },
   'Possible Values description' => {
-    'lastUpdated' => 1210455670,
+    'lastUpdated' => '1210455670',
     'message' => 'Beskrivning av m&ouml;jliga v&auml;rden'
   },
   'Select' => {
-    'lastUpdated' => 1210455565,
+    'lastUpdated' => '1210455565',
     'message' => 'V&auml;lj'
   },
   'Uploads URL' => {
-    'lastUpdated' => 1210455589,
+    'lastUpdated' => '1210455589',
     'message' => 'Ladda up en URL'
   },
   'Uploads URL description' => {
-    'lastUpdated' => 1210455709,
+    'lastUpdated' => '1210455709',
     'message' => 'Beskrivning&nbsp;f&ouml;r&nbsp;uppladdning av URL'
   },
   'add the missing page' => {
-    'lastUpdated' => 1210455755,
+    'lastUpdated' => '1210455755',
     'message' => 'l&auml;gg till den felande sidan'
   },
   'ago' => {
-    'lastUpdated' => 1210455855,
+    'lastUpdated' => '1210455855',
     'message' => 'sedan'
   },
   'asset' => {
-    'lastUpdated' => 1210455883,
+    'lastUpdated' => '1210455883',
     'message' => 'tillg&aring;ng'
   },
   'asset id' => {
-    'lastUpdated' => 1210455898,
+    'lastUpdated' => '1210455898',
     'message' => 'id f&ouml;r tillg&aring;ngen'
   },
   'asset id description' => {
-    'lastUpdated' => 1210456132,
+    'lastUpdated' => '1210456132',
     'message' => 'beskrivning av id f&ouml;r tillg&aring;ngar'
   },
   'asset list title' => {
-    'lastUpdated' => 1210456177,
+    'lastUpdated' => '1210456177',
     'message' => 'rubriker f&ouml;r tillg&aring;ngar'
   },
   'asset template asset var title' => {
@@ -310,8 +310,8 @@ our $I18N = {
     'message' => ''
   },
   'change' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => '1238135160',
+    'message' => 'ändra'
   },
   'change url' => {
     'lastUpdated' => undef,
@@ -342,16 +342,16 @@ our $I18N = {
     'message' => ''
   },
   'copy' => {
-    'lastUpdated' => 1223606224,
+    'lastUpdated' => '1223606224',
     'message' => 'kopiera'
   },
   'could not create' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => '1238135119',
+    'message' => 'kan inte skapa'
   },
   'could not create path' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => '1238135144',
+    'message' => 'kan inte skapa sökväg'
   },
   'could not open path' => {
     'lastUpdated' => undef,
@@ -382,7 +382,7 @@ our $I18N = {
     'message' => ''
   },
   'cut' => {
-    'lastUpdated' => 1223606242,
+    'lastUpdated' => '1223606242',
     'message' => 'Klipp ut'
   },
   'default value' => {
@@ -430,7 +430,7 @@ our $I18N = {
     'message' => ''
   },
   'edit' => {
-    'lastUpdated' => 1223606315,
+    'lastUpdated' => '1223606315',
     'message' => '&Auml;ndra'
   },
   'edit branch' => {
@@ -726,8 +726,8 @@ our $I18N = {
     'message' => ''
   },
   'size' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => '1238135238',
+    'message' => 'storlek'
   },
   'specified base' => {
     'lastUpdated' => undef,
@@ -760,6 +760,10 @@ our $I18N = {
   'type' => {
     'lastUpdated' => undef,
     'message' => ''
+  },
+  'update' => {
+    'lastUpdated' => '1238135224',
+    'message' => 'uppdatera'
   },
   'url' => {
     'lastUpdated' => undef,
