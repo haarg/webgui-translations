@@ -41,6 +41,10 @@ our $I18N = {
     'lastUpdated' => '1180437201',
     'message' => 'Termin hinzufügen'
   },
+  'add more items' => {
+    'lastUpdated' => '1238534610',
+    'message' => 'Weitere Items hinzufügen'
+  },
   'add new event metadata field' => {
     'lastUpdated' => '1180437219',
     'message' => 'Neues Termin Metadaten Feld hinzufügen'
@@ -58,8 +62,8 @@ our $I18N = {
     'message' => ''
   },
   'add to cart' => {
-    'lastUpdated' => '1236386202',
-    'message' => ''
+    'lastUpdated' => '1238534663',
+    'message' => 'Zum Einkaufskorb hinzufügen'
   },
   'add/edit approve event' => {
     'lastUpdated' => '1199975274',
@@ -114,8 +118,8 @@ our $I18N = {
     'message' => 'Hinzufügen/Editieren Termin Metadaten Feld'
   },
   'add/edit event operator' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => '1238534844',
+    'message' => 'Verantwortlicher'
   },
   'add/edit event operator description' => {
     'lastUpdated' => undef,
@@ -126,8 +130,8 @@ our $I18N = {
     'message' => 'Teilnahmekosten.'
   },
   'add/edit event required events' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => '1238534786',
+    'message' => 'Vorausgesetzte Termine'
   },
   'add/edit event required events description' => {
     'lastUpdated' => undef,
@@ -170,8 +174,8 @@ our $I18N = {
     'message' => ''
   },
   'add/edit useSalesTax' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => '1238534924',
+    'message' => 'Steuerpflichtig?'
   },
   'add/edit useSalesTax description' => {
     'lastUpdated' => undef,
@@ -342,8 +346,8 @@ our $I18N = {
     'message' => ''
   },
   'city' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => '1238534949',
+    'message' => 'Ort'
   },
   'confirm delete event' => {
     'lastUpdated' => undef,
