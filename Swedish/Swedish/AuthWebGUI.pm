@@ -75,6 +75,26 @@ our $I18N = {
   'captcha label' => {
     'lastUpdated' => '1236564990',
     'message' => 'Skriv texten som finns i bilden'
+  },
+  'email password recovery end message' => {
+    'lastUpdated' => '1238519547',
+    'message' => 'Ange ett nytt lösenord för ditt konto.'
+  },
+  'email recover password finish message' => {
+    'lastUpdated' => '1238519518',
+    'message' => 'Ett e-post brev har skickats med instruktioner för hur du kan ändra ditt lösenord.'
+  },
+  'email recover password start message' => {
+    'lastUpdated' => '1238519268',
+    'message' => 'Ange antingen ditt användarnamn eller din e-post adress.'
+  },
+  'password recovery email label' => {
+    'lastUpdated' => '1238519358',
+    'message' => 'E-post adress'
+  },
+  'recover password banner' => {
+    'lastUpdated' => '1238519167',
+    'message' => 'Nytt lösenord'
   }
 }
 ;
