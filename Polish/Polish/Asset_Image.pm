@@ -13,6 +13,18 @@ our $I18N = {
     'lastUpdated' => '1237822190',
     'message' => "<p>Podczas dodawania obrazu tworzona jest jego miniaturka, kt\x{f3}ra dost\x{119}pna jest do u\x{17c}ytku w szablonach. Najd\x{142}u\x{17c}szy bok miniaturki zostanie dopasowany do tej warto\x{15b}ci (podawanej w pikselach). Domy\x{15b}lnie warto\x{15b}\x{107} pobierana z og\x{f3}lnych ustawie\x{144} serwisu.</p>"
   },
+  'annotate' => {
+    'lastUpdated' => '1238568575',
+    'message' => "Obja\x{15b}nienie"
+  },
+  'annotate image' => {
+    'lastUpdated' => '1238568586',
+    'message' => "Obja\x{15b}nienie obrazu"
+  },
+  'annotate image description' => {
+    'lastUpdated' => '1238568652',
+    'message' => "Tekst w pobli\x{17c}u obrazu."
+  },
   'assetName' => {
     'lastUpdated' => '1237820728',
     'message' => 'Obraz'
@@ -20,6 +32,18 @@ our $I18N = {
   'controls' => {
     'lastUpdated' => '1237821560',
     'message' => "Pasek narz\x{119}dzi z ikonami umo\x{17c}liwiaj\x{105}cymi prac\x{119} nad plikiem."
+  },
+  'crop image' => {
+    'lastUpdated' => '1238507413',
+    'message' => 'Przytnij obraz'
+  },
+  'degree' => {
+    'lastUpdated' => '1238507435',
+    'message' => "Stopie\x{144} obrotu"
+  },
+  'delete' => {
+    'lastUpdated' => '1238507394',
+    'message' => "Usu\x{144}"
   },
   'edit image' => {
     'lastUpdated' => '1237821566',
@@ -36,6 +60,10 @@ our $I18N = {
   'filename' => {
     'lastUpdated' => '1204532572',
     'message' => 'Nazwa pliku z obrazem'
+  },
+  'height' => {
+    'lastUpdated' => '1238507383',
+    'message' => "Wysoko\x{15b}\x{107}"
   },
   'image size' => {
     'lastUpdated' => '1204532553',
@@ -56,6 +84,10 @@ our $I18N = {
   'image template title' => {
     'lastUpdated' => '1204532917',
     'message' => 'Zmiennne Szablonu Obrazu'
+  },
+  'left' => {
+    'lastUpdated' => '1238568701',
+    'message' => 'W lewo'
   },
   'menuTitle' => {
     'lastUpdated' => '1237822292',
@@ -93,6 +125,14 @@ our $I18N = {
     'lastUpdated' => '1237821195',
     'message' => 'Przeskaluj Obraz'
   },
+  'rotate image' => {
+    'lastUpdated' => '1238507320',
+    'message' => "Obr\x{f3}\x{107} obraz"
+  },
+  'rotate image label' => {
+    'lastUpdated' => '1238507336',
+    'message' => "Kliknij aby obr\x{f3}ci\x{107} obraz"
+  },
   'storageId' => {
     'lastUpdated' => '1237811239',
     'message' => "Wewn\x{119}trzne (WebGUI) ID u\x{17c}yte dla pliku."
@@ -116,6 +156,18 @@ our $I18N = {
   'title' => {
     'lastUpdated' => '1237821530',
     'message' => "Tytu\x{142} ustawiony podczas wysy\x{142}ania pliku, lub nazwa pliku je\x{15b}li tytu\x{142}u nie podano."
+  },
+  'top' => {
+    'lastUpdated' => '1238568757',
+    'message' => 'Do góry'
+  },
+  'undo image' => {
+    'lastUpdated' => '1238568784',
+    'message' => 'Cofnij obraz'
+  },
+  'width' => {
+    'lastUpdated' => '1238507119',
+    'message' => "Szeroko\x{15b}\x{107}"
   }
 }
 ;

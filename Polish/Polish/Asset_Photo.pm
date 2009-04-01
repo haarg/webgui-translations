@@ -218,8 +218,8 @@ our $I18N = {
     'message' => "Warto\x{15b}\x{107} znacznika EXIF"
   },
   'helpvar exif_' => {
-    'lastUpdated' => '1238073716',
-    'message' => ''
+    'lastUpdated' => '1238567020',
+    'message' => "Ka\x{17c}dy tag EXIF mo\x{17c}e by\x{107} zwi\x{105}zany z nazw\x{105}."
   },
   'helpvar fileUrl' => {
     'lastUpdated' => '1238072745',
@@ -238,8 +238,8 @@ our $I18N = {
     'message' => "Pole formularza do dodawania s\x{142}\x{f3}w kluczowych dla zdj\x{119}cia."
   },
   'helpvar form_location' => {
-    'lastUpdated' => '1237985565',
-    'message' => ''
+    'lastUpdated' => '1238568152',
+    'message' => "Lokalizacja zdj\x{119}cia zosta\x{142}a pobrana."
   },
   'helpvar form_parentId' => {
     'lastUpdated' => '1237985838',
@@ -258,8 +258,8 @@ our $I18N = {
     'message' => "Przycisk wysy\x{142}aj\x{105}cy formularz."
   },
   'helpvar form_synopsis' => {
-    'lastUpdated' => '1237985670',
-    'message' => ''
+    'lastUpdated' => '1238568180',
+    'message' => "Podpis do zdj\x{119}cia."
   },
   'helpvar form_title' => {
     'lastUpdated' => '1238072778',
@@ -302,8 +302,8 @@ our $I18N = {
     'message' => "Nazwa u\x{17c}ytkownika kt\x{f3}ry doda\x{142} zdj\x{119}cie"
   },
   'helpvar resolutions_' => {
-    'lastUpdated' => '1238074053',
-    'message' => ''
+    'lastUpdated' => '1238568292',
+    'message' => "Adres URL przekierowuj\x{105}cy do znanej rozdzielczo\x{15b}ci. Rozdzielczo\x{15b}\x{107} &quot;800&quot; mo\x{17c}na by zapisa\x{107} jako adres URL &quot;rozdzielczosc_800&quot;"
   },
   'helpvar resolutions_loop' => {
     'lastUpdated' => '1238072894',
@@ -318,8 +318,8 @@ our $I18N = {
     'message' => "Adres URL danej rozdzielczo\x{15b}ci zdj\x{119}cia do pobrania."
   },
   'helpvar synopsis_text' => {
-    'lastUpdated' => '1237985700',
-    'message' => ''
+    'lastUpdated' => '1238568396',
+    'message' => "Pole &quot;Streszczenie&quot; z usuni\x{119}tymi znacznikami HTML"
   },
   'helpvar thumbnailUrl' => {
     'lastUpdated' => '1238072919',

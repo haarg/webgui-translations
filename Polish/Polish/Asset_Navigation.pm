@@ -141,6 +141,14 @@ our $I18N = {
     'lastUpdated' => '1237551283',
     'message' => ''
   },
+  'preview' => {
+    'lastUpdated' => '1238578854',
+    'message' => ''
+  },
+  'reverse page loop' => {
+    'lastUpdated' => '1238578859',
+    'message' => ''
+  },
   'startPoint' => {
     'lastUpdated' => '1237551294',
     'message' => ''

@@ -18,7 +18,7 @@ our $I18N = {
     'message' => 'Edytuj newsletter'
   },
   'formFooter' => {
-    'lastUpdated' => '1238075945',
+    'lastUpdated' => '1238578892',
     'message' => 'Koniec formularz subskrypcji.'
   },
   'formHeader' => {

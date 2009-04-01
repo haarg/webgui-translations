@@ -26,8 +26,8 @@ our $I18N = {
     'message' => 'Tylko dla znajomych'
   },
   'member since' => {
-    'lastUpdated' => '1238078999',
-    'message' => ''
+    'lastUpdated' => '1238506578',
+    'message' => 'Zarejestrowany od'
   },
   'private label' => {
     'lastUpdated' => '1238078540',
@@ -42,23 +42,63 @@ our $I18N = {
     'message' => "zobacz sw\x{f3}j profil tak jak inni go widz\x{105}"
   },
   'profile edit layout template hoverHelp' => {
-    'lastUpdated' => '1238078766',
+    'lastUpdated' => '1238506615',
+    'message' => "Wybierz szablon z listy wy\x{15b}wietlaj\x{105}cy profil u\x{17c}ytkownika do edycji."
+  },
+  'profile edit layout template label' => {
+    'lastUpdated' => '1238570904',
+    'message' => ''
+  },
+  'profile edit template hoverHelp' => {
+    'lastUpdated' => '1238570711',
+    'message' => "Wybierz g\x{142}\x{f3}wny szablon dla edycji profilu"
+  },
+  'profile edit template label' => {
+    'lastUpdated' => '1238570723',
+    'message' => 'Szablon edycji'
+  },
+  'profile error template hoverHelp' => {
+    'lastUpdated' => '1238506727',
+    'message' => "Wybierz szablon wy\x{15b}wietlaj\x{105}cy b\x{142}\x{119}dy profilu u\x{17c}ytkownikowi"
+  },
+  'profile error template label' => {
+    'lastUpdated' => '1238506681',
+    'message' => "Szablon b\x{142}\x{119}du"
+  },
+  'profile layout template hoverHelp' => {
+    'lastUpdated' => '1238506691',
+    'message' => ''
+  },
+  'profile layout template label' => {
+    'lastUpdated' => '1238570731',
     'message' => ''
   },
   'profile not public error' => {
     'lastUpdated' => '1238078890',
     'message' => "Profil tego u\x{17c}ytkownika nie jest publiczny."
   },
+  'profile style template hoverHelp' => {
+    'lastUpdated' => '1238570846',
+    'message' => "Wybierz szablon stylu z listy os\x{142}aniaj\x{105}cy profil."
+  },
+  'profile style template label' => {
+    'lastUpdated' => '1238570740',
+    'message' => 'Szablon stylu'
+  },
+  'profile view template hoverHelp' => {
+    'lastUpdated' => '1238570766',
+    'message' => "Wybierz g\x{142}\x{f3}wny szablon dla widoku profilu."
+  },
   'profile view template label' => {
-    'lastUpdated' => '1238078772',
-    'message' => ''
+    'lastUpdated' => '1238506745',
+    'message' => 'Szablon widoku profilu'
   },
   'public label' => {
-    'lastUpdated' => '1238078621',
+    'lastUpdated' => '1238506804',
     'message' => 'Publiczne'
   },
   'public profile' => {
-    'lastUpdated' => '1238078605',
+    'lastUpdated' => '1238506819',
     'message' => 'Twój profil jest publiczny'
   },
   'required field' => {

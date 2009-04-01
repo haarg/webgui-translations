@@ -6,7 +6,7 @@ our $I18N = {
     'message' => ''
   },
   'assetName' => {
-    'lastUpdated' => '1237823579',
+    'lastUpdated' => '1238578830',
     'message' => ''
   }
 }

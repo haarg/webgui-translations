@@ -78,16 +78,16 @@ our $I18N = {
     'message' => "Mo\x{17c}liwe warto\x{15b}ci"
   },
   '487 description' => {
-    'lastUpdated' => '1238078096',
-    'message' => ''
+    'lastUpdated' => '1238415703',
+    'message' => "<p>Ten obszar pozwala na wprowadzenie warto\x{15b}ci do nast\x{119}puj\x{105}cych typ\x{f3}w p\x{f3}l formularza:\r\n<br><br>\r\nCheckbox List<br>\r\nCombo Box<br>\r\nHidden List<br>\r\nRadio List<br>\r\nSelect Box<br>\r\nSelect List<br>\r\n<br><br>\r\nJe\x{17c}eli wprowadzasz list\x{119} mo\x{17c}liwych warto\x{15b}ci formatuj poszczeg\x{f3}lne pozycje jak poni\x{17c}ej:\r\n</p><pre>{\r\n   \"klucz1\"=&gt;\"warto\x{15b}\x{107}1\",\r\n   \"klucz2\"=&gt;\"warto\x{15b}\x{107}2\",\r\n   \"klucz3\"=&gt;\"warto\x{15b}\x{107}3\"\r\n   ...\r\n}\r\n</pre><br>\r\nPo prostu zamie\x{144} \"klucz1\"/\"warto\x{15b}\x{107}1\" na w\x{142}asne nazwa/warto\x{15b}\x{107}."
   },
   488 => {
     'lastUpdated' => '1237214880',
     'message' => "Domy\x{15b}lne warto\x{15b}ci"
   },
   '488 description' => {
-    'lastUpdated' => '1238078221',
-    'message' => ''
+    'lastUpdated' => '1238416878',
+    'message' => "<p>Ten obszar powinien by\x{107} u\x{17c}ywany tylko wtedy kiedy u\x{17c}ywane s\x{105} \"Mo\x{17c}liwe warto\x{15b}ci\". Pozwala on na wprowadzenie domy\x{15b}lnych warto\x{15b}ci dla nast\x{119}puj\x{105}cych typ\x{f3}w p\x{f3}l:\r\n<br>\r\nCheckbox List<br>\r\nCombo Box<br>\r\nHidden List<br>\r\nRadio List<br>\r\nSelect Box<br>\r\nSelect List<br>\r\n<br><br>\r\nJe\x{17c}eli wprowadzasz list\x{119} domy\x{15b}lnych warto\x{15b}ci formatuj poszczeg\x{f3}lne pozycje jak poni\x{17c}ej\r\n</p><pre>[\"key1\",\"key2\",...]</pre><br>\r\n<br>\r\nJe\x{17c}eli chcesz ustawi\x{107} domy\x{15b}ln\x{105} warto\x{15b}\x{107} dla innego pola, stw\x{f3}rz pole bez ustawie\x{144} tego obszaru, nast\x{119}pnie przejd\x{17a} do profilu Go\x{15b}cia i zapisz warto\x{15b}\x{107}, kt\x{f3}ra ma by\x{107} domy\x{15b}ln\x{105} dla nowo stworzonego pola. W rezultacie pole to b\x{119}dzie posiada\x{107} domy\x{15b}ln\x{105} warto\x{15b}\x{107} podczas tworzenia nowego u\x{17c}ytkownika.\r\n"
   },
   489 => {
     'lastUpdated' => '1237215160',
@@ -166,12 +166,16 @@ our $I18N = {
     'message' => 'Edycja Profilu - szablon'
   },
   'forceImageOnly description' => {
-    'lastUpdated' => '1238078226',
-    'message' => ''
+    'lastUpdated' => '1238414366',
+    'message' => "Je\x{17c}eli tw\x{f3}j profil wymaga za\x{142}\x{105}czenia obrazka uzyskasz dodatkowe okno, kt\x{f3}re pozwoli na to pozwoli."
+  },
+  'forceImageOnly hoverHelp' => {
+    'lastUpdated' => '1238414571',
+    'message' => "<p>Je\x{17c}eli zaznaczysz \"Tak\", formularz pozwoli za\x{142}adowa\x{107} tylko plik z obrazkiem.</p>"
   },
   'forceImageOnly label' => {
-    'lastUpdated' => '1237990668',
-    'message' => ''
+    'lastUpdated' => '1238414458',
+    'message' => "Wymu\x{15b} za\x{142}adowanie obrazka"
   },
   'profile field extras hoverHelp' => {
     'lastUpdated' => '1237990477',
@@ -250,27 +254,27 @@ our $I18N = {
     'message' => 'Etykieta dla tego pola profilu.'
   },
   'profile.message' => {
-    'lastUpdated' => '1237990337',
-    'message' => ''
+    'lastUpdated' => '1238413658',
+    'message' => "Komunikaty z systemu, w wypadku b\x{142}\x{119}d\x{f3}w albo dalszej pracy u\x{17c}ytkownika."
   },
   'profile.value' => {
-    'lastUpdated' => '1237989332',
-    'message' => "Zmienna zwracaj\x{105}ca warto\x{15b}\x{107} pola profilu."
+    'lastUpdated' => '1238414686',
+    'message' => "Warto\x{15b}\x{107} tego pola profilu."
   },
   'requiredForPasswordRecovery hoverHelp' => {
-    'lastUpdated' => '1237242655',
-    'message' => ''
+    'lastUpdated' => '1238414290',
+    'message' => "<p>Wymaga od u\x{17c}ytkownik\x{f3}w wype\x{142}nienia tego pola podczas odzyskiwania has\x{142}a. Tylko ci u\x{17c}ytkownicy, kt\x{f3}rzy wype\x{142}ni\x{105} wszystkie pola poprawnie b\x{119}d\x{105} mogli odzyska\x{107} has\x{142}o.</p>"
   },
   'requiredForPasswordRecovery label' => {
     'lastUpdated' => '1237990359',
     'message' => "Wymagane dla odzyskania has\x{142}a?"
   },
   'showAtRegistration hoverHelp' => {
-    'lastUpdated' => '1238078255',
-    'message' => ''
+    'lastUpdated' => '1238415966',
+    'message' => "<p>Poka\x{17c} wpis dla tego pola na ekranie rejestracji dla nowo-zarejestrowanych u\x{17c}ytkownik\x{f3}w. To pole nie b\x{119}dzie wymagane dop\x{f3}ki tego nie zaznaczymy.</p>"
   },
   'showAtRegistration label' => {
-    'lastUpdated' => '1237989698',
+    'lastUpdated' => '1238413794',
     'message' => "Pokazywa\x{107} przy rejestracji?"
   },
   'topicName' => {

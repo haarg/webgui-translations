@@ -774,8 +774,8 @@ our $I18N = {
     'message' => 'Aktywne sesje'
   },
   426 => {
-    'lastUpdated' => '1204901755',
-    'message' => 'Hisotira logowania'
+    'lastUpdated' => '1238499641',
+    'message' => 'Historia logowania'
   },
   428 => {
     'lastUpdated' => '1204901764',
@@ -1426,8 +1426,8 @@ our $I18N = {
     'message' => "Zarz\x{105}dzanie u\x{17c}ytkownikami w tej grupie."
   },
   756 => {
-    'lastUpdated' => '1207315145',
-    'message' => 'Powr&oacute;t do listy grup.'
+    'lastUpdated' => '1238416905',
+    'message' => 'Powrót do listy grup.'
   },
   76 => {
     'lastUpdated' => '1207315155',
@@ -1614,8 +1614,8 @@ our $I18N = {
     'message' => "Usu\x{144} Op&oacute;\x{17a}nienie"
   },
   '863 description' => {
-    'lastUpdated' => '1207320867',
-    'message' => "<p> R&oacute;\x{17c}nica w liczbie dni od dnia wyga\x{15b}ni\x{119}cia wa\x{17c}no\x{15b}ci grupowania w celu usuni\x{119}cia grupowania z systemu. Mo\x{17c}na ustawi\x{107} dowoln\x{105} warto\x{15b}\x{107} ca\x{142}kowit\x{105}. Przyk\x{142}adowo, ustaw warto\x{15b}\x{107} &quot;0&quot; je\x{15b}li chcesz aby WebGUI usun\x{119}\x{142}o grupowanie w dniu wyga\x{15b}ni\x{119}cia wa\x{17c}no\x{15b}ci. Ustaw &quot;-7&quot; je\x{15b}li chcesz aby WebGUI usun\x{119}\x{142}o grupowanie 7 dni <strong>przed</strong> wyga\x{15b}ni\x{119}ciem wa\x{17c}no\x{15b}ci. Ustaw &quot;7&quot; je\x{15b}li chcesz, aby WebGUI usun\x{119}\x{142}o grupowanie 7 dni <strong>po</strong> wyga\x{15b}ni\x{119}ciu wa\x{17c}no\x{15b}ci. </p>"
+    'lastUpdated' => '1238416921',
+    'message' => "<p> R\x{f3}\x{17c}nica w liczbie dni od dnia wyga\x{15b}ni\x{119}cia wa\x{17c}no\x{15b}ci grupowania w celu usuni\x{119}cia grupowania z systemu. Mo\x{17c}na ustawi\x{107} dowoln\x{105} warto\x{15b}\x{107} ca\x{142}kowit\x{105}. Przyk\x{142}adowo, ustaw warto\x{15b}\x{107} &quot;0&quot; je\x{15b}li chcesz aby WebGUI usun\x{119}\x{142}o grupowanie w dniu wyga\x{15b}ni\x{119}cia wa\x{17c}no\x{15b}ci. Ustaw &quot;-7&quot; je\x{15b}li chcesz aby WebGUI usun\x{119}\x{142}o grupowanie 7 dni <strong>przed</strong> wyga\x{15b}ni\x{119}ciem wa\x{17c}no\x{15b}ci. Ustaw &quot;7&quot; je\x{15b}li chcesz, aby WebGUI usun\x{119}\x{142}o grupowanie 7 dni <strong>po</strong> wyga\x{15b}ni\x{119}ciu wa\x{17c}no\x{15b}ci. </p>"
   },
   864 => {
     'lastUpdated' => '1207320981',
@@ -1958,19 +1958,23 @@ our $I18N = {
     'message' => "Has\x{142}o dla po\x{142}\x{105}czenia DSN."
   },
   '< prev' => {
-    'lastUpdated' => '1236868685',
-    'message' => '< poprzednie'
+    'lastUpdated' => '1238417937',
+    'message' => '&laquo; poprzednie'
   },
   'About Us' => {
     'lastUpdated' => '1236868708',
     'message' => 'O nas'
+  },
+  'Ad Space control name' => {
+    'lastUpdated' => '1238419098',
+    'message' => ''
   },
   'All Rights Reserved' => {
     'lastUpdated' => '1236868844',
     'message' => "Wszystkie prawa zastrze\x{17c}one"
   },
   'All the news you need to know.' => {
-    'lastUpdated' => '1237460112',
+    'lastUpdated' => '1238416983',
     'message' => "Wszystkie wiadomo\x{15b}ci, kt\x{f3}re powiniene\x{15b} wiedzie\x{107}."
   },
   'Attachments formName' => {
@@ -1978,12 +1982,20 @@ our $I18N = {
     'message' => "Za\x{142}\x{105}czniki"
   },
   'Cannot find what you are looking for? Try our search.' => {
-    'lastUpdated' => '1237460611',
+    'lastUpdated' => '1238417053',
+    'message' => "Nie mo\x{17c}na znale\x{17a}\x{107} tego czego szukasz? Wypr\x{f3}buj nasz\x{105} wyszukiwark\x{119}."
+  },
+  'Check out what is going on.' => {
+    'lastUpdated' => '1238498106',
     'message' => ''
   },
   'Contact Us' => {
-    'lastUpdated' => '1237242741',
-    'message' => ''
+    'lastUpdated' => '1238417093',
+    'message' => 'Kontakt z nami'
+  },
+  'Discuss your ideas and get help from our community.' => {
+    'lastUpdated' => '1238419178',
+    'message' => "Przedyskutuj sw\x{f3}j pomys\x{142} i otrzymaj pomoc od naszej wsp\x{f3}lnoty."
   },
   'Enable Metadata' => {
     'lastUpdated' => '1237244545',
@@ -2016,39 +2028,87 @@ a user.'
     'message' => 'Dla'
   },
   'Forums' => {
-    'lastUpdated' => '1237460595',
+    'lastUpdated' => '1238417138',
     'message' => ''
   },
   'General Discussion' => {
-    'lastUpdated' => '1237460804',
+    'lastUpdated' => '1238417153',
     'message' => ''
   },
   'Illegal Warning' => {
     'lastUpdated' => '1089039511',
     'message' => 'Enabling this feature is illegal in some countries, like Australia. In addition, some countries require you to add a warning to your site if you use this feature. Consult your local authorities for local laws. Plain Black Corporation is not responsible for your illegal activities, regardless of ignorance or malice.'
   },
+  'Initial Pages' => {
+    'lastUpdated' => '1238499975',
+    'message' => "Pocz\x{105}tkowe strony"
+  },
   'My Style' => {
-    'lastUpdated' => '1237460815',
-    'message' => ''
+    'lastUpdated' => '1238419199',
+    'message' => 'Mój styl'
+  },
+  'One forum name per line' => {
+    'lastUpdated' => '1238498228',
+    'message' => 'Jedna nazwa forum na wiersz'
+  },
+  'Put your about us content here.' => {
+    'lastUpdated' => '1238500163',
+    'message' => "Umie\x{15b}\x{107} tutaj zawarto\x{15b}\x{107} strony &quot;O NAS&quot;"
   },
   'Select State' => {
     'lastUpdated' => '1237460839',
     'message' => 'Wybierz stan'
   },
+  'SelectRichEditor formName' => {
+    'lastUpdated' => '1238420679',
+    'message' => 'Edytor'
+  },
   'Show when online?' => {
     'lastUpdated' => '1237243483',
     'message' => "Poka\x{17c} kiedy online? "
   },
+  'SubscriptionGroup formName' => {
+    'lastUpdated' => '1238498303',
+    'message' => 'Grupa subskrypcji'
+  },
   'Support' => {
     'lastUpdated' => '1237243503',
     'message' => 'Wsparcie'
+  },
+  'Tell us how we can assist you.' => {
+    'lastUpdated' => '1238417216',
+    'message' => "Powiedz nam jak mo\x{17c}emy Ci pom\x{f3}c."
+  },
+  'Upload an attachment' => {
+    'lastUpdated' => '1238419229',
+    'message' => "Za\x{142}aduj za\x{142}\x{105}cznik"
+  },
+  'Upload attachments here. Copy and paste attachments into the editor.' => {
+    'lastUpdated' => '1238419259',
+    'message' => "Za\x{142}aduj za\x{142}\x{105}czniki tutaj. Skopiuj i wklej za\x{142}\x{105}czniki do edytora."
+  },
+  'WebGUI Initial Configuration' => {
+    'lastUpdated' => '1238498385',
+    'message' => "Wst\x{119}pna konfiguracja WebGUI"
+  },
+  'WebGUI password recovery' => {
+    'lastUpdated' => '1238420719',
+    'message' => "Odzyskiwanie has\x{142}a"
+  },
+  'Welcome to our wiki. Here you can help us keep information up to date.' => {
+    'lastUpdated' => '1238419334',
+    'message' => ''
+  },
+  'Your Email Address' => {
+    'lastUpdated' => '1238419346',
+    'message' => 'Twój adres E-mail'
   },
   'account' => {
     'lastUpdated' => '1237243591',
     'message' => 'Konto'
   },
   'account options template variables' => {
-    'lastUpdated' => undef,
+    'lastUpdated' => '1238500265',
     'message' => ''
   },
   'account settings tab' => {
@@ -2056,48 +2116,52 @@ a user.'
     'message' => 'Konto'
   },
   'account.options' => {
-    'lastUpdated' => '1237243598',
+    'lastUpdated' => '1238417236',
     'message' => ''
   },
   'additional parameters' => {
-    'lastUpdated' => '1237243655',
-    'message' => ''
+    'lastUpdated' => '1238420736',
+    'message' => 'Dodatkowe parametry bazy danych'
   },
   'additional parameters help' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => '1238420808',
+    'message' => "Dodatkowe parametry dla twojego po\x{142}\x{105}czenia z baz\x{105} danych. U\x{17c}yj jeden parametr na lini\x{119} i oddziel nazw\x{119} parametru od jego warto\x{15b}ci za pomoc\x{105} znaku r\x{f3}wno\x{15b}ci \"=\""
+  },
+  'admin account' => {
+    'lastUpdated' => '1238420826',
+    'message' => 'Konto administratora'
   },
   'admin console template' => {
-    'lastUpdated' => '1118453709',
-    'message' => 'Admin Console Template'
+    'lastUpdated' => '1238420841',
+    'message' => 'Szablon konsoli administratora'
   },
   'admin console template description' => {
-    'lastUpdated' => '1120239343',
-    'message' => 'The style to be used by the Admin Console.'
+    'lastUpdated' => '1238420865',
+    'message' => "Styl u\x{17c}yty przez konsol\x{119} administratora."
   },
   'allow access from macros' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => '1238420938',
+    'message' => "Pozw\x{f3}l na dost\x{119}p z makr"
   },
   'allow access from macros help' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => '1238420971',
+    'message' => "Czy pozwoli\x{107} makrom na dost\x{119}p do tego po\x{142}\x{105}czenia z baz\x{105} danych?"
   },
   'allow private messages label' => {
-    'lastUpdated' => '1181019679',
+    'lastUpdated' => '1238420983',
     'message' => "Akceptowa\x{107} prywatne wiadomo\x{15b}ci"
   },
   'allowed keywords' => {
-    'lastUpdated' => 0,
-    'message' => 'Allowed keywords'
+    'lastUpdated' => '1238421054',
+    'message' => "Dopuszcza\x{107} s\x{142}owa kluczowe"
   },
   'allowed keywords description' => {
-    'lastUpdated' => '1165511447',
-    'message' => 'You can enter the statements that are allowed for this databaselink. A safe (read-only) choice is SELECT, DESCRIBE and SHOW. The different keywords should be separated from each other by whitespace.'
+    'lastUpdated' => '1238421117',
+    'message' => ''
   },
   'asset locked' => {
-    'lastUpdated' => '1237243762',
-    'message' => "Ten zas\x{f3}b/asset jest zablokowany dla edycji poniewa\x{17c} uchwyt wersji r\x{f3}\x{17c}ni si\x{119} od tego kt\x{f3}rego u\x{17c}ywasz."
+    'lastUpdated' => '1238421163',
+    'message' => "Ten zas\x{f3}b/asset jest zablokowany dla edycji poniewa\x{17c} przywieszka wersji r\x{f3}\x{17c}ni si\x{119} od tej, kt\x{f3}rej aktualnie u\x{17c}ywasz."
   },
   'authentication' => {
     'lastUpdated' => '1237243795',
@@ -2112,16 +2176,16 @@ a user.'
     'message' => ''
   },
   'avatar' => {
-    'lastUpdated' => '1237243818',
-    'message' => 'Avatar'
+    'lastUpdated' => '1238417243',
+    'message' => 'Awatar'
   },
   'bare insufficient' => {
-    'lastUpdated' => '1169790230',
-    'message' => 'You do not have sufficient privileges to perform this operation. Please log in with an account that has sufficient privileges before attempting this operation.'
+    'lastUpdated' => '1238417357',
+    'message' => "Nie posiadasz wystarczaj\x{105}cych praw do wykonania tej operacji. Prosz\x{119} si\x{119} zalogowa\x{107} na konto posiadaj\x{105}ce odpowiednie uprawnienia."
   },
   'body.content' => {
-    'lastUpdated' => '1236868972',
-    'message' => 'Kontent aktualnej strony.'
+    'lastUpdated' => '1238417568',
+    'message' => "Zawarto\x{15b}\x{107} aktualnej strony."
   },
   'broken spectre body' => {
     'lastUpdated' => undef,
@@ -2132,56 +2196,68 @@ a user.'
     'message' => ''
   },
   'button' => {
-    'lastUpdated' => 0,
-    'message' => 'Button'
+    'lastUpdated' => '1238417373',
+    'message' => 'Przycisk'
   },
   'cache statistics' => {
-    'lastUpdated' => '1031514049',
-    'message' => 'Cache Statistics'
+    'lastUpdated' => '1238417398',
+    'message' => "Statystyki pami\x{119}ci podr\x{119}cznej"
   },
   'cache type' => {
-    'lastUpdated' => '1031514049',
-    'message' => 'Cache type'
+    'lastUpdated' => '1238417410',
+    'message' => "Typ pami\x{119}ci podr\x{119}cznej"
   },
   'cancel' => {
     'lastUpdated' => '1237243845',
     'message' => 'cofnij'
   },
   'changeUrl workflow' => {
-    'lastUpdated' => '1162348521',
-    'message' => 'Change URL Workflow'
+    'lastUpdated' => '1238500305',
+    'message' => ''
   },
   'changeUrl workflow help' => {
     'lastUpdated' => '1162348521',
     'message' => 'Which workflow to run when an asset\'s URL is changed.'
   },
   'choose an asset' => {
-    'lastUpdated' => '1141963463',
-    'message' => 'Choose an Asset'
+    'lastUpdated' => '1238419496',
+    'message' => 'Wybierz zasób/asset'
+  },
+  'class name' => {
+    'lastUpdated' => '1238421194',
+    'message' => ''
   },
   'clear cache' => {
-    'lastUpdated' => '1031514049',
-    'message' => 'Clear Cache'
+    'lastUpdated' => '1238417428',
+    'message' => "Wyczy\x{15b}\x{107} pami\x{119}\x{107} podr\x{119}czn\x{105}"
   },
   'codearea' => {
-    'lastUpdated' => 0,
-    'message' => 'Code Area'
+    'lastUpdated' => '1238417548',
+    'message' => ''
   },
   'color' => {
-    'lastUpdated' => 0,
-    'message' => 'Color'
+    'lastUpdated' => '1238417439',
+    'message' => 'Kolor'
   },
   'combobox' => {
-    'lastUpdated' => 0,
-    'message' => 'Combo Box'
+    'lastUpdated' => '1238419510',
+    'message' => 'ComboBox'
   },
   'company' => {
-    'lastUpdated' => '1092930637',
-    'message' => 'Company'
+    'lastUpdated' => '1238417478',
+    'message' => 'Firma'
+  },
+  'company information' => {
+    'lastUpdated' => '1238417487',
+    'message' => 'Informacje o firmie'
+  },
+  'contact info short' => {
+    'lastUpdated' => '1238417499',
+    'message' => 'Informacje kontaktowe'
   },
   'contains' => {
-    'lastUpdated' => '1089039511',
-    'message' => "Zawarto\x{15b}\x{107}"
+    'lastUpdated' => '1238417522',
+    'message' => 'Zawiera'
   },
   'content' => {
     'lastUpdated' => '1237243892',
@@ -2204,15 +2280,15 @@ a user.'
     'message' => '%s has been deactivated'
   },
   'debug ip' => {
-    'lastUpdated' => 0,
+    'lastUpdated' => '1238417635',
     'message' => 'Adres IP dla diagnostyki'
   },
   'debug ip description' => {
-    'lastUpdated' => '1164055466',
-    'message' => "Pozwala zaw\x{119}zi\x{107} debugowanie i/lub dane wydajno\x{15b}ci przetwarzania dla okre\x{15b}lonego adresu IP lub zakresu adres\x{f3}w IP. Wprowad\x{17a} podsie\x{107} dla kt\x{f3}rej chcia\x{142}by\x{15b} wy\x{15b}wietla\x{107} informacje diagnostyczne w formacie CIDR. Przyk\x{142}adowo: 10.0.0.0/24. Mo\x{17c}na pworwadzi\x{107} wiele adres\x{f3}w CIDR oddzielonych przecinkami."
+    'lastUpdated' => '1238417660',
+    'message' => "Pozwala zaw\x{119}zi\x{107} debugowanie i/lub dane wydajno\x{15b}ci przetwarzania dla okre\x{15b}lonego adresu IP lub zakresu adres\x{f3}w IP. Wprowad\x{17a} podsie\x{107} dla kt\x{f3}rej chcia\x{142}by\x{15b} wy\x{15b}wietla\x{107} informacje diagnostyczne w formacie CIDR. Przyk\x{142}adowo: 10.0.0.0/24. Mo\x{17c}na wprowadzi\x{107} wiele adres\x{f3}w CIDR oddzielonych przecinkami."
   },
   'default rich editor' => {
-    'lastUpdated' => '1237243946',
+    'lastUpdated' => '1238419528',
     'message' => "Domy\x{15b}lny edytor"
   },
   'default rich editor description' => {
@@ -2220,15 +2296,15 @@ a user.'
     'message' => '<p>This is the rich editor configuration that will be used by default when a rich editor is needed. This can be overridden in certain applications such as the Collaboration System.</p>'
   },
   'default version tag workflow' => {
-    'lastUpdated' => 0,
-    'message' => "Domy\x{15b}lna wersja Tag dla Workflow"
+    'lastUpdated' => '1238500340',
+    'message' => "Domy\x{15b}lna przywieszka wersji dla Workflow"
   },
   'default version tag workflow help' => {
     'lastUpdated' => 0,
     'message' => "Kt\x{f3}rey workflow powinien by\x{107} u\x{17c}yty domy\x{15b}lnie gdy u\x{17c}ytkownik utworzy swoj\x{105} w\x{142}\x{105}sn\x{105} wersj\x{119} 'tags'."
   },
   'done' => {
-    'lastUpdated' => '1118936724',
+    'lastUpdated' => '1238417666',
     'message' => 'Zrobione'
   },
   'editSettings done' => {
@@ -2236,36 +2312,40 @@ a user.'
     'message' => 'Ustawienia zachowane!'
   },
   'editSettings error occurred' => {
-    'lastUpdated' => '1237243980',
-    'message' => ''
+    'lastUpdated' => '1238419564',
+    'message' => "Napotkano na problem podczas pr\x{f3}by zapisu ustawie\x{144}."
   },
   'ends with' => {
-    'lastUpdated' => '1089039511',
-    'message' => 'Ends With'
+    'lastUpdated' => '1238502718',
+    'message' => ''
   },
   'expire groupings' => {
-    'lastUpdated' => 0,
+    'lastUpdated' => '1238419575',
     'message' => "Utrata wa\x{17c}no\x{15b}ci grup u\x{17c}ytkownika"
   },
   'external help' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => '1238421311',
+    'message' => "Wi\x{119}cej informacji na stronie <a href=\"http://wiki.webgui.org/\">WebGUI Community Wiki</a>"
+  },
+  'fieldType' => {
+    'lastUpdated' => '1238419583',
+    'message' => 'Typ pola'
   },
   'fieldtype' => {
-    'lastUpdated' => 0,
-    'message' => 'Field Type'
+    'lastUpdated' => '1238417681',
+    'message' => 'Typ pola'
   },
   'file' => {
-    'lastUpdated' => 0,
+    'lastUpdated' => '1238417686',
     'message' => 'Plik'
   },
   'float' => {
-    'lastUpdated' => '1132097171',
+    'lastUpdated' => '1238417695',
     'message' => "Liczba (Dziesi\x{119}tnie)"
   },
   'group' => {
-    'lastUpdated' => 0,
-    'message' => 'Group'
+    'lastUpdated' => '1238417705',
+    'message' => 'Grupa'
   },
   'groups to add' => {
     'lastUpdated' => '1237242797',
@@ -2276,19 +2356,19 @@ a user.'
     'message' => "GRUPY DO USUNI\x{118}CIA"
   },
   'head.tags' => {
-    'lastUpdated' => '1183420610',
-    'message' => "\nWebGUI generuje automatycznie znaczniki za ciebie tak aby pami\x{119}\x{107} podr\x{119}czna pracowa\x{142}a w\x{142}a\x{15b}ciwie, a serwisy indeksuj\x{105}ce mog\x{142}y lepiej odszuka\x{107} publikowane tre\x{15b}ci. Znaczniki te powinny zawiera\x{107} si\x{119} wewn\x{105}trz sekcji &lt;head&gt; &lt;/head&gt; twojego stylu.\n\n<br />\n<br />Sugerujemy u\x{17c}ycie czego\x{15b} podobnego w tek\x{15b}cie &lt;title&gt; &lt;/title&gt; :\n<br />\n<br />^PageTitle(); - ^c();\n<br />\n<br />Powy\x{17c}szy przyk\x{142}\x{105}d pozwoli utrzyma\x{107} wysok\x{105} pozycj\x{119} w serwisach indeksuj\x{105}cych."
+    'lastUpdated' => '1238417746',
+    'message' => "WebGUI generuje automatycznie znaczniki za ciebie tak aby pami\x{119}\x{107} podr\x{119}czna pracowa\x{142}a w\x{142}a\x{15b}ciwie, a serwisy indeksuj\x{105}ce mog\x{142}y lepiej odszuka\x{107} publikowane tre\x{15b}ci. Znaczniki te powinny zawiera\x{107} si\x{119} wewn\x{105}trz sekcji &lt;head&gt; &lt;/head&gt; twojego stylu.\r\n\r\n<br />\r\n<br />Sugerujemy u\x{17c}ycie czego\x{15b} podobnego w tek\x{15b}cie &lt;title&gt; &lt;/title&gt; :\r\n<br />\r\n<br />^PageTitle(); - ^c();\r\n<br />\r\n<br />Powy\x{17c}szy przyk\x{142}ad pozwoli utrzyma\x{107} wysok\x{105} pozycj\x{119} w serwisach indeksuj\x{105}cych."
   },
   'help' => {
     'lastUpdated' => '1237243998',
     'message' => 'Pomoc'
   },
   'help contents' => {
-    'lastUpdated' => '1237242822',
-    'message' => 'Help Contents'
+    'lastUpdated' => '1238417783',
+    'message' => "Zawarto\x{15b}\x{107} pomocy"
   },
   'help index' => {
-    'lastUpdated' => '1128552837',
+    'lastUpdated' => '1238420425',
     'message' => 'Index'
   },
   'help toc' => {
@@ -2300,52 +2380,72 @@ a user.'
     'message' => 'Hex slider'
   },
   'hexadecimal' => {
-    'lastUpdated' => 0,
-    'message' => 'Hexadecimal'
+    'lastUpdated' => '1238420489',
+    'message' => 'Szesnastkowy'
   },
   'hidden' => {
-    'lastUpdated' => 0,
+    'lastUpdated' => '1238417807',
     'message' => 'Ukryte'
   },
   'hidden list' => {
-    'lastUpdated' => 0,
-    'message' => 'Hidden List'
+    'lastUpdated' => '1238417829',
+    'message' => 'Ukryta lista'
   },
   'high group count' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => '1238500536',
+    'message' => "Tam jest ponad 250 grup. Prosz\x{119} u\x{17c}y\x{107} wyszukiwarki w celu wyszukania grupy."
   },
   'high user count' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => '1238500524',
+    'message' => "Tam jest ponad 250 u\x{17c}ytkownik\x{f3}w. Prosz\x{119} u\x{17c}y\x{107} wyszukiwarki w celu ich wyszukania."
+  },
+  'home info short' => {
+    'lastUpdated' => '1238500573',
+    'message' => "Strona g\x{142}\x{f3}wna"
   },
   'image' => {
-    'lastUpdated' => '1237242839',
-    'message' => 'Obrazek'
+    'lastUpdated' => '1238420507',
+    'message' => 'Obraz'
   },
   'image manager' => {
     'lastUpdated' => '1237244054',
     'message' => "Menad\x{17c}er obraz\x{f3}w"
+  },
+  'inbox message status active' => {
+    'lastUpdated' => '1238419625',
+    'message' => 'Aktywna'
   },
   'insert a link' => {
     'lastUpdated' => '1237244230',
     'message' => 'Wstaw link'
   },
   'int slider' => {
-    'lastUpdated' => 0,
-    'message' => 'Int slider'
+    'lastUpdated' => '1238420403',
+    'message' => 'Suwak'
   },
   'interval' => {
-    'lastUpdated' => 0,
+    'lastUpdated' => '1238420415',
     'message' => "Interwa\x{142}"
   },
   'invite a friend' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => '1238419648',
+    'message' => "Zapro\x{15b} do znajomych"
+  },
+  'is editable' => {
+    'lastUpdated' => '1238419718',
+    'message' => 'Edytowalna?'
+  },
+  'is editable help' => {
+    'lastUpdated' => '1238419834',
+    'message' => "<p>Czy grupa powinna by\x{107} pokazywana na li\x{15b}cie zarz\x{105}dzania grupami? Je\x{17c}eli zaznaczysz \"Nie\" wtedy nie b\x{119}dziesz m\x{f3}g\x{142} zarz\x{105}dza\x{107} t\x{105} grup\x{105}. </p>"
+  },
+  'language not available error' => {
+    'lastUpdated' => '1238419854',
+    'message' => "%s nie jest dost\x{119}pny. Prosz\x{119} wybra\x{107} inny j\x{119}zyk"
   },
   'link enter alert' => {
-    'lastUpdated' => '1237244104',
-    'message' => 'You must enter a link URL.'
+    'lastUpdated' => '1238419871',
+    'message' => "Musisz wprowadzi\x{107} adres URL linku."
   },
   'link in new window' => {
     'lastUpdated' => '1237244208',
@@ -2356,20 +2456,24 @@ a user.'
     'message' => 'Otwórz link w tym samym oknie.'
   },
   'link settings' => {
-    'lastUpdated' => '1237244198',
-    'message' => ''
+    'lastUpdated' => '1238419881',
+    'message' => 'Ustawienia linku'
+  },
+  'logo' => {
+    'lastUpdated' => '1238417854',
+    'message' => 'Logo'
   },
   'mail return path' => {
-    'lastUpdated' => 0,
+    'lastUpdated' => '1238420517',
     'message' => "\x{15a}cie\x{17c}ka powrotna"
   },
   'mail return path help' => {
-    'lastUpdated' => 0,
-    'message' => "Na jaki adres nale\x{17c}y wysy\x{142}a\x{107} listy niedostarczalne?"
+    'lastUpdated' => '1238420539',
+    'message' => "Na jaki adres nale\x{17c}y wysy\x{142}a\x{107} listy niedostarczone?"
   },
   'manage cache' => {
-    'lastUpdated' => '1031514049',
-    'message' => 'Cache'
+    'lastUpdated' => '1238420561',
+    'message' => "Pami\x{119}\x{107} podr\x{119}czna"
   },
   'messaging' => {
     'lastUpdated' => '1237242907',
@@ -2379,20 +2483,36 @@ a user.'
     'lastUpdated' => '1237242926',
     'message' => "R\x{f3}\x{17c}ne"
   },
+  'misc info short' => {
+    'lastUpdated' => '1238500627',
+    'message' => "R\x{f3}\x{17c}ne"
+  },
   'next >' => {
-    'lastUpdated' => '1237242934',
+    'lastUpdated' => '1238417911',
+    'message' => "nast\x{119}pne &raquo;"
+  },
+  'no ldap link for auth' => {
+    'lastUpdated' => '1238501699',
+    'message' => "Nie mo\x{17c}na stworzy\x{107} twojego konta, poniewa\x{17c} nie zosta\x{142}o zdefiniowane po\x{142}\x{105}czenie LDAP dla tej strony."
+  },
+  'no ldap logins' => {
+    'lastUpdated' => '1238501739',
     'message' => ''
   },
+  'no thanks' => {
+    'lastUpdated' => '1238419903',
+    'message' => "Nie, dzi\x{119}kuj\x{119}"
+  },
   'noldaplink' => {
-    'lastUpdated' => 0,
-    'message' => 'No LDAP Connection'
+    'lastUpdated' => '1238500684',
+    'message' => "Brak po\x{142}\x{105}czenia LDAP"
   },
   'ok' => {
     'lastUpdated' => '1237244252',
     'message' => 'OK'
   },
   'options.display' => {
-    'lastUpdated' => undef,
+    'lastUpdated' => '1238419910',
     'message' => ''
   },
   'packages' => {
@@ -2408,11 +2528,11 @@ a user.'
     'message' => 'Strony'
   },
   'pagination.activePage' => {
-    'lastUpdated' => '1237243038',
-    'message' => ''
+    'lastUpdated' => '1238500746',
+    'message' => "Warto\x{15b}\x{107} b\x{119}dzie prawdziwa, je\x{17c}eli strona jest aktualnie wy\x{15b}wietlan\x{105} stron\x{105}."
   },
   'pagination.firstPage' => {
-    'lastUpdated' => '1149182026',
+    'lastUpdated' => '1238500763',
     'message' => "Link do pierwszej strony przegl\x{105}darki."
   },
   'pagination.firstPageText' => {
@@ -2424,15 +2544,15 @@ a user.'
     'message' => 'The url component of pagination.firstPage broken out.'
   },
   'pagination.isFirstPage' => {
-    'lastUpdated' => '1149182026',
-    'message' => 'A boolean indicating whether the current page is the first page.'
+    'lastUpdated' => '1238501767',
+    'message' => "Warunek spe\x{142}niony je\x{17c}eli aktualna strona jest pierwsz\x{105} stron\x{105}."
   },
   'pagination.isLastPage' => {
-    'lastUpdated' => '1149182026',
-    'message' => 'A boolean indicating whether the current page is the last page.'
+    'lastUpdated' => '1238501793',
+    'message' => "Warunek spe\x{142}niony, je\x{17c}eli aktualna strona jest ostatni\x{105} stron\x{105}."
   },
   'pagination.lastPage' => {
-    'lastUpdated' => '1149182026',
+    'lastUpdated' => '1238501803',
     'message' => "Link do ostatniej strony przegl\x{105}darki."
   },
   'pagination.lastPageText' => {
@@ -2444,8 +2564,8 @@ a user.'
     'message' => 'The url component of pagination.lastPage broken out.'
   },
   'pagination.nextPage' => {
-    'lastUpdated' => '1149182026',
-    'message' => 'A link to the next page in the paginator relative to the current page.'
+    'lastUpdated' => '1238501870',
+    'message' => "Link do nast\x{119}pnej strony w przegl\x{105}darce wzgl\x{119}dem aktualnej strony."
   },
   'pagination.nextPageText' => {
     'lastUpdated' => '1149182026',
@@ -2456,7 +2576,7 @@ a user.'
     'message' => 'The url component of pagination.nextPage broken out.'
   },
   'pagination.pageCount' => {
-    'lastUpdated' => '1149182026',
+    'lastUpdated' => '1238421340',
     'message' => 'Liczba wszystkich stron.'
   },
   'pagination.pageCount.isMultiple' => {
@@ -2464,16 +2584,16 @@ a user.'
     'message' => 'A boolean indicating whether there is more than one page.'
   },
   'pagination.pageList' => {
-    'lastUpdated' => '1149182026',
-    'message' => 'A list of links to every page in the paginator.'
+    'lastUpdated' => '1238501900',
+    'message' => "Lista link\x{f3}w do ka\x{17c}dej strony w przegl\x{105}darce."
   },
   'pagination.pageList.upTo10' => {
-    'lastUpdated' => '1149182026',
-    'message' => 'A list of links to the 10 nearest in the paginator relative to the current page. So if you\'re on page 20, you\'ll see links for 15-25.'
+    'lastUpdated' => '1238502144',
+    'message' => "Lista 10 link\x{f3}w do stron najbli\x{17c}szych aktualnie wybranej stronie. Przyk\x{142}adowo je\x{17c}eli jeste\x{15b} na stronie 20, zobaczysz linki do stron 15-25."
   },
   'pagination.pageList.upTo20' => {
-    'lastUpdated' => '1149182026',
-    'message' => 'A list of links to the 20 nearest in the paginator relative to the current page. So if you\'re on page 60, you\'ll see links for 50-70.'
+    'lastUpdated' => '1238502100',
+    'message' => "Lista 20 link\x{f3}w do stron najbli\x{17c}szych aktualnie ogl\x{105}danej stronie. Przyk\x{142}adowo je\x{17c}eli jeste\x{15b} na stronie 60, zobaczysz linki dla stron 50-70."
   },
   'pagination.pageLoop' => {
     'lastUpdated' => '1149182026',
@@ -2488,12 +2608,12 @@ a user.'
     'message' => 'Same as pagination.pageList.upTo20 except broken into individual elements.'
   },
   'pagination.pageNumber' => {
-    'lastUpdated' => '1149182026',
+    'lastUpdated' => '1238421347',
     'message' => 'Numer aktualnej strony.'
   },
   'pagination.previousPage' => {
-    'lastUpdated' => '1149182026',
-    'message' => 'A link to the previous page in the paginator relative to the current page.'
+    'lastUpdated' => '1238502178',
+    'message' => "Link do poprzedniej strony w przegl\x{105}darce wzgl\x{119}dem aktualnie wybranej strony."
   },
   'pagination.previousPageText' => {
     'lastUpdated' => '1149182026',
@@ -2503,25 +2623,37 @@ a user.'
     'lastUpdated' => '1149182026',
     'message' => 'The url component of pagination.previousPage broken out.'
   },
+  'pagination.range' => {
+    'lastUpdated' => '1238502313',
+    'message' => ''
+  },
   'pagination.text' => {
-    'lastUpdated' => '1168464885',
-    'message' => 'The number of a page in the page loop.'
+    'lastUpdated' => '1238502321',
+    'message' => ''
   },
   'pagination.url' => {
-    'lastUpdated' => '1168370951',
-    'message' => 'The URL of a page in the page loop.'
+    'lastUpdated' => '1238502262',
+    'message' => ''
   },
   'password clear text' => {
-    'lastUpdated' => '1127405564',
+    'lastUpdated' => '1238419956',
     'message' => "Wy\x{15b}wietlone czystym tekstem wi\x{119}c mo\x{17c}esz upewni\x{107} si\x{119}, czy zosta\x{142}o wprowadzone poprawnie."
   },
   'permissions' => {
-    'lastUpdated' => undef,
+    'lastUpdated' => '1238421409',
+    'message' => 'Zezwolenia'
+  },
+  'personal info short' => {
+    'lastUpdated' => '1238500904',
     'message' => ''
   },
   'photo' => {
-    'lastUpdated' => '1131246503',
-    'message' => 'Fotografia'
+    'lastUpdated' => '1238421424',
+    'message' => "Zdj\x{119}cie"
+  },
+  'preferences short' => {
+    'lastUpdated' => '1238421470',
+    'message' => 'Preferencje'
   },
   'preview' => {
     'lastUpdated' => '1237243087',
@@ -2532,35 +2664,35 @@ a user.'
     'message' => "Ten u\x{17c}ytkownik nie \x{17c}yczy sobie prywatnych wiadomo\x{15b}ci."
   },
   'private message date label' => {
-    'lastUpdated' => '1181019679',
+    'lastUpdated' => '1238417954',
     'message' => 'Data'
   },
   'private message delete text' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => '1238419965',
+    'message' => "usu\x{144}"
   },
   'private message error' => {
-    'lastUpdated' => '1181019679',
+    'lastUpdated' => '1238419971',
     'message' => "B\x{142}\x{105}d wiadomo\x{15b}ci"
   },
   'private message from label' => {
-    'lastUpdated' => '1181019679',
+    'lastUpdated' => '1238419976',
     'message' => 'Od'
   },
   'private message message label' => {
-    'lastUpdated' => '1181019679',
+    'lastUpdated' => '1238419981',
     'message' => "Wiadomo\x{15b}\x{107}"
   },
   'private message next label' => {
-    'lastUpdated' => '1181019679',
+    'lastUpdated' => '1238419985',
     'message' => "Nast\x{119}pna"
   },
   'private message no self error' => {
-    'lastUpdated' => '1181019679',
+    'lastUpdated' => '1238419992',
     'message' => "Nie mo\x{17c}esz wys\x{142}a\x{107} prywatnej wiadomo\x{15b}ci do siebie samego."
   },
   'private message no user' => {
-    'lastUpdated' => '1181019679',
+    'lastUpdated' => '1238420001',
     'message' => "Nie wskaza\x{142}e\x{15b} u\x{17c}ytkownika dla wysy\x{142}anej wiadomo\x{15b}ci prywatnej"
   },
   'private message prev label' => {
@@ -2616,27 +2748,39 @@ a user.'
     'message' => "Ustawienia prywatno\x{15b}ci"
   },
   'purge workflow' => {
-    'lastUpdated' => '1162242500',
-    'message' => 'Purge Workflow'
+    'lastUpdated' => '1238502513',
+    'message' => ''
   },
   'purge workflow help' => {
-    'lastUpdated' => '1162242500',
-    'message' => 'Which workflow to run when an asset is purged.'
+    'lastUpdated' => '1238502505',
+    'message' => ''
   },
   'radio' => {
-    'lastUpdated' => 0,
-    'message' => 'Radio Button'
+    'lastUpdated' => '1238417978',
+    'message' => 'Przycisk radio'
+  },
+  'read more' => {
+    'lastUpdated' => '1238417987',
+    'message' => "Czytaj wi\x{119}cej"
   },
   'read only' => {
-    'lastUpdated' => '1237243233',
-    'message' => 'Read Only'
+    'lastUpdated' => '1238418005',
+    'message' => 'Tylko do odczytu'
   },
   'removeLabel' => {
     'lastUpdated' => '1237243242',
     'message' => "usu\x{144}"
   },
+  'required error' => {
+    'lastUpdated' => '1238420122',
+    'message' => '%s jest wymagane.'
+  },
+  'rss' => {
+    'lastUpdated' => '1238418016',
+    'message' => 'RSS'
+  },
   'run on admin create user' => {
-    'lastUpdated' => '1237244360',
+    'lastUpdated' => '1238420168',
     'message' => ''
   },
   'run on admin create user help' => {
@@ -2651,32 +2795,40 @@ a user.'
     'lastUpdated' => undef,
     'message' => ''
   },
+  'save' => {
+    'lastUpdated' => '1238418027',
+    'message' => 'Zapisz'
+  },
   'select' => {
     'lastUpdated' => '1237243250',
     'message' => 'Wybierz'
   },
   'select slider' => {
-    'lastUpdated' => 0,
-    'message' => 'Select slider'
+    'lastUpdated' => '1238420157',
+    'message' => 'Wybierz suwak'
   },
   'send private message' => {
-    'lastUpdated' => '1181019679',
-    'message' => 'Send Private Message'
+    'lastUpdated' => '1238418041',
+    'message' => "Wy\x{15b}lij prywatn\x{105} wiadomo\x{15b}\x{107}"
   },
   'send private message template' => {
     'lastUpdated' => '1237243263',
     'message' => "Szablon wys\x{142}ania prywatnej wiadomo\x{15b}ci"
   },
   'send private message template description' => {
-    'lastUpdated' => '1181019679',
-    'message' => "Wybierz szablon wys\x{142}ania prywanej wiadomo\x{15b}ci"
+    'lastUpdated' => '1238418060',
+    'message' => "Wybierz szablon wys\x{142}ania prywatnej wiadomo\x{15b}ci"
+  },
+  'session length' => {
+    'lastUpdated' => '1238418078',
+    'message' => "D\x{142}ugo\x{15b}\x{107} sesji"
   },
   'settings' => {
     'lastUpdated' => '1237243274',
     'message' => 'Ustawienia'
   },
   'settings groupIdAdminActiveSessions hoverHelp' => {
-    'lastUpdated' => undef,
+    'lastUpdated' => '1238502539',
     'message' => ''
   },
   'settings groupIdAdminActiveSessions label' => {
@@ -2868,36 +3020,76 @@ a user.'
     'message' => ''
   },
   'show all fields' => {
-    'lastUpdated' => '1141184463',
+    'lastUpdated' => '1238418088',
     'message' => "Poka\x{17c} wszystkie pola"
   },
+  'show in forms' => {
+    'lastUpdated' => '1238418113',
+    'message' => "Pokazywa\x{107} w formularzach?"
+  },
+  'show in forms help' => {
+    'lastUpdated' => '1238420229',
+    'message' => "<p>Czy ta grupa powinna by\x{107} pokazywana w miejscach, w kt\x{f3}rych mo\x{17c}esz wybra\x{107} grup\x{119}?</p>"
+  },
   'show my fields' => {
-    'lastUpdated' => '1141184463',
-    'message' => "Poka\x{17c} pola dla kt\x{f3}rych mam dost\x{119}p zgodnie z poziommem UI"
+    'lastUpdated' => '1238418126',
+    'message' => "Poka\x{17c} pola dla kt\x{f3}rych mam dost\x{119}p zgodnie z poziomem UI"
   },
   'show performance indicators' => {
-    'lastUpdated' => 0,
+    'lastUpdated' => '1238420247',
     'message' => "Pokaza\x{107} wska\x{17a}niki wykonania?"
   },
   'show performance indicators description' => {
-    'lastUpdated' => '1127413010',
+    'lastUpdated' => '1238420257',
     'message' => "Pokazuje czas (w sekundach) wykorzystany w celu zbudowania poszczeg\x{f3}lnych pozycji na stronie. Bardzo u\x{17c}yteczne dla diagnostyki problem\x{f3}w wydajno\x{15b}ciowych."
   },
-  'skip commit comments' => {
-    'lastUpdated' => undef,
+  'showMessageOnLogin description' => {
+    'lastUpdated' => '1238502663',
+    'message' => "Je\x{17c}eli tak, pokazuje wiadomo\x{15b}\x{107} po zalogowaniu u\x{17c}ytkownika."
+  },
+  'showMessageOnLogin label' => {
+    'lastUpdated' => '1238502673',
+    'message' => "Pokaza\x{107} wiadomo\x{15b}\x{107} po zalogowaniu?"
+  },
+  'showMessageOnLoginBody description' => {
+    'lastUpdated' => '1238501310',
+    'message' => "Komunikat do pokazania po zalogowaniu. Marka s\x{105} dopuszczone."
+  },
+  'showMessageOnLoginBody label' => {
+    'lastUpdated' => '1238502626',
     'message' => ''
+  },
+  'site starter body' => {
+    'lastUpdated' => '1238501336',
+    'message' => ''
+  },
+  'site starter title' => {
+    'lastUpdated' => '1238420314',
+    'message' => ''
+  },
+  'skip commit comments' => {
+    'lastUpdated' => '1238501367',
+    'message' => "Pomi\x{144} dopuszczanie komentarzy?"
   },
   'skip commit comments help' => {
-    'lastUpdated' => undef,
+    'lastUpdated' => '1238501382',
     'message' => ''
   },
+  'slider' => {
+    'lastUpdated' => '1238501406',
+    'message' => 'Suwak'
+  },
   'starts with' => {
-    'lastUpdated' => '1089039511',
+    'lastUpdated' => '1238502705',
     'message' => 'Starts With'
   },
+  'style designer' => {
+    'lastUpdated' => '1238499807',
+    'message' => 'Kreator stylu'
+  },
   'submit' => {
-    'lastUpdated' => '1140589512',
-    'message' => 'Submit'
+    'lastUpdated' => '1238418139',
+    'message' => "Wy\x{15b}lij"
   },
   'target' => {
     'lastUpdated' => '1118936724',
@@ -2928,43 +3120,48 @@ a user.'
     'message' => 'Which workflow to run when an asset is placed in the trash.'
   },
   'ui' => {
-    'lastUpdated' => '1092930637',
+    'lastUpdated' => '1238418158',
     'message' => 'UI'
   },
   'unknown user' => {
     'lastUpdated' => '1237244439',
     'message' => "nieznany u\x{17c}ytkownik"
   },
+  'upload logo' => {
+    'lastUpdated' => '1238499690',
+    'message' => 'Wgraj swoje logo'
+  },
   'url extension' => {
-    'lastUpdated' => '1089039511',
+    'lastUpdated' => '1238418166',
     'message' => 'Rozszerzenie URL'
   },
   'url extension description' => {
-    'lastUpdated' => '1120239343',
-    'message' => '<p>Add an extension such as "html", "php", or "asp" to each new page URL as it is created.
-</p>
-<p><b>NOTE:</b> Do NOT include the dot "." in this. So the field should look like "html" not ".html".
-</p>'
+    'lastUpdated' => '1238418712',
+    'message' => "<p>Dodaj rozszerzenie takie jak \"html\", \"php\", or \"asp\" do adresu URL ka\x{17c}dej nowej strony.</p>\r\n<p><b>NOTATKA:</b> NIE dodawaj do nich znaku kropki \".\". <br><b>Poprawnie</b>: \"html\"<br><b>Niepoprawnie:</b> \".html\".</p>"
+  },
+  'use recaptcha' => {
+    'lastUpdated' => '1238418514',
+    'message' => ''
   },
   'user' => {
     'lastUpdated' => '1237244450',
     'message' => "U\x{17c}ytkownik"
   },
   'user email template' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => '1238501507',
+    'message' => "Szablon E-mail zaproszenia u\x{17c}ytkownika"
   },
   'user email template description' => {
-    'lastUpdated' => undef,
+    'lastUpdated' => '1238501570',
     'message' => ''
   },
   'user function style' => {
-    'lastUpdated' => '1118453709',
-    'message' => 'User Function Style'
+    'lastUpdated' => '1238418740',
+    'message' => "Styl funkcji u\x{17c}ytkownika"
   },
   'user function style description' => {
-    'lastUpdated' => '1120239343',
-    'message' => 'Defines which style to be used to style WebGUI operations (profile editing, message log, etc.) when they are available to a user.'
+    'lastUpdated' => '1238418988',
+    'message' => "<p>Okre\x{15b}l, kt\x{f3}ry styl WebGUI b\x{119}dzie u\x{17c}yty dla operacji u\x{17c}ytkownika (edycji profilu, itp.) kiedy s\x{105} dost\x{119}pne dla u\x{17c}ytkownika. Mo\x{17c}na wybra\x{107} tylko te szablony, kt\x{f3}re s\x{105} dopuszczone.</p>"
   },
   'user invitations email exists' => {
     'lastUpdated' => undef,
@@ -2991,35 +3188,35 @@ a user.'
     'message' => ''
   },
   'user profiling' => {
-    'lastUpdated' => '1092930637',
-    'message' => 'User Profiling'
+    'lastUpdated' => '1238418307',
+    'message' => ''
   },
   'username no html' => {
     'lastUpdated' => undef,
     'message' => ''
   },
   'view inbox message template' => {
-    'lastUpdated' => '1181019679',
-    'message' => "Szablon wiadomo\x{15b}ci Inbox"
+    'lastUpdated' => '1238418382',
+    'message' => "Szablon wiadomo\x{15b}ci w skrzynce odbiorczej"
   },
   'view inbox message template description' => {
-    'lastUpdated' => '1181019679',
-    'message' => "Wybierz szablon dla wy\x{15b}wietlenia wiadomo\x{15b}ci w inbox"
+    'lastUpdated' => '1238418394',
+    'message' => "Wybierz szablon dla wy\x{15b}wietlenia wiadomo\x{15b}ci w skrzynce odbiorczej"
   },
   'view inbox template' => {
-    'lastUpdated' => '1181019679',
-    'message' => 'Szablon Inbox'
+    'lastUpdated' => '1238418366',
+    'message' => 'Szablon skrzynki odbiorczej'
   },
   'view inbox template description' => {
-    'lastUpdated' => '1181019679',
-    'message' => "Wybierz szablon dla wy\x{15b}wietlenia inboxu"
+    'lastUpdated' => '1238418404',
+    'message' => "Wybierz szablon dla wy\x{15b}wietlenia skrzynki odbiorczej"
   },
   'webgui' => {
-    'lastUpdated' => '1141963573',
+    'lastUpdated' => '1238418334',
     'message' => 'WebGUI'
   },
   'work info short' => {
-    'lastUpdated' => '1237243346',
+    'lastUpdated' => '1238418419',
     'message' => ''
   },
   'yes please' => {

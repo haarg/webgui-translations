@@ -10,7 +10,7 @@ our $I18N = {
     'message' => "Kod zaproszenia w twoim adresie URL jest nieprawid\x{142}owy."
   },
   'default invite' => {
-    'lastUpdated' => '1237213224',
+    'lastUpdated' => '1238406924',
     'message' => "Jestem u\x{17c}ytkownikiem, moim zdaniem, bardzo ciekawego serwisu WWW. Wysy\x{142}am zaproszenie maj\x{105}c nadziej\x{119}, \x{17c}e do\x{142}\x{105}czysz do mnie i te\x{17c} za\x{142}o\x{17c}ysz sobie konto. Kliknij link poni\x{17c}ej aby zarejestrowa\x{107} konto."
   },
   'emailAddressForm' => {

@@ -2,12 +2,16 @@ package WebGUI::i18n::Polish::Asset_Collaboration;
 use utf8;
 our $I18N = {
   'Link Description' => {
-    'lastUpdated' => '1237545398',
-    'message' => ''
+    'lastUpdated' => '1238576227',
+    'message' => 'Opis linku'
+  },
+  'Link URL' => {
+    'lastUpdated' => '1238576238',
+    'message' => 'Adres URL linku'
   },
   'List All Links' => {
-    'lastUpdated' => '1237212448',
-    'message' => ''
+    'lastUpdated' => '1238576250',
+    'message' => 'Lista wszystkich linków'
   },
   'add' => {
     'lastUpdated' => '1204790116',
@@ -334,7 +338,7 @@ our $I18N = {
     'message' => 'Edycja'
   },
   'edit job' => {
-    'lastUpdated' => '1238076812',
+    'lastUpdated' => '1238576259',
     'message' => ''
   },
   'edit link' => {
@@ -402,7 +406,7 @@ our $I18N = {
     'message' => ''
   },
   'fatal' => {
-    'lastUpdated' => undef,
+    'lastUpdated' => '1238576309',
     'message' => ''
   },
   'fatal.label' => {
@@ -477,6 +481,10 @@ our $I18N = {
     'lastUpdated' => undef,
     'message' => ''
   },
+  'has posted to one of your subscriptions' => {
+    'lastUpdated' => '1238578694',
+    'message' => ''
+  },
   'id' => {
     'lastUpdated' => '1213347076',
     'message' => "ID w zasobach dla wiadomo\x{15b}ci."
@@ -514,7 +522,7 @@ our $I18N = {
     'message' => "Strzeszczenie wiadomo\x{15b}ci."
   },
   'item_loop' => {
-    'lastUpdated' => undef,
+    'lastUpdated' => '1238576345',
     'message' => ''
   },
   'job description' => {
@@ -814,7 +822,7 @@ our $I18N = {
     'message' => 'Data publikacji.'
   },
   'query.form' => {
-    'lastUpdated' => '1237212753',
+    'lastUpdated' => '1238576362',
     'message' => ''
   },
   'question' => {
@@ -930,48 +938,48 @@ our $I18N = {
     'message' => 'Szukaj'
   },
   'search template' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => '1238576384',
+    'message' => "System wsp\x{f3}\x{142}pracy - szablon wyszukiwarki"
   },
   'search template description' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => '1238576453',
+    'message' => "Szablon dla formularza wyszukiwarki i rezultat\x{f3}w wyszukiwania systemu wsp\x{f3}\x{142}pracy. "
   },
   'search.label' => {
     'lastUpdated' => '1207297246',
     'message' => "S\x{142}owo &quot;Szukaj&quot;."
   },
   'search.url' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => '1238576493',
+    'message' => "Adres URL do formularza wyszukiwania w systemie wsp\x{f3}\x{142}pracy."
   },
   'sequence' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => '1238576507',
+    'message' => "Kolejno\x{15b}\x{107}"
   },
   'severity' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => '1238576555',
+    'message' => 'Nasilenie'
   },
   'severity.label' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => '1238576548',
+    'message' => "S\x{142}owo &quot;Nasilenie&quot;."
   },
   'sort by' => {
-    'lastUpdated' => '1237212779',
-    'message' => ''
+    'lastUpdated' => '1238576578',
+    'message' => "Sortuj wed\x{142}ug"
   },
   'sort by description' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => '1238577131',
+    'message' => "Domy\x{15b}lnie wszystkie posty s\x{105} sortowane wed\x{142}ug kolejno\x{15b}ci dodania. U\x{17c}yj tego pola do wyboru w\x{142}a\x{15b}ciwo\x{15b}ci po jakiej b\x{119}d\x{105} sortowane. Mo\x{17c}na wybra\x{107} wiele w\x{142}a\x{15b}ciwo\x{15b}ci."
   },
   'sort order' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => '1238576617',
+    'message' => "Kolejno\x{15b}\x{107} sortowania"
   },
   'sort order description' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => '1238577160',
+    'message' => "Sortowanie w kolejno\x{15b}ci rosn\x{105}cej lub malej\x{105}cej."
   },
   'sortby.date.url' => {
     'lastUpdated' => undef,
@@ -1098,24 +1106,24 @@ our $I18N = {
     'message' => 'Miniaturka'
   },
   'thumbnail size' => {
-    'lastUpdated' => '1237212868',
-    'message' => ''
+    'lastUpdated' => '1238576633',
+    'message' => 'Rozmiar miniaturki'
   },
   'thumbnail size help' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => '1238578131',
+    'message' => "Ustaw rozmiar miniaturki w tym systemie wsp\x{f3}\x{142}pracy. Je\x{17c}eli ustawisz 0 wtedy zostanie u\x{17c}yta domy\x{15b}lna warto\x{15b}\x{107} wprowadzona w g\x{142}\x{f3}wnych ustawieniach serwisu. Co wi\x{119}cej, zmiana aktualnych ustawie\x{144} nie zmieni rozmiar\x{f3}w miniaturek znajduj\x{105}cych si\x{119} obecnie w systemie wsp\x{f3}\x{142}pracy. Aby je zmieni\x{107} nale\x{17c}y ponownie zapisa\x{107} ka\x{17c}d\x{105} wiadomo\x{15b}\x{107}.  "
   },
   'thumbnail.label' => {
     'lastUpdated' => '1237212891',
     'message' => "S\x{142}owo &quot;Miniaturka&quot;"
   },
   'timeSubmitted.human' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => '1238578157',
+    'message' => "Czas wys\x{142}ania wiadomo\x{15b}ci, w formacie ustawionym przez u\x{17c}ytkownika."
   },
   'timeUpdated.human' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => '1238578197',
+    'message' => "Czas aktualizacji wiadomo\x{15b}ci, w formacie ustawionym przez u\x{17c}ytkownika."
   },
   'title' => {
     'lastUpdated' => '1237212905',
@@ -1126,23 +1134,23 @@ our $I18N = {
     'message' => "S\x{142}owo &quot;Tytu\x{142}&quot;"
   },
   'tmplVar status' => {
-    'lastUpdated' => '1237212931',
+    'lastUpdated' => '1238576653',
     'message' => ''
   },
   'tmplVar thumbnail' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => '1238577378',
+    'message' => "Je\x{17c}eli ta wiadomo\x{15b}\x{107} posiada za\x{142}\x{105}czniki, adres URL do miniaturki pierwszego za\x{142}\x{105}czonego obrazka."
   },
   'tmplVar url' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => '1238577395',
+    'message' => "Adres URL do wiadomo\x{15b}ci."
   },
   'transfer karma' => {
     'lastUpdated' => undef,
     'message' => ''
   },
   'unarchive' => {
-    'lastUpdated' => undef,
+    'lastUpdated' => '1238578575',
     'message' => ''
   },
   'unlock' => {
@@ -1170,39 +1178,39 @@ our $I18N = {
     'message' => "S\x{142}owo &quot;Wypisz&quot;."
   },
   'unsubscribe.url' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => '1238577021',
+    'message' => "Adres URL wypisuj\x{105}cy z subskrypcji aktualnego u\x{17c}ytkownika."
   },
   'url' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => '1238576661',
+    'message' => 'Adres URL'
   },
   'url.label' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => '1238576740',
+    'message' => "S\x{142}owo &quot;Adres URL&quot;"
   },
   'use captcha hover help' => {
     'lastUpdated' => undef,
     'message' => ''
   },
   'use captcha label' => {
-    'lastUpdated' => undef,
+    'lastUpdated' => '1238577041',
     'message' => ''
   },
   'use preview' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => '1238576761',
+    'message' => "U\x{17c}ywa\x{107} podgl\x{105}du?"
   },
   'use preview description' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => '1238576868',
+    'message' => "Wybierz &quot;Tak&quot; aby m\x{f3}c wy\x{15b}wietli\x{107} podgl\x{105}d wiadomo\x{15b}ci zanim zostanie wys\x{142}ana. Dop\x{f3}ki jest wy\x{15b}wietlany podgl\x{105}d, wiadomo\x{15b}\x{107} mo\x{17c}e by\x{107} edytowana lub anulowana."
   },
   'user' => {
     'lastUpdated' => '1237212973',
     'message' => "U\x{17c}ytkownik"
   },
   'user defined 1' => {
-    'lastUpdated' => undef,
+    'lastUpdated' => '1238576677',
     'message' => ''
   },
   'user defined 2' => {
@@ -1222,20 +1230,20 @@ our $I18N = {
     'message' => ''
   },
   'user.canPost' => {
-    'lastUpdated' => '1237213010',
-    'message' => ''
+    'lastUpdated' => '1238576978',
+    'message' => "Warto\x{15b}\x{107}, kt\x{f3}ra jest prawdziwa je\x{17c}eli aktualny u\x{17c}ytkownik mo\x{17c}e dodawa\x{107} wiadomo\x{15b}ci w systemie wsp\x{f3}\x{142}pracy."
   },
   'user.hasRead' => {
-    'lastUpdated' => '1237212986',
-    'message' => ''
+    'lastUpdated' => '1238576947',
+    'message' => "Warunek spe\x{142}niony je\x{17c}eli u\x{17c}ytkownik mo\x{17c}e czyta\x{107} w\x{105}tek."
   },
   'user.isModerator' => {
     'lastUpdated' => '1207313317',
     'message' => "U\x{17c}ytkownik jest moderatorem"
   },
   'user.isPoster' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => '1238576887',
+    'message' => "Warunek spe\x{142}niony je\x{17c}eli aktualny u\x{17c}ytkownik mo\x{17c}e dodawa\x{107} wiadomo\x{15b}ci."
   },
   'user.isSubscribed' => {
     'lastUpdated' => '1213347284',

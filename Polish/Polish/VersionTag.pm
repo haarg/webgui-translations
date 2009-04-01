@@ -140,22 +140,22 @@ our $I18N = {
     'message' => 'Odmowa'
   },
   'do on approve' => {
-    'lastUpdated' => '1238078276',
+    'lastUpdated' => '1238497980',
     'message' => ''
   },
   'do on approve help' => {
-    'lastUpdated' => '1237987183',
+    'lastUpdated' => '1238412888',
     'message' => ''
   },
   'do on deny' => {
     'context' => 'label in the request approval for version tag activity',
-    'lastUpdated' => '1238078283',
-    'message' => 'Do On Deny'
+    'lastUpdated' => '1238412899',
+    'message' => 'Do odrzucenia'
   },
   'do on deny help' => {
     'context' => 'hover help for the do on deny field',
-    'lastUpdated' => 0,
-    'message' => 'What workflow should we run if the tag is denied approval?'
+    'lastUpdated' => '1238497996',
+    'message' => ''
   },
   'edit version tag' => {
     'context' => 'Admin console label.',
@@ -256,7 +256,7 @@ our $I18N = {
     'message' => '-> Nowej przywieszki wersji'
   },
   'manageRevisionsInTag purge' => {
-    'lastUpdated' => '1237987335',
+    'lastUpdated' => '1238413008',
     'message' => ''
   },
   'manageRevisionsInTag update' => {
@@ -372,7 +372,7 @@ our $I18N = {
     'message' => 'Czekaj dopóki'
   },
   'wait until hoverhelp' => {
-    'lastUpdated' => '1237987463',
+    'lastUpdated' => '1238413065',
     'message' => ''
   },
   'wait until label' => {

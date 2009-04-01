@@ -6,8 +6,8 @@ our $I18N = {
     'message' => 'Moje konto'
   },
   'account title' => {
-    'lastUpdated' => '1237553478',
-    'message' => 'Account - zmienne szablonu makra'
+    'lastUpdated' => '1238406700',
+    'message' => 'Makro Account - zmienne szablonu makra'
   },
   'account.text' => {
     'lastUpdated' => '1237553524',
@@ -18,7 +18,7 @@ our $I18N = {
     'message' => "Zmienna zwracaj\x{105}ca adres URL do strony konta."
   },
   'macroName' => {
-    'lastUpdated' => '1237553548',
+    'lastUpdated' => '1238406740',
     'message' => 'Account'
   }
 }
