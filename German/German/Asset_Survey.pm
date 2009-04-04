@@ -453,9 +453,21 @@ our $I18N = {
     'lastUpdated' => '1178876646',
     'message' => 'Umfrage Template, gebrächliche Variablen'
   },
+  'Max user responses' => {
+    'lastUpdated' => '1238878351',
+    'message' => 'Max. Anzahl Durchläufe per Teilnehmer'
+  },
+  'Max user responses help' => {
+    'lastUpdated' => '1238878424',
+    'message' => 'Die maximum Anzahl Teilnahmen pro Teilnehmer (Benutzer)'
+  },
   'Survey_id' => {
     'lastUpdated' => '1178876712',
     'message' => 'Die eindeutige ID dieser Umfrage. Diese ist nicht die gleiche wied die Asset ID.'
+  },
+  'a1' => {
+    'lastUpdated' => '1238878510',
+    'message' => 'Eine Schleife mit der ersten Antwortliste für eine Frage vom Typ "Zweifacher Schieber"'
   },
   'anonymous' => {
     'lastUpdated' => '1178876752',
@@ -464,6 +476,14 @@ our $I18N = {
   'answer' => {
     'lastUpdated' => '1178876763',
     'message' => 'Die Antwort selbst.'
+  },
+  'answer label' => {
+    'lastUpdated' => '1238878525',
+    'message' => 'Antwort'
+  },
+  'answer text' => {
+    'lastUpdated' => '1238833041',
+    'message' => 'Antworttext'
   },
   'answer.comment' => {
     'lastUpdated' => '1178876817',
@@ -489,9 +509,17 @@ our $I18N = {
     'lastUpdated' => '1178877053',
     'message' => 'Eine Schleife, die die Antworten und Benutzerantworten dieser Frage enthält.'
   },
+  'answers' => {
+    'lastUpdated' => '1238878553',
+    'message' => 'Eine Schleife mit den Antworten zu dieser Frage'
+  },
   'assetName' => {
     'lastUpdated' => '1238831487',
     'message' => 'Fragebogen'
+  },
+  'cancel' => {
+    'lastUpdated' => '1238833055',
+    'message' => 'Abbrechen'
   },
   'cannot delete the last answer' => {
     'lastUpdated' => '1178877106',
@@ -504,6 +532,10 @@ our $I18N = {
   'comment_loop' => {
     'lastUpdated' => '1178877149',
     'message' => 'Eine Schleife, die alle Kommentare für diese Antwort enthält.'
+  },
+  'continue button' => {
+    'lastUpdated' => '1238878567',
+    'message' => 'Weiter'
   },
   'defaultSectionId' => {
     'lastUpdated' => '1178877168',
@@ -605,6 +637,10 @@ our $I18N = {
     'lastUpdated' => '1179732176',
     'message' => 'Die Standard Abschicken (Submit) Schaltfläche für die Benutzerantwort der Umfrage.'
   },
+  'goto' => {
+    'lastUpdated' => '1238878718',
+    'message' => 'Der Abschnitt oder die Frage mit diesem Namen wird als Nächstes nach dieser Frage oder diesem Abschnitt angezeigt.'
+  },
   'gradebook template' => {
     'lastUpdated' => '1179732188',
     'message' => 'Gradebook Template'
@@ -624,6 +660,10 @@ our $I18N = {
   'groupToViewReports' => {
     'lastUpdated' => '1179732365',
     'message' => 'Die ID der Gruppe, die die Reports der Umfrage ansehen darf.'
+  },
+  'index' => {
+    'lastUpdated' => '1238833105',
+    'message' => 'Nummer dieser Frage innerhalb dieses Abschnitts'
   },
   'maxResponsesPerUser' => {
     'lastUpdated' => '1179732485',
@@ -668,6 +708,14 @@ our $I18N = {
   'question text' => {
     'lastUpdated' => '1238832707',
     'message' => 'Fragetext'
+  },
+  'question type' => {
+    'lastUpdated' => '1238879334',
+    'message' => 'Fragentyp:'
+  },
+  'question value' => {
+    'lastUpdated' => '1238878765',
+    'message' => 'Wert der Frage'
   },
   'question.add.label' => {
     'lastUpdated' => '1179733393',
@@ -753,6 +801,10 @@ our $I18N = {
     'lastUpdated' => '1238673894',
     'message' => 'Die Anzahl der Fragen in diesem Fragebogen.'
   },
+  'question_id' => {
+    'lastUpdated' => '1238878781',
+    'message' => 'Die ID dieser Frage'
+  },
   'question_loop' => {
     'lastUpdated' => '1179737740',
     'message' => 'Eine Schleife, die die Fragen dieser Umfrage Benutzerantwort enthält.'
@@ -764,6 +816,10 @@ our $I18N = {
   'questions on section page' => {
     'lastUpdated' => '1238674059',
     'message' => 'Fragen in diesem Abschnitt:'
+  },
+  'questions per page' => {
+    'lastUpdated' => '1238878796',
+    'message' => 'Anzahl Fragen pro Seite'
   },
   'questions.correct.count' => {
     'lastUpdated' => '1179737950',
@@ -813,9 +869,17 @@ our $I18N = {
     'lastUpdated' => '1238673956',
     'message' => 'Antworte willkürig ordnen'
   },
+  'randomizeAnswers' => {
+    'lastUpdated' => '1238879271',
+    'message' => 'Ein Wert, der angibt ob die Antwortmöglichkeiten in willkürlicher Reihenfolge angezeigt werden sollten.'
+  },
   'randomizeQuestions' => {
     'lastUpdated' => '1238674008',
     'message' => 'Angabe ob die Reihenfolge der Fragen at willkürig sein soll.'
+  },
+  'recorded answer' => {
+    'lastUpdated' => '1238878840',
+    'message' => 'Antwort-Titel:'
   },
   'report answer.label' => {
     'lastUpdated' => '1179738133',
@@ -909,17 +973,33 @@ our $I18N = {
     'lastUpdated' => '1179741180',
     'message' => 'Schleife, die eine Liste der Benutzerantworten enthält.'
   },
+  'response_percent' => {
+    'lastUpdated' => '1238879185',
+    'message' => 'Anzahl der richtig beantwortete Fragen'
+  },
   'restart survey label' => {
     'lastUpdated' => '1238832587',
     'message' => 'Fragebogen erneut bearbeiten.'
+  },
+  'score label' => {
+    'lastUpdated' => '1238879114',
+    'message' => 'Score'
   },
   'section name' => {
     'lastUpdated' => '1238832291',
     'message' => 'Titel des Abschnitts'
   },
+  'section name description' => {
+    'lastUpdated' => '1238879319',
+    'message' => 'Bezeichnung dieses Fragebogenabschnitts'
+  },
   'section number' => {
     'lastUpdated' => '1238832436',
     'message' => 'Abschnittsnummer'
+  },
+  'section number description' => {
+    'lastUpdated' => '1238879145',
+    'message' => 'Nummer dieses Abschnitts'
   },
   'section text' => {
     'lastUpdated' => '1238832310',
@@ -968,6 +1048,14 @@ our $I18N = {
   'show.responses.label' => {
     'lastUpdated' => '1179741510',
     'message' => 'Das Standard Label, das Benutzerantworten anzeigt.'
+  },
+  'showProgress' => {
+    'lastUpdated' => '1238878981',
+    'message' => 'Dieser Wert ist "Wahr", wenn die Fortschrittsanzeige für diesen Fragebogen aktiviert wurde.'
+  },
+  'showTimeLimit' => {
+    'lastUpdated' => '1238879088',
+    'message' => 'Angabe ob die Anzahl der verfügbaren Minuten bis zum Ablauf der Befragung angezeigt werden soll.'
   },
   'slider' => {
     'lastUpdated' => '1238832350',
