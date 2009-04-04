@@ -490,8 +490,8 @@ our $I18N = {
     'message' => 'Eine Schleife, die die Antworten und Benutzerantworten dieser Frage enthält.'
   },
   'assetName' => {
-    'lastUpdated' => '1178877060',
-    'message' => 'Umfrage'
+    'lastUpdated' => '1238831487',
+    'message' => 'Fragebogen'
   },
   'cannot delete the last answer' => {
     'lastUpdated' => '1178877106',
@@ -629,6 +629,10 @@ our $I18N = {
     'lastUpdated' => '1179732485',
     'message' => 'Wie oft darf ein Benutzer auf eine einzelne Frage eine Antwort geben (Anzahl Fehlversuche pro Antwort). Standard ist 1.'
   },
+  'min' => {
+    'lastUpdated' => '1238832687',
+    'message' => 'Der Minalwert dieser Antwort bei Fragen vom Type "Schieber"'
+  },
   'mode' => {
     'lastUpdated' => '1179732513',
     'message' => 'Der Modus der Umfrage. Entweder "Umfrage" oder "Quiz".'
@@ -636,6 +640,10 @@ our $I18N = {
   'mode.isSurvey' => {
     'lastUpdated' => '1179732590',
     'message' => 'Bedingung, die anzeigt, ob "Umfrage"- oder "Quiz"-Modus eingestellt ist.'
+  },
+  'no' => {
+    'lastUpdated' => '1238832697',
+    'message' => 'Nein'
   },
   'overview template' => {
     'lastUpdated' => '1179732608',
@@ -656,6 +664,10 @@ our $I18N = {
   'question number' => {
     'lastUpdated' => '1238673856',
     'message' => 'Fragenummer'
+  },
+  'question text' => {
+    'lastUpdated' => '1238832707',
+    'message' => 'Fragetext'
   },
   'question.add.label' => {
     'lastUpdated' => '1179733393',
@@ -732,6 +744,10 @@ our $I18N = {
   'questionOrder' => {
     'lastUpdated' => '1179737704',
     'message' => 'Definiert die Reihenfolge der Fragen dieser Umfrage. Entweder "sequential", "random", "response" oder "section".'
+  },
+  'questionType' => {
+    'lastUpdated' => '1238832638',
+    'message' => 'Eine Schleife, die die mögliche Fragetypen enthält'
   },
   'question_count' => {
     'lastUpdated' => '1238673894',
@@ -893,6 +909,26 @@ our $I18N = {
     'lastUpdated' => '1179741180',
     'message' => 'Schleife, die eine Liste der Benutzerantworten enthält.'
   },
+  'restart survey label' => {
+    'lastUpdated' => '1238832587',
+    'message' => 'Fragebogen erneut bearbeiten.'
+  },
+  'section name' => {
+    'lastUpdated' => '1238832291',
+    'message' => 'Titel des Abschnitts'
+  },
+  'section number' => {
+    'lastUpdated' => '1238832436',
+    'message' => 'Abschnittsnummer'
+  },
+  'section text' => {
+    'lastUpdated' => '1238832310',
+    'message' => 'Text zum Abschnitt'
+  },
+  'section text description' => {
+    'lastUpdated' => '1238832552',
+    'message' => 'Geben Sie eine Beschreibung zum Abschnitt ein.'
+  },
   'section.add.label' => {
     'lastUpdated' => '1179741197',
     'message' => 'Das Standard Label für section.add.url.'
@@ -921,6 +957,10 @@ our $I18N = {
     'lastUpdated' => '1179741467',
     'message' => 'Schleife, die alle Fragen dieser Sektion der Umfrage enthält. Inklusive der Kontrollelemente zum Bearbeiten.'
   },
+  'selected' => {
+    'lastUpdated' => '1238832523',
+    'message' => 'Angabe, ob dieser Fragetyp selektiert wurde'
+  },
   'show.comments.label' => {
     'lastUpdated' => '1179741494',
     'message' => 'Das Standard Label, das Kommentare anzeigt.'
@@ -928,6 +968,10 @@ our $I18N = {
   'show.responses.label' => {
     'lastUpdated' => '1179741510',
     'message' => 'Das Standard Label, das Benutzerantworten anzeigt.'
+  },
+  'slider' => {
+    'lastUpdated' => '1238832350',
+    'message' => 'Angabe, ob die Frage vom Typ "Schieber" ist.'
   },
   'start.date.epoch' => {
     'lastUpdated' => '1179741551',
@@ -953,6 +997,14 @@ our $I18N = {
     'lastUpdated' => '1179741753',
     'message' => 'Zeitpunkt, an dem der Benutzer die Benutzerantwort begonnen hat, im &quot;human-readable&quot; Format.'
   },
+  'step' => {
+    'lastUpdated' => '1238832266',
+    'message' => 'Schrittgröße dieser Antwort zur Frage des Typs "Schieber"'
+  },
+  'step label' => {
+    'lastUpdated' => '1238832414',
+    'message' => 'Schieberschritt'
+  },
   'submit' => {
     'lastUpdated' => '1238673787',
     'message' => 'Absenden'
@@ -960,6 +1012,10 @@ our $I18N = {
   'survey asset template variables title' => {
     'lastUpdated' => '1179741769',
     'message' => 'Umfrage Asset Template Variablen'
+  },
+  'survey template' => {
+    'lastUpdated' => '1238832378',
+    'message' => 'Vorlage Fragebogen'
   },
   'survey.label' => {
     'lastUpdated' => '1179741789',
@@ -978,8 +1034,8 @@ our $I18N = {
     'message' => 'Fragebogen bearbeiten'
   },
   'templateId' => {
-    'lastUpdated' => '1179741903',
-    'message' => 'Die ID des Templates, das zur Anzeige der Umfrage benutzt wird.'
+    'lastUpdated' => '1238832187',
+    'message' => 'Die ID des Templates, das zur Anzeige des Fragebogens benutzt wird.'
   },
   'text' => {
     'lastUpdated' => '1238673492',
@@ -988,6 +1044,22 @@ our $I18N = {
   'text answer' => {
     'lastUpdated' => '1238673727',
     'message' => 'Textbereich'
+  },
+  'text on every page' => {
+    'lastUpdated' => '1238832077',
+    'message' => 'Text auf jeder Seite'
+  },
+  'text on every page description' => {
+    'lastUpdated' => '1238832114',
+    'message' => 'Soll der Text dieses Abschnitts auf jede Seite erscheinen?'
+  },
+  'textCols' => {
+    'lastUpdated' => '1238832149',
+    'message' => 'Anzahl der Spalten für Fragen des Typs "Textbereich"'
+  },
+  'textType' => {
+    'lastUpdated' => '1238832057',
+    'message' => 'Angabe ob diese Frage vom Typ "Text" ist.'
   },
   'thanks.quiz.label' => {
     'lastUpdated' => '1179741970',
@@ -1005,9 +1077,17 @@ our $I18N = {
     'lastUpdated' => '1178870111',
     'message' => 'Der Standardname für diesen Report'
   },
+  'title on every page' => {
+    'lastUpdated' => '1238831974',
+    'message' => 'Titel auf jeder Seite'
+  },
   'totalQuestions' => {
     'lastUpdated' => '1238673690',
     'message' => 'Angabe ob der Benutzer über den Fortschritt informiert wird.'
+  },
+  'user label' => {
+    'lastUpdated' => '1238831987',
+    'message' => 'Teilnehmer'
   },
   'user.canRespondAgain' => {
     'lastUpdated' => '1179742026',
@@ -1033,6 +1113,14 @@ our $I18N = {
     'lastUpdated' => '1238673529',
     'message' => 'Ergebnisse anschauen'
   },
+  'view simple results' => {
+    'lastUpdated' => '1238831830',
+    'message' => 'Response Kurzübersicht'
+  },
+  'view statistical overview' => {
+    'lastUpdated' => '1238831634',
+    'message' => 'Statistische Übersicht'
+  },
   'view template' => {
     'lastUpdated' => '1179742186',
     'message' => 'Ansehen Template'
@@ -1040,6 +1128,26 @@ our $I18N = {
   'view template description' => {
     'lastUpdated' => '1179742206',
     'message' => 'Dieses Template wird benutzt, um die Umfrage selbst anzuzeigen.'
+  },
+  'view transposed results' => {
+    'lastUpdated' => '1238831764',
+    'message' => 'Alle Responses'
+  },
+  'view_grade_book_url' => {
+    'lastUpdated' => '1238831804',
+    'message' => 'URL Ergebnisliste'
+  },
+  'view_simple_results_url' => {
+    'lastUpdated' => '1238831859',
+    'message' => 'URL Kurzübersicht Responses'
+  },
+  'view_statistical_overview_url' => {
+    'lastUpdated' => '1238831877',
+    'message' => 'URL Statistische Übersicht'
+  },
+  'view_transposed_results_url' => {
+    'lastUpdated' => '1238831897',
+    'message' => 'URL Alle Responses'
   },
   'what next answer description' => {
     'lastUpdated' => '1179742315',
