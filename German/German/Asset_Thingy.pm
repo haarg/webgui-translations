@@ -25,6 +25,10 @@ our $I18N = {
     'lastUpdated' => '1227002250',
     'message' => 'URL zum Bildschirm Datensatz in diese Tabelle einfügen.'
   },
+  'after save description' => {
+    'lastUpdated' => '1238879974',
+    'message' => 'Der Bildschirm, der nach der Sicherung dieser Tabelle angezeigt wird.'
+  },
   'after save label' => {
     'lastUpdated' => '1227002054',
     'message' => 'Nach der Sicherung'
@@ -36,6 +40,10 @@ our $I18N = {
   'back to thingy default view' => {
     'lastUpdated' => '1236680661',
     'message' => 'Zurück zur Thingy Standard-Anzeige'
+  },
+  'canView' => {
+    'lastUpdated' => '1238880059',
+    'message' => 'Eine Bedingung, die angibt ob der aktuelle Benutzer die Berechtigung hat, diese Tabelle anzuschauen. '
   },
   'default save button label' => {
     'lastUpdated' => '1227001838',
@@ -54,6 +62,10 @@ Bei "Ja/Nein" Feldern, geben Sie "yes" für "Ja" und "no" für "Nein" ein.'
   'default value label' => {
     'lastUpdated' => '1227001811',
     'message' => 'Standardwert'
+  },
+  'default value subtext' => {
+    'lastUpdated' => '1238879666',
+    'message' => 'Eine Eingabe pro Zeile'
   },
   'default view label' => {
     'lastUpdated' => '1227001796',
@@ -87,6 +99,10 @@ Bei "Ja/Nein" Feldern, geben Sie "yes" für "Ja" und "no" für "Nein" ein.'
     'lastUpdated' => '1238256717',
     'message' => 'Ändern'
   },
+  'field type label' => {
+    'lastUpdated' => '1238879689',
+    'message' => 'Feldtyp'
+  },
   'field_label' => {
     'lastUpdated' => '1234944683',
     'message' => 'Bezeichnung'
@@ -103,6 +119,10 @@ Bei "Ja/Nein" Feldern, geben Sie "yes" für "Ja" und "no" für "Nein" ein.'
     'lastUpdated' => '1236681187',
     'message' => 'Abschicken'
   },
+  'import label' => {
+    'lastUpdated' => '1238879704',
+    'message' => 'Import'
+  },
   'is required error' => {
     'lastUpdated' => '1236681213',
     'message' => 'ist erforderlich'
@@ -115,6 +135,10 @@ Bei "Ja/Nein" Feldern, geben Sie "yes" für "Ja" und "no" für "Nein" ein.'
     'lastUpdated' => '1227002328',
     'message' => 'Tabellen verwalten'
   },
+  'max entries per user label' => {
+    'lastUpdated' => '1238879865',
+    'message' => 'Max. Eingaben per Benutzer'
+  },
   'name' => {
     'lastUpdated' => '1227001440',
     'message' => 'Bezeichnung der Tabelle'
@@ -122,6 +146,10 @@ Bei "Ja/Nein" Feldern, geben Sie "yes" für "Ja" und "no" für "Nein" ein.'
   'possible values label' => {
     'lastUpdated' => '1238256776',
     'message' => 'Zugelassene Werte'
+  },
+  'pretext description' => {
+    'lastUpdated' => '1238879830',
+    'message' => 'Eine Erweiterung zur Kurzbezeichnung, die als weitere Information zum Feld oberhalb oder vor dem Eingabefeld angezeigt wird.'
   },
   'pretext label' => {
     'lastUpdated' => '1227000900',
@@ -206,6 +234,10 @@ Bei "Ja/Nein" Feldern, geben Sie "yes" für "Ja" und "no" für "Nein" ein.'
   'viewScreenTitle' => {
     'lastUpdated' => '1227000413',
     'message' => 'Titel Anzeige-Bildschirm'
+  },
+  'who can view label' => {
+    'lastUpdated' => '1238879923',
+    'message' => 'Wer kann angezeigt bekommen?'
   },
   'width description' => {
     'lastUpdated' => '1227000642',
