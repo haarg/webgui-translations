@@ -7,13 +7,32 @@ our $LANGUAGE = {
   'label' => 'Croatian',
   'languageAbbreviation' => 'hr',
   'locale' => 'HR',
-  'toolbar' => ''
+  'toolbar' => 'bullet'
 }
 ;
 
 sub makeUrlCompliant {
     my $value = shift;
 ##<-- start transliteration -->##
+$value =~ s/Č/C/;
+$value =~ s/Ć/C/;
+$value =~ s/Š/S/;
+$value =~ s/Ž/Z/g;
+$value =~ s/Đ/D/g;
+$value =~ s/č/c/;
+$value =~ s/ć/c/;
+$value =~ s/š/s/;
+$value =~ s/ž/z/g;
+$value =~ s/đ/d/g;
+
+
+$value =~ s/^\s+//;
+$value =~ s/^\\//;
+$value =~ s/ /_/g;
+$value =~ s/\.\$//;
+$value =~ s/[^A-Za-z0-9\-\.\_\/]//g;
+$value =~ s/^\///;
+$value =~ s/\/\//\//g;
 
 ##<-- end transliteration -->##
     $value =~ s/\s+$//;                     #removes trailing whitespace
