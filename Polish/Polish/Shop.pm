@@ -34,7 +34,7 @@ our $I18N = {
     'message' => "Dodaj sprzedawc\x{119}"
   },
   'add credit message' => {
-    'lastUpdated' => '1238412780',
+    'lastUpdated' => '1238670116',
     'message' => ''
   },
   'add payment method' => {
@@ -128,6 +128,18 @@ our $I18N = {
   'lastName' => {
     'lastUpdated' => '1234060584',
     'message' => 'Nazwisko'
+  },
+  'manage' => {
+    'lastUpdated' => '1238665689',
+    'message' => ''
+  },
+  'my purchases' => {
+    'lastUpdated' => '1238665722',
+    'message' => 'Moje zakupy'
+  },
+  'shop' => {
+    'lastUpdated' => '1238670137',
+    'message' => 'Sklep'
   },
   'tax' => {
     'lastUpdated' => '1234060615',

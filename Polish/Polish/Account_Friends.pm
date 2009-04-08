@@ -2,15 +2,15 @@ package WebGUI::i18n::Polish::Account_Friends;
 use utf8;
 our $I18N = {
   'add to friends confirmation' => {
-    'lastUpdated' => '1238502827',
-    'message' => "Wiadomo\x{15b}\x{107} zosta\x{142}a wys\x{142}ana do u\x{17c}ytkownika %s, kt\x{f3}rego zaprosi\x{142}e\x{15b} do grona znajomych."
+    'lastUpdated' => '1238667315',
+    'message' => "Zaproszenie zosta\x{142}o wys\x{142}ane do u\x{17c}ytkownika %s"
   },
   'add to network label' => {
     'lastUpdated' => '1238502842',
     'message' => 'Dodaj do znajomych'
   },
   'adding user message' => {
-    'lastUpdated' => '1238504668',
+    'lastUpdated' => '1238667284',
     'message' => 'Dodajesz %s do twoich znajomych.'
   },
   'back label' => {
@@ -22,16 +22,16 @@ our $I18N = {
     'message' => 'powrót do profilu'
   },
   'back to user profile' => {
-    'lastUpdated' => '1238503006',
-    'message' => "powr\x{f3}t do profilu u\x{17c}ytkownik\x{f3}w"
+    'lastUpdated' => '1238666524',
+    'message' => "powr\x{f3}t do profilu u\x{17c}ytkownika"
   },
   'cancel button label' => {
     'lastUpdated' => '1238503015',
     'message' => 'Anuluj'
   },
   'default friend comments' => {
-    'lastUpdated' => '1238505477',
-    'message' => ''
+    'lastUpdated' => '1238666415',
+    'message' => "%s, chcia\x{142}bym aby\x{15b} do\x{142}\x{105}czy\x{142} do grona moich znajomych. Dzi\x{119}kuj\x{119} i pozdrawiam, %s"
   },
   'does not want to be a friend' => {
     'lastUpdated' => '1238505275',
@@ -114,8 +114,8 @@ our $I18N = {
     'message' => "Szablon zaprosze\x{144}"
   },
   'friends style template hoverHelp' => {
-    'lastUpdated' => '1238570824',
-    'message' => "Wybierz szablon stylu z listy os\x{142}aniaj\x{105}cy znajomych."
+    'lastUpdated' => '1238670609',
+    'message' => "Wybierz szablon stylu z listy otaczaj\x{105}cy znajomych."
   },
   'friends style template label' => {
     'lastUpdated' => '1238569707',
@@ -178,7 +178,7 @@ our $I18N = {
     'message' => "Wy\x{15b}lij prywatn\x{105} wiadomo\x{15b}\x{107}"
   },
   'sending to message' => {
-    'lastUpdated' => '1238504639',
+    'lastUpdated' => '1238669092',
     'message' => "Nast\x{119}puj\x{105}ca wiadomo\x{15b}\x{107} zostanie wys\x{142}ana wraz z twoim zaproszeniem: "
   },
   'title' => {

@@ -26,7 +26,7 @@ our $I18N = {
     'message' => 'Anuluj'
   },
   'common account variables' => {
-    'lastUpdated' => '1238575783',
+    'lastUpdated' => '1238669368',
     'message' => ''
   },
   'compose message label' => {
@@ -101,6 +101,18 @@ our $I18N = {
     'lastUpdated' => '1238572464',
     'message' => ''
   },
+  'inbox manage invitations template hoverHelp' => {
+    'lastUpdated' => '1238670683',
+    'message' => "Wybierz szablon u\x{17c}yty podczas zarz\x{105}dzania znajomymi"
+  },
+  'inbox manage invitations template label' => {
+    'lastUpdated' => '1238670694',
+    'message' => "Szablon zarz\x{105}dzania znajomymi"
+  },
+  'inbox message confirm template label' => {
+    'lastUpdated' => '1238670706',
+    'message' => ''
+  },
   'inbox rich editor description' => {
     'lastUpdated' => '1238572528',
     'message' => "Edytor u\x{17c}yty do tworzenia wiadomo\x{15b}ci."
@@ -109,16 +121,36 @@ our $I18N = {
     'lastUpdated' => '1238572412',
     'message' => 'Edytor skrzynki odbiorczej'
   },
+  'inbox send message template label' => {
+    'lastUpdated' => '1238670714',
+    'message' => ''
+  },
+  'inbox style template hoverHelp' => {
+    'lastUpdated' => '1238670653',
+    'message' => "Wybierz szablon stylu z listy otaczaj\x{105}cy skrzynk\x{119} odbiorcz\x{105}."
+  },
+  'inbox style template label' => {
+    'lastUpdated' => '1238670627',
+    'message' => 'Szablon stylu'
+  },
+  'inbox view template hoverHelp' => {
+    'lastUpdated' => '1238670747',
+    'message' => "Wybierz g\x{142}\x{f3}wny szablon skrzynki odbiorczej"
+  },
+  'inbox view template label' => {
+    'lastUpdated' => '1238670725',
+    'message' => 'Szablon widoku'
+  },
   'inbox_form_delete' => {
     'lastUpdated' => '1238572646',
     'message' => "Pole wyboru dla u\x{17c}ytkownika do sprawdzenia czy oni chc\x{105} usun\x{105}\x{107} wiadomo\x{15b}\x{107}."
   },
   'invitation confirm label' => {
-    'lastUpdated' => '1238572704',
-    'message' => ''
+    'lastUpdated' => '1238669355',
+    'message' => "Wys\x{142}ano powiadomienie"
   },
   'invitation confirm message' => {
-    'lastUpdated' => '1238572786',
+    'lastUpdated' => '1238669228',
     'message' => "Nast\x{119}puj\x{105}cy u\x{17c}ytkownicy byli zawiadomieni: "
   },
   'invitation confirm message template hoverHelp' => {
@@ -170,7 +202,7 @@ our $I18N = {
     'message' => "zapro\x{15b} znajomego aby przy\x{142}\x{105}czy\x{142} si\x{119} do tej strony"
   },
   'invite message' => {
-    'lastUpdated' => '1238575730',
+    'lastUpdated' => '1238670913',
     'message' => ''
   },
   'invite subject' => {
@@ -181,12 +213,36 @@ our $I18N = {
     'lastUpdated' => '1238575772',
     'message' => ''
   },
-  'invite user message label' => {
-    'lastUpdated' => '1238575811',
+  'invite user confirm template label' => {
+    'lastUpdated' => '1238670759',
     'message' => ''
   },
+  'invite user message label' => {
+    'lastUpdated' => '1238669277',
+    'message' => "Domy\x{15b}lna wiadomo\x{15b}\x{107} zaproszenia"
+  },
+  'invite user message template label' => {
+    'lastUpdated' => '1238669290',
+    'message' => ''
+  },
+  'invite user restrict message template hoverHelp' => {
+    'lastUpdated' => '1238670998',
+    'message' => "Je\x{17c}eli zaznaczysz na \"tak\", u\x{17c}ytkownicy nie b\x{119}d\x{105} mogli modyfikowa\x{107} domy\x{15b}lnej tre\x{15b}ci zaproszenia "
+  },
   'invite user restrict message template label' => {
-    'lastUpdated' => '1238575831',
+    'lastUpdated' => '1238671008',
+    'message' => "Zablokowa\x{107} tre\x{15b}\x{107} zaproszenia?"
+  },
+  'invite user restrict subject template hoverHelp' => {
+    'lastUpdated' => '1238670799',
+    'message' => "Je\x{17c}eli zaznaczysz na \"tak\", u\x{17c}ytkownicy nie b\x{119}d\x{105} mogli modyfikowa\x{107} domy\x{15b}lnego tematu dla zaprosze\x{144}."
+  },
+  'invite user restrict subject template label' => {
+    'lastUpdated' => '1238671028',
+    'message' => "Zablokowa\x{107} temat zaproszenia?"
+  },
+  'invite user template label' => {
+    'lastUpdated' => '1238670847',
     'message' => ''
   },
   'invite_friend_url' => {
@@ -198,11 +254,11 @@ our $I18N = {
     'message' => ''
   },
   'isCompleted' => {
-    'lastUpdated' => '1238575854',
+    'lastUpdated' => '1238670943',
     'message' => ''
   },
   'isPending' => {
-    'lastUpdated' => '1238575651',
+    'lastUpdated' => '1238670935',
     'message' => ''
   },
   'isRead' => {
@@ -322,7 +378,7 @@ our $I18N = {
     'message' => "Nie wprowadzi\x{142}e\x{15b} tematu dla tej wiadomo\x{15b}ci"
   },
   'no user error' => {
-    'lastUpdated' => '1238575472',
+    'lastUpdated' => '1238669253',
     'message' => ''
   },
   'previous label' => {
@@ -350,7 +406,7 @@ our $I18N = {
     'message' => "Odpowiedz na wiadomo\x{15b}\x{107}"
   },
   'rpp_url' => {
-    'lastUpdated' => '1238574963',
+    'lastUpdated' => '1238669242',
     'message' => ''
   },
   'send label' => {

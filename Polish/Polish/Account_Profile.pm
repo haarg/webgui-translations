@@ -118,8 +118,8 @@ our $I18N = {
     'message' => "Wy\x{15b}lij prywatn\x{105} wiadomo\x{15b}\x{107}"
   },
   'set by admin' => {
-    'lastUpdated' => '1238078729',
-    'message' => "administrator serwisu ustawi\x{142} to pole \x{17c}eby nie by\x{142}o widoczne"
+    'lastUpdated' => '1238664283',
+    'message' => "pole to zosta\x{142}o ukryte przez administratora serwisu"
   },
   'title' => {
     'lastUpdated' => '1238078701',

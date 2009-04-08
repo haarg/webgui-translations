@@ -1162,7 +1162,7 @@ our $I18N = {
     'message' => 'Odrzucony'
   },
   562 => {
-    'lastUpdated' => '1207313566',
+    'lastUpdated' => '1238668720',
     'message' => 'Przetwarzany'
   },
   563 => {
@@ -2303,6 +2303,10 @@ a user.'
     'lastUpdated' => 0,
     'message' => "Kt\x{f3}rey workflow powinien by\x{107} u\x{17c}yty domy\x{15b}lnie gdy u\x{17c}ytkownik utworzy swoj\x{105} w\x{142}\x{105}sn\x{105} wersj\x{119} 'tags'."
   },
+  'demographic info short' => {
+    'lastUpdated' => '1238664542',
+    'message' => 'Demograficzne'
+  },
   'done' => {
     'lastUpdated' => '1238417666',
     'message' => 'Zrobione'
@@ -2400,8 +2404,8 @@ a user.'
     'message' => "Tam jest ponad 250 u\x{17c}ytkownik\x{f3}w. Prosz\x{119} u\x{17c}y\x{107} wyszukiwarki w celu ich wyszukania."
   },
   'home info short' => {
-    'lastUpdated' => '1238500573',
-    'message' => "Strona g\x{142}\x{f3}wna"
+    'lastUpdated' => '1238664499',
+    'message' => 'Dom'
   },
   'image' => {
     'lastUpdated' => '1238420507',
@@ -2644,8 +2648,8 @@ a user.'
     'message' => 'Zezwolenia'
   },
   'personal info short' => {
-    'lastUpdated' => '1238500904',
-    'message' => ''
+    'lastUpdated' => '1238664430',
+    'message' => 'Osobiste'
   },
   'photo' => {
     'lastUpdated' => '1238421424',
@@ -3164,7 +3168,7 @@ a user.'
     'message' => "<p>Okre\x{15b}l, kt\x{f3}ry styl WebGUI b\x{119}dzie u\x{17c}yty dla operacji u\x{17c}ytkownika (edycji profilu, itp.) kiedy s\x{105} dost\x{119}pne dla u\x{17c}ytkownika. Mo\x{17c}na wybra\x{107} tylko te szablony, kt\x{f3}re s\x{105} dopuszczone.</p>"
   },
   'user invitations email exists' => {
-    'lastUpdated' => undef,
+    'lastUpdated' => '1238669040',
     'message' => ''
   },
   'user invitations email exists description' => {
@@ -3195,6 +3199,30 @@ a user.'
     'lastUpdated' => undef,
     'message' => ''
   },
+  'version tag mode' => {
+    'lastUpdated' => '1238668799',
+    'message' => 'Tryb przywieszki wersji'
+  },
+  'version tag mode help' => {
+    'lastUpdated' => '1238668810',
+    'message' => ''
+  },
+  'versionTagMode inherited' => {
+    'lastUpdated' => '1238668777',
+    'message' => "Przejmij z ustawie\x{144} strony"
+  },
+  'versionTagMode multiPerUser' => {
+    'lastUpdated' => '1238668838',
+    'message' => "Wiele przywieszek wersji na u\x{17c}ytkownika"
+  },
+  'versionTagMode singlePerUser' => {
+    'lastUpdated' => '1238668853',
+    'message' => "Pojedyncza przywieszka wersji na u\x{17c}ytkownika"
+  },
+  'versionTagMode siteWide' => {
+    'lastUpdated' => '1238668885',
+    'message' => ''
+  },
   'view inbox message template' => {
     'lastUpdated' => '1238418382',
     'message' => "Szablon wiadomo\x{15b}ci w skrzynce odbiorczej"
@@ -3216,8 +3244,8 @@ a user.'
     'message' => 'WebGUI'
   },
   'work info short' => {
-    'lastUpdated' => '1238418419',
-    'message' => ''
+    'lastUpdated' => '1238664476',
+    'message' => 'Praca'
   },
   'yes please' => {
     'lastUpdated' => '1237243339',

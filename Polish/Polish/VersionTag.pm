@@ -140,7 +140,7 @@ our $I18N = {
     'message' => 'Odmowa'
   },
   'do on approve' => {
-    'lastUpdated' => '1238497980',
+    'lastUpdated' => '1238676829',
     'message' => ''
   },
   'do on approve help' => {

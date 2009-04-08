@@ -46,8 +46,8 @@ our $I18N = {
     'message' => "Wiadomo\x{15b}\x{107} wprowadzona przez u\x{17c}ytkownika. Jest filtrowana dla HTML w celu zapobie\x{17c}enia atak&oacute;w XSS."
   },
   'invite a friend title' => {
-    'lastUpdated' => '1208238296',
-    'message' => "Zapro\x{15b} przyjaciela"
+    'lastUpdated' => '1238669066',
+    'message' => "Zapro\x{15b} znajomego"
   },
   'invite email template body' => {
     'lastUpdated' => '1208238710',

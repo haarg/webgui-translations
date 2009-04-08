@@ -6,7 +6,7 @@ our $I18N = {
     'message' => 'Dodaj'
   },
   'Add a feed' => {
-    'lastUpdated' => '1238076908',
+    'lastUpdated' => '1238674048',
     'message' => ''
   },
   'DN' => {
@@ -14,7 +14,7 @@ our $I18N = {
     'message' => 'DN'
   },
   'Feed URL' => {
-    'lastUpdated' => '1238586639',
+    'lastUpdated' => '1238674057',
     'message' => ''
   },
   'New Day' => {
@@ -130,11 +130,35 @@ our $I18N = {
     'message' => ''
   },
   'editForm icalInterval label' => {
-    'lastUpdated' => '1238587014',
+    'lastUpdated' => '1238671904',
     'message' => ''
   },
   'editForm listViewPageInterval description' => {
     'lastUpdated' => '1238587021',
+    'message' => ''
+  },
+  'editForm listViewPageInterval label' => {
+    'lastUpdated' => '1238673940',
+    'message' => ''
+  },
+  'editForm templateIdList description' => {
+    'lastUpdated' => '1238673916',
+    'message' => 'Ten szablon pokazuje kalendarz w formie listy.'
+  },
+  'editForm templateIdList label' => {
+    'lastUpdated' => '1238673899',
+    'message' => 'Szablon widoku listy'
+  },
+  'editForm templateIdPrintList description' => {
+    'lastUpdated' => '1238673881',
+    'message' => 'Ten szablon drukuje kalendarz w formie listy.'
+  },
+  'editForm templateIdPrintList label' => {
+    'lastUpdated' => '1238673887',
+    'message' => 'Szablon wydruku listy'
+  },
+  'editForm workflowIdCommit label' => {
+    'lastUpdated' => '1238673028',
     'message' => ''
   },
   'editor' => {
@@ -142,16 +166,40 @@ our $I18N = {
     'message' => "Warto\x{15b}\x{107}, kt\x{f3}ra b\x{119}dzie prawdziwa je\x{17c}eli u\x{17c}ytkownik jest w grupie dopuszczonej do edycji wydarze\x{144} w tym kalendarzu."
   },
   'end date' => {
-    'lastUpdated' => '1238586657',
+    'lastUpdated' => '1238672052',
     'message' => ''
   },
   'endDayAbbr' => {
-    'lastUpdated' => '1238584922',
-    'message' => ''
+    'lastUpdated' => '1238672399',
+    'message' => "Skr\x{f3}t nazwy dnia z kt\x{f3}rym ko\x{144}czy si\x{119} tydzie\x{144}."
+  },
+  'endDayName' => {
+    'lastUpdated' => '1238672414',
+    'message' => "Nazwa dnia z kt\x{f3}rym ko\x{144}czy si\x{119} tydzie\x{144}."
+  },
+  'endDayOfMonth' => {
+    'lastUpdated' => '1238672459',
+    'message' => "Dzie\x{144} miesi\x{105}ca (od 1 do 31) z kt\x{f3}rym ko\x{144}czy si\x{119} tydzie\x{144}."
+  },
+  'endMonth' => {
+    'lastUpdated' => '1238672088',
+    'message' => "Liczba (od 1 do 12) okre\x{15b}laj\x{105}ca w kt\x{f3}rym miesi\x{105}cu ko\x{144}czy si\x{119} ten tydzie\x{144}."
+  },
+  'endMonthAbbr' => {
+    'lastUpdated' => '1238672507',
+    'message' => "Skr\x{f3}t nazwy miesi\x{105}ca w kt\x{f3}rym ko\x{144}czy si\x{119} tydzie\x{144}."
+  },
+  'endMonthName' => {
+    'lastUpdated' => '1238672521',
+    'message' => "Nazwa miesi\x{105}ca w kt\x{f3}rym ko\x{144}czy si\x{119} tydzie\x{144}."
+  },
+  'endYear' => {
+    'lastUpdated' => '1238672122',
+    'message' => "Rok w kt\x{f3}rym ko\x{144}czy si\x{119} ten tydzie\x{144}."
   },
   'epoch' => {
-    'lastUpdated' => '1238584929',
-    'message' => ''
+    'lastUpdated' => '1238672541',
+    'message' => 'Data'
   },
   'events dayVar' => {
     'lastUpdated' => '1238587698',
@@ -172,6 +220,22 @@ our $I18N = {
   'groupIdEventEdit label' => {
     'lastUpdated' => '1238587642',
     'message' => "Kto mo\x{17c}e dodawa\x{107} wydarzenia?"
+  },
+  'help calendar dateTime body' => {
+    'lastUpdated' => '1238674132',
+    'message' => ''
+  },
+  'help event variables body' => {
+    'lastUpdated' => '1238673796',
+    'message' => ''
+  },
+  'help event variables title' => {
+    'lastUpdated' => '1238673763',
+    'message' => "Zmienne wydarze\x{144} w kalendarzu"
+  },
+  'help view list body' => {
+    'lastUpdated' => '1238673737',
+    'message' => "Te zmienne s\x{105} dost\x{119}pne dla listy widoku kalendarza"
   },
   'help view list title' => {
     'lastUpdated' => '1238587740',
@@ -198,12 +262,68 @@ our $I18N = {
     'message' => "Dzie\x{144}, miesi\x{105}c i rok w formacie UK: DD/MM/YYYY"
   },
   'helpvar dateTime end' => {
-    'lastUpdated' => '1238587838',
+    'lastUpdated' => '1238673699',
     'message' => ''
   },
-  'helpvar newDay' => {
-    'lastUpdated' => '1238587883',
+  'helpvar dateTime mdy' => {
+    'lastUpdated' => '1238673659',
+    'message' => "Miesi\x{105}c, dzie\x{144}, oraz rok w formacie: MM/DD/RRRR"
+  },
+  'helpvar dateTime meridiem' => {
+    'lastUpdated' => '1238673694',
     'message' => ''
+  },
+  'helpvar dateTime minute' => {
+    'lastUpdated' => '1238673155',
+    'message' => 'Minuty'
+  },
+  'helpvar dateTime month' => {
+    'lastUpdated' => '1238673146',
+    'message' => "Numer miesi\x{105}ca (01)"
+  },
+  'helpvar dateTime monthAbbr' => {
+    'lastUpdated' => '1238673178',
+    'message' => "Skr\x{f3}cona nazwa miesi\x{105}ca"
+  },
+  'helpvar dateTime monthName' => {
+    'lastUpdated' => '1238673188',
+    'message' => "Nazwa miesi\x{105}ca"
+  },
+  'helpvar dateTime second' => {
+    'lastUpdated' => '1238673199',
+    'message' => 'Sekundy'
+  },
+  'helpvar dateTime start' => {
+    'lastUpdated' => '1238673629',
+    'message' => ''
+  },
+  'helpvar dateTime year' => {
+    'lastUpdated' => '1238673211',
+    'message' => 'Rok'
+  },
+  'helpvar dateTime ymd' => {
+    'lastUpdated' => '1238673249',
+    'message' => "Rok, miesi\x{105}c i dzie\x{144} w formacie: RRRR-MM-DD"
+  },
+  'helpvar newDay' => {
+    'lastUpdated' => '1238673305',
+    'message' => "Ta warto\x{15b}\x{107} jest prawdziwa je\x{17c}eli aktualne wydarzenie jest zapisane na inny dzie\x{144} ni\x{17c} poprzednie wydarzenie."
+  },
+  'helpvar newMonth' => {
+    'lastUpdated' => '1238673337',
+    'message' => "Ta warto\x{15b}\x{107} jest prawdziwa wtedy kiedy aktualne wydarzenie jest zapisane na inny miesi\x{105}c ni\x{17c} poprzednie."
+  },
+  'helpvar newYear' => {
+    'lastUpdated' => '1238673368',
+    'message' => "Ta warto\x{15b}\x{107} b\x{119}dzie prawdziwa wtedy kiedy aktualne wydarzenie jest zapisane na inny rok ni\x{17c} poprzednie wydarzenie."
+  },
+  'helpvar url_nextPage' => {
+    'lastUpdated' => '1238673099',
+    'message' => "Adres URL do nast\x{119}pnej strony. Je\x{17c}eli jej nie ma, ta zmienna nie b\x{119}dzie istnia\x{142}a."
+  },
+  'helpvar url_previousPage' => {
+    'lastUpdated' => '1238673128',
+    'message' => "Adres URL do poprzedniej strony. Je\x{17c}eli jej nie ma, ta zmienna nie b\x{119}dzie istnia\x{142}a."
   },
   'hour12' => {
     'lastUpdated' => '1238584990',
@@ -214,11 +334,15 @@ our $I18N = {
     'message' => "Godzina w formacie 24-ro godzinnym. 2:00 po po\x{142}udniu b\x{119}dzie 14:00."
   },
   'hourM' => {
-    'lastUpdated' => '1238585026',
+    'lastUpdated' => '1238673579',
     'message' => ''
   },
   'hours' => {
-    'lastUpdated' => '1238586703',
+    'lastUpdated' => '1238673461',
+    'message' => "P\x{119}tla zawieraj\x{105}ca wszystkie wydarzenia i etykiety wyst\x{119}puj\x{105}ce w danej godzinie. Godziny bez wydarze\x{144} nie b\x{119}d\x{105} umieszczone w p\x{119}tli."
+  },
+  'iCal' => {
+    'lastUpdated' => '1238673593',
     'message' => ''
   },
   'keyword' => {
@@ -298,7 +422,7 @@ our $I18N = {
     'message' => 'Adres URL poprzedniego tygodnia w kalendarzu.'
   },
   'paramStart' => {
-    'lastUpdated' => '1238587110',
+    'lastUpdated' => '1238672570',
     'message' => ''
   },
   'paramType' => {
@@ -330,15 +454,59 @@ our $I18N = {
     'message' => 'Szukaj'
   },
   'sortEventsBy description' => {
-    'lastUpdated' => '1238585442',
+    'lastUpdated' => '1238672038',
+    'message' => ''
+  },
+  'sortEventsBy label' => {
+    'lastUpdated' => '1238672757',
+    'message' => "Sortowanie dziennika wydarze\x{144}"
+  },
+  'sortEventsBy value sequencenumber' => {
+    'lastUpdated' => '1238672783',
+    'message' => ''
+  },
+  'sortEventsBy value time' => {
+    'lastUpdated' => '1238672793',
     'message' => ''
   },
   'start date' => {
-    'lastUpdated' => '1238585449',
-    'message' => ''
+    'lastUpdated' => '1238672805',
+    'message' => "Pocz\x{105}tkowa data"
+  },
+  'startDayAbbr' => {
+    'lastUpdated' => '1238672830',
+    'message' => "Skr\x{f3}t nazwy dnia z kt\x{f3}rym rozpoczyna si\x{119} tydzie\x{144}."
+  },
+  'startDayName' => {
+    'lastUpdated' => '1238672845',
+    'message' => "Nazwa dani z kt\x{f3}rym rozpoczyna si\x{119} tydzie\x{144}."
+  },
+  'startDayOfMonth' => {
+    'lastUpdated' => '1238672879',
+    'message' => "Dzie\x{144} miesi\x{105}ca (od 1 do 31) z kt\x{f3}rym rozpoczyna si\x{119} tydzie\x{144}."
+  },
+  'startMonth' => {
+    'lastUpdated' => '1238672909',
+    'message' => "Liczba (od 1 do 12) okre\x{15b}laj\x{105}ca numer miesi\x{105}ca w kt\x{f3}rym rozpoczyna si\x{119} tydzie\x{144}."
+  },
+  'startMonthAbbr' => {
+    'lastUpdated' => '1238672672',
+    'message' => "Skr\x{f3}t nazwy miesi\x{105}ca w kt\x{f3}rym rozpoczyna si\x{119} tydzie\x{144}. "
+  },
+  'startMonthName' => {
+    'lastUpdated' => '1238672657',
+    'message' => "Nazwa miesi\x{105}ca w kt\x{f3}rym rozpoczyna si\x{119} tydzie\x{144}."
+  },
+  'startYear' => {
+    'lastUpdated' => '1238672648',
+    'message' => "Rok w kt\x{f3}rym rozpoczyna si\x{119} tydzie\x{144}."
   },
   'subscribe' => {
-    'lastUpdated' => '1238586301',
+    'lastUpdated' => '1238672575',
+    'message' => ''
+  },
+  'subscriberNotifyOffset label' => {
+    'lastUpdated' => '1238672710',
     'message' => ''
   },
   'templateIdDay description' => {

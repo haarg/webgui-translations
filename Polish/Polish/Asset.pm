@@ -774,7 +774,7 @@ our $I18N = {
     'message' => 'Not symlinking default asset; not included in exported subtree.'
   },
   'rootUrl form hoverHelp' => {
-    'lastUpdated' => '1238070323',
+    'lastUpdated' => '1238592288',
     'message' => ''
   },
   'rootUrl form label' => {
@@ -810,8 +810,8 @@ our $I18N = {
     'message' => 'Rozmiar'
   },
   'specified base' => {
-    'lastUpdated' => '1238070707',
-    'message' => ''
+    'lastUpdated' => '1238592309',
+    'message' => 'Specyficzna baza'
   },
   'status' => {
     'lastUpdated' => '1238070617',
