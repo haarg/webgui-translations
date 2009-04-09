@@ -1,4 +1,5 @@
 package WebGUI::i18n::Norwegian::Macros;
+use utf8;
 
 our $I18N = {
 	'macro disabled' => {
