@@ -67,6 +67,10 @@ Bei "Ja/Nein" Feldern, geben Sie "yes" für "Ja" und "no" für "Nein" ein.'
     'lastUpdated' => '1238879666',
     'message' => 'Eine Eingabe pro Zeile'
   },
+  'default view description' => {
+    'lastUpdated' => '1239402484',
+    'message' => 'Die Standardausgabe für diese Tabelle. Das kann entweder eine Suchmaske mit Ergebebnissen oder auch den Bildschirm für das Hinzufügen eines Datensatzes sein.'
+  },
   'default view label' => {
     'lastUpdated' => '1227001796',
     'message' => 'Standardanzeige'
