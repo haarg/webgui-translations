@@ -1,4 +1,5 @@
 package WebGUI::i18n::Serbian::Workflow_Activity_DecayKarma;
+use utf8;
 
 our $I18N = {};
 

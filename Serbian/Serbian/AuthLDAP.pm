@@ -1,4 +1,5 @@
 package WebGUI::i18n::Serbian::AuthLDAP;
+use utf8;
 
 our $I18N = {};
 
