@@ -33,6 +33,18 @@ our $I18N = {
     'lastUpdated' => '1180437168',
     'message' => 'Sie können auch aus den folgenden Unter-Terminen wählen. Sie k&ouml;nnen die Ergebnisse durch die weiter oben aufgeführten Filteroptionen eingrenzen. '
   },
+  'add a badge' => {
+    'lastUpdated' => '1239657601',
+    'message' => 'Namensschild hinzufügen'
+  },
+  'add a badge group' => {
+    'lastUpdated' => '1239657633',
+    'message' => 'Namensschild-Gruppe hinzufügen'
+  },
+  'add a ribbon' => {
+    'lastUpdated' => '1239657664',
+    'message' => 'Rabattschein hinzufügen'
+  },
   'add discount pass' => {
     'lastUpdated' => undef,
     'message' => ''
@@ -58,8 +70,8 @@ our $I18N = {
     'message' => ''
   },
   'add to badge message' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => '1239657701',
+    'message' => '%s wurde erfolgreich zu Ihrem Namneschild hinzugefügt'
   },
   'add to cart' => {
     'lastUpdated' => '1238534663',
@@ -178,8 +190,8 @@ our $I18N = {
     'message' => 'Steuerpflichtig?'
   },
   'add/edit useSalesTax description' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => '1239657760',
+    'message' => 'Ist diese Veranstaltung MwSt.-pflichtig?'
   },
   'addEvent.label' => {
     'lastUpdated' => undef,
