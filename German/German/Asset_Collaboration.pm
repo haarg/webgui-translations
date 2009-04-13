@@ -219,8 +219,8 @@ our $I18N = {
     'message' => 'Die assetId dieses Collaboration Systems. Im Gegensatz zur Variable assetId wird diese nicht durch die assetIds von Threads oder Posts überschrieben.'
   },
   'compensation' => {
-    'lastUpdated' => '1179751095',
-    'message' => 'Kompensation'
+    'lastUpdated' => '1239656991',
+    'message' => 'Vergütung'
   },
   'compensation.label' => {
     'lastUpdated' => '1236959323',

@@ -197,6 +197,18 @@ our $I18N = {
     'lastUpdated' => '1217254760',
     'message' => 'Adresse'
   },
+  'address1' => {
+    'lastUpdated' => '1239657341',
+    'message' => 'Adresszeile 1 des Namensschilds'
+  },
+  'address2' => {
+    'lastUpdated' => '1239657368',
+    'message' => 'Adresszeile 2 des Namensschilds'
+  },
+  'addressBook' => {
+    'lastUpdated' => '1239657476',
+    'message' => 'Ein Knopf zum Abruf einer Adresse aus dem Adressbuch des Benutzers'
+  },
   'advSearch.formHeader' => {
     'lastUpdated' => undef,
     'message' => ''
