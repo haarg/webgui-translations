@@ -45,6 +45,14 @@ our $I18N = {
     'lastUpdated' => '1239657664',
     'message' => 'Rabattschein hinzufügen'
   },
+  'add a ticket' => {
+    'lastUpdated' => '1239657926',
+    'message' => 'Eintrittskarte hinzufügen'
+  },
+  'add a token' => {
+    'lastUpdated' => '1239658305',
+    'message' => 'Gutschein hinzufügen'
+  },
   'add discount pass' => {
     'lastUpdated' => undef,
     'message' => ''
@@ -68,6 +76,10 @@ our $I18N = {
   'add registrant' => {
     'lastUpdated' => undef,
     'message' => ''
+  },
+  'add to badge' => {
+    'lastUpdated' => '1239657971',
+    'message' => 'Zum Namensschild hinzugügen'
   },
   'add to badge message' => {
     'lastUpdated' => '1239657701',
@@ -205,6 +217,10 @@ our $I18N = {
     'lastUpdated' => undef,
     'message' => ''
   },
+  'addTokenUrl' => {
+    'lastUpdated' => '1239658361',
+    'message' => 'Die URL um dem Namensschild einen Gutschein zuzuordnen.'
+  },
   'address' => {
     'lastUpdated' => '1217254760',
     'message' => 'Adresse'
@@ -216,6 +232,10 @@ our $I18N = {
   'address2' => {
     'lastUpdated' => '1239657368',
     'message' => 'Adresszeile 2 des Namensschilds'
+  },
+  'address3' => {
+    'lastUpdated' => '1239658002',
+    'message' => 'Adresszeile 3 des Namensschilds'
   },
   'addressBook' => {
     'lastUpdated' => '1239657476',
@@ -305,9 +325,17 @@ our $I18N = {
     'lastUpdated' => undef,
     'message' => ''
   },
+  'badge number' => {
+    'lastUpdated' => '1239658395',
+    'message' => 'Namensschild-Nr.'
+  },
   'basicSearch.formHeader' => {
     'lastUpdated' => undef,
     'message' => ''
+  },
+  'buy' => {
+    'lastUpdated' => '1239658018',
+    'message' => 'Kaufen'
   },
   'calendarJS' => {
     'lastUpdated' => undef,
@@ -441,6 +469,10 @@ our $I18N = {
     'lastUpdated' => undef,
     'message' => ''
   },
+  'delete' => {
+    'lastUpdated' => '1239658028',
+    'message' => 'Löschen'
+  },
   'description' => {
     'lastUpdated' => undef,
     'message' => ''
@@ -480,6 +512,10 @@ our $I18N = {
   'display template description' => {
     'lastUpdated' => undef,
     'message' => ''
+  },
+  'duration' => {
+    'lastUpdated' => '1239658406',
+    'message' => 'Dauer'
   },
   'edit discount pass' => {
     'lastUpdated' => undef,
@@ -526,12 +562,12 @@ our $I18N = {
     'message' => ''
   },
   'error' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => '1239658038',
+    'message' => 'Fehler'
   },
   'error no colon' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => '1239658427',
+    'message' => 'Fehler'
   },
   'event' => {
     'lastUpdated' => undef,
@@ -617,9 +653,13 @@ our $I18N = {
     'lastUpdated' => undef,
     'message' => ''
   },
+  'hours' => {
+    'lastUpdated' => '1239658049',
+    'message' => 'Stunden'
+  },
   'ignore first line' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => '1239658450',
+    'message' => 'Erste Zeile ignorieren?'
   },
   'image' => {
     'lastUpdated' => undef,
@@ -686,8 +726,8 @@ our $I18N = {
     'message' => ''
   },
   'import ok' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => '1239658538',
+    'message' => 'Alle %d Datensätze wurden erfolgreich importiert. %d neu angelegt, %d Leerzeilen, %d Doppeleinträge %s.'
   },
   'import other line' => {
     'lastUpdated' => undef,
@@ -697,6 +737,10 @@ our $I18N = {
     'lastUpdated' => undef,
     'message' => ''
   },
+  'is required' => {
+    'lastUpdated' => '1239658559',
+    'message' => '%s ist erforderlich'
+  },
   'isAdvSearch' => {
     'lastUpdated' => undef,
     'message' => ''
@@ -704,6 +748,10 @@ our $I18N = {
   'last name' => {
     'lastUpdated' => undef,
     'message' => ''
+  },
+  'location' => {
+    'lastUpdated' => '1239658070',
+    'message' => 'Veranstaltungsort'
   },
   'manage discount passes' => {
     'lastUpdated' => undef,
@@ -788,6 +836,10 @@ our $I18N = {
   'missing prerequisites message' => {
     'lastUpdated' => undef,
     'message' => ''
+  },
+  'name' => {
+    'lastUpdated' => '1239658101',
+    'message' => 'Benutzername zum Namnesschild'
   },
   'name.label' => {
     'lastUpdated' => undef,
@@ -894,8 +946,8 @@ our $I18N = {
     'message' => ''
   },
   'price' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => '1239658134',
+    'message' => 'Bruttopreis'
   },
   'price must be greater than zero' => {
     'lastUpdated' => undef,
@@ -952,6 +1004,10 @@ our $I18N = {
   'registrationId' => {
     'lastUpdated' => undef,
     'message' => ''
+  },
+  'remove' => {
+    'lastUpdated' => '1239658146',
+    'message' => 'Entfernen'
   },
   'reset user' => {
     'lastUpdated' => undef,
@@ -1042,8 +1098,8 @@ our $I18N = {
     'message' => 'Artikelnummer'
   },
   'sku description' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => '1239658256',
+    'message' => 'Eine Artikelnummer für diese Veranstaltung. Ein globaler, eindeutiger Identifizierer wird standardmäßig generiert.'
   },
   'sku template' => {
     'lastUpdated' => undef,
