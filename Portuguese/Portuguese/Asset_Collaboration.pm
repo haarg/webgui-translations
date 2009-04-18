@@ -1,1587 +1,1271 @@
 package WebGUI::i18n::Portuguese::Asset_Collaboration;
 use utf8;
-
 our $I18N = {
-	'add.label' => {
-		message => q|A palavra &quot;Adicionar&quot;.|,
-		lastUpdated => 1206397493
-	},
-
-	'job title' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'date' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'message.label' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'displayLastReply' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'karma spent to rate' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'isSecond' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'enable metadata description' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'controls' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'who threads' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'docs' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'timeUpdated.human' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'transfer karma' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'job.requirements.label' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'subject' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'get mail interval' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'image.label' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'unlock.label' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'read more' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'max image size help' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'compensation.label' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'title' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'pubDate' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'user.isModerator' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'user defined 3' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'sortby.title.url' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'reply.label' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'author' => {
-		message => q|O nome do utilizador que submeteu o Post.|,
-		lastUpdated => 1206442471
-	},
-
-	'rating_loop' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'previous' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'job.header.label' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'sticky' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'compensation' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'post.label' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'posts/page description' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'by.label' => {
-		message => q|A palavra &quot;Por&quot;.|,
-		lastUpdated => 1206455320
-	},
-
-	'back.url' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'get mail help' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'lastReply.dateSubmitted.human' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'user.canPost' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'unsubscribe' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'image' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'fatal' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'rejected because no user account' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'visitor cache timeout help' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'unsubscribe.label' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'user.isVisitor' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'critical.label' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'use preview' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'sortby.username.url' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'karma rank' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'replies' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'use captcha hover help' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'attachment_thumbnail' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'avatar.url' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'user' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'id' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'karmaIsEnabled' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'mail prefix' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'dateUpdated.human' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'mail server help' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'mail server' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'item_loop' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'posts/page' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'default karma scale' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'by' => {
-		message => q|Por|,
-		lastUpdated => 1206455275
-	},
-
-	'cosmetic' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'system template' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'mail account help' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'preview' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'cosmetic.label' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'date.label' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'attachment.length' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'sortby.views.url' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'add' => {
-		message => q|Adicionar|,
-		lastUpdated => 1206397459
-	},
-
-	'subscription group label' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'allow replies' => {
-		message => q|Permitir Respostas|,
-		lastUpdated => 1206397781
-	},
-
-	'status' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'thumbnail size help' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'addquestion' => {
-		message => q|Adicionar uma quest&atilde;o|,
-		lastUpdated => 1206397643
-	},
-
-	'sort by description' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'content filter description' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'readmore.label' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'guid' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'post_loop' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'who threads description' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'system template description' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'delete.label' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'auto subscribe to thread help' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'unsubscribe.url' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'body.label' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'thumbnail' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'closed' => {
-		message => q|Fechado|,
-		lastUpdated => 1206455395
-	},
-
-	'back' => {
-		message => q|Voltar|,
-		lastUpdated => 1206457409
-	},
-
-	'search.url' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'replies.label' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'notification template' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'close.label' => {
-		message => q|A palavra &quot;Fechar&quot;.|,
-		lastUpdated => 1206455380
-	},
-
-	'rich editor' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'responses.label' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'addquestion.label' => {
-		message => q|A frase &quot;Adicionar uma quest&atilde;o&quot;.|,
-		lastUpdated => 1206397720
-	},
-
-	'collaboration template labels title' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'sortby.date.url' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'edit timeout description' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'post title' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'content' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'form.search' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'approval workflow' => {
-		message => q|Workflow de Aprova&ccedil;&atilde;o|,
-		lastUpdated => 1206397969
-	},
-
-	'rate' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'question.header.label' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'job.description.label' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'attachments/post description' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'post template description' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'description' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'image.url' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'edit timeout' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'rejected because not allowed' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'edit job' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'date submitted' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'edit submission' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'filter code description' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'location.label' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'body' => {
-		message => q|Corpo|,
-		lastUpdated => 1206457435
-	},
-
-	'tmplVar url' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'user defined 2' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'url.label' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'unstick' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'attachment.path' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'answer.label' => {
-		message => q|A palavra &quot;Resposta&quot;.|,
-		lastUpdated => 1206397944
-	},
-
-	'use preview description' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'approval workflow description' => {
-		message => q|Escolha o workflow a ser executado em cada post ap&oacute;s ser submetido.|,
-		lastUpdated => 1206398073
-	},
-
-	'get cs mail' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'user.isPoster' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'closed.label' => {
-		message => q|A palavra &quot;Fechado&quot;.|,
-		lastUpdated => 1206455417
-	},
-
-	'display last reply description' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'lock' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'critical' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'lastReply.user.isVisitor' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'unarchive' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'rejected' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'rating.label' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'feed description' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'rss template description' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'thumbnail.label' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'user defined 1' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'get mail' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'edit message' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'mail password help' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'responses' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'title.label' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'subject.label' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'collaboration post list template variables title' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'lock.label' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'captcha label' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'subscription group hoverHelp' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'item description' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'newWindow.label' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'job description' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'webMaster' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'lastReply.userProfile.url' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'status.label' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'rate.label' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'question' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'back.label' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'severity.label' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'attachment.url' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'stick.label' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'rating_loop.count' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'thread template' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'thumbnail size' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'generator' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'user defined 5' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'form.header' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'subscribe' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'display last reply' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'open' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'who posts' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'delete' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'date updated' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'add.url' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'views' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'lastReply.url' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'get mail interval help' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'attachment' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'minor' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'isFourth' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'edit stamp' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'karma spent to rate description' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'addlink.label' => {
-		message => q|A frase &quot;Adicionar link&quot;.|,
-		lastUpdated => 1206397615
-	},
-
-	'content filter' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'feed title' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'notification template description' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'thread approval workflow' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'descending' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'next' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'post' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'synopsis' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'sortby.karmaRank.url' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'rss template' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'lastReply.timeSubmitted.human' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'open.label' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'sort order' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'sortby.rating.url' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'collab link' => {
-		message => q|O url para a colabora&ccedil;&atilde;o.|,
-		lastUpdated => 1206455450
-	},
-
-	'new window' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'rss.url' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'who posts description' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'isThird' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'mail address' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'attachments/post' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'require subscription for email posting help' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'require subscription for email posting' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'mail prefix help' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'post template' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'question.label' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'lastReply.title' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'synopsis.label' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'max image size' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'rating' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'thread template description' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'close' => {
-		message => q|Fechar|,
-		lastUpdated => 1206455336
-	},
-
-	'default karma scale help' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'visitorName.label' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'severity' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'unstick.label' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'contentType' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'dateSubmitted.human' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'sortby.replies.url' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'answer' => {
-		message => q|Resposta|,
-		lastUpdated => 1206397886
-	},
-
-	'message' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'filter code' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'search template description' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'karma rating multiplier' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'user.hasRead' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'user.isSubscribed' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'sequence' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'edit.label' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'attachmentLoop' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'next.label' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'collaboration rss template title' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'attachment.label' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'karma/post' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'layout' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'sort order description' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'url' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'mail address help' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'collaborationAssetId' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'user defined 4' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'unlock' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'mail password' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'archive after' => {
-		message => q|Arquivar depois|,
-		lastUpdated => 1206398147
-	},
-
-	'isFifth' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'enable avatars' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'full text link' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'addlink' => {
-		message => q|Adicionar link|,
-		lastUpdated => 1206397564
-	},
-
-	'edit stamp description' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'collaboration search template title' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'layout.label' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'fatal.label' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'sortby.lastreply.url' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'search.label' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'karma scale' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'allow replies description' => {
-		message => q|Seleccionar &quot;N&atilde;o&quot; para impedir respostas a este Post.|,
-		lastUpdated => 1206397867
-	},
-
-	'flatLayout' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'threads/page description' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'edit' => {
-		message => q|Editar|,
-		lastUpdated => 1206457457
-	},
-
-	'tmplVar status' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'subscribe.url' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'layout.flat.label' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'userProfile.url' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'previous.label' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'karma rating multiplier description' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'layout.nested.label' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'user.label' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'lastReply' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'timeSubmitted.human' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'enable avatars description' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'description.label' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'submission.header.label' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'search' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'message.header.label' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'assetName' => {
-		message => q|Sistema de colabora&ccedil;&atilde;o|,
-		lastUpdated => 1206400163
-	},
-
-	'enable metadata' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'edit.url' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'threads/page' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'sort by' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'location' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'use captcha label' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'ascending' => {
-		message => q|Ordem Crescente|,
-		lastUpdated => 1206400082
-	},
-
-	'collaboration template title' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'lastBuildDate' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'search template' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'edit question' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'job.title.label' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'auto subscribe to thread' => {
-		message => q|Subscrever automaticamente a thread?|,
-		lastUpdated => 1206457365
-	},
-
-	'link.header.label' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'lastReply.label' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'visitor' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'job requirements' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'mail' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'tmplVar thumbnail' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'query.form' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'visitor cache timeout' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'minor.label' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'archive' => {
-		message => q|Arquivar|,
-		lastUpdated => 1206398396
-	},
-
-	'karma/post description' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'rich editor description' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'lastReply.username' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'nested' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'views.label' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'reply' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'edit link' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'mail account' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'thread approval workflow description' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'archive after description' => {
-		message => q|O tempo desde a &uacute;ltima actualiza&ccedil;&atilde;o de um Post ap&oacute;s o qual o mesmo &eacute; arquivado.|,
-		lastUpdated => 1206398373
-	},
-
-	'subscribe.label' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-};
+  'add' => {
+    'lastUpdated' => '1206397459',
+    'message' => 'Adicionar'
+  },
+  'add.label' => {
+    'lastUpdated' => '1206397493',
+    'message' => 'A palavra &quot;Adicionar&quot;.'
+  },
+  'add.url' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'addlink' => {
+    'lastUpdated' => '1206397564',
+    'message' => 'Adicionar link'
+  },
+  'addlink.label' => {
+    'lastUpdated' => '1206397615',
+    'message' => 'A frase &quot;Adicionar link&quot;.'
+  },
+  'addquestion' => {
+    'lastUpdated' => '1206397643',
+    'message' => 'Adicionar uma quest&atilde;o'
+  },
+  'addquestion.label' => {
+    'lastUpdated' => '1206397720',
+    'message' => 'A frase &quot;Adicionar uma quest&atilde;o&quot;.'
+  },
+  'allow replies' => {
+    'lastUpdated' => '1206397781',
+    'message' => 'Permitir Respostas'
+  },
+  'allow replies description' => {
+    'lastUpdated' => '1206397867',
+    'message' => 'Seleccionar &quot;N&atilde;o&quot; para impedir respostas a este Post.'
+  },
+  'answer' => {
+    'lastUpdated' => '1206397886',
+    'message' => 'Resposta'
+  },
+  'answer.label' => {
+    'lastUpdated' => '1206397944',
+    'message' => 'A palavra &quot;Resposta&quot;.'
+  },
+  'approval workflow' => {
+    'lastUpdated' => '1206397969',
+    'message' => 'Workflow de Aprova&ccedil;&atilde;o'
+  },
+  'approval workflow description' => {
+    'lastUpdated' => '1206398073',
+    'message' => 'Escolha o workflow a ser executado em cada post ap&oacute;s ser submetido.'
+  },
+  'archive' => {
+    'lastUpdated' => '1206398396',
+    'message' => 'Arquivar'
+  },
+  'archive after' => {
+    'lastUpdated' => '1206398147',
+    'message' => 'Arquivar depois'
+  },
+  'archive after description' => {
+    'lastUpdated' => '1206398373',
+    'message' => 'O tempo desde a &uacute;ltima actualiza&ccedil;&atilde;o de um Post ap&oacute;s o qual o mesmo &eacute; arquivado.'
+  },
+  'ascending' => {
+    'lastUpdated' => '1206400082',
+    'message' => 'Ordem Crescente'
+  },
+  'assetName' => {
+    'lastUpdated' => '1206400163',
+    'message' => 'Sistema de colabora&ccedil;&atilde;o'
+  },
+  'attachment' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'attachment.label' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'attachment.length' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'attachment.path' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'attachment.url' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'attachmentLoop' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'attachment_thumbnail' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'attachments/post' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'attachments/post description' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'author' => {
+    'lastUpdated' => '1206442471',
+    'message' => 'O nome do utilizador que submeteu o Post.'
+  },
+  'auto subscribe to thread' => {
+    'lastUpdated' => '1206457365',
+    'message' => 'Subscrever automaticamente a thread?'
+  },
+  'auto subscribe to thread help' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'avatar.url' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'back' => {
+    'lastUpdated' => '1206457409',
+    'message' => 'Voltar'
+  },
+  'back.label' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'back.url' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'body' => {
+    'lastUpdated' => '1206457435',
+    'message' => 'Corpo'
+  },
+  'body.label' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'by' => {
+    'lastUpdated' => '1206455275',
+    'message' => 'Por'
+  },
+  'by.label' => {
+    'lastUpdated' => '1206455320',
+    'message' => 'A palavra &quot;Por&quot;.'
+  },
+  'captcha label' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'close' => {
+    'lastUpdated' => '1206455336',
+    'message' => 'Fechar'
+  },
+  'close.label' => {
+    'lastUpdated' => '1206455380',
+    'message' => 'A palavra &quot;Fechar&quot;.'
+  },
+  'closed' => {
+    'lastUpdated' => '1206455395',
+    'message' => 'Fechado'
+  },
+  'closed.label' => {
+    'lastUpdated' => '1206455417',
+    'message' => 'A palavra &quot;Fechado&quot;.'
+  },
+  'collab link' => {
+    'lastUpdated' => '1206455450',
+    'message' => 'O url para a colabora&ccedil;&atilde;o.'
+  },
+  'collaboration post list template variables title' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'collaboration rss template title' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'collaboration search template title' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'collaboration template labels title' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'collaboration template title' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'collaborationAssetId' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'compensation' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'compensation.label' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'content' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'content filter' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'content filter description' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'contentType' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'controls' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'cosmetic' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'cosmetic.label' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'critical' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'critical.label' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'date' => {
+    'lastUpdated' => '1240086517',
+    'message' => 'Data'
+  },
+  'date submitted' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'date updated' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'date.label' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'dateSubmitted.human' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'dateUpdated.human' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'default karma scale' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'default karma scale help' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'delete' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'delete.label' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'descending' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'description' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'description.label' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'display last reply' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'display last reply description' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'displayLastReply' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'docs' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'edit' => {
+    'lastUpdated' => '1206457457',
+    'message' => 'Editar'
+  },
+  'edit job' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'edit link' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'edit message' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'edit question' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'edit stamp' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'edit stamp description' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'edit submission' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'edit timeout' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'edit timeout description' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'edit.label' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'edit.url' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'enable avatars' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'enable avatars description' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'enable metadata' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'enable metadata description' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'fatal' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'fatal.label' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'feed description' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'feed title' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'filter code' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'filter code description' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'flatLayout' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'form.header' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'form.search' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'full text link' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'generator' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'get cs mail' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'get mail' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'get mail help' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'get mail interval' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'get mail interval help' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'guid' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'id' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'image' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'image.label' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'image.url' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'isFifth' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'isFourth' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'isSecond' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'isThird' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'item description' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'item_loop' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'job description' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'job requirements' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'job title' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'job.description.label' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'job.header.label' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'job.requirements.label' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'job.title.label' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'karma rank' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'karma rating multiplier' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'karma rating multiplier description' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'karma scale' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'karma spent to rate' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'karma spent to rate description' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'karma/post' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'karma/post description' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'karmaIsEnabled' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'lastBuildDate' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'lastReply' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'lastReply.dateSubmitted.human' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'lastReply.label' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'lastReply.timeSubmitted.human' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'lastReply.title' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'lastReply.url' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'lastReply.user.isVisitor' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'lastReply.userProfile.url' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'lastReply.username' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'layout' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'layout.flat.label' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'layout.label' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'layout.nested.label' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'link.header.label' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'location' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'location.label' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'lock' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'lock.label' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'mail' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'mail account' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'mail account help' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'mail address' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'mail address help' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'mail password' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'mail password help' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'mail prefix' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'mail prefix help' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'mail server' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'mail server help' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'max image size' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'max image size help' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'message' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'message.header.label' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'message.label' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'minor' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'minor.label' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'nested' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'new window' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'newWindow.label' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'next' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'next.label' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'notification template' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'notification template description' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'open' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'open.label' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'post' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'post template' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'post template description' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'post title' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'post.label' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'post_loop' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'posts/page' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'posts/page description' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'preview' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'previous' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'previous.label' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'pubDate' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'query.form' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'question' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'question.header.label' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'question.label' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'rate' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'rate.label' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'rating' => {
+    'lastUpdated' => '1240084708',
+    'message' => 'Pontua&ccedil;&atilde;o'
+  },
+  'rating.label' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'rating_loop' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'rating_loop.count' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'read more' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'readmore.label' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'rejected' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'rejected because no user account' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'rejected because not allowed' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'replies' => {
+    'lastUpdated' => '1240084300',
+    'message' => 'Respostas'
+  },
+  'replies.label' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'reply' => {
+    'lastUpdated' => '1240084313',
+    'message' => 'Responder'
+  },
+  'reply.label' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'require subscription for email posting' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'require subscription for email posting help' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'responses' => {
+    'lastUpdated' => '1240084326',
+    'message' => 'Respostas'
+  },
+  'responses.label' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'rich editor' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'rich editor description' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'rss template' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'rss template description' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'rss.url' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'search' => {
+    'lastUpdated' => '1240084340',
+    'message' => 'Pesquisar'
+  },
+  'search template' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'search template description' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'search.label' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'search.url' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'sequence' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'severity' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'severity.label' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'sort by' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'sort by description' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'sort order' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'sort order description' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'sortby.date.url' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'sortby.karmaRank.url' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'sortby.lastreply.url' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'sortby.rating.url' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'sortby.replies.url' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'sortby.title.url' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'sortby.username.url' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'sortby.views.url' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'status' => {
+    'lastUpdated' => '1240084351',
+    'message' => 'Estado'
+  },
+  'status.label' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'stick.label' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'sticky' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'subject' => {
+    'lastUpdated' => '1240084364',
+    'message' => 'Assunto'
+  },
+  'subject.label' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'submission.header.label' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'subscribe' => {
+    'lastUpdated' => '1240084798',
+    'message' => 'Subscrever'
+  },
+  'subscribe.label' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'subscribe.url' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'subscription group hoverHelp' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'subscription group label' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'synopsis' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'synopsis.label' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'system template' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'system template description' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'thread approval workflow' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'thread approval workflow description' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'thread template' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'thread template description' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'threads/page' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'threads/page description' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'thumbnail' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'thumbnail size' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'thumbnail size help' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'thumbnail.label' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'timeSubmitted.human' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'timeUpdated.human' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'title' => {
+    'lastUpdated' => '1240084383',
+    'message' => 'Titulo'
+  },
+  'title.label' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'tmplVar status' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'tmplVar thumbnail' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'tmplVar url' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'transfer karma' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'unarchive' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'unlock' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'unlock.label' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'unstick' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'unstick.label' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'unsubscribe' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'unsubscribe.label' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'unsubscribe.url' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'url' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'url.label' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'use captcha hover help' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'use captcha label' => {
+    'lastUpdated' => '1240084519',
+    'message' => 'Utilizar Captcha no Post'
+  },
+  'use preview' => {
+    'lastUpdated' => '1240084546',
+    'message' => 'Utilizar pr&eacute;-visualiza&ccedil;&atilde;o?'
+  },
+  'use preview description' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'user' => {
+    'lastUpdated' => '1240082783',
+    'message' => 'Utilizador'
+  },
+  'user defined 1' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'user defined 2' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'user defined 3' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'user defined 4' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'user defined 5' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'user.canPost' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'user.hasRead' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'user.isModerator' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'user.isPoster' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'user.isSubscribed' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'user.isVisitor' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'user.label' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'userProfile.url' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'views' => {
+    'lastUpdated' => '1240084413',
+    'message' => 'Visualiza&ccedil;&otilde;es'
+  },
+  'views.label' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'visitor' => {
+    'lastUpdated' => '1240084488',
+    'message' => 'Nome do Visitante'
+  },
+  'visitor cache timeout' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'visitor cache timeout help' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'visitorName.label' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'webMaster' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'who posts' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'who posts description' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'who threads' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'who threads description' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  }
+}
+;
 
 1;
