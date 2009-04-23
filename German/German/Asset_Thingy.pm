@@ -215,6 +215,10 @@ Bei "Ja/Nein" Feldern, geben Sie "yes" für "Ja" und "no" für "Nein" ein.'
     'lastUpdated' => '1240487257',
     'message' => 'Diese Tabelle durchsuchen'
   },
+  'searchFields_label' => {
+    'lastUpdated' => '1240495868',
+    'message' => 'Die Bezeichnung eines durchsuchbaren Feldes'
+  },
   'searchScreenTitle' => {
     'lastUpdated' => '1236680990',
     'message' => 'Suchen'
@@ -242,6 +246,14 @@ Bei "Ja/Nein" Feldern, geben Sie "yes" für "Ja" und "no" für "Nein" ein.'
   'subtext label' => {
     'lastUpdated' => '1238256796',
     'message' => 'Zusatztext'
+  },
+  'thing name label' => {
+    'lastUpdated' => '1240495901',
+    'message' => 'Tabellenname'
+  },
+  'thing_editIcon' => {
+    'lastUpdated' => '1240496016',
+    'message' => 'Ein Icon mit einem Link zum Änderungsbildschirm'
   },
   'thing_id' => {
     'lastUpdated' => '1240487143',
@@ -286,6 +298,10 @@ Bei "Ja/Nein" Feldern, geben Sie "yes" für "Ja" und "no" für "Nein" ein.'
   'view template label' => {
     'lastUpdated' => '1227001612',
     'message' => 'Anzeigevorlage'
+  },
+  'view thing template label' => {
+    'lastUpdated' => '1240495950',
+    'message' => 'Vorlage Tabellenanzeige'
   },
   'view thingy default label' => {
     'lastUpdated' => '1227001458',
