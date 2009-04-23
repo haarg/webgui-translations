@@ -30,8 +30,8 @@ our $I18N = {
     'message' => 'Allgemeines Konto, Posteingang'
   },
   'compose message label' => {
-    'lastUpdated' => '1231216985',
-    'message' => 'Neue Nachricht zusammenstellen'
+    'lastUpdated' => '1240172740',
+    'message' => 'Neue Nachricht erstellen'
   },
   'date label' => {
     'lastUpdated' => '1231216994',

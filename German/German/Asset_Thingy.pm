@@ -38,8 +38,8 @@ our $I18N = {
     'message' => 'Thingy'
   },
   'back to thingy default view' => {
-    'lastUpdated' => '1236680661',
-    'message' => 'Zurück zur Thingy Standard-Anzeige'
+    'lastUpdated' => '1240471399',
+    'message' => 'Zurück'
   },
   'canView' => {
     'lastUpdated' => '1238880059',
@@ -103,6 +103,10 @@ Bei "Ja/Nein" Feldern, geben Sie "yes" für "Ja" und "no" für "Nein" ein.'
     'lastUpdated' => '1238256717',
     'message' => 'Ändern'
   },
+  'export label' => {
+    'lastUpdated' => '1240471950',
+    'message' => 'Export'
+  },
   'field type label' => {
     'lastUpdated' => '1238879689',
     'message' => 'Feldtyp'
@@ -122,6 +126,10 @@ Bei "Ja/Nein" Feldern, geben Sie "yes" für "Ja" und "no" für "Nein" ein.'
   'form_submit' => {
     'lastUpdated' => '1236681187',
     'message' => 'Abschicken'
+  },
+  'import file label' => {
+    'lastUpdated' => '1240471929',
+    'message' => 'Wählen Sie eine Datei zum Importieren'
   },
   'import label' => {
     'lastUpdated' => '1238879704',
@@ -207,6 +215,14 @@ Bei "Ja/Nein" Feldern, geben Sie "yes" für "Ja" und "no" für "Nein" ein.'
     'lastUpdated' => '1234944794',
     'message' => 'Tabelle'
   },
+  'things per page label' => {
+    'lastUpdated' => '1240471869',
+    'message' => 'Anzahl Tabellen pro Seite'
+  },
+  'thingy template label' => {
+    'lastUpdated' => '1240471739',
+    'message' => 'Tabellenvorlage'
+  },
   'vertical description' => {
     'lastUpdated' => '1227000728',
     'message' => 'Diese Eigenschaft bestimmt ob Knöpfe horizontal oder vertikal angezeigt werden.'
@@ -224,8 +240,8 @@ Bei "Ja/Nein" Feldern, geben Sie "yes" für "Ja" und "no" für "Nein" ein.'
     'message' => 'Anzeigebildschirm'
   },
   'view screen title label' => {
-    'lastUpdated' => '1227001591',
-    'message' => 'Titel Anzeigebildschirm'
+    'lastUpdated' => '1240471456',
+    'message' => 'Anzeigebildschirm'
   },
   'view template label' => {
     'lastUpdated' => '1227001612',
@@ -236,8 +252,40 @@ Bei "Ja/Nein" Feldern, geben Sie "yes" für "Ja" und "no" für "Nein" ein.'
     'message' => 'Tabelle Standardanzeige'
   },
   'viewScreenTitle' => {
-    'lastUpdated' => '1227000413',
-    'message' => 'Titel Anzeige-Bildschirm'
+    'lastUpdated' => '1240471473',
+    'message' => 'Anzeige-Bildschirm'
+  },
+  'view_url' => {
+    'lastUpdated' => '1240471825',
+    'message' => 'Die URL, die zur Standardanzeige zurück führt.'
+  },
+  'who can add label' => {
+    'lastUpdated' => '1240471773',
+    'message' => 'Wer kann hinzufügen?'
+  },
+  'who can edit label' => {
+    'lastUpdated' => '1240471838',
+    'message' => 'Wer kann bearbeiten?'
+  },
+  'who can export label' => {
+    'lastUpdated' => '1240471760',
+    'message' => 'Wer kann exportieren?'
+  },
+  'who can import label' => {
+    'lastUpdated' => '1240471719',
+    'message' => 'Wer kann importieren?'
+  },
+  'who can search label' => {
+    'lastUpdated' => '1240471511',
+    'message' => 'Wer kann suchen?'
+  },
+  'who can view description' => {
+    'lastUpdated' => '1240471706',
+    'message' => 'Selektiere:
+- \'owner\' whenn diese Daten nur von denjenigen, der sie eingetragen hat eingeshen werden dürfen
+oder:
+- eine Gruppe, die alle Daten dieser Tabelle sehen darf.
+Ein Benutzer, der dieses Thingy ändern darf, kann immer alle Daten sehen und ändern.'
   },
   'who can view label' => {
     'lastUpdated' => '1238879923',
