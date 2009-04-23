@@ -107,13 +107,25 @@ Bei "Ja/Nein" Feldern, geben Sie "yes" für "Ja" und "no" für "Nein" ein.'
     'lastUpdated' => '1240471950',
     'message' => 'Export'
   },
+  'field in other thing label' => {
+    'lastUpdated' => '1240477757',
+    'message' => 'Feld in anderer Tabelle'
+  },
   'field type label' => {
-    'lastUpdated' => '1238879689',
+    'lastUpdated' => '1240477853',
     'message' => 'Feldtyp'
+  },
+  'field_id' => {
+    'lastUpdated' => '1240487459',
+    'message' => 'Die ID dieses Felds'
   },
   'field_label' => {
     'lastUpdated' => '1234944683',
     'message' => 'Bezeichnung'
+  },
+  'field_name' => {
+    'lastUpdated' => '1240487427',
+    'message' => 'Name des Formularelements für dieses Feld'
   },
   'field_value' => {
     'lastUpdated' => '1236681150',
@@ -139,6 +151,10 @@ Bei "Ja/Nein" Feldern, geben Sie "yes" für "Ja" und "no" für "Nein" ein.'
     'lastUpdated' => '1236681213',
     'message' => 'ist erforderlich'
   },
+  'isCurrent' => {
+    'lastUpdated' => '1240478313',
+    'message' => 'Eine Bedingung, die angibt, ob mit dieser Tabelle gearbeitet wird.'
+  },
   'listOfThings' => {
     'lastUpdated' => '1236681129',
     'message' => 'Eine Schleife mit einer Liste aller Tabellen in diesem Thingy-Objekt'
@@ -146,6 +162,10 @@ Bei "Ja/Nein" Feldern, geben Sie "yes" für "Ja" und "no" für "Nein" ein.'
   'manage things label' => {
     'lastUpdated' => '1227002328',
     'message' => 'Tabellen verwalten'
+  },
+  'manage_url' => {
+    'lastUpdated' => '1240487372',
+    'message' => 'URL zur Tabellen-Verwaltung'
   },
   'max entries per user label' => {
     'lastUpdated' => '1238879865',
@@ -183,13 +203,25 @@ Bei "Ja/Nein" Feldern, geben Sie "yes" für "Ja" und "no" für "Nein" ein.'
     'lastUpdated' => '1236681058',
     'message' => 'Suchen'
   },
+  'search template label' => {
+    'lastUpdated' => '1240487172',
+    'message' => 'Suchvorlage'
+  },
   'search thing label' => {
     'lastUpdated' => '1227001639',
     'message' => 'Suchen'
   },
+  'search this thing label' => {
+    'lastUpdated' => '1240487257',
+    'message' => 'Diese Tabelle durchsuchen'
+  },
   'searchScreenTitle' => {
     'lastUpdated' => '1236680990',
     'message' => 'Suchen'
+  },
+  'search_url' => {
+    'lastUpdated' => '1240487226',
+    'message' => 'URL, die zum Suchbildschirm führt.'
   },
   'size description' => {
     'lastUpdated' => '1227000883',
@@ -211,9 +243,17 @@ Bei "Ja/Nein" Feldern, geben Sie "yes" für "Ja" und "no" für "Nein" ein.'
     'lastUpdated' => '1238256796',
     'message' => 'Zusatztext'
   },
+  'thing_id' => {
+    'lastUpdated' => '1240487143',
+    'message' => 'Die ID dieser Tabelle'
+  },
   'thing_label' => {
     'lastUpdated' => '1234944794',
     'message' => 'Tabelle'
+  },
+  'thing_viewIcon' => {
+    'lastUpdated' => '1240487037',
+    'message' => 'Ein Icon mit einem Link zum Standardbildschirm für diese Tabelle.'
   },
   'things per page label' => {
     'lastUpdated' => '1240471869',
@@ -259,6 +299,10 @@ Bei "Ja/Nein" Feldern, geben Sie "yes" für "Ja" und "no" für "Nein" ein.'
     'lastUpdated' => '1240471825',
     'message' => 'Die URL, die zur Standardanzeige zurück führt.'
   },
+  'who can add description' => {
+    'lastUpdated' => '1240487121',
+    'message' => 'Die Gruppe, die Daten in diese Tabelle hinzufügen kann.'
+  },
   'who can add label' => {
     'lastUpdated' => '1240471773',
     'message' => 'Wer kann hinzufügen?'
@@ -280,9 +324,9 @@ Bei "Ja/Nein" Feldern, geben Sie "yes" für "Ja" und "no" für "Nein" ein.'
     'message' => 'Wer kann suchen?'
   },
   'who can view description' => {
-    'lastUpdated' => '1240471706',
-    'message' => 'Selektiere:
-- \'owner\' whenn diese Daten nur von denjenigen, der sie eingetragen hat eingeshen werden dürfen
+    'lastUpdated' => '1240486961',
+    'message' => 'Selektiere entweder:
+- \'owner\' when diese Daten nur von Benutzer, der sie eingetragen hat eingesehen werden dürfen,
 oder:
 - eine Gruppe, die alle Daten dieser Tabelle sehen darf.
 Ein Benutzer, der dieses Thingy ändern darf, kann immer alle Daten sehen und ändern.'
