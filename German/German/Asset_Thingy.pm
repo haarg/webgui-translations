@@ -45,6 +45,10 @@ our $I18N = {
     'lastUpdated' => '1238880059',
     'message' => 'Eine Bedingung, die angibt ob der aktuelle Benutzer die Berechtigung hat, diese Tabelle anzuschauen. '
   },
+  'check duplicates label' => {
+    'lastUpdated' => '1240582333',
+    'message' => 'Auf Duplicate überprüfen?'
+  },
   'default save button label' => {
     'lastUpdated' => '1227001838',
     'message' => 'Sichern'
@@ -135,9 +139,21 @@ Bei "Ja/Nein" Feldern, geben Sie "yes" für "Ja" und "no" für "Nein" ein.'
     'lastUpdated' => '1238256735',
     'message' => 'Felder'
   },
+  'fieldstatus editable label' => {
+    'lastUpdated' => '1240582154',
+    'message' => 'Änderbar'
+  },
+  'file contains label' => {
+    'lastUpdated' => '1240582301',
+    'message' => 'File enthält'
+  },
   'form_submit' => {
     'lastUpdated' => '1236681187',
     'message' => 'Abschicken'
+  },
+  'ignore first line label' => {
+    'lastUpdated' => '1240582221',
+    'message' => 'Erste Zeile ignorieren?'
   },
   'import file label' => {
     'lastUpdated' => '1240471929',
@@ -146,6 +162,10 @@ Bei "Ja/Nein" Feldern, geben Sie "yes" für "Ja" und "no" für "Nein" ein.'
   'import label' => {
     'lastUpdated' => '1238879704',
     'message' => 'Import'
+  },
+  'import_url' => {
+    'lastUpdated' => '1240582268',
+    'message' => 'Url zur csv-Datei zum Inportieren'
   },
   'is required error' => {
     'lastUpdated' => '1236681213',
@@ -167,6 +187,10 @@ Bei "Ja/Nein" Feldern, geben Sie "yes" für "Ja" und "no" für "Nein" ein.'
     'lastUpdated' => '1240487372',
     'message' => 'URL zur Tabellen-Verwaltung'
   },
+  'max entries per user description' => {
+    'lastUpdated' => '1240582671',
+    'message' => 'Die maximale Anzahl von Einträgen in dieser Tabelle per Benutzer'
+  },
   'max entries per user label' => {
     'lastUpdated' => '1238879865',
     'message' => 'Max. Eingaben per Benutzer'
@@ -174,6 +198,10 @@ Bei "Ja/Nein" Feldern, geben Sie "yes" für "Ja" und "no" für "Nein" ein.'
   'name' => {
     'lastUpdated' => '1227001440',
     'message' => 'Bezeichnung der Tabelle'
+  },
+  'overwrite label' => {
+    'lastUpdated' => '1240582368',
+    'message' => 'überschreiben'
   },
   'possible values label' => {
     'lastUpdated' => '1238256776',
@@ -187,6 +215,14 @@ Bei "Ja/Nein" Feldern, geben Sie "yes" für "Ja" und "no" für "Nein" ein.'
     'lastUpdated' => '1227000900',
     'message' => 'Text vorab'
   },
+  'save button label description' => {
+    'lastUpdated' => '1240582624',
+    'message' => 'Der Text zum Sichern'
+  },
+  'save button label label' => {
+    'lastUpdated' => '1240582546',
+    'message' => 'Label zum Knopf "Sichern"'
+  },
   'search button label' => {
     'lastUpdated' => '1227001661',
     'message' => 'Suchen'
@@ -197,6 +233,14 @@ Bei "Ja/Nein" Feldern, geben Sie "yes" für "Ja" und "no" für "Nein" ein.'
   },
   'search label' => {
     'lastUpdated' => '1227001649',
+    'message' => 'Suchen'
+  },
+  'search other thing label' => {
+    'lastUpdated' => '1240582408',
+    'message' => 'In andere Tabelle suchen'
+  },
+  'search screen tab label' => {
+    'lastUpdated' => '1240582482',
     'message' => 'Suchen'
   },
   'search screen title label' => {
@@ -214,6 +258,10 @@ Bei "Ja/Nein" Feldern, geben Sie "yes" für "Ja" und "no" für "Nein" ein.'
   'search this thing label' => {
     'lastUpdated' => '1240487257',
     'message' => 'Diese Tabelle durchsuchen'
+  },
+  'searchDescription' => {
+    'lastUpdated' => '1240582452',
+    'message' => 'Beschreibung zum Suchbildschirm'
   },
   'searchFields_label' => {
     'lastUpdated' => '1240495868',
