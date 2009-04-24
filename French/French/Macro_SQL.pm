@@ -1,22 +1,23 @@
 package WebGUI::i18n::French::Macro_SQL;
 use utf8;
-
 our $I18N = {
-	'illegal query' => {
-		message => q|Impossibilité d'exécuter ce type de requête.|,
-		lastUpdated => 1202581657
-	},
-
-	'macroName' => {
-		message => q|SQL|,
-		lastUpdated => 1202581664
-	},
-
-	'sql error' => {
-		message => q|Echec de la macro SQL:%s|,
-		lastUpdated => 1202581694
-	},
-
-};
+  'database access not allowed' => {
+    'lastUpdated' => 1231231325,
+    'message' => 'Acc&egrave;s &agrave; la base de donn&eacute;e non autoris&eacute;.'
+  },
+  'illegal query' => {
+    'lastUpdated' => 1202581657,
+    'message' => "Impossibilit\x{e9} d'ex\x{e9}cuter ce type de requ\x{ea}te."
+  },
+  'macroName' => {
+    'lastUpdated' => 1202581664,
+    'message' => 'SQL'
+  },
+  'sql error' => {
+    'lastUpdated' => 1202581694,
+    'message' => 'Echec de la macro SQL:%s'
+  }
+}
+;
 
 1;

@@ -7,7 +7,7 @@ our $LANGUAGE = {
   'label' => 'French',
   'languageAbbreviation' => 'fr',
   'locale' => 'FR',
-  'toolbar' => 'FranÃ§ais'
+  'toolbar' => 'Francais'
 }
 ;
 

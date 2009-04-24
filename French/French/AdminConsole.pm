@@ -1,22 +1,19 @@
 package WebGUI::i18n::French::AdminConsole;
 use utf8;
-
 our $I18N = {
-	'toggle off' => {
-		message => q|Cacher la console d'administration.|,
-		lastUpdated => 1202582017
-	},
-
-	'toggle on' => {
-		message => q|Afficher la console d'administration.|,
-		lastUpdated => 1202582005
-	},
-
-	'admin console' => {
-		message => q|Console administration|,
-		lastUpdated => 1203461346
-	},
-
-};
+  'admin console' => {
+    'lastUpdated' => '1240602544',
+    'message' => 'Console d\'administration'
+  },
+  'toggle off' => {
+    'lastUpdated' => '1202582017',
+    'message' => 'Cacher la console d\'administration.'
+  },
+  'toggle on' => {
+    'lastUpdated' => '1202582005',
+    'message' => 'Afficher la console d\'administration.'
+  }
+}
+;
 
 1;

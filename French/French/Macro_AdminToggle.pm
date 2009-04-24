@@ -1,37 +1,31 @@
 package WebGUI::i18n::French::Macro_AdminToggle;
 use utf8;
-
 our $I18N = {
-	'516' => {
-		message => q|Passer en mode admin!|,
-		lastUpdated => 1202560065
-	},
-
-	'toggle.url' => {
-		message => q|L'URL pour activer ou d&eacute;sactiver le mode Admin.|,
-		lastUpdated => 1203623029
-	},
-
-	'517' => {
-		message => q|Fermer le mode Admin!|,
-		lastUpdated => 1202560083
-	},
-
-	'admin toggle title' => {
-		message => q|Variables du gabarit de la macro 'Admin toggle' c'est-&agrave;-dire la bo&icirc;te de choix Admin|,
-		lastUpdated => 1203622918
-	},
-
-	'macroName' => {
-		message => q|Admin Toggle|,
-		lastUpdated => 1203622942
-	},
-
-	'toggle.text' => {
-		message => q|Etiquette pour passer ou fermer le mode Admin (d&eacute;pend de l'&eacute;tat de la macro), ou du texte que vous avez fourni dans la macro.|,
-		lastUpdated => 1203623002
-	},
-
-};
+  516 => {
+    'lastUpdated' => '1202560065',
+    'message' => 'Passer en mode admin!'
+  },
+  517 => {
+    'lastUpdated' => '1202560083',
+    'message' => 'Fermer le mode Admin!'
+  },
+  'admin toggle title' => {
+    'lastUpdated' => '1203622918',
+    'message' => 'Variables du gabarit de la macro \'Admin toggle\' c\'est-&agrave;-dire la bo&icirc;te de choix Admin'
+  },
+  'macroName' => {
+    'lastUpdated' => '1203622942',
+    'message' => 'Admin Toggle'
+  },
+  'toggle.text' => {
+    'lastUpdated' => '1240602676',
+    'message' => 'Etiquette pour passer ou fermer le mode Admin (dépend de l\'&eacute;tat de la macro), ou du texte que vous avez fourni dans la macro.'
+  },
+  'toggle.url' => {
+    'lastUpdated' => '1240602629',
+    'message' => 'L\'URL d\'activation/desactivation du mode Admin.'
+  }
+}
+;
 
 1;
