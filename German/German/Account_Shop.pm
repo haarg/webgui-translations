@@ -9,6 +9,10 @@ our $I18N = {
     'lastUpdated' => '1233941490',
     'message' => 'Einkäufe verwalten'
   },
+  'manage tax label' => {
+    'lastUpdated' => '1240697285',
+    'message' => 'Steuer-Einstellungen'
+  },
   'managePurchasesIsActive' => {
     'lastUpdated' => '1233946021',
     'message' => 'Eine Variable die wahr ist, falls die aktuelle Ansicht diejenige zur Verwaltung der Einkäufe ist.'
