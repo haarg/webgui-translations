@@ -2,16 +2,16 @@ package WebGUI::i18n::German::Asset_EventManagementSystem;
 use utf8;
 our $I18N = {
   'Admin manage sub events large resultset' => {
-    'lastUpdated' => '1180436914',
-    'message' => 'Sie können die folgenden Termine verwalten. Da zu viele Unter-Termine vorhanden sind, k&ouml;nnen nicht alle Termine dargestellt werden. Bitte grenzen Sie die Ergebnisse durch die weiter oben aufgeführten Filteroptionen ein. '
+    'lastUpdated' => '1240697607',
+    'message' => 'Sie können die folgenden Veranstaltungen verwalten. Da zu viele Unter-Veranstaltungen vorhanden sind, k&ouml;nnen nicht alle Veranstaltungen dargestellt werden. Bitte grenzen Sie die Ergebnisse durch die weiter oben aufgeführten Filteroptionen ein. '
   },
   'Admin manage sub events small resultset' => {
-    'lastUpdated' => '1180436966',
-    'message' => 'Sie können die folgenden Termine verwalten. Sie k&ouml;nnen die Ergebnisse durch die weiter oben aufgeführten Filteroptionen eingrenzen. '
+    'lastUpdated' => '1240697624',
+    'message' => 'Sie können die folgenden Veranstaltungen verwalten. Sie k&ouml;nnen die Ergebnisse durch die weiter oben aufgeführten Filteroptionen eingrenzen. '
   },
   'Event Number' => {
-    'lastUpdated' => '1180436974',
-    'message' => 'Termin Nummer'
+    'lastUpdated' => '1240697656',
+    'message' => 'Veranstaltungsnummer'
   },
   'None' => {
     'lastUpdated' => '1180436978',
@@ -26,12 +26,12 @@ our $I18N = {
     'message' => 'Unlink Benutzer'
   },
   'User sub events large resultset' => {
-    'lastUpdated' => '1180437188',
-    'message' => 'Sie können auch aus den folgenden Unter-Terminen wählen. Auf Grund der vielen Unter-Terminen k&ouml;nnen nicht alle dargestellt werden. Bitte grenzen Sie die Ergebnisse durch die weiter oben aufgeführten Filteroptionen ein. '
+    'lastUpdated' => '1240697691',
+    'message' => 'Sie können auch aus den folgenden Unter-Veranstaltungen wählen. Auf Grund der vielen Unter-Veranstaltungen k&ouml;nnen nicht alle dargestellt werden. Bitte grenzen Sie die Ergebnisse durch die weiter oben aufgeführten Filteroptionen ein. '
   },
   'User sub events small resultset' => {
-    'lastUpdated' => '1180437168',
-    'message' => 'Sie können auch aus den folgenden Unter-Terminen wählen. Sie k&ouml;nnen die Ergebnisse durch die weiter oben aufgeführten Filteroptionen eingrenzen. '
+    'lastUpdated' => '1240697712',
+    'message' => 'Sie können auch aus den folgenden Unter-Veranstaltungen wählen. Sie k&ouml;nnen die Ergebnisse durch die weiter oben aufgeführten Filteroptionen eingrenzen. '
   },
   'add a badge' => {
     'lastUpdated' => '1239657601',
@@ -90,8 +90,8 @@ our $I18N = {
     'message' => 'Zum Einkaufskorb hinzufügen'
   },
   'add/edit approve event' => {
-    'lastUpdated' => '1199975274',
-    'message' => 'Termin bestätigen'
+    'lastUpdated' => '1240697737',
+    'message' => 'Veranstaltung bestätigen'
   },
   'add/edit event add another prerequisite' => {
     'lastUpdated' => '1199975297',
@@ -106,8 +106,8 @@ our $I18N = {
     'message' => 'Beschreibung'
   },
   'add/edit event description description' => {
-    'lastUpdated' => '1199975378',
-    'message' => 'Details des Termins z.B. Ort, Zeit und Thema.'
+    'lastUpdated' => '1240697802',
+    'message' => 'Details der Veranstaltung z.B. Ort, Zeit und Thema.'
   },
   'add/edit event end date' => {
     'lastUpdated' => '1199975388',
@@ -154,8 +154,8 @@ our $I18N = {
     'message' => 'Teilnahmekosten.'
   },
   'add/edit event required events' => {
-    'lastUpdated' => '1238534786',
-    'message' => 'Vorausgesetzte Termine'
+    'lastUpdated' => '1240697754',
+    'message' => 'Vorausgesetzte Veranstaltungen'
   },
   'add/edit event required events description' => {
     'lastUpdated' => undef,
@@ -186,8 +186,8 @@ our $I18N = {
     'message' => 'Termin Titel'
   },
   'add/edit event title description' => {
-    'lastUpdated' => '1199975730',
-    'message' => 'Geben Sie den Namen oder den Titel des Termins ein.'
+    'lastUpdated' => '1240697772',
+    'message' => 'Geben Sie den Namen oder den Titel der Veranstaltung ein.'
   },
   'add/edit event what next' => {
     'lastUpdated' => '1199975744',
@@ -204,6 +204,10 @@ our $I18N = {
   'add/edit useSalesTax description' => {
     'lastUpdated' => '1239657760',
     'message' => 'Ist diese Veranstaltung MwSt.-pflichtig?'
+  },
+  'addBadgeUrl' => {
+    'lastUpdated' => '1240697409',
+    'message' => 'Url zum Hinzufügen eines Namensschilds'
   },
   'addEvent.label' => {
     'lastUpdated' => undef,
@@ -320,6 +324,10 @@ our $I18N = {
   'auto search description' => {
     'lastUpdated' => undef,
     'message' => ''
+  },
+  'badge builder template help' => {
+    'lastUpdated' => '1240697538',
+    'message' => 'Welche Vorlage möchten Sie für die Erstellung der Namensschilder verwenden?'
   },
   'badge id' => {
     'lastUpdated' => undef,
@@ -838,8 +846,8 @@ our $I18N = {
     'message' => ''
   },
   'name' => {
-    'lastUpdated' => '1239658101',
-    'message' => 'Benutzername zum Namnesschild'
+    'lastUpdated' => '1240697840',
+    'message' => 'Benutzername zum Namensschilds'
   },
   'name.label' => {
     'lastUpdated' => undef,
@@ -1154,12 +1162,12 @@ our $I18N = {
     'message' => 'Zeitzone'
   },
   'time zone help' => {
-    'lastUpdated' => '1226016433',
-    'message' => 'Wählen Sie die Zeitzone für diesen Termin'
+    'lastUpdated' => '1240697858',
+    'message' => 'Wählen Sie die Zeitzone für diese Veranstaltung'
   },
   'timezone help' => {
-    'lastUpdated' => '1226016455',
-    'message' => 'Die Zeitzone in der dieser Termin angelegt wurde'
+    'lastUpdated' => '1240697929',
+    'message' => 'Die für diese Veranstaltung gültige Zeitzone'
   },
   'title' => {
     'lastUpdated' => '1164282621',
