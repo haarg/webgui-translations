@@ -225,6 +225,10 @@ our $I18N = {
     'lastUpdated' => '1240756475',
     'message' => 'Bestelldatum'
   },
+  'delete' => {
+    'lastUpdated' => '1240781527',
+    'message' => 'Löschen'
+  },
   'edit' => {
     'lastUpdated' => '1240756484',
     'message' => 'Ändern'
@@ -242,8 +246,8 @@ our $I18N = {
     'message' => 'Exportsteuer'
   },
   'extended price' => {
-    'lastUpdated' => '1240758802',
-    'message' => 'Preis/Pos.'
+    'lastUpdated' => '1240781512',
+    'message' => 'Preis * Menge'
   },
   'firstName' => {
     'lastUpdated' => '1228749171',
@@ -273,6 +277,10 @@ our $I18N = {
     'lastUpdated' => '1240756627',
     'message' => 'Das In-Shop Guthaben des Benutzers'
   },
+  'inShopCreditDeduction help' => {
+    'lastUpdated' => '1240781572',
+    'message' => 'Guthabenabzug bei dieser Bestellung'
+  },
   'is a required field' => {
     'lastUpdated' => '1240756696',
     'message' => '%s soll angegeben werden'
@@ -296,6 +304,10 @@ our $I18N = {
   'item assetId' => {
     'lastUpdated' => '1240756823',
     'message' => 'Die Asset-ID für diesen Artikel.'
+  },
+  'item lastUpdated' => {
+    'lastUpdated' => '1240781617',
+    'message' => 'Datum letzter Änderung Transaktionsitem'
   },
   'item price' => {
     'lastUpdated' => '1240755758',
@@ -321,6 +333,10 @@ our $I18N = {
     'lastUpdated' => '1240758683',
     'message' => 'Verwalten'
   },
+  'minicart template' => {
+    'lastUpdated' => '1240781660',
+    'message' => 'Warenkorb Vorlage'
+  },
   'monthly' => {
     'lastUpdated' => '1240758639',
     'message' => 'Monat'
@@ -340,6 +356,10 @@ our $I18N = {
   'notes' => {
     'lastUpdated' => '1240755833',
     'message' => 'Notizen zu dieser Transaktion'
+  },
+  'order for' => {
+    'lastUpdated' => '1240781678',
+    'message' => 'Bestellung für'
   },
   'order number' => {
     'lastUpdated' => '1240755850',
