@@ -5,6 +5,14 @@ our $I18N = {
     'lastUpdated' => '1223606734',
     'message' => 'L&auml;gg till inneh&aring;ll...'
   },
+  138 => {
+    'lastUpdated' => '1238569008',
+    'message' => 'Ja'
+  },
+  139 => {
+    'lastUpdated' => '1238569015',
+    'message' => 'Nej'
+  },
   314 => {
     'lastUpdated' => '1238517944',
     'message' => 'Förnamn'
@@ -44,6 +52,10 @@ our $I18N = {
   450 => {
     'lastUpdated' => '1238518365',
     'message' => 'Företagsnamn'
+  },
+  451 => {
+    'lastUpdated' => '1238569281',
+    'message' => 'är obligatorisk.'
   },
   50 => {
     'lastUpdated' => '1238516827',
@@ -117,6 +129,14 @@ our $I18N = {
     'lastUpdated' => '1238517440',
     'message' => 'Fel'
   },
+  77 => {
+    'lastUpdated' => '1238569753',
+    'message' => 'Detta användarnamn är redan registrerat. Välj ett annat användarnamn. Några förslag på användarnamn:
+%sToo
+%s2
+%s_%d
+'
+  },
   91 => {
     'lastUpdated' => '1223648983',
     'message' => 'F&ouml;reg&aring;ende'
@@ -136,6 +156,10 @@ our $I18N = {
   'profile' => {
     'lastUpdated' => '1223604320',
     'message' => 'Profil'
+  },
+  'required error' => {
+    'lastUpdated' => '1238569343',
+    'message' => '%s är obligatoriskt.'
   },
   'save' => {
     'lastUpdated' => '1223604298',

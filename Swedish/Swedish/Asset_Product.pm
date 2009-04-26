@@ -9,6 +9,10 @@ our $I18N = {
     'lastUpdated' => '1235845652',
     'message' => 'Tack för ditt köp.
 '
+  },
+  'out of stock' => {
+    'lastUpdated' => '1239204422',
+    'message' => 'Slut i lager.'
   }
 }
 ;

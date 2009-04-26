@@ -6,8 +6,8 @@ our $I18N = {
     'message' => 'URL'
   },
   '104 description' => {
-    'lastUpdated' => '1210454978',
-    'message' => '104 beskrivning'
+    'lastUpdated' => '1240706040',
+    'message' => ''
   },
   105 => {
     'lastUpdated' => undef,
@@ -54,8 +54,8 @@ our $I18N = {
     'message' => ''
   },
   '411 description' => {
-    'lastUpdated' => '1210455012',
-    'message' => '411 beskrivning'
+    'lastUpdated' => '1240706029',
+    'message' => ''
   },
   412 => {
     'lastUpdated' => '1223606027',
@@ -86,24 +86,24 @@ our $I18N = {
     'message' => ''
   },
   '871 description' => {
-    'lastUpdated' => '1210455022',
-    'message' => '871 beskrivning'
+    'lastUpdated' => '1240706018',
+    'message' => ''
   },
   872 => {
     'lastUpdated' => undef,
     'message' => ''
   },
   '872 description' => {
-    'lastUpdated' => '1210455034',
-    'message' => '872 beskrivning'
+    'lastUpdated' => '1240706009',
+    'message' => ''
   },
   886 => {
     'lastUpdated' => undef,
     'message' => ''
   },
   '886 description' => {
-    'lastUpdated' => '1210455044',
-    'message' => '886 beskrivning'
+    'lastUpdated' => '1240706000',
+    'message' => ''
   },
   895 => {
     'lastUpdated' => undef,
@@ -118,8 +118,8 @@ our $I18N = {
     'message' => ''
   },
   '940 description' => {
-    'lastUpdated' => '1210455054',
-    'message' => '940 beskrivning'
+    'lastUpdated' => '1240705992',
+    'message' => ''
   },
   949 => {
     'lastUpdated' => undef,
@@ -158,8 +158,8 @@ our $I18N = {
     'message' => 'Rubrik'
   },
   '99 description' => {
-    'lastUpdated' => '1210455064',
-    'message' => '99 beskrivning'
+    'lastUpdated' => '1240705982',
+    'message' => ''
   },
   'Add new field' => {
     'lastUpdated' => '1210455118',
@@ -178,8 +178,8 @@ our $I18N = {
     'message' => 'Hj&auml;lp f&ouml;r ikonklass'
   },
   'Copy' => {
-    'lastUpdated' => '1223606259',
-    'message' => 'Copy'
+    'lastUpdated' => '1240705842',
+    'message' => 'Kopiera'
   },
   'Data Type description' => {
     'lastUpdated' => '1210455189',
@@ -194,8 +194,8 @@ our $I18N = {
     'message' => 'Djup'
   },
   'Depth description' => {
-    'lastUpdated' => '1210455254',
-    'message' => '<p>Beskrivning av djup</p>'
+    'lastUpdated' => '1240706141',
+    'message' => ''
   },
   'Edit Metadata' => {
     'lastUpdated' => '1210455270',
@@ -226,8 +226,8 @@ our $I18N = {
     'message' => 'F&auml;lt Id'
   },
   'Field Name description' => {
-    'lastUpdated' => '1210455455',
-    'message' => 'Beskrivning av &quot;F&auml;lt namn&quot;'
+    'lastUpdated' => '1240705889',
+    'message' => ''
   },
   'Field name' => {
     'lastUpdated' => '1210455470',
@@ -250,8 +250,8 @@ our $I18N = {
     'message' => 'Status f&ouml;r export av sida'
   },
   'Possible Values description' => {
-    'lastUpdated' => '1210455670',
-    'message' => 'Beskrivning av m&ouml;jliga v&auml;rden'
+    'lastUpdated' => '1240705930',
+    'message' => ''
   },
   'Select' => {
     'lastUpdated' => '1210455565',
@@ -274,20 +274,20 @@ our $I18N = {
     'message' => 'sedan'
   },
   'asset' => {
-    'lastUpdated' => '1210455883',
-    'message' => 'tillg&aring;ng'
+    'lastUpdated' => '1238569828',
+    'message' => 'Asset'
   },
   'asset id' => {
-    'lastUpdated' => '1210455898',
-    'message' => 'id f&ouml;r tillg&aring;ngen'
+    'lastUpdated' => '1238569823',
+    'message' => 'Asset ID'
   },
   'asset id description' => {
-    'lastUpdated' => '1210456132',
-    'message' => 'beskrivning av id f&ouml;r tillg&aring;ngar'
+    'lastUpdated' => '1240705906',
+    'message' => ''
   },
   'asset list title' => {
-    'lastUpdated' => '1210456177',
-    'message' => 'rubriker f&ouml;r tillg&aring;ngar'
+    'lastUpdated' => '1240705943',
+    'message' => ''
   },
   'asset template asset var title' => {
     'lastUpdated' => undef,
@@ -342,8 +342,8 @@ our $I18N = {
     'message' => ''
   },
   'copy' => {
-    'lastUpdated' => '1223606224',
-    'message' => 'kopiera'
+    'lastUpdated' => '1240705762',
+    'message' => 'kopia'
   },
   'could not create' => {
     'lastUpdated' => '1238135119',
