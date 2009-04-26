@@ -42,12 +42,12 @@ our $I18N = {
     'message' => 'Die Garantie für dieses Produkt'
   },
   16 => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => '1240737560',
+    'message' => 'Accessoire hinzufügen'
   },
   17 => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => '1240737616',
+    'message' => 'Accessoire'
   },
   '17 description' => {
     'lastUpdated' => undef,
@@ -66,32 +66,32 @@ our $I18N = {
     'message' => 'Verwandtes Produkt hinzufügen'
   },
   2 => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => '1240737603',
+    'message' => 'Möchten Sie die Verbindung zu diesem Accessoire wirklich löschen?'
   },
   20 => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => '1240737670',
+    'message' => 'verwandtes Produkt'
   },
   '20 description' => {
     'lastUpdated' => undef,
     'message' => ''
   },
   21 => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => '1240737736',
+    'message' => 'Weiteres verwandtes Produkt hinzufügen?'
   },
   '21 description' => {
     'lastUpdated' => undef,
     'message' => ''
   },
   22 => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => '1240737786',
+    'message' => 'Merkmal editieren?'
   },
   23 => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => '1240737795',
+    'message' => 'Merkmal'
   },
   '23 description' => {
     'lastUpdated' => undef,
@@ -305,6 +305,10 @@ our $I18N = {
     'lastUpdated' => '1240737315',
     'message' => 'Weitere Variante hinzufügen?'
   },
+  'add another variant description' => {
+    'lastUpdated' => '1240737845',
+    'message' => 'Klicke "Ja", wenn Sie eine weitere Varinate hinzufügen möchten.'
+  },
   'add to cart' => {
     'lastUpdated' => '1240736038',
     'message' => 'In den Warenkorb legen'
@@ -321,6 +325,10 @@ our $I18N = {
     'lastUpdated' => undef,
     'message' => ''
   },
+  'addRelatedProduct_label' => {
+    'lastUpdated' => '1240737886',
+    'message' => 'Verwandtes Produkt hinzufügen'
+  },
   'addaccessory.label' => {
     'lastUpdated' => undef,
     'message' => ''
@@ -328,6 +336,10 @@ our $I18N = {
   'addaccessory.url' => {
     'lastUpdated' => undef,
     'message' => ''
+  },
+  'addaccessory_label' => {
+    'lastUpdated' => '1240737914',
+    'message' => 'Accessoire hinzufügen'
   },
   'addbenefit.label' => {
     'lastUpdated' => undef,
@@ -513,6 +525,10 @@ our $I18N = {
     'lastUpdated' => '1226017598',
     'message' => 'Menge'
   },
+  'quantity description' => {
+    'lastUpdated' => '1240738016',
+    'message' => 'Wieviele Einheiten dieser Variante sind verfügbar?'
+  },
   'relatedproduct.controls' => {
     'lastUpdated' => undef,
     'message' => ''
@@ -528,6 +544,10 @@ our $I18N = {
   'relatedproduct.url' => {
     'lastUpdated' => undef,
     'message' => ''
+  },
+  'relatedproduct_title' => {
+    'lastUpdated' => '1240737984',
+    'message' => 'Verwandtes Produkt'
   },
   'shortdesc' => {
     'lastUpdated' => '1240736143',
@@ -557,6 +577,10 @@ our $I18N = {
     'lastUpdated' => undef,
     'message' => ''
   },
+  'specification_units' => {
+    'lastUpdated' => '1240738103',
+    'message' => 'Die Einheit zu dieser Spezifikation, z.B. m (meter)'
+  },
   'specs' => {
     'lastUpdated' => '1226017614',
     'message' => 'Spez.'
@@ -584,6 +608,18 @@ our $I18N = {
   'variant sku' => {
     'lastUpdated' => '1240736166',
     'message' => 'Artikelnummer'
+  },
+  'variant sku description' => {
+    'lastUpdated' => '1240738202',
+    'message' => 'ID für diese Produktvariante. Diese sollte die ID in Ihrer Lagersoftware entsprechen, damit eine Synchronisation oder Abgleich möglich ist. '
+  },
+  'variant_id' => {
+    'lastUpdated' => '1240738253',
+    'message' => 'Die ID für diese Variante'
+  },
+  'variant_price' => {
+    'lastUpdated' => '1240738228',
+    'message' => 'Preis der Variante'
   },
   'variant_sku' => {
     'lastUpdated' => '1226017631',
