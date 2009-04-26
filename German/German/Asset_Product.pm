@@ -78,7 +78,7 @@ our $I18N = {
     'message' => ''
   },
   21 => {
-    'lastUpdated' => '1240737736',
+    'lastUpdated' => '1240739865',
     'message' => 'Weiteres verwandtes Produkt hinzufügen?'
   },
   '21 description' => {
@@ -86,8 +86,8 @@ our $I18N = {
     'message' => ''
   },
   22 => {
-    'lastUpdated' => '1240737786',
-    'message' => 'Merkmal editieren?'
+    'lastUpdated' => '1240739771',
+    'message' => 'Merkmal bearbeiten'
   },
   23 => {
     'lastUpdated' => '1240737795',
@@ -106,8 +106,8 @@ our $I18N = {
     'message' => ''
   },
   25 => {
-    'lastUpdated' => '1240738870',
-    'message' => 'Spezification hinzufügen?'
+    'lastUpdated' => '1240739847',
+    'message' => 'Spezification bearbeiten'
   },
   26 => {
     'lastUpdated' => '1240738879',
@@ -162,12 +162,12 @@ our $I18N = {
     'message' => 'Verwandte Produkte'
   },
   34 => {
-    'lastUpdated' => '1240738955',
-    'message' => 'Markmal hinzufügen?'
+    'lastUpdated' => '1240739787',
+    'message' => 'Merkmal hinzufügen'
   },
   35 => {
-    'lastUpdated' => '1240738975',
-    'message' => 'Spezifikation hinzufügen?'
+    'lastUpdated' => '1240739821',
+    'message' => 'Spezifikation hinzufügen'
   },
   36 => {
     'lastUpdated' => '1240738991',
