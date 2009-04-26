@@ -54,8 +54,8 @@ our $I18N = {
     'message' => ''
   },
   18 => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => '1240739306',
+    'message' => 'Weiteres Accessoire hinzufügen?'
   },
   '18 description' => {
     'lastUpdated' => undef,
@@ -98,44 +98,44 @@ our $I18N = {
     'message' => ''
   },
   24 => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => '1240738853',
+    'message' => 'Weiteres Merkmal hinzufügen?'
   },
   '24 description' => {
     'lastUpdated' => undef,
     'message' => ''
   },
   25 => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => '1240738870',
+    'message' => 'Spezification hinzufügen?'
   },
   26 => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => '1240738879',
+    'message' => 'Label'
   },
   '26 description' => {
     'lastUpdated' => undef,
     'message' => ''
   },
   27 => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => '1240738892',
+    'message' => 'Spezification'
   },
   '27 description' => {
     'lastUpdated' => undef,
     'message' => ''
   },
   28 => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => '1240738912',
+    'message' => 'Weitere Spezification hinzufügen?'
   },
   '28 description' => {
     'lastUpdated' => undef,
     'message' => ''
   },
   29 => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => '1240738921',
+    'message' => 'Einheiten'
   },
   '29 description' => {
     'lastUpdated' => undef,
@@ -158,108 +158,108 @@ our $I18N = {
     'message' => 'Zubehör'
   },
   33 => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => '1240738935',
+    'message' => 'Verwandte Produkte'
   },
   34 => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => '1240738955',
+    'message' => 'Markmal hinzufügen?'
   },
   35 => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => '1240738975',
+    'message' => 'Spezifikation hinzufügen?'
   },
   36 => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => '1240738991',
+    'message' => 'Accessoire hinzufügen'
   },
   37 => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => '1240739005',
+    'message' => 'Verwandtes Produkt hinzufügen'
   },
   4 => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => '1240739054',
+    'message' => 'Möchten Sie die Verbindung zu diesem verwandten Produkt wirklich löschen?'
   },
   48 => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => '1240739093',
+    'message' => 'Möchten Sie diesen Vorteil wirklich löschen?'
   },
   5 => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => '1240739117',
+    'message' => 'Möchten Sie diese Spezifikation wirklich löschen?'
   },
   51 => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => '1240739126',
+    'message' => 'Vorteil'
   },
   '51 description' => {
     'lastUpdated' => undef,
     'message' => ''
   },
   52 => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => '1240739142',
+    'message' => 'Weiterer Vorteil hinzufügen?'
   },
   '52 description' => {
     'lastUpdated' => undef,
     'message' => ''
   },
   53 => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => '1240739154',
+    'message' => 'Vorteil bearbeiten'
   },
   54 => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => '1240739163',
+    'message' => 'Vorteile'
   },
   55 => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => '1240739175',
+    'message' => 'Vorteil hinzufügen'
   },
   56 => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => '1240739196',
+    'message' => 'Produktvorlage hinzufügen'
   },
   57 => {
     'lastUpdated' => undef,
     'message' => ''
   },
   58 => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => '1240739219',
+    'message' => 'Produktvorlage bearbeiten'
   },
   59 => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => '1240739227',
+    'message' => 'Name'
   },
   6 => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => '1240739239',
+    'message' => 'Produkt bearbeiten'
   },
   60 => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => '1240739248',
+    'message' => 'Vorlage'
   },
   62 => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => '1240739259',
+    'message' => 'Produktvorlage'
   },
   '62 description' => {
     'lastUpdated' => undef,
     'message' => ''
   },
   7 => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => '1240739270',
+    'message' => 'Produktbild 1'
   },
   '7 description' => {
     'lastUpdated' => undef,
     'message' => ''
   },
   8 => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => '1240739282',
+    'message' => 'Produktbild 2'
   },
   '8 description' => {
     'lastUpdated' => undef,
@@ -410,8 +410,8 @@ our $I18N = {
     'message' => ''
   },
   'brochure' => {
-    'lastUpdated' => '1240737396',
-    'message' => 'ID Produktbroschüre'
+    'lastUpdated' => '1240739335',
+    'message' => 'ID Produktprospekt'
   },
   'brochure.icon' => {
     'lastUpdated' => undef,
@@ -449,6 +449,10 @@ our $I18N = {
     'lastUpdated' => undef,
     'message' => ''
   },
+  'default thank you message' => {
+    'lastUpdated' => '1240739589',
+    'message' => 'Herzlichen Dank für Ihren EInkauf!'
+  },
   'deleteImage' => {
     'lastUpdated' => undef,
     'message' => ''
@@ -470,8 +474,8 @@ our $I18N = {
     'message' => ''
   },
   'image1' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => '1240739396',
+    'message' => 'ID Produktbild 1'
   },
   'image2' => {
     'lastUpdated' => undef,
@@ -481,9 +485,13 @@ our $I18N = {
     'lastUpdated' => undef,
     'message' => ''
   },
+  'in_stock' => {
+    'lastUpdated' => '1240739554',
+    'message' => 'Produktvarianten verfügbar'
+  },
   'manual' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => '1240739502',
+    'message' => 'ID Produkthandbuch'
   },
   'manual.icon' => {
     'lastUpdated' => undef,
@@ -497,9 +505,21 @@ our $I18N = {
     'lastUpdated' => undef,
     'message' => ''
   },
+  'manual_label' => {
+    'lastUpdated' => '1240739456',
+    'message' => 'URL Handbuch'
+  },
   'no_stock_message' => {
     'lastUpdated' => '1240736641',
     'message' => 'Eine internationalisierte Nachtricht, die aussagt, dass zu diesem Produkt keine Varianten verfügbar sind. '
+  },
+  'options' => {
+    'lastUpdated' => '1240739475',
+    'message' => 'Optionen'
+  },
+  'other products' => {
+    'lastUpdated' => '1240739408',
+    'message' => 'Weitere Produkte'
   },
   'out of stock' => {
     'lastUpdated' => '1240736694',
