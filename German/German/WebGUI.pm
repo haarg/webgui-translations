@@ -3319,6 +3319,10 @@ Kopieren Sie ggf. Dateien und fügen Sie diese in den Editor ein.'
     'lastUpdated' => '1199973303',
     'message' => 'Wählen Sie ein Template, um die Inbox anzuzeigen'
   },
+  'view profile' => {
+    'lastUpdated' => '1240757154',
+    'message' => 'Benutzerprofil anzeigen.'
+  },
   'webgui' => {
     'lastUpdated' => '1180015507',
     'message' => 'WebGUI'
