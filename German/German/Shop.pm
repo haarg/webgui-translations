@@ -557,6 +557,10 @@ our $I18N = {
     'lastUpdated' => '1228749320',
     'message' => 'Der Name des BEnutzer, der diese Transaktion ausgeführt hat. Spart eine Benutzernamen-Suche.'
   },
+  'vendor payouts' => {
+    'lastUpdated' => '1240781290',
+    'message' => 'Verkäuferzahlungen'
+  },
   'vendors' => {
     'lastUpdated' => '1228749341',
     'message' => 'Lieferant'

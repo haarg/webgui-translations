@@ -2,8 +2,8 @@ package WebGUI::i18n::German::PayDriver;
 use utf8;
 our $I18N = {
   'a sale has been made' => {
-    'lastUpdated' => '1234737219',
-    'message' => 'Es wurde einen Verkauf getätigt. Bestell-Nr: '
+    'lastUpdated' => '1240780661',
+    'message' => 'Ein Verkauf wurde getätigt. Bestell-Nr: '
   },
   'credit card' => {
     'lastUpdated' => '1234737231',
@@ -28,6 +28,10 @@ our $I18N = {
   'error processing payment' => {
     'lastUpdated' => '1234737617',
     'message' => 'Fehlerbearbeitung Zahlung'
+  },
+  'payment methods' => {
+    'lastUpdated' => '1240780686',
+    'message' => 'Zahlungsweise'
   }
 }
 ;

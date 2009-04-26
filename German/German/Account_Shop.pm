@@ -2,7 +2,7 @@ package WebGUI::i18n::German::Account_Shop;
 use utf8;
 our $I18N = {
   'common account variables' => {
-    'lastUpdated' => '1233941553',
+    'lastUpdated' => '1240780961',
     'message' => 'Benutzerkonto, Laden'
   },
   'manage purchases label' => {
@@ -22,7 +22,7 @@ our $I18N = {
     'message' => 'Der URL zur Verwaltung der Einkäufe.'
   },
   'my sales label' => {
-    'lastUpdated' => '1238256208',
+    'lastUpdated' => '1240781029',
     'message' => 'Verkauf'
   },
   'shop layout template hoverHelp' => {
