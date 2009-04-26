@@ -133,6 +133,14 @@ our $I18N = {
     'lastUpdated' => '1228749700',
     'message' => 'Ein URL, mit dem der Bentuzer eine wiederkehrende Transaktion abbrechen kann.'
   },
+  'cart checkout minimum' => {
+    'lastUpdated' => '1240756405',
+    'message' => 'Minimum Bestellwert'
+  },
+  'cart checkout minimum help' => {
+    'lastUpdated' => '1240756423',
+    'message' => 'Verwenden Sie diese Einstellung um einen Minimumbestellwert festzulegen.'
+  },
   'cart template' => {
     'lastUpdated' => '1228749715',
     'message' => 'Warenkorb-Vorlage'
@@ -193,6 +201,18 @@ our $I18N = {
     'lastUpdated' => '1228750080',
     'message' => 'Firmen-URL'
   },
+  'continue shopping button' => {
+    'lastUpdated' => '1240756452',
+    'message' => 'Weiter einkaufen'
+  },
+  'country' => {
+    'lastUpdated' => '1240755709',
+    'message' => 'Land'
+  },
+  'coupon' => {
+    'lastUpdated' => '1240756464',
+    'message' => 'Coupon'
+  },
   'date' => {
     'lastUpdated' => '1228174772',
     'message' => '<p>Datum&nbsp;</p>'
@@ -201,25 +221,105 @@ our $I18N = {
     'lastUpdated' => '1240496089',
     'message' => 'Erstellungsdatum'
   },
+  'dateOfPurchase' => {
+    'lastUpdated' => '1240756475',
+    'message' => 'Bestelldatum'
+  },
+  'edit' => {
+    'lastUpdated' => '1240756484',
+    'message' => 'Ändern'
+  },
   'email' => {
     'lastUpdated' => '1228749164',
     'message' => 'E-Mail'
+  },
+  'empty cart' => {
+    'lastUpdated' => '1240755736',
+    'message' => 'Ihr Warenkorb ist leer'
+  },
+  'export tax' => {
+    'lastUpdated' => '1240756505',
+    'message' => 'Exportsteuer'
   },
   'firstName' => {
     'lastUpdated' => '1228749171',
     'message' => 'Vorname'
   },
+  'fourweekly' => {
+    'lastUpdated' => '1240756528',
+    'message' => 'Vier wochen'
+  },
+  'import tax' => {
+    'lastUpdated' => '1240756543',
+    'message' => 'Importsteuer'
+  },
+  'in shop credit' => {
+    'lastUpdated' => '1240756573',
+    'message' => 'In-Shop Guthaben'
+  },
+  'in shop credit used' => {
+    'lastUpdated' => '1240756652',
+    'message' => 'Verwendetes In-Shop Guthaben'
+  },
+  'inShopCreditAvailable help' => {
+    'lastUpdated' => '1240756627',
+    'message' => 'Das In-Shop Guthaben des Benutzers'
+  },
+  'is a required field' => {
+    'lastUpdated' => '1240756696',
+    'message' => '%s soll angegeben werden'
+  },
+  'isRecurring' => {
+    'lastUpdated' => '1240756783',
+    'message' => 'Angabe, ob es sich um eine sich wiederholenden Transaktion handelt.'
+  },
   'item' => {
     'lastUpdated' => '1240496116',
     'message' => 'Artikel'
+  },
+  'item assetId' => {
+    'lastUpdated' => '1240756823',
+    'message' => 'Die Asset-ID für diesen Artikel.'
+  },
+  'item price' => {
+    'lastUpdated' => '1240755758',
+    'message' => 'Artikelpreis'
+  },
+  'label' => {
+    'lastUpdated' => '1240755780',
+    'message' => 'Label'
   },
   'lastName' => {
     'lastUpdated' => '1228749186',
     'message' => 'Nachname'
   },
+  'monthly' => {
+    'lastUpdated' => '1240755794',
+    'message' => 'Monat'
+  },
   'name' => {
     'lastUpdated' => '1228749193',
     'message' => 'Name'
+  },
+  'notes' => {
+    'lastUpdated' => '1240755833',
+    'message' => 'Notizen zu dieser Transaktion'
+  },
+  'order number' => {
+    'lastUpdated' => '1240755850',
+    'message' => 'Auftrag-Nr'
+  },
+  'order status' => {
+    'lastUpdated' => '1240756301',
+    'message' => 'Status Bestellung'
+  },
+  'orderNumber' => {
+    'lastUpdated' => '1240756317',
+    'message' => 'Bestell-Nr'
+  },
+  'orderStatus' => {
+    'lastUpdated' => '1240755942',
+    'message' => 'Status dieser Bestellung. (Versandt, Storniert, Lieferrückstand oder Nicht versandt)'
   },
   'organization' => {
     'lastUpdated' => '1228749201',
@@ -237,13 +337,33 @@ our $I18N = {
     'lastUpdated' => '1240496136',
     'message' => 'Produkte'
   },
+  'quantity' => {
+    'lastUpdated' => '1240755956',
+    'message' => 'Menge'
+  },
   'quarterly' => {
     'lastUpdated' => '1228749224',
     'message' => 'Drei Monate'
   },
+  'shipping' => {
+    'lastUpdated' => '1240756038',
+    'message' => 'Versand'
+  },
   'shipping address' => {
     'lastUpdated' => '1240496261',
     'message' => 'Versandadresse'
+  },
+  'shipping amount' => {
+    'lastUpdated' => '1240756055',
+    'message' => 'Versandmenge'
+  },
+  'shipping method' => {
+    'lastUpdated' => '1240756093',
+    'message' => 'Versandart'
+  },
+  'shipping methods' => {
+    'lastUpdated' => '1240756108',
+    'message' => 'Versandarte'
   },
   'shippingAddress1' => {
     'lastUpdated' => '1240496185',
@@ -252,6 +372,30 @@ our $I18N = {
   'shippingAddress2' => {
     'lastUpdated' => '1240496205',
     'message' => 'Versandadresse 2'
+  },
+  'shippingAddressCity' => {
+    'lastUpdated' => '1240756142',
+    'message' => 'Ort'
+  },
+  'shippingAddressCode' => {
+    'lastUpdated' => '1240756207',
+    'message' => 'Plz'
+  },
+  'shippingAddressCountry' => {
+    'lastUpdated' => '1240756214',
+    'message' => 'Land'
+  },
+  'shippingAddressId' => {
+    'lastUpdated' => '1240756243',
+    'message' => 'ID der Versandadresse dieser Transaction'
+  },
+  'shippingAddressName' => {
+    'lastUpdated' => '1240756257',
+    'message' => 'Name'
+  },
+  'shippingAddressPhoneNumber' => {
+    'lastUpdated' => '1240756268',
+    'message' => 'Telefon'
   },
   'tax' => {
     'lastUpdated' => '1228174791',

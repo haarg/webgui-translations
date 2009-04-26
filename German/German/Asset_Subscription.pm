@@ -53,6 +53,10 @@ our $I18N = {
     'lastUpdated' => '1226015094',
     'message' => 'Alle anzeigen'
   },
+  'edit subscription title' => {
+    'lastUpdated' => '1240755672',
+    'message' => 'Abonnement ändern'
+  },
   'generate batch' => {
     'lastUpdated' => '1240741056',
     'message' => 'Codeserie generieren'
