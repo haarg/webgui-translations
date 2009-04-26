@@ -2,8 +2,8 @@ package WebGUI::i18n::German::Shop;
 use utf8;
 our $I18N = {
   'Backordered' => {
-    'lastUpdated' => '1228748598',
-    'message' => 'Nicht vorrätig'
+    'lastUpdated' => '1240757868',
+    'message' => 'Im Lieferrückstand'
   },
   'Cancelled' => {
     'lastUpdated' => '1228748625',
@@ -241,13 +241,21 @@ our $I18N = {
     'lastUpdated' => '1240756505',
     'message' => 'Exportsteuer'
   },
+  'extended price' => {
+    'lastUpdated' => '1240758802',
+    'message' => 'Preis/Pos.'
+  },
   'firstName' => {
     'lastUpdated' => '1228749171',
     'message' => 'Vorname'
   },
   'fourweekly' => {
-    'lastUpdated' => '1240756528',
-    'message' => 'Vier wochen'
+    'lastUpdated' => '1240758758',
+    'message' => 'Vierwöchentlich'
+  },
+  'halfyearly' => {
+    'lastUpdated' => '1240757947',
+    'message' => 'halbjählich'
   },
   'import tax' => {
     'lastUpdated' => '1240756543',
@@ -269,9 +277,17 @@ our $I18N = {
     'lastUpdated' => '1240756696',
     'message' => '%s soll angegeben werden'
   },
+  'isCashier' => {
+    'lastUpdated' => '1240758879',
+    'message' => 'Angabe, ob der aktuelle Benutzer als Einskaufsvertreter auftreten kann.'
+  },
   'isRecurring' => {
     'lastUpdated' => '1240756783',
     'message' => 'Angabe, ob es sich um eine sich wiederholenden Transaktion handelt.'
+  },
+  'isSuccessful' => {
+    'lastUpdated' => '1240758956',
+    'message' => 'Transaktion erfolgreich'
   },
   'item' => {
     'lastUpdated' => '1240496116',
@@ -285,6 +301,14 @@ our $I18N = {
     'lastUpdated' => '1240755758',
     'message' => 'Artikelpreis'
   },
+  'item quantity' => {
+    'lastUpdated' => '1240758930',
+    'message' => 'Artikelmenge'
+  },
+  'items' => {
+    'lastUpdated' => '1240758723',
+    'message' => 'Eine Schleife mit allen Artikeln zu dieser Transaktion'
+  },
   'label' => {
     'lastUpdated' => '1240755780',
     'message' => 'Label'
@@ -293,13 +317,25 @@ our $I18N = {
     'lastUpdated' => '1228749186',
     'message' => 'Nachname'
   },
+  'manage' => {
+    'lastUpdated' => '1240758683',
+    'message' => 'Verwalten'
+  },
   'monthly' => {
-    'lastUpdated' => '1240755794',
+    'lastUpdated' => '1240758639',
     'message' => 'Monat'
+  },
+  'my purchases' => {
+    'lastUpdated' => '1240758657',
+    'message' => 'Meine Einkäufe'
   },
   'name' => {
     'lastUpdated' => '1228749193',
     'message' => 'Name'
+  },
+  'not applicable' => {
+    'lastUpdated' => '1240758618',
+    'message' => 'entfällt'
   },
   'notes' => {
     'lastUpdated' => '1240755833',
@@ -325,6 +361,14 @@ our $I18N = {
     'lastUpdated' => '1228749201',
     'message' => 'Organisation'
   },
+  'payment method' => {
+    'lastUpdated' => '1240758494',
+    'message' => 'Zahlungsart'
+  },
+  'payment methods' => {
+    'lastUpdated' => '1240758502',
+    'message' => 'Zahlungsweise'
+  },
   'price' => {
     'lastUpdated' => '1228749212',
     'message' => 'Preis'
@@ -344,6 +388,22 @@ our $I18N = {
   'quarterly' => {
     'lastUpdated' => '1228749224',
     'message' => 'Drei Monate'
+  },
+  'refund' => {
+    'lastUpdated' => '1240758373',
+    'message' => 'Rückerstattung'
+  },
+  'remove button' => {
+    'lastUpdated' => '1240758225',
+    'message' => 'Entfernen'
+  },
+  'required minimum order amount' => {
+    'lastUpdated' => '1240758251',
+    'message' => 'Mindestauftragshöhe'
+  },
+  'saveButton help' => {
+    'lastUpdated' => '1240758305',
+    'message' => 'Der Standardtext zum Sichern-Knopf'
   },
   'shipping' => {
     'lastUpdated' => '1240756038',
@@ -373,6 +433,10 @@ our $I18N = {
     'lastUpdated' => '1240496205',
     'message' => 'Versandadresse 2'
   },
+  'shippingAddress3' => {
+    'lastUpdated' => '1240757994',
+    'message' => 'Die dritte Zeile einer Versandadresse'
+  },
   'shippingAddressCity' => {
     'lastUpdated' => '1240756142',
     'message' => 'Ort'
@@ -396,6 +460,14 @@ our $I18N = {
   'shippingAddressPhoneNumber' => {
     'lastUpdated' => '1240756268',
     'message' => 'Telefon'
+  },
+  'subtotal' => {
+    'lastUpdated' => '1240758162',
+    'message' => 'Subtotale'
+  },
+  'subtotalPrice help' => {
+    'lastUpdated' => '1240758189',
+    'message' => 'Der Gesamtpreis aller Artikel im Warenkorb'
   },
   'tax' => {
     'lastUpdated' => '1228174791',
@@ -520,6 +592,14 @@ our $I18N = {
   'who can manage help' => {
     'lastUpdated' => '1228750415',
     'message' => 'Die Gruppe mit den Verwaltungsrechten im Shop-System.'
+  },
+  'who is a cashier' => {
+    'lastUpdated' => '1240758146',
+    'message' => 'Wer ist ein Einkaufsvertreter?'
+  },
+  'who is a cashier help' => {
+    'lastUpdated' => '1240758120',
+    'message' => 'Einkaufsvertreter sind berechtigt für andere Benutzer mit deren Emailadresse einzukaufen'
   },
   'yearly' => {
     'lastUpdated' => '1228749272',
