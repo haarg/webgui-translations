@@ -1,22 +1,19 @@
 package WebGUI::i18n::Finnish::Macro_LoginToggle;
-
-
+use utf8;
 our $I18N = {
-	'716' => {
-		message => q|Kirjaudu sisään|,
-		lastUpdated => 1118607874
-	},
-
-	'717' => {
-		message => q|Kirjaudu ulos|,
-		lastUpdated => 1118607889
-	},
-
-	'login toggle title' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-};
+  716 => {
+    'lastUpdated' => '1240849640',
+    'message' => 'Kirjaudu sisään'
+  },
+  717 => {
+    'lastUpdated' => '1118607889',
+    'message' => 'Kirjaudu ulos'
+  },
+  'login toggle title' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  }
+}
+;
 
 1;

@@ -1,4 +1,5 @@
 package WebGUI::i18n::Finnish::Asset;
+use utf8;
 
 
 our $I18N = {
