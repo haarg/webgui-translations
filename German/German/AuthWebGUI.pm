@@ -186,8 +186,8 @@ our $I18N = {
     'message' => 'Geben Sie die nachfolgende Zeichenfolge ein'
   },
   'check email for validation' => {
-    'lastUpdated' => '1178701823',
-    'message' => 'Bitte checken Sie ihre Email, um ihren Account zu aktivieren.'
+    'lastUpdated' => '1240835661',
+    'message' => 'Bitte checken Sie Ihre Email, um Ihren Account zu aktivieren.'
   },
   'create account template' => {
     'lastUpdated' => '1178701843',

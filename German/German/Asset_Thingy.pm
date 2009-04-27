@@ -46,8 +46,8 @@ our $I18N = {
     'message' => 'Eine Bedingung, die angibt ob der aktuelle Benutzer die Berechtigung hat, diese Tabelle anzuschauen. '
   },
   'check duplicates label' => {
-    'lastUpdated' => '1240582333',
-    'message' => 'Auf Duplicate überprüfen?'
+    'lastUpdated' => '1240824005',
+    'message' => 'Auf Duplikate überprüfen?'
   },
   'default save button label' => {
     'lastUpdated' => '1227001838',
@@ -96,8 +96,8 @@ Bei "Ja/Nein" Feldern, geben Sie "yes" für "Ja" und "no" für "Nein" ein.'
     'message' => 'Bearbeiten'
   },
   'edit screen title label' => {
-    'lastUpdated' => '1227001301',
-    'message' => 'Titel Bearbeitungsmodus'
+    'lastUpdated' => '1240823944',
+    'message' => 'Bearbeitungsmodus'
   },
   'edit thing title' => {
     'lastUpdated' => '1227001427',
@@ -236,8 +236,8 @@ Bei "Ja/Nein" Feldern, geben Sie "yes" für "Ja" und "no" für "Nein" ein.'
     'message' => 'Suchen'
   },
   'search other thing label' => {
-    'lastUpdated' => '1240582408',
-    'message' => 'In andere Tabelle suchen'
+    'lastUpdated' => '1240823973',
+    'message' => 'In anderer Tabelle suchen'
   },
   'search screen tab label' => {
     'lastUpdated' => '1240582482',

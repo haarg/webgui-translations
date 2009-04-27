@@ -2,8 +2,8 @@ package WebGUI::i18n::German::Account_User;
 use utf8;
 our $I18N = {
   'templates in auth method message' => {
-    'lastUpdated' => '1233943561',
-    'message' => '<b>Den Stilvorlage für dieses Modul finden Sie in den Einstellungen unter Authentifizierung.</b>'
+    'lastUpdated' => '1240835544',
+    'message' => '<b>Die Stilvorlage für dieses Modul finden Sie in den Einstellungen unter Authentifizierung.</b>'
   },
   'title' => {
     'lastUpdated' => '1236437594',
