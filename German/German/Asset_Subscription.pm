@@ -61,6 +61,14 @@ our $I18N = {
     'lastUpdated' => '1240740765',
     'message' => 'Codes ungültig ab'
   },
+  'codes expire description' => {
+    'lastUpdated' => '1240880329',
+    'message' => 'Der Abocode muss bis zu diesem Datum eingelöst werden.'
+  },
+  'continueShoppingUrl' => {
+    'lastUpdated' => '1240879864',
+    'message' => 'Eine URL zum Reset des Produkts, damit der Benutzer weiter einkaufen kann'
+  },
   'creation date' => {
     'lastUpdated' => '1240778919',
     'message' => 'Erstellungsdatum'
@@ -105,6 +113,10 @@ our $I18N = {
     'lastUpdated' => '1240779216',
     'message' => ''
   },
+  'no subscriptions' => {
+    'lastUpdated' => '1240879978',
+    'message' => 'Es gibt noch keine Abonnements. Sie können Abo\'s hinzufügen mit der Option "Abonnement hinzufügen"'
+  },
   'noc' => {
     'lastUpdated' => '1240741505',
     'message' => 'Anzahl der Abonnementscodes in der Serie'
@@ -129,17 +141,53 @@ our $I18N = {
     'lastUpdated' => '1240741341',
     'message' => 'Wenn "Ja", wird der Kunde nach Ablauf der Abonnementszeit belastet und das Abonnement wird erneuert. Wenn "Nein", läuft das Abonnement automatisch ab.'
   },
+  'redeem code' => {
+    'lastUpdated' => '1240880011',
+    'message' => 'Einen Abonnementscode einlösen.'
+  },
+  'redeem code ask for code' => {
+    'lastUpdated' => '1240880274',
+    'message' => 'Bitte geben Sie Ihren Abocode ein.'
+  },
+  'redeemCodeLabel' => {
+    'lastUpdated' => '1240880235',
+    'message' => 'Abocode einlösen'
+  },
   'select' => {
     'lastUpdated' => '1240778962',
     'message' => 'Selektion anzeigen'
+  },
+  'selection batch name' => {
+    'lastUpdated' => '1240880141',
+    'message' => 'Name Codeserie'
   },
   'status' => {
     'lastUpdated' => '1240778975',
     'message' => 'Status'
   },
+  'subscription name' => {
+    'lastUpdated' => '1240880085',
+    'message' => 'Abo-Name'
+  },
+  'subscription name description' => {
+    'lastUpdated' => '1240880106',
+    'message' => 'Der Name des Abonnements'
+  },
+  'subscription price' => {
+    'lastUpdated' => '1240880027',
+    'message' => 'Abopreis'
+  },
   'template' => {
     'lastUpdated' => '1240778997',
     'message' => 'Vorlage Abonnement'
+  },
+  'thank you message' => {
+    'lastUpdated' => '1240880069',
+    'message' => '"Danke"-Nachricht'
+  },
+  'topicName' => {
+    'lastUpdated' => '1240880044',
+    'message' => 'Abonnements'
   },
   'useSalesTax' => {
     'lastUpdated' => '1240779028',
