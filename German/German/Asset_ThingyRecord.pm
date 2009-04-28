@@ -9,6 +9,10 @@ our $I18N = {
     'lastUpdated' => '1240698142',
     'message' => 'Dauer der Gültigkeit eines Tabelleneintrags'
   },
+  'duration label' => {
+    'lastUpdated' => '1240880487',
+    'message' => 'Dauer'
+  },
   'renew' => {
     'lastUpdated' => '1240698263',
     'message' => 'Verlängern'
@@ -20,6 +24,18 @@ our $I18N = {
   'saved' => {
     'lastUpdated' => '1240698274',
     'message' => 'Gesichert!'
+  },
+  'templateIdView description' => {
+    'lastUpdated' => '1240880548',
+    'message' => 'Die Vorlage für den Ankauf eines Tabelleneintrags'
+  },
+  'templateIdView label' => {
+    'lastUpdated' => '1240880512',
+    'message' => 'Anzeigevorlage'
+  },
+  'thingFields description' => {
+    'lastUpdated' => '1240880475',
+    'message' => 'Die Felder, die vom Benutzer ausgefüllt werden können'
   },
   'thingFields label' => {
     'lastUpdated' => '1240698438',
