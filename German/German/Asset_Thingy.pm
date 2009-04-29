@@ -83,13 +83,21 @@ Bei "Ja/Nein" Feldern, geben Sie "yes" für "Ja" und "no" für "Nein" ein.'
     'lastUpdated' => '1227001205',
     'message' => 'Löschen'
   },
+  'delete thing warning' => {
+    'lastUpdated' => '1240997756',
+    'message' => 'Möchten Sie diese Tabelle und alle Daten wirklich löschen? Dieser Vorgang ist entgültig!'
+  },
+  'delete_confirm' => {
+    'lastUpdated' => '1240997687',
+    'message' => ''
+  },
   'display label' => {
     'lastUpdated' => '1227001779',
     'message' => 'Anzeige'
   },
   'duplicates label' => {
-    'lastUpdated' => '1227001767',
-    'message' => 'Was soll mit Doppelteinträge passieren?'
+    'lastUpdated' => '1240997627',
+    'message' => 'Was soll mit Doppelteinträgen passieren?'
   },
   'edit label' => {
     'lastUpdated' => '1227001701',
@@ -102,6 +110,10 @@ Bei "Ja/Nein" Feldern, geben Sie "yes" für "Ja" und "no" für "Nein" ein.'
   'edit thing title' => {
     'lastUpdated' => '1227001427',
     'message' => 'Tabelle bearbeiten'
+  },
+  'editInstructions' => {
+    'lastUpdated' => '1240997097',
+    'message' => 'Änderungsanweisungen für diese Tabelle'
   },
   'editScreenTitle' => {
     'lastUpdated' => '1238256717',
@@ -123,6 +135,10 @@ Bei "Ja/Nein" Feldern, geben Sie "yes" für "Ja" und "no" für "Nein" ein.'
     'lastUpdated' => '1240487459',
     'message' => 'Die ID dieses Felds'
   },
+  'field_isRequired' => {
+    'lastUpdated' => '1240997154',
+    'message' => 'Eine Bedingung, die angibt, ob eine Eingabe in dieses Feld erforderlich ist.'
+  },
   'field_label' => {
     'lastUpdated' => '1234944683',
     'message' => 'Bezeichnung'
@@ -130,6 +146,10 @@ Bei "Ja/Nein" Feldern, geben Sie "yes" für "Ja" und "no" für "Nein" ein.'
   'field_name' => {
     'lastUpdated' => '1240487427',
     'message' => 'Name des Formularelements für dieses Feld'
+  },
+  'field_pretext' => {
+    'lastUpdated' => '1240997847',
+    'message' => 'Zusatztext vor das Eingabefeld.'
   },
   'field_value' => {
     'lastUpdated' => '1236681150',
@@ -147,9 +167,29 @@ Bei "Ja/Nein" Feldern, geben Sie "yes" für "Ja" und "no" für "Nein" ein.'
     'lastUpdated' => '1240582301',
     'message' => 'File enthält'
   },
+  'form_end' => {
+    'lastUpdated' => '1240997465',
+    'message' => 'Ende des Formulars'
+  },
+  'form_start' => {
+    'lastUpdated' => '1240997480',
+    'message' => 'Anfang des Formulars'
+  },
   'form_submit' => {
     'lastUpdated' => '1236681187',
     'message' => 'Abschicken'
+  },
+  'has entered max per user message' => {
+    'lastUpdated' => '1240997198',
+    'message' => 'Sie haben die für Sie maximale Anzahl der Einträge in dieser Tabelle erreicht'
+  },
+  'height label' => {
+    'lastUpdated' => '1240997448',
+    'message' => 'Höhe'
+  },
+  'height subtext' => {
+    'lastUpdated' => '1240997521',
+    'message' => 'Optional fur Text-/HTML-area'
   },
   'ignore first line label' => {
     'lastUpdated' => '1240582221',
@@ -199,6 +239,14 @@ Bei "Ja/Nein" Feldern, geben Sie "yes" für "Ja" und "no" für "Nein" ein.'
     'lastUpdated' => '1227001440',
     'message' => 'Bezeichnung der Tabelle'
   },
+  'no field values message' => {
+    'lastUpdated' => '1240997234',
+    'message' => 'Das Feld hat keinen Eintrag'
+  },
+  'no permission to edit' => {
+    'lastUpdated' => '1240997570',
+    'message' => 'Sie haben keine Berchtigung diese Tabelle zu ändern.'
+  },
   'overwrite label' => {
     'lastUpdated' => '1240582368',
     'message' => 'überschreiben'
@@ -241,6 +289,10 @@ Bei "Ja/Nein" Feldern, geben Sie "yes" für "Ja" und "no" für "Nein" ein.'
   },
   'search screen tab label' => {
     'lastUpdated' => '1240582482',
+    'message' => 'Suchen'
+  },
+  'search screen title description' => {
+    'lastUpdated' => '1240997264',
     'message' => 'Suchen'
   },
   'search screen title label' => {
@@ -291,9 +343,17 @@ Bei "Ja/Nein" Feldern, geben Sie "yes" für "Ja" und "no" für "Nein" ein.'
     'lastUpdated' => '1227000752',
     'message' => 'Sortieren nach'
   },
+  'subtext description' => {
+    'lastUpdated' => '1240997343',
+    'message' => 'Ein Ergänzungstext zum Label unter/nach das Eingabefeld.'
+  },
   'subtext label' => {
     'lastUpdated' => '1238256796',
     'message' => 'Zusatztext'
+  },
+  'thing must have fields' => {
+    'lastUpdated' => '1240997415',
+    'message' => 'Fehler: Sie sollten Felder für die neue Tabelle definieren.'
   },
   'thing name label' => {
     'lastUpdated' => '1240495901',
@@ -336,12 +396,12 @@ Bei "Ja/Nein" Feldern, geben Sie "yes" für "Ja" und "no" für "Nein" ein.'
     'message' => 'Anzeige letzter Änderung'
   },
   'view screen tab label' => {
-    'lastUpdated' => '1227001561',
-    'message' => 'Anzeigebildschirm'
+    'lastUpdated' => '1240997920',
+    'message' => 'Anzeige'
   },
   'view screen title label' => {
-    'lastUpdated' => '1240471456',
-    'message' => 'Anzeigebildschirm'
+    'lastUpdated' => '1240997894',
+    'message' => 'Anzeige'
   },
   'view template label' => {
     'lastUpdated' => '1227001612',
@@ -356,8 +416,8 @@ Bei "Ja/Nein" Feldern, geben Sie "yes" für "Ja" und "no" für "Nein" ein.'
     'message' => 'Tabelle Standardanzeige'
   },
   'viewScreenTitle' => {
-    'lastUpdated' => '1240471473',
-    'message' => 'Anzeige-Bildschirm'
+    'lastUpdated' => '1240997967',
+    'message' => 'Anzeige'
   },
   'view_url' => {
     'lastUpdated' => '1240471825',
