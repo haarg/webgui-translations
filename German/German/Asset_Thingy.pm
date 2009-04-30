@@ -41,6 +41,10 @@ our $I18N = {
     'lastUpdated' => '1240471399',
     'message' => 'Zurück'
   },
+  'canEditThings' => {
+    'lastUpdated' => '1241126984',
+    'message' => '"wahr" wenn der aktuelle Benutzer die Tabellen in diesem Asset sehen kann.'
+  },
   'canView' => {
     'lastUpdated' => '1238880059',
     'message' => 'Eine Bedingung, die angibt ob der aktuelle Benutzer die Berechtigung hat, diese Tabelle anzuschauen. '
