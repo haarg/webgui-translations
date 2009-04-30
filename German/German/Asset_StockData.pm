@@ -2,16 +2,16 @@ package WebGUI::i18n::German::Asset_StockData;
 use utf8;
 our $I18N = {
   'Last Update' => {
-    'lastUpdated' => 1229992546,
+    'lastUpdated' => '1229992546',
     'message' => 'Letzte Aktualisierung'
   },
   'add_button_label' => {
-    'lastUpdated' => 1157856495,
+    'lastUpdated' => '1157856495',
     'message' => 'Hinzufügen &gt;&gt;<br />'
   },
   'assetName' => {
-    'lastUpdated' => 1170406657,
-    'message' => 'Bestandsdaten'
+    'lastUpdated' => '1241126766',
+    'message' => 'Börsendaten'
   },
   'defaultStocks' => {
     'lastUpdated' => undef,
@@ -114,8 +114,8 @@ our $I18N = {
     'message' => ''
   },
   'stock data asset template variables title' => {
-    'lastUpdated' => 1170406674,
-    'message' => 'Bestandsdaten Asset Template Variablen<br />'
+    'lastUpdated' => '1241126805',
+    'message' => 'Börsendaten Asset Template Variablen'
   },
   'stock.display.url' => {
     'lastUpdated' => undef,
