@@ -201,6 +201,10 @@ our $I18N = {
     'lastUpdated' => '1228750080',
     'message' => 'Firmen-URL'
   },
+  'configuredTitle' => {
+    'lastUpdated' => '1241156746',
+    'message' => 'Titel für die Asset-ID. Dies ist ein vom Benutzer angepasster Titel für das Asset.'
+  },
   'continue shopping button' => {
     'lastUpdated' => '1240756452',
     'message' => 'Weiter einkaufen'
@@ -208,6 +212,14 @@ our $I18N = {
   'country' => {
     'lastUpdated' => '1240755709',
     'message' => 'Land'
+  },
+  'country help' => {
+    'lastUpdated' => '1241156769',
+    'message' => 'Das Land zu dieser Adresse'
+  },
+  'countryField help' => {
+    'lastUpdated' => '1241156807',
+    'message' => 'Ein Feld für das Land zu dieser Adresse.'
   },
   'coupon' => {
     'lastUpdated' => '1240756464',
@@ -221,6 +233,10 @@ our $I18N = {
     'lastUpdated' => '1240496089',
     'message' => 'Erstellungsdatum'
   },
+  'dateAdded help' => {
+    'lastUpdated' => '1241156869',
+    'message' => 'Datum und Zeit als dieses Item in den Warenkorb gelegt wurde.'
+  },
   'dateOfPurchase' => {
     'lastUpdated' => '1240756475',
     'message' => 'Bestelldatum'
@@ -233,6 +249,14 @@ our $I18N = {
     'lastUpdated' => '1240756484',
     'message' => 'Ändern'
   },
+  'edit address template' => {
+    'lastUpdated' => '1241156898',
+    'message' => 'Adressänderungsvorlage'
+  },
+  'editButton help' => {
+    'lastUpdated' => '1241157092',
+    'message' => 'Ein Knopf, der dem Benutzer ermöglicht eine bestehende Adresse zu ändern.'
+  },
   'email' => {
     'lastUpdated' => '1228749164',
     'message' => 'E-Mail'
@@ -240,6 +264,10 @@ our $I18N = {
   'empty cart' => {
     'lastUpdated' => '1240755736',
     'message' => 'Ihr Warenkorb ist leer'
+  },
+  'error help' => {
+    'lastUpdated' => '1241157126',
+    'message' => 'Wenn es Probleme gibt, wird die Fehlermeldung hier angegeben.'
   },
   'export tax' => {
     'lastUpdated' => '1240756505',
@@ -249,9 +277,21 @@ our $I18N = {
     'lastUpdated' => '1240781512',
     'message' => 'Preis * Menge'
   },
+  'extendedPrice help' => {
+    'lastUpdated' => '1241156940',
+    'message' => 'Preis der Auftragsposition (Menge*Stückzahl)'
+  },
   'firstName' => {
     'lastUpdated' => '1228749171',
     'message' => 'Vorname'
+  },
+  'formFooter help' => {
+    'lastUpdated' => '1241156957',
+    'message' => 'Abschluss des Formulars'
+  },
+  'formHeader help' => {
+    'lastUpdated' => '1241156973',
+    'message' => 'Formularkopf'
   },
   'fourweekly' => {
     'lastUpdated' => '1240758758',
@@ -260,6 +300,10 @@ our $I18N = {
   'halfyearly' => {
     'lastUpdated' => '1240757947',
     'message' => 'halbjählich'
+  },
+  'hasShippingAddress help' => {
+    'lastUpdated' => '1241157039',
+    'message' => 'Angabe, ob der Benutzer bereits eine Versandadresse angegeben hat. Diese Versandadresse ist immer notwendig um die Steuer errechnen zu können.'
   },
   'import tax' => {
     'lastUpdated' => '1240756543',
@@ -309,6 +353,10 @@ our $I18N = {
     'lastUpdated' => '1240781617',
     'message' => 'Datum letzter Änderung Transaktionsitem'
   },
+  'item options' => {
+    'lastUpdated' => '1241157196',
+    'message' => 'JSON-kodierte Optionen für dieses Asset. Sie sollten diese Variable wahrscheinlich kaum benötigen.'
+  },
   'item price' => {
     'lastUpdated' => '1240755758',
     'message' => 'Artikelpreis'
@@ -316,6 +364,22 @@ our $I18N = {
   'item quantity' => {
     'lastUpdated' => '1240758930',
     'message' => 'Artikelmenge'
+  },
+  'item shippingAddress1' => {
+    'lastUpdated' => '1241157294',
+    'message' => '1. Zeile einer Versandadresse mit mehreren Zeilen'
+  },
+  'item shippingAddress2' => {
+    'lastUpdated' => '1241157274',
+    'message' => '2. Zeile einer Versandadresse mit mehreren Zeilen'
+  },
+  'item shippingAddress3' => {
+    'lastUpdated' => '1241157283',
+    'message' => '3. Zeile einer Versandadresse mit mehreren Zeilen'
+  },
+  'item vendorId' => {
+    'lastUpdated' => '1241157332',
+    'message' => 'Die ID des Verkäufers dieses Items'
   },
   'items' => {
     'lastUpdated' => '1240758723',
@@ -336,6 +400,12 @@ our $I18N = {
   'minicart template' => {
     'lastUpdated' => '1240781660',
     'message' => 'Warenkorb Vorlage'
+  },
+  'mixed items warning' => {
+    'lastUpdated' => '1241157671',
+    'message' => 'Sie können leider keine Artikel mit und Artikel ohne Verlängerungsoption in Ihren Warenkorb aufnehmen und bezahlen.
+
+Entweder wählen Sie bitte einen Artikel mit Verlängerungsmöglichkeit oder eine beliebige Anzahl sonstiger Artikel. Wenn Sie beide Artikelarten kaufen möchten, tun Sie das bitte durch zwei Bestellvorgänge.'
   },
   'monthly' => {
     'lastUpdated' => '1240758639',
