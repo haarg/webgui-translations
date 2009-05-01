@@ -37,6 +37,14 @@ our $I18N = {
     'lastUpdated' => '1236387065',
     'message' => 'Land'
   },
+  'credentials template' => {
+    'lastUpdated' => '1241156555',
+    'message' => 'Vorlage Zahlungs- und Kreditkarteninformation'
+  },
+  'credentials template help' => {
+    'lastUpdated' => '1241156511',
+    'message' => 'Wählen Sie eine Vorlage für das Benutzerformular zur Eingabe von Zahlungs- und Kreditkarteninformationen.'
+  },
   'cvv2' => {
     'lastUpdated' => '1236389975',
     'message' => 'Kartenprüfnummer (CVV2)'
