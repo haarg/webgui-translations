@@ -2358,6 +2358,14 @@ Kopieren Sie ggf. Dateien und fügen Sie diese in den Editor ein.'
     'lastUpdated' => '1178618700',
     'message' => 'Zahl (dezimal)'
   },
+  'global head tags description' => {
+    'lastUpdated' => '1241155426',
+    'message' => 'Headtags auf jeder Seite, inklusive Admin-Seiten'
+  },
+  'global head tags label' => {
+    'lastUpdated' => '1241155371',
+    'message' => 'Globale Headtags'
+  },
   'group' => {
     'lastUpdated' => '1178607321',
     'message' => 'Gruppe'
