@@ -369,6 +369,10 @@ our $I18N = {
     'lastUpdated' => '1240758956',
     'message' => 'Transaktion erfolgreich'
   },
+  'isUnique help' => {
+    'lastUpdated' => '1241190128',
+    'message' => 'Angabe ob dieses Item nur einmal vorkommt und deswegen die maximum Menge 1 beträgt. '
+  },
   'item' => {
     'lastUpdated' => '1240496116',
     'message' => 'Artikel'
@@ -381,6 +385,10 @@ our $I18N = {
     'lastUpdated' => '1240781617',
     'message' => 'Datum letzter Änderung Transaktionsitem'
   },
+  'item name help' => {
+    'lastUpdated' => '1241190161',
+    'message' => 'Produktname'
+  },
   'item options' => {
     'lastUpdated' => '1241157196',
     'message' => 'JSON-kodierte Optionen für dieses Asset. Sie sollten diese Variable wahrscheinlich kaum benötigen.'
@@ -392,6 +400,10 @@ our $I18N = {
   'item quantity' => {
     'lastUpdated' => '1240758930',
     'message' => 'Artikelmenge'
+  },
+  'item shipToButton help' => {
+    'lastUpdated' => '1241190697',
+    'message' => 'Anklicken dieses Knopfes stellt eine alternative Adresse für dieses Item ein.'
   },
   'item shippingAddress1' => {
     'lastUpdated' => '1241157294',
@@ -457,9 +469,17 @@ our $I18N = {
     'lastUpdated' => '1240758723',
     'message' => 'Eine Schleife mit allen Artikeln zu dieser Transaktion'
   },
+  'items loop help' => {
+    'lastUpdated' => '1241190465',
+    'message' => 'Eine Schleife mit den Variablen aller Artikel im Warenkorb'
+  },
   'label' => {
     'lastUpdated' => '1240755780',
     'message' => 'Label'
+  },
+  'label help' => {
+    'lastUpdated' => '1241190192',
+    'message' => 'z.B. "Privat" oder "Firma"'
   },
   'lastName' => {
     'lastUpdated' => '1228749186',
@@ -478,9 +498,17 @@ our $I18N = {
     'lastUpdated' => '1241166899',
     'message' => 'Vorlage "Meine Einkäufe"'
   },
+  'manage my purchases template help' => {
+    'lastUpdated' => '1241190631',
+    'message' => 'DIese Vorlage zeigt Teilinformationen zu den Transaktionen des benutzers an.'
+  },
   'minicart template' => {
     'lastUpdated' => '1240781660',
     'message' => 'Warenkorb Vorlage'
+  },
+  'minicart template help' => {
+    'lastUpdated' => '1241190295',
+    'message' => 'Die folgenden Variablen sind in der Vorlage zum Warenkorb vorhanden.'
   },
   'mixed items warning' => {
     'lastUpdated' => '1241157671',
@@ -496,9 +524,30 @@ Entweder wählen Sie bitte einen Artikel mit Verlängerungsmöglichkeit oder ein
     'lastUpdated' => '1240758657',
     'message' => 'Meine Einkäufe'
   },
+  'my purchases detail template' => {
+    'lastUpdated' => '1241190342',
+    'message' => 'Vorlage zur detaillierter Darstellung der Einkäufe'
+  },
+  'my purchases detail template help' => {
+    'lastUpdated' => '1241190590',
+    'message' => 'Welche Vorlage ist zu verwenden für eine detaillierte Übersicht der Bestellungen eines Benutzers?
+Eine Liste mit jeder einzelnen Transaktion statt der komplette Transaktionsliste. '
+  },
+  'my purchases template' => {
+    'lastUpdated' => '1241190366',
+    'message' => 'Vorlage "Meine Einkäufe"'
+  },
+  'my purchases template help' => {
+    'lastUpdated' => '1241190416',
+    'message' => 'Welche Vorlage soll verwendet werden für die Übersicht der Bestellungen eines Benutzers?'
+  },
   'name' => {
     'lastUpdated' => '1228749193',
     'message' => 'Name'
+  },
+  'name help' => {
+    'lastUpdated' => '1241190235',
+    'message' => 'Name Ansprechpartner zu dieser Adresse'
   },
   'not applicable' => {
     'lastUpdated' => '1240758618',

@@ -209,6 +209,14 @@ our $I18N = {
     'lastUpdated' => '1179922782',
     'message' => 'Template Variablen'
   },
+  'usePacked description' => {
+    'lastUpdated' => '1241189978',
+    'message' => 'Komprimierte Version dieser Vorlage verwenden. (für schnellere Downloads)'
+  },
+  'usePacked label' => {
+    'lastUpdated' => '1241190004',
+    'message' => 'Vorlage komprimieren?'
+  },
   'visited link color' => {
     'lastUpdated' => '1179922792',
     'message' => 'Farbe der besuchten Links'
