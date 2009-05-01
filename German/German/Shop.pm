@@ -859,8 +859,8 @@ Entweder wählen Sie bitte einen Artikel mit Verlängerungsmöglichkeit oder ein
     'message' => 'Der Name des BEnutzer, der diese Transaktion ausgeführt hat. Spart eine Benutzernamen-Suche.'
   },
   'vendor payouts' => {
-    'lastUpdated' => '1240781290',
-    'message' => 'Verkäuferzahlungen'
+    'lastUpdated' => '1241165636',
+    'message' => 'Auszahlungen Lieferant'
   },
   'vendors' => {
     'lastUpdated' => '1228749341',

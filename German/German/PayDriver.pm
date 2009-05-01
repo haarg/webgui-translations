@@ -10,12 +10,12 @@ our $I18N = {
     'message' => 'Kreditkarte'
   },
   'email receipt template' => {
-    'lastUpdated' => '1234737487',
-    'message' => 'Email-Rechnungsvorlage'
+    'lastUpdated' => '1241166175',
+    'message' => 'Vorlage Email Auftragbestätigung/Rechnung'
   },
   'email receipt template help' => {
-    'lastUpdated' => '1234737405',
-    'message' => 'Rechnungsvorlage für den Versand per Email'
+    'lastUpdated' => '1241166199',
+    'message' => 'Vorlage Auftragsbestätigung/Rechnung für den Versand per Email'
   },
   'enabled' => {
     'lastUpdated' => '1234737498',
@@ -50,16 +50,16 @@ Sollten die Fehler nicht behoben werden können, kontaktieren Sie uns bitte.'
     'message' => 'Zahlungsweise'
   },
   'receipt email template' => {
-    'lastUpdated' => '1241156040',
-    'message' => 'Vorlage Emailbeleg (Auftragsbestätigung)'
+    'lastUpdated' => '1241166137',
+    'message' => 'Vorlage Emailbeleg (Auftragsbestätigung/Rechnung)'
   },
   'receipt email template help' => {
-    'lastUpdated' => '1241156077',
-    'message' => 'Welche Vorlage soll verwendet werden für die Auftragsbestätigung per Email?'
+    'lastUpdated' => '1241166225',
+    'message' => 'Welche Vorlage soll verwendet werden für die Auftragsbestätigung/Rechnung per Email?'
   },
   'receipt subject' => {
-    'lastUpdated' => '1241156019',
-    'message' => 'Auftragbestätigung für Auftrag-Nr'
+    'lastUpdated' => '1241166123',
+    'message' => 'Auftragbestätigung/Rechnung für Auftrag-Nr'
   },
   'sale notification group' => {
     'lastUpdated' => '1241156129',

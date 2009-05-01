@@ -450,8 +450,8 @@ our $I18N = {
     'message' => ''
   },
   'default thank you message' => {
-    'lastUpdated' => '1240739589',
-    'message' => 'Herzlichen Dank für Ihren EInkauf!'
+    'lastUpdated' => '1241160442',
+    'message' => 'Herzlichen Dank für Ihren Einkauf!'
   },
   'deleteImage' => {
     'lastUpdated' => undef,

@@ -2,8 +2,8 @@ package WebGUI::i18n::German::Workflow_Activity_ExpirePurchasedThingyRecords;
 use utf8;
 our $I18N = {
   'default notification' => {
-    'lastUpdated' => '1240757240',
-    'message' => 'Ihr Abonnemnt läuft bald ab!'
+    'lastUpdated' => '1241166450',
+    'message' => 'Ihr Abonnement läuft bald ab!'
   },
   'default notification subject' => {
     'lastUpdated' => '1240757266',
@@ -34,8 +34,8 @@ our $I18N = {
     'message' => 'Betreff'
   },
   'topicName' => {
-    'lastUpdated' => '1240757783',
-    'message' => 'Ablauf Einträge zum Kauf '
+    'lastUpdated' => '1241166497',
+    'message' => 'Ablauf Einträge zum Kauf eines Tabelleneintrags'
   }
 }
 ;
