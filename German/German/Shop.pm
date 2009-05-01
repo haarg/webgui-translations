@@ -34,8 +34,8 @@ our $I18N = {
     'message' => 'Einen Anbieter hinzufügen'
   },
   'add credit message' => {
-    'lastUpdated' => '1241154843',
-    'message' => '%s wurde dem Kredit-Account von %s hinzugefügt mit einem Gesamtkreditbetrag von %s'
+    'lastUpdated' => '1241166791',
+    'message' => '%s wurde dem Guthabenkonto von %s hinzugefügt. Das Gesamtguthaben beträgt %s'
   },
   'add payment method' => {
     'lastUpdated' => '1228748766',
@@ -421,6 +421,10 @@ our $I18N = {
     'lastUpdated' => '1241157945',
     'message' => 'ID Versandadresse'
   },
+  'item shippingAddressPhoneNumber' => {
+    'lastUpdated' => '1241167517',
+    'message' => 'Telefonnummer zur Versandadresse'
+  },
   'item shippingAddressState' => {
     'lastUpdated' => '1241158096',
     'message' => 'Bundesland Versandadresse'
@@ -470,6 +474,10 @@ our $I18N = {
     'lastUpdated' => '1240758683',
     'message' => 'Verwalten'
   },
+  'manage my purchases template' => {
+    'lastUpdated' => '1241166899',
+    'message' => 'Vorlage "Meine Einkäufe"'
+  },
   'minicart template' => {
     'lastUpdated' => '1240781660',
     'message' => 'Warenkorb Vorlage'
@@ -500,6 +508,10 @@ Entweder wählen Sie bitte einen Artikel mit Verlängerungsmöglichkeit oder ein
     'lastUpdated' => '1240755833',
     'message' => 'Notizen zu dieser Transaktion'
   },
+  'notice' => {
+    'lastUpdated' => '1241166947',
+    'message' => 'Jede Nachricht vom System, die dem Benutzer angezeigt werden soll.'
+  },
   'order for' => {
     'lastUpdated' => '1240781678',
     'message' => 'Bestellung für'
@@ -523,6 +535,10 @@ Entweder wählen Sie bitte einen Artikel mit Verlängerungsmöglichkeit oder ein
   'organization' => {
     'lastUpdated' => '1228749201',
     'message' => 'Organisation'
+  },
+  'organization help' => {
+    'lastUpdated' => '1241167478',
+    'message' => 'Name der Organisation oder Firma, die diese Adresse benutzt, evtl. Ihre Arbeitsstelle.'
   },
   'originatingTransactionId' => {
     'lastUpdated' => '1241159974',
@@ -592,6 +608,14 @@ Entweder wählen Sie bitte einen Artikel mit Verlängerungsmöglichkeit oder ein
     'lastUpdated' => '1241158601',
     'message' => 'telefonnummer'
   },
+  'phoneNumber help' => {
+    'lastUpdated' => '1241166963',
+    'message' => 'Telefonnumer für diese Adresse.'
+  },
+  'phoneNumberField help' => {
+    'lastUpdated' => '1241167385',
+    'message' => 'Feld für die Telefonnummer zu dieser Adresse.'
+  },
   'posLookupForm' => {
     'lastUpdated' => '1241159466',
     'message' => 'Ein Formular, womit ein Bevollmächtigter ein Benutzer über die Emailadresse suchen kann.'
@@ -608,6 +632,10 @@ Entweder wählen Sie bitte einen Artikel mit Verlängerungsmöglichkeit oder ein
     'lastUpdated' => '1228749212',
     'message' => 'Preis'
   },
+  'price help' => {
+    'lastUpdated' => '1241167247',
+    'message' => 'Artikelpreis, formatiert mit zwei Dezimalstellen.'
+  },
   'print' => {
     'lastUpdated' => '1228750205',
     'message' => 'Drucken'
@@ -620,6 +648,14 @@ Entweder wählen Sie bitte einen Artikel mit Verlängerungsmöglichkeit oder ein
     'lastUpdated' => '1240755956',
     'message' => 'Menge'
   },
+  'quantity help' => {
+    'lastUpdated' => '1241167315',
+    'message' => 'Gekaufte Menge zu diesem Artikel'
+  },
+  'quantityField help' => {
+    'lastUpdated' => '1241167359',
+    'message' => 'Das Feld, wo der Benutzer die gewünschte Liefermenge einträgt.'
+  },
   'quarterly' => {
     'lastUpdated' => '1228749224',
     'message' => 'Drei Monate'
@@ -631,6 +667,10 @@ Entweder wählen Sie bitte einen Artikel mit Verlängerungsmöglichkeit oder ein
   'remove button' => {
     'lastUpdated' => '1240758225',
     'message' => 'Entfernen'
+  },
+  'removeButton help' => {
+    'lastUpdated' => '1241167089',
+    'message' => 'Anklicken dieses Knopfs entfernt den Artikel aus dem Warenkorb.'
   },
   'required minimum order amount' => {
     'lastUpdated' => '1240758251',
@@ -673,6 +713,10 @@ Entweder wählen Sie bitte einen Artikel mit Verlängerungsmöglichkeit oder ein
     'lastUpdated' => '1240756108',
     'message' => 'Versandarte'
   },
+  'shippingAddress help' => {
+    'lastUpdated' => '1241167020',
+    'message' => 'HTML-formatierte Versandadresse'
+  },
   'shippingAddress1' => {
     'lastUpdated' => '1240496185',
     'message' => 'Versandadresse 1'
@@ -706,16 +750,28 @@ Entweder wählen Sie bitte einen Artikel mit Verlängerungsmöglichkeit oder ein
     'message' => 'Name'
   },
   'shippingAddressPhoneNumber' => {
-    'lastUpdated' => '1240756268',
-    'message' => 'Telefon'
+    'lastUpdated' => '1241166997',
+    'message' => 'Telefonnummer zur Versandadresse'
   },
   'shippingAddressState' => {
     'lastUpdated' => '1241158726',
     'message' => 'Bundesland Versandadresse'
   },
+  'shippingDriverId' => {
+    'lastUpdated' => '1241167173',
+    'message' => 'Der UID für das Versandprogramm für diese Transaktion.'
+  },
   'shippingDriverLabel' => {
     'lastUpdated' => '1241159745',
     'message' => 'Die Bezeichung für die Versandart in dieser Transaktion'
+  },
+  'shippingOptions help' => {
+    'lastUpdated' => '1241167127',
+    'message' => 'Eine Selektliste mit allen Versandoptionen für diese Bestellung.'
+  },
+  'shippingPrice help' => {
+    'lastUpdated' => '1241167219',
+    'message' => 'Versandkosten, formatiert mit zwei Dezimalstellen.'
   },
   'shop' => {
     'lastUpdated' => '1241158739',
