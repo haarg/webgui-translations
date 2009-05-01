@@ -209,6 +209,10 @@ our $I18N = {
     'lastUpdated' => '1240756452',
     'message' => 'Weiter einkaufen'
   },
+  'continueShoppingButton help' => {
+    'lastUpdated' => '1241157767',
+    'message' => 'Wenn dieser Knopf aktiviert wird, wird der Benutzer zurück zur Website geführt.'
+  },
   'country' => {
     'lastUpdated' => '1240755709',
     'message' => 'Land'
@@ -240,6 +244,14 @@ our $I18N = {
   'dateOfPurchase' => {
     'lastUpdated' => '1240756475',
     'message' => 'Bestelldatum'
+  },
+  'default' => {
+    'lastUpdated' => '1241157794',
+    'message' => 'Standardeinstellung'
+  },
+  'defaultButton help' => {
+    'lastUpdated' => '1241157847',
+    'message' => 'Ein Knopf, der es dem Benutzer ermöglicht, eine Adresse als Standardeinstellung zu verwenden.'
   },
   'delete' => {
     'lastUpdated' => '1240781527',
@@ -377,9 +389,49 @@ our $I18N = {
     'lastUpdated' => '1241157283',
     'message' => '3. Zeile einer Versandadresse mit mehreren Zeilen'
   },
+  'item shippingAddressCity' => {
+    'lastUpdated' => '1241157902',
+    'message' => 'Ort Versandadresse'
+  },
+  'item shippingAddressCode' => {
+    'lastUpdated' => '1241157916',
+    'message' => 'Code Versandadresse'
+  },
+  'item shippingAddressCountry' => {
+    'lastUpdated' => '1241157929',
+    'message' => 'Land Versandadresse'
+  },
+  'item shippingAddressId' => {
+    'lastUpdated' => '1241157945',
+    'message' => 'ID Versandadresse'
+  },
+  'item shippingAddressState' => {
+    'lastUpdated' => '1241158096',
+    'message' => 'Bundesland Versandadresse'
+  },
+  'item shippingName' => {
+    'lastUpdated' => '1241158116',
+    'message' => 'Name Versandadresse für dieses Item'
+  },
+  'item transactionId' => {
+    'lastUpdated' => '1241157961',
+    'message' => 'ID Transaktion'
+  },
+  'item url help' => {
+    'lastUpdated' => '1241158163',
+    'message' => 'URL zu diesem Item, wie konfiguriert'
+  },
   'item vendorId' => {
     'lastUpdated' => '1241157332',
     'message' => 'Die ID des Verkäufers dieses Items'
+  },
+  'itemId' => {
+    'lastUpdated' => '1241158021',
+    'message' => 'Die eindeutige ID für dieses Item aus allen Items in allen Transaktionen'
+  },
+  'itemShippingAddress' => {
+    'lastUpdated' => '1241158070',
+    'message' => 'Formatierte Versandadresse '
   },
   'items' => {
     'lastUpdated' => '1240758723',
@@ -451,6 +503,10 @@ Entweder wählen Sie bitte einen Artikel mit Verlängerungsmöglichkeit oder ein
     'lastUpdated' => '1228749201',
     'message' => 'Organisation'
   },
+  'payment address' => {
+    'lastUpdated' => '1241158177',
+    'message' => 'Zahlungsadresse'
+  },
   'payment method' => {
     'lastUpdated' => '1240758494',
     'message' => 'Zahlungsart'
@@ -458,6 +514,62 @@ Entweder wählen Sie bitte einen Artikel mit Verlängerungsmöglichkeit oder ein
   'payment methods' => {
     'lastUpdated' => '1240758502',
     'message' => 'Zahlungsweise'
+  },
+  'paymentAddress' => {
+    'lastUpdated' => '1241158232',
+    'message' => 'Formatiert Zahlungs-/Rechnungsadresse'
+  },
+  'paymentAddress1' => {
+    'lastUpdated' => '1241158270',
+    'message' => '1. Zeile in einer Rechnungsadresse mit mehreren Zeilen'
+  },
+  'paymentAddress2' => {
+    'lastUpdated' => '1241158285',
+    'message' => '2. Zeile in einer Rechnungsadresse mit mehreren Zeilen.'
+  },
+  'paymentAddress3' => {
+    'lastUpdated' => '1241158294',
+    'message' => '3. Zeile in einer Rechnungsadresse mit mehreren Zeilen.'
+  },
+  'paymentAddressCity' => {
+    'lastUpdated' => '1241158343',
+    'message' => 'Ort Rechnungsadresse'
+  },
+  'paymentAddressCode' => {
+    'lastUpdated' => '1241158359',
+    'message' => 'Code Rechnungsadresse'
+  },
+  'paymentAddressCountry' => {
+    'lastUpdated' => '1241158372',
+    'message' => 'Land Rechnungsadresse'
+  },
+  'paymentAddressName' => {
+    'lastUpdated' => '1241158387',
+    'message' => 'Name Rechnungsadresse'
+  },
+  'paymentAddressPhoneNumber' => {
+    'lastUpdated' => '1241158401',
+    'message' => 'Telefon Rechnungsadresse'
+  },
+  'paymentAddressState' => {
+    'lastUpdated' => '1241158419',
+    'message' => 'Bundesland Rechnungsadresse'
+  },
+  'per item shipping' => {
+    'lastUpdated' => '1241158456',
+    'message' => 'Versand/Artikel'
+  },
+  'phone number' => {
+    'lastUpdated' => '1241158601',
+    'message' => 'telefonnummer'
+  },
+  'posUserId' => {
+    'lastUpdated' => '1241158571',
+    'message' => 'Käufer-userId'
+  },
+  'posUsername' => {
+    'lastUpdated' => '1241158587',
+    'message' => 'Name Käufer'
   },
   'price' => {
     'lastUpdated' => '1228749212',
@@ -494,6 +606,15 @@ Entweder wählen Sie bitte einen Artikel mit Verlängerungsmöglichkeit oder ein
   'saveButton help' => {
     'lastUpdated' => '1240758305',
     'message' => 'Der Standardtext zum Sichern-Knopf'
+  },
+  'ship to button' => {
+    'lastUpdated' => '1241158650',
+    'message' => 'Versandinfo'
+  },
+  'shipToButton help' => {
+    'lastUpdated' => '1241158710',
+    'message' => 'gleich wie chooseShippingButton.
+'
   },
   'shipping' => {
     'lastUpdated' => '1240756038',
@@ -550,6 +671,35 @@ Entweder wählen Sie bitte einen Artikel mit Verlängerungsmöglichkeit oder ein
   'shippingAddressPhoneNumber' => {
     'lastUpdated' => '1240756268',
     'message' => 'Telefon'
+  },
+  'shippingAddressState' => {
+    'lastUpdated' => '1241158726',
+    'message' => 'Bundesland Versandadresse'
+  },
+  'shop' => {
+    'lastUpdated' => '1241158739',
+    'message' => 'Shop'
+  },
+  'shop settings' => {
+    'lastUpdated' => '1241158756',
+    'message' => 'Shop-Einstellungen'
+  },
+  'shopCreditDeduction' => {
+    'lastUpdated' => '1241158832',
+    'message' => 'Shop-Guthaben, verwendet in dieser Transaktion (unformatiert)'
+  },
+  'state' => {
+    'lastUpdated' => '1241158844',
+    'message' => 'Bundesland'
+  },
+  'stateField help' => {
+    'lastUpdated' => '1241158874',
+    'message' => 'Bundesland/Provinz für diese Adresse'
+  },
+  'status message' => {
+    'lastUpdated' => '1241158933',
+    'message' => 'Statusnachricht
+'
   },
   'subtotal' => {
     'lastUpdated' => '1240758162',
