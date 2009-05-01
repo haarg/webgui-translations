@@ -531,13 +531,29 @@ our $I18N = {
     'lastUpdated' => '1180080494',
     'message' => 'URL, um alle Termine am gleichen Tag in diesem Kalender anzuzeigen.'
   },
+  'urlDelete' => {
+    'lastUpdated' => '1241154303',
+    'message' => 'Eine URL um diesen Termin zu löschen.'
+  },
+  'urlEdit' => {
+    'lastUpdated' => '1241154324',
+    'message' => 'URL um diesen Termin zu ändern.'
+  },
+  'urlList' => {
+    'lastUpdated' => '1241154348',
+    'message' => 'URL um die Termine als Liste anzuzeigen.'
+  },
   'urlMonth' => {
     'lastUpdated' => '1180080470',
     'message' => 'URL, um alle Termine im gleichen Monat dieses Kalenders anzuzeigen.'
   },
   'urlParent' => {
-    'lastUpdated' => '1180080439',
+    'lastUpdated' => '1241154258',
     'message' => 'URL zum Kalender, der diesen Termin enthält.'
+  },
+  'urlPrint' => {
+    'lastUpdated' => '1241154250',
+    'message' => 'Eine URL um diesen Termin unter Verwending seiner Vorlage für den Ausdruck vorzubereiten.'
   },
   'urlSearch' => {
     'lastUpdated' => '1180079918',
