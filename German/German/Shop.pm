@@ -34,8 +34,8 @@ our $I18N = {
     'message' => 'Einen Anbieter hinzufügen'
   },
   'add credit message' => {
-    'lastUpdated' => '1228749526',
-    'message' => '%s wurde dem %s Kredit-Accout hinzugefügt mit einem Gesamtkreditbetrag von %s'
+    'lastUpdated' => '1241154843',
+    'message' => '%s wurde dem Kredit-Account von %s hinzugefügt mit einem Gesamtkreditbetrag von %s'
   },
   'add payment method' => {
     'lastUpdated' => '1228748766',

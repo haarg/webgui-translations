@@ -25,6 +25,11 @@ our $I18N = {
     'lastUpdated' => '1240781878',
     'message' => 'Transaktion mit Abschicken abschließen?'
   },
+  'complete transaction description' => {
+    'lastUpdated' => '1241155211',
+    'message' => 'Wenn "Ja", wird die Transaktion abgeschlossen, wenn der Benutzer Zahlungsinformationen angibt. 
+Wenn "Nein", wird die Transaktion nicht abgeschlossen und muss manuell komplettiert werden. Das kann sinnvoll sein, wenn Sie dem Besucher erlauben möchten, die Zahlungsart einzugeben und Sie warten möchten, bis die Zahlung eingeht, bevor die Transaktion abgeschlossen wird.'
+  },
   'country' => {
     'lastUpdated' => '1240781890',
     'message' => 'Land'
@@ -76,6 +81,50 @@ our $I18N = {
   'label' => {
     'lastUpdated' => '1240782097',
     'message' => 'Barzahlung'
+  },
+  'lastName' => {
+    'lastUpdated' => '1241154876',
+    'message' => 'Nachname'
+  },
+  'module name' => {
+    'lastUpdated' => '1241155313',
+    'message' => 'Barzahlung'
+  },
+  'no description' => {
+    'lastUpdated' => '1241155280',
+    'message' => 'Keine Beschreibung'
+  },
+  'other' => {
+    'lastUpdated' => '1241155248',
+    'message' => 'Andere'
+  },
+  'password' => {
+    'lastUpdated' => '1241154888',
+    'message' => 'Passwort'
+  },
+  'payment method' => {
+    'lastUpdated' => '1241154902',
+    'message' => 'Zahlungsart'
+  },
+  'phone' => {
+    'lastUpdated' => '1241154912',
+    'message' => 'Telefonnummer'
+  },
+  'state' => {
+    'lastUpdated' => '1241154923',
+    'message' => 'Land'
+  },
+  'use cvv2' => {
+    'lastUpdated' => '1241155229',
+    'message' => 'CVV2 benutzen'
+  },
+  'vendorId' => {
+    'lastUpdated' => '1241154965',
+    'message' => 'Benutzername (Verkäufer ID)'
+  },
+  'zipcode' => {
+    'lastUpdated' => '1241154940',
+    'message' => 'Postleitzahl'
   }
 }
 ;
