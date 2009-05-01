@@ -582,6 +582,10 @@ Dies bedeutet in der Regel, dass Sie eine Seite anlegen möchtgen, die den selbe
     'lastUpdated' => '1215170498',
     'message' => 'Stichwort Hilfe'
   },
+  'keywords template var' => {
+    'lastUpdated' => '1241153991',
+    'message' => 'Eine Info mit den Schlagwörtern für dieses Asset. Einzelne Schlagwörter werden mit Leerstellen verbunden. Wenn ein Schlagwort Leerstellen enthält, wird es mit Anführungszeichen versehen.'
+  },
   'last updated' => {
     'lastUpdated' => '1153262812',
     'message' => 'Zuletzt aktualisiert'
@@ -853,6 +857,14 @@ Dies bedeutet in der Regel, dass Sie eine Seite anlegen möchtgen, die den selbe
   'url' => {
     'lastUpdated' => '1168847957',
     'message' => 'URL des Assets.'
+  },
+  'usePackedHeadTags description' => {
+    'lastUpdated' => '1241154103',
+    'message' => 'Für schnellere Downloads werden komprimierte Head-Tags verwendet.'
+  },
+  'usePackedHeadTags label' => {
+    'lastUpdated' => '1241154122',
+    'message' => 'Komprimierte Head-Tags verwenden'
   },
   'view' => {
     'lastUpdated' => '1153261929',
