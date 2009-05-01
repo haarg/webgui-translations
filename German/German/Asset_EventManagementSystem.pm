@@ -53,6 +53,10 @@ our $I18N = {
     'lastUpdated' => '1239658305',
     'message' => 'Gutschein hinzufügen'
   },
+  'add an event meta field' => {
+    'lastUpdated' => '1241171158',
+    'message' => 'Ein Meta-Feld hinzufügen'
+  },
   'add discount pass' => {
     'lastUpdated' => undef,
     'message' => ''
@@ -122,12 +126,12 @@ our $I18N = {
     'message' => 'FEHLER'
   },
   'add/edit event image' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => '1241171206',
+    'message' => 'Veranstaltungsbild'
   },
   'add/edit event image description' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => '1241171318',
+    'message' => 'Ein Bild, das die Veranstaltung repräsentiert. Angezeigt für Seitenbesucher. '
   },
   'add/edit event maximum attendees' => {
     'lastUpdated' => '1199975457',

@@ -6,8 +6,8 @@ our $I18N = {
     'message' => 'Datentabelle'
   },
   'editForm templateId description' => {
-    'lastUpdated' => '1226589586',
-    'message' => 'Wähle ein Template um die Datentabellen anzuzeigen.'
+    'lastUpdated' => '1241189632',
+    'message' => 'Wählen Sie ein Template um die Datentabelle anzuzeigen.'
   },
   'editForm templateId label' => {
     'lastUpdated' => '1241167993',

@@ -26,8 +26,8 @@ our $I18N = {
     'message' => 'Verkauf'
   },
   'shop layout template hoverHelp' => {
-    'lastUpdated' => '1241153811',
-    'message' => 'Die Vorlage zur Anzeige des Shopreiters sowie einer Auflistung der anderen verfügbaren Konto-Erweiterungen.'
+    'lastUpdated' => '1241189549',
+    'message' => 'Die Anzeigevorlage zum Shopreiter und den hierzu gehörigen Inhalten und Funktionen'
   },
   'shop layout template label' => {
     'lastUpdated' => '1233941481',

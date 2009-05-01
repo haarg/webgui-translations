@@ -49,6 +49,14 @@ our $I18N = {
     'lastUpdated' => '1238880229',
     'message' => 'mehr...'
   },
+  'shipsSeparately' => {
+    'lastUpdated' => '1241189692',
+    'message' => 'Einzeln ausliefern?'
+  },
+  'shipsSeparately help' => {
+    'lastUpdated' => '1241189867',
+    'message' => 'Wenn "Ja", dann werden für die Versandkosten pro Artikel berechnet, anstelle eines Gesamtbetrags bei Auslieferung aller Artikel im Warenkorb.'
+  },
   'shop' => {
     'lastUpdated' => '1226014934',
     'message' => 'Shop'
