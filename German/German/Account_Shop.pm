@@ -2,8 +2,8 @@ package WebGUI::i18n::German::Account_Shop;
 use utf8;
 our $I18N = {
   'common account variables' => {
-    'lastUpdated' => '1240780961',
-    'message' => 'Benutzerkonto, Laden'
+    'lastUpdated' => '1241153778',
+    'message' => 'Benutzerkonto, Shop'
   },
   'manage purchases label' => {
     'lastUpdated' => '1233941490',
@@ -26,24 +26,24 @@ our $I18N = {
     'message' => 'Verkauf'
   },
   'shop layout template hoverHelp' => {
-    'lastUpdated' => '1233946166',
-    'message' => 'Die Vorlage zur Anzeige des Ladenreiters sowie einer Auflistung der anderen verfügbaren Konto-Erweiterungen.'
+    'lastUpdated' => '1241153811',
+    'message' => 'Die Vorlage zur Anzeige des Shopreiters sowie einer Auflistung der anderen verfügbaren Konto-Erweiterungen.'
   },
   'shop layout template label' => {
     'lastUpdated' => '1233941481',
     'message' => 'Layout'
   },
   'shop style template hoverHelp' => {
-    'lastUpdated' => '1233946132',
-    'message' => 'Der Stilvorlage für die Laden-Erweiterung in der Kontoansicht.'
+    'lastUpdated' => '1241153825',
+    'message' => 'Der Stilvorlage für die Shop-Erweiterung in der Kontoansicht.'
   },
   'shop style template label' => {
     'lastUpdated' => '1233941500',
     'message' => 'Stilvorlage'
   },
   'title' => {
-    'lastUpdated' => '1233945984',
-    'message' => 'Laden'
+    'lastUpdated' => '1241153761',
+    'message' => 'Shop'
   }
 }
 ;
