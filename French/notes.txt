@@ -5,3 +5,22 @@ bonjour, je m'appelle cyrille <colin@univ-metz.fr> je propose que nous mettions 
 Template = Gabarit
 Asset = Module
 
+autres termes pour lequels une traduction standard serait nécessaire:
+
+account = compte?
+instantiate
+label
+plugin = plugin ?
+identifier = nom ?
+contributions
+
+mirod (mirod@cpan.org): perso je préfère "modèle" pour template. Une recherche rapide me montre que par exemple OpenOffice utilise ce terme 
+http://wiki.services.openoffice.org/wiki/Fr.openoffice.org/FAQ/Impress/009
+
+Pour les verbes d'action, doit-on utiliser la forme à l'indicatif ("choisissez") ou l'infinitif ("choisir")?
+
+
+
+
+
+
