@@ -50,8 +50,8 @@ our $I18N = {
     'message' => 'Accessoire'
   },
   '17 description' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => '1241190768',
+    'message' => 'Wählen Sie ein Produkt aus der bereits eingegebenen Artikelliste aus.'
   },
   18 => {
     'lastUpdated' => '1240739306',
@@ -194,8 +194,8 @@ our $I18N = {
     'message' => 'Vorteil'
   },
   '51 description' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => '1241190882',
+    'message' => 'Sie können einen weiteren Vorteil zu diesem Produkt eingeben oder einen bereits vorhandenen Vorteil auswählen.'
   },
   52 => {
     'lastUpdated' => '1240739142',
@@ -425,6 +425,10 @@ our $I18N = {
     'lastUpdated' => undef,
     'message' => ''
   },
+  'brochure_icon' => {
+    'lastUpdated' => '1241190918',
+    'message' => 'URL zum Prospekticon'
+  },
   'brochure_label' => {
     'lastUpdated' => '1240737415',
     'message' => 'URL Broschüre'
@@ -478,16 +482,24 @@ our $I18N = {
     'message' => 'ID Produktbild 1'
   },
   'image2' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => '1241190938',
+    'message' => 'ID Produktbild 2'
   },
   'image3' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => '1241190952',
+    'message' => 'ID Produktbild 3'
   },
   'in_stock' => {
     'lastUpdated' => '1240739554',
     'message' => 'Produktvarianten verfügbar'
+  },
+  'isShippingRequired' => {
+    'lastUpdated' => '1241190971',
+    'message' => 'Is Versand erforderlich?'
+  },
+  'isShippingRequired help' => {
+    'lastUpdated' => '1241191016',
+    'message' => 'Dieses legt fest, ob Versandkosten berechnet werden.'
   },
   'manual' => {
     'lastUpdated' => '1240739502',
