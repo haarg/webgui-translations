@@ -205,6 +205,10 @@ our $I18N = {
     'lastUpdated' => '1241156746',
     'message' => 'Titel für die Asset-ID. Dies ist ein vom Benutzer angepasster Titel für das Asset.'
   },
+  'configuredTitle help' => {
+    'lastUpdated' => '1241159025',
+    'message' => 'Name des Artikels, sowie für den Kauf konfiguriert'
+  },
   'continue shopping button' => {
     'lastUpdated' => '1240756452',
     'message' => 'Weiter einkaufen'
@@ -257,6 +261,10 @@ our $I18N = {
     'lastUpdated' => '1240781527',
     'message' => 'Löschen'
   },
+  'deleteButton help' => {
+    'lastUpdated' => '1241159076',
+    'message' => 'Ein Knopf, der es dem Benutzer ermöglicht, eine bestehende Adresse zu löschen.'
+  },
   'edit' => {
     'lastUpdated' => '1240756484',
     'message' => 'Ändern'
@@ -264,6 +272,10 @@ our $I18N = {
   'edit address template' => {
     'lastUpdated' => '1241156898',
     'message' => 'Adressänderungsvorlage'
+  },
+  'edit address template help' => {
+    'lastUpdated' => '1241159126',
+    'message' => 'Vorlage für den Adressen-Editor'
   },
   'editButton help' => {
     'lastUpdated' => '1241157092',
@@ -348,6 +360,10 @@ our $I18N = {
   'isRecurring' => {
     'lastUpdated' => '1240756783',
     'message' => 'Angabe, ob es sich um eine sich wiederholenden Transaktion handelt.'
+  },
+  'isShippable help' => {
+    'lastUpdated' => '1241159170',
+    'message' => 'Angabe, ob dem Artikel eine Versandadresse hinzugefügt werden kann.'
   },
   'isSuccessful' => {
     'lastUpdated' => '1240758956',
@@ -445,6 +461,11 @@ our $I18N = {
     'lastUpdated' => '1228749186',
     'message' => 'Nachname'
   },
+  'login message' => {
+    'lastUpdated' => '1241159336',
+    'message' => 'Sie müssen sich <a href="%s">anmelden</a> um den Einkauf tätigen zu können.
+'
+  },
   'manage' => {
     'lastUpdated' => '1240758683',
     'message' => 'Verwalten'
@@ -503,6 +524,10 @@ Entweder wählen Sie bitte einen Artikel mit Verlängerungsmöglichkeit oder ein
     'lastUpdated' => '1228749201',
     'message' => 'Organisation'
   },
+  'originatingTransactionId' => {
+    'lastUpdated' => '1241159974',
+    'message' => 'Wenn die Transaktion eine sich wiederholende Transaktion ist, wird diese die Transaktionnummer der ursprüngliche Transaktion enthalten.'
+  },
   'payment address' => {
     'lastUpdated' => '1241158177',
     'message' => 'Zahlungsadresse'
@@ -543,6 +568,10 @@ Entweder wählen Sie bitte einen Artikel mit Verlängerungsmöglichkeit oder ein
     'lastUpdated' => '1241158372',
     'message' => 'Land Rechnungsadresse'
   },
+  'paymentAddressId' => {
+    'lastUpdated' => '1241159394',
+    'message' => 'ID der Rechnungsadresse für diese Transaktion.'
+  },
   'paymentAddressName' => {
     'lastUpdated' => '1241158387',
     'message' => 'Name Rechnungsadresse'
@@ -562,6 +591,10 @@ Entweder wählen Sie bitte einen Artikel mit Verlängerungsmöglichkeit oder ein
   'phone number' => {
     'lastUpdated' => '1241158601',
     'message' => 'telefonnummer'
+  },
+  'posLookupForm' => {
+    'lastUpdated' => '1241159466',
+    'message' => 'Ein Formular, womit ein Bevollmächtigter ein Benutzer über die Emailadresse suchen kann.'
   },
   'posUserId' => {
     'lastUpdated' => '1241158571',
@@ -606,6 +639,10 @@ Entweder wählen Sie bitte einen Artikel mit Verlängerungsmöglichkeit oder ein
   'saveButton help' => {
     'lastUpdated' => '1240758305',
     'message' => 'Der Standardtext zum Sichern-Knopf'
+  },
+  'search for email' => {
+    'lastUpdated' => '1241159575',
+    'message' => 'Suchen nach Emailadresse'
   },
   'ship to button' => {
     'lastUpdated' => '1241158650',
@@ -676,9 +713,17 @@ Entweder wählen Sie bitte einen Artikel mit Verlängerungsmöglichkeit oder ein
     'lastUpdated' => '1241158726',
     'message' => 'Bundesland Versandadresse'
   },
+  'shippingDriverLabel' => {
+    'lastUpdated' => '1241159745',
+    'message' => 'Die Bezeichung für die Versandart in dieser Transaktion'
+  },
   'shop' => {
     'lastUpdated' => '1241158739',
     'message' => 'Shop'
+  },
+  'shop notice' => {
+    'lastUpdated' => '1241159557',
+    'message' => 'Shop Information'
   },
   'shop settings' => {
     'lastUpdated' => '1241158756',
@@ -692,14 +737,30 @@ Entweder wählen Sie bitte einen Artikel mit Verlängerungsmöglichkeit oder ein
     'lastUpdated' => '1241158844',
     'message' => 'Bundesland'
   },
+  'state help' => {
+    'lastUpdated' => '1241159835',
+    'message' => 'Bundesland für diese Adresse'
+  },
   'stateField help' => {
     'lastUpdated' => '1241158874',
     'message' => 'Bundesland/Provinz für diese Adresse'
+  },
+  'status code' => {
+    'lastUpdated' => '1241159598',
+    'message' => 'Status Code'
   },
   'status message' => {
     'lastUpdated' => '1241158933',
     'message' => 'Statusnachricht
 '
+  },
+  'statusCode' => {
+    'lastUpdated' => '1241159667',
+    'message' => 'Der Statuscode der zurück kam, als die Zahlung angewiesen wurde.'
+  },
+  'statusMessage' => {
+    'lastUpdated' => '1241159806',
+    'message' => 'Die ausführliche Statusinformation, die zurück kam, als die Zahlung veranlasst wurde.'
   },
   'subtotal' => {
     'lastUpdated' => '1240758162',
