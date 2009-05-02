@@ -10,8 +10,8 @@ our $I18N = {
     'message' => 'Storniert'
   },
   'NotShipped' => {
-    'lastUpdated' => '1228748641',
-    'message' => 'Nicht versandt'
+    'lastUpdated' => '1241298317',
+    'message' => 'Nicht ausgeliefert'
   },
   'Payment Information' => {
     'lastUpdated' => '1228748656',
@@ -22,8 +22,8 @@ our $I18N = {
     'message' => 'Bevorzugte Zahlungsart'
   },
   'Shipped' => {
-    'lastUpdated' => '1228174743',
-    'message' => 'Versandt'
+    'lastUpdated' => '1241298331',
+    'message' => 'Ausgeliefert'
   },
   'add a new address' => {
     'lastUpdated' => '1228748699',
@@ -326,7 +326,7 @@ our $I18N = {
     'message' => 'halbjählich'
   },
   'hasShippingAddress help' => {
-    'lastUpdated' => '1241157039',
+    'lastUpdated' => '1241298388',
     'message' => 'Angabe, ob der Benutzer bereits eine Versandadresse angegeben hat. Diese Versandadresse ist immer notwendig um die Steuer errechnen zu können.'
   },
   'import tax' => {
@@ -650,8 +650,8 @@ Eine Liste mit jeder einzelnen Transaktion statt der komplette Transaktionsliste
     'message' => 'Bundesland Rechnungsadresse'
   },
   'per item shipping' => {
-    'lastUpdated' => '1241158456',
-    'message' => 'Versand/Artikel'
+    'lastUpdated' => '1241298477',
+    'message' => 'Einzellieferung'
   },
   'phone number' => {
     'lastUpdated' => '1241158601',
@@ -759,8 +759,8 @@ Eine Liste mit jeder einzelnen Transaktion statt der komplette Transaktionsliste
     'message' => 'Versandart'
   },
   'shipping methods' => {
-    'lastUpdated' => '1240756108',
-    'message' => 'Versandarte'
+    'lastUpdated' => '1241297972',
+    'message' => 'Versandart'
   },
   'shippingAddress help' => {
     'lastUpdated' => '1241167020',
@@ -960,8 +960,8 @@ Eine Liste mit jeder einzelnen Transaktion statt der komplette Transaktionsliste
     'message' => 'Benutzer'
   },
   'username help' => {
-    'lastUpdated' => '1228749320',
-    'message' => 'Der Name des BEnutzer, der diese Transaktion ausgeführt hat. Spart eine Benutzernamen-Suche.'
+    'lastUpdated' => '1241298556',
+    'message' => 'Der Name des Benutzers, der diese Transaktion ausgeführt hat. Spart eine Benutzernamen-Suche.'
   },
   'vendor payouts' => {
     'lastUpdated' => '1241297599',
@@ -1000,7 +1000,7 @@ Eine Liste mit jeder einzelnen Transaktion statt der komplette Transaktionsliste
     'message' => 'Wer darf verwalten?'
   },
   'who can manage help' => {
-    'lastUpdated' => '1228750415',
+    'lastUpdated' => '1241298577',
     'message' => 'Die Gruppe mit den Verwaltungsrechten im Shop-System.'
   },
   'who is a cashier' => {
@@ -1008,8 +1008,8 @@ Eine Liste mit jeder einzelnen Transaktion statt der komplette Transaktionsliste
     'message' => 'Wer ist ein Einkaufsvertreter?'
   },
   'who is a cashier help' => {
-    'lastUpdated' => '1240758120',
-    'message' => 'Einkaufsvertreter sind berechtigt für andere Benutzer mit deren Emailadresse einzukaufen'
+    'lastUpdated' => '1241298650',
+    'message' => 'Einkaufsvertreter sind berechtigt für andere Benutzer einzukaufen durch Angabe deren Emailadresse in den Warenkorb.'
   },
   'yearly' => {
     'lastUpdated' => '1228749272',
