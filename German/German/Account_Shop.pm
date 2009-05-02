@@ -22,8 +22,8 @@ our $I18N = {
     'message' => 'Der URL zur Verwaltung der Einkäufe.'
   },
   'my sales label' => {
-    'lastUpdated' => '1240781029',
-    'message' => 'Verkauf'
+    'lastUpdated' => '1241297539',
+    'message' => 'Verkäufe'
   },
   'shop layout template hoverHelp' => {
     'lastUpdated' => '1241189549',

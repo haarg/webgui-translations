@@ -964,12 +964,12 @@ Eine Liste mit jeder einzelnen Transaktion statt der komplette Transaktionsliste
     'message' => 'Der Name des BEnutzer, der diese Transaktion ausgeführt hat. Spart eine Benutzernamen-Suche.'
   },
   'vendor payouts' => {
-    'lastUpdated' => '1241165636',
-    'message' => 'Auszahlungen Lieferant'
+    'lastUpdated' => '1241297599',
+    'message' => 'Auszahlungen Verkäufer'
   },
   'vendors' => {
-    'lastUpdated' => '1228749341',
-    'message' => 'Lieferant'
+    'lastUpdated' => '1241297623',
+    'message' => 'Verkäufer'
   },
   'view cart' => {
     'lastUpdated' => '1228749332',
