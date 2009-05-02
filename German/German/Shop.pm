@@ -855,7 +855,7 @@ Eine Liste mit jeder einzelnen Transaktion statt der komplette Transaktionsliste
     'message' => 'Status Code'
   },
   'status message' => {
-    'lastUpdated' => '1241158933',
+    'lastUpdated' => '1241298769',
     'message' => 'Statusnachricht
 '
   },
