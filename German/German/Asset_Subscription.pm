@@ -25,6 +25,10 @@ our $I18N = {
     'lastUpdated' => '1240740441',
     'message' => 'Codeserie Beschreibung'
   },
+  'batch description description' => {
+    'lastUpdated' => '1241303911',
+    'message' => 'Beschreibung der Codeserie'
+  },
   'batch id' => {
     'lastUpdated' => '1240740396',
     'message' => 'CodesatzId'
@@ -53,6 +57,18 @@ our $I18N = {
     'lastUpdated' => '1240740682',
     'message' => 'Länge Abonnementscode'
   },
+  'code length description' => {
+    'lastUpdated' => '1241303410',
+    'message' => 'Anzahl der Zeichen in den generierten Codes. Die Länge der Codes soll minimum 10 Zeichen betragen.'
+  },
+  'code length error' => {
+    'lastUpdated' => '1241303975',
+    'message' => 'Sie sollten einen Abocode mit einer Länge von 10 bis max. 64 Zeichen eingegeben.'
+  },
+  'codeControls' => {
+    'lastUpdated' => '1241304069',
+    'message' => 'Eine Serie von Links für die Erstellung von Codeserien und das Auflisten von Abocodes und Codserien.'
+  },
   'codeForm' => {
     'lastUpdated' => '1240779279',
     'message' => 'Das Formular in das der Benutzer seinen Abonnementscode eingeben kann.'
@@ -69,13 +85,29 @@ our $I18N = {
     'lastUpdated' => '1240879864',
     'message' => 'Eine URL zum Reset des Produkts, damit der Benutzer weiter einkaufen kann'
   },
+  'create batch error' => {
+    'lastUpdated' => '1241304114',
+    'message' => 'Es gab einen Fehler bei der Erstellung von der Codeserie.'
+  },
+  'create batch menu' => {
+    'lastUpdated' => '1241304204',
+    'message' => 'Codeserie generieren'
+  },
   'creation date' => {
     'lastUpdated' => '1240778919',
     'message' => 'Erstellungsdatum'
   },
+  'default thank you message' => {
+    'lastUpdated' => '1241303443',
+    'message' => 'Das Abonnement wurde in den Warenkorb gelegt.'
+  },
   'delete codes' => {
     'lastUpdated' => '1240779181',
     'message' => 'Alle diese Codes löschen'
+  },
+  'delete subscription confirm' => {
+    'lastUpdated' => '1241304136',
+    'message' => 'Möchten Sie dieses Abonnement wirklich löschen?'
   },
   'display all' => {
     'lastUpdated' => '1226015094',
@@ -85,6 +117,18 @@ our $I18N = {
     'lastUpdated' => '1240755672',
     'message' => 'Abonnement ändern'
   },
+  'execute on subscription' => {
+    'lastUpdated' => '1241304245',
+    'message' => 'Bei Bestellung ausführen'
+  },
+  'expire subscription codes' => {
+    'lastUpdated' => '1241304162',
+    'message' => 'Ablauf Abocodes'
+  },
+  'formFooter' => {
+    'lastUpdated' => '1241304268',
+    'message' => 'Formularabschluss'
+  },
   'formHeader' => {
     'lastUpdated' => '1240779199',
     'message' => 'Formularkopf'
@@ -93,17 +137,29 @@ our $I18N = {
     'lastUpdated' => '1240741056',
     'message' => 'Codeserie generieren'
   },
+  'hasAddedToCart' => {
+    'lastUpdated' => '1241303869',
+    'message' => 'Eine Bedingung, die angibt, dass der Benutzer das Abonnement in den Warenkorb aufgenommen hat und der "Danke"-Text angezeigt werden kann.'
+  },
+  'help redeem code template title' => {
+    'lastUpdated' => '1241303508',
+    'message' => 'Vorlage Einlösung Abocode'
+  },
   'list codes in batch' => {
     'lastUpdated' => '1240740803',
     'message' => 'Auflisten der Codes in dieser Serie'
+  },
+  'listSubscriptionCodes title' => {
+    'lastUpdated' => '1241303782',
+    'message' => 'Verwalten Abocodes'
   },
   'manage batches' => {
     'lastUpdated' => '1240741528',
     'message' => 'Codeserien verwalten'
   },
   'manage codes' => {
-    'lastUpdated' => '1240741560',
-    'message' => 'Abonnementscodes verwalten'
+    'lastUpdated' => '1241303752',
+    'message' => 'Verwalten Abocodes'
   },
   'manage subscriptions' => {
     'lastUpdated' => '1240778941',
@@ -120,6 +176,10 @@ our $I18N = {
   'noc' => {
     'lastUpdated' => '1240741505',
     'message' => 'Anzahl der Abonnementscodes in der Serie'
+  },
+  'noc description' => {
+    'lastUpdated' => '1241303543',
+    'message' => 'Anzahl der zu generierenden Codes'
   },
   'price' => {
     'lastUpdated' => '1240741414',
@@ -165,6 +225,14 @@ our $I18N = {
     'lastUpdated' => '1240778975',
     'message' => 'Status'
   },
+  'subscription description description' => {
+    'lastUpdated' => '1241303582',
+    'message' => 'Detaillierte Beschreibung des Abonnements.'
+  },
+  'subscription duration' => {
+    'lastUpdated' => '1241303682',
+    'message' => 'Laufzeit'
+  },
   'subscription name' => {
     'lastUpdated' => '1240880085',
     'message' => 'Abo-Name'
@@ -176,6 +244,18 @@ our $I18N = {
   'subscription price' => {
     'lastUpdated' => '1240880027',
     'message' => 'Abopreis'
+  },
+  'subscription price description' => {
+    'lastUpdated' => '1241303643',
+    'message' => 'Preis für das Abonnement.'
+  },
+  'subscription template' => {
+    'lastUpdated' => '1241303656',
+    'message' => 'Vorlage Abonnement'
+  },
+  'subscriptionId' => {
+    'lastUpdated' => '1241303611',
+    'message' => 'Subscription Id'
   },
   'template' => {
     'lastUpdated' => '1240778997',
