@@ -150,8 +150,8 @@ our $I18N = {
     'message' => 'Diese Vorlage bestimmt, wie der Warenkorb dargestellt wird.'
   },
   'cashier' => {
-    'lastUpdated' => '1228749754',
-    'message' => 'Kasse'
+    'lastUpdated' => '1241615467',
+    'message' => 'Kassierer'
   },
   'checkout button' => {
     'lastUpdated' => '1228749778',
