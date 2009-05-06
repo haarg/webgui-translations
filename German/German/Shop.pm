@@ -911,8 +911,8 @@ Eine Liste mit jeder einzelnen Transaktion statt der komplette Transaktionsliste
     'message' => 'Die aktuelle Gesamtsumme Ihres Warenkorbes'
   },
   'tracking number' => {
-    'lastUpdated' => '1228750669',
-    'message' => 'Trackingnummer'
+    'lastUpdated' => '1241615974',
+    'message' => 'Tracking-Nr Versand'
   },
   'transaction id' => {
     'lastUpdated' => '1228750680',
