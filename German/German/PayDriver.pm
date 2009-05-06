@@ -22,7 +22,7 @@ our $I18N = {
     'message' => 'Freigegeben'
   },
   'enabled help' => {
-    'lastUpdated' => '1234737576',
+    'lastUpdated' => '1241616138',
     'message' => 'Diese Einstellung gibt diese Möglichkeit zur Zahlung frei.'
   },
   'error processing payment' => {
@@ -46,8 +46,8 @@ Sollten die Fehler nicht behoben werden können, kontaktieren Sie uns bitte.'
     'message' => 'Die Bezeichnung womit diese Zahlungsmethode auf den Bildschirm zu den Zahlungsweisen angezeigt wird.'
   },
   'payment methods' => {
-    'lastUpdated' => '1240780686',
-    'message' => 'Zahlungsweise'
+    'lastUpdated' => '1241616177',
+    'message' => 'Zahlungsart'
   },
   'receipt email template' => {
     'lastUpdated' => '1241166137',
