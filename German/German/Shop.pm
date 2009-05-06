@@ -2,8 +2,8 @@ package WebGUI::i18n::German::Shop;
 use utf8;
 our $I18N = {
   'Backordered' => {
-    'lastUpdated' => '1240757868',
-    'message' => 'Im Lieferrückstand'
+    'lastUpdated' => '1241614989',
+    'message' => 'Lieferrückstand'
   },
   'Cancelled' => {
     'lastUpdated' => '1228748625',
@@ -14,8 +14,8 @@ our $I18N = {
     'message' => 'Nicht ausgeliefert'
   },
   'Payment Information' => {
-    'lastUpdated' => '1228748656',
-    'message' => 'Bezahl-Informationen'
+    'lastUpdated' => '1241615121',
+    'message' => 'Zahlungs-Informationen'
   },
   'Preferred Payment Type' => {
     'lastUpdated' => '1228748672',
@@ -594,8 +594,8 @@ Eine Liste mit jeder einzelnen Transaktion statt der komplette Transaktionsliste
     'message' => 'Wenn die Transaktion eine sich wiederholende Transaktion ist, wird diese die Transaktionnummer der ursprüngliche Transaktion enthalten.'
   },
   'payment address' => {
-    'lastUpdated' => '1241158177',
-    'message' => 'Zahlungsadresse'
+    'lastUpdated' => '1241615186',
+    'message' => 'Rechnungsadresse'
   },
   'payment method' => {
     'lastUpdated' => '1240758494',
@@ -606,8 +606,8 @@ Eine Liste mit jeder einzelnen Transaktion statt der komplette Transaktionsliste
     'message' => 'Zahlungsweise'
   },
   'paymentAddress' => {
-    'lastUpdated' => '1241158232',
-    'message' => 'Formatiert Zahlungs-/Rechnungsadresse'
+    'lastUpdated' => '1241615213',
+    'message' => 'Formatierte Zahlungs-/Rechnungsadresse'
   },
   'paymentAddress1' => {
     'lastUpdated' => '1241158270',
@@ -654,8 +654,8 @@ Eine Liste mit jeder einzelnen Transaktion statt der komplette Transaktionsliste
     'message' => 'Einzellieferung'
   },
   'phone number' => {
-    'lastUpdated' => '1241158601',
-    'message' => 'telefonnummer'
+    'lastUpdated' => '1241615251',
+    'message' => 'Telefonnummer'
   },
   'phoneNumber help' => {
     'lastUpdated' => '1241166963',
