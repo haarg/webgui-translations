@@ -1,4 +1,5 @@
 package WebGUI::i18n::Arabic::AuthLDAP;
+use utf8;
 
 our $I18N = {
 	'sync profiles to ldap' => {

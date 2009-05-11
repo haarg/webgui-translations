@@ -1,4 +1,5 @@
 package WebGUI::i18n::Arabic::WebGUI;
+use utf8;
 
 our $I18N = {
 	'559' => {
@@ -411,6 +412,11 @@ our $I18N = {
 		lastUpdated => 1167318583
 	},
 
+	'SubscriptionGroup formName' => {
+		message => q||,
+		lastUpdated => 
+	},
+
 	'160' => {
 		message => q|تاريخ الادخال<br />|,
 		lastUpdated => 1167239576
@@ -434,11 +440,6 @@ our $I18N = {
 	'976' => {
 		message => q|اذف مستخدمين<br />|,
 		lastUpdated => 1168364384
-	},
-
-	'wiki help label leadin' => {
-		message => q|للمزذد من المساعدة قم بزيارة ....|,
-		lastUpdated => 1201535135
 	},
 
 	'settings groupIdAdminSpectre hoverHelp' => {
@@ -762,8 +763,8 @@ our $I18N = {
 	},
 
 	'965' => {
-		message => q|سلة المهملات الخاصة بالنظام<br />|,
-		lastUpdated => 1168364233
+		message => q|سلة المحذوفات العامة|,
+		lastUpdated => 1211265622
 	},
 
 	'824' => {
@@ -1146,6 +1147,11 @@ our $I18N = {
 		lastUpdated => 1167244879
 	},
 
+	'Attachments formName' => {
+		message => q||,
+		lastUpdated => 
+	},
+
 	'860' => {
 		message => q|اظهر عنوان البريد الالكتروني؟<br />|,
 		lastUpdated => 1168363344
@@ -1159,6 +1165,11 @@ our $I18N = {
 	'1075 description' => {
 		message => q|اذا كنت تريد هذه المجموعة ان يتم السماح لها باستخدام قاعدة بيانات خارجية, اختر وصلةقاعدة البيانات التي يتم استخدامها. <br />|,
 		lastUpdated => 1167151392
+	},
+
+	'broken spectre title' => {
+		message => q||,
+		lastUpdated => 
 	},
 
 	'333' => {
@@ -1314,6 +1325,11 @@ our $I18N = {
 	'170' => {
 		message => q|ابحث|,
 		lastUpdated => 1167240401
+	},
+
+	'SelectRichEditor formName' => {
+		message => q||,
+		lastUpdated => 
 	},
 
 	'default rich editor' => {
@@ -1801,6 +1817,11 @@ our $I18N = {
 		lastUpdated => 1167318931
 	},
 
+	'broken spectre body' => {
+		message => q||,
+		lastUpdated => 
+	},
+
 	'730' => {
 		message => q|1 قليل الخبرة<br />|,
 		lastUpdated => 1167320316
@@ -1862,8 +1883,8 @@ our $I18N = {
 	},
 
 	'trash' => {
-		message => q|سلة المهملات<br />|,
-		lastUpdated => 1171891118
+		message => q|سلة المهملات|,
+		lastUpdated => 1211265638
 	},
 
 	'manage cache' => {
@@ -2054,6 +2075,11 @@ our $I18N = {
 	'settings groupIdAdminGroupAdmin label' => {
 		message => q|مجموعات (محدد)|,
 		lastUpdated => 1201533119
+	},
+
+	'username no html' => {
+		message => q|اسم المستخدم لا يمكن ان يحتوي على لغة HTML او اي لغات برمجية|,
+		lastUpdated => 1211265680
 	},
 
 	'732' => {
@@ -3261,11 +3287,6 @@ our $I18N = {
 		lastUpdated => 1167321742
 	},
 
-	'wiki help target' => {
-		message => q|WebGUI Community Wiki|,
-		lastUpdated => 1201535145
-	},
-
 	'run on admin update user' => {
 		message => q|في حين تعديل مستخدم (مشرف)|,
 		lastUpdated => 1201531508
@@ -3322,8 +3343,8 @@ our $I18N = {
 	},
 
 	'10' => {
-		message => q|قم بادارة سلة المهملات<br />|,
-		lastUpdated => 1166719739
+		message => q|ادارة المحذوفات|,
+		lastUpdated => 1211265572
 	},
 
 	'864 description' => {
@@ -3434,6 +3455,11 @@ our $I18N = {
 	'show my fields' => {
 		message => q|اظهر المجالات التي يسمح بها اليو اي الخاص بي|,
 		lastUpdated => 1171460090
+	},
+
+	'external help' => {
+		message => q||,
+		lastUpdated => 
 	},
 
 	'54' => {

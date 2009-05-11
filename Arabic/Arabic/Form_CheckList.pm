@@ -1,4 +1,5 @@
 package WebGUI::i18n::Arabic::Form_CheckList;
+use utf8;
 
 our $I18N = {
 	'topicName' => {

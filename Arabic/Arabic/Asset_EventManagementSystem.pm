@@ -1,4 +1,5 @@
 package WebGUI::i18n::Arabic::Asset_EventManagementSystem;
+use utf8;
 
 our $I18N = {
 	'add/edit event metadata field' => {

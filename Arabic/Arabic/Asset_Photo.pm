@@ -1,4 +1,5 @@
 package WebGUI::i18n::Arabic::Asset_Photo;
+use utf8;
 
 our $I18N = {
 	'helpvar form_submit' => {

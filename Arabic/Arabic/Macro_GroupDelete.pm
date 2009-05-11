@@ -1,4 +1,5 @@
 package WebGUI::i18n::Arabic::Macro_GroupDelete;
+use utf8;
 
 our $I18N = {
 	'group.text' => {

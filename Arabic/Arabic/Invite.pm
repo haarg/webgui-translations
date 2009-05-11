@@ -1,4 +1,5 @@
 package WebGUI::i18n::Arabic::Invite;
+use utf8;
 
 our $I18N = {
 	'invalid invite code' => {

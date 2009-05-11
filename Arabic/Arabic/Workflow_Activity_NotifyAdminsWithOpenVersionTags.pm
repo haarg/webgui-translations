@@ -1,4 +1,5 @@
 package WebGUI::i18n::Arabic::Workflow_Activity_NotifyAdminsWithOpenVersionTags;
+use utf8;
 
 our $I18N = {
 	'days left open hoverhelp' => {

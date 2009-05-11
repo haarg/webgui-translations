@@ -1,4 +1,5 @@
 package WebGUI::i18n::Arabic::Asset_Folder;
+use utf8;
 
 our $I18N = {
 	'What Next description' => {
