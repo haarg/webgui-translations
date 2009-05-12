@@ -1040,8 +1040,8 @@ De verstrekte informatie is niet gelijk aan de accountinformatie. '
     'message' => 'Beelden'
   },
   52 => {
-    'lastUpdated' => '1158564580',
-    'message' => 'login'
+    'lastUpdated' => '1241696761',
+    'message' => 'Inloggen'
   },
   523 => {
     'lastUpdated' => '1155889152',
