@@ -581,6 +581,10 @@ our $I18N = {
     'lastUpdated' => '1213624996',
     'message' => 'Voer hier enkele trefwoorden in voor dit Asset. Deze zullen automatisch toegevoegd worden aan de zoek index en als de metatag trefwoorden.'
   },
+  'keywords template var' => {
+    'lastUpdated' => '1242135846',
+    'message' => 'Dit wordt een string met sleutelwoorden voor dit asset. Aparte sleutelwoorden worden samengevoegd met spaties, tenzij het sleutelwoord spaties bevat. In dit laatste geval zullen de sleutelwoorden gequoted worden.'
+  },
   'last updated' => {
     'lastUpdated' => '1146831886',
     'message' => 'Laatst gewijzigd'
@@ -852,6 +856,14 @@ our $I18N = {
   'url' => {
     'lastUpdated' => '1170686364',
     'message' => 'De URL van het asset.'
+  },
+  'usePackedHeadTags description' => {
+    'lastUpdated' => '1242135883',
+    'message' => 'Gebruik de ingepakte versie van de headsectie tags voor snellere downloads'
+  },
+  'usePackedHeadTags label' => {
+    'lastUpdated' => '1242135909',
+    'message' => 'Gebruik ingepakte headsectie tags'
   },
   'view' => {
     'lastUpdated' => '1146833376',

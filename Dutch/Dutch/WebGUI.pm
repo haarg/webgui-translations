@@ -1983,6 +1983,10 @@ De verstrekte informatie is niet gelijk aan de accountinformatie. '
     'lastUpdated' => '1222936449',
     'message' => 'Over ons'
   },
+  'Ad Space control name' => {
+    'lastUpdated' => '1242135166',
+    'message' => 'Advertentie ruimte'
+  },
   'All Rights Reserved' => {
     'lastUpdated' => '1222936688',
     'message' => 'Alle rechten gereserveerd'
@@ -2365,6 +2369,14 @@ LongTruncOk=1'
   'float' => {
     'lastUpdated' => '1156170154',
     'message' => 'Nummer (decimaal)'
+  },
+  'global head tags description' => {
+    'lastUpdated' => '1242135228',
+    'message' => 'Tags die op elke pagina voorkomen (ook op de admin pagina\'s)'
+  },
+  'global head tags label' => {
+    'lastUpdated' => '1242135249',
+    'message' => 'Globale headsectie tags'
   },
   'group' => {
     'lastUpdated' => '1156170090',
@@ -3293,6 +3305,10 @@ LongTruncOk=1'
   'view inbox template description' => {
     'lastUpdated' => '1222347429',
     'message' => 'Kies een sjabloon om de inbox weer te geven.'
+  },
+  'view profile' => {
+    'lastUpdated' => '1242135288',
+    'message' => 'Bekijk gebruikersprofiel'
   },
   'webgui' => {
     'lastUpdated' => '1154097513',
