@@ -45,6 +45,10 @@ our $I18N = {
     'lastUpdated' => '1237975641',
     'message' => 'De datum waarop het bericht verzonden is, in het door de gebruiker gekozen datum en tijd formaat.'
   },
+  'dateStamp_url' => {
+    'lastUpdated' => '1242136124',
+    'message' => 'de URL voor de sortering van de inbox als het bericht is verzonden'
+  },
   'delete label' => {
     'lastUpdated' => '1227707447',
     'message' => 'Verwijderen'
@@ -57,6 +61,14 @@ our $I18N = {
     'lastUpdated' => '1227714873',
     'message' => 'Fout'
   },
+  'form_footer' => {
+    'lastUpdated' => '1242136159',
+    'message' => 'HTML elementen voor het afsluiten van het formulier op deze pagina'
+  },
+  'form_header' => {
+    'lastUpdated' => '1242136179',
+    'message' => 'HTML elementen voor het openen van een formulier op deze pagina'
+  },
   'from' => {
     'lastUpdated' => '1236681333',
     'message' => 'Auteur'
@@ -68,6 +80,10 @@ our $I18N = {
   'from_id' => {
     'lastUpdated' => '1236681455',
     'message' => 'De user-ID van de afzender'
+  },
+  'from_url' => {
+    'lastUpdated' => '1242136306',
+    'message' => 'De URL voor het bekijken van het profiel van de gebruiker die het bericht heeft verstuurd'
   },
   'has_messages' => {
     'lastUpdated' => '1237975341',
@@ -297,6 +313,22 @@ our $I18N = {
     'lastUpdated' => '1228766928',
     'message' => 'De gebruiker aan wie dit bericht verzonden is, is geen lid meer van deze site.'
   },
+  'isCompleted' => {
+    'lastUpdated' => '1242136403',
+    'message' => 'Een boolean die waar is als dit bericht een gebruikersactie vertegenwoordigd dat is afgerond'
+  },
+  'isPending' => {
+    'lastUpdated' => '1242136772',
+    'message' => 'Een boolean die waar is als dit bericht een gebruikersactie vertegenwoordigd dat nog in behandeling is'
+  },
+  'isRead' => {
+    'lastUpdated' => '1242136796',
+    'message' => 'Een boolean die waar is als dit bericht is gelezen'
+  },
+  'isReplied' => {
+    'lastUpdated' => '1242136821',
+    'message' => 'Een boolean die waar is als er op dit bericht is gereageerd'
+  },
   'member since' => {
     'lastUpdated' => '1228766716',
     'message' => 'Lid sinds'
@@ -317,6 +349,26 @@ our $I18N = {
     'lastUpdated' => '1228766784',
     'message' => 'Uw bericht is verzonden.'
   },
+  'message_id' => {
+    'lastUpdated' => '1242136860',
+    'message' => 'Een uniek id voor dit bericht'
+  },
+  'message_loop' => {
+    'lastUpdated' => '1242136965',
+    'message' => 'Een loop met alle bericht zoals aangegeven bij de sorteringoptie en het aantal berichten per pagina optie'
+  },
+  'message_rpp' => {
+    'lastUpdated' => '1242137009',
+    'message' => 'Een selectielijst waarmee de gebruiker het aantal berichten per pagina kan bepalen'
+  },
+  'message_total' => {
+    'lastUpdated' => '1242137043',
+    'message' => 'Het totaal aantal berichten dat de gebruiker in zijn/haar inbox heeft staan'
+  },
+  'message_url' => {
+    'lastUpdated' => '1242137069',
+    'message' => 'De URL voor het bekijken van de inhoud van dit bericht'
+  },
   'messages label' => {
     'lastUpdated' => '1228766800',
     'message' => 'Berichten'
@@ -336,6 +388,10 @@ our $I18N = {
   'new message label' => {
     'lastUpdated' => '1228766176',
     'message' => 'Nieuw bericht'
+  },
+  'new_message_url' => {
+    'lastUpdated' => '1242137112',
+    'message' => 'De URL voor het maken van een nieuw bericht'
   },
   'next label' => {
     'lastUpdated' => '1228766163',
@@ -409,17 +465,41 @@ our $I18N = {
     'lastUpdated' => '1228765469',
     'message' => 'Beantwoorden'
   },
+  'rpp_url' => {
+    'lastUpdated' => '1242137183',
+    'message' => 'De huidige URL waaraan sortering, sorteringsvolgorde en filter parameters zijn toegevoegd '
+  },
   'send label' => {
     'lastUpdated' => '1228765194',
     'message' => 'Verzenden'
   },
+  'status' => {
+    'lastUpdated' => '1242137552',
+    'message' => 'De status van dit bericht, internationaal gemaakt'
+  },
   'status label' => {
-    'lastUpdated' => '1228765169',
+    'lastUpdated' => '1242137519',
     'message' => 'Status'
+  },
+  'status_class' => {
+    'lastUpdated' => '1242137605',
+    'message' => 'De status van dit bericht, niet internationaal gemaakt'
+  },
+  'status_url' => {
+    'lastUpdated' => '1242137307',
+    'message' => 'De URL om de inbox te sorten op status'
+  },
+  'subject' => {
+    'lastUpdated' => '1242137323',
+    'message' => 'Het onderwerp van dit bericht'
   },
   'subject label' => {
     'lastUpdated' => '1228765158',
     'message' => 'Onderwerp'
+  },
+  'subject_url' => {
+    'lastUpdated' => '1242137345',
+    'message' => 'De URL om de inbox te sorteren op onderwerp'
   },
   'system message error' => {
     'lastUpdated' => '1228765149',

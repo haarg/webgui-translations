@@ -145,6 +145,10 @@ our $I18N = {
     'lastUpdated' => '1201266895',
     'message' => 'Het bestand dat momenteel getoond wordt op de miniaturen pagina. Alle normale variabelen voor dit bestand zijn beschikbaar door er &quot;file_&quot; ervoor te zetten'
   },
+  'helpvar file_*' => {
+    'lastUpdated' => '1242137749',
+    'message' => 'Het huidige bestand dat wordt bekeken in de thumbnails pagina. Alle variabelen voor dit bestand zijn beschikbaar door "file_" voor de namen van de variabelen te zetten.'
+  },
   'helpvar file_loop' => {
     'lastUpdated' => '1201266799',
     'message' => 'De loop van bestanden op deze pagina.'
@@ -396,6 +400,10 @@ our $I18N = {
   'template url' => {
     'lastUpdated' => '1203437448',
     'message' => 'Album'
+  },
+  'template url_addDescription' => {
+    'lastUpdated' => '1242137773',
+    'message' => 'Voeg een beschrijving toe'
   },
   'template url_addPhoto' => {
     'lastUpdated' => '1203437466',
