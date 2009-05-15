@@ -1,23 +1,25 @@
-bonjour, je m'appelle cyrille <colin@univ-metz.fr> je propose que nous mettions ici les termes communs a tout les modules ou les questions relatives à certaine traduction.
+Notes sur les traductions
+**************************
 
-***************
-
-Template = Gabarit
+Template = Gabarit (Terme employé à l'origine) à remplacer par "Modèle"
 Asset = Module
+account = compte
+
+Les verbes d'action sont à "l'infinitif"
+
 
 autres termes pour lequels une traduction standard serait nécessaire:
 
-account = compte?
+
 instantiate
-label
-plugin = plugin ?
-identifier = nom ?
+label = étiquette ? (cyrille:ok)
+plugin = plugin ? (cyrille:ok)
+identifier = nom ? 
 contributions
 
-mirod (mirod@cpan.org): perso je préfère "modèle" pour template. Une recherche rapide me montre que par exemple OpenOffice utilise ce terme 
-http://wiki.services.openoffice.org/wiki/Fr.openoffice.org/FAQ/Impress/009
-
-Pour les verbes d'action, doit-on utiliser la forme à l'indicatif ("choisissez") ou l'infinitif ("choisir")?
+*****************************
+Traducteurs :
+mirod (mirod@cpan.org), cyrille (colin@univ-metz.fr)
 
 
 
