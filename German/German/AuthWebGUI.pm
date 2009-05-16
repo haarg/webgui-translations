@@ -258,8 +258,12 @@ our $I18N = {
     'message' => 'Standard Seitentitel.'
   },
   'email address validation email body' => {
-    'lastUpdated' => '1178703463',
-    'message' => 'Willkommen auf unserer Seite. Bitte klicken Sie auf den folgenden Link, um ihren Account zu aktivieren.'
+    'lastUpdated' => '1242201906',
+    'message' => 'Willkommen auf unserer Seite. Bitte klicken Sie auf den folgenden Link oder übernehmen Sie den Link in Ihrem Browser, um ihren Account zu aktivieren.
+Danach können Sie sich mit Ihrer Kennung und dem Passwort anmelden.
+
+
+'
   },
   'email address validation email subject' => {
     'lastUpdated' => '1178703482',

@@ -217,6 +217,14 @@ our $I18N = {
     'lastUpdated' => '1241157767',
     'message' => 'Wenn dieser Knopf aktiviert wird, wird der Benutzer zurück zur Website geführt.'
   },
+  'copy from home address' => {
+    'lastUpdated' => '1242498322',
+    'message' => 'Private Adresse übernehmen'
+  },
+  'copy from work address' => {
+    'lastUpdated' => '1242498308',
+    'message' => 'Firmenadresse übernehmen'
+  },
   'country' => {
     'lastUpdated' => '1240755709',
     'message' => 'Land'
@@ -264,6 +272,10 @@ our $I18N = {
   'deleteButton help' => {
     'lastUpdated' => '1241159076',
     'message' => 'Ein Knopf, der es dem Benutzer ermöglicht, eine bestehende Adresse zu löschen.'
+  },
+  'deschedule all button' => {
+    'lastUpdated' => '1242498471',
+    'message' => 'Alle Terminierungen aufheben.'
   },
   'edit' => {
     'lastUpdated' => '1240756484',
@@ -474,8 +486,8 @@ our $I18N = {
     'message' => 'Eine Schleife mit den Variablen aller Artikel im Warenkorb'
   },
   'label' => {
-    'lastUpdated' => '1240755780',
-    'message' => 'Label'
+    'lastUpdated' => '1242498401',
+    'message' => 'Bezeichnung'
   },
   'label help' => {
     'lastUpdated' => '1241190192',
@@ -552,6 +564,10 @@ Eine Liste mit jeder einzelnen Transaktion statt der komplette Transaktionsliste
   'not applicable' => {
     'lastUpdated' => '1240758618',
     'message' => 'entfällt'
+  },
+  'not scheduled payout amount' => {
+    'lastUpdated' => '1242498381',
+    'message' => 'Auszahlung nicht terminiert'
   },
   'notes' => {
     'lastUpdated' => '1240755833',
@@ -729,6 +745,14 @@ Eine Liste mit jeder einzelnen Transaktion statt der komplette Transaktionsliste
     'lastUpdated' => '1240758305',
     'message' => 'Der Standardtext zum Sichern-Knopf'
   },
+  'schedule all button' => {
+    'lastUpdated' => '1242498494',
+    'message' => 'Alle terminieren'
+  },
+  'scheduled payout amount' => {
+    'lastUpdated' => '1242498509',
+    'message' => 'Terminiert für Auszahlung'
+  },
   'search for email' => {
     'lastUpdated' => '1241159575',
     'message' => 'Suchen nach Emailadresse'
@@ -866,6 +890,10 @@ Eine Liste mit jeder einzelnen Transaktion statt der komplette Transaktionsliste
     'lastUpdated' => '1241159806',
     'message' => 'Die ausführliche Statusinformation, die zurück kam, als die Zahlung veranlasst wurde.'
   },
+  'submit scheduled payouts button' => {
+    'lastUpdated' => '1242498549',
+    'message' => 'Terminierte Auszahlungen aktivieren'
+  },
   'subtotal' => {
     'lastUpdated' => '1240758162',
     'message' => 'Subtotale'
@@ -962,6 +990,14 @@ Eine Liste mit jeder einzelnen Transaktion statt der komplette Transaktionsliste
     'lastUpdated' => '1241298556',
     'message' => 'Der Name des Benutzers, der diese Transaktion ausgeführt hat. Spart eine Benutzernamen-Suche.'
   },
+  'vendor id' => {
+    'lastUpdated' => '1242498569',
+    'message' => 'Verkäufer ID'
+  },
+  'vendor name' => {
+    'lastUpdated' => '1242498579',
+    'message' => 'Name'
+  },
   'vendor payouts' => {
     'lastUpdated' => '1241297599',
     'message' => 'Auszahlungen Verkäufer'
@@ -989,6 +1025,30 @@ Eine Liste mit jeder einzelnen Transaktion statt der komplette Transaktionsliste
   'viewItemUrl' => {
     'lastUpdated' => '1228750877',
     'message' => 'Ein URL um detailliertere Informationen über diesen Artikel dieser Transaktion anzuzeigen'
+  },
+  'vp item id' => {
+    'lastUpdated' => '1242498600',
+    'message' => 'Arikel-Nr'
+  },
+  'vp item payout amount' => {
+    'lastUpdated' => '1242498626',
+    'message' => 'Auszahlungsbetrag'
+  },
+  'vp item payout status' => {
+    'lastUpdated' => '1242498649',
+    'message' => 'Auszahlungsstatus'
+  },
+  'vp item price' => {
+    'lastUpdated' => '1242498658',
+    'message' => 'Preis'
+  },
+  'vp item quantity' => {
+    'lastUpdated' => '1242498671',
+    'message' => 'Menge'
+  },
+  'vp item title' => {
+    'lastUpdated' => '1242498687',
+    'message' => 'Artikelbezeichnung'
   },
   'weekly' => {
     'lastUpdated' => '1228749264',

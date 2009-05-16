@@ -301,6 +301,10 @@ our $I18N = {
     'lastUpdated' => '1234738300',
     'message' => 'Eingabe-Datum'
   },
+  'Use Default Rich Editor' => {
+    'lastUpdated' => '1242497997',
+    'message' => 'Standard Rich Editor verwenden'
+  },
   'acknowledgement var desc' => {
     'lastUpdated' => '1178799444',
     'message' => 'Die Bestätigung, die dem Benuzter nach dem Abschicken der Daten gezeigt wird.'
@@ -588,6 +592,15 @@ our $I18N = {
   'helpvar useCaptcha' => {
     'lastUpdated' => '1217254493',
     'message' => 'Diese Variable ist wahr, falls das CAPTCHA angezeigt werden soll.'
+  },
+  'htmlAreaRichEditor' => {
+    'lastUpdated' => '1242498025',
+    'message' => 'HTML-Area Rich Editor'
+  },
+  'htmlAreaRichEditor description' => {
+    'lastUpdated' => '1242498102',
+    'message' => 'Selektieren Sie den Rich Editor für die Bearbeitung von HTML-Text-Feldern.
+Der Standard-Editor wurde in den Voreinstellungen dieses Servers festgelegt.'
   },
   'ipAddress' => {
     'lastUpdated' => '1178802912',
