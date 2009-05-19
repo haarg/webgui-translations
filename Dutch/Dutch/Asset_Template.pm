@@ -5,6 +5,34 @@ our $I18N = {
     'lastUpdated' => '1151504830',
     'message' => 'Sjabloon'
   },
+  'attachment add button' => {
+    'lastUpdated' => '1242729886',
+    'message' => 'Toevoegen'
+  },
+  'attachment add field label' => {
+    'lastUpdated' => '1242729965',
+    'message' => 'Voeg bijlage(n) toe'
+  },
+  'attachment display label' => {
+    'lastUpdated' => '1242729982',
+    'message' => 'Bijlagen'
+  },
+  'attachment header index' => {
+    'lastUpdated' => '1242730032',
+    'message' => 'Reeksnummer'
+  },
+  'attachment header remove' => {
+    'lastUpdated' => '1242730016',
+    'message' => 'Verwijderen'
+  },
+  'attachment header type' => {
+    'lastUpdated' => '1242730050',
+    'message' => 'Type'
+  },
+  'attachment header url' => {
+    'lastUpdated' => '1242730065',
+    'message' => 'Url'
+  },
   'body background color' => {
     'lastUpdated' => '1151506164',
     'message' => 'Achtergrondkleur body'
@@ -28,6 +56,10 @@ our $I18N = {
   'choose a layout' => {
     'lastUpdated' => '1151506201',
     'message' => 'Kies een vormgeving voor deze stijl:'
+  },
+  'css label' => {
+    'lastUpdated' => '1242730103',
+    'message' => 'CSS Stylesheet'
   },
   'default parser' => {
     'lastUpdated' => '1166198514',
@@ -64,6 +96,14 @@ our $I18N = {
   'heading' => {
     'lastUpdated' => '1151655169',
     'message' => 'Header'
+  },
+  'js body label' => {
+    'lastUpdated' => '1242730148',
+    'message' => 'Javascript (wordt ingevoegd net voor het </body> element)'
+  },
+  'js head label' => {
+    'lastUpdated' => '1242730177',
+    'message' => 'Javascript (wordt toegevoegd in de <head> sectie)'
   },
   'link color' => {
     'lastUpdated' => '1151505939',
