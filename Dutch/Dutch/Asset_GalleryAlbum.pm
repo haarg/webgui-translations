@@ -1,6 +1,10 @@
 package WebGUI::i18n::Dutch::Asset_GalleryAlbum;
 use utf8;
 our $I18N = {
+  'add photo' => {
+    'lastUpdated' => '1242726582',
+    'message' => 'Voeg een foto toe'
+  },
   'addArchive error generic' => {
     'lastUpdated' => '1218985888',
     'message' => 'Er is een fout opgetreden bij het uploaden van het archief: %s'
@@ -332,6 +336,10 @@ our $I18N = {
   'helpvar url_yes' => {
     'lastUpdated' => '1202912447',
     'message' => 'Bevestig het verwijderen van het album.'
+  },
+  'return to album' => {
+    'lastUpdated' => '1242726618',
+    'message' => 'Terug naar fotoalbum'
   },
   'save' => {
     'lastUpdated' => '1201266201',

@@ -13,6 +13,18 @@ our $I18N = {
     'lastUpdated' => '1149859048',
     'message' => 'Een thumbnail van de afbeelding wordt automatisch aangemaakt. Standaard wordt als grootte van de thumbnail de instelling die in de beheer module kan worden ingevuld gebruikt. Hier kan een andere grootte worden ingegeven.'
   },
+  'annotate' => {
+    'lastUpdated' => '1242727022',
+    'message' => 'Aantekening'
+  },
+  'annotate image' => {
+    'lastUpdated' => '1242727004',
+    'message' => 'Voeg een aantekening toe aan de afbeelding'
+  },
+  'annotate image description' => {
+    'lastUpdated' => '1242726920',
+    'message' => 'Tekst rond de afbeelding'
+  },
   'assetName' => {
     'lastUpdated' => '1149859001',
     'message' => 'Afbeelding'
@@ -20,6 +32,18 @@ our $I18N = {
   'controls' => {
     'lastUpdated' => '1170687976',
     'message' => 'De werkbalk voor het wijzigen van de afbeelding. '
+  },
+  'crop image' => {
+    'lastUpdated' => '1242726901',
+    'message' => 'Kort afbeelding in'
+  },
+  'degree' => {
+    'lastUpdated' => '1242726843',
+    'message' => 'Te roteren graden'
+  },
+  'delete' => {
+    'lastUpdated' => '1242726807',
+    'message' => 'Verwijderen'
   },
   'edit image' => {
     'lastUpdated' => '1149859101',
@@ -105,6 +129,10 @@ our $I18N = {
     'lastUpdated' => '1239129915',
     'message' => 'roteer afbeelding'
   },
+  'rotate image label' => {
+    'lastUpdated' => '1242726788',
+    'message' => 'Klik om de afbeelding te roteren'
+  },
   'storageId' => {
     'lastUpdated' => '1149860020',
     'message' => 'Het interne unieke nummer waarmee het bestand opgeslagen is.'
@@ -128,6 +156,18 @@ our $I18N = {
   'title' => {
     'lastUpdated' => '1149860114',
     'message' => 'De titel van de afbeelding of, wanneer deze niet is ingevuld, de bestandsnaam.'
+  },
+  'top' => {
+    'lastUpdated' => '1242726756',
+    'message' => 'Bovenkant'
+  },
+  'undo image' => {
+    'lastUpdated' => '1242726729',
+    'message' => 'Maak wijzigingen ongedaan'
+  },
+  'width' => {
+    'lastUpdated' => '1242726674',
+    'message' => 'Breedte'
   }
 }
 ;
