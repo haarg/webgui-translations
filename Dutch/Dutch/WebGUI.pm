@@ -2071,6 +2071,10 @@ De verstrekte informatie is niet gelijk aan de accountinformatie. '
     'lastUpdated' => '1222938031',
     'message' => 'Plaats uw &quot;over ons&quot; informatie hier.'
   },
+  'Select One' => {
+    'lastUpdated' => '1242722724',
+    'message' => 'Selecteer...'
+  },
   'Select State' => {
     'lastUpdated' => '1166196374',
     'message' => 'Selecteer staat'
@@ -2213,6 +2217,10 @@ LongTruncOk=1'
   'body.content' => {
     'lastUpdated' => '1156170793',
     'message' => 'De inhoud op de huidige pagina.'
+  },
+  'body_attachments' => {
+    'lastUpdated' => '1242722847',
+    'message' => 'Html elementen die direct boven het </body> element kunnen worden geplaats om de pagina sneller in te laden. Als u dit gebruikt moet u ook gebruik maken van de head_attachments variabele in plaats van de head.tags variabele'
   },
   'button' => {
     'lastUpdated' => '1154098030',
@@ -2394,6 +2402,10 @@ LongTruncOk=1'
     'lastUpdated' => '1225914347',
     'message' => 'Tags die automatisch gegenereerd worden. Deze tags zorgen ervoor dat  <ul><li>de cache naar behoren functioneert</li> <li>zoekmachines de site beter vinden</li> <li>en andere automatische functionaliteiten</li></ul><p> Dit moet in de &lt;head&gt; &lt;/head&gt; sectie van de stijl staan.  Het volgende wordt gesuggereerd voor het  &lt;title&gt; &lt;/title&gt; gedeelte van de stijl:  ^PageTitle(); - ^c();  </p><p>Dit specifieke voorbeeld zorgt voor een goede vindbaarheid in zoekmachines.</p>'
   },
+  'head_attachments' => {
+    'lastUpdated' => '1242722980',
+    'message' => 'Html elementen die thuis horen in de <head> sectie van het document. Als u dit gebruikt moet u ook de body_attachmens variabele gebruiken en niet de head.tags variabele'
+  },
   'help' => {
     'lastUpdated' => '1154097941',
     'message' => 'Help'
@@ -2529,6 +2541,14 @@ LongTruncOk=1'
   'misc info short' => {
     'lastUpdated' => '1227628025',
     'message' => 'Extra'
+  },
+  'mobile style description' => {
+    'lastUpdated' => '1242723512',
+    'message' => 'Zorgt ervoor dat een stijl en pagina sjabloon voor mobiele apparaten kan worden getoond. De mobiele sjablonen worden getoond als de webbrowser \'agent string\' van de gebruiker voldoet aan een lijst beschreven in het configuratie bestand.'
+  },
+  'mobile style label' => {
+    'lastUpdated' => '1242723539',
+    'message' => 'Gebruik mobiele stijl'
   },
   'months' => {
     'lastUpdated' => '1227628033',
@@ -2926,6 +2946,14 @@ LongTruncOk=1'
     'lastUpdated' => '1190023096',
     'message' => 'Database link'
   },
+  'settings groupIdAdminFriends hoverHelp' => {
+    'lastUpdated' => '1242724347',
+    'message' => 'Groep ID voor het beheren van vrienden.'
+  },
+  'settings groupIdAdminFriends label' => {
+    'lastUpdated' => '1242724326',
+    'message' => 'Vrienden'
+  },
   'settings groupIdAdminGraphics hoverHelp' => {
     'lastUpdated' => '1190023086',
     'message' => 'Groep die fonts en palletten kan beheren'
@@ -3121,6 +3149,14 @@ LongTruncOk=1'
   'slider' => {
     'lastUpdated' => '1216732122',
     'message' => 'Schuifselectie'
+  },
+  'sms gateway' => {
+    'lastUpdated' => '1242724639',
+    'message' => 'SMS gateway e-mailadres'
+  },
+  'sms gateway help' => {
+    'lastUpdated' => '1242724612',
+    'message' => 'Het e-mail adres dat de site gebruikt voor het verzenden van een SMS bericht.'
   },
   'starts with' => {
     'lastUpdated' => '1154097718',
