@@ -1,6 +1,10 @@
 package WebGUI::i18n::Dutch::Account_Inbox;
 use utf8;
 our $I18N = {
+  'All users' => {
+    'lastUpdated' => '1242719971',
+    'message' => 'Alle gebruikers'
+  },
   'accept button label' => {
     'lastUpdated' => '1227706795',
     'message' => 'Accepteren'
@@ -89,6 +93,14 @@ our $I18N = {
     'lastUpdated' => '1237975341',
     'message' => 'Een boolean waarde die waar is als de gebruiker berichten heeft'
   },
+  'inbox copy sender hoverHelp' => {
+    'lastUpdated' => '1242720070',
+    'message' => 'Als \'ja\' geselecteerd is krijgen gebruikers een kopie van de verzonden berichten in hun postvak in'
+  },
+  'inbox copy sender label' => {
+    'lastUpdated' => '1242720118',
+    'message' => 'Kopie verzonden bericht ontvangen?'
+  },
   'inbox error message template hoverHelp' => {
     'lastUpdated' => '1228767680',
     'message' => 'Kies het sjabloon voor het tonen van fouten in Postvak in.'
@@ -120,6 +132,18 @@ our $I18N = {
   'inbox message confirm template label' => {
     'lastUpdated' => '1228768442',
     'message' => 'Postvak in bericht bevestiging sjabloon'
+  },
+  'inbox notification' => {
+    'lastUpdated' => '1242720144',
+    'message' => 'U heeft een nieuw bericht in uw postvak in'
+  },
+  'inbox notification template' => {
+    'lastUpdated' => '1242720171',
+    'message' => 'Postvak in kennisgevingssjabloon'
+  },
+  'inbox notification template help' => {
+    'lastUpdated' => '1242720236',
+    'message' => 'Kies een sjabloon dat u wilt gebruiken voor postvak in kennisgevingsberichten'
   },
   'inbox rich editor description' => {
     'lastUpdated' => '1233263831',
@@ -329,6 +353,14 @@ our $I18N = {
     'lastUpdated' => '1242136821',
     'message' => 'Een boolean die waar is als er op dit bericht is gereageerd'
   },
+  'mark as read label' => {
+    'lastUpdated' => '1242720257',
+    'message' => 'Markeer als gelezen'
+  },
+  'mark as unread label' => {
+    'lastUpdated' => '1242720275',
+    'message' => 'Markeer als ongelezen'
+  },
   'member since' => {
     'lastUpdated' => '1228766716',
     'message' => 'Lid sinds'
@@ -469,6 +501,14 @@ our $I18N = {
     'lastUpdated' => '1242137183',
     'message' => 'De huidige URL waaraan sortering, sorteringsvolgorde en filter parameters zijn toegevoegd '
   },
+  'send inbox notifications only' => {
+    'lastUpdated' => '1242720317',
+    'message' => 'Verstuur alleen postvak in kennisgevingsberichten'
+  },
+  'send inbox notifications only help' => {
+    'lastUpdated' => '1242720371',
+    'message' => 'Moet WebGUI alleen kennisgevingsberichten sturen over postvak in berichten, of het gehele bericht sturen?'
+  },
   'send label' => {
     'lastUpdated' => '1228765194',
     'message' => 'Verzenden'
@@ -520,6 +560,10 @@ our $I18N = {
   'update label' => {
     'lastUpdated' => '1228765069',
     'message' => 'Vernieuwen'
+  },
+  'userFilter' => {
+    'lastUpdated' => '1242720448',
+    'message' => 'Een selectbox formulier element om de berichten te sorten op verzender'
   },
   'user_invitations_enabled' => {
     'lastUpdated' => '1231700897',
