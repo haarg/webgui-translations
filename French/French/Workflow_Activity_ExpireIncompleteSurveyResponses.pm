@@ -33,6 +33,10 @@ our $I18N = {
     'lastUpdated' => '1241179956',
     'message' => 'Ceci est le champ from qui apparaîtra dans l\'email envoyé.'
   },
+  'name' => {
+    'lastUpdated' => '1242905059',
+    'message' => 'Nom'
+  },
   'subject' => {
     'lastUpdated' => '1241179992',
     'message' => 'Champ sujet'

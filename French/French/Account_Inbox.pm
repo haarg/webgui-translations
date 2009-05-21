@@ -1,6 +1,10 @@
 package WebGUI::i18n::French::Account_Inbox;
 use utf8;
 our $I18N = {
+  'All users' => {
+    'lastUpdated' => '1242904970',
+    'message' => 'Tous les utilisateurs'
+  },
   'accept button label' => {
     'lastUpdated' => '1231231809',
     'message' => 'Accepter.'

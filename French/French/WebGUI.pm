@@ -1580,8 +1580,8 @@ Note : Ceci peut-être surchargé dans les paramêtres utilisateurs.'
     'message' => 'Un plus longue description du groupe ainsi lesa dministrateurs et les personnes du CMS (ou vous si vous oubliez) sauront quel est le sujet de ce groupe.'
   },
   856 => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => '1242820213',
+    'message' => 'Pour l\'instant vous n\'avez pas de propriété à éditer.'
   },
   857 => {
     'lastUpdated' => '1202912707',
@@ -1828,8 +1828,8 @@ Note : Ceci peut-être surchargé dans les paramêtres utilisateurs.'
     'message' => 'Poubelle système'
   },
   967 => {
-    'lastUpdated' => '1203360630',
-    'message' => 'Vider la poubelle syst&egrave;me.'
+    'lastUpdated' => '1242820249',
+    'message' => 'Vider la poubelle système.'
   },
   970 => {
     'lastUpdated' => '1203360650',
@@ -2034,6 +2034,10 @@ Note : Ceci peut-être surchargé dans les paramêtres utilisateurs.'
   'Illegal Warning' => {
     'lastUpdated' => '1203670063',
     'message' => 'Activer cette fonction est ill&eacute;gale dans certains pays, comme l\'australie. En plus, certains pays oblige que vous rajoutiez un message &agrave; votre site si vous utilisez cette fonction. Consulter votre autorit&eacute; locale pour les lois. Plain Black Corporation n\'est pas responsable de vos activit&eacute;s ill&eacute;gale, concernant votre ignorance ou votre malice.'
+  },
+  'Initial Pages' => {
+    'lastUpdated' => '1242923704',
+    'message' => ''
   },
   'Select State' => {
     'lastUpdated' => '1203670083',
@@ -2371,9 +2375,17 @@ Note : Ceci peut-être surchargé dans les paramêtres utilisateurs.'
     'lastUpdated' => '1203458111',
     'message' => 'Divers'
   },
+  'next >' => {
+    'lastUpdated' => '1242821292',
+    'message' => 'suiv.>'
+  },
   'noldaplink' => {
     'lastUpdated' => '1204823899',
     'message' => 'Pas de connexion LDAP'
+  },
+  'ok' => {
+    'lastUpdated' => '1242821306',
+    'message' => 'OK'
   },
   'options.display' => {
     'lastUpdated' => '1203672398',
@@ -2859,6 +2871,26 @@ Note : Ceci peut-être surchargé dans les paramêtres utilisateurs.'
     'lastUpdated' => '1203674070',
     'message' => 'Cela montrera le temps (en secondes) pris pour construire chaque objet de la page. C\'est utilise pour d&eacute;bogger les probl&egrave;mes de performance.'
   },
+  'showMessageOnLogin description' => {
+    'lastUpdated' => '1242821381',
+    'message' => 'Si Oui, montre un message après la connexion de l\'utilisateur.'
+  },
+  'showMessageOnLogin label' => {
+    'lastUpdated' => '1242821406',
+    'message' => 'Montrer un message à la connexion ?'
+  },
+  'showMessageOnLoginBody description' => {
+    'lastUpdated' => '1242821438',
+    'message' => 'Le corps du message à montrer au login. Les macros sont acceptées.'
+  },
+  'showMessageOnLoginBody label' => {
+    'lastUpdated' => '1242821462',
+    'message' => 'Corps du message au login'
+  },
+  'showMessageOnLoginReset description' => {
+    'lastUpdated' => '1242821515',
+    'message' => 'si "oui", oblige tous les utilisateurs à voir le message au login'
+  },
   'skip commit comments' => {
     'lastUpdated' => '1203457207',
     'message' => 'Ne pas donner de commentaires?'
@@ -2892,7 +2924,7 @@ Note : Ceci peut-être surchargé dans les paramêtres utilisateurs.'
     'message' => 'WebGUI'
   },
   'trash' => {
-    'lastUpdated' => '1203271726',
+    'lastUpdated' => '1242820290',
     'message' => 'Poubelle'
   },
   'trash workflow' => {
@@ -2911,6 +2943,10 @@ Note : Ceci peut-être surchargé dans les paramêtres utilisateurs.'
     'lastUpdated' => '1203364200',
     'message' => 'Utilisateur inconnu'
   },
+  'upload logo' => {
+    'lastUpdated' => '1242820454',
+    'message' => 'Télécharger votre logo'
+  },
   'url extension' => {
     'lastUpdated' => '1203360145',
     'message' => 'Extension URL'
@@ -2918,6 +2954,10 @@ Note : Ceci peut-être surchargé dans les paramêtres utilisateurs.'
   'url extension description' => {
     'lastUpdated' => '1203674200',
     'message' => '<p>Ajouter une extension &quot;html&quot;, &quot;php&quot;, ou &quot;asp&quot; &agrave; chaque ULR de nouvelle page cr&eacute;&eacute;e.</p><p>NOTE : Ne pas rajouter le point &quot;.&quot; dans ce champ. Example &quot;HTML&quot; et pas &quot;.HTML&quot;. </p>'
+  },
+  'use recaptcha' => {
+    'lastUpdated' => '1242820630',
+    'message' => 'Utiliser le reCAPTCHA ?'
   },
   'user' => {
     'lastUpdated' => '1203674212',
@@ -2940,12 +2980,20 @@ Note : Ceci peut-être surchargé dans les paramêtres utilisateurs.'
     'message' => 'D&eacute;finit quel style va &ecirc;tre utilis&eacute; pour cr&eacute;er des op&eacute;rations WebGUI (l\'&eacute;dition du profil, message de connection, etc.) quand ils sont disponibles pour un utilisateur. Seulement les gabarits qui ont &eacute;t&eacute; commis sont permis.'
   },
   'user invitations email exists' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => '1242820982',
+    'message' => 'Message d\'email existant'
   },
   'user invitations email exists description' => {
     'lastUpdated' => '1203674411',
     'message' => 'C\'est le message affich&eacute; &agrave; l\'utilisateur qui essaye d\'inviter quelqu\'un dont l\'email existe d&eacute;j&agrave; dans le syst&egrave;me.'
+  },
+  'user profile edit template' => {
+    'lastUpdated' => '1242821024',
+    'message' => 'Modèle d\'édition du Profil Utilisateur'
+  },
+  'user profile edit template description' => {
+    'lastUpdated' => '1242821062',
+    'message' => 'Le modèle utilisé pour construire le formulaire qui permet l\'édition de profile.'
   },
   'user profile field friend availability' => {
     'lastUpdated' => '1203674481',
@@ -2963,6 +3011,14 @@ Note : Ceci peut-être surchargé dans les paramêtres utilisateurs.'
     'lastUpdated' => '1203675853',
     'message' => 'Autoriser seulement mes amis '
   },
+  'user profile view template' => {
+    'lastUpdated' => '1242821118',
+    'message' => 'Modèle pour la visualisation du Profil Utilisateur'
+  },
+  'user profile view template description' => {
+    'lastUpdated' => '1242821166',
+    'message' => 'Le modèle utilisé pour voir le profil.'
+  },
   'user profiling' => {
     'lastUpdated' => '1203674576',
     'message' => 'Formattage du profil utilisateur'
@@ -2970,6 +3026,10 @@ Note : Ceci peut-être surchargé dans les paramêtres utilisateurs.'
   'username no html' => {
     'lastUpdated' => '1203455763',
     'message' => 'Votre nom d\'utilisateur (username) nepeut contenir du code HTML ou des macros WebGUI.'
+  },
+  'version tag mode' => {
+    'lastUpdated' => '1242821190',
+    'message' => 'Mode du version tag'
   },
   'view inbox message template' => {
     'lastUpdated' => '1203674669',
@@ -2987,9 +3047,21 @@ Note : Ceci peut-être surchargé dans les paramêtres utilisateurs.'
     'lastUpdated' => '1203674708',
     'message' => 'Choisir un gabarit pour afficher la bo&icirc;te de reception'
   },
+  'view profile' => {
+    'lastUpdated' => '1242821582',
+    'message' => 'Voir le profil utilisateur.'
+  },
   'webgui' => {
     'lastUpdated' => '1203271761',
     'message' => 'WebGUI'
+  },
+  'work info short' => {
+    'lastUpdated' => '1242821565',
+    'message' => 'Travail'
+  },
+  'yes please' => {
+    'lastUpdated' => '1242821553',
+    'message' => 'Oui, s\'il vous plait'
   }
 }
 ;
