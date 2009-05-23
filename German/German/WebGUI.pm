@@ -2053,6 +2053,10 @@ our $I18N = {
     'lastUpdated' => '1224799115',
     'message' => 'Geben Sie hier bitte Ihren Text für den Bereich &quot;Über uns&quot; an.'
   },
+  'Select One' => {
+    'lastUpdated' => '1243114860',
+    'message' => 'Eintrag selektieren'
+  },
   'Select State' => {
     'lastUpdated' => '1178618606',
     'message' => 'Wähle Bundesland'
@@ -2126,6 +2130,10 @@ Kopieren Sie ggf. Dateien und fügen Sie diese in den Editor ein.'
     'lastUpdated' => '1217235376',
     'message' => 'Eine Schleife, die Optionen für verschiedene Benutzeraccount Zugrifflinks enthält.'
   },
+  'activate user' => {
+    'lastUpdated' => '1243114873',
+    'message' => 'Benutzer aktivieren'
+  },
   'additional parameters' => {
     'lastUpdated' => '1199973285',
     'message' => 'Zusätzliche Datenbank Parameter'
@@ -2193,6 +2201,10 @@ Kopieren Sie ggf. Dateien und fügen Sie diese in den Editor ein.'
   'body.content' => {
     'lastUpdated' => '1178618618',
     'message' => 'Der Inhalt der aktuellen Seite.'
+  },
+  'body_attachments' => {
+    'lastUpdated' => '1243115093',
+    'message' => 'Tags die direkt vor dem dem </body>-Tag platziert werden können. Wenn Sie dieses verwenden, sollten Sie keine <head>-Tags sondern Head-Verweise verwenden.'
   },
   'broken spectre body' => {
     'lastUpdated' => undef,
@@ -2286,6 +2298,10 @@ Kopieren Sie ggf. Dateien und fügen Sie diese in den Editor ein.'
     'lastUpdated' => '1227566485',
     'message' => 'Tage'
   },
+  'deactivate user' => {
+    'lastUpdated' => '1243115106',
+    'message' => 'Benutzer deaktivieren'
+  },
   'deactivateAccount success' => {
     'lastUpdated' => '1199972135',
     'message' => '%s wurde deaktiviert'
@@ -2313,6 +2329,10 @@ Kopieren Sie ggf. Dateien und fügen Sie diese in den Editor ein.'
   'default version tag workflow help' => {
     'lastUpdated' => '1178552562',
     'message' => 'Welcher Workflow soll als Standard benutzt werden wenn Benutzer ihre eigenen Version Tags erzeugen.<br />'
+  },
+  'delete user' => {
+    'lastUpdated' => '1243115121',
+    'message' => 'Benutzer löschen'
   },
   'demographic info short' => {
     'lastUpdated' => '1228684233',

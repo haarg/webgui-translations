@@ -910,6 +910,10 @@ our $I18N = {
     'lastUpdated' => '1179758688',
     'message' => 'Antwort'
   },
+  'reply filter code description' => {
+    'lastUpdated' => '1243114594',
+    'message' => 'Level HTML-Filter für eine Antwort.'
+  },
   'reply.label' => {
     'lastUpdated' => '1236959725',
     'message' => 'Antwort'

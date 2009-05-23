@@ -333,6 +333,14 @@ our $I18N = {
     'lastUpdated' => '1240758758',
     'message' => 'Vierwöchentlich'
   },
+  'group label' => {
+    'lastUpdated' => '1243114783',
+    'message' => 'Bezeichnung'
+  },
+  'group rate' => {
+    'lastUpdated' => '1243114800',
+    'message' => 'MwSt-Satz'
+  },
   'halfyearly' => {
     'lastUpdated' => '1240757947',
     'message' => 'halbjählich'
