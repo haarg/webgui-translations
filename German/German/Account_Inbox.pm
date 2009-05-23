@@ -1,6 +1,10 @@
 package WebGUI::i18n::German::Account_Inbox;
 use utf8;
 our $I18N = {
+  'All users' => {
+    'lastUpdated' => '1243114221',
+    'message' => 'Alle Benutzer'
+  },
   'accept button label' => {
     'lastUpdated' => '1235675859',
     'message' => 'Annehmen'
@@ -88,6 +92,14 @@ our $I18N = {
   'has_messages' => {
     'lastUpdated' => '1235681694',
     'message' => 'Eine Variable die wahr ist, falls der Benutzer Mitteilungen im Posteingang hat.'
+  },
+  'inbox copy sender hoverHelp' => {
+    'lastUpdated' => '1243114357',
+    'message' => 'Wenn "ja", werden Benutzer eine Kopie der Nachrichten bekommen, die sie über die Inbox versenden.'
+  },
+  'inbox copy sender label' => {
+    'lastUpdated' => '1243114433',
+    'message' => 'Kopie an Absender?'
   },
   'inbox error message template hoverHelp' => {
     'lastUpdated' => '1232889358',
