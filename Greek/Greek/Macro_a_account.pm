@@ -1,4 +1,5 @@
 package WebGUI::i18n::Greek::Macro_a_account;
+use utf8;
 
 our $I18N = {
 	'account.text' => {

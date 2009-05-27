@@ -1,4 +1,5 @@
 package WebGUI::i18n::Greek::Workflow_Activity;
+use utf8;
 
 our $I18N = {
 };

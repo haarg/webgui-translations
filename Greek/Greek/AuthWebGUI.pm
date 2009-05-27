@@ -1,4 +1,5 @@
 package WebGUI::i18n::Greek::AuthWebGUI;
+use utf8;
 
 our $I18N = {
 	'new password label' => {
@@ -147,8 +148,8 @@ our $I18N = {
 	},
 
 	'10' => {
-		message => q||,
-		lastUpdated => 
+		message => q|&Pi;&alpha;&lambda;&iota;ό &Sigma;&upsilon;&nu;&theta;&eta;&mu;&alpha;&tau;&iota;&kappa;ό|,
+		lastUpdated => 1211738222
 	},
 
 	'account.form.passwordConfirm' => {
@@ -262,8 +263,8 @@ our $I18N = {
 	},
 
 	'12' => {
-		message => q||,
-		lastUpdated => 
+		message => q|&Mu;&eta;&nu; &chi;&rho;&eta;&sigma;&iota;&mu;&omicron;&pi;&omicron;&iota;&epsilon;ί&tau;&epsilon; &tau;&omicron; &pi;&alpha;&lambda;&iota;ό &sigma;&alpha;&sigmaf; &sigma;&upsilon;&nu;&theta;&eta;&mu;&alpha;&tau;&iota;&kappa;ό &gamma;&iota;&alpha; &tau;&omicron; &nu;έ&omicron; &sigma;&alpha;&sigmaf; &sigma;&upsilon;&nu;&theta;&eta;&mu;&alpha;&tau;&iota;&kappa;ό|,
+		lastUpdated => 1211738281
 	},
 
 	'15' => {
