@@ -6,8 +6,8 @@ our $I18N = {
     'message' => 'Benutzerkonto, Shop'
   },
   'manage purchases label' => {
-    'lastUpdated' => '1233941490',
-    'message' => 'Einkäufe verwalten'
+    'lastUpdated' => '1243498124',
+    'message' => 'Einkauf'
   },
   'manage tax label' => {
     'lastUpdated' => '1240697285',
@@ -22,8 +22,8 @@ our $I18N = {
     'message' => 'Der URL zur Verwaltung der Einkäufe.'
   },
   'my sales label' => {
-    'lastUpdated' => '1241297539',
-    'message' => 'Verkäufe'
+    'lastUpdated' => '1243498139',
+    'message' => 'Verkauf'
   },
   'shop layout template hoverHelp' => {
     'lastUpdated' => '1241189549',

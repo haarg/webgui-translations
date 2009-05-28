@@ -274,8 +274,8 @@ our $I18N = {
     'message' => 'Der Release Status dieser WebGUI Version (stabel, beta, gamma, etc.)'
   },
   'webgui.version' => {
-    'lastUpdated' => '1179922882',
-    'message' => 'Version ihrer WebGUI Installation'
+    'lastUpdated' => '1243496964',
+    'message' => 'Version Ihrer WebGUI Installation'
   }
 }
 ;
