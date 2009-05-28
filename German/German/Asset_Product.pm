@@ -58,8 +58,8 @@ our $I18N = {
     'message' => 'Weiteres Accessoire hinzufügen?'
   },
   '18 description' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => '1243495663',
+    'message' => 'Selektiere "ja", wenn Sie ein weiteres Accessoire hinzufügen möchten.'
   },
   19 => {
     'lastUpdated' => '1226017464',
@@ -74,8 +74,8 @@ our $I18N = {
     'message' => 'verwandtes Produkt'
   },
   '20 description' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => '1243495719',
+    'message' => 'Wählen Sie aus der Liste der Produkte, die Sie bereits eingegeben haben.'
   },
   21 => {
     'lastUpdated' => '1240739865',
@@ -126,8 +126,8 @@ our $I18N = {
     'message' => ''
   },
   28 => {
-    'lastUpdated' => '1240738912',
-    'message' => 'Weitere Spezification hinzufügen?'
+    'lastUpdated' => '1243495740',
+    'message' => 'Weitere Spezifikation hinzufügen?'
   },
   '28 description' => {
     'lastUpdated' => undef,
