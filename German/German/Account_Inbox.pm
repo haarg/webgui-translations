@@ -134,16 +134,16 @@ our $I18N = {
     'message' => 'Vorlage Mitteilungsbestätigungen'
   },
   'inbox notification' => {
-    'lastUpdated' => '1243495280',
-    'message' => 'Sie haben eine neue Nachricht in Ihr Postfach'
+    'lastUpdated' => '1243496397',
+    'message' => 'Sie haben eine neue Nachricht in Ihrem Postfach'
   },
   'inbox notification template' => {
-    'lastUpdated' => '1243495333',
-    'message' => 'Vorlage über neue Nachricht'
+    'lastUpdated' => '1243496425',
+    'message' => 'Vorlage für neue Nachricht'
   },
   'inbox notification template help' => {
-    'lastUpdated' => '1243495388',
-    'message' => 'Selektieren Sie eine Vorlage für "Neue Nachricht in Postfach"'
+    'lastUpdated' => '1243496435',
+    'message' => 'Wählen Sie eine Vorlage für "Neue Nachricht in Postfach"'
   },
   'inbox rich editor description' => {
     'lastUpdated' => '1233553797',

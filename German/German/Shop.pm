@@ -174,16 +174,16 @@ our $I18N = {
     'message' => 'Anklicken dieses Buttons führt den Benutzer zur Auswahl einer Versandadresse aus dem Adressbuch.'
   },
   'city' => {
-    'lastUpdated' => '1228174762',
-    'message' => 'Stadt'
+    'lastUpdated' => '1243496413',
+    'message' => 'Ort'
   },
   'city help' => {
     'lastUpdated' => '1228749929',
     'message' => 'Die Stadt zu dieser Adresse'
   },
   'cityField help' => {
-    'lastUpdated' => '1228749947',
-    'message' => 'Ein Feld, das die Stadt der Adresse enthält'
+    'lastUpdated' => '1243496439',
+    'message' => 'Ein Feld, das der zur Adresse enthält'
   },
   'code' => {
     'lastUpdated' => '1228749956',

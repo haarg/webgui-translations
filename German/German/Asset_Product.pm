@@ -58,8 +58,8 @@ our $I18N = {
     'message' => 'Weiteres Accessoire hinzufügen?'
   },
   '18 description' => {
-    'lastUpdated' => '1243495663',
-    'message' => 'Selektiere "ja", wenn Sie ein weiteres Accessoire hinzufügen möchten.'
+    'lastUpdated' => '1243496345',
+    'message' => 'Wählen Sie "ja", wenn Sie ein weiteres Accessoire hinzufügen möchten.'
   },
   19 => {
     'lastUpdated' => '1226017464',
