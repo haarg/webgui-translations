@@ -25,6 +25,10 @@ our $I18N = {
     'lastUpdated' => '1243115512',
     'message' => 'Ablehnen'
   },
+  'make default' => {
+    'lastUpdated' => '1243494923',
+    'message' => 'Als Standardeinstellung verwenden'
+  },
   'rate' => {
     'lastUpdated' => '1243115697',
     'message' => '%-Satz'
@@ -36,6 +40,10 @@ our $I18N = {
   'shop country' => {
     'lastUpdated' => '1243115574',
     'message' => 'Land zum Shop'
+  },
+  'shop country help' => {
+    'lastUpdated' => '1243495085',
+    'message' => 'Selektieren Sie das Land, wo Ihr Shop angesiedelt ist. Wenn Ihr Land nicht Teil der EU ist, können Sie dieses Steuer-Plugin nicht verwenden.'
   },
   'user' => {
     'lastUpdated' => '1243115588',
@@ -52,6 +60,10 @@ our $I18N = {
   'vat number' => {
     'lastUpdated' => '1243115634',
     'message' => 'MwSt.-Nummer'
+  },
+  'vat number invalid' => {
+    'lastUpdated' => '1243494963',
+    'message' => 'Die MwST.-Nummer ist ungültig'
   },
   'vat numbers' => {
     'lastUpdated' => '1243115652',

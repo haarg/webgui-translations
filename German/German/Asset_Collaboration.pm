@@ -910,9 +910,21 @@ our $I18N = {
     'lastUpdated' => '1179758688',
     'message' => 'Antwort'
   },
+  'reply filter code' => {
+    'lastUpdated' => '1243495162',
+    'message' => 'Antowrt Filter Code'
+  },
   'reply filter code description' => {
     'lastUpdated' => '1243114594',
     'message' => 'Level HTML-Filter für eine Antwort.'
+  },
+  'reply rich editor' => {
+    'lastUpdated' => '1243495181',
+    'message' => 'Antwort Rich Editor'
+  },
+  'reply rich editor description' => {
+    'lastUpdated' => '1243495212',
+    'message' => 'Selektiert den Rich Editor für eine Antwort'
   },
   'reply.label' => {
     'lastUpdated' => '1236959725',

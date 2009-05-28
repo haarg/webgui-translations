@@ -97,6 +97,10 @@ our $I18N = {
     'lastUpdated' => '1240778919',
     'message' => 'Erstellungsdatum'
   },
+  'dateUsed' => {
+    'lastUpdated' => '1243494558',
+    'message' => 'Datum Inanspruchnahme'
+  },
   'default thank you message' => {
     'lastUpdated' => '1241303443',
     'message' => 'Das Abonnement wurde in den Warenkorb gelegt.'
@@ -166,8 +170,8 @@ our $I18N = {
     'message' => 'Abonnements'
   },
   'message' => {
-    'lastUpdated' => '1240779216',
-    'message' => ''
+    'lastUpdated' => '1243494685',
+    'message' => 'Die Info über das Ergebnis Ihrer Aktion. Abhängig davon enthält diese, dass Sie einen Code eingeben können, dass Sie den Code falsch angegeben haben oder ob Sie den Code richtig eingesetzt haben.'
   },
   'no subscriptions' => {
     'lastUpdated' => '1240879978',

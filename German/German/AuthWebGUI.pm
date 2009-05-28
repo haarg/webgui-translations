@@ -606,6 +606,14 @@ Sie können sich jetzt mit Ihrer Kennung und Ihrem Passwort anmelden.'
     'lastUpdated' => '1227567820',
     'message' => 'Wenn aktiviert, muss ein Besucher zur Anlage eines Benutzerkontos ein Captcha-Feld ausfüllen. '
   },
+  'use email as username description' => {
+    'lastUpdated' => '1243494793',
+    'message' => 'Wenn "ja", wird die Registrierungsmaske keinen Benutzernamen abfragen. Die Emailadresse wird dann als Beutzername registriert.'
+  },
+  'use email as username label' => {
+    'lastUpdated' => '1243494814',
+    'message' => 'Email als Benutzername verwenden'
+  },
   'validate email' => {
     'lastUpdated' => '1178704875',
     'message' => 'Email Adresse verifizieren?'
