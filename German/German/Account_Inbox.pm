@@ -133,6 +133,18 @@ our $I18N = {
     'lastUpdated' => '1233943125',
     'message' => 'Vorlage Mitteilungsbestätigungen'
   },
+  'inbox notification' => {
+    'lastUpdated' => '1243495280',
+    'message' => 'Sie haben eine neue Nachricht in Ihr Postfach'
+  },
+  'inbox notification template' => {
+    'lastUpdated' => '1243495333',
+    'message' => 'Vorlage über neue Nachricht'
+  },
+  'inbox notification template help' => {
+    'lastUpdated' => '1243495388',
+    'message' => 'Selektieren Sie eine Vorlage für "Neue Nachricht in Postfach"'
+  },
   'inbox rich editor description' => {
     'lastUpdated' => '1233553797',
     'message' => 'Der Editor, welcher für das Verfassen von Nachrichten verwendet werden soll.'
@@ -340,6 +352,14 @@ our $I18N = {
   'isReplied' => {
     'lastUpdated' => '1235681175',
     'message' => 'Eine Variable die wahr ist, falls auf diese Mitteilung bereits geantwortet wurde.'
+  },
+  'mark as read label' => {
+    'lastUpdated' => '1243495417',
+    'message' => 'Als "gelesen" markieren'
+  },
+  'mark as unread label' => {
+    'lastUpdated' => '1243495437',
+    'message' => 'Als "ungelesen" markieren'
   },
   'member since' => {
     'lastUpdated' => '1233944766',
