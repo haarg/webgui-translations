@@ -178,12 +178,12 @@ our $I18N = {
     'message' => 'Ort'
   },
   'city help' => {
-    'lastUpdated' => '1228749929',
-    'message' => 'Die Stadt zu dieser Adresse'
+    'lastUpdated' => '1243496641',
+    'message' => 'Der Ort zu dieser Adresse'
   },
   'cityField help' => {
-    'lastUpdated' => '1243496439',
-    'message' => 'Ein Feld, das der zur Adresse enthält'
+    'lastUpdated' => '1243496615',
+    'message' => 'Ein Feld, das den Ort zur Adresse enthält'
   },
   'code' => {
     'lastUpdated' => '1228749956',
