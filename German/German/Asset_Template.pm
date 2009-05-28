@@ -5,6 +5,34 @@ our $I18N = {
     'lastUpdated' => '1179920785',
     'message' => 'Template'
   },
+  'attachment add button' => {
+    'lastUpdated' => '1243496763',
+    'message' => 'Hinzufügen'
+  },
+  'attachment add field label' => {
+    'lastUpdated' => '1243496838',
+    'message' => 'Anhang hinzufügen'
+  },
+  'attachment display label' => {
+    'lastUpdated' => '1243496774',
+    'message' => 'Anhänge'
+  },
+  'attachment header index' => {
+    'lastUpdated' => '1243496871',
+    'message' => 'Anhang-Nr.'
+  },
+  'attachment header remove' => {
+    'lastUpdated' => '1243496881',
+    'message' => 'Entfernen'
+  },
+  'attachment header type' => {
+    'lastUpdated' => '1243496897',
+    'message' => 'Typ'
+  },
+  'attachment header url' => {
+    'lastUpdated' => '1243496908',
+    'message' => 'Url'
+  },
   'body background color' => {
     'lastUpdated' => '1179921002',
     'message' => 'Body Hintergrund Farbe'
@@ -28,6 +56,10 @@ our $I18N = {
   'choose a layout' => {
     'lastUpdated' => '1179921086',
     'message' => 'Wählen Sie ein Layout für diesen Style:'
+  },
+  'css label' => {
+    'lastUpdated' => '1243496792',
+    'message' => 'Stilvorlage (CSS)'
   },
   'default parser' => {
     'lastUpdated' => '1179921095',
@@ -64,6 +96,14 @@ our $I18N = {
   'heading' => {
     'lastUpdated' => '1179921396',
     'message' => 'Heading'
+  },
+  'js body label' => {
+    'lastUpdated' => '1243496809',
+    'message' => 'Javascript (body)'
+  },
+  'js head label' => {
+    'lastUpdated' => '1243496823',
+    'message' => 'Javascript (head)'
   },
   'link color' => {
     'lastUpdated' => '1179921410',
