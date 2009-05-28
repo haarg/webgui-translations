@@ -911,8 +911,8 @@ our $I18N = {
     'message' => 'Antwort'
   },
   'reply filter code' => {
-    'lastUpdated' => '1243495162',
-    'message' => 'Antowrt Filter Code'
+    'lastUpdated' => '1243495803',
+    'message' => 'Antwortfilter-Code'
   },
   'reply filter code description' => {
     'lastUpdated' => '1243114594',

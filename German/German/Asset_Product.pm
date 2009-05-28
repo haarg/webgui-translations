@@ -202,8 +202,8 @@ our $I18N = {
     'message' => 'Weiterer Vorteil hinzufügen?'
   },
   '52 description' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => '1243495782',
+    'message' => 'Wählen Sie "ja", wenn Sie einen weiteren Vorteil hinzufügen möchten.'
   },
   53 => {
     'lastUpdated' => '1240739154',
