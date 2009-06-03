@@ -358,8 +358,8 @@ our $I18N = {
     'message' => 'Als "gelesen" markieren.'
   },
   'mark as unread label' => {
-    'lastUpdated' => '1243495501',
-    'message' => 'Als ungelesen markieren'
+    'lastUpdated' => '1244063634',
+    'message' => 'Als "ungelesen" markieren'
   },
   'member since' => {
     'lastUpdated' => '1233944766',
@@ -501,6 +501,14 @@ our $I18N = {
     'lastUpdated' => '1235680300',
     'message' => 'Der aktuelle URL inklusive Sortierkriterium, Sortierreihenfolge und Filterregeln.'
   },
+  'send inbox notifications only' => {
+    'lastUpdated' => '1244063692',
+    'message' => 'Nur Mitteilungen zur Posteingang verschicken.'
+  },
+  'send inbox notifications only help' => {
+    'lastUpdated' => '1244063770',
+    'message' => 'Sollte WebGUI nur Mitteilungen zum Posteingang anstelle der kompltten Nachricht verschicken?'
+  },
   'send label' => {
     'lastUpdated' => '1231217662',
     'message' => 'Senden'
@@ -552,6 +560,10 @@ our $I18N = {
   'update label' => {
     'lastUpdated' => '1231217494',
     'message' => 'Aktualisieren'
+  },
+  'userFilter' => {
+    'lastUpdated' => '1244063841',
+    'message' => 'Ein Formelement zur Filterung der Absender der Nachrichtenliste '
   },
   'user_invitations_enabled' => {
     'lastUpdated' => '1232483253',
