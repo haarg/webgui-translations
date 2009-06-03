@@ -2402,6 +2402,10 @@ Kopieren Sie ggf. Dateien und fügen Sie diese in den Editor ein.'
     'lastUpdated' => '1226013047',
     'message' => '<p>Tags, die WebGUI automatisch für Sie generiert damit Caching so funktioniert wie es soll, Suchmaschinen ihre Seite besser finden und andere n&uuml;tzliche automatische Funktionalität. Sollte im &lt;head&gt; &lt;/head&gt; Bereich untergebracht werden.&nbsp;</p><p>Wir schlagen vor, dass Sie in ihrem &lt;title&gt; &lt;/title&gt; Bereich folgendes schreiben:</p><p>^PageTitle(); - ^c();</p><p>Dieses Beispiel hilft ihnen, um gute Rankings in Suchmaschinen zu erreichen.&nbsp;</p>'
   },
+  'head_attachments' => {
+    'lastUpdated' => '1244062950',
+    'message' => 'Tags, die nur zum <head>-Tag des Dokuments gehören. Wenn Sie dies verwenden, sollten Sie "body_attachments" verwenden und den Head-Tags nicht. '
+  },
   'help' => {
     'lastUpdated' => '1178619020',
     'message' => 'Hilfe'

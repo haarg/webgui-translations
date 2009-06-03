@@ -1,6 +1,10 @@
 package WebGUI::i18n::German::Asset_GalleryAlbum;
 use utf8;
 our $I18N = {
+  'add photo' => {
+    'lastUpdated' => '1244063236',
+    'message' => 'Bild hinzufügen'
+  },
   'addArchive error generic' => {
     'lastUpdated' => '1229104620',
     'message' => 'Beim Hochladen Ihres Archivs kam es zu folgendem Fehler: %s'
@@ -332,6 +336,10 @@ our $I18N = {
   'helpvar url_yes' => {
     'lastUpdated' => '1229372169',
     'message' => 'Bestätigen Sie das Löschen dieses Albums!'
+  },
+  'return to album' => {
+    'lastUpdated' => '1244063258',
+    'message' => 'Zurück zum Album'
   },
   'save' => {
     'lastUpdated' => '1201607200',

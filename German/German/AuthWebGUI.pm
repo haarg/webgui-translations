@@ -186,7 +186,7 @@ our $I18N = {
     'message' => 'Geben Sie die nachfolgende Zeichenfolge ein'
   },
   'check email for validation' => {
-    'lastUpdated' => '1240835661',
+    'lastUpdated' => '1244063395',
     'message' => 'Bitte checken Sie Ihre Email, um Ihren Account zu aktivieren.'
   },
   'create account template' => {
@@ -258,8 +258,10 @@ our $I18N = {
     'message' => 'Standard Seitentitel.'
   },
   'email address validation email body' => {
-    'lastUpdated' => '1242201906',
-    'message' => 'Willkommen auf unserer Seite. Bitte klicken Sie auf den folgenden Link oder übernehmen Sie den Link in Ihrem Browser, um ihren Account zu aktivieren.
+    'lastUpdated' => '1244063441',
+    'message' => 'Willkommen auf unserer Seite. 
+Bitte klicken Sie auf den folgenden Link oder übernehmen Sie den Link in Ihren Browser, um ihren Account zu aktivieren.
+
 Danach können Sie sich mit Ihrer Kennung und dem Passwort anmelden.
 
 
@@ -447,7 +449,7 @@ Sie können sich jetzt mit Ihrer Kennung und Ihrem Passwort anmelden.'
     'message' => 'Sorry, Sie können keine Passwortwiederherstellung für diesen Account durchf&uuml;hren. Bitte kontaktieren Sie einen Administrator. '
   },
   'password recovery no results' => {
-    'lastUpdated' => '1178704293',
+    'lastUpdated' => '1244063474',
     'message' => 'Keine Benutzer wurden gefunden, deren Profil passt. Bitte versuchen Sie es erneut.'
   },
   'password recovery no username' => {
