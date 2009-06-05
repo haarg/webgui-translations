@@ -354,11 +354,11 @@ our $I18N = {
     'message' => 'Een boolean die waar is als er op dit bericht is gereageerd'
   },
   'mark as read label' => {
-    'lastUpdated' => '1242736110',
-    'message' => 'Markeer als gelezen'
+    'lastUpdated' => '1244212391',
+    'message' => 'Mark as Read'
   },
   'mark as unread label' => {
-    'lastUpdated' => '1242720275',
+    'lastUpdated' => '1244195651',
     'message' => 'Markeer als ongelezen'
   },
   'member since' => {

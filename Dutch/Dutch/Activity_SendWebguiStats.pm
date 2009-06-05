@@ -16,6 +16,10 @@ our $I18N = {
   'why to send' => {
     'lastUpdated' => '1242734243',
     'message' => 'U kunt ervoor kiezen informatie over uw WebGUI site te versturen naar het centrale webgui.org statistieken verzamelpunt. Dit helpt de ontwikkelaars WebGUI te verbeteren door inzicht te krijgen in de omvang van de sites, hoe snel ze groeien en welke assets er het meest gebruikt worden. Persoonsgevoelige informatie wordt niet verzonden naar webgui.org, dus hoeft zich niet druk te maken om de privacy van uw gebruikers. '
+  },
+  'would you participate' => {
+    'lastUpdated' => '1244212584',
+    'message' => 'Wilt u deelnemen aan het WebGUI gemeenschap statistiekenprogramma?'
   }
 }
 ;
