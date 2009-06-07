@@ -41,6 +41,14 @@ our $I18N = {
     'lastUpdated' => '1240471399',
     'message' => 'Zurück'
   },
+  'cache timeout' => {
+    'lastUpdated' => '1244363381',
+    'message' => 'Cache Timeout'
+  },
+  'cache timeout help' => {
+    'lastUpdated' => '1244363512',
+    'message' => 'Da alle Benutzer dieses Asset in gleicher Form sehen, kann es, um die Performance zu erhöhen, für längere Zeit ins Cache aufgenommen werden. Wie lange soll es aufgenommen werden?'
+  },
   'canEditThings' => {
     'lastUpdated' => '1241126984',
     'message' => '"wahr" wenn der aktuelle Benutzer die Tabellen in diesem Asset sehen kann.'
@@ -87,6 +95,10 @@ Bei "Ja/Nein" Feldern, geben Sie "yes" für "Ja" und "no" für "Nein" ein.'
     'lastUpdated' => '1227001205',
     'message' => 'Löschen'
   },
+  'delete thing data warning' => {
+    'lastUpdated' => '1244363570',
+    'message' => 'Möchten Sie diese Tabelle wirklich löschen? Die Aktion ist nicht versioniert und kann nicht widerrufen werden.'
+  },
   'delete thing warning' => {
     'lastUpdated' => '1240997756',
     'message' => 'Möchten Sie diese Tabelle und alle Daten wirklich löschen? Dieser Vorgang ist entgültig!'
@@ -123,6 +135,10 @@ Bei "Ja/Nein" Feldern, geben Sie "yes" für "Ja" und "no" für "Nein" ein.'
     'lastUpdated' => '1238256717',
     'message' => 'Ändern'
   },
+  'edit_url' => {
+    'lastUpdated' => '1244363623',
+    'message' => 'URL zum Bearbeiten dieser Tabelle '
+  },
   'export label' => {
     'lastUpdated' => '1240471950',
     'message' => 'Export'
@@ -134,6 +150,10 @@ Bei "Ja/Nein" Feldern, geben Sie "yes" für "Ja" und "no" für "Nein" ein.'
   'field type label' => {
     'lastUpdated' => '1240477853',
     'message' => 'Feldtyp'
+  },
+  'field_form' => {
+    'lastUpdated' => '1244363652',
+    'message' => 'Formularelement für dieses Feld.'
   },
   'field_id' => {
     'lastUpdated' => '1240487459',
@@ -163,6 +183,10 @@ Bei "Ja/Nein" Feldern, geben Sie "yes" für "Ja" und "no" für "Nein" ein.'
     'lastUpdated' => '1238256735',
     'message' => 'Felder'
   },
+  'fields tab label' => {
+    'lastUpdated' => '1244363663',
+    'message' => 'Felder'
+  },
   'fieldstatus editable label' => {
     'lastUpdated' => '1240582154',
     'message' => 'Änderbar'
@@ -186,6 +210,10 @@ Bei "Ja/Nein" Feldern, geben Sie "yes" für "Ja" und "no" für "Nein" ein.'
   'has entered max per user message' => {
     'lastUpdated' => '1240997198',
     'message' => 'Sie haben die für Sie maximale Anzahl der Einträge in dieser Tabelle erreicht'
+  },
+  'height description' => {
+    'lastUpdated' => '1244363747',
+    'message' => 'Definieren Sie die Höhe dieses Feldes in Pixel. Nur ausgewertet bei Text- und HTML-Bereichen.'
   },
   'height label' => {
     'lastUpdated' => '1240997448',
@@ -250,6 +278,10 @@ Bei "Ja/Nein" Feldern, geben Sie "yes" für "Ja" und "no" für "Nein" ein.'
   'no permission to edit' => {
     'lastUpdated' => '1240997570',
     'message' => 'Sie haben keine Berchtigung diese Tabelle zu ändern.'
+  },
+  'no permission to search' => {
+    'lastUpdated' => '1244363781',
+    'message' => 'Sie haben keine Berechtigung diese Tabelle zu durchsuchen.'
   },
   'overwrite label' => {
     'lastUpdated' => '1240582368',
