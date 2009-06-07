@@ -354,7 +354,7 @@ our $I18N = {
     'message' => 'Eine Variable die wahr ist, falls auf diese Mitteilung bereits geantwortet wurde.'
   },
   'mark as read label' => {
-    'lastUpdated' => '1244063300',
+    'lastUpdated' => '1244362593',
     'message' => 'Als "gelesen" markieren.'
   },
   'mark as unread label' => {

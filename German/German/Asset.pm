@@ -270,8 +270,8 @@ our $I18N = {
     'message' => 'Seiten Export Status'
   },
   'Possible Values description' => {
-    'lastUpdated' => '1217253839',
-    'message' => '<p>Dieses Feld wird nur für die Datentypen &quot;Radio List&quot; und &quot;Select List&quot; genutzt. Geben Sie die Werte zeilenweise ein, die erscheinen sollen. Jede Zeile sollte weniger als 255 Zeichen lang sein.</p>'
+    'lastUpdated' => '1244362568',
+    'message' => 'Dieses Feld wird nur für die Datentypen &quot;Radio List&quot; und &quot;Select List&quot; genutzt. Geben Sie die Werte zeilenweise ein, die erscheinen sollen. Jede Zeile sollte weniger als 255 Zeichen lang sein.'
   },
   'Select' => {
     'lastUpdated' => '1153238197',

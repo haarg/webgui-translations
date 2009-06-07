@@ -97,6 +97,10 @@ our $I18N = {
     'lastUpdated' => '1221334050',
     'message' => 'Beschreibung dieses Feldes aus Benutzersicht.'
   },
+  'categoryLabel' => {
+    'lastUpdated' => '1244363003',
+    'message' => 'Kategorie'
+  },
   'category_loop' => {
     'lastUpdated' => '1224970674',
     'message' => 'Eine Schleife mit aller Kategorie-Information einer Liste'
@@ -125,6 +129,10 @@ our $I18N = {
     'lastUpdated' => '1202812266',
     'message' => 'Kommentar'
   },
+  'compare button label' => {
+    'lastUpdated' => '1244363153',
+    'message' => 'Vergleichen'
+  },
   'compare template' => {
     'lastUpdated' => '1222246986',
     'message' => 'Vorlage Vergleich'
@@ -137,9 +145,21 @@ our $I18N = {
     'lastUpdated' => undef,
     'message' => ''
   },
+  'compareForm' => {
+    'lastUpdated' => '1244363327',
+    'message' => 'Das Vergleichsformular. Die Liste der Matrixlisten ist eine yui-Datentabelle. Siehe'
+  },
   'compares' => {
     'lastUpdated' => '1221289254',
     'message' => 'Anzahl der Vergleiche zu dieser Liste'
+  },
+  'compares label' => {
+    'lastUpdated' => '1244363021',
+    'message' => 'Vergleichen'
+  },
+  'comparison label' => {
+    'lastUpdated' => '1244363136',
+    'message' => 'Vergleich'
   },
   'comparison template help title' => {
     'lastUpdated' => undef,
@@ -148,6 +168,10 @@ our $I18N = {
   'count' => {
     'lastUpdated' => '1221333990',
     'message' => 'Summe aller Bewertungen des Besten innerhalb dieser Kategorie'
+  },
+  'create account label' => {
+    'lastUpdated' => '1244362751',
+    'message' => 'Benutzerkonto anlegen'
   },
   'current.user.count' => {
     'lastUpdated' => '1221333148',
@@ -217,17 +241,21 @@ our $I18N = {
     'lastUpdated' => undef,
     'message' => ''
   },
+  'edit attribute title' => {
+    'lastUpdated' => '1244363096',
+    'message' => 'Hinzufügen/Berabeiten Attribut'
+  },
   'edit field' => {
     'lastUpdated' => '1223568231',
     'message' => 'Datenfeld editieren'
   },
   'edit listing' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => '1244363120',
+    'message' => 'Liste bearbeiten'
   },
   'edit matrix' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => '1244363078',
+    'message' => 'Bearbeiten Matrix'
   },
   'edit.url' => {
     'lastUpdated' => undef,
@@ -314,12 +342,16 @@ our $I18N = {
     'message' => 'Gut Schlecht'
   },
   'group to add' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => '1244362773',
+    'message' => 'Wer kann Listen hinzufügen?'
   },
   'group to add description' => {
     'lastUpdated' => undef,
     'message' => ''
+  },
+  'group to add label' => {
+    'lastUpdated' => '1244362840',
+    'message' => 'Gruppe zum Hinzufügen'
   },
   'id' => {
     'lastUpdated' => undef,
@@ -345,6 +377,10 @@ our $I18N = {
     'lastUpdated' => '1223568318',
     'message' => 'Label zum Feld'
   },
+  'last updated label' => {
+    'lastUpdated' => '1244362857',
+    'message' => 'Zuletzt aktualisiert'
+  },
   'lastUpdated' => {
     'lastUpdated' => '1223575945',
     'message' => 'Datum letzter Aktualisierung'
@@ -369,9 +405,17 @@ our $I18N = {
     'lastUpdated' => '1223568335',
     'message' => 'Eingeschränkt'
   },
+  'list attributes title' => {
+    'lastUpdated' => '1244362871',
+    'message' => 'Attribute'
+  },
   'list fields' => {
     'lastUpdated' => '1223568380',
     'message' => 'Liste der Eigenschaften'
+  },
+  'listAttributes_url' => {
+    'lastUpdated' => '1244362928',
+    'message' => 'Die URL zur Seite, wo Sie neue Attrubute für diese Matrix definieren können.'
   },
   'listing description' => {
     'lastUpdated' => '1221289117',
@@ -437,6 +481,10 @@ our $I18N = {
     'lastUpdated' => '1222250378',
     'message' => 'Hersteller/Dienstleister URL, wenn Sie die Anzahl der Clicks zu dieser Liste registrieren möchten'
   },
+  'matrix fieldtype' => {
+    'lastUpdated' => '1244362944',
+    'message' => 'Matrix Feldtyp'
+  },
   'matrix specific fields' => {
     'lastUpdated' => '1223576037',
     'message' => 'Matrix-spezifische Felder'
@@ -494,8 +542,8 @@ our $I18N = {
     'message' => ''
   },
   'privileged group' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => '1244362970',
+    'message' => 'Wer soll priviligierte Rechte haben?'
   },
   'privileged group description' => {
     'lastUpdated' => undef,
@@ -604,6 +652,10 @@ our $I18N = {
   'search field description' => {
     'lastUpdated' => undef,
     'message' => ''
+  },
+  'search label' => {
+    'lastUpdated' => '1244362980',
+    'message' => 'Suchen'
   },
   'search template' => {
     'lastUpdated' => undef,
