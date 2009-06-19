@@ -5,6 +5,22 @@ our $I18N = {
     'lastUpdated' => '1202812528',
     'message' => 'Ein &quot;loop&quot; wird für jede Kategorie in dieser Matrix erstellt. Der Name des loops ergibt sich aus dem Namen der Kategorie, wobei alle Leerzeichen in Bindestriche umgewandelt und ein &quot;_loop&quot; am Ende angehängt wird. Wenn Sie also eine Kategorie namens &quot;Bells and Whistles&quot; haben, wird der loop dazu &quot;bells-and-whistles_loop&quot; heißen.'
   },
+  'add attribute label' => {
+    'lastUpdated' => '1245433009',
+    'message' => 'Attribut hinzufügen'
+  },
+  'add new listing label' => {
+    'lastUpdated' => '1245433049',
+    'message' => 'Klicken Sie hier, um eine neue Liste hinzuzufügen.'
+  },
+  'add new listing text' => {
+    'lastUpdated' => '1245433146',
+    'message' => 'Bitte berücksichtigen Sie, dass Sie verantwortlich sind für die Aktualität dieser Liste.'
+  },
+  'approve or deny label' => {
+    'lastUpdated' => '1245433176',
+    'message' => 'Annehmen/Ablehnen'
+  },
   'approve.url' => {
     'lastUpdated' => '1221289322',
     'message' => 'Die URL zum Überprüfen dieser Liste'
@@ -444,6 +460,10 @@ our $I18N = {
   'listing.count' => {
     'lastUpdated' => undef,
     'message' => ''
+  },
+  'listingCount' => {
+    'lastUpdated' => '1245432978',
+    'message' => 'Anzahl der Listen dieser Matrix'
   },
   'main template' => {
     'lastUpdated' => undef,
