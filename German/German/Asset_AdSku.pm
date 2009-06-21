@@ -13,6 +13,10 @@ our $I18N = {
     'lastUpdated' => '1240880761',
     'message' => 'Sie müssen mindestens %d Clicks für diesen Anzeigenraum kaufen.'
   },
+  'form error no title' => {
+    'lastUpdated' => '1245621853',
+    'message' => 'Bitte geben Sie einen Titel für dieses Inserat an.'
+  },
   'form manage title' => {
     'lastUpdated' => '1240880833',
     'message' => 'Meine Inserate verwalten'

@@ -104,8 +104,8 @@ Bei "Ja/Nein" Feldern, geben Sie "yes" für "Ja" und "no" für "Nein" ein.'
     'message' => 'Möchten Sie diese Tabelle und alle Daten wirklich löschen? Dieser Vorgang ist entgültig!'
   },
   'delete_confirm' => {
-    'lastUpdated' => '1240997687',
-    'message' => ''
+    'lastUpdated' => '1245621965',
+    'message' => 'Dieses enthält eine "onclick"-Eigenschaft für den Link "Löschen", die eine Javascript Bestätigung hinzufügt.'
   },
   'display label' => {
     'lastUpdated' => '1227001779',
@@ -139,9 +139,17 @@ Bei "Ja/Nein" Feldern, geben Sie "yes" für "Ja" und "no" für "Nein" ein.'
     'lastUpdated' => '1244363623',
     'message' => 'URL zum Bearbeiten dieser Tabelle '
   },
+  'error_message' => {
+    'lastUpdated' => '1245622005',
+    'message' => 'Eine Fehlermeldung, die Angibt, was ein Benutzer ggf. falsch gemacht hat.'
+  },
   'export label' => {
     'lastUpdated' => '1240471950',
     'message' => 'Export'
+  },
+  'export metadata label' => {
+    'lastUpdated' => '1245622375',
+    'message' => 'Metadaten exportieren?'
   },
   'field in other thing label' => {
     'lastUpdated' => '1240477757',
@@ -159,9 +167,17 @@ Bei "Ja/Nein" Feldern, geben Sie "yes" für "Ja" und "no" für "Nein" ein.'
     'lastUpdated' => '1240487459',
     'message' => 'Die ID dieses Felds'
   },
+  'field_isHidden' => {
+    'lastUpdated' => '1245622042',
+    'message' => 'Gibt an, ob das Feld verborgen sein soll.'
+  },
   'field_isRequired' => {
     'lastUpdated' => '1240997154',
     'message' => 'Eine Bedingung, die angibt, ob eine Eingabe in dieses Feld erforderlich ist.'
+  },
+  'field_isVisible' => {
+    'lastUpdated' => '1245622423',
+    'message' => 'Eine Bedingung, die angibt, ob dieses Field sichtbar, aber nicht editierbar sein soll.'
   },
   'field_label' => {
     'lastUpdated' => '1234944683',
@@ -174,6 +190,14 @@ Bei "Ja/Nein" Feldern, geben Sie "yes" für "Ja" und "no" für "Nein" ein.'
   'field_pretext' => {
     'lastUpdated' => '1240997847',
     'message' => 'Zusatztext vor das Eingabefeld.'
+  },
+  'field_type' => {
+    'lastUpdated' => '1245622942',
+    'message' => 'Der Typ (Datei, Text, etc.) dieses Feldes'
+  },
+  'field_url' => {
+    'lastUpdated' => '1245623040',
+    'message' => 'Eine optionale Url wozu dieses Feld verlinken soll. Das wird z.B. benutzt um zu Feldern in anderen Tabellen zu verlinken.'
   },
   'field_value' => {
     'lastUpdated' => '1236681150',
@@ -190,6 +214,18 @@ Bei "Ja/Nein" Feldern, geben Sie "yes" für "Ja" und "no" für "Nein" ein.'
   'fieldstatus editable label' => {
     'lastUpdated' => '1240582154',
     'message' => 'Änderbar'
+  },
+  'fieldstatus hidden label' => {
+    'lastUpdated' => '1245622438',
+    'message' => 'Verborgen'
+  },
+  'fieldstatus required label' => {
+    'lastUpdated' => '1245622451',
+    'message' => 'Erforderlich'
+  },
+  'fieldstatus visible label' => {
+    'lastUpdated' => '1245622059',
+    'message' => 'Sichtbar'
   },
   'file contains label' => {
     'lastUpdated' => '1240582301',
@@ -283,6 +319,26 @@ Bei "Ja/Nein" Feldern, geben Sie "yes" für "Ja" und "no" für "Nein" ein.'
     'lastUpdated' => '1244363781',
     'message' => 'Sie haben keine Berechtigung diese Tabelle zu durchsuchen.'
   },
+  'on add workflow label' => {
+    'lastUpdated' => '1245622091',
+    'message' => 'Bei neuem Eintrag'
+  },
+  'on delete workflow label' => {
+    'lastUpdated' => '1245622125',
+    'message' => 'Nach löschen eines Eintrags'
+  },
+  'on edit workflow label' => {
+    'lastUpdated' => '1245622145',
+    'message' => 'Bei Änderung'
+  },
+  'other thing field missing message' => {
+    'lastUpdated' => '1245622499',
+    'message' => 'Das Feld der anderen Tabelle existiert nicht.'
+  },
+  'other thing missing message' => {
+    'lastUpdated' => '1245622236',
+    'message' => 'Das Feld, wozu dieses Feld ein Verweis sein soll, existiert nicht.'
+  },
   'overwrite label' => {
     'lastUpdated' => '1240582368',
     'message' => 'überschreiben'
@@ -343,6 +399,10 @@ Bei "Ja/Nein" Feldern, geben Sie "yes" für "Ja" und "no" für "Nein" ein.'
     'lastUpdated' => '1227001639',
     'message' => 'Suchen'
   },
+  'search thing template label' => {
+    'lastUpdated' => '1245622320',
+    'message' => 'Vorlage Tabellensuche'
+  },
   'search this thing label' => {
     'lastUpdated' => '1240487257',
     'message' => 'Diese Tabelle durchsuchen'
@@ -387,6 +447,10 @@ Bei "Ja/Nein" Feldern, geben Sie "yes" für "Ja" und "no" für "Nein" ein.'
     'lastUpdated' => '1238256796',
     'message' => 'Zusatztext'
   },
+  'template_label' => {
+    'lastUpdated' => '1245622894',
+    'message' => 'Listenvorlage'
+  },
   'thing must have fields' => {
     'lastUpdated' => '1240997415',
     'message' => 'Fehler: Sie sollten Felder für die neue Tabelle definieren.'
@@ -398,6 +462,10 @@ Bei "Ja/Nein" Feldern, geben Sie "yes" für "Ja" und "no" für "Nein" ein.'
   'thing_editIcon' => {
     'lastUpdated' => '1240496016',
     'message' => 'Ein Icon mit einem Link zum Änderungsbildschirm'
+  },
+  'thing_editUrl' => {
+    'lastUpdated' => '1245622541',
+    'message' => 'Ein Link zum Änderungsbildschirm'
   },
   'thing_id' => {
     'lastUpdated' => '1240487143',
@@ -439,6 +507,10 @@ Bei "Ja/Nein" Feldern, geben Sie "yes" für "Ja" und "no" für "Nein" ein.'
     'lastUpdated' => '1240997894',
     'message' => 'Anzeige'
   },
+  'view template description' => {
+    'lastUpdated' => '1245622812',
+    'message' => 'Diese Vorlage wird benutzt für die Ansichtsvorlage zu dieser Tabelle.'
+  },
   'view template label' => {
     'lastUpdated' => '1227001612',
     'message' => 'Anzeigevorlage'
@@ -467,13 +539,29 @@ Bei "Ja/Nein" Feldern, geben Sie "yes" für "Ja" und "no" für "Nein" ein.'
     'lastUpdated' => '1240471773',
     'message' => 'Wer kann hinzufügen?'
   },
+  'who can edit description' => {
+    'lastUpdated' => '1245622738',
+    'message' => 'Selektieren Sie entweder:
+- \'Eigentümer\' wenn nur die Person, die dies hinzugefügt hat, Änderungen vornehmen darf,
+oder:
+- eine Gruppe, die alle Daten dieser Tabelle bearbeiten darf.
+Der Benutzer, der dieses Tabelle-Objekt bearbeiten darf, kann immer alles sehen und bearbeiten.'
+  },
   'who can edit label' => {
     'lastUpdated' => '1240471838',
     'message' => 'Wer kann bearbeiten?'
   },
+  'who can export description' => {
+    'lastUpdated' => '1245622767',
+    'message' => 'Die Gruppe, die die Daten dieser Tabelle exportieren kann.'
+  },
   'who can export label' => {
     'lastUpdated' => '1240471760',
     'message' => 'Wer kann exportieren?'
+  },
+  'who can import description' => {
+    'lastUpdated' => '1245622843',
+    'message' => 'Die Gruppe, die Daten zu dieser Tabelle importieren kann.'
   },
   'who can import label' => {
     'lastUpdated' => '1240471719',
