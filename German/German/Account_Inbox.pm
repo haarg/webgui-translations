@@ -37,6 +37,10 @@ our $I18N = {
     'lastUpdated' => '1240172740',
     'message' => 'Neue Nachricht erstellen'
   },
+  'currently invited' => {
+    'lastUpdated' => '1245619563',
+    'message' => 'Die Emailadresse, die Sie eingegeben haben, %s, hat eine offene Einladung'
+  },
   'date label' => {
     'lastUpdated' => '1231216994',
     'message' => 'Datum'
@@ -196,6 +200,10 @@ our $I18N = {
   'inbox_form_delete' => {
     'lastUpdated' => '1235680001',
     'message' => 'Eine Box zum Markieren von Mitteilungen, die gelöscht werden sollen.'
+  },
+  'invalid email' => {
+    'lastUpdated' => '1245619596',
+    'message' => '\'%s\' ist eine ungültige Emailadresse'
   },
   'invitation confirm label' => {
     'lastUpdated' => '1233555662',
@@ -452,6 +460,10 @@ our $I18N = {
   'no invitations' => {
     'lastUpdated' => '1232484968',
     'message' => 'Sie haben keine ausstehenden Einladungen.'
+  },
+  'no messagable friends error' => {
+    'lastUpdated' => '1245619636',
+    'message' => 'Keine Ihrer Kontakte möchten privat kontaktiert werden.'
   },
   'no message error' => {
     'lastUpdated' => '1231217941',

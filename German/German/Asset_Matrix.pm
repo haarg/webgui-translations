@@ -14,8 +14,12 @@ our $I18N = {
     'message' => 'Klicken Sie hier, um eine neue Liste hinzuzufügen.'
   },
   'add new listing text' => {
-    'lastUpdated' => '1245433146',
-    'message' => 'Bitte berücksichtigen Sie, dass Sie verantwortlich sind für die Aktualität dieser Liste.'
+    'lastUpdated' => '1245447514',
+    'message' => 'Bitte berücksichtigen Sie, dass Sie bei Aufnahme einer neuen Liste verantwortlich sind für die Aktualität dieser Liste.'
+  },
+  'addMatrixListing_url' => {
+    'lastUpdated' => '1245447551',
+    'message' => 'URL zur Seite, wo ein Benutzer eine neue Liste zur Matrix hinzufügen kann.'
   },
   'approve or deny label' => {
     'lastUpdated' => '1245433176',
@@ -28,6 +32,18 @@ our $I18N = {
   'assetName' => {
     'lastUpdated' => '1157856271',
     'message' => 'Matrix'
+  },
+  'attribute defaultValue description' => {
+    'lastUpdated' => '1245447631',
+    'message' => 'Geben Sie einen Standardwert für das Attribut ein, für den Fall dass es sich um eine Selectbox handelt.'
+  },
+  'attribute defaultValue label' => {
+    'lastUpdated' => '1245448791',
+    'message' => 'Standardwert'
+  },
+  'best rated label' => {
+    'lastUpdated' => '1245447656',
+    'message' => 'Beste Bewertung'
   },
   'best.clicks.count' => {
     'lastUpdated' => '1202816280',
@@ -81,6 +97,38 @@ our $I18N = {
     'lastUpdated' => '1221332796',
     'message' => 'Am meisten angeschaute URL'
   },
+  'bestClicks_count' => {
+    'lastUpdated' => '1245447709',
+    'message' => 'Anzahl der Klicks auf die Liste mit den meisten Klicks.'
+  },
+  'bestClicks_name' => {
+    'lastUpdated' => '1245447733',
+    'message' => 'Name der Liste mit den meisten Klicks.'
+  },
+  'bestClicks_url' => {
+    'lastUpdated' => '1245447753',
+    'message' => 'URL zur Liste mit den meisten Klicks.'
+  },
+  'bestCompares_count' => {
+    'lastUpdated' => '1245447846',
+    'message' => 'Anzahl der Vergleiche mit der Liste mit den meisten Vergleichen.'
+  },
+  'bestCompares_name' => {
+    'lastUpdated' => '1245447829',
+    'message' => 'Name der Liste mit den meisten Vergleichen'
+  },
+  'bestCompares_url' => {
+    'lastUpdated' => '1245447877',
+    'message' => 'URL zur Liste mit den meisten Vergleichen.'
+  },
+  'bestViews_count' => {
+    'lastUpdated' => '1245447946',
+    'message' => 'Anzahl der Betrachtungen der Liste mit den meisten Betrachtungen.'
+  },
+  'bestViews_url' => {
+    'lastUpdated' => '1245448773',
+    'message' => 'URL zur Liste mit den meisten Betrachtungen.'
+  },
   'best_rating_loop' => {
     'lastUpdated' => '1221332898',
     'message' => 'Eine Reihe aller Kategorien dieser Matrix und deren besten Bewertungen'
@@ -92,6 +140,10 @@ our $I18N = {
   'categories description' => {
     'lastUpdated' => '1221288616',
     'message' => 'Geben Sie hier eine Kategorie pro Zeile an um die Kategorien für diese Matrix zu definieren. Kategorien werden benutzt um Felder zu gruppieren. Benutzer können eine Liste pro Kategorie bewerten.'
+  },
+  'categories label' => {
+    'lastUpdated' => '1245448731',
+    'message' => 'Kategorien'
   },
   'categories subtext' => {
     'lastUpdated' => '1221332990',
@@ -128,6 +180,10 @@ our $I18N = {
   'clicks' => {
     'lastUpdated' => '1222248663',
     'message' => 'Anzahl der Klicks für diese Liste'
+  },
+  'clicks label' => {
+    'lastUpdated' => '1245448743',
+    'message' => 'Klicks'
   },
   'columnCount' => {
     'lastUpdated' => '1223575738',
@@ -188,6 +244,10 @@ our $I18N = {
   'create account label' => {
     'lastUpdated' => '1244362751',
     'message' => 'Benutzerkonto anlegen'
+  },
+  'create account part1 text' => {
+    'lastUpdated' => '1245448112',
+    'message' => 'Wenn Sie ein Produkt herstellen oder ein Experte sind, die die Liste dazu pflegen möchte.'
   },
   'current.user.count' => {
     'lastUpdated' => '1221333148',
@@ -389,6 +449,10 @@ our $I18N = {
     'lastUpdated' => undef,
     'message' => ''
   },
+  'javascript' => {
+    'lastUpdated' => '1245448135',
+    'message' => 'Inline Javascript für diese Vorlage.'
+  },
   'label' => {
     'lastUpdated' => '1223568318',
     'message' => 'Label zum Feld'
@@ -534,8 +598,8 @@ our $I18N = {
     'message' => ''
   },
   'mean' => {
-    'lastUpdated' => '1222247195',
-    'message' => 'Durchschnitt des Besten in dieser Kategorie'
+    'lastUpdated' => '1245448244',
+    'message' => 'Durchschnittsbewertung der besten/schlechtesten Liste in dieser Kategorie'
   },
   'median' => {
     'lastUpdated' => '1222247226',
@@ -610,16 +674,16 @@ our $I18N = {
     'message' => 'Selektiere eine Vorlage zur Anzeige der Bewertungsdetails'
   },
   'rating group' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => '1245448541',
+    'message' => 'Wer kann Listen bewerten?'
   },
   'rating group description' => {
     'lastUpdated' => undef,
     'message' => ''
   },
   'rating timeout' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => '1245448578',
+    'message' => 'Erforderliche Zeit zwischen Bewertungen.'
   },
   'rating timeout description' => {
     'lastUpdated' => undef,
@@ -689,13 +753,41 @@ our $I18N = {
     'lastUpdated' => undef,
     'message' => ''
   },
+  'search template label' => {
+    'lastUpdated' => '1245448652',
+    'message' => 'Suchvorlage'
+  },
   'search.url' => {
     'lastUpdated' => '1222250288',
     'message' => 'URL zum Suchformular'
   },
+  'search_url' => {
+    'lastUpdated' => '1245448632',
+    'message' => 'URL zur Suche'
+  },
   'show ratings' => {
     'lastUpdated' => '1202812306',
     'message' => 'Bewertungen anzeigen'
+  },
+  'site statistics label' => {
+    'lastUpdated' => '1245448679',
+    'message' => 'Site Statistik'
+  },
+  'sort by last updated label' => {
+    'lastUpdated' => '1245448494',
+    'message' => 'Am Rezentesten aktualisiert.'
+  },
+  'sort by score label' => {
+    'lastUpdated' => '1245448445',
+    'message' => 'Score'
+  },
+  'statistics cache timeout label' => {
+    'lastUpdated' => '1245448707',
+    'message' => 'Statistik Cache Timeout'
+  },
+  'template label' => {
+    'lastUpdated' => '1245448510',
+    'message' => 'Matrixvorlage'
   },
   'text' => {
     'lastUpdated' => '1192797250',
@@ -789,6 +881,14 @@ our $I18N = {
     'lastUpdated' => undef,
     'message' => ''
   },
+  'too few message' => {
+    'lastUpdated' => '1245448376',
+    'message' => 'Sie haben versucht nur eine Liste zu vergleichen. Wenn Sie nur eine Liste anschauen möchten, klicken Sie bitte auf den Namen.'
+  },
+  'too many message' => {
+    'lastUpdated' => '1245448315',
+    'message' => 'Sie haben versucht, mehr als die maximale Anzahl von Listen zu vergleichen.'
+  },
   'url' => {
     'lastUpdated' => '1192797234',
     'message' => 'URL'
@@ -829,6 +929,10 @@ our $I18N = {
     'lastUpdated' => '1222248194',
     'message' => 'Gesamtanzahl der Anzeigen zu dieser Liste'
   },
+  'views label' => {
+    'lastUpdated' => '1245448396',
+    'message' => 'Betrachtungen'
+  },
   'visitor cache timeout' => {
     'lastUpdated' => undef,
     'message' => ''
@@ -836,6 +940,10 @@ our $I18N = {
   'visitor cache timeout help' => {
     'lastUpdated' => undef,
     'message' => ''
+  },
+  'worst rated label' => {
+    'lastUpdated' => '1245448429',
+    'message' => 'Am Schlechtesten bewertet'
   },
   'worst_rating_loop' => {
     'lastUpdated' => '1222247463',
