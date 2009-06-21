@@ -2110,6 +2110,10 @@ Kopieren Sie ggf. Dateien und fügen Sie diese in den Editor ein.'
     'lastUpdated' => '1225319345',
     'message' => 'Willkommen zu unserem WiKi. Hier können Sie uns unterstützen, unsere Informationen aktuell zu halten.'
   },
+  'Working...' => {
+    'lastUpdated' => '1245623114',
+    'message' => 'in Bearbeitung...'
+  },
   'Your Email Address' => {
     'lastUpdated' => '1224798515',
     'message' => 'Ihre Emailadresse'
@@ -2542,6 +2546,14 @@ Kopieren Sie ggf. Dateien und fügen Sie diese in den Editor ein.'
     'lastUpdated' => '1228684312',
     'message' => 'Verschiedenes'
   },
+  'mobile style description' => {
+    'lastUpdated' => '1245623328',
+    'message' => 'Ermöglicht die Benutzung Mobile Stile und Vorlagen. Wenn aktiviert werden die alternativen Vorlagen verwendet, wenn der Useragent des Browsers in der entsprechenden Liste der config-Datei vorkommt.  '
+  },
+  'mobile style label' => {
+    'lastUpdated' => '1245623138',
+    'message' => 'Mobile Style benutzen'
+  },
   'months' => {
     'lastUpdated' => '1228684323',
     'message' => 'Monate'
@@ -2834,6 +2846,18 @@ Kopieren Sie ggf. Dateien und fügen Sie diese in den Editor ein.'
     'lastUpdated' => '1234735485',
     'message' => 'reCAPTCHA Öffentlicher-Schlüssel'
   },
+  'receive inbox emails' => {
+    'lastUpdated' => '1245623380',
+    'message' => 'Postfacheingänge als Email empfangen?'
+  },
+  'receive inbox sms' => {
+    'lastUpdated' => '1245623404',
+    'message' => 'Postfacheingänge als SMS?'
+  },
+  'redirectAfterLoginUrl label' => {
+    'lastUpdated' => '1245623439',
+    'message' => 'Redirect-Url nach Anmeldung'
+  },
   'removeLabel' => {
     'lastUpdated' => '1178625097',
     'message' => 'entfernen'
@@ -2946,6 +2970,10 @@ Kopieren Sie ggf. Dateien und fügen Sie diese in den Editor ein.'
     'lastUpdated' => '1199971966',
     'message' => 'Datenbankverbindung'
   },
+  'settings groupIdAdminFriends label' => {
+    'lastUpdated' => '1245623668',
+    'message' => 'Kontakte'
+  },
   'settings groupIdAdminGraphics hoverHelp' => {
     'lastUpdated' => '1199973110',
     'message' => 'Gruppe für Verwaltung von Schriften und Farbpaletten.'
@@ -2977,6 +3005,14 @@ Kopieren Sie ggf. Dateien und fügen Sie diese in den Editor ein.'
   'settings groupIdAdminHelp label' => {
     'lastUpdated' => '1199971910',
     'message' => 'Hilfe'
+  },
+  'settings groupIdAdminHistory hoverHelp' => {
+    'lastUpdated' => '1245623649',
+    'message' => 'Gruppe, die berechtigt ist die Assethistorie anzusehen.'
+  },
+  'settings groupIdAdminHistory label' => {
+    'lastUpdated' => '1245623488',
+    'message' => 'Assethistorie'
   },
   'settings groupIdAdminLDAPLink hoverHelp' => {
     'lastUpdated' => '1199973142',
@@ -3165,6 +3201,14 @@ Kopieren Sie ggf. Dateien und fügen Sie diese in den Editor ein.'
   'slider' => {
     'lastUpdated' => '1216639143',
     'message' => 'Schieber'
+  },
+  'sms gateway' => {
+    'lastUpdated' => '1245623521',
+    'message' => 'SMS Gateway'
+  },
+  'sms gateway help' => {
+    'lastUpdated' => '1245623565',
+    'message' => 'Die Emailadresse, die diese Site verwenden würde um eine SMS-Mitteilung zu versenden.'
   },
   'starts with' => {
     'lastUpdated' => '1178625756',
