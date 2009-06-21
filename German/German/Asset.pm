@@ -269,6 +269,14 @@ our $I18N = {
     'lastUpdated' => '1170454010',
     'message' => 'Seiten Export Status'
   },
+  'Paste' => {
+    'lastUpdated' => '1245620410',
+    'message' => 'Kleben'
+  },
+  'Paste Assets' => {
+    'lastUpdated' => '1245620431',
+    'message' => 'Assets kleben'
+  },
   'Possible Values description' => {
     'lastUpdated' => '1244362568',
     'message' => 'Dieses Feld wird nur für die Datentypen &quot;Radio List&quot; und &quot;Select List&quot; genutzt. Geben Sie die Werte zeilenweise ein, die erscheinen sollen. Jede Zeile sollte weniger als 255 Zeichen lang sein.'
@@ -276,6 +284,10 @@ our $I18N = {
   'Select' => {
     'lastUpdated' => '1153238197',
     'message' => 'Auswählen...'
+  },
+  'Set Rank' => {
+    'lastUpdated' => '1245620457',
+    'message' => 'Reihenfolge einstellen'
   },
   'Uploads URL' => {
     'lastUpdated' => '1170454199',
@@ -434,6 +446,10 @@ Dies bedeutet in der Regel, dass Sie eine Seite anlegen möchtgen, die den selbe
     'lastUpdated' => '1153244443',
     'message' => 'Nach unten verschieben'
   },
+  'demote %s' => {
+    'lastUpdated' => '1245620484',
+    'message' => '%s nach unten verschieben'
+  },
   'demote help' => {
     'lastUpdated' => '1153244426',
     'message' => 'Dieses Asset auf der Seite um eine Position nach unten verschieben.'
@@ -481,6 +497,10 @@ Dies bedeutet in der Regel, dass Sie eine Seite anlegen möchtgen, die den selbe
   'edit branch url help' => {
     'lastUpdated' => '1170456717',
     'message' => '<p>Sie können den URL auf zwei Arten ändern. Über den Basis URL (links Feld) oder über den Datei URL (rechtes Feld). F&uuml;r den Basis URL gibt es drei Optionen:</p> <dl> <dt>Elternteil URL</dt> <dd>Dieser URL beginnt mit dem URL des Elternteils.</dd> <dt>Spezifizierte Basis<br /> </dt> <dd>Enter in a new base URL via the field that appears when Specified Base is selected.</dd> <dt>Nichts</dt> <dd>Allen Assets einen &quot;top-level&quot; haben lassen.</dd> </dl> <p>Es gibt auch drei Optionen f&uuml;r den Datei URL:</p> <dl> <dt>Men&uuml; Titel</dt> <dd>Der neue URL basiert auf dem Men&uuml; Titel Feld des Assets.</dd> <dt>Titel</dt> <dd>Der neue URL basiert auf dem Titel Feld des Assets.</dd> <dt>Aktueller URL</dt> <dd>Der neue URL basiert auf dem vorhandenen URL des Assets.</dd> </dl>'
+  },
+  'editing %s' => {
+    'lastUpdated' => '1245620503',
+    'message' => '%s bearbeiten'
   },
   'encrypt page' => {
     'lastUpdated' => '1170457382',
@@ -553,6 +573,10 @@ Dies bedeutet in der Regel, dass Sie eine Seite anlegen möchtgen, die den selbe
   'import' => {
     'lastUpdated' => '1153262773',
     'message' => 'Import'
+  },
+  'indexing %s' => {
+    'lastUpdated' => '1245620532',
+    'message' => '%s indizieren'
   },
   'inherit parent permissions' => {
     'lastUpdated' => '1223575415',
@@ -654,6 +678,18 @@ Dies bedeutet in der Regel, dass Sie eine Seite anlegen möchtgen, die den selbe
     'lastUpdated' => '1170458876',
     'message' => 'Die Seite, die Sie aufgerufen haben, exisitert nicht. Was möchten Sie tun?'
   },
+  'moving %s' => {
+    'lastUpdated' => '1245620802',
+    'message' => '%s neu benennen'
+  },
+  'moving %s aside' => {
+    'lastUpdated' => '1245620846',
+    'message' => '%s zurückstellen'
+  },
+  'moving %s back' => {
+    'lastUpdated' => '1245620761',
+    'message' => '%s zurück'
+  },
   'need a depth' => {
     'lastUpdated' => '1224797669',
     'message' => 'Angabe einer Tiefe ist erforderlich'
@@ -702,9 +738,17 @@ Dies bedeutet in der Regel, dass Sie eine Seite anlegen möchtgen, die den selbe
     'lastUpdated' => '1170458428',
     'message' => 'Elternteil URL'
   },
+  'pasting %s' => {
+    'lastUpdated' => '1245620568',
+    'message' => '%s kleben'
+  },
   'promote' => {
     'lastUpdated' => '1170458411',
     'message' => 'Fördern'
+  },
+  'promote %s' => {
+    'lastUpdated' => '1245620722',
+    'message' => '% nach unten'
   },
   'promote help' => {
     'lastUpdated' => '1170457638',
@@ -814,6 +858,10 @@ Dies bedeutet in der Regel, dass Sie eine Seite anlegen möchtgen, die den selbe
     'lastUpdated' => '1153261973',
     'message' => 'Größe'
   },
+  'skipping %s' => {
+    'lastUpdated' => '1245620589',
+    'message' => '%s übergehen'
+  },
   'specified base' => {
     'lastUpdated' => '1170456876',
     'message' => 'Angegebene Basis'
@@ -821,6 +869,14 @@ Dies bedeutet in der Regel, dass Sie eine Seite anlegen möchtgen, die den selbe
   'status' => {
     'lastUpdated' => '1170456862',
     'message' => 'Status des Assets bezüglich der Versionskontrolle. Typischerweise ist dies &quot;approved&quot;, &quot;pending&quot; oder &quot;committed&quot;.'
+  },
+  'swap first' => {
+    'lastUpdated' => '1245620659',
+    'message' => 'Erste/r austauschen'
+  },
+  'swap second' => {
+    'lastUpdated' => '1245620678',
+    'message' => 'Zweite/r austauschen'
   },
   'synopsis' => {
     'lastUpdated' => '1170456848',
