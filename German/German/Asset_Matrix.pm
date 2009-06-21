@@ -41,6 +41,18 @@ our $I18N = {
     'lastUpdated' => '1245448791',
     'message' => 'Standardwert'
   },
+  'attribute description label' => {
+    'lastUpdated' => '1245621157',
+    'message' => 'Beschreibung'
+  },
+  'attribute name label' => {
+    'lastUpdated' => '1245621132',
+    'message' => 'Name'
+  },
+  'attribute options label' => {
+    'lastUpdated' => '1245620992',
+    'message' => 'Optionen'
+  },
   'best rated label' => {
     'lastUpdated' => '1245447656',
     'message' => 'Beste Bewertung'
@@ -125,6 +137,10 @@ our $I18N = {
     'lastUpdated' => '1245447946',
     'message' => 'Anzahl der Betrachtungen der Liste mit den meisten Betrachtungen.'
   },
+  'bestViews_name' => {
+    'lastUpdated' => '1245621101',
+    'message' => 'Name der Liste, die am meisten angeschaut wurde.'
+  },
   'bestViews_url' => {
     'lastUpdated' => '1245448773',
     'message' => 'URL zur Liste mit den meisten Betrachtungen.'
@@ -136,6 +152,10 @@ our $I18N = {
   'categories' => {
     'lastUpdated' => '1221288389',
     'message' => 'Kategorien'
+  },
+  'categories default value' => {
+    'lastUpdated' => '1245621041',
+    'message' => 'Vorteile'
   },
   'categories description' => {
     'lastUpdated' => '1221288616',
@@ -252,6 +272,10 @@ our $I18N = {
   'current.user.count' => {
     'lastUpdated' => '1221333148',
     'message' => 'Anzahl derzeitiger Besucher dieser Website.'
+  },
+  'default sort label' => {
+    'lastUpdated' => '1245621193',
+    'message' => 'Standardsortierung'
   },
   'default value' => {
     'lastUpdated' => '1222248799',
@@ -477,6 +501,10 @@ our $I18N = {
     'lastUpdated' => undef,
     'message' => ''
   },
+  'last_updated_loop' => {
+    'lastUpdated' => '1245621226',
+    'message' => 'Eine Schleife mit den 20 aktuellsten Listen'
+  },
   'lastupdated_loop' => {
     'lastUpdated' => undef,
     'message' => ''
@@ -597,6 +625,10 @@ our $I18N = {
     'lastUpdated' => undef,
     'message' => ''
   },
+  'maxgroup per label' => {
+    'lastUpdated' => '1245621339',
+    'message' => 'Maximum für priviligierte Gruppe.'
+  },
   'mean' => {
     'lastUpdated' => '1245448244',
     'message' => 'Durchschnittsbewertung der besten/schlechtesten Liste in dieser Kategorie'
@@ -604,6 +636,10 @@ our $I18N = {
   'median' => {
     'lastUpdated' => '1222247226',
     'message' => 'Der Mittelwert des Besten in dieser Kategorie'
+  },
+  'most views label' => {
+    'lastUpdated' => '1245621307',
+    'message' => 'Am meisten angeschaut'
   },
   'name' => {
     'lastUpdated' => '1192797209',
@@ -672,6 +708,10 @@ our $I18N = {
   'rating detail template description' => {
     'lastUpdated' => '1222247994',
     'message' => 'Selektiere eine Vorlage zur Anzeige der Bewertungsdetails'
+  },
+  'rating detail template label' => {
+    'lastUpdated' => '1245621358',
+    'message' => 'Vorlage Detailbewertung'
   },
   'rating group' => {
     'lastUpdated' => '1245448541',
@@ -773,6 +813,14 @@ our $I18N = {
     'lastUpdated' => '1245448679',
     'message' => 'Site Statistik'
   },
+  'sort alpha numeric label' => {
+    'lastUpdated' => '1245621376',
+    'message' => 'Alphanumerisch'
+  },
+  'sort by asset rank label' => {
+    'lastUpdated' => '1245621408',
+    'message' => 'Assetfolge'
+  },
   'sort by last updated label' => {
     'lastUpdated' => '1245448494',
     'message' => 'Am Rezentesten aktualisiert.'
@@ -784,6 +832,18 @@ our $I18N = {
   'statistics cache timeout label' => {
     'lastUpdated' => '1245448707',
     'message' => 'Statistik Cache Timeout'
+  },
+  'submission approval workflow description' => {
+    'lastUpdated' => '1245621587',
+    'message' => 'Selektieren Sie den Workflow zur Listenfreigabe'
+  },
+  'submission approval workflow label' => {
+    'lastUpdated' => '1245621506',
+    'message' => 'Workflow zur Annahme'
+  },
+  'template description' => {
+    'lastUpdated' => '1245621457',
+    'message' => 'Selektieren Sie eine Vorlage zur Standardanzeige der Matrix'
   },
   'template label' => {
     'lastUpdated' => '1245448510',
