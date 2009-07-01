@@ -410,8 +410,8 @@ our $I18N = {
     'message' => 'Die komplette URL dieser Seite.'
   },
   'page_loop' => {
-    'lastUpdated' => '1225318499',
-    'message' => 'Schleife, die Seiten in einer geschachtelten, hierarchischen Form enthält. Jede Eigenschaft jeder Seite ist verfügbar. Einige davon sind unten aufgelistet. F&uuml;r die vollst&auml;ndige Information informieren Sie sich bitte &uuml;ber die Variabelen eines jeden Assets.'
+    'lastUpdated' => '1246484671',
+    'message' => 'Schleife, die Seiten in einer geschachtelten, hierarchischen Form enthält. Jede Eigenschaft jeder Seite ist verfügbar. Einige davon sind unten aufgelistet. Für die vollständige Information informieren Sie sich bitte über die Variabelen eines jeden Assets.'
   },
   'preview' => {
     'lastUpdated' => '1178717934',

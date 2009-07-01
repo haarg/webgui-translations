@@ -107,6 +107,10 @@ Bei "Ja/Nein" Feldern, geben Sie "yes" für "Ja" und "no" für "Nein" ein.'
     'lastUpdated' => '1245621965',
     'message' => 'Dieses enthält eine "onclick"-Eigenschaft für den Link "Löschen", die eine Javascript Bestätigung hinzufügt.'
   },
+  'delete_url' => {
+    'lastUpdated' => '1246484726',
+    'message' => 'Url zum Löschen der aktuellen Tabelle'
+  },
   'display label' => {
     'lastUpdated' => '1227001779',
     'message' => 'Anzeige'
@@ -155,6 +159,10 @@ Bei "Ja/Nein" Feldern, geben Sie "yes" für "Ja" und "no" für "Nein" ein.'
     'lastUpdated' => '1240477757',
     'message' => 'Feld in anderer Tabelle'
   },
+  'field status label' => {
+    'lastUpdated' => '1246484736',
+    'message' => 'Status'
+  },
   'field type label' => {
     'lastUpdated' => '1240477853',
     'message' => 'Feldtyp'
@@ -190,6 +198,10 @@ Bei "Ja/Nein" Feldern, geben Sie "yes" für "Ja" und "no" für "Nein" ein.'
   'field_pretext' => {
     'lastUpdated' => '1240997847',
     'message' => 'Zusatztext vor das Eingabefeld.'
+  },
+  'field_subtext' => {
+    'lastUpdated' => '1246484819',
+    'message' => 'Beschreibung des Feldes, damit Benutzer wissen, wie das Feld ausgefüllt werden soll. Sie soll angezeigt werden unter/nach dem Formularfeld.'
   },
   'field_type' => {
     'lastUpdated' => '1245622942',
@@ -411,9 +423,21 @@ Bei "Ja/Nein" Feldern, geben Sie "yes" für "Ja" und "no" für "Nein" ein.'
     'lastUpdated' => '1240582452',
     'message' => 'Beschreibung zum Suchbildschirm'
   },
+  'searchFields_form' => {
+    'lastUpdated' => '1246484932',
+    'message' => 'Formelement, entsprechend dem Typ um dieses Feld zu durchsuchen.'
+  },
   'searchFields_label' => {
     'lastUpdated' => '1240495868',
     'message' => 'Die Bezeichnung eines durchsuchbaren Feldes'
+  },
+  'searchResult_copy_icon' => {
+    'lastUpdated' => '1246485169',
+    'message' => 'Ein Icon zum Kopieren des Suchergebnisses'
+  },
+  'searchResult_id' => {
+    'lastUpdated' => '1246485021',
+    'message' => 'Die Id eines Suchergebnisses.'
   },
   'searchScreenTitle' => {
     'lastUpdated' => '1236680990',
@@ -459,6 +483,14 @@ Bei "Ja/Nein" Feldern, geben Sie "yes" für "Ja" und "no" für "Nein" ein.'
     'lastUpdated' => '1240495901',
     'message' => 'Tabellenname'
   },
+  'thing_copyIcon' => {
+    'lastUpdated' => '1246485061',
+    'message' => 'Ein Icon mit einem Link zum Kopieren dieser Tabelle'
+  },
+  'thing_deleteIcon' => {
+    'lastUpdated' => '1246485095',
+    'message' => 'Ein Icon mit einem Link zum Löschen dieser Tabelle'
+  },
   'thing_editIcon' => {
     'lastUpdated' => '1240496016',
     'message' => 'Ein Icon mit einem Link zum Änderungsbildschirm'
@@ -482,6 +514,10 @@ Bei "Ja/Nein" Feldern, geben Sie "yes" für "Ja" und "no" für "Nein" ein.'
   'things per page label' => {
     'lastUpdated' => '1240471869',
     'message' => 'Anzahl Tabellen pro Seite'
+  },
+  'thingy asset template variables title' => {
+    'lastUpdated' => '1246484966',
+    'message' => 'Thingy Asset Vorlagevariabelen'
   },
   'thingy template label' => {
     'lastUpdated' => '1240471739',
@@ -566,6 +602,10 @@ Der Benutzer, der dieses Tabelle-Objekt bearbeiten darf, kann immer alles sehen 
   'who can import label' => {
     'lastUpdated' => '1240471719',
     'message' => 'Wer kann importieren?'
+  },
+  'who can search description' => {
+    'lastUpdated' => '1246484993',
+    'message' => 'Die Gruppe, die diese Tabelle kann durchsuchen.'
   },
   'who can search label' => {
     'lastUpdated' => '1240471511',
