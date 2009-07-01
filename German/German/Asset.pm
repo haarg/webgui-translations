@@ -181,6 +181,18 @@ our $I18N = {
     'lastUpdated' => '1170453597',
     'message' => '<p>Bei jedem Asset wird auch ein Kategoriensymbol angezigt. Die meisten Kategoriensymbole sind eindeutig einem Asset zugeordnet und sind kleinere Versionen der Symbole, die in der Admin-Konsole im Menü Neuer Inhalt angezeigt werden. Beim Klick auf das Kategoriensymbol erscheint ein Men&uuml; mit erweiterten Editierfunktionen.</p>'
   },
+  'Clearing asset tables' => {
+    'lastUpdated' => '1246486657',
+    'message' => 'Bereinigung der Assettabellen'
+  },
+  'Clearing cache' => {
+    'lastUpdated' => '1246486681',
+    'message' => 'Löschen des Cache'
+  },
+  'Clearing search index' => {
+    'lastUpdated' => '1246486714',
+    'message' => 'Bereinigung Suchindex'
+  },
   'Copy' => {
     'lastUpdated' => '1223575321',
     'message' => 'Kopieren'
@@ -193,6 +205,14 @@ our $I18N = {
     'lastUpdated' => '1170453667',
     'message' => 'Metadaten Eigenschaft löschen'
   },
+  'Deleting exported files' => {
+    'lastUpdated' => '1246486748',
+    'message' => 'Löschen der exportierten Dateien'
+  },
+  'Deleting keywords' => {
+    'lastUpdated' => '1246486774',
+    'message' => 'Löschen Schlagwörter'
+  },
   'Depth' => {
     'lastUpdated' => '1153128502',
     'message' => 'Tiefe'
@@ -204,6 +224,10 @@ our $I18N = {
   'Edit Metadata' => {
     'lastUpdated' => '1170453761',
     'message' => 'Metadaten Eigenschaft editieren'
+  },
+  'Error getting asset with assetId %s' => {
+    'lastUpdated' => '1246486814',
+    'message' => 'Fehler beim Aufruf des Assets mit Id %s'
   },
   'Error: Cannot instantiate template' => {
     'lastUpdated' => '1223575484',
@@ -281,6 +305,14 @@ our $I18N = {
     'lastUpdated' => '1244362568',
     'message' => 'Dieses Feld wird nur für die Datentypen &quot;Radio List&quot; und &quot;Select List&quot; genutzt. Geben Sie die Werte zeilenweise ein, die erscheinen sollen. Jede Zeile sollte weniger als 255 Zeichen lang sein.'
   },
+  'Purging %s' => {
+    'lastUpdated' => '1246486368',
+    'message' => 'Löschen %s'
+  },
+  'Purging shortcuts' => {
+    'lastUpdated' => '1246486454',
+    'message' => 'Verknüpfungen zum Löschen '
+  },
   'Select' => {
     'lastUpdated' => '1153238197',
     'message' => 'Auswählen...'
@@ -289,6 +321,14 @@ our $I18N = {
     'lastUpdated' => '1245620457',
     'message' => 'Reihenfolge einstellen'
   },
+  'Trying to delete system page %s.  Aborting' => {
+    'lastUpdated' => '1246486506',
+    'message' => 'Der Versuch, die Systemseite %s zu löschen, wurde abgebrochen.'
+  },
+  'Undefined child' => {
+    'lastUpdated' => '1246486591',
+    'message' => 'Versuch zum Löschen der Systemseite %s. Der Löschvorgang wurde abgebrochen.'
+  },
   'Uploads URL' => {
     'lastUpdated' => '1170454199',
     'message' => 'Uploads URL'
@@ -296,6 +336,10 @@ our $I18N = {
   'Uploads URL description' => {
     'lastUpdated' => '1170454219',
     'message' => '<p>Definiert den Uploads URL. Vorgabe ist der konfigurierte Wert für uploadsURL aus der WebGUI Konfigurationsdatei.</p>'
+  },
+  'You cannot edit the asset %s, skipping' => {
+    'lastUpdated' => '1246486542',
+    'message' => 'Sie können das Asset %s nicht bearbeiten.'
   },
   'add the missing page' => {
     'lastUpdated' => '1170454236',
