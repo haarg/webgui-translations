@@ -2970,6 +2970,18 @@ Kopieren Sie ggf. Dateien und fügen Sie diese in den Editor ein.'
     'lastUpdated' => '1199971966',
     'message' => 'Datenbankverbindung'
   },
+  'settings groupIdAdminFilePump hoverHelp' => {
+    'lastUpdated' => '1246485368',
+    'message' => 'Gruppe zum Zugriff und zur Verwaltung von FilePump Paketen'
+  },
+  'settings groupIdAdminFilePump label' => {
+    'lastUpdated' => '1246485387',
+    'message' => 'File Pump'
+  },
+  'settings groupIdAdminFriends hoverHelp' => {
+    'lastUpdated' => '1246485298',
+    'message' => 'Gruppe zur Kontaktverwaltung'
+  },
   'settings groupIdAdminFriends label' => {
     'lastUpdated' => '1245623668',
     'message' => 'Kontakte'
