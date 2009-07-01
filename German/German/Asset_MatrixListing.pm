@@ -18,8 +18,8 @@ our $I18N = {
     'message' => 'Die Url zur freigabe oder Ablehung dieser Liste.'
   },
   'assetName' => {
-    'lastUpdated' => '1246484105',
-    'message' => 'Matrix'
+    'lastUpdated' => '1246484578',
+    'message' => 'Matrixliste'
   },
   'best label' => {
     'lastUpdated' => '1246484120',
