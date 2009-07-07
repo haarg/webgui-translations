@@ -819,6 +819,22 @@ Voor de selectielijst mag er maar &#233;&#233;n waarde worden ingevuld. De gebru
     'lastUpdated' => '1242727969',
     'message' => 'Maximale breedte schermafdruk'
   },
+  'maxgroup description' => {
+    'lastUpdated' => '1246976857',
+    'message' => 'Selecteer een groep waarvoor een gespecificeerd aan vergelijkingen geselecteerd kan worden.'
+  },
+  'maxgroup label' => {
+    'lastUpdated' => '1246976979',
+    'message' => 'Groep met maximum'
+  },
+  'maxgroup per description' => {
+    'lastUpdated' => '1246976931',
+    'message' => 'Specificeer hoeveel vergelijkingen de groep kan doen.'
+  },
+  'maxgroup per label' => {
+    'lastUpdated' => '1246976952',
+    'message' => 'Maximum voor groep'
+  },
   'mean' => {
     'lastUpdated' => '1152628462',
     'message' => 'De gemiddelde beoordeling van de beste lijst in deze categorie.'

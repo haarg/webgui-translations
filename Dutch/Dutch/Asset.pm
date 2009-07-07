@@ -189,6 +189,10 @@ our $I18N = {
     'lastUpdated' => '1246968429',
     'message' => 'Cache opschonen'
   },
+  'Clearing search index' => {
+    'lastUpdated' => '1246976620',
+    'message' => 'Zoekresultaten opruimen'
+  },
   'Copy' => {
     'lastUpdated' => '1222875572',
     'message' => 'Kopi&euml;ren'
@@ -200,6 +204,10 @@ our $I18N = {
   'Delete Metadata field' => {
     'lastUpdated' => '1146580993',
     'message' => 'Verwijder Metadata veld'
+  },
+  'Deleting exported files' => {
+    'lastUpdated' => '1246976662',
+    'message' => 'Geëxporteerde bestanden verwijderen'
   },
   'Deleting keywords' => {
     'lastUpdated' => '1246969121',
@@ -304,6 +312,10 @@ our $I18N = {
   'Set Rank' => {
     'lastUpdated' => '1246969206',
     'message' => 'Stel rang in'
+  },
+  'Undefined child' => {
+    'lastUpdated' => '1246976717',
+    'message' => 'Er wordt geprobeerd de systeem pagina %s te verwijderen. Verwijderen wordt gestopt.'
   },
   'Uploads URL' => {
     'lastUpdated' => '1146581876',
@@ -513,6 +525,10 @@ our $I18N = {
     'lastUpdated' => '1207915565',
     'message' => '<p>De opgebouwde url bestaat uit twee gedeeltes. Voor het eerste gedeelte zijn er drie opties:</p><p>Bovenliggende url<br />&nbsp;&nbsp;&nbsp;&nbsp; begin de url met de url van de bovenliggende asset</p><p>Gespecificeerde url<br />&nbsp;&nbsp;&nbsp; Vul een zelf gespecifeerde url in om de url van de asset mee te beginnen</p><p>Geen<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Indien u kiest voor &quot;none&quot; dan wordt de url alleen opgebouwd uit het tweede gedeelte. De url komt dan &nbsp;&nbsp;&nbsp; &nbsp; gelijk achter de domeinnaam.</p><p>&nbsp;</p><p>Er zijn ook drie opties voor het tweede gedeelte:</p><p>Menutitel<br />&nbsp;&nbsp;&nbsp; De url wordt gebaseerd op de menutitel.</p><p>Titel<br />&nbsp;&nbsp;&nbsp; De url wordt gebaseerd op de titel.</p><p>Huidige url<br />&nbsp;&nbsp;&nbsp;&nbsp; De url wordt gebaseerd op de huidige url.</p><p>Alle url\'s worden automatisch aangepast om leestekens die problemen kunnen geven in een url te vervangen. </p>'
   },
+  'editing %s' => {
+    'lastUpdated' => '1246976741',
+    'message' => '%s bewerken'
+  },
   'encrypt page' => {
     'lastUpdated' => '1146831681',
     'message' => 'Pagina encrypten?'
@@ -584,6 +600,10 @@ our $I18N = {
   'import' => {
     'lastUpdated' => '1146831872',
     'message' => 'Importeer'
+  },
+  'indexing %s' => {
+    'lastUpdated' => '1246976759',
+    'message' => '%s indexeren'
   },
   'inherit parent permissions' => {
     'lastUpdated' => '1222875714',
@@ -689,6 +709,10 @@ our $I18N = {
     'lastUpdated' => '1246969290',
     'message' => '%s verplaatsen'
   },
+  'moving %s aside' => {
+    'lastUpdated' => '1246976780',
+    'message' => '%s opzij zetten'
+  },
   'moving %s back' => {
     'lastUpdated' => '1246969309',
     'message' => '%s terug verplaatsen'
@@ -748,6 +772,10 @@ our $I18N = {
   'promote' => {
     'lastUpdated' => '1146832794',
     'message' => 'Bevorder'
+  },
+  'promote %s' => {
+    'lastUpdated' => '1246976797',
+    'message' => '%s bevorderen'
   },
   'promote help' => {
     'lastUpdated' => '1148996763',
