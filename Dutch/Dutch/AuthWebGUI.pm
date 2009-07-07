@@ -601,6 +601,14 @@ our $I18N = {
     'lastUpdated' => '1227626966',
     'message' => 'Als dit op Ja staat, moet de gebruiker tekst uit een captcha afbeelding invoeren als onderdeel van het aanmaken van de account.'
   },
+  'use email as username description' => {
+    'lastUpdated' => '1246972648',
+    'message' => 'Wanneer dit op ja staat, toont het registratie formulier geen veld met de gebruikersnaam. Het ingevoerde -mail adres wordt automatisch als gebruikersnaam gebruikt.'
+  },
+  'use email as username label' => {
+    'lastUpdated' => '1246972676',
+    'message' => 'E-mailadres als gebruikersnaam gebruiken'
+  },
   'validate email' => {
     'lastUpdated' => '1154000540',
     'message' => 'E-mailadressen bevestigen?'

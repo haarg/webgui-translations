@@ -232,8 +232,8 @@ Alle scratchvariabelen zullen aanwezig zijn in het template volgens deze syntax:
     'message' => 'Maak een sjabloon met behulp van sjabloon commando\'s, variabelen, macro\'s en HTML.'
   },
   'template error' => {
-    'lastUpdated' => '1151505115',
-    'message' => 'Er is een fout opgetreden in het sjabloon. Corrigeer a.u.b. '
+    'lastUpdated' => '1246975993',
+    'message' => 'Er is een syntax fout opgetreden in het sjabloon %s, %s. Corrigeer a.u.b.'
   },
   'template parsers' => {
     'lastUpdated' => '1222349721',

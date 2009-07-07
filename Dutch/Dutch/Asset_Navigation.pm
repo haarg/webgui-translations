@@ -410,11 +410,11 @@ our $I18N = {
     'message' => 'Het complete URL van deze pagina.'
   },
   'page_loop' => {
-    'lastUpdated' => '1222876918',
-    'message' => 'Een kring met informatie over de pagina, deze is genest en hierarchisch gesorteerd. Eleke eigenschap van een Asset is beschikbaar. Hieronder zijn enkele genoemd. Voor de volledige lijst wordt naar de sjabloon variabelen van elk Asset verwezen.'
+    'lastUpdated' => '1246976154',
+    'message' => 'Een kring met informatie over de pagina, deze is genest en hierarchisch gesorteerd. Elke eigenschap van een Asset is beschikbaar en heeft de naam <strong>page.<em>propertyName</em></strong>, waar propertyName vervangen moet worden door de eigenschap die gebruikt wordt zoals className of assetSize. Hieronder zijn enkele genoemd. Voor de volledige lijst wordt naar de sjabloon variabelen van elk Asset verwezen.'
   },
   'preview' => {
-    'lastUpdated' => '1149261304',
+    'lastUpdated' => '1246976040',
     'message' => 'Voorvertoning navigatie'
   },
   'reverse page loop' => {

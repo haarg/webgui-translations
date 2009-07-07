@@ -2127,6 +2127,10 @@ De verstrekte informatie is niet gelijk aan de accountinformatie. '
     'lastUpdated' => '1222938226',
     'message' => 'Welkom bij onze wiki. Hier kan u ons helpen de informatie bij te werken.'
   },
+  'Working...' => {
+    'lastUpdated' => '1246976209',
+    'message' => 'Bezig...'
+  },
   'Your Email Address' => {
     'lastUpdated' => '1222938238',
     'message' => 'Uw e-mail adres'
@@ -2146,6 +2150,10 @@ De verstrekte informatie is niet gelijk aan de accountinformatie. '
   'account.options' => {
     'lastUpdated' => '1201183256',
     'message' => 'Een loop die de opties bevat voor de verschillende gebruikers account toegangs links.'
+  },
+  'activate user' => {
+    'lastUpdated' => '1246976227',
+    'message' => 'Activeer gebruiker'
   },
   'additional parameters' => {
     'lastUpdated' => '1190023689',
@@ -2306,6 +2314,10 @@ LongTruncOk=1'
     'lastUpdated' => '1227627928',
     'message' => 'Dagen'
   },
+  'deactivate user' => {
+    'lastUpdated' => '1246976245',
+    'message' => 'Deactiveer gebruiker'
+  },
   'deactivateAccount success' => {
     'lastUpdated' => '1189453847',
     'message' => 'Het account %s is gedeactiveerd.'
@@ -2333,6 +2345,10 @@ LongTruncOk=1'
   'default version tag workflow help' => {
     'lastUpdated' => '1156170239',
     'message' => 'Welke workflow moet standaard gebruikt worden wanneer gebruikers hun eigen versie tags maken? '
+  },
+  'delete user' => {
+    'lastUpdated' => '1246976263',
+    'message' => 'Verwijder gebruiker'
   },
   'demographic info short' => {
     'lastUpdated' => '1227627942',
@@ -2842,6 +2858,18 @@ LongTruncOk=1'
     'lastUpdated' => '1234738620',
     'message' => 'reCAPTCHA publieke sleutel'
   },
+  'receive inbox emails' => {
+    'lastUpdated' => '1246976312',
+    'message' => 'Postvak in meldingen als e-mail ontvangen?'
+  },
+  'receive inbox sms' => {
+    'lastUpdated' => '1246976338',
+    'message' => 'Postvak in meldingen per SMS ontvangen?'
+  },
+  'redirectAfterLoginUrl label' => {
+    'lastUpdated' => '1246976377',
+    'message' => 'URL voor doorverwijzen na inloggen'
+  },
   'removeLabel' => {
     'lastUpdated' => '1156950388',
     'message' => 'verwijder'
@@ -2946,6 +2974,14 @@ LongTruncOk=1'
     'lastUpdated' => '1190023096',
     'message' => 'Database link'
   },
+  'settings groupIdAdminFilePump hoverHelp' => {
+    'lastUpdated' => '1246976421',
+    'message' => 'Groep voor toegang en beheren van bestandsbundels.'
+  },
+  'settings groupIdAdminFilePump label' => {
+    'lastUpdated' => '1246976439',
+    'message' => 'Bestandsbundel'
+  },
   'settings groupIdAdminFriends hoverHelp' => {
     'lastUpdated' => '1242724347',
     'message' => 'Groep ID voor het beheren van vrienden.'
@@ -2985,6 +3021,14 @@ LongTruncOk=1'
   'settings groupIdAdminHelp label' => {
     'lastUpdated' => '1190022965',
     'message' => 'Help'
+  },
+  'settings groupIdAdminHistory hoverHelp' => {
+    'lastUpdated' => '1246976473',
+    'message' => 'Groep die door de asset geschiedenis kan bladeren.'
+  },
+  'settings groupIdAdminHistory label' => {
+    'lastUpdated' => '1246976496',
+    'message' => 'Asset geschiedenis'
   },
   'settings groupIdAdminLDAPLink hoverHelp' => {
     'lastUpdated' => '1190022957',
