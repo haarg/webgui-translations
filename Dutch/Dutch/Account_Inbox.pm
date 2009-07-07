@@ -37,6 +37,10 @@ our $I18N = {
     'lastUpdated' => '1227707433',
     'message' => 'Nieuw bericht opstellen'
   },
+  'currently invited' => {
+    'lastUpdated' => '1246967868',
+    'message' => 'Het ingevoerde e-mail adres, %s, heeft al een uitnodiging gekregen.'
+  },
   'date label' => {
     'lastUpdated' => '1227707440',
     'message' => 'Datum'
@@ -197,6 +201,10 @@ our $I18N = {
     'lastUpdated' => '1237975452',
     'message' => 'Een klein aankruis vakje voor de gebruiker om aan te geven dat ze dit bericht willen verwijderen.'
   },
+  'invalid email' => {
+    'lastUpdated' => '1246967916',
+    'message' => 'Er is ongeldig e-mail adres ingevoerd: %s.'
+  },
   'invitation confirm label' => {
     'lastUpdated' => '1228768632',
     'message' => 'Uitnodiging verzonden'
@@ -354,8 +362,8 @@ our $I18N = {
     'message' => 'Een boolean die waar is als er op dit bericht is gereageerd'
   },
   'mark as read label' => {
-    'lastUpdated' => '1244212391',
-    'message' => 'Mark as Read'
+    'lastUpdated' => '1244217322',
+    'message' => 'Marked as read'
   },
   'mark as unread label' => {
     'lastUpdated' => '1244195651',
@@ -452,6 +460,10 @@ our $I18N = {
   'no invitations' => {
     'lastUpdated' => '1228765900',
     'message' => 'U heeft geen openstaande uitnodigingen.'
+  },
+  'no messagable friends error' => {
+    'lastUpdated' => '1246968380',
+    'message' => 'Geen van uw vrienden staat prive berichten toe.'
   },
   'no message error' => {
     'lastUpdated' => '1228765881',

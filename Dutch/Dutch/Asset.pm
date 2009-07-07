@@ -170,8 +170,8 @@ our $I18N = {
     'message' => 'Voeg metadata toe'
   },
   'Add new field description' => {
-    'lastUpdated' => '1146580924',
-    'message' => 'Open een formulier waar nieuwe metadata kan worden toegevoegd aan deze asset.'
+    'lastUpdated' => '1246969008',
+    'message' => 'Open een formulier waar nieuwe velden voor metadata aan dit asset kunnen worden toegevoegd.'
   },
   'Class Icon' => {
     'lastUpdated' => '1222350784',
@@ -180,6 +180,14 @@ our $I18N = {
   'Class Icon help' => {
     'lastUpdated' => '1166187449',
     'message' => 'Iedere asset heeft een icoon om aan te geven wat voor een asset het is. Door te klikken op het icoontje verschijnt er een drop-down menu met opties om de asset te wijzigen. '
+  },
+  'Clearing asset tables' => {
+    'lastUpdated' => '1246968412',
+    'message' => 'Asset tabellen opschonen'
+  },
+  'Clearing cache' => {
+    'lastUpdated' => '1246968429',
+    'message' => 'Cache opschonen'
   },
   'Copy' => {
     'lastUpdated' => '1222875572',
@@ -193,6 +201,10 @@ our $I18N = {
     'lastUpdated' => '1146580993',
     'message' => 'Verwijder Metadata veld'
   },
+  'Deleting keywords' => {
+    'lastUpdated' => '1246969121',
+    'message' => 'Trefwoorden verwijderen'
+  },
   'Depth' => {
     'lastUpdated' => '1146581003',
     'message' => 'Diepte'
@@ -204,6 +216,10 @@ our $I18N = {
   'Edit Metadata' => {
     'lastUpdated' => '1146581111',
     'message' => 'Wijzig Metadata veld'
+  },
+  'Error getting asset with assetId %s' => {
+    'lastUpdated' => '1246969162',
+    'message' => 'Fout bij het ophalen van asset met assetId %s.'
   },
   'Error: Cannot instantiate template' => {
     'lastUpdated' => '1222875645',
@@ -269,6 +285,14 @@ our $I18N = {
     'lastUpdated' => '1207915501',
     'message' => 'Pagina Export Status'
   },
+  'Paste' => {
+    'lastUpdated' => '1246968450',
+    'message' => 'Plakken'
+  },
+  'Paste Assets' => {
+    'lastUpdated' => '1246969176',
+    'message' => 'Plak assets'
+  },
   'Possible Values description' => {
     'lastUpdated' => '1213624801',
     'message' => 'Dit veld wordt alleen gebruikt voor Radio buttons en Select lists. Vul per regel de gewenste waarden in. Elke regel mag maximaal 255 karakters lang zijn.'
@@ -277,6 +301,10 @@ our $I18N = {
     'lastUpdated' => '1146581864',
     'message' => 'Selecteer...'
   },
+  'Set Rank' => {
+    'lastUpdated' => '1246969206',
+    'message' => 'Stel rang in'
+  },
   'Uploads URL' => {
     'lastUpdated' => '1146581876',
     'message' => 'Uploads URL'
@@ -284,6 +312,10 @@ our $I18N = {
   'Uploads URL description' => {
     'lastUpdated' => '1146581905',
     'message' => 'Stel de Uploads URL in. Standaard verwijst deze naar de uploadsURL in het configuratiebestand.'
+  },
+  'You cannot edit the asset %s, skipping' => {
+    'lastUpdated' => '1246969251',
+    'message' => 'Het asset %s kan niet bewerkt worden, deze stap wordt overgeslagen.'
   },
   'add the missing page' => {
     'lastUpdated' => '1149234541',
@@ -653,6 +685,14 @@ our $I18N = {
     'lastUpdated' => '1149234520',
     'message' => 'De pagina die u heeft opgevraagd bestaat niet. Wat wilt u doen?'
   },
+  'moving %s' => {
+    'lastUpdated' => '1246969290',
+    'message' => '%s verplaatsen'
+  },
+  'moving %s back' => {
+    'lastUpdated' => '1246969309',
+    'message' => '%s terug verplaatsen'
+  },
   'need a depth' => {
     'lastUpdated' => '1224075611',
     'message' => 'Er is een niveau nodig'
@@ -700,6 +740,10 @@ our $I18N = {
   'parent url' => {
     'lastUpdated' => '1148996736',
     'message' => 'Bovenliggende url'
+  },
+  'pasting %s' => {
+    'lastUpdated' => '1246969325',
+    'message' => '%s plakken'
   },
   'promote' => {
     'lastUpdated' => '1146832794',
@@ -812,6 +856,10 @@ our $I18N = {
   'size' => {
     'lastUpdated' => '1146833342',
     'message' => 'Grootte'
+  },
+  'skipping %s' => {
+    'lastUpdated' => '1246969342',
+    'message' => '%s overslaan'
   },
   'specified base' => {
     'lastUpdated' => '1148996794',

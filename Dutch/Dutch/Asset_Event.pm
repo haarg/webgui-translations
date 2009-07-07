@@ -1,6 +1,14 @@
 package WebGUI::i18n::Dutch::Asset_Event;
 use utf8;
 our $I18N = {
+  'The event end date must be after the event start date.' => {
+    'lastUpdated' => '1246969482',
+    'message' => 'De einddatum van het evenement moet na de begindatum vallen.'
+  },
+  'The event end time must be after the event start time.' => {
+    'lastUpdated' => '1246969437',
+    'message' => 'De eindtijd van het evenement moet na de starttijd vallen.'
+  },
   'UserDefinedN' => {
     'lastUpdated' => '1207837642',
     'message' => 'De waarde van dit veld. Er zijn vijf &quot;UserDefined&quot; velden, UserDefined1 tot en met UserDefined5, waarin willekeurige gegevens gestopt kunnen worden. '
