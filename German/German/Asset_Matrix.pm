@@ -41,9 +41,17 @@ our $I18N = {
     'lastUpdated' => '1245448791',
     'message' => 'Standardwert'
   },
+  'attribute description description' => {
+    'lastUpdated' => '1247510113',
+    'message' => 'Bitte beschreiben Sie dieses Atrribut bzw. diese Eigenschaft.'
+  },
   'attribute description label' => {
     'lastUpdated' => '1245621157',
     'message' => 'Beschreibung'
+  },
+  'attribute name description' => {
+    'lastUpdated' => '1247510289',
+    'message' => 'Name des Attributs, das Sie erstellen möchten. Der Name soll eindeutig sein. Sie sollten dabei Groß-/Kleinschreibung beachten.'
   },
   'attribute name label' => {
     'lastUpdated' => '1245621132',
@@ -336,6 +344,10 @@ our $I18N = {
   'detail template help title' => {
     'lastUpdated' => undef,
     'message' => ''
+  },
+  'detail template label' => {
+    'lastUpdated' => '1247510309',
+    'message' => 'Detailvorlage'
   },
   'detail_loop' => {
     'lastUpdated' => undef,
@@ -641,6 +653,10 @@ our $I18N = {
     'lastUpdated' => undef,
     'message' => ''
   },
+  'maxgroup description' => {
+    'lastUpdated' => '1247510447',
+    'message' => 'Selektieren Sie eine Gruppe, die eine Maximalanzahl von Listen auswählen kann. '
+  },
   'maxgroup label' => {
     'lastUpdated' => '1247509161',
     'message' => 'Priviligiertes Maximum Gruppe'
@@ -814,8 +830,8 @@ our $I18N = {
     'message' => ''
   },
   'search template description' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => '1247510506',
+    'message' => 'Selektieren Sie eine Vorlage für den "Suchen"-Bildschirm.'
   },
   'search template help title' => {
     'lastUpdated' => undef,
