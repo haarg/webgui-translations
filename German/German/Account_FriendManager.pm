@@ -21,6 +21,22 @@ our $I18N = {
     'lastUpdated' => '1245620189',
     'message' => 'Eine Checkbox um alle Benutzer der Kontaktmanagergruppe zur Kontaktliste dieses Benutzers hinzuzufügen.'
   },
+  'addUserForm' => {
+    'lastUpdated' => '1247507499',
+    'message' => 'Ein Auswahlelement mit den Benutzern, die in die Kontaktliste für diesen Benutzer aufgenommen werden können.'
+  },
+  'back to friend manager' => {
+    'lastUpdated' => '1247508318',
+    'message' => 'Zurück zur Kontaktverwaltung.'
+  },
+  'checkForm' => {
+    'lastUpdated' => '1247508061',
+    'message' => 'Ein Auswahlknopf für diesen Benutzer. Wenn beim Abschicken aktiviert, wird der Benutzer aus der Kontaktliste entfernt.'
+  },
+  'edit template hoverHelp' => {
+    'lastUpdated' => '1247508121',
+    'message' => 'Diese Vorlage erstellt die Schnittstelle für das Hinzufügen oder das Entfernen von Kontakte eines Benutzers.'
+  },
   'edit template label' => {
     'lastUpdated' => '1245620226',
     'message' => 'Kontaktvorlage bearbeiten'
@@ -33,21 +49,57 @@ our $I18N = {
     'lastUpdated' => '1245620335',
     'message' => 'HTML-Code am Anfang des Formulars zur Bearbeitung einer Kontaktliste.'
   },
+  'friend_loop' => {
+    'lastUpdated' => '1247508225',
+    'message' => 'Eine Schleife mit einer Liste der Kontakte dieses Benutzers. '
+  },
   'friends count' => {
-    'lastUpdated' => '1245619981',
-    'message' => 'Anazahl Kontakte'
+    'lastUpdated' => '1247507362',
+    'message' => 'Anzahl Kontakte'
+  },
+  'groupId' => {
+    'lastUpdated' => '1247507531',
+    'message' => 'Die GUID der Gruppe.'
   },
   'groupName' => {
     'lastUpdated' => '1245619995',
     'message' => 'Name der Gruppe'
   },
+  'group_loop' => {
+    'lastUpdated' => '1247508163',
+    'message' => 'Eine Schleife mit einem Eintrag für jede Gruppe, die verwaltet werden kann.'
+  },
+  'groupsToManageFriends hoverHelp' => {
+    'lastUpdated' => '1247508300',
+    'message' => 'Wählen Sie die Gruppen, der Kontaktnetzwerke Sie verwalten möchten.'
+  },
+  'groupsToManageFriends label' => {
+    'lastUpdated' => '1247508253',
+    'message' => 'Gruppen zur Kontaktverwaltung.'
+  },
   'hasFriends' => {
     'lastUpdated' => '1245619942',
     'message' => 'Angabe, ob der Benutzer derzeit Kontakte hat.'
   },
+  'manageUrl' => {
+    'lastUpdated' => '1247507842',
+    'message' => 'Die GUID des Benutzers, dessen Kontakte Sie verwalten.'
+  },
+  'new userId' => {
+    'lastUpdated' => '1247507703',
+    'message' => 'Die GUID eines Benutzers.'
+  },
   'new username' => {
     'lastUpdated' => '1245619961',
     'message' => 'Benutzername des Benutzers'
+  },
+  'override abletobefriend hoverHelp' => {
+    'lastUpdated' => '1247507971',
+    'message' => 'Wenn ein Benutzer die Option zu "ableToBeFriends" auf "Nein" eingestellt hat, dann wird der Kontaktmanager den Benutzer nicht als möglicher Kontakt anzeigen. Wenn "Ja" eingestellt wurde, wird der Kontaktmanager die Verwaltung erlauben.'
+  },
+  'override abletobefriend label' => {
+    'lastUpdated' => '1247507680',
+    'message' => '"ableToBeFriend"-Profilfeld übergehen?'
   },
   'remove all' => {
     'lastUpdated' => '1245619882',
@@ -60,6 +112,14 @@ our $I18N = {
   'removeAll' => {
     'lastUpdated' => '1245620167',
     'message' => 'Eine Checkbox um alle Kontakte dieses Benutzers zu entfernen.'
+  },
+  'setting groupIdAdminFriends hoverHelp' => {
+    'lastUpdated' => '1247507809',
+    'message' => 'Gruppe zur Verwalten von Kontakten, Menschen mit anderen Menschen zu verbinden und die Schnittstelle zur Kontaktverwaltung anzuzeigen.'
+  },
+  'setting groupIdAdminFriends label' => {
+    'lastUpdated' => '1247507721',
+    'message' => 'Kontaktmanager'
   },
   'submit' => {
     'lastUpdated' => '1245619773',
@@ -76,6 +136,14 @@ our $I18N = {
   'username' => {
     'lastUpdated' => '1245619868',
     'message' => 'Benutzername des Benutzer, dessen Kontakte Sie verwalten.'
+  },
+  'view template hoverHelp' => {
+    'lastUpdated' => '1247507621',
+    'message' => 'Diese Vorlage zeigt den Kontaktmanager mit den Layout- und Stilvorlagen.'
+  },
+  'view template label' => {
+    'lastUpdated' => '1247507557',
+    'message' => 'Ansichtsvorlage'
   },
   'view users from all groups' => {
     'lastUpdated' => '1245620119',
