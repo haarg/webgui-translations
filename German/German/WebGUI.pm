@@ -2294,6 +2294,10 @@ Kopieren Sie ggf. Dateien und fügen Sie diese in den Editor ein.'
     'lastUpdated' => '1178552202',
     'message' => 'Land'
   },
+  'csrfToken' => {
+    'lastUpdated' => '1247509629',
+    'message' => 'CSFR Token'
+  },
   'databases' => {
     'lastUpdated' => '1178552216',
     'message' => 'Datenbanken'
