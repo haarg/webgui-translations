@@ -1,6 +1,10 @@
 package WebGUI::i18n::German::VersionTag;
 use utf8;
 our $I18N = {
+  'Rolling back %s' => {
+    'lastUpdated' => '1247509718',
+    'message' => 'Zurücksetzen %s'
+  },
   'add a version tag' => {
     'lastUpdated' => '1240166735',
     'message' => 'Version-Tag hinzufügen'

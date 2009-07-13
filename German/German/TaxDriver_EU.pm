@@ -21,9 +21,29 @@ our $I18N = {
     'lastUpdated' => '1243496141',
     'message' => 'Bestätigen'
   },
+  'default group' => {
+    'lastUpdated' => '1247509946',
+    'message' => 'Standardgruppe'
+  },
+  'delete group' => {
+    'lastUpdated' => '1247509956',
+    'message' => 'Löschen'
+  },
   'deny' => {
     'lastUpdated' => '1243115512',
     'message' => 'Ablehnen'
+  },
+  'general configuration' => {
+    'lastUpdated' => '1247509931',
+    'message' => 'Allgemeine Konfiguration'
+  },
+  'group name' => {
+    'lastUpdated' => '1247509776',
+    'message' => 'MwSt.-Gruppe'
+  },
+  'illegal country code' => {
+    'lastUpdated' => '1247509799',
+    'message' => 'Falscher Ländercode'
   },
   'make default' => {
     'lastUpdated' => '1243494923',
@@ -48,6 +68,14 @@ our $I18N = {
   'user' => {
     'lastUpdated' => '1243115588',
     'message' => 'Benutzer'
+  },
+  'user template' => {
+    'lastUpdated' => '1247509835',
+    'message' => 'Vorlage Benutzerschirm'
+  },
+  'user template help' => {
+    'lastUpdated' => '1247509914',
+    'message' => 'Vorlage für den Benutzerbildschirm, wo ein Benutzer seine MwSt.-Nummern eingeben kann.'
   },
   'vat group' => {
     'lastUpdated' => '1243115602',
