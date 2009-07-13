@@ -53,6 +53,10 @@ our $I18N = {
     'lastUpdated' => '1245620992',
     'message' => 'Optionen'
   },
+  'attribute_loop' => {
+    'lastUpdated' => '1247509067',
+    'message' => 'Eine Schleife mit allen Atributen einer Kategorie dieses Matrixes.'
+  },
   'best rated label' => {
     'lastUpdated' => '1245447656',
     'message' => 'Beste Bewertung'
@@ -232,6 +236,10 @@ our $I18N = {
   'compare template description' => {
     'lastUpdated' => '1222247090',
     'message' => 'Selektiere eine Vorlage für die Anzeige im Listen-Vergleich'
+  },
+  'compare template label' => {
+    'lastUpdated' => '1247509084',
+    'message' => 'Vergleichsvorlage'
   },
   'compare.form' => {
     'lastUpdated' => undef,
@@ -413,6 +421,10 @@ our $I18N = {
     'lastUpdated' => undef,
     'message' => ''
   },
+  'fieldType label' => {
+    'lastUpdated' => '1247509095',
+    'message' => 'Feldtyp'
+  },
   'form' => {
     'lastUpdated' => '1223568242',
     'message' => 'Formularelement für dieses Feld.'
@@ -525,6 +537,10 @@ our $I18N = {
     'lastUpdated' => '1244362928',
     'message' => 'Die URL zur Seite, wo Sie neue Attrubute für diese Matrix definieren können.'
   },
+  'listing count label' => {
+    'lastUpdated' => '1247509119',
+    'message' => 'Listenzähler'
+  },
   'listing description' => {
     'lastUpdated' => '1221289117',
     'message' => 'Beschreibung dieser Liste'
@@ -625,6 +641,10 @@ our $I18N = {
     'lastUpdated' => undef,
     'message' => ''
   },
+  'maxgroup label' => {
+    'lastUpdated' => '1247509161',
+    'message' => 'Priviligiertes Maximum Gruppe'
+  },
   'maxgroup per label' => {
     'lastUpdated' => '1245621339',
     'message' => 'Maximum für priviligierte Gruppe.'
@@ -657,17 +677,25 @@ our $I18N = {
     'lastUpdated' => '1223568558',
     'message' => 'Sie hben keine Berechtigung, diese Liste zu ändern'
   },
+  'pending listings label' => {
+    'lastUpdated' => '1247509277',
+    'message' => 'Freizugebende Listen'
+  },
   'pending_list' => {
     'lastUpdated' => undef,
     'message' => ''
+  },
+  'pending_loop' => {
+    'lastUpdated' => '1247509249',
+    'message' => 'Eine Schleife mit Listen die noch freigegeben werden sollten. '
   },
   'privileged group' => {
     'lastUpdated' => '1244362970',
     'message' => 'Wer soll priviligierte Rechte haben?'
   },
   'privileged group description' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => '1247509390',
+    'message' => 'Diese Gruppe hat besondere Rechte in Bezug auf die maximum Anzahl von Listen die verglichen werden können und die Frequenz womit bewertet werden kann. '
   },
   'product name' => {
     'lastUpdated' => '1222248244',

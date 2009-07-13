@@ -22,8 +22,8 @@ our $I18N = {
     'message' => 'Matrixliste'
   },
   'best label' => {
-    'lastUpdated' => '1246484120',
-    'message' => 'Beste'
+    'lastUpdated' => '1247508623',
+    'message' => ''
   },
   'categoryLabel' => {
     'lastUpdated' => '1246484153',
