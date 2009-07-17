@@ -1,6 +1,14 @@
 package WebGUI::i18n::German::Asset_Event;
 use utf8;
 our $I18N = {
+  'The event end date must be after the event start date.' => {
+    'lastUpdated' => '1247818673',
+    'message' => 'Das End-Datum muss nach dem Anfangsdatum liegen.'
+  },
+  'The event end time must be after the event start time.' => {
+    'lastUpdated' => '1247818665',
+    'message' => 'Die Ende-Uhrzeit muss nach der Anfangsuhrzeit liegen.'
+  },
   'UserDefinedN' => {
     'lastUpdated' => '1180079545',
     'message' => 'Für jedes der 5 benutzerdefinierten Felder der Wert dieses Feldes.'
