@@ -14,8 +14,8 @@ our $I18N = {
     'message' => 'Am Ende der Seite'
   },
   'asset order desc' => {
-    'lastUpdated' => '1225318073',
-    'message' => 'AmAnfanf der Seite'
+    'lastUpdated' => '1247819603',
+    'message' => 'Am Anfang der Seite'
   },
   'asset order hoverHelp' => {
     'lastUpdated' => '1225318038',
@@ -46,16 +46,16 @@ our $I18N = {
     'message' => 'Der verarbeitete (rendered) Inhalt diese Assets.'
   },
   'contentPositions' => {
-    'lastUpdated' => '1170405720',
-    'message' => 'Zeichenkette, die die verschiedenen Plätze angibt, an denen Assets dargestellt werden. Ausserdem, welche Assets an welchem Platz und in welcher Reihenfolge.<br /> '
+    'lastUpdated' => '1247819738',
+    'message' => 'Zeichenkette, die die verschiedenen Plätze angibt, an denen Assets dargestellt werden. Außerdem, welche Assets an welchem Platz und in welcher Reihenfolge.'
   },
   'dragger.icon' => {
     'lastUpdated' => '1170405906',
     'message' => 'Icon für die Änderung der Position eines Assets via &quot;click and drag&quot;. Wenn showAdmin false ist, ist diese Variable leer. '
   },
   'dragger.init' => {
-    'lastUpdated' => '1170405916',
-    'message' => 'HTML und Javascript ist Voraussetzung für &quot;click and drag&quot;. Wenn showAdmin false ist, ist diese Variable leer.<br />'
+    'lastUpdated' => '1247819824',
+    'message' => 'HTML und JavaScript sind Voraussetzungen für "click and drag". Wenn showAdmin false ist, ist diese Variable leer.'
   },
   'id' => {
     'lastUpdated' => '1178864167',
