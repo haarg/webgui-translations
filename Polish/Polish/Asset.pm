@@ -270,7 +270,7 @@ our $I18N = {
     'message' => 'Status Eksportu Strony'
   },
   'Possible Values description' => {
-    'lastUpdated' => '1237544235',
+    'lastUpdated' => '1245159624',
     'message' => "<p>Pole to wykorzystywane jest wy\x{142}\x{105}cznie dla typ\x{f3}w Radio List i Select List. Wprowad\x{17a} warto\x{15b}ci jakie maj\x{105} si\x{119} pokaza\x{107}. Jedna warto\x{15b}\x{107} w jednej linii.</p><p>Je\x{15b}li chcia\x{142}by\x{15b} uzyska\x{107} r\x{f3}\x{17c}ne etykiety dla poszczeg\x{f3}lnych warto\x{15b}ci istnieje mo\x{17c}liwo\x{15b}\x{107} specjalnego sformatowania listy:</p><pre>{<br />   &quot;key1&quot;=&gt;&quot;value1&quot;,<br />   &quot;key2&quot;=&gt;&quot;value2&quot;,<br />   &quot;key3&quot;=&gt;&quot;value3&quot;<br />   ...<br />}</pre><p>Pami\x{119}taj, aby poprawnie zastosowa\x{107} nawiasy, cudzys\x{142}owy, przecinki i inne wymagane znaki. Najlepiej podmie\x{144} warto\x{15b}ci wewn\x{105}trz cudzys\x{142}ow\x{f3}w na nowe pary kluczy i warto\x{15b}ci. Je\x{15b}li potrzebujesz wi\x{119}cej pozycji wystarczy powieli\x{107} linie wewn\x{105}trz klamer {}. </p>"
   },
   'Select' => {

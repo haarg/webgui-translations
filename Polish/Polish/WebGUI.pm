@@ -726,8 +726,8 @@ our $I18N = {
     'message' => "Kiedy obrazki s\x{105} wrzucane do twojego systemu generowane s\x{105} automatycznie ikonki o podanym tutaj rozmiarze (chyba, \x{17c}e wymagaj\x{105} innego rozmiaru dla innych funkcji systemu). Rozmiar ikonek mierzony jest w pikselach. "
   },
   407 => {
-    'lastUpdated' => '1204901268',
-    'message' => "Kliknij aby zarejestrowa\x{107} si\x{119}."
+    'lastUpdated' => '1245159461',
+    'message' => "Kliknij aby si\x{119} zarejestrowa\x{107}."
   },
   41 => {
     'lastUpdated' => '1204901278',
@@ -3072,8 +3072,8 @@ a user.'
     'message' => ''
   },
   'skip commit comments' => {
-    'lastUpdated' => '1238501367',
-    'message' => "Pomi\x{144} dopuszczanie komentarzy?"
+    'lastUpdated' => '1239186145',
+    'message' => "Pomi\x{144} komentowanie przywieszki?"
   },
   'skip commit comments help' => {
     'lastUpdated' => '1238501382',
