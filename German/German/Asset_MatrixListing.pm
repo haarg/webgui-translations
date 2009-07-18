@@ -69,9 +69,21 @@ our $I18N = {
     'lastUpdated' => '1246484519',
     'message' => 'Bearbeiten'
   },
+  'editUrl' => {
+    'lastUpdated' => '1247904600',
+    'message' => 'Die Url zum Bearbeitungsbildschirm dieser Liste.'
+  },
+  'fieldType' => {
+    'lastUpdated' => '1247904455',
+    'message' => 'Type dieses Attributs'
+  },
   'form' => {
     'lastUpdated' => '1244495883',
     'message' => 'Das komplette Bearbeitungsformular'
+  },
+  'isPending' => {
+    'lastUpdated' => '1247904205',
+    'message' => 'Status, der angibt, ob die Liste freigegeben wurde oder nicht.'
   },
   'label' => {
     'lastUpdated' => '1244495912',
@@ -80,6 +92,14 @@ our $I18N = {
   'last updated label' => {
     'lastUpdated' => '1246484361',
     'message' => 'Zuletzt aktualisiert'
+  },
+  'lastUpdated_date' => {
+    'lastUpdated' => '1247904098',
+    'message' => 'Datum der letzten Aktualisierung dieser Liste.'
+  },
+  'lastUpdated_epoch' => {
+    'lastUpdated' => '1247904140',
+    'message' => 'Das Epoch-Datum (Unixtime) der letzen Aktualisierung dieser Liste.'
   },
   'maintainer label' => {
     'lastUpdated' => '1246484306',
@@ -113,6 +133,10 @@ our $I18N = {
     'lastUpdated' => '1244496114',
     'message' => 'Screenshot zu dieser Liste'
   },
+  'screenshots label' => {
+    'lastUpdated' => '1247904482',
+    'message' => 'Screenshots/Bilder'
+  },
   'send button label' => {
     'lastUpdated' => '1244496069',
     'message' => 'Abschicken'
@@ -132,6 +156,10 @@ our $I18N = {
   'version' => {
     'lastUpdated' => '1244495959',
     'message' => 'Version dieser Liste'
+  },
+  'version description' => {
+    'lastUpdated' => '1247904548',
+    'message' => 'Geben Sie die Versions-/Modellnummer für das Produkt ein.'
   },
   'version label' => {
     'lastUpdated' => '1244496082',

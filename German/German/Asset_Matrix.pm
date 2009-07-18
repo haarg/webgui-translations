@@ -597,6 +597,10 @@ our $I18N = {
     'lastUpdated' => undef,
     'message' => ''
   },
+  'listing statistics label' => {
+    'lastUpdated' => '1247904247',
+    'message' => 'Listenstatistik'
+  },
   'listing.add.url' => {
     'lastUpdated' => undef,
     'message' => ''
@@ -673,6 +677,10 @@ our $I18N = {
     'lastUpdated' => '1221289066',
     'message' => 'Gibt an, wie viele Vergleiche beim Suchen und Vergleichen erlaubt sind.'
   },
+  'max comparisons label' => {
+    'lastUpdated' => '1247904422',
+    'message' => 'Max. Vergleiche'
+  },
   'max comparisons privileged' => {
     'lastUpdated' => undef,
     'message' => ''
@@ -680,6 +688,10 @@ our $I18N = {
   'max comparisons privileged description' => {
     'lastUpdated' => undef,
     'message' => ''
+  },
+  'max screenshot width label' => {
+    'lastUpdated' => '1247904372',
+    'message' => 'Max. Breite Screenshot'
   },
   'maxgroup description' => {
     'lastUpdated' => '1247510447',
@@ -833,6 +845,10 @@ our $I18N = {
     'lastUpdated' => undef,
     'message' => ''
   },
+  'ratings duration label' => {
+    'lastUpdated' => '1247904272',
+    'message' => 'Bewertungsdauer'
+  },
   'ratings.details.url' => {
     'lastUpdated' => undef,
     'message' => ''
@@ -856,6 +872,14 @@ our $I18N = {
   'screenshot help' => {
     'lastUpdated' => undef,
     'message' => ''
+  },
+  'screenshots config template label' => {
+    'lastUpdated' => '1247904341',
+    'message' => 'Vorlage Listenscreenshot Konfiguration'
+  },
+  'screenshots template label' => {
+    'lastUpdated' => '1247904397',
+    'message' => 'Vorlage Listenscreenshot'
   },
   'search field description' => {
     'lastUpdated' => undef,
