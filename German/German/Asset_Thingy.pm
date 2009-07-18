@@ -115,17 +115,49 @@ Bei "Ja/Nein" Feldern, geben Sie "yes" für "Ja" und "no" für "Nein" ein.'
     'lastUpdated' => '1227001779',
     'message' => 'Anzeige'
   },
+  'displayInSearchFields_fieldId' => {
+    'lastUpdated' => '1247905071',
+    'message' => 'Die ID dieses Feldes.'
+  },
+  'displayInSearchFields_label' => {
+    'lastUpdated' => '1247905092',
+    'message' => 'Label dieses Feldes'
+  },
   'duplicates label' => {
     'lastUpdated' => '1240997627',
     'message' => 'Was soll mit Doppelteinträgen passieren?'
+  },
+  'edit instructions description' => {
+    'lastUpdated' => '1247905045',
+    'message' => 'Hinweise beim Bearbeiten oder Hinzufügen einer Tabelle.'
+  },
+  'edit instructions label' => {
+    'lastUpdated' => '1247904898',
+    'message' => 'Anweisungen'
   },
   'edit label' => {
     'lastUpdated' => '1227001701',
     'message' => 'Bearbeiten'
   },
+  'edit screen tab label' => {
+    'lastUpdated' => '1247904801',
+    'message' => 'Bearbeiten'
+  },
+  'edit screen title description' => {
+    'lastUpdated' => '1247905133',
+    'message' => 'Titel des Bearbeitungsbildschirms'
+  },
   'edit screen title label' => {
     'lastUpdated' => '1240823944',
     'message' => 'Bearbeitungsmodus'
+  },
+  'edit template label' => {
+    'lastUpdated' => '1247904859',
+    'message' => 'Bearbeitungsvorlage'
+  },
+  'edit thing template label' => {
+    'lastUpdated' => '1247905363',
+    'message' => 'Vorlage Tabellenbearbeitung '
   },
   'edit thing title' => {
     'lastUpdated' => '1227001427',
@@ -143,6 +175,10 @@ Bei "Ja/Nein" Feldern, geben Sie "yes" für "Ja" und "no" für "Nein" ein.'
     'lastUpdated' => '1244363623',
     'message' => 'URL zum Bearbeiten dieser Tabelle '
   },
+  'error_loop' => {
+    'lastUpdated' => '1247905427',
+    'message' => 'Eine Schleife mit Fehlerinformation wie z.B. ob jemand erforderliche Information nicht ausgefüllt hat.'
+  },
   'error_message' => {
     'lastUpdated' => '1245622005',
     'message' => 'Eine Fehlermeldung, die Angibt, was ein Benutzer ggf. falsch gemacht hat.'
@@ -155,13 +191,29 @@ Bei "Ja/Nein" Feldern, geben Sie "yes" für "Ja" und "no" für "Nein" ein.'
     'lastUpdated' => '1245622375',
     'message' => 'Metadaten exportieren?'
   },
+  'export_url' => {
+    'lastUpdated' => '1247904988',
+    'message' => 'Url zum Exportieren von Suchergebnissen in eine csv-Datei.'
+  },
+  'extras label' => {
+    'lastUpdated' => '1247904814',
+    'message' => 'Extras'
+  },
   'field in other thing label' => {
     'lastUpdated' => '1240477757',
     'message' => 'Feld in anderer Tabelle'
   },
+  'field label label' => {
+    'lastUpdated' => '1247904834',
+    'message' => 'Label'
+  },
   'field status label' => {
     'lastUpdated' => '1246484736',
     'message' => 'Status'
+  },
+  'field type description' => {
+    'lastUpdated' => '1247905236',
+    'message' => 'Wählen Sie den Typ des Formularelements für dieses Feld. Dieser ist auch maßgeblich bei der Überprüfung der Dateneingabe.'
   },
   'field type label' => {
     'lastUpdated' => '1240477853',
@@ -190,6 +242,10 @@ Bei "Ja/Nein" Feldern, geben Sie "yes" für "Ja" und "no" für "Nein" ein.'
   'field_label' => {
     'lastUpdated' => '1234944683',
     'message' => 'Bezeichnung'
+  },
+  'field_loop' => {
+    'lastUpdated' => '1247905275',
+    'message' => 'Eine Schleife mit den sichtbaren Feldern dieser Tabelle'
   },
   'field_name' => {
     'lastUpdated' => '1240487427',

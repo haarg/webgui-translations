@@ -70,8 +70,8 @@ our $I18N = {
     'message' => 'Noch nicht'
   },
   'otherFiles' => {
-    'lastUpdated' => '1246486235',
-    'message' => 'CSS Images'
+    'lastUpdated' => '1247904760',
+    'message' => 'weitere Dateien'
   }
 }
 ;
