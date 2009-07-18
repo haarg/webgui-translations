@@ -57,6 +57,10 @@ our $I18N = {
     'lastUpdated' => '1245621132',
     'message' => 'Name'
   },
+  'attribute options description' => {
+    'lastUpdated' => '1247903341',
+    'message' => 'Eingabe von Optionen (1 pro Zeile) für das Attribut für den Fall, dass es sich um eine Selektbalken handelt.'
+  },
   'attribute options label' => {
     'lastUpdated' => '1245620992',
     'message' => 'Optionen'
@@ -269,6 +273,10 @@ our $I18N = {
     'lastUpdated' => '1244363136',
     'message' => 'Vergleich'
   },
+  'comparison template help body' => {
+    'lastUpdated' => '1247903788',
+    'message' => 'Sowohl das Vergleichsformular als auch die Matrix-Vergleichsliste werden dynamisch mit yui-Datentabellen generiert. Siehe auch <a href="http://developer.yahoo.com/yui/examples/datatable/dt_skinning.html" target="new">yui docs</a> für die weitere Gestaltung der yui-Tabellen.'
+  },
   'comparison template help title' => {
     'lastUpdated' => undef,
     'message' => ''
@@ -285,9 +293,17 @@ our $I18N = {
     'lastUpdated' => '1245448112',
     'message' => 'Wenn Sie ein Produkt herstellen oder ein Experte sind, die die Liste dazu pflegen möchte.'
   },
+  'create account part2 text' => {
+    'lastUpdated' => '1247903533',
+    'message' => 'damit Sie Ihre Liste registrieren können.'
+  },
   'current.user.count' => {
     'lastUpdated' => '1221333148',
     'message' => 'Anzahl derzeitiger Besucher dieser Website.'
+  },
+  'default sort description' => {
+    'lastUpdated' => '1247903869',
+    'message' => 'Selektieren Sie die Standardsortierfolge in das Vergleichsfenster.'
   },
   'default sort label' => {
     'lastUpdated' => '1245621193',
@@ -389,6 +405,10 @@ our $I18N = {
     'lastUpdated' => '1222250100',
     'message' => 'Email wurde verschickt.'
   },
+  'expand the matrix label' => {
+    'lastUpdated' => '1247903370',
+    'message' => 'Matrix erweitern'
+  },
   'extra' => {
     'lastUpdated' => '1222249020',
     'message' => 'Kostet extra'
@@ -430,8 +450,8 @@ our $I18N = {
     'message' => ''
   },
   'fieldType' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => '1247903433',
+    'message' => 'Feldtyp, der für dieses Feld spezifiziert wird.'
   },
   'fieldType label' => {
     'lastUpdated' => '1247509095',
@@ -470,8 +490,8 @@ our $I18N = {
     'message' => 'Wer kann Listen hinzufügen?'
   },
   'group to add description' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => '1247903915',
+    'message' => 'DIese Gruppe kann Listen hinzufügen oder bearbeiten.'
   },
   'group to add label' => {
     'lastUpdated' => '1244362840',
@@ -537,6 +557,10 @@ our $I18N = {
     'lastUpdated' => '1223568335',
     'message' => 'Eingeschränkt'
   },
+  'list attributes label' => {
+    'lastUpdated' => '1247903454',
+    'message' => 'List Attribute'
+  },
   'list attributes title' => {
     'lastUpdated' => '1244362871',
     'message' => 'Attribute'
@@ -584,6 +608,10 @@ our $I18N = {
   'listingCount' => {
     'lastUpdated' => '1245432978',
     'message' => 'Anzahl der Listen dieser Matrix'
+  },
+  'listings cache timeout label' => {
+    'lastUpdated' => '1247903490',
+    'message' => 'Cache Timeout Listen'
   },
   'main template' => {
     'lastUpdated' => undef,
@@ -672,6 +700,18 @@ our $I18N = {
   'median' => {
     'lastUpdated' => '1222247226',
     'message' => 'Der Mittelwert des Besten in dieser Kategorie'
+  },
+  'most clicks label' => {
+    'lastUpdated' => '1247903939',
+    'message' => 'Meiste Klicks'
+  },
+  'most compares label' => {
+    'lastUpdated' => '1247903954',
+    'message' => 'Meiste Vergleiche'
+  },
+  'most recently updated label' => {
+    'lastUpdated' => '1247903969',
+    'message' => 'Zuletzt aktualisiert'
   },
   'most views label' => {
     'lastUpdated' => '1245621307',
