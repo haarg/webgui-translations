@@ -254,6 +254,10 @@ our $I18N = {
     'lastUpdated' => '1151656030',
     'message' => 'niet gelijk aan'
   },
+  'not logged in' => {
+    'lastUpdated' => '1247058370',
+    'message' => 'U moet ingelogd zijn om dit dashboard persoonlijk in te stellen.'
+  },
   'originalURL' => {
     'lastUpdated' => '1151656144',
     'message' => 'De URL van de asset die wordt gemirrored door deze snelkoppeling.'

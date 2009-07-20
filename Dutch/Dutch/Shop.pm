@@ -217,6 +217,14 @@ our $I18N = {
     'lastUpdated' => '1216724435',
     'message' => 'Wanneer de gebruiker op deze knop drukt, wordt de gebruiker terug naar de site gebracht.'
   },
+  'copy from home address' => {
+    'lastUpdated' => '1247061959',
+    'message' => 'Kopiëer thuisadres van profiel'
+  },
+  'copy from work address' => {
+    'lastUpdated' => '1247061983',
+    'message' => 'Kopiëer werkadres van profiel'
+  },
   'country' => {
     'lastUpdated' => '1213631787',
     'message' => 'Land'
@@ -324,6 +332,14 @@ our $I18N = {
   'fourweekly' => {
     'lastUpdated' => '1213970719',
     'message' => 'Vier weken'
+  },
+  'group label' => {
+    'lastUpdated' => '1247062022',
+    'message' => 'Label'
+  },
+  'group rate' => {
+    'lastUpdated' => '1247062033',
+    'message' => 'BTW tarief'
   },
   'halfyearly' => {
     'lastUpdated' => '1213968580',
@@ -560,6 +576,10 @@ our $I18N = {
   'not applicable' => {
     'lastUpdated' => '1216734853',
     'message' => 'Niet toepasbaar'
+  },
+  'not scheduled payout amount' => {
+    'lastUpdated' => '1247062063',
+    'message' => 'Niet geplanned voor betaling'
   },
   'notes' => {
     'lastUpdated' => '1213968317',
@@ -969,6 +989,18 @@ our $I18N = {
     'lastUpdated' => '1216652251',
     'message' => 'De naam van de gebruiker die deze transactie heeft uitgevoerd, zodat deze niet meer opgezocht hoeft te worden.'
   },
+  'vendor id' => {
+    'lastUpdated' => '1247066713',
+    'message' => 'Verkoper Id'
+  },
+  'vendor name' => {
+    'lastUpdated' => '1247066721',
+    'message' => 'Naam verkoper'
+  },
+  'vendor payouts' => {
+    'lastUpdated' => '1247066739',
+    'message' => 'Verkoper betalingen'
+  },
   'vendors' => {
     'lastUpdated' => '1216734125',
     'message' => 'Verkopers'
@@ -996,6 +1028,10 @@ our $I18N = {
   'viewItemUrl' => {
     'lastUpdated' => '1216734248',
     'message' => 'Een URL waar meer informatie over het object uit de transactie geoond wordt.'
+  },
+  'vp item id' => {
+    'lastUpdated' => '1247066698',
+    'message' => 'Object ID'
   },
   'weekly' => {
     'lastUpdated' => '1213967834',
