@@ -302,8 +302,25 @@ our $I18N = {
     'message' => 'Plak assets'
   },
   'Possible Values description' => {
-    'lastUpdated' => '1213624801',
-    'message' => 'Dit veld wordt alleen gebruikt voor Radio buttons en Select lists. Vul per regel de gewenste waarden in. Elke regel mag maximaal 255 karakters lang zijn.'
+    'lastUpdated' => '1248100513',
+    'message' => 'Dit veld wordt alleen gebruikt voor Radio buttons en Select lists. Vul per regel de gewenste waarden in. 
+
+Als er een ander label voor een waarde gebruikt moet worden, moeten de mogelijke waarden als volgt ingevoerd worden:
+
+label1|waarde1
+label2|waarde2
+label3|waarde3
+...
+
+Hierbij worden het label en de bijbehorende waarde door het | teken gescheiden. Plaats geen spaties voor of na de |. Let erop ook op dat je regels met verschillende labels kan mixen met regels met hetzelfde label. Als er een selectBox gemaakt wordt, wordt er automatisch een Selecteer mogelijkheid toegevoegd aan de lijst met opties.'
+  },
+  'Purging %s' => {
+    'lastUpdated' => '1248099933',
+    'message' => '%s aan het verwijderen'
+  },
+  'Purging shortcuts' => {
+    'lastUpdated' => '1248099947',
+    'message' => 'Snelkoppelingen verwijderen'
   },
   'Select' => {
     'lastUpdated' => '1146581864',
@@ -312,6 +329,10 @@ our $I18N = {
   'Set Rank' => {
     'lastUpdated' => '1246969206',
     'message' => 'Stel rang in'
+  },
+  'Trying to delete system page %s.  Aborting' => {
+    'lastUpdated' => '1248099997',
+    'message' => 'Er wordt geprobeerd de systeempagina %s te verwijderen. Dit wordt afgebroken'
   },
   'Undefined child' => {
     'lastUpdated' => '1246976717',
@@ -476,6 +497,10 @@ our $I18N = {
   'demote' => {
     'lastUpdated' => '1146831301',
     'message' => 'Degradeer'
+  },
+  'demote %s' => {
+    'lastUpdated' => '1248099701',
+    'message' => 'degradeer %s'
   },
   'demote help' => {
     'lastUpdated' => '1166204029',
@@ -896,6 +921,14 @@ our $I18N = {
   'status' => {
     'lastUpdated' => '1170686328',
     'message' => 'De huidige staat van een asset volgens het versiebeheer. Deze staat wordt aangegeven met de Engelse termen "approved" (goedgekeurd), "pending" (in de wachtrij) en "committed" (verwerkt).'
+  },
+  'swap first' => {
+    'lastUpdated' => '1248099838',
+    'message' => 'Verruil eerste'
+  },
+  'swap second' => {
+    'lastUpdated' => '1248099848',
+    'message' => 'Verruil tweede'
   },
   'synopsis' => {
     'lastUpdated' => '1170686343',
