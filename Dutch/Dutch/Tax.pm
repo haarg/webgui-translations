@@ -1,6 +1,26 @@
 package WebGUI::i18n::Dutch::Tax;
 use utf8;
 our $I18N = {
+  'Active tax plugin' => {
+    'lastUpdated' => '1248172591',
+    'message' => 'Actief belasting systeem'
+  },
+  'Proceed' => {
+    'lastUpdated' => '1248172487',
+    'message' => 'Doorgaan'
+  },
+  'Stern tax warning' => {
+    'lastUpdated' => '1248172573',
+    'message' => 'Het veranderen van het actieve belasting systeem verandert de bereking van de belasting voor alle producten. Weet u zeker dat u verder wilt gaan?'
+  },
+  'Switch' => {
+    'lastUpdated' => '1248172459',
+    'message' => 'Schakelaar'
+  },
+  'Switch tax plugin' => {
+    'lastUpdated' => '1248172512',
+    'message' => 'Wissel belasting systeem'
+  },
   'add a tax' => {
     'lastUpdated' => '1213625676',
     'message' => 'Voeg nieuwe belasting informatie toe'
