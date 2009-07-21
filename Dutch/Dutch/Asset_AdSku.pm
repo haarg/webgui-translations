@@ -13,6 +13,10 @@ our $I18N = {
     'lastUpdated' => '1248087038',
     'message' => 'Er moeten minimaal %d klikken aangekocht worden voor een advertentieruimte.'
   },
+  'form error min impressions' => {
+    'lastUpdated' => '1248184922',
+    'message' => 'Er moeten minimaal %d impressies gekocht worden voor deze advertentieruimte.'
+  },
   'form error no image' => {
     'lastUpdated' => '1248087215',
     'message' => 'Voeg alstublieft een afbeelding toe aan deze advertentie.'
@@ -85,6 +89,10 @@ our $I18N = {
     'lastUpdated' => '1248087488',
     'message' => 'Aantal impressies'
   },
+  'form purchase per click' => {
+    'lastUpdated' => '1248184941',
+    'message' => 'a %f per klik'
+  },
   'form purchase per impression' => {
     'lastUpdated' => '1248088930',
     'message' => '%f per impressie'
@@ -105,9 +113,27 @@ our $I18N = {
     'lastUpdated' => '1248088031',
     'message' => 'De hoeveelheid karma die hier wordt aangeboden.'
   },
+  'property click discounts' => {
+    'lastUpdated' => '1248184961',
+    'message' => 'Klik korting'
+  },
+  'property click discounts help' => {
+    'lastUpdated' => '1248185293',
+    'message' => 'Voer per regel 1 korting in aan het begin van de regel. Extra tekst wordt genegeerd, dus kan er commentaar worden toegevoegd. Elke korting bestaat uit twee getallen die door het \'@\' teken gescheiden worden zonder gebruik van spaties. Het eerste nummer is het percentage korting (zonder getallen achter de komma) en het tweede getal is het aantal aangekochte objecten. Dus 5@1000 geeft een korting van 5 procent bij 1000 of meer aangekochte kliks.'
+  },
   'property impression discounts' => {
     'lastUpdated' => '1248088895',
     'message' => 'Impressie korting'
+  },
+  'property impression discounts help' => {
+    'lastUpdated' => '1248185478',
+    'message' => 'Voer per regel 1 korting in aan het begin van de regel. Extra tekst
+wordt genegeerd, dus kan er commentaar worden toegevoegd. Elke korting
+bestaat uit twee getallen die door het \'@\' teken gescheiden worden
+zonder gebruik van spaties. Het eerste nummer is het percentage korting
+(zonder getallen achter de komma) en het tweede getal is het aantal
+aangekochte objecten. Dus 5@1000 geeft een korting van 5 procent bij
+1000 of meer aangekochte impressies.'
   },
   'property manage template' => {
     'lastUpdated' => '1248088053',
@@ -121,6 +147,10 @@ our $I18N = {
     'lastUpdated' => '1248088824',
     'message' => 'Prijs per klik'
   },
+  'property price per click help' => {
+    'lastUpdated' => '1248185107',
+    'message' => 'Geef aan hoeveel berekent wordt per aangekochte klik.'
+  },
   'property price per impression' => {
     'lastUpdated' => '1248088840',
     'message' => 'Prijs per impressie'
@@ -132,6 +162,10 @@ our $I18N = {
   'property priority' => {
     'lastUpdated' => '1248088807',
     'message' => 'Prioriteit'
+  },
+  'property priority help' => {
+    'lastUpdated' => '1248185078',
+    'message' => 'Geef de prioriteit aan van de advertenties die door deze SKU verkocht worden. Er kunnen meer SKU\'s dezelfde ruimte verkopen voor verschillende tarieven door verschillende prioriteiten aan elke SKU toe te kunnen.'
   },
   'property purchase template' => {
     'lastUpdated' => '1248088957',
