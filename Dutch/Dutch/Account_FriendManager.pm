@@ -52,6 +52,14 @@ our $I18N = {
   'username' => {
     'lastUpdated' => '1247044670',
     'message' => 'De naam van de gebruiker wiens vrienden beheerd worden.'
+  },
+  'view template label' => {
+    'lastUpdated' => '1248100600',
+    'message' => 'Bekijk sjabloon'
+  },
+  'view users from all groups' => {
+    'lastUpdated' => '1248100592',
+    'message' => 'Bekijk gebruikers uit alle groepen'
   }
 }
 ;

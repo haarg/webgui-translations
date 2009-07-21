@@ -2007,6 +2007,10 @@ De verstrekte informatie is niet gelijk aan de accountinformatie. '
     'lastUpdated' => '1222936797',
     'message' => 'Kijk wat er te doen is.'
   },
+  'Clear' => {
+    'lastUpdated' => '1248165648',
+    'message' => 'Opschonen'
+  },
   'Contact Us' => {
     'lastUpdated' => '1222936831',
     'message' => 'Neem contact op'
@@ -2178,6 +2182,10 @@ LongTruncOk=1'
     'lastUpdated' => '1156171045',
     'message' => 'De stijl die door de admin console gebruikt wordt.'
   },
+  'admin console template variables' => {
+    'lastUpdated' => '1248165668',
+    'message' => 'Admin console sjabloon variabelen'
+  },
   'allow access from macros' => {
     'lastUpdated' => '1190023602',
     'message' => 'Toegang toestaan voor macro\'s?'
@@ -2198,6 +2206,34 @@ LongTruncOk=1'
     'lastUpdated' => '1208856575',
     'message' => 'Hier kunnen de functies, die in deze databaselink toegestaan zijn, ingevoerd worden. Een veilige (alleen leesbare) keuze is SELECT, DESCRIBE en SHOW. De verschillende sleutelworden moeten van elkaar gescheiden worden met whitespaces. '
   },
+  'application.canUse' => {
+    'lastUpdated' => '1248165730',
+    'message' => 'Een functie die waar is als de huidige gebruiker de applicatie can gebruiken, gebaseerd op groepsprivileges en gebruikersniveau.'
+  },
+  'application.icon' => {
+    'lastUpdated' => '1248165749',
+    'message' => 'De URL naar de ikoon van de applicatie.'
+  },
+  'application.icon.small' => {
+    'lastUpdated' => '1248165774',
+    'message' => 'De URL naar de kleine variant van de ikoon van de applicatie'
+  },
+  'application.title' => {
+    'lastUpdated' => '1248165787',
+    'message' => 'De titel van de applicatie.'
+  },
+  'application.url' => {
+    'lastUpdated' => '1248165801',
+    'message' => 'De URL van dit scherm.'
+  },
+  'application.workarea' => {
+    'lastUpdated' => '1248165825',
+    'message' => 'Het gerenderde scherm van de applicatie.'
+  },
+  'application_loop' => {
+    'lastUpdated' => '1248165852',
+    'message' => 'Een functie die alle beheersapplicaties ophaalt.'
+  },
   'asset locked' => {
     'lastUpdated' => '1181336975',
     'message' => 'Dit object (asset) is vergrendeld en kan niet worden bewerkt in een andere versie dan de huidige versie waarin je werkt.'
@@ -2217,6 +2253,14 @@ LongTruncOk=1'
   'avatar' => {
     'lastUpdated' => '1156170807',
     'message' => 'Avatar'
+  },
+  'backtosite.label' => {
+    'lastUpdated' => '1248165902',
+    'message' => 'Een geinternationaliseerd label voor de link die de gebruiker terugvoerd naar de pagina vanaf de admin console.'
+  },
+  'backtosite.url' => {
+    'lastUpdated' => '1248165971',
+    'message' => 'De URL voor de link die de gebruiker terugvoert naar de site vanaf de admin console.'
   },
   'bare insufficient' => {
     'lastUpdated' => '1181337052',
@@ -2286,6 +2330,22 @@ LongTruncOk=1'
     'lastUpdated' => '1222938262',
     'message' => 'Bedrijfsinformatie'
   },
+  'console.canUse' => {
+    'lastUpdated' => '1248166023',
+    'message' => 'Een functie die waar is als de huidige gebruiker de admin console kan gebruiken, gebaseerd op groepsprivileges en gebruikersniveau.'
+  },
+  'console.icon' => {
+    'lastUpdated' => '1248166037',
+    'message' => 'De ikoon van de admin console.'
+  },
+  'console.title' => {
+    'lastUpdated' => '1248166049',
+    'message' => 'De titel van de admin console.'
+  },
+  'console.url' => {
+    'lastUpdated' => '1248166064',
+    'message' => 'De URL naar de admin console.'
+  },
   'contact info short' => {
     'lastUpdated' => '1227627919',
     'message' => 'Contact informatie'
@@ -2305,6 +2365,10 @@ LongTruncOk=1'
   'country' => {
     'lastUpdated' => '1154097919',
     'message' => 'Land'
+  },
+  'csrfToken' => {
+    'lastUpdated' => '1248166201',
+    'message' => 'CSRF bewijs'
   },
   'databases' => {
     'lastUpdated' => '1154097933',
@@ -2394,6 +2458,14 @@ LongTruncOk=1'
     'lastUpdated' => '1156170154',
     'message' => 'Nummer (decimaal)'
   },
+  'formFooter' => {
+    'lastUpdated' => '1248166236',
+    'message' => 'HTML code waar een formulier mee be&euml;indigd wordt'
+  },
+  'formHeader' => {
+    'lastUpdated' => '1248166256',
+    'message' => 'HTML code waarmee een formulier begonnen wordt.'
+  },
   'global head tags description' => {
     'lastUpdated' => '1242135228',
     'message' => 'Tags die op elke pagina voorkomen (ook op de admin pagina\'s)'
@@ -2437,6 +2509,10 @@ LongTruncOk=1'
   'help toc' => {
     'lastUpdated' => '1156169569',
     'message' => 'Inhoudsopgave'
+  },
+  'help.url' => {
+    'lastUpdated' => '1248166289',
+    'message' => 'De URL om de help functie van deze applicatie te bekijken als deze bestaat.'
   },
   'hex slider' => {
     'lastUpdated' => '1156414603',
@@ -3210,6 +3286,22 @@ LongTruncOk=1'
     'lastUpdated' => '1222938726',
     'message' => 'Ontwerper stijl'
   },
+  'submenu.extras' => {
+    'lastUpdated' => '1248166417',
+    'message' => 'Extra parameters van de link, zoals javascript voor een bevestiging.'
+  },
+  'submenu.label' => {
+    'lastUpdated' => '1248166428',
+    'message' => 'Een label voor de link.'
+  },
+  'submenu.url' => {
+    'lastUpdated' => '1248166444',
+    'message' => 'De URL van de link.'
+  },
+  'submenu_loop' => {
+    'lastUpdated' => '1248167260',
+    'message' => 'Een functie die een set met links ophaalt voor het submenu.'
+  },
   'submit' => {
     'lastUpdated' => '1154097707',
     'message' => 'Verzenden'
@@ -3229,6 +3321,14 @@ LongTruncOk=1'
   'tinymce' => {
     'lastUpdated' => '1154097655',
     'message' => 'TinyMCE (IE, mozilla)'
+  },
+  'toggle.off.label' => {
+    'lastUpdated' => '1248167347',
+    'message' => 'Een geinternationaliseerd label voor de link die de admin console verbergt.'
+  },
+  'toggle.on.label' => {
+    'lastUpdated' => '1248167359',
+    'message' => 'Een geinternationaliseerd label voor de link die de admin console toont.'
   },
   'topicName' => {
     'lastUpdated' => '1154097635',
@@ -3369,6 +3469,22 @@ LongTruncOk=1'
   'versionTagMode siteWide' => {
     'lastUpdated' => '1227628225',
     'message' => '&Eacute;&eacute;n site-brede versie tag'
+  },
+  'versionTags' => {
+    'lastUpdated' => '1248167386',
+    'message' => 'Een functie die informatie over open versie tags ophaalt.'
+  },
+  'versionTags.icon' => {
+    'lastUpdated' => '1248167607',
+    'message' => 'Als deze tag de huidige tag van de gebruiker is, zal dit de URL een kleine versie van de versie tag admin console ikoon bevatten.'
+  },
+  'versionTags.title' => {
+    'lastUpdated' => '1248167627',
+    'message' => 'De titel van deze versie tag.'
+  },
+  'versionTags.url' => {
+    'lastUpdated' => '1248167742',
+    'message' => 'Als deze versie tah degene is die nu gebruikt wordt door de gebruiker, is dit de link voor het uitvoeren van de tag. Anders is het de link om deze tag te gebruiken.'
   },
   'view inbox message template' => {
     'lastUpdated' => '1222347400',

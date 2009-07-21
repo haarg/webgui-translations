@@ -273,6 +273,10 @@ our $I18N = {
     'lastUpdated' => '1213968570',
     'message' => 'Een knop waarmee de gebruiker een bestaand adres kan verwijderen.'
   },
+  'deschedule all button' => {
+    'lastUpdated' => '1248165287',
+    'message' => 'Verwijder alles uit schema'
+  },
   'edit' => {
     'lastUpdated' => '1213631776',
     'message' => 'Bewerken'
@@ -757,6 +761,14 @@ our $I18N = {
     'lastUpdated' => '1216732492',
     'message' => 'De standaard knop waarmee het formulier wordt opgeslagen.'
   },
+  'schedule all button' => {
+    'lastUpdated' => '1248165336',
+    'message' => 'Zet alles in schema'
+  },
+  'scheduled payout amount' => {
+    'lastUpdated' => '1248165356',
+    'message' => 'Totaalbedrag voor uitbetalingen'
+  },
   'search for email' => {
     'lastUpdated' => '1227629492',
     'message' => 'Zoek naar e-mail adres'
@@ -892,6 +904,10 @@ our $I18N = {
   'statusMessage' => {
     'lastUpdated' => '1216733414',
     'message' => 'Het uitgebreide status bericht dat door de betalingsinstantie teruggezonden werd tijdens het verwerken van de betaling.'
+  },
+  'submit scheduled payouts button' => {
+    'lastUpdated' => '1248165513',
+    'message' => 'Uitbetalingen in schema uitvoeren'
   },
   'subtotal' => {
     'lastUpdated' => '1213968215',
@@ -1032,6 +1048,26 @@ our $I18N = {
   'vp item id' => {
     'lastUpdated' => '1247066698',
     'message' => 'Object ID'
+  },
+  'vp item payout amount' => {
+    'lastUpdated' => '1248165533',
+    'message' => 'Bedrag uitbetaling'
+  },
+  'vp item payout status' => {
+    'lastUpdated' => '1248165543',
+    'message' => 'Status uitbetaling'
+  },
+  'vp item price' => {
+    'lastUpdated' => '1248165548',
+    'message' => 'Prijs'
+  },
+  'vp item quantity' => {
+    'lastUpdated' => '1248165571',
+    'message' => 'Aantal'
+  },
+  'vp item title' => {
+    'lastUpdated' => '1248165583',
+    'message' => 'Naam object'
   },
   'weekly' => {
     'lastUpdated' => '1213967834',

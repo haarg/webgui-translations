@@ -34,7 +34,7 @@ our $I18N = {
     'message' => 'De volgende fouten hebben zich voorgedaan:'
   },
   'extra info' => {
-    'lastUpdated' => '1242736568',
+    'lastUpdated' => '1248165233',
     'message' => 'Vergeet niet om zowel "Payment Data Transfer" en "Auto Return" aan te zetten op de Website betaal sectie van uw PayPal Profiel.
 U kunt ook nog de "Return URL" aanpassen naar:'
   },

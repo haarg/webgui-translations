@@ -453,13 +453,29 @@ our $I18N = {
     'lastUpdated' => '1152285433',
     'message' => 'Gewone variabelen van het enqu&ecirc;te sjabloon'
   },
+  'Allow back button' => {
+    'lastUpdated' => '1248100652',
+    'message' => 'Teruggaan toestaan knop'
+  },
   'Allow back button help' => {
     'lastUpdated' => '1247057481',
     'message' => 'Sta de gebruiker toe terug te navigeren in een enquête'
   },
+  'Answer Edit Template' => {
+    'lastUpdated' => '1248100683',
+    'message' => '"Bewerk antwoord" sjabloon'
+  },
+  'Answer Edit Template help' => {
+    'lastUpdated' => '1248100778',
+    'message' => 'Het sjabloon dat gebruikt wordt voor het tonen van het scherm waar het antwoord bewerkt kan worden op de Bewerk enqu&ecirc;te pagina.'
+  },
   'Survey_id' => {
     'lastUpdated' => '1189373201',
     'message' => 'De ID van deze Enquete. Deze is niet identiek aan de objectId (assetId).'
+  },
+  'add a test' => {
+    'lastUpdated' => '1248100814',
+    'message' => 'Voeg een test toe'
   },
   'add answer' => {
     'lastUpdated' => '1227604320',
