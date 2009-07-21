@@ -10,8 +10,14 @@ our $I18N = {
     'message' => 'De titel van dit asset'
   },
   'deleteIcon' => {
-    'lastUpdated' => '1247044215',
+    'lastUpdated' => '1248182556',
     'message' => 'Een ikoon om dit verhaal te verwijderen. Als de gebruiker het verhaal niet mag verwijderen, of als hun gebruikersinterfaceniveau te laag is zal deze variabele geen inhoud hebben.'
+  },
+  'editIcon' => {
+    'lastUpdated' => '1248182737',
+    'message' => 'Een ikoon om dit verhaal te bewerken. Als de gebruiker het verhaal niet mag bewerken, of als hun
+gebruikersinterfaceniveau te laag is zal deze variabele geen inhoud
+hebben.'
   },
   'keyword' => {
     'lastUpdated' => '1247043426',
