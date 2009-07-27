@@ -82,8 +82,8 @@ our $I18N = {
     'message' => 'Weiteres verwandtes Produkt hinzufügen?'
   },
   '21 description' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => '1248720886',
+    'message' => 'Selektiere "Ja", wenn Sie ein vergleichbares Produkt hinzufügen möchten.'
   },
   22 => {
     'lastUpdated' => '1240739771',

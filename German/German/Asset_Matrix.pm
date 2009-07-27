@@ -278,7 +278,7 @@ our $I18N = {
     'message' => 'Sowohl das Vergleichsformular als auch die Matrix-Vergleichsliste werden dynamisch mit yui-Datentabellen generiert. Siehe auch <a href="http://developer.yahoo.com/yui/examples/datatable/dt_skinning.html" target="new">yui docs</a> für die weitere Gestaltung der yui-Tabellen.'
   },
   'comparison template help title' => {
-    'lastUpdated' => undef,
+    'lastUpdated' => '1248721044',
     'message' => ''
   },
   'count' => {
@@ -494,8 +494,8 @@ our $I18N = {
     'message' => 'Wer kann Listen hinzufügen?'
   },
   'group to add description' => {
-    'lastUpdated' => '1247903915',
-    'message' => 'DIese Gruppe kann Listen hinzufügen oder bearbeiten.'
+    'lastUpdated' => '1248721110',
+    'message' => 'Diese Gruppe kann Listen hinzufügen oder bearbeiten.'
   },
   'group to add label' => {
     'lastUpdated' => '1244362840',
