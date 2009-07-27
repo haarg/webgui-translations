@@ -1989,6 +1989,10 @@ our $I18N = {
     'lastUpdated' => '1225319385',
     'message' => 'Aktuelles'
   },
+  'Clear' => {
+    'lastUpdated' => '1248721337',
+    'message' => 'Leeren'
+  },
   'Contact Us' => {
     'lastUpdated' => '1224799364',
     'message' => 'Kontaktieren Sie uns'
@@ -2198,6 +2202,10 @@ Kopieren Sie ggf. Dateien und fügen Sie diese in den Editor ein.'
     'lastUpdated' => '1178547484',
     'message' => 'Avatar'
   },
+  'backtosite.label' => {
+    'lastUpdated' => '1248721419',
+    'message' => 'Eine internationalisierte Bezeichnung für den Link, der den Benutzer von der Admin-Console zurück zur Website führt.'
+  },
   'bare insufficient' => {
     'lastUpdated' => '1178547545',
     'message' => 'Sie haben nicht die notwendigen Rechte, um diese Operation durchzuführen. Bitte melden Sie sich zuerst mit einem Account an, der die notwendigen Rechte besitzt.'
@@ -2273,6 +2281,22 @@ Kopieren Sie ggf. Dateien und fügen Sie diese in den Editor ein.'
   'company information' => {
     'lastUpdated' => '1224798271',
     'message' => 'Firmen Infomation'
+  },
+  'console.canUse' => {
+    'lastUpdated' => '1248721509',
+    'message' => 'Ein boolischer Wert, der Wahr ist, wenn der Benutzer die Admin-Console benutzen kann und basiert auf Gruppenrechte und uiLevel.'
+  },
+  'console.icon' => {
+    'lastUpdated' => '1248721534',
+    'message' => 'Das Icon für die Admin-Console'
+  },
+  'console.title' => {
+    'lastUpdated' => '1248721556',
+    'message' => 'Titel für die Admin-Console'
+  },
+  'console.url' => {
+    'lastUpdated' => '1248721573',
+    'message' => 'URL für die Admin-Console'
   },
   'contact info short' => {
     'lastUpdated' => '1233944297',
@@ -2386,6 +2410,14 @@ Kopieren Sie ggf. Dateien und fügen Sie diese in den Editor ein.'
     'lastUpdated' => '1178618700',
     'message' => 'Zahl (dezimal)'
   },
+  'formFooter' => {
+    'lastUpdated' => '1248721612',
+    'message' => 'HTML-Code zum Beenden eines Formulars'
+  },
+  'formHeader' => {
+    'lastUpdated' => '1248721638',
+    'message' => 'HTML-Code zum Anfang eines Formulars'
+  },
   'global head tags description' => {
     'lastUpdated' => '1241155426',
     'message' => 'Headtags auf jeder Seite, inklusive Admin-Seiten'
@@ -2429,6 +2461,10 @@ Kopieren Sie ggf. Dateien und fügen Sie diese in den Editor ein.'
   'help toc' => {
     'lastUpdated' => '1178619068',
     'message' => 'Inhaltsverzeichnis'
+  },
+  'help.url' => {
+    'lastUpdated' => '1248721700',
+    'message' => 'Die URL zur Anzeige einer evtl. vorhandenen Hilfe-Seite'
   },
   'hex slider' => {
     'lastUpdated' => '1216638598',
