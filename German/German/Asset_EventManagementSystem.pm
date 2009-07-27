@@ -406,8 +406,8 @@ our $I18N = {
     'message' => ''
   },
   'choose a file to import' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => '1248388655',
+    'message' => 'Zu importierende Datei auswählen'
   },
   'city' => {
     'lastUpdated' => '1238534949',
@@ -446,8 +446,8 @@ our $I18N = {
     'message' => ''
   },
   'country' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => '1248388628',
+    'message' => 'Land'
   },
   'create a badge for myself' => {
     'lastUpdated' => undef,
@@ -529,6 +529,10 @@ our $I18N = {
     'lastUpdated' => '1239658406',
     'message' => 'Dauer'
   },
+  'edit' => {
+    'lastUpdated' => '1248388672',
+    'message' => 'Bearbeiten'
+  },
   'edit discount pass' => {
     'lastUpdated' => undef,
     'message' => ''
@@ -542,8 +546,8 @@ our $I18N = {
     'message' => ''
   },
   'email address' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => '1248388966',
+    'message' => 'E-Mail-Adresse'
   },
   'ems.wobject.dir' => {
     'lastUpdated' => undef,
@@ -609,6 +613,10 @@ our $I18N = {
     'lastUpdated' => undef,
     'message' => ''
   },
+  'export' => {
+    'lastUpdated' => '1248389415',
+    'message' => 'Exportieren'
+  },
   'export error' => {
     'lastUpdated' => undef,
     'message' => ''
@@ -626,8 +634,8 @@ our $I18N = {
     'message' => ''
   },
   'first name' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => '1248389006',
+    'message' => 'Vorname'
   },
   'forced narrowing' => {
     'lastUpdated' => undef,
@@ -969,6 +977,10 @@ our $I18N = {
     'lastUpdated' => undef,
     'message' => ''
   },
+  'print' => {
+    'lastUpdated' => '1248388723',
+    'message' => 'Drucken'
+  },
   'productId' => {
     'lastUpdated' => undef,
     'message' => ''
@@ -1040,6 +1052,10 @@ our $I18N = {
   'scheduling conflict message' => {
     'lastUpdated' => undef,
     'message' => ''
+  },
+  'search' => {
+    'lastUpdated' => '1248388829',
+    'message' => 'Suche'
   },
   'search template' => {
     'lastUpdated' => undef,

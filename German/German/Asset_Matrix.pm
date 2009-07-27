@@ -30,7 +30,7 @@ our $I18N = {
     'message' => 'Die URL zum Überprüfen dieser Liste'
   },
   'assetName' => {
-    'lastUpdated' => '1247671430',
+    'lastUpdated' => '1248510234',
     'message' => 'Matrix'
   },
   'attribute defaultValue description' => {
@@ -389,6 +389,10 @@ our $I18N = {
     'lastUpdated' => '1244363120',
     'message' => 'Liste bearbeiten'
   },
+  'edit listing template label' => {
+    'lastUpdated' => '1248720139',
+    'message' => 'Vorlage zur Listenbearbeitung'
+  },
   'edit matrix' => {
     'lastUpdated' => '1244363078',
     'message' => 'Bearbeiten Matrix'
@@ -496,6 +500,10 @@ our $I18N = {
   'group to add label' => {
     'lastUpdated' => '1244362840',
     'message' => 'Gruppe zum Hinzufügen'
+  },
+  'hide stickied button label' => {
+    'lastUpdated' => '1248720430',
+    'message' => 'Festplatzierte Einträge anzeigen / nicht anzeigen'
   },
   'id' => {
     'lastUpdated' => undef,
@@ -653,6 +661,10 @@ our $I18N = {
     'lastUpdated' => '1222250378',
     'message' => 'Hersteller/Dienstleister URL, wenn Sie die Anzahl der Clicks zu dieser Liste registrieren möchten'
   },
+  'matrix asset template variables title' => {
+    'lastUpdated' => '1248720477',
+    'message' => 'Matrix Variabele'
+  },
   'matrix fieldtype' => {
     'lastUpdated' => '1244362944',
     'message' => 'Matrix Feldtyp'
@@ -689,6 +701,10 @@ our $I18N = {
     'lastUpdated' => undef,
     'message' => ''
   },
+  'max comparisons privileged label' => {
+    'lastUpdated' => '1248720520',
+    'message' => 'Max. Anzahl zu vergleichen (Registrierte Benutzer)'
+  },
   'max screenshot width label' => {
     'lastUpdated' => '1247904372',
     'message' => 'Max. Breite Screenshot'
@@ -700,6 +716,10 @@ our $I18N = {
   'maxgroup label' => {
     'lastUpdated' => '1247509161',
     'message' => 'Priviligiertes Maximum Gruppe'
+  },
+  'maxgroup per description' => {
+    'lastUpdated' => '1248720236',
+    'message' => 'Legt fest, wieviele Items verglichen werden können von Mitgliedern der priviligierten Gruppe.'
   },
   'maxgroup per label' => {
     'lastUpdated' => '1245621339',
@@ -826,8 +846,8 @@ our $I18N = {
     'message' => ''
   },
   'rating timeout privileged' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => '1248720557',
+    'message' => 'Mindestzeit zwischen Bewertungen (Registrierte Benutzer)'
   },
   'rating timeout privileged description' => {
     'lastUpdated' => undef,
@@ -936,6 +956,10 @@ our $I18N = {
   'sort by score label' => {
     'lastUpdated' => '1245448445',
     'message' => 'Score'
+  },
+  'statistics cache timeout description' => {
+    'lastUpdated' => '1248720653',
+    'message' => 'Weil alle Benutzer die Statistiken in gleicher Form sehen, können diese zur Bescheleunigung des Verhaltens zwischengespeichert werden. Wie lange sollten die Statistiken zwischengespeichert werden?'
   },
   'statistics cache timeout label' => {
     'lastUpdated' => '1245448707',
