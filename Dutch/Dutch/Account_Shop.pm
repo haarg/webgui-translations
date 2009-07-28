@@ -25,6 +25,14 @@ our $I18N = {
     'lastUpdated' => '1242736078',
     'message' => 'Verkopen'
   },
+  'my sales template' => {
+    'lastUpdated' => '1248780485',
+    'message' => 'Mijn Verkopen Sjabloon'
+  },
+  'my sales template help' => {
+    'lastUpdated' => '1248780515',
+    'message' => 'Sjabloon voor het tonen van verkopers transacties'
+  },
   'shop layout template hoverHelp' => {
     'lastUpdated' => '1227627198',
     'message' => 'Kies een layout sjabloon die de inhoud van de verschillende methoden binnen de winkel tab omvat.'
