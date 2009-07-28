@@ -133,6 +133,10 @@ our $I18N = {
     'lastUpdated' => '1248178338',
     'message' => 'Alternatieve titel foto'
   },
+  'photo tmplvar' => {
+    'lastUpdated' => '1248343098',
+    'message' => 'De JSON data van de foto uit het verhaal asset.'
+  },
   'photo url' => {
     'lastUpdated' => '1248178498',
     'message' => 'Foto URL'
@@ -161,6 +165,10 @@ our $I18N = {
     'lastUpdated' => '1248178271',
     'message' => 'Deze sjabloon variabele is waar als er maar 1 foto aan het verhaal is toegevoegd.'
   },
+  'storageId tmplvar' => {
+    'lastUpdated' => '1248351587',
+    'message' => 'De unieke opslag Id (storageId) van de foto van de asset.'
+  },
   'story' => {
     'lastUpdated' => '1248178222',
     'message' => 'Verhaal'
@@ -172,6 +180,10 @@ our $I18N = {
   'story received' => {
     'lastUpdated' => '1248178570',
     'message' => 'Uw verhaal is ontvangen en wordt verwerkt zodat het aan de site kan worden toegevoegd. Het zal beschikbaar zijn voor verdere bewerking als het verwerkt is. Geduld alstublieft.'
+  },
+  'story tmplvar' => {
+    'lastUpdated' => '1248342162',
+    'message' => 'Het verhaal. Het kan extra inhooud bevatten die er met de Rich Text Editor is ingezet.'
   },
   'storyForm' => {
     'lastUpdated' => '1248180077',
