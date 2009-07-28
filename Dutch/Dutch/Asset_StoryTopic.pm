@@ -6,7 +6,7 @@ our $I18N = {
     'message' => 'Verhaal op onderwep'
   },
   'atomUrl' => {
-    'lastUpdated' => '1248184066',
+    'lastUpdated' => '1248783067',
     'message' => 'De Atom URL van dit verhalen archief.'
   },
   'creationDate' => {
@@ -14,19 +14,19 @@ our $I18N = {
     'message' => 'De epoch tijd waarop dit verhaal is aangemaakt of ingevoerd.'
   },
   'deleteIcon' => {
-    'lastUpdated' => '1248182577',
+    'lastUpdated' => '1248783085',
     'message' => 'Een ikoon om dit verhaal te verwijderen. Als de gebruiker het verhaal
 niet mag verwijderen, of als hun gebruikersinterfaceniveau te laag is
 zal deze variabele geen inhoud hebben.'
   },
   'editIcon' => {
-    'lastUpdated' => '1248182719',
+    'lastUpdated' => '1248783091',
     'message' => 'Een ikoon om dit verhaal te bewerken. Als de gebruiker het verhaal niet mag bewerken, of als hun
 gebruikersinterfaceniveau te laag is zal deze variabele geen inhoud
 hebben.'
   },
   'rssUrl' => {
-    'lastUpdated' => '1248183986',
+    'lastUpdated' => '1248783096',
     'message' => 'De URL van de RSS van dit verhalen archief.'
   },
   'standAlone' => {

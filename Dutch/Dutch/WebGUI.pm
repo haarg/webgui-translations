@@ -3475,8 +3475,8 @@ LongTruncOk=1'
     'message' => 'Een functie die informatie over open versie tags ophaalt.'
   },
   'versionTags.icon' => {
-    'lastUpdated' => '1248167607',
-    'message' => 'Als deze tag de huidige tag van de gebruiker is, zal dit de URL een kleine versie van de versie tag admin console ikoon bevatten.'
+    'lastUpdated' => '1248781387',
+    'message' => 'Als deze tag de huidige tag van de gebruiker is, zal dit de URL naar een kleine versie van de versie tag admin console ikoon bevatten.'
   },
   'versionTags.title' => {
     'lastUpdated' => '1248167627',

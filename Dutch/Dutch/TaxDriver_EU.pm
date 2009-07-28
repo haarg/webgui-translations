@@ -6,7 +6,7 @@ our $I18N = {
     'message' => 'Ongecontroleerde BTW nummers toestaan als de BTW nummercheckservice niet beschikbaar is?'
   },
   'accept when vies unavailable help' => {
-    'lastUpdated' => '1248169584',
+    'lastUpdated' => '1248781627',
     'message' => 'Als een van de databases van de BTW nummercheckservice tijdelijk onbeschikbaar is of als de connectie niet tot stand gebracht kon worden, kunnen BTW nummers niet gecontroleerd worden. Meestal is dit een tijdelijk probleem. Als deze optie op ja staat, worden BTW nummers die niet gecontroleerd konden worden alsnog gebruikt. Let erop dat de samenstelling van BTW nummers altijd gecontroleerd wordt, of de nummercheckservice beschikbaar is of niet.'
   },
   'add' => {

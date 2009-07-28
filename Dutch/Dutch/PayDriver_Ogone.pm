@@ -75,8 +75,8 @@ our $I18N = {
     'message' => 'Gebruiken in testmodus?'
   },
   'use test mode help' => {
-    'lastUpdated' => '1248175599',
-    'message' => 'Als deze optie op ja staat worden alle betalingsopdrachten verzonden naar de testomgeving van Ogone. Zo kan alles getest worden voordat de sit live gaat. Er worden geen daadwerkelijke betalingen gedaan in testmodus, dus vergeet niet deze optie op "Nee" te zetten als het testen af is.'
+    'lastUpdated' => '1248782983',
+    'message' => 'Als deze optie op ja staat worden alle betalingsopdrachten verzonden naar de testomgeving van Ogone. Zo kan alles getest worden voordat de site live gaat. Er worden geen daadwerkelijke betalingen gedaan in testmodus, dus vergeet niet deze optie op "Nee" te zetten als het testen afgerond is.'
   }
 }
 ;

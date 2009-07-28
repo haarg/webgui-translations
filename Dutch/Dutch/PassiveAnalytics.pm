@@ -74,7 +74,7 @@ our $I18N = {
     'message' => 'Gebruiker'
   },
   'User help' => {
-    'lastUpdated' => '1248176885',
+    'lastUpdated' => '1248783005',
     'message' => 'De gebruiker die een e-mail ontvangt wanneer de container is verwerkt.'
   },
   'already active' => {
@@ -122,8 +122,8 @@ our $I18N = {
     'message' => 'Reguliere expressie'
   },
   'regexp help' => {
-    'lastUpdated' => '1248176577',
-    'message' => 'Definiëer een reguliere expressie om regels uit het logboek uit te kiezen voor deze container.<br>^ = begin van een url<br>$ = einde van een url<br>. = willekeurig karakter<br>* = willekeurig aantal<br>+ = 1 of meer<br>? = 0 of1<br>Meta karakters (karkters met functie) moeten met een backslash ge&euml;scaped worden als deze overeen moeten komen met de tekst. Bijv: home\\?func=match'
+    'lastUpdated' => '1248783018',
+    'message' => 'Definiëer een reguliere expressie om regels uit het logboek uit te kiezen voor deze container.<br>^ = begin van een url<br>$ = einde van een url<br>. = willekeurig karakter<br>* = willekeurig aantal<br>+ = 1 of meer<br>? = 0 of1<br>Meta karakters (karkters met functie) moeten met een backslash geëscaped worden als deze overeen moeten komen met de tekst. Bijv: home\\?func=match'
   },
   'workflow deleted' => {
     'lastUpdated' => '1248176676',
