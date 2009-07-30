@@ -85,6 +85,30 @@ our $I18N = {
     'lastUpdated' => '1248179651',
     'message' => 'Formulier voor het toevoegen van een koptekst.'
   },
+  'highlight' => {
+    'lastUpdated' => '1248969888',
+    'message' => 'Een hoogtepunt, zonder bewerking of extra HTML.'
+  },
+  'highlights' => {
+    'lastUpdated' => '1248969902',
+    'message' => 'Hoogtepunten van het verhaal'
+  },
+  'highlights help' => {
+    'lastUpdated' => '1248969931',
+    'message' => 'Korte fragmenten uit het verhaal. Voer 1 in per regel.'
+  },
+  'highlights tmplvar' => {
+    'lastUpdated' => '1248969979',
+    'message' => 'Alle hoogtepunten van het verhaal. De hoogtepunten worden gescheiden door een karakter voor een nieuwe regel.'
+  },
+  'highlightsForm' => {
+    'lastUpdated' => '1248970027',
+    'message' => 'Formulier waar de gebruiker de hoogtepunten van het verhaal kan invoeren.'
+  },
+  'highlights_loop' => {
+    'lastUpdated' => '1248970098',
+    'message' => 'Een functie die alle hoogtepunten van het verhaal ophaalt.'
+  },
   'imageAlt' => {
     'lastUpdated' => '1248179773',
     'message' => 'Alternatieve tekst voor de afbeelding, geschikt voor gebruik als ALT parameter in een IMG element.'
