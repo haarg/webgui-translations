@@ -581,13 +581,29 @@ our $I18N = {
     'lastUpdated' => '1248187596',
     'message' => 'Commentaar kolommen:'
   },
+  'comment rows' => {
+    'lastUpdated' => '1248967364',
+    'message' => 'Commentaar rijen:'
+  },
   'comment.label' => {
     'lastUpdated' => '1152518718',
     'message' => 'Het standaard label voor question.comment.'
   },
+  'commentCols' => {
+    'lastUpdated' => '1248967398',
+    'message' => 'Het aantal kolommen voor het tekstgebied voor commentaar.'
+  },
+  'commentRows' => {
+    'lastUpdated' => '1248967420',
+    'message' => 'Het aantal rijen voor het tekstgebied voor commentaar.'
+  },
   'comment_loop' => {
     'lastUpdated' => '1152518752',
     'message' => 'Een kring die alle commentaren bij dit antwoord bevat.'
+  },
+  'confirm delete test' => {
+    'lastUpdated' => '1248967443',
+    'message' => 'Weet u zeker dat u deze test wilt verwijderen?'
   },
   'continue' => {
     'lastUpdated' => '1248187615',
@@ -600,6 +616,10 @@ our $I18N = {
   'copy' => {
     'lastUpdated' => '1227604280',
     'message' => 'Kopi&euml;ren'
+  },
+  'dateType' => {
+    'lastUpdated' => '1248967475',
+    'message' => 'Een functie die aangeeft of deze vraag een datum als antwoord verwacht.'
   },
   'defaultSectionId' => {
     'lastUpdated' => '1189373237',
@@ -1197,6 +1217,10 @@ our $I18N = {
     'lastUpdated' => '1152525279',
     'message' => 'Het standaard label dat antwoorden laat zien.'
   },
+  'showTimeLimit' => {
+    'lastUpdated' => '1248968002',
+    'message' => 'Een functie die aangeeft of het aantal minuten dat een gebruiker nog heeft voor de enqu&ecirc;te getoond moet worden.'
+  },
   'start.date.epoch' => {
     'lastUpdated' => '1152525327',
     'message' => 'De epoch versie van het tijddstip waarop de gebruiker begonnen is met het beantwoorden van de enqu&ecirc;te.'
@@ -1253,6 +1277,10 @@ our $I18N = {
     'lastUpdated' => '1248187195',
     'message' => 'De ID van het template dat gebruikt wordt om de Enquête weer te geven.'
   },
+  'terminal' => {
+    'lastUpdated' => '1248967940',
+    'message' => 'Een functie die aangeeft of deze sectie bedoeld is voor het einde.'
+  },
   'terminal section' => {
     'lastUpdated' => '1231193841',
     'message' => 'Sectie voor be&euml;indigen:'
@@ -1260,6 +1288,46 @@ our $I18N = {
   'terminal section url' => {
     'lastUpdated' => '1231193895',
     'message' => 'URL voor be&euml;indigen enqu&ecirc;te'
+  },
+  'test name' => {
+    'lastUpdated' => '1248967908',
+    'message' => 'Naam test'
+  },
+  'test result' => {
+    'lastUpdated' => '1248967745',
+    'message' => 'Resultaat test'
+  },
+  'test results' => {
+    'lastUpdated' => '1248967756',
+    'message' => 'Testresultaten'
+  },
+  'test results template' => {
+    'lastUpdated' => '1248967898',
+    'message' => 'Testresultaten sjabloon'
+  },
+  'test spec' => {
+    'lastUpdated' => '1248967862',
+    'message' => 'Testspecificaties'
+  },
+  'test spec help' => {
+    'lastUpdated' => '1248967881',
+    'message' => 'De specificaties voor de test in JSON formaat.'
+  },
+  'test suite' => {
+    'lastUpdated' => '1248967770',
+    'message' => 'Testomgeving'
+  },
+  'tests failed' => {
+    'lastUpdated' => '1248967789',
+    'message' => 'Aantal mislukte tests'
+  },
+  'tests passed' => {
+    'lastUpdated' => '1248967799',
+    'message' => 'Aantal geslaagde tests'
+  },
+  'tests run' => {
+    'lastUpdated' => '1248967494',
+    'message' => 'Aantal tests'
   },
   'text' => {
     'lastUpdated' => '1248187331',
@@ -1272,6 +1340,22 @@ our $I18N = {
   'text on every page' => {
     'lastUpdated' => '1231192751',
     'message' => 'Tekst op elke pagina:'
+  },
+  'text on every page description' => {
+    'lastUpdated' => '1248967730',
+    'message' => 'Moet de tekst van deze sectie op alle pagina\'s van deze sectie getoond worden?'
+  },
+  'textInButton' => {
+    'lastUpdated' => '1248967843',
+    'message' => 'Een functie die aangeeft of antwoorden voor meerkeuzevragen in de knop of erboven getoond moeten worden.'
+  },
+  'textRows' => {
+    'lastUpdated' => '1248967673',
+    'message' => 'Het aantal rijen voor vragen met een tekst als antwoord.'
+  },
+  'textType' => {
+    'lastUpdated' => '1248967701',
+    'message' => 'Een functie die aangeeft of deze vraag een tekstantwoord verwacht.'
   },
   'thanks.quiz.label' => {
     'lastUpdated' => '1207837021',
@@ -1301,6 +1385,10 @@ our $I18N = {
     'lastUpdated' => '1248187358',
     'message' => 'Moet de titel van de sectie op elke pagina van de sectie getoond worden?'
   },
+  'totalQuestions' => {
+    'lastUpdated' => '1248967565',
+    'message' => 'Een functie die aangeeft of de gebruiker het totale aantal vragen en het aantal vragen dat al beantwoord is zou moeten zien.'
+  },
   'user label' => {
     'lastUpdated' => '1233264102',
     'message' => 'Gebruiker'
@@ -1320,6 +1408,18 @@ our $I18N = {
   'user.isFirstResponse' => {
     'lastUpdated' => '1152526163',
     'message' => 'Een functie die aangeeft of dit de eerste reactie van deze gebruiker is.'
+  },
+  'user_canEditSurvey' => {
+    'lastUpdated' => '1248967601',
+    'message' => 'Een functie die aangeeft of de gebruiker de enqu&ecirc;te kan bewerken.'
+  },
+  'user_canTakeSurvey' => {
+    'lastUpdated' => '1248967618',
+    'message' => 'Een functie die aangeeft of de gebruiker aan de enqu&ecirc;te kan deelnemen.'
+  },
+  'user_canViewReports' => {
+    'lastUpdated' => '1248967640',
+    'message' => 'Een functie die aangeeft of de gebruiker de enqu&ecirc;teresultaten kan bekijken..'
   },
   'value' => {
     'lastUpdated' => '1248187219',

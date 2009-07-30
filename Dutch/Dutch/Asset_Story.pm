@@ -46,7 +46,7 @@ our $I18N = {
     'message' => 'De titel van een pagina in een route.'
   },
   'crumb_url' => {
-    'lastUpdated' => '1248178099',
+    'lastUpdated' => '1248968023',
     'message' => 'De URL van een pagina in de route.'
   },
   'edit template' => {
@@ -89,6 +89,18 @@ our $I18N = {
     'lastUpdated' => '1248179773',
     'message' => 'Alternatieve tekst voor de afbeelding, geschikt voor gebruik als ALT parameter in een IMG element.'
   },
+  'imageByline' => {
+    'lastUpdated' => '1248968353',
+    'message' => 'Een regel voor de auteur van de afbeelding.'
+  },
+  'imageCaption' => {
+    'lastUpdated' => '1248968400',
+    'message' => 'Een onderschrift voor de afbeelding.'
+  },
+  'imageLink' => {
+    'lastUpdated' => '1248968574',
+    'message' => 'Een URL waar de afbeelding naar kan linken.'
+  },
   'imageTitle' => {
     'lastUpdated' => '1248099382',
     'message' => 'Alternatieve tekst voor de afbeelding, geschikt voor een TITLE eigenschap van een IMG object.'
@@ -96,6 +108,34 @@ our $I18N = {
   'imageUrl' => {
     'lastUpdated' => '1246975905',
     'message' => 'De URL van de afbeelding'
+  },
+  'imgAltForm' => {
+    'lastUpdated' => '1248968441',
+    'message' => 'Een formulierveld voor alternatieve tekst voor de afbeelding, voor het ALT veld van de IMG html code.'
+  },
+  'imgBylineForm' => {
+    'lastUpdated' => '1248968465',
+    'message' => 'Een formulierveld voor de auteur van de afbeelding.'
+  },
+  'imgCaptionForm' => {
+    'lastUpdated' => '1248968488',
+    'message' => 'Een formulierveld voor het onderschrift van de afbeelding.'
+  },
+  'imgDeleteForm' => {
+    'lastUpdated' => '1248968550',
+    'message' => 'Een veld voor het verwijderen van de afbeelding en alle bijbehorende data. Dit veld is niet aanwezig in de set variabelen die hoort bij het toevoegen van afbeeldingen.'
+  },
+  'imgTitleForm' => {
+    'lastUpdated' => '1248968335',
+    'message' => 'Een formulierveld voor de titel van de afbeelding, voor het TITLE veld in de IMG HTML code.'
+  },
+  'imgUploadForm' => {
+    'lastUpdated' => '1248968273',
+    'message' => 'Een formulierveld om een afbeelding toe te voegen.'
+  },
+  'imgUrlForm' => {
+    'lastUpdated' => '1248968254',
+    'message' => 'Een veld voor de URL van deze afbeelding. Als deze aanwezig is wordt van de afbeelding een link gemaakt naar deze URL.'
   },
   'keyword' => {
     'lastUpdated' => '1246971044',
@@ -105,9 +145,25 @@ our $I18N = {
     'lastUpdated' => '1248179831',
     'message' => 'Een URL om alle verhalen in dit archief te bekijken die gerelateerd zijn aan dit trefwoord.'
   },
+  'keywordsForm' => {
+    'lastUpdated' => '1248968077',
+    'message' => 'Een formulier waar trefwoorden voor dit verhaal ingevuld kunnen worden.'
+  },
+  'keywords_loop' => {
+    'lastUpdated' => '1248968185',
+    'message' => 'Een functie die alle trefwoorden van het verhaal ophaalt.'
+  },
   'location' => {
     'lastUpdated' => '1246970988',
     'message' => 'Locatie'
+  },
+  'location help' => {
+    'lastUpdated' => '1248968161',
+    'message' => 'De plek waar het verhaal plaatsvindt.'
+  },
+  'location tmplvar' => {
+    'lastUpdated' => '1248968147',
+    'message' => 'De locatie uit het verhaal.'
   },
   'locationForm' => {
     'lastUpdated' => '1248179307',
@@ -140,6 +196,10 @@ our $I18N = {
   'photo url' => {
     'lastUpdated' => '1248178498',
     'message' => 'Foto URL'
+  },
+  'photo_form_loop' => {
+    'lastUpdated' => '1248968131',
+    'message' => 'Een functie die subformulieren voor alle ingeladen foto\'s ophaalt een een leeg formulier voor het toevoegen van nieuwe foto\'s.'
   },
   'photo_loop' => {
     'lastUpdated' => '1248179864',
@@ -176,6 +236,10 @@ our $I18N = {
   'story asset template variables title' => {
     'lastUpdated' => '1248178731',
     'message' => 'Verhaal sjabloon variabelen'
+  },
+  'story help' => {
+    'lastUpdated' => '1248968043',
+    'message' => 'Het verhaal'
   },
   'story received' => {
     'lastUpdated' => '1248178570',
