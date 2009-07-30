@@ -13,6 +13,10 @@ our $I18N = {
     'lastUpdated' => '1242736283',
     'message' => 'Selecteer deze optie om gebruik te maken van de afbeeldingen van PayPal voor de betaalknoppen'
   },
+  'cart transaction mismatch' => {
+    'lastUpdated' => '1248970585',
+    'message' => 'Fout ontdekt in gegevens winkelwagen. Dit incident wordt gerappporteerd.'
+  },
   'currency' => {
     'lastUpdated' => '1242736298',
     'message' => 'Valuta'
@@ -37,6 +41,14 @@ our $I18N = {
     'lastUpdated' => '1248165233',
     'message' => 'Vergeet niet om zowel "Payment Data Transfer" en "Auto Return" aan te zetten op de Website betaal sectie van uw PayPal Profiel.
 U kunt ook nog de "Return URL" aanpassen naar:'
+  },
+  'identity token' => {
+    'lastUpdated' => '1248970813',
+    'message' => 'PDT Identiteitskenmerk'
+  },
+  'identity token help' => {
+    'lastUpdated' => '1248970800',
+    'message' => 'Het identiteitskenmerk dat bij Payment Data Transfer staat in de voorkeursinstellingen van de website voor PayPal.'
   },
   'invalid address' => {
     'lastUpdated' => '1242736681',
@@ -66,6 +78,14 @@ U kunt ook nog de "Return URL" aanpassen naar:'
     'lastUpdated' => '1242737129',
     'message' => 'PayPal'
   },
+  'live url' => {
+    'lastUpdated' => '1248970823',
+    'message' => 'Live URL'
+  },
+  'live url help' => {
+    'lastUpdated' => '1248970851',
+    'message' => 'URL voor de productieomgeving van PayPal (dus niet de testmodus)'
+  },
   'module name' => {
     'lastUpdated' => '1242737145',
     'message' => 'PayPal'
@@ -81,6 +101,14 @@ U kunt ook nog de "Return URL" aanpassen naar:'
   'password help' => {
     'lastUpdated' => '1242737207',
     'message' => 'Het wachtwoord van uw PayPal account'
+  },
+  'sandbox url' => {
+    'lastUpdated' => '1248970865',
+    'message' => 'Testmodus URL'
+  },
+  'sandbox url help' => {
+    'lastUpdated' => '1248970888',
+    'message' => 'URL wat gebruikt moet worden tijdens het testen.'
   },
   'signature' => {
     'lastUpdated' => '1242737227',
