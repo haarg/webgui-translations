@@ -5,9 +5,49 @@ our $I18N = {
     'lastUpdated' => '1246977093',
     'message' => 'Voeg een verhaal toe'
   },
+  'addStoryUrl' => {
+    'lastUpdated' => '1248971508',
+    'message' => 'De URL waar de gebruiker een verhaal kan toevoegen.'
+  },
+  'approval workflow' => {
+    'lastUpdated' => '1248971570',
+    'message' => 'Goedkeurings workflow voor verhalen'
+  },
+  'approval workflow help' => {
+    'lastUpdated' => '1248971609',
+    'message' => 'Kies een workflow die uitgevoerd moet worden als een verhaal ingestuurd wordt.'
+  },
+  'approvalWorkflowId' => {
+    'lastUpdated' => '1248971644',
+    'message' => 'De GUID van de workflow die uitgevoerd wordt als een verhaal ingestuurd wordt.'
+  },
+  'archive after' => {
+    'lastUpdated' => '1248971661',
+    'message' => 'Archiveer verhalen na'
+  },
+  'archive after help' => {
+    'lastUpdated' => '1248971708',
+    'message' => 'Na deze tijd worden verhalen gearchiveerd en worden niet meer in lijsten getoond. Stel in op 0 voor het uitschakelen van archiveren.'
+  },
+  'archiveAfter' => {
+    'lastUpdated' => '1248971741',
+    'message' => 'De hoeveelheid tijd in seconden. Na deze tijd worden verhalen gearchiveerd.'
+  },
   'asset title' => {
     'lastUpdated' => '1246977113',
     'message' => 'De titel van dit asset'
+  },
+  'asset url' => {
+    'lastUpdated' => '1248971896',
+    'message' => 'De url van dit asset.'
+  },
+  'assetName' => {
+    'lastUpdated' => '1248971958',
+    'message' => 'Verhalenarchief'
+  },
+  'asset_loop' => {
+    'lastUpdated' => '1248971989',
+    'message' => 'Een functie die de eerste 50 assets die overeenkomen met het trefwoord ophaalt.'
   },
   'deleteIcon' => {
     'lastUpdated' => '1248182556',
@@ -63,6 +103,14 @@ hebben.'
     'lastUpdated' => '1248968824',
     'message' => 'Verhaal archief asset sjabloon variabelen'
   },
+  'template' => {
+    'lastUpdated' => '1248972014',
+    'message' => 'Verhalenarchief sjabloon'
+  },
+  'templateId' => {
+    'lastUpdated' => '1248972139',
+    'message' => 'De GUID van het sjabloon die gebruikt wordt voor het tonen van het verhalenarchief.'
+  },
   'title' => {
     'lastUpdated' => '1247043480',
     'message' => 'De titel van een verhaal'
@@ -70,6 +118,10 @@ hebben.'
   'url' => {
     'lastUpdated' => '1247043494',
     'message' => 'De URL om een verhaal te bekijken'
+  },
+  'view template' => {
+    'lastUpdated' => '1248972106',
+    'message' => 'Sjabloon Verhalenarchief'
   }
 }
 ;
