@@ -14,8 +14,8 @@ our $I18N = {
     'message' => 'Wie lange sollen Gruppen gecached werden?'
   },
   '1004 description' => {
-    'lastUpdated' => '1178628427',
-    'message' => '<p>Große Installationen, die externe Gruppen Daten benutzen fragen sehr oft externe Datenbanken ab. Um dies zu reduzieren, können Sie angeben wie lange Ergebnisse aus diesen Abfragen in der WebGUI Datenbank zwischengespeichert werden sollen. Wird in kommenden Versionen von WebGUI weiter ausgebaut.</p>'
+    'lastUpdated' => '1249045726',
+    'message' => 'Große Installationen, die externe Gruppen Daten benutzen fragen sehr oft externe Datenbanken ab. Um dies zu reduzieren, können Sie angeben wie lange Ergebnisse aus diesen Abfragen in der WebGUI Datenbank zwischengespeichert werden sollen. Wird in kommenden Versionen von WebGUI weiter ausgebaut.'
   },
   1005 => {
     'lastUpdated' => '1178180357',
@@ -166,8 +166,8 @@ our $I18N = {
     'message' => 'Env HTTP Host'
   },
   1072 => {
-    'lastUpdated' => '1178181337',
-    'message' => 'Die email Adresse wird schon genutzt. Bitte benuzten Sie eine andere email Adresse.<br />'
+    'lastUpdated' => '1249045703',
+    'message' => 'Die E-Mailadresse wird schon genutzt. Bitte benuzten Sie eine andere E-Mail Adresse.'
   },
   1073 => {
     'lastUpdated' => '1178615571',
@@ -234,28 +234,28 @@ our $I18N = {
     'message' => 'Der Name ihrer Firma. Dieser erscheint in allen emails und überall dort, wo sie das Firmenname Style Makro einsetzen.'
   },
   126 => {
-    'lastUpdated' => '1178182279',
-    'message' => 'Firmen email Adresse '
+    'lastUpdated' => '1249045688',
+    'message' => 'Firmen-E-Mailadresse '
   },
   '126 description' => {
-    'lastUpdated' => '1178182420',
-    'message' => 'Allgemeine email Adresse ihrer Firma. Von dieser Adresse kommen alle vom System automatisch generierten emails. Kann ausserdem über das Firmen-Mailadresse Style Makro benutzt werden.<br />'
+    'lastUpdated' => '1249045673',
+    'message' => 'Allgemeine E-Mailadresse Ihrer Firma. Von dieser Adresse kommen alle vom System automatisch generierten E-Mails. Kann außerdem über das Firmen-Mailadresse Style Makro benutzt werden.'
   },
   127 => {
     'lastUpdated' => '1178615686',
     'message' => 'Firmen URL'
   },
   '127 description' => {
-    'lastUpdated' => '1178182591',
-    'message' => '<p>Die URL ihrer Firma. Erscheint in jeder vom System automatisch generierten email. Kann ausserdem über das Firmen-URL Style Makro benutzt werden.</p>'
+    'lastUpdated' => '1249045779',
+    'message' => 'Die URL ihrer Firma. Erscheint in jeder vom System automatisch generierten E-Mail. Kann außerdem über das Firmen-URL Style Makro benutzt werden.'
   },
   130 => {
     'lastUpdated' => '1178183160',
     'message' => 'Maximale Grösse eines Anhangs '
   },
   '130 description' => {
-    'lastUpdated' => '1178183447',
-    'message' => 'Maximal Grösse (in kilobyte) eines auf das System ladbaren Anhangs. Auf Grund der Eigenschaften des HTTP Protokols ist die zu erwartende maximale Dateigr&ouml;sse auf ca. 100MB beschränkt.'
+    'lastUpdated' => '1249045817',
+    'message' => 'Maximalgrösse (in Kilobyte) eines auf das System ladbaren Anhangs. Auf Grund der Eigenschaften des HTTP-Protokolls ist die zu erwartende maximale Dateigrösse auf ca. 100MB beschränkt.'
   },
   134 => {
     'lastUpdated' => '1178183480',
@@ -374,8 +374,8 @@ our $I18N = {
     'message' => 'Betreff'
   },
   '229 description' => {
-    'lastUpdated' => '1178615889',
-    'message' => 'Betreff der email.'
+    'lastUpdated' => '1249045638',
+    'message' => 'Betreff der E-Mail.'
   },
   230 => {
     'lastUpdated' => '1178185032',
@@ -838,8 +838,8 @@ our $I18N = {
     'message' => 'Kontakt Information'
   },
   441 => {
-    'lastUpdated' => '1178617174',
-    'message' => 'Email/Pager Gateway'
+    'lastUpdated' => '1249045632',
+    'message' => 'E-Mail/Pager Gateway'
   },
   442 => {
     'lastUpdated' => '1178617187',
@@ -938,8 +938,8 @@ our $I18N = {
     'message' => 'URL'
   },
   480 => {
-    'lastUpdated' => '1178617369',
-    'message' => 'Email Adresse'
+    'lastUpdated' => '1249045624',
+    'message' => 'E-Mailadresse'
   },
   481 => {
     'lastUpdated' => '1178193786',
@@ -1150,8 +1150,8 @@ our $I18N = {
     'message' => 'E-Mailadresse'
   },
   '56 description' => {
-    'lastUpdated' => '1178195228',
-    'message' => 'Die email Adresse des Administrators. Kann benutzt werden, um administrative Benachrichtigungen zu verschicken.<br />'
+    'lastUpdated' => '1249045617',
+    'message' => 'Die E-Mail-Adresse des Administrators. Kann benutzt werden, um administrative Benachrichtigungen zu verschicken.'
   },
   560 => {
     'lastUpdated' => '1178195259',
@@ -1430,8 +1430,8 @@ our $I18N = {
     'message' => 'Zurück zur Gruppenliste.'
   },
   76 => {
-    'lastUpdated' => '1178530272',
-    'message' => 'Diese email Adresse befindet sich nicht in unserer Datenbank.<br />'
+    'lastUpdated' => '1249045364',
+    'message' => 'Diese E-Mail Adresse befindet sich nicht in unserer Datenbank.'
   },
   768 => {
     'lastUpdated' => '1178530286',
@@ -1466,12 +1466,12 @@ our $I18N = {
     'message' => 'Die Gruppen innerhalb dieser Gruppe verwalten.'
   },
   808 => {
-    'lastUpdated' => '1178618165',
-    'message' => 'Email an diese Gruppe.'
+    'lastUpdated' => '1249045372',
+    'message' => 'E-Mail an diese Gruppe.'
   },
   809 => {
-    'lastUpdated' => '1178530596',
-    'message' => 'Email Gruppe'
+    'lastUpdated' => '1249045377',
+    'message' => 'E-Mail Gruppe'
   },
   81 => {
     'lastUpdated' => '1178618176',
@@ -1486,8 +1486,8 @@ our $I18N = {
     'message' => 'Von'
   },
   '811 description' => {
-    'lastUpdated' => '1178530701',
-    'message' => 'Von wem die email versendet wurde. '
+    'lastUpdated' => '1249045397',
+    'message' => 'Von wem die E-Mail versandt wurde. '
   },
   812 => {
     'lastUpdated' => '1178618189',
@@ -1530,8 +1530,8 @@ our $I18N = {
     'message' => 'Gehe zur neuen Seite.'
   },
   824 => {
-    'lastUpdated' => '1178618212',
-    'message' => 'Email Fußzeile'
+    'lastUpdated' => '1249045407',
+    'message' => 'E-Mail-Fußzeile'
   },
   '824 description' => {
     'lastUpdated' => '1178531055',
@@ -1598,8 +1598,8 @@ our $I18N = {
     'message' => 'Sind Sie sich sicher, dass Sie diese Gruppe löschen wollen. Seien Sie sich bewußt, dass das L&ouml;schen einer Gruppe permanent ist und alle Priviliegien l&ouml;scht, die mit dieser Gruppe assoziiert sind. '
   },
   860 => {
-    'lastUpdated' => '1178538207',
-    'message' => 'Email Adresse veröffentlichen? '
+    'lastUpdated' => '1249045416',
+    'message' => 'E-Mail-Adresse veröffentlichen? '
   },
   861 => {
     'lastUpdated' => '1178618261',
@@ -1650,16 +1650,16 @@ our $I18N = {
     'message' => 'Willkommensnachricht verschicken?'
   },
   '868 help' => {
-    'lastUpdated' => '1227566246',
-    'message' => 'Soll der Benutzer eine Email bekommen, wenn sein Konto eröffnet wird?'
+    'lastUpdated' => '1249045439',
+    'message' => 'Soll der Benutzer eine E-Mail erhalten, wenn sein Konto eröffnet wird?'
   },
   869 => {
     'lastUpdated' => '1178538676',
     'message' => 'Willkommensnachricht'
   },
   '869 help' => {
-    'lastUpdated' => '1227566363',
-    'message' => 'Diese Nachricht wird Teil der Begrüssungsemail sein. wenn ein Benutzer ein Konto eröffnet.'
+    'lastUpdated' => '1249045459',
+    'message' => 'Diese Nachricht wird Teil der Begrüßungs-E-Mail sein, wenn ein Benutzer ein Konto eröffnet.'
   },
   87 => {
     'lastUpdated' => '1178538691',
@@ -2119,8 +2119,8 @@ Kopieren Sie ggf. Dateien und fügen Sie diese in den Editor ein.'
     'message' => 'in Bearbeitung...'
   },
   'Your Email Address' => {
-    'lastUpdated' => '1224798515',
-    'message' => 'Ihre Emailadresse'
+    'lastUpdated' => '1249045595',
+    'message' => 'Ihre E-Mailadresse'
   },
   'account' => {
     'lastUpdated' => '1178547178',
@@ -2162,6 +2162,10 @@ Kopieren Sie ggf. Dateien und fügen Sie diese in den Editor ein.'
     'lastUpdated' => '1178547231',
     'message' => 'Der Style, der von der Adminkonsole benutzt wird.<br />'
   },
+  'admin console template variables' => {
+    'lastUpdated' => '1249045876',
+    'message' => 'Admin-Konsole Template Variablen'
+  },
   'allow access from macros' => {
     'lastUpdated' => '1199972893',
     'message' => 'Erlaube Zugriff von Makros'
@@ -2181,6 +2185,34 @@ Kopieren Sie ggf. Dateien und fügen Sie diese in den Editor ein.'
   'allowed keywords description' => {
     'lastUpdated' => '1178547382',
     'message' => 'Sie können hier SQL Statements eingeben, die für ihre Datenbank erlaubt sind. Eine sichere (nur lese) Wahl ist SELECT, DESCRIBE, und SHOW. Die verschiedenen Schl&uuml;sselw&ouml;rter sollten voneinnander durch Leerzeichen getrennt werden. '
+  },
+  'application.canUse' => {
+    'lastUpdated' => '1249046502',
+    'message' => 'Ein boolscher Wert, der wahr ist, wenn der aktuelle Nutzer diese Anwendung nutzen darf, basierend auf Gruppen-Privilegien und UI-Level.'
+  },
+  'application.icon' => {
+    'lastUpdated' => '1249046535',
+    'message' => 'URL zum Icon der Anwendung.'
+  },
+  'application.icon.small' => {
+    'lastUpdated' => '1249046560',
+    'message' => 'URL zum Icon der Anwendung - kleine Version.'
+  },
+  'application.title' => {
+    'lastUpdated' => '1249046574',
+    'message' => 'Der Name der Anwendung.'
+  },
+  'application.url' => {
+    'lastUpdated' => '1249046598',
+    'message' => 'URL zu dieser Seite.'
+  },
+  'application.workarea' => {
+    'lastUpdated' => '1249046620',
+    'message' => 'Die gerenderte Anwendungsseite.'
+  },
+  'application_loop' => {
+    'lastUpdated' => '1249046639',
+    'message' => 'Eine Schleife, die alle Admin-Anwendungen enthält.'
   },
   'asset locked' => {
     'lastUpdated' => '1178547454',
@@ -2205,6 +2237,10 @@ Kopieren Sie ggf. Dateien und fügen Sie diese in den Editor ein.'
   'backtosite.label' => {
     'lastUpdated' => '1248721419',
     'message' => 'Eine internationalisierte Bezeichnung für den Link, der den Benutzer von der Admin-Console zurück zur Website führt.'
+  },
+  'backtosite.url' => {
+    'lastUpdated' => '1249045917',
+    'message' => 'Die URL für den Link von der Admin-Konsole zurück zur Website.'
   },
   'bare insufficient' => {
     'lastUpdated' => '1178547545',
@@ -2563,16 +2599,16 @@ Kopieren Sie ggf. Dateien und fügen Sie diese in den Editor ein.'
     'message' => 'Antwortadresse'
   },
   'mail return path help' => {
-    'lastUpdated' => '1178624102',
-    'message' => 'An welche Email Adresse sollen nicht zustellbare Emails geschickt werden?'
+    'lastUpdated' => '1249045586',
+    'message' => 'An welche E-Mailadresse sollen nicht zustellbare E-Mails geschickt werden?'
   },
   'manage cache' => {
     'lastUpdated' => '1178624133',
     'message' => 'Cache'
   },
   'messaging' => {
-    'lastUpdated' => '1178624667',
-    'message' => 'Email'
+    'lastUpdated' => '1249045572',
+    'message' => 'E-Mail'
   },
   'minutes' => {
     'lastUpdated' => '1228684303',
@@ -2887,8 +2923,8 @@ Kopieren Sie ggf. Dateien und fügen Sie diese in den Editor ein.'
     'message' => 'reCAPTCHA Öffentlicher-Schlüssel'
   },
   'receive inbox emails' => {
-    'lastUpdated' => '1245623380',
-    'message' => 'Postfacheingänge als Email empfangen?'
+    'lastUpdated' => '1249045558',
+    'message' => 'Postfacheingänge als E-Mail empfangen?'
   },
   'receive inbox sms' => {
     'lastUpdated' => '1245623404',
@@ -3259,8 +3295,8 @@ Kopieren Sie ggf. Dateien und fügen Sie diese in den Editor ein.'
     'message' => 'SMS Gateway'
   },
   'sms gateway help' => {
-    'lastUpdated' => '1245623565',
-    'message' => 'Die Emailadresse, die diese Site verwenden würde um eine SMS-Mitteilung zu versenden.'
+    'lastUpdated' => '1249045547',
+    'message' => 'Die E-Mailadresse, die diese Site verwenden würde um eine SMS-Mitteilung zu versenden.'
   },
   'starts with' => {
     'lastUpdated' => '1178625756',
@@ -3269,6 +3305,22 @@ Kopieren Sie ggf. Dateien und fügen Sie diese in den Editor ein.'
   'style designer' => {
     'lastUpdated' => '1224798364',
     'message' => 'Style Entwickler'
+  },
+  'submenu.extras' => {
+    'lastUpdated' => '1249046409',
+    'message' => 'Alle zusätzlichen Parameter für den Link, z.B. JavaScript-Code für eine Bestätigung.'
+  },
+  'submenu.label' => {
+    'lastUpdated' => '1249046363',
+    'message' => 'Der Bezeichner für den Link.'
+  },
+  'submenu.url' => {
+    'lastUpdated' => '1249046350',
+    'message' => 'Der URL für den Link.'
+  },
+  'submenu_loop' => {
+    'lastUpdated' => '1249046336',
+    'message' => 'Eine Schleife, die die Links für das Untermenü-Panel enthält.'
   },
   'submit' => {
     'lastUpdated' => '1178625769',
@@ -3289,6 +3341,14 @@ Kopieren Sie ggf. Dateien und fügen Sie diese in den Editor ein.'
   'tinymce' => {
     'lastUpdated' => '1178625861',
     'message' => 'TimyMCE (IE,Mozilla)'
+  },
+  'toggle.off.label' => {
+    'lastUpdated' => '1249046294',
+    'message' => 'Der internationalisierte Bezeichner des Links zum Ausblenden der Admin-Konsole.'
+  },
+  'toggle.on.label' => {
+    'lastUpdated' => '1249046279',
+    'message' => 'Der internationalisierte Bezeichner des Links zum Anzeigen der Admin-Konsole.'
   },
   'topicName' => {
     'lastUpdated' => '1178625871',
@@ -3340,8 +3400,8 @@ Kopieren Sie ggf. Dateien und fügen Sie diese in den Editor ein.'
     'message' => 'Benutzer'
   },
   'user email template' => {
-    'lastUpdated' => '1193132377',
-    'message' => 'Benutzereinladungsemail Template'
+    'lastUpdated' => '1249045521',
+    'message' => 'Benutzereinladungs-E-Mail-Template'
   },
   'user email template description' => {
     'lastUpdated' => '1193132451',
@@ -3360,8 +3420,8 @@ Kopieren Sie ggf. Dateien und fügen Sie diese in den Editor ein.'
     'message' => '"E-Mail existiert" Nachricht'
   },
   'user invitations email exists description' => {
-    'lastUpdated' => '1193132580',
-    'message' => 'Dies ist die nachricht, die Benutzern angezeigt wird, die versuchen jemanden einzuladen, dessen E-Mail-Adresse bereits im System besteht.'
+    'lastUpdated' => '1249045492',
+    'message' => 'Dies ist die Nachricht, die Benutzern angezeigt wird, die versuchen jemanden einzuladen, dessen E-Mail-Adresse bereits im System besteht.'
   },
   'user profile edit template' => {
     'lastUpdated' => '1216639169',
@@ -3430,6 +3490,22 @@ Kopieren Sie ggf. Dateien und fügen Sie diese in den Editor ein.'
   'versionTagMode siteWide' => {
     'lastUpdated' => '1228685298',
     'message' => 'Ein Site-weiter Versions-Tag'
+  },
+  'versionTags' => {
+    'lastUpdated' => '1249046106',
+    'message' => 'Eine Schleife, die Informationen über offene Versions-Tags enthält.'
+  },
+  'versionTags.icon' => {
+    'lastUpdated' => '1249046211',
+    'message' => 'Wenn dies der aktuelle Tag des Nutzers ist, ist dies der URL zu einer kleinen Version des Versions-Tag-Admin-Konsole-Icons.'
+  },
+  'versionTags.title' => {
+    'lastUpdated' => '1249046065',
+    'message' => 'Der Titel des Versions-Tags'
+  },
+  'versionTags.url' => {
+    'lastUpdated' => '1249046049',
+    'message' => 'Wenn dieser Versions-Tag der aktuelle Tag des Nutzers ist, dann ist dies der Link für den Commit des Tags. Sonst wird dieser Tag zum aktuellen Tag des Nutzers.'
   },
   'view inbox message template' => {
     'lastUpdated' => '1193132620',
