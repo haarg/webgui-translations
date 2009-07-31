@@ -30,7 +30,7 @@ our $I18N = {
     'message' => 'Die URL zum Überprüfen dieser Liste'
   },
   'assetName' => {
-    'lastUpdated' => '1248510234',
+    'lastUpdated' => '1248911055',
     'message' => 'Matrix'
   },
   'attribute defaultValue description' => {
