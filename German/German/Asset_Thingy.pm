@@ -192,8 +192,8 @@ Bei "Ja/Nein" Feldern, geben Sie "yes" für "Ja" und "no" für "Nein" ein.'
     'message' => 'Metadaten exportieren?'
   },
   'export_url' => {
-    'lastUpdated' => '1247904988',
-    'message' => 'Url zum Exportieren von Suchergebnissen in eine csv-Datei.'
+    'lastUpdated' => '1249047162',
+    'message' => 'URL zum Exportieren von Suchergebnissen in eine csv-Datei.'
   },
   'extras label' => {
     'lastUpdated' => '1247904814',
@@ -264,8 +264,8 @@ Bei "Ja/Nein" Feldern, geben Sie "yes" für "Ja" und "no" für "Nein" ein.'
     'message' => 'Der Typ (Datei, Text, etc.) dieses Feldes'
   },
   'field_url' => {
-    'lastUpdated' => '1245623040',
-    'message' => 'Eine optionale Url wozu dieses Feld verlinken soll. Das wird z.B. benutzt um zu Feldern in anderen Tabellen zu verlinken.'
+    'lastUpdated' => '1249047179',
+    'message' => 'Eine optionale URL wozu dieses Feld verlinken soll. Das wird z.B. benutzt um zu Feldern in anderen Tabellen zu verlinken.'
   },
   'field_value' => {
     'lastUpdated' => '1236681150',
@@ -340,8 +340,8 @@ Bei "Ja/Nein" Feldern, geben Sie "yes" für "Ja" und "no" für "Nein" ein.'
     'message' => 'Import'
   },
   'import_url' => {
-    'lastUpdated' => '1240582268',
-    'message' => 'Url zur csv-Datei zum Inportieren'
+    'lastUpdated' => '1249047232',
+    'message' => 'URL zur csv-Datei, die importiert werden soll.'
   },
   'is required error' => {
     'lastUpdated' => '1236681213',
