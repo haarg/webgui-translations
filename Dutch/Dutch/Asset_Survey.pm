@@ -477,6 +477,14 @@ our $I18N = {
     'lastUpdated' => '1249030680',
     'message' => 'Het sjabloon dat gebruikt wordt tijdens het bewerken van de enquête.'
   },
+  'Feedback Template' => {
+    'lastUpdated' => '1249043834',
+    'message' => 'Terugkoppeling sjabloon'
+  },
+  'Feedback Template help' => {
+    'lastUpdated' => '1249043860',
+    'message' => 'Het sjabloon om de terugkoppeling op een reactie te geven.'
+  },
   'Grabebook Report Template' => {
     'lastUpdated' => '1249031674',
     'message' => 'Resultatenrapport sjabloon'
@@ -545,6 +553,42 @@ our $I18N = {
     'lastUpdated' => '1249032065',
     'message' => 'Vragen sjabloon'
   },
+  'Questions Template help' => {
+    'lastUpdated' => '1249038740',
+    'message' => 'Het sjabloon voor het tonen van losse vragen, die dynamisch in de pagina voor het deelnemen aan de enqu&ecirc;te geladen worden.'
+  },
+  'Quiz mode summaries' => {
+    'lastUpdated' => '1249043782',
+    'message' => 'Samenvatting in quiz modus tonen?'
+  },
+  'Quiz mode summaries help' => {
+    'lastUpdated' => '1249043817',
+    'message' => 'Wanneer dit is aangezet wordt een samenvatting van de resultaten gegeven aan de gebruikers.'
+  },
+  'Section Edit Template' => {
+    'lastUpdated' => '1249038765',
+    'message' => '"Bewerk sectie" sjabloon'
+  },
+  'Section Edit Template help' => {
+    'lastUpdated' => '1249038812',
+    'message' => 'Het sjabloon waar men secties kan bewerken op de Bewerk enqu&ecirc;te pagina.'
+  },
+  'Show user their progress' => {
+    'lastUpdated' => '1249038834',
+    'message' => 'Voortgang tonen?'
+  },
+  'Show user their progress help' => {
+    'lastUpdated' => '1249038877',
+    'message' => 'Stel dit in op ja om de gebruiker te laten zien hoeveel vragen ze hebben beantwoord en hoeveel ze nog moeten beantwoorden.'
+  },
+  'Show user their time remaining' => {
+    'lastUpdated' => '1249038891',
+    'message' => 'Resterende tijd tonen?'
+  },
+  'Show user their time remaining help' => {
+    'lastUpdated' => '1249038930',
+    'message' => 'Stel in op ja om de gebruiker te tonen hoevel tijd ze over hebben om de enqu&ecirc;te af te maken.'
+  },
   'Survey Edit Template' => {
     'lastUpdated' => '1249033994',
     'message' => '"Bewerk enqu&ecirc;te" sjabloon'
@@ -553,9 +597,49 @@ our $I18N = {
     'lastUpdated' => '1249034040',
     'message' => 'Het sjabloon waarmee het Bewerken scherm voor de enqu&ecirc;te wordt getoond.'
   },
+  'Survey Exit URL' => {
+    'lastUpdated' => '1249038954',
+    'message' => 'URL uitgang enqu&ecirc;te'
+  },
+  'Survey Exit URL help' => {
+    'lastUpdated' => '1249043451',
+    'message' => 'Wanneer de gebruiker de enqu&ecirc;te voltooid heeft, wordt deze naar dit URL gestuurd. Als er geen speciale pagina gewenst is kan dit leegelaten worden. De gateway instelling van het configuratiebestand wordt automatisch aan het URL toegevoegd.'
+  },
+  'Survey Overview Template' => {
+    'lastUpdated' => '1249043669',
+    'message' => 'Overzicht enqu&ecirc;te sjabloon'
+  },
+  'Survey Overview Template help' => {
+    'lastUpdated' => '1249043702',
+    'message' => 'Het sjabloon dat een overzicht van de enqu&ecirc;te geeft.'
+  },
+  'Survey Summary Template' => {
+    'lastUpdated' => '1249043686',
+    'message' => 'Samenvatting enqu&ecirc;te sjabloon'
+  },
+  'Survey Summary Template help' => {
+    'lastUpdated' => '1249043763',
+    'message' => 'Dit is het sjabloon dat gebruikt wordt om de resultaten aan gebruikers te tonen als de quiz modus aan staat.'
+  },
   'Survey_id' => {
     'lastUpdated' => '1189373201',
     'message' => 'De ID van deze Enquete. Deze is niet identiek aan de objectId (assetId).'
+  },
+  'Take Survey Template' => {
+    'lastUpdated' => '1249043476',
+    'message' => 'Deelnemen enqu&ecirc;te sjabloon'
+  },
+  'Take Survey Template help' => {
+    'lastUpdated' => '1249043582',
+    'message' => 'Het sjabloon voor het scherm waar de enqu&ecirc;te ingevuld wordt. Hiervandaan worden reacties dynamisch ingeladen.'
+  },
+  'a1' => {
+    'lastUpdated' => '1249043622',
+    'message' => 'Een functie die de eerste lijst met antwoorden ophaalt voor een dubbele selectieschuif type vraag.'
+  },
+  'a2' => {
+    'lastUpdated' => '1249043633',
+    'message' => 'Een functie die de tweede lijst met antwoorden ophaalt voor een dubbele selectieschuif type vraag.'
   },
   'add a test' => {
     'lastUpdated' => '1248100814',
@@ -576,6 +660,14 @@ our $I18N = {
   'allow comment' => {
     'lastUpdated' => '1227607716',
     'message' => 'Commentaar toestaan'
+  },
+  'allow comment description' => {
+    'lastUpdated' => '1249038990',
+    'message' => 'Mag de gebruiker commentaar tovoegen aan deze vraag?'
+  },
+  'allowBackBtn' => {
+    'lastUpdated' => '1249043338',
+    'message' => 'Een functie die aangeeft of de "Ga terug" knop is toegestaan.'
   },
   'allowComment' => {
     'lastUpdated' => '1248187573',
@@ -604,6 +696,10 @@ our $I18N = {
   'answer score' => {
     'lastUpdated' => '1249034235',
     'message' => 'Score antwoord'
+  },
+  'answer score description' => {
+    'lastUpdated' => '1249043310',
+    'message' => 'Ken een numerieke waarde toe aan dit antwoord. Als het leegeglaten wordt zal de score van de vraag gebruikt worden. Wordt gebruikt voor resultaten en "Ga naar" expressies.'
   },
   'answer text' => {
     'lastUpdated' => '1227607740',
@@ -689,6 +785,10 @@ our $I18N = {
     'lastUpdated' => '1227604289',
     'message' => 'Kolommen:'
   },
+  'cols description' => {
+    'lastUpdated' => '1249039030',
+    'message' => 'Het aantal gebruikte kolommen voor het invoerveld (voor tekstvak type vragen).'
+  },
   'comment cols' => {
     'lastUpdated' => '1248187596',
     'message' => 'Commentaar kolommen:'
@@ -765,6 +865,22 @@ our $I18N = {
     'lastUpdated' => '1248186070',
     'message' => 'Details'
   },
+  'displayed_id' => {
+    'lastUpdated' => '1249043216',
+    'message' => 'De getoonde ID van deze sectie/vraag/antwoord.'
+  },
+  'do after timelimit hoverHelp' => {
+    'lastUpdated' => '1249043185',
+    'message' => 'Selecteer de gebeurtenis nadat de tijd voor het invullen van de enqu&ecirc;te verlopen is.'
+  },
+  'do after timelimit label' => {
+    'lastUpdated' => '1249043146',
+    'message' => 'Te doen na verlopen reactietijd'
+  },
+  'dualSlider' => {
+    'lastUpdated' => '1249043122',
+    'message' => 'Een functie die aangeeft of deze vraag van het type dubbele selectieschuif is.'
+  },
   'duration.label' => {
     'lastUpdated' => '1152519082',
     'message' => 'Het standaard label voor de duur.  '
@@ -812,6 +928,14 @@ our $I18N = {
   'end.time.human' => {
     'lastUpdated' => '1152519333',
     'message' => 'De normaal leesbare versie van de tijd waarop de gebruiker deze reactie afmaakte. '
+  },
+  'everyPageText' => {
+    'lastUpdated' => '1249039065',
+    'message' => 'Een functie die aangeeft of de tekst op elke pagina van de sectie getoond moet worden.'
+  },
+  'everyPageTitle' => {
+    'lastUpdated' => '1249039094',
+    'message' => 'Een functie die aangeeft of de titel op elke pagina van de sectie moet worden weergegeven.'
   },
   'exit url label' => {
     'lastUpdated' => '1249037338',
@@ -881,6 +1005,10 @@ our $I18N = {
     'lastUpdated' => '1248187115',
     'message' => 'De sectie of vraag met deze naam variabele zal na deze sectie/antwoord getoond worden.'
   },
+  'gradebook report template title' => {
+    'lastUpdated' => '1249039817',
+    'message' => 'Scoreboekrapport sjabloon'
+  },
   'gradebook template' => {
     'lastUpdated' => '1152520785',
     'message' => 'Scoreboek sjabloon'
@@ -929,6 +1057,14 @@ our $I18N = {
     'lastUpdated' => '1248187020',
     'message' => 'Een functie die aangeeft of dit de laatste pagina van de enquê is.'
   },
+  'jump expression' => {
+    'lastUpdated' => '1249039692',
+    'message' => '"Ga naar" expressie'
+  },
+  'jump expression description' => {
+    'lastUpdated' => '1249039526',
+    'message' => 'Een expressie die wordt gebruikt voor het controleren van complexe vertakking binnen de enqu&ecirc;te gebaseerd om eerdere antwoorden van de gebruiker. Tenzij enableSurveyExpressionEngine aangezet is in de configuratie wordt dit genegeerd.'
+  },
   'jump to' => {
     'lastUpdated' => '1227604308',
     'message' => 'Ga naar:'
@@ -936,6 +1072,10 @@ our $I18N = {
   'jump to description' => {
     'lastUpdated' => '1249038278',
     'message' => 'De sectie of vraag met deze naam wordt na dit antwoord getoond.'
+  },
+  'lastResponseFeedback help' => {
+    'lastUpdated' => '1249043080',
+    'message' => 'De tekst voor terugkoppeling voor de reactie.'
   },
   'logical section' => {
     'lastUpdated' => '1249038290',
@@ -976,6 +1116,13 @@ our $I18N = {
   'maximum number of answers' => {
     'lastUpdated' => '1227629721',
     'message' => 'Maximum aantal antwoorden'
+  },
+  'maximum number of answers description' => {
+    'lastUpdated' => '1249039940',
+    'message' => 'Het aantal antwoorden die een gebruiker kan selecteren voor meerkeuzevragen
+0=onbeperkt
+1=een keuze (in radio style)
+2 en meer = een lijst met vakjes die aangevinkt kunnen worden'
   },
   'min' => {
     'lastUpdated' => '1227604353',
@@ -1053,13 +1200,33 @@ our $I18N = {
     'lastUpdated' => '1231192562',
     'message' => 'Vraag nummer:'
   },
+  'question number description' => {
+    'lastUpdated' => '1249039954',
+    'message' => 'Het nummer van deze vraag.'
+  },
+  'question score' => {
+    'lastUpdated' => '1249042664',
+    'message' => 'Score vraag:'
+  },
+  'question score description' => {
+    'lastUpdated' => '1249042897',
+    'message' => 'Standaard score voor antwoorden bij deze vraag als die geen antwoord score hebben gekregen.'
+  },
   'question text' => {
     'lastUpdated' => '1227629750',
     'message' => 'Tekst vraag:'
   },
+  'question text description' => {
+    'lastUpdated' => '1249042681',
+    'message' => 'Voer een tekst in voor deze vraag.'
+  },
   'question type' => {
     'lastUpdated' => '1227629758',
     'message' => 'Type vraag:'
+  },
+  'question type description' => {
+    'lastUpdated' => '1249042650',
+    'message' => 'Selecteer het type vraag'
   },
   'question value' => {
     'lastUpdated' => '1227629766',
@@ -1068,6 +1235,10 @@ our $I18N = {
   'question variable name' => {
     'lastUpdated' => '1231192604',
     'message' => 'Naam vraag variabele'
+  },
+  'question variable name description' => {
+    'lastUpdated' => '1249043023',
+    'message' => 'Voer een naam voor een variabele ter identificatie van deze vraag. Zo kan het gebruikt worden door een "ga naar" functie in een andere sectie.'
   },
   'question.add.label' => {
     'lastUpdated' => '1152521887',
@@ -1145,13 +1316,33 @@ our $I18N = {
     'lastUpdated' => '1189373434',
     'message' => 'Deze variabele bepaalt de volgorde van de vragen in de Enquete. Dit kan zijn "opeenvolgend", "willekeurig", "antwoord afhankelijk" en "per sectie".'
   },
+  'questionType' => {
+    'lastUpdated' => '1249041288',
+    'message' => 'Een functie die de beschikbare typen vraag ophaalt.'
+  },
+  'question_allowComment' => {
+    'lastUpdated' => '1249042458',
+    'message' => 'Een functie die aangeeft of commentaar gegeven mag worden bij deze vraag.'
+  },
   'question_count' => {
     'lastUpdated' => '1249038382',
     'message' => 'Het aantal vragen in de enqu&ecirc;te.'
   },
+  'question_id' => {
+    'lastUpdated' => '1249042341',
+    'message' => 'De ID van deze vraag.'
+  },
+  'question_isMultipleChoice' => {
+    'lastUpdated' => '1249042359',
+    'message' => 'Een functie die aangeeft of dit een meerkeuzevraag is.'
+  },
   'question_loop' => {
     'lastUpdated' => '1152523156',
     'message' => 'Een kring die alle vragen voor deze reactie op de enqu&ecirc;te bevat.'
+  },
+  'question_response_total' => {
+    'lastUpdated' => '1249042329',
+    'message' => 'Het totaal aantal reacties op deze vraag.'
   },
   'questions' => {
     'lastUpdated' => '1248185787',
@@ -1161,9 +1352,17 @@ our $I18N = {
     'lastUpdated' => '1231192626',
     'message' => 'Vragen op de pagina van de sectie:'
   },
+  'questions on section page description' => {
+    'lastUpdated' => '1249040322',
+    'message' => 'Worden vragen op de eerste pagina van een sectie getoond of op de volgende pagina?'
+  },
   'questions per page' => {
     'lastUpdated' => '1231192635',
     'message' => 'Vragen per pagina:'
+  },
+  'questions per page description' => {
+    'lastUpdated' => '1249039982',
+    'message' => 'Het aantal vragen dat op een pagina getoond wordt.'
   },
   'questions.correct.count' => {
     'lastUpdated' => '1207837111',
@@ -1213,9 +1412,25 @@ our $I18N = {
     'lastUpdated' => '1231192648',
     'message' => 'Antwoorden willekeurig ordenen'
   },
+  'randomize answers description' => {
+    'lastUpdated' => '1249040017',
+    'message' => 'Als dit op ja staat worden de antwoorden voor elke gebruiker in een willekeurige volgorde getoond.'
+  },
   'randomize questions' => {
     'lastUpdated' => '1231192661',
     'message' => 'Vragen willekeurig ordenen:'
+  },
+  'randomize questions description' => {
+    'lastUpdated' => '1249040134',
+    'message' => 'Als dit op ja staat worden de vragen voor elke gebruiker in een willekeurige volgorde getoond.'
+  },
+  'randomizeAnswers' => {
+    'lastUpdated' => '1249040073',
+    'message' => 'Een functie die aangeeft of de antwoorden van deze vraag in willekeurige volgorde getoond moeten worden.'
+  },
+  'randomizeQuestions' => {
+    'lastUpdated' => '1249040110',
+    'message' => 'Een functie die aangeeft of de vragen van deze sectie in willekeurige volgorde getoond moeten worden.'
   },
   'randomized words' => {
     'lastUpdated' => '1231192674',
@@ -1224,6 +1439,14 @@ our $I18N = {
   'recorded answer' => {
     'lastUpdated' => '1227604372',
     'message' => 'Opgeslagen antwoord:'
+  },
+  'recorded answer description' => {
+    'lastUpdated' => '1249040951',
+    'message' => 'Bepaalt wat opgeslagen wordt als reactie als dit antwoord is geswelecteerd. Zo kunnen de resultaten bewerkt worden. "Ja" zou bijvoorbeeld als 1 opgeslagen kunnen worden en "Nee " als 0. Dit is alleen van belang voor meerkeuzevragen aangezien in andere gevallen het antwoord door de gebruiker ingevoerd wordt.'
+  },
+  'recordedAnswer' => {
+    'lastUpdated' => '1249041302',
+    'message' => 'Bepaalt wat opgeslagen wordt als reactie als dit antwoord is geswelecteerd. Zo kunnen de resultaten bewerkt worden. "Ja" zou bijvoorbeeld als 1 opgeslagen kunnen worden en "Nee " als 0. Dit is alleen van belang voor meerkeuzevragen aangezien in andere gevallen het antwoord door de gebruiker ingevoerd wordt.'
   },
   'report answer.label' => {
     'lastUpdated' => '1152523595',
@@ -1269,6 +1492,30 @@ our $I18N = {
     'lastUpdated' => '1249032495',
     'message' => 'Reactie compleet'
   },
+  'response complete help' => {
+    'lastUpdated' => '1249041360',
+    'message' => 'Een functie die aangeeft of de reactie op de enqu&ecirc;te compleet is.'
+  },
+  'response count label' => {
+    'lastUpdated' => '1249041438',
+    'message' => 'Reacties'
+  },
+  'response endDate help' => {
+    'lastUpdated' => '1249041467',
+    'message' => 'Een tijd waarop de reactie is be&euml;indigd.'
+  },
+  'response percent label' => {
+    'lastUpdated' => '1249041476',
+    'message' => 'Percentage'
+  },
+  'response restart' => {
+    'lastUpdated' => '1249040839',
+    'message' => 'Enqu&ecirc;te herstart'
+  },
+  'response restart help' => {
+    'lastUpdated' => '1249040871',
+    'message' => 'Een functie die aangeeft of de reactie opnieuw begonnen is.'
+  },
   'response template' => {
     'lastUpdated' => '1152523809',
     'message' => 'Antwoord sjabloon'
@@ -1276,6 +1523,22 @@ our $I18N = {
   'response template description' => {
     'lastUpdated' => '1152523912',
     'message' => 'Met dit sjabloon worden de vragen en de antwoorden die de gebruiker kan kiezen getoond. '
+  },
+  'response timeout' => {
+    'lastUpdated' => '1249040892',
+    'message' => 'Reactietijd enqu&ecirc;te overschreden'
+  },
+  'response timeout help' => {
+    'lastUpdated' => '1249041546',
+    'message' => 'Een functie die aangeeft of de reactietijd verlopen is.'
+  },
+  'response timeout restart' => {
+    'lastUpdated' => '1249041643',
+    'message' => 'De reactie op de enqu&ecirc;te is opnieuw begonnen omdat de reactietijd verlopen was.'
+  },
+  'response timeout restart help' => {
+    'lastUpdated' => '1249041691',
+    'message' => 'Een functie die aangeeft of de reactie op de enqu&ecirc;te is herstart omdat de reactietijd was verlopen.'
   },
   'response.count' => {
     'lastUpdated' => '1152523945',
@@ -1325,13 +1588,29 @@ our $I18N = {
     'lastUpdated' => '1189373475',
     'message' => 'De ID van het template dat gebruikt wordt om het antwoordscherm van de Enquete weer te geven.'
   },
+  'response_count_correct' => {
+    'lastUpdated' => '1249041512',
+    'message' => 'Het aantal vragen dat goed is beantwoord door de gebruiker.'
+  },
   'response_loop' => {
     'lastUpdated' => '1207906155',
     'message' => 'Een kring die een lijst met antwoorden bevat.'
   },
+  'response_percent' => {
+    'lastUpdated' => '1249040548',
+    'message' => 'Het percentage correct beantwoorde vragen.'
+  },
+  'response_user_name' => {
+    'lastUpdated' => '1249041383',
+    'message' => 'De gebruikersnaam van de gebruiker die de reactie heeft gegeven.'
+  },
   'restart message' => {
     'lastUpdated' => '1249032620',
     'message' => 'De enqu&ecirc;te wordt opnieuw gestart omdat de tijdslimiet is overscheden.'
+  },
+  'restart survey label' => {
+    'lastUpdated' => '1249040630',
+    'message' => 'Enqu&ecirc;te herstarten'
   },
   'rows' => {
     'lastUpdated' => '1227604250',
@@ -1365,17 +1644,33 @@ our $I18N = {
     'lastUpdated' => '1231193207',
     'message' => 'Naam maatwerk variabele voor sectie:'
   },
+  'section custom variable name description' => {
+    'lastUpdated' => '1249043925',
+    'message' => 'Voer een naam voor een variabele ter identificatie van deze sectie. Zo kan het gebruikt worden door een "ga naar" functie in een andere sectie.'
+  },
   'section name' => {
     'lastUpdated' => '1231192692',
     'message' => 'Naam sectie:'
+  },
+  'section name description' => {
+    'lastUpdated' => '1249040641',
+    'message' => 'De naam van deze sectie.'
   },
   'section number' => {
     'lastUpdated' => '1231192701',
     'message' => 'Sectie nummer:'
   },
+  'section number description' => {
+    'lastUpdated' => '1249040674',
+    'message' => 'Het nummer van de sectie.'
+  },
   'section text' => {
     'lastUpdated' => '1231192711',
     'message' => 'Tekst bij sectie:'
+  },
+  'section text description' => {
+    'lastUpdated' => '1249040663',
+    'message' => 'Voer een beschrijving van deze sectie in.'
   },
   'section.add.label' => {
     'lastUpdated' => '1166198229',
@@ -1420,6 +1715,10 @@ our $I18N = {
   'show text in button' => {
     'lastUpdated' => '1231192721',
     'message' => 'Toon tekst in knop:'
+  },
+  'show text in button description' => {
+    'lastUpdated' => '1249040608',
+    'message' => 'Standaard worden antwoorden bij meerkeuzevragen boven elke knop getoond. Als dit aangepast wordt, wordt de tekst in de knop getoond.'
   },
   'show.comments.label' => {
     'lastUpdated' => '1152525238',
@@ -1469,21 +1768,77 @@ our $I18N = {
     'lastUpdated' => '1207836881',
     'message' => 'De normaal leesbare versie van de tijd waarop de gebruiker begonnen is met het beantwoorden. '
   },
+  'statistical overview template title' => {
+    'lastUpdated' => '1249040792',
+    'message' => 'Statistisch overzichtrapport sjabloon'
+  },
   'step' => {
     'lastUpdated' => '1227629775',
+    'message' => 'Stap'
+  },
+  'step description' => {
+    'lastUpdated' => '1249040766',
+    'message' => 'De grootte van de stappen, het numerieke interval tussen waarden (voor nummer en selectieschuiven vragen). Als er geen stapgrootte gebruikt moet worden, moet het veld leeggelaten worden.'
+  },
+  'step label' => {
+    'lastUpdated' => '1249040684',
     'message' => 'Stap'
   },
   'submit' => {
     'lastUpdated' => '1227629806',
     'message' => 'Verzenden'
   },
+  'survey answer edit template title' => {
+    'lastUpdated' => '1249043943',
+    'message' => '"Bewerk antwoord" sjabloon'
+  },
   'survey asset template variables title' => {
     'lastUpdated' => '1189373565',
     'message' => 'De variabelen beschikbaar in het Enquete object.'
   },
+  'survey feedback template body' => {
+    'lastUpdated' => '1249044108',
+    'message' => 'Alle data die gemerkt is in enqu&ecirc; expressies zijn ook beschikbaar als sjabloon variabelen.'
+  },
+  'survey feedback template variables title' => {
+    'lastUpdated' => '1249044321',
+    'message' => 'Enqu&ecirc;te terugkoppeling sjabloon variabelen'
+  },
+  'survey question edit template title' => {
+    'lastUpdated' => '1249044298',
+    'message' => 'Enqu&ecirc;te vraag bewerken sjabloon'
+  },
+  'survey questions template title' => {
+    'lastUpdated' => '1249044281',
+    'message' => 'Enqu&ecirc;te vraag sjabloon'
+  },
+  'survey section edit template title' => {
+    'lastUpdated' => '1249044267',
+    'message' => 'Enqu&ecirc;te sectie bewerk sjabloon'
+  },
   'survey template' => {
     'lastUpdated' => '1249037992',
     'message' => 'Enqu&ecirc;te sjabloon'
+  },
+  'survey template common vars title' => {
+    'lastUpdated' => '1249044250',
+    'message' => 'Enqu&ecirc;te sjabloon variabelen'
+  },
+  'survey template help' => {
+    'lastUpdated' => '1249044232',
+    'message' => 'Het sjabloon voor de hoofdpagina van de enqu&ecirc;te.'
+  },
+  'survey template title' => {
+    'lastUpdated' => '1249040809',
+    'message' => 'Enqu&ecirc;te sjabloon'
+  },
+  'survey test results template body' => {
+    'lastUpdated' => '1249042302',
+    'message' => 'Alle TAP::Parser en TAP::Parser::Result velden zijn beschikbaar als sjabloon variabelen.'
+  },
+  'survey test results template title' => {
+    'lastUpdated' => '1249042261',
+    'message' => 'Testresultaten sjabloon variabelen'
   },
   'survey visualization' => {
     'lastUpdated' => '1249038137',
@@ -1521,9 +1876,17 @@ our $I18N = {
     'lastUpdated' => '1231193841',
     'message' => 'Sectie voor be&euml;indigen:'
   },
+  'terminal section description' => {
+    'lastUpdated' => '1249044187',
+    'message' => 'Is dit een be&euml;indigende sectie van de enqu&ecirc;te?'
+  },
   'terminal section url' => {
     'lastUpdated' => '1249038052',
     'message' => 'URL voor be&euml;indigen sectie enqu&ecirc;te'
+  },
+  'terminal section url description' => {
+    'lastUpdated' => '1249044152',
+    'message' => 'De URL die getoond wordt na deze sectie. De URL instelling van een vraag overschrijft die van de sectie.'
   },
   'terminalUrl' => {
     'lastUpdated' => '1249038112',
@@ -1548,6 +1911,10 @@ our $I18N = {
   'test results template' => {
     'lastUpdated' => '1248967898',
     'message' => 'Testresultaten sjabloon'
+  },
+  'test results template help' => {
+    'lastUpdated' => '1249042215',
+    'message' => 'Het sjabloon dat wordt gebruikt voor losse en samengestelde testresultaten.'
   },
   'test spec' => {
     'lastUpdated' => '1248967862',
@@ -1686,7 +2053,15 @@ our $I18N = {
     'message' => 'Een variabele naam voor het identificeren van een sectie of vraag, zodat het als ga naar variabele gebruikt kan worden in een andere sectie.'
   },
   'verbatim' => {
-    'lastUpdated' => '1231192985',
+    'lastUpdated' => '1249042081',
+    'message' => 'Een functie die aangeeft of dit antwoord een extra tekst invoer toont, waarinde gebruiker een enkele regel tkst in kan voeren.'
+  },
+  'verbatim description' => {
+    'lastUpdated' => '1249042168',
+    'message' => 'Stel in op ja om een extra tekst invoer voor een enkele regel tekstaan het antwoord toe te voegen. Wordt gebruikt om een "Anders..." antwoord te kunnen geven.'
+  },
+  'verbatim label' => {
+    'lastUpdated' => '1249041982',
     'message' => 'Letterlijk'
   },
   'verte' => {
@@ -1696,6 +2071,10 @@ our $I18N = {
   'vertical display' => {
     'lastUpdated' => '1231192996',
     'message' => 'Vertikaal tonen:'
+  },
+  'vertical display description' => {
+    'lastUpdated' => '1249041847',
+    'message' => 'Deze eigenschap bepaalt of knoppen van een meerkeuzevraag horizontaal of vertikaal getoond moeten worden.'
   },
   'verticalDisplay' => {
     'lastUpdated' => '1248187480',
@@ -1733,9 +2112,33 @@ our $I18N = {
     'lastUpdated' => '1249038168',
     'message' => 'De URL voor het scoreboek rapport scherm.'
   },
+  'view_simple_results_url' => {
+    'lastUpdated' => '1249041877',
+    'message' => 'De URL voor de globale resultaten'
+  },
   'view_statistical_overview_url' => {
     'lastUpdated' => '1249037964',
     'message' => 'De URL voor het scherm met het statistische overzicht.'
+  },
+  'view_transposed_results_url' => {
+    'lastUpdated' => '1249041973',
+    'message' => 'De URL voor de bewerkte resultaten.'
+  },
+  'visualization format' => {
+    'lastUpdated' => '1249041771',
+    'message' => 'Visualisatie opmaak'
+  },
+  'visualization format help' => {
+    'lastUpdated' => '1249041804',
+    'message' => 'Kies het type visualisatie bestand dat gegenereerd moet worden.'
+  },
+  'visualization layout algorithm' => {
+    'lastUpdated' => '1249041718',
+    'message' => 'Visualisatie layout algoritme'
+  },
+  'visualization layout algorithm help' => {
+    'lastUpdated' => '1249041756',
+    'message' => 'Kies het gewenste GraphViz layout algoritme.'
   },
   'visualization success' => {
     'lastUpdated' => '1249037927',
