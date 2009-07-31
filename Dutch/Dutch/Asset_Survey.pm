@@ -473,6 +473,74 @@ our $I18N = {
     'lastUpdated' => '1248187524',
     'message' => 'Bewerk enquête sjabloon'
   },
+  'Edit Survey Template help' => {
+    'lastUpdated' => '1249030680',
+    'message' => 'Het sjabloon dat gebruikt wordt tijdens het bewerken van de enquête.'
+  },
+  'Grabebook Report Template' => {
+    'lastUpdated' => '1249031674',
+    'message' => 'Resultatenrapport sjabloon'
+  },
+  'Grabebook Report Template help' => {
+    'lastUpdated' => '1249031823',
+    'message' => 'Het sjabloon waarmee het resultatenrapport getoond wordt.'
+  },
+  'Gradebook Template' => {
+    'lastUpdated' => '1249031662',
+    'message' => 'Resultaten sjabloon'
+  },
+  'Gradebook Template help' => {
+    'lastUpdated' => '1249031845',
+    'message' => 'Het sjabloon voor het tonen van de resultaten.'
+  },
+  'Group to edit survey' => {
+    'lastUpdated' => '1249031122',
+    'message' => 'Groep voor bewerken enquête'
+  },
+  'Group to edit survey help' => {
+    'lastUpdated' => '1249031991',
+    'message' => 'Selecteer een groep die de enqu&ecirc;te kan bewerken.'
+  },
+  'Group to take survey' => {
+    'lastUpdated' => '1249031135',
+    'message' => 'Groep voor deelnemen enquête'
+  },
+  'Group to take survey help' => {
+    'lastUpdated' => '1249031999',
+    'message' => 'Selecteer een groep die aan de enqu&ecirc;te kan deelnemen'
+  },
+  'Group to view reports' => {
+    'lastUpdated' => '1249031155',
+    'message' => 'Groep voor rapportage '
+  },
+  'Group to view reports help' => {
+    'lastUpdated' => '1249031934',
+    'message' => 'Selecteer een groep die rapportage kan bekijken.'
+  },
+  'Max user responses' => {
+    'lastUpdated' => '1249031697',
+    'message' => 'Maximum reacties per gebruiker'
+  },
+  'Max user responses help' => {
+    'lastUpdated' => '1249031982',
+    'message' => 'Het maximum aantal keren dat een gebruiker de enqu&ecirc;te kan invullen.'
+  },
+  'Overview Report Template' => {
+    'lastUpdated' => '1249031720',
+    'message' => 'Overzicht rapport sjabloon'
+  },
+  'Overview Report Template help' => {
+    'lastUpdated' => '1249032028',
+    'message' => 'Het sjabloon dat gebruikt wordt voor het rapport met het overzicht.'
+  },
+  'Question Edit Template' => {
+    'lastUpdated' => '1249032041',
+    'message' => 'Bewerk vraag sjabloon'
+  },
+  'Questions Template' => {
+    'lastUpdated' => '1249032065',
+    'message' => 'Vragen sjabloon'
+  },
   'Survey_id' => {
     'lastUpdated' => '1189373201',
     'message' => 'De ID van deze Enquete. Deze is niet identiek aan de objectId (assetId).'
@@ -517,6 +585,10 @@ our $I18N = {
     'lastUpdated' => '1227607729',
     'message' => 'Nummer antwoord:'
   },
+  'answer number description' => {
+    'lastUpdated' => '1249032156',
+    'message' => 'Het nummer van dit antwoord'
+  },
   'answer text' => {
     'lastUpdated' => '1227607740',
     'message' => 'Tekst antwoord:'
@@ -552,6 +624,10 @@ our $I18N = {
   'answer_value' => {
     'lastUpdated' => '1233264051',
     'message' => 'De waarde van dit antwoord. Niet beschikbaar voor meerkeuze vragen.'
+  },
+  'answers' => {
+    'lastUpdated' => '1249032353',
+    'message' => 'Een functie die alle antwoorden bij deze vraag ophaalt.'
   },
   'assetName' => {
     'lastUpdated' => '1248185622',
@@ -793,6 +869,10 @@ our $I18N = {
     'lastUpdated' => '1227607773',
     'message' => 'Is dit het juiste antwoord'
   },
+  'is this the correct answer description' => {
+    'lastUpdated' => '1249032387',
+    'message' => 'Selecteer of dit het goede antwoord is of niet.'
+  },
   'isCorrect' => {
     'lastUpdated' => '1248187160',
     'message' => 'Een functie die aangeeft of het antwoord correct is.'
@@ -808,6 +888,10 @@ our $I18N = {
   'max' => {
     'lastUpdated' => '1227604347',
     'message' => 'Maximaal'
+  },
+  'maxAnswers' => {
+    'lastUpdated' => '1249032458',
+    'message' => 'Het maximum aantal antwoorden die aan deze vraag toegekend kunnen worden.'
   },
   'maxResponsesPerUser' => {
     'lastUpdated' => '1248187917',
@@ -1077,6 +1161,10 @@ our $I18N = {
     'lastUpdated' => '1248185795',
     'message' => 'Vereist'
   },
+  'response complete' => {
+    'lastUpdated' => '1249032495',
+    'message' => 'Reactie compleet'
+  },
   'response template' => {
     'lastUpdated' => '1152523809',
     'message' => 'Antwoord sjabloon'
@@ -1137,6 +1225,10 @@ our $I18N = {
     'lastUpdated' => '1207906155',
     'message' => 'Een kring die een lijst met antwoorden bevat.'
   },
+  'restart message' => {
+    'lastUpdated' => '1249032620',
+    'message' => 'De enqu&ecirc;te wordt opnieuw gestart omdat de tijdslimiet is overscheden.'
+  },
   'rows' => {
     'lastUpdated' => '1227604250',
     'message' => 'Rijen:'
@@ -1145,9 +1237,25 @@ our $I18N = {
     'lastUpdated' => '1248185835',
     'message' => 'Het aantal rijen tekst dat ingevoerd kan worden (voor tekstgebied type vragen).'
   },
+  'run all tests' => {
+    'lastUpdated' => '1249032583',
+    'message' => 'Draai alle tests'
+  },
+  'run test' => {
+    'lastUpdated' => '1249032567',
+    'message' => 'Draai test'
+  },
+  'score label' => {
+    'lastUpdated' => '1249032574',
+    'message' => 'Score'
+  },
   'section branch goto variable name' => {
     'lastUpdated' => '1231193554',
     'message' => 'Naam variabele ga naar vertakking sectie'
+  },
+  'section branch goto variable name description' => {
+    'lastUpdated' => '1249032550',
+    'message' => 'De sectie of vraag met deze naam wordt als volgende getoond na deze sectie.'
   },
   'section custom variable name' => {
     'lastUpdated' => '1231193207',
@@ -1217,9 +1325,17 @@ our $I18N = {
     'lastUpdated' => '1152525279',
     'message' => 'Het standaard label dat antwoorden laat zien.'
   },
+  'showProgress' => {
+    'lastUpdated' => '1249032894',
+    'message' => 'Een functie die waar is als het asset zo ingesteld is dat de gebruiker de voortgang van de enqu&ecirc;te kan zien.'
+  },
   'showTimeLimit' => {
     'lastUpdated' => '1248968002',
     'message' => 'Een functie die aangeeft of het aantal minuten dat een gebruiker nog heeft voor de enqu&ecirc;te getoond moet worden.'
+  },
+  'sid' => {
+    'lastUpdated' => '1249032907',
+    'message' => 'De sectie ID van deze vraag'
   },
   'start.date.epoch' => {
     'lastUpdated' => '1152525327',
