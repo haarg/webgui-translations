@@ -537,9 +537,21 @@ our $I18N = {
     'lastUpdated' => '1249032041',
     'message' => 'Bewerk vraag sjabloon'
   },
+  'Question Edit Template help' => {
+    'lastUpdated' => '1249034098',
+    'message' => 'Het sjabloon voor het bewerken van een vraag in het Enqu&ecirc;te bewerk scherm.'
+  },
   'Questions Template' => {
     'lastUpdated' => '1249032065',
     'message' => 'Vragen sjabloon'
+  },
+  'Survey Edit Template' => {
+    'lastUpdated' => '1249033994',
+    'message' => '"Bewerk enqu&ecirc;te" sjabloon'
+  },
+  'Survey Edit Template help' => {
+    'lastUpdated' => '1249034040',
+    'message' => 'Het sjabloon waarmee het Bewerken scherm voor de enqu&ecirc;te wordt getoond.'
   },
   'Survey_id' => {
     'lastUpdated' => '1189373201',
@@ -589,9 +601,17 @@ our $I18N = {
     'lastUpdated' => '1249032156',
     'message' => 'Het nummer van dit antwoord'
   },
+  'answer score' => {
+    'lastUpdated' => '1249034235',
+    'message' => 'Score antwoord'
+  },
   'answer text' => {
     'lastUpdated' => '1227607740',
     'message' => 'Tekst antwoord:'
+  },
+  'answer text description' => {
+    'lastUpdated' => '1249037135',
+    'message' => 'Voer een tekst in voor dit antwoord. Voor meerkeuzevragen zal dit antwoord boven de knoppen getoond worden.'
   },
   'answer value' => {
     'lastUpdated' => '1227607750',
@@ -617,9 +637,25 @@ our $I18N = {
     'lastUpdated' => '1152285706',
     'message' => 'Het percentage van de reactie op de vraag die dit antwoord gaven.'
   },
+  'answer_comment' => {
+    'lastUpdated' => '1249037227',
+    'message' => 'Een commentaar. Deze sjabloon variabele (tmpl_var) is beschikbaar in de comment_loop functie voor meerkeuzevragen en direct binnen de answer_loop functie voor andere typen vragen.'
+  },
+  'answer_isCorrect' => {
+    'lastUpdated' => '1249034295',
+    'message' => 'Een functie die aangeeft of dit antwoord als correct is aangemerkt. Dit is alleen beschikbaar bij meerkeuze vragen.'
+  },
   'answer_loop' => {
     'lastUpdated' => '1152285737',
     'message' => 'Een kring met alle antwoorden en reacties bij deze vraag.'
+  },
+  'answer_response_count' => {
+    'lastUpdated' => '1249034341',
+    'message' => 'Het totale aantal reacties die op dit antwoord zijn gekomen. Alleen beschikbaar voor meerkeuzevragen.'
+  },
+  'answer_response_percent' => {
+    'lastUpdated' => '1249037277',
+    'message' => 'Het percentage reacties die dit antwoord hebben gekozen bij deze vraag. Alleen beschikbaar voor meerkeuzevragen.'
   },
   'answer_value' => {
     'lastUpdated' => '1233264051',
@@ -757,6 +793,10 @@ our $I18N = {
     'lastUpdated' => '1248185713',
     'message' => 'Bewerk test'
   },
+  'edit_survey_url' => {
+    'lastUpdated' => '1249037420',
+    'message' => 'Het URL voor het bewerken van de enqu&ecirc;te.'
+  },
   'end.date.epoch' => {
     'lastUpdated' => '1152519226',
     'message' => 'De epoch uitbeelding van de datum waarop de gebruiker deze reactie afmaakte.'
@@ -772,6 +812,10 @@ our $I18N = {
   'end.time.human' => {
     'lastUpdated' => '1152519333',
     'message' => 'De normaal leesbare versie van de tijd waarop de gebruiker deze reactie afmaakte. '
+  },
+  'exit url label' => {
+    'lastUpdated' => '1249037338',
+    'message' => 'URL uitgang'
   },
   'export.answers.label' => {
     'lastUpdated' => '1152519355',
@@ -809,6 +853,10 @@ our $I18N = {
     'lastUpdated' => '1248187883',
     'message' => 'Niet geslaagd'
   },
+  'fileLoader' => {
+    'lastUpdated' => '1249037389',
+    'message' => 'Een functie die aangeeft of deze vraag van het type fileLoader is.'
+  },
   'finish' => {
     'lastUpdated' => '1248187967',
     'message' => 'Beëindigen'
@@ -842,8 +890,8 @@ our $I18N = {
     'message' => 'DIt sjabloon wordt gebruikt om per gebruiker te laten zien hoeveel vragen ze goed beantwoord hebben en welk percentage goed beantwoord was.'
   },
   'gradebookTemplateId' => {
-    'lastUpdated' => '1189373264',
-    'message' => 'De ID van het template dat gebruikt wordt om de lijst met respondenten weer te geven.'
+    'lastUpdated' => '1249038236',
+    'message' => 'De ID van het sjabloon dat gebruikt wordt om het scherm met het scoreboek weer te geven.'
   },
   'groupToTakeSurvey' => {
     'lastUpdated' => '1189373279',
@@ -885,17 +933,45 @@ our $I18N = {
     'lastUpdated' => '1227604308',
     'message' => 'Ga naar:'
   },
+  'jump to description' => {
+    'lastUpdated' => '1249038278',
+    'message' => 'De sectie of vraag met deze naam wordt na dit antwoord getoond.'
+  },
+  'logical section' => {
+    'lastUpdated' => '1249038290',
+    'message' => 'Logische sectie'
+  },
+  'logical section help' => {
+    'lastUpdated' => '1249038354',
+    'message' => 'Een logische sectie, of de vragen ervan, worden niet getoond. Deze worden gebruikt om onzichtbaar gebruikers naar een volgende vraag of sectie te sturen.'
+  },
   'max' => {
     'lastUpdated' => '1227604347',
     'message' => 'Maximaal'
+  },
+  'max description' => {
+    'lastUpdated' => '1249037566',
+    'message' => 'De hoogste numerieke waarde die toegestaan is voor dit antwoord (voor Nummer en Selectieschuif vragen). Als er geen maximale waarde is, laat dit veld dan leeg.'
+  },
+  'max label' => {
+    'lastUpdated' => '1249037575',
+    'message' => 'Max.'
   },
   'maxAnswers' => {
     'lastUpdated' => '1249032458',
     'message' => 'Het maximum aantal antwoorden die aan deze vraag toegekend kunnen worden.'
   },
+  'maxMoreOne' => {
+    'lastUpdated' => '1249037626',
+    'message' => 'Een functie die aangeeft of het maximum aantal antwoorden dat op deze vraag gegeven kan worden groter is dan &eecu;&eecu;n.'
+  },
   'maxResponsesPerUser' => {
     'lastUpdated' => '1248187917',
     'message' => 'Het aantal keren dat een gebruiker mag proberen het juiste antwoord te geven op een vraag. 0 betekent onbeperkt. Standaard is dit een keer.'
+  },
+  'maxResponsesSubmitted' => {
+    'lastUpdated' => '1249037658',
+    'message' => 'Een functie die aangeeft of de gebruiker het maximum aantal reacties bereikt heeft.'
   },
   'maximum number of answers' => {
     'lastUpdated' => '1227629721',
@@ -904,6 +980,18 @@ our $I18N = {
   'min' => {
     'lastUpdated' => '1227604353',
     'message' => 'Minimaal'
+  },
+  'min description' => {
+    'lastUpdated' => '1249037726',
+    'message' => 'De laagste numerieke waarde die toegestaan is voor dit antwoord (voor Nummer en Selectieschuif vragen). Als er geen minimale waarde is, laat dit veld dan leeg.'
+  },
+  'min label' => {
+    'lastUpdated' => '1249037734',
+    'message' => 'Min.'
+  },
+  'minutesLeft' => {
+    'lastUpdated' => '1249037766',
+    'message' => 'Het aantal minutn dat de gebruiker over heeft om de enqu&ecirc;te af te maken.'
   },
   'mode' => {
     'lastUpdated' => '1189373372',
@@ -1057,6 +1145,10 @@ our $I18N = {
     'lastUpdated' => '1189373434',
     'message' => 'Deze variabele bepaalt de volgorde van de vragen in de Enquete. Dit kan zijn "opeenvolgend", "willekeurig", "antwoord afhankelijk" en "per sectie".'
   },
+  'question_count' => {
+    'lastUpdated' => '1249038382',
+    'message' => 'Het aantal vragen in de enqu&ecirc;te.'
+  },
   'question_loop' => {
     'lastUpdated' => '1152523156',
     'message' => 'Een kring die alle vragen voor deze reactie op de enqu&ecirc;te bevat.'
@@ -1100,6 +1192,14 @@ our $I18N = {
   'questions.total' => {
     'lastUpdated' => '1152523523',
     'message' => 'Het totaal aantal vragen in de enqu&ecirc;te.'
+  },
+  'questionsAnswered' => {
+    'lastUpdated' => '1249038399',
+    'message' => 'Het aantal beantwoorde vragen.'
+  },
+  'questionsOnSectionPage' => {
+    'lastUpdated' => '1249038441',
+    'message' => 'Een functie die aangeeft of vrage om de eerste pagina van de sectie worden weergegeven of op de pagina erna.'
   },
   'questionsPerPage' => {
     'lastUpdated' => '1208527498',
@@ -1156,6 +1256,10 @@ our $I18N = {
   'required' => {
     'lastUpdated' => '1227604360',
     'message' => 'Vereist'
+  },
+  'required description' => {
+    'lastUpdated' => '1249038455',
+    'message' => 'Is deze vraag vereist?'
   },
   'required label' => {
     'lastUpdated' => '1248185795',
@@ -1337,6 +1441,10 @@ our $I18N = {
     'lastUpdated' => '1249032907',
     'message' => 'De sectie ID van deze vraag'
   },
+  'slider' => {
+    'lastUpdated' => '1249037797',
+    'message' => 'Een functie die aangeeft of dit een selectieschuif type vraag is.'
+  },
   'start.date.epoch' => {
     'lastUpdated' => '1152525327',
     'message' => 'De epoch versie van het tijddstip waarop de gebruiker begonnen is met het beantwoorden van de enqu&ecirc;te.'
@@ -1373,6 +1481,14 @@ our $I18N = {
     'lastUpdated' => '1189373565',
     'message' => 'De variabelen beschikbaar in het Enquete object.'
   },
+  'survey template' => {
+    'lastUpdated' => '1249037992',
+    'message' => 'Enqu&ecirc;te sjabloon'
+  },
+  'survey visualization' => {
+    'lastUpdated' => '1249038137',
+    'message' => 'Enqu&ecirc;te visualisatie'
+  },
   'survey.label' => {
     'lastUpdated' => '1152525677',
     'message' => 'Het standaard label voor survey.url.'
@@ -1389,6 +1505,10 @@ our $I18N = {
     'lastUpdated' => '1231192737',
     'message' => 'Deelnemen aan enqu&ecirc;te'
   },
+  'take_survey_url' => {
+    'lastUpdated' => '1249038019',
+    'message' => 'De URL om deel te nemen aan de enqu&ecirc;te.'
+  },
   'templateId' => {
     'lastUpdated' => '1248187195',
     'message' => 'De ID van het template dat gebruikt wordt om de Enquête weer te geven.'
@@ -1402,12 +1522,20 @@ our $I18N = {
     'message' => 'Sectie voor be&euml;indigen:'
   },
   'terminal section url' => {
-    'lastUpdated' => '1231193895',
-    'message' => 'URL voor be&euml;indigen enqu&ecirc;te'
+    'lastUpdated' => '1249038052',
+    'message' => 'URL voor be&euml;indigen sectie enqu&ecirc;te'
+  },
+  'terminalUrl' => {
+    'lastUpdated' => '1249038112',
+    'message' => 'De URL waar de enqu&ecirc;te de gebruiker naartoe stuurd als dit de laatste sectie is.'
   },
   'test name' => {
     'lastUpdated' => '1248967908',
     'message' => 'Naam test'
+  },
+  'test name help' => {
+    'lastUpdated' => '1249037813',
+    'message' => 'Een beschrijvende naam voor deze test.'
   },
   'test result' => {
     'lastUpdated' => '1248967745',
@@ -1461,6 +1589,14 @@ our $I18N = {
     'lastUpdated' => '1248967730',
     'message' => 'Moet de tekst van deze sectie op alle pagina\'s van deze sectie getoond worden?'
   },
+  'textCols' => {
+    'lastUpdated' => '1249037884',
+    'message' => 'Het aantal kolommen voor tekstvak vragen.'
+  },
+  'textCols label' => {
+    'lastUpdated' => '1249037894',
+    'message' => 'Kolommen tekstvak'
+  },
   'textInButton' => {
     'lastUpdated' => '1248967843',
     'message' => 'Een functie die aangeeft of antwoorden voor meerkeuzevragen in de knop of erboven getoond moeten worden.'
@@ -1468,6 +1604,10 @@ our $I18N = {
   'textRows' => {
     'lastUpdated' => '1248967673',
     'message' => 'Het aantal rijen voor vragen met een tekst als antwoord.'
+  },
+  'textRows label' => {
+    'lastUpdated' => '1249037839',
+    'message' => 'Rijen tekstvak'
   },
   'textType' => {
     'lastUpdated' => '1248967701',
@@ -1588,6 +1728,18 @@ our $I18N = {
   'view transposed results' => {
     'lastUpdated' => '1231193169',
     'message' => 'Bekijk getransformeerde resultaten'
+  },
+  'view_grade_book_url' => {
+    'lastUpdated' => '1249038168',
+    'message' => 'De URL voor het scoreboek rapport scherm.'
+  },
+  'view_statistical_overview_url' => {
+    'lastUpdated' => '1249037964',
+    'message' => 'De URL voor het scherm met het statistische overzicht.'
+  },
+  'visualization success' => {
+    'lastUpdated' => '1249037927',
+    'message' => 'Visualisatie met succes gegenereerd op'
   },
   'visualize' => {
     'lastUpdated' => '1248187303',
