@@ -81,6 +81,10 @@ our $I18N = {
     'lastUpdated' => '1247045617',
     'message' => 'Een functie die waar is als de gebruiker momenteel vrienden heeft.'
   },
+  'manageUrl' => {
+    'lastUpdated' => '1249024613',
+    'message' => 'Het URL waar vrienden beheerd worden.'
+  },
   'new userId' => {
     'lastUpdated' => '1248779948',
     'message' => 'De unieke identificatie van een gebruiker'
