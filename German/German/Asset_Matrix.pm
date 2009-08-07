@@ -241,6 +241,18 @@ our $I18N = {
     'lastUpdated' => '1244363153',
     'message' => 'Vergleichen'
   },
+  'compare color costs extra description' => {
+    'lastUpdated' => '1249632721',
+    'message' => 'Selektieren Sie die Farbe für "Kostet extra" in der Vergleichsmatrix'
+  },
+  'compare color costs extra label' => {
+    'lastUpdated' => '1249632800',
+    'message' => 'Vergleichsfarbe. Kostet extra'
+  },
+  'compare color free add on description' => {
+    'lastUpdated' => '1249632768',
+    'message' => 'Selektieren Sie die Farbe für "Kostenlose Erweiterung" in der Vergleichsmatrix'
+  },
   'compare template' => {
     'lastUpdated' => '1222246986',
     'message' => 'Vorlage Vergleich'
@@ -278,8 +290,8 @@ our $I18N = {
     'message' => 'Sowohl das Vergleichsformular als auch die Matrix-Vergleichsliste werden dynamisch mit yui-Datentabellen generiert. Siehe auch <a href="http://developer.yahoo.com/yui/examples/datatable/dt_skinning.html" target="new">yui docs</a> für die weitere Gestaltung der yui-Tabellen.'
   },
   'comparison template help title' => {
-    'lastUpdated' => '1248721044',
-    'message' => ''
+    'lastUpdated' => '1249633395',
+    'message' => 'Variablen Matrixvergleich Vorlage'
   },
   'count' => {
     'lastUpdated' => '1221333990',
@@ -317,13 +329,18 @@ our $I18N = {
     'lastUpdated' => '1222248905',
     'message' => 'Standardwert für das Feld, falls der Benutzer es nicht ausfüllt.'
   },
+  'delete attribute confirm message' => {
+    'lastUpdated' => '1249633046',
+    'message' => 'Sind Sie sicher, das Sie dieses Attribut und alle damit verbundenen Daten löschen möchten?'
+  },
   'delete field confirm' => {
     'lastUpdated' => '1223568082',
     'message' => 'Möchten Sie dieses Feld und den abhängigen Daten wirklich l&ouml;schen?'
   },
   'delete listing confirmation' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => '1249632986',
+    'message' => 'Sind Sie wirklich sicher, dass Sie diese Liste löschen möchten?
+Alle Daten gehen verloren und Sie können das nicht rückgängig machen!!<br><br><span></span><a href="http://i18n.webgui.org/%s">Nein, ich habe einen Fehler gemacht.</a><br><br><span></span><a href="http://i18n.webgui.org/%s">Ja!</a><br><br>'
   },
   'delete.url' => {
     'lastUpdated' => '1224970703',
@@ -412,6 +429,14 @@ our $I18N = {
   'expand the matrix label' => {
     'lastUpdated' => '1247903370',
     'message' => 'Matrix erweitern'
+  },
+  'export attributes label' => {
+    'lastUpdated' => '1249633068',
+    'message' => 'Export Attribute'
+  },
+  'exportAttributes_url' => {
+    'lastUpdated' => '1249633438',
+    'message' => 'Die URL zum Export der Listenattribute zu dieser Matrix.'
   },
   'extra' => {
     'lastUpdated' => '1222249020',
@@ -678,8 +703,8 @@ our $I18N = {
     'message' => ''
   },
   'matrix template help title' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => '1249633159',
+    'message' => 'Variablen Matrix Hauptvorlage'
   },
   'max comparisons' => {
     'lastUpdated' => '1221289007',
@@ -698,12 +723,16 @@ our $I18N = {
     'message' => ''
   },
   'max comparisons privileged description' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => '1249633346',
+    'message' => 'Legt die Anzahl der Vergleichsobjekte für Suche und Vergleich fest, die ein registrierter Benutzer verwenden kann.'
   },
   'max comparisons privileged label' => {
     'lastUpdated' => '1248720520',
     'message' => 'Max. Anzahl zu vergleichen (Registrierte Benutzer)'
+  },
+  'max screenshot height label' => {
+    'lastUpdated' => '1249633089',
+    'message' => 'Maximum Höhe Screenshot'
   },
   'max screenshot width label' => {
     'lastUpdated' => '1247904372',
@@ -918,8 +947,8 @@ our $I18N = {
     'message' => 'Selektieren Sie eine Vorlage für den "Suchen"-Bildschirm.'
   },
   'search template help title' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => '1249633119',
+    'message' => 'Variablen Matrix Suchvorlage'
   },
   'search template label' => {
     'lastUpdated' => '1245448652',
