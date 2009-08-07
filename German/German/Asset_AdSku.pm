@@ -96,6 +96,26 @@ our $I18N = {
   'form purchase per impression' => {
     'lastUpdated' => '1246915411',
     'message' => 'für %f pro Einblendung'
+  },
+  'property ad Space help' => {
+    'lastUpdated' => '1249632475',
+    'message' => 'Selektieren Sie den Anzeigenplatz, der über diesen Artikel verkauft werden soll.'
+  },
+  'property ad space' => {
+    'lastUpdated' => '1249632410',
+    'message' => 'Anzeige'
+  },
+  'property adsku karma' => {
+    'lastUpdated' => '1249632484',
+    'message' => 'Karma'
+  },
+  'property adsku karma description' => {
+    'lastUpdated' => '1249632538',
+    'message' => 'Wieviel Karma ist hiermit verbunden?'
+  },
+  'property click discounts' => {
+    'lastUpdated' => '1249632620',
+    'message' => 'Klick-Rabatte'
   }
 }
 ;
