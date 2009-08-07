@@ -22,8 +22,8 @@ our $I18N = {
     'message' => 'Matrixliste'
   },
   'best label' => {
-    'lastUpdated' => '1247508623',
-    'message' => ''
+    'lastUpdated' => '1249633504',
+    'message' => 'Am Besten'
   },
   'categoryLabel' => {
     'lastUpdated' => '1246484153',
@@ -73,6 +73,10 @@ our $I18N = {
     'lastUpdated' => '1247904600',
     'message' => 'Die Url zum Bearbeitungsbildschirm dieser Liste.'
   },
+  'emailForm' => {
+    'lastUpdated' => '1249633550',
+    'message' => 'Ein Formular für Emails an den Listenverwalter.'
+  },
   'fieldType' => {
     'lastUpdated' => '1247904455',
     'message' => 'Type dieses Attributs'
@@ -80,6 +84,10 @@ our $I18N = {
   'form' => {
     'lastUpdated' => '1244495883',
     'message' => 'Das komplette Bearbeitungsformular'
+  },
+  'general comment label' => {
+    'lastUpdated' => '1249634188',
+    'message' => 'Allgemeine Beschreibung'
   },
   'isPending' => {
     'lastUpdated' => '1247904205',
@@ -101,6 +109,10 @@ our $I18N = {
     'lastUpdated' => '1247904140',
     'message' => 'Das Epoch-Datum (Unixtime) der letzen Aktualisierung dieser Liste.'
   },
+  'maintainer description' => {
+    'lastUpdated' => '1249634297',
+    'message' => 'Wenn leer, wird hier der Name des Verwalters eingetragen. Der Listenverwalter kann diese Liste ändern, auch wenn er nicht zu der Gruppe zum hinzufügen/ändern der Listen gehört.'
+  },
   'maintainer label' => {
     'lastUpdated' => '1246484306',
     'message' => 'Verwalter'
@@ -108,6 +120,18 @@ our $I18N = {
   'manufacturer label' => {
     'lastUpdated' => '1246484318',
     'message' => 'Hersteller'
+  },
+  'manufacturerURL label' => {
+    'lastUpdated' => '1249634109',
+    'message' => 'URL Hersteller'
+  },
+  'manufacturerUrl' => {
+    'lastUpdated' => '1249634129',
+    'message' => 'Die URL des Herstellers'
+  },
+  'manufacturerUrl_click' => {
+    'lastUpdated' => '1249634168',
+    'message' => 'Die URL des Hersteller, wenn Sie die Anzahl der Klicks zu dieser Liste registrieren möchten.'
   },
   'mean label' => {
     'lastUpdated' => '1244495929',
@@ -117,6 +141,14 @@ our $I18N = {
     'lastUpdated' => '1244496210',
     'message' => 'Median'
   },
+  'message sent message' => {
+    'lastUpdated' => '1249633573',
+    'message' => 'Nachricht abgeschickt.'
+  },
+  'product name description' => {
+    'lastUpdated' => '1249634083',
+    'message' => 'Geben Sie den Namen des Produkts ein. Wenn es verschiedene Versionen geben sollte, verwenden Sie am Besten gleiche Bezeichnungen'
+  },
   'product name label' => {
     'lastUpdated' => '1246484332',
     'message' => 'Produkt/Item'
@@ -125,13 +157,49 @@ our $I18N = {
     'lastUpdated' => '1244496193',
     'message' => 'Name dieser Liste. Dieser entspricht dem Titel der Liste'
   },
+  'productURL description' => {
+    'lastUpdated' => '1249633907',
+    'message' => 'Wenn der Listeneintrag eine eigene Website hat, tragen Sie die komplette URL dazu ein.'
+  },
+  'productURL label' => {
+    'lastUpdated' => '1249633701',
+    'message' => 'URL zum Eintrag'
+  },
+  'productUrl' => {
+    'lastUpdated' => '1249633763',
+    'message' => 'URL des Herstellers zu diesem Listeneintrag'
+  },
+  'productUrl_click' => {
+    'lastUpdated' => '1249633849',
+    'message' => 'URL zum Produkt, wenn Sie die Anzahl der Clicks für diese Liste registrieren möchten.'
+  },
+  'rate submit label' => {
+    'lastUpdated' => '1249633777',
+    'message' => 'Bewerten'
+  },
   'ratings' => {
     'lastUpdated' => '1246484453',
     'message' => 'Übersicht der Bewertungen zu dieser Liste mit einem Formular zur Bewertung, falls ein Besucher das Item noch nicht bewertet hat.'
   },
+  'report error label' => {
+    'lastUpdated' => '1249633602',
+    'message' => 'Fehler melden'
+  },
+  'request type label' => {
+    'lastUpdated' => '1249633627',
+    'message' => 'Art der Anfrage'
+  },
+  'respectable label' => {
+    'lastUpdated' => '1249633657',
+    'message' => 'Respektabel'
+  },
   'screenshots' => {
     'lastUpdated' => '1244496114',
     'message' => 'Screenshot zu dieser Liste'
+  },
+  'screenshots description' => {
+    'lastUpdated' => '1249634000',
+    'message' => 'Laden Sie ein Bild oder ein Screenshot zum Produkt hoch.'
   },
   'screenshots label' => {
     'lastUpdated' => '1247904482',
@@ -144,6 +212,10 @@ our $I18N = {
   'show ratings' => {
     'lastUpdated' => '1246484472',
     'message' => 'Bewertungen anzeigen'
+  },
+  'template description' => {
+    'lastUpdated' => '1249633951',
+    'message' => 'Selektieren Sie eine Vorlage für die Standardansicht der Matrix.'
   },
   'template label' => {
     'lastUpdated' => '1246484494',
