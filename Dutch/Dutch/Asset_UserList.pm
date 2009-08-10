@@ -42,8 +42,8 @@ our $I18N = {
     'message' => 'Nieuw/Bewerk Gebruikerslijst'
   },
   'UserList Template' => {
-    'lastUpdated' => '1189457170',
-    'message' => 'template Gebruikerslijst'
+    'lastUpdated' => '1249909773',
+    'message' => 'Sjabloon gebruikerslijst'
   },
   'Users per page description' => {
     'lastUpdated' => '1213627060',
@@ -322,8 +322,8 @@ our $I18N = {
     'message' => 'Een functie die waar is als het e-mail adres van de gebruiker niet publiek toegankelijk is.'
   },
   'user_profile_loop' => {
-    'lastUpdated' => '1215182373',
-    'message' => 'Een functie die alle profielveldn van gebruikers door loopt.'
+    'lastUpdated' => '1249909746',
+    'message' => 'Een functie die alle profielvelden van gebruikers door loopt.'
   },
   'username label' => {
     'lastUpdated' => '1213627453',
