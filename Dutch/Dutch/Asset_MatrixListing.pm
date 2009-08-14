@@ -17,6 +17,10 @@ our $I18N = {
     'lastUpdated' => '1231709708',
     'message' => 'Bewerk deze lijst.'
   },
+  'Send Creator a Message' => {
+    'lastUpdated' => '1250240848',
+    'message' => 'Stuur een bericht aan de maker'
+  },
   'approveOrDenyUrl' => {
     'lastUpdated' => '1242728784',
     'message' => 'De URL naar het goedkeuren/afkeuren scherm van de lijst'

@@ -265,6 +265,10 @@ our $I18N = {
     'lastUpdated' => '1153235058',
     'message' => 'Een afbeelding van dit product '
   },
+  'Controls' => {
+    'lastUpdated' => '1250240869',
+    'message' => 'Beheerfuncties'
+  },
   'accessory_controls' => {
     'lastUpdated' => '1213711742',
     'message' => 'De WebGUI beheer functies voor deze accessoire.'

@@ -1,6 +1,10 @@
 package WebGUI::i18n::Dutch::Asset_Story;
 use utf8;
 our $I18N = {
+  'Replace image with new image' => {
+    'lastUpdated' => '1250240925',
+    'message' => 'Vervang de afbeelding met een nieuwe'
+  },
   'Source' => {
     'lastUpdated' => '1246970889',
     'message' => 'Bron'
@@ -64,6 +68,10 @@ our $I18N = {
   'formTitle' => {
     'lastUpdated' => '1248178639',
     'message' => 'De internationaliseerde titel van dit formulier'
+  },
+  'hasPhoto' => {
+    'lastUpdated' => '1250240953',
+    'message' => 'Deze sjabloon variabele is waar als photo_loop een foto bevat.'
   },
   'hasPhotos' => {
     'lastUpdated' => '1248178674',
@@ -149,6 +157,14 @@ our $I18N = {
     'lastUpdated' => '1248968550',
     'message' => 'Een veld voor het verwijderen van de afbeelding en alle bijbehorende data. Dit veld is niet aanwezig in de set variabelen die hoort bij het toevoegen van afbeeldingen.'
   },
+  'imgFilename' => {
+    'lastUpdated' => '1250240976',
+    'message' => 'De URL van de afbeelding als deze foto een afbeelding heeft.'
+  },
+  'imgThumb' => {
+    'lastUpdated' => '1250241056',
+    'message' => 'De URL van de miniatuurafbeelding als de foto een afbeelding heeft.'
+  },
   'imgTitleForm' => {
     'lastUpdated' => '1248968335',
     'message' => 'Een formulierveld voor de titel van de afbeelding, voor het TITLE veld in de IMG HTML code.'
@@ -156,6 +172,10 @@ our $I18N = {
   'imgUploadForm' => {
     'lastUpdated' => '1248968273',
     'message' => 'Een formulierveld om een afbeelding toe te voegen.'
+  },
+  'imgUrl' => {
+    'lastUpdated' => '1250241031',
+    'message' => 'De URL van de afbeelding als die er is.'
   },
   'imgUrlForm' => {
     'lastUpdated' => '1248968254',
@@ -193,6 +213,10 @@ our $I18N = {
     'lastUpdated' => '1248179307',
     'message' => 'Een formulier waar de gebruiker een locatie van het verhaal kan opgeven.'
   },
+  'newUploadForm' => {
+    'lastUpdated' => '1250241006',
+    'message' => 'Een formulierveld om een foto toe te voegen'
+  },
   'photo alt' => {
     'lastUpdated' => '1248178713',
     'message' => 'Alternatieve tekst foto'
@@ -206,8 +230,8 @@ our $I18N = {
     'message' => 'Onderschift foto'
   },
   'photo delete' => {
-    'lastUpdated' => '1248178354',
-    'message' => 'Verwijder foto'
+    'lastUpdated' => '1250240987',
+    'message' => 'Verwijder foto en metadata'
   },
   'photo title' => {
     'lastUpdated' => '1248178338',

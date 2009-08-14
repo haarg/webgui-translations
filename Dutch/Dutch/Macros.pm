@@ -22,7 +22,7 @@ our $I18N = {
     'message' => 'Snelkoppeling naar het macro'
   },
   'macros list body' => {
-    'lastUpdated' => '1249904862',
+    'lastUpdated' => '1250242834',
     'message' => '<p>Het instellen van een macro om het op een site te gebruiken bestaat uit twee delen.</p><ol>
 <li>Het macro moet in een macro map in de WebGUI broncode of in een aparte map staan die eindigt met: lib/WebGUI/Macro/ (Bijvoorbeeld /data/custom/lib/WebGUI/Macro). Indien zo\'n aparte map wordt gebruikt, zorg dat er een bestand /data/WebGUI/sbin/preload.custom is waar aangegeven wordt dat deze map meegenomen moet worden. Met het gegeven voorbeeld zou er in dit bestand dus een regel /data/custom/lib moeten staan.</li>
 <li>Het macro moet aan staan in het WebGUI.conf bestand, in de macro sectie. In de sectie kan een snelkoppeling toegewezen worden met een andere naam dan die van het macro.</li>

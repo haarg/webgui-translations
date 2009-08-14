@@ -1,6 +1,34 @@
 package WebGUI::i18n::Dutch::Account_Shop;
 use utf8;
 our $I18N = {
+  'Not yet scheduled' => {
+    'lastUpdated' => '1250240662',
+    'message' => 'Nog niet ingeroosterd'
+  },
+  'Paid' => {
+    'lastUpdated' => '1250240603',
+    'message' => 'Betaald'
+  },
+  'Payout' => {
+    'lastUpdated' => '1250240611',
+    'message' => 'Uitbetaling'
+  },
+  'Payout Totals' => {
+    'lastUpdated' => '1250240622',
+    'message' => 'Totaal uitbetalingen'
+  },
+  'Product' => {
+    'lastUpdated' => '1250240628',
+    'message' => 'Product'
+  },
+  'Products' => {
+    'lastUpdated' => '1250240635',
+    'message' => 'Producten'
+  },
+  'Scheduled for payment' => {
+    'lastUpdated' => '1250240652',
+    'message' => 'Ingeroosterd voor betaling'
+  },
   'common account variables' => {
     'lastUpdated' => '1231700606',
     'message' => 'Gewone account, winkel functie, sjabloon variabelen.'

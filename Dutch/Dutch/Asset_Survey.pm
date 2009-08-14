@@ -493,6 +493,14 @@ our $I18N = {
     'lastUpdated' => '1249031823',
     'message' => 'Het sjabloon waarmee het resultatenrapport getoond wordt.'
   },
+  'Gradebook Report Template' => {
+    'lastUpdated' => '1250241252',
+    'message' => 'Scorebook rapport sjabloon'
+  },
+  'Gradebook Report Template help' => {
+    'lastUpdated' => '1250241275',
+    'message' => 'Het sjabloon voor het rapport van het scoreboek.'
+  },
   'Gradebook Template' => {
     'lastUpdated' => '1249031662',
     'message' => 'Resultaten sjabloon'
@@ -912,6 +920,10 @@ our $I18N = {
   'edit_survey_url' => {
     'lastUpdated' => '1249037420',
     'message' => 'Het URL voor het bewerken van de enqu&ecirc;te.'
+  },
+  'end date' => {
+    'lastUpdated' => '1250241284',
+    'message' => 'Einddatum'
   },
   'end.date.epoch' => {
     'lastUpdated' => '1152519226',
@@ -1353,7 +1365,7 @@ our $I18N = {
     'message' => 'Vragen op de pagina van de sectie:'
   },
   'questions on section page description' => {
-    'lastUpdated' => '1249040322',
+    'lastUpdated' => '1250241296',
     'message' => 'Worden vragen op de eerste pagina van een sectie getoond of op de volgende pagina?'
   },
   'questions per page' => {
@@ -1445,7 +1457,7 @@ our $I18N = {
     'message' => 'Bepaalt wat opgeslagen wordt als reactie als dit antwoord is geswelecteerd. Zo kunnen de resultaten bewerkt worden. "Ja" zou bijvoorbeeld als 1 opgeslagen kunnen worden en "Nee " als 0. Dit is alleen van belang voor meerkeuzevragen aangezien in andere gevallen het antwoord door de gebruiker ingevoerd wordt.'
   },
   'recordedAnswer' => {
-    'lastUpdated' => '1249041302',
+    'lastUpdated' => '1250241316',
     'message' => 'Bepaalt wat opgeslagen wordt als reactie als dit antwoord is geswelecteerd. Zo kunnen de resultaten bewerkt worden. "Ja" zou bijvoorbeeld als 1 opgeslagen kunnen worden en "Nee " als 0. Dit is alleen van belang voor meerkeuzevragen aangezien in andere gevallen het antwoord door de gebruiker ingevoerd wordt.'
   },
   'report answer.label' => {
@@ -1584,6 +1596,10 @@ our $I18N = {
     'lastUpdated' => '1152525158',
     'message' => 'De gebruikersnaam van degene die dit antwoord heeft gegeven.'
   },
+  'responseId help' => {
+    'lastUpdated' => '1250241374',
+    'message' => 'De unieke GUID voor de reactie'
+  },
   'responseTemplateId' => {
     'lastUpdated' => '1189373475',
     'message' => 'De ID van het template dat gebruikt wordt om het antwoordscherm van de Enquete weer te geven.'
@@ -1592,6 +1608,22 @@ our $I18N = {
     'lastUpdated' => '1249041512',
     'message' => 'Het aantal vragen dat goed is beantwoord door de gebruiker.'
   },
+  'response_endDate' => {
+    'lastUpdated' => '1250241351',
+    'message' => 'De einddatum van de reactie'
+  },
+  'response_feedback_url' => {
+    'lastUpdated' => '1250241400',
+    'message' => 'De URL van de specifieke reactie pagina.'
+  },
+  'response_id' => {
+    'lastUpdated' => '1250241474',
+    'message' => 'De unieke ID van de reactie.'
+  },
+  'response_ip' => {
+    'lastUpdated' => '1250241495',
+    'message' => 'Het IP adres van de gebruiker die de reactie voltooid heeft.'
+  },
   'response_loop' => {
     'lastUpdated' => '1207906155',
     'message' => 'Een kring die een lijst met antwoorden bevat.'
@@ -1599,6 +1631,14 @@ our $I18N = {
   'response_percent' => {
     'lastUpdated' => '1249040548',
     'message' => 'Het percentage correct beantwoorde vragen.'
+  },
+  'response_startDate' => {
+    'lastUpdated' => '1250241518',
+    'message' => 'De begindatum van de reactie.'
+  },
+  'response_userId' => {
+    'lastUpdated' => '1250241549',
+    'message' => 'De gebruikers ID van de gebruiker die de reactie voltooid heeft.'
   },
   'response_user_name' => {
     'lastUpdated' => '1249041383',
@@ -1729,8 +1769,8 @@ our $I18N = {
     'message' => 'Het standaard label dat antwoorden laat zien.'
   },
   'showProgress' => {
-    'lastUpdated' => '1249032894',
-    'message' => 'Een functie die waar is als het asset zo ingesteld is dat de gebruiker de voortgang van de enqu&ecirc;te kan zien.'
+    'lastUpdated' => '1250241448',
+    'message' => 'Een functie die waar is, als het asset zo ingesteld is, dat de gebruiker de voortgang van de enqu&ecirc;te kan zien.'
   },
   'showTimeLimit' => {
     'lastUpdated' => '1248968002',
@@ -1743,6 +1783,10 @@ our $I18N = {
   'slider' => {
     'lastUpdated' => '1249037797',
     'message' => 'Een functie die aangeeft of dit een selectieschuif type vraag is.'
+  },
+  'start date' => {
+    'lastUpdated' => '1250241412',
+    'message' => 'Begindatum'
   },
   'start.date.epoch' => {
     'lastUpdated' => '1152525327',

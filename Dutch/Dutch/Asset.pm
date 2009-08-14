@@ -70,8 +70,8 @@ our $I18N = {
     'message' => 'Een korte omschrijving van de asset.'
   },
   43 => {
-    'lastUpdated' => '1152860362',
-    'message' => 'Weet u zeker dat u de gehele content wilt verwijderen?'
+    'lastUpdated' => '1250240725',
+    'message' => 'Weet u zeker dat u de gehele inhoud en alles wat hieronder zit wilt verwijderen? Deze verandering wordt niet in een versie tag gezet en zal direct uitgevoerd worden.'
   },
   486 => {
     'lastUpdated' => '1146580011',

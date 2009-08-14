@@ -81,6 +81,14 @@ our $I18N = {
     'lastUpdated' => '1247045617',
     'message' => 'Een functie die waar is als de gebruiker momenteel vrienden heeft.'
   },
+  'layout template hoverHelp' => {
+    'lastUpdated' => '1250242958',
+    'message' => 'Kies een sjabloon waarin de inhoud van de verschillende functies van de Vrienden Manager worden afgebeeld'
+  },
+  'layout template label' => {
+    'lastUpdated' => '1250242997',
+    'message' => 'Layout Sjabloon'
+  },
   'manageUrl' => {
     'lastUpdated' => '1249024613',
     'message' => 'Het URL waar vrienden beheerd worden.'
@@ -120,6 +128,14 @@ our $I18N = {
   'setting groupIdAdminFriends label' => {
     'lastUpdated' => '1248780326',
     'message' => 'Vrienden Beheerder groepidentificatie'
+  },
+  'style template hoverHelp' => {
+    'lastUpdated' => '1250243141',
+    'message' => 'Selecteer een stijl sjabloon uit de lijst om de Vrienden Manager in te tonen.'
+  },
+  'style template label' => {
+    'lastUpdated' => '1250243157',
+    'message' => 'Stijl Sjabloon'
   },
   'submit' => {
     'lastUpdated' => '1247044700',

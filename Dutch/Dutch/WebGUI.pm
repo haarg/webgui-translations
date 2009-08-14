@@ -2011,6 +2011,10 @@ De verstrekte informatie is niet gelijk aan de accountinformatie. '
     'lastUpdated' => '1248165648',
     'message' => 'Opschonen'
   },
+  'Comments' => {
+    'lastUpdated' => '1250242868',
+    'message' => 'Commentaar'
+  },
   'Contact Us' => {
     'lastUpdated' => '1222936831',
     'message' => 'Neem contact op'

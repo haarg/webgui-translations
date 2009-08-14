@@ -5,6 +5,30 @@ our $I18N = {
     'lastUpdated' => '1170689114',
     'message' => 'Er wordt een lus aangemaakt voor elke categorie binnen het matrix. De naam van de lus is hetzelfde als de naam van de categorie waarbij de spaties zijn vervangen door koppeltekens en een _loop is toegevoegd aan het eind. Wanneer er een categorie toegevoegd is met de naam "Toeters en bellen" dan wordt de naam van de lus "toeters_en_bellen_loop".'
   },
+  'Return to Matrix' => {
+    'lastUpdated' => '1250240741',
+    'message' => 'Terug naar de Matrix'
+  },
+  'Sort by clicks' => {
+    'lastUpdated' => '1250240750',
+    'message' => 'Sorteer op aantal klikken'
+  },
+  'Sort by compares' => {
+    'lastUpdated' => '1250240761',
+    'message' => 'Sorteer op aantal vergelijkingen'
+  },
+  'Sort by name' => {
+    'lastUpdated' => '1250240768',
+    'message' => 'Sorteer op naam'
+  },
+  'Sort by updated' => {
+    'lastUpdated' => '1250240779',
+    'message' => 'Sorteer op laatst bijgewerkt'
+  },
+  'Sort by views' => {
+    'lastUpdated' => '1250240790',
+    'message' => 'Sorteer op aantal keer bekeken'
+  },
   'add attribute label' => {
     'lastUpdated' => '1230576231',
     'message' => 'Eigenschap toevoegen'
@@ -1224,8 +1248,8 @@ Voor de selectielijst mag er maar &#233;&#233;n waarde worden ingevuld. De gebru
     'message' => 'De URL van de lijst met de slechtste waardering van deze categorie.'
   },
   'too few message' => {
-    'lastUpdated' => '1242728410',
-    'message' => 'U heeft geprobeerd om maar 1 lijst te vergelijken. Als u de lijst wilt bekijken, klik dan op de naam van de lijst.'
+    'lastUpdated' => '1250240831',
+    'message' => 'Voor een vergelijking zijn minimaal twee objecten nodig. Als u de lijst wilt bekijken, klik dan op de naam van de lijst.'
   },
   'too many message' => {
     'lastUpdated' => '1242728448',

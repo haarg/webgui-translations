@@ -38,7 +38,7 @@ our $I18N = {
     'message' => 'De titel van dit asset'
   },
   'asset url' => {
-    'lastUpdated' => '1248971896',
+    'lastUpdated' => '1250241230',
     'message' => 'De url van dit asset.'
   },
   'assetName' => {
