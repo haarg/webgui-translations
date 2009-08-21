@@ -182,8 +182,8 @@ our $I18N = {
     'message' => 'Kategorien'
   },
   'categories subtext' => {
-    'lastUpdated' => '1221332990',
-    'message' => 'Geben Sie eine Kategorie pro Zeile ein. Achten darauf keine Leerzeichen am Anfang und Ende zu verwenden.'
+    'lastUpdated' => '1250016738',
+    'message' => 'Geben Sie eine Kategorie pro Zeile ein. Achten Sie darauf keine Leerzeichen am Anfang und am Ende zu verwenden.'
   },
   'category' => {
     'lastUpdated' => '1221333000',
