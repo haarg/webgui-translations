@@ -149,6 +149,14 @@ our $I18N = {
     'lastUpdated' => '1242720236',
     'message' => 'Kies een sjabloon dat u wilt gebruiken voor postvak in kennisgevingsberichten'
   },
+  'inbox notifications subject' => {
+    'lastUpdated' => '1250840411',
+    'message' => 'Postvak in e-mail onderwerp notificatie'
+  },
+  'inbox notifications subject help' => {
+    'lastUpdated' => '1250840443',
+    'message' => 'Het onderwerp van de e-mail, die de gebruiker inlicht over postvak in notificaties.'
+  },
   'inbox rich editor description' => {
     'lastUpdated' => '1233263831',
     'message' => 'De rich editor voor het opstellen van berichten.'
@@ -164,6 +172,18 @@ our $I18N = {
   'inbox send message template label' => {
     'lastUpdated' => '1233263969',
     'message' => 'Sjabloon bericht verzenden'
+  },
+  'inbox sms notification' => {
+    'lastUpdated' => '1250840467',
+    'message' => 'U heeft een nieuw bericht in uw postvak in.'
+  },
+  'inbox sms notification template' => {
+    'lastUpdated' => '1250840488',
+    'message' => 'Postvak in SMS notificatie sjabloon'
+  },
+  'inbox sms notification template help' => {
+    'lastUpdated' => '1250840522',
+    'message' => 'Kies een sjabloon dat gebruikt wordt voor het tonen van SMS notificaties over het postvak in.'
   },
   'inbox style template hoverHelp' => {
     'lastUpdated' => '1228768463',

@@ -3282,6 +3282,14 @@ LongTruncOk=1'
     'lastUpdated' => '1242724612',
     'message' => 'Het e-mail adres dat de site gebruikt voor het verzenden van een SMS bericht.'
   },
+  'sms gateway subject' => {
+    'lastUpdated' => '1250840009',
+    'message' => 'SMS gateway onderwerp'
+  },
+  'sms gateway subject help' => {
+    'lastUpdated' => '1250840073',
+    'message' => 'Het onderwerp van de e-mail dat doorgegeven moet worden aan de SMS gateway (typisch gebruik is het gebruik voor autorisatie bij de SMS gateway).'
+  },
   'starts with' => {
     'lastUpdated' => '1154097718',
     'message' => 'Begint met'

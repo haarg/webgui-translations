@@ -2,7 +2,7 @@ package WebGUI::i18n::Dutch::TaxDriver_EU;
 use utf8;
 our $I18N = {
   'accept when vies unavailable' => {
-    'lastUpdated' => '1248169198',
+    'lastUpdated' => '1250839975',
     'message' => 'Ongecontroleerde BTW nummers toestaan als de BTW nummercheckservice niet beschikbaar is?'
   },
   'accept when vies unavailable help' => {
@@ -30,7 +30,7 @@ our $I18N = {
     'message' => 'Automatische BTW nummercheck goedkeuring?'
   },
   'auto vies approval help' => {
-    'lastUpdated' => '1248169148',
+    'lastUpdated' => '1250839968',
     'message' => 'Als dit op ja gezet is, worden BTW nummers die door de BTW nummerchecksercive gecontroleerd zijn meteen bruikbaar voor de klanten. Als het op nee gezet is moeten de de nummers expliciet goedgekeurd zijn voordat ze bruikbaar zijn.'
   },
   'default group' => {

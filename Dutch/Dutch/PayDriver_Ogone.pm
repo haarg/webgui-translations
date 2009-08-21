@@ -10,7 +10,7 @@ our $I18N = {
     'message' => 'Kies factuuradres'
   },
   'currency' => {
-    'lastUpdated' => '1247058414',
+    'lastUpdated' => '1250840140',
     'message' => 'Valuta (ISO Alpha code)'
   },
   'currency help' => {
@@ -75,7 +75,7 @@ our $I18N = {
     'message' => 'Gebruiken in testmodus?'
   },
   'use test mode help' => {
-    'lastUpdated' => '1248782983',
+    'lastUpdated' => '1250840132',
     'message' => 'Als deze optie op ja staat worden alle betalingsopdrachten verzonden naar de testomgeving van Ogone. Zo kan alles getest worden voordat de site live gaat. Er worden geen daadwerkelijke betalingen gedaan in testmodus, dus vergeet niet deze optie op "Nee" te zetten als het testen afgerond is.'
   }
 }

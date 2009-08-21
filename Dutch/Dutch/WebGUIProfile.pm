@@ -54,8 +54,8 @@ our $I18N = {
     'message' => 'Vereist?'
   },
   '474 description' => {
-    'lastUpdated' => '1154082826',
-    'message' => 'Moet dit veld verplicht worden ingevuld?'
+    'lastUpdated' => '1250840106',
+    'message' => 'Moet dit veld verplicht worden ingevuld? Als deze optie op ja staat, zal het veld ook automatisch bewerkbaar zijn.'
   },
   475 => {
     'lastUpdated' => '1154082856',

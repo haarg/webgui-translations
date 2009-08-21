@@ -5,6 +5,14 @@ our $I18N = {
     'lastUpdated' => '1242720820',
     'message' => 'Carrousel'
   },
+  'carousel slideWidth description' => {
+    'lastUpdated' => '1250840340',
+    'message' => 'De breedte in pixels. De Carousel zal zich niet aanpassen aan inhoud met verschillende afmetingen. Door deze breedte in te stellen, zal de pagina goed gerenderd worden. Als de standaard breedte, 0, ingesteld blijft staan, wordt de breedte die van het eerste element.'
+  },
+  'carousel slideWidth label' => {
+    'lastUpdated' => '1250840229',
+    'message' => 'Breedte carouseldia'
+  },
   'carousel template description' => {
     'lastUpdated' => '1242720862',
     'message' => 'Selecteer een sjabloon voor de carrousel'
@@ -44,6 +52,10 @@ our $I18N = {
   'sequenceNumber' => {
     'lastUpdated' => '1242721200',
     'message' => 'Het reeksnummer van het carrousel item'
+  },
+  'slideWidth' => {
+    'lastUpdated' => '1250840201',
+    'message' => 'De breedte voor elke dia in de Carousel'
   },
   'text' => {
     'lastUpdated' => '1242721226',

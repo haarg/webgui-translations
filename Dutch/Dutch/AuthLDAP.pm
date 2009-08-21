@@ -42,7 +42,7 @@ our $I18N = {
     'message' => 'Eigenschap Gebruikersnaam'
   },
   '6 description' => {
-    'lastUpdated' => '1250241783',
+    'lastUpdated' => '1250839931',
     'message' => 'De eigenschap gebruikersnaam is de unieke identificatie in de LDAP server, waartegen de gebruiker wordt ge&iuml;dentificeerd. Vaak is dit veld <strong>shortname</strong> (verkorte naam), wat bestaat uit de eerste letter van de initialen en de achternaam. Bijvoorbeeld: jdoe. Als nu de eigenschap gebruikersnaam deze verkorte naam is zou John Doe <em>jdoe</em> in moeten voeren bij de registratie. '
   },
   7 => {
@@ -50,7 +50,7 @@ our $I18N = {
     'message' => 'Label gebruikersnaam'
   },
   '7 description' => {
-    'lastUpdated' => '1250242005',
+    'lastUpdated' => '1250839937',
     'message' => 'Het label dat gebruikt wordt om de eigenschap gebruikersnaam te omschrijven voor de gebruiker. Sommige bedrijven gebruiken bijvoorbeeld een LDAP server waartegen de proxy server gebruikers geauthenticeerd moeten worden. In de documentatie of tijdens de training is vaak al een eigenschap gebruikersnaam, de web gebruikersnaam, toegekend aan de gebruikers. Dit label kan hier ingevoerd worden voor de consistentie. Voorheen heette dit de LDAP identiteit.'
   },
   8 => {
