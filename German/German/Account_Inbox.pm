@@ -149,6 +149,14 @@ our $I18N = {
     'lastUpdated' => '1243496435',
     'message' => 'Wählen Sie eine Vorlage für "Neue Nachricht in Postfach"'
   },
+  'inbox notifications subject' => {
+    'lastUpdated' => '1250929947',
+    'message' => 'Betreff Mitteilung Posteingang'
+  },
+  'inbox notifications subject help' => {
+    'lastUpdated' => '1250930007',
+    'message' => 'Der Betreff für Mitteilungen bezüglich neue Mails im Postfach'
+  },
   'inbox rich editor description' => {
     'lastUpdated' => '1233553797',
     'message' => 'Der Editor, welcher für das Verfassen von Nachrichten verwendet werden soll.'
@@ -164,6 +172,18 @@ our $I18N = {
   'inbox send message template label' => {
     'lastUpdated' => '1233943164',
     'message' => 'Vorlage Mitteilungsversand'
+  },
+  'inbox sms notification' => {
+    'lastUpdated' => '1250930048',
+    'message' => 'Sie haben eine neue Mail in Ihrem Postfach'
+  },
+  'inbox sms notification template' => {
+    'lastUpdated' => '1250930145',
+    'message' => 'Vorlage Neue SMS-Mitteilung im Postfach '
+  },
+  'inbox sms notification template help' => {
+    'lastUpdated' => '1250930219',
+    'message' => 'Wählen Sie eine Vorlage für SMS-Mitteilungen bzgl. Posteingang'
   },
   'inbox style template hoverHelp' => {
     'lastUpdated' => '1233553843',
