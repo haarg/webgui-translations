@@ -5,6 +5,14 @@ our $I18N = {
     'lastUpdated' => '1244064122',
     'message' => 'Carousel'
   },
+  'carousel slideWidth description' => {
+    'lastUpdated' => '1250973472',
+    'message' => 'Breite in Pixel. Die Carouselbreite wird nicht automatische angepasst an den Inhalt. Die Einstellung der Breite unterstützt den Seitenaufbau. Wenn 0, wird die Breite durch die Breite des ersten Elements festgelegt.'
+  },
+  'carousel slideWidth label' => {
+    'lastUpdated' => '1250973525',
+    'message' => 'Carousel Frame/Seitenbreite'
+  },
   'carousel template description' => {
     'lastUpdated' => '1244064150',
     'message' => 'Selektiere eine Vorlage zu diesem Carousel'
@@ -44,6 +52,10 @@ our $I18N = {
   'sequenceNumber' => {
     'lastUpdated' => '1244064369',
     'message' => 'Folgenummer für dieses Carouselitem.'
+  },
+  'slideWidth' => {
+    'lastUpdated' => '1250973281',
+    'message' => 'Die Breite für jeden Bereich im Carousel'
   },
   'text' => {
     'lastUpdated' => '1244064238',
