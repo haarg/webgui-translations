@@ -811,16 +811,16 @@ Alle Daten gehen verloren und Sie können das nicht rückgängig machen!!<br><br
     'message' => 'Maximale Screenshot-Breite'
   },
   'maxgroup description' => {
-    'lastUpdated' => '1247510447',
-    'message' => 'Selektieren Sie eine Gruppe, die eine Maximalanzahl von Listen auswählen kann. '
+    'lastUpdated' => '1250932846',
+    'message' => 'Selektieren Sie eine Gruppe, für die ein spezieller maximaler Vergleich ausgewählt werden kann. '
   },
   'maxgroup label' => {
-    'lastUpdated' => '1247509161',
-    'message' => 'Priviligiertes Maximum Gruppe'
+    'lastUpdated' => '1250932891',
+    'message' => 'Priviligierte Maximum-Gruppe'
   },
   'maxgroup per description' => {
-    'lastUpdated' => '1248720236',
-    'message' => 'Legt fest, wieviele Items verglichen werden können von Mitgliedern der priviligierten Gruppe.'
+    'lastUpdated' => '1250932981',
+    'message' => 'Legt fest, wieviele Vergleiche von Mitgliedern der priviligierten Gruppe durchgeführt werden können.'
   },
   'maxgroup per label' => {
     'lastUpdated' => '1245621339',
@@ -831,8 +831,8 @@ Alle Daten gehen verloren und Sie können das nicht rückgängig machen!!<br><br
     'message' => 'Durchschnittsbewertung der besten/schlechtesten Liste in dieser Kategorie'
   },
   'median' => {
-    'lastUpdated' => '1222247226',
-    'message' => 'Der Mittelwert des Besten in dieser Kategorie'
+    'lastUpdated' => '1250933195',
+    'message' => 'Der Mittelwert der besten/schlechtesten Liste in dieser Kategorie.'
   },
   'most clicks label' => {
     'lastUpdated' => '1247903939',

@@ -123,6 +123,14 @@ Bei "Ja/Nein" Feldern, geben Sie "yes" für "Ja" und "no" für "Nein" ein.'
     'lastUpdated' => '1247905092',
     'message' => 'Label dieses Feldes'
   },
+  'displayInSearchFields_loop' => {
+    'lastUpdated' => '1250932896',
+    'message' => 'Eine Schleife mit den Feldern, die in einem Suchergebnis angeziegt werden.'
+  },
+  'displayInSearchFields_orderByUrl' => {
+    'lastUpdated' => '1250933333',
+    'message' => 'Url zum Sortieren der Suchergebnisse nach diesem Feld.'
+  },
   'duplicates label' => {
     'lastUpdated' => '1240997627',
     'message' => 'Was soll mit Doppelteinträgen passieren?'
@@ -150,6 +158,10 @@ Bei "Ja/Nein" Feldern, geben Sie "yes" für "Ja" und "no" für "Nein" ein.'
   'edit screen title label' => {
     'lastUpdated' => '1240823944',
     'message' => 'Bearbeitungsmodus'
+  },
+  'edit template description' => {
+    'lastUpdated' => '1250933003',
+    'message' => 'Die Bearbeitungsvorlage wird verwendet um den Ansichtsbildschirm dieser Tabelle zu gestalten. '
   },
   'edit template label' => {
     'lastUpdated' => '1247904859',
@@ -195,6 +207,10 @@ Bei "Ja/Nein" Feldern, geben Sie "yes" für "Ja" und "no" für "Nein" ein.'
     'lastUpdated' => '1249047162',
     'message' => 'URL zum Exportieren von Suchergebnissen in eine csv-Datei.'
   },
+  'extras description' => {
+    'lastUpdated' => '1250933403',
+    'message' => 'Hier können Sie extra Eigenschaften zu diesem Feld hinzufügen, wie z.B.: \'class="super"\''
+  },
   'extras label' => {
     'lastUpdated' => '1247904814',
     'message' => 'Extras'
@@ -203,9 +219,21 @@ Bei "Ja/Nein" Feldern, geben Sie "yes" für "Ja" und "no" für "Nein" ein.'
     'lastUpdated' => '1240477757',
     'message' => 'Feld in anderer Tabelle'
   },
+  'field label description' => {
+    'lastUpdated' => '1250933031',
+    'message' => 'Das Label für dieses Feld.'
+  },
   'field label label' => {
     'lastUpdated' => '1247904834',
     'message' => 'Label'
+  },
+  'field status description' => {
+    'lastUpdated' => '1250933247',
+    'message' => 'Verborgene (hidden) Felder sind für den Benutzer nicht sichtbar. 
+Sichtbare (visible) Felder können gesehen aber nicht geändert werden. 
+Bearbeitbare Felder können bearbeitet werden.
+Erforderliche Felder müssen bearbeitet werden.
+Wenn Sie "verborgen" oder "sichtbar" wählen, geben Sie bitte auch einen Standardwert an.'
   },
   'field status label' => {
     'lastUpdated' => '1246484736',
