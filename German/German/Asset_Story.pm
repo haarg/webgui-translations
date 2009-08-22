@@ -14,16 +14,20 @@ our $I18N = {
     'message' => 'Bericht'
   },
   'byline' => {
-    'lastUpdated' => '1250933855',
-    'message' => 'Autor'
+    'lastUpdated' => '1250974348',
+    'message' => 'Autorenzeile'
   },
   'byline help' => {
-    'lastUpdated' => '1250933842',
-    'message' => 'Wer schrieb den Bericht'
+    'lastUpdated' => '1250974333',
+    'message' => 'Wer schrieb den Bericht?'
   },
   'byline tmplvar' => {
-    'lastUpdated' => '1250933871',
-    'message' => 'Der Autor des Berichts'
+    'lastUpdated' => '1250974302',
+    'message' => 'Die Autorenzeile des Berichts'
+  },
+  'bylineForm' => {
+    'lastUpdated' => '1250974396',
+    'message' => 'Benutzerformular zur Eingabe einer Autorenzeile für diesen Bericht.'
   }
 }
 ;
