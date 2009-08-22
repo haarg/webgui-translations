@@ -5,6 +5,10 @@ our $I18N = {
     'lastUpdated' => '1250973723',
     'message' => 'Falls VIES nicht verfügbar, nicht validierte MwSt-Nummern akzeptieren?'
   },
+  'accept when vies unavailable help' => {
+    'lastUpdated' => '1250974852',
+    'message' => 'Wenn einer der Databases der VIES-Mitgliedsländer temporär ausfällt oder VIES-Überprüfung fehlerhaft war, können MwSt.-Nummern nicht geprüft werden. Wenn "ja" können MwST-Nummern dennoch verwendet werden. Das Format der MwSt.-Nummern wird übrigens immer und unabhängig vom VIES Service überprüft.'
+  },
   'add' => {
     'lastUpdated' => '1243115405',
     'message' => 'Hinzufügen'

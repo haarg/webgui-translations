@@ -1993,6 +1993,10 @@ our $I18N = {
     'lastUpdated' => '1248721337',
     'message' => 'Leeren'
   },
+  'Comments' => {
+    'lastUpdated' => '1250974534',
+    'message' => 'Kommentar'
+  },
   'Contact Us' => {
     'lastUpdated' => '1224799364',
     'message' => 'Kontaktieren Sie uns'
@@ -3297,6 +3301,14 @@ Kopieren Sie ggf. Dateien und fügen Sie diese in den Editor ein.'
   'sms gateway help' => {
     'lastUpdated' => '1249045547',
     'message' => 'Die E-Mailadresse, die diese Site verwenden würde um eine SMS-Mitteilung zu versenden.'
+  },
+  'sms gateway subject' => {
+    'lastUpdated' => '1250974559',
+    'message' => 'SMS Gateway Betreff'
+  },
+  'sms gateway subject help' => {
+    'lastUpdated' => '1250974637',
+    'message' => 'Emailbetreff zum SMS Gateway. (Normalerweise verwendet für SMS Autorisierung)'
   },
   'starts with' => {
     'lastUpdated' => '1178625756',

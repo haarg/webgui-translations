@@ -54,8 +54,8 @@ our $I18N = {
     'message' => 'Erforderlich?'
   },
   '474 description' => {
-    'lastUpdated' => '1178202566',
-    'message' => 'Soll der Benuzter dieses Feld ausfüllen m&uuml;ssen?'
+    'lastUpdated' => '1250974488',
+    'message' => 'Soll der Benuzter dieses Feld ausfüllen müssen? Wenn "ja", wird dieses Feld auch änderbar sein.'
   },
   475 => {
     'lastUpdated' => '1178202576',
