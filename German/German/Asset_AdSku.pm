@@ -116,6 +116,26 @@ our $I18N = {
   'property click discounts' => {
     'lastUpdated' => '1249632620',
     'message' => 'Klick-Rabatte'
+  },
+  'property impression discounts' => {
+    'lastUpdated' => '1250942968',
+    'message' => 'Impressionsrabatt'
+  },
+  'property price per click' => {
+    'lastUpdated' => '1250942984',
+    'message' => 'Preis per Klick'
+  },
+  'property price per impression' => {
+    'lastUpdated' => '1250942952',
+    'message' => 'Preis per Impression'
+  },
+  'property priority' => {
+    'lastUpdated' => '1250942925',
+    'message' => 'Priorität'
+  },
+  'property priority help' => {
+    'lastUpdated' => '1250943168',
+    'message' => 'Geben Sie die Priorität für Anzeigen zu diesem Produkt an. Sie können durch Einstellung der Prioriät mehrere Produkte, jeweils mit verschiedenen Preisen für den gleichen Anzeigenplatz verwenden. '
   }
 }
 ;
