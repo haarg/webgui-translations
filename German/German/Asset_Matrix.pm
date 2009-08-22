@@ -787,28 +787,28 @@ Alle Daten gehen verloren und Sie können das nicht rückgängig machen!!<br><br
     'message' => ''
   },
   'max comparisons privileged description' => {
-    'lastUpdated' => '1249633346',
-    'message' => 'Legt die Anzahl der Vergleichsobjekte für Suche und Vergleich fest, die ein registrierter Benutzer verwenden kann.'
+    'lastUpdated' => '1250932275',
+    'message' => 'Legt die Anzahl der Vergleiche für Suche und Vergleich fest, die ein registrierter Benutzer verwenden kann.'
   },
   'max comparisons privileged label' => {
-    'lastUpdated' => '1248720520',
-    'message' => 'Max. Anzahl zu vergleichen (Registrierte Benutzer)'
+    'lastUpdated' => '1250932329',
+    'message' => 'Max. Vergleiche für registrierte Benutzer'
   },
   'max screenshot height description' => {
-    'lastUpdated' => '1250930531',
-    'message' => 'Selektieren Sie die maximum Höhe des Screenshots in dieser Matrix. Größere Bilder werden entsprechend konvertiert.'
+    'lastUpdated' => '1250932438',
+    'message' => 'Selektieren Sie die maximale Höhe der Screenshots in dieser Matrix. Größere Screenshots werden entsprechend verkleinert.'
   },
   'max screenshot height label' => {
-    'lastUpdated' => '1249633089',
-    'message' => 'Maximum Höhe Screenshot'
+    'lastUpdated' => '1250932482',
+    'message' => 'Maximale Screenshot-Höhe '
   },
   'max screenshot width description' => {
-    'lastUpdated' => '1250930573',
-    'message' => 'Selektieren Sie die maximum Breite des Screenshots in dieser Matrix. Größere Bilder werden entsprechend konvertiert.'
+    'lastUpdated' => '1250932555',
+    'message' => 'Selektieren Sie die maximale Breite der Screenshots in dieser Matrix. Größere Screenshots werden entsprechend verkleinert.'
   },
   'max screenshot width label' => {
-    'lastUpdated' => '1247904372',
-    'message' => 'Max. Breite Screenshot'
+    'lastUpdated' => '1250932581',
+    'message' => 'Maximale Screenshot-Breite'
   },
   'maxgroup description' => {
     'lastUpdated' => '1247510447',

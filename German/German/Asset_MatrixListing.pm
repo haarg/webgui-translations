@@ -5,6 +5,14 @@ our $I18N = {
     'lastUpdated' => '1246483933',
     'message' => 'Diese Liste freigeben'
   },
+  'CATEGORY_NAME_loop' => {
+    'lastUpdated' => '1250932781',
+    'message' => 'Eine Schleife mit Attributen und Werten dazu wird erstellt für jede Kategorie in dieser Matrix.
+Der Name der Schleife ist ein Kategoriename, wobei Leerzeichen mit Bindestrichen ersetzt wurden und \'_loop\' hinzugefügt wurde.
+
+Wenn Sie also eine Kategorie "Blumen und Pflanzen" hätten, wäre die Bezeichnung der Schleife
+"blumen-und-pflanzen_loop".'
+  },
   'Delete this listing.' => {
     'lastUpdated' => '1246483998',
     'message' => 'Diese Liste löschen'
@@ -89,6 +97,14 @@ our $I18N = {
     'lastUpdated' => '1246484519',
     'message' => 'Bearbeiten'
   },
+  'edit listing template help title' => {
+    'lastUpdated' => '1250932465',
+    'message' => 'Vorlagevariabelen Bearbeitungsvorlage Matrixlsite'
+  },
+  'edit matrix listing title' => {
+    'lastUpdated' => '1250932386',
+    'message' => 'Bearbeiten/Hinzufügen einer Liste'
+  },
   'editUrl' => {
     'lastUpdated' => '1247904600',
     'message' => 'Die Url zum Bearbeitungsbildschirm dieser Liste.'
@@ -96,6 +112,10 @@ our $I18N = {
   'emailForm' => {
     'lastUpdated' => '1249633550',
     'message' => 'Ein Formular für Emails an den Listenverwalter.'
+  },
+  'emailSent' => {
+    'lastUpdated' => '1250932232',
+    'message' => 'Kondition, die angibt, ob eine Email versand wurde oder nicht.'
   },
   'fieldType' => {
     'lastUpdated' => '1247904455',
@@ -140,6 +160,18 @@ our $I18N = {
   'manufacturer label' => {
     'lastUpdated' => '1246484318',
     'message' => 'Hersteller'
+  },
+  'manufacturerName description' => {
+    'lastUpdated' => '1250932315',
+    'message' => 'Der Name des Herstellers des Produkts oder des Dienstleisters für den angebotenen Dienst'
+  },
+  'manufacturerName label' => {
+    'lastUpdated' => '1250932325',
+    'message' => 'Firma'
+  },
+  'manufacturerURL description' => {
+    'lastUpdated' => '1250932357',
+    'message' => 'Wenn der Anbieter eine Website hat, geben Sie bitte die komplette URL an.'
   },
   'manufacturerURL label' => {
     'lastUpdated' => '1249634109',
