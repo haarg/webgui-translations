@@ -851,8 +851,8 @@ Alle Daten gehen verloren und Sie können das nicht rückgängig machen!!<br><br
     'message' => 'Am meisten angeschaut'
   },
   'name' => {
-    'lastUpdated' => '1192797209',
-    'message' => 'Produktname'
+    'lastUpdated' => '1250933437',
+    'message' => 'Listenname'
   },
   'no' => {
     'lastUpdated' => '1192797177',
@@ -863,8 +863,8 @@ Alle Daten gehen verloren und Sie können das nicht rückgängig machen!!<br><br
     'message' => 'Dieses Asset darf nicht kopiert werden'
   },
   'no edit rights' => {
-    'lastUpdated' => '1223568558',
-    'message' => 'Sie hben keine Berechtigung, diese Liste zu ändern'
+    'lastUpdated' => '1250933468',
+    'message' => 'Sie haben keine Berechtigung, diese Liste zu ändern.'
   },
   'pending listings label' => {
     'lastUpdated' => '1247509277',

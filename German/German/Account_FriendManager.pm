@@ -81,8 +81,16 @@ our $I18N = {
     'lastUpdated' => '1245619942',
     'message' => 'Angabe, ob der Benutzer derzeit Kontakte hat.'
   },
+  'layout template hoverHelp' => {
+    'lastUpdated' => '1250933642',
+    'message' => 'Wählen Sie eine Layoutvorlage für die Darstellung des Kontaktmanagers'
+  },
+  'layout template label' => {
+    'lastUpdated' => '1250933584',
+    'message' => 'Layoutvorlage'
+  },
   'manageUrl' => {
-    'lastUpdated' => '1247507842',
+    'lastUpdated' => '1250933478',
     'message' => 'Die GUID des Benutzers, dessen Kontakte Sie verwalten.'
   },
   'new userId' => {
@@ -120,6 +128,14 @@ our $I18N = {
   'setting groupIdAdminFriends label' => {
     'lastUpdated' => '1247507721',
     'message' => 'Kontaktmanager'
+  },
+  'style template hoverHelp' => {
+    'lastUpdated' => '1250933563',
+    'message' => 'Wählen Sie eine Stilvorlage für den Kontaktmanager'
+  },
+  'style template label' => {
+    'lastUpdated' => '1250933502',
+    'message' => 'Stilvorlage'
   },
   'submit' => {
     'lastUpdated' => '1245619773',
