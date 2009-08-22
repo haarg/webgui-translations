@@ -2,7 +2,7 @@ package WebGUI::i18n::German::TaxDriver_EU;
 use utf8;
 our $I18N = {
   'accept when vies unavailable' => {
-    'lastUpdated' => '1243115393',
+    'lastUpdated' => '1250973723',
     'message' => 'Falls VIES nicht verfügbar, nicht validierte MwSt-Nummern akzeptieren?'
   },
   'add' => {
@@ -20,6 +20,14 @@ our $I18N = {
   'approve' => {
     'lastUpdated' => '1243496141',
     'message' => 'Bestätigen'
+  },
+  'auto vies approval' => {
+    'lastUpdated' => '1250973848',
+    'message' => 'Automatische VIES Validierung?'
+  },
+  'auto vies approval help' => {
+    'lastUpdated' => '1250973970',
+    'message' => 'Wenn Sie hier "ja" einstellen, können durch VIES validierte MwSt.-Nummern direkt von Ihren Kunden verwendet werden. Wenn "nein", können nur von Ihnen freigegebene MwSt.-Nummern verwendet werden.'
   },
   'default group' => {
     'lastUpdated' => '1247509946',
@@ -96,6 +104,18 @@ our $I18N = {
   'vat numbers' => {
     'lastUpdated' => '1243496069',
     'message' => 'MwSt-Nummern'
+  },
+  'vies error code' => {
+    'lastUpdated' => '1250973806',
+    'message' => 'VIES Fehlercode'
+  },
+  'vies unavailable' => {
+    'lastUpdated' => '1250973778',
+    'message' => 'Nummernvalidierung derzeit nicht verfügbar. Bitte kontrolieren Sie das später. '
+  },
+  'vies validated' => {
+    'lastUpdated' => '1250973795',
+    'message' => 'VIES validiert.'
   }
 }
 ;
