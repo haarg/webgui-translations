@@ -105,6 +105,10 @@ our $I18N = {
     'lastUpdated' => '1241303443',
     'message' => 'Das Abonnement wurde in den Warenkorb gelegt.'
   },
+  'delete batch confirm' => {
+    'lastUpdated' => '1250942315',
+    'message' => 'Möchten Sie diese Codeserie wirklich löschen?'
+  },
   'delete codes' => {
     'lastUpdated' => '1240779181',
     'message' => 'Alle diese Codes löschen'
@@ -225,6 +229,18 @@ our $I18N = {
     'lastUpdated' => '1240880141',
     'message' => 'Name Codeserie'
   },
+  'selection created' => {
+    'lastUpdated' => '1250942384',
+    'message' => 'Erstellungsdatum zwischen'
+  },
+  'selection message' => {
+    'lastUpdated' => '1250942419',
+    'message' => 'Sie können Codes selektieren durch:'
+  },
+  'selection used' => {
+    'lastUpdated' => '1250942443',
+    'message' => 'Datum der Verwendung zwischen'
+  },
   'status' => {
     'lastUpdated' => '1240778975',
     'message' => 'Status'
@@ -268,6 +284,10 @@ our $I18N = {
   'thank you message' => {
     'lastUpdated' => '1240880069',
     'message' => '"Danke"-Nachricht'
+  },
+  'thank you message help' => {
+    'lastUpdated' => '1250942557',
+    'message' => 'Verwenden Sie dieses Feld für eine Nachricht an die Benutzer, die gerade ein Abonnement in den Warenkorb gelegt haben. Bitte beachten Sie, dass das Abonnement nicht aktiviert wird, bevor der Benutzer sich abgemeldet hat.'
   },
   'topicName' => {
     'lastUpdated' => '1240880044',
