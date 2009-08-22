@@ -547,8 +547,8 @@ Alle Daten gehen verloren und Sie können das nicht rückgängig machen!!<br><br
     'message' => 'Feldtyp'
   },
   'form' => {
-    'lastUpdated' => '1223568242',
-    'message' => 'Formularelement für dieses Feld.'
+    'lastUpdated' => '1250930978',
+    'message' => 'Formularelement für dieses Attribut.'
   },
   'form.footer' => {
     'lastUpdated' => undef,
@@ -587,8 +587,8 @@ Alle Daten gehen verloren und Sie können das nicht rückgängig machen!!<br><br
     'message' => 'Gruppe zum Hinzufügen'
   },
   'hide stickied button label' => {
-    'lastUpdated' => '1248720430',
-    'message' => 'Festplatzierte Einträge anzeigen / nicht anzeigen'
+    'lastUpdated' => '1250931095',
+    'message' => 'Markierte Einträge anzeigen / nicht anzeigen'
   },
   'id' => {
     'lastUpdated' => undef,
@@ -615,16 +615,16 @@ Alle Daten gehen verloren und Sie können das nicht rückgängig machen!!<br><br
     'message' => 'Inline Javascript für diese Vorlage.'
   },
   'label' => {
-    'lastUpdated' => '1223568318',
-    'message' => 'Label zum Feld'
+    'lastUpdated' => '1250931261',
+    'message' => 'Beschriftung zum Attribut'
   },
   'last updated label' => {
     'lastUpdated' => '1244362857',
     'message' => 'Zuletzt aktualisiert'
   },
   'lastUpdated' => {
-    'lastUpdated' => '1223575945',
-    'message' => 'Datum letzter Aktualisierung'
+    'lastUpdated' => '1250931311',
+    'message' => 'Datum letzter Aktualisierung dieser Liste'
   },
   'lastUpdated.date' => {
     'lastUpdated' => '1223575987',
@@ -639,8 +639,8 @@ Alle Daten gehen verloren und Sie können das nicht rückgängig machen!!<br><br
     'message' => ''
   },
   'last_updated_loop' => {
-    'lastUpdated' => '1245621226',
-    'message' => 'Eine Schleife mit den 20 aktuellsten Listen'
+    'lastUpdated' => '1250931355',
+    'message' => 'Eine Schleife mit den 20 aktuellsten Listen.'
   },
   'lastupdated_loop' => {
     'lastUpdated' => undef,
@@ -651,8 +651,8 @@ Alle Daten gehen verloren und Sie können das nicht rückgängig machen!!<br><br
     'message' => 'Eingeschränkt'
   },
   'list attributes label' => {
-    'lastUpdated' => '1247903454',
-    'message' => 'List Attribute'
+    'lastUpdated' => '1250931397',
+    'message' => 'List-Attribute'
   },
   'list attributes title' => {
     'lastUpdated' => '1244362871',
@@ -935,24 +935,24 @@ Alle Daten gehen verloren und Sie können das nicht rückgängig machen!!<br><br
     'message' => 'Wer kann Listen bewerten?'
   },
   'rating group description' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => '1250930656',
+    'message' => 'Diese Gruppe hat die Berechtigung Listen zu bewerten.'
   },
   'rating timeout' => {
     'lastUpdated' => '1245448578',
     'message' => 'Erforderliche Zeit zwischen Bewertungen.'
   },
   'rating timeout description' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => '1250930747',
+    'message' => 'Stellt eine Zeit zwischen Bewertungen ein, damit Besucher eine Liste nicht zu oft bewerte können. '
   },
   'rating timeout privileged' => {
     'lastUpdated' => '1248720557',
     'message' => 'Mindestzeit zwischen Bewertungen (Registrierte Benutzer)'
   },
   'rating timeout privileged description' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => '1250930941',
+    'message' => 'Priviligierten Benutzern können andere Zeiten zwischen Bewertungen erlaubt werden. '
   },
   'rating_loop' => {
     'lastUpdated' => undef,
@@ -965,6 +965,10 @@ Alle Daten gehen verloren und Sie können das nicht rückgängig machen!!<br><br
   'ratings detail template help title' => {
     'lastUpdated' => undef,
     'message' => ''
+  },
+  'ratings duration description' => {
+    'lastUpdated' => '1250931021',
+    'message' => 'Selektieren Sie die Zeit wonach alte Bewertungen gelöscht werden.'
   },
   'ratings duration label' => {
     'lastUpdated' => '1247904272',
@@ -994,9 +998,17 @@ Alle Daten gehen verloren und Sie können das nicht rückgängig machen!!<br><br
     'lastUpdated' => undef,
     'message' => ''
   },
+  'screenshots config template description' => {
+    'lastUpdated' => '1250930835',
+    'message' => 'Selektieren Sie eine Vorlage für die Screenshot-Konfiguration einer Liste.'
+  },
   'screenshots config template label' => {
     'lastUpdated' => '1247904341',
     'message' => 'Vorlage Listenscreenshot Konfiguration'
+  },
+  'screenshots template description' => {
+    'lastUpdated' => '1250930793',
+    'message' => 'Selektieren Sie eine Vorlage für die Darstellung eines Screenshots'
   },
   'screenshots template label' => {
     'lastUpdated' => '1247904397',

@@ -13,6 +13,10 @@ our $I18N = {
     'lastUpdated' => '1246484024',
     'message' => 'Diese Liste bearbeiten.'
   },
+  'Send Creator a Message' => {
+    'lastUpdated' => '1250931131',
+    'message' => 'Mitteilung an den Autor dieser Liste'
+  },
   'approveOrDenyUrl' => {
     'lastUpdated' => '1246484063',
     'message' => 'Die Url zur freigabe oder Ablehung dieser Liste.'
@@ -21,9 +25,21 @@ our $I18N = {
     'lastUpdated' => '1246484578',
     'message' => 'Matrixliste'
   },
+  'attribute_loop' => {
+    'lastUpdated' => '1250931158',
+    'message' => 'Eine Schleife mit den Atrributen dieser Liste.'
+  },
   'best label' => {
     'lastUpdated' => '1249633504',
     'message' => 'Am Besten'
+  },
+  'canApprove' => {
+    'lastUpdated' => '1250931310',
+    'message' => 'Ein boolischer Wert, der angibt, ob der Benutzer diese Liste freigeben oder sperren kann.'
+  },
+  'canEdit' => {
+    'lastUpdated' => '1250931266',
+    'message' => 'Ein boolischer Wert, der angibt, ob der Benutzer diese Liste bearbeiten kann.'
   },
   'categoryLabel' => {
     'lastUpdated' => '1246484153',
@@ -64,6 +80,10 @@ our $I18N = {
   'description label' => {
     'lastUpdated' => '1246484288',
     'message' => 'Beschreibung'
+  },
+  'detail template help title' => {
+    'lastUpdated' => '1250931387',
+    'message' => 'Vorlagevariabelen detaillierter Matrixliste'
   },
   'edit label' => {
     'lastUpdated' => '1246484519',
