@@ -1,6 +1,34 @@
 package WebGUI::i18n::German::Account_Shop;
 use utf8;
 our $I18N = {
+  'Not yet scheduled' => {
+    'lastUpdated' => '1250942830',
+    'message' => 'Noch nicht geplant'
+  },
+  'Paid' => {
+    'lastUpdated' => '1250942814',
+    'message' => 'Bezahlt'
+  },
+  'Payout' => {
+    'lastUpdated' => '1250942839',
+    'message' => 'Auszahlung'
+  },
+  'Payout Totals' => {
+    'lastUpdated' => '1250942851',
+    'message' => 'Gesamtauszahlung'
+  },
+  'Product' => {
+    'lastUpdated' => '1250942860',
+    'message' => 'Produkt'
+  },
+  'Products' => {
+    'lastUpdated' => '1250942869',
+    'message' => 'Produkte'
+  },
+  'Scheduled for payment' => {
+    'lastUpdated' => '1250942892',
+    'message' => 'Geplant zur Auszahlung'
+  },
   'common account variables' => {
     'lastUpdated' => '1241153778',
     'message' => 'Benutzerkonto, Shop'
