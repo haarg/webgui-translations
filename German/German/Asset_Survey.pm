@@ -453,6 +453,38 @@ our $I18N = {
     'lastUpdated' => '1178876646',
     'message' => 'Umfrage Template, gebrächliche Variablen'
   },
+  'Allow back button' => {
+    'lastUpdated' => '1250931592',
+    'message' => 'Zurück'
+  },
+  'Allow back button help' => {
+    'lastUpdated' => '1250931657',
+    'message' => 'Erlaubt den Benuter innerhalb einer Befragung rückwärts zu navigieren.'
+  },
+  'Answer Edit Template' => {
+    'lastUpdated' => '1250931690',
+    'message' => 'Vorlage Antwortbearbeitung'
+  },
+  'Answer Edit Template help' => {
+    'lastUpdated' => '1250931758',
+    'message' => 'Die Vorlage zur Anzeige der Antwortbearbeitung.'
+  },
+  'Group to take survey' => {
+    'lastUpdated' => '1250932090',
+    'message' => 'Gruppe Bearbeitung'
+  },
+  'Group to take survey help' => {
+    'lastUpdated' => '1250932003',
+    'message' => 'Selektieren Sie eine Gruppe, die berechtigt ist die Befragung zu bearbeiten bzw. die Fragen zu beantworten.'
+  },
+  'Group to view reports' => {
+    'lastUpdated' => '1250932076',
+    'message' => 'Gruppe Ergebnisse'
+  },
+  'Group to view reports help' => {
+    'lastUpdated' => '1250932122',
+    'message' => 'Selektieren Sie eine Gruppe, die berechtigt ist, die Ergebnisse einzusehen.'
+  },
   'Max user responses' => {
     'lastUpdated' => '1238878351',
     'message' => 'Max. Anzahl Durchläufe per Teilnehmer'
@@ -666,7 +698,7 @@ our $I18N = {
     'message' => 'Nummer dieser Frage innerhalb dieses Abschnitts'
   },
   'maxResponsesPerUser' => {
-    'lastUpdated' => '1179732485',
+    'lastUpdated' => '1250931445',
     'message' => 'Wie oft darf ein Benutzer auf eine einzelne Frage eine Antwort geben (Anzahl Fehlversuche pro Antwort). Standard ist 1.'
   },
   'min' => {
@@ -1050,7 +1082,7 @@ our $I18N = {
     'message' => 'Das Standard Label, das Benutzerantworten anzeigt.'
   },
   'showProgress' => {
-    'lastUpdated' => '1238878981',
+    'lastUpdated' => '1250931458',
     'message' => 'Dieser Wert ist "Wahr", wenn die Fortschrittsanzeige für diesen Fragebogen aktiviert wurde.'
   },
   'showTimeLimit' => {
@@ -1090,7 +1122,7 @@ our $I18N = {
     'message' => 'Schrittgröße dieser Antwort zur Frage des Typs "Schieber"'
   },
   'step label' => {
-    'lastUpdated' => '1238832414',
+    'lastUpdated' => '1250931474',
     'message' => 'Schieberschritt'
   },
   'submit' => {
@@ -1142,7 +1174,7 @@ our $I18N = {
     'message' => 'Soll der Text dieses Abschnitts auf jede Seite erscheinen?'
   },
   'textCols' => {
-    'lastUpdated' => '1238832149',
+    'lastUpdated' => '1250931496',
     'message' => 'Anzahl der Spalten für Fragen des Typs "Textbereich"'
   },
   'textType' => {

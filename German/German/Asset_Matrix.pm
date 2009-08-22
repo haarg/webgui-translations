@@ -655,16 +655,16 @@ Alle Daten gehen verloren und Sie können das nicht rückgängig machen!!<br><br
     'message' => 'List-Attribute'
   },
   'list attributes title' => {
-    'lastUpdated' => '1244362871',
-    'message' => 'Attribute'
+    'lastUpdated' => '1250931430',
+    'message' => 'Attribut-Liste'
   },
   'list fields' => {
     'lastUpdated' => '1223568380',
     'message' => 'Liste der Eigenschaften'
   },
   'listAttributes_url' => {
-    'lastUpdated' => '1244362928',
-    'message' => 'Die URL zur Seite, wo Sie neue Attrubute für diese Matrix definieren können.'
+    'lastUpdated' => '1250931520',
+    'message' => 'Die URL zur Seite, wo Sie neue Listen-Attribute für diese Matrix definieren können.'
   },
   'listing count label' => {
     'lastUpdated' => '1247509119',
@@ -691,8 +691,8 @@ Alle Daten gehen verloren und Sie können das nicht rückgängig machen!!<br><br
     'message' => ''
   },
   'listing statistics label' => {
-    'lastUpdated' => '1247904247',
-    'message' => 'Listenstatistik'
+    'lastUpdated' => '1250931618',
+    'message' => 'Listenstatistiken'
   },
   'listing.add.url' => {
     'lastUpdated' => undef,
@@ -707,12 +707,12 @@ Alle Daten gehen verloren und Sie können das nicht rückgängig machen!!<br><br
     'message' => 'Anzahl der Listen dieser Matrix'
   },
   'listings cache timeout description' => {
-    'lastUpdated' => '1250930454',
-    'message' => 'Zur Optimierung der Zugriffszeiten, kann die Liste der Matrizen gecached werden. Wie lange soll die Liste im Cache verbleiben?'
+    'lastUpdated' => '1250931810',
+    'message' => 'Zur Optimierung der Zugriffszeiten, können die Matrixlisten gecached werden. Wie lange sollen die Listen im Cache verbleiben?'
   },
   'listings cache timeout label' => {
-    'lastUpdated' => '1247903490',
-    'message' => 'Cache Timeout Listen'
+    'lastUpdated' => '1250931854',
+    'message' => 'Listen-Cache-Timeout'
   },
   'main template' => {
     'lastUpdated' => undef,
@@ -751,12 +751,12 @@ Alle Daten gehen verloren und Sie können das nicht rückgängig machen!!<br><br
     'message' => 'Hersteller/Dienstleister URL, wenn Sie die Anzahl der Clicks zu dieser Liste registrieren möchten'
   },
   'matrix asset template variables title' => {
-    'lastUpdated' => '1248720477',
-    'message' => 'Matrix Variabele'
+    'lastUpdated' => '1250931979',
+    'message' => 'Matrix-Asset-Vorlagen-Variablen'
   },
   'matrix fieldtype' => {
-    'lastUpdated' => '1244362944',
-    'message' => 'Matrix Feldtyp'
+    'lastUpdated' => '1250931995',
+    'message' => 'Matrix-Feldtyp'
   },
   'matrix specific fields' => {
     'lastUpdated' => '1223576037',
@@ -767,8 +767,8 @@ Alle Daten gehen verloren und Sie können das nicht rückgängig machen!!<br><br
     'message' => ''
   },
   'matrix template help title' => {
-    'lastUpdated' => '1249633159',
-    'message' => 'Variablen Matrix Hauptvorlage'
+    'lastUpdated' => '1250932031',
+    'message' => 'Variablen der Matrix-Hauptvorlage'
   },
   'max comparisons' => {
     'lastUpdated' => '1221289007',
