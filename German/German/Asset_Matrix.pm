@@ -883,16 +883,16 @@ Alle Daten gehen verloren und Sie können das nicht rückgängig machen!!<br><br
     'message' => 'Wer soll priviligierte Rechte haben?'
   },
   'privileged group description' => {
-    'lastUpdated' => '1247509390',
-    'message' => 'Diese Gruppe hat besondere Rechte in Bezug auf die maximum Anzahl von Listen die verglichen werden können und die Frequenz womit bewertet werden kann. '
+    'lastUpdated' => '1250933733',
+    'message' => 'Diese Gruppe hat besondere Rechte in Bezug auf die maximal erlaubte Anzahl von Vergleichen und die Frequenz womit bewertet werden kann. '
   },
   'product name' => {
     'lastUpdated' => '1222248244',
     'message' => 'Produktname'
   },
   'product name description' => {
-    'lastUpdated' => '1222247704',
-    'message' => 'Name des Produkts. Wenn es Einträge gibt mit verschiedenen Versionen des Produkts, ist es empfehlenswert, dass die Produktbezeichnungen gleich sind.'
+    'lastUpdated' => '1250933868',
+    'message' => 'Bitte geben Sie den Namen des Produktes an. Wenn es Einträge gibt mit verschiedenen Versionen des Produkts, ist es empfehlenswert, dass die Produktnamen gleich sind.'
   },
   'product url' => {
     'lastUpdated' => '1222247533',
