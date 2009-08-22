@@ -706,6 +706,10 @@ Alle Daten gehen verloren und Sie können das nicht rückgängig machen!!<br><br
     'lastUpdated' => '1245432978',
     'message' => 'Anzahl der Listen dieser Matrix'
   },
+  'listings cache timeout description' => {
+    'lastUpdated' => '1250930454',
+    'message' => 'Zur Optimierung der Zugriffszeiten, kann die Liste der Matrizen gecached werden. Wie lange soll die Liste im Cache verbleiben?'
+  },
   'listings cache timeout label' => {
     'lastUpdated' => '1247903490',
     'message' => 'Cache Timeout Listen'
@@ -790,9 +794,17 @@ Alle Daten gehen verloren und Sie können das nicht rückgängig machen!!<br><br
     'lastUpdated' => '1248720520',
     'message' => 'Max. Anzahl zu vergleichen (Registrierte Benutzer)'
   },
+  'max screenshot height description' => {
+    'lastUpdated' => '1250930531',
+    'message' => 'Selektieren Sie die maximum Höhe des Screenshots in dieser Matrix. Größere Bilder werden entsprechend konvertiert.'
+  },
   'max screenshot height label' => {
     'lastUpdated' => '1249633089',
     'message' => 'Maximum Höhe Screenshot'
+  },
+  'max screenshot width description' => {
+    'lastUpdated' => '1250930573',
+    'message' => 'Selektieren Sie die maximum Breite des Screenshots in dieser Matrix. Größere Bilder werden entsprechend konvertiert.'
   },
   'max screenshot width label' => {
     'lastUpdated' => '1247904372',
@@ -1163,7 +1175,7 @@ Alle Daten gehen verloren und Sie können das nicht rückgängig machen!!<br><br
     'message' => ''
   },
   'too few message' => {
-    'lastUpdated' => '1245448376',
+    'lastUpdated' => '1250930590',
     'message' => 'Sie haben versucht nur eine Liste zu vergleichen. Wenn Sie nur eine Liste anschauen möchten, klicken Sie bitte auf den Namen.'
   },
   'too many message' => {
