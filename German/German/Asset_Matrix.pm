@@ -5,6 +5,30 @@ our $I18N = {
     'lastUpdated' => '1202812528',
     'message' => 'Ein &quot;loop&quot; wird für jede Kategorie in dieser Matrix erstellt. Der Name des loops ergibt sich aus dem Namen der Kategorie, wobei alle Leerzeichen in Bindestriche umgewandelt und ein &quot;_loop&quot; am Ende angehängt wird. Wenn Sie also eine Kategorie namens &quot;Bells and Whistles&quot; haben, wird der loop dazu &quot;bells-and-whistles_loop&quot; heißen.'
   },
+  'Return to Matrix' => {
+    'lastUpdated' => '1250870457',
+    'message' => 'Zurück zur Matrix'
+  },
+  'Sort by clicks' => {
+    'lastUpdated' => '1250870479',
+    'message' => 'Sortieren nach Klicks'
+  },
+  'Sort by compares' => {
+    'lastUpdated' => '1250870504',
+    'message' => 'Sortieren nach Vergleichen'
+  },
+  'Sort by name' => {
+    'lastUpdated' => '1250870519',
+    'message' => 'Sortieren nach Name'
+  },
+  'Sort by updated' => {
+    'lastUpdated' => '1250870813',
+    'message' => 'Sortieren nach Aktualisierung'
+  },
+  'Sort by views' => {
+    'lastUpdated' => '1250870833',
+    'message' => 'Sortieren nach Ansichten'
+  },
   'add attribute label' => {
     'lastUpdated' => '1245433009',
     'message' => 'Attribut hinzufügen'
@@ -22,7 +46,7 @@ our $I18N = {
     'message' => 'URL zur Seite, wo ein Benutzer eine neue Liste zur Matrix hinzufügen kann.'
   },
   'approve or deny label' => {
-    'lastUpdated' => '1245433176',
+    'lastUpdated' => '1250871105',
     'message' => 'Annehmen/Ablehnen'
   },
   'approve.url' => {
@@ -42,32 +66,32 @@ our $I18N = {
     'message' => 'Standardwert'
   },
   'attribute description description' => {
-    'lastUpdated' => '1247510113',
-    'message' => 'Bitte beschreiben Sie dieses Atrribut bzw. diese Eigenschaft.'
+    'lastUpdated' => '1250871434',
+    'message' => 'Bitte beschreiben Sie dieses Attribut.'
   },
   'attribute description label' => {
     'lastUpdated' => '1245621157',
     'message' => 'Beschreibung'
   },
   'attribute name description' => {
-    'lastUpdated' => '1247510289',
-    'message' => 'Name des Attributs, das Sie erstellen möchten. Der Name soll eindeutig sein. Sie sollten dabei Groß-/Kleinschreibung beachten.'
+    'lastUpdated' => '1250871527',
+    'message' => 'Name des Attributs, das Sie erstellen möchten. Der Name muss eindeutig sein. Sie sollten dabei Groß-/Kleinschreibung beachten.'
   },
   'attribute name label' => {
     'lastUpdated' => '1245621132',
     'message' => 'Name'
   },
   'attribute options description' => {
-    'lastUpdated' => '1247903341',
-    'message' => 'Eingabe von Optionen (1 pro Zeile) für das Attribut für den Fall, dass es sich um eine Selektbalken handelt.'
+    'lastUpdated' => '1250871618',
+    'message' => 'Eingabe von Optionen (1 pro Zeile) für das Attribut für den Fall, dass es sich um eine Selektbox handelt.'
   },
   'attribute options label' => {
     'lastUpdated' => '1245620992',
     'message' => 'Optionen'
   },
   'attribute_loop' => {
-    'lastUpdated' => '1247509067',
-    'message' => 'Eine Schleife mit allen Atributen einer Kategorie dieses Matrixes.'
+    'lastUpdated' => '1250871802',
+    'message' => 'Eine Schleife mit allen Attributen einer Kategorie von dieser Matrix.'
   },
   'best rated label' => {
     'lastUpdated' => '1245447656',
@@ -142,8 +166,8 @@ our $I18N = {
     'message' => 'Anzahl der Vergleiche mit der Liste mit den meisten Vergleichen.'
   },
   'bestCompares_name' => {
-    'lastUpdated' => '1245447829',
-    'message' => 'Name der Liste mit den meisten Vergleichen'
+    'lastUpdated' => '1250872109',
+    'message' => 'Name der Liste mit den meisten Vergleichen.'
   },
   'bestCompares_url' => {
     'lastUpdated' => '1245447877',
@@ -162,8 +186,8 @@ our $I18N = {
     'message' => 'URL zur Liste mit den meisten Betrachtungen.'
   },
   'best_rating_loop' => {
-    'lastUpdated' => '1221332898',
-    'message' => 'Eine Reihe aller Kategorien dieser Matrix und deren besten Bewertungen'
+    'lastUpdated' => '1250872433',
+    'message' => 'Eine Schleife mit den besten Listenbewertungen für jede Kategorie dieser Matrix.'
   },
   'categories' => {
     'lastUpdated' => '1221288389',
@@ -174,24 +198,24 @@ our $I18N = {
     'message' => 'Vorteile'
   },
   'categories description' => {
-    'lastUpdated' => '1221288616',
-    'message' => 'Geben Sie hier eine Kategorie pro Zeile an um die Kategorien für diese Matrix zu definieren. Kategorien werden benutzt um Felder zu gruppieren. Benutzer können eine Liste pro Kategorie bewerten.'
+    'lastUpdated' => '1250872771',
+    'message' => 'Geben Sie hier eine Kategorie pro Zeile an um die Kategorien für diese Matrix zu definieren. Kategorien werden benutzt um Attribute zu gruppieren. Benutzer können Kategorien in einer Liste bewerten.'
   },
   'categories label' => {
     'lastUpdated' => '1245448731',
     'message' => 'Kategorien'
   },
   'categories subtext' => {
-    'lastUpdated' => '1250016738',
-    'message' => 'Geben Sie eine Kategorie pro Zeile ein. Achten Sie darauf keine Leerzeichen am Anfang und am Ende zu verwenden.'
+    'lastUpdated' => '1250872883',
+    'message' => 'Geben Sie eine Kategorie pro Zeile in der gewünschten Reihenfolge ein. Achten Sie darauf keine Leerzeichen am Anfang und am Ende zu verwenden.'
   },
   'category' => {
     'lastUpdated' => '1221333000',
     'message' => 'Kategorie'
   },
   'category description' => {
-    'lastUpdated' => '1221333075',
-    'message' => 'Ordnen Sie dieser Feld eine Kategorie zu.'
+    'lastUpdated' => '1250873036',
+    'message' => 'Wählen Sie eine Kategorie für dieses Attribut.'
   },
   'category label' => {
     'lastUpdated' => '1234944496',
@@ -206,8 +230,8 @@ our $I18N = {
     'message' => 'Kategorie'
   },
   'category_loop' => {
-    'lastUpdated' => '1224970674',
-    'message' => 'Eine Schleife mit aller Kategorie-Information einer Liste'
+    'lastUpdated' => '1250873140',
+    'message' => 'Eine Schleife mit allen Kategorien in dieser Matrix.'
   },
   'class' => {
     'lastUpdated' => '1222248717',
@@ -242,24 +266,52 @@ our $I18N = {
     'message' => 'Vergleichen'
   },
   'compare color costs extra description' => {
-    'lastUpdated' => '1249632721',
-    'message' => 'Selektieren Sie die Farbe für "Kostet extra" in der Vergleichsmatrix'
+    'lastUpdated' => '1250873205',
+    'message' => 'Selektieren Sie die Farbe für "Kostet extra" in der Vergleichsmatrix.'
   },
   'compare color costs extra label' => {
-    'lastUpdated' => '1249632800',
-    'message' => 'Vergleichsfarbe. Kostet extra'
+    'lastUpdated' => '1250873246',
+    'message' => 'Vergleichsfarbe: Kostet extra'
   },
   'compare color free add on description' => {
-    'lastUpdated' => '1249632768',
-    'message' => 'Selektieren Sie die Farbe für "Kostenlose Erweiterung" in der Vergleichsmatrix'
+    'lastUpdated' => '1250873295',
+    'message' => 'Selektieren Sie die Farbe für "Kostenlose Erweiterung" in der Vergleichsmatrix.'
+  },
+  'compare color free add on label' => {
+    'lastUpdated' => '1250873382',
+    'message' => 'Vergleichsfarbe: Kostenlose Erweiterung'
+  },
+  'compare color limited description' => {
+    'lastUpdated' => '1250873526',
+    'message' => 'Selektieren Sie die Farbe für "Limitiert" in der Vergleichsmatrix.'
+  },
+  'compare color limited label' => {
+    'lastUpdated' => '1250873589',
+    'message' => 'Vergleichsfarbe: Limitiert'
+  },
+  'compare color no description' => {
+    'lastUpdated' => '1250873574',
+    'message' => 'Selektieren Sie die Farbe für "Nein" in der Vergleichsmatrix.'
+  },
+  'compare color no label' => {
+    'lastUpdated' => '1250873607',
+    'message' => 'Vergleichsfarbe: Nein'
+  },
+  'compare color yes description' => {
+    'lastUpdated' => '1250873627',
+    'message' => 'Selektieren Sie die Farbe für "Ja" in der Vergleichsmatrix.'
+  },
+  'compare color yes label' => {
+    'lastUpdated' => '1250873641',
+    'message' => 'Vergleichsfarbe: Ja'
   },
   'compare template' => {
     'lastUpdated' => '1222246986',
     'message' => 'Vorlage Vergleich'
   },
   'compare template description' => {
-    'lastUpdated' => '1222247090',
-    'message' => 'Selektiere eine Vorlage für die Anzeige im Listen-Vergleich'
+    'lastUpdated' => '1250873727',
+    'message' => 'Selektiere eine Vorlage für die Anzeige im Listen-Vergleich.'
   },
   'compare template label' => {
     'lastUpdated' => '1247509084',
@@ -270,16 +322,16 @@ our $I18N = {
     'message' => ''
   },
   'compareForm' => {
-    'lastUpdated' => '1244363327',
-    'message' => 'Das Vergleichsformular. Die Liste der Matrixlisten ist eine yui-Datentabelle. Siehe'
+    'lastUpdated' => '1250874880',
+    'message' => 'Das Vergleichsformular. Die Liste der Matrixlisten in diesem Formular ist eine yui-Datentabelle. Siehe die yui-Dokumentation unter <a href="http://developer.yahoo.com/yui/examples/datatable/dt_skinning.html" target="new">yui docs</a> für Informationen über die Darstellung von yui-Datentabellen.'
   },
   'compares' => {
     'lastUpdated' => '1221289254',
     'message' => 'Anzahl der Vergleiche zu dieser Liste'
   },
   'compares label' => {
-    'lastUpdated' => '1244363021',
-    'message' => 'Vergleichen'
+    'lastUpdated' => '1250874306',
+    'message' => 'Vergleiche'
   },
   'comparison label' => {
     'lastUpdated' => '1244363136',
@@ -294,28 +346,28 @@ our $I18N = {
     'message' => 'Variablen Matrixvergleich Vorlage'
   },
   'count' => {
-    'lastUpdated' => '1221333990',
-    'message' => 'Summe aller Bewertungen des Besten innerhalb dieser Kategorie'
+    'lastUpdated' => '1250875162',
+    'message' => 'Summe aller Bewertungen der besten/schlechtesten Liste innerhalb dieser Kategorie.'
   },
   'create account label' => {
     'lastUpdated' => '1244362751',
     'message' => 'Benutzerkonto anlegen'
   },
   'create account part1 text' => {
-    'lastUpdated' => '1245448112',
-    'message' => 'Wenn Sie ein Produkt herstellen oder ein Experte sind, die die Liste dazu pflegen möchte.'
+    'lastUpdated' => '1250875287',
+    'message' => 'Wenn Sie ein Produkt herstellen oder ein Experte sind, der die Liste dazu pflegen möchte,'
   },
   'create account part2 text' => {
-    'lastUpdated' => '1247903533',
-    'message' => 'damit Sie Ihre Liste registrieren können.'
+    'lastUpdated' => '1250875336',
+    'message' => 'dann können Sie Ihre Liste registrieren.'
   },
   'current.user.count' => {
     'lastUpdated' => '1221333148',
     'message' => 'Anzahl derzeitiger Besucher dieser Website.'
   },
   'default sort description' => {
-    'lastUpdated' => '1247903869',
-    'message' => 'Selektieren Sie die Standardsortierfolge in das Vergleichsfenster.'
+    'lastUpdated' => '1250875446',
+    'message' => 'Selektieren Sie die Standardsortierfolge für die Listen im Vergleichsfenster.'
   },
   'default sort label' => {
     'lastUpdated' => '1245621193',
@@ -330,8 +382,8 @@ our $I18N = {
     'message' => 'Standardwert für das Feld, falls der Benutzer es nicht ausfüllt.'
   },
   'delete attribute confirm message' => {
-    'lastUpdated' => '1249633046',
-    'message' => 'Sind Sie sicher, das Sie dieses Attribut und alle damit verbundenen Daten löschen möchten?'
+    'lastUpdated' => '1250875519',
+    'message' => 'Sind Sie sicher, dass Sie dieses Attribut und alle damit verbundenen Daten löschen möchten?'
   },
   'delete field confirm' => {
     'lastUpdated' => '1223568082',
@@ -347,8 +399,8 @@ Alle Daten gehen verloren und Sie können das nicht rückgängig machen!!<br><br
     'message' => 'Die URL zum Löschen dieser Liste'
   },
   'description' => {
-    'lastUpdated' => '1222250450',
-    'message' => 'Beschreibung'
+    'lastUpdated' => '1250876107',
+    'message' => 'Eine detaillierte Attribut-Beschreibung die im Hover-Over-Tooltipp verwendet wird.'
   },
   'description description' => {
     'lastUpdated' => '1223568158',
@@ -371,8 +423,8 @@ Alle Daten gehen verloren und Sie können das nicht rückgängig machen!!<br><br
     'message' => ''
   },
   'detail template description' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => '1250876249',
+    'message' => 'Wähle ein Template für die Darstellung der detaillierten Listeninformation.'
   },
   'detail template help title' => {
     'lastUpdated' => undef,
@@ -406,6 +458,10 @@ Alle Daten gehen verloren und Sie können das nicht rückgängig machen!!<br><br
     'lastUpdated' => '1244363120',
     'message' => 'Liste bearbeiten'
   },
+  'edit listing template description' => {
+    'lastUpdated' => '1250876466',
+    'message' => 'Selektiere ein Template für die Listenbearbeitung.'
+  },
   'edit listing template label' => {
     'lastUpdated' => '1248720139',
     'message' => 'Vorlage zur Listenbearbeitung'
@@ -431,8 +487,8 @@ Alle Daten gehen verloren und Sie können das nicht rückgängig machen!!<br><br
     'message' => 'Matrix erweitern'
   },
   'export attributes label' => {
-    'lastUpdated' => '1249633068',
-    'message' => 'Export Attribute'
+    'lastUpdated' => '1250876506',
+    'message' => 'Exportieren Attribute'
   },
   'exportAttributes_url' => {
     'lastUpdated' => '1249633438',
@@ -479,8 +535,12 @@ Alle Daten gehen verloren und Sie können das nicht rückgängig machen!!<br><br
     'message' => ''
   },
   'fieldType' => {
-    'lastUpdated' => '1247903433',
-    'message' => 'Feldtyp, der für dieses Feld spezifiziert wird.'
+    'lastUpdated' => '1250876620',
+    'message' => 'Feldtyp, der für dieses Matrix-Feld spezifiziert wird.'
+  },
+  'fieldType description' => {
+    'lastUpdated' => '1250876914',
+    'message' => 'Feldtyp für das Attribut das Sie erstellen. Bitte wählen Sie den Feldtyp aus den Optionen der Drop-Down-Liste.'
   },
   'fieldType label' => {
     'lastUpdated' => '1247509095',

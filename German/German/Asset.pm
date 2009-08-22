@@ -70,8 +70,8 @@ our $I18N = {
     'message' => '<p>Eine Kurzbeschreibung dieses Assets.</p>'
   },
   43 => {
-    'lastUpdated' => '1178863872',
-    'message' => 'Sind Sie sicher, dass Sie diesen Inhalt löschen m&ouml;chten? Achtung: Dieser Vorgang unterliegt nicht der Versionierung und wird unverzüglich durchgef&uuml;hrt!  '
+    'lastUpdated' => '1250929849',
+    'message' => 'Sind Sie sicher, dass Sie diesen Inhalt löschen möchten? Achtung: Dieser Vorgang unterliegt nicht der Versionierung und wird unverzüglich durchgeführt!  '
   },
   486 => {
     'lastUpdated' => '1153126990',
