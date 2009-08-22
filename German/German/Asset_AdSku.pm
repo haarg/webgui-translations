@@ -117,17 +117,43 @@ our $I18N = {
     'lastUpdated' => '1249632620',
     'message' => 'Klick-Rabatte'
   },
+  'property click discounts help' => {
+    'lastUpdated' => '1250984952',
+    'message' => 'Geben Sie jeden Rabatt am Anfang einer eigenen Zeile an. Weiterer Text wird ignoriert, Sie können also Kommentare anfügen.
+Jeder Rabatt besteht aus zwei Zahlen, die durch \'@\' ohne Leerzeichen getrennt werden. Die erste Zahl ist der Rabatt in Prozent (ohne Dezimalpunkt), die zweite Zahl ist die Anzahl der gekauften Anzeigen.  So bedeutet z.B. 5@1000 ein Rabatt von 5% bei 1000 oder mehr gekauften Anzeigen.'
+  },
   'property impression discounts' => {
     'lastUpdated' => '1250942968',
     'message' => 'Impressionsrabatt'
+  },
+  'property impression discounts help' => {
+    'lastUpdated' => '1250984677',
+    'message' => 'Geben Sie jeden Rabatt am Anfang einer eigenen Zeile an. Weiterer Text wird ignoriert, Sie können also Kommentare anfügen.
+Jeder Rabatt besteht aus zwei Zahlen, die durch \'@\' ohne Leerzeichen getrennt werden. Die erste Zahl ist der Rabatt in Prozent (ohne Dezimalpunkt), die zweite Zahl ist die Anzahl der gekauften Anzeigen.  So bedeutet z.B. 5@1000 ein Rabatt von 5% bei 1000 oder mehr gekauften Anzeigen.'
+  },
+  'property manage template' => {
+    'lastUpdated' => '1250984421',
+    'message' => 'Verwaltungsvorlage'
+  },
+  'property manage template help' => {
+    'lastUpdated' => '1250984398',
+    'message' => 'Wählen Sie ein Vorlage für die Anzeigenverwaltung'
   },
   'property price per click' => {
     'lastUpdated' => '1250942984',
     'message' => 'Preis per Klick'
   },
+  'property price per click help' => {
+    'lastUpdated' => '1250984351',
+    'message' => 'Wieviel soll für jeden gekauften Klick berechnet werden'
+  },
   'property price per impression' => {
     'lastUpdated' => '1250942952',
     'message' => 'Preis per Impression'
+  },
+  'property price per impression help' => {
+    'lastUpdated' => '1250984311',
+    'message' => 'Wieviel soll für jede gekaufte Impression berechnet werden'
   },
   'property priority' => {
     'lastUpdated' => '1250942925',
@@ -136,6 +162,14 @@ our $I18N = {
   'property priority help' => {
     'lastUpdated' => '1250943168',
     'message' => 'Geben Sie die Priorität für Anzeigen zu diesem Produkt an. Sie können durch Einstellung der Prioriät mehrere Produkte, jeweils mit verschiedenen Preisen für den gleichen Anzeigenplatz verwenden. '
+  },
+  'property purchase template' => {
+    'lastUpdated' => '1250984270',
+    'message' => 'Kaufen-Vorlage'
+  },
+  'property purchase template help' => {
+    'lastUpdated' => '1250984256',
+    'message' => 'Wählen Sie eine Vorlage für Anzeige-kaufen'
   }
 }
 ;
