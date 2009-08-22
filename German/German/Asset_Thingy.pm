@@ -199,6 +199,10 @@ Bei "Ja/Nein" Feldern, geben Sie "yes" für "Ja" und "no" für "Nein" ein.'
     'lastUpdated' => '1240471950',
     'message' => 'Export'
   },
+  'export metadata description' => {
+    'lastUpdated' => '1250942782',
+    'message' => 'Soll die Export-Funktion auch Metadaten wie thingDataId,  lastUpdated, ipAdress etc. enthalten?'
+  },
   'export metadata label' => {
     'lastUpdated' => '1245622375',
     'message' => 'Metadaten exportieren?'

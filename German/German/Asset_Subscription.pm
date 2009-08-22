@@ -129,6 +129,10 @@ our $I18N = {
     'lastUpdated' => '1241304245',
     'message' => 'Bei Bestellung ausführen'
   },
+  'execute on subscription description' => {
+    'lastUpdated' => '1250942634',
+    'message' => 'Ein (Perl-)Skript, das ausgeführt wird, wenn jemand abonniert und gezahlt hat.'
+  },
   'expire subscription codes' => {
     'lastUpdated' => '1241304162',
     'message' => 'Ablauf Abocodes'
@@ -280,6 +284,10 @@ our $I18N = {
   'template' => {
     'lastUpdated' => '1240778997',
     'message' => 'Vorlage Abonnement'
+  },
+  'template help' => {
+    'lastUpdated' => '1250942671',
+    'message' => 'Wählen Sie die Vorlage um das Abonnement anzuzeigen.'
   },
   'thank you message' => {
     'lastUpdated' => '1240880069',
