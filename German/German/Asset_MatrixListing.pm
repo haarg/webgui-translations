@@ -6,64 +6,64 @@ our $I18N = {
     'message' => 'Diese Liste freigeben'
   },
   'CATEGORY_NAME_loop' => {
-    'lastUpdated' => '1250932781',
-    'message' => 'Eine Schleife mit Attributen und Werten dazu wird erstellt für jede Kategorie in dieser Matrix.
-Der Name der Schleife ist ein Kategoriename, wobei Leerzeichen mit Bindestrichen ersetzt wurden und \'_loop\' hinzugefügt wurde.
+    'lastUpdated' => '1250936499',
+    'message' => 'Eine Schleife mit Attributen und Werten dazu wird für jede Kategorie in dieser Matrix erstellt.
+Der Name der Schleife ist der Kategoriename, wobei Leerzeichen mit Bindestrichen ersetzt werden und \'_loop\' am Ende hinzugefügt wird.
 
 Wenn Sie also eine Kategorie "Blumen und Pflanzen" hätten, wäre die Bezeichnung der Schleife
 "blumen-und-pflanzen_loop".'
   },
   'Delete this listing.' => {
-    'lastUpdated' => '1246483998',
-    'message' => 'Diese Liste löschen'
+    'lastUpdated' => '1250936531',
+    'message' => 'Diese Liste löschen.'
   },
   'Edit this listing.' => {
     'lastUpdated' => '1246484024',
     'message' => 'Diese Liste bearbeiten.'
   },
   'Send Creator a Message' => {
-    'lastUpdated' => '1250931131',
-    'message' => 'Mitteilung an den Autor dieser Liste'
+    'lastUpdated' => '1250936552',
+    'message' => 'Mitteilung an den Autor dieser Liste.'
   },
   'approveOrDenyUrl' => {
-    'lastUpdated' => '1246484063',
-    'message' => 'Die Url zur freigabe oder Ablehung dieser Liste.'
+    'lastUpdated' => '1250936611',
+    'message' => 'Die URL zur Freigabe oder Ablehnung dieser Liste.'
   },
   'assetName' => {
     'lastUpdated' => '1246484578',
     'message' => 'Matrixliste'
   },
   'attribute_loop' => {
-    'lastUpdated' => '1250931158',
-    'message' => 'Eine Schleife mit den Atrributen dieser Liste.'
+    'lastUpdated' => '1250936665',
+    'message' => 'Eine Schleife mit den Attributen dieser Liste.'
   },
   'best label' => {
     'lastUpdated' => '1249633504',
     'message' => 'Am Besten'
   },
   'canApprove' => {
-    'lastUpdated' => '1250931310',
-    'message' => 'Ein boolischer Wert, der angibt, ob der Benutzer diese Liste freigeben oder sperren kann.'
+    'lastUpdated' => '1250936759',
+    'message' => 'Ein Boolean-Wert, der angibt, ob der Benutzer diese Liste freigeben oder sperren kann.'
   },
   'canEdit' => {
-    'lastUpdated' => '1250931266',
-    'message' => 'Ein boolischer Wert, der angibt, ob der Benutzer diese Liste bearbeiten kann.'
+    'lastUpdated' => '1250936778',
+    'message' => 'Ein Boolean-Wert, der angibt, ob der Benutzer diese Liste bearbeiten kann.'
   },
   'categoryLabel' => {
     'lastUpdated' => '1246484153',
     'message' => 'Bezeichnung dieser Kategorie'
   },
   'clicks' => {
-    'lastUpdated' => '1238678522',
-    'message' => 'Klicks'
+    'lastUpdated' => '1250936844',
+    'message' => 'Die Gesamtanzahl von Klicks für diese Liste.'
   },
   'comment label' => {
     'lastUpdated' => '1244495860',
     'message' => 'Bemerkung'
   },
   'comments' => {
-    'lastUpdated' => '1238678539',
-    'message' => 'Kommentare'
+    'lastUpdated' => '1250936873',
+    'message' => 'Listen-Kommentare'
   },
   'compares' => {
     'lastUpdated' => '1246483977',
@@ -78,48 +78,48 @@ Wenn Sie also eine Kategorie "Blumen und Pflanzen" hätten, wäre die Bezeichnun
     'message' => 'Anzahl'
   },
   'description' => {
-    'lastUpdated' => '1238678555',
-    'message' => 'Beschreibung'
+    'lastUpdated' => '1250936932',
+    'message' => 'Listen-Beschreibung'
   },
   'description description' => {
-    'lastUpdated' => '1246484277',
-    'message' => 'Bitte geben Sie eine allgemeine Beschreibung für dieses Produkt oder Item ein. Details können in den weiteren Feldern bewertet werden.'
+    'lastUpdated' => '1250937079',
+    'message' => 'Bitte geben Sie eine allgemeine Beschreibung für dieses Produkt ein. Spezifische Details können unten in den Formular-Feldern bewertet werden.'
   },
   'description label' => {
     'lastUpdated' => '1246484288',
     'message' => 'Beschreibung'
   },
   'detail template help title' => {
-    'lastUpdated' => '1250931387',
-    'message' => 'Vorlagevariabelen detaillierter Matrixliste'
+    'lastUpdated' => '1250937194',
+    'message' => 'Variablen zur Matrix-Listen-Detail-Vorlage'
   },
   'edit label' => {
     'lastUpdated' => '1246484519',
     'message' => 'Bearbeiten'
   },
   'edit listing template help title' => {
-    'lastUpdated' => '1250932465',
-    'message' => 'Vorlagevariabelen Bearbeitungsvorlage Matrixlsite'
+    'lastUpdated' => '1250937284',
+    'message' => 'Bearbeiten der Variablen zur Matrix-Listen-Detail-Vorlage'
   },
   'edit matrix listing title' => {
     'lastUpdated' => '1250932386',
     'message' => 'Bearbeiten/Hinzufügen einer Liste'
   },
   'editUrl' => {
-    'lastUpdated' => '1247904600',
-    'message' => 'Die Url zum Bearbeitungsbildschirm dieser Liste.'
+    'lastUpdated' => '1250937338',
+    'message' => 'Die URL zum Bearbeitungsbildschirm dieser Liste.'
   },
   'emailForm' => {
     'lastUpdated' => '1249633550',
     'message' => 'Ein Formular für Emails an den Listenverwalter.'
   },
   'emailSent' => {
-    'lastUpdated' => '1250932232',
-    'message' => 'Kondition, die angibt, ob eine Email versand wurde oder nicht.'
+    'lastUpdated' => '1250937402',
+    'message' => 'Kondition, die angibt, ob eine Email versandt wurde oder nicht.'
   },
   'fieldType' => {
-    'lastUpdated' => '1247904455',
-    'message' => 'Type dieses Attributs'
+    'lastUpdated' => '1250937461',
+    'message' => 'Typ dieses Attributs'
   },
   'form' => {
     'lastUpdated' => '1244495883',
@@ -162,20 +162,20 @@ Wenn Sie also eine Kategorie "Blumen und Pflanzen" hätten, wäre die Bezeichnun
     'message' => 'Hersteller'
   },
   'manufacturerName description' => {
-    'lastUpdated' => '1250932315',
-    'message' => 'Der Name des Herstellers des Produkts oder des Dienstleisters für den angebotenen Dienst'
+    'lastUpdated' => '1250939743',
+    'message' => 'Der Name des Herstellers des Produkts oder des Dienstleisters für den angebotenen Dienst.'
   },
   'manufacturerName label' => {
     'lastUpdated' => '1250932325',
     'message' => 'Firma'
   },
   'manufacturerURL description' => {
-    'lastUpdated' => '1250932357',
-    'message' => 'Wenn der Anbieter eine Website hat, geben Sie bitte die komplette URL an.'
+    'lastUpdated' => '1250939816',
+    'message' => 'Wenn der Hersteller eine Website hat, geben Sie bitte hier die komplette URL an.'
   },
   'manufacturerURL label' => {
-    'lastUpdated' => '1249634109',
-    'message' => 'URL Hersteller'
+    'lastUpdated' => '1250939837',
+    'message' => 'Hersteller-URL'
   },
   'manufacturerUrl' => {
     'lastUpdated' => '1249634129',
@@ -186,36 +186,36 @@ Wenn Sie also eine Kategorie "Blumen und Pflanzen" hätten, wäre die Bezeichnun
     'message' => 'Die URL des Hersteller, wenn Sie die Anzahl der Klicks zu dieser Liste registrieren möchten.'
   },
   'mean label' => {
-    'lastUpdated' => '1244495929',
-    'message' => 'Mittelwert'
+    'lastUpdated' => '1250939972',
+    'message' => 'Durchschnittswert'
   },
   'median label' => {
-    'lastUpdated' => '1244496210',
-    'message' => 'Median'
+    'lastUpdated' => '1250939984',
+    'message' => 'Mittelwert'
   },
   'message sent message' => {
     'lastUpdated' => '1249633573',
     'message' => 'Nachricht abgeschickt.'
   },
   'product name description' => {
-    'lastUpdated' => '1249634083',
-    'message' => 'Geben Sie den Namen des Produkts ein. Wenn es verschiedene Versionen geben sollte, verwenden Sie am Besten gleiche Bezeichnungen'
+    'lastUpdated' => '1250940023',
+    'message' => 'Geben Sie den Namen des Produkts ein. Wenn es verschiedene Versionen geben sollte, verwenden Sie am Besten gleiche Bezeichnungen.'
   },
   'product name label' => {
-    'lastUpdated' => '1246484332',
-    'message' => 'Produkt/Item'
+    'lastUpdated' => '1250940044',
+    'message' => 'Produktname'
   },
   'productName' => {
-    'lastUpdated' => '1244496193',
-    'message' => 'Name dieser Liste. Dieser entspricht dem Titel der Liste'
+    'lastUpdated' => '1250940095',
+    'message' => 'Name dieser Liste. Dieser entspricht dem Titel der Liste.'
   },
   'productURL description' => {
-    'lastUpdated' => '1249633907',
-    'message' => 'Wenn der Listeneintrag eine eigene Website hat, tragen Sie die komplette URL dazu ein.'
+    'lastUpdated' => '1250940142',
+    'message' => 'Wenn das Produkt eine eigene Website hat, tragen Sie die komplette URL dazu ein.'
   },
   'productURL label' => {
-    'lastUpdated' => '1249633701',
-    'message' => 'URL zum Eintrag'
+    'lastUpdated' => '1250940170',
+    'message' => 'Produkt-URL'
   },
   'productUrl' => {
     'lastUpdated' => '1249633763',
@@ -230,8 +230,8 @@ Wenn Sie also eine Kategorie "Blumen und Pflanzen" hätten, wäre die Bezeichnun
     'message' => 'Bewerten'
   },
   'ratings' => {
-    'lastUpdated' => '1246484453',
-    'message' => 'Übersicht der Bewertungen zu dieser Liste mit einem Formular zur Bewertung, falls ein Besucher das Item noch nicht bewertet hat.'
+    'lastUpdated' => '1250940305',
+    'message' => 'Übersicht der Bewertungen zu dieser Liste mit einem Formular zur Bewertung, falls ein Besucher das Produkt noch nicht bewertet hat.'
   },
   'report error label' => {
     'lastUpdated' => '1249633602',
@@ -246,12 +246,12 @@ Wenn Sie also eine Kategorie "Blumen und Pflanzen" hätten, wäre die Bezeichnun
     'message' => 'Respektabel'
   },
   'screenshots' => {
-    'lastUpdated' => '1244496114',
-    'message' => 'Screenshot zu dieser Liste'
+    'lastUpdated' => '1250940397',
+    'message' => 'Screenshots zu dieser Liste mit Hilfe des ukplayer.'
   },
   'screenshots description' => {
-    'lastUpdated' => '1249634000',
-    'message' => 'Laden Sie ein Bild oder ein Screenshot zum Produkt hoch.'
+    'lastUpdated' => '1250940545',
+    'message' => 'Laden Sie ein Bild zum Produkt oder einen Screenshot, falls es eine Software ist, hoch.'
   },
   'screenshots label' => {
     'lastUpdated' => '1247904482',
@@ -270,8 +270,8 @@ Wenn Sie also eine Kategorie "Blumen und Pflanzen" hätten, wäre die Bezeichnun
     'message' => 'Selektieren Sie eine Vorlage für die Standardansicht der Matrix.'
   },
   'template label' => {
-    'lastUpdated' => '1246484494',
-    'message' => 'Matrix Listenvorlage'
+    'lastUpdated' => '1250940624',
+    'message' => 'Matrix-Listenvorlage'
   },
   'value' => {
     'lastUpdated' => '1244495944',
@@ -282,24 +282,24 @@ Wenn Sie also eine Kategorie "Blumen und Pflanzen" hätten, wäre die Bezeichnun
     'message' => 'Version dieser Liste'
   },
   'version description' => {
-    'lastUpdated' => '1247904548',
-    'message' => 'Geben Sie die Versions-/Modellnummer für das Produkt ein.'
+    'lastUpdated' => '1250940767',
+    'message' => 'Geben Sie die Version/Edition/Modellnummer für das Produkt ein.'
   },
   'version label' => {
     'lastUpdated' => '1244496082',
     'message' => 'Version/Modell'
   },
   'views' => {
-    'lastUpdated' => '1244495997',
-    'message' => 'Anzahl der Aufrufe dieser Liste'
+    'lastUpdated' => '1250940839',
+    'message' => 'Anzahl der Betrachtungen dieser Liste'
   },
   'web site label' => {
     'lastUpdated' => '1246484507',
     'message' => 'Website'
   },
   'worst label' => {
-    'lastUpdated' => '1244496028',
-    'message' => 'Am schlechtesten'
+    'lastUpdated' => '1250940901',
+    'message' => 'Am Schlechtesten'
   },
   'your email label' => {
     'lastUpdated' => '1244496044',

@@ -923,12 +923,12 @@ Alle Daten gehen verloren und Sie können das nicht rückgängig machen!!<br><br
     'message' => 'Vorlage zu Bewertungsdetails'
   },
   'rating detail template description' => {
-    'lastUpdated' => '1222247994',
-    'message' => 'Selektiere eine Vorlage zur Anzeige der Bewertungsdetails'
+    'lastUpdated' => '1250934018',
+    'message' => 'Selektiere eine Vorlage zur Anzeige der Bewertungsdetails.'
   },
   'rating detail template label' => {
-    'lastUpdated' => '1245621358',
-    'message' => 'Vorlage Detailbewertung'
+    'lastUpdated' => '1250934127',
+    'message' => 'Bewertungsdetail-Vorlage'
   },
   'rating group' => {
     'lastUpdated' => '1245448541',
@@ -943,16 +943,16 @@ Alle Daten gehen verloren und Sie können das nicht rückgängig machen!!<br><br
     'message' => 'Erforderliche Zeit zwischen Bewertungen.'
   },
   'rating timeout description' => {
-    'lastUpdated' => '1250930747',
-    'message' => 'Stellt eine Zeit zwischen Bewertungen ein, damit Besucher eine Liste nicht zu oft bewerte können. '
+    'lastUpdated' => '1250934256',
+    'message' => 'Stellt eine Zeit zwischen Bewertungen ein, damit Besucher eine Liste nicht zu oft bewerten können. '
   },
   'rating timeout privileged' => {
-    'lastUpdated' => '1248720557',
-    'message' => 'Mindestzeit zwischen Bewertungen (Registrierte Benutzer)'
+    'lastUpdated' => '1250934313',
+    'message' => 'Mindestzeit zwischen Bewertungen für priviligierte Benutzer'
   },
   'rating timeout privileged description' => {
-    'lastUpdated' => '1250930941',
-    'message' => 'Priviligierten Benutzern können andere Zeiten zwischen Bewertungen erlaubt werden. '
+    'lastUpdated' => '1250934509',
+    'message' => 'Priviligierte Benutzer können eine andere Zeit zwischen Bewertungen haben als normale Benutzer welche die Erlaubnis zur Bewertung haben. '
   },
   'rating_loop' => {
     'lastUpdated' => undef,
@@ -1003,16 +1003,16 @@ Alle Daten gehen verloren und Sie können das nicht rückgängig machen!!<br><br
     'message' => 'Selektieren Sie eine Vorlage für die Screenshot-Konfiguration einer Liste.'
   },
   'screenshots config template label' => {
-    'lastUpdated' => '1247904341',
-    'message' => 'Vorlage Listenscreenshot Konfiguration'
+    'lastUpdated' => '1250934673',
+    'message' => 'Vorlage zur Listenscreenshot-Konfiguration'
   },
   'screenshots template description' => {
-    'lastUpdated' => '1250930793',
-    'message' => 'Selektieren Sie eine Vorlage für die Darstellung eines Screenshots'
+    'lastUpdated' => '1250934755',
+    'message' => 'Selektieren Sie eine Vorlage für die Darstellung der Listen-Screenshots.'
   },
   'screenshots template label' => {
-    'lastUpdated' => '1247904397',
-    'message' => 'Vorlage Listenscreenshot'
+    'lastUpdated' => '1250934799',
+    'message' => 'Listenscreenshots-Vorlage'
   },
   'search field description' => {
     'lastUpdated' => undef,
@@ -1031,8 +1031,8 @@ Alle Daten gehen verloren und Sie können das nicht rückgängig machen!!<br><br
     'message' => 'Selektieren Sie eine Vorlage für den "Suchen"-Bildschirm.'
   },
   'search template help title' => {
-    'lastUpdated' => '1249633119',
-    'message' => 'Variablen Matrix Suchvorlage'
+    'lastUpdated' => '1250934956',
+    'message' => 'Variablen der Matrix-Suchvorlage'
   },
   'search template label' => {
     'lastUpdated' => '1245448652',
@@ -1043,52 +1043,52 @@ Alle Daten gehen verloren und Sie können das nicht rückgängig machen!!<br><br
     'message' => 'URL zum Suchformular'
   },
   'search_url' => {
-    'lastUpdated' => '1245448632',
-    'message' => 'URL zur Suche'
+    'lastUpdated' => '1250935007',
+    'message' => 'URL zur Matrix-Suchseite'
   },
   'show ratings' => {
     'lastUpdated' => '1202812306',
     'message' => 'Bewertungen anzeigen'
   },
   'site statistics label' => {
-    'lastUpdated' => '1245448679',
-    'message' => 'Site Statistik'
+    'lastUpdated' => '1250935023',
+    'message' => 'Site-Statistik'
   },
   'sort alpha numeric label' => {
     'lastUpdated' => '1245621376',
     'message' => 'Alphanumerisch'
   },
   'sort by asset rank label' => {
-    'lastUpdated' => '1245621408',
-    'message' => 'Assetfolge'
+    'lastUpdated' => '1250935118',
+    'message' => 'Assetrang'
   },
   'sort by last updated label' => {
-    'lastUpdated' => '1245448494',
-    'message' => 'Am Rezentesten aktualisiert.'
+    'lastUpdated' => '1250935194',
+    'message' => 'Letzte Aktualisierung'
   },
   'sort by score label' => {
-    'lastUpdated' => '1245448445',
-    'message' => 'Score'
+    'lastUpdated' => '1250935274',
+    'message' => 'Bewertung'
   },
   'statistics cache timeout description' => {
-    'lastUpdated' => '1248720653',
-    'message' => 'Weil alle Benutzer die Statistiken in gleicher Form sehen, können diese zur Bescheleunigung des Verhaltens zwischengespeichert werden. Wie lange sollten die Statistiken zwischengespeichert werden?'
+    'lastUpdated' => '1250935433',
+    'message' => 'Weil alle Benutzer die Matrix-Statistiken in gleicher Form sehen, können diese zur Leistungssteigerung für eine gewisse Zeit zwischengespeichert werden. Wie lange sollten die Statistiken zwischengespeichert werden?'
   },
   'statistics cache timeout label' => {
-    'lastUpdated' => '1245448707',
-    'message' => 'Statistik Cache Timeout'
+    'lastUpdated' => '1250935486',
+    'message' => 'Statistik-Cache-Timeout'
   },
   'submission approval workflow description' => {
-    'lastUpdated' => '1245621587',
-    'message' => 'Selektieren Sie den Workflow zur Listenfreigabe'
+    'lastUpdated' => '1250935523',
+    'message' => 'Selektieren Sie den Workflow zur Listenfreigabe.'
   },
   'submission approval workflow label' => {
-    'lastUpdated' => '1245621506',
-    'message' => 'Workflow zur Annahme'
+    'lastUpdated' => '1250935571',
+    'message' => 'Workflow zur Listenfreigabe'
   },
   'template description' => {
-    'lastUpdated' => '1245621457',
-    'message' => 'Selektieren Sie eine Vorlage zur Standardanzeige der Matrix'
+    'lastUpdated' => '1250935607',
+    'message' => 'Selektieren Sie eine Vorlage zur Standardanzeige der Matrix.'
   },
   'template label' => {
     'lastUpdated' => '1245448510',
@@ -1187,16 +1187,16 @@ Alle Daten gehen verloren und Sie können das nicht rückgängig machen!!<br><br
     'message' => ''
   },
   'too few message' => {
-    'lastUpdated' => '1250930590',
-    'message' => 'Sie haben versucht nur eine Liste zu vergleichen. Wenn Sie nur eine Liste anschauen möchten, klicken Sie bitte auf den Namen.'
+    'lastUpdated' => '1250935723',
+    'message' => 'Sie haben versucht nur eine Liste zu vergleichen. Wenn Sie nur eine Liste anschauen möchten, klicken Sie bitte auf deren Namen.'
   },
   'too many message' => {
-    'lastUpdated' => '1245448315',
+    'lastUpdated' => '1250935760',
     'message' => 'Sie haben versucht, mehr als die maximale Anzahl von Listen zu vergleichen.'
   },
   'url' => {
-    'lastUpdated' => '1192797234',
-    'message' => 'URL'
+    'lastUpdated' => '1250935843',
+    'message' => 'Listen-URL'
   },
   'user.canApprove' => {
     'lastUpdated' => '1223576224',
@@ -1251,8 +1251,8 @@ Alle Daten gehen verloren und Sie können das nicht rückgängig machen!!<br><br
     'message' => 'Am Schlechtesten bewertet'
   },
   'worst_rating_loop' => {
-    'lastUpdated' => '1222247463',
-    'message' => 'Eine Schleife mit allen Kategorien und deren schlechtesten Bewertung.'
+    'lastUpdated' => '1250936152',
+    'message' => 'Eine Schleife mit den schlechtesten bewerteten Listen für jede Kategorie dieser Matrix.'
   },
   'yes' => {
     'lastUpdated' => '1192797163',
