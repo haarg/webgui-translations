@@ -18,8 +18,8 @@ our $I18N = {
     'message' => 'Matrixvergleich'
   },
   'no' => {
-    'lastUpdated' => '1228400950',
-    'message' => 'No'
+    'lastUpdated' => '1251061664',
+    'message' => 'Nein'
   },
   'topicName' => {
     'lastUpdated' => '1228689872',
