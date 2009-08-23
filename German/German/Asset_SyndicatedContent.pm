@@ -38,16 +38,20 @@ our $I18N = {
     'message' => 'Syndizierte Inhalte'
   },
   'cache timeout' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => '1251056332',
+    'message' => 'Cache Timeout'
   },
   'cache timeout help' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => '1251056502',
+    'message' => 'Da alle Nutzer dieses Asset auf die selbe Art sehen kann es zur Leistungssteigerung für einen langen Zeitraum gecachet werden. Wie lange soll es gecachet werden?'
   },
   'cacheTimeout' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => '1251057627',
+    'message' => 'Sekunden, die die Daten dieses Asset gecachet werden.'
+  },
+  'category' => {
+    'lastUpdated' => '1251057659',
+    'message' => 'Eine Kategorie, zu der diese Meldung gehört'
   },
   'channel.description' => {
     'lastUpdated' => undef,
@@ -60,6 +64,14 @@ our $I18N = {
   'channel.title' => {
     'lastUpdated' => undef,
     'message' => ''
+  },
+  'channel_copyright' => {
+    'lastUpdated' => '1251057719',
+    'message' => 'Urheberrechtsinformation. Diese Variable wird in einer Multi-Feed-Liste beim ersten Feed ausgegeben.'
+  },
+  'date' => {
+    'lastUpdated' => '1251056539',
+    'message' => 'Der Veröffentlichungszeitpunkt dieser Meldung.'
   },
   'description' => {
     'lastUpdated' => undef,
@@ -89,6 +101,10 @@ our $I18N = {
     'lastUpdated' => undef,
     'message' => ''
   },
+  'guid' => {
+    'lastUpdated' => '1251056711',
+    'message' => 'Eine eindeutige ID für diese Meldung'
+  },
   'hasTerms' => {
     'lastUpdated' => undef,
     'message' => ''
@@ -110,8 +126,8 @@ our $I18N = {
     'message' => ''
   },
   'link' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => '1251056694',
+    'message' => 'Der URL direkt zum Inhalt der Meldung'
   },
   'maxHeadlines' => {
     'lastUpdated' => undef,
@@ -174,8 +190,8 @@ our $I18N = {
     'message' => 'Syndizierte Inhalte Asset Template Variablen'
   },
   'templateId' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => '1251056578',
+    'message' => 'Die ID des Templates mit dem dieses Asset angezeigt wird.'
   },
   'title' => {
     'lastUpdated' => undef,
