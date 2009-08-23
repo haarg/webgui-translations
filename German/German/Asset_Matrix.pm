@@ -10,24 +10,24 @@ our $I18N = {
     'message' => 'Zurück zur Matrix'
   },
   'Sort by clicks' => {
-    'lastUpdated' => '1250870479',
-    'message' => 'Sortieren nach Klicks'
+    'lastUpdated' => '1251039636',
+    'message' => 'nach Klicks'
   },
   'Sort by compares' => {
-    'lastUpdated' => '1250870504',
-    'message' => 'Sortieren nach Vergleichen'
+    'lastUpdated' => '1251039648',
+    'message' => 'nach Vergleichen'
   },
   'Sort by name' => {
-    'lastUpdated' => '1250870519',
-    'message' => 'Sortieren nach Name'
+    'lastUpdated' => '1251039676',
+    'message' => 'nach Name'
   },
   'Sort by updated' => {
-    'lastUpdated' => '1250870813',
-    'message' => 'Sortieren nach Aktualisierung'
+    'lastUpdated' => '1251039657',
+    'message' => 'nach Aktualität'
   },
   'Sort by views' => {
-    'lastUpdated' => '1250870833',
-    'message' => 'Sortieren nach Ansichten'
+    'lastUpdated' => '1251039667',
+    'message' => 'nach Aufrufen'
   },
   'add attribute label' => {
     'lastUpdated' => '1245433009',
