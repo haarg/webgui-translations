@@ -5,12 +5,12 @@ use utf8;
 our $I18N = {
 	'age to delete help' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'age to delete' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'activityName' => {

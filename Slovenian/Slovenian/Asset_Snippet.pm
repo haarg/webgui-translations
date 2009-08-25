@@ -5,27 +5,27 @@ use utf8;
 our $I18N = {
 	'cache timeout help' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'snippet description' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'process as template' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'process as template description' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'mimeType description' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'assetName' => {
@@ -35,12 +35,12 @@ our $I18N = {
 
 	'cache timeout' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'mimeType' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 };
