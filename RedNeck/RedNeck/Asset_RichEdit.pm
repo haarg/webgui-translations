@@ -5,62 +5,62 @@ use utf8;
 our $I18N = {
 	'disable rich edit' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'row 2' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'underline' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'styleselect' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'italic' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'print' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'save' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'anchor' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'toolbar buttons' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'left to right' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'code' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'formatselect' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'elements description' => {
@@ -70,262 +70,262 @@ our $I18N = {
 
 	'elements' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'tablecontrols' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'right to left' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'bullist' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'indent' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'row 3' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'remove line breaks' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'pastetext' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'directionality' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'top' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'css file description' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'insertImage' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'use br description' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'preformatted description' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'backcolor' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'justifyleft' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'using rich edit description' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'justifyright' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'rich edit edit config' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'visualaid' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'numlist' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'bold' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'Server Side Spell Checker' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'bottom' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'using rich edit' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'image' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'editor height description' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'toolbar buttons description' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'enable context menu description' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'removeformat' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'iespell' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'elements subtext' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'search' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'forecolor' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'paste' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'assetName' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'editor width description' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'editor width' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'no wrap' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'copy' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'redo' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'unlink' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'strikethrough' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'row 1' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'sup' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'cleanup' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'use br' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'collateral' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'undo' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'flash' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'justifyfull' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'source editor height' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'advhr' => {
@@ -335,172 +335,172 @@ our $I18N = {
 
 	'outdent' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'justifycenter' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'replace' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'hr' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'no dictionaries' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'preview' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'source editor width description' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'pagetree' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'pasteword' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'enable context menu' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'charmap' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'inserttime' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'source editor height description' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'editor height' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'css file' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'remove line breaks description' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'fontsizeselect' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'cut' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'toolbar location' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'no wrap description' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'source editor width' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'help' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'disable rich edit description' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'preformatted' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'link' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'fontselect' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'emotions' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'zoom' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'toolbar location description' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'sub' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'button' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'fullscreen' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'insertdate' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'directionality description' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 };

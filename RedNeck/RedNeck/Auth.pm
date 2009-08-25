@@ -1,209 +1,167 @@
 package WebGUI::i18n::RedNeck::Auth;
 use utf8;
-use utf8;
-
-
 our $I18N = {
-	'login.form.header' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'create.form.header' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'create.form.profile.id.formElement' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'display account template title' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'account.options' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'create.form.profile' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'login template title' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'account.form.header' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'login.form.hidden' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'no.url' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'profile.required' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'account.form.submit' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'no.label' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'login.form.password.label' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'login.url' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'yes.label' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'title' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'createAccount.url' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'anon reg template title' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'account.form.karma' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'login.form.footer' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'anonymousRegistration.isAllowed' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'account.form.footer' => {
-		message => q|The required form elements that go after the display account page form.|,
-		lastUpdated => 1168203209
-	},
-
-	'login.form.password' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'create.form.profile.id.required' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'create.form.profile.id.formElement.label' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'yes.url' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'create.form.submit' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'topicName' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'login.form.username' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'account.form.karma.label' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'deactivate account template title' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'login.form.username.label' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'profile.formElement' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'profile.formElement.label' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'create.form.footer' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'login.form.submit' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'createAccount.label' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'question' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-	'login.label' => {
-		message => q||,
-		lastUpdated => 
-	},
-
-};
+  'account.form.footer' => {
+    'lastUpdated' => '1168203209',
+    'message' => 'The required form elements that go after the display account page form.'
+  },
+  'account.form.header' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'account.form.karma' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'account.form.karma.label' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'account.form.submit' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'account.options' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'anon reg template title' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'anonymousRegistration.isAllowed' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'create.form.footer' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'create.form.header' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'create.form.profile' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'create.form.profile.id.formElement' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'create.form.profile.id.formElement.label' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'create.form.profile.id.required' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'create.form.submit' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'createAccount.label' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'createAccount.url' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'deactivate account template title' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'display account template title' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'login template title' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'login.form.footer' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'login.form.header' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'login.form.hidden' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'login.form.password' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'login.form.password.label' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'login.form.submit' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'login.form.username' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'login.form.username.label' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'login.label' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'login.url' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'no.label' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'no.url' => {
+    'lastUpdated' => '1244215466',
+    'message' => 'Earl, leave the user\'s account alone'
+  },
+  'profile.formElement' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'profile.formElement.label' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'profile.required' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'question' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'title' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'topicName' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'yes.label' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'yes.url' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  }
+}
+;
 
 1;

@@ -1,83 +1,47 @@
 package WebGUI::i18n::RedNeck::AdSpace;
 use utf8;
 our $I18N = {
-  'priority' => {
-    'lastUpdated' => undef,
-    'message' => ''
+  'ad id' => {
+    'lastUpdated' => '1168222071',
+    'message' => 'Varment'
   },
-  'is active' => {
-    'lastUpdated' => undef,
-    'message' => 'b'
+  'ad space id' => {
+    'lastUpdated' => '1202282407',
+    'message' => 'where dem vermin go'
+  },
+  'ad text' => {
+    'lastUpdated' => '1168222922',
+    'message' => 'Putter In'
+  },
+  'ad text help' => {
+    'lastUpdated' => '1168223031',
+    'message' => 'testing'
+  },
+  'add ad space' => {
+    'lastUpdated' => '1168192916',
+    'message' => 'dss'
+  },
+  'add ad space body' => {
+    'lastUpdated' => '1168194732',
+    'message' => 'adfsasdf'
   },
   'add an ad' => {
     'lastUpdated' => 1,
     'message' => 'adfs'
   },
-  'image help' => {
-    'lastUpdated' => undef,
-    'message' => ''
-  },
-  'text color' => {
-    'lastUpdated' => undef,
-    'message' => ''
-  },
-  'edit ad space' => {
-    'lastUpdated' => undef,
-    'message' => ''
-  },
-  'ad text' => {
-    'lastUpdated' => 1168222922,
-    'message' => 'Putter In'
-  },
-  'url' => {
-    'lastUpdated' => 1215008296,
-    'message' => 'Earl'
-  },
   'background color' => {
-    'lastUpdated' => 1168200602,
+    'lastUpdated' => '1168200602',
     'message' => 'dfs'
   },
-  'manage ad spaces' => {
-    'lastUpdated' => undef,
-    'message' => ''
-  },
-  'title help' => {
-    'lastUpdated' => undef,
-    'message' => ''
-  },
-  'text color help' => {
-    'lastUpdated' => undef,
-    'message' => ''
-  },
-  'description help' => {
-    'lastUpdated' => undef,
-    'message' => ''
-  },
-  'border color help' => {
-    'lastUpdated' => undef,
-    'message' => ''
-  },
-  'rich help' => {
-    'lastUpdated' => undef,
-    'message' => ''
-  },
-  'name' => {
-    'lastUpdated' => undef,
-    'message' => ''
+  'background color help' => {
+    'lastUpdated' => '1168200609',
+    'message' => 'asdf'
   },
   'border color' => {
-    'lastUpdated' => 1203545579,
+    'lastUpdated' => '1203545579',
     'message' => 'border color'
   },
-  'priority help' => {
-    'lastUpdated' => undef,
-    'message' => ''
-  },
-  'description' => {
-    'lastUpdated' => undef,
-    'message' => ''
-  },
-  'height help' => {
+  'border color help' => {
     'lastUpdated' => undef,
     'message' => ''
   },
@@ -85,51 +49,11 @@ our $I18N = {
     'lastUpdated' => undef,
     'message' => ''
   },
-  'width help' => {
+  'clicks bought help' => {
     'lastUpdated' => undef,
     'message' => ''
   },
-  'ad id' => {
-    'lastUpdated' => 1168222071,
-    'message' => 'Varment'
-  },
-  'used' => {
-    'lastUpdated' => undef,
-    'message' => ''
-  },
-  'type' => {
-    'lastUpdated' => undef,
-    'message' => ''
-  },
-  'title' => {
-    'lastUpdated' => 1202282489,
-    'message' => 'name'
-  },
-  'error heading' => {
-    'lastUpdated' => undef,
-    'message' => ''
-  },
-  'type help' => {
-    'lastUpdated' => undef,
-    'message' => ''
-  },
-  'add ad space body' => {
-    'lastUpdated' => 1168194732,
-    'message' => 'adfsasdf'
-  },
-  'width' => {
-    'lastUpdated' => undef,
-    'message' => ''
-  },
-  'impressions bought' => {
-    'lastUpdated' => undef,
-    'message' => ''
-  },
-  'topicName' => {
-    'lastUpdated' => undef,
-    'message' => ''
-  },
-  'is active help' => {
+  'confirm ad delete' => {
     'lastUpdated' => undef,
     'message' => ''
   },
@@ -137,43 +61,27 @@ our $I18N = {
     'lastUpdated' => undef,
     'message' => ''
   },
+  'description' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'description help' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'edit ad space' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'edit advertisement' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
   'edit this ad space' => {
     'lastUpdated' => undef,
     'message' => ''
   },
-  'text' => {
-    'lastUpdated' => undef,
-    'message' => ''
-  },
-  'url help' => {
-    'lastUpdated' => undef,
-    'message' => ''
-  },
-  'name help' => {
-    'lastUpdated' => undef,
-    'message' => ''
-  },
-  'rich' => {
-    'lastUpdated' => 1202282463,
-    'message' => 'thievin\''
-  },
-  'ad text help' => {
-    'lastUpdated' => 1168223031,
-    'message' => 'testing'
-  },
-  'background color help' => {
-    'lastUpdated' => 1168200609,
-    'message' => 'asdf'
-  },
-  'confirm ad delete' => {
-    'lastUpdated' => undef,
-    'message' => ''
-  },
-  'ad space id' => {
-    'lastUpdated' => 1202282407,
-    'message' => 'where dem vermin go'
-  },
-  'clicks bought help' => {
+  'error heading' => {
     'lastUpdated' => undef,
     'message' => ''
   },
@@ -185,23 +93,115 @@ our $I18N = {
     'lastUpdated' => undef,
     'message' => ''
   },
+  'height help' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
   'image' => {
-    'lastUpdated' => 1201355812,
+    'lastUpdated' => '1201355812',
     'message' => 'pitchure'
+  },
+  'image help' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'impressions bought' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'impressions bought help' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'is active' => {
+    'lastUpdated' => '1244215133',
+    'message' => 'izit activ?  Isn\'t that some kind of yogurt?'
+  },
+  'is active help' => {
+    'lastUpdated' => undef,
+    'message' => ''
   },
   'macro code prompt' => {
     'lastUpdated' => undef,
     'message' => ''
   },
-  'add ad space' => {
-    'lastUpdated' => 1168192916,
-    'message' => 'dss'
-  },
-  'edit advertisement' => {
+  'manage ad spaces' => {
     'lastUpdated' => undef,
     'message' => ''
   },
-  'impressions bought help' => {
+  'name' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'name help' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'priority' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'priority help' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'rich' => {
+    'lastUpdated' => '1202282463',
+    'message' => 'thievin\''
+  },
+  'rich help' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'text' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'text color' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'text color help' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'title' => {
+    'lastUpdated' => '1202282489',
+    'message' => 'name'
+  },
+  'title help' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'topicName' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'type' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'type help' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'url' => {
+    'lastUpdated' => '1215008296',
+    'message' => 'Earl'
+  },
+  'url help' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'used' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'width' => {
+    'lastUpdated' => undef,
+    'message' => ''
+  },
+  'width help' => {
     'lastUpdated' => undef,
     'message' => ''
   }
