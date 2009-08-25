@@ -10,8 +10,7 @@ our $I18N = {
 
 	'' => {
 		message => q||,
-		lastUpdated => 
-	},
+		lastUpdated => 0	},
 
 	'ef unsigned label' => {
 		message => q|لم يتم توقيعه<br />|,

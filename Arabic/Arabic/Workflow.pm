@@ -94,8 +94,7 @@ our $I18N = {
 
 	'mode help' => {
 		message => q||,
-		lastUpdated => 
-	},
+		lastUpdated => 0	},
 
 	'title' => {
 		message => q|العنوان|,

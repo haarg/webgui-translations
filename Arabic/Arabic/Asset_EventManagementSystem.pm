@@ -694,8 +694,7 @@ our $I18N = {
 
 	'import field is duplicate key description' => {
 		message => q||,
-		lastUpdated => 
-	},
+		lastUpdated => 0	},
 
 	'ends.label' => {
 		message => q|العلامة الدولية لكلمة &quot;ينتهي&quot;<br />|,
@@ -799,8 +798,7 @@ our $I18N = {
 
 	'import file contains field description' => {
 		message => q||,
-		lastUpdated => 
-	},
+		lastUpdated => 0	},
 
 	'paginateBar' => {
 		message => q|شريط لمساعدة المستخدم خلال مجوعات الاحداث اذا كانت هناك عدد من صفحات الاحداث.<br />|,
@@ -849,8 +847,7 @@ our $I18N = {
 
 	'import invalid template' => {
 		message => q||,
-		lastUpdated => 
-	},
+		lastUpdated => 0	},
 
 	'type label here' => {
 		message => q|اكتب العلامة هنا<br />|,
@@ -909,13 +906,11 @@ our $I18N = {
 
 	'import hoverhelp file' => {
 		message => q||,
-		lastUpdated => 
-	},
+		lastUpdated => 0	},
 
 	'import hoverhelp dups' => {
 		message => q||,
-		lastUpdated => 
-	},
+		lastUpdated => 0	},
 
 	'tmplVar sku template' => {
 		message => q|نموذج SKU المستخدم لعمل الSKU لهذا الحدث<br />|,
@@ -939,8 +934,7 @@ our $I18N = {
 
 	'import form header' => {
 		message => q||,
-		lastUpdated => 
-	},
+		lastUpdated => 0	},
 
 	'tmplVar error' => {
 		message => q|يحتوي على رسالة خطأ دولية تخبر المستخدم ان مجالات محددة لا يمكن ان تكون فارغة. اسم المجال المعاد في هذه الرسالة هو العلامة الدولية للمجال الي ترك فارغا. <br />|,
@@ -1329,8 +1323,7 @@ our $I18N = {
 
 	'import invalid prereq' => {
 		message => q||,
-		lastUpdated => 
-	},
+		lastUpdated => 0	},
 
 	'add/edit event assigned prerequisites' => {
 		message => q|المتطلبات الاساسية المحددة<br />|,

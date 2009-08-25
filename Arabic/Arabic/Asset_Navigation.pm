@@ -4,8 +4,7 @@ use utf8;
 our $I18N = {
 	'' => {
 		message => q||,
-		lastUpdated => 
-	},
+		lastUpdated => 0	},
 
 	'showUnprivilegedPages' => {
 		message => q|ما اذا تم ضبط التصفح على عرض الصفحات التي لا يمكن للمستخدم الحالي الاطلاع عليها.|,

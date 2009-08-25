@@ -414,8 +414,7 @@ our $I18N = {
 
 	'SubscriptionGroup formName' => {
 		message => q||,
-		lastUpdated => 
-	},
+		lastUpdated => 0	},
 
 	'160' => {
 		message => q|تاريخ الادخال<br />|,
@@ -1149,8 +1148,7 @@ our $I18N = {
 
 	'Attachments formName' => {
 		message => q||,
-		lastUpdated => 
-	},
+		lastUpdated => 0	},
 
 	'860' => {
 		message => q|اظهر عنوان البريد الالكتروني؟<br />|,
@@ -1169,8 +1167,7 @@ our $I18N = {
 
 	'broken spectre title' => {
 		message => q||,
-		lastUpdated => 
-	},
+		lastUpdated => 0	},
 
 	'333' => {
 		message => q|بلد العمل<br />|,
@@ -1329,8 +1326,7 @@ our $I18N = {
 
 	'SelectRichEditor formName' => {
 		message => q||,
-		lastUpdated => 
-	},
+		lastUpdated => 0	},
 
 	'default rich editor' => {
 		message => q|المعدل الغني الاعتيادي<br /> |,
@@ -1819,8 +1815,7 @@ our $I18N = {
 
 	'broken spectre body' => {
 		message => q||,
-		lastUpdated => 
-	},
+		lastUpdated => 0	},
 
 	'730' => {
 		message => q|1 قليل الخبرة<br />|,
@@ -3204,8 +3199,7 @@ our $I18N = {
 
 	'auto request commit help' => {
 		message => q||,
-		lastUpdated => 
-	},
+		lastUpdated => 0	},
 
 	'561' => {
 		message => q|تم رفضه<br />|,
@@ -3459,8 +3453,7 @@ our $I18N = {
 
 	'external help' => {
 		message => q||,
-		lastUpdated => 
-	},
+		lastUpdated => 0	},
 
 	'54' => {
 		message => q|<p>قم بعمل حساب<br /></p>|,
