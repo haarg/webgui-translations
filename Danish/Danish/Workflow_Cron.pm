@@ -4,42 +4,42 @@ use utf8;
 our $I18N = {
 	'manage tasks' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'priority' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'disabled' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'is enabled help' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'day of week' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'topicName' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'high' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'minute of hour' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'create cron job' => {
@@ -49,12 +49,12 @@ our $I18N = {
 
 	'medium' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'low' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'day of month help' => {
@@ -64,37 +64,37 @@ our $I18N = {
 
 	'id' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'enabled' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'run once' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'hour of day help' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'hour of day' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'is enabled' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'title help' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'add a new task' => {
@@ -104,12 +104,12 @@ our $I18N = {
 
 	'priority help' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'workflow' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'are you sure you wish to delete this scheduled task' => {
@@ -119,32 +119,32 @@ our $I18N = {
 
 	'month of year' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'month of year help' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'minute of hour help' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'run once help' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'title' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'workflow help' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'day of month' => {
@@ -154,7 +154,7 @@ our $I18N = {
 
 	'day of week help' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 };
