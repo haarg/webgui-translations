@@ -1,0 +1,5 @@
+package WebGUI::i18n::Bulgarian::Account_User;
+use utf8;
+our $I18N = {};
+
+1;
