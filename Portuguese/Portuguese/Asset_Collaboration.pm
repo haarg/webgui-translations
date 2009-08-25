@@ -154,8 +154,8 @@ our $I18N = {
     'message' => 'A palavra &quot;Por&quot;.'
   },
   'captcha label' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => '1240164761',
+    'message' => 'Confirme as palavras'
   },
   'close' => {
     'lastUpdated' => '1206455336',
@@ -326,12 +326,12 @@ our $I18N = {
     'message' => ''
   },
   'edit message' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => '1240164053',
+    'message' => 'Editar Mensagem'
   },
   'edit question' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => '1240164074',
+    'message' => 'Editar Quest&atilde;o'
   },
   'edit stamp' => {
     'lastUpdated' => undef,
@@ -554,8 +554,8 @@ our $I18N = {
     'message' => ''
   },
   'lastReply' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => '1240164273',
+    'message' => '&Uacute;ltima Resposta'
   },
   'lastReply.dateSubmitted.human' => {
     'lastUpdated' => undef,
@@ -610,8 +610,8 @@ our $I18N = {
     'message' => ''
   },
   'location' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => '1240164293',
+    'message' => 'Localiza&ccedil;&atilde;o'
   },
   'location.label' => {
     'lastUpdated' => undef,
@@ -678,8 +678,8 @@ our $I18N = {
     'message' => ''
   },
   'message' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => '1240164156',
+    'message' => 'Mensagem'
   },
   'message.header.label' => {
     'lastUpdated' => undef,
@@ -710,8 +710,8 @@ our $I18N = {
     'message' => ''
   },
   'next' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => '1240164216',
+    'message' => 'Seguinte'
   },
   'next.label' => {
     'lastUpdated' => undef,
@@ -726,8 +726,8 @@ our $I18N = {
     'message' => ''
   },
   'open' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => '1240164310',
+    'message' => 'Abrir'
   },
   'open.label' => {
     'lastUpdated' => undef,
@@ -766,12 +766,12 @@ our $I18N = {
     'message' => ''
   },
   'preview' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => '1240166231',
+    'message' => 'pr&eacute;- visualizar'
   },
   'previous' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => '1240164232',
+    'message' => 'Anterior'
   },
   'previous.label' => {
     'lastUpdated' => undef,
@@ -798,8 +798,8 @@ our $I18N = {
     'message' => ''
   },
   'rate' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => '1240163967',
+    'message' => 'Pontuar'
   },
   'rate.label' => {
     'lastUpdated' => undef,
@@ -926,8 +926,8 @@ our $I18N = {
     'message' => ''
   },
   'sort by' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => '1240162683',
+    'message' => 'Ordenar Por'
   },
   'sort by description' => {
     'lastUpdated' => undef,

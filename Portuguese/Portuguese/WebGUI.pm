@@ -37,6 +37,14 @@ our $I18N = {
     'lastUpdated' => '1240086624',
     'message' => 'Conclu&iacute;do'
   },
+  452 => {
+    'lastUpdated' => '1240166400',
+    'message' => 'Espere por favor...'
+  },
+  493 => {
+    'lastUpdated' => '1240167114',
+    'message' => 'Voltar ao site.'
+  },
   560 => {
     'lastUpdated' => '1240086589',
     'message' => 'Aprovado'
@@ -44,6 +52,18 @@ our $I18N = {
   572 => {
     'lastUpdated' => '1240086605',
     'message' => 'Aprovar'
+  },
+  62 => {
+    'lastUpdated' => '1240165230',
+    'message' => 'guardar'
+  },
+  'preview' => {
+    'lastUpdated' => '1240165085',
+    'message' => 'Pr&eacute;-Visualiza&ccedil;&atilde;o'
+  },
+  'save' => {
+    'lastUpdated' => '1240165049',
+    'message' => 'Guardar'
   },
   'user' => {
     'lastUpdated' => '1240083996',
