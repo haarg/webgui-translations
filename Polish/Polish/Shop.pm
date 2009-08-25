@@ -97,6 +97,10 @@ our $I18N = {
     'lastUpdated' => '1238412716',
     'message' => 'Kasjer'
   },
+  'checkout button' => {
+    'lastUpdated' => '1247816829',
+    'message' => "P\x{142}ac\x{119}"
+  },
   'choose payment gateway message' => {
     'lastUpdated' => '1247743001',
     'message' => "W jaki spos\x{f3}b chcia\x{142}by\x{15b} zap\x{142}aci\x{107}?"
@@ -108,6 +112,10 @@ our $I18N = {
   'code' => {
     'lastUpdated' => '1238412679',
     'message' => 'Kod pocztowy'
+  },
+  'continue shopping button' => {
+    'lastUpdated' => '1247817053',
+    'message' => 'Powrót do sklepu'
   },
   'country' => {
     'lastUpdated' => '1234060181',
