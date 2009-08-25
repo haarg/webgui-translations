@@ -2,8 +2,8 @@ package WebGUI::i18n::French::Account_Friends;
 use utf8;
 our $I18N = {
   'add to friends confirmation' => {
-    'lastUpdated' => '1231231728',
-    'message' => 'Un email a &eacute;t&eacute; envoy&eacute; &agrave; xxx@xxx.fr pour la demande d\'amiti&eacute;.'
+    'lastUpdated' => '1244374800',
+    'message' => 'Un email a été envoyé à %s pour la demande d\'amitié.'
   },
   'add to network label' => {
     'lastUpdated' => '1241175566',
@@ -46,8 +46,8 @@ our $I18N = {
     'message' => 'Erreur'
   },
   'error user is already friend' => {
-    'lastUpdated' => '1231231754',
-    'message' => 'Cette personne est d&eacute;j&agrave; dans votre liste d\'amis !'
+    'lastUpdated' => '1244406861',
+    'message' => 'Cette personne est déjà dans votre liste d\'amis !'
   },
   'error user is already invited' => {
     'lastUpdated' => '1241175556',

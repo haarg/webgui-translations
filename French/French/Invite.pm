@@ -29,7 +29,7 @@ our $I18N = {
 
 	'inviteFormError' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'invite a friend title' => {

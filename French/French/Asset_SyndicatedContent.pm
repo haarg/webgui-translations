@@ -4,32 +4,32 @@ use utf8;
 our $I18N = {
 	'displayMode' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'rssUrl' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'rss.url.2.0' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'rss.url.1.0' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'72 description' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'rss.url.0.91' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'assetName' => {
@@ -39,27 +39,27 @@ our $I18N = {
 
 	'descriptionFirst2sentences' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'site_link' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'displayModeLabel' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'channel.link' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'syndicated content asset template variables title' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'1' => {
@@ -79,37 +79,37 @@ our $I18N = {
 
 	'get syndicated content' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'hasTermsLabel description' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'descriptionFirst50words' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'process macros in rss url' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'descriptionFirst3sentences' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'rssTabName' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'item_loop' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'description' => {
@@ -119,27 +119,27 @@ our $I18N = {
 
 	'hasTerms' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'site_title' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'descriptionFirst100words' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'hasTermsLabel' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'rss.url' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'title' => {
@@ -154,72 +154,72 @@ our $I18N = {
 
 	'interleaved' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'cache timeout help' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'descriptionFirst2paragraphs' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'channel.title' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'descriptionFirstParagraph' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'displayModeSubtext' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'channel.description' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'process macros in rss url description' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'cache timeout' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'descriptionFirst75words' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'templateId' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'displayModeLabel description' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'link' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'cacheTimeout' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'3' => {
@@ -229,37 +229,37 @@ our $I18N = {
 
 	'grouped' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'descriptionFirst4sentences' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'maxHeadlines' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'descriptionFirstSentence' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'descriptionFirst25words' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'new_rss_site' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'rss.url.0.9' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'4' => {
@@ -269,17 +269,17 @@ our $I18N = {
 
 	'RSS Feed Title Suffix' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'descriptionFirst10words' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'processMacrosInRssUrl' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 };

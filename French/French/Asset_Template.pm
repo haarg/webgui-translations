@@ -14,7 +14,7 @@ our $I18N = {
 
 	'style wizard' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'assetName' => {
@@ -24,62 +24,62 @@ our $I18N = {
 
 	'head block' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'header background color' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'session.setting.companyName' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'body background color description' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'parser description' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'visited link color' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'plugin name' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'template parsers' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'template variable title' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'header text color description' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'namespace description' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'session.var.adminOn' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'webgui.status' => {
@@ -89,32 +89,32 @@ our $I18N = {
 
 	'template parsers list title' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'session.user.firstDayOfWeek' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'choose a layout' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'head block description' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'header text color' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'header background color description' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'template error' => {
@@ -124,52 +124,52 @@ our $I18N = {
 
 	'page background color description' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'parser' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'link color' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'default parser' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'site name description' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'body background color' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'session.user.username' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'body content' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'session.config.extrasurl' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'page background color' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'session scratch variables' => {
@@ -179,17 +179,17 @@ our $I18N = {
 
 	'logo subtext' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'body text color description' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'logo description' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'webgui.version' => {
@@ -199,7 +199,7 @@ our $I18N = {
 
 	'show in forms description' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'menu background color description' => {
@@ -209,12 +209,12 @@ our $I18N = {
 
 	'namespace' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'visited link color description' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'edit template' => {
@@ -224,12 +224,12 @@ our $I18N = {
 
 	'template parsers list body' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'session form variables' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'menu' => {
@@ -239,12 +239,12 @@ our $I18N = {
 
 	'session.setting.anonymousRegistration' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'plugin enabled header' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'logo' => {
@@ -254,22 +254,22 @@ our $I18N = {
 
 	'link color description' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'show in forms' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'body text color' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'template description' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'menu background color' => {

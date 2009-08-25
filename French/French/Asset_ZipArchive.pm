@@ -4,7 +4,7 @@ use utf8;
 our $I18N = {
 	'za_show_error' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'fileUrl' => {
@@ -14,12 +14,12 @@ our $I18N = {
 
 	'template label' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'noInitialPage var' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'assetName' => {
@@ -29,32 +29,32 @@ our $I18N = {
 
 	'za_error' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'show page' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'noFileSpecified' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'zip archive asset variables body' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'zip archive asset variables title' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'zip_error' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'error' => {
@@ -64,7 +64,7 @@ our $I18N = {
 
 	'unzip_error' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'controls' => {
@@ -74,7 +74,7 @@ our $I18N = {
 
 	'templateId' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'bad_archive' => {
@@ -84,37 +84,37 @@ our $I18N = {
 
 	'noInitialPage' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'zip archive template title' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'noFileSpecified var' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'fileIcon' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'zip archive template body' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'showPage' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'show page description' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 };

@@ -217,6 +217,10 @@ our $I18N = {
     'lastUpdated' => '1242924451',
     'message' => ''
   },
+  'monthly' => {
+    'lastUpdated' => '1242927947',
+    'message' => 'Mois'
+  },
   'payment address' => {
     'lastUpdated' => '1242922103',
     'message' => 'Adresse de paiement'
@@ -240,6 +244,26 @@ our $I18N = {
   'phone number' => {
     'lastUpdated' => '1242922225',
     'message' => 'Numéro de téléphone'
+  },
+  'price' => {
+    'lastUpdated' => '1242927964',
+    'message' => 'Prix'
+  },
+  'print' => {
+    'lastUpdated' => '1242927976',
+    'message' => 'Imprimer'
+  },
+  'products' => {
+    'lastUpdated' => '1242927988',
+    'message' => 'Produits'
+  },
+  'quantity' => {
+    'lastUpdated' => '1242927999',
+    'message' => 'Quantité'
+  },
+  'quarterly' => {
+    'lastUpdated' => '1242928017',
+    'message' => 'Trimestre'
   },
   'remove button' => {
     'lastUpdated' => '1242924029',

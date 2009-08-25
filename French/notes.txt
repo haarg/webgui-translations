@@ -1,25 +1,29 @@
 Notes sur les traductions
 **************************
 
-Template = Gabarit (Terme employé à l'origine) à remplacer par "Modèle"
-Asset = Module
+- Les verbes d'action sont à "l'infinitif"
+
+- Termes pour lesquels une traduction standard serait nécessaire (dans l'ordre alphabétique):
+
 account = compte
-
-Les verbes d'action sont à "l'infinitif"
-
-
-autres termes pour lequels une traduction standard serait nécessaire:
-
-
+asset = module
+contributions = contributions
+identifier = nom? identifiant?
 instantiate
-label = étiquette ? (cyrille:ok)
-plugin = plugin ? (cyrille:ok)
-identifier = nom ? 
-contributions
+label = étiquette? (cyrille:ok)
+layout = mise en page
+login = connexion?
+plugin = plugin? (cyrille:ok)
+template = gabarit (Terme employé à l'origine) à remplacer par "modèle"
+
 
 *****************************
 Traducteurs :
 mirod (mirod@cpan.org), cyrille (colin@univ-metz.fr)
+
+
+
+
 
 
 

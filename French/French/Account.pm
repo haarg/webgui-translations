@@ -2,8 +2,8 @@ package WebGUI::i18n::French::Account;
 use utf8;
 our $I18N = {
   'Error: Cannot instantiate template' => {
-    'lastUpdated' => '1241164280',
-    'message' => 'Erreur: impossible de remplir le gabarit %s pour la classe %s'
+    'lastUpdated' => '1244374302',
+    'message' => 'Erreur: impossible de remplir le modèle %s pour la classe %s'
   },
   'account className' => {
     'lastUpdated' => '1241164044',
@@ -14,8 +14,8 @@ our $I18N = {
     'message' => 'Le nom de ce plugin, trouvé dans le fichier de configuration. Les noms par défaut sont profile, inbox, friends, contributions, shop et user.'
   },
   'account layout template' => {
-    'lastUpdated' => '1241164310',
-    'message' => 'Gabarit de présentation du compte'
+    'lastUpdated' => '1244374335',
+    'message' => 'Modèle de présentation du compte'
   },
   'account title' => {
     'lastUpdated' => '1241164399',

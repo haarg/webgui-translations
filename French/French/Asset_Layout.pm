@@ -44,7 +44,7 @@ our $I18N = {
 
 	'asset order hoverhelp' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'assets to hide description' => {

@@ -4,12 +4,12 @@ use utf8;
 our $I18N = {
 	'approval message help' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'manage pending versions' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'approve/deny' => {
@@ -24,12 +24,12 @@ our $I18N = {
 
 	'who to notify help' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'notify message help' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'set tag' => {
@@ -49,7 +49,7 @@ our $I18N = {
 
 	'revisions in tag' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'committed by' => {
@@ -59,17 +59,17 @@ our $I18N = {
 
 	'do on deny' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'commit version tag' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'version tag name description' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'deny' => {
@@ -84,7 +84,7 @@ our $I18N = {
 
 	'rollback version tag confirm' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'tag creator' => {
@@ -114,7 +114,7 @@ our $I18N = {
 
 	'comments help' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'who to notify' => {
@@ -149,7 +149,7 @@ our $I18N = {
 
 	'version tag name description commit' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'approval message' => {
@@ -174,7 +174,7 @@ our $I18N = {
 
 	'notify about version tag' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'rollback' => {
@@ -184,17 +184,17 @@ our $I18N = {
 
 	'request approval for version tag' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'rollback version tag' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'commit accepted' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'group to approve' => {
@@ -204,7 +204,7 @@ our $I18N = {
 
 	'pending versions' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'back to home' => {
@@ -219,7 +219,7 @@ our $I18N = {
 
 	'content versioning' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'export version tag to html' => {
@@ -229,7 +229,7 @@ our $I18N = {
 
 	'unlock version tag' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'manage committed versions' => {
@@ -239,32 +239,32 @@ our $I18N = {
 
 	'do on deny help' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'group to use' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'commit version tag confirm' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'current tag is called' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'purge revision prompt' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'group to use help' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'notify message' => {
@@ -279,17 +279,17 @@ our $I18N = {
 
 	'workflow help' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'group to approve help' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'comments description commit' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 };

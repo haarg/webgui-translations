@@ -30,16 +30,48 @@ our $I18N = {
     'message' => 'Membre depuis'
   },
   'private label' => {
-    'lastUpdated' => '1231232249',
-    'message' => 'Priv&eacute;'
+    'lastUpdated' => '1244374828',
+    'message' => 'Privé'
   },
   'private profile' => {
-    'lastUpdated' => '1231232267',
-    'message' => 'Votre profil est priv&eacute;'
+    'lastUpdated' => '1244374839',
+    'message' => 'Votre profil est privé'
   },
   'profile as others label' => {
     'lastUpdated' => '1231232296',
     'message' => 'Rendre mon profil accessible &agrave; tous'
+  },
+  'profile edit layout template hoverHelp' => {
+    'lastUpdated' => '1244374927',
+    'message' => 'Choisir une mise en page dans la liste pour éditer un profil utilisateur. '
+  },
+  'profile edit layout template label' => {
+    'lastUpdated' => '1244383097',
+    'message' => 'Afficher le modèle de mise en page'
+  },
+  'profile edit template hoverHelp' => {
+    'lastUpdated' => '1244383131',
+    'message' => 'Choisir le modèle principal pour éditer un profil'
+  },
+  'profile edit template label' => {
+    'lastUpdated' => '1244383148',
+    'message' => 'Editer le modèle'
+  },
+  'profile error template hoverHelp' => {
+    'lastUpdated' => '1244383187',
+    'message' => 'Choisir le modèle à utiliser pour afficher les erreurs de profil à l\'utilisateur'
+  },
+  'profile error template label' => {
+    'lastUpdated' => '1244383295',
+    'message' => 'Modèle pour les erreurs'
+  },
+  'profile layout template hoverHelp' => {
+    'lastUpdated' => '1244383460',
+    'message' => 'Choisir une mise en page dans la liste pour afficher à la fois les différents plugins du compte de l\'utilisateur en cours ainsi que le contenu du plugin actuel.'
+  },
+  'profile layout template label' => {
+    'lastUpdated' => '1244383483',
+    'message' => 'Editer le modèle de mise en page'
   },
   'profile not public error' => {
     'lastUpdated' => '1231232725',
@@ -56,6 +88,10 @@ our $I18N = {
   'profile view template hoverHelp' => {
     'lastUpdated' => '1231232652',
     'message' => 'Choisissez l\'habillage de votre profil'
+  },
+  'profile view template label' => {
+    'lastUpdated' => '1244383496',
+    'message' => 'Afficher le modèle'
   },
   'public label' => {
     'lastUpdated' => '1231232551',
