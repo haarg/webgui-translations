@@ -4,7 +4,7 @@ use utf8;
 our $I18N = {
 	'account.text' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'46' => {
@@ -14,17 +14,17 @@ our $I18N = {
 
 	'account.url' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'macroName' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'account title' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 };

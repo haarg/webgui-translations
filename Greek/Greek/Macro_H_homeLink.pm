@@ -4,22 +4,22 @@ use utf8;
 our $I18N = {
 	'home link title' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'homeLink.text' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'macroName' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'homeLink.url' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'47' => {

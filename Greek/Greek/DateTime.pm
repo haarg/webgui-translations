@@ -4,22 +4,22 @@ use utf8;
 our $I18N = {
 	'sunday' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'october' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'monday' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'july' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'april' => {
@@ -29,77 +29,77 @@ our $I18N = {
 
 	'march' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'december' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'january' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'timezone' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'friday' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'may' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'tuesday' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'june' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'saturday' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'wednesday' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'thursday' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'august' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'november' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'february' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'september' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 };

@@ -9,7 +9,7 @@ our $I18N = {
 
 	'toggle.url' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'717' => {
@@ -19,17 +19,17 @@ our $I18N = {
 
 	'macroName' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'login toggle title' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'toggle.text' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 };
