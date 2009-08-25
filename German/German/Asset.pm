@@ -294,12 +294,12 @@ our $I18N = {
     'message' => 'Seiten Export Status'
   },
   'Paste' => {
-    'lastUpdated' => '1245620410',
-    'message' => 'Kleben'
+    'lastUpdated' => '1251229370',
+    'message' => 'Einfügen'
   },
   'Paste Assets' => {
-    'lastUpdated' => '1245620431',
-    'message' => 'Assets kleben'
+    'lastUpdated' => '1251229391',
+    'message' => 'Assets einfügen'
   },
   'Possible Values description' => {
     'lastUpdated' => '1244362568',
@@ -783,8 +783,8 @@ Dies bedeutet in der Regel, dass Sie eine Seite anlegen möchtgen, die den selbe
     'message' => 'Elternteil URL'
   },
   'pasting %s' => {
-    'lastUpdated' => '1245620568',
-    'message' => '%s kleben'
+    'lastUpdated' => '1251229411',
+    'message' => '%s einfügen'
   },
   'promote' => {
     'lastUpdated' => '1170458411',
