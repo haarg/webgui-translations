@@ -5,13 +5,11 @@ use utf8;
 our $I18N = {
 	'upload files description' => {
 		message => q||,
-		lastUpdated => 
-	},
+		lastUpdated => 0	},
 
 	'108 description' => {
 		message => q||,
-		lastUpdated => 
-	},
+		lastUpdated => 0	},
 
 	'upload files' => {
 		message => q|Selecionar arquivos|,
@@ -30,18 +28,15 @@ our $I18N = {
 
 	'872 description' => {
 		message => q||,
-		lastUpdated => 
-	},
+		lastUpdated => 0	},
 
 	'assetName' => {
 		message => q||,
-		lastUpdated => 
-	},
+		lastUpdated => 0	},
 
 	'871 description' => {
 		message => q||,
-		lastUpdated => 
-	},
+		lastUpdated => 0	},
 
 	'871' => {
 		message => q|Quem pode editar?|,
@@ -50,8 +45,7 @@ our $I18N = {
 
 	'940 description' => {
 		message => q||,
-		lastUpdated => 
-	},
+		lastUpdated => 0	},
 
 	'886' => {
 		message => q|Ocultar da navegação?|,
@@ -65,13 +59,11 @@ our $I18N = {
 
 	'add pile' => {
 		message => q||,
-		lastUpdated => 
-	},
+		lastUpdated => 0	},
 
 	'886 description' => {
 		message => q||,
-		lastUpdated => 
-	},
+		lastUpdated => 0	},
 
 };
 

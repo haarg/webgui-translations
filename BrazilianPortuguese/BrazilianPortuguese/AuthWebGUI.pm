@@ -5,8 +5,7 @@ use utf8;
 our $I18N = {
 	'recovery template title' => {
 		message => q||,
-		lastUpdated => 
-	},
+		lastUpdated => 0	},
 
 	'21' => {
 		message => q|Usuários Podem Alterar o Nome de Usuário (login)?|,
@@ -35,8 +34,7 @@ our $I18N = {
 
 	'display account template title' => {
 		message => q||,
-		lastUpdated => 
-	},
+		lastUpdated => 0	},
 
 	'18' => {
 		message => q|Usuários Podem Alterar a Senha?|,
@@ -45,13 +43,11 @@ our $I18N = {
 
 	'login template title' => {
 		message => q||,
-		lastUpdated => 
-	},
+		lastUpdated => 0	},
 
 	'password recovery template' => {
 		message => q||,
-		lastUpdated => 
-	},
+		lastUpdated => 0	},
 
 	'16' => {
 		message => q|Prazo de Expiração de Senha|,
@@ -60,28 +56,23 @@ our $I18N = {
 
 	'email address validation email subject' => {
 		message => q||,
-		lastUpdated => 
-	},
+		lastUpdated => 0	},
 
 	'validate email' => {
 		message => q||,
-		lastUpdated => 
-	},
+		lastUpdated => 0	},
 
 	'create account template' => {
 		message => q||,
-		lastUpdated => 
-	},
+		lastUpdated => 0	},
 
 	'captcha failure' => {
 		message => q||,
-		lastUpdated => 
-	},
+		lastUpdated => 0	},
 
 	'email address validation email body' => {
 		message => q||,
-		lastUpdated => 
-	},
+		lastUpdated => 0	},
 
 	'20' => {
 		message => q|Usuários Podem Alterar a Senha?|,
@@ -95,8 +86,7 @@ our $I18N = {
 
 	'no registration hack' => {
 		message => q||,
-		lastUpdated => 
-	},
+		lastUpdated => 0	},
 
 	'10' => {
 		message => q|Senha antiga|,
@@ -105,8 +95,7 @@ our $I18N = {
 
 	'anon reg template title' => {
 		message => q||,
-		lastUpdated => 
-	},
+		lastUpdated => 0	},
 
 	'11' => {
 		message => q|Nova Senha|,
@@ -115,23 +104,19 @@ our $I18N = {
 
 	'expired password template' => {
 		message => q||,
-		lastUpdated => 
-	},
+		lastUpdated => 0	},
 
 	'expired template title' => {
 		message => q||,
-		lastUpdated => 
-	},
+		lastUpdated => 0	},
 
 	'captcha label' => {
 		message => q||,
-		lastUpdated => 
-	},
+		lastUpdated => 0	},
 
 	'topicName' => {
 		message => q||,
-		lastUpdated => 
-	},
+		lastUpdated => 0	},
 
 	'22' => {
 		message => q|Não existem campos a serem atualizados.|,
@@ -145,8 +130,7 @@ our $I18N = {
 
 	'login template' => {
 		message => q||,
-		lastUpdated => 
-	},
+		lastUpdated => 0	},
 
 	'6' => {
 		message => q|Habilitar recuperação de senha ?|,
@@ -160,8 +144,7 @@ our $I18N = {
 
 	'account template' => {
 		message => q||,
-		lastUpdated => 
-	},
+		lastUpdated => 0	},
 
 	'9' => {
 		message => q|Expirar senha na criação do usuário ?|,
@@ -175,8 +158,7 @@ our $I18N = {
 
 	'use captcha' => {
 		message => q||,
-		lastUpdated => 
-	},
+		lastUpdated => 0	},
 
 	'15' => {
 		message => q|Tamanho Mínimo da Senha|,
@@ -190,8 +172,7 @@ our $I18N = {
 
 	'check email for validation' => {
 		message => q||,
-		lastUpdated => 
-	},
+		lastUpdated => 0	},
 
 	'4' => {
 		message => q|Sua senha não pode ser deixada em branco.|,

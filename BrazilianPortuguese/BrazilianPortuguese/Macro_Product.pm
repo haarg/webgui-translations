@@ -5,28 +5,23 @@ use utf8;
 our $I18N = {
 	'variant.price' => {
 		message => q||,
-		lastUpdated => 
-	},
+		lastUpdated => 0	},
 
 	'variant.weight' => {
 		message => q||,
-		lastUpdated => 
-	},
+		lastUpdated => 0	},
 
 	'sku' => {
 		message => q||,
-		lastUpdated => 
-	},
+		lastUpdated => 0	},
 
 	'variant.addToCart.label' => {
 		message => q||,
-		lastUpdated => 
-	},
+		lastUpdated => 0	},
 
 	'variant.addToCart.url' => {
 		message => q||,
-		lastUpdated => 
-	},
+		lastUpdated => 0	},
 
 	'available product configurations' => {
 		message => q|Configuração dos produtos disponíveis|,
@@ -35,13 +30,11 @@ our $I18N = {
 
 	'weight' => {
 		message => q||,
-		lastUpdated => 
-	},
+		lastUpdated => 0	},
 
 	'variant.sku' => {
 		message => q||,
-		lastUpdated => 
-	},
+		lastUpdated => 0	},
 
 	'add to cart' => {
 		message => q|Adicionar ao carrinho|,
@@ -50,8 +43,7 @@ our $I18N = {
 
 	'product title' => {
 		message => q||,
-		lastUpdated => 
-	},
+		lastUpdated => 0	},
 
 	'cannot find product' => {
 		message => q|Produto não encontrado|,
@@ -60,8 +52,7 @@ our $I18N = {
 
 	'value' => {
 		message => q||,
-		lastUpdated => 
-	},
+		lastUpdated => 0	},
 
 	'macroName' => {
 		message => q|Produto|,
@@ -70,13 +61,11 @@ our $I18N = {
 
 	'variant.variantId' => {
 		message => q||,
-		lastUpdated => 
-	},
+		lastUpdated => 0	},
 
 	'productId' => {
 		message => q||,
-		lastUpdated => 
-	},
+		lastUpdated => 0	},
 
 	'description' => {
 		message => q|A descrição deste produto|,
@@ -85,8 +74,7 @@ our $I18N = {
 
 	'variant.compositionLoop' => {
 		message => q||,
-		lastUpdated => 
-	},
+		lastUpdated => 0	},
 
 	'parameter' => {
 		message => q|A parâmetro define esta variante, por exemplo, tamanho.|,
@@ -95,13 +83,11 @@ our $I18N = {
 
 	'no sku or id' => {
 		message => q||,
-		lastUpdated => 
-	},
+		lastUpdated => 0	},
 
 	'title' => {
 		message => q||,
-		lastUpdated => 
-	},
+		lastUpdated => 0	},
 
 	'price' => {
 		message => q|O custo do produto|,
@@ -110,13 +96,11 @@ our $I18N = {
 
 	'variantLoop' => {
 		message => q||,
-		lastUpdated => 
-	},
+		lastUpdated => 0	},
 
 	'variants.message' => {
 		message => q||,
-		lastUpdated => 
-	},
+		lastUpdated => 0	},
 
 };
 

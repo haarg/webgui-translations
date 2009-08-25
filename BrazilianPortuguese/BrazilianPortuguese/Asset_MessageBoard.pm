@@ -5,8 +5,7 @@ use utf8;
 our $I18N = {
 	'74' => {
 		message => q||,
-		lastUpdated => 
-	},
+		lastUpdated => 0	},
 
 	'6' => {
 		message => q|Editar Quadro de Fóruns|,

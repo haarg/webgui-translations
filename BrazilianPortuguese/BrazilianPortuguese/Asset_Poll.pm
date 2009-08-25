@@ -5,13 +5,11 @@ use utf8;
 our $I18N = {
 	'form.end' => {
 		message => q||,
-		lastUpdated => 
-	},
+		lastUpdated => 0	},
 
 	'72 description' => {
 		message => q||,
-		lastUpdated => 
-	},
+		lastUpdated => 0	},
 
 	'7' => {
 		message => q|Respostas|,
@@ -20,13 +18,11 @@ our $I18N = {
 
 	'generate graph description' => {
 		message => q||,
-		lastUpdated => 
-	},
+		lastUpdated => 0	},
 
 	'assetName' => {
 		message => q||,
-		lastUpdated => 
-	},
+		lastUpdated => 0	},
 
 	'10 description' => {
 		message => q|Reiniciar a votação nesta enquete. Esta opção está ativa somente ao editar uma enquete já existente.|,
@@ -35,8 +31,7 @@ our $I18N = {
 
 	'answer_loop' => {
 		message => q||,
-		lastUpdated => 
-	},
+		lastUpdated => 0	},
 
 	'72' => {
 		message => q|Exibir respostas em ordem aleat�ria ?|,
@@ -45,28 +40,23 @@ our $I18N = {
 
 	'canVote' => {
 		message => q||,
-		lastUpdated => 
-	},
+		lastUpdated => 0	},
 
 	'answer.form' => {
 		message => q||,
-		lastUpdated => 
-	},
+		lastUpdated => 0	},
 
 	'answer.number' => {
 		message => q||,
-		lastUpdated => 
-	},
+		lastUpdated => 0	},
 
 	'5 description' => {
 		message => q||,
-		lastUpdated => 
-	},
+		lastUpdated => 0	},
 
 	'4 description' => {
 		message => q||,
-		lastUpdated => 
-	},
+		lastUpdated => 0	},
 
 	'20' => {
 		message => q|<i>Karma</i> por voto|,
@@ -80,13 +70,11 @@ our $I18N = {
 
 	'answer.text' => {
 		message => q||,
-		lastUpdated => 
-	},
+		lastUpdated => 0	},
 
 	'3 description' => {
 		message => q||,
-		lastUpdated => 
-	},
+		lastUpdated => 0	},
 
 	'11' => {
 		message => q|Votar!|,
@@ -95,33 +83,27 @@ our $I18N = {
 
 	'20 description' => {
 		message => q||,
-		lastUpdated => 
-	},
+		lastUpdated => 0	},
 
 	'73 description' => {
 		message => q||,
-		lastUpdated => 
-	},
+		lastUpdated => 0	},
 
 	'answer.graphWidth' => {
 		message => q||,
-		lastUpdated => 
-	},
+		lastUpdated => 0	},
 
 	'form.start' => {
 		message => q||,
-		lastUpdated => 
-	},
+		lastUpdated => 0	},
 
 	'7 description' => {
 		message => q||,
-		lastUpdated => 
-	},
+		lastUpdated => 0	},
 
 	'6 description' => {
 		message => q||,
-		lastUpdated => 
-	},
+		lastUpdated => 0	},
 
 	'6' => {
 		message => q|Pergunta|,
@@ -135,13 +117,11 @@ our $I18N = {
 
 	'answer.total' => {
 		message => q||,
-		lastUpdated => 
-	},
+		lastUpdated => 0	},
 
 	'form.submit' => {
 		message => q||,
-		lastUpdated => 
-	},
+		lastUpdated => 0	},
 
 	'9' => {
 		message => q|Editar Enquete|,
@@ -160,8 +140,7 @@ our $I18N = {
 
 	'question' => {
 		message => q||,
-		lastUpdated => 
-	},
+		lastUpdated => 0	},
 
 	'4' => {
 		message => q|Quem pode votar?|,
@@ -170,13 +149,11 @@ our $I18N = {
 
 	'answer.percent' => {
 		message => q||,
-		lastUpdated => 
-	},
+		lastUpdated => 0	},
 
 	'generate graph' => {
 		message => q||,
-		lastUpdated => 
-	},
+		lastUpdated => 0	},
 
 	'73' => {
 		message => q|Modelo de Enquete|,
@@ -185,13 +162,11 @@ our $I18N = {
 
 	'responses.label' => {
 		message => q||,
-		lastUpdated => 
-	},
+		lastUpdated => 0	},
 
 	'responses.total' => {
 		message => q||,
-		lastUpdated => 
-	},
+		lastUpdated => 0	},
 
 	'5' => {
 		message => q|Largura do Gr�fico|,

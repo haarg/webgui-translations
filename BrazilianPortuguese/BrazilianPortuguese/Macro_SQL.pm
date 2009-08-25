@@ -15,8 +15,7 @@ our $I18N = {
 
 	'sql error' => {
 		message => q||,
-		lastUpdated => 
-	},
+		lastUpdated => 0	},
 
 };
 

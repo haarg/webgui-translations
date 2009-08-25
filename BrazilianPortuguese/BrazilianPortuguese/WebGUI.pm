@@ -9,8 +9,7 @@ our $I18N = {
 
 	'84 description' => {
 		message => q||,
-		lastUpdated => 
-	},
+		lastUpdated => 0	},
 
 	'127' => {
 		message => q|URL da Institui&ccedil;&atilde;o|,
@@ -44,8 +43,7 @@ our $I18N = {
 
 	'show all fields' => {
 		message => q||,
-		lastUpdated => 
-	},
+		lastUpdated => 0	},
 
 	'882' => {
 		message => q|Modo de Edição|,
@@ -54,8 +52,7 @@ our $I18N = {
 
 	'cache type' => {
 		message => q||,
-		lastUpdated => 
-	},
+		lastUpdated => 0	},
 
 	'331' => {
 		message => q|Estado (Profissional)|,
@@ -84,13 +81,11 @@ our $I18N = {
 
 	'settings groupIdAdminWorkflowRun label' => {
 		message => q||,
-		lastUpdated => 
-	},
+		lastUpdated => 0	},
 
 	'settings groupIdAdminCache hoverHelp' => {
 		message => q||,
-		lastUpdated => 
-	},
+		lastUpdated => 0	},
 
 	'84' => {
 		message => q|Nome do Grupo|,
@@ -99,8 +94,7 @@ our $I18N = {
 
 	'skip commit comments' => {
 		message => q||,
-		lastUpdated => 
-	},
+		lastUpdated => 0	},
 
 	'437' => {
 		message => q|Estatísticas|,
@@ -114,8 +108,7 @@ our $I18N = {
 
 	'changeUrl workflow help' => {
 		message => q||,
-		lastUpdated => 
-	},
+		lastUpdated => 0	},
 
 	'454' => {
 		message => q|Último Acesso|,
@@ -124,8 +117,7 @@ our $I18N = {
 
 	'settings groupIdAdminTransactionLog hoverHelp' => {
 		message => q||,
-		lastUpdated => 
-	},
+		lastUpdated => 0	},
 
 	'1021' => {
 		message => q|Avalie Esta Mensagem|,
@@ -134,8 +126,7 @@ our $I18N = {
 
 	'private message to label' => {
 		message => q||,
-		lastUpdated => 
-	},
+		lastUpdated => 0	},
 
 	'135 description' => {
 		message => q| <p>Este &eacute; o endere&ccedil;o do seu servidor de email local. &Eacute; necess&aacute;rio para todas as fun&ccedil;&otilde;es que necessitem de email (por exemplo, recupera&ccedil;&atilde;o de senha). </p><p>Se o WebGUI estiver rodando em uma m&aacute;quina onde tamb&eacute;m haja rodando um servidor sendmail, voce pode especificar o caminho para o mesmo, o que em v&aacute;rios sistemas Linux costuma ser &quot;/usr/lib/sendmail&quot;.</p>|,
@@ -144,18 +135,15 @@ our $I18N = {
 
 	'540 description' => {
 		message => q||,
-		lastUpdated => 
-	},
+		lastUpdated => 0	},
 
 	'help toc' => {
 		message => q||,
-		lastUpdated => 
-	},
+		lastUpdated => 0	},
 
 	'pagination.pageLoop' => {
 		message => q||,
-		lastUpdated => 
-	},
+		lastUpdated => 0	},
 
 	'978' => {
 		message => q|Usuário adicionado com sucesso.|,
@@ -174,13 +162,11 @@ our $I18N = {
 
 	'purge workflow' => {
 		message => q||,
-		lastUpdated => 
-	},
+		lastUpdated => 0	},
 
 	'private message reply title' => {
 		message => q||,
-		lastUpdated => 
-	},
+		lastUpdated => 0	},
 
 	'948' => {
 		message => q|Gerenciar Área de Transferência|,
@@ -199,8 +185,7 @@ our $I18N = {
 
 	'view inbox template description' => {
 		message => q||,
-		lastUpdated => 
-	},
+		lastUpdated => 0	},
 
 	'889' => {
 		message => q|Folhas de Estilo (CSS), Abas|,
@@ -224,13 +209,11 @@ our $I18N = {
 
 	'private message prev label' => {
 		message => q||,
-		lastUpdated => 
-	},
+		lastUpdated => 0	},
 
 	'pagination.lastPageUrl' => {
 		message => q||,
-		lastUpdated => 
-	},
+		lastUpdated => 0	},
 
 	'58' => {
 		message => q|Eu já tenho uma conta.|,
@@ -254,8 +237,7 @@ our $I18N = {
 
 	'settings groupIdAdminStatistics label' => {
 		message => q||,
-		lastUpdated => 
-	},
+		lastUpdated => 0	},
 
 	'337' => {
 		message => q|P&aacute;gina Pessoal|,
@@ -294,8 +276,7 @@ our $I18N = {
 
 	'auto request commit' => {
 		message => q||,
-		lastUpdated => 
-	},
+		lastUpdated => 0	},
 
 	'859' => {
 		message => q|Assinatura|,
@@ -309,13 +290,11 @@ our $I18N = {
 
 	'settings groupIdAdminSubscription hoverHelp' => {
 		message => q||,
-		lastUpdated => 
-	},
+		lastUpdated => 0	},
 
 	'private message error' => {
 		message => q||,
-		lastUpdated => 
-	},
+		lastUpdated => 0	},
 
 	'992' => {
 		message => q|Título|,
@@ -354,13 +333,11 @@ our $I18N = {
 
 	'bare insufficient' => {
 		message => q||,
-		lastUpdated => 
-	},
+		lastUpdated => 0	},
 
 	'editSettings error occurred' => {
 		message => q||,
-		lastUpdated => 
-	},
+		lastUpdated => 0	},
 
 	'145' => {
 		message => q|Vers&atilde;o do WebGUI|,
@@ -369,8 +346,7 @@ our $I18N = {
 
 	'preview' => {
 		message => q||,
-		lastUpdated => 
-	},
+		lastUpdated => 0	},
 
 	'142 description' => {
 		message => q|Quanto tempo a sess&atilde;o do usu&aacute;rio permanece ativa (at&eacute; que seja necess&aacute;rio fazer o login outra vez). Este contador &eacute; zerado toda vez que o usu&aacute;rio acessa uma p&aacute;gina no site. Por exemplo, para um tempo limite de 8 horas, o usu&aacute;rio ter&aacute; que logar outra vez caso n&atilde;o tenha visitado o site num per&iacute;odo de 8 horas.|,
@@ -384,8 +360,7 @@ our $I18N = {
 
 	'settings groupIdAdminAdSpace label' => {
 		message => q||,
-		lastUpdated => 
-	},
+		lastUpdated => 0	},
 
 	'364' => {
 		message => q|Buscar|,
@@ -399,13 +374,11 @@ our $I18N = {
 
 	'cache statistics' => {
 		message => q||,
-		lastUpdated => 
-	},
+		lastUpdated => 0	},
 
 	'settings groupIdAdminProfileSettings label' => {
 		message => q||,
-		lastUpdated => 
-	},
+		lastUpdated => 0	},
 
 	'486' => {
 		message => q|Tipo de Dado|,
@@ -439,23 +412,19 @@ our $I18N = {
 
 	'wiki help label leadin' => {
 		message => q||,
-		lastUpdated => 
-	},
+		lastUpdated => 0	},
 
 	'settings groupIdAdminSpectre hoverHelp' => {
 		message => q||,
-		lastUpdated => 
-	},
+		lastUpdated => 0	},
 
 	'choose an asset' => {
 		message => q||,
-		lastUpdated => 
-	},
+		lastUpdated => 0	},
 
 	'pagination.firstPage' => {
 		message => q||,
-		lastUpdated => 
-	},
+		lastUpdated => 0	},
 
 	'43' => {
 		message => q|Você tem certeza de que quer apagar este conteúdo?|,
@@ -484,8 +453,7 @@ our $I18N = {
 
 	'settings groupIdAdminReplacements label' => {
 		message => q||,
-		lastUpdated => 
-	},
+		lastUpdated => 0	},
 
 	'943' => {
 		message => q|<i>Checkbox</i>|,
@@ -494,8 +462,7 @@ our $I18N = {
 
 	'unknown user' => {
 		message => q||,
-		lastUpdated => 
-	},
+		lastUpdated => 0	},
 
 	'460' => {
 		message => q|Ajuste de Fuso Horário|,
@@ -519,8 +486,7 @@ our $I18N = {
 
 	'user profile field private message allow label' => {
 		message => q||,
-		lastUpdated => 
-	},
+		lastUpdated => 0	},
 
 	'244' => {
 		message => q|Autor|,
@@ -534,8 +500,7 @@ our $I18N = {
 
 	'fieldtype' => {
 		message => q||,
-		lastUpdated => 
-	},
+		lastUpdated => 0	},
 
 	'61' => {
 		message => q|Atualizar Dados da Conta|,
@@ -554,8 +519,7 @@ our $I18N = {
 
 	'admin console template' => {
 		message => q||,
-		lastUpdated => 
-	},
+		lastUpdated => 0	},
 
 	'1035' => {
 		message => q|Modelo de Notifica&ccedil;&atilde;o|,
@@ -564,8 +528,7 @@ our $I18N = {
 
 	'deactivateAccount success' => {
 		message => q||,
-		lastUpdated => 
-	},
+		lastUpdated => 0	},
 
 	'452' => {
 		message => q|Por favor, aguarde...|,
@@ -584,8 +547,7 @@ our $I18N = {
 
 	'additional parameters' => {
 		message => q||,
-		lastUpdated => 
-	},
+		lastUpdated => 0	},
 
 	'480' => {
 		message => q|Endereço de Email|,
@@ -599,8 +561,7 @@ our $I18N = {
 
 	'invite a friend' => {
 		message => q||,
-		lastUpdated => 
-	},
+		lastUpdated => 0	},
 
 	'438' => {
 		message => q|Seu Nome|,
@@ -629,13 +590,11 @@ our $I18N = {
 
 	'865 description' => {
 		message => q||,
-		lastUpdated => 
-	},
+		lastUpdated => 0	},
 
 	'pagination.lastPage' => {
 		message => q||,
-		lastUpdated => 
-	},
+		lastUpdated => 0	},
 
 	'39' => {
 		message => q|Você não tem permissão para acessar esta página.|,
@@ -644,8 +603,7 @@ our $I18N = {
 
 	'account' => {
 		message => q||,
-		lastUpdated => 
-	},
+		lastUpdated => 0	},
 
 	'1004 description' => {
 		message => q|Em sites maiores, utilizando grupos externos, podem haver penalidades de performance devido ao acesso &agrave; bancos de dados externos para a verifica&ccedil;&atilde;o dos membros dos grupos. Este par&acirc;metro define a dura&ccedil;&atilde;o do cache do WebGUI para essas consultas externas, de forma a reduzir essa penalidade.|,
@@ -654,8 +612,7 @@ our $I18N = {
 
 	'mail return path' => {
 		message => q||,
-		lastUpdated => 
-	},
+		lastUpdated => 0	},
 
 	'64' => {
 		message => q|Sair.|,
@@ -669,8 +626,7 @@ our $I18N = {
 
 	'password clear text' => {
 		message => q||,
-		lastUpdated => 
-	},
+		lastUpdated => 0	},
 
 	'12' => {
 		message => q|Desabilitar modo administrativo.|,
@@ -689,18 +645,15 @@ our $I18N = {
 
 	'707 description' => {
 		message => q||,
-		lastUpdated => 
-	},
+		lastUpdated => 0	},
 
 	'settings groupIdAdminUser hoverHelp' => {
 		message => q||,
-		lastUpdated => 
-	},
+		lastUpdated => 0	},
 
 	'private message next label' => {
 		message => q||,
-		lastUpdated => 
-	},
+		lastUpdated => 0	},
 
 	'45' => {
 		message => q|Não, eu me enganei.|,
@@ -719,13 +672,11 @@ our $I18N = {
 
 	'settings groupIdAdminProductManager hoverHelp' => {
 		message => q||,
-		lastUpdated => 
-	},
+		lastUpdated => 0	},
 
 	'866 description' => {
 		message => q||,
-		lastUpdated => 
-	},
+		lastUpdated => 0	},
 
 	'1084' => {
 		message => q|Use a barra de ferramentas padr&atilde;o para o meu idioma.|,
@@ -744,8 +695,7 @@ our $I18N = {
 
 	'authentication' => {
 		message => q||,
-		lastUpdated => 
-	},
+		lastUpdated => 0	},
 
 	'734' => {
 		message => q|5 Adepto|,
@@ -779,8 +729,7 @@ our $I18N = {
 
 	'857 description' => {
 		message => q||,
-		lastUpdated => 
-	},
+		lastUpdated => 0	},
 
 	'1075' => {
 		message => q|Link com Banco de Dados|,
@@ -799,18 +748,15 @@ our $I18N = {
 
 	'418 description' => {
 		message => q||,
-		lastUpdated => 
-	},
+		lastUpdated => 0	},
 
 	'392' => {
 		message => q||,
-		lastUpdated => 
-	},
+		lastUpdated => 0	},
 
 	'pagination.pageCount.isMultiple' => {
 		message => q||,
-		lastUpdated => 
-	},
+		lastUpdated => 0	},
 
 	'496' => {
 		message => q|Usar Editor|,
@@ -819,13 +765,11 @@ our $I18N = {
 
 	'settings groupIdAdminProfileSettings hoverHelp' => {
 		message => q||,
-		lastUpdated => 
-	},
+		lastUpdated => 0	},
 
 	'Enable Metadata description' => {
 		message => q||,
-		lastUpdated => 
-	},
+		lastUpdated => 0	},
 
 	'605' => {
 		message => q|Adicionar Grupos|,
@@ -834,13 +778,11 @@ our $I18N = {
 
 	'private message message label' => {
 		message => q||,
-		lastUpdated => 
-	},
+		lastUpdated => 0	},
 
 	'private message no user' => {
 		message => q||,
-		lastUpdated => 
-	},
+		lastUpdated => 0	},
 
 	'813' => {
 		message => q|Grupos Neste Grupo|,
@@ -849,13 +791,11 @@ our $I18N = {
 
 	'settings groupIdAdminGroup label' => {
 		message => q||,
-		lastUpdated => 
-	},
+		lastUpdated => 0	},
 
 	'head.tags' => {
 		message => q||,
-		lastUpdated => 
-	},
+		lastUpdated => 0	},
 
 	'42' => {
 		message => q|Por Favor, Confirme|,
@@ -864,13 +804,11 @@ our $I18N = {
 
 	'link in new window' => {
 		message => q||,
-		lastUpdated => 
-	},
+		lastUpdated => 0	},
 
 	'settings groupIdAdminHelp hoverHelp' => {
 		message => q||,
-		lastUpdated => 
-	},
+		lastUpdated => 0	},
 
 	'1005 description' => {
 		message => q|<p>Muitas empresas possuem bancos de dados externos que permitem associar usu&aacute;rios a grupos no WebGUI. </p><p>Por exemplo, um banco de dados de Recursos Humanos pode conter a informa&ccedil;&atilde;o necess&aacute;ria para associar o Id de um funcion&aacute;rio na empresa com o tipo de plano de sa&uacute;de que ele possui com a mesma. Essa consulta pode ser feita usando uma Query SQL. Para construir a Query, podem ser usados macros do WebGUI para buscar os dados necess&aacute;rios do perfil do usu&aacute;rio. </p><p>No exemplo ficcional, vamos supor que tenha sido criado no perfil de usu&aacute;rios o campo employeeId. Esta ent&atilde;o seria a SQL Query necess&aacute;ria para consultar o banco de dados do setor de RH sobre esse usu&aacute;rio: </p> <blockquote><p> select userId from employees, health_plans, empl_plan_map<br /> where employees.employee_id = ^User(&quot;employeeId&quot;);<br /> and health_plans.plan_name = 'HMO 1'<br /> and employees.employee_id = empl_plan_map.employee_id<br /> and health_plans.health_plan_id = empl_plan_mp.health_plan_id;<br /> </p></blockquote> <p>Esse grupo pode ser chamado de &quot;Employees in HMO 1&quot;, e permite que no site qualquer p&aacute;gina ou wobject seja restrito apenas aos usu&aacute;rios que, no banco de dados externo, s&atilde;o parte desse grupo. </p>|,
@@ -879,8 +817,7 @@ our $I18N = {
 
 	'groups to delete' => {
 		message => q||,
-		lastUpdated => 
-	},
+		lastUpdated => 0	},
 
 	'1073' => {
 		message => q|Modelo de Estilo|,
@@ -904,8 +841,7 @@ our $I18N = {
 
 	'Enable user invitations description' => {
 		message => q||,
-		lastUpdated => 
-	},
+		lastUpdated => 0	},
 
 	'456' => {
 		message => q|Voltar à lista de usuários.|,
@@ -914,8 +850,7 @@ our $I18N = {
 
 	'private message status unread' => {
 		message => q||,
-		lastUpdated => 
-	},
+		lastUpdated => 0	},
 
 	'1051 description' => {
 		message => q|O que voc&ecirc; quer que seja usado para substituir.|,
@@ -929,13 +864,11 @@ our $I18N = {
 
 	'465 description' => {
 		message => q||,
-		lastUpdated => 
-	},
+		lastUpdated => 0	},
 
 	'link in same window' => {
 		message => q||,
-		lastUpdated => 
-	},
+		lastUpdated => 0	},
 
 	'493' => {
 		message => q|Voltar para o site.|,
@@ -944,28 +877,23 @@ our $I18N = {
 
 	'trash workflow help' => {
 		message => q||,
-		lastUpdated => 
-	},
+		lastUpdated => 0	},
 
 	'permissions' => {
 		message => q||,
-		lastUpdated => 
-	},
+		lastUpdated => 0	},
 
 	'photo' => {
 		message => q||,
-		lastUpdated => 
-	},
+		lastUpdated => 0	},
 
 	'file' => {
 		message => q||,
-		lastUpdated => 
-	},
+		lastUpdated => 0	},
 
 	'pagination.nextPage' => {
 		message => q||,
-		lastUpdated => 
-	},
+		lastUpdated => 0	},
 
 	'445' => {
 		message => q|Preferências|,
@@ -974,8 +902,7 @@ our $I18N = {
 
 	'account.options' => {
 		message => q||,
-		lastUpdated => 
-	},
+		lastUpdated => 0	},
 
 	'1026' => {
 		message => q|Habilitar editor <em>WYSIWYG</em>? <em>(Rich Edit)</em>|,
@@ -989,13 +916,11 @@ our $I18N = {
 
 	'allow private messages label' => {
 		message => q||,
-		lastUpdated => 
-	},
+		lastUpdated => 0	},
 
 	'noldaplink' => {
 		message => q||,
-		lastUpdated => 
-	},
+		lastUpdated => 0	},
 
 	'161' => {
 		message => q|Enviado Por|,
@@ -1009,13 +934,11 @@ our $I18N = {
 
 	'default version tag workflow help' => {
 		message => q||,
-		lastUpdated => 
-	},
+		lastUpdated => 0	},
 
 	'settings groupIdAdminWorkflowRun hoverHelp' => {
 		message => q||,
-		lastUpdated => 
-	},
+		lastUpdated => 0	},
 
 	'125 description' => {
 		message => q|O nome da sua institui&ccedil;&atilde;o. Ser&aacute; usado em emails, e pelo macro Company Name.|,
@@ -1044,13 +967,11 @@ our $I18N = {
 
 	'556 description' => {
 		message => q||,
-		lastUpdated => 
-	},
+		lastUpdated => 0	},
 
 	'84 description groupings' => {
 		message => q||,
-		lastUpdated => 
-	},
+		lastUpdated => 0	},
 
 	'557' => {
 		message => q|Descrição|,
@@ -1059,13 +980,11 @@ our $I18N = {
 
 	'settings groupIdAdminUserAdd label' => {
 		message => q||,
-		lastUpdated => 
-	},
+		lastUpdated => 0	},
 
 	'369 description' => {
 		message => q||,
-		lastUpdated => 
-	},
+		lastUpdated => 0	},
 
 	'700' => {
 		message => q|Dia(s)|,
@@ -1089,8 +1008,7 @@ our $I18N = {
 
 	'color' => {
 		message => q||,
-		lastUpdated => 
-	},
+		lastUpdated => 0	},
 
 	'990' => {
 		message => q|Editar Vínculo com Banco de Dados|,
@@ -1104,8 +1022,7 @@ our $I18N = {
 
 	'private message no self error' => {
 		message => q||,
-		lastUpdated => 
-	},
+		lastUpdated => 0	},
 
 	'983' => {
 		message => q|Editar este vínculo com banco de dados.|,
@@ -1114,8 +1031,7 @@ our $I18N = {
 
 	'settings groupIdAdminVersionTag label' => {
 		message => q||,
-		lastUpdated => 
-	},
+		lastUpdated => 0	},
 
 	'138' => {
 		message => q|Sim|,
@@ -1134,8 +1050,7 @@ our $I18N = {
 
 	'messaging' => {
 		message => q||,
-		lastUpdated => 
-	},
+		lastUpdated => 0	},
 
 	'724' => {
 		message => q|Seu nome de usuário não pode ser iniciado ou terminar com caractere de espaço.|,
@@ -1164,8 +1079,7 @@ our $I18N = {
 
 	'broken spectre title' => {
 		message => q||,
-		lastUpdated => 
-	},
+		lastUpdated => 0	},
 
 	'333' => {
 		message => q|Pa&iacute;s (Profissional)|,
@@ -1174,8 +1088,7 @@ our $I18N = {
 
 	'groups to add' => {
 		message => q||,
-		lastUpdated => 
-	},
+		lastUpdated => 0	},
 
 	'323' => {
 		message => q|Endere&ccedil;o (Residencial)|,
@@ -1184,13 +1097,11 @@ our $I18N = {
 
 	'codearea' => {
 		message => q||,
-		lastUpdated => 
-	},
+		lastUpdated => 0	},
 
 	'856' => {
 		message => q||,
-		lastUpdated => 
-	},
+		lastUpdated => 0	},
 
 	'69' => {
 		message => q|Por favor, procure a assistência de seu administrador.|,
@@ -1199,23 +1110,19 @@ our $I18N = {
 
 	'removeLabel' => {
 		message => q||,
-		lastUpdated => 
-	},
+		lastUpdated => 0	},
 
 	'private message status read' => {
 		message => q||,
-		lastUpdated => 
-	},
+		lastUpdated => 0	},
 
 	'settings groupIdAdminStatistics hoverHelp' => {
 		message => q||,
-		lastUpdated => 
-	},
+		lastUpdated => 0	},
 
 	'settings groupIdAdminSubscription label' => {
 		message => q||,
-		lastUpdated => 
-	},
+		lastUpdated => 0	},
 
 	'756' => {
 		message => q|Voltar à lista de grupos.|,
@@ -1224,8 +1131,7 @@ our $I18N = {
 
 	'hexadecimal' => {
 		message => q||,
-		lastUpdated => 
-	},
+		lastUpdated => 0	},
 
 	'446' => {
 		message => q|URL Site Profissional|,
@@ -1234,18 +1140,15 @@ our $I18N = {
 
 	'559 description' => {
 		message => q||,
-		lastUpdated => 
-	},
+		lastUpdated => 0	},
 
 	'view inbox message template description' => {
 		message => q||,
-		lastUpdated => 
-	},
+		lastUpdated => 0	},
 
 	'run on admin update user help' => {
 		message => q||,
-		lastUpdated => 
-	},
+		lastUpdated => 0	},
 
 	'352' => {
 		message => q|Data|,
@@ -1264,8 +1167,7 @@ our $I18N = {
 
 	'company' => {
 		message => q||,
-		lastUpdated => 
-	},
+		lastUpdated => 0	},
 
 	'126' => {
 		message => q|Endere&ccedil;o de Email Institucional|,
@@ -1289,18 +1191,15 @@ our $I18N = {
 
 	'pagination.nextPageText' => {
 		message => q||,
-		lastUpdated => 
-	},
+		lastUpdated => 0	},
 
 	'account options template variables' => {
 		message => q||,
-		lastUpdated => 
-	},
+		lastUpdated => 0	},
 
 	'button' => {
 		message => q||,
-		lastUpdated => 
-	},
+		lastUpdated => 0	},
 
 	'810' => {
 		message => q|enviar|,
@@ -1324,8 +1223,7 @@ our $I18N = {
 
 	'default rich editor' => {
 		message => q||,
-		lastUpdated => 
-	},
+		lastUpdated => 0	},
 
 	'428' => {
 		message => q|Usuário (ID)|,
@@ -1334,8 +1232,7 @@ our $I18N = {
 
 	'default rich editor description' => {
 		message => q||,
-		lastUpdated => 
-	},
+		lastUpdated => 0	},
 
 	'977' => {
 		message => q|É um administrador secundário?|,
@@ -1349,8 +1246,7 @@ our $I18N = {
 
 	'settings groupIdAdminLDAPLink label' => {
 		message => q||,
-		lastUpdated => 
-	},
+		lastUpdated => 0	},
 
 	'526' => {
 		message => q|Remover JavaScript e não processar macros.|,
@@ -1379,8 +1275,7 @@ our $I18N = {
 
 	'help contents' => {
 		message => q||,
-		lastUpdated => 
-	},
+		lastUpdated => 0	},
 
 	'533' => {
 		message => q|<strong>sem</strong> as palavras|,
@@ -1394,13 +1289,11 @@ our $I18N = {
 
 	'527 description' => {
 		message => q||,
-		lastUpdated => 
-	},
+		lastUpdated => 0	},
 
 	'811 description' => {
 		message => q||,
-		lastUpdated => 
-	},
+		lastUpdated => 0	},
 
 	'1006 description' => {
 		message => q|O sistema deve usar HTTPS (HTTP+SSL) para o formul&aacute;rio de login? Note que selecionar essa op&ccedil;&atilde;o ir&aacute; encriptar n&atilde;o apenas o formul&aacute;rio de login, mas tamb&eacute;m toda pagina acessada depois do login pelo usu&aacute;rio.|,
@@ -1414,8 +1307,7 @@ our $I18N = {
 
 	'send private message' => {
 		message => q||,
-		lastUpdated => 
-	},
+		lastUpdated => 0	},
 
 	'556' => {
 		message => q|Quantidade|,
@@ -1424,8 +1316,7 @@ our $I18N = {
 
 	'options.display' => {
 		message => q||,
-		lastUpdated => 
-	},
+		lastUpdated => 0	},
 
 	'462' => {
 		message => q|Formato da Hora|,
@@ -1449,8 +1340,7 @@ our $I18N = {
 
 	'skip commit comments help' => {
 		message => q||,
-		lastUpdated => 
-	},
+		lastUpdated => 0	},
 
 	'142' => {
 		message => q|Tempo Limite de Sess&atilde;o|,
@@ -1474,18 +1364,15 @@ our $I18N = {
 
 	'settings groupIdAdminTransactionLog label' => {
 		message => q||,
-		lastUpdated => 
-	},
+		lastUpdated => 0	},
 
 	'help index' => {
 		message => q||,
-		lastUpdated => 
-	},
+		lastUpdated => 0	},
 
 	'group' => {
 		message => q||,
-		lastUpdated => 
-	},
+		lastUpdated => 0	},
 
 	'360' => {
 		message => q|Um Sobre Tr&ecirc;s|,
@@ -1504,13 +1391,11 @@ our $I18N = {
 
 	'country' => {
 		message => q||,
-		lastUpdated => 
-	},
+		lastUpdated => 0	},
 
 	'50 description' => {
 		message => q||,
-		lastUpdated => 
-	},
+		lastUpdated => 0	},
 
 	'50' => {
 		message => q|Usuário|,
@@ -1524,13 +1409,11 @@ our $I18N = {
 
 	'885 description' => {
 		message => q||,
-		lastUpdated => 
-	},
+		lastUpdated => 0	},
 
 	'radio' => {
 		message => q||,
-		lastUpdated => 
-	},
+		lastUpdated => 0	},
 
 	'1076' => {
 		message => q|Banco de Dados do WebGUI|,
@@ -1564,8 +1447,7 @@ our $I18N = {
 
 	'settings groupIdAdminCommerce hoverHelp' => {
 		message => q||,
-		lastUpdated => 
-	},
+		lastUpdated => 0	},
 
 	'164 description' => {
 		message => q|<p>Determina o m&eacute;todo de autentica&ccedil;&atilde;o para novos usu&aacute;rios. As duas op&ccedil;&otilde;es dispon&iacute;veis por padr&atilde;o s&atilde;o WebGUI e LDAP. Na autentica&ccedil;&atilde;o via WebGUI os usu&aacute;rios ser&atilde;o autenticados usando o login e senha armazenados no banco do dados do WebGUI. Na autentica&ccedil;&atilde;o via LDAP, um diret&oacute;rio LDAP externo &eacute; usado para verificar as credenciais dos usu&aacute;rios. Outros m&eacute;todos podem ser acrescentados, atrav&eacute;s de plugins de autentica&ccedil;&atilde;o customizados. </p> <p><em>NOTAS:</em> </p> <p>Configura&ccedil;&otilde;es de autentica&ccedil;&atilde;o podem ser ajustadas para cada usu&aacute;rio. </p> <p>As op&ccedil;&otilde;es vis&iacute;veis a partir deste ponto depende de quais m&oacute;dulos de autentica&ccedil;&atilde;o voc&ecirc; tem instalados em seu sistema.</p>|,
@@ -1584,8 +1466,7 @@ our $I18N = {
 
 	'863 description' => {
 		message => q||,
-		lastUpdated => 
-	},
+		lastUpdated => 0	},
 
 	'984' => {
 		message => q|Copiar este vínculo com banco de dados.|,
@@ -1614,13 +1495,11 @@ our $I18N = {
 
 	'interval' => {
 		message => q||,
-		lastUpdated => 
-	},
+		lastUpdated => 0	},
 
 	'settings groupIdAdminLDAPLink hoverHelp' => {
 		message => q||,
-		lastUpdated => 
-	},
+		lastUpdated => 0	},
 
 	'699' => {
 		message => q|Primeiro Dia da Semana|,
@@ -1629,13 +1508,11 @@ our $I18N = {
 
 	'cancel' => {
 		message => q||,
-		lastUpdated => 
-	},
+		lastUpdated => 0	},
 
 	'user profile field friend availability' => {
 		message => q||,
-		lastUpdated => 
-	},
+		lastUpdated => 0	},
 
 	'818' => {
 		message => q|Desativado|,
@@ -1644,8 +1521,7 @@ our $I18N = {
 
 	'user email template' => {
 		message => q||,
-		lastUpdated => 
-	},
+		lastUpdated => 0	},
 
 	'130' => {
 		message => q|Tamanho M&aacute;ximo de Anexos|,
@@ -1659,8 +1535,7 @@ our $I18N = {
 
 	'topicName' => {
 		message => q||,
-		lastUpdated => 
-	},
+		lastUpdated => 0	},
 
 	'941' => {
 		message => q|Lista de <i>Checkbox</i>|,
@@ -1674,8 +1549,7 @@ our $I18N = {
 
 	'private message sent' => {
 		message => q||,
-		lastUpdated => 
-	},
+		lastUpdated => 0	},
 
 	'461' => {
 		message => q|Formato da Data|,
@@ -1684,8 +1558,7 @@ our $I18N = {
 
 	'debug ip description' => {
 		message => q||,
-		lastUpdated => 
-	},
+		lastUpdated => 0	},
 
 	'583' => {
 		message => q|Tamanho Máximo da Imagem|,
@@ -1694,13 +1567,11 @@ our $I18N = {
 
 	'settings groupIdAdminGraphics hoverHelp' => {
 		message => q||,
-		lastUpdated => 
-	},
+		lastUpdated => 0	},
 
 	'show performance indicators' => {
 		message => q||,
-		lastUpdated => 
-	},
+		lastUpdated => 0	},
 
 	'951' => {
 		message => q|Você tem certeza de que quer enviar todo o 
@@ -1735,8 +1606,7 @@ conteúdo da área de transferência para a lixeira?|,
 
 	'packages' => {
 		message => q||,
-		lastUpdated => 
-	},
+		lastUpdated => 0	},
 
 	'745' => {
 		message => q|Voltar para a página.|,
@@ -1765,13 +1635,11 @@ conteúdo da área de transferência para a lixeira?|,
 
 	'pagination.isLastPage' => {
 		message => q||,
-		lastUpdated => 
-	},
+		lastUpdated => 0	},
 
 	'private message delete text' => {
 		message => q||,
-		lastUpdated => 
-	},
+		lastUpdated => 0	},
 
 	'565' => {
 		message => q|Quem pode moderar?|,
@@ -1780,13 +1648,11 @@ conteúdo da área de transferência para a lixeira?|,
 
 	'private message status replied' => {
 		message => q||,
-		lastUpdated => 
-	},
+		lastUpdated => 0	},
 
 	'977 description' => {
 		message => q||,
-		lastUpdated => 
-	},
+		lastUpdated => 0	},
 
 	'1004' => {
 		message => q|Expirar cache de grupos depois de quanto tempo?|,
@@ -1810,8 +1676,7 @@ conteúdo da área de transferência para a lixeira?|,
 
 	'broken spectre body' => {
 		message => q||,
-		lastUpdated => 
-	},
+		lastUpdated => 0	},
 
 	'730' => {
 		message => q|1 Novato|,
@@ -1825,8 +1690,7 @@ conteúdo da área de transferência para a lixeira?|,
 
 	'user email template description' => {
 		message => q||,
-		lastUpdated => 
-	},
+		lastUpdated => 0	},
 
 	'57' => {
 		message => q|Necessário apenas se você for utilizar de recursos que requeiram Email.|,
@@ -1840,8 +1704,7 @@ conteúdo da área de transferência para a lixeira?|,
 
 	'user profile field private message allow none label' => {
 		message => q||,
-		lastUpdated => 
-	},
+		lastUpdated => 0	},
 
 	'872' => {
 		message => q|Quem pode ver?|,
@@ -1850,13 +1713,11 @@ conteúdo da área de transferência para a lixeira?|,
 
 	'image manager' => {
 		message => q||,
-		lastUpdated => 
-	},
+		lastUpdated => 0	},
 
 	'high user count' => {
 		message => q||,
-		lastUpdated => 
-	},
+		lastUpdated => 0	},
 
 	'316' => {
 		message => q|&Uacute;ltimo Nome|,
@@ -1865,8 +1726,7 @@ conteúdo da área de transferência para a lixeira?|,
 
 	'target description' => {
 		message => q||,
-		lastUpdated => 
-	},
+		lastUpdated => 0	},
 
 	'163' => {
 		message => q|Adicionar Usu&aacute;rio|,
@@ -1875,23 +1735,19 @@ conteúdo da área de transferência para a lixeira?|,
 
 	'trash' => {
 		message => q||,
-		lastUpdated => 
-	},
+		lastUpdated => 0	},
 
 	'manage cache' => {
 		message => q||,
-		lastUpdated => 
-	},
+		lastUpdated => 0	},
 
 	'read only' => {
 		message => q||,
-		lastUpdated => 
-	},
+		lastUpdated => 0	},
 
 	'combobox' => {
 		message => q||,
-		lastUpdated => 
-	},
+		lastUpdated => 0	},
 
 	'994' => {
 		message => q|Usuário do Banco de Dados|,
@@ -1905,8 +1761,7 @@ conteúdo da área de transferência para a lixeira?|,
 
 	'additional parameters help' => {
 		message => q||,
-		lastUpdated => 
-	},
+		lastUpdated => 0	},
 
 	'89' => {
 		message => q|Grupos|,
@@ -1920,8 +1775,7 @@ conteúdo da área de transferência para a lixeira?|,
 
 	'allowed keywords description' => {
 		message => q||,
-		lastUpdated => 
-	},
+		lastUpdated => 0	},
 
 	'988' => {
 		message => q|Você tem certeza de que quer apagar este vínculo com banco de dados? Os itens a seguir estão usando este vínculo, e não irão mais funcionar caso você prossiga:|,
@@ -1930,8 +1784,7 @@ conteúdo da área de transferência para a lixeira?|,
 
 	'private message title' => {
 		message => q||,
-		lastUpdated => 
-	},
+		lastUpdated => 0	},
 
 	'35' => {
 		message => q|Fun&ccedil;&atilde;o Administrativa|,
@@ -1945,8 +1798,7 @@ conteúdo da área de transferência para a lixeira?|,
 
 	'settings groupIdAdminDatabaseLink label' => {
 		message => q||,
-		lastUpdated => 
-	},
+		lastUpdated => 0	},
 
 	'347' => {
 		message => q|Ver o Perfil de|,
@@ -1955,8 +1807,7 @@ conteúdo da área de transferência para a lixeira?|,
 
 	'pagination.url' => {
 		message => q||,
-		lastUpdated => 
-	},
+		lastUpdated => 0	},
 
 	'434' => {
 		message => q|Estado|,
@@ -1970,8 +1821,7 @@ conteúdo da área de transferência para a lixeira?|,
 
 	'expire groupings' => {
 		message => q||,
-		lastUpdated => 
-	},
+		lastUpdated => 0	},
 
 	'865' => {
 		message => q|Notificar usuário sobre a expiração?|,
@@ -1980,18 +1830,15 @@ conteúdo da área de transferência para a lixeira?|,
 
 	'int slider' => {
 		message => q||,
-		lastUpdated => 
-	},
+		lastUpdated => 0	},
 
 	'pagination.pageList' => {
 		message => q||,
-		lastUpdated => 
-	},
+		lastUpdated => 0	},
 
 	'538 description' => {
 		message => q||,
-		lastUpdated => 
-	},
+		lastUpdated => 0	},
 
 	'442' => {
 		message => q|Dados Profissionais|,
@@ -2005,8 +1852,7 @@ conteúdo da área de transferência para a lixeira?|,
 
 	'image' => {
 		message => q||,
-		lastUpdated => 
-	},
+		lastUpdated => 0	},
 
 	'886' => {
 		message => q|Ocultar da navegação?|,
@@ -2020,8 +1866,7 @@ conteúdo da área de transferência para a lixeira?|,
 
 	'settings groupIdAdminGroup hoverHelp' => {
 		message => q||,
-		lastUpdated => 
-	},
+		lastUpdated => 0	},
 
 	'67' => {
 		message => q|Criar uma nova conta.|,
@@ -2055,23 +1900,19 @@ conteúdo da área de transferência para a lixeira?|,
 
 	'user' => {
 		message => q||,
-		lastUpdated => 
-	},
+		lastUpdated => 0	},
 
 	'settings groupIdAdminWorkflow label' => {
 		message => q||,
-		lastUpdated => 
-	},
+		lastUpdated => 0	},
 
 	'settings groupIdAdminGroupAdmin label' => {
 		message => q||,
-		lastUpdated => 
-	},
+		lastUpdated => 0	},
 
 	'username no html' => {
 		message => q||,
-		lastUpdated => 
-	},
+		lastUpdated => 0	},
 
 	'732' => {
 		message => q|3 Amador|,
@@ -2080,8 +1921,7 @@ conteúdo da área de transferência para a lixeira?|,
 
 	'51 description' => {
 		message => q||,
-		lastUpdated => 
-	},
+		lastUpdated => 0	},
 
 	'811' => {
 		message => q|De|,
@@ -2090,13 +1930,11 @@ conteúdo da área de transferência para a lixeira?|,
 
 	'994 description' => {
 		message => q||,
-		lastUpdated => 
-	},
+		lastUpdated => 0	},
 
 	'allow access from macros' => {
 		message => q||,
-		lastUpdated => 
-	},
+		lastUpdated => 0	},
 
 	'361' => {
 		message => q|Tr&ecirc;s Sobre Um|,
@@ -2120,8 +1958,7 @@ conteúdo da área de transferência para a lixeira?|,
 
 	'purge workflow help' => {
 		message => q||,
-		lastUpdated => 
-	},
+		lastUpdated => 0	},
 
 	'970' => {
 		message => q|ajuste de hora...|,
@@ -2130,13 +1967,11 @@ conteúdo da área de transferência para a lixeira?|,
 
 	'link enter alert' => {
 		message => q||,
-		lastUpdated => 
-	},
+		lastUpdated => 0	},
 
 	'debug ip' => {
 		message => q||,
-		lastUpdated => 
-	},
+		lastUpdated => 0	},
 
 	'858' => {
 		message => q|<i>Nickname</i>|,
@@ -2160,8 +1995,7 @@ conteúdo da área de transferência para a lixeira?|,
 
 	'submit' => {
 		message => q||,
-		lastUpdated => 
-	},
+		lastUpdated => 0	},
 
 	'314' => {
 		message => q|Primeiro Nome|,
@@ -2170,8 +2004,7 @@ conteúdo da área de transferência para a lixeira?|,
 
 	'pagination.previousPageText' => {
 		message => q||,
-		lastUpdated => 
-	},
+		lastUpdated => 0	},
 
 	'985' => {
 		message => q|Apagar este vínculo com banco de dados.|,
@@ -2180,8 +2013,7 @@ conteúdo da área de transferência para a lixeira?|,
 
 	'945 description' => {
 		message => q||,
-		lastUpdated => 
-	},
+		lastUpdated => 0	},
 
 	'971' => {
 		message => q|Hora|,
@@ -2195,13 +2027,11 @@ conteúdo da área de transferência para a lixeira?|,
 
 	'page statistics' => {
 		message => q||,
-		lastUpdated => 
-	},
+		lastUpdated => 0	},
 
 	'settings groupIdAdminLoginHistory label' => {
 		message => q||,
-		lastUpdated => 
-	},
+		lastUpdated => 0	},
 
 	'355' => {
 		message => q|Padr&atilde;o|,
@@ -2230,8 +2060,7 @@ conteúdo da área de transferência para a lixeira?|,
 
 	'private message blocked error' => {
 		message => q||,
-		lastUpdated => 
-	},
+		lastUpdated => 0	},
 
 	'326' => {
 		message => q|CEP (Residencial)|,
@@ -2240,13 +2069,11 @@ conteúdo da área de transferência para a lixeira?|,
 
 	'body.content' => {
 		message => q||,
-		lastUpdated => 
-	},
+		lastUpdated => 0	},
 
 	'pagination.pageLoop.upTo20' => {
 		message => q||,
-		lastUpdated => 
-	},
+		lastUpdated => 0	},
 
 	'555' => {
 		message => q|Editar o <i>karma</i> deste usuário.|,
@@ -2270,8 +2097,7 @@ conteúdo da área de transferência para a lixeira?|,
 
 	'private message from label' => {
 		message => q||,
-		lastUpdated => 
-	},
+		lastUpdated => 0	},
 
 	'1029' => {
 		message => q|Editado em|,
@@ -2285,13 +2111,11 @@ conteúdo da área de transferência para a lixeira?|,
 
 	'pagination.firstPageUrl' => {
 		message => q||,
-		lastUpdated => 
-	},
+		lastUpdated => 0	},
 
 	'high group count' => {
 		message => q||,
-		lastUpdated => 
-	},
+		lastUpdated => 0	},
 
 	'554' => {
 		message => q|Ações|,
@@ -2300,8 +2124,7 @@ conteúdo da área de transferência para a lixeira?|,
 
 	'content' => {
 		message => q||,
-		lastUpdated => 
-	},
+		lastUpdated => 0	},
 
 	'starts with' => {
 		message => q|Começa Com|,
@@ -2315,13 +2138,11 @@ conteúdo da área de transferência para a lixeira?|,
 
 	'allow access from macros help' => {
 		message => q||,
-		lastUpdated => 
-	},
+		lastUpdated => 0	},
 
 	'hex slider' => {
 		message => q||,
-		lastUpdated => 
-	},
+		lastUpdated => 0	},
 
 	'880' => {
 		message => q|Editor "Last Resort"|,
@@ -2335,18 +2156,15 @@ conteúdo da área de transferência para a lixeira?|,
 
 	'settings groupIdAdminWorkflow hoverHelp' => {
 		message => q||,
-		lastUpdated => 
-	},
+		lastUpdated => 0	},
 
 	'settings groupIdAdminLoginHistory hoverHelp' => {
 		message => q||,
-		lastUpdated => 
-	},
+		lastUpdated => 0	},
 
 	'pagination.previousPageUrl' => {
 		message => q||,
-		lastUpdated => 
-	},
+		lastUpdated => 0	},
 
 	'74' => {
 		message => q|Dados da Conta|,
@@ -2370,8 +2188,7 @@ conteúdo da área de transferência para a lixeira?|,
 
 	'890' => {
 		message => q||,
-		lastUpdated => 
-	},
+		lastUpdated => 0	},
 
 	'440' => {
 		message => q|Informações Para Contato|,
@@ -2395,8 +2212,7 @@ conteúdo da área de transferência para a lixeira?|,
 
 	'user function style' => {
 		message => q||,
-		lastUpdated => 
-	},
+		lastUpdated => 0	},
 
 	'871' => {
 		message => q|Quem pode editar?|,
@@ -2405,8 +2221,7 @@ conteúdo da área de transferência para a lixeira?|,
 
 	'misc' => {
 		message => q||,
-		lastUpdated => 
-	},
+		lastUpdated => 0	},
 
 	'1044' => {
 		message => q|Modelo de Resultados de Busca|,
@@ -2415,8 +2230,7 @@ conteúdo da área de transferência para a lixeira?|,
 
 	'admin console template description' => {
 		message => q||,
-		lastUpdated => 
-	},
+		lastUpdated => 0	},
 
 	'1072' => {
 		message => q|Esse endere&ccedil;o de email j&aacute; est&aacute; em uso. Por favor, utilize um endere&ccedil;o de email diferente.|,
@@ -2425,13 +2239,11 @@ conteúdo da área de transferência para a lixeira?|,
 
 	'pages' => {
 		message => q||,
-		lastUpdated => 
-	},
+		lastUpdated => 0	},
 
 	'editSettings done' => {
 		message => q||,
-		lastUpdated => 
-	},
+		lastUpdated => 0	},
 
 	'118 description' => {
 		message => q|Voc&ecirc; quer que visitantes possam registrar a si pr&oacute;prios no site?|,
@@ -2440,8 +2252,7 @@ conteúdo da área de transferência para a lixeira?|,
 
 	'settings groupIdAdminAdSpace hoverHelp' => {
 		message => q||,
-		lastUpdated => 
-	},
+		lastUpdated => 0	},
 
 	'126 description' => {
 		message => q|Um endere&ccedil;o de email geral para a sua institui&ccedil;&atilde;o. Esse endere&ccedil;o ser&aacute; utilizado para enviar todas as mensagens autom&aacute;ticas do WebGUI para os usu&aacute;rios, al&eacute;m de ser usado pelo macro Company Email Address.|,
@@ -2450,8 +2261,7 @@ conteúdo da área de transferência para a lixeira?|,
 
 	'991 description' => {
 		message => q||,
-		lastUpdated => 
-	},
+		lastUpdated => 0	},
 
 	'827' => {
 		message => q|Modelo de Wobject|,
@@ -2460,8 +2270,7 @@ conteúdo da área de transferência para a lixeira?|,
 
 	'settings groupIdAdminProductManager label' => {
 		message => q||,
-		lastUpdated => 
-	},
+		lastUpdated => 0	},
 
 	'91' => {
 		message => q|Página Anterior|,
@@ -2510,13 +2319,11 @@ conteúdo da área de transferência para a lixeira?|,
 
 	'settings groupIdAdminUserAdd hoverHelp' => {
 		message => q||,
-		lastUpdated => 
-	},
+		lastUpdated => 0	},
 
 	'trash workflow' => {
 		message => q||,
-		lastUpdated => 
-	},
+		lastUpdated => 0	},
 
 	'731' => {
 		message => q|2 Treinado|,
@@ -2530,8 +2337,7 @@ conteúdo da área de transferência para a lixeira?|,
 
 	'link settings' => {
 		message => q||,
-		lastUpdated => 
-	},
+		lastUpdated => 0	},
 
 	'52' => {
 		message => q|entrar|,
@@ -2565,8 +2371,7 @@ conteúdo da área de transferência para a lixeira?|,
 
 	'settings groupIdAdminGroupAdmin hoverHelp' => {
 		message => q||,
-		lastUpdated => 
-	},
+		lastUpdated => 0	},
 
 	'68' => {
 		message => q|A informação de conta que você forneceu é inválida. Ou a conta não existe, ou o par usuário/senha está incorreto.|,
@@ -2580,8 +2385,7 @@ conteúdo da área de transferência para a lixeira?|,
 
 	'400 description' => {
 		message => q||,
-		lastUpdated => 
-	},
+		lastUpdated => 0	},
 
 	'893' => {
 		message => q|Popriedades do Wobject|,
@@ -2610,8 +2414,7 @@ conteúdo da área de transferência para a lixeira?|,
 
 	'995 description' => {
 		message => q||,
-		lastUpdated => 
-	},
+		lastUpdated => 0	},
 
 	'484' => {
 		message => q|Lista de Seleção|,
@@ -2625,33 +2428,27 @@ conteúdo da área de transferência para a lixeira?|,
 
 	'pagination.text' => {
 		message => q||,
-		lastUpdated => 
-	},
+		lastUpdated => 0	},
 
 	'settings groupIdAdminCommerce label' => {
 		message => q||,
-		lastUpdated => 
-	},
+		lastUpdated => 0	},
 
 	'ui' => {
 		message => q||,
-		lastUpdated => 
-	},
+		lastUpdated => 0	},
 
 	'run on admin create user help' => {
 		message => q||,
-		lastUpdated => 
-	},
+		lastUpdated => 0	},
 
 	'content filters' => {
 		message => q||,
-		lastUpdated => 
-	},
+		lastUpdated => 0	},
 
 	'insert a link' => {
 		message => q||,
-		lastUpdated => 
-	},
+		lastUpdated => 0	},
 
 	'328' => {
 		message => q|Telefone (Residencial)|,
@@ -2660,8 +2457,7 @@ conteúdo da área de transferência para a lixeira?|,
 
 	'avatar' => {
 		message => q||,
-		lastUpdated => 
-	},
+		lastUpdated => 0	},
 
 	'1085' => {
 		message => q|Vari&aacute;veis do Modelo de Pagina&ccedil;&atilde;o|,
@@ -2670,18 +2466,15 @@ conteúdo da área de transferência para a lixeira?|,
 
 	'Enable user invitations' => {
 		message => q||,
-		lastUpdated => 
-	},
+		lastUpdated => 0	},
 
 	'pagination.nextPageUrl' => {
 		message => q||,
-		lastUpdated => 
-	},
+		lastUpdated => 0	},
 
 	'changeUrl workflow' => {
 		message => q||,
-		lastUpdated => 
-	},
+		lastUpdated => 0	},
 
 	'363' => {
 		message => q|Posi&ccedil;&atilde;o no Layout da P&aacute;gina|,
@@ -2690,8 +2483,7 @@ conteúdo da área de transferência para a lixeira?|,
 
 	'583 description' => {
 		message => q||,
-		lastUpdated => 
-	},
+		lastUpdated => 0	},
 
 	'127 description' => {
 		message => q|<p>O URL prim&aacute;rio para a sua institui&ccedil;&atilde;o. Esse UR ser&aacute; utilizado em todas as mensagens autom&aacute;ticas do WebGUI para os usu&aacute;rios, al&eacute;m de ser usado pelo macro Company URL.</p>|,
@@ -2715,8 +2507,7 @@ conteúdo da área de transferência para a lixeira?|,
 
 	'pagination.pageList.upTo20' => {
 		message => q||,
-		lastUpdated => 
-	},
+		lastUpdated => 0	},
 
 	'36' => {
 		message => q|Essa fun&ccedil;&atilde;o pode ser realizada apenas por um administrador. Por gentileza, contate um administrador.|,
@@ -2725,8 +2516,7 @@ conteúdo da área de transferência para a lixeira?|,
 
 	'settings' => {
 		message => q||,
-		lastUpdated => 
-	},
+		lastUpdated => 0	},
 
 	'748' => {
 		message => q|Contador de Usuários|,
@@ -2760,8 +2550,7 @@ conteúdo da área de transferência para a lixeira?|,
 
 	'select slider' => {
 		message => q||,
-		lastUpdated => 
-	},
+		lastUpdated => 0	},
 
 	'705' => {
 		message => q|Minuto(s)|,
@@ -2785,13 +2574,11 @@ conteúdo da área de transferência para a lixeira?|,
 
 	'974 description' => {
 		message => q||,
-		lastUpdated => 
-	},
+		lastUpdated => 0	},
 
 	'85 description' => {
 		message => q||,
-		lastUpdated => 
-	},
+		lastUpdated => 0	},
 
 	'407' => {
 		message => q|Clique aqui para criar sua conta.|,
@@ -2805,18 +2592,15 @@ conteúdo da área de transferência para a lixeira?|,
 
 	'target' => {
 		message => q||,
-		lastUpdated => 
-	},
+		lastUpdated => 0	},
 
 	'settings groupIdAdminActiveSessions label' => {
 		message => q||,
-		lastUpdated => 
-	},
+		lastUpdated => 0	},
 
 	'settings groupIdAdminCache label' => {
 		message => q||,
-		lastUpdated => 
-	},
+		lastUpdated => 0	},
 
 	'125' => {
 		message => q|Nome da Institui&ccedil;&atilde;o|,
@@ -2830,13 +2614,11 @@ conteúdo da área de transferência para a lixeira?|,
 
 	'send private message template' => {
 		message => q||,
-		lastUpdated => 
-	},
+		lastUpdated => 0	},
 
 	'run on admin create user' => {
 		message => q||,
-		lastUpdated => 
-	},
+		lastUpdated => 0	},
 
 	'1007' => {
 		message => q|Tipo de Conte&uacute;do|,
@@ -2850,8 +2632,7 @@ conteúdo da área de transferência para a lixeira?|,
 
 	'user function style description' => {
 		message => q||,
-		lastUpdated => 
-	},
+		lastUpdated => 0	},
 
 	'313' => {
 		message => q|Habilitar dados diversos?|,
@@ -2860,8 +2641,7 @@ conteúdo da área de transferência para a lixeira?|,
 
 	'webgui' => {
 		message => q||,
-		lastUpdated => 
-	},
+		lastUpdated => 0	},
 
 	'551' => {
 		message => q|Aviso|,
@@ -2880,8 +2660,7 @@ conteúdo da área de transferência para a lixeira?|,
 
 	'pagination.firstPageText' => {
 		message => q||,
-		lastUpdated => 
-	},
+		lastUpdated => 0	},
 
 	'753' => {
 		message => q|Editar este grupo.|,
@@ -2900,18 +2679,15 @@ conteúdo da área de transferência para a lixeira?|,
 
 	'url extension description' => {
 		message => q||,
-		lastUpdated => 
-	},
+		lastUpdated => 0	},
 
 	'pagination.previousPage' => {
 		message => q||,
-		lastUpdated => 
-	},
+		lastUpdated => 0	},
 
 	'default version tag workflow' => {
 		message => q||,
-		lastUpdated => 
-	},
+		lastUpdated => 0	},
 
 	'987' => {
 		message => q|Apagar Vínculo com Banco de Dados|,
@@ -2920,8 +2696,7 @@ conteúdo da área de transferência para a lixeira?|,
 
 	'Select State' => {
 		message => q||,
-		lastUpdated => 
-	},
+		lastUpdated => 0	},
 
 	'857' => {
 		message => q|Endereço IP|,
@@ -2950,13 +2725,11 @@ conteúdo da área de transferência para a lixeira?|,
 
 	'Illegal Warning' => {
 		message => q||,
-		lastUpdated => 
-	},
+		lastUpdated => 0	},
 
 	'367 description' => {
 		message => q||,
-		lastUpdated => 
-	},
+		lastUpdated => 0	},
 
 	'1069 description' => {
 		message => q|Selecione o nome de host que o WebGUI ir&aacute; utilizar para criar URLs. Sitename (Arquivo de configura&ccedil;&atilde;o) ir&aacute; usar a vari&aacute;vel &quot;sitename&quot; do arquivo de configura&ccedil;&atilde;o. Env HTTP Host ir&aacute; usar a vari&aacute;vel de ambiente &quot;HTTP_HOST&quot; informada pelo servidor web (apache).|,
@@ -2965,13 +2738,11 @@ conteúdo da área de transferência para a lixeira?|,
 
 	'settings groupIdAdminCron label' => {
 		message => q||,
-		lastUpdated => 
-	},
+		lastUpdated => 0	},
 
 	'private message submit label' => {
 		message => q||,
-		lastUpdated => 
-	},
+		lastUpdated => 0	},
 
 	'81' => {
 		message => q|Conta atualizada com sucesso!|,
@@ -2980,13 +2751,11 @@ conteúdo da área de transferência para a lixeira?|,
 
 	'view inbox message template' => {
 		message => q||,
-		lastUpdated => 
-	},
+		lastUpdated => 0	},
 
 	'824 description' => {
 		message => q||,
-		lastUpdated => 
-	},
+		lastUpdated => 0	},
 
 	'321' => {
 		message => q|Telefone Celular|,
@@ -3005,8 +2774,7 @@ conteúdo da área de transferência para a lixeira?|,
 
 	'975 description' => {
 		message => q||,
-		lastUpdated => 
-	},
+		lastUpdated => 0	},
 
 	'823' => {
 		message => q|Ir para a nova página.|,
@@ -3015,8 +2783,7 @@ conteúdo da área de transferência para a lixeira?|,
 
 	'profile' => {
 		message => q||,
-		lastUpdated => 
-	},
+		lastUpdated => 0	},
 
 	'371' => {
 		message => q|Adicionar Agrupamento|,
@@ -3030,13 +2797,11 @@ conteúdo da área de transferência para a lixeira?|,
 
 	'user invitations email exists description' => {
 		message => q||,
-		lastUpdated => 
-	},
+		lastUpdated => 0	},
 
 	'pagination.pageNumber' => {
 		message => q||,
-		lastUpdated => 
-	},
+		lastUpdated => 0	},
 
 	'729' => {
 		message => q|0 Iniciante|,
@@ -3060,8 +2825,7 @@ conteúdo da área de transferência para a lixeira?|,
 
 	'settings groupIdAdminUser label' => {
 		message => q||,
-		lastUpdated => 
-	},
+		lastUpdated => 0	},
 
 	'885' => {
 		message => q|Permitir que usuários desativem sua própria conta?|,
@@ -3110,8 +2874,7 @@ conteúdo da área de transferência para a lixeira?|,
 
 	'56 description' => {
 		message => q||,
-		lastUpdated => 
-	},
+		lastUpdated => 0	},
 
 	'1052' => {
 		message => q|Editar Filtro de Conte&uacute;do|,
@@ -3130,8 +2893,7 @@ conteúdo da área de transferência para a lixeira?|,
 
 	'tinymce' => {
 		message => q||,
-		lastUpdated => 
-	},
+		lastUpdated => 0	},
 
 	'1043' => {
 		message => q|Arquivar Ap&oacute;s|,
@@ -3140,8 +2902,7 @@ conteúdo da área de transferência para a lixeira?|,
 
 	'Enable Metadata' => {
 		message => q||,
-		lastUpdated => 
-	},
+		lastUpdated => 0	},
 
 	'974' => {
 		message => q|Usuários podem se adicionar à este grupo?|,
@@ -3155,8 +2916,7 @@ conteúdo da área de transferência para a lixeira?|,
 
 	'show performance indicators description' => {
 		message => q||,
-		lastUpdated => 
-	},
+		lastUpdated => 0	},
 
 	'702' => {
 		message => q|Mês(es)|,
@@ -3165,8 +2925,7 @@ conteúdo da área de transferência para a lixeira?|,
 
 	'user invitations email exists' => {
 		message => q||,
-		lastUpdated => 
-	},
+		lastUpdated => 0	},
 
 	'952' => {
 		message => q|Adicionado Em|,
@@ -3175,8 +2934,7 @@ conteúdo da área de transferência para a lixeira?|,
 
 	'private message subject label' => {
 		message => q||,
-		lastUpdated => 
-	},
+		lastUpdated => 0	},
 
 	'487' => {
 		message => q|Valores Possíveis|,
@@ -3190,13 +2948,11 @@ conteúdo da área de transferência para a lixeira?|,
 
 	'select' => {
 		message => q||,
-		lastUpdated => 
-	},
+		lastUpdated => 0	},
 
 	'auto request commit help' => {
 		message => q||,
-		lastUpdated => 
-	},
+		lastUpdated => 0	},
 
 	'561' => {
 		message => q|Rejeitado|,
@@ -3205,8 +2961,7 @@ conteúdo da área de transferência para a lixeira?|,
 
 	'Enable passive profiling description' => {
 		message => q||,
-		lastUpdated => 
-	},
+		lastUpdated => 0	},
 
 	'357' => {
 		message => q|Not&iacute;cias|,
@@ -3215,13 +2970,11 @@ conteúdo da área de transferência para a lixeira?|,
 
 	'settings groupIdAdminVersionTag hoverHelp' => {
 		message => q||,
-		lastUpdated => 
-	},
+		lastUpdated => 0	},
 
 	'hidden' => {
 		message => q||,
-		lastUpdated => 
-	},
+		lastUpdated => 0	},
 
 	'63' => {
 		message => q|Habilitar modo administrativo.|,
@@ -3240,8 +2993,7 @@ conteúdo da área de transferência para a lixeira?|,
 
 	'user profile field private message friends only label' => {
 		message => q||,
-		lastUpdated => 
-	},
+		lastUpdated => 0	},
 
 	'80' => {
 		message => q|Conta criada com sucesso!|,
@@ -3250,8 +3002,7 @@ conteúdo da área de transferência para a lixeira?|,
 
 	'settings groupIdAdminReplacements hoverHelp' => {
 		message => q||,
-		lastUpdated => 
-	},
+		lastUpdated => 0	},
 
 	'336' => {
 		message => q|Data de Nascimento|,
@@ -3260,8 +3011,7 @@ conteúdo da área de transferência para a lixeira?|,
 
 	'mail return path help' => {
 		message => q||,
-		lastUpdated => 
-	},
+		lastUpdated => 0	},
 
 	'457' => {
 		message => q|Editar este usu&aacute;rio.|,
@@ -3270,8 +3020,7 @@ conteúdo da área de transferência para a lixeira?|,
 
 	'view inbox template' => {
 		message => q||,
-		lastUpdated => 
-	},
+		lastUpdated => 0	},
 
 	'821' => {
 		message => q|Qualquer|,
@@ -3280,13 +3029,11 @@ conteúdo da área de transferência para a lixeira?|,
 
 	'wiki help target' => {
 		message => q||,
-		lastUpdated => 
-	},
+		lastUpdated => 0	},
 
 	'run on admin update user' => {
 		message => q||,
-		lastUpdated => 
-	},
+		lastUpdated => 0	},
 
 	'ends with' => {
 		message => q|Termina Com|,
@@ -3295,13 +3042,11 @@ conteúdo da área de transferência para a lixeira?|,
 
 	'send private message template description' => {
 		message => q||,
-		lastUpdated => 
-	},
+		lastUpdated => 0	},
 
 	'pagination.lastPageText' => {
 		message => q||,
-		lastUpdated => 
-	},
+		lastUpdated => 0	},
 
 	'92' => {
 		message => q|Página Seguinte|,
@@ -3310,8 +3055,7 @@ conteúdo da área de transferência para a lixeira?|,
 
 	'settings groupIdAdminDatabaseLink hoverHelp' => {
 		message => q||,
-		lastUpdated => 
-	},
+		lastUpdated => 0	},
 
 	'879' => {
 		message => q|Editor Clássico (Internet Explorer 5+)|,
@@ -3320,18 +3064,15 @@ conteúdo da área de transferência para a lixeira?|,
 
 	'539 description' => {
 		message => q||,
-		lastUpdated => 
-	},
+		lastUpdated => 0	},
 
 	'asset locked' => {
 		message => q||,
-		lastUpdated => 
-	},
+		lastUpdated => 0	},
 
 	'pagination.pageCount' => {
 		message => q||,
-		lastUpdated => 
-	},
+		lastUpdated => 0	},
 
 	'980' => {
 		message => q|Esvaziar esta pasta.|,
@@ -3345,18 +3086,15 @@ conteúdo da área de transferência para a lixeira?|,
 
 	'864 description' => {
 		message => q||,
-		lastUpdated => 
-	},
+		lastUpdated => 0	},
 
 	'992 description' => {
 		message => q||,
-		lastUpdated => 
-	},
+		lastUpdated => 0	},
 
 	'958' => {
 		message => q||,
-		lastUpdated => 
-	},
+		lastUpdated => 0	},
 
 	'419' => {
 		message => q|Preservar apenas o texto.|,
@@ -3385,13 +3123,11 @@ conteúdo da área de transferência para a lixeira?|,
 
 	'hidden list' => {
 		message => q||,
-		lastUpdated => 
-	},
+		lastUpdated => 0	},
 
 	'settings groupIdAdminHelp label' => {
 		message => q||,
-		lastUpdated => 
-	},
+		lastUpdated => 0	},
 
 	'406' => {
 		message => q|Tamanho do <i>Thumbnail</i>|,
@@ -3400,13 +3136,11 @@ conteúdo da área de transferência para a lixeira?|,
 
 	'settings groupIdAdminSpectre label' => {
 		message => q||,
-		lastUpdated => 
-	},
+		lastUpdated => 0	},
 
 	'allowed keywords' => {
 		message => q||,
-		lastUpdated => 
-	},
+		lastUpdated => 0	},
 
 	'482' => {
 		message => q|Número (Inteiro)|,
@@ -3420,13 +3154,11 @@ conteúdo da área de transferência para a lixeira?|,
 
 	'Enable passive profiling' => {
 		message => q||,
-		lastUpdated => 
-	},
+		lastUpdated => 0	},
 
 	'557 description' => {
 		message => q||,
-		lastUpdated => 
-	},
+		lastUpdated => 0	},
 
 	'56' => {
 		message => q|Endereço de Email|,
@@ -3450,8 +3182,7 @@ conteúdo da área de transferência para a lixeira?|,
 
 	'show my fields' => {
 		message => q||,
-		lastUpdated => 
-	},
+		lastUpdated => 0	},
 
 	'54' => {
 		message => q|Criar Conta|,
@@ -3465,8 +3196,7 @@ conteúdo da área de transferência para a lixeira?|,
 
 	'done' => {
 		message => q||,
-		lastUpdated => 
-	},
+		lastUpdated => 0	},
 
 	'70' => {
 		message => q|Erro|,
@@ -3485,8 +3215,7 @@ conteúdo da área de transferência para a lixeira?|,
 
 	'user profiling' => {
 		message => q||,
-		lastUpdated => 
-	},
+		lastUpdated => 0	},
 
 	'1009' => {
 		message => q|HTML|,
@@ -3495,8 +3224,7 @@ conteúdo da área de transferência para a lixeira?|,
 
 	'pagination.pageList.upTo10' => {
 		message => q||,
-		lastUpdated => 
-	},
+		lastUpdated => 0	},
 
 	'141' => {
 		message => q|P&aacute;gina N&atilde;o Encontrada|,
@@ -3515,8 +3243,7 @@ conteúdo da área de transferência para a lixeira?|,
 
 	'clear cache' => {
 		message => q||,
-		lastUpdated => 
-	},
+		lastUpdated => 0	},
 
 	'75' => {
 		message => q|Os dados da sua conta foram enviados para o seu endereço de email.|,
@@ -3550,28 +3277,23 @@ conteúdo da área de transferência para a lixeira?|,
 
 	'406 description' => {
 		message => q||,
-		lastUpdated => 
-	},
+		lastUpdated => 0	},
 
 	'50 setup description' => {
 		message => q||,
-		lastUpdated => 
-	},
+		lastUpdated => 0	},
 
 	'private message unread display message' => {
 		message => q||,
-		lastUpdated => 
-	},
+		lastUpdated => 0	},
 
 	'private message date label' => {
 		message => q||,
-		lastUpdated => 
-	},
+		lastUpdated => 0	},
 
 	'settings groupIdAdminGraphics label' => {
 		message => q||,
-		lastUpdated => 
-	},
+		lastUpdated => 0	},
 
 	'1070' => {
 		message => q|Sitename (Arquivo de configura&ccedil;&atilde;o)|,
@@ -3595,8 +3317,7 @@ conteúdo da área de transferência para a lixeira?|,
 
 	'help' => {
 		message => q||,
-		lastUpdated => 
-	},
+		lastUpdated => 0	},
 
 	'318' => {
 		message => q|Id <a href="%22http://www.aol.com/aim/homenew.adp%22" target="&quot;_blank&quot;">AIM</a>|,
@@ -3620,18 +3341,15 @@ conteúdo da área de transferência para a lixeira?|,
 
 	'pagination.pageLoop.upTo10' => {
 		message => q||,
-		lastUpdated => 
-	},
+		lastUpdated => 0	},
 
 	'settings groupIdAdminCron hoverHelp' => {
 		message => q||,
-		lastUpdated => 
-	},
+		lastUpdated => 0	},
 
 	'databases' => {
 		message => q||,
-		lastUpdated => 
-	},
+		lastUpdated => 0	},
 
 	'146' => {
 		message => q|Sess&otilde;es Ativas|,
@@ -3645,13 +3363,11 @@ conteúdo da área de transferência para a lixeira?|,
 
 	'993 description' => {
 		message => q||,
-		lastUpdated => 
-	},
+		lastUpdated => 0	},
 
 	'pagination.isFirstPage' => {
 		message => q||,
-		lastUpdated => 
-	},
+		lastUpdated => 0	},
 
 	'164' => {
 		message => q|M&eacute;todo de Autentica&ccedil;&atilde;o|,
@@ -3665,13 +3381,11 @@ conteúdo da área de transferência para a lixeira?|,
 
 	'settings groupIdAdminActiveSessions hoverHelp' => {
 		message => q||,
-		lastUpdated => 
-	},
+		lastUpdated => 0	},
 
 	'945' => {
 		message => q||,
-		lastUpdated => 
-	},
+		lastUpdated => 0	},
 
 };
 
