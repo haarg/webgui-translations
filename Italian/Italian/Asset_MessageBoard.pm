@@ -5,22 +5,22 @@ use utf8;
 our $I18N = {
 	'forum.lastpost.user.isVisitor' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'forum.rating' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'forum.user.canView' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'assetName' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'replies' => {
@@ -40,22 +40,22 @@ our $I18N = {
 
 	'forum.controls' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'forum.lastpost.user.alias' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'74' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'forum.replies' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'75' => {
@@ -65,42 +65,42 @@ our $I18N = {
 
 	'lastpost.label' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'areMultipleForums' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'rating.label' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'forum.lastpost.date' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'forum.views' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'forum.lastpost.url' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'forum.lastpost.subject' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'forum.count' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'title' => {
@@ -110,47 +110,47 @@ our $I18N = {
 
 	'forum_loop' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'forum.threads' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'forum.lastpost.time' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'title.label' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'forum.lastpost.epoch' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'threads.label' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'73 description' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'forum.title' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'forum.url' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'rating' => {
@@ -170,47 +170,47 @@ our $I18N = {
 
 	'default.listing' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'forum.lastpost.user.profile' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'visitor cache timeout' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'6' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'forum.lastpost.user.hasread' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'forum.lastpost.user.name' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'forum.lastpost.user.id' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'views.label' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'forum.user.canPost' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'threads' => {
@@ -220,17 +220,17 @@ our $I18N = {
 
 	'replies.label' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'visitor cache timeout help' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'73' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'76' => {
@@ -240,7 +240,7 @@ our $I18N = {
 
 	'forum.description' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 };

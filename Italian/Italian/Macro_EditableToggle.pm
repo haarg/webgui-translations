@@ -10,27 +10,27 @@ our $I18N = {
 
 	'editable toggle title' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'toggle.url' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'macroName' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'517' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'toggle.text' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 };

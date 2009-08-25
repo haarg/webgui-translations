@@ -10,62 +10,62 @@ our $I18N = {
 
 	'search template' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'form_footer' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'search root description' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'assetName' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'class limiter' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'form_header' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'form_keywords' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'search template description' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'class limiter description' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'form_submit' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'result_set' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'search root' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 };

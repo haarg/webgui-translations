@@ -4,7 +4,7 @@ use utf8;
 our $I18N = {
 	'group' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'expire offset' => {
@@ -14,7 +14,7 @@ our $I18N = {
 
 	'group help' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'activityName' => {

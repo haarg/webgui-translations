@@ -4,7 +4,7 @@ use utf8;
 our $I18N = {
 	'topicName' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'verify your humanity' => {
