@@ -4,47 +4,47 @@ use utf8;
 our $I18N = {
 	'stroke alpha' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'fill alpha' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'font name description' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'stroke color description' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'fill alpha description' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'font file description' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'stroke alpha description' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'fill color' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'stroke color' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'add palette' => {
@@ -54,12 +54,12 @@ our $I18N = {
 
 	'palette name' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'font name' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'font file' => {
@@ -74,17 +74,17 @@ our $I18N = {
 
 	'fill color description' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'palette name description' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'manage graphics' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'color name' => {
@@ -104,12 +104,12 @@ our $I18N = {
 
 	'manage palettes' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'manage fonts' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 };

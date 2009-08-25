@@ -34,8 +34,8 @@ our $I18N = {
     'message' => ''
   },
   'article template description' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => '1239027649',
+    'message' => "Opis predlo\x{161}ka \x{10d}lanka"
   },
   'assetName' => {
     'lastUpdated' => '1168623236',
@@ -78,44 +78,44 @@ our $I18N = {
     'message' => ''
   },
   'description' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => '1239027636',
+    'message' => 'Opis'
   },
   'description.first.100words' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => '1239027702',
+    'message' => "Prvih 100 rije\x{10d}i opisa"
   },
   'description.first.10words' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => '1239027717',
+    'message' => "Prvih 10 rije\x{10d}i opisa"
   },
   'description.first.25words' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => '1239027726',
+    'message' => "Prvih 25 rije\x{10d}i opisa"
   },
   'description.first.2paragraphs' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => '1239027766',
+    'message' => 'Prva 2 odlomka opisa'
   },
   'description.first.2sentences' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => '1239027782',
+    'message' => "Prve 2 re\x{10d}enice opisa"
   },
   'description.first.3sentences' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => '1239027788',
+    'message' => "Prve 3 re\x{10d}enice opisa"
   },
   'description.first.4sentences' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => '1239027796',
+    'message' => "Prve 4 re\x{10d}enice opisa"
   },
   'description.first.50words' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => '1239027815',
+    'message' => "Prvih 50 rije\x{10d}i opisa"
   },
   'description.first.75words' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => '1239027821',
+    'message' => "Prvih 75 rije\x{10d}i opisa"
   },
   'description.first.paragraph' => {
     'lastUpdated' => undef,

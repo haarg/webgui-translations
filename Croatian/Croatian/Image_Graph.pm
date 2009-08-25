@@ -4,32 +4,32 @@ use utf8;
 our $I18N = {
 	'palette' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'label font' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'image width' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'image height description' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'no graphing plugins' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'label color' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'background color' => {
@@ -39,67 +39,67 @@ our $I18N = {
 
 	'image height' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'label offset description' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'label font description' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'palette description' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'label fontsize' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'image width description' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'label fontsize description' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'no graphing plugins in config' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'background color description' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'label offset' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'graph type' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'label color description' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'graph type description' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 };
