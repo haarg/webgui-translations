@@ -10,7 +10,7 @@ our $I18N = {
 
 	'74' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'75' => {

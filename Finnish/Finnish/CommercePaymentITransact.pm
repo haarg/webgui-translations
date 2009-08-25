@@ -89,7 +89,7 @@ our $I18N = {
 
 	'extra info' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'show terminal' => {
@@ -134,7 +134,7 @@ our $I18N = {
 
 	'module name' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 };

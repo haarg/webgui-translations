@@ -10,7 +10,7 @@ our $I18N = {
 
 	'folder template body' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'folder template title' => {

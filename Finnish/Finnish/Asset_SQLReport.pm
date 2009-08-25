@@ -35,7 +35,7 @@ our $I18N = {
 
 	'debug placeholder parameters' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'12' => {
@@ -70,7 +70,7 @@ our $I18N = {
 
 	'Placeholder Parameters' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 };

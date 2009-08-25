@@ -155,7 +155,7 @@ our $I18N = {
 
 	'deleteImage' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'36' => {

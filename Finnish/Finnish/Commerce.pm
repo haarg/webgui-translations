@@ -165,7 +165,7 @@ our $I18N = {
 
 	'help select payment template title' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'yearly' => {
@@ -210,7 +210,7 @@ our $I18N = {
 
 	'status codes information' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 };

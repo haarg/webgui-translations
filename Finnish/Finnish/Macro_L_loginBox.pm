@@ -10,7 +10,7 @@ our $I18N = {
 
 	'login box title' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'48' => {

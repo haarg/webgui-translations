@@ -10,27 +10,27 @@ our $I18N = {
 
 	'959' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'Uploads URL' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'99' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'Page Export Status' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'asset' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'change' => {
@@ -95,17 +95,17 @@ our $I18N = {
 
 	'Depth' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'964' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'Export Page' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'create package' => {
@@ -115,12 +115,12 @@ our $I18N = {
 
 	'encrypt page' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'assets' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'949' => {
@@ -170,12 +170,12 @@ our $I18N = {
 
 	'965' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'966' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'errorEmptyField' => {
@@ -185,7 +185,7 @@ our $I18N = {
 
 	'Extras URL' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'895' => {
@@ -200,7 +200,7 @@ our $I18N = {
 
 	'Export as user' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'104' => {
@@ -220,7 +220,7 @@ our $I18N = {
 
 	'make prototype' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'1082' => {
@@ -230,7 +230,7 @@ our $I18N = {
 
 	'asset id' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'487' => {

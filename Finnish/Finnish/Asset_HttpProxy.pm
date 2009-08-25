@@ -10,7 +10,7 @@ our $I18N = {
 
 	'http proxy template title' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'9' => {
@@ -50,7 +50,7 @@ our $I18N = {
 
 	'http proxy template body' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'13' => {

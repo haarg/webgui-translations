@@ -10,7 +10,7 @@ our $I18N = {
 
 	'editable toggle title' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'517' => {

@@ -5,7 +5,7 @@ use utf8;
 our $I18N = {
 	'11' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'7' => {
