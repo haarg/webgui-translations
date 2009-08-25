@@ -1,4 +1,5 @@
 package WebGUI::i18n::Hungarian::CommercePaymentCash;
+use utf8;
 
 our $I18N = {
 	'cardNumber' => {
@@ -13,12 +14,12 @@ our $I18N = {
 
 	'complete transaction' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'complete transaction description' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'state' => {
@@ -38,7 +39,7 @@ our $I18N = {
 
 	'vendorId' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'city' => {
@@ -93,7 +94,7 @@ our $I18N = {
 
 	'zipcode' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'expiration date' => {
@@ -103,7 +104,7 @@ our $I18N = {
 
 	'payment method' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'invalid city' => {
@@ -113,12 +114,12 @@ our $I18N = {
 
 	'cvv2' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'use cvv2' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'invalid lastName' => {
@@ -128,12 +129,12 @@ our $I18N = {
 
 	'no description' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'other' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'invalid address' => {
@@ -153,7 +154,7 @@ our $I18N = {
 
 	'module name' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 };

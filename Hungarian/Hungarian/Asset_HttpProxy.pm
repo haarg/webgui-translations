@@ -1,29 +1,30 @@
 package WebGUI::i18n::Hungarian::Asset_HttpProxy;
+use utf8;
 
 our $I18N = {
 	'filterHtml' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'content' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'assetName' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'2' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'searchFor' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'1' => {
@@ -33,12 +34,12 @@ our $I18N = {
 
 	'useAmpersand' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'url pattern filter hover help' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'timeout' => {
@@ -53,42 +54,42 @@ our $I18N = {
 
 	'13 description' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'http proxy template body' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'http proxy template title description' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'proxiedUrl' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'http proxy asset template variables title' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'http proxy template title' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'fetch page error' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'content.leading' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'4 description' => {
@@ -98,52 +99,52 @@ our $I18N = {
 
 	'5 description' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'cookieJarStorageId' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'removeStyle' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'14' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'use ampersand help' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'no recursion' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'rewriteUrls' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'followRedirect' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'stopAt' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'cache timeout' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'13' => {
@@ -153,87 +154,87 @@ our $I18N = {
 
 	'http proxy asset template variables body' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'no frame error message' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'templateId' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'cache timeout description' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'6 description' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'6' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'14 description' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'cacheTimeout' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'may not leave error message' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'12 description' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'content.trailing' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'9' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'12' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'followExternal' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'use ampersand' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'8' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'8 description' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'4' => {
@@ -243,27 +244,27 @@ our $I18N = {
 
 	'stop.at' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'search.for' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'url pattern filter label' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'header' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'5' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 };

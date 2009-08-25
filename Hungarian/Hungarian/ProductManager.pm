@@ -1,4 +1,5 @@
 package WebGUI::i18n::Hungarian::ProductManager;
+use utf8;
 
 our $I18N = {
 	'2 years' => {
@@ -8,12 +9,12 @@ our $I18N = {
 
 	'edit product title error' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'edit product' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'weight override description' => {
@@ -23,12 +24,12 @@ our $I18N = {
 
 	'useSalesTax description' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'group id description' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'weight description' => {
@@ -38,17 +39,17 @@ our $I18N = {
 
 	'edit option parameterId error' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'edit option value error' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'parameter ID' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'description' => {
@@ -63,12 +64,12 @@ our $I18N = {
 
 	'variant ID' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'option ID' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'6 months' => {
@@ -88,7 +89,7 @@ our $I18N = {
 
 	'edit product price error' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'edit option value' => {
@@ -98,7 +99,7 @@ our $I18N = {
 
 	'edit parameter name' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'title description' => {
@@ -118,17 +119,17 @@ our $I18N = {
 
 	'group expires offset description' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'help edit sku template body' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'help edit sku template title' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'list products' => {
@@ -143,12 +144,12 @@ our $I18N = {
 
 	'edit parameter name error' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'group id' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'sku template description' => {
@@ -163,7 +164,7 @@ our $I18N = {
 
 	'edit parameter productId error' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'10 years' => {
@@ -193,7 +194,7 @@ our $I18N = {
 
 	'edit option value description' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'manage product' => {
@@ -208,7 +209,7 @@ our $I18N = {
 
 	'edit option weight modifier' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'template' => {
@@ -223,17 +224,17 @@ our $I18N = {
 
 	'edit parameter name description' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'edit option weight modifier description' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'manage products' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'price override' => {
@@ -248,12 +249,12 @@ our $I18N = {
 
 	'edit option sku modifier' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'edit option' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'price' => {
@@ -273,7 +274,7 @@ our $I18N = {
 
 	'edit product weight error' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'1 year' => {
@@ -293,7 +294,7 @@ our $I18N = {
 
 	'edit product sku error' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'sku description' => {
@@ -308,7 +309,7 @@ our $I18N = {
 
 	'edit sku composition label' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'sku template' => {
@@ -318,7 +319,7 @@ our $I18N = {
 
 	'edit variant' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'price override description' => {
@@ -343,7 +344,7 @@ our $I18N = {
 
 	'edit option price modifier description' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'available' => {
@@ -353,12 +354,12 @@ our $I18N = {
 
 	'edit option sku modifier description' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'edit parameter' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'description description' => {
@@ -378,12 +379,12 @@ our $I18N = {
 
 	'group expires offset' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'useSalesTax' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 };

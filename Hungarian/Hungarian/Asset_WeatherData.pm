@@ -1,4 +1,5 @@
 package WebGUI::i18n::Hungarian::Asset_WeatherData;
+use utf8;
 
 our $I18N = {
 	'assetName' => {
@@ -8,22 +9,22 @@ our $I18N = {
 
 	'partnerId help' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'cityState' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'WeatherData template title' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'Current Weather Conditions Template to use' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'Default Locations' => {
@@ -33,7 +34,7 @@ our $I18N = {
 
 	'weatherdata asset template variables title' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'templateId' => {
@@ -43,7 +44,7 @@ our $I18N = {
 
 	'Your list of default weather locations' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'sky' => {
@@ -53,7 +54,7 @@ our $I18N = {
 
 	'locations' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'tempF' => {
@@ -63,7 +64,7 @@ our $I18N = {
 
 	'licenseKey' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'query' => {
@@ -73,12 +74,12 @@ our $I18N = {
 
 	'partnerId' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'iconUrl' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'Template' => {
@@ -88,7 +89,7 @@ our $I18N = {
 
 	'licenseKey help' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'you need a weather.com key' => {
@@ -98,7 +99,7 @@ our $I18N = {
 
 	'ourLocations.loop' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 };

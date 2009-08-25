@@ -1,4 +1,5 @@
 package WebGUI::i18n::Hungarian::Asset_Thread;
+use utf8;
 
 our $I18N = {
 	'user.isSubscribed' => {
@@ -8,12 +9,12 @@ our $I18N = {
 
 	'layout.isThreaded' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'thread template title' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'assetName' => {
@@ -33,7 +34,7 @@ our $I18N = {
 
 	'layout.isFlat' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'isThreadRoot' => {
@@ -43,12 +44,12 @@ our $I18N = {
 
 	'thumbsUp.icon.url' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'layout.isNested' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'previous.url' => {
@@ -58,12 +59,12 @@ our $I18N = {
 
 	'unstick.url' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'karma.transfer.form' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'user.canReply' => {
@@ -73,7 +74,7 @@ our $I18N = {
 
 	'collaboration.description' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'new file description' => {
@@ -88,27 +89,27 @@ our $I18N = {
 
 	'collaboration.url' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'depth' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'isSticky' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'isLocked variable' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'thumbsDown.icon.url' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'user.isModerator' => {
@@ -118,7 +119,7 @@ our $I18N = {
 
 	'layout.nested.url' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'isCurrent' => {
@@ -133,12 +134,12 @@ our $I18N = {
 
 	'lastPostDate' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'collaboration.title' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'add.url' => {
@@ -148,17 +149,17 @@ our $I18N = {
 
 	'stick.url' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'subscriptionGroupId' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'karmaScale' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'repliesAllowed' => {
@@ -178,7 +179,7 @@ our $I18N = {
 
 	'post_loop' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'userProfile.url' => {
@@ -193,17 +194,17 @@ our $I18N = {
 
 	'unarchive.url' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'layout.flat.url' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'indent_loop' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'user.canPost' => {
@@ -218,22 +219,22 @@ our $I18N = {
 
 	'thread asset template title' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'karma' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'depthX10' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'lastPostId' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'unlock.url' => {
@@ -243,7 +244,7 @@ our $I18N = {
 
 	'isSticky variable' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'isArchived' => {
@@ -253,12 +254,12 @@ our $I18N = {
 
 	'layout.threaded.url' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'karmaRank' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'user.isVisitor' => {

@@ -1,4 +1,5 @@
 package WebGUI::i18n::Hungarian::Asset_RichEdit;
+use utf8;
 
 our $I18N = {
 	'disable rich edit' => {
@@ -58,12 +59,12 @@ our $I18N = {
 
 	'toolbar buttons' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'elements description' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'elements' => {
@@ -73,7 +74,7 @@ our $I18N = {
 
 	'tablecontrols' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'right to left' => {
@@ -118,7 +119,7 @@ our $I18N = {
 
 	'css file description' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'insertImage' => {
@@ -128,12 +129,12 @@ our $I18N = {
 
 	'use br description' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'preformatted description' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'backcolor' => {
@@ -148,7 +149,7 @@ our $I18N = {
 
 	'using rich edit description' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'justifyright' => {
@@ -163,7 +164,7 @@ our $I18N = {
 
 	'visualaid' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'numlist' => {
@@ -183,7 +184,7 @@ our $I18N = {
 
 	'using rich edit' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'bottom' => {
@@ -193,7 +194,7 @@ our $I18N = {
 
 	'editor height description' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'image' => {
@@ -203,12 +204,12 @@ our $I18N = {
 
 	'toolbar buttons description' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'enable context menu description' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'removeformat' => {
@@ -223,7 +224,7 @@ our $I18N = {
 
 	'elements subtext' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'search' => {
@@ -248,7 +249,7 @@ our $I18N = {
 
 	'editor width description' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'editor width' => {
@@ -258,7 +259,7 @@ our $I18N = {
 
 	'no wrap' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'copy' => {
@@ -293,7 +294,7 @@ our $I18N = {
 
 	'cleanup' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'use br' => {
@@ -333,7 +334,7 @@ our $I18N = {
 
 	'advhr' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'justifycenter' => {
@@ -358,7 +359,7 @@ our $I18N = {
 
 	'source editor width description' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'preview' => {
@@ -373,7 +374,7 @@ our $I18N = {
 
 	'enable context menu' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'pasteword' => {
@@ -383,7 +384,7 @@ our $I18N = {
 
 	'pagetree' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'inserttime' => {
@@ -393,7 +394,7 @@ our $I18N = {
 
 	'source editor height description' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'editor height' => {
@@ -423,17 +424,17 @@ our $I18N = {
 
 	'no wrap description' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'toolbar location' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'source editor width' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'help' => {
@@ -448,7 +449,7 @@ our $I18N = {
 
 	'preformatted' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'fontselect' => {
@@ -458,7 +459,7 @@ our $I18N = {
 
 	'link' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'emotions' => {
@@ -473,7 +474,7 @@ our $I18N = {
 
 	'toolbar location description' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'sub' => {
@@ -493,7 +494,7 @@ our $I18N = {
 
 	'directionality description' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'insertdate' => {

@@ -1,9 +1,10 @@
 package WebGUI::i18n::Hungarian::Asset_Search;
+use utf8;
 
 our $I18N = {
 	'search asset template variables title' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'search' => {
@@ -18,12 +19,12 @@ our $I18N = {
 
 	'classLimiter' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'class limiter' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'assetName' => {
@@ -33,12 +34,12 @@ our $I18N = {
 
 	'synopsis' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'no_results' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'assetId' => {
@@ -53,7 +54,7 @@ our $I18N = {
 
 	'searchRoot' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'form_submit' => {
@@ -63,22 +64,22 @@ our $I18N = {
 
 	'class limiter description' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'result_set' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'templateId' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'search root' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'form_footer' => {
@@ -88,12 +89,12 @@ our $I18N = {
 
 	'search root description' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'results_found' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'form_header' => {
@@ -108,7 +109,7 @@ our $I18N = {
 
 	'search template description' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'no results' => {

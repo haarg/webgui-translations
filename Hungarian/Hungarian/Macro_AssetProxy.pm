@@ -1,4 +1,5 @@
 package WebGUI::i18n::Hungarian::Macro_AssetProxy;
+use utf8;
 
 our $I18N = {
 	'invalid url' => {

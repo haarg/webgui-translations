@@ -1,4 +1,5 @@
 package WebGUI::i18n::Hungarian::Asset_Wobject;
+use utf8;
 
 our $I18N = {
 	'1073 description' => {
@@ -18,12 +19,12 @@ our $I18N = {
 
 	'displayTitle' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'827' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'assetName' => {
@@ -38,12 +39,12 @@ our $I18N = {
 
 	'85 description' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'42' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'174' => {
@@ -58,7 +59,7 @@ our $I18N = {
 
 	'wobject template variables title' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'44' => {
@@ -83,12 +84,12 @@ our $I18N = {
 
 	'styleTemplateId' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'1079 description' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'description' => {
@@ -113,7 +114,7 @@ our $I18N = {
 
 	'printableStyleTemplateId' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 };

@@ -1,4 +1,5 @@
 package WebGUI::i18n::Hungarian::Asset_Post;
+use utf8;
 
 our $I18N = {
 	'post received' => {
@@ -8,17 +9,17 @@ our $I18N = {
 
 	'dateUpdated' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'title.form.textarea' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'userDefinedN.form.textarea' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'523' => {
@@ -28,12 +29,12 @@ our $I18N = {
 
 	'content' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'relativeUrl' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'newWindow' => {
@@ -43,7 +44,7 @@ our $I18N = {
 
 	'synopsis.form' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'isNewPost' => {
@@ -68,17 +69,17 @@ our $I18N = {
 
 	'isHidden' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'hasRated' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'formatted.content' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'groupIdEdit' => {
@@ -93,12 +94,12 @@ our $I18N = {
 
 	'preview.title' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'meta_X_value' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'delete.url' => {
@@ -108,12 +109,12 @@ our $I18N = {
 
 	'form.header' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'name' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'new file description' => {
@@ -123,7 +124,7 @@ our $I18N = {
 
 	'sticky.form' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'pending' => {
@@ -143,7 +144,7 @@ our $I18N = {
 
 	'title.form' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'image.url' => {
@@ -158,7 +159,7 @@ our $I18N = {
 
 	'userDefined1' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'title' => {
@@ -173,17 +174,17 @@ our $I18N = {
 
 	'userDefinedN.form.htmlarea' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'preview.userDefinedN' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'storageId' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'user.isModerator' => {
@@ -193,22 +194,22 @@ our $I18N = {
 
 	'notify url' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'userDefined5' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'reply.userDefinedN' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'dateSubmitted' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'attachment.form' => {
@@ -218,12 +219,12 @@ our $I18N = {
 
 	'reply.withQuote.url' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'karmaScale.form' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'views' => {
@@ -243,7 +244,7 @@ our $I18N = {
 
 	'usePreview' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'add/edit post template title' => {
@@ -253,7 +254,7 @@ our $I18N = {
 
 	'meta_loop' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'userProfile.url' => {
@@ -263,22 +264,22 @@ our $I18N = {
 
 	'userDefinedN.form.float' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'meta_X_form' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'notify.subscription.message' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'attachment_loop' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'userId' => {
@@ -298,7 +299,7 @@ our $I18N = {
 
 	'userDefined2' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'isEdit' => {
@@ -323,7 +324,7 @@ our $I18N = {
 
 	'reply.synopsis' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'attachment.name' => {
@@ -343,7 +344,7 @@ our $I18N = {
 
 	'userDefinedN.form' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'contentType.form' => {
@@ -353,7 +354,7 @@ our $I18N = {
 
 	'rating.value' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'assetName' => {
@@ -363,12 +364,12 @@ our $I18N = {
 
 	'userDefined3' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'isThread' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'875' => {
@@ -388,37 +389,37 @@ our $I18N = {
 
 	'synopsis' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'ownerUserId' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'extraHeadTags' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'avatar.url' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'isPrototype' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'field' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'karmaIsEnabled' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'title.short' => {
@@ -428,17 +429,17 @@ our $I18N = {
 
 	'dateUpdated.human' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'value' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'rate.url.thumbsUp' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'archived' => {
@@ -453,7 +454,7 @@ our $I18N = {
 
 	'notification template body' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'groupIdView' => {
@@ -483,17 +484,17 @@ our $I18N = {
 
 	'By' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'user.canEdit' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'rating' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'Edited_on' => {
@@ -508,12 +509,12 @@ our $I18N = {
 
 	'isPackage' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'userDefinedN.form.yesNo' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'content.form' => {
@@ -528,7 +529,7 @@ our $I18N = {
 
 	'dateSubmitted.human' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'thumbnail' => {
@@ -538,12 +539,12 @@ our $I18N = {
 
 	'form.footer' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'userDefined4' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'preview.content' => {
@@ -553,12 +554,12 @@ our $I18N = {
 
 	'subscribe.form' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'post template variables title' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'unsubscribeUrl' => {
@@ -568,12 +569,12 @@ our $I18N = {
 
 	'post asset variables title' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'notification template title' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'approved' => {
@@ -583,7 +584,7 @@ our $I18N = {
 
 	'rate.url.thumbsDown' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'attachment.url' => {

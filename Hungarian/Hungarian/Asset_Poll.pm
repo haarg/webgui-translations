@@ -1,4 +1,5 @@
 package WebGUI::i18n::Hungarian::Asset_Poll;
+use utf8;
 
 our $I18N = {
 	'form.end' => {
@@ -38,12 +39,12 @@ our $I18N = {
 
 	'hasImageGraph' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'poll asset template variables body' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'72' => {
@@ -153,7 +154,7 @@ our $I18N = {
 
 	'karmaPerVote' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'templateId' => {
@@ -183,7 +184,7 @@ our $I18N = {
 
 	'graphUrl' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'form.submit' => {

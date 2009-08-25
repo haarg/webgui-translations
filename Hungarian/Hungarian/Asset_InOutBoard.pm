@@ -1,4 +1,5 @@
 package WebGUI::i18n::Hungarian::Asset_InOutBoard;
+use utf8;
 
 our $I18N = {
 	'17 description' => {
@@ -8,57 +9,57 @@ our $I18N = {
 
 	'department' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'21' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'7' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'form' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'message.label' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'in out board asset template variables title' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'reportTemplateId' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'Department' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'all departments' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'1 description' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'paginateAfter' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'16' => {
@@ -68,62 +69,62 @@ our $I18N = {
 
 	'13 description' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'reportTitleLabel' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'inOutTemplateId' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'inOutGroup' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'dateStamp' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'username.label' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'In Out Template description' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'selectDelegatesLabel' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'HR' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'IT' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'username' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'20' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'10' => {
@@ -133,7 +134,7 @@ our $I18N = {
 
 	'paginateBar' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'11' => {
@@ -143,7 +144,7 @@ our $I18N = {
 
 	'select delegates label' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'16 description' => {
@@ -153,12 +154,12 @@ our $I18N = {
 
 	'6 description' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'report rows_loop' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'12 description' => {
@@ -168,7 +169,7 @@ our $I18N = {
 
 	'filter departments description' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'12' => {
@@ -178,52 +179,52 @@ our $I18N = {
 
 	'viewReportLabel' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'15' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'viewReportURL' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'selectDelegatesURL' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'delegate description' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'updatedBy label' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'report title' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'createdBy' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'assetName' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'2' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'17' => {
@@ -233,22 +234,22 @@ our $I18N = {
 
 	'rows_loop' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'deptHasChanged' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'view report label' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'in/out status delegates subtext' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'1' => {
@@ -258,107 +259,107 @@ our $I18N = {
 
 	'message label' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'In Out Template' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'statusList' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'select delegate' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'delegate' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'report.form' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'showReport' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'filter departments' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'displayForm' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'5 description' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'Regular Staff' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'14' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'inOutGroup description' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'myself' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'date.label' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'3 description' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'canViewReport' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'username label' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'status' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'22' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'23' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'13' => {
@@ -368,37 +369,37 @@ our $I18N = {
 
 	'date label' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'status.label' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'in/out status delegates description' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'14 description' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'6' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'in/out status delegates' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'reportViewerGroup' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'3' => {
@@ -408,27 +409,27 @@ our $I18N = {
 
 	'in out board asset template variables body' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'updatedBy.label' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'message' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'8' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'4' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'5' => {

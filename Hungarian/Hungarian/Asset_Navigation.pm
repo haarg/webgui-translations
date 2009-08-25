@@ -1,134 +1,135 @@
 package WebGUI::i18n::Hungarian::Asset_Navigation;
+use utf8;
 
 our $I18N = {
 	'' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'showUnprivilegedPages' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'32' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'showHiddenPages' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'page.parent.newWindow' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'Ancestor End Point' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'reverse page loop' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'currentPage.hasViewableSiblings' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'Descendants' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'page.inBranch' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'currentPage.ownerUserId' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'page.parent.parentId' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'page.isHidden' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'Ancestor End Point description' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'Siblings' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'mimeType variable' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'page.hasViewableChildren' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'reverse page loop description' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'indent' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'Infinity' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'currentPage.url' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'showSystemPages' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'page.title' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'Relative To Current URL' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'mimeType' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'page.indent_loop' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'31' => {
@@ -138,62 +139,62 @@ our $I18N = {
 
 	'page.newWindow' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'page.depthIsN' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'Self' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'page.url' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'30 description' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'page.isChild' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'page.assetId' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'page.isRankedLast' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'Start Point Type' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'Start Point Type description' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'page.isTopOfBranch' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'Relatives To Include description' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'1096' => {
@@ -203,97 +204,97 @@ our $I18N = {
 
 	'page.isRankedFirst' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'page.indent' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'Pedigree' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'mimeType description' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'currentPage.title' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'navigation asset template variables title' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'startPoint' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'page.parent.assetId' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'page_loop' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'currentPage.isHome' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'reversePageLoop' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'page.depthDiff_loop' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'page.hasChild' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'currentPage.menuTitle' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'page.parent.menuTitle' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'page.depthDiffIsN' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'page.parent.url' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'page.isBranchRoot' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'Start Point' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'assetName' => {
@@ -303,42 +304,42 @@ our $I18N = {
 
 	'currentPage.hasChild' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'Ancestors' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'Descendant End Point description' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'Start Point description' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'page.isSibling' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'page.depthDiff' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'1097' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'assetsToInclude' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'30' => {
@@ -348,102 +349,102 @@ our $I18N = {
 
 	'currentPage.synopsis' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'page.rank' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'page.parent.title' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'currentPage.assetId' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'descendantEndPoint' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'Relative To Root' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'page.isViewable' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'currentPage.hasSibling' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'preview' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'page.isCurrent' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'page.absDepth' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'ancestorEndPoint' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'32 description' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'page.isParent' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'currentPage.parentId' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'page.parentId' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'page.isDescendent' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'Specific URL' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'currentPage.newWindow' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'Descendant End Point' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'22' => {
@@ -458,7 +459,7 @@ our $I18N = {
 
 	'page.menuTitle' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'1096 description' => {
@@ -468,92 +469,92 @@ our $I18N = {
 
 	'page.relDepth' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'page.parent.rank' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'Relatives To Include' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'page.synopsis' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'currentPage.hasViewableChildren' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'startType' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'templateId' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'page.ownerUserId' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'31 description' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'page.parent.synopsis' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'page.isContainer' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'page.isAncestor' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'page.isUtility' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'navigation asset template variables body' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'page.parent.ownerUserId' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'page.inBranchRoot' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'currentPage.rank' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'page.relativeDepthIsN' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 };

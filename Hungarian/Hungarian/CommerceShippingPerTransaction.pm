@@ -1,4 +1,5 @@
 package WebGUI::i18n::Hungarian::CommerceShippingPerTransaction;
+use utf8;
 
 our $I18N = {
 	'price' => {

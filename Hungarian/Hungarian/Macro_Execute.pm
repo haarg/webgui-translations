@@ -1,10 +1,11 @@
 package WebGUI::i18n::Hungarian::Macro_Execute;
+use utf8;
 
 
 our $I18N = {
 	'execute error' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'macroName' => {

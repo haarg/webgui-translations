@@ -1,4 +1,5 @@
 package WebGUI::i18n::Hungarian::Asset_RSSCapable;
+use utf8;
 
 our $I18N = {
 	'rssTemplateId hoverHelp' => {
@@ -13,7 +14,7 @@ our $I18N = {
 
 	'rssEnabled hoverHelp' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'rssEnabled label' => {
@@ -23,7 +24,7 @@ our $I18N = {
 
 	'assetName' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 };

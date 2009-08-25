@@ -1,4 +1,5 @@
 package WebGUI::i18n::Hungarian::Asset_Event;
+use utf8;
 
 our $I18N = {
 	'startDateSecond' => {
@@ -8,7 +9,7 @@ our $I18N = {
 
 	'formTime' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'formRecurPattern' => {
@@ -38,7 +39,7 @@ our $I18N = {
 
 	'recurId' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'endTime' => {
@@ -48,7 +49,7 @@ our $I18N = {
 
 	'formUserDefinedN' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'urlParent' => {
@@ -73,7 +74,7 @@ our $I18N = {
 
 	'dateSpan' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'event common template variables title' => {
@@ -148,7 +149,7 @@ our $I18N = {
 
 	'formUserDefinedN_yesNo' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'formStartDate' => {
@@ -253,7 +254,7 @@ our $I18N = {
 
 	'relatedLinks assetVar' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'isAllDay' => {
@@ -293,7 +294,7 @@ our $I18N = {
 
 	'linkUrl' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'isPublic' => {
@@ -318,7 +319,7 @@ our $I18N = {
 
 	'formRelatedLinks' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'startDateMonthName' => {
@@ -333,7 +334,7 @@ our $I18N = {
 
 	'formUserDefinedN_htmlarea' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'endDateHourM' => {
@@ -358,7 +359,7 @@ our $I18N = {
 
 	'relatedLinks' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'endDateEpoch' => {
@@ -428,12 +429,12 @@ our $I18N = {
 
 	'formUserDefinedN_float' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'formUserDefinedN_textarea' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'formEndDate' => {

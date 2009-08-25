@@ -1,4 +1,5 @@
 package WebGUI::i18n::Hungarian::Asset_Collaboration;
+use utf8;
 
 our $I18N = {
 	'add.label' => {
@@ -8,7 +9,7 @@ our $I18N = {
 
 	'job title' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'date' => {
@@ -23,22 +24,22 @@ our $I18N = {
 
 	'displayLastReply' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'karma spent to rate' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'isSecond' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'enable metadata description' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'controls' => {
@@ -53,12 +54,12 @@ our $I18N = {
 
 	'docs' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'timeUpdated.human' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'transfer karma' => {
@@ -68,7 +69,7 @@ our $I18N = {
 
 	'job.requirements.label' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'subject' => {
@@ -78,12 +79,12 @@ our $I18N = {
 
 	'get mail interval' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'image.label' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'unlock.label' => {
@@ -98,7 +99,7 @@ our $I18N = {
 
 	'max image size help' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'compensation.label' => {
@@ -108,12 +109,12 @@ our $I18N = {
 
 	'title' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'pubDate' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'user.isModerator' => {
@@ -128,7 +129,7 @@ our $I18N = {
 
 	'sortby.title.url' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'reply.label' => {
@@ -143,7 +144,7 @@ our $I18N = {
 
 	'rating_loop' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'previous' => {
@@ -153,12 +154,12 @@ our $I18N = {
 
 	'job.header.label' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'sticky' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'compensation' => {
@@ -168,12 +169,12 @@ our $I18N = {
 
 	'post.label' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'posts/page description' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'by.label' => {
@@ -188,12 +189,12 @@ our $I18N = {
 
 	'get mail help' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'lastReply.dateSubmitted.human' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'user.canPost' => {
@@ -213,12 +214,12 @@ our $I18N = {
 
 	'fatal' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'rejected because no user account' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'visitor cache timeout help' => {
@@ -253,7 +254,7 @@ our $I18N = {
 
 	'karma rank' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'replies' => {
@@ -283,17 +284,17 @@ our $I18N = {
 
 	'id' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'karmaIsEnabled' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'mail prefix' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'dateUpdated.human' => {
@@ -303,27 +304,27 @@ our $I18N = {
 
 	'mail server help' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'mail server' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'item_loop' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'posts/page' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'default karma scale' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'by' => {
@@ -338,12 +339,12 @@ our $I18N = {
 
 	'system template' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'mail account help' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'preview' => {
@@ -368,7 +369,7 @@ our $I18N = {
 
 	'sortby.views.url' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'add' => {
@@ -378,7 +379,7 @@ our $I18N = {
 
 	'subscription group label' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'allow replies' => {
@@ -393,7 +394,7 @@ our $I18N = {
 
 	'thumbnail size help' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'addquestion' => {
@@ -413,17 +414,17 @@ our $I18N = {
 
 	'readmore.label' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'guid' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'post_loop' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'who threads description' => {
@@ -433,7 +434,7 @@ our $I18N = {
 
 	'system template description' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'delete.label' => {
@@ -473,7 +474,7 @@ our $I18N = {
 
 	'search.url' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'replies.label' => {
@@ -483,7 +484,7 @@ our $I18N = {
 
 	'notification template' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'close.label' => {
@@ -493,12 +494,12 @@ our $I18N = {
 
 	'rich editor' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'responses.label' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'addquestion.label' => {
@@ -518,7 +519,7 @@ our $I18N = {
 
 	'edit timeout description' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'post title' => {
@@ -533,7 +534,7 @@ our $I18N = {
 
 	'form.search' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'approval workflow' => {
@@ -548,12 +549,12 @@ our $I18N = {
 
 	'question.header.label' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'job.description.label' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'attachments/post description' => {
@@ -563,7 +564,7 @@ our $I18N = {
 
 	'post template description' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'description' => {
@@ -578,17 +579,17 @@ our $I18N = {
 
 	'edit timeout' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'rejected because not allowed' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'edit job' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'date submitted' => {
@@ -598,17 +599,17 @@ our $I18N = {
 
 	'edit submission' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'filter code description' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'location.label' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'body' => {
@@ -633,7 +634,7 @@ our $I18N = {
 
 	'unstick' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'attachment.path' => {
@@ -658,7 +659,7 @@ our $I18N = {
 
 	'get cs mail' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'user.isPoster' => {
@@ -673,7 +674,7 @@ our $I18N = {
 
 	'display last reply description' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'lock' => {
@@ -693,27 +694,27 @@ our $I18N = {
 
 	'unarchive' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'rejected' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'rating.label' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'feed description' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'rss template description' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'thumbnail.label' => {
@@ -728,7 +729,7 @@ our $I18N = {
 
 	'get mail' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'edit message' => {
@@ -738,12 +739,12 @@ our $I18N = {
 
 	'mail password help' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'responses' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'title.label' => {
@@ -773,12 +774,12 @@ our $I18N = {
 
 	'subscription group hoverHelp' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'item description' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'newWindow.label' => {
@@ -788,7 +789,7 @@ our $I18N = {
 
 	'job description' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'webMaster' => {
@@ -803,17 +804,17 @@ our $I18N = {
 
 	'status.label' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'rate.label' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'question' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'back.label' => {
@@ -823,7 +824,7 @@ our $I18N = {
 
 	'severity.label' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'attachment.url' => {
@@ -833,17 +834,17 @@ our $I18N = {
 
 	'stick.label' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'rating_loop.count' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'thread template' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'thumbnail size' => {
@@ -853,7 +854,7 @@ our $I18N = {
 
 	'generator' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'user defined 5' => {
@@ -863,7 +864,7 @@ our $I18N = {
 
 	'form.header' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'subscribe' => {
@@ -878,7 +879,7 @@ our $I18N = {
 
 	'open' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'who posts' => {
@@ -913,7 +914,7 @@ our $I18N = {
 
 	'get mail interval help' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'attachment' => {
@@ -923,22 +924,22 @@ our $I18N = {
 
 	'minor' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'isFourth' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'edit stamp' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'karma spent to rate description' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'addlink.label' => {
@@ -953,17 +954,17 @@ our $I18N = {
 
 	'feed title' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'notification template description' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'thread approval workflow' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'descending' => {
@@ -983,27 +984,27 @@ our $I18N = {
 
 	'synopsis' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'sortby.karmaRank.url' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'rss template' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'lastReply.timeSubmitted.human' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'open.label' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'sort order' => {
@@ -1013,7 +1014,7 @@ our $I18N = {
 
 	'sortby.rating.url' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'collab link' => {
@@ -1028,7 +1029,7 @@ our $I18N = {
 
 	'rss.url' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'who posts description' => {
@@ -1038,12 +1039,12 @@ our $I18N = {
 
 	'isThird' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'mail address' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'attachments/post' => {
@@ -1053,27 +1054,27 @@ our $I18N = {
 
 	'require subscription for email posting help' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'require subscription for email posting' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'mail prefix help' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'post template' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'question.label' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'lastReply.title' => {
@@ -1083,7 +1084,7 @@ our $I18N = {
 
 	'synopsis.label' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'max image size' => {
@@ -1098,7 +1099,7 @@ our $I18N = {
 
 	'thread template description' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'close' => {
@@ -1108,7 +1109,7 @@ our $I18N = {
 
 	'default karma scale help' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'visitorName.label' => {
@@ -1118,12 +1119,12 @@ our $I18N = {
 
 	'severity' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'unstick.label' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'contentType' => {
@@ -1138,7 +1139,7 @@ our $I18N = {
 
 	'sortby.replies.url' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'answer' => {
@@ -1153,17 +1154,17 @@ our $I18N = {
 
 	'filter code' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'search template description' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'karma rating multiplier' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'user.hasRead' => {
@@ -1178,7 +1179,7 @@ our $I18N = {
 
 	'sequence' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'edit.label' => {
@@ -1208,12 +1209,12 @@ our $I18N = {
 
 	'karma/post' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'layout' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'sort order description' => {
@@ -1228,7 +1229,7 @@ our $I18N = {
 
 	'mail address help' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'collaborationAssetId' => {
@@ -1248,7 +1249,7 @@ our $I18N = {
 
 	'mail password' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'archive after' => {
@@ -1258,7 +1259,7 @@ our $I18N = {
 
 	'isFifth' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'enable avatars' => {
@@ -1268,7 +1269,7 @@ our $I18N = {
 
 	'full text link' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'addlink' => {
@@ -1278,7 +1279,7 @@ our $I18N = {
 
 	'edit stamp description' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'collaboration search template title' => {
@@ -1288,17 +1289,17 @@ our $I18N = {
 
 	'layout.label' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'fatal.label' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'sortby.lastreply.url' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'search.label' => {
@@ -1308,7 +1309,7 @@ our $I18N = {
 
 	'karma scale' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'allow replies description' => {
@@ -1318,12 +1319,12 @@ our $I18N = {
 
 	'flatLayout' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'threads/page description' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'edit' => {
@@ -1333,7 +1334,7 @@ our $I18N = {
 
 	'tmplVar status' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'subscribe.url' => {
@@ -1353,12 +1354,12 @@ our $I18N = {
 
 	'previous.label' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'karma rating multiplier description' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'layout.nested.label' => {
@@ -1378,7 +1379,7 @@ our $I18N = {
 
 	'timeSubmitted.human' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'enable avatars description' => {
@@ -1393,7 +1394,7 @@ our $I18N = {
 
 	'submission.header.label' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'search' => {
@@ -1413,7 +1414,7 @@ our $I18N = {
 
 	'enable metadata' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'edit.url' => {
@@ -1423,7 +1424,7 @@ our $I18N = {
 
 	'threads/page' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'sort by' => {
@@ -1433,7 +1434,7 @@ our $I18N = {
 
 	'location' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'use captcha label' => {
@@ -1453,12 +1454,12 @@ our $I18N = {
 
 	'lastBuildDate' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'search template' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'edit question' => {
@@ -1468,7 +1469,7 @@ our $I18N = {
 
 	'job.title.label' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'auto subscribe to thread' => {
@@ -1483,7 +1484,7 @@ our $I18N = {
 
 	'lastReply.label' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'visitor' => {
@@ -1493,22 +1494,22 @@ our $I18N = {
 
 	'job requirements' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'mail' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'tmplVar thumbnail' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'query.form' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'visitor cache timeout' => {
@@ -1518,7 +1519,7 @@ our $I18N = {
 
 	'minor.label' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'archive' => {
@@ -1528,12 +1529,12 @@ our $I18N = {
 
 	'karma/post description' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'rich editor description' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'lastReply.username' => {
@@ -1543,7 +1544,7 @@ our $I18N = {
 
 	'nested' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'views.label' => {
@@ -1563,12 +1564,12 @@ our $I18N = {
 
 	'mail account' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'thread approval workflow description' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'archive after description' => {

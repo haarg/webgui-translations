@@ -1,4 +1,5 @@
 package WebGUI::i18n::Hungarian::Graphics;
+use utf8;
 
 our $I18N = {
 	'stroke alpha' => {

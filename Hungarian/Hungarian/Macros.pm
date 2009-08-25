@@ -1,4 +1,5 @@
 package WebGUI::i18n::Hungarian::Macros;
+use utf8;
 
 our $I18N = {
 	'macro disabled' => {
@@ -8,7 +9,7 @@ our $I18N = {
 
 	'macros list body' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'macro enabled' => {
@@ -43,7 +44,7 @@ our $I18N = {
 
 	'macros using body' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'macros using title' => {

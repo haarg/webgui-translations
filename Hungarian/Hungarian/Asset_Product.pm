@@ -1,4 +1,5 @@
 package WebGUI::i18n::Hungarian::Asset_Product;
+use utf8;
 
 our $I18N = {
 	'27 description' => {
@@ -13,7 +14,7 @@ our $I18N = {
 
 	'specification.controls' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'32' => {
@@ -28,7 +29,7 @@ our $I18N = {
 
 	'manual' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'21' => {
@@ -48,7 +49,7 @@ our $I18N = {
 
 	'addfeature.label' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'manual.url' => {
@@ -78,12 +79,12 @@ our $I18N = {
 
 	'benefit.controls' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'accessory.url' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'9 description' => {
@@ -98,7 +99,7 @@ our $I18N = {
 
 	'image3' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'brochure.url' => {
@@ -113,12 +114,12 @@ our $I18N = {
 
 	'brochure' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'product asset template variables body' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'57' => {
@@ -153,7 +154,7 @@ our $I18N = {
 
 	'addspecification.url' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'11 description' => {
@@ -183,7 +184,7 @@ our $I18N = {
 
 	'warranty' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'35' => {
@@ -193,7 +194,7 @@ our $I18N = {
 
 	'cache timeout help' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'11' => {
@@ -203,7 +204,7 @@ our $I18N = {
 
 	'addRelatedProduct.label' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'20 description' => {
@@ -213,17 +214,17 @@ our $I18N = {
 
 	'accessory.controls' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'accessory_loop' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'addaccessory.label' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'48' => {
@@ -243,7 +244,7 @@ our $I18N = {
 
 	'relatedproduct.controls' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'29' => {
@@ -263,17 +264,17 @@ our $I18N = {
 
 	'brochure.label' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'addaccessory.url' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'cacheTimeout' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'benefit_loop' => {
@@ -313,7 +314,7 @@ our $I18N = {
 
 	'image2' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'56' => {
@@ -363,7 +364,7 @@ our $I18N = {
 
 	'image1' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'product asset template variables title' => {
@@ -408,7 +409,7 @@ our $I18N = {
 
 	'addbenefit.url' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'23 description' => {
@@ -428,7 +429,7 @@ our $I18N = {
 
 	'addspecification.label' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'28 description' => {
@@ -463,7 +464,7 @@ our $I18N = {
 
 	'feature.controls' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'15 description' => {
@@ -498,7 +499,7 @@ our $I18N = {
 
 	'cache timeout' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'23' => {
@@ -533,7 +534,7 @@ our $I18N = {
 
 	'addRelatedProduct.url' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'deleteImage' => {
@@ -548,7 +549,7 @@ our $I18N = {
 
 	'accessory.title' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'3' => {
@@ -563,7 +564,7 @@ our $I18N = {
 
 	'addbenefit.label' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'9' => {

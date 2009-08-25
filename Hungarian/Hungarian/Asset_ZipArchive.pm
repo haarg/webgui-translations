@@ -1,35 +1,36 @@
 package WebGUI::i18n::Hungarian::Asset_ZipArchive;
+use utf8;
 
 
 our $I18N = {
 	'za_show_error' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'template label' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'fileUrl' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'assetName' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'noInitialPage var' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'show page' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'za_error' => {
@@ -39,12 +40,12 @@ our $I18N = {
 
 	'zip archive asset variables body' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'noFileSpecified' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'zip_error' => {
@@ -54,7 +55,7 @@ our $I18N = {
 
 	'zip archive asset variables title' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'unzip_error' => {
@@ -69,12 +70,12 @@ our $I18N = {
 
 	'controls' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'templateId' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'bad_archive' => {
@@ -84,37 +85,37 @@ our $I18N = {
 
 	'noInitialPage' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'zip archive template title' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'noFileSpecified var' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'fileIcon' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'zip archive template body' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'showPage' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'show page description' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 };

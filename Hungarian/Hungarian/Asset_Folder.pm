@@ -1,4 +1,5 @@
 package WebGUI::i18n::Hungarian::Asset_Folder;
+use utf8;
 
 our $I18N = {
 	'What Next description' => {
@@ -13,7 +14,7 @@ our $I18N = {
 
 	'folder template body' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'sort alphabetically' => {
@@ -28,7 +29,7 @@ our $I18N = {
 
 	'synopsis' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'folder id' => {
@@ -43,7 +44,7 @@ our $I18N = {
 
 	'controls' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'id' => {
@@ -53,7 +54,7 @@ our $I18N = {
 
 	'folder template title' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'canEdit' => {
@@ -63,17 +64,17 @@ our $I18N = {
 
 	'date.epoch' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'visitorCacheTimeout' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'folder template description' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'addFile.url' => {
@@ -93,7 +94,7 @@ our $I18N = {
 
 	'asset template variables body' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'folder icon.big' => {
@@ -133,7 +134,7 @@ our $I18N = {
 
 	'asset template variables title' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'size' => {
@@ -143,7 +144,7 @@ our $I18N = {
 
 	'visitor cache timeout' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'templateId' => {
@@ -183,12 +184,12 @@ our $I18N = {
 
 	'subfolder_loop' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'file_loop' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'thumbnail.url' => {
@@ -198,7 +199,7 @@ our $I18N = {
 
 	'visitor cache timeout help' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'isFile' => {
