@@ -4,7 +4,7 @@ use utf8;
 our $I18N = {
 	'search asset template variables title' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'search' => {
@@ -14,122 +14,122 @@ our $I18N = {
 
 	'search template' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'classLimiter' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'class limiter' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'assetName' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'synopsis' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'no_results' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'assetId' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'url' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'searchRoot' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'form_submit' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'class limiter description' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'result_set' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'useContainers help' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'templateId' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'search root' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'form_footer' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'useContainers' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'search root description' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'results_found' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'form_header' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'form_keywords' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'search template description' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'no results' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'title' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 };

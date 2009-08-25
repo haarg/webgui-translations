@@ -74,7 +74,7 @@ our $I18N = {
 
 	'Wobject Settings' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'Copy' => {

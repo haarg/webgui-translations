@@ -44,7 +44,7 @@ our $I18N = {
 
 	'label offset description' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'label font description' => {

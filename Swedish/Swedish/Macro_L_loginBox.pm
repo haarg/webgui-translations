@@ -4,22 +4,22 @@ use utf8;
 our $I18N = {
 	'username.form' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'logout.label' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'account.display.url' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'customText' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'48' => {
@@ -29,22 +29,22 @@ our $I18N = {
 
 	'login box title' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'account.create.url' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'form.login' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'form.footer' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'password.label' => {
@@ -54,7 +54,7 @@ our $I18N = {
 
 	'form.header' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'account.create.label' => {
@@ -64,7 +64,7 @@ our $I18N = {
 
 	'macroName' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'username.label' => {
@@ -74,12 +74,12 @@ our $I18N = {
 
 	'hello.label' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'password.form' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'49' => {
@@ -89,7 +89,7 @@ our $I18N = {
 
 	'user.isVisitor' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 };

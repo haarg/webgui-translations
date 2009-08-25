@@ -178,8 +178,8 @@ our $I18N = {
     'message' => 'Hj&auml;lp f&ouml;r ikonklass'
   },
   'Copy' => {
-    'lastUpdated' => '1240705842',
-    'message' => 'Kopiera'
+    'lastUpdated' => '1242833142',
+    'message' => 'Kopia'
   },
   'Data Type description' => {
     'lastUpdated' => '1210455189',
