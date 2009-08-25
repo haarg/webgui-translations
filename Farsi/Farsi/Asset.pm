@@ -178,12 +178,12 @@ our $I18N = {
     'message' => ''
   },
   'Data Type description' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1222010647,
+    'message' => "\x{62a}\x{648}\x{635}\x{6cc}\x{641} \x{646}\x{648}\x{639} \x{62f}\x{627}\x{62f}\x{647}"
   },
   'Delete Metadata field' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1222010687,
+    'message' => "\x{62d}\x{630}\x{641} \x{641}\x{6cc}\x{644}\x{62f} \x{645}\x{62a}\x{627}\x{62f}\x{6cc}\x{62a}\x{627}"
   },
   'Depth' => {
     'lastUpdated' => 1202248419,
@@ -230,8 +230,8 @@ our $I18N = {
     'message' => ''
   },
   'Metadata' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1222010726,
+    'message' => "\x{645}\x{62a}\x{627}\x{62f}\x{6cc}\x{62a}\x{627}"
   },
   'Metadata Description description' => {
     'lastUpdated' => undef,
@@ -306,8 +306,8 @@ our $I18N = {
     'message' => ''
   },
   'change' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => 1222010754,
+    'message' => "\x{62a}\x{639}\x{648}\x{6cc}\x{636}"
   },
   'change url' => {
     'lastUpdated' => undef,
