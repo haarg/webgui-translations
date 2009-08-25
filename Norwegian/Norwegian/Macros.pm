@@ -9,7 +9,7 @@ our $I18N = {
 
 	'macros list body' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'macro enabled' => {
@@ -19,17 +19,17 @@ our $I18N = {
 
 	'macro shortcut' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'macro enabled header' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'topicName' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'macro name' => {
@@ -39,17 +39,17 @@ our $I18N = {
 
 	'macros list title' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'macros using body' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'macros using title' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 };

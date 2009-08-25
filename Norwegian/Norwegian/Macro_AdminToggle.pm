@@ -5,7 +5,7 @@ use utf8;
 our $I18N = {
 	'516' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'toggle.url' => {
@@ -25,7 +25,7 @@ our $I18N = {
 
 	'517' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'toggle.text' => {

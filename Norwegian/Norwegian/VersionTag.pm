@@ -15,7 +15,7 @@ our $I18N = {
 
 	'manage pending versions' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'comments' => {
@@ -25,12 +25,12 @@ our $I18N = {
 
 	'who to notify help' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'notify message help' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'set tag' => {
@@ -50,7 +50,7 @@ our $I18N = {
 
 	'revisions in tag' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'committed by' => {
@@ -70,7 +70,7 @@ our $I18N = {
 
 	'version tag name description' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'deny' => {
@@ -80,7 +80,7 @@ our $I18N = {
 
 	'rollback version tag confirm' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'committed versions' => {
@@ -90,7 +90,7 @@ our $I18N = {
 
 	'tag creator' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'created by' => {
@@ -105,12 +105,12 @@ our $I18N = {
 
 	'workflow' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'who to notify' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'comments help' => {
@@ -130,22 +130,22 @@ our $I18N = {
 
 	'version tag name' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'edit version tag' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'tag committer' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'version tag name description commit' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'approval message' => {
@@ -155,12 +155,12 @@ our $I18N = {
 
 	'version tags' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'notify about version tag' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'approve' => {
@@ -170,12 +170,12 @@ our $I18N = {
 
 	'topicName' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'request approval for version tag' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'rollback' => {
@@ -185,12 +185,12 @@ our $I18N = {
 
 	'rollback version tag' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'group to approve' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'commit accepted' => {
@@ -210,12 +210,12 @@ our $I18N = {
 
 	'trash version tag' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'export version tag to html' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'content versioning' => {
@@ -225,7 +225,7 @@ our $I18N = {
 
 	'unlock version tag' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'do on deny help' => {
@@ -235,7 +235,7 @@ our $I18N = {
 
 	'manage committed versions' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'group to use' => {
@@ -260,27 +260,27 @@ our $I18N = {
 
 	'group to use help' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'purge revision prompt' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'manage versions' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'workflow help' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'group to approve help' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'comments description commit' => {
