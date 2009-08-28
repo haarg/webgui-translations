@@ -1,6 +1,26 @@
 package WebGUI::i18n::German::Tax;
 use utf8;
 our $I18N = {
+  'Active tax plugin' => {
+    'lastUpdated' => '1251494333',
+    'message' => 'Aktives Steuer-Plugin'
+  },
+  'Proceed' => {
+    'lastUpdated' => '1251494348',
+    'message' => 'Fortfahren'
+  },
+  'Stern tax warning' => {
+    'lastUpdated' => '1251494444',
+    'message' => 'Änderung des aktiven Steuer-Plugins ändert die Steuerberechnung für ALLE Produkte. Sind Sie sicher, dass Sie die Änderung durchführen möchten?'
+  },
+  'Switch' => {
+    'lastUpdated' => '1251494474',
+    'message' => 'Austauschen'
+  },
+  'Switch tax plugin' => {
+    'lastUpdated' => '1251494495',
+    'message' => 'Steuer-Plugin austauschen'
+  },
   'add a tax' => {
     'lastUpdated' => '1240756890',
     'message' => 'Steuerinformation hinzufügen'
