@@ -419,13 +419,25 @@ Wenn Sie "verborgen" oder "sichtbar" wählen, geben Sie bitte auch einen Standar
     'lastUpdated' => '1244363781',
     'message' => 'Sie haben keine Berechtigung diese Tabelle zu durchsuchen.'
   },
+  'on add workflow description' => {
+    'lastUpdated' => '1251504559',
+    'message' => 'Workflow der angestoßen wurde, nachdem diese Tabelle hinzugefügt wurde'
+  },
   'on add workflow label' => {
     'lastUpdated' => '1245622091',
     'message' => 'Bei neuem Eintrag'
   },
+  'on delete workflow description' => {
+    'lastUpdated' => '1251504590',
+    'message' => 'Workflow der angestoßen wurde, nachdem diese Tabelle gelöscht wurde'
+  },
   'on delete workflow label' => {
     'lastUpdated' => '1245622125',
     'message' => 'Nach löschen eines Eintrags'
+  },
+  'on edit workflow description' => {
+    'lastUpdated' => '1251504611',
+    'message' => 'Workflow der angestoßen wurde, nachdem diese Tabelle bearbeitet wurde'
   },
   'on edit workflow label' => {
     'lastUpdated' => '1245622145',
@@ -443,9 +455,17 @@ Wenn Sie "verborgen" oder "sichtbar" wählen, geben Sie bitte auch einen Standar
     'lastUpdated' => '1240582368',
     'message' => 'überschreiben'
   },
+  'possible values description' => {
+    'lastUpdated' => '1251504838',
+    'message' => 'Dieses Feld wird für Listentypen (Checkboxen, Auswahllisten, ..) genutzt. Geben Sie die gewünschten Werte zeilenweise ein.<br>Wenn Sie eine abweichende Beschriftung angeben möchten, müssen diese folgendermaßen formatiert werden:<br><span><pre>{<br>  "key1"=&gt;"value1",<br>  "key2"=&gt;"value2",<br>  "key3"=&gt;"value3"<br>  ...<br>}<br></pre></span>Klammern, Anführungszeichen, usw. Ersetzen Sie einfach <span>"key1"/"value1" mit Ihren eignen Schlüsselname/Wert- Paaren<br></span>'
+  },
   'possible values label' => {
     'lastUpdated' => '1238256776',
     'message' => 'Zugelassene Werte'
+  },
+  'possible values subtext' => {
+    'lastUpdated' => '1251504853',
+    'message' => 'Einer pro Zeile'
   },
   'pretext description' => {
     'lastUpdated' => '1238879830',
@@ -466,6 +486,10 @@ Wenn Sie "verborgen" oder "sichtbar" wählen, geben Sie bitte auch einen Standar
   'search button label' => {
     'lastUpdated' => '1227001661',
     'message' => 'Suchen'
+  },
+  'search description description' => {
+    'lastUpdated' => '1251504878',
+    'message' => 'Beschreibung für die Such-Seite'
   },
   'search description label' => {
     'lastUpdated' => '1236680931',
@@ -491,6 +515,10 @@ Wenn Sie "verborgen" oder "sichtbar" wählen, geben Sie bitte auch einen Standar
     'lastUpdated' => '1236681058',
     'message' => 'Suchen'
   },
+  'search template description' => {
+    'lastUpdated' => '1251505123',
+    'message' => 'Dieses Template zeit die Such-Seite dieser Tabelle an'
+  },
   'search template label' => {
     'lastUpdated' => '1240487172',
     'message' => 'Suchvorlage'
@@ -511,21 +539,69 @@ Wenn Sie "verborgen" oder "sichtbar" wählen, geben Sie bitte auch einen Standar
     'lastUpdated' => '1240582452',
     'message' => 'Beschreibung zum Suchbildschirm'
   },
+  'searchFields_fieldId' => {
+    'lastUpdated' => '1251505152',
+    'message' => 'Die fieldId des durchsuchbaren Feldes'
+  },
   'searchFields_form' => {
     'lastUpdated' => '1246484932',
     'message' => 'Formelement, entsprechend dem Typ um dieses Feld zu durchsuchen.'
+  },
+  'searchFields_is__fieldType__' => {
+    'lastUpdated' => '1251506075',
+    'message' => 'Ein Boolscher Wert, der anzeigt, ob dieses Feld vom Typ __fieldType__ ist. Der erste Buchstabe von __fieldType__ ist immer ein Großbuchstabe. Beispiel: bei einer Auswahlbox ist der Wert von <tmpl_var searchFields_isSelectBox> wahr.'
   },
   'searchFields_label' => {
     'lastUpdated' => '1240495868',
     'message' => 'Die Bezeichnung eines durchsuchbaren Feldes'
   },
+  'searchFields_loop' => {
+    'lastUpdated' => '1251505193',
+    'message' => 'Eine Schleife, die die durchsuchbaren Felder enthält'
+  },
+  'searchFields_textForm' => {
+    'lastUpdated' => '1251505221',
+    'message' => 'Texteingabe für die Feldsuche'
+  },
   'searchResult_copy_icon' => {
     'lastUpdated' => '1246485169',
     'message' => 'Ein Icon zum Kopieren des Suchergebnisses'
   },
+  'searchResult_copy_url' => {
+    'lastUpdated' => '1251505253',
+    'message' => 'URL um dieses Suchergebnis zu kopieren'
+  },
+  'searchResult_delete_icon' => {
+    'lastUpdated' => '1251505282',
+    'message' => 'Lösch-Icon um dieses Suchergebnis zu löschen'
+  },
+  'searchResult_delete_url' => {
+    'lastUpdated' => '1251505298',
+    'message' => 'URL um dieses Suchergebnis zu löschen'
+  },
+  'searchResult_edit_icon' => {
+    'lastUpdated' => '1251505810',
+    'message' => 'Bearbeitungs-Icon das zur Bearbeiten-Seite dieses Suchergebnis verweist'
+  },
+  'searchResult_edit_url' => {
+    'lastUpdated' => '1251505317',
+    'message' => 'URL um dieses Suchergebnis zu bearbeiten'
+  },
+  'searchResult_field_loop' => {
+    'lastUpdated' => '1251505746',
+    'message' => 'Eine Schleife, die die Felder enthält, die für dieses Suchergebnis angezeigt werden sollen.'
+  },
   'searchResult_id' => {
     'lastUpdated' => '1246485021',
     'message' => 'Die Id eines Suchergebnisses.'
+  },
+  'searchResult_loop' => {
+    'lastUpdated' => '1251505702',
+    'message' => 'Eine Schleife, die die Suchergebnisse enthält'
+  },
+  'searchResult_view_url' => {
+    'lastUpdated' => '1251505336',
+    'message' => 'URL um dieses Suchergebnis anzuzeigen'
   },
   'searchScreenTitle' => {
     'lastUpdated' => '1236680990',
@@ -567,17 +643,33 @@ Wenn Sie "verborgen" oder "sichtbar" wählen, geben Sie bitte auch einen Standar
     'lastUpdated' => '1240997415',
     'message' => 'Fehler: Sie sollten Felder für die neue Tabelle definieren.'
   },
+  'thing name description' => {
+    'lastUpdated' => '1251504962',
+    'message' => 'Ein menschenlesbarer Name für für diese Tabelle.'
+  },
   'thing name label' => {
     'lastUpdated' => '1240495901',
     'message' => 'Tabellenname'
+  },
+  'thing_addUrl' => {
+    'lastUpdated' => '1251505065',
+    'message' => 'Ein Link zur Neu-Seite der Tabelle.'
   },
   'thing_copyIcon' => {
     'lastUpdated' => '1246485061',
     'message' => 'Ein Icon mit einem Link zum Kopieren dieser Tabelle'
   },
+  'thing_copyUrl' => {
+    'lastUpdated' => '1251505009',
+    'message' => 'Ein Link, um diese Tabelle zu kopieren'
+  },
   'thing_deleteIcon' => {
     'lastUpdated' => '1246485095',
     'message' => 'Ein Icon mit einem Link zum Löschen dieser Tabelle'
+  },
+  'thing_deleteUrl' => {
+    'lastUpdated' => '1251505035',
+    'message' => 'Ein Link, um diese Tabelle zu löschen'
   },
   'thing_editIcon' => {
     'lastUpdated' => '1240496016',
@@ -595,17 +687,37 @@ Wenn Sie "verborgen" oder "sichtbar" wählen, geben Sie bitte auch einen Standar
     'lastUpdated' => '1234944794',
     'message' => 'Tabelle'
   },
+  'thing_searchUrl' => {
+    'lastUpdated' => '1251504988',
+    'message' => 'Ein Link zur Suche-Seite dieser Tabelle.'
+  },
   'thing_viewIcon' => {
     'lastUpdated' => '1240487037',
     'message' => 'Ein Icon mit einem Link zum Standardbildschirm für diese Tabelle.'
+  },
+  'things per page description' => {
+    'lastUpdated' => '1251505384',
+    'message' => 'Anzahl der Things, die pro Suchergebnisseite angezeigt werden'
   },
   'things per page label' => {
     'lastUpdated' => '1240471869',
     'message' => 'Anzahl Tabellen pro Seite'
   },
+  'things_loop' => {
+    'lastUpdated' => '1251505470',
+    'message' => 'Eine Schleife, die die Tabellen und Links zu Bearbeitungsfunktionen enthält, die für dieses Asset definiert sind'
+  },
+  'thingy asset template variables body' => {
+    'lastUpdated' => '1251505669',
+    'message' => 'Jedes Asset liefert einen Variablensatz zu den meisten Templates auf Grund der internen Asset-Einstellungen. Manche Variablen sind nützlich, andere evtl. nicht.'
+  },
   'thingy asset template variables title' => {
     'lastUpdated' => '1246484966',
     'message' => 'Thingy Asset Vorlagevariabelen'
+  },
+  'thingy template description' => {
+    'lastUpdated' => '1251504906',
+    'message' => 'Wählen Sie ein Template für Ihre Tabelle'
   },
   'thingy template label' => {
     'lastUpdated' => '1240471739',
