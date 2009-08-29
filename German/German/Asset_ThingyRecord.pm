@@ -13,6 +13,14 @@ our $I18N = {
     'lastUpdated' => '1240880487',
     'message' => 'Dauer'
   },
+  'fieldPrice description' => {
+    'lastUpdated' => '1251506245',
+    'message' => 'Zum Basispreis addieren, falls ein Nutzer dieses Feld ausfüllt.'
+  },
+  'fieldPrice label' => {
+    'lastUpdated' => '1251506333',
+    'message' => 'Feld für Preisaufschlag'
+  },
   'renew' => {
     'lastUpdated' => '1240698263',
     'message' => 'Verlängern'
