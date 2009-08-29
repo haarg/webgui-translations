@@ -94,16 +94,16 @@ our $I18N = {
     'message' => 'Merkmal'
   },
   '23 description' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => '1251506696',
+    'message' => 'Sie können ein neues Merkmal angeben oder eines auswählen, das bereits für ein anderes Produkt definiert wurde.'
   },
   24 => {
     'lastUpdated' => '1240738853',
     'message' => 'Weiteres Merkmal hinzufügen?'
   },
   '24 description' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => '1251506660',
+    'message' => 'Wenn Sie ein weiteres Merkmal ergänzen möchten, wählen Sie "Ja"'
   },
   25 => {
     'lastUpdated' => '1240739847',
@@ -114,32 +114,32 @@ our $I18N = {
     'message' => 'Label'
   },
   '26 description' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => '1251506782',
+    'message' => 'Die Art der Eigenschaft. Z.B: Höhe, Gewicht, Farbe. Sie können eine auswählen, die bereits für ein anderes Produkt definiert wurde oder eine neue eingeben. '
   },
   27 => {
-    'lastUpdated' => '1240738892',
-    'message' => 'Spezification'
+    'lastUpdated' => '1251506795',
+    'message' => 'Eigenschaft'
   },
   '27 description' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => '1251506931',
+    'message' => 'Der aktuelle Wert der Eigenschaft. Wenn Sie bspw. Höhe als Name auswählen, geben sie einen Zahlenwert, z.B. "18" ein.'
   },
   28 => {
-    'lastUpdated' => '1243495740',
-    'message' => 'Weitere Spezifikation hinzufügen?'
+    'lastUpdated' => '1251506810',
+    'message' => 'Weitere Eigenschaft hinzufügen?'
   },
   '28 description' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => '1251506982',
+    'message' => 'Wenn Sie eine weitere Eigenschaft hinzufügen möchten, wählen Sie "Ja".'
   },
   29 => {
     'lastUpdated' => '1240738921',
     'message' => 'Einheiten'
   },
   '29 description' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => '1251507049',
+    'message' => 'Die Einheit der Maßangabe für diese Eigenschaft. Bei "Höhe" geben sie bspw. "Meter" an'
   },
   3 => {
     'lastUpdated' => '1226017499',
@@ -150,8 +150,8 @@ our $I18N = {
     'message' => 'Eigenschaften'
   },
   31 => {
-    'lastUpdated' => '1226017539',
-    'message' => 'Spezifikationen'
+    'lastUpdated' => '1251506826',
+    'message' => 'Eigenschaften'
   },
   32 => {
     'lastUpdated' => '1226017530',
@@ -222,8 +222,8 @@ our $I18N = {
     'message' => 'Produktvorlage hinzufügen'
   },
   57 => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => '1251507147',
+    'message' => 'Sind Sie sicher, dass Sie dieses Template löschen möchten und alle Produkte, die es nutzen auf das Standardtemplate zu setzen.'
   },
   58 => {
     'lastUpdated' => '1240739219',
@@ -246,32 +246,36 @@ our $I18N = {
     'message' => 'Produktvorlage'
   },
   '62 description' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => '1251507165',
+    'message' => 'Wählen Sie ein Layout für dieses Produkt'
   },
   7 => {
     'lastUpdated' => '1240739270',
     'message' => 'Produktbild 1'
   },
   '7 description' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => '1251507178',
+    'message' => 'Ein Bild für dieses Produkt'
   },
   8 => {
     'lastUpdated' => '1240739282',
     'message' => 'Produktbild 2'
   },
   '8 description' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => '1251507197',
+    'message' => 'Ein Bild für dieses Produkt '
   },
   9 => {
     'lastUpdated' => '1240736009',
     'message' => 'Produkt Bild 3'
   },
   '9 description' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => '1251507215',
+    'message' => 'Ein Bild für dieses Produkt'
+  },
+  'Controls' => {
+    'lastUpdated' => '1251507232',
+    'message' => 'Kontrollen'
   },
   'accessory.controls' => {
     'lastUpdated' => undef,
@@ -329,6 +333,10 @@ our $I18N = {
     'lastUpdated' => '1240737886',
     'message' => 'Verwandtes Produkt hinzufügen'
   },
+  'addRelatedProduct_url' => {
+    'lastUpdated' => '1251507621',
+    'message' => 'URL um ein verwandtes Produkt hinzuzufügen'
+  },
   'addaccessory.label' => {
     'lastUpdated' => undef,
     'message' => ''
@@ -341,6 +349,10 @@ our $I18N = {
     'lastUpdated' => '1240737914',
     'message' => 'Accessoire hinzufügen'
   },
+  'addaccessory_url' => {
+    'lastUpdated' => '1251507651',
+    'message' => 'URL um ein Zubehör-Produkt hinzuzufügen'
+  },
   'addbenefit.label' => {
     'lastUpdated' => undef,
     'message' => ''
@@ -352,6 +364,10 @@ our $I18N = {
   'addbenefit_label' => {
     'lastUpdated' => '1240737363',
     'message' => 'Vorteil hinzufügen'
+  },
+  'addbenefit_url' => {
+    'lastUpdated' => '1251507678',
+    'message' => 'URL, um eine Produktzugabe hinzuzufügen'
   },
   'addfeature.label' => {
     'lastUpdated' => undef,
@@ -380,6 +396,10 @@ our $I18N = {
   'addspecification_label' => {
     'lastUpdated' => '1240736993',
     'message' => 'Spezifikation hinzufügen'
+  },
+  'addspecification_url' => {
+    'lastUpdated' => '1251507708',
+    'message' => 'URL um eine Produktspezifikation hinzuzufügen'
   },
   'addvariant_label' => {
     'lastUpdated' => '1240736782',
@@ -433,6 +453,10 @@ our $I18N = {
     'lastUpdated' => '1240737415',
     'message' => 'URL Broschüre'
   },
+  'brochure_url' => {
+    'lastUpdated' => '1251507749',
+    'message' => 'URL um die Brochure herunterzuladen'
+  },
   'buy_form_button' => {
     'lastUpdated' => '1240737014',
     'message' => 'Kaufen'
@@ -458,8 +482,8 @@ our $I18N = {
     'message' => 'Herzlichen Dank für Ihren Einkauf!'
   },
   'deleteImage' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => '1251507777',
+    'message' => 'Angehängte Datei löschen'
   },
   'feature.controls' => {
     'lastUpdated' => undef,
@@ -618,24 +642,28 @@ our $I18N = {
     'message' => 'Spez.'
   },
   'templateId' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => '1251507578',
+    'message' => 'Die Template-ID für die Assetanzeige'
   },
   'thank you message' => {
     'lastUpdated' => '1240736206',
     'message' => '"Danke"-Nachricht'
   },
+  'thank you message help' => {
+    'lastUpdated' => '1251507549',
+    'message' => 'Verfassen Sie einen Danke-Text, dafür dass er etwas auf Ihrer Site gekauft hat.'
+  },
   'thumbnail1' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => '1251507483',
+    'message' => 'URL zum Vorschaubild des ersten Produktbildes '
   },
   'thumbnail2' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => '1251507472',
+    'message' => 'URL zum Vorschaubild des zweiten Produktbildes '
   },
   'thumbnail3' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => '1251507461',
+    'message' => 'URL zum Vorschaubild des dritten Produktbildes '
   },
   'variant sku' => {
     'lastUpdated' => '1240736166',
@@ -645,13 +673,25 @@ our $I18N = {
     'lastUpdated' => '1240738202',
     'message' => 'ID für diese Produktvariante. Diese sollte die ID in Ihrer Lagersoftware entsprechen, damit eine Synchronisation oder Abgleich möglich ist. '
   },
+  'variant_controls' => {
+    'lastUpdated' => '1251507420',
+    'message' => 'Die Icon-Werkzeugleiste für Bearbeiten, Löschen, Aufnehmen dieser Variante'
+  },
   'variant_id' => {
     'lastUpdated' => '1240738253',
     'message' => 'Die ID für diese Variante'
   },
+  'variant_loop' => {
+    'lastUpdated' => '1251507373',
+    'message' => 'Schleife, die alle Varianten zu diesem Produkt enthält'
+  },
   'variant_price' => {
     'lastUpdated' => '1240738228',
     'message' => 'Preis der Variante'
+  },
+  'variant_quantity' => {
+    'lastUpdated' => '1251507346',
+    'message' => 'Anzahl dieser Variante'
   },
   'variant_sku' => {
     'lastUpdated' => '1226017631',
@@ -685,13 +725,25 @@ our $I18N = {
     'lastUpdated' => undef,
     'message' => ''
   },
+  'warranty_icon' => {
+    'lastUpdated' => '1251507332',
+    'message' => 'URL zum Icon für die Garantiebstimmungen'
+  },
   'warranty_label' => {
     'lastUpdated' => '1240736412',
     'message' => 'URL Garantie'
   },
+  'warranty_url' => {
+    'lastUpdated' => '1251507313',
+    'message' => 'URL zum Download der Garantiebestimmungen'
+  },
   'weight' => {
     'lastUpdated' => '1226017559',
     'message' => 'Gewicht'
+  },
+  'weight description' => {
+    'lastUpdated' => '1251507277',
+    'message' => 'Das Standardgewicht dieser Variante'
   }
 }
 ;
