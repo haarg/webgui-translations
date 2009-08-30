@@ -1302,8 +1302,8 @@ our $I18N = {
     'message' => ''
   },
   'you do not have any metadata fields to display' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => '1251666071',
+    'message' => 'Es existieren keine Metadatenfelder zum Anzeigen'
   },
   'zip code' => {
     'lastUpdated' => '1226016298',

@@ -38,12 +38,12 @@ our $I18N = {
     'message' => 'LDAP URL (Standard)'
   },
   6 => {
-    'lastUpdated' => '1178628838',
+    'lastUpdated' => '1251665901',
     'message' => 'LDAP Identität (Standard)'
   },
   '6 description' => {
-    'lastUpdated' => '1178629231',
-    'message' => '<p>Die LDAP Identität ist ein eindeutiger Bezeichner auf dem LDAP Server durch den der Benutzer identifiziert wird. Oft ist dieses Feld der <strong>shortname</strong>, der die Form Vorname + Nachname hat.&nbsp; Beispiel: jdoe. Demnach müsste ein Benutzer names Jon Doe jdoe eingeben falls sie shortname als LDAP Identit&auml;t w&auml;hlen w&uuml;rden.</p><p>Weiteres Beispiel (Anm. des Übersetzers):</p><p>Nehmen Sie an, Sie haben folgenden DN in ihrem LDAP Verzeichnis, der einen ihrer Benutzer eindeutig identifiziert: </p><p><strong>uid=jdoe,ou=people,dc=example,dc=com&nbsp;</strong></p><p>Demnach w&auml;re ihre LDAP Identit&auml;t: <strong>uid</strong>&nbsp;</p>'
+    'lastUpdated' => '1251665963',
+    'message' => '<p>Die LDAP Identität ist ein eindeutiger Bezeichner auf dem LDAP Server durch den der Benutzer identifiziert wird. Oft ist dieses Feld der <strong>shortname</strong>, der die Form Vorname + Nachname hat.&nbsp; Beispiel: jdoe. Demnach müsste ein Benutzer names Jon Doe jdoe eingeben falls sie shortname als LDAP Identität wählen würden.</p><p>Weiteres Beispiel (Anm. des Übersetzers):</p><p>Nehmen Sie an, Sie haben folgenden DN in ihrem LDAP Verzeichnis, der einen ihrer Benutzer eindeutig identifiziert: </p><p><strong>uid=jdoe,ou=people,dc=example,dc=com&nbsp;</strong></p><p>Demnach wäre ihre LDAP Identität: <strong>uid</strong>&nbsp;</p>'
   },
   7 => {
     'lastUpdated' => '1178629277',
