@@ -289,9 +289,13 @@ our $I18N = {
     'lastUpdated' => undef,
     'message' => ''
   },
+  'accessory_controls' => {
+    'lastUpdated' => '1251589610',
+    'message' => 'WebGUI-Verwaltungswerkzeuge für dieses Asset'
+  },
   'accessory_loop' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => '1251589661',
+    'message' => 'Diese Schleife enthält das Zubehör, das diesem Produkt zugeordnet ist.'
   },
   'accessory_title' => {
     'lastUpdated' => '1240737263',
@@ -425,9 +429,13 @@ our $I18N = {
     'lastUpdated' => '1240737112',
     'message' => 'Text zum Produktvorteil'
   },
+  'benefit_controls' => {
+    'lastUpdated' => '1251590010',
+    'message' => 'Die WebGUI Verwaltungswerkzeuge für diesen Vorteil'
+  },
   'benefit_loop' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => '1251589729',
+    'message' => 'Diese Schleife enthält die Vorteile für dieses Produkt'
   },
   'brochure' => {
     'lastUpdated' => '1240739335',
@@ -465,21 +473,41 @@ our $I18N = {
     'lastUpdated' => '1240737071',
     'message' => 'Variante in den Warenkorb legen'
   },
+  'buy_form_header' => {
+    'lastUpdated' => '1251589794',
+    'message' => 'HTML-Code für den Formularanfang um Varianten in den Warenkorb zu legen'
+  },
+  'buy_form_options' => {
+    'lastUpdated' => '1251590524',
+    'message' => 'Eine Auswahlliste mit allen verfügbaren Varianten dieses Produkts. Nur Varianten mit einer Anzahl größer Null werden aufgeführt.'
+  },
   'cache timeout' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => '1251590471',
+    'message' => 'Cache Timeout'
   },
   'cache timeout help' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => '1251590402',
+    'message' => 'Da alle Nutzer dieses Asset auf die gleiche Art und Weise sehen, kann es für eine lange Zeit gecachet werden, um die Geschwindigkeit zu steigern. Wie lange soll es gecachet werden?'
   },
   'cacheTimeout' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => '1251590322',
+    'message' => 'Die Anzahl Sekunden, die die Ausgabe dieses Assets gecachet wird.'
+  },
+  'canEdit' => {
+    'lastUpdated' => '1251590275',
+    'message' => 'Ein boolscher Wert, der wahr ist, wenn der Nutzer dieses Produkt bearbeiten darf.'
+  },
+  'continueShoppingUrl' => {
+    'lastUpdated' => '1251590460',
+    'message' => 'Ein URL, um das Produkt zurückzusetzen, damit der Nutzer seinen Einkauf fortsetzen kann.'
   },
   'default thank you message' => {
     'lastUpdated' => '1241160442',
     'message' => 'Herzlichen Dank für Ihren Einkauf!'
+  },
+  'delete variant confirm' => {
+    'lastUpdated' => '1251590420',
+    'message' => 'Sind Sie sicher, dass Sie diese Variante löschen möchten?'
   },
   'deleteImage' => {
     'lastUpdated' => '1251507777',
@@ -493,13 +521,21 @@ our $I18N = {
     'lastUpdated' => undef,
     'message' => ''
   },
+  'feature_controls' => {
+    'lastUpdated' => '1251590047',
+    'message' => 'Die WebGUI Verwaltungswerkzeuge für dieses Merkmal'
+  },
   'feature_feature' => {
     'lastUpdated' => '1240736913',
     'message' => 'Der Text zum Merkmal'
   },
   'feature_loop' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => '1251590075',
+    'message' => 'Schleife, die alle Merkmale enthält, die diesem Produkt zugeordnet sind.'
+  },
+  'hasAddedToCart' => {
+    'lastUpdated' => '1251590141',
+    'message' => 'Eine Bedingung, die anzeigt, ob der Nutzer das Produkt in seinen Warenkorb gelegt hat, um ihm eine Dankesnachricht anzuzeigen.'
   },
   'image1' => {
     'lastUpdated' => '1240739396',
@@ -541,9 +577,17 @@ our $I18N = {
     'lastUpdated' => undef,
     'message' => ''
   },
+  'manual_icon' => {
+    'lastUpdated' => '1251589815',
+    'message' => 'URL zum Icon für das Handbuch'
+  },
   'manual_label' => {
     'lastUpdated' => '1240739456',
     'message' => 'URL Handbuch'
+  },
+  'manual_url' => {
+    'lastUpdated' => '1251589830',
+    'message' => 'URL zum Download des Handbuches'
   },
   'no_stock_message' => {
     'lastUpdated' => '1240736641',
@@ -601,13 +645,29 @@ our $I18N = {
     'lastUpdated' => undef,
     'message' => ''
   },
+  'relatedproduct_controls' => {
+    'lastUpdated' => '1251590183',
+    'message' => 'Die WebGUI Verwaltungswerkzeuge für dieses verwandte Produkt'
+  },
+  'relatedproduct_loop' => {
+    'lastUpdated' => '1251590213',
+    'message' => 'Eine Schleife, die alle verwandten Produkte enthält, die diesem Produkt zugeordnet sind.'
+  },
   'relatedproduct_title' => {
     'lastUpdated' => '1240737984',
     'message' => 'Verwandtes Produkt'
   },
+  'relatedproduct_url' => {
+    'lastUpdated' => '1251590228',
+    'message' => 'URL zum verwandten Produkt'
+  },
   'shortdesc' => {
     'lastUpdated' => '1240736143',
     'message' => 'Kurzbeschreibung'
+  },
+  'shortdesc description' => {
+    'lastUpdated' => '1251589921',
+    'message' => 'Die Kurzbeschreibung wird dem Nutzer angezeigt, damit er diese Variante des Produkts kaufen kann. Die Länge der Kurzbeschreibung ist auf 30 Zeichen begrenzt.'
   },
   'specification.controls' => {
     'lastUpdated' => undef,
@@ -625,13 +685,21 @@ our $I18N = {
     'lastUpdated' => undef,
     'message' => ''
   },
+  'specification_controls' => {
+    'lastUpdated' => '1251590162',
+    'message' => 'Die WebGUI Verwaltungswerkzeuge für diese Spezifikation'
+  },
   'specification_label' => {
     'lastUpdated' => '1240736379',
     'message' => 'Label für diese Spezifikation, z.B.: Höhe'
   },
   'specification_loop' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => '1251589947',
+    'message' => 'Liste der Spezifikationen, die diesem Produkt zugeordnet sind.'
+  },
+  'specification_specification' => {
+    'lastUpdated' => '1251589961',
+    'message' => 'Text für die Spezifikation'
   },
   'specification_units' => {
     'lastUpdated' => '1240738103',
