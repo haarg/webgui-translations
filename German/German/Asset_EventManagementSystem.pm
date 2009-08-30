@@ -630,8 +630,8 @@ our $I18N = {
     'message' => ''
   },
   'filter' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => '1251666405',
+    'message' => 'Filter'
   },
   'first name' => {
     'lastUpdated' => '1248389006',
@@ -682,8 +682,12 @@ our $I18N = {
     'message' => 'Erste Zeile ignorieren?'
   },
   'image' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => '1251666425',
+    'message' => 'Das Bild, das für diese Veranstaltung steht'
+  },
+  'import' => {
+    'lastUpdated' => '1251666438',
+    'message' => 'Importieren'
   },
   'import blank line' => {
     'lastUpdated' => undef,
@@ -765,6 +769,10 @@ our $I18N = {
     'lastUpdated' => undef,
     'message' => ''
   },
+  'label' => {
+    'lastUpdated' => '1251666466',
+    'message' => 'Bezeichner'
+  },
   'last name' => {
     'lastUpdated' => undef,
     'message' => ''
@@ -772,6 +780,10 @@ our $I18N = {
   'location' => {
     'lastUpdated' => '1239658070',
     'message' => 'Veranstaltungsort'
+  },
+  'location help' => {
+    'lastUpdated' => '1251666561',
+    'message' => 'In welchem Raum oder welchem Ort findet diese Veranstaltung statt?'
   },
   'manage discount passes' => {
     'lastUpdated' => undef,
@@ -870,8 +882,8 @@ our $I18N = {
     'message' => ''
   },
   'no' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => '1251667128',
+    'message' => 'Nein'
   },
   'no import took place' => {
     'lastUpdated' => undef,
@@ -918,12 +930,12 @@ our $I18N = {
     'message' => ''
   },
   'overwrite' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => '1251666891',
+    'message' => 'Überschreiben'
   },
   'overwritten' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => '1251666903',
+    'message' => 'überschrieben'
   },
   'paginate after' => {
     'lastUpdated' => undef,
@@ -953,9 +965,17 @@ our $I18N = {
     'lastUpdated' => undef,
     'message' => ''
   },
+  'percentage discount' => {
+    'lastUpdated' => '1251666923',
+    'message' => 'Prozentualer Rabatt'
+  },
   'phone number' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => '1251666851',
+    'message' => 'Telefonnummer'
+  },
+  'populate from address book' => {
+    'lastUpdated' => '1251666878',
+    'message' => 'Aus Adressbuch übernehmen'
   },
   'prereq set name field description' => {
     'lastUpdated' => undef,
@@ -1086,8 +1106,12 @@ our $I18N = {
     'message' => ''
   },
   'seats available' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => '1251666638',
+    'message' => 'Verfügbare Plätze'
+  },
+  'seats available help' => {
+    'lastUpdated' => '1251666724',
+    'message' => 'Wieviele Personen können noch kaufen, bevor die Plätze ausverkauft sind?'
   },
   'seats.label' => {
     'lastUpdated' => undef,
@@ -1102,24 +1126,24 @@ our $I18N = {
     'message' => ''
   },
   'select one' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => '1251666738',
+    'message' => 'Eins auswählen'
   },
   'select one or more' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => '1251666748',
+    'message' => 'Ein weiteres auswählen'
   },
   'short title' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => '1251666755',
+    'message' => 'Titel'
   },
   'skip' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => '1251666789',
+    'message' => 'Überspringen'
   },
   'skipped' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => '1251666800',
+    'message' => 'Übersprungen'
   },
   'sku' => {
     'lastUpdated' => '1226016507',
@@ -1176,6 +1200,10 @@ our $I18N = {
   'templateId' => {
     'lastUpdated' => undef,
     'message' => ''
+  },
+  'tickets' => {
+    'lastUpdated' => '1251666826',
+    'message' => 'Tickets'
   },
   'time zone' => {
     'lastUpdated' => '1226016412',
@@ -1250,12 +1278,12 @@ our $I18N = {
     'message' => 'Nutzer'
   },
   'userId' => {
-    'lastUpdated' => undef,
+    'lastUpdated' => '1251666347',
     'message' => ''
   },
   'view purchase' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => '1251666340',
+    'message' => 'Einkauf ansehen'
   },
   'view purchase template' => {
     'lastUpdated' => undef,
@@ -1269,21 +1297,37 @@ our $I18N = {
     'lastUpdated' => undef,
     'message' => ''
   },
+  'view schedule' => {
+    'lastUpdated' => '1251666313',
+    'message' => 'Plan'
+  },
+  'view tickets' => {
+    'lastUpdated' => '1251666295',
+    'message' => 'Ticket ansehen'
+  },
+  'viewCartUrl' => {
+    'lastUpdated' => '1251666282',
+    'message' => 'URL zur Einkaufswagen-Ansicht'
+  },
+  'viewEventsUrl' => {
+    'lastUpdated' => '1251666251',
+    'message' => 'URL zur Betrachtung des Tickets'
+  },
   'viewPurchaseTitle' => {
     'lastUpdated' => undef,
     'message' => ''
   },
   'weight' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => '1251666233',
+    'message' => 'Gewicht'
   },
   'weight description' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => '1251666222',
+    'message' => 'Jedes Gewicht kann diesem Ereignis zugeordnet werden'
   },
   'what about duplicates' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => '1251666177',
+    'message' => 'Was ist mit Dubletten?'
   },
   'which badge' => {
     'lastUpdated' => undef,
