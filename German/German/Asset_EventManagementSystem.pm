@@ -150,8 +150,8 @@ our $I18N = {
     'message' => 'Verantwortlicher'
   },
   'add/edit event operator description' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => '1251834322',
+    'message' => 'Wenn vorausgesetzte Veranstaltungen zu dieser Veranstaltung hinzugefügt werden, können Sie angeben, ob alle (UND) dieser Veranstaltungen oder eine (ODER) dieser Veranstaltungen vorausgesetzt wird.'
   },
   'add/edit event price description' => {
     'lastUpdated' => '1199975564',
@@ -162,8 +162,8 @@ our $I18N = {
     'message' => 'Vorausgesetzte Veranstaltungen'
   },
   'add/edit event required events description' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => '1251834483',
+    'message' => 'Sie können voraussetzen, dass der Nutzer für bestimmte Veranstaltungen registriert ist, bevor er sich für diese Veranstaltung registrieren kann.'
   },
   'add/edit event return to manage events' => {
     'lastUpdated' => '1199975639',
@@ -176,6 +176,10 @@ our $I18N = {
   'add/edit event start date description' => {
     'lastUpdated' => '1199975684',
     'message' => 'Zeit und Datum des Terminbeginns.'
+  },
+  'add/edit event start date help' => {
+    'lastUpdated' => '1251834512',
+    'message' => 'Zeit und Datum des Veranstaltungsbeginns '
   },
   'add/edit event template' => {
     'lastUpdated' => '1199975693',
@@ -210,8 +214,8 @@ our $I18N = {
     'message' => 'Ist diese Veranstaltung MwSt.-pflichtig?'
   },
   'addBadgeUrl' => {
-    'lastUpdated' => '1240697409',
-    'message' => 'Url zum Hinzufügen eines Namensschilds'
+    'lastUpdated' => '1251834585',
+    'message' => 'URL zum Hinzufügen eines Namensschilds'
   },
   'addEvent.label' => {
     'lastUpdated' => undef,
@@ -220,6 +224,14 @@ our $I18N = {
   'addEvent.url' => {
     'lastUpdated' => undef,
     'message' => ''
+  },
+  'addRibbonUrl' => {
+    'lastUpdated' => '1251834610',
+    'message' => 'URL um dem Namensschild ein Band hinzuzufügen'
+  },
+  'addTicketUrl' => {
+    'lastUpdated' => '1251834698',
+    'message' => 'URL um dem Namensschild ein Ticket hinzuzufügen.'
   },
   'addToBadgeMessage' => {
     'lastUpdated' => undef,
@@ -258,8 +270,8 @@ our $I18N = {
     'message' => ''
   },
   'allowed sub events' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => '1251834856',
+    'message' => 'Sie können die folgenden Unterveranstaltungen auf Grund der Veranstaltungen in Ihrem Einkaufswagen besuchen.'
   },
   'amount off' => {
     'lastUpdated' => undef,
@@ -294,8 +306,8 @@ our $I18N = {
     'message' => ''
   },
   'assetName' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => '1251834870',
+    'message' => 'Veranstaltungsplaner'
   },
   'assigned discount pass' => {
     'lastUpdated' => undef,
@@ -329,25 +341,97 @@ our $I18N = {
     'lastUpdated' => undef,
     'message' => ''
   },
+  'badge builder template' => {
+    'lastUpdated' => '1251834899',
+    'message' => 'Namensschildbilder Template'
+  },
   'badge builder template help' => {
     'lastUpdated' => '1240697538',
     'message' => 'Welche Vorlage möchten Sie für die Erstellung der Namensschilder verwenden?'
   },
+  'badge group name' => {
+    'lastUpdated' => '1251834923',
+    'message' => 'Namensschildgruppenname'
+  },
+  'badge group name help' => {
+    'lastUpdated' => '1251835073',
+    'message' => 'Diese Bezeichnung bezieht sich auf alle Namensschilder in dieser Gruppe zusammen.'
+  },
+  'badge groups' => {
+    'lastUpdated' => '1251835092',
+    'message' => 'Namensschilderguppe'
+  },
+  'badge holder information' => {
+    'lastUpdated' => '1251835119',
+    'message' => 'Namensschildinhaberinformation'
+  },
   'badge id' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => '1251835138',
+    'message' => 'Namensschild-ID'
+  },
+  'badge instructions' => {
+    'lastUpdated' => '1251835150',
+    'message' => 'Namensschildanweisungen'
+  },
+  'badge instructions help' => {
+    'lastUpdated' => '1251835203',
+    'message' => 'Dem Benutzer Hilfestellung dazu geben, was er mit dem Namensschild tun soll'
   },
   'badge number' => {
     'lastUpdated' => '1239658395',
     'message' => 'Namensschild-Nr.'
   },
+  'badgeAssetId' => {
+    'lastUpdated' => '1251835226',
+    'message' => 'Die Asset-ID für dieses Namensschild'
+  },
+  'badgeBuilderTemplateId help' => {
+    'lastUpdated' => '1251835267',
+    'message' => 'Die ID für das Template der Namensschildbilderansicht'
+  },
+  'badgeId' => {
+    'lastUpdated' => '1251835300',
+    'message' => 'Die ID für das Namensschild des aktuellen Nutzers'
+  },
+  'badgeInstructions help' => {
+    'lastUpdated' => '1251835345',
+    'message' => 'Anweisungen für den Benutzer, was er mit dem Namensschild tun kann'
+  },
+  'badgeLabel' => {
+    'lastUpdated' => '1251835504',
+    'message' => 'Ein internationalisierter und personalisierter Bezeichner für das andere Namensschild im Einkaufswagen des Benutzers.'
+  },
+  'badgeNumber' => {
+    'lastUpdated' => '1251835641',
+    'message' => 'Die Nummer des Namensschildes'
+  },
+  'badgeTitle' => {
+    'lastUpdated' => '1251835667',
+    'message' => 'Der Titel des zu druckenden Namensschildes'
+  },
+  'badgeUrl' => {
+    'lastUpdated' => '1251835756',
+    'message' => 'Der URL um dem Warenkorb ein weiteres Namensschild hinzuzufügen'
+  },
   'basicSearch.formHeader' => {
     'lastUpdated' => undef,
     'message' => ''
   },
+  'buildBadgeUrl' => {
+    'lastUpdated' => '1251835790',
+    'message' => 'URL der Informationen zum aktuellen Namensschild anzeigt'
+  },
   'buy' => {
     'lastUpdated' => '1239658018',
     'message' => 'Kaufen'
+  },
+  'buy badge' => {
+    'lastUpdated' => '1251835807',
+    'message' => 'Ein Namensschild kaufen'
+  },
+  'buyBadgeUrl' => {
+    'lastUpdated' => '1251835891',
+    'message' => 'URL, um ein Namensschild zu kaufen'
   },
   'calendarJS' => {
     'lastUpdated' => undef,
@@ -356,6 +440,10 @@ our $I18N = {
   'canAddEvents' => {
     'lastUpdated' => undef,
     'message' => ''
+  },
+  'canEdit' => {
+    'lastUpdated' => '1251835963',
+    'message' => 'Eine Bedingungen die anzeigt, ob der aktuelle Benutzer das Veranstaltungsmanagementsystem bearbeiten darf'
   },
   'canManageEvents' => {
     'lastUpdated' => undef,
@@ -370,20 +458,24 @@ our $I18N = {
     'message' => ''
   },
   'canReturnTransaction' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => '1251836010',
+    'message' => 'Ein boolscher Wert der anzeigt, ob ein Einkauf zurückgegeben werden kann.'
   },
   'cancel registration' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => '1251836140',
+    'message' => 'Registrierung abbrechen'
   },
   'check required fields' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => '1251836161',
+    'message' => 'Sie haben diese Pflichtfelder nicht angegeben:'
+  },
+  'checked in' => {
+    'lastUpdated' => '1251836172',
+    'message' => 'Angemeldet'
   },
   'checkout' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => '1251836183',
+    'message' => 'Abgemeldet'
   },
   'checkout template' => {
     'lastUpdated' => undef,
@@ -418,8 +510,8 @@ our $I18N = {
     'message' => ''
   },
   'confirm delete event metadata' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => '1251836276',
+    'message' => 'Sind Sie sicher, dass Sie dieses Metadatenfeld löschen möchten? Die Metadaten dieses Feldes werden von allen Veranstaltungen gelöscht.'
   },
   'confirm delete prerequisite' => {
     'lastUpdated' => undef,
@@ -450,12 +542,12 @@ our $I18N = {
     'message' => 'Land'
   },
   'create a badge for myself' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => '1251836304',
+    'message' => 'Ein Namensschild für mich selbst erstellen'
   },
   'create a badge for someone else' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => '1251836329',
+    'message' => 'Ein Namensschild für jemand anders erstellen'
   },
   'create new user' => {
     'lastUpdated' => undef,
@@ -473,9 +565,29 @@ our $I18N = {
     'lastUpdated' => undef,
     'message' => ''
   },
+  'customRequestUrl' => {
+    'lastUpdated' => '1251836379',
+    'message' => 'URL für YUI um Informationen über das aktuelle Namensschild anzufordern.'
+  },
   'datePurchasedHuman' => {
     'lastUpdated' => undef,
     'message' => ''
+  },
+  'default badge instructions' => {
+    'lastUpdated' => '1251836504',
+    'message' => 'Sie brauchen ein Namensschild um an diesem Kongress teilzunehmen. Wählen Sie ein Namensschild, das Ihren Anforderungen und ihrem Budget entspricht.'
+  },
+  'default ribbon instructions' => {
+    'lastUpdated' => '1251836774',
+    'message' => 'Bänder gewähren Rabatte auf eine Gruppe dazugehörender Veranstaltungen. Sie können Ihrem Namensschild ein oder mehrere Bänder hinzufügen, die auf dazugehörende Veranstaltungen  Rabatte gewähren.'
+  },
+  'default ticket instructions' => {
+    'lastUpdated' => '1251836909',
+    'message' => 'Ein Ticket ermöglicht eine Platzreservierung für eine Veranstaltung auf einem Kongress. Fügen Sie ihrem Namensschild ein Ticket für jede Veranstaltung hinzu, an der Sie teilnehmen möchten. '
+  },
+  'default token instructions' => {
+    'lastUpdated' => '1251837086',
+    'message' => 'Gutscheine sind eine Kongresswährung. Damit können Sie Veranstaltungen und andere Dinge erwerben, ohne ein Ticket kaufen zu müssen.'
   },
   'defines discount pass' => {
     'lastUpdated' => undef,
@@ -529,6 +641,26 @@ our $I18N = {
     'lastUpdated' => '1239658406',
     'message' => 'Dauer'
   },
+  'duration help' => {
+    'lastUpdated' => '1251837109',
+    'message' => 'Wie lange dauert diese Veranstaltung?'
+  },
+  'early bird price' => {
+    'lastUpdated' => '1251837121',
+    'message' => 'Frühbucherpreis'
+  },
+  'early bird price end date' => {
+    'lastUpdated' => '1251837144',
+    'message' => 'Frühbucherpreis-Enddatum'
+  },
+  'early bird price end date help' => {
+    'lastUpdated' => '1251837176',
+    'message' => 'Das Datum, an dem der Frühbucherpreis durch den vollen Preis ersetzt wird.'
+  },
+  'early bird price help' => {
+    'lastUpdated' => '1251837208',
+    'message' => 'Der Spezialpreis dieses Namensschildes, wenn der Nutzer früh bestellt.'
+  },
   'edit' => {
     'lastUpdated' => '1248388672',
     'message' => 'Bearbeiten'
@@ -545,13 +677,101 @@ our $I18N = {
     'lastUpdated' => undef,
     'message' => ''
   },
+  'email' => {
+    'lastUpdated' => '1251837239',
+    'message' => 'Die E-Mailadresse des Namensschildnutzers.'
+  },
   'email address' => {
     'lastUpdated' => '1248388966',
     'message' => 'E-Mail-Adresse'
   },
+  'ems asset template variables' => {
+    'lastUpdated' => '1251837288',
+    'message' => 'Templatevariablen des Veranstaltungsplaner-Assets'
+  },
+  'ems badge' => {
+    'lastUpdated' => '1251837350',
+    'message' => 'Veranstaltungsplaner Namensschild'
+  },
+  'ems ribbon' => {
+    'lastUpdated' => '1251837372',
+    'message' => 'Veranstaltungsplaner-Band'
+  },
+  'ems ticket' => {
+    'lastUpdated' => '1251837385',
+    'message' => 'Veranstaltungsplaner-Ticket'
+  },
+  'ems token' => {
+    'lastUpdated' => '1251837404',
+    'message' => 'Veranstaltungsplaner-Gutschein'
+  },
+  'ems view badge address1' => {
+    'lastUpdated' => '1251837888',
+    'message' => 'Formular für das erste Adressfeld im Template der Veranstaltungsplaner-Namensschild-Ansicht'
+  },
+  'ems view badge address2' => {
+    'lastUpdated' => '1251837880',
+    'message' => 'Formular für das zweite Adressfeld im Template der Veranstaltungsplaner-Namensschild-Ansicht'
+  },
+  'ems view badge address3' => {
+    'lastUpdated' => '1251837873',
+    'message' => 'Formular für das dritte Adressfeld im Template der Veranstaltungsplaner-Namensschild-Ansicht'
+  },
+  'ems view badge city' => {
+    'lastUpdated' => '1251837865',
+    'message' => 'Formular für das Stadtfeld im Template der Veranstaltungsplaner-Namensschild-Ansicht'
+  },
+  'ems view badge country' => {
+    'lastUpdated' => '1251837857',
+    'message' => 'Formular für das Landfeld im Template der Veranstaltungsplaner-Namensschild-Ansicht'
+  },
+  'ems view badge description' => {
+    'lastUpdated' => '1251837680',
+    'message' => 'Beschreibung für das Namensschild '
+  },
+  'ems view badge email' => {
+    'lastUpdated' => '1251837841',
+    'message' => 'Formular für das E-Mail-Feld im Template der Veranstaltungsplaner-Namensschild-Ansicht'
+  },
+  'ems view badge error' => {
+    'lastUpdated' => '1251837748',
+    'message' => 'Fehlermeldungen des Versuchs, dieses Namensschild in den Einkaufswagen zu legen.'
+  },
+  'ems view badge name' => {
+    'lastUpdated' => '1251837829',
+    'message' => 'Formular für das Benutzernamensfeld im Template der Veranstaltungsplaner-Namensschild-Ansicht'
+  },
+  'ems view badge organization' => {
+    'lastUpdated' => '1251837806',
+    'message' => 'Formular für das Feld Benutzerorganisation im Template der Veranstaltungsplaner-Namensschild-Ansicht'
+  },
+  'ems view badge phone' => {
+    'lastUpdated' => '1251837905',
+    'message' => 'Formular für das Telefonfeld im Template der Veranstaltungsplaner-Namensschild-Ansicht'
+  },
+  'ems view badge state' => {
+    'lastUpdated' => '1251837923',
+    'message' => 'Formular für das Feld Staat im Template der Veranstaltungsplaner-Namensschild-Ansicht'
+  },
+  'ems view badge submitAddress' => {
+    'lastUpdated' => '1251837942',
+    'message' => 'Button, um die Adressdaten abzuschicken'
+  },
+  'ems view badge title' => {
+    'lastUpdated' => '1251837975',
+    'message' => 'Der Titel des Namensschildes'
+  },
+  'ems view badge zipcode' => {
+    'lastUpdated' => '1251837999',
+    'message' => 'Formular für das PLZ-Feld im Template der Veranstaltungsplaner-Namensschild-Ansicht'
+  },
   'ems.wobject.dir' => {
     'lastUpdated' => undef,
     'message' => ''
+  },
+  'emsAssetId' => {
+    'lastUpdated' => '1251838045',
+    'message' => 'Die Asset-ID für das Veranstaltungsmanagementsystem, das das Namensschild enthält'
   },
   'endDate' => {
     'lastUpdated' => undef,
@@ -574,8 +794,8 @@ our $I18N = {
     'message' => ''
   },
   'enter import file' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => '1251838072',
+    'message' => 'Geben Sie eine Datei an, die importiert werden soll.'
   },
   'error' => {
     'lastUpdated' => '1239658038',
@@ -588,6 +808,18 @@ our $I18N = {
   'event' => {
     'lastUpdated' => undef,
     'message' => ''
+  },
+  'event number' => {
+    'lastUpdated' => '1251838087',
+    'message' => 'Veranstaltungsnummer'
+  },
+  'event number help' => {
+    'lastUpdated' => '1251838146',
+    'message' => 'Eine Nummer, die die Veranstaltung bezeichnet und auf die man sich leicht beziehen kann, z.B. in einem Veranstaltungskatalog'
+  },
+  'event start date' => {
+    'lastUpdated' => '1251838158',
+    'message' => 'Anfangsdatum'
   },
   'event template help title' => {
     'lastUpdated' => undef,
