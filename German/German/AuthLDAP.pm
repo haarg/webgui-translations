@@ -46,19 +46,19 @@ our $I18N = {
     'message' => '<p>Die LDAP Identität ist ein eindeutiger Bezeichner auf dem LDAP Server durch den der Benutzer identifiziert wird. Oft ist dieses Feld der <strong>shortname</strong>, der die Form Vorname + Nachname hat.&nbsp; Beispiel: jdoe. Demnach müsste ein Benutzer names Jon Doe jdoe eingeben falls sie shortname als LDAP Identität wählen würden.</p><p>Weiteres Beispiel (Anm. des Übersetzers):</p><p>Nehmen Sie an, Sie haben folgenden DN in ihrem LDAP Verzeichnis, der einen ihrer Benutzer eindeutig identifiziert: </p><p><strong>uid=jdoe,ou=people,dc=example,dc=com&nbsp;</strong></p><p>Demnach wäre ihre LDAP Identität: <strong>uid</strong>&nbsp;</p>'
   },
   7 => {
-    'lastUpdated' => '1178629277',
+    'lastUpdated' => '1251838325',
     'message' => 'LDAP Identitätsname'
   },
   '7 description' => {
-    'lastUpdated' => '1178629521',
+    'lastUpdated' => '1251838341',
     'message' => '<p>Label, das dem Benutzer die LDAP Identität beschreibt. Zum Beispiel verwenden manche Firmen einen LDAP Server um ihre Proxy Server Benutzer zu authentifizieren. In ihrer Dokumentation oder bei Schulungen wurde ihren Benutzern mitgeteilt, dass diese LDAP Identit&auml;t als <em>Web Benutzername</em> bezeichnet wird. Somit würden Sie f&uuml;r hier f&uuml;r dieses Label den Wert <em>Web Benutzername</em> vergeben um konsistent zu bleiben.&nbsp;</p>'
   },
   8 => {
-    'lastUpdated' => '1178630039',
+    'lastUpdated' => '1251838346',
     'message' => 'LDAP Passwort Name'
   },
   '8 description' => {
-    'lastUpdated' => '1178630109',
+    'lastUpdated' => '1251838350',
     'message' => 'LDAP Passwort Name ist genau so ein Label wie LDAP Identitätsname. Benutzen Sie dies wie LDAP Identit&auml;tsname'
   },
   868 => {
@@ -82,7 +82,7 @@ our $I18N = {
     'message' => 'Benutzer RDN'
   },
   '9 description' => {
-    'lastUpdated' => '1178630461',
+    'lastUpdated' => '1251838359',
     'message' => 'RDN ist der "relative distinguished name". Pfad, an dem die Benutzereinträge gefunden werden können. Normalerweise sieht der RDN folgendermassen aus:
 
 ou=People,dc=example,dc=com'
@@ -336,21 +336,21 @@ ou=People,dc=example,dc=com'
     'message' => 'URL des zu benutzenden LDAP Servers.'
   },
   'LDAPLink_994' => {
-    'lastUpdated' => '1178631165',
+    'lastUpdated' => '1251838369',
     'message' => 'Verbindungs DN'
   },
   'LDAPLink_994 description' => {
-    'lastUpdated' => '1178631308',
+    'lastUpdated' => '1251838373',
     'message' => 'DN = Distinguished Name. Ein DN ist ein eindeutiger Pfad zu einem Objekt im LDAP Verzeichnis. In diesem Fall ist der "Verbindungs DN" der DN, der auf den Benutzeraccount Eintrag zeigt. Üblicherweise sieht dieser folgendermassen aus:
 
 uid=jdoe,ou=people,dc=example,dc=com'
   },
   'LDAPLink_995' => {
-    'lastUpdated' => '1178631320',
+    'lastUpdated' => '1251838377',
     'message' => 'Bezeichner'
   },
   'LDAPLink_995 description' => {
-    'lastUpdated' => '1178631342',
+    'lastUpdated' => '1251838382',
     'message' => 'Das Passwort für die LDAP Verbindung'
   },
   'LDAPLink_ldapGroup' => {
