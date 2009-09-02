@@ -181,6 +181,18 @@ our $I18N = {
     'lastUpdated' => '1243494685',
     'message' => 'Die Info über das Ergebnis Ihrer Aktion. Abhängig davon enthält diese, dass Sie einen Code eingeben können, dass Sie den Code falsch angegeben haben oder ob Sie den Code richtig eingesetzt haben.'
   },
+  'no association error' => {
+    'lastUpdated' => '1251896982',
+    'message' => 'Sie müssen diese Codeserie mit mindestens einem Abonnement verbinden.'
+  },
+  'no description error' => {
+    'lastUpdated' => '1251896993',
+    'message' => 'Sie müssen eine Beschreibung eingeben'
+  },
+  'no subscription code batches' => {
+    'lastUpdated' => '1251897054',
+    'message' => 'Es wurde noch keine Codeserie für die Abonnements wurde erstellt. Benutzen Sie das Untermenue rechts, um eine Codeserie zu erstellen.'
+  },
   'no subscriptions' => {
     'lastUpdated' => '1240879978',
     'message' => 'Es gibt noch keine Abonnements. Sie können Abo\'s hinzufügen mit der Option "Abonnement hinzufügen"'
@@ -221,9 +233,29 @@ our $I18N = {
     'lastUpdated' => '1240880274',
     'message' => 'Bitte geben Sie Ihren Abocode ein.'
   },
+  'redeem code failure' => {
+    'lastUpdated' => '1251897115',
+    'message' => 'Sie haben einen Code eingegeben, der falsch ist, bereits verbraucht oder abgelaufen. bitte geben Sie einen anderen Code ein.'
+  },
+  'redeem code success' => {
+    'lastUpdated' => '1251897172',
+    'message' => 'Sie haben erfolgreich abonniert. Sie können den unten Code eingeben.'
+  },
+  'redeem subscription code template' => {
+    'lastUpdated' => '1251897209',
+    'message' => 'Abonnement einlösen Tempalte'
+  },
+  'redeem subscription code template help' => {
+    'lastUpdated' => '1251897252',
+    'message' => 'Wählen Sie ein Template für die Seite, auf der Benutzer Abonnements einlösen können.'
+  },
   'redeemCodeLabel' => {
     'lastUpdated' => '1240880235',
     'message' => 'Abocode einlösen'
+  },
+  'redeemCodeUrl' => {
+    'lastUpdated' => '1251897295',
+    'message' => 'URL um ein Abonnement einzulösen. Wenn es keine Abonnementcodes gibt, bleibt dies leer.'
   },
   'select' => {
     'lastUpdated' => '1240778962',
@@ -249,6 +281,10 @@ our $I18N = {
     'lastUpdated' => '1240778975',
     'message' => 'Status'
   },
+  'subscription description' => {
+    'lastUpdated' => '1251896798',
+    'message' => 'Beschreibung'
+  },
   'subscription description description' => {
     'lastUpdated' => '1241303582',
     'message' => 'Detaillierte Beschreibung des Abonnements.'
@@ -256,6 +292,26 @@ our $I18N = {
   'subscription duration' => {
     'lastUpdated' => '1241303682',
     'message' => 'Laufzeit'
+  },
+  'subscription duration description' => {
+    'lastUpdated' => '1251897349',
+    'message' => 'Die Länge einer Abonnementeinheit. Sie bezahlen pro Monat, jedes  Halbjahr, etc.'
+  },
+  'subscription group' => {
+    'lastUpdated' => '1251897397',
+    'message' => 'Der Gruppe beitreten'
+  },
+  'subscription group description' => {
+    'lastUpdated' => '1251897422',
+    'message' => 'Wenn der Nutzer bezahlt hat, wird er zu dieser Gruppe hinzugefügt'
+  },
+  'subscription karma' => {
+    'lastUpdated' => '1251897428',
+    'message' => 'Karma'
+  },
+  'subscription karma description' => {
+    'lastUpdated' => '1251897455',
+    'message' => 'Die Menge an Karma, die der Benutzer erhält, nachdem er abonniert hat.'
   },
   'subscription name' => {
     'lastUpdated' => '1240880085',

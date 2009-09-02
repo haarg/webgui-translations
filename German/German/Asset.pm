@@ -201,6 +201,10 @@ our $I18N = {
     'lastUpdated' => '1170453634',
     'message' => '<p>Wählen Sie die Art des Formularelements für dieses Feld aus.</p>'
   },
+  'Delete Assets' => {
+    'lastUpdated' => '1251893507',
+    'message' => 'Assets löschen'
+  },
   'Delete Metadata field' => {
     'lastUpdated' => '1170453667',
     'message' => 'Metadaten Eigenschaft löschen'
@@ -322,7 +326,7 @@ our $I18N = {
     'message' => 'Reihenfolge einstellen'
   },
   'Trying to delete system page %s.  Aborting' => {
-    'lastUpdated' => '1246486506',
+    'lastUpdated' => '1251893528',
     'message' => 'Der Versuch, die Systemseite %s zu löschen, wurde abgebrochen.'
   },
   'Undefined child' => {

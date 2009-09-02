@@ -9,6 +9,14 @@ our $I18N = {
     'lastUpdated' => '1228748625',
     'message' => 'Storniert'
   },
+  'No shippers' => {
+    'lastUpdated' => '1251893840',
+    'message' => 'Es sind keine Versandtreiber konfiguriert. Benutzer können nicht bezahlen, bevor nicht mindestens einer konfiguriert ist.'
+  },
+  'No shipping plugins configured' => {
+    'lastUpdated' => '1251896456',
+    'message' => 'Es sind keine Versand-Plugins konfiguriert. Bitte informieren Sie den Shopbetreiber.'
+  },
   'NotShipped' => {
     'lastUpdated' => '1241298317',
     'message' => 'Nicht ausgeliefert'

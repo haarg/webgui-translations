@@ -315,6 +315,10 @@ ou=People,dc=example,dc=com'
     'lastUpdated' => '1178630629',
     'message' => 'Sind Sie sich sicher, dass diese LDAP Verbindung gelöscht werden soll?'
   },
+  'LDAPLink_990' => {
+    'lastUpdated' => '1251896612',
+    'message' => 'LDAP-Verbindung bearbeiten'
+  },
   'LDAPLink_991' => {
     'lastUpdated' => '1178630584',
     'message' => 'LDAP Verbindungs ID'
@@ -416,6 +420,10 @@ uid=jdoe,ou=people,dc=example,dc=com'
   'auth login template title' => {
     'lastUpdated' => '1228687753',
     'message' => 'LDAP Authentifizierung Login Template Variablen'
+  },
+  'connect_dn_help' => {
+    'lastUpdated' => '1251896710',
+    'message' => 'De charakteristische Name  um eine LDAP-Verbindung einzurichten. Auch \'Connect DN\' genannt. '
   },
   'create account template' => {
     'lastUpdated' => '1178632312',

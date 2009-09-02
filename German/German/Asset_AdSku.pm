@@ -97,6 +97,14 @@ our $I18N = {
     'lastUpdated' => '1246915411',
     'message' => 'für %f pro Einblendung'
   },
+  'minimum clicks' => {
+    'lastUpdated' => '1251893663',
+    'message' => 'Sie müssenden mindestens %d Clicks kaufen.'
+  },
+  'minimum impressions' => {
+    'lastUpdated' => '1251893682',
+    'message' => 'Sie müssen mindestens %d Impressions kaufen'
+  },
   'property ad Space help' => {
     'lastUpdated' => '1249632475',
     'message' => 'Selektieren Sie den Anzeigenplatz, der über diesen Artikel verkauft werden soll.'
@@ -118,7 +126,7 @@ our $I18N = {
     'message' => 'Klick-Rabatte'
   },
   'property click discounts help' => {
-    'lastUpdated' => '1250984952',
+    'lastUpdated' => '1251893591',
     'message' => 'Geben Sie jeden Rabatt am Anfang einer eigenen Zeile an. Weiterer Text wird ignoriert, Sie können also Kommentare anfügen.
 Jeder Rabatt besteht aus zwei Zahlen, die durch \'@\' ohne Leerzeichen getrennt werden. Die erste Zahl ist der Rabatt in Prozent (ohne Dezimalpunkt), die zweite Zahl ist die Anzahl der gekauften Anzeigen.  So bedeutet z.B. 5@1000 ein Rabatt von 5% bei 1000 oder mehr gekauften Anzeigen.'
   },
@@ -127,7 +135,7 @@ Jeder Rabatt besteht aus zwei Zahlen, die durch \'@\' ohne Leerzeichen getrennt 
     'message' => 'Impressionsrabatt'
   },
   'property impression discounts help' => {
-    'lastUpdated' => '1250984677',
+    'lastUpdated' => '1251893642',
     'message' => 'Geben Sie jeden Rabatt am Anfang einer eigenen Zeile an. Weiterer Text wird ignoriert, Sie können also Kommentare anfügen.
 Jeder Rabatt besteht aus zwei Zahlen, die durch \'@\' ohne Leerzeichen getrennt werden. Die erste Zahl ist der Rabatt in Prozent (ohne Dezimalpunkt), die zweite Zahl ist die Anzahl der gekauften Anzeigen.  So bedeutet z.B. 5@1000 ein Rabatt von 5% bei 1000 oder mehr gekauften Anzeigen.'
   },

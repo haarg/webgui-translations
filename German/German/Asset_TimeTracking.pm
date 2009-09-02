@@ -335,8 +335,8 @@ our $I18N = {
     'message' => 'Der internationalisierte Begriff "Total Hours"'
   },
   'time.save.label' => {
-    'lastUpdated' => '1251499727',
-    'message' => 'Der internationalisierte Bezeichner für "Add rows"'
+    'lastUpdated' => '1251896502',
+    'message' => 'Der internationalisierte Bezeichner für "Save"'
   },
   'time.totalHours' => {
     'lastUpdated' => '1251501937',
