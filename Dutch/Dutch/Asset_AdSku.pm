@@ -97,6 +97,14 @@ our $I18N = {
     'lastUpdated' => '1248088930',
     'message' => '%f per impressie'
   },
+  'minimum clicks' => {
+    'lastUpdated' => '1251885292',
+    'message' => 'Er moeten minimaal %d klikken gekocht worden.'
+  },
+  'minimum impressions' => {
+    'lastUpdated' => '1251885313',
+    'message' => 'Er moeten minimaal %d impressies gekocht worden.'
+  },
   'property ad Space help' => {
     'lastUpdated' => '1248087856',
     'message' => 'Selecteer de advertentieruimte die door deze SKU verkocht wordt.'
@@ -118,7 +126,7 @@ our $I18N = {
     'message' => 'Klik korting'
   },
   'property click discounts help' => {
-    'lastUpdated' => '1248185293',
+    'lastUpdated' => '1251885354',
     'message' => 'Voer per regel 1 korting in aan het begin van de regel. Extra tekst wordt genegeerd, dus kan er commentaar worden toegevoegd. Elke korting bestaat uit twee getallen die door het \'@\' teken gescheiden worden zonder gebruik van spaties. Het eerste nummer is het percentage korting (zonder getallen achter de komma) en het tweede getal is het aantal aangekochte objecten. Dus 5@1000 geeft een korting van 5 procent bij 1000 of meer aangekochte kliks.'
   },
   'property impression discounts' => {
@@ -126,7 +134,7 @@ our $I18N = {
     'message' => 'Impressie korting'
   },
   'property impression discounts help' => {
-    'lastUpdated' => '1248185478',
+    'lastUpdated' => '1251885378',
     'message' => 'Voer per regel 1 korting in aan het begin van de regel. Extra tekst
 wordt genegeerd, dus kan er commentaar worden toegevoegd. Elke korting
 bestaat uit twee getallen die door het \'@\' teken gescheiden worden

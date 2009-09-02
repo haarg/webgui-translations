@@ -9,6 +9,14 @@ our $I18N = {
     'lastUpdated' => '1213631836',
     'message' => 'Geannuleerd'
   },
+  'No shippers' => {
+    'lastUpdated' => '1251885498',
+    'message' => 'Er zijn geen verzendopties geconfigureerd. Gebruikers kunnen hun bestelling niet voltooien tenzij er minimaal een optie is geconfigureerd.'
+  },
+  'No shipping plugins configured' => {
+    'lastUpdated' => '1251885532',
+    'message' => 'Geen verzendopties geconfigureerd. Informeer alstublieft de beheerder.'
+  },
   'NotShipped' => {
     'lastUpdated' => '1213968493',
     'message' => 'Niet verzonden'
