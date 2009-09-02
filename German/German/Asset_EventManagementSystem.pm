@@ -2,8 +2,8 @@ package WebGUI::i18n::German::Asset_EventManagementSystem;
 use utf8;
 our $I18N = {
   'Admin manage sub events large resultset' => {
-    'lastUpdated' => '1240697607',
-    'message' => 'Sie können die folgenden Veranstaltungen verwalten. Da zu viele Unter-Veranstaltungen vorhanden sind, k&ouml;nnen nicht alle Veranstaltungen dargestellt werden. Bitte grenzen Sie die Ergebnisse durch die weiter oben aufgeführten Filteroptionen ein. '
+    'lastUpdated' => '1251858808',
+    'message' => 'Sie können die folgenden Veranstaltungen verwalten. Da zu viele Unter-Veranstaltungen vorhanden sind, können nicht alle Veranstaltungen dargestellt werden. Bitte grenzen Sie die Ergebnisse durch die weiter oben aufgeführten Filteroptionen ein. '
   },
   'Admin manage sub events small resultset' => {
     'lastUpdated' => '1240697624',
@@ -822,8 +822,8 @@ our $I18N = {
     'message' => 'Anfangsdatum'
   },
   'event template help title' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => '1251843569',
+    'message' => 'Veranstaltungsmanagementsystem Veranstaltungstemplate'
   },
   'eventIsApproved' => {
     'lastUpdated' => undef,
@@ -845,21 +845,29 @@ our $I18N = {
     'lastUpdated' => undef,
     'message' => ''
   },
+  'expire ems cart items' => {
+    'lastUpdated' => '1251843763',
+    'message' => 'Ablauf des Einkaufswageninhaltes'
+  },
   'export' => {
     'lastUpdated' => '1248389415',
     'message' => 'Exportieren'
   },
   'export error' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => '1251843786',
+    'message' => 'Es gab einen Fehler beim Export'
   },
   'export events' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => '1251843798',
+    'message' => 'Veranstaltungen exportieren'
+  },
+  'exportTicketsUrl' => {
+    'lastUpdated' => '1251843840',
+    'message' => 'URL zum Ticketexport. Zur Zeit nicht implementiert!'
   },
   'field count mismatch' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => '1251843915',
+    'message' => 'Eintrag %d hat %d Felder und nicht %d wie durch die markierten Auswahlboxen angegeben. '
   },
   'filter' => {
     'lastUpdated' => '1251666405',
@@ -870,8 +878,36 @@ our $I18N = {
     'message' => 'Vorname'
   },
   'forced narrowing' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => '1251843982',
+    'message' => 'Wegen der vielen Voraussetzungen werden hier keine angezeigt. Bitte grenzen Sie die Auswahl mit den obigen Filtern ein.'
+  },
+  'formFooter' => {
+    'lastUpdated' => '1251844044',
+    'message' => 'Formularfuß für das Ansichtstemplate des Namensschildes'
+  },
+  'formHeader' => {
+    'lastUpdated' => '1251844055',
+    'message' => 'Formularkopf für das Ansichtstemplate des Namensschildes'
+  },
+  'getBadgesUrl' => {
+    'lastUpdated' => '1251844104',
+    'message' => 'URL um Namensschildinformationen im JSON Format an die YUI Datentabelle zu übergeben.'
+  },
+  'getRegistrantsUrl' => {
+    'lastUpdated' => '1251844145',
+    'message' => 'URL um Informationen zum Registrierten als JSON zu übergeben'
+  },
+  'getRibbonsUrl' => {
+    'lastUpdated' => '1251844175',
+    'message' => 'URL um Band-Informationen als JSON zu erhalten'
+  },
+  'getTicketsUrl' => {
+    'lastUpdated' => '1251844196',
+    'message' => 'URL um Ticketinformationen als JSON zu erhalten'
+  },
+  'getTokensUrl' => {
+    'lastUpdated' => '1251844210',
+    'message' => 'URL um Gutscheininformationen als JSON zu erhalten'
   },
   'global metadata' => {
     'lastUpdated' => undef,
@@ -905,6 +941,14 @@ our $I18N = {
     'lastUpdated' => undef,
     'message' => ''
   },
+  'hasBadge' => {
+    'lastUpdated' => '1251844243',
+    'message' => 'Eine Bedingung die anzeigt, ob der aktuelle Nutzer ein Namensschild hat.'
+  },
+  'hasCheckedIn' => {
+    'lastUpdated' => '1251844310',
+    'message' => 'Eine Bedingungsvariable die wahr ist, wenn sich der Nutzer zur Veranstaltung eingeschrieben hat.'
+  },
   'hours' => {
     'lastUpdated' => '1239658049',
     'message' => 'Stunden'
@@ -922,76 +966,85 @@ our $I18N = {
     'message' => 'Importieren'
   },
   'import blank line' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => '1251845272',
+    'message' => 'Eintrag %d war leer (wurde übersprungen)'
   },
   'import events' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => '1251845295',
+    'message' => 'Veranstaltung importieren'
   },
   'import field is duplicate key description' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => '1251853441',
+    'message' => 'Um doppelte Datensätze auf intelligente Art und weise zu behandeln, muss das System einen Datensatz als Duplikat identifizieren. Durch Auswahl dieser Checkboxen teilen Sie dem System mit welche Felder es beachten soll, bei der Suche nach bereits existierenden Feldern für die Veranstaltung die importiert wird.
+Wenn Sie beispielsweise Veranstaltungstitel und Veranstaltungsanfangsdatum als einzige Felder mit Doppelschlüsseln markieren und von den importieren Feldern  Veranstaltungstitel und Veranstaltungsanfangsdatum welche mit existierenden Feldern übereinstimmen, wird der importiere Datensatz als Duplikat behandelt. In diesem Fall wird er entweder verworfen oder der existierende Datensatz wird überschreiben.'
   },
   'import field is duplicate key title' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => '1251845357',
+    'message' => 'Feld ist doppelter Schlüssel'
   },
   'import file contains field description' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => '1251853593',
+    'message' => 'Markieren Sie die Checkboxen neben den Feldern, die in Ihrer Inputdatei enthalten sind. Beachten Sie, dass die Felder in der angezeigten Reihenfolge sein müssen und alle benötigten Felder markiert und ausgefüllt sein müssen für das Fortschreiben des Imports.'
   },
   'import file contains field title' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => '1251852148',
+    'message' => 'Datei enthält Feld'
   },
   'import form header' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => '1251851942',
+    'message' => 'Mit diesem Formular können Sie Daten direkt in das Veranstaltungsmanagementsystem importieren. Vergewissern Sie sich, dass Ihre Felder in der nachfolgenden Reihenfolge festgelegt sind. '
   },
   'import hoverhelp dups' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => '1251853911',
+    'message' => 'Das System wird die Felder zur Bestimmung von Duplikaten heranziehen, die Sie unter "Feld ist Dublettenschlüssel" angegeben haben. Wenn eine Dublette gefunden wurde, wird hier ausgewählt, das getan werden soll - importierten Datensatz verwerfen oder den alten Datensatz mit dem neuen überschreiben. Beachten Sie, dass alle Felder in überschriebenen Datensätzen auch überschrieben werden, unbeachtet, ob sie im importierten Datensatz vorhanden sind oder nicht.'
   },
   'import hoverhelp file' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => '1251855053',
+    'message' => 'Laden Sie eine Datei mit Komma-getrennten Werten (CSV) hoch (Tabellenkalkulationen können dieses Format ausgeben.) Die Felder müssen durch Kommata getrennt sein und Felder die ein Komma enthalten mit doppelten Anführungszeichen umschlossen sein. Enthaltene doppelte Anführungszeichen werden mit einem weiteren doppelte Anführungszeichen ("") maskiert. Ihre Datei wird auf die Feldanzahl und Pflichtfelder vor einem Import überprüft. Treten Fehler auf, werden Sie informiert und es findet keine Import statt. Diese Überprüfung schließt keine Gültigkeitsprüfung von LDAP, Datenbanklinks oder Templates ein. Das Format von Spezialfeldern ist das selbe, das auch beim Export verwandt wird. Wenn Sie eine Frage zur exakten Formatierung haben, untersuchen Sie eine Exportdatei und formatieren Ihre Inputdatei entsprechend. Listenfelder mit mehreren Werten sollten in einem CSV-Feld zusammengefasst und mit einem Strichpunk (;) getrennt werden.'
   },
   'import hoverhelp first line' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => '1251855157',
+    'message' => 'Enthält die erste Zeile Ihrer Importdatei Feldnamen statt Daten, wählen Sie ja, ansonsten nein.'
   },
   'import invalid prereq' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => '1251855291',
+    'message' => 'Datensatz %d enthält einen ungültigen Namenswert (%s) für einen Voraussetzungssatz. Sie müssen den Voraussetzungssatz vor dem Import erstellen.'
   },
   'import invalid status' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => '1251855490',
+    'message' => 'Datensatz %d hat einen ungültigen Statuswert (%s). Gültige Werte sind: Genehmigt, Abgebrochen, Versagt, Schwebend'
   },
   'import invalid template' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => '1251855604',
+    'message' => 'Datensatz %d enthält einen ungültigen Namenswert (%s) für ein Veranstaltungstempalte. Sie müssen das entsprechende Veranstaltungstemplate vor dem Import erstellen.'
+  },
+  'import line parse error' => {
+    'lastUpdated' => '1251855682',
+    'message' => 'Es trat ein Fehler bei der Verarbeitung der Eingab auf, \'%s\' in Zeile %d.'
   },
   'import missing required' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => '1251855774',
+    'message' => 'In Datensatz %d ist das Pflichtfeld %s nicht ausgefüllt.'
   },
   'import need dup key' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => '1251850261',
+    'message' => 'Sie müssen mindestens eine Doppelschlüssel-Auswahlbox markieren'
   },
   'import ok' => {
     'lastUpdated' => '1239658538',
     'message' => 'Alle %d Datensätze wurden erfolgreich importiert. %d neu angelegt, %d Leerzeilen, %d Doppeleinträge %s.'
   },
   'import other line' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => '1251855820',
+    'message' => 'Datensatz %d war %s'
   },
   'import record parse error' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => '1251855867',
+    'message' => 'Es trat ein Fehler bei der Verarbeitung des Datensatzes %d auf: \'%s\''
+  },
+  'importTicketsUrl' => {
+    'lastUpdated' => '1251855893',
+    'message' => 'URL für den Ticketimport. Zur Zeit nicht implementiert.'
   },
   'is required' => {
     'lastUpdated' => '1239658559',
@@ -1001,13 +1054,29 @@ our $I18N = {
     'lastUpdated' => undef,
     'message' => ''
   },
+  'isRegistrationStaff' => {
+    'lastUpdated' => '1251847078',
+    'message' => 'Eine Bedingungsvariable die wahr ist, wenn der aktuelle Benutzer in der Gruppe für Registrierungspersonal für diese Veranstaltungsverwaltung ist.'
+  },
+  'item expiration time' => {
+    'lastUpdated' => '1251855930',
+    'message' => 'Verfallszeit'
+  },
+  'item expiration time help' => {
+    'lastUpdated' => '1251856350',
+    'message' => 'Wie lange sollen Dinge des Veranstaltungsmanagementsystems im Einkaufskorb reserviert bleiben, bevor die verfallen und wieder für den Verkauf freigegeben werden?'
+  },
   'label' => {
     'lastUpdated' => '1251666466',
     'message' => 'Bezeichner'
   },
+  'label help' => {
+    'lastUpdated' => '1251856419',
+    'message' => 'Der Bezeichner für das Feld, das der Benutzer lesen wird um zu wissen wofür das Feld ist.'
+  },
   'last name' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => '1251846946',
+    'message' => 'Familienname'
   },
   'location' => {
     'lastUpdated' => '1239658070',
@@ -1017,29 +1086,69 @@ our $I18N = {
     'lastUpdated' => '1251666561',
     'message' => 'In welchem Raum oder welchem Ort findet diese Veranstaltung statt?'
   },
+  'lookup badge' => {
+    'lastUpdated' => '1251850290',
+    'message' => 'Ein Namensschild suchen'
+  },
+  'lookup registrant template' => {
+    'lastUpdated' => '1251856473',
+    'message' => 'Registrantsuche Template'
+  },
+  'lookup registrant template help' => {
+    'lastUpdated' => '1251856525',
+    'message' => 'Welches Template möchten Sie für die Registrantsuche-Seite benutzen?'
+  },
+  'lookupRegistrantTemplateId help' => {
+    'lastUpdated' => '1251856555',
+    'message' => 'Template ID für die Registrantsuche-Seite'
+  },
+  'lookupRegistrantUrl' => {
+    'lastUpdated' => '1251856672',
+    'message' => 'URL um Informationen über die Namensschilder des aktuellen Nutzers zu bekommen, oder für alle Nutzer, wenn der aktuelle Nutzer zum Registrierungspersonal gehört.'
+  },
+  'main template' => {
+    'lastUpdated' => '1251847117',
+    'message' => 'Haupttemplate'
+  },
+  'main template help' => {
+    'lastUpdated' => '1251847182',
+    'message' => 'Welches Template möchten Sie für die Hauptseite verwenden, die die zu kaufenden Namensschilder auflistet?'
+  },
+  'main template help body' => {
+    'lastUpdated' => '1251856796',
+    'message' => 'Dieses Template benutzt YUI für den größten Teil der Ausgabearbeit. Bitte ändern Sie das CSS um Anzeige- oder Stil-Änderungen vorzunehmen.'
+  },
+  'main template help title' => {
+    'lastUpdated' => '1251856833',
+    'message' => 'Haupttemplate des Veranstaltungsmanagements'
+  },
+  'manage' => {
+    'lastUpdated' => '1251850306',
+    'message' => 'Bearbeiten'
+  },
   'manage discount passes' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => '1251856868',
+    'message' => 'Rabattpässe verwalten'
   },
   'manage event metadata' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => '1251856883',
+    'message' => 'Veranstaltungsmetadaten verwalten'
   },
   'manage events' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => '1251856901',
+    'message' => 'Veranstaltungen verwalten'
   },
   'manage prerequisite sets' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => '1251856932',
+    'message' => 'Voraussetzungssätze bearbeiten'
   },
   'manage prerequisites' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => '1251856962',
+    'message' => 'Voraussetzungen für diese Veranstaltung bearbeiten'
   },
   'manage purchases' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => '1251856977',
+    'message' => 'Einkäufe bearbeiten'
   },
   'manage purchases template' => {
     'lastUpdated' => undef,
@@ -1057,6 +1166,14 @@ our $I18N = {
     'lastUpdated' => undef,
     'message' => ''
   },
+  'manageBadgeGroupsUrl' => {
+    'lastUpdated' => '1251857002',
+    'message' => 'URL um eine Liste mit Namensschildgruppen anzuzeigen'
+  },
+  'manageEventMetaFieldsUrl' => {
+    'lastUpdated' => '1251857037',
+    'message' => 'URL zur Verwaltungsseite der Veranstaltungsmetadaten'
+  },
   'manageEvents.label' => {
     'lastUpdated' => undef,
     'message' => ''
@@ -1066,8 +1183,8 @@ our $I18N = {
     'message' => ''
   },
   'managePrereqsMessage' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => '1251857113',
+    'message' => 'Benutzen Sie das folgende Formular, um Voraussetzungszuweisungen hinzuzufügen zu %s.'
   },
   'managePurchases.label' => {
     'lastUpdated' => undef,
@@ -1085,6 +1202,14 @@ our $I18N = {
     'lastUpdated' => undef,
     'message' => ''
   },
+  'mark as checked in' => {
+    'lastUpdated' => '1251857131',
+    'message' => 'Als eingeschrieben markieren'
+  },
+  'mark as not checked in' => {
+    'lastUpdated' => '1251857154',
+    'message' => 'Als nicht eingeschrieben markieren'
+  },
   'maximumAttendees' => {
     'lastUpdated' => undef,
     'message' => ''
@@ -1093,13 +1218,17 @@ our $I18N = {
     'lastUpdated' => undef,
     'message' => ''
   },
+  'meta fields' => {
+    'lastUpdated' => '1251847197',
+    'message' => 'Metafelder'
+  },
   'meta hover help' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => '1251847274',
+    'message' => 'Dies ist ein Bedarfsfeld. Bitten Sie Ihren Administrator um Anweisungen.'
   },
   'missing prerequisites message' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => '1251850450',
+    'message' => 'Einige Veranstaltungen setzen voraus, dass Sie an einer anderen Veranstaltung teilgenommen haben. Bitte erfüllen Sie die Voraussetzungen der folgenden Liste.'
   },
   'name' => {
     'lastUpdated' => '1240697840',
@@ -1118,8 +1247,12 @@ our $I18N = {
     'message' => 'Nein'
   },
   'no import took place' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => '1251850503',
+    'message' => 'Es wurden keine Datensätze importiert. Es traten Fehler in der Eingabe auf:'
+  },
+  'no more available' => {
+    'lastUpdated' => '1251850556',
+    'message' => 'Fehler: Keine weiteren Dinge zu kaufen.'
   },
   'no sets to display' => {
     'lastUpdated' => undef,
@@ -1129,13 +1262,21 @@ our $I18N = {
     'lastUpdated' => undef,
     'message' => ''
   },
+  'not checked in' => {
+    'lastUpdated' => '1251850576',
+    'message' => 'Nicht eingeschrieben'
+  },
+  'notes' => {
+    'lastUpdated' => '1251850587',
+    'message' => 'Anmerkungen'
+  },
   'null field error' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => '1251850610',
+    'message' => 'Das Feld %s darf nicht leer bleiben.'
   },
   'null field error recnum' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => '1251850644',
+    'message' => 'Das Feld %s darf nicht leer bleiben (Datensatz %d).'
   },
   'numberOfSearchResults' => {
     'lastUpdated' => undef,
@@ -1154,12 +1295,20 @@ our $I18N = {
     'message' => ''
   },
   'option to narrow' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => '1251850734',
+    'message' => 'Sie können die Liste angezeigter Voraussetzung durch das setzen von obigen Filteroptionen beschränken.'
   },
   'or' => {
     'lastUpdated' => undef,
     'message' => ''
+  },
+  'organization' => {
+    'lastUpdated' => '1251847287',
+    'message' => 'Organisation'
+  },
+  'otherBadgesInCart' => {
+    'lastUpdated' => '1251850806',
+    'message' => 'Eine Schleife, die Links und Labels für andere Namensschilder im Warenkorb des Nutzers enthält.'
   },
   'overwrite' => {
     'lastUpdated' => '1251666891',
@@ -1201,29 +1350,57 @@ our $I18N = {
     'lastUpdated' => '1251666923',
     'message' => 'Prozentualer Rabatt'
   },
+  'percentage discount help' => {
+    'lastUpdated' => '1251847649',
+    'message' => 'Welcher prozentuale Rabatt soll auf die Tickets gewährt werden, wenn der Nutzer dieses Band kauft?'
+  },
   'phone number' => {
     'lastUpdated' => '1251666851',
     'message' => 'Telefonnummer'
   },
+  'phoneNumber' => {
+    'lastUpdated' => '1251847584',
+    'message' => 'Telefonnummer des Namensschildnutzers'
+  },
   'populate from address book' => {
     'lastUpdated' => '1251666878',
     'message' => 'Aus Adressbuch übernehmen'
+  },
+  'pre registration price' => {
+    'lastUpdated' => '1251850938',
+    'message' => 'Vorregistrierungspreis'
+  },
+  'pre registration price end date' => {
+    'lastUpdated' => '1251850960',
+    'message' => 'Vorregistrierungspreis Enddatum'
+  },
+  'pre registration price end date help' => {
+    'lastUpdated' => '1251850913',
+    'message' => 'Datum, an dem der Vorregistrierungspreis durch den Frühbucherpreis ersetzt wird.'
+  },
+  'pre registration price help' => {
+    'lastUpdated' => '1251851037',
+    'message' => 'Der Spezialpreis dieses Namensschildes, wenn der Nutzer besonders früh bestellt.'
   },
   'prereq set name field description' => {
     'lastUpdated' => undef,
     'message' => ''
   },
   'prereq set name field label' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => '1251851067',
+    'message' => 'Voraussetzungssetname'
   },
   'price' => {
     'lastUpdated' => '1239658134',
     'message' => 'Bruttopreis'
   },
+  'price help' => {
+    'lastUpdated' => '1251847307',
+    'message' => 'Der Bruttopreis dieses Namensschildes'
+  },
   'price must be greater than zero' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => '1251847357',
+    'message' => 'Preis muss größer Null sein.'
   },
   'price.label' => {
     'lastUpdated' => undef,
@@ -1233,29 +1410,57 @@ our $I18N = {
     'lastUpdated' => '1248388723',
     'message' => 'Drucken'
   },
+  'print badge template' => {
+    'lastUpdated' => '1251851231',
+    'message' => 'Druckvorlage Namensschild'
+  },
+  'print badge template help' => {
+    'lastUpdated' => '1251851265',
+    'message' => 'Welches Template möchten Sie für den Druck der Namensschilder nutzen?'
+  },
+  'print ticket template' => {
+    'lastUpdated' => '1251851288',
+    'message' => 'Drucktempalte Tickets'
+  },
+  'print ticket template help' => {
+    'lastUpdated' => '1251851321',
+    'message' => 'Welches Tempalte möchten Sie für den Druck der Tickets nutzen?'
+  },
+  'printBadgeTemplateId help' => {
+    'lastUpdated' => '1251851355',
+    'message' => 'Die ID des Drucktemplates für Namensschilder'
+  },
+  'printTicketTemplateId help' => {
+    'lastUpdated' => '1251851418',
+    'message' => 'Die ID des Drucktemplates für Tickets'
+  },
   'productId' => {
     'lastUpdated' => undef,
     'message' => ''
   },
   'purchase.label' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => '1251851523',
+    'message' => 'Der internationalisierte Bezeichner "Add to Cart". Ist die Veranstaltung ausgebucht ist diese Variable leer.'
   },
   'purchase.message' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => '1251851597',
+    'message' => 'Eine Meldung, um den Nutzer zu fragen, ob er Unterveranstaltungen für diese Veranstaltung sehen möchte. Ist die Veranstaltung ausgebucht, ist diese Variable leer.'
   },
   'purchase.url' => {
     'lastUpdated' => undef,
     'message' => ''
   },
   'purchase.wantToContinue.url' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => '1251851655',
+    'message' => 'URL um diese Veranstaltung in den Einkaufswagen zu legen. Ist die Veranstaltung ausgebucht, ist diese Variable leer.'
   },
   'purchase.wantToSearch.url' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => '1251851716',
+    'message' => 'URL um nach Veranstaltungen zu suchen, die Voraussetzung für diese Veranstaltung sind. Ist die Veranstaltung ausgebucht, ist diese Variable leer.'
+  },
+  'purchaseComplete' => {
+    'lastUpdated' => '1251850172',
+    'message' => 'Eine bedingte Variable die wahr ist, wenn der Einkauf des Namensschildes komplett ist.'
   },
   'purchaseUrl' => {
     'lastUpdated' => undef,
@@ -1265,21 +1470,66 @@ our $I18N = {
     'lastUpdated' => undef,
     'message' => ''
   },
+  'quantity available' => {
+    'lastUpdated' => '1251847717',
+    'message' => '# verfügbar'
+  },
   'refresh events list' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => '1251850125',
+    'message' => 'Veranstaltungsliste neu laden'
+  },
+  'refund' => {
+    'lastUpdated' => '1251847371',
+    'message' => 'Rückzahlung'
   },
   'regLoop' => {
     'lastUpdated' => undef,
     'message' => ''
   },
   'registration info message' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => '1251859855',
+    'message' => 'Geben Sie Namensschild/Kontaktinformationen für die Serie von Veranstaltungen ein, die Sie aktuell dem Einkaufskorb hinzufügen.
+
+Wenn Sie angemeldet sind, können Sie für eine Aktualisierung die Informationen ihres eigenen Benutzerprofils auswählen, indem Sie Ihren Namen aus der Dropdown-Box auswählen, oder wenn Ihr Name nicht aufgeführt ist, wählen Sie die Option" Erstelle Namensschild für mich selbst"
+
+Wenn Sie den Kauf für jemand anders durchführen, wählen Sie dessen Name oder wählen "Erstelle neues Namensschild für jemand anderen" aus der Dropdown-Auswahl. Wenn Sie etwas zu einem früheren Kauf hinzufügen möchten, ist das Namensschild bereits ausgewählt und kann nicht mehr geändert werden. Wenn Sie im Formular Änderungen an einem Feld für ein existierendes Namensschild vornehmen, werden die Informationen aktualisiert. 
+'
+  },
+  'registration staff group' => {
+    'lastUpdated' => '1251857816',
+    'message' => 'Gruppe Registrierungspersonal'
+  },
+  'registration staff group help' => {
+    'lastUpdated' => '1251857996',
+    'message' => 'Wählen Sie eine Nutzergruppe, die Registrierungen verwaltet. Diese Nutzer können Namensschildregistrierungen von jedem Teilnehmer suchen und verwalten.'
   },
   'registrationId' => {
     'lastUpdated' => undef,
     'message' => ''
+  },
+  'registrationStaffGroupId help' => {
+    'lastUpdated' => '1251857788',
+    'message' => 'Die ID für die Gruppe, die Registrierungen bearbeitet.'
+  },
+  'related badge groups' => {
+    'lastUpdated' => '1251857271',
+    'message' => 'Zugeordnete Namensschildgruppen'
+  },
+  'related badge groups badge help' => {
+    'lastUpdated' => '1251858264',
+    'message' => 'Markieren Sie Namensschildgruppen, die zu diesem Namensschild gehören, so dass den Tickets Voraussetzungsnamensschilder zugewiesen werden können.'
+  },
+  'related badge groups ticket help' => {
+    'lastUpdated' => '1251858334',
+    'message' => 'Markieren Sie die Namensschildgruppen, die als Voraussetzung gelten, um diese Veranstaltung zu besuchen. Ist keine markiert, geht es mit allen.'
+  },
+  'related ribbons' => {
+    'lastUpdated' => '1251857292',
+    'message' => 'Zugeordnete Bänder'
+  },
+  'related ribbons help' => {
+    'lastUpdated' => '1251857329',
+    'message' => 'Prüfe die Bänder, die einen Rabatt für dieses Ticket gewähren können'
   },
   'remove' => {
     'lastUpdated' => '1239658146',
@@ -1293,17 +1543,53 @@ our $I18N = {
     'lastUpdated' => undef,
     'message' => ''
   },
+  'ribbon instructions' => {
+    'lastUpdated' => '1251857355',
+    'message' => 'Anweisungen für Bänder'
+  },
+  'ribbon instructions help' => {
+    'lastUpdated' => '1251857418',
+    'message' => 'Dem Nutzer Hilfe geben, was er mit einem Band tun kann.'
+  },
+  'ribbonInstructions help' => {
+    'lastUpdated' => '1251857452',
+    'message' => 'Anweisungen für den Benutzer, was er mit einem Band tun kann.'
+  },
+  'ribbons' => {
+    'lastUpdated' => '1251847383',
+    'message' => 'Bänder'
+  },
   'save approvals' => {
     'lastUpdated' => undef,
     'message' => ''
   },
+  'schedule back link' => {
+    'lastUpdated' => '1251857460',
+    'message' => 'Zurück'
+  },
+  'schedule number of columns' => {
+    'lastUpdated' => '1251857687',
+    'message' => 'Ablaufplanorte pro Seite'
+  },
+  'schedule number of columns help' => {
+    'lastUpdated' => '1251858776',
+    'message' => 'Dies kontrolliert, wie viele Veranstaltungsorte pro Seite im Ablaufplan angezeigt werden. Hat Ihre Veranstaltung nur wenige Orte, setzen Sie diese Anzahl; für 10 oder 20 Orte definieren Sie die Hälfte oder ein Drittel der Nummer; für eine große Nummer von Orten wählen Sie den Standard.'
+  },
+  'schedule template' => {
+    'lastUpdated' => '1251857659',
+    'message' => 'Ablaufplantemplate'
+  },
+  'schedule template help' => {
+    'lastUpdated' => '1251857546',
+    'message' => 'Dieses Template wird benutzt um den Ablaufplan der Veranstaltungen anzuzeigen'
+  },
   'scheduling conflict continue' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => '1251857570',
+    'message' => 'Hier Klicken zum Fortfahren'
   },
   'scheduling conflict message' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => '1251857645',
+    'message' => 'Sie haben einen Ablaufkonflikt. Bitte löschen Sie eine der folgenden Veranstaltungen aus Ihrem Einkaufswagen um fortzufahren.'
   },
   'search' => {
     'lastUpdated' => '1248388829',
@@ -1386,12 +1672,12 @@ our $I18N = {
     'message' => 'Eine Artikelnummer für diese Veranstaltung. Ein globaler, eindeutiger Identifizierer wird standardmäßig generiert.'
   },
   'sku template' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => '1251840461',
+    'message' => 'Artikelnummertemplate'
   },
   'sku template description' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => '1251840535',
+    'message' => 'Dieses Feld definiert, wie die Artikelnummer für jedes Produkt zusammengesetzt wird. Die Syntax ist die selbe wie in normalen Templates.'
   },
   'sold out' => {
     'lastUpdated' => '1226016495',
@@ -1425,6 +1711,10 @@ our $I18N = {
     'lastUpdated' => '1226016467',
     'message' => 'Status'
   },
+  'switch to badge for' => {
+    'lastUpdated' => '1251840440',
+    'message' => 'Wechsel zum Namensschild von %s'
+  },
   'template help title' => {
     'lastUpdated' => undef,
     'message' => ''
@@ -1432,6 +1722,42 @@ our $I18N = {
   'templateId' => {
     'lastUpdated' => undef,
     'message' => ''
+  },
+  'templateId help' => {
+    'lastUpdated' => '1251840409',
+    'message' => 'Die Template-ID für die Hauptseite des Veranstaltungsmanagementsystems'
+  },
+  'ticket instructions' => {
+    'lastUpdated' => '1251840268',
+    'message' => 'Ticketanweisungen'
+  },
+  'ticket instructions help' => {
+    'lastUpdated' => '1251840256',
+    'message' => 'Dem Benutzer Hilfestellung geben, was er mit dem Ticket tun kann.'
+  },
+  'ticketDuration' => {
+    'lastUpdated' => '1251840236',
+    'message' => 'Wie lange dieses Ticket gilt'
+  },
+  'ticketEventNumber' => {
+    'lastUpdated' => '1251840213',
+    'message' => 'Die Veranstaltungsnummer für dieses Ticket'
+  },
+  'ticketInstructions help' => {
+    'lastUpdated' => '1251840119',
+    'message' => 'Anweisungen für den Benutzer, was er mit dem Ticket tun kann.'
+  },
+  'ticketLocation' => {
+    'lastUpdated' => '1251840083',
+    'message' => 'Wofür das Ticket ist'
+  },
+  'ticketStart' => {
+    'lastUpdated' => '1251840066',
+    'message' => 'Anfangsdatum des Tickets'
+  },
+  'ticketTitle' => {
+    'lastUpdated' => '1251839988',
+    'message' => 'Der Titel des Tickets, das gedruckt werden soll'
   },
   'tickets' => {
     'lastUpdated' => '1251666826',
@@ -1454,8 +1780,8 @@ our $I18N = {
     'message' => 'Der Name für dieses Ereignis<br />'
   },
   'title.url' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => '1251839966',
+    'message' => 'URL um eine Liste der Veranstaltungen anzuzeigen, die diese Veranstaltung enthält.'
   },
   'tmplLoop errorLoop' => {
     'lastUpdated' => undef,
@@ -1493,25 +1819,61 @@ our $I18N = {
     'lastUpdated' => undef,
     'message' => ''
   },
+  'token instructions' => {
+    'lastUpdated' => '1251839911',
+    'message' => 'Gutscheinanweisungen'
+  },
+  'token instructions help' => {
+    'lastUpdated' => '1251839901',
+    'message' => 'Dem Nutzer Hilfestellung geben, was er mit dem Gutschein anfangen kann.'
+  },
+  'tokenInstructions help' => {
+    'lastUpdated' => '1251839869',
+    'message' => 'Anweisungen für den Nutzer, was er mit dem Gutschein tun kann.'
+  },
+  'tokens' => {
+    'lastUpdated' => '1251839841',
+    'message' => 'Gutscheine'
+  },
   'transactionId' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => '1251839829',
+    'message' => 'Der eindeutige Bezeichner für diese Transaktion in der Datenbank.'
+  },
+  'transactionItemId' => {
+    'lastUpdated' => '1251839800',
+    'message' => 'Der eindeutige Identifier für das Transaktionsitem dieses Namensschildes. Nützlich für internes Tracking.'
   },
   'type label here' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => '1251839737',
+    'message' => 'Hier Label eingeben'
   },
   'type name here' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => '1251839725',
+    'message' => 'Hier Name eingeben'
+  },
+  'url' => {
+    'lastUpdated' => '1251839711',
+    'message' => 'URL zu diesem Veranstaltungsmanagementsystems'
   },
   'user' => {
     'lastUpdated' => '1226016338',
     'message' => 'Nutzer'
   },
   'userId' => {
-    'lastUpdated' => '1251666347',
-    'message' => ''
+    'lastUpdated' => '1251839677',
+    'message' => 'Benutzer-ID des Namensschildbenutzers'
+  },
+  'view badge template' => {
+    'lastUpdated' => '1251839646',
+    'message' => 'Namensschildtemplate'
+  },
+  'view badge template help' => {
+    'lastUpdated' => '1251839633',
+    'message' => 'Das Template, das das Formular zur Eingabe der Namensschildinformationen anzeigt'
+  },
+  'view badges' => {
+    'lastUpdated' => '1251839458',
+    'message' => 'Namensschilder ansehen'
   },
   'view purchase' => {
     'lastUpdated' => '1251666340',
@@ -1562,8 +1924,12 @@ our $I18N = {
     'message' => 'Was ist mit Dubletten?'
   },
   'which badge' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => '1251839444',
+    'message' => 'Welches Namensschild'
+  },
+  'whichTab' => {
+    'lastUpdated' => '1251839422',
+    'message' => 'Der aktuelle Karteireiter in der Namensschildbilderseite'
   },
   'yes' => {
     'lastUpdated' => '1217254700',
