@@ -201,6 +201,10 @@ our $I18N = {
     'lastUpdated' => '1146580963',
     'message' => 'Selecteer het soort form element voor het veld.'
   },
+  'Delete Assets' => {
+    'lastUpdated' => '1251878045',
+    'message' => 'Verwijder assets'
+  },
   'Delete Metadata field' => {
     'lastUpdated' => '1146580993',
     'message' => 'Verwijder Metadata veld'
@@ -331,7 +335,7 @@ Hierbij worden het label en de bijbehorende waarde door het | teken gescheiden. 
     'message' => 'Stel rang in'
   },
   'Trying to delete system page %s.  Aborting' => {
-    'lastUpdated' => '1248099997',
+    'lastUpdated' => '1251878064',
     'message' => 'Er wordt geprobeerd de systeempagina %s te verwijderen. Dit wordt afgebroken'
   },
   'Undefined child' => {
