@@ -501,6 +501,42 @@ our $I18N = {
     'lastUpdated' => '1238878510',
     'message' => 'Eine Schleife mit der ersten Antwortliste für eine Frage vom Typ "Zweifacher Schieber"'
   },
+  'a2' => {
+    'lastUpdated' => '1251910894',
+    'message' => 'Eine Schleife mit der zweiten Antwortliste für eine Frage vom Typ "Zweifacher Schieber"'
+  },
+  'add a test' => {
+    'lastUpdated' => '1251910906',
+    'message' => 'Test hinzufügen'
+  },
+  'add answer' => {
+    'lastUpdated' => '1251910918',
+    'message' => 'Antwort hinzufügen'
+  },
+  'add question' => {
+    'lastUpdated' => '1251910926',
+    'message' => 'Frage hinzufügen'
+  },
+  'add section' => {
+    'lastUpdated' => '1251910938',
+    'message' => 'Sektion hinzufügen'
+  },
+  'allow comment' => {
+    'lastUpdated' => '1251910950',
+    'message' => 'Kommentar zulassen:'
+  },
+  'allow comment description' => {
+    'lastUpdated' => '1251910979',
+    'message' => 'Darf der Nutzer zu dieser Frage einen Kommentar verfassen?'
+  },
+  'allowBackBtn' => {
+    'lastUpdated' => '1251911005',
+    'message' => 'Ein boolscher Wert der anzeigt, ob der Zurück-Button zulässig ist.'
+  },
+  'allowComment' => {
+    'lastUpdated' => '1251911038',
+    'message' => 'Ein boolscher wer der anzeigt, ob das Verfassen eines Kommentars zu dieser Frage erlaubt ist.'
+  },
   'anonymous' => {
     'lastUpdated' => '1178876752',
     'message' => 'Boolsche Variable, die zeigt, ob diese Umfrage anonym ist oder nicht.'
@@ -512,6 +548,14 @@ our $I18N = {
   'answer label' => {
     'lastUpdated' => '1238878525',
     'message' => 'Antwort'
+  },
+  'answer number' => {
+    'lastUpdated' => '1251911065',
+    'message' => 'Antwortnummer:'
+  },
+  'answer score' => {
+    'lastUpdated' => '1251911075',
+    'message' => 'Antwortwert:'
   },
   'answer text' => {
     'lastUpdated' => '1238833041',
@@ -548,6 +592,10 @@ our $I18N = {
   'assetName' => {
     'lastUpdated' => '1238831487',
     'message' => 'Fragebogen'
+  },
+  'back' => {
+    'lastUpdated' => '1251910605',
+    'message' => 'Zurück'
   },
   'cancel' => {
     'lastUpdated' => '1238833055',
@@ -705,6 +753,10 @@ our $I18N = {
     'lastUpdated' => '1238832687',
     'message' => 'Der Minalwert dieser Antwort bei Fragen vom Type "Schieber"'
   },
+  'minutesLeft' => {
+    'lastUpdated' => '1251910579',
+    'message' => 'Die Anzahl Minuten, die dem Nutzer verbleiben, um die Umfrage zu beenden.'
+  },
   'mode' => {
     'lastUpdated' => '1179732513',
     'message' => 'Der Modus der Umfrage. Entweder "Umfrage" oder "Quiz".'
@@ -712,6 +764,10 @@ our $I18N = {
   'mode.isSurvey' => {
     'lastUpdated' => '1179732590',
     'message' => 'Bedingung, die anzeigt, ob "Umfrage"- oder "Quiz"-Modus eingestellt ist.'
+  },
+  'month' => {
+    'lastUpdated' => '1251910548',
+    'message' => 'Monat:'
   },
   'no' => {
     'lastUpdated' => '1238832697',
@@ -1269,6 +1325,10 @@ our $I18N = {
     'lastUpdated' => '1238831897',
     'message' => 'URL Alle Responses'
   },
+  'warnings' => {
+    'lastUpdated' => '1251910630',
+    'message' => 'Warnungen'
+  },
   'what next answer description' => {
     'lastUpdated' => '1179742315',
     'message' => 'Nachdem Sie eine Antwort geschrieben haben, können Sie folgendes tun: Antwort zur Frage hinzufügen, eine andere Frage hinzuf&uuml;gen, die aktuelle Frage bearbeiten oder zur&uuml;ck zur Seite gehen, die die Umfrage enthält.'
@@ -1280,6 +1340,10 @@ our $I18N = {
   'what next question description' => {
     'lastUpdated' => '1179742492',
     'message' => '<p>Nachdem Sie die Frage erstellt haben k&amp;ouml;nnen Sie eine Antwort definieren:</p><ul><li>Multiple Choice</li><li>Text</li><li>Frequenz</li><li>Meinung</li><li>Oder zurück zur Umfrage&nbsp;</li></ul>'
+  },
+  'year' => {
+    'lastUpdated' => '1251910518',
+    'message' => 'Jahr (JJJJ):'
   },
   'yes' => {
     'lastUpdated' => '1238673505',

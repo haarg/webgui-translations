@@ -53,6 +53,14 @@ our $I18N = {
     'lastUpdated' => '1236390156',
     'message' => 'Ein einzelnes Textfeld zur Eingabe der Kreditkartenprüfnummer des Benutzers. Dieses Feld bleibt leer, wenn der PayDriver nicht für die Verwendung von CVV2 eingerichtet ist.'
   },
+  'edit credentials template' => {
+    'lastUpdated' => '1251909944',
+    'message' => 'Template für Zahlungs- und Kreditkarteninformation bearbeiten'
+  },
+  'edit credentials template help' => {
+    'lastUpdated' => '1251909991',
+    'message' => 'Dieses Template zeigt dem Benutzer ein Formular zur Eingabe der Zahlungs- und Kreditkarteninformation'
+  },
   'email' => {
     'lastUpdated' => '1236387186',
     'message' => 'E-Mail'

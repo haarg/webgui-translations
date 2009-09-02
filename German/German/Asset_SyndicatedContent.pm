@@ -37,6 +37,14 @@ our $I18N = {
     'lastUpdated' => '1179838422',
     'message' => 'Syndizierte Inhalte'
   },
+  'atom_url' => {
+    'lastUpdated' => '1251910209',
+    'message' => 'Der Inhalt dieses Assets als Atom 0.3 Feed.'
+  },
+  'author' => {
+    'lastUpdated' => '1251910256',
+    'message' => 'Der Herausgeber dieser Meldung'
+  },
   'cache timeout' => {
     'lastUpdated' => '1251056332',
     'message' => 'Cache Timeout'
