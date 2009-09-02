@@ -2,7 +2,7 @@ package WebGUI::i18n::German::Asset_ProjectManager;
 use utf8;
 our $I18N = {
   'N_A' => {
-    'lastUpdated' => 1192797998,
+    'lastUpdated' => '1192797998',
     'message' => 'N/A'
   },
   'add resource popup template body' => {
@@ -14,15 +14,15 @@ our $I18N = {
     'message' => ''
   },
   'add task label' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => '1251860493',
+    'message' => 'Aufgabe hinzufügen'
   },
   'assetExtras' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => '1251860300',
+    'message' => 'URL zum Extras-Verzeichnis des Projektmanagers'
   },
   'assetName' => {
-    'lastUpdated' => 1157905671,
+    'lastUpdated' => '1157905671',
     'message' => 'Projektmanagementsystem'
   },
   'callback' => {
@@ -34,24 +34,24 @@ our $I18N = {
     'message' => ''
   },
   'create project' => {
-    'lastUpdated' => 1225635209,
+    'lastUpdated' => '1225635209',
     'message' => 'Beginne ein neues Projekt'
   },
   'day.number' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => '1251860361',
+    'message' => 'Die Ordinalzahl des Wochentages, ein Integerwert zwischen 1 und 7'
   },
   'days label' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => '1251860404',
+    'message' => 'Tage'
   },
   'days label abbrev' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => '1251860415',
+    'message' => 'Tage'
   },
   'daysLoop' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => '1251860456',
+    'message' => 'Internationalisierte Initiale für Samstag'
   },
   'doingSearch' => {
     'lastUpdated' => undef,
@@ -74,12 +74,12 @@ our $I18N = {
     'message' => ''
   },
   'edit project' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => '1251860528',
+    'message' => 'Projekt bearbeiten'
   },
   'edit task label' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => '1251860542',
+    'message' => 'Aufgabe bearbeiten'
   },
   'edit task template vars title' => {
     'lastUpdated' => undef,
@@ -106,12 +106,12 @@ our $I18N = {
     'message' => ''
   },
   'extras' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => '1251860574',
+    'message' => 'URL zum Extras-Verzeichnis des Projektmanagers'
   },
   'extras.base' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => '1251860596',
+    'message' => 'URL zum Anfang des Extras-Verzeichnisses'
   },
   'form.addGroup.id' => {
     'lastUpdated' => undef,
@@ -226,7 +226,7 @@ our $I18N = {
     'message' => ''
   },
   'friday label' => {
-    'lastUpdated' => 1226873384,
+    'lastUpdated' => '1226873384',
     'message' => 'F'
   },
   'friday.label' => {
@@ -290,7 +290,7 @@ our $I18N = {
     'message' => ''
   },
   'hours label' => {
-    'lastUpdated' => 1226873278,
+    'lastUpdated' => '1226873278',
     'message' => 'Stunden'
   },
   'hours label abbrev' => {
@@ -314,7 +314,7 @@ our $I18N = {
     'message' => ''
   },
   'monday label' => {
-    'lastUpdated' => 1226873497,
+    'lastUpdated' => '1226873497',
     'message' => 'M'
   },
   'monday.label' => {
@@ -406,7 +406,7 @@ our $I18N = {
     'message' => ''
   },
   'project manager asset template variables title' => {
-    'lastUpdated' => 1170408733,
+    'lastUpdated' => '1170408733',
     'message' => 'Projektmanagementsystem Asset Template Variablen<br />'
   },
   'project manager hoverhelp' => {
@@ -650,11 +650,11 @@ our $I18N = {
     'message' => ''
   },
   'saturday label' => {
-    'lastUpdated' => 1226873515,
+    'lastUpdated' => '1226873515',
     'message' => 'S'
   },
   'saturday.label' => {
-    'lastUpdated' => 1226873526,
+    'lastUpdated' => '1226873526',
     'message' => 'S'
   },
   'searchText' => {
@@ -666,11 +666,11 @@ our $I18N = {
     'message' => ''
   },
   'sunday label' => {
-    'lastUpdated' => 1226873534,
+    'lastUpdated' => '1226873534',
     'message' => 'S'
   },
   'sunday.label' => {
-    'lastUpdated' => 1226873539,
+    'lastUpdated' => '1226873539',
     'message' => 'S'
   },
   'target budget hoverhelp' => {
@@ -886,24 +886,24 @@ our $I18N = {
     'message' => ''
   },
   'thursday label' => {
-    'lastUpdated' => 1226873408,
+    'lastUpdated' => '1226873408',
     'message' => 'D'
   },
   'thursday.label' => {
-    'lastUpdated' => 1226873434,
+    'lastUpdated' => '1226873434',
     'message' => 'D'
   },
   'title' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => '1251860674',
+    'message' => 'Eine internationalisierte Meldung um Benutzer oder Gruppen hinzuzufügen.'
   },
   'tuesday label' => {
-    'lastUpdated' => 1226873450,
+    'lastUpdated' => '1226873450',
     'message' => 'D'
   },
   'tuesday.label' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => '1251860726',
+    'message' => 'Internationalisierte Initiale für Dienstag'
   },
   'user add popup foundMessage' => {
     'lastUpdated' => undef,
@@ -930,11 +930,11 @@ our $I18N = {
     'message' => ''
   },
   'wednesday label' => {
-    'lastUpdated' => 1226873466,
+    'lastUpdated' => '1226873466',
     'message' => 'M'
   },
   'wednesday.label' => {
-    'lastUpdated' => 1226873475,
+    'lastUpdated' => '1226873475',
     'message' => 'M'
   }
 }
