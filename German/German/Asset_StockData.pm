@@ -2,8 +2,16 @@ package WebGUI::i18n::German::Asset_StockData;
 use utf8;
 our $I18N = {
   'Last Update' => {
-    'lastUpdated' => '1229992546',
+    'lastUpdated' => '1252020588',
     'message' => 'Letzte Aktualisierung'
+  },
+  'Open' => {
+    'lastUpdated' => '1252020610',
+    'message' => 'Offen'
+  },
+  'Volume' => {
+    'lastUpdated' => '1252020624',
+    'message' => 'Menge'
   },
   'add_button_label' => {
     'lastUpdated' => '1157856495',
