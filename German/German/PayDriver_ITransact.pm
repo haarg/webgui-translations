@@ -98,8 +98,114 @@ our $I18N = {
     'message' => 'Das Verfallsdatum Ihrer Kreditkarte ist überschritten.'
   },
   'extra info' => {
-    'lastUpdated' => '1236388719',
-    'message' => ''
+    'lastUpdated' => '1252266978',
+    'message' => 'Das Einrichten Ihrere E-Commerce-Site ist so einfach wie diese wenigen Schritte:<p>
+<strong>Schritt 1: Get A Merchant Account</strong><br>
+<a target="_blank" href="http://www.itransact.com/info/merchacct.html">Register for a merchant account now to get started processing online transactions.</a>
+</p>
+
+<p>
+<strong>S</strong><span><strong>chritt</strong></span><strong> 2: Set Up Your Merchant Account Info</strong><br>
+See the information toward the bottom of this page to set up your merchant account info.
+</p>
+
+<p>
+<strong>S</strong><span><strong>chritt</strong></span><strong> 3: Get An SSL Certificate</strong><br>
+<a target="_blank" href="http://www.completessl.com/plainblack.php">Get an SSL Certificate from CompleteSSL.</a>
+</p>
+
+<p>
+<strong>S</strong><span><strong>chritt</strong></span><strong> 4: Install The Certificate</strong><br>
+Contact your hosting provider to install your certificate or install it yourself.
+</p>
+
+
+<p>
+<strong>S</strong><span><strong>chritt</strong></span><strong> 5: Enable IP Address</strong><br>
+For added security the system will not allow just anyone to post
+requests to the merchant account. We have to tell the merchant account
+what the IP address of our site (or sites) is. To do this go to your
+virtual terminal and log in. Go to Account Settings &gt; Fraud Control
+&gt; and click on the "IP Filter Settings" link. There enter the IP
+address of your server Set the status to Active and set the module to
+XML, then hit go. Contact your system administrator for your server IP
+address. You\'ll also need to <a href="http://support.paymentclearing.com/">submit a support ticket</a> to let iTransact know that you wish to enable the XML API.
+</p>
+
+<p>
+<strong>S</strong><span><strong>chritt</strong></span><strong> 6: Enable The Commerce System</strong><br>
+Set the enabled field to "Yes" in your WebGUI commerce settings.
+</p>
+
+<p>
+<strong>S</strong><span><strong>chritt</strong></span><strong> 7: Optionally Accept American Express, Discover, and Diners Club</strong><br>
+By default you\'ll only be able to accept MasterCard and Visa. If you want to accept others you\'ll need to follow these steps:
+</p><ol>
+<li>Call the credit card vendor to apply:
+		<ul>
+<li>American Express: (800) 528-5200</li>
+<li>Discover: (800) 347-2000</li>
+<li>Diners Club: (800) 525-7376</li>
+</ul>
+	</li>
+<li><a href="http://support.paymentclearing.com/">Submit the account numbers that you get from those companies in a support ticket.</a> to get them registered with your merchant account.</li>
+<li>Go to your virtual terminal and enable these cards under your Account settings.</li>
+</ol>
+
+
+
+<hr>
+This plugin expects that you set up the following recipe\'s in your
+iTransact account. Be very careful to enter the recipe names exactly as
+given below.<br>
+<table border="0" cellpadding="3" cellspacing="0">
+ <tbody><tr>
+  <td align="right"><strong>weekly</strong></td>
+  <td> -&gt; </td>
+  <td align="left">7 days</td>
+ </tr>
+ <tr>
+  <td align="right"><strong>biweekly</strong></td>
+  <td> -&gt; </td>
+  <td align="left">14 days</td>
+ </tr>
+  <tr>
+  <td align="right"><strong>fourweekly</strong></td>
+  <td> -&gt; </td>
+  <td align="left">28 days</td>
+ </tr>
+ <tr>
+  <td align="right"><strong>monthly</strong></td>
+  <td> -&gt; </td>
+  <td align="left">30 days</td>
+ </tr>
+ <tr>
+  <td align="right"><strong>quarterly</strong></td>
+  <td> -&gt; </td>
+  <td align="left">91 days</td>
+ </tr>
+ <tr>
+  <td align="right"><strong>halfyearly</strong></td>
+  <td> -&gt; </td>
+  <td align="left">182 days</td>
+ </tr>
+ <tr>
+  <td align="right"><strong>yearly</strong></td>
+  <td> -&gt; </td>
+  <td align="left">365 days</td>
+ </tr>
+</tbody></table><br>
+Please note that some of these recipe\'s are only roughly correct. They
+don\'t \'fit\' exactly in a whole year. Below the affected recipe\'s are
+given together with their difference on a year\'s basis. <br>
+<ul>
+<li><strong>monthly</strong> (differs 5 days each year, 6 days each leap year)</li>
+<li><strong>quarterly</strong> (differs 1 day each year, 2 days each leap year)</li>
+<li><strong>halfyearly</strong> (differs 1 day each year, 2 days each leap year)</li>
+<li><strong>yearly</strong> (differs 1 day each leap year)</li>
+</ul>
+<br>
+Also set the \'RECURRING POST-BACK URL\' field in the Account Settings part of the virtual terminal to:'
   },
   'firstName' => {
     'lastUpdated' => '1236387349',
