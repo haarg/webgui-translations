@@ -50,8 +50,12 @@ our $I18N = {
     'message' => 'Abfrage'
   },
   '4 description' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => '1252275221',
+    'message' => 'Dies ist eine Standard-SQL-Abfrage. Wenn Sie SQL nicht beherrschen, sollten Sie dieses WObject nicht benutzen.
+
+Ein Fragezeichen ? in einer Abfrage repräsentiert einen Platzhalter. Beachten Sie, dass das ? nicht von Anführungszeichen umschlossen ist, auch nicht, wenn der Platzhalter einen String repräsentiert.
+
+Die erlaubten Schlüsselworte werden in den Datenbank-Link-Eingenschaften definiert. Die erlaubten Schlüsselworte für die WebGUI-Datenbank sind SELECT, DESCRIBE und SHOW.'
   },
   72 => {
     'lastUpdated' => '1225586769',
@@ -66,28 +70,32 @@ our $I18N = {
     'message' => 'SQL Report bearbeiten'
   },
   'Add another query' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => '1252275259',
+    'message' => 'Eine weitere Abfrage hinzufügen'
+  },
+  'Download this data' => {
+    'lastUpdated' => '1252275275',
+    'message' => 'Diese Daten herunterladen'
   },
   'Placeholder Parameters' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => '1252275287',
+    'message' => 'Platzhalterparameter'
   },
   'Placeholder Parameters description' => {
     'lastUpdated' => undef,
     'message' => ''
   },
   'Prequery error' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => '1252275338',
+    'message' => '<strong>Debug:</strong> in einer Vorabfrage trat ein Fehler auf'
   },
   'Prequery not allowed' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => '1252275376',
+    'message' => '<strong>Debug:</strong> Vorabfrage-Anweisung ist nicht gestattet:'
   },
   'Prequery statements' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => '1252275391',
+    'message' => 'Vorabfrageanweisung'
   },
   'Prequery statements description' => {
     'lastUpdated' => undef,
@@ -98,76 +106,76 @@ our $I18N = {
     'message' => 'SQL-Report<br />'
   },
   'cache timeout' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => '1252275424',
+    'message' => 'Cache Timeout'
   },
   'cache timeout description' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => '1252275469',
+    'message' => 'Wie lange sollen die Ergebnisse der Abfrage gecachet werden, bevor Sie erneut abgefragt werden?'
   },
   'cacheTimeout' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => '1252276549',
+    'message' => 'Wie viele Sekunden die Ausgabe gecachet wird.'
   },
   'column.name' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => '1252276583',
+    'message' => 'Der Spaltenname, den die Abfrage zurückliefert.'
   },
   'column.number' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => '1252276645',
+    'message' => 'Ein Integerwert, der die Spaltenanzahl bei 1 beginnend zählt.'
   },
   'columns_loop' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => '1252276677',
+    'message' => 'Eine Schleife, die Informationen über jede Spalte enthält.'
   },
   'databaseLinkId1' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => '1252276747',
+    'message' => 'Ein Bezeichner, der beschreibt, auf welche Datenbank die erste Abfrage angewandt wird.'
   },
   'databaseLinkId2' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => '1252276759',
+    'message' => 'Ein Bezeichner, der beschreibt, auf welche Datenbank die zweite Abfrage angewandt wird.'
   },
   'databaseLinkId3' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => '1252276771',
+    'message' => 'Ein Bezeichner, der beschreibt, auf welche Datenbank die dritte Abfrage angewandt wird.'
   },
   'databaseLinkId4' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => '1252276782',
+    'message' => 'Ein Bezeichner, der beschreibt, auf welche Datenbank die vierte Abfrage angewandt wird.'
   },
   'databaseLinkId5' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => '1252276793',
+    'message' => 'Ein Bezeichner, der beschreibt, auf welche Datenbank die fünfte Abfrage angewandt wird.'
   },
   'dbQuery1' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => '1252276815',
+    'message' => 'Die erste Datenbankabfrage.'
   },
   'dbQuery2' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => '1252276824',
+    'message' => 'Die zweite Datenbankabfrage.'
   },
   'dbQuery3' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => '1252276834',
+    'message' => 'Die dritte Datenbankabfrage.'
   },
   'dbQuery4' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => '1252276845',
+    'message' => 'Die vierte Datenbankabfrage.'
   },
   'dbQuery5' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => '1252276856',
+    'message' => 'Die fünfte Datenbankabfrage.'
   },
   'debug placeholder parameters' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => '1252276877',
+    'message' => '<strong>Debug:</strong> Processed Placeholder parameters:'
   },
   'debugMode' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => '1252277097',
+    'message' => 'Eine Bedingung, die anzeigt, ob der SQL-Report in seiner Ausgabe Debug-Informationen enthalten kann.'
   },
   'download filename' => {
     'lastUpdated' => undef,
