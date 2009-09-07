@@ -861,6 +861,18 @@ our $I18N = {
     'lastUpdated' => '1252323814',
     'message' => 'Die angezeigte ID dieser Sektion/Frage/Antwort'
   },
+  'do after timelimit hoverHelp' => {
+    'lastUpdated' => '1252324752',
+    'message' => 'Wählen was geschehen soll, wenn das Zeitlimit für das Beenden der Umfrage überschritten ist.'
+  },
+  'do after timelimit label' => {
+    'lastUpdated' => '1252324770',
+    'message' => 'Nach dem Zeitlimit tun:'
+  },
+  'dualSlider' => {
+    'lastUpdated' => '1252324809',
+    'message' => 'Ein boolscher Wert der anzeigt, dass es sich um eine Frage vom Typ dualSlider handelt.'
+  },
   'duration.label' => {
     'lastUpdated' => '1178877288',
     'message' => 'Der Standard Label für die Dauer.'
@@ -881,6 +893,22 @@ our $I18N = {
     'lastUpdated' => '1178877444',
     'message' => 'Ein Label für "Sekunden".'
   },
+  'edit survey' => {
+    'lastUpdated' => '1252324820',
+    'message' => 'Umfrage bearbeiten.'
+  },
+  'edit test' => {
+    'lastUpdated' => '1252325595',
+    'message' => 'Test bearbeiten'
+  },
+  'edit_survey_url' => {
+    'lastUpdated' => '1252325613',
+    'message' => 'URL zur Umfrage-Bearbeiten-Seite'
+  },
+  'end date' => {
+    'lastUpdated' => '1252325620',
+    'message' => 'Enddatum'
+  },
   'end.date.epoch' => {
     'lastUpdated' => '1179731527',
     'message' => 'Datum, an dem der Benutzer die Benutzerantwort abgeschlossen hat, im &quot;epoch&quot; Format.'
@@ -896,6 +924,18 @@ our $I18N = {
   'end.time.human' => {
     'lastUpdated' => '1179731691',
     'message' => 'Zeitpunkt, an dem der Benutzer die Benutzerantwort abgeschlossen hat, im "human readable" Format.'
+  },
+  'everyPageText' => {
+    'lastUpdated' => '1252325653',
+    'message' => 'Ein boolscher Wert der anzeigt, ob der Text auf jeder Seite der Sektion angezeigt werden soll.'
+  },
+  'everyPageTitle' => {
+    'lastUpdated' => '1252325683',
+    'message' => 'ein boolscher Wert der anzeigt, ob der Titel auf jeder Seite dieser Sektion angezeigt werden soll.'
+  },
+  'exit url label' => {
+    'lastUpdated' => '1252325697',
+    'message' => 'Exit URL'
   },
   'export.answers.label' => {
     'lastUpdated' => '1179731712',
@@ -929,6 +969,18 @@ our $I18N = {
     'lastUpdated' => '1179732051',
     'message' => 'Url, die eine Datei erzeugt, die alle Benutzerantworten zu den Fragen dieser Umfrage enthält. Einzelne Felder durch Tabulatoren voneinander getrennt.'
   },
+  'fail' => {
+    'lastUpdated' => '1252325709',
+    'message' => 'Fail '
+  },
+  'fileLoader' => {
+    'lastUpdated' => '1252325741',
+    'message' => 'Ein boolscher Wert der anzeigt, dass dies eine Frage vom Typ fileLoader ist.'
+  },
+  'finish' => {
+    'lastUpdated' => '1252325748',
+    'message' => 'Fertig'
+  },
   'form.footer' => {
     'lastUpdated' => '1179732101',
     'message' => 'Erforderliche Formularelemente, die nach den Fragen der Umfrage angezeigt werden.'
@@ -941,9 +993,17 @@ our $I18N = {
     'lastUpdated' => '1179732176',
     'message' => 'Die Standard Abschicken (Submit) Schaltfläche für die Benutzerantwort der Umfrage.'
   },
+  'generate' => {
+    'lastUpdated' => '1252325754',
+    'message' => 'Generieren'
+  },
   'goto' => {
     'lastUpdated' => '1238878718',
     'message' => 'Der Abschnitt oder die Frage mit diesem Namen wird als Nächstes nach dieser Frage oder diesem Abschnitt angezeigt.'
+  },
+  'gradebook report template title' => {
+    'lastUpdated' => '1252325763',
+    'message' => 'Survey Gradebook Report Template '
   },
   'gradebook template' => {
     'lastUpdated' => '1179732188',
@@ -965,17 +1025,112 @@ our $I18N = {
     'lastUpdated' => '1179732365',
     'message' => 'Die ID der Gruppe, die die Reports der Umfrage ansehen darf.'
   },
+  'hidden' => {
+    'lastUpdated' => '1252325794',
+    'message' => 'Ein boolscher Wert der anzeigt, dass diese Frage vom Typ "versteckt" ist.'
+  },
+  'id' => {
+    'lastUpdated' => '1252325812',
+    'message' => 'Die ID dieser Sektion/Frage/Antwort'
+  },
   'index' => {
     'lastUpdated' => '1238833105',
     'message' => 'Nummer dieser Frage innerhalb dieses Abschnitts'
+  },
+  'is this the correct answer' => {
+    'lastUpdated' => '1252325826',
+    'message' => 'Ist dies die richtige Antwort'
+  },
+  'is this the correct answer description' => {
+    'lastUpdated' => '1252325845',
+    'message' => 'Wählen Sie, ob dies die richtige Antwort ist.'
+  },
+  'isCorrect' => {
+    'lastUpdated' => '1252325863',
+    'message' => 'Ein boolscher Wert der anzeigt, ob die Antwort richtig ist.'
+  },
+  'isLastPage' => {
+    'lastUpdated' => '1252325886',
+    'message' => 'Ein boolscher Wert der anzeigt, ob dies die letzte Seite der Umfrage ist.'
+  },
+  'jump expression' => {
+    'lastUpdated' => '1252325915',
+    'message' => 'Jump expression: '
+  },
+  'jump expression description' => {
+    'lastUpdated' => '1252326008',
+    'message' => 'Ein Ausdruck, der benutzt wird um komplexe Verzweigungen aufgrund vorheriger Anworten zu kontrollieren. Wird ignoriert bis enableSurveyExpressionEngine in der Site-Konfigdatei aktiviert ist.'
+  },
+  'jump to' => {
+    'lastUpdated' => '1252326017',
+    'message' => 'Springe zu:'
+  },
+  'jump to description' => {
+    'lastUpdated' => '1252326050',
+    'message' => 'Die Sektion oder Frage mit diesem Variablenname wird als nächstes nach dieser Antwort angezeigt.'
+  },
+  'lastResponseFeedback help' => {
+    'lastUpdated' => '1252326077',
+    'message' => 'Der Antwort-Feedback-Text als Template'
+  },
+  'logical section' => {
+    'lastUpdated' => '1252326084',
+    'message' => 'Logische Sektion'
+  },
+  'logical section help' => {
+    'lastUpdated' => '1252326128',
+    'message' => 'Eine logische Sektion oder ihre Fragen werden nie angezeigt. Sie werden benutzt um Sprungbefehle verdeckt umzusetzen.'
+  },
+  'max' => {
+    'lastUpdated' => '1252326161',
+    'message' => 'Der Höchstwert für diese Antwort bei Fragen vom Typ Slider.'
+  },
+  'max description' => {
+    'lastUpdated' => '1252326226',
+    'message' => 'Der numerische Höchstwert der für die Antwort (bei Fragen vom Typ Nummer und Slider) erlaubt ist.  Leer lassen, wenn kein Höchstwert erzwungen werden soll.'
+  },
+  'max label' => {
+    'lastUpdated' => '1252326234',
+    'message' => 'Max'
+  },
+  'maxAnswers' => {
+    'lastUpdated' => '1252326256',
+    'message' => 'Die Höchstzahl an Antworten, die auf diese Frage zulässig sind.'
+  },
+  'maxMoreOne' => {
+    'lastUpdated' => '1252326307',
+    'message' => 'Ein boolscher Wert, der anzeigt dass die Höchstzahl an zulässigen Antworten für diese Frage größer 1 ist.'
   },
   'maxResponsesPerUser' => {
     'lastUpdated' => '1250931445',
     'message' => 'Wie oft darf ein Benutzer auf eine einzelne Frage eine Antwort geben (Anzahl Fehlversuche pro Antwort). Standard ist 1.'
   },
+  'maxResponsesSubmitted' => {
+    'lastUpdated' => '1252326350',
+    'message' => 'Ein boolscher Wert der anzeigt, ob der aktuelle Benutzer die Maximalzahl an Antworten erreicht hat.'
+  },
+  'maximum number of answers' => {
+    'lastUpdated' => '1252326363',
+    'message' => 'Maximalzahl an Antworten:'
+  },
+  'maximum number of answers description' => {
+    'lastUpdated' => '1252326425',
+    'message' => 'Wie viele Antworten bei Multiple-Choice-Fragen gewählt werden können:
+0 = unbegrenzt
+1 = Als Radio-Button
+2 und größer = als Checkbox'
+  },
   'min' => {
     'lastUpdated' => '1238832687',
     'message' => 'Der Minalwert dieser Antwort bei Fragen vom Type "Schieber"'
+  },
+  'min description' => {
+    'lastUpdated' => '1252326505',
+    'message' => 'Der numerische Mindestwert der für die Antwort (bei Fragen vom Typ Nummer und Slider) erlaubt ist.  Leer lassen, wenn keine Mindestanzahl erzwungen werden soll.'
+  },
+  'min label' => {
+    'lastUpdated' => '1252326512',
+    'message' => 'Min '
   },
   'minutesLeft' => {
     'lastUpdated' => '1251910579',
@@ -993,6 +1148,10 @@ our $I18N = {
     'lastUpdated' => '1251910548',
     'message' => 'Monat:'
   },
+  'multipleChoice' => {
+    'lastUpdated' => '1252326533',
+    'message' => 'Ein boolscher Wert der anzeigt, dass dies eine Multiple-Choice-Frage ist.'
+  },
   'no' => {
     'lastUpdated' => '1238832697',
     'message' => 'Nein'
@@ -1009,6 +1168,26 @@ our $I18N = {
     'lastUpdated' => '1179732888',
     'message' => 'Die ID des Templates für die Anzeige der Übersicht.'
   },
+  'pass' => {
+    'lastUpdated' => '1252326549',
+    'message' => 'Auslassen'
+  },
+  'percentage label' => {
+    'lastUpdated' => '1252326555',
+    'message' => 'Prozent'
+  },
+  'please enter answer information' => {
+    'lastUpdated' => '1252326630',
+    'message' => 'Bitte Antwort-Information eingeben:'
+  },
+  'please enter question information' => {
+    'lastUpdated' => '1252326634',
+    'message' => 'Bitte Frage-Information eingeben:'
+  },
+  'please enter section information' => {
+    'lastUpdated' => '1252326640',
+    'message' => 'Bitte Sektions-Information eingeben:'
+  },
   'question' => {
     'lastUpdated' => '1238673461',
     'message' => 'Frage'
@@ -1017,17 +1196,45 @@ our $I18N = {
     'lastUpdated' => '1238673856',
     'message' => 'Fragenummer'
   },
+  'question number description' => {
+    'lastUpdated' => '1252326620',
+    'message' => 'Die Nummer dieser Frage'
+  },
+  'question score' => {
+    'lastUpdated' => '1252326650',
+    'message' => 'Frage-Wert:'
+  },
+  'question score description' => {
+    'lastUpdated' => '1252326687',
+    'message' => 'Standardwert für Antworten auf diese Frage, wenn keine Antwort-Wert definiert ist.'
+  },
   'question text' => {
     'lastUpdated' => '1238832707',
     'message' => 'Fragetext'
+  },
+  'question text description' => {
+    'lastUpdated' => '1252326704',
+    'message' => 'Geben Sie einen Text für diese Frage ein'
   },
   'question type' => {
     'lastUpdated' => '1238879334',
     'message' => 'Fragentyp:'
   },
+  'question type description' => {
+    'lastUpdated' => '1252326716',
+    'message' => 'Wählen Sie den Feldtyp der Frage'
+  },
   'question value' => {
     'lastUpdated' => '1238878765',
     'message' => 'Wert der Frage'
+  },
+  'question variable name' => {
+    'lastUpdated' => '1252326730',
+    'message' => 'Fragen-Variablenname'
+  },
+  'question variable name description' => {
+    'lastUpdated' => '1252326804',
+    'message' => 'Geben Sie einen Variablenanmen ein, um diese Frage zu indentifizieren, dass er als Sprungvariable in einer anderen Sektion angegeben werden kann.'
   },
   'question.add.label' => {
     'lastUpdated' => '1179733393',
@@ -1109,6 +1316,10 @@ our $I18N = {
     'lastUpdated' => '1238832638',
     'message' => 'Eine Schleife, die die mögliche Fragetypen enthält'
   },
+  'question_allowComment' => {
+    'lastUpdated' => '1252326834',
+    'message' => 'Ein boolscher Wert der anzeigt, ob Kommentare zu dieser Frage erlaubt sind.'
+  },
   'question_count' => {
     'lastUpdated' => '1238673894',
     'message' => 'Die Anzahl der Fragen in diesem Fragebogen.'
@@ -1117,9 +1328,17 @@ our $I18N = {
     'lastUpdated' => '1238878781',
     'message' => 'Die ID dieser Frage'
   },
+  'question_isMultipleChoice' => {
+    'lastUpdated' => '1252326858',
+    'message' => 'Ein boolscher Wert der anzeigt, ob dies eine Multiple-Choice-Frage ist.'
+  },
   'question_loop' => {
     'lastUpdated' => '1179737740',
     'message' => 'Eine Schleife, die die Fragen dieser Umfrage Benutzerantwort enthält.'
+  },
+  'question_response_total' => {
+    'lastUpdated' => '1252326876',
+    'message' => 'Die Gesamtzahl an Antworten auf diese Frage'
   },
   'questions' => {
     'lastUpdated' => '1238673835',
@@ -1129,9 +1348,17 @@ our $I18N = {
     'lastUpdated' => '1238674059',
     'message' => 'Fragen in diesem Abschnitt:'
   },
+  'questions on section page description' => {
+    'lastUpdated' => '1252326923',
+    'message' => 'Ob die Fragen auf der Initialseite oder der Folgeseite dieser Sektion angezeigt werden.'
+  },
   'questions per page' => {
     'lastUpdated' => '1238878796',
     'message' => 'Anzahl Fragen pro Seite'
+  },
+  'questions per page description' => {
+    'lastUpdated' => '1252326942',
+    'message' => 'Die Anzahl Frage, die pro Seite angezeigt werden.'
   },
   'questions.correct.count' => {
     'lastUpdated' => '1179737950',
@@ -1181,6 +1408,18 @@ our $I18N = {
     'lastUpdated' => '1238673956',
     'message' => 'Antworte willkürig ordnen'
   },
+  'randomize answers description' => {
+    'lastUpdated' => '1252329753',
+    'message' => 'Wenn auf "Ja" werden die Antworten für jeden Nutzer neu gemischt.'
+  },
+  'randomize questions' => {
+    'lastUpdated' => '1252329717',
+    'message' => 'Fragen zufällig:'
+  },
+  'randomize questions description' => {
+    'lastUpdated' => '1252329742',
+    'message' => 'Wenn "Ja" werden die Fragen für jeden Nutzer neu gemischt.'
+  },
   'randomizeAnswers' => {
     'lastUpdated' => '1238879271',
     'message' => 'Ein Wert, der angibt ob die Antwortmöglichkeiten in willkürlicher Reihenfolge angezeigt werden sollten.'
@@ -1189,9 +1428,21 @@ our $I18N = {
     'lastUpdated' => '1238674008',
     'message' => 'Angabe ob die Reihenfolge der Fragen at willkürig sein soll.'
   },
+  'randomized words' => {
+    'lastUpdated' => '1252329767',
+    'message' => 'Worte zufällig:'
+  },
   'recorded answer' => {
     'lastUpdated' => '1238878840',
     'message' => 'Antwort-Titel:'
+  },
+  'recorded answer description' => {
+    'lastUpdated' => '1252329930',
+    'message' => 'Bestimmt was als Antwortwert gespeichert wird, wenn diese Antwort gewählt wurde. Damit können Antworte rekodiert werden, z.B: "Ja" als "1" und "Nein" als "0". Nur bei Multiple-Choice-Fragen relevant. Bei anderen Fragetypen wird die Nutzer-Eingabe gespeichert. Freitext, ausgewähltes Datum, usw.'
+  },
+  'recordedAnswer' => {
+    'lastUpdated' => '1252330042',
+    'message' => 'Die Antwort, die in der Datenbank gespeichert wird. Nur bei Multiple-Choice-Fragen relevant, bei denen die Antwort anders als angezeigt gespeichert werden kann, z.B. "Ja" als "1" und "Nein" als "0".'
   },
   'report answer.label' => {
     'lastUpdated' => '1179738133',
@@ -1225,6 +1476,42 @@ our $I18N = {
     'lastUpdated' => '1238674166',
     'message' => 'Angabe, ob die Bearbeitung dieser Frage erforderlich ist.'
   },
+  'required description' => {
+    'lastUpdated' => '1252330058',
+    'message' => 'Ist dies eine Pflichtfrage?'
+  },
+  'required label' => {
+    'lastUpdated' => '1252330066',
+    'message' => 'Pflicht'
+  },
+  'response complete' => {
+    'lastUpdated' => '1252330085',
+    'message' => 'Umfrageanworten vollständig'
+  },
+  'response complete help' => {
+    'lastUpdated' => '1252330113',
+    'message' => 'Ein boolscher Wert der anzeigt, ob die Umfragenantworten komplett sind.'
+  },
+  'response count label' => {
+    'lastUpdated' => '1252330119',
+    'message' => 'Antworten'
+  },
+  'response endDate help' => {
+    'lastUpdated' => '1252330157',
+    'message' => 'Lokalisierte Datum/Zeit Angabe zum Endzeitpunkt der Beantwortung'
+  },
+  'response percent label' => {
+    'lastUpdated' => '1252330163',
+    'message' => 'Prozent'
+  },
+  'response restart' => {
+    'lastUpdated' => '1252330177',
+    'message' => 'Umfrageantworten neu gestartet'
+  },
+  'response restart help' => {
+    'lastUpdated' => '1252330206',
+    'message' => 'Ein boolscher Wert der anzeigt, ob die Umfrageantworten neu gestartet wurden.'
+  },
   'response template' => {
     'lastUpdated' => '1179740728',
     'message' => 'Benutzerantwort Template'
@@ -1232,6 +1519,22 @@ our $I18N = {
   'response template description' => {
     'lastUpdated' => '1179740765',
     'message' => 'Dieses Template wird zur Anzeige der Fragen und Antworten benutzt.'
+  },
+  'response timeout' => {
+    'lastUpdated' => '1252330223',
+    'message' => 'Umfrageantworten Timeout'
+  },
+  'response timeout help' => {
+    'lastUpdated' => '1252330258',
+    'message' => 'Ein boolscher Wert der anzeigt, ob die Zeit für Umfrageantworten überschritten wurde.'
+  },
+  'response timeout restart' => {
+    'lastUpdated' => '1252330278',
+    'message' => 'Umfrageantworten wegen Zeitüberschreitung neu gestartet.'
+  },
+  'response timeout restart help' => {
+    'lastUpdated' => '1252330318',
+    'message' => 'Ein boolscher Wert der anzeigt, ob die Umfrageantworten wegen Zeitüberschreitung neu gestartet wurden'
   },
   'response.count' => {
     'lastUpdated' => '1179740802',
@@ -1277,9 +1580,33 @@ our $I18N = {
     'lastUpdated' => '1179741097',
     'message' => 'Der Benutzername des Benutzers, der die Benutzerantwort gegeben hat.'
   },
+  'responseId help' => {
+    'lastUpdated' => '1252330338',
+    'message' => 'Die eindeutige GUID für die Antwort'
+  },
   'responseTemplateId' => {
     'lastUpdated' => '1179741154',
     'message' => 'Die ID des Templates, das für die Anzeige des Bildschirms f&uuml;r die Benutzerantwort benutzt wird.'
+  },
+  'response_count_correct' => {
+    'lastUpdated' => '1252330363',
+    'message' => 'Die Gesamtzahl richtiger Antworten des Nutzers'
+  },
+  'response_endDate' => {
+    'lastUpdated' => '1252330378',
+    'message' => 'Das Enddatum der Antworten'
+  },
+  'response_feedback_url' => {
+    'lastUpdated' => '1252330397',
+    'message' => 'URL zur individuellen Antwort-Feedback-Seite'
+  },
+  'response_id' => {
+    'lastUpdated' => '1252330413',
+    'message' => 'Die eindeutige ID dieser Antwort'
+  },
+  'response_ip' => {
+    'lastUpdated' => '1252330443',
+    'message' => 'Die IP-Adresse des Nutzers, der die Antwort vervollständigt hat.'
   },
   'response_loop' => {
     'lastUpdated' => '1179741180',
@@ -1289,13 +1616,57 @@ our $I18N = {
     'lastUpdated' => '1238879185',
     'message' => 'Anzahl der richtig beantwortete Fragen'
   },
+  'response_startDate' => {
+    'lastUpdated' => '1252330453',
+    'message' => 'Startzeit der Antwort'
+  },
+  'response_userId' => {
+    'lastUpdated' => '1252330484',
+    'message' => 'Die userId des Benutzers, der die Frage verfollständigt hat'
+  },
+  'response_user_name' => {
+    'lastUpdated' => '1252330511',
+    'message' => 'Der Benutzername des Nutzers der diese Antwort gab'
+  },
+  'restart message' => {
+    'lastUpdated' => '1252330566',
+    'message' => 'Die Umfrage wurde neu gestartet, weil das Zeitlimit für das Beenden der Umfrage erreicht war.'
+  },
   'restart survey label' => {
     'lastUpdated' => '1238832587',
     'message' => 'Fragebogen erneut bearbeiten.'
   },
+  'rows description' => {
+    'lastUpdated' => '1252330605',
+    'message' => 'Die Zeilenanzahl des Eingabefeldes (für Fragetyp TextArea)'
+  },
+  'run all tests' => {
+    'lastUpdated' => '1252330615',
+    'message' => 'Alle Tests ausführen'
+  },
+  'run test' => {
+    'lastUpdated' => '1252330622',
+    'message' => 'Test ausführen'
+  },
   'score label' => {
     'lastUpdated' => '1238879114',
     'message' => 'Score'
+  },
+  'section branch goto variable name' => {
+    'lastUpdated' => '1252330650',
+    'message' => 'Springe zu:'
+  },
+  'section branch goto variable name description' => {
+    'lastUpdated' => '1252330685',
+    'message' => 'Sektion oder Frage mit diesem Variablennamen wird nach dieser Sektion als nächstes angezeigt'
+  },
+  'section custom variable name' => {
+    'lastUpdated' => '1252330699',
+    'message' => 'Sektionsvariablenname:'
+  },
+  'section custom variable name description' => {
+    'lastUpdated' => '1252330756',
+    'message' => 'Geben Sie einen Varibalennamen zur Identifizierung dieser Sektion an, so dass er als Sprungziel in einer anderen Sektion angegeben werden kann'
   },
   'section name' => {
     'lastUpdated' => '1238832291',
@@ -1353,6 +1724,22 @@ our $I18N = {
     'lastUpdated' => '1238832523',
     'message' => 'Angabe, ob dieser Fragetyp selektiert wurde'
   },
+  'show comments label' => {
+    'lastUpdated' => '1252330771',
+    'message' => 'Kommentare ansehen'
+  },
+  'show responses label' => {
+    'lastUpdated' => '1252330799',
+    'message' => 'Antworten ansehen'
+  },
+  'show text in button' => {
+    'lastUpdated' => '1252330915',
+    'message' => 'Zeige Text im Button:'
+  },
+  'show text in button description' => {
+    'lastUpdated' => '1252330997',
+    'message' => 'Standardmäßig zeigen die Buttons bei Multiple-Choice-Fragen die Antworten über jedem Button. Ändern Sie diese Einstellung erscheint der Text innerhalb des Buttons.'
+  },
   'show.comments.label' => {
     'lastUpdated' => '1179741494',
     'message' => 'Das Standard Label, das Kommentare anzeigt.'
@@ -1369,9 +1756,17 @@ our $I18N = {
     'lastUpdated' => '1238879088',
     'message' => 'Angabe ob die Anzahl der verfügbaren Minuten bis zum Ablauf der Befragung angezeigt werden soll.'
   },
+  'sid' => {
+    'lastUpdated' => '1252331013',
+    'message' => 'Die Sektions-ID dieser Frage'
+  },
   'slider' => {
     'lastUpdated' => '1238832350',
     'message' => 'Angabe, ob die Frage vom Typ "Schieber" ist.'
+  },
+  'start date' => {
+    'lastUpdated' => '1252331021',
+    'message' => 'Startzeit'
   },
   'start.date.epoch' => {
     'lastUpdated' => '1179741551',
@@ -1397,9 +1792,17 @@ our $I18N = {
     'lastUpdated' => '1179741753',
     'message' => 'Zeitpunkt, an dem der Benutzer die Benutzerantwort begonnen hat, im &quot;human-readable&quot; Format.'
   },
+  'statistical overview template title' => {
+    'lastUpdated' => '1252331034',
+    'message' => 'Survey Statistical Overview Report Template'
+  },
   'step' => {
     'lastUpdated' => '1238832266',
     'message' => 'Schrittgröße dieser Antwort zur Frage des Typs "Schieber"'
+  },
+  'step description' => {
+    'lastUpdated' => '1252331118',
+    'message' => 'Schrittweite, das numerische Intervall zwischen zwei Werten (Fragetyp Nummer und Slider). Leer lassen, wenn Sie keine Schrittweite erzwingen wollen.'
   },
   'step label' => {
     'lastUpdated' => '1250931474',
@@ -1409,13 +1812,61 @@ our $I18N = {
     'lastUpdated' => '1238673787',
     'message' => 'Absenden'
   },
+  'survey answer edit template title' => {
+    'lastUpdated' => '1252331142',
+    'message' => 'Umfrageantwort Bearbeiten-Template'
+  },
   'survey asset template variables title' => {
     'lastUpdated' => '1179741769',
     'message' => 'Umfrage Asset Template Variablen'
   },
+  'survey feedback template body' => {
+    'lastUpdated' => '1252331222',
+    'message' => 'Alle Daten die als Umfrageausdrücken codiert sind, stehen auch als Templatevariable zur Verfügung.'
+  },
+  'survey feedback template variables title' => {
+    'lastUpdated' => '1252332601',
+    'message' => 'Survey Feedback Template Variable'
+  },
+  'survey question edit template title' => {
+    'lastUpdated' => '1252332608',
+    'message' => 'Survey Question Edit Template '
+  },
+  'survey questions template title' => {
+    'lastUpdated' => '1252332618',
+    'message' => 'Survey Questions Template'
+  },
+  'survey section edit template title' => {
+    'lastUpdated' => '1252332626',
+    'message' => 'Survey Section Edit Template'
+  },
   'survey template' => {
     'lastUpdated' => '1238832378',
     'message' => 'Vorlage Fragebogen'
+  },
+  'survey template common vars title' => {
+    'lastUpdated' => '1252332635',
+    'message' => 'Survey Template Common Vars'
+  },
+  'survey template help' => {
+    'lastUpdated' => '1252332657',
+    'message' => 'Template um die Hauptseite der Umfrage anzuzeigen'
+  },
+  'survey template title' => {
+    'lastUpdated' => '1252332668',
+    'message' => 'Umfragetemplate'
+  },
+  'survey test results template body' => {
+    'lastUpdated' => '1252332707',
+    'message' => 'Alle TAP::Parser und TAP::Parser::Result-Felder stehen als Templatevariable zur Verfügung'
+  },
+  'survey test results template title' => {
+    'lastUpdated' => '1252332799',
+    'message' => 'Survey Test Results Template Variables '
+  },
+  'survey visualization' => {
+    'lastUpdated' => '1252332810',
+    'message' => 'Umfragevisualisierung'
   },
   'survey.label' => {
     'lastUpdated' => '1179741789',
@@ -1430,12 +1881,88 @@ our $I18N = {
     'message' => 'URL zur Anzeige der Umfrage. Meist, um nach der Anzeige des Reports zurück zur Umfrage zu gelangen.'
   },
   'take survey' => {
-    'lastUpdated' => '1238673756',
-    'message' => 'Fragebogen bearbeiten'
+    'lastUpdated' => '1252332379',
+    'message' => 'Umfrage starten'
+  },
+  'take_survey_url' => {
+    'lastUpdated' => '1252332400',
+    'message' => 'URL zur Umfragestartseite'
   },
   'templateId' => {
     'lastUpdated' => '1238832187',
     'message' => 'Die ID des Templates, das zur Anzeige des Fragebogens benutzt wird.'
+  },
+  'terminal' => {
+    'lastUpdated' => '1252332837',
+    'message' => 'Ein boolscher wert der anzeigt, ob dies ein Schlusssektion ist'
+  },
+  'terminal section' => {
+    'lastUpdated' => '1252332850',
+    'message' => 'Schlusssektion:'
+  },
+  'terminal section description' => {
+    'lastUpdated' => '1252332866',
+    'message' => 'Ist die die Schlusssektion der Umfrage?'
+  },
+  'terminal section url' => {
+    'lastUpdated' => '1252332879',
+    'message' => 'URL Schlusssektion:'
+  },
+  'terminal section url description' => {
+    'lastUpdated' => '1252332942',
+    'message' => 'Dieser URL wird nach dieser Sektion angezeigt. Die Schlussektionseinstellung einer Frage überschreibt die terminalUrl-Einstellung dieser Sektion.'
+  },
+  'terminalUrl' => {
+    'lastUpdated' => '1252332973',
+    'message' => 'URL zu der die Umfrage umleitet, wenn dies eine Schlusssektion ist.'
+  },
+  'test name' => {
+    'lastUpdated' => '1252332981',
+    'message' => 'Testname'
+  },
+  'test name help' => {
+    'lastUpdated' => '1252332995',
+    'message' => 'Ein beschreibender Name für den Test'
+  },
+  'test result' => {
+    'lastUpdated' => '1252333005',
+    'message' => 'Testergebnis'
+  },
+  'test results' => {
+    'lastUpdated' => '1252333012',
+    'message' => 'Testergebnisse'
+  },
+  'test results template' => {
+    'lastUpdated' => '1252333028',
+    'message' => 'Testergebnis-Template'
+  },
+  'test results template help' => {
+    'lastUpdated' => '1252333067',
+    'message' => 'Template zur Anzeige individueller Tests und aggregierter Testergebnisse'
+  },
+  'test spec' => {
+    'lastUpdated' => '1252332786',
+    'message' => 'Test Spec'
+  },
+  'test spec help' => {
+    'lastUpdated' => '1252332779',
+    'message' => 'Die JSON-kodierte Spezifikation für Ihre Tests'
+  },
+  'test suite' => {
+    'lastUpdated' => '1252332748',
+    'message' => 'Test Suite'
+  },
+  'tests failed' => {
+    'lastUpdated' => '1252332742',
+    'message' => 'Tests nicht bestanden'
+  },
+  'tests passed' => {
+    'lastUpdated' => '1252332730',
+    'message' => 'Tests bestanden'
+  },
+  'tests run' => {
+    'lastUpdated' => '1252332717',
+    'message' => 'Tests ausführen'
   },
   'text' => {
     'lastUpdated' => '1238673492',
@@ -1457,6 +1984,22 @@ our $I18N = {
     'lastUpdated' => '1250931496',
     'message' => 'Anzahl der Spalten für Fragen des Typs "Textbereich"'
   },
+  'textCols label' => {
+    'lastUpdated' => '1252332424',
+    'message' => 'TextArea Spalten'
+  },
+  'textInButton' => {
+    'lastUpdated' => '1252332570',
+    'message' => 'Ein boolscher Wert der anzeigt, ob die Antworten bei Multiple-Choice-Fragen über oder innerhalb des Buttons stehen'
+  },
+  'textRows' => {
+    'lastUpdated' => '1252332467',
+    'message' => 'Zeilenzahl für TextArea-Fragen'
+  },
+  'textRows label' => {
+    'lastUpdated' => '1252332438',
+    'message' => 'TextArea Zeilen'
+  },
   'textType' => {
     'lastUpdated' => '1238832057',
     'message' => 'Angabe ob diese Frage vom Typ "Text" ist.'
@@ -1473,6 +2016,10 @@ our $I18N = {
     'lastUpdated' => '1238673705',
     'message' => 'Zeitlimit'
   },
+  'timelimit hoverHelp' => {
+    'lastUpdated' => '1252332339',
+    'message' => 'Wie viele Minuten stehen dem Nutzer zum Abschließen dieser Umfrage vom Startzeitpunkt aus zur Verfügung. 0 bedeutet unbegrenzt.'
+  },
   'title' => {
     'lastUpdated' => '1178870111',
     'message' => 'Der Standardname für diesen Report'
@@ -1480,6 +2027,10 @@ our $I18N = {
   'title on every page' => {
     'lastUpdated' => '1238831974',
     'message' => 'Titel auf jeder Seite'
+  },
+  'title on every page description' => {
+    'lastUpdated' => '1252332289',
+    'message' => 'Soll der Sektionstitel auf jeder Seite diese Sektion angezeigt werden?'
   },
   'totalQuestions' => {
     'lastUpdated' => '1238673690',
@@ -1505,9 +2056,57 @@ our $I18N = {
     'lastUpdated' => '1179742171',
     'message' => 'Bedingung, die anzeigt, ob dies die erste Benutzerantwort dieses Benutzers ist.'
   },
+  'user_canEditSurvey' => {
+    'lastUpdated' => '1252332259',
+    'message' => 'Ein boolscher wert der anzeigt, ob der aktuelle Benutzer die Umfrage bearbeiten darf'
+  },
+  'user_canTakeSurvey' => {
+    'lastUpdated' => '1252332213',
+    'message' => 'Ein boolscher Wert der anzeigt, ob der aktuelle Nutzer an der Umfrage teilnehmen darf'
+  },
+  'user_canViewReports' => {
+    'lastUpdated' => '1252332180',
+    'message' => 'Ein boolscher Wert der anzeigt, ob der Nutzer die Umfrageergebnisse einsehen darf.'
+  },
   'value' => {
     'lastUpdated' => '1238673545',
     'message' => 'Wert'
+  },
+  'variable' => {
+    'lastUpdated' => '1252331968',
+    'message' => 'Variablenname um eine Sektion/Frage zu identifizieren, der dann als Sprungziel in einer anderen Sektion angegeben werden kann.'
+  },
+  'verbatim' => {
+    'lastUpdated' => '1252331911',
+    'message' => 'Ein boolscher Wert der anzeigt, ob die Antwort ein zusätzliches Eingabefeld für einen einzeiligen Text enthält'
+  },
+  'verbatim description' => {
+    'lastUpdated' => '1252331849',
+    'message' => 'Auf "Ja" setzen, um eine zusätzliche einzeilige Texteingabe zur Antwort zu ermöglichen. Typischerweise verwandt bei einer Antwortmöglichkeit "Sonstiges" mit freier Texteingabe.'
+  },
+  'verbatim label' => {
+    'lastUpdated' => '1252331611',
+    'message' => 'Wörtlich'
+  },
+  'verte' => {
+    'lastUpdated' => '1252331477',
+    'message' => 'Tag für das Absatzende'
+  },
+  'vertical display' => {
+    'lastUpdated' => '1252331593',
+    'message' => 'Vertikale Anordnung'
+  },
+  'vertical display description' => {
+    'lastUpdated' => '1252331579',
+    'message' => 'Dieser Wert kontrolliert ob die Buttons einer Multiple-Choice-Frage horizontal oder vertikal angeordnet werden'
+  },
+  'verticalDisplay' => {
+    'lastUpdated' => '1252331527',
+    'message' => 'Ein boolscher Wert der anzeigt, ob die Antworten zu dieser Frage vertikal angezeigt werden sollen.'
+  },
+  'verts' => {
+    'lastUpdated' => '1252331464',
+    'message' => 'Tag für den Absatzanfang'
   },
   'view grade book' => {
     'lastUpdated' => '1238673529',
@@ -1548,6 +2147,30 @@ our $I18N = {
   'view_transposed_results_url' => {
     'lastUpdated' => '1238831897',
     'message' => 'URL Alle Responses'
+  },
+  'visualization format' => {
+    'lastUpdated' => '1252331444',
+    'message' => 'Visualisierungsformat'
+  },
+  'visualization format help' => {
+    'lastUpdated' => '1252331433',
+    'message' => 'Wählen Sie den Typ für die Visualisierungsdatei, die generiert werden soll'
+  },
+  'visualization layout algorithm' => {
+    'lastUpdated' => '1252331392',
+    'message' => 'Visualisierungs-Layout-Algorithmus'
+  },
+  'visualization layout algorithm help' => {
+    'lastUpdated' => '1252331366',
+    'message' => 'Wählen Sie den GraphViz Layout-Algorithmus den Sie benutzen wollen '
+  },
+  'visualization success' => {
+    'lastUpdated' => '1252331271',
+    'message' => 'Visualisierung erfolgreich generiert an'
+  },
+  'visualize' => {
+    'lastUpdated' => '1252331246',
+    'message' => 'Visualisieren'
   },
   'warnings' => {
     'lastUpdated' => '1251910630',
