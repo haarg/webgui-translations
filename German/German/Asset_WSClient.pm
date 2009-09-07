@@ -6,8 +6,8 @@ our $I18N = {
     'message' => 'Standardmäßig ausführen?'
   },
   '11 description' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => '1252321173',
+    'message' => 'Lassen Sie die Einstellung auf Ja außer Ihre Seite ruft sich selbst mit zusätzlichen Parametern auf. Sie werden wissen, wenn sie die Standardausführung abschalten wollen. Um eine Ausführung zu erzwingen, obwohl sie standardmäßig abgeschaltete ist, übergeben Sie die Formularvariable "targetWobjects" mit dem Name des SOAP-Aufrufs. Wenn gecachte Ergebnisse für dueses WObject schon existieren werden sie zurückgegeben. Wenn Sie auf keinen Fall ein Ergebnis zurück haben möchten, sehen Sie unten in der Abteilung "Tricks" nach.'
   },
   12 => {
     'lastUpdated' => '1217237565',
@@ -18,8 +18,8 @@ our $I18N = {
     'message' => 'Paginieren nach'
   },
   '13 description' => {
-    'lastUpdated' => '1217253489',
-    'message' => 'Wie viele Ergebnisreihen sollen angezeigt werden, bevor die Ergebnisse auf mehrere Seiten verteilt werden? In anderen Worten, wie viele Reihen sollen auf einer Seite angezeigt werden.'
+    'lastUpdated' => '1252320693',
+    'message' => 'Wie viele Ergebniszeilen sollen angezeigt werden, bevor die Ergebnisse auf mehrere Seiten verteilt werden? In anderen Worten, wie viele Zeilen sollen auf einer Seite angezeigt werden.'
   },
   14 => {
     'lastUpdated' => '1217253524',
@@ -34,16 +34,16 @@ our $I18N = {
     'message' => 'UTF-8 Daten dekodieren?'
   },
   '15 description' => {
-    'lastUpdated' => '1217253613',
-    'message' => ''
+    'lastUpdated' => '1252321378',
+    'message' => 'Diese Option ist nur sichtbar, wenn Data::Structure::Util installiert ist. SOAP-Aufrufe liefern UTF8-Strings zurück, selbst wenn sie keine UTF8-Zeichen enthalten. Hiermit werden UTF8-Zeichen konvertiert, um Probleme mit der Zeichensatzeinstellung im Seitenkopf zu vermeiden. Dekodierung ist standardmäßig ausgeschaltet, schalten Sie sie testweise ein, wenn Sonderzeichen falsch dargestellt werden.'
   },
   16 => {
     'lastUpdated' => '1217253634',
     'message' => 'HTTP Header Überschreibung'
   },
   '16 description' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => '1252321436',
+    'message' => 'Wenn soapHttpHeaderOverride in der WebGUI-Konfigurationsdatei gesetzt ist, können Sie den Standard-MIME-Typ dieser Seite überschreiben.'
   },
   19 => {
     'lastUpdated' => '1217237640',
@@ -54,8 +54,10 @@ our $I18N = {
     'message' => 'SOAP URI oder WSDL'
   },
   '2 description' => {
-    'lastUpdated' => '1217253648',
-    'message' => ''
+    'lastUpdated' => '1252321828',
+    'message' => 'Aus der SOAP::Lite man page: 
+"URIs are just identifiers. They may look like URLs, but they are not guaranteed to point to anywhere and shouldn\'t be used as such pointers. URIs assume to be unique within the space of all XML documents, so consider them as unique identifiers and nothing else." 
+Wenn Sie ein URI angeben, benötigen Sie evtl. einen Proxy. Alternativ können Sie statt einer URI eine WSDL-Datei angeben. Diese Datei bezieht sich auf einen Ort, von dem die SOAP-Servicebeschreibung heruntergeladen werden kann. Die Datei muss auf ".wsdl" enden. Wenn Sie eine WSDL-Datei benutzen, müssen Sie meist keinen Proxy definieren.'
   },
   20 => {
     'lastUpdated' => '1217237672',
@@ -142,8 +144,10 @@ our $I18N = {
     'message' => 'SOAP Aufruf Parameter'
   },
   '5 description' => {
-    'lastUpdated' => '1217253657',
-    'message' => ''
+    'lastUpdated' => '1252321598',
+    'message' => 'Wenn Ihr SOAP-Arufuf zusätzliche Parameter benötigt, geben Sie sie hier als gültigen Perl-Hash, Array oder Skalar an.
+Beispiel: \'userid\' => \'12\', companyid => \'^FormParam("companyid");\' 
+Ob Sie Hash, Array oder Skalar benutzen hängt davon ab, was der SOAP-Service als Eingabe verlangt. Ebenso verhält es sich mit der Rückgabe.'
   },
   72 => {
     'lastUpdated' => '1217238476',
