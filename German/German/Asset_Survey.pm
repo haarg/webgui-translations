@@ -469,6 +469,46 @@ our $I18N = {
     'lastUpdated' => '1250931758',
     'message' => 'Die Vorlage zur Anzeige der Antwortbearbeitung.'
   },
+  'Edit Survey Template' => {
+    'lastUpdated' => '1252321892',
+    'message' => 'Umfrage-Template bearbeiten'
+  },
+  'Edit Survey Template help' => {
+    'lastUpdated' => '1252322246',
+    'message' => 'Das Template um die Seite für die Umfrage-Bearbeitung anzuzeigen.'
+  },
+  'Feedback Template' => {
+    'lastUpdated' => '1252322257',
+    'message' => 'Feedback Template'
+  },
+  'Feedback Template help' => {
+    'lastUpdated' => '1252322292',
+    'message' => 'Das Template um Feedbackseite anzuzeigen'
+  },
+  'Gradebook Report Template' => {
+    'lastUpdated' => '1252322299',
+    'message' => 'Gradebook Report Template'
+  },
+  'Gradebook Report Template help' => {
+    'lastUpdated' => '1252322319',
+    'message' => 'Das Template um den Gradebook Report anzuzeigen.'
+  },
+  'Gradebook Template' => {
+    'lastUpdated' => '1252322325',
+    'message' => 'Gradebook Template'
+  },
+  'Gradebook Template help' => {
+    'lastUpdated' => '1252322338',
+    'message' => 'Template um das Gradebook anzuzeigen.'
+  },
+  'Group to edit survey' => {
+    'lastUpdated' => '1252322352',
+    'message' => 'Gruppe, um die Umfrage zu bearbeiten.'
+  },
+  'Group to edit survey help' => {
+    'lastUpdated' => '1252322371',
+    'message' => 'Wählen Sie die Gruppe, die die Umfrage bearbeiten darf.'
+  },
   'Group to take survey' => {
     'lastUpdated' => '1250932090',
     'message' => 'Gruppe Bearbeitung'
@@ -493,9 +533,105 @@ our $I18N = {
     'lastUpdated' => '1238878424',
     'message' => 'Die maximum Anzahl Teilnahmen pro Teilnehmer (Benutzer)'
   },
+  'Overview Report Template' => {
+    'lastUpdated' => '1252322401',
+    'message' => 'Template für den Überblicksreport.'
+  },
+  'Overview Report Template help' => {
+    'lastUpdated' => '1252322421',
+    'message' => 'Template um den Überblicksreport anzuzeigen.'
+  },
+  'Question Edit Template' => {
+    'lastUpdated' => '1252322438',
+    'message' => 'Template zur Fragenbearbeitung'
+  },
+  'Question Edit Template help' => {
+    'lastUpdated' => '1252322488',
+    'message' => 'Template, das den Frage-Bearbeiten-Dialog auf der Umfrage-Bearbeiten-Seite anzeigt.'
+  },
+  'Questions Template' => {
+    'lastUpdated' => '1252322496',
+    'message' => 'Fragentempalte'
+  },
+  'Questions Template help' => {
+    'lastUpdated' => '1252322546',
+    'message' => 'Template, das individuelle Fragen anzeigt, die dynamisch in die Umfrage-Teilnahmeseite geladen werden.'
+  },
+  'Quiz mode summaries' => {
+    'lastUpdated' => '1252322564',
+    'message' => 'Zeige Quiz-Modus Zusammenfassungen?'
+  },
+  'Quiz mode summaries help' => {
+    'lastUpdated' => '1252322596',
+    'message' => 'Wenn gesetzt, werden den Nutzern Zusammenfassungen zu Ihren Quiz-Ergebnissen angezeigt.'
+  },
+  'Section Edit Template' => {
+    'lastUpdated' => '1252322621',
+    'message' => 'Sektion Bearbeiten-Template'
+  },
+  'Section Edit Template help' => {
+    'lastUpdated' => '1252322656',
+    'message' => 'Template, das den Sektion-Bearbeiten-Dialog auf der Umfrage-Bearbeiten-Seite anzeigt.'
+  },
+  'Show user their progress' => {
+    'lastUpdated' => '1252322676',
+    'message' => 'Dem Nutzer den Fortschritt anzeigen?'
+  },
+  'Show user their progress help' => {
+    'lastUpdated' => '1252322720',
+    'message' => 'Auf ja setzen, um dem Nutzer anzuzeigen, wie viele von wie vielen Fragen er beantwortet hat.'
+  },
+  'Show user their time remaining' => {
+    'lastUpdated' => '1252322735',
+    'message' => 'Dem Nutzer die Restzeit anzeigen?'
+  },
+  'Show user their time remaining help' => {
+    'lastUpdated' => '1252322778',
+    'message' => 'Auf ja setzen, um dem Nutzer anzuzeigen, wie viel Zeit zum Beenden der Umfrage noch bleibt.'
+  },
+  'Survey Edit Template' => {
+    'lastUpdated' => '1252322798',
+    'message' => 'Umfrage Bearbeiten-Template'
+  },
+  'Survey Edit Template help' => {
+    'lastUpdated' => '1252322822',
+    'message' => 'Template, das die Umfrage-Bearbeiten-Seite anzeigt.'
+  },
+  'Survey Exit URL' => {
+    'lastUpdated' => '1252322837',
+    'message' => 'Umfrage verlassen URL'
+  },
+  'Survey Exit URL help' => {
+    'lastUpdated' => '1252322930',
+    'message' => 'Wenn der Nutzer die Umfrage beendet hat, wird er an diese URL weitergeleitet. Wird keine Weiterleitung benötigt, leer lassen. Die Gateway-Einstellung aus der Config-Datei wird automatisch zur URL hinzugefügt.'
+  },
+  'Survey Overview Template' => {
+    'lastUpdated' => '1252322949',
+    'message' => 'Umfrage-Überblickstemplate'
+  },
+  'Survey Overview Template help' => {
+    'lastUpdated' => '1252322975',
+    'message' => 'Das Template, das eine Übersicht über die Umfrage bereitstellt.'
+  },
+  'Survey Summary Template' => {
+    'lastUpdated' => '1252322989',
+    'message' => 'Umfrage-Zusammenfassungstempalte'
+  },
+  'Survey Summary Template help' => {
+    'lastUpdated' => '1252323027',
+    'message' => 'Dieses Template zeigt Nutzern im Quiz-Modus eine Zusammenfassung ihrer Ergebnisse.'
+  },
   'Survey_id' => {
     'lastUpdated' => '1178876712',
     'message' => 'Die eindeutige ID dieser Umfrage. Diese ist nicht die gleiche wied die Asset ID.'
+  },
+  'Take Survey Template' => {
+    'lastUpdated' => '1252323041',
+    'message' => 'Umfrage Teilenhmentempalte'
+  },
+  'Take Survey Template help' => {
+    'lastUpdated' => '1252323112',
+    'message' => 'Dieses Template kontrolliert die Umfrage-Teilnehmenseite, in die Antworten dynamisch geladen werden.'
   },
   'a1' => {
     'lastUpdated' => '1238878510',
@@ -553,13 +689,25 @@ our $I18N = {
     'lastUpdated' => '1251911065',
     'message' => 'Antwortnummer:'
   },
+  'answer number description' => {
+    'lastUpdated' => '1252323123',
+    'message' => 'Die Nummer dieser Antwort.'
+  },
   'answer score' => {
     'lastUpdated' => '1251911075',
     'message' => 'Antwortwert:'
   },
+  'answer score description' => {
+    'lastUpdated' => '1252323190',
+    'message' => 'Weisen Sie dieser Antwort einen nummerischen Wert zu. Wenn leer, wird der Fragewert verwandt. Wird beim Frage-Scoring und für Sprungausdrücke benutzt.'
+  },
   'answer text' => {
     'lastUpdated' => '1238833041',
     'message' => 'Antworttext'
+  },
+  'answer text description' => {
+    'lastUpdated' => '1252323239',
+    'message' => 'Geben Sie einen Text für die Antwort ein. Bei Multiple-Choice-Fragen wir diese Antwort über den Buttons angezeigt.'
   },
   'answer.comment' => {
     'lastUpdated' => '1178876817',
@@ -581,17 +729,37 @@ our $I18N = {
     'lastUpdated' => '1178877023',
     'message' => 'Anteil der Antwort am Gesamtergebnis für diese Frage. D.h. Wie viele Benutzer (prozentual gesehen) habe auf die Frage diese Antwort gegeben.'
   },
+  'answer_comment' => {
+    'lastUpdated' => '1252323330',
+    'message' => 'Ein Kommentar. Diese tmpl_var ist bei Multiple-Choice-Fragen im comment_loop und bei den anderen Fragetypen direkt innerhalb des answer_loop verfügbar.'
+  },
+  'answer_isCorrect' => {
+    'lastUpdated' => '1252323368',
+    'message' => 'Ein boolscher Wert der anzeigt, ob die Antwort korrekt markiert wurde. Nur für Multiple-Choice-Fragen verfügbar.'
+  },
   'answer_loop' => {
     'lastUpdated' => '1178877053',
     'message' => 'Eine Schleife, die die Antworten und Benutzerantworten dieser Frage enthält.'
+  },
+  'answer_response_count' => {
+    'lastUpdated' => '1252323454',
+    'message' => 'Die Gesamtzahl an Antworten zu dieser Antwort. Nur bei Multiple-Choice-Fragen verfügbar.'
+  },
+  'answer_response_percent' => {
+    'lastUpdated' => '1252323541',
+    'message' => 'Der Prozentwert an Rückmeldungen zu dieser Frage für diese Antwort. Nur bei Multiple-Choice-Fragen verfügbar.'
+  },
+  'answer_value' => {
+    'lastUpdated' => '1252323570',
+    'message' => 'Der Wert für diese Antwort. Nicht bei Multiple-Choice-Fragen verfügbar.'
   },
   'answers' => {
     'lastUpdated' => '1238878553',
     'message' => 'Eine Schleife mit den Antworten zu dieser Frage'
   },
   'assetName' => {
-    'lastUpdated' => '1238831487',
-    'message' => 'Fragebogen'
+    'lastUpdated' => '1252321928',
+    'message' => 'Umfrage (beta)'
   },
   'back' => {
     'lastUpdated' => '1251910605',
@@ -605,21 +773,69 @@ our $I18N = {
     'lastUpdated' => '1178877106',
     'message' => 'Sie können die letzte Antwort dieser Frage nicht l&ouml;schen. Jede Frage muss zumindest eine Antwort besitzen.'
   },
+  'checked' => {
+    'lastUpdated' => '1252323582',
+    'message' => 'Markiert'
+  },
+  'cols description' => {
+    'lastUpdated' => '1252323631',
+    'message' => 'Die Anzahl Spalten für dieses Eingabefeld (beim TextArea Fragentyp)'
+  },
+  'comment cols' => {
+    'lastUpdated' => '1252323645',
+    'message' => 'Kommentarspalten:'
+  },
+  'comment rows' => {
+    'lastUpdated' => '1252323654',
+    'message' => 'Kommentarzeilen:'
+  },
   'comment.label' => {
     'lastUpdated' => '1178877123',
     'message' => 'Das internationalisierte Wort "Comments".'
+  },
+  'commentCols' => {
+    'lastUpdated' => '1252323675',
+    'message' => 'Die Spaltenzahl für das Kommentar-Textfeld'
+  },
+  'commentRows' => {
+    'lastUpdated' => '1252323696',
+    'message' => 'Die Zeilenzahl für das Kommentar-Textfeld'
   },
   'comment_loop' => {
     'lastUpdated' => '1178877149',
     'message' => 'Eine Schleife, die alle Kommentare für diese Antwort enthält.'
   },
+  'confirm delete test' => {
+    'lastUpdated' => '1252323717',
+    'message' => 'Wollen Sie diesen Test wirklich löschen?'
+  },
+  'continue' => {
+    'lastUpdated' => '1252323724',
+    'message' => 'Weiter'
+  },
   'continue button' => {
     'lastUpdated' => '1238878567',
     'message' => 'Weiter'
   },
+  'copy' => {
+    'lastUpdated' => '1252323731',
+    'message' => 'Kopie'
+  },
+  'dateType' => {
+    'lastUpdated' => '1252323763',
+    'message' => 'Ein boolscher Wert der anzeigt, ob dies eine Frage vom Typ Datum ist.'
+  },
   'defaultSectionId' => {
     'lastUpdated' => '1178877168',
     'message' => 'Die ID des Standardabschnitts.'
+  },
+  'delete' => {
+    'lastUpdated' => '1252323768',
+    'message' => 'Löschen'
+  },
+  'delete responses' => {
+    'lastUpdated' => '1252323778',
+    'message' => 'Lösch-Antwort'
   },
   'delete.all.responses.label' => {
     'lastUpdated' => '1178877190',
@@ -636,6 +852,14 @@ our $I18N = {
   'delete.url' => {
     'lastUpdated' => '1178877264',
     'message' => 'URL, die alle Benutzerantworten löscht.'
+  },
+  'details' => {
+    'lastUpdated' => '1252323786',
+    'message' => 'Details'
+  },
+  'displayed_id' => {
+    'lastUpdated' => '1252323814',
+    'message' => 'Die angezeigte ID dieser Sektion/Frage/Antwort'
   },
   'duration.label' => {
     'lastUpdated' => '1178877288',
