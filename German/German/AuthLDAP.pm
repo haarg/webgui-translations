@@ -378,8 +378,8 @@ uid=jdoe,ou=people,dc=example,dc=com'
     'message' => 'LDAP Recursive Group Filter'
   },
   'LDAPLink_ldapRecursiveFilterDescription' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => '1252320613',
+    'message' => 'Geben Sie eine Anzahl Strings ein, nach denen alles rekursiv aus Ihrer LDAP-Gruppe gefiltert werden soll, das keine Gruppe ist. Ein Objekt, das einem dieser Strings entspricht wird nicht rekursiv durchsucht. Dies ist eine Performanz-Einstellung, die die Gruppensuche beschleunigen soll, wenn Ihre Gruppen und Gruppenmitglieder das selbe Attribut haben, wie eine Gruppen von Gruppen innerhalb LDAP. Wenn beispielsweise Benutzer und Gruppen im Attribut "member" gespeichert sind und Benutzer immer den String o= und Gruppen immer den String cn= enthalten, können Sie o= als Filter angeben, um Benutzer zu überspringen und nur rekursiv innerhalb von Gruppen zu suchen. Diese Einstellung wird nur auf diese Gruppe angewandt und überschreibt jeden globalen Filter die Sie für die LDAP-Verbindung definiert haben.'
   },
   'LDAPLink_ldapRecursiveProperty' => {
     'lastUpdated' => '1228688176',
@@ -486,8 +486,8 @@ uid=jdoe,ou=people,dc=example,dc=com'
     'message' => 'LDAP Rekursiver Gruppenfilter'
   },
   'global recursive filter label description' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => '1252320609',
+    'message' => 'Geben Sie zeilenweise eine Anzahl Strings ein, nach denen alles rekursiv aus Ihrer LDAP-Gruppe gefiltert werden soll, das keine Gruppe ist. Ein Objekt, das einem dieser Strings entspricht wird nicht rekursiv durchsucht. Dies ist eine Performanz-Einstellung, die die Gruppensuche beschleunigen soll, wenn Ihre Gruppen und Gruppenmitglieder das selbe Attribut haben, wie eine Gruppen von Gruppen innerhalb LDAP. Wenn beispielsweise Benutzer und Gruppen im Attribut "member" gespeichert sind und Benutzer immer den String o= und Gruppen immer den String cn= enthalten, können Sie o= als Filter angeben, um Benutzer zu überspringen und nur rekursiv innerhalb von Gruppen zu suchen. Diese Einstellung wird nur auf jede LDAP-Gruppe mit rekursiver Gruppeneinstellung angewandt. Optional können Sie wählen, dass diese Einstellung für individuelle Gruppen gilt; in diesem Fall überschreiben die individuellen Einstellungen die globalen Einstellungen.'
   },
   'ldap identity blank' => {
     'lastUpdated' => '1236386734',
