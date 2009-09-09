@@ -1,268 +1,215 @@
 package WebGUI::i18n::German::Asset_MessageBoard;
 use utf8;
-
-
 our $I18N = {
-	'forum.lastpost.user.isVisitor' => {
-		message => q|Bedingung, die anzeigt, ob der letzte Poster ein Visitor war.|,
-		lastUpdated => 1179824170
-	},
-
-	'forum.rating' => {
-		message => q|Durchschnittsbewertung alle Posts in dem Forum.|,
-		lastUpdated => 1179824214
-	},
-
-	'forum.user.canView' => {
-		message => q|Bedingung, die anzeigt, ob der Benuzter dieses Forum ansehen darf.|,
-		lastUpdated => 1179824376
-	},
-
-	'assetName' => {
-		message => q|Message Board|,
-		lastUpdated => 1179823730
-	},
-
-	'replies' => {
-		message => q|Antworten|,
-		lastUpdated => 1179824604
-	},
-
-	'forum.add.url' => {
-		message => q|URL zum hinzufügen eines Forums zu diesem Message Board.|,
-		lastUpdated => 1179823802
-	},
-
-	'forum.add.label' => {
-		message => q|Das Standard Label für forum.add.url.|,
-		lastUpdated => 1179823780
-	},
-
-	'forum.controls' => {
-		message => q|Bedienelemente zum Bearbeiten dieses Forums.|,
-		lastUpdated => 1179823842
-	},
-
-	'forum.lastpost.user.alias' => {
-		message => q|Aktueller Alias des letzten Posters.|,
-		lastUpdated => 1179824117
-	},
-
-	'74' => {
-		message => q|Folgende Template Variablen sind in Message Board Templates verfügbar:|,
-		lastUpdated => 1179823639
-	},
-
-	'forum.replies' => {
-		message => q|Anzahl Antworten aller Threads in diesem Forum.|,
-		lastUpdated => 1179824238
-	},
-
-	'visitorCacheTimeout' => {
-		message => q|Die Zeitspanne, die dieser Artikel für Visitors gecached werden soll.|,
-		lastUpdated => 1179824820
-	},
-
-	'75' => {
-		message => q|Forum hinzufügen|,
-		lastUpdated => 1179823650
-	},
-
-	'lastpost.label' => {
-		message => q|Das Standard Label für die Spalte letzter Post.|,
-		lastUpdated => 1179824553
-	},
-
-	'areMultipleForums' => {
-		message => q|Bedingung, die anzeigt, ob ein Forum existiert oder mehrere.|,
-		lastUpdated => 1179823724
-	},
-
-	'rating.label' => {
-		message => q|Das Standard Label für die Spalte Bewertung.|,
-		lastUpdated => 1179824597
-	},
-
-	'forum.lastpost.date' => {
-		message => q|Datum letzter Post in diesem Forum, im "human-readable" Format.|,
-		lastUpdated => 1179824009
-	},
-
-	'forum.views' => {
-		message => q|Gesamtanzahl aller Ansichten in diesem Forum (Wie oft wurden die Posts in diesem Forum von Besuchern angesehen?).|,
-		lastUpdated => 1179824467
-	},
-
-	'message board asset template variables title' => {
-		message => q|Message Board Asset Template Variablen|,
-		lastUpdated => 1179824568
-	},
-
-	'forum.lastpost.url' => {
-		message => q|URL, um letzten Post in diesem Forum anzusehen.|,
-		lastUpdated => 1179824101
-	},
-
-	'forum.lastpost.subject' => {
-		message => q|Betreff des letzten Posts in diesem Forum.|,
-		lastUpdated => 1179824050
-	},
-
-	'forum.count' => {
-		message => q|Schleifenindex für Anzahl Foren.|,
-		lastUpdated => 1179823965
-	},
-
-	'title' => {
-		message => q|Titel|,
-		lastUpdated => 1157856286
-	},
-
-	'forum_loop' => {
-		message => q|Schleife, die die Daten für alle Foren eines Message Boards enthält.|,
-		lastUpdated => 1179824515
-	},
-
-	'forum.threads' => {
-		message => q|Gesamtzahl Threads in diesem Forum.|,
-		lastUpdated => 1179824307
-	},
-
-	'forum.lastpost.time' => {
-		message => q|Zeitpunkt des letzten Posts in diesem Forum, im "human-readable" Format.|,
-		lastUpdated => 1179824082
-	},
-
-	'title.label' => {
-		message => q|Das Standard Label für die Spalte Titel.|,
-		lastUpdated => 1179824677
-	},
-
-	'forum.lastpost.epoch' => {
-		message => q|Datum des letzten Posts in diesem Formum, im "epoch" Format.|,
-		lastUpdated => 1179824032
-	},
-
-	'threads.label' => {
-		message => q|Das Standard Label für die Spalte Threads.|,
-		lastUpdated => 1179824661
-	},
-
-	'73 description' => {
-		message => q|Wählen Sie ein Template für die Darstellung ihres Message Boards.|,
-		lastUpdated => 1179823605
-	},
-
-	'forum.title' => {
-		message => q|Der Titel dieses Forums.|,
-		lastUpdated => 1179824320
-	},
-
-	'message board asset template variables body' => {
-		message => q|Jedes Asset bietet ihren Templates einen Satz an Variablen, die auf den Asset Eigenschaften basieren. Einige dieser Variablen können nützlich sein, andere nicht.|,
-		lastUpdated => 1170409070
-	},
-
-	'forum.url' => {
-		message => q|URL zum Ansehen dieses Forums.|,
-		lastUpdated => 1179824334
-	},
-
-	'rating' => {
-		message => q|Bewertung|,
-		lastUpdated => 1179824575
-	},
-
-	'views' => {
-		message => q|Ansichten|,
-		lastUpdated => 1179824686
-	},
-
-	'lastpost' => {
-		message => q|Letzter Post|,
-		lastUpdated => 1179824525
-	},
-
-	'default.listing' => {
-		message => q|Forum erzeugt mittels dem Forum Template.|,
-		lastUpdated => 1179823763
-	},
-
-	'forum.lastpost.user.profile' => {
-		message => q|URL zum Profil des letzten Posters.|,
-		lastUpdated => 1179824194
-	},
-
-	'visitor cache timeout' => {
-		message => q|Visitor Cache Timeout|,
-		lastUpdated => 1179824712
-	},
-
-	'templateId' => {
-		message => q|Die Id des Templates für die Anzeige dieses Assets.|,
-		lastUpdated => 1179824639
-	},
-
-	'6' => {
-		message => q|Message Board bearbeiten|,
-		lastUpdated => 1179823409
-	},
-
-	'forum.lastpost.user.hasread' => {
-		message => q|Bedingung, die anzeigt, ob Benutzer den letzten Post in diesem Forum gelesen hat.|,
-		lastUpdated => 1179824143
-	},
-
-	'forum.lastpost.user.name' => {
-		message => q|Der Benutzername des letzten Posters.|,
-		lastUpdated => 1179824182
-	},
-
-	'forum.lastpost.user.id' => {
-		message => q|Die userid des letzten Posters.|,
-		lastUpdated => 1179824153
-	},
-
-	'views.label' => {
-		message => q|Das Standard Label für die Spalte Ansichten.|,
-		lastUpdated => 1179824703
-	},
-
-	'forum.user.canPost' => {
-		message => q|Bedingung, die anzeigt, ob der Benutzer in diesem Forum posten darf.|,
-		lastUpdated => 1179824356
-	},
-
-	'threads' => {
-		message => q|Threads|,
-		lastUpdated => 1179824645
-	},
-
-	'replies.label' => {
-		message => q|Das Standard Label für die Spalte Antworten.|,
-		lastUpdated => 1179824620
-	},
-
-	'visitor cache timeout help' => {
-		message => q|Alle Visitor sehen dieses Asset auf die gleiche Weise, man kann es also cachen, um die Performance zu erhöhen. Wie lange soll dieses Asset gecached werden?|,
-		lastUpdated => 1179824794
-	},
-
-	'73' => {
-		message => q|Message Board Template|,
-		lastUpdated => 1179823578
-	},
-
-	'76' => {
-		message => q|Sind Sie sich sicher, dass Sie dieses Forum und alle darin enthaltenen Posts löschen wollen?|,
-		lastUpdated => 1179823682
-	},
-
-	'forum.description' => {
-		message => q|Beschreibung des Forums.|,
-		lastUpdated => 1179823979
-	},
-
-};
+  6 => {
+    'lastUpdated' => '1179823409',
+    'message' => 'Message Board bearbeiten'
+  },
+  73 => {
+    'lastUpdated' => '1179823578',
+    'message' => 'Message Board Template'
+  },
+  '73 description' => {
+    'lastUpdated' => '1179823605',
+    'message' => 'Wählen Sie ein Template für die Darstellung ihres Message Boards.'
+  },
+  74 => {
+    'lastUpdated' => '1179823639',
+    'message' => 'Folgende Template Variablen sind in Message Board Templates verfügbar:'
+  },
+  75 => {
+    'lastUpdated' => '1179823650',
+    'message' => 'Forum hinzufügen'
+  },
+  76 => {
+    'lastUpdated' => '1179823682',
+    'message' => 'Sind Sie sich sicher, dass Sie dieses Forum und alle darin enthaltenen Posts löschen wollen?'
+  },
+  'areMultipleForums' => {
+    'lastUpdated' => '1179823724',
+    'message' => 'Bedingung, die anzeigt, ob ein Forum existiert oder mehrere.'
+  },
+  'assetName' => {
+    'lastUpdated' => '1179823730',
+    'message' => 'Message Board'
+  },
+  'default.listing' => {
+    'lastUpdated' => '1179823763',
+    'message' => 'Forum erzeugt mittels dem Forum Template.'
+  },
+  'forum.add.label' => {
+    'lastUpdated' => '1252474515',
+    'message' => 'URL Forum hinzufügen'
+  },
+  'forum.add.url' => {
+    'lastUpdated' => '1179823802',
+    'message' => 'URL zum hinzufügen eines Forums zu diesem Message Board.'
+  },
+  'forum.controls' => {
+    'lastUpdated' => '1179823842',
+    'message' => 'Bedienelemente zum Bearbeiten dieses Forums.'
+  },
+  'forum.count' => {
+    'lastUpdated' => '1179823965',
+    'message' => 'Schleifenindex für Anzahl Foren.'
+  },
+  'forum.description' => {
+    'lastUpdated' => '1179823979',
+    'message' => 'Beschreibung des Forums.'
+  },
+  'forum.lastpost.date' => {
+    'lastUpdated' => '1179824009',
+    'message' => 'Datum letzter Post in diesem Forum, im "human-readable" Format.'
+  },
+  'forum.lastpost.epoch' => {
+    'lastUpdated' => '1179824032',
+    'message' => 'Datum des letzten Posts in diesem Formum, im "epoch" Format.'
+  },
+  'forum.lastpost.subject' => {
+    'lastUpdated' => '1179824050',
+    'message' => 'Betreff des letzten Posts in diesem Forum.'
+  },
+  'forum.lastpost.time' => {
+    'lastUpdated' => '1179824082',
+    'message' => 'Zeitpunkt des letzten Posts in diesem Forum, im "human-readable" Format.'
+  },
+  'forum.lastpost.url' => {
+    'lastUpdated' => '1179824101',
+    'message' => 'URL, um letzten Post in diesem Forum anzusehen.'
+  },
+  'forum.lastpost.user.alias' => {
+    'lastUpdated' => '1179824117',
+    'message' => 'Aktueller Alias des letzten Posters.'
+  },
+  'forum.lastpost.user.hasread' => {
+    'lastUpdated' => '1179824143',
+    'message' => 'Bedingung, die anzeigt, ob Benutzer den letzten Post in diesem Forum gelesen hat.'
+  },
+  'forum.lastpost.user.id' => {
+    'lastUpdated' => '1252474747',
+    'message' => 'Die userId des letzten Posters.'
+  },
+  'forum.lastpost.user.isVisitor' => {
+    'lastUpdated' => '1179824170',
+    'message' => 'Bedingung, die anzeigt, ob der letzte Poster ein Visitor war.'
+  },
+  'forum.lastpost.user.name' => {
+    'lastUpdated' => '1179824182',
+    'message' => 'Der Benutzername des letzten Posters.'
+  },
+  'forum.lastpost.user.profile' => {
+    'lastUpdated' => '1179824194',
+    'message' => 'URL zum Profil des letzten Posters.'
+  },
+  'forum.rating' => {
+    'lastUpdated' => '1179824214',
+    'message' => 'Durchschnittsbewertung alle Posts in dem Forum.'
+  },
+  'forum.replies' => {
+    'lastUpdated' => '1179824238',
+    'message' => 'Anzahl Antworten aller Threads in diesem Forum.'
+  },
+  'forum.threads' => {
+    'lastUpdated' => '1179824307',
+    'message' => 'Gesamtzahl Threads in diesem Forum.'
+  },
+  'forum.title' => {
+    'lastUpdated' => '1252474537',
+    'message' => 'Der Titel dieses Forums.'
+  },
+  'forum.url' => {
+    'lastUpdated' => '1179824334',
+    'message' => 'URL zum Ansehen dieses Forums.'
+  },
+  'forum.user.canPost' => {
+    'lastUpdated' => '1179824356',
+    'message' => 'Bedingung, die anzeigt, ob der Benutzer in diesem Forum posten darf.'
+  },
+  'forum.user.canView' => {
+    'lastUpdated' => '1179824376',
+    'message' => 'Bedingung, die anzeigt, ob der Benuzter dieses Forum ansehen darf.'
+  },
+  'forum.views' => {
+    'lastUpdated' => '1179824467',
+    'message' => 'Gesamtanzahl aller Ansichten in diesem Forum (Wie oft wurden die Posts in diesem Forum von Besuchern angesehen?).'
+  },
+  'forum_loop' => {
+    'lastUpdated' => '1179824515',
+    'message' => 'Schleife, die die Daten für alle Foren eines Message Boards enthält.'
+  },
+  'lastpost' => {
+    'lastUpdated' => '1179824525',
+    'message' => 'Letzter Post'
+  },
+  'lastpost.label' => {
+    'lastUpdated' => '1179824553',
+    'message' => 'Das Standard Label für die Spalte letzter Post.'
+  },
+  'message board asset template variables body' => {
+    'lastUpdated' => '1170409070',
+    'message' => 'Jedes Asset bietet ihren Templates einen Satz an Variablen, die auf den Asset Eigenschaften basieren. Einige dieser Variablen können nützlich sein, andere nicht.'
+  },
+  'message board asset template variables title' => {
+    'lastUpdated' => '1252474577',
+    'message' => 'Forum Asset Template Variablen'
+  },
+  'rating' => {
+    'lastUpdated' => '1179824575',
+    'message' => 'Bewertung'
+  },
+  'rating.label' => {
+    'lastUpdated' => '1179824597',
+    'message' => 'Das Standard Label für die Spalte Bewertung.'
+  },
+  'replies' => {
+    'lastUpdated' => '1252474630',
+    'message' => 'Antworten'
+  },
+  'replies.label' => {
+    'lastUpdated' => '1252474620',
+    'message' => 'Antworten'
+  },
+  'templateId' => {
+    'lastUpdated' => '1179824639',
+    'message' => 'Die Id des Templates für die Anzeige dieses Assets.'
+  },
+  'threads' => {
+    'lastUpdated' => '1179824645',
+    'message' => 'Threads'
+  },
+  'threads.label' => {
+    'lastUpdated' => '1252474767',
+    'message' => 'Threads'
+  },
+  'title' => {
+    'lastUpdated' => '1157856286',
+    'message' => 'Titel'
+  },
+  'title.label' => {
+    'lastUpdated' => '1252474654',
+    'message' => 'Titel'
+  },
+  'views' => {
+    'lastUpdated' => '1179824686',
+    'message' => 'Ansichten'
+  },
+  'views.label' => {
+    'lastUpdated' => '1179824703',
+    'message' => 'Das Standard Label für die Spalte Ansichten.'
+  },
+  'visitor cache timeout' => {
+    'lastUpdated' => '1252474697',
+    'message' => 'Besucher Cache Timeout'
+  },
+  'visitor cache timeout help' => {
+    'lastUpdated' => '1252474718',
+    'message' => 'Alle Besucher sehen dieses Asset auf die gleiche Weise, man kann es also cachen, um die Performance zu erhöhen. Wie lange soll dieses Asset gecached werden?'
+  },
+  'visitorCacheTimeout' => {
+    'lastUpdated' => '1252474677',
+    'message' => 'Die Zeitspanne, die dieser Artikel für Besucher gecached werden soll.'
+  }
+}
+;
 
 1;
