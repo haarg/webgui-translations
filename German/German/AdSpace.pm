@@ -22,7 +22,7 @@ our $I18N = {
     'message' => 'Werbefl&amp;auml;che hinzufügen'
   },
   'add ad space body' => {
-    'lastUpdated' => '1215472052',
+    'lastUpdated' => '1252473343',
     'message' => '<p>Dieser Bildschirm zeigt Ihnen eine Liste aller Werbefl&amp;auml;chen, die mit WebGUI erstellt wurden. Die Symbole zu den Werbefl&amp;auml;chen erm&amp;ouml;glichen Ihnen, diese zu bearbeiten oder zu l&amp;ouml;schen. Au&amp;szlig;erdem gibt es einen Link, um neue Werbefl&amp;auml;chen zu erstellen.</p>'
   },
   'add an ad' => {

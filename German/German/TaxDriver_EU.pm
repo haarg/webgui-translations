@@ -74,7 +74,7 @@ our $I18N = {
     'message' => 'Land zum Shop'
   },
   'shop country help' => {
-    'lastUpdated' => '1243495979',
+    'lastUpdated' => '1252473216',
     'message' => 'Wählen Sie das Land, in dem Ihr Shop angesiedelt ist. Wenn Ihr Land nicht Teil der EU ist, können Sie dieses Steuer-Plugin nicht verwenden.'
   },
   'user' => {
