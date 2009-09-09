@@ -292,8 +292,8 @@ Danach können Sie sich mit Ihrer Kennung und dem Passwort anmelden.
     'message' => 'Geben Sie entweder Ihre E-Mail-Adresse oder Ihre Anmeldung unten ein, um das Passwort zurücksetzen zu können.'
   },
   'email validation confirmed' => {
-    'lastUpdated' => '1234734764',
-    'message' => 'Herzlichen Dank für die Aktivierung Ihres Benutzerkontos.
+    'lastUpdated' => '1252480610',
+    'message' => 'Herzlichen Dank für die Aktivierung Ihres Benutzerkontos.<p />
 Sie können sich jetzt mit Ihrer Kennung und Ihrem Passwort anmelden.'
   },
   'error password nonWordCharacters' => {
