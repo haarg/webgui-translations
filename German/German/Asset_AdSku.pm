@@ -10,7 +10,7 @@ our $I18N = {
     'message' => 'Danke für Ihren Einkauf'
   },
   'form error min clicks' => {
-    'lastUpdated' => '1240880761',
+    'lastUpdated' => '1252482170',
     'message' => 'Sie müssen mindestens %d Clicks für diesen Anzeigenraum kaufen.'
   },
   'form error min impressions' => {
@@ -98,8 +98,8 @@ our $I18N = {
     'message' => 'für %f pro Einblendung'
   },
   'minimum clicks' => {
-    'lastUpdated' => '1251893663',
-    'message' => 'Sie müssenden mindestens %d Clicks kaufen.'
+    'lastUpdated' => '1252482228',
+    'message' => 'Sie müssen mindestens %d Klicks kaufen.'
   },
   'minimum impressions' => {
     'lastUpdated' => '1251893682',
