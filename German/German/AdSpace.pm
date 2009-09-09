@@ -134,8 +134,8 @@ our $I18N = {
     'message' => 'Name'
   },
   'name help' => {
-    'lastUpdated' => '1193070319',
-    'message' => 'Dieser String wird in der Kombination mit dem AdSpace Makro verwendet, um Banner auf der Seite zu setzen. Er sollte keine Leerzeichen und nur alphanumerische Zeichen enthalten.'
+    'lastUpdated' => '1252482388',
+    'message' => 'Dieser String wird in der Kombination mit dem AdSpace Makro verwendet um Banner auf der Seite zu setzen. Er sollte keine Leerzeichen und nur alphanumerische Zeichen enthalten.'
   },
   'priority' => {
     'lastUpdated' => '1153201320',
