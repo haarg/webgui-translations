@@ -2,8 +2,8 @@ package WebGUI::i18n::German::Account_Friends;
 use utf8;
 our $I18N = {
   'add to friends confirmation' => {
-    'lastUpdated' => '1229276080',
-    'message' => 'Eine E-Mail wurde an %s versendet mit der Bitte, Sie in sein/ihr Freunde-Netzwerk aufzunehmen.'
+    'lastUpdated' => '1252476172',
+    'message' => 'Eine E-Mail wurde an %s versendet mit der Bitte, Sie in sein/ihr Kontakte-Netzwerk aufzunehmen.'
   },
   'add to network label' => {
     'lastUpdated' => '1228754447',
@@ -30,48 +30,48 @@ our $I18N = {
     'message' => 'Abbrechen'
   },
   'default friend comments' => {
-    'lastUpdated' => '1229283090',
-    'message' => '%s, ich würde Sie gerne in mein Freunde-Netzwerk aufnehmen. Vielen Dank, %s'
+    'lastUpdated' => '1252475651',
+    'message' => '%s, ich würde Sie gerne in mein Kontakte-Netzwerk aufnehmen. Vielen Dank, %s'
   },
   'does not want to be a friend' => {
-    'lastUpdated' => '1229283366',
-    'message' => 'Der Benutzer möchte nicht zu Ihren Freunden hinzugefügt werden.'
+    'lastUpdated' => '1252476148',
+    'message' => 'Der Benutzer möchte nicht zu Ihren Kontakten hinzugefügt werden.'
   },
   'edit my friends' => {
-    'lastUpdated' => '1229283143',
-    'message' => 'Meine Freunde bearbeiten'
+    'lastUpdated' => '1252476133',
+    'message' => 'Meine Kontakte bearbeiten'
   },
   'error label' => {
     'lastUpdated' => '1228691840',
     'message' => 'Fehler'
   },
   'error user is already friend' => {
-    'lastUpdated' => '1229283833',
-    'message' => 'Dieser Benutzer ist bereits Mitglied in Ihrem Freunde-Netzwerk.'
+    'lastUpdated' => '1252476094',
+    'message' => 'Dieser Benutzer ist bereits Mitglied in Ihrem Kontakte-Netzwerk.'
   },
   'error user is already invited' => {
-    'lastUpdated' => '1229283878',
-    'message' => 'Sie haben diesem Benutzer bereits eine Einladung zum Beitritt zu Ihrem Freunde-Netzwerk gesandt.'
+    'lastUpdated' => '1252476075',
+    'message' => 'Sie haben diesem Benutzer bereits eine Einladung zum Beitritt zu Ihrem Kontakte-Netzwerk gesandt.'
   },
   'friend removed' => {
-    'lastUpdated' => '1229277274',
-    'message' => '%s wurde von Ihrer Freunde-Liste entfernt.'
+    'lastUpdated' => '1252476049',
+    'message' => '%s wurde von Ihrer Kontakte-Liste entfernt.'
   },
   'friends as others label' => {
-    'lastUpdated' => '1236446690',
-    'message' => 'Freunde betrachten wie von den anderen gesehen'
+    'lastUpdated' => '1252476111',
+    'message' => 'Kontakte betrachten, wie von den anderen gesehen'
   },
   'friends confirm template hoverHelp' => {
-    'lastUpdated' => '1229283707',
-    'message' => 'Wählen Sie eine Vorlage für die Bestätigung, dass eine Einladung in das Freunde-Netzwerk versandt wurde!'
+    'lastUpdated' => '1252475998',
+    'message' => 'Wählen Sie eine Vorlage für die Bestätigung, dass eine Einladung in das Konatkte-Netzwerk versandt wurde!'
   },
   'friends confirm template label' => {
     'lastUpdated' => '1236454951',
     'message' => 'Vorlage Versandbestätigung'
   },
   'friends edit template hoverHelp' => {
-    'lastUpdated' => '1229283719',
-    'message' => 'Wählen Sie die Vorlage zur Bearbeitung Ihrer Freunde!'
+    'lastUpdated' => '1252475967',
+    'message' => 'Wählen Sie die Vorlage zur Bearbeitung Ihrer Kontakte.'
   },
   'friends edit template label' => {
     'lastUpdated' => '1236454888',
@@ -86,8 +86,8 @@ our $I18N = {
     'message' => 'Vorlage Fehlermeldung'
   },
   'friends is off' => {
-    'lastUpdated' => '1229277515',
-    'message' => 'Die Freunde-Funktion ist nicht aktiviert. Um diese Seite sehen zu können, müssen Sie in ihrem Profil die Freunde-Funktion aktivieren.'
+    'lastUpdated' => '1252475945',
+    'message' => 'Die Kontakte-Funktion ist nicht aktiviert. Um diese Seite sehen zu können, müssen Sie in ihrem Profil die Kontakte-Funktion aktivieren.'
   },
   'friends layout template hoverHelp' => {
     'lastUpdated' => '1229283738',
@@ -106,15 +106,15 @@ our $I18N = {
     'message' => 'Vorlage Entfernungsbestätigung'
   },
   'friends send request template hoverHelp' => {
-    'lastUpdated' => '1229282684',
-    'message' => 'Wählen Sie die Vorlage für den Versand von Freundschaftsanfragen!'
+    'lastUpdated' => '1252475907',
+    'message' => 'Wählen Sie die Vorlage für den Versand von Kontaktanfragen!'
   },
   'friends send request template label' => {
-    'lastUpdated' => '1236454866',
-    'message' => 'Vorlage Freundschaftsanfragen'
+    'lastUpdated' => '1252475869',
+    'message' => 'Vorlage Kontaktanfragen'
   },
   'friends style template hoverHelp' => {
-    'lastUpdated' => '1236454926',
+    'lastUpdated' => '1252475879',
     'message' => 'Wählen Sie eine Stilvorlage für die Darstellung der umgebenden Seite!'
   },
   'friends style template label' => {
@@ -122,8 +122,8 @@ our $I18N = {
     'message' => 'Stilvorlage'
   },
   'friends view template hoverHelp' => {
-    'lastUpdated' => '1229283759',
-    'message' => 'Wählen Sie die primäre Vorlage zur Darstellung von Freunden!'
+    'lastUpdated' => '1252475836',
+    'message' => 'Wählen Sie die Hauptvorlage zur Darstellung von Kontakten.'
   },
   'friends view template label' => {
     'lastUpdated' => '1236454832',
@@ -134,28 +134,28 @@ our $I18N = {
     'message' => 'Registriert seit dem'
   },
   'message sent label' => {
-    'lastUpdated' => '1229283609',
-    'message' => 'Freundschaftsanfrage versandt'
+    'lastUpdated' => '1252475798',
+    'message' => 'Kontaktanfrage versandt'
   },
   'no access' => {
-    'lastUpdated' => '1229283955',
-    'message' => 'Sie haben keine Berechtigung, die Freundeliste dieses Benutzers anzuschauen.'
+    'lastUpdated' => '1252475774',
+    'message' => 'Sie haben keine Berechtigung, die Kontaktliste dieses Benutzers anzuschauen.'
   },
   'no friend selected' => {
-    'lastUpdated' => '1229335106',
-    'message' => 'Sie haben keinen Freund zum Löschen von Ihrer Freundeliste ausgewählt. '
+    'lastUpdated' => '1252475755',
+    'message' => 'Sie haben keinen Kontakt zum Löschen von Ihrer Kontaktliste ausgewählt. '
   },
   'not a friend error' => {
     'lastUpdated' => '1229283692',
     'message' => 'Der zum Löschen ausgewählte Benutzer ist nicht in der Liste Ihrer Freunde.'
   },
   'remove confirm label' => {
-    'lastUpdated' => '1229283575',
-    'message' => 'Bestätigung Entfernung eines Freundes'
+    'lastUpdated' => '1252475727',
+    'message' => 'Bestätigung Entfernung eines Kontaktes'
   },
   'remove confirm message' => {
-    'lastUpdated' => '1228754634',
-    'message' => 'Sind Sie sicher, dass Sie %s aus Ihrer Freunde-Liste löschen m&ouml;chten?'
+    'lastUpdated' => '1252475711',
+    'message' => 'Sind Sie sicher, dass Sie %s aus Ihrer Kontakte-Liste löschen m&ouml;chten?'
   },
   'remove confirm no' => {
     'lastUpdated' => '1228754541',
@@ -166,8 +166,8 @@ our $I18N = {
     'message' => 'Ja, diesen Benutzer löschen.'
   },
   'remove from friends label' => {
-    'lastUpdated' => '1236448563',
-    'message' => 'Freund löschen'
+    'lastUpdated' => '1252475687',
+    'message' => 'Kontakt löschen'
   },
   'send invite button label' => {
     'lastUpdated' => '1228754271',
@@ -182,8 +182,8 @@ our $I18N = {
     'message' => 'Die folgende Nachricht wird mit Ihrer Einladung mitversandt:'
   },
   'title' => {
-    'lastUpdated' => '1228174951',
-    'message' => 'Freunde'
+    'lastUpdated' => '1252475670',
+    'message' => 'Kontakte'
   }
 }
 ;
