@@ -206,8 +206,8 @@ our $I18N = {
     'message' => 'Standard altes Passwort Formular Feld.'
   },
   'create.form.oldPassword.label' => {
-    'lastUpdated' => '1178702930',
-    'message' => 'Standard Text f&amp;uuml;r altes Passwort Formular Feld.'
+    'lastUpdated' => '1252473975',
+    'message' => 'Standard Text für altes Passwort Formular Feld.'
   },
   'create.form.password' => {
     'lastUpdated' => '1178702948',
@@ -605,7 +605,7 @@ Sie können sich jetzt mit Ihrer Kennung und Ihrem Passwort anmelden.'
     'message' => 'Captcha Bild benutzen?'
   },
   'use captcha help' => {
-    'lastUpdated' => '1227567820',
+    'lastUpdated' => '1252474167',
     'message' => 'Wenn aktiviert, muss ein Besucher zur Anlage eines Benutzerkontos ein Captcha-Feld ausfüllen. '
   },
   'use email as username description' => {
@@ -621,8 +621,8 @@ Sie können sich jetzt mit Ihrer Kennung und Ihrem Passwort anmelden.'
     'message' => 'Email Adresse verifizieren?'
   },
   'validate email help' => {
-    'lastUpdated' => '1228691581',
-    'message' => '<p>Soll WebGUI eine extra E-Mail mit Link zur Account-Aktivierung an diese Person senden, unabhängig von der Willkommens-E-Mail? Der Benutzeraccount wird nicht aktiviert bevor dieser Link nicht besucht wurde. Nicht best&auml;tigte Accounts verfallen nach einer einstellbaren Zeit. Diese Verfallszeit wird in einem Workflow festgelegt.</p>'
+    'lastUpdated' => '1252474119',
+    'message' => 'Soll WebGUI eine extra E-Mail mit Link zur Account-Aktivierung an diese Person senden, unabhängig von der Willkommens-E-Mail? Der Benutzeraccount wird nicht aktiviert bevor dieser Link nicht besucht wurde. Nicht best&auml;tigte Accounts verfallen nach einer einstellbaren Zeit. Diese Verfallszeit wird in einem Workflow festgelegt.'
   },
   'webguiPasswordRecovery hoverHelp' => {
     'lastUpdated' => '1225317031',
