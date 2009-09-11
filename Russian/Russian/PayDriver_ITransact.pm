@@ -29,9 +29,21 @@ our $I18N = {
     'lastUpdated' => '1236358457',
     'message' => "\x{418}\x{43c}\x{44f}"
   },
+  'invalid address' => {
+    'lastUpdated' => '1248241628',
+    'message' => ''
+  },
+  'invalid email' => {
+    'lastUpdated' => '1248241696',
+    'message' => ''
+  },
   'lastName' => {
     'lastUpdated' => '1236358553',
     'message' => "\x{424}\x{430}\x{43c}\x{438}\x{43b}\x{438}\x{44f}"
+  },
+  'no description' => {
+    'lastUpdated' => '1248241649',
+    'message' => "\x{41d}\x{435}\x{442} \x{43e}\x{43f}\x{438}\x{441}\x{430}\x{43d}\x{438}\x{44f}."
   },
   'password' => {
     'lastUpdated' => '1236358472',
