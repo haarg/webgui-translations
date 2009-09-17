@@ -170,8 +170,8 @@ our $I18N = {
     'message' => 'Das Wort "By"'
   },
   'captcha label' => {
-    'lastUpdated' => '1192978276',
-    'message' => 'Weisen Sie Ihre Menschlichkeit nach.'
+    'lastUpdated' => '1253184975',
+    'message' => 'Geben Sie die nachfolgende Zeichenfolge ein'
   },
   'close' => {
     'lastUpdated' => '1179745252',

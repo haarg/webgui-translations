@@ -799,8 +799,8 @@ Der Standard-Editor wurde in den Voreinstellungen dieses Servers festgelegt.'
     'message' => 'Eine Schleife, die Informationen über die Tabs enthält, die f&uuml;r dieses Daten Formular definiert wurden.'
   },
   'template captcha label' => {
-    'lastUpdated' => '1217254568',
-    'message' => 'Weisen Sie Ihre Menschlichkeit nach'
+    'lastUpdated' => '1253185029',
+    'message' => 'Geben Sie die nachfolgende Zeichenfolge ein'
   },
   'templateId' => {
     'lastUpdated' => '1178804553',
