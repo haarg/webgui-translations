@@ -14,8 +14,8 @@ our $I18N = {
     'message' => 'Standardpreis'
   },
   'default price help' => {
-    'lastUpdated' => '1226013228',
-    'message' => '<p>Um welchen Betrag bitten Sie den Benutzer? Hinweis: Der Nutzer kann jeden beliebigen Betrag eingeben, dieser Wert ist nur ein Vorschlag.</p>'
+    'lastUpdated' => '1253565562',
+    'message' => 'Um welchen Betrag bitten Sie den Benutzer? Hinweis: Der Nutzer kann jeden beliebigen Betrag eingeben, dieser Wert ist nur ein Vorschlag.'
   },
   'default thank you message' => {
     'lastUpdated' => '1217229449',
@@ -50,20 +50,20 @@ our $I18N = {
     'message' => 'Der Anfang des Spendenformulars.'
   },
   'hasAddedToCart' => {
-    'lastUpdated' => '1226014503',
-    'message' => '<p>Die Bedingung, die anzeigt, dass der Nutzer seine Spende in den Einkaufwagen gelegt hat und nun die Dankeschön-Nachtricht angezeigt werden soll.</p>'
+    'lastUpdated' => '1253565587',
+    'message' => 'Die Bedingung, die anzeigt, dass der Nutzer seine Spende in den Einkaufwagen gelegt hat und nun die Dankeschön-Nachricht angezeigt werden soll.'
   },
   'priceField' => {
     'lastUpdated' => '1217229314',
     'message' => 'Das Feld im Spendenformular, in das der Benutzer den zu spendenden Betrag eingibt.'
   },
   'thank you message' => {
-    'lastUpdated' => '1217229270',
-    'message' => 'Dankeschön Nachricht'
+    'lastUpdated' => '1253565646',
+    'message' => 'Dankeschön-Nachricht'
   },
   'thank you message help' => {
-    'lastUpdated' => '1226014423',
-    'message' => '<p>Geben Sie hier eine Dankeschön-Nechricht ein, die dem Spender angezeigt wird. Beachten Sie: Die Spende wurde bisher nur in den Einkaufswagen gelegt, dieser aber noch nicht bezahlt.</p>'
+    'lastUpdated' => '1253565610',
+    'message' => 'Geben Sie hier eine Dankeschön-Nachricht ein, die dem Spender angezeigt wird. Beachten Sie: Die Spende wurde bisher nur in den Einkaufswagen gelegt, dieser aber noch nicht bezahlt.'
   }
 }
 ;
