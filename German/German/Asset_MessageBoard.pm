@@ -170,8 +170,8 @@ our $I18N = {
     'message' => 'Antworten'
   },
   'templateId' => {
-    'lastUpdated' => '1179824639',
-    'message' => 'Die Id des Templates für die Anzeige dieses Assets.'
+    'lastUpdated' => '1253524634',
+    'message' => 'Die Template-ID für die Anzeige dieses Assets.'
   },
   'threads' => {
     'lastUpdated' => '1179824645',
