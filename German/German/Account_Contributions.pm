@@ -14,8 +14,8 @@ our $I18N = {
     'message' => 'Layout'
   },
   'contrib style template hoverHelp' => {
-    'lastUpdated' => '1233561471',
-    'message' => 'Der Stilvorlage für das Konto-Plugin.'
+    'lastUpdated' => '1253566452',
+    'message' => 'Wählen Sie eine Stilvorlage für das Konto-Plugin.'
   },
   'contrib style template label' => {
     'lastUpdated' => '1233560967',
@@ -86,8 +86,8 @@ our $I18N = {
     'message' => 'Der URL zur Sortierung der Beiträge nach Typ. Über diesen URL kann außerdem die Sortierreihenfolge festgelegt werden (auf- oder absteigend).'
   },
   'user_full_name' => {
-    'lastUpdated' => '1233560775',
-    'message' => 'Der vollständige Names des Benutzers.'
+    'lastUpdated' => '1253566618',
+    'message' => 'Der vollständige Name des Benutzers.'
   },
   'user_member_since' => {
     'lastUpdated' => '1233560749',
