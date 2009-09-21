@@ -54,8 +54,8 @@ our $I18N = {
     'message' => 'Der URL zur Hauptansicht des Kontos.'
   },
   'user_full_name' => {
-    'lastUpdated' => '1233559476',
-    'message' => 'Der vollständige Names des Benutzers.'
+    'lastUpdated' => '1253566282',
+    'message' => 'Der vollständige Name des Benutzers.'
   },
   'user_member_since' => {
     'lastUpdated' => '1233559552',
