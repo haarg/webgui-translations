@@ -158,7 +158,7 @@ our $I18N = {
     'message' => 'Aandelenlijst-sjabloon'
   },
   'isVisitor' => {
-    'lastUpdated' => '1154622706',
+    'lastUpdated' => '1253793675',
     'message' => 'Of de huidige gebruiker wel of geen bezoeker is. Dit komt terug als waar als de gebruiker authentiek verklaard is tegen het systeem. '
   },
   'lastUpdate.default' => {

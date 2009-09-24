@@ -134,7 +134,7 @@ our $I18N = {
     'message' => 'Navigatie'
   },
   'assetsToInclude' => {
-    'lastUpdated' => '1189366586',
+    'lastUpdated' => '1253789966',
     'message' => 'Een variabele (string) die het soort assets - naar relatie - bevat, die moeten worden opgenomen in het menu. Deze worden gescheiden door nieuwe regels. '
   },
   'currentPage.assetId' => {

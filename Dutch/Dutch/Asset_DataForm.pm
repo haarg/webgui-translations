@@ -585,6 +585,10 @@ our $I18N = {
     'lastUpdated' => '1155554463',
     'message' => 'Het aantal ingevoerde objecten in dit DataForm.'
   },
+  'help record.noloop' => {
+    'lastUpdated' => '1253789921',
+    'message' => 'De waarde van een veld kan op naam opgevraagd worden, bijvoorbeeld record.noloop.subject'
+  },
   'helpvar form.captcha' => {
     'lastUpdated' => '1213704958',
     'message' => 'Het invoer veld en de afbeelding voor de Captcha'

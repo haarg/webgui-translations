@@ -129,6 +129,22 @@ our $I18N = {
     'lastUpdated' => '1201435639',
     'message' => 'Beheer de advertentieruimtes.'
   },
+  'minimum clicks' => {
+    'lastUpdated' => '1253789372',
+    'message' => 'Minimum aantal klikken'
+  },
+  'minimum clicks help' => {
+    'lastUpdated' => '1253789443',
+    'message' => 'Dit stelt het minimum aantal kliks in dat een gebruiker moet kopen bij het aanschaffen van een advertentie voor deze ruimte.'
+  },
+  'minimum impressions' => {
+    'lastUpdated' => '1253789429',
+    'message' => 'Minimum aantal impressies'
+  },
+  'minimum impressions help' => {
+    'lastUpdated' => '1253789456',
+    'message' => 'Dit stelt het minimum aantal impressies in dat een gebruiker moet kopen bij het aanschaffen van een advertentie voor deze ruimte.'
+  },
   'name' => {
     'lastUpdated' => '1201435646',
     'message' => 'Naam'

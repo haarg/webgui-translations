@@ -1,9 +1,33 @@
 package WebGUI::i18n::Dutch::Asset_AdSku;
 use utf8;
 our $I18N = {
+  'adSkuDescription' => {
+    'lastUpdated' => '1253789790',
+    'message' => 'De beschrijving van dit Asset.'
+  },
+  'adSkuTitle' => {
+    'lastUpdated' => '1253789798',
+    'message' => 'De titel van dit Asset.'
+  },
   'assetName' => {
     'lastUpdated' => '1248086871',
     'message' => 'Advertentie verkoop'
+  },
+  'clickDiscount' => {
+    'lastUpdated' => '1253789826',
+    'message' => 'Toont de beschikbare kortingen bij het groot aankopen van kliks.'
+  },
+  'clickPrice' => {
+    'lastUpdated' => '1253789837',
+    'message' => 'De prijs per klik'
+  },
+  'continueShoppingUrl' => {
+    'lastUpdated' => '1253789846',
+    'message' => 'De URL waar de Advertentie weer normaal getoond wordt.'
+  },
+  'error_msg' => {
+    'lastUpdated' => '1253789858',
+    'message' => 'Fouten tijdens het invullen van het formulier. De fouten worden door break tags gescheiden.'
   },
   'form added to cart thanks' => {
     'lastUpdated' => '1248086978',
@@ -97,6 +121,62 @@ our $I18N = {
     'lastUpdated' => '1248088930',
     'message' => '%f per impressie'
   },
+  'formAdId' => {
+    'lastUpdated' => '1253789582',
+    'message' => 'Verborgen formulierelement, dat de unieke ID van de advertentie bevat.'
+  },
+  'formClicks' => {
+    'lastUpdated' => '1253789592',
+    'message' => 'Formulier waar de gebruiker het gewenste aantal klikken, dat de gebruiker wilt kopen, in kan vullen.'
+  },
+  'formFooter' => {
+    'lastUpdated' => '1253789599',
+    'message' => 'HTML code waarmee het aankoopformulier van de advertentie be&euml;indigd wordt.'
+  },
+  'formHeader' => {
+    'lastUpdated' => '1253789608',
+    'message' => 'HTML code voor het beginnen van het advertentie aankoopformulier.'
+  },
+  'formImage' => {
+    'lastUpdated' => '1253789616',
+    'message' => 'Formulier voor het uploaden van een afbeelding van de advertentie.'
+  },
+  'formImpressions' => {
+    'lastUpdated' => '1253789625',
+    'message' => 'Formulier voor het invullen van het aantal te kopen impressies.'
+  },
+  'formLink' => {
+    'lastUpdated' => '1253789639',
+    'message' => 'Formulier waar een gebruiker de URL van de advertentie link in kan voeren.'
+  },
+  'formSubmit' => {
+    'lastUpdated' => '1253789647',
+    'message' => 'Een knop waarmee het formulier ingezonden wordt.'
+  },
+  'formTitle' => {
+    'lastUpdated' => '1253789658',
+    'message' => 'Formulier voor het invoeren ban de titel van de advertentie.'
+  },
+  'hasAddedToCart' => {
+    'lastUpdated' => '1253789668',
+    'message' => 'Een functie die waar is als de gebruiker net een advertentie gekocht heeft.'
+  },
+  'impressionDiscount' => {
+    'lastUpdated' => '1253789687',
+    'message' => 'Toont welke kortingen beschikbaar zijn bij het aankopen van grote aantallen impressies.'
+  },
+  'impressionPrice' => {
+    'lastUpdated' => '1253789695',
+    'message' => 'De prijs per impressie'
+  },
+  'manage template title' => {
+    'lastUpdated' => '1253789704',
+    'message' => 'Beheer advertentieverkoop sjabloon'
+  },
+  'manageLink' => {
+    'lastUpdated' => '1253789712',
+    'message' => 'De URL naar het scherm waar alle advertenties staan die door de gebruiker gekocht zijn.'
+  },
   'minimum clicks' => {
     'lastUpdated' => '1251885292',
     'message' => 'Er moeten minimaal %d klikken gekocht worden.'
@@ -104,6 +184,18 @@ our $I18N = {
   'minimum impressions' => {
     'lastUpdated' => '1251885313',
     'message' => 'Er moeten minimaal %d impressies gekocht worden.'
+  },
+  'minimumClicks' => {
+    'lastUpdated' => '1253789510',
+    'message' => 'Toont het minimum aantal te kopen kliks.'
+  },
+  'minimumImpressions' => {
+    'lastUpdated' => '1253789530',
+    'message' => 'Toont het minimum aantal te kopen impressies.'
+  },
+  'myAds' => {
+    'lastUpdated' => '1253789560',
+    'message' => 'Een functie die de informatie ophaalt van alle advertenties die door de huidige gebruiker gekocht zijn.'
   },
   'property ad Space help' => {
     'lastUpdated' => '1248087856',
@@ -182,6 +274,26 @@ aangekochte objecten. Dus 5@1000 geeft een korting van 5 procent bij
   'property purchase template help' => {
     'lastUpdated' => '1248088987',
     'message' => 'Selecteer een sjabloon voor het aankopen van advertentieruimte.'
+  },
+  'rowClicks' => {
+    'lastUpdated' => '1253789735',
+    'message' => 'Het aantal kliks dat voor deze advertentie gekocht zijn en het aantal kliks dat tot nu toe verbruikt is.'
+  },
+  'rowImpressions' => {
+    'lastUpdated' => '1253789749',
+    'message' => 'Het aantal impressies dat voor deze advertentie gekocht zijn en het aantal impressies dat tot nu toe verbruikt is.'
+  },
+  'rowRenewLink' => {
+    'lastUpdated' => '1253789758',
+    'message' => 'Een link naar het scherm waar de gebruiker extra kliks en impressies kan kopen en de advertentie kan bewerken.'
+  },
+  'rowTitle' => {
+    'lastUpdated' => '1253789766',
+    'message' => 'De titel van een advertentie'
+  },
+  'view template title' => {
+    'lastUpdated' => '1253789775',
+    'message' => 'Advertentieverkoop bekijk sjabloon'
   }
 }
 ;
