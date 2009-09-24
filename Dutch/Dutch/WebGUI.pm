@@ -2507,8 +2507,8 @@ LongTruncOk=1'
     'message' => 'Inhoud help'
   },
   'help index' => {
-    'lastUpdated' => '1156169834',
-    'message' => 'Index'
+    'lastUpdated' => '1253798015',
+    'message' => 'Help index'
   },
   'help toc' => {
     'lastUpdated' => '1156169569',

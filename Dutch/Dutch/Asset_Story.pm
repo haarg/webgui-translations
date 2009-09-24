@@ -245,6 +245,10 @@ our $I18N = {
     'lastUpdated' => '1248178498',
     'message' => 'Foto URL'
   },
+  'photoWidth' => {
+    'lastUpdated' => '1253797571',
+    'message' => 'De breedte van foto\'s, ingesteld in het verhalenarchief van dit verhaal.'
+  },
   'photo_form_loop' => {
     'lastUpdated' => '1248968131',
     'message' => 'Een functie die subformulieren voor alle ingeladen foto\'s ophaalt een een leeg formulier voor het toevoegen van nieuwe foto\'s.'

@@ -1,6 +1,10 @@
 package WebGUI::i18n::Dutch::Asset_StoryTopic;
 use utf8;
 our $I18N = {
+  'Read more stories' => {
+    'lastUpdated' => '1253797594',
+    'message' => 'Lees meer verhalen'
+  },
   'assetName' => {
     'lastUpdated' => '1248182194',
     'message' => 'Verhaal op onderwep'

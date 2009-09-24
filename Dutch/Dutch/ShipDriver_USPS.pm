@@ -33,6 +33,10 @@ our $I18N = {
     'lastUpdated' => '1248172879',
     'message' => 'Prioriteit, Vast bedrag stelsel'
   },
+  'priority variable' => {
+    'lastUpdated' => '1253797985',
+    'message' => 'Eigenschap, box op maat'
+  },
   'ship type' => {
     'lastUpdated' => '1248172889',
     'message' => 'Type verzending'
