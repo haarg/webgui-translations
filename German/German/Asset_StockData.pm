@@ -158,8 +158,8 @@ our $I18N = {
     'message' => 'Stock List Template Variables'
   },
   'isVisitor' => {
-    'lastUpdated' => '1252340332',
-    'message' => 'Ist der aktuelle Nutzer Besucher? Liefert "wahr" wenn sich der Benutzer gegenüber dem System authentifiziert hat.'
+    'lastUpdated' => '1253865462',
+    'message' => 'Ist der aktuelle Nutzer Besucher? Liefert "wahr" wenn sich der Benutzer gegenüber dem System nicht authentifiziert hat.'
   },
   'lastUpdate.default' => {
     'lastUpdated' => '1252343334',
