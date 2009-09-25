@@ -585,6 +585,10 @@ our $I18N = {
     'lastUpdated' => '1178802889',
     'message' => 'Die Anzahl der Daten Einträge dieses Daten Formulars.'
   },
+  'help record.noloop' => {
+    'lastUpdated' => '1253863904',
+    'message' => 'Durch den Namen erhalten Sie jeden Feldwert, Bsp.: record.noloop.subject'
+  },
   'helpvar form.captcha' => {
     'lastUpdated' => '1217254467',
     'message' => 'Das Eingabefeld und Bild für das CAPTCHA'
