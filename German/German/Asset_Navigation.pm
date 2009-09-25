@@ -134,8 +134,8 @@ our $I18N = {
     'message' => 'Navigation'
   },
   'assetsToInclude' => {
-    'lastUpdated' => '1225318889',
-    'message' => 'Zeilenweise können T&ouml;chter von Assets zur Aufnahme in die Navigation aufgenommen werden. Vorgänger, der betreffende Asset, Siblings, abgeleitete und/oder komplette B&auml;ume.'
+    'lastUpdated' => '1253864981',
+    'message' => 'Zeilenweise können Kinder von Assets in die Navigation aufgenommen werden. Bezug ist die Verwandtschaft. Vorgänger, das betreffende Asset, Geschwister, abgeleitete und/oder komplette Bäume.'
   },
   'currentPage.assetId' => {
     'lastUpdated' => '1178713251',
