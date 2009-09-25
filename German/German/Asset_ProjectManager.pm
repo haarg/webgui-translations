@@ -134,8 +134,8 @@ our $I18N = {
     'message' => 'Der vollständige Link der das Benutzer hinzufügen Popup anzeigt.'
   },
   'form.addUser.text' => {
-    'lastUpdated' => '1252350840',
-    'message' => 'Ein eindeutiger Bezeichner, der für den Link, der das Gruppe hinzufügen Popup erzeugt.'
+    'lastUpdated' => '1253865334',
+    'message' => 'Ein eindeutiger Bezeichner, der für den Link, der das Popup "Benutzer hinzufügen" erzeugt.'
   },
   'form.dependants' => {
     'lastUpdated' => '1252350911',
@@ -153,17 +153,21 @@ our $I18N = {
     'lastUpdated' => '1252350984',
     'message' => 'Formularelement für das Enddatum der Aufgabe'
   },
+  'form.end.error' => {
+    'lastUpdated' => '1253865292',
+    'message' => 'Internationlaisierte Fehlermeldung wenn der Endzeitpunkt fehlt'
+  },
   'form.footer' => {
-    'lastUpdated' => '1252351066',
-    'message' => 'Wenn der Benutzer in der Gruppe ist, die Projekte hinzufügen darf, enthält diese Variable HTML-Formularcode mit dem Aufgabenbearbeitung on the fly möglich wird.'
+    'lastUpdated' => '1253865254',
+    'message' => 'Wenn der Benutzer in der Gruppe ist, die Projekte hinzufügen darf, enthält diese Variable Endcode des HTML-Formulars mit dem Aufgabenbearbeitung on the fly möglich wird.'
   },
   'form.greaterThan.error' => {
     'lastUpdated' => '1252351096',
     'message' => 'Eine internationalisierte Fehlermeldung wenn das Startdatum nach dem Enddatum liegt.'
   },
   'form.header' => {
-    'lastUpdated' => '1252351182',
-    'message' => 'Wenn der Benutzer in der Gruppe ist, die Projekte hinzufügen darf, enthält diese Variable HTML-Formularcode mit dem Aufgabenbearbeitung on the fly möglich wird.'
+    'lastUpdated' => '1253865210',
+    'message' => 'Wenn der Benutzer in der Gruppe ist, die Projekte hinzufügen darf, enthält diese Variable den Startcode des HTML-Formulars mit dem Aufgabenbearbeitung on the fly möglich wird.'
   },
   'form.invalidMove.error' => {
     'lastUpdated' => '1252351272',
@@ -455,11 +459,11 @@ our $I18N = {
     'message' => 'Eine Bedingung die anzeigt, ob dieser Benutzer Mitglieder einer Gruppe ist, die Projekte hinzufügen darf.'
   },
   'project.complete.data.float' => {
-    'lastUpdated' => '1252357064',
+    'lastUpdated' => '1253865152',
     'message' => 'Prozentuale Fertigstellung des Projekts, als Gleitkommazahl mit einer Genauigkeit von zwei Nachkommastellen.'
   },
   'project.complete.data.int' => {
-    'lastUpdated' => '1252357273',
+    'lastUpdated' => '1253865141',
     'message' => 'Prozentualer Fortschritt des Projektes als Integerwert'
   },
   'project.complete.label' => {
@@ -515,8 +519,8 @@ our $I18N = {
     'message' => 'Wenn der aktuelle Benutzer die Berechtigung hat, Projekte zu bearbeiten, enthält diese Variable eine URL, um das Projekt zu bearbeiten.'
   },
   'project.endDate.data' => {
-    'lastUpdated' => '1252358619',
-    'message' => 'Projekt-Startzeitpunkt im Format YYYY-MM-DD. Wurde kein Startzeitpunkt festgelegt, dann eine kurze internationalisierte Meldung.'
+    'lastUpdated' => '1253865127',
+    'message' => 'Projekt-Endeitpunkt im Format YYYY-MM-DD. Wurde kein Endzeitpunkt festgelegt, dann eine kurze internationalisierte Meldung.'
   },
   'project.endDate.label' => {
     'lastUpdated' => '1252358657',
