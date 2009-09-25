@@ -129,6 +129,22 @@ our $I18N = {
     'lastUpdated' => '1193070194',
     'message' => 'Werbeplatz konfigurieren.'
   },
+  'minimum clicks' => {
+    'lastUpdated' => '1253863794',
+    'message' => 'Mindestzahl Clicks'
+  },
+  'minimum clicks help' => {
+    'lastUpdated' => '1253863787',
+    'message' => 'Legt die Mindestanzahl an Klicks fest, die beim Kauf dieser Werbefläche erworben werden müssen.'
+  },
+  'minimum impressions' => {
+    'lastUpdated' => '1253863809',
+    'message' => 'Mindestzahl Impressions'
+  },
+  'minimum impressions help' => {
+    'lastUpdated' => '1253863832',
+    'message' => 'Legt die Mindestanzahl an Impressions fest, die beim Kauf dieser Werbefläche erworben werden müssen.'
+  },
   'name' => {
     'lastUpdated' => '1153201298',
     'message' => 'Name'
