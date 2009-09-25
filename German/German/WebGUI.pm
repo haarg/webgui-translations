@@ -2495,8 +2495,8 @@ Kopieren Sie ggf. Dateien und fügen Sie diese in den Editor ein.'
     'message' => 'Hilfe Inhalt'
   },
   'help index' => {
-    'lastUpdated' => '1178619057',
-    'message' => 'Index'
+    'lastUpdated' => '1253863955',
+    'message' => 'Hilfe-Index'
   },
   'help toc' => {
     'lastUpdated' => '1178619068',
