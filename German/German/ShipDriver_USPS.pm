@@ -33,6 +33,10 @@ our $I18N = {
     'lastUpdated' => '1251665210',
     'message' => 'Priority, Flat Rate Box'
   },
+  'priority variable' => {
+    'lastUpdated' => '1253864000',
+    'message' => 'Priority, Custom box'
+  },
   'ship type' => {
     'lastUpdated' => '1251665218',
     'message' => 'Versandart'
