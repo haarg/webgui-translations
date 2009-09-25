@@ -241,6 +241,10 @@ our $I18N = {
     'lastUpdated' => '1252334589',
     'message' => 'Photo-URL'
   },
+  'photoWidth' => {
+    'lastUpdated' => '1253865063',
+    'message' => 'Breite der Photos, im Berichtarchiv für diesen Bericht definiert.'
+  },
   'photo_form_loop' => {
     'lastUpdated' => '1252334659',
     'message' => 'Eine Schleife, die Unterformulare für alle Photos enthält die geladen wurden und ein Leerformular zum Upload neuer Photos'
