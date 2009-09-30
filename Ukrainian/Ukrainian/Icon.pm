@@ -1,80 +1,83 @@
 package WebGUI::i18n::Ukrainian::Icon;
 use utf8;
-
 our $I18N = {
-          'Move Up' => {
-                         'lastUpdated' => 1214499145,
-                         'message' => 'Змістити нагору'
-                       },
-          'Move Left' => {
-                           'lastUpdated' => 1214499359,
-                           'message' => 'перемістити вліво'
-                         },
-          'View' => {
-                      'lastUpdated' => 1214498443,
-                      'message' => 'Перегляд'
-                    },
-          'Page Settings' => {
-                               'lastUpdated' => 1214498538,
-                               'message' => 'Налаштування сторінки'
-                             },
-          'Move To Bottom' => {
-                                'lastUpdated' => 1214499086,
-                                'message' => 'Змістити до самого низу'
-                              },
-          'Create Shortcut' => {
-                                 'lastUpdated' => 1214499246,
-                                 'message' => 'Зробити ярлик'
-                               },
-          'Cut' => {
-                     'lastUpdated' => 1214498234,
-                     'message' => 'вирізати'
-                   },
-          'Move To Top' => {
-                             'lastUpdated' => 1214499132,
-                             'message' => 'Змістити до самої гори'
-                           },
-          'Delete' => {
-                        'lastUpdated' => 1214498185,
-                        'message' => 'Видалити'
-                      },
-          'locked' => {
-                        'lastUpdated' => 1214498270,
-                        'message' => 'Заблоковано'
-                      },
-          'Copy' => {
-                      'lastUpdated' => 1214498170,
-                      'message' => 'Копіювати'
-                    },
-          'Wobject Settings' => {
-                                  'lastUpdated' => 1214499207,
-                                  'message' => 'Налаштування об\'єкту'
-                                },
-          'Edit' => {
-                      'lastUpdated' => 1214498297,
-                      'message' => 'Редагувати'
-                    },
-          'Manage' => {
-                        'lastUpdated' => 1214498255,
-                        'message' => 'Керувати'
-                      },
-          'Move Down' => {
-                           'lastUpdated' => 1214499054,
-                           'message' => 'Змістити униз'
-                         },
-          'Move Right' => {
-                            'lastUpdated' => 1214499406,
-                            'message' => 'перемістити вправо'
-                          },
-          'Drag' => {
-                      'lastUpdated' => 1214498344,
-                      'message' => 'Перетягти'
-                    },
-          'Export' => {
-                        'lastUpdated' => 1214498511,
-                        'message' => 'Експорт'
-                      }
-        }
+  'Move Up' => {
+    'lastUpdated' => 1214499145,
+    'message' => "\x{417}\x{43c}\x{456}\x{441}\x{442}\x{438}\x{442}\x{438} \x{43d}\x{430}\x{433}\x{43e}\x{440}\x{443}"
+  },
+  'Move Left' => {
+    'lastUpdated' => 1214499359,
+    'message' => "\x{43f}\x{435}\x{440}\x{435}\x{43c}\x{456}\x{441}\x{442}\x{438}\x{442}\x{438} \x{432}\x{43b}\x{456}\x{432}\x{43e}"
+  },
+  'Page Settings' => {
+    'lastUpdated' => 1214498538,
+    'message' => "\x{41d}\x{430}\x{43b}\x{430}\x{448}\x{442}\x{443}\x{432}\x{430}\x{43d}\x{43d}\x{44f} \x{441}\x{442}\x{43e}\x{440}\x{456}\x{43d}\x{43a}\x{438}"
+  },
+  'View' => {
+    'lastUpdated' => 1214498443,
+    'message' => "\x{41f}\x{435}\x{440}\x{435}\x{433}\x{43b}\x{44f}\x{434}"
+  },
+  'Move To Bottom' => {
+    'lastUpdated' => 1214499086,
+    'message' => "\x{417}\x{43c}\x{456}\x{441}\x{442}\x{438}\x{442}\x{438} \x{434}\x{43e} \x{441}\x{430}\x{43c}\x{43e}\x{433}\x{43e} \x{43d}\x{438}\x{437}\x{443}"
+  },
+  'Create Shortcut' => {
+    'lastUpdated' => 1214499246,
+    'message' => "\x{417}\x{440}\x{43e}\x{431}\x{438}\x{442}\x{438} \x{44f}\x{440}\x{43b}\x{438}\x{43a}"
+  },
+  'Cut' => {
+    'lastUpdated' => 1214498234,
+    'message' => "\x{432}\x{438}\x{440}\x{456}\x{437}\x{430}\x{442}\x{438}"
+  },
+  'Move To Top' => {
+    'lastUpdated' => 1214499132,
+    'message' => "\x{417}\x{43c}\x{456}\x{441}\x{442}\x{438}\x{442}\x{438} \x{434}\x{43e} \x{441}\x{430}\x{43c}\x{43e}\x{457} \x{433}\x{43e}\x{440}\x{438}"
+  },
+  'Delete' => {
+    'lastUpdated' => 1214498185,
+    'message' => "\x{412}\x{438}\x{434}\x{430}\x{43b}\x{438}\x{442}\x{438}"
+  },
+  'locked' => {
+    'lastUpdated' => 1214498270,
+    'message' => "\x{417}\x{430}\x{431}\x{43b}\x{43e}\x{43a}\x{43e}\x{432}\x{430}\x{43d}\x{43e}"
+  },
+  'Copy' => {
+    'lastUpdated' => 1214498170,
+    'message' => "\x{41a}\x{43e}\x{43f}\x{456}\x{44e}\x{432}\x{430}\x{442}\x{438}"
+  },
+  'Wobject Settings' => {
+    'lastUpdated' => 1214499207,
+    'message' => "\x{41d}\x{430}\x{43b}\x{430}\x{448}\x{442}\x{443}\x{432}\x{430}\x{43d}\x{43d}\x{44f} \x{43e}\x{431}'\x{454}\x{43a}\x{442}\x{443}"
+  },
+  'Edit' => {
+    'lastUpdated' => 1214498297,
+    'message' => "\x{420}\x{435}\x{434}\x{430}\x{433}\x{443}\x{432}\x{430}\x{442}\x{438}"
+  },
+  'Manage' => {
+    'lastUpdated' => 1214498255,
+    'message' => "\x{41a}\x{435}\x{440}\x{443}\x{432}\x{430}\x{442}\x{438}"
+  },
+  'Move Down' => {
+    'lastUpdated' => 1214499054,
+    'message' => "\x{417}\x{43c}\x{456}\x{441}\x{442}\x{438}\x{442}\x{438} \x{443}\x{43d}\x{438}\x{437}"
+  },
+  'Copy help' => {
+    'lastUpdated' => 1215289325,
+    'message' => "\x{41f}\x{43e}\x{43a}\x{43b}\x{430}\x{441}\x{442}\x{438} \x{43a}\x{43e}\x{43f}\x{456}\x{44e} \x{446}\x{44c}\x{43e}\x{433}\x{43e} \x{43c}\x{43e}\x{434}\x{443}\x{43b}\x{44e} (Asset) \x{434}\x{43e} \x{431}\x{443}\x{444}\x{435}\x{440}\x{443} \x{43e}\x{431}\x{43c}\x{456}\x{43d}\x{443}."
+  },
+  'Move Right' => {
+    'lastUpdated' => 1214499406,
+    'message' => "\x{43f}\x{435}\x{440}\x{435}\x{43c}\x{456}\x{441}\x{442}\x{438}\x{442}\x{438} \x{432}\x{43f}\x{440}\x{430}\x{432}\x{43e}"
+  },
+  'Drag' => {
+    'lastUpdated' => 1214498344,
+    'message' => "\x{41f}\x{435}\x{440}\x{435}\x{442}\x{44f}\x{433}\x{442}\x{438}"
+  },
+  'Export' => {
+    'lastUpdated' => 1214498511,
+    'message' => "\x{415}\x{43a}\x{441}\x{43f}\x{43e}\x{440}\x{442}"
+  }
+}
 ;
 
 1;
