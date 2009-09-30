@@ -13,6 +13,14 @@ our $I18N = {
     'lastUpdated' => '1236467395',
     'message' => "\x{41e}\x{442}\x{43c}\x{435}\x{43d}\x{438}\x{442}\x{44c}"
   },
+  'compose message label' => {
+    'lastUpdated' => '1253143938',
+    'message' => "\x{421}\x{43e}\x{437}\x{434}\x{430}\x{442}\x{44c} \x{43d}\x{43e}\x{432}\x{43e}\x{435} \x{441}\x{43e}\x{43e}\x{431}\x{449}\x{435}\x{43d}\x{438}\x{435}"
+  },
+  'date label' => {
+    'lastUpdated' => '1253143953',
+    'message' => "\x{414}\x{430}\x{442}\x{430}"
+  },
   'delete label' => {
     'lastUpdated' => '1236467405',
     'message' => "\x{423}\x{434}\x{430}\x{43b}\x{438}\x{442}\x{44c}"
