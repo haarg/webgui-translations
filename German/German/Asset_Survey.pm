@@ -758,7 +758,7 @@ our $I18N = {
     'message' => 'Eine Schleife mit den Antworten zu dieser Frage'
   },
   'assetName' => {
-    'lastUpdated' => '1252321928',
+    'lastUpdated' => '1254566450',
     'message' => 'Umfrage (beta)'
   },
   'back' => {
