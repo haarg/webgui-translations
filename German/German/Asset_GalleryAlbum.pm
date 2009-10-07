@@ -1,6 +1,26 @@
 package WebGUI::i18n::German::Asset_GalleryAlbum;
 use utf8;
 our $I18N = {
+  'Adding %s to album' => {
+    'lastUpdated' => '1254902440',
+    'message' => 'Dem Album %s hinzufügen'
+  },
+  'Extracting archive' => {
+    'lastUpdated' => '1254902451',
+    'message' => 'Archiv entpacken'
+  },
+  'Found file: %s' => {
+    'lastUpdated' => '1254902470',
+    'message' => 'Gefundene Datei: %s'
+  },
+  'Requesting commit for version tag' => {
+    'lastUpdated' => '1254902486',
+    'message' => 'Commit für Versions-Tag anfordern'
+  },
+  'Uploading archive' => {
+    'lastUpdated' => '1254902501',
+    'message' => 'Archiv hochladen'
+  },
   'add photo' => {
     'lastUpdated' => '1244063236',
     'message' => 'Bild hinzufügen'

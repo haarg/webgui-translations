@@ -455,6 +455,10 @@ Wenn Sie "verborgen" oder "sichtbar" wählen, geben Sie bitte auch einen Standar
     'lastUpdated' => '1240582368',
     'message' => 'überschreiben'
   },
+  'owner' => {
+    'lastUpdated' => '1254901307',
+    'message' => 'Eigentümer'
+  },
   'possible values description' => {
     'lastUpdated' => '1251504838',
     'message' => 'Dieses Feld wird für Listentypen (Checkboxen, Auswahllisten, ..) genutzt. Geben Sie die gewünschten Werte zeilenweise ein.<br>Wenn Sie eine abweichende Beschriftung angeben möchten, müssen diese folgendermaßen formatiert werden:<br><span><pre>{<br>  "key1"=&gt;"value1",<br>  "key2"=&gt;"value2",<br>  "key3"=&gt;"value3"<br>  ...<br>}<br></pre></span>Klammern, Anführungszeichen, usw. Ersetzen Sie einfach <span>"key1"/"value1" mit Ihren eignen Schlüsselname/Wert- Paaren<br></span>'

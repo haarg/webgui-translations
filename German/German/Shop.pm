@@ -9,6 +9,14 @@ our $I18N = {
     'lastUpdated' => '1228748625',
     'message' => 'Storniert'
   },
+  'Choose a shipping method' => {
+    'lastUpdated' => '1254901242',
+    'message' => 'Wählen Sie eine Versandart.'
+  },
+  'Choose a shipping method and update the cart to checkout' => {
+    'lastUpdated' => '1254901286',
+    'message' => 'Wählen Sie eine Versandart und aktualisieren Sie den Warenkorb um zu bezahlen.'
+  },
   'No shippers' => {
     'lastUpdated' => '1251893840',
     'message' => 'Es sind keine Versandtreiber konfiguriert. Benutzer können nicht bezahlen, bevor nicht mindestens einer konfiguriert ist.'

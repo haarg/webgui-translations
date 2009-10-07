@@ -230,8 +230,16 @@ our $I18N = {
     'message' => 'Erzeugen Sie ihr Template, in dem sie Template Kommandos und Variablen, Makros und HTML benutzen.'
   },
   'template error' => {
-    'lastUpdated' => '1245621658',
-    'message' => 'Sie haben einen Syntaxfehler in diesem Template, %s, %s. Bitte korrigieren Sie diesen.'
+    'lastUpdated' => '1254901998',
+    'message' => 'Sie haben einen Syntaxfehler in diesem Template, %s, %s, %s. Bitte korrigieren Sie diesen.'
+  },
+  'template in clipboard' => {
+    'lastUpdated' => '1254902008',
+    'message' => 'Template in Zwischenablage'
+  },
+  'template in trash' => {
+    'lastUpdated' => '1254902021',
+    'message' => 'Template im Papierkorb'
   },
   'template parsers' => {
     'lastUpdated' => '1179922723',

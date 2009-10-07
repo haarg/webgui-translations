@@ -102,7 +102,7 @@ our $I18N = {
     'message' => 'Datum Inanspruchnahme'
   },
   'default thank you message' => {
-    'lastUpdated' => '1241303443',
+    'lastUpdated' => '1254902412',
     'message' => 'Das Abonnement wurde in den Warenkorb gelegt.'
   },
   'delete batch confirm' => {

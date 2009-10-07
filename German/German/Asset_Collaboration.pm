@@ -490,6 +490,10 @@ our $I18N = {
     'lastUpdated' => '1234737911',
     'message' => 'hat einen Beitrag zu einem Ihrer Abonnements geschickt.'
   },
+  'hideProfileUrl' => {
+    'lastUpdated' => '1254901067',
+    'message' => 'Eine Bedingung die wahr ist, wenn der Verfasser oder der aktuelle Nutzer "Besucher" ist. Im ersten Fall ist das Besucher-Profil nicht sichtbar, im zweiten Fall ist der Besucher nicht berechtigt, die anderen Profile einzusehen.'
+  },
   'id' => {
     'lastUpdated' => '1179752865',
     'message' => 'Die assetId dieses Posts.'
@@ -609,6 +613,10 @@ our $I18N = {
   'lastReply.dateSubmitted.human' => {
     'lastUpdated' => '1179753323',
     'message' => 'Datum, an dem die letzte Antwort abgeschickt wurde, im &quot;human-readable&quot; Format.'
+  },
+  'lastReply.hideProfileUrl' => {
+    'lastUpdated' => '1254901120',
+    'message' => 'Eine Bedingung die wahr ist, wenn der Verfasser der letzten Antwort oder der aktuelle Nutzer "Besucher" ist. Im ersten Fall ist das Besucher-Profil nicht sichtbar, im zweiten Fall ist der Besucher nicht berechtigt, die anderen Profile einzusehen.'
   },
   'lastReply.label' => {
     'lastUpdated' => '1179753344',
@@ -813,6 +821,10 @@ our $I18N = {
   'post_loop' => {
     'lastUpdated' => '1179755923',
     'message' => 'Eine Liste von Posts für dieses Asset.'
+  },
+  'post_loop_user.isVisitor' => {
+    'lastUpdated' => '1254901157',
+    'message' => 'Eine Bedingung die wahr ist, wenn der Verfasser "Besucher" ist.'
   },
   'posts/page' => {
     'lastUpdated' => '1179755940',
