@@ -9,6 +9,14 @@ our $I18N = {
     'lastUpdated' => '1213631836',
     'message' => 'Geannuleerd'
   },
+  'Choose a shipping method' => {
+    'lastUpdated' => '1254902568',
+    'message' => 'Kies een verzendmethode'
+  },
+  'Choose a shipping method and update the cart to checkout' => {
+    'lastUpdated' => '1254902601',
+    'message' => 'Kies een verzendmethode en vernieuw de winkelwagen om af te rekenen.'
+  },
   'No shippers' => {
     'lastUpdated' => '1251885498',
     'message' => 'Er zijn geen verzendopties geconfigureerd. Gebruikers kunnen hun bestelling niet voltooien tenzij er minimaal een optie is geconfigureerd.'

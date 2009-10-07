@@ -491,6 +491,10 @@ Gebruik van avatars vermindert de snelheid van het collaboratiesysteem.'
     'lastUpdated' => '1231520313',
     'message' => 'heeft gereageerd op &eacute;&eacute;n van uw forumonderwerpen.'
   },
+  'hideProfileUrl' => {
+    'lastUpdated' => '1254902274',
+    'message' => 'Een functie die waar is als degene die post een bezoeker is of als de huidige gebruiker een bezoeker is. In het eerste geval is het bezoekers profiel niet zichtbaar. In het tweede geval kan de bezoeker geen profielen bekijken.'
+  },
   'id' => {
     'lastUpdated' => '1150098818',
     'message' => '<div class="&quot;&quot;helpIndent&quot;&quot;"><p>De AssetId van deze post. </p></div>'
@@ -610,6 +614,10 @@ Gebruik van avatars vermindert de snelheid van het collaboratiesysteem.'
   'lastReply.dateSubmitted.human' => {
     'lastUpdated' => '1150100239',
     'message' => '<div class="&quot;&quot;helpIndent&quot;&quot;"><p>De datum waarop het laatste antwoord was toegevoegd, in een normaal leesbaar formaat.</p></div>'
+  },
+  'lastReply.hideProfileUrl' => {
+    'lastUpdated' => '1254902308',
+    'message' => 'Een functie die waar is als de poster van de laatste post een bezoeker is of als de huidige gebruiker een bezoeker is. In het eerste geval is het bezoekers profiel niet zichtbaar. In het tweede geval kan de bezoeker geen profielen bekijken.'
   },
   'lastReply.label' => {
     'lastUpdated' => '1150720902',
@@ -818,6 +826,10 @@ Nadat u deze instelling wijzigt worden niet alle  bestaande foto\'s opnieuw verk
   'post_loop' => {
     'lastUpdated' => '1150098761',
     'message' => '<p>Een lijst met posts in deze collaboratie asset.</p>'
+  },
+  'post_loop_user.isVisitor' => {
+    'lastUpdated' => '1254902331',
+    'message' => 'Een functie die waar is als de poster een bezoeker is.'
   },
   'posts/page' => {
     'lastUpdated' => '1166436598',

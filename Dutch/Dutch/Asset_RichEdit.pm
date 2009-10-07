@@ -402,7 +402,7 @@ our $I18N = {
     'message' => 'Link verwijderen'
   },
   'use br' => {
-    'lastUpdated' => '1204036548',
+    'lastUpdated' => '1254726560',
     'message' => '&lt;br &frasl;&gt; gebruiken bij \'Enter\' in plaats van &lt;p&gt;?'
   },
   'use br description' => {

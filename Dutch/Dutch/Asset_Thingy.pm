@@ -449,6 +449,10 @@ our $I18N = {
     'lastUpdated' => '1206447934',
     'message' => 'Overschrijven'
   },
+  'owner' => {
+    'lastUpdated' => '1254902552',
+    'message' => 'Eigenaar'
+  },
   'possible values description' => {
     'lastUpdated' => '1224076179',
     'message' => '<p>Dit veld veld wordt gebruikt voor de lijste typen (zoals aanvink lijsten en Selectie lijsten. Voer de waarden in die getoond moeten worden, &eacute;&eacute;n per regel.</p><p>Wanneer een ander label voor een waarde gewenst is, moeten de mogelijke waarden als volgt ingevoerd worden:</p><p>{</p><blockquote>&quot;key1&quot;=&gt;&quot;waarde1&quot;,<br />&quot;key2&quot;=&gt;&quot;waarde2&quot;,<br /> &quot;key3&quot;=&gt;&quot;waarde3&quot;,<br />...<br /></blockquote><p>{</p><p>Vergeet alle haakjes, komma\'s en dergelijke niet. Het enige wat gedaan moet worden is dat de key1 en waarde1 vervangen moeten worden door uw eigen naam/waarde paren. </p>'
