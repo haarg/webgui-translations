@@ -1,6 +1,10 @@
 package WebGUI::i18n::Russian::Asset_Story;
 use utf8;
 our $I18N = {
+  'ago' => {
+    'lastUpdated' => '1255129786',
+    'message' => "\x{43d}\x{430}\x{437}\x{430}\x{434}"
+  },
   'location' => {
     'lastUpdated' => '1252681988',
     'message' => "\x{420}\x{430}\x{441}\x{43f}\x{43e}\x{43b}\x{43e}\x{436}\x{435}\x{43d}\x{438}\x{435}"

@@ -38,16 +38,16 @@ our $I18N = {
     'message' => ''
   },
   'invitation sent' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => '1255114976',
+    'message' => "\x{412}\x{430}\x{448}\x{435} \x{43f}\x{440}\x{438}\x{432}\x{435}\x{442}\x{441}\x{442}\x{432}\x{438}\x{435} \x{431}\x{44b}\x{43b}\x{43e} \x{43e}\x{442}\x{43f}\x{440}\x{430}\x{432}\x{43b}\x{435}\x{43d}\x{43e}."
   },
   'invitationMessage' => {
     'lastUpdated' => undef,
     'message' => ''
   },
   'invite a friend title' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => '1255114917',
+    'message' => "\x{41f}\x{440}\x{438}\x{432}\x{435}\x{442}\x{441}\x{442}\x{432}\x{438}\x{435} \x{414}\x{440}\x{443}\x{433}\x{443}"
   },
   'invite email template body' => {
     'lastUpdated' => undef,
@@ -94,8 +94,8 @@ our $I18N = {
     'message' => "\x{421}\x{441}\x{44b}\x{43b}\x{43a}\x{430} \x{434}\x{43b}\x{44f} \x{43f}\x{43e}\x{434}\x{442}\x{432}\x{435}\x{440}\x{436}\x{434}\x{435}\x{43d}\x{438}\x{44f}\x{a0}\x{440}\x{435}\x{433}\x{438}\x{441}\x{442}\x{440}\x{430}\x{446}\x{438}\x{438}"
   },
   'subjectForm' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => '1255115024',
+    'message' => "HTML \x{43a}\x{43e}\x{434} \x{434}\x{43b}\x{44f} \x{43f}\x{43e}\x{43b}\x{44f} \"\x{442}\x{435}\x{43c}\x{430}\""
   },
   'subjectLabel' => {
     'lastUpdated' => '1203542627',
