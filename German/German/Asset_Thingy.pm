@@ -96,8 +96,8 @@ Bei "Ja/Nein" Feldern, geben Sie "yes" für "Ja" und "no" für "Nein" ein.'
     'message' => 'Löschen'
   },
   'delete thing data warning' => {
-    'lastUpdated' => '1244363570',
-    'message' => 'Möchten Sie diese Tabelle wirklich löschen? Die Aktion ist nicht versioniert und kann nicht widerrufen werden.'
+    'lastUpdated' => '1255430082',
+    'message' => 'Möchten Sie diesen Eintrag wirklich löschen? Die Aktion ist nicht versioniert und kann nicht widerrufen werden.'
   },
   'delete thing warning' => {
     'lastUpdated' => '1240997756',
