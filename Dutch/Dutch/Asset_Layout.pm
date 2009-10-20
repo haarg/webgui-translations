@@ -10,12 +10,12 @@ our $I18N = {
     'message' => 'Ga terug naar de huidige pagina.'
   },
   'asset order asc' => {
-    'lastUpdated' => '1205853260',
-    'message' => 'Tot onderaan'
+    'lastUpdated' => '1256038853',
+    'message' => 'Onderaan'
   },
   'asset order desc' => {
-    'lastUpdated' => '1205853269',
-    'message' => 'Tot bovenaan'
+    'lastUpdated' => '1256038860',
+    'message' => 'Bovenaan'
   },
   'asset order hoverHelp' => {
     'lastUpdated' => '1213628542',
