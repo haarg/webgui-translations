@@ -17,6 +17,10 @@ our $I18N = {
     'lastUpdated' => '1254902601',
     'message' => 'Kies een verzendmethode en vernieuw de winkelwagen om af te rekenen.'
   },
+  'Failed' => {
+    'lastUpdated' => '1256112986',
+    'message' => 'Mislukt'
+  },
   'No shippers' => {
     'lastUpdated' => '1251885498',
     'message' => 'Er zijn geen verzendopties geconfigureerd. Gebruikers kunnen hun bestelling niet voltooien tenzij er minimaal een optie is geconfigureerd.'
@@ -40,6 +44,14 @@ our $I18N = {
   'Shipped' => {
     'lastUpdated' => '1213968499',
     'message' => 'Verzonden'
+  },
+  'Status' => {
+    'lastUpdated' => '1256112991',
+    'message' => 'Status'
+  },
+  'Success' => {
+    'lastUpdated' => '1256112997',
+    'message' => 'Succes'
   },
   'add a new address' => {
     'lastUpdated' => '1213631850',
@@ -757,6 +769,14 @@ our $I18N = {
     'lastUpdated' => '1215446262',
     'message' => 'Drie maanden'
   },
+  'receipt email template' => {
+    'lastUpdated' => '1256113024',
+    'message' => 'Ontvangstbewijs e-mail sjabloon'
+  },
+  'receipt email template help' => {
+    'lastUpdated' => '1256113070',
+    'message' => 'Welk sjabloon moet gebruikt worden om een e-mail te genereren die aan de gebruiker verzonden wordt om hun aankoop te bevestigen?'
+  },
   'refund' => {
     'lastUpdated' => '1215446275',
     'message' => 'Terugstorten'
@@ -772,6 +792,14 @@ our $I18N = {
   'required minimum order amount' => {
     'lastUpdated' => '1240381651',
     'message' => 'Minimaal orderbedrag'
+  },
+  'sale notification group' => {
+    'lastUpdated' => '1256113082',
+    'message' => 'Verkoop notificatie groep'
+  },
+  'sale notification group help' => {
+    'lastUpdated' => '1256113102',
+    'message' => 'Wie moet op de hoogte gehouden worden van nieuwe transacties?'
   },
   'saveButton help' => {
     'lastUpdated' => '1216732492',

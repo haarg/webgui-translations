@@ -1,6 +1,14 @@
 package WebGUI::i18n::Dutch::ShipDriver_USPS;
 use utf8;
 our $I18N = {
+  'add insurance' => {
+    'lastUpdated' => '1256112736',
+    'message' => 'Verzenden met verzekering?'
+  },
+  'add insurance help' => {
+    'lastUpdated' => '1256112843',
+    'message' => 'Als dit op ja ingesteld is, zal de verzendingsmodule naar de kosten voor de verzekering van de verzending vragen. Dit bedrag wordt toegevoegd aan de verzendkosten. Wanneer er geen verzekering beschikbaar is, zal deze optie niet aan de gebruiker getoond worden.'
+  },
   'express' => {
     'lastUpdated' => '1248172620',
     'message' => 'Express, normaal formaat'
@@ -16,6 +24,17 @@ our $I18N = {
   'instructions' => {
     'lastUpdated' => '1248172723',
     'message' => 'Instructies voor registratie'
+  },
+  'insurance rates' => {
+    'lastUpdated' => '1256112857',
+    'message' => 'Verzekeringskosten tabel'
+  },
+  'insurance rates help' => {
+    'lastUpdated' => '1256112974',
+    'message' => 'Voer 1 veld per regel in: waarde:kosten
+waarde is de waarde van de verzending
+kosten zijn de kosten van de verzekring van die waarde
+waarde en kosten zijn getallen met een decimaalpunt zoals: 0.50 of 1.00'
   },
   'parcel post' => {
     'lastUpdated' => '1248172739',
