@@ -17,6 +17,10 @@ our $I18N = {
     'lastUpdated' => '1254901286',
     'message' => 'Wählen Sie eine Versandart und aktualisieren Sie den Warenkorb um zu bezahlen.'
   },
+  'Failed' => {
+    'lastUpdated' => '1256112658',
+    'message' => 'Fehler'
+  },
   'No shippers' => {
     'lastUpdated' => '1251893840',
     'message' => 'Es sind keine Versandtreiber konfiguriert. Benutzer können nicht bezahlen, bevor nicht mindestens einer konfiguriert ist.'
@@ -40,6 +44,14 @@ our $I18N = {
   'Shipped' => {
     'lastUpdated' => '1241298331',
     'message' => 'Ausgeliefert'
+  },
+  'Status' => {
+    'lastUpdated' => '1256112676',
+    'message' => 'Status'
+  },
+  'Success' => {
+    'lastUpdated' => '1256112683',
+    'message' => 'Erfolg'
   },
   'add a new address' => {
     'lastUpdated' => '1228748699',
@@ -749,6 +761,14 @@ Eine Liste mit jeder einzelnen Transaktion statt der komplette Transaktionsliste
     'lastUpdated' => '1228749224',
     'message' => 'Drei Monate'
   },
+  'receipt email template' => {
+    'lastUpdated' => '1256112730',
+    'message' => 'Template für E-Mailempfang'
+  },
+  'receipt email template help' => {
+    'lastUpdated' => '1256112849',
+    'message' => 'Welches Template soll verwandt werden, um die E-Mail zu generieren, die der Nutzer als Empfangsbestätigung seiner Bestellung erhält.'
+  },
   'refund' => {
     'lastUpdated' => '1240758373',
     'message' => 'Rückerstattung'
@@ -764,6 +784,14 @@ Eine Liste mit jeder einzelnen Transaktion statt der komplette Transaktionsliste
   'required minimum order amount' => {
     'lastUpdated' => '1240758251',
     'message' => 'Mindestauftragshöhe'
+  },
+  'sale notification group' => {
+    'lastUpdated' => '1256112868',
+    'message' => 'Gruppe für Kaufbenachrichtigungen'
+  },
+  'sale notification group help' => {
+    'lastUpdated' => '1256112886',
+    'message' => 'Wer soll über eine neue Transaktion benachrichtigt werden?'
   },
   'saveButton help' => {
     'lastUpdated' => '1240758305',

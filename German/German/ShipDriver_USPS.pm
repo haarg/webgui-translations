@@ -1,6 +1,14 @@
 package WebGUI::i18n::German::ShipDriver_USPS;
 use utf8;
 our $I18N = {
+  'add insurance' => {
+    'lastUpdated' => '1256112332',
+    'message' => 'Versicherter Versand?'
+  },
+  'add insurance help' => {
+    'lastUpdated' => '1256112478',
+    'message' => 'Wenn auf JA gesetzt, ruft das Versand-Plugin bei USPS die Kosten für die Versandversicherung ab. Diese Kosten werden zu den Gesamt-Versandkosten addiert. Ist eine Versandversicherung nicht verfügbar, wird dem Nutzer diese Option nicht angezeigt.'
+  },
   'express' => {
     'lastUpdated' => '1251664685',
     'message' => 'Express, Regular size'
@@ -16,6 +24,17 @@ our $I18N = {
   'instructions' => {
     'lastUpdated' => '1251664790',
     'message' => 'Registrierungsanweisungen'
+  },
+  'insurance rates' => {
+    'lastUpdated' => '1256112512',
+    'message' => 'Tabelle der Versicherungsgebühren'
+  },
+  'insurance rates help' => {
+    'lastUpdated' => '1256112642',
+    'message' => 'Geben Sie Zeilenweise in diesem Format ein: value:cost
+\'value\' ist der Wert des Inhalts.
+\'cost\' sind die Versicherungsgebühren für diesen Wert.
+\'value\' und \'Cost\' müssen als numerischer Wert mit Punkt als Dezimaltrenner angegeben werden. Bsp: 0.50 oder 1.00'
   },
   'parcel post' => {
     'lastUpdated' => '1251665116',
