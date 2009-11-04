@@ -2,8 +2,8 @@ package WebGUI::i18n::Dutch::Form_Captcha;
 use utf8;
 our $I18N = {
   'captcha failure' => {
-    'lastUpdated' => '1234738983',
-    'message' => 'U dient de zes cijfers, die u in het plaatje ziet, in te geven.'
+    'lastUpdated' => '1256920188',
+    'message' => 'Op het plaatje ziet u zes tekens. Neem ze over in dit vakje, ter voorkoming van spam.'
   },
   'recaptcha failure' => {
     'lastUpdated' => '1234739140',

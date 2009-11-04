@@ -173,6 +173,10 @@ our $I18N = {
     'lastUpdated' => '1190027832',
     'message' => 'Wat staat er op deze afbeelding?'
   },
+  'captcha_label' => {
+    'lastUpdated' => '1257328208',
+    'message' => 'Het woord "Captcha".'
+  },
   'close' => {
     'lastUpdated' => '1147187966',
     'message' => 'Afsluiten'
@@ -333,6 +337,10 @@ our $I18N = {
     'lastUpdated' => '1150100613',
     'message' => '<p>De URL waar documentatie staat over het formaat, RSS 2.0, van dit bestand (optioneel veld).</p>'
   },
+  'doit' => {
+    'lastUpdated' => '1257328231',
+    'message' => 'Een functie die waar is als er net een zoekopdracht is gegeven.'
+  },
   'edit' => {
     'lastUpdated' => '1147187289',
     'message' => 'Bewerken'
@@ -438,6 +446,10 @@ Gebruik van avatars vermindert de snelheid van het collaboratiesysteem.'
   'flatLayout' => {
     'lastUpdated' => '1147954419',
     'message' => 'Plat'
+  },
+  'form.footer' => {
+    'lastUpdated' => '1257328284',
+    'message' => 'Vereiste HTML voor het be&euml;indigen van het zoekformulier.'
   },
   'form.header' => {
     'lastUpdated' => '1150101768',
@@ -599,9 +611,21 @@ Gebruik van avatars vermindert de snelheid van het collaboratiesysteem.'
     'lastUpdated' => '1150101315',
     'message' => '<p>Een indicator die aangeeft of het gebruik van karma aanstaat of niet.</p>'
   },
+  'karmaRank.label' => {
+    'lastUpdated' => '1257328324',
+    'message' => 'De zinsnede "Karma rang".'
+  },
+  'karmascale.label' => {
+    'lastUpdated' => '1257328345',
+    'message' => 'De zinsnede "Karma schaal".'
+  },
   'keywords label' => {
     'lastUpdated' => '1219727709',
     'message' => 'Trefwoorden'
+  },
+  'keywords.label' => {
+    'lastUpdated' => '1257328360',
+    'message' => 'Het woord "Trefwoorden".'
   },
   'lastBuildDate' => {
     'lastUpdated' => '1207901865',
@@ -1199,9 +1223,21 @@ Nadat u deze instelling wijzigt worden niet alle  bestaande foto\'s opnieuw verk
     'lastUpdated' => '1147704495',
     'message' => 'Geef karma door'
   },
+  'transferkarma.label' => {
+    'lastUpdated' => '1257328386',
+    'message' => 'De zinsnede "Geef karma door".'
+  },
   'unarchive' => {
     'lastUpdated' => '1147704467',
     'message' => 'Haal uit het archief'
+  },
+  'unarchive all' => {
+    'lastUpdated' => '1257328428',
+    'message' => 'Haal alle draden uit het archief.'
+  },
+  'unarchive confirm' => {
+    'lastUpdated' => '1257328483',
+    'message' => 'Weet u het zeker? Alle draden na de "Archiveren na" tijdsinterval worden geherarchiveerd.'
   },
   'unlock' => {
     'lastUpdated' => '1147704444',
@@ -1282,6 +1318,10 @@ Nadat u deze instelling wijzigt worden niet alle  bestaande foto\'s opnieuw verk
   'user.canPost' => {
     'lastUpdated' => '1207832472',
     'message' => '<p>Een conditionele functie die waar is als de huidige gebruiker posts kan toevoegen aan dit collaboratie systeem. </p>'
+  },
+  'user.canStartThread' => {
+    'lastUpdated' => '1257328521',
+    'message' => 'Een conditionele functie die waar is als de huidige gebruiker draden aan dit asset kan toevoegen.'
   },
   'user.hasRead' => {
     'lastUpdated' => '1150100062',

@@ -1,6 +1,50 @@
 package WebGUI::i18n::Dutch::Asset_Event;
 use utf8;
 our $I18N = {
+  'After' => {
+    'lastUpdated' => '1257328531',
+    'message' => 'Na'
+  },
+  'By date' => {
+    'lastUpdated' => '1257328537',
+    'message' => 'Op datum'
+  },
+  'Daily' => {
+    'lastUpdated' => '1257328544',
+    'message' => 'Dagelijks'
+  },
+  'Every' => {
+    'lastUpdated' => '1257328549',
+    'message' => 'Elke'
+  },
+  'Every N months on' => {
+    'lastUpdated' => '1257328561',
+    'message' => 'Elke %s maanden op'
+  },
+  'Every N weeks on' => {
+    'lastUpdated' => '1257328571',
+    'message' => 'Elke %s weken op'
+  },
+  'Every N years on' => {
+    'lastUpdated' => '1257328584',
+    'message' => 'Elke %s jaar op'
+  },
+  'Monthly' => {
+    'lastUpdated' => '1257328591',
+    'message' => 'Maandelijks'
+  },
+  'No end' => {
+    'lastUpdated' => '1257328600',
+    'message' => 'Geen einde'
+  },
+  'No specific time' => {
+    'lastUpdated' => '1257328616',
+    'message' => 'Geen specifieke tijd (hele dag)'
+  },
+  'Specific start/end time' => {
+    'lastUpdated' => '1257328645',
+    'message' => 'Specifieke begin -en eindtijd'
+  },
   'The event end date must be after the event start date.' => {
     'lastUpdated' => '1246969482',
     'message' => 'De einddatum van het evenement moet na de begindatum vallen.'
@@ -12,6 +56,18 @@ our $I18N = {
   'UserDefinedN' => {
     'lastUpdated' => '1207837642',
     'message' => 'De waarde van dit veld. Er zijn vijf &quot;UserDefined&quot; velden, UserDefined1 tot en met UserDefined5, waarin willekeurige gegevens gestopt kunnen worden. '
+  },
+  'Weekday(s)' => {
+    'lastUpdated' => '1257328652',
+    'message' => 'Weekdagen'
+  },
+  'Weekly' => {
+    'lastUpdated' => '1257328658',
+    'message' => 'Wekelijks'
+  },
+  'Yearly' => {
+    'lastUpdated' => '1257328664',
+    'message' => 'Jaarlijks'
   },
   'add related link' => {
     'lastUpdated' => '1205852766',
@@ -60,6 +116,10 @@ our $I18N = {
   'dateSpan' => {
     'lastUpdated' => '1189336080',
     'message' => 'Een vriendelijke weergave van de start- en einddata en tijden van deze gebeurtenis.'
+  },
+  'day' => {
+    'lastUpdated' => '1257328671',
+    'message' => 'dag'
   },
   'delete' => {
     'lastUpdated' => '1205852796',
@@ -213,6 +273,10 @@ our $I18N = {
     'lastUpdated' => '1190027612',
     'message' => 'De naam van deze bijlage.'
   },
+  'first' => {
+    'lastUpdated' => '1257328676',
+    'message' => 'eerste'
+  },
   'formAttachments' => {
     'lastUpdated' => '1190027605',
     'message' => 'HTML formulier om bestanden bij te voegen of te verwijderen bij deze gebeurtenis.'
@@ -285,6 +349,10 @@ our $I18N = {
     'lastUpdated' => '1189337691',
     'message' => 'Het HTML formulier element waarmee de startdatum van de gebeurtenis kan worden ingegeven of gewijzigd.'
   },
+  'formSynopsis' => {
+    'lastUpdated' => '1257328705',
+    'message' => 'HTML formulier voor het bewerken van de samenvatting van het evenement.'
+  },
   'formTime' => {
     'lastUpdated' => '1207837716',
     'message' => 'Het HTML formulier element waarmee de start- en eindtijden van de gebeurtenis gewijzigd kunnen worden. Het heeft snelkeuze mogelijkheden voor &quot;de gehele dag&quot;, &quot;geen specifieke tijd&quot;, en een specifieke start- en eindtijd.'
@@ -312,6 +380,10 @@ our $I18N = {
   'formUserDefinedN_yesNo' => {
     'lastUpdated' => '1199700220',
     'message' => 'Een ja/nee veld voor elk van de vijf door een Gebruiker Gedefinieerde velden.'
+  },
+  'fourth' => {
+    'lastUpdated' => '1257328711',
+    'message' => 'vierde'
   },
   'group to view' => {
     'lastUpdated' => '1205852896',
@@ -352,6 +424,10 @@ our $I18N = {
   'isPublic' => {
     'lastUpdated' => '1189337932',
     'message' => 'Een voorwaardelijke variabele die waar is als de gebeurtenis door iedereen mag worden gezien. (De groep die de gebeurtenis mag bekijken is "Everyone".)'
+  },
+  'last' => {
+    'lastUpdated' => '1257328716',
+    'message' => 'laatste'
   },
   'link description' => {
     'lastUpdated' => '1205852918',

@@ -6,8 +6,8 @@ our $I18N = {
     'message' => 'Lees meer verhalen'
   },
   'assetName' => {
-    'lastUpdated' => '1248182194',
-    'message' => 'Verhaal op onderwep'
+    'lastUpdated' => '1256137326',
+    'message' => 'Verhaal op onderwerp'
   },
   'atomUrl' => {
     'lastUpdated' => '1248783067',

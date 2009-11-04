@@ -394,6 +394,14 @@ Hierbij worden het label en de bijbehorende waarde door het | teken gescheiden. 
     'lastUpdated' => '1238281324',
     'message' => 'Asset historie'
   },
+  'assetId' => {
+    'lastUpdated' => '1257328168',
+    'message' => 'De unieke id van dit Asset, in base64 gecodeerd.'
+  },
+  'assetIdHex' => {
+    'lastUpdated' => '1257328187',
+    'message' => 'De unieke id van dit Asset, in hexadecimaal formaat.'
+  },
   'assetSize' => {
     'lastUpdated' => '1170685552',
     'message' => 'De grootte van het asset in bytes. Dit is de som van alle databasevelden en de attachments.'
