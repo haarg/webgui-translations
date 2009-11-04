@@ -9,6 +9,10 @@ our $I18N = {
     'lastUpdated' => '1257331060',
     'message' => 'Klassificatie klant'
   },
+  'customer classification 01' => {
+    'lastUpdated' => '1257335794',
+    'message' => 'Wholesale'
+  },
   'customer classification 03' => {
     'lastUpdated' => '1257331082',
     'message' => 'Af en toe'
@@ -53,9 +57,29 @@ our $I18N = {
     'lastUpdated' => '1257331335',
     'message' => 'Dagelijks ophalen'
   },
+  'pickup code 03' => {
+    'lastUpdated' => '1257333085',
+    'message' => 'Afhaalbalie'
+  },
   'pickup code 06' => {
     'lastUpdated' => '1257332172',
     'message' => 'Eenmalig ophalen'
+  },
+  'pickup code 07' => {
+    'lastUpdated' => '1257335212',
+    'message' => 'On Call Air'
+  },
+  'pickup code 11' => {
+    'lastUpdated' => '1257335246',
+    'message' => 'Suggesties voor retail tarieven '
+  },
+  'pickup code 19' => {
+    'lastUpdated' => '1257335261',
+    'message' => 'Letter Center'
+  },
+  'pickup code 20' => {
+    'lastUpdated' => '1257335270',
+    'message' => 'Air Service Center'
   },
   'pickup type' => {
     'lastUpdated' => '1257332208',
@@ -65,9 +89,25 @@ our $I18N = {
     'lastUpdated' => '1257332237',
     'message' => 'Selecteer hoe de pakketten aan de UPS worden overgedragen.'
   },
+  'residential' => {
+    'lastUpdated' => '1257335286',
+    'message' => 'Huisadres'
+  },
+  'residential help' => {
+    'lastUpdated' => '1257335431',
+    'message' => 'De UPS tarieven voor het leveren op een huisadres en commerci&euml;el adres verschillen. WebGUI vraagt dit niet aan de gebruiker, dus er moeten voor beide typen doelen modules voor geconfigureerd worden.'
+  },
+  'residentialIndicator' => {
+    'lastUpdated' => '1257335450',
+    'message' => 'Huisadres of commerci&euml;el?'
+  },
   'ship service' => {
     'lastUpdated' => '1257332107',
     'message' => 'Verzend dienst'
+  },
+  'ship service help' => {
+    'lastUpdated' => '1257333057',
+    'message' => 'Selecteer een optie. Als er verschillende typen verzending gewenst zijn, maak dan een extra verzendingsmodule aan voor elke optie.'
   },
   'ship type' => {
     'lastUpdated' => '1257331760',
@@ -93,21 +133,65 @@ our $I18N = {
     'lastUpdated' => '1257332328',
     'message' => 'De postcode van de locatie vanwaar verzonden wordt.'
   },
+  'ups instructions' => {
+    'lastUpdated' => '1257335768',
+    'message' => 'Om de UPS verzendingsmethode te gebruiken, moet u eerst registeren bij de UPS op hun <span><a href="http://www.ups.com/e_comm_access/gettools_index?loc=en_US">website</a>. Zorg dat je een XML toegangssleutel krijgt. Vul de UPS gebruikersnaa, wachtwoord en toegangssleutel in in het formulier.<br><br>De module ondersteunt internationale en binnenlandse verzending vanuit de Verenigde Staten. Het gewicht wordt aangegeven in ponden. Alle valuta is in dollars. Het pakket is een standaard pakket en er zijn geen opties voor buizen, enveloppen of pakketten met vaste afmetingen, die wel beschikbaar zijn bij de UPS.<br></span>'
+  },
   'us domestic' => {
     'lastUpdated' => '1257331480',
     'message' => 'VS intern'
   },
   'us domestic 01' => {
-    'lastUpdated' => '1257331502',
-    'message' => 'UPS luchtpost volgende dag'
+    'lastUpdated' => '1257332988',
+    'message' => 'UPS Next Day Air'
   },
   'us domestic 02' => {
-    'lastUpdated' => '1257331524',
-    'message' => 'UPS luchtpost tweede dag'
+    'lastUpdated' => '1257332998',
+    'message' => 'UPS Second Day Air'
+  },
+  'us domestic 03' => {
+    'lastUpdated' => '1257332977',
+    'message' => 'UPS Ground'
   },
   'us domestic 12' => {
     'lastUpdated' => '1257332354',
     'message' => 'UPS selecteer uit drie dagen'
+  },
+  'us domestic 13' => {
+    'lastUpdated' => '1257332969',
+    'message' => 'UPS Next Day Air Saver'
+  },
+  'us domestic 14' => {
+    'lastUpdated' => '1257332961',
+    'message' => 'UPS Next Day Air Early A.M.'
+  },
+  'us domestic 59' => {
+    'lastUpdated' => '1257332953',
+    'message' => 'UPS Second Day Air A.M.'
+  },
+  'us international' => {
+    'lastUpdated' => '1257332937',
+    'message' => 'VS internationaal'
+  },
+  'us international 07' => {
+    'lastUpdated' => '1257332915',
+    'message' => 'UPS Worldwide Express'
+  },
+  'us international 08' => {
+    'lastUpdated' => '1257332907',
+    'message' => 'UPS Worldwide Expedited'
+  },
+  'us international 11' => {
+    'lastUpdated' => '1257332894',
+    'message' => 'UPS Standaard'
+  },
+  'us international 54' => {
+    'lastUpdated' => '1257332880',
+    'message' => 'UPS Worldwide Express Plus'
+  },
+  'us international 65' => {
+    'lastUpdated' => '1257332863',
+    'message' => 'UPS Saver'
   },
   'userid' => {
     'lastUpdated' => '1257331771',
