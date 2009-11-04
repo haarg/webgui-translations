@@ -385,6 +385,14 @@ our $I18N = {
     'lastUpdated' => '1238017406',
     'message' => 'Historie zum Asset'
   },
+  'assetId' => {
+    'lastUpdated' => '1257324282',
+    'message' => 'Der eindeutige Bezeichner dieses Asstes, base64-kodiert'
+  },
+  'assetIdHex' => {
+    'lastUpdated' => '1257324311',
+    'message' => 'Der eindeutige Bezeichner dieses Asstes, hexadezimal kodiert.'
+  },
   'assetSize' => {
     'lastUpdated' => '1170454592',
     'message' => 'Größe dieses Assets in Bytes. Summe aus allen Datenbankfeldern und Anhängen.'
