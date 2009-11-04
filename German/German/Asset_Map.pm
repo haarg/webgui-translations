@@ -73,6 +73,10 @@ our $I18N = {
     'lastUpdated' => '1250972486',
     'message' => 'Position aufgenommen'
   },
+  'select a point' => {
+    'lastUpdated' => '1257324685',
+    'message' => 'Wählen Sie einen Punkt'
+  },
   'set default viewing area label' => {
     'lastUpdated' => '1250983738',
     'message' => 'Einstellung Standardansichtsbereich'
