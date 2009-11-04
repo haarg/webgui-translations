@@ -1,6 +1,50 @@
 package WebGUI::i18n::German::Asset_Event;
 use utf8;
 our $I18N = {
+  'After' => {
+    'lastUpdated' => '1257325541',
+    'message' => 'Nach'
+  },
+  'By date' => {
+    'lastUpdated' => '1257325551',
+    'message' => 'Nach Datum'
+  },
+  'Daily' => {
+    'lastUpdated' => '1257325557',
+    'message' => 'Täglich'
+  },
+  'Every' => {
+    'lastUpdated' => '1257325567',
+    'message' => 'Jede(n)'
+  },
+  'Every N months on' => {
+    'lastUpdated' => '1257325586',
+    'message' => 'Jeden %s Monat am'
+  },
+  'Every N weeks on' => {
+    'lastUpdated' => '1257325645',
+    'message' => 'Jede %s Woche(n) am'
+  },
+  'Every N years on' => {
+    'lastUpdated' => '1257325639',
+    'message' => 'Jede %s Jahr(e) am'
+  },
+  'Monthly' => {
+    'lastUpdated' => '1257325655',
+    'message' => 'Monatlich'
+  },
+  'No end' => {
+    'lastUpdated' => '1257325661',
+    'message' => 'Ohne Ende'
+  },
+  'No specific time' => {
+    'lastUpdated' => '1257325684',
+    'message' => 'Keine Zeitangabe (ganztägig)'
+  },
+  'Specific start/end time' => {
+    'lastUpdated' => '1257325706',
+    'message' => 'Konkreter Start-/End-Zeitpunkt'
+  },
   'The event end date must be after the event start date.' => {
     'lastUpdated' => '1247818673',
     'message' => 'Das End-Datum muss nach dem Anfangsdatum liegen.'
@@ -12,6 +56,18 @@ our $I18N = {
   'UserDefinedN' => {
     'lastUpdated' => '1180079545',
     'message' => 'Für jedes der 5 benutzerdefinierten Felder der Wert dieses Feldes.'
+  },
+  'Weekday(s)' => {
+    'lastUpdated' => '1257325715',
+    'message' => 'Werktags'
+  },
+  'Weekly' => {
+    'lastUpdated' => '1257325722',
+    'message' => 'Wöchentlich'
+  },
+  'Yearly' => {
+    'lastUpdated' => '1257325728',
+    'message' => 'Jährlich'
   },
   'add related link' => {
     'lastUpdated' => '1221215688',
@@ -62,6 +118,10 @@ our $I18N = {
   'dateSpan' => {
     'lastUpdated' => '1180079667',
     'message' => 'Anzeige der Start und End Daten und Zeiten.'
+  },
+  'day' => {
+    'lastUpdated' => '1257325733',
+    'message' => 'Tag'
   },
   'delete' => {
     'lastUpdated' => '1212757226',
@@ -215,6 +275,10 @@ our $I18N = {
     'lastUpdated' => '1192789489',
     'message' => 'Dateiname'
   },
+  'first' => {
+    'lastUpdated' => '1257325748',
+    'message' => 'Erste(r)'
+  },
   'formAttachments' => {
     'lastUpdated' => '1193130822',
     'message' => 'HTML-Formular, um Dateien von diesem Ereignis hinzuzufügen oder zu löschen.'
@@ -287,6 +351,10 @@ our $I18N = {
     'lastUpdated' => '1180081391',
     'message' => 'HTML Formular für die Eingabe der Startzeit des Termins.'
   },
+  'formSynopsis' => {
+    'lastUpdated' => '1257325779',
+    'message' => 'HTML-Formular um die Event-Zusammenfassung einzugeben oder zu bearbeiten'
+  },
   'formTime' => {
     'lastUpdated' => '1180081371',
     'message' => 'Ein HTML Formular, um die Start- und Endzeit des Termins einzutragen. Das Formular besitzt Vorbelegungen für den  ganzen Tag, keine bestimmte Zeit oder eine bestimmte Start- und Endzeit.'
@@ -314,6 +382,10 @@ our $I18N = {
   'formUserDefinedN_yesNo' => {
     'lastUpdated' => '1199975195',
     'message' => 'Für jedes der 5 benutzerdefinierten Felder ein Formular f&uuml;r ein Ja/Nein Feld.'
+  },
+  'fourth' => {
+    'lastUpdated' => '1257325790',
+    'message' => 'Vierter'
   },
   'group to view' => {
     'lastUpdated' => '1212757297',
@@ -355,6 +427,10 @@ our $I18N = {
     'lastUpdated' => '1180081177',
     'message' => 'Bedingung, die wahr ist, falls die Gruppe, die den Termin anschauen darf, die Gruppe Everyone ist.'
   },
+  'last' => {
+    'lastUpdated' => '1257325796',
+    'message' => 'Letzter'
+  },
   'link description' => {
     'lastUpdated' => '1217254632',
     'message' => 'Link Beschreibung'
@@ -386,6 +462,14 @@ our $I18N = {
   'nextUrl' => {
     'lastUpdated' => '1180081062',
     'message' => 'URL, um zum nächsten Termin des Kalenders zu gelangen.'
+  },
+  'occurences' => {
+    'lastUpdated' => '1257325833',
+    'message' => 'Auftreten'
+  },
+  'of' => {
+    'lastUpdated' => '1257325838',
+    'message' => 'von'
   },
   'prevUrl' => {
     'lastUpdated' => '1180081072',
@@ -430,6 +514,10 @@ our $I18N = {
   'scheduled' => {
     'lastUpdated' => '1238534533',
     'message' => 'Terminiert'
+  },
+  'second' => {
+    'lastUpdated' => '1257325846',
+    'message' => 'zweite(r)'
   },
   'short title' => {
     'lastUpdated' => '1212757368',
@@ -523,6 +611,10 @@ our $I18N = {
     'lastUpdated' => '1217254684',
     'message' => 'Termin'
   },
+  'third' => {
+    'lastUpdated' => '1257325858',
+    'message' => 'dritte(r)'
+  },
   'thumbnail' => {
     'lastUpdated' => '1193130921',
     'message' => 'Ein Thumbnail dieses Anhangs, wenn möglich.'
@@ -570,6 +662,10 @@ our $I18N = {
   'urlWeek' => {
     'lastUpdated' => '1180079886',
     'message' => 'URL, um alle Termine derselben Woche in diesem Kalender anzuzeigen.'
+  },
+  'week on' => {
+    'lastUpdated' => '1257325878',
+    'message' => 'Woche im'
   }
 }
 ;
