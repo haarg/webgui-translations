@@ -73,6 +73,10 @@ our $I18N = {
     'lastUpdated' => '1248781985',
     'message' => 'Lokatie opgeslagen'
   },
+  'select a point' => {
+    'lastUpdated' => '1257329950',
+    'message' => 'Selecteer een punt'
+  },
   'set default viewing area label' => {
     'lastUpdated' => '1248782024',
     'message' => 'Definieer standaard bekijk gebied'

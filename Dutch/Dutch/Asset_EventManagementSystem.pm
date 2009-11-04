@@ -233,9 +233,17 @@ our $I18N = {
     'lastUpdated' => '1149862411',
     'message' => 'Een URL terug naar het hoofdscherm van de asset. '
   },
+  'assetId' => {
+    'lastUpdated' => '1257329195',
+    'message' => 'AssetId van het ticket.'
+  },
   'assetName' => {
     'lastUpdated' => '1213702842',
     'message' => 'Evenementen beheer'
+  },
+  'assetSize' => {
+    'lastUpdated' => '1257329210',
+    'message' => 'De grootte van dit ticket asset'
   },
   'assigned discount pass' => {
     'lastUpdated' => '1148291814',
@@ -469,6 +477,10 @@ our $I18N = {
     'lastUpdated' => '1149862637',
     'message' => 'De identificatie van de gebruiker die deze badge heeft gemaakt.'
   },
+  'creationDate' => {
+    'lastUpdated' => '1257329235',
+    'message' => 'Epoch waarde van de datum waarop het asset is gemaakt.'
+  },
   'customRequestUrl' => {
     'lastUpdated' => '1216648180',
     'message' => 'Een URL voor de YUI voor het opzoeken van informatie over het huidige naamplaatje.'
@@ -669,6 +681,10 @@ our $I18N = {
     'lastUpdated' => '1216646232',
     'message' => 'De asset id van het evenementenbeheersysteem waaronder dit naamplaatje valt.'
   },
+  'encryptPage' => {
+    'lastUpdated' => '1257329279',
+    'message' => 'Of de pagina waar het ticket getoond wordt wel of niet ge&euml;ncrypt moet worden.'
+  },
   'endDate' => {
     'lastUpdated' => '1149861524',
     'message' => '<div class="&quot;helpIndent&quot;"><p>De datum en tijd waarop dit evenement afloopt, in epoch formaat. </p></div>'
@@ -725,6 +741,10 @@ our $I18N = {
     'lastUpdated' => '1166194498',
     'message' => 'Een indicator die waar is als er geen plaatsen voor het evenement over zijn.'
   },
+  'eventMetaData' => {
+    'lastUpdated' => '1257329300',
+    'message' => 'Meta data van het evenement in een JSON data structuur.'
+  },
   'events required by description' => {
     'lastUpdated' => '1148302981',
     'message' => 'Vink de evenementen aan die onderdeel uitmaken van deze vereisten-set.'
@@ -756,6 +776,14 @@ our $I18N = {
   'exportTicketsUrl' => {
     'lastUpdated' => '1216648885',
     'message' => 'Het URL waar kaartjes ge&euml;xporteerd worden. Momenteel is dit nog niet ge&iuml;mplementeerd.'
+  },
+  'extraHeadTags' => {
+    'lastUpdated' => '1257329341',
+    'message' => 'Extra eigenschappen die in de header van dit ticket getoond moet worden.'
+  },
+  'extraHeadTagsPacked' => {
+    'lastUpdated' => '1257329456',
+    'message' => 'Extra eigenschappen die zonder spaties in de header van het ticket getoond worden.'
   },
   'field count mismatch' => {
     'lastUpdated' => '1190027426',
@@ -800,6 +828,14 @@ our $I18N = {
   'getTokensUrl' => {
     'lastUpdated' => '1216649177',
     'message' => 'Het URL voor het verkrijgen van informatie over een voucher in JSON formaat.'
+  },
+  'groupIdEdit' => {
+    'lastUpdated' => '1257329477',
+    'message' => 'De id van de groep die dit ticket kan bewerken.'
+  },
+  'groupIdView' => {
+    'lastUpdated' => '1257329494',
+    'message' => 'De id van de groep die dit ticket kan bekijken.'
   },
   'hasBadge' => {
     'lastUpdated' => '1216646310',
@@ -905,6 +941,10 @@ our $I18N = {
     'lastUpdated' => '1216649217',
     'message' => 'Het URL voor het importeren van kaartjes. Momenteel is dit nog niet ge&iuml;mplementeerd.'
   },
+  'inheritUrlFromParent' => {
+    'lastUpdated' => '1257329584',
+    'message' => 'Of de URL van de ouder overgenomen moet worden.'
+  },
   'is required' => {
     'lastUpdated' => '1213703142',
     'message' => '%s is vereist.'
@@ -912,6 +952,22 @@ our $I18N = {
   'isAdvSearch' => {
     'lastUpdated' => '1149861289',
     'message' => '<p>Een functie die aangeeft of een geavanceerd zoekformulier is opgevraagd. </p>'
+  },
+  'isExportable' => {
+    'lastUpdated' => '1257329601',
+    'message' => 'Of dit ticket wel of niet exporteerbaar is.'
+  },
+  'isHidden' => {
+    'lastUpdated' => '1257329629',
+    'message' => 'Of dit ticket voor het menu verborgen moet worden of niet.'
+  },
+  'isPackage' => {
+    'lastUpdated' => '1257329648',
+    'message' => 'Of dit ticket een pakket is of niet.'
+  },
+  'isPrototype' => {
+    'lastUpdated' => '1257329663',
+    'message' => 'Of dit ticket een prototype is of niet.'
   },
   'isRegistrationStaff' => {
     'lastUpdated' => '1216646415',
@@ -936,6 +992,10 @@ our $I18N = {
   'last name' => {
     'lastUpdated' => '1148304378',
     'message' => 'Achternaam'
+  },
+  'lastModified' => {
+    'lastUpdated' => '1257329685',
+    'message' => 'Epoch datum waarop dit ticket voor het laatst is aangepast.'
   },
   'location' => {
     'lastUpdated' => '1213703469',
@@ -1065,6 +1125,10 @@ our $I18N = {
     'lastUpdated' => '1149860007',
     'message' => '<p>Het aantal mensen dat zich in mag schrijven voor dit evenement. </p>'
   },
+  'menuTitle' => {
+    'lastUpdated' => '1257329733',
+    'message' => 'De titel van dit ticket, zoals het getoond moet worden in het menu.'
+  },
   'message' => {
     'lastUpdated' => '1149861921',
     'message' => '<p>Dit zijn berichten van het systeem over het aantal en het soort resultaten dat getoond wordt. </p>'
@@ -1092,6 +1156,10 @@ our $I18N = {
   'new price' => {
     'lastUpdated' => '1148307058',
     'message' => 'Nieuwe prijs'
+  },
+  'newWindow' => {
+    'lastUpdated' => '1257329797',
+    'message' => 'Of dit ticket in een nieuw window getoond moet worden.'
   },
   'no' => {
     'lastUpdated' => '1190026100',
@@ -1164,6 +1232,10 @@ our $I18N = {
   'overwritten' => {
     'lastUpdated' => '1190026021',
     'message' => 'overschreven'
+  },
+  'ownerUserId' => {
+    'lastUpdated' => '1257329815',
+    'message' => 'User id van de eigenaar van dit ticket.'
   },
   'paginateBar' => {
     'lastUpdated' => '1149861646',
@@ -1253,6 +1325,18 @@ our $I18N = {
     'lastUpdated' => '1215443344',
     'message' => 'Welk sjabloon moet gebruikt worden voor het afdrukken van naamplaatjes?'
   },
+  'print remaining ticket template' => {
+    'lastUpdated' => '1257329860',
+    'message' => 'Print overgebleven tickets sjabloon.'
+  },
+  'print remaining ticket template help' => {
+    'lastUpdated' => '1257329898',
+    'message' => 'Evenementenbeheersysteem Print overblijvende tickets sjabloon.'
+  },
+  'print remaining tickets' => {
+    'lastUpdated' => '1257329913',
+    'message' => 'Print overgebleven tickets.'
+  },
   'print ticket template' => {
     'lastUpdated' => '1215443362',
     'message' => 'Sjabloon afdrukken kaartjes'
@@ -1264,6 +1348,10 @@ our $I18N = {
   'printBadgeTemplateId help' => {
     'lastUpdated' => '1216649541',
     'message' => 'Het ID van het sjabloon waarmee een naamplaatje afgedrukt wordt.'
+  },
+  'printRemainingTicketsUrl' => {
+    'lastUpdated' => '1257329934',
+    'message' => 'URL naar de overgebleven tickets pagina.'
   },
   'printTicketTemplateId help' => {
     'lastUpdated' => '1216649565',

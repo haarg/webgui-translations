@@ -3038,6 +3038,14 @@ LongTruncOk=1'
     'lastUpdated' => '1190023208',
     'message' => 'Cache'
   },
+  'settings groupIdAdminClipboard hoverHelp' => {
+    'lastUpdated' => '1257330104',
+    'message' => 'Groep voor het beheren van het klembord.'
+  },
+  'settings groupIdAdminClipboard label' => {
+    'lastUpdated' => '1257330111',
+    'message' => 'Klembord'
+  },
   'settings groupIdAdminCron hoverHelp' => {
     'lastUpdated' => '1190023149',
     'message' => 'Groep die ingeroosterde workflows kan beheren'
@@ -3157,6 +3165,14 @@ LongTruncOk=1'
   'settings groupIdAdminStatistics label' => {
     'lastUpdated' => '1190022759',
     'message' => 'Statistieken'
+  },
+  'settings groupIdAdminTrash hoverHelp' => {
+    'lastUpdated' => '1257330128',
+    'message' => 'Groep voor het beheren van de prullenbak.'
+  },
+  'settings groupIdAdminTrash label' => {
+    'lastUpdated' => '1257330138',
+    'message' => 'Prullenbak'
   },
   'settings groupIdAdminUser hoverHelp' => {
     'lastUpdated' => '1207823868',

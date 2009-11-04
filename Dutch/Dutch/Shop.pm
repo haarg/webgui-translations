@@ -817,6 +817,14 @@ our $I18N = {
     'lastUpdated' => '1227629492',
     'message' => 'Zoek naar e-mail adres'
   },
+  'select gateway template' => {
+    'lastUpdated' => '1257329971',
+    'message' => 'Selecteer gateway sjabloon'
+  },
+  'select gateway template help' => {
+    'lastUpdated' => '1257329999',
+    'message' => 'Dit sjabloon is het sjabloon voor de stap waarin de betalingsmethode gekozen wordt.'
+  },
   'ship to button' => {
     'lastUpdated' => '1216652637',
     'message' => 'Verzenden aan'
@@ -1112,6 +1120,18 @@ our $I18N = {
   'vp item title' => {
     'lastUpdated' => '1248165583',
     'message' => 'Naam object'
+  },
+  'vp payouts' => {
+    'lastUpdated' => '1257330013',
+    'message' => 'Uitbetalingen'
+  },
+  'vp select vendor' => {
+    'lastUpdated' => '1257330068',
+    'message' => 'Kies een verkoper uit de lijst voor het beheren van individuele uitbetalingen.'
+  },
+  'vp vendors' => {
+    'lastUpdated' => '1257330077',
+    'message' => 'Verkopers'
   },
   'weekly' => {
     'lastUpdated' => '1213967834',

@@ -461,6 +461,14 @@ our $I18N = {
     'lastUpdated' => '1189338014',
     'message' => 'De URL naar de eerstvolgende gebeurtenis in de kalender. '
   },
+  'occurences' => {
+    'lastUpdated' => '1257329177',
+    'message' => 'keren'
+  },
+  'of' => {
+    'lastUpdated' => '1257329082',
+    'message' => 'van'
+  },
   'prevUrl' => {
     'lastUpdated' => '1189338046',
     'message' => 'Een URL naar de vorige gebeurtenis in de kalender. Vorige in chronologische zin.'
@@ -504,6 +512,10 @@ our $I18N = {
   'scheduled' => {
     'lastUpdated' => '1208520597',
     'message' => 'Ingepland'
+  },
+  'second' => {
+    'lastUpdated' => '1257329088',
+    'message' => 'tweede'
   },
   'short title' => {
     'lastUpdated' => '1205853119',
@@ -597,6 +609,10 @@ our $I18N = {
     'lastUpdated' => '1205853142',
     'message' => 'Evenement'
   },
+  'third' => {
+    'lastUpdated' => '1257329095',
+    'message' => 'derde'
+  },
   'thumbnail' => {
     'lastUpdated' => '1190027477',
     'message' => 'Een thumbnail van deze bijlage, indien van toepassing.'
@@ -644,6 +660,10 @@ our $I18N = {
   'urlWeek' => {
     'lastUpdated' => '1189348052',
     'message' => 'De URL om alle gebeurtenissen in dezelfde week weer te geven. '
+  },
+  'week on' => {
+    'lastUpdated' => '1257329112',
+    'message' => 'week op'
   }
 }
 ;
