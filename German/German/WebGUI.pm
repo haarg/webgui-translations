@@ -3026,6 +3026,14 @@ Kopieren Sie ggf. Dateien und fügen Sie diese in den Editor ein.'
     'lastUpdated' => '1187689759',
     'message' => 'Cache'
   },
+  'settings groupIdAdminClipboard hoverHelp' => {
+    'lastUpdated' => '1257324738',
+    'message' => 'Gruppe die die System-Zwischenablage verwaltet'
+  },
+  'settings groupIdAdminClipboard label' => {
+    'lastUpdated' => '1257324750',
+    'message' => 'Zwischenablage'
+  },
   'settings groupIdAdminCommerce hoverHelp' => {
     'lastUpdated' => undef,
     'message' => ''
@@ -3177,6 +3185,15 @@ Kopieren Sie ggf. Dateien und fügen Sie diese in den Editor ein.'
   'settings groupIdAdminTransactionLog label' => {
     'lastUpdated' => '1199971793',
     'message' => 'Transaktionen'
+  },
+  'settings groupIdAdminTrash hoverHelp' => {
+    'lastUpdated' => '1257324809',
+    'message' => 'Gruppe, die den System-Papierkorb verwaltet
+'
+  },
+  'settings groupIdAdminTrash label' => {
+    'lastUpdated' => '1257324816',
+    'message' => 'Papierkorb'
   },
   'settings groupIdAdminUser hoverHelp' => {
     'lastUpdated' => '1199973211',
