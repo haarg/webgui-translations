@@ -26,8 +26,8 @@ our $I18N = {
     'message' => 'Der Locale-Wert für die Sprache, in der das Ogono-Interface angezeigt werden soll (z.B. nl_NL oder en_US)'
   },
   'ogone setup' => {
-    'lastUpdated' => '1252265887',
-    'message' => 'Um dieses Plkugin zu nutzen, müssen Sie auch Ogone einrichten. Gehen Sie auf die Techincal Information Seite im Ogone Admininterface und setzen die unten aufgeführten Einstellungen. Beginnen Sie immer im Testmodus und prüfen, ob alles korrekt funktioniert. Wenn Sie in den Produktionsmudus wechseln, vergessen Sie nicht, die angeführten Optionen auch in Ihrem Production Account zu setzen.
+    'lastUpdated' => '1257336327',
+    'message' => 'Um dieses Plugin zu nutzen, müssen Sie auch Ogone einrichten. Gehen Sie auf die Techincal Information Seite im Ogone Admininterface und setzen die unten aufgeführten Einstellungen. Beginnen Sie immer im Testmodus und prüfen, ob alles korrekt funktioniert. Wenn Sie in den Produktionsmudus wechseln, vergessen Sie nicht, die angeführten Optionen auch in Ihrem Production Account zu setzen.
 
 
   <br><br><ul>
@@ -37,7 +37,7 @@ our $I18N = {
 <li> 4.5 <strong>Redirection URL\'s</strong>: Diese Box muss markiert sein. </li>
 <li> 7.1 <strong>Warn</strong>: setzen auf \'only at the authorisation request of the order\'. </li>
 <li> 7.2 <strong>How</strong>: Wählen Sie \'Email and http request\'.
-<br>   <strong>Url for offline httpRequests</strong> auf %ssetzen</li>
+<br>   <strong>Url for offline httpRequests</strong> auf %s setzen</li>
 </ul>'
   },
   'pay' => {
@@ -61,8 +61,8 @@ our $I18N = {
     'message' => 'PSP ID '
   },
   'psp id help' => {
-    'lastUpdated' => '1251901274',
-    'message' => 'Ihr Ogono-Benutzername'
+    'lastUpdated' => '1257336359',
+    'message' => 'Ihr Ogone-Benutzername'
   },
   'sha secret' => {
     'lastUpdated' => '1252265951',
