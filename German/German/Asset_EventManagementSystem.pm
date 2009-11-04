@@ -305,9 +305,17 @@ our $I18N = {
     'lastUpdated' => undef,
     'message' => ''
   },
+  'assetId' => {
+    'lastUpdated' => '1257325908',
+    'message' => 'Asset-ID des Tickets'
+  },
   'assetName' => {
     'lastUpdated' => '1251834870',
     'message' => 'Veranstaltungsplaner'
+  },
+  'assetSize' => {
+    'lastUpdated' => '1257325928',
+    'message' => 'Größe dieses Asset-Tickets'
   },
   'assigned discount pass' => {
     'lastUpdated' => undef,
@@ -565,6 +573,10 @@ our $I18N = {
     'lastUpdated' => undef,
     'message' => ''
   },
+  'creationDate' => {
+    'lastUpdated' => '1257325964',
+    'message' => 'Datum in Epoch-Notation an dem das Asset erstellt wurde.'
+  },
   'customRequestUrl' => {
     'lastUpdated' => '1251836379',
     'message' => 'URL für YUI um Informationen über das aktuelle Namensschild anzufordern.'
@@ -773,6 +785,10 @@ our $I18N = {
     'lastUpdated' => '1251838045',
     'message' => 'Die Asset-ID für das Veranstaltungsmanagementsystem, das das Namensschild enthält'
   },
+  'encryptPage' => {
+    'lastUpdated' => '1257326001',
+    'message' => 'Soll die Seite, auf der das Ticket angezeigt wird, verschlüsselt werden?'
+  },
   'endDate' => {
     'lastUpdated' => undef,
     'message' => ''
@@ -833,6 +849,10 @@ our $I18N = {
     'lastUpdated' => undef,
     'message' => ''
   },
+  'eventMetaData' => {
+    'lastUpdated' => '1257326042',
+    'message' => 'Metadaten des Events, Ausgabe erfolgt in JSON-Datenstruktur'
+  },
   'events required by description' => {
     'lastUpdated' => undef,
     'message' => ''
@@ -864,6 +884,14 @@ our $I18N = {
   'exportTicketsUrl' => {
     'lastUpdated' => '1251843840',
     'message' => 'URL zum Ticketexport. Zur Zeit nicht implementiert!'
+  },
+  'extraHeadTags' => {
+    'lastUpdated' => '1257326080',
+    'message' => 'Zusätzliche Tags die im Kopf dieses Tickets angezeigt werden sollen'
+  },
+  'extraHeadTagsPacked' => {
+    'lastUpdated' => '1257326143',
+    'message' => 'Zusätzliche Tags die im Kopf dieses Tickets angezeigt werden sollen, miminiert, ohne Whitespace'
   },
   'field count mismatch' => {
     'lastUpdated' => '1251843915',
@@ -940,6 +968,14 @@ our $I18N = {
   'group to approve events description' => {
     'lastUpdated' => undef,
     'message' => ''
+  },
+  'groupIdEdit' => {
+    'lastUpdated' => '1257326322',
+    'message' => 'ID der Gruppe, die dieses Ticket bearbeiten darf'
+  },
+  'groupIdView' => {
+    'lastUpdated' => '1257326346',
+    'message' => 'ID der Gruppe die dieses Ticket betrachten darf'
   },
   'hasBadge' => {
     'lastUpdated' => '1251844243',
@@ -1046,6 +1082,10 @@ Wenn Sie beispielsweise Veranstaltungstitel und Veranstaltungsanfangsdatum als e
     'lastUpdated' => '1251855893',
     'message' => 'URL für den Ticketimport. Zur Zeit nicht implementiert.'
   },
+  'inheritUrlFromParent' => {
+    'lastUpdated' => '1257326385',
+    'message' => 'Soll die URL des Elternelements geerbt werden?'
+  },
   'is required' => {
     'lastUpdated' => '1239658559',
     'message' => '%s ist erforderlich'
@@ -1053,6 +1093,22 @@ Wenn Sie beispielsweise Veranstaltungstitel und Veranstaltungsanfangsdatum als e
   'isAdvSearch' => {
     'lastUpdated' => undef,
     'message' => ''
+  },
+  'isExportable' => {
+    'lastUpdated' => '1257326399',
+    'message' => 'Ist das Ticket exportierbar'
+  },
+  'isHidden' => {
+    'lastUpdated' => '1257326426',
+    'message' => 'Soll das Ticket aus dem Menü ausgeblendet werden?'
+  },
+  'isPackage' => {
+    'lastUpdated' => '1257326444',
+    'message' => 'Ist dieses Ticket-Asset ein Paket?'
+  },
+  'isPrototype' => {
+    'lastUpdated' => '1257326457',
+    'message' => 'Ist dieses Ticket-Asset ein Prototyp?'
   },
   'isRegistrationStaff' => {
     'lastUpdated' => '1251847078',
@@ -1077,6 +1133,10 @@ Wenn Sie beispielsweise Veranstaltungstitel und Veranstaltungsanfangsdatum als e
   'last name' => {
     'lastUpdated' => '1251846946',
     'message' => 'Familienname'
+  },
+  'lastModified' => {
+    'lastUpdated' => '1257326482',
+    'message' => 'Datum in Epoch-Notation an dem das Ticket zuletzt geändert wurde'
   },
   'location' => {
     'lastUpdated' => '1239658070',
@@ -1214,6 +1274,10 @@ Wenn Sie beispielsweise Veranstaltungstitel und Veranstaltungsanfangsdatum als e
     'lastUpdated' => undef,
     'message' => ''
   },
+  'menuTitle' => {
+    'lastUpdated' => '1257326514',
+    'message' => 'Der Titel des Tickets, der im Menü angezeigt werden soll'
+  },
   'message' => {
     'lastUpdated' => undef,
     'message' => ''
@@ -1241,6 +1305,10 @@ Wenn Sie beispielsweise Veranstaltungstitel und Veranstaltungsanfangsdatum als e
   'new price' => {
     'lastUpdated' => undef,
     'message' => ''
+  },
+  'newWindow' => {
+    'lastUpdated' => '1257326537',
+    'message' => 'Soll dieses Ticket in einem neuen Fenster angezeigt werden?'
   },
   'no' => {
     'lastUpdated' => '1251667128',
@@ -1317,6 +1385,10 @@ Wenn Sie beispielsweise Veranstaltungstitel und Veranstaltungsanfangsdatum als e
   'overwritten' => {
     'lastUpdated' => '1251666903',
     'message' => 'überschrieben'
+  },
+  'ownerUserId' => {
+    'lastUpdated' => '1257326556',
+    'message' => 'Nutzer-ID des Ticket-Eigentümers'
   },
   'paginate after' => {
     'lastUpdated' => undef,
@@ -1418,6 +1490,18 @@ Wenn Sie beispielsweise Veranstaltungstitel und Veranstaltungsanfangsdatum als e
     'lastUpdated' => '1251851265',
     'message' => 'Welches Template möchten Sie für den Druck der Namensschilder nutzen?'
   },
+  'print remaining ticket template' => {
+    'lastUpdated' => '1257326583',
+    'message' => 'Template für den Druck der restlichen Tickets'
+  },
+  'print remaining ticket template help' => {
+    'lastUpdated' => '1257326614',
+    'message' => 'EMS Template für den Druck der restlichen Tickets'
+  },
+  'print remaining tickets' => {
+    'lastUpdated' => '1257326627',
+    'message' => 'Restliche Tickets drucken'
+  },
   'print ticket template' => {
     'lastUpdated' => '1251851288',
     'message' => 'Drucktempalte Tickets'
@@ -1429,6 +1513,10 @@ Wenn Sie beispielsweise Veranstaltungstitel und Veranstaltungsanfangsdatum als e
   'printBadgeTemplateId help' => {
     'lastUpdated' => '1251851355',
     'message' => 'Die ID des Drucktemplates für Namensschilder'
+  },
+  'printRemainingTicketsUrl' => {
+    'lastUpdated' => '1257326648',
+    'message' => 'URL zur Seite für den Druck der restlichen Tickets'
   },
   'printTicketTemplateId help' => {
     'lastUpdated' => '1251851418',
@@ -1531,6 +1619,14 @@ Wenn Sie den Kauf für jemand anders durchführen, wählen Sie dessen Name oder 
     'lastUpdated' => '1251857329',
     'message' => 'Prüfe die Bänder, die einen Rabatt für dieses Ticket gewähren können'
   },
+  'relatedBadgeGroups' => {
+    'lastUpdated' => '1257326750',
+    'message' => 'Namensschild-Gruppen für dieses Ticket'
+  },
+  'relatedRibbons' => {
+    'lastUpdated' => '1257326760',
+    'message' => 'Bänder für dieses Ticket'
+  },
   'remove' => {
     'lastUpdated' => '1239658146',
     'message' => 'Entfernen'
@@ -1542,6 +1638,14 @@ Wenn Sie den Kauf für jemand anders durchführen, wählen Sie dessen Name oder 
   'returned' => {
     'lastUpdated' => undef,
     'message' => ''
+  },
+  'revisedBy' => {
+    'lastUpdated' => '1257326798',
+    'message' => 'ID des Nutzers, der das Ticket zuletzt geändert hat'
+  },
+  'revisionDate' => {
+    'lastUpdated' => '1257326838',
+    'message' => 'Datum in Epoch-Notation an dem das Ticket zuletzt überprüft wurde'
   },
   'ribbon instructions' => {
     'lastUpdated' => '1251857355',
@@ -1635,9 +1739,13 @@ Wenn Sie den Kauf für jemand anders durchführen, wählen Sie dessen Name oder 
     'lastUpdated' => undef,
     'message' => ''
   },
+  'seatsAvailable' => {
+    'lastUpdated' => '1257326857',
+    'message' => 'Gesamtzahl an verfügbaren Sitzen für dieses Ticket'
+  },
   'seatsRemaining' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => '1257326881',
+    'message' => 'Gesamtzahl an Sitzen die für dieses Ticket verbleiben'
   },
   'see available subevents' => {
     'lastUpdated' => undef,
@@ -1658,6 +1766,10 @@ Wenn Sie den Kauf für jemand anders durchführen, wählen Sie dessen Name oder 
   'skip' => {
     'lastUpdated' => '1251666789',
     'message' => 'Überspringen'
+  },
+  'skipNotification' => {
+    'lastUpdated' => '1257326926',
+    'message' => 'Soll auf Benachrichtigungen zu diesem Ticket verzichtet werden?'
   },
   'skipped' => {
     'lastUpdated' => '1251666800',
@@ -1715,6 +1827,14 @@ Wenn Sie den Kauf für jemand anders durchführen, wählen Sie dessen Name oder 
     'lastUpdated' => '1251840440',
     'message' => 'Wechsel zum Namensschild von %s'
   },
+  'synopsis' => {
+    'lastUpdated' => '1257326939',
+    'message' => 'Zusammenfassung der Ticketbeschreibung'
+  },
+  'tagId' => {
+    'lastUpdated' => '1257326954',
+    'message' => 'Tag-ID dieses Assets'
+  },
   'template help title' => {
     'lastUpdated' => undef,
     'message' => ''
@@ -1751,6 +1871,10 @@ Wenn Sie den Kauf für jemand anders durchführen, wählen Sie dessen Name oder 
     'lastUpdated' => '1251840083',
     'message' => 'Wofür das Ticket ist'
   },
+  'ticketMeta_[LABEL]' => {
+    'lastUpdated' => '1257327035',
+    'message' => 'Wert des Metatdentfeldes [LABEL]. Sonder- und Leerzeichen in [LABEL] sollen durch Unterstriche ersetzt werden'
+  },
   'ticketStart' => {
     'lastUpdated' => '1251840066',
     'message' => 'Anfangsdatum des Tickets'
@@ -1762,6 +1886,10 @@ Wenn Sie den Kauf für jemand anders durchführen, wählen Sie dessen Name oder 
   'tickets' => {
     'lastUpdated' => '1251666826',
     'message' => 'Tickets'
+  },
+  'tickets_loop' => {
+    'lastUpdated' => '1257327073',
+    'message' => 'Eine Schleife die alle verbleibenden Tickets und die dazugehörenden Daten enthält'
   },
   'time zone' => {
     'lastUpdated' => '1226016412',
@@ -1854,6 +1982,10 @@ Wenn Sie den Kauf für jemand anders durchführen, wählen Sie dessen Name oder 
   'url' => {
     'lastUpdated' => '1251839711',
     'message' => 'URL zu diesem Veranstaltungsmanagementsystems'
+  },
+  'usePackedHeadTags' => {
+    'lastUpdated' => '1257327103',
+    'message' => 'Sollen gepackte Kopfdaten für dieses Ticket genutzt werden?'
   },
   'user' => {
     'lastUpdated' => '1226016338',
