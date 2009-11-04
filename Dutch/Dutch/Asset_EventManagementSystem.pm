@@ -1449,6 +1449,14 @@ our $I18N = {
     'lastUpdated' => '1215443497',
     'message' => 'Ga de kortingspassen na die een korting geven op dit kaartje.'
   },
+  'relatedBadgeGroups' => {
+    'lastUpdated' => '1257330475',
+    'message' => 'Groepen voor naamkaartjes met relatie tot dit ticket.'
+  },
+  'relatedRibbons' => {
+    'lastUpdated' => '1257330515',
+    'message' => 'Koringspassen gerelateerd aan dit ticket.'
+  },
   'remove' => {
     'lastUpdated' => '1215443221',
     'message' => 'Verwijderen'
@@ -1460,6 +1468,14 @@ our $I18N = {
   'returned' => {
     'lastUpdated' => '1149862825',
     'message' => 'Een functie die 1 is als dit evenement is teruggestuurd door de gebruiker.'
+  },
+  'revisedBy' => {
+    'lastUpdated' => '1257330533',
+    'message' => 'Id van de gebruiker die dit ticket het laatst heeft aangepast.'
+  },
+  'revisionDate' => {
+    'lastUpdated' => '1257330552',
+    'message' => 'De epoch datum waarop de ticket het laatst is aangepast.'
   },
   'ribbon instructions' => {
     'lastUpdated' => '1215442939',
@@ -1541,6 +1557,10 @@ our $I18N = {
     'lastUpdated' => '1149862114',
     'message' => '<p>Het label &quot;Plaatsen&quot;. </p>'
   },
+  'seatsAvailable' => {
+    'lastUpdated' => '1257330569',
+    'message' => 'Totaal aantal stoelen dat beschikbaar is voor dit ticket.'
+  },
   'seatsRemaining' => {
     'lastUpdated' => '1149860043',
     'message' => '<p>Het aantal plaatsen dat nog beschikbaar is. </p>'
@@ -1564,6 +1584,10 @@ our $I18N = {
   'skip' => {
     'lastUpdated' => '1190026000',
     'message' => 'overslaan'
+  },
+  'skipNotification' => {
+    'lastUpdated' => '1257330594',
+    'message' => 'Of notificaties voor dit ticket overgeslagen moeten worden of niet.'
   },
   'skipped' => {
     'lastUpdated' => '1190025991',
@@ -1621,6 +1645,14 @@ our $I18N = {
     'lastUpdated' => '1215442625',
     'message' => 'Verander naar \'%s\' naamplaatje'
   },
+  'synopsis' => {
+    'lastUpdated' => '1257330644',
+    'message' => 'Samenvatting van de beschrijving van dit ticket.'
+  },
+  'tagId' => {
+    'lastUpdated' => '1257330667',
+    'message' => 'Tag id van dit ticket'
+  },
   'template help title' => {
     'lastUpdated' => '1148307959',
     'message' => 'Evenementen beheersysteem sjabloon'
@@ -1657,6 +1689,12 @@ our $I18N = {
     'lastUpdated' => '1216986330',
     'message' => 'Waar het kaartje toegang toe geeft.'
   },
+  'ticketMeta_[LABEL]' => {
+    'lastUpdated' => '1257330947',
+    'message' => 'Waarde van het meta data veld [LABEL]. Niet-woord en spaties, tabs e.d. in [LABEL] moeten vervangen worden door een underscore ( _ ).
+
+Voorveeld: Meta data label: naar "Telefoon thuis" moet als volgt naar gerefereerd worden: <tmpl_var ticketMeta_Telefoon_thuis>.'
+  },
   'ticketStart' => {
     'lastUpdated' => '1216986344',
     'message' => 'De startdatum van het kaartje.'
@@ -1668,6 +1706,10 @@ our $I18N = {
   'tickets' => {
     'lastUpdated' => '1213703516',
     'message' => 'Kaartjes'
+  },
+  'tickets_loop' => {
+    'lastUpdated' => '1257330974',
+    'message' => 'Een functie die alle overgebleven tickets en de bijbehorende data bevat.'
   },
   'time zone' => {
     'lastUpdated' => '1213703540',
@@ -1760,6 +1802,10 @@ our $I18N = {
   'url' => {
     'lastUpdated' => '1216646510',
     'message' => 'Het URL van dit evenementenbeheersysteem.'
+  },
+  'usePackedHeadTags' => {
+    'lastUpdated' => '1257331006',
+    'message' => 'Of samengestelde header tags gebruikt moeten worden voor dit ticket of niet.'
   },
   'user' => {
     'lastUpdated' => '1213703549',
