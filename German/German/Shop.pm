@@ -809,6 +809,14 @@ Eine Liste mit jeder einzelnen Transaktion statt der komplette Transaktionsliste
     'lastUpdated' => '1241159575',
     'message' => 'Suchen nach Emailadresse'
   },
+  'select gateway template' => {
+    'lastUpdated' => '1257324913',
+    'message' => 'Gateway-Template wählen'
+  },
+  'select gateway template help' => {
+    'lastUpdated' => '1257324966',
+    'message' => 'Dies ist das Template für den Schritt "Bezahl-Gateway wählen"'
+  },
   'ship to button' => {
     'lastUpdated' => '1241158650',
     'message' => 'Versandinfo'
@@ -1101,6 +1109,18 @@ Eine Liste mit jeder einzelnen Transaktion statt der komplette Transaktionsliste
   'vp item title' => {
     'lastUpdated' => '1242498687',
     'message' => 'Artikelbezeichnung'
+  },
+  'vp payouts' => {
+    'lastUpdated' => '1257324986',
+    'message' => 'Auszahlungen'
+  },
+  'vp select vendor' => {
+    'lastUpdated' => '1257325067',
+    'message' => 'Bitte wählen Sie einen Händler aus obiger Liste um individuelle Auszahlungen zu verwalten'
+  },
+  'vp vendors' => {
+    'lastUpdated' => '1257325075',
+    'message' => 'Händler'
   },
   'weekly' => {
     'lastUpdated' => '1228749264',
