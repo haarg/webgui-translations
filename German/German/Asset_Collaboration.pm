@@ -173,6 +173,10 @@ our $I18N = {
     'lastUpdated' => '1253184975',
     'message' => 'Geben Sie die nachfolgende Zeichenfolge ein'
   },
+  'captcha_label' => {
+    'lastUpdated' => '1257324341',
+    'message' => 'Das Wort "Captcha"'
+  },
   'close' => {
     'lastUpdated' => '1179745252',
     'message' => 'Schließen '
@@ -334,6 +338,10 @@ our $I18N = {
     'lastUpdated' => '1179751824',
     'message' => 'URL zur Dokumentation über das Format dieser Datei, RSS 2.0 (optionales Feld)'
   },
+  'doit' => {
+    'lastUpdated' => '1257324379',
+    'message' => 'Ein boolcher Wert der wahr ist, wenn eine Suchanfrage eben abgeschickt wurde.'
+  },
   'edit' => {
     'lastUpdated' => '1157903827',
     'message' => 'Bearbeiten'
@@ -437,6 +445,10 @@ our $I18N = {
   'flatLayout' => {
     'lastUpdated' => '1179752532',
     'message' => 'Flach'
+  },
+  'form.footer' => {
+    'lastUpdated' => '1257324422',
+    'message' => 'HTML-Code der das Suchformular abschließt.'
   },
   'form.header' => {
     'lastUpdated' => '1179752564',
@@ -598,9 +610,21 @@ our $I18N = {
     'lastUpdated' => '1180076317',
     'message' => 'Boolscher Wert, der angibt, ob das Karma System auf ihrer Site aktiviert ist.'
   },
+  'karmaRank.label' => {
+    'lastUpdated' => '1257324442',
+    'message' => 'Der Ausdruck "Karma-Rang"'
+  },
+  'karmascale.label' => {
+    'lastUpdated' => '1257324472',
+    'message' => 'Der Ausdruck "Karma-Skala"'
+  },
   'keywords label' => {
     'lastUpdated' => '1221215626',
     'message' => 'Name des Schlüsselworts'
+  },
+  'keywords.label' => {
+    'lastUpdated' => '1257324484',
+    'message' => 'Das Wort "Schlüsselworte"'
   },
   'lastBuildDate' => {
     'lastUpdated' => '1179753233',
@@ -1195,9 +1219,21 @@ our $I18N = {
     'lastUpdated' => '1179819692',
     'message' => 'Karma übertragen'
   },
+  'transferkarma.label' => {
+    'lastUpdated' => '1257324509',
+    'message' => 'Der Ausdruck "Karma übertragen"'
+  },
   'unarchive' => {
     'lastUpdated' => '1179819716',
     'message' => 'Archivieren rückgängig machen'
+  },
+  'unarchive all' => {
+    'lastUpdated' => '1257324535',
+    'message' => 'Archivierung aller Threads rückgängig machen'
+  },
+  'unarchive confirm' => {
+    'lastUpdated' => '1257324596',
+    'message' => 'Sind sie sicher? Jeder Thread nach dem "Archiviere nach"-Intervall wird zurück-archiviert werden.'
   },
   'unlock' => {
     'lastUpdated' => '1236959530',
@@ -1279,6 +1315,10 @@ bevor diesen erlaubt wird in das Collaboration System zu posten.'
   'user.canPost' => {
     'lastUpdated' => '1179820035',
     'message' => 'Bedingung, die wahr ist wenn aktueller Benutzer Beiträge zu diesem Collaboration Asset hinzufügen darf. '
+  },
+  'user.canStartThread' => {
+    'lastUpdated' => '1257324641',
+    'message' => 'Eine Bedingung die wahr ist, wenn der aktuelle Nutzer Threads in diesem Kollaborations-Asset hinzufügen darf.'
   },
   'user.hasRead' => {
     'lastUpdated' => '1179820776',
