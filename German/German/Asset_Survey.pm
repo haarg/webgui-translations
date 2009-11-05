@@ -550,8 +550,8 @@ our $I18N = {
     'message' => 'Template, das den Frage-Bearbeiten-Dialog auf der Umfrage-Bearbeiten-Seite anzeigt.'
   },
   'Questions Template' => {
-    'lastUpdated' => '1252322496',
-    'message' => 'Fragentempalte'
+    'lastUpdated' => '1257427484',
+    'message' => 'Fragentemplate'
   },
   'Questions Template help' => {
     'lastUpdated' => '1252322546',
@@ -626,8 +626,8 @@ our $I18N = {
     'message' => 'Die eindeutige ID dieser Umfrage. Diese ist nicht die gleiche wied die Asset ID.'
   },
   'Take Survey Template' => {
-    'lastUpdated' => '1252323041',
-    'message' => 'Umfrage Teilenhmentempalte'
+    'lastUpdated' => '1257427499',
+    'message' => 'Umfrage Teilenhmentemplate'
   },
   'Take Survey Template help' => {
     'lastUpdated' => '1252323112',
