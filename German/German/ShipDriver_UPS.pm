@@ -65,6 +65,38 @@ our $I18N = {
     'lastUpdated' => '1257427418',
     'message' => 'Einzelabholung'
   },
+  'pickup code 07' => {
+    'lastUpdated' => '1257427719',
+    'message' => 'On Call Air'
+  },
+  'pickup code 11' => {
+    'lastUpdated' => '1257427908',
+    'message' => 'Suggested Retail Rates'
+  },
+  'pickup code 19' => {
+    'lastUpdated' => '1257427769',
+    'message' => 'Briefzentrum'
+  },
+  'pickup code 20' => {
+    'lastUpdated' => '1257427709',
+    'message' => 'Air Service Center'
+  },
+  'pickup type' => {
+    'lastUpdated' => '1257427686',
+    'message' => 'Type Abholung'
+  },
+  'pickup type help' => {
+    'lastUpdated' => '1257427880',
+    'message' => 'Selektieren Sie, wie die Pakete an UPS zum Versand geliefert werden.'
+  },
+  'residential' => {
+    'lastUpdated' => '1257427663',
+    'message' => 'Wohnort'
+  },
+  'residential help' => {
+    'lastUpdated' => '1257428122',
+    'message' => 'Die UPS Preise für die Auslieferung an eine Privatadresse oder eine Firmenadresse unterscheiden sich. WebGUI wird den Benutzer nicht danach fragen welche Art von Adresse verwendet wird. Sie sollten daher Treiber für beide Arten der Zieladressen konfigurieren.'
+  },
   'ship service' => {
     'lastUpdated' => '1257426953',
     'message' => 'Versand Information'
