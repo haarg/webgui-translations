@@ -101,6 +101,10 @@ our $I18N = {
     'lastUpdated' => '1257426953',
     'message' => 'Versand Information'
   },
+  'ship service help' => {
+    'lastUpdated' => '1257633356',
+    'message' => 'Selektieren Sie eine der Optionen. Wenn Sie mehrere Versandarten anbieten möchten, legen Sie für jede Option eine Versandart an.'
+  },
   'ship type' => {
     'lastUpdated' => '1257327146',
     'message' => 'Versandart'

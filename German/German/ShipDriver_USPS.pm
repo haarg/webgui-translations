@@ -30,7 +30,7 @@ our $I18N = {
     'message' => 'Tabelle der Versicherungsgebühren'
   },
   'insurance rates help' => {
-    'lastUpdated' => '1256112642',
+    'lastUpdated' => '1257633256',
     'message' => 'Geben Sie Zeilenweise in diesem Format ein: value:cost
 \'value\' ist der Wert des Inhalts.
 \'cost\' sind die Versicherungsgebühren für diesen Wert.
@@ -81,7 +81,7 @@ our $I18N = {
     'message' => 'Sie erhalten Ihren Web-Tools-Nutzernamen, wenn Sie sich bei USPS registrieren. '
   },
   'usps instructions' => {
-    'lastUpdated' => '1251665802',
+    'lastUpdated' => '1257633263',
     'message' => 'Um den USPS Versandtreiber zu nutzen, müssen Sie sich beim United States Postal Service als <a href="https://secure.shippingapis.com/registration/">USPS-Web-Tools-Nutzer</a> registrieren. Füllen Sie das Formular aus und Sie erhalten innerhalb weniger Tage von USPS Nutzername und Passwort, um diesen Dienst nutzen zu können. Geben Sie diese Daten in die entsprechenden Felder ein.
 
 Dieser Versandtreiber unterstützt drei Versandarten mit je einer Größenvorgabe. Andere Packgrößen und Versandarten werden zur Zeit nicht unterstützt.
