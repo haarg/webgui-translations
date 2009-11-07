@@ -453,6 +453,14 @@ our $I18N = {
     'lastUpdated' => '1178876646',
     'message' => 'Umfrage Template, gebrächliche Variablen'
   },
+  'Add Answer' => {
+    'lastUpdated' => '1257633185',
+    'message' => 'Antwort hinzufügen'
+  },
+  'Add Question' => {
+    'lastUpdated' => '1257633196',
+    'message' => 'Frage hinzufügen'
+  },
   'Allow back button' => {
     'lastUpdated' => '1250931592',
     'message' => 'Zurück'
@@ -604,6 +612,10 @@ our $I18N = {
   'Survey Exit URL help' => {
     'lastUpdated' => '1252322930',
     'message' => 'Wenn der Nutzer die Umfrage beendet hat, wird er an diese URL weitergeleitet. Wird keine Weiterleitung benötigt, leer lassen. Die Gateway-Einstellung aus der Config-Datei wird automatisch zur URL hinzugefügt.'
+  },
+  'Survey Objects' => {
+    'lastUpdated' => '1257633227',
+    'message' => 'Umfrage Objekte'
   },
   'Survey Overview Template' => {
     'lastUpdated' => '1252322949',
