@@ -97,6 +97,10 @@ our $I18N = {
     'lastUpdated' => '1257428122',
     'message' => 'Die UPS Preise für die Auslieferung an eine Privatadresse oder eine Firmenadresse unterscheiden sich. WebGUI wird den Benutzer nicht danach fragen welche Art von Adresse verwendet wird. Sie sollten daher Treiber für beide Arten der Zieladressen konfigurieren.'
   },
+  'residentialIndicator' => {
+    'lastUpdated' => '1257639551',
+    'message' => 'Residential or Commercial?'
+  },
   'ship service' => {
     'lastUpdated' => '1257426953',
     'message' => 'Versand Information'
@@ -108,6 +112,10 @@ our $I18N = {
   'ship type' => {
     'lastUpdated' => '1257327146',
     'message' => 'Versandart'
+  },
+  'ship type help' => {
+    'lastUpdated' => '1257639676',
+    'message' => 'Wählen Sie eine Versandart, je nach Versandart sind unterschiedliche Optionen verfügbar. Diese sind nicht in allen Ausprägungen in allen Ländern verfügbar. Eine Änderung der Option ändert auch die Versandart.'
   },
   'source country' => {
     'lastUpdated' => '1257426572',
@@ -125,9 +133,67 @@ our $I18N = {
     'lastUpdated' => '1257426501',
     'message' => 'Die Postleitzahl des Absenderorts'
   },
+  'ups instructions' => {
+    'lastUpdated' => '1257639450',
+    'message' => 'Um den UPS-Versandtreiber nutzen zu können, müssen Sie sich zuerst auf der UPS-Website http://www.ups.com/e_comm_access/gettools_index?loc=en_US registrieren. Wenn Sie zum Schritt Abrufen den Access Key kommen, wählen Sie den XML Access Key. Geben Sie UPS Benutzername, Passwort und Access Key in das Formular ein.
+
+Der UPS-Treiber unterstützt zur Zeit nur Versand innerhalb der USA und von den USA in andere Länder. Das Gewicht muss in Pounds angegeben werden und alle Währungsangaben sind in US Dollar vorzunehmen. Für den Versand kann ein Standardpaket gewählt werden, Optionen für Röhren, Umschläge, Fixmaße werden nicht unterstützt.'
+  },
+  'us domestic' => {
+    'lastUpdated' => '1257639534',
+    'message' => 'US Domestic '
+  },
+  'us domestic 01' => {
+    'lastUpdated' => '1257639528',
+    'message' => 'UPS Next Day Air'
+  },
+  'us domestic 02' => {
+    'lastUpdated' => '1257639523',
+    'message' => 'UPS Second Day Air'
+  },
+  'us domestic 03' => {
+    'lastUpdated' => '1257639518',
+    'message' => 'UPS Ground'
+  },
+  'us domestic 12' => {
+    'lastUpdated' => '1257639510',
+    'message' => 'UPS Three-Day Selec'
+  },
+  'us domestic 13' => {
+    'lastUpdated' => '1257639505',
+    'message' => 'UPS Next Day Air Saver'
+  },
+  'us domestic 14' => {
+    'lastUpdated' => '1257639499',
+    'message' => 'UPS Next Day Air Early A.M.'
+  },
+  'us domestic 59' => {
+    'lastUpdated' => '1257639494',
+    'message' => 'UPS Second Day Air A.M.'
+  },
   'us international' => {
     'lastUpdated' => '1257426979',
     'message' => 'US International'
+  },
+  'us international 07' => {
+    'lastUpdated' => '1257639467',
+    'message' => 'UPS Worldwide Express'
+  },
+  'us international 08' => {
+    'lastUpdated' => '1257639474',
+    'message' => 'UPS Worldwide Expedited'
+  },
+  'us international 11' => {
+    'lastUpdated' => '1257639463',
+    'message' => 'UPS Standard'
+  },
+  'us international 54' => {
+    'lastUpdated' => '1257639480',
+    'message' => 'UPS Worldwide Express Plus '
+  },
+  'us international 65' => {
+    'lastUpdated' => '1257639487',
+    'message' => 'UPS Saver '
   },
   'userid' => {
     'lastUpdated' => '1257336577',
