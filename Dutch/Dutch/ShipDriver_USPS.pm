@@ -30,7 +30,7 @@ our $I18N = {
     'message' => 'Verzekeringskosten tabel'
   },
   'insurance rates help' => {
-    'lastUpdated' => '1256112974',
+    'lastUpdated' => '1257759403',
     'message' => 'Voer 1 veld per regel in: waarde:kosten
 waarde is de waarde van de verzending
 kosten zijn de kosten van de verzekring van die waarde
@@ -81,7 +81,7 @@ waarde en kosten zijn getallen met een decimaalpunt zoals: 0.50 of 1.00'
     'message' => 'U ontvangt een Web Tools gebruikersnaam tijdens het registreren bij USPS.'
   },
   'usps instructions' => {
-    'lastUpdated' => '1248173484',
+    'lastUpdated' => '1257759407',
     'message' => 'Voor het gebruiken van de USPS verzendmethode, moet er eerst geristreerd worden bij de United States Postal Service als een  USPS Web Tools gebruiker.'
   }
 }

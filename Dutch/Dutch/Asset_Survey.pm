@@ -453,6 +453,14 @@ our $I18N = {
     'lastUpdated' => '1152285433',
     'message' => 'Gewone variabelen van het enqu&ecirc;te sjabloon'
   },
+  'Add Answer' => {
+    'lastUpdated' => '1257759301',
+    'message' => 'Niew antwoord'
+  },
+  'Add Question' => {
+    'lastUpdated' => '1257759315',
+    'message' => 'Nieuwe vraag'
+  },
   'Allow back button' => {
     'lastUpdated' => '1248100652',
     'message' => 'Teruggaan toestaan knop'
@@ -613,8 +621,12 @@ our $I18N = {
     'lastUpdated' => '1249043451',
     'message' => 'Wanneer de gebruiker de enqu&ecirc;te voltooid heeft, wordt deze naar dit URL gestuurd. Als er geen speciale pagina gewenst is kan dit leegelaten worden. De gateway instelling van het configuratiebestand wordt automatisch aan het URL toegevoegd.'
   },
+  'Survey Objects' => {
+    'lastUpdated' => '1257759392',
+    'message' => 'Enqu&ecirc;te objekten'
+  },
   'Survey Overview Template' => {
-    'lastUpdated' => '1249043669',
+    'lastUpdated' => '1257759359',
     'message' => 'Overzicht enqu&ecirc;te sjabloon'
   },
   'Survey Overview Template help' => {
