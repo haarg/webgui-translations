@@ -73,9 +73,17 @@ Die erlaubten Schlüsselworte werden in den Datenbank-Link-Eingenschaften defini
     'lastUpdated' => '1252275259',
     'message' => 'Eine weitere Abfrage hinzufügen'
   },
+  'CSV' => {
+    'lastUpdated' => '1258547315',
+    'message' => 'CSV'
+  },
   'Download this data' => {
     'lastUpdated' => '1252275275',
     'message' => 'Diese Daten herunterladen'
+  },
+  'No Download' => {
+    'lastUpdated' => '1258547369',
+    'message' => 'Kein Download'
   },
   'Placeholder Parameters' => {
     'lastUpdated' => '1252275287',
@@ -115,6 +123,10 @@ bis query4.</li>
 set @myVariable := 1
 
 Mehrere Vorabfrage-Anweisungen werden mit Semikolon getrennt und können keine Platzhalter benutzen. Makros können verwandt werden. Beachten Sie, dass Vorabfrage-Anweisungen nur für die Abfrage sichtbar sind, zu der sie gehören. Es können nur Vorabfrage-Anweisungen verwandt werden, die füpr diesen Datenbank-Link erlaubt sind.'
+  },
+  'Template' => {
+    'lastUpdated' => '1258547325',
+    'message' => 'Vorlage'
   },
   'assetName' => {
     'lastUpdated' => '1157856414',
@@ -197,7 +209,7 @@ Mehrere Vorabfrage-Anweisungen werden mit Semikolon getrennt und können keine P
     'message' => 'Download-Dateiname'
   },
   'download filename description' => {
-    'lastUpdated' => '1252317804',
+    'lastUpdated' => '1258547333',
     'message' => 'Der Dateiname der Datei. Wenn leer, wird ein Name automatisch generiert.'
   },
   'download mimetype' => {
@@ -221,7 +233,7 @@ Mehrere Vorabfrage-Anweisungen werden mit Semikolon getrennt und können keine P
     'message' => 'Download Typ'
   },
   'download type description' => {
-    'lastUpdated' => '1252317927',
+    'lastUpdated' => '1258547339',
     'message' => 'Der Download-Typ der erstellt wird.'
   },
   'download usergroup' => {

@@ -2574,6 +2574,10 @@ Kopieren Sie ggf. Dateien und fügen Sie diese in den Editor ein.'
     'lastUpdated' => '1216638672',
     'message' => 'Soll diese Gruppe in der Liste verwaltbarer Gruppen erscheinen? <strong>Hinweis</strong>: Falls auf &quot;Nein&quot; gesetzt, kann diese Gruppe nicht mehr verwaltet werden.'
   },
+  'language help' => {
+    'lastUpdated' => '1258547240',
+    'message' => 'Selektieren Sie die Standardsprache für die Benutzer dieser Website'
+  },
   'language not available error' => {
     'lastUpdated' => '1228684295',
     'message' => '%s ist nicht verfügbar. Bitte wählen Sie eine andere Sprache.'
@@ -3366,6 +3370,10 @@ Kopieren Sie ggf. Dateien und fügen Sie diese in den Editor ein.'
   'time recorded' => {
     'lastUpdated' => '1224798472',
     'message' => 'Login-Dauer'
+  },
+  'timezone help' => {
+    'lastUpdated' => '1258547296',
+    'message' => 'Einstellung der standard Zeitzone für diese Website'
   },
   'tinymce' => {
     'lastUpdated' => '1178625861',

@@ -1,6 +1,14 @@
 package WebGUI::i18n::German::Asset_Template;
 use utf8;
 our $I18N = {
+  'Already attached!' => {
+    'lastUpdated' => '1258547405',
+    'message' => 'Bereits angehängt!'
+  },
+  'No url!' => {
+    'lastUpdated' => '1258547392',
+    'message' => 'Keine URL!'
+  },
   'assetName' => {
     'lastUpdated' => '1179920785',
     'message' => 'Template'

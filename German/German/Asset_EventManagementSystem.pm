@@ -81,6 +81,10 @@ our $I18N = {
     'lastUpdated' => undef,
     'message' => ''
   },
+  'add submission' => {
+    'lastUpdated' => '1258546921',
+    'message' => 'Neu'
+  },
   'add to badge' => {
     'lastUpdated' => '1239657971',
     'message' => 'Zum Namensschild hinzugügen'
@@ -302,8 +306,8 @@ our $I18N = {
     'message' => ''
   },
   'approved' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => '1258546934',
+    'message' => 'Überprüft'
   },
   'assetId' => {
     'lastUpdated' => '1257325908',
@@ -561,6 +565,10 @@ our $I18N = {
     'lastUpdated' => undef,
     'message' => ''
   },
+  'created' => {
+    'lastUpdated' => '1258546944',
+    'message' => 'Erstellt'
+  },
   'created by' => {
     'lastUpdated' => undef,
     'message' => ''
@@ -608,6 +616,10 @@ our $I18N = {
   'delete' => {
     'lastUpdated' => '1239658028',
     'message' => 'Löschen'
+  },
+  'denied' => {
+    'lastUpdated' => '1258547432',
+    'message' => 'Abgelehnt'
   },
   'description' => {
     'lastUpdated' => undef,
@@ -688,6 +700,10 @@ our $I18N = {
   'edit registrant' => {
     'lastUpdated' => undef,
     'message' => ''
+  },
+  'edit submission form' => {
+    'lastUpdated' => '1258546992',
+    'message' => 'Bearbeiten Neuer Beitrag'
   },
   'email' => {
     'lastUpdated' => '1251837239',
@@ -837,6 +853,10 @@ our $I18N = {
     'lastUpdated' => '1251838158',
     'message' => 'Anfangsdatum'
   },
+  'event submission main template' => {
+    'lastUpdated' => '1258547486',
+    'message' => 'Hauptvorlage neue Veranstaltung'
+  },
   'event template help title' => {
     'lastUpdated' => '1251843569',
     'message' => 'Veranstaltungsmanagementsystem Veranstaltungstemplate'
@@ -892,6 +912,14 @@ our $I18N = {
   'extraHeadTagsPacked' => {
     'lastUpdated' => '1257633162',
     'message' => 'Zusätzliche Tags die im Kopf dieses Tickets angezeigt werden sollen, miminiert, ohne Whitespace'
+  },
+  'failed' => {
+    'lastUpdated' => '1258547033',
+    'message' => 'Fehler'
+  },
+  'feedback' => {
+    'lastUpdated' => '1258547059',
+    'message' => 'Feedback'
   },
   'field count mismatch' => {
     'lastUpdated' => '1251843915',

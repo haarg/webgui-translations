@@ -173,6 +173,10 @@ our $I18N = {
     'lastUpdated' => '1170453034',
     'message' => '<p>Öffnet ein Formular zum Hinzufügen neuer Metadaten-Felder zu diesem Asset.</p>'
   },
+  'Attempting to commit changes' => {
+    'lastUpdated' => '1258546853',
+    'message' => 'Änderungen werden durchgeführt...'
+  },
   'Class Icon' => {
     'lastUpdated' => '1170453489',
     'message' => 'Kategoriensymbol'
@@ -308,6 +312,10 @@ our $I18N = {
   'Possible Values description' => {
     'lastUpdated' => '1244362568',
     'message' => 'Dieses Feld wird nur für die Datentypen &quot;Radio List&quot; und &quot;Select List&quot; genutzt. Geben Sie die Werte zeilenweise ein, die erscheinen sollen. Jede Zeile sollte weniger als 255 Zeichen lang sein.'
+  },
+  'Processing form data' => {
+    'lastUpdated' => '1258546889',
+    'message' => 'Formulardaten werden verarbeitet...'
   },
   'Purging %s' => {
     'lastUpdated' => '1246486368',
