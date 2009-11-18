@@ -454,8 +454,8 @@ our $I18N = {
     'message' => 'Gewone variabelen van het enqu&ecirc;te sjabloon'
   },
   'Add Answer' => {
-    'lastUpdated' => '1257759301',
-    'message' => 'Niew antwoord'
+    'lastUpdated' => '1258548381',
+    'message' => 'Nieuw antwoord'
   },
   'Add Question' => {
     'lastUpdated' => '1257759315',

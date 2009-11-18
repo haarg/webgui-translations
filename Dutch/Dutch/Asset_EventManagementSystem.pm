@@ -509,6 +509,10 @@ our $I18N = {
     'lastUpdated' => '1215444045',
     'message' => 'Kortingspassen geven korting op een groep van gerelateerde evenementen. Er kunnen &eacute;&eacute;n of meer kortingspassen aan het naamplaatje worden toegevoegd voor kortingen op gerelateerde evenementen.'
   },
+  'default submitted location list' => {
+    'lastUpdated' => '1258549658',
+    'message' => 'Dit is de standaard lijst met locaties voor het invoeren van een evenement.'
+  },
   'default ticket instructions' => {
     'lastUpdated' => '1214560967',
     'message' => 'Met kaarten kunnen stoelen gereserveerd worden bij bijeenkomsten. Voeg kaarten toe aan het naamplaatje voor evenementen die u wilt bezoeken.'
@@ -600,6 +604,10 @@ our $I18N = {
   'edit registrant' => {
     'lastUpdated' => '1148299268',
     'message' => 'Bewerk deelnemer'
+  },
+  'edit submission form' => {
+    'lastUpdated' => '1258549703',
+    'message' => '"Bewerk inschrijving" sjabloon'
   },
   'email' => {
     'lastUpdated' => '1216645299',
@@ -745,6 +753,30 @@ our $I18N = {
     'lastUpdated' => '1216648195',
     'message' => 'Begindatum'
   },
+  'event submission main template' => {
+    'lastUpdated' => '1258550119',
+    'message' => 'Evenement toevoegen sjabloon'
+  },
+  'event submission main template help' => {
+    'lastUpdated' => '1258550227',
+    'message' => 'Dit sjabloon wordt gebruikt voor het tonen van de hoofdpagina van de module waarmee evenementen worden toegevoegd. Het heeft een dynamische tabset waarmee verschillende onderdel van de interface voor het toevoegen mee getoond worden.'
+  },
+  'event submission queue template' => {
+    'lastUpdated' => '1258550271',
+    'message' => 'Evenement toevoegen wachtrij sjabloon'
+  },
+  'event submission queue template help' => {
+    'lastUpdated' => '1258550340',
+    'message' => 'Dit is het sjabloon waarmee de Wachtrij voor toegevoegde evenementen getoond worden, dit wordt gebruikt voor de mensen die evenementen toevoegen en beheerders.'
+  },
+  'event submission template' => {
+    'lastUpdated' => '1258550352',
+    'message' => 'Evenement toevoegn sjabloon'
+  },
+  'event submission template help' => {
+    'lastUpdated' => '1258551097',
+    'message' => 'Dit sjabloon wordt gebruikt voor het toevoegen van evenementen. De meeste inhoud wordt samengesteld uit het formulier gebaseerd op de beschrijving van de beheerder.'
+  },
   'event template help title' => {
     'lastUpdated' => '1148302925',
     'message' => ' Evenementen sjabloon voor het evenementen beheersysteem'
@@ -800,6 +832,14 @@ our $I18N = {
   'extraHeadTagsPacked' => {
     'lastUpdated' => '1257759275',
     'message' => 'Extra eigenschappen die zonder spaties in de header van het ticket getoond worden.'
+  },
+  'failed' => {
+    'lastUpdated' => '1258549444',
+    'message' => 'Mislukt'
+  },
+  'feedback' => {
+    'lastUpdated' => '1258549452',
+    'message' => 'Wacht op reactie'
   },
   'field count mismatch' => {
     'lastUpdated' => '1190027426',
@@ -1149,6 +1189,14 @@ our $I18N = {
     'lastUpdated' => '1149861921',
     'message' => '<p>Dit zijn berichten van het systeem over het aantal en het soort resultaten dat getoond wordt. </p>'
   },
+  'meta field help text' => {
+    'lastUpdated' => '1258550041',
+    'message' => 'Help tekst'
+  },
+  'meta field help text description' => {
+    'lastUpdated' => '1258550103',
+    'message' => 'Deze help tekst wordt getoond in de interface voor het toevoegen van evenementen.'
+  },
   'meta fields' => {
     'lastUpdated' => '1215428308',
     'message' => 'Meta velden'
@@ -1161,6 +1209,10 @@ our $I18N = {
     'lastUpdated' => '1208522006',
     'message' => 'Enkele van de geselecteerde evenementen vereisen de deelname aan een ander evenement. Zorg ervoor dat aan de lijst van vereisten hieronder is voldaan. '
   },
+  'my submissions' => {
+    'lastUpdated' => '1258549718',
+    'message' => 'Mijn inschrijvingen'
+  },
   'name' => {
     'lastUpdated' => '1216587185',
     'message' => 'De naam van de gebruiker met het naamplaatje'
@@ -1169,13 +1221,33 @@ our $I18N = {
     'lastUpdated' => '1149862027',
     'message' => '<p>Het label &quot;Evenement&quot;. </p>'
   },
+  'new form' => {
+    'lastUpdated' => '1258549768',
+    'message' => 'Nieuw formulier'
+  },
   'new price' => {
     'lastUpdated' => '1148307058',
     'message' => 'Nieuwe prijs'
   },
+  'new submission' => {
+    'lastUpdated' => '1258549735',
+    'message' => 'Voeg een evenement toe'
+  },
+  'new submission form' => {
+    'lastUpdated' => '1258549756',
+    'message' => 'Beheer evenementen toevoegen'
+  },
   'newWindow' => {
     'lastUpdated' => '1257329797',
     'message' => 'Of dit ticket in een nieuw window getoond moet worden.'
+  },
+  'next submission id label' => {
+    'lastUpdated' => '1258549800',
+    'message' => 'Id volgende toevoeging'
+  },
+  'next submission id label help' => {
+    'lastUpdated' => '1258549840',
+    'message' => 'Dit is de waarde voor het invullen van de eerste toevoeging, bewerk dit niet.'
   },
   'no' => {
     'lastUpdated' => '1190026100',
@@ -1264,6 +1336,10 @@ our $I18N = {
   'pass name description' => {
     'lastUpdated' => '1148307741',
     'message' => 'De naam van de kortingspas. In het systeem wordt dit gebruikt voor referentie naar deze pas en de bijbehorende kortingen, dus kies een omschrijvende naam. Dit veld kan niet leeggelaten worden.'
+  },
+  'pending' => {
+    'lastUpdated' => '1258549432',
+    'message' => 'Wachtend'
   },
   'percent off' => {
     'lastUpdated' => '1148307566',
@@ -1585,6 +1661,14 @@ our $I18N = {
     'lastUpdated' => '1148308134',
     'message' => 'Wilt u de beschikbare sub-evenementen zien?'
   },
+  'select form to edit' => {
+    'lastUpdated' => '1258549856',
+    'message' => 'Selecteer een formulier voor het bewerken'
+  },
+  'select form to submit' => {
+    'lastUpdated' => '1258549874',
+    'message' => 'Selecteer een formulier om een evenement toe te voegen'
+  },
   'select one' => {
     'lastUpdated' => '1148308110',
     'message' => 'Selecteer &eacute;&eacute;n'
@@ -1656,6 +1740,18 @@ our $I18N = {
   'status' => {
     'lastUpdated' => '1215442215',
     'message' => 'Status'
+  },
+  'submission queue' => {
+    'lastUpdated' => '1258549888',
+    'message' => 'Wachtrij toevoegingen'
+  },
+  'submitted location list help' => {
+    'lastUpdated' => '1258549972',
+    'message' => 'Voer een lijst met loacties in, 1 per regel. Deze lijst is beschikbaar in het formulier voor het toevoegen van evenmenten. Als dit veld ingevuld is zijn alleen deze loacties beschikbaar.'
+  },
+  'submitted location list label' => {
+    'lastUpdated' => '1258549995',
+    'message' => 'Beschikbare locaties voor toevoegen evenementen'
   },
   'switch to badge for' => {
     'lastUpdated' => '1215442625',
@@ -1843,6 +1939,10 @@ Voorveeld: Meta data label: naar "Telefoon thuis" moet als volgt naar gerefereer
     'lastUpdated' => '1215442830',
     'message' => 'Bekijk naamplaatjes'
   },
+  'view my submissions' => {
+    'lastUpdated' => '1258550010',
+    'message' => 'Mijn toegevoegde evenementen'
+  },
   'view purchase' => {
     'lastUpdated' => '1148307452',
     'message' => 'Bekijk aankoop'
@@ -1854,6 +1954,10 @@ Voorveeld: Meta data label: naar "Telefoon thuis" moet als volgt naar gerefereer
   'view schedule' => {
     'lastUpdated' => '1246969748',
     'message' => 'Planner'
+  },
+  'view submission queue' => {
+    'lastUpdated' => '1258550027',
+    'message' => 'Wachtrij evenement'
   },
   'view tickets' => {
     'lastUpdated' => '1213703530',
