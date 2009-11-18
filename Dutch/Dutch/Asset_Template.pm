@@ -1,6 +1,14 @@
 package WebGUI::i18n::Dutch::Asset_Template;
 use utf8;
 our $I18N = {
+  'Already attached!' => {
+    'lastUpdated' => '1258535772',
+    'message' => 'Dit is al in de bijlage!'
+  },
+  'No url!' => {
+    'lastUpdated' => '1258535779',
+    'message' => 'Geen URL!'
+  },
   'assetName' => {
     'lastUpdated' => '1151504830',
     'message' => 'Sjabloon'

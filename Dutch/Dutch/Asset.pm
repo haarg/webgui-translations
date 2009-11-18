@@ -173,6 +173,10 @@ our $I18N = {
     'lastUpdated' => '1246969008',
     'message' => 'Open een formulier waar nieuwe velden voor metadata aan dit asset kunnen worden toegevoegd.'
   },
+  'Attempting to commit changes' => {
+    'lastUpdated' => '1258536057',
+    'message' => 'Veranderingen aan het proberen door te voeren.'
+  },
   'Class Icon' => {
     'lastUpdated' => '1222350784',
     'message' => 'Klasse Icoon'
@@ -317,6 +321,10 @@ label3|waarde3
 ...
 
 Hierbij worden het label en de bijbehorende waarde door het | teken gescheiden. Plaats geen spaties voor of na de |. Let erop ook op dat je regels met verschillende labels kan mixen met regels met hetzelfde label. Als er een selectBox gemaakt wordt, wordt er automatisch een Selecteer mogelijkheid toegevoegd aan de lijst met opties.'
+  },
+  'Processing form data' => {
+    'lastUpdated' => '1258536070',
+    'message' => 'Formulier data verwerken'
   },
   'Purging %s' => {
     'lastUpdated' => '1248099933',

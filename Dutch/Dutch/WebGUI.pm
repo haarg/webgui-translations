@@ -2586,6 +2586,10 @@ LongTruncOk=1'
     'lastUpdated' => '1213865902',
     'message' => 'Moet deze groep te zien zijn in de lijst van beheerbare groepen? Als dit op nee gezet wordt zul je de groep niet langer kunnen bewerken.'
   },
+  'language help' => {
+    'lastUpdated' => '1258535674',
+    'message' => 'Kies de standaard taal voor gebruikers.'
+  },
   'language not available error' => {
     'lastUpdated' => '1227627985',
     'message' => '%s is niet beschikbaar. Selecteer alstubieft een andere taal.'
@@ -3345,6 +3349,10 @@ LongTruncOk=1'
   'time recorded' => {
     'lastUpdated' => '1222938779',
     'message' => 'Totale tijd ingelogd (actieve sessies niet meegerekend)'
+  },
+  'timezone help' => {
+    'lastUpdated' => '1258535435',
+    'message' => 'Stel de standaard tijdzone van de site in.'
   },
   'tinymce' => {
     'lastUpdated' => '1154097655',

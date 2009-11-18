@@ -73,6 +73,10 @@ our $I18N = {
     'lastUpdated' => '1148287850',
     'message' => 'Voeg een deelnemer toe.'
   },
+  'add submission' => {
+    'lastUpdated' => '1258535976',
+    'message' => 'Nieuw'
+  },
   'add to badge' => {
     'lastUpdated' => '1213714236',
     'message' => 'Voeg toe aan naamplaatje'
@@ -232,6 +236,10 @@ our $I18N = {
   'appUrl' => {
     'lastUpdated' => '1149862411',
     'message' => 'Een URL terug naar het hoofdscherm van de asset. '
+  },
+  'approved' => {
+    'lastUpdated' => '1258535984',
+    'message' => 'Goedgekeurd'
   },
   'assetId' => {
     'lastUpdated' => '1257329195',
@@ -465,6 +473,10 @@ our $I18N = {
     'lastUpdated' => '1208521228',
     'message' => 'Maak nieuwe gebruiker aan.'
   },
+  'created' => {
+    'lastUpdated' => '1258535993',
+    'message' => 'Aangemaakt'
+  },
   'created by' => {
     'lastUpdated' => '1148296028',
     'message' => 'Aangemaakt door'
@@ -512,6 +524,10 @@ our $I18N = {
   'delete' => {
     'lastUpdated' => '1213702859',
     'message' => 'Verwijderen'
+  },
+  'denied' => {
+    'lastUpdated' => '1258536001',
+    'message' => 'Afgekeurd'
   },
   'description' => {
     'lastUpdated' => '1149859800',
