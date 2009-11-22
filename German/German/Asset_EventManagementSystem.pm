@@ -601,6 +601,10 @@ our $I18N = {
     'lastUpdated' => '1251836774',
     'message' => 'Bänder gewähren Rabatte auf eine Gruppe dazugehörender Veranstaltungen. Sie können Ihrem Namensschild ein oder mehrere Bänder hinzufügen, die auf dazugehörende Veranstaltungen  Rabatte gewähren.'
   },
+  'default submitted location list' => {
+    'lastUpdated' => '1258915460',
+    'message' => 'Der Standardwert für die Ortsliste der Veranstaltungen'
+  },
   'default ticket instructions' => {
     'lastUpdated' => '1251836909',
     'message' => 'Ein Ticket ermöglicht eine Platzreservierung für eine Veranstaltung auf einem Kongress. Fügen Sie ihrem Namensschild ein Ticket für jede Veranstaltung hinzu, an der Sie teilnehmen möchten. '
@@ -856,6 +860,10 @@ our $I18N = {
   'event submission main template' => {
     'lastUpdated' => '1258547486',
     'message' => 'Hauptvorlage neue Veranstaltung'
+  },
+  'event submission main template help' => {
+    'lastUpdated' => '1258915479',
+    'message' => ''
   },
   'event template help title' => {
     'lastUpdated' => '1251843569',
