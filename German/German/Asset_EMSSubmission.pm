@@ -14,7 +14,7 @@ our $I18N = {
     'message' => 'Asset bearbeiten'
   },
   'send email label' => {
-    'lastUpdated' => '1258914905',
+    'lastUpdated' => '1259145136',
     'message' => 'E-Mail versenden, wenn Veranstaltungsregistrierung bearbeitet wurde'
   },
   'send email label help' => {

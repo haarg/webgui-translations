@@ -1318,6 +1318,10 @@ Wenn Sie beispielsweise Veranstaltungstitel und Veranstaltungsanfangsdatum als e
     'lastUpdated' => undef,
     'message' => ''
   },
+  'meta field help text' => {
+    'lastUpdated' => '1259144977',
+    'message' => 'Hilfetext'
+  },
   'meta fields' => {
     'lastUpdated' => '1251847197',
     'message' => 'Metafelder'
@@ -1447,8 +1451,8 @@ Wenn Sie beispielsweise Veranstaltungstitel und Veranstaltungsanfangsdatum als e
     'message' => ''
   },
   'pending' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => '1259145016',
+    'message' => 'Wartend'
   },
   'percent off' => {
     'lastUpdated' => undef,
@@ -1786,6 +1790,14 @@ Wenn Sie den Kauf für jemand anders durchführen, wählen Sie dessen Name oder 
   'see available subevents' => {
     'lastUpdated' => undef,
     'message' => ''
+  },
+  'select form to edit' => {
+    'lastUpdated' => '1259145073',
+    'message' => 'Wählen Sie ein Formular zur Bearbeitung'
+  },
+  'select form to submit' => {
+    'lastUpdated' => '1259145094',
+    'message' => 'Wählen Sie ein Formular zur Speicherung'
   },
   'select one' => {
     'lastUpdated' => '1251666738',
