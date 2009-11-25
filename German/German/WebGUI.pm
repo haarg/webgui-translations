@@ -2049,6 +2049,14 @@ our $I18N = {
     'lastUpdated' => '1225319274',
     'message' => 'Starter Seiten'
   },
+  'Maximum cache timeout' => {
+    'lastUpdated' => '1259144939',
+    'message' => 'Maximaler Cache-Timeout'
+  },
+  'Maximum cache timeout description' => {
+    'lastUpdated' => '1259144927',
+    'message' => 'Dieser Timeout überschreibt die Inhaltsprüfung, die vor der Seitengenerierung vorgenommen wird. Dies kann mögliche Cache-Probleme in Zusammenhang mit Makros und der Navigation vermeiden helfen. "0" schaltet diesen Timeout ab. Der empfohlene Wert ist mehreren Stunden.'
+  },
   'My Style' => {
     'lastUpdated' => '1224799164',
     'message' => 'MeinStyle'
