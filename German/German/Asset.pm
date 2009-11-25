@@ -173,6 +173,10 @@ our $I18N = {
     'lastUpdated' => '1170453034',
     'message' => '<p>Öffnet ein Formular zum Hinzufügen neuer Metadaten-Felder zu diesem Asset.</p>'
   },
+  'Any Class' => {
+    'lastUpdated' => '1259144684',
+    'message' => 'Jede Klasse'
+  },
   'Attempting to commit changes' => {
     'lastUpdated' => '1258546853',
     'message' => 'Änderungen werden durchgeführt...'
