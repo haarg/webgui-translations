@@ -2067,6 +2067,14 @@ De verstrekte informatie is niet gelijk aan de accountinformatie. '
     'lastUpdated' => '1222937970',
     'message' => 'Eerste pagina\'s'
   },
+  'Maximum cache timeout' => {
+    'lastUpdated' => '1259235133',
+    'message' => 'Maximum tijdslimiet cache'
+  },
+  'Maximum cache timeout description' => {
+    'lastUpdated' => '1259245913',
+    'message' => 'Deze tijdslimiet wordt gebruikt voor het checken van inhoud voordat een pagina wordt gegenereerd. Het kan helpen met cache problemen bij macros en navigaties. Bij een instelling van 0 wordt de tijdslimiet niet gebruikt. Een instelling van enkele uren wordt aanbevolen.'
+  },
   'My Style' => {
     'lastUpdated' => '1222937977',
     'message' => 'Mijn stijl'

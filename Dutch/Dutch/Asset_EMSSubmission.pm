@@ -14,7 +14,7 @@ our $I18N = {
     'message' => 'Bewerk asset'
   },
   'send email label' => {
-    'lastUpdated' => '1258536899',
+    'lastUpdated' => '1259235191',
     'message' => 'Stuur e-mail wanneer de inschrijving bewerkt is.'
   },
   'send email label help' => {

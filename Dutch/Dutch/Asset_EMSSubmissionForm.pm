@@ -34,7 +34,7 @@ our $I18N = {
     'message' => 'Aangemaakte items verwijderen?'
   },
   'delete created items label help' => {
-    'lastUpdated' => '1258557989',
+    'lastUpdated' => '1259235198',
     'message' => 'Kies "ja" wanneer ingevoerde bijdragen verwijderd moeten worden nadat ze zijn omgezet naar een EMS kaartje.'
   },
   'edit form' => {
