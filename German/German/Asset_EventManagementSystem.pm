@@ -1339,6 +1339,10 @@ Wenn Sie beispielsweise Veranstaltungstitel und Veranstaltungsanfangsdatum als e
     'lastUpdated' => '1259144977',
     'message' => 'Hilfetext'
   },
+  'meta field help text description' => {
+    'lastUpdated' => '1259620244',
+    'message' => 'Dieser Text wird bei der Registrierung angezeigt.'
+  },
   'meta fields' => {
     'lastUpdated' => '1251847197',
     'message' => 'Metafelder'
@@ -1363,13 +1367,34 @@ Wenn Sie beispielsweise Veranstaltungstitel und Veranstaltungsanfangsdatum als e
     'lastUpdated' => undef,
     'message' => ''
   },
+  'new form' => {
+    'lastUpdated' => '1259619746',
+    'message' => 'Neues Formular'
+  },
   'new price' => {
     'lastUpdated' => undef,
     'message' => ''
   },
+  'new submission' => {
+    'lastUpdated' => '1259619781',
+    'message' => 'Veranstaltung registrieren'
+  },
+  'new submission form' => {
+    'lastUpdated' => '1259619832',
+    'message' => 'Registrierungen verwalten'
+  },
   'newWindow' => {
     'lastUpdated' => '1257326537',
     'message' => 'Soll dieses Ticket in einem neuen Fenster angezeigt werden?'
+  },
+  'next submission id label' => {
+    'lastUpdated' => '1259619851',
+    'message' => 'Nächte Registrierungs-ID'
+  },
+  'next submission id label help' => {
+    'lastUpdated' => '1259619916',
+    'message' => 'Dies ist der Wert, der der ersten Registrierung zugewiesen wird. 
+Bitte nicht ändern!'
   },
   'no' => {
     'lastUpdated' => '1251667128',
@@ -1892,6 +1917,20 @@ Wenn Sie den Kauf für jemand anders durchführen, wählen Sie dessen Name oder 
     'lastUpdated' => '1226016467',
     'message' => 'Status'
   },
+  'submission queue' => {
+    'lastUpdated' => '1259619983',
+    'message' => 'Warteschlange Registrierung'
+  },
+  'submitted location list help' => {
+    'lastUpdated' => '1259620169',
+    'message' => 'Geben Sie hier eine Liste der Veranstaltungsorte ein, jeweils ein Ort pro Zeile.
+Diese List steht bei der Regsitrierung zur Auswahl. 
+Wenn dieses Feld ausgefüllt wird, werden nur die Vernstaltungsorte zur Verfügung.'
+  },
+  'submitted location list label' => {
+    'lastUpdated' => '1259620185',
+    'message' => 'Vernstaltungsorte'
+  },
   'switch to badge for' => {
     'lastUpdated' => '1251840440',
     'message' => 'Wechsel zum Namensschild von %s'
@@ -2076,6 +2115,10 @@ Wenn Sie den Kauf für jemand anders durchführen, wählen Sie dessen Name oder 
     'lastUpdated' => '1251839458',
     'message' => 'Namensschilder ansehen'
   },
+  'view my submissions' => {
+    'lastUpdated' => '1259620006',
+    'message' => 'Meine Registrierungen'
+  },
   'view purchase' => {
     'lastUpdated' => '1251666340',
     'message' => 'Einkauf ansehen'
@@ -2095,6 +2138,10 @@ Wenn Sie den Kauf für jemand anders durchführen, wählen Sie dessen Name oder 
   'view schedule' => {
     'lastUpdated' => '1251666313',
     'message' => 'Plan'
+  },
+  'view submission queue' => {
+    'lastUpdated' => '1259620027',
+    'message' => 'Warteschlange Registrierungen'
   },
   'view tickets' => {
     'lastUpdated' => '1251666295',
