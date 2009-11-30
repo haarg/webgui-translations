@@ -862,8 +862,25 @@ our $I18N = {
     'message' => 'Hauptvorlage neue Veranstaltung'
   },
   'event submission main template help' => {
-    'lastUpdated' => '1258915479',
-    'message' => ''
+    'lastUpdated' => '1259618445',
+    'message' => 'Diese Vorlage wird verwendet für die Hauptseite zur Definition einer Veranstaltung. 
+Es gibt dynamisches Menüs, die ein oder mehrere Teile der Veranstaltungsschnittschnelle enthalten '
+  },
+  'event submission queue template' => {
+    'lastUpdated' => '1259618510',
+    'message' => 'Vorlage Veranstaltungsreihe'
+  },
+  'event submission queue template help' => {
+    'lastUpdated' => '1259618797',
+    'message' => 'Dies ist die Vorlage zur Anzeige der Vernatsaltungsreihe und wird vom Beitragenden und von Adminsitrator verwendet.'
+  },
+  'event submission template' => {
+    'lastUpdated' => '1259618530',
+    'message' => 'Vorlage Veranstaltung'
+  },
+  'event submission template help' => {
+    'lastUpdated' => '1259618708',
+    'message' => 'Diese Vorlage wird verwendet für die Eingabe einer Veranstaltung. Der Inhalt wird zusammengestellt auf Basis der Beschreibung des Adminsitrators, der diesen Beitrag eingegeben hat.'
   },
   'event template help title' => {
     'lastUpdated' => '1251843569',

@@ -29,6 +29,10 @@ our $I18N = {
     'lastUpdated' => '1258915613',
     'message' => 'Formularbeschreibung'
   },
+  'form dscription label help' => {
+    'lastUpdated' => '1259327061',
+    'message' => 'Dieser JSON-Text beschreibt das Formular, das für den Nutzer bereitgestellt wird, um zu diesem EMS etwas hinzuzufügen. Diese  Einstellungen sollten nur von Experten geändert werden!'
+  },
   'new form' => {
     'lastUpdated' => '1258915571',
     'message' => 'Neues Formular'
