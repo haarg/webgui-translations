@@ -1351,6 +1351,10 @@ Wenn Sie beispielsweise Veranstaltungstitel und Veranstaltungsanfangsdatum als e
     'lastUpdated' => '1251850450',
     'message' => 'Einige Veranstaltungen setzen voraus, dass Sie an einer anderen Veranstaltung teilgenommen haben. Bitte erfüllen Sie die Voraussetzungen der folgenden Liste.'
   },
+  'my submissions' => {
+    'lastUpdated' => '1259619670',
+    'message' => 'Meine Registrierungen'
+  },
   'name' => {
     'lastUpdated' => '1240697840',
     'message' => 'Benutzername zum Namensschilds'
