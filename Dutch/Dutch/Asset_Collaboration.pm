@@ -174,8 +174,8 @@ our $I18N = {
     'message' => 'Wat staat er op deze afbeelding?'
   },
   'captcha_label' => {
-    'lastUpdated' => '1257328208',
-    'message' => 'Het woord "Captcha".'
+    'lastUpdated' => '1259858195',
+    'message' => 'Label van de captcha (anti-spam-code).'
   },
   'close' => {
     'lastUpdated' => '1147187966',
