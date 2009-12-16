@@ -2067,6 +2067,10 @@ De verstrekte informatie is niet gelijk aan de accountinformatie. '
     'lastUpdated' => '1222937970',
     'message' => 'Eerste pagina\'s'
   },
+  'Loading...' => {
+    'lastUpdated' => '1260978696',
+    'message' => 'Laden...'
+  },
   'Maximum cache timeout' => {
     'lastUpdated' => '1259235133',
     'message' => 'Maximum tijdslimiet cache'

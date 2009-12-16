@@ -541,6 +541,10 @@ our $I18N = {
     'lastUpdated' => '1249031934',
     'message' => 'Selecteer een groep die rapportage kan bekijken.'
   },
+  'Make Default Type' => {
+    'lastUpdated' => '1260978663',
+    'message' => 'Maak type standaard'
+  },
   'Max user responses' => {
     'lastUpdated' => '1249031697',
     'message' => 'Maximum reacties per gebruiker'
@@ -580,6 +584,10 @@ our $I18N = {
   'Quiz mode summaries help' => {
     'lastUpdated' => '1249043817',
     'message' => 'Wanneer dit is aangezet wordt een samenvatting van de resultaten gegeven aan de gebruikers.'
+  },
+  'Remove Default Type' => {
+    'lastUpdated' => '1260978678',
+    'message' => 'Verwijder standaard type'
   },
   'Section Edit Template' => {
     'lastUpdated' => '1249038765',

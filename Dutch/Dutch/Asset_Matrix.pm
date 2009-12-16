@@ -1248,12 +1248,12 @@ Voor de selectielijst mag er maar &#233;&#233;n waarde worden ingevuld. De gebru
     'message' => 'De URL van de lijst met de slechtste waardering van deze categorie.'
   },
   'too few message' => {
-    'lastUpdated' => '1250240831',
-    'message' => 'Voor een vergelijking zijn minimaal twee objecten nodig. Als u de lijst wilt bekijken, klik dan op de naam van de lijst.'
+    'lastUpdated' => '1260978546',
+    'message' => 'Voor een vergelijking zijn minimaal twee objecten nodig. Als u maar een lijst wilt bekijken, klik dan op de naam van de lijst.'
   },
   'too many message' => {
-    'lastUpdated' => '1242728448',
-    'message' => 'U heeft geprobeerd om meer dan het maximaal aantal lijsten te vergelijken.'
+    'lastUpdated' => '1260978567',
+    'message' => 'U heeft geprobeerd om meer dan het maximaal aantal lijsten te vergelijken. Pas de selectie aan en probeer het nogmaals.'
   },
   'url' => {
     'lastUpdated' => '1152629334',
