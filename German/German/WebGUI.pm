@@ -2049,6 +2049,10 @@ our $I18N = {
     'lastUpdated' => '1225319274',
     'message' => 'Starter Seiten'
   },
+  'Loading...' => {
+    'lastUpdated' => '1260984243',
+    'message' => 'Laden...'
+  },
   'Maximum cache timeout' => {
     'lastUpdated' => '1259144939',
     'message' => 'Maximaler Cache-Timeout'
