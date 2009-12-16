@@ -1187,12 +1187,12 @@ Alle Daten gehen verloren und Sie können das nicht rückgängig machen!!<br><br
     'message' => ''
   },
   'too few message' => {
-    'lastUpdated' => '1250935723',
-    'message' => 'Sie haben versucht nur eine Liste zu vergleichen. Wenn Sie nur eine Liste anschauen möchten, klicken Sie bitte auf deren Namen.'
+    'lastUpdated' => '1260984447',
+    'message' => 'Für einen Vergleich müssen mindestens zwei Einträge markiert sein. Wenn Sie nur einen Eintrag anschauen möchten, klicken Sie bitte auf deren Namen.'
   },
   'too many message' => {
-    'lastUpdated' => '1250935760',
-    'message' => 'Sie haben versucht, mehr als die maximale Anzahl von Listen zu vergleichen.'
+    'lastUpdated' => '1260984527',
+    'message' => 'Sie können maxmimal %d Einträge miteinander vergleichen. Bitter korrigieren Sie ihre Auswahl und starten das Vergleichen nochmals.'
   },
   'url' => {
     'lastUpdated' => '1250935843',
