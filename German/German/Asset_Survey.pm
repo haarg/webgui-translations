@@ -533,6 +533,10 @@ our $I18N = {
     'lastUpdated' => '1250932122',
     'message' => 'Selektieren Sie eine Gruppe, die berechtigt ist, die Ergebnisse einzusehen.'
   },
+  'Make Default Type' => {
+    'lastUpdated' => '1260984304',
+    'message' => 'Standardtyp erstellen'
+  },
   'Max user responses' => {
     'lastUpdated' => '1238878351',
     'message' => 'Max. Anzahl Durchläufe per Teilnehmer'
@@ -572,6 +576,10 @@ our $I18N = {
   'Quiz mode summaries help' => {
     'lastUpdated' => '1252322596',
     'message' => 'Wenn gesetzt, werden den Nutzern Zusammenfassungen zu Ihren Quiz-Ergebnissen angezeigt.'
+  },
+  'Remove Default Type' => {
+    'lastUpdated' => '1260984334',
+    'message' => 'Standardtyp entfernen'
   },
   'Section Edit Template' => {
     'lastUpdated' => '1252322621',
