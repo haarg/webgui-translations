@@ -78,12 +78,12 @@ our $I18N = {
     'message' => 'Diese Schleife enthält alle Termine und Label für die Tage an denen Sie auftreten. Alle Tage der Woche sind in der Schleife enthalten, egal ob sie Termine enthalten oder nicht.'
   },
   'defaultDate description' => {
-    'lastUpdated' => '1178788610',
-    'message' => 'Das Standard Datum, das dem Benutzer angezeigt wird.'
+    'lastUpdated' => '1264460703',
+    'message' => 'Das Standarddatum, das dem Benutzer angezeigt wird.'
   },
   'defaultDate label' => {
-    'lastUpdated' => '1178788618',
-    'message' => 'Standard Datum'
+    'lastUpdated' => '1264460712',
+    'message' => 'Standarddatum'
   },
   'defaultDate value current' => {
     'lastUpdated' => '1178788627',
