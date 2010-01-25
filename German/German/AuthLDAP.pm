@@ -82,10 +82,11 @@ our $I18N = {
     'message' => 'Benutzer RDN'
   },
   '9 description' => {
-    'lastUpdated' => '1251838359',
-    'message' => 'RDN ist der "relative distinguished name". Pfad, an dem die Benutzereinträge gefunden werden können. Normalerweise sieht der RDN folgendermassen aus:
+    'lastUpdated' => '1263457001',
+    'message' => 'Geben Sie das Attribut ein, das in LDAP verwendet wird zur eindeutigen Identifizierung eines Benutzers. Dieses Feld wird verwendet um einen Benutzer in WebGUI anzulegen, wenn dieser bereits in LDAP vorhanden ist und versucht sich bei WebGUI anzumelden. Das gilt auch, falls die anonyme Registrierung freigeschalten wurde.
 
-ou=People,dc=example,dc=com'
+In fast allen Fällen ist dieses Attribut "dn" und sollte genauso eingetragen werden.
+(Also nicht ausgeschrieben wie: "cn=name,dc=domain,...")'
   },
   'LDAPLink_0' => {
     'lastUpdated' => '1180087052',
@@ -344,10 +345,16 @@ ou=People,dc=example,dc=com'
     'message' => 'Verbindungs DN'
   },
   'LDAPLink_994 description' => {
-    'lastUpdated' => '1251838373',
-    'message' => 'DN = Distinguished Name. Ein DN ist ein eindeutiger Pfad zu einem Objekt im LDAP Verzeichnis. In diesem Fall ist der "Verbindungs DN" der DN, der auf den Benutzeraccount Eintrag zeigt. Üblicherweise sieht dieser folgendermassen aus:
+    'lastUpdated' => '1263394837',
+    'message' => 'LDAP Proxy User DN (Distinguished Name) Ein DN ist ein eindeutiger Pfad zu einem Objekt im LDAP Verzeichnis. In diesem Fall ist der "Verbindungs DN" der DN, der auf den Benutzeraccount-Eintrag zeigt, der für die Authentifizierung beim LDAP-Server verwendet wird und über volle Lese- und Schreibrechte verfügt.  
 
-uid=jdoe,ou=people,dc=example,dc=com'
+Üblicherweise sieht eine DN folgendermassen aus:
+
+uid=jdoe,ou=people,dc=example,dc=com
+
+oder auch als DN mit vollem Zugriff:
+
+cn=Manager,dc=example,dc=com'
   },
   'LDAPLink_995' => {
     'lastUpdated' => '1251838377',

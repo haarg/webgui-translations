@@ -110,8 +110,8 @@ our $I18N = {
     'message' => 'Anzahl Antworten aller Threads in diesem Forum.'
   },
   'forum.threads' => {
-    'lastUpdated' => '1179824307',
-    'message' => 'Gesamtzahl Threads in diesem Forum.'
+    'lastUpdated' => '1263991449',
+    'message' => 'Gesamtzahl Threads in diesem Forum - ohne archivierte Threads.'
   },
   'forum.title' => {
     'lastUpdated' => '1252474537',

@@ -85,6 +85,10 @@ Die erlaubten Schlüsselworte werden in den Datenbank-Link-Eingenschaften defini
     'lastUpdated' => '1258547369',
     'message' => 'Kein Download'
   },
+  'No query specified for query' => {
+    'lastUpdated' => '1263991542',
+    'message' => 'Es ist keine Abfrage definiert für die Abfrage %s'
+  },
   'Placeholder Parameters' => {
     'lastUpdated' => '1252275287',
     'message' => 'Platzhalterparameter'

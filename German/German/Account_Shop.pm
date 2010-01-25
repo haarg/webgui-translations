@@ -80,6 +80,10 @@ our $I18N = {
   'title' => {
     'lastUpdated' => '1241153761',
     'message' => 'Shop'
+  },
+  'userIsVendor' => {
+    'lastUpdated' => '1263991387',
+    'message' => 'Ein boolscher Wert, der wahr ist, falls der aktuelle Nutzer ein Händler ist.'
   }
 }
 ;

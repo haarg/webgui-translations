@@ -667,12 +667,12 @@ Dies bedeutet in der Regel, dass Sie eine Seite anlegen möchtgen, die den selbe
     'message' => 'Boolscher Wert, der wahr ist, wenn das Asset ein Prototy ist.'
   },
   'keywords' => {
-    'lastUpdated' => '1192785225',
-    'message' => 'Stichwort'
+    'lastUpdated' => '1262767073',
+    'message' => 'Schlüsselworte'
   },
   'keywords help' => {
-    'lastUpdated' => '1215170498',
-    'message' => 'Stichwort Hilfe'
+    'lastUpdated' => '1262767184',
+    'message' => 'Schlüsselworte werden automatisch dem Metatag \'keywords\' in diesem Asset und dem WebGUI Suchindex hinzugefügt. Mehrere Schlüsselworte werden durch Komma getrennt.'
   },
   'keywords template var' => {
     'lastUpdated' => '1241153991',
