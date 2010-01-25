@@ -81,6 +81,10 @@ our $I18N = {
     'lastUpdated' => '1258535798',
     'message' => 'Geen download'
   },
+  'No query specified for query' => {
+    'lastUpdated' => '1263991902',
+    'message' => 'Geen zoekopdracht gespecificeerd voor zoekopdracht %s.'
+  },
   'Placeholder Parameters' => {
     'lastUpdated' => '1155748550',
     'message' => 'Willekeurige tekens-parameters'

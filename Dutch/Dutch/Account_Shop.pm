@@ -80,6 +80,10 @@ our $I18N = {
   'title' => {
     'lastUpdated' => '1227609806',
     'message' => 'Winkel'
+  },
+  'userIsVendor' => {
+    'lastUpdated' => '1263991824',
+    'message' => 'Een functie die waar is als de huidige gebruiker een verkoper is.'
   }
 }
 ;

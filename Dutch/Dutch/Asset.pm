@@ -679,8 +679,8 @@ Hierbij worden het label en de bijbehorende waarde door het | teken gescheiden. 
     'message' => 'trefwoorden'
   },
   'keywords help' => {
-    'lastUpdated' => '1213624996',
-    'message' => 'Voer hier enkele trefwoorden in voor dit Asset. Deze zullen automatisch toegevoegd worden aan de zoek index en als de metatag trefwoorden.'
+    'lastUpdated' => '1263483844',
+    'message' => 'Trefwoorden worden automatisch toegevoegd aan de metatag van dit asset en de WebGUI zoekindex. Verschillende trefwoorden dienen gescheiden te worden door komma\'s.'
   },
   'keywords template var' => {
     'lastUpdated' => '1242135846',
