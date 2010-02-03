@@ -62,8 +62,8 @@ our $I18N = {
     'message' => 'Feldname'
   },
   '475 description' => {
-    'lastUpdated' => '1178202602',
-    'message' => 'Name des Feldes; wird intern von der Datenbank benutzt. '
+    'lastUpdated' => '1265190506',
+    'message' => 'Name des Feldes; wird intern von der Datenbank benutzt. Feldnamen dürfen keine Leerzeichen enthalten. Bestimmte Feldnamen sind reserviert, z.B.: "op", "func", "username", "shop", "karma", "status", "lastUpdated", "dateCreated".'
   },
   486 => {
     'lastUpdated' => '1178202615',
