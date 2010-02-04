@@ -246,8 +246,8 @@ our $I18N = {
     'message' => 'Aantal pagina\'s Meest Populair op voorpagina.'
   },
   'mostPopularLabel' => {
-    'lastUpdated' => '1166546737',
-    'message' => 'Een - in meerdere talen beschikbaar - label voor de variabele mostPopularUrl'
+    'lastUpdated' => '1265322653',
+    'message' => 'De populairste artikelen'
   },
   'mostPopularLabel variable' => {
     'lastUpdated' => '1166779959',
@@ -382,8 +382,8 @@ our $I18N = {
     'message' => 'Aantal recente wijzigingen op de voorpagina'
   },
   'recentChangesLabel' => {
-    'lastUpdated' => '1166547765',
-    'message' => 'Een - in meerdere talen beschikbaar - label voor de variabele recentChangesUrl.'
+    'lastUpdated' => '1265322765',
+    'message' => 'Recente veranderingen'
   },
   'recentChangesLabel variable' => {
     'lastUpdated' => '1166780017',
@@ -526,8 +526,8 @@ our $I18N = {
     'message' => 'Home Wiki'
   },
   'wikiHomeLabel variable' => {
-    'lastUpdated' => '1166618786',
-    'message' => 'Een - in meerdere tealen beschikbaar - label voor de variabele wikiHomeUrl'
+    'lastUpdated' => '1265322585',
+    'message' => 'Wiki-Home'
   },
   'wikiHomeUrl' => {
     'lastUpdated' => '1166618815',
