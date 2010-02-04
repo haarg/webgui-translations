@@ -62,8 +62,8 @@ our $I18N = {
     'message' => 'Veldnaam '
   },
   '475 description' => {
-    'lastUpdated' => '1154082879',
-    'message' => 'Naam van het veld, wordt gebruikt in de database.'
+    'lastUpdated' => '1265300265',
+    'message' => 'Naam van het veld, wordt gebruikt in de database. Veldnamen mogen geen spaties bevatten. Bepaalde namen zijn gereseveerd zoals "op", "username", "shop", "karma", "status", "lastUpdated", "dateCreated".'
   },
   486 => {
     'lastUpdated' => '1155815745',
