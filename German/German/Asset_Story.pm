@@ -278,8 +278,8 @@ our $I18N = {
     'message' => 'Bericht'
   },
   'story asset template variables title' => {
-    'lastUpdated' => '1252335002',
-    'message' => 'Story Asset Template Variables.'
+    'lastUpdated' => '1266397817',
+    'message' => '"Bericht"-Asset Template Variabelen'
   },
   'story help' => {
     'lastUpdated' => '1252335008',
@@ -322,12 +322,12 @@ our $I18N = {
     'message' => 'Formular zur Eingabe des Berichttitels'
   },
   'updatedTime' => {
-    'lastUpdated' => '1252335298',
-    'message' => 'Zeit wann der Bericht letztmals aktualisiert wurde. Angabe als Zeitdauer, wie "vor 1 Stunde".'
+    'lastUpdated' => '1266397981',
+    'message' => 'Zeitpunkt der letzten Aktualisierung des Berichts. Angabe als Zeitdauer, wie "vor 1 Stunde".'
   },
   'updatedTimeEpoch' => {
-    'lastUpdated' => '1252335843',
-    'message' => 'Zeitpunkt an dem der Bericht zuletzt aktualisiert wurde, als Epoch-Angabe.'
+    'lastUpdated' => '1266397960',
+    'message' => 'Zeitpunkt der letzten Aktualisierung des Berichts als Epoch-Angabe.'
   },
   'view template' => {
     'lastUpdated' => '1251768236',
