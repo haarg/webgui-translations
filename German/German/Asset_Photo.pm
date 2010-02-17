@@ -317,7 +317,7 @@ our $I18N = {
     'lastUpdated' => '1229723995',
     'message' => 'Der URL zum Download des Fotos in einer bestimmten Auflösung.'
   },
-  'helpvar synopsis_text' => {
+  'helpvar synopsis_textonly' => {
     'lastUpdated' => '1229724018',
     'message' => 'Das Feld "Synopsis" ohne HTML-Code.'
   },
