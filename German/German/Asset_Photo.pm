@@ -406,8 +406,8 @@ our $I18N = {
     'message' => 'Hinzugefügt am'
   },
   'template comment delete confirm' => {
-    'lastUpdated' => '1217315755',
-    'message' => 'Sind Sie sicher, das Sie diesen Kommentar entfernen wollen?'
+    'lastUpdated' => '1266396348',
+    'message' => 'Sind Sie sicher, dass Sie diesen Kommentar entfernen wollen?'
   },
   'template comment edit comment' => {
     'lastUpdated' => '1234945324',
