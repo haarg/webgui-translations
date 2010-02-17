@@ -6,8 +6,8 @@ our $I18N = {
     'message' => 'Banner-ID'
   },
   'ad space id' => {
-    'lastUpdated' => '1215471922',
-    'message' => 'Werbefl&amp;auml;chen-ID'
+    'lastUpdated' => '1266400372',
+    'message' => 'Werbefläche-ID'
   },
   'ad text' => {
     'lastUpdated' => '1178626479',
@@ -18,12 +18,12 @@ our $I18N = {
     'message' => 'Bitte geben Sie bis zu 255 Zeichen ein, die Sie in diesem Banner sehen möchten. Beachten Sie, dass abhängig von der Gr&ouml;sse des Banners, nicht der gesamte Text sichtbar sein kann. Daher empfehlen wir die Verwendung von 60 Zeichen oder weniger.<br />'
   },
   'add ad space' => {
-    'lastUpdated' => '1215471942',
-    'message' => 'Werbefl&amp;auml;che hinzufügen'
+    'lastUpdated' => '1266400351',
+    'message' => 'Werbefläche hinzufügen'
   },
   'add ad space body' => {
-    'lastUpdated' => '1252473343',
-    'message' => '<p>Dieser Bildschirm zeigt Ihnen eine Liste aller Werbefl&amp;auml;chen, die mit WebGUI erstellt wurden. Die Symbole zu den Werbefl&amp;auml;chen erm&amp;ouml;glichen Ihnen, diese zu bearbeiten oder zu l&amp;ouml;schen. Au&amp;szlig;erdem gibt es einen Link, um neue Werbefl&amp;auml;chen zu erstellen.</p>'
+    'lastUpdated' => '1266400461',
+    'message' => 'Dieser Bildschirm zeigt Ihnen eine Liste aller Werbeflächen, die mit WebGUI erstellt wurden. Die Symbole zu den Werbeflächen ermöglichen Ihnen, diese zu bearbeiten oder zu löschen. Außerdem gibt es einen Link, um neue Werbeflächen zu erstellen.'
   },
   'add an ad' => {
     'lastUpdated' => '1178626502',
@@ -150,7 +150,7 @@ our $I18N = {
     'message' => 'Name'
   },
   'name help' => {
-    'lastUpdated' => '1252482388',
+    'lastUpdated' => '1266400520',
     'message' => 'Dieser String wird in der Kombination mit dem AdSpace Makro verwendet um Banner auf der Seite zu setzen. Er sollte keine Leerzeichen und nur alphanumerische Zeichen enthalten.'
   },
   'priority' => {
@@ -186,8 +186,8 @@ our $I18N = {
     'message' => 'Titel'
   },
   'title help' => {
-    'lastUpdated' => '1215471833',
-    'message' => 'Eine visuell lesbare &amp;Uuml;berschrift.'
+    'lastUpdated' => '1266400493',
+    'message' => 'Eine visuell lesbare Überschrift.'
   },
   'topicName' => {
     'lastUpdated' => '1153201354',
@@ -218,8 +218,8 @@ our $I18N = {
     'message' => 'Breite'
   },
   'width help' => {
-    'lastUpdated' => '1215471888',
-    'message' => 'Breite der Werbefl&amp;auml;che in Pixel. '
+    'lastUpdated' => '1266400506',
+    'message' => 'Breite der Werbefläche in Pixel. '
   }
 }
 ;
