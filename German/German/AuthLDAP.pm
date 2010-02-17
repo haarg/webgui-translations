@@ -88,6 +88,10 @@ our $I18N = {
 In fast allen Fällen ist dieses Attribut "dn" und sollte genauso eingetragen werden.
 (Also nicht ausgeschrieben wie: "cn=name,dc=domain,...")'
   },
+  'LDAP User DN' => {
+    'lastUpdated' => '1266396433',
+    'message' => 'LDAP User DN'
+  },
   'LDAPLink_0' => {
     'lastUpdated' => '1180087052',
     'message' => 'success (0)'
