@@ -85,6 +85,10 @@ our $I18N = {
     'lastUpdated' => '1250242414',
     'message' => '<p>RDN staat voor relative distinguished name (relatief onderscheidende naam). Kies en eigenschap die wordt gebruikt in LDAP voor het opslaan en identificeren van een gebruiker. Dit veld is vereist voor het automatisch aanmaken van gebruikers die al in de LDAP repository staan wanneer ze proberen in te loggen en voor het vinden van gebruikers die zich in hebben geschreven via anonieme registratie als dat aanstaat. In bijna alle gevallen is deze eigenschap \'dn\' en dient ook zo ingevoerd worden.'
   },
+  'LDAP User DN' => {
+    'lastUpdated' => '1266396481',
+    'message' => 'LDAP gebruiker DN'
+  },
   'LDAPLink_0' => {
     'lastUpdated' => '1152614994',
     'message' => 'succes (0)'

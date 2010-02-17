@@ -317,7 +317,7 @@ our $I18N = {
     'lastUpdated' => '1201263019',
     'message' => 'Het URL naar de downloadresoluties.'
   },
-  'helpvar synopsis_text' => {
+  'helpvar synopsis_textonly' => {
     'lastUpdated' => '1206954236',
     'message' => 'Het &quot;samenvatting&quot; veld zonder HTML.'
   },
