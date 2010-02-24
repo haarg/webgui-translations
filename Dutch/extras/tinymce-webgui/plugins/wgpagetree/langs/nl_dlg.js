@@ -1,9 +1,9 @@
-tinyMCE.addI18n('en.wgpagetree',{
-    desc        : 'Insert A Link',
-    linkprops   : 'Link Properties',
+tinyMCE.addI18n('nl.wgpagetree',{
+    desc        : 'Voek een link toe',
+    linkprops   : 'Eigenschappen link',
     linkurl     : 'URL',
-    linktarget  : 'Target',
-    samewindow  : 'Open link in same window.',
-    newwindow   : 'Open link in new window.',
-    pages       : 'Pages'
+    linktarget  : 'Doel',
+    samewindow  : 'Link openen in hetzelfde window.',
+    newwindow   : 'Link openen in nieuw window.',
+    pages       : 'Paginas'
 });

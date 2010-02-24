@@ -1,3 +1,3 @@
-tinyMCE.addI18n('en.wgmacro',{
-    desc    : 'Insert WebGUI Macro'
+tinyMCE.addI18n('nl.wgmacro',{
+    desc    : 'WebGUI Macro invoegen'
 });

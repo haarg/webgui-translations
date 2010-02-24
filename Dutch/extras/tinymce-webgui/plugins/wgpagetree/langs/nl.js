@@ -1,3 +1,3 @@
-tinyMCE.addI18n('en.wgpagetree',{
-    desc        : 'Link to a page in the WebGUI asset tree'
+tinyMCE.addI18n('nl.wgpagetree',{
+    desc        : 'Link naar een pagina in de WebGUI assetboom'
 });

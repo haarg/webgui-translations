@@ -1,3 +1,3 @@
-tinyMCE.addI18n('en.wginsertimage',{
-    desc        : 'Insert WebGUI Image'
+tinyMCE.addI18n('nl.wginsertimage',{
+    desc        : 'Voeg WebGUI afbeelding toe'
 });

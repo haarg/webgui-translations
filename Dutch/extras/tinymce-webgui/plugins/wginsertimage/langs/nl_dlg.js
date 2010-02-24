@@ -1,14 +1,14 @@
-tinyMCE.addI18n('en.wginsertimage',{
-    desc        : 'WebGUI Collateral - Insert Image',
-    manager     : 'WebGUI Collateral Image Manager',
-    newwindow   : 'Open link in new window.',
-    selectedproperties : 'Selected Image',
-    imageurl    : 'Image&nbsp;URL:',
-    imagealt    : 'Alt&nbsp;Text:',
+tinyMCE.addI18n('nl.wginsertimage',{
+    desc        : 'WebGUI Collateraal - Voeg afbeelding in',
+    manager     : 'WebGUI Collateraal afbeelingsbeheer',
+    newwindow   : 'Link openen in nieuw window.',
+    selectedproperties : 'Geselecteerde afbeelding',
+    imageurl    : 'URL&nbsp;afbeelding:',
+    imagealt    : 'Alternatieve&nbsp;tekst:',
     imagelayout : 'Layout',
-    imagealign  : 'Alignment:',
-    imageborder : 'Border:',
-    imagespacing : 'Spacing',
-    imagehspace : 'Horizontal:',
-    imagevspace : 'Vertical:'
+    imagealign  : 'Uitlijning:',
+    imageborder : 'Rand:',
+    imagespacing : 'Spatiering',
+    imagehspace : 'Horizontaal:',
+    imagevspace : 'Vertikaal:'
 });

@@ -1,4 +1,4 @@
-tinyMCE.addI18n('en.spellchecker',{
-    add_word    : 'Add word to dictionary'
+tinyMCE.addI18n('nl.spellchecker',{
+    add_word    : 'Voeg woord toe aan woordenboek'
 });
 
