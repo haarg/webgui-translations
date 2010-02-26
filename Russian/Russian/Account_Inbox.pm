@@ -25,6 +25,10 @@ our $I18N = {
     'lastUpdated' => '1236467405',
     'message' => "\x{423}\x{434}\x{430}\x{43b}\x{438}\x{442}\x{44c}"
   },
+  'deny button label' => {
+    'lastUpdated' => '1260627987',
+    'message' => "\x{417}\x{430}\x{43f}\x{440}\x{435}\x{442}\x{438}\x{442}\x{44c}"
+  },
   'invitation label' => {
     'lastUpdated' => '1236467465',
     'message' => "\x{423}\x{432}\x{435}\x{434}\x{43e}\x{43c}\x{43b}\x{435}\x{43d}\x{438}\x{435}"
