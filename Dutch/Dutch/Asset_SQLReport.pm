@@ -18,8 +18,8 @@ our $I18N = {
     'message' => 'Pagineer na'
   },
   '14 description' => {
-    'lastUpdated' => '1208527063',
-    'message' => '<p>Hoeveel rijen moeten worden weergegeven voordat de resultaten worden verdeeld over verschillende pagina\'s? Met andere woorden: hoeveel rijen moeten per pagina worden weergegeven? </p>'
+    'lastUpdated' => '1267189221',
+    'message' => '<p>Hoeveel rijen moeten worden weergegeven voordat de resultaten worden verdeeld over verschillende pagina\'s? Met andere woorden: hoeveel rijen moeten per pagina worden weergegeven? Als dit op 0 gezet wordt, wordt paginatie niet uitgezet, maar op de standaardwaarde 25 gezet.</p>'
   },
   15 => {
     'lastUpdated' => '1155572075',
