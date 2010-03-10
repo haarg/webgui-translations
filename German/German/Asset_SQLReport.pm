@@ -2,8 +2,8 @@ package WebGUI::i18n::German::Asset_SQLReport;
 use utf8;
 our $I18N = {
   10 => {
-    'lastUpdated' => '1225586361',
-    'message' => 'Fehler: SQL Befehl hat ein falsches Format'
+    'lastUpdated' => '1268212168',
+    'message' => 'Fehler: SQL Befehl hat ein falsches Format.'
   },
   11 => {
     'lastUpdated' => '1225586393',
@@ -18,8 +18,9 @@ our $I18N = {
     'message' => 'Seitenwechsel nach'
   },
   '14 description' => {
-    'lastUpdated' => '1225586605',
-    'message' => 'Wieviele Zeilen sollten angezeigt werden bevor die Ergebnisse in mehrere Seiten aufgeteilt werden? Oder: wieviele Zeilen pro Seite?'
+    'lastUpdated' => '1267169977',
+    'message' => 'Wie viele Zeilen sollen angezeigt werden, bevor die Ergebnisse auf mehrere Seiten aufgeteilt werden? Oder: wie viele Zeilen sollen pro Seite angezeigt werden? 
+Mit dem Wert "0" (Null) wird der Seitenumbruch nicht deaktiviert, sondern es wird der interne Standardwert "25" angewandt.'
   },
   15 => {
     'lastUpdated' => '1225586675',

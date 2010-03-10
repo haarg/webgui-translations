@@ -126,8 +126,8 @@ our $I18N = {
     'message' => 'Ein verstecktes Formularelement, das anzeigt, ob das Profilfeld PROFILEFIELDNAME durchsucht wird. Dies hat nur eine Auswirkung, falls &quot;limitSearch tmpl_var&quot; ein Teil des Suchformulars ist.'
   },
   'limitSearch' => {
-    'lastUpdated' => '1217231419',
-    'message' => 'Verstecktes Formularelement, das angibt, das die&nbsp;Suche auf bestimmte Profilfelder begrenzt ist. Benutze includeInSearch_PROFILEFIELDNAME_hidden oder includeInSearch_PROFILEFIELDNAME_checkBox tmpl_vars, um die Felder, auf die die Suche begrenzt ist, auszuwählen.'
+    'lastUpdated' => '1268225807',
+    'message' => 'Verstecktes Formularelement, das angibt, dass die Suche auf bestimmte Profilfelder begrenzt ist. Benutze includeInSearch_PROFILEFIELDNAME_hidden oder includeInSearch_PROFILEFIELDNAME_checkBox tmpl_vars, um die Felder auszuwählen, auf die die Suche begrenzt ist.'
   },
   'numberOfProfileFields' => {
     'lastUpdated' => '1217232688',
