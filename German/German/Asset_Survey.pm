@@ -854,8 +854,8 @@ our $I18N = {
     'message' => 'Löschen'
   },
   'delete responses' => {
-    'lastUpdated' => '1252323778',
-    'message' => 'Lösch-Antwort'
+    'lastUpdated' => '1268491518',
+    'message' => 'Lösche Antworte'
   },
   'delete.all.responses.label' => {
     'lastUpdated' => '1178877190',
