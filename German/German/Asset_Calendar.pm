@@ -230,8 +230,8 @@ our $I18N = {
     'message' => 'Wer darf Termine hinzufügen?'
   },
   'help calendar dateTime body' => {
-    'lastUpdated' => '1224833902',
-    'message' => '<p>Diese Variablen sind für die meisten Datums und Zeiten im Kalender verf&uuml;gbar.</p><p>HINWEIS: Manchmal haben diese Variablen einen Präfix wie &quot;start&quot; oder &quot;end&quot;. In diesem Fall ist der erste Buchstabe der unten aufgef&uuml;hrten Variablen groß zu schreiben. Die Variable &quot;monthName&quot; zum Beispiel wird dadurch zu &quot;startMonthName&quot;.</p>'
+    'lastUpdated' => '1268820888',
+    'message' => '<p>Diese Variablen sind für die meisten Datums- und Zeitenangaben im Kalender verf&uuml;gbar.</p><p>HINWEIS: Manchmal haben diese Variablen einen Präfix wie &quot;start&quot; oder &quot;end&quot;. In diesem Fall ist der erste Buchstabe der unten aufgef&uuml;hrten Variablen groß zu schreiben. Die Variable &quot;monthName&quot; zum Beispiel wird dadurch zu &quot;startMonthName&quot;.</p>'
   },
   'help calendar dateTime title' => {
     'lastUpdated' => '1224833935',
