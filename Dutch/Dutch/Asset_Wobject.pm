@@ -74,12 +74,12 @@ our $I18N = {
     'message' => 'Bewerken'
   },
   'mobileStyleTemplateId description' => {
-    'lastUpdated' => '1242729466',
-    'message' => 'Selecteer een stijl sjabloon voor het tonen van uw asset in een mobiele webbrowser'
+    'lastUpdated' => '1269423171',
+    'message' => 'Selecteer een stijl sjabloon uit de lijst voor het tonen van uw asset in een mobiele webbrowser.'
   },
   'mobileStyleTemplateId label' => {
-    'lastUpdated' => '1242729484',
-    'message' => 'Mobiele stijl sjabloon'
+    'lastUpdated' => '1269423145',
+    'message' => 'Stijl sjabloon mobiel'
   },
   'originalURL' => {
     'lastUpdated' => '1153776710',

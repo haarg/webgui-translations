@@ -488,8 +488,8 @@ Gebruik van avatars vermindert de snelheid van het collaboratiesysteem.'
     'message' => 'Hoe vaak moet er op de server gekeken worden of er nieuwe mail is?'
   },
   'group to edit hoverhelp' => {
-    'lastUpdated' => '1207294838',
-    'message' => 'De groep die posts mag wijzigen.'
+    'lastUpdated' => '1269423245',
+    'message' => 'De groep die posts mag wijzigen, nadat deze zijn geplaatst.'
   },
   'group to edit label' => {
     'lastUpdated' => '1207294876',

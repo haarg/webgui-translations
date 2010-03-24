@@ -17,6 +17,10 @@ our $I18N = {
     'lastUpdated' => '1152727332',
     'message' => 'Bewerkt op'
   },
+  'Skip notification' => {
+    'lastUpdated' => '1269423208',
+    'message' => 'Notificatie overslaan'
+  },
   'add/edit post template title' => {
     'lastUpdated' => '1152727625',
     'message' => 'Plaats toevoegen/bewerken-sjabloon '
