@@ -476,6 +476,14 @@ cn=Manager,dc=example,dc=com'
     'lastUpdated' => '1178632602',
     'message' => 'Irgendeine Nachricht, die vom System zurückgegeben wird. Normalerweise angezeigt nachdem ein Formular abeschickt wurde.'
   },
+  'deactivate account template' => {
+    'lastUpdated' => '1269422113',
+    'message' => 'Account deaktivieren Template'
+  },
+  'deactivate account template description' => {
+    'lastUpdated' => '1269422152',
+    'message' => 'Template das angewandt wird für das Formular "Account deaktivieren".'
+  },
   'deactivate account template title' => {
     'lastUpdated' => '1228687693',
     'message' => 'LDAP Authentifizierung Deaktivierung Account Template Variablen'
