@@ -61,9 +61,17 @@ our $I18N = {
     'lastUpdated' => '1178788428',
     'message' => 'Die Abkürzung f&uuml;r den Namen des aktuellen Tages.'
   },
+  'dayCurrent' => {
+    'lastUpdated' => '1269421117',
+    'message' => 'Ein boolscher Wert der wahr ist, wenn dies der heutige Tag ist'
+  },
   'dayName' => {
     'lastUpdated' => '1178788438',
     'message' => 'Der Name des aktuellen Tages.'
+  },
+  'dayNames' => {
+    'lastUpdated' => '1269421165',
+    'message' => 'Eine Schleife, die die Namen und Abkürzungen der Wochentage liefert.'
   },
   'dayOfMonth' => {
     'lastUpdated' => '1178788496',
@@ -72,6 +80,10 @@ our $I18N = {
   'dayOfWeek' => {
     'lastUpdated' => '1178788483',
     'message' => 'Welcher Tag der Woche ist dieser Tag; Zahl zwischen 1...7.'
+  },
+  'dayUrl' => {
+    'lastUpdated' => '1269421204',
+    'message' => 'Eine URL, die alle Einträge für diesen Tag anzeigt.'
   },
   'days' => {
     'lastUpdated' => '1178788585',
@@ -393,9 +405,25 @@ our $I18N = {
     'lastUpdated' => '1178789903',
     'message' => 'Die Abkürzung f&uuml;r den Namen dieses Monats'
   },
+  'monthCurrent' => {
+    'lastUpdated' => '1269421258',
+    'message' => 'Ein boolscher Wert der wahr ist, wenn der Kalender den aktuellen Monat anzeigt.'
+  },
+  'monthEpoch' => {
+    'lastUpdated' => '1269421315',
+    'message' => 'Datum für diesen Monat in Epoch-Notation.'
+  },
   'monthName' => {
     'lastUpdated' => '1178789912',
     'message' => 'Der Name dieses Monats.'
+  },
+  'monthUrl' => {
+    'lastUpdated' => '1269421347',
+    'message' => 'URL, um in die Monatsansicht für den aktuellen Kalender zu wechseln.'
+  },
+  'months' => {
+    'lastUpdated' => '1269421407',
+    'message' => 'Eine Schleife, die Namen und URLs für die Navigation innerhalb der Monate eines Jahres liefert.'
   },
   'next day' => {
     'lastUpdated' => '1217146242',
@@ -421,9 +449,17 @@ our $I18N = {
     'lastUpdated' => '1178789982',
     'message' => 'URL zum nächsten Tag im Kalender.'
   },
+  'pageNextUrl monthVar' => {
+    'lastUpdated' => '1269421429',
+    'message' => 'URL zum Folgejahr im Kalender.'
+  },
   'pageNextUrl weekVar' => {
     'lastUpdated' => '1178790006',
     'message' => 'URL zur nächsten Woche im Kalender.'
+  },
+  'pageNextYear' => {
+    'lastUpdated' => '1269421447',
+    'message' => 'Das Jahr das auf das aktuelle Jahr im Kalender folgt.'
   },
   'pagePrevStart' => {
     'lastUpdated' => '1178790041',
@@ -433,9 +469,17 @@ our $I18N = {
     'lastUpdated' => '1178790058',
     'message' => 'URL zum vorhergehenden Tag im Kalender.'
   },
+  'pagePrevUrl monthVar' => {
+    'lastUpdated' => '1269421516',
+    'message' => 'URL zum Vorgängerjahr im Kalender.'
+  },
   'pagePrevUrl weekVar' => {
     'lastUpdated' => '1178790073',
     'message' => 'URL zur vorhergehenden Woche im Kalender.'
+  },
+  'pagePrevYear' => {
+    'lastUpdated' => '1269421501',
+    'message' => 'Das Jahr das dem aktuellen Jahr im Kalender vorangeht'
   },
   'paramStart' => {
     'lastUpdated' => '1178790089',
@@ -646,11 +690,19 @@ our $I18N = {
     'message' => 'Dieses Template zeigt alle Termine an einem einzigen Tag in dem Kalender, sortiert nach der Stunde.'
   },
   'view calendar day title' => {
-    'lastUpdated' => '1178794349',
-    'message' => 'Kalender Tagesansicht Template Variablen'
+    'lastUpdated' => '1269421570',
+    'message' => 'Kalenderansicht Tages-Template-Variablen'
+  },
+  'view calendar month body' => {
+    'lastUpdated' => '1269421644',
+    'message' => 'Dieses Template zeigt alle alle Kalendereinträge eines Monats an-'
+  },
+  'view calendar month title' => {
+    'lastUpdated' => '1269421670',
+    'message' => 'Kalenderansicht Monats-Template-Variablen '
   },
   'view calendar title' => {
-    'lastUpdated' => '1178794371',
+    'lastUpdated' => '1269421582',
     'message' => 'Kalenderansicht Template Variablen'
   },
   'view calendar week body' => {
@@ -658,8 +710,8 @@ our $I18N = {
     'message' => 'Dieses Template zeigt alle Termine in einer Woche des Kalenders, sortiert nach dem Tag.'
   },
   'view calendar week title' => {
-    'lastUpdated' => '1178794413',
-    'message' => 'Kalender Wochenansicht Template Variablen'
+    'lastUpdated' => '1269421604',
+    'message' => 'Kalenderansicht Wochen-Template-Variablen'
   },
   'visitorCacheTimeout description' => {
     'lastUpdated' => '1178794449',
@@ -668,6 +720,10 @@ our $I18N = {
   'visitorCacheTimeout label' => {
     'lastUpdated' => '1178794465',
     'message' => 'Besucher (Visitor) Cache Timeout'
+  },
+  'weeks' => {
+    'lastUpdated' => '1269421717',
+    'message' => 'Eine Schliefe, die Schleifen über die Einträge pro Tag enthält'
   },
   'workflow generateRecurringEvents' => {
     'lastUpdated' => '1178794479',
