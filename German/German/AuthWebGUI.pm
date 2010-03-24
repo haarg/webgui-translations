@@ -121,6 +121,10 @@ our $I18N = {
     'lastUpdated' => '1238017283',
     'message' => 'WebgGUI Authentifizierung - Email zur Benutzeraktivierung'
   },
+  'account deactivate account template title' => {
+    'lastUpdated' => '1269422312',
+    'message' => 'WebGUI-Authentifizierung Konto deaktivieren Template '
+  },
   'account template' => {
     'lastUpdated' => '1178700944',
     'message' => 'Account Template'
@@ -244,6 +248,14 @@ our $I18N = {
   'createAccount.url' => {
     'lastUpdated' => '1178703296',
     'message' => 'URL der Seite für anonyme Registrierung'
+  },
+  'deactivate account template' => {
+    'lastUpdated' => '1269422333',
+    'message' => 'Konto deaktivieren Template'
+  },
+  'deactivate account template help' => {
+    'lastUpdated' => '1269422408',
+    'message' => 'Wählen Sie ein Template um die Seite anzuzeigen, auf der die Nutzer Ihr Konto deaktivieren können.'
   },
   'deactivate account template title' => {
     'lastUpdated' => '1178703367',
