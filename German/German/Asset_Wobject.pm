@@ -74,11 +74,11 @@ our $I18N = {
     'message' => 'Bearbeiten'
   },
   'mobileStyleTemplateId description' => {
-    'lastUpdated' => '1242498210',
-    'message' => 'Slektieren Sie eine Stilvorlage für die Anzeige über einen Mobile-Browser.'
+    'lastUpdated' => '1269422064',
+    'message' => 'Wählen Sie eine Stilvorlage aus der Liste, um Ihr Asset einzufügen, wenn es über einen Mobile-Browser betrachtet wird.'
   },
   'mobileStyleTemplateId label' => {
-    'lastUpdated' => '1242498234',
+    'lastUpdated' => '1269422078',
     'message' => 'Stilvorlage Mobile'
   },
   'originalURL' => {
