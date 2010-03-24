@@ -487,8 +487,8 @@ our $I18N = {
     'message' => 'Wie oft soll der Server nach neuen Emails überpr&uuml;ft werden?'
   },
   'group to edit hoverhelp' => {
-    'lastUpdated' => '1217254275',
-    'message' => 'Gruppe fürs Editieren von Posts'
+    'lastUpdated' => '1269421807',
+    'message' => 'Eine Gruppe, die die Berechtigung für das Bearbeiten von Beiträgen hat, nachdem diese abgeschickt wurden.'
   },
   'group to edit label' => {
     'lastUpdated' => '1217254306',
