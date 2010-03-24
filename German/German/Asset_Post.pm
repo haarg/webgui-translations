@@ -17,6 +17,10 @@ our $I18N = {
     'lastUpdated' => '1179837807',
     'message' => 'Bearbeitet ??'
   },
+  'Skip notification' => {
+    'lastUpdated' => '1269421925',
+    'message' => 'E-Mail-Benachrichtigung überspringen.'
+  },
   'add/edit post template title' => {
     'lastUpdated' => '1179831165',
     'message' => 'Post Hinzufügen/Bearbeiten Template'
@@ -336,6 +340,10 @@ our $I18N = {
   'reply.withQuote.url' => {
     'lastUpdated' => '1179836225',
     'message' => 'URL, um auf diesen Post (dieser wird zitiert) zu antworten.'
+  },
+  'skipNotification.form' => {
+    'lastUpdated' => '1269421913',
+    'message' => 'Ein Feld, das es Nutzern mit entsprechenden Bearbeitungsrechten ermöglicht, die E-Mail-Benachrichtigung zu überspringen.'
   },
   'status' => {
     'lastUpdated' => '1179836252',
