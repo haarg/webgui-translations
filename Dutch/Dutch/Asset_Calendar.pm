@@ -690,20 +690,28 @@ our $I18N = {
     'message' => 'Dit template laat alle gebeurtenissen op een dag zien, gesorteerd op uur. '
   },
   'view calendar day title' => {
-    'lastUpdated' => '1189120971',
-    'message' => 'Template variabelen voor de per-dag weergave van de kalender.'
+    'lastUpdated' => '1269436342',
+    'message' => 'Sjabloon variabelen kalenderdag'
+  },
+  'view calendar month body' => {
+    'lastUpdated' => '1269436522',
+    'message' => 'Dit sjabloon toont alle evenementen van een maand.'
+  },
+  'view calendar month title' => {
+    'lastUpdated' => '1269436488',
+    'message' => 'Sjabloon variabelen kalendermaand'
   },
   'view calendar title' => {
-    'lastUpdated' => '1189121030',
-    'message' => 'Variabelen beschikbaar in het "View Calendar Template"'
+    'lastUpdated' => '1269436537',
+    'message' => 'Sjabloon variabelen kalender'
   },
   'view calendar week body' => {
     'lastUpdated' => '1189121063',
     'message' => 'Dit template laat alle gebeurtenissen zien in een bepaalde week, gesorteerd per dag.'
   },
   'view calendar week title' => {
-    'lastUpdated' => '1189121089',
-    'message' => 'Variabelen beschikbaar in het "View Calendar Week" template.'
+    'lastUpdated' => '1269436563',
+    'message' => 'Sjabloon variabelen kalenderweek'
   },
   'visitorCacheTimeout description' => {
     'lastUpdated' => '1166194262',
@@ -712,6 +720,10 @@ our $I18N = {
   'visitorCacheTimeout label' => {
     'lastUpdated' => '1166194288',
     'message' => 'Verlooptijd cache voor bezoekers'
+  },
+  'weeks' => {
+    'lastUpdated' => '1269436293',
+    'message' => 'Een functie die de evenementen per dag van die week ophaalt.'
   },
   'workflow generateRecurringEvents' => {
     'lastUpdated' => '1189121145',
