@@ -341,6 +341,10 @@ our $I18N = {
     'lastUpdated' => '1152830317',
     'message' => 'De URL om een antwoord met citaat op dit bericht te beginnen'
   },
+  'skipNotification.form' => {
+    'lastUpdated' => '1269433390',
+    'message' => 'Een veld wat een gebruiker met de juiste rechten e-mail notificatie laat overslaan.'
+  },
   'status' => {
     'lastUpdated' => '1152830427',
     'message' => 'De status van dit bericht: &#39;goedgekeurd&#39;, &#39;in wachtrij&#39;, &#39;gearchiveerd&#39; '

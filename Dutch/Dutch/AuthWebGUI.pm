@@ -121,6 +121,10 @@ our $I18N = {
     'lastUpdated' => '1242739025',
     'message' => 'WebGUI authenticatie account activatie e-mail template'
   },
+  'account deactivate account template title' => {
+    'lastUpdated' => '1269433493',
+    'message' => 'WebGUI authenticatie deactiveer account sjabloon.'
+  },
   'account template' => {
     'lastUpdated' => '1155558248',
     'message' => 'Account sjabloon'
@@ -244,6 +248,14 @@ our $I18N = {
   'createAccount.url' => {
     'lastUpdated' => '1156022002',
     'message' => 'URL voor de anonieme registratie-pagina'
+  },
+  'deactivate account template' => {
+    'lastUpdated' => '1269433546',
+    'message' => 'Sjabloon deactiveren account'
+  },
+  'deactivate account template help' => {
+    'lastUpdated' => '1269433530',
+    'message' => 'Kies een sjabloon waarmee het scherm getoond wordt, waar gebruikers hun account kunnen deactiveren.'
   },
   'deactivate account template title' => {
     'lastUpdated' => '1166625726',

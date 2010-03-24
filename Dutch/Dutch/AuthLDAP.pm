@@ -465,6 +465,14 @@ our $I18N = {
     'lastUpdated' => '1152619326',
     'message' => 'Elk bericht dat gestuurd wordt door het systeem. Normaal gesproken wordt dit getoond nadat het formulier is ingezonden.'
   },
+  'deactivate account template' => {
+    'lastUpdated' => '1269433411',
+    'message' => 'Sjabloon account deactiveren'
+  },
+  'deactivate account template description' => {
+    'lastUpdated' => '1269433468',
+    'message' => 'Sjabloon dat gebruikt wordt om het formulier te tonen, waar gebruikers hun account kunnen deactiveren.'
+  },
   'deactivate account template title' => {
     'lastUpdated' => '1190025180',
     'message' => 'Sjabloon LDAP Authenticatie: Deactiveer Login'
