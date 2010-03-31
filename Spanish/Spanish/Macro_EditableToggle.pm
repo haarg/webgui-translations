@@ -18,8 +18,8 @@ our $I18N = {
     'message' => 'Toggle de Edici&oacute;n'
   },
   'toggle.text' => {
-    'lastUpdated' => 1224119722,
-    'message' => ''
+    'lastUpdated' => 1226508296,
+    'message' => 'La etiqueta para Activar o Desactivar el modo de Administraci&oacute;n (dependiendo del estado del Macro), o bien los textos que fueron suministrados con el Macro.'
   },
   'toggle.url' => {
     'lastUpdated' => 1224118197,

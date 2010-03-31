@@ -9,7 +9,7 @@ our $I18N = {
 
 	'code length description' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'redeem code failure' => {
@@ -19,7 +19,7 @@ our $I18N = {
 
 	'useSalesTax description' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'association description' => {
@@ -35,7 +35,7 @@ Qué suscripción (s) se hacen con los códigos generados.|,
 
 	'delete batch confirm' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'code' => {
@@ -50,17 +50,17 @@ Qué suscripción (s) se hacen con los códigos generados.|,
 
 	'codes expire description' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'selection message' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'no subscription code batches' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'subscription duration' => {
@@ -80,7 +80,7 @@ Qué suscripción (s) se hacen con los códigos generados.|,
 
 	'subscription price description' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'manage subscriptions' => {
@@ -90,12 +90,12 @@ Qué suscripción (s) se hacen con los códigos generados.|,
 
 	'subscription duration description' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'manage batches' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'association' => {
@@ -105,17 +105,17 @@ Qué suscripción (s) se hacen con los códigos generados.|,
 
 	'noc description' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'help redeem code template body' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'edit subscription title' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'redeem code ask for code' => {
@@ -135,7 +135,7 @@ Qué suscripción (s) se hacen con los códigos generados.|,
 
 	'batch description description' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'code description' => {
@@ -145,17 +145,17 @@ Qué suscripción (s) se hacen con los códigos generados.|,
 
 	'subscription karma' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'selection batch id' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'batch id' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'manage codes' => {
@@ -165,12 +165,12 @@ Qué suscripción (s) se hacen con los códigos generados.|,
 
 	'help redeem code template title' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'expire subscription codes' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'code length' => {
@@ -180,32 +180,32 @@ Qué suscripción (s) se hacen con los códigos generados.|,
 
 	'delete subscription confirm' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'subscriptionId' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'execute on subscription description' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'generate batch' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'selection used' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'batch description' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'redeem code' => {
@@ -220,27 +220,27 @@ Qué suscripción (s) se hacen con los códigos generados.|,
 
 	'listSubscriptionCodes title' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'subscription group description' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'codes expire' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'no association error' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'code length error' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'creation date' => {
@@ -250,7 +250,7 @@ Qué suscripción (s) se hacen con los códigos generados.|,
 
 	'execute on subscription' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'status' => {
@@ -260,22 +260,22 @@ Qué suscripción (s) se hacen con los códigos generados.|,
 
 	'noc' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'topicName' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'selection created' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'no subscriptions' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'subscription description description' => {
@@ -295,12 +295,12 @@ Qué suscripción (s) se hacen con los códigos generados.|,
 
 	'dateUsed' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'create batch error' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'select' => {
@@ -310,22 +310,22 @@ Qué suscripción (s) se hacen con los códigos generados.|,
 
 	'list codes in batch' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'subscription karma description' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'useSalesTax' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'create batch menu' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 };

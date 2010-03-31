@@ -2,16 +2,24 @@ package WebGUI::i18n::Spanish::Activity_RequestApprovalForVersionTag_ByCommitter
 use utf8;
 our $I18N = {
   'committerGroupId description' => {
-    'lastUpdated' => 1215812195,
-    'message' => 'El grupo que necesita aprobaci&oacute;n para usar esta actividad.&nbsp; Si el aprobador no es un miembro de este grupo, el flujo de trabajo continuar&iacute;a con la siguiente actividad.'
+    'lastUpdated' => '1252510453',
+    'message' => 'El Grupo que necesita aprobación para usar ésta actividad. Si el Committer no es miembro de este grupo, el Flujo de Trabajo continuará con la siguiente actividad.'
   },
   'committerGroupId label' => {
-    'lastUpdated' => 1215812123,
-    'message' => 'Grupo de aprobadores para exigir aprobaci&oacute;n'
+    'lastUpdated' => '1252510481',
+    'message' => 'Grupo de Comitters que Requiere Aprobación'
+  },
+  'invertGroupSetting description' => {
+    'lastUpdated' => '1252510538',
+    'message' => 'Si tiene el valor \'si\', solamente los usuario que <strong>no</strong> son mimebros del Grupo de Commiters necesitarán aprobación para usar esta actividad. Si el Commiter es miembro de este grupo, el Flujo de Trabajo continuará con la siguiente actividad.'
+  },
+  'invertGroupSetting label' => {
+    'lastUpdated' => '1252510565',
+    'message' => 'Invertir semántica del Grupo'
   },
   'topicName' => {
-    'lastUpdated' => 1223936066,
-    'message' => 'Solicitud de Aprobaci&oacute;n seg&uacute;n Grupo de Commit'
+    'lastUpdated' => '1252510576',
+    'message' => 'Solicitud de Aprobación según Grupo de Commit'
   }
 }
 ;

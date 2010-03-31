@@ -1,21 +1,21 @@
 Escribir los nombres de Assets con la primera letra
-mayuscula permite denotar su cualidad como "objetos".
+mayúscula permite denotar su cualidad como "objetos".
 
 ad            = Publicidad
 ad space      = Espacio Publicitario
 asset         = Activo
 admin console = Panel Administrativo
 
-rank = puntaje
+rank = categoría
 thumbnail = vista en miniatura
-post = publicacion, publicar
+post = publicación, publicar [en algunos textos he traducido esto como "entrega"]
 non-word characters = caracteres no imprimibles
 workflow = flujo de trabajo
-version tag = etiqueta de version
+version tag = etiqueta de versión
 login = ingresar
 plugin = plugin
 item = item
-SQL Query = Consultas SQL (Peticion SQL)
+SQL Query = Consultas SQL (Petición SQL)
 Setup = configurar 
 Set = establecer
 Proxy = proxy
@@ -23,12 +23,14 @@ Pixels = pixeles
 Gateway = Gateway
 Macro = Macro
 Cron = Cron
-Page Layout = Diseno de Pagina
+Page Layout = Diseño de Página
 Dashboard = Panel
 Dashlet = Elemento
 Data Form = Formulario de Datos
-MiniCart = MiniCart
-Cache Timeout = Tiempo Maximo en Cache
+MiniCart = MiniCarro
+Cache Timeout = Tiempo Máximo en Caché
+Commit = Entrega
+to commit = entregar
 
 Equipo de traduccion VCB (Colombia):
 
@@ -39,12 +41,16 @@ Equipo de traduccion VCB (Colombia):
 
 http://www.vcb.com.co -- soporte@vcb.com.co
 
-Colaboracion en Traduccion
+Colaboración en Traducción
     
     Juan Manuel Mesa (overdrive3000)
     Juan Mejias (algolius)
 
     Marcela CF Saiffe (Mexico)
+
+    Verónica Lencinas (Argentina)
+
+    Gaby Ruiz (España)
 
 Usuarios WebGUI de Venezuela
 
@@ -52,10 +58,70 @@ Usuarios WebGUI de Venezuela
     Ernesto Hernandez-Novich
 
 
+Instalación:
+============
 
 
+La interfaz de WebGui (etiquetas, botones y controles de formulario) es internacionalizable.
+
+Para comprobar que el idioma no tiene palabras ofensivas ni ha sido manipulado negativamente podéis usar antes el enlace SVN.
 
 
+El archivo Spanish.tar.gz hay que descomprimirlo dentro de 
+
+<webgui_root>/WebGUI/lib/WebGUI/i18n
+
+de forma que dentro de ../i18n quede el archivo Spanish.pm y el directorio /Spanish con todas las traducciones.
+
+
+Veremos que hay también una carpeta "extras" que contiene los gráficos traducidos. Tiene que quedar así:
+
+<webgui_root>/WebGUI/www/extras/toolbar/bullet-es
+
+Después de esto reiniciamos el módulo modperl. Si fuese una actualización del idioma hay que borrar también el cache de WebGui
+
+   * Si no aparecieran los gráficos al cambiar de idioma asegurarse que tengan bien los permisos (chmod 644).
+
+Cambiar idioma de los usuarios:
+===============================
+
+En el panel Administrativo, dentro de "Usuarios" pulsamos en "Visitor" y en la pestaña "Perfil" nos aparecerá ya "Spanish".
+Hacemos lo mismo con todos los usuarios que tengamos activos.
+
+Para hacer que los usuarios nuevos que creemos tengan el idioma "Spanish" por defecto pulsamos en "perfiles de usuarios" dentro del panel administrativo y casi al final, veremos "Preferencias" - "Lenguaje" lo editamos y cambiamos 'English' por 'Spanish'
+
+Para que los módulos o plugins que instalemos estén también en español hay que modificar el archivo "_language.skeleton" que se encuentra en <webgui_root>/WebGUI/lib/WebGUI/i18n quedando de la siguiente manera:
+
+--------------------------------------------------------------------------
+package WebGUI::i18n::LanguageName; # change LanguageName to your language
+
+use strict;
+
+
+our $LANGUAGE = {
+        label => 'Spanish',             # the language as it will appear to and users
+        toolbar => 'bullet-es',         # choose a toolbar from www/extras/toolbar/
+        languageAbbreviation => 'es',   # used by plugins such as javascript helpers and third-party perl modules
+        locale => 'ES'                  # same as above
+};
+
+sub makeUrlCompliant {                  # you have to have this method, but it can do URL transcoding for your language
+        my $value = shift;
+        $value =~ s/\s+$//;                     #removes trailing whitespace
+        $value =~ s/^\s+//;                     #removes leading whitespace
+        $value =~ s/ /-/g;                      #replaces whitespace with hyphens
+        $value =~ s/\.$//;                      #removes trailing period
+        $value =~ s/[^A-Za-z0-9\-\.\_\/]//g;    #removes all funky characters
+        $value =~ s/^\///;                      #removes a leading /
+        $value =~ s/\/$//;                      #removes a trailing /
+        $value =~ s/\/\//\//g;                  #removes double /
+        return $value;
+}
+
+
+1;
+#vim:ft=perl
+--------------------------------------------------------------------------
 
 
 

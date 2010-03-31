@@ -4,7 +4,7 @@ use utf8;
 our $I18N = {
 	'subscription item title' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'name' => {
@@ -14,17 +14,17 @@ our $I18N = {
 
 	'url' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'macroName' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'price' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'description' => {

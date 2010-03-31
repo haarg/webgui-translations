@@ -1,85 +1,89 @@
 package WebGUI::i18n::Spanish::Image_Graph;
 use utf8;
 our $I18N = {
+  'Graphing' => {
+    'lastUpdated' => '1253314414',
+    'message' => 'Graficación'
+  },
   'background color' => {
-    'lastUpdated' => 1224688531,
+    'lastUpdated' => '1224688531',
     'message' => 'Color de fondo'
   },
   'background color description' => {
-    'lastUpdated' => 1224688552,
-    'message' => 'El color de fondo (relleno) para el Gr&aacute;fico.'
+    'lastUpdated' => '1253314402',
+    'message' => 'El color de fondo (relleno) para el Gráfico.'
   },
   'graph type' => {
-    'lastUpdated' => 1224688571,
-    'message' => 'Tipo de Gr&aacute;fico'
+    'lastUpdated' => '1253314408',
+    'message' => 'Tipo de Gráfico'
   },
   'graph type description' => {
-    'lastUpdated' => 1224688593,
-    'message' => 'Seleccione el tipo de Gr&aacute;fico que desea utilizar.'
+    'lastUpdated' => '1253314419',
+    'message' => 'Seleccione el tipo de Gráfico que desea utilizar.'
   },
   'image height' => {
-    'lastUpdated' => 1224688616,
-    'message' => 'Altura del Gr&aacute;fico'
+    'lastUpdated' => '1253314426',
+    'message' => 'Altura del Gráfico'
   },
   'image height description' => {
-    'lastUpdated' => 1224688632,
-    'message' => 'Altura del Gr&aacute;fico en pixels.'
+    'lastUpdated' => '1253314431',
+    'message' => 'Altura del Gráfico en pixels.'
   },
   'image width' => {
-    'lastUpdated' => 1224688646,
-    'message' => 'Anchura del Gr&aacute;fico'
+    'lastUpdated' => '1253314438',
+    'message' => 'Anchura del Gráfico'
   },
   'image width description' => {
-    'lastUpdated' => 1224688661,
-    'message' => 'Anchura del Gr&aacute;fico en pixels.'
+    'lastUpdated' => '1253314443',
+    'message' => 'Anchura del Gráfico en pixels.'
   },
   'label color' => {
-    'lastUpdated' => 1224688672,
+    'lastUpdated' => '1224688672',
     'message' => 'Color para Etiquetas'
   },
   'label color description' => {
-    'lastUpdated' => 1224688693,
+    'lastUpdated' => '1224688693',
     'message' => 'Color a utilizar en las etiquetas.'
   },
   'label font' => {
-    'lastUpdated' => 1224688757,
+    'lastUpdated' => '1224688757',
     'message' => 'Tipo de Letra'
   },
   'label font description' => {
-    'lastUpdated' => 1224688776,
+    'lastUpdated' => '1224688776',
     'message' => 'El tipo de letra (fuente) a utilizar para las etiquetas.'
   },
   'label fontsize' => {
-    'lastUpdated' => 1224688744,
-    'message' => 'Tama&ntilde;o de Letra'
+    'lastUpdated' => '1253314453',
+    'message' => 'Tamaño de Letra'
   },
   'label fontsize description' => {
-    'lastUpdated' => 1224688804,
-    'message' => 'El tama&ntilde;o del tipo de letra (fuente) a utilizar para las etiquetas.'
+    'lastUpdated' => '1253314457',
+    'message' => 'El tamaño del tipo de letra (fuente) a utilizar para las etiquetas.'
   },
   'label offset' => {
-    'lastUpdated' => 1224688883,
-    'message' => 'Separaci&oacute;n'
+    'lastUpdated' => '1253314462',
+    'message' => 'Separación'
   },
   'label offset description' => {
-    'lastUpdated' => 1224688870,
-    'message' => 'Distancia en pixels entre las etiquetas y los elementos del Gr&aacute;fico.'
+    'lastUpdated' => '1253314466',
+    'message' => 'Distancia en pixels entre las etiquetas y los elementos del Gráfico.'
   },
   'no graphing plugins' => {
-    'lastUpdated' => 1224688904,
-    'message' => 'No hay plugins de graficaci&oacute;n disponibles.'
+    'lastUpdated' => '1253314470',
+    'message' => 'No hay plugins de graficación disponibles.'
   },
   'no graphing plugins in config' => {
-    'lastUpdated' => 1224688928,
-    'message' => 'No hay plugins de graficaci&oacute;n habilitados en la configuraci&oacute;n de WebGUI.'
+    'lastUpdated' => '1253314474',
+    'message' => 'No hay plugins de graficación habilitados en la configuración de WebGUI.'
   },
   'palette' => {
-    'lastUpdated' => 1199915431,
+    'lastUpdated' => '1253314479',
     'message' => 'Paleta'
   },
   'palette description' => {
-    'lastUpdated' => 1224688949,
-    'message' => 'Paleta de colores disponibles para construir el Gr&aacute;fico.'
+    'lastUpdated' => '1253314482',
+    'message' => 'Paleta de colores disponibles para construir el Gráfico.'
   }
 }
 ;

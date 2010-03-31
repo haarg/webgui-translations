@@ -9,37 +9,37 @@ our $I18N = {
 
 	'emailMessage' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'complete transaction' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'complete transaction description' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'state' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'email' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'password' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'vendorId' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'city' => {
@@ -54,12 +54,12 @@ our $I18N = {
 
 	'invalid email' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'lastName' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'address' => {
@@ -69,67 +69,67 @@ our $I18N = {
 
 	'invalid firstName' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'country' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'firstName' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'invalid zip' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'phone' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'zipcode' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'expiration date' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'payment method' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'invalid city' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'cvv2' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'use cvv2' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'invalid lastName' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'no description' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'other' => {
@@ -139,12 +139,12 @@ our $I18N = {
 
 	'invalid address' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'label' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 	'cash' => {
@@ -154,7 +154,7 @@ our $I18N = {
 
 	'module name' => {
 		message => q||,
-		lastUpdated => 
+		lastUpdated => 0
 	},
 
 };
