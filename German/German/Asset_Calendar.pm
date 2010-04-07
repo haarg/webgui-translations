@@ -450,8 +450,8 @@ our $I18N = {
     'message' => 'URL zum nächsten Tag im Kalender.'
   },
   'pageNextUrl monthVar' => {
-    'lastUpdated' => '1269421429',
-    'message' => 'URL zum Folgejahr im Kalender.'
+    'lastUpdated' => '1270627780',
+    'message' => 'URL zum Folgemonat im Kalender.'
   },
   'pageNextUrl weekVar' => {
     'lastUpdated' => '1178790006',
@@ -470,8 +470,8 @@ our $I18N = {
     'message' => 'URL zum vorhergehenden Tag im Kalender.'
   },
   'pagePrevUrl monthVar' => {
-    'lastUpdated' => '1269421516',
-    'message' => 'URL zum Vorgängerjahr im Kalender.'
+    'lastUpdated' => '1270627765',
+    'message' => 'URL zum Vormonat im Kalender.'
   },
   'pagePrevUrl weekVar' => {
     'lastUpdated' => '1178790073',
