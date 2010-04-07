@@ -225,6 +225,18 @@ our $I18N = {
     'lastUpdated' => '1201263925',
     'message' => 'Het URL naar de foto met normaal formaat'
   },
+  'helpvar firstFile_thumbnailUrl' => {
+    'lastUpdated' => '1270629892',
+    'message' => 'De URL van het miniatuur van het eerste bestand in het album.'
+  },
+  'helpvar firstFile_title' => {
+    'lastUpdated' => '1270629906',
+    'message' => 'De titel van het eerste bestand in het album.'
+  },
+  'helpvar firstFile_url' => {
+    'lastUpdated' => '1270629918',
+    'message' => 'De URL van het eerste bestand in het album.'
+  },
   'helpvar form_end' => {
     'lastUpdated' => '1201263902',
     'message' => 'Beeindig het formulier'
@@ -293,6 +305,30 @@ our $I18N = {
     'lastUpdated' => '1206954207',
     'message' => 'Een functie met alle trefwoorden die bij deze foto horen.'
   },
+  'helpvar lastFile_thumbnailUrl' => {
+    'lastUpdated' => '1270629942',
+    'message' => 'De URL van het miniatuur van het laatste bestand in het album.'
+  },
+  'helpvar lastFile_title' => {
+    'lastUpdated' => '1270629955',
+    'message' => 'De titel van het laatste bestand in het album.'
+  },
+  'helpvar lastFile_url' => {
+    'lastUpdated' => '1270629964',
+    'message' => 'De URL van het laatste bestand in het album.'
+  },
+  'helpvar nextFile_thumbnailUrl' => {
+    'lastUpdated' => '1270630004',
+    'message' => 'De URL van het miniatuur van het volgende bestand in het album. Ongedefinieerd als er geen volgend bestand is.'
+  },
+  'helpvar nextFile_title' => {
+    'lastUpdated' => '1270630016',
+    'message' => 'De titel van het volgende bestand in het album. Ongedefinieerd als er geen volgend bestand is.'
+  },
+  'helpvar nextFile_url' => {
+    'lastUpdated' => '1270630032',
+    'message' => 'De URL van het volgende bestand in het album. Ongedefinieerd als er geen volgend bestand is.'
+  },
   'helpvar numberOfComments' => {
     'lastUpdated' => '1201263116',
     'message' => 'Het totale aantal commentaren dat gegeven is op deze foto.'
@@ -300,6 +336,18 @@ our $I18N = {
   'helpvar ownerUsername' => {
     'lastUpdated' => '1201263086',
     'message' => 'De gebruikersnaam van de gebruiker, die deze foto heeft toegevoegd.'
+  },
+  'helpvar previousFile_thumbnailUrl' => {
+    'lastUpdated' => '1270630135',
+    'message' => 'De URL van het miniatuur van het vorige bestand in het album. Ongedefinieerd als er geen vorig bestand is.'
+  },
+  'helpvar previousFile_title' => {
+    'lastUpdated' => '1270630069',
+    'message' => 'De titel van het vorige bestand in het album. Ongedefinieerd als er geen vorig bestand is.'
+  },
+  'helpvar previousFile_url' => {
+    'lastUpdated' => '1270630124',
+    'message' => 'De URL van het vorige bestand in het album. Ongedefinieerd als er geen vorig bestand is.'
   },
   'helpvar resolutions_' => {
     'lastUpdated' => '1213630168',
