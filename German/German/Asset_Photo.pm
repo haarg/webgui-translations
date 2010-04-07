@@ -225,6 +225,18 @@ our $I18N = {
     'lastUpdated' => '1229724886',
     'message' => 'Der URL zum Foto in Originalgröße.'
   },
+  'helpvar firstFile_thumbnailUrl' => {
+    'lastUpdated' => '1270629886',
+    'message' => 'URL des Vorschaubildes für die erste Datei im Album.'
+  },
+  'helpvar firstFile_title' => {
+    'lastUpdated' => '1270629906',
+    'message' => 'Titel der ersten Datei im Album.'
+  },
+  'helpvar firstFile_url' => {
+    'lastUpdated' => '1270629922',
+    'message' => 'URL der ersten Datei im Album.'
+  },
   'helpvar form_end' => {
     'lastUpdated' => '1229725647',
     'message' => 'Das Ende des Formulars.'
@@ -293,6 +305,30 @@ our $I18N = {
     'lastUpdated' => '1229724819',
     'message' => 'Eine Schleife mit Stichwörtern, die diesem Foto zugeordnet sind.'
   },
+  'helpvar lastFile_thumbnailUrl' => {
+    'lastUpdated' => '1270629956',
+    'message' => 'URL des Vorschaubildes für die letzte Datei im Album'
+  },
+  'helpvar lastFile_title' => {
+    'lastUpdated' => '1270629980',
+    'message' => 'Titel der letzte Datei im Album.'
+  },
+  'helpvar lastFile_url' => {
+    'lastUpdated' => '1270630000',
+    'message' => 'URL der letzten Datei im Album.'
+  },
+  'helpvar nextFile_thumbnailUrl' => {
+    'lastUpdated' => '1270630058',
+    'message' => 'URL des Vorschaubildes für die nächste Datei im Album. Nicht definiert, wenn keine nächste Datei existiert.'
+  },
+  'helpvar nextFile_title' => {
+    'lastUpdated' => '1270630099',
+    'message' => 'Titel der nächsten Datei im Album. Nicht definiert, wenn keine nächste Datei existiert.'
+  },
+  'helpvar nextFile_url' => {
+    'lastUpdated' => '1270630134',
+    'message' => 'URL der nächsten Datei im Album. Nicht definiert, wenn keine nächste Datei existiert.'
+  },
   'helpvar numberOfComments' => {
     'lastUpdated' => '1229724284',
     'message' => 'Die Anzahl der Kommentare für dieses Foto.'
@@ -300,6 +336,18 @@ our $I18N = {
   'helpvar ownerUsername' => {
     'lastUpdated' => '1229724250',
     'message' => 'Der Benutzername des Benutzers, der dieses Foto übermittelt hat.'
+  },
+  'helpvar previousFile_thumbnailUrl' => {
+    'lastUpdated' => '1270630189',
+    'message' => 'URL des Vorschaubildes für die vorhergehenden Datei im Album. Nicht definiert, wenn keine vorhergehende Datei existiert.'
+  },
+  'helpvar previousFile_title' => {
+    'lastUpdated' => '1270630216',
+    'message' => 'Titel der vorhergehenden Datei im Album. Nicht definiert, wenn keine vorhergehende Datei existiert.'
+  },
+  'helpvar previousFile_url' => {
+    'lastUpdated' => '1270630156',
+    'message' => 'URL der vorhergehenden Datei im Album. Nicht definiert, wenn keine vorhergehende Datei existiert.'
   },
   'helpvar resolutions_' => {
     'lastUpdated' => '1229724220',
