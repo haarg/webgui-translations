@@ -289,6 +289,14 @@ eingeben, zeigt das Syndizierte Inhalte Weboject Meldungen aus allen aggregierte
     'lastUpdated' => undef,
     'message' => ''
   },
+  'sortItemsLabel' => {
+    'lastUpdated' => '1270628188',
+    'message' => 'Feed-Meldungen nach Datum sortieren?'
+  },
+  'sortItemsLabel description' => {
+    'lastUpdated' => '1270628278',
+    'message' => 'Wenn ausgewählt, werden Feed-Meldungen nach Datum sortiert. Wenn nicht ausgewählt, werden Feed-Meldungen in der Reihenfolge wie im Original-Feed angezeigt.'
+  },
   'syndicated content asset template variables title' => {
     'lastUpdated' => '1170406566',
     'message' => 'Syndizierte Inhalte Asset Template Variablen'

@@ -121,6 +121,10 @@ our $I18N = {
     'lastUpdated' => '1179833286',
     'message' => 'Der Name des Anhangs.'
   },
+  'form.cancel' => {
+    'lastUpdated' => '1270627878',
+    'message' => 'Ein Button um die Nachricht abzubrechen.'
+  },
   'form.footer' => {
     'lastUpdated' => '1179833304',
     'message' => 'Kode für das Ende des Formulars.'

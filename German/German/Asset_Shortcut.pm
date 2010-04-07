@@ -58,8 +58,9 @@ our $I18N = {
     'message' => 'Merkmale'
   },
   'Criteria description' => {
-    'lastUpdated' => '1251662268',
-    'message' => 'Eine Anweisung, was gespiegelt werden soll. Form: "color = blue and weight != heavy". Mehrere Ausdrücke können durch "and" und "or" verbunden werden. Eine Eigenschaft muss in Anführungszeichen stehen, wenn sie Leerzeichen enthält. Sie können den Kriterienbilder nutzen, um die Anweisung zu erstellen. '
+    'lastUpdated' => '1270628146',
+    'message' => 'Eine Anweisung, was gespiegelt werden soll. Form: "color = blue and weight != heavy". Mehrere Ausdrücke können durch "and" und "or" verbunden werden. Eine Eigenschaft muss in Anführungszeichen stehen, wenn sie Leerzeichen enthält. 
+Anweisungen können per Hand eingegeben werden oder graphisch mit dem Kriterienbilder erstellt werden. Für jedes einzugebende Kriterium wählen Sie einen wert für das Metadatenfeld und den Operator. Wählen Sie dann im Verbindungsfeld aus, wie es mit den anderen Kriterien interagieren soll und klicken auf den Hinzufügen-Button für das Feld, das Sie hinzufügen möchten.. '
   },
   'Default Value for this field' => {
     'lastUpdated' => '1178710540',
