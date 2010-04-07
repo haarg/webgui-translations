@@ -121,6 +121,10 @@ our $I18N = {
     'lastUpdated' => '1152802529',
     'message' => 'De naam van de bijlage'
   },
+  'form.cancel' => {
+    'lastUpdated' => '1270629543',
+    'message' => 'Een knop om de post te annuleren.'
+  },
   'form.footer' => {
     'lastUpdated' => '1152802591',
     'message' => 'Code voor het einde van het reactieformulier'

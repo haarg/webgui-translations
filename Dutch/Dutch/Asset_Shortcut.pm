@@ -58,8 +58,8 @@ our $I18N = {
     'message' => 'Criteria'
   },
   'Criteria description' => {
-    'lastUpdated' => '1170691807',
-    'message' => 'Een statement om te bepalen wat gespiegeld moet worden, in de vorm "kleur = blauw and gewicht != zwaar". Verschillende expressies mogen samengevoegd worden met behulp van "and" en "or". Een propery of waarde moet voorzien worden van quotes zodra er spaties in voorkomen. Met behulp van de "criteria builder" kunnen makkelijk statements worden samengesteld.'
+    'lastUpdated' => '1270629710',
+    'message' => 'Een statement om te bepalen wat gespiegeld moet worden, in de vorm "kleur = blauw and gewicht != zwaar". Verschillende expressies mogen samengevoegd worden met behulp van "and" en "or". Een eigenschap of waarde moet voorzien worden van quotes zodra er spaties in voorkomen. Met behulp van de "criteria builder" kunnen makkelijk statements worden samengesteld. Selecteer voor elk criterium de waarde van het metadata veld en de operator. Gebruik dan het comineerveld om t ekiezen hoe het samenwerkt met andere criteria en klip op de toevoegn knop voor het veld wat toegevoegd moet worden.'
   },
   'Default Value for this field' => {
     'lastUpdated' => '1151657361',
