@@ -54,8 +54,8 @@ our $I18N = {
     'message' => ''
   },
   'confirm ad delete' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => '1270727955',
+    'message' => 'confirm freedom'
   },
   'confirm ad space delete' => {
     'lastUpdated' => undef,
