@@ -221,6 +221,14 @@ our $I18N = {
     'lastUpdated' => '1229105278',
     'message' => 'Eine Schaltfläche, um das Bild in der Reihenfolge nach oben zu bewegen. Benutzen Sie diese, um die Anordnung der Bilder zu ändern.'
   },
+  'helpvar form_rotateLeft' => {
+    'lastUpdated' => '1271833983',
+    'message' => 'Ein Button, um das Bild um 90° gegen den Uhrzeigersinn zu drehen.'
+  },
+  'helpvar form_rotateRight' => {
+    'lastUpdated' => '1271833956',
+    'message' => 'Ein Button, um das Bild um 90° im Uhrzeigersinn zu drehen.'
+  },
   'helpvar form_start' => {
     'lastUpdated' => '1201603314',
     'message' => 'Beginn des Formulars'
@@ -360,6 +368,14 @@ our $I18N = {
   'return to album' => {
     'lastUpdated' => '1244063258',
     'message' => 'Zurück zum Album'
+  },
+  'rotate left' => {
+    'lastUpdated' => '1271834035',
+    'message' => '90° links'
+  },
+  'rotate right' => {
+    'lastUpdated' => '1271834048',
+    'message' => '90° rechts'
   },
   'save' => {
     'lastUpdated' => '1201607200',

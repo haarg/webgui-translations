@@ -185,6 +185,30 @@ our $I18N = {
     'lastUpdated' => '1253864115',
     'message' => 'URL um das komplette Wiki abzubestellen'
   },
+  'indent_loop' => {
+    'lastUpdated' => '1271850992',
+    'message' => 'Schleife die für jedes Level einmal durchlaufen wird'
+  },
+  'keyword indent' => {
+    'lastUpdated' => '1271851098',
+    'message' => 'Schleifenzähler für den indent_loop.'
+  },
+  'keyword level' => {
+    'lastUpdated' => '1271851136',
+    'message' => 'Tiefe dieses Schlüsselwortes. Top-Level-Schlüsselworte im Wiki haben Level 0.'
+  },
+  'keyword title' => {
+    'lastUpdated' => '1271851157',
+    'message' => 'Name eines Schlüsselwortes'
+  },
+  'keyword url' => {
+    'lastUpdated' => '1271851202',
+    'message' => 'URL zur Schlüsselwort-Seite für dieses Schlüsselwort. Existiert keine Seite ist diese Variable leer.'
+  },
+  'keywords_loop' => {
+    'lastUpdated' => '1271851279',
+    'message' => 'Eine Schleife, die alle Top-Level-Schlüsselworte, Links zu ihren Schlüsselwortseiten und allen Unterseiten enthält.'
+  },
   'listPages title' => {
     'lastUpdated' => '1224012371',
     'message' => 'Auflistung der Seiten'
@@ -508,6 +532,14 @@ our $I18N = {
   'thumbnailSize' => {
     'lastUpdated' => '1223983822',
     'message' => 'Größe der Vorschaubilder'
+  },
+  'top level keywords' => {
+    'lastUpdated' => '1271850915',
+    'message' => 'Top Level Schlüsselworte'
+  },
+  'top level keywords description' => {
+    'lastUpdated' => '1271850951',
+    'message' => 'Diese Schlüsselworte bilden die Wurzel für die hierarchische Schlüsselwort-Anzeige'
   },
   'unsubscribe' => {
     'lastUpdated' => '1253864048',

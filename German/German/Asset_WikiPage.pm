@@ -177,6 +177,10 @@ our $I18N = {
     'lastUpdated' => '1253864261',
     'message' => 'Auf der Hauptseite darstellen'
   },
+  'isKeywordPage' => {
+    'lastUpdated' => '1271834110',
+    'message' => 'Ein boolscher Wert der wahr ist, wenn diese Seite eine Schlüsselwort-Seite ist.'
+  },
   'isNew' => {
     'lastUpdated' => '1222930667',
     'message' => 'Eine boolesche Variable, die wahr ist, falls die Seite neu angelegt wurde.'
@@ -184,6 +188,30 @@ our $I18N = {
   'isProtected' => {
     'lastUpdated' => '1222930699',
     'message' => 'Eine boolesche Variable, die wahr ist, falls die Seite vor Veränderungen geschützt ist.'
+  },
+  'keyword page title' => {
+    'lastUpdated' => '1271834136',
+    'message' => 'Der Titel einer Seite mit diesem Schlüsselwort'
+  },
+  'keyword page url' => {
+    'lastUpdated' => '1271834228',
+    'message' => 'URL einer Seite mit diesem Schlüsselwort. Dem URL wird der Gateway-URL vorangestellt.'
+  },
+  'keyword title' => {
+    'lastUpdated' => '1271834246',
+    'message' => 'Name dieses Schlüsselwortes.'
+  },
+  'keyword url' => {
+    'lastUpdated' => '1271834314',
+    'message' => 'URL um alle Seiten anzuzeigen, die mit diesem Schlüsselwort ausgezeichnet wurden.  Dem URL wird der Gateway-URL vorangestellt.'
+  },
+  'keyword_page_loop' => {
+    'lastUpdated' => '1271849487',
+    'message' => 'Wenn diese Seite eine Seite mit Schlüsselwort ist, dann enthält diese Schleife eine List aller Seiten, die mit diesem Seiten-Schlüsselwort ausgezeichnet wurden. Die Seitenumbruch-Variablen können auf diese Schleife angewandt werden. Wenn diese Seite kein Schlüsselwort enthält ist die Schleife leer und Seitenumbruch-Variablen sind nicht verfügbar.'
+  },
+  'keywordsLoop' => {
+    'lastUpdated' => '1271834368',
+    'message' => 'Eine Schleife die alle Schlüsselworte enthält, mit denen diese Seite ausgezeichnet wurde.'
   },
   'locked' => {
     'lastUpdated' => '1253864190',

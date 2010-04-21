@@ -2041,6 +2041,10 @@ our $I18N = {
     'lastUpdated' => '1224798934',
     'message' => 'Allgemeine Diskussionen'
   },
+  'Go' => {
+    'lastUpdated' => '1271833849',
+    'message' => 'Los'
+  },
   'Illegal Warning' => {
     'lastUpdated' => '1178547141',
     'message' => '<p>Dieses Feature zu aktivieren ist in manchen Ländern - wie in Australien - illegal. Darüberhinaus ist es in einigen L&auml;ndern Pflicht, eine Warnung auszugeben, falls dieses Feature auf ihrer Seite genutzt wird. Kontaktieren Sie ihre lokalen Behörden f&uuml;r n&auml;her Auskunft. Plain Black ist f&uuml;r ihre illegalen Aktivit&auml;ten nicht verantwortlich. </p><p>Enabling this feature is illegal in some countries, like Australia. In addition, some countries require you to add a warning to your site if you use this feature. Consult your local authorities for local laws. Plain Black Corporation is not responsible for your illegal activities, regardless of ignorance or malice.</p>'
