@@ -90,8 +90,8 @@ our $I18N = {
     'message' => ''
   },
   'height' => {
-    'lastUpdated' => undef,
-    'message' => ''
+    'lastUpdated' => '1271874328',
+    'message' => 'How tall it is'
   },
   'height help' => {
     'lastUpdated' => undef,
