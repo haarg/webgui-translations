@@ -221,6 +221,14 @@ our $I18N = {
     'lastUpdated' => '1252540545',
     'message' => 'Un botón para mover la imagen hacia arriba en el orden. Se usa para cambiar la posición de las imágenes.'
   },
+  'helpvar form_rotateLeft' => {
+    'lastUpdated' => '1272375319',
+    'message' => 'Un botón para rotar la foto 90° hacia la izquierda.'
+  },
+  'helpvar form_rotateRight' => {
+    'lastUpdated' => '1272375328',
+    'message' => 'Un botón para rotar la foto 90° hacia la derecha.'
+  },
   'helpvar form_start' => {
     'lastUpdated' => '1215798092',
     'message' => 'Inicio del formulario'
@@ -360,6 +368,14 @@ our $I18N = {
   'return to album' => {
     'lastUpdated' => '1252546160',
     'message' => 'Regresar al Album'
+  },
+  'rotate left' => {
+    'lastUpdated' => '1272375358',
+    'message' => '90° izq'
+  },
+  'rotate right' => {
+    'lastUpdated' => '1272375367',
+    'message' => '90° der'
   },
   'save' => {
     'lastUpdated' => '1252546167',

@@ -2041,6 +2041,10 @@ our $I18N = {
     'lastUpdated' => '1224122197',
     'message' => 'Discusiones Generales'
   },
+  'Go' => {
+    'lastUpdated' => '1272376830',
+    'message' => 'Ir'
+  },
   'Illegal Warning' => {
     'lastUpdated' => '1208199908',
     'message' => '<p>ACtivando esta caracteristica es ilegal en algunos paises como Australia. Adicionalmente, algunos paises requieren que usted a&ntilde;ada una advertencia a su sitio si esta carecteristica es usada. Consulte con las autoridades locales para conocer leyes locales. La Corporacion &quot;Plain Black&quot; no es responsable por sus actividades ilegales, sin importar ignorancia o malicia.<span style="font-size: 10pt; font-family: \'Arial\',\'sans-serif\'"> </span> </p>'

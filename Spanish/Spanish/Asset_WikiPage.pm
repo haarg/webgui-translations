@@ -177,6 +177,10 @@ our $I18N = {
     'lastUpdated' => '1253712650',
     'message' => 'Destacar en la Página Principal'
   },
+  'isKeywordPage' => {
+    'lastUpdated' => '1272376404',
+    'message' => 'Un condicional que es cierto si la página corresponde a palabra clave.'
+  },
   'isNew' => {
     'lastUpdated' => '1253498834',
     'message' => 'Un condicional que indica si esta Página WiKi es nueva o no.'
@@ -184,6 +188,30 @@ our $I18N = {
   'isProtected' => {
     'lastUpdated' => '1253498823',
     'message' => 'Un condicional que indica si la Página WiKi está protegida o no.'
+  },
+  'keyword page title' => {
+    'lastUpdated' => '1272376569',
+    'message' => 'El título de la página que tiene esta palabra clave.'
+  },
+  'keyword page url' => {
+    'lastUpdated' => '1272376617',
+    'message' => 'El URL absoluto a la página que tiene esta palabra clave.'
+  },
+  'keyword title' => {
+    'lastUpdated' => '1272376626',
+    'message' => 'El nombre de la palabra clave.'
+  },
+  'keyword url' => {
+    'lastUpdated' => '1272376650',
+    'message' => 'El URL absoluto para ver todas las páginas marcadas con esta palabra clave.'
+  },
+  'keyword_page_loop' => {
+    'lastUpdated' => '1272376782',
+    'message' => 'Si esta página corresponde a una palabra clave, este ciclo itera sobre la lista de todas las páginas marcadas con este palabra clave. Las variables para paginar aplican para la lista de páginas en el ciclo. Pero si esta página no corresponde a una palabra clave, el ciclo estará vacío.'
+  },
+  'keywordsLoop' => {
+    'lastUpdated' => '1272376805',
+    'message' => 'Un ciclo que itera sobre las palabras clave marcadas para esta página.'
   },
   'locked' => {
     'lastUpdated' => '1253712736',

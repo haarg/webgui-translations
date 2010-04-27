@@ -185,6 +185,30 @@ our $I18N = {
     'lastUpdated' => '1253710952',
     'message' => 'El URL para desuscribirse del WiKi.'
   },
+  'indent_loop' => {
+    'lastUpdated' => '1272376205',
+    'message' => 'Un ciclo que itera una vez por cada nivel.'
+  },
+  'keyword indent' => {
+    'lastUpdated' => '1272376219',
+    'message' => 'El iterador del ciclo indent_loop.'
+  },
+  'keyword level' => {
+    'lastUpdated' => '1272376249',
+    'message' => 'La profundidad de esta palabra clave. Las palabras clave en el nivel superior del WiKi tienen nivel 0.'
+  },
+  'keyword title' => {
+    'lastUpdated' => '1272376257',
+    'message' => 'El título para esta palabra clave.'
+  },
+  'keyword url' => {
+    'lastUpdated' => '1272376276',
+    'message' => 'El URL hacia la página para la palabra clave. Si no existe tal página, la variable estará vacía.'
+  },
+  'keywords_loop' => {
+    'lastUpdated' => '1272376318',
+    'message' => 'Un ciclo que contiene las palabras clave en el tope, enlaces a sus palabras claves y todas las sub-páginas.'
+  },
   'listPages title' => {
     'lastUpdated' => '1253471396',
     'message' => 'Lista de Páginas'
@@ -508,6 +532,14 @@ our $I18N = {
   'thumbnailSize' => {
     'lastUpdated' => '1253472827',
     'message' => 'El tamaño de las miniaturas para este WiKi.'
+  },
+  'top level keywords' => {
+    'lastUpdated' => '1272376336',
+    'message' => 'Palabras Clave Principales'
+  },
+  'top level keywords description' => {
+    'lastUpdated' => '1272376354',
+    'message' => 'Estas palabras clave proveen la raíz para desplegar la jerarquía de palabras clave.'
   },
   'unsubscribe' => {
     'lastUpdated' => '1253711856',

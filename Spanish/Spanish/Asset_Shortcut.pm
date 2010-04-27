@@ -58,7 +58,7 @@ our $I18N = {
     'message' => 'Criterios'
   },
   'Criteria description' => {
-    'lastUpdated' => '1253660403',
+    'lastUpdated' => '1272376129',
     'message' => 'Una expresión para establecer qué se replicará, de la forma \'color = azul y peso != pesado". Pueden combinarse múltiples expresiones con Y u O. Una propiedad o valor que contenga espacios en blanco debe escribirse entre comillas.'
   },
   'Default Value for this field' => {

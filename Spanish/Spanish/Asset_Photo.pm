@@ -225,6 +225,18 @@ our $I18N = {
     'lastUpdated' => '1252549989',
     'message' => 'El URL a la Foto en tamaño normal.'
   },
+  'helpvar firstFile_thumbnailUrl' => {
+    'lastUpdated' => '1272375863',
+    'message' => 'El URL de la imagen miniatura para la primera imagen del Album.'
+  },
+  'helpvar firstFile_title' => {
+    'lastUpdated' => '1272375873',
+    'message' => 'El título de la primera imagen del Album.'
+  },
+  'helpvar firstFile_url' => {
+    'lastUpdated' => '1272375885',
+    'message' => 'El URL de la primera imagen del Album.'
+  },
   'helpvar form_end' => {
     'lastUpdated' => '1252550000',
     'message' => 'Fin del formulario.'
@@ -293,6 +305,30 @@ our $I18N = {
     'lastUpdated' => '1252550765',
     'message' => 'Un ciclo que itera sobre las palabras clave asociadas con la Foto.'
   },
+  'helpvar lastFile_thumbnailUrl' => {
+    'lastUpdated' => '1272375903',
+    'message' => 'El URL de la imagen miniatura de la última imagen del Album.'
+  },
+  'helpvar lastFile_title' => {
+    'lastUpdated' => '1272375911',
+    'message' => 'El título de la última imagen del Album.'
+  },
+  'helpvar lastFile_url' => {
+    'lastUpdated' => '1272375920',
+    'message' => 'El URL de la última imagen del Album.'
+  },
+  'helpvar nextFile_thumbnailUrl' => {
+    'lastUpdated' => '1272376006',
+    'message' => 'El URL de la imagen miniatura para la siguiente imagen del Album. Si no hay siguiente imagen, su valor será indefinido.'
+  },
+  'helpvar nextFile_title' => {
+    'lastUpdated' => '1272376029',
+    'message' => 'El título de la siguiente imagen del Album. Si no hay siguiente imagen, su valor será indefinido.'
+  },
+  'helpvar nextFile_url' => {
+    'lastUpdated' => '1272376085',
+    'message' => 'El URL de la siguiente imagen del Album. Si no hay siguiente imagen, su valor será indefinido.'
+  },
   'helpvar numberOfComments' => {
     'lastUpdated' => '1252550795',
     'message' => 'El número total de comentarios sobre la Foto.'
@@ -300,6 +336,18 @@ our $I18N = {
   'helpvar ownerUsername' => {
     'lastUpdated' => '1252550835',
     'message' => 'El nombre de usuario del usuario que incorporó la Foto.'
+  },
+  'helpvar previousFile_thumbnailUrl' => {
+    'lastUpdated' => '1272375999',
+    'message' => 'El URL de la imagen miniatura para la imagen anterior del Album. Si no hay imagen anterior, su valor será indefinido.'
+  },
+  'helpvar previousFile_title' => {
+    'lastUpdated' => '1272376046',
+    'message' => 'El título de la imagen anterior del Album. Si no hay imagen anterior, su valor será indefinido.'
+  },
+  'helpvar previousFile_url' => {
+    'lastUpdated' => '1272376072',
+    'message' => 'El URL de la imagen anterior del Album. Si no hay imagen anterior, su valor será indefinido.'
   },
   'helpvar resolutions_' => {
     'lastUpdated' => '1252550887',

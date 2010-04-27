@@ -293,6 +293,14 @@ our $I18N = {
     'lastUpdated' => '1224527888',
     'message' => 'T&iacute;tulo de la fuente RSS de la cual proviene este item.'
   },
+  'sortItemsLabel' => {
+    'lastUpdated' => '1272376152',
+    'message' => '¿Ordenar los items por fecha?'
+  },
+  'sortItemsLabel description' => {
+    'lastUpdated' => '1272376180',
+    'message' => 'Si se activa, los items apareceran ordenados por fecha; si se desactiva, los items aparecerán en el mismo orden que en la fuente.'
+  },
   'syndicated content asset template variables title' => {
     'lastUpdated' => '1224527908',
     'message' => 'Variables para Plantilla del Activo de Contenido Sindicado'

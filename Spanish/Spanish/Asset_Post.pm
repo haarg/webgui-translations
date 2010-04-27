@@ -121,6 +121,10 @@ our $I18N = {
     'lastUpdated' => '1253406273',
     'message' => 'El nombre del archivo adjunto.'
   },
+  'form.cancel' => {
+    'lastUpdated' => '1272376115',
+    'message' => 'Un botón para cancelar la Publicación.'
+  },
   'form.footer' => {
     'lastUpdated' => '1253406324',
     'message' => 'El código HTML para terminar el formulario.'
