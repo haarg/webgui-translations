@@ -314,8 +314,8 @@ our $I18N = {
     'message' => 'Adres bewerk sjabloon'
   },
   'edit address template help' => {
-    'lastUpdated' => '1216724521',
-    'message' => 'Dit sjabloon bepaalt hoe de invoervelden van het adres eruit zullen zijn.'
+    'lastUpdated' => '1271749683',
+    'message' => 'Dit sjabloon bepaalt hoe de invoervelden van het adres eruit zullen zien.'
   },
   'editButton help' => {
     'lastUpdated' => '1216724547',

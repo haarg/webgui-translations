@@ -185,6 +185,30 @@ our $I18N = {
     'lastUpdated' => '1253797712',
     'message' => 'De URL waar men zich kan uitschrijven uit de wiki.'
   },
+  'indent_loop' => {
+    'lastUpdated' => '1272463879',
+    'message' => 'Een functie die 1 keer uitgevoerd wordt per niveau.'
+  },
+  'keyword indent' => {
+    'lastUpdated' => '1272464135',
+    'message' => 'De teller voor de inspringfunctie.'
+  },
+  'keyword level' => {
+    'lastUpdated' => '1272464196',
+    'message' => 'De diepte van het trefwoord.'
+  },
+  'keyword title' => {
+    'lastUpdated' => '1272464208',
+    'message' => 'De naam van een trefwoord.'
+  },
+  'keyword url' => {
+    'lastUpdated' => '1272464244',
+    'message' => 'De URL naar de pagina van dit trefwoord. Als er geen pagina bestaat, is de variabele leeg.'
+  },
+  'keywords_loop' => {
+    'lastUpdated' => '1272464293',
+    'message' => 'Een functie die alle hoogste niveau trefwoorden bevat, met links naar de bijbehorende pagina\'s.'
+  },
   'listPages title' => {
     'lastUpdated' => '1166546114',
     'message' => 'Overzicht pagina\'s'
@@ -508,6 +532,14 @@ our $I18N = {
   'thumbnailSize' => {
     'lastUpdated' => '1166617897',
     'message' => 'De grootte van miniatuur-afbeeldingen voor deze Wiki'
+  },
+  'top level keywords' => {
+    'lastUpdated' => '1272464350',
+    'message' => 'Hoogste niveau trefwoorden.'
+  },
+  'top level keywords description' => {
+    'lastUpdated' => '1272464337',
+    'message' => 'Deze trefwoorden zijn de oorsprong van het hierarchisch weergeven van trefwoorden.'
   },
   'unsubscribe' => {
     'lastUpdated' => '1253797736',

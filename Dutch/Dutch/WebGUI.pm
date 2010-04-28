@@ -2059,6 +2059,10 @@ De verstrekte informatie is niet gelijk aan de accountinformatie. '
     'lastUpdated' => '1222937962',
     'message' => 'Algemene discussie'
   },
+  'Go' => {
+    'lastUpdated' => '1272465016',
+    'message' => 'Ga!'
+  },
   'Illegal Warning' => {
     'lastUpdated' => '1156171233',
     'message' => 'Het gebruik van deze functie is in sommige landen, zoals Australie, illegaal. Verder is het in bepaalde landen verplicht een waarschuwing op de site te zetten als deze functie gebruikt wordt. Raadpleeg de lokale autoriteiten voor de plaatselijke wetgeving. Plain Black is niet aansprakelijk voor illegale activiteiten, ongeacht of deze bewust of onbewust zijn.'

@@ -221,6 +221,14 @@ our $I18N = {
     'lastUpdated' => '1213702560',
     'message' => 'Een knop om een afbeelding te laten stijgen in ranking. Dit wordt gebruikt om de volgorde van de fotos te veranderen.'
   },
+  'helpvar form_rotateLeft' => {
+    'lastUpdated' => '1271835103',
+    'message' => 'Een knop om de foto 90 graden tegen de klok in te draaien.'
+  },
+  'helpvar form_rotateRight' => {
+    'lastUpdated' => '1271835090',
+    'message' => 'Een knop om de foto 90 graden met de klok mee te draaien.'
+  },
   'helpvar form_start' => {
     'lastUpdated' => '1201267360',
     'message' => 'Het begin van het formulier'
@@ -361,6 +369,14 @@ our $I18N = {
     'lastUpdated' => '1242726618',
     'message' => 'Terug naar fotoalbum'
   },
+  'rotate left' => {
+    'lastUpdated' => '1271835044',
+    'message' => '90° linksom'
+  },
+  'rotate right' => {
+    'lastUpdated' => '1271835053',
+    'message' => '90° rechtsom'
+  },
   'save' => {
     'lastUpdated' => '1201266201',
     'message' => 'Opslaan'
@@ -454,8 +470,8 @@ our $I18N = {
     'message' => 'Miniaturen'
   },
   'template use as thumbnail' => {
-    'lastUpdated' => '1231707740',
-    'message' => 'Gerbruik als album representatie'
+    'lastUpdated' => '1271834969',
+    'message' => 'Gebruik als album representatie'
   },
   'what next' => {
     'lastUpdated' => '1213702753',

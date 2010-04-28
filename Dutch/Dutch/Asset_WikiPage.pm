@@ -177,6 +177,10 @@ our $I18N = {
     'lastUpdated' => '1253797939',
     'message' => 'Toon op de voorpagina'
   },
+  'isKeywordPage' => {
+    'lastUpdated' => '1272464406',
+    'message' => 'Een functie die waar is als deze pagina een pagina is voor een trefwoord.'
+  },
   'isNew' => {
     'lastUpdated' => '1208528246',
     'message' => 'Een variabele die waar is als de Wiki pagina nieuw is.'
@@ -184,6 +188,30 @@ our $I18N = {
   'isProtected' => {
     'lastUpdated' => '1166782311',
     'message' => 'Een variabele die waar is als de huidige pagina beschermd is.'
+  },
+  'keyword page title' => {
+    'lastUpdated' => '1272464373',
+    'message' => 'De titel van een pagina met dit trefwoord.'
+  },
+  'keyword page url' => {
+    'lastUpdated' => '1272464539',
+    'message' => 'De URL naar een pagina met dit trefwoord, inclusief de gateway URL.'
+  },
+  'keyword title' => {
+    'lastUpdated' => '1272464581',
+    'message' => 'De naam van dit trefwoord.'
+  },
+  'keyword url' => {
+    'lastUpdated' => '1272464625',
+    'message' => 'De URL om alle pagina\'s met dit trefwoord te bekijken, inclusief gateway URL.'
+  },
+  'keyword_page_loop' => {
+    'lastUpdated' => '1272464843',
+    'message' => 'Als dit een pagina voor een trefwoord is, bevat deze functie een lijst met alle pagina\'s met dit trefwoord. De paginatie variabelen zijn toepasbaar op de lijst in deze functie. Als de pagina geen trefwoordpagina is, is de functie leeg en zijn er geen paginatie variabelen.'
+  },
+  'keywordsLoop' => {
+    'lastUpdated' => '1272464868',
+    'message' => 'Een functie met alle trefwoorden van de pagina.'
   },
   'locked' => {
     'lastUpdated' => '1253797949',
