@@ -1,13 +1,25 @@
 package WebGUI::i18n::German::Shop;
 use utf8;
 our $I18N = {
+  'Add new address' => {
+    'lastUpdated' => '1273049137',
+    'message' => 'Neue Adresse hinzufügen'
+  },
   'Backordered' => {
     'lastUpdated' => '1241614989',
     'message' => 'Lieferrückstand'
   },
+  'Billing Address' => {
+    'lastUpdated' => '1273049151',
+    'message' => 'Rechnungsanschrift'
+  },
   'Cancelled' => {
     'lastUpdated' => '1228748625',
     'message' => 'Storniert'
+  },
+  'Choose a payment method' => {
+    'lastUpdated' => '1273049180',
+    'message' => 'Wählen Sie eine Zahlungsart'
   },
   'Choose a shipping method' => {
     'lastUpdated' => '1254901242',
@@ -45,6 +57,14 @@ our $I18N = {
     'lastUpdated' => '1241298331',
     'message' => 'Ausgeliefert'
   },
+  'Shipping Address' => {
+    'lastUpdated' => '1273049190',
+    'message' => 'Versandadresse'
+  },
+  'Special shipping' => {
+    'lastUpdated' => '1273049210',
+    'message' => 'Versanddetails'
+  },
   'Status' => {
     'lastUpdated' => '1256112676',
     'message' => 'Status'
@@ -52,6 +72,10 @@ our $I18N = {
   'Success' => {
     'lastUpdated' => '1256112683',
     'message' => 'Erfolg'
+  },
+  'Update this address' => {
+    'lastUpdated' => '1273049227',
+    'message' => 'Diese Adresse akutalisieren'
   },
   'add a new address' => {
     'lastUpdated' => '1228748699',
@@ -826,6 +850,10 @@ Eine Liste mit jeder einzelnen Transaktion statt der komplette Transaktionsliste
     'message' => 'gleich wie chooseShippingButton.
 '
   },
+  'shippableItemsInCart' => {
+    'lastUpdated' => '1273049291',
+    'message' => 'Ein boolscher Wert der wahr ist, wenn ein Artikel im Warenkorb Versand benötigt.'
+  },
   'shipping' => {
     'lastUpdated' => '1240756038',
     'message' => 'Versand'
@@ -1029,6 +1057,10 @@ Eine Liste mit jeder einzelnen Transaktion statt der komplette Transaktionsliste
   'updateButton help' => {
     'lastUpdated' => '1228750278',
     'message' => 'Anklicken dieses Buttons speichert Ihre Änderungen des Warenkorbes und kalkuliert die Preise neu.'
+  },
+  'use same shipping as billing' => {
+    'lastUpdated' => '1273054473',
+    'message' => 'Versandadresse gleich Rechnungsadresse'
   },
   'use this address' => {
     'lastUpdated' => '1228750289',
