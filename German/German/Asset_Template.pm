@@ -77,6 +77,14 @@ our $I18N = {
     'lastUpdated' => '1179921120',
     'message' => 'Template bearbeiten'
   },
+  'field storageIdExample' => {
+    'lastUpdated' => '1273049011',
+    'message' => 'Beispielbild'
+  },
+  'field storageIdExample description' => {
+    'lastUpdated' => '1273049086',
+    'message' => 'Ein Beispielbild das dem Nutzer vor der Auswahl das Aussehen eines Templates anzeigt.'
+  },
   'head block' => {
     'lastUpdated' => '1179921129',
     'message' => 'Head Block'
