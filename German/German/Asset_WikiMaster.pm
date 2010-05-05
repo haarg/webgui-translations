@@ -186,8 +186,8 @@ our $I18N = {
     'message' => 'URL um das komplette Wiki abzubestellen'
   },
   'indent_loop' => {
-    'lastUpdated' => '1271850992',
-    'message' => 'Schleife die für jedes Level einmal durchlaufen wird'
+    'lastUpdated' => '1272489443',
+    'message' => 'Schleife, die für jedes Level einmal durchlaufen wird'
   },
   'keyword indent' => {
     'lastUpdated' => '1271851098',

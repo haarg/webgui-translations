@@ -58,8 +58,8 @@ our $I18N = {
     'message' => 'Land'
   },
   'currentPhoto' => {
-    'lastUpdated' => '1271850883',
-    'message' => 'Bild-Tag das zum aktuelle hochgeladenen Foto verlinkt.'
+    'lastUpdated' => '1272489375',
+    'message' => 'Bild-Tag, das zum aktuell hochgeladenen Foto verlinkt.'
   },
   'edit template' => {
     'lastUpdated' => '1271850095',
