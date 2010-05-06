@@ -1,6 +1,10 @@
 package WebGUI::i18n::German::Asset_WikiMaster;
 use utf8;
 our $I18N = {
+  'Related Pages' => {
+    'lastUpdated' => '1273182420',
+    'message' => 'Verbundene Seiten'
+  },
   'actionN created' => {
     'lastUpdated' => '1180528449',
     'message' => 'Erzeugt'
@@ -68,6 +72,49 @@ our $I18N = {
   'assetName' => {
     'lastUpdated' => '1180529019',
     'message' => 'Wiki'
+  },
+  'by keyword formFooter' => {
+    'lastUpdated' => '1273182616',
+    'message' => 'HTML Code am Ende des Formulars um weitere Sub-Schlüsselworte einzugeben.
+Dieser wird nur dann ausgegeben, wenn der aktuelle Benutzer die Berechtigung zur Administration dieses Wikis hat.'
+  },
+  'by keyword formHeader' => {
+    'lastUpdated' => '1273182699',
+    'message' => 'HTML Code am Anfang des Formulars um weitere Sub-Schlüsselworte einzugeben.
+Dieser wird nur dann ausgegeben, wenn der aktuelle Benutzer die Berechtigung zur Administration dieses Wikis hat.'
+  },
+  'by keyword keyword' => {
+    'lastUpdated' => '1273182672',
+    'message' => 'Das gesuchte Schlüsselwort.'
+  },
+  'by keyword keywordForm' => {
+    'lastUpdated' => '1273182803',
+    'message' => 'HTML Code zur Eingabefeld für die Eingabe weiterer Sub-Schlüsselworte.
+Dieser wird nur dann ausgegeben, wenn der aktuelle Benutzer die Berechtigung zur Administration dieses Wikis hat.'
+  },
+  'by keyword pagesLoop' => {
+    'lastUpdated' => '1273183269',
+    'message' => 'Eine Schleife mit Seiten, die das gesuchte Schlüsselwort enthalten'
+  },
+  'by keyword submitForm' => {
+    'lastUpdated' => '1273183329',
+    'message' => 'Ein Knopf zum Abschicken des Formulars für Sub-Schlüsselworte.'
+  },
+  'by keyword synopsis' => {
+    'lastUpdated' => '1273183382',
+    'message' => 'Die Synopsis dieser Seite in der Schleife'
+  },
+  'by keyword template title' => {
+    'lastUpdated' => '1273183429',
+    'message' => 'Template Variablen Wiki per Schlüsselwort '
+  },
+  'by keyword title' => {
+    'lastUpdated' => '1273183355',
+    'message' => 'Der Titel dieser Seite in dieser Schelife.'
+  },
+  'by keyword url' => {
+    'lastUpdated' => '1273182833',
+    'message' => 'Die URL dieser Seite in der Schleife'
   },
   'byKeywordTemplateId hoverHelp' => {
     'lastUpdated' => '1224009377',
@@ -189,13 +236,27 @@ our $I18N = {
     'lastUpdated' => '1272489443',
     'message' => 'Schleife, die für jedes Level einmal durchlaufen wird'
   },
+  'keyword descendants' => {
+    'lastUpdated' => '1273182903',
+    'message' => 'Die Anzahl der Wiki-Seiten mit diesem Schlüsselwort, sowie alle Sub-Schlüsselworte.'
+  },
   'keyword indent' => {
     'lastUpdated' => '1271851098',
     'message' => 'Schleifenzähler für den indent_loop.'
   },
+  'keyword isTopLevel' => {
+    'lastUpdated' => '1273183148',
+    'message' => 'Beschreibt ob das Schlüsselwort zu den Schlüsselworte dieser Seite gehört oder nicht.
+Die Wiki-Hauptseite wird nur Hauptschüsselworte enthalten. 
+Für eine Seite mit Schlüsselwörter ist dies wahr für jedes Sub-Schlüsselwort dieser Seite.'
+  },
   'keyword level' => {
     'lastUpdated' => '1271851136',
     'message' => 'Tiefe dieses Schlüsselwortes. Top-Level-Schlüsselworte im Wiki haben Level 0.'
+  },
+  'keyword page variables' => {
+    'lastUpdated' => '1273183183',
+    'message' => 'Schlüsselwort-Seite Variablen'
   },
   'keyword title' => {
     'lastUpdated' => '1271851157',

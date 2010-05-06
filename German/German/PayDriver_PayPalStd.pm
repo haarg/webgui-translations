@@ -1,6 +1,10 @@
 package WebGUI::i18n::German::PayDriver_PayPalStd;
 use utf8;
 our $I18N = {
+  'Pay' => {
+    'lastUpdated' => '1273054512',
+    'message' => 'Bezahlen'
+  },
   'PayPal' => {
     'lastUpdated' => '1251899421',
     'message' => 'PayPal'
