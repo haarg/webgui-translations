@@ -17,6 +17,10 @@ our $I18N = {
     'lastUpdated' => '1251899473',
     'message' => 'Setzen Sie diese Option, um Paypal-Grafiken aus Bezahlbuttons zu verwenden.'
   },
+  'cart summary template' => {
+    'lastUpdated' => '1273183560',
+    'message' => 'PayPal Std Payment Driver Plugin Cart Übersichtstemplate'
+  },
   'cart transaction mismatch' => {
     'lastUpdated' => '1251899520',
     'message' => 'Ein Warenkorbfehler ist aufgetreten. Dieser Vorfall wird geloggt.'
@@ -121,6 +125,14 @@ Zusätzlich die folgende "Return URL" setzen:'
   'signature help' => {
     'lastUpdated' => '1251900297',
     'message' => 'Die Accountsigantur für Ihren PayPal-Account.'
+  },
+  'summary template' => {
+    'lastUpdated' => '1273183582',
+    'message' => 'Übersichts-Template'
+  },
+  'summary template help' => {
+    'lastUpdated' => '1273183687',
+    'message' => 'Wählen Sie eine Vorlage zur Anzeige des Bildschirms, wo der Benutzer die Übersichtinfo sieht und mit der Zahlung einverstanden ist.'
   },
   'use sandbox' => {
     'lastUpdated' => '1251900309',
