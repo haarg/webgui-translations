@@ -1,6 +1,10 @@
 package WebGUI::i18n::Dutch::Asset_WikiMaster;
 use utf8;
 our $I18N = {
+  'Related Pages' => {
+    'lastUpdated' => '1273494914',
+    'message' => 'Verwante pagina\'s'
+  },
   'actionN created' => {
     'lastUpdated' => '1166543568',
     'message' => 'Aangemaakt'
@@ -68,6 +72,46 @@ our $I18N = {
   'assetName' => {
     'lastUpdated' => '1166544934',
     'message' => 'Wiki'
+  },
+  'by keyword formFooter' => {
+    'lastUpdated' => '1273494997',
+    'message' => 'HTML code voor het afsluiten van het formulier om sub-trefwoorden in te voeren. Dit is leeg tenzij de huidige gebruiker de wiki kan beheren.'
+  },
+  'by keyword formHeader' => {
+    'lastUpdated' => '1273495012',
+    'message' => 'HTML code voor het beginnen van het formulier om sub-trefwoorden in te voeren. Dit is leeg tenzij de huidige gebruiker de wiki kan beheren.'
+  },
+  'by keyword keyword' => {
+    'lastUpdated' => '1273495026',
+    'message' => 'Het gevraagde trefwoord'
+  },
+  'by keyword keywordForm' => {
+    'lastUpdated' => '1273495039',
+    'message' => 'HTML code voor het veld om sub-trefwoorden in te voeren. Dit is leeg tenzij de huidige gebruiker de wiki kan beheren.'
+  },
+  'by keyword pagesLoop' => {
+    'lastUpdated' => '1273495073',
+    'message' => 'Een functie die de pagina\'s omvat die het gevraagde trefwoord bevatten.'
+  },
+  'by keyword submitForm' => {
+    'lastUpdated' => '1273495136',
+    'message' => 'Een knop om het formulier voor subtrefwoorden in te voeren.'
+  },
+  'by keyword synopsis' => {
+    'lastUpdated' => '1273495159',
+    'message' => 'De smanevatting van deze pagina in de functie.'
+  },
+  'by keyword template title' => {
+    'lastUpdated' => '1273495181',
+    'message' => 'Wiki op trefwoord sjabloonvariabelen'
+  },
+  'by keyword title' => {
+    'lastUpdated' => '1273495198',
+    'message' => 'De titel van deze pagina in de functie.'
+  },
+  'by keyword url' => {
+    'lastUpdated' => '1273495212',
+    'message' => 'De URL van de pagina in de functie.'
   },
   'byKeywordTemplateId hoverHelp' => {
     'lastUpdated' => '1190025268',
@@ -189,13 +233,25 @@ our $I18N = {
     'lastUpdated' => '1272463879',
     'message' => 'Een functie die 1 keer uitgevoerd wordt per niveau.'
   },
+  'keyword descendants' => {
+    'lastUpdated' => '1273495252',
+    'message' => 'Het aantal wiki pagina\'s met dit trefwoord en alle subtrefwoorden van dit trefwoord.'
+  },
   'keyword indent' => {
     'lastUpdated' => '1272464135',
     'message' => 'De teller voor de inspringfunctie.'
   },
+  'keyword isTopLevel' => {
+    'lastUpdated' => '1273495414',
+    'message' => 'Of het trefwoord een van de gevraagde trefwoorden is voor de gevonden pagina of niet. Voor de wiki hoofdpagina zullen er alleen hoofdniveau trefwoorden zijn. Voor een trefwoordpagina zou het waar zijn voor alle subtrefwoorden van de pagina.'
+  },
   'keyword level' => {
     'lastUpdated' => '1272464196',
     'message' => 'De diepte van het trefwoord.'
+  },
+  'keyword page variables' => {
+    'lastUpdated' => '1273495428',
+    'message' => 'Trefwoordpagina variabelen'
   },
   'keyword title' => {
     'lastUpdated' => '1272464208',
