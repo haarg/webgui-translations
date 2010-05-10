@@ -65,6 +65,10 @@ our $I18N = {
     'lastUpdated' => '1213881010',
     'message' => 'Wie moet ingelicht worden bij nieuwe transacties?'
   },
+  'template gone' => {
+    'lastUpdated' => '1273488753',
+    'message' => 'Het sjabloon voor het invoeren van de gegevens is verwijderd. Informeer altublieft de beheerder.'
+  },
   'try again' => {
     'lastUpdated' => '1218985952',
     'message' => 'Ga terug om het opnieuw te proberen.'

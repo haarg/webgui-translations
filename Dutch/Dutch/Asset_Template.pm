@@ -77,6 +77,14 @@ our $I18N = {
     'lastUpdated' => '1151506214',
     'message' => 'Wijzigen sjabloon'
   },
+  'field storageIdExample' => {
+    'lastUpdated' => '1273488800',
+    'message' => 'Voorbeeldafbeelding'
+  },
+  'field storageIdExample description' => {
+    'lastUpdated' => '1273488844',
+    'message' => 'Een voorbeeldafbeelding die toont hoe het sjabloon eruit ziet voordat het geselecteerd wordt door de gebruiker.'
+  },
   'head block' => {
     'lastUpdated' => '1151654999',
     'message' => 'HEAD blok'

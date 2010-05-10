@@ -474,8 +474,8 @@ our $I18N = {
     'message' => 'Wachtwoord opnieuw opvragen'
   },
   'recover password email text1' => {
-    'lastUpdated' => '1190024840',
-    'message' => 'Uw verzoek om het wachtwoord opnieuw in te stellen is ontvangen'
+    'lastUpdated' => '1272876202',
+    'message' => 'Uw verzoek om het wachtwoord opnieuw in te stellen is ontvangen '
   },
   'recover password email text2' => {
     'lastUpdated' => '1190024797',
