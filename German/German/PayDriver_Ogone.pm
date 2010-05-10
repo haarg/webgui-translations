@@ -5,6 +5,10 @@ our $I18N = {
     'lastUpdated' => '1251900963',
     'message' => 'Ogone'
   },
+  'cart summary template' => {
+    'lastUpdated' => '1273501914',
+    'message' => 'Ogone Warenkorbzusammenfassungs-Template'
+  },
   'choose billing address' => {
     'lastUpdated' => '1251900975',
     'message' => 'Rechnungsadresse auswählen'
@@ -71,6 +75,14 @@ our $I18N = {
   'sha secret help' => {
     'lastUpdated' => '1251901254',
     'message' => 'Die Passphrase, die Sie in Sektion 3.2 der technischen Informationsseite im Ogono-Interface angegeben haben.'
+  },
+  'summary template' => {
+    'lastUpdated' => '1273501872',
+    'message' => 'Zusammenfassungs-Template'
+  },
+  'summary template help' => {
+    'lastUpdated' => '1273501861',
+    'message' => 'Wählen Sie ein Template für die Anzeige der Seite, auf der der Benutzer die Warenkorbzusammenfassung bestätigt und der Bezahlung zustimmt.'
   },
   'use test mode' => {
     'lastUpdated' => '1251901141',

@@ -1,6 +1,10 @@
 package WebGUI::i18n::German::PayDriver_ExpressCheckout;
 use utf8;
 our $I18N = {
+  'Pay' => {
+    'lastUpdated' => '1273501779',
+    'message' => 'Bezahlen'
+  },
   'api' => {
     'lastUpdated' => '1251907979',
     'message' => 'API URL'
@@ -20,6 +24,10 @@ our $I18N = {
   'apiSandbox help' => {
     'lastUpdated' => '1251908031',
     'message' => 'URL für Paypal API im Testmodus'
+  },
+  'cart summary template' => {
+    'lastUpdated' => '1273501815',
+    'message' => 'PayPal Express Checkout Warenkorbzusammenfassungs-Template'
   },
   'currency' => {
     'lastUpdated' => '1251908051',
@@ -72,6 +80,14 @@ our $I18N = {
   'signature help' => {
     'lastUpdated' => '1251908332',
     'message' => 'Signatur für PayPal credentials'
+  },
+  'summary template' => {
+    'lastUpdated' => '1273501833',
+    'message' => 'Zusammenfassungs-Template'
+  },
+  'summary template help' => {
+    'lastUpdated' => '1273501851',
+    'message' => 'Wählen Sie ein Template für die Anzeige der Seite, auf der der Benutzer die Warenkorbzusammenfassung bestätigt und der Bezahlung zustimmt.'
   },
   'testMode' => {
     'lastUpdated' => '1251908340',
