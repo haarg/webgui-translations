@@ -1,6 +1,10 @@
 package WebGUI::i18n::German::PayDriver_Cash;
 use utf8;
 our $I18N = {
+  'Pay' => {
+    'lastUpdated' => '1273501282',
+    'message' => 'Bezahlen'
+  },
   'address' => {
     'lastUpdated' => '1240781768',
     'message' => 'Adresse'
@@ -8,6 +12,10 @@ our $I18N = {
   'cardNumber' => {
     'lastUpdated' => '1240781786',
     'message' => 'Kreditkartennummer'
+  },
+  'cart summary template' => {
+    'lastUpdated' => '1273501322',
+    'message' => 'Barzahlung Warenkorbzusammenfassungs-Template'
   },
   'cash' => {
     'lastUpdated' => '1240782109',
@@ -102,6 +110,10 @@ Wenn "Nein", wird die Transaktion nicht abgeschlossen und muss manuell kompletti
     'lastUpdated' => '1241154888',
     'message' => 'Passwort'
   },
+  'password help' => {
+    'lastUpdated' => '1273501356',
+    'message' => 'Das Passwort für Ihren iTransact-Account.'
+  },
   'payment method' => {
     'lastUpdated' => '1241154902',
     'message' => 'Zahlungsart'
@@ -113,6 +125,14 @@ Wenn "Nein", wird die Transaktion nicht abgeschlossen und muss manuell kompletti
   'state' => {
     'lastUpdated' => '1241154923',
     'message' => 'Land'
+  },
+  'summary template' => {
+    'lastUpdated' => '1273501376',
+    'message' => 'Zusammenfassungs-Template'
+  },
+  'summary template help' => {
+    'lastUpdated' => '1273501437',
+    'message' => 'Wählen Sie ein Template für die Anzeige der Seite, auf der der Benutzer die Warenkorbzusammenfassung bestätigt und der Bezahlung zustimmt.'
   },
   'use cvv2' => {
     'lastUpdated' => '1241155229',

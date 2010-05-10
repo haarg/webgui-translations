@@ -5,13 +5,21 @@ our $I18N = {
     'lastUpdated' => '1240780661',
     'message' => 'Ein Verkauf wurde getätigt. Bestell-Nr: '
   },
+  'cart summary variables' => {
+    'lastUpdated' => '1273500925',
+    'message' => 'Warenkorbzusammenfassung - Variablen'
+  },
+  'cart summary variables help' => {
+    'lastUpdated' => '1273500994',
+    'message' => 'Diese Variablen sind in allen PayDriver Templates verfügbar, um die Warenkorbzusammenfassung anzuzeigen.'
+  },
   'credit card' => {
     'lastUpdated' => '1234737231',
     'message' => 'Kreditkarte'
   },
   'email receipt template' => {
-    'lastUpdated' => '1241166175',
-    'message' => 'Vorlage Email Auftragbestätigung/Rechnung'
+    'lastUpdated' => '1273501006',
+    'message' => 'Vorlage E-Mail Auftragbestätigung/Rechnung'
   },
   'email receipt template help' => {
     'lastUpdated' => '1241166199',
@@ -49,6 +57,10 @@ Sollten die Fehler nicht behoben werden können, kontaktieren Sie uns bitte.'
     'lastUpdated' => '1241616177',
     'message' => 'Zahlungsart'
   },
+  'proceedButton' => {
+    'lastUpdated' => '1273501134',
+    'message' => 'Eine Button-Formular-Kombination die der Nutzer anklickt, wenn er die Rechnungsbeträge geprüft hat, die an dieses Bezahl-Gateway übermittelt werden.'
+  },
   'receipt email template' => {
     'lastUpdated' => '1241166137',
     'message' => 'Vorlage Emailbeleg (Auftragsbestätigung/Rechnung)'
@@ -68,6 +80,10 @@ Sollten die Fehler nicht behoben werden können, kontaktieren Sie uns bitte.'
   'sale notification group help' => {
     'lastUpdated' => '1241156157',
     'message' => 'Wer soll informiert werden über neue Transaktionen?'
+  },
+  'template gone' => {
+    'lastUpdated' => '1273501265',
+    'message' => 'Das Template zur Eingabe der Zugangsdaten wurde gelöscht, bitte benachrichtigen Sie den Administrator.'
   },
   'try again' => {
     'lastUpdated' => '1241156178',
