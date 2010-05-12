@@ -17,6 +17,10 @@ our $I18N = {
     'lastUpdated' => '1228748625',
     'message' => 'Storniert'
   },
+  'Choose a payment gateway and update the cart to checkout' => {
+    'lastUpdated' => '1273649689',
+    'message' => 'Wählen Sie eine Zahlungsart und aktualisieren den Warenkorb um zu bezahlen.'
+  },
   'Choose a payment method' => {
     'lastUpdated' => '1273049180',
     'message' => 'Wählen Sie eine Zahlungsart'
@@ -72,6 +76,10 @@ our $I18N = {
   'Success' => {
     'lastUpdated' => '1256112683',
     'message' => 'Erfolg'
+  },
+  'Update %s' => {
+    'lastUpdated' => '1273649715',
+    'message' => 'Aktualisiere Adresse: %s'
   },
   'Update this address' => {
     'lastUpdated' => '1273049227',
@@ -172,6 +180,42 @@ our $I18N = {
   'available' => {
     'lastUpdated' => '1228749136',
     'message' => 'Verfügbar'
+  },
+  'billing address1' => {
+    'lastUpdated' => '1273649756',
+    'message' => 'Bitte geben Sie eine Straße für die Rechnungsadresse an.'
+  },
+  'billing city' => {
+    'lastUpdated' => '1273649770',
+    'message' => 'Bitte geben Sie einen Ort für die Rechnungsadresse an.'
+  },
+  'billing code' => {
+    'lastUpdated' => '1273649784',
+    'message' => 'Bitte geben Sie eine Postleitzahl für die Rechnungsadresse an.'
+  },
+  'billing country' => {
+    'lastUpdated' => '1273649795',
+    'message' => 'Bitte geben Sie einen Land für die Rechnungsadresse an.'
+  },
+  'billing firstName' => {
+    'lastUpdated' => '1273649808',
+    'message' => 'Bitte geben Sie den Vornamen für die Rechnungsadresse an.'
+  },
+  'billing label' => {
+    'lastUpdated' => '1273649825',
+    'message' => 'Bitte geben Sie eine Bezeichnung für die Rechnungsadresse an.'
+  },
+  'billing lastName' => {
+    'lastUpdated' => '1273649837',
+    'message' => 'Bitte geben Sie einen Nachnamen für die Rechnungsadresse an.'
+  },
+  'billing phoneNumber' => {
+    'lastUpdated' => '1273649850',
+    'message' => 'Bitte geben Sie eine Telefonnummer für die Rechnungsadresse an.'
+  },
+  'billing state' => {
+    'lastUpdated' => '1273649880',
+    'message' => 'Bitte geben Sie Bundesland/Bezirk für die Rechnungsadresse an.'
   },
   'biweekly' => {
     'lastUpdated' => '1228749149',
@@ -292,6 +336,10 @@ our $I18N = {
   'coupon' => {
     'lastUpdated' => '1240756464',
     'message' => 'Coupon'
+  },
+  'current credit message' => {
+    'lastUpdated' => '1273649900',
+    'message' => '%s hat einen Gesamtkredit über %s.'
   },
   'date' => {
     'lastUpdated' => '1228174772',
@@ -621,6 +669,14 @@ Eine Liste mit jeder einzelnen Transaktion statt der komplette Transaktionsliste
     'lastUpdated' => '1241190235',
     'message' => 'Name Ansprechpartner zu dieser Adresse'
   },
+  'no billing address' => {
+    'lastUpdated' => '1273649936',
+    'message' => 'Bitte geben Sie eine Rechnungsadresse an oder wählen eine der gespeicherten aus.'
+  },
+  'no shipping address' => {
+    'lastUpdated' => '1273649972',
+    'message' => 'Bitte geben Sie eine Versandadresse an oder wählen eine der gespeicherten aus.'
+  },
   'not applicable' => {
     'lastUpdated' => '1240758618',
     'message' => 'entfällt'
@@ -862,9 +918,37 @@ Eine Liste mit jeder einzelnen Transaktion statt der komplette Transaktionsliste
     'lastUpdated' => '1240496261',
     'message' => 'Versandadresse'
   },
+  'shipping address1' => {
+    'lastUpdated' => '1273650016',
+    'message' => 'Bitte geben Sie eine Straße für die Versandadresse an.'
+  },
   'shipping amount' => {
     'lastUpdated' => '1240756055',
     'message' => 'Versandmenge'
+  },
+  'shipping city' => {
+    'lastUpdated' => '1273650026',
+    'message' => 'Bitte geben Sie einen Ort für die Versandadresse an.'
+  },
+  'shipping code' => {
+    'lastUpdated' => '1273650036',
+    'message' => 'Bitte geben Sie eine Postleitzahl für die Versandadresse an.'
+  },
+  'shipping country' => {
+    'lastUpdated' => '1273650046',
+    'message' => 'Bitte geben Sie ein Land für die Versandadresse an.'
+  },
+  'shipping firstName' => {
+    'lastUpdated' => '1273650058',
+    'message' => 'Bitte geben Sie einen Vornamen für die Versandadresse an.'
+  },
+  'shipping label' => {
+    'lastUpdated' => '1273650069',
+    'message' => 'Bitte geben Sie eine Bezeichnung für die Versandadresse an.'
+  },
+  'shipping lastName' => {
+    'lastUpdated' => '1273650081',
+    'message' => 'Bitte geben Sie einen Nachnamen für die Versandadresse an.'
   },
   'shipping method' => {
     'lastUpdated' => '1240756093',
@@ -873,6 +957,14 @@ Eine Liste mit jeder einzelnen Transaktion statt der komplette Transaktionsliste
   'shipping methods' => {
     'lastUpdated' => '1241297972',
     'message' => 'Versandart'
+  },
+  'shipping phoneNumber' => {
+    'lastUpdated' => '1273650091',
+    'message' => 'Bitte geben Sie eine Telefonnummer für die Versandadresse an.'
+  },
+  'shipping state' => {
+    'lastUpdated' => '1273650108',
+    'message' => 'Bitte geben Sie Bundesland/Bezirk für die Versandadresse an.'
   },
   'shippingAddress help' => {
     'lastUpdated' => '1241167020',
