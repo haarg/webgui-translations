@@ -1,6 +1,10 @@
 package WebGUI::i18n::Dutch::PayDriver_ExpressCheckout;
 use utf8;
 our $I18N = {
+  'Pay' => {
+    'lastUpdated' => '1273498410',
+    'message' => 'Betalen'
+  },
   'api' => {
     'lastUpdated' => '1248970141',
     'message' => 'API URL'
@@ -20,6 +24,10 @@ our $I18N = {
   'apiSandbox help' => {
     'lastUpdated' => '1248970215',
     'message' => 'URL voor PayPal API in test modus'
+  },
+  'cart summary template' => {
+    'lastUpdated' => '1274107776',
+    'message' => 'Winkelwagensamenvattingssjabloon variabelen'
   },
   'currency' => {
     'lastUpdated' => '1248970222',
@@ -72,6 +80,14 @@ our $I18N = {
   'signature help' => {
     'lastUpdated' => '1248970403',
     'message' => 'De handtekening van de PayPal account'
+  },
+  'summary template' => {
+    'lastUpdated' => '1274107731',
+    'message' => 'Samenvattingssjabloon'
+  },
+  'summary template help' => {
+    'lastUpdated' => '1274107710',
+    'message' => 'Kies een sjabloon voor het scherm waar de gebruiker de winkelwagen bevestigd en accoord gaat met de betaling.'
   },
   'testMode' => {
     'lastUpdated' => '1248970417',

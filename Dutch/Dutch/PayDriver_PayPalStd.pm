@@ -17,6 +17,10 @@ our $I18N = {
     'lastUpdated' => '1242736283',
     'message' => 'Selecteer deze optie om gebruik te maken van de afbeeldingen van PayPal voor de betaalknoppen'
   },
+  'cart summary template' => {
+    'lastUpdated' => '1274107783',
+    'message' => 'Winkelwagensamenvattingssjabloon variabelen'
+  },
   'cart transaction mismatch' => {
     'lastUpdated' => '1248970585',
     'message' => 'Fout ontdekt in gegevens winkelwagen. Dit incident wordt gerappporteerd.'
@@ -121,6 +125,14 @@ U kunt ook nog de "Return URL" aanpassen naar:'
   'signature help' => {
     'lastUpdated' => '1242737260',
     'message' => 'De profiel handtekening voor uw PayPal account'
+  },
+  'summary template' => {
+    'lastUpdated' => '1274107747',
+    'message' => 'Samenvattingssjabloon'
+  },
+  'summary template help' => {
+    'lastUpdated' => '1274107702',
+    'message' => 'Kies een sjabloon voor het scherm waar de gebruiker de winkelwagen bevestigd en accoord gaat met de betaling.'
   },
   'use sandbox' => {
     'lastUpdated' => '1242737281',

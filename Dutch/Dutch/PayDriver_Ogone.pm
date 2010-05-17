@@ -5,6 +5,10 @@ our $I18N = {
     'lastUpdated' => '1247058389',
     'message' => 'Ogone'
   },
+  'cart summary template' => {
+    'lastUpdated' => '1273499793',
+    'message' => 'Ogone samenvattingssjabloon'
+  },
   'choose billing address' => {
     'lastUpdated' => '1247058644',
     'message' => 'Kies factuuradres'
@@ -69,6 +73,14 @@ our $I18N = {
   'sha secret help' => {
     'lastUpdated' => '1248175215',
     'message' => 'De ingestelde sleutel van sectie 3.2 in de technische informatie pagina van de Ogone interface.'
+  },
+  'summary template' => {
+    'lastUpdated' => '1274107740',
+    'message' => 'Samenvattingssjabloon'
+  },
+  'summary template help' => {
+    'lastUpdated' => '1274107691',
+    'message' => 'Kies een sjabloon voor het scherm waar de gebruiker de winkelwagen bevestigd en accoord gaat met de betaling.'
   },
   'use test mode' => {
     'lastUpdated' => '1248175259',

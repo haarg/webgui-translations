@@ -5,6 +5,14 @@ our $I18N = {
     'lastUpdated' => '1239870803',
     'message' => 'Er is een aankoop gedaan. Bestelling #'
   },
+  'cart summary variables' => {
+    'lastUpdated' => '1273495572',
+    'message' => 'Winkelwagensamenvatting variabelen'
+  },
+  'cart summary variables help' => {
+    'lastUpdated' => '1273497334',
+    'message' => 'Deze variabelen moeten beschikbaar zijn in alle sjablonen van betalingsmethoden, zodat de samenvatiing van de winkelwagen aan de gebruiker getoond kan worden.'
+  },
   'credit card' => {
     'lastUpdated' => '1216587041',
     'message' => 'Creditcard'
@@ -44,6 +52,10 @@ our $I18N = {
   'payment methods' => {
     'lastUpdated' => '1213880915',
     'message' => 'Betalingsmethoden'
+  },
+  'proceedButton' => {
+    'lastUpdated' => '1273495692',
+    'message' => 'Een gecombineerde knop met formulier waar de gebruiker op kan drukken wanneer ze de kosten van de betalingsmethode hebben kunnen bekijken.'
   },
   'receipt email template' => {
     'lastUpdated' => '1213880941',
