@@ -1,13 +1,29 @@
 package WebGUI::i18n::Dutch::Shop;
 use utf8;
 our $I18N = {
+  'Add new address' => {
+    'lastUpdated' => '1274107814',
+    'message' => 'Voeg een adres toe'
+  },
   'Backordered' => {
     'lastUpdated' => '1216732041',
     'message' => 'Niet voorradig'
   },
+  'Billing Address' => {
+    'lastUpdated' => '1274107823',
+    'message' => 'Factuuradres'
+  },
   'Cancelled' => {
     'lastUpdated' => '1213631836',
     'message' => 'Geannuleerd'
+  },
+  'Choose a payment gateway and update the cart to checkout' => {
+    'lastUpdated' => '1274107971',
+    'message' => 'Kies een betalingsmethode en vernieuw om af te rekenen.'
+  },
+  'Choose a payment method' => {
+    'lastUpdated' => '1274107835',
+    'message' => 'Kies een betalingsmethode'
   },
   'Choose a shipping method' => {
     'lastUpdated' => '1254902568',
@@ -45,6 +61,14 @@ our $I18N = {
     'lastUpdated' => '1213968499',
     'message' => 'Verzonden'
   },
+  'Shipping Address' => {
+    'lastUpdated' => '1274108018',
+    'message' => 'Verzendadres'
+  },
+  'Special shipping' => {
+    'lastUpdated' => '1274108029',
+    'message' => 'Speciaal verzenden'
+  },
   'Status' => {
     'lastUpdated' => '1256112991',
     'message' => 'Status'
@@ -52,6 +76,10 @@ our $I18N = {
   'Success' => {
     'lastUpdated' => '1256112997',
     'message' => 'Succes'
+  },
+  'Update %s' => {
+    'lastUpdated' => '1274108054',
+    'message' => 'Adres bijwerken: %s'
   },
   'add a new address' => {
     'lastUpdated' => '1213631850',
@@ -148,6 +176,42 @@ our $I18N = {
   'available' => {
     'lastUpdated' => '1213631824',
     'message' => 'Beschikbaar'
+  },
+  'billing address1' => {
+    'lastUpdated' => '1274108180',
+    'message' => 'Vul de straatnaam en huisnummer van het factuuradres in.'
+  },
+  'billing city' => {
+    'lastUpdated' => '1274108110',
+    'message' => 'Kies de stad voor het factuuradres.'
+  },
+  'billing code' => {
+    'lastUpdated' => '1274108149',
+    'message' => 'Vul de postcode in voor het factuuradres.'
+  },
+  'billing country' => {
+    'lastUpdated' => '1274108143',
+    'message' => 'Vul het land in voor het factuuradres.'
+  },
+  'billing firstName' => {
+    'lastUpdated' => '1274108200',
+    'message' => 'Vul de voornaam in voor het factuuradres.'
+  },
+  'billing label' => {
+    'lastUpdated' => '1274108217',
+    'message' => 'Vul een referentie in voor het factuuradres.'
+  },
+  'billing lastName' => {
+    'lastUpdated' => '1274108228',
+    'message' => 'Vul de achternaam in voor het factuuradres.'
+  },
+  'billing phoneNumber' => {
+    'lastUpdated' => '1274108244',
+    'message' => 'Vul het telefoonnummer in voor het factuuradres.'
+  },
+  'billing state' => {
+    'lastUpdated' => '1274108258',
+    'message' => 'Vul de staat of provincie in voor het factuuradres.'
   },
   'biweekly' => {
     'lastUpdated' => '1213968466',
@@ -268,6 +332,10 @@ our $I18N = {
   'coupon' => {
     'lastUpdated' => '1213968481',
     'message' => 'Kortingsbon'
+  },
+  'current credit message' => {
+    'lastUpdated' => '1274108279',
+    'message' => '%s heeft een krediet van %s.'
   },
   'date' => {
     'lastUpdated' => '1213631807',
