@@ -673,6 +673,14 @@ our $I18N = {
     'lastUpdated' => '1216734839',
     'message' => 'De naam van de persoon op dit adres.'
   },
+  'no billing address' => {
+    'lastUpdated' => '1274108435',
+    'message' => 'Vul alstublieft een factuuradres in, of kies een adres.'
+  },
+  'no shipping address' => {
+    'lastUpdated' => '1274108451',
+    'message' => 'Vul alstublieft een verzendadres in, of kies een adres.'
+  },
   'not applicable' => {
     'lastUpdated' => '1216734853',
     'message' => 'Niet toepasbaar'
@@ -901,6 +909,10 @@ our $I18N = {
     'lastUpdated' => '1216732513',
     'message' => 'Doet hetzelfde als de chooseShippingButton.'
   },
+  'shippableItemsInCart' => {
+    'lastUpdated' => '1274108499',
+    'message' => 'Een functie die waar is als er minimaal een object in de winkelwagen zit, dat verzonden moet worden.'
+  },
   'shipping' => {
     'lastUpdated' => '1215446672',
     'message' => 'Verzenden'
@@ -909,9 +921,37 @@ our $I18N = {
     'lastUpdated' => '1215446683',
     'message' => 'Verzend adres'
   },
+  'shipping address1' => {
+    'lastUpdated' => '1274108529',
+    'message' => 'Vul aub een straatnaam en huisnummer in voor het verzendadres.'
+  },
   'shipping amount' => {
     'lastUpdated' => '1216652012',
     'message' => 'Hoeveelheid te verzenden'
+  },
+  'shipping city' => {
+    'lastUpdated' => '1274108540',
+    'message' => 'Vul aub de stad in voor het verzendadres.'
+  },
+  'shipping code' => {
+    'lastUpdated' => '1274108552',
+    'message' => 'Vul aub de postcode in voor het verzendadres.'
+  },
+  'shipping country' => {
+    'lastUpdated' => '1274108561',
+    'message' => 'Vul aub het land in voor het verzendadres.'
+  },
+  'shipping firstName' => {
+    'lastUpdated' => '1274108570',
+    'message' => 'Vul aub de voornaam in voor het verzendadres.'
+  },
+  'shipping label' => {
+    'lastUpdated' => '1274108582',
+    'message' => 'Vul aub de referentie in voor het verzendadres.'
+  },
+  'shipping lastName' => {
+    'lastUpdated' => '1274108591',
+    'message' => 'Vul aub de achternaam in voor het verzendadres.'
   },
   'shipping method' => {
     'lastUpdated' => '1215446585',
@@ -920,6 +960,14 @@ our $I18N = {
   'shipping methods' => {
     'lastUpdated' => '1215446574',
     'message' => 'Verzend methodes'
+  },
+  'shipping phoneNumber' => {
+    'lastUpdated' => '1274108603',
+    'message' => 'Vul aub het telefoonnummer in voor het verzendadres.'
+  },
+  'shipping state' => {
+    'lastUpdated' => '1274108616',
+    'message' => 'Vul aub de staat of provincie in voor het verzendadres.'
   },
   'shippingAddress help' => {
     'lastUpdated' => '1215446749',
@@ -1104,6 +1152,10 @@ our $I18N = {
   'updateButton help' => {
     'lastUpdated' => '1216734075',
     'message' => 'Door op deze knop te drukken worden de veranderingen die aan de winkelwagen gedaan zijn toegepast en de prijzen worden herberekend.'
+  },
+  'use same shipping as billing' => {
+    'lastUpdated' => '1274108657',
+    'message' => 'Gebruik het verzendadres als factuuradres.'
   },
   'use this address' => {
     'lastUpdated' => '1216734084',
