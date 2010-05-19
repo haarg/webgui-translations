@@ -185,6 +185,10 @@ our $I18N = {
     'lastUpdated' => undef,
     'message' => ''
   },
+  'feed order' => {
+    'lastUpdated' => '1274268779',
+    'message' => 'Feed-Sortierung'
+  },
   'get syndicated content' => {
     'lastUpdated' => '1252272404',
     'message' => 'Syndizierten Inhalt holen'
@@ -233,6 +237,10 @@ eingeben, zeigt das Syndizierte Inhalte Weboject Meldungen aus allen aggregierte
     'lastUpdated' => undef,
     'message' => ''
   },
+  'no order' => {
+    'lastUpdated' => '1274268797',
+    'message' => 'Keine Sortierung'
+  },
   'process macros in rss url' => {
     'lastUpdated' => '1252274270',
     'message' => 'Makros in RSS URLs ausführen'
@@ -244,6 +252,14 @@ eingeben, zeigt das Syndizierte Inhalte Weboject Meldungen aus allen aggregierte
   'processMacrosInRssUrl' => {
     'lastUpdated' => '1252274394',
     'message' => 'Eine Bedingung die anzeigt, ob in diesem Asset Makros im RSS URL-Feld ausgeführt werden. '
+  },
+  'publication date ascending' => {
+    'lastUpdated' => '1274268820',
+    'message' => 'Veröffentlichungsdatum (ältestes zuerst)'
+  },
+  'publication date descending' => {
+    'lastUpdated' => '1274268831',
+    'message' => 'Veröffentlichungsdatum (neuestes zuerst)'
   },
   'rdf_url' => {
     'lastUpdated' => '1252274442',
