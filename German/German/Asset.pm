@@ -205,6 +205,10 @@ our $I18N = {
     'lastUpdated' => '1223575321',
     'message' => 'Kopieren'
   },
+  'Copy Assets' => {
+    'lastUpdated' => '1274268117',
+    'message' => 'Kopiere Assets'
+  },
   'Data Type description' => {
     'lastUpdated' => '1170453634',
     'message' => '<p>Wählen Sie die Art des Formularelements für dieses Feld aus.</p>'
