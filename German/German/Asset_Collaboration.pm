@@ -13,6 +13,14 @@ our $I18N = {
     'lastUpdated' => '1234737736',
     'message' => 'Alle Links anzeigen'
   },
+  'Unsubscribe from %s' => {
+    'lastUpdated' => '1274268200',
+    'message' => 'Abbestellen von %s'
+  },
+  'You have been unsubscribed' => {
+    'lastUpdated' => '1274268216',
+    'message' => 'Ihr Abo wurde abbestellt.'
+  },
   'add' => {
     'lastUpdated' => '1157903572',
     'message' => 'Hinzufügen'
@@ -217,6 +225,10 @@ our $I18N = {
   'collaboration template title' => {
     'lastUpdated' => '1179751009',
     'message' => 'Collaboration Template'
+  },
+  'collaboration unsubscribe template title' => {
+    'lastUpdated' => '1274268285',
+    'message' => 'Collaboration System Abbestellen-Template'
   },
   'collaborationAssetId' => {
     'lastUpdated' => '1179751085',
@@ -798,6 +810,10 @@ our $I18N = {
     'lastUpdated' => '1236959376',
     'message' => 'Nächster'
   },
+  'no user email error message' => {
+    'lastUpdated' => '1274268311',
+    'message' => 'Es konnte keine Benutzer mit dieser E-Mailadresse gefunden werden.'
+  },
   'notification template' => {
     'lastUpdated' => '1179755715',
     'message' => 'Collaboration System, Benachrichtung Template'
@@ -1254,6 +1270,38 @@ our $I18N = {
   'unsubscribe' => {
     'lastUpdated' => '1179819803',
     'message' => 'Abbestellen'
+  },
+  'unsubscribe formEmail' => {
+    'lastUpdated' => '1274268349',
+    'message' => 'Ein Textformular mit E-Mail-Vervollständigung.'
+  },
+  'unsubscribe formFooter' => {
+    'lastUpdated' => '1274268386',
+    'message' => 'HTML-Code der das Abbestellen-Formular zu beendet.'
+  },
+  'unsubscribe formHeader' => {
+    'lastUpdated' => '1274268407',
+    'message' => 'HTML-Code der das Abbestellen-Formular einleitet.'
+  },
+  'unsubscribe formMessage' => {
+    'lastUpdated' => '1274268448',
+    'message' => 'Internationalisierte Nachrichten an den Benutzer über Fehler oder Erfolg.'
+  },
+  'unsubscribe formSubmit' => {
+    'lastUpdated' => '1274268466',
+    'message' => 'Ein Button um das Formular abzusenden'
+  },
+  'unsubscribe instructions' => {
+    'lastUpdated' => '1274268501',
+    'message' => 'Bitte geben Sie die E-Mail-Adresse den Benutzers ein, der abbestellen möchte.'
+  },
+  'unsubscribe template' => {
+    'lastUpdated' => '1274268514',
+    'message' => 'Abbestellen-Template'
+  },
+  'unsubscribe template hoverHelp' => {
+    'lastUpdated' => '1274268596',
+    'message' => 'Wählen Sie ein Template um einem nicht eingeloggten Benutzer dabei zu helfen,ein CS oder einen Thread abzubestellen.'
   },
   'unsubscribe.label' => {
     'lastUpdated' => '1236959420',
