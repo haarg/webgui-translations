@@ -2690,6 +2690,14 @@ Kopieren Sie ggf. Dateien und fügen Sie diese in den Editor ein.'
     'lastUpdated' => '1178624705',
     'message' => 'Pakete'
   },
+  'page builder body' => {
+    'lastUpdated' => '1274268924',
+    'message' => 'Möchten Sie den Page Builder nutzen um einen Standardsatz an Seiten auszuwählen, die in Ihre Website aufgenommen werden sollen (z.B. Über uns oder Diskussionsforum)'
+  },
+  'page builder title' => {
+    'lastUpdated' => '1274268937',
+    'message' => 'Page Builder'
+  },
   'page statistics' => {
     'lastUpdated' => '1178624755',
     'message' => 'Seitenstatistik'
@@ -2821,6 +2829,14 @@ Kopieren Sie ggf. Dateien und fügen Sie diese in den Editor ein.'
   'photo' => {
     'lastUpdated' => '1178624935',
     'message' => 'Foto'
+  },
+  'pick style' => {
+    'lastUpdated' => '1274268954',
+    'message' => 'Design auswählen'
+  },
+  'pick style description' => {
+    'lastUpdated' => '1274269044',
+    'message' => 'Wählen Sie ein Design aus, das auf ihre Site angewandt werden soll. Alles Designs werden aus Templates generiert, auf die Sie von ihrer Site aus Zugriff haben, so dass Sie diese später auch noch weiter bearbeiten können. '
   },
   'preferences short' => {
     'lastUpdated' => '1228684544',
