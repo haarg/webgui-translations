@@ -45,9 +45,29 @@ our $I18N = {
     'lastUpdated' => '1229104725',
     'message' => 'Stichwörter'
   },
+  'addArchive location' => {
+    'lastUpdated' => '1274268629',
+    'message' => 'Ort'
+  },
   'addArchive message' => {
     'lastUpdated' => '1229372718',
     'message' => 'Ihre Dateien wurden für die Freigabe und Veröffentlichung eingereicht. <a href="%s">Zurück zum Album</a>'
+  },
+  'addArchive sortBy' => {
+    'lastUpdated' => '1274268639',
+    'message' => 'Sortieren nach'
+  },
+  'addArchive sortBy date' => {
+    'lastUpdated' => '1274268646',
+    'message' => 'Datum'
+  },
+  'addArchive sortBy fileOrder' => {
+    'lastUpdated' => '1274268663',
+    'message' => 'Dateireihenfolge'
+  },
+  'addArchive sortBy name' => {
+    'lastUpdated' => '1274268671',
+    'message' => 'Name'
   },
   'assetName' => {
     'lastUpdated' => '1229109426',
@@ -217,6 +237,10 @@ our $I18N = {
     'lastUpdated' => '1229373174',
     'message' => 'Stichwörter für die hochzuladende Datei.'
   },
+  'helpvar form_location' => {
+    'lastUpdated' => '1274268704',
+    'message' => 'Der Ort der hochzuladenden Dateien.'
+  },
   'helpvar form_promote' => {
     'lastUpdated' => '1229105278',
     'message' => 'Eine Schaltfläche, um das Bild in der Reihenfolge nach oben zu bewegen. Benutzen Sie diese, um die Anordnung der Bilder zu ändern.'
@@ -228,6 +252,10 @@ our $I18N = {
   'helpvar form_rotateRight' => {
     'lastUpdated' => '1271833956',
     'message' => 'Ein Button, um das Bild um 90° im Uhrzeigersinn zu drehen.'
+  },
+  'helpvar form_sortBy' => {
+    'lastUpdated' => '1274268732',
+    'message' => 'Eigenschaft nach der Fotos sortiert werden sollen.'
   },
   'helpvar form_start' => {
     'lastUpdated' => '1201603314',
