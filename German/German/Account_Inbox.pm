@@ -550,8 +550,8 @@ our $I18N = {
     'message' => 'Freundschaftsanfrage zurückgewiesen'
   },
   'send reject notice help' => {
-    'lastUpdated' => '1274268091',
-    'message' => 'Wähle ob nach Zurückweisung einer Freundschaftsanfrage eine Nachricht an den zurückgewiesenen Benutzer gesandt werden soll.'
+    'lastUpdated' => '1274970731',
+    'message' => 'Wähle, ob nach Zurückweisung einer Freundschaftsanfrage eine Nachricht an den zurückgewiesenen Benutzer gesandt werden soll.'
   },
   'status' => {
     'lastUpdated' => '1235679181',

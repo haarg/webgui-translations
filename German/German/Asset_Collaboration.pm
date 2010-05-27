@@ -811,8 +811,8 @@ our $I18N = {
     'message' => 'Nächster'
   },
   'no user email error message' => {
-    'lastUpdated' => '1274268311',
-    'message' => 'Es konnte keine Benutzer mit dieser E-Mailadresse gefunden werden.'
+    'lastUpdated' => '1274970687',
+    'message' => 'Es konnte kein Benutzer mit dieser E-Mailadresse gefunden werden.'
   },
   'notification template' => {
     'lastUpdated' => '1179755715',
@@ -1276,32 +1276,32 @@ our $I18N = {
     'message' => 'Ein Textformular mit E-Mail-Vervollständigung.'
   },
   'unsubscribe formFooter' => {
-    'lastUpdated' => '1274268386',
-    'message' => 'HTML-Code der das Abbestellen-Formular zu beendet.'
+    'lastUpdated' => '1274970800',
+    'message' => 'HTML-Code, der das Abbestellen-Formular beendet.'
   },
   'unsubscribe formHeader' => {
-    'lastUpdated' => '1274268407',
-    'message' => 'HTML-Code der das Abbestellen-Formular einleitet.'
+    'lastUpdated' => '1274970810',
+    'message' => 'HTML-Code, der das Abbestellen-Formular einleitet.'
   },
   'unsubscribe formMessage' => {
     'lastUpdated' => '1274268448',
     'message' => 'Internationalisierte Nachrichten an den Benutzer über Fehler oder Erfolg.'
   },
   'unsubscribe formSubmit' => {
-    'lastUpdated' => '1274268466',
-    'message' => 'Ein Button um das Formular abzusenden'
+    'lastUpdated' => '1274970833',
+    'message' => 'Ein Button, um das Formular abzusenden.'
   },
   'unsubscribe instructions' => {
-    'lastUpdated' => '1274268501',
-    'message' => 'Bitte geben Sie die E-Mail-Adresse den Benutzers ein, der abbestellen möchte.'
+    'lastUpdated' => '1274970855',
+    'message' => 'Bitte geben Sie die E-Mail-Adresse des Benutzers ein, der abbestellen möchte.'
   },
   'unsubscribe template' => {
     'lastUpdated' => '1274268514',
     'message' => 'Abbestellen-Template'
   },
   'unsubscribe template hoverHelp' => {
-    'lastUpdated' => '1274268596',
-    'message' => 'Wählen Sie ein Template um einem nicht eingeloggten Benutzer dabei zu helfen,ein CS oder einen Thread abzubestellen.'
+    'lastUpdated' => '1274970901',
+    'message' => 'Wählen Sie ein Template, um einem nicht eingeloggten Benutzer dabei zu helfen, ein CS oder einen Thread darin abzubestellen.'
   },
   'unsubscribe.label' => {
     'lastUpdated' => '1236959420',

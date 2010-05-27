@@ -2691,8 +2691,8 @@ Kopieren Sie ggf. Dateien und fügen Sie diese in den Editor ein.'
     'message' => 'Pakete'
   },
   'page builder body' => {
-    'lastUpdated' => '1274268924',
-    'message' => 'Möchten Sie den Page Builder nutzen um einen Standardsatz an Seiten auszuwählen, die in Ihre Website aufgenommen werden sollen (z.B. Über uns oder Diskussionsforum)'
+    'lastUpdated' => '1274970956',
+    'message' => 'Möchten Sie den Page Builder benutzen, um einen Standardsatz an Seiten auszuwählen, die in Ihre Website aufgenommen werden sollen (z.B. Über uns oder Diskussionsforum)'
   },
   'page builder title' => {
     'lastUpdated' => '1274268937',
