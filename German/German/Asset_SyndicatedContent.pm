@@ -126,48 +126,48 @@ our $I18N = {
     'message' => 'Beschreibung des Inhalts. Wenn Sie nach Ausdrücken filtern, wird dieses Feld auch ausgewertet.'
   },
   'descriptionFirst100words' => {
-    'lastUpdated' => '1252272046',
-    'message' => 'Die ersten 100 Worte der Beschreibung.'
+    'lastUpdated' => '1275485175',
+    'message' => 'Die ersten 100 Worte der Beschreibung, alle HTML-Tags entfernt.'
   },
   'descriptionFirst10words' => {
-    'lastUpdated' => '1252272098',
-    'message' => 'Die ersten 10 Worte der Beschreibung.'
+    'lastUpdated' => '1275485182',
+    'message' => 'Die ersten 10 Worte der Beschreibung, alle HTML-Tags entfernt.'
   },
   'descriptionFirst25words' => {
-    'lastUpdated' => '1252272088',
-    'message' => 'Die ersten 25 Worte der Beschreibung.'
+    'lastUpdated' => '1275485188',
+    'message' => 'Die ersten 25 Worte der Beschreibung, alle HTML-Tags entfernt.'
   },
   'descriptionFirst2paragraphs' => {
-    'lastUpdated' => '1252272111',
-    'message' => 'Die ersten 2 Absätze der Beschreibung.'
+    'lastUpdated' => '1275485233',
+    'message' => 'Die ersten 2 Absätze der Beschreibung, alle HTML-Tags entfernt.'
   },
   'descriptionFirst2sentences' => {
-    'lastUpdated' => '1252272129',
-    'message' => 'Die ersten 2 Sätze der Beschreibung.'
+    'lastUpdated' => '1275485194',
+    'message' => 'Die ersten 2 Sätze der Beschreibung, alle HTML-Tags entfernt.'
   },
   'descriptionFirst3sentences' => {
-    'lastUpdated' => '1252272136',
-    'message' => 'Die ersten 3 Sätze der Beschreibung.'
+    'lastUpdated' => '1275485200',
+    'message' => 'Die ersten 3 Sätze der Beschreibung, alle HTML-Tags entfernt.'
   },
   'descriptionFirst4sentences' => {
-    'lastUpdated' => '1252272145',
-    'message' => 'Die ersten 4 Sätze der Beschreibung.'
+    'lastUpdated' => '1275485206',
+    'message' => 'Die ersten 4 Sätze der Beschreibung, alle HTML-Tags entfernt.'
   },
   'descriptionFirst50words' => {
-    'lastUpdated' => '1252272160',
-    'message' => 'Die ersten 50 Worte der Beschreibung.'
+    'lastUpdated' => '1275485210',
+    'message' => 'Die ersten 50 Worte der Beschreibung, alle HTML-Tags entfernt.'
   },
   'descriptionFirst75words' => {
-    'lastUpdated' => '1252272168',
-    'message' => 'Die ersten 75 Worte der Beschreibung.'
+    'lastUpdated' => '1275485215',
+    'message' => 'Die ersten 75 Worte der Beschreibung, alle HTML-Tags entfernt.'
   },
   'descriptionFirstParagraph' => {
-    'lastUpdated' => '1252272192',
-    'message' => 'Der erste Absatz der Beschreibung.'
+    'lastUpdated' => '1275485227',
+    'message' => 'Der erste Absatz der Beschreibung, alle HTML-Tags entfernt.'
   },
   'descriptionFirstSentence' => {
-    'lastUpdated' => '1252272207',
-    'message' => 'Der erste Satz der Beschreibung.'
+    'lastUpdated' => '1275485220',
+    'message' => 'Der erste Satz der Beschreibung, alle HTML-Tags entfernt.'
   },
   'displayMode' => {
     'lastUpdated' => '1252272389',
