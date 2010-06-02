@@ -2702,6 +2702,14 @@ LongTruncOk=1'
     'lastUpdated' => '1155907695',
     'message' => 'Pakketten'
   },
+  'page builder body' => {
+    'lastUpdated' => '1275487614',
+    'message' => 'Wilt u dat de pagina bouwer een standaard set pagina\'s kiest die op de site komen, zoals een "Over ons" pagina?'
+  },
+  'page builder title' => {
+    'lastUpdated' => '1275487624',
+    'message' => 'Pagina bouwer'
+  },
   'page statistics' => {
     'lastUpdated' => '1156168809',
     'message' => 'Pagina statistieken'
@@ -2833,6 +2841,14 @@ LongTruncOk=1'
   'photo' => {
     'lastUpdated' => '1154097857',
     'message' => 'Foto'
+  },
+  'pick style' => {
+    'lastUpdated' => '1275487633',
+    'message' => 'Kies een ontwerp'
+  },
+  'pick style description' => {
+    'lastUpdated' => '1275487681',
+    'message' => 'Kies een stijl voor de site. Alle ontwerpen worden gemaakt van templates in de site, die later weer aangepast kunnen worden.'
   },
   'preferences short' => {
     'lastUpdated' => '1227628134',

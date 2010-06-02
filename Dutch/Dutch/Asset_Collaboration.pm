@@ -1275,6 +1275,38 @@ Nadat u deze instelling wijzigt worden niet alle  bestaande foto\'s opnieuw verk
     'lastUpdated' => '1147704368',
     'message' => 'Uitschrijven'
   },
+  'unsubscribe formEmail' => {
+    'lastUpdated' => '1275487345',
+    'message' => 'Een tekstformulier voor e-mail.'
+  },
+  'unsubscribe formFooter' => {
+    'lastUpdated' => '1275487402',
+    'message' => 'HTML code om het uitschrijfformulier mee te be&euml;indigen.'
+  },
+  'unsubscribe formHeader' => {
+    'lastUpdated' => '1275487394',
+    'message' => 'HTML code om het uitschrijfformulier mee te beginnen.'
+  },
+  'unsubscribe formMessage' => {
+    'lastUpdated' => '1275487432',
+    'message' => 'Geinternationaliseerde berichten, die de gebruiker de status laten zien.'
+  },
+  'unsubscribe formSubmit' => {
+    'lastUpdated' => '1275487446',
+    'message' => 'Een knop om het formulier mee in te zenden.'
+  },
+  'unsubscribe instructions' => {
+    'lastUpdated' => '1275487474',
+    'message' => 'Voer het e-mail adres in van de gebruiker die zich uit wil schrijven.'
+  },
+  'unsubscribe template' => {
+    'lastUpdated' => '1275487484',
+    'message' => 'Uitschrijfsjabloon'
+  },
+  'unsubscribe template hoverHelp' => {
+    'lastUpdated' => '1275487524',
+    'message' => 'Kies een sjabloon om een niet ingelogde gebruiker te helpen van het collabartie systeem of een draad daarin.'
+  },
   'unsubscribe.label' => {
     'lastUpdated' => '1150724139',
     'message' => '<p>Het woord &quot;Uitschrijven&quot;.</p>'
