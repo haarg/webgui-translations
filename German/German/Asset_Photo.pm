@@ -333,6 +333,18 @@ our $I18N = {
     'lastUpdated' => '1229724284',
     'message' => 'Die Anzahl der Kommentare für dieses Foto.'
   },
+  'helpvar ownerAlias' => {
+    'lastUpdated' => '1275484954',
+    'message' => 'Alias des Benutzers, der das Photo eingestellt hat. Nutzername ist Standard, falls keine Alias festgelegt ist.'
+  },
+  'helpvar ownerId' => {
+    'lastUpdated' => '1275484986',
+    'message' => 'ID des Benutzers, der des Foto eingestellt hat.'
+  },
+  'helpvar ownerProfileUrl' => {
+    'lastUpdated' => '1275485034',
+    'message' => 'URL zum Benutzerprofil des Foto Einstellers.'
+  },
   'helpvar ownerUsername' => {
     'lastUpdated' => '1229724250',
     'message' => 'Der Benutzername des Benutzers, der dieses Foto übermittelt hat.'
@@ -488,6 +500,10 @@ our $I18N = {
   'template fileUrl' => {
     'lastUpdated' => '1229722868',
     'message' => 'Bild in voller Größe betrachten'
+  },
+  'template filesForUser' => {
+    'lastUpdated' => '1275485046',
+    'message' => 'mehr Fotos'
   },
   'template friendsOnly label' => {
     'lastUpdated' => '1226016599',
