@@ -17,6 +17,10 @@ our $I18N = {
     'lastUpdated' => '1257325243',
     'message' => 'Eine Schleife, die alle installierten Sprachen enthält'
   },
+  'language_isCurrent' => {
+    'lastUpdated' => '1275485110',
+    'message' => 'Ein boolscher Wert der wahr ist, wenn dies die aktuelle Sprache ist.'
+  },
   'language_lang' => {
     'lastUpdated' => '1257325266',
     'message' => 'Name der Sprache in dieser Sprache'
