@@ -433,6 +433,10 @@ our $I18N = {
     'lastUpdated' => '1170454842',
     'message' => 'Zeigt die &quot;URL ändern&quot; Seite für dieses Asset an.'
   },
+  'clear package flag' => {
+    'lastUpdated' => '1275484798',
+    'message' => 'Paket-Marker entfernen'
+  },
   'committed versions' => {
     'lastUpdated' => '1170454956',
     'message' => 'Festgelegte Versionen'
