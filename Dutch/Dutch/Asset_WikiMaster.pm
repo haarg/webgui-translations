@@ -5,6 +5,10 @@ our $I18N = {
     'lastUpdated' => '1273494914',
     'message' => 'Verwante pagina\'s'
   },
+  'Sub-keywords' => {
+    'lastUpdated' => '1275487760',
+    'message' => 'Sub-trefwoorden'
+  },
   'actionN created' => {
     'lastUpdated' => '1166543568',
     'message' => 'Aangemaakt'
