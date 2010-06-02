@@ -205,6 +205,10 @@ our $I18N = {
     'lastUpdated' => '1222875572',
     'message' => 'Kopi&euml;ren'
   },
+  'Copy Assets' => {
+    'lastUpdated' => '1275486748',
+    'message' => 'Kopi&euml;er assets'
+  },
   'Data Type description' => {
     'lastUpdated' => '1146580963',
     'message' => 'Selecteer het soort form element voor het veld.'
@@ -437,6 +441,10 @@ Hierbij worden het label en de bijbehorende waarde door het | teken gescheiden. 
   'change url help' => {
     'lastUpdated' => '1148988883',
     'message' => 'Laat het scherm zien voor het wijzigen van de URL van deze asset.'
+  },
+  'clear package flag' => {
+    'lastUpdated' => '1275486775',
+    'message' => 'Pakket status opschonen'
   },
   'committed versions' => {
     'lastUpdated' => '1148988911',

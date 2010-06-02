@@ -45,9 +45,29 @@ our $I18N = {
     'lastUpdated' => '1204031057',
     'message' => 'Labels'
   },
+  'addArchive location' => {
+    'lastUpdated' => '1275486898',
+    'message' => 'Lokatie'
+  },
   'addArchive message' => {
     'lastUpdated' => '1201264649',
     'message' => 'De bestanden zijn verstuurd voor goedkeuring en plaatsing. <a href="%s">Ga terug naar het album</a>.'
+  },
+  'addArchive sortBy' => {
+    'lastUpdated' => '1275486905',
+    'message' => 'Sorteer op'
+  },
+  'addArchive sortBy date' => {
+    'lastUpdated' => '1275486912',
+    'message' => 'Datum'
+  },
+  'addArchive sortBy fileOrder' => {
+    'lastUpdated' => '1275486925',
+    'message' => 'Bestandsvolgorde'
+  },
+  'addArchive sortBy name' => {
+    'lastUpdated' => '1275486930',
+    'message' => 'Naam'
   },
   'assetName' => {
     'lastUpdated' => '1201264519',
@@ -217,6 +237,10 @@ our $I18N = {
     'lastUpdated' => '1201267146',
     'message' => 'De trefwoorden van de bestanden die ge-upload worden.'
   },
+  'helpvar form_location' => {
+    'lastUpdated' => '1275486946',
+    'message' => 'De lokatie van de bestanden.'
+  },
   'helpvar form_promote' => {
     'lastUpdated' => '1213702560',
     'message' => 'Een knop om een afbeelding te laten stijgen in ranking. Dit wordt gebruikt om de volgorde van de fotos te veranderen.'
@@ -228,6 +252,10 @@ our $I18N = {
   'helpvar form_rotateRight' => {
     'lastUpdated' => '1271835090',
     'message' => 'Een knop om de foto 90 graden met de klok mee te draaien.'
+  },
+  'helpvar form_sortBy' => {
+    'lastUpdated' => '1275486967',
+    'message' => 'De eigenschap waar foto\'s op gesorteerd moeten worden.'
   },
   'helpvar form_start' => {
     'lastUpdated' => '1201267360',

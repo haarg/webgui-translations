@@ -333,6 +333,18 @@ our $I18N = {
     'lastUpdated' => '1201263116',
     'message' => 'Het totale aantal commentaren dat gegeven is op deze foto.'
   },
+  'helpvar ownerAlias' => {
+    'lastUpdated' => '1275487008',
+    'message' => 'De alias van de gebruiker die deze foto gepost heeft. Als er geen alias is, wordt de gebruikersnaam gebruikt.'
+  },
+  'helpvar ownerId' => {
+    'lastUpdated' => '1275487027',
+    'message' => 'De Id van de gebruiker die de foto heeft gepost.'
+  },
+  'helpvar ownerProfileUrl' => {
+    'lastUpdated' => '1275487051',
+    'message' => 'De URL van het profiel van de gebruiker die de foto heeft gepost.'
+  },
   'helpvar ownerUsername' => {
     'lastUpdated' => '1201263086',
     'message' => 'De gebruikersnaam van de gebruiker, die deze foto heeft toegevoegd.'
@@ -488,6 +500,10 @@ our $I18N = {
   'template fileUrl' => {
     'lastUpdated' => '1203437381',
     'message' => 'Bekijk foto op volledige grootte'
+  },
+  'template filesForUser' => {
+    'lastUpdated' => '1275487060',
+    'message' => 'meer foto\'s'
   },
   'template friendsOnly label' => {
     'lastUpdated' => '1203437359',

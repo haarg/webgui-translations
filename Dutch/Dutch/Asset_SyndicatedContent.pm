@@ -126,48 +126,48 @@ our $I18N = {
     'message' => 'De omschrijving van de inhoud. Als u op zoektermen filtert dan wordt de omschrijving ook gefilterd.'
   },
   'descriptionFirst100words' => {
-    'lastUpdated' => '1190025418',
-    'message' => 'De eerste 100 woorden van de beschrijving'
+    'lastUpdated' => '1275487097',
+    'message' => 'De eerste 100 woorden van de beschrijving, zonder HTML.'
   },
   'descriptionFirst10words' => {
-    'lastUpdated' => '1207904469',
-    'message' => 'De eerste 10 woorden van de beschrijving'
+    'lastUpdated' => '1275487107',
+    'message' => 'De eerste 10 woorden van de beschrijving, zonder HTML.'
   },
   'descriptionFirst25words' => {
-    'lastUpdated' => '1190025402',
-    'message' => 'De eerste 25 woorden van de beschrijving'
+    'lastUpdated' => '1275487113',
+    'message' => 'De eerste 25 woorden van de beschrijving, zonder HTML.'
   },
   'descriptionFirst2paragraphs' => {
     'lastUpdated' => '1190025394',
     'message' => 'De eerste twee alinea\'s van de beschrijving'
   },
   'descriptionFirst2sentences' => {
-    'lastUpdated' => '1190025384',
-    'message' => 'De eerste twee zinnen van de beschrijving'
+    'lastUpdated' => '1275487118',
+    'message' => 'De eerste twee zinnen van de beschrijving, zonder HTML.'
   },
   'descriptionFirst3sentences' => {
-    'lastUpdated' => '1190025375',
-    'message' => 'De eerste drie zinnen van de beschrijving'
+    'lastUpdated' => '1275487123',
+    'message' => 'De eerste drie zinnen van de beschrijving, zonder HTML.'
   },
   'descriptionFirst4sentences' => {
-    'lastUpdated' => '1190025367',
-    'message' => 'De eerste vier zinnen van de beschrijving'
+    'lastUpdated' => '1275487129',
+    'message' => 'De eerste vier zinnen van de beschrijving, zonder HTML.'
   },
   'descriptionFirst50words' => {
-    'lastUpdated' => '1190025358',
-    'message' => 'De eerste 50 woorden van de beschrijving'
+    'lastUpdated' => '1275487135',
+    'message' => 'De eerste 50 woorden van de beschrijving, zonder HTML.'
   },
   'descriptionFirst75words' => {
-    'lastUpdated' => '1190025349',
-    'message' => 'De eerste 75 woorden van de beschrijving'
+    'lastUpdated' => '1275487141',
+    'message' => 'De eerste 75 woorden van de beschrijving, zonder HTML.'
   },
   'descriptionFirstParagraph' => {
     'lastUpdated' => '1190025337',
     'message' => 'De eerste alinea van de beschrijving'
   },
   'descriptionFirstSentence' => {
-    'lastUpdated' => '1190025328',
-    'message' => 'De eerste zin van een beschrijving'
+    'lastUpdated' => '1275487145',
+    'message' => 'De eerste zin van een beschrijving, zonder HTML.'
   },
   'displayMode' => {
     'lastUpdated' => '1207904554',
@@ -184,6 +184,10 @@ our $I18N = {
   'displayModeSubtext' => {
     'lastUpdated' => '1208527596',
     'message' => '&quot;Gemengd&quot; betekent dat de inhoud van de bestanden door elkaar is gezet. &quot;Groeperen per bestand&quot; betekent dat ze zijn gegroepeerd per bestand. De optie heeft geen invloed als u slechts &eacute;&eacute;n bestand weergeeft.'
+  },
+  'feed order' => {
+    'lastUpdated' => '1275487184',
+    'message' => 'Originele volgorde'
   },
   'get syndicated content' => {
     'lastUpdated' => '1156410347',
@@ -229,6 +233,10 @@ our $I18N = {
     'lastUpdated' => '1207904293',
     'message' => 'Een variabele (te gebruiken als tmpl_if tag) die bepaalt of het huidige item van hetzelfde RSS bestand is als het vorige item. Deze optie is zeer bruikbaar als u de bestanden gegroepeerd weergeeft. Hierdoor kunt u bijvoorbeeld per groep de site_title en de site_link weergeven.'
   },
+  'no order' => {
+    'lastUpdated' => '1275487161',
+    'message' => 'Geen sortering'
+  },
   'process macros in rss url' => {
     'lastUpdated' => '1166198463',
     'message' => 'Macro\'s verwerken in RSS URL\'s'
@@ -240,6 +248,14 @@ our $I18N = {
   'processMacrosInRssUrl' => {
     'lastUpdated' => '1170692372',
     'message' => 'Een voorwaarde die aangeeft of dit asset macro\'s moet uitvoeren die in het RSS URL veld staan of niet.'
+  },
+  'publication date ascending' => {
+    'lastUpdated' => '1275487205',
+    'message' => 'Publicatiedatum (oudste eerst)'
+  },
+  'publication date descending' => {
+    'lastUpdated' => '1275487214',
+    'message' => 'Publicatiedatum (nieuwste eerst)'
   },
   'rdf_url' => {
     'lastUpdated' => '1226494244',

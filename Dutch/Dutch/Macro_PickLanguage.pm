@@ -17,6 +17,10 @@ our $I18N = {
     'lastUpdated' => '1257328824',
     'message' => 'Een functie die alle geinstalleerde talen bevat.'
   },
+  'language_isCurrent' => {
+    'lastUpdated' => '1275487244',
+    'message' => 'Een functie die aangeeft of de taal de huidige systeemtaal is.'
+  },
   'language_lang' => {
     'lastUpdated' => '1257328838',
     'message' => 'De naam van de taal in die taal.'

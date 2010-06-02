@@ -149,6 +149,10 @@ our $I18N = {
     'lastUpdated' => '1201269868',
     'message' => 'Zoek op trefwoord'
   },
+  'helpvar searchForm_location' => {
+    'lastUpdated' => '1275486873',
+    'message' => 'Zoeken op locatie'
+  },
   'helpvar searchForm_start' => {
     'lastUpdated' => '1201270160',
     'message' => 'Begin het zoekformulier waarmee de galerie doorzocht worden.'
@@ -344,6 +348,10 @@ our $I18N = {
   'template search field keywords' => {
     'lastUpdated' => '1201705660',
     'message' => 'Zoekwoorden'
+  },
+  'template search field location' => {
+    'lastUpdated' => '1275486881',
+    'message' => 'Lokatie'
   },
   'template search field title' => {
     'lastUpdated' => '1201705666',

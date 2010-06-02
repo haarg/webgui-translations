@@ -545,6 +545,14 @@ our $I18N = {
     'lastUpdated' => '1228765194',
     'message' => 'Verzenden'
   },
+  'send reject notice' => {
+    'lastUpdated' => '1275486672',
+    'message' => 'Verwerpen vriendverzoek notificatie verzenden'
+  },
+  'send reject notice help' => {
+    'lastUpdated' => '1275486723',
+    'message' => 'Kies of bij het verwerpen van een vriendverzoek een bericht verzonden moet worden aan de gebruiker wiens verzoek verworpen is.'
+  },
   'status' => {
     'lastUpdated' => '1242137552',
     'message' => 'De status van dit bericht, internationaal gemaakt'

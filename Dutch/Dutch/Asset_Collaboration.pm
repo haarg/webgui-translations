@@ -13,6 +13,14 @@ our $I18N = {
     'lastUpdated' => '1231520206',
     'message' => 'Toon alle links'
   },
+  'Unsubscribe from %s' => {
+    'lastUpdated' => '1275486791',
+    'message' => 'Uitschrijven van %s.'
+  },
+  'You have been unsubscribed' => {
+    'lastUpdated' => '1275486801',
+    'message' => 'U bent uitgeschreven.'
+  },
   'add' => {
     'lastUpdated' => '1147186773',
     'message' => 'Toevoegen'
@@ -216,6 +224,10 @@ our $I18N = {
   'collaboration template title' => {
     'lastUpdated' => '1147700267',
     'message' => 'Collaboratie sjabloon'
+  },
+  'collaboration unsubscribe template title' => {
+    'lastUpdated' => '1275486825',
+    'message' => 'Collaboratiesysteem uitschrijfsjabloon'
   },
   'collaborationAssetId' => {
     'lastUpdated' => '1189122522',
@@ -802,6 +814,10 @@ Nadat u deze instelling wijzigt worden niet alle  bestaande foto\'s opnieuw verk
   'next.label' => {
     'lastUpdated' => '1207901580',
     'message' => 'Het woord &quot;Volgende&quot;.'
+  },
+  'no user email error message' => {
+    'lastUpdated' => '1275486848',
+    'message' => 'Er is geen gebruiker met dit e-mailadres gevonden.'
   },
   'notification template' => {
     'lastUpdated' => '1168959977',
