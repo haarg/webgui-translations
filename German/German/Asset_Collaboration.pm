@@ -1055,8 +1055,8 @@ our $I18N = {
     'message' => 'Sortiere nach'
   },
   'sort by description' => {
-    'lastUpdated' => '1179818660',
-    'message' => 'Alle Posts werden standardmässig in geordneter Reihenfolge angezeigt. Benutzen Sie dieses Feld, um die Eigenschaft auszuw&auml;hlen, nach der sortiert werden soll. Mehrere Eigenschaften können ausgew&auml;hlt werden.'
+    'lastUpdated' => '1276643070',
+    'message' => 'Alle Beiträge werden standardmässig in geordneter Reihenfolge angezeigt. Benutzen Sie dieses Feld, um die Eigenschaft auszuwählen, nach der sortiert werden soll. '
   },
   'sort order' => {
     'lastUpdated' => '1179818674',

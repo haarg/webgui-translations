@@ -61,6 +61,10 @@ our $I18N = {
     'lastUpdated' => '1217315028',
     'message' => 'Titel'
   },
+  'error no image' => {
+    'lastUpdated' => '1276643116',
+    'message' => 'Sie müssen ein Bild zum Hochladen auswählen.'
+  },
   'error no space' => {
     'lastUpdated' => '1229722689',
     'message' => 'Sie haben nicht genug Speicherplatz, um diese Datei hochzuladen.'
