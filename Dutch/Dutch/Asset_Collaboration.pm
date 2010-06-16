@@ -1060,8 +1060,8 @@ Nadat u deze instelling wijzigt worden niet alle  bestaande foto\'s opnieuw verk
     'message' => 'Sorteer op'
   },
   'sort by description' => {
-    'lastUpdated' => '1147704875',
-    'message' => 'Alle posts worden standaard in een bepaalde volgorde gesorteerd. Gebruik dit veld om de eigenschap waarop ze gesorteerd worden te kiezen. Verschillende eigenschappen kunnen worden geselecteerd.'
+    'lastUpdated' => '1276684394',
+    'message' => 'Alle posts worden standaard in een bepaalde volgorde gesorteerd. Gebruik dit veld om de eigenschap waarop ze gesorteerd worden te kiezen.'
   },
   'sort order' => {
     'lastUpdated' => '1166436643',

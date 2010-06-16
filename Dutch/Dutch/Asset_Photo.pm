@@ -61,6 +61,10 @@ our $I18N = {
     'lastUpdated' => '1204031355',
     'message' => 'Titel'
   },
+  'error no image' => {
+    'lastUpdated' => '1276684373',
+    'message' => 'U moet een afbeelding selecteren om te uploaden.'
+  },
   'error no space' => {
     'lastUpdated' => '1213629815',
     'message' => 'Er is niet genoeg diskruimte om dit bestand te uploaden'
