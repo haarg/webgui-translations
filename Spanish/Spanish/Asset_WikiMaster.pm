@@ -1,6 +1,14 @@
 package WebGUI::i18n::Spanish::Asset_WikiMaster;
 use utf8;
 our $I18N = {
+  'Related Pages' => {
+    'lastUpdated' => '1276812535',
+    'message' => 'Páginas Relacionadas'
+  },
+  'Sub-keywords' => {
+    'lastUpdated' => '1276812602',
+    'message' => 'Palabras claves secundarias'
+  },
   'actionN created' => {
     'lastUpdated' => '1253470425',
     'message' => 'Creada'
@@ -68,6 +76,46 @@ our $I18N = {
   'assetName' => {
     'lastUpdated' => '1253470706',
     'message' => 'WiKi'
+  },
+  'by keyword formFooter' => {
+    'lastUpdated' => '1276812683',
+    'message' => 'Fragmento HTML para terminar el formulario de ingreso de palabras claves secundarias. Estará vacío a menos que el usuario tenga privilegios administrativos sobre este WiKi.'
+  },
+  'by keyword formHeader' => {
+    'lastUpdated' => '1276812704',
+    'message' => 'Fragmento HTML para comenzar el formulario de ingreso de palabras claves secundarias. Estará vacío a menos que el usuario tenga privilegios administrativos sobre este WiKi.'
+  },
+  'by keyword keyword' => {
+    'lastUpdated' => '1276812788',
+    'message' => 'La palabra clave solicitada.'
+  },
+  'by keyword keywordForm' => {
+    'lastUpdated' => '1276812832',
+    'message' => 'Fragmento HTML para el campo que permite ingresar palabras claves secundarias. Estará vacío a menos que el usuario tenga privilegios administrativos sobre este WiKi.'
+  },
+  'by keyword pagesLoop' => {
+    'lastUpdated' => '1276812867',
+    'message' => 'Un ciclo que itera sobre las páginas que contienen la palabra clave solicitada.'
+  },
+  'by keyword submitForm' => {
+    'lastUpdated' => '1276812893',
+    'message' => 'El botón para enviar el formulario de palabras claves secundarias.'
+  },
+  'by keyword synopsis' => {
+    'lastUpdated' => '1276812920',
+    'message' => 'El resumen sinóptico de la página.'
+  },
+  'by keyword template title' => {
+    'lastUpdated' => '1276812962',
+    'message' => 'Variables de Plantilla para Búsqueda por Palabras Clave'
+  },
+  'by keyword title' => {
+    'lastUpdated' => '1276812972',
+    'message' => 'El título de la página.'
+  },
+  'by keyword url' => {
+    'lastUpdated' => '1276812981',
+    'message' => 'El URL de la página.'
   },
   'byKeywordTemplateId hoverHelp' => {
     'lastUpdated' => '1253470732',
@@ -189,13 +237,25 @@ our $I18N = {
     'lastUpdated' => '1272376205',
     'message' => 'Un ciclo que itera una vez por cada nivel.'
   },
+  'keyword descendants' => {
+    'lastUpdated' => '1276813017',
+    'message' => 'El número de páginas en el WiKi que están marcadas con esta palabra clave, y todas las palabras claves secundarias asociadas.'
+  },
   'keyword indent' => {
     'lastUpdated' => '1272376219',
     'message' => 'El iterador del ciclo indent_loop.'
   },
+  'keyword isTopLevel' => {
+    'lastUpdated' => '1276813082',
+    'message' => 'Un condicional que indica si la palabra clave está presente en la página indicada. Si se trata de la Página Principal del WiKi, solamente toma en cuenta las palabras clave globales. Para una página de palabras clave, solamente toma en cuenta las palabras clave secundarias.'
+  },
   'keyword level' => {
     'lastUpdated' => '1272376249',
     'message' => 'La profundidad de esta palabra clave. Las palabras clave en el nivel superior del WiKi tienen nivel 0.'
+  },
+  'keyword page variables' => {
+    'lastUpdated' => '1276813100',
+    'message' => 'Variables para Página de Palabras Clave'
   },
   'keyword title' => {
     'lastUpdated' => '1272376257',

@@ -77,6 +77,14 @@ our $I18N = {
     'lastUpdated' => '1252457968',
     'message' => 'Editar Plantilla'
   },
+  'field storageIdExample' => {
+    'lastUpdated' => '1276812045',
+    'message' => 'Imagen de Ejemplo'
+  },
+  'field storageIdExample description' => {
+    'lastUpdated' => '1276812478',
+    'message' => 'Una imagen que muestra como se verá la plantilla antes de que sea seleccionada por el usuario.'
+  },
   'head block' => {
     'lastUpdated' => undef,
     'message' => ''
