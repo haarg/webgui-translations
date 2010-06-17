@@ -85,6 +85,10 @@ our $I18N = {
     'lastUpdated' => '1276813454',
     'message' => 'Plantilla para Resumen'
   },
+  'summary template help' => {
+    'lastUpdated' => '1276814494',
+    'message' => 'Indique la plantilla a emplear para desplegar el resumen del carrito de compra, para que el usuario pueda confirmar el pago.'
+  },
   'testMode' => {
     'lastUpdated' => '1253802708',
     'message' => 'Modo Prueba'

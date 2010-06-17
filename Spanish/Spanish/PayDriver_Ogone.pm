@@ -5,6 +5,10 @@ our $I18N = {
     'lastUpdated' => '1253806297',
     'message' => 'Ogone'
   },
+  'cart summary template' => {
+    'lastUpdated' => '1276814137',
+    'message' => 'Plantilla para Resumen de Carrito -- Ogone'
+  },
   'choose billing address' => {
     'lastUpdated' => '1253806307',
     'message' => 'Seleccione dirección de cobro'
@@ -60,6 +64,14 @@ our $I18N = {
   'sha secret help' => {
     'lastUpdated' => '1253806963',
     'message' => 'El secreto SHA que se ingresa en la sección 3.2 de la página Technical Information en la interfaz de Ogone.'
+  },
+  'summary template' => {
+    'lastUpdated' => '1276814146',
+    'message' => 'Plantilla para Resumen de Carrito'
+  },
+  'summary template help' => {
+    'lastUpdated' => '1276814168',
+    'message' => 'Indique la plantilla a emplear para desplegar el resumen del carrito de compras, para que el usuario confirme el pago.'
   },
   'use test mode' => {
     'lastUpdated' => '1253806972',
