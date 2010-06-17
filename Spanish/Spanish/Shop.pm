@@ -177,6 +177,42 @@ our $I18N = {
     'lastUpdated' => '1215812523',
     'message' => 'Disponible'
   },
+  'billing address1' => {
+    'lastUpdated' => '1276809284',
+    'message' => 'Ingrese la dirección de cobro'
+  },
+  'billing city' => {
+    'lastUpdated' => '1276809299',
+    'message' => 'Ingrese la ciudad para la dirección de cobro.'
+  },
+  'billing code' => {
+    'lastUpdated' => '1276809313',
+    'message' => 'Ingrese el código postal para la dirección de cobro'
+  },
+  'billing country' => {
+    'lastUpdated' => '1276809325',
+    'message' => 'Ingrese el país para la dirección de cobro.'
+  },
+  'billing firstName' => {
+    'lastUpdated' => '1276809338',
+    'message' => 'Ingrese el nombre del destinatario en la dirección de cobro.'
+  },
+  'billing label' => {
+    'lastUpdated' => '1276809351',
+    'message' => 'Ingrese una etiqueta para la dirección de cobro.'
+  },
+  'billing lastName' => {
+    'lastUpdated' => '1276809366',
+    'message' => 'Ingrese el apellido del destinatario para la dirección de cobro.'
+  },
+  'billing phoneNumber' => {
+    'lastUpdated' => '1276809396',
+    'message' => 'Ingrese el número de teléfono de la dirección de cobro.'
+  },
+  'billing state' => {
+    'lastUpdated' => '1276809407',
+    'message' => 'Ingrese el estado o provincia de la dirección de cobro.'
+  },
   'biweekly' => {
     'lastUpdated' => '1215812534',
     'message' => 'Dos semanas'
@@ -296,6 +332,10 @@ our $I18N = {
   'coupon' => {
     'lastUpdated' => '1221674064',
     'message' => 'Cup&oacute;n'
+  },
+  'current credit message' => {
+    'lastUpdated' => '1276809422',
+    'message' => '%s tiene un crédito de %s.'
   },
   'date' => {
     'lastUpdated' => '1221674077',
@@ -621,6 +661,14 @@ our $I18N = {
     'lastUpdated' => '1222455678',
     'message' => 'El nombre de la persona de esta direcci&oacute;n.'
   },
+  'no billing address' => {
+    'lastUpdated' => '1276809508',
+    'message' => 'Ingrese una dirección de cobro, o indique alguna existente.'
+  },
+  'no shipping address' => {
+    'lastUpdated' => '1276809523',
+    'message' => 'Ingrese una dirección de envío, o indique alguna existente.'
+  },
   'not applicable' => {
     'lastUpdated' => '1222455694',
     'message' => 'N/A'
@@ -849,6 +897,10 @@ our $I18N = {
     'lastUpdated' => '1222979562',
     'message' => 'Hace lo mismo queel bot&oacute;n Elegir direcci&oacute;n de env&iacute;o'
   },
+  'shippableItemsInCart' => {
+    'lastUpdated' => '1276809546',
+    'message' => 'Un condicional que indica si al menos un item en el carrito requiere envío.'
+  },
   'shipping' => {
     'lastUpdated' => '1222911598',
     'message' => 'Envio'
@@ -857,17 +909,53 @@ our $I18N = {
     'lastUpdated' => '1222911711',
     'message' => 'Direcci&oacute;n de Env&iacute;o'
   },
+  'shipping address1' => {
+    'lastUpdated' => '1276809563',
+    'message' => 'Indique la dirección de envío.'
+  },
   'shipping amount' => {
     'lastUpdated' => '1222979413',
     'message' => 'Valor de Env&iacute;o'
   },
+  'shipping city' => {
+    'lastUpdated' => '1276809579',
+    'message' => 'Indique la ciudad de la dirección de envío.'
+  },
+  'shipping code' => {
+    'lastUpdated' => '1276809621',
+    'message' => 'Indique el código postal para la dirección de envío.'
+  },
+  'shipping country' => {
+    'lastUpdated' => '1276809632',
+    'message' => 'Indique el país para la dirección de envío.'
+  },
+  'shipping firstName' => {
+    'lastUpdated' => '1276809668',
+    'message' => 'Indique el nombre del destinatario en la dirección de envío.'
+  },
+  'shipping label' => {
+    'lastUpdated' => '1276809686',
+    'message' => 'Indique la etiqueta para la dirección de envío.'
+  },
+  'shipping lastName' => {
+    'lastUpdated' => '1276809700',
+    'message' => 'Indique el apellido del destinatario en la dirección de envío.'
+  },
   'shipping method' => {
-    'lastUpdated' => '1222277092',
-    'message' => 'M&eacute;todo de Compra'
+    'lastUpdated' => '1276809715',
+    'message' => 'Método de Envío'
   },
   'shipping methods' => {
-    'lastUpdated' => '1222979430',
-    'message' => 'M&eacute;todos de Env&iacute;o'
+    'lastUpdated' => '1276809730',
+    'message' => 'Métodos de Envío'
+  },
+  'shipping phoneNumber' => {
+    'lastUpdated' => '1276809742',
+    'message' => 'Indique el teléfono de contacto para la dirección de envío.'
+  },
+  'shipping state' => {
+    'lastUpdated' => '1276809754',
+    'message' => 'Indique el estado/provincia para la dirección de envío.'
   },
   'shippingAddress help' => {
     'lastUpdated' => '1222979464',
@@ -1052,6 +1140,10 @@ our $I18N = {
   'updateButton help' => {
     'lastUpdated' => '1221788819',
     'message' => '<div id="result_box" dir="ltr">Al hacer clic en este bot&oacute;n se aplicar&aacute;n los cambios realizados en el carro y recalcular todos los precios.</div>'
+  },
+  'use same shipping as billing' => {
+    'lastUpdated' => '1276809777',
+    'message' => 'Usar dirección de envío como dirección de cobro.'
   },
   'use this address' => {
     'lastUpdated' => '1215811268',
