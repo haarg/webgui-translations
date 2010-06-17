@@ -1,6 +1,10 @@
 package WebGUI::i18n::Spanish::PayDriver_PayPalStd;
 use utf8;
 our $I18N = {
+  'Pay' => {
+    'lastUpdated' => '1276813895',
+    'message' => 'Pagar'
+  },
   'PayPal' => {
     'lastUpdated' => '1253884090',
     'message' => 'PayPal'
@@ -12,6 +16,10 @@ our $I18N = {
   'button image help' => {
     'lastUpdated' => '1253884134',
     'message' => 'Si define esta opción, se usarán las imágenes de PayPal para los botones de pago.'
+  },
+  'cart summary template' => {
+    'lastUpdated' => '1276813980',
+    'message' => 'Plantilla para Resumen de Carrito -- PayPal Standard'
   },
   'cart transaction mismatch' => {
     'lastUpdated' => '1253884157',
@@ -116,6 +124,14 @@ our $I18N = {
   'signature help' => {
     'lastUpdated' => '1253890920',
     'message' => 'La firma de su cuenta PayPal.'
+  },
+  'summary template' => {
+    'lastUpdated' => '1276813993',
+    'message' => 'Plantilla para Resumen de Carrito'
+  },
+  'summary template help' => {
+    'lastUpdated' => '1276814029',
+    'message' => 'Indique la plantilla a emplear para desplegar el resumen del carrito de compras para que el usuario confirme el pago.'
   },
   'use sandbox' => {
     'lastUpdated' => '1253890930',
