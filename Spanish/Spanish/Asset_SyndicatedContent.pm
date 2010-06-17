@@ -142,40 +142,40 @@ our $I18N = {
     'message' => 'Las primeras diez (10) palabras de la descripción, sin HTML.'
   },
   'descriptionFirst25words' => {
-    'lastUpdated' => '1224526439',
-    'message' => 'Las primeras veinticinco (25) palabras de la descripci&oacute;n.'
+    'lastUpdated' => '1276810694',
+    'message' => 'Las primeras veinticinco (25) palabras de la descripción, sin HTML.'
   },
   'descriptionFirst2paragraphs' => {
-    'lastUpdated' => '1224526448',
-    'message' => 'Los primeros dos (2) p&aacute;rrafos de la descripci&oacute;n.'
+    'lastUpdated' => '1276810713',
+    'message' => 'Los primeros dos (2) párrafos de la descripción, sin HTML.'
   },
   'descriptionFirst2sentences' => {
-    'lastUpdated' => '1224526456',
-    'message' => 'Las primeras dos (2) frases de la descripci&oacute;n.'
+    'lastUpdated' => '1276810730',
+    'message' => 'Las primeras dos (2) frases de la descripción, sin HTML.'
   },
   'descriptionFirst3sentences' => {
-    'lastUpdated' => '1224526464',
-    'message' => 'Las primeras tres (3) frases de la descripci&oacute;n.'
+    'lastUpdated' => '1276810740',
+    'message' => 'Las primeras tres (3) frases de la descripción, sin HTML.'
   },
   'descriptionFirst4sentences' => {
-    'lastUpdated' => '1224526471',
-    'message' => 'Las primeras cuatro (4) frases de la descripci&oacute;n.'
+    'lastUpdated' => '1276810749',
+    'message' => 'Las primeras cuatro (4) frases de la descripción, sin HTML.'
   },
   'descriptionFirst50words' => {
-    'lastUpdated' => '1224526409',
-    'message' => 'Las primeras cincuenta (50) palabras de la descripci&oacute;n.'
+    'lastUpdated' => '1276810758',
+    'message' => 'Las primeras cincuenta (50) palabras de la descripción, sin HTML.'
   },
   'descriptionFirst75words' => {
-    'lastUpdated' => '1224526491',
-    'message' => 'Las primeras setenta y cinco (75) palabras de la descripci&oacute;n.'
+    'lastUpdated' => '1276810768',
+    'message' => 'Las primeras setenta y cinco (75) palabras de la descripción, sin HTML.'
   },
   'descriptionFirstParagraph' => {
-    'lastUpdated' => '1224526504',
-    'message' => 'El primer p&aacute;rrafo de la descripci&oacute;n.'
+    'lastUpdated' => '1276810781',
+    'message' => 'El primer párrafo de la descripción, sin HTML.'
   },
   'descriptionFirstSentence' => {
-    'lastUpdated' => '1224526514',
-    'message' => 'La primera frase de la descripci&oacute;n.'
+    'lastUpdated' => '1276810792',
+    'message' => 'La primera frase de la descripción, sin HTML.'
   },
   'displayMode' => {
     'lastUpdated' => '1224526613',
@@ -192,6 +192,10 @@ our $I18N = {
   'displayModeSubtext' => {
     'lastUpdated' => '1224527165',
     'message' => '&quot;Mezclados&quot; indica que los items de todas las fuentes son combinados en un s&oacute;lo grupo, mientras que &quot;Agrupados por Fuente&quot; indica que se separan seg&uacute;n la fuente de la cual fueron recuperados. Da lo mismo cualquiera de los modos si solamente se est&aacute; utilizando una fuente.'
+  },
+  'feed order' => {
+    'lastUpdated' => '1276810824',
+    'message' => 'Orden de la Fuente'
   },
   'get syndicated content' => {
     'lastUpdated' => '1224527183',
@@ -237,6 +241,10 @@ our $I18N = {
     'lastUpdated' => '1224527543',
     'message' => 'Un condicional que indica haber iniciado la presentaci&oacute;n de los items de una fuente RSS diferente la del item previo. Esto tiene utilidad cuando las fuentes est&aacute;n siendo presentadas en modo &quot;Agrupados por Fuente&quot;, pues permite acceder a las variables <strong>site_title</strong> y <strong>site_link</strong> en el momento preciso.'
   },
+  'no order' => {
+    'lastUpdated' => '1276811800',
+    'message' => 'Desordenados'
+  },
   'process macros in rss url' => {
     'lastUpdated' => '1224527644',
     'message' => 'Procesar Macros en el URL de la fuente RSS.'
@@ -248,6 +256,14 @@ our $I18N = {
   'processMacrosInRssUrl' => {
     'lastUpdated' => '1224527628',
     'message' => 'Un condicional que indica si el Activo debe procesar Macros WebGUI dentro del URL de la fuente RSS.'
+  },
+  'publication date ascending' => {
+    'lastUpdated' => '1276811881',
+    'message' => 'Fecha de Publicación (viejos primero)'
+  },
+  'publication date descending' => {
+    'lastUpdated' => '1276811907',
+    'message' => 'Fecha de Publicación (nuevos primero)'
   },
   'rdf_url' => {
     'lastUpdated' => '1227150475',
