@@ -2673,6 +2673,14 @@ our $I18N = {
     'lastUpdated' => '1207726962',
     'message' => 'Paquetes'
   },
+  'page builder body' => {
+    'lastUpdated' => '1276809120',
+    'message' => '¿Quiere utilizar el Constructor de Páginas para seleccionar el conjunto de páginas por omisión a incluir en el sitio, tales como "Acerca de Nosotros" o un Foro de Discusiones?'
+  },
+  'page builder title' => {
+    'lastUpdated' => '1276809130',
+    'message' => 'Constructor de Páginas'
+  },
   'page statistics' => {
     'lastUpdated' => '1207728047',
     'message' => 'P&aacute;gina de Estad&iacute;sticas'
@@ -2804,6 +2812,14 @@ our $I18N = {
   'photo' => {
     'lastUpdated' => '1207728683',
     'message' => 'Foto'
+  },
+  'pick style' => {
+    'lastUpdated' => '1276809016',
+    'message' => 'Seleccione un Diseño'
+  },
+  'pick style description' => {
+    'lastUpdated' => '1276809044',
+    'message' => 'Seleccione un diseño para aplicar al sitio. Todos los diseños son creados a partir de plantillas que usted podrá modificar directamente.'
   },
   'preferences short' => {
     'lastUpdated' => '1234625744',

@@ -13,6 +13,14 @@ our $I18N = {
     'lastUpdated' => '1252462272',
     'message' => 'Listar todos los Enlaces'
   },
+  'Unsubscribe from %s' => {
+    'lastUpdated' => '1276808634',
+    'message' => 'Desuscribir de %s'
+  },
+  'You have been unsubscribed' => {
+    'lastUpdated' => '1276808668',
+    'message' => 'Ha sido desuscrito'
+  },
   'add' => {
     'lastUpdated' => '1252463326',
     'message' => 'Agregar'
@@ -216,6 +224,10 @@ our $I18N = {
   'collaboration template title' => {
     'lastUpdated' => '1208180954',
     'message' => 'Variables sistema colaborativo'
+  },
+  'collaboration unsubscribe template title' => {
+    'lastUpdated' => '1276808692',
+    'message' => 'Plantilla para Desuscripción de Sistemas de Colaboración'
   },
   'collaborationAssetId' => {
     'lastUpdated' => '1208181173',
@@ -797,6 +809,10 @@ our $I18N = {
     'lastUpdated' => '1207727930',
     'message' => 'La palabra "siguiente"'
   },
+  'no user email error message' => {
+    'lastUpdated' => '1276808717',
+    'message' => 'No hay ningún usuario con esa dirección de correo.'
+  },
   'notification template' => {
     'lastUpdated' => '1252466031',
     'message' => 'Sistema de Colaboración, Plantilla para Notificaciones'
@@ -1039,7 +1055,7 @@ no cuenta con suficientes privilegios o bien no está suscrito a la discusión.'
     'message' => 'Ordenar por'
   },
   'sort by description' => {
-    'lastUpdated' => '1252467819',
+    'lastUpdated' => '1276808724',
     'message' => 'Las publicaciones siempre se muestran ordenadas. Este campo permite especificar cuál propiedad utilizar para dicho orden. Pueden seleccionarse múltiples propiedades.'
   },
   'sort order' => {
@@ -1253,6 +1269,38 @@ no cuenta con suficientes privilegios o bien no está suscrito a la discusión.'
   'unsubscribe' => {
     'lastUpdated' => '1252468713',
     'message' => 'Desuscribirse'
+  },
+  'unsubscribe formEmail' => {
+    'lastUpdated' => '1276808746',
+    'message' => 'Un campo de texto con completado automático de dirección de correo.'
+  },
+  'unsubscribe formFooter' => {
+    'lastUpdated' => '1276808762',
+    'message' => 'Fragmento HTML para terminar el formulario de desuscripción.'
+  },
+  'unsubscribe formHeader' => {
+    'lastUpdated' => '1276808776',
+    'message' => 'Fragmento HTML para iniciar el formulario de desuscripción.'
+  },
+  'unsubscribe formMessage' => {
+    'lastUpdated' => '1276808793',
+    'message' => 'Mensajes para indicar al usuario éxitos o errores.'
+  },
+  'unsubscribe formSubmit' => {
+    'lastUpdated' => '1276808810',
+    'message' => 'El botón para enviar el formulario.'
+  },
+  'unsubscribe instructions' => {
+    'lastUpdated' => '1276808834',
+    'message' => 'Ingrese la dirección de correo del usuario que quiere desuscribirse.'
+  },
+  'unsubscribe template' => {
+    'lastUpdated' => '1276808844',
+    'message' => 'Plantilla para Desuscripción'
+  },
+  'unsubscribe template hoverHelp' => {
+    'lastUpdated' => '1276808973',
+    'message' => 'Indique la plantilla a utilizar para desplegar el formulario para desuscribirse de un Sistema de Colaboración o algún Hilo de Discusión.'
   },
   'unsubscribe.label' => {
     'lastUpdated' => '1208444753',

@@ -205,6 +205,10 @@ our $I18N = {
     'lastUpdated' => '1223498562',
     'message' => 'Copiar'
   },
+  'Copy Assets' => {
+    'lastUpdated' => '1276808575',
+    'message' => 'Copiar Activos'
+  },
   'Data Type description' => {
     'lastUpdated' => '1223927519',
     'message' => 'Indique el tipo del elemento de formulario HTML para este campo.'
@@ -428,6 +432,10 @@ our $I18N = {
   'change url help' => {
     'lastUpdated' => '1223928643',
     'message' => 'Abrir la ventanda de Cambiar URL para este Activo.'
+  },
+  'clear package flag' => {
+    'lastUpdated' => '1276808591',
+    'message' => 'Limpiar indicador de Paquete'
   },
   'committed versions' => {
     'lastUpdated' => '1223928683',

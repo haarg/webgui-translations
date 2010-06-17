@@ -545,6 +545,14 @@ our $I18N = {
     'lastUpdated' => '1232663946',
     'message' => 'Enviar'
   },
+  'send reject notice' => {
+    'lastUpdated' => '1276808530',
+    'message' => 'Enviar Notificaciones de Rechazo'
+  },
+  'send reject notice help' => {
+    'lastUpdated' => '1276808560',
+    'message' => 'Indica si al rechazar una solicitud de Hacerse Amigo, también debe enviarse una notifiación al usuario que está siendo rechazado.'
+  },
   'status' => {
     'lastUpdated' => '1252509699',
     'message' => 'El estado del mensaje.'

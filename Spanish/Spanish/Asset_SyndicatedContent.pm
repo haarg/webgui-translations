@@ -134,12 +134,12 @@ our $I18N = {
     'message' => 'La descripci&oacute;n del contenido. Si est&aacute; aplicando filtros basados en contenido, este atributo tambi&eacute;n ser&aacute; examinado.'
   },
   'descriptionFirst100words' => {
-    'lastUpdated' => '1224526419',
-    'message' => 'Las primeras cien (100) palabras de la descripci&oacute;n.'
+    'lastUpdated' => '1276808899',
+    'message' => 'Las primeras cien (100) palabras de la descripción, sin HTML.'
   },
   'descriptionFirst10words' => {
-    'lastUpdated' => '1224526428',
-    'message' => 'Las primeras diez (10) palabras de la descripci&oacute;n.'
+    'lastUpdated' => '1276808910',
+    'message' => 'Las primeras diez (10) palabras de la descripción, sin HTML.'
   },
   'descriptionFirst25words' => {
     'lastUpdated' => '1224526439',

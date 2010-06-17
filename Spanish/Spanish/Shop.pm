@@ -1,13 +1,29 @@
 package WebGUI::i18n::Spanish::Shop;
 use utf8;
 our $I18N = {
+  'Add new address' => {
+    'lastUpdated' => '1276809145',
+    'message' => 'Agregar dirección'
+  },
   'Backordered' => {
     'lastUpdated' => '1253917361',
     'message' => 'Pendientes'
   },
+  'Billing Address' => {
+    'lastUpdated' => '1276809154',
+    'message' => 'Dirección de Cobro'
+  },
   'Cancelled' => {
     'lastUpdated' => '1215809342',
     'message' => 'Cancelado'
+  },
+  'Choose a payment gateway and update the cart to checkout' => {
+    'lastUpdated' => '1276809179',
+    'message' => 'Seleccionar un método de pago y actualizar el Carrito para completar la compra'
+  },
+  'Choose a payment method' => {
+    'lastUpdated' => '1276809192',
+    'message' => 'Seleccione el método de pago.'
   },
   'Choose a shipping method' => {
     'lastUpdated' => '1255726232',
@@ -45,6 +61,14 @@ our $I18N = {
     'lastUpdated' => '1221672533',
     'message' => 'Enviado'
   },
+  'Shipping Address' => {
+    'lastUpdated' => '1276809201',
+    'message' => 'Dirección de Envío'
+  },
+  'Special shipping' => {
+    'lastUpdated' => '1276809210',
+    'message' => 'Envío Especial'
+  },
   'Status' => {
     'lastUpdated' => '1257425060',
     'message' => 'Estado'
@@ -52,6 +76,10 @@ our $I18N = {
   'Success' => {
     'lastUpdated' => '1257425068',
     'message' => 'Exitoso'
+  },
+  'Update %s' => {
+    'lastUpdated' => '1276809223',
+    'message' => 'Actualizar dirección: %s'
   },
   'add a new address' => {
     'lastUpdated' => '1215809416',
