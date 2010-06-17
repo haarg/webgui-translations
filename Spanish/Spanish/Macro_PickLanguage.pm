@@ -17,6 +17,10 @@ our $I18N = {
     'lastUpdated' => '1257424917',
     'message' => 'Un ciclo que itera sobre los Idiomas instalados.'
   },
+  'language_isCurrent' => {
+    'lastUpdated' => '1276813202',
+    'message' => 'Un condicional que indica si el idioma corresponde al idioma actual.'
+  },
   'language_lang' => {
     'lastUpdated' => '1257424939',
     'message' => 'El nombre del Idioma en ese idioma.'

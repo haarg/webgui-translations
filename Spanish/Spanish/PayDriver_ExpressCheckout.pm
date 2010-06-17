@@ -1,6 +1,10 @@
 package WebGUI::i18n::Spanish::PayDriver_ExpressCheckout;
 use utf8;
 our $I18N = {
+  'Pay' => {
+    'lastUpdated' => '1276813425',
+    'message' => 'Pagar'
+  },
   'api' => {
     'lastUpdated' => '1253801446',
     'message' => 'URL API'
@@ -20,6 +24,10 @@ our $I18N = {
   'apiSandbox help' => {
     'lastUpdated' => '1253801580',
     'message' => 'Ingrese el URL hacia el API de pruebas (<em>sandbox</em>) PayPal.'
+  },
+  'cart summary template' => {
+    'lastUpdated' => '1276813441',
+    'message' => 'Plantilla para Resumen de Carrito -- PayPal Express Checkout'
   },
   'currency' => {
     'lastUpdated' => '1253801668',
@@ -72,6 +80,10 @@ our $I18N = {
   'signature help' => {
     'lastUpdated' => '1253802694',
     'message' => 'Firma tomada de las credenciales PayPal'
+  },
+  'summary template' => {
+    'lastUpdated' => '1276813454',
+    'message' => 'Plantilla para Resumen'
   },
   'testMode' => {
     'lastUpdated' => '1253802708',
