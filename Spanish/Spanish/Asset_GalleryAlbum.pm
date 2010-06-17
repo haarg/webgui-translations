@@ -45,9 +45,29 @@ our $I18N = {
     'lastUpdated' => '1252535954',
     'message' => 'Etiquetas'
   },
+  'addArchive location' => {
+    'lastUpdated' => '1276810158',
+    'message' => 'Ubicación'
+  },
   'addArchive message' => {
     'lastUpdated' => '1252536030',
     'message' => 'Sus archivos han sido incorporados y esperan aprobación. %s'
+  },
+  'addArchive sortBy' => {
+    'lastUpdated' => '1276810169',
+    'message' => 'Ordenar por'
+  },
+  'addArchive sortBy date' => {
+    'lastUpdated' => '1276810183',
+    'message' => 'Fecha'
+  },
+  'addArchive sortBy fileOrder' => {
+    'lastUpdated' => '1276810208',
+    'message' => 'Orden de Archivo'
+  },
+  'addArchive sortBy name' => {
+    'lastUpdated' => '1276810216',
+    'message' => 'Nombre'
   },
   'assetName' => {
     'lastUpdated' => '1252536058',
@@ -217,6 +237,10 @@ our $I18N = {
     'lastUpdated' => '1252540500',
     'message' => 'Las palabras clave para los Archivos a incluir.'
   },
+  'helpvar form_location' => {
+    'lastUpdated' => '1276810289',
+    'message' => 'La ubicación de los archivos incluidos.'
+  },
   'helpvar form_promote' => {
     'lastUpdated' => '1252540545',
     'message' => 'Un botón para mover la imagen hacia arriba en el orden. Se usa para cambiar la posición de las imágenes.'
@@ -228,6 +252,10 @@ our $I18N = {
   'helpvar form_rotateRight' => {
     'lastUpdated' => '1272375328',
     'message' => 'Un botón para rotar la foto 90° hacia la derecha.'
+  },
+  'helpvar form_sortBy' => {
+    'lastUpdated' => '1276810314',
+    'message' => 'Indica sobre cuál propiedad ordenar las fotos.'
   },
   'helpvar form_start' => {
     'lastUpdated' => '1215798092',

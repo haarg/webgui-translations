@@ -61,6 +61,10 @@ our $I18N = {
     'lastUpdated' => '1215795960',
     'message' => 'T&iacute;tulo'
   },
+  'error no image' => {
+    'lastUpdated' => '1276810368',
+    'message' => 'Debe seleccionar una imagen a subir.'
+  },
   'error no space' => {
     'lastUpdated' => '1224515700',
     'message' => 'Usted no dispone de espacio en disco suficiente para incorporar la Foto.'
@@ -333,6 +337,18 @@ our $I18N = {
     'lastUpdated' => '1252550795',
     'message' => 'El número total de comentarios sobre la Foto.'
   },
+  'helpvar ownerAlias' => {
+    'lastUpdated' => '1276810460',
+    'message' => 'El alias del usuario que incluyó la foto, por omisión es el nombre del usuario.'
+  },
+  'helpvar ownerId' => {
+    'lastUpdated' => '1276810477',
+    'message' => 'El Id del usuario que incluyó esta foto.'
+  },
+  'helpvar ownerProfileUrl' => {
+    'lastUpdated' => '1276810489',
+    'message' => 'El URL al perfil del usuario que incluyó esta foto.'
+  },
   'helpvar ownerUsername' => {
     'lastUpdated' => '1252550835',
     'message' => 'El nombre de usuario del usuario que incorporó la Foto.'
@@ -488,6 +504,10 @@ our $I18N = {
   'template fileUrl' => {
     'lastUpdated' => '1252552433',
     'message' => 'Ver la imagen a tamaño completo'
+  },
+  'template filesForUser' => {
+    'lastUpdated' => '1276810499',
+    'message' => 'Más fotos'
   },
   'template friendsOnly label' => {
     'lastUpdated' => '1252552439',
