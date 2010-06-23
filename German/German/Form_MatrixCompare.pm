@@ -6,12 +6,12 @@ our $I18N = {
     'message' => 'Extra Kosten'
   },
   'free add on' => {
-    'lastUpdated' => '1228689835',
-    'message' => 'Kostenlose AddOn'
+    'lastUpdated' => '1277325790',
+    'message' => 'Kostenloses AddOn'
   },
   'limited' => {
-    'lastUpdated' => '1228689857',
-    'message' => 'Beschränkt'
+    'lastUpdated' => '1277325807',
+    'message' => 'Eingeschränkt'
   },
   'matrix compare' => {
     'lastUpdated' => '1234944246',

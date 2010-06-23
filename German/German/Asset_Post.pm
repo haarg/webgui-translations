@@ -14,8 +14,8 @@ our $I18N = {
     'message' => 'von'
   },
   'Edited_on' => {
-    'lastUpdated' => '1179837807',
-    'message' => 'Bearbeitet ??'
+    'lastUpdated' => '1277325454',
+    'message' => 'Bearbeitet am'
   },
   'Skip notification' => {
     'lastUpdated' => '1269421925',
@@ -262,8 +262,8 @@ our $I18N = {
     'message' => 'URL zum Post, der die Benachrichtigung ausgelöst hat.'
   },
   'notify.subscription.message' => {
-    'lastUpdated' => '1215073098',
-    'message' => '<p>Internationalisierte Nachricht über eine neue Nachricht zu einem vom Benutzer abbonierten Thema.</p>'
+    'lastUpdated' => '1277325503',
+    'message' => 'Internationalisierte Nachricht über eine neue Nachricht zu einem vom Benutzer abonnierten Thema.'
   },
   'ownerUserId' => {
     'lastUpdated' => '1179835012',
@@ -282,8 +282,8 @@ our $I18N = {
     'message' => 'Ihr Post wurde entgegengenommen und wird zurzeit verarbeitet, damit er zur Site hinzugefügt werden kann. Bitte haben Sie ein wenig Geduld.'
   },
   'post template variables title' => {
-    'lastUpdated' => '1170408865',
-    'message' => 'Post Template Variablen<br />'
+    'lastUpdated' => '1277325573',
+    'message' => 'Post Template Variablen'
   },
   'preview.content' => {
     'lastUpdated' => '1179835102',

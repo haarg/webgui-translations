@@ -30,8 +30,8 @@ our $I18N = {
     'message' => 'Name des Dateipakets'
   },
   'bundle name help' => {
-    'lastUpdated' => '1246486006',
-    'message' => 'EIn eindeutiger Name für dieses Paket.'
+    'lastUpdated' => '1277325659',
+    'message' => 'Ein eindeutiger Name für dieses Paket.'
   },
   'cssFiles' => {
     'lastUpdated' => '1246486018',
