@@ -2931,8 +2931,8 @@ Kopieren Sie ggf. Dateien und fügen Sie diese in den Editor ein.'
     'message' => 'Profil'
   },
   'profile privacy settings' => {
-    'lastUpdated' => '1228684580',
-    'message' => '&nbsp;Privat-Einstellungen'
+    'lastUpdated' => '1277706910',
+    'message' => 'Privat-Einstellungen'
   },
   'purge workflow' => {
     'lastUpdated' => '1199973354',
@@ -3537,8 +3537,8 @@ Kopieren Sie ggf. Dateien und fügen Sie diese in den Editor ein.'
     'message' => 'Versionstag Modus'
   },
   'version tag mode help' => {
-    'lastUpdated' => '1228685072',
-    'message' => '<p>Festelgen des Verhaltens der Versions-Tags</p><ul><li>Mehrere Versions-Tags pro Benutzer: Jeder Benutzer kann mehrere offene Versions-Tags haben.</li><li>Einzelne Versions-Tags pro Benutzer: Jeder Benutzer darf nur einen offenen Versions-Tag haben. Ein bestehender offener Versions-Tag wird automtisch zurückgesetzt. </li><li>Ein Site-weiter Versions-Tag: Alle Benutzer arbeiten mit einem Site-weiten Versions-Tag</li><li>Automatisch &uuml;bergeben: Versions-Tags werden automatisch &uuml;bergeben</li></ul>Benutzer können diese Einstellung in ihrem Profil &uuml;berschreiben.'
+    'lastUpdated' => '1277706837',
+    'message' => 'Festlegen des Verhaltens der Versions-Tags<ul><li>Mehrere Versions-Tags pro Benutzer: Jeder Benutzer kann mehrere offene Versions-Tags haben.</li><li>Einzelne Versions-Tags pro Benutzer: Jeder Benutzer darf nur einen offenen Versions-Tag haben. Ein bestehender offener Versions-Tag wird automtisch zurückgesetzt. </li><li>Ein Site-weiter Versions-Tag: Alle Benutzer arbeiten mit einem Site-weiten Versions-Tag</li><li>Automatisch übergeben: Versions-Tags werden automatisch übergeben</li></ul>Benutzer können diese Einstellung in ihrem Profil Überschreiben.'
   },
   'versionTagMode autoCommit' => {
     'lastUpdated' => '1228685094',

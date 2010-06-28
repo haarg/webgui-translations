@@ -573,8 +573,8 @@ Sie können sich jetzt mit Ihrer Kennung und Ihrem Passwort anmelden.'
     'message' => 'Profil-Feld'
   },
   'setting webguiNonWordCharacters' => {
-    'lastUpdated' => '1228691159',
-    'message' => 'Nummer der verlangten&nbsp; Nicht-Buchstaben-Zeichen in einem Passwort.'
+    'lastUpdated' => '1277707130',
+    'message' => 'Anzahl der verlangten Nicht-Buchstaben-Zeichen in einem Passwort.'
   },
   'setting webguiNonWordCharacters help' => {
     'lastUpdated' => '1228691208',
