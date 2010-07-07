@@ -559,6 +559,10 @@ Wenn Sie "verborgen" oder "sichtbar" wählen, geben Sie bitte auch einen Standar
     'lastUpdated' => '1240495868',
     'message' => 'Die Bezeichnung eines durchsuchbaren Feldes'
   },
+  'searchFields_listType' => {
+    'lastUpdated' => '1278344653',
+    'message' => 'Ein boolscher Wert, der anzeigt, ob diese Feld vom Typ Liste ist.'
+  },
   'searchFields_loop' => {
     'lastUpdated' => '1251505193',
     'message' => 'Eine Schleife, die die durchsuchbaren Felder enthält'

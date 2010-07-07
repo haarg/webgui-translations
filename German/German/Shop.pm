@@ -217,6 +217,10 @@ our $I18N = {
     'lastUpdated' => '1273649880',
     'message' => 'Bitte geben Sie Bundesland/Bezirk für die Rechnungsadresse an.'
   },
+  'billingAddressChooser help' => {
+    'lastUpdated' => '1278344752',
+    'message' => 'Eine Dropdown-Auswahlliste zur Auswahl der Standardrechnungsadresse.'
+  },
   'biweekly' => {
     'lastUpdated' => '1228749149',
     'message' => 'Zwei Wochen'
@@ -396,6 +400,10 @@ our $I18N = {
   'email' => {
     'lastUpdated' => '1228749164',
     'message' => 'E-Mail'
+  },
+  'emailField help' => {
+    'lastUpdated' => '1278344792',
+    'message' => 'Ein Feld, das die E-Mail-Adresse zu dieser Adresse enthält.'
   },
   'empty cart' => {
     'lastUpdated' => '1240755736',
@@ -577,6 +585,10 @@ our $I18N = {
     'lastUpdated' => '1241157332',
     'message' => 'Die ID des Verkäufers dieses Items'
   },
+  'itemAddressChooser help' => {
+    'lastUpdated' => '1278344908',
+    'message' => 'Eine Dropdown-Auswahlliste zur Wahl der Versandadresse eines einzelnen Produktes im Warenkorb, ermöglicht durch Pro-Produkt-Versand.'
+  },
   'itemId' => {
     'lastUpdated' => '1241158021',
     'message' => 'Die eindeutige ID für dieses Item aus allen Items in allen Transaktionen'
@@ -622,6 +634,10 @@ our $I18N = {
     'lastUpdated' => '1241190631',
     'message' => 'DIese Vorlage zeigt Teilinformationen zu den Transaktionen des benutzers an.'
   },
+  'message help' => {
+    'lastUpdated' => '1278344956',
+    'message' => 'Wenn der Warenkorb leer ist wir dem Benutzer diese internationalisierte Meldung angezeigt.'
+  },
   'minicart template' => {
     'lastUpdated' => '1240781660',
     'message' => 'Warenkorb Vorlage'
@@ -629,6 +645,10 @@ our $I18N = {
   'minicart template help' => {
     'lastUpdated' => '1241190295',
     'message' => 'Die folgenden Variablen sind in der Vorlage zum Warenkorb vorhanden.'
+  },
+  'minimumCartAmount help' => {
+    'lastUpdated' => '1278345032',
+    'message' => 'Der minimale Warenkorbwert aus den Einstellungen mit formatiert mit zwei Nachkommastellen.'
   },
   'mixed items warning' => {
     'lastUpdated' => '1241157671',
@@ -781,6 +801,10 @@ Eine Liste mit jeder einzelnen Transaktion statt der komplette Transaktionsliste
     'lastUpdated' => '1241158419',
     'message' => 'Bundesland Rechnungsadresse'
   },
+  'paymentOptions help' => {
+    'lastUpdated' => '1278345421',
+    'message' => 'Eine Auswahlliste die alle konfigurierten Bezahlmöglichkeiten für diese Bestellung enthält.'
+  },
   'per item shipping' => {
     'lastUpdated' => '1241298477',
     'message' => 'Einzellieferung'
@@ -853,9 +877,17 @@ Eine Liste mit jeder einzelnen Transaktion statt der komplette Transaktionsliste
     'lastUpdated' => '1240758373',
     'message' => 'Rückerstattung'
   },
+  'registerLink help' => {
+    'lastUpdated' => '1278345370',
+    'message' => 'Ein Link, mit dem der Benutzer einen Account auf dieser Seite erstellen kann, falls er noch keinen hat. Diese Variable wird nur zur Verfügung gestellt, wenn der aktuelle Benutzer Besucher ist.'
+  },
   'remove button' => {
     'lastUpdated' => '1240758225',
     'message' => 'Entfernen'
+  },
+  'removeBox help' => {
+    'lastUpdated' => '1278345292',
+    'message' => 'Eine Checkbox um diesen Artikel aus dem Warenkorb zu löschen.'
   },
   'removeButton help' => {
     'lastUpdated' => '1241167089',
@@ -872,6 +904,10 @@ Eine Liste mit jeder einzelnen Transaktion statt der komplette Transaktionsliste
   'sale notification group help' => {
     'lastUpdated' => '1256112886',
     'message' => 'Wer soll über eine neue Transaktion benachrichtigt werden?'
+  },
+  'sameShippingAsBilling help' => {
+    'lastUpdated' => '1278345265',
+    'message' => 'Eine Checkbox um dem Warenkorb identische Versand- und Rechnungsadresse zuzuweisen.'
   },
   'saveButton help' => {
     'lastUpdated' => '1240758305',
@@ -981,6 +1017,10 @@ Eine Liste mit jeder einzelnen Transaktion statt der komplette Transaktionsliste
   'shippingAddress3' => {
     'lastUpdated' => '1240757994',
     'message' => 'Die dritte Zeile einer Versandadresse'
+  },
+  'shippingAddressChooser help' => {
+    'lastUpdated' => '1278345182',
+    'message' => 'Eine Dropdown-Auswahlliste zur Auswahl einer Standardversandadresse für alle Artikel im Warenkorb. Möglichkeit zur Bearbeitung und Ergänzung von Adressen ist vorhanden.'
   },
   'shippingAddressCity' => {
     'lastUpdated' => '1240756142',
@@ -1165,6 +1205,10 @@ Eine Liste mit jeder einzelnen Transaktion statt der komplette Transaktionsliste
   'userId' => {
     'lastUpdated' => '1228750362',
     'message' => 'Die Benutzer-ID des Benutzers, der diese Trransaktion ausgeführt hat.'
+  },
+  'userIsVisitor help' => {
+    'lastUpdated' => '1278345076',
+    'message' => 'Ein boolscher Wert der wahr ist, falls der aktuelle Benutzer Besucher ist.'
   },
   'username' => {
     'lastUpdated' => '1228749285',

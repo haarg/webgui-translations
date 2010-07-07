@@ -190,8 +190,8 @@ our $I18N = {
     'message' => 'Bedingung, die wahr ist, falls der Benuzter einen neuen Post hinzufügt. Gegenteil vom Bearbeiten eines schon existierenden Posts.'
   },
   'isNewThread' => {
-    'lastUpdated' => '1179834361',
-    'message' => 'Bedingung, die wahr ist, falls der Benutzer einen neuen Post hinzufügt.'
+    'lastUpdated' => '1278344415',
+    'message' => 'Bedingung, die wahr ist, falls der Benutzer einen neuen Thread hinzufügt.'
   },
   'isPackage' => {
     'lastUpdated' => '1179834378',
@@ -202,8 +202,12 @@ our $I18N = {
     'message' => 'Bedingung, die anzeigt, ob dieser Post ein Inhaltsprototyp ist.'
   },
   'isReply' => {
-    'lastUpdated' => '1179834424',
-    'message' => 'Bedingung, die wahr ist, falls der Benuzter auf einen existierenden Post antwortet.'
+    'lastUpdated' => '1278344369',
+    'message' => 'Bedingung, die wahr ist, falls der Benutzer auf einen existierenden Post antwortet.'
+  },
+  'isSubscribedToCs' => {
+    'lastUpdated' => '1278344547',
+    'message' => 'Ein boolscher Wert, der wahr ist, falls der aktuelle Benutzer das CS mit diesem Beitrag abonniert hat.'
   },
   'isThread' => {
     'lastUpdated' => '1179834473',
