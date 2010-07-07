@@ -622,6 +622,26 @@ our $I18N = {
     'message' => 'Sie müssen sich <a href="%s">anmelden</a> um den Einkauf tätigen zu können.
 '
   },
+  'loginFormButton help' => {
+    'lastUpdated' => '1278535802',
+    'message' => 'Das Ende des Formulars das dem Benutzer beim Login hilft. Diese Variable steht nur zur Verfügung, falls der aktuelle Benutzer Besucher ist.'
+  },
+  'loginFormFooter help' => {
+    'lastUpdated' => '1278535775',
+    'message' => 'Das Ende des Formulars das dem Benutzer beim Login hilft. Diese Variable steht nur zur Verfügung, falls der aktuelle Benutzer Besucher ist.'
+  },
+  'loginFormHeader help' => {
+    'lastUpdated' => '1278535758',
+    'message' => 'Der Anfang des Formulars das dem Benutzer beim Login hilft. Diese Variable steht nur zur Verfügung, falls der aktuelle Benutzer Besucher ist.'
+  },
+  'loginFormPassword help' => {
+    'lastUpdated' => '1278535661',
+    'message' => 'Eine Textbox mit der die Benutzer ihr Passwort verdeckt eingeben. Die Variable steht nur zur Verfügung, falls der aktuelle Benutzer Besucher ist.'
+  },
+  'loginFormUsername help' => {
+    'lastUpdated' => '1278535599',
+    'message' => 'Eine Textbox mit der die Benutzer ihren Namen eingeben. Die Variable steht nur zur Verfügung, falls der aktuelle Benutzer Besucher ist.'
+  },
   'manage' => {
     'lastUpdated' => '1240758683',
     'message' => 'Verwalten'
