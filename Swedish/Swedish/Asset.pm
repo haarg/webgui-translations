@@ -249,6 +249,10 @@ our $I18N = {
     'lastUpdated' => '1210455527',
     'message' => 'Status f&ouml;r export av sida'
   },
+  'Paste' => {
+    'lastUpdated' => '1278597640',
+    'message' => 'Klistra in'
+  },
   'Possible Values description' => {
     'lastUpdated' => '1240705930',
     'message' => ''

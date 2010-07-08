@@ -5,3 +5,7 @@ username - användarnamn
 
 Kontakt: support snabela canit punkt se
 
+å --> &aring;
+ä --> &auml;
+ö --> &ouml;
+
