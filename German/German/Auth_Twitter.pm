@@ -13,6 +13,23 @@ our $I18N = {
     'lastUpdated' => '1278536218',
     'message' => 'Wählen Sie einen Benutzernamen.'
   },
+  'consumer key' => {
+    'lastUpdated' => '1278872158',
+    'message' => 'Twitter Consumer Key '
+  },
+  'consumer key help' => {
+    'lastUpdated' => '1278872210',
+    'message' => 'Der Consumer Key Ihrer Applikations-Einstellungen'
+  },
+  'consumer secret' => {
+    'lastUpdated' => '1278872218',
+    'message' => 'Twitter Consumer Secret
+'
+  },
+  'consumer secret help' => {
+    'lastUpdated' => '1278872242',
+    'message' => 'Der Consumer Secret Ihrer Applikations-Einstellungen'
+  },
   'enabled' => {
     'lastUpdated' => '1278536031',
     'message' => 'Aktiviert'
