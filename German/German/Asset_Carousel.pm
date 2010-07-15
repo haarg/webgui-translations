@@ -5,6 +5,14 @@ our $I18N = {
     'lastUpdated' => '1244064122',
     'message' => 'Carousel'
   },
+  'carousel slideHeight description' => {
+    'lastUpdated' => '1279222516',
+    'message' => 'Höhe in Pixel. Das Carousel passt seine Größe nicht selbst automatisch bei unterschiedlichen Breiten an. Das Vorgeben dieser Breite führt zu einer besseren Darstellung. Beim Standardwert \'0\' wird die Breite des Carousels auf die Breite des ersten Carousel-Elements gesetzt.'
+  },
+  'carousel slideHeight label' => {
+    'lastUpdated' => '1279222341',
+    'message' => 'Höhe des Carousel-Bereichs '
+  },
   'carousel slideWidth description' => {
     'lastUpdated' => '1250973472',
     'message' => 'Breite in Pixel. Die Carouselbreite wird nicht automatische angepasst an den Inhalt. Die Einstellung der Breite unterstützt den Seitenaufbau. Wenn 0, wird die Breite durch die Breite des ersten Elements festgelegt.'
@@ -53,9 +61,13 @@ our $I18N = {
     'lastUpdated' => '1244064369',
     'message' => 'Folgenummer für dieses Carouselitem.'
   },
+  'slideHeight' => {
+    'lastUpdated' => '1279222307',
+    'message' => 'Die Höhe für jeden Bereich im Carousel.'
+  },
   'slideWidth' => {
-    'lastUpdated' => '1250973281',
-    'message' => 'Die Breite für jeden Bereich im Carousel'
+    'lastUpdated' => '1279222314',
+    'message' => 'Die Breite für jeden Bereich im Carousel.'
   },
   'text' => {
     'lastUpdated' => '1244064238',
