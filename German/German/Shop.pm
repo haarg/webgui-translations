@@ -509,6 +509,10 @@ our $I18N = {
     'lastUpdated' => '1240756823',
     'message' => 'Die Asset-ID für diesen Artikel.'
   },
+  'item extendedPricePlusTax help' => {
+    'lastUpdated' => '1279222176',
+    'message' => 'Steuer plus Preis für diesen Artikel multipliziert mit seiner Menge im Warenkorb. Diese Variable steht nur zur Verfügung, wenn der aktuelle Benutzer nicht \'Besucher\' ist.'
+  },
   'item lastUpdated' => {
     'lastUpdated' => '1240781617',
     'message' => 'Datum letzter Änderung Transaktionsitem'
@@ -524,6 +528,10 @@ our $I18N = {
   'item price' => {
     'lastUpdated' => '1240755758',
     'message' => 'Artikelpreis'
+  },
+  'item pricePlusTax help' => {
+    'lastUpdated' => '1279222216',
+    'message' => 'Steuer plus Preis für diesen Artikel. Diese Variable steht nur zur Verfügung, wenn der aktuelle Benutzer nicht \'Besucher\' ist.'
   },
   'item quantity' => {
     'lastUpdated' => '1240758930',
@@ -572,6 +580,14 @@ our $I18N = {
   'item shippingName' => {
     'lastUpdated' => '1241158116',
     'message' => 'Name Versandadresse für dieses Item'
+  },
+  'item taxAmount help' => {
+    'lastUpdated' => '1279222235',
+    'message' => 'Steuer für diesen Artikel. Diese Variable steht nur zur Verfügung, wenn der aktuelle Benutzer nicht \'Besucher\' ist.'
+  },
+  'item taxRate help' => {
+    'lastUpdated' => '1279222254',
+    'message' => 'Steuersatz für diesen Artikel. Diese Variable steht nur zur Verfügung, wenn der aktuelle Benutzer nicht \'Besucher\' ist.'
   },
   'item transactionId' => {
     'lastUpdated' => '1241157961',
